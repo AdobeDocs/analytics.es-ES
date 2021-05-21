@@ -2,14 +2,14 @@
 description: A cada ID al que desee permitir búsquedas se le asigna un área de nombres, que es una cadena personalizada que identifica ese ID en cualquier variable en la que se utiliza en todos los grupos de informes.
 title: Espacios de nombres
 uuid: cab61844-3209-4980-b14c-6859de777606
+exl-id: 421572c2-2789-48bc-b530-d48216799724
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '903'
 ht-degree: 100%
 
 ---
-
 
 # Espacios de nombres
 
