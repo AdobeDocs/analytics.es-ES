@@ -2,20 +2,20 @@
 description: Ejemplos de etiquetas de privacidad de datos para variables de Adobe Analytics
 title: Etiquetas de privacidad de datos para variables de Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
+exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '3649'
 ht-degree: 100%
 
 ---
 
-
 # Etiquetas de privacidad de datos para variables de Analytics
 
 ## ¿Por qué debería etiquetar sus datos? {#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
 
-Muchos clientes de Adobe tienen equipos legales que han revisado las leyes de privacidad de datos (RGPD, CCPA, etc.) y que han sacado sus propias conclusiones sobre cómo deben manejarse los datos para cumplir con las leyes de privacidad de datos. Las interpretaciones legales pueden ser distintas de una empresa a otra y la configuración de administración de datos también puede diferir según el cliente. Dado que los clientes tienen distintas preferencias para el tratamiento de privacidad de datos y diferentes conjuntos de datos, Adobe permite a sus clientes, como responsables del tratamiento de datos, personalizar la configuración que deseen para el tratamiento de privacidad de datos en lo relativo a sus propios datos. De este modo, cada cliente individual puede tratar las solicitudes de privacidad de datos de la manera que mejor se adapte a su marca y a su conjunto de datos único.
+Muchos clientes de Adobe tienen equipos legales que han revisado las leyes de privacidad de datos (RGPD, CCPA, etc.) y que han sacado sus propias conclusiones sobre cómo deben manejarse los datos para cumplir con las leyes de privacidad de datos. Las interpretaciones legales pueden ser distintas de una empresa a otra y la configuración de administración de datos también puede diferir según el cliente. Dado que los clientes tienen distintas preferencias para el tratamiento de privacidad de datos y diferentes conjuntos de datos, Adobe permite a sus clientes, como responsables del tratamiento de datos, personalizar la configuración que deseen para el tratamiento de privacidad de datos en lo relativo a sus propios datos. De este modo, cada cliente único puede tratar las solicitudes de privacidad de datos de la manera que mejor se adapte a su marca y a su conjunto de datos único.
 
 Adobe Analytics proporciona herramientas para etiquetar datos según su confidencialidad y las restricciones contractuales. Las etiquetas resultan importantes y útiles a la hora de: (1) identificar a los interesados, (2) determinar qué datos se han de devolver en una solicitud de acceso e (3) identificar campos de datos que se deban eliminar en una solicitud de eliminación.
 
@@ -437,7 +437,7 @@ En esta sección se pretende aclarar la información sobre las variables de Anal
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de visitante </p> <p>MCID/ECID </p> </td> 
-   <td colname="col2"> <p> Estas etiquetas tienen una etiqueta DEL-DEVICE, pero no se puede añadir la etiqueta DEL-PERSON. Si especifica <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> Expansión de ID</a> con cada solicitud, estos ID se eliminarán automáticamente para todas las solicitudes de eliminación, incluso las que utilizan un ID-PERSON. </p> <p>Si no utiliza la expansión de ID, pero desea que estos ID de cookie se anonimicen en las visitas que contengan un ID coincidente en una prop o eVar, puede solucionar esta limitación de etiquetado mediante el etiquetado de la prop o eVar con una etiqueta ID-DEVICE, incluso si realmente identifica a una persona (todas las etiquetas DEL-PERSON también necesitarán cambiarse a etiquetas DEL-DEVICE). En este caso, dado que solo algunas instancias del ID del visitante o del ECID se están anonimizando, los recuentos de visitantes únicos cambiarán en los informes del historial. </p> </td> 
+   <td colname="col2"> <p> Estas etiquetas tienen una etiqueta DEL-DEVICE, pero no se puede añadir la etiqueta DEL-PERSON. Si especifica <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> Expansión de ID</a> con cada solicitud, estos ID se eliminarán automáticamente para todas las solicitudes de eliminación, incluso las que utilizan un ID-PERSON. </p> <p>Si no utiliza la expansión de ID, pero desea que estos ID de cookie se anonimicen en las visitas que contengan un ID coincidente en una prop o eVar, puede solucionar esta limitación de etiquetado mediante el etiquetado de la prop o eVar con una etiqueta ID-DEVICE, incluso si realmente identifica a una persona (todas las etiquetas DEL-PERSON también necesitarán cambiarse a etiquetas DEL-DEVICE). En este caso, dado que solo algunas instancias del ID del visitante o del ECID se están anonimizando, las cantidades de visitantes únicos cambiarán en los informes del historial. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de AMO </p> </td> 
@@ -483,4 +483,4 @@ Hay cinco variables estándar que contienen marcadores de tiempo:
 
 El código para generar los archivos devueltos por las solicitudes de acceso amparadas en la privacidad de datos requiere que al menos una de las tres primeras variables de marcador de tiempo se incluya en la solicitud de acceso (que tenga una etiqueta ACC que se aplique al tipo de solicitud). Si no se incluye ninguna de estas marcas, Custom Hit Time UTC se trata como si tuviera una etiqueta ACC-ALL.
 
-El archivo CSV del nivel de visita que devuelven las solicitudes de acceso amparadas en la privacidad de datos convierte los valores de estos campos de marcador de tiempo Unix en campos de fecha y hora con el formato AAAA-MM-DD HH:MM:SS (por ejemplo, 2018-05-01 13:49:22). En el archivo HTML de resumen, estos valores de marcador de tiempo se truncan para incluir únicamente la fecha, AAAA-MM-DD, con el fin de reducir el número de valores exclusivos en estos campos.
+El archivo CSV del nivel de visita que devuelven las solicitudes de acceso amparadas en la privacidad de datos convierte los valores de estos campos de marcador de tiempo Unix en campos de fecha y hora con el formato AAAA-MM-DD HH:MM:SS (por ejemplo, 2018-05-01 13:49:22). En el archivo HTML de resumen, estos valores de marcador de tiempo se truncan para incluir únicamente la fecha, AAAA-MM-DD, con el fin de reducir el número de valores únicos en estos campos.
