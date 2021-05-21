@@ -1,14 +1,14 @@
 ---
 title: registerPreTrackCallback
 description: Cree funciones de devolución de llamada antes de enviar una visita a Adobe.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
 ---
-
 
 # registerPreTrackCallback
 
@@ -16,13 +16,13 @@ La variable `registerPreTrackCallback` permite a la organización conectar una f
 
 >[!IMPORTANT]
 >
-> No llame ninguna llamada de seguimiento como [`t()`](t-method.md) o [`tl()`](tl-method.md) dentro de la variable [`registerPostTrackCallback`](registerposttrackcallback.md). Las funciones de seguimiento en esta variable provocan un bucle infinito de solicitudes de imagen.
+>No llame ninguna llamada de seguimiento como [`t()`](t-method.md) o [`tl()`](tl-method.md) dentro de la variable [`registerPostTrackCallback`](registerposttrackcallback.md). Las funciones de seguimiento en esta variable provocan un bucle infinito de solicitudes de imagen.
 
 Cada vez que llama a la variable `registerPreTrackCallback`, vincula esa función para que se ejecute cada vez que se compile una URL de solicitud de imagen. Evite registrar la misma función varias veces en la misma carga de página.
 
 >[!NOTE]
 >
-> No se garantiza el tiempo y el orden de las funciones activadas entre `registerPreTrackCallback` y `registerPostTrackCallback`. Evite las dependencias entre estas dos funciones.
+>No se garantiza el tiempo y el orden de las funciones activadas entre `registerPreTrackCallback` y `registerPostTrackCallback`. Evite las dependencias entre estas dos funciones.
 
 ## Registro de devoluciones de llamada previo al seguimiento en Adobe Experience Platform Launch
 
