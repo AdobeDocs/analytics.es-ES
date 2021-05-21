@@ -1,14 +1,14 @@
 ---
 title: Profundidad de la visita
 description: Número de visitas individuales en la visita.
+exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '261'
 ht-degree: 100%
 
 ---
-
 
 # Profundidad de la visita
 
