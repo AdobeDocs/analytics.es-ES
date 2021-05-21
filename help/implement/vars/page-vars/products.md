@@ -1,14 +1,14 @@
 ---
 title: products
 description: Enviar datos sobre qué productos se muestran o están en el carro de compras.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # products
 
@@ -97,7 +97,7 @@ s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
-Si utiliza la capa `digitalData` [de](../../prepare/data-layer.md)datos, puede iterar a través de la matriz de `digitalData.product` objetos:
+Si utiliza la `digitalData` [capa de datos](../../prepare/data-layer.md), puede iterar a través de la matriz de objetos `digitalData.product`:
 
 ```js
 for(var i=0; i<digitalData.product.length; i++) {
