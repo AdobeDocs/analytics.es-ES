@@ -3,16 +3,16 @@ description: Crear una cohorte y ejecutar un informe de análisis de cohorte en 
 keywords: Analysis Workspace
 title: Ejecutar un informe de análisis de cohorte
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-feature: Visualizations
+feature: Visualizaciones
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 99%
+exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '953'
+ht-degree: 100%
 
 ---
-
 
 # Configurar un informe de [!UICONTROL análisis de cohorte]
 
@@ -59,4 +59,3 @@ Cree una cohorte y ejecute un informe de [!UICONTROL análisis de cohorte] en An
    >[!NOTE]
    >
    >Debe guardar el proyecto antes de que la depuración esté disponible.
-
