@@ -3,14 +3,14 @@ description: 'También puede utilizar las dimensiones Audiencias de AAM en Analy
 solution: Experience Cloud
 title: Utilización de los datos de audiencias en Analytics
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '642'
 ht-degree: 100%
 
 ---
-
 
 # Utilización de los datos de audiencias en Analytics
 
@@ -88,4 +88,3 @@ Puede incorporar las dimensiones Audiencias al [Generador de segmentos](/help/co
 1. Desde esta carpeta tiene acceso a las dimensiones ID de audiencias y Nombre de audiencia.
 
    ![](assets/mc-audiences.png)
-
