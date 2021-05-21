@@ -1,14 +1,14 @@
 ---
 title: Carros de compras
 description: Número de visitas en las que un visitante agregó su primer producto al carro de compras.
+exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
 translation-type: ht
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
 ---
-
 
 # Carros de compras
 
