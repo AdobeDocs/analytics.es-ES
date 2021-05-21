@@ -1,14 +1,14 @@
 ---
 title: registerPostTrackCallback
 description: Cree funciones de llamada de retorno después de enviar una visita a Adobe.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # registerPostTrackCallback
 
@@ -16,13 +16,13 @@ La variable `registerPostTrackCallback` permite a su organización conectar una 
 
 >[!IMPORTANT]
 >
-> No llame ninguna llamada de seguimiento como [`t()`](t-method.md) o [`tl()`](tl-method.md) dentro de la variable `registerPostTrackCallback`. Las funciones de seguimiento en esta variable provocan un bucle infinito de solicitudes de imagen.
+>No llame ninguna llamada de seguimiento como [`t()`](t-method.md) o [`tl()`](tl-method.md) dentro de la variable `registerPostTrackCallback`. Las funciones de seguimiento en esta variable provocan un bucle infinito de solicitudes de imagen.
 
 Cada vez que llama a la variable `registerPostTrackCallback`, vincula esa función para que se ejecute de forma inmediata después de que se envíe correctamente una solicitud de imagen. Evite registrar la misma función varias veces en la misma carga de página.
 
 >[!NOTE]
 >
-> No se garantiza el tiempo y el orden de las funciones activadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) y `registerPostTrackCallback`. Evite las dependencias entre estas dos funciones.
+>No se garantiza el tiempo y el orden de las funciones activadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) y `registerPostTrackCallback`. Evite las dependencias entre estas dos funciones.
 
 ## Registro de devoluciones de llamada posterior al seguimiento en Adobe Experience Platform Launch
 
@@ -30,7 +30,7 @@ No hay un campo específico en Launch para utilizar esta variable. Utilice el ed
 
 ## s.registerPostTrackCallback en el editor de código personalizado de AppMeasurement y Launch
 
-`s.registerPostTrackCallback` es una función que toma una función como su único argumento. La función anidada se ejecuta inmediatamente después de enviar correctamente una solicitud de imagen.
+`s.registerPostTrackCallback` es una función que toma una función como su único argumento. La función anidada se ejecuta justo después de que se envíe una solicitud de imagen.
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
