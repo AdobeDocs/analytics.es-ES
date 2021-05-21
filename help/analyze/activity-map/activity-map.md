@@ -4,14 +4,14 @@ title: Descripción general de Activity Map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 98%
+exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '284'
+ht-degree: 100%
 
 ---
-
 
 # Descripción general de Activity Map
 
@@ -55,4 +55,3 @@ Activity Map permite configurar distintas vistas para identificar visualmente la
 * [Informes de Activity Map en Analytics](activitymap-reporting-analytics.md)
 * [Solución de problemas con las extensiones de los exploradores](troubleshooting-browser-extensions.md)
 * [Recursos de conocimientos](activitymap-info-resources.md)
-
