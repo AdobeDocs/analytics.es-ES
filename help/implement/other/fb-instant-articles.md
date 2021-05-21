@@ -1,14 +1,14 @@
 ---
 title: Implementación con Artículos instantáneos de Facebook
 description: Implementar Adobe Analytics en páginas de Artículos instantáneos de Facebook.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '466'
 ht-degree: 100%
 
 ---
-
 
 # Implementación con Artículos instantáneos de Facebook
 
@@ -88,7 +88,7 @@ El siguiente ejemplo muestra varias variables personalizadas incluidas en una ca
 
 >[!NOTE]
 >
->La dimensión Referente no se rastrea automáticamente debido a la naturaleza de los iframes. Asegúrese de incluir esta dimensión como parte de la cadena de consulta si desea rastrearla.
+>La dimensión Referente no se rastrea automáticamente debido a la naturaleza de los iFrames. Asegúrese de incluir esta dimensión como parte de la cadena de consulta si desea rastrearla.
 
 ## Artículos instantáneos y privacidad de Facebook
 
