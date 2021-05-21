@@ -1,14 +1,14 @@
 ---
 title: Página
 description: Nombre de la página.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 579963c8-8460-425f-b716-3b30d7a259af
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
-
 
 # Página
 
@@ -18,9 +18,9 @@ Esta dimensión está relacionada con las dimensiones [Sección del sitio](site-
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión recupera datos de la cadena [`pageName` de](/help/implement/validate/query-parameters.md) consulta en las llamadas de vista de [página (`t()`)](/help/implement/vars/functions/t-method.md). [Las llamadas de seguimiento de vínculos (`tl()`)](/help/implement/vars/functions/tl-method.md) siempre eliminan esta dimensión, incluso si existe la cadena de `pageName` consulta.
+Esta dimensión recupera datos de la [`pageName`cadena de consulta](/help/implement/validate/query-parameters.md) en [Llamadas de vista de páginas (`t()`)](/help/implement/vars/functions/t-method.md). [Las llamadas de seguimiento de vínculos (`tl()`)](/help/implement/vars/functions/tl-method.md) siempre eliminan esta dimensión, aunque exista la cadena de consulta `pageName`.
 
-AppMeasurement recopila estos datos mediante la variable [`pageName`](/help/implement/vars/page-vars/pagename.md). If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
+AppMeasurement recopila estos datos mediante la variable [`pageName`](/help/implement/vars/page-vars/pagename.md). Si la variable `pageName` no está definida, vuelve a utilizar la variable [`pageURL`](/help/implement/vars/page-vars/pageurl.md).
 
 ## Elementos de dimensión
 
