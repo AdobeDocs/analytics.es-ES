@@ -1,14 +1,14 @@
 ---
 title: Detalles de canal de primer contacto
 description: Detalles del primer canal de marketing dentro de la caducidad de la participación del visitante.
+exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '348'
 ht-degree: 100%
 
 ---
-
 
 # Detalles de canal de primer contacto
 
