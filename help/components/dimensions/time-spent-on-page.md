@@ -1,14 +1,14 @@
 ---
 title: Tiempo invertido en la página
 description: Cantidad de tiempo que un visitante emplea en la página.
+exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '286'
 ht-degree: 100%
 
 ---
-
 
 # Tiempo invertido en la página
 
