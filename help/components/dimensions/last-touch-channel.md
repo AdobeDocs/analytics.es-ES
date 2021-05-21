@@ -1,14 +1,14 @@
 ---
 title: Canal de último contacto
 description: El canal de marketing más reciente dentro de la caducidad de la participación del visitante.
+exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '250'
 ht-degree: 100%
 
 ---
-
 
 # Canal de último contacto
 
