@@ -1,14 +1,14 @@
 ---
 title: s_gi()
 description: Cree y rastree instancias de AppMeasurement.
+exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '341'
 ht-degree: 100%
 
 ---
-
 
 # s_gi
 
