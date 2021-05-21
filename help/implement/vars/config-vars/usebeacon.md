@@ -1,14 +1,14 @@
 ---
 title: useBeacon
 description: useBeacon le permite forzar AppMeasurement para que utilice la API sendBeacon de los navegadores
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '229'
 ht-degree: 100%
 
 ---
-
 
 # useBeacon
 
