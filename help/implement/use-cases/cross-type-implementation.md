@@ -1,14 +1,14 @@
 ---
 title: Seguimiento en diferentes tipos de implementación
 description: Utilice diferentes tipos de implementación y realice un seguimiento de los visitantes.
+exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '102'
 ht-degree: 100%
 
 ---
-
 
 # Seguimiento en diferentes tipos de implementación
 
