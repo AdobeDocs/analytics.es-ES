@@ -2,14 +2,14 @@
 description: Índice de herramientas de administración en Adobe Analytics.
 title: Herramientas de administración
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
+exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 translation-type: ht
-source-git-commit: 78f67c6a58395fb9520384094c13514ef29669d2
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
 ---
-
 
 # Herramientas de administración
 
@@ -51,5 +51,5 @@ ht-degree: 100%
 + [Resumen de los eventos de éxito](c-success-events/success-event.md)
 + [Marcas de hora opcionales](timestamp-optional.md)
 + [Resumen de variable de tráfico (prop)](c-traffic-variables/traffic-var.md)
-+ [Especificar la variable de visitante único](unique-visitor-variable-admin/t-unique-visitor-variable.md)
++ [Especificar la variable única de visitante](unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [Administración de vídeo](video-management.md)
