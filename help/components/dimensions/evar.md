@@ -1,18 +1,18 @@
 ---
 title: eVar
 description: Dimensión personalizada que se puede utilizar en sistema de informes.
+exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 translation-type: ht
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '788'
 ht-degree: 100%
 
 ---
 
-
 # eVar
 
-*Esta página de ayuda describe cómo funcionan las eVars como dimensiones. Para obtener información sobre cómo implementar eVars, consulte[eVars](/help/implement/vars/page-vars/evar.md)en la guía de implementación de usuario.*
+*Esta página de ayuda describe cómo funcionan las eVars como dimensiones. Para obtener información sobre cómo implementar eVars, consulte [eVars](/help/implement/vars/page-vars/evar.md) en la guía de implementación de usuario.*
 
 Las eVars son variables personalizadas que se pueden utilizar como desee. Si tiene un [documento de diseño de solución](/help/implement/prepare/solution-design.md), la mayoría de las dimensiones específicas de su organización terminan como eVars. De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. Puede personalizar su caducidad y asignación en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes.
 
