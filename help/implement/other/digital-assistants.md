@@ -1,14 +1,14 @@
 ---
 title: Implementar Analytics para asistentes digitales
 description: Implemente Adobe Analytics en asistentes digitales, como Amazon Alexa o Google Home.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1266'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Implementar Analytics para asistentes digitales
 
@@ -22,7 +22,7 @@ Esta página describe de forma general el mejor modo de utilizar Adobe Analytics
 
 ## Información general de la arquitectura de la experiencia digital
 
-![Flujo de trabajo de Digital Assistant](assets/Digital-Assitants.png)
+![Flujo de trabajo del asistente digital](assets/Digital-Assitants.png)
 
 La mayoría de los asistentes digitales de hoy en día siguen una arquitectura de alto nivel similar:
 
@@ -113,7 +113,7 @@ Todos los asistentes digitales cuentan con algoritmos que detectan las intencion
 
 Por ejemplo, si un usuario dice: “Siri, envía a John 20 dólares desde mi aplicación de banca por la cena de anoche”, la intención podría ser algo como *sendMoney*.
 
-Al enviar cada una de estas solicitudes como una eVar, puede realizar informes de control de rutas de todas las intenciones de una aplicación conversacional. Asegúrese de que la aplicación también pueda gestionar solicitudes sin intención. Adobe recomienda pasar &#39;Sin intención especificada&#39; a la variable de datos de contexto por intención, en lugar de omitir la variable.
+Al enviar cada una de estas solicitudes como una eVar, puede realizar informes de control de rutas de todas las intenciones de una aplicación conversacional. Asegúrese de que la aplicación también pueda gestionar solicitudes sin intención. Adobe recomienda pasar “Sin intención especificada” a la variable de datos de contexto por intención, en lugar de omitir la variable.
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
