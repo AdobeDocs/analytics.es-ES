@@ -1,11 +1,14 @@
 ---
 title: usePlugins
 description: Habilite o deshabilite la función doPlugins().
+exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
 translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '95'
+ht-degree: 100%
 
 ---
-
 
 # usePlugins
 
