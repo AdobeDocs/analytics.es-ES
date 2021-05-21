@@ -1,14 +1,14 @@
 ---
 title: getTimeParting
 description: Mida el tiempo en que sucede una acción específica.
+exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 translation-type: ht
-source-git-commit: 97778ee83cd44eaf2d14dd3e6891612eb99744a9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '821'
 ht-degree: 100%
 
 ---
-
 
 # Complemento de Adobe: getTimeParting
 
