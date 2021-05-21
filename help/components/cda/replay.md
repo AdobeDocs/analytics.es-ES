@@ -1,14 +1,14 @@
 ---
 title: Cómo funcionan las reproducciones
 description: Comprensión del concepto "reproducción" en Cross-Device Analytics
+exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 translation-type: ht
-source-git-commit: f3f5f82a236d376eda07d4d39e7effa60e929499
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '589'
 ht-degree: 100%
 
 ---
-
 
 # Cómo funcionan las reproducciones
 
@@ -62,11 +62,11 @@ Si un dispositivo envía inicialmente datos sin autenticarse y, luego, inicia se
 
 | Marca de tiempo | ECID | eVar1 o CustomerID | Explicación de la visita | Métrica de personas (acumulativa) mediante el gráfico de dispositivo | Métrica de personas (acumulativa) mediante vinculación basada en campos |
 | --- | --- | --- | --- | --- | --- |
-| `1` | `246` | - | Bob con su equipo de escritorio, sin autenticar | `1` (Cluster1) | `1` |
-| `2` | `246` | `Bob` | Bob inicia sesión en su equipo de escritorio | `1` (Cluster1) | `1` |
-| `3` | `3579` | - | Bob con su dispositivo móvil, sin autenticar | `1` (Cluster1) | `1` |
-| `4` | `3579` | `Bob` | Bob inicia sesión en su dispositivo móvil | `1` (Cluster1) | `1` |
-| `5` | `246` | - | Bob vuelve a visitar el sitio con su equipo de escritorio, sin autenticarse | `1` (Cluster1) | `1` |
-| `6` | `246` | `Bob` | Bob inicia sesión de nuevo con su equipo de escritorio | `1` (Cluster1) | `1` |
-| `7` | `3579` | - | Bob vuelve a acceder al sitio con su dispositivo móvil | `1` (Cluster1) | `1` |
-| `8` | `3579` | `Bob` | Bob inicia sesión a través de un dispositivo móvil | `1` (Cluster1) | `1` |
+| `1` | `246` | - | Bob con su equipo de escritorio, sin autenticar | `1` (Cluster1) | `1` (Bob) |
+| `2` | `246` | `Bob` | Bob inicia sesión en su equipo de escritorio | `1` (Cluster1) | `1` (Bob) |
+| `3` | `3579` | - | Bob con su dispositivo móvil, sin autenticar | `1` (Cluster1) | `1` (Bob) |
+| `4` | `3579` | `Bob` | Bob inicia sesión en su dispositivo móvil | `1` (Cluster1) | `1` (Bob) |
+| `5` | `246` | - | Bob vuelve a visitar el sitio con su equipo de escritorio, sin autenticarse | `1` (Cluster1) | `1` (Bob) |
+| `6` | `246` | `Bob` | Bob inicia sesión de nuevo con su equipo de escritorio | `1` (Cluster1) | `1` (Bob) |
+| `7` | `3579` | - | Bob vuelve a acceder al sitio con su dispositivo móvil | `1` (Cluster1) | `1` (Bob) |
+| `8` | `3579` | `Bob` | Bob inicia sesión a través de un dispositivo móvil | `1` (Cluster1) | `1` (Bob) |
