@@ -2,11 +2,14 @@
 description: Adobe Analytics y Adobe Audience Manager cuentan con métricas de visitantes con definiciones similares, pero que no están perfectamente alineadas por distintos motivos.
 title: Diferencias en la contabilización de visitantes
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
+exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '292'
+ht-degree: 100%
 
 ---
-
 
 # Diferencias en la contabilización de visitantes
 
@@ -60,7 +63,7 @@ Las métricas AAM: Propagación de segmentos en tiempo real y Analytics: Visitan
   <tr> 
    <td colname="col1"> <p>Filtros personalizados </p> </td> 
    <td colname="col2"> <p>No </p> </td> 
-   <td colname="col3"> <p>Sí, p. ej., filtros, filtros bot </p> </td> 
+   <td colname="col3"> <p>Sí, por ejemplo, filtros de direcciones IP, filtros bot </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Límite de 150 segmentos </p> </td> 
