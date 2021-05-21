@@ -1,16 +1,16 @@
 ---
 title: Información general de Attribution
 description: Concepto de atribución de crédito de un evento de éxito a varios elementos de dimensión.
-feature: Attribution
+feature: Atribución
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 92%
+exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '420'
+ht-degree: 100%
 
 ---
-
 
 # Información general de Attribution
 
