@@ -4,14 +4,14 @@ title: Solución de problemas y prácticas recomendadas para Report Builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 82%
+exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1401'
+ht-degree: 100%
 
 ---
-
 
 # Solución de problemas y prácticas recomendadas para Report Builder
 
@@ -44,10 +44,10 @@ Report Builder requiere autenticación para crear solicitudes de datos a partir 
 
 Los siguientes factores pueden aumentar la complejidad de la solicitud y dar como resultado un procesamiento más lento.
 
-* **Factores que pueden ralentizar los envíos**: Se programaron demasiados marcadores, tableros y libros de Report Builder en un plazo de pocas horas. Tenga en cuenta también que se programaron demasiados libros de Report Builder alrededor de la misma hora. Si esto sucede, la cola API del informe se pone como pendiente.
+* **Factores que pueden ralentizar los envíos**: Se programaron demasiados marcadores, tableros y libros de Report Builder en un plazo de pocas horas. Se programaron demasiados libros de Report Builder con muy poca diferencia horaria. Si esto sucede, la cola API del informe se pone como pendiente.
 * **Factores que ralentizan el tiempo de ejecución del libro**: Aumento significativo de las clasificaciones o aumento del intervalo de fechas de solicitud a lo largo del tiempo.
-* **Causas que producen un error** en la entrega del libro: Fórmulas complejas de Excel, especialmente aquellas que implican fecha y hora.
-* **Celdas que devuelven 0 (sin valores)**: Un apóstrofo o una comilla simple en el nombre de la hoja de Excel provocará que Report Builder no devuelva valores. (Se trata de una limitación de Microsoft Excel).
+* **Causas que producen un error en la entrega del libro**: Fórmulas complejas de Excel, especialmente aquellas que implican fecha y hora.
+* **Celdas que devuelven 0 (sin valores)**: La existencia de un apóstrofo o una comilla simple en el nombre de la hoja de Excel provocará que Report Builder no devuelva valores. (Se trata de una limitación de Microsoft Excel).
 * **Rendimiento de solicitud individual**: La velocidad de procesamiento puede verse afectada por las siguientes configuraciones:
 
    | Configuración | Rendimiento más rápido | Rendimiento más lento |
@@ -81,10 +81,10 @@ Lista de mensajes de error que se pueden producir ocasionalmente al utilizar Rep
 * **El rango seleccionado no es válido. Seleccione otro rango.**: Si una celda de la hoja de cálculo se selecciona y ya tiene una solicitud asignada, se producirá este error. Elimine la solicitud asignada a las celdas o seleccione otro intervalo de celdas para asignar. Si desea eliminar celdas, es importante localizar las que contengan solicitudes y eliminar la solicitud antes de eliminar las celdas (eliminando filas o columnas).
 * **Salga de la celda de Excel seleccionada antes de utilizar esta función.**: Si se encuentra en *modo de edición* en una celda de Excel y hace clic en uno de los iconos de Report Builder, se generará este mensaje de error. Estar en modo de edición en una celda de Excel significa que la celda está seleccionada y que el cursor aparece dentro de la celda. También se está en modo de edición en una celda de Excel cuando se escribe directamente en la barra de [!UICONTROL fórmulas] o en el [!UICONTROL cuadro de nombre] en la parte superior de Excel.
 * **El rango seleccionado se cruza con el rango de otra solicitud. Cambie su selección.**: Este error aparecerá si ya ha asignado un conjunto de celdas a la hoja de cálculo.
-* **Repara el libro (Registros eliminados: Fórmula de la /xl/calcChain.xml parte)**: A veces, las fórmulas de un libro se dañan al guardar o transferir. Cuando se abre el archivo, Excel intenta ejecutar estas fórmulas y falla. Para resolver este problema, elimine `calcChain.xml` de la hoja de cálculo y Excel deberá actualizar los cálculos de la fórmula.
+* **Repara el libro (Registros eliminados: Fórmula de la parte /xl/calcChain.xml)**: A veces, las fórmulas de un libro se dañan al guardarse o transferirse. Cuando se abre el archivo, Excel intenta ejecutar estas fórmulas y falla. Para resolver este problema, elimine `calcChain.xml` de la hoja de cálculo y Excel actualizará los cálculos de la fórmula.
    1. Cambie el nombre de la extensión de archivo del libro de `.xlsx` a `.zip`.
-   2. Descomprima el contenido y abra la carpeta `/xl/` .
+   2. Descomprima el contenido y abra la carpeta `/xl/`.
    3. Eliminar `calcChain.xml`.
    4. Vuelva a comprimir el contenido y cambie la extensión de archivo a `.xlsx`.
-   5. Abra el libro en Excel y actualice todas las solicitudes del Report Builder.
-* **Las celdas de Excel asociadas con los filtros de entrada o el rango de salida pueden haberse eliminado**: El Report Builder utiliza los nombres de Excel para adjuntar solicitudes de datos a las celdas. Si elimina Nombres de Excel del Administrador de nombres, verá este error. Las solicitudes no se pueden recuperar si se eliminan los nombres de Excel. Si el libro estaba programado, puede descargar una copia del Administrador de programación o abrir copias enviadas anteriormente del libro.
+   5. Abra el libro en Excel y actualice todas las solicitudes de Report Builder.
+* **Las celdas de Excel asociadas con los filtros de entrada o el rango de salida pueden haberse eliminado**: Report Builder utiliza los nombres de Excel para adjuntar solicitudes de datos a las celdas. Si elimina los nombres de Excel del Administrador de nombres, verá este error. Las solicitudes no se pueden recuperar si se eliminan los nombres de Excel. Si el libro estaba programado, puede descargar una copia del Administrador de programación o abrir copias enviadas anteriormente del libro.
