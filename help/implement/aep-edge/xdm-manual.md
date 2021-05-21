@@ -1,14 +1,14 @@
 ---
 title: Asignación manual de datos XDM a Analytics
-description: 'Asignación manual de datos XDM de Experience Platform a Adobe Analytics '
+description: Asignación manual de datos XDM de Experience Platform a Adobe Analytics
+exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 translation-type: ht
-source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '371'
 ht-degree: 100%
 
 ---
-
 
 # Asignación manual de datos XDM a Analytics
 
