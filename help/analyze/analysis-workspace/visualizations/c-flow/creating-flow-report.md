@@ -2,16 +2,16 @@
 description: Utilice la visualización de flujo en un proyecto de Workspace.
 title: Configuración de una visualización de flujo
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-feature: Visualizations
+feature: Visualizaciones
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 99%
+exl-id: a4617647-237f-4178-bb87-f5321c600ca0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '352'
+ht-degree: 100%
 
 ---
-
 
 # Configuración de una visualización de flujo
 
