@@ -1,14 +1,14 @@
 ---
 title: campaign
 description: Rellene la dimensión “Código de seguimiento”.
+exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 translation-type: ht
-source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '191'
 ht-degree: 100%
 
 ---
-
 
 # campaign
 
