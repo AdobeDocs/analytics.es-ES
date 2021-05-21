@@ -1,14 +1,14 @@
 ---
 title: visitorID
 description: Utilice un ID de visitante personalizado.
+exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '257'
 ht-degree: 100%
 
 ---
-
 
 # visitorID
 
