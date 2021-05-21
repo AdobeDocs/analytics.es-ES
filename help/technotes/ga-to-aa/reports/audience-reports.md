@@ -1,14 +1,14 @@
 ---
 title: Informes de audiencia en Adobe Analytics
 description: Obtenga información sobre cómo crear informes basados en audiencias mediante Analysis Workspace.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1715'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Informes de audiencia
 
@@ -89,7 +89,7 @@ Si, además del mapa, también desea utilizar la tabla:
 1. En el menú Componentes, busque la dimensión **Países** y arrástrela al área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
-See the [Countries](/help/components/dimensions/countries.md) dimensions in the Components user guide for more information.
+Consulte las dimensiones [Países](/help/components/dimensions/countries.md) en la Guía del usuario de componentes para obtener más información.
 
 ## Comportamiento: Visitas nuevas y visitas recurrentes
 
@@ -161,7 +161,7 @@ El informe de información general móvil es aproximadamente igual a la dimensi�
 1. En el menú de componentes, busque la dimensión **Tipo de dispositivo móvil** y arrástrela al área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
-See the [Mobile device type](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
+Consulte la dimensión [Tipo de dispositivo móvil](/help/components/dimensions/mobile-dimensions.md) en la Guía del usuario de componentes para obtener más información.
 
 ## Móviles: Dispositivos
 
@@ -170,7 +170,7 @@ El informe de dispositivos móviles es prácticamente igual que la dimensión de
 1. En el menú de componentes, busque la dimensión **Dispositivo móvil** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
-See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
+Consulte la dimensión [Dispositivo móvil](/help/components/dimensions/mobile-dimensions.md) en la Guía del usuario de componentes para obtener más información.
 
 ## Personalizado
 
@@ -185,6 +185,6 @@ Los informes de prueba comparativa permiten ver cómo se compara la información
 El informe de flujo está disponible en ambas plataformas. Para crear un informe de flujo:
 
 1. Haga clic en el icono de visualizaciones de la izquierda y arrastre una visualización de flujo al espacio de trabajo sobre la tabla de forma libre
-2. Busque la dimensión **Páginas** y, a continuación, haga clic en el icono de flecha para mostrar los valores de la página. Los elementos de dimensión son de color amarillo.
+2. Busque la dimensión **Páginas** y, a continuación, haga clic en el icono de flecha para mostrar los valores de la página. Los elementos de dimensión aparecen en color amarillo.
 3. Busque el valor de página deseado para comenzar y arrástrelo al espacio etiquetado como “Dimensión o elemento” en el centro
 4. Este informe de flujo es interactivo. Haga clic en cualquiera de los valores para expandir los flujos a páginas posteriores o anteriores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
