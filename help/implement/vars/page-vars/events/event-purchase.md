@@ -1,14 +1,14 @@
 ---
 title: Evento de compra
 description: Utilice el evento de compra para recopilar datos de las métricas “Pedidos”, “Unidades” e “Ingresos”.
+exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '387'
 ht-degree: 100%
 
 ---
-
 
 # Evento de compra
 
