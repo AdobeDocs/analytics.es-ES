@@ -1,11 +1,14 @@
 ---
 title: dynamicVariablePrefix
 description: Permite personalizar la cadena que identifica las variables dinámicas.
+exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 translation-type: ht
-source-git-commit: 03a4c0d5e080219a7fd96dff33ce122669351ac3
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '207'
+ht-degree: 100%
 
 ---
-
 
 # dynamicVariablePrefix
 
