@@ -1,14 +1,14 @@
 ---
 title: Tipo de conexión
 description: Conexión del visitante a Internet.
+exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
 translation-type: ht
-source-git-commit: 3fcaee113f2c15bfc5a1ce0a7cd31a456ba98929
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '14'
 ht-degree: 100%
 
 ---
-
 
 # Tipo de conexión
 
