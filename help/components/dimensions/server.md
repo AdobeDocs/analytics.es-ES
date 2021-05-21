@@ -1,14 +1,14 @@
 ---
 title: Servidor
 description: El nombre del servidor.
+exl-id: c2454c0d-497e-46f8-8569-7d0517097cab
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '136'
 ht-degree: 100%
 
 ---
-
 
 # Servidor
 
