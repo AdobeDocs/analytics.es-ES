@@ -1,14 +1,14 @@
 ---
 title: Búsqueda de pago
 description: Distingue las métricas de la búsqueda de pago y la búsqueda natural.
+exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '148'
 ht-degree: 100%
 
 ---
-
 
 # Búsqueda de pago
 
