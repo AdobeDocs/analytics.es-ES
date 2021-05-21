@@ -1,14 +1,14 @@
 ---
 title: URL de la página
 description: La URL de la página.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '221'
+ht-degree: 100%
 
 ---
-
 
 # URL de la página
 
@@ -16,15 +16,15 @@ La dimensión “URL de página” indica las direcciones URL del sitio.
 
 >[!IMPORTANT]
 >
->Esta dimensión solo está disponible en Data Warehouse. Si desea utilizar una dimensión URL en otras soluciones de Analytics, considere copiar el valor en un [eVar](evar.md) en cada visita.
+>Esta dimensión solo está disponible en Data Warehouse. Si desea utilizar una dimensión URL en otras soluciones de Analytics, pruebe a copiar el valor en un [eVar](evar.md) en cada visita.
 
 ## Rellene esta dimensión con datos
 
-This dimension retrieves data from the [`g` and `-g` query strings](/help/implement/validate/query-parameters.md) in [Page view calls (`t()`)](/help/implement/vars/functions/t-method.md). [Las llamadas de seguimiento de vínculos (`tl()`)](/help/implement/vars/functions/tl-method.md) siempre eliminan esta dimensión, incluso si existe la cadena de `g` consulta.
+Esta dimensión recupera datos de [`g` y las `-g` cadenas de consulta](/help/implement/validate/query-parameters.md) en [solicitudes de imagen (`t()`)](/help/implement/vars/functions/t-method.md). [Las llamadas de seguimiento de vínculos (`tl()`)](/help/implement/vars/functions/tl-method.md) siempre eliminan esta dimensión, aunque exista la cadena de consulta `g`.
 
 A veces, las direcciones URL tienen más de 255 bytes. AppMeasurement utiliza el parámetro de cadena de consulta de `g` para los primeros 255 bytes de la dirección URL en las solicitudes de imagen. Si una dirección URL tiene más de 255 bytes, el resto de la dirección URL se almacena en el parámetro de cadena de consulta de `-g`. Las cadenas de consulta y protocolo de la dirección URL se incluyen en esta variable.
 
-AppMeasurement recopila automáticamente estos datos en función de la dirección URL de la página. Puede anular el valor recopilado mediante la [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
+AppMeasurement recopila automáticamente estos datos en función de la dirección URL de la página. Puede anular el valor recopilado mediante la variable [`pageURL`](/help/implement/vars/page-vars/pageurl.md).
 
 ## Rellenar una eVar con una dirección URL
 
