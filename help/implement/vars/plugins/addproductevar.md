@@ -1,14 +1,14 @@
 ---
 title: addProductEvar
 description: Agrega eVars de comercialización a la variable products.
+exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 translation-type: ht
-source-git-commit: abed7197898d6c27448069350c9f2217d58293c4
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '545'
 ht-degree: 100%
 
 ---
-
 
 # Complemento de Adobe: addProductEvar
 
