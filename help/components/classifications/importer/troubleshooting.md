@@ -1,14 +1,14 @@
 ---
 title: Solución de problemas del importador de clasificaciones
 description: Problemas comunes de carga al usar el importador de clasificaciones.
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
-workflow-type: tm+mt
+exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
-
 
 # Solución de problemas del importador de clasificaciones
 
@@ -18,7 +18,7 @@ Los problemas más comunes al cargar datos de clasificación en Adobe.
 
 Las clasificaciones han de ser de un tipo y formato de archivo específico para que puedan cargarse. Si se guardan indebidamente, aparecerá un error y las filas no se procesarán. El error devuelto es frecuentemente *“La primera columna debe ser la clave”*, pero puede ser cualquier número de errores. Asegúrese de comprobar lo siguiente:
 
-* **Carga de una hoja de cálculo (.xlsx) en lugar de un archivo**.tab o .txt: Puede obtener el mensaje de error *&quot;La primera columna debe ser la clave&quot;* al cargar los archivos de clasificación en un formato incorrecto. El importador de clasificaciones no sabe cómo manejar archivos .xls o .xlsx. En el cuadro de diálogo “Guardar como” de Excel, defina el tipo correcto de Guardar como:
+* **Carga de una hoja de cálculo (.xlsx) en lugar de un archivo .tab o .txt**: Puede obtener el mensaje de error *&quot;La primera columna debe ser la clave&quot;* al cargar archivos de clasificación en un formato incorrecto. El importador de clasificaciones no sabe cómo manejar archivos .xls o .xlsx. En el cuadro de diálogo “Guardar como” de Excel, defina el tipo correcto de Guardar como:
    * En Windows, utilice el formato de archivo `Text (Tab delimited) (*.txt)`.
    * En Mac, utilice el formato de archivo `Windows Formatted Text`.
 * **Cambiar la extensión de nombre de archivo después de guardarla como un libro**: Si se intenta cambiar directamente el nombre de una extensión de archivo, se generará un libro no válido. La función Guardar como de Excel o la edición de clasificaciones solo se deben utilizar en un editor de texto como Notepad++.
@@ -38,7 +38,7 @@ Si carga un archivo con un formato incorrecto, el cargador intentará importar t
 * **Hay subclasificaciones que están configuradas incorrectamente**: si hay subclasificaciones, compruebe lo siguiente:
    * Todos los valores de las subclasificaciones deben tener un valor de clasificación principal.
    * No puede haber dos subclasificaciones que hagan referencia al mismo valor de clasificación principal.
-* **Coincidencia** de columna: Puede obtener el mensaje de error *&quot;La clave en línea tiene demasiadas columnas&quot;* si hay un número no válido de columnas en una fila determinada. Por ejemplo: tiene 3 columnas en la carga de la clasificación y la variable solo tiene una clasificación. Valide el archivo de carga para asegurarse de que el número de columnas no es bueno al número de clasificaciones configuradas para esa variable.
+* **Discordancia de columnas**: Puede obtener el mensaje de error *&quot;La clave en línea tiene demasiadas columnas&quot;* si hay un número de columnas no válido en una fila determinada. Por ejemplo, tiene 3 columnas en la carga de clasificación y la variable solo tiene una clasificación. Valide el archivo de carga para asegurarse de que el número de columnas no sea mayor que el número de clasificaciones configuradas para esa variable.
 
 ## Solución de problemas de importación de FTP
 
