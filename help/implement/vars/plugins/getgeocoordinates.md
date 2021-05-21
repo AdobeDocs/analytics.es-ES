@@ -1,14 +1,14 @@
 ---
 title: getGeoCoordinates
 description: Rastree la geolocalización de un visitante.
+exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
 translation-type: ht
-source-git-commit: d0947b075923956a4a48e09f8eeffc38e7fc0672
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '536'
 ht-degree: 100%
 
 ---
-
 
 # Complemento de Adobe: getGeoCoordinates
 
