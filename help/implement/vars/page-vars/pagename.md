@@ -1,24 +1,24 @@
 ---
 title: pageName
 description: El nombre de la página del sitio.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '232'
+ht-degree: 100%
 
 ---
 
-
 # pageName
 
-La variable `pageName` generalmente almacena el nombre de una página determinada. Es útil determinar qué páginas individuales son más populares. This variable populates the [Page](/help/components/dimensions/page.md) dimension.
+La variable `pageName` generalmente almacena el nombre de una página determinada. Es útil determinar qué páginas individuales son más populares. Esta variable rellena la dimensión [Página](/help/components/dimensions/page.md).
 
 Si esta variable no está definida en una llamada de seguimiento de página determinada, se utiliza la variable [`pageURL`](pageurl.md) en su lugar.
 
 >[!NOTE]
 >
->Los servidores de recopilación de datos de Adobe eliminan esta dimensión de todas las solicitudes de imagen de seguimiento [de](/help/implement/vars/functions/tl-method.md) vínculos. Si desea que esta dimensión aparezca en las visitas de seguimiento de vínculos, considere copiar esta dimensión en un [eVar](evar.md).
+>Los servidores de recopilación de datos de Adobe eliminan esta dimensión de todas las solicitudes de imagen de [seguimiento de vínculos](/help/implement/vars/functions/tl-method.md). Si desea que esta dimensión aparezca en las visitas de seguimiento de vínculos, considere la posibilidad de copiar esta dimensión en una [eVar](evar.md).
 
 ## Nombre de página en Adobe Experience Platform Launch
 
@@ -45,7 +45,7 @@ s.pageName = "Example page name";
 s.pageName = window.document.title;
 ```
 
-Si utiliza la capa `digitalData` [de](../../prepare/data-layer.md)datos:
+Si utiliza la `digitalData` [capa de datos](../../prepare/data-layer.md):
 
 ```js
 s.pageName = digitalData.page.pageInfo.pageName;
