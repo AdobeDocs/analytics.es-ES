@@ -2,14 +2,14 @@
 title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 subtopic: Release notes
-translation-type: tm+mt
-source-git-commit: 31ccee8681f2a5b51f1d773d80aa89b70e4d3b65
-workflow-type: tm+mt
+exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '2142'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Notas de la versión de AppMeasurement para JavaScript
 
@@ -23,7 +23,7 @@ Puede descargar la versión más reciente de AppMeasurement en el [Administrador
 
 Fecha de versión: **4 de agosto de 2020**
 
-* Se corrigió el remitente del reenvío que falta cuando no se envió la primera visita debido a las preferencias de exclusión del usuario.
+* Se ha corregido el referente que falta cuando la primera visita no se envió debido a las preferencias de exclusión del usuario.
 
 ## Versión 2.21.0
 
@@ -302,7 +302,7 @@ Fecha de versión: **17 de septiembre de 2015**
 Fecha de versión: **18 de junio de 2015**
 
 * Compatibilidad con la API de visitante 1.5, que utiliza el método *`getCustomerIDs`* para recopilar ID de cliente y estados autenticados, y envía los ID con solicitudes de recopilación de datos.
-* Se ha corregido la creación de iframes de destino duplicados en el módulo **[!UICONTROL AudienceManagement]** (DIL 6.1)
+* Se ha corregido la creación de iFrames de destino duplicados en el módulo **[!UICONTROL AudienceManagement]** (DIL 6.1)
 * Se ha solucionado el error conocido descrito en la versión 1.4.5.
 
 ## Versión 1.4.5
