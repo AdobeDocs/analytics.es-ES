@@ -3,14 +3,14 @@ description: Respuestas a preguntas que podría tener al implementar Audience An
 solution: Experience Cloud
 title: Preguntas frecuentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
+exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1098'
 ht-degree: 100%
 
 ---
-
 
 # Preguntas frecuentes
 
@@ -155,4 +155,3 @@ Para saber más sobre este tema, consulte [Preguntas frecuentes sobre el reenví
   </tr> 
  </tbody> 
 </table>
-
