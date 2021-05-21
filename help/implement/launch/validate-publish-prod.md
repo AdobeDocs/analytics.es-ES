@@ -1,14 +1,14 @@
 ---
 title: Validación de una implementación de desarrollo y publicación en producción
-description: Aprenda a utilizar Adobe Experience Platform Launch para implementar Adobe Analytics en su entorno de producción.
-translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
-workflow-type: tm+mt
+description: Descubra cómo utilizar Adobe Experience Platform Launch para implementar Adobe Analytics en su entorno de producción.
+exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # Validación de una implementación de desarrollo y publicación en producción
 
@@ -64,7 +64,7 @@ En el sitio, abra la consola del desarrollador del explorador (normalmente F12).
 
 ## Pasos siguientes
 
-Ahora que se ha configurado una implementación básica, su función dentro de la organización puede influir en la ruta de acceso en la que desee obtener más información:
+Ahora que se ha configurado una implementación básica, su función dentro de su organización puede influir en la ruta de acceso en la que desee obtener más información:
 
 * [Crear un documento de diseño de solución](../prepare/solution-design.md): Planifique cómo desea utilizar las variables personalizadas e inclúyalas en la implementación
 * [Introducción a Analysis Workspace](/help/analyze/analysis-workspace/home.md): Vaya directamente a Adobe Analytics mediante la función de señalización de la herramienta.
