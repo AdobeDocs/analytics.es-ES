@@ -1,11 +1,14 @@
 ---
 title: Util.cookieWrite
 description: Escribe un valor para una cookie.
+exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
 translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '128'
+ht-degree: 100%
 
 ---
-
 
 # Util.cookieWrite
 
