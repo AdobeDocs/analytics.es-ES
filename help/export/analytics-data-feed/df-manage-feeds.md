@@ -1,11 +1,14 @@
 ---
 title: Interfaz de usuario de fuentes de datos
 description: Obtenga información sobre cómo navegar por la interfaz de fuentes de datos.
-translation-type: tm+mt
-source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
+exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '637'
+ht-degree: 100%
 
 ---
-
 
 # Administración de fuentes de datos
 
@@ -15,7 +18,7 @@ Para acceder a la administración de fuentes de datos, siga estos pasos:
 
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 2. Haga clic en el menú de 9 cuadrículas en la parte superior derecha y, a continuación, haga clic en [!UICONTROL Analytics].
-3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
+3. En el menú superior, haga clic en [!UICONTROL Administración] > [!UICONTROL Fuentes de datos].
 
 ![Menú de fuente de datos](assets/AdminMenu.png)
 
@@ -25,7 +28,7 @@ Al llegar a la página del administrador de fuentes de datos, la interfaz tiene 
 
 ![Fuentes de datos](assets/feeds.png)
 
-Si no se han configurado fuentes, la página muestra un [!UICONTROL Create New Data Feed] botón.
+Si no se han definido fuentes, la página mostrará el botón [!UICONTROL Crear nueva fuente de datos].
 
 ### Filtros y búsqueda
 
@@ -45,7 +48,7 @@ Haga clic en la pestaña Trabajos para ver los trabajos individuales que cada un
 
 ### Agregar
 
-Near the feeds and jobs tabs, click the + [!UICONTROL Add] button to create a new feed. Consulte [Agregar una fuente](create-feed.md) para obtener más información.
+Cerca de las pestañas de fuentes y trabajos, haga clic en el botón + [!UICONTROL Agregar] para crear una nueva fuente. Consulte [Agregar una fuente](create-feed.md) para obtener más información.
 
 ### Columnas
 
@@ -78,7 +81,7 @@ Cada fuente creada muestra varias columnas que proporcionan información al resp
 Haga clic en la casilla de verificación situada junto a una fuente de datos para mostrar las acciones disponibles.
 
 * **Historial de trabajos**: muestra todos los trabajos relacionados con estas fuentes de datos. Conduce automáticamente a la [interfaz de administración de trabajos](df-manage-jobs.md).
-* **Eliminar**: Elimina la fuente de datos y establece su estado en [!UICONTROL Deleted].
+* **Eliminar**: elimina la fuente de datos y establece su estado en [!UICONTROL Eliminada].
 * **Copiar**: conduce a [crear una fuente nueva](create-feed.md) con todos los ajustes de la fuente actual. No puede copiar una fuente de datos si hay más de una seleccionada.
-* **Pausar**: Detiene el procesamiento de la fuente y establece su estado en [!UICONTROL Inactive].
+* **Pausar**: detiene el procesamiento de la fuente y establece su estado en [!UICONTROL Inactiva].
 * **Activar**: solo disponible para fuentes inactivas. Recopila datos de procesamiento justo donde los dejó y completa las fechas si es necesario.
