@@ -1,14 +1,14 @@
 ---
 title: trackingServer
 description: Determinar la ubicación en la que se envían las solicitudes de imagen.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
-
 
 # trackingServer
 
@@ -16,7 +16,7 @@ Adobe recopila datos en el sitio mediante la recepción de una solicitud de imag
 
 >[!IMPORTANT]
 >
->Si se cambia este valor, AppMeasurement buscará cookies en una ubicación diferente. El recuento de visitantes únicos puede aumentar temporalmente en los informes a medida que las cookies de los visitantes se establecen en la nueva ubicación.
+>Si se cambia este valor, AppMeasurement buscará cookies en una ubicación diferente. La cantidad de visitantes únicos puede aumentar temporalmente en los informes a medida que las cookies de los visitantes se establecen en la nueva ubicación.
 
 ## Servidor de seguimiento en Adobe Experience Platform Launch
 
@@ -59,9 +59,9 @@ Si utiliza una implementación de cookies de terceros, el valor para `trackingSe
 s.trackingServer = "example.data.adobedc.net";
 ```
 
-Elija un subdominio exclusivo de su organización, que es poco probable que elija otra organización que utilice Adobe Analytics.  Se recomienda la Área de nombres de visitante asignada a su organización.  Asegúrese de que todas las implementaciones de su organización utilicen el mismo servidor de seguimiento. Puede resultar útil mantener esta información en un [documento de diseño de solución](../../prepare/solution-design.md).
+Elija un subdominio único de su organización, que es poco probable que elija otra organización que utilice Adobe Analytics.  Se recomienda el área de nombres del visitante asignado a su organización.  Asegúrese de que todas las implementaciones de su organización utilicen el mismo servidor de seguimiento. Puede resultar útil mantener esta información en un [documento de diseño de solución](../../prepare/solution-design.md).
 
-Es posible que su organización ya esté utilizando un servidor de seguimiento de terceros en los `sc.omtrdc.net` dominios o `2o7.net` .  Estos se utilizaban principalmente en versiones anteriores de Adobe Analytics y siguen siendo válidos.
+Es posible que su organización ya esté utilizando un servidor de seguimiento de terceros en los dominios `sc.omtrdc.net` o `2o7.net`.  Estos se utilizaban principalmente en versiones anteriores de Adobe Analytics y siguen siendo válidos.
 
 >[!NOTE]
 >
