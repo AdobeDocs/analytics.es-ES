@@ -3,11 +3,14 @@ description: La política sobre FTP de Adobe deshabilita automáticamente el acc
 keywords: ftp;sftp
 title: Eliminación de datos y cuentas de FTP
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+exl-id: accf2f8d-c22c-4684-ba85-73a286325d0c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
-
 
 # Eliminación de datos y cuentas de FTP
 
@@ -25,4 +28,3 @@ Para apoyar este proceso y garantizar que el entorno mejorado de FTP siga ofreci
 
 * Que eliminen los datos salientes del sistema de FTP después de haberlos transferido correctamente al entorno local. Adobe identifica y elimina los archivos que quedan en el sistema transcurridos 90 días.
 * Se debe informar a Adobe cuando las cuentas de FTP ya no se necesiten para proceder a su desactivación y eliminación.
-
