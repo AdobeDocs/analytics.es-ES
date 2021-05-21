@@ -1,14 +1,14 @@
 ---
 title: Creación de una capa de datos
 description: Descubra qué es una capa de datos en su implementación de Analytics y cómo se puede utilizar para asignar variables en Adobe Analytics.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '479'
+ht-degree: 100%
 
 ---
-
 
 # Creación de una capa de datos
 
@@ -16,7 +16,7 @@ Una capa de datos es un marco de objetos de JavaScript del sitio que contiene to
 
 ## Requisitos previos
 
-[Crear un documento de diseño de solución](solution-design.md): es importante que su organización se alinee en los requisitos de seguimiento. Asegúrese de estar preparado con un documento de diseño de soluciones antes de ponerse en contacto con los equipos de desarrollo de su organización.
+[Crear un documento de diseño de solución](solution-design.md): es importante que su organización se alinee en los requisitos de seguimiento. Asegúrese de estar listo con un documento de diseño de solución antes de ponerse en contacto con los equipos de desarrollo de su organización.
 
 ## Flujo de trabajo
 
@@ -167,7 +167,7 @@ digitalData = {
 }
 ```
 
-Utilice el informe [Capa de datos digital de la experiencia del cliente](https://www.w3.org/2013/12/ceddl-201312.pdf) para obtener detalles sobre cada objeto y subobjeto. Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object array.
+Utilice el informe [Capa de datos digital de la experiencia del cliente](https://www.w3.org/2013/12/ceddl-201312.pdf) para obtener detalles sobre cada objeto y subobjeto. No todos los sitios utilizan todos los objetos; por ejemplo, si aloja un sitio de noticias, es poco probable que lo haya utilizado para la matriz de objetos `digitalData.product`.
 
 Las capas de datos son extensibles; si tiene requisitos específicos de su organización, puede incluir objetos en su capa de datos para satisfacer esas necesidades.
 
