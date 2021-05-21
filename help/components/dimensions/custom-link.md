@@ -1,14 +1,14 @@
 ---
 title: Vínculo personalizado
 description: Nombre del vínculo personalizado.
+exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
 translation-type: ht
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '152'
 ht-degree: 100%
 
 ---
-
 
 # Vínculo personalizado
 
