@@ -2,17 +2,20 @@
 description: 'Describe las dos formas principales de encontrar sus métricas: clasificación y filtrado.'
 title: Buscar métricas
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '238'
+ht-degree: 100%
 
 ---
-
 
 # Buscar métricas
 
 Describe las dos formas principales de encontrar sus métricas: clasificación y filtrado.
 
-## Clasificación  {#section_89F9C4D515084F5796F2A54D468BF6C8}
+## Clasificación {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
 Cuando abra un informe y haga clic en el icono Métricas ![](assets/metrics_icon.png) que encontrará a la izquierda para que se muestre el carril Métricas, verá cuatro opciones de clasificación en la lista desplegable **[!UICONTROL Clasificar por]** del Selector de métricas:
 
@@ -25,7 +28,7 @@ Cuando abra un informe y haga clic en el icono Métricas ![](assets/metrics_icon
 | Más utilizadas | Resulta útil cuando es un usuario sin experiencia y necesita ver qué se utiliza normalmente en el informe. |
 | Más recientes | Resulta útil si trabaja en un proyecto y utiliza el mismo grupo de métricas una y otra vez. |
 
-## Filtrado - selección avanzada  {#section_33818CC048C04F098703AC229693F8CA}
+## Filtrado - selección avanzada {#section_33818CC048C04F098703AC229693F8CA}
 
 Tras abrir un informe y hacer clic en el icono Métricas, haga clic en **[!UICONTROL Administrar]**. A continuación, haga clic en el icono Filtrar. Puede filtrar de varias formas.
 
@@ -61,4 +64,3 @@ Tras abrir un informe y hacer clic en el icono Métricas, haga clic en **[!UICON
   </tr> 
  </tbody> 
 </table>
-
