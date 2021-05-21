@@ -1,14 +1,14 @@
 ---
 title: timestamp
 description: Establecer manualmente la marca de tiempo de la visita.
+exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '243'
 ht-degree: 100%
 
 ---
-
 
 # timestamp
 
