@@ -2,14 +2,14 @@
 description: Solucione problemas y cuestiones relacionadas con Advertising Analytics.
 title: Solucionar problemas de Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
+exl-id: 29e39a15-504a-4155-8794-aceb47046a54
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '178'
 ht-degree: 100%
 
 ---
-
 
 # Solucionar problemas de Advertising Analytics
 
@@ -55,4 +55,3 @@ Está intentando [configurar una cuenta publicitaria nueva](/help/integrate/c-ad
   </tr> 
  </tbody> 
 </table>
-
