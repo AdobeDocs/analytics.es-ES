@@ -1,16 +1,16 @@
 ---
 description: Los datos que se recopilan de sitios web y aplicaciones móviles, o que se cargan mediante las API del servicio web o fuentes de datos, se procesan y almacenan en el Data Warehouse de Adobe. Estos datos del flujo de navegación sin procesar forman el conjunto de datos que se utilizan en Adobe Analytics.
-keywords: clickstream;data feed;datafeed;Data Feed
+keywords: flujo de navegación;fuente de datos;fuente de datos;Fuente de datos
 title: Resumen de la fuente de datos de Analytics
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: tm+mt
-source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
-workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 98%
+exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '577'
+ht-degree: 100%
 
 ---
-
 
 # Resumen de la fuente de datos de Analytics
 
@@ -68,4 +68,4 @@ Una vez que haya comprendido el flujo de trabajo básico de la obtención de fue
 
 Navegación de vídeo en la interfaz de fuente de datos:
 
->[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
+>[!VIDEO](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
