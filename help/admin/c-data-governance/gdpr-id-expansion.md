@@ -2,14 +2,14 @@
 description: 'Los ID que envíe no siempre abarcan todos los datos coincidentes que Analytics puede asociar al interesado. Analytics puede crear un conjunto ampliado de ID para incluir estos datos asociados en las solicitudes de privacidad de datos. Puede solicitar esta opción con un parámetro opcional a cada solicitud de privacidad de datos que envíe junto a la solicitud de JSON '
 title: Expansión de ID
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
+exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1354'
 ht-degree: 100%
 
 ---
-
 
 # Expansión de ID
 
@@ -42,7 +42,7 @@ Consulte la [Ejemplos de solicitudes de JSON](/help/admin/c-data-governance/gdpr
 
 Durante los primeros meses tras la entrada en vigor de la privacidad de datos, la inmensa mayoría de las solicitudes amparadas en la privacidad de datos de Analytics no incluían la expansión de ID, pero de usted depende determinar el valor apropiado para su organización. Debe consultar con su equipo legal si la expansión de ID es necesaria para sus datos con los ID que utiliza y los datos que recopila dentro de Adobe Analytics. Una consideración esencial debe ser que, en un dispositivo compartido desde el que varios usuarios han visitado su sitio, el uso de la expansión de ID incluirá, en los datos devueltos por las solicitudes de acceso (en el archivo del dispositivo), datos de visitas de otros usuarios del dispositivo. Aunque haya seguido las prácticas recomendadas de etiquetado, como que no se incluyan datos privados en el archivo del dispositivo, como las páginas visitadas, este archivo contendrá el número de páginas visitadas y la hora de cada una de esas visitas. ¿Le parece bien compartir esta información con alguien que podría no ser el visitante?
 
-Para una solicitud de eliminación, donde no se utiliza la expansión de ID, si utiliza un ID sin cookies (cualquier ID distinto de ECID o de la cookie de Analytics) para identificar las visitas que deben eliminarse y el ID tiene la etiqueta ID-DEVICE, el recuento de visitantes únicos en los informes cambiará, ya que solo se harán anónimas algunas instancias de los ID de cookie, mientras que otras se dejarán sin cambiar. Si no va a especificar la expansión de ID, es recomendable que utilice un ID de cookie para las solicitudes o que utilice ID que incluyan una etiqueta ID-PERSON.
+Para una solicitud de eliminación, donde no se utiliza la expansión de ID, si utiliza un ID sin cookies (cualquier ID distinto de ECID o de la cookie de Analytics) para identificar las visitas que deben eliminarse y el ID tiene la etiqueta ID-DEVICE, la cantidad de visitantes únicos en los informes cambiará, ya que solo se harán anónimas algunas instancias de los ID de cookie, mientras que otras se dejarán sin cambiar. Si no va a especificar la expansión de ID, es recomendable que utilice un ID de cookie para las solicitudes o que utilice ID que incluyan una etiqueta ID-PERSON.
 
 Cuando Adobe realiza la expansión de ID, puede requerir un análisis de datos completo adicional, lo que aumentará (a menudo en una semana) el tiempo que Adobe tarda en completar la solicitud.
 
@@ -66,4 +66,3 @@ Además del valor predeterminado, el campo de prioridad también admite un valor
 También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que los detalles relativos al número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API del servicio de privacidad no es apropiada para este uso.
 
 Póngase en contacto con su administrador de cuentas para que se coordine con nuestro equipo de consultoría encargado de la arquitectura de ingeniería. De este modo, podremos llevar a cabo una revisión más exhaustiva y establecer el nivel de actuación a la hora de subsanar cualquier problema relacionado con los datos o con PII.
-
