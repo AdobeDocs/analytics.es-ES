@@ -3,15 +3,14 @@ title: Guía del usuario de Labs
 description: Vista previa de proyectos prototipo para Adobe Analytics
 feature: Labs
 role: Administrator
-translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
-workflow-type: tm+mt
-source-wordcount: '436'
+exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
-
-
 
 # Guía del usuario de [!UICONTROL Labs]
 
