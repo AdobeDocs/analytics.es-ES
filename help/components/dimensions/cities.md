@@ -1,14 +1,14 @@
 ---
 title: Ciudades
 description: Ciudad en la que se originó la visita.
+exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
 translation-type: ht
-source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '358'
 ht-degree: 100%
 
 ---
-
 
 # Ciudades
 
@@ -16,7 +16,7 @@ La dimensión “Ciudades” indica la ciudad desde la que se originó la visita
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia a las reglas de búsqueda internas de Adobe. El valor de búsqueda se basa en la dirección IP enviada con la visita. Adobe se asocia con [Digital Element](https://www.digitalelement.com/?lang=es) para mantener búsquedas entre la dirección IP y la ciudad. Esta dimensión funciona de forma predeterminada para todas las implementaciones.
+Esta dimensión hace referencia a las reglas de búsqueda internas de Adobe. El valor de búsqueda se basa en la dirección IP enviada con la visita. Adobe se asocia con [Digital Element](https://www.digitalelement.com/es) para mantener búsquedas entre la dirección IP y la ciudad. Esta dimensión funciona de forma predeterminada para todas las implementaciones.
 
 >[!TIP]
 >
