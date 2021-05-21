@@ -1,16 +1,16 @@
 ---
 description: Instrucciones para configurar los informes de valoración de los paneles.
 title: Guía del gestor de datos para paneles de Adobe Analytics
-feature: Analytics Dashboards
+feature: Paneles de Analytics
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '2404'
-ht-degree: 87%
+exl-id: 3538361d-68bf-4d67-ae14-55691909db6f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '2401'
+ht-degree: 100%
 
 ---
-
 
 # Guía del gestor de datos para paneles de Adobe Analytics
 
@@ -100,7 +100,7 @@ Para implementar la plantilla del informe de valoración:
 
    Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **[!UICONTROL Título]** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
 
-   ![Título Propiedades](assets/properties_tile.png)
+   ![Mosaico de propiedades](assets/properties_tile.png)
 
    Además, si hace clic en un mosaico, una ventana emergente dinámica le mostrará cómo verá la vista Desglose el usuario ejecutivo de la aplicación. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
 
@@ -112,29 +112,29 @@ Para implementar la plantilla del informe de valoración:
 
    ![Generar segmentos para filtrar](assets/segment_ui.png)
 
-5. Del mismo modo, para eliminar un componente que se aplique a todo el informe de valoración, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, elimínelo haciendo clic en **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Visitas por primera vez**:
+5. Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de resultados, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, quítelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Primeras visitas**:
 
    ![Remove_components](assets/new_remove.png)
 
-6. Agregue y elimine combinaciones de intervalos de fechas que se puedan seleccionar en el informe de valoración seleccionando la lista desplegable de intervalos de fechas.
+6. Añada y quite combinaciones de intervalos de fechas que se puedan seleccionar en el cuadro de resultados seleccionando la lista desplegable de intervalo de fechas.
 
-   ![Nueva tarjeta de puntuación](assets/new_score_card.png)
+   ![Nuevo cuadro de resultados](assets/new_score_card.png)
 
-   Cada nuevo informe de valoración comienza con 6 combinaciones de intervalos de fechas que se centran en los datos de hoy y ayer. Puede eliminar intervalos de fechas innecesarios haciendo clic en la x o puede editar cada combinación de intervalos de fechas haciendo clic en el lápiz.
+   Cada nuevo cuadro de resultados comienza con 6 combinaciones de intervalo de fechas que se centran en los datos de hoy y ayer. Puede quitar intervalos de fechas innecesarios haciendo clic en la x o puede editar cada combinación de intervalos de fechas haciendo clic en el lápiz.
 
-   ![Nueva tarjeta de puntuación2](assets/new_score_card2.png)
+   ![Nuevo cuadro de resultados2](assets/new_score_card2.png)
 
    Para crear o cambiar una fecha principal, utilice la lista desplegable para seleccionar entre intervalos de fechas disponibles o arrastre y suelte un componente de fecha del carril derecho en la zona de colocación.
 
-   ![Nueva tarjeta de puntuación3](assets/new_score_card3.png)
+   ![Nuevo cuadro de resultados3](assets/new_score_card3.png)
 
    Para crear una fecha de comparación, puede seleccionar entre cómodos preconjuntos para comparaciones de tiempo comunes en el menú desplegable. También puede arrastrar y soltar un componente de fecha desde el carril derecho.
 
-   ![Nueva tarjeta de puntuación4](assets/new_score_card4.png)
+   ![Nuevo cuadro de resultados4](assets/new_score_card4.png)
 
    Si el intervalo de fechas que desea aún no se ha creado, puede crear uno nuevo haciendo clic en el icono de calendario.
 
-   ![Nueva tarjeta de puntuación4](assets/new_score_card5.png)
+   ![Nuevo cuadro de resultados4](assets/new_score_card5.png)
 
 7. Esto le llevará al generador de intervalos de fechas, donde puede crear y guardar un nuevo componente de intervalo de fechas. Para asignar un nombre al informe de valoración, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
 
@@ -215,7 +215,7 @@ Para ayudar a los usuarios ejecutivos:
    * Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Analytics y que se ha compartido el informe de valoración.
 
 
-3. Explique al usuario ejecutivo cómo aparecen los mosaicos en los informes de valoración que comparte (el primer informe de valoración a continuación se establece en modo oscuro); consulte **[!UICONTROL Preferencias]** a continuación si cree que el usuario ejecutivo prefiere esta opción de visualización):
+3. Explique al usuario ejecutivo cómo aparecen los mosaicos en los cuadros de resultados que comparte (el primer informe de valoración a continuación se establece en modo oscuro; consulte **[!UICONTROL Preferencias]** si cree que el usuario ejecutivo prefiere esta opción de visualización):
 
    ![Explicación de los mosaicos](assets/newexplain.png)
 
@@ -239,7 +239,7 @@ Para ayudar a los usuarios ejecutivos:
 
    * Se incluye una tabla para mostrar los datos de las dimensiones agregadas al mosaico. Pulse en la flecha hacia abajo para seleccionar dimensiones. Si no se ha agregado ninguna dimensión al mosaico, la tabla muestra los datos del gráfico.
 
-5. Para cambiar los intervalos de fechas del informe de valoración, pulse el encabezado Fecha y seleccione la combinación de intervalo de fechas principal y de comparación que desee ver.
+5. Para cambiar los intervalos de fechas del cuadro de resultados, pulse el encabezado Fecha y seleccione la combinación de intervalo de fechas principal y de comparación que desee ver.
 
    ![Cambio de fechas](assets/changedate.png)
 
