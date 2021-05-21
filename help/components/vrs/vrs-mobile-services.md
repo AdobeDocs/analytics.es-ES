@@ -2,11 +2,14 @@
 description: La interfaz de usuario de Adobe Mobile Services combina datos de las aplicaciones móviles de sus grupos de informes de Adobe Analytics con la posibilidad de enviar notificaciones push y generar mensajes en las aplicaciones.
 title: Compatibilidad con VRS en Mobile Services
 uuid: 1b11279e-d0d8-48c5-a5b5-8020d5ed39da
-translation-type: tm+mt
-source-git-commit: 9193a520b13a0717a3383a32b39936f278c49d49
+exl-id: 3082333a-514d-45c6-9432-da32bd27a2eb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '221'
+ht-degree: 100%
 
 ---
-
 
 # Compatibilidad con VRS en Mobile Services
 
