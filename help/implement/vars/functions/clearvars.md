@@ -1,14 +1,14 @@
 ---
 title: clearVars
 description: Borra los valores siguientes del objeto de instancia. Esta función elimina los elementos (los establece como “undefined”).
-translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
-workflow-type: tm+mt
+exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '168'
 ht-degree: 100%
 
 ---
-
 
 # clearVars
 
@@ -17,9 +17,9 @@ Algunas implementaciones, como en aplicaciones de una sola página, requieren qu
 Este método no toma ningún argumento y no devuelve ningún valor. Su único propósito es borrar los valores de variables del objeto de instancia. Este método establece los siguientes elementos como `undefined`:
 
 * `prop1` - `prop75`
-* `eVar` -  `eVar250`
-* `hier1` -  `hier5`
-* `list1` -  `list3`
+* `eVar` - `eVar250`
+* `hier1` - `hier5`
+* `list1` - `list3`
 * `events`
 * `products`
 * `channel`
