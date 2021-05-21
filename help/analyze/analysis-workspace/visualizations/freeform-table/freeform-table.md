@@ -1,16 +1,16 @@
 ---
 title: Tabla improvisada
 description: Las tablas de forma libre son la base del análisis de datos en Workspace
-feature: Freeform Tables
+feature: Tablas improvisadas
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 99%
+exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '533'
+ht-degree: 100%
 
 ---
-
 
 # Tabla improvisada
 
@@ -20,7 +20,7 @@ En Analysis Workspace, una tabla de forma libre es la base del análisis de dato
 
 ## Tablas automatizadas
 
-La forma más rápida de crear una tabla es soltar componentes directamente en un proyecto, panel o tabla de forma libre en blanco. Se creará automáticamente una tabla de forma libre en un formato recomendado. [Vea el tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=es-ES).
+La forma más rápida de crear una tabla es soltar componentes directamente en un proyecto, panel o tabla de forma libre en blanco. Se creará automáticamente una tabla de forma libre en un formato recomendado. [Vea el tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=es).
 
 ![](assets/automated-table.png)
 
@@ -47,12 +47,12 @@ Puede interactuar con una tabla de forma libre y personalizarla de diversas mane
 
 ## Exportar datos de tabla improvisada
 
-Obtenga más información sobre todas las [opciones de exportación](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es-ES) de datos de Analysis Workspace.
+Obtenga más información sobre todas las [opciones de exportación](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es) de datos de Analysis Workspace.
 
 * Al hacer clic con el botón derecho en > **[!UICONTROL Copiar datos en el portapapeles]**, se exportan los datos de tabla mostrados. Si se realiza una selección de tabla, esta opción dirá **[!UICONTROL Copiar selección al portapapeles]**. La tecla de acceso directo **Ctrl+C** también copia los datos seleccionados.
 * Al hacer clic con el botón derecho en > **[!UICONTROL Descargar datos como CSV]**, se descargan los datos de tabla mostrados como CSV. Si se hace una selección de tabla, esta opción indicará **[!UICONTROL Descargar selección como CSV]**.
 * Al hacer clic con el botón derecho en > **[!UICONTROL Proyecto > Descargar elementos como CSV]**, se exportarán hasta 50 000 elementos de dimensión de la dimensión seleccionada.
 
-Obtenga más información sobre todas las [opciones de exportación](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) de datos de Analysis Workspace.
+Obtenga más información sobre todas las [opciones de exportación](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es) de datos de Analysis Workspace.
 
 ![](assets/export-options.png)
