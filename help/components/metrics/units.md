@@ -1,14 +1,14 @@
 ---
 title: Unidades
 description: Número total de productos comprados dentro de todos los pedidos.
+exl-id: c7293445-0760-4237-83ae-812224ca6f4b
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '174'
 ht-degree: 100%
 
 ---
-
 
 # Unidades
 
