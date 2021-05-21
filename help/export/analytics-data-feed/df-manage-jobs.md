@@ -1,11 +1,14 @@
 ---
 title: Administración de trabajos de fuentes de datos
 description: Obtenga información sobre cómo administrar trabajos individuales en fuentes de datos.
-translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+exl-id: b17e333e-290f-42e4-b304-1e34282237a7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '495'
+ht-degree: 100%
 
 ---
-
 
 # Administración de trabajos de fuentes de datos
 
@@ -15,7 +18,7 @@ Para acceder a la administración de trabajos de fuentes de datos, siga estos pa
 
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 2. Haga clic en el menú de 9 cuadrículas en la parte superior derecha y, a continuación, haga clic en [!UICONTROL Analytics].
-3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
+3. En el menú superior, haga clic en [!UICONTROL Administración] > [!UICONTROL Fuentes de datos].
 4. Haga clic en la pestaña Trabajos cerca de la parte superior.
 
 ![Menú de fuente de datos](assets/AdminMenu.png)
