@@ -1,14 +1,14 @@
 ---
 title: Implementación con AMP
 description: Implementar Adobe Analytics en páginas de AMP.
+exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 translation-type: ht
-source-git-commit: c3c581eab8a4677831968574c9fb8d6f6eadd7e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1057'
 ht-degree: 100%
 
 ---
-
 
 # Implementación con AMP
 
@@ -158,7 +158,7 @@ La plantilla `"adobeanalytics_nativeConfig"` también agrega parámetros de cade
 
 >[!IMPORTANT]
 >
->La página `stats.html` debe alojarse en un subdominio independiente en el que se aloja la AMP. El marco de AMP no permite iframes del mismo subdominio en que la página AMP misma existe. Por ejemplo, si la AMP está alojada en `amp.example.com`, aloje la página `stats.html` en un subdominio independiente como `ampmetrics.example.com`.
+>La página `stats.html` debe alojarse en un subdominio independiente en el que se aloja la AMP. El marco de AMP no permite iFrames del mismo subdominio en que la página AMP misma existe. Por ejemplo, si la AMP está alojada en `amp.example.com`, aloje la página `stats.html` en un subdominio independiente como `ampmetrics.example.com`.
 
 Con este método, si un usuario excluye el seguimiento en su sitio principal, también opta por excluirse del seguimiento en todas sus AMP. El uso de esta página de utilidades también significa que AMP puede admitir el servicio de Adobe Experience Cloud ID. No se necesita un grupo de informes separado.
 
