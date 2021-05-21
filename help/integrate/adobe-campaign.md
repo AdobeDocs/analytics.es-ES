@@ -1,14 +1,14 @@
 ---
 description: Obtenga información sobre cómo activar la creación de informes de Adobe Campaign en Adobe Analytics
 title: ¿Cómo se integra la creación de informes de Adobe Campaign en Adobe Analytics?
+exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 translation-type: ht
-source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
 ---
-
 
 # Informes de Adobe Campaign
 
