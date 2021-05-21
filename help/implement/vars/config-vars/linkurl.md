@@ -1,14 +1,14 @@
 ---
 title: linkURL
 description: Omitir la URL del vínculo generado automáticamente que AppMeasurement utiliza en las llamadas de seguimiento de vínculos.
+exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 translation-type: ht
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '115'
 ht-degree: 100%
 
 ---
-
 
 # linkURL
 
