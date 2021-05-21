@@ -1,11 +1,14 @@
 ---
 title: offlineHitLimit
 description: Determinar el número máximo de visitas en cola para el seguimiento sin conexión.
+exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '155'
+ht-degree: 100%
 
 ---
-
 
 # offlineHitLimit
 
