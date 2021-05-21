@@ -1,14 +1,14 @@
 ---
 title: Regiones
 description: Región geográfica del visitante.
+exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
 translation-type: ht
-source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '381'
 ht-degree: 100%
 
 ---
-
 
 # Regiones
 
@@ -16,7 +16,7 @@ La dimensión “Regiones” indica la región geográfica del visitante. Es una
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia a las reglas de búsqueda internas de Adobe. El valor de búsqueda se basa en la dirección IP enviada con la visita. Adobe se asocia con [Digital Element](https://www.digitalelement.com/?lang=es) para mantener búsquedas entre la dirección IP y el país. Esta dimensión funciona de forma predeterminada para todas las implementaciones.
+Esta dimensión hace referencia a las reglas de búsqueda internas de Adobe. El valor de búsqueda se basa en la dirección IP enviada con la visita. Adobe se asocia con [Digital Element](https://www.digitalelement.com/es) para mantener búsquedas entre la dirección IP y el país. Esta dimensión funciona de forma predeterminada para todas las implementaciones.
 
 >[!TIP]
 >
