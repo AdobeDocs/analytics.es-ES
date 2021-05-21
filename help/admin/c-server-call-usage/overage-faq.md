@@ -2,14 +2,14 @@
 description: Preguntas más frecuentes sobre el uso de llamadas al servidor de Adobe Analytics
 title: Preguntas frecuentes sobre Uso de llamadas al servidor
 uuid: 43340481-2e49-446b-bec7-86fcadeb4233
+exl-id: a660542c-9389-4608-bc25-49831c21ceb7
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '720'
 ht-degree: 100%
 
 ---
-
 
 # Preguntas frecuentes sobre Uso de llamadas al servidor
 
