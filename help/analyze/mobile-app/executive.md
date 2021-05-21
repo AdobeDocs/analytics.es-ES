@@ -1,16 +1,16 @@
 ---
 description: Instrucciones para usar los informes de valoración de los paneles.
 title: Guía del usuario ejecutivo sobre paneles de Adobe Analytics
-feature: Analytics Dashboards
+feature: Paneles de Analytics
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 99%
+exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1295'
+ht-degree: 100%
 
 ---
-
 
 # Paneles de Adobe Analytics: guía de inicio rápido del usuario ejecutivo
 
@@ -122,7 +122,7 @@ Para usar los paneles:
 
    * Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **[!UICONTROL COMPARAR CON]**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **[!UICONTROL Listo]** en la parte superior derecha de la pantalla. El campo **[!UICONTROL Intervalos de fecha]** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
-7. Para aplicar un filtro de segmento a su informe de valoración, pulse la lista desplegable de filtros y seleccione un segmento que haya configurado el depurador. Los [filtros](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la aplicación funcionan del mismo modo que en el espacio de trabajo de Analytics.
+7. Para aplicar un filtro de segmento a su informe de valoración, pulse la lista desplegable de filtros y seleccione un segmento que haya configurado el depurador. Los [filtros](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la aplicación funcionan del mismo modo que en Analytics Workspace.
 
    ![Filtro de segmento](assets/segment_filter.png)
 
