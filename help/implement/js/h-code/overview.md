@@ -1,14 +1,14 @@
 ---
 title: Introducción a la implementación de código H de JavaScript
 description: Conozca el flujo de trabajo para implementar el código H en su sitio.
+exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
 ---
-
 
 # Introducción a la implementación de código H de JavaScript
 
@@ -25,8 +25,8 @@ Debe tener acceso a los servidores de alojamiento para implementar correctamente
 1. **Actualizar variables de archivos JS principales**: Edite el archivo `s_code.js` y asegúrese que las siguientes variables están actualizadas:
    * `s_account` contiene el ID del grupo de informes al que desea enviar los datos. Consulte
    * `s.trackingServer` contiene la ubicación en la que se almacenan las cookies. Consulte [trackingServer](../../vars/config-vars/trackingserver.md).
-1. **Aloje el archivo`s_code.js`en el sitio**: Este archivo suele alojarse con otras secuencias de comandos del servidor web.
-1. **Haga referencia a`s_code.js`en todas las páginas**: Asegúrese de que todas las páginas individuales llamen al archivo principal de JavaScript y hágalo dentro de la etiqueta HTML `<body>` (no la etiqueta `<head>`).
+1. **Aloje el archivo `s_code.js` en el sitio**: Este archivo suele alojarse con otras secuencias de comandos del servidor web.
+1. **Haga referencia a `s_code.js` en todas las páginas**: Asegúrese de que todas las páginas individuales llamen al archivo principal de JavaScript y hágalo dentro de la etiqueta HTML `<body>` (no la etiqueta `<head>`).
 
    >[!TIP]
    >
