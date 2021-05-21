@@ -2,16 +2,16 @@
 description: Cree proyectos de Workspace basados en plantillas estándar o personalizadas.
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-feature: Workspace Basics
+feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1402'
+exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1399'
 ht-degree: 100%
 
 ---
-
 
 # Plantillas
 
@@ -88,7 +88,7 @@ Estas plantillas estándar le guían a través de la terminología común y de l
 * **Consumo de audio**: ¿Qué contenido se consume más y resulta más atractivo para los usuarios?
 * **Actualización, Frecuencia, Lealtad**: ¿Quiénes son mis lectores más fieles?
 
-### Mobile
+### Móvil
 
 >[!IMPORTANT]
 >
