@@ -1,14 +1,14 @@
 ---
 title: Profundidad promedio de la página
 description: Cantidad promedio de páginas en las que existe la dimensión.
-translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
-workflow-type: tm+mt
+exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # Profundidad promedio de la página
 
@@ -16,7 +16,7 @@ La métrica “Profundidad promedio de la página” muestra hasta dónde alcanz
 
 >[!TIP]
 >
->Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Si utiliza esta métrica de forma independiente, obtendrá elementos de dimensión que contengan profundidades de página anómalas, lo que generalmente no proporciona datos valiosos.
+>Utilice esta métrica junto con otra métrica (como [Visitas](visits.md)) para obtener mejores datos. Si utiliza esta métrica de forma independiente, obtendrá elementos de dimensión que contengan profundidades de página anómalas, lo que generalmente no proporciona datos valiosos.
 
 ## Cálculo de esta métrica
 
