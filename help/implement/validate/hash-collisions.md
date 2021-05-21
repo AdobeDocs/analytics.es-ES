@@ -1,14 +1,14 @@
 ---
 title: Conflictos de hash
 description: Describe lo que es un conflicto de hash y cómo se puede manifestar.
+exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '443'
 ht-degree: 100%
 
 ---
-
 
 # Conflictos de hash
 
