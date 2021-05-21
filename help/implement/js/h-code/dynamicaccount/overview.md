@@ -1,14 +1,14 @@
 ---
 title: Información general sobre cuentas dinámicas
 description: Descubra el flujo de trabajo sobre cómo seleccionar dinámicamente un grupo de informes con el código H.
+exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
 ---
-
 
 # Información general sobre cuentas dinámicas
 
