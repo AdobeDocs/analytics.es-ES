@@ -1,14 +1,14 @@
 ---
 title: Revisión completa
 description: Revise la implementación cada 6 meses para garantizar una alineación continua con los KPI y las necesidades del la empresa.
-translation-type: tm+mt
-source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
-workflow-type: tm+mt
+exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
-
 
 # Revisión completa (para revisar su implementación dos veces al año)
 
@@ -20,9 +20,9 @@ Reúnase con el propietario de la empresa y/o los analistas para revisar los cam
 
 ## 2. Asegúrese de que sus métricas y variables siguen funcionando correctamente.
 
-Revise brevemente todas sus métricas y variables, en orden de importancia para la empresa, para asegurarse de que los datos se estén recopilando correctamente. Inicio con las métricas y variables más cruciales: las asociadas con los [5 KPI principales](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review). Para ello:
+Revise brevemente todas sus métricas y variables, en orden de importancia para la empresa, para asegurarse de que los datos se estén recopilando correctamente. Comience con las métricas y variables de mayor importancia: las asociadas con los [5 KPI principales](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=es#review). Para ello:
 
-* Cree paneles para ver las vistas de tendencias mensuales de sus métricas y variables (o configure [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) para cada una) para asegurarse de que obtiene los datos que espera y los datos son correctos. Si encuentra alguna discrepancia, examine la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar el motivo.
+* Cree paneles para ver las vistas de tendencias mensuales de sus métricas y variables (o configure [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=es#analysis-workspace) para cada una ellas) para asegurarse de obtener los datos que espera y de que los datos sean correctos. Si encuentra alguna discrepancia, examine la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar el motivo.
 * Vuelva a ejecutar el [Panel de mantenimiento de Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) para monitorizar las tendencias generales de las métricas y variables.
 
 No permita que la implementación acabe llena de métricas y variables innecesarias. Deshabilite las métricas o variables que la empresa ya no necesite ni utilice. Puede que desee eliminarlas o volver a utilizarlas más adelante.
