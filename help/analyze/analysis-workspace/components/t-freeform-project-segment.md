@@ -2,16 +2,16 @@
 description: Use segmentos en Analysis Workspace.
 title: Segmentos
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-feature: Workspace Basics
+feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '375'
+exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '372'
 ht-degree: 100%
 
 ---
-
 
 # Segmentos {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
@@ -32,7 +32,7 @@ Los tipos de componente se convierten automáticamente en segmentos. También pu
 Tenga en cuenta que:
 
 * **No puede** soltar los siguientes tipos de componentes en la zona de segmento: métricas calculadas y dimensiones/métricas desde las que no se pueden crear segmentos.
-* Para las dimensiones y eventos completos, Analysis Workspace crea segmentos de visita del tipo “existe”. Ejemplos: “Visita donde existe eVar1” o “Visita donde existe evento1”.
+* Para las dimensiones y eventos completos, Analysis Workspace crea segmentos de visita del tipo “existe”. Ejemplos: “Visita donde existe eVar1” o “Visita donde existe event1”.
 * Si se suelta “sin especificar” o “ninguno” en la zona de colocación de segmentos, se convierten automáticamente en un segmento “no existe”, de modo que se los trate adecuadamente en la segmentación.
 
 ![](assets/segment-dropzone.png)
