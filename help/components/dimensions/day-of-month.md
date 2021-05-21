@@ -1,14 +1,14 @@
 ---
 title: Día del mes
 description: El día numérico del mes, independientemente de qué mes.
+exl-id: 6d27aa9f-ce75-4a27-bb92-3acabe3975a1
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
 ---
-
 
 # Día del mes
 
