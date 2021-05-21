@@ -1,24 +1,24 @@
 ---
 title: Visitantes únicos
-description: Número de ID de visitante únicos.
-translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
-workflow-type: tm+mt
+description: Número de ID único de visitante.
+exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-
 # Visitantes únicos
 
-La métrica “visitantes únicos” muestra el número de ID de visitante para el elemento de dimensión. Es una de las métricas más comunes utilizadas para determinar el tráfico, ya que proporciona una visión general de alto nivel de la popularidad de un elemento de dimensión. Por ejemplo: un visitante puede llegar a su sitio todos los días durante un mes, pero contará como un único visitante.
+La métrica Visitantes únicos muestra el número de ID de visitante para el elemento de dimensión. Es una de las métricas más comunes utilizadas para determinar el tráfico, ya que proporciona una visión general de alto nivel de la popularidad de un elemento de dimensión. Por ejemplo: un visitante puede llegar a su sitio todos los días durante un mes, pero contará como un visitante único.
 
-Si utiliza análisis [entre](../cda/overview.md)dispositivos, esta métrica se sustituye por la métrica de dispositivos [](unique-devices.md) únicos.
+Si utiliza [Análisis entre dispositivos](../cda/overview.md), esta métrica se sustituye por la métrica [Dispositivos únicos](unique-devices.md).
 
 ## Visitantes únicos diarios, semanales, mensuales, trimestrales y anuales
 
-Reports &amp; Analytics proporciona opciones para visitantes únicos diarios, semanales, mensuales, trimestrales y anuales. En lugar de contar un solo visitante único para todo el periodo de tiempo, los visitantes únicos se contabilizan en función de la métrica seleccionada. Por ejemplo, desea ver los visitantes únicos diarios del sitio. Si un visitante llega a su sitio por la mañana y de nuevo por la noche, se cuenta como un único visitante diario. Si un visitante llega a su sitio el lunes y nuevamente el martes, se cuenta como dos visitantes únicos diarios.
+Reports &amp; Analytics proporciona opciones para visitantes únicos diarios, semanales, mensuales, trimestrales y anuales. En lugar de contar un solo visitante único para todo el periodo de tiempo, los visitantes únicos se contabilizan en función de la métrica seleccionada. Por ejemplo, desea ver los visitantes únicos diarios del sitio. Si un visitante llega a su sitio por la mañana y de nuevo por la noche, se cuenta como visitante único diario. Si un visitante llega a su sitio el lunes y nuevamente el martes, se cuenta como dos visitantes únicos diarios.
 
 Analysis Workspace trata los visitantes únicos en función de la granularidad del informe. Por ejemplo, si utiliza la dimensión [Día](../dimensions/day.md), verá visitantes únicos diarios para cada elemento de dimensión. Sin embargo, de cara al total del informe, se anula la duplicación de visitantes únicos para el intervalo de fechas de la tabla de forma libre.
 
@@ -38,7 +38,7 @@ Esta métrica cuenta el número de ID del visitante único para un elemento de d
 >
 >Cada ID de visitante de Analytics está vinculado a un perfil en los servidores de Adobe. Estos perfiles de visitante se eliminan después de 13 meses de inactividad, sin importar las expiraciones de las cookies de ID de visitantes.
 
-## Comportamiento que afecta al recuento de visitantes único
+## Comportamiento que afecta a la cantidad de visitantes únicos
 
 Los identificadores de visitante únicos generalmente se almacenan en una cookie de explorador. Se cuenta un nuevo visitante único si realiza cualquiera de las siguientes acciones:
 
