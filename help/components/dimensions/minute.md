@@ -1,14 +1,14 @@
 ---
 title: Minuto
 description: El minuto en el que se produjo la métrica.
+exl-id: 63f13083-321f-4fd8-9352-e413e1ebf168
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '145'
 ht-degree: 100%
 
 ---
-
 
 # Minuto
 
