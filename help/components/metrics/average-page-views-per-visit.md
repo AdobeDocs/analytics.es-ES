@@ -1,14 +1,14 @@
 ---
 title: Promedio de vistas de página por visita
 description: El número promedio de veces que un elemento de dimensión determinado apareció en una visita.
-translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
-workflow-type: tm+mt
+exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # Promedio de vistas de página por visita
 
@@ -16,7 +16,7 @@ La dimensión “Promedio de vistas de página por visita” muestra cuántas vi
 
 >[!TIP]
 >
->Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Si utiliza esta métrica por sí misma, obtendrá elementos de dimensión que contengan vistas de página de anomalías por visita, lo que generalmente no es muy útil.
+>Utilice esta métrica junto con otra métrica (como [Visitas](visits.md)) para obtener mejores datos. Si utiliza esta métrica por sí misma, obtendrá elementos de dimensión que contengan vistas de página de anomalías por visita, lo que generalmente no es muy útil.
 
 ## Cálculo de esta métrica
 
