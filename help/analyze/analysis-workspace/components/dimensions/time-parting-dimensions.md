@@ -2,16 +2,16 @@
 description: La partición de tiempo toma la marca de hora de los aciertos recogidos y lo divide en dimensiones más significativas, como “Hora del día” o “Día de la semana”.
 title: Dimensiones de partición de tiempo
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Workspace Basics
+feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '237'
+exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '234'
 ht-degree: 100%
 
 ---
-
 
 # Dimensiones de partición de tiempo
 
@@ -26,7 +26,7 @@ Las dimensiones de partición de tiempo se basan en el huso horario del grupo de
 
 >[!NOTE]
 >
->Las dimensiones de partición de tiempo solo están disponibles en Analysis Workspace. Para utilizar dimensiones de partición de tiempo en otras soluciones de análisis, puede implementar el [complemento getTimeParting](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/plugins/gettimeparting.html).
+>Las dimensiones de partición de tiempo solo están disponibles en Analysis Workspace. Para utilizar dimensiones de partición de tiempo en otras soluciones de Analytics, puede implementar el [complemento getTimeParting](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/plugins/gettimeparting.html).
 
 Las dimensiones de partición de tiempo en Analysis Workspace incluyen:
 
