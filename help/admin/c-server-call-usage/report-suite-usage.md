@@ -2,17 +2,20 @@
 description: La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor para cada grupo de informes en todas las empresas de inicio de sesión asociadas a su empresa de facturación durante el periodo de uso actual.
 title: Ver uso del grupo de informes
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '441'
+ht-degree: 100%
 
 ---
-
 
 # Ver uso del grupo de informes
 
 La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor para cada grupo de informes en todas las empresas de inicio de sesión asociadas a su empresa de facturación durante el periodo de uso actual.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Server Call Usage]** > **[!UICONTROL Report Suite Usage]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Uso de llamadas al servidor]** > **[!UICONTROL Uso del grupo de informes]**
 
 >[!IMPORTANT]
 >
@@ -24,13 +27,13 @@ El tablero de Uso del grupo de informes:
 * Muestra el porcentaje del uso global por categoría de llamadas al servidor.
 * Se actualiza a diario.
 * Se puede descargar.
-* Permite acceder a la **[!UICONTROL Manage Alerts]** interfaz de usuario.
+* Permite acceder a la interfaz de usuario de **[!UICONTROL Administrar alertas]**.
 
 ![](assets/report-suite-usage.png)
 
 | Columna | Definición |
 |--- |--- |
-| Report Suite Nombre | Nombre descriptivo del grupo de informes. |
+| Nombre del grupo de informes | Nombre descriptivo del grupo de informes. |
 | Todas las llamadas (% del total) | Todas las llamadas al servidor en las que se ha incurrido en el periodo de uso actual. |
 | Llamadas primarias (%) | Todas las llamadas al servidor primarias (y su porcentaje del total) en las que se ha incurrido en el periodo de uso actual. |
 | Llamadas secundarias (%) | Todas las llamadas al servidor secundarias (y su porcentaje del total) en las que se ha incurrido en el periodo de uso actual. |
@@ -43,7 +46,7 @@ El tablero de Uso del grupo de informes:
 Esta opción permite descargar los datos de uso actual y datos de periodos anteriores al periodo de uso actual (hasta enero de 2015). El informe se descarga como archivo .csv.
 
 1. Seleccione al menos un grupo de informes.
-1. Haga clic en **[!UICONTROL Download Report]**.
+1. Haga clic en **[!UICONTROL Descargar informe]**.
 
    ![](assets/download_report.png)
 
@@ -52,10 +55,10 @@ Esta opción permite descargar los datos de uso actual y datos de periodos anter
 | Nombre del archivo | Nombre codificado: Informe de uso `day and time of report creation.csv` |
 | Grupos de informes incluidos | Cualquier grupo de informes que seleccione en la página Uso del servidor de informes se incluye en esta lista. |
 | Tipos de llamada incluidos | Especifique cualquier combinación de estas: Todas las llamadas (predeterminado), Primarias, Secundarias, Primarias móviles, Secundarias móviles. |
-| Intervalo de tiempo | Puede elegir el periodo de uso actual o especificar un intervalo personalizado.  Para un intervalo personalizado, especifique el comienzo del intervalo y el final del intervalo. <br>**Nota:**Recuerde que no puede descargar datos de uso anteriores a enero de 2015</br>. |
+| Intervalo de tiempo | Puede elegir el periodo de uso actual o especificar un intervalo personalizado.  Para un intervalo personalizado, especifique el comienzo del intervalo y el final del intervalo. <br>**Nota:** Recuerde que no puede descargar datos de uso anteriores a enero de 2015 </br>. |
 
-1. Haga clic en **[!UICONTROL Download]**.
+1. Haga clic en **[!UICONTROL Descargar]**.
 
-A continuación se muestra una captura de pantalla del aspecto del archivo .csv descargado. Incluye una columna para la ID del grupo de informes. La ID del grupo de informes especifica una ID única que solo puede contener caracteres alfanuméricos. Esta ID no se puede cambiar después de crear un grupo de informes.
+A continuación se muestra una captura de pantalla del aspecto del archivo .csv descargado. Incluye una columna para la ID del grupo de informes. El ID del grupo de informes especifica un ID único que solo puede contener caracteres alfanuméricos. Esta ID no se puede cambiar después de crear un grupo de informes.
 
 ![](assets/download-usage.png)
