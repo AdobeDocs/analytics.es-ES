@@ -1,14 +1,14 @@
 ---
 title: formatTime
 description: Convierta un número de segundos en su equivalente en minutos, horas, etc.
+exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
 translation-type: ht
-source-git-commit: 56b21b6acb948c478d7b2a29c3e8375a8fe77ce2
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '824'
 ht-degree: 100%
 
 ---
-
 
 # Complemento de Adobe: formatTime
 
