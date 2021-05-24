@@ -2,10 +2,10 @@
 title: Permisos de perfil de productos para las herramientas de Analytics
 description: Utilice los elementos de permiso de las herramientas de Analytics para conceder acceso a las funciones de Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 73%
+source-wordcount: '494'
+ht-degree: 72%
 
 ---
 
@@ -21,16 +21,10 @@ Los elementos de permiso de las herramientas de Analytics conceden acceso a las 
 | Registros | Otorga acceso a Administración > Todos los administradores > Registros. |
 | Registros - Servicios Web | Otorga acceso a los registros de extracción a través de la API 1.4. |
 | Administración del tráfico | Otorga acceso a Administración > Todos los administradores > Administración del tráfico. |
-| Administración de permisos | Ya no se utiliza. Otorga acceso a la interfaz de administración de usuarios heredada en Administración > Todos los administradores > Administración de usuarios. |
-| Permisos (lectura) - Servicios Web | Ya no se utiliza. Permite al usuario ver permisos de Analytics heredados mediante la API de administración. Utilice Adobe Admin Console en su lugar. |
-| Permisos (escritura) - Servicios Web | Ya no se utiliza. Permite al usuario editar permisos de Analytics heredados mediante la API de administración. Utilice Adobe Admin Console en su lugar. |
 | Seguridad | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Administrador de seguridad. |
 | Asistencia | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Información de asistencia. |
 | Servicios Web | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Servicios Web. |
-| Inicio de sesión único | Ya no se utiliza. Otorga acceso al servicio de inicio de sesión único obsoleto. |
 | Acciones pendientes | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Acciones pendientes. |
-| Promoción conjunta de marca | Ya no se utiliza. Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Promoción conjunta de marca. |
-| Preferencias | No se usa. |
 | Ocultar grupos de informes | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Ocultar grupos de informes. Otorga la capacidad de ocultar cualquier grupo de informes de la organización, independientemente del acceso a su grupo de informes. |
 | Usuarios de licencias de Excel | No se usa. |
 | Activity Map | Otorga acceso a Herramientas > Activity Map. Permite al usuario utilizar la extensión Activity Map. |
