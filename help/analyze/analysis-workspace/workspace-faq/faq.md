@@ -4,7 +4,6 @@ title: Preguntas frecuentes y resolución de problemas de Workspace
 feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-translation-type: tm+mt
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
 source-wordcount: '523'
