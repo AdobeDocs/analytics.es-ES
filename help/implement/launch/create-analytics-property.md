@@ -75,14 +75,14 @@ Las reglas asignan elementos de datos a valores de variables de Analytics y dete
    * Tipo de acción: Enviar señalización
    * Nombre: Adobe Analytics - Enviar señalización
    * Seguimiento: s.t()
-1. Haga clic en **[!UICONTROL Mantener cambios]**. 
+1. Haga clic en **[!UICONTROL Mantener cambios]**.
 1. Compruebe que tiene el evento y dos acciones definidas, y, a continuación, haga clic en **[!UICONTROL Guardar]**.
 
 ## Documentación y recursos adicionales
 
 * [Documentación de la extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=en#extensions-ref): Documentación completa específica de la extensión de Adobe Analytics en Adobe Experience Platform Launch.
 * [Introducción a Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en#get-started): Documentación completa para Launch, incluida una guía de introducción más detallada.
-* [Canal de de Adobe Experience Platform Launch](https://experienceleague.adobe.com?tag=Launch&amp;lang=es#recommended/solutions/experience-platform): Aprenda a utilizar Launch a través de vídeos
+* [Canal de Adobe Experience Platform Launch](https://experienceleague.adobe.com/?tag=Launch&amp;lang=es#recommended/solutions/experience-platform): Aprenda a utilizar Launch a través de vídeos
 
 ## Pasos siguientes
 
