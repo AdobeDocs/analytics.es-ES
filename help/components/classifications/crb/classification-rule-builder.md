@@ -2,14 +2,13 @@
 description: En lugar de mantener y cargar clasificaciones cada vez que cambien sus códigos de seguimiento, puede crear clasificaciones automáticas basadas en reglas y aplicarlas en varios grupos de informes. Las reglas se procesan a intervalos frecuentes, según el volumen de tráfico relacionado con la clasificación.
 subtopic: Classifications
 title: Flujo de trabajo del generador de reglas de clasificación
-feature: Admin Tools
+feature: Herramientas de administración
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,4 +51,4 @@ Instrucciones avanzadas relacionadas con la implementación de reglas de clasifi
 
 **Blog**: Para obtener más información sobre esta característica, consulte el Blog de Digital Marketing - [Clasificaciones basadas en reglas](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Vídeo**: Vea el vídeo  [Descripción general de las ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) clasificaciones .
+**Vídeo**: Vea el vídeo [Descripción general de las clasificaciones](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/components/classifications/overview-of-classifications.html).
