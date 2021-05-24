@@ -2,7 +2,6 @@
 title: getPageLoadTime
 description: Rastree el tiempo que tarda una página en cargarse.
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-translation-type: tm+mt
 source-git-commit: c814c023fe909b5e78d6dd46de8c27213a4d92be
 workflow-type: tm+mt
 source-wordcount: '580'
