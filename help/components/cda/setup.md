@@ -2,7 +2,6 @@
 title: Configuración de análisis entre dispositivos
 description: Configure un grupo de informes virtuales para habilitar CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-translation-type: tm+mt
 source-git-commit: 005cb590f4f7d31d3de801437a0ba6fa25b2ea64
 workflow-type: tm+mt
 source-wordcount: '515'
