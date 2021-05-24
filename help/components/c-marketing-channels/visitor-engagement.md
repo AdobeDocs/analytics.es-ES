@@ -5,11 +5,10 @@ title: Caducidad del canal de marketing
 feature: Conceptos básicos de Reports & Analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
