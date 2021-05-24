@@ -4,7 +4,6 @@ title: Métricas y dimensiones en tiempo real compatibles
 topic-fix: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '106'
@@ -29,7 +28,7 @@ Proporciona una lista de métricas y dimensiones compatibles con los informes en
 * Instancias
 * Eventos personalizados 1-100 (si se habilita en el grupo de informes)
 
-## Dimensiones admitidas  {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## Dimensiones admitidas {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
 * Página
 * Palabra clave de búsqueda
@@ -46,4 +45,4 @@ Proporciona una lista de métricas y dimensiones compatibles con los informes en
 * Vínculo personalizado
 * Descarga de archivos
 * Vínculo de salida
-* Variables de Insight personalizadas (propiedades) 1-75 (si se habilita en el grupo de informes)
+* Variables de Custom Insight (props) 1-75 (si se habilita en el grupo de informes)
