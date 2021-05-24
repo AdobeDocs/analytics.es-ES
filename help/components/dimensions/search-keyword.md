@@ -1,14 +1,14 @@
 ---
 title: Palabra clave de búsqueda
 description: La palabra clave de búsqueda que el visitante utilizó para llegar al sitio.
+exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '250'
 ht-degree: 100%
 
 ---
-
 
 # Palabra clave de búsqueda
 
