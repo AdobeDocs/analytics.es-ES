@@ -2,11 +2,10 @@
 title: Cuentas y grupos de informes
 description: Aprenda a utilizar una empresa de inicio de sesión y un grupo de informes para mantener los silos de datos organizados en Adobe Analytics.
 exl-id: f4cf2a77-30c1-40f8-ba18-e4d71e170831
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 81%
+ht-degree: 93%
 
 ---
 
@@ -21,4 +20,4 @@ Las organizaciones más grandes suelen tener varios grupos de informes, es decir
 
 Una diferencia clave entre el método de recopilación de datos de Adobe y muchas otras herramientas es que es usted quien especifica a qué grupo o grupos de informes enviar datos dentro de su implementación. Por el contrario, otras herramientas normalmente envían todos los datos a una ubicación de recopilación y luego los filtran a las vistas o perfiles.
 
-[!UICONTROL Los grupos de informes virtuales también están disponibles en Adobe Analytics, que proporciona una vista filtrada de un grupo de informes sin alterar la recopilación de datos ni los datos históricos. ] Por ejemplo, puede utilizar un [!UICONTROL grupo de informes virtuales] para eliminar el tráfico de bots que no se haya capturado anteriormente, o excluir los ingresos fraudulentos o periféricos. Consulte [Grupos de informes virtuales](/help/components/vrs/vrs-about.md) en la guía de usuario sobre componentes para obtener más información.
+[!UICONTROL Los grupos de informes virtuales] también están disponibles en Adobe Analytics, que proporciona una vista filtrada de un grupo de informes sin alterar la recopilación de datos ni los datos históricos. Por ejemplo, puede utilizar un [!UICONTROL grupo de informes virtual] para eliminar el tráfico de bots que no se haya capturado anteriormente, o para excluir los ingresos fraudulentos o periféricos. Consulte [Grupos de informes virtuales](/help/components/vrs/vrs-about.md) en la guía de usuario sobre componentes para obtener más información.
