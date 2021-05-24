@@ -1,10 +1,9 @@
 ---
 description: Preguntas frecuentes sobre la segmentación.
 title: Preguntas frecuentes
-feature: Segmentation
+feature: Segmentación
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '2078'
@@ -84,7 +83,7 @@ Sí, los administradores pueden ver todos los segmentos incluidos en las interfa
 
 Ad Hoc Analysis y Report Builder muestran sus propios segmentos y los que se han compartido con usted.
 
-**¿Puedo administrar todos los segmentos de análisis en el Administrador de segmentos?**
+**¿Puedo administrar todos los segmentos de Analytics en el Administrador de segmentos?**
 
 Sí, todos los segmentos se pueden administrar en el Administrador de segmentos. El Administrador de segmentos muestra los segmentos que son visibles para el propietario (el usuario que creó el segmento), para usuarios compartidos y para los administradores. El selector de segmentos muestra los segmentos que son propiedad del usuario y que se comparten con él.
 
@@ -337,7 +336,7 @@ Las siguientes dimensiones se cambiaron a listas enumeradas:
 | longitud del marcador móvil | Habilitado para Java | búsqueda de pago |
 | longitud de dirección URL móvil | idioma |  |
 
-## Cambios en las dimensiones basadas en enteros que tienen valores conocidos  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Cambios en las dimensiones basadas en enteros que tienen valores conocidos {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Las dimensiones basadas en enteros (como el ancho del explorador) con un conjunto de valores conocidos se dividieron en varios intervalos para que pueda definir rápidamente segmentos para un intervalo específico. A estas listas enumeradas se les ha agregado &quot;- Agrupado&quot; tras el nombre de la dimensión. La siguiente pantalla demuestra cómo se segmentan estas dimensiones utilizando la interfaz antigua y nueva del generador de segmentos:
 
