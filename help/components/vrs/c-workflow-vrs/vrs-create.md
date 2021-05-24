@@ -46,7 +46,7 @@ En la pestaña [!UICONTROL Definición de la visita], defina esta configuración
 
 | Elemento | Descripción |
 | --- |--- |
-| **Configurar definición de visitas** |  |
+| **Configuración de definición de visitas** |  |
 | Habilitar el procesamiento del tiempo del informe | Use el procesamiento del tiempo del informe para cambiar la duración predeterminada del tiempo de espera de la visita. Esta configuración no es destructiva y se aplica solo en Analysis Workspace. [Más información](/help/components/vrs/vrs-report-time-processing.md) |
 | Tiempo de espera de la visita | Define la cantidad de inactividad que debe tener un visitante único antes de que se inicie una nueva visita automáticamente. Esto afectará la métrica de visitas, el contenedor de segmentos de visita y los eVars que caducan en la visita. |
 | Iniciar nueva visita con evento | Inicia una nueva sesión cuando cualquiera de los eventos especificados se activa independientemente de si una sesión ha excedido el tiempo de espera. |
