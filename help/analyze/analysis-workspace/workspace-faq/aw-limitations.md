@@ -36,7 +36,7 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 ## Componentes > Segmentos
 
 * Ciertas métricas y dimensiones no se pueden segmentar, como [!UICONTROL Ocurrencias], [!UICONTROL Visitantes únicos], etc.
-* Los segmentos ad hoc creados en la [zona desplegable del panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es-ES) no aparecerán en la barra izquierda de Workspace ni en el administrador de componentes del segmento, a menos que se hagan públicos. Esto se puede hacer editando el segmento y seleccionando **[!UICONTROL Convertir este segmento en público]**.
+* Los segmentos ad hoc creados en la [zona desplegable del panel](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/panels/panels.html) no aparecerán en la barra izquierda de Workspace ni en el administrador de componentes del segmento, a menos que se hagan públicos. Esto se puede hacer editando el segmento y seleccionando **[!UICONTROL Convertir este segmento en público]**.
 
 ## Componentes > Métricas calculadas
 
