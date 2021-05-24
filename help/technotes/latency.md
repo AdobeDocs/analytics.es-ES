@@ -1,16 +1,15 @@
 ---
 description: La siguiente información puede resultar de utilidad para solucionar los problemas de latencia del grupo de informes en los datos de Analytics.
-keywords: datos que faltan;lento
+keywords: faltan datos;lento
 subtopic: Current data
 title: Disponibilidad y latencia de los datos
 topic-fix: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
