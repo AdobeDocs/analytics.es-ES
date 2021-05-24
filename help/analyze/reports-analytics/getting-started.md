@@ -1,14 +1,13 @@
 ---
-description: Antes de usar Reports and Analytics, es necesario que entienda estas tareas básicas de inicio de sesión y configuración, y que sepa cómo acceder a la información de la cuenta.
-title: Introducción a Reports and Analytics
+description: Antes de usar Reports & Analytics, es necesario que entienda estas tareas básicas de inicio de sesión y configuración, y que sepa cómo acceder a la información de la cuenta.
+title: Introducción a Reports & Analytics
 feature: Conceptos básicos de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-translation-type: tm+mt
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +43,7 @@ Requisitos del sistema y del explorador para iniciar sesión en la interfaz de R
 * JavaScript y las cookies deben estar activados.
 * Resolución de pantalla de 1024 x 768 con una profundidad de color de 16 bits (o superior).
 
-## Inicie de sesión en Reports and Analytics
+## Inicie de sesión en Reports &amp; Analytics
 
 Antes de acceder a la interfaz, colabore con su administrador de cuentas o con el servicio de atención al cliente de Adobe para configurar la cuenta de su empresa.
 
@@ -99,7 +98,7 @@ Todos los usuarios tienen acceso a la página [!UICONTROL Información de la cue
 
 ## Cambiar el idioma de la interfaz
 
-Instrucciones sobre cómo cambiar el idioma de la interfaz. Puede ver la interfaz de Reports and Analytics en el idioma que prefiera.
+Instrucciones sobre cómo cambiar el idioma de la interfaz. Puede ver la interfaz de Reports &amp; Analytics en el idioma que prefiera.
 
 1. Inicie sesión en Analytics y seleccione la pestaña **[!UICONTROL Informes]**.
 1. En el pie de página, haga clic en el idioma activo en el menú **[!UICONTROL Idioma]** y, a continuación, seleccione el idioma que prefiera.
