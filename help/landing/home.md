@@ -1,14 +1,14 @@
 ---
 title: Guías de documentación técnica de Adobe Analytics
 description: Guías y recursos para usuarios de Analytics
-translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+exl-id: f7a06f92-2144-4178-9080-7cb2f3e0e8e1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '467'
 ht-degree: 100%
 
 ---
-
 
 # Documentación de Adobe Analytics
 
@@ -28,9 +28,9 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
 
 [![Integración](assets/integrate_50px.png)](/help/integrate/home.md) [Guía de integración](/help/integrate/home.md): configure integraciones con otras soluciones de Adobe Experience Cloud, como Audience Manager, Advertising Cloud o Target.
 
-[![Streaming Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html) [Guía de Streaming Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html): Implementación de Adobe Analytics para Streaming Media. Incluye el SDK de medios y la API de recopilación de medios.
+[![Streaming Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html) [Guía de Streaming Media Analytics](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html): Implementación de Adobe Analytics para Streaming Media. Incluye el SDK de medios y la API de recopilación de medios.
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/es-ES/data-workbench/using/home.html) [Guías de Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html): obtenga información sobre las capacidades de múltiples canales, potentes y altamente flexibles de [!UICONTROL Data Workbench]. Incluye las guías de [!UICONTROL Cliente de Data Workbench], Instalación, [!UICONTROL Configuración de conjuntos de datos] y más.
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/es-ES/data-workbench/using/home.html) [Guías de Data Workbench](https://docs.adobe.com/content/help/es-ES/data-workbench/using/home.html): obtenga información sobre las capacidades de múltiples canales, potentes y altamente flexibles de [!UICONTROL Data Workbench]. Incluye las guías de [!UICONTROL Cliente de Data Workbench], Instalación, [!UICONTROL Configuración de conjuntos de datos] y más.
 
 [![Notas técnicas](assets/technotes_50px.png)](/help/technotes/home.md) [Notas técnicas de Analytics](/help/technotes/home.md): Una base de conocimiento que contiene artículos útiles que no pertenecen a una herramienta o componente de análisis específico.
 
