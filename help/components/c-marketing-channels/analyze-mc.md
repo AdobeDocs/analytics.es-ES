@@ -2,11 +2,10 @@
 title: Analizar Canales de marketing
 description: Obtenga información sobre cómo utilizar las dimensiones de Canales de marketing en Workspace.
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -62,4 +61,4 @@ Con el Canal de primer toque heredado y el Canal de último toque, puede obtener
 
 ![](assets/mc-viz6.png)
 
-Obtenga más información sobre el análisis de marketing entre pestañas en este vídeo: [Uso del análisis entre pestañas para explorar la atribución de marketing básica en Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Obtenga más información acerca del análisis de marketing entre pestañas en este vídeo: [Uso del análisis entre pestañas para explorar la atribución de marketing básica en Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
