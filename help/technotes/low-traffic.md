@@ -4,11 +4,10 @@ title: Valor de poco tráfico en Adobe Analytics
 feature: Métricas
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-translation-type: tm+mt
 source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 48%
+ht-degree: 52%
 
 ---
 
@@ -48,5 +47,5 @@ Las diferentes funciones tratan los valores de poco tráfico de diferentes maner
    * Pueden seguir apareciendo valores de poco tráfico en situaciones limitadas. Por ejemplo: las variables de lista, las props de lista, las eVars de comercialización y las dimensiones de detalle del canal de marketing.
 * **Segmentación:** si los criterios del segmento contienen una variable con un número elevado de valores únicos, no se incluyen los valores capturados en tráfico bajo.
 * **Clasificaciones:** los informes de clasificación también están sujetos a límites únicos. Si el valor de la variable principal de una clasificación se encuentra en poco tráfico, el valor no se clasifica.
-   * Los valores de clasificación de poco tráfico obtenidos mediante el importador se pueden ver en la Data Warehouse. <!-- AN-115871 -->
-   * Los valores de clasificación de poco tráfico obtenidos a través del generador de reglas *no se pueden ver en la Data Warehouse. <!-- AN-122872 -->*
+   * Los valores de clasificación de poco tráfico obtenidos mediante el importador se pueden ver en Data Warehouse. <!-- AN-115871 -->
+   * Los valores de clasificación de poco tráfico obtenidos a través del generador de reglas *no se pueden* ver en Data Warehouse. <!-- AN-122872 -->
