@@ -5,11 +5,10 @@ uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: Visualizaciones
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '683'
-ht-degree: 100%
+source-git-commit: d2edb8921afa2aeb7ce4b932f1e1320acac7de70
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +52,7 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Ruta eventual </p> <p>(Predeterminado) </p> </td> 
-   <td colname="col2"> <p>Se cuentan los visitantes que “eventualmente” se dirijan a la siguiente página de la ruta, pero no necesariamente al siguiente elemento. </p> </td> 
+   <td colname="col2"> <p>Se cuentan los visitantes que "eventualmente" llegarán a la siguiente página de la ruta de acceso de esa sesión, pero no necesariamente a la siguiente visita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Elemento siguiente </p> </td> 
