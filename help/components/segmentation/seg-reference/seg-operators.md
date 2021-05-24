@@ -4,10 +4,10 @@ title: Operadores de comparación para segmentos
 feature: Segmentación
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
+source-git-commit: 8559437fc16a8cddc8ce5cf738993d147b522a05
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 99%
+source-wordcount: '1086'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ El único carácter comodín admitido es el asterisco: *. Si necesita buscar *, 
 | no es igual | Devuelve todos los elementos que no contienen la coincidencia exacta del valor introducido.  Nota: Si utiliza caracteres comodín, utilice el operador &quot;no coincide con&quot;. |
 | es igual a cualquiera | Devuelve elementos que coinciden exactamente con cualquier valor del campo de entrada (hasta 500 elementos). Por ejemplo, si se introduce “Resultados de búsqueda, Página principal” con este operador, coincidirá con “Resultados de búsqueda” y “Página principal”, y se contará como 2 elementos. El campo de entrada para este operador está delimitado por comas. |
 | no es igual a ninguno | Identifica los elementos que coinciden exactamente con cualquier valor del campo de entrada (hasta 500 elementos) y, a continuación, solo devuelve elementos sin estos valores. Por ejemplo, si se introduce “Resultados de búsqueda, Página principal” con este operador, se identificarán “Resultados de búsqueda” y “Página principal” y luego se excluirán de los elementos devueltos. Este ejemplo contaría como 2 elementos. El campo de entrada para este operador está delimitado por comas. |
-| contiene | Devuelve elementos que se comparan con las subcadenas de los valores introducidos. Por ejemplo, si la regla para &quot;Página&quot; contiene &quot;Búsqueda&quot;, entonces coincidirá con cualquier página que incluya la subcadena &quot;Búsqueda&quot;, incluido &quot;Resultados de búsqueda&quot; y &quot;Búsquedas&quot;. |
+| contiene | Devuelve elementos que se comparan con las subcadenas de los valores introducidos. Por ejemplo, si la regla para &quot;Página&quot; contiene &quot;Búsqueda&quot;, entonces coincidirá con cualquier página que incluya la subcadena &quot;Búsqueda&quot;, incluido &quot;Resultados de búsqueda&quot; y &quot;Búsquedas&quot;. La cláusula &quot;contiene&quot; no distingue entre mayúsculas y minúsculas en Adobe Analytics, pero en Customer Journey Analytics distingue entre mayúsculas y minúsculas. |
 | no contiene | Devuelve lo contrario a la regla &quot;contiene&quot;. En concreto, todos los elementos que coincidan con el valor introducido se excluirán de los valores introducidos. Por ejemplo, si la regla para &quot;Página&quot; no contiene &quot;Búsqueda&quot;, entonces no coincidirá con ninguna página que contenga la subcadena &quot;Búsqueda&quot;, incluido &quot;Resultados de búsqueda&quot; y &quot;Búsquedas&quot;. Estos valores se excluirán de los resultados. |
 | contiene todo | Devuelve elementos comparados con las subcadenas, incluidos valores múltiples unidos. Por ejemplo, si se introduce &quot;Resultados de búsqueda&quot; con este operador, coincidirá con &quot;Resultados de búsqueda&quot; y &quot;Resultados de la búsqueda&quot;, pero no con &quot;Resultados&quot; ni con &quot;Búsqueda&quot; por sí solos. Coincidirá con “Resultados” Y con “Búsqueda” cuando se encuentran juntos. El campo de entrada para este operador está delimitado por espacios (100 palabras). |
 | no contiene todos | Identifica elementos comparados con subcadenas (incluidos varios valores unidos) y luego solo elementos devueltos sin estos valores. Por ejemplo, si se introduce &quot;Resultados de búsqueda&quot; con este operador, identificará &quot;Resultados de búsqueda&quot; y &quot;Resultados de la búsqueda&quot; (pero no &quot;Resultados&quot; ni &quot;Búsqueda&quot; por sí solos) y excluirá estos elementos. El campo de entrada para este operador está delimitado por espacios (100 palabras). |
@@ -37,7 +37,7 @@ El único carácter comodín admitido es el asterisco: *. Si necesita buscar *, 
 | no comienza con | Devuelve todos los elementos que no comienzan con los caracteres o cadenas de los valores introducidos. Es el operador contrario a &quot;comienza con&quot;. |
 | finaliza con | Devuelve elementos que terminan con el carácter o cadenas del valor introducido. |
 | no termina con | Devuelve todos los elementos que no terminan con los caracteres o cadenas del valor introducido. Es el operador contrario a &quot;termina con&quot;. |
-| coincide | Devuelve elementos que coinciden exactamente en función de un determinado valor numérico o de cadena. Nota: Utilice este operador al utilizar características de comodín (globalización). |
+| coincide | Devuelve elementos que coinciden exactamente en función de un determinado valor numérico o de cadena. La cláusula &quot;coincidencias&quot; distingue entre mayúsculas y minúsculas en Adobe Analytics y en el Customer Journey Analytics. **Nota**: Utilice este operador al utilizar características de comodín (globalización). Ejemplos de &quot;globalización&quot;:<ul><li>`a*e` coincidiría con  `ae`,  `abcde`,  `adobe`y  `a whole sentence`</li><li>`adob*` coincidiría con  `adobe`,  `adobe analytics`y  `adobo recipe`</li><li>`*dobe` coincidiría con  `dobe`,  `adobe`y  `cute little dobe`</li></ul> |
 | no coincide | Devuelve todos los elementos que no contienen la coincidencia exacta del valor introducido. Nota: Utilice este operador al utilizar características de comodín (globalización). |
 | existe | Devuelve el número de elementos que existen. Por ejemplo, si evalúa la dimensión de páginas no encontradas con el operador &quot;existe&quot;, se devuelve el número de páginas con error que existen. |
 | no existe | Devuelve todos los elementos que no existen. Por ejemplo, si evalúa la dimensión de páginas no encontradas con el operador &quot;no existe&quot;, se devuelve el número de páginas donde no existió esta página con error. |
