@@ -1,12 +1,12 @@
 ---
 description: Preguntas más frecuentes sobre las fuentes de datos
-keywords: Fuente de datos;trabajo;columna previa;columna posterior;distinción entre mayúsculas y minúsculas
+keywords: Fuente de datos, trabajo, columna previa, columna posterior, distinción de mayúsculas y minúsculas
 title: Preguntas frecuentes sobre las fuentes de datos
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
 source-wordcount: '1324'
-ht-degree: 49%
+ht-degree: 54%
 
 ---
 
