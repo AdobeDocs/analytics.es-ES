@@ -6,7 +6,6 @@ title: Referencia de columnas de datos
 feature: Conceptos básicos de Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-translation-type: tm+mt
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
 source-wordcount: '3405'
