@@ -2,10 +2,9 @@
 description: Adobe Analytics admiten los modelos de clasificaciones de un solo nivel y de varios niveles. Las jerarquías de clasificación permiten aplicar una clasificación a otra.
 subtopic: Classifications
 title: Acerca de las subclasificaciones
-feature: Admin Tools
+feature: Herramientas de administración
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '653'
@@ -87,7 +86,7 @@ Al cargar los archivos de datos correspondientes a esta clasificación de produc
 | 410390014 | Polo-SS | Polo para hombre, Manga corta (L, 03) | M | L | 03 |
 | 410390015 | Polo-LS | Polo para mujer, Manga larga (S,23) | F | S | 23 |
 
-### Clasificación del producto - Múltiples archivos (Archivo 2)  {#section_19ED95C33B174A9687E81714568D56A3}
+### Clasificación del producto - Múltiples archivos (Archivo 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
 | CLAVE | CÓDIGO | CÓDIGO^COLOR |
 |---|---|---|
