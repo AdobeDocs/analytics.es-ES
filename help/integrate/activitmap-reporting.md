@@ -4,7 +4,6 @@ title: Informes de Activity Map
 feature: Activity Map
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '162'
@@ -25,7 +24,7 @@ Permite a Analytics recoger actividad del usuario originada desde el Activity Ma
 
    | Información general de la tienda de aplicaciones | Descripción |
    |---|---|
-   | Página de Página | Indica las páginas donde se hizo clic en un vínculo. |
+   | Página de Activity Map | Indica las páginas donde se hizo clic en un vínculo. |
    | Región de Activity Map | Indica todas las regiones de los vínculos recopilados en todo el sitio web. Tenga en cuenta que si una región aparece en varias páginas, la métrica se agregará en todas sus páginas. |
    | Vínculos de Activity Map | Indica todos los vínculos recopilados en todo el sitio web. |
    | Vínculos y región de Activity Map | Muestra todos los vínculos recogidos y la región a la que pertenecen en todo el sitio Web. |
