@@ -2,10 +2,9 @@
 description: Instrucciones sobre cómo cargar archivos de datos a través de FTP.
 subtopic: Classifications
 title: Importación de FTP
-feature: Admin Tools
+feature: Herramientas de administración
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '723'
