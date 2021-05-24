@@ -11,7 +11,7 @@ ht-degree: 93%
 
 # Guía de Advertising Analytics
 
-Advertising Analytics le permite consultar todos los datos de búsqueda de pago de Google y Bing alineados en Adobe Analytics. Anteriormente, cualquier dato de Google AdWords/DFA o Microsoft Bing Ads tenía que visualizarse en Adobe Media Optimizer (AMO) o en Google/Bing. Ahora obtendrá los siguientes datos en Adobe Analytics: Impresiones, clics, costes directamente desde los motores de búsqueda, así como instancias de AMO ID (instancias de clic). La puntuación de calidad y las posiciones medias ya no se recopilarán, ya que Google ha eliminado la segmentación de estas métricas en septiembre de 2019.
+Advertising Analytics le permite consultar todos los datos de búsqueda de pago de Google y Bing alineados en Adobe Analytics. Anteriormente, cualquier dato de Google AdWords/DFA o Microsoft Bing Ads tenía que visualizarse en Adobe Advertising Cloud (AMO) o en Google/Bing. Ahora obtendrá los siguientes datos en Adobe Analytics: Impresiones, clics, costes directamente desde los motores de búsqueda, así como instancias de AMO ID (instancias de clic). La puntuación de calidad y las posiciones medias ya no se recopilarán, ya que Google ha eliminado la segmentación de estas métricas en septiembre de 2019.
 
 >[!NOTE]
 >
