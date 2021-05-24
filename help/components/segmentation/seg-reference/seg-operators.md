@@ -4,7 +4,6 @@ title: Operadores de comparación para segmentos
 feature: Segmentación
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-translation-type: tm+mt
 source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
 source-wordcount: '1041'
