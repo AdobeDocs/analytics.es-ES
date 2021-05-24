@@ -1,10 +1,9 @@
 ---
 description: Obtenga información sobre las distintas opciones de guardado, como guardar automáticamente, guardar como, guardar como plantilla y abrir versiones anteriores.
 title: Guardar proyectos
-feature: Workspace Basics
+feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-translation-type: tm+mt
 source-git-commit: cfeb681805108c9d9422d88b6d7146d0eb186204
 workflow-type: tm+mt
 source-wordcount: '465'
