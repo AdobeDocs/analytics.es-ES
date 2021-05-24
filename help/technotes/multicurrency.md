@@ -3,7 +3,6 @@ description: Describe cómo definir códigos de moneda de destino para que funci
 title: Compatibilidad con múltiples monedas
 uuid: null
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-translation-type: tm+mt
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
 source-wordcount: '1358'
@@ -19,7 +18,7 @@ Los códigos de moneda de destino se definen en tres niveles:
 
 ## Nivel de página
 
-Puede establecer una variable de JavaScript para la moneda de destino en el nivel de página. El propietario del sitio puede configurar esta variable usando el código de moneda de tres letras correcto según la norma ISO 4217 (los códigos figuran más adelante en este documento). Si la variable [currencyCode](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/config-vars/currencycode.translate.html) no está configurada en este nivel, la moneda predeterminada será la misma que la especificada en el grupo de informes. Si la variable en el nivel de página entra en conflicto con la variable especificada en el grupo de informes, la variable en el grupo de informes tendrá prioridad.
+Puede establecer una variable de JavaScript para la moneda de destino en el nivel de página. El propietario del sitio puede configurar esta variable usando el código de moneda de tres letras correcto según la norma ISO 4217 (los códigos figuran más adelante en este documento). Si la variable [currencyCode](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/config-vars/currencycode.html) no está configurada en este nivel, la moneda predeterminada será la misma que la especificada en el grupo de informes. Si la variable en el nivel de página entra en conflicto con la variable especificada en el grupo de informes, la variable en el grupo de informes tendrá prioridad.
 
 
 ## Nivel del grupo de informes
@@ -140,7 +139,7 @@ Actualmente, Analytics admite los siguientes formatos de moneda para las transac
 
 ‘ERN’ Nakfa de Eritrea (ERN)
 
-‘XBT’ Bitcoin (XBT)
+&#39;XBT&#39; ERR (XBT)
 
 ‘EEK’ Krooni estonio (EEK)
 
