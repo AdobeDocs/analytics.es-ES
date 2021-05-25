@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Guía de exportación de Analytics
 breadcrumb-title: Guía de exportación
 user-guide-description: Utilice las fuentes de datos para recibir una exportación diaria o por hora de datos sin procesar. Utilice Data Warehouse para recuperar un extracto de datos en una hoja de cálculo.
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 97%
 
 ---
 
@@ -19,14 +18,15 @@ ht-degree: 100%
 + Fuente de datos de Analytics {#analytics-data-feed}
    + [Resumen de la fuente de datos](analytics-data-feed/data-feed-overview.md)
    + [Creación o edición de una fuente de datos](analytics-data-feed/create-feed.md)
-   + [Administrar fuentes de datos](analytics-data-feed/df-manage-feeds.md)
-   + [Administrar trabajos de fuentes de datos](analytics-data-feed/df-manage-jobs.md)
+   + [Administración de fuentes de datos](analytics-data-feed/df-manage-feeds.md)
+   + [Administración de trabajos de fuentes de datos](analytics-data-feed/df-manage-jobs.md)
    + Contenido de la fuente de datos {#data-feed-contents}
       + [Resumen del contenido de la fuente de datos](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Calcular métricas](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Referencia de columnas de datos](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Búsqueda de eventos de página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Búsqueda de atributos móviles](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [Búsqueda de instancias de eVar de comercialización en post_product_list](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Caracteres especiales](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Visitas que llegan tarde](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Preguntas frecuentes sobre fuentes de datos](analytics-data-feed/df-faq.md)
@@ -34,13 +34,13 @@ ht-degree: 100%
    + [Solución de problemas de los trabajos](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Resumen de Data Warehouse](data-warehouse/data-warehouse.md)
-   + [Añadir un grupo de usuarios del Data Warehouse](data-warehouse/t-dw-group.md)
-   + [Crear una solicitud del Data Warehouse](data-warehouse/t-dw-create-request.md)
+   + [Añadir un grupo de usuarios de Data Warehouse](data-warehouse/t-dw-group.md)
+   + [Crear una solicitud de Data Warehouse](data-warehouse/t-dw-create-request.md)
    + [Hora del envío de la solicitud](data-warehouse/delivery-time.md)
    + [Archivo de datos Tableau](data-warehouse/t-tableau.md)
    + [Ordenar por métrica](data-warehouse/sorting-by-metric.md)
    + [Programar una solicitud recurrente](data-warehouse/dw-schedule-recurring.md)
-   + [Administrar solicitudes del Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
+   + [Administrar solicitudes de Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
    + [Componentes admitidos en Data Warehouse](data-warehouse/component-support.md)
    + [Preguntas frecuentes sobre Data Warehouse](data-warehouse/faq.md)
    + [Prácticas recomendadas de Data Warehouse](data-warehouse/data-warehouse-bp.md)
@@ -63,7 +63,7 @@ ht-degree: 100%
    + [Tiempos de procesamiento de FTP](ftp-and-sftp/ftp-processing.md)
    + Protocolo seguro de transferencia de archivos {#secure-file-transfer-protocol}
       + [Resumen del Protocolo seguro de transferencia de archivos (SFTP)](ftp-and-sftp/c-sftp/ftp-sftp.md)
-      + [Conectarse a una cuenta de FTP de Adobe mediante un SFTP](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
+      + [Conéctese a una cuenta de FTP de Adobe mediante un SFTP](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
       + [Envío de datos de Adobe a una cuenta de FTP externa mediante un SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [Envío de solicitudes de Data Warehouse a los servidores SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Conectarse a Adobe a través de un SFTP sin contraseña](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
