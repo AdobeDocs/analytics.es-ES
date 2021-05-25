@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de exportación de Analytics
 breadcrumb-title: Guía de exportación
 user-guide-description: Utilice las fuentes de datos para recibir una exportación diaria o por hora de datos sin procesar. Utilice Data Warehouse para recuperar un extracto de datos en una hoja de cálculo.
-source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
+source-git-commit: 61f0327c8f443ffb2bc8845c0145c9c574e4e777
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 97%
+source-wordcount: '278'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
       + [Referencia de columnas de datos](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Búsqueda de eventos de página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Búsqueda de atributos móviles](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
-      + [Búsqueda de instancias de eVar de comercialización en post_product_list](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
+      + [Búsqueda de eVar de comercialización](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Caracteres especiales](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Visitas que llegan tarde](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Preguntas frecuentes sobre fuentes de datos](analytics-data-feed/df-faq.md)
