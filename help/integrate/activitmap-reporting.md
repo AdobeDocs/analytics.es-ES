@@ -4,10 +4,10 @@ title: Informes de Activity Map
 feature: Activity Map
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 95%
 
 ---
 
@@ -29,4 +29,4 @@ Permite a Analytics recoger actividad del usuario originada desde el Activity Ma
    | Vínculos de Activity Map | Indica todos los vínculos recopilados en todo el sitio web. |
    | Vínculos y región de Activity Map | Muestra todos los vínculos recogidos y la región a la que pertenecen en todo el sitio Web. |
 
-Para que se rellenen los datos, consulte la [documentación del Activity Map](https://docs.adobe.com/content/help/es-ES/analytics/analyze/activity-map/activity-map.html), donde encontrará instrucciones completas para la implementación.
+Para que se rellenen los datos, consulte la [documentación del Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html), donde encontrará instrucciones completas para la implementación.
