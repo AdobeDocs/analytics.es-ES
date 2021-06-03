@@ -3,10 +3,10 @@ description: Describe cómo definir códigos de moneda de destino para que funci
 title: Compatibilidad con múltiples monedas
 uuid: null
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 100%
+source-wordcount: '1354'
+ht-degree: 98%
 
 ---
 
@@ -18,12 +18,12 @@ Los códigos de moneda de destino se definen en tres niveles:
 
 ## Nivel de página
 
-Puede establecer una variable de JavaScript para la moneda de destino en el nivel de página. El propietario del sitio puede configurar esta variable usando el código de moneda de tres letras correcto según la norma ISO 4217 (los códigos figuran más adelante en este documento). Si la variable [currencyCode](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/config-vars/currencycode.html) no está configurada en este nivel, la moneda predeterminada será la misma que la especificada en el grupo de informes. Si la variable en el nivel de página entra en conflicto con la variable especificada en el grupo de informes, la variable en el grupo de informes tendrá prioridad.
+Puede establecer una variable de JavaScript para la moneda de destino en el nivel de página. El propietario del sitio puede configurar esta variable usando el código de moneda de tres letras correcto según la norma ISO 4217 (los códigos figuran más adelante en este documento). Si la variable [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) no está configurada en este nivel, la moneda predeterminada será la misma que la especificada en el grupo de informes. Si la variable en el nivel de página entra en conflicto con la variable especificada en el grupo de informes, la variable en el grupo de informes tendrá prioridad.
 
 
 ## Nivel del grupo de informes
 
-La **moneda de base** se especifica al [crear grupos de informes](https://docs.adobe.com/content/help/es-ES/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html). Esta es la configuración predeterminada para la moneda y tiene prioridad sobre los códigos de moneda establecidos en el nivel de página. Por lo tanto, si un grupo de informes tiene pedidos que aceptan dólares estadounidenses, euros y libras esterlinas, y si el grupo de informes tiene definido el código de moneda predeterminado de “dólares estadounidenses”, la base de datos de creación de informes del backend convertirá todas las transacciones a dólares estadounidenses.
+La **moneda de base** se especifica al [crear grupos de informes](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html). Esta es la configuración predeterminada para la moneda y tiene prioridad sobre los códigos de moneda establecidos en el nivel de página. Por lo tanto, si un grupo de informes tiene pedidos que aceptan dólares estadounidenses, euros y libras esterlinas, y si el grupo de informes tiene definido el código de moneda predeterminado de “dólares estadounidenses”, la base de datos de creación de informes del backend convertirá todas las transacciones a dólares estadounidenses.
 
 Los informes de marketing utilizan el tipo de cambio disponible en el momento en el que se produce la solicitud de imagen para convertir los valores monetarios del nivel de página a los valores de moneda predeterminados del grupo de informes. Los grupos de informes utilizarán “dólares estadounidenses” como moneda predeterminada.
 
