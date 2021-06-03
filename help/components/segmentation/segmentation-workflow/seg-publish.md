@@ -4,10 +4,10 @@ title: Publicación de segmentos en Experience Cloud
 feature: Segmentación
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 100%
+source-wordcount: '1332'
+ht-degree: 96%
 
 ---
 
@@ -24,10 +24,10 @@ También hemos aumentado el número máximo de segmentos de Adobe Analytics edit
 
 ## Requisitos previos
 
-* Asegúrese de que el grupo de informes en el que está guardando este segmento está [habilitado para Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/t-publish-audience-segment.html). De lo contrario, no podrá publicarlo en Experience Cloud.
-* Asegúrese de que está trabajando en un grupo de informes [asignado a su organización de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html).
+* Asegúrese de que el grupo de informes en el que está guardando este segmento está [habilitado para Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html). De lo contrario, no podrá publicarlo en Experience Cloud.
+* Asegúrese de que está trabajando en un grupo de informes [asignado a su organización de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 * Asegúrese de que su organización utiliza Experience Cloud ID.
-* Para poder publicar segmentos, el administrador debe asignar el permiso [!UICONTROL Publicación de segmentos] a un perfil de producto en [Admin Console](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html) y agregarlo al perfil de producto.
+* Para poder publicar segmentos, el administrador debe asignar el permiso [!UICONTROL Publicación de segmentos] a un perfil de producto en [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) y agregarlo al perfil de producto.
 
 
 ## Consideraciones
@@ -35,7 +35,7 @@ También hemos aumentado el número máximo de segmentos de Adobe Analytics edit
 * **Límites del grupo de informes**: Puede publicar hasta 75 segmentos por grupo de informes. Este límite se aplica. Si ya ha publicado 75 segmentos, no podrá publicar ningún segmento adicional hasta que cancele la publicación de suficientes segmentos para bajar del umbral de 75 segmentos.
 * **Límites de miembros**: las audiencias compartidas en [!DNL Experience Cloud] desde Adobe Analytics no pueden superar los 20 millones de miembros únicos.
 * Las audiencias de **Privacidad de los datos** no se filtran según el estado de autenticación de un visitante. Si un visitante puede navegar por su sitio en los estados de autenticado y no autenticado, las acciones que se dan cuando un visitante no está autenticado todavía pueden hacer que un visitante se incluya en una audiencia. Revise la [privacidad de Adobe Experience Cloud](https://www.adobe.com/es/privacy/experience-cloud.html) para comprender las implicaciones de privacidad completas del uso compartido de audiencias.
-* Para ver una discusión sobre las **diferencias entre segmentos en [!DNL Adobe Analytics] y [!DNL Audience Manager]**, vaya [aquí](https://docs.adobe.com/content/help/es-ES/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
+* Para ver una discusión sobre las **diferencias entre segmentos en [!DNL Adobe Analytics] y [!DNL Audience Manager]**, vaya [aquí](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
 
 ## Cronología de publicación de segmentos
 
@@ -96,7 +96,7 @@ Las siguientes capturas de pantalla muestran cómo conseguir el UUID de AAM en e
 
 **Método 1: Uso de Adobe Experience Cloud Debugger**
 
-1. Descargue e instale [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/es-ES/analytics/implementation/validate/debugger.html) en Chrome Web Store.
+1. Descargue e instale [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/testing-and-validation/debugger.html) en Chrome Web Store.
 1. Inicie Debugger al cargar una página.
 1. Desplácese hasta la sección Audience Manager y busque el UUID de AAM definido en la página del navegador actual (`50814298273775797762943354787774730612` en el ejemplo siguiente)
 
@@ -105,13 +105,13 @@ Las siguientes capturas de pantalla muestran cómo conseguir el UUID de AAM en e
 **Método 2: Uso de las herramientas para desarrolladores de Chrome (u otras herramientas para desarrolladores de navegador)**
 
 1. Iniciar Herramientas para desarrolladores Chrome antes de cargar una página
-1. Cargue la página y seleccione Aplicaciones > Cookies. El UUID de AAM debe configurarse en la cookie de terceros Demdex ([adobe.demdex.net](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/demdex-calls.html) en el ejemplo siguiente). El parámetro de campo es la configuración UUID de AAM en el navegador (`50814298273775797762943354787774730612` en el ejemplo siguiente).
+1. Cargue la página y seleccione Aplicaciones > Cookies. El UUID de AAM debe configurarse en la cookie de terceros Demdex ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) en el ejemplo siguiente). El parámetro de campo es la configuración UUID de AAM en el navegador (`50814298273775797762943354787774730612` en el ejemplo siguiente).
 
 ![Herramientas para desarrolladores Chrome](assets/ggogle-uuid.png)
 
 ## Uso del [!UICONTROL Visor de perfiles de visitantes] de Audience Manager
 
-El UUID de AAM en el navegador se utilizará de forma predeterminada cuando se cargue el [!UICONTROL visor de perfiles de visitante]. Si comprueba las realizaciones de características para otros usuarios, introduzca un UUID en el campo UUID y haga clic en [!UICONTROL Actualizar]. Consulte [Visor de perfiles de visitantes](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/visitor-profile-viewer.html) para obtener más información.
+El UUID de AAM en el navegador se utilizará de forma predeterminada cuando se cargue el [!UICONTROL visor de perfiles de visitante]. Si comprueba las realizaciones de características para otros usuarios, introduzca un UUID en el campo UUID y haga clic en [!UICONTROL Actualizar]. Consulte [Visor de perfiles de visitantes](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html) para obtener más información.
 
 ![](assets/aam-vpv.png)
 
