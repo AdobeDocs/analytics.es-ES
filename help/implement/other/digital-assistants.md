@@ -2,11 +2,10 @@
 title: Implementar Analytics para asistentes digitales
 description: Implemente Adobe Analytics en asistentes digitales, como Amazon Alexa o Google Home.
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1266'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 99%
 
 ---
 
@@ -74,7 +73,7 @@ Cache-Control: no-cache
 
 ## Identificación de usuarios/visitantes
 
-Adobe Analytics utiliza el [servicio de Adobe Experience Cloud ID](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) para enlazar las interacciones a lo largo del tiempo con la misma persona. La mayoría de los asistentes digitales devuelven un `userID` que puede utilizar para mantener la actividad de distintos usuarios. En la mayoría de los casos, este valor es lo que se puede pasar como identificador único. Algunas plataformas devuelven un identificador que supera los 100 caracteres permitidos. En estos casos, Adobe recomienda que se utilice la función hash con el identificador único y se cree un valor de longitud fija mediante un algoritmo hash estándar, como MD5 o Sha1.
+Adobe Analytics utiliza el [servicio de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html) para enlazar las interacciones a lo largo del tiempo con la misma persona. La mayoría de los asistentes digitales devuelven un `userID` que puede utilizar para mantener la actividad de distintos usuarios. En la mayoría de los casos, este valor es lo que se puede pasar como identificador único. Algunas plataformas devuelven un identificador que supera los 100 caracteres permitidos. En estos casos, Adobe recomienda que se utilice la función hash con el identificador único y se cree un valor de longitud fija mediante un algoritmo hash estándar, como MD5 o Sha1.
 
 El uso del servicio de ID proporciona el mayor valor al asignar un ECID a distintos dispositivos (por ejemplo, web a asistente digital). Si la aplicación es móvil, utilice los SDK de Experience Platform tal cual y envíe el ID de usuario con el método `setCustomerID`. Sin embargo, si su aplicación es un servicio, utilice el ID proporcionado por el servicio de ECID y configúrelo en `setCustomerID`.
 
