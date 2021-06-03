@@ -1,15 +1,14 @@
 ---
-description: API de listas afectadas por la migración de usuarios
+description: Enumera las API afectadas por la migración de usuarios
 title: API afectadas por la migración de usuarios
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
-translation-type: tm+mt
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 92%
+source-wordcount: '243'
+ht-degree: 88%
 
 ---
-
 
 # API afectadas por la migración de usuarios{#apis-affected-by-the-migration}
 
@@ -45,5 +44,4 @@ Para obtener información adicional:
 * [Información general de administración de usuarios](https://helpx.adobe.com/es/enterprise/help/users.html)
 * [API de administración de usuarios mediante adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [Foro de API de administración de usuarios](https://forums.adobe.com/community/umapi/overview)
-* [Migración de acceso y administración de usuarios de Analytics a Experience Cloud](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
-
+* [Migración de acceso y administración de usuarios de Analytics a Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
