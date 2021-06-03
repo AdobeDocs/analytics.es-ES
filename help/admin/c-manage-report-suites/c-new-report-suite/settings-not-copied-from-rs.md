@@ -1,14 +1,13 @@
 ---
 description: Si ha copiado la configuración de un grupo de informes existente, un mensaje del sistema identificará las opciones que no se copian al nuevo grupo de informes.
 title: Configuración que no se copia desde un grupo de informes de origen
-feature: Admin Tools
+feature: Herramientas de administración
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +27,7 @@ Las siguientes configuraciones no se copian de la plantilla o los grupos de info
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Datos de clasificación (se copia la estructura de clasificación) </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/es-ES/analytics/components/classifications/classifications-importer/c-working-with-saint.html">Documentación sobre el Importador de clasificaciones (carga)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html">Documentación sobre el Importador de clasificaciones (carga)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activar el registro de ID de transacción </p> </td> 
@@ -62,7 +61,7 @@ Las siguientes configuraciones no se copian de la plantilla o los grupos de info
   </tr> 
   <tr> 
    <td colname="col1"> <p>Administrador del mapa de clics del visitante </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Actualizar a Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Actualizar a Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reglas de VISTA </p> </td> 
