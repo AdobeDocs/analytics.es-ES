@@ -4,14 +4,13 @@ title: Administración de segmentos
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 99%
+source-wordcount: '914'
+ht-degree: 98%
 
 ---
-
 
 # Administración de segmentos
 
@@ -28,7 +27,7 @@ Report Builder incluye un panel de segmentación en el paso 1 del Asistente para
 >Para añadir o editar segmentos, la interfaz de segmentos de Report Builder inicia el Creación de segmentos de Analytics en una ventana de Microsoft Internet Explorer. Su sesión de Report Builder permanecerá activa. Otros exploradores que no sean Internet Explorer no son compatibles con esta operación.
 
 1. En el panel de segmento del paso 1 del Asistente para solicitudes, haga clic en **[!UICONTROL Añadir]**.
-1. Se inicia una ventana de Internet Explorer que abre la interfaz del Creador de segmentos de Analytics. Para obtener información sobre cómo crear segmentos, consulte la [segmentación de Analytics](https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/seg-home.html).
+1. Se inicia una ventana de Internet Explorer que abre la interfaz del Creador de segmentos de Analytics. Para obtener información sobre cómo crear segmentos, consulte la [segmentación de Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 1. Una vez que haya definido y guardado el segmento, vuelva al Asistente para solicitudes.
 1. Haga clic en el icono de actualizar para actualizar la lista de segmentos.
 
@@ -45,7 +44,7 @@ Es posible que tenga combinaciones específicas de dimensiones de informe que de
 
    ![](assets/seg_in_context.png)
 
-   Si desea información acerca de los contenedores, consulte la [Guía de segmentación](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html).
+   Si desea información acerca de los contenedores, consulte la [Guía de segmentación](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 
 1. Se iniciará la interfaz de usuario del creador de segmentos en Internet Explorer. La interfaz de usuario del creador de segmentos se iniciará con el contenedor y el filtro que haya especificado.
 1. Añada un nombre y una descripción al segmento y, a continuación, guárdelo.
@@ -103,7 +102,7 @@ Añadir un control de segmento le permite conmutar segmentos dentro de un libro 
 
    ![](assets/seg_control2.png)
 
-## Actualizar la lista de segmentos  {#section_22E4A86789444B4A998532396B476EFB}
+## Actualizar la lista de segmentos {#section_22E4A86789444B4A998532396B476EFB}
 
 Siempre que añada un segmento nuevo o edite un segmento existente, debería hacer clic en el icono Actualizar (![](assets/refresh_icon.png)) para actualizar la lista almacenada en caché de segmentos.
 
@@ -126,4 +125,3 @@ Report Builder 5.4 permite añadir, eliminar, reemplazar y reemplazar todos los 
    | Reemplazar segmentos | Permite elegir los segmentos que se reemplazarán por uno o más segmentos. |
    | Reemplazar todos los segmentos por | Permite elegir uno o más segmentos para reemplazar por ellos los segmentos actuales. |
    | Eliminar segmentos | Permite eliminar los segmentos de las solicitudes. |
-
