@@ -2,10 +2,10 @@
 title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2433'
-ht-degree: 100%
+source-wordcount: '2429'
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Correlación:** ya no se utiliza como término; se ha sustituido por los desgloses de dimensión. En las versiones anteriores de Adobe Analytics, las correlaciones permitían desglosar variables de tráfico. Consulte [Desglosar dimensiones](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) en la guía del usuario sobre análisis.
 * **Datos actuales:** una opción disponible en algunos informes que permite incluir datos recopilados recientemente que aún no se han procesado por completo. Consulte [Datos actuales](/help/analyze/reports-analytics/current-data.md) en la guía de usuario sobre análisis.
 * **Vínculo personalizado:** tipo de visita que contiene datos de vista que no son de página. Consulte la [función s.tl()](../implement/vars/functions/tl-method.md) en la guía de usuario sobre implementación. Consulte también Visita.
-* **Atributos del cliente:** una función de Experience Cloud que permite cargar los datos de atributos. Consulte [Atributos del cliente](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html) en la guía de usuario de los servicios principales.
+* **Atributos del cliente:** una función de Experience Cloud que permite cargar los datos de atributos. Consulte [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) en la guía de usuario de los servicios principales.
 * **Delegado de asistencia al cliente:** un usuario designado que está autorizado para interactuar directamente con el Servicio de atención al cliente de Adobe. Consulte [Delegados de asistencia al cliente](https://helpx.adobe.com/es/experience-cloud/supported-users.html) en la base de conocimiento de Experience Cloud.
 * **Servidor de recopilación de datos:** servidores que pertenecen a Adobe y que reciben y procesan datos. Las solicitudes de imagen se envían a los servidores de recopilación de datos de Adobe para su uso en los informes.
 * **Conectores de datos:** una solución de desarrollo completa que permite a terceros automatizar la carga de datos en Adobe Analytics. Los clientes de estos terceros pueden utilizar un conector de datos para enriquecer sus datos en Adobe Analytics. La mayoría de los conectores de datos presentan un flujo de trabajo similar al utilizado por las fuentes de datos. Consulte Data Connectors en la guía de usuario sobre importación.
@@ -65,7 +65,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
    * Custom Insight, un nombre histórico para la variable de tráfico personalizada.
 * **KPI:** sigla de “key performance indicator” (indicador clave de rendimiento) Son métricas que ayudan a las empresas a comprender el rendimiento de su sitio. Cada organización tiene diferentes KPI que miden diferentes aspectos de su negocio. Consulte [Creación de un documento de diseño de solución](/help/implement/prepare/solution-design.md) en la guía del usuario sobre implementación.
 * **Latencia:** el lapso de tiempo entre el momento de recopilación de los datos y el momento en que estos están disponibles en los informes. La latencia típica en un grupo de informes es de 30 a 90 minutos. Consulte [Latencia](/help/technotes/latency.md) en la guía de usuario sobre Technotes.
-* **Launch:** forma abreviada de referirse a Adobe Experience Platform Launch, la solución de implementación actual de Adobe. Consulte [Información general](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html) en la guía de usuario de Adobe Experience Platform Launch.
+* **Launch:** forma abreviada de referirse a Adobe Experience Platform Launch, la solución de implementación actual de Adobe. Consulte [Información general](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.translate.html) en la guía de usuario de Adobe Experience Platform Launch.
 * **Prop de lista:** una configuración que transforma una variable de tráfico estándar para que admita varios valores en la misma visita. Cualquier variable de tráfico personalizada puede convertirse en un prop de lista si la configuración está habilitada. Consulte [prop](../implement/vars/page-vars/prop.md) en la guía de usuario sobre implementación.
 * **List var:** una variable concreta independiente de las variables de conversión. Las list var admiten varios valores en la misma visita, y los valores de variable se conservan en una visita de forma similar a las variables de conversión. Solo hay tres list var disponibles para una organización. Consulte [list](/help/implement/vars/page-vars/list.md) en la guía de usuario sobre implementación.
 * **Empresa de inicio de sesión:** una recopilación de los grupos de informes que utiliza su organización. Algunas organizaciones tienen varias empresas de inicio de sesión que se aplican a diferentes partes de la organización.
