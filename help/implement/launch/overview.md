@@ -2,11 +2,10 @@
 title: Introducción a la implementación con Launch
 description: Obtenga información sobre cómo implementar Adobe Analytics mediante Adobe Experience Platform Launch
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '302'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 96%
 
 ---
 
@@ -33,6 +32,6 @@ Consulte [Creación de una propiedad de Analytics en Adobe Experience Platform L
 
 Launch se puede personalizar. Obtenga más información sobre cómo aprovechar al máximo Adobe Analytics mediante la inclusión de los datos adecuados en la implementación.
 
-* [Documentación de Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html): Descubra cómo funciona la interfaz y qué extensiones están disponibles.
-* [Extensión de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html): Utilice la extensión de Analytics para enviar datos a Adobe Analytics.
+* [Documentación de Launch](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.translate.html): Descubra cómo funciona la interfaz y qué extensiones están disponibles.
+* [Extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html): Utilice la extensión de Analytics para enviar datos a Adobe Analytics.
 * [Variables de implementación](../vars/overview.md): Determine qué variables desea enviar a los servidores de recopilación de datos.
