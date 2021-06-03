@@ -2,13 +2,12 @@
 description: El importador permite realizar cargas masivas de datos de clasificaciones a los informes de análisis, mediante un archivo. Para que las cargas de datos sean correctas, es necesario usar un formato de archivo específico en la importación.
 subtopic: Classifications
 title: Archivos de datos de clasificación
-feature: Admin Tools
+feature: Herramientas de administración
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 100%
+source-wordcount: '1771'
+ht-degree: 99%
 
 ---
 
@@ -164,7 +163,7 @@ Estos caracteres tienen un significado especial dentro de un archivo de datos. C
 
 Las fechas de las campañas suelen ser rangos (fechas de inicio y de finalización) asociados con campañas individuales. Las fechas deben aparecer en el formato AAAA/MM/DD. Por ejemplo, 2013/06/15-2013/06/30.
 
-Para obtener más información, consulte [Clasificaciones de conversión](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
+Para obtener más información, consulte [Clasificaciones de conversión](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 >[!NOTE]
 >
