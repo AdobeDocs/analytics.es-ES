@@ -1,14 +1,13 @@
 ---
 title: Fuentes de datos de ID de transacción
 description: Obtenga información sobre el flujo de trabajo general del uso de fuentes de datos con ID de transacción.
-translation-type: ht
-source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
-workflow-type: ht
+exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
+source-git-commit: 1ee6a1e69a277f0d3c0ffd1defca0d4cb098cc6c
+workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
-
 
 # Fuentes de datos de ID de transacción
 
@@ -21,7 +20,7 @@ Cuando envía una visita en línea que contiene un valor de `transactionID`, Ado
 Utilice el siguiente flujo de trabajo genérico para empezar a usar fuentes de datos de ID de transacción:
 
 1. Cree una fuente de datos (categoría &#39;Genérica&#39; y tipo &#39;Fuente de datos genérica [ID de transacción]&#39;).
-1. Siga el asistente de configuración de fuentes de datos para obtener una ubicación de FTP, cargar datos y descargar un archivo de plantilla de fuentes de datos.
+1. Siga el asistente de configuración de la fuente de datos para obtener una ubicación de FTP, cargar datos y descargar un archivo de plantilla de fuentes de datos.
 1. Actualice la implementación para incluir la variable `transactionID`.
 1. Cargue un archivo de fuentes de datos en el sitio FTP con un archivo `.fin`.
 
