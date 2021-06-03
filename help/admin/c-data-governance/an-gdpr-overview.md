@@ -3,11 +3,10 @@ description: En este documento se describe lo que debe hacer en Adobe Analytics 
 title: Adobe Analytics y el RGPD
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 97%
 
 ---
 
@@ -46,8 +45,8 @@ Consulte [Etiquetado de datos de grupos de informes](/help/admin/c-data-governan
 ## Requisitos previos {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
 * Familiarícese con la [terminología del RGPD.](/help/admin/c-data-governance/gdpr-terminology.md)
-* Vincule su empresa de inicio de sesión a una organización de Experience Cloud, si no lo ha hecho ya. Póngase en contacto con el servicio de atención al cliente de Adobe y consulte [Organizaciones y vinculación de cuentas.](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/organizations.html)
-* Asigne cualquier grupo de informes de Adobe Analytics que desee configurar para el control de datos a [su organización de Experience Cloud.](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html)
+* Vincule su empresa de inicio de sesión a una organización de Experience Cloud, si no lo ha hecho ya. Póngase en contacto con el servicio de atención al cliente de Adobe y consulte [Organizaciones y vinculación de cuentas.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
+* Asigne cualquier grupo de informes de Adobe Analytics que desee configurar para el control de datos a [su organización de Experience Cloud.](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)
 * Establezca una política de retención de datos para cada grupo de informes a fin de poder satisfacer las solicitudes de acceso y eliminación del RGPD.
 
    >[!NOTE]
