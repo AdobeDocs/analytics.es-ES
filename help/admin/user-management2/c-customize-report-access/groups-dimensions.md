@@ -6,10 +6,10 @@ title: Personalizar permisos para dimensiones
 feature: Herramientas de administración
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 94%
+source-wordcount: '499'
+ht-degree: 83%
 
 ---
 
@@ -40,9 +40,9 @@ Conozca la información que sigue sobre la categoría de permisos Dimensión.
 * Los informes de Vídeo y Móvil son dimensiones, al igual que otros informes de soluciones de Analytics (Experience Manager, Advertising Cloud, Social, etc.).
 * Los informes de rutas están disponibles si un usuario tiene acceso a la dimensión primaria.
 * Se han migrado automáticamente a las nuevas categorías todas las dimensiones y métricas actuales dentro de grupos personalizados. Si un grupo existente tiene métricas habilitadas, se le asignarán todas las dimensiones que puedan recibir permisos por primera vez (eVars y según el contenido) y métricas de forma predeterminada.
-* Permisos del Importador de clasificaciones (anteriormente, SAINT): el acceso a las clasificaciones viene determinado por el acceso a la [variable](https://docs.adobe.com/content/help/es-ES/analytics/components/classifications/c-classifications.html) en la cual se basa la clasificación.
+* Permisos del Importador de clasificaciones (anteriormente, SAINT): el acceso a las clasificaciones viene determinado por el acceso a la [variable](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en la cual se basa la clasificación.
 
-Para obtener más información, consulte [Cambios en los permisos de usuario y grupo](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-management/permissions-changes.html).
+Para obtener más información, consulte [Cambios en los permisos de usuario y grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/permissions-changes.html).
 
 **Personalizar dimensiones**
 
@@ -61,15 +61,15 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
    <td colname="col2"> <p>Las eVars 1 a 250 obtienen permisos de forma individual. Las eVars son variables de conversión personalizadas que se emplean para segmentar las métricas de éxito de conversión de segmentos en los informes personalizados. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/evar.html"> Propriétés </a> </p> </td> 
-   <td colname="col2"> <p>Las props son variables de tráfico personalizadas. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html">Props de tráfico y eVars de conversión</a> en Implementación de Analytics. </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html"> Propriétés </a> </p> </td> 
+   <td colname="col2"> <p>Las props son variables de tráfico personalizadas. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html">Props de tráfico y eVars de conversión</a> en Implementación de Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/page-variables.html"> Jerarquía </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html"> Jerarquía </a> </p> </td> 
    <td colname="col2"> <p> La variable de jerarquía (hierN) determina la ubicación de una página en la jerarquía del sitio o en la estructura de páginas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> Similar a cómo funcionan las props de lista, las variables de lista permiten incluir varios valores dentro de la misma solicitud de imagen. </p> </td> 
   </tr> 
   <tr> 
@@ -85,11 +85,11 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
    <td colname="col2"> <p>Adobe Advertising Cloud </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/activity-map/activity-map.html"> Página de </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html"> Página de </a> </p> </td> 
    <td colname="col2"> <p> Dimensiones de los informes de Activity Map: Página de Activity Map; Vínculo de Activity Map; Región de Activity Map; Vínculo de Activity Map por región; Activity Map XY </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html"> Mobile </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.translate.html"> Mobile </a> </p> </td> 
    <td colname="col2"> <p>Adobe Mobile Services </p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
    <td colname="col2"> <p>Esta integración de partners ya no está activa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
    <td colname="col2"> <p>Esta integración de partners ya no está activa. </p> </td> 
   </tr> 
   <tr> 
