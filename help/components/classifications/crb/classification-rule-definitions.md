@@ -5,10 +5,10 @@ title: Definiciones de reglas de clasificación
 feature: Herramientas de administración
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 100%
+source-wordcount: '876'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Esta página muestra las reglas de un conjunto de reglas.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Seleccionar grupos de informes y variables </p> </td> 
-   <td colname="col2"> <p><b>Grupo de informes</b> </p> <p>Los grupos de informes a los que se aplica el conjunto de reglas. </p> <p><b>Variable</b> </p> <p>Al crear un conjunto de reglas de clasificación solo puede aplicarse una variable. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes. </p> <p>Nota: Solo puede usar las variables a las que tenga acceso en sus grupos de informes. Las variables se mostrarán en el panel <span class="wintitle">Nuevo conjunto de reglas</span> solo después de haber definido como mínimo una clasificación para la variable. </p> <p> El usuario puede crear clasificaciones en variables desde <span class="uicontrol">Administradores</span> &gt; <span class="uicontrol">Grupos de informes</span> &gt; <span class="uicontrol">Tráfico</span> &gt; <span class="uicontrol">Clasificaciones de tráfico</span> (o <span class="uicontrol">Conversión</span> &gt; <span class="uicontrol">Clasificaciones de las conversiones</span>). A continuación, debe seleccionar la variable y hacer clic en <span class="uicontrol">Agregar clasificación</span>. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  >Clasificaciones de tráfico</a> y <a href="https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >Clasificaciones de las conversiones</a> en la ayuda del administrador. </p> </td> 
+   <td colname="col2"> <p><b>Grupo de informes</b> </p> <p>Los grupos de informes a los que se aplica el conjunto de reglas. </p> <p><b>Variable</b> </p> <p>Al crear un conjunto de reglas de clasificación solo puede aplicarse una variable. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes. </p> <p>Nota: Solo puede usar las variables a las que tenga acceso en sus grupos de informes. Las variables se mostrarán en el panel <span class="wintitle">Nuevo conjunto de reglas</span> solo después de haber definido como mínimo una clasificación para la variable. </p> <p> El usuario puede crear clasificaciones en variables desde <span class="uicontrol">Administradores</span> &gt; <span class="uicontrol">Grupos de informes</span> &gt; <span class="uicontrol">Tráfico</span> &gt; <span class="uicontrol">Clasificaciones de tráfico</span> (o <span class="uicontrol">Conversión</span> &gt; <span class="uicontrol">Clasificaciones de las conversiones</span>). A continuación, debe seleccionar la variable y hacer clic en <span class="uicontrol">Agregar clasificación</span>. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  >Clasificaciones de tráfico</a> y <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >Clasificaciones de las conversiones</a> en la ayuda del administrador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Activar</span> </p> </td> 
