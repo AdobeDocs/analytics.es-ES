@@ -3,11 +3,10 @@ description: En este documento se describe lo que debe hacer en Adobe Analytics 
 title: Adobe Analytics y la CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 97%
 
 ---
 
@@ -43,8 +42,8 @@ Consulte [Etiquetado de datos de grupos de informes](/help/admin/c-data-governan
 ## Requisitos previos
 
 * Familiarícese con la [terminología del RGPD.](/help/admin/c-data-governance/gdpr-terminology.md)
-* Vincule su empresa de inicio de sesión a una organización de Experience Cloud, si no lo ha hecho ya. Póngase en contacto con el servicio de atención al cliente de Adobe y consulte [Organizaciones y vinculación de cuentas.](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/organizations.html)
-* Asigne cualquier grupo de informes de Adobe Analytics que desee configurar para el control de datos a [su organización de Experience Cloud.](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html)
+* Vincule su empresa de inicio de sesión a una organización de Experience Cloud, si no lo ha hecho ya. Póngase en contacto con el servicio de atención al cliente de Adobe y consulte [Organizaciones y vinculación de cuentas.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
+* Asigne cualquier grupo de informes de Adobe Analytics que desee configurar para el control de datos a [su organización de Experience Cloud.](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)
 * Establezca una política de retención de datos para cada grupo de informes a fin de poder satisfacer las solicitudes de acceso y eliminación de la CCPA.
 
    Adobe Analytics no puede ayudarle con el tratamiento de solicitudes en la API de los servicios de privacidad (es decir, el tratamiento de las solicitudes de acceso o eliminación que reciba de sus usuarios finales) si no se ha establecido el periodo de retención de datos en Adobe Analytics. Póngase en contacto con su gestor de éxito de los clientes para establecer el periodo de retención de datos.
