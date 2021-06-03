@@ -2,18 +2,20 @@
 description: Utilice el asistente de configuración de Adobe Data Connectors para configurar la integración.
 title: Activación de la integración
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: d36c26ad-09c4-4a4d-a653-670c18f2ab19
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 96%
 
 ---
-
 
 # Activación de la integración {#activate-the-integration}
 
 Utilice el asistente de configuración de Adobe Data Connectors para configurar la integración.
 
-1. Start [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) and click **[!UICONTROL + Add New]** to [add a new integration](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
-1. In the **[!UICONTROL Show]** list, select **[!UICONTROL By Name]** and drag the [!DNL ~Partner~] integration to an empty plug-in slot.
+1. Inicie [Data Connectors](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html) y haga clic en **[!UICONTROL + Añadir nueva]** para [agregar una nueva integración](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html).
+1. En la lista **[!UICONTROL Mostrar]**, seleccione **[!UICONTROL Por nombre]** y arrastre la integración de [!DNL ~Partner~] a una ranura de complemento vacía.
 1. Complete el asistente de integración con la información de la tabla siguiente:
 
 | Campo | Descripción |
@@ -21,7 +23,7 @@ Utilice el asistente de configuración de Adobe Data Connectors para configurar 
 | Grupo de informes | Grupo de informes que recibe los datos de esta integración. |
 | Nombre de la integración | Especifique el nombre de la integración que Data Connectors muestra en la lista de integración activa del conjunto de informes. |
 | Clics | Número total de clics en correos electrónicos. |
-| ID de campaña | Guarda el ID exclusivo del mensaje. Generalmente se almacena en la variable de campaña. |
+| ID de campaña | Guarda el ID único del mensaje. Generalmente se almacena en la variable de campaña. |
 | Aperturas | Número total de aperturas del correo electrónico. |
 | Clics de personas | Número de personas que han hecho clic. |
 | Procesados | Número total de correos electrónicos procesados. |
