@@ -5,11 +5,10 @@ title: Preparación para el uso de fuentes de datos
 topic-fix: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +20,7 @@ Pasos que puede seguir como preparación para utilizar fuentes de datos
 * [Identificar las dimensiones de datos](/help/import/c-data-sources/datasrc-preparing.md#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A)
 * [Código de seguimiento de campaña](/help/import/c-data-sources/datasrc-preparing.md#section_468222796FF449ABAA90D88EB3264CB1)
 * [ID de transacción](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
-* [Identificar un intervalo de fechas válido para la fuente de datos](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
+* [Identificar un intervalo de fechas válido para la fuente de datos ](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
 ## Identificar las métricas y ponerles nombre  {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
@@ -29,7 +28,7 @@ Es importante entender las métricas y las mediciones que se encuentran en las f
 
 Cuando determine la correspondencia entre métricas y eventos para la fuente de datos, cambie los nombres descriptivos de los eventos para que reflejen mejor las métricas asociadas.
 
-Consulte [Eventos de éxito](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/success-events/success-event.html) en la ayuda de Herramientas de administración.
+Consulte [Eventos de éxito](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) en la ayuda de Herramientas de administración.
 
 >[!NOTE]
 >
@@ -51,7 +50,7 @@ Después de definir las dimensiones de datos que se tienen que utilizar con una 
 
 Cuando se usan eVars como dimensiones de datos, pueden ser eVars nuevas o preexistentes. Después de seleccionar una eVar para que reciba una dimensión desde la fuente de datos, no olvide ponerle un nombre adecuado.
 
-Consulte [Eventos de éxito](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) en la ayuda de Analytics.
+Consulte [Eventos de éxito](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) en la ayuda de Analytics.
 
 ## Código de seguimiento de campaña {#section_468222796FF449ABAA90D88EB3264CB1}
 
@@ -63,7 +62,7 @@ Si no importa las métricas de fuentes de datos con un valor de eVar asociado, n
 
 La ID de transacción se usa para conectar los eventos que se producen con conexión con los que se producen sin conexión.
 
-## Identificar un intervalo de fechas válido para la fuente de datos   {#section_03AAB1291BDC4403BDC50905A78FDB71}
+## Identificar un intervalo de fechas válido para la fuente de datos  {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 Después de definir las métricas de la fuente de datos (eventos personalizados) y las dimensiones de datos (eVars), revise el intervalo de fechas de la fuente de datos que quiera importar. No se pueden importar fuentes de datos cuyo intervalo de fechas exceda el período de los datos ya existentes en los informes.
 
