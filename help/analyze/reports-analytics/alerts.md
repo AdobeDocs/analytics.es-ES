@@ -3,16 +3,15 @@ description: Utilizar alertas en Reports & Analytics.
 subtopic: Alerts
 title: Alertas
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-feature: Alerts
+feature: Alertas
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 99%
+source-wordcount: '876'
+ht-degree: 94%
 
 ---
-
 
 # Alertas
 
@@ -27,7 +26,7 @@ Como el nuevo sistema de alertas, las alertas inteligentes de Adobe Analytics le
 
 Puede acceder a este nuevo sistema de Alertas en **[!UICONTROL Más]** > **[!UICONTROL Alertas]** en cualquier análisis de Reports &amp; Analytics.
 
-Para obtener más información, consulte la documentación de Analysis Workspace sobre las [Alertas inteligentes](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
+Para obtener más información, consulte la documentación de Analysis Workspace sobre las [Alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
 
 ## Añadir una alerta {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -43,13 +42,13 @@ Vaya al nuevo Generador de alertas en el menú **[!UICONTROL Analytics]** > **[!
 
 1. En Reports &amp; Analytics, abra el informe en el que desee establecer una alerta.
 1. Haga clic en **[!UICONTROL Más]** > **[!UICONTROL Agregar alerta]**.
-1. De este modo, se le dirigirá al [nuevo Generador de alertas](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html).
+1. De este modo, se le dirigirá al [nuevo Generador de alertas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html).
 
 ## Visualización o edición de alertas existentes {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 Contexto de tarea
 
-1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]**. Le llevará al nuevo [Administrador de alertas](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
+1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]**. Le llevará al nuevo [Administrador de alertas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
 
 ## Migración de alertas heredadas {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -109,12 +108,12 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alertas con métricas de participación </p> </td> 
-   <td colname="col2"> <p> Las <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/attribution/overview.html"  >métricas de participación</a> están disponibles en Reports &amp; Analytics pero actualmente no están disponibles en el nuevo sistema de alertas de Analysis Workspace. </p> <p> </p> </td> 
+   <td colname="col2"> <p> Las <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metrics-participation.html"  >métricas de participación</a> están disponibles en Reports &amp; Analytics pero actualmente no están disponibles en el nuevo sistema de alertas de Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>No está disponible en el nuevo Administrador de alertas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alertas mensuales para grupos de informes de calendario personalizados </p> </td> 
-   <td colname="col2"> <p>Esto solo afecta a los clientes con alertas configuradas para grupos de informes que tengan <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > fechas de inicio mensuales personalizadas </a> (Federación Nacional Minorista de EE. UU./NRF y tipos de calendario personalizados). </p> <p>No afecta a las alertas de los grupos de informes del calendario gregoriano ni del gregoriano modificado. Anteriormente, estas alertas se enviaban el primer día del mes gregoriano (por ejemplo, el 1 de enero, el 1 de febrero, etc.). Esto no funcionará con la nueva función de detección de anomalías de alertas, la cual tiene en cuenta los datos del mes anterior para la detección de anomalías. En el futuro, añadiremos la compatibilidad con nuestro sistema de programación para calendarios personalizados, de modo que tanto las Alertas como los Proyectos programados podrán programarse para enviarse el primer día del mes del calendario personalizado en lugar de simplemente el primer día del mes gregoriano. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Esto solo afecta a los clientes con alertas configuradas para grupos de informes que tengan <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  > fechas de inicio mensuales personalizadas </a> (Federación Nacional Minorista de EE. UU./NRF y tipos de calendario personalizados). </p> <p>No afecta a las alertas de los grupos de informes del calendario gregoriano ni del gregoriano modificado. Anteriormente, estas alertas se enviaban el primer día del mes gregoriano (por ejemplo, el 1 de enero, el 1 de febrero, etc.). Esto no funcionará con la nueva función de detección de anomalías de alertas, la cual tiene en cuenta los datos del mes anterior para la detección de anomalías. En el futuro, añadiremos la compatibilidad con nuestro sistema de programación para calendarios personalizados, de modo que tanto las Alertas como los Proyectos programados podrán programarse para enviarse el primer día del mes del calendario personalizado en lugar de simplemente el primer día del mes gregoriano. </p> <p> </p> </td> 
    <td colname="col3"> <p>Todavía no está disponible en el nuevo Administrador de alertas. </p> </td> 
   </tr> 
   <tr> 
@@ -133,4 +132,3 @@ deprecated_alerts.xml
   </tr> 
  </tbody> 
 </table>
-
