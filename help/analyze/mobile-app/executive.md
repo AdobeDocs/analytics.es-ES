@@ -4,10 +4,9 @@ title: Guía del usuario ejecutivo sobre paneles de Adobe Analytics
 feature: Paneles de Analytics
 role: Business Practitioner, Administrator
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1295'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1293'
 ht-degree: 100%
 
 ---
@@ -122,7 +121,7 @@ Para usar los paneles:
 
    * Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **[!UICONTROL COMPARAR CON]**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **[!UICONTROL Listo]** en la parte superior derecha de la pantalla. El campo **[!UICONTROL Intervalos de fecha]** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
-7. Para aplicar un filtro de segmento a su informe de valoración, pulse la lista desplegable de filtros y seleccione un segmento que haya configurado el depurador. Los [filtros](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la aplicación funcionan del mismo modo que en Analytics Workspace.
+7. Para aplicar un filtro de segmento a su informe de valoración, pulse la lista desplegable de filtros y seleccione un segmento que haya configurado el depurador. Los [filtros](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) de la aplicación funcionan del mismo modo que en Analytics Workspace.
 
    ![Filtro de segmento](assets/segment_filter.png)
 
