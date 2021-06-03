@@ -6,10 +6,10 @@ title: Personalizar permisos para métricas
 feature: Herramientas de administración
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 exl-id: 84382ff1-845c-442a-9882-7eb9afcdec9a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 93%
+source-wordcount: '241'
+ht-degree: 89%
 
 ---
 
@@ -29,7 +29,7 @@ Las opciones de la página Personalizar métricas se aplican a los grupos de inf
 
 ## Eventos de soluciones
 
-Además de [Eventos personalizados](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/events/event-serialization.html), en esta categoría se incluyen eventos de soluciones de Analytics, como Experience Manager (AEM), Advertising Cloud (AMO), Móvil, Vídeo y Social. A cada uno de los grupos personalizados con métricas se le añadirán todos los eventos de soluciones de Analytics que se agreguen como métricas nuevas.
+Además de [Eventos personalizados](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html), en esta categoría se incluyen eventos de soluciones de Analytics, como Experience Manager (AEM), Advertising Cloud (AMO), Móvil, Vídeo y Social. A cada uno de los grupos personalizados con métricas se le añadirán todos los eventos de soluciones de Analytics que se agreguen como métricas nuevas.
 
 Puede definir permisos para eventos personalizados y para eventos de soluciones de Analytics (AEM, AMO, Móvil, Vídeo y Social).
 
