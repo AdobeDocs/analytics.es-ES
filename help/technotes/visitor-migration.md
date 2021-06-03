@@ -5,10 +5,10 @@ title: Migración de visitantes
 topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 100%
+source-wordcount: '441'
+ht-degree: 97%
 
 ---
 
@@ -20,9 +20,9 @@ La migración de visitantes permite preservar las cookies de identificación de 
 
 * Cambio de `2o7.net` a `adobedc.net`.
 
-* Implementación del [Servicio de ID de visitante de Experience Cloud](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html), y cambio de un CNAME o dominio de recopilación de datos de origen a `adobedc.net`, `2o7.net` o `omtrdc.net`
+* Implementación del [Servicio de ID de visitante de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html), y cambio de un CNAME o dominio de recopilación de datos de origen a `adobedc.net`, `2o7.net` o `omtrdc.net`
 
-* Cambio de un cname o un servidor de recopilación de datos de origen ([Cookies de origen)](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-first-party.html).
+* Cambio de un cname o un servidor de recopilación de datos de origen ([Cookies de origen)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Se cambia de un CNAME a otro (cambio de dominios).
 
