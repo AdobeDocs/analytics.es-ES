@@ -5,10 +5,9 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Conceptos básicos de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '677'
 ht-degree: 99%
 
 ---
@@ -55,7 +54,7 @@ Coincide si el término se encuentra en cualquier punto del elemento de línea. 
 
 **No contiene**
 
-Coincide si el término no se encuentra en cualquier punto del elemento de línea. Puede filtrar “sin especificar”, “ninguno”, “teclado no disponible” y otros [valores especiales](https://docs.adobe.com/content/help/es-ES/analytics/technotes/unspecified.html) desde los informes mediante “No contiene”.
+Coincide si el término no se encuentra en cualquier punto del elemento de línea. Puede filtrar “sin especificar”, “ninguno”, “teclado no disponible” y otros [valores especiales](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html) desde los informes mediante “No contiene”.
 
 No contiene: `none`
 
