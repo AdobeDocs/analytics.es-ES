@@ -2,9 +2,9 @@
 description: Descubra todo lo que puede hacer con Advertising Analytics en esta guía detallada, incluidos los permisos requeridos, y las dimensiones y métricas disponibles.
 title: Guía de Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1261'
 ht-degree: 93%
 
 ---
@@ -32,7 +32,7 @@ Esta integración va dirigida a los públicos siguientes:
 
 * Esta funcionalidad está disponible para clientes que no sean de Advertising Cloud ni de AMO.
 * Para tener acceso a Advertising Analytics, debe ser administrador de Adobe Analytics. Posteriormente, puede [conceder permisos de acceso](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) a los usuarios que no sean administradores.
-* Los grupos de informes de Analytics de los que desee consultar los datos de búsqueda de Google/Bing, deben [estar asignados a su organización de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html).
+* Los grupos de informes de Analytics de los que desee consultar los datos de búsqueda de Google/Bing, deben [estar asignados a su organización de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 * Para los grupos de informes de los que desee consultar los datos de búsqueda de Google/Bing, [habilite dichos grupos de informes para Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Puede hacerlo en **[!UICONTROL Administración]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Configuración de Advertising Analytics]**.
 
 * Necesita credenciales de inicio de sesión para un usuario con permisos de edición en las cuentas de búsqueda que desee integrar en Adobe Analytics, como un identificador de cuenta de Google y una contraseña.
