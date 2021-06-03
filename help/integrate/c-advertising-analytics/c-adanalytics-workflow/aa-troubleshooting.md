@@ -3,11 +3,10 @@ description: Solucione problemas y cuestiones relacionadas con Advertising Analy
 title: Solucionar problemas de Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '178'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +29,7 @@ Está intentando [configurar una cuenta publicitaria nueva](/help/integrate/c-ad
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. El grupo de informes no está asignado a la Experience Cloud Org ID del usuario que ha iniciado sesión. </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html"  >Asignación de grupos de informes a una organización</a> para obtener instrucciones. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >Asignación de grupos de informes a una organización</a> para obtener instrucciones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. El grupo de informes no está aprovisionado para los informes de Advertising Analytics. </p> </td> 
