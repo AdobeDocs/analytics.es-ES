@@ -2,14 +2,13 @@
 description: Las reglas de procesamiento pueden activar eventos basados en variables de datos de contexto.
 subtopic: Processing rules
 title: Definir un evento con una variable de datos de contexto
-feature: Admin Tools
+feature: Herramientas de administración
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 95%
 
 ---
 
@@ -38,4 +37,4 @@ Por ejemplo:
 
 ![](assets/processing_rule_set_event.png)
 
-Consulte [Variables de datos de contexto](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/contextdata.html) en la ayuda de implementación.
+Consulte [Variables de datos de contexto](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html) en la ayuda de implementación.
