@@ -2,11 +2,10 @@
 title: Asignación de elementos de datos de Launch a variables de Analytics
 description: Asigne elementos de datos a variables de Analytics para que pueda utilizarlos como dimensiones en Analysis Workspace.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +34,7 @@ Las variables globales son ideales en los casos en los que desee establecer valo
 
 ### Establecer variables en reglas
 
-Las variables configuradas en las reglas son ideales cuando no desea que se configuren variables en todas las páginas. Los criterios se definen en la regla. Consulte [Reglas](https://docs.adobe.com/content/help/es-ES/launch/using/reference/manage-resources/rules.html) en la guía del usuario de Adobe Experience Platform Launch.
+Las variables configuradas en las reglas son ideales cuando no desea que se configuren variables en todas las páginas. Los criterios se definen en la regla. Consulte [Reglas](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html) en la guía del usuario de Adobe Experience Platform Launch.
 
 1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
 1. Haga clic en la propiedad de Launch.
