@@ -5,10 +5,10 @@ title: Usar marcas de hora opcionales
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '614'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Marcas de hora opcionales es la configuración predeterminada para todos los gru
 >
 >Marcas de hora opcionales es la configuración predeterminada para todos los nuevos grupos de informes generados a partir de una plantilla. Los nuevos grupos de informes copiados de un grupo de informes existente heredarán la configuración del original.
 
-Consulte [Marcas de hora opcionales](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/timestamp-optional.html) para obtener información adicional sobre configuración.
+Consulte [Marcas de hora opcionales](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html) para obtener información adicional sobre configuración.
 
 ## Marcas de hora opcionales: Integración de datos con marca de hora y sin marca de hora {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -68,7 +68,7 @@ Los siguientes son las prácticas recomendadas y algunos requisitos y limitacion
 
    Los datos desordenados pueden ser datos que llegan tarde desde una recopilación de datos sin conexión y visitas que llegan tarde, o relojes desincronizados en dispositivos móviles sin conexión. Los datos desordenados pueden afectar negativamente a los informes de cálculos de tiempo (por ejemplo, valores de tiempo invertido), atribuciones (persistencia de eVar), número o recuento de visitas y e informes de rutas.
 
-* No se recomienda utilizar marcas de hora cuando se establece [s.visitorID](https://docs.adobe.com/content/help/es-ES/analytics/components/metrics/unique-visitors.html). Puede producir datos desordenados.
+* No se recomienda utilizar marcas de hora cuando se establece [s.visitorID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html). Puede producir datos desordenados.
 
 * Las aplicaciones híbridas compuestas por una aplicación (datos sin conexión con marca de hora) que abre un explorador web (datos activos sin marca de hora) no deben utilizar marcas de hora. Produce informes inexactos acerca de la sesión.
 
