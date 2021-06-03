@@ -5,11 +5,10 @@ uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +30,7 @@ Con el fin de facilitar la creación rápida de métricas calculadas, se ha aña
 
 ![](assets/calc_metrics.png)
 
-[Métricas calculadas: métricas sin implementación](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
+[Métricas calculadas: métricas sin implementación](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 ## Comparar métricas con diferentes modelos de atribución
 
