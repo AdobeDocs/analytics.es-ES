@@ -3,10 +3,10 @@ description: Preguntas más frecuentes sobre las fuentes de datos
 keywords: Fuente de datos, trabajo, columna previa, columna posterior, distinción de mayúsculas y minúsculas
 title: Preguntas frecuentes sobre las fuentes de datos
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
+source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 54%
+source-wordcount: '1375'
+ht-degree: 41%
 
 ---
 
@@ -16,7 +16,7 @@ Preguntas más frecuentes sobre las fuentes de datos.
 
 ## ¿Deben ser únicos los nombres de las fuentes?{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
-Los nombres de los archivos de fuente de datos se componen del ID del grupo de informes y de la fecha. Si dos fuentes están configuradas para el mismo ID de grupo de informes y la misma fecha, tendrán el mismo nombre de archivo. Si esas fuentes se entregan en la misma ubicación, los archivos se sobrescriben entre sí. Para impedirlo, evite crear fuentes que puedan sobrescribir otra que ya exista en la misma ubicación.
+Los nombres de los archivos de fuente de datos se componen del ID del grupo de informes y de la fecha. Las dos fuentes que estén configuradas para el mismo RSID y la misma fecha tienen el mismo nombre de archivo. Si esas fuentes se entregan en la misma ubicación, un archivo sobrescribirá el otro. Para impedirlo, evite crear fuentes que puedan sobrescribir otra que ya exista en la misma ubicación.
 
 Cuando intente crear una fuente con el mismo nombre de archivo que otra, recibirá el siguiente mensaje:
 
@@ -40,7 +40,7 @@ Si una columna no contiene una versión `post_` (por ejemplo: `visit_num`), se p
 
 En Adobe Analytics, la mayoría de las variables se consideran sin distinción de mayúsculas y minúsculas a efectos de los informes. Por ejemplo: “nieve”, “Nieve”, “NIEVE” y “nLeve” se consideran todos como un mismo valor. La distinción entre mayúsculas y minúsculas se conserva en las fuentes de datos.
 
-Si ve diferentes variaciones de mayúsculas y minúsculas del mismo valor entre columnas no posteriores y posteriores (por ejemplo, “nieve” en la columna previa y “Nieve” en la columna posterior), la implementación utiliza valores en mayúsculas y minúsculas en todo el sitio. Se pasó anteriormente por la variación de la distinción de mayúsculas y minúsculas en la columna posterior y se almacena en la cookie virtual, o se procesó aproximadamente en el mismo momento para el grupo de informes.
+Si ve diferentes variaciones de mayúsculas y minúsculas del mismo valor entre columnas no posteriores y posteriores (por ejemplo, &quot;nieve&quot; en la columna previa y &quot;Nieve&quot; en la columna posterior), la implementación utiliza valores en mayúsculas y minúsculas en todo el sitio. Se pasó anteriormente por la variación de la distinción de mayúsculas y minúsculas en la columna posterior y se almacena en la cookie virtual, o se procesó aproximadamente en el mismo momento para el grupo de informes.
 
 ## ¿Las reglas de bots de la Admin Console filtran bots incluidos en las fuentes de datos?
 
@@ -72,7 +72,7 @@ Cuando se realiza la transición de DST a STD, el cliente obtiene 24 archivos. S
 
 ## ¿Cómo gestiona Analytics los errores de transferencia de FTP? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
-En caso de que se produzca un error en la transferencia FTP (inicio de sesión denegado, pérdida de conexión, falta de cuota, etc.), el Adobe intenta conectarse automáticamente y envía los datos hasta tres veces diferentes. Si no se resuelven los errores, la fuente se marca como errónea y se envía una notificación de correo electrónico.
+Si falla una transferencia FTP (debido a un inicio de sesión denegado, una conexión perdida, un error de cuota u otro problema), el Adobe intenta conectarse automáticamente y envía los datos hasta tres veces diferentes. Si no se resuelven los errores, la fuente se marca como errónea y se envía una notificación de correo electrónico.
 
 Si falla una transferencia, puede volver a ejecutar un trabajo hasta que se realice correctamente.
 
@@ -82,13 +82,19 @@ Si tiene problemas para que una fuente de datos aparezca en su sitio FTP, consul
 
 Cuando haya comprobado/corregido el problema de entrega, ejecute de nuevo el trabajo para obtener los archivos.
 
-## ¿Cuál es la configuración de BucketOwnerFullControl para las fuentes de datos de Amazon S3? {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## ¿Cuál es la configuración de BucketOwnerFullControl para las fuentes de datos de Amazon S3? {#BucketOwnerFullControl}
+
+**BucketOwnerFullControl** proporciona derechos a varias cuentas para crear objetos en otros buckets.
 
 El caso de uso más habitual de Amazon S3 es que el propietario de la cuenta de los servicios web de Amazon (AWS) crea un bucket, a continuación crea un usuario que tiene permiso para crear objetos en ese bucket y, finalmente, proporciona credenciales para ese usuario. En este caso, los objetos de un usuario pertenecen a la misma cuenta y el propietario de la cuenta tiene implícitamente un control total del objeto (leer, eliminar, etc.). Este proceso es similar al funcionamiento de la entrega por FTP.
 
-AWS también permite a un usuario crear objetos en un bucket que pertenece a una cuenta de usuario diferente. Por ejemplo, si dos usuarios de AWS, el usuario A y el usuario B, no pertenecen a la misma cuenta de AWS pero quieren crear objetos en otros buckets. Si el usuario A crea un bucket, por ejemplo el bucket A, este puede crear una política que permita explícitamente que el usuario B cree objetos en el bucket A, aunque el bucket no pertenezca al usuario. Esta directiva puede ser ventajosa porque no requiere que el usuario A y el usuario B intercambien credenciales. En su lugar, el usuario B proporciona su número de cuenta al usuario A y este crea una política de bucket que diga &quot;permitir al usuario B crear objetos en el bucket A&quot;.
+AWS también permite a un usuario crear objetos en un bucket que pertenece a una cuenta de usuario diferente. Por ejemplo, supongamos que dos usuarios de AWS, el usuario A y el usuario B, no pertenecen a la misma cuenta de AWS pero desean crear objetos en otros buckets. Si el usuario A crea un bucket llamado &quot;bucket A&quot;, puede crear una política que permita explícitamente que el usuario B cree objetos en el bucket A aunque el bucket no pertenezca al usuario. Esta directiva puede ser ventajosa porque no requiere que el usuario A y el usuario B intercambien credenciales. En su lugar, el usuario B proporciona su número de cuenta al usuario A y este crea una política de bucket que diga &quot;permitir al usuario B crear objetos en el bucket A&quot;.
 
-**BucketOwnerFullControl** proporciona derechos a varias cuentas para crear objetos en otros buckets. Si el usuario B carga un objeto en el bucket del usuario A, el usuario B sigue &quot;siendo propietario&quot; de ese objeto y, de forma predeterminada, no se concede ningún permiso al usuario A para ese objeto aunque el usuario A posea el bucket. Esto se debe a que los objetos no heredan permisos del bloque principal. El usuario B debe conceder permiso explícitamente al usuario A porque el usuario B sigue siendo el propietario del objeto. Para conceder este permiso, el usuario B debe cargar el objeto con un BucketOwnerFullControl ACL, que especifica que el propietario del bucket (usuario A) tiene permisos totales para el objeto (leer, escribir, eliminar, etc.), aunque el objeto sea &quot;propiedad&quot; del usuario B.
+Sin embargo, los objetos no heredan permisos del bloque principal. Por lo tanto, si el usuario B carga un objeto en el bucket del usuario A, el usuario B sigue &quot;siendo propietario&quot; de ese objeto y, de forma predeterminada, no se concede ningún permiso al usuario A para ese objeto aunque el usuario A posea el bucket. El usuario B debe conceder permiso explícitamente al usuario A porque el usuario B sigue siendo el propietario del objeto. Para conceder este permiso, el usuario B debe cargar el objeto con un BucketOwnerFullControl ACL, que especifica que el propietario del bucket (usuario A) tiene permisos totales para el objeto (leer, escribir, eliminar, etc.), aunque el usuario B &quot;posee&quot; el objeto.
+
+>[!NOTE]
+>
+>[!DNL Analytics] no determina si el compartimento tiene una política que requiera dar al propietario del compartimento control total de nuevos objetos, o incluso si el propietario del compartimento está en una cuenta diferente a la del usuario que escribe los datos. En su lugar, [!DNL Analytics] agrega automáticamente el propietario del bloque a la ACL BucketOwnerFullControl con cada carga de fuente.
 
 >[!MORELIKETHIS]
 >
