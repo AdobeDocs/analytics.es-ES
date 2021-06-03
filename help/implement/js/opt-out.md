@@ -2,10 +2,9 @@
 title: Vínculos de no participación
 description: Obtenga información sobre cómo crear e implementar Vínculos de no participación para los visitantes del sitio.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '590'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '586'
 ht-degree: 100%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Adobe recomienda utilizar el servicio de inclusión, especialmente para las organizaciones relacionadas con las regulaciones del RGPD. Consulte [Introducción al servicio de inclusión](https://docs.adobe.com/content/help/es-ES/id-service/using/implementation/opt-in-service/optin-overview.html) en la guía del usuario del servicio de Experience Cloud ID.
+>Adobe recomienda utilizar el servicio de inclusión, especialmente para las organizaciones relacionadas con las regulaciones del RGPD. Consulte [Introducción al servicio de inclusión](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) en la guía del usuario del servicio de Experience Cloud ID.
 
 Algunos visitantes del sitio Web prefieren no incluir su información de navegación en el conjunto de datos. Adobe permite especificar a los visitantes de un sitio web que así lo consideren que no desean que su información se recopile. Se admiten todos los tipos de implementación; su organización es responsable de su propia política de privacidad y de cumplir con los términos firmados.
 
@@ -37,7 +36,7 @@ La página de exclusión de su organización depende del valor de la variable [`
    1. En el servidor web, abra el archivo AppMeasurement.js que se utiliza en el sitio en un editor de código o texto.
    2. Tenga en cuenta el valor de la variable `trackingServer`.
 
-* Use [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html):
+* Use [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.translate.html):
    1. Vaya a su sitio mediante el explorador Chrome.
    2. Abra Experience Cloud Debugger y vaya a la pestaña [!UICONTROL Red].
    3. Tenga en cuenta el valor de [!UICONTROL Solicitar URL: Nombre de host].
