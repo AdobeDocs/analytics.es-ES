@@ -5,11 +5,10 @@ title: Depurar proyectos de
 feature: Depurar y compartir
 role: Business Practitioner, Administrator
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '548'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +47,7 @@ Para eliminar la depuración del proyecto y restaurar el conjunto completo de co
 
 ## Depuración de grupos de informes virtuales (VRS)
 
-Para aplicar la depuración a nivel de grupo de informes, de modo que se aplique a muchos proyectos a la vez, puede [depurar componentes en un grupo de informes virtuales (VRS)](https://docs.adobe.com/content/help/es-ES/analytics/components/virtual-report-suites/vrs-components.html).
+Para aplicar la depuración a nivel de grupo de informes, de modo que se aplique a muchos proyectos a la vez, puede [depurar componentes en un grupo de informes virtuales (VRS)](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html).
 
 >[!NOTE]
 > La depuración de grupos de informes virtuales siempre se aplica antes de la depuración de proyectos. Esto significa que, aunque el proyecto depurado incluya determinados componentes, se filtrarán si los grupos de informes virtuales depurados no los incluyen.
