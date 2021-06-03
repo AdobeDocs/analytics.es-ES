@@ -3,11 +3,10 @@ description: El sistema de fuentes de datos admite las siguientes variables al p
 title: Procesamiento completo
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 97%
+source-wordcount: '719'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe recomienda que los clientes utilicen la [API de inserción masiva de datos (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) en lugar de las fuentes de datos de procesamiento completo. Adobe planea dejar de utilizar las fuentes de datos de procesamiento completo el 31 de julio de 2021. [Más información](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe recomienda que los clientes utilicen la [API de inserción masiva de datos (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) en lugar de las fuentes de datos de procesamiento completo. Adobe tiene planificado dejar de utilizar el procesamiento completo de fuentes de datos el 31 de julio de 2021. [Más información](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 El sistema de fuentes de datos admite las siguientes variables al procesar datos como una llamada a servidor estándar (Genérico > Procesamiento completo).
 
@@ -69,7 +68,7 @@ Pongamos como ejemplo que un usuario que tiene el ID de visitante `"user@example
   <tr> 
    <td colname="col1"> <p>Events </p> </td> 
    <td colname="col2"> <p>Events </p> </td> 
-   <td colname="col3"> <p>Cadena de eventos. El formato se aplica con la misma sintaxis que la variable <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Por ejemplo: </p> 
+   <td colname="col3"> <p>Cadena de eventos. El formato se aplica con la misma sintaxis que la variable <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Por ejemplo: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -172,7 +171,7 @@ En la tabla siguiente se muestran las variables de tráfico que se llenan autom�
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Conjunto de caracteres admitido para el sitio web. Por ejemplo: UTF-8, ISO-8859-1, etc. </p> <p>Consulte el documento técnico <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Conjunto de caracteres de byte múltiple</a> (internacionalización) para obtener una lista exhaustiva. </p> </td> 
+   <td colname="col2"> <p>Conjunto de caracteres admitido para el sitio web. Por ejemplo: UTF-8, ISO-8859-1, etc. </p> <p>Consulte el documento técnico <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Conjunto de caracteres de byte múltiple</a> (internacionalización) para obtener una lista exhaustiva. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
