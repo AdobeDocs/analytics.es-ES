@@ -4,14 +4,13 @@ title: Método de seguimiento de vínculos
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1000'
 ht-degree: 99%
 
 ---
-
 
 # Método de seguimiento de vínculos
 
@@ -19,7 +18,7 @@ Esta sección está dirigida a los administradores de Adobe Analytics. Explora l
 
 >[!IMPORTANT]
 >
->Cualquier vínculo en el que el texto (no el href) pueda contener información de identificación personal (PII) debe implementarse de forma explícita mediante [s_objectID](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/page-variables.html) o excluyendo la recopilación de vínculos de Activity Map con [s.ActivityMap.linkExclusions o s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Para obtener más información sobre cómo Activity Map recopila datos PII, acceda [aquí](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Cualquier vínculo en el que el texto (no el href) pueda contener información de identificación personal (PII) debe implementarse de forma explícita mediante [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) o excluyendo la recopilación de vínculos de Activity Map con [s.ActivityMap.linkExclusions o s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Para obtener más información sobre cómo Activity Map recopila datos PII, acceda [aquí](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 Activity Map basa el seguimiento de vínculos en estos dos ID:
 
@@ -36,7 +35,7 @@ Si el HTML tiene un s_objectid, el ID principal predeterminado pasará a ser s_o
 * Src (origen)
 * Acción
 
-## Utilización de Innertext y de Acción de vínculo (URL)  {#section_70C3573E22274522A8CC035BF18EC468}
+## Utilización de Innertext y de Acción de vínculo (URL) {#section_70C3573E22274522A8CC035BF18EC468}
 
 Acción de vínculo es la acción que efectúa la página web cuando se hace clic en el vínculo. Normalmente es la URL que se visita tras hacer clic en el vínculo. Al usar Acción de vínculo, pueden surgir los problemas siguientes:
 
