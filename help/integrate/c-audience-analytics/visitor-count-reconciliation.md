@@ -3,11 +3,10 @@ description: Adobe Analytics y Adobe Audience Manager cuentan con métricas de v
 title: Diferencias en la contabilización de visitantes
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '292'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 94%
 
 ---
 
@@ -26,20 +25,20 @@ Las métricas de visitante son:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Propagación total de segmentos</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Propagación total de segmentos</a> </p> </td> 
    <td colname="col3"> <p>Se trata del número de dispositivos (Experience Cloud ID) que formaban parte de su segmento durante el período retroactivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Propagación de segmentos en tiempo real</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Propagación de segmentos en tiempo real</a> </p> </td> 
    <td colname="col3"> <p>Se trata del número de dispositivos (Experience Cloud ID) que formaban parte de su segmento y han alcanzado sus propiedades durante el período retroactivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Analytics: Visitantes exclusivos </p> </td> 
-   <td colname="col3"> <p>Muestra el número de visitantes exclusivos que alcanzaron sus propiedades durante el tiempo de realización del informe. </p> </td> 
+   <td colname="col2"> <p>Analytics: Visitantes únicos </p> </td> 
+   <td colname="col3"> <p>Muestra el número de visitantes únicos que alcanzaron sus propiedades durante el tiempo de realización del informe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: Visitantes con Experience Cloud ID </p> </td> 
-   <td colname="col3"> <p>Muestra el número de visitantes exclusivos con un Experience Cloud ID que han alcanzado sus propiedades durante el período retroactivo. </p> </td> 
+   <td colname="col3"> <p>Muestra el número de visitantes únicos con un Experience Cloud ID que han alcanzado sus propiedades durante el período retroactivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
