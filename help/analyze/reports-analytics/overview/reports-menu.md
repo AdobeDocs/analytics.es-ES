@@ -5,11 +5,10 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Conceptos básicos de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 99%
+source-wordcount: '780'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +31,7 @@ Se puede navegar por los informes con una vista de columna jerárquica. Haga cli
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Para conocer los detalles sobre los informes individuales, consulte [Descripciones de informes](https://docs.adobe.com/content/help/es-ES/analytics/components/dimensions/overview.html).
+Para conocer los detalles sobre los informes individuales, consulte [Descripciones de informes](https://experienceleague.adobe.com/docs/analytics/components/variables/c-variables.html).
 
 ## Búsqueda de informes {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -66,7 +65,7 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmentos <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Muestra el carril de segmento que le permite agregar o administrar segmentos. También puede acceder a las interfaces de <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >Generador de segmentos</a> y <a href="https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >Administrador de segmentos</a> desde el carril del segmento. </td> 
+   <td colname="col2">Muestra el carril de segmento que le permite agregar o administrar segmentos. También puede acceder a las interfaces de <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >Generador de segmentos</a> y <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >Administrador de segmentos</a> desde el carril del segmento. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Métricas <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -114,7 +113,7 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
   </tr> 
   <tr> 
    <td colname="col1">Selector de grupos de informes <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Le permite seleccionar <a href="https://docs.adobe.com/content/help/es-ES/analytics/admin/manage-report-suites/report-suites-admin.html"  >grupos de informes base</a> o <a href="https://docs.adobe.com/help/es-ES/analytics/components/virtual-report-suites/vrs-about.html"  >grupos de informes virtuales</a>. </td> 
+   <td colname="col2">Le permite seleccionar <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >grupos de informes base</a> o <a href="https://docs.adobe.com/help/es-ES/analytics/components/virtual-report-suites/vrs-about.html"  >grupos de informes virtuales</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendario <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -125,4 +124,4 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
 
 ## Personalización del menú Todos los informes {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Los administradores pueden cambiar los informes que incluye el menú Informes. Consulte [Personalización de menús](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/customize-menus.html) en la Ayuda de Administradores.
+Los administradores pueden cambiar los informes que incluye el menú Informes. Consulte [Personalización de menús](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html) en la Ayuda de Administradores.
