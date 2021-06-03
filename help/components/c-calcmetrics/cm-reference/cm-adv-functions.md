@@ -3,11 +3,10 @@ description: Seleccione Mostrar avanzadas para acceder a estas funciones en la l
 title: 'Referencia: funciones avanzadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '2911'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2909'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +26,7 @@ Por ejemplo, si tiene una métrica Ingresos y, a continuación, agrega una métr
 
 Por otra parte, si tiene dos métricas en las que está interesado, puede que no sea justo afirmar que una tiene una media superior o mínima porque algunas de sus filas eran ceros, por lo que no debería marcar el parámetro para incluir ceros.
 
-## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
+## Y {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
 Devuelve el valor de su argumento. Utilice NOT para asegurarse de que un valor no es igual a un valor en concreto.
 
@@ -42,7 +41,7 @@ AND(logical_test1,[logical_test2],...)
 | Argumento | Descripción |
 |---|---|
 | *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como TRUE o FALSE. |
-| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como TRUE o FALSE. |
+| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO. |
 
 ## Número aproximado de elementos distintos (dimensión) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
@@ -70,7 +69,7 @@ Así es como se podría usar la métrica “Clientes aproximados” en un inform
 
 ### Se excedió la cantidad de valores exclusivos {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://docs.adobe.com/content/help/es-ES/analytics/technotes/low-traffic.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
+Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
 
 ### Comparación de funciones de recuento {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
@@ -116,7 +115,7 @@ ATAN(metric)
 
 ## Regresión exponencial: Y predicha (Fila) {#concept_25615693312B4A7AB09A2921083502AD}
 
-Calcula los valores Y predichos (metric_Y), dados los valores x conocidos (metric_X) usando el método de &quot;mínimos cuadrados&quot; para calcular la línea que mejor se ajusta según la fórmula .
+Calcula los valores Y predichos (metric_Y), dados los valores x conocidos (metric_X) usando el método de &quot;mínimos cuadrados&quot; para calcular la línea que mejor se ajusta según la fórmula.
 
 ```
 ESTIMATE.EXP(metric_X, metric_Y)
@@ -340,7 +339,7 @@ Devuelve elementos cuyo recuento numérico sea menor o igual que el valor introd
 
 ## Regresión lineal: coeficiente de correlación {#concept_132AC6B3A55248AA9C002C1FBEB55C60}
 
-Y = a X + b. Devuelve el coeficiente de correlación
+Y = a X + b. Devuelve el coeficiente de correlación.
 
 ## Regresión lineal: intercepción {#concept_E44A8D78B802442DB855A07609FC7E99}
 
@@ -432,7 +431,7 @@ LN(metric)
 |---|---|
 | *métrica* | El número real positivo del cual desea el logaritmo natural. |
 
-## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
+## NO {#concept_BD954C455A8148A3904A301EC4DC821E}
 
 Devuelve 1 si el número es 0 o devuelve 0 si es otro número.
 
@@ -465,7 +464,7 @@ OR(logical_test1,[logical_test2],...)
 | Argumento | Descripción |
 |---|---|
 | *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como TRUE o FALSE. |
-| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como TRUE o FALSE. |
+| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO. |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
 
@@ -647,7 +646,7 @@ SIN(metric)
 
 ## Unidad tipificada {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
 
-Es el nombre por el que también se conoce una variable estandarizada, concretamente, la desviación de la media dividida por la desviación estándar
+Es el nombre por el que también se conoce una variable estandarizada, concretamente, la desviación de la media dividida por la desviación estándar.
 
 ## Prueba T {#concept_A1F78F4A765348E38DBCAD2E8F638EB5}
 
