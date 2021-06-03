@@ -5,10 +5,10 @@ subtopic: Users and groups
 title: Cambios en los permisos de usuarios y grupos
 feature: Herramientas de administración
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 96%
+source-wordcount: '1556'
+ht-degree: 94%
 
 ---
 
@@ -65,12 +65,12 @@ Debido a que la API y la interfaz utilizan el mismo sistema para dar permisos, l
    <td colname="col2"> <p>Puede personalizar permisos para incluir o excluir el acceso a dimensiones (además del acceso a métricas). </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Se han migrado automáticamente a las nuevas categorías todas las dimensiones y métricas actuales dentro de grupos personalizados. Si un grupo existente tiene métricas habilitadas, se le asignarán todas las dimensiones que puedan recibir permisos por primera vez (eVars y según el contenido) y métricas de forma predeterminada. </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Permisos del Importador de clasificaciones (anteriormente, SAINT): el acceso a las clasificaciones viene determinado por el acceso a la <a href="https://docs.adobe.com/content/help/es-ES/analytics/components/classifications/c-classifications.html">variable</a> en la cual se basa la clasificación. </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Permisos del Importador de clasificaciones (anteriormente, SAINT): el acceso a las clasificaciones viene determinado por el acceso a la <a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html">variable</a> en la cual se basa la clasificación. </li> 
     </ul> <p>Consulte <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">Personalizar permisos para dimensiones</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console </p> </td> 
-   <td colname="col2"> <p>Solo se recomienda para clientes nuevos o clientes cuyas empresas estén <a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/core-services.html">aprovisionadas en Experience Cloud</a>. Se ha planificado la migración de los clientes existentes de <span class="keyword">Analytics</span> al sistema de administración de identidades de <span class="keyword">Experience Cloud</span>. </p> <p>Encontrará más información en <a href="https://helpx.adobe.com/es/enterprise/using/manage-permissions-and-roles.html"> Administrar permisos de producto en Admin Console</a>. </p> </td> 
+   <td colname="col2"> <p>Solo se recomienda para clientes nuevos o clientes cuyas empresas estén <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html">aprovisionadas en Experience Cloud</a>. Se ha planificado la migración de los clientes existentes de <span class="keyword">Analytics</span> al sistema de administración de identidades de <span class="keyword">Experience Cloud</span>. </p> <p>Encontrará más información en <a href="https://helpx.adobe.com/es/enterprise/using/manage-permissions-and-roles.html"> Administrar permisos de producto en Admin Console</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,7 +143,7 @@ En la tabla siguiente se muestran distintas tareas y dónde pueden llevarse a ca
  <tbody> 
   <tr> 
    <td colname="col1"> Crear un usuario </td> 
-   <td colname="col2"> <p>Admin Console (al crear un usuario y agregarlo a una <a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html">configuración de producto</a> de Analytics, se crea también la cuenta de usuario en Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Herramientas de administración</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console (al crear un usuario y agregarlo a una <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html">configuración de producto</a> de Analytics, se crea también la cuenta de usuario en Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Herramientas de administración</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
   </tr> 
@@ -168,8 +168,8 @@ En la tabla siguiente se muestran distintas tareas y dónde pueden llevarse a ca
   <tr> 
    <td colname="col1"> Crear un grupo </td> 
    <td colname="col2"> <p>Admin Console: Cuando se cree un grupo en Admin Console, aparecerá un grupo asignado en Analytics en las Herramientas de administración, si bien no se podrá cambiar el nombre de este grupo asignado desde las Herramientas de administración, ni tampoco se podrá eliminar de las Herramientas de administración. </p> <p>Herramientas de administración. </p> </td> 
-   <td colname="col3"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html">crear configuración de producto</a>) </p> </td> 
-   <td colname="col4"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html">crear configuración de producto</a>) </p> </td> 
+   <td colname="col3"> <p>Admin Console (<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html">crear configuración de producto</a>) </p> </td> 
+   <td colname="col4"> <p>Admin Console (<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html">crear configuración de producto</a>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Editar usuarios en un grupo </td> 
