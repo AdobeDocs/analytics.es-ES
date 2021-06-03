@@ -5,10 +5,10 @@ uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 95%
+source-wordcount: '267'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ Para que los usuarios puedan informar sobre las dimensiones de Activity Map, es 
 
 ## Dimensiones de Activity Map de Analytics {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-Puede [personalizar el acceso de los usuarios a las dimensiones](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html) en un nivel granular. A continuación se muestran las dimensiones de Activity Map disponibles en Analytics:
+Puede [personalizar el acceso de los usuarios a las dimensiones](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html) en un nivel granular. A continuación se muestran las dimensiones de Activity Map disponibles en Analytics:
 
 | Dimensión | Descripción |
 |---|---|
