@@ -3,14 +3,13 @@ description: El análisis de página en tiempo real (modo Activo) permite obtene
 title: Análisis de páginas en tiempo real (activo)
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 29ccd89e-d82b-41d4-a940-addc6656b5ec
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 71%
+source-wordcount: '356'
+ht-degree: 67%
 
 ---
-
 
 # Análisis de páginas en tiempo real (modo Activo)
 
@@ -36,13 +35,13 @@ Si desea comprobar en qué elemento se hace clic principalmente en el modo Activ
 
 ## Latencia de datos como resultado de la configuración de A4T
 
-Una vez que la [integración de A4T](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t.html) esté habilitada en Adobe Target, experimentará otros 5-10 minutos de latencia en Adobe Analytics. Este aumento de la latencia permite almacenar los datos de Analytics y Target en la misma visita, lo que le permite desplegar las pruebas por página y por sección de sitio.
+Una vez que la [integración de A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) esté habilitada en Adobe Target, experimentará otros 5-10 minutos de latencia en Adobe Analytics. Este aumento de la latencia permite almacenar los datos de Analytics y Target en la misma visita, lo que le permite desplegar las pruebas por página y por sección de sitio.
 
 Este aumento se ve reflejado en todos los servicios y herramientas de Adobe Analytics, incluido el flujo en directo y los informes en tiempo real, y se aplica a estos escenarios:
 
 * Para el flujo en directo, los informes en tiempo real, las solicitudes de la API y todos los datos actuales para las variables de tráfico, solo se retrasan las visitas con un ID de datos suplementario.
 * Para los datos actuales en las métricas de conversión, los datos finalizados y las fuentes de datos, todas las visitas se retrasan de 5 a 7 minutos más.
 
-Tenga en cuenta que el aumento de la latencia se da después de implementar el [Servicio de identidad](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html), incluso aunque no haya implementado correctamente esta integración.
+Tenga en cuenta que el aumento de la latencia se da después de implementar el [Servicio de identidad](https://experienceleague.adobe.com/docs/id-service/using/home.html), incluso aunque no haya implementado correctamente esta integración.
 
 Más información [aquí](/help/analyze/activity-map/activitymap-standard-live.md).
