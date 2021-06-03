@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: Administrar Canales de marketing
 feature: Conceptos básicos de Reports & Analytics
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 97%
+source-wordcount: '750'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ Hay varias opciones de configuración que se pueden aplicar a cada canal en la p
 | Nombre del canal | Nombre descriptivo del canal de marketing. |
 | Anular canal de último contacto | Permite sobrescribir un canal de último contacto persistente actual con el canal seleccionado. Si selecciona esta casilla, cualquier canal (incluidos el directo y el interno) sobrescribirán el canal que se haya tocado por última vez. Por lo tanto, se atribuirá la conversión a un canal al que, posiblemente, no corresponda el crédito. Por ejemplo, esta opción podría garantizar que el canal directo no reciba el crédito por la conversión si el usuario ha sido adquirido anteriormente mediante el canal Búsqueda natural. |
 | Desglose de canal | Permite desglosar un canal según el valor especificado. Puede agregar posibles desgloses de canal (subcanales) al crear [clasificaciones de canal de marketing](/help/components/c-marketing-channels/classifictions-mchannel.md). |
-| Tipo | Especifica cómo llegó el usuario a su sitio web. Puede seleccionar En línea o Sin conexión. Utilice los canales en línea para los visitantes que llegaron mediante un motor de búsqueda o una campaña de correo electrónico. Los canales sin conexión se aplican a los visitantes que hayan encontrado el sitio mediante cupones de periódicos o anuncios en revistas. Por lo general, los canales sin conexión incluyen datos importados a través de las fuentes de datos de informes. Consulte [Fuentes de datos](https://docs.adobe.com/content/help/es-ES/analytics/import/data-sources/datasrc-home.html). Consulte [Añadir datos sin conexión](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
+| Tipo | Especifica cómo llegó el usuario a su sitio web. Puede seleccionar En línea o Sin conexión. Utilice los canales en línea para los visitantes que llegaron mediante un motor de búsqueda o una campaña de correo electrónico. Los canales sin conexión se aplican a los visitantes que hayan encontrado el sitio mediante cupones de periódicos o anuncios en revistas. Por lo general, los canales sin conexión incluyen datos importados a través de las fuentes de datos de informes. Consulte [Fuentes de datos](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html). Consulte [Añadir datos sin conexión](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
 | Color | Solo Reports &amp; Analytics: El color asociado con este canal de marketing. El color representa el canal en el informe Canal de marketing. |
 
 ### Prácticas recomendadas sobre anulaciones
