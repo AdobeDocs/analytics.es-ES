@@ -5,10 +5,10 @@ title: Variables de conversión (eVar)
 feature: Herramientas de administración
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 100%
+source-wordcount: '1578'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Si se desea realizar la medición de tráfico o las rutas, se recomienda utiliza
 
 >[!NOTE]
 >
->Se puede guardar un solo valor único en una eVar de una solicitud de imagen. Si quiere que haya varios valores en un valor eVar, le recomendamos que implemente [Variables de lista](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/page-variables.html).
+>Se puede guardar un solo valor único en una eVar de una solicitud de imagen. Si quiere que haya varios valores en un valor eVar, le recomendamos que implemente [Variables de lista](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html).
 
 ## Variables de conversión - Descripciones {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -88,7 +88,7 @@ Descripciones de los campos utilizados al [editar variables de conversión](/hel
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Comercialización</span> </p> <p>(solo eVar) </p> </td> 
-   <td colname="col2"> <p>Las variables de comercialización pueden seguir una de dos sintaxis: </p> <p> <b>Sintaxis de productos</b>:</span> Asocia el valor de la eVar a un producto. Nota: Si la sintaxis de los productos se selecciona, la sección de Evento de enlace de comercialización se desactiva y no se puede seleccionar para la edición. Para esta sintaxis, los eventos de enlace no son aplicables. </p> </p> <p> <b>Sintaxis de variables de conversión</b>:</span> Asocia la eVar a un producto solamente si ocurre un evento de enlace. En este caso, usted selecciona los eventos que actúan como eventos de enlace. </p> <p>Si cambia este valor sin actualizar adecuadamente el código JavaScript, se perderán datos. Consulte <a href="https://docs.adobe.com/content/help/es-ES/analytics/components/variables/merchandising-variables/var-merchandising.html">Variables de comercialización</a>. </p> </td> 
+   <td colname="col2"> <p>Las variables de comercialización pueden seguir una de dos sintaxis: </p> <p> <b>Sintaxis de productos</b>:</span> Asocia el valor de la eVar a un producto. Nota: Si la sintaxis de los productos se selecciona, la sección de Evento de enlace de comercialización se desactiva y no se puede seleccionar para la edición. Para esta sintaxis, los eventos de enlace no son aplicables. </p> </p> <p> <b>Sintaxis de variables de conversión</b>:</span> Asocia la eVar a un producto solamente si ocurre un evento de enlace. En este caso, usted selecciona los eventos que actúan como eventos de enlace. </p> <p>Si cambia este valor sin actualizar adecuadamente el código JavaScript, se perderán datos. Consulte <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html">Variables de comercialización</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Evento de enlace de comercialización</span> </p> <p>(solo eVar) </p> </td> 
