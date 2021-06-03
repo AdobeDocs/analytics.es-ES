@@ -3,11 +3,10 @@ description: Esta página de ayuda contiene casos de uso recomendados para cada 
 title: ¿Qué herramienta de Adobe Analytics debo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1162'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +30,7 @@ Para obtener más información sobre comparativas de producto de Adobe Analytics
 * Para acceder a visualizaciones de vídeo únicas de Video Daypart y Viewer Drop-off.
 * Para utilizar las Listas de publicación en informes programados.
 
-El **[Data Workbench](https://docs.adobe.com/content/help/es-ES/data-workbench/using/home.html)** debe usarse:
+El **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** debe usarse:
 
 * Como la opción de herramienta de Analytics más flexible (para análisis en el nivel de visita y de visitante).
 * Para crear un conjunto de datos de varios canales de interacciones en línea y sin conexión desde CRM hasta POS a web.
@@ -71,7 +70,7 @@ La **[API de inserción de datos](/help/import/c-data-insertion-api/c-data-inser
 
 * Tanto la API de inserción de datos como la API de inserción masiva de datos son métodos para enviar datos de colección del lado del servidor a Adobe Analytics. Las llamadas a la API de inserción de datos se realizan a razón de un evento a la vez. La API de inserción masiva de datos acepta archivos con formato CSV que contienen datos de evento, un evento por fila. Si está trabajando en una nueva implementación de la colección del lado del servidor, le recomendamos utilizar la API de inserción masiva de datos.
 
-**[Los atributos del cliente](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html)** deben usarse:
+**[Los atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** deben usarse:
 
 * Si obtiene datos de clientes empresariales en una base de datos de administración de la relación con los clientes (CRM) y desea cargarlos en Experience Cloud.
 * Si desea utilizar datos CRM para un análisis más profundo en Analytics, o como criterio de segmentación en Adobe Target.
