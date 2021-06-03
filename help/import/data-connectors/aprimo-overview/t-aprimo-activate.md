@@ -2,18 +2,20 @@
 description: Utilice el asistente de configuración de Adobe Data Connectors para configurar la integración.
 title: Activación de la integración
 uuid: 0a5d2d45-5133-4259-96ce-c992a1e314ee
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: 520a2b59-5595-4337-b71c-ea0448bf9267
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 97%
 
 ---
-
 
 # Activación de la integración {#activate-the-integration}
 
 Utilice el asistente de configuración de Adobe Data Connectors para configurar la integración.
 
-1. Start [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) and click **[!UICONTROL + Add New]** to [add a new integration](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
-1. In the **[!UICONTROL Show]** list, select **[!UICONTROL By Name]** and drag the [!DNL ~Partner~] integration to an empty plug-in slot.
+1. Inicie [Data Connectors](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html) y haga clic en **[!UICONTROL + Añadir nueva]** para [agregar una nueva integración](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html).
+1. En la lista **[!UICONTROL Mostrar]**, seleccione **[!UICONTROL Por nombre]** y arrastre la integración de [!DNL ~Partner~] a una ranura de complemento vacía.
 1. Complete el asistente de integración con la información de la tabla siguiente:
 
 | Campo | Descripción |
@@ -25,7 +27,7 @@ Utilice el asistente de configuración de Adobe Data Connectors para configurar 
 | Clics | (Obligatorio) Especifique el evento de Adobe Analytics que almacena los datos de correos electrónicos en los que se hizo clic importados desde el sistema de correo electrónico. El evento en el que se hizo clic permite ver el número de visitantes que hicieron clic en el mensaje de correo electrónico. |
 | ID de mensaje | (Obligatorio) Almacena el ID de correo único. |
 | Aperturas | (Obligatorio) Especifique el evento de Adobe Analytics que almacena los datos de aperturas a través del correo electrónico importados desde el sistema de correo electrónico. El evento de aperturas (Opened) permite ver el número de visitantes que abrieron el mensaje de correo electrónico. |
-| Recipient ID (ID de destinatario) | (Obligatorio) Almacena el ID de visitante único. |
+| Recipient ID (ID de destinatario) | (Obligatorio) Almacena el ID único de visitante. |
 | Enviados | (Obligatorio) Especifique el evento de Adobe Analytics que almacena los datos de mensajes enviados por correo electrónico importados desde el sistema de correo electrónico. El evento de enviados (Sent) permite ver el número de mensajes de correo electrónico que se han enviado. |
 | Devoluciones | (Obligatorio) Especifique el evento de Adobe Analytics que almacena los datos de devoluciones totales de correo electrónico importados del sistema de correo electrónico. El evento de devoluciones totales permite ver el número de mensajes de correo electrónico que no se entregaron a los destinatarios debido a un problema de entrega. |
 | Cancelación de suscripción | (Obligatorio) Especifique el evento de Adobe Analytics que almacena los datos de cancelación de suscripción de correo electrónico importados desde el sistema de correo electrónico. El evento de cancelación de suscripción (Unsuscribed) le permite ver el número de visitantes que abrieron el mensaje de correo electrónico y luego hicieron clic en el vínculo Cancelar suscripción para rechazar futuros mensajes de correo electrónico de su organización. |
