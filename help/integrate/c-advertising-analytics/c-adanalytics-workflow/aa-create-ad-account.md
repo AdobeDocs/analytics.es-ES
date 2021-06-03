@@ -2,11 +2,10 @@
 title: Configuración de una cuenta de publicidad en Advertising Analytics
 description: Permite crear nuevas cuentas de publicidad y asignar varias cuentas a varios grupos de informes.
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '869'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '863'
+ht-degree: 97%
 
 ---
 
@@ -59,13 +58,13 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
 
    | Configuración | Descripción |
    |--- |--- |
-   | Tipo | <ul><li>**Automático:** Permite que el motor de Advertising Cloud decida cómo se adjuntan los parámetros de seguimiento a las plantillas de seguimiento/URL de destino del motor de búsqueda. Este es el enfoque más sencillo, pero es posible que no genere el conjunto de datos mejor integrado.<br>**Importante:** Para configurar una cuenta de motor de búsqueda en “Modo automático”, usted es responsable de realizar las siguientes acciones:<br> El parámetro y valor “s_kwcid” se agregará a las plantillas de seguimiento de cuentas o a las direcciones URL de página de aterrizaje en la cuenta que se agrega. Se insertará al final de la URL. Como resultado, es posible que deba llevar a cabo acciones adicionales si su servidor web requiere un determinado par clave-valor al final de la URL o bien una actualización que permita cualquier nuevo par clave-valor en la URL. **Nota:** Obtenga más información sobre si debe agregar este parámetro a la [política de seguridad de contenido](https://docs.adobe.com/content/help/es-ES/id-service/using/reference/csp.html).<br>Además, en la URL de destino pueden insertarse palabras clave como parte del valor “s_kwcid”, de modo que, si contienen caracteres especiales o símbolos, confirme que su servidor web los admite (un ejemplo de carácter especial común es “+”, que se utiliza en las palabras clave “Broad Match Modified”).</li><li>**Manual:** Le permite administrar cómo se añaden los parámetros de seguimiento a las plantillas de seguimiento o a las direcciones URL de destino del motor de búsqueda. [Consulte estos ejemplos de seguimiento manual para cada motor de búsqueda](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
+   | Tipo | <ul><li>**Automático:** Permite que el motor de Advertising Cloud decida cómo se adjuntan los parámetros de seguimiento a las plantillas de seguimiento/URL de destino del motor de búsqueda. Este es el enfoque más sencillo, pero es posible que no genere el conjunto de datos mejor integrado.<br>**Importante:** Para configurar una cuenta de motor de búsqueda en “Modo automático”, usted es responsable de realizar las siguientes acciones:<br> El parámetro y valor “s_kwcid” se agregará a las plantillas de seguimiento de cuentas o a las direcciones URL de página de aterrizaje en la cuenta que se agrega. Se insertará al final de la URL. Como resultado, es posible que deba llevar a cabo acciones adicionales si su servidor web requiere un determinado par clave-valor al final de la URL o bien una actualización que permita cualquier nuevo par clave-valor en la URL. **Nota:** Obtenga más información sobre si debe agregar este parámetro a la [política de seguridad de contenido](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html).<br>Además, en la URL de destino pueden insertarse palabras clave como parte del valor “s_kwcid”, de modo que, si contienen caracteres especiales o símbolos, confirme que su servidor web los admite (un ejemplo de carácter especial común es “+”, que se utiliza en las palabras clave “Broad Match Modified”).</li><li>**Manual:** Le permite administrar cómo se añaden los parámetros de seguimiento a las plantillas de seguimiento o a las direcciones URL de destino del motor de búsqueda. [Consulte estos ejemplos de seguimiento manual para cada motor de búsqueda](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
 1. En la sección **[!UICONTROL Asignación]**, elija qué grupo(s) de informes va a enlazar a la cuenta de este motor de búsqueda. Debe proporcionar un grupo de informes como mínimo para guardar la cuenta publicitaria. Puede asignar diversas cuentas a varios grupos de informes (1:1, 1:Muchos, Muchos:Muchos). Recuerde que los datos que AMO obtiene del motor de búsqueda simplemente se copian a cualquier grupo de informes asignado, de modo que los datos no se dividen.
 
    >[!IMPORTANT]
    >
-   >Solo los grupos de informes que se hayan [asignado a una organización de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html) estarán disponibles para su selección. Si su grupo de informes no se incluye en la lista, consulte [Solucionar problemas de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Solo los grupos de informes que se hayan [asignado a una organización de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) estarán disponibles para su selección. Si su grupo de informes no se incluye en la lista, consulte [Solucionar problemas de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
    Para la **[!UICONTROL configuración de la asignación]**, siga estas directrices:
 
@@ -79,7 +78,7 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Asignación de grupos de informes </p> </td> 
-      <td colname="col2"> <p>La asignación de grupos de informes determina el grupo de informes que se enlaza a la cuenta de este motor de búsqueda. En otras palabras, determina a qué grupo(s) de informes se envían los datos del motor de búsqueda. </p> <p>Si su grupo de informes no se incluye en la lista, puede <a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html"  >asignar el grupo de informes a una organización de Experience Cloud</a> mediante esta herramienta. </p> </td> 
+      <td colname="col2"> <p>La asignación de grupos de informes determina el grupo de informes que se enlaza a la cuenta de este motor de búsqueda. En otras palabras, determina a qué grupo(s) de informes se envían los datos del motor de búsqueda. </p> <p>Si su grupo de informes no se incluye en la lista, puede <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >asignar el grupo de informes a una organización de Experience Cloud</a> mediante esta herramienta. </p> </td> 
       </tr> 
     </tbody> 
     </table>
