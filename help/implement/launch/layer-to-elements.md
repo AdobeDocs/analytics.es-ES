@@ -2,11 +2,10 @@
 title: Asignación de objetos de capa de datos a elementos de datos
 description: Configure Launch para que se lea desde la capa de datos.
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +19,7 @@ Una vez que la organización haya establecido e implementado una capa de datos e
 
 ## Uso de Adobe Experience Platform Launch para crear elementos de datos
 
-[Los elementos de datos](https://docs.adobe.com/content/help/es-ES/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) son componentes de Launch que se pueden usar en toda la herramienta. Puede asignar valores de variables en la extensión de Adobe Analytics mediante elementos de datos.
+[Los elementos de datos](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) son componentes de Launch que se pueden usar en toda la herramienta. Puede asignar valores de variables en la extensión de Adobe Analytics mediante elementos de datos.
 
 1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
 1. Haga clic en la propiedad de Launch.
