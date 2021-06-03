@@ -6,11 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1370'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1366'
+ht-degree: 98%
 
 ---
 
@@ -30,11 +29,11 @@ La lista de proyectos de Workspace contiene la siguiente información:
 |---|---|
 | [Crear nuevo proyecto](/help/analyze/analysis-workspace/home.md) | Haga clic en este vínculo para iniciar un nuevo proyecto desde cero o desde una [plantilla](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#analysis-workspace) creada automáticamente. |
 | Administrar proyectos | Al hacer clic en este vínculo, accederá al administrador de componentes de proyectos (**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Proyectos]**), que muestra todos sus proyectos y le permite etiquetar, compartir, eliminar, cambiar el nombre, aprobar, copiar y exportar proyectos a CSV. |
-| Establecer como página de aterrizaje | Convierte esta página en su página de aterrizaje de Workspace. |
-| [Ver tutoriales](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | Le permite acceder a los tutoriales en vídeo de Analysis Workspace. |
+| Definir como página principal | Convierte esta página en su página de aterrizaje de Workspace. |
+| [Ver tutoriales](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | Le permite acceder a los tutoriales en vídeo de Analysis Workspace. |
 | Nombre | Nombre del proyecto de Workspace. |
 | Propietario | Persona que ha creado el proyecto (usted mismo o alguien que haya compartido su proyecto). |
-| Tipo | Indica si se trata de un proyecto de Workspace o de un cuadro de mandos [móvil](https://docs.adobe.com/content/help/es-ES/analytics/analyze/mobapp/home.html). |
+| Tipo | Indica si se trata de un proyecto de Workspace o de un cuadro de mandos [móvil](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html). |
 | [Función del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) | Indica la función en el proyecto: propietarios, edición, duplicado o vista. |
 | Etiquetas | Etiquetas aplicadas al proyecto. |
 | Última modificación | Fecha y hora de última modificación del proyecto. |
@@ -78,7 +77,7 @@ La configuración incluye lo siguiente:
 
 ## Carril izquierdo {#left-rail}
 
-En un proyecto, se accede a [paneles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es), tablas, [visualizaciones](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=es) y [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=es) desde el carril izquierdo. Estos son los componentes básicos del proyecto.
+En un proyecto, se accede a [paneles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es), tablas, [visualizaciones](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=es) y [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) desde el carril izquierdo. Estos son los componentes básicos del proyecto.
 
 También puede acceder a las visualizaciones y los paneles desde el [Panel en blanco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=es).
 
@@ -92,7 +91,7 @@ En el lienzo del proyecto se reúnen los paneles, las tablas, las visualizacione
 
 Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, grupos de informes o casos de uso de análisis. El panel principal tiene un borde azul alrededor y determina qué componentes están disponibles en el carril izquierdo.
 
-Según el punto de partida que haya elegido para sus proyectos, tendrá una [tabla de forma libre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=es) o un [panel en blanco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=es) en el lienzo para empezar. La forma más rápida de empezar a analizar es seleccionar uno o varios componentes y simplemente arrastrarlos y soltarlos en el lienzo del proyecto. Automáticamente, se mostrará una tabla de datos. [Obtenga más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=es) acerca de las diferentes opciones para crear una tabla o aproveche nuestros [tutoriales de aprendizaje](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es#training-tutorial) para obtener más información acerca de cómo crear su primer proyecto.
+Según el punto de partida que haya elegido para sus proyectos, tendrá una [tabla de forma libre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=es) o un [panel en blanco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) en el lienzo para empezar. La forma más rápida de empezar a analizar es seleccionar uno o varios componentes y simplemente arrastrarlos y soltarlos en el lienzo del proyecto. Automáticamente, se mostrará una tabla de datos. [Obtenga más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) acerca de las diferentes opciones para crear una tabla o aproveche nuestros [tutoriales de aprendizaje](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es#training-tutorial) para obtener más información acerca de cómo crear su primer proyecto.
 
 ![](assets/canvas.png)
 
@@ -108,9 +107,9 @@ Las siguientes acciones comunes del administrador de proyectos se pueden llevar 
 
 | Acción | Descripción |
 |---|---|
-| Agregue | Cree un nuevo proyecto desde cero o comience desde una [plantilla](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es). |
+| Agregue | Cree un nuevo proyecto desde cero o comience desde una [plantilla](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). |
 | Etiquetar o Aprobar | Elija Etiquetar o Aprobar para organizar proyectos y facilitar su búsqueda. |
-| [Compartir](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) | Hace que este proyecto esté disponible para otros usuarios de Analysis Workspace de su organización. |
+| [Compartir](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Hace que este proyecto esté disponible para otros usuarios de Analysis Workspace de su organización. |
 | Eliminar | Elimine el proyecto. |
 | Cambiar nombre | Edite el nombre del proyecto. |
 | Copy | Cree un duplicado del proyecto. Esto crea un nuevo proyecto y un ID de proyecto. No se copiará ningún recurso compartido o programación vinculados al proyecto original. |
