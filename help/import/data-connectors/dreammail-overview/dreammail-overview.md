@@ -2,20 +2,19 @@
 description: Esta integración de correo electrónico de Adobe® Data Connectors™ combina la información de comportamiento de Analytics® con el marketing por correo electrónico para crear una herramienta potente para redefinir la medición de éxito y las audiencias de destino con mensajes más relevantes.
 title: Data Connectors de DreamMail para Adobe Analytics
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: a37bf616-0f2a-4009-825f-92c30e79336f
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 98%
+source-wordcount: '803'
+ht-degree: 97%
 
 ---
-
 
 # Data Connectors de DreamMail para Adobe Analytics {#dreammail-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->El 1 de agosto de 2021 terminaremos de usar la tecnología del conector de datos de Adobe. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
+>El 1 de agosto de 2021 finalizaremos la vida útil de la tecnología del conector de datos de Adobe. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
 
 Esta integración de correo electrónico de Adobe® Data Connectors™ combina la información de comportamiento de Analytics® con el marketing por correo electrónico para crear una herramienta potente para redefinir la medición de éxito y las audiencias de destino con mensajes más relevantes.
 
@@ -55,7 +54,7 @@ Antes de iniciar la integración de Data Connectors para , complete los siguient
 * **Seguimiento externo:** si actualmente no realiza las prácticas recomendadas de habilitar el seguimiento externo para cada campaña de correo electrónico que envía, debe hacerlo para garantizar una integración sin problemas. Consulte la sección [!DNL ~Partner~] más abajo para obtener más información.
 * **Respeto de la privacidad:** debe comprender que, al habilitar el seguimiento de ID de visitante o destinatario, esta función puede rastrear información personal de los visitantes del sitio. Esto tiene implicaciones para la privacidad que requieren la implementación de los procedimientos apropiados por parte de su organización, como por ejemplo, notificar a los visitantes del sitio y obtener su consentimiento.
 
-## Precio {#pricing}
+## Precio{#pricing}
 
 Tenga en cuenta que la activación de esta integración puede provocar que su empresa incurra en gastos de acuerdo con el contrato de servicio con Adobe, Inc. o con el contrato de servicio con uno de los socios de confianza de Adobe, según corresponda.
 
@@ -73,4 +72,4 @@ Esta integración podría incluir cobros periódicos y de implementación. Póng
 
 Esta integración requiere variables de Analytics para realizar un seguimiento de las métricas.
 
-Después de identificar el evento y las eVars que se van a usar con esta integración, deben habilitarse en la Admin Console de Analytics (para obtener instrucciones, consulte [Grupos de informes](https://docs.adobe.com/content/help/es-ES/analytics/admin/manage-report-suites/report-suites-admin.html)).
+Después de identificar el evento y las eVars que se van a usar con esta integración, deben habilitarse en la Admin Console de Analytics (para obtener instrucciones, consulte [Grupos de informes](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html)).
