@@ -3,11 +3,10 @@ description: El Creador de métricas calculadas proporciona un lienzo en el que 
 title: Crear métricas
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '968'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '964'
+ht-degree: 98%
 
 ---
 
@@ -88,7 +87,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Compatibilidad del producto </span> </td> 
-   <td colname="col3"> <p>La compatibilidad del producto le muestra si la métrica es compatible con los <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/reports-analytics/current-data.html"  >Datos actuales</a>, con los Datos completamente procesados o solo con los informes del Canal de marketing (asignación de primer contacto). <p>Nota: Datos actuales no es compatible con todas las métricas. Las métricas que contienen segmentos o funciones no son compatibles con los datos actuales. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Más... </a> </p> </p> </td> 
+   <td colname="col3"> <p>La compatibilidad del producto le muestra si la métrica es compatible con los <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  >Datos actuales</a>, con los Datos completamente procesados o solo con los informes del Canal de marketing (asignación de primer contacto). <p>Nota: Datos actuales no es compatible con todas las métricas. Las métricas que contienen segmentos o funciones no son compatibles con los datos actuales. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Más... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Agregue </span> </td> 
@@ -131,7 +130,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lista de segmentos </p> </td> 
-   <td colname="col3"> <p>(Solo métricas calculadas avanzadas) Como administrador, en esta lista se muestran todos los segmentos creados en su empresa de inicio de sesión. Si es un usuario no administrador, en esta lista se muestran los segmentos que le pertenecen y los que han compartido con usted. <a href="https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/segment-reference/seg-rights.html"  > Más... </a> </p> </td> 
+   <td colname="col3"> <p>(Solo métricas calculadas avanzadas) Como administrador, en esta lista se muestran todos los segmentos creados en su empresa de inicio de sesión. Si es un usuario no administrador, en esta lista se muestran los segmentos que le pertenecen y los que han compartido con usted. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > Más... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lista de funciones </p> </td> 
