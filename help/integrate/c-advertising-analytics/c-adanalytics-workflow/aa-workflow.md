@@ -2,11 +2,10 @@
 description: Descripción general del flujo de trabajo de Advertising Analytics.
 title: Resumen del flujo de trabajo
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '164'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 95%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 ![](assets/step1_icon.png) Asigne a su organización de Experience Cloud cualquier grupo de informes de Adobe Analytics donde quiera ver datos de búsqueda de Google/Bing.
 
-Consulte [Asignación de grupos de informes a una organización](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html).
+Consulte [Asignación de grupos de informes a una organización](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 
 ![](assets/step2_icon.png) [Activación de los informes de Advertising Analytics por grupo de informes](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
