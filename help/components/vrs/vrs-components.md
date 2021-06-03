@@ -3,11 +3,10 @@ description: Los grupos de informes virtuales se pueden revisar para que incluya
 title: Revisión de componentes de grupo de informes virtuales
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '419'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 98%
 
 ---
 
@@ -72,4 +71,4 @@ Use grupos de componentes para realizar agregaciones masivas de componentes a su
 
 ## Comportamiento de Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Para obtener más información sobre la organización en Analysis Workspace, consulte [Organizar y compartir un proyecto](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/curate.html).
+Para obtener más información sobre la organización en Analysis Workspace, consulte [Organizar y compartir un proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
