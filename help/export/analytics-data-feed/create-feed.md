@@ -2,10 +2,10 @@
 title: Creación o edición de una fuente de datos
 description: Obtenga información sobre cómo crear o editar una fuente de datos.
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
+source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 91%
+source-wordcount: '948'
+ht-degree: 82%
 
 ---
 
@@ -43,9 +43,19 @@ La compatibilidad con SFTP para fuentes de datos está disponible. Se necesita u
 
 ### S3
 
-Puede enviar fuentes directamente a los bloques de Amazon S3. Requiere un nombre de bloque, un ID de clave de acceso y una clave secreta. Consulte los [requisitos de nomenclatura de bloque de Amazon S3](https://docs.aws.amazon.com/es_es/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) en los documentos de Amazon S3 para obtener más información.
+Puede enviar fuentes directamente a los bloques de Amazon S3. Este tipo de destino requiere un nombre de bloque, un ID de clave de acceso y una clave secreta. Consulte los [requisitos de nomenclatura de bloque de Amazon S3](https://docs.aws.amazon.com/es_es/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) en los documentos de Amazon S3 para obtener más información.
 
 ![Información de S3](assets/dest-s3.jpg)
+
+El usuario que proporcione para cargar fuentes de datos debe tener los siguientes [permisos](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+   >[!NOTE]
+   >
+   >Para cada carga en un bloque de Amazon S3, [!DNL Analytics] agrega el propietario del bloque a la ACL BucketOwnerFullControl, independientemente de si el bloque tiene o no una directiva que la requiera. Para obtener más información, consulte &quot;[¿Cuál es la configuración de BucketOwnerFullControl para las fuentes de datos de Amazon S3?](df-faq.md#BucketOwnerFullControl)&quot;
 
 Se admiten las 16 regiones de AWS estándar siguientes (utilizando el algoritmo de firma adecuado cuando sea necesario):
 
