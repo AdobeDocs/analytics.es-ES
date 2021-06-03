@@ -5,11 +5,10 @@ uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
 feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +25,7 @@ Las dimensiones de partición de tiempo se basan en el huso horario del grupo de
 
 >[!NOTE]
 >
->Las dimensiones de partición de tiempo solo están disponibles en Analysis Workspace. Para utilizar dimensiones de partición de tiempo en otras soluciones de Analytics, puede implementar el [complemento getTimeParting](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/plugins/gettimeparting.html).
+>Las dimensiones de partición de tiempo solo están disponibles en Analysis Workspace. Para utilizar dimensiones de partición de tiempo en otras soluciones de Analytics, puede implementar el [complemento getTimeParting](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html).
 
 Las dimensiones de partición de tiempo en Analysis Workspace incluyen:
 
