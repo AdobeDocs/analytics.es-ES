@@ -5,11 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizaciones
 role: Business Practitioner, Administrator
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +45,7 @@ Haga clic en el icono de engranaje de **Configuración de la visualización** si
 
 ## Visualización Cambio de resumen {#summary-change}
 
-Utilice la visualización Cambio de resumen para mostrar el delta (cambio) entre dos números. El color verde y rojo del Cambio de resumen se puede controlar mediante la [polaridad de evento personalizado](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/success-events/success-event.html) o mediante la opción [Mostrar tendencia ascendente como](https://docs.adobe.com/content/help/es-ES/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) de una métrica calculada.
+Utilice la visualización Cambio de resumen para mostrar el delta (cambio) entre dos números. El color verde y rojo del Cambio de resumen se puede controlar mediante la [polaridad de evento personalizado](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) o mediante la opción [Mostrar tendencia ascendente como](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) de una métrica calculada.
 
 Esta visualización se comporta de las siguientes maneras:
 
