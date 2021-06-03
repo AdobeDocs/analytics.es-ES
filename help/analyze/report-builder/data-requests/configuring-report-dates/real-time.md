@@ -4,14 +4,13 @@ title: Informes en tiempo real
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 95%
+source-wordcount: '261'
+ht-degree: 94%
 
 ---
-
 
 # Informes en tiempo real
 
@@ -26,8 +25,8 @@ Puede:
 * Utilice cualquier evento personalizado, evento del carro de compras o instancia.
 * Vea hasta 20 horas de datos en tiempo real históricos.
 
-Permisos de respetos en tiempo real para usuarios y grupos Por ejemplo, si no dispone de os derechos para ver los ingresos, no podrá ver el informe en tiempo real que incluye los datos de ingresos. No compatible con eVars (métricas de conversión). Los permisos en tiempo real se activan en [Herramientas de administración](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
+Permisos de respetos en tiempo real para usuarios y grupos Por ejemplo, si no dispone de os derechos para ver los ingresos, no podrá ver el informe en tiempo real que incluye los datos de ingresos. No compatible con eVars (métricas de conversión). Los permisos en tiempo real se activan en [Herramientas de administración](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
 
 >[!NOTE]
 >
->[!UICONTROL Los informes en tiempo real] no son lo mismo que la función [Incluir datos actuales](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) (Actualización de los datos) lanzada previamente, la cual reducía la latencia de los informes estándar al mostrar los datos antes de que finalizara.
+>[!UICONTROL Los informes en tiempo real] no son lo mismo que la función [Incluir datos actuales](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Actualización de los datos) lanzada previamente, la cual reducía la latencia de los informes estándar al mostrar los datos antes de que finalizara.
