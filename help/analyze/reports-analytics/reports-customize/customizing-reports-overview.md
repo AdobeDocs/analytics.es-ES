@@ -5,11 +5,10 @@ uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Conceptos básicos de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 99%
+source-wordcount: '924'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +38,7 @@ Solo los administradores pueden crear un informe personalizado. Cuando crea un i
 
 >[!MORELIKETHIS]
 >
->* [Personalización de menús](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/customize-menus.html)
+>* [Personalización de menús](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## Seleccionar una fecha o un intervalo de fecha {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -87,7 +86,7 @@ No puede comparar las fechas entre los informes de tendencia.
 
 >[!NOTE]
 >
->Si desea llevar a cabo una comparación por fechas en métricas clave en un panel, puede extraer los datos en el [Report Builder](https://docs.adobe.com/content/help/es-ES/analytics/analyze/report-builder/home.translate.html) mediante dos solicitudes independientes. A continuación, puede usar fórmulas personalizadas en Excel para analizar la diferencia entre ambos.
+>Si desea llevar a cabo una comparación por fechas en métricas clave en un panel, puede extraer los datos en el [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) mediante dos solicitudes independientes. A continuación, puede usar fórmulas personalizadas en Excel para analizar la diferencia entre ambos.
 
 Para comparar fechas entre informes de clasificación en Reports &amp; Analytics:
 
@@ -210,7 +209,7 @@ Esta función se aplica solamente a los informes de tendencia filtrados con un i
 1. Ejecute un informe de tendencias en un intervalo de fechas específico.
 1. Haga clic en el vínculo **[!UICONTROL Día de la semana]** y, a continuación, haga clic en un día.
 
-## Botón “Probar en el espacio de trabajo” {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
+## Botón “Probar en el espacio de trabajo”  {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
 Al hacer clic en el botón **[!UICONTROL Probar en el espacio de trabajo]** situado en la parte superior de un informe, el mismo informe se cargará en Analysis Workspace.
 
@@ -224,4 +223,4 @@ Ahora, la mayoría de los informes de Reports &amp; Analytics incluyen un botón
 
 Actualmente, el botón solo está disponible si su nombre de usuario dispone de derechos completos con respecto a Analysis Workspace.
 
-Si desea obtener más información sobre cómo puede personalizar su informe, consulte la guía de [Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html).
+Si desea obtener más información sobre cómo puede personalizar su informe, consulte la guía de [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html).
