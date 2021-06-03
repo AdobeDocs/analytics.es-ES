@@ -5,11 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizaciones
 role: Business Practitioner, Administrator
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '212'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +26,7 @@ Le permite:
 >
 >Para obtener información sobre cómo pueden diferir los resultados de aplicar segmentos a Flujo entre Analysis Workspace y Reports &amp; Analytics, consulte [Segmentación como base para Flujo y Visitas en orden previsto](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Tutorial de vídeo de visualización de flujo](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) (4:56)
+[Tutorial de vídeo de visualización de flujo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) (4:56)
 
 ## Flujos interdimensionales {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
