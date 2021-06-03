@@ -2,11 +2,10 @@
 title: Solución de problemas de implementación de JavaScript
 description: Obtenga más información sobre problemas comunes y prácticas recomendadas para solucionar problemas de la implementación de JavaScript.
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '694'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +85,7 @@ Estos dos valores de variable se consideran independientes en Adobe Analytics. S
 
 Las implementaciones que rellenan muchas variables con valores largos a veces se pueden ejecutar en solicitudes de imagen truncadas. Algunos exploradores más antiguos, como Internet Explorer, imponen un límite de 2083 caracteres en las direcciones URL de solicitudes de imágenes. Si su organización se enfrenta a solicitudes de imagen muy largas, intente lo siguiente:
 
-* **Utilice el servicio de Experience Cloud ID**: Las bibliotecas de AppMeasurement 1.4.1 y posteriores envían automáticamente solicitudes de imagen mediante el POST HTTP si son demasiado largas. Los datos enviados mediante este método no se truncan independientemente de la longitud. Consulte [Servicio de Adobe Experience Cloud ID](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) para obtener más información.
+* **Utilice el servicio de Experience Cloud ID**: Las bibliotecas de AppMeasurement 1.4.1 y posteriores envían automáticamente solicitudes de imagen mediante el POST HTTP si son demasiado largas. Los datos enviados mediante este método no se truncan independientemente de la longitud. Consulte [Servicio de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html) para obtener más información.
 * **Usar reglas de procesamiento**: Las [reglas de procesamiento](/help/admin/admin/c-processing-rules/processing-rules.md) pueden copiar valores de una variable a otra. Este método evita que se establezca el mismo valor en varias variables. Por ejemplo:
 
    Ejecute siempre:<br>
