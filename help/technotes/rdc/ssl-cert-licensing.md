@@ -2,19 +2,18 @@
 title: Licencias de certificados SSL
 description: Procedimientos de certificados para los certificados administrados por el cliente
 exl-id: 7d1373c8-6f7b-4ce7-a555-d3d506e08d17
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '260'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 94%
 
 ---
 
 # Licencias de certificados SSL/TLS
 
-Adobe recomienda administrar el certificado sin ningún coste adicional a través del [programa de certificados administrados de Adobe](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-first-party.html). El programa de certificados administrados de Adobe está completamente automatizado y garantiza que los certificados se renueven a tiempo. De este modo, se evitan consecuencias derivadas de la presencia de certificados caducados.
+Adobe recomienda administrar el certificado sin ningún coste adicional a través del [programa de certificados administrados de Adobe](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html). El programa de certificados administrados de Adobe está completamente automatizado y garantiza que los certificados se renueven a tiempo. De este modo, se evitan consecuencias derivadas de la presencia de certificados caducados.
 
-Si elige no utilizar el [programa de certificados administrados de Adobe](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-first-party.html), es responsabilidad suya proporcionar el certificado SSL/TLS que se vaya a usar con las cookies de origen.
+Si elige no utilizar el [programa de certificados administrados de Adobe](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html), es responsabilidad suya proporcionar el certificado SSL/TLS que se vaya a usar con las cookies de origen.
 
 Si proporciona su propio certificado, es su responsabilidad adquirirlo y mantenerlo.  El certificado SSL/TLS debe incluir una licencia de servidor ilimitada.
 
