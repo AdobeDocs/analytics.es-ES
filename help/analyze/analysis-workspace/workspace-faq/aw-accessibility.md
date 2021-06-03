@@ -4,10 +4,9 @@ title: Accesibilidad en Analysis Workspace
 feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '663'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '657'
 ht-degree: 100%
 
 ---
@@ -50,7 +49,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 
 ### Métodos abreviados de teclado (teclas de acceso directo)
 
-[!UICONTROL Analysis Workspace] ofrece un completo conjunto de [métodos abreviados de teclado](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) para lograr un flujo de trabajo más fluido. A continuación se enumeran algunos métodos abreviados comunes para la navegación, la creación de análisis y la democratización de los datos.
+[!UICONTROL Analysis Workspace] ofrece un completo conjunto de [métodos abreviados de teclado](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=es) para lograr un flujo de trabajo más fluido. A continuación se enumeran algunos métodos abreviados comunes para la navegación, la creación de análisis y la democratización de los datos.
 
 #### Navegación
 
@@ -71,7 +70,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 | Ctrl + Mayús + D | Nuevo intervalo de fechas |
 | Ctrl + Mayús + E | Nuevo segmento |
 | Ctrl + Z | Deshacer |
-| Mantenga pulsada la tecla Mayús (en la zona desplegable de segmentos del panel) | Cree un [filtro desplegable](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
+| Mantenga pulsada la tecla Mayús (en la zona desplegable de segmentos del panel) | Cree un [filtro desplegable](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) |
 
 #### Democratización
 
@@ -92,7 +91,7 @@ Un lector de pantalla lee el texto que aparece en la pantalla del equipo. Tambi�
 
 [!UICONTROL Analysis Workspace] se esfuerza por lograr la conformidad con WCAG 2.1 AA, incluyendo sus requisitos para el contraste de color.
 
-Además, los usuarios pueden establecer su propia paleta de colores preferida para un proyecto en **[!UICONTROL Proyecto]** > **[!UICONTROL Ajustes del proyecto]** > [Paleta de color del proyecto](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html).
+Además, los usuarios pueden establecer su propia paleta de colores preferida para un proyecto en **[!UICONTROL Proyecto]** > **[!UICONTROL Ajustes del proyecto]** > [Paleta de color del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=es).
 
 ## Validación de campo requerida en los generadores de componentes
 
