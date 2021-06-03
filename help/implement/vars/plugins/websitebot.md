@@ -2,10 +2,10 @@
 title: websiteBot
 description: Identifique de forma dinámica los bots moviendo el ratón.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: c4b44b573732e7bcdafdac539dec8ee7b680aa92
+source-git-commit: 03584622a570281474d6f6e0a580d453b8ad8fec
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 73%
+source-wordcount: '427'
+ht-degree: 53%
 
 ---
 
@@ -19,16 +19,19 @@ El plug-in `websiteBot` permite identificar de forma dinámica si los visitantes
 
 Este plug-in realiza dos comprobaciones:
 
-* En primer lugar, determina si el dispositivo es de escritorio o de dispositivo móvil mediante la variable `navigator.UserAgent`. Los dispositivos móviles se ignoran.
-* Si es un dispositivo de escritorio, agrega un detector de evento para el movimiento del ratón.
+* En primer lugar, en el caso de un dispositivo de escritorio, añade un detector de eventos para el movimiento del ratón.
+* A continuación, determina si el dispositivo es de escritorio o móvil usando la variable `navigator.UserAgent`. Los dispositivos móviles se ignoran.
 
-Si el agente de usuario está en un escritorio y no se detecta ningún movimiento de ratón, el plug-in establece la variable `websiteBot` en `true`. Si el agente de usuario es un dispositivo móvil, o si se detecta movimiento de ratón, el plug-in establece la variable `websiteBot` en `false`.
+Si el agente de usuario está en un escritorio y no se detecta ningún movimiento del ratón, el complemento puede
+
+* Realice una llamada de regla [!UICONTROL Direct Call] (para Adobe Experience Platform Launch) o
+* realice una llamada `s.tl` para indicar que el visitante no es un bot.
 
 ## Requisitos previos
 
 Adobe recomienda lo siguiente antes de utilizar este plug-in:
 
-* **Configuración de eVar**: configure un eVar en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes. Establezca la caducidad en **Never** y la asignación en **&quot;Valor original (primero)&quot;**.
+* **Configuración de eVar**: configure un eVar en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes. Establezca la caducidad en **Never** y la asignación en **&quot;Valor original (primero)&quot;**. Este eVar debe establecerse en ambas circunstancias: cuando se activa la regla [!UICONTROL Direct Call] o la llamada `s.tl` .
 * **Recopilar agente de usuario en una variable independiente**: recopile la cadena del agente de usuario en una variable independiente para supervisar la eficacia de este plug-in. Establezca un eVar en `navigator.UserAgent` en cada visita para recopilar estos datos.
 
 ## Instalación del complemento con el editor de código personalizado de Launch
