@@ -5,11 +5,10 @@ title: Uso de la integración
 feature: Data Connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 exl-id: 11fc6382-da83-4320-9f2f-bf6ca096f0ae
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +22,7 @@ Una vez implementada, puede empezar a utilizar las funciones adicionales que ofr
 
 Las siguientes son acciones que se deben realizar para aprovechar esta integración desde Adobe Analytics.
 
-1. Cree un segmento mediante los datos de respuesta a la encuesta (consulte [Creación de un segmento](https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/seg-home.html)).
+1. Cree un segmento mediante los datos de respuesta a la encuesta (consulte [Creación de un segmento](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)).
 1. Aplique el segmento a los informes clave.
 
 ## Ejemplo {#section-07051d0d60a44408a4e108034586c42f}
