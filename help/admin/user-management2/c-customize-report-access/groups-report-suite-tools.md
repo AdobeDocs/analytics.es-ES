@@ -6,10 +6,10 @@ title: Personalizar herramientas de grupos de informes
 feature: Herramientas de administración
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 92%
+source-wordcount: '1143'
+ht-degree: 85%
 
 ---
 
@@ -45,26 +45,26 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | [Resumen de la cuenta](/help/admin/admin/general-acct-settings-admin.md) | Concede permiso para editar configuración de la cuenta para un grupo de informes. |
 | [Filtros de dirección URL](/help/admin/admin/internal-url-filter-admin.md) | Concede permiso para acceder a los filtros de URL internos en los grupos de informes. Los filtros de URL internos se utilizan para determinar qué referentes (o páginas de referentes) son internos del sitio. |
 | [Calendario personalizado](/help/admin/admin/custom-calendar.md) | Otorga permiso para editar el calendario personalizado. |
-| [Búsqueda de pago](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) | La detección de búsqueda de pago diferencia entre búsquedas pagadas y naturales en los informes Motores de búsqueda y Palabras clave de búsqueda. |
+| [Búsqueda de pago](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) | La detección de búsqueda de pago diferencia entre búsquedas pagadas y naturales en los informes Motores de búsqueda y Palabras clave de búsqueda. |
 | [Personalización de menús](/help/admin/admin/customize-menus.md) | Personalice los menús de los informes que ve un usuario en Reports &amp; Analytics. |
 | [Configuración de informes en tiempo real](/help/admin/admin/realtime/t-realtime-admin.md) | Permisos para configurar análisis de informes en tiempo real. |
 | [Configuración de vídeo](/help/admin/admin/video-management.md) | Permisos para designar un conjunto de variables de conversión personalizadas (eVars) y de eventos personalizados para utilizarlos para hacer rastreos y generar informes en vídeo. |
-| [Clasificaciones de vídeo](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html) | Permiso para designar un conjunto de variables de conversión personalizadas (eVars) y de eventos personalizados para utilizarlos para hacer rastreos y generar informes en vídeo. |
+| [Clasificaciones de vídeo](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.translate.html) | Permiso para designar un conjunto de variables de conversión personalizadas (eVars) y de eventos personalizados para utilizarlos para hacer rastreos y generar informes en vídeo. |
 | [Variables de tráfico](/help/admin/admin/c-traffic-variables/traffic-var.md) | Permiso para correlacionar datos personalizados con eventos concretos relacionados con el tráfico. |
 | [Clasificaciones de tráfico](/help/admin/admin/c-traffic-variables/traffic-classifications.md) | Consolidado en clasificaciones (en Herramientas e informes). |
 | [Canales](/help/components/c-marketing-channels/analyze-mc.md) | Otorga permiso para acceder a las opciones de Canales de marketing en Administrador del grupo de informes > Editar configuración > Canales de marketing. |
-| [Costos](https://docs.adobe.com/content/help/es-ES/analytics/components/marketing-channels/analyze-mc.html) | Habilita el permiso para acceder a Canales de marketing > Costos de canal de mercadotecnia, en el Administrador de grupos de informes. |
-| [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) | La variable de conversión de perspectiva personalizada (o eVar) se coloca en el código de Adobe en las páginas web del sitio seleccionadas. Su principal función es segmentar las métricas de éxito de conversión en los informes de marketing personalizados. |
+| [Costos](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html) | Habilita el permiso para acceder a Canales de marketing > Costos de canal de mercadotecnia, en el Administrador de grupos de informes. |
+| [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) | La variable de conversión de Custom Insight (o eVar) se coloca en el código de Adobe en las páginas web del sitio seleccionadas. Su principal función es segmentar las métricas de éxito de conversión en los informes de marketing personalizados. |
 | [Métodos de búsqueda](/help/admin/admin/finding-methods.md) | Le permite identificar cómo reciben crédito distintos informes de métodos de búsqueda para los eventos de éxito de conversión en el sitio. |
 | [Clasificaciones de conversión](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | Consolidado en clasificaciones (en Herramientas e informes). |
-| [Visitante único](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | Otorga permiso para especificar la variable única de visitante. |
-| [Eventos de éxito](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) | Acciones que se pueden rastrear, como visualizaciones de productos, cierres de compra y adquisiciones. |
+| [Visitante único](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | Otorga permiso para especificar la variable única de visitante. |
+| [Eventos de éxito](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) | Acciones que se pueden rastrear, como visualizaciones de productos, cierres de compra y adquisiciones. |
 | [Jerarquías de clasificación](/help/admin/admin/conversion-var-admin/classification-hierarchies.md) | Consolidado en clasificaciones (en Herramientas e informes). |
-| [Variables de lista ](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/page-variables.html) | También se conoce como List Var. Similar a cómo funcionan las props de lista, las variables de lista permiten incluir varios valores dentro de la misma solicitud de imagen. |
+| [Variables de lista ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) | También se conoce como List Var. Similar a cómo funcionan las props de lista, las variables de lista permiten incluir varios valores dentro de la misma solicitud de imagen. |
 | [Medidas predeterminadas](/help/admin/admin/default-metrics.md) | Reports &amp; Analytics muestra un conjunto predeterminado de métricas en todos los informes de conversión, a menos que algún usuario seleccione un conjunto personalizado de métricas. Las medidas seleccionadas se muestran a todos los usuarios del grupo de informes asociado. |
-| [Reglas de procesamiento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) | Concede acceso a las reglas de procesamiento, lo que simplifica la recopilación de datos y gestiona el contenido al enviarlo a los informes. |
+| [Reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) | Concede acceso a las reglas de procesamiento, lo que simplifica la recopilación de datos y gestiona el contenido al enviarlo a los informes. |
 | **Herramientas e informes** |  |
-| [Detección de anomalías](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | Concede permiso para acceder a Detección de anomalías, que constituye un método estadístico para determinar el cambio experimentado en una métrica determinada respecto a los datos anteriores. |
+| [Detección de anomalías](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | Concede permiso para acceder a Detección de anomalías, que constituye un método estadístico para determinar el cambio experimentado en una métrica determinada respecto a los datos anteriores. |
 | [Informe de canal](/help/components/c-marketing-channels/analyze-mc.md) | Concede permiso para informes Canal de marketing, los cuales se encuentran en Informes > Informes de canal de marketing. |
 | [Informe en tiempo real](/help/admin/admin/realtime/t-realtime-admin.md) | Otorga acceso al informe en tiempo real. |
 | [Páginas de bots](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Las páginas de bots están destinadas a informes y análisis específicos, no a la administración de reglas de bots. Actualmente, no hay permisos para permitir la edición de reglas de bots.** Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
@@ -76,11 +76,11 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | ClickMap heredado | Otorga acceso al menú para la herramienta de superposición heredada ClickMap. |
 | Instalación heredada de ClickMap | Otorga derechos de instalación para la herramienta heredada de ClickMap. |
 | Visitas de retorno | Informe que muestra el número de visitas en las que el número de visitas es mayor que 1. El informe de visitas de retorno incluye visitantes sin cookies. |
-| [Importador/Exportador de clasificaciones](https://docs.adobe.com/content/help/es-ES/analytics/components/classifications/classifications-importer/c-working-with-saint.html) y [Generador de reglas](https://docs.adobe.com/content/help/es-ES/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Consolidado en clasificaciones (ver más adelante). |
+| [Importador/Exportador de clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html) y [Generador de reglas](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Consolidado en clasificaciones (ver más adelante). |
 | Administrador de fuentes de datos | Concede derechos a la Fuente de datos de Analytics. |
 | Clasificaciones | Combina los siguientes permisos: “Clasificaciones de tráfico”, “Clasificaciones de vídeo”, “Clasificaciones de conversión”, “Jerarquías de clasificación”, “Administrador de clasificaciones” e “Importador/Exportador de clasificaciones y Generador de reglas”.  Nota: Con este permiso, los usuarios pueden editar las clasificaciones de todos los grupos de informes, no solo los seleccionados. |
-| [Análisis de contribución](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | Concede permisos para utilizar los análisis de contribución en Analysis Workspace. |
+| [Análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | Concede permisos para utilizar los análisis de contribución en Analysis Workspace. |
 | **Elementos de tablero** |  |
-| La configuración de Elementos de panel le permite acceder a [informes breves](https://docs.adobe.com/content/help/es-ES/analytics/admin/server-call-usage/server-call-usage-dashboard.html) en Reports &amp; Analytics:, Mis informes recomendados, Informe breve de resumen de la empresa, Imagen, Informe breve de KPI/medición, Totales de grupos de informes, Texto, Informe breve, Informe breve de resumen de uso y Recursos web |  |
+| La configuración de Elementos de panel le permite acceder a [informes breves](https://experienceleague.adobe.com/docs/analytics/admin/server-call-usage/server-call-usage-dashboard.html) en Reports &amp; Analytics:, Mis informes recomendados, Informe breve de resumen de la empresa, Imagen, Informe breve de KPI/medición, Totales de grupos de informes, Texto, Informe breve, Informe breve de resumen de uso y Recursos web |  |
 | **Otro** |  |
 | Social | Controla el acceso al menú Administración social en el Administrador de grupos de informes. |
