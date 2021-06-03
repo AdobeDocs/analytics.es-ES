@@ -4,10 +4,10 @@ title: Administrador de códigos
 feature: Herramientas de administración
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 95%
+source-wordcount: '139'
+ht-degree: 91%
 
 ---
 
@@ -25,5 +25,5 @@ Después de descargar la biblioteca, deberá configurar el código para enviar d
 |--- |--- |
 | [!UICONTROL Nombre] | El nombre coincide con la plataforma donde quiere habilitar la recopilación de datos. Las bibliotecas nativas se proporcionan para todas las plataformas que aparecen en esta columna. |
 | [!UICONTROL Tipo] | El tipo de aplicaciones que se pueden medir con esta biblioteca. |
-| [!UICONTROL Versión] | Muestra una lista de la última versión de la biblioteca. Haga clic en el número de versión para ver el [historial de versiones](https://docs.adobe.com/content/help/es-ES/analytics/implementation/appmeasurement-updates.html) |
+| [!UICONTROL Versión] | Muestra una lista de la última versión de la biblioteca. Haga clic en el número de versión para ver el [historial de versiones](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html) |
 | [!UICONTROL Documentación] | Vea la documentación de referencia de la biblioteca. |
