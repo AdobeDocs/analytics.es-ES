@@ -2,10 +2,10 @@
 description: Explica la nueva estrategia de lanzamiento continuo de funcionalidades para Adobe Analytics
 title: Versiones de funcionalidades de Adobe Analytics
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Con cada versión de la funcionalidad, los plazos desde la fase de producción h
 
 ## Indicadores de características
 
-Los indicadores de características se utilizan para controlar la visibilidad de las nuevas funciones durante el lanzamiento. Adobe recomienda añadir app.launchdarkly.com a la [lista de permitidos](https://docs.adobe.com/content/help/es-ES/analytics/technotes/ip-addresses.html) del cortafuegos para disfrutar de una experiencia óptima durante el lanzamiento. Poco después de que se llegue a GA, se elimina el indicador.
+Los indicadores de características se utilizan para controlar la visibilidad de las nuevas funciones durante el lanzamiento. Adobe recomienda añadir app.launchdarkly.com a la [lista de permitidos](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=es) del cortafuegos para disfrutar de una experiencia óptima durante el lanzamiento. Poco después de que se llegue a GA, se elimina el indicador.
 
 Puede realizar la vista de los indicadores de funciones activas en cualquier momento en **Ayuda > Acerca de Workspace > Indicadores** de funciones activas.
 
@@ -39,5 +39,5 @@ Las versiones por fases permiten a Adobe escalar mejor el proceso de implementac
 
 | Pregunta | Respuesta |
 |---|---|
-| ¿Puedo solicitar acceso anticipado a una funcionalidad? | No. No se puede solicitar el acceso anticipado.<br>Si desea probar las versiones iniciales de Analytics, le recomendamos que pruebe [Adobe Analytics Labs](https://docs.adobe.com/content/help/es-ES/analytics/analyze/tech-previews/overview.html) para proporcionar comentarios sobre las innovaciones líderes del sector. |
-| ¿Esta estrategia de lanzamiento afecta mi acceso a las funcionalidades? | No. Una vez que una funcionalidad haya llegado a su fase de disponibilidad general, tendrá acceso a ella si está incluida en su paquete de Analytics.<br>Puede ver los detalles del paquete de Analytics en  [!UICONTROL Administración]  >  [!UICONTROL Todos los administradores]  > Configuración de la  [!UICONTROL empresa]  > Niveles  [de acceso de las funciones](https://docs.adobe.com/content/help/es-ES/analytics/admin/company-settings/feature-access-levels.html). |
+| ¿Puedo solicitar acceso anticipado a una funcionalidad? | No. No se puede solicitar el acceso anticipado.<br>Si desea probar las versiones iniciales de Analytics, le recomendamos que pruebe [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html) para proporcionar comentarios sobre las innovaciones líderes del sector. |
+| ¿Esta estrategia de lanzamiento afecta mi acceso a las funcionalidades? | No. Una vez que una funcionalidad haya llegado a su fase de disponibilidad general, tendrá acceso a ella si está incluida en su paquete de Analytics.<br>Puede ver los detalles del paquete de Analytics en  [!UICONTROL Administración]  >  [!UICONTROL Todos los administradores]  > Configuración de la  [!UICONTROL empresa]  > Niveles  [de acceso de las funciones](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html). |
