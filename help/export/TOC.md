@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de exportación de Analytics
 breadcrumb-title: Guía de exportación
 user-guide-description: Utilice las fuentes de datos para recibir una exportación diaria o por hora de datos sin procesar. Utilice Data Warehouse para recuperar un extracto de datos en una hoja de cálculo.
-source-git-commit: 61f0327c8f443ffb2bc8845c0145c9c574e4e777
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 98%
+source-wordcount: '274'
+ht-degree: 96%
 
 ---
 
@@ -67,6 +67,6 @@ ht-degree: 98%
       + [Envío de datos de Adobe a una cuenta de FTP externa mediante un SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [Envío de solicitudes de Data Warehouse a los servidores SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Conectarse a Adobe a través de un SFTP sin contraseña](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Descargas de Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Descargas de Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es)
 + [API de Adobe Analytics](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://docs.adobe.com/content/help/es-ES/analytics/analyze/report-builder/home.html)
++ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)
