@@ -4,10 +4,9 @@ subtopic: Classifications
 title: Reglas de clasificación
 feature: Herramientas de administración
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
-source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2028'
 ht-degree: 97%
 
 ---
@@ -60,7 +59,7 @@ about_classification_rules.xml
 
 ## Información relevante sobre las reglas
 
-* Especifique [permisos del grupo](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-groups/groups.html) para clasificaciones en las [!UICONTROL Herramientas de administración].
+* Especifique [permisos del grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) para clasificaciones en las [!UICONTROL Herramientas de administración].
 
 * **Expresiones regulares**: La ayuda está disponible en [Expresiones regulares en Reglas de clasificación](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -208,7 +207,7 @@ En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muest
 | Expresión regular: Para la cadena de coincidencia a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
 | Expresión regular: Para la cadena de coincidencia a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
-## Expresiones regulares: ejemplo de &quot;No contiene&quot; {#section_FCA88A612A4E4B099458E3EF7B60B59C}
+## Expresiones regulares: ejemplo de &quot;No contiene&quot;  {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
 En este ejemplo se muestra una expresión regular que coincide con todas las cadenas que no contienen caracteres específicos (en este caso, `13`).
 
