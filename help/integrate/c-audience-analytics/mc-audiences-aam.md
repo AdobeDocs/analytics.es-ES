@@ -4,11 +4,10 @@ solution: Experience Cloud
 title: Resumen de Audience Analytics
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +17,7 @@ Adobe Audience Manager (AAM) es una potente plataforma de administración de dat
 
 Cuando se establece la integración de Audience Analytics, puede incorporar datos de audiencia de AAM, como información demográfica (p. ej., sexo o nivel de ingresos), información psicográfica (p. ej., intereses y aficiones), datos CRM y datos de impresiones de publicidad en cualquier flujo de trabajo de Analytics.
 
-## Ventajas principales {#section_94816D17283349E0BA28521BE55BB868}
+## Ventajas principales  {#section_94816D17283349E0BA28521BE55BB868}
 
 La integración de Audience Analytics ofrece las siguientes ventajas principales:
 
@@ -47,7 +46,7 @@ Asegúrese de que se cumplen los siguientes requisitos previos:
 * Es cliente tanto de Audience Manager como de Adobe Analytics.
 * Es administrador de Audience Manager.
 * Utiliza Identity Service 1.5 o posterior.
-* Los grupos de informes de Adobe Analytics y AAM se [asignan a la misma organización de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html).
-* Utiliza el [reenvío de lado del servidor](/help/admin/admin/c-server-side-forwarding/ssf.md) y tiene implementado el [módulo Gestión de público](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (sin código DIL): AppMeasurement 1.5 o posterior.
+* Los grupos de informes de Adobe Analytics y AAM se [asignan a la misma organización de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
+* Utiliza el [reenvío de lado del servidor](/help/admin/admin/c-server-side-forwarding/ssf.md) y tiene implementado el [módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (sin código DIL): AppMeasurement 1.5 o posterior.
 
 Estos requisitos previos se describen en el [flujo de trabajo de Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).
