@@ -6,10 +6,10 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Conceptos básicos de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 98%
+source-wordcount: '797'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Los tableros preexistentes actuales se seguirán ejecutando y aún podrá editar
 
 >[!NOTE]
 >
->Más adelante, considere la posibilidad de usar los [proyectos de Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html) y su capacidad para poder descargarlos y programarlos.
+>Más adelante, considere la posibilidad de usar los [proyectos de Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) y su capacidad para poder descargarlos y programarlos.
 
 Cuando copia el tablero preexistente, el sistema lo abre para editarlo y ahí puede añadir contenido preexistente o nuevo. Al copiar un tablero preexistente, el original se conserva en la lista de tableros preexistentes.
 
