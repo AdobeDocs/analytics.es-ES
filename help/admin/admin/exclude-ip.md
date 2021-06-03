@@ -2,10 +2,10 @@
 title: Excluir por dirección IP
 description: Impida que los datos generados por ciertas direcciones IP aparezcan en los informes.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 82%
+source-wordcount: '221'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,7 @@ Se pueden excluir datos de las direcciones IP específicas, por ejemplo, las act
 
 >[!NOTE]
 >
->Las visitas excluidas por dirección IP se facturan como [llamadas al servidor](https://docs.adobe.com/content/help/es-ES/analytics/technotes/terms.html).
+>Las visitas excluidas por dirección IP se facturan como [llamadas al servidor](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html).
 
 Pueden utilizarse indicadores comodín (*) para excluir un intervalo de direcciones. Por ejemplo, `[!DNL 0.0.*.0]` excluiría todas las direcciones IP entre `[!DNL 0.0.0.0]` y `[!DNL 0.0.255.0]`. Puede excluir hasta 50 direcciones IP diferentes.
 
