@@ -2,14 +2,13 @@
 description: Una lista exhaustiva con descripciones de las variables de configuración, los encabezados HTTP y las señales de datos en las llamadas de reenvío del lado del servidor.
 title: Referencia de datos y código del reenvío del lado del servidor
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 95%
 
 ---
-
 
 # Referencia de datos y código del reenvío del lado del servidor
 
@@ -17,7 +16,7 @@ Una lista exhaustiva con descripciones de las variables de configuración, los e
 
 ## Variables de configuración {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Los parámetros prefijados con `d_*` identifican pares clave-valor especiales del sistema que emplean nuestros [servidores de recopilación de datos](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). Consulte también [Atributos admitidos para llamadas a la API DCS](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Los parámetros prefijados con `d_*` identifican pares clave-valor especiales del sistema que emplean nuestros [servidores de recopilación de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). Consulte también [Atributos admitidos para llamadas a la API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Parámetro | Descripción |
 |--- |--- |
@@ -43,7 +42,7 @@ Estos encabezados son campos que contienen información como solicitudes de dato
 
 ## Señales definidas por el cliente {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Los parámetros prefijados con `c_` identifican variables definidas por el cliente. Consulte también [Atributos admitidos para llamadas a la API DCS](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Los parámetros prefijados con `c_` identifican variables definidas por el cliente. Consulte también [Atributos admitidos para llamadas a la API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Señal | Descripción |
 |--- |--- |
@@ -73,11 +72,11 @@ Los parámetros prefijados con `c_` identifican variables definidas por el clien
 | c_pageURL | La dirección de la página en la barra de dirección del navegador. |
 | c_products | La cadena de producto (la establece s.products ). |
 | c_prop | Props personalizados. |
-| c_purchaseID | Un ID exclusivo para la compra. |
+| c_purchaseID | Un ID único para la compra. |
 | c_referrer | La página anterior a la página actual. |
 | c_screenResolution | Anchura y altura de pantalla (en píxeles). |
 | c_server | Nombre del servidor web (lo establece s.server ). |
 | c_state | Región geográfica (la establece s.state ). |
 | c_timezone | Diferencia horaria (en horas). |
-| c_transactionID | Un ID exclusivo para una transacción. |
+| c_transactionID | Un ID único para una transacción. |
 | c_zip | Código postal (lo establece s.zip ). |
