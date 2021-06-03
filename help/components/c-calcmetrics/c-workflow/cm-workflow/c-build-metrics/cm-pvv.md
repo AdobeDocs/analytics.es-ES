@@ -3,11 +3,10 @@ description: Le muestra cómo crear una métrica "Vistas de página por visitas"
 title: Crear una métrica "Vistas de página por visitas" simple
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '251'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +28,7 @@ Para crear una métrica &quot;Vistas de página por visitas&quot; simple haga lo
 1. Para esta métrica, primero arrastre Vistas de página al lienzo y, a continuación, arrastre Visitas debajo (espere hasta que aparezca la línea azul para soltarla).
 1. Seleccione el operador Dividir. (Dividir es el operador predeterminado).
 1. Ahora puede ver una **[!UICONTROL Vista previa]** de esa métrica a medida que la está creando, en la esquina superior derecha.
-1. La compatibilidad del producto le muestra si la métrica es compatible con los [Datos actuales](https://docs.adobe.com/content/help/es-ES/analytics/analyze/reports-analytics/current-data.html) o únicamente con los Datos completamente procesados.
+1. La compatibilidad del producto le muestra si la métrica es compatible con los [Datos actuales](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html) o únicamente con los Datos completamente procesados.
 1. Haga clic en **[!UICONTROL Guardar]**.
 1. Observe que la fórmula de **[!UICONTROL Resumen]** se actualiza cada vez que realice cambios en la definición de la métrica.
 1. Ahora se le redirige automáticamente al [Administrador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), que es similar al Administrador de segmentos. Le permite compartir, aprobar, (volver a) etiquetar, cambiar el nombre o eliminar métricas.
