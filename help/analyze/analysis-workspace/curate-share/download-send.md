@@ -5,11 +5,10 @@ uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 feature: Depurar y compartir
 role: Business Practitioner, Administrator
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '990'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '986'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +24,7 @@ Para descargar un proyecto completo, vaya a **[!UICONTROL Proyecto > Descargar c
 
 Para las descargas de proyectos, tenga en cuenta:
 
-* El proyecto se puede guardar o no guardar cuando se solicita una descarga del proyecto. Sin embargo, solo los proyectos guardados pueden [programarse](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
+* El proyecto se puede guardar o no guardar cuando se solicita una descarga del proyecto. Sin embargo, solo los proyectos guardados pueden [programarse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html).
 * Los archivos PDF descargados en el explorador pueden tardar varios minutos en exportarse, ya que el proyecto se vuelve a ejecutar en los servidores de Adobe antes de procesarse en formato PDF. Se recomienda no abandonar el proyecto hasta que el PDF se descargue en el explorador. Sin embargo, puede seguir realizando cambios en el proyecto mientras espera. Si un PDF tarda más de 5 minutos en procesarse, se le pedirá que lo envíe por correo electrónico.
 * Las descargas de PDF se representan como una sola página sin paginación aplicada.
 * Cuando se procesa un proyecto en PDF, se procesa lo que figura en la página. Si un proyecto tiene paneles y visualizaciones de tamaño personalizado, deberá cambiarlos a tamaño automático (mediante el botón que hay en la esquina superior derecha) para que no se trunque el contenido.
@@ -90,4 +89,4 @@ Si solicita más de una descarga a la vez, recibirá una notificación avisando 
 | --- | --- |
 | ¿Por qué el PDF descargado es una página? | Workspace no pagina los PDF descargados en este momento. |
 | ¿Puedo exportar más de 50 000 elementos con la opción Descargar elementos como CSV? | Aunque cada descarga puede contener hasta 50 000 elementos de dimensión, puede cambiar el tipo de tabla para recuperar elementos de cola más largos o aplicar un filtro para descargar elementos más específicos. |
-| ¿Qué hace **[!UICONTROL Copiar visualización]**? | **[!UICONTROL Copiar visualización]** no es una opción de exportación. Permite copiar una visualización o un panel de un lugar de Workspace a otro. Por ejemplo, de un panel a otro en el mismo proyecto o de un proyecto a otro. [Intravínculos de vídeo](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
+| ¿Qué hace **[!UICONTROL Copiar visualización]**? | **[!UICONTROL Copiar visualización]** no es una opción de exportación. Permite copiar una visualización o un panel de un lugar de Workspace a otro. Por ejemplo, de un panel a otro en el mismo proyecto o de un proyecto a otro. [Intravínculos de vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
