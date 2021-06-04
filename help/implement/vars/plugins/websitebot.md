@@ -2,9 +2,9 @@
 title: websiteBot
 description: Identifique de forma dinámica los bots moviendo el ratón.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: 03584622a570281474d6f6e0a580d453b8ad8fec
+source-git-commit: 7b77e023e9328cd029c326d29a30f9c80b8fbcbd
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '429'
 ht-degree: 53%
 
 ---
@@ -31,7 +31,7 @@ Si el agente de usuario está en un escritorio y no se detecta ningún movimient
 
 Adobe recomienda lo siguiente antes de utilizar este plug-in:
 
-* **Configuración de eVar**: configure un eVar en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes. Establezca la caducidad en **Never** y la asignación en **&quot;Valor original (primero)&quot;**. Este eVar debe establecerse en ambas circunstancias: cuando se activa la regla [!UICONTROL Direct Call] o la llamada `s.tl` .
+* **Configuración de eVar**: configure un eVar en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes. Establezca la caducidad en **Never** o **Visit** y la asignación en **&quot;Valor original (primero)&quot;**. Este eVar debe establecerse en ambas circunstancias: cuando se activa la regla [!UICONTROL Direct Call] o la llamada `s.tl` .
 * **Recopilar agente de usuario en una variable independiente**: recopile la cadena del agente de usuario en una variable independiente para supervisar la eficacia de este plug-in. Establezca un eVar en `navigator.UserAgent` en cada visita para recopilar estos datos.
 
 ## Instalación del complemento con el editor de código personalizado de Launch
