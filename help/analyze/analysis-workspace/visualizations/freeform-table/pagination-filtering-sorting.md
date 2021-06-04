@@ -5,11 +5,10 @@ uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 feature: Tablas improvisadas
 role: Business Practitioner, Administrator
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '98'
-ht-degree: 100%
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 91%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 Vea este tutorial de vídeo para obtener información general:
 
-[Paginación, filtrado y ordenación de tablas en Analysis Workspace](https://docs.adobe.com/help/es-ES/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
+[Paginación, filtrado y ordenación de tablas en Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
 
 ## Opciones de filtrado avanzadas {#section_36E92E31442B4EBCB052073590C1F025}
 
