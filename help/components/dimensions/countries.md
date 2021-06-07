@@ -2,10 +2,9 @@
 title: Países
 description: El país desde donde se originó la visita.
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '307'
+source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
+workflow-type: tm+mt
+source-wordcount: '268'
 ht-degree: 100%
 
 ---
@@ -17,10 +16,6 @@ La dimensión “Países” informa del país desde donde se originó la visita.
 ## Rellene esta dimensión con datos
 
 Esta dimensión hace referencia a las reglas de búsqueda internas de Adobe. El valor de búsqueda se basa en la dirección IP enviada con la visita. Adobe se asocia con [Digital Element](https://www.digitalelement.com/es) para mantener búsquedas entre la dirección IP y el país. Esta dimensión funciona de forma predeterminada para todas las implementaciones.
-
->[!TIP]
->
->Si su organización sigue estrictas normas de privacidad en las que [ofuscar la dirección IP](/help/admin/admin/general-acct-settings-admin.md) no es suficiente, puede solicitar que se deshabiliten los datos de geolocalización por completo. Póngase en contacto con el Servicio de atención al cliente con el ID del grupo de informes y solicite desactivar “Geografía” para el grupo de informes.
 
 ## Elementos de dimensión
 
