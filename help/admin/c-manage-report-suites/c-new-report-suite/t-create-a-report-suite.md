@@ -1,13 +1,12 @@
 ---
 description: Cree un contenedor básico para la recopilación de datos en Adobe Analytics
 title: Crear un grupo de informes
-feature: Admin Tools
+feature: Herramientas de administración
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 77%
+source-wordcount: '383'
+ht-degree: 65%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 77%
 
 Un grupo de informes es un silo de datos que Adobe Analytics utiliza para extraer informes. Una organización puede tener muchos grupos de informes, cada uno con diferentes conjuntos de datos. Aunque en el pasado era importante mantener grupos de informes separados, tener un único grupo de informes se ha vuelto más ventajoso. La introducción de [grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) y el procesamiento del tiempo de los informes permite a los administradores crear sus propios subconjuntos de datos, lo que permite la flexibilidad para obtener datos globales y específicos del sitio.
 
-Este artículo está diseñado para administradores de nivel de sistema o administradores de análisis para prepararse para la recopilación de datos.
+Este artículo está diseñado para administradores de nivel de sistema o administradores de Adobe Analytics con el fin de prepararse para la recopilación de datos.
 
 ## Requisitos previos
 
@@ -44,8 +43,8 @@ Esto significa que no se han concedido a su cuenta los permisos correctos para A
 
 **Después de iniciar sesión en Adobe Analytics, falta la ventana emergente de &#39;Bienvenido a Adobe Analytics&#39; y la lista desplegable.**
 
-Asegúrese de haber iniciado sesión a través de Experience Cloud, y no a través de my.omniture.com. Los usuarios que inician sesión a través de my.omniture.com no tienen disponible el asistente para la configuración de grupos de informes.
+Asegúrese de haber iniciado sesión a través del [Experience Cloud](https://experience.adobe.com) y no a través de my.omniture.com. Los usuarios que inician sesión a través de my.omniture.com no tienen disponible el asistente para la configuración de grupos de informes.
 
 ## Pasos siguientes
 
-[Cree y configure una propiedad para Adobe Analytics en Launch](/help/implement/launch/create-analytics-property.md): Crear un área para administrar la implementación de Analytics
+[Cree y configure una propiedad para Adobe Analytics en Adobe Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Crear un área para administrar la implementación de Analytics
