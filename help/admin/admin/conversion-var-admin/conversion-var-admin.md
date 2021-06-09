@@ -5,10 +5,10 @@ title: Variables de conversión (eVar)
 feature: Herramientas de administración
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 2501d0a7b9e11569dc9feb3da378d445f72bef3d
+source-git-commit: 212f9c66e2916e629693bf4bf61e767af164900a
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 83%
+source-wordcount: '1587'
+ht-degree: 82%
 
 ---
 
@@ -62,7 +62,7 @@ Otro ejemplo: si se usa una eVar en mayo para reflejar promociones internas y ca
 
 **Distinción entre mayúsculas y minúsculas**
 
-Las mayúsculas o minúsculas utilizadas en los informes se basan en el primer valor que registra el sistema back-end. Este valor puede ser la primera instancia vista o puede variar en algún período de tiempo (por ejemplo, mensual), en función de la variedad y cantidad de datos asociados con el grupo de informes.
+Las eVars no distinguen entre mayúsculas y minúsculas. Las mayúsculas o minúsculas utilizadas en los informes se basan en el primer valor que registra el sistema back-end. Este valor puede ser la primera instancia vista o puede variar en algún período de tiempo (por ejemplo, mensual), en función de la variedad y cantidad de datos asociados con el grupo de informes.
 
 **Contadores**
 
