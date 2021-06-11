@@ -4,11 +4,10 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: 'Personalice los datos que se recopilan para obtener más información de Adobe Analytics. '
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +53,7 @@ ht-degree: 100%
    + Variables de página {page-vars}
       + [Información general sobre las variables de página](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
-      + [channel](vars/page-vars/channel.md)
+      + [canal](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Variables dinámicas](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
@@ -71,9 +70,9 @@ ht-degree: 100%
       + [products](vars/page-vars/products.md)
       + [prop](vars/page-vars/prop.md)
       + [purchaseID](vars/page-vars/purchaseid.md)
-      + [referrer](vars/page-vars/referrer.md)
+      + [referente](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
-      + [server](vars/page-vars/server.md)
+      + [servidor](vars/page-vars/server.md)
       + [state](vars/page-vars/state.md)
       + [timestamp](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
@@ -127,6 +126,7 @@ ht-degree: 100%
 + Preparar la implementación de Adobe Analytics {#prepare}
    + [Creación de una capa de datos](prepare/data-layer.md)
    + [Consideraciones sobre el grupo de informes globales](prepare/global-rs.md)
+   + [Implementación del etiquetado de grupos múltiples](prepare/multi-suite-tagging.md)
    + [Modo de implementación](prepare/implementation-modal.md)
    + [Creación de un documento de diseño de solución](prepare/solution-design.md)
    + [Ocuparse de una implementación de Adobe Analytics existente](prepare/existing-implementation.md)
@@ -175,7 +175,7 @@ ht-degree: 100%
    + [Conflictos de hash](validate/hash-collisions.md)
 + [Preguntas frecuentes](faq.md)
 + Revisión de la implementación {#review}
-   + [Revisión centrada (después de cada lanzamiento de sitio web)](review/focused-review.md)
+   + [Revisión específica (después de cada lanzamiento de sitio web)](review/focused-review.md)
    + [Revisión completa (cada 6 meses)](review/full-review.md)
    + [Definición de los 5 KPI principales](review/define-kpis.md)
 + Uso de datos XDM con Analytics {#aep-edge}
