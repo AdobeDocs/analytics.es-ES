@@ -2,11 +2,10 @@
 title: Regiones
 description: Región geográfica del visitante.
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: 4e09df2631626376f9351512afed7a9e4241e7d6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,10 +16,6 @@ La dimensión “Regiones” indica la región geográfica del visitante. Es una
 ## Rellene esta dimensión con datos
 
 Esta dimensión hace referencia a las reglas de búsqueda internas de Adobe. El valor de búsqueda se basa en la dirección IP enviada con la visita. Adobe se asocia con [Digital Element](https://www.digitalelement.com/es) para mantener búsquedas entre la dirección IP y el país. Esta dimensión funciona de forma predeterminada para todas las implementaciones.
-
->[!TIP]
->
->Si su organización sigue estrictas normas de privacidad en las que [ofuscar la dirección IP](/help/admin/admin/general-acct-settings-admin.md) no es suficiente, puede solicitar que se deshabiliten los datos de geolocalización por completo. Póngase en contacto con el Servicio de atención al cliente con el ID del grupo de informes y solicite desactivar “Geografía” para el grupo de informes.
 
 ## Elementos de dimensión
 
