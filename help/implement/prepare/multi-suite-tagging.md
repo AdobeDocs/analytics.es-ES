@@ -1,0 +1,39 @@
+---
+description: Aprenda a implementar el etiquetado de grupos múltiples para enviar solicitudes de imagen a varios grupos de informes.
+title: Implementación del etiquetado de grupos múltiples
+exl-id: null
+source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 0%
+
+---
+
+
+# Implementación del etiquetado de grupos múltiples
+
+[El ](/help/admin/c-manage-report-suites/rollup-report-suite.md) etiquetado de grupos múltiples le permite enviar solicitudes de imagen no solo a un grupo de informes globales, sino también a grupos de informes secundarios individuales, de modo que pueda proporcionar subconjuntos de los datos del grupo de informes globales de su empresa a distintos usuarios finales.
+
+Para implementar el etiquetado de grupos múltiples, debe incluir el ID del grupo de informes (RSID) para el grupo de informes globales y también los RSID para los grupos de informes secundarios aplicables en el código de seguimiento de sus páginas web y aplicaciones.
+
+* Para implementaciones de Adobe Experience Platform Launch, especifique cada uno de los grupos de informes para la [[!DNL Analytics] extensión](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html).
+
+* En implementaciones heredadas de JavaScript y SDK móvil, separe los RSID con comas sin espacios (`rsid1,rsid2,rsid3`, etc.).
+
+* Para otros tipos de implementación, utilice la sintaxis necesaria para enumerar varios RSID.
+
+>[!TIP]
+>
+> La práctica recomendada es listar primero el grupo de informes global o el ID del grupo de informes.
+
+El etiquetado de grupos múltiples implica varias llamadas al servidor para cada solicitud de imagen: una llamada primaria al grupo de informes globales y una llamada secundaria a cada grupo de informes secundarios.
+
+>[!NOTE]
+>
+> [Los grupos de informes virtuales](/help/components/vrs/vrs-about.md), que también le permiten proporcionar subconjuntos de datos de grupos de informes globales de su empresa a distintos usuarios finales, no incurren en llamadas secundarias al servidor.
+
+## ¿Debería implementar el etiquetado de grupos múltiples o los grupos de informes virtuales?
+
+El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltiples suele ser una práctica recomendada, pero las necesidades de su empresa determinan el mejor enfoque de los grupos de informes para su organización.
+
+Para saber si los grupos de informes virtuales son su mejor enfoque, consulte &quot;[Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples](/help/components/vrs/vrs-considerations.md)&quot;. Consulte también &quot;[Grupos de informes virtuales vs. Etiquetado multigrupo](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; para ver una comparación del etiquetado de grupos múltiples y la funcionalidad del grupo de informes virtuales.
