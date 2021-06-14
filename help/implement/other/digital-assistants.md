@@ -2,7 +2,7 @@
 title: Implementar Analytics para asistentes digitales
 description: Implemente Adobe Analytics en asistentes digitales, como Amazon Alexa o Google Home.
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 99%
@@ -46,7 +46,7 @@ Con algunos asistentes digitales, recibe una notificación cuando alguien instal
 
 ```text
 GET
-/b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
+/b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
 <xref href="https://example.data.adobedc.net">
@@ -60,13 +60,13 @@ Host:
 Es probable que su organización quiera aplicaciones para varias plataformas. Es recomendable incluir un ID de aplicación con cada solicitud. Esta variable se puede establecer en la variable de datos de contexto `a.AppID`. Siga el formato de `[AppName] [BundleVersion]`, por ejemplo, BigMac para Alexa 1.2:
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
 Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
 Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
@@ -78,7 +78,7 @@ Adobe Analytics utiliza el [servicio de Adobe Experience Cloud ID](https://exper
 El uso del servicio de ID proporciona el mayor valor al asignar un ECID a distintos dispositivos (por ejemplo, web a asistente digital). Si la aplicación es móvil, utilice los SDK de Experience Platform tal cual y envíe el ID de usuario con el método `setCustomerID`. Sin embargo, si su aplicación es un servicio, utilice el ID proporcionado por el servicio de ECID y configúrelo en `setCustomerID`.
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
 Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
@@ -101,7 +101,7 @@ Las sesiones son importantes para mantener el contexto y ayudar a recopilar más
 2. **Envíe un evento de nueva sesión o de inicio:** cuando envíe la primera respuesta a Analytics, incluya un evento de inicio. Normalmente puede hacerse estableciendo los datos de contexto `a.LaunchEvent=1`.
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
 Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
@@ -115,7 +115,7 @@ Por ejemplo, si un usuario dice: “Siri, envía a John 20 dólares desde mi apl
 Al enviar cada una de estas solicitudes como una eVar, puede realizar informes de control de rutas de todas las intenciones de una aplicación conversacional. Asegúrese de que la aplicación también pueda gestionar solicitudes sin intención. Adobe recomienda pasar “Sin intención especificada” a la variable de datos de contexto por intención, en lugar de omitir la variable.
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
 Host: example.sc.adobedc.net
 Cache-Control: no-cache
 ```
@@ -123,7 +123,7 @@ Cache-Control: no-cache
 O bien
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
 Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
@@ -139,7 +139,7 @@ Además de la intención, los asistentes digitales cuentan a menudo con un conju
 Por lo general, una aplicación cuenta con un número finito de estos parámetros. Para realizar un seguimiento de los mismos en Analytics, envíelos como datos de contexto y, a continuación, asigne cada uno de los parámetros a una eVar.
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
 Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
@@ -151,7 +151,7 @@ En ocasiones, el asistente digital proporciona entradas que la aplicación no sa
 Cuando esto ocurra, haga que la aplicación pida una aclaración. Además, envíe datos a Adobe que indiquen que la aplicación tiene un estado de error junto con una eVar que especifique el tipo de error. Asegúrese de que incluye los errores que se producen cuando las entradas no son correctas y aquellos en los que la aplicación ha tenido un problema.
 
 ```text
-GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
 Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
@@ -171,10 +171,10 @@ Los dos puntos al inicio y al final ayudan a crear segmentos. Por ejemplo, mostr
 
 | Persona | Respuesta del dispositivo | Acción/Intención | Obtener solicitud |
 |---|---|---|---|
-| Instala Spoofify | Sin respuesta | Se instala | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| Reproduce Spoofify | “Vale, reproduciendo Spoofify” | Play | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| Cambia canción | “Vale, ¿qué canción quieres?” | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| Reproduce “Baby Shark” | “Vale, reproduciendo ‘Baby Shark’ de PinkFong” | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| Cambia lista de reproducción | “Vale, ¿qué lista de reproducción quieres?” | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| Reproduce mi lista de reproducción de canciones favoritas | “Vale, reproduciendo tu lista de canciones favoritas” | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| Apaga la música | Sin respuesta, la música se apaga | Off | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Instala Spoofify | Sin respuesta | Se instala | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Reproduce Spoofify | “Vale, reproduciendo Spoofify” | Play | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Cambia canción | “Vale, ¿qué canción quieres?” | ChangeSong | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Reproduce “Baby Shark” | “Vale, reproduciendo ‘Baby Shark’ de PinkFong” | ChangeSong | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Cambia lista de reproducción | “Vale, ¿qué lista de reproducción quieres?” | ChangePlaylist | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Reproduce mi lista de reproducción de canciones favoritas | “Vale, reproduciendo tu lista de canciones favoritas” | ChangePlaylist | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Apaga la música | Sin respuesta, la música se apaga | Off | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
