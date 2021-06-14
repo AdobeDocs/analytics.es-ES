@@ -2,9 +2,8 @@
 title: Implementación con AMP
 description: Implementar Adobe Analytics en páginas de AMP.
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
+workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 100%
 
@@ -56,7 +55,7 @@ En el siguiente código de ejemplo, existen dos activadores definidos: `pageLoad
       },
       "vars": {
         "host": "example.data.adobedc.net",
-        "reportSuites": "reportSuiteID",
+        "reportSuites": "reportSuiteID1,reportSuiteID2",
         "pageName": "Adobe Analytics Using amp-analytics tag"
       },
       "triggers": {
@@ -132,7 +131,7 @@ También se necesita una página HTML alojada en los servidores web:
   <body>
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
-      var s_account = "examplersid";
+      var s_account = "examplersid1,examplersid2";
       var s_trackingServer = "example.data.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
