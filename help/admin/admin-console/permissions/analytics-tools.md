@@ -1,11 +1,11 @@
 ---
 title: Permisos de perfil de productos para las herramientas de Analytics
-description: Utilice los elementos de permiso de las herramientas de Analytics para conceder acceso a las funciones de Adobe Analytics.
+description: Los elementos de permiso de las herramientas de Analytics conceden acceso a las funciones de Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -15,17 +15,17 @@ Los elementos de permiso de las herramientas de Analytics conceden acceso a las 
 
 | Elemento de permiso de las herramientas de Analytics | Descripción |
 |----|----|
-| Uso de llamadas al servidor | Otorga acceso a Administración > Uso de llamadas al servidor. |
+| Uso de llamadas al servidor | Otorga acceso a Administración > Uso de llamada al servidor. |
 | Administrador de códigos | Se ha mantenido para propósitos heredados. Otorga acceso a Administración > Todos los administradores > Administrador de códigos. En la mayoría de los casos, utilice las bibliotecas incluidas en Adobe Experience Platform Launch. |
 | Administrador de códigos - Servicios Web | Otorga acceso al Administrador de códigos mediante la API 1.4. |
 | Registros | Otorga acceso a Administración > Todos los administradores > Registros. |
 | Registros - Servicios Web | Otorga acceso a los registros de extracción a través de la API 1.4. |
 | Administración del tráfico | Otorga acceso a Administración > Todos los administradores > Administración del tráfico. |
-| Seguridad | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Administrador de seguridad. |
-| Asistencia | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Información de asistencia. |
-| Servicios Web | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Servicios Web. |
-| Acciones pendientes | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Acciones pendientes. |
-| Ocultar grupos de informes | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Ocultar grupos de informes. Otorga la capacidad de ocultar cualquier grupo de informes de la organización, independientemente del acceso a su grupo de informes. |
+| Seguridad | Otorga acceso a Administración > Todos los administradores > Configuraciones de la compañía > Administrador de seguridad. |
+| Asistencia | Otorga acceso a Administración > Todos los administradores > Configuraciones de la compañía > Información de asistencia. |
+| Servicios Web | Otorga acceso a Administración > Todos los administradores > Configuraciones de la compañía > Servicios web. |
+| Acciones pendientes | Otorga acceso a Administración > Todos los administradores > Configuraciones de la compañía > Acciones pendientes. |
+| Ocultar grupos de informes | Concede acceso a Administración > Todos los administradores > Configuración de la compañía > Ocultar grupos de informes. Otorga la capacidad de ocultar cualquier grupo de informes de la organización, independientemente del acceso a su grupo de informes. |
 | Usuarios de licencias de Excel | No se usa. |
 | Activity Map | Otorga acceso a Herramientas > Activity Map. Permite al usuario utilizar la extensión Activity Map. |
 | Datos actuales | Habilita la opción para ver los datos actuales en los informes de Reports &amp; Analytics. |
@@ -41,6 +41,6 @@ Los elementos de permiso de las herramientas de Analytics conceden acceso a las 
 | Creación de segmentos | Concede la capacidad de crear y compartir segmentos en todas las funciones de Analytics. |
 | Administración de Advertising Analytics | No se usa. |
 | Publicación de segmentos | Concede la capacidad de convertir un segmento en una audiencia de Experience Cloud al crear o editar un segmento. |
-| Integraciones (crear) | Otorga acceso a Administración > Todos los administradores > Conectores de datos y permite al usuario crear conectores de datos. |
-| Integraciones (actualizar) | Otorga acceso a Administración > Todos los administradores > Conectores de datos y permite al usuario modificar las configuraciones de conector existentes. |
-| Integraciones (eliminar) | Otorga acceso a Administración > Todos los administradores > Conectores de datos y permite al usuario eliminar los conectores de datos. |
+| Integraciones (crear) | Otorga acceso a Administración > Todos los administradores > Conectores de datos, y permite al usuario crear conectores de datos. |
+| Integraciones (actualizar) | Otorga acceso a Administración > Todos los administradores > Conectores de datos, y permite al usuario modificar las configuraciones de conectores existentes. |
+| Integraciones (eliminar) | Otorga acceso a Administración > Todos los administradores > Conectores de datos, y permite al usuario eliminar conectores de datos. |
