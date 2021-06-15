@@ -3,9 +3,9 @@ description: Conozca las directrices y recomendaciones acerca del consentimiento
 title: Directrices de CNIL sobre el consentimiento del usuario para almacenar cookies
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
 source-git-commit: 0e09f6ee34560ca7f036e8f3fb743c822d5fcfc4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Las Directrices establecen una exención limitada del requisito de consentimient
 
 * Retención de datos máxima de 25 meses.  Puede revisar la configuración de retención de datos actual en Analytics > Administración > Gobernanza de datos.  [Retención de datos](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=es)
 * Desactive las cookies de terceros en ECID. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=es#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=es#id-service-api) y [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=es#id-service-api)
-* Límite de cookies de 13 meses.  Puede anular la caducidad de la cookie de análisis mediante la variable `cookieLifetime`.  Las cookies del Experience Cloud, incluidas Analytics y ECID, amplían la fecha de caducidad de las cookies con cada visita.  Para establecer una caducidad de cookie estática no móvil, puede: (1) escribir código personalizado para establecer una fecha en la que eliminar la cookie, o (2) usar su CMP para controlar la fecha de restablecimiento de la cookie.   [](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=es) Cookies cookieLifetimeand  [Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=en#ec-cookies)
+* Límite de cookies de 13 meses.  Puede anular la caducidad de la cookie de análisis mediante la variable `cookieLifetime`.  Las cookies de Experience Cloud, incluidos Analytics y el ECID, amplían la fecha de caducidad de las cookies con cada visita.  Para establecer una caducidad de una cookie estática no móvil, puede hacer lo siguiente: (1) escribir un código personalizado para establecer una fecha en la que eliminar la cookie, o (2) usar su CMP para controlar la fecha de restablecimiento de la cookie.   [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=es) y [cookies de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=es#ec-cookies)
 * Ámbito limitado. El ámbito de la cookie debe limitarse a un solo sitio o aplicación. [Cookies del explorador](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=es&quot;\l&quot;third-party-cookie-implementaciones)
 * Anónimización. Anonimizar el último octeto de la dirección IP. [Configuración general de la cuenta](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=es)
 * Ocultar el ID de visitante de la creación de informes.  De forma predeterminada, los ID de visitante no están visibles en Adobe Workspace ni en Adobe Reports &amp; Analytics.  Los ID de visitante están disponibles en Data Feeds y Data Warehouse.  El acceso a las Data Feeds y a Data Warehouse puede limitarse mediante [permisos de acceso en Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391) y [Referencia de la columna de fuente de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es#columns%2C-descriptions%2C-and-data-types)
