@@ -6,7 +6,7 @@ topic-fix: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1496'
 ht-degree: 100%
 
