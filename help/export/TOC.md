@@ -51,7 +51,7 @@ ht-degree: 96%
       + [Clasificaciones](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [Fuentes de datos](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
-      + [Archivo de fuentes de datos](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
+      + [Fuentes de datos](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Informes entregados por Data Warehouse](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Informes entregados por el Report Builder](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [Participación de los servicios de ingeniería en FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
