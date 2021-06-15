@@ -15,7 +15,7 @@ Esta sección contiene conceptos clave de Adobe Analytics, una breve descripció
 
 ## Herramientas de Analytics {#concept_833EDD4EB056491DA1BC5A3A45FE285B}
 
-| Product | Descripción | Vínculo de documentación |
+| Producto | Descripción | Vínculo de documentación |
 | --- | --- | --- |
 | Analysis Workspace | Solución de navegador para crear proyectos de análisis sólidos y personalizados y democratizar las perspectivas. Ofrece una mayor flexibilidad para los informes que Reports &amp; Analytics. | [Página de inicio de Analysis Workspace](/help/analyze/analysis-workspace/home.md) |
 | Reports &amp; Analytics (antiguamente SiteCatalyst) | Solución de navegador para informes y análisis. Herramienta inicial en el paquete de Analytics. | [Página de inicio de Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) |
