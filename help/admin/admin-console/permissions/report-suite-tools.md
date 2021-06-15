@@ -5,7 +5,7 @@ exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 86%
+ht-degree: 89%
 
 ---
 
@@ -39,10 +39,10 @@ Utilice esta página para comprender cada elemento de permisos en Herramientas d
 | Informe en tiempo real | Otorga acceso a Métricas del sitio > Tiempo real en Reports &amp; Analytics. Utilice el elemento de permiso &#39;Configuración de informes en tiempo real&#39; para otorgar acceso a la configuración de este informe. |
 | Páginas de bots | Otorga acceso al informe Métricas del sitio > Bots > Páginas de bots en Reports &amp; Analytics. |
 | Bots | Concede acceso a Métricas del sitio > Bots > Informe de bots en Reports &amp; Analytics. |
-| Administrador de feeds de datos | Otorga acceso a Administración > Feeds de datos en la navegación superior de Analytics. |
+| Administrador de feeds de datos | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. |
 | Informe del Data Warehouse personalizado | Otorga acceso a Herramientas > Data Warehouse en la navegación superior de Analytics. |
 | Visitas de retorno diario | Otorga acceso a Retención de visitantes > Visitas de retorno diario en Reports &amp; Analytics. |
-| Administrador de fuentes de datos | Otorga acceso a Administración > Todos los administradores > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
+| Administrador de fuentes de datos | Otorga acceso a Administración > Todos los admin > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
 | Excluir por dirección IP | Otorga acceso a Administración > Excluir por dirección IP en la navegación superior de Analytics. |
 | Visitas de retorno | Otorga acceso a Retención de visitantes > Visitas de retorno en Reports &amp; Analytics. |
 | Clasificaciones | Otorga acceso a todas las configuraciones de clasificación en el Administrador de grupos de informes. Este elemento de permiso incluye: <br>Tráfico > Clasificaciones de tráfico<br>Conversión > Clasificaciones de conversión<br>Conversión > Jerarquías de clasificación<br>Canales de marketing > Clasificaciones de canal de marketing<br>Administración de aplicaciones > Clasificaciones de aplicaciones<br>Administración de medios > Clasificaciones de medios<br>AEM > Clasificaciones de AEM Assets<br>Adobe Campaign > Clasificaciones de Adobe |
