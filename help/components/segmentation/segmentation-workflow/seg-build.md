@@ -62,7 +62,7 @@ Puede agregar definiciones y contenedores de reglas para definir los segmentos.
 1. **[!UICONTROL Valor]**: Valor introducido o seleccionado para la dimensión, el segmento o la métrica.
 1. **[!UICONTROL X]**: Le permite eliminar esta parte de una definición de segmento.
 1. **[!UICONTROL Publicación de Experience Cloud]**: La publicación de un segmento de Adobe Analytics en Experience Cloud le permite utilizarlo para la actividad de marketing en [!DNL Audience Manager] y en otros canales de activación. [Más información...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Biblioteca de audiencias]**: Los servicios de audiencia de Adobe administran la traducción de datos sobre visitantes en segmentación de audiencia. De este modo, la creación y gestión de audiencias es similar a la creación y uso de segmentos, con la capacidad añadida de compartir segmentos de audiencia en Experience Cloud. [Más información...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL Biblioteca de audiencias]**: Los servicios de audiencia de Adobe administran la traducción de datos sobre visitantes en segmentación de audiencia. De este modo, la creación y gestión de audiencias es similar a la creación y uso de segmentos, con la capacidad añadida de compartir segmentos de audiencia en Experience Cloud. [Más información...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es)
 1. **[!UICONTROL Buscar]**: Permite buscar la lista de dimensiones, segmentos o métricas.
 1. **[!UICONTROL Dimensiones]**: (Lista) Haga clic en el encabezado para ampliarlo.
 1. **[!UICONTROL Métricas]**: Haga clic en el encabezado para ampliarlo.
@@ -219,7 +219,7 @@ Las plantillas se identifican con el logotipo “A” de Adobe. A continuación 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas desde un dispositivo no móvil </td> 
-   <td colname="col2">Ver datos de visitantes que no utilizan dispositivos móviles. En la definición de segmento, el contenedor es Visita. Este segmento utiliza la lógica Excluir. La regla es: <p>El tipo de dispositivo móvil es igual a teléfono móvil </p> <p>O </p> <p>El tipo de dispositivo móvil es igual a tableta. </p> </td> 
+   <td colname="col2">Ver datos de visitantes que no utilizan dispositivos móviles. En la definición de segmento, el contenedor es Visita. Este segmento utiliza la lógica Excluir. La regla es: <p>El tipo de dispositivo móvil es igual a teléfono móvil </p> <p>o </p> <p>El tipo de dispositivo móvil es igual a tableta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas desde teléfonos </td> 
