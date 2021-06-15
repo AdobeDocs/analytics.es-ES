@@ -3,9 +3,9 @@ title: Preguntas más frecuentes sobre las clasificaciones
 description: Preguntas más frecuentes sobre el uso de las clasificaciones.
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
