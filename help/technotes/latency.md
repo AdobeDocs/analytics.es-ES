@@ -7,7 +7,7 @@ topic-fix: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '806'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Los datos de todas las aplicaciones suelen aparecer en los informes a las dos ho
 
 Cada servidor de recopilación de datos captura y procesa los datos de análisis sin procesar y, a continuación, carga los datos por lotes una vez cada hora para registrarlos. El proceso de transferencia suele durar 30 minutos aproximadamente, por lo que la latencia normal del tráfico que se produce inmediatamente después de completarse un proceso de carga se aproxima a los 90 minutos (60 minutos hasta que se produce la siguiente carga por lotes más 30 minutos para que la transferencia de archivos se cargue y se muestre). Respecto al tráfico que se produce justo antes de una carga, la latencia de datos puede reducirse hasta los 30 minutos (0 minutos hasta que se produce la siguiente carga por lotes más 30 minutos para que la transferencia de archivos se muestre).
 
-Si se considera necesario, el Servicio de atención al cliente puede habilitar las cargas de datos por lotes cada treinta minutos (en lugar de cada hora) para los grupos de informes más usados.
+Si se considera necesario, el Servicio de atención al cliente de Adobe puede habilitar las cargas de datos por lotes cada treinta minutos (en lugar de cada hora) para los grupos de informes más usados.
 
 ## Factores que incrementan la latencia
 
