@@ -24,7 +24,7 @@ Permite a Analytics recoger actividad del usuario originada desde el Activity Ma
 
    | Información general de la tienda de aplicaciones | Descripción |
    |---|---|
-   | Página de Activity Map | Indica las páginas donde se hizo clic en un vínculo. |
+   | Activity Map Página | Indica las páginas donde se hizo clic en un vínculo. |
    | Región de Activity Map | Indica todas las regiones de los vínculos recopilados en todo el sitio web. Tenga en cuenta que si una región aparece en varias páginas, la métrica se agregará en todas sus páginas. |
    | Vínculos de Activity Map | Indica todos los vínculos recopilados en todo el sitio web. |
    | Vínculos y región de Activity Map | Muestra todos los vínculos recogidos y la región a la que pertenecen en todo el sitio Web. |
