@@ -7,9 +7,9 @@ feature: Conceptos básicos de Reports & Analytics, Reports and Analytics
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1669'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
