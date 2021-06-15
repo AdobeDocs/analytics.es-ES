@@ -4,9 +4,9 @@ title: Información general sobre Uso de llamadas al servidor
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ El permiso de Uso de llamadas al servidor se concede, de forma automática, a lo
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Inicie sesión en Analytics a través de sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Vaya a <span class="ignoretag"> <span class="uicontrol"> Administración </span> &gt; <span class="uicontrol"> Todos los administradores </span> &gt; <span class="uicontrol"> Administración de usuarios </span> &gt; <span class="uicontrol"> Grupos </span> &gt; <span class="uicontrol"> Editar acceso a todos los informes </span> &gt; <span class="uicontrol"> Herramientas de análisis </span> &gt; <span class="uicontrol"> 3/&gt; Personalizar </span> &gt; <span class="uicontrol"> Uso de llamadas al servidor </span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Vaya a <span class="ignoretag"> <span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Todos los administradores</span> &gt; <span class="uicontrol">User management</span> &gt; <span class="uicontrol">Grupos </span> &gt; <span class="uicontrol">Editar todo el acceso a informes</span> &gt; <span class="uicontrol">Herramientas de Analytics</span> &gt; <span class="uicontrol">Personalizar</span> &gt; <span class="uicontrol">Uso de llamadas al servidor</span></span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
