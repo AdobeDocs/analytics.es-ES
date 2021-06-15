@@ -5,7 +5,7 @@ exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '2163'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Las reglas de procesamiento de canales de marketing averiguan si el visitante qu
 
 Notas adicionales sobre el procesamiento:
 
-* Los datos recopilados con estas reglas son 100 % permanentes y las reglas alteradas tras la colección de datos no son retroactivas. Le recomendamos encarecidamente que revise y tenga en cuenta todas las circunstancias antes de guardar [!UICONTROL Reglas de procesamiento de canal de marketing] para evitar que los datos se recopilen en los canales incorrectos.
+* Los datos recopilados con estas reglas son 100 % permanentes y las reglas alteradas tras la colección de datos no son retroactivas. Es muy importante revisar y tener en cuenta todas las circunstancias antes de guardar las [!UICONTROL reglas de procesamiento del canal de marketing] a fin de evitar que los datos se recopilen en los canales equivocados.
 * El informe puede procesar hasta 25 canales al mismo tiempo.
 * Las reglas pueden acceder a las variables que ha establecido VISTA, pero no pueden acceder a los datos que VISTA ha eliminado.
 * Dos canales de marketing nunca reciben crédito por el mismo evento (por ejemplo, compras o clics). En este sentido, los canales de marketing difieren de las eVars (ya que dos eVars pueden recibir crédito por el mismo evento).
@@ -31,7 +31,7 @@ Notas adicionales sobre el procesamiento:
 
 * Consulte la información conceptual de [Introducción a los Canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Cree uno o más canales para poder asignarles reglas. Consulte [Agregar canales de marketing.](/help/components/c-marketing-channels/c-channels.md)
-* Revise las prácticas recomendadas para utilizar [!UICONTROL Canales de marketing] con [!UICONTROL Attribution IQ].
+* Revise las prácticas recomendadas para utilizar [!UICONTROL los canales de marketing] con [!UICONTROL Attribution IQ].
 
 ## Creación de reglas de procesamiento para los canales de marketing
 
