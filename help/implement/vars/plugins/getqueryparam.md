@@ -3,9 +3,9 @@ title: getQueryParam
 description: Extraiga el valor de un parámetro de cadena de consulta de una dirección URL.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 source-git-commit: 5a087087c8f54650173391bd7766bfdfd12ccb7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '918'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -186,12 +186,12 @@ El valor de 300 se obtiene del valor del parámetro pos en la variable s.testURL
 
 ### 4.0.1 (26 de marzo de 2021)
 
-* Se ha actualizado el problema en el que se devolvía undefined en lugar de &quot;&quot; si el parámetro de consulta no estaba presente en la cadena de consulta.
+* Se ha actualizado el problema por el que se devolvía undefined en lugar de &quot;&quot; si el parámetro de consulta no estaba presente en la cadena de consulta.
 
 ### 4.0 (19 de marzo de 2021)
 
 * Se ha añadido el número de versión como datos de contexto.
-* Se han eliminado dependencias en el complemento pt .
+* Se han eliminado las dependencias del plug-in pt.
 
 ### 3.3 (24 de septiembre de 2019)
 
