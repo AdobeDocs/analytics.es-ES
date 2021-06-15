@@ -3,8 +3,8 @@ title: Prácticas recomendadas para implementar canales de marketing de Adobe An
 description: Prácticas recomendadas actualizadas para usar los canales de marketing con Attribution IQ y Customer Journey Analytics
 source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '645'
+ht-degree: 91%
 
 ---
 
