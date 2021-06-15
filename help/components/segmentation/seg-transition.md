@@ -20,7 +20,7 @@ Responde preguntas frecuentes sobre las funciones de segmentación, acceso, perm
 * Segmentación en Analysis Workspace:
 
    * [Compare segmentos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
-   * Utilice [segmentos como dimensiones](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) en una comparación.
+   * Utilice [segmentos como dimensiones](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es) en una comparación.
    * Utilice segmentos en el [análisis de visitas en el orden previsto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * Puede aplicar [varios segmentos a un informe o un proyecto](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
@@ -43,7 +43,7 @@ Para acceder al Generador de segmentos, haga lo siguiente:
 
 * En la parte superior del Administrador de segmentos, haga clic en **[!UICONTROL + Agregar]**.  ![](assets/add_button.png)
 
-   O bien
+   o
 
 * Haga clic en un título de segmento existente en el Administrador de segmentos para editarlo en el Generador de segmentos.
 
@@ -327,7 +327,7 @@ Las siguientes dimensiones se cambiaron a listas enumeradas:
 | compatibilidad con cookies del dispositivo móvil | decoración de correo móvil | sistema operativo |
 | compatibilidad con la imagen del dispositivo móvil | servicios de información móvil | tipo de referente |
 | profundidad de color del dispositivo móvil | tipo de dispositivo móvil | motor de búsqueda |
-| compatibilidad con el audio del dispositivo móvil | tipo de explorador | state |
+| compatibilidad con el audio del dispositivo móvil | tipo de explorador | estado |
 | compatibilidad con el vídeo del dispositivo móvil | explorador | país geográfico |
 | DRM móvil | tipo de conexión | región geográfica |
 | protocolos de red móvil | operador de telefonía móvil | ciudad geográfica |
