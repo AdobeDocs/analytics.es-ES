@@ -3,9 +3,9 @@ title: Análisis entre dispositivos
 description: Cambie los datos de centrados en el dispositivo a centrados en la persona mediante la vinculación de los datos del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Consulte [Journey IQ: Página de demostración de análisis entre dispositivos](
 El uso de CDA requiere lo siguiente. Los métodos de [vinculación basada en el campo](field-based-stitching.md) y [gráficos del dispositivo](device-graph.md) también tienen sus propios requisitos previos específicos.
 
 * Se debe firmar un contrato con Adobe que incluya Adobe Analytics Ultimate.
-* El análisis entre dispositivos se habilita por grupo de informes. Adobe recomienda un grupo de informes que contenga datos entre dispositivos, es decir, datos de varios tipos de dispositivos (web, aplicación, etc.). Algunas organizaciones se refieren a este concepto como un grupo de informes “global”, aunque el CDA no tiene que ser estrictamente global desde una perspectiva geográfica.
+* Cross-Device Analytics se habilita por grupo de informes. Adobe recomienda un grupo de informes que contenga datos entre dispositivos, es decir, datos de varios tipos de dispositivos (web, aplicación, etc.). Algunas organizaciones se refieren a este concepto como un grupo de informes “global”, aunque el CDA no tiene que ser estrictamente global desde una perspectiva geográfica.
 
 ## Limitaciones
 
@@ -44,7 +44,7 @@ El análisis entre dispositivos es una característica innovadora y sólida, per
 * CDA solo está disponible a través de Analysis Workspace.
 * El análisis entre dispositivos no funciona en todos los grupos de informes ni combina datos de varios grupos de informes.
 * Los grupos de informes de Adobe Analytics no pueden asignarse a más de una organización de IMS. Dado que CDA vincula dispositivos dentro de un grupo de informes determinado, CDA no se puede usar para unir datos en varias organizaciones IMS.
-* Private Graph aprovecha las mismas sincronizaciones de ID que las utilizadas por la capacidad [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=en#customer-attributes) ubicada en Experience Cloud y Adobe Analytics. Sin embargo, los grupos de informes virtuales de CDA (basados en gráficos privados o en la vinculación basada en campos) no son compatibles con el resto de la funcionalidad Atributos del cliente. Es decir, las dimensiones basadas en Atributos del cliente no están disponibles para su uso en los grupos de informes virtuales CDA.
+* Private Graph aprovecha las mismas sincronizaciones de ID que las utilizadas por la capacidad [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es#customer-attributes) ubicada en Experience Cloud y Adobe Analytics. Sin embargo, los grupos de informes virtuales de CDA (basados en gráficos privados o en la identificación entre dispositivos basada en campos) no son compatibles con el resto de la funcionalidad Atributos del cliente. Es decir, las dimensiones basadas en atributos del cliente no están disponibles para su uso en los grupos de informes virtuales de CDA.
 * En la actualidad, CDA no es compatible con A4T.
 * Análisis entre dispositivos utiliza un grupo de informes virtuales y un procesamiento de tiempo de informes, que tienen sus propias limitaciones. Consulte [Grupos de informes virtuales](../vrs/vrs-about.md) y [Procesamiento de tiempo de los informes](../vrs/vrs-report-time-processing.md) para saber más sobre estas limitaciones.
 * La API 1.4 no es compatible. Los conectores de Power BI y Report Builder dependen de la API 1.4 y, por lo tanto, no son compatibles con CDA.
