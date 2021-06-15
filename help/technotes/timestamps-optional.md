@@ -5,10 +5,10 @@ title: Usar marcas de hora opcionales
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 97%
+source-wordcount: '608'
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ Los siguientes son las prácticas recomendadas y algunos requisitos y limitacion
 
    Los datos desordenados pueden ser datos que llegan tarde desde una recopilación de datos sin conexión y visitas que llegan tarde, o relojes desincronizados en dispositivos móviles sin conexión. Los datos desordenados pueden afectar negativamente a los informes de cálculos de tiempo (por ejemplo, valores de tiempo invertido), atribuciones (persistencia de eVar), número o recuento de visitas y e informes de rutas.
 
-* No se recomienda utilizar marcas de hora cuando se establece [s.visitorID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html). Puede producir datos desordenados.
+* No se recomienda utilizar marcas de hora cuando se establece [s.visitorID](/help/implement/vars/config-vars/visitorid.md). Puede producir datos desordenados.
 
 * Las aplicaciones híbridas compuestas por una aplicación (datos sin conexión con marca de hora) que abre un explorador web (datos activos sin marca de hora) no deben utilizar marcas de hora. Produce informes inexactos acerca de la sesión.
 
