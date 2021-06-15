@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Ayude a organizar los datos usando componentes como segmentos, métricas calculadas, grupos de informes virtuales y alertas.
-translation-type: tm+mt
 source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +49,7 @@ ht-degree: 99%
    + [Vínculo de salida](dimensions/exit-link.md)
    + [Canal de primer contacto](dimensions/first-touch-channel.md)
    + [Detalles de canal de primer contacto](dimensions/first-touch-detail.md)
-   + [Profundidad de visita](dimensions/hit-depth.md)
+   + [Profundidad de la visita](dimensions/hit-depth.md)
    + [Tipo de visita](dimensions/hit-type.md)
    + [Hora del día](dimensions/hour-of-day.md)
    + [Hora](dimensions/hour.md)
@@ -70,11 +69,11 @@ ht-degree: 99%
    + [Sistemas operativos](dimensions/operating-systems.md)
    + [Dominio de referencia original](dimensions/original-referring-domain.md)
    + [URL de la página](dimensions/page-url.md)
-   + [Activity Map](dimensions/page.md)
+   + [Página](dimensions/page.md)
    + [Páginas no encontradas](dimensions/pages-not-found.md)
    + [Búsqueda de pago](dimensions/paid-search.md)
    + [Compatibilidad con cookies persistentes](dimensions/persistent-cookie-support.md)
-   + [Product](dimensions/product.md)
+   + [Producto](dimensions/product.md)
    + [Prop](dimensions/prop.md)
    + [Trimestre del año](dimensions/quarter-of-year.md)
    + [Trimestre](dimensions/quarter.md)
@@ -93,7 +92,7 @@ ht-degree: 99%
    + [Tiempo empleado por visita](dimensions/time-spent-per-visit.md)
    + [Código de seguimiento](dimensions/tracking-code.md)
    + [Motivo de exclusión de seguimiento](dimensions/tracking-opt-out-reason.md)
-   + [Área de mercado designada (DMA) de EE. UU.](dimensions/us-dma.md)
+   + [Área de mercado designada (DMA) de EE.UU.](dimensions/us-dma.md)
    + [Estados estadounidenses](dimensions/us-states.md)
    + [Profundidad de la visita](dimensions/visit-depth.md)
    + [Número de visita](dimensions/visit-number.md)
@@ -127,7 +126,7 @@ ht-degree: 99%
    + [Eventos de página](metrics/page-events.md)
    + [Vistas de páginas](metrics/page-views.md)
    + [Páginas no encontradas](metrics/pages-not-found.md)
-   + [People](metrics/people.md)
+   + [Personas](metrics/people.md)
    + [Vistas del producto](metrics/product-views.md)
    + [Recargas](metrics/reloads.md)
    + [Ingresos](metrics/revenue.md)
@@ -178,7 +177,7 @@ ht-degree: 99%
       + [Tipo de métrica y atribución](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Crear una métrica &quot;Vistas de página por visitas&quot; simple](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Métricas segmentadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
-      + [Apilar y reemplazar segmentos](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
+      + [Apilar y sustituir segmentos](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Métricas filtradas y ponderadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [Métrica de ayudas para pedidos](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Uso de funciones](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
@@ -238,7 +237,7 @@ ht-degree: 99%
       + [Flujo de trabajo del generador de reglas de clasificación](classifications/crb/classification-rule-builder.md)
       + [Conjuntos de reglas de clasificación](classifications/crb/classification-rule-set.md)
       + [Reglas de clasificación](classifications/crb/classification-quickstart-rules.md)
-      + [Definiciones de reglas de clasificación](classifications/crb/classification-rule-definitions.md)
+      + [Reglas de clasificación - Definiciones](classifications/crb/classification-rule-definitions.md)
       + [Subclasificaciones y el Generador de reglas](classifications/crb/sub-classification-rule-builder.md)
    + [Subclasificaciones](classifications/c-sub-classifications.md)
    + [Preguntas más frecuentes sobre las clasificaciones](classifications/faq.md)
@@ -254,6 +253,6 @@ ht-degree: 99%
    + [Reglas de procesamiento de canales de marketing](c-marketing-channels/c-rules.md)
    + [Clasificaciones en los canales de marketing](c-marketing-channels/classifictions-mchannel.md)
    + [Caducidad de la participación del visitante](c-marketing-channels/visitor-engagement.md)
-   + [Analizar canales de marketing](c-marketing-channels/analyze-mc.md)
+   + [Analizar Canales de marketing](c-marketing-channels/analyze-mc.md)
    + [Permisos de canales de marketing](c-marketing-channels/c-channel-report-access.md)
    + [Preguntas más frecuentes y ejemplos de canales de marketing](c-marketing-channels/c-faq.md)
