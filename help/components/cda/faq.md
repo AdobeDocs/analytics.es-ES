@@ -3,9 +3,9 @@ title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1674'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 ## ¿Cómo puedo usar CDA para ver cómo la gente se mueve de un tipo de dispositivo a otro?
 
-Puede utilizar una visualización [!UICONTROL Flujo] con la dimensión Tipo de dispositivo móvil .
+Puede utilizar una visualización de [!UICONTROL flujo] con la dimensión Tipo de dispositivo móvil.
 
 1. Inicie sesión en Adobe Analytics y cree un nuevo proyecto de Workspace en blanco.
 2. Haga clic en la pestaña Visualizaciones de la izquierda y arrastre una visualización de Flujo al lienzo de la derecha.
@@ -97,7 +97,7 @@ El cambio del gráfico del dispositivo a la vinculación basada en el campo o vi
 
 CDA extrae los elementos de dimensión de eVar antes de optimizarlos para la creación de informes. No es necesario preocuparse por los límites únicos para el propósito de CDA. Sin embargo, si ha intentado utilizar esa propiedad o eVar en un proyecto de Workspace, todavía puede ver el elemento de dimensión [(poco tráfico)](/help/technotes/low-traffic.md).
 
-## ¿Cuántos de los grupos de informes de mi empresa se pueden habilitar para CDA?
+## ¿Cuántos de los grupos de informes de mi compañía se pueden habilitar para CDA?
 
 Se pueden habilitar varios grupos de informes, pero cada grupo de informes adicional aumentará el tiempo de aprovisionamiento general si se solicitan varios grupos de informes a la vez. CDA no combina grupos de informes. Cada grupo de informes habilitado para CDA debe ser de varios dispositivos (con datos de varias superficies, como la web de escritorio, la web móvil, la aplicación móvil, etc.)
 
@@ -111,6 +111,6 @@ La ventaja de la ventana retrospectiva de reproducción de 7 días es que CDA pu
 
 Las ventajas de utilizar la ventana retrospectiva de reproducción de 1 día son 1) la reproducción se ejecuta todos los días y 2) solo ayer está sujeto a cambios. La desventaja de la ventana retrospectiva de 1 día es que CDA solo puede retroceder 1 día para intentar asociar eventos anteriormente anónimos con una persona que inició sesión ayer.
 
-## ¿Qué sucede con los datos vinculados dentro de mi grupo de informes virtuales CDA si mi empresa decide reducir la categoría a partir de Analytics Ultimate?
+## ¿Qué sucede con los datos vinculados dentro de mi grupo de informes virtuales de CDA si mi compañía decide reducir la categoría a partir de Analytics Ultimate?
 
-Si un cliente rebaja de Ultimate, ya no tendrá acceso a los datos enlazados. Se eliminarán todos los datos enlazados anteriormente. Esto significa que los grupos de informes virtuales de CDA ahora no reflejarán la vinculación entre dispositivos. Los datos serán similares al grupo de informes no enlazado original.
+Si un cliente abandona Ultimate, ya no tendrá acceso a los datos enlazados. Se eliminarán todos los datos enlazados anteriormente. Esto significa que los grupos de informes virtuales de CDA ahora no reflejarán la vinculación entre dispositivos. Los datos serán similares al grupo de informes no enlazado original.
