@@ -4,9 +4,9 @@ title: Envío de solicitudes de acceso y eliminación
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1307'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Puede enviar y eliminar solicitudes de acceso a la privacidad de datos a través
 >
 >La API de privacidad de datos admite los envíos en lotes para varios usuarios en una única solicitud. El limite admitido actual es de 1000 usuarios independientes (pueden tener múltiples ID por usuario) en un único archivo JSON de solicitud.
 
-## Ejemplos de solicitudes de JSON  {#sample-json-request}
+## Ejemplos de solicitudes de JSON {#sample-json-request}
 
 A continuación tiene un JSON que podría enviarse mediante la API o la interfaz de privacidad de datos con el fin de solicitar el procesamiento de privacidad de datos para tres usuarios.
 
