@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Proporciona instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como Adobe Analytics Dashboards, Report Builder y Activity Map.
-translation-type: tm+mt
 source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +42,7 @@ ht-degree: 99%
       + [Resumen de las visualizaciones](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Administración de fuentes de datos](analysis-workspace/visualizations/t-sync-visualization.md)
       + Tabla de forma libre {#freeform-table}
-         + [Tabla de forma libre](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [Tabla improvisada](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + Configuración de columna y fila {#column-row-settings}
             + [Configuración de columna](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Configuración de filas](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
@@ -91,7 +90,7 @@ ht-degree: 99%
          + [Pruebas estadísticas utilizadas en la comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Curar y compartir proyectos {#curate-share}
       + [Menú Compartir](analysis-workspace/curate-share/send-schedule-files.md)
-      + [Depurar proyectos de ](analysis-workspace/curate-share/curate.md)
+      + [Depurar proyectos de](analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos](analysis-workspace/curate-share/share-projects.md)
       + [Crear vínculos que se pueden compartir](analysis-workspace/curate-share/shareable-links.md)
       + [Proyectos de solo de vista](analysis-workspace/curate-share/view-only-projects.md)
@@ -129,18 +128,18 @@ ht-degree: 99%
       + [Requisitos de administración](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accesibilidad en Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
-   + [Ayuda del Report Builder de Adobe](report-builder/home.md)
+   + [Ayuda de Report Builder de Adobe](report-builder/home.md)
    + Configuración del Report Builder {#report-builder-setup}
       + [Requisitos del sistema](report-builder/setup/system-requirements.md)
-      + [Instalación del Report Builder](report-builder/setup/t-install-arb.md)
-      + [Actualizar el Report Builder](report-builder/setup/upgrade-arb.md)
-      + [Inicio de sesión en el Report Builder](report-builder/setup/login.md)
-      + [Desinstalación del Report Builder](report-builder/setup/t-uninstall-arb.md)
-      + [Invocar la funcionalidad del Report Builder desde las funciones de Microsoft Excel](report-builder/setup/invoke-arb-excel-function.md)
-   + [Barra de herramientas del Report Builder](report-builder/reportbuilder-toolbar.md)
+      + [Instalación de Report Builder](report-builder/setup/t-install-arb.md)
+      + [Actualizar Report Builder](report-builder/setup/upgrade-arb.md)
+      + [Inicio de sesión en Report Builder](report-builder/setup/login.md)
+      + [Desinstalación de Report Builder](report-builder/setup/t-uninstall-arb.md)
+      + [Invocar la funcionalidad de Report Builder desde las funciones de Microsoft Excel](report-builder/setup/invoke-arb-excel-function.md)
+   + [Barra de herramientas de Report Builder](report-builder/reportbuilder-toolbar.md)
    + Solicitudes de datos {#data-requests}
       + [Solicitudes de datos: Paso 1 del Asistente para solicitudes](report-builder/data-requests/data-requests.md)
-      + [Creación de una solicitud de datos](report-builder/data-requests/t-create-a-data-request.md)
+      + [Crear una solicitud de datos](report-builder/data-requests/t-create-a-data-request.md)
       + Grupos de informes {#report-suites}
          + [Selección de un grupo de informes](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
          + [Selección de un grupo de informes de una solicitud existente en Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
@@ -149,7 +148,7 @@ ht-degree: 99%
       + [Permitir anulaciones de la lista de publicación](report-builder/data-requests/allow-publishing-list-overrides.md)
       + Tipos de informes {#report-types}
          + [Información general sobre tipos de informes](report-builder/data-requests/c-report-types/select-report-types.md)
-         + [Informes de ruta y de abandonos de ruta en el Report Builder](report-builder/data-requests/c-report-types/report-path-fallout.md)
+         + [Informes de ruta y de abandonos de ruta en Report Builder](report-builder/data-requests/c-report-types/report-path-fallout.md)
          + [Filtrado de un informe de rutas mediante el Asistente para solicitudes](report-builder/data-requests/c-report-types/path-filter.md)
          + [Filtrado de un informe de abandonos mediante el Asistente para solicitudes](report-builder/data-requests/c-report-types/fallout-filter.md)
          + [Filtrado de informes de ruta añadiendo solicitudes dependientes](report-builder/data-requests/c-report-types/create-toppath-filter.md)
@@ -171,7 +170,7 @@ ht-degree: 99%
             + [Consideraciones](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/considerations.md)
          + [Fechas de una celda](report-builder/data-requests/configuring-report-dates/t-dates-from-a-cell.md)
          + [Granularidad](report-builder/data-requests/configuring-report-dates/granularity.md)
-         + [Calendario personalizado ](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
+         + [Calendario personalizado](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [Controles interactivos](report-builder/data-requests/interactive-controls.md)
    + Diseño: Paso 2 del Asistente para solicitudes {#layout}
       + [Resumen del diseño](report-builder/layout/layout.md)
@@ -221,7 +220,7 @@ ht-degree: 99%
       + [Guardar un libro con solicitudes](report-builder/manage-requests/save-a-workbook-with-requests.md)
       + [Especificar un formato condicional](report-builder/manage-requests/specify-conditional-formatting.md)
       + [Modo sin conexión para crear y editar solicitudes](report-builder/manage-requests/offline-mode.md)
-   + [Opciones del Report Builder](report-builder/options.md)
+   + [Opciones de Report Builder](report-builder/options.md)
    + [Programar solicitudes de informes](report-builder/schedule-report-requests.md)
    + [Programar un libro](report-builder/t-schedule-a-data-request.md)
    + [Administrador de tareas programadas](report-builder/r-arb-scheduled-reports.md)
@@ -242,11 +241,11 @@ ht-degree: 99%
    + [Solución de problemas del Report Builder](report-builder/troubleshoot.md)
    + [Preguntas frecuentes sobre Report Builder](report-builder/faq.md)
 + Activity Map {#activity-map}
-   + [Preguntas frecuentes sobre Activity Map](activity-map/activity-map.md)
+   + [Descripción general de Activity Map](activity-map/activity-map.md)
    + Introducción {#getting-started}
       + Introducción para administradores {#get-started-admins}
          + [Habilitar Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [Implementación del Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+         + [Implementación de Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + Introducción para usuarios {#get-started-users}
          + [Instalación de los complementos del explorador de Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [Inicio de Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
@@ -275,8 +274,8 @@ ht-degree: 99%
    + [Solución de problemas de la recopilación de datos](activity-map/troubleshoot-data-collection.md)
    + [Recursos de conocimientos](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
-   + [Introducción a Reports and Analytics](reports-analytics/getting-started.md)
-   + [Adobe Analytics: Conceptos clave](reports-analytics/key-concepts.md)
+   + [Introducción a Reports &amp; Analytics](reports-analytics/getting-started.md)
+   + [Adobe Analytics: conceptos clave](reports-analytics/key-concepts.md)
    + Descripción general de la interfaz de informes {#reporting-interface}
       + [Información sobre la recopilación de datos](reports-analytics/overview/overview-data-collection.md)
       + [Menú Informes](reports-analytics/overview/reports-menu.md)
