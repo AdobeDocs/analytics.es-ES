@@ -3,9 +3,9 @@ title: Integrar módulo
 description: El módulo Integrate permite a los socios de Adobe integrar sus esfuerzos de recopilación de datos con su organización.
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '880'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Para obtener el código del módulo, es necesario que un usuario tenga acceso al
 
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics.
-1. En la barra de navegación superior, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administrador de códigos]**.
+1. En el menú de navegación superior, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administrador de códigos]**.
 1. Descargue la biblioteca de AppMeasurement de JavaScript más reciente.
 1. Una vez descargado, descomprima el archivo y busque `AppMeasurement_Module_Integrate.js`.
 
@@ -62,7 +62,7 @@ s.Integrate.add("<partner_name>");
 
 Su organización suele trabajar con un socio de Adobe para determinar el valor del nombre del socio.
 
-### beacon
+### aviso
 
 El método `beacon` crea una solicitud de imagen y marca la dirección URL especificada. Estas solicitudes de imagen son diferentes a las solicitudes de imagen estándar. El método de señalización suele enviar datos al socio de Adobe en lugar de a los servidores de recopilación de datos de Adobe.
 
@@ -72,11 +72,11 @@ p.beacon("<partner_url>/track?qs1=value1&qs2=value2");
 
 Su organización suele trabajar con el socio de Adobe para determinar el valor del nombre del socio. Las cadenas de consulta incluidas en la dirección URL son opcionales y dependen del socio. El módulo Integrate incluye automáticamente una cadena de consulta que contiene un número aleatorio para evitar el almacenamiento en caché del explorador.
 
-### delay
+### retraso
 
 Adobe está trabajando con sus equipos internos para documentar este método.
 
-### get
+### obtener
 
 El método `get` permite a un cliente importar variables de socio y almacenarlas en el objeto de socio. Una vez que los datos están en el objeto de socio, se pueden asignar a variables de Analytics y enviar en una solicitud de imagen. Este método llama a una dirección URL, que apunta a un objeto JSON que contiene los datos deseados.
 
@@ -90,7 +90,7 @@ s.Integrate.<partner_name>.get("<url_to_json_object>?pid=value1&pid2=value2");
 
 El módulo Integrate agrega automáticamente más cadenas de consulta a la dirección URL. Una cadena de consulta var especifica el nombre del objeto JSON que el módulo espera del socio. También se agrega un número aleatorio para evitar el almacenamiento en caché del explorador.
 
-### ready
+### listo
 
 Adobe está trabajando con sus equipos internos para documentar este método.
 
