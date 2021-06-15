@@ -3,9 +3,9 @@ title: getPageLoadTime
 description: Rastree el tiempo que tarda una página en cargarse.
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: c814c023fe909b5e78d6dd46de8c27213a4d92be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ if(s._pltPreviousPage)
 
 ### 2.0.1 (26 de marzo de 2021)
 
-* Se ha corregido un problema por el que el complemento no establecía correctamente los valores en el objeto s .
+* Se ha corregido un problema por el que el plug-in no establecía correctamente los valores en el objeto s.
 
 ### 2.0 (19 de marzo de 2021)
 
