@@ -8,7 +8,7 @@ exl-id: d44628c8-902f-4e60-b819-41d5537407d8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ La migración de visitantes permite preservar las cookies de identificación de 
 
 * Implementación del [Servicio de ID de visitante de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html), y cambio de un CNAME o dominio de recopilación de datos de origen a `adobedc.net`, `2o7.net` o `omtrdc.net`
 
-* Cambio de un cname o un servidor de recopilación de datos de origen ([Cookies de origen)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html).
+* Cambio de un cname o un servidor de recopilación de datos de origen ([Cookies de origen)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=es).
 
 * Se cambia de un CNAME a otro (cambio de dominios).
 
