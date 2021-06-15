@@ -5,27 +5,27 @@ feature: Métricas
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '641'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 # Valor de poco tráfico en Adobe Analytics
 
-Cuando un informe tiene muchos valores únicos, Adobe proporciona funcionalidad para garantizar que los valores más importantes aparezcan en el informe. Los valores de variables únicas recopilados después de aproximadamente 500 000 valores existentes se enumeran en un elemento de línea titulado **[!UICONTROL Poco tráfico]**.
+Cuando un informe contiene varios valores únicos, una funcionalidad incluida en Adobe permite asegurar que los valores más importantes aparezcan en el informe. Los valores de variables únicas recopilados después de aproximadamente 500 000 valores existentes se enumeran con un elemento de línea titulado **[!UICONTROL Poco tráfico]**.
 
-## Funcionamiento de [!UICONTROL Low-Traffic]
+## Funcionamiento de [!UICONTROL Poco tráfico]
 
 * La creación de informes no se ve afectada si la variable no alcanza los 500 000 valores únicos en un mes determinado.
 * Cuando una variable alcanza el primer umbral de 500 000, los datos comienzan a agruparse en bloques de poco tráfico. Todos los valores que superan este umbral se rigen por la siguiente lógica:
-   * Si ya se ve un valor en los informes, agréguelo como de costumbre.
-   * Si un valor aún no aparece en los informes, aparecerá en el elemento de línea [!UICONTROL Poco tráfico]. Si un valor que se ha incluido en el elemento de línea [!UICONTROL Tráfico bajo] se ve un número significativo de veces en un corto tiempo, empezará a reconocerse como su propio elemento de línea. El número significativo de veces que se debe ver un elemento tiene muchas dependencias, como el número de servidores de procesamiento y demonios que están procesando datos para ese grupo de informes en particular.
+   * Si un valor ya figura en los informes, añádalo como de costumbre.
+   * Si un valor aún no aparece en los informes, aparecerá en el elemento de línea [!UICONTROL Poco tráfico]. Si un valor que se ha incluido en el elemento de línea [!UICONTROL Poco tráfico] se ve un número significativo de veces en un corto tiempo, empezará a reconocerse como su propio elemento de línea. El número significativo de veces que se debe ver un elemento tiene muchas dependencias, como el número de servidores de procesamiento y daemons que están procesando datos para ese grupo de informes en particular.
 * Si un grupo de informes alcanza más de 1 000 000 de valores únicos, se aplica un filtrado más intenso:
-   * Si ya se ve un valor en los informes, agréguelo como de costumbre.
-   * Si un valor aún no aparece en los informes, aparecerá en el elemento de línea [!UICONTROL Poco tráfico]. Si un valor que se ha incluido en el elemento de línea [!UICONTROL Tráfico bajo] se ve un número significativo de veces en un corto tiempo, empezará a reconocerse como su propio elemento de línea. El número significativo de veces que se debe ver un elemento tiene muchas dependencias, como el número de servidores de procesamiento y demonios que están procesando datos para ese grupo de informes en particular.
+   * Si un valor ya figura en los informes, añádalo como de costumbre.
+   * Si un valor aún no aparece en los informes, aparecerá en el elemento de línea [!UICONTROL Poco tráfico]. Si un valor que se ha incluido en el elemento de línea [!UICONTROL Poco tráfico] se ve un número significativo de veces en un corto tiempo, empezará a reconocerse como su propio elemento de línea. El número significativo de veces que se debe ver un elemento tiene muchas dependencias, como el número de servidores de procesamiento y daemons que están procesando datos para ese grupo de informes en particular.
 
-¿Por qué el Adobe mueve un elemento de la línea [!UICONTROL Tráfico bajo] a su propio elemento de línea? Por ejemplo, este movimiento podría reconocer una página nueva o elemento nuevo popular que se agregó más adelante en el mes (después de superar los valores exclusivos) y que recibe muchas visitas o vistas. El movimiento no pretende capturar todo lo que recibe un determinado número de visitas/visitas al día o al mes.
+¿Por qué Adobe mueve un elemento de la línea [!UICONTROL Poco tráfico] a su propio elemento de línea? Por ejemplo, este movimiento podría reconocer una página nueva o elemento nuevo popular que se añadió más adelante ese mes (después de superar los valores exclusivos) y que recibe muchas visitas o vistas. El movimiento no pretende capturar todo lo que recibe un determinado número de visitas/visitas al día o al mes.
 
 ## Cambio de los umbrales de límite único
 
