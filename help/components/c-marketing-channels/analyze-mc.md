@@ -5,7 +5,7 @@ exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 81%
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ Quizá quiera saber cuál de sus canales de marketing es el más efectivo y con 
 | Canal de último contacto | Dimensión heredada, con modelo de atribución de último contacto preaplicado e inmodificable. |
 | Canal de primer contacto | Dimensión heredada, con modelo de atribución de primer contacto preaplicado e inmodificable. |
 | Instancias de Canal de marketing | Esta métrica mide el número de veces que se definió un canal de marketing en una solicitud de imagen, incluidas las vistas de página estándar y las llamadas de vínculo personalizado. No incluye valores persistentes. |
-| Nuevos compromisos | Esta métrica es similar a Instancias, pero solo se incrementa cuando el canal de marketing de primer toque se define en una solicitud de imagen. |
+| Nuevos compromisos | Esta métrica es similar a Instancias, pero solo se incrementa cuando el canal de marketing de primer contacto se define en una solicitud de imagen. |
 
 ## Análisis básico
 
@@ -57,7 +57,7 @@ Observe cómo la misma métrica (Pedidos en línea) genera resultados diferentes
 
 ## Análisis de marketing entre fichas
 
-Con el Canal de primer toque heredado y el Canal de último toque, puede obtener una vista útil de las interacciones de canal:
+Con el Canal de primer contacto heredado y el Canal de último contacto, puede obtener una vista útil en las interacciones del canal:
 
 ![](assets/mc-viz6.png)
 
