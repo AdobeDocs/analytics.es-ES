@@ -5,7 +5,7 @@ feature: Segmentación
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
 ht-degree: 100%
 
@@ -60,6 +60,6 @@ Filtre por etiquetas, propietarios y otros filtros (Mostrar todo, Míos, Compart
 
 Marcar los segmentos como favoritos es otra manera de organizarlos para que su uso sea más sencillo.
 
-[Administrar segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md)
+[Administración de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md)
 
 El Administrador de segmentos ofrece numerosas maneras de conservar los segmentos, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
