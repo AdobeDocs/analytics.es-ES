@@ -7,7 +7,7 @@ uuid: 08685919-216d-448b-b886-3adf5ff5405e
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '2028'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -406,7 +406,7 @@ Instrucciones sobre cómo validar y activar reglas de clasificación.
 
    ![](assets/overwrite_keys.png)
 
-1. (Opcional) Para sobrescribir clasificaciones, habilite **[!UICONTROL Sobrescribir clasificaciones para]** &lt;*selección*>.
+1. (Opcional) Para sobrescribir clasificaciones, active **[!UICONTROL Sobrescribir clasificaciones de]** &lt;*selección*>.
 
    Esta opción permite sobrescribir las clasificaciones existentes de las claves afectadas.
 
