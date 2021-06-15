@@ -6,9 +6,9 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Las organizaciones con un contrato para Adobe Analytics Standard, Premium y Ulti
 
 ## ¿Cómo es compatible Activity Map con las aplicaciones de una sola página (SPA)?
 
-Cada pocos segundos, el Activity Map analiza la página web en busca de cambios en la página. Activity Map encuentra contenido nuevo en la página sin necesidad de cargar una página nueva, pero este contenido nuevo siempre se atribuye al primer nombre de página que se encuentra cuando se carga la página.
+Cada pocos segundos, Activity Map analiza la página web en busca de cambios en la página. Activity Map encuentra contenido nuevo en la página sin necesidad de cargar una página nueva, pero este contenido nuevo siempre se atribuye al primer nombre de página que se encuentra cuando se carga la página.
 
-* El Activity Map comprueba si la visibilidad de los vínculos de los que conoce ha cambiado. Si se encuentra un cambio en la visibilidad, la columna Vínculos en la página Presente de la tabla para ese vínculo se actualiza con [!UICONTROL Mostrado] o [!UICONTROL Oculto].
+* Activity Map comprueba si la visibilidad de los vínculos que conoce ha cambiado. Si se encuentra un cambio en la visibilidad, la columna Presente de la tabla Vínculos en la página para ese vínculo se actualiza con [!UICONTROL Mostrado] u [!UICONTROL Oculto].
 
-* Cuando la interacción del usuario crea contenido nuevo, cualquier elemento nuevo que AppMeasurement encuentre como vínculo se agregará a la tabla [!UICONTROL Vínculos en la página]. El Activity Map envía una nueva solicitud de datos que incluye estos nuevos vínculos. Los nuevos vínculos deben aparecer en la tabla [!UICONTROL Vínculos en la página] cuando la interfaz de usuario gestione la solicitud de datos.
+* Cuando la interacción del usuario crea contenido nuevo, cualquier elemento nuevo que AppMeasurement encuentre como vínculo se añadirá a la tabla [!UICONTROL Vínculos en la página]. Activity Map envía una nueva solicitud de datos que incluye estos nuevos vínculos. Los nuevos vínculos deben aparecer en la tabla [!UICONTROL Vínculos en la página] cuando la IU gestione la solicitud de datos.
 
 
 ## ¿Activity Map proporciona datos sobre “vistas”?
