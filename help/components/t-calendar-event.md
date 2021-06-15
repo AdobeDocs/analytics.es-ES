@@ -5,9 +5,9 @@ feature: Conceptos básicos de Reports & Analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
