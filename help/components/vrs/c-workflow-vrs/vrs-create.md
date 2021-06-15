@@ -6,9 +6,9 @@ feature: Conceptos básicos de Reports & Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Antes de empezar a crear grupos de informes virtuales, hay que tener algunos asp
 
    ![](assets/new_vrs.png)
 
-## Definir configuración
+## Definir la configuración
 
-En la pestaña [!UICONTROL Settings], defina esta configuración y haga clic en **[!UICONTROL Continue]**.
+En la pestaña [!UICONTROL Configuración], defina esta configuración y haga clic en **[!UICONTROL Continuar]**.
 
 | Elemento | Descripción |
 | --- |--- |
@@ -38,9 +38,9 @@ En la pestaña [!UICONTROL Settings], defina esta configuración y haga clic en 
 | Zona horaria | Elegir una zona horaria es opcional. Si elige una zona horaria, esta se guarda junto con el VRS. En caso contrario, se usará la zona horaria del grupo de informes superior.  Al editar un VRS, la zona horaria que se guardó con el VRS se muestra en el selector desplegable. Si el VRS se creó antes de que se añadiera la opción de la zona horaria, en el selector desplegable se muestra la zona horaria del grupo de informes superior. |
 | Segmentos | Solo tiene que añadir un segmento o apilar otros.   Nota: Al apilar dos segmentos, se unen de manera predeterminada con una instrucción AND. No es posible cambiarlo a una instrucción OR. Si intenta eliminar o modificar un segmento que se utilice en un grupo de informes virtuales, se muestra un error. |
 
-## Definir la definición de la visita
+## Definir la descripción de la visita
 
-En la pestaña [!UICONTROL Definición de la visita], defina esta configuración y haga clic en **[!UICONTROL Continuar]**.
+En la pestaña [!UICONTROL Descripción de la visita], defina esta configuración y haga clic en **[!UICONTROL Continuar]**.
 
 ![](assets/visit-definition.png)
 
@@ -58,17 +58,17 @@ En la pestaña [!UICONTROL Definición de la visita], defina esta configuración
 
 ![](assets/components.png)
 
-1. En la pestaña [!UICONTROL Components], active la casilla de verificación para aplicar la depuración para incluir, excluir y cambiar el nombre de los componentes de este grupo de informes virtuales en Analysis Workspace.
-Para obtener más información sobre la depuración de VRS, consulte [Revisión de componentes de grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites).
+1. En la pestaña [!UICONTROL Componentes], active la casilla de verificación para aplicar la depuración para incluir, excluir y cambiar el nombre de los componentes de este grupo de informes virtuales en Analysis Workspace.
+Para obtener más información sobre la depuración de VRS, consulte [Depuración de componentes de grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=es#virtual-report-suites).
 
-1. Arrastre componentes (dimensiones, métricas, segmentos o intervalos de fechas) que desee incluir en el VRS a la sección [!UICONTROL Componentes incluidos] .
+1. Arrastre los componentes (dimensiones, métricas, segmentos o intervalos de fechas) que desee incluir en el VRS a la sección [!UICONTROL Componentes incluidos].
 
 1. Cuando haya terminado, haga clic en **[!UICONTROL Guardar]**.
 
-## Vista previa de datos
+## Previsualización de datos
 
-A la derecha de cada ficha, puede obtener una vista previa del total de visitas, el total de visitas y el total de visitantes en este grupo de informes virtuales, en comparación con el grupo de informes original.
+A la derecha de cada pestaña, puede previsualizar el total de acciones, visitas y visitantes en este grupo de informes virtuales, en comparación con el grupo de informes original.
 
 ## Ver compatibilidad del producto
 
-Algunos productos de Adobe Analytics no admiten algunas funciones de grupos de informes virtuales. La lista de compatibilidad del producto le permite ver qué productos de Adobe Analytics son compatibles en función de la configuración actual del grupo de informes virtuales.
+Algunos productos de Adobe Analytics no admiten algunas funciones de los grupos de informes virtuales. La lista de compatibilidad del producto le permite ver qué productos de Adobe Analytics son compatibles en función de la configuración actual del grupo de informes virtuales.
