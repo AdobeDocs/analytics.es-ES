@@ -3,9 +3,9 @@ title: Inicio de sesión para resolver problemas en Adobe Analytics
 description: Pasos a seguir cuando no se puede iniciar sesión en Adobe Analytics.
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '611'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Si la eliminación de las cookies o la caché del explorador no resuelve el prob
 >Los siguientes pasos para restablecer la contraseña de un usuario solo se aplican a los ID de Analytics heredados, no a los de Adobe ID. Si su organización utiliza Adobe ID, puede administrar las cuentas de usuario en [adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Inicie sesión en Adobe Analytics con una cuenta que tenga derechos administrativos.
-2. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administración de usuarios]**.
+2. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL User management]**.
 3. Haga clic en la pestaña **[!UICONTROL Uuarios]** y luego en **[!UICONTROL Editar]** junto al usuario deseado.
 4. Cambie la contraseña a cualquier valor y marque la casilla **[!UICONTROL Requerir al usuario que cambie la contraseña en el próximo inicio de sesión]**.
 5. Informe al usuario de la nueva contraseña.
