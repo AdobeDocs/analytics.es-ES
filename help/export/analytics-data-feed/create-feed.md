@@ -5,7 +5,7 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 82%
+ht-degree: 90%
 
 ---
 
@@ -20,9 +20,9 @@ Antes de leer esta página se recomienda conocer las fuentes de datos de forma b
 * **Nombre**: nombre de la fuente de datos. Debe ser único dentro del grupo de informes seleccionado y puede tener hasta 255 caracteres de longitud.
 * **Grupo de informes:** grupo de informes en el que se basa la fuente de datos. Si se crean varias fuentes de datos para el mismo grupo de informes, deben tener definiciones de columnas diferentes. Solo los grupos de informes de origen admiten fuentes de datos, no se admiten los grupos de informes virtuales.
 * **Enviar un mensaje de correo electrónico cuando se complete**: la dirección de correo electrónico que se notificará cuando una fuente termine de procesarse. La dirección de correo electrónico debe tener el formato correcto.
-* **Intervalo de fuente**: las fuentes por hora contienen datos de una sola hora. Las fuentes diarias contienen datos de un día completo; incluyen datos de la medianoche a la medianoche en el huso horario del grupo de informes.
+* **Intervalo de fuente**: las fuentes por hora contienen datos de una sola hora. Las fuentes diarias contienen datos de un día completo, con datos de la medianoche a la medianoche en el huso horario del grupo de informes.
 * **Retrasar procesamiento**: espere un tiempo determinado antes de procesar un archivo de fuente de datos. Un retraso puede resultar útil para ofrecer a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos. También se puede utilizar para dar cabida a los procesos del lado del servidor de su organización en la administración de archivos procesados anteriormente. En la mayoría de los casos, no es necesario un retraso. Una fuente se puede retrasar hasta 120 minutos.
-* **Fechas de inicio y finalización**: la fecha de inicio indica la primera fecha en la que desea una fuente de datos. Establezca esta fecha en el pasado para comenzar inmediatamente a procesar fuentes de datos para datos históricos. Las fuentes continúan procesando hasta que llegan a la fecha de finalización. Las fechas de inicio y finalización se basan en la zona horaria del grupo de informes.
+* **Fechas de inicio y finalización**: la fecha de inicio indica la primera fecha en la que desea una fuente de datos. Establezca esta fecha en el pasado para comenzar inmediatamente a procesar fuentes de datos para datos históricos. Las fuentes continúan procesando hasta que llegan a la fecha de finalización. Las fechas de inicio y finalización se basan en el huso horario del grupo de informes.
 * **Fuente continua**: esta casilla elimina la fecha de finalización, lo que permite que una fuente se ejecute indefinidamente. Cuando una fuente termina de procesar datos históricos, la fuente espera a que los datos terminen de recopilar durante una hora o un día determinados. Una vez finalizada la hora o el día actuales, el procesamiento comienza después del retraso especificado.
 
 ## Campos de destino
@@ -97,7 +97,7 @@ Todas las columnas están disponibles, independientemente de si tienen datos. Un
 * **Eliminación de caracteres de escape**: al recopilar datos, algunos caracteres (como las líneas nuevas) pueden causar problemas. Marque esta casilla si desea eliminar estos caracteres de los archivos de fuente.
 * **Formato de compresión**: tipo de compresión utilizado. Gzip genera archivos en formato `.tar.gz`. El código postal muestra los archivos en formato `.zip`.
 * **Tipo de paquete**: un solo archivo genera el archivo `hit_data.tsv` en un único archivo potencialmente masivo. Varios archivos paginan los datos en fragmentos de 2 GB (sin comprimir). Si se seleccionan varios archivos y los datos sin comprimir de la ventana de informes ocupan menos de 2 GB, se envía un solo archivo. Adobe recomienda utilizar varios archivos para la mayoría de las fuentes de datos.
-* **Manifiesto**: Si el Adobe debe entregar o no un archivo de  [manifiesto ](c-df-contents/datafeeds-contents.md#feed-manifest) al destino cuando no se recopilan datos para un intervalo de fuente. Si selecciona Archivo de manifiesto, recibirá un archivo de manifiesto similar al siguiente cuando no se recopilen datos:
+* **Manifiesto**: Si Adobe debe entregar o no un archivo de [manifiesto ](c-df-contents/datafeeds-contents.md#feed-manifest) al destino cuando no se recopilan datos para un intervalo de fuente. Si selecciona Archivo de manifiesto, recibirá un archivo de manifiesto similar al siguiente cuando no se recopilen datos:
 
 ```text
    Datafeed-Manifest-Version: 1.0
