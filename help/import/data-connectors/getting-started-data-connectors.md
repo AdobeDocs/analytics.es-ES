@@ -3,9 +3,9 @@ description: Importe datos de seguimiento de aplicaciones de terceros en Analyti
 title: Introducción a Data Connectors de Analytics
 exl-id: 2ad117ba-1ef1-4808-a546-de9833dfa49d
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '975'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
