@@ -36,5 +36,6 @@ Puede enviar datos del lado del servidor de Analytics mediante la [API de inserc
 Para obtener información práctica sobre los pasos que su empresa puede seguir para dejar de usar cookies de terceros, consulte [Adquirir y mantener clientes en un mundo sin cookies con Adobe](https://business.adobe.com/es/solutions/cookieless.html) y el artículo detallado [Más allá de las cookies de terceros: uía completa para un mundo sin cookies de terceros](https://business.adobe.com/content/dam/www/us/es/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf).
 
 >[!MORELIKETHIS]
-[Adobe Analytics y cookies de explorador](cookies.md)>
+>
+>[Adobe Analytics y cookies de explorador](cookies.md)>
 >
