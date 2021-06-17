@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Conceptos básicos de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 95%
+source-wordcount: '2188'
+ht-degree: 96%
 
 ---
 
@@ -16,16 +16,9 @@ ht-degree: 95%
 
 Pasos para ejecutar los distintos tipos de informes.
 
-
 ## Ejecutar un informe de clasificación {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
 En los informes de clasificación, la tabla muestra las clasificaciones de las páginas del informe en relación con la métrica, según un número o un porcentaje. Los informes de clasificación pueden mostrar varias métricas a la vez.
-
-<!-- 
-
-t_reports_ranked.xml
-
- -->
 
 1. Genere un informe, como por ejemplo un [!UICONTROL informe Páginas] (**[!UICONTROL Informes]** > **[!UICONTROL Contenido del sitio]** > **[!UICONTROL Páginas]**).
 1. En el encabezado del informe, haga clic en **[!UICONTROL Clasificación]**.
@@ -37,12 +30,6 @@ t_reports_ranked.xml
 
 Los informes de tendencias muestran las métricas en el transcurso del tiempo. Utilice este tipo de informe cuando desee ver cómo se comporta un segmento desde un periodo de tiempo hasta el siguiente.
 
-<!-- 
-
-t_reports_trended.xml
-
- -->
-
 La mayoría de los informes de tráfico y conversión tienen una vista de tendencia disponible. Si utiliza el [!UICONTROL Calendario], puede exhibir la mejora para cualquier desglose de periodo de tiempo, incluyendo los días del mes, semanas del año, semanas del trimestre, meses del año, etc. Los informes de tendencias muestran las tendencias para una métrica sencilla (ingresos, pedidos, vistas, etc.) de hasta cinco artículos (como productos, categorías, páginas Web, etc.).
 
 **Para ejecutar un informe de tendencias**
@@ -50,29 +37,9 @@ La mayoría de los informes de tráfico y conversión tienen una vista de tenden
 1. Ejecute un informe de conversión o tráfico, como por ejemplo **[!UICONTROL Informes]** > **[!UICONTROL Contenido del sitio]** > **[!UICONTROL Páginas]**.
 1. En **[!UICONTROL Tipo de informe]**, haga clic en **[!UICONTROL Tendencias]**.
 
-## Ejecutar un informe de canales de conversión {#task_B926A74AA6A641138C2986C1635120CB}
-
-Los informes de canal de conversión muestran el porcentaje de visitantes que han avanzado por una serie de eventos para realizar una acción deseada. Por ejemplo, puede ver cuántos visitantes han pasado desde la visita a la página web, a añadir artículos al carro y finalmente han comprado un artículo. Este informe además muestra cuántos visitantes se han quedado por el camino.
-
-<!-- 
-
-t_reports_conversion_funnel.xml
-
- -->
-
-Para ejecutar este informe, seleccione un informe, como por ejemplo un informe Páginas (**[!UICONTROL Informes]** > **[!UICONTROL Campañas]** > **[!UICONTROL Código de seguimiento]** > **[!UICONTROL Canal de conversión de campañas]**).
-
-Consulte [Informes de conversión](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html) para ver una descripción.
-
 ## Ejecutar un informe de visitas en el orden previsto {#task_8FD97C8260464F9DA731A93DB8F80184}
 
 El [!UICONTROL informe de visitas en el orden previsto] muestra el número de visitantes que visitaron una secuencia especificada previamente de páginas. También muestra la tasa de conversión y de visitas en el orden previsto entre cada paso.
-
-<!-- 
-
-t_reports_fallout.xml
-
- -->
 
 Consulte el nuevo panel de [Análisis de visitas en el orden previsto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) de Analysis Workspace.
 
@@ -85,11 +52,6 @@ Consulte el nuevo panel de [Análisis de visitas en el orden previsto](https://e
 1. Haga clic en **[!UICONTROL Ejecutar informe]**.
 
    ![Resultado](assets/fallout_report.png)
-
->[!MORELIKETHIS]
->
->* [Descripción del informe de visitas en el orden previsto](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
-
 
 ## Ejecutar un informe de flujo de página {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
@@ -113,39 +75,15 @@ Por ejemplo, si la página Política de privacidad puede tener un total de 10 00
 
 El porcentaje relativo se describe mediante el ancho relativo de la línea. De forma predeterminada, este informe muestra cinco ramas de segundo nivel y cinco ramas de tercer nivel. Puede ampliar el número de ramas para visualizar hasta diez ramas de segundo nivel y cinco ramas de tercer nivel. Al hacer esto, se aumenta la altura del informe y lo más seguro es que deba desplazarse para ver el gráfico completo.
 
-## Ejecutar un informe de canales {#task_2BBF6FACD48F479E8B2EE458919941CB}
-
-Puede seleccionar eventos de éxito y añadirlos a un informe [!UICONTROL Canal de conversión de compra] o a un informe [!UICONTROL Canal de conversión de producto].
-
-<!-- 
-
-t_reports_funnel.xml
-
- -->
-
-1. Haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Productos]** > [Canal de conversión de productos](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
-
 ## Ejecutar un informe de canal de marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
 La elaboración de informes de canal de marketing ofrece un informe con información general sobre la asignación del canal de primer y último toque, con métricas estándar de informes como ingresos, pedidos y costos. Estos informes permiten analizar cuántos ingresos genera cada canal.
-
-<!-- 
-
-t_reports_marketing_channel.xml
-
- -->
 
 Consulte el sistema de ayuda de [Canal de mercadotecnia](/help/components/c-marketing-channels/analyze-mc.md) para obtener más información.
 
 ## Ejecutar un informe de detección de anomalías {#task_4808C96327354D789C075823F5C3A049}
 
 Describe cómo interpretar los gráficos de métricas individuales y de resumen en la detección de anomalías.
-
-<!-- 
-
-t_anomaly_view.xml
-
- -->
 
 Consulte las nuevas funciones de [Detección de anomalías y Análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) en Analysis Workspace.
 
