@@ -6,10 +6,10 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alertas
 role: Business Practitioner, Administrator
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 94%
+source-wordcount: '838'
+ht-degree: 95%
 
 ---
 
@@ -104,11 +104,6 @@ deprecated_alerts.xml
   <tr> 
    <td colname="col1"> <p>Alertas con una ranura ASI como el grupo de informes </p> </td> 
    <td colname="col2"> <p>Ya no puede crear o editar ranuras ASI y no estarán disponibles para su uso en Analysis Workspace. Por tanto, ya no son compatibles con las nuevas alertas. </p> <p> </p> </td> 
-   <td colname="col3"> <p>No está disponible en el nuevo Administrador de alertas. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Alertas con métricas de participación </p> </td> 
-   <td colname="col2"> <p> Las <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metrics-participation.html"  >métricas de participación</a> están disponibles en Reports &amp; Analytics pero actualmente no están disponibles en el nuevo sistema de alertas de Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>No está disponible en el nuevo Administrador de alertas. </p> </td> 
   </tr> 
   <tr> 
