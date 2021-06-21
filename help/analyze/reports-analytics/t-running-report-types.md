@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Conceptos básicos de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 96%
+source-wordcount: '1299'
+ht-degree: 95%
 
 ---
 
@@ -57,23 +57,9 @@ Consulte el nuevo panel de [Análisis de visitas en el orden previsto](https://e
 
 Los informes de flujo de página muestran el orden en el que los visitantes acceden a las páginas y navegan a través del sitio. Este informe ayuda a dar respuesta
 
-Consulte la nueva [Visualización de flujo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) en Analysis Workspace.
-
-Ejecute un informe de [Rutas](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html).
+Consulte la [Visualización de flujo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) en Analysis Workspace!
 
 Por ejemplo, haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Rutas]** > **[!UICONTROL Páginas]** > **[!UICONTROL Flujo de página siguiente]**.
-
-![](assets/page_flow.png)
-
-Lea este informe de izquierda a derecha, empezando por la página seleccionada. A las páginas que se visitaron después de la página seleccionada se las ilustra como una rama que se extiende hacia la derecha.
-
-El porcentaje de cada página posterior que se visitó aparece al lado del nombre de la página. El ancho de la línea que se conecta con las páginas siguientes ilustra dicho porcentaje relativo.
-
-**[!UICONTROL Vistas de ruta]**: indica el número de veces que se visualizó una página, cuando se está limitado a las rutas visualizadas.
-
-Por ejemplo, si la página Política de privacidad puede tener un total de 10 000 vistas, pero sólo 500 se produjeron inmediatamente después de la Página principal. Es por ello que se utiliza el término vista de ruta.
-
-El porcentaje relativo se describe mediante el ancho relativo de la línea. De forma predeterminada, este informe muestra cinco ramas de segundo nivel y cinco ramas de tercer nivel. Puede ampliar el número de ramas para visualizar hasta diez ramas de segundo nivel y cinco ramas de tercer nivel. Al hacer esto, se aumenta la altura del informe y lo más seguro es que deba desplazarse para ver el gráfico completo.
 
 ## Ejecutar un informe de canal de marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -83,109 +69,11 @@ Consulte el sistema de ayuda de [Canal de mercadotecnia](/help/components/c-mark
 
 ## Ejecutar un informe de detección de anomalías {#task_4808C96327354D789C075823F5C3A049}
 
-Describe cómo interpretar los gráficos de métricas individuales y de resumen en la detección de anomalías.
-
-Consulte las nuevas funciones de [Detección de anomalías y Análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) en Analysis Workspace.
-
-**[!UICONTROL Informes]** > **[!UICONTROL Métricas del sitio]** > **[!UICONTROL Detección de anomalías]**.
-
->[!NOTE]
->
->También puede ejecutar la Detección de anomalías desde proyectos de Analysis Workspace. [Más...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
-
-Si desea más información sobre la configuración de la detección de anomalías, consulte la [Guía de referencia](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
-
-La detección de anomalías muestra dos tipos de gráficos: un gráfico de resumen y gráficos de las métricas individuales. Los gráficos de métricas individuales solo se muestran si al menos se ha detectado una anomalía para esa métrica.
-
-<table id="table_88163CD8FC164342855D90D01F9C581A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Tipo de gráfico </p> </th> 
-   <th colname="col2" class="entry"> <p>Qué hace </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Gráfico de resumen </p> <p><img placement="break"  src="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_D26DA3024CD7468291369F549557B28A"> 
-      <li id="li_1C22B6E02FFB479FB71EFAD89EB37A4E">Cada cuadro representa una anomalía, con el seguimiento diario que corresponde a la métrica a continuación. </li> 
-      <li id="li_8FC587D3FF4E452D83263CC7A10B6675">El verde indica anomalías por encima de la línea de tendencia, el azul indica que está por debajo de la línea de tendencia. </li> 
-      <li id="li_25135AB691BF443599AF2A3A60E2E71A">Indica la intensidad de la anomalía: cuanto mayor sea la anomalía, más oscuro será el color del punto de datos y más lejos estará de la línea de tendencia. </li> 
-      <li id="li_0C42AFA8897D420D8AB1A5D0F65B3B3A">Al hacer clic en anomalías individuales, aparece automáticamente el cuadro de métricas individuales de esa anomalía (debajo del cuadro de resumen) en la parte superior. </li> 
-      <li id="li_85C0F426952547B5A75D6BD31DE19CA5">Los valores de porcentaje de desvío (a la izquierda del gráfico) se calculan de la forma siguiente: 
-       <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
-        <li id="li_1BAB2F50482745B69937DFAF1E09982E">Si el límite superior y el valor esperado son el mismo, el porcentaje de desviación es 100 % </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">De lo contrario, el porcentaje de desviación es ((valor actual - valor de límite superior) / (valor de límite superior - valor esperado)) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">Si el límite inferior y el valor esperado son el mismo, el porcentaje de desviación es -100% </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">De lo contrario, el porcentaje de desviación es ((valor de límite inferior - valor actual) / (valor actual - valor de límite inferior)) * -100 </li> 
-       </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Al hacer clic en <span class="uicontrol">Mostrar segmentos</span>, aparece el carril del segmento que permite aplicar segmentos a un informe de detección de anomalías. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  > Más información</a> sobre segmentación. </li> 
-      <li id="li_1B41CABF13D1407886C68EE3BC201E60">Al hacer clic en <span class="uicontrol">Editar métricas</span>, puede seleccionar y deseleccionar métricas para las cuales desea detectar anomalías. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Gráfico de métrica individual </p> <p><img placement="break"  src="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_739C5687013743A29B63089FDA763F45"> 
-      <li id="li_456A0BDA4D4E46CE9CC1C3DBAA1E2220">Muestra los puntos de datos anómalos para métricas de la tendencia individuales (incluidas las métricas calculadas) como puntos. </li> 
-      <li id="li_89FD847C65F04F48BCA7CD38D0EC51CD">Muestra la anomalía más reciente arriba y, a continuación, las clasifica por número de anomalías. </li> 
-      <li id="li_98B97A9706DE4455B8D8850904CBDE03">Muestra una línea sólida para indicar los datos actuales que se están recopilando actualmente. Esto se compara con la previsión y el margen de errores para derivar si los puntos de datos son anómalos. </li> 
-      <li id="li_0EEA38DDDC344BF3879430E67D74EB72">Muestra una línea de puntos que representa una previsión basada en datos históricos (por ejemplo, del periodo de prueba). </li> 
-      <li id="li_035BD2725D004AEDB630BF8DFF4DA4F3">Muestra intervalos/límites de confianza del 95 % inferiores y superiores en tono gris. </li> 
-      <li id="li_021A3D1F2EDB4319B9B39620EF1C038A">Le permite ampliar y reducir informes individuales si hace clic en las flechas dobles arriba o abajo junto al nombre de la métrica. </li> 
-      <li id="li_722E4B9FC21047AC96D7B143197E293D">Cambia el orden en el que aparecen los gráficos de métricas al reaccionar a una exploración en profundidad del informe de resumen (consulte lo anterior) </li> 
-      <li id="li_A2441169B185475AA68A64F81E6E40B8">Le permite filtrar los gráficos mediante términos de búsqueda como "página" para todas las métricas relacionadas con páginas. </li> 
-      <li id="li_F1BBBFCA8E2A43C29658E4FCAA36C904">Le permite mostrar todas las métricas que haya definido o solo las que contienen anomalías. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Configuración de la detección de anomalías {#task_AF347B34F56E44A6AE70E019B6EB2F08}
-
-Pasos para seleccionar los grupos de informes, métricas y periodos de prueba/vista para la detección de anomalías.
-
-<!-- 
-
-t_anomaly_config.xml
-
- -->
-
-La detección de anomalías se configura de forma independiente para cada grupo de informes.
-
-1. Vaya a **[!UICONTROL Analytics > Informes > Métricas del sitio > Detección de anomalías]**.
-1. Seleccione el grupo de informes para el cual desee realizar un seguimiento de la detección de anomalías diaria. Para mostrar una lista de grupos de informes, haga clic en el menú desplegable selector de grupos de informes.
-1. Para seleccionar las métricas y/o definir las métricas filtradas, haga clic en **[!UICONTROL Editar métricas]** en la esquina superior derecha de la pantalla:  ![](assets/metrics_icon.png).
-
-   Puede elegir las métricas de la lista (incluidas las métricas calculadas) de todas las métricas o de una lista de métricas con seguimiento. También puede filtrar por términos concretos para limitar la lista. 1. Una vez que se haya generado el informe, defina el **[!UICONTROL periodo de prueba]** y la opción **[!UICONTROL Ver periodo]** para detectar anomalías. (Piense en el periodo de prueba como un &quot;periodo de aprendizaje&quot; para el algoritmo).
-
-   ![](assets/view_training_periods.png)
-
-   Tenga en cuenta que:
-
-* El periodo de prueba finaliza justo antes de que empiece el periodo de vista.
-* La opción predeterminada para ambos es de 30 días y puede ampliarlo a 60 o 90 días.
-* Si amplía el periodo de prueba sus datos se sitúan en un contexto mayor y puede reducir el tamaño de una anomalía.
-
-   El informe de métricas de detección de anomalías se actualiza cada vez que cambia un parámetro.
-1. (Opcional) Aplique segmentos al informe haciendo clic en **[!UICONTROL Mostrar segmentos]** y seleccionando uno o más segmentos existentes o creando un nuevo segmento y aplicándolo.
-
-   ![](assets/ad_top_menu.png)
-
-   Consulte la [guía de segmentación de Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) para obtener más información sobre cómo crear y administrar segmentos. 1. (Opcional) Marque como favorito o añada un marcador al informe.
-1. (Opcional) Cambiar la fecha de finalización del periodo de vista. La opción predeterminada es ayer.
-1. Ahora puede empezar a interpretar el informe. [Visualización de gráficos de detección de anomalías](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
+Puede ejecutar [Detección de anomalías y Análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) solo en Analysis Workspace.
 
 ## Ejecutar un informe en tiempo real {#task_5D25929C918E40B18965222FA94176B0}
 
 Describe cómo ver e interpretar los informes en tiempo real.
-
-<!-- 
-
-reports_realtime.xml
-
- -->
 
 **[!UICONTROL Informes > Métrica del sitio > Tiempo real]**.
 
