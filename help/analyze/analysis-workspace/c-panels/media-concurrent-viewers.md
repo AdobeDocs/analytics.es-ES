@@ -4,10 +4,10 @@ description: Cómo utilizar e interpretar el panel Visualizadores simultáneos d
 feature: Paneles
 role: Business Practitioner, Administrator
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 99%
+source-wordcount: '1005'
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,6 @@ No hay ninguna tabla improvisada disponible en esta vista.  Para ver la fuente d
 | ¿Puedo ejecutar la detección de anomalías? | No.  La detección de anomalías no está disponible para este panel. |
 | ¿Por qué utilizar visitantes únicos en lugar de sesiones activas? | El uso de visitantes únicos permite eliminar los picos no deseados en los límites de los programas (donde las sesiones finalizan y comienzan al mismo tiempo). |
 | ¿Qué significa tener visualizadores simultáneos de mayor granularidad que minutos? | Con una granularidad de más de un minuto, los espectadores simultáneos son la suma de espectadores simultáneos únicos para todos los minutos dentro de ese intervalo de tiempo.  Por ejemplo, al nivel de granularidad de hora, los visualizadores simultáneos son la suma de los visualizadores simultáneos únicos para todos los minutos dentro de la hora. |
-| ¿Qué sucede si deseo ver más de 1 día en la granularidad de nivel de minuto? | Para acceder a los datos con granularidad de nivel de minuto durante un máximo de 1 mes a la vez, puede utilizar las API de Analytics 2.0. Para obtener más información, consulte [Obtención de datos de informes JSON de visores simultáneos con API de Analytics 2.0](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html). |
 | ¿Muestra el panel del espacio de trabajo la misma información que el informe Visualizadores simultáneos? | No.  En Analysis Workspace, los visualizadores simultáneos se definen como la cantidad de visitantes únicos que visualizan sus flujos de medios en un momento específico, independientemente de la cantidad de sesiones.<br><br>Esto es diferente a los informes de Visualizadores simultáneos de la sección Informes, que utiliza Sesiones activas concurrentes.  El uso de visitantes únicos permite eliminar picos no deseados en los límites de los programas, donde las sesiones finalizan y comienzan al mismo tiempo. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
