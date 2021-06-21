@@ -5,9 +5,9 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Conceptos básicos de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '771'
 ht-degree: 95%
 
 ---
@@ -31,7 +31,7 @@ Se puede navegar por los informes con una vista de columna jerárquica. Haga cli
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Para conocer los detalles sobre los informes individuales, consulte [Descripciones de informes](https://experienceleague.adobe.com/docs/analytics/components/variables/c-variables.html).
+Para obtener más información sobre los informes individuales, consulte [Dimension](/help/components/dimensions/overview.md).
 
 ## Búsqueda de informes {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
