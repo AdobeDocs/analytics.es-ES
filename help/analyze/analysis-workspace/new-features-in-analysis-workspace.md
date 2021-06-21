@@ -5,9 +5,9 @@ title: Novedades en Analysis Workspace
 feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '8283'
+source-wordcount: '8276'
 ht-degree: 98%
 
 ---
@@ -111,7 +111,7 @@ Nuevas funciones lanzadas el 20 de febrero de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| Nueva plantilla de Workspace para organizaciones que utilizan el análisis entre dispositivos | Esta plantilla muestra la eficacia del CDA para unir visitas y enseña las métricas y dimensiones exclusivas del CDA. Se necesita un grupo de informes que utilice CDA. Consulte [Configuración de análisis entre dispositivos](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-setup.html) para obtener más información. |
+| Nueva plantilla de Workspace para organizaciones que utilizan el análisis entre dispositivos | Esta plantilla muestra la eficacia del CDA para unir visitas y enseña las métricas y dimensiones exclusivas del CDA. Se necesita un grupo de informes que utilice CDA. Consulte [Configuración de análisis entre dispositivos](/help/components/cda/setup.md) para obtener más información. |
 | Nuevas teclas de acceso directo en Workspace | <ul><li>Contraer/Expandir todos los paneles: `alt + m`</li><li>Contraer/Expandir panel activo: `alt + ctrl + m`</li><li>Buscar carril izquierdo: `ctrl + /`</li><li>Mover al panel siguiente: `alt + Right Key`</li><li>Mover al panel anterior: `alt + Left Key`</li></ul>[Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Otras mejoras de Workspace | <ul><li>Cuando se coloque un panel o una visualización en Workspace, el carril izquierdo cambiará automáticamente a componentes para lograr un flujo de trabajo más fluido.</li><li>Ahora se pueden llevar a cabo acciones en los componentes de plantilla (por ejemplo, etiquetado, marcado como favoritos y aprobado).</li><li>Las listas filtradas de métricas y segmentos ofrecen el botón + para agregar un nuevo componente si no encuentra lo que necesita.</li></ul> |
 | Depurador de Workspace | El Debugger de Workspace se ha agregado al menú Ayuda, lo que le ofrece una forma sencilla de habilitarlo para depurar solicitudes de Workspace. [Más información...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
