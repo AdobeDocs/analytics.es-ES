@@ -2,10 +2,10 @@
 title: Asignación manual de datos XDM a Analytics
 description: Asignación manual de datos XDM de Experience Platform a Adobe Analytics
 exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 84%
+source-wordcount: '353'
+ht-degree: 80%
 
 ---
 
@@ -15,7 +15,7 @@ El SDK web de Adobe Experience Platform (AEP) incluye ayudas para que pueda asig
 
 Para datos XDM que no se asignan automáticamente a Analytics, puede agregar [datos de contexto](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html) para que coincidan con su [esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html). A continuación, las [reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) de Analytics pueden utilizarlas para rellenar variables de Analytics.
 
-Además, puede utilizar un conjunto predeterminado de acciones y listas de productos para enviar o recuperar datos con el SDK web de AEP. Para ello, consulte [Productos](https://experienceleague.adobe.com/docs/experience-platform/edge/implement/commerce.html).
+Además, puede utilizar un conjunto predeterminado de acciones y listas de productos para enviar o recuperar datos con el [SDK web de AEP](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es).
 
 ## Datos de contexto
 
