@@ -2,17 +2,20 @@
 title: writeSecureCookies
 description: Permite a AppMeasurement establecer cookies con el atributo Secure.
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '200'
-ht-degree: 100%
+source-git-commit: b93cd06c2a8867f4848dc317e426b73dcfbb5dfd
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 84%
 
 ---
 
 # writeSecureCookies
 
 La variable `writeSecureCookies` permite que AppMeasurement establezca [cookies seguras](https://en.wikipedia.org/wiki/Secure_cookie) para Analytics. Esta configuración se aplica tanto a las cookies de ID de visitante configuradas por AppMeasurement como a las cookies configuradas mediante el método `Util.CookieWrite()`. Requiere AppMeasurement 2.18.0 o superior.
+
+`writeSecureCookies` solo se aplica a las cookies configuradas por JavaScript de AppMeasurement (`s_fid`,  `s_cc` y  `s_sq`). Las cookies configuradas por la respuesta `https` (`s_vi` y `s_ecid`) se pueden configurar como &#39;seguras&#39; poniéndose en contacto con el Servicio de atención al cliente de Adobe.
+
+Obtenga más información sobre las cookies [de Analytics aquí](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html).
 
 >[!IMPORTANT]
 >
