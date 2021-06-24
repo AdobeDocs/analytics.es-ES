@@ -4,14 +4,13 @@ title: Limitaciones y especificaciones
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
+source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 96%
+source-wordcount: '626'
+ht-degree: 94%
 
 ---
-
 
 # Limitaciones y especificaciones
 
@@ -71,6 +70,5 @@ De forma predeterminada, el nombre se rellena con el nombre de archivo del libro
 Tenga en cuenta que
 
 * La etiqueta no puede ser una combinación de letras y números que pueda confundirse con una dirección de fila o columna. Por ejemplo, no puede haber una etiqueta A100 porque es una dirección de celda en un libro.
-* Los siguientes caracteres no son válidos en las etiquetas: &quot;#&quot;, &quot;@&quot;, &quot;!&quot;, &quot;$&quot;, &quot;^&quot;, &quot;&amp;&quot;, &quot;*&quot;, &quot;`&quot;, &quot;~&quot;, &quot; &quot;. Se reemplazarán por caracteres de guion bajo.
+* Los caracteres siguientes no son caracteres de etiqueta válidos: `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; y `'~', ' '` . Se sustituyen por un carácter de guion bajo.
 * Si introduce un nombre no válido, aparece un mensaje de error que le sugiere un nombre generado automáticamente. Si hace clic en **[!UICONTROL Sí]**, se utilizará dicho nombre. Si hace clic en **[!UICONTROL No]**, la interfaz de usuario del Asistente avanzado le permitirá introducir uno nuevo.
-
