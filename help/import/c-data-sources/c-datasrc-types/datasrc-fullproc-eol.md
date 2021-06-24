@@ -2,11 +2,10 @@
 title: Fin de vida útil para fuentes de datos de procesamiento completo
 description: Razones para finalizar la vida útil y comparaciones entre la API de inserción de datos en lote y las fuentes de datos de procesamiento completo.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-translation-type: tm+mt
-source-git-commit: 53b15f9c5895e856ff627fbc520d4743fbc57eba
+source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 32%
+source-wordcount: '1233'
+ht-degree: 31%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 32%
 
 Durante varios años, las fuentes de datos de procesamiento completo han permitido enviar datos de nivel de visita a Adobe Analytics. Estos datos se procesaron del mismo modo que los datos recopilados mediante nuestras bibliotecas JavaScript y el SDK de la aplicación móvil. En 2020, Adobe lanzó la [API de inserción masiva de datos](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md), que realiza las mismas funciones que las fuentes de datos de procesamiento completo, pero con funciones adicionales. En este tema se proporcionan detalles sobre la funcionalidad adicional proporcionada por la API de inserción de datos en lote y se describen las diferencias en los formatos de archivo.
 
-A partir del 25 de marzo de 2021, Adobe impedirá que se creen nuevas conexiones de fuentes de datos de procesamiento completo. Las conexiones existentes seguirán siendo compatibles hasta que el servicio quede totalmente obsoleto el 31 de julio de 2021.
+A partir del 25 de marzo de 2021, Adobe impedirá que se creen nuevas conexiones de fuentes de datos de procesamiento completo. Las conexiones existentes seguirán siendo compatibles hasta que el servicio quede totalmente obsoleto el 31 de julio de 2021. Además de nuestra documentación estándar, proporcionamos una explicación detallada de los [pasos necesarios para enviar datos mediante la API de inserción de datos en lote](http://adobe.ly/aabdia).
 
 ## ¿Por qué queremos dejar de usar esta función?
 
@@ -89,7 +88,7 @@ Para obtener más información, consulte la siguiente comparación de los valore
 | resolution | resolution | Resolución de pantalla (por ejemplo, 1024x768). |
 | servidor | servidor | Cadena del servidor. |
 | state | state | Cadena de estado de la conversión. |
-| timestamp | date | Utilice el formato de fecha ISO 8601 AAAA-MM-DDThh:mm:ss±UTC_offset (por ejemplo, 2021-09-01T12:00:00-07:00 ) o el formato de tiempo Unix (el número de segundos transcurridos desde el 1 de enero de 1970). . |
+| timestamp | date | Utilice el formato de fecha ISO 8601 AAAA-MM-DDThh:mm:ss±UTC_offset (por ejemplo, 2021-09-01T12:00:00-07:00 ) o el formato de tiempo Unix (el número de segundos transcurridos desde el 1 de enero de 197 0). |
 | trackingServer | No admitido | Solo se puede proporcionar mediante el encabezado de columna. |
 | transactionID | No admitido | Valor común que se usa para enlazar conjuntamente actividades de usuario de multicanal para los informes. Para obtener más información, consulte la [Guía del usuario de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources). |
 | userAgent | No admitido | Cadena del agente de usuario |
