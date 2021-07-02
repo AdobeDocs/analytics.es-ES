@@ -3,9 +3,9 @@ description: Descripción general del flujo de trabajo de Advertising Analytics.
 title: Resumen del flujo de trabajo
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
