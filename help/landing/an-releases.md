@@ -5,7 +5,7 @@ exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,5 +39,5 @@ Las versiones por fases permiten a Adobe escalar mejor el proceso de implementac
 
 | Pregunta | Respuesta |
 | --- | --- |
-| ¿Puedo solicitar acceso anticipado a una funcionalidad? | No. No se puede solicitar el acceso anticipado.<br>Si desea probar las versiones iniciales de Analytics, le recomendamos que pruebe [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html) para proporcionar comentarios sobre las innovaciones líderes del sector. |
-| ¿Esta estrategia de lanzamiento afecta mi acceso a las funcionalidades? | No. Una vez que una funcionalidad haya llegado a su fase de disponibilidad general, tendrá acceso a ella si está incluida en su paquete de Analytics.<br>Puede ver los detalles del paquete de Analytics en [!UICONTROL Administración] > [!UICONTROL Todos los administradores] > [!UICONTROL  Configuración de compañía] > [Niveles de acceso a funcionalidades](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html). |
+| ¿Puedo solicitar acceso anticipado a una funcionalidad? | No. No se puede solicitar el acceso anticipado.<br>Si desea probar las versiones iniciales de Analytics, le recomendamos que pruebe [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html?lang=es) para proporcionar comentarios sobre las innovaciones líderes del sector. |
+| ¿Esta estrategia de lanzamiento afecta mi acceso a las funcionalidades? | No. Una vez que una funcionalidad haya llegado a su fase de disponibilidad general, tendrá acceso a ella si está incluida en su paquete de Analytics.<br>Puede ver los detalles del paquete de Analytics en [!UICONTROL Administración] > [!UICONTROL Todos los administradores] > [!UICONTROL Configuración de compañía] > [Niveles de acceso a funcionalidades](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html?lang=es). |
