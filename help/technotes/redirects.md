@@ -149,7 +149,7 @@ redirects_verify_referrer.xml
 
 Ejecute una prueba para comprobar si se captan las variables campaign, dirección URL de origen (*`s_server`*) y referente.
 
-Estas variables se representarán como los siguientes parámetros en [Experience Cloud Debugger](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.translate.html).
+Estas variables se representarán como los siguientes parámetros en [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
