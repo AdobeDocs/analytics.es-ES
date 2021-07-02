@@ -6,9 +6,9 @@ feature: Herramientas de IA
 role: Business Practitioner, Administrator
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 91%
 
 Puede ver y analizar las anomalías de datos en contexto, dentro de Analysis Workspace.
 
-[Tutorial en vídeo de Detección de anomalías](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
+[Tutorial en vídeo de Detección de anomalías](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html?lang=es) (4:53)
 
-[Tutorial en vídeo del análisis de contribución](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) (3:20)
+[Tutorial en vídeo del análisis de contribución](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html?lang=es) (3:20)
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Algunos ejemplos de anomalías que puede investigar son:
 * Picos en eventos de almacenamiento de vídeo
 * Picos en tasas de bits de vídeo bajas
 
-Tanto la detección de anomalías como el [análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) son flujos de trabajo principales en Analysis Workspace. Puede ejecutar el análisis de contribución para cualquier anomalía diaria e incrustar el resultado en su proyecto de Analysis Workspace.
+Tanto la detección de anomalías como el [análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=es) son flujos de trabajo principales en Analysis Workspace. Puede ejecutar el análisis de contribución para cualquier anomalía diaria e incrustar el resultado en su proyecto de Analysis Workspace.
 
 El algoritmo de Detección de anomalías de Analysis Workspace incluye:
 
