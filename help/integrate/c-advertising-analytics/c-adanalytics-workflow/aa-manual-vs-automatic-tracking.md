@@ -3,9 +3,9 @@ description: Con el seguimiento se determina cómo la implementación de Adobe A
 title: 'Seguimiento: Modo manual y modo automático'
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Tenga en cuenta que para configurar una cuenta de motor de búsqueda en “Modo 
 
 >[!IMPORTANT]
 >
->Obtenga más información sobre si debe agregar el parámetro `s_kwcid` a la [directiva de seguridad de contenido](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html).
+>Obtenga más información sobre si debe agregar el parámetro `s_kwcid` a la [directiva de seguridad de contenido](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html?lang=es).
 
 ## Modo de seguimiento manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
