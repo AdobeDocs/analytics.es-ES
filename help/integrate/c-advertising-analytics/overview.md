@@ -3,9 +3,9 @@ description: Descubra todo lo que puede hacer con Advertising Analytics en esta 
 title: Guía de Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1261'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
