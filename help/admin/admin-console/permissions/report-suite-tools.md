@@ -3,9 +3,9 @@ title: Permisos de perfil de productos para las herramientas de grupo de informe
 description: Comprenda cada elemento de permiso en Herramientas de grupos de informes.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ Utilice esta página para comprender cada elemento de permisos en Herramientas d
 | Visitas de retorno | Otorga acceso a Retención de visitantes > Visitas de retorno en Reports &amp; Analytics. |
 | Clasificaciones | Otorga acceso a todas las configuraciones de clasificación en el Administrador de grupos de informes. Este elemento de permiso incluye: <br>Tráfico > Clasificaciones de tráfico<br>Conversión > Clasificaciones de conversión<br>Conversión > Jerarquías de clasificación<br>Canales de marketing > Clasificaciones de canal de marketing<br>Administración de aplicaciones > Clasificaciones de aplicaciones<br>Administración de medios > Clasificaciones de medios<br>AEM > Clasificaciones de AEM Assets<br>Adobe Campaign > Clasificaciones de Adobe |
 | Informes recomendados | Otorga acceso a Métricas del sitio > Mis informes recomendados en Reports &amp; Analytics. |
-| Informe breve de imagen del panel Informes y análisis | Otorga acceso a los informes breves del panel. |
-| Informe breve de medición de métricas del panel de informes y análisis | Otorga acceso a los informes breves del panel. |
-| Informe breve de resumen del grupo de informes del panel de informes de Reports &amp; Analytics | Otorga acceso a los informes breves del panel. |
-| Informe breve de texto del panel Informes y análisis | Otorga acceso a los informes breves del panel. |
-| Informe breve de resumen del grupo de informes del panel de informes de Reports &amp; Analytics | Otorga acceso a los informes breves del panel. |
-| Informe breve externo del panel Informes y análisis | Otorga acceso a los informes breves del panel. |
+| Informe breve de imagen del panel Reports &amp; Analytics | Otorga acceso a los informes breves del panel. |
+| Informe breve de medición de métricas del panel de Reports &amp; Analytics | Otorga acceso a los informes breves del panel. |
+| Informe breve de resumen del grupo de informes del panel de Reports &amp; Analytics | Otorga acceso a los informes breves del panel. |
+| Informe breve de texto del panel Reports &amp; Analytics | Otorga acceso a los informes breves del panel. |
+| Informe breve de resumen del grupo de informes del panel de Reports &amp; Analytics | Otorga acceso a los informes breves del panel. |
+| Informe breve externo del panel Reports &amp; Analytics | Otorga acceso a los informes breves del panel. |
 | API de reparación de datos | Otorga acceso a la API de reparación de datos |
