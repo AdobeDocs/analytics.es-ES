@@ -5,9 +5,9 @@ title: Utilización de los datos de audiencias en Analytics
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ En Analysis Workspace, los segmentos de AAM aparecen como dos dimensiones.
 
 ## Comparación de segmentos {#section_E72B80B6470C42D4B9B19BE90E6070A2}
 
-[Comparación de segmentos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) detecta las diferencias estadísticamente más significativas entre dos segmentos. Los datos de audiencias pueden usarse de dos maneras en Comparación de segmentos: 1) como los 2 segmentos que se comparan; y 2) como elementos de la tabla “Elementos de dimensiones principales”.
+[Comparación de segmentos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=es) detecta las diferencias estadísticamente más significativas entre dos segmentos. Los datos de audiencias pueden usarse de dos maneras en Comparación de segmentos: 1) como los 2 segmentos que se comparan; y 2) como elementos de la tabla “Elementos de dimensiones principales”.
 
 1. Vaya a **[!UICONTROL Workspace]** y seleccione el panel **[!UICONTROL Comparación de segmentos]** en el carril izquierdo.
 
@@ -43,21 +43,21 @@ En Analysis Workspace, los segmentos de AAM aparecen como dos dimensiones.
 
 ## Viaje del cliente (Flujo) en Analysis Workspace {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-Los datos de segmentos de AAM se pasan a Analytics para cada visita y representan el estado de pertenencia de un visitante a las distintas audiencias en un momento dado. Esto significa que un visitante podría encajar en un segmento (p. ej., “Conocimiento”) y más tarde tener la cualificación para un segmento superior (p. ej., “Consideración”). Puede utilizar [Flujo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) en Analysis Workspace para visualizar el viaje que realiza un visitante entre audiencias.
+Los datos de segmentos de AAM se pasan a Analytics para cada visita y representan el estado de pertenencia de un visitante a las distintas audiencias en un momento dado. Esto significa que un visitante podría encajar en un segmento (p. ej., “Conocimiento”) y más tarde tener la cualificación para un segmento superior (p. ej., “Consideración”). Puede utilizar [Flujo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=es) en Analysis Workspace para visualizar el viaje que realiza un visitante entre audiencias.
 
 1. Vaya a **[!UICONTROL Workspace]** y seleccione el panel **[!UICONTROL Flujo]** en el carril izquierdo.
 
 1. Arrastre la dimensión [!UICONTROL Nombre de audiencia] al generador de Flujo.
 1. Haga clic en **[!UICONTROL Crear]**.
-1. (Opcional): Arrastre cualquier otra dimensión a la visualización Flujo para crear un [Flujo entre dimensiones](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html).
+1. (Opcional): Arrastre cualquier otra dimensión a la visualización Flujo para crear un [Flujo entre dimensiones](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html?lang=es).
 
 ![](assets/flow-aamaudiences.png)
 
-Las audiencias también pueden utilizarse en las [visualizaciones de visitas en el orden previsto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
+Las audiencias también pueden utilizarse en las [visualizaciones de visitas en el orden previsto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=es).
 
 ## Visualización de Venn en Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
 
-Las [visualizaciones de Venn](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html) muestran el solapamiento entre un máximo de 3 segmentos.
+Las [visualizaciones de Venn](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=es) muestran el solapamiento entre un máximo de 3 segmentos.
 
 1. Vaya a **[!UICONTROL Workspace]** y seleccione la visualización **[!UICONTROL Venn]** en el carril izquierdo.
 
