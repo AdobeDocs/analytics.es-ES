@@ -3,15 +3,15 @@ title: Búsqueda de instancias de eVar de comercialización en post_product_list
 description: Busque la instancia de eVar de comercialización para cada valor de búsqueda en la columna post_product_list de una fuente de datos.
 exl-id: null
 source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Búsqueda de instancias de eVar de comercialización en post_product_list
 
-En Fuentes de datos, la columna [post_product_list](datafeeds-reference.md) puede contener las instancias de eVar de comercialización. Cada eVar está representado por un número.
+En Fuentes de datos, la columna [post_product_list](datafeeds-reference.md) puede incluir las instancias de eVar de comercialización. Cada eVar está representado por un número.
 
 La búsqueda de instancias de eVar de comercialización para post_product_list es diferente de la columna de búsqueda event_list en la fuente de datos.
 
