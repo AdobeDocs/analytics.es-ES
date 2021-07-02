@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre la implementación
 description: Preguntas más frecuentes sobre implementación y vínculos a más información.
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ El servicio de identidad asigna un identificador único y persistente que se pue
 
 ## ¿Cómo implemento Seguimiento de vídeos de Heartbeat?
 
-Consulte [Medición de audio y vídeo en Adobe Analytics](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.translate.html).
+Consulte [Medición de audio y vídeo en Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
 
 ## ¿Puede una interrupción del servicio en Adobe afectar al rendimiento?
 
