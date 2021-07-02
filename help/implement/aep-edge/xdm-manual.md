@@ -5,7 +5,7 @@ exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 80%
+ht-degree: 93%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 80%
 
 El SDK web de Adobe Experience Platform (AEP) incluye ayudas para que pueda asignar manualmente datos entre Platform y Analytics.
 
-Para datos XDM que no se asignan automáticamente a Analytics, puede agregar [datos de contexto](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html) para que coincidan con su [esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html). A continuación, las [reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) de Analytics pueden utilizarlas para rellenar variables de Analytics.
+Para datos XDM que no se asignan automáticamente a Analytics, puede agregar [datos de contexto](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=es) para que coincidan con su [esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es). A continuación, las [reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html?lang=es) de Analytics pueden utilizarlas para rellenar variables de Analytics.
 
 Además, puede utilizar un conjunto predeterminado de acciones y listas de productos para enviar o recuperar datos con el [SDK web de AEP](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es).
 
@@ -57,7 +57,7 @@ Por ejemplo, en la regla siguiente, Analytics está configurado para rellenar lo
 
 Experience Platform utiliza esquemas para describir la estructura de los datos de una manera uniforme y reutilizable. Al definir los datos de manera uniforme en todos los sistemas, resulta más fácil conservar el significado y, por lo tanto, obtener valor de los datos. Los datos de contexto de Analytics funcionan con la estructura definida por esquema.
 
-El siguiente ejemplo muestra cómo se puede utilizar el [`event` comando ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html) con la opción `xdm` para enviar y recuperar datos con el SDK web de AEP. En este ejemplo, el comando `event` coincide con el [Esquema de detalles comerciales de ExperienceEvent](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md) para que se realice un seguimiento de productListItems `name` y de los valores de `SKU`:
+El siguiente ejemplo muestra cómo se puede utilizar el [`event` comando ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=es) con la opción `xdm` para enviar y recuperar datos con el SDK web de AEP. En este ejemplo, el comando `event` coincide con el [Esquema de detalles comerciales de ExperienceEvent](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md) para que se realice un seguimiento de productListItems `name` y de los valores de `SKU`:
 
 
 ```
