@@ -5,9 +5,9 @@ feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -65,6 +65,6 @@ Con esta función, presentamos el concepto de &quot;panel activo&quot; frente a 
 
 1. (Opcional) También puede dirigirse a otros creadores de componentes de Analytics y comprobar que ahora muestren una etiqueta de grupo de informes que indique
 
-   * Dónde se creará un segmento: [Generador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-   * Dónde se creará una métrica calculada: [Creador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * Dónde se generará una alerta: [Generador de alertas](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html).
+   * Dónde se creará un segmento: [Generador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es).
+   * Dónde se creará una métrica calculada: [Creador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=es).
+   * Dónde se generará una alerta: [Generador de alertas](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=es).
