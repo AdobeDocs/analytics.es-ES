@@ -3,9 +3,9 @@ title: visitorID
 description: Utilice un ID de visitante personalizado.
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe utiliza diferentes métodos para identificar a los visitantes del sitio. L
 
 >[!IMPORTANT]
 >
->Adobe recomienda evitar esta variable. En su lugar, utilice el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+>Adobe recomienda evitar esta variable. En su lugar, utilice el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
 
 ## ID de visitante en Adobe Experience Platform Launch
 
