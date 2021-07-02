@@ -3,20 +3,20 @@ description: Aprenda a implementar el etiquetado de grupos múltiples para envia
 title: Implementación del etiquetado de grupos múltiples
 exl-id: null
 source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Implementación del etiquetado de grupos múltiples
 
-[El ](/help/admin/c-manage-report-suites/rollup-report-suite.md) etiquetado de grupos múltiples le permite enviar solicitudes de imagen no solo a un grupo de informes globales, sino también a grupos de informes secundarios individuales, de modo que pueda proporcionar subconjuntos de los datos del grupo de informes globales de su empresa a distintos usuarios finales.
+[El etiquetado de grupos múltiples](/help/admin/c-manage-report-suites/rollup-report-suite.md) le permite enviar solicitudes de imagen no solo a un grupo de informes globales, sino también a grupos de informes secundarios individuales, de modo que pueda proporcionar subconjuntos de los datos del grupo de informes globales de su empresa a distintos usuarios finales.
 
 Para implementar el etiquetado de grupos múltiples, debe incluir el ID del grupo de informes (RSID) para el grupo de informes globales y también los RSID para los grupos de informes secundarios aplicables en el código de seguimiento de sus páginas web y aplicaciones.
 
-* Para implementaciones de Adobe Experience Platform Launch, especifique cada uno de los grupos de informes para la [[!DNL Analytics] extensión](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html).
+* En el caso de implementaciones de Adobe Experience Platform Launch, especifique cada uno de los grupos de informes para la [[!DNL Analytics] extensión](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=es).
 
 * En implementaciones heredadas de JavaScript y SDK móvil, separe los RSID con comas sin espacios (`rsid1,rsid2,rsid3`, etc.).
 
@@ -24,7 +24,7 @@ Para implementar el etiquetado de grupos múltiples, debe incluir el ID del grup
 
 >[!TIP]
 >
-> La práctica recomendada es listar primero el grupo de informes global o el ID del grupo de informes.
+> La práctica recomendada es enumerar primero el grupo de informes global o el ID del grupo de informes.
 
 El etiquetado de grupos múltiples implica varias llamadas al servidor para cada solicitud de imagen: una llamada primaria al grupo de informes globales y una llamada secundaria a cada grupo de informes secundarios.
 
@@ -34,6 +34,6 @@ El etiquetado de grupos múltiples implica varias llamadas al servidor para cada
 
 ## ¿Debería implementar el etiquetado de grupos múltiples o los grupos de informes virtuales?
 
-El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltiples suele ser una práctica recomendada, pero las necesidades de su empresa determinan el mejor enfoque de los grupos de informes para su organización.
+El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltiples suele ser una práctica recomendada, pero las necesidades de su empresa determinan la mejor opción de los grupos de informes para su organización.
 
-Para saber si los grupos de informes virtuales son su mejor enfoque, consulte &quot;[Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples](/help/components/vrs/vrs-considerations.md)&quot;. Consulte también &quot;[Grupos de informes virtuales vs. Etiquetado multigrupo](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; para ver una comparación del etiquetado de grupos múltiples y la funcionalidad del grupo de informes virtuales.
+Para saber si los grupos de informes virtuales son su mejor opción, consulte &quot;[Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples](/help/components/vrs/vrs-considerations.md)&quot;. Consulte también &quot;[Grupos de informes virtuales vs. Etiquetado de grupos múltiples](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; para ver una comparación del etiquetado de grupos múltiples y la funcionalidad del grupo de informes virtuales.
