@@ -3,9 +3,9 @@ description: Añada o administre alertas de uso de llamadas al servidor. Al conf
 title: Alertas sobre el uso de llamadas al servidor
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Al configurar una alerta, se aplica a todos los grupos de informes en todas las 
 
 ## Información general
 
-Se añade una nueva categoría de alertas denominada **[!UICONTROL Alerta de uso de llamadas al servidor]** a la interfaz de usuario de [Administración de alertas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
+Se añade una nueva categoría de alertas denominada **[!UICONTROL Alerta de uso de llamadas al servidor]** a la interfaz de usuario de [Administración de alertas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=es).
 
 Está previamente completado con **1 alerta predeterminada** que aparece en cualquier empresa de inicio de sesión con acceso a la función Uso de llamadas al servidor. Esta alerta activa una notificación destinada a todos los administradores de la empresa de inicio de sesión si se cumple uno de los siguientes criterios:
 
@@ -53,8 +53,7 @@ Para crear alertas adicionales,
 Añada el tipo de llamadas al servidor como métrica y especifique el umbral de alertas seleccionando el modificador y el umbral:
          * mayor o igual que
          * menor o igual que
-      * con
-Especifique el umbral y la condición (mayor o igual que, menor o igual que) para el Periodo de uso empleado.
+      * con Especifique el umbral y la condición (mayor o igual que, menor o igual que) para el Periodo de uso empleado.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
