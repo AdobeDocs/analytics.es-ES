@@ -2,9 +2,9 @@
 description: No se puede combinar el Generador de reglas de clasificación con subclasificaciones.
 title: Subclasificaciones y el Generador de reglas
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Una vez preparada esta estructura, puede usar el [Generador de reglas de clasifi
 
 En la siguiente tarea, se describe cómo hacerlo.
 
-## Configurar subclasificaciones mediante el Generador de reglas {#task_2D9016D8B4E84DBDAF88555E5369546F}
+## Configurar subclasificaciones mediante el Generador de reglas{#task_2D9016D8B4E84DBDAF88555E5369546F}
 
 Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el Generador de reglas.
 
@@ -39,7 +39,7 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 >
 >Estos pasos describen cómo se lleva a cabo el caso de uso descrito en [Subclasificaciones y el Generador de reglas](/help/components/classifications/crb/sub-classification-rule-builder.md).
 
-1. Cree clasificaciones y subclasificaciones en el [Administrador de clasificación](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html).
+1. Cree clasificaciones y subclasificaciones en el [Administrador de clasificación](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es).
 
    Ejemplo:
 
