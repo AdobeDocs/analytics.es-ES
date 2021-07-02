@@ -3,9 +3,9 @@ title: Implementación con solicitudes de imagen codificadas
 description: Implemente Adobe Analytics con una etiqueta de imagen HTML (solicitud de imagen codificada)
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
 source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '672'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
