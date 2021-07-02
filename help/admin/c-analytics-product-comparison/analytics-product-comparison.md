@@ -3,9 +3,9 @@ description: Requisitos del sistema y comparación de Analysis Workspace, Report
 title: Comparación de productos y requisitos de Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ Esta página contiene una comparación de varios productos de Adobe Analytics: A
 
 Si no sabe qué producto de Adobe Analytics utilizar, consúltelo [aquí](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
-| Nombre del producto y vínculo de ayuda | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) | [Archivo de fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) | [API de Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| Nombre del producto y vínculo de ayuda | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=es) | [Archivo de fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) | [API de Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **Método de acceso** | [Explorador](/help/admin/sys-reqs.md) | [Explorador](/help/admin/sys-reqs.md) | [MS Excel para Windows](/help/analyze/report-builder/setup/system-requirements.md) | Realice la configuración a través del explorador. [Más información](/help/admin/sys-reqs.md) | [Windows de 64 bits](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html) | Realice la configuración a través del explorador. [Más información](/help/export/analytics-data-feed/data-feed-overview.md) | Herramientas de API de RESTful. Inicie sesión con las credenciales de Adobe I/O. [Más información](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| **Método de acceso** | [Explorador](/help/admin/sys-reqs.md) | [Explorador](/help/admin/sys-reqs.md) | [MS Excel para Windows](/help/analyze/report-builder/setup/system-requirements.md) | Realice la configuración a través del explorador. [Más información](/help/admin/sys-reqs.md) | [Windows de 64 bits](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=es) | Realice la configuración a través del explorador. [Más información](/help/export/analytics-data-feed/data-feed-overview.md) | Herramientas de API de RESTful. Inicie sesión con las credenciales de Adobe I/O. [Más información](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **Granularidad de los datos** | Agregado | Agregado | Agregado | Agregado | Visita individual | Visita individual | Agregado |
 | **Experience Cloud ID (ECID) disponible** | No | No | No | Sí | Sí | Sí | No |
 | **Marca de tiempo disponible** | No | No | No | No | Sí | Sí | No |
