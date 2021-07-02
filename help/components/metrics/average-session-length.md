@@ -3,9 +3,9 @@ title: Longitud promedio de la sesión (móvil)
 description: Longitud promedio de sesión del dispositivo móvil.
 exl-id: e33ac9ca-f1be-4d9c-9247-c5db8fb0102e
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '81'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,4 +15,4 @@ La métrica “Longitud promedio de sesión (móvil)” muestra la cantidad prom
 
 ## Cálculo de esta métrica
 
-Esta métrica se calcula usando las [métricas móviles](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html) `'Total session length' / ('Launches' - 'First launches'`.
+Esta métrica se calcula usando las [métricas móviles](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es) `'Total session length' / ('Launches' - 'First launches'`.
