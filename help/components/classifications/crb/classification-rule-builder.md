@@ -6,9 +6,9 @@ feature: Herramientas de administración
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Instrucciones avanzadas relacionadas con la implementación de reglas de clasifi
 
 | Paso | Dónde se realiza | Descripción |
 |--- |--- |--- |
-| Paso 1 (requisito previo): [Configure el esquema de clasificación](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html). | [!UICONTROL Administración] > Grupos [!UICONTROL de informes] > [!UICONTROL Editar configuración] > &lt;Clasificaciones de tráfico o Clasificaciones de conversión> | Permite elegir una variable y definir las clasificaciones que se usarán para esa variable. <br>Para poder utilizar las variables en las reglas, debe haberse creado en ellas una columna de clasificación como mínimo.<br>Una vez que se habiliten las clasificaciones, se puede usar el importador y el generador de reglas para clasificar valores específicos. |
+| Paso 1 (requisito previo): [Configure el esquema de clasificación](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es). | [!UICONTROL Administración] > Grupos [!UICONTROL de informes] > [!UICONTROL Editar configuración] > &lt;Clasificaciones de tráfico o Clasificaciones de conversión> | Permite elegir una variable y definir las clasificaciones que se usarán para esa variable. <br>Para poder utilizar las variables en las reglas, debe haberse creado en ellas una columna de clasificación como mínimo.<br>Una vez que se habiliten las clasificaciones, se puede usar el importador y el generador de reglas para clasificar valores específicos. |
 | Paso 2: [Crear un conjunto de reglas](/help/components/classifications/crb/classification-rule-set.md). | [!UICONTROL Administración] > [!UICONTROL Clasificación del Generador de reglas] > [!UICONTROL Agregar conjunto de reglas] | Un conjunto de reglas es un grupo de reglas de clasificación para una variable específica. |
 | Paso 3: Configurar grupo de informes y variables. | [!UICONTROL Clasificación del Generador de reglas] >  &lt;su conjunto de reglas> | Permite aplicar el conjunto de reglas a grupos de informes y variables. |
 | Paso 4: [Agregar reglas de clasificación al conjunto](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL Clasificación del Generador de reglas] >  &lt;su conjunto de reglas> | Hacer coincidir una condición con una clasificación y especificar la acción que debe realizarse con la regla.  Familiarícese con la información en [Cómo procesarlas reglas](/help/components/classifications/crb/classification-quickstart-rules.md). |
@@ -51,4 +51,4 @@ Instrucciones avanzadas relacionadas con la implementación de reglas de clasifi
 
 **Blog**: Para obtener más información sobre esta característica, consulte el Blog de Digital Marketing - [Clasificaciones basadas en reglas](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Vídeo**: Vea el vídeo [Descripción general de las clasificaciones](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html).
+**Vídeo**: Vea el vídeo [Descripción general de las clasificaciones](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html?lang=es).
