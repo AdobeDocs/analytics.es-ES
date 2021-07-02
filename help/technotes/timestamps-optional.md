@@ -8,7 +8,7 @@ exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Marcas de hora opcionales es la configuración predeterminada para todos los gru
 >
 >Marcas de hora opcionales es la configuración predeterminada para todos los nuevos grupos de informes generados a partir de una plantilla. Los nuevos grupos de informes copiados de un grupo de informes existente heredarán la configuración del original.
 
-Consulte [Marcas de hora opcionales](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html) para obtener información adicional sobre configuración.
+Consulte [Marcas de hora opcionales](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=es) para obtener información adicional sobre configuración.
 
 ## Marcas de hora opcionales: Integración de datos con marca de hora y sin marca de hora {#section_BF17CB593044462B993FD0D28EA56518}
 
