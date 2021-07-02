@@ -3,9 +3,9 @@ title: Reglas de procesamiento de canales de marketing
 description: Las reglas de procesamiento de canales de marketing averiguan si el visitante que entra cumple los criterios asignados a un canal. Las reglas procesan cada visita que realizan los usuarios a su sitio web. Cuando una regla no cumple los criterios de un canal, o si las reglas no están configuradas correctamente, el sistema asigna la visita a No se ha identificado el canal.
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2163'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,13 +121,13 @@ En la regla de canal de marketing, la configuración de [!UICONTROL Búsqueda pa
 
 ![](assets/example_paid_search.png)
 
-Consulte [Detección de búsqueda paga](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) en Administración para obtener más información.
+Consulte [Detección de búsqueda paga](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=es) en Administración para obtener más información.
 
 ### Búsqueda natural {#natural-search}
 
 Las búsquedas naturales tienen lugar cuando los visitantes encuentran su sitio web a través de una búsqueda en Internet en la que el motor de búsqueda clasifica su sitio sin que usted haya pagado específicamente para ello.
 
-No hay detección de búsquedas naturales en Analytics. Después de configurar la detección de búsqueda paga, el sistema sabe que, si un referente de búsqueda no es de búsqueda paga, tiene que ser de búsqueda natural. Consulte [Detección de búsqueda paga](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) en Administración para obtener más información.
+No hay detección de búsquedas naturales en Analytics. Después de configurar la detección de búsqueda paga, el sistema sabe que, si un referente de búsqueda no es de búsqueda paga, tiene que ser de búsqueda natural. Consulte [Detección de búsqueda paga](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=es) en Administración para obtener más información.
 
 En la regla de canal de marketing, la configuración de búsqueda natural es la siguiente:
 
@@ -157,7 +157,7 @@ Una práctica recomendada es incluir un canal “Otras campañas” siguiendo to
 
 ![](assets/other-campaigns.png)
 
-### Redes sociales  {#social-networks}
+### Redes sociales {#social-networks}
 
 Esta regla identifica a los visitantes que se originan en una red social como, por ejemplo, Facebook;. El canal suele denominarse “Social orgánico”. La configuración puede ser así:
 
@@ -169,7 +169,7 @@ Esta regla identifica visitantes donde la dirección URL de referencia coincide 
 
 ![](assets/int-channel1.png)
 
-Consulte [Razones para la actualización interna (Actualización de sesión)](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal) si quiere obtener más información sobre el motivo por el que se produce este canal.
+Consulte [Razones para la actualización interna (Actualización de sesión)](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html?lang=es#internal) si quiere obtener más información sobre el motivo por el que se produce este canal.
 
 ### Directas {#direct}
 
