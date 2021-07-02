@@ -3,9 +3,9 @@ title: websiteBot
 description: Identifique de forma dinámica los bots moviendo el ratón.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: e76cf660bb14b8a69e44d300afcc4e712147de5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -19,25 +19,25 @@ El plug-in `websiteBot` permite identificar de forma dinámica si los visitantes
 
 Este plug-in realiza dos comprobaciones:
 
-* En primer lugar, en el caso de un dispositivo de escritorio, añade un detector de eventos para el movimiento del ratón.
-* A continuación, determina si el dispositivo es de escritorio o móvil usando la variable `navigator.UserAgent`. Los dispositivos móviles se ignoran.
+* Primero, en el caso de un dispositivo de escritorio, añade un detector de eventos para el movimiento del ratón.
+* Después, determina si se trata de un dispositivo de escritorio o móvil mediante la variable `navigator.UserAgent`. Los dispositivos móviles se ignoran.
 
-Si el agente de usuario está en un escritorio y no se detecta ningún movimiento del ratón, el complemento puede
+Si el agente de usuario está en un escritorio y no se detecta ningún movimiento de ratón, el plug-in puede
 
-* Realice una llamada de regla [!UICONTROL Direct Call] (para Adobe Experience Platform Launch) o
-* realice una llamada `s.tl` para indicar que el visitante no es un bot.
+* o bien realizar una llamada de regla [!UICONTROL Direct Call] (para Adobe Experience Platform Launch) o
+* realizar una llamada `s.tl` para indicar que el visitante no es un bot.
 
 ## Requisitos previos
 
 Adobe recomienda lo siguiente antes de utilizar este plug-in:
 
-* **Configuración de eVar**: configure un eVar en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes. Establezca la caducidad en **Never** o **Visit** y la asignación en **&quot;Valor original (primero)&quot;**. Este eVar debe establecerse en ambas circunstancias: cuando se activa la regla [!UICONTROL Direct Call] o la llamada `s.tl` .
+* **Configuración de eVar**: configure un eVar en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes. Establezca la caducidad en **Nunca** o **Visita** y la asignación a **“Valor original (primero)”**. Esta eVar se debe establecer en ambas circunstancias: cuando se activa la regla [!UICONTROL Direct Call] o la llamada `s.tl`.
 * **Recopilar agente de usuario en una variable independiente**: recopile la cadena del agente de usuario en una variable independiente para supervisar la eficacia de este plug-in. Establezca un eVar en `navigator.UserAgent` en cada visita para recopilar estos datos.
 
 ## Instalación del complemento con el editor de código personalizado de Launch
 
-1. Agregue una nueva regla `websiteBot`.
-1. Agregue un evento **Mouse Move Listener** a la regla `websiteBot` con este código personalizado:
+1. Añada una nueva regla `websiteBot`.
+1. Añada un evento **Mouse Move Listener** a la regla `websiteBot` con este código personalizado:
 
    ```
    trigger(document.addEventListener('mousemove', function detectMouseMove() {   
@@ -72,13 +72,13 @@ Adobe recomienda lo siguiente antes de utilizar este plug-in:
       }))
    ```
 
-1. Agregue una regla [!UICONTROL Direct Call] que active una señalización de Analytics con `websiteBot` como identificador. En este ejemplo utiliza una llamada `s.tl`:
+1. Añada una regla [!UICONTROL Direct Call] que active una señalización de Analytics con `websiteBot` como identificador. En este ejemplo utiliza una llamada `s.tl`:
 
    ![identificador de websiteBot](assets/websitebot.png)
 
 1. Active las acciones Adobe Analytics - Set Variables &amp; Adobe Analytics - Send Beacon en la regla [!UICONTROL Direct Call].  En el siguiente ejemplo se muestra una forma de hacerlo:
 
-   ![Enviar acciones de señalización](assets/websitebot2.png)
+   ![Acciones de Send Beacon](assets/websitebot2.png)
 
 
 ## Instalación del complemento con AppMeasurement
@@ -115,5 +115,5 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 ### 0.11 (3 de junio de 2021)
 
 * Código de complemento de AppMeasurement actualizado
-* Se ha actualizado la sección de Launch con instrucciones ampliadas.
+* Se ha actualizado la sección de Launch con más instrucciones.
 * Se ha actualizado la sección &quot;Uso del complemento&quot;.
