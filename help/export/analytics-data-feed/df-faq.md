@@ -4,9 +4,9 @@ keywords: Fuente de datos, trabajo, columna previa, columna posterior, distinci�
 title: Preguntas frecuentes sobre las fuentes de datos
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1375'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Preguntas frecuentes sobre las fuentes de datos.
 
 ## ¿Deben ser únicos los nombres de las fuentes?{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
-Los nombres de los archivos de fuente de datos se componen del ID del grupo de informes y de la fecha. Las dos fuentes que estén configuradas para el mismo RSID y la misma fecha tienen el mismo nombre de archivo. Si esas fuentes se entregan en la misma ubicación, un archivo sobrescribirá el otro. Para impedirlo, evite crear fuentes que puedan sobrescribir otra que ya exista en la misma ubicación.
+Los nombres de los archivos de fuente de datos se componen del ID del grupo de informes y de la fecha. Si dos fuentes están configuradas para el mismo ID de grupo de informes y la misma fecha, tendrán el mismo nombre de archivo. Si esas fuentes se entregan en la misma ubicación, los archivos se sobrescribirán entre sí. Para impedirlo, evite crear fuentes que puedan sobrescribir otra que ya exista en la misma ubicación.
 
 Cuando intente crear una fuente con el mismo nombre de archivo que otra, recibirá el siguiente mensaje:
 
@@ -40,7 +40,7 @@ Si una columna no contiene una versión `post_` (por ejemplo: `visit_num`), se p
 
 En Adobe Analytics, la mayoría de las variables se consideran sin distinción de mayúsculas y minúsculas a efectos de los informes. Por ejemplo: “nieve”, “Nieve”, “NIEVE” y “nLeve” se consideran todos como un mismo valor. La distinción entre mayúsculas y minúsculas se conserva en las fuentes de datos.
 
-Si ve diferentes variaciones de mayúsculas y minúsculas del mismo valor entre columnas no posteriores y posteriores (por ejemplo, &quot;nieve&quot; en la columna previa y &quot;Nieve&quot; en la columna posterior), la implementación utiliza valores en mayúsculas y minúsculas en todo el sitio. Se pasó anteriormente por la variación de la distinción de mayúsculas y minúsculas en la columna posterior y se almacena en la cookie virtual, o se procesó aproximadamente en el mismo momento para el grupo de informes.
+Si ve diferentes variaciones de mayúsculas y minúsculas del mismo valor entre columnas no posteriores y posteriores (por ejemplo, “nieve” en la columna previa y “Nieve” en la columna posterior), la implementación utiliza valores en mayúsculas y minúsculas en todo el sitio. Se pasó anteriormente por la variación de la distinción de mayúsculas y minúsculas en la columna posterior y se almacena en la cookie virtual, o se procesó aproximadamente en el mismo momento para el grupo de informes.
 
 ## ¿Las reglas de bots de la Admin Console filtran bots incluidos en las fuentes de datos?
 
@@ -60,7 +60,7 @@ Algunos operadores de telefonía móvil (como T-Mobile y O1) ya no proporcionan 
 
 Para los datos con más de 7 días de antigüedad, los archivos por hora de un día se combinan en un solo archivo diario.
 
-Ejemplo: Se crea una nueva fuente de datos el 9 de marzo de 2021 y los datos del 1 de enero de 2021 al 9 de marzo se entregan como “Por hora”. Sin embargo, los archivos &quot;Por hora&quot; anteriores al 2 de marzo de 2021 se combinan en un solo archivo &quot;Diario&quot;. Puede extraer archivos por hora solo de datos que tengan menos de 7 días desde la fecha de creación. En este caso, del 2 al 9 de marzo.
+Ejemplo: Se crea una nueva fuente de datos el 9 de marzo de 2021 y los datos del 1 de enero de 2021 al 9 de marzo se entregan como “Por hora”. Sin embargo, los archivos por hora de antes del 2 de marzo de 2021 se combinan en un solo archivo diario. Puede extraer archivos por hora solo de datos que tengan menos de 7 días desde la fecha de creación. En este caso, del 2 al 9 de marzo.
 
 ## ¿Cuál es el impacto del horario de verano en las fuentes de datos por hora? {#section_70E867D942054DD09048E027A9474FFD}
 
@@ -72,7 +72,7 @@ Cuando se realice la transición de DST a STD, el cliente recibirá 24 archivos.
 
 ## ¿Cómo gestiona Analytics los errores de transferencia de FTP? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
-Si falla una transferencia FTP (debido a un inicio de sesión denegado, una conexión perdida, un error de cuota u otro problema), el Adobe intenta conectarse automáticamente y envía los datos hasta tres veces diferentes. Si no se resuelven los errores, la fuente se marca como errónea y se envía una notificación de correo electrónico.
+Si falla una transferencia FTP (debido a un inicio de sesión denegado, una conexión perdida, un error de cuota u otro problema), Adobe intenta conectarse automáticamente y envía los datos hasta tres veces diferentes. Si no se resuelven los errores, la fuente se marca como errónea y se envía una notificación de correo electrónico.
 
 Si una transferencia da error, puede volver a ejecutar el trabajo hasta que se realice correctamente.
 
@@ -84,17 +84,17 @@ Cuando haya comprobado/corregido el problema de entrega, ejecute de nuevo el tra
 
 ## ¿Cuál es la configuración de BucketOwnerFullControl para las fuentes de datos de Amazon S3? {#BucketOwnerFullControl}
 
-**BucketOwnerFullControl** proporciona derechos a varias cuentas para crear objetos en otros buckets.
+**BucketOwnerFullControl** proporciona derechos a varias cuentas para crear objetos en otros contenedores.
 
-El caso de uso más habitual de Amazon S3 es que el propietario de la cuenta de los servicios web de Amazon (AWS) crea un bucket, a continuación crea un usuario que tiene permiso para crear objetos en ese bucket y, finalmente, proporciona credenciales para ese usuario. En este caso, los objetos de un usuario pertenecen a la misma cuenta y el propietario de la cuenta tiene implícitamente un control total del objeto (leer, eliminar, etc.). Funciona de un modo similar a la entrega por FTP.
+El caso de uso más habitual de Amazon S3 es que el propietario de la cuenta de los servicios web de Amazon (AWS) crea un contenedor, a continuación crea un usuario que tiene permiso para crear objetos en ese contenedor y, finalmente, proporciona credenciales para ese usuario. En este caso, los objetos de un usuario pertenecen a la misma cuenta y el propietario de la cuenta tiene implícitamente un control total del objeto (leer, eliminar, etc). Funciona de un modo similar a la entrega por FTP.
 
-AWS también permite a los usuarios crear objetos en un bloque que pertenece a otra cuenta de usuario completamente diferente. Por ejemplo, supongamos que dos usuarios de AWS, el usuario A y el usuario B, no pertenecen a la misma cuenta de AWS pero desean crear objetos en otros buckets. Si el usuario A crea un bucket llamado &quot;bucket A&quot;, puede crear una política que permita explícitamente que el usuario B cree objetos en el bucket A aunque el bucket no pertenezca al usuario. Esta directiva puede ser ventajosa porque no requiere que el usuario A y el usuario B intercambien credenciales. En su lugar, el usuario B proporciona su número de cuenta al usuario A y este crea una política de bucket que diga &quot;permitir al usuario B crear objetos en el bucket A&quot;.
+AWS también permite a los usuarios crear objetos en un contenedor que pertenece a otra cuenta de usuario completamente diferente. Por ejemplo, si dos usuarios de AWS, el usuario A y el usuario B, no pertenecen a la misma cuenta de AWS pero quieren crear objetos en otros contenedores. Si el usuario A crea un contenedor llamado “contenedorA”, puede crear una política que permita explícitamente que el usuario B cree objetos en el contenedorA, aunque el contenedor no pertenezca al usuario. Esta directiva puede ser beneficiosa porque no es necesario que el usuario A y el usuario B intercambien credenciales. En su lugar, el usuario B proporciona su número de cuenta al usuario A y este crea una política de contenedor que diga “permitir al usuario B crear objetos en el contenedorA”.
 
-Sin embargo, los objetos no heredan permisos del bloque principal. Por lo tanto, si el usuario B carga un objeto en el bucket del usuario A, el usuario B sigue &quot;siendo propietario&quot; de ese objeto y, de forma predeterminada, no se concede ningún permiso al usuario A para ese objeto aunque el usuario A posea el bucket. El usuario B debe conceder permiso explícitamente al usuario A porque el usuario B sigue siendo el propietario del objeto. Para conceder este permiso, el usuario B debe cargar el objeto con un BucketOwnerFullControl ACL, que especifica que el propietario del bucket (usuario A) tiene permisos totales para el objeto (leer, escribir, eliminar, etc.), aunque el usuario B &quot;posee&quot; el objeto.
+Sin embargo, los objetos no heredan permisos del contenedor principal. Por tanto, si el usuario B carga un objeto al bloque del usuario A, el usuario B todavía “posee” ese objeto y, por defecto, no se han concedido permisos al usuario A sobre ese objeto, aunque el usuario A posea el contenedor. El usuario B debe conceder permiso explícitamente al usuario A porque el usuario B sigue siendo el propietario del objeto. Para conceder este permiso, el usuario B debe cargar el objeto con un BucketOwnerFullControl ACL, que especifica que el propietario del contenedor (usuario A) tiene permisos totales para el objeto (leer, escribir, eliminar, etc.), aunque el objeto sea “propiedad” del usuario B.
 
 >[!NOTE]
 >
->[!DNL Analytics] no determina si el compartimento tiene una política que requiera dar al propietario del compartimento control total de nuevos objetos, o incluso si el propietario del compartimento está en una cuenta diferente a la del usuario que escribe los datos. En su lugar, [!DNL Analytics] agrega automáticamente el propietario del bloque a la ACL BucketOwnerFullControl con cada carga de fuente.
+>[!DNL Analytics] no determina si el contenedor tiene una política que requiera dar al propietario del contenedor total control de nuevos objetos, o incluso si el propietario del contenedor está en una cuenta diferente a la del usuario que escribe los datos. En su lugar, [!DNL Analytics] agrega automáticamente el propietario del contenedor a la ACL BucketOwnerFullControl con cada carga de fuente.
 
 >[!MORELIKETHIS]
 >
