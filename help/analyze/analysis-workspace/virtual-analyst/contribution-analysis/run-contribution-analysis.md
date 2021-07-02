@@ -6,9 +6,9 @@ feature: Herramientas de IA
 role: Business Practitioner, Administrator
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,9 +39,9 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
 
    * Una visualización que muestra el número de **visitas** en ese día.
    * Una **línea de tendencias de visitas** mensual para el contexto.
-   * Los **elementos principales** que han contribuido a esta anomalía, ordenados por [puntuación de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), además de la métrica en cuestión y una métrica de visitantes únicos para poner la métrica en contexto desde una perspectiva de tamaño.
+   * Los **elementos principales** que han contribuido a esta anomalía, ordenados por [puntuación de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=es), además de la métrica en cuestión y una métrica de visitantes únicos para poner la métrica en contexto desde una perspectiva de tamaño.
 
-   * La tabla [Segmentos generados](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) (grupos de elementos principales) identifica las asociaciones de los elementos principales en función de su puntuación de contribución, ocurrencias de anomalías y el porcentaje de contribución general a la métrica anómala. A continuación, esto se captura como segmento de audiencia (segmento de contribución 1, segmento de contribución 2, etcétera). Si hace clic en el botón “i” (información), se le mostrará la definición de cada segmento automático, incluidos los elementos principales de los cuales se compone:
+   * La tabla [Segmentos generados](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es) (grupos de elementos principales) identifica las asociaciones de los elementos principales en función de su puntuación de contribución, ocurrencias de anomalías y el porcentaje de contribución general a la métrica anómala. A continuación, esto se captura como segmento de audiencia (segmento de contribución 1, segmento de contribución 2, etcétera). Si hace clic en el botón “i” (información), se le mostrará la definición de cada segmento automático, incluidos los elementos principales de los cuales se compone:
 
       ![](assets/auto_segment.png)
 
