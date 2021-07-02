@@ -5,7 +5,7 @@ exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,4 +61,4 @@ Con el Canal de primer contacto heredado y el Canal de último contacto, puede o
 
 ![](assets/mc-viz6.png)
 
-Obtenga más información acerca del análisis de marketing entre pestañas en este vídeo: [Uso del análisis entre pestañas para explorar la atribución de marketing básica en Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Obtenga más información acerca del análisis de marketing entre pestañas en este vídeo: [Uso del análisis entre pestañas para explorar la atribución de marketing básica en Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html?lang=es).
