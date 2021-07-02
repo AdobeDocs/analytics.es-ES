@@ -5,9 +5,9 @@ title: Conjuntos de reglas de clasificación
 feature: Herramientas de administración
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Nombre el conjunto de reglas de clasificación, aplique la variable y especifiqu
 
 1. (Requisito previo) Defina la estructura de clasificación en **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
 
-   (Consulte [Clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en la ayuda de las herramientas de administración, donde se trata la adición de clasificaciones).
+   (Consulte [Clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es) en la ayuda de las herramientas de administración, donde se trata la adición de clasificaciones).
 
    Las variables se mostrarán en el panel [!UICONTROL Nuevo conjunto de reglas] solo después de haber definido como mínimo una clasificación para la variable.
 
