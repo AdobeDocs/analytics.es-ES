@@ -4,9 +4,9 @@ title: 'Referencia: funciones avanzadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2909'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ AND(logical_test1,[logical_test2],...)
 
 ## Número aproximado de elementos distintos (dimensión) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
-Devuelve el número aproximado de elementos distintos de dimensiones para la dimensión seleccionada. Esta función usa el método HyperLogLog (HLL) de números aproximados de elementos distintos. Está configurada para garantizar que el valor se encuentre en el 5 % del 95 % del valor actual del tiempo.
+Devuelve el número aproximado de elementos distintos de dimensiones para la dimensión seleccionada. Esta función usa el método HyperLogLog (HLL) de números aproximados de elementos distintos.  Está configurada para garantizar que el valor se encuentre en el 5 % del 95 % del valor actual del tiempo.
 
 ```
 Approximate Count Distinct (dimension)
@@ -69,7 +69,7 @@ Así es como se podría usar la métrica “Clientes aproximados” en un inform
 
 ### Se excedió la cantidad de valores exclusivos {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
+Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=es). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
 
 ### Comparación de funciones de recuento {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
