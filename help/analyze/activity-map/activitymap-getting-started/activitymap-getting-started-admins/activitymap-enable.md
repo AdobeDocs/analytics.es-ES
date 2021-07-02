@@ -6,9 +6,9 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Primero hay que habilitar los informes de Activity Map en el nivel de grupo de i
 
    Esto le llevará a la página de administración de grupos de Admin Console.
 
-1. [Añada usuarios a este grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) y haga clic en **[!UICONTROL Guardar grupo]**.
+1. [Añada usuarios a este grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=es) y haga clic en **[!UICONTROL Guardar grupo]**.
 
 1. De este modo, sus usuarios administradores podrán descargar Activity Map desde **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Herramientas]** > **[!UICONTROL Activity Map]**.
 
