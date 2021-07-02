@@ -6,9 +6,9 @@ feature: Depurar y compartir
 role: Business Practitioner, Administrator
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ También puede compartir un vínculo a una parte específica de un proyecto, com
 * Desde cualquier encabezado del panel, haga clic con el botón derecho en **[!UICONTROL Obtener vínculo del panel]**
 * Desde cualquier tabla o encabezado de visualización, haga clic con el botón derecho en **[!UICONTROL Obtener vínculo de visualización]**
 
-[Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) sobre cómo crear vínculos y utilizarlos para dirigir destinatarios a partes específicas del proyecto.
+[Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=es) sobre cómo crear vínculos y utilizarlos para dirigir destinatarios a partes específicas del proyecto.
 
 ![](assets/get-viz-link.png)
 
@@ -37,6 +37,6 @@ También puede compartir un vínculo a una parte específica de un proyecto, com
 
 Una sugerencia para aprovechar las distintas opciones de vínculos es incluir siempre una tabla de contenido en la parte superior del proyecto de Workspace. En la tabla de contenido, puede vincular otros proyectos relevantes, paneles específicos y visualizaciones específicas. Esto ayuda al destinatario del proyecto a navegar más fácilmente.
 
-[Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html) sobre cómo crear una tabla de contenido mediante vínculos y el editor de texto enriquecido de Workspace.
+[Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=es) sobre cómo crear una tabla de contenido mediante vínculos y el editor de texto enriquecido de Workspace.
 
 ![](assets/toc.png)
