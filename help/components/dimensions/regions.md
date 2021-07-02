@@ -3,9 +3,9 @@ title: Regiones
 description: Región geográfica del visitante.
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
 source-git-commit: 4e09df2631626376f9351512afed7a9e4241e7d6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '342'
+ht-degree: 100%
 
 ---
 
