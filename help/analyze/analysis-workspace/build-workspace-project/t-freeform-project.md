@@ -5,9 +5,9 @@ title: Creación de un proyecto de Workspace
 feature: Conceptos básicos de Reports & Analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '756'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
 1. Especifique el permiso del usuario para crear y depurar proyectos.
 
-   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarlo a usted a un grupo con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **[!UICONTROL Acceso a todos los informes]**. (**[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL User management]** > [Grupos](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)).
+   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarlo a usted a un grupo con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **[!UICONTROL Acceso a todos los informes]**. (**[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL User management]** > [Grupos](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=es)).
 
 1. En [!DNL Experience Cloud], haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
@@ -135,7 +135,7 @@ El panel [!UICONTROL Visualizaciones] incluye gráficos, diagramas circulares, t
 
 1. Paso
 
-## Use el menú que se abre al hacer clic con el botón derecho para personalizar sus datos.  {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
+## Use el menú que se abre al hacer clic con el botón derecho para personalizar sus datos. {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
 
 El menú del botón secundario le permite realizar las siguientes acciones, según en qué celda de una tabla haga clic con el botón secundario.
 
