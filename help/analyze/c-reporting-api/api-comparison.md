@@ -6,9 +6,9 @@ feature: API
 role: Developer
 exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Una tabla comparativa de las API de informes de Analytics. Se incluyen vínculos
    <td colname="col5"> Datos totalmente procesados y finalizados que se utilizan para extraer exportaciones de datos de gran volumen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html"  > Latencia</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html?lang=es"  > Latencia</a> </p> </td> 
    <td colname="col2"> De 30 a 90 minutos </td> 
    <td colname="col3"> * De segundos a 10 minutos </td> 
    <td colname="col4"> De segundos a 10 minutos </td> 
@@ -53,7 +53,7 @@ Una tabla comparativa de las API de informes de Analytics. Se incluyen vínculos
    <td colname="col5"> Completa </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html"  > Interfaces de generación de informes</a> </td> 
+   <td colname="col1"> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html?lang=es"  > Interfaces de generación de informes</a> </td> 
    <td colname="col2"> Analysis Workspace, Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col3"> Real-time report in Reports &amp; Analytics, Report Builder, 1.4 API </td> 
    <td colname="col4"> Solo API </td> 
@@ -85,7 +85,7 @@ Una tabla comparativa de las API de informes de Analytics. Se incluyen vínculos
    <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > API de Analytics</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > Informes en tiempo real</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > Información general de emisión en directo</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=es"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
