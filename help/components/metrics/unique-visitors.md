@@ -3,9 +3,9 @@ title: Visitantes únicos
 description: Número de ID único de visitante.
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Esta métrica cuenta el número de ID del visitante único para un elemento de d
 | Pedido utilizado | Parámetro de consulta (método de recopilación) | Presente cuando |
 | --- | --- | --- |
 | 1 | `vid` | Se establece la variable [`visitorID`](/help/implement/vars/config-vars/visitorid.md). |
-| 2 | `aid` | El visitante tiene una cookie de [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html). Se configura en implementaciones sin implementar el servicio de ID de visitante o antes de hacerlo. |
-| 3 | `mid` | El visitante tiene una cookie de [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html). Se configura en implementaciones que utilizan el [Servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
-| 4 | `fid` | El visitante tiene una cookie [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), o si `aid` y `mid` no se pueden configurar por algún motivo. |
+| 2 | `aid` | El visitante tiene una cookie de [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=es). Se configura en implementaciones sin implementar el servicio de ID de visitante o antes de hacerlo. |
+| 3 | `mid` | El visitante tiene una cookie de [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=es). Se configura en implementaciones que utilizan el [Servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). |
+| 4 | `fid` | El visitante tiene una cookie [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=es), o si `aid` y `mid` no se pueden configurar por algún motivo. |
 | 5 | Dirección IP, agente de usuario y dirección IP de puerta de enlace | El último recurso para identificar un visitante único si el explorador del visitante no acepta cookies. |
 
 >[!NOTE]
