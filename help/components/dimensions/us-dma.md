@@ -3,7 +3,7 @@ title: Área de mercado designada (DMA) de EE.UU.
 description: Área de mercado designada de la visita.
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
 source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
