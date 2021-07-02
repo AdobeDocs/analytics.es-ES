@@ -3,7 +3,7 @@ title: Permisos de perfil de productos para las herramientas de Analytics
 description: Los elementos de permiso de las herramientas de Analytics conceden acceso a las funciones de Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
 ht-degree: 100%
 
