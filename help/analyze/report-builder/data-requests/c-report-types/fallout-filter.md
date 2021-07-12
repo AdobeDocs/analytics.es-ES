@@ -3,15 +3,14 @@ description: Describe los pasos involucrados en la aplicación de filtros a un i
 title: Filtrado de un informe de abandonos mediante el Asistente para solicitudes
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 98%
+source-wordcount: '225'
+ht-degree: 100%
 
 ---
-
 
 # Filtrado de un informe de abandonos mediante el Asistente para solicitudes
 
