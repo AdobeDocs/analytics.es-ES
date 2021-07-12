@@ -2,11 +2,10 @@
 title: Guía del usuario de Labs
 description: Vista previa de proyectos prototipo para Adobe Analytics
 feature: Labs
-role: Administrator
+role: Admin
 exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 
