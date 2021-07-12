@@ -3,15 +3,14 @@ description: El modo sin conexión devuelve datos de marcador de posición para 
 title: Modo sin conexión para crear y editar solicitudes
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 98%
+source-wordcount: '197'
+ht-degree: 100%
 
 ---
-
 
 # Modo sin conexión para crear y editar solicitudes
 
@@ -36,4 +35,3 @@ Para activar el modo sin conexión:
    >[!IMPORTANT]
    >
    >Asegúrese de desactivar el modo sin conexión antes de ejecutar sus solicitudes con datos reales. Para ello, simplemente vuelva a **[!UICONTROL Opciones]** y elimine la marca de activación.
-
