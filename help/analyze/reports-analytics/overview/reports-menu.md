@@ -3,16 +3,16 @@ description: Una descripción general del menú Informes en Reports & Analytics.
 title: Menú Informes
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Conceptos básicos de Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
-# Menú Informes {#reports-menu}
+# Menú Informes{#reports-menu}
 
 Una descripción general del menú Informes en Reports &amp; Analytics.
 
@@ -65,7 +65,7 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmentos <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Muestra el carril de segmento que le permite agregar o administrar segmentos. También puede acceder a las interfaces de <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >Generador de segmentos</a> y <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >Administrador de segmentos</a> desde el carril del segmento. </td> 
+   <td colname="col2">Muestra el carril de segmento que le permite agregar o administrar segmentos. También puede acceder a las interfaces de <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >Generador de segmentos</a> y <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=es"  >Administrador de segmentos</a> desde el carril del segmento. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Métricas <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
