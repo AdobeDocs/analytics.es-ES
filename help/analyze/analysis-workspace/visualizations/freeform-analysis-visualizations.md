@@ -3,10 +3,10 @@ description: Representar visualmente los datos con visualizaciones.
 keywords: Analysis Workspace
 title: Resumen de las visualizaciones
 feature: Visualizaciones
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 100%
 
