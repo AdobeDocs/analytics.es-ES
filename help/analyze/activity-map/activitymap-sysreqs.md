@@ -3,15 +3,14 @@ description: Activity Map es compatible con los siguientes exploradores web.
 title: Sistemas compatibles y requisitos
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: a0bed55f-042c-4963-b7e5-7a5369bba48e
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 59%
+source-wordcount: '113'
+ht-degree: 61%
 
 ---
-
 
 # Sistemas compatibles y requisitos
 
@@ -31,4 +30,3 @@ Otros requisitos:
 
 * Versión del código de AppMeasurement 1.6 o posterior. [Más...](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * JavaScript y las cookies deben estar activados.
-
