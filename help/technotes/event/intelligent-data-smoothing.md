@@ -2,12 +2,11 @@
 title: Suavizado de datos inteligente
 description: Descubra cómo el suavizado de datos inteligente analiza las tendencias históricas para predecir el valor de cualquier métrica dentro de un período de tiempo afectado.
 feature: Herramientas de IA
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: aa9f0a8f5b7b1780d0b0be729775c573e12caa35
+role: User, Admin
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
