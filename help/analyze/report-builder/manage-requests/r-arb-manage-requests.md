@@ -3,15 +3,14 @@ description: Descripción de los campos para administrar solicitudes en Report B
 title: 'Administrar solicitudes: definiciones'
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 99%
+source-wordcount: '547'
+ht-degree: 100%
 
 ---
-
 
 # Administrar solicitudes: definiciones
 
@@ -91,4 +90,3 @@ El [!UICONTROL Administrador de solicitudes] se muestra al hacer clic en **[!UIC
   </tr> 
  </tbody> 
 </table>
-
