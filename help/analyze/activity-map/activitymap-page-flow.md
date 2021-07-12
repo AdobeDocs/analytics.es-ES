@@ -3,15 +3,14 @@ description: La ficha Detalles de página muestra el informe de página en forma
 title: Detalles de página
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: abad0feb-1a9f-47c6-a275-6c40fcd59116
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 98%
+source-wordcount: '247'
+ht-degree: 100%
 
 ---
-
 
 # Detalles de página
 
@@ -39,4 +38,3 @@ El informe del flujo de página solo está disponible en el modo Estándar.
 | Páginas anteriores | Nombra la página interna del grupo de informes anterior a la página actual. |
 | Páginas siguientes | La página visitada después de abandonar la página actual. |
 | Salidas del sitio | Número de visitantes que abandonaron el sitio por completo después de ver la página. |
-
