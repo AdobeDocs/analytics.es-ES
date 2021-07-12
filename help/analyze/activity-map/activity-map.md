@@ -3,11 +3,10 @@ description: Activity Map es una aplicación de Adobe Analytics diseñada para c
 title: Descripción general de Activity Map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
 
