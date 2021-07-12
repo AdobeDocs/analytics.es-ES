@@ -3,15 +3,14 @@ description: Los controles interactivos le permiten editar segmentos e intervalo
 title: Controles interactivos
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 99%
+source-wordcount: '543'
+ht-degree: 100%
 
 ---
-
 
 # Controles interactivos
 
@@ -82,4 +81,3 @@ Implementar el control de segmento interactivo es similar a implementar el contr
 1. El nuevo control interactivo ahora aparecerá en el libro:
 
    ![](assets/segment_interactive_3.png)
-
