@@ -2,11 +2,10 @@
 title: 'Paneles de Adobe Analytics: Información general'
 description: Documentación del producto e instrucciones para los paneles de Adobe Analytics
 feature: Paneles de Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
 
