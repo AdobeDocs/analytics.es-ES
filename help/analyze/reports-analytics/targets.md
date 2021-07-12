@@ -3,10 +3,9 @@ description: Los objetivos le permiten medir el rendimiento del sitio y llevar u
 title: 'Objetivos '
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 feature: Conceptos básicos de Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
-translation-type: tm+mt
-source-git-commit: 274348296f2215389377ec94ff4d39b1769e81cc
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 86%
@@ -21,7 +20,7 @@ Al crear objetivos, seleccione qué métricas de atributos o eVar desea medir o 
 
 Por ejemplo, puede medir la cantidad de visitantes únicos del sitio Web y utilizar esto como objetivo. En ese caso, elija todo el sitio Web. Sin embargo, si el objetivo es la cantidad de visitantes únicos del sitio Web provenientes de Chicago, puede especificar esa eVar en lugar de ver todo el sitio.
 
-## Descripciones de campos de objetivos {#section_44DFFB4A7AC54D65BC2345411686B2AD}
+## [!UICONTROL Descripciones de campos de objetivos ] {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
 **[!UICONTROL Analytics]**  >  **[!UICONTROL Componentes]**  >  **[!UICONTROL Todos los componentes]**  >  **[!UICONTROL Objetivos]**
 
