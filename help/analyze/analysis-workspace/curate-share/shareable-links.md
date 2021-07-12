@@ -3,10 +3,10 @@ description: Aprenda a crear vínculos que se pueden compartir a proyectos o vis
 keywords: Uso compartido en Analysis Workspace
 title: Crear vínculos que se pueden compartir
 feature: Depurar y compartir
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
