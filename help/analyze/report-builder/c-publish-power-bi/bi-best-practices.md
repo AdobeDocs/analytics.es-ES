@@ -3,15 +3,14 @@ description: Prácticas recomendadas de Power BI.
 title: Prácticas recomendadas
 uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 95%
+source-wordcount: '140'
+ht-degree: 97%
 
 ---
-
 
 # Prácticas recomendadas
 
@@ -24,4 +23,3 @@ Si elimina una solicitud en su libro, asegúrese de no tener ninguna visualizaci
 * Si es posible, no elimine solicitudes que haya creado en Report Builder
 * Si elimina solicitudes en Report Builder, asegúrese de eliminar en Power BI la visualización correspondiente.
 * Si no está seguro: elimine las solicitudes que ya no necesite y, a continuación, vuelva a publicar y vaya a Power BI para comprobar qué visualizaciones se han roto
-
