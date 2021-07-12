@@ -2,10 +2,10 @@
 description: 'Los componentes de Analysis Workspace están formados por métricas, dimensiones, segmentos y rangos de tiempo que puede arrastrar y soltar en un proyecto. '
 title: Resumen de componentes
 feature: Conceptos básicos de Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Algunos ejemplos de métricas son [!UICONTROL Vistas de página], [!UICONTROL Vi
 
 Los [**segmentos**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html?lang=es) son filtros de audiencia que se aplican al análisis. Se pueden encontrar en el carril izquierdo del componente (sección azul) y se suelen aplicar en la parte superior de un panel o en columnas de métricas superiores de una tabla.
 
-Algunos ejemplos de segmentos son [!UICONTROL Visitantes de dispositivos móviles], [!UICONTROL Visitas desde correo electrónico] y [!UICONTROL Visitas autenticadas]. Los segmentos los proporciona Adobe, o se crean en la [zona desplegable del panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es) o con el [Generador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es).
+Algunos ejemplos de segmentos son [!UICONTROL Visitantes de dispositivos móviles], [!UICONTROL Visitas desde correo electrónico] y [!UICONTROL Visitas autenticadas]. Los segmentos los proporciona Adobe, o se crean en la [zona desplegable del panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) o con el [Generador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es).
 
 ![](assets/segments.png)
 
@@ -53,7 +53,7 @@ Algunos ejemplos de segmentos son [!UICONTROL Visitantes de dispositivos móvile
 
 Los [**intervalos de fechas**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=es) son el intervalo de fechas en el que realiza el análisis. Se encuentran en el carril izquierdo del componente (sección morada) y se aplican normalmente en el calendario de cada panel.
 
-Algunos ejemplos de intervalos de fechas son julio de 2019, [!UICONTROL Últimas 4 semanas] y [!UICONTROL Este mes]. Los intervalos de fechas los proporciona Adobe, se aplican en el [calendario del panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es) o se crean con el [Generador de intervalos de fechas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=es).
+Algunos ejemplos de intervalos de fechas son julio de 2019, [!UICONTROL Últimas 4 semanas] y [!UICONTROL Este mes]. Los intervalos de fechas los proporciona Adobe, se aplican en el [calendario del panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) o se crean con el [Generador de intervalos de fechas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=es).
 
 ![](assets/date-ranges.png)
 
