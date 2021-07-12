@@ -3,15 +3,14 @@ description: Las superposiciones permiten configurar la visualización de datos 
 title: Superposiciones personalizables
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 99%
+source-wordcount: '356'
+ht-degree: 100%
 
 ---
-
 
 # Superposiciones personalizables
 
@@ -64,4 +63,3 @@ Las superposiciones de burbujas se muestran cuando selecciona en la barra de her
 Esta superposición en tiempo real clasifica los clics según los cambios en el valor de la métrica entre los períodos anteriores y el actual.
 
 ![](assets/gainers_losers.png)
-
