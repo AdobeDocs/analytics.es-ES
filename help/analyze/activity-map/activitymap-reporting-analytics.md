@@ -3,9 +3,9 @@ description: Describe cómo definir permisos y las dimensiones que están dispon
 title: Informes de Activity Map en Analytics
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 92%
@@ -30,7 +30,7 @@ Puede [personalizar el acceso de los usuarios a las dimensiones](https://experie
 
 | Dimensión | Descripción |
 |---|---|
-| Página de Activity Map | Muestra las páginas en las que se hizo clic en un vínculo. |
+| Activity Map Activity Map | Muestra las páginas en las que se hizo clic en un vínculo. |
 | Región de Activity Map | Indica todas las regiones de los vínculos recopilados en todo el sitio web. Tenga en cuenta que si una región aparece en varias páginas, la métrica se agregará en todas sus páginas. |
 | Vínculos de Activity Map | Indica todos los vínculos recopilados en todo el sitio web. |
 | Vínculos y región de Activity Map | Muestra todos los vínculos recogidos y la región a la que pertenecen en todo el sitio Web. |
