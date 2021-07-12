@@ -3,15 +3,14 @@ description: Pasos para seleccionar un grupo de informes en Excel.
 title: Selección de un grupo de informes
 uuid: e9fb6e20-217c-4b36-aaec-19ccf407da93
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f9fd18a6-2c03-468a-a022-9f4d263f166d
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 94%
+source-wordcount: '52'
+ht-degree: 100%
 
 ---
-
 
 # Selección de un grupo de informes
 
