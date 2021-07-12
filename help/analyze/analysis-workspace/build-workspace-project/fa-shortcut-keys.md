@@ -3,9 +3,9 @@ description: Interacciones de teclado estándar, teclas de acceso directo y comp
 keywords: Analysis Workspace
 title: Teclas de acceso directo (métodos abreviados)
 feature: Conceptos básicos de Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
