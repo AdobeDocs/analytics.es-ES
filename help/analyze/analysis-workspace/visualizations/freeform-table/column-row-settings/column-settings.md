@@ -3,11 +3,10 @@ description: La configuración de columna le permite configurar el formato de la
 title: Configuración de columna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Tablas improvisadas
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 100%
 
@@ -41,7 +40,7 @@ Puede editar la configuración **de varias columnas a la vez**. Basta con selecc
 | Formato condicional | Consulte la siguiente sección. |
 | Vista previa de celdas de tabla | Muestra una vista previa del aspecto de cada una de las celdas con las opciones de formato seleccionadas actualmente aplicadas. |
 
-## Formato condicional {#conditional-formatting}
+## Aplicación de formato condicional {#conditional-formatting}
 
 El formato condicional aplica formato que puede definir a los límites superior, medio e inferior. La aplicación de formato condicional (colores, etc.) en tablas de forma libre también está activada automáticamente en los desgloses, a menos que los límites “Personalizados” estén seleccionados.
 
