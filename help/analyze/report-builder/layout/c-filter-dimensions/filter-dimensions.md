@@ -3,15 +3,14 @@ description: Es posible filtrar las dimensiones que se añadan a la cuadrícula 
 title: Resumen del filtrado de dimensiones
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 98%
 
 ---
-
 
 # Resumen del filtrado de dimensiones
 
@@ -144,7 +143,7 @@ Las tablas que aparecen a continuación contienen ejemplos e información sobre 
   </tr> 
   <tr> 
    <td colname="col1"> | </td> 
-   <td colname="col2"> O </td> 
+   <td colname="col2"> o </td> 
    <td colname="col3"> <p>Solo se puede usar en el filtro <span class="term"> Filtro avanzado (caracteres especiales)</span>. </p> </td> 
   </tr> 
  </tbody> 
