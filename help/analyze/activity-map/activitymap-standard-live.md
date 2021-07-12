@@ -3,15 +3,14 @@ description: Activity Map dispone de dos modos básicos para crear informes comp
 title: Modo Estándar y modo Activo
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2364e7b0-443a-49a8-b084-403501f52360
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 99%
+source-wordcount: '392'
+ht-degree: 100%
 
 ---
-
 
 # Modo Estándar y modo Activo
 
@@ -34,7 +33,7 @@ P: ¿Qué ocurre si una página incluye vínculos con el mismo nombre en varias 
 
 R: Depende de cómo sume los datos del vínculo. En Activity Map, miramos el ID y la región del vínculo de una página determinada. Así, la asignación de datos debería ser para la combinación &quot;ID|Región del vínculo&quot;. En este caso, como la región es diferente, el vínculo|región sería distinto y, por tanto, todos los ingresos asignados para el primer vínculo|región diferirán de los asignados para el segundo vínculo. Sin embargo, en la IU de Adobe Analytics, puede consultar únicamente el informe de ID del vínculo (en lugar del informe de vínculo|región) para una página determinada (página desglosada por vínculos). En este caso, los ingresos de ambas regiones se sumarían.
 
-## Modo Activo  {#section_D619B77D89A840F0B1C2DEA2715A516A}
+## Modo Activo {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
 En el **modo Activo**, los datos de Analytics se muestran en incrementos de 1 a 15 minutos en forma de tendencias. Este modo sirve para analizar y supervisar las tendencias a corto plazo de la página web.
 
@@ -45,4 +44,3 @@ El modo Activo responde a las necesidades de las organizaciones editoriales. Est
 >Los grupos de informes virtuales solo son compatibles con el modo Estándar, no con el Activo.
 
 ![](assets/live_mode.png)
-
