@@ -3,9 +3,9 @@ description: Cuando se programa un informe, se puede seleccionar una lista de pu
 title: Permitir anulaciones de la lista de publicación
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: a7bd6cdb-397a-45ba-88ff-c3b3c7062005
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 95%
