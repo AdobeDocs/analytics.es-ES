@@ -3,10 +3,10 @@ description: Una depuración le permite limitar los componentes antes de compart
 keywords: Revisión de Analysis Workspace
 title: Depurar proyectos de
 feature: Depurar y compartir
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 100%
 
