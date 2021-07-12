@@ -4,12 +4,12 @@ subtopic: Alerts
 title: Alertas
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alertas
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Como el nuevo sistema de alertas, las alertas inteligentes de Adobe Analytics le
 
 Puede acceder a este nuevo sistema de Alertas en **[!UICONTROL Más]** > **[!UICONTROL Alertas]** en cualquier análisis de Reports &amp; Analytics.
 
-Para obtener más información, consulte la documentación de Analysis Workspace sobre las [Alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
+Para obtener más información, consulte la documentación de Analysis Workspace sobre las [Alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=es).
 
 ## Añadir una alerta {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
