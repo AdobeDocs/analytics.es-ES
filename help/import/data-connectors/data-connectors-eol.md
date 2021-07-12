@@ -2,10 +2,10 @@
 description: Descubra cuándo y por qué los conectores de datos de Analytics finalizarán su vida útil.
 title: Anuncio previo al fin de vida útil para los conectores de datos de Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
-workflow-type: ht
-source-wordcount: '648'
-ht-degree: 100%
+source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 95%
 
 ---
 
@@ -103,4 +103,4 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 
 La ÚNICA excepción con fecha del 1 de agosto de 2021 es la integración de Adobe Campaign Classic. Esta integración quedará obsoleta oficialmente el 1 de marzo de 2022.
 
-El 1 de agosto de 2021, Adobe Campaign Classic se eliminará de la IU de los Data Connectors junto con todas las demás integraciones; sin embargo, las integraciones de Campaign existentes seguirán recopilando y pasando datos a Adobe Analytics hasta el 1 de marzo de 2022. El 1 de marzo de 2022, la integración dejará de recopilar y pasar datos a Adobe Analytics. Adobe Campaign está creando una nueva integración en Adobe Exchange para reemplazar la integración actual de los Data Connectors. Adobe Campaign prevé finalizar esta nueva integración a tiempo para que los clientes puedan migrar a ella antes de la fecha de obsolescencia de marzo de 2022.
+El 1 de agosto de 2021, Adobe Campaign Classic se eliminará de la IU de los Data Connectors junto con todas las demás integraciones; sin embargo, las integraciones de Campaign existentes seguirán recopilando y pasando datos a Adobe Analytics hasta el 1 de marzo de 2022. El 1 de marzo de 2022, la integración dejará de recopilar y pasar datos a Adobe Analytics. Si utiliza esta integración, debe pasar al nuevo conector de Campaign-Analytics antes del 1 de marzo de 2022. Obtenga más información en [Documentación de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html).
