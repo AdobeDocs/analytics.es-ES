@@ -3,10 +3,10 @@ description: Uso compartido de proyectos y funciones de proyectos en Workspace
 keywords: Uso compartido en Analysis Workspace
 title: Compartir proyectos
 feature: Depurar y compartir
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 100%
 
@@ -60,14 +60,14 @@ También puede hacer clic en **[!UICONTROL Depurar y compartir]** para aplicar l
 
 ## Compartir en grupos de destinatarios {#Groups}
 
-Todos los usuarios pueden compartir proyectos con grupos, que son una recopilación de destinatarios. En Adobe Analytics, los grupos se definen mediante perfiles de producto en [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es).
+Todos los usuarios pueden compartir proyectos con grupos, que son una recopilación de destinatarios. En Adobe Analytics, los grupos se definen mediante perfiles de producto en [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 * Los administradores pueden compartir con cualquier grupo, incluido “Todos”.
 * Los no administradores pueden compartir con los grupos de los que son miembros, excepto con el grupo “Todos”.
 
 ## Compartir un vínculo a un proyecto {#Links}
 
-Puede obtener un vínculo a un proyecto en **[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo del proyecto]**. Cuando se hace clic, se requiere que los destinatarios inicien sesión antes de aterrizar en el proyecto. Si el destinatario no se ha colocado en una función, recibirá una función predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]** y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**. [Obtenga más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=es) sobre la creación de vínculos que se pueden compartir a proyectos de Workspace.
+Puede obtener un vínculo a un proyecto en **[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo del proyecto]**. Cuando se hace clic, se requiere que los destinatarios inicien sesión antes de aterrizar en el proyecto. Si el destinatario no se ha colocado en una función, recibirá una función predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]** y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**. [Obtenga más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) sobre la creación de vínculos que se pueden compartir a proyectos de Workspace.
 
 ## Compartir proyectos en el administrador de proyectos {#Manager}
 
