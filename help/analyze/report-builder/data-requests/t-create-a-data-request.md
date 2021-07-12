@@ -3,12 +3,12 @@ description: Pasos para crear una solicitud de datos básica de Report Builder.
 title: Crear una solicitud de datos
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ Pasos para crear una solicitud de datos básica.
 1. En la ventana [!UICONTROL Asistente para solicitudes: Paso 1], seleccione un [Grupo de informes](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (Opcional) Seleccione un segmento que aplicar a la solicitud. Cuando haya seleccionado uno o más segmentos, se moverán al principio de la lista.
 
-   Report Builder utiliza los segmentos de la misma forma que lo hace Adobe Analytics. Consulte la [Guía de segmentación de Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html). 1. (Opcional) Seleccione una [lista de publicaciones](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) para su distribución.
+   Report Builder utiliza los segmentos de la misma forma que lo hace Adobe Analytics. Consulte la [Guía de segmentación de Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=es). 1. (Opcional) Seleccione una [lista de publicaciones](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) para su distribución.
 1. Seleccione un [tipo de informe](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 1. Especifique un [intervalo de fechas](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) y una [granularidad](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md) para el informe.
 1. Haga clic en **[!UICONTROL Siguiente]**.
