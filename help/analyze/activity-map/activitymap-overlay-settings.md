@@ -3,10 +3,9 @@ description: En el panel Configuración de Activity Map se pueden modificar la c
 title: Definición de la configuración de Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-translation-type: tm+mt
-source-git-commit: 700d3b21a238af23719b291fe60df207e916bb87
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 51%
@@ -46,7 +45,7 @@ Esta configuración se aplica a la superposición del modo estándar.
 | **[!UICONTROL Filtrado dinámico de datos]** | Este menú desplegable le permite mostrar las superposiciones de<ul><li>(predeterminado) Todos los vínculos de la página</li><li>El número superior (más alto) o inferior (más bajo) de vínculos clasificados en la página, donde # puede ser una elección de 1, 10, 50 o 100.</li></ul> |
 | **[!UICONTROL Oculte los gráficos superpuestos de los vínculos que no hayan recibido ninguna visita]**. | Casilla de verificación que activa la visibilidad de las superposiciones en vínculos que no tienen datos.<ul><li>(predeterminado) Si la casilla está marcada, no se muestra ninguna superposición cuando un vínculo no tiene datos de vínculo de Activity Map.</li><li>Si la casilla de verificación está desactivada, si un vínculo no tiene datos de vínculo de Activity Map, se muestra una superposición y tiene una etiqueta de &quot;-&quot;, lo que significa N/D (no aplicable). |
 
-## Configuración en directo {#section_D30F6E62FB5D404090B588F396A460AF}
+## Configuración de lanzamiento {#section_D30F6E62FB5D404090B588F396A460AF}
 
 Esta configuración se aplica a la superposición del modo Activo.
 
