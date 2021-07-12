@@ -4,11 +4,10 @@ keywords: Analysis Workspace
 title: Crear intervalos de fechas
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 feature: Conceptos básicos de Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Cree intervalos de fechas personalizados en Analysis Workspace y guárdelos como
 
 Se aplica un intervalo de fechas en el panel. Para agregar un intervalo de fechas al proyecto, haga clic en **Paneles** > *`<select panel>`* y especifique el nuevo intervalo.
 
-## Intervalo de fechas para “Dos meses atrás” {#section_C4109C57CB444BB2A79CC8082BD67294}
+## Intervalo de fechas para “Dos meses atrás”  {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 El siguiente intervalo de fechas personalizado muestra un intervalo de fechas para “dos meses atrás”, con una visualización de cambio de resumen que muestra el cambio direccional.
 
