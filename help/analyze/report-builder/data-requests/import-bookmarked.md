@@ -3,15 +3,14 @@ description: Todos los informes marcados y los informes del tablero ahora se enu
 title: Importación de informes marcados e informes del panel
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 19813950-2495-4a75-aacb-587b59bf2484
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 99%
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
-
 
 # Importación de informes marcados e informes del panel
 
@@ -40,4 +39,3 @@ El bookmarklet importado configurará adecuadamente el grupo de informes, el seg
 >[!IMPORTANT]
 >
 >El intervalo de fechas se establecerá en el mismo intervalo de fechas, pero como un intervalo de fechas estático, incluso si este intervalo de fechas era un intervalo de fechas móvil en el marcador de Reports &amp; Analytics.
-
