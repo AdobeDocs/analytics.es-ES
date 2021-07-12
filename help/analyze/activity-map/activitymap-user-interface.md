@@ -3,15 +3,14 @@ description: 'La interfaz de usuario de Activity Map consta de dos partes '
 title: Interfaz de usuario de Activity Map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 98%
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
-
 
 # Interfaz de usuario de Activity Map
 
@@ -35,4 +34,3 @@ Al final de la página, se encuentran los informes [Vínculos en la página](/he
 El informe Vínculos en la página muestra una hoja de cálculo con los vínculos que hay en la página actual e incluye información adicional sobre los clics. El informe Detalles de página presenta datos de análisis relacionados con las páginas que se visitaron antes y después de llegar a la página mostrada actualmente.
 
 ![](assets/bottom_panel.png)
-
