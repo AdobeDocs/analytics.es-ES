@@ -3,15 +3,14 @@ description: Los detalles de superposición se ven cuando se coloca el ratón en
 title: Detalles de superposición
 uuid: e813ea7b-1b56-4ea3-9345-78bffa66115f
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: bc677c5b-807e-4d50-b6fa-cfa023bad56a
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 95%
+source-wordcount: '59'
+ht-degree: 100%
 
 ---
-
 
 # Detalles de superposición
 
@@ -28,4 +27,3 @@ En los detalles de superposición se ven los valores siguientes, que se registra
 * Mostrar en el informe Vínculos en la página
 
 ![](assets/overlay_details.png)
-
