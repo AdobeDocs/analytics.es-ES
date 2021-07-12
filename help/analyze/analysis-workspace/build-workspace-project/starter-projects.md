@@ -3,12 +3,12 @@ description: Cree proyectos de Workspace basados en plantillas estándar o perso
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Conceptos básicos de Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1391'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ Esta plantilla se basa en la métrica Personas que es una versión deduplicada d
 
 <!--This content is mirrored in the CDA doc.-->
 
-Esta plantilla le permite ver datos de rendimiento vitales entre dispositivos. Solo está disponible para clientes que tienen acceso al [análisis entre dispositivos](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en) (CDA).
+Esta plantilla le permite ver datos de rendimiento vitales entre dispositivos. Solo está disponible para clientes que tienen acceso al [análisis entre dispositivos](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=es) (CDA).
 
 * **Nota especial para los miembros del gráfico de cooperación**: muestra qué parte del grupo de informes contiene visitantes en regiones donde se admite el gráfico de cooperación y en regiones donde no se admite.
 * **Identificación de los usuarios**: muestra la frecuencia con la que se identifican los visitantes del sitio mediante métodos basados en el análisis entre dispositivos.
