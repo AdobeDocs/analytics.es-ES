@@ -3,12 +3,12 @@ description: Después de ejecutar un informe, puede personalizarlo para ver y an
 title: Resumen de los informes personalizados
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Conceptos básicos de Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ No puede comparar las fechas entre los informes de tendencia.
 
 >[!NOTE]
 >
->Si desea llevar a cabo una comparación por fechas en métricas clave en un panel, puede extraer los datos en el [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) mediante dos solicitudes independientes. A continuación, puede usar fórmulas personalizadas en Excel para analizar la diferencia entre ambos.
+>Si desea llevar a cabo una comparación por fechas en métricas clave en un panel, puede extraer los datos en el [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=es) mediante dos solicitudes independientes. A continuación, puede usar fórmulas personalizadas en Excel para analizar la diferencia entre ambos.
 
 Para comparar fechas entre informes de clasificación en Reports &amp; Analytics:
 
@@ -223,4 +223,4 @@ Ahora, la mayoría de los informes de Reports &amp; Analytics incluyen un botón
 
 Actualmente, el botón solo está disponible si su nombre de usuario dispone de derechos completos con respecto a Analysis Workspace.
 
-Si desea obtener más información sobre cómo puede personalizar su informe, consulte la guía de [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html).
+Si desea obtener más información sobre cómo puede personalizar su informe, consulte la guía de [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es).
