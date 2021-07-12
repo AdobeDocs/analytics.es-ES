@@ -3,16 +3,16 @@ description: Explica los pasos que el administrador de Analytics debe llevar a c
 title: Habilitar Activity Map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 100%
 
 ---
 
-# Habilitar Activity Map {#enable-activity-map}
+# Habilitar Activity Map{#enable-activity-map}
 
 Explica los pasos que el administrador de Analytics debe llevar a cabo para habilitar la recopilación de vínculos de Activity Map y la descarga de los usuarios.
 
