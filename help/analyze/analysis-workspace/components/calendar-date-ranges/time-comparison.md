@@ -3,10 +3,10 @@ description: La comparación de fechas de Analysis Workspace le permite tomar cu
 title: Comparación de fechas
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 feature: Conceptos básicos de Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: baea0f33276b07a93144d2225935013ab7007005
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 100%
 
