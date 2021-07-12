@@ -3,15 +3,14 @@ description: Tras crear informes con solicitudes insertadas, se puede aplicar fo
 title: Especificar un formato condicional
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 5a5f2415-8269-4c8a-9193-784537b29edf
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 98%
+source-wordcount: '186'
+ht-degree: 100%
 
 ---
-
 
 # Especificar un formato condicional
 
@@ -26,4 +25,3 @@ Por motivos de seguridad, se deshabilitan las macros que se escriben para el lib
 >[!NOTE]
 >
 >El formato condicional es una función de Excel. Para obtener más información sobre la creación de reglas de formato, consulte la documentación de Excel.
-
