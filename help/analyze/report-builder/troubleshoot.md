@@ -3,11 +3,10 @@ description: Métodos para optimizar el servicio de Report Builder y lista de me
 title: Solución de problemas y prácticas recomendadas para Report Builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 100%
 
