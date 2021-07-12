@@ -3,15 +3,14 @@ description: Se puede seleccionar el tipo de informe básico para la solicitud d
 title: Información general sobre tipos de informes
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 97%
+source-wordcount: '117'
+ht-degree: 100%
 
 ---
-
 
 # Información general sobre tipos de informes
 
@@ -22,4 +21,3 @@ Solo se puede seleccionar un tipo de informe base para un rango de celdas de la 
 Puede buscar informes usando la barra de búsqueda de autocompletar. Una vez haya seleccionado un informe desde este control, la vista de árbol seleccionará automáticamente el nodo correspondiente.
 
 ![](assets/search_reports.png)
-
