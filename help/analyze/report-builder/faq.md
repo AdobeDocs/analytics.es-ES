@@ -2,11 +2,10 @@
 title: Preguntas frecuentes sobre Report Builder
 description: Preguntas frecuentes sobre Report Builder.
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 
