@@ -5,10 +5,10 @@ title: Grupos de informes virtuales y consideraciones sobre el etiquetado de gru
 feature: Configuración del grupo de informes
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: ht
-source-wordcount: '1712'
-ht-degree: 100%
+source-git-commit: 1cd14244b81fbf8d1e4c6f0642f181fd4b60705d
+workflow-type: tm+mt
+source-wordcount: '1752'
+ht-degree: 95%
 
 ---
 
@@ -84,7 +84,9 @@ Por ejemplo, solo se permite un DCM de Google por grupo de informes. Muchas empr
 
 ### Fuentes de datos de resumen
 
-Las fuentes de datos de resumen le permiten importar métricas agregadas a nivel de grupo de informes a Adobe Analytics. Debido a que las cargas de fuentes de datos de resumen contienen métricas agregadas, no se pueden segmentar. Dado que el VRS funciona mediante la segmentación, todos los datos importados mediante fuentes de datos de resumen no están disponibles en los grupos de informes virtuales. Las fuentes de datos de resumen solo están visibles en el grupo de informes de origen.
+Las fuentes de datos de resumen le permiten importar métricas agregadas a nivel de grupo de informes a Adobe Analytics. Como las cargas de fuentes de datos de resumen contienen métricas agregadas *sin un ID de visitante*, no se pueden segmentar en los contenedores [!UICONTROL Visita] y [!UICONTROL Visitante]. Dado que el VRS funciona mediante la segmentación, los datos importados mediante fuentes de datos de resumen no estarán disponibles en los grupos de informes virtuales si el segmento se crea con un contenedor de visita o visitante.
+
+Las fuentes de datos de resumen se muestran en el grupo de informes virtuales si se utiliza un contenedor de visita individual y si dicho contenedor de visita individual tiene reglas condicionadas para incluir la información de la fuente de datos.
 
 >[!TIP]
 >
