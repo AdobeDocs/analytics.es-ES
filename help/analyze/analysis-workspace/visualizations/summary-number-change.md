@@ -5,9 +5,9 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizaciones
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -31,17 +31,6 @@ Haga clic en el icono de engranaje de **Configuración de la visualización** si
 | Leyenda visible | Muestra información sobre la métrica mostrada. |
 | Valor abreviado | Elige abreviar los valores y mostrar hasta 3 decimales. |
 | Valor de resumen por | Elige mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
-
-
-Haga clic en el icono de engranaje de **Configuración de la visualización** situado en la parte superior derecha para configurar la configuración de Número de resumen:
-
-| Configuración | Definición |
-|--- |--- |
-| Porcentajes | Muestra porcentajes en lugar de números en bruto. |
-| Leyenda visible | Muestra información sobre la métrica mostrada. |
-| Valor abreviado | Elige abreviar los valores y mostrar hasta 3 decimales. |
-| Valor de resumen por | Elige mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
-
 
 ## Visualización Cambio de resumen {#summary-change}
 
