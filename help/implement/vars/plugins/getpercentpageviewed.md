@@ -2,10 +2,10 @@
 title: getPercentPageViewed
 description: Recupere el porcentaje de la página que vio el visitante.
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 633ba0b9a3fe40bfd1b36820949810c631597397
+source-git-commit: 77192bdec509fed0b2a7c49112b7b430ff677a3c
 workflow-type: tm+mt
 source-wordcount: '906'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ if(s.pageName) s.getPercentPageViewed();
 if(s._ppvPreviousPage)
 {
   s.prop1 = s._ppvPreviousPage;
-  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " + | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
+  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
 }
 ```
 
@@ -115,7 +115,7 @@ if(s._ppvPreviousPage)
 
 ### 5.0.1 (22 de junio de 2021)
 
-* Se ha corregido un problema en el cual algunos caracteres especiales provocaban que el complemento se dañara
+* Se ha corregido un problema por el cual algunos caracteres especiales provocaban que el plug-in se dañara
 
 ### 5.0 (19 de marzo de 2021)
 
