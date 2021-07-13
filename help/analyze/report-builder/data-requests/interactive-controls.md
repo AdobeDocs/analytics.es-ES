@@ -26,7 +26,6 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
 >Debe tener Report Builder 5.0 instalado para que funcionen los controles interactivos. >
 >* Si ejecuta Microsoft Excel en Windows pero ejecuta una versión anterior de Report Builder, o si no lo tiene instalado: puede cambiar el valor en el control interactivo pero no se actualizará en la solicitud asociada, ni se actualizarán los parámetros asociados a la solicitud.
 >* Si ejecuta Excel en Mac y cambia el valor en el control provocará que se muestre el siguiente mensaje: “No se encuentra la macro &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event’”.
-
 >
 
 

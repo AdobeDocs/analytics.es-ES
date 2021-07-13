@@ -24,7 +24,6 @@ Descargue y edite libros compartidos.
 >
 >* **Editar:** descarga y abre un libro para su edición. Si desea cargar un libro que haya descargado para su edición, debe hacerlo manualmente.
 >* **Eliminar**: permite eliminar un libro que haya cargado. Debe ser el propietario del libro para poder eliminarlo.
-
 >
 
 
