@@ -2,10 +2,10 @@
 description: Descubra cuándo y por qué los conectores de datos de Analytics finalizarán su vida útil.
 title: Anuncio previo al fin de vida útil para los conectores de datos de Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
+source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 95%
+source-wordcount: '662'
+ht-degree: 91%
 
 ---
 
@@ -44,12 +44,12 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 | Apteligent | Desaprobación |
 | BlueHornet eMarketing Suite | Desaprobación |
 | Rama | Migración a Exchange |
-| BrightEdge 2.0 | Desaprobación |
+| BrightEdge 2.0, BrightEdge, BrightEdge Express | Desaprobación |
 | Bronto Software | Desaprobación |
 | CheetahMail de Experian | Migración a Exchange |
 | ClickTale | Desaprobación |
 | Clicktale CA | Desaprobación |
-| Conductor 2.0 | Desaprobación |
+| Conductor 2.0, Conductor, Métricas orgánicas del director | Desaprobación |
 | ContactLab 2.0 (conector de envío de contactos) | Desaprobación |
 | Coradiant TrueSight | Desaprobación |
 | D&amp;B Visitor Intelligence | Desaprobación |
@@ -62,7 +62,7 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 | DialogTech | Disponible en Adobe Exchange |
 | [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Desaprobación |
 | DREAM | Desaprobación |
-| DREAMmail 2.0 | Desaprobación |
+| DREAMmail 1.0, DREAMmail 2.0 | Desaprobación |
 | Dynamic Signal (Nital Vora) | Migración a Exchange |
 | eDialog Precision Central | Desaprobación |
 | eC-messenger | Desaprobación |
@@ -70,10 +70,11 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 | emarsys xpress | Desaprobación |
 | Epsilon Harmony | Migración a Exchange |
 | EveryoneSocial para Adobe Analytics | Desaprobación |
+| ExactTarget, ExactTarget 2.0 | Desaprobación |
 | Fiksu | Desaprobación |
-| ForeSee (v2.0) | Desaprobación |
-| Foresee Feedback | Desaprobación |
+| ForeSee (v2.0), Foresee Feedback, Foresee Results | Desaprobación |
 | Gigya | Desaprobación |
+| Hootsuite | Desaprobación |
 | hybris | Desaprobación |
 | Análisis de comentarios de Kampyle (ahora Medallia) (1.1) | Desaprobación |
 | Listrak | Migración a Exchange |
@@ -83,11 +84,13 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 | Integración oficial de Oracle Eloqua | Migración a Exchange |
 | optivo broadmail (Episerver) | Desaprobación |
 | Qualtrics v2 | Migración a Exchange |
-| Responsys 2.0 | Desaprobación |
+| Responsys 1.0, Responsys 2.0 | Desaprobación |
+| Salesforce.com | Desaprobación |
 | Selligent | Desaprobación |
-| seoClarity 2.0 | Desaprobación |
+| seoClarity, seoClarity 2.0 | Desaprobación |
 | Silverpop Engage (v2.0) | Desaprobación |
 | Sizmek | Desaprobación |
+| SmartFOCUS Digital | Desaprobación |
 | SpotEffects | Desaprobación |
 | StrongMail Systems, Inc | Desaprobación |
 | Syngergy!360 | Desaprobación |
@@ -98,6 +101,7 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 | WhatCounts Email | Desaprobación |
 | wywy | Desaprobación |
 | Yesmail Enterprise | Desaprobación |
+| Interactivo de Zeta | Desaprobación |
 
 ## Excepción: Adobe Campaign Classic
 
