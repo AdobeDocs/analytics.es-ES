@@ -4,10 +4,9 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información sobre la administración de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '727'
+source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+workflow-type: tm+mt
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -35,6 +34,7 @@ ht-degree: 100%
       + [Clasificaciones de conversión](admin/conversion-var-admin/conversion-classifications.md)
       + [Jerarquías de clasificación](admin/conversion-var-admin/classification-hierarchies.md)
       + [Variables de lista](admin/conversion-var-admin/list-var-admin.md)
+      + [eVars de comercialización](admin/conversion-var-admin/merchandising-evars.md)
    + [Códigos de divisa](admin/currency.md)
    + [Descripciones personalizadas de informe](admin/custom-desc-admin.md)
    + [Personalizar calendario](admin/custom-calendar.md)
@@ -103,15 +103,15 @@ ht-degree: 100%
       + [Resumen de variable de tráfico (prop)](admin/c-traffic-variables/traffic-var.md)
       + [Habilitar los informes de variables de tráfico](admin/c-traffic-variables/t-traffic-variable.md)
       + [Clasificaciones de tráfico](admin/c-traffic-variables/traffic-classifications.md)
-   + Variable de visitante único {#unique-visitor-variable}
-      + [Especificar la variable de visitante único](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
+   + Variable única de visitante {#unique-visitor-variable}
+      + [Especificar la variable única de visitante](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Caso de uso: Extracción de ID de visitantes](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Administración de vídeo](admin/video-management.md)
 + Analytics en Adobe Admin Console {#admin-console}
    + [Analytics en Adobe Admin Console](admin-console/home.md)
    + Permisos {#permissions}
       + [Permisos de Analytics en Admin Console](admin-console/permissions/summary-tables.md)
-      + [Perfiles de productos para Adobe Analytics](admin-console/permissions/product-profile.md)
+      + [Perfiles de producto para Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Permisos de perfil de productos para las herramientas de grupo de informes](admin-console/permissions/report-suite-tools.md)
       + [Permisos de perfil de productos para las herramientas de Analytics](admin-console/permissions/analytics-tools.md)
    + [Guía de administración inicial de Adobe Analytics](admin-console/first-admin-guide.md)
