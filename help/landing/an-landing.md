@@ -2,22 +2,22 @@
 description: Explica cómo la nueva página de aterrizaje reúne tanto Analysis Workspace como Reports & Analytics en una sola interfaz y punto de acceso bajo el paraguas de Workspace.
 title: Nueva página de aterrizaje de Adobe Analytics
 role: User, Admin
-source-git-commit: d932a02375f6f124d84dd275cd1134bb25ff76ec
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
-source-wordcount: '3044'
-ht-degree: 9%
+source-wordcount: '3046'
+ht-degree: 8%
 
 ---
 
 # Nueva página de aterrizaje de Adobe Analytics
 
-La nueva página de aterrizaje para Analysis de Adobe reúne tanto Analysis Workspace como Informes y Analytics en una sola interfaz y punto de acceso bajo el paraguas de Workspace. Incluye una nueva página de inicio del administrador de proyectos, un menú de informes actualizado, informes modernizados y una nueva sección de aprendizaje para ayudarle a empezar de forma más eficaz.
+La nueva página de aterrizaje para Adobe Analytics reúne tanto Analysis Workspace como Reports &amp; Analytics en una sola interfaz y punto de acceso bajo el paraguas de Workspace. Incluye una nueva página de inicio del administrador de proyectos, un menú de informes actualizado, informes modernizados y una nueva sección de aprendizaje para ayudarle a empezar de forma más eficaz.
 
 La nueva página mejora la capacidad de detección y guía a los usuarios de Reports &amp; Analytics para mejorar la experiencia de generación de informes en Workspace.
 
 >[!IMPORTANT]
 >
->Esta página de aterrizaje estará pronto en la versión beta pública. Es un punto de partida opcional. Si lo prefiere, puede utilizar la página de aterrizaje existente, ya sea Workspace o Informes. Si decide unirse al programa beta, acceda a la página y haga clic en **[!UICONTROL Proporcionar comentarios]** en la parte superior de la pantalla para registrar sus comentarios y los errores que pueda encontrar. Puede desactivar y volver a iniciar el programa beta en cualquier momento. Cualquier trabajo realizado en la interfaz de usuario beta se transfiere a la experiencia existente o actual de Workspace.
+>Esta página de aterrizaje estará en la versión beta abierta a partir del 21 de julio de 2021. Es un punto de partida opcional. Si lo prefiere, puede utilizar la página de aterrizaje existente, ya sea Workspace o Informes. Si decide unirse al programa beta, acceda a la página y haga clic en **[!UICONTROL Proporcionar comentarios]** en la parte superior de la pantalla para registrar sus comentarios y los errores que pueda encontrar. Puede desactivar y volver a iniciar el programa beta en cualquier momento. Cualquier trabajo realizado en la interfaz de usuario beta se transfiere a la experiencia existente o actual de Workspace.
 
 ## Acceso a la nueva página de aterrizaje {#access-landing}
 
