@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics y cookies de explorador
 description: Descubra cómo las medidas de prevención de seguimiento afectan a las cookies de terceros y de origen configuradas por Adobe Analytics.
-source-git-commit: b2f606e74aa0d2ab0f01ab7cbfc795bfd7cda461
-workflow-type: ht
+source-git-commit: 2a0cc52664bbeaae66d6160d74fad4840bf692b8
+workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Este documento explica cómo las medidas de prevención del seguimiento de los e
 
 ### Limitaciones de cookies de terceros
 
-Las cookies utilizadas en un contexto de terceros están en desuso. Firefox y Safari comenzaron a bloquear las cookies de terceros de forma predeterminada a partir de 2019 y 2020, respectivamente. Chrome ha anunciado que planea dejar de admitir cookies de terceros en algún momento en 2022. Cuando lo hagan, las cookies de terceros no se podrán utilizar de forma eficaz.
+Las cookies utilizadas en un contexto de terceros están en desuso. Firefox y Safari comenzaron a bloquear las cookies de terceros de forma predeterminada a partir de 2019 y 2020, respectivamente. Chrome ha anunciado que planea dejar de admitir cookies de terceros en algún momento en 2023. Cuando lo hagan, las cookies de terceros no se podrán utilizar de forma eficaz.
 
 Además, Chrome actualmente solo permite que las cookies funcionen en un contexto de terceros si tienen el atributo SameSite establecido en Ninguno y las están etiquetadas como seguras, lo que significa que solo pueden utilizarse en HTTPS. Encontrará más información en la sección [Qué es el atributo de cookie SameSite y cómo afecta a Analytics](#samesite-effect).
 
@@ -50,9 +50,9 @@ Las políticas de ITP evolucionan con frecuencia. Para ver las políticas más r
 
 Todas las cookies de origen configuradas por Adobe y las bibliotecas de JavaScript relacionadas se ven afectadas por las políticas de ITP:
 
-* [cookies &quot;AMCV&quot; ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es) establecidas por la biblioteca del servicio de ECID (Adobe Experience Cloud ID)
+* [cookies &quot;AMCV&quot; ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) establecidas por la biblioteca del servicio de ECID (Adobe Experience Cloud ID)
 * La [cookie &quot;s_vi&quot;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=es) heredada de Analytics cuando se configura con la recopilación de datos de origen mediante un CNAME
-* La cookie [&quot;s_fid&quot; heredada de Analytics](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=es), que es la cookie de reserva que se usa cuando &quot;s_vi&quot; no se puede configurar
+* La cookie [&quot;s_fid&quot; heredada de Analytics](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), que es la cookie de reserva que se usa cuando &quot;s_vi&quot; no se puede configurar
 
 #### ¿Cuál es el impacto de ITP en Safari para Analytics?
 
@@ -73,8 +73,7 @@ Si estas limitaciones afectan a sus datos, verá esto:
 
 Los sitios web que visitan los usuarios no crean cookies de terceros.
 
-Aunque los exploradores tratan todas las cookies de terceros de la misma manera y las almacenan en consecuencia, las cookies de terceros pueden comportarse de manera diferente e importante. Con la implementación de cookies de terceros de Analytics de un cliente, los navegadores almacenan el ID de Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es) como una cookie de terceros, pero el cliente solo realiza llamadas de Adobe y no a dominios de terceros desconocidos o sospechosos. Esta cookie proporciona identificadores persistentes entre dominios y permite el uso de contenido seguro (https). Para obtener más información, consulte [Cookies y el servicio de identidad de Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es
-).
+Aunque los exploradores tratan todas las cookies de terceros de la misma manera y las almacenan en consecuencia, las cookies de terceros pueden comportarse de manera diferente e importante. Con la implementación de cookies de terceros de Analytics de un cliente, los navegadores almacenan el ID de Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es) como una cookie de terceros, pero el cliente solo realiza llamadas de Adobe y no a dominios de terceros desconocidos o sospechosos. Esta cookie proporciona identificadores persistentes entre dominios y permite el uso de contenido seguro (https). Para obtener más información, consulte [Cookies y el servicio de identidad de Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 Dentro de las implementaciones de Analytics, las cookies de terceros se utilizan para el seguimiento entre dominios y para casos de uso de publicidad, incluida la resegmentación de anuncios. Las cookies de terceros le permiten identificar a los visitantes a medida que visitan diferentes dominios de su propiedad o a medida que se muestran anuncios en sitios que no son de su propiedad.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -88,7 +87,7 @@ Para obtener más información, consulte [Acerca de las cookies de origen](https
 
 ![Comparación de cookies](/help/technotes/assets/cookies2.png)
 
-## ¿Qué es el atributo de cookie SameSite y cómo afecta a las cookies de Analytics? {#samesite-effect}
+## ¿Qué es el atributo de cookie SameSite y cómo afecta a las cookies de Analytics?  {#samesite-effect}
 
 Con el lanzamiento del explorador Chrome 80 en febrero de 2020 (y las versiones sucesivas de Firefox y los exploradores Edge), el atributo de cookie SameSite fuerza la especificación de tres valores diferentes que rigen si las cookies se pueden usar en un contexto de terceros:
 
@@ -134,7 +133,7 @@ Si tiene una implementación CNAME configurada en el mismo dominio que su sitio 
 
 Sin embargo, si es propietario de varios dominios y utiliza el mismo CNAME para la recopilación de datos en todos los dominios, esta cookie se trata como una cookie de terceros en esos otros dominios. Con Chrome 80 y versiones posteriores, ya no es visible en estos otros dominios. Para que el comportamiento sea más similar entre los exploradores, Analytics establece explícitamente el valor `SameSite` de esta cookie `Lax`. Si utiliza esta cookie en un contexto de terceros sencillo, deberá tener la cookie configurada con el valor `SameSite=None`, lo que también significa que siempre debe utilizar HTTPS. Si aún no lo ha hecho, póngase en contacto con el Servicio de atención al cliente de Adobe para que se cambie el valor SameSite para sus CNAME seguros.
 
-## ¿Cómo puedo determinar si los cambios de Safari afectan a mi empresa? {#measure-itp-effect}
+## ¿Cómo puedo determinar si los cambios de Safari afectan a mi empresa?  {#measure-itp-effect}
 
 Adobe recomienda que los clientes midan el impacto dentro de su propia compañía antes de cambiar la recopilación de datos. Puede usar Analysis Workspace para medir el impacto de la prevención del seguimiento de ITP en su compañía individual:
 
