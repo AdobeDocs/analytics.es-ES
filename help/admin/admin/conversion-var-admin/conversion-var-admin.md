@@ -5,7 +5,7 @@ title: Variables de conversión (eVar)
 feature: Herramientas de administración
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Descripciones de los campos utilizados al [editar variables de conversión](/hel
 | [!UICONTROL Comercialización] (solo eVar) | Las variables de comercialización pueden seguir una de dos sintaxis:<ul><li>**[!UICONTROL Sintaxis de productos]**: Asocia el valor de la eVar a un producto. **Nota**: Si la [!UICONTROL sintaxis de los productos] se selecciona, la sección de [!UICONTROL Evento de enlace de comercialización] se desactiva y no se puede seleccionar para la edición. Para esta sintaxis, los [!UICONTROL eventos de enlace] no son aplicables.</li><li>**[!UICONTROL Sintaxis de variables de conversión]**: Asocia la eVar a un producto solamente si ocurre un [!UICONTROL evento de enlace]. En este caso, usted selecciona los eventos que actúan como [!UICONTROL eventos de enlace].  Si cambia este valor sin actualizar adecuadamente el código JavaScript, se perderán datos. Consulte [Variables de comercialización](/help/components/dimensions/evar-merchandising.md).</li></ul> |
 | [!UICONTROL Evento de enlace de comercialización] (solo eVar) | Si la comercialización está configurada como [!UICONTROL Sintaxis de variables de conversión], los eventos seleccionados relacionarán el valor eVar con un producto. Para utilizar un [!UICONTROL evento de enlace], establezca [!UICONTROL Asignación] en [!UICONTROL Más reciente]. Si la [!UICONTROL Asignación] es el [!UICONTROL Valor original], el primer enlace de producto de la eVar se mantendrá hasta que caduque la eVar. Para seleccionar varios eventos, mantenga presionada la tecla Ctrl (Windows) o Cmd (Mac) y haga clic en los distintos elementos de la lista. Solo puede seleccionar eventos si también se selecciona la opción [!UICONTROL Sintaxis de la variable de conversión]. |
 
-**Caducidad**
+### Caducidad
 
 Las `eVars` caducan después del período de tiempo que especifique. Cuando la eVar caduca, ya no recibe el crédito por los eventos de éxito. Las eVars también se pueden configurar para que caduquen cuando se produzcan eventos de éxito. Por ejemplo, si tiene una promoción interna que caduca el final de una visita, la promoción interna recibe el crédito solo por las compras o registros que se produzcan durante la visita en la que se activaron.
 
@@ -58,10 +58,10 @@ Por ejemplo, si cambia la caducidad de una eVar de 30 a 90 días, los valores de
 
 Otro ejemplo: si se usa una eVar en mayo para reflejar promociones internas y caduca después de 21 días, y en junio se usa para capturar palabras clave de búsqueda interna, el 1 de junio, debe forzar la caducidad o restablecer la variable. Al hacerlo, no se incluyen los valores de la promoción interna en los informes de junio.
 
-**Distinción entre mayúsculas y minúsculas**
+### Distinción entre mayúsculas y minúsculas
 
 Las eVars no distinguen entre mayúsculas y minúsculas. Las mayúsculas o minúsculas utilizadas en los informes se basan en el primer valor que registra el sistema backend. Este valor puede ser la primera instancia vista o puede variar en algún período de tiempo (por ejemplo, mensual), en función de la variedad y cantidad de datos asociados con el grupo de informes.
 
-**Contadores**
+### Contadores
 
 Aunque las eVars se usan habitualmente para guardar valores de cadena, también se pueden configurar para que actúen como contadores. Las eVars son útiles como contadores para contar el número de acciones que un usuario realiza antes de un evento. Por ejemplo, puede usar una eVar para capturar el número de búsquedas internas antes de la compra. Cada vez que un visitante realiza una búsqueda, la eVar debe contener un valor de &#39;+1&#39;. Si un visitante realiza cuatro búsquedas antes de una compra, verá una instancia con cada recuento total: 1.00, 2.00, 3.00 y 4.00. Sin embargo, solo el valor 4.00 recibe el crédito por el evento purchase (métricas de pedidos e ingresos). Solo se permiten números positivos como valores de un contador eVar.
