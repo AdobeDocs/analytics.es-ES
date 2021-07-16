@@ -4,9 +4,9 @@ title: Ejemplos de etiquetado
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: fe277bea867dc67e8693673a547adecccf169332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Suponga que dispone de los siguientes datos de visita:
 
 | Etiquetas | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Nombre de variable** <br> **(Área de nombres)** | **MyProp1** <br> **(usuario)** | **ID de visitante** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
+| **Nombre de variable** <br> **(Área de nombres)** | **MyProp1** <br> **(usuario)** | **ID de visitante** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**  <br> **(xyz)** |
 | Datos de visita | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -34,12 +34,12 @@ Suponga que dispone de los siguientes datos de visita:
 
 ## Ejemplo de solicitud de acceso
 
-Si envío una solicitud de acceso, el archivo de resumen contiene los valores indicados en la tabla siguiente. Una solicitud puede contener únicamente un archivo de dispositivo, solo un archivo de persona o uno de cada. Solo se devuelven dos archivos de resumen si se utiliza un ID de persona y expandIDs es &quot;true&quot;.
+Si envío una solicitud de acceso, el archivo de resumen contiene los valores indicados en la tabla a continuación. Una solicitud puede contener únicamente un archivo de dispositivo, solo un archivo de persona o uno de cada. Solo se devuelven dos archivos de resumen si se utiliza un ID de persona y expandIDs es &quot;true&quot;.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">Valores de API</th>
-    <th rowspan="2">Tipo de archivo devuelto:<br></th>
+    <th rowspan="2">Tipo de archivo devuelto<br></th>
     <th colspan="5" style="text-align:center">Datos en el archivo de acceso de resumen</th>
   </tr>
   <tr>
@@ -147,7 +147,7 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">AAID=77 <br>(el valor de expandIDs no importa)</th>
+    <th colspan="5" style="text-align:center">AAID=77 <br>(el valor expandIDs no importa)</th>
   </tr>
   <tr>
     <th>MyProp1</th>
@@ -289,7 +289,7 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 
 >[!NOTE]
 >
->Solo se ven afectadas las celdas de las filas que contienen user=Mary y una etiqueta DEL-PERSON. Además, en la práctica, la variable que contiene A_ID probablemente sería una prop o un eVar. Su valor de reemplazo sería una cadena que empiece por &quot;Privacidad-&quot;, seguida de un número aleatorio (GUID), en lugar de reemplazar el valor numérico con un valor numérico aleatorio diferente.
+>Solo se ven afectadas las celdas de las filas que contienen user=Mary y una etiqueta DEL-PERSON. Además, en la práctica, la variable que contiene A_ID probablemente sería una prop o una eVar. Su valor de reemplazo sería una cadena que empiece por “Privacy-”, seguida de un número aleatorio (GUID), en lugar de reemplazar el valor numérico con un valor numérico aleatorio diferente.
 
 <table>
   <tr>
@@ -362,8 +362,8 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 
 Recuerde lo siguiente:
 
-* Las celdas de las filas que contienen `user=Mary` y una etiqueta `DEL-DEVICE` o `DEL-PERSON` se ven afectadas, así como las celdas con una etiqueta `DEL-DEVICE` en filas que contienen cualquier ID de visitante (AAID) que se produjo en una fila que contiene `user=Mary`.
+* Las celdas de las filas que contienen `user=Mary` y una etiqueta `DEL-DEVICE` o `DEL-PERSON` se ven afectadas, así como las celdas con una etiqueta `DEL-DEVICE` en filas que contienen cualquier ID de visitante (AAID) que se ha producido en una fila que contiene `user=Mary`.
 * La configuración expandIDs no se expande a la llamada para incluir valores presentes en MyEvar3, que tiene una etiqueta ID-DEVICE, cuando `user=Mary`. ExpandIDs solo se expande para incluir los ID de visitante (AAID en este ejemplo, pero también el ECID) en filas donde `user=Mary`.
-* `MyEvar2` en las filas cuarta y quinta se actualiza, ya que estas filas contienen los mismos valores de ID de visitante que los de las filas primera y segunda. Como resultado, la expansión de ID los incluye para eliminaciones a nivel de dispositivo.
+* `MyEvar2` en las filas cuarta y quinta se actualiza, ya que estas filas contienen los mismos valores de ID de visitante que los de las filas primera y segunda. Como resultado, la expansión de ID los incluye para eliminaciones en el nivel de dispositivo.
 * Los valores de `MyEvar2` en las filas segunda y quinta coinciden tanto antes como después de la eliminación. Sin embargo, después de la eliminación ya no coinciden con el valor N que se produce en la última fila, ya que esa fila no se actualizó como parte de la solicitud de eliminación.
 * `MyEvar3` se comporta de forma muy distinta a como lo hacía sin expansión de ID porque, sin esta, ningún coincidía.`ID-DEVICES` Ahora, `AAID` coincide en las primeras cinco filas.
