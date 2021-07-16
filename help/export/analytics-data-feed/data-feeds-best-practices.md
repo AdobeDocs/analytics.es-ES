@@ -7,7 +7,7 @@ exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,4 +27,4 @@ A continuación se indican algunas de las prácticas recomendadas para el proces
 
 * Si automatiza el proceso de introducción de fuentes, considere la posibilidad de que las visitas y los archivos se puedan transferir más de una vez. El proceso de ingesta de fuentes debe gestionar las visitas y los archivos duplicados sin tener que borrar o duplicar datos. Se recomienda utilizar la combinación de las columnas `hitid_high` y `hitid_low` para identificar una visita de forma exclusiva. 
 
-   En casos excepcionales, puede ver valores `hitid_high` y `hitid_low` duplicados. Si esto sucede, confirme que el archivo no se ha enviado ni procesado anteriormente. Si solo algunas de las filas de un archivo están duplicadas, considere la posibilidad de agregar `visit_num` y `visit_page_num` para ayudar a determinar la exclusividad.
+   En casos excepcionales, puede ver valores `hitid_high` y `hitid_low` duplicados. Si esto sucede, confirme que el archivo no se ha enviado ni procesado anteriormente. Si solo algunas de las filas de un archivo están duplicadas, considere la posibilidad de añadir `visit_num` y `visit_page_num` para ayudar a determinar la exclusividad.
