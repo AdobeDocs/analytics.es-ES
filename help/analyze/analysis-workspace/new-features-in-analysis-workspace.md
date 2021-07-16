@@ -76,7 +76,7 @@ Nuevas funciones lanzadas el 18 de junio de 2020.
 | Capacidad para editar proyectos de Workspace de forma conjunta | Los destinatarios añadidos a la función Puede editar pueden guardar un proyecto que se haya compartido con ellos. Esto se extiende tanto a los administradores como a los no administradores. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Panel en blanco actualizado | El panel en blanco ahora incluye paneles y visualizaciones, lo que le ofrece una forma más fluida de elegir el flujo de trabajo de análisis que mejor se adapte a sus necesidades. |
 | Panel de Quick Insights (25 de junio de 2020) | Quick Insights proporciona una guía a los no analistas y a los nuevos usuarios de Analysis Workspace para aprender a responder preguntas comerciales de forma rápida y sencilla. [Más información...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Panel Analytics for Target en Workspace (25 de junio de 2020) | El panel Analytics for Target (A4T) le permite analizar con confianza las actividades y experiencias de Adobe Target en Analysis Workspace. [Más información...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Panel Analytics for Target en Workspace  (25 de junio de 2020) | El panel Analytics for Target (A4T) le permite analizar con confianza las actividades y experiencias de Adobe Target en Analysis Workspace. [Más información...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Página Acerca de Workspace | La página Acerca de Workspace proporciona información sobre el entorno de su Analysis Workspace, sobre los administradores de Adobe Analytics (si necesita asistencia técnica) y una forma de proporcionar comentarios integrada al producto. Se encuentra en Workspace > Ayuda > Acerca de Workspace. |
 
 ## Mayo de 2020
@@ -304,7 +304,7 @@ Nuevas funciones y mejoras publicadas el 19 de julio de 2018.
    <td colname="col2"> <p>Ahora se muestran los totales de las métricas calculadas, incluidos los porcentajes, siempre que sea posible. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Nuevo <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > intervalo de fechas </a>preestablecido </b> </p> </td> 
+   <td colname="col1"> <p><b>Nuevo  <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > intervalo de fechas </a>preestablecido </b> </p> </td> 
    <td colname="col2"> <p>Se ha agregado “13 últimas semanas completas” a los ajustes preestablecidos de intervalo de fechas en Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -364,7 +364,7 @@ Nuevas funciones y mejoras publicadas el 10 de mayo de 2018.
    <td colname="col2"> <p>Ahora puede desplazarse hacia arriba o abajo mientras arrastra los componentes a una nueva ubicación. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Información adicional sobre <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > anomalías </a></b> </p> </td> 
+   <td colname="col1"> <p><b>Información adicional sobre  <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > anomalías </a></b> </p> </td> 
    <td colname="col2"> <p>Al pasar el cursor sobre una anomalía en un gráfico de líneas, la información ahora muestra la fecha y el valor sin procesar de la anomalía. </p> </td> 
   </tr> 
  </tbody> 
@@ -775,7 +775,7 @@ Nuevas funciones lanzadas el 20 de julio de 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>“Obtener vínculo del proyecto” para los inicios de sesión de Experience Cloud</b> </p> </td> 
-   <td colname="col2"> <p>Antes, si iniciaba sesión con las credenciales de Experience Cloud y navegaba a Analytics, no podía utilizar la función <span class="ignoretag"> <span class="uicontrol"> Compartir </span> &gt; <span class="uicontrol"> Obtener vínculo del proyecto</span></span>. Este problema está resuelto. Para que esta opción esté disponible, aún es necesario haber guardado el proyecto. </p> </td> 
+   <td colname="col2"> <p>Antes, si iniciaba sesión con las credenciales de Experience Cloud y navegaba a Analytics, no podía utilizar la función <span class="ignoretag"> <span class="uicontrol"> Compartir</span> &gt; <span class="uicontrol"> Obtener vínculo del proyecto</span></span>. Este problema está resuelto. Para que esta opción esté disponible, aún es necesario haber guardado el proyecto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Filtro “Proyectos caducados” en el Administrador de proyectos programados </a></b> </p> </td> 
@@ -854,7 +854,7 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nuevas <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Teclas de acceso directo </a></b> </p> </td> 
+   <td colname="col1"> <p>Nuevas <b>  <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Teclas de acceso directo </a></b> </p> </td> 
    <td colname="col2"> <p>Se han añadido las siguientes teclas de acceso directo: </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">alt + mayús + 1 = ir al panel Paneles. </li> 
@@ -883,7 +883,7 @@ Nuevas funciones lanzadas el 20 de abril de 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mejoras en la opción Deshacer/Rehacer </p> </td> 
-   <td colname="col2"> <p>En estas listas se muestran las acciones que puede y las que no puede deshacer y rehacer en Analysis Workspace</a>. </p> </td> 
+   <td colname="col2"> <p>En estas listas se muestran las acciones que puede y las que no puede  deshacer y rehacer en Analysis Workspace</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -956,7 +956,7 @@ Nueva función lanzada el 10 de noviembre de 2016:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Comparación de fechas </a> </p> </td> 
-   <td colname="col2"> <p>La nueva función de comparación de fechas permite utilizar cualquier columna para crear una comparación de fechas comunes, por ejemplo, año tras año, trimestre tras trimestre, mes tras mes, etc. </p> <p>Las comparaciones de fechas incluyen automáticamente la columna Diferencia, que muestra el cambio de porcentaje. </p> </td> 
+   <td colname="col2"> <p>La nueva función de comparación de fechas permite utilizar cualquier columna para crear una comparación de fechas comunes, por ejemplo, año tras año, trimestre tras trimestre, mes tras mes, etc. </p> <p>Las comparaciones de fechas incluyen automáticamente la columna  Diferencia, que muestra el cambio de porcentaje. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1048,7 +1048,7 @@ Nuevas funciones lanzadas el 20 de octubre de 2016:
 Nuevas funciones lanzadas el 16 de junio de 2016:
 
 * [Nuevo permiso de grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=es) que permite que los administradores permitan o denieguen el acceso a la pestaña **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** a los usuarios. Desde el 16 de junio de 2016, todos los usuarios tienen acceso a esta pestaña. Para denegar el acceso, solo tiene que eliminar usuarios del grupo Acceso a Analysis Workspace.
-* La variable [El panel Comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) detecta las diferencias más significativas estadísticamente entre dos segmentos a través de un análisis automatizado de cada métrica y dimensión a la cual tenga acceso.
+* La variable  [El panel Comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) detecta las diferencias más significativas estadísticamente entre dos segmentos a través de un análisis automatizado de cada métrica y dimensión a la cual tenga acceso.
 * [Estructura del Nuevo menú de proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) que reorganiza el menú de la parte superior y lo hace más extensible. Por ejemplo, para crear un **Panel de cohorte nuevo** ahora tiene que crear un Panel en blanco y arrastrarlo hasta una visualización de Tabla de cohorte.
 * [Nuevo carril izquierdo](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): paneles, visualizaciones, componentes.
 * Un nuevo tipo de [Visualización Venn](/help/analyze/analysis-workspace/visualizations/venn.md) le permite arrastrar hasta tres segmentos y una métrica y construir un diagrama de Venn.
@@ -1059,7 +1059,7 @@ Nuevas funciones lanzadas el 16 de junio de 2016:
 * Actualizaciones menores:
 
    * Posibilidad de eliminar todas las visualizaciones de un panel y todos los paneles de un proyecto. (Anteriormente, debía mantener al menos una visualización o un panel).
-   * Cambios en las [teclas de método abreviado](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (teclas de acceso directo) que pueden facilitar el trabajo con Analysis Workspace.
+   * Cambios en las  [teclas de método abreviado](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (teclas de acceso directo) que pueden facilitar el trabajo con Analysis Workspace.
    * Cambios de estilo: fuentes más pequeñas en las visualizaciones, muestras de color en las filas; selector de fecha desplazado hacia abajo (en los paneles).
 
 ## Abril de 2016
