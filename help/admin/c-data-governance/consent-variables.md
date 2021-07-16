@@ -6,7 +6,7 @@ exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Consulte [Variables de datos de contexto](/help/implement/vars/page-vars/context
 
 * Datos de contexto: `contextData.['cm.ssf']`
 * Valores aceptados:
-   * 1 - Al enviar el valor “1”, esto indica que el Reenvío del lado del servidor está en estado de exclusión. El valor “1” asociado con esta variable bloqueará el uso compartido de esta visita con Adobe Audience Manager. Consulte [Cumplimiento de la privacidad electrónica de AAM](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=en).
+   * 1 - Al enviar el valor “1”, esto indica que el Reenvío del lado del servidor está en estado de exclusión. El valor “1” asociado con esta variable bloqueará el uso compartido de esta visita con Adobe Audience Manager. Consulte [Cumplimiento de la privacidad electrónica de AAM](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=es).
    * 0: Opcional. Use el valor &quot;0&quot; para los clientes que aceptaron el marketing dirigido. Si no se configura la variable, se observarán los mismos resultados.
 
 ### DMP
