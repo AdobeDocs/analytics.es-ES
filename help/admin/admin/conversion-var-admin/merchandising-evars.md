@@ -1,7 +1,7 @@
 ---
 title: eVars de comercialización y métodos de búsqueda de productos
 description: Una profundización en los conceptos subyacentes a las eVars de comercialización y en cómo procesan y asignan los datos.
-source-git-commit: cbc3fe2be4f2bca604a218cfd5dfbb121e6a7a5c
+source-git-commit: 9c71c9e94177c9510ca6af050c9de6fb54c8dc6f
 workflow-type: tm+mt
 source-wordcount: '5337'
 ht-degree: 0%
@@ -383,6 +383,6 @@ Por ejemplo, configurar `s.eVar1="Internal Keyword Search"` por sí solo no da c
 
 En resumen, sin configuración adicional, la métrica Instancias predeterminada de un eVar de comercialización es menos que útil. Por suerte, el Adobe lanzado [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en). Permite aplicar varios modelos de atribución para cualquier métrica personalizada que recopile Adobe Analytics. Las métricas que aplican estos modelos de atribución no utilizan los valores contenidos en las columnas post_evar ni los valores enlazados a un producto en particular. En su lugar, estas métricas utilizan solo los valores que se pasan a través de las propias solicitudes de imagen (o los valores que se capturan mediante reglas de procesamiento de Adobe Analytics). Puede utilizar las funciones de Attribution IQ para obtener una métrica de instancias atribuidas con precisión para todas las eVars de comercialización que utilicen Sintaxis de variables de conversión.
 
-![](assets/merch-evars3.png)
+![](assets/attribution-select.png)
 
 Al agregar una métrica de instancias para un eVar de comercialización a un informe, el modelo de Attribution IQ adecuado sería el modelo &quot;Último toque&quot;. La configuración de la ventana de búsqueda del modelo no importa en este caso. El motivo es que un modelo de atribución de último toque &quot;forzado&quot; siempre da crédito de instancia a cada valor individual que se transfiere mediante una solicitud. Esto sucede independientemente de si la configuración real de atribución/enlace del eVar está establecida en &quot;Más reciente (último)&quot; en &quot;Valor original (primero)&quot;.
