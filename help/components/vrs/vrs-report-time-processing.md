@@ -3,11 +3,10 @@ description: El procesamiento de intervalo de tiempo es una configuración de lo
 title: Procesamiento de tiempo de los informes
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1423'
-ht-degree: 100%
+source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
+workflow-type: tm+mt
+source-wordcount: '1421'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +30,7 @@ Procesamiento de intervalo de tiempo es un modo fundamentalmente distinto de pro
 
 Esta arquitectura de procesamiento ofrece opciones de realización de informes mucho más flexibles. Por ejemplo, puede cambiar el tiempo de espera de visita a cualquier periodo que desee de forma no destructiva, cambios que se reflejan retroactivamente en la persistencia de eVars y los contenedores de segmentos, como si estos ajustes se hubieran aplicado antes de la recopilación de los datos. Además, puede crear cualquier número de grupos de informes virtuales, cada uno con distintas opciones de Procesamiento de intervalo de tiempo y basados en el mismo grupo de informes base, sin alterar ninguno de los datos del grupo de informes base.
 
-Procesamiento de intervalo de tiempo también permite a Analytics impedir que las visitas en segundo plazo comiencen nuevas visitas, y permite al [SDK para móviles](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) indicar a la creación de informes que inicie una nueva visita cada vez que se active un evento de inicio de aplicación.
+Procesamiento de intervalo de tiempo también permite a Analytics impedir que las visitas en segundo plazo comiencen nuevas visitas, y permite al [SDK para móviles](https://www.adobe.io/apis/cloudplatform/mobile.html) indicar a la creación de informes que inicie una nueva visita cada vez que se active un evento de inicio de aplicación.
 
 Los grupos de informes virtuales con Procesamiento de intervalo de tiempo habilitado disponen en este momento de las siguientes opciones de configuración:
 
