@@ -2,17 +2,18 @@
 title: eVar (comercialización)
 description: Variables personalizadas que se relacionan con productos individuales.
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '355'
-ht-degree: 100%
+source-git-commit: 2e3f078500b80eefa2ca7c4a67de5bd0e91e764f
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 93%
 
 ---
 
 # eVar (comercialización)
 
 *Esta página de ayuda describe cómo implementar eVars de comercialización. Para obtener información sobre cómo funcionan las eVars de comercialización como dimensiones, consulte [eVars (comercialización)](/help/components/dimensions/evar-merchandising.md) en la guía del usuario de Componentes.*
+
+Para obtener información detallada sobre cómo funcionan las eVars de comercialización, consulte [eVars de comercialización y métodos de búsqueda de productos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en).
 
 ## Configurar eVars en la configuración del grupo de informes
 
