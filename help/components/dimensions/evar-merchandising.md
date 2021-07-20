@@ -2,17 +2,18 @@
 title: eVar (comercialización)
 description: Variables personalizadas que se relacionan con la dimensión Productos.
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: 2e3f078500b80eefa2ca7c4a67de5bd0e91e764f
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 90%
 
 ---
 
 # eVar (comercialización)
 
-*Esta página de ayuda describe cómo funcionan las eVars de comercialización como dimensiones. Para obtener información sobre cómo implementar eVars de comercialización, consulte [eVars](/help/implement/vars/page-vars/evar.md) en la guía de implementación de usuario.*
+*Esta página de ayuda describe cómo funcionan las eVars de comercialización como dimensiones. Para obtener información sobre cómo implementar eVars de comercialización, consulte [eVars](/help/implement/vars/page-vars/evar.md) en la Guía del usuario de implementación.*
+
+Para obtener información detallada sobre cómo funcionan las eVars de comercialización, consulte [eVars de comercialización y métodos de búsqueda de productos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en).
 
 Al medir el éxito de campañas o términos de búsqueda externos, normalmente se desea que un único valor reciba crédito por los eventos de éxito que se produzcan. Por ejemplo, si un cliente hace clic en un vínculo de una campaña de correo electrónico para visitar un sitio web, todas las compras que se realicen como resultado de ese clic deben abonarse a dicha campaña.
 
@@ -28,7 +29,7 @@ Cuando el visitante complete esta compra, tendrá una búsqueda interna de `"win
 
 | Término de búsqueda interna | Ingresos |
 |---|---|
-| abrigo de invierno | 157 $ |
+| abrigo de invierno | $157 |
 
 ## Solución de este problema con las variables de comercialización
 
@@ -38,7 +39,7 @@ Si se habilita la comercialización para la eVar del ejemplo anterior, el térmi
 
 | Término de búsqueda interna | Ingresos |
 |---|---|
-| abrigo de invierno | 119 $ |
+| abrigo de invierno | $119 |
 | gafas protectoras | 38 $ |
 
 Consulte [eVars de comercialización](/help/implement/vars/page-vars/evar-merchandising.md) para ver las instrucciones de implementación.
