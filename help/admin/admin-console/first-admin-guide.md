@@ -2,11 +2,10 @@
 title: Guía de administración inicial de Adobe Analytics
 description: Obtenga información sobre cómo empezar con Adobe Analytics, los tipos de funciones generales y el inicio de sesión en la interfaz de usuario.
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '943'
-ht-degree: 100%
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+workflow-type: tm+mt
+source-wordcount: '954'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +18,7 @@ Un primer administrador es el punto de partida para permitir que el resto de la 
 Si su organización ha adquirido Adobe Analytics, hay que tener en cuenta varias funciones clave:
 
 * **Administradores de Adobe Analytics:** Estos usuarios tienen acceso completo a todo lo que hay en Adobe Analytics, incluida la configuración del grupo de informes y de los permisos de usuario. Según la estructura de su organización, diferentes personas o equipos pueden ser responsables de diferentes facetas de la administración de Analytics. Por ejemplo, una persona es responsable de designar qué variables utilizar en una implementación. Otra persona puede ser responsable de permitir que los usuarios extraigan correctamente los informes, asegurándose de que todos los usuarios tengan los permisos correctos. Identifique al menos a un usuario que sea responsable de la configuración del grupo de informes y los permisos de usuario de Analytics y que pueda invitar a otros administradores de Analytics desde allí.
-* **Administradores de Adobe Experience Platform Launch:** Estos usuarios tienen acceso completo a todo lo que se encuentra en Experience Platform Launch, incluidos permisos de publicación, creación de contenedores y permisos de usuario. Estos usuarios no son necesariamente programadores, pero es útil tener al menos un conocimiento básico de HTML, CSS y JavaScript. Son responsables de trabajar con los propietarios de sitios web de su organización para implementar el código de Experience Platform Launch en su sitio. Identifique al menos un usuario que sea responsable de la implementación de su organización y que pueda invitar a otros administradores de Experience Platform Launch desde allí.
+* **Administradores de Adobe Experience Platform Launch:** estos usuarios tienen acceso completo a todo lo que hay en la interfaz de usuario de recopilación de datos (antes denominada Experience Platform Launch), incluidos permisos de publicación, creación de contenedores y permisos de usuario. Estos usuarios no son necesariamente programadores, pero es útil tener al menos un conocimiento básico de HTML, CSS y JavaScript. Son responsables de trabajar con los propietarios de sitios web de su organización para implementar las etiquetas de Experience Platform en su sitio. Identifique al menos un usuario que sea responsable de la implementación de su organización y que pueda invitar a otros administradores de Experience Platform Launch desde allí.
 * **Delegados de asistencia**: También conocidos como usuarios de asistencia técnica, no tienen privilegios adicionales en la interfaz de Analytics. En su lugar, reciben privilegios adicionales al comunicarse con el Servicio de atención al cliente de Adobe. Estos usuarios son casi siempre administradores de Analytics, ya que ayudan al Servicio de atención al cliente a solucionar problemas. Identifique al menos a un administrador de Analytics responsable de facilitar las interacciones entre los usuarios finales y el Servicio de atención al cliente de Adobe.
 * **Propietarios de sitios web:** Estos usuarios individuales o equipos son responsables de la codificación y el desarrollo de su sitio web. No requieren cuentas, pero es recomendable que colaboren con administradores de Experience Platform Launch para obtener el código de Experience Platform Launch e implementarlo en el sitio web.
 * **Usuarios finales:** Estos usuarios generalmente ven los informes y buscan respuestas a preguntas comerciales. Los administradores de Analytics conceden a estos usuarios permisos para trabajar en el producto.
@@ -41,9 +40,9 @@ Los administradores de nivel de sistema no tienen acceso directo a los productos
 1. Introduzca la dirección de correo electrónico a la que desea otorgar acceso completo a Analytics y asígneles el perfil de acceso de administrador completo recién creado. Haga clic en Guardar.
 1. Ahora el usuario tiene acceso completo a Adobe Analytics.
 
-## Concesión de acceso de administrador de producto para Experience Platform Launch
+## Concesión de acceso de administrador de producto para la recopilación de datos en Experience Platform (anteriormente denominado Launch)
 
-El acceso de administrador de productos para Experience Platform Launch es casi idéntico al acceso de administrador de productos para Analytics.
+El acceso de administrador de productos para las etiquetas en Experience Platform es casi idéntico al acceso de administrador de productos para Analytics.
 
 1. Inicie sesión en Admin Console con sus credenciales de Adobe ID.
 1. Haga clic en la pestaña Productos en la parte superior. Todos los productos comprados por su organización están a la izquierda. Haga clic en Experience Platform Launch by Adobe y, a continuación, haga clic en el botón Nuevo perfil.
