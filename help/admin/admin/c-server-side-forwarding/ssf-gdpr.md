@@ -3,11 +3,10 @@ description: Explica las mejoras en el reenvío del lado del servidor que se han
 title: Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 90%
+source-wordcount: '541'
+ht-degree: 80%
 
 ---
 
@@ -23,13 +22,13 @@ Si esta nueva variable contextual, `cm.ssf=1`, existe en una visita, esta se mar
 
 El reenvío del lado del servidor es bidireccional, lo que significa que cuando se aplica a una visita y esta se reenvía a AAM, Audience Analytics recibe de AAM información de segmento de dicha visita y la vuelve a enviar a Analytics. En consecuencia, las visitas que no se incluyan en el reenvío del lado del servidor de Analytics a AAM no se enriquecerán con la lista de ID de segmento de AAM. Así pues, habrá un subconjunto de tráfico o visitas que no recibirá información sobre ID de segmento de AAM.
 
-## Detalles de implementación: {#section_FFA8B66085BF469FAB5365C944FE38F7}
+## Detalles de implementación:  {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
 Siga los pasos indicados en función del método de implementación.
 
 | Método de implementación | Pasos |
 |--- |--- |
-| Adobe Experience Platform Launch | Si tiene instalada la extensión Adobe Analytics, agregue la siguiente definición de variable de datos de contexto al editor de código personalizado dentro de la configuración de acción de una regla: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> Nota:  Defina la variable de datos contextuales y establézcala en 1 si un cliente no da su consentimiento para el marketing segmentado. Establezca la variable `contextdata` en *0* para los clientes que consientan el marketing segmentado. |
+| Etiquetas en Adobe Experience Platform | Si tiene instalada la extensión de Adobe Analytics, agregue la siguiente definición de variable de datos de contexto al editor de código personalizado dentro de la configuración de acción de una regla: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota:  Defina la variable de datos contextuales y establézcala en 1 si un cliente no da su consentimiento para el marketing dirigido. Establezca la variable `contextdata` en *0* para los clientes que consientan el marketing segmentado. |
 | AppMeasurement | Agregue la definición de la variable de datos contextuales al archivo AppMeasurement.js:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota: Defina la variable de datos contextuales y establézcala en 1 si un cliente no da su consentimiento para el marketing dirigido. Establezca la variable de datos contextuales en 0 para los clientes que sí consientan el marketing dirigido. |
 
 ## Elaboración de informes (opcional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
