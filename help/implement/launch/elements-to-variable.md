@@ -1,34 +1,37 @@
 ---
-title: Asignación de elementos de datos de Launch a variables de Analytics
+title: Asignación de elementos de datos de etiquetas a variables de Analytics
 description: Asigne elementos de datos a variables de Analytics para que pueda utilizarlos como dimensiones en Analysis Workspace.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '446'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 76%
 
 ---
 
-# Asignación de elementos de datos de Launch a variables de Analytics
+# Asignación de elementos de datos de etiquetas a variables de Analytics
 
-Una vez que tenga un repositorio de elementos de datos en Adobe Experience Platform Launch, puede asignarlos a dimensiones de Analytics.
+Una vez que tenga un repositorio de elementos de datos de etiquetas, puede asignarlos a dimensiones de Analytics.
+
+>[!NOTE]
+>Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el siguiente [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) para obtener una referencia consolidada de los cambios terminológicos.
 
 ## Requisitos previos
 
-[Asignar objetos de capa de datos a elementos de datos](layer-to-elements.md): asegúrese de comprender los elementos de datos en Launch y de que tiene varios para trabajar.
+[Asignación de objetos de capa de datos a elementos](layer-to-elements.md) de datos: Asegúrese de comprender los elementos de datos de etiquetas y de tener varios con los que trabajar.
 
 [Cree un documento de diseño de solución](../prepare/solution-design.md): un documento de diseño de soluciones es vital para mantenerse organizado. El documento de diseño de la solución simplifica la asignación de elementos de datos a variables de Analytics.
 
 ## Asignar elementos de datos a variables de Analytics
 
-La publicación de una biblioteca en Launch después de seguir estos pasos le permite usar dimensiones personalizadas en Analysis Workspace. Puede establecer variables de Analytics de forma global o en reglas individuales.
+La publicación de una biblioteca de etiquetas después de seguir estos pasos le permite utilizar dimensiones personalizadas en Analysis Workspace. Puede establecer variables de Analytics de forma global o en reglas individuales.
 
 ### Establecer variables globales
 
 Las variables globales son ideales en los casos en los que desee establecer valores de variables en todas las páginas donde exista el elemento de datos.
 
 1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
-1. Haga clic en la propiedad de Launch.
+1. Haga clic en la propiedad de etiqueta que desee.
 1. Haga clic en la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Configurar] en Adobe Analytics.
 1. Haga clic en el acordeón [!UICONTROL Variables globales], que muestra la interfaz para asignar variables globales.
 
@@ -37,7 +40,7 @@ Las variables globales son ideales en los casos en los que desee establecer valo
 Las variables configuradas en las reglas son ideales cuando no desea que se configuren variables en todas las páginas. Los criterios se definen en la regla. Consulte [Reglas](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html?lang=es) en la guía del usuario de Adobe Experience Platform Launch.
 
 1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
-1. Haga clic en la propiedad de Launch.
+1. Haga clic en la propiedad de etiqueta que desee.
 1. Haga clic en la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla deseada (o cree una).
 1. Haga clic en el botón [!UICONTROL Añadir] en [!UICONTROL Acciones].
 1. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en Establecer variables.
