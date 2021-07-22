@@ -5,10 +5,10 @@ title: Orden de procesamiento
 feature: Herramientas de administración
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 90%
+source-wordcount: '503'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ Las siguientes tablas indican los datos que suelen estar disponibles antes y des
 |--- |--- |
 | Búsqueda de variables dinámicas | Las variables se rellenan dinámicamente extrayendo información de los encabezados HTTP u otras variables. Por ejemplo, `s.eVar5="D=c1"` introducirá el valor de prop1 en eVar5. |
 | AppMeasurement | Las funciones y los complementos usados en AppMeasurement se ejecutan en el navegador o en la aplicación cliente. |
-| Gestión de etiquetas | Las reglas definidas en Adobe Launch o Dynamic Tag Management se ejecutan tal como están definidas. |
+| Gestión de etiquetas | Las reglas definidas en la interfaz de usuario de la recopilación de datos se ejecutan tal como están definidas. |
 | Reglas de bots | [Las reglas de bots](/help/admin/admin/bot-removal/bot-rules.md) permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. |
 
 ## Después de las reglas de procesamiento
@@ -36,7 +36,7 @@ Las siguientes tablas indican los datos que suelen estar disponibles antes y des
 | Datos agregados por VISTA | Las reglas de procesamiento se aplican antes de VISTA. |
 | Número de página de visita | En general, las reglas de procesamiento solo tienen en cuenta los datos contenidos en la visita actual. El número de página de visita se compila después de aplicar las reglas de procesamiento. |
 | La dirección URL limpia se agrega como nombre de página si no está definido | Tras aplicar las reglas de procesamiento y de VISTA, la dirección URL limpia se agrega como nombre de página si no se ha definido ninguno. Dado que esto ocurre después de aplicar las reglas de procesamiento, se recomienda agregar una condición para comprobar si el nombre de página está vacío.  Si ejecuta Contenido del sitio > Informe de páginas y observa los valores de https:// de los nombres de página, es probable que el nombre de página esté vacío y se esté utilizando la URL.  Puede configurar una condición para comprobar si un nombre de página está vacío, o para ver si el nombre de página o la URL de la página contiene un determinado valor. A continuación, se puede definir el nombre de página según sea necesario. |
-| Reglas de procesamiento de canal de marketing | Con las reglas de procesamiento pueden prepararse los datos para su procesamiento con las [reglas de procesamiento del canal de marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html). |
+| Reglas de procesamiento de canal de marketing | Con las reglas de procesamiento pueden prepararse los datos para su procesamiento con las [reglas de procesamiento del canal de marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-rules.html?lang=es). |
 | Búsqueda GEO | Incluye los valores de Estado del visitante y Código postal del visitante. |
 | Persistencia de eVars | Las eVars incluidas en alguna visita anterior no persisten en cada visita durante el procesamiento de las reglas. Solo están disponibles las eVars definidas en la visita que se está procesando actualmente. |
 
