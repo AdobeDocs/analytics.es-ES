@@ -1,28 +1,31 @@
 ---
 title: Implementación de Adobe Analytics en un entorno de desarrollo
-description: Descubra cómo utilizar Adobe Experience Platform Launch para implementar Adobe Analytics en su entorno de desarrollo.
+description: Aprenda a utilizar etiquetas para implementar Adobe Analytics en su entorno de desarrollo.
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '544'
-ht-degree: 100%
+source-git-commit: 9b9a338e3652c85ae0f8ce79b98a2babf427ab4c
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 66%
 
 ---
 
 # Integrar una implementación de Analytics en un entorno de desarrollo
 
-Una vez creada y configurada una propiedad en Launch, las bibliotecas están listas para implementarse y el código se implementa en el sitio.
+Una vez creada y configurada una propiedad de etiqueta, las bibliotecas están listas para implementarse y el código se implementa en el sitio.
+
+>[!NOTE]
+>Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el siguiente [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) para obtener una referencia consolidada de los cambios terminológicos.
 
 ## Requisitos previos
 
-[Cree y configure una propiedad para Adobe Analytics en Launch](create-analytics-property.md): Acceda a la herramienta y cree un espacio para la implementación de Analytics.
+[Cree y configure una propiedad de etiqueta para Adobe Analytics](create-analytics-property.md): Acceda a la herramienta y cree un espacio para la implementación de Analytics.
 
 ## Creación de adaptadores y entornos
 
-Launch adapta muchos flujos de trabajo de la organización en la implementación de código. Siga estos pasos para crear los componentes mínimos necesarios para una implementación de Analytics. Como administrador de Launch, puede trabajar dentro de su organización para establecer el flujo de trabajo correcto para implementar las soluciones de Adobe.
+Las etiquetas admiten muchos flujos de trabajo organizativos al implementar código. Siga estos pasos para crear los componentes mínimos necesarios para una implementación de Analytics. Como administrador de etiquetas, puede trabajar dentro de su organización para establecer el flujo de trabajo correcto para implementar soluciones de Adobe.
 
 1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
-2. Haga clic en la propiedad de Launch que desee implementar en el sitio.
+2. Haga clic en la propiedad de etiqueta que desee implementar en el sitio.
 3. Haga clic en la pestaña Adaptadores y, a continuación, haga clic en Agregar adaptador.
 4. Asígnele el nombre “Akamai” y seleccione Akamai en la lista desplegable de tipos. Haga clic en Guardar.
 5. Vaya a la pestaña Entornos y haga clic en Crear nuevo entorno.
@@ -35,16 +38,16 @@ Launch adapta muchos flujos de trabajo de la organización en la implementación
 A pesar de todos los cambios y configuraciones realizados hasta ahora, no se ha publicado ningún código. La creación de una biblioteca, traducida como una colección de cambios, permite la publicación de código para su uso en el sitio.
 
 1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
-2. Haga clic en la propiedad de Launch que desee implementar en el sitio.
+2. Haga clic en la propiedad de etiqueta que desee implementar en el sitio.
 3. Haga clic en la pestaña Publicación y, a continuación, en Agregar nueva biblioteca.
 4. Asigne a la biblioteca el nombre “Cambios iniciales” y seleccione su entorno de desarrollo.
 5. Haga clic en Agregar todos los recursos modificados, que muestra automáticamente Adobe Analytics, Servicio de identidad y Principal.
 6. Haga clic en Guardar.
 7. Vuelva a la pantalla Flujo de trabajo de publicación, haga clic en el menú desplegable situado junto a la nueva biblioteca y, a continuación, haga clic en Generar para desarrollo. Después de unos segundos, el punto amarillo de la biblioteca se vuelve verde, lo que indica que la compilación se realizó correctamente.
 8. Vaya a la pestaña Entornos y haga clic en su entorno de desarrollo.
-9. En Instalar Launch, copie los bloques de código y envíeselos a los propietarios del sitio web de su organización.
+9. En Instalar etiquetas, copie los bloques de código y suministrelos a los propietarios del sitio web de su organización.
 
-## Instalación de Launch en el entorno de desarrollo del sitio web
+## Instalación de etiquetas en el entorno de desarrollo de su sitio web
 
 Si controla el código de su sitio web, implemente los dos bloques de código en sus respectivas ubicaciones (en la etiqueta `<head>` y justo encima de la etiqueta de cierre `</body>`) en cada página del sitio. Este código generalmente se coloca en la plantilla de portada del sitio. Una página en blanco que solo contenga código de implementación tendría el siguiente aspecto:
 
@@ -71,8 +74,8 @@ Un motivo común es que ya existen elementos en otras bibliotecas que se inserta
 
 ## Documentación y recursos adicionales
 
-- [Introducción a Launch](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html?lang=es): Conozca el flujo de trabajo básico de Launch
-- [Publicación de Launch](https://experienceleague.adobe.com/docs/launch/using/reference/publish/overview.html?lang=es): Obtenga más información sobre adaptadores y entornos
+- [Guía](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en) de inicio rápido: Descubra el flujo de trabajo básico de la implementación de etiquetas
+- [Información general sobre la publicación](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en): Obtenga más información sobre la publicación y los entornos
 
 ## Pasos siguientes
 
