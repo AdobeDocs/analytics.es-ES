@@ -2,10 +2,10 @@
 title: Preguntas frecuentes sobre la implementación
 description: Preguntas más frecuentes sobre implementación y vínculos a más información.
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '497'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ Consulte [Medición de audio y vídeo en Adobe Analytics](https://experienceleag
 
 ## ¿Puede una interrupción del servicio en Adobe afectar al rendimiento?
 
-No. El archivo de JavaScript no se aloja en servidores de Adobe, por lo que una interrupción en Adobe no afectará a su biblioteca de AppMeasurement. Si utiliza Adobe Experience Platform Launch, el archivo JavaScript se aloja en Akamai o en una ubicación de servidor determinada por su organización.
+No. El archivo de JavaScript no se aloja en servidores de Adobe, por lo que una interrupción en Adobe no afectará a su biblioteca de AppMeasurement. Si utiliza etiquetas en Adobe Experience Platform, el archivo JavaScript se aloja en Akamai o en una ubicación de servidor determinada por su organización.
 
 ## ¿Puede reducir el rendimiento el envío de datos desde el explorador a los servicios de Adobe?
 
@@ -33,7 +33,7 @@ AppMeasurement crea un objeto de imagen en la página HTML y, a continuación, e
 
 A veces, una organización desea quitar una implementación debido a la caducidad del contrato o para reducir el número de llamadas al servidor.
 
-* **Implementaciones mediante Launch**: Deshabilite o desinstale la extensión de Adobe Analytics en la pestaña [!UICONTROL Extensiones] y, a continuación, publique.
+* **Implementaciones con etiquetas en Adobe Experience Platform**: Deshabilite o desinstale la extensión de Adobe Analytics en la   pestaña Extensionstab y, a continuación, publique.
 * **Implementaciones heredadas de AppMeasurement**: Reemplace todo el contenido del archivo `s_code.js` con la siguiente línea de código:
 
 ```js
