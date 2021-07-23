@@ -3,10 +3,10 @@ description: Cree un contenedor básico para la recopilación de datos en Adobe 
 title: Crear un grupo de informes
 feature: Herramientas de administración
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 65%
+source-wordcount: '376'
+ht-degree: 66%
 
 ---
 
@@ -47,4 +47,4 @@ Asegúrese de haber iniciado sesión a través del [Experience Cloud](https://ex
 
 ## Pasos siguientes
 
-[Cree y configure una propiedad para Adobe Analytics en Adobe Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Crear un área para administrar la implementación de Analytics
+[Crear una propiedad de etiqueta de Adobe Analytics  ](/help/implement/launch/create-analytics-property.md): Crear un área para administrar la implementación de Analytics
