@@ -2,10 +2,10 @@
 description: Aprenda a implementar el etiquetado de grupos múltiples para enviar solicitudes de imagen a varios grupos de informes.
 title: Implementación del etiquetado de grupos múltiples
 exl-id: null
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Para implementar el etiquetado de grupos múltiples, debe incluir el ID del grupo de informes (RSID) para el grupo de informes globales y también los RSID para los grupos de informes secundarios aplicables en el código de seguimiento de sus páginas web y aplicaciones.
 
-* En el caso de implementaciones de Adobe Experience Platform Launch, especifique cada uno de los grupos de informes para la [[!DNL Analytics] extensión](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=es).
+* Para implementaciones de etiquetas de Adobe Experience Platform, especifique cada uno de los grupos de informes para la [[!DNL Analytics] extensión](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html).
 
 * En implementaciones heredadas de JavaScript y SDK móvil, separe los RSID con comas sin espacios (`rsid1,rsid2,rsid3`, etc.).
 
