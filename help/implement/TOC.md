@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: 'Personalice los datos que se recopilan para obtener más información de Adobe Analytics. '
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 94%
+source-wordcount: '382'
+ht-degree: 91%
 
 ---
 
@@ -151,9 +151,9 @@ ht-degree: 94%
    + [Solución de problemas de AppMeasurement](js/troubleshooting.md)
 + Implementar Analytics mediante etiquetas en Adobe Experience Platform {#launch}
    + [Información general sobre etiquetas](launch/overview.md)
-   + [Crear una propiedad de etiqueta de Analytics](launch/create-analytics-property.md)
-   + [Implementación de en un entorno de desarrollo](launch/deploy-dev.md)
-   + [Validar y publicar para producción](launch/validate-publish-prod.md)
+   + [Crear una propiedad de etiqueta de Adobe Analytics](launch/create-analytics-property.md)
+   + [Implementar en un entorno de desarrollo](launch/deploy-dev.md)
+   + [Validación y publicación en producción](launch/validate-publish-prod.md)
    + [Asignación de objetos de capa de datos a elementos de datos](launch/layer-to-elements.md)
    + [Asignación de elementos de datos de etiquetas a variables de Analytics](launch/elements-to-variable.md)
 + Implementar Analytics en otras plataformas {#other}
