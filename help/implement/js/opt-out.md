@@ -2,10 +2,10 @@
 title: Vínculos de no participación
 description: Obtenga información sobre cómo crear e implementar Vínculos de no participación para los visitantes del sitio.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 95%
 
 ---
 
@@ -27,19 +27,22 @@ Cuando un visitante llega a una URL de exclusión, se le solicita que instale un
 
 La página de exclusión de su organización depende del valor de la variable [`trackingServer`](../vars/config-vars/trackingserver.md) en la implementación.
 
-* En Adobe Experience Platform Launch:
-   1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) y haga clic en la propiedad que desee.
-   2. Haga clic en la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Configurar] en Adobe Analytics.
-   3. Haga clic en el acordeón [!UICONTROL General] y anote el valor [!UICONTROL Servidor de seguimiento].
+* En la interfaz de usuario de la recopilación de datos de Adobe Experience Platform:
+   1. Vaya a `experience.adobe.com` e inicie sesión cuando se le solicite.
+   1. Seleccione [!UICONTROL Iniciar / Recopilación de datos].
+   1. Haga clic en [!UICONTROL Ir a Launch / Data Collection] y seleccione [!UICONTROL Etiquetas].
+   1. Haga clic en la propiedad deseada.
+   1. Haga clic en la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Configurar] en Adobe Analytics.
+   1. Haga clic en el acordeón [!UICONTROL General] y anote el valor [!UICONTROL Servidor de seguimiento].
 
 * En una implementación de JavaScript:
    1. En el servidor web, abra el archivo AppMeasurement.js que se utiliza en el sitio en un editor de código o texto.
-   2. Tenga en cuenta el valor de la variable `trackingServer`.
+   1. Tenga en cuenta el valor de la variable `trackingServer`.
 
 * Use [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es):
    1. Vaya a su sitio mediante el explorador Chrome.
-   2. Abra Experience Cloud Debugger y vaya a la pestaña [!UICONTROL Red].
-   3. Tenga en cuenta el valor de [!UICONTROL Solicitar URL: Nombre de host].
+   1. Abra Experience Cloud Debugger y vaya a la pestaña [!UICONTROL Red].
+   1. Tenga en cuenta el valor de [!UICONTROL Solicitar URL: Nombre de host].
 
 Una vez encontrado el dominio `trackingServer` de la implementación, anexe la ruta `/optout.html` al final. Por ejemplo:
 
