@@ -4,9 +4,9 @@ description: Determinar por qué no se pueden ver los datos del Activity Map en 
 feature: Activity Map
 role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '266'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ En primer lugar, asegúrese de que AppMeasurement recopila correctamente los dat
 Compruebe cada una de las siguientes opciones para asegurarse de que los componentes del Activity Map están presentes:
 
 * **Versión** de AppMeasurement: Activity Map compatible con la versión 1.6 y posteriores. Muchos problemas de casos extremos se resuelven al actualizar a la última versión estable de AppMeasurement.
-* **módulo** Activity Map: Compruebe si el  `AppMeasurement_Module_Activity_Map` módulo está presente en el  `AppMeasurement.js` archivo . Si la implementación utiliza Adobe Experience Platform Launch, asegúrese de que **[!UICONTROL Enable ClickMap]** esté marcado al configurar la extensión de Analytics en **[!UICONTROL Link tracking]**.
+* **módulo** Activity Map: Compruebe si el  `AppMeasurement_Module_Activity_Map` módulo está presente en el  `AppMeasurement.js` archivo . Si la implementación utiliza la recopilación de datos de Adobe Experience Platform (Launch), asegúrese de que **[!UICONTROL Habilitar ClickMap]** esté marcado al configurar la extensión de Analytics en **[!UICONTROL Seguimiento de vínculos]**.
 * **La  `s_sq` cookie**: El Activity Map depende de la  `s_sq` cookie para la recopilación de datos.
    * Asegúrese de que la variable `cookieDomainPeriods` esté correctamente configurada, especialmente para dominios regionales como `*.co.uk` o `*.co.jp`.
    * Asegúrese de que la variable `linkInternalFilters` está configurada con los valores deseados. Si un vínculo en el que se hizo clic no coincide con los filtros internos, el Activity Map lo considera un vínculo de salida y no recopila datos.
