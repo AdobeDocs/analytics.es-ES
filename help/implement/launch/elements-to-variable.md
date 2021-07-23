@@ -2,10 +2,10 @@
 title: Asignación de elementos de datos de etiquetas a variables de Analytics
 description: Asigne elementos de datos a variables de Analytics para que pueda utilizarlos como dimensiones en Analysis Workspace.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 76%
+source-wordcount: '505'
+ht-degree: 65%
 
 ---
 
@@ -30,16 +30,20 @@ La publicación de una biblioteca de etiquetas después de seguir estos pasos le
 
 Las variables globales son ideales en los casos en los que desee establecer valores de variables en todas las páginas donde exista el elemento de datos.
 
-1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
+1. Vaya a `experience.adobe.com` e inicie sesión cuando se le solicite.
+1. Seleccione [!UICONTROL Iniciar / Recopilación de datos].
+1. Haga clic en [!UICONTROL Ir a Launch / Data Collection] y seleccione [!UICONTROL Etiquetas].
 1. Haga clic en la propiedad de etiqueta que desee.
 1. Haga clic en la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Configurar] en Adobe Analytics.
 1. Haga clic en el acordeón [!UICONTROL Variables globales], que muestra la interfaz para asignar variables globales.
 
 ### Establecer variables en reglas
 
-Las variables configuradas en las reglas son ideales cuando no desea que se configuren variables en todas las páginas. Los criterios se definen en la regla. Consulte [Reglas](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html?lang=es) en la guía del usuario de Adobe Experience Platform Launch.
+Las variables configuradas en las reglas son ideales cuando no desea que se configuren variables en todas las páginas. Los criterios se definen en la regla. Consulte [Reglas](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) en la documentación de recopilación de datos de Adobe Experience Platform.
 
-1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
+1. Vaya a `experience.adobe.com` e inicie sesión cuando se le solicite.
+1. Seleccione [!UICONTROL Iniciar / Recopilación de datos].
+1. Haga clic en [!UICONTROL Ir a Launch / Data Collection] y seleccione [!UICONTROL Etiquetas].
 1. Haga clic en la propiedad de etiqueta que desee.
 1. Haga clic en la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla deseada (o cree una).
 1. Haga clic en el botón [!UICONTROL Añadir] en [!UICONTROL Acciones].
