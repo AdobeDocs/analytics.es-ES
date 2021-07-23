@@ -2,11 +2,10 @@
 title: Profundidad de color
 description: Profundidad de color del dispositivo.
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +15,7 @@ La dimensión “Profundidad de color” indica cuántos colores admite el dispo
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia a una tabla de búsqueda, que traduce el valor de bits a un formato más legible. Recopila datos de la [`c` cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement utiliza la variable `screen.colorDepth` para rellenar la cadena de consulta de solicitud de imagen. Si utiliza AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), esta dimensión funciona de forma predeterminada. Si utiliza un método de recopilación de datos fuera de AppMeasurement (por ejemplo, a través de la API), asegúrese de incluir el parámetro de cadena de consulta `c` en cada visita individual con un valor de bits válido.
+Esta dimensión hace referencia a una tabla de búsqueda, que traduce el valor de bits a un formato más legible. Recopila datos de la [`c` cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement utiliza la variable `screen.colorDepth` para rellenar la cadena de consulta de solicitud de imagen. Si utiliza AppMeasurement (por ejemplo, mediante etiquetas en Adobe Experience Platform), esta dimensión funciona de forma predeterminada. Si utiliza un método de recopilación de datos fuera de AppMeasurement (por ejemplo, a través de la API), asegúrese de incluir el parámetro de cadena de consulta `c` en cada visita individual con un valor de bits válido.
 
 ## Elementos de dimensión
 
