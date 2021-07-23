@@ -2,11 +2,10 @@
 title: Tipos de sistemas operativos
 description: El sistema operativo independientemente de la versión.
 exl-id: 0afd5261-98e8-4247-865a-1b8844c53ff4
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '112'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +15,7 @@ La dimensión &quot;Tipos de sistemas operativos&quot; muestra el sistema operat
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia a una tabla de búsqueda interna de Adobe. El valor de búsqueda se basa en el encabezado HTTP `User-Agent` de las solicitudes de imagen. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), esta dimensión funciona de forma predeterminada.
+Esta dimensión hace referencia a una tabla de búsqueda interna de Adobe. El valor de búsqueda se basa en el encabezado HTTP `User-Agent` de las solicitudes de imagen. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante etiquetas en Adobe Experience Platform), esta dimensión funciona de forma predeterminada.
 
 ## Elementos de dimensión
 
