@@ -1,9 +1,9 @@
 ---
 title: eVars de comercialización y métodos de búsqueda de productos
 description: Una profundización en los conceptos subyacentes a las eVars de comercialización y en cómo procesan y asignan los datos.
-source-git-commit: 9c71c9e94177c9510ca6af050c9de6fb54c8dc6f
+source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
 workflow-type: tm+mt
-source-wordcount: '5337'
+source-wordcount: '5324'
 ht-degree: 0%
 
 ---
@@ -112,9 +112,9 @@ Si la configuración de Asignación de un eVar estándar es igual a &quot;Más r
 
 **Configuración de asignación (enlace) del eVar de comercialización**
 
-Como se mencionó anteriormente, todas las eVars de comercialización con Sintaxis de variables de conversión solo tienen una asignación &quot;Más reciente (último)&quot;.  Esto es lo que realmente significa la configuración de &quot;Asignación&quot; para las eVars de comercialización: Como se ha insinuado anteriormente, esta configuración no determina qué valores se insertan en la columna `post_evar` a medida que un visitante continúa usando el sitio. En su lugar, la configuración de Asignación para eVars de comercialización determina qué valor de eVar se vincula a un producto y cómo dichos productos asignan sus eventos de éxito de nuevo a los valores de eVar a los que están vinculados.
+Como se mencionó anteriormente, todas las eVars de comercialización con Sintaxis de variables de conversión solo tienen una asignación &quot;Más reciente (último)&quot;. Por lo tanto, la configuración de Asignación para eVars de comercialización no determina qué valores se insertan en la columna post_evar mientras un visitante continúa usando el sitio. En su lugar, esta configuración determina qué valor de eVar se vincula a un producto y cómo dichos productos asignan sus eventos de éxito a los valores de eVar a los que están vinculados.
 
-Analicemos qué sucede si la configuración de Asignación de eVar de comercialización (es decir, enlace) es igual a &quot;Valor original (primero)&quot;. Todos los productos que se establecen junto a la columna `post_evar` y que no se hayan enlazado previamente al eVar &quot;preprocesado&quot; correspondiente de la columna post_evar se enlazarán al valor contenido en la columna `post_evar`. Este enlace entre el valor del eVar y el producto nunca cambiará hasta que el eVar caduque según la configuración &quot;Caduca después&quot; de la configuración del grupo de informes.
+Lo siguiente ocurre cuando la configuración de asignación (enlace) de un eVar de comercialización se establece en &quot;Valor original (primero)&quot;: Todos los productos que se establecen junto a la columna post_evar y que no se hayan enlazado previamente al eVar &quot;preprocesado&quot; correspondiente de la columna post_evar se enlazarán al valor contenido en la columna post_evar.  Este enlace entre el valor del eVar y el producto nunca cambia hasta que el eVar caduca según la configuración &quot;Caduca después&quot; de la configuración del grupo de informes.
 
 Cada vez que una solicitud de imagen cumple los criterios que, de lo contrario, enlazarían un producto ya enlazado con el valor de eVar establecido más recientemente, la configuración &quot;Valor original (primero)&quot; obliga a los servidores de recopilación de datos de Adobe Analytics a ignorar cualquier intento posterior de hacerlo. Lo contrario sucede con las eVars de comercialización con la configuración Asignación (enlace) igual a &quot;Más reciente (último)&quot;. Cada vez que una solicitud de imagen cumple los criterios que unen un producto a un eVar de comercialización, el producto se enlazará (y se volverá a vincular) al valor más reciente pasado al eVar o al valor que (siempre) se encuentra en la columna `post_evar`.
 
@@ -132,7 +132,7 @@ La caducidad de un eVar puede producirse cuando se registra un evento de éxito 
 
 Para el método de búsqueda de productos, la práctica recomendada para configurar la caducidad de un eVar de comercialización debe ser establecerlo en
 
-* Cantidad de tiempo que un producto se encuentra en el carro de compras de un sitio antes de que el sitio lo elimine automáticamente del carro de compras
+* Cantidad de tiempo que un producto se encuentra en el carro de compras de un sitio antes de que el sitio lo elimine automáticamente del carro de compras (por ejemplo, 14 días, 30 días, etc.)
 * O cuando se produce el evento de compra.
 
 Con cualquiera de estas opciones, los productos que compra un visitante tienen el crédito de pedido/unidad/ingresos asignado a los valores de eVar de comercialización a los que estaban enlazados los productos en ese momento.
@@ -168,11 +168,16 @@ Si desea enlazar &quot;búsqueda de palabras clave internas&quot; al ID de produ
 
 `s.products=";12345;;;;eVar1=internal keyword search";`
 
-Cualquier evento de éxito (adiciones al carro de compras, compras) que se capture al mismo tiempo que productID 12345 se acreditará tanto al ID de producto 12345 como al valor `eVar1` de &quot;búsqueda de palabra clave interna&quot;. La única manera en que un valor `eVar1` diferente obtuvo crédito por los eventos de éxito asociados con el ID de producto 12345 es si `eVar1` se establecieron posteriormente en un valor **diferente** dentro de la variable de productos (junto con el ID de producto 12345). Ejemplo:
+Cualquier evento de éxito (adiciones al carro de compras, compras) que se capture al mismo tiempo que el ID de producto 12345 se acreditará tanto al ID de producto 12345 como al valor de eVar 1 de &quot;búsqueda de palabra clave interna&quot;. La única forma en que un valor de eVar1 diferente recibe crédito por los eventos de éxito asociados con el ID de producto 12345 es si posteriormente eVar1 se estableció en un valor diferente dentro de la variable products (junto con el ID de producto 12345).
 
-`s.products=";12345;;;;eVar1=internal campaign";`
+Por ejemplo:
 
-Esta configuración cambia el enlace del ID de producto 12345 del valor `eVar1` de &quot;búsqueda de palabra clave interna&quot; al valor `eVar1` de &quot;campaña interna&quot;. Este reenlace se realiza cada vez que se utiliza Sintaxis del producto y la configuración Asignación (enlace) del eVar se establece en &quot;Más reciente (último)&quot;. ¿Qué sucede si la configuración de asignación (enlace) se establece en &quot;Valor original (primero)&quot;? A continuación, el eVar de configuración 1 igual a &quot;campaña interna&quot; junto con el ID del producto 12345 no vuelve a vincular el ID del producto 12345 al valor de eVar1 de &quot;campaña interna&quot;. El enlace permanece con el valor enlazado originalmente - &quot;búsqueda de palabras clave interna&quot;.
+```
+s.products=";12345;;;;eVar1=internal campaign";
+```
+
+Esta configuración de variable cambia el enlace del ID de producto 12345 del valor eVar1 de &quot;búsqueda de palabras clave internas&quot; al valor eVar1 de &quot;campaña interna&quot;. Además, este cambio de enlace se produce cuando el eVar está configurado para utilizar Sintaxis del producto y la configuración Asignación (enlace) de &quot;Más reciente (último)&quot;. Si la configuración Asignación (enlace) se estableciera en &quot;Valor original (primero)&quot;, establecer eVar1 en &quot;campaña interna&quot; junto con el ID de producto 12345 no devolvería el ID de producto 12345 al valor de eVar1 de &quot;campaña interna&quot;. En su lugar, el enlace permanecería con el valor enlazado originalmente: &quot;búsqueda de palabra clave interna&quot;.
+
 
 ### Desafíos del uso de Sintaxis del producto
 
@@ -195,6 +200,7 @@ Los siguientes valores tendrían 1 pedido, 1 unidad y 79,95 $ de ingresos atribu
 * eVar1 valor de &quot;búsqueda de palabras clave interna&quot;
 * eVar3 valor de &quot;campaña no interna&quot;
 * Valor de eVar4 &quot;sin examinar&quot;
+* eVar5 valor de &quot;no venta cruzada&quot;
 
 Esto es una atribución correcta, lo que no es un problema. En cambio, el principal dilema con este enfoque es determinar cómo y cuándo configurar las eVars del método de búsqueda de productos.
 
@@ -216,9 +222,8 @@ Este código vincula correctamente los valores de eVar que se han visto arriba c
 
 Además, si un visitante decide &quot;encontrar&quot; el producto haciendo clic en un vínculo a la página de detalles del producto, el desarrollador debe:
 
-* Pase los detalles del método de búsqueda de productos (como se ha visto arriba) desde la página de métodos de búsqueda a la página de detalles del producto y ** Asuma el mismo valor de variable de productos de los artículos que se acaban de pasar desde la página anterior.
-
-Esta solución requiere un alto nivel de complejidad que podría no ser factible.
+* Pase los detalles del método de búsqueda de productos (como se ha visto arriba) desde la página de métodos de búsqueda a la página de detalles del producto, y
+* Vuelva a crear el mismo valor de variable de productos a partir de los artículos que se acaban de pasar desde la página anterior.
 
 ### Dónde resulta útil la sintaxis del producto
 
@@ -238,7 +243,7 @@ En este caso, tanto los valores `eVar10` (childSKU) de &quot;tcamiseta123-m-blue
 
 ### Desafíos con la asignación &quot;Más reciente&quot;
 
-Puede encontrar problemas adicionales utilizando la configuración Asignación (enlace) de &quot;Más reciente (último)&quot;. En muchas experiencias de navegación web, los visitantes &quot;vuelven a encontrar&quot; un producto que ya han visto o agregado al carro de compras. Esto suele ocurrir mediante una visita posterior o justo antes de que decidan completar una compra. Supongamos que durante su primera visita al sitio, encontraron el producto &quot;sandal123&quot; a través de la búsqueda de palabras clave de &quot;sandals&quot;. Inmediatamente lo agregaron al carro desde la página de resultados de búsqueda de palabras clave. El código que captura la adición al carro de compras se configuraría de la siguiente manera:
+Puede encontrar problemas adicionales utilizando la configuración Asignación (enlace) de &quot;Más reciente (último)&quot;. En muchas experiencias de navegación web, los visitantes &quot;vuelven a encontrar&quot; un producto que ya han visto o agregado al carro de compras. Esto suele ocurrir mediante una visita posterior o justo antes de que decidan completar una compra. Supongamos que durante una visita al sitio, un visitante encuentra el producto &quot;sandal123&quot; a través de la búsqueda de palabras clave de &quot;sandals&quot;. Inmediatamente la agregan al carro desde la página de resultados de búsqueda de palabras clave. El código que captura la adición al carro de compras se configuraría de la siguiente manera:
 
 ```
 s.linkTrackVars="products,events";
@@ -248,7 +253,7 @@ s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-
 
 Como resultado, cada uno de los valores de eVar que se ven en esta solicitud de imagen están enlazados al producto &quot;sandal123&quot;.
 
-Ahora, imaginemos que el visitante no compra el producto durante esta visita, pero regresa al sitio tres días después. Saben que ya agregaron el producto &quot;sandals123&quot; al carro de compras. Pero todavía quieren saber más sobre ello antes de realizar la compra. En lugar de usar una búsqueda de palabras clave para encontrar el producto, el visitante navega por el sitio. Terminan en la sección de navegación de comercialización &quot;mujeres > zapatos > sandalias&quot; justo antes de &quot;reencontrar&quot; el producto. Cuando terminan &quot;rebuscando&quot; la página de detalles del producto para el producto &quot;sandal123&quot;, las variables se configurarían de la siguiente manera (al cargar la página):
+Ahora, imaginemos que el visitante no compra el producto durante esta visita, pero regresa al sitio tres días después con el producto &quot;sandals123&quot; aún en el carro de compras. El visitante desea obtener más información sobre el producto antes de realizar la compra. Pero en lugar de usar una búsqueda de palabras clave para encontrar el producto, el visitante navega por el sitio. Terminan en la sección de navegación de comercialización &quot;mujeres > zapatos > sandalias&quot; justo antes de &quot;reencontrar&quot; el producto. Cuando terminan &quot;rebuscando&quot; la página de detalles del producto para el producto &quot;sandal123&quot;, las variables se configurarían de la siguiente manera (al cargar la página):
 
 ```
 s.events="prodView";
