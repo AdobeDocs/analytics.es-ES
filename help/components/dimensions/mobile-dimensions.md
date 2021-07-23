@@ -2,11 +2,10 @@
 title: Dimensiones móviles
 description: Dimensiones basadas en la dirección IP del dispositivo.
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '891'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '892'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +18,7 @@ Las dimensiones móviles proporcionan una visión detallada de las propiedades d
 ## Rellene estas dimensiones con datos
 
 Estas dimensiones hacen referencia a reglas de búsqueda internas de Adobe. Las búsquedas del [!UICONTROL operador de telefonía móvil] están determinadas por la dirección IP, por el uso de datos que obtenemos de NetAcuity (un producto de elementos digitales).
-Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), todas las dimensiones móviles funcionarán de forma predeterminada.
+Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante etiquetas en Adobe Experience Platform), todas las dimensiones móviles funcionarán de forma predeterminada.
 
 ## Descripciones de dimensiones móviles
 
