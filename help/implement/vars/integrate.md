@@ -2,10 +2,10 @@
 title: Integrar módulo
 description: El módulo Integrate permite a los socios de Adobe integrar sus esfuerzos de recopilación de datos con su organización.
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
-source-wordcount: '880'
-ht-degree: 100%
+source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ Una organización que trabaje con un socio de Adobe puede utilizar estos pasos p
 
 ### Obtención del código del módulo Integrate
 
-Para obtener el código del módulo, es necesario que un usuario tenga acceso al Administrador de productos o pertenezca a un perfil de producto con acceso al Administrador de códigos. El método para obtener el código del módulo es el mismo para todos los métodos de implementación, incluido Adobe Experience Platform Launch.
+Para obtener el código del módulo, es necesario que un usuario tenga acceso al Administrador de productos o pertenezca a un perfil de producto con acceso al Administrador de códigos. El método para obtener el código del módulo es el mismo para todos los métodos de implementación, incluidas las etiquetas de Adobe Experience Platform.
 
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics.
@@ -40,13 +40,15 @@ Para obtener el código del módulo, es necesario que un usuario tenga acceso al
 
 ### Coloque el módulo Integrate en la implementación
 
-La implementación del módulo Integrate en su sitio requiere acceso a Adobe Experience Platform Launch. Si utiliza una implementación de JavaScript heredada, se requiere acceso al código fuente del sitio web de la organización.
+La implementación del módulo Integrate en su sitio requiere acceso a la interfaz de usuario de recopilación de datos en Adobe Experience Platform. Si utiliza una implementación de JavaScript heredada, se requiere acceso al código fuente del sitio web de la organización.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
-2. Haga clic en la propiedad Launch que desee editar.
-3. Haga clic en la pestaña Extensiones y, a continuación, haga clic en Configurar en Adobe Analytics.
-4. Abra “Configurar rastreador con código personalizado” y haga clic en “Abrir editor”.
-5. Pegue el código del módulo Integrate en la ventana modal de código. Haga clic en Guardar una vez completada.
+1. Vaya a `experience.adobe.com` e inicie sesión cuando se le solicite.
+1. Seleccione [!UICONTROL Iniciar / Recopilación de datos].
+1. Haga clic en [!UICONTROL Ir a Launch / Data Collection] y seleccione [!UICONTROL Etiquetas].
+1. Haga clic en la propiedad de etiqueta que desee editar.
+1. Haga clic en la pestaña Extensiones y, a continuación, haga clic en Configurar en Adobe Analytics.
+1. Abra “Configurar rastreador con código personalizado” y haga clic en “Abrir editor”.
+1. Pegue el código del módulo Integrate en la ventana modal de código. Haga clic en Guardar una vez completada.
 
 ## Métodos del módulo Integrate
 
