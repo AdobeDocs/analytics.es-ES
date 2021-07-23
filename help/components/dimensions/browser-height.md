@@ -2,11 +2,10 @@
 title: 'Altura del explorador: Agrupado'
 description: Altura de la ventana del explorador en píxeles.
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '273'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +23,7 @@ La altura del explorador siempre es menor o igual a la altura de la pantalla, ya
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión recupera datos de la [`bh`cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement recopila estos datos mediante la variable JavaScript `window.innerHeight` en el explorador. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), esta dimensión funciona de forma predeterminada. Si utiliza un método de recopilación de datos fuera de AppMeasurement (por ejemplo, a través de la API), asegúrese de incluir el parámetro de cadena de consulta `bh` en la primera visita individual de cada visita.
+Esta dimensión recupera datos de la [`bh`cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement recopila estos datos mediante la variable JavaScript `window.innerHeight` en el explorador. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante etiquetas en Adobe Experience Platform), esta dimensión funciona de forma predeterminada. Si utiliza un método de recopilación de datos fuera de AppMeasurement (por ejemplo, a través de la API), asegúrese de incluir el parámetro de cadena de consulta `bh` en la primera visita individual de cada visita.
 
 Adobe mantiene la altura del explorador durante una visita. Si la altura del explorador se ajusta a mitad de la visita, el ajuste no se registra.
 
