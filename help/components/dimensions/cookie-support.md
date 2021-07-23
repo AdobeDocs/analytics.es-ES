@@ -2,11 +2,10 @@
 title: Compatibilidad con cookies
 description: Determina si el explorador admite cookies.
 exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '187'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 89%
 
 ---
 
@@ -16,7 +15,7 @@ La dimensión “Compatibilidad con cookies” informa sobre si el explorador ad
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión recopila datos de la [`k`cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement intenta establecer una cookie llamada `s_cc`, y luego detecta si existe. El resultado es el valor del parámetro de cadena de consulta `Y` (si el explorador admite y tiene las cookies habilitadas) o `N` (si el explorador tiene las cookies deshabilitadas). Si utiliza AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), esta dimensión funciona de forma predeterminada. Si utiliza un método de recopilación de datos fuera de AppMeasurement (por ejemplo, a través de la API), asegúrese de incluir el parámetro de cadena de consulta `k` en cada visita individual con el valor `Y` o `N`.
+Esta dimensión recopila datos de la [`k`cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement intenta establecer una cookie llamada `s_cc`, y luego detecta si existe. El resultado es el valor del parámetro de cadena de consulta `Y` (si el explorador admite y tiene las cookies habilitadas) o `N` (si el explorador tiene las cookies deshabilitadas). Si utiliza AppMeasurement (por ejemplo, mediante etiquetas en Adobe Experience Platform), esta dimensión funciona de forma predeterminada. Si utiliza un método de recopilación de datos fuera de AppMeasurement (por ejemplo, a través de la API), asegúrese de incluir el parámetro de cadena de consulta `k` en cada visita individual con el valor `Y` o `N`.
 
 ## Elementos de dimensión
 
