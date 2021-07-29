@@ -2,11 +2,10 @@
 title: apl (appendToList)
 description: Anexe valores a variables que admitan varios valores.
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1036'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 96%
 
 ---
 
@@ -24,11 +23,11 @@ El complemento `apl` le permite agregar de forma segura nuevos valores a variabl
 
 Adobe recomienda utilizar este complemento si desea añadir valores nuevos a variables existentes que contengan una cadena de valores delimitados. Este complemento no es necesario si prefiere concatenar cadenas para variables que contengan valores delimitados.
 
-## Instalación del complemento con la extensión de Adobe Experience Platform Launch
+## Instalación del complemento con etiquetas en Adobe Experience Platform
 
 Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
 1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
@@ -40,11 +39,11 @@ Adobe ofrece una extensión que le permite disfrutar de los complementos más ut
    * Tipo de acción: Inicializar APL (Anexar a lista)
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado de Launch
+## Instalación del complemento con el editor de código personalizado de 
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
 1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].
