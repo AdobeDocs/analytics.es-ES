@@ -2,11 +2,10 @@
 title: linkTrackVars
 description: Especifique qué variables se incluirán en las solicitudes de imagen de seguimiento de vínculos.
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 77%
 
 ---
 
@@ -16,15 +15,15 @@ Algunas implementaciones no desean incluir todas las variables en todas las soli
 
 Esta variable no se utiliza para las llamadas de vista de página (método [`t()`](../functions/t-method.md)).
 
-## Variables en llamadas de seguimiento de vínculos que utilizan Adobe Experience Platform Launch
+## Variables en llamadas de seguimiento de vínculos que utilizan etiquetas en Adobe Experience Platform
 
-Launch rellena automáticamente esta variable en el servidor en función de las variables establecidas en la interfaz, por lo que siempre se establece en implementaciones que utilizan Launch.
+Adobe Experience Platform rellena automáticamente esta variable en el servidor en función de las variables establecidas en la interfaz, por lo que siempre se establece en implementaciones que utilizan etiquetas en Adobe Experience Platform.
 
 >[!IMPORTANT]
 >
->Si establece variables en Launch mediante el editor de código personalizado, debe incluir la variable en `linkTrackVars` mediante el uso del código personalizado.
+>Si establece variables mediante el editor de código personalizado, debe incluir la variable en `linkTrackVars` mediante el uso del código personalizado.
 
-## s.linkTrackVars en el editor de código personalizado de AppMeasurement y Launch
+## s.linkTrackVars en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.linkTrackVars` es una cadena que contiene una lista delimitada por comas de variables que desea incluir en las solicitudes de imagen de seguimiento de vínculos (método `tl()`). Se deben cumplir los dos criterios siguientes para incluir dimensiones en las visitas de seguimiento de vínculos:
 
