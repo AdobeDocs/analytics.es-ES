@@ -2,11 +2,10 @@
 title: referrer
 description: Omisión del referente registrado automáticamente para una visita.
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 91%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 La variable `referrer` omite el referente registrado automáticamente en los informes. Esta variable es útil en situaciones en las que el referente podría perderse, como, por ejemplo, durante redirecciones o reenvíos temporales del visitante a un procesador de pagos. Esta variable ayuda a rellenar las dimensiones “Referente” y “Dominio de referencia”.
 
-## Referente en Adobe Experience Platform Launch
+## Referente que utiliza etiquetas en Adobe Experience Platform
 
 Puede establecer el referente al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
@@ -27,7 +26,7 @@ Puede establecer el referente al configurar la extensión de Analytics (variable
 
 Puede establecer el referente en cualquier valor de cadena, incluidos los elementos de datos.
 
-## “s.referrer” en el editor de código personalizado de AppMeasurement y Launch
+## “s.referrer” en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.referrer` es una cadena que contiene la dirección URL de la página anterior. Esta variable puede almacenar un máximo de 255 bytes. Los valores mayores a 255 bytes se truncan. AppMeasurement establece automáticamente esta variable en `document.referrer`. No es necesario configurar esta variable a menos que desee anular el valor registrado automáticamente.
 
