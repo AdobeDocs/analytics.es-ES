@@ -2,11 +2,10 @@
 title: registerPostTrackCallback
 description: Cree funciones de llamada de retorno después de enviar una visita a Adobe.
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 91%
 
 ---
 
@@ -24,11 +23,11 @@ Cada vez que llama a la variable `registerPostTrackCallback`, vincula esa funci�
 >
 >No se garantiza el tiempo y el orden de las funciones activadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) y `registerPostTrackCallback`. Evite las dependencias entre estas dos funciones.
 
-## Registro de devoluciones de llamada posterior al seguimiento en Adobe Experience Platform Launch
+## Registro de devoluciones de llamada posterior al seguimiento mediante etiquetas en Adobe Experience Platform
 
-No hay un campo específico en Launch para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.registerPostTrackCallback en el editor de código personalizado de AppMeasurement y Launch
+## s.registerPostTrackCallback en el editor de código personalizado de AppMeasurement y 
 
 `s.registerPostTrackCallback` es una función que toma una función como su único argumento. La función anidada se ejecuta justo después de que se envíe una solicitud de imagen.
 
