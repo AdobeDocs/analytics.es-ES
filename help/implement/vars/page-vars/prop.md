@@ -2,11 +2,10 @@
 title: prop
 description: Variables personalizadas que puede utilizar en su implementación.
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '484'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '488'
+ht-degree: 95%
 
 ---
 
@@ -22,11 +21,11 @@ Las propiedades son variables personalizadas que se pueden utilizar como desee. 
 
 Si tiene un [documento de diseño de soluciones](/help/implement/prepare/solution-design.md), puede asignar estas dimensiones personalizadas a valores específicos de su organización. El número de propiedades disponibles depende del contrato con Adobe. Hay disponibles hasta 75 props si su contrato con Adobe lo admite.
 
-## Propiedades en Adobe Experience Platform Launch
+## Props que usan etiquetas en Adobe Experience Platform
 
 Puede establecer propiedades durante la configuración de la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
@@ -35,7 +34,7 @@ Puede establecer propiedades durante la configuración de la extensión de Analy
 
 Puede establecer una propiedad a un valor o a un elemento de datos. También puede copiar el valor de otra variable de Analytics.
 
-## “s.prop1 - s.prop75” en el editor de código personalizado de AppMeasurement y Launch
+## “s.prop1 - s.prop75” en el editor de código personalizado de AppMeasurement y 
 
 Cada variable prop es una cadena que contiene valores personalizados específicos de su organización. Su longitud máxima es de 100 bytes. Los valores superiores a 100 bytes se truncan automáticamente cuando se envían a Adobe.
 
