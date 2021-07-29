@@ -2,11 +2,10 @@
 title: servidor
 description: Rellene la dimensión “Servidores”.
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '159'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 87%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 La variable `server` generalmente almacena el nombre de host del sitio. Normalmente se utiliza en grupos de informes que contienen datos de varios dominios. Desde el punto de vista de la funcionalidad es idéntico a una prop.
 
-## Servidor en Adobe Experience Platform Launch
+## Servidor que utiliza etiquetas en Adobe Experience Platform
 
 Puede configurar el servidor durante la configuración de la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
@@ -27,7 +26,7 @@ Puede configurar el servidor durante la configuración de la extensión de Analy
 
 Puede establecer el servidor en cualquier valor de cadena o elemento de datos.
 
-## “s.server” en el editor de código personalizado de AppMeasurement y Launch
+## “s.server” en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.server` es una cadena que generalmente contiene el nombre de host del sitio. Tiene un valor máximo de 100 bytes. Los valores más largos se truncan.
 
