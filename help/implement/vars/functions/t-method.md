@@ -2,11 +2,10 @@
 title: t
 description: Envíe una llamada de seguimiento de vista de página a Adobe.
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 86%
 
 ---
 
@@ -36,18 +35,18 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 Adobe recibe la solicitud de imagen y, a continuación, analiza los parámetros de encabezado, dirección URL y cadena de consulta de la solicitud. Los servidores de recopilación de datos devuelven una imagen transparente de 1x1 píxeles, que se muestra de forma invisible en el sitio.
 
-## Llamada de seguimiento de vista de página en Adobe Experience Platform Launch
+## Llamada de seguimiento de vista de página mediante etiquetas en Adobe Experience Platform
 
-Launch hace que una determinada ubicación establezca una llamada de seguimiento de vista de páginas.
+La interfaz de usuario de recopilación de datos tiene una ubicación dedicada configurada como una llamada de seguimiento de vista de página.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en el icono “+”.
 5. Establezca la lista desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en Enviar señalización.
 6. Haga clic en el botón de opción `s.t()`.
 
-## El método s.t() en el editor de código personalizado de AppMeasurement y Launch
+## El método s.t() en el editor de código personalizado de AppMeasurement y 
 
 Llame al método `s.t()` cuando desee enviar una llamada de seguimiento a Adobe.
 
