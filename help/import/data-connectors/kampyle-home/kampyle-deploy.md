@@ -3,14 +3,14 @@ description: Implemente el conector de datos Kampyle en Adobe Analytics.
 title: Implementación de la integración
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 exl-id: ac8e1f30-cefe-448a-bec6-cda58ee51025
-source-git-commit: 4078d0be92c8ccd639e408e7372a5636938cad00
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 45%
+source-wordcount: '448'
+ht-degree: 47%
 
 ---
 
-# Implementación de la integración {#deploying-the-integration}
+# Implementación de la integración{#deploying-the-integration}
 
 La implementación de esta integración consiste en completar el asistente de integración de Adobe, implementar el código de complemento (JavaScript) y verificar la integración.
 
@@ -42,19 +42,19 @@ Después de completar el asistente de integración, implemente el objeto de conf
 
 >[!NOTE]
 >
->Si utiliza Adobe Experience Platform Launch, puede añadir fácilmente el objeto de configuración de integración a través de esa herramienta.
+>Si utiliza etiquetas en Adobe Experience Platform, puede añadir fácilmente el objeto de configuración de integración a través de esa herramienta.
 
 1. Vaya a la pestaña **[!UICONTROL Recursos]** > **[!UICONTROL Asistencia]** de la integración.
-1. Descargue y guarde el recurso **[!UICONTROL Código de integración de Kampyle (JS)]**. El código tiene un aspecto similar al siguiente:
+2. Descargue y guarde el recurso **[!UICONTROL Código de integración de Kampyle (JS)]**. El código tiene un aspecto similar al siguiente:
 
    ```
    /* Kampyle:  Integration configuration settings */
      window.k_sc_param = { "version":1.1 }
    ```
 
-1. Implemente el código mediante uno de los siguientes métodos:
+3. Implemente el código mediante uno de los siguientes métodos:
 
-   * Utilice Adobe Experience Platform Launch.
+   * Uso de etiquetas en Adobe Experience Platform.
    * Envíe el código al recurso de organización que mantiene la implementación de Adobe Analytics.
 
 ## Verificar la integración {#verify-the-integration}
