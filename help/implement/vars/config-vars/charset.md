@@ -2,10 +2,10 @@
 title: charSet
 description: La variable charSet determina qué codificación utiliza Adobe para analizar la solicitud de imagen.
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 90%
+source-wordcount: '198'
+ht-degree: 92%
 
 ---
 
@@ -19,9 +19,7 @@ Establezca esta variable solo si observa valores ilegibles ([mojibake](https://e
 
 Conjunto de caracteres es un campo del acordeón [!UICONTROL General] al configurar la extensión de Adobe Analytics.
 
-1. Vaya a `experience.adobe.com` e inicie sesión cuando se le solicite.
-1. Seleccione [!UICONTROL Iniciar / Recopilación de datos].
-1. Haga clic en [!UICONTROL Ir a Launch / Data Collection] y seleccione [!UICONTROL Etiquetas].
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
 1. Expanda el acordeón [!UICONTROL General], que muestra el campo [!UICONTROL Conjunto de caracteres].
