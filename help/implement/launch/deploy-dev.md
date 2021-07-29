@@ -2,10 +2,10 @@
 title: Implementación de Adobe Analytics en un entorno de desarrollo
 description: Aprenda a utilizar etiquetas para implementar Adobe Analytics en su entorno de desarrollo.
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 9b9a338e3652c85ae0f8ce79b98a2babf427ab4c
+source-git-commit: ea6812c8e596773abb8a05bbdb37bc641967c9b8
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 66%
+source-wordcount: '594'
+ht-degree: 61%
 
 ---
 
@@ -24,7 +24,7 @@ Una vez creada y configurada una propiedad de etiqueta, las bibliotecas están l
 
 Las etiquetas admiten muchos flujos de trabajo organizativos al implementar código. Siga estos pasos para crear los componentes mínimos necesarios para una implementación de Analytics. Como administrador de etiquetas, puede trabajar dentro de su organización para establecer el flujo de trabajo correcto para implementar soluciones de Adobe.
 
-1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiqueta que desee implementar en el sitio.
 3. Haga clic en la pestaña Adaptadores y, a continuación, haga clic en Agregar adaptador.
 4. Asígnele el nombre “Akamai” y seleccione Akamai en la lista desplegable de tipos. Haga clic en Guardar.
@@ -37,7 +37,7 @@ Las etiquetas admiten muchos flujos de trabajo organizativos al implementar cód
 
 A pesar de todos los cambios y configuraciones realizados hasta ahora, no se ha publicado ningún código. La creación de una biblioteca, traducida como una colección de cambios, permite la publicación de código para su uso en el sitio.
 
-1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiqueta que desee implementar en el sitio.
 3. Haga clic en la pestaña Publicación y, a continuación, en Agregar nueva biblioteca.
 4. Asigne a la biblioteca el nombre “Cambios iniciales” y seleccione su entorno de desarrollo.
