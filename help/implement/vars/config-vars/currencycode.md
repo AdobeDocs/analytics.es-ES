@@ -2,10 +2,10 @@
 title: ¿Qué es la variable currencyCode y cómo se usa?
 description: Para los sitios de comercio electrónico, establece la moneda que usa la página.
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 95%
+source-wordcount: '834'
+ht-degree: 97%
 
 ---
 
@@ -25,13 +25,11 @@ Si `currencyCode` está definida y es diferente a la moneda del grupo de informe
 
 Esta variable no persiste entre visitas. Asegúrese de que esta variable esté definida en todas las páginas que involucren eventos de ingresos o de moneda.
 
-## Código de moneda en etiquetas de Adobe Experience Platform
+## Código de moneda con etiquetas en Adobe Experience Platform
 
 Código de moneda es un campo en el acordeón [!UICONTROL General] al configurar la extensión de Adobe Analytics.
 
-1. Vaya a `experience.adobe.com` e inicie sesión cuando se le solicite.
-1. Seleccione [!UICONTROL Iniciar / Recopilación de datos].
-1. Haga clic en [!UICONTROL Ir a Launch / Data Collection] y seleccione [!UICONTROL Etiquetas].
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
 1. Expanda el acordeón [!UICONTROL General], que muestra el campo [!UICONTROL Código de moneda].
@@ -48,7 +46,7 @@ El código de moneda se pasa a los SDK de Adobe Experience Platform Mobile a tra
 
 Puede utilizar un código de moneda preestablecido o un código de moneda personalizado. Si utiliza un código de moneda personalizado, asegúrese de que el código sea válido.
 
-## s.currencyCode en el editor de código personalizado de AppMeasurement y de recopilación de datos
+## s.currencyCode en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.currencyCode` es una cadena que contiene un código en mayúsculas de 3 letras que representa la moneda de la página.
 
