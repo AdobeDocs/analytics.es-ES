@@ -2,10 +2,10 @@
 title: Guías de documentación técnica de Adobe Analytics
 description: Guías y recursos para usuarios de Analytics
 exl-id: f7a06f92-2144-4178-9080-7cb2f3e0e8e1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
 
 [![Administración](assets/admin_50px.png)](/help/admin/home.md) [Guía de administración](/help/admin/home.md): obtenga información sobre la administración de usuarios y productos en la Admin Console de Experience Cloud, la configuración de grupos de informes, los parámetros empresariales, el gobierno de datos, el uso de llamadas al servidor, la administración del tráfico y más.
 
-[![Implementación](assets/implement_50px.png)](/help/implement/home.md) [Guía de implementación](/help/implement/home.md): Personalice los datos que se recopilan para aprovechar al máximo Adobe Analytics. Incluye contenido sobre las implementaciones de [!UICONTROL Adobe Experience Platform Launch] y JavaScript.
+[![Implementación](assets/implement_50px.png)](/help/implement/home.md) [Guía de implementación](/help/implement/home.md): Personalice los datos que se recopilan para aprovechar al máximo Adobe Analytics. Incluye el uso de etiquetas en implementaciones de Adobe Experience Platform y JavaScript.
 
 [![Componentes](assets/components_50px.png)](/help/components/home.md) [Guía de componentes](/help/components/home.md): Conozca las funciones que le ayudarán a organizar sus datos. Los componentes incluyen segmentos, métricas calculadas, grupos de informes virtuales, alertas y más. Esta guía también incluye una referencia de variable, donde se explican todas las dimensiones y métricas disponibles.
 
@@ -27,9 +27,9 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
 
 [![Integración](assets/integrate_50px.png)](/help/integrate/home.md) [Guía de integración](/help/integrate/home.md): configure integraciones con otras soluciones de Adobe Experience Cloud, como Audience Manager, Advertising Cloud o Target.
 
-[![Streaming Media Analytics](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es) [Guía de Streaming Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es): Implementación de Adobe Analytics para Streaming Media. Incluye el SDK de medios y la API de recopilación de medios.
+[![Streaming Media Analytics](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es) [Guía de Streaming Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html): Implementación de Adobe Analytics para Streaming Media. Incluye el SDK de medios y la API de recopilación de medios.
 
-[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=es) [Guías de Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=es): obtenga información sobre las capacidades de múltiples canales, potentes y altamente flexibles de [!UICONTROL Data Workbench]. Incluye las guías de [!UICONTROL Cliente de Data Workbench], Instalación, [!UICONTROL Configuración de conjuntos de datos] y más.
+[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=es) [Guías de Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html): obtenga información sobre las capacidades de múltiples canales, potentes y altamente flexibles de [!UICONTROL Data Workbench]. Incluye las guías de [!UICONTROL Cliente de Data Workbench], Instalación, [!UICONTROL Configuración de conjuntos de datos] y más.
 
 [![Notas técnicas](assets/technotes_50px.png)](/help/technotes/home.md) [Notas técnicas de Analytics](/help/technotes/home.md): Una base de conocimiento que contiene artículos útiles que no pertenecen a una herramienta o componente de análisis específico.
 
