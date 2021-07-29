@@ -2,11 +2,10 @@
 title: transactionID
 description: Utilice esta variable para vincular datos en línea y sin conexión.
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 94%
 
 ---
 
@@ -22,11 +21,11 @@ Cuando se configura `transactionID` en caso de una visita, Adobe toma una “ins
 
 De forma predeterminada, Adobe registra todos los valores de ID de transacción (vinculados y desvinculados) durante un máximo de 90 días. Si el proceso de interacción sin conexión supera los 90 días, contacte con el Servicio de atención al cliente para ampliar este límite.
 
-## ID de transacción en Adobe Experience Platform Launch
+## ID de transacción con etiquetas en Adobe Experience Platform
 
 Puede establecer el ID de transacción al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
@@ -35,7 +34,7 @@ Puede establecer el ID de transacción al configurar la extensión de Analytics 
 
 Puede establecer el ID de transacción para cualquier valor de cadena, incluidos los elementos de datos.
 
-## s.transactionID en AppMeasurement y el editor de código personalizado de Launch
+## s.transactionID en AppMeasurement y el editor de código personalizado de 
 
 La variable `s.transactionID` es una cadena que contiene un identificador único para una transacción. Todos los caracteres alfanuméricos de hasta 100 bytes de longitud son valores válidos. Aparece como una cadena vacía de manera predeterminada.
 
