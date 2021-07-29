@@ -2,11 +2,10 @@
 title: linkExternalFilters
 description: Utilice la variable linkExternalFilters para ayudar al seguimiento automático de vínculos de salida.
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 92%
 
 ---
 
@@ -22,18 +21,18 @@ Si esta variable contiene un valor, el seguimiento automático de vínculos de s
 
 Si utiliza `linkInternalFilters` y `linkExternalFilters` simultáneamente, el vínculo en el que se hizo clic debe coincidir con `linkExternalFilters` **y no** con `linkInternalFilters` para considerarse como un vínculo de salida. Si un vínculo en el que se hizo clic coincide con los criterios de vínculo de salida y de descarga, el tipo de vínculo de descarga tiene prioridad.
 
-## Vínculos de salida: Rastrear en Adobe Experience Platform Launch
+## Vínculos de salida: Rastrear mediante etiquetas en Adobe Experience Platform
 
 El campo Rastrear es una lista de filtros separados por comas (generalmente dominios) en el acordeón de [!UICONTROL Seguimiento de vínculos] al configurar la extensión de Adobe Analytics.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
 4. Expanda el acordeón de [!UICONTROL Seguimiento de vínculos], que muestra el campo [!UICONTROL Seguimiento de vínculos de salida].
 
 Coloque los filtros que desee considerar siempre externos en este campo. Separe varios dominios con una coma sin espacios.
 
-## s.linkExternalFilters en el editor de código personalizado de AppMeasurement y Launch
+## s.linkExternalFilters en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.linkExternalFilters` es una cadena que contiene filtros (como dominios) que se consideran vínculos de salida. Separe varios dominios con una coma sin espacios.
 
