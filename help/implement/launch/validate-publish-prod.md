@@ -2,9 +2,9 @@
 title: Validación de una implementación de desarrollo y publicación en producción
 description: Aprenda a utilizar etiquetas de Adobe Experience Platform para implementar Adobe Analytics en su entorno de producción.
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '692'
 ht-degree: 64%
 
 ---
@@ -35,9 +35,7 @@ Experience Cloud Debugger es un complemento de Chrome que muestra todas las etiq
 
 Una vez validado que está viendo los datos, puede insertar la implementación en la versión activa del sitio.
 
-1. Vaya a [experience.adobe.com](https://experience.adobe.com) e inicie sesión cuando se le solicite.
-1. Seleccione **[!UICONTROL Iniciar / Recopilación de datos]**.
-1. Haga clic en **[!UICONTROL Ir a Launch / Data Collection]** y seleccione **[!UICONTROL Etiquetas]**.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiqueta que desee implementar en el sitio.
 1. Haga clic en la pestaña **[!UICONTROL Publishing]** y busque la biblioteca en la columna de desarrollo.
 1. Haga clic en el menú desplegable de la biblioteca y, a continuación, seleccione **[!UICONTROL Enviar para aprobación]**. Haga clic en **[!UICONTROL Submit]** en la ventana modal.
