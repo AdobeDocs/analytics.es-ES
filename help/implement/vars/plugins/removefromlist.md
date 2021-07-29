@@ -2,11 +2,10 @@
 title: rfl
 description: Elimine un valor específico de una cadena delimitada por caracteres.
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1054'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '1060'
+ht-degree: 96%
 
 ---
 
@@ -23,11 +22,11 @@ El complemento utiliza la lógica siguiente:
 * Si el valor que desea eliminar existe, el complemento guarda todo en la variable excepto el valor que se va a eliminar.
 * Si el valor que desea eliminar no existe, el complemento mantiene la cadena original tal cual.
 
-## Instalación del complemento con la extensión de Adobe Experience Platform Launch
+## Instalación del complemento con etiquetas en Adobe Experience Platform
 
 Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
 1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
@@ -39,11 +38,11 @@ Adobe ofrece una extensión que le permite disfrutar de los complementos más ut
    * Tipo de acción: Inicializar RFP (Remove From List)
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado de Launch
+## Instalación del complemento con el editor de código personalizado de 
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
 1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].
