@@ -2,11 +2,10 @@
 title: useLinkTrackSessionStorage
 description: Almacene los datos de seguimiento de vínculos en el almacenamiento de la sesión en lugar de en una cookie.
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '261'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 90%
 
 ---
 
@@ -25,11 +24,11 @@ El uso del almacenamiento de sesión de un explorador para el seguimiento de ví
 
 AppMeasurement elimina los datos del seguimiento de vínculos de almacenamiento de sesión después de enviar una visita a Adobe. También caduca automáticamente cuando se cierra la pestaña del explorador.
 
-## Uso del almacenamiento de sesión de seguimiento de vínculos en Adobe Experience Platform Launch
+## Uso del almacenamiento de sesión de seguimiento de vínculos con etiquetas en Adobe Experience Platform
 
-No hay un campo específico en Launch para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.useLinkTrackSessionStorage en el editor de código personalizado de AppMeasurement y Launch
+## s.useLinkTrackSessionStorage en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.useLinkTrackSessionStorage` es un booleano que determina si AppMeasurement utiliza almacenamiento de sesión para los datos de seguimiento de vínculos en lugar de la cookie de `s_sq`. Su valor predeterminado es `false`. Configure esta variable en `true` si desea que AppMeasurement utilice el almacenamiento de sesión en lugar de la cookie `s_sq` para el seguimiento de vínculos y el Activity Map.
 
