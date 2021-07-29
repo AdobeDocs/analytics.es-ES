@@ -2,11 +2,10 @@
 title: list
 description: Variables personalizadas que contienen varios valores en la misma visita.
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '363'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 93%
 
 ---
 
@@ -24,11 +23,11 @@ Asegúrese de registrar la forma en que utiliza cada variable de lista y su lóg
 
 Asegúrese de configurar cada variable de lista en la configuración del grupo de informes antes de usarla en la implementación. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/list-var-admin.md) en la guía de administración.
 
-## Variables de lista en Adobe Experience Platform Launch
+## Variables de lista que utilizan etiquetas en Adobe Experience Platform
 
-No hay un campo específico en Launch para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## “s.list1 - s.list3” en el editor de código personalizado de AppMeasurement y Launch
+## “s.list1 - s.list3” en el editor de código personalizado de AppMeasurement y 
 
 Cada variable de lista es una cadena que contiene valores personalizados específicos de su organización. No tienen un máximo de bytes; sin embargo, cada valor individual tiene un máximo de 255 bytes. El delimitador que utilice se determina al configurar la variable en la configuración del grupo de informes. No utilice espacios al delimitar varios elementos.
 
