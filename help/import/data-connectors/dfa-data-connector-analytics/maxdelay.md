@@ -1,14 +1,13 @@
 ---
 title: maxDelay
 description: Determine la cantidad máxima de tiempo que AppMeasurement espera una respuesta de DFA antes de enviar una solicitud de imagen.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 154f7e34-39e7-4390-ae36-d4fbc998787f
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '301'
+ht-degree: 92%
 
 ---
-
 
 # maxDelay
 
@@ -16,11 +15,11 @@ La variable `s.maxDelay` se usa principalmente en Data Connectors de DFA para de
 
 Esta variable solo se utiliza en implementaciones que utilizan Data Connectors de DFA. Incluso en implementaciones que utilizan DFA, esta variable es opcional.
 
-## Retraso máximo en Adobe Experience Platform Launch
+## Retraso máximo con etiquetas en Adobe Experience Platform
 
-No hay un campo específico en Launch para utilizar esta variable. Utilice el editor de código personalizado, según la sintaxis de AppMeasurement.
+No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.maxDelay en el editor de código personalizado de AppMeasurement y Launch
+## s.maxDelay en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.maxDelay` es un entero que representa el número de milisegundos que AppMeasurement espera una respuesta de DFA. Si AppMeasurement no recibe una respuesta de DFA a tiempo, se envía una solicitud de imagen a Adobe sin datos de DFA.
 
