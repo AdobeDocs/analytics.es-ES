@@ -2,11 +2,10 @@
 title: clearVars
 description: Borra los valores siguientes del objeto de instancia. Esta función elimina los elementos (los establece como “undefined”).
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 87%
 
 ---
 
@@ -17,9 +16,9 @@ Algunas implementaciones, como en aplicaciones de una sola página, requieren qu
 Este método no toma ningún argumento y no devuelve ningún valor. Su único propósito es borrar los valores de variables del objeto de instancia. Este método establece los siguientes elementos como `undefined`:
 
 * `prop1` - `prop75`
-* `eVar` - `eVar250`
-* `hier1` - `hier5`
-* `list1` - `list3`
+* `eVar` -  `eVar250`
+* `hier1` -  `hier5`
+* `list1` -  `list3`
 * `events`
 * `products`
 * `channel`
@@ -29,17 +28,17 @@ Este método no toma ningún argumento y no devuelve ningún valor. Su único pr
 * `zip`
 * `campaign`
 
-## Borrar variables en Adobe Experience Platform Launch
+## Borrar variables mediante etiquetas en Adobe Experience Platform
 
 Establezca la acción Borrar variables al configurar una regla.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en el icono “+”.
 5. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Borrar variables].
 
-## s.clearVars() en el editor de código personalizado de AppMeasurement y Launch
+## s.clearVars() en el editor de código personalizado de AppMeasurement y 
 
 Puede llamar al método `s.clearVars()` desde cualquier lugar de la implementación después de crear una instancia de objeto de Analytics.
 
