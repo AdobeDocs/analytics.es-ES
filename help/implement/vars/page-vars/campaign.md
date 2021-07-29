@@ -2,11 +2,10 @@
 title: campaign
 description: Rellene la dimensión “Código de seguimiento”.
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '191'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 89%
 
 ---
 
@@ -16,11 +15,11 @@ La variable `campaign` está dedicada a recopilar códigos de seguimiento en el 
 
 Esta variable rellena la dimensión “Código de seguimiento”.
 
-## Campaign en Adobe Experience Platform Launch
+## Campaña con etiquetas en Adobe Experience Platform
 
 Puede establecer la campaña durante la configuración de la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
@@ -29,7 +28,7 @@ Puede establecer la campaña durante la configuración de la extensión de Analy
 
 Puede establecer la campaña como un valor o un parámetro de cadena de consulta.
 
-## s.campaign en el editor de código personalizado de AppMeasurement y Launch
+## s.campaign en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.campaign` es una cadena que generalmente contiene un código de seguimiento utilizado en los esfuerzos de marketing. Su longitud máxima es de 255 bytes; los valores superiores a 255 bytes se truncan automáticamente cuando se envían a Adobe.
 
