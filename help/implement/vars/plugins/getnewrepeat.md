@@ -2,11 +2,10 @@
 title: getNewRepeat
 description: Rastree la actividad de visitantes nuevos frente a los que repiten.
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '826'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 95%
 
 ---
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 
 El complemento `getNewRepeat` le permite determinar si un visitante del sitio accede por primera vez o si repite dentro de un número determinado de días. Adobe recomienda utilizar este complemento si desea identificar a los visitantes como “nuevos” con un número personalizado de días. Este complemento no es necesario si las dimensiones de visitante Nuevo/Repetición de Analysis Workspace satisfacen las necesidades de su organización.
 
-## Instalación del complemento con la extensión de Adobe Experience Platform Launch
+## Instalación del complemento con etiquetas en Adobe Experience Platform
 
 Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
 1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
@@ -34,11 +33,11 @@ Adobe ofrece una extensión que le permite disfrutar de los complementos más ut
    * Tipo de acción: Inicializar getNewRepeat
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado de Launch
+## Instalación del complemento con el editor de código personalizado de 
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
 1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].
