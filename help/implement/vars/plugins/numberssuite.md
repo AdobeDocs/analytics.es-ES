@@ -2,11 +2,10 @@
 title: Numbers Suite
 description: Produzca y manipule números para utilizarlos en otras variables de JavaScript.
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '638'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 94%
 
 ---
 
@@ -22,11 +21,11 @@ Numbers Suite contiene una serie de funciones de JavaScript. Incluye los siguien
 * **`randomNumber`**: Genera un número aleatorio con un número específico de dígitos. Este complemento resulta útil si implementa etiquetas de terceros y desea un número aleatorio que elimine la caché.
 * **`twoDecimals`**: Redondea un número hasta la centésima más cercana. Este complemento es útil para fines monetarios, ya que le permite redondear un número a un valor de moneda válido.
 
-## Instalación del complemento con la extensión de Adobe Experience Platform Launch
+## Instalación del complemento con etiquetas en Adobe Experience Platform
 
 Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
 1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
@@ -38,11 +37,11 @@ Adobe ofrece una extensión que le permite disfrutar de los complementos más ut
    * Tipo de acción: Inicializar grupo de números
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado de Launch
+## Instalación del complemento con el editor de código personalizado de 
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
 1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].
