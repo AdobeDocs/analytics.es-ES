@@ -2,10 +2,10 @@
 title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2429'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '2439'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
    * Custom Insight, un nombre histórico para la variable de tráfico personalizada.
 * **KPI:** sigla de “key performance indicator” (indicador clave de rendimiento) Son métricas que ayudan a las empresas a comprender el rendimiento de su sitio. Cada organización tiene diferentes KPI que miden diferentes aspectos de su negocio. Consulte [Creación de un documento de diseño de solución](/help/implement/prepare/solution-design.md) en la guía del usuario sobre implementación.
 * **Latencia:** el lapso de tiempo entre el momento de recopilación de los datos y el momento en que estos están disponibles en los informes. La latencia típica en un grupo de informes es de 30 a 90 minutos. Consulte [Latencia](/help/technotes/latency.md) en la guía de usuario sobre Technotes.
-* **Launch:** forma abreviada de referirse a Adobe Experience Platform Launch, la solución de implementación actual de Adobe. Consulte [Información general](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=es) en la guía de usuario de Adobe Experience Platform Launch.
+* **Launch:** ya no se usa como término. El nombre anterior abreviado de las etiquetas en Adobe Experience Platform, la solución de implementación actual de Adobe. Consulte [Información general sobre etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) en la guía del usuario de Adobe Experience Platform.
 * **Prop de lista:** una configuración que transforma una variable de tráfico estándar para que admita varios valores en la misma visita. Cualquier variable de tráfico personalizada puede convertirse en un prop de lista si la configuración está habilitada. Consulte [prop](../implement/vars/page-vars/prop.md) en la guía de usuario sobre implementación.
 * **List var:** una variable concreta independiente de las variables de conversión. Las list var admiten varios valores en la misma visita, y los valores de variable se conservan en una visita de forma similar a las variables de conversión. Solo hay tres list var disponibles para una organización. Consulte [list](/help/implement/vars/page-vars/list.md) en la guía de usuario sobre implementación.
 * **Empresa de inicio de sesión:** una recopilación de los grupos de informes que utiliza su organización. Algunas organizaciones tienen varias empresas de inicio de sesión que se aplican a diferentes partes de la organización.
