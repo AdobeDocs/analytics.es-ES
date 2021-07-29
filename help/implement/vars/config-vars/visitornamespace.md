@@ -2,11 +2,10 @@
 title: visitorNameSpace
 description: Variable retirada que determinó el dominio de la cookie.
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '213'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 89%
 
 ---
 
@@ -22,18 +21,18 @@ En versiones anteriores de Adobe Analytics, AppMeasurement utilizaba la variable
 >
 >Adobe recomienda el uso de cookies de origen en el sitio. Las cookies de origen no utilizan esta variable.
 
-## Espacio de nombres de visitante en Adobe Experience Platform Launch
+## Espacio de nombres del visitante con etiquetas en Adobe Experience Platform
 
 El [!UICONTROL espacio de nombres del visitante] es un campo en el acordeón [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL Cookies], que muestra el campo [!UICONTROL Espacio de nombres del visitante].
 
 Adobe recomienda evitar este campo. Utilice `trackingServer` y `trackingServerSecure` en su lugar.
 
-## s.visitorNamespace en el editor de código personalizado de AppMeasurement y Launch
+## s.visitorNamespace en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.visitorNamespace` es una cadena que contiene un valor único por organización. Las bibliotecas antiguas de AppMeasurement incluían automáticamente este valor único al descargarlo de versiones anteriores de Adobe Analytics. Las bibliotecas actuales de AppMeasurement no utilizan esta variable a menos que `trackingServer` y `trackingServerSecure` se establezcan.
 
