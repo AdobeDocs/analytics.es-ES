@@ -2,11 +2,10 @@
 title: pageName
 description: El nombre de la página del sitio.
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 90%
 
 ---
 
@@ -20,11 +19,11 @@ Si esta variable no está definida en una llamada de seguimiento de página dete
 >
 >Los servidores de recopilación de datos de Adobe eliminan esta dimensión de todas las solicitudes de imagen de [seguimiento de vínculos](/help/implement/vars/functions/tl-method.md). Si desea que esta dimensión aparezca en las visitas de seguimiento de vínculos, considere la posibilidad de copiar esta dimensión en una [eVar](evar.md).
 
-## Nombre de página en Adobe Experience Platform Launch
+## Nombre de página que utiliza etiquetas en Adobe Experience Platform
 
 Puede definir el nombre de la página al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
@@ -33,7 +32,7 @@ Puede definir el nombre de la página al configurar la extensión de Analytics (
 
 Puede establecer el nombre de la página en cualquier valor de cadena, incluidos los elementos de datos.
 
-## “s.pageName” en el editor de código personalizado de AppMeasurement y Launch
+## “s.pageName” en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.pageName` es una cadena que generalmente contiene el nombre de la página. Tiene un valor máximo de 100 bytes. Los valores más largos se truncan. Este truncamiento incluye instancias a las que se recupera `pageURL` si esta variable está en blanco.
 
