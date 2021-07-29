@@ -2,11 +2,10 @@
 title: products
 description: Enviar datos sobre qué productos se muestran o están en el carro de compras.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 91%
 
 ---
 
@@ -18,18 +17,18 @@ La variable `products` rastrea productos y propiedades vinculados a ellos. Esta 
 >
 >Si esta variable se configura en una visita individual sin un evento de carro de compras en la variable [`events`](events/events-overview.md), la métrica [“Vistas del producto”](/help/components/metrics/product-views.md) se incrementa en 1. Asegúrese de establecer el evento del carro de compras correspondiente en cada visita individual con la variable `products`.
 
-## Productos en Adobe Experience Platform Launch
+## Productos con etiquetas en Adobe Experience Platform
 
-No hay un campo específico en Launch para configurar esta variable; sin embargo, existen varias extensiones de terceros que pueden ayudar.
+No hay un campo dedicado en la interfaz de usuario de recopilación de datos para establecer esta variable; sin embargo, existen varias extensiones de terceros que pueden ayudar.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Catálogo] para ver todas las extensiones disponibles.
 4. Busque el término “product”, que revela varias extensiones disponibles para ayudarle a configurar esta variable.
 
 Puede utilizar una de estas extensiones o puede utilizar el editor de código personalizado siguiendo la sintaxis de AppMeasurement a continuación.
 
-## “s.products” en el editor de código personalizado de AppMeasurement y Launch
+## “s.products” en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.products` es una cadena que contiene varios campos delimitados por producto. Cada producto individual puede contener hasta 100 bytes en todos los campos. Delimite cada campo con un punto y coma (`;`) en la cadena.
 
