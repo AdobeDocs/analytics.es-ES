@@ -2,11 +2,10 @@
 title: offlineHitLimit
 description: Determinar el número máximo de visitas en cola para el seguimiento sin conexión.
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '155'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 84%
 
 ---
 
@@ -16,11 +15,11 @@ El seguimiento sin conexión es una forma opcional de recopilar datos en Adobe A
 
 La variable `offlineHitLimit` coloca un límite en el número de visitas que almacena el dispositivo localmente. Esta variable solo funciona si [`trackOffline`](trackoffline.md) está habilitada.
 
-## Límite de visitas sin conexión en Adobe Experience Platform Launch
+## Límite de visitas sin conexión mediante etiquetas en Adobe Experience Platform
 
-No hay un campo específico en Launch para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.offlineHitLimit en el editor de código personalizado de AppMeasurement y Launch
+## s.offlineHitLimit en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.offlineHitLimit` es un número entero que representa el número máximo de visitas que un dispositivo almacena mientras están sin conexión. Si no se define esta variable, no hay límite en el número de visitas que almacena un dispositivo mientras está sin conexión.
 
