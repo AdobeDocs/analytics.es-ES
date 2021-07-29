@@ -2,10 +2,10 @@
 title: cookieDomainPeriods
 description: Ayudar a AppMeasurement a comprender qué dominio almacenará cookies si su dominio tiene un punto en su sufijo.
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 93%
+source-wordcount: '291'
+ht-degree: 92%
 
 ---
 
@@ -22,13 +22,11 @@ La variable `cookieDomainPeriods` ayuda a AppMeasurement a determinar dónde se 
 >
 >No tenga en cuenta los subdominios para esta variable. Por ejemplo, no configure `cookieDomainPeriods` en la URL de ejemplo `store.toys.example.com`. AppMeasurement reconoce de forma predeterminada que las cookies deben almacenarse en `example.com`, incluso en direcciones URL con muchos subdominios.
 
-## Períodos de dominio en Adobe Experience Platform Launch
+## Períodos de dominio mediante etiquetas en Adobe Experience Platform
 
 Períodos de dominio es un campo en el acordeón de [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
 
-1. Vaya a `experience.adobe.com` e inicie sesión cuando se le solicite.
-1. Seleccione [!UICONTROL Iniciar / Recopilación de datos].
-1. Haga clic en [!UICONTROL Ir a Launch / Data Collection] y seleccione [!UICONTROL Etiquetas].
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
 1. Expanda el acordeón de [!UICONTROL Cookies], que muestra el campo [!UICONTROL Períodos de dominio].
