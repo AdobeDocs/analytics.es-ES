@@ -2,11 +2,10 @@
 title: purchaseID
 description: Anule la duplicación de visitas en función de un identificador de compra único.
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 91%
 
 ---
 
@@ -18,11 +17,11 @@ Cuando Adobe reconoce una visita como una compra duplicada, todos los datos de c
 
 Los ID de compra se aplican a todos los visitantes y no caducan. Si un visitante establece un ID de compra determinado y un visitante diferente lo establece un año después, se anula la duplicación de la segunda compra.
 
-## ID de compra en Adobe Experience Platform Launch
+## ID de compra con etiquetas en Adobe Experience Platform
 
-No hay un campo específico en Launch para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## “s.purchaseID” en el editor de código personalizado de AppMeasurement y Launch
+## “s.purchaseID” en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.purchaseID` es una cadena que contiene un identificador único para una compra. Se configura en la misma visita que un evento de compra. Utilice únicamente caracteres alfanuméricos para rellenar esta variable.
 
