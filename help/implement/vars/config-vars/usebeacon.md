@@ -2,11 +2,10 @@
 title: useBeacon
 description: useBeacon le permite forzar AppMeasurement para que utilice la API sendBeacon de los navegadores
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '229'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 90%
 
 ---
 
@@ -22,11 +21,11 @@ Si `useBeacon` está activada, la siguiente visita enviada a Adobe utiliza el m�
 
 La variable `useBeacon` se omite cuando el visitante utiliza un explorador que no admite `navigator.sendBeacon()`. El uso de esta variable requiere AppMeasurement 2.16.0 o superior.
 
-## Uso de la señalización en Adobe Experience Platform Launch
+## Uso de la señalización mediante etiquetas en Adobe Experience Platform
 
-No hay un campo específico en Launch para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.useBeacon en el editor de código personalizado de AppMeasurement y Launch
+## s.useBeacon en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.useBeacon` es un booleano que determina si AppMeasurement utiliza el método `navigator.sendBeacon()` del explorador. Su valor predeterminado es `false`. Establezca esta variable como `true` antes de llamar a una función de seguimiento si desea utilizar la naturaleza asincrónica de `navigator.sendBeacon()`.
 
