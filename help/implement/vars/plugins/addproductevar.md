@@ -2,11 +2,10 @@
 title: addProductEvar
 description: Agrega eVars de comercialización a la variable products.
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '545'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 93%
 
 ---
 
@@ -22,11 +21,11 @@ El complemento `addProductEvar` le permite agregar fácilmente a la variable pro
 >
 >Este complemento no reemplaza a las eVars que ya existen en una entrada de producto. Solo anexa los valores que ha configurado con este complemento. Tenga cuidado al anexar eVars que ya existen para ese producto.
 
-## Instalación del complemento con la extensión de Adobe Experience Platform Launch
+## Instalación del complemento con etiquetas en Adobe Experience Platform
 
 Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
 1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
@@ -38,11 +37,11 @@ Adobe ofrece una extensión que le permite disfrutar de los complementos más ut
    * Tipo de acción: Inicializar addProductEvar
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado de Launch
+## Instalación del complemento con el editor de código personalizado de 
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
 1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].
