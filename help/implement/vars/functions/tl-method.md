@@ -2,11 +2,10 @@
 title: tl
 description: Envíe una llamada de seguimiento de vínculos a Adobe.
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '606'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 92%
 
 ---
 
@@ -16,20 +15,20 @@ El método `tl()` es un componente principal importante de Adobe Analytics. Toma
 
 Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExternalLinks`](../config-vars/trackexternallinks.md) están activados, AppMeasurement llama automáticamente al método `tl()` para enviar datos de seguimiento de vínculos de descarga y de salida. Si su organización prefiere tener más control sobre los vínculos que quiere rastrear y su comportamiento, puede llamar al método `tl()` manualmente. Los vínculos personalizados solo se pueden rastrear manualmente.
 
-## Llamada de seguimiento de vínculos en Adobe Experience Platform Launch
+## Llamada de seguimiento de vínculos mediante etiquetas en Adobe Experience Platform
 
-Launch tiene una ubicación dedicada configurada como llamada de seguimiento de vínculos.
+La interfaz de usuario de recopilación de datos tiene una ubicación dedicada configurada como llamada de seguimiento de vínculos.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 1. En [!UICONTROL Acciones], haga clic en el icono “+”.
 1. Establezca la lista desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en Enviar señalización.
 1. Haga clic en el botón de opción `s.tl()`.
 
-No puede establecer ningún argumento opcional en Launch.
+No se puede establecer ningún argumento opcional en la interfaz de usuario de la recopilación de datos.
 
-## El método s.tl() en el editor de código personalizado de AppMeasurement y Launch
+## El método s.tl() en el editor de código personalizado de AppMeasurement y 
 
 Llame al método `s.tl()` cuando desee enviar una llamada de seguimiento a Adobe.
 
