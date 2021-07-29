@@ -2,11 +2,10 @@
 title: pageURL
 description: Omitir la dirección URL de la página registrada automáticamente en el sitio.
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '272'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 89%
 
 ---
 
@@ -18,11 +17,11 @@ AppMeasurement registra automáticamente la dirección URL de la página en cada
 >
 >Esta variable no es una dimensión disponible en Analysis Workspace. Solo está disponible en Data Warehouse y en Data Feeds. Además, los servidores de recopilación de datos de Adobe eliminan esta dimensión de todas las solicitudes de imagen de [seguimiento de vínculos](/help/implement/vars/functions/tl-method.md). Si desea utilizar la dirección URL de la página como dimensión en Analysis Workspace o desea tener esta dimensión en las visitas de seguimiento de vínculos, considere pasar la variable `pageURL` a una [eVar](evar.md) en cada visita.
 
-## Dirección URL en Adobe Experience Platform Launch
+## Dirección URL de la página con etiquetas en Adobe Experience Platform
 
-Launch completa automáticamente la dirección URL de la página. Sin embargo, puede establecer la anulación de la dirección URL de la página al configurar la extensión de Analytics (variables globales) o en reglas.
+La interfaz de usuario de recopilación de datos rellena automáticamente la dirección URL de la página. Sin embargo, puede establecer la anulación de la dirección URL de la página al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña **[!UICONTROL Reglas]** y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En **[!UICONTROL Acciones]**, haga clic en una acción existente de **[!UICONTROL Adobe Analytics: Establecer variables]** o haga clic en el icono “+”.
@@ -31,7 +30,7 @@ Launch completa automáticamente la dirección URL de la página. Sin embargo, p
 
 Puede establecer la dirección URL de la página en cualquier valor de cadena.
 
-## “s.pageURL” en el editor de código personalizado de AppMeasurement y Launch
+## “s.pageURL” en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.pageURL` es una cadena que contiene la dirección URL de la página. AppMeasurement registra automáticamente esta variable, aunque puede anular su valor si lo desea.
 
