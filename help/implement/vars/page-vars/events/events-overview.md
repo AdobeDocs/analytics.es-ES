@@ -2,11 +2,10 @@
 title: events
 description: Configure la variable “events” (eventos), que gobierna la mayoría de las métricas del sitio.
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 96%
 
 ---
 
@@ -16,11 +15,11 @@ Las dimensiones y las métricas son componentes fundamentales para los informes.
 
 Antes de implementar eventos, asegúrese de crearlos y configurarlos en [Eventos de éxito](/help/admin/admin/c-success-events/success-event.md) en la configuración del grupo de informes. Si planea utilizar eventos personalizados en las visitas de seguimiento de vínculos, asegúrese de que [`linkTrackVars`](../../config-vars/linktrackvars.md) y [`linkTrackEvents`](../../config-vars/linktrackevents.md) están correctamente configurados.
 
-## Eventos en Adobe Experience Platform Launch
+## Eventos que usan etiquetas en Adobe Experience Platform
 
 Puede establecer eventos al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
@@ -34,7 +33,7 @@ Hay varias funciones disponibles:
 * Campo de texto opcional para un valor de evento. Puede incluir moneda para eventos de moneda o un entero para eventos que no sean de moneda para incrementar la cifra varias veces. Por ejemplo, si selecciona `event1` en la lista desplegable e incluye `10` en este campo, los informes se incrementan `event1` en 10.
 * Botón para agregar otro evento. No hay un límite razonable para el número de eventos que puede incluir en una visita.
 
-## “s.events” en el editor de código personalizado de AppMeasurement y Launch
+## “s.events” en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.events` es una cadena que contiene una lista de eventos delimitada por comas que se pueden incluir en la visita. No hay límite de bytes para esta variable, por lo que no se trunca. Los valores válidos son los siguientes:
 
