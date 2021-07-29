@@ -2,11 +2,10 @@
 title: trackDownloadLinks
 description: Habilite o deshabilite el seguimiento automático de vínculos para los vínculos de descarga.
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 87%
 
 ---
 
@@ -16,18 +15,18 @@ Adobe ofrece la posibilidad de rastrear los vínculos de descarga sin configurar
 
 Cuando está habilitado, AppMeasurement compara cualquier URL de vínculo donde se haga clic con los valores de [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Si hay una coincidencia, se activa automáticamente una llamada de seguimiento de vínculos de descarga.
 
-## Seguimiento de vínculos de descarga en Adobe Experience Platform Launch
+## Seguimiento de vínculos de descarga mediante etiquetas en Adobe Experience Platform
 
 Rastrear vínculos de descarga es una casilla de verificación en el acordeón [!UICONTROL Seguimiento de vínculos] al configurar la extensión de Adobe Analytics.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL Seguimiento de vínculos], que muestra la casilla [!UICONTROL Rastrear vínculos de descarga].
 
 Haga clic en la casilla de verificación para habilitar el seguimiento automático de vínculos de descarga.
 
-## s.trackDownloadLinks en el editor de código personalizado de AppMeasurement y Launch
+## s.trackDownloadLinks en el editor de código personalizado de AppMeasurement y 
 
 El `s.trackDownloadLinks` es un booleano que habilita o deshabilita el seguimiento automático de vínculos de descarga. Si no desea rastrear los vínculos de descarga o prefiere llamar manualmente al método `tl()` para rastrear las descargas, establezca esta variable como `false`.
 
