@@ -2,11 +2,10 @@
 title: Estado
 description: Rellene el “Informe de estado del visitante” en Reports & Analytics.
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '215'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 90%
 
 ---
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 
 En versiones anteriores de Adobe Analytics, la variable `state` se utilizaba cuando los visitantes rellenaban la información de envío en sitios de venta al por menor. Desde el punto de vista funcional, es idéntico a una prop, pero no está disponible en Analysis Workspace.
 
-## Estado en Adobe Experience Platform Launch
+## Estado que utiliza etiquetas en Adobe Experience Platform
 
 Puede establecer el estado al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
@@ -31,7 +30,7 @@ Puede establecer el estado al configurar la extensión de Analytics (variables g
 
 Puede establecer el estado en cualquier valor de cadena o elemento de datos.
 
-## “s.state” en el editor de código personalizado de AppMeasurement y Launch
+## “s.state” en el editor de código personalizado de AppMeasurement y 
 
 La variable `s.state` es una cadena que generalmente contiene el estado o la provincia del visitante. Son válidos tanto los nombres de estado completos como los códigos de dos letras. Tiene un valor máximo de 50 bytes. Los valores más largos se truncan. Aparece como una cadena vacía de manera predeterminada.
 
