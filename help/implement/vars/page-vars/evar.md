@@ -2,11 +2,10 @@
 title: eVar
 description: Variables personalizadas que puede utilizar en su implementación.
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '373'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '377'
+ht-degree: 94%
 
 ---
 
@@ -22,11 +21,11 @@ El número de eVars disponibles depende del contrato con Adobe. Hay disponibles 
 
 Antes de usar eVars en la implementación, asegúrese de configurar cada eVar en la configuración del grupo de informes. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la guía de administración.
 
-## eVars en Adobe Experience Platform Launch
+## eVars con etiquetas en Adobe Experience Platform
 
 Puede establecer eVars al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
@@ -35,7 +34,7 @@ Puede establecer eVars al configurar la extensión de Analytics (variables globa
 
 Puede establecer una eVar en un valor o en un elemento de datos. También puede copiar el valor de otra variable de Analytics.
 
-## s.eVar1 - s.eVar250 en el editor de código personalizado de AppMeasurement y Launch
+## s.eVar1 - s.eVar250 en el editor de código personalizado de AppMeasurement y 
 
 Cada eVar es una cadena que contiene valores personalizados específicos de su organización. Su longitud máxima es de 255 bytes; los valores superiores a 255 bytes se truncan automáticamente cuando se envían a Adobe.
 
