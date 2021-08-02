@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información sobre la administración de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 100%
    + [Widget de publicaciones](admin/publishing-widgets-admin.md)
    + [Administrador de preferencias](admin/preferences-manager.md)
    + [Configuración de privacidad](admin/privacy-settings.md)
-   + [Configuración de privacidad](admin/privacy-reporting.md)
+   + [Informes de privacidad](admin/privacy-reporting.md)
    + Reglas de procesamiento {#processing-rules}
       + [Resumen de las reglas de procesamiento](admin/c-processing-rules/processing-rules.md)
       + Configuración de reglas de procesamiento {#processing-rules-configuration}
