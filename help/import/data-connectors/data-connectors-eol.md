@@ -2,10 +2,10 @@
 description: Descubra cuándo y por qué los conectores de datos de Analytics finalizarán su vida útil.
 title: Anuncio previo al fin de vida útil para los conectores de datos de Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
+source-git-commit: 711020fc00aaaf546b2daf343c28634f7a693b50
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 91%
+source-wordcount: '667'
+ht-degree: 89%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 Durante más de una década, Adobe Analytics se ha propuesto ofrecer la mejor solución de análisis de marketing y web para satisfacer las necesidades de los clientes. A medida que evolucionan las necesidades tecnológicas y empresariales, nos esforzamos por seguir ofreciendo y cumpliendo los más altos estándares.  Desafortunadamente, las API que alimentan esta integración ya no cumplen con esos estándares y no son válidas en la moderna infraestructura tecnológica de Adobe Analytics.
 
-**A partir del 1 de agosto de 2021**, Adobe tiene la intención de interrumpir las integraciones de Data Connectors. El fin de vida forma parte del ciclo de vida de cualquier producto tecnológico y el objetivo de Adobe es lograr que la transición sea lo más fluida posible para nuestros clientes y socios. Muchas de estas integraciones están disponibles a través de Adobe Exchange y pueden seguir utilizándose.
+**A partir del 1 de agosto de 2021**, Adobe ha interrumpido las integraciones de Data Connectors. El fin de vida forma parte del ciclo de vida de cualquier producto tecnológico y el objetivo de Adobe es lograr que la transición sea lo más fluida posible para nuestros clientes y socios. Muchas de estas integraciones están disponibles a través de Adobe Exchange y pueden seguir utilizándose.
 
 ## ¿Por qué queremos dejar de usar esta función?
 
@@ -30,6 +30,8 @@ Todas las compañías que proporcionaban una integración tenían la opción de 
 Para obtener más información o asistencia, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 ## Estado del socio de Data Connector
+
+*Última actualización: 2 de agosto de 2021 (Hootsuite)*
 
 | Socio | Estado |
 | --- | --- |
@@ -74,7 +76,7 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 | Fiksu | Desaprobación |
 | ForeSee (v2.0), Foresee Feedback, Foresee Results | Desaprobación |
 | Gigya | Desaprobación |
-| Hootsuite | Desaprobación |
+| Hootsuite | Migración a Exchange |
 | hybris | Desaprobación |
 | Análisis de comentarios de Kampyle (ahora Medallia) (1.1) | Desaprobación |
 | Listrak | Migración a Exchange |
