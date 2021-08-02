@@ -2,10 +2,10 @@
 title: getNewRepeat
 description: Rastree la actividad de visitantes nuevos frente a los que repiten.
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: 13060d08c8ffff01d8dae379e090c53e61fa6476
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 95%
+source-wordcount: '788'
+ht-degree: 66%
 
 ---
 
@@ -69,42 +69,42 @@ Este complemento utiliza una cookie denominada `"s_nr[LENGTH]"` donde `[LENGTH]`
 
 ### Ejemplo 1
 
-El siguiente código establecerá s.eVar1 en el valor de “Nuevo” para los nuevos visitantes y seguirá estableciendo s.eVar1 en el valor de “Nuevo” (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
+El siguiente código establece `eVar1` en el valor de `"New"` para los nuevos visitantes y continúa estableciendo `eVar1` en el valor de `"New"` (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### Ejemplo 2
 
-Si el visitante regresa al sitio en cualquier momento pasados 31 minutos hasta 30 días desde la última vez que se llamó a s.getNewRepeat(), el siguiente código establecerá s.eVar1 en al valor de “Repetición” y seguirá configurando s.eVar1 igual al valor de “Repetición” (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
+Si el visitante regresa al sitio en cualquier momento desde 31 minutos hasta 30 días desde la última vez que se llamó a `getNewRepeat()`, el siguiente código establece `eVar1` en el valor de `"Repeat"` y continúa configurando `eVar1` en el valor de `"Repeat"` (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### Ejemplo 3
 
-Si el visitante no ha estado en el sitio durante al menos 30 días desde la última vez que se llamó a s.getNewRepeat(), el siguiente código establecerá s.eVar1 en el valor de “Nuevo” y seguirá configurando s.eVar1 en el valor de “Nuevo” (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
+Si el visitante no ha estado en el sitio durante al menos 30 días desde la última vez que se llamó a `getNewRepeat()`, el siguiente código establece `eVar1` en el valor de `"New"` y continúa configurando `eVar1` en el valor de `"New"` (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### Ejemplo 4
 
-Si el visitante regresa al sitio en cualquier momento pasados 31 minutos hasta 365 días (es decir un año) desde la última vez que se llamó a s.getNewRepeat(), el siguiente código establecerá s.eVar1 en al valor de “Repetición” y seguirá configurando s.eVar1 igual al valor de “Repetición” (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
+Si el visitante regresa al sitio en cualquier momento entre 31 minutos y 365 días (es decir, 1 año) desde la última vez que se llamó a `getNewRepeat()`, el siguiente código establece `eVar1` en el valor de `"Repeat"` y continúa configurando `eVar1` en el valor de `"Repeat"` (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ### Ejemplo 5
 
-Si el visitante no ha estado en el sitio durante al menos 365 días (es decir, un año) desde la última vez que se llamó a s.getNewRepeat(), el siguiente código establecerá s.eVar1 en el valor de “Nuevo” y seguirá configurando s.eVar1 en el valor de “Nuevo” (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
+Si el visitante no ha estado en el sitio durante al menos 365 días (es decir, 1 año) desde la última vez que se llamó a `getNewRepeat()`, el siguiente código establece `eVar1` en el valor de `"New"` y continúa estableciendo `eVar1` en el valor de `"New"` (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ## Historial de versiones
