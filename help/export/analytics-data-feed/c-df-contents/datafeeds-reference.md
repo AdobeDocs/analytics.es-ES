@@ -6,10 +6,10 @@ title: Referencia de columnas de datos
 feature: Conceptos básicos de Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '3405'
-ht-degree: 100%
+source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
+workflow-type: tm+mt
+source-wordcount: '3409'
+ht-degree: 99%
 
 ---
 
@@ -168,7 +168,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `prev_page` | No se usa. Identificador propio de Adobe de la página anterior. | int sin firmar |
 | `product_list` | Lista de productos tal como se transmite mediante la variable [`products`](/help/implement/vars/page-vars/products.md). Los productos están delimitados por comas, mientras que las propiedades de los productos individuales están delimitadas por punto y coma. | texto |
 | `product_merchandising` | No se usa. Utilice `product_list` en su lugar. | texto |
-| `prop1` - `prop75` | Variables de tráfico personalizadas 1-75. Se utiliza en dimensiones [Prop](/help/components/dimensions/prop.md). | varchar(100) |
+| `prop1` -  `prop75` | Variables de tráfico personalizadas 1-75. Se utiliza en dimensiones [Prop](/help/components/dimensions/prop.md). | varchar(100) |
 | `purchaseid` | Identificador único de una compra, tal y como se establece mediante la variable [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Lo utiliza la columna `duplicate_purchase`. | char(20) |
 | `quarterly_visitor` | Un indicador que determina si la visita es un visitante nuevo trimestral. | tinyint sin firmar |
 | `ref_domain` | Se basa en la columna de referentes. El dominio de referencia de la visita. Se utiliza en la dimensión [Dominio de referencia](/help/components/dimensions/referring-domain.md). | varchar(100) |
@@ -274,7 +274,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `visit_referrer` | El primer referente de la visita. | varchar(255) |
 | `visit_search_engine` | ID numérica del primer motor de búsqueda de la visita. Utiliza la búsqueda `search_engines.tsv`. | smallint sin firmar |
 | `visit_start_page_url` | La primera URL de la visita. | varchar(255) |
-| `visit_start_pagename` | El primer nombre de página de la visita. | varchar(100) |
+| `visit_start_pagename` | El valor Nombre de página en la primera visita individual de la visita. | varchar(100) |
 | `visit_start_time_gmt` | Marca de tiempo (en Tiempo Unix) de la primera visita. | int |
 | `weekly_visitor` | Indicador que determina si la visita es un visitante nuevo semanal. | tinyint sin firmar |
 | `yearly_visitor` | Indicador que determina si la visita es un visitante nuevo anual. | tinyint sin firmar |
