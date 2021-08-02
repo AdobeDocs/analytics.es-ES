@@ -2,10 +2,10 @@
 title: products
 description: Enviar datos sobre qué productos se muestran o están en el carro de compras.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 91%
+source-wordcount: '505'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +15,7 @@ La variable `products` rastrea productos y propiedades vinculados a ellos. Esta 
 
 >[!NOTE]
 >
->Si esta variable se configura en una visita individual sin un evento de carro de compras en la variable [`events`](events/events-overview.md), la métrica [“Vistas del producto”](/help/components/metrics/product-views.md) se incrementa en 1. Asegúrese de establecer el evento del carro de compras correspondiente en cada visita individual con la variable `products`.
+>Si esta variable se configura en una visita individual sin la variable [`events`](events/events-overview.md) , la métrica [Vistas del producto](/help/components/metrics/product-views.md) se incrementa en 1. Asegúrese de establecer los eventos adecuados en cada visita individual con la variable `products` .
 
 ## Productos con etiquetas en Adobe Experience Platform
 
