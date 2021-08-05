@@ -4,17 +4,17 @@ subtopic: Classifications
 title: Plantilla de clasificación
 feature: Herramientas de administración
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '320'
-ht-degree: 100%
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
+workflow-type: tm+mt
+source-wordcount: '353'
+ht-degree: 85%
 
 ---
 
 
 # Plantilla de clasificación
 
-Opcional. Antes de importar las clasificaciones a informes de marketing, existe la posibilidad de descargar una plantilla para facilitar la creación del archivo de datos de clasificación. El archivo de datos utiliza las clasificaciones especificadas como encabezados de columna y, a continuación, organiza el conjunto de datos de informes con los encabezados de clasificación adecuados.
+(Opcional) Antes de importar clasificaciones a informes y proyectos, puede descargar una plantilla que le ayudará a crear un archivo de datos de clasificaciones. El archivo de datos utiliza las clasificaciones especificadas como encabezados de columna y, a continuación, organiza el conjunto de datos de informes con los encabezados de clasificación adecuados.
 
 ## Plantilla de clasificación {#concept_0F06847AD8D042F5BA818AE3C37E2417}
 
@@ -23,10 +23,11 @@ Opcional. Antes de importar las clasificaciones a informes de marketing, existe 
 **[!UICONTROL Administración]** > **[!UICONTROL Importador de clasificaciones]**.
 
 | Elemento | Descripción |
-|---|---|
+| --- | ---|
 | Seleccionar grupo de informes | Seleccione el grupo de informes que se usará en la plantilla. El grupo de informes y el conjunto de datos deben coincidir. |
 | Conjunto de datos a clasificar | Seleccione el tipo de datos del archivo de datos. El menú incluye todos los informes de los grupos de informes que se han configurado para las clasificaciones. |
-| Codificación | Seleccione la codificación de caracteres del archivo de datos. El formato de codificación predeterminado es UTF-8. |
+| Exportación numérica 2 | **Importante**: Esta opción no está disponible para los grupos de informes habilitados para la nueva arquitectura de clasificación. |
+| Codificación | Seleccione la codificación de caracteres del archivo de datos. El formato de codificación predeterminado es UTF-8.<br>**Importante**: Esta opción no está disponible para los grupos de informes habilitados para la nueva arquitectura de clasificación. |
 | Descargar | Descarga el archivo de plantilla. |
 
 La plantilla incluye las clasificaciones definidas actualmente (encabezamientos de columna) de un conjunto de datos concreto sin incluir los datos asociados con cada clasificación.
