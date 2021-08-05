@@ -4,10 +4,10 @@ subtopic: Classifications
 title: Archivos de datos de clasificación
 feature: Herramientas de administración
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '1771'
-ht-degree: 100%
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
+workflow-type: tm+mt
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
@@ -179,6 +179,9 @@ Las [!UICONTROL clasificaciones] se pueden usar para asignar intervalos de fecha
 
 Para clasificar campañas basadas en intervalos de fechas:
 
+>[!IMPORTANT]
+>Esta opción no está disponible para los grupos de informes habilitados para la nueva arquitectura de clasificación.
+
 1. Inicie sesión en [!DNL Analytics] y vaya a Administración > Clasificaciones.
 1. Haga clic en la ficha **[!UICONTROL Exportación del explorador]**, compruebe que los ajustes de su clasificación habilitada mediante datos son correctos y, a continuación, haga clic en Exportar archivo.
 1. Abra este archivo en Microsoft Excel o cualquier otro editor de hoja de cálculo con el que esté familiarizado.
@@ -202,5 +205,5 @@ Para clasificar campañas basadas en intervalos de fechas:
 
 ## Clasificaciones de resolución de errores
 
-* [Problemas comunes de la carga](https://helpx.adobe.com/es/analytics/kb/common-saint-upload-issues.html): Artículo de la base de conocimiento que describe los problemas que surgen de los formatos de archivo y del contenido de archivo incorrectos.
+* [Problemas comunes de la carga](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Artículo de la base de conocimiento que describe los problemas que surgen de los formatos de archivo y del contenido de archivo incorrectos.
 
