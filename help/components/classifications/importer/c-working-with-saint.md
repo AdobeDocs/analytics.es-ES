@@ -5,10 +5,10 @@ title: Resumen del importador de clasificaciones
 feature: Herramientas de administración
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '147'
-ht-degree: 100%
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 88%
 
 ---
 
@@ -24,4 +24,4 @@ Los datos que se importan con la herramienta correspondiente deben tener un form
 >
 >Adobe recomienda limitar a 30 el número de columnas de importación y exportación.
 
-Consulte [Problemas comunes de la carga de Saint](https://helpx.adobe.com/es/analytics/kb/common-saint-upload-issues.html): Artículo de la base de conocimiento que describe los problemas que surgen de los formatos de archivo y del contenido de archivo incorrectos.
+Consulte [Solución de problemas del importador de clasificaciones](/help/components/classifications/importer/troubleshooting.md). En este tema se describen los problemas que surgen de los formatos de archivo y del contenido de archivo incorrectos.
