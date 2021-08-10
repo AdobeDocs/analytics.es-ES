@@ -2,10 +2,10 @@
 title: products
 description: Enviar datos sobre qué productos se muestran o están en el carro de compras.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
+source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 85%
+source-wordcount: '503'
+ht-degree: 80%
 
 ---
 
@@ -30,10 +30,10 @@ Puede utilizar una de estas extensiones o puede utilizar el editor de código pe
 
 ## “s.products” en el editor de código personalizado de AppMeasurement y 
 
-La variable `s.products` es una cadena que contiene varios campos delimitados por producto. Cada producto individual puede contener hasta 100 bytes en todos los campos. Delimite cada campo con un punto y coma (`;`) en la cadena.
+La variable `s.products` es una cadena que contiene varios campos delimitados por producto. Delimite cada campo con un punto y coma (`;`) en la cadena.
 
-* **Categoría** (opcional): La categoría de producto global. Su organización decide cómo agrupar los productos en categorías.
-* **Nombre** del producto (obligatorio): El nombre del producto.
+* **Categoría** (opcional): La categoría de producto global. Su organización decide cómo agrupar los productos en categorías. La longitud máxima de este campo es de 100 bytes.
+* **Nombre** del producto (obligatorio): El nombre del producto. La longitud máxima de este campo es de 100 bytes.
 * **Cantidad** (opcional): Cuántos de estos productos están en el carro de compras. Este campo solo se aplica a las visitas con el evento de compra.
 * **Precio** (opcional): El precio total del producto como decimal. Si la cantidad es mayor que 1, establezca el precio en el total y no en el precio del producto individual. Alinee la moneda de este valor para que coincida con la variable [`currencyCode`](../config-vars/currencycode.md). No incluya el símbolo de moneda en este campo. Este campo solo se aplica a las visitas con el evento de compra.
 * **Eventos** (opcional): Eventos asociados al producto. Delimite varios eventos con una barra vertical (`|`). Consulte [events](events/events-overview.md) (eventos) para obtener más información.
@@ -44,11 +44,11 @@ La variable `s.products` es una cadena que contiene varios campos delimitados po
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Esta variable admite varios productos en la misma visita. Es útil para un carro de compras y pedidos que incluyen múltiples productos. Aunque hay un límite de 100 bytes por producto, la longitud total de la variable `products` es de 64 000. Separe cada producto con una coma (`,`) en la cadena.
+Esta variable admite varios productos en la misma visita. Es útil para un carro de compras y pedidos que incluyen múltiples productos. La longitud máxima de toda la cadena `products` es de 64 K. Separe cada producto con una coma (`,`) en la cadena.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
+s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
 ```
 
 >[!IMPORTANT]
@@ -99,11 +99,11 @@ s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;e
 Si utiliza la `digitalData` [capa de datos](../../prepare/data-layer.md), puede iterar a través de la matriz de objetos `digitalData.product`:
 
 ```js
-for(var i=0; i<digitalData.product.length; i++) {
+for(var i = 0; i < digitalData.product.length; i++) {
     // Add individual product info to the product string
     s.products += digitalData.product[i].category.primaryCategory + ";" + digitalData.product[i].productInfo.productName;
     // If there are more products, add a comma
-    if(i != digitalData.product.length-1) {
+    if(i != digitalData.product.length - 1) {
         s.products += ",";
     }
 }
