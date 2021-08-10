@@ -3,10 +3,10 @@ title: Actualizaciones de documentación técnica para Adobe Analytics
 description: Actualizaciones importantes en el repositorio de documentación de Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 185ea7f120d918db52233a321dfa629c6bc1c8ee
+source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 71%
+source-wordcount: '1006'
+ht-degree: 69%
 
 ---
 
@@ -23,9 +23,14 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Fecha | Descripción |
 | --- | --- |
+| **Agosto de 2021** |  |
 | 5 de agosto de 2021 | Nuevo tema en [Contar instancias repetidas](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
+| 5 de agosto de 2021 | Se ha actualizado la documentación de clasificaciones en [plantillas](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [importación del explorador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) y [exportación del explorador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) para indicar las opciones que no están disponibles para los grupos de informes que están habilitados para la Nueva arquitectura de clasificación. |
+| 2 de agosto de 2021 | Se han actualizado varias páginas para reflejar el cambio de marca de [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) |
+| **Julio de 2021** |  |
 | 23 de julio de 2021 | Debate en profundidad de [eVars de comercialización](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
 | 15 de julio de 2021 | Se ha añadido nueva documentación en la [página de aterrizaje de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=es) |
+| **Junio de 2021** |  |
 | 15 de junio de 2021 | [Prácticas recomendadas de los canales de marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) actualizadas |
 | 3 de junio de 2021 | Se ha actualizado la documentación para explicar mejor la [Implementación de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en) y [aquí](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl). |
 | 25 de mayo de 2021 | Se ha actualizado la documentación sobre la [Distinción entre mayúsculas y minúsculas del eVar en los informes](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=es). |
@@ -34,6 +39,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 25 de marzo de 2021 | [Actualizaciones de la ](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) API de reparación de datos (filtrado para direcciones URL, cadenas de consulta, signos, etc.) |
 | 25 de marzo de 2021 | Nueva documentación [API de registro de uso](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) |
 | 14 de enero de 2021 | Se ha añadido la opción de selección de idioma de los paneles de Analytics. |
+| **2020** |  |
 | Noviembre de 2020 | Nuevos documentos de revisión de la implementación: <ul><li>[Revisión de la implementación completa](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=es)</li><li>[Revisión de la implementación específica](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=es)</li></ul> |
 | 23 de octubre de 2020 | Se han añadido mejoras a la documentación de los paneles de Adobe Analytics. En el informe de valoración móvil de Workspace, el estilo del informe de valoración ahora coincide con la aplicación. |
 | 17 de septiembre de 2020 | Nueva documentación sobre el [Panel del visualizador simultáneo de medios en Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=es) |
@@ -54,6 +60,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 4 de febrero de 2020 | Reescritura completa de la [guía del usuario de implementación](/help/implement/home.md). |
 | 22 de enero de 2020 | Se ha actualizado la página Tabla improvisada con información sobre el nuevo [Generador de tablas improvisadas](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
 | 13 de enero de 2020 | Se añadieron [Adobe Analytics y las cookies de explorador](/help/technotes/cookies/cookies.md). |
+| **2019** |  |
 | 29 de noviembre de 2019 | Sobrescribir a la [Documentación de datos](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 de noviembre de 2019 | Tema nuevo sobre el [fin de vida útil para aplicar restricciones de inicio de sesión de IP](/help/admin/company/login-restrictions-eol.md). |
 | 21 de noviembre de 2019 | Nuevo conjunto de documentación para [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html). |
@@ -68,9 +75,12 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 18 de julio de 2019 | Se ha actualizado la [configuración de las tablas de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |
 | 4 de junio de 2019 | Nueva guía creada, titulada [Transición de una plataforma de análisis de terceros a Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | 30 de mayo de 2019 | Sobrescribir a la [Referencia de columna de fuente de datos](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
+| 09 de mayo de 2019 | Se agregó una nueva configuración a la configuración de visualización de flujo: Incluir instancias de repetición. Consulte [Configuración de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md) |
+| 11 de abril de 2019 | Mejoras en las prácticas recomendadas de optimización de Workspace: [Optimización del rendimiento](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 11 de abril de 2019 | Actualizaciones para [optimizar el rendimiento de Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | 14 de marzo de 2019 | Actualización principal de la [recopilación de datos regionales](/help/technotes/rdc/regional-data-collection.md). |
 | 7 de febrero de 2019 | Pequeña actualización de los ajustes &quot;Reemplazar el último octeto de direcciones IP por 0&quot; y &quot;Ofuscación IP&quot; en [Configuración general de la cuenta](/help/admin/admin/general-acct-settings-admin.md). |
 | 1 de febrero de 2019 | Actualización importante del complemento de implementación [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
-| 17 de enero de 2019 | Nueva configuración de proyecto en Analysis Workspace, [Ver densidad](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). |
-| 17 de enero de 2019 | Actualización principal de [Análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md). |
+| 17 de enero de 2019 | [Análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) : Las principales mejoras realizadas en Análisis de cohorte le permiten:<ul><li>Aplicar una inclusión de segmento y devolver métricas por separado. </li><li>Mostrar la pérdida en lugar de la retención.</li><li>Mostrar tablas de latencia (tiempo transcurrido antes y después de un evento de inclusión).</li><li>Personalizar la dimensión de cohorte (para agrupar visitantes en función de una eVar, no solo el tiempo).</li><li>Cálculo de cohorte móvil: calcule la retención y la pérdida en función de un período de tiempo previo, no de la cohorte original. </li><li>Añada múltiples métricas en campos de inclusión y devolución, y aplique segmentos. (No se admiten las métricas calculadas)</li></ul> |
+| 17 de enero de 2019 | [Ver densidad](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). Esta nueva configuración le permite ver más datos en una sola pantalla al reducir el margen vertical del carril izquierdo, las tablas improvisada y las tablas de cohorte. Puede acceder a ella desde Proyecto > Info y configuración del proyecto. |
+| 17 de enero de 2019 | [Compatibilidad con variables de diversos valores en Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). Algunas dimensiones en Analytics pueden contener múltiples valores en una sola visita, como listVars, la variable de producto, las props de lista o eVars de merchandising. Analysis Workspace permite aplicar Attribution IQ a cualquiera de estos tipos de variables en el nivel de visita. |
