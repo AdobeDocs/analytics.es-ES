@@ -5,14 +5,17 @@ title: Novedades en Analysis Workspace
 feature: Conceptos básicos de Workspace
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 27b04baf5fff026261468678f4b1c49756b4636c
 workflow-type: tm+mt
-source-wordcount: '8276'
-ht-degree: 100%
+source-wordcount: '8290'
+ht-degree: 99%
 
 ---
 
 # Novedades en Analysis Workspace
+
+>[!IMPORTANT]
+>Se han incluido más actualizaciones de Analysis Workspace en la página [Actualizaciones de documentación de Adobe Analytics](/help/landing/doc-updates.md).
 
 Para acceder a las Notas de la versión de Adobe Experience Cloud en su conjunto, vaya [aquí](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
 
