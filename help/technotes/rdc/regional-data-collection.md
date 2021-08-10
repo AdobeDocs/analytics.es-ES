@@ -2,10 +2,9 @@
 title: Recopilación de datos regionales
 description: Información sobre la recopilación de datos regionales
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '475'
+source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
+workflow-type: tm+mt
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
@@ -49,7 +48,6 @@ Nota: Experience Edge Global ofrece el mejor rendimiento para los usuarios final
 | Ventaja | Descripción |
 | --- | --- |
 | Rendimiento | Con la recopilación de datos regionales, los visitantes se conectan al centro de recogida de datos más cercano. Esto proporciona el tiempo de respuesta más rápido, lo que da como resultado un seguimiento más preciso y tiempos de carga más rápidos. |
-| Redundancia | En caso de que se interrumpa la comunicación con un DCC, la recopilación de datos se envía automáticamente al DCC más cercano, lo que garantiza la continuidad del servicio. |
 | Redundancia | En caso de que se interrumpa la comunicación entre el centro de recogida de datos y el centro de procesamiento de datos, la infraestructura de recopilación de datos regionales de Adobe guarda los datos localmente y los reenvía al centro de procesamiento de datos cuando se restauran las comunicaciones. |
 
 ## Funcionamiento de la recopilación de datos regionales (RDC)
