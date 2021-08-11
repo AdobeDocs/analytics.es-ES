@@ -3,15 +3,15 @@ description: Las clasificaciones sirven para clasificar los valores en grupos e 
 title: Clasificaciones de conversión
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 source-git-commit: fa12c51be5d0f788dbdaacfbd36504d1cda92a58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Clasificaciones de conversión
 
-Las clasificaciones sirven para clasificar los valores en grupos e informar a nivel del grupo. Por ejemplo, puede clasificar todas las campañas de [!UICONTROL Búsqueda paga] en una categoría como *términos de música pop* e informar sobre el éxito de esa categoría en relación a métricas como Instancias (pulsaciones) y la conversión a eventos de éxito. Puede agregar hasta 255 clasificaciones a una variable.
+Las clasificaciones sirven para clasificar los valores en grupos e informar a nivel del grupo. Por ejemplo, puede clasificar todas las campañas de [!UICONTROL Búsqueda de pago] en una categoría como *términos de música pop* e informar sobre el éxito de esa categoría en relación con métricas como instancias (clics) y conversión a eventos de éxito. Puede añadir hasta 255 clasificaciones a una variable.
 
 Las clasificaciones de conversión permiten clasificar variables de conversión. Una vez clasificado, cualquier informe que se pueda generar con los datos clave también se puede generar con las propiedades de datos asociadas.
 
