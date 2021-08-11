@@ -5,7 +5,7 @@ feature: Herramientas de IA
 role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Tras la selección de modelo, a continuación, el modelo ajusta los resultados e
 * Ciberlunes
 * 24 al 26 de diciembre
 * Enero de 1
-* 31 de diciembre
+* Diciembre de 31
 
 Estos festivos se han seleccionado en base a un análisis estadístico exhaustivo de muchos puntos de datos de clientes para identificar los festivos más relevantes en el mayor número de tendencias de clientes. Aunque la lista no es completa para todos los ciclos de cliente o de negocio, hemos observado que la aplicación de estos festivos mejora significativamente el rendimiento del algoritmo en general para casi todos los conjuntos de datos de clientes.
 
