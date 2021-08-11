@@ -6,7 +6,7 @@ feature: Visualizaciones
 role: User, Admin
 exl-id: 12a358b4-4f8e-4201-9f97-5c07c91f301e
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 | Centrarse en este nodo | Cambia el interés al nodo seleccionado. El nodo de interés aparece en el centro del diagrama de flujo. |
 | Volver a empezar | Le hace regresar al generador de diagramas improvisados, donde puede crear un nuevo diagrama de flujo. |
 | Crear segmento desde este punto del flujo | Creación de segmentos. Esto le lleva al Generador de segmentos, donde puede configurar el nuevo segmento. |
-| Desglosar | Desglosa el nodo mediante las dimensiones, métricas o tiempo disponibles. |
+| Desglose | Desglosa el nodo mediante las dimensiones, métricas o tiempo disponibles. |
 | Tendencia | Crea un diagrama de tendencia para el nodo. |
 | Expandir toda la columna | Expande una columna para mostrar todos los nodos. De forma predeterminada, únicamente se muestran los cinco nodos principales. |
 | Contraer toda la columna | Oculta todos los nodos de una columna. |
