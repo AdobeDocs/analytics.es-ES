@@ -5,7 +5,7 @@ feature: Conceptos básicos de Workspace
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 | Alt + Mayús + 1 / 2 / 3 | Saltar a diferentes carriles: [!UICONTROL Paneles], [!UICONTROL Visualizaciones] o [!UICONTROL Componentes] |
 | Alt + flecha izquierda/derecha | Desplazamiento entre paneles |
 | Alt + M | Contraer/Expandir todos los paneles |
-| Alt + Ctrl + M | Contraer/Expandir panel activo |
+| Alt + Ctrl + M | Contraer/Expandir el panel activo |
 | Ctrl + / | Buscar carril izquierdo |
 
 #### Creación de análisis
