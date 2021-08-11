@@ -6,7 +6,7 @@ feature: Tablas improvisadas
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Puede editar la configuración **de varias columnas a la vez**. Basta con selecc
 | Formato condicional | Consulte la siguiente sección. |
 | Vista previa de celdas de tabla | Muestra una vista previa del aspecto de cada una de las celdas con las opciones de formato seleccionadas actualmente aplicadas. |
 
-## Aplicación de formato condicional {#conditional-formatting}
+## Formato condicional {#conditional-formatting}
 
 El formato condicional aplica formato que puede definir a los límites superior, medio e inferior. La aplicación de formato condicional (colores, etc.) en tablas de forma libre también está activada automáticamente en los desgloses, a menos que los límites “Personalizados” estén seleccionados.
 
