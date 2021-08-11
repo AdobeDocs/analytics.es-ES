@@ -2,7 +2,7 @@
 title: Adobe Analytics y cookies de explorador
 description: Descubra cómo las medidas de prevención de seguimiento afectan a las cookies de terceros y de origen configuradas por Adobe Analytics.
 source-git-commit: 2a0cc52664bbeaae66d6160d74fad4840bf692b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1985'
 ht-degree: 100%
 
@@ -50,9 +50,9 @@ Las políticas de ITP evolucionan con frecuencia. Para ver las políticas más r
 
 Todas las cookies de origen configuradas por Adobe y las bibliotecas de JavaScript relacionadas se ven afectadas por las políticas de ITP:
 
-* [cookies &quot;AMCV&quot; ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) establecidas por la biblioteca del servicio de ECID (Adobe Experience Cloud ID)
+* [cookies &quot;AMCV&quot; ](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es) establecidas por la biblioteca del servicio de ECID (Adobe Experience Cloud ID)
 * La [cookie &quot;s_vi&quot;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=es) heredada de Analytics cuando se configura con la recopilación de datos de origen mediante un CNAME
-* La cookie [&quot;s_fid&quot; heredada de Analytics](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), que es la cookie de reserva que se usa cuando &quot;s_vi&quot; no se puede configurar
+* La cookie [&quot;s_fid&quot; heredada de Analytics](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=es), que es la cookie de reserva que se usa cuando &quot;s_vi&quot; no se puede configurar
 
 #### ¿Cuál es el impacto de ITP en Safari para Analytics?
 
@@ -73,7 +73,8 @@ Si estas limitaciones afectan a sus datos, verá esto:
 
 Los sitios web que visitan los usuarios no crean cookies de terceros.
 
-Aunque los exploradores tratan todas las cookies de terceros de la misma manera y las almacenan en consecuencia, las cookies de terceros pueden comportarse de manera diferente e importante. Con la implementación de cookies de terceros de Analytics de un cliente, los navegadores almacenan el ID de Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es) como una cookie de terceros, pero el cliente solo realiza llamadas de Adobe y no a dominios de terceros desconocidos o sospechosos. Esta cookie proporciona identificadores persistentes entre dominios y permite el uso de contenido seguro (https). Para obtener más información, consulte [Cookies y el servicio de identidad de Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Aunque los exploradores tratan todas las cookies de terceros de la misma manera y las almacenan en consecuencia, las cookies de terceros pueden comportarse de manera diferente e importante. Con la implementación de cookies de terceros de Analytics de un cliente, los navegadores almacenan el ID de Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es) como una cookie de terceros, pero el cliente solo realiza llamadas de Adobe y no a dominios de terceros desconocidos o sospechosos. Esta cookie proporciona identificadores persistentes entre dominios y permite el uso de contenido seguro (https). Para obtener más información, consulte [Cookies y el servicio de identidad de Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es
+).
 
 Dentro de las implementaciones de Analytics, las cookies de terceros se utilizan para el seguimiento entre dominios y para casos de uso de publicidad, incluida la resegmentación de anuncios. Las cookies de terceros le permiten identificar a los visitantes a medida que visitan diferentes dominios de su propiedad o a medida que se muestran anuncios en sitios que no son de su propiedad.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
