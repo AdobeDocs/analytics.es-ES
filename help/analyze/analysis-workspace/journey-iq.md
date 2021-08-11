@@ -5,13 +5,13 @@ feature: Herramientas de IA
 role: User, Admin
 exl-id: dcc56996-625d-4179-bd58-f0dc1241ad57
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
 ht-degree: 100%
 
 ---
 
-# IQ de recorrido
+# Journey IQ
 
 Journey IQ es un conjunto de funciones que proporcionan visualizaciones y configuraciones fáciles de usar y totalmente personalizables para comprender mejor la experiencia del cliente. Permite medir cada punto de contacto en el recorrido del cliente, incluso a través de los canales. Utilice estas funciones para comprender mejor dónde volver a atraer a los clientes, mantenerlos fieles y personalizar sus experiencias a lo largo del recorrido.
 
