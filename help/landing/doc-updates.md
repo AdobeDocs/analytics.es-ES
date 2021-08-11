@@ -3,10 +3,10 @@ title: Actualizaciones de documentación técnica para Adobe Analytics
 description: Actualizaciones importantes en el repositorio de documentación de Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 5d10cf7728d63f7d772061b2e917ba6332bacf3c
+source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
 workflow-type: tm+mt
-source-wordcount: '2845'
-ht-degree: 68%
+source-wordcount: '2930'
+ht-degree: 65%
 
 ---
 
@@ -24,7 +24,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | --- | --- |
 | **Agosto de 2021** |  |
 | 5 de agosto de 2021 | Nuevo tema en [Contar instancias repetidas](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
-| 5 de agosto de 2021 | Se ha actualizado la documentación de clasificaciones en [plantillas](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [importación del explorador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) y [exportación del explorador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) para indicar las opciones que no están disponibles para los grupos de informes que están habilitados para la Nueva arquitectura de clasificación. |
+| 5 de agosto de 2021 | Se ha actualizado la documentación de clasificaciones en [plantillas](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [importación del explorador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) y [exportación del explorador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) para indicar que no hay opciones disponibles para los grupos de informes que están habilitados para la Nueva arquitectura de clasificación. |
 | 2 de agosto de 2021 | Se han actualizado varias páginas para reflejar el cambio de marca de [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) |
 | **Julio de 2021** |  |
 | 23 de julio de 2021 | Debate en profundidad de [eVars de comercialización](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
@@ -41,10 +41,10 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 25 de marzo de 2021 | [Actualizaciones de la ](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) API de reparación de datos (filtrado para direcciones URL, cadenas de consulta, signos, etc.) |
 | 25 de marzo de 2021 | Nueva documentación [API de registro de uso](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) |
 | **Febrero de 2021** |  |
-| 4 de febrero de 2021 | Selección de componentes: El componente de zona desplegable/desplegable que se encuentra en [!UICONTROL Quick Insights] se agregará a todas las zonas de colocación en [!UICONTROL Workspace]. Esta mejora le permite elegir de una lista desplegable de componentes compatibles o continuar utilizando el espacio como zona de colocación. |
+| 4 de febrero de 2021 | Selección de componentes: El componente de zona desplegable/desplegable que se encuentra en [!UICONTROL Quick Insights] se ha agregado a todas las zonas de colocación en [!UICONTROL Workspace]. Esta mejora le permite elegir entre una lista desplegable de componentes compatibles o seguir utilizando el espacio como zona de colocación. |
 | **Enero de 2021** |  |
-| 14 de enero de 2021 | Se ha añadido la opción de selección de idioma de los paneles de Analytics. |
-| 14 de enero de 2021 | Documentación sobre cómo agregar imágenes a proyectos de Workspace haciendo referencia a una URL de imagen pública. |
+| 14 de enero de 2021 | Se ha añadido la opción de selección de idioma a la documentación de paneles de Analytics. |
+| 14 de enero de 2021 | Se ha añadido documentación sobre cómo agregar imágenes a proyectos de Workspace haciendo referencia a una URL de imagen pública. |
 | 14 de enero de 2021 | Administrador combinado de fuentes y configuraciones para visualizaciones de Workspace: El administrador de [!UICONTROL fuentes de datos] (punto) y el administrador de configuración (engranaje) de las visualizaciones se han combinado en una sola ventana, de modo que pueda administrar fácilmente la fuente y la configuración desde la misma ubicación. |
 | **Diciembre de 2020** |  |
 | 7 de diciembre de 2020 | Se han modificado todas las páginas relevantes para incluir o sustituir el punto final &quot;adobedc.net&quot;. |
@@ -110,14 +110,20 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 13 de enero de 2020 | Se añadieron [Adobe Analytics y las cookies de explorador](/help/technotes/cookies/cookies.md). |
 | 13 de enero de 2020 | Se ha modificado la página [Qué herramienta de Adobe Analytics debo usar](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=en). |
 | **2019** |  |
+| 19 de diciembre de 2020 | Se ha cambiado el [límite predeterminado de almacenamiento de datos de FTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en) a 10 GB. |
 | 29 de noviembre de 2019 | Sobrescribir a la [Documentación de datos](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 de noviembre de 2019 | Tema nuevo sobre el [fin de vida útil para aplicar restricciones de inicio de sesión de IP](/help/admin/company/login-restrictions-eol.md). |
 | 21 de noviembre de 2019 | Nuevo conjunto de documentación para [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html). |
+| 21 de noviembre de 2019 | Se ha actualizado [Audience Analytics Workflow FAQ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en) para indicar la disponibilidad en LiveStream. |
+| 25 de octubre de 2019 | Se ha actualizado la página [Conceptos clave de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html?lang=en). |
 | 10 de octubre de 2019 | Actualizar a totales de tabla improvisada: ahora incluyen dos totales, un **[!UICONTROL Total de tabla]** y un **[!UICONTROL Total general]**. La fila Total de la tabla cuenta los [filtros de informe](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=es) aplicados. Anteriormente, solo la segmentación afectaba a los totales. [Obtenga más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=es)<br/>Además, se han agregado las opciones **[!UICONTROL Mostrar totales]** y **[!UICONTROL Mostrar total general]** a la **[!UICONTROL Configuración de columna]**.<br/>Con este cambio a los totales de forma libre, se actualizarán las visualizaciones dependientes (por ejemplo, las visualizaciones de **[!UICONTROL Número de resumen]** vinculadas), así como los datos CSV y PDF exportados. |
 | Octubre de 10,2019 | En Workspace, se ha añadido la capacidad de eliminar fácilmente &quot;No especificado (Ninguno)&quot; como opción para informar de los filtros. |
-| Octubre de 10,2019 | En Workspace, los componentes de granularidad morados (Minuto, Hora, Día, Semana, Mes, Trimestre, Año) han quedado obsoletos. Los componentes de hora morados siempre se han comportado exactamente como sus equivalentes de dimensión naranjas, por lo que este cambio simplificará la experiencia. No es necesario realizar **ninguna acción** si ha utilizado uno de los componentes de tiempo morados en el pasado.<br/>Con este cambio, se ha cambiado de nombre la sección morada **[!UICONTROL Hora]** a **[!UICONTROL Intervalos de fecha]**. |
+| Octubre de 10,2019 | En Workspace, los componentes de granularidad morados (Minuto, Hora, Día, Semana, Mes, Trimestre, Año) quedaron obsoletos. No es necesario realizar **ninguna acción** si ha utilizado uno de los componentes de tiempo morados en el pasado.<br/>Con este cambio, se ha cambiado de nombre la sección morada **[!UICONTROL Hora]** a **[!UICONTROL Intervalos de fecha]**. |
+| 1 de octubre de 2019 | Nuevo artículo sobre [Totales de Workspace](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace?lang=en). |
 | 28 de septiembre de 2019 | Nuevos artículos sobre [variables de configuración para la implementación de Javascript](/help/implement/vars/config-vars/configuration-variables.md). |
+| 19 de septiembre de 2019 | Se ha revisado la documentación de segmentación para explicar los [contenedores de grupo lógico](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=en#logic-group-containers). |
 | 12 de septiembre de 2019 | Nueva documentación para [Journey IQ: Análisis entre dispositivos](/help/components/cda/overview.md). |
+| 12 de septiembre de 2019 | Actualizar el documento [Totales de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=en). |
 | 28 de agosto de 2019 | Nuevo artículo sobre [aplicaciones web progresivas (PWA) para Analytics](/help/analyze/pwa/pwa.md) |
 | 8 de agosto de 2019 | Nuevo artículo sobre [Totales de métricas calculadas](/help/components/c-calcmetrics/cm-totals.md). |
 | 8 de agosto de 2019 | Aclaración sobre [datos de sesión con marca de tiempo habilitada](/help/admin/admin/timestamp-optional.md). | 8 de agosto de 2019 | En Workspace, el Adobe aumentó el límite de elementos que se pueden colocar en un filtro desplegable de 50 a 200. Esta mejora admite una variedad de casos de uso, como agregar todos los países (195) a un filtro, o todos los estados y provincias de EE. UU. (52). |
