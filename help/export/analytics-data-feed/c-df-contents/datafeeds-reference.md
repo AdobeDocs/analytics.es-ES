@@ -6,9 +6,9 @@ title: Referencia de columnas de datos
 feature: Conceptos básicos de Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
 workflow-type: tm+mt
-source-wordcount: '3409'
+source-wordcount: '3407'
 ht-degree: 99%
 
 ---
@@ -85,8 +85,8 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `hier1 - hier5` | Se utiliza por variables de jerarquía. Contiene una lista delimitada de valores. El delimitador se selecciona en virtud de la configuración del grupo de informes. | varchar(255) |
 | `hit_source` | Indica la fuente de la que provino la visita. Se facturan las fuentes de visitas 1, 2 y 6. <br>1: Solicitud de imagen estándar sin marca de tiempo <br>2: Solicitud de imagen estándar con marca de tiempo <br>3: Carga de la fuente de datos activa con marcas de tiempo<br>4: Sin usar <br>5: Carga genérica de la fuente de datos <br>6: Carga completa de la fuente de datos de procesamiento <br>7: Carga del origen de datos TransactionID <br>8: Ya no se utiliza; versiones anteriores de las fuentes de datos de Adobe Advertising Cloud <br>9: Ya no se utiliza; métricas resumen de Adobe Social <br>10: Envío del lado del servidor de Audience Manager utilizado | tinyint sin firmar |
 | `hit_time_gmt` | La marca de tiempo de los servidores de recopilación de datos de visitas de Adobe que recibieron la visita, basada en la hora Unix. | int |
-| `hitid_high` | Se utiliza en combinación con `hitid_low` para identificar una visita de forma exclusiva. | bigint sin firmar |
-| `hitid_low` | Se utiliza en combinación con `hitid_high` para identificar una visita de forma exclusiva. | bigint sin firmar |
+| `hitid_high` | Se utiliza en combinación con `hitid_low` para identificar una visita. | bigint sin firmar |
+| `hitid_low` | Se utiliza en combinación con `hitid_high` para identificar una visita. | bigint sin firmar |
 | `homepage` | Ya no se utiliza. Indicaba si la URL actual es la página de inicio del explorador. | char(1) |
 | `hourly_visitor` | Un indicador que determina si la visita es un visitante nuevo por hora. | tinyint sin firmar |
 | `ip` | Dirección IP basada en la cabecera HTTP de la solicitud de imagen. | char(20) |
