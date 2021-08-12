@@ -2,11 +2,10 @@
 title: Información general de dimensiones
 description: Variables que contienen valores de cadena.
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '108'
-ht-degree: 100%
+source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 85%
 
 ---
 
@@ -23,3 +22,9 @@ Por ejemplo, si combina la dimensión “Página” con la métrica “Visitas�
 | `Purchase page` | `100` |
 
 Cada dimensión representa una parte o faceta diferente del sitio. Puede combinar una o más de estas dimensiones con una o más métricas para crear un informe deseado.
+
+## Agregar descripciones de dimensión
+
+Este es un vídeo que describe cómo agregar descripciones de dimensiones (y métricas) en Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
