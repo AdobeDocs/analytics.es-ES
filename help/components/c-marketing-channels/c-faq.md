@@ -1,8 +1,8 @@
 ---
 title: Preguntas más frecuentes sobre los canales de marketing
 description: Preguntas más frecuentes sobre los canales de marketing.
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: ht
+source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
+workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 100%
 
@@ -24,21 +24,21 @@ Preguntas más frecuentes sobre los canales de marketing.
 
 ## Los dominios de referencia contienen más datos de lo que tenía previsto.
 
-* Es posible que los dominios de referencia estén demasiado arriba en la lista de reglas de procesamiento. Dicho conjunto de reglas debería ser uno de los últimos (o el último): el orden de procesamiento es importante.
+Es posible que los dominios de referencia estén demasiado arriba en la lista de reglas de procesamiento. Dicho conjunto de reglas debería ser uno de los últimos (o el último): el orden de procesamiento es importante.
 
 ## He creado una regla que concuerda con un parámetro de cadena de consulta y que no funciona.
 
-* Compruebe que el nombre del parámetro esté especificado en los campos del parámetro de la cadena de consulta (normalmente, un valor alfanumérico). Asegúrese, también, de que el valor del parámetro se especifica después del operador, como se muestra en el siguiente ejemplo de regla de correo electrónico.
+Compruebe que el nombre del parámetro esté especificado en los campos del parámetro de la cadena de consulta (normalmente, un valor alfanumérico). Asegúrese, también, de que el valor del parámetro se especifica después del operador, como se muestra en el siguiente ejemplo de regla de correo electrónico.
 
-   ![](assets/example_email.png)
+![](assets/example_email.png)
 
 ## ¿Por qué se atribuye todo mi tráfico de último contacto a un dominio interno?
 
-* Hay una regla que concuerda con el tráfico interno. Recuerde que estas reglas se procesan con cada visita que el visitante haga al sitio, y no solo con la primera visita. Si tiene alguna regla similar a *`Page URL exists`* sin ningún otro criterio, con cada visita sucesiva a su sitio web, se encuentran coincidencias con ese canal, porque siempre existe una URL de página.
+Hay una regla que concuerda con el tráfico interno. Recuerde que estas reglas se procesan con cada visita que el visitante haga al sitio, y no solo con la primera visita. Si tiene alguna regla similar a *`Page URL exists`* sin ningún otro criterio, con cada visita sucesiva a su sitio web, se encuentran coincidencias con ese canal, porque siempre existe una URL de página.
 
 ## ¿Cómo se depura el tráfico que se muestra en No se ha identificado el canal, en el informe?
 
-* Las reglas se procesan en orden. Si no se encuentra ninguna concordancia con un criterio específico, las visitas caen en una de estas tres categorías:
+Las reglas se procesan en orden. Si no se encuentra ninguna concordancia con un criterio específico, las visitas caen en una de estas tres categorías:
 
 1. Sin referente (visita directa).
 
