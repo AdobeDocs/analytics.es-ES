@@ -3,10 +3,10 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2132'
-ht-degree: 100%
+source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+workflow-type: tm+mt
+source-wordcount: '2171'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,12 @@ Recopilación de notas de versiones de [!DNL AppMeasurement] para JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Puede descargar la versión más reciente de AppMeasurement en el [Administrador de códigos](/help/admin/admin/code-manager-admin.md).
+
+## Versión 2.22.1
+
+Fecha de versión: **12 de agosto de 2021**
+
+* Es posible que los clientes que utilizan la exclusión hayan visto que los parámetros de exclusión del reenvío del lado del servidor no se respetan al rastrear vínculos. Las correcciones de esta versión hacen que los indicadores de exclusión se envíen si están presentes al rastrear vínculos.
 
 ## Versión 2.22.0
 
@@ -425,7 +431,7 @@ Fecha de versión: **15 de noviembre de 2013**
 Fecha de versión: **14 de noviembre de 2013**
 
 * Se ha agregado compatibilidad con la [medición de vídeos de Heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
-* `VisitorAPI.js` se ha incluido para admitir el [servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
+* `VisitorAPI.js` se ha incluido para admitir el [servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Versión 1.1.1
 
