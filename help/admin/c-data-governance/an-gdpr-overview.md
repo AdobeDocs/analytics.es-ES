@@ -3,10 +3,10 @@ description: En este documento se describe lo que debe hacer en Adobe Analytics 
 title: Adobe Analytics y el RGPD
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 97%
 
 ---
 
@@ -54,3 +54,9 @@ Consulte [Etiquetado de datos de grupos de informes](/help/admin/c-data-governan
    >Adobe Analytics no puede ayudarle con el tratamiento de solicitudes en la API del RGPD (es decir, el tratamiento de las solicitudes de acceso o eliminación que reciba de sus usuarios finales) si no se ha establecido el periodo de retención de datos en Adobe Analytics. Póngase en contacto con su gestor de éxito de los clientes para establecer el periodo de retención de datos.
 
 * Compruebe sus permisos: para utilizar la interfaz de gestión del control de datos en Adobe Analytics, debe ser administrador de Adobe Analytics.
+
+## AdobePrivacyJS: Resolución de identidades del lado del cliente para solicitudes de RGPD
+
+A continuación se muestra un vídeo introductorio sobre este tema:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)
