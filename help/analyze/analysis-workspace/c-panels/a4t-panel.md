@@ -4,16 +4,20 @@ title: Panel de Analytics for Target (A4T)
 feature: Paneles
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1090'
-ht-degree: 100%
+source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+workflow-type: tm+mt
+source-wordcount: '1101'
+ht-degree: 99%
 
 ---
 
 # Panel de Analytics for Target (A4T)
 
 El panel Analytics for Target (A4T) le permite analizar las actividades y experiencias de Adobe Target en Analysis Workspace. También le permite ver el alza y la confianza hasta en 3 métricas de éxito. Para acceder al panel de A4T, vaya a un grupo de informes con componentes de A4T activados. A continuación, haga clic en el icono del panel situado en el extremo izquierdo y arrastre el panel Analytics for Target a su proyecto de Analysis Workspace.
+
+A continuación se muestra un breve vídeo introductorio del panel A4T:
+
+>[!VIDEO](https://video.tv.adobe.com/v/37247/?quality=12)
 
 ## Entradas de panel {#Input}
 
@@ -60,8 +64,8 @@ Como con cualquier panel de Analysis Workspace, puede continuar con el análisis
 | ¿Qué tipos de actividad se admiten en A4T? | [Obtenga más información](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html?lang=es) sobre los tipos de actividad admitidos. |
 | ¿Se admiten las métricas calculadas en los cálculos de alza y confianza? | No. [Obtenga más información](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html?lang=es) sobre por qué las métricas calculadas no son compatibles con el alza y la confianza. Sin embargo, las métricas calculadas pueden utilizarse en sistemas de informes de A4T fuera de estas métricas. |
 | ¿Por qué los visitantes únicos varían entre Target y Analytics? | [Obtenga más información](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=es) sobre las variaciones de visitantes únicos entre productos. |
-| Cuando se aplica un segmento de visita para una actividad de Target específica en mi análisis, ¿por qué se devuelven experiencias no relacionadas? | La dimensión de A4T es una variable de lista, lo que significa que puede contener muchas actividades (y experiencias) a la vez. [Más información](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=es) |
-| ¿La métrica de confianza representa los pedidos extremos o aplica una corrección de Bonferroni para varias ofertas? | No. [Obtenga más información](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html?lang=es) sobre cómo Analytics calcula la confianza. |
+| Cuando se aplica un segmento de visita para una actividad de Target específica en mi análisis, ¿por qué se devuelven experiencias no relacionadas? | La dimensión de A4T es una variable de lista, lo que significa que puede contener muchas actividades (y experiencias) a la vez. [Más información](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| ¿La métrica de confianza representa los pedidos extremos o aplica una corrección de Bonferroni para varias ofertas? | No. [Obtenga más información](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre cómo Analytics calcula la confianza. |
 | ¿Pueden utilizarse métricas de alza y confianza con otras dimensiones o desgloses? | El alza y la confianza son “métricas bloqueadas” a la dimensión de experiencias de Target, porque requieren un control y una variante para calcularlas. De este modo, no pueden desglosarse ni utilizarse con otras dimensiones. |
 | ¿Cuándo se vuelven a calcular el alza y la confianza? | La elevación y la confianza se vuelven a calcular cada vez que se ejecuta (o se vuelve a ejecutar) el panel, su intervalo de fechas cambia o se aplica un segmento al panel o la tabla. Al aplicar un filtro de segmento a la tabla improvisada, debe aplicarse en todas las columnas, o la elevación y la confianza no se actualizarán correctamente. Los segmentos de nivel de columna no son compatibles en este momento. |
 
