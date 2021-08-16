@@ -4,10 +4,10 @@ title: Panel de información rápida
 feature: Paneles
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1049'
-ht-degree: 100%
+source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 99%
 
 ---
 
@@ -27,6 +27,10 @@ Para ayudarle con esto, y en función del uso que haga su propia compañía de l
 * Conocer la terminología y el vocabulario para componentes básicos y partes de [!UICONTROL Analysis Workspace].
 * Realizar desgloses simples de dimensiones, agregar varias métricas o comparar segmentos fácilmente dentro de una [!UICONTROL tabla improvisada].
 * Cambiar o probar varios tipos de visualización para encontrar la herramienta de búsqueda para su análisis de forma rápida e intuitiva.
+
+A continuación se muestra un vídeo introductorio del panel [!UICONTROL Quick Insights]:
+
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Terminología clave básica
 
