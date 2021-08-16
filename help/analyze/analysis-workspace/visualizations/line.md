@@ -5,20 +5,20 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizaciones
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 88%
 
 ---
 
 # Líneas
 
-La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión.
+La visualización [!UICONTROL Línea] representa las métricas usando una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de [!UICONTROL Línea] solo se puede usar cuando el tiempo se utiliza como dimensión.
 
 ![Visualización de líneas](assets/line-viz.png)
 
-Haga clic en el icono del engranaje en la parte superior derecha de la Visualización de líneas para acceder a la [**Configuración de la visualización**](freeform-analysis-visualizations.md) disponible. La configuración se clasifica en:
+Haga clic en el icono del engranaje en la parte superior derecha de la visualización [!UICONTROL Línea] para acceder a [**Configuración de visualización**](freeform-analysis-visualizations.md) disponible. La configuración se clasifica en:
 
 * **General**: Configuración común en los tipos de visualización
 * **Eje**: Configuración que afecta al eje x o y de la visualización de líneas
@@ -39,6 +39,10 @@ En **[!UICONTROL Configuración de la visualización]** > **[!UICONTROL Superpos
 ## Mostrar superposición de la línea de tendencia
 
 En **[!UICONTROL Configuración de la visualización]** > **[!UICONTROL Superposiciones]** > **[!UICONTROL Mostrar línea de tendencia]**, puede elegir añadir una línea de tendencia de regresión o promedio móvil a la serie de líneas. Las líneas de tendencia ayudan a mostrar un patrón más claro en los datos.
+
+Aquí tiene un vídeo sobre cómo añadir líneas de tendencia a las visualizaciones de Línea:
+
+>[!VIDEO](https://video.tv.adobe.com/v/330176/?quality=12)
 
 >[!TIP]
 >
