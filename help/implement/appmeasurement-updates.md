@@ -3,7 +3,7 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 376b577211f927be5a896c2a20c8a2fc55437b85
 workflow-type: tm+mt
 source-wordcount: '2171'
 ht-degree: 98%
@@ -20,7 +20,7 @@ Puede descargar la versión más reciente de AppMeasurement en el [Administrador
 
 ## Versión 2.22.1
 
-Fecha de versión: **12 de agosto de 2021**
+Fecha de versión: **17 de agosto de 2021**
 
 * Es posible que los clientes que utilizan la exclusión hayan visto que los parámetros de exclusión del reenvío del lado del servidor no se respetan al rastrear vínculos. Las correcciones de esta versión hacen que los indicadores de exclusión se envíen si están presentes al rastrear vínculos.
 
