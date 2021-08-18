@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Ayude a organizar los datos usando componentes como segmentos, métricas calculadas, grupos de informes virtuales y alertas.
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
+source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 99%
+source-wordcount: '649'
+ht-degree: 98%
 
 ---
 
@@ -195,10 +195,11 @@ ht-degree: 99%
       + [Totales de métricas calculadas](c-calcmetrics/cm-totals.md)
 + Grupos de informes virtuales {#virtual-report-suites}
    + [Resumen de los grupos de informes virtuales](vrs/vrs-about.md)
-   + [Revisión de componentes de grupo de informes virtuales](vrs/vrs-components.md)
+   + [Grupo de informes virtuales: revisión de componentes](vrs/vrs-components.md)
    + [Compatibilidad con VRS en Mobile Services](vrs/vrs-mobile-services.md)
    + [Sesiones según el contexto](vrs/vrs-mobile-visit-processing.md)
    + [Procesamiento de tiempo de los informes](vrs/vrs-report-time-processing.md)
+   + [Consideraciones de A4T](vrs/vrs-a4t.md)
    + [Preguntas frecuentes sobre VRS](vrs/vrs-faq.md)
    + [Información importante sobre el etiquetado de grupos múltiples y globales](vrs/vrs-considerations.md)
    + Flujo de trabajo VRS {#vrs-workflow}
