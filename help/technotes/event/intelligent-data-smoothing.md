@@ -3,7 +3,7 @@ title: Suavizado de datos inteligente
 description: Descubra cómo el suavizado de datos inteligente analiza las tendencias históricas para predecir el valor de cualquier métrica dentro de un período de tiempo afectado.
 feature: Herramientas de IA
 role: User, Admin
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 5%
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 En raras ocasiones, algunos factores pueden afectar a la calidad de los datos. El tráfico de bots, los cambios de implementación o las interrupciones del servicio pueden afectar a la integridad de los datos recopilados. También complican el análisis sobre cómo el evento puede haber afectado a la integridad de los datos.
 
-El suavizado de datos inteligente es un prototipo en [Analytics Labs](/help/analyze/tech-previews/overview.md) que puede ayudar a completar esta vista analizando tendencias históricas para predecir el valor de cualquier métrica dentro del período de tiempo afectado. El prototipo aplica algoritmos avanzados de aprendizaje automático para trazar los valores esperados para las métricas durante el período de tiempo que se analiza.
+El suavizado de datos inteligente es un prototipo en [Analytics Labs](/help/analyze/labs.md) que puede ayudar a completar esta vista analizando tendencias históricas para predecir el valor de cualquier métrica dentro del período de tiempo afectado. El prototipo aplica algoritmos avanzados de aprendizaje automático para trazar los valores esperados para las métricas durante el período de tiempo que se analiza.
 
 ## Ejecución del suavizado de datos inteligente
 
