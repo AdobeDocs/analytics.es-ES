@@ -1,22 +1,22 @@
 ---
 description: Los filtros de URL internos identifican los referentes que se consideran internos del sitio. Ayudan a los informes de fuentes de tráfico a rellenar los datos y son útiles para filtrar el tráfico interno.
 title: Filtros URL internos
-feature: Admin Tools
+feature: Herramientas de administración
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 95%
 
 ---
 
+
 # Filtros URL internos
 
-**[!UICONTROL Administración > Grupos de informes > Editar configuración > General > Filtros URL internos > Añadir filtro]**
-
 Los filtros de URL internos identifican los referentes que se consideran internos del sitio. Ayudan a los informes de fuentes de tráfico a rellenar los datos y son útiles para filtrar el tráfico interno.
+
+**[!UICONTROL Administración]**  > Grupos  **[!UICONTROL de informes]**  >  **[!UICONTROL Editar configuración]**  >  **[!UICONTROL General]**  > Filtros URL  **[!UICONTROL internos]**
 
 El referente, o la página referente, suele ser la página desde la que el visitante entró al sitio. Para evitar la distorsión de los datos, puede filtrar las páginas internas para que no se consideren referentes. Los informes excluyen a los referentes filtrados del Dimensión [Remitentes del reenvío](/help/components/dimensions/referrer.md), dimensión [Dominios de referencia](/help/components/dimensions/referring-domain.md) y otras dimensiones de fuentes de tráfico.
 
