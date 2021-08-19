@@ -2,9 +2,9 @@
 title: Implementación de Adobe Analytics
 description: Implemente Adobe Analytics en su sitio, propiedad o aplicación.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 83%
 
 ---
@@ -41,11 +41,11 @@ Adobe Analytics requiere código en el sitio web, la aplicación móvil u otra a
 
 ## Más guías del usuario de Analytics
 
-[Guías del usuario de Analytics](/help/landing/home.md)
+[Guías del usuario de Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=es)
 
 ## Recursos clave de Analytics
 
 * [Contactar con el servicio de atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)
-* [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Recursos de Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Foro de Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
+* [Recursos de Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=es)
 * [Experience League](https://landing.adobe.com/experience-league/)
