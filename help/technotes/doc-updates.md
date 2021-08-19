@@ -3,9 +3,9 @@ title: Actualizaciones de documentación técnica para Adobe Analytics
 description: Actualizaciones importantes en el conjunto de documentación de Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
+source-git-commit: 9bbbba053946d2d4c2a0e45dc4c70fe398e3fa3b
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2905'
 ht-degree: 63%
 
 ---
@@ -23,6 +23,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Fecha | Descripción |
 | --- | --- |
 | **Agosto de 2021** |  |
+| 18 de agosto de 2021 | Se ha revisado la estructura de nivel superior y se ha consolidado en una sola [página de aterrizaje](https://experienceleague.adobe.com/docs/analytics.html?lang=es) |
 | 18 de agosto de 2021 | Nuevo tema en [A4T y grupos de informes virtuales](/help/components/vrs/vrs-a4t.md) |
 | 18 de agosto de 2021 | Nuevo tema sobre [Prácticas recomendadas de atribución](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | 5 de agosto de 2021 | Nuevo tema en [Contar instancias repetidas](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html) |
