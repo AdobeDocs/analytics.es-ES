@@ -2,10 +2,10 @@
 title: getTimeParting
 description: Mida el tiempo en que sucede una acción específica.
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 95%
+source-wordcount: '718'
+ht-degree: 92%
 
 ---
 
@@ -63,7 +63,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## Uso del complemento
 
-El método `getTimeParting` utiliza el siguiente argumento:
+La función `getTimeParting` utiliza el siguiente argumento:
 
 **`t`** (opcional pero recomendado, cadena): Nombre del huso horario al que convertir la hora local del visitante.  El valor predeterminado es UTC/GMT. Consulte la [lista de husos horarios de la base de datos TZ](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) en Wikipedia para obtener una lista completa de los valores válidos.
 
@@ -74,7 +74,7 @@ Los valores válidos comunes incluyen:
 * `"America/Denver"` para la hora de montaña
 * `"America/Los_Angeles"` para la hora del Pacífico
 
-Llamar a este método devuelve una cadena que contiene lo siguiente, delimitado por una barra vertical (`|`):
+Llamar a esta función devuelve una cadena que contiene lo siguiente, delimitado por una barra vertical (`|`):
 
 * El año en curso
 * El mes en curso
@@ -82,55 +82,35 @@ Llamar a este método devuelve una cadena que contiene lo siguiente, delimitado 
 * El día de la semana
 * La hora (AM/PM)
 
-## Llamadas de ejemplo
-
-### Ejemplos de zonas horarias específicas
-
-Utilice el siguiente código de muestra si el cliente está en París, Francia:
+## Ejemplos
 
 ```js
-s.eVarX = getTimeParting("Europe/Paris");
-```
+// Use the following code if the visitor resides in Paris, France
+s.eVar8 = getTimeParting("Europe/Paris");
 
-Si el cliente está en San José, California:
+// Use the following code if the visitor resides in San Jose, California
+s.eVar17 = getTimeParting("America/Los_Angeles");
 
-```js
-s.eVarX = getTimeParting("America/Los_Angeles");
-```
+// Use the following code if the visitor resides in Ghana.
+// Note that Ghana is in GMT time, the default time zone that the plug-in uses with no argument
+s.eVar22 = getTimeParting();
 
-Si el cliente está en el país africano Ghana:
-
-```js
-s.eVarX = getTimeParting();
-```
-
-Ghana está dentro del huso horario UTC/GMT. Este ejemplo muestra que no es necesario ningún argumento de plug-in para UTC/GMT.
-
-### Contabilidad para exploradores de Internet Explorer
-
-Utilice el siguiente ejemplo si desea excluir los datos de partición de tiempo de los visitantes de Internet Explorer. El valor que devuelven los exploradores IE solo están en la hora local del visitante.
-
-```js
-if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
+// Internet Explorer only returns the visitor's local time. Use this conditional statement to accommodate IE visitors
+if(!document.documentMode) s.eVar39 = getTimeParting("America/New_York");
 else s.eVarX = "Internet Explorer Visitors";
-```
 
-### Resultados de las llamadas
-
-Supongamos que un visitante de Denver (Colorado) visita un sitio el 31 de agosto de 2020 a las 09:15 h.
-
-```js
-s.eVar10 = getTimeParting("Europe/Athens");
+// Given a visitor from Denver Colorado visits a site on August 31, 2020 at 9:15 AM
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+s.eVar10 = getTimeParting("Europe/Athens");
 
-s.eVar11 = getTimeParting("America/Nome");
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+s.eVar11 = getTimeParting("America/Nome");
 
-s.eVar12 = getTimeParting("Asia/Calcutta");
 // Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+s.eVar12 = getTimeParting("Asia/Calcutta");
 
-s.eVar13 = getTimeParting("Australia/Sydney");
 // Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
+s.eVar13 = getTimeParting("Australia/Sydney");
 ```
 
 ## Historial de versiones
