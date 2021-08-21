@@ -2,10 +2,10 @@
 title: getTimeBetweenEvents
 description: Mida el tiempo entre dos eventos.
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 96%
+source-wordcount: '800'
+ht-degree: 91%
 
 ---
 
@@ -56,7 +56,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 ## Uso del complemento
 
-El método `getTimeBetweenEvents` utiliza los siguientes argumentos:
+La función `getTimeBetweenEvents` utiliza los siguientes argumentos:
 
 * **`ste`** (obligatorio, cadena): Iniciar eventos de temporizador. Una cadena delimitada por comas de eventos de Analytics para “iniciar el temporizador”.
 * **`rt`** (obligatorio, booleano): Reiniciar la opción del temporizador. Se establece en `true` si desea reiniciar el temporizador cada vez que la variable `events` contenga un evento que arranque el temporizador. Se establece en `false` si no desea que el temporizador se reinicie cuando identifique un evento que arranque el temporizador.
@@ -81,54 +81,28 @@ El método `getTimeBetweenEvents` utiliza los siguientes argumentos:
 * **`bml`** (opcional, número): La duración de la referencia de redondeo según el formato del argumento `fmt`. Por ejemplo, si el argumento `fmt` es `"s"` y este argumento es `2`, el valor devuelto se redondea a la referencia de 2 segundos más cercana. Si el argumento `fmt` es `"m"` y este argumento es `0.5`, el valor devuelto se redondea a la referencia de medio minuto más cercana.
 * **`rte`** (opcional, cadena): La cadena delimitada por comas de eventos de Analytics que anulan o eliminan el temporizador. No tiene valor predeterminado.
 
-Llamar a este método devuelve un entero que representa el tiempo entre el evento que arranca el temporizador y el evento que lo detiene en el formato deseado.
+Llamar a esta función devuelve un entero que representa el tiempo entre el evento del temporizador de inicio y el evento del temporizador de detención en el formato deseado.
 
 ## Llamadas de ejemplo
 
-### Ejemplo 1
-
-El siguiente código...
-
 ```js
+// The timer starts or restarts when the events variable contains event1
+// The timer stops and resets when the events variable contains event2
+// The timer resets when the events variable contains event3 or the visitor closes their browser
+// Sets eVar1 to the number of seconds between event1 and event2, rounded to the nearest 2-second benchmark
 s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, "event3");
+
+// The timer starts when the events variable contains event1. It does NOT restart with subsequent hits that also contain event1
+// The timer records a "lap" when the events variable contains event2. It does not stop the timer.
+// The timer resets when the events variable contains event3 or if more than 20 days pass since the timer started
+// The timer is stored in a cookie labeled "s_20"
+// Sets eVar4 to the number of hours between event1 and event2, rounded to the nearest 90-minute benchmark
+s.eVar4 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
+
+// Similar to the above timer in eVar4, except the return value is returned in seconds/minutes/hours/days depending on the timer length.
+// The timer expires after 1 day.
+s.eVar4 = getTimeBetweenEvents("event1", true, "event2", true);
 ```
-
-... está configurado para comportarse de la siguiente manera:
-
-* El temporizador se iniciará cuando s.events contenga event1
-* El temporizador se reiniciará cada vez que s.events contenga event1
-* El temporizador se detendrá cuando s.events contenga event2
-* El temporizador se restablecerá (es decir, pasará a 0 segundos) cada vez que s.events contenga event2
-* El temporizador también se restablecerá cuando s.events contenga event3 O si el visitante cierra su explorador
-* Cuando se registra un tiempo real entre event1 y event2, el complemento establece eVar1 en el número de segundos entre los dos eventos configurados, redondeado a la referencia de 2 segundos más cercana (por ejemplo: 0 segundos, 2 segundos, 4 segundos, 10 segundos, 184 segundos, etc.)
-* Si s.events contiene event2 antes de que arranque un temporizador, eVar1 no se establecerá.
-
-### Ejemplo 2
-
-El siguiente código...
-
-```js
-s.eVar1 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
-```
-
-... está configurado para comportarse de la siguiente manera:
-
-* El temporizador se iniciará cuando s.events contenga event1
-* El temporizador NO se reiniciará cada vez que s.events contenga event1, sino que el temporizador original seguirá ejecutándose
-* El temporizador NO se detendrá cuando s.events contenga event2, pero el complemento registrará la hora desde que se registró la configuración de event1 original
-* El temporizador se almacena en una cookie llamada “s_20”
-* El temporizador se restablecerá solo cuando s.events contenga event3 O si han transcurrido 20 días desde que arrancó el temporizador
-* Cuando se registra un tiempo entre el evento1 (original) y el evento2, el complemento configurará eVar1 en el número de horas entre los dos eventos que se configuran, redondeado a la referencia de una hora y media más cercana (por ejemplo: 0 horas, 1,5 horas, 3 horas, 7,5 horas, 478,5 horas, etc.)
-
-### Ejemplo 3
-
-El siguiente código...
-
-```js
-s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true);
-```
-
-... producirá resultados similares al primer ejemplo anterior; sin embargo, el valor de eVar1 se devuelve en segundos, minutos, horas o días, según la duración final del temporizador.  Además, el temporizador caducará un día después de que se haya establecido por primera vez en lugar de cuando el visitante cierre su explorador.
 
 ## Historial de versiones
 
