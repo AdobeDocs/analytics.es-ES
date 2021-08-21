@@ -2,10 +2,10 @@
 title: getValOnce
 description: Impida que una variable de Analytics se establezca en el mismo valor dos veces seguidas.
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 94%
+source-wordcount: '577'
+ht-degree: 87%
 
 ---
 
@@ -59,36 +59,27 @@ typeof b)b=encodeURIComponent(b);else return"";var a=" "+document.cookie,d=a.ind
 
 ## Uso del complemento
 
-El método `getValOnce` utiliza los siguientes argumentos:
+La función `getValOnce` utiliza los siguientes argumentos:
 
 * **`vtc`** (obligatorio, cadena): La variable para comprobar y ver si anteriormente se ha definido en un valor idéntico
 * **`cn`** (opcional, cadena): El nombre de la cookie que contiene el valor que se va a comprobar. El valor predeterminado es `"s_gvo"`
 * **`et`** (opcional, entero): La caducidad de la cookie en días (o minutos, según el argumento `ep`). El valor predeterminado es `0`, que caduca al final de la sesión del explorador
 * **`ep`** (opcional, cadena): Establezca este argumento solo si también establece el argumento `et`. Establezca este argumento en `"m"` si desea que el argumento `et` caduque en minutos en lugar de en días. El valor predeterminado es `"d"`, que establece el argumento `et` en días.
 
-Si el argumento `vtc` y el valor de la cookie coinciden, este método devuelve una cadena vacía. Si el argumento `vtc` y el valor de la cookie no coinciden, el método devuelve el argumento `vtc` como una cadena.
+Si el argumento `vtc` y el valor de la cookie coinciden, esta función devuelve una cadena vacía. Si el argumento `vtc` y el valor de la cookie no coinciden, la función devuelve el argumento `vtc` como una cadena.
 
-## Llamadas de ejemplo
-
-### Ejemplo 1
-
-Utilice esta llamada para evitar que el mismo valor se pase a s.campaign más de una vez seguidas en los 30 días siguientes:
+## Ejemplos
 
 ```js
-s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
+// Prevent the same value from being passed in to the campaign variable more than once in a row for next 30 days
+s.campaign = getValOnce(s.campaign,"s_campaign",30);
+
+// Prevent the same value from being passed in to eVar2 more than once in a row for the browser session
+s.eVar2 = getValOnce(s.eVar2,"s_ev2");
+
+// Prevent the same value from being passed in to eVar8 more than once in a row for 10 minutes
+s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 ```
-
-En la llamada anterior, el complemento comparará primero el valor que contiene la cookie s_campaign con el valor proveniente de la variable s.campaign actual.   Si no coinciden, el complemento establecerá la cookie s_campaign en el nuevo valor obtenido de s.campaign y, a continuación, devolverá el nuevo valor.   Esta comparación se realizará durante los próximos treinta días.
-
-### Ejemplo 2
-
-Utilice esta llamada para evitar que se establezca el mismo valor durante toda la sesión:
-
-```js
-s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
-```
-
-Este código evita que el mismo valor se pase a s.eVar2 más de una vez seguidas durante toda la sesión del usuario.  También ignora el valor “m” del argumento ep (al final de la llamada), ya que la hora de caducidad es igual a 0.   El código también almacena el valor de comparación en la cookie s_ev2.
 
 ## Historial de versiones
 
