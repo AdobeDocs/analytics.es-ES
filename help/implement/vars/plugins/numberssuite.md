@@ -2,10 +2,10 @@
 title: Numbers Suite
 description: Produzca y manipule números para utilizarlos en otras variables de JavaScript.
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 94%
+ht-degree: 79%
 
 ---
 
@@ -67,24 +67,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## Uso de los complementos
 
-El método `zeroPad` utiliza los siguientes argumentos:
+La función `zeroPad` utiliza los siguientes argumentos:
 
-* **num** (obligatorio, entero): El número que se va a rellenar. El método redondea el valor de este argumento si contiene decimales.
+* **num** (obligatorio, entero): El número que se va a rellenar. La función redondea el valor de este argumento si contiene decimales.
 * **nod** (obligatorio, entero): El número de dígitos en el valor devuelto final. Si el número que se va a rellenar tiene menos dígitos que el número de dígitos a los que se va a rellenar, el complemento agrega ceros al principio del argumento `num`.
 
-El método `randomNumber` utiliza los siguientes argumentos:
+La función `randomNumber` utiliza los siguientes argumentos:
 
 * **nod** (opcional, entero): El número de dígitos del número aleatorio que desea generar. El valor máximo es de 17 dígitos. El valor predeterminado son 10 dígitos.
 
-El método `twoDecimals` utiliza los siguientes argumentos:
+La función `twoDecimals` utiliza los siguientes argumentos:
 
 * **val** (obligatorio, número): Un número (representado por una cadena o un objeto numérico) que desea redondear a la centésima más cercana.
 
 ## Devuelve
 
-* El método **zeroPad** devuelve una cadena igual al argumento `num` pero con un número específico de ceros agregados al principio de su valor, lo que garantiza que el valor devuelto tenga el número correcto de dígitos.
-* El método **randomNumber** devuelve una cadena equivalente a un número aleatorio con el número deseado de dígitos.
-* El método **twoDecimals** devuelve un objeto numérico redondeado a la centésima más cercana.
+* La función **zeroPad** devuelve una cadena igual al argumento `num` pero con un número específico de ceros agregados al principio de su valor, lo que garantiza que el valor devuelto tenga el número correcto de dígitos.
+* La función **randomNumber** devuelve una cadena igual a un número aleatorio con el número deseado de dígitos.
+* La función **twoDecimals** devuelve un objeto numérico redondeado a la centésima más cercana.
 
 ## Llamadas de ejemplo
 
