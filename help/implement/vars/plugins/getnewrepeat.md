@@ -2,10 +2,10 @@
 title: getNewRepeat
 description: Rastree la actividad de visitantes nuevos frente a los que repiten.
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: 13060d08c8ffff01d8dae379e090c53e61fa6476
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 66%
+source-wordcount: '552'
+ht-degree: 87%
 
 ---
 
@@ -57,54 +57,22 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ## Uso del complemento
 
-El método `getNewRepeat` utiliza los siguientes argumentos:
+La función `getNewRepeat` utiliza los siguientes argumentos:
 
 * **`d`** (entero, opcional): el número mínimo de días entre visitas que restablece a los visitantes de nuevo como `"New"`. Si no se establece este argumento, el valor predeterminado es de 30 días.
 
-Este método devuelve el valor de `"New"` si la cookie configurada por el complemento no existe o ha caducado. Devuelve el valor de `"Repeat"` si la cookie configurada por el complemento existe y el tiempo desde la visita actual y el tiempo establecido en la cookie supera los 30 minutos. Este método devuelve el mismo valor para una visita completa.
+Esta función devuelve el valor de `"New"` si la cookie configurada por el complemento no existe o ha caducado. Devuelve el valor de `"Repeat"` si la cookie configurada por el complemento existe y el tiempo desde la visita actual y el tiempo establecido en la cookie supera los 30 minutos. Esta función devuelve el mismo valor para una visita completa.
 
 Este complemento utiliza una cookie denominada `"s_nr[LENGTH]"` donde `[LENGTH]` es igual al argumento `d`. La cookie contiene una marca de tiempo Unix que representa la hora actual y el estado actual del visitante (`"New"` o `"Repeat"`).
 
-## Llamadas de ejemplo
-
-### Ejemplo 1
-
-El siguiente código establece `eVar1` en el valor de `"New"` para los nuevos visitantes y continúa estableciendo `eVar1` en el valor de `"New"` (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
+## Ejemplos
 
 ```js
+// Sets eVar1 to "New" if it is the visitor's first visit to the site, or they have not visited in at least 30 days. Otherwise, sets eVar1 to "Repeat".
 s.eVar1 = getNewRepeat();
-```
 
-### Ejemplo 2
-
-Si el visitante regresa al sitio en cualquier momento desde 31 minutos hasta 30 días desde la última vez que se llamó a `getNewRepeat()`, el siguiente código establece `eVar1` en el valor de `"Repeat"` y continúa configurando `eVar1` en el valor de `"Repeat"` (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
-
-```js
-s.eVar1 = getNewRepeat();
-```
-
-### Ejemplo 3
-
-Si el visitante no ha estado en el sitio durante al menos 30 días desde la última vez que se llamó a `getNewRepeat()`, el siguiente código establece `eVar1` en el valor de `"New"` y continúa configurando `eVar1` en el valor de `"New"` (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
-
-```js
-s.eVar1 = getNewRepeat();
-```
-
-### Ejemplo 4
-
-Si el visitante regresa al sitio en cualquier momento entre 31 minutos y 365 días (es decir, 1 año) desde la última vez que se llamó a `getNewRepeat()`, el siguiente código establece `eVar1` en el valor de `"Repeat"` y continúa configurando `eVar1` en el valor de `"Repeat"` (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
-
-```js
-s.eVar1 = getNewRepeat(365);
-```
-
-### Ejemplo 5
-
-Si el visitante no ha estado en el sitio durante al menos 365 días (es decir, 1 año) desde la última vez que se llamó a `getNewRepeat()`, el siguiente código establece `eVar1` en el valor de `"New"` y continúa estableciendo `eVar1` en el valor de `"New"` (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
-
-```js
-s.eVar1 = getNewRepeat(365);
+// Sets eVar2 to "New" if it is the visitor's first visit to the site, or they have not visited in at least a year (365 days). Otherwise, sets eVar2 to "Repeat".
+s.eVar2 = getNewRepeat(365);
 ```
 
 ## Historial de versiones
