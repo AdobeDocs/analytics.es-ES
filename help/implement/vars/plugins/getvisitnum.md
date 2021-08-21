@@ -2,10 +2,10 @@
 title: getVisitNum
 description: Rastree el número de la visita actual de un visitante.
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 96%
+source-wordcount: '684'
+ht-degree: 91%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 ## Uso del complemento
 
-El método `getVisitNum` utiliza los siguientes argumentos:
+La función `getVisitNum` utiliza los siguientes argumentos:
 
 * **`rp`** (opcional, entero O cadena): El número de días antes de que se restablezca el contador de números de visitas.  Si no se configura de forma distinta, el valor predeterminado es `365`.
    * Cuando este argumento es `"w"`, el contador se restablece al final de la semana (este sábado a las 23:59 h)
@@ -65,89 +65,31 @@ El método `getVisitNum` utiliza los siguientes argumentos:
    * Cuando este argumento es `"y"`, el contador se restablece al final del año (31 de diciembre)
 * **`erp`** (opcional, booleano): Cuando el argumento `rp` es un número, este argumento determina si se debe ampliar la caducidad del número de visita. Si se establece en `true`, las posteriores visitas al sitio restablecerán el contador de número de visitas. Si se establece en `false`, las posteriores visitas al sitio no se amplían cuando se restablece el contador de número de visitas. El valor predeterminado es `true`. Este argumento no es válido cuando el argumento `rp` es una cadena.
 
-El número de visitas aumenta cada vez que el visitante regresa al sitio después de 30 minutos de inactividad. Llamar a este método devuelve un entero que representa el número de visita actual.
+El número de visitas aumenta cada vez que el visitante regresa al sitio después de 30 minutos de inactividad. Llamar a esta función devuelve un entero que representa el número de visita actual del visitante.
 
 Este complemento establece una cookie de origen llamada `"s_vnc[LENGTH]"`, donde `[LENGTH]` es el valor que se pasa al argumento `rp`. Por ejemplo, `"s_vncw"`, `"s_vncm"`o `"s_vnc365"`. El valor de la cookie es una combinación de una marca de tiempo Unix que representa cuándo se restablece el contador de visitas, como fin de semana, fin de mes o tras 365 días de inactividad. También contiene el número de visita actual. Este complemento establece otra cookie denominada `"s_ivc"` que se establece en `true` y caduca tras 30 minutos de inactividad.
 
-## Llamadas de ejemplo
-
-### Ejemplo 1
-
-Para un visitante que no ha estado en el sitio en los últimos 365 días, el siguiente código establecerá s.prop1 en el valor 1:
+## Ejemplos
 
 ```js
-s.prop1=s.getVisitNum();
+// Sets prop4 to the visit number, storing the value in a cookie that expires in 365 days
+// The cookie value is reset only if there are 365+ days of inactivity or the visitor clears their cookies.
+s.prop4 = getVisitNum();
+
+// Sets eVar4 to the visit number, storing the value in a cookie that expires in 200 days
+// The cookie value is reset only if there are 200+ days of inactivity or the visitor clears their cookies.
+s.eVar4 = getVisitNum(200);
+
+// Sets eVar16 to the visit number, storing the value in a cookie that expires in 90 days.
+// The cookie value is reset after 90 days, regardless of how many visits that happen in those 90 days.
+s.eVar16 = getVisitNum(90,false);
+
+// Track the visit number unique to the week, month, and year, all in separate variables
+// The plug-in automatically creates three separate cookies to track these values
+s.prop1 = getVisitNum("w");
+s.prop2 = getVisitNum("m");
+s.prop3 = getVisitNum("y");
 ```
-
-### Ejemplo 2
-
-Para un visitante que regresa al sitio dentro de los 364 días posteriores a su primera visita, el siguiente código establecerá s.prop1 en 2:
-
-```js
-s.prop1=s.getVisitNum(365);
-```
-
-Si este visitante regresa al sitio dentro de los 364 días posteriores a su segunda visita, el siguiente código establecerá s.prop1 en 3:
-
-```js
-s.prop1=s.getVisitNum(365);
-```
-
-### Ejemplo 3
-
-Para un visitante que regresa al sitio dentro de los 179 días posteriores a su primera visita, el siguiente código establecerá s.prop1 en 2:
-
-```js
-s.prop1=s.getVisitNum(180,false);
-```
-
-Sin embargo, si este visitante regresa al sitio al menos un día después de su segunda visita, el siguiente código establecerá s.prop1 en 1:
-
-```js
-s.prop1=s.getVisitNum(180,false);
-```
-
-Cuando el segundo argumento de la llamada tiene un valor false, la rutina que determina cuándo se debe “restablecer” a 1 el número de visita lo hará “x” días después (en este ejemplo, 365 días) de la primera visita al sitio.
-
-Cuando el segundo argumento tiene un valor true (o no está establecido), el complemento restablecerá el número de visita a 1 solo después de “x” días (de nuevo, en este ejemplo, 365 días) de inactividad del visitante.
-
-### Ejemplo 4
-
-Para todos los visitantes que acceden al sitio por primera vez durante la semana en curso (que comienza el domingo), el siguiente código establecerá s.prop1 en 1:
-
-```js
-s.prop1=s.getVisitNum("w");
-```
-
-### Ejemplo 5
-
-Para todos los visitantes que acceden al sitio por primera vez durante el mes en curso (a partir del primer día de cada mes), el siguiente código establecerá s.prop1 en 1:
-
-```js
-s.prop1=s.getVisitNum("m");
-```
-
-Tenga en cuenta que el complemento getVisitNum no tiene en cuenta los calendarios de comercio minorista (es decir, los calendarios 4-5-4, 4-4-5, etc.)
-
-### Ejemplo 6
-
-Para todos los visitantes que acceden al sitio por primera vez durante el año en curso (a partir del 1 de enero), el siguiente código establecerá s.prop1 en 1:
-
-```js
-s.prop1=s.getVisitNum("y");
-```
-
-### Ejemplo 7
-
-Si desea rastrear el número de visita de un visitante en la semana, el número de visita de un visitante en el mes y el número de visita de un visitante en el año (todo dentro de distintas variables de Analytics), debe utilizar un código similar al siguiente:
-
-```js
-s.prop1=s.getVisitNum("w");
-s.prop2=s.getVisitNum("m");
-s.prop3=s.getVisitNum("y");
-```
-
-En este caso, el complemento creará tres cookies diferentes, una para cada uno de los diferentes periodos de tiempo, para realizar un seguimiento del número de visita individual por periodo de tiempo.
 
 ## Historial de versiones
 
