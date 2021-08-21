@@ -2,10 +2,10 @@
 title: getAndPersistValue
 description: Almacene un valor que pueda utilizarse posteriormente en cualquier momento.
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 90%
+source-wordcount: '583'
+ht-degree: 79%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 >
 >Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El complemento `getAndPersistValue` le permite almacenar un valor en una cookie que se puede utilizar más adelante durante una visita. Cumple una función similar a la de [!UICONTROL Duración del almacenamiento] mediante etiquetas en Adobe Experience Platform. Adobe recomienda utilizar este complemento si desea mantener automáticamente una variable de Analytics con el mismo valor en las visitas posteriores después de configurar la variable. Este complemento no es necesario si la función [!UICONTROL Storage duration] de Adobe Experience Platform es suficiente. Tampoco es necesario utilizar este complemento si no es necesario establecer y mantener variables con el mismo valor en las visitas posteriores. La persistencia integrada de eVars no requiere el uso de este complemento, ya que Adobe mantiene estas variables en el lado del servidor.
+El complemento `getAndPersistValue` le permite almacenar un valor en una cookie que se puede utilizar más adelante durante una visita. Cumple una función similar a la de [!UICONTROL Duración del almacenamiento] mediante etiquetas en Adobe Experience Platform. Adobe recomienda utilizar este complemento si desea mantener automáticamente una variable de Analytics con el mismo valor en las visitas posteriores después de configurar la variable. Este complemento no es necesario si la función [!UICONTROL Storage duration] de la interfaz de usuario de recopilación de datos es suficiente. Tampoco es necesario utilizar este complemento si no es necesario establecer y mantener variables con el mismo valor en las visitas posteriores. La persistencia integrada de las eVars no requiere el uso de este complemento, ya que las eVars persisten en el lado del servidor por Adobe.
 
 ## Instalación del complemento con etiquetas en Adobe Experience Platform
 
@@ -57,7 +57,7 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 
 ## Uso del complemento
 
-El método `getAndPersist` utiliza los siguientes argumentos:
+La función `getAndPersist` utiliza los siguientes argumentos:
 
 * **`vtp`** (obligatorio): El valor que se va a mantener de página en página.
 * **`cn`** (opcional): El nombre de la cookie para almacenar el valor. Si no se establece este argumento, se llamará a la cookie `"s_gapv"`.
@@ -67,64 +67,27 @@ Si se establece la variable en el argumento `vtp`, el complemento establece la c
 
 ## Ejemplos
 
-### Ejemplo 1
-
-El siguiente código configura eVar21 igual al valor de “hello”.  El código establece entonces la cookie ev21gapv, que caduca en 28 días, igual al valor de eVar21 (es decir, “hello”).  El código entonces (re)configura eVar21 igual al valor de la cookie ev21gapv.
-
 ```js
-s.eVar21 = "hello";
-s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
+// Sets eVar21 to "raccoon", and sets the ev21gapv cookie to "raccoon" (which expires in 28 days).
+s.eVar21 = "raccoon";
+s.eVar21 = getAndPersistValue(s.eVar21,"ev21gapv",28);
 
-### Ejemplo 2
+// Checks the "ev21gapv" cookie for a value and assigns it to eVar21. It does not set a cookie value or reset an existing cookie's expiration since the value is not set on the page.
+// If there is a cookie, assigns eVar21 to that value. Otherwise, eVar21 is blank.
+s.eVar21 = getAndPersistValue(s.eVar21,"ev21gapv",28);
 
-Supongamos que la eVar21 no se ha establecido aún en la página actual pero se ha configurado igual a “hello” en una página anterior en los últimos 28 días.   El siguiente código solo configura eVar21 igual al valor de la cookie ev21gapv (por ejemplo: “hello”).  No restablece la cookie ev21gapv porque no se ha configurado eVar21 en la página actual antes de llamar a la función.
+// Checks the "ev21gapv" cookie for a value and assigns it to prop35. It does not set a cookie value or reset an existing cookie's expiration since eVar21 is not set on the page.
+s.prop35 = getAndPersistValue(s.eVar21,"ev21gapv",28);
 
-```js
-s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
+// Sets eVar21 to "panda", and sets the ev21gapv cookie to "panda" (which expires in 14 days). It then sets prop35 to the value contained in the ev21gapv cookie.
+// Ultimately both eVar21 and prop35 contain the value "panda".
+s.eVar21 = "panda";
+s.prop35 = getAndPersistValue(s.eVar21,"ev21gapv",14);
 
-### Ejemplo 3
-
-Supongamos que la eVar21 no se ha establecido aún en la página actual pero se ha configurado igual a “hello” en una página anterior en los últimos 28 días.  El siguiente código establece solamente prop35 igual al valor de la cookie ev21gapv (por ejemplo: “hello”).  No se configura eVar21.
-
-```js
-s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
-
-### Ejemplo 4
-
-El siguiente código configura eVar21 igual al valor de “howdy”.  A continuación, el código establece (o restablece) la cookie ev21gapv, que caduca en 28 días, igual al valor de eVar21 (es decir, “howdy”).  A continuación, el código establece prop35 igual al valor de la cookie ev21gapv (por ejemplo: “howdy”).
-
-```js
-s.eVar21 = "howdy";
-s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
-
-### Ejemplo 5
-
-Supongamos que s.eVar21 no se ha configurado en ninguna página en los últimos 28 días.  El siguiente código establece s.eVar21 como cero, ya que la cookie ev21gapv habría caducado 28 días después de la última vez que se configuró.
-
-```js
-s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
-
-### Ejemplo 6
-
-El siguiente código establece eVar30 en igual que “shopping”.  Luego establece la cookie s_gapv, que caduca al final de la sesión del explorador, igual al valor de s.eVar30 (es decir, “shopping”).  Luego establece s.eVar30 igual al valor de la cookie s_gapv (es decir, la llamada getAndPersistValue devuelve el valor de la cookie s_gapv, que en este caso es “shopping”).
-
-```js
+// Sets eVar30 to "shopping", and sets the s_gapv cookie to "shopping" (which expires at the end of the browser session).
 s.eVar30 = "shopping";
-s.eVar30 = s.getAndPersistValue(s.eVar30);
+s.eVar30 = getAndPersistValue(s.eVar30);
 ```
-
-Si s.eVar30 no se establece en un valor explícito en ninguna página adicional que se vea durante la sesión, pero se establece (en doPlugins) mediante el siguiente código...
-
-```js
-s.eVar30 = s.getAndPersistValue(s.eVar30);
-```
-
-... s.eVar30 se configura igual a “shopping” (es decir, el valor persistente de la cookie s_gapv).
 
 ## Historial de versiones
 
