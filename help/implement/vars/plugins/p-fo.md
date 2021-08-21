@@ -2,10 +2,10 @@
 title: p_fo (Page First Only)
 description: Asegure que determinadas rutinas se activen solo una vez por página.
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 82%
 
 ---
 
@@ -57,11 +57,11 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ## Uso del complemento
 
-El método `p_fo` utiliza los siguientes argumentos:
+La función `p_fo` utiliza los siguientes argumentos:
 
 * **on** (obligatorio, cadena): El nombre del objeto JavaScript que crea el complemento si el objeto no existe aún en la página.
 
-Si el objeto aún no existe, este método devuelve `true` y crea el objeto. Si el objeto ya existe, este método devuelve `false`.
+Si el objeto aún no existe, esta función devuelve `true` y crea el objeto. Si el objeto ya existe, esta función devuelve `false`.
 
 ## Llamadas de ejemplo
 
@@ -71,14 +71,14 @@ El siguiente código comprobará la existencia del objeto “myobject” dentro 
 
 Por otro lado, si el objeto “myobject” ya existe cuando se realiza la llamada p_fo, la función p_fo devolverá el valor false y, por lo tanto, el enunciado condicional se considerará false.  En este caso, el código dentro de la afirmación condicional no se ejecutará.
 
-```javascript
-if(s.p_fo("myobject"))
+```js
+if(p_fo("myobject"))
 {
   console.log("hello");
 }
 ```
 
-**NOTA**: Cada vez que se carga un nuevo objeto de página/DOM (o que la página actual se recarga), el objeto especificado en el argumento on dejará de existir y, por lo tanto, el complemento p_fo volverá a ser true la primera vez que se ejecute después de que la página termine de cargarse.
+**NOTA:** Cada vez que se carga un nuevo objeto de página/DOM (o que la página actual se vuelve a cargar), el objeto especificado en el argumento on dejará de existir y, por lo tanto, el complemento p_fo volverá a ser true la primera vez que se ejecute después de que la página termine de cargarse.
 
 ## Historial de versiones
 
