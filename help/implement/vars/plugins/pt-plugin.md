@@ -2,10 +2,10 @@
 title: pt
 description: Ejecute una función en una lista de variables.
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 93%
+ht-degree: 87%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 >
 >Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El complemento `pt` ejecuta una función o un método en una lista de variables de Analytics. Por ejemplo, puede ejecutar el método [`clearVars`](../functions/clearvars.md) de forma selectiva en varias variables sin llamar manualmente al método cada vez. Otros complementos dependen de este código para ejecutarse correctamente. Este complemento no es necesario si no necesita ejecutar una función específica en más de una variable de Analytics a la vez o si no utiliza ningún complemento dependiente.
+El complemento `pt` ejecuta una función o un método en una lista de variables de Analytics. Por ejemplo, puede ejecutar selectivamente la función [`clearVars`](../functions/clearvars.md) en varias variables sin llamar manualmente a la función cada vez. Otros complementos dependen de este código para ejecutarse correctamente. Este complemento no es necesario si no necesita ejecutar una función específica en más de una variable de Analytics a la vez o si no utiliza ningún complemento dependiente.
 
 ## Instalación del complemento con etiquetas en Adobe Experience Platform
 
@@ -57,14 +57,14 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ## Uso del complemento
 
-El método `pt` utiliza los siguientes argumentos:
+La función `pt` utiliza los siguientes argumentos:
 
 * **`l`** (obligatorio, cadena): Una lista de variables con las que se puede ejecutar la función contenida en el argumento `cf`.
 * **`de`** (opcional, cadena): El delimitador que separa la lista de variables del argumento `l`. El valor predeterminado es una coma (`,`).
 * **`cf`** (obligatorio, cadena): El nombre de la función de llamada de retorno contenida en el objeto AppMeasurement al que se va a llamar en relación con cada una de las variables contenidas en el argumento `l`.
 * **`fa`** (opcional, cadena): Si la función del argumento `cf` necesita argumentos adicionales cuando se ejecute, inclúyalos aquí. El valor predeterminado es `undefined`.
 
-Llamar a este método devuelve un valor si la función de llamada de retorno (en el argumento `cf`) devuelve un valor.
+Llamar a esta función devuelve un valor si la función de llamada de retorno (en el argumento `cf` ) devuelve un valor.
 
 ## Llamadas de ejemplo
 
@@ -72,7 +72,7 @@ Llamar a este método devuelve un valor si la función de llamada de retorno (en
 
 El código siguiente forma parte del complemento getQueryParam.  Ejecuta la función de ayuda getParameterValue con cada uno de los pares clave-valor que se encuentran en la cadena de consulta de la dirección URL (fullQueryString).  Para extraer cada par clave-valor, fullQueryString debe estar delimitado y dividido por un carácter ampersand “&amp;”. El parámetro parameterKey hace referencia al parámetro de cadena de consulta que el complemento intenta extraer específicamente de la cadena de consulta.
 
-```javascript
+```js
 returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)
 ```
 
@@ -84,7 +84,7 @@ var returnValue = "",
   parametersLength = parameters.length;
 for(var i = 0; i < parametersLength; i++)
 {
-  returnValue = s.getParameterValue(parameters[i], parameterKey);
+  returnValue = getParameterValue(parameters[i], parameterKey);
   if(returnValue !== "") break;
 }
 ```
