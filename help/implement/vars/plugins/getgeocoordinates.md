@@ -2,10 +2,10 @@
 title: getGeoCoordinates
 description: Rastree la geolocalización de un visitante.
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 93%
+source-wordcount: '483'
+ht-degree: 90%
 
 ---
 
@@ -57,7 +57,7 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 ## Uso del complemento
 
-El método `getGeoCoordinates` no utiliza ningún argumento. Devuelve uno de los siguientes valores:
+La función `getGeoCoordinates` no utiliza ningún argumento. Devuelve uno de los siguientes valores:
 
 * `"geo coordinates not available"`: Para dispositivos que no tienen datos de localización geográfica disponibles cuando se ejecuta el complemento. Este valor es habitual en la primera visita, especialmente cuando los visitantes deben consentir por primera vez que se rastree su ubicación.
 * `"error retrieving geo coordinates"`: Cuando el complemento encuentra algún error al intentar recuperar la ubicación del dispositivo.
@@ -69,38 +69,29 @@ El método `getGeoCoordinates` no utiliza ningún argumento. Devuelve uno de los
 
 Este complemento utiliza una cookie denominada `"s_ggc"` para almacenar las coordenadas entre cada visita si fuese necesario.
 
-## Llamadas de ejemplo
-
-### Ejemplo 1
-
-El siguiente código...
+## Ejemplos
 
 ```js
-s.eVar1 = s.getGeoCoordinates();
-```
+// Sets eVar1 to one of the above return values depending on the visitor's device status.
+s.eVar1 = getGeoCoordinates();
 
-... establece eVar1 en uno de los valores de retorno anteriores, según el estado del dispositivo del visitante.
-
-### Ejemplo 2
-
-El siguiente código extrae la latitud y la longitud en sus propias variables denominadas finalLatitude y finalLongitude para su uso en otros códigos o aplicaciones.
-
-```js
-var coordinates = s.getGeoCoordinates();
+// Extracts latitude and longitude into their own variables called finalLatitude and finalLongitude for use in other code/applications.
+var coordinates = getGeoCoordinates();
 if(coordinates.indexOf("latitude") > -1)
 {
   var finalLatitude = Number(coordinates.split("|")[0].trim().split("=")[1]),
   finalLongitude = Number(coordinates.split("|")[1].trim().split("=")[1]);
 }
-```
 
-Desde allí, puede determinar si un visitante se encuentra, por ejemplo, en la Estatua de la Libertad:
-
-```js
-if(finalLatitude >= 40.6891 && finalLatitude <= 40.6893 && finalLongtude >= -74.0446 && finalLongitude <= -74.0444)
+// From there, you can determine whether a visitor is at, for example, the Statue of Liberty:
+if(finalLatitude >= 40.6891 && finalLatitude <= 40.6893 && finalLongitude >= -74.0446 && finalLongitude <= -74.0444)
+{
   var visitorAtStatueOfLiberty = true;
+}
 else
+{
   var visitorAtStatueOfLiberty = false;
+}
 ```
 
 ## Historial de versiones
