@@ -2,10 +2,10 @@
 title: Información general de complementos
 description: Pegue código en el sitio para incorporar nuevas funciones.
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 84%
+source-wordcount: '366'
+ht-degree: 82%
 
 ---
 
@@ -37,7 +37,3 @@ Cada organización tiene diferentes necesidades de implementación, por lo que p
 4. Valide la implementación y publíquelo.
 
 Muchas organizaciones llaman a complementos con la función [`doPlugins`](../functions/doplugins.md). Aunque esta función no es obligatoria, Adobe considera que es recomendable utilizarla. AppMeasurement llama a esta función justo antes de compilar y enviar una solicitud de imagen, lo cual es ideal ya que varios complementos dependen de otras variables de Analytics.
-
-## Uso de complementos con objetos de seguimiento no estándar
-
-Los complementos no funcionan de forma predeterminada con objetos de seguimiento que no sean `s`. Sin embargo, puede modificar el código del complemento para que quepa el objeto de seguimiento personalizado. Dentro de un complemento determinado, reemplace todas las referencias a `s` con el objeto de seguimiento deseado.
