@@ -2,10 +2,10 @@
 title: getTimeToComplete
 description: Mida el tiempo que se tarda en completar una tarea.
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 95%
+source-wordcount: '571'
+ht-degree: 88%
 
 ---
 
@@ -57,51 +57,31 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## Uso del complemento
 
-El método `getTimeToComplete` utiliza los siguientes argumentos:
+La función `getTimeToComplete` utiliza los siguientes argumentos:
 
 * **`sos`** (opcional, cadena): Configúrelo en `"start"` cuando desee iniciar el temporizador. Configúrelo en `"stop"` cuando desee detener el temporizador. El valor predeterminado es `"start"`.
 * **`cn`** (opcional, cadena): El nombre de la cookie para almacenar la hora de inicio. El valor predeterminado es `"s_gttc"`.
 * **`exp`** (opcional, entero): El número de días en que caduca la cookie (y el temporizador). El valor predeterminado es `0`, que representa el final de la sesión del explorador.
 
-Llamar a este método devuelve una cadena que contiene el número de días, horas, minutos y/o segundos que transcurridos entre la acción `"start"` y `"stop"`.
+Llamar a esta función devuelve una cadena que contiene el número de días, horas, minutos y/o segundos que transcurrieron entre la acción `"start"` y `"stop"`.
 
-## Llamadas de ejemplo
-
-### Ejemplo 1
-
-Utilice estas llamadas para determinar el tiempo que transcurre entre el momento en que un visitante inicia el proceso de cierre de compra y el momento en que realiza una compra.
-
-Inicie el temporizador cuando el visitante inicie el cierre de compra:
+## Ejemplos
 
 ```js
-if(s.events.indexOf("scCheckout") > -1) s.getTimeToComplete("start");
+// Start the timer when the visitor starts the checkout
+if(s.events.indexOf("scCheckout") > -1) getTimeToComplete("start");
+
+// Stop the timer when the visitor makes the purchase and set prop1 to the time difference between stop and start
+// Sets prop1 to the amount of time it took to complete the purchase process
+if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
+
+// Simultaneously track the time it takes to complete a purchase and to fill out a registration form
+// Stores each timer in their own respective cookies so they run independently
+if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
+if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
 ```
-
-Detenga el temporizador cuando el visitante realice la compra y configure prop1 en la diferencia horaria entre la detención y el inicio:
-
-```js
-if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
-```
-
-s.prop1 registrará el tiempo necesario para completar el proceso de compra
-
-### Ejemplo 2
-
-Si desea que varios temporizadores se ejecuten al mismo tiempo (para medir diferentes procesos), deberá configurar manualmente el argumento de cookie cn.  Por ejemplo: Si desea medir el tiempo necesario para completar una compra, debe establecer el siguiente código...
-
-```javascript
-if(s.inList(s.events, "scCheckout")) s.getTimeToComplete("start", "gttcpurchase");
-if(s.inList(s.events, "purchase")) s.prop1 = s.getTimeToComplete("start", "gttcpurchase");
-```
-
-...pero si también desea medir (a la vez) el tiempo necesario para rellenar un formulario de registro, también debe ejecutar el siguiente código:
-
-```js
-if(s.inList(s.events, "event1")) s.getTimeToComplete("start", "gttcregister", 7);
-if(s.inList(s.events, "event2")) s.prop2 = s.getTimeToComplete("stop", "gttcregister", 7);
-```
-
-En el segundo ejemplo, event1 tiene el propósito de registrar el inicio de un proceso de registro que, por cualquier razón, puede llevar hasta 7 días completar y event2 tiene el propósito de capturar la finalización del registro.  s.prop2 registrará el tiempo necesario para completar el proceso de registro
 
 ## Historial de versiones
 
