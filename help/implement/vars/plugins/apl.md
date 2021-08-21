@@ -2,10 +2,10 @@
 title: apl (appendToList)
 description: Anexe valores a variables que admitan varios valores.
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 96%
+source-wordcount: '695'
+ht-degree: 90%
 
 ---
 
@@ -63,7 +63,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## Uso del complemento
 
-El método `apl` utiliza los siguientes argumentos:
+La función `apl` utiliza los siguientes argumentos:
 
 * **`lv`** (obligatorio, cadena): La variable que contiene una lista delimitada de elementos para agregar un nuevo valor a
 * **`vta`** (obligatorio, cadena): Una lista delimitada por comas de los nuevos valores que se agregan al valor del argumento `lv`.
@@ -71,231 +71,59 @@ El método `apl` utiliza los siguientes argumentos:
 * **`d2`** (opcional, cadena): El delimitador de salida. Si no se especifica lo contrario, el valor predeterminado es el mismo que `d1`.
 * **`cc`** (opcional, booleano): Indica si se utiliza una comprobación que distingue entre mayúsculas y minúsculas. Con `true`, la comprobación de duplicaciones distingue entre mayúsculas y minúsculas. Si se selecciona `false` o no, la comprobación de duplicaciones no distingue entre mayúsculas y minúsculas. El valor predeterminado es `false`.
 
-El método `apl` devuelve el valor del argumento `lv` más cualquier valor no duplicado del argumento `vta`.
+La función `apl` devuelve el valor del argumento `lv` más cualquier valor no duplicado del argumento `vta`.
 
-## Llamadas de ejemplo
-
-### Ejemplo 1
-
-Si...
+## Ejemplos
 
 ```js
+// Set the events variable to "event22,event24,event23".
 s.events = "event22,event24";
-```
+s.events = apl(s.events,"event23");
 
-... y se ejecuta el siguiente código...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... el valor final de s.events es:
-
-```js
-s.events = "event22,event24,event23";
-```
-
-### Ejemplo 2
-
-Si...
-
-```js
+// The events variable remains unchanged because the apl function does not add duplicate values
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"event23");
 
-... y se ejecuta el siguiente código...
+// Set the events variable to "event23" if the events variable is blank
+s.events = "";
+s.events = apl(s.events,"event23");
 
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... el valor final de s.events sigue siendo:
-
-```js
-s.events = "event22,event23";
-```
-
-En este ejemplo, la llamada de apl no realiza cambios en s.events porque s.events ya contiene “event23”.
-
-### Ejemplo 3
-
-Si...
-
-```js
-s.events = ""; //blank value
-```
-
-... y se ejecuta el siguiente código...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... el valor final de s.events es...
-
-```js
-s.events = "event23";
-```
-
-### Ejemplo 4
-
-Si...
-
-```js
+// Append a value to eVar5. The value of prop4 remains unchanged.
+// The value of eVar5 is "hello|people|today".
 s.prop4 = "hello|people";
-```
+s.eVar5 = apl(s.prop4, "today", "|");
 
-... y se ejecuta el siguiente código...
-
-```js
-s.eVar5 = s.apl(s.prop4, "today", "|");
-```
-
-... el valor final de s.prop4 sigue siendo...
-
-```js
+// Sets prop4 to "hello|people,today". Be mindful of correct delimiters!
 s.prop4 = "hello|people";
-```
+s.prop4 = apl(s.prop4, "today");
 
-... pero el valor final de s.eVar5 es
-
-```js
-s.eVar5 = "hello|people|today";
-```
-
-Tenga en cuenta que el complemento solo devuelve un valor; no necesariamente “restablece” la variable pasada a través del argumento lv.
-
-### Ejemplo 5
-
-Si...
-
-```js
-s.prop4 = "hello|people";
-```
-
-... y se ejecuta el siguiente código...
-
-```js
-s.prop4 = s.apl(s.prop4, "today");
-```
-
-... el valor final de s.prop4 es...
-
-```js
-s.prop4 = "hello|people,today";
-```
-
-Asegúrese de mantener el mismo delimitador entre lo que hay en el valor del argumento lv y lo que hay en los argumentos d1/d2.
-
-### Ejemplo 6
-
-Si...
-
-```js
+// Sets the events variable to "event22,event23,EVentT23". Be mindful of capitalization when using the cc argument!
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"EVenT23", ",", ",", true);
 
-... y se ejecuta el siguiente código...
-
-```js
-s.events = s.apl(s.events,"EVenT23", ",", ",", true);
-```
-
-... el valor final de s.events es:
-
-```js
-s.events = "event22,event23,EVentT23";
-```
-
-Aunque este ejemplo no es práctico, demuestra la necesidad de tener cuidado al utilizar el indicador que distingue entre mayúsculas y minúsculas.
-
-### Ejemplo 7
-
-Si...
-
-```js
+// Sets the events variable to "event22,event23,event24,event25".
 s.events = "event22,event23";
-```
+s.events = apl(s.events, "event23,event24,event25");
 
-... y se ejecuta el siguiente código...
-
-```js
-s.events = s.apl(s.events, "event23,event24,event25");
-```
-
-... el valor final de s.events es:
-
-```js
-s.events = "event22,event23,event24,event25");
-```
-
-El complemento no añade “event23” a s.events porque ya existe en s.events.  Sin embargo, sí añade event24 y event25 a s.events porque no se incluyeron en s.events anteriormente.
-
-### Ejemplo 8
-
-Si...
-
-```js
+// Sets linkTrackVars to "events,eVar1,campaign".
+// The last three arguments at the end of this apl call are not necessary because they match the default argument values.
 s.linkTrackVars = "events,eVar1";
-```
+s.linkTrackVars = apl(s.linkTrackVars, "campaign", ",", ",", false);
 
-... y se ejecuta el siguiente código...
-
-```js
-s.linkTrackVars = s.apl(s.linkTrackVars, "campaign", ",", ",", false);
-```
-
-... el valor final de s.linkTrackVars es:
-
-```js
-s.linkTrackVars = "events,eVar1,campaign";
-```
-
-Los tres últimos argumentos (p. ej. “,”, “,”, false) al final de esta llamada de apl no son necesarios, pero tampoco “dañan nada” al configurarse, ya que coinciden con los valores de argumento predeterminados.
-
-### Ejemplo 9
-
-Si...
-
-```js
+// This apl call does not do anything because the code does not assign the returned value to a variable.
 s.events = "event22,event24";
+apl(s.events, "event23");
+
+// Sets the list2 variable to "apple-APPLE-Apple".
+// Since the two delimiter arguments are different, the value passed in is delimited by "|", then joined together by "-".
+s.list2 = "apple|APPLE";
+s.list2 = apl(s.list2, "Apple", "|", "-", true);
+
+// Sets the list3 variable to "value1,value1,value1" (unchanged).
+// Only new values are deduplicated. Existing duplicate values remain.
+s.list3 = "value1,value1,value1";
+s.list3 = apl(s.list3,"value1");
 ```
-
-... y se ejecuta el siguiente código...
-
-```js
-s.apl(s.events, "event23");
-```
-
-... el valor final de s.events sigue siendo:
-
-```js
-s.events = "event22,event24";
-```
-
-La ejecución del complemento por sí sola (sin asignar el valor devuelto a una variable) no “restablece” realmente la variable pasada a través del argumento lv.
-
-### Ejemplo 10
-
-Si...
-
-```js
-s.list2 = "casesensitivevalue|casesensitiveValue"
-```
-
-... y se ejecuta el siguiente código...
-
-```js
-s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
-```
-
-... el valor final de s.list2 es:
-
-```js
-s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
-```
-
-Dado que los dos argumentos delimitadores son diferentes, el valor pasado se delimita por el primer argumento delimitador (“|”) y luego se une por el segundo argumento delimitador (“-”).
 
 ## Historial de versiones
 
@@ -323,7 +151,7 @@ Dado que los dos argumentos delimitadores son diferentes, el valor pasado se del
 
 ### 2.5 (18 de febrero de 2016)
 
-* Ahora se utiliza el método `inList` para el procesamiento de comparación.
+* Ahora utiliza la función `inList` para el procesamiento de comparación
 
 ### 2.0 (26 de enero de 2016)
 
