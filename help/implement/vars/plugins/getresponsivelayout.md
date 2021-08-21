@@ -2,10 +2,10 @@
 title: getResponsiveLayout
 description: Determine qué diseño de un sitio web se está viendo en ese momento.
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 94%
+source-wordcount: '528'
+ht-degree: 80%
 
 ---
 
@@ -57,13 +57,13 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## Uso del complemento
 
-El método `getResponsiveLayout` utiliza los siguientes argumentos:
+La función `getResponsiveLayout` utiliza los siguientes argumentos:
 
 * **`ppw`** (obligatorio, entero): El ancho de píxeles máximo que puede tener una ventana del explorador antes de que la página cambie de un diseño vertical para teléfonos a un diseño horizontal para teléfonos
 * **`plw`** (obligatorio, entero): El ancho de píxeles máximo que puede tener una ventana del explorador antes de que la página cambie de un diseño horizontal para teléfonos a un diseño para tableta
-* **`tw`** (obligatorio, booleano): El ancho de píxeles máximo que puede tener una ventana del explorador antes de que la página cambie de un diseño para tableta a un diseño para escritorio
+* **`tw`** (obligatorio, entero): El ancho de píxeles máximo que puede tener una ventana del explorador antes de que la página cambie de un diseño para tableta a un diseño para escritorio
 
-Llamar a este método devuelve una cadena de dos partes. La primera parte utiliza los siguientes valores, según el ancho del explorador y los argumentos anteriores:
+Llamar a esta función devuelve una cadena que contiene dos partes delimitadas por dos puntos (`:`). La primera parte de la cadena contiene uno de los siguientes valores, según la anchura del explorador y los argumentos anteriores:
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
@@ -73,34 +73,22 @@ Llamar a este método devuelve una cadena de dos partes. La primera parte utiliz
 
 La segunda parte de la cadena devuelta son las dimensiones de ancho y alto del explorador. Por ejemplo: `"desktop layout:1243x700"`.
 
-## Llamadas de ejemplo
-
-### Ejemplo 1
-
-Si...
-
-* Su sitio cambia del modo vertical para teléfono al modo horizontal para teléfono cuando el ancho del explorador es mayor de 500 píxeles
-* Su sitio cambia del modo horizontal para teléfono al modo tableta cuando el ancho del explorador es mayor de 700 píxeles
-* Su sitio cambia del modo tableta al modo escritorio cuando el ancho del explorador es mayor de 1000 píxeles
-
-... el siguiente código establecerá eVar10 en el diseño interactivo actual que experimente el visitante, así como las dimensiones y el ancho del explorador
+## Ejemplos
 
 ```js
+// A visitor accesses your site on their laptop. The browser window is maximized.
+// * Your site switches from phone portrait mode to phone landscape mode when the browser width is greater than 500 pixels
+// * Your site switches from phone landscape mode to tablet mode when the browser width is greater than 700 pixels
+// * Your site switches from tablet mode to desktop mode when the browser width is greater than 1000 pixels
+// Sets eVar10 to "desktop layout:1920x937".
 s.eVar10 = getResponsiveLayout(500, 700, 1000);
-```
 
-### Ejemplo 2
-
-Si...
-
-* Su sitio solo tiene un modo de teléfono, un modo de tableta y un modo de escritorio
-* Su sitio cambia del modo de teléfono al modo de tableta cuando el ancho del explorador es mayor de 500 píxeles
-* Su sitio cambia del modo tableta al modo escritorio cuando el ancho del explorador es mayor de 1.100 píxeles
-
-... el siguiente código establecerá eVar10 en el diseño interactivo actual que experimente el visitante, así como las dimensiones y el ancho del explorador
-
-```js
-s.eVar10 = getResponsiveLayout(500, 500, 1100);
+// A visitor accesses your site on their phone.
+// * Your site has only a phone mode, a tablet mode, and a desktop mode
+// * Your site switches from phone mode to tablet mode when the browser width is greater than 800 pixels
+// * Your site switches from tablet mode to desktop mode when the browser width is greater than 1,100 pixels
+// Sets eVar10 to "phone portrait layout:720x1280"
+s.eVar10 = getResponsiveLayout(800, 800, 1100);
 ```
 
 ## Historial de versiones
