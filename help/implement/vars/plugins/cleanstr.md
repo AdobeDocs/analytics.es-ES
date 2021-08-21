@@ -2,10 +2,10 @@
 title: cleanStr
 description: Eliminación o sustitución de todos los caracteres innecesarios de una cadena.
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 82%
+source-wordcount: '459'
+ht-degree: 75%
 
 ---
 
@@ -57,51 +57,24 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## Uso del complemento
 
-El método `cleanStr` utiliza los siguientes argumentos:
+La función `cleanStr` utiliza los siguientes argumentos:
 
 * **`str`** (obligatorio, cadena): El valor que desea para limpiar la codificación HTML, los espacios en blanco adicionales, las pestañas u otros caracteres innecesarios.
 
-El método recupera el valor del argumento `str` con todos los caracteres innecesarios eliminados.
+La función devuelve el valor del argumento `str` con todos los caracteres innecesarios eliminados.
 
 ## Ejemplos
 
-### Ejemplo 1
-
-Supongamos lo siguiente (donde los puntos representan espacios y las flechas representan caracteres de tabulación)
-
 ```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-Al ejecutar el siguiente código...
-
-```js
+// Returns the value "this is a messystring". Note that both tabs and extra spaces are present in the original string.
+// Multiple spaces are reduced to one, while tabs are omitted entirely.
+s.eVar1 = "  this  is a      messy  string    ";
 s.eVar1 = cleanStr(s.eVar1)
+
+// This function call does not do anything because the code does not assign the returned value to a variable.
+s.eVar1 = "  this  is a      messy  string    ";
+cleanStr(s.eVar1);
 ```
-
-... eVar1 se configura igual a “esto es una cadena de mensajes” (con todos los espacios adicionales y todos los caracteres de tabulación eliminados).
-
-### Ejemplo 2
-
-Si...
-
-```js
-s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-... y se ejecuta el siguiente código...
-
-```js
-cleanStr(s.eVar1)
-```
-
-... el valor final de s.eVar1 sigue siendo:
-
-```js
-"»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
-```
-
-La ejecución del complemento por sí sola (sin asignar el valor devuelto a una variable) no “restablece” realmente la variable pasada a través del argumento str.
 
 ## Historial de versiones
 
