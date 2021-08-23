@@ -2,10 +2,10 @@
 title: Uso de datos XDM con Analytics
 description: Información general sobre el uso de datos XDM de Experience Platform en Adobe Analytics
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
-source-git-commit: 501b64c7704c234b21a5ccb428883bc6fcaf166a
+source-git-commit: 3def20b348713b580429e342ad3319963cae6549
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 96%
+source-wordcount: '270'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ Analytics recopila datos de XDM mediante dos métodos:
 
 ## Asignación automática
 
-La asignación automática se basa en un [esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es) predeterminado del XDM que rellena automáticamente los objetos JSON que se incluyen en la recopilación de datos típica de Analytics. Las variables de Analytics que se asignan automáticamente del XDM a los grupos de informes configurados no requieren la asistencia del desarrollador para la incorporación.
+La asignación automática se basa en un [esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=es) predeterminado del XDM que rellena automáticamente los objetos JSON que se incluyen en la recopilación de datos típica de Analytics. Las variables de Analytics que se asignan automáticamente del XDM a los grupos de informes configurados no requieren la asistencia del desarrollador para la incorporación. Consulte [Variables asignadas automáticamente en Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html) en la guía del usuario del SDK web de Platform.
 
 ## Asignación manual
 
