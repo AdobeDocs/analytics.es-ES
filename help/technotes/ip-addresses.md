@@ -2,10 +2,10 @@
 title: IP y dominios utilizados por Adobe Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: d941e4308352d6228e73bc7f7443a36ffd374b0c
+source-git-commit: 881d78ef8f6ca5422e286f8cc472ea03a52b1068
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,7 @@ La siguiente tabla abarca todos los servidores de recopilación de datos estánd
 
 ## Bloques de direcciones IP de FTP y recopilación de datos
 
-Si su organización prefiere permitir intervalos específicos de direcciones IP, puede utilizar la siguiente tabla. Todos los intervalos de esta sección se incluyen en la tabla anterior.
+Si su organización prefiere permitir intervalos específicos de direcciones IP, puede utilizar la siguiente tabla. Todos los intervalos de esta sección se incluyen en la tabla anterior. Las conexiones FTP para fuentes de datos y de Data Warehouse solo se originan en las ubicaciones de Londres, Oregón y Singapur.
 
 | Ubicación | Intervalo IP (Notación CIDR) |
 | --- | --- |
