@@ -3,10 +3,10 @@ description: 'Obtenga más información sobre '
 title: Tipo de métrica y atribución
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 100%
+source-wordcount: '871'
+ht-degree: 97%
 
 ---
 
@@ -27,13 +27,11 @@ Si selecciona el icono de engranaje junto a una métrica, puede especificar el t
 
 >[!IMPORTANT]
 >
->[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) revisa la forma en que se evalúan los modelos de asignación en las métricas calculadas. Como parte de este cambio, las métricas calculadas que usan un modelo de asignación no predeterminado se migraron a los nuevos modelos de atribución mejorados:
+>[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) revisa la forma en que se evalúan los modelos de asignación en las métricas calculadas. Como parte de este cambio, las métricas calculadas que usan un modelo de asignación no predeterminado se migraron a los nuevos modelos de atribución mejorados:
 >
->* Para obtener una lista completa de todos los modelos de atribución no predeterminados y ventanas retroactivas, consulte la documentación de [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html).
+>* Para obtener una lista completa de los modelos de atribución no predeterminados y las ventanas retroactivas, consulte [Modelos de atribución y ventanas retroactivas](/help/analyze/analysis-workspace/attribution/models.md).
 >* Los modelos de asignación “Último toque del canal de marketing” y “Primer toque del canal de marketing” se migrarán a los nuevos modelos de atribución “Último toque” y “Primer toque”, respectivamente. Tenga en cuenta que “Canales de marketing” no dejará de utilizarse, pues únicamente se retirarán los dos modelos de asignación que aparecen en las métricas calculadas.
 >* Además, corregiremos la forma de calcular la asignación lineal. Para los clientes que usan métricas calculadas con modelos de asignación “Lineal”, los informes pueden cambiar ligeramente para reflejar el nuevo modelo de atribución corregido. Este cambio en las métricas calculadas se reflejará en Analysis Workspace, Reports &amp; Analytics, la API de informes y Report Builder. Para obtener más información, consulte **Funcionamiento de la asignación lineal (a partir del 19 de julio de 2018)**.
->
-
 
 
 ## Funcionamiento de la asignación lineal (a partir del 19 de julio de 2018)

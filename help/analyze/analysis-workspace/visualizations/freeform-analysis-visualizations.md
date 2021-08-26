@@ -2,12 +2,12 @@
 description: Representar visualmente los datos con visualizaciones.
 keywords: Analysis Workspace
 title: Resumen de las visualizaciones
-feature: Visualizaciones
+feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1090'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '1071'
 ht-degree: 100%
 
 ---
@@ -77,8 +77,6 @@ Para editar una etiqueta de leyenda:
 
 1. Introduzca el nuevo texto de etiqueta.
 1. Pulse **[!UICONTROL Intro]** para guardar.
-
-Aquí tiene un [vínculo que dirige a un vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=es) sobre este tema.
 
 ## Haga clic con el botón derecho en el menú {#right-click}
 

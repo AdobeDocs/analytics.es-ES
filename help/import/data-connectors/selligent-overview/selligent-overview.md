@@ -2,20 +2,19 @@
 description: Utilice el conector de datos de Selligent con Adobe Analytics.
 title: Data Connectors de Selligent para Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: baeabd9c-10bc-4733-8779-abfa81807c54
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 97%
 
 ---
 
-
-# Data Connectors de Selligent para Adobe Analytics {#selligent-data-connector-for-adobe-analytics}
+# Data Connectors de Selligent para Adobe Analytics{#selligent-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->La vida útil de la tecnología de Adobe Data Connector finalizará el 1 de agosto de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
+>El 1 de agosto de 2021 finalizaremos la vida útil de la tecnología del conector de datos de Adobe. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
 
 Esta integración incluye las siguientes ventajas clave:
 
@@ -131,7 +130,7 @@ Durante la configuración de esta integración necesita la siguiente informació
 
    La dirección URL puede derivarse de la URL utilizada para iniciar sesión en la solución de Selligent Marketing. Cambie la parte “/simweb/login.aspx” de la dirección URL por “/automation/omniture.asmx”.
 
-   Por ejemplo: `http://<client-specific install url>/automation/omniture.asmx`.
+   Por ejemplo: `https://<client-specific install url>/automation/omniture.asmx`.
 
 * **Parámetros de cadena de consulta**: se anexan en la dirección URL de la página de aterrizaje para el ID de mensaje y el ID de destinatario (ID de visitante). Siempre son MID y RID para ID de mensaje e ID de destinatario, respectivamente.
 

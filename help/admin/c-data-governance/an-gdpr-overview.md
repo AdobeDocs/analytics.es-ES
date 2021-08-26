@@ -3,9 +3,9 @@ description: En este documento se describe lo que debe hacer en Adobe Analytics 
 title: Adobe Analytics y el RGPD
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '613'
 ht-degree: 97%
 
 ---
@@ -46,7 +46,6 @@ Consulte [Etiquetado de datos de grupos de informes](/help/admin/c-data-governan
 
 * Familiarícese con la [terminología del RGPD.](/help/admin/c-data-governance/gdpr-terminology.md)
 * Vincule su empresa de inicio de sesión a una organización de Experience Cloud, si no lo ha hecho ya. Póngase en contacto con el servicio de atención al cliente de Adobe y consulte [Organizaciones y vinculación de cuentas.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es)
-* Asigne cualquier grupo de informes de Adobe Analytics que desee configurar para el control de datos a [su organización de Experience Cloud.](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)
 * Establezca una política de retención de datos para cada grupo de informes a fin de poder satisfacer las solicitudes de acceso y eliminación del RGPD.
 
    >[!NOTE]

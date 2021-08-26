@@ -1,12 +1,12 @@
 ---
 description: Le permite utilizar el segmento para actividades de marketing en la biblioteca de audiencias, Target y Audience Manager.
 title: Publicación de segmentos en Experience Cloud
-feature: Segmentación
+feature: Segmentation
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 190c05f7c0bf8c8ae0524a5635ff468a053abedd
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1300'
 ht-degree: 100%
 
 ---
@@ -25,10 +25,8 @@ También hemos aumentado el número máximo de segmentos de Adobe Analytics edit
 ## Requisitos previos
 
 * Asegúrese de que el grupo de informes en el que está guardando este segmento está [habilitado para Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=es). De lo contrario, no podrá publicarlo en Experience Cloud.
-* Asegúrese de que está trabajando en un grupo de informes [asignado a su organización de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 * Asegúrese de que su organización utiliza Experience Cloud ID.
 * Para poder publicar segmentos, el administrador debe asignar el permiso [!UICONTROL Publicación de segmentos] a un perfil de producto en [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es) y agregarlo al perfil de producto.
-
 
 ## Consideraciones
 

@@ -2,10 +2,10 @@
 title: Análisis entre dispositivos
 description: Cambie los datos de centrados en el dispositivo a centrados en la persona mediante la vinculación de los datos del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
-workflow-type: ht
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Cuando se vinculan dispositivos, la persistencia de las variables se transfiere 
 
 Con un espíritu de colaboración y transparencia, queremos que nuestros clientes sean conscientes de nuestro uso de Microsoft Azure en asociación con Análisis entre dispositivos. Adobe utiliza Azure para almacenar datos de gráficos de dispositivos y vincular dispositivos. De este modo, los datos de Adobe Analytics se pasan de un lado a otro entre el centro de procesamiento de datos de Adobe y las instancias proporcionadas por Adobe en Microsoft Azure.
 
-Consulte [Journey IQ: Página de demostración de análisis entre dispositivos](http://adobe.ly/aacda) para obtener más información sobre las funciones y características de Análisis entre dispositivos.
+Consulte [Journey IQ: Página de demostración de análisis entre dispositivos](https://adobe.ly/aacda) para obtener más información sobre las funciones y características de Análisis entre dispositivos.
 
 ## Requisitos previos
 

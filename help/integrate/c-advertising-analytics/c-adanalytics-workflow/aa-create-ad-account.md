@@ -2,10 +2,10 @@
 title: Configuración de una cuenta de publicidad en Advertising Analytics
 description: Permite crear nuevas cuentas de publicidad y asignar varias cuentas a varios grupos de informes.
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '863'
-ht-degree: 100%
+source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 98%
 
 ---
 
@@ -64,24 +64,24 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
 
    >[!IMPORTANT]
    >
-   >Solo los grupos de informes que se hayan [asignado a una organización de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) estarán disponibles para su selección. Si su grupo de informes no se incluye en la lista, consulte [Solucionar problemas de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Solo los grupos de informes asignados a una organización de Experience Cloud están disponibles para su selección. Si su grupo de informes no se incluye en la lista, consulte [Solucionar problemas de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
    Para la **[!UICONTROL configuración de la asignación]**, siga estas directrices:
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Configuración </th> 
-      <th colname="col2" class="entry"> Descripción </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Asignación de grupos de informes </p> </td> 
-      <td colname="col2"> <p>La asignación de grupos de informes determina el grupo de informes que se enlaza a la cuenta de este motor de búsqueda. En otras palabras, determina a qué grupo(s) de informes se envían los datos del motor de búsqueda. </p> <p>Si su grupo de informes no se incluye en la lista, puede <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >asignar el grupo de informes a una organización de Experience Cloud</a> mediante esta herramienta. </p> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   <thead> 
+   <tr> 
+   <th colname="col1" class="entry"> Configuración </th> 
+   <th colname="col2" class="entry"> Descripción </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+   <td colname="col1"> <p>Asignación de grupos de informes </p> </td> 
+   <td colname="col2"> <p>La asignación de grupos de informes determina el grupo de informes que se enlaza a la cuenta de este motor de búsqueda. En otras palabras, determina a qué grupo(s) de informes se envían los datos del motor de búsqueda. </p> </td>
+   </tr> 
+   </tbody> 
+   </table>
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 1. Después de guardar, se muestra una lista de advertencias en un mensaje de exención de responsabilidad. Se le pedirá que confirme haber leído y entendido este contrato. Haga clic en la casilla de selección y, después, en **[!UICONTROL Aceptar]**.

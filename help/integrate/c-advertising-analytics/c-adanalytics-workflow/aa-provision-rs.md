@@ -3,9 +3,9 @@ description: Configure un grupo de informes asignado a Experience Cloud para uti
 title: Activación de un grupo de informes para Advertising Analytics
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '281'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,6 @@ ht-degree: 100%
 
 Para poder consultar los datos de búsqueda de Advertising Analytics en Analytics, debe configurar la opción de informes de Advertising Analytics en cada grupo de informes asignado a Experience Cloud.
 
-1. [Asigne su grupo de informes a una organización](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 1. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
 
 1. Seleccione el grupo de informes asignado a su organización de Experience Cloud.

@@ -2,10 +2,10 @@
 title: Fin de vida útil para fuentes de datos de procesamiento completo
 description: Razones para finalizar la vida útil y comparaciones entre la API de inserción de datos en lote y las fuentes de datos de procesamiento completo.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '1233'
-ht-degree: 31%
+ht-degree: 32%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 31%
 
 Durante varios años, las fuentes de datos de procesamiento completo han permitido enviar datos de nivel de visita a Adobe Analytics. Estos datos se procesaron del mismo modo que los datos recopilados mediante nuestras bibliotecas JavaScript y el SDK de la aplicación móvil. En 2020, Adobe lanzó la [API de inserción masiva de datos](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md), que realiza las mismas funciones que las fuentes de datos de procesamiento completo, pero con funciones adicionales. En este tema se proporcionan detalles sobre la funcionalidad adicional proporcionada por la API de inserción de datos en lote y se describen las diferencias en los formatos de archivo.
 
-A partir del 25 de marzo de 2021, Adobe impedirá que se creen nuevas conexiones de fuentes de datos de procesamiento completo. Las conexiones existentes seguirán siendo compatibles hasta que el servicio quede totalmente obsoleto el 31 de julio de 2021. Además de nuestra documentación estándar, proporcionamos una explicación detallada de los [pasos necesarios para enviar datos mediante la API de inserción de datos en lote](http://adobe.ly/aabdia).
+A partir del 25 de marzo de 2021, Adobe impedirá que se creen nuevas conexiones de fuentes de datos de procesamiento completo. Las conexiones existentes seguirán siendo compatibles hasta que el servicio quede totalmente obsoleto el 31 de julio de 2021. Además de nuestra documentación estándar, proporcionamos una explicación detallada de los [pasos necesarios para enviar datos mediante la API de inserción de datos en lote](https://adobe.ly/aabdia).
 
 ## ¿Por qué queremos dejar de usar esta función?
 
@@ -23,7 +23,7 @@ La API de inserción masiva de datos (BDIA) proporciona funcionalidad adicional 
 
 * La inserción masiva de datos permite enviar varios archivos que se pueden procesar en paralelo. Puede utilizar Grupos de visitantes para garantizar la continuidad del visitante y la atribución de eVar.
 * La inserción masiva de datos tiene funciones de validación de datos y de gestión de errores, lo que elimina parte del trabajo administrativo del envío de datos de visitas.
-* La inserción masiva de datos admite varias opciones para los ID de visitante. Puede enviar tanto el ID de Analytics como el ID de Marketing Cloud (consulte [Servicio de identidad](https://experienceleague.adobe.com/docs/id-service/using/home.html) para obtener más información). Además, puede utilizar su propio ID como [semilla para generar un ECID](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md#customer-id-and-experience-cloud-visitor-id-seeds).
+* La inserción masiva de datos admite varias opciones para los ID de visitante. Puede enviar tanto el ID de Analytics como el ID de Marketing Cloud (consulte [Servicio de identidad](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) para obtener más información). Además, puede utilizar su propio ID como [semilla para generar un ECID](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md#customer-id-and-experience-cloud-visitor-id-seeds).
 * La inserción masiva de datos admite variables de datos de lista y contexto.
 * La inserción masiva de datos no admite datos de Activity Map.
 

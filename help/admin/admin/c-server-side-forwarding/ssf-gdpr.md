@@ -3,16 +3,16 @@ description: Explica las mejoras en el reenvío del lado del servidor que se han
 title: Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 80%
+ht-degree: 79%
 
 ---
 
 # Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor
 
-En esta sección se explican las mejoras en el reenvío del lado del servidor que se debieron a la [normativa de cumplimiento de cookies de la UE](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), que entró en vigor el 30 de septiembre de 2017.
+En esta sección se explican las mejoras en el reenvío del lado del servidor que se debieron a la [normativa de cumplimiento de cookies de la UE](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+y+similares+tecnologías), que entró en vigor el 30 de septiembre de 2017.
 
 El reenvío del lado del servidor se utiliza para compartir en tiempo real datos de Adobe Analytics con otras soluciones de [!DNL Experience Cloud Solutions], como Audience Manager. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de Experience Cloud. Asimismo, también permite a estas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
 

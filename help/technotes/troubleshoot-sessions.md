@@ -2,11 +2,10 @@
 title: Solución de problemas de sesión de Adobe Analytics
 description: Obtenga información sobre cómo resolver problemas relacionados con la desconexión de Adobe Analytics.
 exl-id: 191250ef-8313-47be-9717-046cce870998
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +23,7 @@ Para determinar si la red corporativa a la que se ha conectado interfiere con el
 
 ## Problemas debidos a proxies
 
-Adobe utiliza un encabezado de autorización cuando realiza solicitudes a Adobe. Algunos proxies, como Bluecoat (ahora propiedad de Symantec), eliminan la información clave del encabezado de autorización utilizado por Adobe Analytics. Si Adobe no ve el encabezado de autorización, la sesión caduca.
+Adobe utiliza un encabezado de autorización cuando realiza solicitudes a Adobe. Algunos proxies, como Edge Secure Web Gateway (anteriormente Bluecoat), eliminan la información crítica del encabezado de autorización utilizado por Adobe Analytics. Si Adobe no ve el encabezado de autorización, la sesión caduca.
 
 Para resolver este problema, Adobe recomienda pedir ayuda al equipo informático de su organización para evitar que un proxy interfiera con el encabezado de autorización.
 
@@ -32,7 +31,7 @@ Para resolver este problema, Adobe recomienda pedir ayuda al equipo informático
 >
 >Aunque los miembros de la comunidad de Analytics han encontrado útiles los siguientes vínculos, no son propiedad de Adobe. Tenga en cuenta esta nota cuando visualice su contenido.
 
-Encontrará información sobre los proxies de Symantec y sobre los encabezados de autenticación aquí:
+Encontrará información sobre los proxies de y sobre los encabezados de autenticación aquí:
 
-* [Configure la autenticación de proxy ascendente en una implementación de cadena de proxy en un dispositivo ProxySG o ASG](https://support.symantec.com/en_US/article.TECH246122.html)
-* [Permita a ProxySG realizar siempre un reenvío ascendente de la autorización del servidor](https://support.symantec.com/en_US/article.TECH244708.html)
+* [Configure la autenticación de proxy ascendente en una implementación de cadena de proxy en un dispositivo ProxySG o ASG](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
+* [Reenviar las credenciales de usuario a un servidor detrás del dispositivo ProxySG](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
