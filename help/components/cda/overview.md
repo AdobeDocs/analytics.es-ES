@@ -2,10 +2,10 @@
 title: Análisis entre dispositivos
 description: Cambie los datos de centrados en el dispositivo a centrados en la persona mediante la vinculación de los datos del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 844df9d632f9e9cceb6c882f81360a83891e2143
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 99%
+source-wordcount: '771'
+ht-degree: 95%
 
 ---
 
@@ -15,6 +15,10 @@ Análisis entre dispositivos es una función que transforma Analytics de una vis
 
 * [**Vinculación basada en el campo**](field-based-stitching.md): Permite elegir una variable de Analytics como base para la vinculación entre dispositivos en un grupo de informes virtuales. Utiliza la coincidencia determinística para vincular dispositivos. Adobe recomienda utilizar la vinculación basada en el campo para los casos de uso de coincidencia más determinísticos.
 * [**Gráfico del dispositivo**](device-graph.md): CDA se comunica con un gráfico del dispositivo para vincular dispositivos. El gráfico de cooperación utiliza coincidencia determinística y probabilística.
+
+>[!NOTE]
+>
+>Obtenga más información sobre el [fin de vida útil de Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html).
 
 Con CDA, puede dar respuesta a preguntas como:
 
@@ -44,10 +48,11 @@ El análisis entre dispositivos es una característica innovadora y sólida, per
 * CDA solo está disponible a través de Analysis Workspace.
 * El análisis entre dispositivos no funciona en todos los grupos de informes ni combina datos de varios grupos de informes.
 * Los grupos de informes de Adobe Analytics no pueden asignarse a más de una organización de IMS. Dado que CDA vincula dispositivos dentro de un grupo de informes determinado, CDA no se puede usar para unir datos en varias organizaciones IMS.
-* Private Graph aprovecha las mismas sincronizaciones de ID que las utilizadas por la capacidad [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es#customer-attributes) ubicada en Experience Cloud y Adobe Analytics. Sin embargo, los grupos de informes virtuales de CDA (basados en gráficos privados o en la identificación entre dispositivos basada en campos) no son compatibles con el resto de la funcionalidad Atributos del cliente. Es decir, las dimensiones basadas en atributos del cliente no están disponibles para su uso en los grupos de informes virtuales de CDA.
+* Private Graph aprovecha las mismas sincronizaciones de ID que las utilizadas por la capacidad [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#customer-attributes) ubicada en Experience Cloud y Adobe Analytics. Sin embargo, los grupos de informes virtuales de CDA (basados en gráficos privados o en la identificación entre dispositivos basada en campos) no son compatibles con el resto de la funcionalidad Atributos del cliente. Es decir, las dimensiones basadas en atributos del cliente no están disponibles para su uso en los grupos de informes virtuales de CDA.
 * En la actualidad, CDA no es compatible con A4T.
 * Análisis entre dispositivos utiliza un grupo de informes virtuales y un procesamiento de tiempo de informes, que tienen sus propias limitaciones. Consulte [Grupos de informes virtuales](../vrs/vrs-about.md) y [Procesamiento de tiempo de los informes](../vrs/vrs-report-time-processing.md) para saber más sobre estas limitaciones.
 * La API 1.4 no es compatible. Los conectores de Power BI y Report Builder dependen de la API 1.4 y, por lo tanto, no son compatibles con CDA.
-* Los datos históricos del grupo de informes virtuales cambian según el reconocimiento y la vinculación de dispositivos de Adobe. Los datos del grupo de informes de origen no cambian.
 * La monitorización activa del proceso de vinculación de CDA por Adobe se limita solo a los grupos de informes de producción.
 * Actualmente, CDA no es compatible con la [API de reparación de datos](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) de Adobe Analytics
+* Los datos históricos del grupo de informes virtuales cambian según el reconocimiento y la vinculación de dispositivos de Adobe. Los datos del grupo de informes de origen no cambian.
+* Los datos con título siguen una latencia de 8 a 12 horas.

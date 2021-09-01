@@ -2,10 +2,10 @@
 title: Vinculación basada en el campo
 description: Comprenda los requisitos previos y las limitaciones de la vinculación de datos mediante la vinculación basada en el campo.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
+source-git-commit: 71148b13e3fb72dfe09f5f25f11d5e12f30e0bc0
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 94%
+source-wordcount: '509'
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,8 @@ Si tiene intención de implementar el análisis entre dispositivos mediante la v
 >Si no se cumplen todos los requisitos previos, es posible que no se pueda habilitar el análisis entre dispositivos o que se obtengan resultados deficientes al vincular datos.
 
 * Todos los requisitos previos enumerados en la [página de información general](overview.md).
-* Su implementación debe establecer una prop o un eVar que identifique de forma exclusiva a un individuo siempre que sea posible, como cuando un usuario inicia sesión o abre un correo electrónico. Este requisito se aplica a todas las plataformas, incluidas las aplicaciones móviles, si se utilizan. Comunique la variable de identificación que desee al administrador de cuentas cuando se aprovisione para la vinculación basada en el campo.
+* Su implementación debe establecer una prop o un eVar que identifique de forma exclusiva a un individuo siempre que sea posible, como cuando un usuario inicia sesión o abre un correo electrónico. Este requisito se aplica a todas las plataformas, incluidas las aplicaciones móviles, si se utilizan. Evite asignar un valor predeterminado a la prop o al eVar.
+* Comunique la variable de identificación que desee al administrador de cuentas cuando se aprovisione para la vinculación basada en el campo.
 
 ## Limitaciones específicas de la vinculación basada en el campo
 

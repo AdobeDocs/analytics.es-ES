@@ -2,11 +2,10 @@
 title: Cómo funcionan las reproducciones
 description: Comprensión del concepto "reproducción" en Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 95%
 
 ---
 
@@ -48,6 +47,10 @@ Tanto las visitas no autenticadas como las autenticadas en los nuevos dispositiv
 * **Si se utiliza la vinculación basada en campos,** las visitas no autenticadas en dispositivos reconocidos se vinculan en directo a partir de ese momento.
 
    La atribución funciona tan pronto como la variable personalizada de identificación se vincula a un dispositivo. En el ejemplo anterior, todas las visitas, excepto la 1 y la 3, están vinculadas en tiempo real (todas utilizan el identificador `Bob`). La atribución funciona en las visitas 1 y 3 tras la reproducción de la vinculación.
+
+>[!NOTE]
+>
+>Las visitas con marca de tiempo anteriores a 12 horas no se vinculan en el flujo en directo. Sin embargo, estas visitas se incluyen en la vinculación de Reproducción, siempre que entren en la ventana de retrospectiva de reproducción.
 
 ### Reproducción de la vinculación
 

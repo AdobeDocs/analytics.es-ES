@@ -2,10 +2,10 @@
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
-workflow-type: ht
-source-wordcount: '1674'
-ht-degree: 100%
+source-git-commit: 966e013cb6119696cbd058368c90f2bbef0bc9ae
+workflow-type: tm+mt
+source-wordcount: '1780'
+ht-degree: 94%
 
 ---
 
@@ -114,3 +114,11 @@ Las ventajas de utilizar la ventana retrospectiva de reproducción de 1 día son
 ## ¿Qué sucede con los datos vinculados dentro de mi grupo de informes virtuales de CDA si mi compañía decide reducir la categoría a partir de Analytics Ultimate?
 
 Si un cliente abandona Ultimate, ya no tendrá acceso a los datos enlazados. Se eliminarán todos los datos enlazados anteriormente. Esto significa que los grupos de informes virtuales de CDA ahora no reflejarán la vinculación entre dispositivos. Los datos serán similares al grupo de informes no enlazado original.
+
+## ¿Por qué el número total de visitas es diferente entre mi grupo de informes de origen y el grupo de informes virtuales CDA?
+
+CDA utiliza una compleja canalización de procesamiento paralela, con varios componentes dependientes. Se espera una discordancia de datos de aproximadamente el 1 % para el número total de visitas entre el grupo de informes original y el grupo de informes virtuales CDA. Tiene un impacto mínimo en las capacidades entre dispositivos.
+
+## ¿Por qué está inflada la métrica &quot;Personas identificadas&quot;?
+
+Si el recuento es ligeramente superior a lo esperado, un valor de eVar puede pertenecer a más de una persona identificada debido a [conflictos de hash](/help/implement/validate/hash-collisions.md). Si el recuento es mucho mayor de lo esperado, póngase en contacto con el Servicio de atención al cliente para conocer los pasos adicionales para solucionar el problema.
