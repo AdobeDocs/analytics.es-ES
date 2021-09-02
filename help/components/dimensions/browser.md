@@ -3,9 +3,9 @@ title: Explorador
 description: Nombre y versión del explorador utilizado.
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
