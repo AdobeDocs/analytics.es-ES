@@ -3,9 +3,9 @@ title: Util.cookieWrite
 description: Escribe un valor para una cookie.
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Las cookies pueden almacenar y recuperar información entre páginas del mismo d
 
 ## Configuración de cookies mediante etiquetas en Adobe Experience Platform
 
-La interfaz de usuario de recopilación de datos no permite establecer cookies en la interfaz. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+La IU de recopilación de datos no permite establecer cookies en la interfaz. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.Util.cookieWrite() en el editor de código personalizado de AppMeasurement y 
 
