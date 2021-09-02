@@ -3,9 +3,9 @@ title: zip
 description: Rellene manualmente la dimensión “Código postal” si la configuración del grupo de informes lo permite.
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ La variable `zip` permite rellenar manualmente la dimensión “Código postal�
 
 Puede establecer el código postal al configurar la extensión Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
