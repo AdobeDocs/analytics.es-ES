@@ -5,9 +5,9 @@ title: Administrar Canales de marketing
 feature: Conceptos básicos de Reports & Analytics
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 source-git-commit: 2a63ff1072964df823edd09d844630e99c0afd8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Se recomienda desactivar la opción de anulación del último contacto para los 
 
 Para que los canales y sus datos puedan aparecer en el informe, debe crear los canales y las reglas subyacentes que procesan los datos. También puede especificar cuánto tiempo desea que dure el [periodo de compromiso del visitante](/help/components/c-marketing-channels/visitor-engagement.md).
 
-Adobe proporciona varios canales predefinidos durante una [configuración automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md) que puede editar para adaptarlos a sus necesidades. Además, puede modificar esta configuración y definir reglas personalizadas dentro de [reglas de procesamiento del canal de marketing](/help/components/c-marketing-channels/c-rules.md).
+Adobe proporciona varios canales predefinidos durante una [configuración automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md) que puede editar para adaptarlos a sus necesidades. Además, puede modificar esta configuración y definir reglas personalizadas dentro de las [Reglas de procesamiento del canal de marketing](/help/components/c-marketing-channels/c-rules.md).
 
 >[!NOTE]
 >
