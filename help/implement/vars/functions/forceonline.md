@@ -3,9 +3,9 @@ title: forceOnline
 description: Establezca manualmente el estado en línea de AppMeasurement.
 exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ El método `forceOnline()` permite anular el estado detectado automáticamente d
 
 AppMeasurement detecta automáticamente el estado en línea del dispositivo. Puede utilizar el método `forceOnline()` para obligar a AppMeasurement a tratar las visitas como si el dispositivo estuviera en línea. Este método no toma ningún argumento y no devuelve ningún valor. Su único propósito es sobrescribir el estado en línea en AppMeasurement.
 
-## Forzar en línea mediante etiquetas en Adobe Experience Platform
+## Forzado de la conexión mediante etiquetas en Adobe Experience Platform
 
-No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.forceOnline() en el editor de código personalizado de AppMeasurement y 
 
