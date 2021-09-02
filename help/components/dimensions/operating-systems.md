@@ -3,9 +3,9 @@ title: Sistema operativo
 description: El sistema operativo del visitante.
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
