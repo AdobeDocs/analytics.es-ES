@@ -3,15 +3,15 @@ title: AppMeasurement para JavaScript
 description: Obtenga información sobre cómo implementar Adobe Analytics mediante JavaScript sin un sistema de administración de etiquetas.
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # AppMeasurement para JavaScript
 
-Históricamente, AppMeasurement para JavaScript ha sido un método común para implementar Adobe Analytics. Sin embargo, con la creciente popularidad de los sistemas de administración de etiquetas, se recomienda utilizar etiquetas [en Adobe Experience Platform](../launch/overview.md).
+Históricamente, AppMeasurement para JavaScript ha sido un método común para implementar Adobe Analytics. Sin embargo, con la creciente popularidad de los sistemas de administración de etiquetas, se recomienda utilizar [etiquetas en Adobe Experience Platform](../launch/overview.md).
 
 ## Flujo de trabajo general que envía datos a Adobe mediante JavaScript
 
