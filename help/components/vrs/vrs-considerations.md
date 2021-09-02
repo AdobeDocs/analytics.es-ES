@@ -6,9 +6,9 @@ feature: Configuración del grupo de informes
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1756'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Si opta por eliminar llamadas secundarias al servidor en favor de los grupos de 
    * Se recomienda utilizar el [apilamiento de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) para poder editar un segmento en una ubicación y aplicarlo a todos los grupos de informes virtuales dependientes.
    * Utilice contenedores de visita si desea que los grupos de informes virtuales sean más excluyentes de manera mutua.
 2. Después de confirmar que los grupos de informes virtuales están correctamente configurados, elimine los ID del grupo de informes secundario de la implementación. Para eliminar los grupos de informes secundarios:
-   * En la interfaz de usuario de la recopilación de datos en Adobe Experience Platform, haga clic en la &quot;x&quot; junto a los grupos de informes que ya no desee usar.
+   * En la IU de recopilación de datos de Adobe Experience Platform, haga clic en la “x” junto a los grupos de informes que ya no desee utilizar.
    * En implementaciones de JavaScript antiguas, ubique la variable `s.account` y elimine todos los ID de los grupos de informes que ya no desee usar.
    * En todos los casos, deje solo el ID del grupo de informes global/principal para recopilar datos para sus sitios y aplicaciones.
    * Vaya a Administración > Grupos de informes y oculte los grupos de informes secundarios que ya no se utilicen.
