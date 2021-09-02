@@ -3,9 +3,9 @@ title: t
 description: Envíe una llamada de seguimiento de vista de página a Adobe.
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ Adobe recibe la solicitud de imagen y, a continuación, analiza los parámetros 
 
 ## Llamada de seguimiento de vista de página mediante etiquetas en Adobe Experience Platform
 
-La interfaz de usuario de recopilación de datos tiene una ubicación dedicada configurada como una llamada de seguimiento de vista de página.
+La IU de recopilación de datos tiene una ubicación dedicada configurada como una llamada de seguimiento de vista de página.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en el icono “+”.
