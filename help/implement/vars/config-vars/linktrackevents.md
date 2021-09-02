@@ -3,9 +3,9 @@ title: linkTrackEvents
 description: Determine qué eventos incluir en las solicitudes de imagen de seguimiento de vínculos.
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Platform incluye automáticamente eventos definidos en las visi
 
 >[!IMPORTANT]
 >
->Si establece eventos en la interfaz de usuario de la recopilación de datos mediante el editor de código personalizado, debe incluir el evento en `linkTrackEvents` mediante el uso del código personalizado.
+>Si establece eventos en la IU de recopilación de datos mediante el editor de código personalizado, también debe incluir el evento en `linkTrackEvents` mediante el uso del código personalizado.
 
 ## s.linkTrackEvents en el editor de código personalizado de AppMeasurement y 
 
