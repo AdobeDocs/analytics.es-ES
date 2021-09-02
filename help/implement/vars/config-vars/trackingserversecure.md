@@ -3,9 +3,9 @@ title: trackingServerSecure
 description: Determinar la ubicación a la que se envían las solicitudes de imagen en páginas HTTPS.
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ Adobe recopila datos en el sitio mediante la recepción de una solicitud de imag
 >
 >Si se cambia este valor, AppMeasurement buscará cookies en una ubicación diferente. La cantidad de visitantes únicos puede aumentar temporalmente en los informes a medida que las cookies de los visitantes se establecen en la nueva ubicación.
 
-## Servidor de seguimiento SSL que utiliza etiquetas en Adobe Experience Platform
+## Servidor de seguimiento SSL con etiquetas en Adobe Experience Platform
 
 [!UICONTROL El servidor de seguimiento SSL] es un campo del acordeón [!UICONTROL General] al configurar la extensión de Adobe Analytics.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL General], que muestra el campo [!UICONTROL Servidor de seguimiento SSL].
