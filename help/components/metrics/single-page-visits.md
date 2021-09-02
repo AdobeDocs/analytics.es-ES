@@ -3,9 +3,9 @@ title: Visitas de página única
 description: El número de veces que el elemento de dimensión “Página” no ha cambiado en una visita.
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
 source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 57%
 
 *En esta página de ayuda se describe cómo funciona “Visitas de página única” como métrica. Consulte la dimensión [Visitas de página única](../dimensions/single-page-visits.md) para obtener más información.*
 
-La métrica [!UICONTROL Visitas de página única] muestra el número de visitas en las que el elemento de dimensión [Página](../dimensions/page.md) solo contenía un valor único para toda la visita. Esta métrica es útil en el contexto de dimensiones en las que desea ver visitas cortas, pero no tiene una regla tan estricta como [[!UICONTROL Devoluciones]](bounces.md).
+La métrica [!UICONTROL Visitas de página única] muestra el número de visitas donde el elemento de la dimensión [Página](../dimensions/page.md) solo contenía un valor único para toda la visita. Esta métrica es útil en el contexto de dimensiones en las que desea ver visitas cortas, pero no tiene reglas tan estrictas como [[!UICONTROL Devoluciones]](bounces.md).
 
 ## Cálculo de esta métrica
 
