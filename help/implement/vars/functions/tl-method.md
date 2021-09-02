@@ -3,9 +3,9 @@ title: tl
 description: Envíe una llamada de seguimiento de vínculos a Adobe.
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '616'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,16 +17,16 @@ Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExterna
 
 ## Llamada de seguimiento de vínculos mediante etiquetas en Adobe Experience Platform
 
-La interfaz de usuario de recopilación de datos tiene una ubicación dedicada configurada como llamada de seguimiento de vínculos.
+La IU de recopilación de datos tiene una ubicación dedicada configurada como llamada de seguimiento de vínculos.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 1. En [!UICONTROL Acciones], haga clic en el icono “+”.
 1. Establezca la lista desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en Enviar señalización.
 1. Haga clic en el botón de opción `s.tl()`.
 
-No se puede establecer ningún argumento opcional en la interfaz de usuario de la recopilación de datos.
+No puede establecer ningún argumento opcional en la IU de recopilación de datos.
 
 ## El método s.tl() en el editor de código personalizado de AppMeasurement y 
 
