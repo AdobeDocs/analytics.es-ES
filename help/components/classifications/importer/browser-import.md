@@ -6,9 +6,9 @@ feature: Herramientas de administración
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -40,6 +40,6 @@ Los datos de clasificación pueden importarse (cargarse) a través del explorado
 1. Configure los campos **[!UICONTROL Importación del explorador]**.
 1. Haga clic en **[!UICONTROL Importar archivo]**.
 1. Observe la ventana de estado para ver los mensajes de procesamiento.
-1. (Condicional) Si activó **[!UICONTROL Descargar automáticamente el archivo de clasificación cuando se haya completado la carga]**, indique dónde desea almacenar el archivo resultante cuando termine el procesamiento. Tenga en cuenta que esta opción no está disponible para los grupos de informes habilitados para la Nueva arquitectura de clasificación.
+1. (Condicional) Si activó **[!UICONTROL Descargar automáticamente el archivo de clasificación cuando se haya completado la carga]**, indique dónde desea almacenar el archivo resultante cuando termine el procesamiento. Tenga en cuenta que esta opción no está disponible para los grupos de informes habilitados para la nueva arquitectura de clasificación.
 
 >Si la importación es correcta, se muestran inmediatamente los cambios correspondientes en una exportación. Pese a ello, los cambios de datos en los informes pueden tardar hasta cuatro horas si utiliza una importación mediante explorador y hasta 24 horas si utiliza una importación mediante FTP.
