@@ -6,9 +6,9 @@ feature: Herramientas de administración
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Para obtener más información acerca de cómo crear una cuenta de FTP, consulte
 1. Cargue el archivo de datos ( [!DNL .tab] o [!DNL .txt]) al servidor FTP.
 1. Una vez cargado el archivo de datos, cargue un archivo FIN que indique el archivo está listo para ser procesado.
 
-   El archivo FIN es un archivo vacío que tiene el mismo nombre que su archivo de datos, con la extensión de nombre de archivo [!DNL .fin]. Por ejemplo, si su archivo de datos es [!DNL classdata1.tab], el nombre del archivo es [!DNL classdata1.fin] .fin.
+   El archivo FIN es un archivo vacío que tiene el mismo nombre que su archivo de datos, con la extensión de nombre de archivo [!DNL .fin]. Por ejemplo, si su archivo de datos es [!DNL classdata1.tab], el nombre del archivo es [!DNL classdata1.fin].fin.
 
 A intervalos periódicos, Adobe recupera los archivos de datos cargados que tienen un archivo FIN asociado. Adobe los importa en los grupos de informes y conjuntos de datos indicados en la configuración de la cuenta FTP.
 
