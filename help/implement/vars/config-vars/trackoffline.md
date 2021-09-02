@@ -3,9 +3,9 @@ title: trackOffline
 description: Habilite o deshabilite el seguimiento sin conexión, que cambia la forma en que AppMeasurement recopila datos.
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Cuando está habilitada, AppMeasurement utiliza el siguiente proceso para enviar
 
 ## Seguimiento sin conexión con etiquetas en Adobe Experience Platform
 
-No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.trackOffline en el editor de código personalizado de AppMeasurement y 
 
