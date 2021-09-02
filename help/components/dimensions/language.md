@@ -3,9 +3,9 @@ title: Idioma
 description: El idioma preferido configurado para el explorador.
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
