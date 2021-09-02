@@ -3,9 +3,9 @@ title: websiteBot
 description: Identifique de forma dinámica los bots moviendo el ratón.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
