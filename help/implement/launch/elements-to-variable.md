@@ -3,9 +3,9 @@ title: Asignación de elementos de datos de etiquetas a variables de Analytics
 description: Asigne elementos de datos a variables de Analytics para que pueda utilizarlos como dimensiones en Analysis Workspace.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -14,33 +14,33 @@ ht-degree: 67%
 Una vez que tenga un repositorio de elementos de datos de etiquetas, puede asignarlos a dimensiones de Analytics.
 
 >[!NOTE]
->Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el siguiente [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) para obtener una referencia consolidada de los cambios terminológicos.
+>Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el siguiente [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=es) para obtener una referencia consolidada de los cambios terminológicos.
 
 ## Requisitos previos
 
-[Asignación de objetos de capa de datos a elementos](layer-to-elements.md) de datos: Asegúrese de comprender los elementos de datos de etiquetas y de tener varios con los que trabajar.
+[Asignar objetos de capa de datos a elementos de datos](layer-to-elements.md): Asegúrese de comprender los elementos de datos de etiquetas y de que tiene varios para trabajar con ellos.
 
 [Cree un documento de diseño de solución](../prepare/solution-design.md): un documento de diseño de soluciones es vital para mantenerse organizado. El documento de diseño de la solución simplifica la asignación de elementos de datos a variables de Analytics.
 
 ## Asignar elementos de datos a variables de Analytics
 
-La publicación de una biblioteca de etiquetas después de seguir estos pasos le permite utilizar dimensiones personalizadas en Analysis Workspace. Puede establecer variables de Analytics de forma global o en reglas individuales.
+La publicación de una biblioteca de etiquetas después de seguir estos pasos le permite usar dimensiones personalizadas en Analysis Workspace. Puede establecer variables de Analytics de forma global o en reglas individuales.
 
 ### Establecer variables globales
 
 Las variables globales son ideales en los casos en los que desee establecer valores de variables en todas las páginas donde exista el elemento de datos.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Haga clic en la propiedad de etiqueta que desee.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad de etiquetas deseada.
 1. Haga clic en la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Configurar] en Adobe Analytics.
 1. Haga clic en el acordeón [!UICONTROL Variables globales], que muestra la interfaz para asignar variables globales.
 
 ### Establecer variables en reglas
 
-Las variables configuradas en las reglas son ideales cuando no desea que se configuren variables en todas las páginas. Los criterios se definen en la regla. Consulte [Reglas](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) en la documentación de etiquetas de Adobe Experience Platform.
+Las variables configuradas en las reglas son ideales cuando no desea que se configuren variables en todas las páginas. Los criterios se definen en la regla. Consulte [Reglas](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=es) en la documentación de etiquetas de Adobe Experience Platform.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Haga clic en la propiedad de etiqueta que desee.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad de etiquetas deseada.
 1. Haga clic en la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla deseada (o cree una).
 1. Haga clic en el botón [!UICONTROL Añadir] en [!UICONTROL Acciones].
 1. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en Establecer variables.
