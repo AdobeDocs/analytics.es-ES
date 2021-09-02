@@ -3,9 +3,9 @@ title: Dominio de referencia original
 description: El primer dominio de referencia en el que se encontraba un visitante antes de hacer clic en el sitio.
 exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
