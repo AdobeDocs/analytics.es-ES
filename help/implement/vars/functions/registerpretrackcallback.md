@@ -3,9 +3,9 @@ title: registerPreTrackCallback
 description: Cree funciones de devolución de llamada antes de enviar una visita a Adobe.
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '265'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Cada vez que llama a la variable `registerPreTrackCallback`, vincula esa funció
 >
 >No se garantiza el tiempo y el orden de las funciones activadas entre `registerPreTrackCallback` y `registerPostTrackCallback`. Evite las dependencias entre estas dos funciones.
 
-## Registro de devoluciones de llamada previo al seguimiento mediante etiquetas en Adobe Experience Platform
+## Registro de devoluciones de llamada previo al seguimiento con etiquetas en Adobe Experience Platform
 
-No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.registerPreTrackCallback en el editor de código personalizado de AppMeasurement y 
 
