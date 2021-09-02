@@ -3,9 +3,9 @@ title: Referente
 description: Dirección URL en la que se encontraba un visitante antes de hacer clic para ir al sitio.
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
