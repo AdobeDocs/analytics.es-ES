@@ -3,9 +3,9 @@ title: Habilitado para Java
 description: Determina si Java está habilitado en el explorador.
 exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
