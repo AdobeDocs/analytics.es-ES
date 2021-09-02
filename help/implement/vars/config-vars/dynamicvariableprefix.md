@@ -3,9 +3,9 @@ title: dynamicVariablePrefix
 description: Permite personalizar la cadena que identifica las variables dinámicas.
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ Las variables dinámicas son un concepto abreviado que permite copiar valores de
 
 De forma predeterminada, las variables dinámicas utilizan el prefijo `D=`. La variable `dynamicVariablePrefix` permite personalizar la cadena que identifica las variables dinámicas. Distingue entre mayúsculas y minúsculas.
 
-## Prefijo de variable dinámica que utiliza etiquetas en Adobe Experience Platform
+## Prefijo de variable dinámica con etiquetas en Adobe Experience Platform
 
 El prefijo de variable dinámica es un campo situado en el acordeón de [!UICONTROL Variables globales] al configurar la extensión de Adobe Analytics.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
 4. Expanda el acordeón de [!UICONTROL Variables globales], que muestra el campo [!UICONTROL Prefijo de variable dinámica].
