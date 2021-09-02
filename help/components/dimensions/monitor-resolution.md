@@ -3,9 +3,9 @@ title: Resolución del monitor
 description: Resolución del monitor del visitante en píxeles.
 exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
