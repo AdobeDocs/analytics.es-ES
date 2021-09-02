@@ -2,13 +2,13 @@
 description: Nuevas funciones de Analysis Workspace.
 keywords: Analysis Workspace
 title: Novedades en Analysis Workspace
-feature: Conceptos básicos de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '8288'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -438,7 +438,7 @@ Nuevas funciones y mejoras publicadas el 8 de marzo de 2018.
    <td colname="col2"> <p>En las plantillas personalizadas recién publicadas: </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">Hemos añadido un icono de plantilla en la parte superior del proyecto (cerca del título) para ayudar a diferenciar el modo de edición de plantilla del hecho de usar una plantilla como punto de partida para un proyecto. </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Hemos permitido que los usuarios que no son administradores puedan crear (guardar como) y editar plantillas de proyecto del Workspace, siempre que se les haya concedido el permiso Crear/presentar proyectos en Analysis Workspace. (<span class="ignoretag"> <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">Todos los administradores</span> &gt; <span class="uicontrol">User management</span> &gt; <span class="uicontrol">Grupos </span> &gt; <span class="uicontrol">Editar acceso a todos los informes</span> &gt; <span class="uicontrol">Personalizar herramientas de Analytics</span> &gt; <span class="uicontrol">Crear/presentar proyectos en Analysis Workspace</span></span>). </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Hemos permitido que los usuarios que no son administradores puedan crear (guardar como) y editar plantillas de proyecto del Workspace, siempre que se les haya concedido el permiso Crear/presentar proyectos en Analysis Workspace. (<span class="ignoretag"> <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">Todos los administradores</span> &gt; <span class="uicontrol">User management</span> &gt; <span class="uicontrol">Grupos </span> &gt; <span class="uicontrol">Editar acceso a todos los informes</span> &gt; <span class="uicontrol">Personalizar herramientas de Analytics</span> &gt; <span class="uicontrol">Crear/presentar proyectos en Analysis Workspace</span> </span>). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -778,7 +778,7 @@ Nuevas funciones lanzadas el 20 de julio de 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>“Obtener vínculo del proyecto” para los inicios de sesión de Experience Cloud</b> </p> </td> 
-   <td colname="col2"> <p>Antes, si iniciaba sesión con las credenciales de Experience Cloud y navegaba a Analytics, no podía utilizar la función <span class="ignoretag"> <span class="uicontrol"> Compartir</span> &gt; <span class="uicontrol"> Obtener vínculo del proyecto</span></span>. Este problema está resuelto. Para que esta opción esté disponible, aún es necesario haber guardado el proyecto. </p> </td> 
+   <td colname="col2"> <p>Antes, si iniciaba sesión con las credenciales de Experience Cloud y navegaba a Analytics, no podía utilizar la función <span class="ignoretag"> <span class="uicontrol"> Compartir</span> &gt; <span class="uicontrol"> Obtener vínculo del proyecto</span> </span>. Este problema está resuelto. Para que esta opción esté disponible, aún es necesario haber guardado el proyecto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Filtro “Proyectos caducados” en el Administrador de proyectos programados </a></b> </p> </td> 
@@ -811,7 +811,7 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Mejoras de <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b> flujo </b></a> </td> 
+   <td colname="col1"> Mejoras de <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b> flujo </b> </a> </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Se ha añadido una nueva configuración de visualización denominada <span class="wintitle"> Inhabilitar el truncado de etiquetas </span> (valor predeterminado = sin marcar). </li> 
@@ -848,7 +848,7 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Mejoras en el <b><a href="/help/components/c-alerts/alert-manager.md"  > Administrador de alertas </a></b> </p> </td> 
+   <td colname="col1"> <p>Mejoras en el <b> <a href="/help/components/c-alerts/alert-manager.md"  > Administrador de alertas </a> </b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">Se ha añadido la posibilidad de habilitar/deshabilitar alertas. </li> 

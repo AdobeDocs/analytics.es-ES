@@ -3,13 +3,13 @@ description: Datos de tabla que describen las columnas de las fuentes de datos.
 keywords: Fuentes de datos, columnas
 subtopic: data feeds
 title: Referencia de columnas de datos
-feature: Conceptos básicos de Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
 workflow-type: tm+mt
-source-wordcount: '3422'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

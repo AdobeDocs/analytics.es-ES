@@ -6,8 +6,8 @@ breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información sobre la administración de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 99%
    + [Widget de publicaciones](admin/publishing-widgets-admin.md)
    + [Administrador de preferencias](admin/preferences-manager.md)
    + [Configuración de privacidad](admin/privacy-settings.md)
-   + [Informes de privacidad](admin/privacy-reporting.md)
+   + [Creación de informes de privacidad](admin/privacy-reporting.md)
    + Reglas de procesamiento {#processing-rules}
       + [Resumen de las reglas de procesamiento](admin/c-processing-rules/processing-rules.md)
       + Configuración de reglas de procesamiento {#processing-rules-configuration}

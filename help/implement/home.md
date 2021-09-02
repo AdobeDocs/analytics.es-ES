@@ -4,8 +4,8 @@ description: Implemente Adobe Analytics en su sitio, propiedad o aplicación.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,15 +28,15 @@ El código JavaScript envía una solicitud de imagen a los servidores de recopil
 
 Adobe Analytics requiere código en el sitio web, la aplicación móvil u otra aplicación para enviar datos a los servidores de recopilación de datos. Hay varios métodos para implementar este código, según la plataforma y las necesidades de la organización.
 
-* **Etiquetas Adobe Experience Platform**: Método estandarizado y recomendado para implementar Adobe Analytics. Coloque una etiqueta de cargador en cada página y utilice la interfaz de usuario de recopilación de datos para determinar cómo se define cada variable.
-* **JavaScript heredado:** Método manual histórico para implementar Adobe Analytics. Describe las variables y la configuración utilizadas en una implementación, que pueden resultar útiles para las implementaciones de etiquetas que usan reglas con código personalizado.
+* **Etiquetas en Adobe Experience Platform**: Método estandarizado y recomendado para implementar Adobe Analytics. Coloque una etiqueta de carga en cada página y utilice la IU de recopilación de datos para determinar cómo se define cada variable.
+* **JavaScript heredado:** Método manual histórico para implementar Adobe Analytics. Esquema de las variables y configuraciones utilizadas en una implementación, que pueden ser útiles para implementaciones de etiquetas utilizando reglas con código personalizado.
 * **SDK móvil**: Bibliotecas dedicadas para enviar fácilmente datos a Adobe desde aplicaciones móviles.
 
 ## Artículos de implementación de Analytics clave
 
 * [Ocuparse de una implementación de Adobe Analytics existente](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
-* [Crear una propiedad de etiqueta en el Experience Platform](launch/create-analytics-property.md)
+* [Creación de una propiedad de etiquetas en Experience Platform](launch/create-analytics-property.md)
 * [Actualizaciones de AppMeasurement](appmeasurement-updates.md)
 
 ## Más guías del usuario de Analytics
@@ -46,6 +46,6 @@ Adobe Analytics requiere código en el sitio web, la aplicación móvil u otra a
 ## Recursos clave de Analytics
 
 * [Contactar con el servicio de atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)
-* [Foro de Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
+* [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos de Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=es)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Experience League](https://experienceleague.adobe.com/?lang=es#home)

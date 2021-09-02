@@ -6,8 +6,8 @@ breadcrumb-title: Guía de componentes
 user-guide-description: Ayude a organizar los datos usando componentes como segmentos, métricas calculadas, grupos de informes virtuales y alertas.
 source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
