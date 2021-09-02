@@ -3,9 +3,9 @@ title: contextData
 description: Las variables de datos de contexto permiten definir variables personalizadas en cada página que puedan leer las reglas de procesamiento.
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Las variables de datos de contexto son útiles para que los equipos de desarroll
 
 ## Variables de datos de contexto que utilizan etiquetas en Adobe Experience Platform
 
-La interfaz de usuario de recopilación de datos no tiene una ubicación dedicada para establecer variables de datos de contexto. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+La IU de recopilación de datos no tiene una ubicación dedicada para establecer variables de datos de contexto. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.contextData en el editor de código personalizado de AppMeasurement y 
 
