@@ -3,9 +3,9 @@ title: list
 description: Variables personalizadas que contienen varios valores en la misma visita.
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Asegúrese de registrar la forma en que utiliza cada variable de lista y su lóg
 
 Asegúrese de configurar cada variable de lista en la configuración del grupo de informes antes de usarla en la implementación. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/list-var-admin.md) en la guía de administración.
 
-## Variables de lista que utilizan etiquetas en Adobe Experience Platform
+## Variables de lista con etiquetas en Adobe Experience Platform
 
-No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## “s.list1 - s.list3” en el editor de código personalizado de AppMeasurement y 
 
