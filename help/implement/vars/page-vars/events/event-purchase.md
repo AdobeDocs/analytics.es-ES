@@ -3,9 +3,9 @@ title: Evento de compra
 description: Utilice el evento de compra para recopilar datos de las métricas “Pedidos”, “Unidades” e “Ingresos”.
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,18 +21,18 @@ Al configurar un evento de compra, este afecta a las siguientes métricas:
 
 >[!NOTE]
 >
->Los ingresos no se multiplican por el campo de cantidad. Por ejemplo, `s.products="Womens;Socks;5;4.50"` no pasa 22,50 $ a los ingresos, sino que pasa 4,50 $. Compruebe que la implementación pasa los ingresos totales en relación con la cantidad enumerada. Por ejemplo: `s.products="Womens;Socks;5;22.50"`.
+>Los ingresos no se multiplican por el campo de cantidad. Por ejemplo, `s.products="Womens;Socks;5;4.50"` no pasa 22,50 $ a los ingresos, sino que pasa 4,50 $. Compruebe que la implementación pasa los ingresos totales en relación con la cantidad enumerada. Por ejemplo:`s.products="Womens;Socks;5;22.50"`.
 
-## Definir el evento de compra mediante etiquetas en Adobe Experience Platform
+## Configuración del evento de compra mediante etiquetas en Adobe Experience Platform
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
 5. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Establecer variables].
 6. Busque la sección [!UICONTROL Eventos] y establezca el menú desplegable Eventos en [!UICONTROL compra].
 
-Otras variables dependientes como `products` y `purchaseID` no tienen campos dedicados en la interfaz de usuario de recopilación de datos. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement para estas variables.
+Otras variables dependientes como `products` y `purchaseID` no tienen campos dedicados en la IU de recopilación de datos. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement para estas variables.
 
 ## Configure el evento de compra en el editor de código personalizado AppMeasurement y 
 
