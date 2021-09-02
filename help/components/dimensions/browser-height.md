@@ -3,9 +3,9 @@ title: 'Altura del explorador: Agrupado'
 description: Altura de la ventana del explorador en píxeles.
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
