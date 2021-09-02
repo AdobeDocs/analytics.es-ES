@@ -3,9 +3,9 @@ title: linkTrackVars
 description: Especifique qué variables se incluirán en las solicitudes de imagen de seguimiento de vínculos.
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
