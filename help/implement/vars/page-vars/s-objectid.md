@@ -3,9 +3,9 @@ title: s_objectID
 description: Ayude a Activity Map a identificar vínculos únicos en el sitio.
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Si la precisión de Activity Map es crucial para su empresa, Adobe recomienda in
 
 ## ID de objeto con etiquetas en Adobe Experience Platform
 
-No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## “s_objectID” en el editor de código personalizado de AppMeasurement y 
 
