@@ -3,9 +3,9 @@ title: useBeacon
 description: useBeacon le permite forzar AppMeasurement para que utilice la API sendBeacon de los navegadores
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ La variable `useBeacon` se omite cuando el visitante utiliza un explorador que n
 
 ## Uso de la señalización mediante etiquetas en Adobe Experience Platform
 
-No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.useBeacon en el editor de código personalizado de AppMeasurement y 
 
