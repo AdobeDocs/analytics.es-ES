@@ -3,9 +3,9 @@ title: Dominio de referencia
 description: Dominio general en el que se encontraba un visitante antes de hacer clic en el sitio.
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '493'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
