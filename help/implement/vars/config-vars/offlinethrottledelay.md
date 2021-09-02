@@ -3,9 +3,9 @@ title: offlineThrottleDelay
 description: Establece la frecuencia de visitas cuando un dispositivo vuelve a conectarse.
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Cuando un dispositivo vuelve a conectarse, todas las visitas almacenadas en el d
 
 ## Retraso de aceleración sin conexión mediante etiquetas en Adobe Experience Platform
 
-No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.offlineThrottleDelay en el editor de código personalizado de AppMeasurement y 
 
