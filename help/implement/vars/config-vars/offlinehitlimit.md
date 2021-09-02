@@ -3,9 +3,9 @@ title: offlineHitLimit
 description: Determinar el número máximo de visitas en cola para el seguimiento sin conexión.
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ La variable `offlineHitLimit` coloca un límite en el número de visitas que alm
 
 ## Límite de visitas sin conexión mediante etiquetas en Adobe Experience Platform
 
-No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.offlineHitLimit en el editor de código personalizado de AppMeasurement y 
 
