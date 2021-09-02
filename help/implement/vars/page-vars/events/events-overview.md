@@ -3,9 +3,9 @@ title: events
 description: Configure la variable “events” (eventos), que gobierna la mayoría de las métricas del sitio.
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ Las dimensiones y las métricas son componentes fundamentales para los informes.
 
 Antes de implementar eventos, asegúrese de crearlos y configurarlos en [Eventos de éxito](/help/admin/admin/c-success-events/success-event.md) en la configuración del grupo de informes. Si planea utilizar eventos personalizados en las visitas de seguimiento de vínculos, asegúrese de que [`linkTrackVars`](../../config-vars/linktrackvars.md) y [`linkTrackEvents`](../../config-vars/linktrackevents.md) están correctamente configurados.
 
-## Eventos que usan etiquetas en Adobe Experience Platform
+## Eventos con etiquetas en Adobe Experience Platform
 
 Puede establecer eventos al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
