@@ -3,9 +3,9 @@ title: products
 description: Enviar datos sobre qué productos se muestran o están en el carro de compras.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ La variable `products` rastrea productos y propiedades vinculados a ellos. Esta 
 
 >[!NOTE]
 >
->Si esta variable se configura en una visita individual sin la variable [`events`](events/events-overview.md) , la métrica [Vistas del producto](/help/components/metrics/product-views.md) se incrementa en 1. Asegúrese de establecer los eventos adecuados en cada visita individual con la variable `products` .
+>Si esta variable se configura en una visita individual sin la variable [`events`](events/events-overview.md), la métrica [Vistas del producto](/help/components/metrics/product-views.md) se incrementa en 1. Asegúrese de establecer los eventos correspondientes en cada visita con la variable `products`.
 
 ## Productos con etiquetas en Adobe Experience Platform
 
-No hay un campo dedicado en la interfaz de usuario de recopilación de datos para establecer esta variable; sin embargo, existen varias extensiones de terceros que pueden ayudar.
+No hay un campo específico en la IU de recopilación de datos para configurar esta variable; sin embargo, existen varias extensiones de terceros que pueden ayudar.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Catálogo] para ver todas las extensiones disponibles.
 4. Busque el término “product”, que revela varias extensiones disponibles para ayudarle a configurar esta variable.
