@@ -3,9 +3,9 @@ title: doPlugins
 description: Configure la lógica justo antes de compilar una visita y enviarla a Adobe.
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ La variable `doPlugins` actúa como una “última llamada” para establecer lo
 
 Utilice la variable `doPlugins` para llamar al código del complemento y establecer los valores de la variable final justo antes de compilar una solicitud de imagen y enviarla a Adobe.
 
-## Complementos que utilizan etiquetas en Adobe Experience Platform
+## Complementos con etiquetas en Adobe Experience Platform
 
-No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.doPlugins en el editor de código personalizado de AppMeasurement y 
 
