@@ -3,31 +3,31 @@ title: Creación de una propiedad de Analytics en etiquetas
 description: Cree un espacio para personalizar cómo se recopilan los datos mediante etiquetas.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
-# Crear una propiedad de etiqueta de Adobe Analytics
+# Creación de una propiedad de etiquetas de Adobe Analytics
 
 Las etiquetas en Adobe Experience Platform le permiten integrar soluciones de Experience Cloud en su sitio web (incluido Analytics). Esta página describe específicamente cómo un administrador de etiquetas puede obtener una implementación básica de Adobe Analytics correctamente configurada.
 
 >[!NOTE]
->Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el siguiente [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) para obtener una referencia consolidada de los cambios terminológicos.
+>Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el siguiente [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=es) para obtener una referencia consolidada de los cambios terminológicos.
 
 ## Requisitos previos
 
 [Crear un grupo de informes](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Crear un silo para los datos de Analytics que se van a recopilar..
 
-## Crear una propiedad de etiqueta e instalar extensiones vitales
+## Creación de una propiedad de etiquetas e instalación de extensiones vitales
 
 Las propiedades son contenedores generales que se utilizan para administrar etiquetas. Las extensiones permiten instalar etiquetas específicas del producto y configurarlas.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en **[!UICONTROL Nueva propiedad]**.
 1. Asigne un nombre a la propiedad, como el título del sitio web e introduzca el dominio en el que desea implementar Analytics. Haga clic en **[!UICONTROL Guardar]**.
-1. Haga clic en la propiedad de etiqueta recién creada para introducir su configuración.
+1. Haga clic en la propiedad de etiquetas recién creada para establecer su configuración.
 1. Haga clic en la pestaña **[!UICONTROL Extensiones]** y, a continuación, en **[!UICONTROL Catálogo]**.
 1. Vaya a Servicio de identidad y, a continuación, haga clic en **[!UICONTROL Instalar]**.
 1. Todas las opciones de configuración, incluido el ID de organización de Experience Cloud deberían estar completos. Haga clic en **[!UICONTROL Guardar]**.
@@ -37,8 +37,8 @@ Las propiedades son contenedores generales que se utilizan para administrar etiq
 
 Los elementos de datos son referencias a partes específicas del sitio para recopilar valores de variables.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Haga clic en la propiedad de etiqueta que desee implementar en el sitio.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad de etiquetas que desee implementar en el sitio.
 1. Haga clic en la pestaña **[!UICONTROL Elementos de datos]** y, a continuación, haga clic en **[!UICONTROL Crear nuevo elemento de datos]**.
 1. Asigne al elemento de datos la siguiente configuración:
 
@@ -58,8 +58,8 @@ Los elementos de datos son referencias a partes específicas del sitio para reco
 
 Las reglas asignan elementos de datos a valores de variables de Analytics y determinan cuándo se envían dichos valores a los servidores de Adobe.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Haga clic en la propiedad de etiqueta que desee implementar en el sitio.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad de etiquetas que desee implementar en el sitio.
 1. Haga clic en **[!UICONTROL Crear nueva regla]** y asígnele el nombre `Global Rule`.
 1. Haga clic en **[!UICONTROL Agregar]** junto a los eventos e introduzca la siguiente configuración:
    * Extensión: Core
@@ -83,9 +83,9 @@ Las reglas asignan elementos de datos a valores de variables de Analytics y dete
 
 ## Documentación y recursos adicionales
 
-* [Documentación](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en) de la extensión de Adobe Analytics: Documentación completa específica de la extensión de Adobe Analytics en etiquetas.
-* [Introducción a las etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en): Documentación completa para etiquetas, incluida una guía de introducción más detallada
-* [Canal](https://experienceleague.adobe.com/?tag=Launch&amp;lang=es#recommended/solutions/experience-platform) de Adobe Experience Platform Launch: Aprenda a utilizar etiquetas a través de vídeos
+* [Documentación de la extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=es): Documentación completa específica de la extensión de Adobe Analytics en etiquetas.
+* [Introducción a etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=es): Documentación completa para etiquetas, incluida una guía de introducción más detallada
+* [Canal de Adobe Experience Platform Launch](https://experienceleague.adobe.com/?tag=Launch&amp;lang=es#recommended/solutions/experience-platform): Aprenda a utilizar etiquetas a través de vídeos
 
 ## Pasos siguientes
 
