@@ -3,9 +3,9 @@ title: visitorNameSpace
 description: Variable retirada que determinó el dominio de la cookie.
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ En versiones anteriores de Adobe Analytics, AppMeasurement utilizaba la variable
 >
 >Adobe recomienda el uso de cookies de origen en el sitio. Las cookies de origen no utilizan esta variable.
 
-## Espacio de nombres del visitante con etiquetas en Adobe Experience Platform
+## Área de nombres de visitante con etiquetas en Adobe Experience Platform
 
 El [!UICONTROL espacio de nombres del visitante] es un campo en el acordeón [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL Cookies], que muestra el campo [!UICONTROL Espacio de nombres del visitante].
