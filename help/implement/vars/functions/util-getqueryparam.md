@@ -3,9 +3,9 @@ title: Util.getQueryParam
 description: Devuelve el valor de un parámetro de cadena de consulta.
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 90%
 
 Los parámetros de cadena de consulta de una URL de navegador contienen con frecuencia datos importantes para Analytics. Utilice el método `Util.getQueryParam()` para recuperar datos de la cadena de consulta.
 
-## Obtener datos de parámetros de cadena de consulta mediante etiquetas en Adobe Experience Platform
+## Obtención de datos de parámetros de cadena de consulta con etiquetas en Adobe Experience Platform
 
 Puede obtener datos de parámetros de cadena de consulta estableciendo valores en los elementos de datos.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Elementos de datos] y, a continuación, haga clic en el elemento de datos deseado (o cree un elemento de datos).
 4. Establezca el menú desplegable [!UICONTROL Extensión] como [!UICONTROL Principal] y el [!UICONTROL Tipo de elemento de datos] como [!UICONTROL Parámetro de cadena de consulta].
