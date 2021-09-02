@@ -3,9 +3,9 @@ title: Grupos de informes globales en Adobe Analytics
 description: Comprender las ventajas y los requisitos para utilizar un grupo de informes globales
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Utilice las siguientes directrices generales para comprender el proceso de imple
    >
    >Asegúrese de que cualquier variable personalizada dada se utilice de manera similar en los distintos dominios. No utilice la misma eVar o evento para distintos fines en cada sitio.
 1. Asegúrese de que cada dominio tenga una capa de datos para simplificar la recopilación de datos. Los datos se pueden recopilar sin una capa de datos, pero la fiabilidad y la longevidad de la implementación disminuyen, especialmente a medida que el sitio se rediseña con el tiempo.
-1. Utilice etiquetas en Adobe Experience Platform para implementar Analytics. Es probable que distintos sitios requieran diferentes elementos de datos. Utilice reglas específicas de cada dominio para asegurarse de que cada elemento de datos se rellena correctamente y, a continuación, asigne esos elementos de datos a sus eVars y eventos respectivos. Consulte [información general sobre las etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+1. Uso de etiquetas en Adobe Experience Platform para implementar Analytics. Es probable que distintos sitios requieran diferentes elementos de datos. Utilice reglas específicas de cada dominio para asegurarse de que cada elemento de datos se rellena correctamente y, a continuación, asigne esos elementos de datos a sus eVars y eventos respectivos. Consulte [información general sobre las etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
 1. Incluya el [servicio de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) y utilice la función [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=es). Esta función combina datos de visitantes cuando los usuarios hacen clic de un dominio a otro.
 
 ## Modificación de una implementación existente con un grupo de informes global
@@ -51,7 +51,7 @@ El proceso de mover una implementación existente en varios sitios a un único g
 1. Determine si desea utilizar uno de los grupos de informes existentes o empezar a utilizarlo de nuevo con un nuevo grupo de informes. Si desea cambiar los usos de las variables existentes en la implementación, se recomienda comenzar con un nuevo grupo de informes.
 2. Determine una fecha límite para el momento en que desee realizar el cambio a un grupo de informes globales. El mejor momento para realizar una migración es entre dos períodos de informes significativos o junto con los cambios más importantes en el sitio. Algunos ejemplos son el inicio de un trimestre o año fiscal, durante una actualización del sitio o el cambio a un nuevo sistema de administración de etiquetas.
 3. Siga los pasos anteriores (cree un grupo de informes, recopile los requisitos de informes en un documento de diseño de solución y establezca una capa de datos en cada sitio). Al implementar etiquetas en Adobe Experience Platform, valide la implementación con una versión de desarrollo del sitio web.
-4. Una vez que haya confirmado que la implementación está funcionando en el desarrollo, implemente las etiquetas en vivo en la fecha de migración.
+4. Una vez que haya confirmado que la implementación funciona en el desarrollo, publique la implementación de etiquetas en la fecha de migración.
 
 ## Páginas relacionadas
 
