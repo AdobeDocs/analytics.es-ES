@@ -3,9 +3,9 @@ title: Eliminación de bots en Adobe Analytics
 description: Eliminación de bots en Adobe Analytics
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Además, como los bots cambian rápidamente, Adobe ofrece otras funciones útile
 
 ### Paso 1: Pase el Experience Cloud ID de sus visitantes a un ID declarado nuevo
 
-Para empezar, le recomendamos que cree un nuevo ID declarado en el [Servicio principal de Personas](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es). Pase el ID de Experience Cloud del visitante a este nuevo ID declarado, que se puede hacer rápida y fácilmente con [etiquetas en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en). Usemos el nombre “ECID” para el ID declarado.
+Para empezar, le recomendamos que cree un nuevo ID declarado en el [Servicio principal de Personas](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es). Deberá pasar el Experience Cloud ID de su visitante a este nuevo ID declarado, lo cual se puede realizar rápida y fácilmente con [etiquetas en Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=es). Usemos el nombre “ECID” para el ID declarado.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -49,7 +49,7 @@ A continuación, se muestra cómo que se puede capturar este ID mediante el elem
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Una vez configurado este elemento de datos, siga [estas instrucciones](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) para pasar los ID declarados a la herramienta ECID mediante etiquetas en Adobe Experience Platform.
+Una vez configurado este elemento de datos, siga [estas instrucciones](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=es) para pasar los ID declarados a la herramienta ECID con etiquetas en Adobe Experience Platform.
 
 ### Paso 2: Use la segmentación para identificar bots
 
