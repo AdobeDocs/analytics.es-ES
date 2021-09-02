@@ -3,9 +3,9 @@ title: abort
 description: La variable abort es un booleano que evita que se envíe una visita a los servidores de recopilación de datos de Adobe.
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 79%
 
 La variable `abort` es un booleano que puede evitar que la siguiente llamada de seguimiento se envíe a Adobe.
 
-## Uso de la variable abort en la interfaz de usuario de la recopilación de datos en Adobe Experience Platform
+## Uso de la variable abort en la IU de recopilación de datos en Adobe Experience Platform
 
-No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## Sintaxis de AppMeasurement y editor de código personalizado en la interfaz de usuario de la recopilación de datos
+## Sintaxis de AppMeasurement y editor de código personalizado en la IU de recopilación de datos
 
 La variable `abort` es booleana. Su valor predeterminado es `false`.
 
