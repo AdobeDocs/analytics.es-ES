@@ -3,9 +3,9 @@ title: purchaseID
 description: Anule la duplicación de visitas en función de un identificador de compra único.
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Los ID de compra se aplican a todos los visitantes y no caducan. Si un visitante
 
 ## ID de compra con etiquetas en Adobe Experience Platform
 
-No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## “s.purchaseID” en el editor de código personalizado de AppMeasurement y 
 
