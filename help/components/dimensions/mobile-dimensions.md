@@ -3,9 +3,9 @@ title: Dimensiones móviles
 description: Dimensiones basadas en la dirección IP del dispositivo.
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
