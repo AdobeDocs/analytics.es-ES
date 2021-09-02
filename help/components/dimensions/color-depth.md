@@ -3,9 +3,9 @@ title: Profundidad de color
 description: Profundidad de color del dispositivo.
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
