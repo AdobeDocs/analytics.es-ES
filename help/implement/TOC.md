@@ -5,9 +5,9 @@ user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: 'Personalice los datos que se recopilan para obtener más información de Adobe Analytics. '
 source-git-commit: 9e1ed13b73a4e31baf788a9c8090af8b7c7bcd7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -149,11 +149,11 @@ ht-degree: 91%
       + [Ejemplo de visita](js/xdevice-visid/visit-example.md)
       + [Preguntas frecuentes sobre dispositivos cruzados heredados](js/xdevice-visid/xdevice-faq.md)
    + [Solución de problemas de AppMeasurement](js/troubleshooting.md)
-+ Implementar Analytics mediante etiquetas en Adobe Experience Platform {#launch}
-   + [Información general sobre etiquetas](launch/overview.md)
-   + [Crear una propiedad de etiqueta de Adobe Analytics](launch/create-analytics-property.md)
-   + [Implementar en un entorno de desarrollo](launch/deploy-dev.md)
-   + [Validación y publicación en producción](launch/validate-publish-prod.md)
++ Implementación de Analytics mediante etiquetas en Adobe Experience Platform {#launch}
+   + [Información general sobre las etiquetas](launch/overview.md)
+   + [Creación de una propiedad de etiquetas de Adobe Analytics](launch/create-analytics-property.md)
+   + [Implementación en un entorno de desarrollo](launch/deploy-dev.md)
+   + [Validación y publicación para producción](launch/validate-publish-prod.md)
    + [Asignación de objetos de capa de datos a elementos de datos](launch/layer-to-elements.md)
    + [Asignación de elementos de datos de etiquetas a variables de Analytics](launch/elements-to-variable.md)
 + Implementar Analytics en otras plataformas {#other}
