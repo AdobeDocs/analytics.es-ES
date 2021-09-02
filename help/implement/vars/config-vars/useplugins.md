@@ -3,9 +3,9 @@ title: usePlugins
 description: Habilite o deshabilite la función doPlugins().
 exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '98'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Si `usePlugins` está habilitada, la función [`doPlugins()`](../functions/doplu
 
 ## Uso de complementos con etiquetas en Adobe Experience Platform
 
-No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.usePlugins en el editor de código personalizado de AppMeasurement y 
 
