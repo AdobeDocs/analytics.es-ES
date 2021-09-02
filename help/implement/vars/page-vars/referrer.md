@@ -3,9 +3,9 @@ title: referrer
 description: Omisión del referente registrado automáticamente para una visita.
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 91%
 
 La variable `referrer` omite el referente registrado automáticamente en los informes. Esta variable es útil en situaciones en las que el referente podría perderse, como, por ejemplo, durante redirecciones o reenvíos temporales del visitante a un procesador de pagos. Esta variable ayuda a rellenar las dimensiones “Referente” y “Dominio de referencia”.
 
-## Referente que utiliza etiquetas en Adobe Experience Platform
+## Referente con etiquetas en Adobe Experience Platform
 
 Puede establecer el referente al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
