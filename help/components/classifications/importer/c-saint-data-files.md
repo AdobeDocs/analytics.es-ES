@@ -5,9 +5,9 @@ title: Archivos de datos de clasificación
 feature: Herramientas de administración
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1785'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -205,5 +205,5 @@ Para clasificar campañas basadas en intervalos de fechas:
 
 ## Clasificaciones de resolución de errores
 
-* [Problemas comunes de la carga](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Artículo de la base de conocimiento que describe los problemas que surgen de los formatos de archivo y del contenido de archivo incorrectos.
+* [Problemas comunes de la carga](https://helpx.adobe.com/es/analytics/kb/common-saint-upload-issues.html): Artículo de la base de conocimiento que describe los problemas que surgen de los formatos de archivo y del contenido de archivo incorrectos.
 
