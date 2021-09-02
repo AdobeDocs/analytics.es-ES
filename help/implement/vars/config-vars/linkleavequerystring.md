@@ -3,9 +3,9 @@ title: linkLeaveQueryString
 description: Permite la conservación de cadenas de consulta en dimensiones de seguimiento de vínculos.
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ La activación de `linkLeaveQueryString` se aplica a todas las dimensiones de se
 >
 >Esta variable no afecta a las dimensiones fuera del seguimiento de vínculos. Solo afecta a los vínculos personalizados, de salida y de descarga.
 
-## Mantener parámetros de URL con etiquetas en Adobe Experience Platform
+## Guardado de parámetros de URL con etiquetas en Adobe Experience Platform
 
 [!UICONTROL Mantener parámetros de URL] es una casilla de verificación en el acordeón de [!UICONTROL Seguimiento de vínculos] al configurar la extensión de Adobe Analytics.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
 4. Expanda el acordeón de [!UICONTROL Seguimiento de vínculos], que muestra la casilla [!UICONTROL Mantener parámetros de URL].
