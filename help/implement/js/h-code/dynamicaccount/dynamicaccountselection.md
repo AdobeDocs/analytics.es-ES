@@ -3,9 +3,9 @@ title: dynamicAccountSelection
 description: La variable dynamicAccountSelection habilita o deshabilita la selección dinámica de cuentas.
 exl-id: ccb530f9-b128-4d2d-9b5d-9b305272f0a4
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 83%
 
 >[!IMPORTANT]
 >
->Las cuentas dinámicas solo se admiten mediante implementaciones de JavaScript heredadas (código H). Estas variables no son compatibles con las bibliotecas actuales de AppMeasurement ni con la interfaz de usuario de recopilación de datos.
+>Las cuentas dinámicas solo se admiten mediante implementaciones de JavaScript heredadas (código H). Estas variables no son compatibles con las bibliotecas actuales de AppMeasurement ni con la IU de recopilación de datos.
 
 La variable `dynamicAccountSelection` es un valor booleano que determina si se utiliza la selección dinámica de cuentas.
 
