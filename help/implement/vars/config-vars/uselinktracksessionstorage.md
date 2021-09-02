@@ -3,9 +3,9 @@ title: useLinkTrackSessionStorage
 description: Almacene los datos de seguimiento de vínculos en el almacenamiento de la sesión en lugar de en una cookie.
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ AppMeasurement elimina los datos del seguimiento de vínculos de almacenamiento 
 
 ## Uso del almacenamiento de sesión de seguimiento de vínculos con etiquetas en Adobe Experience Platform
 
-No hay un campo dedicado en la interfaz de usuario de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.useLinkTrackSessionStorage en el editor de código personalizado de AppMeasurement y 
 
