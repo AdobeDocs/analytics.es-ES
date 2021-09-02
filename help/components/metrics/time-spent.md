@@ -3,9 +3,9 @@ title: Cálculo del tiempo empleado en Adobe Analytics
 description: Una página agregada de dimensiones y métricas de tiempo empleado.
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 source-git-commit: 085fd95da383671a51ce1e5888bea3db92c038bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1581'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Los productos de Adobe Analytics ofrecen varias métricas y dimensiones de [!UIC
 | [!UICONTROL Tiempo empleado por visita] (segundos) | *Segundos totales empleados (devoluciones)*<br> representa el tiempo medio durante el cual los visitantes interactúan con un elemento de dimensión específico durante cada visita. | Analysis Workspace, Reports &amp; Analytics |
 | [!UICONTROL Tiempo empleado por visitante] (segundos) | *Segundos totales empleados (visitantes únicos)*<br> representa el tiempo medio durante el cual los visitantes interactúan con un elemento de dimensión específico a lo largo de la duración de la visita (la duración de su cookie). | Analysis Workspace, Reports &amp; Analytics |
 | [!UICONTROL Tiempo promedio empleado en el sitio] (segundos) | Representa el tiempo total durante el cual los visitantes interactúan con un elemento de dimensión específico, por secuencia con un elemento de dimensión. No se limita al promedio del “sitio”, como su nombre sugiere. Consulte la sección “Cómo se calcula el tiempo empleado” para obtener más información sobre las secuencias.<br>**Nota:** Es muy probable que, en el nivel de elemento de dimensión, esta métrica difiera del “Tiempo empleado por visita” debido a diferencias en el denominador del cálculo. | Analysis Workspace, Reports &amp; Analytics (se muestra en minutos), Report Builder (se muestra en minutos) |
-| [!UICONTROL Promedio de tiempo en el sitio] | Es la misma métrica que *Tiempo promedio empleado en el sitio (segundos)*, excepto con el formato Tiempo (hh:mm:ss) | Analysis Workspace |
+| [!UICONTROL Promedio de tiempo en el sitio] | Es la misma métrica que *Duración media de la visita (segundos)*, pero con el formato Tiempo (hh:mm:ss) | Analysis Workspace |
 | [!UICONTROL Tiempo promedio empleado en la página] | Métrica obsoleta.<br> En su lugar, se recomienda el uso de “Tiempo promedio empleado en el sitio” si se necesita el tiempo promedio para un elemento de dimensión. | Report Builder (cuando hay una dimensión en la solicitud) |
 | [!UICONTROL Duración total de la sesión], también conocida como [!UICONTROL Duración de la sesión anterior] | Solo SDK de aplicaciones móviles. <br>Se determina para la sesión anterior la próxima vez que se inicia la aplicación. Esta métrica se calcula en segundos y no cuenta cuando la aplicación se encuentra en segundo plano, solo cuando está en uso. Es una métrica de nivel de sesión.<br>Por ejemplo: instalamos la aplicación ABC, la iniciamos, la utilizamos durante 2 minutos y la cerramos. No se envía ningún dato acerca de la duración de la sesión. La próxima vez que la iniciemos, el valor de [!UICONTROL Duración total de la sesión] se establecerá en 120. | Analysis Workspace, Reports &amp; Analytics, Report Builder, interfaz de usuario de Mobile Services |
 | [!UICONTROL Longitud promedio de la sesión] (móvil) | *Duración total de la sesión (inicios y primeros arranques)*<br> solo SDK de la aplicación móvil. Es una métrica de nivel de sesión. | Report Builder, IU de Mobile Services |
@@ -108,7 +108,7 @@ Como resultado, ambas métricas pueden arrojar resultados similares en el nivel 
 
 Supongamos que el siguiente conjunto de llamadas de servidor es para un único visitante dentro de una sola visita:
 
-| N.º de visita individual de la visita | 1 | 2 | 1 | 4 | 5 | 6 | 7 |
+| N.º de visita individual de la visita | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |---|---|---|---|---|---|---|---|
 | **Tiempo de visita transcurrido (en segundos)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Segundos empleados** | 30 | 50 | 100 | 10 | 40 | 60 | - |
