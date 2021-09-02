@@ -3,9 +3,9 @@ title: Guía de administración inicial de Adobe Analytics
 description: Obtenga información sobre cómo empezar con Adobe Analytics, los tipos de funciones generales y el inicio de sesión en la interfaz de usuario.
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Un primer administrador es el punto de partida para permitir que el resto de la 
 Si su organización ha adquirido Adobe Analytics, hay que tener en cuenta varias funciones clave:
 
 * **Administradores de Adobe Analytics:** Estos usuarios tienen acceso completo a todo lo que hay en Adobe Analytics, incluida la configuración del grupo de informes y de los permisos de usuario. Según la estructura de su organización, diferentes personas o equipos pueden ser responsables de diferentes facetas de la administración de Analytics. Por ejemplo, una persona es responsable de designar qué variables utilizar en una implementación. Otra persona puede ser responsable de permitir que los usuarios extraigan correctamente los informes, asegurándose de que todos los usuarios tengan los permisos correctos. Identifique al menos a un usuario que sea responsable de la configuración del grupo de informes y los permisos de usuario de Analytics y que pueda invitar a otros administradores de Analytics desde allí.
-* **Administradores de recopilación de datos:**  estos usuarios tienen acceso completo a todo lo que hay en la interfaz de usuario de recopilación de datos (anteriormente, la interfaz de usuario del Experience Platform Launch), incluidos permisos de publicación, creación de contenedores y permisos de usuario. Estos usuarios no son necesariamente programadores, pero es útil tener al menos un conocimiento básico de HTML, CSS y JavaScript. Son responsables de trabajar con los propietarios de sitios web de su organización para implementar las etiquetas de Experience Platform en su sitio. Identifique al menos un usuario que sea responsable de la implementación de su organización y que pueda invitar a otros administradores de recopilación de datos desde allí.
+* **Administradores de recopilación de datos:** estos usuarios tienen acceso completo a todo lo que hay en la IU de recopilación de datos (anteriormente, la IU de Experience Platform Launch), incluidos permisos de publicación, creación de contenedores y permisos de usuario. Estos usuarios no son necesariamente programadores, pero es útil tener al menos un conocimiento básico de HTML, CSS y JavaScript. Son responsables de colaborar con los propietarios de sitios web de su organización para implementar las etiquetas de Experience Platform en el sitio. Identifique al menos un usuario que sea responsable de la implementación de su organización y que pueda invitar a otros administradores de recopilación de datos desde allí.
 * **Delegados de asistencia**: También conocidos como usuarios de asistencia técnica, no tienen privilegios adicionales en la interfaz de Analytics. En su lugar, reciben privilegios adicionales al comunicarse con el Servicio de atención al cliente de Adobe. Estos usuarios son casi siempre administradores de Analytics, ya que ayudan al Servicio de atención al cliente a solucionar problemas. Identifique al menos a un administrador de Analytics responsable de facilitar las interacciones entre los usuarios finales y el Servicio de atención al cliente de Adobe.
-* **Propietarios de sitios web:** Estos usuarios individuales o equipos son responsables de la codificación y el desarrollo de su sitio web. No requieren cuentas, pero desean trabajar con administradores de recopilación de datos para obtener el código de etiqueta e implementarlo en el sitio web.
+* **Propietarios de sitios web:** Estos usuarios individuales o equipos son responsables de la codificación y el desarrollo de su sitio web. No requieren cuentas, pero es recomendable que colaboren con administradores de recopilación de datos para obtener el código de las etiquetas e implementarlo en el sitio web.
 * **Usuarios finales:** Estos usuarios generalmente ven los informes y buscan respuestas a preguntas comerciales. Los administradores de Analytics conceden a estos usuarios permisos para trabajar en el producto.
 
 Como primer administrador, su función puede superponerse en una o varias de estas funciones. Siempre y cuando se cubran estas responsabilidades básicas, puede otorgar permisos para ayudar en la puesta a punto de otros miembros de su organización.
@@ -40,23 +40,23 @@ Los administradores de nivel de sistema no tienen acceso directo a los productos
 1. Introduzca la dirección de correo electrónico a la que desea otorgar acceso completo a Analytics y asígneles el perfil de acceso de administrador completo recién creado. Haga clic en Guardar.
 1. Ahora el usuario tiene acceso completo a Adobe Analytics.
 
-## Concesión de acceso de administrador de producto para la recopilación de datos en el Experience Platform
+## Concesión de acceso de administrador de producto para la recopilación de datos en Experience Platform
 
 El acceso de administrador de productos para la recopilación de datos en Experience Platform es casi idéntico al acceso de administrador de productos para Analytics.
 
 1. Inicie sesión en [Adobe Admin Console](https://adminconsole.adobe.com) con sus credenciales de Adobe ID.
-1. Haga clic en la pestaña **[!UICONTROL Products]** en la parte superior. Todos los productos comprados por su organización están a la izquierda. Haga clic en **[!UICONTROL Experience Platform Launch]** y, a continuación, haga clic en **[!UICONTROL Nuevo perfil]**.
-1. Asigne a este perfil el nombre &quot;Acceso completo de administrador de recopilación de datos&quot; y, a continuación, haga clic en **[!UICONTROL Listo]**.
-1. Vuelva a la página **[!UICONTROL Perfiles de producto]**, haga clic en el perfil recién creado y, a continuación, haga clic en la pestaña **[!UICONTROL Permisos]**.
-1. Haga clic en uno de los elementos de la línea de permisos. Si **[!UICONTROL Auto-include]** está disponible, actívelo. Si la inclusión automática no está disponible, haga clic en **[!UICONTROL Agregar todo]**. Ambas opciones mueven todos los elementos de permiso a la columna derecha.
+1. Haga clic en la pestaña **[!UICONTROL Productos]** en la parte superior. Todos los productos comprados por su organización están a la izquierda. Haga clic en **[!UICONTROL Experience Platform Launch]** y, a continuación, haga clic en **[!UICONTROL Nuevo perfil]**.
+1. Asigne a este perfil el nombre “Acceso completo de administrador de recopilación de datos” y, a continuación, haga clic en **[!UICONTROL Listo]**.
+1. Vuelva a la página **[!UICONTROL Perfiles de producto]**, haga clic en el perfil recién creado y, a continuación, vaya a la pestaña **[!UICONTROL Permisos]**.
+1. Haga clic en uno de los elementos de la línea de permisos. Si la **[!UICONTROL inclusión automática]** está disponible, habilite la opción. Si la inclusión automática no está disponible, haga clic en **[!UICONTROL Añadir todo]**. Ambas opciones mueven todos los elementos de permiso a la columna derecha.
 1. Haga clic en **[!UICONTROL Guardar]**. Repita el paso anterior para todas las categorías de permisos.
 1. Una vez que todas las categorías de permisos se hayan concedido al perfil, vuelva a la página Información general haciendo clic en **[!UICONTROL Información general]** en la parte superior.
-1. En el mosaico [!UICONTROL Experience Platform Launch], haga clic en **[!UICONTROL Asignar usuarios]**.
+1. En el mosaico de [!UICONTROL Experience Platform Launch], haga clic en **[!UICONTROL Asignar usuarios]**.
 1. Introduzca la dirección de correo electrónico a la que desea otorgar acceso completo a Analytics y asígneles el perfil de acceso de administrador completo recién creado. Haga clic en **[!UICONTROL Guardar]**.
-1. El usuario ahora tiene acceso completo a la recopilación de datos de Experience Platform.
+1. Ahora el usuario tiene acceso completo a la recopilación de datos de Experience Platform.
 
 ## Pasos siguientes
 
 [Crear un grupo de informes](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Haga que el administrador de Analytics inicie sesión en la herramienta y cree un grupo de informes para la recopilación de datos
 
-[Crear una propiedad](/help/implement/launch/create-analytics-property.md) de etiqueta de Analytics: Pida al administrador de recopilación de datos que inicie sesión en la herramienta y cree una propiedad para implementarla en el sitio
+[Crear una propiedad de etiquetas de Analytics](/help/implement/launch/create-analytics-property.md): Pida al administrador de recopilación de datos que inicie sesión en la herramienta y cree una propiedad para implementarla en el sitio
