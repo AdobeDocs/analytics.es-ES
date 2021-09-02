@@ -3,7 +3,7 @@ title: Recopilación de datos regionales
 description: Información sobre la recopilación de datos regionales
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
 ht-degree: 100%
 
