@@ -3,10 +3,10 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 376b577211f927be5a896c2a20c8a2fc55437b85
+source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 98%
+source-wordcount: '2201'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,12 @@ Recopilación de notas de versiones de [!DNL AppMeasurement] para JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Puede descargar la versión más reciente de AppMeasurement en el [Administrador de códigos](/help/admin/admin/code-manager-admin.md).
+
+## Versión 2.22.2
+
+Fecha de versión: **7 de septiembre de 2021**
+
+* Esta actualización hace que `opt.dmp` y `opt.sell` siempre se incluyan al rastrear vínculos. A continuación se muestra una [lista completa de variables de consentimiento](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
 
 ## Versión 2.22.1
 
