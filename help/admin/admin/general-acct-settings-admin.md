@@ -4,11 +4,10 @@ title: Configuración general de la cuenta
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d509de3ff49d996f821803f0a93c3184db4af1d3
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 88%
+source-wordcount: '802'
+ht-degree: 83%
 
 ---
 
@@ -30,3 +29,8 @@ Estos valores de configuración contienen opciones de edición para la funcional
 | Confusión de IP | Convierte las direcciones IP en cadenas irreconocibles, lo que esencialmente las elimina de los almacenes de datos de Adobe. Cuando la confusión de IP está activada, las direcciones IP originales se pierden de forma permanente.  <br> **Nota**: Las direcciones IP se confunden en cualquier lugar de Analytics, incluido el Data Warehouse. Sin embargo, la configuración de la IP en el destino se controla de forma independiente, por lo que no influye en el destino.<br> Si la confusión de la IP está habilitada, todo el procesamiento necesario, incluido el filtrado/exclusión de la IP, las reglas de bots y las búsquedas de segmentación geográfica, se realizan antes de que la dirección IP se confunda. No es necesario que cambie nada al habilitar la confusión de IP.<ul><li>Si activa **Deshabilitado**, se respeta la dirección IP de los datos.</li><li>La activación de la opción **Proteger dirección IP** cambia la IP a dos puntos seguidos de un valor hash (por ejemplo, `::1932023538`).</li><li>Si activa la opción **Eliminar direcciones IP**`::X.X.X.X`, se sustituye la dirección IP por en los datos después de la búsqueda geográfica.</li></ul>**Nota**: Esta configuración puede requerir cambios en las [reglas de bots](/help/admin/admin/bot-removal/bot-rules.md) personalizadas o en las [exclusiones de IP](/help/admin/admin/exclude-ip.md). |
 | Almacenamiento del ID de transacción | Permite utilizar las fuentes de datos de [ID de la transacción](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md). |
 | Habilitar Data Warehouse | Permite habilitar la IU de Data Warehouse en Analytics > Herramientas > Almacén de datos. |
+| Opción de zip | Permite especificar el código postal en lugar de usar el que produce nuestra búsqueda geográfica de IP. |
+| Compatibilidad con caracteres multibyte | La compatibilidad con caracteres multibyte almacena los caracteres del grupo de informes en UTF-8. El sistema, al recibir los datos del conjunto de caracteres de la página web, los convierte al conjunto de caracteres UTF-8, para que pueda utilizar cualquier idioma en los informes de marketing. Para cambiar la compatibilidad de caracteres multibyte en un grupo de informes existente, el usuario debe ponerse en contacto con el Administrador de cuentas o Atención al cliente. |
+| Activado | Especifica si este grupo de informes está activado o no. |
+| Moneda base | Permite especificar la [moneda](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=en) base para este grupo de informes. |
+| ID de organización | El ID asociado a la empresa de Experience Cloud aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |
