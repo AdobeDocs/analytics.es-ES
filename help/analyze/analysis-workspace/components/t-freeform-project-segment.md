@@ -2,12 +2,12 @@
 description: Use segmentos en Analysis Workspace.
 title: Segmentos
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-feature: Conceptos básicos de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '379'
 ht-degree: 96%
 
 ---
@@ -48,6 +48,8 @@ Puede convertir estos segmentos en públicos (globales) siguiendo estos pasos:
    ![](assets/segment-info.png)
 
 ## Otros métodos para la aplicación de segmentos {#section_10FF2E309BA84618990EA5B473015894}
+
+>[!VIDEO](https://video.tv.adobe.com/v/30994/?quality=12)
 
 Existen varios métodos más para aplicar segmentos a un proyecto improvisado.
 
