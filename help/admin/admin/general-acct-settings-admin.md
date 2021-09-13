@@ -4,10 +4,10 @@ title: Configuración general de la cuenta
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: d509de3ff49d996f821803f0a93c3184db4af1d3
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 83%
+source-wordcount: '811'
+ht-degree: 82%
 
 ---
 
@@ -18,6 +18,10 @@ Descripciones de los campos de configuración general de la cuenta para un grupo
 **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Configuración de la cuenta generales]**
 
 Estos valores de configuración contienen opciones de edición para la funcionalidad básica del grupo de informes como, por ejemplo, nombre y zona horaria.
+
+Aquí hay un vídeo sobre la configuración general de la cuenta:
+
+>[!VIDEO](https://video.tv.adobe.com/v/332330/?quality=12)
 
 | Opción | Descripción |
 |--- |--- |

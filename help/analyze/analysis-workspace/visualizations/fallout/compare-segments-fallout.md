@@ -3,13 +3,13 @@ description: Puede crear segmentos a partir de un punto de contacto, añadir seg
 keywords: abandonos y segmentación, segmentos en el análisis de abandonos, comparar segmentos de abandonos
 title: Aplicación de segmentos en el análisis de abandonos
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: Visualizaciones
+feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '406'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 97%
 
 ---
 
@@ -50,6 +50,10 @@ O puede crear un punto de contacto AND arrastrando el segmento de usuarios de Es
 ## Comparar segmentos en abandonos {#section_E0B761A69B1545908B52E05379277B56}
 
 Puede comparar una cantidad ilimitada de segmentos en la visualización de visitas en el orden previsto.
+
+Este es un vídeo sobre la comparación de segmentos en abandonos:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
 
 1. Seleccione los segmentos que quiera comparar en el carril [!UICONTROL Segmentos] de la izquierda. En nuestro ejemplo, hemos seleccionado 2 segmentos: usuarios de EE. UU. y usuarios fuera de EE. UU.
 1. Arrástrelos a la zona de colocación de Segmento en la parte superior.

@@ -2,13 +2,13 @@
 description: Antes de empezar a crear grupos de informes virtuales, hay que tener algunos aspectos en cuenta.
 keywords: Grupo de informes virtuales
 title: Crear un grupo de informes virtuales
-feature: Conceptos básicos de Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
-workflow-type: ht
-source-wordcount: '663'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,10 @@ En la pestaña [!UICONTROL Configuración], defina esta configuración y haga cl
 En la pestaña [!UICONTROL Descripción de la visita], defina esta configuración y haga clic en **[!UICONTROL Continuar]**.
 
 ![](assets/visit-definition.png)
+
+Este es un vídeo sobre cómo ajustar una definición de visita en un grupo de informes virtuales:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
 | Elemento | Descripción |
 | --- |--- |

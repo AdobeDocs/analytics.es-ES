@@ -4,10 +4,10 @@ description: Explore en detalle los datos de su audiencia y desglóselos en grup
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 98%
+source-wordcount: '505'
+ht-degree: 97%
 
 ---
 
@@ -55,6 +55,10 @@ Este es un vídeo sobre el cálculo de la retención móvil:
 Una cohorte de [!UICONTROL pérdida] es la inversa de una tabla de retención y muestra a los visitantes que abandonaron o que no llegaron a satisfacer los criterios de regreso de su cohorte a lo largo del tiempo. Se pueden incluir hasta 3 métricas y hasta 10 segmentos.
 
 ![](assets/churn-report.png)
+
+Aquí hay un video sobre análisis de pérdida:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
 
 ### [!UICONTROL Cálculo móvil]
 

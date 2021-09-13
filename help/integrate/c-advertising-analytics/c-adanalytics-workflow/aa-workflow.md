@@ -2,14 +2,18 @@
 description: Descripción general del flujo de trabajo de Advertising Analytics.
 title: Resumen del flujo de trabajo
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 68%
+source-wordcount: '137'
+ht-degree: 64%
 
 ---
 
 # Resumen del flujo de trabajo
+
+A continuación se muestra un vídeo introductorio sobre la configuración de Advertising Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23119/?quality=12)
 
 1. [Activación de los informes de Advertising Analytics por grupo de informes](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Activa los informes de [!UICONTROL Advertising Analytics] para grupos de informes activados por Experience Cloud.
 2. [Configurar una cuenta de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Configúrela en Herramientas administrativas de Analytics.
