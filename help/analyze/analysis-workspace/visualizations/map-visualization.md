@@ -2,13 +2,13 @@
 description: Utilice la visualización de mapas en un proyecto de Workspace.
 title: Mapa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-feature: Visualizaciones
+feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '626'
-ht-degree: 100%
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,9 @@ Al hacer clic en el **icono de engranaje**, se muestra esta configuración de vi
 | Estilos: estilo de mapa | Puede elegir entre Básico, Calles, Brillante, Claro, Oscuro y Satélite. |
 | Radio de clúster | Agrupa los puntos de datos que se hallan dentro de un radio de píxeles definido. El valor predeterminado es 50. |
 | Valor máximo personalizado | Le permite alterar el umbral para el valor máximo del mapa. Al ajustar este valor, se ajusta la escala de los valores (color y tamaño) de las burbujas/mapa de calor en relación con el valor máximo personalizado establecido. |
+
+## Crear un mapa de calor de partición de tiempo
+
+Aquí hay un video sobre el tema:
+
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
