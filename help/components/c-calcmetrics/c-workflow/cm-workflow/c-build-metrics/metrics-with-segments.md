@@ -3,11 +3,10 @@ description: 'La segmentación de una métrica individual le permite realizar co
 title: Métricas segmentadas
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '449'
-ht-degree: 100%
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 98%
 
 ---
 
@@ -42,6 +41,10 @@ Digamos que desea comparar distintos aspectos de los segmentos de “Visitantes 
 1. En Analysis Workspace, arrastre la dimensión **[!UICONTROL Página]** a una tabla de formato libre y, luego, las dos métricas calculadas nuevas en paralelo en la parte superior:
 
    ![](assets/workspace-pages.png)
+
+A continuación se muestra un vídeo introductorio:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 ## Porcentaje del total de métricas {#percent-total}
 

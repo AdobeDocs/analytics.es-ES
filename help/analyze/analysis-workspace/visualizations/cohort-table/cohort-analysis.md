@@ -1,13 +1,13 @@
 ---
 title: ¿Qué es el ánálisis de cohortes y cómo funciona?
 description: Explore en detalle los datos de su audiencia y desglóselos en grupos relacionados mediante el análisis de cohortes. Obtenga información sobre el análisis de cohorte en Analysis Workspace.
-feature: Visualizaciones
+feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+workflow-type: tm+mt
+source-wordcount: '498'
+ht-degree: 98%
 
 ---
 
@@ -45,6 +45,10 @@ Las siguientes funciones permiten un control preciso de las cohortes que está c
 Un informe de cohorte de [!UICONTROL retención] devuelve la información de visitantes: cada celda de datos muestra el número sin procesar y el porcentaje de visitantes en la cohorte que realizó la acción durante ese periodo de tiempo. Se pueden incluir hasta 3 métricas y hasta 10 segmentos.
 
 ![](assets/retention-report.png)
+
+Este es un vídeo sobre el cálculo de la retención móvil:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
 
 ### [!UICONTROL Tabla de pérdida]
 
