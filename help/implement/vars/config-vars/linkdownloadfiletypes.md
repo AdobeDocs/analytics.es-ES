@@ -2,10 +2,10 @@
 title: linkDownloadFileTypes
 description: Determine las extensiones de archivo que se rastrean automáticamente como vínculos de descarga.
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
-source-wordcount: '270'
-ht-degree: 100%
+source-git-commit: 49bf0a459a096e011ff60724aa5bee4fb7721a21
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,12 +19,13 @@ Utilice `linkDownloadFileTypes` para personalizar las extensiones de archivo que
 >
 >Solo se realiza un seguimiento automático de los clics reales. Los siguientes tipos de vínculos no se rastrean automáticamente:
 >
-> * Descargas de archivos que se inician automáticamente al cargarse una página
-> * Descargas que se desencadenan tras un redireccionamiento
-> * Haga clic con el botón derecho y seleccione “Guardar destino como...”
-> * Vínculos que utilizan JavaScript, como `javascript:openLink()`
+>* Descargas de archivos que se inician automáticamente al cargarse una página
+>* Descargas que se desencadenan tras un redireccionamiento
+>* Haga clic con el botón derecho y seleccione “Guardar destino como...”
+>* Vínculos que utilizan JavaScript, como `javascript:openLink()`
+
 >
-> Para estos tipos de descarga, puede llamar manualmente al método [`tl()`](../functions/tl-method.md).
+>Para estos tipos de descarga, puede llamar manualmente al método [`tl()`](../functions/tl-method.md).
 
 Si un vínculo en el que se hizo clic coincide con los criterios de vínculo de salida y de descarga, el tipo de vínculo de descarga tiene prioridad.
 
