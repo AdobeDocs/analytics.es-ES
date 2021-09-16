@@ -2,10 +2,10 @@
 title: Análisis entre dispositivos
 description: Cambie los datos de centrados en el dispositivo a centrados en la persona mediante la vinculación de los datos del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 844df9d632f9e9cceb6c882f81360a83891e2143
+source-git-commit: 13428ba0d149482a099fbdaa74890b59dd0891eb
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 95%
+source-wordcount: '808'
+ht-degree: 86%
 
 ---
 
@@ -13,7 +13,8 @@ ht-degree: 95%
 
 Análisis entre dispositivos es una función que transforma Analytics de una vista centrada en el dispositivo a una vista centrada en la persona. Como resultado, los analistas pueden comprender el comportamiento del usuario que cruza navegadores, dispositivos o aplicaciones. Adobe admite dos flujos de trabajo generales para vincular datos de dispositivos:
 
-* [**Vinculación basada en el campo**](field-based-stitching.md): Permite elegir una variable de Analytics como base para la vinculación entre dispositivos en un grupo de informes virtuales. Utiliza la coincidencia determinística para vincular dispositivos. Adobe recomienda utilizar la vinculación basada en el campo para los casos de uso de coincidencia más determinísticos.
+* [**Vinculación basada en el campo**](field-based-stitching.md): Se recomienda la opción de vinculación porque solo utiliza la coincidencia determinística para vincular dispositivos.
+Permite elegir una variable de Analytics como base para la vinculación entre dispositivos en un grupo de informes virtuales.
 * [**Gráfico del dispositivo**](device-graph.md): CDA se comunica con un gráfico del dispositivo para vincular dispositivos. El gráfico de cooperación utiliza coincidencia determinística y probabilística.
 
 >[!NOTE]
@@ -56,3 +57,5 @@ El análisis entre dispositivos es una característica innovadora y sólida, per
 * Actualmente, CDA no es compatible con la [API de reparación de datos](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) de Adobe Analytics
 * Los datos históricos del grupo de informes virtuales cambian según el reconocimiento y la vinculación de dispositivos de Adobe. Los datos del grupo de informes de origen no cambian.
 * Los datos con título siguen una latencia de 8 a 12 horas.
+* Los datos del historial de asignación de un dispositivo determinado se almacenan durante un año.
+* Si un dispositivo alcanza un número muy alto de entradas del historial de asignación en un año, el historial de asignación se trunca. El límite exacto depende de la opción de vinculación utilizada.

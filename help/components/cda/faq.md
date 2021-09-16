@@ -2,10 +2,10 @@
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 966e013cb6119696cbd058368c90f2bbef0bc9ae
+source-git-commit: 080c5e35e7ffd253ac07e1158fb7c4bede238199
 workflow-type: tm+mt
-source-wordcount: '1780'
-ht-degree: 94%
+source-wordcount: '1961'
+ht-degree: 73%
 
 ---
 
@@ -20,9 +20,9 @@ Puede utilizar una visualización de [!UICONTROL flujo] con la dimensión Tipo d
 3. Haga clic en la pestaña Componentes de la izquierda y arrastre la dimensión &#39;Tipo de dispositivo móvil&#39; a la ubicación central denominada &#39;Dimensión o elemento&#39;.
 4. Este informe de flujo es interactivo. Haga clic en cualquiera de los valores para expandir los flujos a páginas posteriores o anteriores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
 
-## ¿Puedo ver cómo se mueven las personas entre distintas experiencias de usuario (p. ej., navegador de escritorio vs. navegador móvil vs. aplicación móvil)?
+## ¿Puedo ver cómo se mueven las personas entre distintas experiencias de usuario (por ejemplo, navegador de escritorio vs. navegador móvil vs. aplicación móvil)?
 
-El uso del tipo de dispositivo móvil, como se ilustra más arriba, permite ver cómo se mueven las personas entre los tipos de dispositivos móviles y los tipos de dispositivos de escritorio. Sin embargo, es posible que desee distinguir los navegadores de escritorio de los navegadores móviles. Una manera de hacerlo es crear una eVar que registre si la experiencia se produjo en un navegador de escritorio, un navegador móvil o una aplicación móvil. A continuación, cree un diagrama de flujo como se ha descrito anteriormente, utilizando la eVar de “experiencia” en lugar de la dimensión Tipo de dispositivo móvil. Esto proporciona una vista ligeramente diferente del comportamiento entre dispositivos.
+El ejemplo de Tipo de dispositivo móvil que se muestra más arriba le permite ver cómo se mueven las personas entre los tipos de dispositivo móvil y los tipos de dispositivo de escritorio. Sin embargo, no le permite distinguir los navegadores de escritorio de los navegadores móviles. Si desea esta perspectiva, puede crear una variable personalizada (como una propiedad o un eVar) que registre si la experiencia se produjo en un navegador de escritorio, un navegador móvil o una aplicación móvil. A continuación, puede crear un diagrama de flujo como se describe más arriba, utilizando la variable personalizada en lugar de la dimensión Tipo de dispositivo móvil . Este método proporciona una vista ligeramente diferente del comportamiento entre dispositivos.
 
 ## ¿Hasta dónde llega la CDA a los visitantes?
 
@@ -53,7 +53,7 @@ Los clientes que ya utilizan el ID de visitante personalizado pueden actualizar 
 En algunas situaciones es posible que varias personas inicien sesión desde el mismo dispositivo. Algunos ejemplos son un dispositivo compartido en casa, un equipo compartido en una biblioteca o un quiosco en un punto de venta minorista.
 
 * **Si se utiliza un gráfico del dispositivo**, la capacidad de gestionar dispositivos compartidos es limitada. El gráfico del dispositivo utiliza un algoritmo para determinar la propiedad de un “clúster” y puede cambiar cada vez que se publica este clúster. Los usuarios del dispositivo compartido están sujetos al clúster al cual pertenecen.
-* **Si utiliza la vinculación basada en el campo**, la propiedad o el eVar que elija para ayudar a identificar a los usuarios que iniciaron sesión sobrescribirá otros identificadores. Los dispositivos compartidos se consideran personas independientes, incluso si se originan en el mismo dispositivo.
+* **Si se utiliza la vinculación basada en el campo**, la propiedad o el eVar que elija para ayudar a identificar a los usuarios que iniciaron sesión sobrescribirá otros identificadores. Los dispositivos compartidos se consideran personas independientes, incluso si se originan en el mismo dispositivo.
 
 ## ¿Cómo gestiona el CDA las situaciones en las que una sola persona tiene MUCHOS dispositivos/ECID?
 
@@ -64,11 +64,16 @@ En algunas situaciones, un usuario individual puede asociarse con un gran númer
 
 ## ¿Cuál es la diferencia entre la métrica Personas en CDA y la métrica Visitantes únicos fuera de CDA?
 
-La métrica [Personas](/help/components/metrics/people.md) es similar a la métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) en el sentido de que informa sobre la cantidad de individuos únicos. Sin embargo, cuando se utiliza el análisis entre dispositivos, se combinan visitantes únicos cuando, de lo contrario, se registran como dos visitantes únicos independientes fuera de CDA. La métrica &#39;Personas&#39; reemplaza la métrica &#39;Visitantes únicos&#39; cuando Analytics entre dispositivos está habilitado. Hay disponible una nueva métrica, [Dispositivos únicos](/help/components/metrics/unique-devices.md), que es aproximadamente igual a Visitantes únicos fuera de Analytics entre dispositivos.
+Tanto la métrica [Personas](/help/components/metrics/people.md) como la métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) tienen como objetivo contar los visitantes diferentes (personas). Sin embargo, considere la posibilidad de que dos dispositivos diferentes pertenezcan a la misma persona. CDA asigna los 2 dispositivos a la misma persona, mientras que los 2 dispositivos se registran como 2 &quot;Visitantes únicos&quot; independientes fuera de CDA.
 
 ## ¿Cuál es la diferencia entre la métrica &#39;Dispositivos únicos&#39; en CDA y la métrica &#39;Visitantes únicos fuera de CDA?
 
-Estas dos métricas son aproximadamente equivalentes entre sí.
+Estas dos métricas son aproximadamente equivalentes entre sí. Las diferencias entre las dos métricas se producen cuando:
+
+* Un dispositivo compartido se asigna a varias personas. En esta situación se cuenta un visitante único, mientras que se cuentan varios dispositivos únicos.
+* Un dispositivo tiene tráfico no vinculado y vinculado del mismo visitante. Por ejemplo, un explorador generó tráfico identificado vinculado + tráfico anónimo histórico que no se vinculó. En este caso, se cuenta un visitante único, mientras que se cuentan dos dispositivos únicos.
+
+Consulte [Dispositivos únicos](/help/components/metrics/unique-devices.md) para obtener más ejemplos y detalles sobre cómo funciona.
 
 ## ¿Puedo incluir métricas de CDA usando la API 2.0?
 
@@ -93,9 +98,9 @@ Adobe calcula ambos identificadores en el momento de ejecutar el informe, tambi�
 
 El cambio del gráfico del dispositivo a la vinculación basada en el campo o viceversa se puede solicitar a través del Servicio de atención al cliente. Sin embargo, hacer este cambio puede tardar un par de semanas o más en completarse y se pierden *datos históricos vinculados del método anterior.*
 
-## ¿Cómo gestiona Adobe los límites únicos para un eVar utilizado en la vinculación basada en el campo?
+## ¿Cómo gestiona Adobe los límites únicos de una propiedad o eVar utilizado en la vinculación basada en el campo?
 
-CDA extrae los elementos de dimensión de eVar antes de optimizarlos para la creación de informes. No es necesario preocuparse por los límites únicos para el propósito de CDA. Sin embargo, si ha intentado utilizar esa propiedad o eVar en un proyecto de Workspace, todavía puede ver el elemento de dimensión [(poco tráfico)](/help/technotes/low-traffic.md).
+CDA extrae los elementos de dimensión de variable de identificador antes de optimizarlos para la creación de informes. No es necesario preocuparse por los límites únicos para el propósito de CDA. Sin embargo, si ha intentado utilizar esa propiedad o eVar en un proyecto de Workspace, aún puede ver el elemento de dimensión [(Poco tráfico)](/help/technotes/low-traffic.md) .
 
 ## ¿Cuántos de los grupos de informes de mi compañía se pueden habilitar para CDA?
 
@@ -121,4 +126,10 @@ CDA utiliza una compleja canalización de procesamiento paralela, con varios com
 
 ## ¿Por qué está inflada la métrica &quot;Personas identificadas&quot;?
 
-Si el recuento es ligeramente superior a lo esperado, un valor de eVar puede pertenecer a más de una persona identificada debido a [conflictos de hash](/help/implement/validate/hash-collisions.md). Si el recuento es mucho mayor de lo esperado, póngase en contacto con el Servicio de atención al cliente para conocer los pasos adicionales para solucionar el problema.
+El número de la métrica &quot;Personas identificadas&quot; puede ser ligeramente superior si el valor del identificador prop/eVar se ejecuta en un [conflicto de hash](/help/implement/validate/hash-collisions.md).
+
+El número de la métrica &quot;Personas identificadas&quot; puede ser significativamente mayor si el identificador prop/eVar distingue entre mayúsculas y minúsculas. Por ejemplo, `bob` y `Bob` se supone que son la misma persona, pero la distinción entre mayúsculas y minúsculas obliga a que estos dos valores sean distintos.
+
+## ¿Por qué veo valores al ver el identificador prop/eVar con la métrica Personas no identificadas?
+
+Esta situación suele ocurrir cuando un visitante genera visitas autenticadas y no autenticadas en la ventana de informes y [Replay](replay.md) aún no se ha ejecutado. Antes de la reproducción, el visitante pertenece a &quot;No identificado&quot; e &quot;Identificado&quot; en la dimensión [Estado identificado](/help/components/dimensions/identified-state.md), lo que provoca que algunos visitantes atribuyan visitas no identificadas a un identificador. Los visitantes permanecen en este estado hasta que se ejecuta la reproducción (diaria o semanal, según la configuración de CDA de su organización). La ejecución de informes solo en los datos posteriores a la reproducción mitiga esta situación.

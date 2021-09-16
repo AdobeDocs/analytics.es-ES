@@ -2,16 +2,16 @@
 title: Vinculación basada en el campo
 description: Comprenda los requisitos previos y las limitaciones de la vinculación de datos mediante la vinculación basada en el campo.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 71148b13e3fb72dfe09f5f25f11d5e12f30e0bc0
+source-git-commit: 5cd38f698370d31aaf954e24cdee4cea3ecd171c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '522'
+ht-degree: 95%
 
 ---
 
 # Vinculación basada en el campo
 
-Cross-Device Analytics proporciona dos métodos distintos para unir datos. Este método depende de una variable de Analytics, como una [propiedad](/help/implement/vars/page-vars/prop.md) o un [eVar](/help/implement/vars/page-vars/evar.md), para contener un identificador de persona. Utiliza esa variable como base para vincular dispositivos.
+Cross-Device Analytics proporciona dos métodos distintos para unir datos. Este método depende de una variable de Analytics, como una [propiedad](/help/implement/vars/page-vars/prop.md) o un [eVar](/help/implement/vars/page-vars/evar.md), para contener un identificador de persona. Utiliza esa variable como base para vincular dispositivos. Adobe recomienda esta opción de vinculación para lograr una mayor transparencia y predictibilidad en el seguimiento de visitantes.
 
 ## Requisitos previos específicos de la vinculación basada en el campo
 
