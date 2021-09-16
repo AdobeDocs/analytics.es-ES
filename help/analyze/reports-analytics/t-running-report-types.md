@@ -2,12 +2,12 @@
 description: Pasos para ejecutar los distintos tipos de informes.
 title: Ejecutar diferentes tipos de informes
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Conceptos básicos de Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1283'
 ht-degree: 97%
 
 ---
@@ -79,7 +79,7 @@ Describe cómo ver e interpretar los informes en tiempo real.
 
 Los informes en tiempo real ofrecen dos informes principales: un informe de descripción general y un informe detallado. Cada uno consiste en diversos informes breves.
 
-Si desea más información sobre la configuración de informes en tiempo real, consulte la [Guía de referencia de Analytics](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration).
+Consulte [Resumen de informes en tiempo real](/help/components/c-real-time-reporting/realtime.md) para obtener más información.
 
 1. Eche un vistazo al informe de **[!UICONTROL Información general]** y a sus componentes:  ![](assets/rtr_overview_report.png)
 
@@ -145,7 +145,7 @@ Si desea más información sobre la configuración de informes en tiempo real, c
    </tr> 
    </table>
 
-1. Haga clic en un elemento de la lista en el Informe breve principal para iniciar la vista **[!UICONTROL Detalles]** para dicho elemento de lista:  ![](assets/rtr_detail_report.png)
+2. Haga clic en un elemento de la lista en el Informe breve principal para iniciar la vista **[!UICONTROL Detalles]** para dicho elemento de lista:  ![](assets/rtr_detail_report.png)
 
    | **Informe breve de tendencia del elemento** | Presenta la línea de tendencia del elemento que se ha seleccionado en el informe de descripción general de los últimos N minutos. N se puede configurar mediante el selector de intervalo de tiempo. |
    |---|---|
