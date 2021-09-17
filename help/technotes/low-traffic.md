@@ -1,13 +1,13 @@
 ---
 description: Cuando un informe contiene una gran cantidad de valores únicos, una funcionalidad incluida en Adobe permite asegurar que los valores más importantes aparezcan en el informe.
 title: Valor de poco tráfico en Adobe Analytics
-feature: Métricas
+feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,9 @@ Cuando un informe contiene varios valores únicos, una funcionalidad incluida en
    * Si un valor aún no aparece en los informes, aparecerá en el elemento de línea [!UICONTROL Poco tráfico]. Si un valor que se ha incluido en el elemento de línea [!UICONTROL Poco tráfico] se ve un número significativo de veces en un corto tiempo, empezará a reconocerse como su propio elemento de línea. El número significativo de veces que se debe ver un elemento tiene muchas dependencias, como el número de servidores de procesamiento y daemons que están procesando datos para ese grupo de informes en particular.
 
 ¿Por qué Adobe mueve un elemento de la línea [!UICONTROL Poco tráfico] a su propio elemento de línea? Por ejemplo, este movimiento podría reconocer una página nueva o elemento nuevo popular que se añadió más adelante ese mes (después de superar los valores exclusivos) y que recibe muchas visitas o vistas. El movimiento no pretende capturar todo lo que recibe un determinado número de visitas/visitas al día o al mes.
+
+>[!NOTE]
+>El recuento de búsqueda de páginas no solo incluye valores para [!UICONTROL pagename]/[!UICONTROL page_url]. La tabla de búsqueda de páginas incluye varias columnas/campos como [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url] y el contexto de clic (los datos antiguos de Clickmap).
 
 ## Cambio de los umbrales de límite único
 
