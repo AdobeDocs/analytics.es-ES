@@ -3,9 +3,9 @@ title: getTimeParting
 description: Mida el tiempo en que sucede una acción específica.
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '718'
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## Uso del complemento
 
-La función `getTimeParting` utiliza el siguiente argumento:
+La función `getTimeParting` utiliza el argumento siguiente:
 
 **`t`** (opcional pero recomendado, cadena): Nombre del huso horario al que convertir la hora local del visitante.  El valor predeterminado es UTC/GMT. Consulte la [lista de husos horarios de la base de datos TZ](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) en Wikipedia para obtener una lista completa de los valores válidos.
 
@@ -74,7 +74,7 @@ Los valores válidos comunes incluyen:
 * `"America/Denver"` para la hora de montaña
 * `"America/Los_Angeles"` para la hora del Pacífico
 
-Llamar a esta función devuelve una cadena que contiene lo siguiente, delimitado por una barra vertical (`|`):
+La llamada a esta función hace que devuelva una cadena que contiene lo siguiente delimitado por una barra vertical (`|`):
 
 * El año en curso
 * El mes en curso
