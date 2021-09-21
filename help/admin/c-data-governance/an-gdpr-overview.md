@@ -4,9 +4,9 @@ title: Adobe Analytics y el RGPD
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Consulte [Etiquetado de datos de grupos de informes](/help/admin/c-data-governan
 
 * Compruebe sus permisos: para utilizar la interfaz de gestión del control de datos en Adobe Analytics, debe ser administrador de Adobe Analytics.
 
-## AdobePrivacyJS: Resolución de identidades del lado del cliente para solicitudes de RGPD
+## AdobePrivacyJS: resolución de identidades del lado del cliente para solicitudes de RGPD
 
 A continuación se muestra un vídeo introductorio sobre este tema:
 
