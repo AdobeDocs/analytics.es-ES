@@ -3,9 +3,9 @@ title: Cómo funcionan las reproducciones
 description: Comprensión del concepto "reproducción" en Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Tanto las visitas no autenticadas como las autenticadas en los nuevos dispositiv
 
 >[!NOTE]
 >
->Las visitas con marca de tiempo anteriores a 12 horas no se vinculan en el flujo en directo. Sin embargo, estas visitas se incluyen en la vinculación de Reproducción, siempre que entren en la ventana de retrospectiva de reproducción.
+>Las visitas con marca de tiempo de más de 12 horas no se identifican en el flujo en directo. Sin embargo, estas visitas se incluyen en la identificación de Reproducción, siempre que entren en la ventana de retrospectiva de reproducción.
 
 ### Reproducción de la vinculación
 
