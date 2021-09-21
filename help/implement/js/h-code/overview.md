@@ -3,9 +3,9 @@ title: Introducción a la implementación de código H de JavaScript
 description: Conozca el flujo de trabajo para implementar el código H en su sitio.
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->Esta versión de recopilación de datos ya no es compatible. Actualice a etiquetas [en Adobe Experience Platform](../../launch/overview.md) o [AppMeasurement para JavaScript](../overview.md).
+>Esta versión de recopilación de datos ya no es compatible. Actualice a [etiquetas en Adobe Experience Platform](../../launch/overview.md) o [AppMeasurement para JavaScript](../overview.md).
 
 Debe tener acceso a los servidores de alojamiento para implementar correctamente una página con código para recopilar datos. A continuación se muestran los pasos de una implementación básica código H de Analytics.
 
@@ -39,4 +39,4 @@ El archivo JavaScript se almacena en caché en el explorador del visitante cuand
 
 ## Compresión de código H
 
-Si le preocupa el tamaño de descarga del archivo `s_code.js`, Adobe recomienda comprimir el archivo `s_code.js` con GZIP. GZIP es compatible con todos los exploradores principales y ofrece un mejor rendimiento que la compresión JavaScript. Consulte el [Módulo Apache mod_deflate](https://httpd.apache.org/docs/current/mod/mod_deflate.html) en la documentación de Apache.
+Si le preocupa el tamaño de descarga del archivo `s_code.js`, Adobe recomienda comprimir el archivo `s_code.js` con GZIP. GZIP es compatible con todos los exploradores principales y ofrece un mejor rendimiento que la compresión JavaScript. Consulte el [Módulo Apache mod_deflate](https://httpd.apache.org/docs/current/es/mod/mod_deflate.html) en la documentación de Apache.
