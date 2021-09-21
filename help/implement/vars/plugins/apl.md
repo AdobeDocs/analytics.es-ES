@@ -3,9 +3,9 @@ title: apl (appendToList)
 description: Anexe valores a variables que admitan varios valores.
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '695'
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ s.list3 = apl(s.list3,"value1");
 
 ### 2.5 (18 de febrero de 2016)
 
-* Ahora utiliza la función `inList` para el procesamiento de comparación
+* Ahora se utiliza la función `inList` para el procesamiento de comparación.
 
 ### 2.0 (26 de enero de 2016)
 
