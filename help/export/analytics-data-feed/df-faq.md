@@ -4,9 +4,9 @@ keywords: Fuente de datos, trabajo, columna previa, columna posterior, distinci�
 title: Preguntas frecuentes sobre las fuentes de datos
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1440'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Algunos editores de hojas de cálculo, especialmente Microsoft Excel, redondean 
 
 Adobe recomienda no abrir automáticamente los archivos `hit_data.tsv` en Microsoft Excel. En su lugar, utilice el cuadro de diálogo Importar datos de Excel y asegúrese de que todos los campos se tratan como texto.
 
-## ¿Se garantiza que columnas como `hitid_high`, `hitid_low`, `visid_high` y `visid_low` son únicas para la visita o visita?
+## ¿Se garantiza que columnas como `hitid_high`, `hitid_low`, `visid_high` y `visid_low` sean únicas para la visita?
 
-En casi todos los casos, la concatenación de `hitid_high` y `hitid_low` identifica una visita de forma exclusiva. El mismo concepto se aplica a la concatenación de `visid_high` y `visid_low` para visitas. Sin embargo, las anomalías de procesamiento rara vez hacen que dos visitas compartan el mismo ID de visita. Adobe recomienda no crear flujos de trabajo de fuentes de datos que dependan de que cada visita sea única de forma inflexible.
+En casi todos los casos, la concatenación de `hitid_high` y `hitid_low` identifica una visita de forma exclusiva. El mismo concepto se aplica a la concatenación de `visid_high` y `visid_low` para las visitas. Sin embargo, las anomalías de procesamiento rara vez hacen que dos visitas compartan el mismo ID. Adobe recomienda no crear flujos de trabajo de fuentes de datos que dependan de que cada visita sea única de forma inflexible.
 
 ## ¿Por qué falta información en la columna de dominio para algunos operadores? {#section_B7508D65370442C7A314EAED711A2C75}
 
