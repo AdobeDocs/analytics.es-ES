@@ -4,9 +4,9 @@ title: Resumen de los grupos de informes virtuales
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Los grupos de informes virtuales segmentan los datos de Adobe Analytics de modo que pueda controlar el acceso a cada segmento.
 
-Muchos clientes mantienen un flujo de datos hacia un grupo de informes global, pero también hacia grupos de informes menores. Establecen una variable en varios grupos de informes y envían sus datos a más de uno de estos grupos. Esto se conoce como *etiquetado de grupos múltiples* o *grupos de informes base/superior*.
+Muchos clientes mantienen un flujo de datos hacia un grupo de informes global, pero también hacia grupos de informes menores. Establecen una variable en varios grupos de informes y envían sus datos a más de uno de estos grupos. Esto se denomina *etiquetado de grupos múltiples*, o *grupos de informes base/principal*.
 
 Por ejemplo, todos los datos podrían recopilarse en un grupo de informes, pero luego puede establecer grupos de informes secundarios para que los empleados de la empresa tengan acceso a parte de estos datos, pero no a todos. Los datos podrían dividirse por regiones. Podrían tenerse distintos sitios web para distintos países. Otro ejemplo puede ser un grupo de marcas específicas que pertenecen a una misma empresa superior, aunque cada una con sus propios equipos de marketing.
 
