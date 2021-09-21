@@ -3,9 +3,9 @@ title: getVisitNum
 description: Rastree el número de la visita actual de un visitante.
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '684'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 ## Uso del complemento
 
-La función `getVisitNum` utiliza los siguientes argumentos:
+La función `getVisitNum` utiliza los argumentos siguientes:
 
 * **`rp`** (opcional, entero O cadena): El número de días antes de que se restablezca el contador de números de visitas.  Si no se configura de forma distinta, el valor predeterminado es `365`.
    * Cuando este argumento es `"w"`, el contador se restablece al final de la semana (este sábado a las 23:59 h)
@@ -65,7 +65,7 @@ La función `getVisitNum` utiliza los siguientes argumentos:
    * Cuando este argumento es `"y"`, el contador se restablece al final del año (31 de diciembre)
 * **`erp`** (opcional, booleano): Cuando el argumento `rp` es un número, este argumento determina si se debe ampliar la caducidad del número de visita. Si se establece en `true`, las posteriores visitas al sitio restablecerán el contador de número de visitas. Si se establece en `false`, las posteriores visitas al sitio no se amplían cuando se restablece el contador de número de visitas. El valor predeterminado es `true`. Este argumento no es válido cuando el argumento `rp` es una cadena.
 
-El número de visitas aumenta cada vez que el visitante regresa al sitio después de 30 minutos de inactividad. Llamar a esta función devuelve un entero que representa el número de visita actual del visitante.
+El número de visitas aumenta cada vez que el visitante regresa al sitio después de 30 minutos de inactividad. La llamada a esta función hace que se devuelva un entero que representa el número de visita actual del visitante.
 
 Este complemento establece una cookie de origen llamada `"s_vnc[LENGTH]"`, donde `[LENGTH]` es el valor que se pasa al argumento `rp`. Por ejemplo, `"s_vncw"`, `"s_vncm"`o `"s_vnc365"`. El valor de la cookie es una combinación de una marca de tiempo Unix que representa cuándo se restablece el contador de visitas, como fin de semana, fin de mes o tras 365 días de inactividad. También contiene el número de visita actual. Este complemento establece otra cookie denominada `"s_ivc"` que se establece en `true` y caduca tras 30 minutos de inactividad.
 
