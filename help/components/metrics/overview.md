@@ -3,9 +3,9 @@ title: Resumen de las métricas
 description: Vista de cantidades de datos o elementos de dimensión a lo largo del tiempo.
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,6 +28,6 @@ Si no encuentra una página de ayuda de métrica determinada, es probable que se
 
 ## Agregar descripciones de métricas
 
-Este es un vídeo que describe cómo agregar descripciones de métricas (y dimensiones) en Adobe Analytics:
+En este vídeo se explica cómo agregar descripciones de métricas (y dimensiones) en Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
