@@ -4,9 +4,9 @@ title: Solucionar problemas de Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
