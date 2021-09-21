@@ -3,9 +3,9 @@ title: cleanStr
 description: Eliminación o sustitución de todos los caracteres innecesarios de una cadena.
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '459'
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## Uso del complemento
 
-La función `cleanStr` utiliza los siguientes argumentos:
+El complemento `cleanStr` utiliza los siguientes argumentos:
 
 * **`str`** (obligatorio, cadena): El valor que desea para limpiar la codificación HTML, los espacios en blanco adicionales, las pestañas u otros caracteres innecesarios.
 
-La función devuelve el valor del argumento `str` con todos los caracteres innecesarios eliminados.
+La función recupera el valor del argumento `str` con todos los caracteres innecesarios eliminados.
 
 ## Ejemplos
 
