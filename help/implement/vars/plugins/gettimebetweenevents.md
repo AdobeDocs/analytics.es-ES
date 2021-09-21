@@ -3,9 +3,9 @@ title: getTimeBetweenEvents
 description: Mida el tiempo entre dos eventos.
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ El complemento `getTimeBetweenEvents` le permite realizar un seguimiento del tie
 
 Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
 1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
@@ -37,7 +37,7 @@ Adobe ofrece una extensión que le permite disfrutar de los complementos más ut
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
 1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].
@@ -81,7 +81,7 @@ La función `getTimeBetweenEvents` utiliza los siguientes argumentos:
 * **`bml`** (opcional, número): La duración de la referencia de redondeo según el formato del argumento `fmt`. Por ejemplo, si el argumento `fmt` es `"s"` y este argumento es `2`, el valor devuelto se redondea a la referencia de 2 segundos más cercana. Si el argumento `fmt` es `"m"` y este argumento es `0.5`, el valor devuelto se redondea a la referencia de medio minuto más cercana.
 * **`rte`** (opcional, cadena): La cadena delimitada por comas de eventos de Analytics que anulan o eliminan el temporizador. No tiene valor predeterminado.
 
-Llamar a esta función devuelve un entero que representa el tiempo entre el evento del temporizador de inicio y el evento del temporizador de detención en el formato deseado.
+La llamada a esta función hace que se devuelva un entero que representa el tiempo entre el evento de inicio del temporizador y el evento de fin del temporizador en el formato deseado.
 
 ## Llamadas de ejemplo
 
