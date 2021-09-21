@@ -3,9 +3,9 @@ title: IP y dominios utilizados por Adobe Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 source-git-commit: 881d78ef8f6ca5422e286f8cc472ea03a52b1068
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ La siguiente tabla abarca todos los servidores de recopilación de datos estánd
 
 ## Bloques de direcciones IP de FTP y recopilación de datos
 
-Si su organización prefiere permitir intervalos específicos de direcciones IP, puede utilizar la siguiente tabla. Todos los intervalos de esta sección se incluyen en la tabla anterior. Las conexiones FTP para fuentes de datos y de Data Warehouse solo se originan en las ubicaciones de Londres, Oregón y Singapur.
+Si su organización prefiere permitir intervalos específicos de direcciones IP, puede utilizar la siguiente tabla. Todos los intervalos de esta sección se incluyen en la tabla anterior. Las conexiones FTP para fuentes de datos y Data Warehouse solo se originan en las ubicaciones de Londres, Oregón y Singapur.
 
 | Ubicación | Intervalo IP (Notación CIDR) |
 | --- | --- |
@@ -88,14 +88,14 @@ Si su organización prefiere permitir intervalos específicos de direcciones IP,
 | Singapur | `172.82.246.0/23` |
 | Singapur | `172.82.248.0/21` |
 | San Jose | `66.117.20.0/24` |
-| San José | `66.235.132.0/22` |
-| San José | `130.248.128.0/22` |
-| San José | `192.243.248.0/23` |
-| San José | `172.82.200.0/22` |
-| San José | `66.235.136.0/22` |
-| San José | `208.91.175.0/24` |
-| San José | `208.91.174.0/24` |
-| San José | `208.91.169.0/24` |
+| San Jose | `66.235.132.0/22` |
+| San Jose | `130.248.128.0/22` |
+| San Jose | `192.243.248.0/23` |
+| San Jose | `172.82.200.0/22` |
+| San Jose | `66.235.136.0/22` |
+| San Jose | `208.91.175.0/24` |
+| San Jose | `208.91.174.0/24` |
+| San Jose | `208.91.169.0/24` |
 | Sídney | `216.104.216.0/23` |
 | Tokio | `66.235.159.0/24` |
 | Tokio | `66.117.21.0/24` |
