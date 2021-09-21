@@ -3,7 +3,7 @@ title: Guía de administración de Analytics
 description: Ayuda de administración para administradores de Adobe Analytics, incluida la administración de usuarios y productos en Admin Console, la configuración de grupos de informes, variables, clasificaciones y recopilación de datos.
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
 ht-degree: 100%
 
