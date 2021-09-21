@@ -3,9 +3,9 @@ title: rfl
 description: Elimine un valor específico de una cadena delimitada por caracteres.
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1043'
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plu
 
 ## Uso del complemento
 
-La función `rfl` utiliza los siguientes argumentos:
+La función `rfl` utiliza los argumentos siguientes:
 
 * **`lv`** (obligatorio, cadena): Una variable (o cadena) que contiene una lista de valores delimitados.
 * **`vr`** (obligatorio, cadena): El valor que desea eliminar del argumento `lv`. Adobe recomienda no eliminar varios valores durante una sola llamada `rfl`.
@@ -70,7 +70,7 @@ La función `rfl` utiliza los siguientes argumentos:
 * **`d2`** (opcional, cadena): El delimitador que desea que utilice la cadena de retorno. El valor predeterminado es el mismo que el argumento `d1`.
 * **`df`** (opcional, booleano): Si `true`, fuerza solo las instancias duplicadas del argumento `vr` desde el argumento `lv` en lugar de todas las instancias. Si no se configura de forma distinta, el valor predeterminado es `false`.
 
-Llamar a esta función devuelve una cadena modificada que contiene el argumento `lv` pero sin instancias (o instancias duplicadas) del valor especificado en el argumento `vr`.
+La llamada a esta función hace que se devuelva una cadena modificada que contiene el argumento `lv`, pero sin instancias (o instancias duplicadas) del valor especificado en el argumento `vr`.
 
 ## Llamadas de ejemplo
 
@@ -136,7 +136,7 @@ s.events = rfl(s.events);
 s.events = "";
 ```
 
-Si el argumento `lv` o el argumento `vr` están en blanco en una llamada `rfl`, el complemento no devuelve nada.
+Si los argumentos `lv` o `vr` están en blanco en una llamada `rfl`, el complemento no devolverá nada.
 
 ### Ejemplo 4
 
@@ -164,7 +164,7 @@ s.prop4 = "hello|people|today";
 s.eVar5 = "hello|today";
 ```
 
-Tenga en cuenta que el complemento solo devuelve un valor; no &quot;restablece&quot; realmente la variable pasada a través del argumento `lv`.
+Tenga en cuenta que el complemento solo devuelve un valor; realmente no restablece la variable pasada a través del argumento `lv`.
 
 ### Ejemplo 5
 
@@ -332,7 +332,7 @@ s.events = rfl(s.events,"event23,event24");
 s.events = "event22,event23,event24,event25";
 ```
 
-No se admite la configuración de varios valores en el argumento `vr`. La lógica `rfl` del ejemplo anterior primero dividiría los valores del argumento `lv` (es decir, s.events) y luego trataría de hacer coincidir cada valor delimitado con el valor del argumento `vr` completo (es decir, `"event23,event24"`).
+No se admite la configuración de varios valores en el argumento `vr`. La lógica `rfl` del ejemplo anterior primero dividiría los valores del argumento `lv` (es decir, s.events) y luego trataría de hacer coincidir cada valor del argumento completo (es decir `vr` argument value (i.e. `"event23,event24"`).
 
 ### Ejemplo 13
 
@@ -355,7 +355,7 @@ s.events = rfl(s.events,"event24");
 s.events = "event22,event25");
 ```
 
-Cada valor que se va a eliminar de la lista debe estar contenido en su propia llamada `rfl` .
+Cada valor que se va a eliminar de la lista debe estar contenido en su propia llamada `rfl`.
 
 ### Ejemplo 14
 
@@ -377,7 +377,7 @@ s.linkTrackVars = rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 s.linkTrackVars = "events,eVar1,eVar3";
 ```
 
-Los tres últimos argumentos (p. ej. &quot;,&quot;,&quot;,&quot;,false) al final de esta `rfl` llamada no es necesaria, pero tampoco &quot;duele nada&quot; al estar allí, ya que coinciden con la configuración predeterminada.
+Los tres últimos argumentos (por ejemplo “,“,“,“,false) al final de esta llamada `rfl` no son necesarios, pero tampoco pasa nada porque estén ahí, ya que coinciden con la configuración predeterminada.
 
 ### Ejemplo 15
 
@@ -399,7 +399,7 @@ rfl(s.events,"event23");
 s.events = "event22,event23,event24";
 ```
 
-Una vez más, tenga en cuenta que el complemento solo devuelve un valor; no &quot;restablece&quot; realmente la variable pasada a través del argumento `lv`.
+De nuevo, tenga en cuenta que el complemento solo devuelve un valor; realmente no “restablece” la variable pasada a través del argumento `lv`.
 
 ## Historial de versiones
 
