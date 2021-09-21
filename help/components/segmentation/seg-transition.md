@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2080'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Responde preguntas frecuentes sobre las funciones de segmentación, acceso, perm
 * Puede crear [Segmentos secuenciales](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 * El contenedor de vista de página se llama ahora “contenedor de visita individual” para indicar que el contenedor segmenta todos los tipos de datos, no solo vistas de página. Por ejemplo, si vincula las llamadas de seguimiento, el Contenedor de visita individual incluirá o excluirá las llamadas trackAction desde los SDK móviles. Tenga en cuenta que no se ha modificado la manera de funcionar del contenedor; simplemente se le ha cambiado el nombre.
 
-Consulte la publicación [Mejora de segmentación en Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) en el blog de Adobe para obtener más información.
+Consulte la publicación [Mejora de segmentación en Adobe Analytics](https://blog.adobe.com/es/publish/2014/05/20/improving-segmentation-adobe-analytics.html) en el blog de Adobe para obtener más detalles.
 
 ## Acceso a las herramientas de segmentación {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
@@ -39,9 +39,9 @@ Consulte la publicación [Mejora de segmentación en Adobe Analytics](https://bl
 
 Para acceder al Generador de segmentos, haga lo siguiente:
 
-* Muestre un informe existente y haga clic en el icono Segmentos ![Icono Segmento](assets/segment_icon.png) en el panel de navegación izquierdo. Haga clic en **[!UICONTROL Agregar]** en el carril de segmentos que se muestra o bien
+* Mostrar un informe existente y hacer clic en el icono de Segmentos ![icono de Segmento](assets/segment_icon.png) en el menú de navegación de la izquierda. Haga clic en **[!UICONTROL Agregar]** en el carril de segmentos que se muestra o bien
 
-* En la parte superior del Administrador de segmentos, haga clic en **[!UICONTROL + Agregar]**.  ![Botón Añadir](assets/add_button.png)
+* En la parte superior del Administrador de segmentos, haga clic en **[!UICONTROL + Agregar]**.  ![Botón Agregar](assets/add_button.png)
 
    o
 
@@ -53,13 +53,13 @@ Acceda al Administrador de segmentos de una de las siguientes maneras:
 
 * Vaya a **[!UICONTROL Análisis]** > **[!UICONTROL Componentes]** en el panel de navegación superior. A continuación, haga clic en **[!UICONTROL Segmentos]**, o bien
 
-* Muestre un informe existente y haga clic en el icono Segmentos ![Icono Segmento](assets/segment_icon.png) en el panel de navegación izquierdo. A continuación, haga clic en **[!UICONTROL Administrar]**, o bien
+* Mostrar un informe existente y hacer clic en el icono de Segmentos ![icono de Segmento](assets/segment_icon.png) en el menú de navegación de la izquierda. A continuación, haga clic en **[!UICONTROL Administrar]**, o bien
 
 * Presione la tecla de barra &quot;/&quot; situándose en cualquier lugar de la interfaz y busque el Administrador de segmentos.
 
 **¿Dónde está ahora la lista desplegable de segmentos heredados?**
 
-La lista desplegable de segmentos de Reports &amp; Analytics se ha sustituido por una interfaz de [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) con muchas más funciones que le permite crear segmentos &quot;universales&quot; utilizables en los grupos de informes y en las soluciones de Adobe Analytics. Para ver una lista de segmentos existentes, haga clic en el icono Segmentos ![Icono de segmento](assets/segment_icon.png)
+La lista desplegable de segmentos de Reports &amp; Analytics se ha sustituido por una interfaz de [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) con muchas más funciones que le permite crear segmentos &quot;universales&quot; utilizables en los grupos de informes y en las soluciones de Adobe Analytics. Para ver una lista de segmentos existentes, haga clic en el icono Segmentos ![Icono de Segmento](assets/segment_icon.png)
 
 en la navegación izquierda, y se mostrará el carril de segmentos.
 
