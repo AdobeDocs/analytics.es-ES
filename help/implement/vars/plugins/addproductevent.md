@@ -3,9 +3,9 @@ title: addProductEvent
 description: Agrega eventos personalizados a la variable products y events.
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
