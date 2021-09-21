@@ -4,7 +4,7 @@ title: Activación de un grupo de informes para Advertising Analytics
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
