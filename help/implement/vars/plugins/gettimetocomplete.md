@@ -3,9 +3,9 @@ title: getTimeToComplete
 description: Mida el tiempo que se tarda en completar una tarea.
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ El complemento `getTimeToComplete` rastrea el tiempo que un usuario tarda en com
 
 Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
 1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
@@ -37,7 +37,7 @@ Adobe ofrece una extensión que le permite disfrutar de los complementos más ut
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Inicie sesión en la [interfaz de usuario de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
 1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].
@@ -63,7 +63,7 @@ La función `getTimeToComplete` utiliza los siguientes argumentos:
 * **`cn`** (opcional, cadena): El nombre de la cookie para almacenar la hora de inicio. El valor predeterminado es `"s_gttc"`.
 * **`exp`** (opcional, entero): El número de días en que caduca la cookie (y el temporizador). El valor predeterminado es `0`, que representa el final de la sesión del explorador.
 
-Llamar a esta función devuelve una cadena que contiene el número de días, horas, minutos y/o segundos que transcurrieron entre la acción `"start"` y `"stop"`.
+Llamar a esta función devuelve una cadena que contiene el número de días, horas, minutos o segundos transcurridos entre la acción `"start"` y `"stop"`.
 
 ## Ejemplos
 
