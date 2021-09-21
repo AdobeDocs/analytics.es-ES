@@ -3,9 +3,9 @@ title: getPageName
 description: Cree un nombre de página fácil de leer a partir de la ruta del sitio web actual.
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '596'
+ht-degree: 100%
 
 ---
 
@@ -57,14 +57,14 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## Uso del complemento
 
-La función `getPageName` utiliza los siguientes argumentos:
+La función `getPageName` utiliza los argumentos siguientes:
 
 * **`si`** (opcional, cadena): un ID insertado al principio de la cadena que representa el ID del sitio. Este valor puede ser un ID numérico o un nombre sencillo. Si no se establece, el valor predeterminado es el dominio actual.
 * **`qv`** (opcional, cadena): una lista delimitada por comas de parámetros de cadena de consulta que, si se encuentran en la dirección URL, se agregan a la cadena
 * **`hv`** (opcional, cadena): una lista delimitada por comas de parámetros encontrados en el hash de la URL que, si se encuentran en la dirección URL, se agregan a la cadena
 * **`de`** (opcional, cadena): el delimitador para dividir partes individuales de la cadena. Valores predeterminados de una barra vertical (`|`).
 
-La función devuelve una cadena que contiene una versión de la URL con formato sencillo. Esta cadena se suele asignar a la variable `pageName`, pero también se puede utilizar en otras variables.
+La función devuelve una cadena que contiene una versión de la dirección URL con formato sencillo. Esta cadena se suele asignar a la variable `pageName`, pero también se puede utilizar en otras variables.
 
 ## Ejemplos
 
@@ -93,7 +93,7 @@ s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 
 ## Actualización desde versiones anteriores
 
-La versión 4.0 o posterior del complemento `getPageName` no depende de la existencia del objeto AppMeasurement de Adobe Analytics (es decir, el objeto `s` ). Si actualiza a esta versión, cambie el código que llama al complemento eliminando cualquier instancia del objeto `s` de la llamada. Por ejemplo, cambie `s.getPageName();` a `getPageName();`.
+La versión 4.0 o posterior `getPageName` del complemento no depende de la existencia del objeto AppMeasurement de Adobe Analytics (es decir, del objeto `s`). Si decide actualizar a esta versión, asegúrese de cambiar el código que llama al complemento. Para ello, elimine las instancias del objeto `s` de la llamada. Por ejemplo, cambie `s.getPageName();` a `getPageName();`.
 
 ## Historial de versiones
 
