@@ -3,9 +3,9 @@ title: getResponsiveLayout
 description: Determine qué diseño de un sitio web se está viendo en ese momento.
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '528'
+ht-degree: 100%
 
 ---
 
@@ -57,13 +57,13 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## Uso del complemento
 
-La función `getResponsiveLayout` utiliza los siguientes argumentos:
+La función `getResponsiveLayout` utiliza los argumentos siguientes:
 
 * **`ppw`** (obligatorio, entero): El ancho de píxeles máximo que puede tener una ventana del explorador antes de que la página cambie de un diseño vertical para teléfonos a un diseño horizontal para teléfonos
 * **`plw`** (obligatorio, entero): El ancho de píxeles máximo que puede tener una ventana del explorador antes de que la página cambie de un diseño horizontal para teléfonos a un diseño para tableta
-* **`tw`** (obligatorio, entero): El ancho de píxeles máximo que puede tener una ventana del explorador antes de que la página cambie de un diseño para tableta a un diseño para escritorio
+* **`tw`** (obligatorio, entero): La anchura máxima de píxeles que puede tener una ventana del explorador antes de que la página cambie de un diseño para tableta a un diseño para escritorio
 
-Llamar a esta función devuelve una cadena que contiene dos partes delimitadas por dos puntos (`:`). La primera parte de la cadena contiene uno de los siguientes valores, según la anchura del explorador y los argumentos anteriores:
+La llamada a esta función hace que se devuelva una cadena que contiene dos partes delimitadas por dos puntos (`:`). La primera parte de la cadena contiene uno de los siguientes valores, según la anchura y los argumentos mencionados del explorador:
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
