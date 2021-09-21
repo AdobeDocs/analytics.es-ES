@@ -3,9 +3,9 @@ title: getQueryParam
 description: Extraiga el valor de un parámetro de cadena de consulta de una dirección URL.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '666'
+ht-degree: 100%
 
 ---
 
@@ -61,12 +61,12 @@ La función `getQueryParam` utiliza los siguientes argumentos:
 * **`de`** (opcional): El delimitador que se usará si coinciden varios parámetros de cadena de consulta. El valor predeterminado es una cadena vacía.
 * **`url`** (opcional): Una dirección URL, cadena o variable personalizada desde la que extraer los valores de parámetro de cadena de consulta. El valor predeterminado es `window.location`.
 
-Llamar a esta función devuelve un valor según los argumentos anteriores y la dirección URL:
+La llamada a esta función hace que se devuelva un valor que depende de los argumentos anteriores y de la dirección URL:
 
 * Si no se encuentra un parámetro de cadena de consulta coincidente, la función devuelve una cadena vacía.
 * Si se encuentra un parámetro de cadena de consulta coincidente, la función devuelve el valor del parámetro de cadena de consulta.
 * Si se encuentra un parámetro de cadena de consulta coincidente pero el valor está vacío, la función devuelve `true`.
-* Si se encuentran varios parámetros de cadena de consulta coincidentes, la función devuelve una cadena con cada valor de parámetro delimitado por la cadena en el argumento `de`.
+* Si se encuentran varios parámetros de cadena de consulta coincidentes, la función devuelve una cadena con el valor de cada parámetro delimitado por la cadena en el argumento `de`.
 
 ## Ejemplos
 
