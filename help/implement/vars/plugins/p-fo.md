@@ -3,9 +3,9 @@ title: p_fo (Page First Only)
 description: Asegure que determinadas rutinas se activen solo una vez por página.
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '635'
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ La función `p_fo` utiliza los siguientes argumentos:
 
 * **on** (obligatorio, cadena): El nombre del objeto JavaScript que crea el complemento si el objeto no existe aún en la página.
 
-Si el objeto aún no existe, esta función devuelve `true` y crea el objeto. Si el objeto ya existe, esta función devuelve `false`.
+Si el objeto aún no existe, este método devuelve `true` y crea el objeto. Si el objeto ya existe, este método devuelve `false`.
 
 ## Llamadas de ejemplo
 
@@ -78,7 +78,7 @@ if(p_fo("myobject"))
 }
 ```
 
-**NOTA:** Cada vez que se carga un nuevo objeto de página/DOM (o que la página actual se vuelve a cargar), el objeto especificado en el argumento on dejará de existir y, por lo tanto, el complemento p_fo volverá a ser true la primera vez que se ejecute después de que la página termine de cargarse.
+**NOTA:** Cada vez que se carga un nuevo objeto de página/DOM (o cuando la página actual se recarga), el objeto especificado en el argumento on dejará de existir y, por lo tanto, el complemento p_fo volverá a ser true la primera vez que se ejecute después de que la página termine de cargarse.
 
 ## Historial de versiones
 
