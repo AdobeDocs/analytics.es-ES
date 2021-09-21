@@ -3,9 +3,9 @@ title: Configuración de una cuenta de publicidad en Advertising Analytics
 description: Permite crear nuevas cuentas de publicidad y asignar varias cuentas a varios grupos de informes.
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
 
    >[!IMPORTANT]
    >
-   >Solo los grupos de informes asignados a una organización de Experience Cloud están disponibles para su selección. Si su grupo de informes no se incluye en la lista, consulte [Solucionar problemas de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Solo los grupos de informes que se hayan asignado a una organización de Experience Cloud están disponibles para su selección. Si su grupo de informes no se incluye en la lista, consulte [Solucionar problemas de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
    Para la **[!UICONTROL configuración de la asignación]**, siga estas directrices:
 
