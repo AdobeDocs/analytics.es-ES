@@ -3,9 +3,9 @@ title: getPreviousValue
 description: Obtenga el último valor que se haya pasado a una variable.
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '664'
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ s.eVar10 = getPreviousValue(s.eVar1);
 
 ## Particularidades improbables
 
-Si la variable asociada con el argumento `v` se establece en un nuevo valor y se ejecuta el complemento `getPreviousValue` PERO NO se envía una llamada al servidor de Analytics al mismo tiempo, el nuevo valor del argumento `v` se seguirá considerando el &quot;valor anterior&quot; la próxima vez que se ejecute el complemento.
+Si la variable asociada con el argumento `v` se establece en un nuevo valor y se ejecuta el complemento `getPreviousValue` PERO NO se envía una llamada al servidor de Analytics al mismo tiempo, el nuevo valor del argumento `v` seguirá considerándose el &quot;valor anterior&quot; la próxima vez que se ejecute el complemento.
 Por ejemplo, supongamos que el siguiente código se ejecuta en la primera página de la visita:
 
 ```js
@@ -99,7 +99,7 @@ s.pageName = "New value";
 s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-Dado que la función `t()` no se ejecuta en este bloque de código, no se envía otra solicitud de imagen.  Sin embargo, cuando el código de la función `getPreviousValue` se ejecuta esta vez, `prop7` se establece en el valor anterior de `pageName` (&quot;Home&quot;) y, a continuación, almacena el nuevo valor de `pageName` (&quot;New value&quot;) en la cookie `gpv_Page`. A continuación, supongamos que el visitante navega a una página diferente y se ejecuta el siguiente código en esta página:
+Dado que la función `t()` no se ejecuta en este bloque de código, no se creará otra solicitud de imagen.  Sin embargo, cuando el código de la función `getPreviousValue` se ejecuta esta vez, `prop7` se establece en el valor anterior de `pageName` (&quot;Home&quot;) y, a continuación, almacena el nuevo valor de `pageName` (&quot;New value&quot;) en la cookie `gpv_Page`. A continuación, supongamos que el visitante navega a una página diferente y que se ejecuta el siguiente código en esta página:
 
 ```js
 s.pageName = "Page 2";
@@ -107,7 +107,7 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-Cuando se ejecuta la función `t()`, crea una solicitud de imagen donde `pageName` es &quot;Página 2&quot; y `prop7` es &quot;Nuevo valor&quot;, que era el valor de `pageName` cuando se realizó la última llamada a `getPreviousValue`. El valor `prop7` de `"Home"` nunca se incluyó en una solicitud de imagen, aunque &quot;Home&quot; fuera el primer valor pasado a `pageName`.
+Cuando se ejecuta la función `t()`, crea una solicitud de imagen donde `pageName` es &quot;Página 2&quot; y `prop7` es &quot;Nuevo valor&quot;, que era el valor de `pageName` cuando se realizó la última llamada a `getPreviousValue`. El valor `prop7` de `"Home"` nunca se incluyó en ninguna solicitud de imagen real aunque &quot;home&quot; fuera el primer valor pasado a `pageName`.
 
 ## Historial de versiones
 
