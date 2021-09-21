@@ -3,9 +3,9 @@ title: getNewRepeat
 description: Rastree la actividad de visitantes nuevos frente a los que repiten.
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '552'
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ La función `getNewRepeat` utiliza los siguientes argumentos:
 
 * **`d`** (entero, opcional): el número mínimo de días entre visitas que restablece a los visitantes de nuevo como `"New"`. Si no se establece este argumento, el valor predeterminado es de 30 días.
 
-Esta función devuelve el valor de `"New"` si la cookie configurada por el complemento no existe o ha caducado. Devuelve el valor de `"Repeat"` si la cookie configurada por el complemento existe y el tiempo desde la visita actual y el tiempo establecido en la cookie supera los 30 minutos. Esta función devuelve el mismo valor para una visita completa.
+La función devuelve el valor de `"New"` si la cookie configurada por el complemento no existe o ha caducado. Devuelve el valor de `"Repeat"` si la cookie configurada por el complemento existe y el tiempo desde la visita actual y el tiempo establecido en la cookie supera los 30 minutos. Esta función devuelve el mismo valor para una visita completa.
 
 Este complemento utiliza una cookie denominada `"s_nr[LENGTH]"` donde `[LENGTH]` es igual al argumento `d`. La cookie contiene una marca de tiempo Unix que representa la hora actual y el estado actual del visitante (`"New"` o `"Repeat"`).
 
