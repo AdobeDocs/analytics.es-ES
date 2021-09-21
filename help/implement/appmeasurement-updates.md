@@ -5,8 +5,8 @@ subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
 workflow-type: tm+mt
-source-wordcount: '2201'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Fecha de versión: **7 de septiembre de 2021**
 
 Fecha de versión: **17 de agosto de 2021**
 
-* Es posible que los clientes que utilizan la exclusión hayan visto que los parámetros de exclusión del reenvío del lado del servidor no se respetan al rastrear vínculos. Las correcciones de esta versión hacen que los indicadores de exclusión se envíen si están presentes al rastrear vínculos.
+* Es posible que los clientes que utilizan la exclusión hayan visto que los parámetros de exclusión del reenvío del lado del servidor no se respetan durante el seguimiento de los vínculos. Las correcciones de esta versión hacen que los indicadores de exclusión se envíen si están presentes durante el seguimiento de los vínculos.
 
 ## Versión 2.22.0
 

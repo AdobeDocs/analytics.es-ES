@@ -4,8 +4,8 @@ description: Configure un grupo de informes virtuales para habilitar CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ El departamento de ingeniería de Adobe ofrece las analíticas de varios disposi
 * Qué método de analíticas de varios dispositivos desea utilizar (vinculación basada en campos, gráfico privado de Adobe o gráfico de cooperación de Adobe)
 * Si desea utilizar la vinculación basada en campos, el prop o eVar que contiene el ID de usuario
 * Su preferencia de frecuencia de repetición y longitud de retrospectiva. Las opciones incluyen una reproducción una vez a la semana con una ventana retrospectiva de 7 días o una reproducción cada día con una ventana retrospectiva de 1 día.
-El valor predeterminado es la reproducción semanal con una ventana retrospectiva de 7 días. En este caso, los datos de la última semana están sujetos a cambios (ya que se están vinculando y actualizando progresivamente).
+El valor predeterminado es la reproducción semanal con una ventana retrospectiva de 7 días. En este caso, los datos de la última semana están sujetos a cambios (ya que se identifican y se actualizan progresivamente).
 
 Una vez que haya proporcionado esta información al Servicio de atención al cliente, estos se pondrán en contacto con el departamento de ingeniería de Adobe para habilitar el grupo de informes elegido para el procesamiento de analíticas de varios dispositivos.
 

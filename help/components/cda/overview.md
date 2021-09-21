@@ -4,8 +4,8 @@ description: Cambie los datos de centrados en el dispositivo a centrados en la p
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: 13428ba0d149482a099fbdaa74890b59dd0891eb
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Permite elegir una variable de Analytics como base para la vinculación entre di
 
 >[!NOTE]
 >
->Obtenga más información sobre el [fin de vida útil de Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html).
+>Obtenga más información sobre el [fin de vida útil de Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html?lang=es).
 
 Con CDA, puede dar respuesta a preguntas como:
 
@@ -49,13 +49,13 @@ El análisis entre dispositivos es una característica innovadora y sólida, per
 * CDA solo está disponible a través de Analysis Workspace.
 * El análisis entre dispositivos no funciona en todos los grupos de informes ni combina datos de varios grupos de informes.
 * Los grupos de informes de Adobe Analytics no pueden asignarse a más de una organización de IMS. Dado que CDA vincula dispositivos dentro de un grupo de informes determinado, CDA no se puede usar para unir datos en varias organizaciones IMS.
-* Private Graph aprovecha las mismas sincronizaciones de ID que las utilizadas por la capacidad [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#customer-attributes) ubicada en Experience Cloud y Adobe Analytics. Sin embargo, los grupos de informes virtuales de CDA (basados en gráficos privados o en la identificación entre dispositivos basada en campos) no son compatibles con el resto de la funcionalidad Atributos del cliente. Es decir, las dimensiones basadas en atributos del cliente no están disponibles para su uso en los grupos de informes virtuales de CDA.
+* Private Graph aprovecha las mismas sincronizaciones de ID que las utilizadas por la capacidad [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=es) ubicada en Experience Cloud y Adobe Analytics. Sin embargo, los grupos de informes virtuales de CDA (basados en gráficos privados o en la identificación entre dispositivos basada en campos) no son compatibles con el resto de la funcionalidad Atributos del cliente. Es decir, las dimensiones basadas en atributos del cliente no están disponibles para su uso en los grupos de informes virtuales de CDA.
 * En la actualidad, CDA no es compatible con A4T.
 * Análisis entre dispositivos utiliza un grupo de informes virtuales y un procesamiento de tiempo de informes, que tienen sus propias limitaciones. Consulte [Grupos de informes virtuales](../vrs/vrs-about.md) y [Procesamiento de tiempo de los informes](../vrs/vrs-report-time-processing.md) para saber más sobre estas limitaciones.
 * La API 1.4 no es compatible. Los conectores de Power BI y Report Builder dependen de la API 1.4 y, por lo tanto, no son compatibles con CDA.
 * La monitorización activa del proceso de vinculación de CDA por Adobe se limita solo a los grupos de informes de producción.
 * Actualmente, CDA no es compatible con la [API de reparación de datos](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) de Adobe Analytics
 * Los datos históricos del grupo de informes virtuales cambian según el reconocimiento y la vinculación de dispositivos de Adobe. Los datos del grupo de informes de origen no cambian.
-* Los datos con título siguen una latencia de 8 a 12 horas.
+* Los datos conectados siguen una latencia de 8 a 12 horas.
 * Los datos del historial de asignación de un dispositivo determinado se almacenan durante un año.
 * Si un dispositivo alcanza un número muy alto de entradas del historial de asignación en un año, el historial de asignación se trunca. El límite exacto depende de la opción de vinculación utilizada.

@@ -4,8 +4,8 @@ description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: 080c5e35e7ffd253ac07e1158fb7c4bede238199
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 73%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

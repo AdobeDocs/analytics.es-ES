@@ -6,8 +6,8 @@ breadcrumb-title: Guía de componentes
 user-guide-description: Ayude a organizar los datos usando componentes como segmentos, métricas calculadas, grupos de informes virtuales y alertas.
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -198,7 +198,7 @@ ht-degree: 97%
       + [Totales de métricas calculadas](c-calcmetrics/cm-totals.md)
 + Grupos de informes virtuales {#virtual-report-suites}
    + [Resumen de los grupos de informes virtuales](vrs/vrs-about.md)
-   + [Grupo de informes virtuales: revisión de componentes](vrs/vrs-components.md)
+   + [Revisión de componentes de grupo de informes virtuales](vrs/vrs-components.md)
    + [Compatibilidad con VRS en Mobile Services](vrs/vrs-mobile-services.md)
    + [Sesiones según el contexto](vrs/vrs-mobile-visit-processing.md)
    + [Procesamiento de tiempo de los informes](vrs/vrs-report-time-processing.md)

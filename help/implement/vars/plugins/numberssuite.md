@@ -82,8 +82,8 @@ La función `twoDecimals` utiliza los siguientes argumentos:
 
 ## Devuelve
 
-* La función **zeroPad** devuelve una cadena igual al argumento `num` pero con un número específico de ceros agregados al principio de su valor, lo que garantiza que el valor devuelto tenga el número correcto de dígitos.
-* La función **randomNumber** devuelve una cadena igual a un número aleatorio con el número deseado de dígitos.
+* La función **zeroPad** devuelve una cadena igual al argumento `num`, pero con un número específico de ceros agregados al principio de su valor, lo que garantiza que el valor devuelto tenga el número correcto de dígitos.
+* La función **randomNumber** devuelve una cadena equivalente a un número aleatorio con el número deseado de dígitos.
 * La función **twoDecimals** devuelve un objeto numérico redondeado a la centésima más cercana.
 
 ## Llamadas de ejemplo
