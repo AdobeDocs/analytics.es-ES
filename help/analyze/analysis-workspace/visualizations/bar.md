@@ -2,13 +2,13 @@
 description: Utilice la visualización de barras en un proyecto de Workspace.
 title: Barra y barra apilada
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-feature: Visualizaciones
+feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
 source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
-workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '95'
+ht-degree: 100%
 
 ---
 
@@ -32,6 +32,6 @@ Una nueva configuración en las visualizaciones de barras apiladas convierte el 
 
 ![](assets/stacked_100_percent.png)
 
-Este es un vídeo sobre &quot;visualizaciones apiladas al 100 %&quot;:
+Este vídeo trata sobre &quot;visualizaciones apiladas al 100 %&quot;:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
