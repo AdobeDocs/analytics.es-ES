@@ -3,9 +3,9 @@ title: Plantilla de CDA Workspace
 description: Describe cada campo de la plantilla CDA de Analysis Workspace.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe ofrece una plantilla para ver datos de rendimiento vitales entre dispositi
 1. Vaya a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) e inicie sesión con sus credenciales de Adobe ID.
 1. Haga clic en el icono de 9 cuadrículas en la parte superior y, a continuación, haga clic en Analytics.
 1. Haga clic en [!UICONTROL Workspace] en la parte superior y, a continuación, en [!UICONTROL “Crear nuevo proyecto”].
-1. Busque la plantilla &quot;Análisis entre dispositivos&quot; y, a continuación, haga clic en [!UICONTROL Crear].
+1. Localice la plantilla Análisis entre dispositivos y, a continuación, haga clic en [!UICONTROL Crear].
 1. Si se le solicita, cambie el grupo de informes a uno que admita CDA.
 
 Se crea un proyecto de Analysis Workspace que contiene varios paneles. En la parte superior, se muestra una tabla de contenido e introducción, lo que permite el contexto del informe y la navegación hacia informes individuales. Haga clic en un vínculo dentro de la tabla de contenido o expanda el acordeón de un panel para ver dichos informes.
