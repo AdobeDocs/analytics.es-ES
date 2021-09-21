@@ -3,9 +3,9 @@ title: formatTime
 description: Convierta un número de segundos en su equivalente en minutos, horas, etc.
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '600'
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ La función `formatTime` utiliza los siguientes argumentos:
    * Establézcalo en `"s"` si desea el tiempo en segundos (redondeado al valor de referencia de 5 segundos más cercano de forma predeterminada).
 * **`bml`** (opcional, número): Duración de los puntos de referencia de redondeo. Valores predeterminados de los puntos de referencia enumerados en el argumento `tf`
 
-La función devuelve el número de segundos formateados con la unidad especificada en el argumento `tf`. Si el argumento `tf` no está establecido:
+La función recupera el número de segundos formateados mediante la unidad especificada en el argumento `tf`. Si el argumento `tf` no está establecido:
 
 * Cualquier valor inferior a un minuto se redondea al valor de referencia de 5 segundos más cercano.
 * Cualquier valor entre un minuto y una hora se redondea al punto de referencia de medio minuto más cercano.
