@@ -3,9 +3,9 @@ description: Explica la nueva estrategia de lanzamiento continuo de funcionalida
 title: Versiones de funcionalidades de Adobe Analytics
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Históricamente, las versiones de funcionalidades de Adobe Analytics seguían un
 
 [!UICONTROL Analysis Workspace] utiliza indicadores de funcionalidades (también conocidos como “alternadores”) para controlar la visibilidad de las nuevas funcionalidades, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
 
-* **Versión para producción (RTP)**: El código se libera para su producción, con la visibilidad de las funcionalidades desactivada en Analysis Workspace. La función a veces está disponible en la API de Analytics 2.0.
+* **Versión para producción (RTP)**: El código se libera para su producción, con la visibilidad de las funcionalidades desactivada en Analysis Workspace. Esta característica a veces está disponible en la API Analytics 2.0.
 
 * **Prueba limitada**: Una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. La versión se escalará de 0% a 100% de disponibilidad en un par de meses. La implementación por fases se produce en el nivel de organización de Experience Cloud, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
 
@@ -27,7 +27,7 @@ Con cada versión de la funcionalidad, los plazos desde la fase de producción h
 
 ## Indicadores de características
 
-Los indicadores de características se utilizan para controlar la visibilidad de las nuevas funciones durante el lanzamiento. Adobe recomienda agregar `app.launchdarkly.com` a la [lista de permitidos](/help/technotes/ip-addresses.md) del firewall para obtener una experiencia óptima durante el lanzamiento. Poco después de que se llegue a GA, se elimina el indicador.
+Los indicadores de características se utilizan para controlar la visibilidad de las nuevas funciones durante el lanzamiento. Adobe recomienda añadir `app.launchdarkly.com` a la [lista de permitidos](/help/technotes/ip-addresses.md) del cortafuegos para disfrutar de una experiencia óptima durante el lanzamiento. Poco después de que se llegue a GA, se elimina el indicador.
 
 Puede realizar la vista de los indicadores de funciones activas en cualquier momento en **Ayuda > Acerca de Workspace > Indicadores** de funciones activas.
 
@@ -40,4 +40,4 @@ Las versiones por fases permiten a Adobe escalar mejor el proceso de implementac
 | Pregunta | Respuesta |
 | --- | --- |
 | ¿Puedo solicitar acceso anticipado a una funcionalidad? | No. No se puede solicitar el acceso anticipado.<br>Si desea probar las versiones iniciales de Analytics, le recomendamos que pruebe [Adobe Analytics Labs](/help/analyze/labs.md) para proporcionar comentarios sobre las innovaciones líderes del sector. |
-| ¿Esta estrategia de lanzamiento afecta mi acceso a las funcionalidades? | No. Una vez que una funcionalidad haya llegado a su fase de disponibilidad general, tendrá acceso a ella si está incluida en su paquete de Analytics.<br>Puede ver los detalles del paquete de Analytics en Niveles de acceso a  [funciones](/help/admin/company/feature-access-levels.md). |
+| ¿Esta estrategia de lanzamiento afecta mi acceso a las funcionalidades? | No. Una vez que una funcionalidad haya llegado a su fase de disponibilidad general, tendrá acceso a ella si está incluida en su paquete de Analytics.<br>Puede ver los detalles del paquete de Analytics en [Niveles de acceso de las funciones](/help/admin/company/feature-access-levels.md). |
