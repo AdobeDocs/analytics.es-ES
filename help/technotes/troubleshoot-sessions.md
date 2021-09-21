@@ -3,9 +3,9 @@ title: Solución de problemas de sesión de Adobe Analytics
 description: Obtenga información sobre cómo resolver problemas relacionados con la desconexión de Adobe Analytics.
 exl-id: 191250ef-8313-47be-9717-046cce870998
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Para determinar si la red corporativa a la que se ha conectado interfiere con el
 
 ## Problemas debidos a proxies
 
-Adobe utiliza un encabezado de autorización cuando realiza solicitudes a Adobe. Algunos proxies, como Edge Secure Web Gateway (anteriormente Bluecoat), eliminan la información crítica del encabezado de autorización utilizado por Adobe Analytics. Si Adobe no ve el encabezado de autorización, la sesión caduca.
+Adobe utiliza un encabezado de autorización cuando realiza solicitudes a Adobe. Algunos proxies, como Edge Secure Web Gateway (anteriormente, Bluecoat), eliminan la información crítica del encabezado de autorización utilizado por Adobe Analytics. Si Adobe no ve el encabezado de autorización, la sesión caduca.
 
 Para resolver este problema, Adobe recomienda pedir ayuda al equipo informático de su organización para evitar que un proxy interfiera con el encabezado de autorización.
 
@@ -34,4 +34,4 @@ Para resolver este problema, Adobe recomienda pedir ayuda al equipo informático
 Encontrará información sobre los proxies de y sobre los encabezados de autenticación aquí:
 
 * [Configure la autenticación de proxy ascendente en una implementación de cadena de proxy en un dispositivo ProxySG o ASG](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
-* [Reenviar las credenciales de usuario a un servidor detrás del dispositivo ProxySG](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
+* [Cómo reenviar las credenciales de usuario a un servidor detrás del dispositivo ProxySG ](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
