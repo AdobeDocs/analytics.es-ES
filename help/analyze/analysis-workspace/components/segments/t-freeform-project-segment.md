@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 0aee84be83b2e5916ecf6ffdd4171ed4ef612b5b
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 76%
+source-wordcount: '496'
+ht-degree: 79%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 76%
 
 Puede crear distintos tipos de segmentos, en función de lo complejos que sean, si solo deben aplicarse a este proyecto, etc. Este es un resumen de los tipos de segmentos:
 
-| Tipo de segmento | ¿Dónde se crea? | ¿Dónde se aplica? | ¿Varios contenedores? | Color de la interfaz de usuario |
-| --- | --- | --- | --- |
-| Segmento de lista de componentes | [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Para todos los proyectos, desde el carril izquierdo | Sí | Azul |
-| Segmento rápido | [Generador de segmentos rápido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo nivel de proyecto | No | Gris? |
-| Segmentos ad hoc: | Vea lo siguiente | Solo nivel de proyecto | No | ? |
-| - Segmento de proyecto de Workspace ad hoc | ¿Arrastrar y soltar en el segmento? en un nuevo proyecto |  |  |  |
-| - Segmento basado en métricas calculadas | Generador de métricas calculadas |  |  |  |
-| - Segmento basado en VRS | Generador de grupos de informes virtuales |  |  |  |
-| - Generador de segmentos &quot;aplicar&quot; &quot; | Generador de segmentos |  |  |  |
+| Tipo de segmento | ¿Creado dónde? | ¿Dónde se aplica? | ¿Varios contenedores? |
+| --- | --- | --- | 
+| Segmento de lista de componentes | [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Todos los proyectos, en el carril izquierdo | Sí | Azul |
+| Segmento rápido | [Generador de segmentos rápido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo nivel de proyecto | No |
+| Segmentos ad hoc: | Vea lo siguiente | Solo nivel de proyecto | No |
+| - Segmento de proyecto de Workspace ad hoc | ¿Arrastrar y soltar en el segmento? en un nuevo proyecto |  |  |
+| - Segmento basado en métricas calculadas | Generador de métricas calculadas |  |  |
+| - Segmento basado en VRS | Generador de grupos de informes virtuales |  |  |
+| - Generador de segmentos &quot;aplicar&quot; &quot; | Generador de segmentos |  |  |
 
 Para un análisis en profundidad de la segmentación en Adobe Analytics, vaya [aquí](/help/components/segmentation/seg-overview.md).
 
@@ -38,7 +38,7 @@ El carril del segmento en el menú Componentes muestra los segmentos así como l
 
 ## Segmentos ad hoc (temporales) en Analysis Workspace
 
-Este es un vídeo sobre segmentos ad hoc:
+Este vídeo trata sobre segmentos ad hoc:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
