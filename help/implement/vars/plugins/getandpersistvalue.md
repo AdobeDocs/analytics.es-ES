@@ -3,9 +3,9 @@ title: getAndPersistValue
 description: Almacene un valor que pueda utilizarse posteriormente en cualquier momento.
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '583'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El complemento `getAndPersistValue` le permite almacenar un valor en una cookie que se puede utilizar más adelante durante una visita. Cumple una función similar al de la funcionalidad [!UICONTROL Duración del almacenamiento] con etiquetas en Adobe Experience Platform. Adobe recomienda utilizar este complemento si desea mantener automáticamente una variable de Analytics con el mismo valor en las visitas posteriores después de configurar la variable. Este complemento no es necesario si la función [!UICONTROL Storage duration] de la interfaz de usuario de recopilación de datos es suficiente. Tampoco es necesario utilizar este complemento si no requiere establecer y mantener variables con el mismo valor en las visitas posteriores. La persistencia integrada de las eVars no requiere el uso de este complemento, ya que las eVars persisten en el lado del servidor por Adobe.
+El complemento `getAndPersistValue` le permite almacenar un valor en una cookie que se puede utilizar más adelante durante una visita. Cumple una función similar al de la funcionalidad [!UICONTROL Duración del almacenamiento] con etiquetas en Adobe Experience Platform. Adobe recomienda utilizar este complemento si desea mantener automáticamente una variable de Analytics con el mismo valor en las visitas posteriores después de configurar la variable. Este complemento no es necesario si la característica [!UICONTROL Duración del almacenamiento] de la IU de Recopilación de datos es suficiente. Tampoco es necesario utilizar este complemento si no requiere establecer y mantener variables con el mismo valor en las visitas posteriores. La persistencia integrada de eVars no requiere el uso de este complemento, ya que Adobe mantiene eVars en el lado del servidor.
 
 ## Instalación del complemento con etiquetas en Adobe Experience Platform
 
@@ -57,7 +57,7 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 
 ## Uso del complemento
 
-La función `getAndPersist` utiliza los siguientes argumentos:
+La función `getAndPersist` utiliza los argumentos siguientes:
 
 * **`vtp`** (obligatorio): El valor que se va a mantener de página en página.
 * **`cn`** (opcional): El nombre de la cookie para almacenar el valor. Si no se establece este argumento, se llamará a la cookie `"s_gapv"`.
