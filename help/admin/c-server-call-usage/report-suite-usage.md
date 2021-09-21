@@ -4,9 +4,9 @@ title: Ver uso del grupo de informes
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor p
 
 >[!IMPORTANT]
 >
->Si un grupo de informes no está vinculado a una organización Experience Cloud, sus datos de uso no se reflejan en este panel. También se puede asociar un ID de facturación a varias organizaciones de Experience Cloud; no siempre hay una relación 1:1 entre una organización y un ID de facturación.
+>Si un grupo de informes no está vinculado a una organización de Experience Cloud, sus datos de uso no se reflejarán en este panel. También se puede asociar un ID de facturación a varias organizaciones de Experience Cloud; no siempre hay una relación 1:1 entre una organización y un ID de facturación.
 
 El tablero de Uso del grupo de informes:
 
