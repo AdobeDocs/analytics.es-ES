@@ -3,23 +3,23 @@ description: Utilice segmentos ad hoc en Analysis Workspace.
 title: Segmentos ad hoc
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 32%
+source-wordcount: '369'
+ht-degree: 25%
 
 ---
 
 
-# Segmentos ad hoc
+# Segmentos de proyecto específicos
 
-Aquí tiene un vídeo sobre la creación de segmentos ad hoc:
+Aquí tiene un vídeo sobre la creación de segmentos de proyecto específicos:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-Puede crear segmentos ad-hoc si desea explorar rápidamente cómo un segmento podría afectar a su proyecto, sin ir al Generador de segmentos. Piense en estos segmentos como segmentos temporales a nivel de proyecto. Normalmente no formarán parte de la &quot;biblioteca&quot; de segmentos como los segmentos de componentes en el carril izquierdo. Sin embargo, puede guardarlos, como se muestra a continuación.
+Puede crear segmentos de proyecto específicos si desea explorar rápidamente cómo un segmento podría afectar a su proyecto, sin ir al Generador de segmentos. Piense en estos segmentos como segmentos temporales a nivel de proyecto. Normalmente no formarán parte de la &quot;biblioteca&quot; de segmentos como los segmentos de componentes en el carril izquierdo. Sin embargo, puede guardarlos, como se muestra a continuación.
 
-Para ver una comparación de lo que pueden hacer los segmentos ad hoc frente a los segmentos de nivel de componente completos, vaya [aquí](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+Para ver una comparación de lo que pueden hacer los segmentos de proyecto específicos frente a los segmentos de nivel de componente completos, vaya [aquí](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
 1. Coloque cualquier tipo de componente (dimensión, elemento de dimensión, evento, métrica, segmento, plantilla de segmento, intervalo de fechas) en la zona de colocación de segmentos en la parte superior de un panel. Los tipos de componente se convierten automáticamente en segmentos.
 Este es un ejemplo de cómo crear un segmento para el dominio de referencia de Twitter:
@@ -41,7 +41,7 @@ Recuerde:
 >
 >Los segmentos creados de esta forma son internos del proyecto.
 
-## Guardar segmentos ad hoc {#ad-hoc-save}
+## Guardar segmentos de proyecto específicos {#ad-hoc-save}
 
 Puede elegir guardar estos segmentos siguiendo estos pasos:
 
@@ -50,3 +50,6 @@ Puede elegir guardar estos segmentos siguiendo estos pasos:
 
    ![](assets/segment-info.png)
 
+## ¿Qué son segmentos solo de proyecto?
+
+Los segmentos solo de proyecto son segmentos rápidos o segmentos de proyecto específicos de Workspace. Al editarlas o abrirlas en el generador de segmentos, se mostrará el cuadro de solo proyecto. Si APLICAN un segmento rápido en el generador pero no marcan la casilla de disponibilidad, entonces sigue siendo un segmento solo de proyecto pero ya no se puede abrir en el generador de QS. Si marca la casilla y la opción GUARDAR ahora es un segmento de lista de componentes.

@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 42%
+source-wordcount: '499'
+ht-degree: 43%
 
 ---
 
@@ -20,9 +20,9 @@ Puede crear distintos tipos de segmentos en Workspace, en función de lo complej
 | Tipo de segmento | ¿Creado dónde? | ¿Dónde se aplica? | Uso |
 | --- | --- | --- | --- |
 | Segmento de lista de componentes | Haga clic en +, que le lleva al [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Todos los proyectos de Workspace | Para segmentos más complejos, segmentos secuenciales |
-| Segmento rápido | [Generador de segmentos rápido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Nivel de proyecto, pero puede guardar y agregar a la lista de segmentos. | Flexibilidad para agregar o editar una o más reglas |
+| Segmento rápido | [Generador de segmentos rápido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo proyecto, pero puede guardar y agregar a la lista de segmentos. | Flexibilidad para agregar o editar una o más reglas |
 | Segmentos ad hoc: |  |  |  |
-| - Segmento de proyecto de Workspace ad hoc | [Arrastrar y soltar en la zona de colocación de segmentos de un proyecto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Nivel de proyecto, pero puede guardar y agregar a la lista de segmentos. | De forma predeterminada, segmentos de una sola regla (sin límite) |
+| - Segmento de proyecto de Workspace ad hoc | [Arrastrar y soltar en la zona de colocación de segmentos de un proyecto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Solo proyecto, pero puede guardar y agregar a la lista de segmentos. | De forma predeterminada, segmentos de una sola regla (sin límite) |
 | - Segmento basado en métricas calculadas | [Generador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Para métricas calculadas individuales | Aplicar segmentos dentro de su definición de métrica |
 | - Segmento basado en VRS | [Generador de grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | A un grupo de informes virtuales individual | Aplicar segmentos dentro de su definición de VRS |
 
@@ -38,7 +38,7 @@ Puede crear diferentes tipos de segmentos en Analysis Workspace:
 * [Segmentos ad hoc](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
 * Segmentos de lista de componentes normales que terminan en la biblioteca de segmentos (consulte a continuación)
 
-### Crear segmentos de lista de componentes {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
+### Crear segmentos de la lista de componentes {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 El carril del segmento en el menú Componentes muestra
 * Segmentos que usted o su empresa han creado
