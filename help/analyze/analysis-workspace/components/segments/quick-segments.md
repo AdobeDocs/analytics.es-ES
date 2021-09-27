@@ -3,7 +3,7 @@ description: Utilice segmentos rápidos en Analysis Workspace.
 title: Segmentos rápidos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
+source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 1%
@@ -65,7 +65,7 @@ El segmento aparece en la parte superior. Fíjese en su barra lateral con bandas
 
 ## Guardar segmentos rápidos
 
-Puede elegir guardar segmentos rápidos en el Generador de segmentos o en el Generador de segmentos.
+Puede elegir guardar segmentos rápidos en el [!UICONTROL Generador de segmentos rápido] o en el [!UICONTROL Generador de segmentos].
 
 >[!IMPORTANT]
 >Una vez guardado o aplicado el segmento, ya no puede editarlo en el Generador de segmentos rápido, solo en el Generador de segmentos normal.
