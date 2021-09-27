@@ -3,9 +3,9 @@ description: Utilice segmentos rápidos en Analysis Workspace.
 title: Segmentos rápidos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 5ac3b11c559b03df2c08efc5a1a64c76ee1cf28e
+source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '932'
 ht-degree: 1%
 
 ---
@@ -107,4 +107,4 @@ Después de aplicar el segmento, puede elegir agregarlo a su lista de componente
 
 ## ¿Qué son segmentos solo de proyecto?
 
-Los segmentos solo de proyecto son segmentos rápidos o segmentos de proyecto específicos de Workspace. Al editarlas o abrirlas en el Generador de segmentos, aparecerá el cuadro de solo proyecto. Si aplica un segmento rápido en el generador pero no marca la casilla de verificación para que esté disponible, seguirá siendo un segmento solo de proyecto, pero ya no podrá abrirse en el Generador de segmentos rápidos. Si marca la casilla y GUARDA, ahora es un segmento de lista de componentes.
+Los segmentos solo de proyecto son segmentos rápidos o segmentos de proyecto específicos de Workspace. Al editarlos/abrirlos en el [!UICONTROL Generador de segmentos], aparecerá el cuadro de solo proyecto. Si aplica un segmento rápido en el generador pero no marca la casilla de verificación para que esté disponible, entonces sigue siendo un segmento solo de proyecto pero ya no se puede abrir en el [!UICONTROL Generador de segmentos rápido]. Si marca la casilla y hace clic en **[!UICONTROL SAVE]**, ahora es un segmento de lista de componentes.
