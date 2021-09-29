@@ -2,11 +2,10 @@
 title: Código postal
 description: Código postal del visitante.
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: b8ef31f3fbc51746c8f6b2ee35742a493c3df2b5
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +30,7 @@ La opción [!UICONTROL Código postal] de [Configuración general de cuenta](/he
 
 Los elementos de dimensión incluyen el código postal del visitante.
 
-## ¿Con qué códigos postales de qué páises se puede crear informes en Adobe Analytics?
+## Países con código postal compatibles
 
 * Islas Aland
 * Albania

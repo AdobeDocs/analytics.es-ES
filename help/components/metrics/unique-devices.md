@@ -2,10 +2,10 @@
 title: Dispositivos únicos
 description: Número de dispositivos únicos.
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 407111f6016fe8595f1d5c3464e36dfd4d314630
+source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 6%
+source-wordcount: '252'
+ht-degree: 5%
 
 ---
 
@@ -29,8 +29,7 @@ Tenga en cuenta que esta métrica no es igual a [Visitantes únicos](unique-visi
 
 ![Recuento de dispositivos únicos](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-Ver estos datos en un grupo de informes virtuales CDA antes de [Reproducir](/help/components/cda/replay.md) mostraría:
+Si ve estos datos en un grupo de informes virtuales CDA antes de [Reproducir](/help/components/cda/replay.md) puntos de visitas no autenticadas, se mostraría lo siguiente:
 
 * **5 dispositivos** únicos: 1 para Bob no autenticado + 2 para Bob + 1 para Alice + 1 para Charles
 * **4  [Personas](people.md)**: 1  [Personas](unidentified-people.md)  No Identificadas + 3  [Personas](identified-people.md) Identificadas.
-

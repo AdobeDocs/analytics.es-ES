@@ -3,9 +3,9 @@ description: Utilice segmentos rápidos en Analysis Workspace.
 title: Segmentos rápidos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
+source-git-commit: 7e95e1a51dac7771e32ab378209935d2806d752e
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,10 @@ ht-degree: 1%
 
 Puede crear segmentos rápidos dentro de un proyecto para evitar la complejidad del [generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) completo. Segmentos rápidos
 
-* Se aplican solo a proyectos específicos (puede cambiar esto).
-* Permitir hasta 3 reglas
+* Se aplican solo a los proyectos en los que se crearon (puede cambiar esto).
+* Permitir hasta 3 reglas.
 * No se admiten contenedores anidados ni reglas secuenciales.
-* Trabajar en paneles con varios grupos de informes
+* Trabaje en proyectos con varios grupos de informes.
 
 Para ver una comparación de lo que pueden hacer los segmentos rápidos frente a los segmentos de lista de componentes completa, vaya [aquí](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 

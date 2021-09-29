@@ -2,10 +2,10 @@
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 080c5e35e7ffd253ac07e1158fb7c4bede238199
+source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1949'
+ht-degree: 76%
 
 ---
 
@@ -128,8 +128,8 @@ CDA utiliza una compleja canalización de procesamiento paralela, con varios com
 
 El número de la métrica &quot;Personas identificadas&quot; puede ser ligeramente superior si el valor del identificador prop/eVar se ejecuta en un [conflicto de hash](/help/implement/validate/hash-collisions.md).
 
-El número de la métrica &quot;Personas identificadas&quot; puede ser significativamente mayor si el identificador prop/eVar distingue entre mayúsculas y minúsculas. Por ejemplo, `bob` y `Bob` se supone que son la misma persona, pero la distinción entre mayúsculas y minúsculas obliga a que estos dos valores sean distintos.
+Para la vinculación basada en el campo, la variable personalizada de identificador distingue entre mayúsculas y minúsculas. El número de la métrica &quot;Personas identificadas&quot; puede ser significativamente mayor si los valores de los identificadores no coinciden con las mayúsculas y minúsculas. Por ejemplo, si se envían `bob` y `Bob` y se espera que sean la misma persona, CDA interpreta estos dos valores como diferentes.
 
-## ¿Por qué veo valores al ver el identificador prop/eVar con la métrica Personas no identificadas?
+## Al ver el identificador prop/eVar, ¿por qué veo valores distintos de cero para la métrica &quot;Personas no identificadas&quot;?
 
-Esta situación suele ocurrir cuando un visitante genera visitas autenticadas y no autenticadas en la ventana de informes y [Replay](replay.md) aún no se ha ejecutado. Antes de la reproducción, el visitante pertenece a &quot;No identificado&quot; e &quot;Identificado&quot; en la dimensión [Estado identificado](/help/components/dimensions/identified-state.md), lo que provoca que algunos visitantes atribuyan visitas no identificadas a un identificador. Los visitantes permanecen en este estado hasta que se ejecuta la reproducción (diaria o semanal, según la configuración de CDA de su organización). La ejecución de informes solo en los datos posteriores a la reproducción mitiga esta situación.
+Esta situación suele ocurrir cuando un visitante genera visitas autenticadas y no autenticadas en la ventana de informes. El visitante pertenece a &quot;No identificado&quot; e &quot;Identificado&quot; en la dimensión [Estado identificado](/help/components/dimensions/identified-state.md), lo que provoca una atribución de visitas no identificadas a un identificador. Este escenario puede cambiar después de que se ejecute [Replay](replay.md) , según la frecuencia de reproducción y la tasa de éxito.

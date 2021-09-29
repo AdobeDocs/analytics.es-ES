@@ -5,9 +5,9 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 63f833ffb3578614d7148bfcc6c786d4ddc8a2a8
+source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 42%
 
 ---
@@ -22,7 +22,7 @@ Puede crear distintos tipos de segmentos en Workspace, en función de lo complej
 | Segmento de lista de componentes | Haga clic en +, que le lleva al [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Todos los proyectos de Workspace | Para segmentos más complejos, segmentos secuenciales |
 | Segmento rápido | [Generador de segmentos rápido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo proyecto, pero puede guardar y agregar a la lista de segmentos. | Flexibilidad para agregar o editar una o más reglas |
 | Segmentos ad hoc: |  |  |  |
-| - Segmento de proyecto de Workspace ad hoc | [Arrastrar y soltar en la zona de colocación de segmentos de un proyecto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Solo proyecto, pero puede guardar y agregar a la lista de segmentos. | Para segmentos de una sola regla (sin límite) |
+| - Segmento de proyecto de Workspace ad hoc | [Arrastrar y soltar en la zona de colocación de segmentos de un proyecto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Solo proyecto, pero puede guardar y agregar a la lista de segmentos. | Para segmentos de una sola regla |
 | - Segmento basado en métricas calculadas | [Generador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Para métricas calculadas individuales | Aplicar segmentos dentro de su definición de métrica |
 | - Segmento basado en VRS | [Generador de grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | A un grupo de informes virtuales individual | Aplicar segmentos dentro de su definición de VRS |
 
