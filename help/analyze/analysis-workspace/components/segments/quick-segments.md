@@ -3,9 +3,9 @@ description: Utilice segmentos rápidos en Analysis Workspace.
 title: Segmentos rápidos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 7e95e1a51dac7771e32ab378209935d2806d752e
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Para ver una comparación de lo que pueden hacer los segmentos rápidos frente a
 
 ## Requisitos previos
 
-Los usuarios necesitan el permiso [!UICONTROL Creación de segmentos] en [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) para poder crear segmentos rápidos.
+Cualquiera puede crear un [!UICONTROL segmento rápido]. Sin embargo, necesita el permiso[!UICONTROL Creación de segmentos] en [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) para poder guardar segmentos rápidos o abrirlos en el [!UICONTROL Generador de segmentos].
 
 ## Crear segmentos rápidos
 
@@ -56,7 +56,7 @@ Este es un ejemplo de un segmento que combina dimensiones y métricas:
 
 El segmento aparece en la parte superior. Fíjese en su barra lateral con bandas azules, a diferencia de la barra lateral azul para segmentos de nivel de componente en la biblioteca de segmentos a la izquierda.
 
-![](assets/quick-seg3.png)
+![](assets/quick-seg5.png)
 
 ## Editar segmentos rápidos
 
@@ -73,24 +73,15 @@ Puede elegir guardar segmentos rápidos en el [!UICONTROL Generador de segmentos
 ### Guardar en el Generador de segmentos rápido
 
 1. Una vez aplicado el segmento rápido, pase el ratón sobre él y seleccione el icono de información (&quot;i&quot;).
+
+   ![](assets/quick-seg6.png)
+
 1. Haga clic en **[!UICONTROL Poner a disposición de todos los proyectos y agregarlos a la lista de componentes]**.
 1. (Opcional) Cambie el nombre del segmento.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 Observe cómo la barra lateral del segmento cambia de azul rayado a azul. Ahora aparece en la lista de componentes en el carril izquierdo.
 
-### Guardar en el Generador de segmentos
-
-1. Pase el ratón sobre el segmento rápido y seleccione el icono de información (&quot;i&quot;).
-1. Seleccione **[!UICONTROL Guardar segmento]**
-
-   ![](assets/save-quick-seg.png)
-
-1. Deje el nombre tal cual o cambie el nombre del segmento.
-
-   Vuelva a Workspace y observe cómo el segmento ahora tiene una barra lateral azul. Esto indica que ya no se puede editar ni abrir en el Generador de segmentos rápido. Al guardarlo, pasa a formar parte de la lista de componentes.
-
-   ![](assets/quick-seg4.png)
 
 Después de aplicar el segmento, puede elegir agregarlo a su lista de componentes del segmento y ponerlo a disposición de todos sus proyectos.
 

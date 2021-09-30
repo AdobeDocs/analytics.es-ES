@@ -4,10 +4,10 @@ description: Preguntas frecuentes sobre Report Builder.
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 94%
 
 ---
 
@@ -29,6 +29,6 @@ Como alternativa al uso de estas funciones de Excel, Adobe recomienda encarecida
 
 Report Builder admite libros hasta los límites siguientes:
 
-* **1000 solicitudes**: Un libro puede contener hasta 1000 solicitudes de datos en un solo libro de trabajo. Si tiene informes o proyectos que requieren más de 1000 solicitudes, Adobe recomienda separarlos en varios libros.
+* **1000 solicitudes**: Un solo libro puede contener hasta 1000 solicitudes de datos. Si tiene informes o proyectos que requieren más de 1000 solicitudes, Adobe recomienda separarlos en varios libros.
 * **20 000 solicitudes por hora por compañía**: Report Builder utiliza la API de informes de Analytics para recuperar datos. Cada solicitud individual utiliza una llamada de API cada vez que se crea o actualiza. Si su organización acumula más de 20 000 llamadas a la API en una hora determinada, debe esperar hasta la hora siguiente para recuperar datos de nuevo.
-* **Tiempo de procesamiento de 4 horas**: Los informes programados agotan el tiempo de espera después de procesarse las últimas 4 horas. Si el libro contiene muchas solicitudes complejas que utilizan conjuntos de datos grandes, el informe programado puede dar error.
+* **Tiempo** de procesamiento de 4 horas: Los informes programados agotan el tiempo de espera tras procesarse durante más de 4 horas. Si el libro contiene muchas solicitudes complejas que utilizan conjuntos de datos grandes, el informe programado puede dar error.
