@@ -3,10 +3,10 @@ description: Utilice segmentos rápidos en Analysis Workspace.
 title: Segmentos rápidos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+source-git-commit: 34824daca188119bfe366fea101053f2547a2f6d
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 1%
+source-wordcount: '774'
+ht-degree: 2%
 
 ---
 
@@ -62,15 +62,12 @@ El segmento aparece en la parte superior. Fíjese en su barra lateral con bandas
 
 1. Pase el ratón sobre el segmento rápido y seleccione el icono de lápiz.
 1. Edite la definición del segmento o el nombre del segmento.
+1. Haga clic en [!UICONTROL Aplicar].
 
 ## Guardar segmentos rápidos
 
-Puede elegir guardar segmentos rápidos en el [!UICONTROL Generador de segmentos rápido] o en el [!UICONTROL Generador de segmentos].
-
 >[!IMPORTANT]
 >Una vez guardado o aplicado el segmento, ya no puede editarlo en el Generador de segmentos rápido, solo en el Generador de segmentos normal.
-
-### Guardar en el Generador de segmentos rápido
 
 1. Una vez aplicado el segmento rápido, pase el ratón sobre él y seleccione el icono de información (&quot;i&quot;).
 
@@ -81,20 +78,6 @@ Puede elegir guardar segmentos rápidos en el [!UICONTROL Generador de segmentos
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 Observe cómo la barra lateral del segmento cambia de azul rayado a azul. Ahora aparece en la lista de componentes en el carril izquierdo.
-
-
-Después de aplicar el segmento, puede elegir agregarlo a su lista de componentes del segmento y ponerlo a disposición de todos sus proyectos.
-
-1. Pase el ratón sobre el segmento guardado y seleccione el icono de lápiz.
-
-1. En la parte superior del Generador de segmentos, observe este cuadro de diálogo:
-
-   ![](assets/project-only.png)
-
-1. Seleccione la casilla de verificación situada junto a **[!UICONTROL Hacer que este segmento esté disponible para todos sus proyectos y agréguelo a su lista de componentes.]**
-1. Haga clic en **[!UICONTROL Guardar]**.
-1. El segmento ahora aparece en la lista de componentes del segmento para todos sus proyectos.
-1. También puede [compartir el segmento](/help/components/segmentation/segmentation-workflow/t-seg-share.md) con otras personas de su organización.
 
 ## ¿Qué son segmentos solo de proyecto?
 
