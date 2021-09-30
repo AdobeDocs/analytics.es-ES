@@ -3,10 +3,10 @@ description: Cómo crear un informe de valoración de paneles de Analytics
 title: Crear un informe de valoración
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 012bbfa54d97ffcaf4cd0de380c196df06a03bfe
+source-git-commit: 38bb36db0e7f2fc032f0531fa40cfec29b7e926e
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 81%
+source-wordcount: '1037'
+ht-degree: 74%
 
 ---
 
@@ -15,15 +15,20 @@ ht-degree: 81%
 
 En algunos casos, puede que los usuarios ejecutivos necesiten asistencia adicional para acceder a la aplicación y utilizarla. Esta sección presenta información que le ayudará a proporcionar esa asistencia.
 
-## Requisitos previos del sistema para los usuarios ejecutivos
+## Comprobar que los usuarios de la aplicación pueden acceder a Adobe Analytics
+
+1. Configure nuevos usuarios en el [Admin Console del Experience Cloud](/help/admin/admin-console/permissions/product-profile.md).
+
+1. Para poder compartir los informes de valoración, debe conceder a los usuarios de la aplicación permisos para acceder a componentes de informe de valoración como Analysis Workspace, los grupos de informes en los que se basan los informes de valoración, así como segmentos, métricas y dimensiones.
+
+## Requisitos previos del sistema de los usuarios de la aplicación
 
 Para garantizar que los usuarios ejecutivos tengan acceso a sus informes de valoración en la aplicación, asegúrese de que:
 
 * El requisito mínimo del sistema operativo móvil de sus dispositivos sea iOS versión 10 o posterior, o Android versión 4.4 (KitKat) o posterior
-* Tengan unas credenciales de inicio de sesión válidas para Adobe Analytics
-* Haya creado y compartido correctamente los informes de valoración móviles de los usuarios
-* Los usuarios tengan acceso a Analysis Workspace y al grupo de informes en el que se basa el informe de valoración
-* Los usuarios tengan acceso a los componentes que se incluyen en el informe de valoración. Tenga en cuenta que, al compartir los informes de valoración, puede seleccionar la opción **[!UICONTROL Compartir los componentes incrustados]**.
+* Tengan unas credenciales de inicio de sesión válidas para Adobe Analytics.
+* Ha creado correctamente informes de valoración móviles para ellos y ha compartido estos informes de valoración con ellos.
+* Tienen acceso a los componentes que incluye el informe de valoración. Tenga en cuenta que puede seleccionar una opción al compartir los informes de valoración en **[!UICONTROL Compartir componentes incrustados]**.
 
 ## Ayuda a los ejecutivos descargar e instalar la aplicación
 
