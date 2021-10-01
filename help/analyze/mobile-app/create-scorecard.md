@@ -3,15 +3,19 @@ description: Cómo crear un informe de valoración de paneles de Adobe Analytics
 title: Crear un informe de valoración
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 012bbfa54d97ffcaf4cd0de380c196df06a03bfe
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Crear un informe de valoración
+
+La siguiente información enseña a los depuradores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del Generador de informes de valoración de paneles de Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 Un informe de valoración de Adobe Analytics muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, como se muestra a continuación:
 
@@ -21,16 +25,16 @@ Como gestor de este informe de valoración, puede utilizar el Generador de infor
 
 ![Generador de informes de valoración](assets/scorecard_builder.png)
 
-Para crear un informe de valoración, deberá hacer lo siguiente:
+Para crear el informe de valoración, debe hacer lo siguiente:
 
 1. Acceda a la plantilla [!UICONTROL informe de valoración móvil en blanco].
 2. Configure el informe de valoración con datos y guárdelo.
 
 ## Acceda a la plantilla [!UICONTROL informe de valoración móvil en blanco]
 
-Puede tener acceso a la plantilla [!UICONTROL informe de valoración móvil en blanco] de una de las siguientes formas:
+Puede acceder a la plantilla [!UICONTROL informe de valoración móvil en blanco] creando un nuevo proyecto o desde el menú Herramientas.
 
-**Creación de un nuevo proyecto**
+### Creación de un nuevo proyecto
 
 1. Abra Adobe Analytics y haga clic en la ficha **[!UICONTROL Espacio de trabajo]**.
 1. Haga clic en **[!UICONTROL Crear proyecto]** y seleccione la plantilla de proyecto **[!UICONTROL informe de valoración móvil en blanco]**.
@@ -38,7 +42,7 @@ Puede tener acceso a la plantilla [!UICONTROL informe de valoración móvil en b
 
 ![Plantilla del informe de valoración](assets/new_template.png)
 
-o
+### Plantilla Herramientas
 
 1. En el menú **[!UICONTROL Herramientas]**, seleccione **[!UICONTROL Paneles de Analytics (aplicación móvil)]**.
 1. En la pantalla siguiente, haga clic en el botón **[!UICONTROL Crear nuevo informe de valoración]**.
@@ -58,52 +62,71 @@ Para implementar la plantilla del informe de valoración:
 
    *Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.*
 
+### Agregar dimensiones o métricas
 
-1. Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico. Por ejemplo, puede añadir dimensiones pertinentes (como **[!DNL DMA Region]**, en este ejemplo) a la métrica **[!UICONTROL Visitantes únicos]** arrastrándolas y soltándolas en el mosaico; las dimensiones que agregue aparecerán en la sección de desglose de las **[!UICONTROL Propiedades]** específicas del mosaico. Puede agregar varias dimensiones a cada mosaico.
+Para agregar una dimensión relacionada a una métrica:
 
-   ![Agregar dimensiones](assets/layer_dimensions.png)
+Arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico.
 
-   Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **[!UICONTROL Título]** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
+Por ejemplo, puede añadir dimensiones pertinentes (como **[!DNL DMA Region]**, en este ejemplo) a la métrica **[!UICONTROL Visitantes únicos]** arrastrándolas y soltándolas en el mosaico; las dimensiones que agregue aparecerán en la sección de desglose de las **[!UICONTROL Propiedades]** específicas del mosaico. Puede agregar varias dimensiones a cada mosaico.
 
-   ![Mosaico de propiedades](assets/properties_tile.png)
+![Agregar dimensiones](assets/layer_dimensions.png)
 
-   Además, si hace clic en un mosaico, una ventana emergente dinámica le mostrará cómo verá la vista Desglose el usuario ejecutivo de la aplicación. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
+### Ver y configurar propiedades de mosaico
 
-   ![Breakdown_view](assets/break_view.png)
+Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **[!UICONTROL Título]** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
 
-   Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
+![Mosaico de propiedades](assets/properties_tile.png)
 
-1. Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico. Si desea aplicar el segmento a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración. O bien, también puede aplicar segmentos seleccionando segmentos en el menú de filtro debajo de los intervalos de fechas. Puede [configurar y aplicar filtros para sus informes de valoración](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que lo haría en Adobe Analytics Workspace.
+Además, si hace clic en un mosaico, una ventana emergente dinámica le mostrará cómo verá la vista Desglose el usuario ejecutivo de la aplicación. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
 
-   ![Generar segmentos para filtrar](assets/segment_ui.png)
+![Breakdown_view](assets/break_view.png)
 
-1. Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de resultados, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, quítelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Primeras visitas**:
+Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
 
-   ![Remove_components](assets/new_remove.png)
+### Aplicar segmentos
 
-1. Añada y quite combinaciones de intervalos de fechas que se puedan seleccionar en el cuadro de resultados seleccionando la lista desplegable de intervalo de fechas.
+Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico.
 
-   ![Nuevo cuadro de resultados](assets/new_score_card.png)
+Si desea aplicar el segmento a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración. O bien, también puede aplicar segmentos seleccionando segmentos en el menú de filtro debajo de los intervalos de fechas. Puede [configurar y aplicar filtros para sus informes de valoración](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que lo haría en Adobe Analytics Workspace.
 
-   Cada nuevo cuadro de resultados comienza con 6 combinaciones de intervalo de fechas que se centran en los datos de hoy y ayer. Puede quitar intervalos de fechas innecesarios haciendo clic en la x o puede editar cada combinación de intervalos de fechas haciendo clic en el lápiz.
+![Generar segmentos para filtrar](assets/segment_ui.png)
 
-   ![Nuevo cuadro de resultados2](assets/new_score_card2.png)
+### Eliminación de componentes
 
-   Para crear o cambiar una fecha principal, utilice la lista desplegable para seleccionar entre intervalos de fechas disponibles o arrastre y suelte un componente de fecha del carril derecho en la zona de colocación.
+Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de resultados, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, quítelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Primeras visitas**:
 
-   ![Nuevo cuadro de resultados3](assets/new_score_card3.png)
+![Remove_components](assets/new_remove.png)
 
-   Para crear una fecha de comparación, puede seleccionar entre cómodos preconjuntos para comparaciones de tiempo comunes en el menú desplegable. También puede arrastrar y soltar un componente de fecha desde el carril derecho.
+### Intervalos de fechas
 
-   ![Nuevo cuadro de resultados4](assets/new_score_card4.png)
+Añada y quite combinaciones de intervalos de fechas que se puedan seleccionar en el cuadro de resultados seleccionando la lista desplegable de intervalo de fechas.
 
-   Si el intervalo de fechas que desea aún no se ha creado, puede crear uno nuevo haciendo clic en el icono de calendario.
+![Nuevo cuadro de resultados](assets/new_score_card.png)
 
-   ![Nuevo cuadro de resultados4](assets/new_score_card5.png)
+Cada nuevo cuadro de resultados comienza con 6 combinaciones de intervalo de fechas que se centran en los datos de hoy y ayer. Puede quitar intervalos de fechas innecesarios haciendo clic en la x o puede editar cada combinación de intervalos de fechas haciendo clic en el lápiz.
 
-1. Esto le llevará al generador de intervalos de fechas, donde puede crear y guardar un nuevo componente de intervalo de fechas. Para asignar un nombre al informe de valoración, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
+![Nuevo cuadro de resultados2](assets/new_score_card2.png)
 
-   ![Naming_Scorecards](assets/new_name.png)
+Para crear o cambiar una fecha principal, utilice la lista desplegable para seleccionar entre intervalos de fechas disponibles o arrastre y suelte un componente de fecha del carril derecho en la zona de colocación.
+
+![Nuevo cuadro de resultados3](assets/new_score_card3.png)
+
+Para crear una fecha de comparación, puede seleccionar entre cómodos preconjuntos para comparaciones de tiempo comunes en el menú desplegable. También puede arrastrar y soltar un componente de fecha desde el carril derecho.
+
+![Nuevo cuadro de resultados4](assets/new_score_card4.png)
+
+Si el intervalo de fechas que desea aún no se ha creado, puede crear uno nuevo haciendo clic en el icono de calendario.
+
+![Nuevo cuadro de resultados5](assets/new_score_card5.png)
+
+Esto le llevará al generador de intervalos de fechas, donde puede crear y guardar un nuevo componente de intervalo de fechas.
+
+## Especificar el nombre de un informe de valoración
+
+Para asignar un nombre al informe de valoración, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
+
+![Naming_Scorecards](assets/new_name.png)
 
 ## Compartir el informe de valoración
 

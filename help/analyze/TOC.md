@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Proporciona instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como Adobe Analytics Dashboards, Report Builder y Activity Map.
-source-git-commit: b3ed242a677ada3eef61b79ecb4167d834ee132e
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 98%
@@ -87,7 +87,7 @@ ht-degree: 98%
       + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
       + [Panel de forma libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Panel de visualizadores simultáneos de medios](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Panel de tiempo invertido en la reproducción de contenido](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [Panel Tiempo invertido en la reproducción de contenido](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Panel de información rápida](analysis-workspace/c-panels/quickinsight.md)
       + Panel de comparación de segmentos {#segment-comparison}
          + [Información general del de comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -311,7 +311,7 @@ ht-degree: 98%
    + [Resolución de problemas](reports-analytics/report-troubleshooting.md)
 + Tableros de Adobe Analytics {#mobapp}
    + [Paneles de Adobe Analytics: Información general](mobile-app/home.md)
-   + [Guía del administrador](mobile-app/curator.md)
+   + [Introducción al gestor de datos](mobile-app/curator.md)
    + [Crear un informe de valoración](mobile-app/create-scorecard.md)
    + [Configurar ejecutivos para que utilicen informes de valoración](mobile-app/set-up-execs.md)
    + [Guía de inicio rápida para el usuario ejecutivo](mobile-app/executive.md)

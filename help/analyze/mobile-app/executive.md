@@ -1,13 +1,13 @@
 ---
 description: Instrucciones para usar los informes de valoración de los paneles.
 title: Guía del usuario ejecutivo sobre paneles de Adobe Analytics
-feature: Paneles de Analytics
+feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1293'
-ht-degree: 100%
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+workflow-type: tm+mt
+source-wordcount: '1287'
+ht-degree: 98%
 
 ---
 
@@ -15,12 +15,9 @@ ht-degree: 100%
 
 La siguiente información proporciona a los usuarios ejecutivos información sobre las prácticas recomendadas para utilizar y ver paneles de Adobe Analytics. Para ver un vídeo que muestra esta información, consulte [Experiencia en la aplicación sobre paneles de Adobe Analytics](https://youtu.be/QXqQ_PkArbA).
 
-
 ## Primeros pasos
 
 Los paneles de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar.  La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Los paneles son compatibles con los sistemas operativos iOS y Android.
-
-## Más información sobre esta guía
 
 Esta guía está diseñada para ayudar a los usuarios ejecutivos a leer e interpretar los informes de valoración de los paneles de Analytics. La aplicación permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes.
 
