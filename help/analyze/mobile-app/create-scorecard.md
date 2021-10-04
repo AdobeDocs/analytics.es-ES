@@ -3,10 +3,10 @@ description: Cómo crear un informe de valoración de paneles de Adobe Analytics
 title: Crear un informe de valoración
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1192'
+ht-degree: 60%
 
 ---
 
@@ -42,10 +42,10 @@ Puede acceder a la plantilla [!UICONTROL informe de valoración móvil en blanco
 
 ![Plantilla del informe de valoración](assets/new_template.png)
 
-### Plantilla Herramientas
+### Menú Herramientas
 
 1. En el menú **[!UICONTROL Herramientas]**, seleccione **[!UICONTROL Paneles de Analytics (aplicación móvil)]**.
-1. En la pantalla siguiente, haga clic en el botón **[!UICONTROL Crear nuevo informe de valoración]**.
+1. En la pantalla siguiente, haga clic en **[!UICONTROL Crear nuevo informe de valoración]**.
 
 ## Configurar el informe de valoración con datos y guardarlo
 
@@ -60,29 +60,15 @@ Para implementar la plantilla del informe de valoración:
    ![Agregar mosaicos](assets/build_list.png)
 
 
-   *Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.*
+1. Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.
 
 ### Agregar dimensiones o métricas
 
-Para agregar una dimensión relacionada a una métrica:
+Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico.
 
-Arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico.
-
-Por ejemplo, puede añadir dimensiones pertinentes (como **[!DNL DMA Region]**, en este ejemplo) a la métrica **[!UICONTROL Visitantes únicos]** arrastrándolas y soltándolas en el mosaico; las dimensiones que agregue aparecerán en la sección de desglose de las **[!UICONTROL Propiedades]** específicas del mosaico. Puede agregar varias dimensiones a cada mosaico.
+Por ejemplo, puede agregar dimensiones adecuadas (como **[!DNL Marketing Channel]**, en este ejemplo) a la métrica **[!UICONTROL Visitantes únicos]** arrastrándolas y soltándolas en el mosaico. Los desgloses de Dimension aparecen en la sección [!UICONTROL Profundizar en] (desglose) de las **[!UICONTROL Propiedades]** específicas del mosaico. Puede agregar varias dimensiones a cada mosaico.
 
 ![Agregar dimensiones](assets/layer_dimensions.png)
-
-### Ver y configurar propiedades de mosaico
-
-Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **[!UICONTROL Título]** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
-
-![Mosaico de propiedades](assets/properties_tile.png)
-
-Además, si hace clic en un mosaico, una ventana emergente dinámica le mostrará cómo verá la vista Desglose el usuario ejecutivo de la aplicación. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
-
-![Breakdown_view](assets/break_view.png)
-
-Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
 
 ### Aplicar segmentos
 
@@ -92,13 +78,7 @@ Si desea aplicar el segmento a todos los mosaicos del informe de valoración, su
 
 ![Generar segmentos para filtrar](assets/segment_ui.png)
 
-### Eliminación de componentes
-
-Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de resultados, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, quítelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Primeras visitas**:
-
-![Remove_components](assets/new_remove.png)
-
-### Intervalos de fechas
+### Agregar intervalos de fechas
 
 Añada y quite combinaciones de intervalos de fechas que se puedan seleccionar en el cuadro de resultados seleccionando la lista desplegable de intervalo de fechas.
 
@@ -122,13 +102,57 @@ Si el intervalo de fechas que desea aún no se ha creado, puede crear uno nuevo 
 
 Esto le llevará al generador de intervalos de fechas, donde puede crear y guardar un nuevo componente de intervalo de fechas.
 
+### Aplicar visualizaciones
+
+Los paneles de Analytics ahora ofrecen cuatro visualizaciones que ofrecen buena perspectiva de los elementos de dimensión. Aplique una visualización diferente cambiando el [!UICONTROL tipo de gráfico] de las propiedades de un mosaico:
+
+![Propiedades del mosaico](assets/properties.png)
+
+** Donutvisualization**
+
+Similar a un gráfico circular, esta visualización muestra los datos como partes o segmentos de un todo. Utilice un gráfico de anillo para comparar porcentajes de un total. Por ejemplo, supongamos que desea ver qué plataforma de publicidad contribuyó al número total de visitantes únicos:
+
+![Visualización de anillo](assets/donut-viz.png)
+
+**Visualización de líneas**
+
+La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión.
+
+**[!UICONTROL Visualización de ] barras horizontales**
+
+Esta visualización muestra las barras horizontales que representan los distintos valores de una o varias métricas.
+
+### Ver y configurar propiedades de mosaico
+
+Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **[!UICONTROL Título]** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
+
+![Mosaico de propiedades](assets/properties_tile.png)
+
+Al hacer clic en los mosaicos, una ventana emergente dinámica muestra cómo el usuario ejecutivo de la aplicación ve la vista Exploración en profundidad (Desglose). Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
+
+Los desgloses refinan el análisis al desglosar literalmente métricas y dimensiones según otras métricas y dimensiones, como en este ejemplo de venta minorista:
+
+* Métrica Visitantes únicos desglosada por plataforma de publicidad (AMO ID)
+* Visitas desglosadas por categoría de producto (comercial)
+* Ingresos totales desglosados por nombre del producto
+
+![Breakdown_view](assets/break_view.png)
+
+Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
+
+### Eliminación de componentes
+
+Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de resultados, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, quítelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Primeras visitas**:
+
+![Remove_components](assets/new_remove.png)
+
 ## Especificar el nombre de un informe de valoración
 
 Para asignar un nombre al informe de valoración, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
 
 ![Naming_Scorecards](assets/new_name.png)
 
-## Compartir el informe de valoración
+## Compartir un informe de valoración
 
 Para compartir el informe de valoración con un usuario ejecutivo:
 
@@ -136,10 +160,10 @@ Para compartir el informe de valoración con un usuario ejecutivo:
 
 1. En el formulario **[!UICONTROL Compartir informe de valoración móvil]**, rellene los campos con:
 
-   * Proporcione el nombre al informe de valoración
-   * Proporcione una descripción del informe de valoración
+   * Proporcionar el nombre del informe de valoración
+   * Proporcionar una descripción del informe de valoración
    * Añada las etiquetas relevantes
-   * Especificación de los destinatarios del informe de valoración
+   * Especificación de los destinatarios para el informe de valoración
 
 1. Haga clic en **[!UICONTROL Compartir]**.
 
