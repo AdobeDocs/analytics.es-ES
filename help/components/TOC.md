@@ -5,9 +5,9 @@ user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Ayude a organizar los datos usando componentes como segmentos, métricas calculadas, grupos de informes virtuales y alertas.
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '658'
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 0%
    + [Eventos de página](metrics/page-events.md)
    + [Vistas de páginas](metrics/page-views.md)
    + [Páginas no encontradas](metrics/pages-not-found.md)
-   + [Personas con ID de Experience Cloud](metrics/people-with-exp-cloud-id.md)
+   + [Personas con Experience Cloud ID](metrics/people-with-exp-cloud-id.md)
    + [Personas](metrics/people.md)
    + [Vistas del producto](metrics/product-views.md)
    + [Recargas](metrics/reloads.md)
