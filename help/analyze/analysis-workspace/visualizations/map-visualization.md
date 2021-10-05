@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -90,8 +90,8 @@ Al hacer clic en el **icono de engranaje**, se muestra esta configuración de vi
 | Radio de clúster | Agrupa los puntos de datos que se hallan dentro de un radio de píxeles definido. El valor predeterminado es 50. |
 | Valor máximo personalizado | Le permite alterar el umbral para el valor máximo del mapa. Al ajustar este valor, se ajusta la escala de los valores (color y tamaño) de las burbujas/mapa de calor en relación con el valor máximo personalizado establecido. |
 
-## Crear un mapa de calor de partición de tiempo
+## Creación de un mapa de calor de partición de tiempo
 
-Aquí hay un video sobre el tema:
+A continuación, se muestra un vídeo introductorio sobre este tema:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
