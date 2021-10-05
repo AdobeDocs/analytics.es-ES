@@ -3,9 +3,9 @@ description: Descubra cuándo y por qué los conectores de datos de Analytics fi
 title: Anuncio previo al fin de vida útil para los conectores de datos de Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: f034baca23980ae70d83bc6488e13fc610a43ab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 82%
 
 Durante más de una década, Adobe Analytics se ha propuesto ofrecer la mejor solución de análisis de marketing y web para satisfacer las necesidades de los clientes. A medida que evolucionan las necesidades tecnológicas y empresariales, nos esforzamos por seguir ofreciendo y cumpliendo los más altos estándares.  Desafortunadamente, las API que alimentan esta integración ya no cumplen con esos estándares y no son válidas en la moderna infraestructura tecnológica de Adobe Analytics.
 
-**A partir del 19 de agosto de 2021**, Adobe ha interrumpido las integraciones de Data Connectors. El fin de vida forma parte del ciclo de vida de cualquier producto tecnológico y el objetivo de Adobe es lograr que la transición sea lo más fluida posible para nuestros clientes y socios. Muchas de estas integraciones están disponibles a través de Adobe Exchange y pueden seguir utilizándose.
+**A partir del 19 de agosto de 2021** Adobe dejará de usar las integraciones de Data Connectors. El fin de vida forma parte del ciclo de vida de cualquier producto tecnológico y el objetivo de Adobe es lograr que la transición sea lo más fluida posible para nuestros clientes y socios. Muchas de estas integraciones están disponibles a través de Adobe Exchange y pueden seguir utilizándose.
 
 ## ¿Por qué queremos dejar de usar esta función?
 
-Esta función está basada en tecnología heredada que ya no es viable ni compatible. El [Adobe Exchange Marketplace](https://partners.adobe.com/exchangeprogram/experiencecloud) es ahora el lugar donde encontrar las integraciones actuales para las soluciones de Adobe.
+Esta función está basada en tecnología heredada que ya no es viable ni compatible.  [Adobe Exchange Marketplace](https://partners.adobe.com/exchangeprogram/experiencecloud) es ahora el lugar donde encontrar las integraciones actuales para las soluciones de Adobe.
 
 ## ¿Cómo le afecta la eliminación de esta función?
 
