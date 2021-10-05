@@ -1,12 +1,12 @@
 ---
-description: Utilice segmentos rápidos en Analysis Workspace.
+description: Use segmentos rápidos en Analysis Workspace.
 title: Segmentos rápidos
 feature: Workspace Basics
 role: User, Admin
 source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
@@ -29,9 +29,9 @@ Para ver una comparación de lo que pueden hacer los segmentos rápidos frente a
 
 Cualquiera puede crear un [!UICONTROL segmento rápido]. Sin embargo, necesita el permiso[!UICONTROL Creación de segmentos] en [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) para poder guardar segmentos rápidos o abrirlos en el [!UICONTROL Generador de segmentos].
 
-## Crear segmentos rápidos
+## Creación de segmentos rápidos
 
-En una tabla improvisada, haga clic en el icono filter+ del encabezado del panel:
+En una tabla improvisada, haga clic en el icono Filtrar+ del encabezado del panel:
 
 ![](assets/quick-seg1.png)
 
@@ -43,7 +43,7 @@ En una tabla improvisada, haga clic en el icono filter+ del encabezado del panel
 | Componentes (Dimension/métrica/intervalo de fechas) | Defina hasta 3 reglas agregando componentes, dimensiones o métricas y/o intervalos de fechas y sus valores. Existen tres formas de encontrar el componente correcto:<ul><li>Empiece a escribir y el [!UICONTROL Generador de segmentos rápidos] encuentre automáticamente el componente adecuado.</li><li>Utilice la lista desplegable para buscar el componente.</li><li>Arrastre y suelte los componentes desde el carril izquierdo.</li></ul> |
 | Operador | Utilice el menú desplegable para buscar operadores estándar y operadores [!UICONTROL Distinct Count]. [Más información](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=en) |
 | Signo más (+) | Añadir otra regla |
-| Cualificadores AND/OR | Puede agregar calificadores &quot;AND&quot; u &quot;OR&quot; a las reglas, pero no puede combinar &quot;AND&quot; y &quot;OR&quot; en una sola definición de segmento. |
+| Cualificadores AND/OR | Puede agregar calificadores AND u OR a las reglas, pero no puede combinar AND y OR en una sola definición de segmento. |
 | Aplicar | Aplique este segmento al panel. Si el segmento no contiene datos, se le preguntará si desea continuar. |
 | Abrir creador | Abre el Generador de segmentos. Una vez guardado el segmento en el Generador de segmentos, ya no se considera un &quot;segmento rápido&quot;. Forma parte de la biblioteca de segmentos de la lista de componentes. |
 | Cancelar | Cancele este segmento rápido: no lo aplique. |

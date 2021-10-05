@@ -279,7 +279,7 @@ ht-degree: 98%
    + [Solución de problemas de la extensión del explorador](activity-map/troubleshooting-browser-extensions.md)
    + [Solución de problemas de la recopilación de datos](activity-map/troubleshoot-data-collection.md)
 + Reports and Analytics {#reports-analytics}
-   + [Introducción a Reports &amp; Analytics](reports-analytics/getting-started.md)
+   + [Introducción a Reports and Analytics](reports-analytics/getting-started.md)
    + Descripción general de la interfaz de informes {#reporting-interface}
       + [Información sobre la recopilación de datos](reports-analytics/overview/overview-data-collection.md)
       + [Menú Informes](reports-analytics/overview/reports-menu.md)

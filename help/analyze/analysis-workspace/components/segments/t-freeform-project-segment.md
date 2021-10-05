@@ -8,7 +8,7 @@ exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 42%
+ht-degree: 48%
 
 ---
 
@@ -20,7 +20,7 @@ Puede crear distintos tipos de segmentos en Workspace, en función de lo complej
 | Tipo de segmento | ¿Creado dónde? | ¿Dónde se aplica? | Uso |
 | --- | --- | --- | --- |
 | Segmento de lista de componentes | Haga clic en +, que le lleva al [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Todos los proyectos de Workspace | Para segmentos más complejos, segmentos secuenciales |
-| Segmento rápido | [Generador de segmentos rápido](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo proyecto, pero puede guardar y agregar a la lista de segmentos. | Flexibilidad para agregar o editar una o más reglas |
+| Segmento rápido | [Generador de segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo proyecto, pero puede guardar y agregar a la lista de segmentos. | Flexibilidad para agregar o editar una o más reglas |
 | Segmentos ad hoc: |  |  |  |
 | - Segmento de proyecto de Workspace ad hoc | [Arrastrar y soltar en la zona de colocación de segmentos de un proyecto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Solo proyecto, pero puede guardar y agregar a la lista de segmentos. | Para segmentos de una sola regla |
 | - Segmento basado en métricas calculadas | [Generador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Para métricas calculadas individuales | Aplicar segmentos dentro de su definición de métrica |
@@ -79,4 +79,4 @@ IQ de segmento (también conocido como Comparación de segmentos) incluye las si
 
 ## Más información
 
-Para un análisis en profundidad de la segmentación en Adobe Analytics, vaya [aquí](/help/components/segmentation/seg-overview.md).
+Para un análisis en profundidad de la segmentación en Adobe Analytics, consulte [aquí](/help/components/segmentation/seg-overview.md).

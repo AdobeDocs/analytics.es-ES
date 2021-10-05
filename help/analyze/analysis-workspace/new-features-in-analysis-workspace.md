@@ -811,7 +811,7 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Mejoras de <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b> flujo </b> </a> </td> 
+   <td colname="col1"> Mejoras de <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b>flujo</b></a> </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Se ha añadido una nueva configuración de visualización denominada <span class="wintitle"> Inhabilitar el truncado de etiquetas </span> (valor predeterminado = sin marcar). </li> 
@@ -848,7 +848,7 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Mejoras en el <b> <a href="/help/components/c-alerts/alert-manager.md"  > Administrador de alertas </a> </b> </p> </td> 
+   <td colname="col1"> <p>Mejoras en el <b><a href="/help/components/c-alerts/alert-manager.md"  >Administrador de alertas</a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">Se ha añadido la posibilidad de habilitar/deshabilitar alertas. </li> 
