@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1082'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,8 +101,8 @@ Si no está seguro de qué visualización escoger, haga clic en el icono **[!UIC
 
 ![](assets/quick-viz.png)
 
-## Cambiar el eje de escala en las visualizaciones
+## Cambio del eje de escala en visualizaciones
 
-A continuación se muestra un vídeo introductorio:
+A continuación, se muestra un vídeo introductorio:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
