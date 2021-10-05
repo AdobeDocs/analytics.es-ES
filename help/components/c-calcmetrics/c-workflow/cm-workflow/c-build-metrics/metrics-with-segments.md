@@ -4,9 +4,9 @@ title: Métricas segmentadas
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
 source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Digamos que desea comparar distintos aspectos de los segmentos de “Visitantes 
 
    ![](assets/workspace-pages.png)
 
-A continuación se muestra un vídeo introductorio:
+A continuación, se muestra un vídeo introductorio:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
