@@ -3,15 +3,15 @@ title: Carros de compras
 description: Número de visitas en las que un visitante agregó su primer producto al carro de compras.
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
 source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Carros de compras
 
-La métrica &quot;Carros de compras&quot; muestra el número de visitas en las que un visitante agregó su primer producto al carro de compras.
+La métrica Carros de compras muestra el número de visitas en las que un visitante agregó su primer producto al carro de compras.
 
 ## Cálculo de esta métrica
 
