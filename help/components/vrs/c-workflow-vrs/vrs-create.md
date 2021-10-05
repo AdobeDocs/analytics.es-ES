@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
