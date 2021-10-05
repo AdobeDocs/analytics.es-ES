@@ -3,9 +3,9 @@ title: Configuración de análisis entre dispositivos
 description: Configure un grupo de informes virtuales para habilitar CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '533'
+ht-degree: 100%
 
 ---
 
@@ -52,6 +52,6 @@ Cuando Análisis entre dispositivos está habilitado en un grupo de informes vir
 
 * Aparece un nuevo icono entre dispositivos junto al nombre del grupo de informes virtuales. Este icono es exclusivo para grupos de informes virtuales entre dispositivos.
 * Hay una nueva dimensión denominada [Estado identificado](../dimensions/identified-state.md) disponible.
-* Hay disponibles nuevas métricas etiquetadas como [Personas](../metrics/people.md), [Dispositivos únicos](../metrics/unique-devices.md), [Personas identificadas](../metrics/identified-people.md), [Personas no identificadas](../metrics/unidentified-people.md) y [Personas con ID de Experience Cloud](../metrics/people-with-exp-cloud-id.md).
+* Hay disponibles nuevas métricas etiquetadas como [Personas](../metrics/people.md), [Dispositivos únicos](../metrics/unique-devices.md), [Personas identificadas](../metrics/identified-people.md), [Personas no identificadas](../metrics/unidentified-people.md) y [Personas con Experience Cloud ID](../metrics/people-with-exp-cloud-id.md).
 * La métrica [Visitantes únicos](../metrics/unique-visitors.md) no está disponible, ya que se ha sustituido por Personas y Dispositivos únicos.
 * Al generar segmentos, el contenedor de segmentos “Visitante” se reemplaza por un contenedor “Persona”.
