@@ -3,9 +3,9 @@ title: Análisis entre dispositivos
 description: Cambie los datos de centrados en el dispositivo a centrados en la persona mediante la vinculación de los datos del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: 13428ba0d149482a099fbdaa74890b59dd0891eb
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '808'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Análisis entre dispositivos es una función que transforma Analytics de una vista centrada en el dispositivo a una vista centrada en la persona. Como resultado, los analistas pueden comprender el comportamiento del usuario que cruza navegadores, dispositivos o aplicaciones. Adobe admite dos flujos de trabajo generales para vincular datos de dispositivos:
 
-* [**Vinculación basada en el campo**](field-based-stitching.md): Se recomienda la opción de vinculación porque solo utiliza la coincidencia determinística para vincular dispositivos.
+* [**Vinculación basada en el campo**](field-based-stitching.md): se recomienda la opción de vinculación porque solo utiliza la coincidencia determinística para vincular dispositivos.
 Permite elegir una variable de Analytics como base para la vinculación entre dispositivos en un grupo de informes virtuales.
 * [**Gráfico del dispositivo**](device-graph.md): CDA se comunica con un gráfico del dispositivo para vincular dispositivos. El gráfico de cooperación utiliza coincidencia determinística y probabilística.
 
