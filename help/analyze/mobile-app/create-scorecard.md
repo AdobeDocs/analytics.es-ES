@@ -3,10 +3,10 @@ description: Cómo crear un informe de valoración de paneles de Adobe Analytics
 title: Crear un informe de valoración
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
+source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 60%
+source-wordcount: '1195'
+ht-degree: 59%
 
 ---
 
@@ -104,19 +104,21 @@ Esto le llevará al generador de intervalos de fechas, donde puede crear y guard
 
 ### Aplicar visualizaciones
 
-Los paneles de Analytics ahora ofrecen cuatro visualizaciones que ofrecen buena perspectiva de los elementos de dimensión. Aplique una visualización diferente cambiando el [!UICONTROL tipo de gráfico] de las propiedades de un mosaico:
+Los paneles de Analytics ofrecen cuatro visualizaciones que le ofrecen una buena perspectiva de los elementos y las métricas de dimensión. Cambie a una visualización diferente cambiando el [!UICONTROL tipo de gráfico] de las propiedades de un mosaico:
 
 ![Propiedades del mosaico](assets/properties.png)
 
 ** Donutvisualization**
 
-Similar a un gráfico circular, esta visualización muestra los datos como partes o segmentos de un todo. Utilice un gráfico de anillo para comparar porcentajes de un total. Por ejemplo, supongamos que desea ver qué plataforma de publicidad contribuyó al número total de visitantes únicos:
+Al igual que un gráfico circular, esta visualización muestra los datos como partes o segmentos de un todo. Utilice un gráfico de anillo para comparar porcentajes de un total. Por ejemplo, supongamos que desea ver qué plataforma de publicidad contribuyó al número total de visitantes únicos:
 
 ![Visualización de anillo](assets/donut-viz.png)
 
 **Visualización de líneas**
 
 La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión.
+
+
 
 **[!UICONTROL Visualización de ] barras horizontales**
 
