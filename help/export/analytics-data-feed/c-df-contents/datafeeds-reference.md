@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '3420'
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `ip` | Dirección IP basada en la cabecera HTTP de la solicitud de imagen. | char(20) |
 | `ip2` | No se usa. Variable de referencia de backend para los grupos de informes que contienen reglas de VISTA basadas en una dirección IP. | char(20) |
 | `j_jscript` | Versión de JavaScript admitida por el explorador. | char(5) |
-| `java_enabled` | Indicador que señala si Java está habilitado. <br>S: Habilitado <br>N: No habilitado <br>D: Desconocido | char(1) |
+| `java_enabled` | Indicador que señala si Java está habilitado. <br>S: Habilitado<br>N: No habilitado<br>D: Desconocido | char(1) |
 | `javascript` | ID de búsqueda de la versión de JavaScript basado en `j_jscript`. Utiliza la tabla de búsqueda. | tinyint sin firmar |
 | `language` | ID numérica de idioma. Utiliza la tabla de búsqueda `languages.tsv`. | smallint sin firmar |
 | `last_hit_time_gmt` | Marca de tiempo (en Tiempo Unix) de la visita anterior. Se utiliza para calcular la dimensión [Días desde la última visita](/help/components/dimensions/days-since-last-visit.md). | int |
@@ -168,7 +168,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `prev_page` | No se usa. Identificador propio de Adobe de la página anterior. | int sin firmar |
 | `product_list` | Lista de productos tal como se transmite mediante la variable [`products`](/help/implement/vars/page-vars/products.md). Los productos están delimitados por comas, mientras que las propiedades de los productos individuales están delimitadas por punto y coma. | texto |
 | `product_merchandising` | No se usa. Utilice `product_list` en su lugar. | texto |
-| `prop1` -  `prop75` | Variables de tráfico personalizadas 1-75. Se utiliza en dimensiones [Prop](/help/components/dimensions/prop.md). | varchar(100) |
+| `prop1` - `prop75` | Variables de tráfico personalizadas 1-75. Se utiliza en dimensiones [Prop](/help/components/dimensions/prop.md). | varchar(100) |
 | `purchaseid` | Identificador único de una compra, tal y como se establece mediante la variable [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Lo utiliza la columna `duplicate_purchase`. | char(20) |
 | `quarterly_visitor` | Un indicador que determina si la visita es un visitante nuevo trimestral. | tinyint sin firmar |
 | `ref_domain` | Se basa en la columna de referentes. El dominio de referencia de la visita. Se utiliza en la dimensión [Dominio de referencia](/help/components/dimensions/referring-domain.md). | varchar(100) |
