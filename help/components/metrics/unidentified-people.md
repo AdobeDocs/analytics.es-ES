@@ -2,15 +2,15 @@
 title: Usuarios no identificados
 description: El número de visitantes que el análisis entre dispositivos no identificó.
 source-git-commit: 0e3ebcb7a28623c12876391e2204afa43e341d9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '68'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
 # Usuarios no identificados
 
-La métrica &quot;Personas no identificadas&quot; es una métrica [Análisis entre dispositivos](../cda/overview.md) que cuenta el número de visitantes que CDA no pudo identificar.
+La métrica Personas no identificadas es una métrica de [Análisis entre dispositivos](../cda/overview.md) que cuenta el número de visitantes que CDA no pudo identificar.
 
 ## Cálculo de esta métrica
 
