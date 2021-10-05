@@ -3,9 +3,9 @@ title: Estado identificado
 description: Un indicador que determina el reconocimiento por el gráfico del dispositivo.
 exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
 source-git-commit: 1a58c3e87f5918c91b891faa6027f5ad8b6024b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '111'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -21,5 +21,5 @@ Siempre que tenga [Cross-Device Analytics](../cda/overview.md) configurado para 
 
 Los elementos de dimensión incluyen `"Identified"` y `"Unidentified"`.
 
-* **`"Identified"`**: La visita se asigna a una persona.
-* **`"Unidentified"`**: La visita no está asignada a una persona y no se ha podido asignar mediante ningún método de atribución.
+* **`"Identified"`**: la visita se asigna a una persona.
+* **`"Unidentified"`**: la visita no está asignada a una persona y no se ha podido asignar mediante ningún método de atribución.
