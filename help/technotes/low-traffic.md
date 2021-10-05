@@ -5,9 +5,9 @@ feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Cuando un informe contiene varios valores únicos, una funcionalidad incluida en
 ¿Por qué Adobe mueve un elemento de la línea [!UICONTROL Poco tráfico] a su propio elemento de línea? Por ejemplo, este movimiento podría reconocer una página nueva o elemento nuevo popular que se añadió más adelante ese mes (después de superar los valores exclusivos) y que recibe muchas visitas o vistas. El movimiento no pretende capturar todo lo que recibe un determinado número de visitas/visitas al día o al mes.
 
 >[!NOTE]
->El recuento de búsqueda de páginas no solo incluye valores para [!UICONTROL pagename]/[!UICONTROL page_url]. La tabla de búsqueda de páginas incluye varias columnas/campos como [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url] y el contexto de clic (los datos antiguos de Clickmap).
+>El recuento de búsqueda de páginas no solo incluye valores para [!UICONTROL pagename]/[!UICONTROL page_url]. La tabla de búsqueda de páginas incluye varias columnas o varios campos como [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url] y el contexto de clic (los datos antiguos de ClickMap).
 
 ## Cambio de los umbrales de límite único
 
