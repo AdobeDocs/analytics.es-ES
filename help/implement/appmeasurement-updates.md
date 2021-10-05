@@ -4,9 +4,9 @@ description: Recopilación de notas de versiones de AppMeasurement para JavaScri
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2201'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Puede descargar la versión más reciente de AppMeasurement en el [Administrador
 
 Fecha de versión: **7 de septiembre de 2021**
 
-* Esta actualización hace que `opt.dmp` y `opt.sell` siempre se incluyan al rastrear vínculos. A continuación se muestra una [lista completa de variables de consentimiento](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
+* Esta actualización hace que `opt.dmp` y `opt.sell` siempre se incluyan al rastrear vínculos. A continuación, se muestra una [lista completa de variables de consentimiento](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=es).
 
 ## Versión 2.22.1
 
@@ -437,7 +437,7 @@ Fecha de versión: **15 de noviembre de 2013**
 Fecha de versión: **14 de noviembre de 2013**
 
 * Se ha agregado compatibilidad con la [medición de vídeos de Heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
-* `VisitorAPI.js` se ha incluido para admitir el [servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* `VisitorAPI.js` se ha incluido para admitir el [servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
 
 ## Versión 1.1.1
 
