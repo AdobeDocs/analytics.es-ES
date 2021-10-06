@@ -3,9 +3,9 @@ description: Cómo crear un informe de valoración de paneles de Adobe Analytics
 title: Crear un informe de valoración
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 122daace52691b983db1f6978532ba37b42f5f7f
+source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1338'
 ht-degree: 53%
 
 ---
@@ -112,32 +112,32 @@ O bien, haga clic en el icono [!UICONTROL Visualizaciones] en el carril izquierd
 
 ![Visualizaciones](assets/vizs.png)
 
-**[!UICONTROL Número de resumen]**
+### [!UICONTROL Número de resumen]
 
 Utilice la visualización Número de resumen para resaltar un número elevado que es importante en un proyecto.
 
-![Número de resumen](assets/sparkline.png)
+![Número de resumen](assets/summary-number.png)
 
-** Donutvisualization**
+### [!UICONTROL Anillo]
 
 Al igual que un gráfico circular, esta visualización muestra los datos como partes o segmentos de un todo. Utilice un gráfico de anillo para comparar porcentajes de un total. Por ejemplo, supongamos que desea ver qué plataforma de publicidad contribuyó al número total de visitantes únicos:
 
 ![Visualización de anillo](assets/donut-viz.png)
 
-**Visualización de líneas**
+### [!UICONTROL Líneas]
 
 La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas muestra las dimensiones a lo largo del tiempo, pero funciona con cualquier visualización. En este ejemplo está visualizando la dimensión de categoría del producto.
 
 ![Visualización de líneas](assets/line.png)
 
 
-**[!UICONTROL Visualización de ] barras horizontales**
+### [!UICONTROL Barra horizontal]
 
 Esta visualización muestra las barras horizontales que representan los distintos valores de una o varias métricas. Por ejemplo, para ver fácilmente cuáles son sus productos principales, utilice [!UICONTROL Barra horizontal] para la visualización que prefiera.
 
 ![barra horizontal](assets/horizontal.png)
 
-**Eliminar elementos de dimensión   no especificados**
+### Eliminar elementos de dimensión [!UICONTROL No especificados]
 
 Si desea eliminar los elementos de dimensión [!UICONTROL No especificados] de los datos, haga lo siguiente:
 
