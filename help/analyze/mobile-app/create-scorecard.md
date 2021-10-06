@@ -3,10 +3,10 @@ description: Cómo crear un informe de valoración de paneles de Adobe Analytics
 title: Crear un informe de valoración
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
+source-git-commit: 122daace52691b983db1f6978532ba37b42f5f7f
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 59%
+source-wordcount: '1341'
+ht-degree: 53%
 
 ---
 
@@ -62,7 +62,7 @@ Para implementar la plantilla del informe de valoración:
 
 1. Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.
 
-### Agregar dimensiones o métricas
+## Agregar dimensiones o métricas
 
 Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico.
 
@@ -70,7 +70,7 @@ Por ejemplo, puede agregar dimensiones adecuadas (como **[!DNL Marketing Channel
 
 ![Agregar dimensiones](assets/layer_dimensions.png)
 
-### Aplicar segmentos
+## Aplicar segmentos
 
 Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico.
 
@@ -78,7 +78,7 @@ Si desea aplicar el segmento a todos los mosaicos del informe de valoración, su
 
 ![Generar segmentos para filtrar](assets/segment_ui.png)
 
-### Agregar intervalos de fechas
+## Agregar intervalos de fechas
 
 Añada y quite combinaciones de intervalos de fechas que se puedan seleccionar en el cuadro de resultados seleccionando la lista desplegable de intervalo de fechas.
 
@@ -102,11 +102,21 @@ Si el intervalo de fechas que desea aún no se ha creado, puede crear uno nuevo 
 
 Esto le llevará al generador de intervalos de fechas, donde puede crear y guardar un nuevo componente de intervalo de fechas.
 
-### Aplicar visualizaciones
+## Aplicar visualizaciones
 
-Los paneles de Analytics ofrecen cuatro visualizaciones que le ofrecen una buena perspectiva de los elementos y las métricas de dimensión. Cambie a una visualización diferente cambiando el [!UICONTROL tipo de gráfico] de las propiedades de un mosaico:
+Los paneles de Analytics ofrecen cuatro visualizaciones que le ofrecen una buena perspectiva de los elementos y las métricas de dimensión. Cambie a una visualización diferente cambiando el [!UICONTROL tipo de gráfico] de las [!UICONTROL Propiedades] de un mosaico. Seleccione el mosaico derecho y cambie el tipo de gráfico.
 
 ![Propiedades del mosaico](assets/properties.png)
+
+O bien, haga clic en el icono [!UICONTROL Visualizaciones] en el carril izquierdo y arrastre y suelte la visualización derecha en el mosaico:
+
+![Visualizaciones](assets/vizs.png)
+
+**[!UICONTROL Número de resumen]**
+
+Utilice la visualización Número de resumen para resaltar un número elevado que es importante en un proyecto.
+
+![Número de resumen](assets/sparkline.png)
 
 ** Donutvisualization**
 
@@ -116,15 +126,29 @@ Al igual que un gráfico circular, esta visualización muestra los datos como pa
 
 **Visualización de líneas**
 
-La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión.
+La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas muestra las dimensiones a lo largo del tiempo, pero funciona con cualquier visualización. En este ejemplo está visualizando la dimensión de categoría del producto.
 
+![Visualización de líneas](assets/line.png)
 
 
 **[!UICONTROL Visualización de ] barras horizontales**
 
-Esta visualización muestra las barras horizontales que representan los distintos valores de una o varias métricas.
+Esta visualización muestra las barras horizontales que representan los distintos valores de una o varias métricas. Por ejemplo, para ver fácilmente cuáles son sus productos principales, utilice [!UICONTROL Barra horizontal] para la visualización que prefiera.
 
-### Ver y configurar propiedades de mosaico
+![barra horizontal](assets/horizontal.png)
+
+**Eliminar elementos de dimensión   no especificados**
+
+Si desea eliminar los elementos de dimensión [!UICONTROL No especificados] de los datos, haga lo siguiente:
+
+1. Seleccione el mosaico correcto.
+1. En el carril derecho, en **[!UICONTROL Drill ins]**, seleccione la flecha derecha junto al elemento de dimensión cuyos elementos **[!UICONTROL No especificados]** desea eliminar.
+
+   ![no especificado](assets/unspecified.png)
+
+1. Haga clic en el icono junto a **[!UICONTROL No especificado]** para eliminar los datos no especificados de los informes. (También puede eliminar cualquier otro elemento de dimensión).
+
+## Ver y configurar propiedades de mosaico
 
 Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **[!UICONTROL Título]** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
 
@@ -142,7 +166,7 @@ Los desgloses refinan el análisis al desglosar literalmente métricas y dimensi
 
 Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
 
-### Eliminación de componentes
+## Eliminación de componentes
 
 Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de resultados, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, quítelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Primeras visitas**:
 
