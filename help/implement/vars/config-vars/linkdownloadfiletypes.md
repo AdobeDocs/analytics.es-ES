@@ -23,7 +23,6 @@ Utilice `linkDownloadFileTypes` para personalizar las extensiones de archivo que
 >* Descargas que se desencadenan tras un redireccionamiento
 >* Haga clic con el botón derecho y seleccione “Guardar destino como...”
 >* Vínculos que utilizan JavaScript, como `javascript:openLink()`
-
 >
 >Para estos tipos de descarga, puede llamar manualmente al método [`tl()`](../functions/tl-method.md).
 
