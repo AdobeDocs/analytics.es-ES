@@ -1,19 +1,19 @@
 ---
 description: Cómo crear un informe de valoración de paneles de Adobe Analytics
-title: Crear un informe de valoración
+title: Creación de un informe de valoración móvil
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 53%
+source-wordcount: '1349'
+ht-degree: 51%
 
 ---
 
 
-# Crear un informe de valoración
+# Creación de un informe de valoración móvil
 
-La siguiente información enseña a los depuradores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del Generador de informes de valoración de paneles de Adobe Analytics:
+La siguiente información instruye a los gestores de datos de Adobe Analytics sobre cómo configurar y presentar informes de valoración móviles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del Generador de informes de valoración de paneles de Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -103,6 +103,10 @@ Si el intervalo de fechas que desea aún no se ha creado, puede crear uno nuevo 
 Esto le llevará al generador de intervalos de fechas, donde puede crear y guardar un nuevo componente de intervalo de fechas.
 
 ## Aplicar visualizaciones
+
+Vea un vídeo sobre visualizaciones para informes de valoración móviles:
+
+>[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
 Los paneles de Analytics ofrecen cuatro visualizaciones que le ofrecen una buena perspectiva de los elementos y las métricas de dimensión. Cambie a una visualización diferente cambiando el [!UICONTROL tipo de gráfico] de las [!UICONTROL Propiedades] de un mosaico. Seleccione el mosaico derecho y cambie el tipo de gráfico.
 
