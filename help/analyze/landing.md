@@ -3,9 +3,9 @@ description: Explica cómo la nueva página de aterrizaje reúne tanto Analysis 
 title: Página de aterrizaje de Adobe Analytics
 role: User, Admin
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 59b4099efaf477e9cdffeeebc0068b33f9de62c7
+source-git-commit: 99e8c0ca05a319a5dd196293a6538b7cba4a5896
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3236'
 ht-degree: 92%
 
 ---
@@ -162,7 +162,7 @@ Para crear un nuevo informe de empresa,
 
 1. Agregue todos los campos deseados al modal y guárdelo.
 
-   El informe se agrega a la lista de informes de la empresa y está disponible para los miembros de la misma.
+   El informe se agrega a la lista de informes de la empresa y está disponible para los usuarios de la empresa de inicio de sesión.
 
 Más opciones de aprendizaje:
 
