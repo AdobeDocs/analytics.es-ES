@@ -1,25 +1,25 @@
 ---
-title: Panel de tiempo invertido en la reproducción de contenido
-description: Cómo usar e interpretar el panel Tiempo invertido en la reproducción de contenido en Analysis Workspace.
+title: Panel Tiempo invertido en la reproducción de contenido
+description: Cómo utilizar e interpretar el panel Tiempo invertido en la reproducción de contenido en Analysis Workspace.
 feature: Panels
 role: User, Admin
 exl-id: null
 source-git-commit: 74ef44c4afba6d2dffb2b10fa473baee3be16a23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '981'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
-# Panel de tiempo invertido en la reproducción de contenido
+# Panel Tiempo invertido en la reproducción de contenido
 
-Los clientes de Media Analytics pueden analizar el tiempo invertido en la reproducción para comprender dónde se produjo la concurrencia máxima o dónde se produjeron los descensos y proporcionar una valiosa perspectiva de la calidad del contenido y la participación del visor, así como ayudar a solucionar problemas o a planificar el volumen o la escala.
+Los clientes de Media Analytics pueden analizar el tiempo invertido en la reproducción para comprender dónde se produjo el pico de concurrencia o dónde se produjeron los abandonos para proporcionar un valioso conocimiento sobre la calidad del contenido y la participación del visualizador, así como para solucionar problemas o a planificar el volumen y la escala.
 
-En Analysis Workspace, Tiempo de reproducción transcurrido es la cantidad de tiempo que se pasa viendo los flujos de medios en un momento específico, e incluye la pausa, el búfer y el tiempo para el inicio.
+En Analysis Workspace, Tiempo invertido en la reproducción de contenido es la cantidad de tiempo que se emplea para ver flujos de medios en un momento específico, e incluye pausas, el búfer y el tiempo para el inicio.
 
-El panel Tiempo invertido en reproducción de contenido permite analizar la reproducción a lo largo del tiempo, con detalles sobre la concurrencia máxima y la capacidad de realizar desgloses y comparaciones. Para acceder al panel Tiempo invertido en la reproducción de contenido, vaya a un grupo de informes con los componentes de Media Analytics activados. A continuación, haga clic en el icono del panel situado en el extremo izquierdo y arrastre el panel a su proyecto de Analysis Workspace.
+El panel Tiempo invertido en la reproducción de contenido permite analizar la reproducción a lo largo del tiempo, con detalles sobre los picos de concurrencia y la capacidad de realizar desgloses y comparaciones. Para acceder al panel Tiempo invertido en la reproducción de contenido, vaya a un grupo de informes con los componentes de Media Analytics habilitados. A continuación, haga clic en el icono del panel situado en el extremo izquierdo y arrastre el panel a su proyecto de Analysis Workspace.
 
-Este panel también incluye nueva funcionalidad en el calendario que le permite seleccionar y mostrar menos de 24 horas. Puede hacerlo para todo el panel o puede crear segmentos utilizando periodos de tiempo consecutivos para poder rastrear el ingreso/salida de audiencia en programas o secciones de programas. Una vez que haya colocado al menos dos de esos segmentos de fecha, verá una opción de botón de opción para Visualización de secuencia de fecha que superpondrá las líneas con un inicio de eje x común o las mostrará en secuencia con su inicio específico del eje x.
+Este panel también incluye una nueva funcionalidad en el calendario que le permite seleccionar y mostrar menos de 24 horas. Puede hacerlo para todo el panel o puede crear segmentos utilizando períodos de tiempo consecutivos para poder rastrear el ingreso/salida de audiencia en programas o secciones de programas. Una vez que haya colocado al menos dos de esos segmentos de fecha, verá un botón de opción para Visualización de secuencia de fecha que superpondrá las líneas con un inicio de eje x común o las mostrará en secuencia con su inicio específico del eje x.
 
 ## Entradas de panel {#Input}
 
@@ -29,10 +29,10 @@ Puede configurar el panel Tiempo invertido en la reproducción de contenido con 
 |---|---|
 | Intervalo de fecha del panel | El intervalo de fechas predeterminado del panel es Hoy. Puede editarlo para ver un solo día o varios meses a la vez.<br>Esta visualización está limitada a 1440 filas de datos (por ejemplo, 24 horas con una granularidad por minuto). Si la combinación de intervalo de fechas y granularidad genera más de 1440 filas, la granularidad se actualiza automáticamente para dar cabida al intervalo de fechas completo. |
 | Granularidad | El valor predeterminado de granularidad es Minuto.<br>Esta visualización está limitada a 1440 filas de datos (por ejemplo, 24 horas con una granularidad por minuto). Si la combinación de intervalo de fechas y granularidad genera más de 1440 filas, la granularidad se actualiza automáticamente para dar cabida al intervalo de fechas completo. |
-| Números de resumen del panel | Para ver los detalles de fecha y hora del tiempo de reproducción transcurrido, hay disponible un número de resumen. El Máximo muestra detalles para la concurrencia máxima. El Mínimo muestra los detalles de la emisión. Sum suma el tiempo total de reproducción empleado para la selección. El panel predeterminado muestra Máximo solamente, pero puede cambiarlo para mostrar Mínimo, Suma o cualquier combinación de los tres.<br>Si utiliza desgloses, se muestra un número de resumen para cada uno. |
+| Números de resumen del panel | Para ver los detalles de fecha y hora del tiempo invertido en la reproducción, hay disponible un número de resumen. El Máximo muestra detalles para la concurrencia máxima. El Mínimo muestra los detalles de la emisión. Suma recoge el tiempo total de reproducción invertido para la selección. El panel predeterminado muestra Máximo solamente, pero puede cambiarlo para mostrar Mínimo, Suma o cualquier combinación de los tres.<br>Si utiliza desgloses, se muestra un número de resumen para cada uno. |
 | Desglose de serie | De forma opcional, puede desglosar la visualización por segmentos, dimensiones, elementos de dimensión o intervalos de fechas.<p>: Puede ver hasta 10 líneas a la vez. Los desgloses están limitados a un solo nivel.</p><p>: Al arrastrar una dimensión, los elementos de dimensión principales se seleccionarán automáticamente en función del intervalo de fechas del panel seleccionado.</p>: Para comparar intervalos de fechas, arrastre 2 o más intervalos de fechas al filtro de desglose de series. |
 | Formato de hora | Puede ver el tiempo de reproducción transcurrido en horas:Minutes:segundos (predeterminado) o en minutos (que se muestra en números enteros redondeados a 0,5). |
-| Visualización de la secuencia de fechas | Si ha colocado al menos dos segmentos de intervalo de fechas como desgloses de serie, verá la opción para seleccionar superposición (predeterminada) o secuencial. La superposición mostrará las líneas con un inicio común del eje x para que se ejecuten en paralelo, mientras que la secuencial mostrará las líneas con su inicio específico del eje x. Si los datos se alinean (por ejemplo, el segmento 1 termina a las 8:44 pm y el segmento 2 comienza a las 8:45 pm), entonces las líneas se mostrarán en secuencia. |
+| Visualización de la secuencia de fechas | Si ha colocado al menos dos segmentos de intervalo de fechas como desgloses de serie, verá la opción para seleccionar superposición (predeterminada) o secuencial. La superposición mostrará las líneas con un inicio común del eje x para que se ejecuten en paralelo, mientras que la secuencial mostrará las líneas con su inicio específico del eje x. Si los datos se alinean (por ejemplo, el segmento 1 termina a las 8:44 p. m. y el segmento 2 comienza a las 8:45 p. m.), las líneas se mostrarán en secuencia. |
 
 ### Vista predeterminada
 
@@ -46,15 +46,15 @@ En cualquier momento, puede editar y rediseñar el panel haciendo clic en el lá
 
 Si seleccionó el desglose de series, se mostrará una línea en el gráfico de líneas y un número de resumen para cada uno:
 
-![salida de tiempo empleado de reproducción de contenido](assets/mpts_outputs1.png)
+![salida de tiempo invertido en la reproducción de contenido](assets/mpts_outputs1.png)
 
 ### Fuente de datos
 
-La única métrica que se puede usar en este panel es Tiempo de reproducción transcurrido.
+La única métrica que se puede usar en este panel es Tiempo invertido en la reproducción.
 
 | Métrica | Descripción |
 |---|---|
-| Tiempo de reproducción transcurrido | Total de horas:minutes:segundos (o minutos) de contenido visualizado durante la granularidad seleccionada, incluida la pausa, el búfer y el tiempo para el inicio. |
+| Tiempo invertido en la reproducción | Total de horas:minutes:segundos (o minutos) de contenido visualizado durante la granularidad seleccionada, incluyendo pausas, búfer y tiempo para el inicio. |
 
 ## Preguntas frecuentes {#FAQ}
 
