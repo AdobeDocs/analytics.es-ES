@@ -3,7 +3,7 @@ title: Comparación de diferentes métodos de exclusión de bots
 description: Permite comparar diferentes métodos para excluir bots.
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
 source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
 ht-degree: 100%
 
