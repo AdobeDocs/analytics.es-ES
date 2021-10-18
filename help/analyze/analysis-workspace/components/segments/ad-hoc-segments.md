@@ -1,34 +1,34 @@
 ---
-description: Utilice segmentos ad hoc en Analysis Workspace.
+description: Uso de segmentos ad hoc en Analysis Workspace.
 title: Segmentos ad hoc
 feature: Workspace Basics
 role: User, Admin
 source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
 
-# Segmentos de proyecto específicos
+# Segmentos de proyecto ad hoc
 
-Aquí tiene un vídeo sobre la creación de segmentos de proyecto específicos:
+Aquí tiene un vídeo sobre la creación de segmentos de proyecto ad hoc:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-Puede crear segmentos de proyecto específicos si desea explorar rápidamente cómo un segmento podría afectar a su proyecto, sin ir al Generador de segmentos. Piense en estos segmentos como segmentos temporales a nivel de proyecto. Normalmente no formarán parte de la &quot;biblioteca&quot; de segmentos como los segmentos de componentes en el carril izquierdo. Sin embargo, puede guardarlos, como se muestra a continuación.
+Puede crear segmentos de proyecto ad hoc si desea explorar rápidamente cómo un segmento podría afectar a su proyecto, sin ir al Generador de segmentos. Piense en estos segmentos como segmentos temporales del nivel de proyecto. Normalmente no formarán parte de la “biblioteca” de segmentos como los segmentos de componentes en el carril izquierdo. Sin embargo, puede guardarlos, como se muestra a continuación.
 
-Para ver una comparación de lo que pueden hacer los segmentos de proyecto específicos frente a los segmentos de nivel de componente completos, vaya [aquí](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+Para ver una comparación de lo que pueden hacer los segmentos ad hoc frente a los segmentos de nivel de componente completos, consulte [aquí](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
-1. Coloque cualquier tipo de componente (dimensión, elemento de dimensión, evento, métrica, segmento, plantilla de segmento, intervalo de fechas) en la zona de colocación de segmentos en la parte superior de un panel. Los tipos de componente se convierten automáticamente en segmentos.
+1. Suelte cualquier tipo de componente (dimensión, elemento de dimensión, evento, métrica, segmento, plantilla de segmento, intervalo de fechas) en la zona de colocación de segmentos en la parte superior de un panel. Los tipos de componente se convierten automáticamente en segmentos.
 Este es un ejemplo de cómo crear un segmento para el dominio de referencia de Twitter:
 
    ![](assets/ad-hoc1.png)
 
-   El panel obtiene automáticamente este segmento aplicado y puede ver los resultados al instante.
+   El panel aplica automáticamente este segmento y puede ver los resultados al instante.
 
-1. Puede agregar un número ilimitado de componentes a un panel.
+1. Puede añadir un número ilimitado de componentes a un panel.
 1. Si decide guardar este segmento, consulte la sección siguiente.
 
 Recuerde:
@@ -41,9 +41,9 @@ Recuerde:
 >
 >Los segmentos creados de esta forma son internos del proyecto.
 
-## Guardar segmentos de proyecto específicos {#ad-hoc-save}
+## Guardado de segmentos de proyecto ad hoc {#ad-hoc-save}
 
-Puede elegir guardar estos segmentos siguiendo estos pasos:
+Puede guardar estos segmentos siguiendo estos pasos:
 
 1. Sitúese sobre el segmento de la zona de colocación y haga clic en el icono “i”.
 1. En el panel de información que aparece, haga clic en **[!UICONTROL Guardar]**.
@@ -52,4 +52,4 @@ Puede elegir guardar estos segmentos siguiendo estos pasos:
 
 ## ¿Qué son segmentos solo de proyecto?
 
-Los segmentos solo de proyecto son segmentos rápidos o segmentos de proyecto específicos de Workspace. Al editarlas o abrirlas en el generador de segmentos, se mostrará el cuadro de solo proyecto. Si APLICAN un segmento rápido en el generador pero no marcan la casilla de disponibilidad, entonces sigue siendo un segmento solo de proyecto pero ya no se puede abrir en el generador de QS. Si marca la casilla y la opción GUARDAR ahora es un segmento de lista de componentes.
+Los segmentos solo de proyecto son segmentos rápidos o segmentos de proyecto ad hoc de Workspace. Al editarlos o abrirlos en el generador de segmentos, se mostrará el cuadro de solo proyecto. Si APLICAN un segmento rápido en el generador y no marcan la casilla de disponibilidad, sigue siendo un segmento solo de proyecto, pero ya no se puede abrir en el generador de segmentos rápidos. Si marcan la casilla y lo GUARDAN ahora es un segmento de lista de componentes.
