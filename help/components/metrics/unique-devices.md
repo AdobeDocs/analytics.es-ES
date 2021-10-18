@@ -3,33 +3,33 @@ title: Dispositivos únicos
 description: Número de dispositivos únicos.
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 # Dispositivos únicos
 
-La métrica &quot;Dispositivos únicos&quot; es una métrica [Análisis entre dispositivos](../cda/overview.md) que cuenta el número de dispositivos únicos no identificados y dispositivos virtuales únicos. Los dispositivos no identificados son dispositivos que generaron visitas anónimas. Los dispositivos virtuales únicos son personas distintas identificadas por dispositivo.
+La métrica Dispositivos únicos es un [Análisis entre dispositivos](../cda/overview.md) que cuenta el número de dispositivos únicos no identificados y los dispositivos virtuales únicos. Los dispositivos no identificados son dispositivos que generaron visitas anónimas. Los dispositivos virtuales únicos son las distintas personas identificadas por dispositivo.
 
 ## Cálculo de esta métrica
 
 Para cada dispositivo, suma todas las personas distintas vinculadas a él (incluido el anónimo si el dispositivo contiene visitas no vinculadas).
 
-Tenga en cuenta que esta métrica no es igual a [Visitantes únicos](unique-visitors.md) en los grupos de informes que no son de CDA. Por ejemplo, un dispositivo se comparte con 3 cuentas diferentes. Si las 3 cuentas visitan el sitio en una ventana de informes, el informe resultante mostrará 3 dispositivos únicos en CDA. Los mismos datos fuera de CDA mostrarían 1 visitante único.
+Tenga en cuenta que esta métrica no es igual a [Visitantes únicos](unique-visitors.md) en los grupos de informes que no son de CDA. Por ejemplo, un dispositivo se comparte con tres cuentas diferentes. Si las tres cuentas visitan el sitio en una ventana de informes, el informe resultante mostrará tres dispositivos únicos en CDA. Los mismos datos fuera de CDA mostrarían un visitante único.
 
 ## Ejemplo
 
-1. Bob llega a su sitio en su teléfono a través de un anuncio, pero no ha iniciado sesión.
+1. Bob llega al sitio en su teléfono a través de un anuncio, pero no ha iniciado sesión.
 1. Bob quiere hacer una compra, pero preferiría hacerlo en el ordenador familiar porque ya ha iniciado sesión allí. En el ordenador de la familia, hace una compra.
 1. Al día siguiente, comprueba su pedido por teléfono y se autentica allí.
-1. La esposa de Bob, Alice, explora tu sitio mientras inicia sesión en su cuenta en el ordenador familiar.
-1. El hermano de Bob, Charles, también explora tu sitio mientras inicia sesión en su cuenta en el equipo familiar.
+1. La esposa de Bob, Alice, explora su sitio mientras inicia sesión en su cuenta en el ordenador familiar.
+1. El hermano de Bob, Charles, también explora su sitio mientras inicia sesión en su cuenta en el equipo familiar.
 
 ![Recuento de dispositivos únicos](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-Si ve estos datos en un grupo de informes virtuales CDA antes de [Reproducir](/help/components/cda/replay.md) puntos de visitas no autenticadas, se mostraría lo siguiente:
+Ver estos datos en un grupo de informes virtuales de CDA antes de [Reproducir](/help/components/cda/replay.md) potencialmente vincula las visitas no autenticadas y mostraría lo siguiente:
 
-* **5 dispositivos** únicos: 1 para Bob no autenticado + 2 para Bob + 1 para Alice + 1 para Charles
-* **4  [Personas](people.md)**: 1  [Personas](unidentified-people.md)  No Identificadas + 3  [Personas](identified-people.md) Identificadas.
+* **Cinco dispositivos únicos**: uno para Bob no autenticado y dos para Bob y uno para Alice, más uno para Charles
+* **Cuatro [personas](people.md)**: una [persona no identificada](unidentified-people.md) más tres [personas identificadas](identified-people.md).
