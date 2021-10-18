@@ -3,9 +3,9 @@ title: Personas
 description: Número de individuos únicos, normalmente con varios dispositivos.
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
 source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -17,4 +17,4 @@ Para los miembros de [Device Co-op](https://experienceleague.adobe.com/docs/devi
 
 Dentro de un grupo de informes virtuales de [análisis en dispositivos múltiples](../cda/overview.md), la métrica Personas no es una derivación estadística. En cambio, es la suma de los particulares que se identifican en el informe, más el número de dispositivos que no se identifican como pertenecientes a una persona.
 
-Si un visitante se identifica a mitad de la visita, puede contar como 2 personas (1 persona no identificada y 1 persona identificada). [](/help/components/cda/replay.md) Vuelve a mostrar este recuento doble en función de la ventana de informes, la frecuencia de reproducción y la tasa de éxito. Consulte [Dispositivos únicos](unique-devices.md) para obtener más información.
+Si se identifica un visitante a mitad de la visita, ese visitante puede contar como dos personas (una persona no identificada y una identificada). [Reproducir](/help/components/cda/replay.md) mitiga este recuento doble en función de la ventana de informes, la frecuencia de reproducción y la tasa de éxito. Consulte [Dispositivos únicos](unique-devices.md) para obtener más información.
