@@ -7,7 +7,7 @@ user-guide-description: Proporciona instrucciones sobre procedimientos con Analy
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -311,7 +311,7 @@ ht-degree: 98%
    + [Resolución de problemas](reports-analytics/report-troubleshooting.md)
 + Tableros de Adobe Analytics {#mobapp}
    + [Paneles de Adobe Analytics: Información general](mobile-app/home.md)
-   + [Introducción al gestor de datos](mobile-app/curator.md)
+   + [Introducción para el gestor de datos](mobile-app/curator.md)
    + [Creación de un informe de valoración móvil](mobile-app/create-scorecard.md)
    + [Configurar ejecutivos para utilizar tableros](mobile-app/set-up-execs.md)
    + [Guía de inicio rápida para el usuario ejecutivo](mobile-app/executive.md)
