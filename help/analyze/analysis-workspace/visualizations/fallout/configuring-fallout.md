@@ -2,13 +2,13 @@
 description: Especifique los puntos de contacto para crear una secuencia de visitas en el orden previsto multidimensional.
 title: Configurar una visualización de abandonos
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-feature: Visualizaciones
+feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
+workflow-type: tm+mt
+source-wordcount: '700'
+ht-degree: 92%
 
 ---
 
@@ -52,11 +52,11 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Ruta eventual </p> <p>(Predeterminado) </p> </td> 
-   <td colname="col2"> <p>Se cuentan los visitantes que “eventualmente” se dirijan a la siguiente página de la ruta durante esa sesión, pero no necesariamente al siguiente elemento. </p> </td> 
+   <td colname="col2"> <p>Los visitantes (o visitas) se cuentan cuando eventualmente aterrizan en el siguiente punto de contacto de la ruta. Los detalles se permiten entre puntos de contacto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Elemento siguiente </p> </td> 
-   <td colname="col2"> <p>Se cuentan los visitantes que se dirijan a la siguiente página de la ruta del elemento que aparece inmediatamente después. </p> </td> 
+   <td colname="col2"> <p>Los visitantes (o visitas) se cuentan cuando aterrizan inmediatamente en el siguiente punto de contacto de la ruta. La visita siguiente incluye cualquier tipo de visita (vistas de página o vínculos). No se permiten valores de detalle entre puntos de contacto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
