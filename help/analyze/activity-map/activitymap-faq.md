@@ -5,10 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: 7b093860dfd0c355780269a3d155ade2d153edfe
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ Activity Map es compatible con la última versión de la mayoría de los navegad
 
 Activity Map no envía llamadas al servidor por sí solo. En su lugar, las variables de datos de contexto de Activity Map se incluyen con las llamadas de vista de páginas de Analytics en la página siguiente.
 
-## ¿Por qué faltan algunas superposiciones de elementos clasificados?**
+## ¿Por qué faltan algunas superposiciones de elementos clasificados?
 
 Algunos vínculos clasificados, como los vínculos de submenú, están ocultos en la página. Como consecuencia, las superposiciones de vínculos correspondientes no se verán. La clasificación se calcula para todos los vínculos de la página, incluidos los vínculos ocultos.
 
@@ -83,3 +83,16 @@ No, los segmentos no funcionan en el modo Activo. La funcionalidad es equivalent
 ## ¿Es compatible Activity Map con los grupos de informes virtuales?
 
 Sí. Sin embargo, debido a las limitaciones de los grupos de informes virtuales, el modo Activo de Activity Map no es compatible con los grupos de informes virtuales.
+
+## ¿Cómo puedo deshabilitar el Activity Map?
+
+Tiene tres opciones:
+
+* Elimine el `AppMeasurement_Module_ActivityMap` desde el archivo JS
+* Añada código personalizado que reescriba la función anterior con un cuerpo vacío, por ejemplo:
+
+   ```
+   function AppMeasurement_Module_ActivityMap() {}
+   ```
+
+* Configurar AppMeasurement estableciendo `s.trackClickMap` y `s.trackInlineStats` a `false`

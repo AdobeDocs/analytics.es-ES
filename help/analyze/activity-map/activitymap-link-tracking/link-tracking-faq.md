@@ -5,9 +5,9 @@ uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
 role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 2a20ce50f773c82856da59154bb212f1fca2b7ea
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '516'
 ht-degree: 43%
 
 ---
@@ -35,11 +35,11 @@ La identificación de vínculos y regiones de Activity Map se produce cuando los
 
 Si se produce un evento de clic en un elemento, este tiene que pasar algunas comprobaciones para determinar si AppMeasurement lo tratará como un vínculo. Las comprobaciones son:
 
-* ¿Se trata de una etiqueta `A` o `AREA` con una propiedad `href`?
-* ¿Hay un atributo `onclick` que configure una variable `s_objectID`?
-* ¿Se trata de una etiqueta `INPUT` o un botón `SUBMIT` con un valor o texto secundario?
-* ¿Se trata de una etiqueta `INPUT` con el tipo `IMAGE` y una propiedad `src`?
-* ¿Es `BUTTON`?
+* ¿Es esto una `A` o `AREA` con un `href` propiedad?
+* ¿Hay un `onclick` atributo que establece un `s_objectID` variable?
+* ¿Es esto una `INPUT` o `SUBMIT` con un valor o texto secundario?
+* ¿Es esto una `INPUT` etiqueta con tipo `IMAGE` y `src` propiedad?
+* ¿Es esto una `BUTTON`?
 
 Si la respuesta a alguna de estas preguntas es Sí, el elemento se trata como vínculo y se le realiza un seguimiento.
 
@@ -51,30 +51,30 @@ Si la respuesta a alguna de estas preguntas es Sí, el elemento se trata como v�
 >
 >AppMeasurement considera una etiqueta de anclaje con un &quot;href&quot; que comienza con &quot;#&quot; una ubicación de destino interna, no un vínculo (ya que no abandona la página). De forma predeterminada, Activity Map no realiza el seguimiento de estas ubicaciones de destino internas. Rastrea únicamente los vínculos que conducen al usuario a una nueva página.
 
-## ¿Cómo realiza Activity Map el seguimiento de otros elementos HTML visuales?
+## ¿Cómo realiza el Activity Map el seguimiento de otros elementos del HTML visual?
 
-a. Mediante la función `s.tl()`.
+a. A través de la función `s.tl()` función.
 
-Si el clic se produjo a través de una invocación `s.tl()` , el Activity Map también recibirá este evento de clic y determinará si se encontró una variable de cadena `linkName`. Durante la ejecución de `s.tl()`, linkName se establecerá como ID de vínculo del Activity Map. El elemento en el que se hizo clic y que originó la llamada `s.tl()` se utilizará para determinar la región. Ejemplo:
+Si el clic se produjo mediante un `s.tl()` invocación de , el Activity Map también recibirá este evento de clic y determinará si `linkName` se ha encontrado la variable de cadena . Durante `s.tl()` , el linkName se establecerá como ID del vínculo del Activity Map. El elemento en el que se hizo clic que originó la variable `s.tl()` para determinar la región. Ejemplo:
 
 ```
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
-b. Mediante la variable `s_objectID` . Ejemplo:
+b. A través de la función `s_objectID` variable. Ejemplo:
 
-    &quot;
+    &quot; 
     
-    &lt;a>&lt;img>&lt;/a>
-    
-    &lt;a>Vincular texto aquí&lt;/a>
-    
+    &lt;img onclick=&quot;s_objectID=&amp;#39;abc&amp;#39;;&quot; src=&quot;someimageurl.png&quot; />
+    &lt;a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&amp;#39;abc&amp;#39;;&quot;>
+    Vincular texto aquí
+    &lt;/a>
     
     &quot;
 
 >[!IMPORTANT]
 >
->Se requiere un punto y coma de cierre (;) al utilizar `s_objectID` en el Activity Map.
+>Se requiere un punto y coma de cierre (;) al usar `s_objectID` en Activity Map.
 
 ## ¿Pueden dar ejemplos de vínculos de los que se realizará un seguimiento?
 
@@ -116,10 +116,10 @@ b. Mediante la variable `s_objectID` . Ejemplo:
 
 ## ¿Pueden dar ejemplos de vínculos de los que NO se realizará un seguimiento?
 
-1. Motivo: La etiqueta delimitadora no tiene un `href` válido:
+1. Motivo: La etiqueta delimitadora no tiene un valor válido `href`:
    `<a name="innerAnchor">Section header</a>`
 
-1. Motivo: Ni `s_ObjectID` ni `s.tl()` están presentes:
+1. Motivo: Ni `s_ObjectID` nor `s.tl()` presente:
 
    ```
    <p onclick="showPanel('market rates')">
@@ -128,7 +128,7 @@ b. Mediante la variable `s_objectID` . Ejemplo:
    </p>
    ```
 
-1. Motivo: Ni `s_ObjectID` ni `s.tl()` están presentes:
+1. Motivo: Ni `s_ObjectID` nor `s.tl()` presente:
 
    ``` 
    <input type="radio" onclick="changeState(this)" name="group1" value="A"/>
@@ -140,3 +140,4 @@ b. Mediante la variable `s_objectID` . Ejemplo:
 1. Motivo: falta la propiedad &quot;src&quot; en un elemento de entrada de formulario:
 
    `<input type="image"/>`
+
