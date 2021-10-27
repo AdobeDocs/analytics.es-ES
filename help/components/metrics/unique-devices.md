@@ -2,10 +2,10 @@
 title: Dispositivos únicos
 description: Número de dispositivos únicos.
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
-workflow-type: ht
+source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
+workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 100%
+ht-degree: 76%
 
 ---
 
@@ -21,9 +21,9 @@ Tenga en cuenta que esta métrica no es igual a [Visitantes únicos](unique-visi
 
 ## Ejemplo
 
-1. Bob llega al sitio en su teléfono a través de un anuncio, pero no ha iniciado sesión.
-1. Bob quiere hacer una compra, pero preferiría hacerlo en el ordenador familiar porque ya ha iniciado sesión allí. En el ordenador de la familia, hace una compra.
-1. Al día siguiente, comprueba su pedido por teléfono y se autentica allí.
+1. Sally llega a su sitio a través de su teléfono a través de un anuncio, pero no ha iniciado sesión.
+1. Sally quiere hacer una compra, pero preferiría hacerlo en el ordenador familiar porque ya ha iniciado sesión allí. En la computadora de la familia, ella hace una compra.
+1. Al día siguiente, comprueba su pedido en su teléfono y se autentica allí.
 1. La esposa de Bob, Alice, explora su sitio mientras inicia sesión en su cuenta en el ordenador familiar.
 1. El hermano de Bob, Charles, también explora su sitio mientras inicia sesión en su cuenta en el equipo familiar.
 

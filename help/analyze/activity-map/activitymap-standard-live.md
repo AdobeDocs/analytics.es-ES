@@ -5,10 +5,10 @@ uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
 role: User, Admin
 exl-id: 2364e7b0-443a-49a8-b084-403501f52360
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '391'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ En el **modo Estándar**, se puede seleccionar el rango de fechas en la barra de
 
 ![](assets/standard_mode.png)
 
-En este modo, las métricas de comercio que no tienen la &quot;Participación&quot; habilitada se asignan de forma lineal. Por ejemplo, un usuario hace clic en un vínculo &quot;iPod mini&quot; en la página Inicio y luego navega por tres páginas más. En la cuarta página, compra un iPod mini por 200 USD. El vínculo &quot;iPod mini&quot; recibirá 200 USD de ingresos de participación y 50 USD (200 USD/4) de ingresos (asignados de forma lineal).
+En este modo, las métricas de comercio que no tienen la &quot;Participación&quot; habilitada se asignan de forma lineal. Por ejemplo, un usuario hace clic en un vínculo &quot;iPod mini&quot; en la página Inicio y luego navega por tres páginas más. En la cuarta página, el usuario compra un mini IPod por 200 dólares. El vínculo &quot;iPod mini&quot; recibirá 200 USD de ingresos de participación y 50 USD (200 USD/4) de ingresos (asignados de forma lineal).
 
 P: ¿Qué ocurre si una página incluye vínculos con el mismo nombre en varias regiones? ¿Los vínculos reciben crédito de forma independiente porque tienen diferentes regiones pero el mismo nombre de vínculo en una página?
 
