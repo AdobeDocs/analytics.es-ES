@@ -4,10 +4,10 @@ title: Resumen de paneles
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
-workflow-type: ht
-source-wordcount: '1001'
-ht-degree: 100%
+source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 91%
 
 ---
 
@@ -43,13 +43,16 @@ La lista de los grupos de informes se ordena según la relevancia que Adobe defi
 
 El calendario del panel controla el intervalo de la creación de informes de las tablas y visualizaciones de un panel.
 
-Nota: Si se utiliza un componente de intervalo de fechas (púrpura) en una tabla, una visualización o en la zona desplegable de un panel, se anulará el calendario del panel.
+>[!NOTE]
+>Si se utiliza un componente de intervalo de fechas (morado) dentro de una zona de colocación de tabla, visualización o panel, anula el calendario del panel.
 
 ![](assets/panel-calendar.png)
 
+Puede aplicar un intervalo de fechas de nivel de minuto bajo la configuración avanzada del calendario del panel. Si realiza informes en un intervalo de fechas que abarca muchos días, la hora de inicio se aplica al primer día y la hora de finalización se aplica al último día del intervalo.
+
 ## Zona de colocación {#dropzone}
 
-La zona de colocación del panel permite aplicar filtros de segmentos y desplegables a todas las tablas y visualizaciones dentro de un panel. Puede aplicar uno o varios filtros a un panel. El título sobre cada filtro se puede modificar haciendo clic en el lápiz de edición, o bien puede hacer clic con el botón derecho para eliminarlo por completo.
+La zona de colocación del panel le permite aplicar filtros de segmento y desplegable a todas las tablas y visualizaciones de un panel. Puede aplicar uno o varios filtros a un panel. El título sobre cada filtro se puede modificar haciendo clic en el lápiz de edición, o bien puede hacer clic con el botón derecho para eliminarlo por completo.
 
 ### Filtros de segmentos
 
