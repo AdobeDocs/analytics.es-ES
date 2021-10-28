@@ -4,16 +4,20 @@ title: Resumen de paneles
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
+source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 91%
 
 ---
 
 # Resumen de paneles
 
-Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono de la parte superior izquierda de Workspace o desde un [panel en blanco](blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, grupos de informes o casos de uso de análisis. A continuación, se describen los tipos de paneles que están disponibles en Analysis Workspace:
+Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono de la parte superior izquierda de Workspace o desde un [panel en blanco](blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, grupos de informes o casos de uso de análisis.
+
+## Tipos de panel
+
+A continuación, se describen los tipos de paneles que están disponibles en Analysis Workspace:
 
 | Nombre del panel | Descripción |
 | --- | --- |
