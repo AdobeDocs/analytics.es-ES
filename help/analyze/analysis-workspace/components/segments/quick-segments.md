@@ -4,9 +4,9 @@ title: Segmentos rápidos
 feature: Workspace Basics
 role: User, Admin
 source-git-commit: 533c58f3bcc3974dafab1d6b7dd3e239ad80831b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '798'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -44,15 +44,15 @@ Configure el segmento rápido desde esta pizarra en blanco:
 | Nombre | El nombre predeterminado de un segmento es una combinación de los nombres de reglas del segmento. Puede cambiar el nombre del segmento. |
 | Inclusión/exclusión | Puede incluir o excluir componentes en su definición de segmento, pero no ambas cosas. |
 | Contenedor de visita/visita individual/visitante | Los segmentos rápidos incluyen solo un [contenedor de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=es#section_AF2A28BE92474DB386AE85743C71B2D6) que le permite incluir una dimensión, métrica o intervalo de fecha en el segmento (o excluirlo). [!UICONTROL Visitante] contiene datos globales específicos del visitante en las visitas y vistas de páginas. El contenedor de [!UICONTROL visita] le permite establecer reglas para desglosar los datos del visitante en función de las visitas y el contenedor de [!UICONTROL visita individual] le permite desglosar la información del visitante según las vistas de página individuales. El contenedor predeterminado es [!UICONTROL Visita individual]. |
-| Componentes (dimensión/métrica/intervalo de fecha) | Defina hasta 3 reglas agregando componentes (dimensiones o métricas e intervalos de fechas) y sus valores. Existen tres formas de encontrar el componente correcto:<ul><li>Empiece a escribir y el generador de [!UICONTROL segmentos rápidos] encontrará automáticamente el componente adecuado.</li><li>Utilice la lista desplegable para buscar el componente.</li><li>Arrastre y suelte los componentes desde el carril izquierdo.</li></ul> |
+| Componentes (dimensión/métrica/intervalo de fecha) | Defina hasta 3 reglas añadiendo componentes (dimensiones o métricas o intervalos de fechas) y sus valores. Existen tres formas de encontrar el componente correcto:<ul><li>Empiece a escribir y el generador de [!UICONTROL segmentos rápidos] encontrará automáticamente el componente adecuado.</li><li>Utilice la lista desplegable para buscar el componente.</li><li>Arrastre y suelte los componentes desde el carril izquierdo.</li></ul> |
 | Operador | Utilice el menú desplegable para buscar operadores estándares y operadores de [!UICONTROL recuento distinto]. [Más información](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=es) |
 | Signo más (+) | Adición de otra regla |
 | Cualificadores AND/OR | Puede agregar calificadores AND u OR a las reglas, pero no puede combinar AND y OR en una sola definición de segmento. |
 | Aplicar | Aplique este segmento al panel. Si el segmento no contiene datos, se le preguntará si desea continuar. |
-| Abrir creador | Se abrirá el Generador de segmentos. Una vez guardado o aplicado el segmento en el Generador de segmentos, ya no se considera un &quot;segmento rápido&quot;. Forma parte de la biblioteca de segmentos de lista de componentes. |
+| Abrir creador | Se abrirá el Generador de segmentos. Una vez guardado o aplicado el segmento en el Generador de segmentos, ya no se considera un “segmento rápido”. Forma parte de la biblioteca de segmentos de lista de componentes. |
 | Cancelar | Cancele este segmento rápido: no lo aplique. |
 | Intervalo de fechas | El validador utiliza el intervalo de fecha del panel para la búsqueda de datos. Sin embargo, cualquier intervalo de fechas aplicado en un segmento rápido anula el intervalo de fechas del panel en la parte superior del panel. |
-| Vista previa (parte superior derecha) | Le permite previsualizar las métricas clave para comprobar si tiene un segmento válido y ver su amplitud. Representa el desglose del conjunto de datos que verá cuando aplique este segmento. Podría recibir un aviso que indique que este segmento no tiene datos. Si este es el caso, puede continuar o cambiar la definición del segmento. |
+| Vista previa (parte superior derecha) | Le permite previsualizar las métricas clave para comprobar si tiene un segmento válido y ver su amplitud. Representa el desglose del conjunto de datos que verá cuando aplique este segmento. Podría recibir un aviso que indique que este segmento no tiene datos. Si es el caso, puede continuar o cambiar la definición del segmento. |
 
 Este es un ejemplo de un segmento que combina dimensiones y métricas:
 
@@ -85,10 +85,10 @@ Observe cómo la barra lateral del segmento cambia de azul rayado a azul. Ahora 
 
 ## ¿Qué son segmentos solo de proyecto?
 
-Los segmentos solo de proyecto son segmentos rápidos o segmentos de proyecto ad hoc de Workspace. Al editarlas o abrirlas en el [!UICONTROL Generador de segmentos], aparece el cuadro solo proyecto. Si aplica un segmento rápido en el generador y no marca la casilla de verificación para que esté disponible, sigue siendo un segmento solo de proyecto, pero ya no se puede abrir en el [!UICONTROL Generador de segmentos rápidos].
+Los segmentos solo de proyecto son segmentos rápidos o segmentos de proyecto ad hoc del Espacio de trabajo. Al editarlos/abrirlos en el [!UICONTROL Generador de segmentos], aparecerá el cuadro de solo de proyecto. Si aplica un segmento rápido en el generador y no marca la casilla de verificación para que esté disponible, sigue siendo un segmento solo de proyecto, pero ya no se puede abrir en el [!UICONTROL Generador de segmentos rápidos].
 
-![Proyecto solo sin marcar](assets/project-only-unchecked.png)
+![Solo de proyecto marcado](assets/project-only-unchecked.png)
 
 Si marca la casilla y hace clic en **[!UICONTROL GUARDAR]**, ahora es un segmento de lista de componentes.
 
-![El proyecto solo está seleccionado](assets/project-only-checked.png)
+![Solo de proyecto marcado](assets/project-only-checked.png)
