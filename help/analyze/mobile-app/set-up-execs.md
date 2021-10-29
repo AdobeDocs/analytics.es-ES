@@ -4,7 +4,7 @@ title: Creación de un cuadro de resultados
 feature: Analytics Dashboards
 role: User, Admin
 source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
 ht-degree: 100%
 
