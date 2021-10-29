@@ -1,19 +1,19 @@
 ---
 description: Cómo crear un cuadro de resultados de paneles de Adobe Analytics
-title: Creación de un informe de valoración móvil
+title: Creación de un cuadro de resultados móvil
 feature: Analytics Dashboards
 role: User, Admin
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1349'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# Creación de un informe de valoración móvil
+# Creación de un cuadro de resultados móvil
 
-La siguiente información instruye a los gestores de datos de Adobe Analytics sobre cómo configurar y presentar informes de valoración móviles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del Generador de cuadros de resultados de los paneles de Adobe Analytics:
+La siguiente información enseña a los depuradores de datos de Adobe Analytics cómo configurar y presentar cuadros de resultados móviles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del Generador de cuadros de resultados de los paneles de Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -104,15 +104,15 @@ Esto le llevará al generador de intervalos de fechas, donde puede crear y guard
 
 ## Aplicación de visualizaciones
 
-Vea un vídeo sobre visualizaciones para informes de valoración móviles:
+Vea un vídeo sobre visualizaciones para cuadros de resultados móviles:
 
 >[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
-Los paneles de Analytics ofrecen cuatro visualizaciones que le ofrecen una buena perspectiva de los elementos y las métricas de dimensión. Cambiar a una visualización diferente cambiando la variable [!UICONTROL tipo de gráfico] de un mosaico [!UICONTROL Propiedades]. Seleccione el mosaico derecho y cambie el tipo de gráfico.
+Los paneles de Analytics ofrecen cuatro visualizaciones que le proporcionan interesantes conocimientos de los elementos y las métricas de dimensión. Aplique una visualización diferente cambiando el [!UICONTROL tipo de gráfico] de las [!UICONTROL propiedades] de un mosaico. Seleccione el mosaico derecho y cambie el tipo de gráfico.
 
 ![Propiedades del mosaico](assets/properties.png)
 
-O bien, haga clic en el botón [!UICONTROL Visualizaciones] en el carril izquierdo y arrastre y suelte la visualización derecha en el mosaico:
+O bien haga clic en el botón [!UICONTROL Visualizaciones] en el carril izquierdo, y arrastre y suelte la visualización derecha en el mosaico:
 
 ![Visualizaciones](assets/vizs.png)
 
@@ -130,7 +130,7 @@ Similar a un gráfico circular, esta visualización muestra los datos como parte
 
 ### [!UICONTROL Líneas]
 
-La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas muestra las dimensiones a lo largo del tiempo, pero funciona con cualquier visualización. En este ejemplo está visualizando la dimensión de categoría del producto.
+La visualización de línea representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas muestra las dimensiones a lo largo del tiempo, pero funciona con cualquier visualización. En este ejemplo se visualiza la dimensión de categoría del producto.
 
 ![Visualización de líneas](assets/line.png)
 
@@ -141,16 +141,16 @@ Esta visualización muestra las barras horizontales que representan los distinto
 
 ![barra horizontal](assets/horizontal.png)
 
-### Eliminar [!UICONTROL No especificado] elementos de dimensión
+### Eliminación de elementos de dimensión [!UICONTROL No especificados]
 
-Si desea quitar [!UICONTROL No especificado] elementos de dimensión de los datos, haga lo siguiente:
+Si desea quitar los elementos de dimensión [!UICONTROL No especificados] de los datos, haga lo siguiente:
 
 1. Seleccione el mosaico correcto.
-1. En el carril derecho, debajo de **[!UICONTROL Exploración en profundidad]**, seleccione la flecha derecha junto al elemento de dimensión cuyo **[!UICONTROL No especificado]** elementos que desea eliminar.
+1. En el carril derecho, debajo de **[!UICONTROL Profundizar en]**, seleccione la flecha derecha junto al elemento de dimensión cuyos elementos **[!UICONTROL No especificados]** desea eliminar.
 
    ![no especificado](assets/unspecified.png)
 
-1. Haga clic en el icono situado junto a **[!UICONTROL No especificado]** para eliminar los datos no especificados de los informes. (También puede eliminar cualquier otro elemento de dimensión).
+1. Haga clic en el icono situado junto a **[!UICONTROL No especificado]** para quitar los datos no especificados de los informes. También puede eliminar cualquier otro elemento de dimensión.
 
 ## Vista y configuración de propiedades de mosaico
 
