@@ -4,9 +4,9 @@ description: Recopilación de notas de versiones de AppMeasurement para JavaScri
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 7f27e92b1fc378516423bc971b05e34880897ec9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2218'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -270,7 +270,7 @@ Fecha de versión: **21 de julio de 2016**
 
 * Inclusión de la API de visitante 1.6.0.
 * Se ha corregido un problema que hacía que [!DNL AppMeasurement] llamara al método ofuscado incorrecto en la API de visitante. (AN-126006)
-* Se ha corregido un problema que daba lugar al error de [!DNL JavaScript]: “Attribute only valid on v:image”. (AN-124009)
+* Se ha corregido un problema que daba lugar al error de [!DNL JavaScript] : “Attribute only valid on v:image”. (AN-124009)
 
 ## Versión 1.6.1
 
@@ -443,7 +443,7 @@ Fecha de versión: **15 de noviembre de 2013**
 Fecha de versión: **14 de noviembre de 2013**
 
 * Se ha agregado compatibilidad con la [medición de vídeos de Heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
-* `VisitorAPI.js` se ha incluido para admitir el [servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* `VisitorAPI.js` se ha incluido para admitir el [servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
 
 ## Versión 1.1.1
 
@@ -468,7 +468,7 @@ Fecha de versión: **15 de agosto de 2013**
 
 Fecha de versión: **18 de julio de 2013**
 
-* Ahora el seguimiento automático de vínculos ignora el hash/fragmento. Anteriormente, se seguía automáticamente la siguiente URL porque la `href` entera terminaba en `.pdf`:
+* Ahora el seguimiento automático de vínculos ignora el hash/fragmento. Anteriormente, se seguía automáticamente la siguiente URL porque la `href` entera terminaba en `.pdf` :
 
    ```js
    <a href="index.htm#anchor.pdf">Test Link</a>
