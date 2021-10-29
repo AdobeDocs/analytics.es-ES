@@ -5,9 +5,9 @@ user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Proporciona instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como Adobe Analytics Dashboards, Report Builder y Activity Map.
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1006'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 99%
             + [Configuración de filas](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Elementos dinámicos vs. estáticos](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Paginación, filtrado y ordenación de tablas](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [Totales de Workspace](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Totales del Espacio de trabajo](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabla de cohorte {#cohort-table}
          + [¿Qué es el análisis de cohorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar un informe de análisis de cohorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -126,7 +126,7 @@ ht-degree: 99%
          + [Administrador de alertas](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Alertas inteligentes: Casos de uso](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Preferencias del usuario](analysis-workspace/user-preferences.md)
-   + Preguntas frecuentes sobre Workspace {#workspace-faq}
+   + Preguntas frecuentes sobre el Espacio de trabajo {#workspace-faq}
       + [Preguntas frecuentes](analysis-workspace/workspace-faq/faq.md)
       + [Optimizar rendimiento de Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Mensajes de error](analysis-workspace/workspace-faq/error-messages.md)
@@ -312,8 +312,8 @@ ht-degree: 99%
 + Tableros de Adobe Analytics {#mobapp}
    + [Paneles de Adobe Analytics: Información general](mobile-app/home.md)
    + [Introducción para el gestor de datos](mobile-app/curator.md)
-   + [Creación de un informe de valoración móvil](mobile-app/create-scorecard.md)
-   + [Configurar ejecutivos para utilizar tableros](mobile-app/set-up-execs.md)
+   + [Creación de un cuadro de resultados móvil](mobile-app/create-scorecard.md)
+   + [Configuración de ejecutivos para que utilicen paneles](mobile-app/set-up-execs.md)
    + [Guía de inicio rápida para el usuario ejecutivo](mobile-app/executive.md)
 + [API de informes](reporting-api.md)
 + [Labs](labs.md)
