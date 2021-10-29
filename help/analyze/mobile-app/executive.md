@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1230'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Para usar los paneles:
 
    ![Proceso de inicio de sesión](assets/signseq.png)
 
-1. Seleccione una empresa. Después de iniciar sesión en los tableros, la variable **[!UICONTROL Elegir una empresa]** se abre. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece. Pulse el nombre de la empresa asociada con el informe de valoración compartido con usted.
+1. Seleccione una empresa. Después de iniciar sesión en los paneles, aparecerá la pantalla **[!UICONTROL Elegir una empresa]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece. Pulse el nombre de la empresa asociada con el informe de valoración compartido con usted.
 
 1. A continuación, la lista informes de valoración mostrará todos los informes de valoración que se han compartido con usted. Pulse el informe de valoración que desee ver.
 
