@@ -2,10 +2,10 @@
 title: Implementación con solicitudes de imagen codificadas
 description: Implemente Adobe Analytics con una etiqueta de imagen HTML (solicitud de imagen codificada)
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
-source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
-workflow-type: ht
-source-wordcount: '672'
-ht-degree: 100%
+source-git-commit: a97043caa9b6d2dc24f52c599fd0caa9241af62f
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Este método de implementación se puede utilizar en cualquier plataforma que mu
 A continuación se muestra un ejemplo de solicitud de imagen codificada mediante HTML:
 
 ```html
-<img src="https://example.data.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.data.adobedc.net/b/ss/examplersid/1/s234234238479?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://` designa el protocolo. Haga coincidir el protocolo utilizado en la solicitud de imagen con el protocolo que utiliza el resto del sitio.
@@ -32,6 +32,7 @@ A continuación se muestra un ejemplo de solicitud de imagen codificada mediante
 * `/b/ss/` se incluye en todas las solicitudes de imagen. Forma parte de la estructura de archivos de las imágenes almacenadas en los servidores de recopilación de datos de Adobe.
 * `examplersid` es el ID del grupo de informes al que desea enviar los datos. Para varios grupos de informes, separe los ID con comas sin espacios (como `examplersid1,examplersid2`, etc.).
 * `/1/` es el origen de la visita. Consulte `hit_source` en [Referencia de columna Datos](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) en la Guía del usuario de exportación. Controla el orden que utilizan las cookies y otros métodos para identificar a los visitantes.
+* `/s234234238479` (`"s"` + un número aleatorio) evita que el explorador almacene en caché la solicitud de imagen.
 * Todo lo que hay después del delimitador de cadena de consulta (`?`) son los datos que desea incluir en los informes. Consulte [Parámetros de consulta de recopilación de datos](../validate/query-parameters.md) para ver la lista completa de parámetros que puede incluir en una solicitud de imagen.
 
 ## Solicitudes de imagen codificadas en Microsoft Outlook

@@ -3,10 +3,10 @@ description: Preguntas frecuentes sobre las fuentes de datos
 keywords: Fuente de datos, trabajo, columna previa, columna posterior, distinción de mayúsculas y minúsculas
 title: Preguntas frecuentes sobre las fuentes de datos
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
-workflow-type: ht
-source-wordcount: '1440'
-ht-degree: 100%
+source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
+workflow-type: tm+mt
+source-wordcount: '1439'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ Si falla una transferencia FTP (debido a un inicio de sesión denegado, una cone
 
 Si una transferencia da error, puede volver a ejecutar el trabajo hasta que se realice correctamente.
 
-Si tiene problemas para que una fuente de datos aparezca en su sitio FTP, consulte [Resolución de problemas de trabajos](jobs-troubleshooting.md).
+Si tiene problemas para que una fuente de datos aparezca en su sitio FTP, consulte [Solución de problemas de fuentes de datos](troubleshooting.md).
 
 ## ¿Cómo puedo reenviar un trabajo? {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
@@ -99,8 +99,3 @@ Sin embargo, los objetos no heredan permisos del contenedor principal. Por tanto
 >[!NOTE]
 >
 >[!DNL Analytics] no determina si el contenedor tiene una política que requiera dar al propietario del contenedor total control de nuevos objetos, o incluso si el propietario del contenedor está en una cuenta diferente a la del usuario que escribe los datos. En su lugar, [!DNL Analytics] agrega automáticamente el propietario del contenedor a la ACL BucketOwnerFullControl con cada carga de fuente.
-
->[!MORELIKETHIS]
->
->* [Solución de problemas de los trabajos](jobs-troubleshooting.md)
-
