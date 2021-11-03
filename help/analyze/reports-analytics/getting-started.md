@@ -1,17 +1,20 @@
 ---
 description: Antes de usar Reports & Analytics, es necesario que entienda estas tareas básicas de inicio de sesión y configuración, y que sepa cómo acceder a la información de la cuenta.
 title: Introducción a Reports & Analytics
-feature: Conceptos básicos de Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
+source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 94%
 
 ---
 
 # Introducción a Reports &amp; Analytics
+
+>[!NOTE]
+>Este producto está autorizado a la venta en América del Norte y en otras regiones en las que el producto se vende efectivamente y puede que no cumpla los requisitos de venta en otros países o regiones.
 
 Antes de usar Reports &amp; Analytics, es necesario que comprenda estas tareas básicas de inicio de sesión y configuración, y que sepa cómo acceder a la información de la cuenta.
 
@@ -31,15 +34,10 @@ Los informes ofrecen perspectivas de sus canales tradicionales basados en web y 
 
 Requisitos del sistema y del explorador para iniciar sesión en la interfaz de Reports &amp; Analytics.
 
-* Exploradores:
+>[!NOTE]
+>El 13 de noviembre de 2018, Adobe dejó de admitir Internet Explorer 11 en Adobe Analytics. Cambie a Microsoft Edge o a otro navegador compatible en cuanto pueda.
 
-   * Preferidos: versiones más recientes de Firefox, Chrome, Safari o Edge.
-   * Versión más reciente de Microsoft Internet Explorer 11
-
-      >[!NOTE]
-      >
-      >El 13 de noviembre de 2018, Adobe dejó de admitir Internet Explorer 11 en Adobe Analytics. Cambie a Microsoft Edge o a otro navegador compatible en cuanto pueda.
-
+* Exploradores preferidos: Últimas versiones de Firefox, Chrome, Safari o Edge.
 * JavaScript y las cookies deben estar activados.
 * Resolución de pantalla de 1024 x 768 con una profundidad de color de 16 bits (o superior).
 
