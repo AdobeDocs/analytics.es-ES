@@ -1,10 +1,11 @@
 ---
 title: eVars de comercialización y métodos de búsqueda de productos
 description: Una profundización en los conceptos subyacentes a las eVars de comercialización y en cómo procesan y asignan los datos.
-source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
-workflow-type: ht
-source-wordcount: '5324'
-ht-degree: 100%
+exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
+source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
+workflow-type: tm+mt
+source-wordcount: '5319'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +87,7 @@ Sin embargo, con **[!UICONTROL Sintaxis del producto]**, la eVar se configura ú
 
 `s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL Categoría] es una función obsoleta y ya no se recomienda como opción viable para realizar un seguimiento del rendimiento de la categoría del producto.  Su mera existencia demuestra por qué en la mayoría de las implementaciones de la variable products, un único punto y coma precede a la parte productID del valor de la variable.
+* [!UICONTROL Categoría] ya no se recomienda como opción viable para realizar un seguimiento del rendimiento de la categoría del producto.  Su mera existencia demuestra por qué en la mayoría de las implementaciones de la variable products, un único punto y coma precede a la parte productID del valor de la variable.
 * [!UICONTROL Cantidad] e [!UICONTROL Ingresos] son útiles cuando se realiza un seguimiento de la compra de un producto.
 * Los [!UICONTROL Eventos] son útiles para registrar valores de eventos incrementales o monetarios personalizados que no están pensados para ser contabilizados como ingresos (como envíos, descuentos, etc.)
 
