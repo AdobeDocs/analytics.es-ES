@@ -1,22 +1,26 @@
 ---
-description: Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta.
+description: Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. La eliminación del tráfico del bot puede proporcionar una medida más precisa de la actividad del usuario en el sitio web.
 subtopic: Bot rules
 title: Resumen sobre reglas de Bot
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '1358'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '1364'
+ht-degree: 99%
 
 ---
 
 # Resumen sobre reglas de Bot
 
-Las reglas de bots le permiten eliminar el tráfico del grupo de informes generado por arañas web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta.
+Las reglas de bots le permiten eliminar el tráfico del grupo de informes generado por arañas web y bots conocidos. La eliminación del tráfico del bot puede proporcionar una medida más precisa de la actividad del usuario en el sitio web.
 
-Una vez definidas las reglas de bots, todo el tráfico entrante se compara con las reglas definidas. El tráfico que coincida con alguna de estas reglas no se recogerá en el grupo de informes ni se incluirá en las métricas de tráfico.
+Aquí hay un vídeo sobre la configuración de reglas de bots:
+
+>[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
+
+Una vez definidas las reglas del bot, todo el tráfico entrante se compara con las reglas definidas. El tráfico que coincida con cualquiera de estas reglas no se recopila en el grupo de informes y no se incluye en las métricas de tráfico.
 
 Para actualizar o cargar reglas de bots, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**. Seleccione el grupo de informes correcto y, a continuación, vaya a **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Reglas Bot]**.
 

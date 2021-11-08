@@ -2,13 +2,13 @@
 description: Cree proyectos de Workspace basados en plantillas estándar o personalizadas.
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-feature: Conceptos básicos de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1391'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '1399'
+ht-degree: 99%
 
 ---
 
@@ -36,6 +36,10 @@ Los usuarios que tengan derechos de administrador pueden convertir cualquier pro
    >[!NOTE]
    >
    >De forma predeterminada, las plantillas de proyecto son visibles para todos los miembros de su organización. Puede ordenarlas mediante etiquetas. (Vaya a **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]** para editar las etiquetas y las descripciones).
+
+A continuación se muestra un vídeo sobre la creación y administración de plantillas personalizadas:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
 ### Acciones que se pueden llevar a cabo en las plantillas personalizadas
 

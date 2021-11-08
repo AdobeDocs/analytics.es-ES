@@ -4,11 +4,10 @@ keywords: Métricas calculadas, métricas derivadas y métricas calculadas avanz
 title: Métricas calculadas y calculadas avanzadas (derivadas)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '595'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '605'
+ht-degree: 97%
 
 ---
 
@@ -40,9 +39,15 @@ A continuación se muestra una comparación de las competencias de las métricas
 Puede
 
 * Cree métricas en [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución].
-* Crear métricas segmentadas que se derivan del tiempo de ejecución de un informe, [sin tener que cambiar la implementación](https://youtu.be/CuQTm9RaUpY). Éstas pueden verse en el historial, ya que se basan en segmentos.
+* Crear métricas segmentadas que se derivan del tiempo de ejecución de un informe, sin tener que cambiar la implementación. Éstas pueden verse en el historial, ya que se basan en segmentos. Aquí tiene un vídeo sobre las métricas sin implementación:
+
+   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+
 * Compartir métricas entre grupos de informes. Esto significa que todas las métricas de reciente creación se aplican a todos los grupos de informes en la misma empresa de inicio de sesión.
-* (Solo métricas calculadas avanzadas) Segmentar métricas. Por ejemplo, puede crear una métrica para “Visitantes nuevos”, con un recuento de personas de las cuales sea la primera sesión.
+* (Solo métricas calculadas avanzadas) Segmentar métricas. Por ejemplo, puede crear una métrica para “Visitantes nuevos”, con un recuento de personas de las cuales sea la primera sesión. Aquí hay un vídeo sobre este tema:
+
+   >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
+
 * (Solo métricas calculadas avanzadas) Incorporar funciones estadísticas para ayudar a describir mejor los datos. Por ejemplo, puede contar el número de elementos de un informe o agregar el número de desviaciones estándar para cada elemento.
 
 ## Limitaciones {#section_CB878B02451541D68A68B508D4DBD19A}
