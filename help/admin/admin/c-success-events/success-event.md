@@ -2,19 +2,23 @@
 description: Los eventos de éxito son acciones de las que se puede llevar un seguimiento. Usted determina lo que es un evento de éxito. Por ejemplo, si un visitante compra un artículo, el evento de compra puede considerarse un evento de éxito..
 keywords: evento
 title: Resumen de los eventos de éxito
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 98%
+source-wordcount: '727'
+ht-degree: 97%
 
 ---
 
 # Resumen de los eventos de éxito
 
-Los eventos de éxito son acciones de las que se puede llevar un seguimiento. Usted determina lo que es un evento de éxito. Por ejemplo, si un visitante compra un artículo, el evento de compra puede considerarse un evento de éxito..
+Los eventos de éxito (también conocidos como eventos de conversión o eventos personalizados) son acciones de las que se puede realizar un seguimiento. Usted determina lo que es un evento de éxito. Por ejemplo, si un visitante compra un artículo, el evento de compra puede considerarse un evento de éxito..
+
+A continuación, se muestra un vídeo introductorio:
+
+>[!VIDEO](https://video.tv.adobe.com/v/28764/?quality=12)
 
 Acceda a la página Eventos de éxito en la configuración del grupo de informes:
 
@@ -34,7 +38,7 @@ Existen muchas clases de eventos de éxito que varían en función del tipo de s
 * **Alta tecnología**: descarga de documentos técnicos, RFP, finalización de formularios, solicitudes de asistencia
 * **Automoción**: envío de posible cliente, solicitar presupuesto, descarga de folletos
 
-La variable [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) define un evento de éxito.
+La variable [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=es) define un evento de éxito.
 
 ## Página Eventos de éxito: descripciones {#section_681ECEC981694CABBDBF00E18165B447}
 

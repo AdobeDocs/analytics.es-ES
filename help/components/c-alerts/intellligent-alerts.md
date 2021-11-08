@@ -1,18 +1,22 @@
 ---
-description: El nuevo sistema Alertas inteligentes permite un control más granular sobre las alertas e integra la detección de anomalías en el sistema de alerta.
+description: El sistema Alertas inteligentes permite un control más granular sobre las alertas e integra la detección de anomalías en el sistema de alerta.
 title: Alertas inteligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '577'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '564'
+ht-degree: 88%
 
 ---
 
 # Alertas inteligentes
 
-El nuevo sistema Alertas inteligentes permite un control más granular sobre las alertas e integra la detección de anomalías en el sistema de alerta.
+El sistema Alertas inteligentes permite un control más granular sobre las alertas e integra la detección de anomalías en el sistema de alerta.
+
+A continuación, se muestra un vídeo introductorio:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25446/?quality=12)
 
 ## Información general {#section_6AC8CA81DEA94E99B0F192B60D0FDF03}
 
@@ -20,14 +24,14 @@ El nuevo sistema Alertas inteligentes permite un control más granular sobre las
 >
 >Las alertas inteligentes están disponibles solo para los clientes de Adobe [!DNL Analytics] Prime y Adobe [!DNL Analytics] Ultimate.
 
-El nuevo Generador de alertas y el Administrador de alertas reemplazan la funcionalidad de alertas existente en Adobe [!DNL Analytics]. Las alertas inteligentes le permiten
+Las alertas inteligentes le permiten
 
 * Generar alertas en función de anomalías (umbrales del 90 %, 95 %, 99 %, 99,75 % y 99,9 %; cambio de %; por encima/por debajo).
 * Obtener una vista previa de la frecuencia con la que se activará una alerta.
 * Enviar alertas por correo electrónico o SMS con vínculos a proyectos de Analysis Workspace autogenerados.
 * Crear alertas “apiladas” que capturan varias métricas en una sola alerta.
 
-Los componentes del nuevo sistema de alerta incluyen: Generador de alertas, Administrador de alertas, Vista previa de alertas y un mejor acceso en contexto para la creación de alertas. La interfaz de usuario del sistema de alertas anterior ya no estará disponible, pero las alertas se migrarán. Algunas de las funcionalidades de alerta heredadas [ya no estarán disponibles](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=es).
+Los componentes del sistema de alerta incluyen: Generador de alertas, Administrador de alertas, Vista previa de alertas y un mejor acceso en contexto para la creación de alertas. La interfaz de usuario del sistema de alertas anterior ya no estará disponible, pero las alertas se migrarán. Algunas funciones de alerta heredadas [ya no están disponibles](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=es).
 
 Hay cuatro formas en las que puede acceder al Generador de alertas:
 

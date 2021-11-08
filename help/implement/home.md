@@ -2,16 +2,20 @@
 title: Implementación de Adobe Analytics
 description: Implemente Adobe Analytics en su sitio, propiedad o aplicación.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '365'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 97%
 
 ---
 
 # Implementación de Adobe Analytics
 
 ![Banner](../../assets/doc_banner_implement.png)
+
+A continuación se muestra un vídeo introductorio de Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 Adobe requiere código en su sitio o aplicación para enviar datos a los servidores de recopilación de datos de Adobe. Los pasos siguientes indican cómo funciona una implementación típica.
 
