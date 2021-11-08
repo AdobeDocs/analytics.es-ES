@@ -1,13 +1,13 @@
 ---
 title: Tabla improvisada
 description: Las tablas de forma libre son la base del análisis de datos en Workspace
-feature: Tablas improvisadas
+feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '528'
+ht-degree: 98%
 
 ---
 
@@ -52,6 +52,20 @@ Obtenga más información sobre todas las [opciones de exportación](https://exp
 * Al hacer clic con el botón derecho en > **[!UICONTROL Descargar datos como CSV]**, se descargan los datos de tabla mostrados como CSV. Si se hace una selección de tabla, esta opción indicará **[!UICONTROL Descargar selección como CSV]**.
 * Al hacer clic con el botón derecho en > **[!UICONTROL Proyecto > Descargar elementos como CSV]**, se exportarán hasta 50 000 elementos de dimensión de la dimensión seleccionada.
 
-Obtenga más información sobre todas las [opciones de exportación](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es) de datos de Analysis Workspace.
+Obtenga más información sobre todas las [opciones de exportación](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) de datos de Analysis Workspace.
 
 ![](assets/export-options.png)
+
+## Vídeos
+
+Resumen del generador de tablas improvisadas:
+
+>[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
+
+Filtros de tabla improvisada:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
+
+Totales de tabla improvisada:
+
+>[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)

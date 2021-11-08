@@ -2,17 +2,20 @@
 title: Interfaz de usuario de fuentes de datos
 description: Obtenga información sobre cómo navegar por la interfaz de fuentes de datos.
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '637'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 98%
 
 ---
 
 # Administración de fuentes de datos
 
 El administrador de fuentes de datos le permite crear, editar y eliminar fuentes de datos para su organización. Si tiene permisos para acceder al administrador de fuentes de datos, puede administrar las fuentes de datos de todos los grupos de informes visibles para usted.
+
+Aquí hay un vídeo sobre la interfaz de usuario de administración de fuentes de datos:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
 Para acceder a la administración de fuentes de datos, siga estos pasos:
 

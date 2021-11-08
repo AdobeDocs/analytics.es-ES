@@ -2,19 +2,23 @@
 description: Utilice la visualización de visitas en orden previsto de un proyecto de Workspace.
 title: Resumen de abandonos
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-feature: Visualizaciones
+feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 98%
 
 ---
 
 # Resumen de abandonos
 
 Las visualizaciones de visitas en el orden previsto ofrecen más opciones para crear sus informes de visitas en el orden previsto. Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas.
+
+Aquí hay un vídeo sobre la visualización de abandonos:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24042/?quality=12)
 
 Las visualizaciones de visitas en el orden previsto le permiten:
 
@@ -33,8 +37,6 @@ La visualización de visitas en el orden previsto es útil para analizar:
 * Las tasas de conversión a través de procesos específicos en el sitio (tales como un proceso de registro o de compra).
 * Flujos de tráfico generales, con un alcance más amplio: entre las personas que visitaron la página principal, este flujo muestra cuántas fueron de allí a realizar una búsqueda y cuántas continuaron para ver un elemento específico.
 * Correlaciones entre los eventos del sitio. Las correlaciones muestran el porcentaje de personas que leyeron la política de privacidad y procedieron a realizar la compra de un producto.
-
-[Tutorial de vídeo de visualización de visitas en orden previsto](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=es) (4:15)
 
 ## La segmentación como base para Flujo y Abandonos {#section_654F37A398C24DDDB1552A543EE29AA9}
 

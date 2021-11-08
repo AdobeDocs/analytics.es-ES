@@ -5,9 +5,9 @@ title: Usar marcas de hora opcionales
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '615'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 100%
 # Usar marcas de hora opcionales
 
 Conozca las ventajas y limitaciones de utilizar la opción Marcas de hora opcionales.
+
+A continuación, se muestra un vídeo introductorio sobre este tema:
+
+>[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
 
 Marcas de hora opcionales es la configuración predeterminada para todos los grupos de informes nuevos.
 
@@ -34,7 +38,6 @@ Con la característica Marcas de hora opcionales, puede combinar datos sin marca
 
 * **Datos con marca de hora**. Los datos con marca de hora de cliente se capturan y se envían directamente con los datos del dispositivo utilizando variables timestamp de lado del cliente: JavaScript en una página web, o utilizando una llamada al SDK móvil ([!DNL offlineEnabled=true]) en una aplicación móvil.
 * **Datos sin marca de hora**. Adobe establece una marca de hora en los datos sin marca de hora de un grupo de informes cuando los datos llegan a los servidores de recopilación de datos.
-
 
 Un grupo de informes puede tener una de las siguientes configuraciones de marca de hora:
 

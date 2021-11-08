@@ -4,10 +4,10 @@ keywords: flujo de navegación;fuente de datos;fuente de datos;Fuente de datos
 title: Resumen de la fuente de datos de Analytics
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
-source-wordcount: '573'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 98%
 
 ---
 
@@ -67,4 +67,8 @@ Una vez que haya comprendido el flujo de trabajo básico de la obtención de fue
 
 Navegación de vídeo en la interfaz de fuente de datos:
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html?lang=es)
+>[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+
+Vídeo sobre cómo encontrar su ID de fuente de datos:
+
+>[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)

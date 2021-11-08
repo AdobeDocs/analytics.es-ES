@@ -2,12 +2,12 @@
 description: Utilice la visualización de flujo en un proyecto de Workspace.
 title: Resumen de flujos
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-feature: Visualizaciones
+feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '210'
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
@@ -37,3 +37,7 @@ Cada columna puede mostrar una dimensión distinta. Arrastre una dimensión y su
 ## Exportación de diagramas de flujo como parte de archivos .CSV de proyecto {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 Los diagramas de flujo son parte del archivo .CSV de un proyecto que puede crear en **[!UICONTROL Proyecto]** > **[!UICONTROL Descargar CSV]**. Esto le permite analizar los resultados del flujo en Microsoft Excel (visualizados como una tabla) o en otra herramienta.
+
+## Ampliación de la visualización de flujo
+
+>[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)

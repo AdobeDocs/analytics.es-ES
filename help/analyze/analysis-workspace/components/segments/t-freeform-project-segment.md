@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -26,9 +26,15 @@ Puede crear distintos tipos de segmentos en Workspace, en función de su complej
 | - Segmento basado en métricas calculadas | [Generador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=es) | Para métricas calculadas individuales | Aplicación de segmentos dentro de su definición de métrica |
 | - Segmento basado en VRS | [Generador de grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=es) | A un grupo de informes virtuales individual | Aplicación de segmentos dentro de su definición de VRS |
 
-Aquí tiene un vídeo sobre el uso de segmentos en Analysis Workspace:
+## Vídeos
+
+Uso de segmentos en Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+
+Búsqueda y creación de segmentos:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
 ## Crear segmentos {#section_693CFADA668B4542B982446C2B4CF0F5}
 
