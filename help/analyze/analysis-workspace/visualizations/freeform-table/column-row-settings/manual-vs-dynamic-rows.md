@@ -1,13 +1,13 @@
 ---
 title: Elementos de dimensión dinámicos o estáticos en tablas improvisadas
 description: Interacción con elementos de dimensión dinámicos y estáticos en tablas.
-feature: Tablas improvisadas
+feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '484'
-ht-degree: 100%
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 99%
 
 ---
 
@@ -54,3 +54,9 @@ Las filas dinámicas y estáticas se comportan de forma diferente en la fila tot
 
 * Las filas dinámicas se suman a las métricas del lado del servidor y a las duplicadas, como visitas o visitantes
 * Las filas estáticas se suman al lado del cliente y **no** eliminan las métricas duplicadas. Para calcular el total de filas del lado del servidor, cambie la configuración fila a **Mostrar total general**. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=es)
+
+## Reordenar filas estáticas
+
+A continuación, se muestra un vídeo introductorio sobre este tema:
+
+>[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)

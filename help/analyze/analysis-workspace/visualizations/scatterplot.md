@@ -1,13 +1,13 @@
 ---
 title: Diagrama de dispersión
 description: Una visualización que muestra la relación entre hasta tres métricas.
-feature: Visualizaciones
+feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '112'
-ht-degree: 100%
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 94%
 
 ---
 
@@ -22,3 +22,7 @@ La visualización del diagrama de dispersión muestra la relación entre los ele
 * La visualización del diagrama de dispersión ignora todas las columnas subsiguientes de una tabla improvisada.
 
 ![Diagrama de dispersión](assets/scatter.png)
+
+Este es un vídeo sobre las visualizaciones de diagrama de puntos:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334459/?quality=12)

@@ -4,10 +4,10 @@ description: Analysis Workspace es la principal herramienta de análisis de Adob
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '555'
-ht-degree: 100%
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+workflow-type: tm+mt
+source-wordcount: '568'
+ht-degree: 97%
 
 ---
 
@@ -60,6 +60,12 @@ En el proyecto de Workspace, se accede a **paneles, tablas, visualizaciones y co
 **Los paneles** se utilizan para organizar el análisis dentro de un proyecto y pueden tener muchas tablas y visualizaciones. Muchos de los paneles que se proporcionan en Analysis Workspace generan un conjunto completo de análisis basados en unas pocas entradas del usuario. En el carril del extremo izquierdo, seleccione el icono **[!UICONTROL Paneles]** en la parte superior para ver una lista completa de [paneles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es) disponibles.
 
 ![](assets/build-panels.png)
+
+### Administración de proyectos en Analysis Workspace
+
+A continuación se muestra un vídeo introductorio de la administración de proyectos:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
 
 ## Recursos adicionales {#resources}
 

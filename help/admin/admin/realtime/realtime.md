@@ -4,10 +4,9 @@ title: Informes en tiempo real
 topic-fix: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
@@ -19,6 +18,10 @@ Muestra tráfico de páginas web y clasifica las vistas de página en tiempo rea
 >[!NOTE]
 >
 >El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte [Configuración de informes en tiempo real](/help/admin/admin/realtime/t-realtime-admin.md).
+
+A continuación, se muestra un vídeo introductorio:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
 
 **[!UICONTROL Métricas del sitio]** > **[!UICONTROL Tiempo real]**
 
