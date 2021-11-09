@@ -1,20 +1,24 @@
 ---
 description: Las visitas en el orden previsto en Analysis Workspace le permiten mezclar dimensiones y métricas como puntos de contacto en embudos y flujos de trabajo. Esto le proporciona una mayor flexibilidad para definir los pasos del usuario que desea investigar.
-title: Abandonos entre dimensiones
+title: Abandonos multidimensionales
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
-feature: Visualizaciones
+feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 93%
 
 ---
 
-# Abandonos entre dimensiones
+# Abandonos multidimensionales
 
 Las visitas en el orden previsto en Analysis Workspace le permiten mezclar dimensiones y métricas como puntos de contacto en embudos y flujos de trabajo. Esto le proporciona una mayor flexibilidad para definir los pasos del usuario que desea investigar.
+
+Aquí hay un video sobre el tema:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
 
 **Ejemplo**: además de, por ejemplo, una dimensión Página, puede añadir elementos de dimensión basados en una acción a la visualización Visita en el orden previsto. Esto le permite visualizar cómo interactúan las páginas y ciertas acciones en las rutas de los clientes.
 

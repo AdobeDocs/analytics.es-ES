@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,10 @@ La visualización de mapas en Analysis Workspace
 * Admite exportación de PDF.
 * Aprovecha WebGL para la visualización de gráficos. Si sus controladores gráficos no admiten la representación WebGL, es posible que deba actualizarlos.
 
+A continuación, se muestra un vídeo introductorio:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23559/?quality=12)
+
 ## Creación de una visualización de mapas {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
 1. En la lista de visualizaciones, arrastre **[!UICONTROL Mapa]** a un panel de forma libre:
@@ -33,18 +37,10 @@ La visualización de mapas en Analysis Workspace
 1. Arrastre una métrica desde la lista de métricas (incluidas métricas calculadas).
 1. Especifique la fuente de datos que desea utilizar. (Este cuadro de diálogo aparece únicamente si tiene habilitado el seguimiento de la ubicación para datos de aplicaciones móviles).
 
-<table id="table_CD54B433464B4282A7524FB187016C47"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Latitud/Longitud móvil</b> </p> </td> 
-   <td colname="col2"> <p>Esta opción representa los datos de aplicaciones móviles. </p> <p>Solo verá esta opción si la ha habilitado para su conjunto de informes en <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Administración </span> &gt; <span class="uicontrol"> Grupos de informes </span> &gt; <span class="uicontrol"> &lt;seleccionar grupo de informes&gt; </span> &gt; <span class="uicontrol"> Editar configuración </span> &gt; <span class="uicontrol"> Administración móvil </span> &gt; <span class="uicontrol"> Activar el seguimiento de ubicación</span></span>. </p> <p>Esta es la configuración predeterminada (si el seguimiento de la ubicación está habilitado). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Dimensión geográfica</b> </p> </td> 
-   <td colname="col2"> <p>Esta opción representa los datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. Estos datos se transforman en País, Región y Ciudad. Tenga en cuenta que no se desciende al nivel del código postal ni DMA. </p> <p>Casi todos los grupos de informes tienen habilitada esta dimensión. Si no es así en su caso, póngase en contacto con el Servicio de atención al cliente de Adobe para habilitar los informes geográficos. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Configuración | Descripción |
+| --- | --- |
+| [!UICONTROL Latitud/Longitud móvil] | Esta opción representa los datos de aplicaciones móviles. Solo puede ver esta opción si la ha habilitado para su grupo de informes en [!UICONTROL Analytics] > [!UICONTROL Administrador] > [!UICONTROL Grupos de informes] > (seleccione el grupo de informes) > [!UICONTROL Editar configuración] >  [!UICONTROL Administración de móviles] > [!UICONTROL Activar el seguimiento de ubicación]. Esta es la configuración predeterminada (si el seguimiento de la ubicación está habilitado). |
+| [!UICONTROL Dimensión geográfica] | Esta opción representa los datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. Estos datos se transforman en [!UICONTROL País], [!UICONTROL Región]y [!UICONTROL Ciudad]. Tenga en cuenta que no se desciende al nivel del código postal ni DMA. Casi todos los grupos de informes tienen habilitada esta dimensión. Si no es así en su caso, póngase en contacto con el Servicio de atención al cliente de Adobe para habilitar los informes geográficos. |
 
 1. Haga clic en **[!UICONTROL Generar]**.
 

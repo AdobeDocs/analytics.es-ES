@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Proporciona instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como Adobe Analytics Dashboards, Report Builder y Activity Map.
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
-workflow-type: ht
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
             + [Configuración de filas](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Elementos dinámicos vs. estáticos](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Paginación, filtrado y ordenación de tablas](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [Totales del Espacio de trabajo](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Totales de del Espacio de trabajo](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabla de cohorte {#cohort-table}
          + [¿Qué es el análisis de cohorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar un informe de análisis de cohorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -60,7 +60,7 @@ ht-degree: 100%
       + Abandono {#fallout}
          + [Resumen de abandonos](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurar una visualización de abandonos](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [Abandonos entre dimensiones](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [Abandonos multidimensionales](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Aplicación de segmentos en el análisis de abandonos](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flujo {#flow}
          + [Resumen de flujos](analysis-workspace/visualizations/c-flow/flow.md)
@@ -126,7 +126,7 @@ ht-degree: 100%
          + [Administrador de alertas](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Alertas inteligentes: Casos de uso](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Preferencias del usuario](analysis-workspace/user-preferences.md)
-   + Preguntas frecuentes sobre el Espacio de trabajo {#workspace-faq}
+   + Preguntas frecuentes sobre del Espacio de trabajo {#workspace-faq}
       + [Preguntas frecuentes](analysis-workspace/workspace-faq/faq.md)
       + [Optimizar rendimiento de Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Mensajes de error](analysis-workspace/workspace-faq/error-messages.md)
