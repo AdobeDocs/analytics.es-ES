@@ -2,12 +2,12 @@
 description: Las reglas de clasificación buscan términos no clasificados de forma periódica. Cuando se encuentra una coincidencia de regla, las reglas agregan los términos automáticamente a las tablas de datos de clasificación. Las reglas de clasificación también permiten sobrescribir las claves existentes.
 subtopic: Classifications
 title: Reglas de clasificación
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2028'
-ht-degree: 100%
+source-git-commit: c04e749f7db6971572701e839de0829777b8c58e
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ El Generador de reglas permite crear un *conjunto de reglas de clasificación*, 
 
 Las reglas de clasificación resultan adecuadas para:
 
-* **Correo electrónico** y **anuncios en pantalla**: al crear reglas de clasificación pueden agruparse campañas de anuncios en pantalla individuales, y esto permite comprobar los resultados de las campañas de visualización frente a las de correo electrónico.
+* **Correo electrónico** y **Publicidades en pantalla**: Cree reglas de clasificación para agrupar campañas de anuncios en pantalla individuales, de modo que pueda conocer el rendimiento de las campañas de visualización frente a las de correo electrónico.
 
 * **Códigos de seguimiento**: con las reglas de clasificación pueden aplicarse categorías a los valores clave derivados de cadenas de códigos de seguimiento, y hacerlos coincidir con los criterios específicos definidos.
 * **Términos de búsqueda**: las [expresiones regulares](/help/components/classifications/crb/classification-quickstart-rules.md) y los comodines simplifican la clasificación de los términos de búsqueda. Por ejemplo, si un término de búsqueda contiene *`baseball`*, puede establecer una *`Sports League`* clasificación en *`MLB`*.
@@ -328,8 +328,8 @@ Para agregar nuevas reglas, debe establecerse la coincidencia entre una condici�
    >Los grupos de informes se muestran en esta página *solo* cuando se cumplen las siguientes condiciones:
    >
    >* Los grupos de informes tienen como mínimo una clasificación definida para la variable en [!UICONTROL Herramientas de administración].
-   >
-   >   (Consulte *Variable* en [Conjuntos de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) para obtener una explicación sobre este requisito previo).
+      >
+      >   (Consulte *Variable* en [Conjuntos de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) para obtener una explicación sobre este requisito previo).
    >
    >* Ha seleccionado el grupo de informes en la página **[!UICONTROL Grupos de informes disponibles]**, que se muestra después de hacer clic en [Agregar conjunto de reglas](/help/components/classifications/crb/classification-rule-set.md) para crear el conjunto de reglas.
 
