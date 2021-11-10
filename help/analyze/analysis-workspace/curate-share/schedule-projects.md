@@ -3,11 +3,10 @@ description: Gestione proyectos programados de Analysis Workspace
 keywords: Analysis Workspace
 title: Administrador de proyectos programados
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 100%
+source-wordcount: '164'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +18,10 @@ Gestione proyectos programados de Analysis Workspace.
 **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Proyectos programados]**.
 
 ![](assets/components-scheduled-projects.png)
+
+Aquí hay un vídeo sobre proyectos programados y descargables en Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24709/?quality=12)
 
 En el Administrador de programación de informes, puede editar y eliminar los envíos periódicos de proyectos. Puede crear programas de entregas que envíen los informes por correo electrónico a una dirección especificada. Puede configurar los programas a fin de que los informes se envíen automáticamente a intervalos especificados por un periodo de tiempo o indefinidamente, o bien para que se detenga el envío de un proyecto recurrente.
 
@@ -32,6 +35,5 @@ El Administrador de programación de proyectos muestra los artículos que ha cre
 * Etiquetar proyectos programados.
 * Especificar/cambiar el propietario de proyectos programados.
 * Agregar otros filtros, como Aprobado, Fallido, Favoritos, Míos, Mostrar todo y Proyectos caducados.
-
 * Definir una fecha de caducidad para los proyectos programados.
 

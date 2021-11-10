@@ -1,13 +1,13 @@
 ---
 description: Los segmentos le permiten identificar subconjuntos de visitantes basándose en sus características o en las interacciones con el sitio web. Los segmentos están diseñados como análisis de audiencia codificados que puede crear para sus necesidades específicas, y luego verificar, editar y compartir con otros integrantes del equipo, o bien utilizar en otros productos de Adobe y capacidades de Analytics.
 title: Acerca de los segmentos y los contenedores
-feature: Segmentación
+feature: Segmentation
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '3698'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '3705'
+ht-degree: 99%
 
 ---
 
@@ -68,6 +68,10 @@ Un segmento establece las condiciones necesarias para filtrar a un visitante en 
 La arquitectura de contenedor empleada en el Generador de segmentos define el **[!UICONTROL visitante]** como el contenedor exterior, que incluye datos globales específicos del visitante en las visitas y vistas de páginas. Un contenedor de **[!UICONTROL visita]** anidado le permite establecer reglas para desglosar los datos del visitante en función de las visitas, y un contenedor de **[!UICONTROL visita individual]** anidado le permite desglosar la información del visitante según las vistas de página individuales. Cada contenedor le permite realizar informes basados en el historial del visitante o en las interacciones detalladas por visitas, o bien desglosar las visitas individuales.
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
+
+A continuación se muestra un vídeo introductorio de los contenedores de segmentos:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
 
 **Contenedor de visitante**
 

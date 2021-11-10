@@ -5,9 +5,9 @@ title: Compartir proyectos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1111'
 ht-degree: 99%
 
 ---
@@ -25,7 +25,7 @@ A continuación se muestra un vídeo introductorio del uso compartido de proyect
 Puede agregar destinatarios a una de las tres funciones del proyecto. Las funciones de proyecto están vinculadas al usuario y al ID de proyecto específico. Las funciones de proyecto son independientes de los permisos de usuario administrados en [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es).
 
 | Función | Control de proyecto |
-|---|---|
+| --- | --- |
 | Se puede editar | Los destinatarios pueden **[!UICONTROL Guardar]** cambios en un proyecto y en una funcionalidad como copropietarios. Esta función resulta útil si desea administrar un proyecto conjuntamente con otros compañeros. Esto incluye editar, eliminar y modificar listas de destinatario para un proyecto compartido. <br>Nota: Actualmente, Analysis Workspace no admite la colaboración en tiempo real, por lo que se recomienda que solo un usuario edite un proyecto a la vez. Si los proyectos se guardan al mismo tiempo, se conservará la última versión. |
 | Se puede duplicar | Los Destinatarios pueden usar la opción **[!UICONTROL Guardar como]** y acceder al carril izquierdo. Las interacciones del proyecto no están limitadas en esta función. Esta función es útil si desea compartir un proyecto con usuarios que comprendan los datos de su organización y cómo usar Analysis Workspace, pero no desea que el proyecto se modifique. |
 | Se puede ver | Los destinatarios no pueden Guardar como y no tienen acceso al panel izquierdo. Las interacciones del proyecto también están limitadas. Esta función resulta útil si desea compartir un proyecto con usuarios menos familiarizados con la estructura de datos de su organización, con Analysis Workspace o con Adobe Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro.<br>Obtenga más información sobre la [la función de proyecto “Puede ver”](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
@@ -88,6 +88,12 @@ Con el proyecto A y B seleccionado, los destinatarios 4 y 7 se agregan a las lis
 * Proyecto B: 4, 5, 6, 7
 
 ![](assets/mult-proj-sharing.png)
+
+## Uso compartido de componentes incrustados
+
+A continuación, se muestra un vídeo introductorio sobre este tema:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
 
 ## Preguntas frecuentes {#FAQs}
 

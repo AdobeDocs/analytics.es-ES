@@ -1,13 +1,13 @@
 ---
 description: Los segmentos secuenciales se crean mediante el operador THEN, en lugar de AND u OR. THEN implica que se produce un criterio de segmento, seguido por otro. De forma predeterminada, un segmento secuencial identifica a todos los datos coincidentes y muestra el filtro “Incluir a todos”. Los segmentos secuenciales pueden filtrarse adicionalmente a un subconjunto de visitas coincidentes mediante las opciones “Solo antes de la secuencia” y “Solo después de la secuencia”.
 title: Generar segmentos secuenciales
-feature: Segmentación
+feature: Segmentation
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '3858'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '3864'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,10 @@ Los segmentos secuenciales se crean mediante el operador THEN, en lugar de AND u
 ![](assets/before-after-sequence.png)
 
 Además, puede restringir los segmentos secuenciales a una duración, granularidad y recuentos entre puntos de comprobación específicos mediante los [operadores Después y En](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+
+Este es un vídeo sobre la segmentación secuencial:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
 
 ## Incluir a todos {#section_75ADDD5D41F04800A09E592BB2940B35}
 
