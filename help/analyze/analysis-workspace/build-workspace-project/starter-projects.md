@@ -5,9 +5,9 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1414'
 ht-degree: 98%
 
 ---
@@ -71,6 +71,10 @@ Estas plantillas estándar le guían a través de la terminología común y de l
 * **Tutorial de capacitación - Análisis de búsqueda interna**: el tutorial de búsqueda interna ayuda a comprender qué buscan los visitantes en el sitio web o la aplicación, pero no qué encuentran. Analizar este tipo de datos puede brindar oportunidades de optimización de contenido.
 
 * **Tutorial de capacitación - Análisis de marketing**: este tutorial muestra cómo crear un análisis de marketing para los ejecutivos, incluidas las dimensiones y métricas personalizadas que son importantes.
+
+Aquí hay un vídeo sobre el [!UICONTROL Tutorial de formación] plantilla:
+
+>[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
 ### Publicidad
 

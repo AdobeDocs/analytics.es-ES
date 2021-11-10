@@ -2,19 +2,23 @@
 description: La partición de tiempo toma la marca de hora de los aciertos recogidos y lo divide en dimensiones más significativas, como “Hora del día” o “Día de la semana”.
 title: Dimensiones de partición de tiempo
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Conceptos básicos de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 97%
 
 ---
 
 # Dimensiones de partición de tiempo
 
 La partición de tiempo toma la marca de hora de los aciertos recogidos y lo divide en dimensiones más significativas, como “Hora del día” o “Día de la semana”.
+
+Aquí hay un vídeo sobre las dimensiones de partición de tiempo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
 
 Las dimensiones de partición de tiempo se basan en el huso horario del grupo de informes o del grupo de informes virtuales. Estas dimensiones están disponibles en Analysis Workspace y pueden ayudar a responder a las siguientes preguntas:
 
@@ -30,7 +34,7 @@ Las dimensiones de partición de tiempo se basan en el huso horario del grupo de
 Las dimensiones de partición de tiempo en Analysis Workspace incluyen:
 
 | Dimensión | Valores de ejemplo |
-|--- |--- |
+| --- | --- |
 | Hora del día | 0-23 |
 | AM/PM | AM, PM |
 | Día de la semana | Lunes, martes, miércoles, jueves, viernes, sábado, domingo |

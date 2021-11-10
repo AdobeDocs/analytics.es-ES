@@ -2,19 +2,23 @@
 description: Un flujo interdimensional le permite examinar las rutas del usuario entre diversas dimensiones.
 title: Flujos interdimensionales
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-feature: Visualizaciones
+feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 96%
 
 ---
 
 # Flujos interdimensionales
 
 Un flujo interdimensional le permite examinar las rutas del usuario entre diversas dimensiones.
+
+Aquí hay un vídeo sobre el ajuste de texto y el flujo multidimensional en Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
 Existe una etiqueta de dimensión en la parte superior de cada columna Flujo que hace que el uso de varias dimensiones en una visualización de flujo sea más intuitivo:
 

@@ -2,13 +2,13 @@
 description: Factores que afectan el rendimiento y las optimizaciones de Workspace que puede hacer
 title: Optimización y factores de rendimiento de Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-feature: Conceptos básicos de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
-source-wordcount: '2012'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '2024'
+ht-degree: 99%
 
 ---
 
@@ -77,3 +77,9 @@ Otros factores que no se incluyen en Ayuda > Rendimiento son:
 | Tamaño del conjunto de informes | Cantidad de datos recopilados en el grupo de informes. | - | Consulte con su equipo de implementación o con un experto en Adobe para determinar si se pueden realizar mejoras en la implementación para mejorar la experiencia general en Adobe Analytics. |
 | Consultas concurrentes | Número de consultas que su organización solicita a Adobe al mismo tiempo. Cada organización tiene derecho a un mínimo de 5 consultas simultáneas. | Si un informe está tardando mucho tiempo, normalmente se debe a que está en cola con otros informes. Esto significa que su organización está intentando ejecutar demasiadas solicitudes simultáneas en un grupo de informes específico. Las consultas pueden provenir de solicitudes de API, IU de informes (Analysis Workspace, Reports &amp; Analytics, Report Builder, etc.), proyectos programados, informes programados, alertas programadas y usuarios simultáneos que realizan solicitudes de informes. | Distribuya las solicitudes y programaciones del grupo de informes de forma más uniforme durante todo el día. Además, si es posible, cambie las solicitudes a horas de menor actividad. Lunes por la mañana, martes por la mañana y el primero de cada mes son las horas más ajetreadas para creación de informes. |
 | Capacidad del centro de datos | La cantidad de capacidad de creación de informes que usted y otros clientes comparten dentro de un centro de datos de Adobe. | Esto se ve afectado por el número de consultas simultáneas realizadas por su organización y otras organizaciones dentro del centro de datos. | Su organización tiene derecho a una capacidad fija y, si el sistema está bajo una carga ligera, Adobe le transferirá más capacidad, por encima y más allá de su asignación. |
+
+## Sugerencias para aumentar la productividad en Analysis Workspace
+
+A continuación, se muestra un vídeo introductorio sobre este tema:
+
+>[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)

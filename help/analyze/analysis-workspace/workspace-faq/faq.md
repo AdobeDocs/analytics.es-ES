@@ -1,13 +1,13 @@
 ---
 description: Preguntas frecuentes sobre Workspace
 title: Preguntas frecuentes y resolución de problemas de Workspace
-feature: Conceptos básicos de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: e9b917a60e31b63d8350d4023fa803605d86e050
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,12 @@ ht-degree: 100%
 | ¿Puedo usar Analysis Workspace para el Data Warehouse? | No se recomienda Analysis Workspace para exportación masiva de datos. Es un espacio de trabajo de visualización que crea proyectos de análisis con estilo de tablero. |
 | ¿Cómo puedo optimizar el rendimiento de Analysis Workspace? | Consulte [Optimización del rendimiento](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 
+## ¿Cómo llegan los datos a su proyecto de Analysis Workspace?
+
+Vea este vídeo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
 ## Resolución de problemas
 
 **Cuando arrastro una métrica, significa “Datos no válidos”.**
@@ -38,3 +44,4 @@ Si ha creado correctamente un informe de espacio de trabajo pero no hay datos, p
 * Si aplicó un segmento en el informe, es posible que los criterios del segmento no coincidan con ningún dato. Intente eliminar el segmento o ajustar la definición del mismo.
 * Compruebe el intervalo de fechas en la esquina superior derecha y compruebe que está establecido en un valor que esperaba.
 * Vaya al sitio web y utilice [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es) para validar que se están recopilando datos.
+
