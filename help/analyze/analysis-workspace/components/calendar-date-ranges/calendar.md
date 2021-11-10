@@ -2,19 +2,23 @@
 description: En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos.
 title: Resumen de calendario e intervalos de fechas
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-feature: Conceptos básicos de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 96%
 
 ---
 
 # Resumen de calendario e intervalos de fechas
 
 En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos.
+
+Aquí hay un vídeo sobre el uso de intervalos de fechas y calendarios en Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
 
 Las selecciones de calendario se aplican a nivel de panel, pero tiene la opción de aplicarlas a todos los paneles. Al hacer clic en un intervalo de fechas en Workspace, la interfaz muestra el mes natural actual y el mes natural anterior. Puede ajustar estos dos calendarios haciendo clic en las flechas derecha e izquierda de cada esquina superior respectiva.
 

@@ -2,16 +2,20 @@
 title: Creación de una capa de datos
 description: Descubra qué es una capa de datos en su implementación de Analytics y cómo se puede utilizar para asignar variables en Adobe Analytics.
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 98%
 
 ---
 
 # Creación de una capa de datos
 
 Una capa de datos es un marco de objetos de JavaScript del sitio que contiene todos los valores de variables utilizados en la implementación. Permite un mayor control y un mantenimiento más sencillo en la implementación.
+
+Aquí hay un vídeo sobre el uso de capas de datos:
+
+>[!VIDEO](https://video.tv.adobe.com/v/28775/?quality=12)
 
 ## Requisitos previos
 

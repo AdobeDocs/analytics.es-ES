@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 98%
+source-wordcount: '1423'
+ht-degree: 97%
 
 ---
 
@@ -92,7 +92,10 @@ Aquí hay un vídeo sobre el [!UICONTROL Tutorial de formación] plantilla:
 
 ### Medios
 
-* **Consumo de audio**: ¿Qué contenido se consume más y resulta más atractivo para los usuarios?
+* **Consumo de audio**: ¿Qué contenido se consume más y resulta más atractivo para los usuarios? Aquí hay un vídeo sobre la plantilla Consumo de audio :
+
+   >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
+
 * **Actualización, Frecuencia, Lealtad**: ¿Quiénes son mis lectores más fieles?
 
 ### Móvil

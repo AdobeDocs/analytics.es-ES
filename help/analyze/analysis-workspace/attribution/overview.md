@@ -1,13 +1,13 @@
 ---
 title: Información general de Attribution
 description: Concepto de atribución de crédito de un evento de éxito a varios elementos de dimensión.
-feature: Atribución
+feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 96%
 
 ---
 
@@ -45,3 +45,9 @@ Attribution IQ incluye las siguientes funciones:
 * [Aplicar atribución a una métrica](../visualizations/freeform-table/column-row-settings/column-settings.md): Utilice una atribución no predeterminada en cualquier métrica de un proyecto.
 * [Aplicar atribución a un desglose](../components/dimensions/t-breakdown-fa.md): Utilice una atribución no predeterminada en un desglose.
 * [Comparar modelos de atribución](../components/apply-create-metrics.md): Vea rápidamente cómo se comparan los distintos modelos de atribución para cualquier métrica.
+
+## Vídeos
+
+Aquí hay un vídeo sobre el uso de diferentes modelos de Attribution IQ con segmentos en Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)

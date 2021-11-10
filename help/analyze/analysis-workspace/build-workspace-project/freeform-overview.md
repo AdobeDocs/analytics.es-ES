@@ -6,10 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 99%
+source-wordcount: '1428'
+ht-degree: 96%
 
 ---
 
@@ -89,6 +89,12 @@ Los componentes (dimensiones, métricas, segmentos e intervalos de fechas) del c
 
 ![](assets/left-rail.png)
 
+## Haga clic con el botón derecho en el menú
+
+Este es un vídeo sobre el uso del menú contextual en Analysis Workspace:
+
+>[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
+
 ## Lienzo del proyecto {#canvas}
 
 En el lienzo del proyecto se reúnen los paneles, las tablas, las visualizaciones y los componentes para generar el análisis. Un proyecto puede contener muchos paneles, y cada panel puede contener muchas tablas y visualizaciones.
@@ -101,7 +107,9 @@ Según el punto de partida que haya elegido para sus proyectos, tendrá una [tab
 
 ## Gestor de proyecto {#manager}
 
-Los proyectos de Analysis Workspace se pueden administrar en **Analytics > Componentes > Proyectos**. El administrador de proyectos muestra los elementos que ha creado un usuario en particular. La propiedad del proyecto se puede transferir a un nuevo usuario en Administración > Usuarios y activos de Analytics > Transferir activos.
+Los proyectos de Analysis Workspace se pueden administrar en **[!UICONTROL Analytics] > [!UICONTROL Componentes] >  [!UICONTROL Proyectos]**. El administrador de proyectos muestra los elementos que ha creado un usuario en particular.
+
+La propiedad del proyecto se puede transferir a un nuevo usuario en [!UICONTROL Administrador] > [!UICONTROL Usuarios y activos de Analytics] > [!UICONTROL Transferir activos].
 
 En el administrador de proyectos, puede agregar, etiquetar, compartir, duplicar/copiar, etc. Busque un proyecto en la barra de búsqueda o utilizando las opciones de filtro del carril izquierdo. Puede filtrar por etiqueta, propietarios, tipo de proyecto y más.
 
