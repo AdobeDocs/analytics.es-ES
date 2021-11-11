@@ -2,10 +2,10 @@
 description: Descubra cuándo y por qué los conectores de datos de Analytics finalizarán su vida útil.
 title: Anuncio previo al fin de vida útil para los conectores de datos de Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: f034baca23980ae70d83bc6488e13fc610a43ab1
-workflow-type: ht
+source-git-commit: 82e1c1d75db53f97b2f1858e26f6b369d157f834
+workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ Durante más de una década, Adobe Analytics se ha propuesto ofrecer la mejor so
 
 ## ¿Por qué queremos dejar de usar esta función?
 
-Esta función está basada en tecnología heredada que ya no es viable ni compatible.  [Adobe Exchange Marketplace](https://partners.adobe.com/exchangeprogram/experiencecloud) es ahora el lugar donde encontrar las integraciones actuales para las soluciones de Adobe.
+Esta función está basada en tecnología heredada que ya no es viable ni compatible.  [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) es ahora el lugar donde encontrar las integraciones actuales para las soluciones de Adobe.
 
 ## ¿Cómo le afecta la eliminación de esta función?
 
