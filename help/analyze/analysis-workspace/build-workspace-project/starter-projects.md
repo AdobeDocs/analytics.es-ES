@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: 76235e80ad5e2104d0ad3a262b8f805f34fa99a3
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 97%
+source-wordcount: '1410'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Puede elegir crear un proyecto a partir de:
 
 ![](assets/start_modal.png)
 
-## Creación de una plantilla personalizada {#create-custom-template}
+## Crear plantillas personalizadas {#create-custom-template}
 
 Los usuarios que tengan derechos de administrador pueden convertir cualquier proyecto que creen en una plantilla personalizada. A continuación se muestra cómo:
 
@@ -41,9 +41,7 @@ A continuación se muestra un vídeo sobre la creación y administración de pla
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
-### Acciones que se pueden llevar a cabo en las plantillas personalizadas
-
-![](assets/custom_templates.png)
+### Administrar plantillas personalizadas {#manage-custom-template}
 
 | Acción | Descripción |
 |--- |--- |
@@ -66,11 +64,7 @@ Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a 
 
 ### Capacitación
 
-Estas plantillas estándar le guían a través de la terminología común y de los pasos para crear su primer análisis en Workspace. Está disponible como plantilla estándar en el modo Nuevo proyecto y reemplaza el proyecto de muestra actual para los usuarios nuevos que no tienen otros proyectos en su lista.
-
-* **Tutorial de capacitación - Análisis de búsqueda interna**: el tutorial de búsqueda interna ayuda a comprender qué buscan los visitantes en el sitio web o la aplicación, pero no qué encuentran. Analizar este tipo de datos puede brindar oportunidades de optimización de contenido.
-
-* **Tutorial de capacitación - Análisis de marketing**: este tutorial muestra cómo crear un análisis de marketing para los ejecutivos, incluidas las dimensiones y métricas personalizadas que son importantes.
+Esta plantilla estándar le guía por la terminología común y por los pasos para crear su primer análisis en Workspace. Está disponible como plantilla estándar en el modo Nuevo proyecto y reemplaza el proyecto de muestra actual para los usuarios nuevos que no tienen otros proyectos en su lista.
 
 Aquí hay un vídeo sobre el [!UICONTROL Tutorial de formación] plantilla:
 
@@ -80,38 +74,40 @@ Aquí hay un vídeo sobre el [!UICONTROL Tutorial de formación] plantilla:
 
 >[!IMPORTANT]
 >
->Las plantillas de publicidad solo están disponibles si el grupo de informes está habilitado para Advertising Cloud.
+>Las plantillas de publicidad solo están disponibles si el grupo de informes está habilitado para [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
 
 * **Motores de búsqueda de pago**: esta plantilla desglosa las tendencias publicitarias, las plataformas de publicidad, las palabras clave, las cuentas, las campañas y mucho más.
 
 ### Comercio
 
-* **Magento - Marketing and Commerce**: esta plantilla desglosa la conversión del comercio electrónico según la atribución del canal de marketing. También proporciona perspectivas por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y mucho más. Para ver un vídeo introductorio, consulte:
+* **Magento - Marketing and Commerce**: esta plantilla desglosa la conversión del comercio electrónico según la atribución del canal de marketing. También proporciona perspectivas por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y mucho más. Este es un tutorial de vídeo sobre [Magento: Plantilla de marketing y comercio](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=es).
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=es)
+### Recopilación de datos
+
+* **Impacto de ITP**: Comprenda cómo afecta ITP de Apple a sus datos y cómo ajustar los informes en consecuencia.
 
 ### Medios
 
-* **Consumo de audio**: ¿Qué contenido se consume más y resulta más atractivo para los usuarios? Aquí hay un vídeo sobre la plantilla Consumo de audio :
+* **Consumo de contenido**: Quiénes son mis leales lectores
+* **Actualización - Frecuencia - Lealtad**: ¿Qué contenido se consume más y resulta más atractivo para los usuarios?
+* **Consumo de medios de transmisión**: Proporciona tendencias y métricas principales del consumo de medios en todos los dispositivos digitales. Este es un vídeo sobre la plantilla de consumo de medios de transmisión:
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
-
-* **Actualización, Frecuencia, Lealtad**: ¿Quiénes son mis lectores más fieles?
 
 ### Móvil
 
 >[!IMPORTANT]
 >
->Las plantillas móviles están disponibles únicamente si el grupo de informes está activado para móvil.
+>Las plantillas móviles solo están disponibles si el grupo de informes está habilitado para el análisis de aplicaciones móviles.
 
-* **Mensajería:** Se centra en el rendimiento de la mensajería en la aplicación y mensajería push.
-* **Ubicación:** Incluye un mapa que muestra los datos de ubicación.
-* **Métricas clave:** Observar las métricas clave de su aplicación.
-* **Uso de la aplicación:** ¿Cuántos usuarios de la aplicación, ejecuciones y ejecuciones por primera vez ha tenido la aplicación y cuál es la longitud promedio de cada sesión?
 * **Adquisición:** Consulte el rendimiento de los vínculos de adquisición móvil.
+* **Uso de la aplicación:** ¿Cuántos usuarios de la aplicación, ejecuciones y ejecuciones por primera vez ha tenido la aplicación y cuál es la longitud promedio de cada sesión?
+* **Recorridos:** ¿Cuáles son los patrones de uso más destacados de mi aplicación?
+* **Métricas clave:** Observar las métricas clave de su aplicación.
+* **Ubicación:** Incluye un mapa que muestra los datos de ubicación.
+* **Mensajería:** Se centra en el rendimiento de la mensajería en la aplicación y mensajería push.
 * **Rendimiento:** ¿Qué rendimiento tiene la aplicación y dónde tienen problemas los usuarios?
 * **Retención:** ¿Quiénes son mis usuarios más fieles y qué hacen?
-* **Recorridos:** ¿Cuáles son los patrones de uso más destacados de mi aplicación?
 
 ### Comercial
 
@@ -121,6 +117,7 @@ Aquí hay un vídeo sobre el [!UICONTROL Tutorial de formación] plantilla:
 ### Web
 
 * **Adquisición:** ¿Cuáles son los principales impulsores de tráfico a mi sitio web?
+* **AEM información general sobre el rendimiento del sitio:** ¿Cómo está funcionando mi sitio de Adobe Experience Manager?
 * **Consumo de contenido:** ¿Cuáles son los principales lugares que visitan los usuarios en mi sitio web?
 * **Retención:** ¿Qué tipo de usuarios es más probable que sea leal a mi sitio?
 * **Tecnología:** ¿Qué tecnología utilizan los usuarios para acceder a mi sitio?
@@ -130,10 +127,6 @@ Aquí hay un vídeo sobre el [!UICONTROL Tutorial de formación] plantilla:
 >[!NOTE]
 >
 >La plantilla Personas y su métrica asociada Personas solo se pueden usar como parte de [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=es).
-
-Vídeo de información general sobre la plantilla Personas :
-
->[!VIDEO](https://video.tv.adobe.com/v/24037/?quality=12)
 
 Esta plantilla se basa en la métrica Personas que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. Esta plantilla le permite hacer lo siguiente:
 
@@ -145,7 +138,7 @@ Esta plantilla se basa en la métrica Personas que es una versión deduplicada d
 * Aprender a utilizar la función para apilas segmentos con la métrica Personas.
 * Descubra cómo mejorar la eficacia de la métrica Personas con el uso del Experience Cloud ID en su entorno.
 
-### Journey IQ: plantilla de análisis entre dispositivos
+### Recorrido IQ: Plantilla de análisis entre dispositivos
 
 <!--This content is mirrored in the CDA doc.-->
 
