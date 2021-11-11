@@ -2,13 +2,13 @@
 description: Proyectos “Solo consulta” en Workspace
 keywords: Proyectos de solo de vista
 title: Proyectos de solo de vista
-feature: Depurar y compartir
+feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '249'
-ht-degree: 100%
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 96%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 Puede compartir proyectos como “Solo consulta” a destinatarios a través del [flujo de trabajo de uso compartido de proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md). Los Destinatarios que se tengan la función “Puede ver” tendrán opciones limitadas dentro del proyecto. Esto puede ser útil si comparte un proyecto con usuarios que están menos familiarizados con la estructura de datos de su organización, con Analysis Workspace o con Adobe Analytics en general pero, aun así, desea que consuman datos y perspectivas en un entorno seguro.
 
 ![](assets/view-only-project.png)
+
+A continuación se muestra un vídeo introductorio de los proyectos de solo visualización:
+
+>[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
 
 ## Interacciones desactivadas
 

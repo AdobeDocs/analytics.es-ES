@@ -4,10 +4,10 @@ description: Puede establecer preferencias generales y de proyecto para los usua
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 79%
+source-wordcount: '277'
+ht-degree: 84%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 79%
 La página [!UICONTROL Componentes] > [!UICONTROL Preferencias de usuario] permite administrar la configuración de Analysis Workspace y sus componentes relacionados con el nivel de usuario. Las preferencias de usuario se aplican a todos los proyectos o paneles *nuevos*.
 
 ![Preferencias del usuario](assets/user-preferences.png)
+
+Aquí hay un breve vídeo sobre las preferencias de usuario:
+
+>[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
 ## Preferencias generales
 
@@ -46,8 +50,8 @@ Las preferencias de proyecto se aplican a nuevos proyectos y paneles creados en 
 
 Si prefiere tener un fondo oscuro en la interfaz de usuario de Adobe Analytics, puede alternar con [!UICONTROL Tema oscuro].
 
-1. Haga clic en el icono de usuario del Experience Cloud en la parte superior derecha.
+1. Haga clic en el icono de usuario de Experience Cloud en la parte superior derecha.
 
-   ![tema oscuro](assets/dark-theme.png)
+   ![tema-oscuro](assets/dark-theme.png)
 
-1. Mover el **[!UICONTROL Tema oscuro]** a la derecha.
+1. Mueva el selector del **[!UICONTROL Tema oscuro]** a la derecha.
