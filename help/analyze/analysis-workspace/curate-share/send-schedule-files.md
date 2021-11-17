@@ -2,19 +2,19 @@
 description: Puede depurar, compartir y programar proyectos PDF/CSV para destinatarios de su organización.
 title: Menú Compartir
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-feature: Depurar y compartir
+feature: Curate and Share
 role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 88%
 
 ---
 
 # Menú Compartir
 
-Puede depurar, compartir y programar proyectos PDF/CSV para destinatarios de su organización en el **menú Compartir** de Workspace.
+Puede depurar, compartir y programar proyectos de PDF/CSV para destinatarios de su organización en Workspace **Menú Compartir**.
 
 | Opción del menú | Descripción |
 |---|---|

@@ -3,10 +3,10 @@ description: Gestione proyectos programados de Analysis Workspace
 keywords: Analysis Workspace
 title: Administrador de proyectos programados
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 92%
+source-wordcount: '175'
+ht-degree: 86%
 
 ---
 
@@ -28,6 +28,10 @@ En el Administrador de programación de informes, puede editar y eliminar los en
 El Administrador de programación de proyectos muestra los artículos que ha creado un usuario en particular. Si la cuenta del usuario está desactivada en la aplicación, se detienen todos los envíos programados.
 
 ![](assets/scheduled-projects.png)
+
+## Programar tareas del administrador de proyectos
+
+En el [!UICONTROL Proyectos programados] La interfaz de usuario de puede:
 
 * Editar proyectos programados.
 * Ver el ID de programación de un proyecto (se utiliza principalmente para la depuración).
