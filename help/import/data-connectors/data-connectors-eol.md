@@ -2,7 +2,7 @@
 description: Descubra cuándo y por qué los conectores de datos de Analytics finalizarán su vida útil.
 title: Anuncio previo al fin de vida útil para los conectores de datos de Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 82e1c1d75db53f97b2f1858e26f6b369d157f834
+source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 99%
@@ -11,9 +11,9 @@ ht-degree: 99%
 
 # Fin de vida útil de Adobe Data Connectors
 
-Durante más de una década, Adobe Analytics se ha propuesto ofrecer la mejor solución de análisis de marketing y web para satisfacer las necesidades de los clientes. A medida que evolucionan las necesidades tecnológicas y empresariales, nos esforzamos por seguir ofreciendo y cumpliendo los más altos estándares.  Desafortunadamente, las API que alimentan esta integración ya no cumplen con esos estándares y no son válidas en la moderna infraestructura tecnológica de Adobe Analytics.
-
 **A partir del 19 de agosto de 2021** Adobe dejará de usar las integraciones de Data Connectors. El fin de vida forma parte del ciclo de vida de cualquier producto tecnológico y el objetivo de Adobe es lograr que la transición sea lo más fluida posible para nuestros clientes y socios. Muchas de estas integraciones están disponibles a través de Adobe Exchange y pueden seguir utilizándose.
+
+Durante más de una década, Adobe Analytics se ha propuesto ofrecer la mejor solución de análisis de marketing y web para satisfacer las necesidades de los clientes. A medida que evolucionan las necesidades tecnológicas y empresariales, nos esforzamos por seguir ofreciendo y cumpliendo los más altos estándares.  Desafortunadamente, las API que alimentan esta integración ya no cumplen con esos estándares y no son válidas en la moderna infraestructura tecnológica de Adobe Analytics.
 
 ## ¿Por qué queremos dejar de usar esta función?
 
@@ -62,7 +62,7 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 | Demandbase CA | Desaprobación |
 | Demandbase v3 | Desaprobación |
 | DialogTech | Migración a las API más recientes |
-| [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Desaprobación |
+| [DoubleClick for Advertisers (DFA)] | Desaprobación |
 | DREAM | Desaprobación |
 | DREAMmail 1.0, DREAMmail 2.0 | Desaprobación |
 | Dynamic Signal (Nital Vora) | Migración a las API más recientes |
