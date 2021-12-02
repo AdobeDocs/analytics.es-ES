@@ -1,13 +1,13 @@
 ---
 description: Las API de servicios web proporcionan acceso mediante programación a los informes de marketing y a otros servicios de Suite que permiten duplicar y aumentar la funcionalidad disponible a través de la interfaz de Analytics.
 title: Servicios Web
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 96%
+source-wordcount: '241'
+ht-degree: 87%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 96%
 
 Las API de servicios web proporcionan acceso mediante programación a los informes de marketing y a otros servicios de Suite que permiten duplicar y aumentar la funcionalidad disponible a través de la interfaz de Analytics.
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Administración]**  >  **[!UICONTROL Todos los administradores]**  > Configuración de la  **[!UICONTROL empresa]**  > Servicios  **[!UICONTROL web]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración de la empresa]** > **[!UICONTROL Servicios Web]**
 
 ## Administrar servicios Web
 
-En Administración de usuarios > [Grupos](/help/admin/user-management2/c-user-groups/groups.md) puede actualizar el grupo Acceso a servicio Web para incluir a los usuarios que necesitan acceder a las API de Servicios Web.
+En el [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html) puede actualizar los permisos para incluir a los usuarios que necesitan acceder a las API de servicios web.
 
 ## WSDL: descargue el archivo WSDL de la API de servicios web para los programadores de estos servicios.
 

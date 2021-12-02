@@ -1,17 +1,17 @@
 ---
-title: Permisos de perfil de productos para las herramientas de grupo de informes
+title: Permisos de perfil de producto para las herramientas de grupos de informes en Adobe Admin Console
 description: Comprenda cada elemento de permiso en Herramientas de grupos de informes.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 95%
 
 ---
 
 # Permisos de perfil de productos para las herramientas de grupo de informes
 
-Utilice esta página para comprender cada elemento de permisos en Herramientas de grupos de informes.
+Utilice esta página para comprender cada elemento de permiso dentro de Herramientas de grupos de informes en Adobe Admin Console.
 
 | Elementos de permiso de herramientas de grupos de informes | Descripción |
 |------|------|
