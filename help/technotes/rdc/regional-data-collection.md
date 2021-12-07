@@ -2,10 +2,10 @@
 title: Recopilación de datos regionales
 description: Información sobre la recopilación de datos regionales
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: e2fd69043e198d855dddd316b04215fde9f52cad
+source-git-commit: 1cf95a2bf57aacd6b0b5bdb1c3bf31d1b31339e0
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 75%
+source-wordcount: '491'
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Experience Cloud utiliza la recopilación de datos regionales (RDC) para q
 
 Actualmente, la recopilación de datos regionales incluye las siguientes ubicaciones (sujetas a cambios):
 
-## Recopilación de datos HTTP y de terceros
+## Recopilación de datos de terceros
 
 | Tipo de RDC | Centros de recopilación de datos |
 |---------------------|-------------------|
@@ -29,24 +29,24 @@ Actualmente, la recopilación de datos regionales incluye las siguientes ubicaci
 
 >[!NOTE]
 >
->If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. Puede determinarlo si ve alguno de estos puntos de conexión en la dirección URL de sus solicitudes.
+>Si la solicitud de imagen de Analytics se envía al `adobedc`, `2o7.net` o `omtrdc.net` extremos y, a continuación, tiene una recopilación de datos de terceros. Puede determinarlo si ve alguno de estos puntos de conexión en la dirección URL de sus solicitudes.
 
-## Recopilación propia de datos HTTPS
+## Recopilación de datos propia
 
 | Tipo de RDC | Centros de recopilación de datos |
 |---------------------|-------------------|
 | Global (predeterminado) | Oregón, Virginia, Irlanda, París, Mumbai, Singapur, Tokio, Sydney |
-| Global + China* | China*, Oregon, Virginia, Ireland, Paris, Mumbai, Singapore, Tokyo, Sydney |
+| Global + China* | China*, Oregón, Virginia, Irlanda, París, Mumbai, Singapur, Tokio, Sydney |
 | Solo para América del Norte y América del Sur | Oregón, Virginia |
 | Solo Europa | Irlanda, París |
 | Solo Asia-Pacífico | Mumbai, Singapur, Tokio, Sydney |
-| China Only* | Pekín |
+| Solo para China* | Pekín |
 
-*China Only and Global + China RDC types require the China Add-On package. Consulte la nota “Importante” anterior. Global + China enrutará los datos que se originen dentro de China a nuestra RDC de China mientras enrutan los datos que se originan fuera de China a la RDC más cercana fuera de China.
+*Los tipos de RDC Solo China y Global + China requieren el paquete de complementos de China. Consulte la nota “Importante” anterior. Global + China enrutará los datos que se originen dentro de China a nuestra RDC de China mientras enrutan los datos que se originan fuera de China a la RDC más cercana fuera de China.
 
 >[!NOTE]
 >
->Experience Edge Global provides the best performance for your end users.  Si desea utilizar un tipo de RDC alternativo, póngase en contacto con el servicio de atención al cliente de Adobe para obtener ayuda.
+>Experience Edge Global ofrece el mejor rendimiento para sus usuarios finales.  Si desea utilizar un tipo de RDC alternativo, póngase en contacto con el servicio de atención al cliente de Adobe para obtener ayuda.
 
 ## Ventajas de la recopilación de datos regionales
 
