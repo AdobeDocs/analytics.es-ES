@@ -1,9 +1,8 @@
 ---
 description: Aprenda a implementar el etiquetado de grupos múltiples para enviar solicitudes de imagen a varios grupos de informes.
 title: Implementación del etiquetado de grupos múltiples
-exl-id: null
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: ht
+source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
