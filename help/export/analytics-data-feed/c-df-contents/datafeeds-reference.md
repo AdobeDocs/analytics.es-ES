@@ -6,10 +6,10 @@ title: Referencia de columnas de datos
 feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
-workflow-type: ht
-source-wordcount: '3420'
-ht-degree: 100%
+source-git-commit: 20a4ee51d0eace9cdcb5e0aeff5704b9a757a1eb
+workflow-type: tm+mt
+source-wordcount: '3432'
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `color` | ID de profundidad de color basada en el valor de la columna `c_color`. Se remite a la tabla de búsqueda `color_depth.tsv`. | smallint sin firmar |
 | `connection_type` | ID numérica que representa el tipo de conexión. Variable utilizada en la dimensión [Tipo de conexión](/help/components/dimensions/connection-type.md). Se remite a la tabla de búsqueda `connection_type.tsv`. | tinyint sin firmar |
 | `cookies` | Variable utilizada en la dimensión [Compatibilidad con cookies](/help/components/dimensions/cookie-support.md).<br>S: Habilitado<br>N: No habilitado<br>D: Desconocido | char(1) |
-| `country` | ID numérica que representa el país desde el que provino el clic. Se utiliza en la dimensión [Países](/help/components/dimensions/countries.md). Utiliza la búsqueda `country.tsv`. | smallint sin firmar |
+| `country` | ID numérica que representa los valores encontrados en la variable `country.tsv` búsqueda. Se utiliza en el informe Dominios de nivel superior de Reports &amp; Analytics. | smallint sin firmar |
 | `ct_connect_type` | En relación con la columna `connection_type`. Los valores más comunes son LAN/Wi-Fi, Operador de telefonía móvil y Módem. | char(20) |
 | `curr_factor` | Determina el lugar decimal de la moneda y se utiliza para la conversión de monedas. Por ejemplo, USD utiliza dos lugares decimales, por lo que el valor de esta columna debe ser 2. | tinyint |
 | `curr_rate` | El tipo de cambio vigente cuando se produjo la transacción. Adobe se asocia con XE para determinar el tipo de cambio del día. | decimal(24,12) |
@@ -77,11 +77,11 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `first_hit_ref_type` | ID numérica que representa el tipo de referente del primer referente del visitante. Utiliza la búsqueda `referrer_type.tsv`. | tinyint sin firmar |
 | `first_hit_referrer` | La primera URL de referencia del visitante. | varchar(255) |
 | `first_hit_time_gmt` | Marca de tiempo de la primera visita del visitante en Tiempo Unix. | int |
-| `geo_city` | Nombre de la ciudad de la que provino la visita basado en la dirección IP. Se utiliza en la dimensión [Cities](/help/components/dimensions/cities.md). | char(32) |
-| `geo_country` | Abreviatura del país del que provino la visita basada en la dirección IP. | char(4) |
-| `geo_dma` | ID numérica del área demográfica de la que provino la visita basada en la dirección IP. Se utiliza en la dimensión [US DMA](/help/components/dimensions/us-dma.md). | int sin firmar |
-| `geo_region` | Nombre del estado o región del que provino la visita basado en la dirección IP. Se utiliza en la dimensión [Regiones](/help/components/dimensions/regions.md). | char(32) |
-| `geo_zip` | El código postal del que provino la visita basado en la dirección IP. Ayuda a rellenar la dimensión [Código postal](/help/components/dimensions/zip-code.md). Consulte también `zip`. | varchar(16) |
+| `geo_city` | Nombre de la ciudad de la que provino la visita, basado en la dirección IP. Se utiliza en la dimensión [Cities](/help/components/dimensions/cities.md). | char(32) |
+| `geo_country` | Abreviación del país desde el que provino la visita, basada en la dirección IP. Se utiliza en la dimensión [Países.](/help/components/dimensions/countries.md) | char(4) |
+| `geo_dma` | ID numérica del área demográfica de la que provino la visita, según la dirección IP. Se utiliza en la dimensión [US DMA](/help/components/dimensions/us-dma.md). | int sin firmar |
+| `geo_region` | Nombre del estado o región de donde provino la visita, según la dirección IP. Se utiliza en la dimensión [Regiones](/help/components/dimensions/regions.md). | char(32) |
+| `geo_zip` | El código postal del que provino la visita, basado en la dirección IP. Ayuda a rellenar la dimensión [Código postal](/help/components/dimensions/zip-code.md). Consulte también `zip`. | varchar(16) |
 | `hier1 - hier5` | Se utiliza por variables de jerarquía. Contiene una lista delimitada de valores. El delimitador se selecciona en virtud de la configuración del grupo de informes. | varchar(255) |
 | `hit_source` | Indica la fuente de la que provino la visita. Se facturan las fuentes de visitas 1, 2 y 6. <br>1: Solicitud de imagen estándar sin marca de tiempo <br>2: Solicitud de imagen estándar con marca de tiempo <br>3: Carga de la fuente de datos activa con marcas de tiempo<br>4: Sin usar <br>5: Carga genérica de la fuente de datos <br>6: Carga completa de la fuente de datos de procesamiento <br>7: Carga del origen de datos TransactionID <br>8: Ya no se utiliza; versiones anteriores de las fuentes de datos de Adobe Advertising Cloud <br>9: Ya no se utiliza; métricas resumen de Adobe Social <br>10: Envío del lado del servidor de Audience Manager utilizado | tinyint sin firmar |
 | `hit_time_gmt` | La marca de tiempo de los servidores de recopilación de datos de visitas de Adobe que recibieron la visita, basada en la hora Unix. | int |
