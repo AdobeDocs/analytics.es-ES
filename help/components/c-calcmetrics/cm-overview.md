@@ -5,9 +5,9 @@ title: Métricas calculadas y calculadas avanzadas (derivadas)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,12 +39,12 @@ A continuación se muestra una comparación de las competencias de las métricas
 Puede
 
 * Cree métricas en [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución].
-* Crear métricas segmentadas que se derivan del tiempo de ejecución de un informe, sin tener que cambiar la implementación. Éstas pueden verse en el historial, ya que se basan en segmentos. Aquí tiene un vídeo sobre las métricas sin implementación:
+* Crear métricas segmentadas que se derivan del tiempo de ejecución de un informe, sin tener que cambiar la implementación. Estas pueden verse en el historial, ya que se basan en segmentos. Aquí tiene un vídeo sobre las métricas sin implementación:
 
    >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 * Compartir métricas entre grupos de informes. Esto significa que todas las métricas de reciente creación se aplican a todos los grupos de informes en la misma empresa de inicio de sesión.
-* (Solo métricas calculadas avanzadas) Segmentar métricas. Por ejemplo, puede crear una métrica para “Visitantes nuevos”, con un recuento de personas de las cuales sea la primera sesión. Aquí hay un vídeo sobre este tema:
+* (Solo métricas calculadas avanzadas) Segmentar métricas. Por ejemplo, puede crear una métrica para “Visitantes nuevos”, con un recuento de personas de las cuales sea la primera sesión. A continuación se muestra un vídeo sobre este tema:
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
