@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos.
 
-Aquí hay un vídeo sobre el uso de intervalos de fechas y calendarios en Analysis Workspace:
+Aquí tiene un vídeo sobre el uso de intervalos de fechas y calendarios en Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
 
