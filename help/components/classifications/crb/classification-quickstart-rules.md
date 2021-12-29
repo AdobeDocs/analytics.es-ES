@@ -5,9 +5,9 @@ title: Reglas de clasificación
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2020'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ El Generador de reglas permite crear un *conjunto de reglas de clasificación*, 
 
 Las reglas de clasificación resultan adecuadas para:
 
-* **Correo electrónico** y **Publicidades en pantalla**: Cree reglas de clasificación para agrupar campañas de anuncios en pantalla individuales, de modo que pueda conocer el rendimiento de las campañas de visualización frente a las de correo electrónico.
+* **Correo electrónico** y **anuncios en pantalla**: al crear reglas de clasificación pueden agruparse campañas de anuncios en pantalla individuales, y esto permite comprobar los resultados de las campañas de visualización frente a las de correo electrónico.
 
 * **Códigos de seguimiento**: con las reglas de clasificación pueden aplicarse categorías a los valores clave derivados de cadenas de códigos de seguimiento, y hacerlos coincidir con los criterios específicos definidos.
 * **Términos de búsqueda**: las [expresiones regulares](/help/components/classifications/crb/classification-quickstart-rules.md) y los comodines simplifican la clasificación de los términos de búsqueda. Por ejemplo, si un término de búsqueda contiene *`baseball`*, puede establecer una *`Sports League`* clasificación en *`MLB`*.
@@ -39,7 +39,7 @@ Pueden definirse un máximo de tres reglas en un conjunto de reglas para identif
 | Finaliza con | Venta | Tipo | Venta |
 | Contiene | 2013 | Año | 2013 |
 
-## Cómo procesar las reglas {#how-rules-are-processed}
+## Cómo se procesan las reglas {#how-rules-are-processed}
 
 Información relevante sobre cómo procesar las reglas de clasificación.
 
@@ -153,7 +153,7 @@ En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muest
 
 | Expresión regular | Cadena o resultados de coincidencias | Grupos de coincidencias correspondientes |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | em :JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
 | Creación de la sintaxis | `^` = comienza la línea  () = agrupa los caracteres y permite extraer los coincidentes entre paréntesis.  `(.+)` = captura uno ( . ) carácter y ( + ) más  \ = inicio de una cadena.  `$` = indica que el carácter (o grupo de caracteres) precedente es el último de la línea. |
 
 Consulte [Expresiones regulares: tabla de referencia](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) para obtener más información sobre el significado de los caracteres de las expresiones regulares.
@@ -202,10 +202,10 @@ En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muest
 |--- |--- |--- |--- |
 | Expresión regular: Para cadena de coincidencia a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
 | Expresión regular: Para cadena de coincidencia a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Expresión regular: Para la cadena de coincidencia a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Expresión regular: Para la cadena de coincidencia a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Expresión regular: Para la cadena de coincidencia a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Expresión regular: Para la cadena de coincidencia a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Expresión regular  Para la cadena de coincidencia a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Expresión regular  Para la cadena de coincidencia a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Expresión regular  Para la cadena de coincidencia a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| Expresión regular  Para la cadena de coincidencia a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## Expresiones regulares: ejemplo de &quot;No contiene&quot; {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -298,7 +298,7 @@ Del mismo modo, supongamos que se configuran hasta dos reglas en un conjunto par
 
 Un usuario busca *`Cowboys vs. Broncos`*. Si el Generador de reglas encuentra un conflicto en la coincidencia de reglas, se aplicará a la búsqueda la clasificación de la segunda regla (Denver).
 
-## Agregar una regla de clasificación a un conjunto de reglas {#add-classification-to-rule-set}
+## Adición de una regla de clasificación a un conjunto de reglas {#add-classification-to-rule-set}
 
 <!-- 
 
