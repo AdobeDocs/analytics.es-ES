@@ -3,9 +3,9 @@ title: Administración de trabajos de fuentes de datos
 description: Obtenga información sobre cómo administrar trabajos individuales en fuentes de datos.
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: 963e66b05cc401956211c28b9ffeb9aad6bed604
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Cada trabajo muestra varias columnas que proporcionan información al respecto. 
    * Esperando datos: el trabajo está en funcionamiento y se están recopilando datos para la ventana de informes.
    * Procesando: el trabajo está creando los archivos de datos y preparándolos para su envío.
    * Finalizado: el trabajo se completó sin problemas.
-   * Error: el trabajo no se completó. Consulte [Solución de problemas de fuentes de datos](troubleshooting.md) para ayudar a determinar la causa del error.
+   * Error: el trabajo no se completó. Consulte [Solución de problemas de fuentes de datos](troubleshooting.md) para determinar la causa del error.
    * Esperando exportación: los datos de la ventana de informes aún no se han procesado por completo.
    * Sin datos: no hay datos en el grupo de informes para la ventana de informes solicitada.
 * **Hora de finalización**: la hora en que finalizó el trabajo. La fecha y la hora se muestran en la zona horaria del grupo de informes con horario GMT.
