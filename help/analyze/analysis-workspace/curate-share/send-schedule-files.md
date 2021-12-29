@@ -6,15 +6,15 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
 source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Menú Compartir
 
-Puede depurar, compartir y programar proyectos de PDF/CSV para destinatarios de su organización en Workspace **Menú Compartir**.
+Puede depurar, compartir y programar proyectos PDF/CSV para destinatarios de su organización en el **menú Compartir** de Workspace.
 
 | Opción del menú | Descripción |
 |---|---|
