@@ -6,9 +6,9 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ La depuración permite limitar los componentes (dimensiones, métricas, segmento
 >[!NOTE]
 > Los perfiles de productos son el mecanismo principal que controla los componentes que puede ver un usuario. Se administran a través de Admin Console en Adobe Experience Cloud. La depuración es un filtro secundario.
 
-Aquí hay un video sobre la depuración y el uso compartido del proyecto:
+Aquí tiene un vídeo sobre la depuración y el uso compartido del proyecto:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24711/?quality=12)
 
