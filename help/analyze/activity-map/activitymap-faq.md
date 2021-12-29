@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: 7b093860dfd0c355780269a3d155ade2d153edfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -84,15 +84,15 @@ No, los segmentos no funcionan en el modo Activo. La funcionalidad es equivalent
 
 Sí. Sin embargo, debido a las limitaciones de los grupos de informes virtuales, el modo Activo de Activity Map no es compatible con los grupos de informes virtuales.
 
-## ¿Cómo puedo deshabilitar el Activity Map?
+## ¿Cómo puedo deshabilitar Activity Map?
 
-Tiene tres opciones:
+Existen tres opciones:
 
-* Elimine el `AppMeasurement_Module_ActivityMap` desde el archivo JS
-* Añada código personalizado que reescriba la función anterior con un cuerpo vacío, por ejemplo:
+* Elimine la función `AppMeasurement_Module_ActivityMap` desde el archivo JS
+* Añada un código personalizado que reescriba la función anterior con un cuerpo vacío, por ejemplo:
 
    ```
    function AppMeasurement_Module_ActivityMap() {}
    ```
 
-* Configurar AppMeasurement estableciendo `s.trackClickMap` y `s.trackInlineStats` a `false`
+* Configure AppMeasurement estableciendo `s.trackClickMap` y `s.trackInlineStats` a `false`
