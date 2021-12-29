@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
 source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '102'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados.
 
-Aquí hay un vídeo sobre el [!UICONTROL Gráfico de rectángulos] visualización:
+Aquí tiene un vídeo sobre la visualización de [!UICONTROL Gráfico de rectángulos]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334458/?quality=12)
 
