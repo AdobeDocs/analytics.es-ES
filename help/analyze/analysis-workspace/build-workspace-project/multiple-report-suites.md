@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Esta capacidad es útil si desea, por ejemplo,
 
 * Cree un tablero de métricas y visualizaciones para informar a otras organizaciones. Ahora puede incluir datos de varios grupos de informes en el mismo proyecto.
 
-Aquí hay un video sobre el tema:
+A continuación, se muestra un vídeo sobre este tema:
 
 >[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
