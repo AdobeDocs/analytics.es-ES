@@ -6,21 +6,21 @@ feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Número de resumen y cambio de resumen
+# [!UICONTROL Número de resumen] y [!UICONTROL Cambio de resumen]
 
-Aquí hay un vídeo sobre estas dos visualizaciones:
+Aquí tiene un vídeo sobre estas dos visualizaciones:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
 
-## [!UICONTROL Visualización Número de resumen] {#summary-number}
+## Visualización [!UICONTROL Número de resumen] {#summary-number}
 
-Utilice la variable [!UICONTROL Número de resumen] visualización para resaltar un gran número que es importante en un proyecto. Esta visualización se comporta de las siguientes maneras:
+Utilice la visualización [!UICONTROL Número de resumen] para resaltar un número elevado que sea importante en un proyecto. Esta visualización se comporta de las siguientes maneras:
 
 * Selecciona el total de la columna en caso de que no se haya seleccionado ninguna celda.
 * Si se selecciona una única celda, se muestra el resumen de esta.
@@ -32,13 +32,13 @@ Haga clic en el icono de engranaje de **Configuración de la visualización** si
 | Configuración | Definición |
 |--- |--- |
 | [!UICONTROL Porcentajes] | Muestra porcentajes en lugar de números en bruto. |
-| [!UICONTROL Leyenda visible] | Muestra información sobre la métrica mostrada. |
-| [!UICONTROL Valor abreviado] | Elige abreviar los valores y mostrar hasta 3 decimales. |
-| [!UICONTROL Valor de resumen por] | Elige mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
+| [!UICONTROL Leyenda visible] | Muestra información acerca de la métrica mostrada. |
+| [!UICONTROL Valor abreviado] | Elija abreviar los valores y mostrar hasta 3 decimales. |
+| [!UICONTROL Valor de resumen por] | Elija mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
 
-## [!UICONTROL Visualización Cambio de resumen] {#summary-change}
+## Visualización [!UICONTROL Cambio de resumen] {#summary-change}
 
-Utilice la variable [!UICONTROL Cambio de resumen] visualización para mostrar el delta (cambio) entre dos números. El color verde y rojo del [!UICONTROL Cambio de resumen] se puede controlar mediante [polaridad de evento personalizada](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=es) o una métrica calculada [Mostrar tendencia ascendente como](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=es) .
+Utilice la visualización [!UICONTROL Cambio de resumen] para mostrar el delta (cambio) entre dos números. El color verde y rojo del [!UICONTROL Cambio de resumen] se puede controlar mediante la [polaridad de evento personalizado](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=es) o mediante la opción [Mostrar tendencia ascendente como](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=es) de una métrica calculada.
 
 Esta visualización se comporta de las siguientes maneras:
 
@@ -58,6 +58,6 @@ Haga clic en el icono de engranaje de **Configuración de la visualización** si
 | Configuración | Definición |
 | --- | --- |
 | [!UICONTROL Porcentajes] | Muestra porcentajes en lugar de números en bruto. |
-| [!UICONTROL Leyenda visible] | Muestra información sobre la métrica mostrada. |
+| [!UICONTROL Leyenda visible] | Muestra información acerca de la métrica mostrada. |
 | [!UICONTROL Mostrar cambio de porcentaje] | Muestra el cambio porcentual entre los 2 números. |
 | [!UICONTROL Mostrar diferencia en bruto] | Muestra la diferencia en bruto entre los 2 números. También puede abreviar valores y mostrar hasta 3 decimales con esta opción. |
