@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 source-git-commit: a6b38c6e7a34c876524ebe15514ac205898549d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ A continuación, puede ver un fragmento de HTML de muestra donde se usa el atrib
   </div>
 ```
 
-Si lo desea, puede etiquetar elementos con un identificador de cadena al azar, en este caso “lpos”, y luego agregar atributos con el nombre “lpos”.
+Si lo desea, puede etiquetar elementos con un identificador de cadena al azar, en este caso “lpos”, y luego añadir atributos con el nombre “lpos”.
 
 ```
 <script language="JavaScript" type="text/javascript">
@@ -119,7 +119,7 @@ Estas variables se indican únicamente como referencia. Activity Map viene confi
 
 ### `s.ActivityMap.regionIDAttribute`
 
-Cadena que identifica el atributo de etiqueta que se utilizará como ID de región de algún elemento antecesor (parent, parent.parent...) de `s.linkObject`, es decir, **el elemento en el que se hizo clic**.
+Cadena que identifica el atributo de etiqueta que se usará como ID de región de algún elemento antecesor (parent, parent.parent...) de `s.linkObject`, es decir, **el elemento donde se hizo clic**.
 
 **Ejemplo**
 
@@ -127,7 +127,7 @@ El parámetro predeterminado es “id”. Puede establecerla en otro parámetro.
 
 ### `s.ActivityMap.link`
 
-Función que recibe el clic `HTMLElement` y deben devolver un valor de cadena que represente el vínculo en el que se hizo clic. Si el valor devuelto es falso (nulo, indefinido, cadena vacía, 0), no se realiza el seguimiento de ningún vínculo.
+Función que recibe el `HTMLElement` en el que se hizo clic y que devuelve un valor de cadena que representa el vínculo en el que se hizo clic. Si el valor devuelto es falso (nulo, indefinido, cadena vacía, 0), no se realiza el seguimiento del vínculo.
 
 **Ejemplo**
 
@@ -144,7 +144,7 @@ function(clickedElement) {
 
 ### `s.ActivityMap.region`
 
-Función que recibe el elemento HTML donde se hizo clic y que devuelve un valor de cadena que representa **la región donde estaba el vínculo cuando se hizo clic en él.** Si el valor devuelto es falso (nulo, indefinido, cadena vacía, 0), no se realiza el seguimiento de ningún vínculo.
+Función que recibe el elemento HTML donde se hizo clic y que devuelve un valor de cadena que representa **la región donde estaba el vínculo cuando se hizo clic en él.** Si el valor devuelto es falso (nulo, indefinido, cadena vacía, 0), no se realiza el seguimiento del vínculo.
 
 **Ejemplo**
 
