@@ -1,22 +1,22 @@
 ---
-description: Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. La eliminación del tráfico del bot puede proporcionar una medida más precisa de la actividad del usuario en el sitio web.
+description: Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. La eliminación del tráfico de bots puede proporcionar una medida más precisa de la actividad del usuario en el sitio web.
 subtopic: Bot rules
 title: Resumen sobre reglas de Bot
 feature: Admin Tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1364'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Resumen sobre reglas de Bot
 
-Las reglas de bots le permiten eliminar el tráfico del grupo de informes generado por arañas web y bots conocidos. La eliminación del tráfico del bot puede proporcionar una medida más precisa de la actividad del usuario en el sitio web.
+Las reglas de bots le permiten eliminar el tráfico del grupo de informes generado por arañas web y bots conocidos. La eliminación del tráfico de bots puede proporcionar una medida más precisa de la actividad del usuario en el sitio web.
 
-Aquí hay un vídeo sobre la configuración de reglas de bots:
+Aquí tiene un vídeo sobre la configuración de reglas de bots:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
 
