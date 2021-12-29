@@ -6,9 +6,9 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
 source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -53,16 +53,16 @@ En el Administrador de proyectos programados, puede editar y eliminar la program
 
 | Campo | Descripción |
 | --- | --- |
-| Favoritos | Al seleccionar el icono de estrella, esta programación es favorita. |
-| ID de programa | Este ID se utiliza principalmente con fines de depuración. |
+| Favoritos | Al seleccionar el icono de estrella, marca esta programación como favorita. |
+| ID de programación | Este ID se utiliza principalmente con fines de depuración. |
 | Título y descripción | Título y descripción de este proyecto. |
-| Propietario | La persona que creó y es propietaria del proyecto. |
+| Propietario | La persona que creó el proyecto y es de su propiedad. |
 | Etiquetas | (opcional) El etiquetado es una buena forma de organizar los proyectos. Todos los usuarios pueden crear etiquetas y aplicar una o más a un proyecto. Sin embargo, solo verá las etiquetas de los proyectos que sean suyos o que se hayan compartido con usted. |
-| Enviado a | Destinatarios de este proyecto programado. |
-| Fecha de caducidad | La fecha de caducidad predeterminada es de un año a partir de la fecha de creación. |
-| Frecuencia | La frecuencia con la que desea que este proyecto de programación se envíe a los destinatarios. |
-| Tiempo de ejecución | A qué hora del día se envía este proyecto programado. |
-| Número de consultas | Número de consultas con este proyecto. |
+| Entregado a | Los destinatarios de este proyecto programado. |
+| Fecha de caducidad | De forma predeterminada, la fecha de caducidad es de un año a partir de la fecha de creación. |
+| Frecuencia | La frecuencia con la que desea que este proyecto programado se envíe a los destinatarios. |
+| Hora de ejecución | A qué hora del día se envía este proyecto programado. |
+| Cantidad de consultas | Número de consultas de este proyecto. |
 
 ## Acciones comunes
 
