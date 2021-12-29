@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3864'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -371,7 +371,7 @@ La duración está especificada por una sola letra en mayúsculas que representa
 |--- |--- |
 | AFTER | El operador After se usa para especificar un límite mínimo de tiempo entre dos puntos de comprobación. Al establecer los valores de Después, el límite de tiempo empezará cuando se aplique el segmento. Por ejemplo, si el operador After se configura en un contenedor para identificar a los visitantes que visitan la página A pero no regresan a la página B hasta después de un día, ese día empezará cuando el visitante abandone la página A. Para que el visitante se incluya en el segmento, debe transcurrir un mínimo de 1440 minutos (un día) desde que salió de la página A hasta que visitó la página B. |
 | WITHIN | El operador Within se usa para especificar un límite máximo de tiempo entre dos puntos de comprobación. Por ejemplo, si el operador Within se configura en un contenedor para identificar a los visitantes que visitan la página A y luego regresan para visitar la página B en un día, ese día comenzará cuando el visitante abandone la página A. Para incluirse en el segmento, el visitante tendrá un tiempo máximo de un día antes de abrir la página B. Para que el visitante se incluya en el segmento, la visita a la página B debe realizarse en un máximo de 1440 minutos (un día) desde que salió de la página A hasta que visitó la página B. |
-| AFTER/WITHIN | Al usar los operadores After y Within, es importante entender que ambos operadores empezarán y finalizarán en paralelo, no en secuencia.   Por ejemplo, si genera un segmento con el contenedor establecido en: <br>`After = 1 Week(s) and Within = 2 Week(s)`<br>, las condiciones para identificar a los visitantes en el segmento solo se satisfacen entre 1 y 2 semanas. Ambas condiciones se aplican desde el momento de la primera visita individual a la página. |
+| AFTER/WITHIN | Al usar los operadores After y Within, es importante entender que ambos operadores empezarán y finalizarán en paralelo, no en secuencia.   Por ejemplo, si genera un segmento con el contenedor establecido en:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>, las condiciones para identificar a los visitantes en el segmento solo se satisfacen entre 1 y 2 semanas. Ambas condiciones se aplican desde el momento de la primera visita individual a la página. |
 
 ### Usar el operador After
 
