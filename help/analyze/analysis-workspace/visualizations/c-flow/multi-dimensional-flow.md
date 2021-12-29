@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 Un flujo interdimensional le permite examinar las rutas del usuario entre diversas dimensiones.
 
-Aquí hay un vídeo sobre el ajuste de texto y el flujo multidimensional en Analysis Workspace:
+Aquí tiene un vídeo sobre el ajuste de texto y el flujo multidimensional en Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
