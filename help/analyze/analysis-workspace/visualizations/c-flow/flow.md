@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Le permite:
 >
 >Para obtener información sobre cómo pueden diferir los resultados de aplicar segmentos a Flujo entre Analysis Workspace y Reports &amp; Analytics, consulte [Segmentación como base para Flujo y Visitas en orden previsto](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-Este es un tutorial de vídeo de visualización de flujo:
+Este es un tutorial en vídeo de visualización de flujo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24045/?quality=12)
 
