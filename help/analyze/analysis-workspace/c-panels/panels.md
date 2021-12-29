@@ -5,15 +5,15 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Resumen de paneles
 
-Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono de la parte superior izquierda de Workspace o desde un [panel en blanco](blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, grupos de informes o casos de uso de análisis.
+Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono de la parte superior izquierda del Espacio de trabajo o desde un [panel en blanco](blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, grupos de informes o casos de uso de análisis.
 
 ## Tipos de panel
 
@@ -48,7 +48,7 @@ La lista de los grupos de informes se ordena según la relevancia que Adobe defi
 El calendario del panel controla el intervalo de la creación de informes de las tablas y visualizaciones de un panel.
 
 >[!NOTE]
->Si se utiliza un componente de intervalo de fechas (morado) dentro de una zona de colocación de tabla, visualización o panel, anula el calendario del panel.
+>Si se utiliza un componente de intervalo de fecha (púrpura) en una tabla, una visualización o en la zona de colocación del panel, se anula el calendario del panel.
 
 ![](assets/panel-calendar.png)
 
@@ -56,7 +56,7 @@ Puede aplicar un intervalo de fechas de nivel de minuto bajo la configuración a
 
 ## Zona de colocación {#dropzone}
 
-La zona de colocación del panel le permite aplicar filtros de segmento y desplegable a todas las tablas y visualizaciones de un panel. Puede aplicar uno o varios filtros a un panel. El título sobre cada filtro se puede modificar haciendo clic en el lápiz de edición, o bien puede hacer clic con el botón derecho para eliminarlo por completo.
+La zona de colocación del panel permite aplicar filtros de segmentos y desplegables a todas las tablas y visualizaciones dentro de un panel. Puede aplicar uno o varios filtros a un panel. El título sobre cada filtro se puede modificar haciendo clic en el lápiz de edición, o bien puede hacer clic con el botón derecho para eliminarlo por completo.
 
 ### Filtros de segmentos
 
@@ -90,7 +90,7 @@ Para crear filtros desplegables:
 
 [Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=es) para obtener más información sobre cómo añadir filtros desplegables al proyecto.
 
-## Haga clic con el botón derecho en el menú {#right-click}
+## Menú contextual {#right-click}
 
 Para obtener más funcionalidades, haga clic con el botón derecho en el encabezado del panel.
 
