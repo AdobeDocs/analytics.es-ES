@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Hay dos modos de utilizar métricas en Analysis Workspace.
 
 * O puede hacer clic en **[!UICONTROL Componentes]** > **[!UICONTROL Nueva métrica]**. Esto le llevará al [Generador de métricas calculadas](/help/components/c-calcmetrics/cm-overview.md), donde puede generar métricas personalizadas a partir de las ya existentes.
 
-Aquí tiene un vídeo sobre cómo trabajar con métricas en una tabla improvisada:
+Este es un vídeo sobre cómo trabajar con métricas en una tabla de forma libre:
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
@@ -46,8 +46,8 @@ Si quiere comparar rápida y fácilmente un modelo de atribución con otro, haga
 
 Este método abreviado permite comparar rápida y fácilmente un modelo de atribución con otro sin tener que arrastrar una métrica y configurarla dos veces.
 
-## Utilice la variable [!UICONTROL promedio acumulativo] función para aplicar suavizado de métricas
+## Uso de la función [!UICONTROL media acumulativa] para aplicar el suavizado de métricas
 
-A continuación, se muestra un vídeo introductorio sobre este tema:
+A continuación, se muestra un vídeo sobre este tema:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27068/?quality=12)
