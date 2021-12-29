@@ -1,18 +1,18 @@
 ---
-title: Preguntas frecuentes sobre el tiempo invertido en reproducción de contenido
-description: ¿Qué son las preguntas frecuentes sobre el tiempo invertido en la reproducción de contenido?
+title: Preguntas frecuentes sobre el Tiempo invertido en la reproducción de medios
+description: ¿Cuáles son las preguntas frecuentes sobre el Tiempo invertido en la reproducción de medios?
 feature: Panels
 role: User, Admin
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 
-# Preguntas frecuentes sobre el tiempo invertido en reproducción de contenido
+# Preguntas frecuentes sobre el Tiempo invertido en la reproducción de medios
 
 
 | Pregunta | Respuesta |
