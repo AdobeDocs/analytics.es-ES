@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
 source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 La partición de tiempo toma la marca de hora de los aciertos recogidos y lo divide en dimensiones más significativas, como “Hora del día” o “Día de la semana”.
 
-Aquí hay un vídeo sobre las dimensiones de partición de tiempo:
+Aquí tiene un vídeo sobre las dimensiones de partición de tiempo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
 
