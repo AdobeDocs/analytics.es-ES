@@ -1,17 +1,17 @@
 ---
-title: Permisos de perfil de producto para las herramientas de grupos de informes en Adobe Admin Console
+title: Permisos de perfil de producto para las herramientas de grupo de informes en Adobe Admin Console
 description: Comprenda cada elemento de permiso en Herramientas de grupos de informes.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Permisos de perfil de productos para las herramientas de grupo de informes
 
-Utilice esta página para comprender cada elemento de permiso dentro de Herramientas de grupos de informes en Adobe Admin Console.
+Utilice esta página para comprender cada elemento de permiso dentro de Herramientas de grupo de informes en Adobe Admin Console.
 
 | Elementos de permiso de herramientas de grupos de informes | Descripción |
 |------|------|
@@ -31,7 +31,7 @@ Utilice esta página para comprender cada elemento de permiso dentro de Herramie
 | Visitante único | Otorga acceso a Conversión > Variable única de visitante. No suele usarse en implementaciones modernas. |
 | Eventos de éxito | Otorga acceso a Conversión > Eventos de éxito en el Administrador de grupos de informes. |
 | Variables de lista | Otorga acceso a Conversión > Variables de lista en el Administrador de grupos de informes. |
-| Medidas predeterminadas | Otorga acceso a Configuración de grupos de informes individuales > Métricas predeterminadas en el Administrador de grupos de informes. |
+| Métricas predeterminadas | Otorga acceso a Configuración de grupos de informes individuales > Métricas predeterminadas en el Administrador de grupos de informes. |
 | Reglas de procesamiento | Otorga acceso a General > Reglas de procesamiento y General > Reglas de bots en el Administrador de grupos de informes. |
 | Detección de anomalías | Otorga acceso a la Detección de anomalías en Analysis Workspace. |
 | Análisis de contribución | Otorga acceso al menú que aparece al hacer clic con el botón derecho en &#39;Ejecutar análisis de contribución&#39; en Analysis Workspace. |
@@ -42,7 +42,7 @@ Utilice esta página para comprender cada elemento de permiso dentro de Herramie
 | Administrador de feeds de datos | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. |
 | Informe del Data Warehouse personalizado | Otorga acceso a Herramientas > Data Warehouse en la navegación superior de Analytics. |
 | Visitas de retorno diario | Otorga acceso a Retención de visitantes > Visitas de retorno diario en Reports &amp; Analytics. |
-| Administrador de fuentes de datos | Otorga acceso a Administración > Todos los admin > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
+| Administrador de las fuentes de datos | Otorga acceso a Administración > Todos los admin > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
 | Excluir por dirección IP | Otorga acceso a Administración > Excluir por dirección IP en la navegación superior de Analytics. |
 | Visitas de retorno | Otorga acceso a Retención de visitantes > Visitas de retorno en Reports &amp; Analytics. |
 | Clasificaciones | Otorga acceso a todas las configuraciones de clasificación en el Administrador de grupos de informes. Este elemento de permiso incluye: <br>Tráfico > Clasificaciones de tráfico<br>Conversión > Clasificaciones de conversión<br>Conversión > Jerarquías de clasificación<br>Canales de marketing > Clasificaciones de canal de marketing<br>Administración de aplicaciones > Clasificaciones de aplicaciones<br>Administración de medios > Clasificaciones de medios<br>AEM > Clasificaciones de AEM Assets<br>Adobe Campaign > Clasificaciones de Adobe |
