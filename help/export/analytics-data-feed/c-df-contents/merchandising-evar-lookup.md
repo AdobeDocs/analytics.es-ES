@@ -2,7 +2,7 @@
 title: Búsqueda de instancias de eVar de comercialización en post_product_list
 description: Busque la instancia de eVar de comercialización para cada valor de búsqueda en la columna post_product_list de una fuente de datos.
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
 ht-degree: 100%
 
