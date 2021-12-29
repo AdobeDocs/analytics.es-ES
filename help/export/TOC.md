@@ -5,9 +5,9 @@ user-guide-title: Guía de exportación de Analytics
 breadcrumb-title: Guía de exportación
 user-guide-description: Utilice las fuentes de datos para recibir una exportación diaria o por hora de datos sin procesar. Utilice Data Warehouse para recuperar un extracto de datos en una hoja de cálculo.
 source-git-commit: fd0641778fb46b7775ee02517a1f8e267ca37f3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
       + [Visitas que llegan tarde](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Preguntas frecuentes sobre fuentes de datos](analytics-data-feed/df-faq.md)
    + [Prácticas recomendadas de fuentes de datos](analytics-data-feed/data-feeds-best-practices.md)
-   + [Solución de problemas de fuentes de datos](analytics-data-feed/troubleshooting.md)
+   + [Solución de problemas de las fuentes de datos](analytics-data-feed/troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Resumen de Data Warehouse](data-warehouse/data-warehouse.md)
    + [Añadir un grupo de usuarios de Data Warehouse](data-warehouse/t-dw-group.md)
