@@ -1,19 +1,19 @@
 ---
-title: Entradas y salidas del panel Tiempo invertido en reproducción de contenido
-description: ¿Cuáles son los ajustes de entrada y salida del tiempo de reproducción de contenido?
+title: Entradas y salidas del panel Tiempo invertido en reproducción de medios
+description: ¿Cuáles son los ajustes de entrada y salida del Tiempo invertido en reproducción de medios?
 feature: Panels
 role: User, Admin
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# Entradas y salidas del panel de tiempo invertido en la reproducción de contenido {#Inputs-and-outputs}
+# Entradas y salidas del panel Tiempo invertido en reproducción de medios {#Inputs-and-outputs}
 
-Puede personalizar el panel Tiempo invertido en la reproducción de contenido multimedia mediante los ajustes de entrada y salida siguientes.
+Puede personalizar el panel Tiempo invertido en reproducción de medios mediante los ajustes de entrada y salida siguientes.
 
 ## Entradas de panel {#Input}
 
