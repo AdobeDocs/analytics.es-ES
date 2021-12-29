@@ -6,9 +6,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
 source-git-commit: 3903387ac6cba1ceb45e1de35fbceb259151f4f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,15 +25,15 @@ La configuración de filas varía en función del componente que haya arrastrado
 | Porcentajes | **Calcular porcentajes por columna** es la configuración predeterminada; los porcentajes visibles en una columna se calculan en función del total de la columna. <br>**Calcular porcentajes por fila** obliga a la tabla improvisada a calcular los porcentajes de las celdas en la fila en lugar de en la columna, con el total general como denominador. Esto es muy útil en los porcentajes de tendencias. Esta configuración está habilitada de forma predeterminada al utilizar el icono Visualizar. |
 | Totales de columna | Esta configuración solo está disponible para [filas estáticas](manual-vs-dynamic-rows.md). <br> **Mostrar como la suma de las filas actuales** muestra una suma del lado del cliente de las filas de la tabla, lo que significa que el total *no* deduplicará las métricas como visitas o visitantes. <br> **Mostrar el total general** muestra una suma del lado del servidor, lo que significa que el total anulará el duplicado de las métricas. |
 
-## Cambiar recuento de filas
+## Cambio del recuento de filas
 
 Para cambiar el número de filas que se muestran:
 
-1. Haga clic en el número situado junto a [!UICONTROL Filas] en la parte superior de la mesa.
+1. Haga clic en el número situado junto a [!UICONTROL Filas] en la parte superior de la tabla.
 
    ![](assets/row-number.png)
 
-1. En la lista desplegable, seleccione el número de filas que desee que se muestre la tabla.
+1. En la lista desplegable, seleccione el número de filas que desee que muestre la tabla.
 
 ## Vídeos
 
