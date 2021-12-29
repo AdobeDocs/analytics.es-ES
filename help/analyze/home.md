@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Esta guía proporciona documentación de producto y autoayuda para las siguiente
 * **[!UICONTROL API de creación de informes]:** para realizar consultas de informes directamente en los servidores de Adobe y obtener respuestas para su uso en sus propias herramientas de creación de informes de clientes.
 * **[!UICONTROL Reports &amp; Analytics]:** herramienta con decenas de informes pregenerados. Adobe recomienda utilizar Analysis Workspace para la mayoría de sus necesidades de creación de informes.
 
-A continuación se muestra un vídeo introductorio de Adobe Analytics:
+A continuación, se muestra un vídeo introductorio de Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
