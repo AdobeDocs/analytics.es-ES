@@ -5,7 +5,7 @@ user-guide-title: Guía de importación de Analytics
 breadcrumb-title: Guía de importación
 user-guide-description: 'Incluya datos en Analytics desde fuentes externas, ya sea de forma masiva o en tiempo real. '
 source-git-commit: a9d0cc251e8902f3c9c3cd9c31cbc71ae6ee20e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '126'
 ht-degree: 100%
 
@@ -16,16 +16,16 @@ ht-degree: 100%
 
 + [Guía de importación de Analytics](home.md)
 + Fuentes de datos {#data-sources}
-   + [Resumen de fuentes de datos](c-data-sources/datasrc-home.md)
+   + [Resumen de las fuentes de datos](c-data-sources/datasrc-home.md)
    + [Funcionamiento de las fuentes de datos](c-data-sources/datasrc-how-data-sources-works.md)
    + [Requisitos y límites de carga](c-data-sources/datasrc-requirements.md)
    + [Tiempo de procesamiento de las fuentes de datos](c-data-sources/datasrc-processing-time.md)
    + [Preparación para el uso de fuentes de datos](c-data-sources/datasrc-preparing.md)
-   + [Administrador de fuentes de datos](c-data-sources/datasrc-manager.md)
-   + Plantilla de fuentes de datos {#data-sources-template}
-      + [Resumen de plantilla de fuentes de datos](c-data-sources/datasrc-template/datasrc-template-file.md)
-      + [Generación de plantillas de archivo de importación](c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)
-      + [Referencia sobre el archivo de importación](c-data-sources/datasrc-template/datasrc-import-file-reference.md)
+   + [Administrador de las fuentes de datos](c-data-sources/datasrc-manager.md)
+   + Plantilla de las fuentes de datos {#data-sources-template}
+      + [Resumen de la plantilla de las fuentes de datos](c-data-sources/datasrc-template/datasrc-template-file.md)
+      + [Generación de la plantilla de archivo de importación](c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)
+      + [Referencia del archivo de importación](c-data-sources/datasrc-template/datasrc-import-file-reference.md)
    + [Cargar un archivo de fuente de datos](c-data-sources/t-datasrc-uploading-data.md)
    + Tipos y categorías de datos {#data-types-and-categories}
       + [Resumen de los tipos de datos y las categorías](c-data-sources/c-datasrc-types/datasrc-categories.md)
@@ -42,5 +42,5 @@ ht-degree: 100%
 + [API de inserción de datos](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Fin de la vida útil de Data Connectors de Analytics](data-connectors/data-connectors-eol.md)
-+ Importación de casos prácticos {#use-cases}
-   + [Importación de métricas de búsquedas de pago mediante fuentes de datos](use-cases/paid-search-metrics.md)
++ Importación de casos de uso {#use-cases}
+   + [Importación de métricas de búsqueda de pago mediante fuentes de datos](use-cases/paid-search-metrics.md)
