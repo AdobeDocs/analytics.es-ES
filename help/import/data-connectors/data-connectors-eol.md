@@ -2,10 +2,10 @@
 description: Descubra cuándo y por qué los conectores de datos de Analytics finalizarán su vida útil.
 title: Anuncio previo al fin de vida útil para los conectores de datos de Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
-workflow-type: tm+mt
+source-git-commit: 3e1b422c908c9cdd2abd877285e15dc7398cb131
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Esta función está basada en tecnología heredada que ya no es viable ni compat
 
 ## ¿Cómo le afecta la eliminación de esta función?
 
-Si usted es socio de Adobe, encontrará los detalles sobre cómo migrar su integración a nuestro nuevo programa de Adobe Exchange [aquí](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) en nuestra documentación.
+Si usted es socio de Adobe, encontrará los detalles sobre cómo migrar su integración a nuestro nuevo programa de Adobe Exchange [aquí](https://adobeexchangeec.zendesk.com/hc/es-es/articles/360003867071-Adobe-Analytics-Integration-Tools) en nuestra documentación.
 
 Si es cliente de Data Connector y desea solicitar la migración de la integración que utiliza, debe *enviar todas las solicitudes directamente al socio de integración*. El socio debe comprometerse a pasar a las nuevas API. Lamentablemente, el Servicio de atención al cliente de Adobe no puede obligar a los socios a pasar a las nuevas API.
 
@@ -107,6 +107,6 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 
 ## Excepción: Adobe Campaign Classic
 
-La ÚNICA excepción con fecha del 1 de agosto de 2021 es la integración de Adobe Campaign Classic. Esta integración quedará obsoleta oficialmente el 1 de marzo de 2022.
+La ÚNICA excepción con fecha del 1 de agosto de 2021 es la integración de Adobe Campaign Classic. Esta integración quedará obsoleta oficialmente el 17 de agosto de 2022.
 
-El 1 de agosto de 2021, Adobe Campaign Classic se eliminará de la IU de los Data Connectors junto con todas las demás integraciones; sin embargo, las integraciones de Campaign existentes seguirán recopilando y pasando datos a Adobe Analytics hasta el 1 de marzo de 2022. El 1 de marzo de 2022, la integración dejará de recopilar y pasar datos a Adobe Analytics. Si utiliza esta integración, debe pasar al nuevo conector de Campaign-Analytics antes del 1 de marzo de 2022. Obtenga más información en la [Documentación de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=es).
+El 1 de agosto de 2021, Adobe Campaign Classic se eliminará de la IU de Data Connectors junto con todas las demás integraciones; sin embargo, las integraciones de Campaign existentes seguirán recopilando y pasando datos a Adobe Analytics hasta el 17 de agosto de 2022. El 17 de agosto de 2022, la integración dejará de recopilar y pasar datos a Adobe Analytics. Si utiliza esta integración, debe pasar al nuevo conector de Campaign-Analytics antes del 17 de agosto de 2022. Obtenga más información en la [Documentación de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=es).
