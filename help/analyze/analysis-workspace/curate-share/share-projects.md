@@ -6,9 +6,9 @@ feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1121'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Puede agregar destinatarios a una de las tres funciones del proyecto. Las funcio
 | Se puede duplicar | Los Destinatarios pueden usar la opción **[!UICONTROL Guardar como]** y acceder al carril izquierdo. Las interacciones del proyecto no están limitadas en esta función. Esta función es útil si desea compartir un proyecto con usuarios que comprendan los datos de su organización y cómo usar Analysis Workspace, pero no desea que el proyecto se modifique. |
 | Se puede ver | Los destinatarios no pueden Guardar como y no tienen acceso al panel izquierdo. Las interacciones del proyecto también están limitadas. Esta función resulta útil si desea compartir un proyecto con usuarios menos familiarizados con la estructura de datos de su organización, con Analysis Workspace o con Adobe Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro.<br>Obtenga más información sobre la [la función de proyecto “Puede ver”](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
 
-Este es un vídeo sobre proyectos de solo visualización en Analysis Workspace:
+Este es un vídeo sobre los proyectos de solo vista en Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
 
@@ -68,14 +68,14 @@ También puede hacer clic en **[!UICONTROL Depurar y compartir]** para aplicar l
 
 ## Compartir en grupos de destinatarios {#Groups}
 
-Todos los usuarios pueden compartir proyectos con grupos, que son una recopilación de destinatarios. En Adobe Analytics, los grupos se definen mediante perfiles de producto en [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Todos los usuarios pueden compartir proyectos con grupos, que son una recopilación de destinatarios. En Adobe Analytics, los grupos se definen mediante perfiles de producto en [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es).
 
 * Los administradores pueden compartir con cualquier grupo, incluido “Todos”.
 * Los no administradores pueden compartir con los grupos de los que son miembros, excepto con el grupo “Todos”.
 
 ## Compartir un vínculo a un proyecto {#Links}
 
-Puede obtener un vínculo a un proyecto en **[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo del proyecto]**. Cuando se hace clic, se requiere que los destinatarios inicien sesión antes de aterrizar en el proyecto. Si el destinatario no se ha colocado en una función, recibirá una función predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]** y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**. [Obtenga más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) sobre la creación de vínculos que se pueden compartir a proyectos de Workspace.
+Puede obtener un vínculo a un proyecto en **[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo del proyecto]**. Cuando se hace clic, se requiere que los destinatarios inicien sesión antes de aterrizar en el proyecto. Si el destinatario no se ha colocado en una función, recibirá una función predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]** y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**. [Obtenga más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=es) sobre la creación de vínculos que se pueden compartir a proyectos de Workspace.
 
 ## Compartir proyectos en el administrador de proyectos {#Manager}
 
@@ -95,7 +95,7 @@ Con el proyecto A y B seleccionado, los destinatarios 4 y 7 se agregan a las lis
 
 ## Uso compartido de componentes incrustados
 
-A continuación, se muestra un vídeo introductorio sobre este tema:
+A continuación se muestra un vídeo sobre este tema:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
 
