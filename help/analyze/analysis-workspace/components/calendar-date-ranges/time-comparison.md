@@ -6,7 +6,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '668'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 La comparación de fechas de Analysis Workspace le permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas comunes, por ejemplo, año tras año, trimestre tras trimestre, mes tras mes, etc.
 
-A continuación, se muestra un vídeo introductorio sobre este tema:
+A continuación, se muestra un vídeo sobre este tema:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
 
