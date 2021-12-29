@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
 source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2024'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -80,6 +80,6 @@ Otros factores que no se incluyen en Ayuda > Rendimiento son:
 
 ## Sugerencias para aumentar la productividad en Analysis Workspace
 
-A continuación, se muestra un vídeo introductorio sobre este tema:
+A continuación, se muestra un vídeo sobre este tema:
 
 >[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)
