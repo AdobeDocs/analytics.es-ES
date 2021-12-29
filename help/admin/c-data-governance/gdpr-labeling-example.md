@@ -4,9 +4,9 @@ title: Ejemplos de etiquetado
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: 91864a15bda5022dbbd9b9b312bc6c042078b6a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Suponga que dispone de los siguientes datos de visita:
 * La segunda fila es el nombre de la variable. Si tiene una etiqueta de ID, contiene el área de nombres asignado entre paréntesis.
 * Los datos de visita empiezan en la tercera fila.
 
-| Etiquetas | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
+| Etiquetas | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
 | **Nombre de variable** <br> **(Área de nombres)** | **MyProp1** <br> **(usuario)** | **ID de visitante** <br> **(AAID)** | **MyEvar1**  | **MyEvar2**  | **MyEvar3**  <br> **(xyz)** |
 | Datos de visita | Mary | 77 | A | M | X |
@@ -220,7 +220,7 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">user=Mary<br>expandIDs=false</th>
+    <th colspan="5" style="text-align:center">user=Mary <br> expandIDs=false</th>
   </tr>
   <tr>
     <th>MyProp1</th>
@@ -293,7 +293,7 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">user=Mary<br>expandIDs=true</th>
+    <th colspan="5" style="text-align:center">user=Mary <br> expandIDs=true</th>
   </tr>
   <tr>
     <th>MyProp1</th>
@@ -362,9 +362,9 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 
 Recuerde lo siguiente:
 
-* Celdas de filas que contienen `user=Mary` y `DEL-PERSON` se ven afectadas.
-* Debido a la expansión del ID, las celdas de las filas que contienen `AAID=77`, `AAID=88` o `AAID=99` (que son los valores AAID de las filas que contienen `user=Mary`) y a `DEL-DEVICE` se ven afectadas. Esto incluye celdas con un `DEL-DEVICE` etiqueta en filas donde `user=Mary`. Esto provoca que las celdas de las filas 4 y 5 (así como las filas 1-3) con `DEL-DEVICE` etiquetas (AAID, MyEvar2 y MyEvar3) que se deben confundir.
-* La configuración expandIDs no se expande a la llamada para incluir valores presentes en MyEvar3 (`X`, `Y` y `Z`), que tiene una etiqueta ID-DEVICE, cuando `user=Mary`. ExpandIDs solo se expande para incluir los ID de visitante (AAID en este ejemplo, pero también el ECID) en filas donde `user=Mary`. Por lo tanto, las dos últimas filas, que contienen los valores MyEvar3 de `X` y `Z` no se ven afectadas.
-* `MyEvar2` en las filas cuarta y quinta se actualiza, ya que estas filas contienen los mismos valores de ID de visitante (`77` y `88`) como los de las filas primera y segunda. Como resultado, la expansión de ID los incluye para eliminaciones en el nivel de dispositivo.
-* Los valores de `MyEvar2` en las filas segunda y quinta coinciden tanto antes como después de la eliminación. Sin embargo, tras la eliminación ya no coinciden con el valor `N` que se produce en la última fila, ya que esa fila no se actualizó como parte de la solicitud de eliminación.
+* Solo se ven afectadas las celdas de las filas que contienen `user=Mary` y una etiqueta `DEL-PERSON`.
+* Debido a la expansión del ID, las celdas de las filas que contienen `AAID=77`, `AAID=88` o `AAID=99` (que son los valores AAID de las filas que contienen `user=Mary`) y una etiqueta `DEL-DEVICE` se ven afectadas. Esto incluye celdas con una etiqueta `DEL-DEVICE` en filas donde `user=Mary`. Esto provoca que las celdas de las filas 4 y 5 (así como las filas 1-3) con etiquetas `DEL-DEVICE` (AAID, MyEvar2 y MyEvar3) se deban ocultar.
+* La configuración expandIDs no se expande a la llamada para incluir los valores presentes en MyEvar3 (`X`, `Y` y `Z`), que tiene una etiqueta ID-DEVICE, cuando `user=Mary`. ExpandIDs solo se expande para incluir los ID de visitante (AAID en este ejemplo, pero también el ECID) en filas donde `user=Mary`. Por lo tanto, las dos últimas filas, que contienen los valores MyEvar3 de `X` y `Z`, no se ven afectadas.
+* `MyEvar2` en las filas cuarta y quinta se actualiza, ya que estas filas contienen los mismos valores de ID de visitante (`77` y `88`) que los de las filas primera y segunda. Como resultado, la expansión de ID los incluye para eliminaciones en el nivel de dispositivo.
+* Los valores de `MyEvar2` en las filas segunda y quinta coinciden tanto antes como después de la eliminación. Sin embargo, después de la eliminación, ya no coinciden con el valor `N` que se produce en la última fila, ya que esa fila no se actualizó como parte de la solicitud de eliminación.
 * `MyEvar3` se comporta de forma muy distinta a como lo hacía sin expansión de ID porque, sin esta, ningún coincidía.`ID-DEVICES` Ahora, `AAID` coincide en las primeras cinco filas.
