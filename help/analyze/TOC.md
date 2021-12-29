@@ -5,9 +5,9 @@ user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Proporciona instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como Adobe Analytics Dashboards, Report Builder y Activity Map.
 source-git-commit: 3266dd5547c1967e424534a13a3f8dc29aa1189e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1011'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 99%
       + Abandono {#fallout}
          + [Resumen de abandonos](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurar una visualización de abandonos](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [Abandonos multidimensionales](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [Visita en orden previsto multidimensional](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Aplicación de segmentos en el análisis de abandonos](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flujo {#flow}
          + [Resumen de flujos](analysis-workspace/visualizations/c-flow/flow.md)
@@ -87,7 +87,7 @@ ht-degree: 99%
       + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
       + [Panel de forma libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Panel de visualizadores simultáneos de medios](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + Tiempo invertido en la reproducción de contenido {#media-playback-timespent}
+      + Tiempo invertido en la reproducción de medios {#media-playback-timespent}
          + [Información general](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Configuración de entrada y salida](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Preguntas frecuentes](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
