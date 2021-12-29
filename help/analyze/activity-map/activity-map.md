@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 source-git-commit: 9d0d8bc3fbba2ef83416f8230b5ed5fa9b03d019
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Activity Map permite configurar distintas vistas para identificar visualmente la
 * [Instalación de los complementos del explorador de Activity Map ](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Inicio de Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-## Activity Map características
+## Activity Map Funciones
 
 * [Potente seguimiento de vínculos](lnk-tracking-overview.md)
 * [Modo Estándar y modo Activo](activitymap-standard-live.md)
@@ -56,10 +56,10 @@ Activity Map permite configurar distintas vistas para identificar visualmente la
 
 ## Vídeos
 
-Vídeo con información general del Activity Map:
+Vídeo introductorio de Activity Map:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
 
-Activación, desactivación y personalización del Activity Map:
+Activación, desactivación y personalización de Activity Map:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25878/?quality=12)
