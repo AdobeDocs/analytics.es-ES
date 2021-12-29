@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Ruta eventual </p> <p>(Predeterminado) </p> </td> 
-   <td colname="col2"> <p>Los visitantes (o visitas) se cuentan cuando eventualmente aterrizan en el siguiente punto de contacto de la ruta. Los detalles se permiten entre puntos de contacto. </p> </td> 
+   <td colname="col2"> <p>Los visitantes (o visitas) se cuentan cuando eventualmente aterrizan en el siguiente punto de contacto de la ruta. Los desvíos se permiten entre puntos de contacto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Elemento siguiente </p> </td> 
-   <td colname="col2"> <p>Los visitantes (o visitas) se cuentan cuando aterrizan inmediatamente en el siguiente punto de contacto de la ruta. La visita siguiente incluye cualquier tipo de visita (vistas de página o vínculos). No se permiten valores de detalle entre puntos de contacto. </p> </td> 
+   <td colname="col1"> <p>Visita siguiente </p> </td> 
+   <td colname="col2"> <p>Los visitantes (o visitas) se cuentan cuando aterrizan inmediatamente en el siguiente punto de contacto de la ruta. La visita siguiente incluye cualquier tipo de visita (vistas de página o vínculos). No se permiten valores de desvío entre puntos de contacto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
