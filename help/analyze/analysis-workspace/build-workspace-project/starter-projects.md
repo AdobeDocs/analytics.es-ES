@@ -1,14 +1,14 @@
 ---
-description: Cree proyectos de Workspace basados en plantillas estándar o personalizadas.
+description: Cree proyectos del espacio de trabajo basados en plantillas estándar o personalizadas.
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 76235e80ad5e2104d0ad3a262b8f805f34fa99a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1410'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Puede elegir crear un proyecto a partir de:
 
 ![](assets/start_modal.png)
 
-## Crear plantillas personalizadas {#create-custom-template}
+## Creación de plantillas personalizadas {#create-custom-template}
 
 Los usuarios que tengan derechos de administrador pueden convertir cualquier proyecto que creen en una plantilla personalizada. A continuación se muestra cómo:
 
@@ -41,7 +41,7 @@ A continuación se muestra un vídeo sobre la creación y administración de pla
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
-### Administrar plantillas personalizadas {#manage-custom-template}
+### Administración de plantillas personalizadas {#manage-custom-template}
 
 | Acción | Descripción |
 |--- |--- |
@@ -64,9 +64,9 @@ Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a 
 
 ### Capacitación
 
-Esta plantilla estándar le guía por la terminología común y por los pasos para crear su primer análisis en Workspace. Está disponible como plantilla estándar en el modo Nuevo proyecto y reemplaza el proyecto de muestra actual para los usuarios nuevos que no tienen otros proyectos en su lista.
+Esta plantilla estándar le explica la terminología común y los pasos para crear su primer análisis en Workspace. Está disponible como plantilla estándar en el modo Nuevo proyecto y reemplaza el proyecto de muestra actual para los usuarios nuevos que no tienen otros proyectos en su lista.
 
-Aquí hay un vídeo sobre el [!UICONTROL Tutorial de formación] plantilla:
+Aquí tiene un vídeo sobre la plantilla [!UICONTROL Tutorial de aprendizaje]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
@@ -74,23 +74,23 @@ Aquí hay un vídeo sobre el [!UICONTROL Tutorial de formación] plantilla:
 
 >[!IMPORTANT]
 >
->Las plantillas de publicidad solo están disponibles si el grupo de informes está habilitado para [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
+>Las plantillas de publicidad solo están disponibles si el grupo de informes está habilitado para [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html?lang=es).
 
 * **Motores de búsqueda de pago**: esta plantilla desglosa las tendencias publicitarias, las plataformas de publicidad, las palabras clave, las cuentas, las campañas y mucho más.
 
 ### Comercio
 
-* **Magento - Marketing and Commerce**: esta plantilla desglosa la conversión del comercio electrónico según la atribución del canal de marketing. También proporciona perspectivas por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y mucho más. Este es un tutorial de vídeo sobre [Magento: Plantilla de marketing y comercio](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=es).
+* **Magento - Marketing and Commerce**: esta plantilla desglosa la conversión del comercio electrónico según la atribución del canal de marketing. También proporciona perspectivas por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y mucho más. Este es un tutorial en vídeo sobre [Magento: Plantilla de marketing y comercio](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=es).
 
 ### Recopilación de datos
 
-* **Impacto de ITP**: Comprenda cómo afecta ITP de Apple a sus datos y cómo ajustar los informes en consecuencia.
+* **Impacto de ITP**: comprenda cómo el ITP de Apple afecta a sus datos y cómo ajustar la creación de informes en consecuencia.
 
 ### Medios
 
-* **Consumo de contenido**: Quiénes son mis leales lectores
-* **Actualización - Frecuencia - Lealtad**: ¿Qué contenido se consume más y resulta más atractivo para los usuarios?
-* **Consumo de medios de transmisión**: Proporciona tendencias y métricas principales del consumo de medios en todos los dispositivos digitales. Este es un vídeo sobre la plantilla de consumo de medios de transmisión:
+* **Consumo de contenido**: quiénes son mis leales lectores
+* **Actualización - Frecuencia - Lealtad**: ¿qué contenido se consume más y resulta más atractivo para los usuarios?
+* **Consumo de medios de streaming**: proporciona tendencias y métricas clave del consumo de medios en todos los dispositivos digitales. Este es un vídeo sobre la plantilla de consumo de medios de streaming:
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
 
@@ -98,14 +98,14 @@ Aquí hay un vídeo sobre el [!UICONTROL Tutorial de formación] plantilla:
 
 >[!IMPORTANT]
 >
->Las plantillas móviles solo están disponibles si el grupo de informes está habilitado para el análisis de aplicaciones móviles.
+>Las plantillas móviles están disponibles únicamente si el grupo de informes está activado para el análisis de aplicación móvil.
 
-* **Adquisición:** Consulte el rendimiento de los vínculos de adquisición móvil.
-* **Uso de la aplicación:** ¿Cuántos usuarios de la aplicación, ejecuciones y ejecuciones por primera vez ha tenido la aplicación y cuál es la longitud promedio de cada sesión?
-* **Recorridos:** ¿Cuáles son los patrones de uso más destacados de mi aplicación?
-* **Métricas clave:** Observar las métricas clave de su aplicación.
-* **Ubicación:** Incluye un mapa que muestra los datos de ubicación.
-* **Mensajería:** Se centra en el rendimiento de la mensajería en la aplicación y mensajería push.
+* **Adquisición:** consulte el rendimiento de los vínculos de adquisición móvil.
+* **Uso de la aplicación:** ¿cuántos usuarios de la aplicación, inicios e inicios por primera vez ha tenido la aplicación y cuál es la longitud promedio de sesión?
+* **Recorridos:** ¿cuáles son los patrones de uso más destacados de mi aplicación?
+* **Métricas clave:** observe las métricas clave de su aplicación.
+* **Ubicación:** incluye un mapa que muestra los datos de ubicación.
+* **Mensajería:** se centra en el rendimiento de la mensajería en la aplicación y mensajería push.
 * **Rendimiento:** ¿Qué rendimiento tiene la aplicación y dónde tienen problemas los usuarios?
 * **Retención:** ¿Quiénes son mis usuarios más fieles y qué hacen?
 
@@ -117,7 +117,7 @@ Aquí hay un vídeo sobre el [!UICONTROL Tutorial de formación] plantilla:
 ### Web
 
 * **Adquisición:** ¿Cuáles son los principales impulsores de tráfico a mi sitio web?
-* **AEM información general sobre el rendimiento del sitio:** ¿Cómo está funcionando mi sitio de Adobe Experience Manager?
+* **Información general sobre el rendimiento del sitio de AEM:** ¿cómo funciona mi sitio de Adobe Experience Manager?
 * **Consumo de contenido:** ¿Cuáles son los principales lugares que visitan los usuarios en mi sitio web?
 * **Retención:** ¿Qué tipo de usuarios es más probable que sea leal a mi sitio?
 * **Tecnología:** ¿Qué tecnología utilizan los usuarios para acceder a mi sitio?
@@ -138,7 +138,7 @@ Esta plantilla se basa en la métrica Personas que es una versión deduplicada d
 * Aprender a utilizar la función para apilas segmentos con la métrica Personas.
 * Descubra cómo mejorar la eficacia de la métrica Personas con el uso del Experience Cloud ID en su entorno.
 
-### Recorrido IQ: Plantilla de análisis entre dispositivos
+### IQ del recorrido: plantilla del Análisis multidispositivo
 
 <!--This content is mirrored in the CDA doc.-->
 
