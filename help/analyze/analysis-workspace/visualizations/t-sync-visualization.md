@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ Al administrar una fuente de datos, puede mostrar la fuente de datos o bloquear 
 
 ## Configuración de la fuente de datos
 
-Aquí hay un vídeo sobre esta configuración:
+Aquí tiene un vídeo sobre esta configuración:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23729/?quality=12)
 
 | Elemento | Descripción |
 | --- | --- |
-| Visualizaciones conectadas | Si hay visualizaciones conectadas a una tabla improvisada o de cohorte, el punto superior izquierdo se abre para mostrar las visualizaciones conectadas, con una opción “mostrar” que muestra u oculta la tabla. Al pasar el ratón por encima, se resalta la visualización vinculada y, al hacer clic en ella, se abre. |
+| Visualizaciones conectadas | Si hay visualizaciones conectadas a una tabla de forma libre o de cohorte, el punto superior izquierdo se abre para mostrar las visualizaciones conectadas con la casilla Mostrar que muestra u oculta la tabla. Al pasar el ratón por encima, se resalta la visualización vinculada y, al hacer clic en ella, se abre. |
 | Mostrar fuente de datos | Le permite mostrar (al activar la casilla de verificación) u ocultar (al desactivarla) la tabla de datos correspondiente a la visualización. |
 | Bloquear selección | Active este ajuste para bloquear la visualización de los datos seleccionados actualmente en la tabla de datos correspondiente. Una vez activado, elija entre:<ul><li>**Posiciones seleccionadas**: elija esta opción si desea que la visualización permanezca bloqueada en las posiciones seleccionadas en la tabla de datos correspondiente. Estas posiciones seguirán visualizándose, incluso si cambian los elementos específicos de estas posiciones. Por ejemplo, elija esta opción si desea mostrar los cinco nombres de campaña principales en esta visualización en todo momento, independientemente de qué nombres de campaña se muestran en los cinco principales.</li><li>**Elementos seleccionados**: elija esta opción si desea que la visualización permanezca bloqueada en elementos específicos seleccionados actualmente en la tabla de datos correspondiente. Estos elementos se seguirán visualizando, incluso si cambian su clasificación entre los elementos de la tabla. Por ejemplo, elija esta opción si desea mostrar los mismos cinco nombres de campaña específicos en esta visualización en todo momento, sin importar la posición en la clasificación de estos nombres en la campaña.</li></ul> |
 
