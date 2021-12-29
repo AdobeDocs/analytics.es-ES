@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 source-git-commit: 2a20ce50f773c82856da59154bb212f1fca2b7ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -29,52 +29,52 @@ A continuación se indican algunos casos conocidos en los que pueden recopilarse
 
 ## ¿Cuándo se produce el seguimiento de vínculos?
 
-La identificación de vínculos y regiones de Activity Map se produce cuando los usuarios hacen clic en una página.
+La identificación de vínculos y regiones de Activity Map se lleva cabo cuando los usuarios hacen clic en una página.
 
 ## ¿De qué elementos se realiza el seguimiento de forma predeterminada?
 
-Si se produce un evento de clic en un elemento, este tiene que pasar algunas comprobaciones para determinar si AppMeasurement lo tratará como un vínculo. Las comprobaciones son:
+Si se da un evento de clic en un elemento, este tiene que pasar algunas comprobaciones para determinar si AppMeasurement lo tratará como un vínculo. Las comprobaciones son las siguientes:
 
-* ¿Es esto una `A` o `AREA` con un `href` propiedad?
-* ¿Hay un `onclick` atributo que establece un `s_objectID` variable?
-* ¿Es esto una `INPUT` o `SUBMIT` con un valor o texto secundario?
-* ¿Es esto una `INPUT` etiqueta con tipo `IMAGE` y `src` propiedad?
-* ¿Es esto una `BUTTON`?
+* ¿Se trata de una etiqueta `A` o `AREA` con una propiedad `href`?
+* ¿Hay un atributo `onclick` que define la variable `s_objectID`?
+* ¿Se trata de una etiqueta `INPUT` o un botón `SUBMIT` con un valor o texto secundario?
+* ¿Se trata de una etiqueta `INPUT` con el tipo `IMAGE` y una propiedad `src`?
+* ¿Es un `BUTTON`?
 
 Si la respuesta a alguna de estas preguntas es Sí, el elemento se trata como vínculo y se le realiza un seguimiento.
 
 >[!IMPORTANT]
 >
->AppMeasurement no considera las etiquetas Button con el atributo type=&quot;button&quot; como vínculos. Considere la posibilidad de quitar type=&quot;button&quot; de las etiquetas Button y agregar en su lugar role=&quot;button&quot; o submit=&quot;button&quot;.
+>AppMeasurement no considera las etiquetas de botón con el atributo type=&quot;button&quot; como vínculos. Considere la posibilidad de quitar el atributo type=&quot;button&quot; de las etiquetas de botón y añadir en su lugar role=&quot;button&quot; o submit=&quot;button&quot;.
 
 >[!IMPORTANT]
 >
->AppMeasurement considera una etiqueta de anclaje con un &quot;href&quot; que comienza con &quot;#&quot; una ubicación de destino interna, no un vínculo (ya que no abandona la página). De forma predeterminada, Activity Map no realiza el seguimiento de estas ubicaciones de destino internas. Rastrea únicamente los vínculos que conducen al usuario a una nueva página.
+>Las etiquetas de anclaje con un “href” que comienza con “#” se consideran una ubicación de destino interna con AppMeasurement, no un vínculo (ya que no se abandona la página). De forma predeterminada, Activity Map no realiza el seguimiento de estas ubicaciones de destino internas. Rastrea únicamente los vínculos que conducen al usuario a una nueva página.
 
-## ¿Cómo realiza el Activity Map el seguimiento de otros elementos del HTML visual?
+## ¿Cómo realiza Activity Map el seguimiento de otros elementos HTML visuales?
 
-a. A través de la función `s.tl()` función.
+a. A través de la función `s.tl()`.
 
-Si el clic se produjo mediante un `s.tl()` invocación de , el Activity Map también recibirá este evento de clic y determinará si `linkName` se ha encontrado la variable de cadena . Durante `s.tl()` , el linkName se establecerá como ID del vínculo del Activity Map. El elemento en el que se hizo clic que originó la variable `s.tl()` para determinar la región. Ejemplo:
+Si el clic se produjo a través de una invocación de `s.tl()`, Activity Map también recibirá este evento de clic y determinará si se encontró la variable de cadena `linkName`. Durante la ejecución de `s.tl()`, el linkName se definirá como ID del vínculo de Activity Map. El elemento donde se hizo clic y que originó la llamada de `s.tl()` se utilizará para determinar la región. Ejemplo:
 
 ```
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
-b. A través de la función `s_objectID` variable. Ejemplo:
+b. A través de la variable `s_objectID`. Ejemplo:
 
-    &quot; 
+    ``` 
     
-    &lt;img onclick=&quot;s_objectID=&amp;#39;abc&amp;#39;;&quot; src=&quot;someimageurl.png&quot; />
-    &lt;a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&amp;#39;abc&amp;#39;;&quot;>
-    Vincular texto aquí
+    &lt;img onclick=&quot;s_objectID=&#39;abc&#39;;&quot; src=&quot;someimageurl.png&quot;/>
+    &lt;a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&#39;abc&#39;;&quot; >
+    Link Text Here
     &lt;/a>
     
-    &quot;
+    ```
 
 >[!IMPORTANT]
 >
->Se requiere un punto y coma de cierre (;) al usar `s_objectID` en Activity Map.
+>Tenga en cuenta que es obligatorio el uso de un punto y coma (;) de cierre al usar `s_objectID` en Activity Map.
 
 ## ¿Pueden dar ejemplos de vínculos de los que se realizará un seguimiento?
 
@@ -116,10 +116,10 @@ b. A través de la función `s_objectID` variable. Ejemplo:
 
 ## ¿Pueden dar ejemplos de vínculos de los que NO se realizará un seguimiento?
 
-1. Motivo: La etiqueta delimitadora no tiene un valor válido `href`:
+1. Razón: la etiqueta de anclaje no tiene un `href` válido:
    `<a name="innerAnchor">Section header</a>`
 
-1. Motivo: Ni `s_ObjectID` nor `s.tl()` presente:
+1. Razón: no aparecen `s_ObjectID` ni `s.tl()`:    
 
    ```
    <p onclick="showPanel('market rates')">
@@ -128,7 +128,7 @@ b. A través de la función `s_objectID` variable. Ejemplo:
    </p>
    ```
 
-1. Motivo: Ni `s_ObjectID` nor `s.tl()` presente:
+1. Razón: no aparecen `s_ObjectID` ni `s.tl()`:  
 
    ``` 
    <input type="radio" onclick="changeState(this)" name="group1" value="A"/>
@@ -137,7 +137,7 @@ b. A través de la función `s_objectID` variable. Ejemplo:
    
    ```  
    
-1. Motivo: falta la propiedad &quot;src&quot; en un elemento de entrada de formulario:
+1. Razón: falta la propiedad “src” en un elemento de entrada de formulario:
 
    `<input type="image"/>`
 
