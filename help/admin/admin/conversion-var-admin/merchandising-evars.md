@@ -3,9 +3,9 @@ title: eVars de comercialización y métodos de búsqueda de productos
 description: Una profundización en los conceptos subyacentes a las eVars de comercialización y en cómo procesan y asignan los datos.
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
 source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5319'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
