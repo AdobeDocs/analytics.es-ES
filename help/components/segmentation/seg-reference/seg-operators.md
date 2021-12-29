@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1095'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,6 +64,6 @@ Puede segmentar un recuento distinto de elementos dentro de una dimensión. Por 
 | es mayor o igual que | Devuelve elementos de dimensión cuya cantidad única sea mayor o igual que el valor introducido. |
 | es menor o igual que | Devuelve elementos de dimensión cuya cantidad única sea menor o igual que el valor introducido. |
 
-Aquí hay un vídeo sobre la segmentación en diferentes recuentos de dimensiones:
+Aquí tiene un vídeo sobre la segmentación en diferentes recuentos de dimensiones:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
