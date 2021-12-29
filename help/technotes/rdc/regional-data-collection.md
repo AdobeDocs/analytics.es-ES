@@ -5,7 +5,7 @@ exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 source-git-commit: 1cf95a2bf57aacd6b0b5bdb1c3bf31d1b31339e0
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Experience Cloud utiliza la recopilación de datos regionales (RDC) para q
 
 >[!IMPORTANT]
 >
->El paquete de complementos de recopilación de datos regionales de China (China Performance Optimization) es un complemento facturable de Adobe Analytics. La optimización del rendimiento del Adobe en China continental permite a los clientes con usuarios dentro de China que envíen esos datos directamente al nodo perimetral de China, en lugar de a otras ubicaciones globalmente. Esto mejora los tiempos de carga de página y la precisión de los datos en comparación con el envío de estos a nodos fuera de China. Para obtener más información, póngase en contacto con el representante de ventas de Adobe.
+>El paquete de complementos de recopilación de datos regionales de China (China Performance Optimization) es un complemento facturable de Adobe Analytics. La optimización del rendimiento de Adobe en China continental permite a los clientes de China enviar datos directamente al nodo perimetral de China, en lugar de a otras ubicaciones de todo el mundo. Esto mejora los tiempos de carga de página y la precisión de los datos en comparación con el envío de estos a nodos fuera de China. Para obtener más información, póngase en contacto con el representante de ventas de Adobe.
 
 Actualmente, la recopilación de datos regionales incluye las siguientes ubicaciones (sujetas a cambios):
 
@@ -29,24 +29,24 @@ Actualmente, la recopilación de datos regionales incluye las siguientes ubicaci
 
 >[!NOTE]
 >
->Si la solicitud de imagen de Analytics se envía al `adobedc`, `2o7.net` o `omtrdc.net` extremos y, a continuación, tiene una recopilación de datos de terceros. Puede determinarlo si ve alguno de estos puntos de conexión en la dirección URL de sus solicitudes.
+>La recopilación de datos de terceros se produce si su solicitud de imagen de Analytics se envía a los puntos de conexión `adobedc`, `2o7.net` o `omtrdc.net`. Puede determinarlo si ve alguno de estos puntos de conexión en la dirección URL de sus solicitudes.
 
 ## Recopilación de datos propia
 
 | Tipo de RDC | Centros de recopilación de datos |
 |---------------------|-------------------|
 | Global (predeterminado) | Oregón, Virginia, Irlanda, París, Mumbai, Singapur, Tokio, Sydney |
-| Global + China* | China*, Oregón, Virginia, Irlanda, París, Mumbai, Singapur, Tokio, Sydney |
+| Global + China* | China*, Oregón, Virginia, Irlanda, París, Bombay, Singapur, Tokio, Sídney |
 | Solo para América del Norte y América del Sur | Oregón, Virginia |
 | Solo Europa | Irlanda, París |
 | Solo Asia-Pacífico | Mumbai, Singapur, Tokio, Sydney |
-| Solo para China* | Pekín |
+| Solo China* | Pekín |
 
-*Los tipos de RDC Solo China y Global + China requieren el paquete de complementos de China. Consulte la nota “Importante” anterior. Global + China enrutará los datos que se originen dentro de China a nuestra RDC de China mientras enrutan los datos que se originan fuera de China a la RDC más cercana fuera de China.
+*Los tipos de RDC Solo China y Global + China requieren el paquete de complementos de China. Consulte la nota “Importante” anterior. Global + China enrutará los datos que se originen dentro de China a nuestra RDC de China, y los datos que se originen fuera de China a la RDC más cercana fuera de China.
 
 >[!NOTE]
 >
->Experience Edge Global ofrece el mejor rendimiento para sus usuarios finales.  Si desea utilizar un tipo de RDC alternativo, póngase en contacto con el servicio de atención al cliente de Adobe para obtener ayuda.
+>Experience Edge Global ofrece el mejor rendimiento para los usuarios finales.  Si quiere utilizar un tipo de RDC alternativo, póngase en contacto con el Servicio de atención al cliente de Adobe para obtener ayuda.
 
 ## Ventajas de la recopilación de datos regionales
 

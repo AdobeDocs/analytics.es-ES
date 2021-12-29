@@ -5,7 +5,7 @@ exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 source-git-commit: aca7a89449cb8d1dfb8420f4ac9c0f331940690f
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 81%
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ Esta guía explica cómo obtener datos en Analytics. Incluye:
 * **[API de inserción de datos](c-data-insertion-api/c-data-insertion-api.md)**: envíe datos directamente a la recopilación de datos de Adobe a través de una API.
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**: Encuentre las integraciones actuales disponibles para enriquecer su grupo de informes de Adobe Analytics.
 
-A continuación se muestra un vídeo introductorio de Adobe Analytics:
+A continuación, se muestra un vídeo introductorio de Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 

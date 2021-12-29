@@ -7,7 +7,7 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ Requisitos del sistema y del explorador para iniciar sesión en la interfaz de R
 >[!NOTE]
 >El 13 de noviembre de 2018, Adobe dejó de admitir Internet Explorer 11 en Adobe Analytics. Cambie a Microsoft Edge o a otro navegador compatible en cuanto pueda.
 
-* Exploradores preferidos: Últimas versiones de Firefox, Chrome, Safari o Edge.
+* Exploradores preferidos: versiones más recientes de Firefox, Chrome, Safari o Edge.
 * JavaScript y las cookies deben estar activados.
 * Resolución de pantalla de 1024 x 768 con una profundidad de color de 16 bits (o superior).
 
@@ -80,7 +80,7 @@ Información sobre la edición de cuentas de usuario, el restablecimiento de con
 
 Puede ver y editar información de contacto, especificar una contraseña, visualizar información de los servicios web y excluir este equipo de la recopilación de datos.
 
-Haga clic en el icono Cuenta ![](assets/account.png) en la parte superior derecha y luego haga clic en el icono **[!UICONTROL Configuración de la cuenta]** (rueda) junto al nombre de inicio de sesión.
+Haga clic en el icono Cuenta ![](assets/account.png)en la parte superior derecha y luego haga clic en el icono **[!UICONTROL Configuración de la cuenta]** (rueda) junto al nombre de inicio de sesión.
 
 Todos los usuarios tienen acceso a la página [!UICONTROL Información de la cuenta]. La información siguiente está disponible para consultarse o editarse:
 
