@@ -2,9 +2,9 @@
 title: Preguntas más frecuentes sobre los canales de marketing
 description: Preguntas más frecuentes sobre los canales de marketing.
 source-git-commit: 9d4470dd297227333c6043572820053d7eb5e899
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1486'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ El último contacto interno (actualización de la sesión) solo se puede produci
 
 * **Borrar cookies en el sitio en mitad de la sesión**: Un visitante ingresa al sitio y luego borra las cookies a mitad de la sesión. Los canales de primer y último contacto se restablecerían y la visita se clasificaría como “Actualización de sesión” (porque el referente sería interno).
 
-A continuación se muestra un ejemplo de la configuración interna (actualización de sesión) como canales de primer contacto y de último contacto:
+A continuación, se muestra un ejemplo de la configuración interna (actualización de la sesión) como canales de primer y último contacto:
 
 * Día 1: el usuario llega al sitio y este aparece en la pantalla. Los canales de primer y último contacto se definirán como “Pantalla”.
 * Día 2: el usuario entra al sitio a través de una búsqueda natural. El primer contacto permanece como “Pantalla” y el último contacto se establece como “Búsqueda natural”.
