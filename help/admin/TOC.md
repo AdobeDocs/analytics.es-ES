@@ -5,7 +5,7 @@ user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información sobre la administración de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
 source-git-commit: 22bf5b376f1f5a5c1b6efea419cae9bd0c77991d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ ht-degree: 100%
    + [Resumen de la configuración de la empresa](company/c-company-settings.md)
    + [Niveles de acceso de las funcionalidades](company/feature-access-levels.md)
    + [Servicios Web](company/web-services-admin.md)
-   + [Informes del Report Builder](company/report-builder-reports-admin.md)
+   + [Informes de Report Builder](company/report-builder-reports-admin.md)
    + [Inicio de sesión único](company/single-signon-admin.md)
    + [Acciones pendientes](company/pending-actions-admin.md)
    + [Promoción conjunta de marca](company/co-branding-admin.md)
