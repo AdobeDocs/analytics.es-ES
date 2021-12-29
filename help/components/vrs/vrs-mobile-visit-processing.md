@@ -4,9 +4,9 @@ title: Sesiones según el contexto
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1563'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
