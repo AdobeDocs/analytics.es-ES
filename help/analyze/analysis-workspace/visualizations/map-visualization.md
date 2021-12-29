@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '642'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,8 +39,8 @@ A continuación, se muestra un vídeo introductorio:
 
 | Configuración | Descripción |
 | --- | --- |
-| [!UICONTROL Latitud/Longitud móvil] | Esta opción representa los datos de aplicaciones móviles. Solo puede ver esta opción si la ha habilitado para su grupo de informes en [!UICONTROL Analytics] > [!UICONTROL Administrador] > [!UICONTROL Grupos de informes] > (seleccione el grupo de informes) > [!UICONTROL Editar configuración] >  [!UICONTROL Administración de móviles] > [!UICONTROL Activar el seguimiento de ubicación]. Esta es la configuración predeterminada (si el seguimiento de la ubicación está habilitado). |
-| [!UICONTROL Dimensión geográfica] | Esta opción representa los datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. Estos datos se transforman en [!UICONTROL País], [!UICONTROL Región]y [!UICONTROL Ciudad]. Tenga en cuenta que no se desciende al nivel del código postal ni DMA. Casi todos los grupos de informes tienen habilitada esta dimensión. Si no es así en su caso, póngase en contacto con el Servicio de atención al cliente de Adobe para habilitar los informes geográficos. |
+| [!UICONTROL Latitud/Longitud móvil] | Esta opción representa los datos de las aplicaciones móviles. Solo verá esta opción si la ha habilitado para su conjunto de informes en [!UICONTROL Analytics] > [!UICONTROL Administración] > [!UICONTROL Grupos de informes] > (seleccione el grupo de informes)> [!UICONTROL Editar configuración] >  [!UICONTROL Administración móvil] > [!UICONTROL Activar el seguimiento de ubicación]. Esta es la configuración predeterminada (si el seguimiento de la ubicación está habilitado). |
+| [!UICONTROL Dimensión geográfica] | Esta opción representa los datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. Estos datos se transforman en [!UICONTROL País], [!UICONTROL Región] y [!UICONTROL Ciudad]. Tenga en cuenta que no se desciende al nivel del código postal ni DMA. Casi todos los grupos de informes tienen habilitada esta dimensión. Si no es así en su caso, póngase en contacto con el Servicio de atención al cliente de Adobe para habilitar los informes geográficos. |
 
 1. Haga clic en **[!UICONTROL Generar]**.
 
@@ -88,6 +88,6 @@ Al hacer clic en el **icono de engranaje**, se muestra esta configuración de vi
 
 ## Creación de un mapa de calor de partición de tiempo
 
-A continuación, se muestra un vídeo introductorio sobre este tema:
+A continuación, se muestra un vídeo sobre este tema:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
