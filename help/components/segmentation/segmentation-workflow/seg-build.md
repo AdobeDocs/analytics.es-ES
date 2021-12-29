@@ -1,13 +1,13 @@
 ---
 description: El Generador de segmentos proporciona un lienzo al que arrastrar y en el que soltar las dimensiones de métricas, los segmentos y los eventos para segmentar a los visitantes en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Esta herramienta de desarrollo integrado le permite generar y guardar segmentos simples o complejos que identifican atributos y acciones de visitantes en visitas y visitas individuales de páginas.
-title: Generar segmentos
+title: ' Generación de segmentos'
 feature: Segmentation
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2046'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Puede agregar definiciones y contenedores de reglas para definir los segmentos.
 
 Los segmentos con intervalos de fechas incorporados siguen operando en Analysis Workspace de forma distinta a como lo hacen en [!UICONTROL Reports &amp; Analytics]. En Workspace, un segmento con un intervalo de fechas integrado anula el intervalo de fechas del panel. Por su parte, en [!UICONTROL Reports &amp; Analytics] se emplea la intersección del intervalo de fechas del informe y el intervalo de fechas integrado del segmento.
 
-## Generar segmentos {#build-segments}
+## Generación de segmentos {#build-segments}
 
 1. Basta con que arrastre una dimensión, un segmento o un evento de métrica del panel izquierdo al campo [!UICONTROL Definiciones].
 
@@ -84,7 +84,7 @@ Los segmentos con intervalos de fechas incorporados siguen operando en Analysis 
 
 1. Establezca el [operador](/help/components/segmentation/seg-reference/seg-operators.md) en el menú desplegable.
 1. Introduzca o seleccione un valor para el elemento seleccionado.
-1. Agregue contenedores adicionales si es necesario, utilizando las reglas **[!UICONTROL Y]**, **[!UICONTROL O]** o **[!UICONTROL Entonces]**.
+1. Agregue contenedores adicionales si es necesario, utilizando las reglas **[!UICONTROL AND]**, **[!UICONTROL OR]** o **[!UICONTROL THEN]**.
 1. Después de colocar los contenedores y configurar las reglas, consulte los resultados del segmento en la tabla de validación, en la parte superior derecha. El validador indica el porcentaje y el número absoluto de vistas de la página, visitas y visitantes únicos que coinciden con el segmento que ha creado.
 1. En **[!UICONTROL Etiquetas]**, [etiquete](/help/components/segmentation/segmentation-workflow/seg-tag.md) el contenedor seleccionando una etiqueta existente o creando una nueva.
 1. Haga clic en **[!UICONTROL Guardar]** para guardar el segmento.
