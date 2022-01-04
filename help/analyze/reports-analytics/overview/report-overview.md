@@ -2,13 +2,13 @@
 description: Introducción a las características de un informe; incluye la barra de herramientas, el calendario y la tabla de detalles.
 title: Características de los informes
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-feature: Conceptos básicos de Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 100%
+source-wordcount: '415'
+ht-degree: 79%
 
 ---
 
@@ -17,6 +17,9 @@ ht-degree: 100%
 Introducción a las características de un informe; incluye la barra de herramientas, el calendario y la tabla de detalles.
 
 Este ejemplo muestra un [!UICONTROL Informe de páginas]. Las opciones de configuración pueden variar, dependiendo del informe que ejecute. Por ejemplo, en vez de seleccionar Tendencias o Clasificación en un informe [!UICONTROL Contenido del sitio], puede especificar la granularidad y el nombre de página de un informe [!UICONTROL Métricas de sitio].
+
+>[!IMPORTANT]
+>Efectivo **31 de diciembre de 2023**, Adobe tiene la intención de suspender Reports &amp; Analytics y sus informes y funciones correspondientes. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejarán de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Desde la publicación de Analysis Workspace en 2015, las funciones y capacidades de Reports &amp; Analytics se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. Este aviso explica el proceso de finalización de la vida útil.
 
 ## Ejemplo de informe de páginas {#section_288CC85536684C2DB184141358481EF0}
 

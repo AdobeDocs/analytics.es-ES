@@ -5,16 +5,19 @@ title: Preguntas frecuentes
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '753'
-ht-degree: 100%
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 89%
 
 ---
 
 # Preguntas frecuentes
 
 Ofrece sugerencias para la resolución de problemas y respuestas a algunas de las preguntas frecuentes de Analytics para Reports &amp; Analytics. Para ver las preguntas frecuentes sobre la implementación, consulte las [preguntas frecuentes](/help/implement/faq.md) en la guía del usuario de implementación.
+
+>[!IMPORTANT]
+>Efectivo **31 de diciembre de 2023**, Adobe tiene la intención de suspender Reports &amp; Analytics y sus informes y funciones correspondientes. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejarán de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Desde la publicación de Analysis Workspace en 2015, las funciones y capacidades de Reports &amp; Analytics se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. Este aviso explica el proceso de finalización de la vida útil.
 
 **Mi cuenta se ha bloqueado, ¿cómo puedo desbloquearla?**
 
