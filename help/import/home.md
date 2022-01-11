@@ -5,7 +5,7 @@ exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 source-git-commit: aca7a89449cb8d1dfb8420f4ac9c0f331940690f
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Esta guía explica cómo obtener datos en Analytics. Incluye:
 
 * **[Fuentes de datos](c-data-sources/datasrc-home.md)**: cargue un archivo en un FTP de Adobe. Adobe recupera el archivo e incluye los datos en su grupo de informes.
 * **[API de inserción de datos](c-data-insertion-api/c-data-insertion-api.md)**: envíe datos directamente a la recopilación de datos de Adobe a través de una API.
-* **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**: Encuentre las integraciones actuales disponibles para enriquecer su grupo de informes de Adobe Analytics.
+* **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**: encuentre las integraciones actuales disponibles para enriquecer el grupo de informes de Adobe Analytics.
 
 A continuación, se muestra un vídeo introductorio de Adobe Analytics:
 
@@ -30,6 +30,6 @@ A continuación, se muestra un vídeo introductorio de Adobe Analytics:
 ## Recursos clave de Analytics
 
 * [Contactar con el servicio de atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)
-* [Foro de Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
+* [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos de Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=es)
 * [Experience League](https://experienceleague.adobe.com/?lang=es#home)

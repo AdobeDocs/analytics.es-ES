@@ -7,7 +7,7 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -80,7 +80,7 @@ Información sobre la edición de cuentas de usuario, el restablecimiento de con
 
 Puede ver y editar información de contacto, especificar una contraseña, visualizar información de los servicios web y excluir este equipo de la recopilación de datos.
 
-Haga clic en el icono Cuenta ![](assets/account.png)en la parte superior derecha y luego haga clic en el icono **[!UICONTROL Configuración de la cuenta]** (rueda) junto al nombre de inicio de sesión.
+Haga clic en el icono Cuenta ![](assets/account.png) en la parte superior derecha y luego haga clic en el icono **[!UICONTROL Configuración de la cuenta]** (rueda) junto al nombre de inicio de sesión.
 
 Todos los usuarios tienen acceso a la página [!UICONTROL Información de la cuenta]. La información siguiente está disponible para consultarse o editarse:
 
@@ -101,4 +101,4 @@ Instrucciones sobre cómo cambiar el idioma de la interfaz. Puede ver la interfa
 Puede acceder a la documentación y a la página principal desde Adobe Experience Cloud. (**[!UICONTROL Ayuda]** > **[!UICONTROL Página inicial de Ayuda]**.)
 
 >[!NOTE]
->Este producto está autorizado a la venta en América del Norte y en otras regiones en las que se vende realmente. Puede que no cumpla los requisitos locales de venta en otros países o regiones.
+>Este producto está autorizado a la venta en América del Norte y en otras regiones en las que se vende habitualmente. Puede que no cumpla los requisitos locales de venta en otros países o regiones.

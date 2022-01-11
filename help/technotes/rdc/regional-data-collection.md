@@ -29,7 +29,7 @@ Actualmente, la recopilación de datos regionales incluye las siguientes ubicaci
 
 >[!NOTE]
 >
->La recopilación de datos de terceros se produce si su solicitud de imagen de Analytics se envía a los puntos de conexión `adobedc`, `2o7.net` o `omtrdc.net`. Puede determinarlo si ve alguno de estos puntos de conexión en la dirección URL de sus solicitudes.
+>La recopilación de datos de terceros se produce si su solicitud de imagen de Analytics se envía a los puntos de conexión `adobedc`, `2o7.net` o `omtrdc.net`. Puede determinarlas si ve alguno de estos puntos de conexión en la dirección URL de sus solicitudes.
 
 ## Recopilación de datos propia
 
