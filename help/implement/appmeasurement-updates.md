@@ -3,10 +3,10 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 7f27e92b1fc378516423bc971b05e34880897ec9
-workflow-type: ht
-source-wordcount: '2218'
-ht-degree: 100%
+source-git-commit: f06f067d3273883cea4f5d6b4e2b0da303a0d5d2
+workflow-type: tm+mt
+source-wordcount: '2235'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,12 @@ Recopilación de notas de versiones de [!DNL AppMeasurement] para JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Puede descargar la versión más reciente de AppMeasurement en el [Administrador de códigos](/help/admin/admin/code-manager-admin.md).
+
+## Versión 2.22.4
+
+Fecha de versión: **11 de enero de 2022**
+
+* Se ha corregido s.tl() para que ignore correctamente objetos con objetos href en lugar de cadenas href.
 
 ## Versión 2.22.3
 
@@ -443,7 +449,7 @@ Fecha de versión: **15 de noviembre de 2013**
 Fecha de versión: **14 de noviembre de 2013**
 
 * Se ha agregado compatibilidad con la [medición de vídeos de Heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
-* `VisitorAPI.js` se ha incluido para admitir el [servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
+* `VisitorAPI.js` se ha incluido para admitir el [servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Versión 1.1.1
 
