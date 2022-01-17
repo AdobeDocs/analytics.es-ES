@@ -1,23 +1,23 @@
 ---
 description: Una descripción general del menú Informes en Reports & Analytics.
-title: Menú Informes
+title: 'Menú Informes '
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Menú Informes{#reports-menu}
+# Menú Informes {#reports-menu}
 
 Una descripción general del menú Informes en Reports &amp; Analytics.
 
 >[!IMPORTANT]
->Efectivo **31 de diciembre de 2023**, Adobe tiene la intención de suspender Reports &amp; Analytics y sus informes y funciones correspondientes. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejarán de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Desde la publicación de Analysis Workspace en 2015, las funciones y capacidades de Reports &amp; Analytics se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. Este aviso explica el proceso de finalización de la vida útil.
+>A partir del **31 de diciembre de 2023**, Adobe tiene la intención de descatalogar Reports &amp; Analytics, y sus informes y funciones correspondientes. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejarán de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de Reports &amp; Analytics se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. Este aviso explica el proceso de finalización de la vida útil.
 
 El menú Informes proporciona:
 
@@ -34,7 +34,7 @@ Se puede navegar por los informes con una vista de columna jerárquica. Haga cli
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Para obtener más información sobre los informes individuales, consulte [Dimension](/help/components/dimensions/overview.md).
+Para conocer los detalles sobre los informes individuales, consulte [Dimensiones](/help/components/dimensions/overview.md).
 
 ## Búsqueda de informes {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -48,7 +48,7 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
 >
 >También puede buscar en la lista de informes por propiedad, eVar y número de evento. En la barra de búsqueda, introduzca la propiedad, eVar o número de evento.
 
-## Descripción general de navegación {#section_A6A0A369207149BABE504753B48A42D7}
+## Información general de la navegación {#section_A6A0A369207149BABE504753B48A42D7}
 
 <table id="table_3BA295966BBC4C94ABDC3718D1894698"> 
  <thead> 
@@ -116,7 +116,7 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
   </tr> 
   <tr> 
    <td colname="col1">Selector de grupos de informes <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Le permite seleccionar <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=es"  >grupos de informes base</a> o <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >grupos de informes virtuales</a>. </td> 
+   <td colname="col2">Le permite seleccionar <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=es"  >grupos de informes base</a> o <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=es"  >grupos de informes virtuales</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendario <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -127,4 +127,4 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
 
 ## Personalización del menú Todos los informes {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Los administradores pueden cambiar los informes que incluye el menú Informes. Consulte [Personalización de menús](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html) en la Ayuda de Administradores.
+Los administradores pueden cambiar los informes que incluye el menú Informes. Consulte [Personalización de menús](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=es) en la Ayuda de Administradores.
