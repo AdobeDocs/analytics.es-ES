@@ -2,35 +2,35 @@
 title: Fin de vida útil para fuentes de datos de procesamiento completo
 description: Razones para finalizar la vida útil y comparaciones entre la API de inserción de datos en lote y las fuentes de datos de procesamiento completo.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 32%
+source-wordcount: '1225'
+ht-degree: 31%
 
 ---
 
 # Fin de vida útil para fuentes de datos de procesamiento completo
 
-Durante varios años, las fuentes de datos de procesamiento completo han permitido enviar datos de nivel de visita a Adobe Analytics. Estos datos se procesaron del mismo modo que los datos recopilados mediante nuestras bibliotecas JavaScript y el SDK de la aplicación móvil. En 2020, Adobe lanzó la [API de inserción masiva de datos](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md), que realiza las mismas funciones que las fuentes de datos de procesamiento completo, pero con funciones adicionales. En este tema se proporcionan detalles sobre la funcionalidad adicional proporcionada por la API de inserción de datos en lote y se describen las diferencias en los formatos de archivo.
+Durante varios años, las fuentes de datos de procesamiento completo le permitieron enviar datos de nivel de visita a Adobe Analytics. Estos datos se procesaron del mismo modo que los datos recopilados mediante nuestras bibliotecas JavaScript y el SDK de la aplicación móvil. En 2020, el Adobe lanzó el [API de inserción de datos en lotes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md), que realiza las mismas funciones que las fuentes de datos de procesamiento completo, pero con funciones adicionales. En este tema se proporcionan detalles sobre la funcionalidad adicional proporcionada por la API de inserción de datos en lote y se describen las diferencias en los formatos de archivo.
 
-A partir del 25 de marzo de 2021, Adobe impedirá que se creen nuevas conexiones de fuentes de datos de procesamiento completo. Las conexiones existentes seguirán siendo compatibles hasta que el servicio quede totalmente obsoleto el 31 de julio de 2021. Además de nuestra documentación estándar, proporcionamos una explicación detallada de los [pasos necesarios para enviar datos mediante la API de inserción de datos en lote](https://adobe.ly/aabdia).
+A partir del 25 de marzo de 2021, Adobe impidió que se crearan nuevas conexiones de fuentes de datos de procesamiento completo. Las conexiones existentes eran compatibles hasta que el servicio quedara totalmente obsoleto el 31 de enero de 2022. Además de nuestra documentación estándar, estamos proporcionando una explicación detallada de la [pasos necesarios para enviar datos mediante la API de inserción de datos en lote](https://adobe.ly/aabdia).
 
-## ¿Por qué queremos dejar de usar esta función?
+## ¿Por qué hemos terminado la vida útil de esta función?
 
-La API de inserción masiva de datos (BDIA) proporciona funcionalidad adicional y cubre todos los casos de uso admitidos por el procesamiento completo. Creemos que será mejor usar la API de inserción masiva de datos.
+La API de inserción masiva de datos (BDIA) proporciona funcionalidad adicional y cubre todos los casos de uso admitidos por el procesamiento completo. Se recomienda utilizar la API de inserción de datos en lote.
 
 ## Diferencias clave entre las fuentes de datos de procesamiento completo y la API de inserción de datos en lotes
 
 * La inserción masiva de datos permite enviar varios archivos que se pueden procesar en paralelo. Puede utilizar Grupos de visitantes para garantizar la continuidad del visitante y la atribución de eVar.
 * La inserción masiva de datos tiene funciones de validación de datos y de gestión de errores, lo que elimina parte del trabajo administrativo del envío de datos de visitas.
-* La inserción masiva de datos admite varias opciones para los ID de visitante. Puede enviar tanto el ID de Analytics como el ID de Marketing Cloud (consulte [Servicio de identidad](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) para obtener más información). Además, puede utilizar su propio ID como [semilla para generar un ECID](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md#customer-id-and-experience-cloud-visitor-id-seeds).
+* La inserción masiva de datos admite varias opciones para los ID de visitante. Puede enviar tanto el ID de Analytics como el ID de Marketing Cloud (consulte [Servicio de identidad](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) para obtener más información). Además, puede usar su propio ID como [semilla para generar un ECID](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md#customer-id-and-experience-cloud-visitor-id-seeds).
 * La inserción masiva de datos admite variables de datos de lista y contexto.
 * La inserción masiva de datos no admite datos de Activity Map.
 
 ## Diferencias clave en el formato de archivo y el contenido
 
 * La inserción masiva de datos tiene algunos campos obligatorios adicionales. Consulte la [documentación](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) para obtener más información.
-* Para garantizar la continuidad y la atribución del visitante, la inserción masiva de datos requiere que las filas de los archivos se ordenen en orden cronológico. Consulte [Grupos de visitantes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md#visitor-groups) para obtener más información sobre la ordenación de la actividad de los visitantes en todos los archivos.
+* Para garantizar la continuidad y la atribución del visitante, la inserción masiva de datos requiere que las filas de los archivos se ordenen en orden cronológico. Consulte [Grupos de visitantes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md#visitor-groups) para obtener más información sobre el orden de la actividad del visitante en todos los archivos.
 * La inserción masiva de datos requiere que los archivos estén comprimidos en .csv en formato .gzip.
 * BDIA utiliza &quot;marca de tiempo&quot; en lugar de &quot;fecha&quot;.
 
@@ -48,14 +48,14 @@ Para obtener más información, consulte la siguiente comparación de los valore
 | colorDepth | colorDepth | Profundidad de color del monitor en bits (por ejemplo, 24) |
 | connectionType | connectionType | Tipo de conexión del visitante (LAN o módem) |
 | contextData.key | No admitido | Los pares clave-valor se especifican en al nombrar el encabezado &quot;contextData.product&quot; o &quot;contextData.color&quot; |
-| cookiesEnabled | cookiesEnabled | `Y` o  `N` para si el visitante admite cookies de sesión de origen |
+| cookiesEnabled | cookiesEnabled | `Y` o `N` para si el visitante admite cookies de sesión de origen |
 | currencyCode | currencyCode | Código de la moneda en que están expresados los ingresos (por ejemplo, `USD`) |
 | customerID.[customerIDType].authState | No admitido | Estado autenticado del visitante. Los valores admitidos son: 0, 1, 2, UNKNOWN, AUTHENTICATED, LOGGED_OUT o &#39;&#39; (sin distinción de mayúsculas y minúsculas). Dos comillas simples consecutivas (&#39;&#39;) hacen que el valor se omita de la cadena de consulta, lo que significa 0 cuando se efectúa la visita. Tenga en cuenta que los valores numéricos authState admitidos indican lo siguiente: 0 = DESCONOCIDO, 1 = AUTENTICADO, 2 = LOGGED_OUT. customerIDType puede ser cualquier cadena alfanumérica, pero debe considerarse que distingue entre mayúsculas y minúsculas. |
 | customerID.[customerIDType].id | No admitido | El ID de cliente que se va a usar. customerIDType puede ser cualquier cadena alfanumérica, pero debe considerarse que distingue entre mayúsculas y minúsculas. |
 | customerID.[customerIDType].isMCSeed | No admitido | Indica si este es o no el origen del ID de visitante de Marketing Cloud. Los valores admitidos son: 0, 1, TRUE, FALSE, &#39;&#39; (sin distinción de mayúsculas y minúsculas). El uso de 0, FALSE o dos comillas simples consecutivas (&#39;&#39;) hace que el valor se omita de la cadena de consulta. customerIDType puede ser cualquier cadena alfanumérica, pero debe considerarse que distingue entre mayúsculas y minúsculas. |
 | eVarN | eVarN, es decir `<eVar2>`...`<eVar>` | Nombre de la eVar de conversión. Se pueden usar hasta 75 eVars ( eVar1 - eVar75 ) Puede especificar el nombre del eVar (eVar12) o un nombre descriptivo (Campaña publicitaria 3). |
-| Events | Events | [Cadena de eventos](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=en#vars), con el mismo formato que la variable s.events. Por ejemplo: scAdd,event1,event7 |
-| hierN | hierN, es decir, `<hier2>`...`</hier2>` | Nombre de la jerarquía. Se pueden usar hasta cinco jerarquías ( hier1 - hier5 ). Puede especificar el nombre de jerarquía predeterminado `hier2` o un nombre descriptivo (Barcelona). |
+| Events | Events | [Cadena de eventos](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=en#vars), con el mismo formato que la variable s.events . Por ejemplo: scAdd,event1,event7 |
+| hierN | hierN, es decir, `<hier2>`...`</hier2>` | Nombre de la jerarquía. Se pueden usar hasta cinco jerarquías ( hier1 - hier5 ). Puede especificar el nombre de jerarquía predeterminado `hier2` o un nombre descriptivo (Yankees). |
 | homePage | homePage | Y o N, según si la página actual es la página principal del visitante. |
 | ipaddress | No admitido | La dirección IP del visitante. |
 | javaEnabled | javaEnabled | Y o N para indicar si el visitante tiene Java habilitado. |
@@ -65,7 +65,7 @@ Para obtener más información, consulte la siguiente comparación de los valore
 | linkType | linkType | Tipo de vínculo. Los valores admitidos son: `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF del vínculo. |
 | listn Por ejemplo, list2. | No admitido | Una lista delimitada de valores que se pasan a una variable y se incluyen en los informes como elementos de línea individuales |
-| marketingCloudVisitorID | No admitido | Marketing Cloud ID. Consulte [Identificación de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) y Servicio de ID de visitante de Marketing Cloud |
+| marketingCloudVisitorID | No admitido | Marketing Cloud ID. Consulte [Identificación de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) y el servicio de ID de visitante de Marketing Cloud |
 | No admitido | charSet | Conjunto de caracteres admitido para el sitio web. Por ejemplo: UTF-8, ISO-8859-1, etc. |
 | No admitido | clickAction | Identificador de objeto correspondiente al mapa de clics del visitante (oid) |
 | No admitido | clickActionType | Tipo de identificador de objeto correspondiente al mapa de clics del visitante (oidt) |
@@ -88,9 +88,9 @@ Para obtener más información, consulte la siguiente comparación de los valore
 | resolution | resolution | Resolución de pantalla (por ejemplo, 1024x768). |
 | servidor | servidor | Cadena del servidor. |
 | state | state | Cadena de estado de la conversión. |
-| timestamp | date | Utilice el formato de fecha ISO 8601 AAAA-MM-DDThh:mm:ss±UTC_offset (por ejemplo, 2021-09-01T12:00:00-07:00 ) o el formato de tiempo Unix (el número de segundos transcurridos desde el 1 de enero de 197 0). |
+| timestamp | date | Utilice el formato de fecha ISO 8601 AAAA-MM-DDThh:mm:ss±UTC_offset (por ejemplo, 2021-09-01T12):00:00-07:00 ) o formato de tiempo de Unix (el número de segundos transcurridos desde el 1 de enero de 1970). |
 | trackingServer | No admitido | Solo se puede proporcionar mediante el encabezado de columna. |
-| transactionID | No admitido | Valor común que se usa para enlazar conjuntamente actividades de usuario de multicanal para los informes. Para obtener más información, consulte la [Guía del usuario de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources). |
+| transactionID | No admitido | Valor común que se usa para enlazar conjuntamente actividades de usuario de multicanal para los informes. Para obtener más información, consulte la [Guía del usuario de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources). |
 | userAgent | No admitido | Cadena del agente de usuario |
 | visitorID | visitorID | ID de Analytics del visitante. Consulte [Identificación de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en). |
 | zip | zip | Código postal de la conversión. |
