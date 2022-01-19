@@ -3,7 +3,7 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: d9999d45476a70cee49f83d009ce95b9b4931529
+source-git-commit: 71c4b4d7381dcdf79c550f968c8f720d87c63126
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 98%
@@ -20,9 +20,9 @@ Puede descargar la versión más reciente de AppMeasurement en el [Administrador
 
 ## Versión 2.22.4
 
-Fecha de versión: **11 de enero de 2022**
+Fecha de versión: **18 de enero de 2022**
 
-* La llamada de seguimiento de vínculos `s.tl()` ahora comprueba que el objeto que se le pasa contiene un `href` atributo de tipo `string`. Si no es `string`, entonces ignorará correctamente el `href` en lugar de error. Esto puede ocurrir al pasar `svg` objetos a la llamada de seguimiento de vínculos.
+* `s.tl()``href``string` `string``href` `svg`
 
 ## Versión 2.22.3
 
