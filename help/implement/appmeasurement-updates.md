@@ -22,7 +22,7 @@ Puede descargar la versión más reciente de AppMeasurement en el [Administrador
 
 Fecha de versión: **18 de enero de 2022**
 
-* `s.tl()``href``string` `string``href` `svg`
+* La llamada de seguimiento de vínculos `s.tl()` ahora comprueba que el objeto que se le pasa contiene un `href` atributo de tipo `string`. Si no es `string`, entonces ignorará correctamente el `href` en lugar de error. Esto puede ocurrir al pasar `svg` objetos a la llamada de seguimiento de vínculos.
 
 ## Versión 2.22.3
 
