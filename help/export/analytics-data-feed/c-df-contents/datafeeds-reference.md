@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 0884c5a13fba7a22589e2962a4d79f4a6525dd8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3445'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `latlon1` | Ubicación (menos de 10 km) | varchar(255) |
 | `latlon23` | Ubicación (menos de 100 m) | varchar(255) |
 | `latlon45` | Ubicación (menos de 1 m) | varchar(255) |
-| `mc_audiences` | Lista de las ID de segmento de Audience Manager a los que pertenece el visitante. La variable `post_mc_audiences` cambia el delimitador a `--**--`. | texto |
+| `mc_audiences` | Lista de ID de segmento de Audience Manager a los que pertenece el visitante. La columna `post_mc_audiences` cambia el delimitador a `--**--`. | texto |
 | `mcvisid` | ID de visitante de Experience Cloud. Número de 128 bits que consiste en dos números de 64 bits concatenados aumentados a 19 dígitos. | varchar(255) |
 | `mobile_id` | Si el usuario utiliza un dispositivo móvil, es el ID numérico del dispositivo. | int |
 | `mobileaction` | Acción móvil. Se recopila automáticamente cuando se llama a `trackAction` en Mobile Services. Permite establecer automáticamente las rutas de acción en la aplicación. | varchar(100) |
@@ -146,7 +146,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `mobilerelaunchcampaigntrackingcode` | Recopilado desde la variable de datos de contexto `a.launch.campaign.trackingcode`. Se utiliza en la adquisición como código de seguimiento para la campaña de inicio. | varchar(255) |
 | `mobileresolution` | Resolución del dispositivo móvil. `[Width] x [Height]` en píxeles. | varchar(255) |
 | `monthly_visitor` | Un indicador que señala que el visitante es exclusivo del mes actual. | tinyint sin firmar |
-| `mvvar1` - `mvvar3` | Valores de variable de lista. Contiene una lista delimitada de valores personalizados en función de la implementación. La variable `post_mvvar1` - `post_mvvar3` las columnas reemplazan el delimitador original por `--**--`. | texto |
+| `mvvar1` - `mvvar3` | Valores de variable de lista. Contiene una lista delimitada de valores personalizados en función de la implementación. Las columnas `post_mvvar1` - `post_mvvar3` reemplazan el delimitador original por `--**--`. | texto |
 | `namespace` | No se usa. Parte de una función limpiada. | varchar(50) |
 | `new_visit` | Un indicador que determina si la visita actual es una nueva visita. Los servidores de Adobe lo establecen después de 30 minutos de inactividad de la visita. | tinyint sin firmar |
 | `os` | ID numérica que representa el sistema operativo del visitante. Se basa en la columna`user_agent`. Utiliza la búsqueda `os`. | int sin firmar |
