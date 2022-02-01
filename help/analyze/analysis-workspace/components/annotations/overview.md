@@ -2,9 +2,10 @@
 title: Descripción general de anotaciones
 description: Cómo utilizar anotaciones en Workspace.
 role: User, Admin
-source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
+solution: Analytics
+source-git-commit: ba7a3193ef01f5865300554ed0ebb610146ebc5a
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '139'
 ht-degree: 3%
 
 ---
@@ -19,7 +20,7 @@ Las anotaciones le permiten comunicar de forma eficaz los matices y perspectivas
 
 ## Visibilidad
 
-Las anotaciones se pueden ver de varias formas:
+Puede ver las anotaciones de varias formas:
 
 * Insertar imagen de línea viz>
 
