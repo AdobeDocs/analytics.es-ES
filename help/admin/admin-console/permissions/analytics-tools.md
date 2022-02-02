@@ -2,10 +2,10 @@
 title: Permisos de perfil de productos para las herramientas de Analytics
 description: Los elementos de permiso de las herramientas de Analytics conceden acceso a las funciones de Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 98%
 
 ---
 
@@ -41,6 +41,6 @@ Los elementos de permiso de las herramientas de Analytics conceden acceso a las 
 | [!UICONTROL Creación de segmentos] | Concede la capacidad de crear y compartir segmentos en todas las funciones de Analytics. |
 | [!UICONTROL Administración de Advertising Analytics] | No se usa. |
 | [!UICONTROL Publicación de segmentos] | Concede la capacidad de convertir un segmento en una audiencia de Experience Cloud al crear o editar un segmento. |
-| [!UICONTROL Integraciones (crear)] | Otorga acceso a Administración > Todos los administradores > Conectores de datos, y permite al usuario crear conectores de datos. |
-| [!UICONTROL Integraciones (actualizar)] | Otorga acceso a Administración > Todos los administradores > Conectores de datos, y permite al usuario modificar las configuraciones de conectores existentes. |
-| [!UICONTROL Integraciones (eliminar)] | Otorga acceso a Administración > Todos los administradores > Conectores de datos, y permite al usuario eliminar conectores de datos. |
+| [!UICONTROL Integraciones (crear)] | No se usa. Data Connectors han llegado al final de su vida útil. |
+| [!UICONTROL Integraciones (actualizar)] | No se usa. |
+| [!UICONTROL Integraciones (eliminar)] | No se usa. |

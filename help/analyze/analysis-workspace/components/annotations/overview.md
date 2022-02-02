@@ -3,9 +3,9 @@ title: Descripción general de anotaciones
 description: Cómo utilizar anotaciones en Workspace.
 role: User, Admin
 solution: Analytics
-source-git-commit: ba7a3193ef01f5865300554ed0ebb610146ebc5a
+source-git-commit: fe918ca35a8e28aaf77c165f5ea3ca80964a4b3b
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '350'
 ht-degree: 3%
 
 ---
@@ -16,24 +16,51 @@ ht-degree: 3%
 >
 >Actualmente, esta función está en prueba limitada.
 
-Las anotaciones le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. Las anotaciones permiten enlazar eventos de calendario con dimensiones o métricas específicas. Puede mostrar gráficamente los eventos y ver si las campañas u otros eventos han afectado al tráfico del sitio, los ingresos o cualquier otra métrica. Anteriormente denominado [!UICONTROL Eventos de calendario] en [!DNL Reports & Analytics], puede anotar una fecha para problemas de datos, festivos, lanzamientos de campañas, etc.
+Las anotaciones le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. Permiten enlazar eventos de calendario con dimensiones/métricas específicas. Puede anotar una fecha o un intervalo de fechas para problemas de datos, festivos, lanzamientos de campañas, etc. A continuación, puede mostrar gráficamente los eventos y ver si las campañas u otros eventos han afectado al tráfico del sitio, los ingresos o cualquier otra métrica.
 
-## Visibilidad
+Por ejemplo, supongamos que comparte proyectos que ha creado con su organización. Observará un descenso o un pico en el tráfico u otros datos y vinculará una anotación a las métricas, dimensiones o segmentos afectados. A continuación, estas anotaciones aparecen en una tabla o una visualización de líneas y proporcionan un contexto de datos para usted y los consumidores de sus proyectos de Workspace.
 
-Puede ver las anotaciones de varias formas:
+* Las anotaciones se pueden asociar a una sola fecha o a un intervalo de fechas.
 
-* Insertar imagen de línea viz>
+* Pueden aplicarse a todo el conjunto de datos o a métricas, dimensiones o segmentos especificados.
 
-* Insertar tabla improvisada
+* Pueden aplicarse al proyecto en el que se crearon (predeterminado) o a todos los proyectos.
 
-* Insertar PDF
+* Pueden aplicarse al grupo de informes en el que se crearon (predeterminado) o a todos los grupos de informes.
+
+## Permisos
+
+De forma predeterminada, solo los administradores pueden crear anotaciones. Los usuarios tienen derechos para ver anotaciones como lo tienen con otros componentes de Analytics (como segmentos, métricas calculadas, etc.).
+
+Sin embargo, los administradores pueden especificar [!UICONTROL Creación de anotaciones] permiso (Herramientas de Analytics) para los usuarios a través del [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en).
+
+## Ver anotaciones
+
+Puede ver las anotaciones de varias formas: como [!UICONTROL Línea] visualización (ya que es datos de tendencias), como [!UICONTROL Forma libre] tabla, [!UICONTROL Barra] o en un archivo .pdf exportado.
+
+### Visualización de líneas
+
+seguir
+
+### Tabla improvisada
+
+seguir
+
+### Gráfico de barras
+
+seguir
+
+### archivo PDF
+
+seguir
 
 ## Activar o desactivar anotaciones
 
-Las anotaciones se pueden activar o desactivar en algunos lugares:
+Las anotaciones se pueden activar o desactivar en varios niveles:
 
-* Nivel de visualización: Configuración de visualización > Mostrar anotaciones
+* En el nivel de visualización: [!UICONTROL Visualización] configuración > [!UICONTROL Mostrar anotaciones]
 
-* Nivel de proyecto: Información y configuración del proyecto > Mostrar anotaciones
+* A nivel de proyecto: [!UICONTROL Información y configuración del proyecto] > [!UICONTROL Mostrar anotaciones]
 
-* Nivel de usuario: Componentes > Preferencias de usuario > Datos > Mostrar anotaciones
+* A nivel de usuario: [!UICONTROL Componentes] > [!UICONTROL Preferencias de usuario] > [!UICONTROL Datos] > [!UICONTROL Mostrar anotaciones]
+
