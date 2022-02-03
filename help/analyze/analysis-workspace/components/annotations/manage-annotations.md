@@ -2,10 +2,10 @@
 title: Administrar anotaciones
 description: Cómo administrar anotaciones en Workspace.
 role: User, Admin
-source-git-commit: c4ffa987cd652b3e8f36fadf61ee6a395365fda0
+source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 4%
+source-wordcount: '477'
+ht-degree: 18%
 
 ---
 
@@ -47,23 +47,18 @@ Editar una anotación significa que puede ajustar intervalos de fechas, colores,
 
 Ambas opciones le permiten volver a acceder al Generador de anotaciones. Aquí puede realizar los ajustes necesarios y guardar la nueva versión.
 
-## Compartir anotaciones
+## Otras tareas de anotaciones
 
-![](assets/share-ann.png)
+El administrador de anotaciones permite a los administradores editar, añadir, etiquetar, eliminar, cambiar el nombre, aprobar, copiar, exportar y filtrar anotaciones. No es visible para los usuarios que no son administradores.
 
-1. Seleccione las anotaciones que desee compartir y haga clic en [!UICONTROL Compartir].
+Solo tiene que seleccionar una o varias anotaciones y aparecerá la barra de tareas.
 
-1. En el [!UICONTROL Compartir componente] , busque las personas o los grupos con los que desea compartir las anotaciones.
-
-1. En [!UICONTROL Organización], ....
-
-1. Haga clic en [!UICONTROL Guardar].
-
-## Anotaciones de etiqueta
-
-A continuación
-
-
-
-
-
+| Tarea | Descripción |
+| --- | --- |
+| Agregar | Le lleva al Generador de anotaciones, donde puede crear nuevas anotaciones. |
+| Etiqueta | Todos los usuarios pueden crear etiquetas para las anotaciones y aplicar una o más a una anotación. Sin embargo, solo puede ver etiquetas de los segmentos de los que es propietario. ¿Qué tipo de etiquetas debería crear? A continuación encontrará una serie de sugerencias para crear etiquetas útiles:<ul><li>Etiquetas basadas en nombres de equipos, como Marketing social o Marketing móvil</li><li>Etiquetas de proyectos (etiquetas de análisis), como análisis de Páginas de entrada</li><li>Etiquetas de categorías: Para hombres o Área geográfica</li><li>Etiquetas de flujo de trabajo: Revisado para (unidad comercial específica); Aprobado</li></ul> |
+| Eliminar | Al eliminar una anotación, esta se elimina de cualquier proyecto de su organización. |
+| Cambiar nombre | Al cambiar el nombre de una anotación, se le cambia el nombre en todos los proyectos a los que se aplicó. |
+| Copiar | Crea una copia distinta con su propio ID de anotación, pero con el mismo nombre y definición. |
+| Exportar a CSV | Exporte la definición de la anotación a un archivo .csv. |
+| Filtro (carril izquierdo) | Filtre por etiquetas, grupo de informes, propietarios y otros filtros (Míos, Aprobados, Favoritos, Compartidos conmigo y Mostrar todo). |

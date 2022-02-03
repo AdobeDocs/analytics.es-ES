@@ -2,9 +2,9 @@
 title: Crear anotaciones
 description: Cómo crear anotaciones en Workspace.
 role: User, Admin
-source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '373'
 ht-degree: 5%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 5%
 
 1. Para crear anotaciones, tiene 4 formas de empezar:
 
-   * Vaya a [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Anotación]. Se abre la página Administrador de anotaciones . Haga clic en [!UICONTROL Crear nueva anotación] y se abrirá el Generador de anotaciones, o
+   * Vaya a [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Anotación]. Se abre la página Administrador de anotaciones . Haga clic en [!UICONTROL Crear nueva anotación] y se abre el Generador de anotaciones.
 
-   * Haga clic con el botón derecho en un punto de una tabla o en un gráfico de líneas. Se abre el Generador de anotaciones o
+   * Haga clic con el botón derecho en un punto de una tabla o en un gráfico de líneas. Se abre el Generador de anotaciones.
 
-   * En Workspace, vaya a [!UICONTROL Componentes] > [!UICONTROL Crear anotación].
+   * En Workspace, vaya a [!UICONTROL Componentes] > [!UICONTROL Crear anotación]. Se abre el Generador de anotaciones.
 
    * Utilice esta tecla de acceso directo para abrir el Generador de anotaciones:
       * (PC) `ctrl` `shift` + o
@@ -41,6 +41,6 @@ ht-degree: 5%
    | [!UICONTROL Color] | Aplicar un color a la anotación. La anotación aparece en el proyecto con el color seleccionado. El color se puede utilizar para categorizar anotaciones, como festivos, eventos externos, problemas de seguimiento, etc. |
    | [!UICONTROL Ámbito] | (Opcional) Arrastre y suelte las métricas de déclencheur de la anotación. A continuación, arrastre y suelte las dimensiones o segmentos que actúen como filtros (es decir, con los que la anotación será visible). Si no especifica un ámbito, la anotación se aplicará a todos los datos.<ul><li>**[!UICONTROL Cualquiera de estas métricas está presente]**: Arrastre y suelte hasta 10 métricas que almacenarán en déclencheur la anotación para mostrar.</li><li>**[!UICONTROL Con todos estos filtros]**: Arrastre y suelte hasta 10 dimensiones o segmentos que filtrarán cuando se muestre la anotación.</li></ul><p>Casos de uso: Un eVar ha dejado de recopilar datos para un intervalo de fechas específico. Arrastre el eVar a la **[!UICONTROL Cualquiera de estas métricas está presente]** diálogo. O [!UICONTROL Visitas] no genera informes de ningún dato; siga el mismo proceso. |
    | [!UICONTROL Aplicar a todos los conjuntos de informes] | De forma predeterminada, la anotación se aplica al grupo de informes de origen. Al marcar esta casilla, puede hacer que la anotación se aplique a todos los grupos de informes de la empresa. |
-   | [!UICONTROL Aplicar a todos los proyectos] | De forma predeterminada, la anotación se aplica al proyecto actual. Al marcar esta casilla, puede hacer que la anotación se aplique a todos los proyectos que posea. |
+   | [!UICONTROL Aplicar a todos los proyectos] | De forma predeterminada, la anotación se aplica al proyecto actual. Al marcar esta casilla, puede hacer que la anotación se aplique a todos los proyectos que posea. Tenga en cuenta que esta casilla de verificación solo aparece al iniciar el Generador de anotaciones desde el Administrador de anotaciones. |
 
 1. Haga clic en [!UICONTROL Guardar].

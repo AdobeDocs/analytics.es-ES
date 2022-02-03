@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Proporciona instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como Adobe Analytics Dashboards, Report Builder y Activity Map.
-source-git-commit: 3266dd5547c1967e424534a13a3f8dc29aa1189e
-workflow-type: ht
-source-wordcount: '1011'
-ht-degree: 100%
+source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
+workflow-type: tm+mt
+source-wordcount: '1018'
+ht-degree: 99%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 100%
       + [Ver densidad](analysis-workspace/build-workspace-project/view-density.md)
    + Componentes {#components}
       + [Resumen de componentes](analysis-workspace/components/analysis-workspace-components.md)
+      + Anotaciones {#annotations}
+         + [Descripción general de anotaciones](analysis-workspace/components/annotations/overview.md)
+         + [Crear anotaciones](analysis-workspace/components/annotations/create-annotations.md)
+         + [Administrar anotaciones](analysis-workspace/components/annotations/manage-annotations.md)
       + Dimensiones {#dimensions}
          + [Vista preliminar de dimensiones](analysis-workspace/components/dimensions/view-dimensions.md)
          + [Desglose de dimensiones](analysis-workspace/components/dimensions/t-breakdown-fa.md)
@@ -52,7 +56,7 @@ ht-degree: 100%
             + [Configuración de filas](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Elementos dinámicos vs. estáticos](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Paginación, filtrado y ordenación de tablas](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [Totales de del Espacio de trabajo](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Totales del Espacio de trabajo](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabla de cohorte {#cohort-table}
          + [¿Qué es el análisis de cohorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar un informe de análisis de cohorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
