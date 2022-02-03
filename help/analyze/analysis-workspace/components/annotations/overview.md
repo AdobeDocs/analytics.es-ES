@@ -3,10 +3,10 @@ title: Descripción general de anotaciones
 description: Cómo utilizar anotaciones en Workspace.
 role: User, Admin
 solution: Analytics
-source-git-commit: fe918ca35a8e28aaf77c165f5ea3ca80964a4b3b
+source-git-commit: 0516696ee9d51ac843c659390ae99d8337812cbb
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 3%
+source-wordcount: '354'
+ht-degree: 4%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 3%
 Las anotaciones le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. Permiten enlazar eventos de calendario con dimensiones/métricas específicas. Puede anotar una fecha o un intervalo de fechas para problemas de datos, festivos, lanzamientos de campañas, etc. A continuación, puede mostrar gráficamente los eventos y ver si las campañas u otros eventos han afectado al tráfico del sitio, los ingresos o cualquier otra métrica.
 
 Por ejemplo, supongamos que comparte proyectos que ha creado con su organización. Observará un descenso o un pico en el tráfico u otros datos y vinculará una anotación a las métricas, dimensiones o segmentos afectados. A continuación, estas anotaciones aparecen en una tabla o una visualización de líneas y proporcionan un contexto de datos para usted y los consumidores de sus proyectos de Workspace.
+
+Recuerde:
 
 * Las anotaciones se pueden asociar a una sola fecha o a un intervalo de fechas.
 
