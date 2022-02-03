@@ -3,10 +3,10 @@ title: Descripción general de anotaciones
 description: Cómo utilizar anotaciones en Workspace.
 role: User, Admin
 solution: Analytics
-source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
+source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 4%
+source-wordcount: '306'
+ht-degree: 2%
 
 ---
 
@@ -36,26 +36,6 @@ De forma predeterminada, solo los administradores pueden crear anotaciones. Los 
 
 Sin embargo, los administradores pueden especificar [!UICONTROL Creación de anotaciones] permiso (Herramientas de Analytics) para los usuarios a través del [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en).
 
-## Ver anotaciones
-
-Puede ver las anotaciones de varias formas: en un [!UICONTROL Línea] visualización (ya que son datos de tendencias), en un [!UICONTROL Forma libre] tabla, [!UICONTROL Barra] o en un archivo .pdf exportado.
-
-### Visualización de líneas
-
-seguir
-
-### Tabla improvisada
-
-seguir
-
-### Gráfico de barras
-
-seguir
-
-### archivo PDF
-
-seguir
-
 ## Activar o desactivar anotaciones
 
 Las anotaciones se pueden activar o desactivar en varios niveles:
@@ -66,3 +46,6 @@ Las anotaciones se pueden activar o desactivar en varios niveles:
 
 * A nivel de usuario: [!UICONTROL Componentes] > [!UICONTROL Preferencias de usuario] > [!UICONTROL Datos] > [!UICONTROL Mostrar anotaciones]
 
+![](assets/show-ann.png)
+
+![](assets/show-ann2.png)

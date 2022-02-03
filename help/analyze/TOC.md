@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Proporciona instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como Adobe Analytics Dashboards, Report Builder y Activity Map.
-source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
+source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1020'
 ht-degree: 99%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 99%
          + [Descripción general de anotaciones](analysis-workspace/components/annotations/overview.md)
          + [Crear anotaciones](analysis-workspace/components/annotations/create-annotations.md)
          + [Administrar anotaciones](analysis-workspace/components/annotations/manage-annotations.md)
+         + [Ver anotaciones](analysis-workspace/components/annotations/view-annotations.md)
       + Dimensiones {#dimensions}
          + [Vista preliminar de dimensiones](analysis-workspace/components/dimensions/view-dimensions.md)
          + [Desglose de dimensiones](analysis-workspace/components/dimensions/t-breakdown-fa.md)
