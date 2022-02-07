@@ -4,9 +4,9 @@ title: Procesamiento completo
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->Adobe recomienda usar la variable [API de inserción de datos en lotes (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) en lugar de fuentes de datos de procesamiento completo. Adobe dejó de utilizar las fuentes de datos de procesamiento completo el 31 de enero de 2022. [Más información](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe recomienda que los clientes utilicen la [API de inserción de datos en lote (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=es) en lugar de las fuentes de datos de procesamiento completo. Adobe dejó de utilizar las fuentes de datos de procesamiento completo el 31 de enero de 2022. [Más información](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 El sistema de fuentes de datos admite las siguientes variables al procesar datos como una llamada a servidor estándar (Genérico > Procesamiento completo).
 
@@ -171,7 +171,7 @@ En la tabla siguiente se muestran las variables de tráfico que se llenan autom�
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Conjunto de caracteres admitido para el sitio web. Por ejemplo: UTF-8, ISO-8859-1, etc. </p> <p>Consulte el documento técnico <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Conjunto de caracteres de byte múltiple</a> (internacionalización) para obtener una lista exhaustiva. </p> </td> 
+   <td colname="col2"> <p>Conjunto de caracteres admitido para el sitio web. Por ejemplo, UTF-8, ISO-8859-1, etc. </p> <p>Consulte el documento técnico <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html?lang=es"  >Conjunto de caracteres de byte múltiple</a> (internacionalización) para obtener una lista exhaustiva. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
