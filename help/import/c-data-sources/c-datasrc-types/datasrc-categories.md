@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
 source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,16 +16,16 @@ ht-degree: 91%
 
 Las categorías de fuentes de datos identifican diferentes tipos de fuentes datos que ofrecen una funcionalidad similar.
 
-Las categorías ofrecen un modo de agrupar las fuentes de datos según la perspectiva del usuario. Al crear una fuente de datos a través de la variable [!DNL Data Sources] En la interfaz de usuario, primero seleccione una categoría de fuente de datos y después un tipo específico de fuente de datos. Cada categoría contiene tipos de fuentes de datos que admiten tipos de datos similares. [!DNL Data Sources] proporciona las siguientes categorías de fuentes de datos:
+Las categorías ofrecen un modo de agrupar las fuentes de datos según la perspectiva del usuario. Para crear una fuente de datos a través de la interfaz de usuario de [!DNL Data Sources] correspondiente, primero se selecciona una categoría de fuentes de datos y después un tipo específico de fuente de datos. Cada categoría contiene tipos de fuentes de datos que admiten tipos de datos similares. [!DNL Data Sources] proporciona las siguientes categorías de fuentes de datos:
 
 ## Uso del sitio web {#web-usage}
 
 | Fuente de datos | Tipo de procesamiento | Descripción |
 | --- | --- | --- |
 | [!UICONTROL Archivos de registro del servidor web] | [Registro web](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md) | La mayoría de los servidores web genera archivos de registro donde se asienta cada página que se solicita al servidor. El uso de esta fuente de datos permite procesar los archivos de registro de la mayoría de los servidores web y agregarlos a los informes. |
-| [!UICONTROL Carga masiva de Advertising Cloud] | [Conversión](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Proporciona cargas masivas manuales y automatizadas por Excel en [!DNL Advertising Cloud]. |
-| [!UICONTROL Fuente de datos de tráfico de nivel de sitio] | [Tráfico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) | Importa datos de tráfico de todo el sitio web. Por ejemplo, [!UICONTROL Vistas de páginas]. |
-| [!UICONTROL Fuente de datos de tráfico desglosados] | [Tráfico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) | Importa datos de tráfico desglosados por otra variable del sitio web. Por ejemplo, [!UICONTROL Vistas de páginas] desglosado por [!UICONTROL Product]. |
+| [!UICONTROL Carga por lotes de Advertising Cloud] | [Conversión](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Ofrece cargas por lotes, tanto manuales como automatizadas con Excel.[!DNL Advertising Cloud] |
+| [!UICONTROL Fuente de datos de tráfico de nivel de sitio] | [Tráfico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) | Importa datos de tráfico de todo el sitio web. Por ejemplo, [!UICONTROL vistas de páginas]. |
+| [!UICONTROL Fuente de datos del tráfico desglosados] | [Tráfico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) | Importa datos del tráfico desglosados por otra variable del sitio web. Por ejemplo, [!UICONTROL Vistas de páginas] desglosadas por [!UICONTROL Producto]. |
 
 ## Campañas de publicidad {#ad-campaigns}
 
@@ -39,7 +39,7 @@ Las categorías ofrecen un modo de agrupar las fuentes de datos según la perspe
 
 | Fuente de datos | Tipo de procesamiento | Descripción |
 | --- | --- | --- |
-| [!UICONTROL Centro de llamadas genérico] | [Conversión](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Permite integrar en informes de marketing información sobre centros de llamadas. Las métricas que se importan con más frecuencia incluyen la cantidad y duración de las llamadas, el agente y el total de ventas.  Es la fuente de datos genérica para centros de llamadas; utilice esta fuente si no hay otra fuente compatible con el software específico del centro de llamadas. |
+| [!UICONTROL Centro de llamadas genérico] | [Conversión](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Permite integrar en informes de marketing información sobre centros de llamadas. Las métricas que se importan con más frecuencia incluyen la cantidad y duración de las llamadas, el agente y el total de ventas.  Es la fuente de datos genérica para centros de llamadas. Utilícela si no hay otra fuente compatible con el software específico del centro de llamadas. |
 | [!UICONTROL Aplicación genérica del soporte técnico del cliente] | [Conversión](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Permite integrar en informes de marketing información proveniente del software de asistencia al cliente. Incluye métricas tales como la cantidad de incidentes nuevos, la cantidad de incidentes resueltos y el tiempo empleado para resolverlos.  Es la fuente de datos genérica para datos de aplicaciones de asistencia al cliente; utilice esta fuente si no hay otra fuente compatible con la aplicación específica. |
 
 ## Satisfacción del cliente {#csat}
@@ -59,8 +59,8 @@ Las categorías ofrecen un modo de agrupar las fuentes de datos según la perspe
 | Fuente de datos | Tipo de procesamiento | Descripción |
 | --- | --- | --- |
 | [!UICONTROL Fuente de datos genérica (solo datos de resumen)] | [Conversión](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Utilice esta fuente de datos cuando no haya otra que coincida más con el tipo de datos que desea importar a informes y análisis de marketing. |
-| [!UICONTROL Fuente de datos genérica (procesamiento completo)] | Procesamiento completo | Adobe dejó de utilizar las fuentes de datos de procesamiento completo el 31 de enero de 2022. [Más información](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md). Adobe recomienda usar la variable [API de inserción de datos en lote (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) en su lugar. |
-| [!UICONTROL Fuente de datos genérica (ID de transacción)] | <ul><li>ID de transacción</li><li>ID de visitante</li></ul> | Permite vincular cualquier evento que se produce sin conexión con otro que se produce con conexión. La variable [!UICONTROL ID de transacción] actúa como clave entre los eventos sin conexión y en línea. |
+| [!UICONTROL Fuente de datos genérica (procesamiento completo)] | Procesamiento completo | Adobe dejó de utilizar las fuentes de datos de procesamiento completo el 31 de enero de 2022. [Más información](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md). Adobe recomienda usar la [API de inserción de datos en lote (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=es) en su lugar. |
+| [!UICONTROL Fuente de datos genérica (ID de transacción)] | <ul><li>ID de transacción</li><li>ID de visitante</li></ul> | Permite vincular cualquier evento que se produce sin conexión con otro que se produce con conexión. El [!UICONTROL ID de transacción] actúa como una clave que vincula los eventos sin conexión con los eventos en línea. |
 
 ## Compras en línea {#purchases}
 
