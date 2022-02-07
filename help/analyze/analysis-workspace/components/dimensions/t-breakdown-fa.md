@@ -7,9 +7,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 9f0f17936de2597611728498c5ed82d36fd01d1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Este es el comportamiento esperado al aplicar modelos de atribución a desgloses
 
 * Si aplica una atribución cuando no existen otras atribuciones, la atribución se aplica a todo el árbol de columnas.
 
-* Si agrega un desglose después de aplicar una atribución, utilizará el valor predeterminado para el desglose dado que se añadió, si esa dimensión tiene un valor predeterminado. De lo contrario, se utiliza el desglose de la columna principal. Algunas dimensiones tienen una asignación predeterminada.  Por ejemplo, [!UICONTROL Tiempo] dimensiones y [!UICONTROL Referente] use [!UICONTROL Mismo contacto]. La variable [!UICONTROL Product] usos de dimensiones [!UICONTROL Último toque]. Otras dimensiones no tienen un valor predeterminado y utilizarán la asignación de columna principal.
+* Si agrega un desglose después de aplicar una atribución, utilizará el valor predeterminado para el desglose dado que se añadió, si esa dimensión tiene un valor predeterminado. De lo contrario, se utiliza el desglose de la columna principal. Algunas dimensiones tienen una asignación predeterminada.  Por ejemplo, las dimensiones [!UICONTROL Tiempo] y [!UICONTROL Remitente del reenvío] utilizan el [!UICONTROL Mismo toque]. La dimensión [!UICONTROL Producto] utiliza el [!UICONTROL Último toque]. Otras dimensiones no tienen un valor predeterminado y utilizarán la asignación de columna principal.
 
 * Si ya hay atribuciones en el árbol de columnas, cambiar la atribución solo afecta al que esté editando.
 
