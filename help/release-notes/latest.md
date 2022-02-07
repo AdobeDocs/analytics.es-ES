@@ -1,15 +1,19 @@
 ---
 title: Ver las notas de la versión actual de Adobe Analytics
 description: Últimas notas de la versión de Analytics
-source-git-commit: f8c2d98e49ead838781b175aa9f22712d6802a9d
+source-git-commit: e19299820a03783215d8425b937a0935311d9e7b
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '868'
 ht-degree: 98%
 
 ---
 
 
 # Últimas notas de la versión de Adobe Analytics
+
+**Enero de 2022**
+
+Obtenga información sobre las últimas actualizaciones de la versión para [productos de Adobe Experience Cloud](https://business.adobe.com/es/products/adobe-experience-cloud-products.html). Obtenga la documentación de autoayuda más reciente, tutoriales y cursos sobre Experience League.
 
 ## Funciones nuevas en Adobe Analytics {#aa-features}
 
