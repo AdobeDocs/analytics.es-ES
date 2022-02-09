@@ -1,17 +1,17 @@
 ---
-description: Explica la nueva estrategia de lanzamiento continuo de funcionalidades para Adobe Analytics
+description: Explica la estrategia de lanzamiento continuo de funciones para Adobe Analytics
 title: Versiones de funcionalidades de Adobe Analytics
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+source-git-commit: 492f2333d07d887ce89d549306b05ee0df02fe90
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 92%
 
 ---
 
 # Versiones de funcionalidades de Adobe Analytics
 
-Históricamente, las versiones de funcionalidades de Adobe Analytics seguían un calendario mensual fijo. Desde abril de 2020, Adobe Analytics se trasladó a un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades.
+Las versiones de Adobe Analytics funcionan con un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades.
 
 ## Estrategia de lanzamiento
 
