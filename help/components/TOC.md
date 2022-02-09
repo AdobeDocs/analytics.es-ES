@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Ayude a organizar los datos usando componentes como segmentos, métricas calculadas, grupos de informes virtuales y alertas.
-source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 99%
 
 ---
 
 
-# [!DNL Analytics] Guía de componentes {#components}
+# [!DNL Adobe Analytics] Guía de componentes {#components}
 
 + [Guía de componentes de Analytics](home.md)
++ [Notas de la versión de Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensiones {#dimensions}
    + [Información general de dimensiones](dimensions/overview.md)
    + [Compatibilidad de dimensiones](dimensions/compatibility.md)

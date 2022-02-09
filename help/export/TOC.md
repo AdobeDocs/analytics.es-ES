@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Guía de exportación de Analytics
 breadcrumb-title: Guía de exportación
 user-guide-description: Utilice las fuentes de datos para recibir una exportación diaria o por hora de datos sin procesar. Utilice Data Warehouse para recuperar un extracto de datos en una hoja de cálculo.
-source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 96%
 
 ---
 
 
-# Guía de exportación de Analytics {#export}
+# Guía de exportación de Adobe Analytics {#export}
 
 + [Guía de exportación de Analytics](home.md)
++ [Notas de la versión de Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Fuente de datos de Analytics {#analytics-data-feed}
    + [Resumen de la fuente de datos](analytics-data-feed/data-feed-overview.md)
    + [Creación o edición de una fuente de datos](analytics-data-feed/create-feed.md)
