@@ -5,7 +5,7 @@ title: Novedades en Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
+source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
 workflow-type: tm+mt
 source-wordcount: '8286'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Novedades en Analysis Workspace
 
 >[!IMPORTANT]
->Se han incluido más actualizaciones de Analysis Workspace en la página [Actualizaciones de documentación de Adobe Analytics](/help/technotes/doc-updates.md).
+>Se han incluido más actualizaciones de Analysis Workspace en la página [Actualizaciones de documentación de Adobe Analytics](/help/release-notes/doc-updates.md).
 
 Consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es) para conocer las actualizaciones del producto global.
 
@@ -23,7 +23,7 @@ Consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleag
 
 | Función | Fecha objetivo | Descripción |
 | --- | --- | --- |
-| [!UICONTROL Componentes] > [!UICONTROL Preferencias de usuario] | 25 de marzo de 2021 | La página [!UICONTROL Componentes] > [!UICONTROL Preferencias de usuario] permite administrar la configuración de [!UICONTROL Analysis Workspace] y sus componentes relacionados para el usuario. Las [!UICONTROL Preferencias de usuario] se aplican a todos los proyectos y paneles nuevos. <br>**Nota:** Los siguientes ajustes de configuración se han trasladado a la página [!UICONTROL Preferencias de usuario]:<ul><li>Configuración de informes: Separador de miles (ahora llamado _Formato de número_)</li><li>Configuración de informes: Separador CSV</li><li>Proyectos de Workspace: Ayuda > Habilitar sugerencias</li><li>Proyectos de Workspace: Panel en blanco _Iniciar nuevos proyectos con esta opción de panel_</li></ul> |
+| [!UICONTROL Componentes] > [!UICONTROL Preferencias de usuario] | 25 de marzo de 2021 | La página [!UICONTROL Componentes] > [!UICONTROL Preferencias de usuario] permite administrar la configuración de [!UICONTROL Analysis Workspace] y sus componentes relacionados para el usuario. Las [!UICONTROL Preferencias de usuario] se aplican a todos los proyectos y paneles nuevos. <br>**Nota:** Los siguientes ajustes de configuración se han trasladado a la página [!UICONTROL Preferencias de usuario]:<ul><li>Configuración de informes: Separador de miles (ahora llamado _Formato de número_)</li><li>Configuración de informes: Separador CSV</li><li>Proyectos del Espacio de trabajo: Ayuda > Habilitar sugerencias</li><li>Proyectos del Espacio de trabajo: Panel en blanco _Iniciar nuevos proyectos con esta opción de panel_</li></ul> |
 | [!UICONTROL Predicción del contenedor inteligente de histograma] | 25 de marzo de 2021 | [!UICONTROL La predicción del contenedor inteligente del histograma] ayuda con los histogramas de métricas de alta cardinalidad al identificar automáticamente la anchura y el número adecuado de bloques para la propagación de los datos. Para las métricas de baja cardinalidad, la visualización se comporta del mismo modo que antes. |
 
 ## Febrero de 2021
@@ -125,7 +125,7 @@ Nueva función lanzada el 16 de enero de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| [Generador de tablas improvisadas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=es) | Con el Creador de tablas improvisada, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas comerciales más complejas. Los datos no se actualizarán inmediatamente. En su lugar, las actualizaciones se producen después de hacer clic en **[!UICONTROL Generar]**, lo que le ahorra tiempo una vez que sepa qué tabla desea crear. Además, esta función ofrece:<ul><li>**Vista previa**: Puede obtener una vista previa del formato de una tabla antes de dedicar su tiempo a procesar datos reales.</li><li>**Configuración de desglose y filas flexibles**: Puede definir los niveles de fila y desglose para cada fila de dimensión. Anteriormente, Workspace imponía valores predeterminados que no se podían cambiar hasta que se devolvían los datos.</li><li>**Desglose por posición**: Puede definir filas de dimensión para que siempre _se desglosen por posición_ en lugar de _por elemento específico_ (valor predeterminado).</li><li>**Ordenación manual de filas estáticas**: Puede ordenar manualmente las filas estáticas para que las filas de la tabla se muestren exactamente como las necesita. Anteriormente, las filas estáticas solo se podían ordenar por una columna de métrica o alfabéticamente.</li></ul> |
+| [Generador de tablas improvisadas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=es) | Con el Creador de tablas improvisada, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas comerciales más complejas. Los datos no se actualizarán inmediatamente. En su lugar, las actualizaciones se producen después de hacer clic en **[!UICONTROL Generar]**, lo que le ahorra tiempo una vez que sepa qué tabla desea crear. Además, esta función ofrece:<ul><li>**Vista previa**: Puede obtener una vista previa del formato de una tabla antes de dedicar su tiempo a procesar datos reales.</li><li>**Configuración de desglose y filas flexibles**: Puede definir los niveles de fila y desglose para cada fila de dimensión. Anteriormente, el Espacio de trabajo imponía valores predeterminados que no se podían cambiar hasta que se devolvían los datos.</li><li>**Desglose por posición**: Puede definir filas de dimensión para que siempre _se desglosen por posición_ en lugar de _por elemento específico_ (valor predeterminado).</li><li>**Ordenación manual de filas estáticas**: Puede ordenar manualmente las filas estáticas para que las filas de la tabla se muestren exactamente como las necesita. Anteriormente, las filas estáticas solo se podían ordenar por una columna de métrica o alfabéticamente.</li></ul> |
 
 ## Octubre de 2019
 

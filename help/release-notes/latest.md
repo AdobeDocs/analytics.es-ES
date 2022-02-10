@@ -2,10 +2,10 @@
 title: Ver las notas de la versión actual de Adobe Analytics
 description: Últimas notas de la versión de Analytics
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 44bbcabf0bdc74b560a650ce1892a52b4d98052c
+source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 61%
+source-wordcount: '641'
+ht-degree: 60%
 
 ---
 
@@ -21,7 +21,7 @@ Obtenga información sobre las últimas actualizaciones de la versión para [pro
 
 ## Funciones nuevas en Adobe Analytics {#aa-features}
 
-| Función | Descripción | [Fecha objetivo](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=es) |
+| Función | Descripción | [Fecha objetivo](releases.md) |
 | ----------- | ---------- | ------- |
 | Modo de vista previa del proyecto del informe de valoración móvil | Inicie una vista previa del aspecto que tendrá su informe de valoración móvil en la aplicación de paneles de Analytics, directamente desde el generador de informes de valoración. El modo de vista previa permite que los usuarios interactúen con filtros y gráficos del mismo modo que lo harían en la aplicación, lo que les permite obtener una vista previa de la experiencia antes de guardar y compartir el informe de valoración. Los usuarios también pueden utilizar el selector de dispositivos en el modo de vista previa para ver el aspecto que tendrá su informe de valoración en distintos dispositivos. | 16 de febrero de 2022 |
 
