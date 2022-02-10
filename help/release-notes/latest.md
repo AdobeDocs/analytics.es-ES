@@ -2,28 +2,28 @@
 title: Ver las notas de la versión actual de Adobe Analytics
 description: Últimas notas de la versión de Analytics
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 16e74d5374fd761af973ca7af9dd1c4022010911
+source-git-commit: 44bbcabf0bdc74b560a650ce1892a52b4d98052c
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 70%
+source-wordcount: '649'
+ht-degree: 61%
 
 ---
 
-# Últimas notas de la versión de Adobe Analytics
+# Notas de la versión actual de Adobe Analytics (febrero de 2022)
 
 >[!IMPORTANT]
 >
 >Estas notas de la versión contienen información previa al lanzamiento que está sujeta a cambios.
 
-**16 de febrero de 2022**
+**Última actualización**: 10 de febrero de 2022
 
 Obtenga información sobre las últimas actualizaciones de la versión para [productos de Adobe Experience Cloud](https://business.adobe.com/es/products/adobe-experience-cloud-products.html). Obtenga la documentación de autoayuda más reciente, tutoriales y cursos sobre Experience League.
 
 ## Funciones nuevas en Adobe Analytics {#aa-features}
 
-| Función | Descripción | Fecha objetivo |
+| Función | Descripción | [Fecha objetivo](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=es) |
 | ----------- | ---------- | ------- |
-| No hay nuevas funciones este mes | N/A | Consulte [Disponibilidad general](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=es) |
+| Modo de vista previa del proyecto del informe de valoración móvil | Inicie una vista previa del aspecto que tendrá su informe de valoración móvil en la aplicación de paneles de Analytics, directamente desde el generador de informes de valoración. El modo de vista previa permite que los usuarios interactúen con filtros y gráficos del mismo modo que lo harían en la aplicación, lo que les permite obtener una vista previa de la experiencia antes de guardar y compartir el informe de valoración. Los usuarios también pueden utilizar el selector de dispositivos en el modo de vista previa para ver el aspecto que tendrá su informe de valoración en distintos dispositivos. | 16 de febrero de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
