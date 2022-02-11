@@ -1,21 +1,19 @@
 ---
 description: Ejemplos de etiquetas de privacidad de datos para variables de Adobe Analytics
 title: Etiquetas de privacidad de datos para variables de Analytics
-uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '3649'
-ht-degree: 100%
+source-git-commit: de059ecc9f7ec2fe7ce544ee9cd48d81ad952887
+workflow-type: tm+mt
+source-wordcount: '3913'
+ht-degree: 96%
 
 ---
 
 # Etiquetas de privacidad de datos para variables de Analytics
 
-## ¿Por qué debería etiquetar sus datos? {#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
+## ¿Por qué debería etiquetar sus datos?  {#why-label}
 
-Muchos clientes de Adobe tienen equipos legales que han revisado las leyes de privacidad de datos (RGPD, CCPA, etc.) y que han sacado sus propias conclusiones sobre cómo deben manejarse los datos para cumplir con las leyes de privacidad de datos. Las interpretaciones legales pueden ser distintas de una empresa a otra y la configuración de administración de datos también puede diferir según el cliente. Dado que los clientes tienen distintas preferencias para el tratamiento de privacidad de datos y diferentes conjuntos de datos, Adobe permite a sus clientes, como responsables del tratamiento de datos, personalizar la configuración que deseen para el tratamiento de privacidad de datos en lo relativo a sus propios datos. De este modo, cada cliente único puede tratar las solicitudes de privacidad de datos de la manera que mejor se adapte a su marca y a su conjunto de datos único.
+Muchos clientes de Adobe tienen equipos legales que han revisado las leyes de privacidad de datos (RGPD, CCPA, etc.). Es posible que estos equipos hayan sacado sus propias conclusiones sobre cómo se deben administrar los datos para cumplir con las leyes de privacidad de datos. Las interpretaciones legales pueden ser distintas de una empresa a otra y la configuración de administración de datos también puede diferir según el cliente. Dado que los clientes tienen distintas preferencias para el tratamiento de privacidad de datos y diferentes conjuntos de datos, Adobe permite a sus clientes, como responsables del tratamiento de datos, personalizar la configuración que deseen para el tratamiento de privacidad de datos en lo relativo a sus propios datos. De este modo, cada cliente único puede tratar las solicitudes de privacidad de datos de la manera que mejor se adapte a su marca y a su conjunto de datos único.
 
 Adobe Analytics proporciona herramientas para etiquetar datos según su confidencialidad y las restricciones contractuales. Las etiquetas resultan importantes y útiles a la hora de: (1) identificar a los interesados, (2) determinar qué datos se han de devolver en una solicitud de acceso e (3) identificar campos de datos que se deban eliminar en una solicitud de eliminación.
 
@@ -23,7 +21,7 @@ Antes de poder determinar las etiquetas que se deben aplicar a cada variable o c
 
 La implementación de privacidad de datos de Adobe Analytics admite las siguientes etiquetas para datos de identidad, datos confidenciales y administración de datos.
 
-## Etiquetas DULE {#section_B2E78130957647338495EF37DE21D6BC}
+## Etiquetas DULE {#dule-labels}
 
 >[!NOTE]
 >
@@ -90,7 +88,7 @@ Las etiquetas de datos confidenciales “S” se utilizan para categorizar datos
 
 Las etiquetas de control de datos confieren a los usuarios la capacidad de clasificar datos que reflejen consideraciones relacionadas con la privacidad y condiciones contractuales a fin de cumplir las normativas y las políticas corporativas.
 
-**Etiquetas de acceso a la privacidad de datos**
+### Etiquetas de acceso a la privacidad de datos
 
 <table id="table_663EFF43A454498386F7F3E60875E0F8"> 
  <thead> 
@@ -121,7 +119,7 @@ Las etiquetas de control de datos confieren a los usuarios la capacidad de clasi
 
 Mientras que algunas variables recibirán alguna de las otras etiquetas, se espera que el acceso a las etiquetas se aplique a muchas de sus variables. Sin embargo, está en su mano, con el asesoramiento de su equipo legal, decidir cuáles de los datos que ha recopilado deben compartirse con los interesados.
 
-**Etiquetas de eliminación de privacidad de datos**
+### Etiquetas de eliminación de privacidad de datos
 
 <table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
  <thead> 
@@ -164,7 +162,7 @@ Mientras que algunas variables recibirán alguna de las otras etiquetas, se espe
  </tbody> 
 </table>
 
-**Etiquetas de identidad de privacidad de datos**
+### Etiquetas de identidad de privacidad de datos
 
 <table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
  <thead> 
@@ -178,7 +176,7 @@ Mientras que algunas variables recibirán alguna de las otras etiquetas, se espe
   <tr> 
    <td colname="col1"> <p>Ninguna </p> </td> 
    <td colname="col2"> <p>Esta variable no contiene ningún ID que se usará para las solicitudes de privacidad de datos. </p> </td> 
-   <td colname="col3"> <p>Únicamente debe establecer una de estas otras etiquetas si este campo contiene un ID que utilizará al enviar las solicitudes de acceso o eliminación mediante la interfaz de usuario o la API de privacidad de datos. </p> </td> 
+   <td colname="col3"> <p>Solo debe establecer una de estas otras etiquetas si este campo contiene un ID que utilizará al enviar solicitudes de acceso o eliminación a través de la [API del Privacy Service] (https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) o la interfaz de usuario. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
@@ -205,11 +203,17 @@ Mientras que algunas variables recibirán alguna de las otras etiquetas, se espe
  </tbody> 
 </table>
 
+| Etiqueta | Definición | Otros requisitos |
+| --- | --- | --- |
+| Ninguna | Esta variable no contiene ningún ID que se usará para las solicitudes de privacidad de datos. | Solo debe establecer una de estas otras etiquetas si este campo contiene un ID que utilizará al enviar solicitudes de acceso o eliminación a través de la variable [API de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) o IU. |
+| ID-DEVICE | Este campo contiene un ID que puede utilizarse para identificar un dispositivo para una solicitud de privacidad de datos, pero no puede distinguir entre distintos usuarios de un dispositivo compartido.  No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si envía solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. | También requiere una etiqueta I1 o I2..<ul><li>No se pueden establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li><li>No se puede establecer en clasificaciones.</li></ul> |
+| ID-PERSON | Este campo contiene un ID que se puede usar para identificar a un usuario autenticado (una persona específica) cuando se realice una solicitud de privacidad de datos.  No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si enviará solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. | También requiere una etiqueta I1 o I2..<ul><li>No se pueden establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li><li>No se puede establecer en clasificaciones.</li></ul> |
+
 ## Proporcionar un área de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 Cuando etiquete una variable como ID-DEVICE o ID-PERSON, se le solicitará que proporcione un área de nombres. Puede utilizar un área de nombres definida anteriormente o definir una nueva.
 
-**Utilizar un área de nombres definida anteriormente**
+### Utilizar un área de nombres definida anteriormente
 
 Si ha asignado una etiqueta de ID anteriormente a otras variables de cualquier grupo de informes de su empresa de inicio de sesión, puede seleccionar una de estas áreas de nombres existentes. Debe volver a utilizar el área de nombres si esta variable contiene el mismo tipo de ID que otras variables que ya están etiquetadas con esta área de nombres y desea realizar búsquedas en todos ellos al enviar una solicitud.
 
@@ -218,7 +222,7 @@ Si ha asignado una etiqueta de ID anteriormente a otras variables de cualquier g
 
 ![](assets/namespace.png)
 
-**Definir una nuevo área de nombres**
+### Definir una nuevo área de nombres
 
 También puede definir una nueva área de nombres. Le recomendamos que las cadenas de área de nombres se limiten a caracteres alfanuméricos, además de los caracteres de guion bajo, guión y espacio. Se convertirán a todo en minúsculas.
 
@@ -483,4 +487,4 @@ Hay cinco variables estándar que contienen marcadores de tiempo:
 
 El código para generar los archivos devueltos por las solicitudes de acceso amparadas en la privacidad de datos requiere que al menos una de las tres primeras variables de marcador de tiempo se incluya en la solicitud de acceso (que tenga una etiqueta ACC que se aplique al tipo de solicitud). Si no se incluye ninguna de estas marcas, Custom Hit Time UTC se trata como si tuviera una etiqueta ACC-ALL.
 
-El archivo CSV del nivel de visita que devuelven las solicitudes de acceso amparadas en la privacidad de datos convierte los valores de estos campos de marcador de tiempo Unix en campos de fecha y hora con el formato AAAA-MM-DD HH:MM:SS (por ejemplo, 2018-05-01 13:49:22). En el archivo HTML de resumen, estos valores de marcador de tiempo se truncan para incluir únicamente la fecha, AAAA-MM-DD, con el fin de reducir el número de valores únicos en estos campos.
+El archivo CSV de nivel de visita que devuelven las solicitudes de acceso amparadas en la privacidad de datos convierte los valores de estos campos de marcas de tiempo unix a campos de fecha y hora con el formato AAAA-MM-DD HH:MM:SS (por ejemplo, 2018-05-01 13:49:22). En el archivo HTML de resumen, estos valores de marcador de tiempo se truncan para incluir únicamente la fecha, AAAA-MM-DD, con el fin de reducir el número de valores únicos en estos campos.
