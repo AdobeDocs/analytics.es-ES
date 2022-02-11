@@ -2,10 +2,10 @@
 title: Ver las notas de la versión actual de Adobe Analytics
 description: Últimas notas de la versión de Analytics
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
+source-git-commit: 581c7888153b7fefdcadeb240d01582b3b2bd47a
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 60%
+source-wordcount: '653'
+ht-degree: 59%
 
 ---
 
@@ -23,7 +23,7 @@ Obtenga información sobre las últimas actualizaciones de la versión para [pro
 
 | Función | Descripción | [Fecha objetivo](releases.md) |
 | ----------- | ---------- | ------- |
-| Modo de vista previa del proyecto del informe de valoración móvil | Inicie una vista previa del aspecto que tendrá su informe de valoración móvil en la aplicación de paneles de Analytics, directamente desde el generador de informes de valoración. El modo de vista previa permite que los usuarios interactúen con filtros y gráficos del mismo modo que lo harían en la aplicación, lo que les permite obtener una vista previa de la experiencia antes de guardar y compartir el informe de valoración. Los usuarios también pueden utilizar el selector de dispositivos en el modo de vista previa para ver el aspecto que tendrá su informe de valoración en distintos dispositivos. | 16 de febrero de 2022 |
+| Modo de vista previa del proyecto del informe de valoración móvil | Inicie una vista previa del aspecto que tendrá su informe de valoración móvil en la aplicación de paneles de Analytics, directamente desde el generador de informes de valoración. El modo de vista previa permite que los usuarios interactúen con filtros y gráficos del mismo modo que lo harían en la aplicación, lo que les permite obtener una vista previa de la experiencia antes de guardar y compartir el informe de valoración. Los usuarios también pueden utilizar el selector de dispositivos en el modo de vista previa para ver el aspecto que tendrá su informe de valoración en distintos dispositivos. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) | 16 de febrero de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
