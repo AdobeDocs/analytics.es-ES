@@ -1,11 +1,11 @@
 ---
-title: Ver las notas de la versión actual de Adobe Analytics
-description: Últimas notas de la versión de Analytics
+title: Últimas notas de la versión de Analytics
+description: Vea las notas de la versión actual de Adobe Analytics.
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 581c7888153b7fefdcadeb240d01582b3b2bd47a
+source-git-commit: 511e3f4c621137d76b40fcc04ea849a0bba9e3fa
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 59%
+source-wordcount: '676'
+ht-degree: 58%
 
 ---
 
@@ -24,6 +24,7 @@ Obtenga información sobre las últimas actualizaciones de la versión para [pro
 | Función | Descripción | [Fecha objetivo](releases.md) |
 | ----------- | ---------- | ------- |
 | Modo de vista previa del proyecto del informe de valoración móvil | Inicie una vista previa del aspecto que tendrá su informe de valoración móvil en la aplicación de paneles de Analytics, directamente desde el generador de informes de valoración. El modo de vista previa permite que los usuarios interactúen con filtros y gráficos del mismo modo que lo harían en la aplicación, lo que les permite obtener una vista previa de la experiencia antes de guardar y compartir el informe de valoración. Los usuarios también pueden utilizar el selector de dispositivos en el modo de vista previa para ver el aspecto que tendrá su informe de valoración en distintos dispositivos. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) | 16 de febrero de 2022 |
+| Punto de conexión de proyectos de API | Añada, edite o elimine proyectos de Analysis Workspace mediante la API . [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 1 de febrero de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -35,11 +36,9 @@ Obtenga información sobre las últimas actualizaciones de la versión para [pro
 * Se ha corregido un problema con los tiempos de informes lentos. (AN-280055)
 * Se han corregido problemas con Clasificaciones que no clasificaban todos los elementos de dimensión. (AN-280031)
 
-
 ### Correcciones adicionales en Adobe Analytics
 
 AN-268093, AN-273820, AN-274435, AN-274904, AN-275356, AN-275947 y AN-276160, AN 276258, AN-276705, AN-277051, AN-277957, AN-278693, AN-278882, AN-279000, AN-2 79046, AN-279362, AN-279460, AN-279488, AN-279554, AN-279572, AN-279663 y AN-277 9755, AN-279825, AN-280002, AN-280013, AN-280019, AN-280033, AN-280086 y AN-2800 232, AN-280264, AN-280288, AN-280342, AN-280347, AN-280360, AN-280370 y AN-2807 24, AN-280830, AN-280941, AN-281353, AN-281424 y AN-281533
-
 
 ## Avisos importantes para los administradores de [!DNL Analytics]
 
@@ -55,4 +54,3 @@ Para obtener las últimas actualizaciones de las versiones de AppMeasurement (2.
 
 >[!MORELIKETHIS]
 >[[!DNL Customer Journey Analytics]  Notas de la versión](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
-
