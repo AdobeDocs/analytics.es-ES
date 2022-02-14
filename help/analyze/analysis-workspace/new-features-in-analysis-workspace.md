@@ -5,10 +5,10 @@ title: Novedades en Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
+source-git-commit: c818db35524d6c0d416ee2560943526f19842c5e
 workflow-type: tm+mt
-source-wordcount: '8286'
-ht-degree: 100%
+source-wordcount: '8276'
+ht-degree: 99%
 
 ---
 
@@ -548,7 +548,7 @@ Nuevas funciones y mejoras publicadas el 18 de enero de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Análisis de contribución: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=es"  > notificación de tokens </a> </p> </td> 
-   <td colname="col2"> <p>Si su empresa tiene un número limitado de tokens de Análisis de contribución, la interfaz de Analysis Workspace muestra ahora una notificación cada vez que consume un token. De este modo, sabe cuántos tokens le quedan.  </p> <p>(Usuarios administradores: es posible restringir quién puede utilizar estos tokens mediante la edición de los permisos de grupo. El permiso se denomina Detección de anomalías y análisis de contribución en <span class="uicontrol">Analytics </span> &gt; <span class="uicontrol">Administrador</span> &gt; <span class="uicontrol">Todos los administradores</span> &gt; <span class="uicontrol">User Management</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar el acceso a todos los informes</span> &gt; <span class="uicontrol">Personalizar las herramientas del grupo de informes</span> &gt; <span class="uicontrol">Herramientas e informes</span>).  </p> </td> 
+   <td colname="col2"> <p>Si su empresa tiene un número limitado de tokens de Análisis de contribución, la interfaz de Analysis Workspace muestra ahora una notificación cada vez que consume un token. De este modo, sabe cuántos tokens le quedan. </p> <p>(Usuarios administradores: es posible restringir quién puede utilizar estos tokens mediante la edición de los permisos de grupo. El permiso se denomina "Detección de anomalías y análisis de contribución" en <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Administrador </span> &gt; <span class="uicontrol"> Todos los administradores </span>  &gt; <span class="uicontrol"> Administración de usuarios </span>&gt; <span class="uicontrol"> Editar grupos </span> &gt; <span class="uicontrol"> Editar acceso a todos los informes </span> &gt; <span class="uicontrol"> Personalizar herramientas de grupos de informes </span> &gt; <span class="uicontrol"> Herramientas E Informes </span>. ) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Archivos CSV con caracteres multibyte </p> </td> 
@@ -598,7 +598,7 @@ Nuevas funciones lanzadas el 26 de octubre de 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > Visualización de mapas </a> </p> </td> 
-   <td colname="col2"> <p>La nueva Visualización de mapas de Analysis Workspace permite ver fácilmente las interacciones de los clientes en el contexto de su ubicación. De una vista macro (global) a una vista micro (de la ciudad), puede fácilmente aumentar y reducir distintos niveles de jerarquía en la visualización para ver clústeres de usuarios en las regiones. </p> <p>Puede visualizar los datos de ubicación a través de la dirección IP (en conjuntos de datos no móviles) o arrojar los datos de latitud y longitud (para clientes que usen el SDK móvil) en Analysis Workspace.  </p> </td> 
+   <td colname="col2"> <p>La nueva visualización de mapas permite ver fácilmente las interacciones de los clientes en el contexto de su ubicación. De una vista macro (global) a una vista micro (de la ciudad), puede fácilmente aumentar y reducir distintos niveles de jerarquía en la visualización para ver clústeres de usuarios en las regiones. </p> <p>Puede visualizar los datos de ubicación a través de la dirección IP (en conjuntos de datos no móviles) o proporcionar datos de latitud y longitud (para clientes que usen el SDK móvil) en Analysis Workspace. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > Selector de granularidad en visualizaciones de tendencias </a> </p> </td> 
