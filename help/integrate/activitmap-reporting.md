@@ -2,11 +2,10 @@
 description: Pasos administrativos para activar Informes del Activity Map en Analytics.
 title: Informes de Activity Map
 feature: Activity Map
-uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '160'
+source-git-commit: 58bb3ab5787de893917c95946266088ccd1f00d4
+workflow-type: tm+mt
+source-wordcount: '158'
 ht-degree: 100%
 
 ---
