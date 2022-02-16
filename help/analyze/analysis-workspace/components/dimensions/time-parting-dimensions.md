@@ -1,12 +1,11 @@
 ---
 description: La partición de tiempo toma la marca de hora de los aciertos recogidos y lo divide en dimensiones más significativas, como “Hora del día” o “Día de la semana”.
 title: Dimensiones de partición de tiempo
-uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Workspace Basics
+feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: ht
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 100%
 
@@ -40,6 +39,6 @@ Las dimensiones de partición de tiempo en Analysis Workspace incluyen:
 | Día de la semana | Lunes, martes, miércoles, jueves, viernes, sábado, domingo |
 | Fin de semana / Día de la semana | Fin de semana, día de la semana |
 | Día del mes | 1-31 |
-| Mes del año | Enero-Diciembre |
+| Mes del año | Enero-diciembre |
 | Día del año | 1-366 |
 | Trimestre del año | T1, T2, T3, T4 |

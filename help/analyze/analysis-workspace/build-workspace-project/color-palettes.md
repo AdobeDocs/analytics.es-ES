@@ -4,16 +4,16 @@ title: ¿Qué son las paletas de colores de visualización y cómo funcionan?
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: ht
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Paletas de colores de visualización
 
-Puede cambiar la paleta de colores de visualización que se emplea en Workspace eligiendo una paleta de color diferente o creando una paleta propia que corresponda a los colores de marca de su empresa. Esta característica afecta a la mayoría de las visualizaciones de Workspace, pero **no** afecta al Resumen del cambio, al formato condicional en tablas improvisadas ni a la Visualización de mapas.
+Puede cambiar la paleta de colores de visualización que se emplea en Workspace eligiendo una paleta de color diferente o creando una paleta propia que corresponda a los colores de marca de su empresa. Esta función afecta a la mayoría de las visualizaciones de Workspace, pero sí a **not** afectar [!UICONTROL Cambio de resumen], formato condicional en [!UICONTROL Forma libre] y [!UICONTROL Mapa] visualización.
 
 >[!NOTE]
 >
@@ -26,9 +26,9 @@ Recuerde:
 * Hay cinco paletas de color preconfiguradas entre las que elegir. La paleta predeterminada y la de abajo se han optimizado para lograr un contraste óptimo y son más accesibles para los que no tienen color.
 * Las paletas de color 3, 4 y 5, situadas bajo las dos primeras, están optimizada para ofrecer la mayor armonía cromática.
 
-## Para cambiar la paleta de color:
+## Cambie el [!UICONTROL paleta de colores]:
 
-A continuación se muestra un vídeo sobre el uso de paletas de color a medida:
+Este es un vídeo sobre el uso de [!UICONTROL paletas de color]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 

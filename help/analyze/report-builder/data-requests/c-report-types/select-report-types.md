@@ -1,13 +1,12 @@
 ---
 description: Se puede seleccionar el tipo de informe básico para la solicitud de datos, que puede ser Métricas del sitio, Contenido del sitio y Vídeo.
 title: Información general sobre tipos de informes
-uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 feature: Report Builder
 role: User, Admin
 exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---

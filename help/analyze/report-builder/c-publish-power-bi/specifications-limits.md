@@ -1,13 +1,12 @@
 ---
-description: Limitaciones al usar Report Builder y Microsoft Power BI.
+description: Limitaciones al usar Report Builder y Power BI de Microsoft.
 title: Limitaciones y especificaciones
-uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '624'
 ht-degree: 94%
 
 ---
@@ -70,5 +69,5 @@ De forma predeterminada, el nombre se rellena con el nombre de archivo del libro
 Tenga en cuenta que
 
 * La etiqueta no puede ser una combinación de letras y números que pueda confundirse con una dirección de fila o columna. Por ejemplo, no puede haber una etiqueta A100 porque es una dirección de celda en un libro.
-* Los caracteres siguientes no son caracteres de etiqueta válidos: `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; y `'~', ' '` . Se sustituyen por un carácter de guion bajo.
+* Los caracteres siguientes no son caracteres de etiqueta válidos: `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;, y `'~', ' '` . Se sustituyen por un carácter de guion bajo.
 * Si introduce un nombre no válido, aparece un mensaje de error que le sugiere un nombre generado automáticamente. Si hace clic en **[!UICONTROL Sí]**, se utilizará dicho nombre. Si hace clic en **[!UICONTROL No]**, la interfaz de usuario del Asistente avanzado le permitirá introducir uno nuevo.

@@ -1,13 +1,12 @@
 ---
 description: Puede descargar datos de Analysis Workspace copiándolos, o en los formatos PDF y CSV.
 title: Descarga de archivos PDF o CSV
-uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-feature: Depurar y compartir
+feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '986'
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '983'
 ht-degree: 100%
 
 ---

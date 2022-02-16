@@ -1,14 +1,13 @@
 ---
 description: Todos los informes marcados y los informes del tablero ahora se enumeran como dimensiones en el paso 1 del Asistente para solicitudes y pueden importarse como solicitudes de Report Builder.
 title: Importación de informes marcados e informes del panel
-uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
