@@ -2,13 +2,11 @@
 description: Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contrario) con reglas de procesamiento.
 subtopic: Processing rules
 title: Dimensiones disponibles para las reglas de procesamiento
-feature: Admin Tools
-uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
+feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 86%
 
 ---
@@ -91,11 +89,11 @@ Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contra
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nombre de la página </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Nota:  Las llamadas de seguimiento de vínculos eliminan la variable <code>pageName</code> antes de alcanzar las reglas de procesamiento. Si vuelve a insertar un valor de nombre de página mediante reglas de procesamiento, la visita se considera una vista de página en lugar de una llamada de seguimiento de vínculos. Adobe recomienda comprobar que ese nombre de página ya está establecido antes de modificarlo. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Nota: Las llamadas de seguimiento de vínculos eliminan las <code>pageName</code> antes de que alcancen las reglas de procesamiento. Si vuelve a insertar un valor de nombre de página mediante reglas de procesamiento, la visita se considera una vista de página en lugar de una llamada de seguimiento de vínculos. Adobe recomienda comprobar que ese nombre de página ya está establecido antes de modificarlo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL de la página </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> o la dirección URL de la página actual si <code> s.pageURL</code> no se especifica. <p>Nota:  Las llamadas de seguimiento de vínculos eliminan la variable <code>pageURL</code> antes de alcanzar las reglas de procesamiento. Si vuelve a insertar un valor de URL de página mediante reglas de procesamiento, la visita se considera una vista de página en lugar de una llamada de seguimiento de vínculos. Adobe recomienda comprobar que la dirección URL de la página ya está establecida antes de modificarla. </p></td> 
+   <td colname="col2"> <code> s.pageURL</code> o la dirección URL de la página actual si <code> s.pageURL</code> no se especifica. <p>Nota: Las llamadas de seguimiento de vínculos eliminan las <code>pageURL</code> antes de que alcancen las reglas de procesamiento. Si vuelve a insertar un valor de URL de página mediante reglas de procesamiento, la visita se considera una vista de página en lugar de una llamada de seguimiento de vínculos. Adobe recomienda comprobar que la dirección URL de la página ya está establecida antes de modificarla. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parámetro de cadena de consulta </p> </td> 
@@ -176,7 +174,7 @@ Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contra
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de lista 1-3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> -  <code> s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de compra </p> </td> 
@@ -211,7 +209,7 @@ Las reglas de procesamiento pueden definir eventos pero no pueden leerlos como c
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Evento 1-1000 </p> <p>(Para clientes de SiteCatalyst 15, evento 1-100). </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> -  <code> event1000</code> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchase, scView, scAdd y otros eventos de carrito de compra </p> </td> 

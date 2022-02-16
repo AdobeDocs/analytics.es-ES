@@ -1,13 +1,11 @@
 ---
 description: Descripción de los tipos de grupos de informes y comparación de los grupos de informes globales y los grupos de informes resumidos.
 title: Enfoques de los grupos de informes
-feature: Admin Tools
-uuid: c90b8e38-2c95-4318-8165-a362106b6142
+feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '973'
 ht-degree: 27%
 
 ---
@@ -22,9 +20,9 @@ Puede configurar los grupos de informes como *grupos de informes globales* o *gr
 
 Un grupo de informes globales recopila datos de todos los dominios y aplicaciones que posee su organización. Requiere implementación para enviar todas las solicitudes de imagen a un único grupo de informes.
 
-Adobe recomienda implementar un grupo de informes globales en la mayoría de los casos. Consulte &quot;[Consideraciones del grupo de informes globales](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)&quot; para conocer las ventajas de implementar un grupo de informes globales.
+Adobe recomienda implementar un grupo de informes globales en la mayoría de los casos. Consulte &quot;[Consideraciones sobre el grupo de informes globales](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)&quot; para las ventajas de implementar un grupo de informes globales.
 
-Puede proporcionar subconjuntos de los datos del grupo de informes globales de su empresa a distintos usuarios finales mediante los enfoques *etiquetado de grupos múltiples* y *grupo de informes virtuales*:
+Puede proporcionar subconjuntos de los datos del grupo de informes globales de su empresa a distintos usuarios finales mediante la función *etiquetado de grupos múltiples* y *grupo de informes virtuales* enfoques:
 
 * **Etiquetado de grupos múltiples**: El etiquetado de grupos múltiples le permite enviar solicitudes de imagen no solo a un grupo de informes globales, sino también a grupos de informes secundarios individuales. La duplicación de los datos del informe global se anula en todos los grupos de informes.
 
@@ -34,11 +32,11 @@ Puede proporcionar subconjuntos de los datos del grupo de informes globales de s
 
    Se realiza una llamada al servidor independiente a cada grupo de informes en la solicitud de imagen. Las llamadas a los grupos de informes secundarios son llamadas secundarias.
 
-* **Grupo de informes virtuales**: Un grupo de informes  [virtuales ](/help/components/vrs/vrs-about.md) es una consulta sobre segmentos específicos recopilados en un grupo de informes globales y disponibles para grupos específicos de usuarios. Los grupos de informes virtuales le permiten depurar elementos de informes para distintos usuarios finales sin utilizar el etiquetado de grupos múltiples, evitando así llamadas secundarias al servidor.
+* **Grupo de informes virtuales**: A [grupo de informes virtuales](/help/components/vrs/vrs-about.md) es una consulta en segmentos especificados recopilados en un grupo de informes globales y disponibles para grupos de usuarios especificados. Los grupos de informes virtuales le permiten depurar elementos de informes para distintos usuarios finales sin utilizar el etiquetado de grupos múltiples, evitando así llamadas secundarias al servidor.
 
    Para utilizar grupos de informes virtuales, implemente un grupo de informes globales y luego analice los datos para crear grupos de informes virtuales con segmentos específicos aplicados y con permisos de grupo específicos. Puede crear grupos de informes virtuales en el Administrador de grupos de informes virtuales ([!UICONTROL Componentes] > [!UICONTROL Grupos de informes virtuales]). Consulte &quot;[Flujo de trabajo del grupo de informes virtuales](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)&quot; para obtener más información.
 
-El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltiples suele ser una práctica recomendada, pero los grupos de informes virtuales tienen algunas limitaciones. Consulte &quot;[Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples](/help/components/vrs/vrs-considerations.md)&quot; para determinar qué enfoque de grupo de informes es la mejor opción para sus necesidades comerciales. Para obtener una comparación detallada de los grupos de informes virtuales y la funcionalidad de etiquetado de grupos múltiples, consulte &quot;[Grupos de informes virtuales vs. Etiquetado multigrupo](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot;.
+El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltiples suele ser una práctica recomendada, pero los grupos de informes virtuales tienen algunas limitaciones. Consulte &quot;[Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples](/help/components/vrs/vrs-considerations.md)&quot; para determinar qué enfoque de grupo de informes es la mejor opción para sus necesidades comerciales. Para obtener una comparación detallada de los grupos de informes virtuales y la funcionalidad de etiquetado de grupos múltiples, consulte &quot;[Grupos de informes virtuales o etiquetado multigrupo](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
 
 ## Informes de resumen
 
@@ -46,7 +44,7 @@ El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltip
 >
 >[!DNL Reports & Analytics] es la única herramienta que admite informes de resumen y Adobe ya no recomienda el uso de resúmenes. Considere la posibilidad de utilizar un grupo de informes globales con etiquetado de grupos múltiples o grupos de informes virtuales.
 
-Un informe de resumen es una simple agregación de datos de varios grupos de informes, sin deduplicación ni desglose de datos o segmentos. Los resúmenes no requieren la implementación de código. Para utilizar informes resumidos, [implemente grupos de informes secundarios](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) y luego [combínelos en un informe resumido](/help/admin/c-manage-report-suites/t-rollups.md) mediante [!UICONTROL Herramientas de administración].
+Un informe de resumen es una simple agregación de datos de varios grupos de informes, sin deduplicación ni desglose de datos o segmentos. Los resúmenes no requieren la implementación de código. Para usar informes resumidos, [implementar grupos de informes secundarios](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) y luego [combinarlas en un informe resumido](/help/admin/c-manage-report-suites/t-rollups.md) using [!UICONTROL Herramientas de administración].
 
 Los informes resumidos son gratuitos: los grupos de informes secundarios realizan sus propias llamadas al servidor, pero el resumen no realiza llamadas adicionales. Los resúmenes son una característica heredada y tienen muchas limitaciones.
 

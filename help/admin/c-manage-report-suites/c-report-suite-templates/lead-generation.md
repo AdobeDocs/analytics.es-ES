@@ -1,13 +1,11 @@
 ---
 description: Define la configuración común de un sitio Web que proporciona información acerca de servicios y productos que normalmente se venden mediante un compromiso ulterior.
 title: Generación de posibles clientes
-feature: Admin Tools
-uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
+feature: Report Suite Settings
 exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 100%
 
 ---

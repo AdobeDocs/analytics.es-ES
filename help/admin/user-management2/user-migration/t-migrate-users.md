@@ -1,17 +1,16 @@
 ---
 description: Migre usuarios del sistema de administración de usuarios de Analytics heredado a Admin Console.
 title: Migración de cuentas de usuarios de Analytics para Adobe ID
-uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+feature: Admin Tools
+exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
 
-
-# Migración de cuentas de usuarios de Analytics para Adobe ID {#migrate-analytics-user-accounts-for-adobe-ids}
+# Migración de cuentas de usuarios de Analytics para Adobe ID{#migrate-analytics-user-accounts-for-adobe-ids}
 
 Migre usuarios del sistema de administración de usuarios de Analytics heredado a Admin Console.
 
@@ -70,7 +69,7 @@ Migre usuarios del sistema de administración de usuarios de Analytics heredado 
    </tr> 
    <tr> 
       <td colname="col1"> <p>Dominio reclamado </p> </td> 
-      <td colname="col2"> <p>Si desea migrar usuarios como Enterprise ID o Federated ID, debe ser administrador del sistema y reclamar primero un dominio disponible mediante Admin Console. Obtenga más información <a href="https://helpx.adobe.com/es/enterprise/using/identity.html">aquí</a>. </p> <p>Si no desea reclamar dominios para Enterprise ID o Federated ID, omita este paso y migre a los usuarios como Adobe ID. Obtenga más información sobre tipos de ID <a href="https://helpx.adobe.com/es/enterprise/using/identity.html">aquí</a>. </p> </td> 
+      <td colname="col2"> <p>Si desea migrar usuarios como Enterprise ID o Federated ID, debe ser administrador del sistema y reclamar primero un dominio disponible mediante Admin Console. Obtenga más información <a href="https://helpx.adobe.com/es/enterprise/using/identity.html">aquí</a>. </p> <p>Si no desea reclamar dominios para Enterprise ID o Federated ID, omita este paso y migre a los usuarios como Adobe ID. Obtenga más información sobre tipos de ID <a href="https://helpx.adobe.com/enterprise/help/identity.html">aquí</a>. </p> </td> 
    </tr> 
    </tbody> 
    </table>

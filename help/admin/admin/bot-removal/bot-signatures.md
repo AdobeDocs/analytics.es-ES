@@ -1,10 +1,10 @@
 ---
 title: Firmas comunes de bots
 description: Reconoce los identificadores comunes de bots.
+feature: Admin Tools
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%
 

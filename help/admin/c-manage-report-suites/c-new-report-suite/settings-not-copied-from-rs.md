@@ -1,13 +1,12 @@
 ---
 description: Si ha copiado la configuración de un grupo de informes existente, un mensaje del sistema identificará las opciones que no se copian al nuevo grupo de informes.
 title: Configuración que no se copia desde un grupo de informes de origen
-feature: Herramientas de administración
-uuid: 5176c561-a278-43e4-837f-a17759985d52
+feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 91%
+source-wordcount: '203'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +26,7 @@ Las siguientes configuraciones no se copian de la plantilla o los grupos de info
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Datos de clasificación (se copia la estructura de clasificación) </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html">Documentación sobre el Importador de clasificaciones (carga)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=es">Documentación sobre el Importador de clasificaciones (carga)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activar el registro de ID de transacción </p> </td> 

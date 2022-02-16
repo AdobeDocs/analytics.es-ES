@@ -1,10 +1,10 @@
 ---
 description: El reenvío del lado del servidor se diseñó para los clientes que desean compartir en tiempo real datos de Analytics con otras soluciones de Experience Cloud. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de Experience Cloud. Asimismo, también permite a estas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
-solution: Audience Manager
+solution: Analytics
 title: Resumen del reenvío del lado del servidor
-uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
+feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 94%
@@ -64,7 +64,7 @@ Se recomienda el reenvío del lado del servidor en el nivel de grupo de informes
 
 Vaya a **Analytics** > **Administración** > **Grupos de informes** > (seleccione **grupos de informes**) > **Editar configuración** > **General** > **Reenvío de servidor**. Si la casilla de verificación está:
 
-* **Inactivo**  (no puede realizar una selección o el menú no existe): los grupos de informes seleccionados no están asignados a una organización de IMS. Póngase en contacto con el Servicio de atención al cliente para asegurarse de que el grupo de informes está asignado correctamente.
+* **Inactivo** (No puede realizar una selección o el menú no existe): los grupos de informes seleccionados no están asignados a una organización de IMS. Póngase en contacto con el Servicio de atención al cliente para asegurarse de que el grupo de informes está asignado correctamente.
 * **Deshabilitada**: no tiene activado el nuevo reenvío del lado del servidor. Lea el contenido de la página y habilite esta función.
 * **Habilitada**: ya está aprovisionado para el nuevo reenvío del lado del servidor. También puede configurar esta integración de Audience Analytics.
 

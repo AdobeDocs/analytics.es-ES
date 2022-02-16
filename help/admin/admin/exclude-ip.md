@@ -2,7 +2,8 @@
 title: Excluir por dirección IP
 description: Impida que los datos generados por ciertas direcciones IP aparezcan en los informes.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 79%
@@ -13,7 +14,7 @@ ht-degree: 79%
 
 Se pueden excluir datos de las direcciones IP específicas, por ejemplo, las actividades de sitio web internas, las pruebas del sitio y el uso por parte de los empleados, de los informes. La exclusión de datos elimina los datos de las direcciones IP para conseguir mayor precisión en los informes. También es posible eliminar datos de ataques de negación de servicio u otros eventos dañinos que pueden distorsionar los datos de los informes. Puede configurar la exclusión o utilizar el cortafuegos.
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Administración]**  >  **[!UICONTROL Todos los administradores]**  >  **[!UICONTROL Excluir por dirección IP]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Excluir por dirección IP]**
 
 >[!NOTE]
 >
@@ -23,7 +24,7 @@ Pueden utilizarse indicadores comodín (*) para excluir un intervalo de direccio
 
 >[!TIP]
 >
->No es necesario excluir las direcciones IP privadas. Solo las direcciones IP externas llegan a los servidores de recopilación de datos de Adobe. Las direcciones privadas incluyen `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` y `169.254.*.*`.
+>No es necesario excluir las direcciones IP privadas. Solo las direcciones IP externas llegan a los servidores de recopilación de datos de Adobe. Las direcciones privadas incluyen `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*`y `169.254.*.*`.
 
 ## Influencia de la confusión de IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 

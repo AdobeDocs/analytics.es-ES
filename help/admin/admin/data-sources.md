@@ -1,13 +1,12 @@
 ---
 description: La función Fuentes de datos permite importar datos a Analytics desde fuentes sin conexión. Una vez importados, estos datos se pueden tratar y gestionar de forma similar a los datos recopilados de forma nativa.
 title: Fuentes de datos
-feature: Herramientas de administración
-uuid: eab8a22b-5471-4922-b246-c991814c4b8b
+feature: Admin Tools
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 95%
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
 
@@ -23,4 +22,4 @@ Utilice las fuentes de datos para:
 
 Cuando se activa la característica Fuentes de datos en un grupo de informes, se facilita una ubicación FTP para poder cargar los archivos que se integrarán en los informes. Una vez cargados, los servidores de Adobe procesarán automáticamente los datos y los integrarán en el grupo de informes.
 
-Consulte la [ayuda de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html).
+Consulte la [ayuda de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=es).

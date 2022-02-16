@@ -1,13 +1,11 @@
 ---
-description: Los grupos de informes definen los informes completos e independientes de un sitio web concreto, de un conjunto de sitios web o de un subconjunto de páginas web. Por lo general, un grupo de informes es un sitio Web, pero podría ser un segmento global en el cual haya combinado las cifras de varios sitios para obtener valores totales. Cuando inicia sesión en cualquier solución de Adobe Analytics, selecciona un grupo de informes a utilizar (excepto cuando utiliza resúmenes que combinan grupos de informes). Asimismo, un grupo de informes puede ser de menor tamaño que un sitio web si desea ejecutar informes solo para una parte del sitio. Las soluciones de Analytics reúnen estos almacenes de datos y generan informes a partir de ellos. El Administrador del grupo de informes de administración permite definir las reglas que rigen la forma en la que se procesan los datos en un grupo de informes.
+description: Los grupos de informes definen los informes completos e independientes de un sitio web concreto, de un conjunto de sitios web o de un subconjunto de páginas web.
 title: Administrador del grupo de informes
-feature: Admin Tools
-uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
+feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '439'
 ht-degree: 100%
 
 ---

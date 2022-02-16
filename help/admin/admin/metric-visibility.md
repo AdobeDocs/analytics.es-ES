@@ -1,12 +1,14 @@
 ---
 description: Ahora puede ocultar métricas (integradas) estándar, eventos personalizados y eventos integrados en el Menú, el Selector de métricas, el Creador de métricas calculadas y el Generador de segmentos.
 title: Visibilidad de las métricas
-uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+feature: Admin Tools
+exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 100%
 
 ---
-
 
 # Visibilidad de las métricas
 
@@ -52,7 +54,7 @@ Esta configuración no afecta a la recopilación de datos de esa métrica. Solo 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Oculto en todas partes</b> </td> 
-   <td colname="col2"> N/A </td> 
+   <td colname="col2"> N/D </td> 
    <td colname="col3"> 
     <ul id="ul_CB9780D567BD4DBA90C092DDA892BF41"> 
      <li id="li_CF90047F78FD4BB28E90E95B9B367445">Reports &amp; Analytics (menú y selector de métricas) </li> 
@@ -63,4 +65,3 @@ Esta configuración no afecta a la recopilación de datos de esa métrica. Solo 
   </tr> 
  </tbody> 
 </table>
-

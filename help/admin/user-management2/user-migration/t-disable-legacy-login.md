@@ -1,14 +1,16 @@
 ---
 description: Aprenda a desactivar los inicios de sesión heredados para usuarios de Analytics.
 title: Desactivación de inicios de sesión heredados
-uuid: 085874b2-10bf-4a56-a337-f3104428d71e
-translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+feature: Admin Tools
+exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 100%
 
 ---
 
-
-# Desactivación de inicios de sesión heredados {#disable-legacy-logins}
+# Desactivación de inicios de sesión heredados{#disable-legacy-logins}
 
 Aprenda a desactivar los inicios de sesión heredados para usuarios de Analytics.
 
@@ -26,4 +28,3 @@ Una vez que los usuarios hayan migrado del sistema de administración de usuario
    Desactivar inicio de sesión heredado indica cuál de sus usuarios puede continuar utilizando el nombre de usuario y contraseña de [!DNL my.omniture.com] heredados.
 
    No puede desactivar los inicios de sesión heredados de un usuario que aún está por migrar. Una vez desactivado, el usuario deberá usar su Experience Cloud ID para iniciar sesión en Analytics y poder acceder.
-

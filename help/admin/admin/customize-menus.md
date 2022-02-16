@@ -1,12 +1,11 @@
 ---
 description: Esta función permite personalizar los menús de informes que un usuario ve en Reports & Analytics. Se pueden mostrar u ocultar informes y moverlos a distintas carpetas entre todos los usuarios. Esta característica es especialmente útil si la organización solo utiliza informes y no se desea atestar el menú de la izquierda con datos irrelevantes o que no se usan.
 title: Personalización de menús
-feature: Herramientas de administración
-uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
+feature: Admin Tools
 exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
-source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '261'
 ht-degree: 92%
 
 ---

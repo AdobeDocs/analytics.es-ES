@@ -1,11 +1,11 @@
 ---
 description: Cree un contenedor básico para la recopilación de datos en Adobe Analytics
 title: Crear un grupo de informes
-feature: Herramientas de administración
+feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '374'
 ht-degree: 66%
 
 ---
@@ -18,7 +18,7 @@ Este artículo está diseñado para administradores de nivel de sistema o admini
 
 ## Requisitos previos
 
-[Guía](/help/admin/admin-console/first-admin-guide.md) de administración inicial de Adobe Analytics: Asegúrese de que un administrador de nivel de sistema le haya concedido acceso a Adobe Analytics a través del Admin Console del Experience Cloud.
+[Guía de administración inicial de Adobe Analytics](/help/admin/admin-console/first-admin-guide.md): Asegúrese de que un administrador de nivel de sistema le haya concedido acceso a Adobe Analytics a través del Admin Console del Experience Cloud.
 
 ## Crear un grupo de informes {#create-report-suite}
 
@@ -43,8 +43,8 @@ Esto significa que no se han concedido a su cuenta los permisos correctos para A
 
 **Después de iniciar sesión en Adobe Analytics, falta la ventana emergente de &#39;Bienvenido a Adobe Analytics&#39; y la lista desplegable.**
 
-Asegúrese de haber iniciado sesión a través del [Experience Cloud](https://experience.adobe.com) y no a través de my.omniture.com. Los usuarios que inician sesión a través de my.omniture.com no tienen disponible el asistente para la configuración de grupos de informes.
+Asegúrese de haber iniciado sesión a través de la [Experience Cloud](https://experience.adobe.com)y no a través de my.omniture.com. Los usuarios que inician sesión a través de my.omniture.com no tienen disponible el asistente para la configuración de grupos de informes.
 
 ## Pasos siguientes
 
-[Crear una propiedad de etiqueta de Adobe Analytics  ](/help/implement/launch/create-analytics-property.md): Crear un área para administrar la implementación de Analytics
+[Crear una propiedad de etiqueta de Adobe Analytics ](/help/implement/launch/create-analytics-property.md): Crear un área para administrar la implementación de Analytics

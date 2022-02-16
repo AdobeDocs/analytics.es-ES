@@ -2,13 +2,11 @@
 description: Las reglas de procesamiento simplifican la recopilación de datos y administran el contenido a medida que se envía a los informes.
 subtopic: Processing rules
 title: Resumen de las reglas de procesamiento
-feature: Admin Tools
-uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
+feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '394'
 ht-degree: 68%
 
 ---
@@ -48,18 +46,18 @@ s.contextData['genre'] = "Youth";
 
 Una vez configurado el código, puede establecer reglas de procesamiento para asignar valores a variables. Por ejemplo:
 
-1. Asignar `author` a `eVar2`
-2. Asignar `section` a `prop1` y `eVar3`
-3. Si existe `author` y `section`, establezca `event5`
+1. Mapa `author` a `eVar2`
+2. Mapa `section` a `prop1` y `eVar3`
+3. If `author` y `section` existe, conjunto `event5`
 
 Consulte [contextData](/help/implement/vars/page-vars/contextdata.md) en la guía de usuario sobre implementación para obtener más información.
 
-## Transformar datos de visitas y activar eventos con reglas de procesamiento  {#section_8284E72E999244E091CD7FB1A22342B6}
+## Transformar datos de visitas y activar eventos con reglas de procesamiento {#section_8284E72E999244E091CD7FB1A22342B6}
 
 Las reglas de procesamiento pueden supervisar los valores entrantes para transformar errores tipográficos comunes y definir eventos según los datos de los informes. Las props se pueden copiar en eVars, los valores se pueden concatenar para los informes y se pueden definir eventos.
 
-## Uso de variables de datos de contexto en informes  {#section_BD098BC503024A0B8703596628071134}
+## Uso de variables de datos de contexto en informes {#section_BD098BC503024A0B8703596628071134}
 
 Una vez que las variables de datos de contexto se definen en la implementación, se deben copiar en variables como las eVars para poder utilizarse en los informes.
 
-Consulte [Copiar una variable de datos de contexto en un eVar](processing-rules-examples/processing-rules-copy-context-data.md) y [Establecer un evento mediante una variable de datos de contexto](processing-rules-examples/processing-rules-copy-context-data-event.md) para obtener más información.
+Consulte [Copiar una variable de datos de contexto en un eVar](processing-rules-examples/processing-rules-copy-context-data.md) y [Definir un evento con una variable de datos de contexto](processing-rules-examples/processing-rules-copy-context-data-event.md) para obtener más información.

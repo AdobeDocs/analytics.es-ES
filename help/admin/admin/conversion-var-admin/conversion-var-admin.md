@@ -3,10 +3,9 @@ description: La variable de conversión de Custom Insight (o eVar) se coloca en 
 keywords: eVar
 title: Variables de conversión (eVar)
 feature: Admin Tools
-uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: ht
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '1582'
 ht-degree: 100%
 

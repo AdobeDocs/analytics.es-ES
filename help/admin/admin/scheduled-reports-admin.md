@@ -1,10 +1,10 @@
 ---
 description: Permite que los usuarios de nivel de administración vean y gestionen informes programados en toda la organización.
 title: Cola de informes programados
-topic-fix: Reports
+feature: Admin Tools
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 98%
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 Permite que los usuarios de nivel de administración vean y gestionen informes programados en toda la organización.
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Componentes]**  >  **[!UICONTROL Todos los componentes]**  > Informes  **[!UICONTROL programados]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Informes programados]**
 
 Algunas funciones de nivel de administración en el Administrador de informes programados son:
 
@@ -48,7 +48,7 @@ Esta cola le permite gestionar y eliminar potencialmente cualquier informe progr
 
 La cola de informes también le proporciona la habilidad de &quot;Omitir el informe programado una vez&quot;. Haga clic en el icono azul en la columna **[!UICONTROL Administrar]**.
 
-## ID de programa {#section_568B70F4228C4229977CB85D2DCD53A1}
+## ID de programación {#section_568B70F4228C4229977CB85D2DCD53A1}
 
 Si el **[!UICONTROL ID de programa]** está expuesto en la interfaz de la cola de informe es útil cuando necesita ponerse el contacto con Adobe Client Care para resolver un problema de los informes programados.
 

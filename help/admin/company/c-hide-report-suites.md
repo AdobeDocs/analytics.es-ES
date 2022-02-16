@@ -2,12 +2,11 @@
 description: Le permite ocultar grupos de informes en la interfaz de usuario de Adobe Analytics.
 keywords: eliminar grupo de informes
 title: Ocultar grupos de informes
-feature: Herramientas de administración
-uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
+feature: Company Settings
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 92%
 
 ---
@@ -24,7 +23,7 @@ Ocultar un grupo de informes evita que aparezca en el menú desplegable del sele
 >
 >Los datos enviados a un grupo de informes oculto desde su sitio se seguirán recopilando, procesando y facturando. Es decir, un grupo de informes nunca se elimina completamente.
 
-Para ocultar el grupo de informes, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración de la empresa]** > **[!UICONTROL Ocultar grupos de informes]**. Active la casilla de verificación **[!UICONTROL Oculto]** a la izquierda del nombre del grupo de informes.
+Para ocultar el grupo de informes, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración de la empresa]** > **[!UICONTROL Ocultar grupos de informes]**. Active la casilla de verificación **[!UICONTROL Oculto]** a la izquierda del nombre del grupo de informes.
 
 Para volver a mostrar el grupo de informes, desactive la casilla de verificación **[!UICONTROL Oculto]**.
 
