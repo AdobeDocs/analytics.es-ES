@@ -2,10 +2,10 @@
 title: Guía de exportación de Analytics
 description: Esta guía describe las formas de obtener datos de Adobe Analytics mediante fuentes de datos y Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: ht
-source-wordcount: '161'
-ht-degree: 100%
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,7 @@ Esta guía describe los modos de extraer datos de Adobe Analytics. Incluye:
 
 * **Fuentes de datos:** Reciba una exportación horaria o diaria de datos brutos. Cada fila es una visita individual, y cada columna es una variable. Las fuentes de datos suelen enviarse a sitios de FTP.
 * **Data Warehouse:** Utilice un asistente de solicitud para recuperar el output de datos de una hoja de cálculo. Data Warehouse utiliza una arquitectura de procesamiento diferente para permitir cualquier número de filas y cualquier cantidad de valores únicos.
+* **FTP y SFTP:** Prácticas recomendadas para usar FTP y SFTP con Adobe
 
 A continuación, se muestra un vídeo introductorio de Adobe Analytics:
 
@@ -35,6 +36,6 @@ A continuación, se muestra un vídeo introductorio de Adobe Analytics:
 ## Recursos clave de Analytics
 
 * [Contactar con el servicio de atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)
-* [Foro de Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
+* [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos de Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=es)
 * [Experience League](https://experienceleague.adobe.com/?lang=es#home)

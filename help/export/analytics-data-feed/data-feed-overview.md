@@ -2,10 +2,10 @@
 description: Los datos que se recopilan de sitios web y aplicaciones móviles, o que se cargan mediante las API del servicio web o fuentes de datos, se procesan y almacenan en el Data Warehouse de Adobe. Estos datos del flujo de navegación sin procesar forman el conjunto de datos que se utilizan en Adobe Analytics.
 keywords: flujo de navegación;fuente de datos;fuente de datos;Fuente de datos
 title: Resumen de la fuente de datos de Analytics
-uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
+feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 100%
 

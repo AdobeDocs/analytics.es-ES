@@ -2,11 +2,10 @@
 description: Configure y utilice cuentas de FTP alojadas en Adobe.
 keywords: ftp;sftp
 title: Resumen de configuración de cuentas de FTP
-uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
+feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 

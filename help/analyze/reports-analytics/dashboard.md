@@ -2,10 +2,10 @@
 description: Un tablero es una colección de informes en miniatura, llamados informes breves. Un tablero es más útil cuando contiene informes breves relacionados que le ofrecen información general completa sobre determinados aspectos de su sitio, como métodos de búsqueda, perfiles de visitantes, etc.
 subtopic: Dashboards
 title: Paneles e informes breves
-uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 98%
@@ -42,11 +42,11 @@ Debe tener en cuenta que algunos de los informes visualizados con más frecuenci
 
 Además de los tableros que cree, se incluyen los siguientes tableros empaquetados previamente para cada usuario:
 
-**[!UICONTROL Componentes]  >  [!UICONTROL Todos los componentes]  >  [!UICONTROL Tableros]  > Tableros  [!UICONTROL compartidos]  >  [!UICONTROL Sitios locales]**
+**[!UICONTROL Componentes] > [!UICONTROL Todos los componentes] > [!UICONTROL Tableros] > [!UICONTROL Tableros compartidos] > [!UICONTROL Sitios locales]**
 
 Este tablero se puede personalizar y permite soltar informes breves en la plantilla proporcionada.
 
-**[!UICONTROL Componentes]  >  [!UICONTROL Todos los componentes]  >  [!UICONTROL Tableros]  > Tableros  [!UICONTROL compartidos]  > Tablero de operaciones del  [!UICONTROL sitio]**
+**[!UICONTROL Componentes] > [!UICONTROL Todos los componentes] > [!UICONTROL Tableros] > [!UICONTROL Tableros compartidos] > [!UICONTROL Tablero de operaciones del sitio]**
 
 Este tablero proporciona información general sobre las métricas clave relacionadas con las operaciones del sitio web. Los informes de este tablero incluyen:
 
@@ -215,7 +215,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]**  >  **[!UICONTROL Administración]**  >  **[!UICONTROL Todos los administradores]**  > Configuración de la  **[!UICONTROL empresa]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración de la empresa]**.
 1. En la página [!UICONTROL Configuración de empresa], haga clic en **[!UICONTROL Promocionar conjuntamente Adobe Experience Cloud]**.
 1. Haga clic en **[!UICONTROL Habilitar promoción conjunta de marca]**.
 1. Examine para cargar la imagen y, a continuación, haga clic en **[!UICONTROL Guardar]**.

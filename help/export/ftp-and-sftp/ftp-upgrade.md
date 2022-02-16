@@ -2,11 +2,10 @@
 description: Las actualizaciones de los servidores FTP de Adobe pueden introducir nuevas configuraciones que afecten a los scripts de automatización (estos suelen utilizarse para descargar o cargar datos periódicamente), que, normalmente, dependen de ciertas opciones del servidor.
 keywords: ftp;sftp
 title: Actualización de servidores FTP de Adobe
-uuid: cc9e5e13-e213-480f-9ff6-3dbec24baeee
+feature: FTP Export
 exl-id: 442b2d5d-735c-4ece-a456-3a0ac5909c8c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 

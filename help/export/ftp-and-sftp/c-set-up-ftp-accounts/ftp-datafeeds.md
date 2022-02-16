@@ -2,11 +2,10 @@
 description: Las fuentes de datos son una exportación de los datos sobre el flujo de navegación que Adobe recibe. Existen las fuentes de datos estándar y las personalizadas.
 keywords: ftp;sftp
 title: Archivo de fuentes de datos
-uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
+feature: FTP Export
 exl-id: 286050fa-e197-4b70-b167-da6921615c1b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 100%
 

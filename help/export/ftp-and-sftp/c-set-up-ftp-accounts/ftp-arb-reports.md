@@ -2,10 +2,10 @@
 description: Utilice el complemento Report Builder de Adobe para Microsoft Excel para crear solicitudes personalizadas a partir de datos de análisis web que se pueden insertar en las hojas de cálculo de Excel.
 keywords: ftp;sftp
 title: Informes entregados por el Report Builder
-uuid: 94070700-4073-499a-afe2-10a30eeab79f
+feature: FTP Export
 exl-id: 0026b6dc-023f-4896-ba0d-0eec16a9d469
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 

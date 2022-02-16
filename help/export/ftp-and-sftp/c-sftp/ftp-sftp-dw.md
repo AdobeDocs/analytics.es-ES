@@ -2,11 +2,10 @@
 description: Adobe admite la exportación de solicitudes de Data Warehouse a servidores SFTP.
 keywords: ftp;sftp
 title: Envío de solicitudes de Data Warehouse a los servidores SFTP
-uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
+feature: FTP Export
 exl-id: 45694647-69ec-45e3-b614-4a936909a338
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 100%
 

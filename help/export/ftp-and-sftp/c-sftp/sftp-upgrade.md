@@ -1,8 +1,9 @@
 ---
 title: 'Actualización de servicios SFTP: preguntas frecuentes'
 description: Preguntas frecuentes sobre la actualización de los servicios SFTP prevista para mayo de 2022.
+feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: 49cfd64583826f7c44ba1acaa6d0c7812d30f821
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 92%

@@ -2,9 +2,10 @@
 title: Prácticas recomendadas y resolución de problemas de la creación de informes
 description: Prácticas recomendadas y sugerencias de resolución de problemas de la creación de informes.
 keywords: prácticas recomendadas; error; tiempo de ejecución; solución de problemas; lento
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 1c09f514-42ab-4698-bdee-d1b509da3f11
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%

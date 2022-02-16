@@ -2,10 +2,10 @@
 description: La opción de FTP (SAINT) de las clasificaciones ofrece más flexibilidad a la hora de cargar grandes conjuntos de datos de clasificación, incluida la capacidad de cargar datos en varios grupos de informes, así como cargar conjuntos de datos con más de 50 000 filas.
 keywords: ftp;sftp
 title: Clasificaciones
-uuid: 35936c98-b785-43eb-89f4-ab42a10db256
+feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%
 

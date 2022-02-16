@@ -1,20 +1,20 @@
 ---
 title: Compatibilidad con componentes en Data Warehouse
 description: Descubra qué dimensiones y métricas adicionales están disponibles en Data Warehouse y qué otras no se admiten.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+feature: Data Warehouse
+exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
 
 ---
 
-
 # Compatibilidad con componentes en Data Warehouse
 
 La arquitectura de procesamiento única de Data Warehouse admite algunos componentes que no suelen estar disponibles en otras funciones de Adobe Analytics. Debido a su arquitectura única, algunos componentes no están disponibles para su uso en informes o segmentos. Utilice esta página para comprender qué se puede usar y qué no.
 
-## Componentes exclusivos de Data Warehouse
+## Componentes únicos de Data Warehouse
 
 Algunas dimensiones y métricas se pueden usar en Data Warehouse, mientras que otras no están disponibles en Adobe Analytics.
 

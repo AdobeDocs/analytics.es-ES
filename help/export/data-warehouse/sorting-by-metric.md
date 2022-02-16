@@ -1,15 +1,14 @@
 ---
 description: Proporciona informes de desgloses clasificados en Data Warehouse, ordenados por el valor de métrica descendente.
 title: Ordenar por métrica
-uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+feature: Data Warehouse
+exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 
 ---
-
 
 # Ordenar por métrica
 
@@ -38,4 +37,3 @@ Consulte la columna &quot;Diseño de informe&quot; en esta tabla para determinar
 | Sí | Sí | No | Sí | Sí | 3 |
 | Sí | Sí | Sí | Sí o No | Sí | 3 |
 | Sí | Sí | Sí | Sí | No | 4 |
-
