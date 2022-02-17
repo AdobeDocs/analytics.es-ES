@@ -3,12 +3,12 @@ description: Conozca las ventajas y limitaciones de utilizar la opción Marcas d
 keywords: Implementación de Analytics
 title: Usar marcas de hora opcionales
 topic-fix: Developer and implementation
-uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
+feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

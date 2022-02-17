@@ -3,12 +3,12 @@ description: Los ID de visitante se pueden importar seleccionando la categoría 
 subtopic: Data sources
 title: ID de visitante
 topic-fix: Developer and implementation
-uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
+feature: Data Sources
 exl-id: 940af1ba-0d12-4552-a21e-0ceb06427ab2
-source-git-commit: a7a116ddc9eddc500a52111e9c002bdbee3e4a56
-workflow-type: ht
-source-wordcount: '224'
-ht-degree: 100%
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

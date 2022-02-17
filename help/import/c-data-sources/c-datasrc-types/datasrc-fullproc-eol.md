@@ -1,9 +1,10 @@
 ---
 title: Fin de la vida útil de las fuentes de datos de procesamiento completo
 description: Razones para finalizar la vida útil y comparaciones entre la API de inserción de datos en lote y las fuentes de datos de procesamiento completo.
+feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 100%
 
@@ -29,7 +30,7 @@ La API de inserción de datos en lote (BDIA) proporciona una funcionalidad adici
 
 ## Diferencias clave en el formato de archivo y el contenido
 
-* La inserción de datos en lote tiene algunos campos obligatorios adicionales. Consulte la [documentación](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=es#!AdobeDocs/analytics-2.0-apis/master/bdia.md) para obtener más detalles.
+* La inserción de datos en lote tiene algunos campos obligatorios adicionales. Consulte la [documentación](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) para obtener más detalles.
 * Para garantizar la continuidad y la atribución del visitante, la inserción de datos en lote requiere que las filas de los archivos se ordenen en orden cronológico. Consulte [Grupos de visitantes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=es#!AdobeDocs/analytics-2.0-apis/master/bdia.md#visitor-groups) para obtener más información sobre el orden de la actividad del visitante en todos los archivos.
 * La inserción de datos en lote requiere que los archivos estén comprimidos en .csv en formato .gzip.
 * BDIA utiliza &quot;marca de tiempo&quot; en lugar de &quot;fecha&quot;.

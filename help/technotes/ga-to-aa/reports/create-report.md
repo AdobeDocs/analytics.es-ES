@@ -1,10 +1,10 @@
 ---
 title: Crear un informe básico en Analysis Workspace
 description: Información sobre la creación de un informe básico en Analysis Workspace en un formato dirigido a usuarios familiarizados con herramientas de terceros, como Google Analytics.
+feature: Third-party Integration
 exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 

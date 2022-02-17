@@ -1,15 +1,13 @@
 ---
 description: Pasos que describen cómo cargar un archivo de fuente de datos.
-subtopic: Data sources
 title: Cargar un archivo de fuente de datos
 topic-fix: Developer and implementation
-uuid: 5a9dde91-1297-47e5-9393-611b40413c17
+feature: Data Sources
 exl-id: 8b7fa32c-01f2-452b-bf8e-8a81da266926
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

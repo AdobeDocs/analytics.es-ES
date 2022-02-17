@@ -1,11 +1,12 @@
 ---
 title: Licencias de certificados SSL
-description: Procedimientos de certificados para los certificados administrados por el cliente
+description: Procedimientos de certificado para certificados administrados por el cliente
+feature: Regional Data Collection
 exl-id: 7d1373c8-6f7b-4ce7-a555-d3d506e08d17
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 Adobe recomienda administrar el certificado sin ningún coste adicional a través del [programa de certificados administrados de Adobe](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=es). El programa de certificados administrados de Adobe está completamente automatizado y garantiza que los certificados se renueven a tiempo. De este modo, se evitan consecuencias derivadas de la presencia de certificados caducados.
 
-Si elige no utilizar el [programa de certificados administrados de Adobe](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=es), es responsabilidad suya proporcionar el certificado SSL/TLS que se vaya a usar con las cookies de origen.
+Si elige no utilizar el [programa de certificados administrados de Adobe](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html), es responsabilidad suya proporcionar el certificado SSL/TLS que se vaya a usar con las cookies de origen.
 
 Si proporciona su propio certificado, es su responsabilidad adquirirlo y mantenerlo.  El certificado SSL/TLS debe incluir una licencia de servidor ilimitada.
 

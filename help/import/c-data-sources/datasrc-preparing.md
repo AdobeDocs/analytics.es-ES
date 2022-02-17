@@ -3,12 +3,12 @@ description: Pasos que puede seguir como preparación para utilizar fuentes de d
 subtopic: Data sources
 title: Preparación para el uso de fuentes de datos
 topic-fix: Developer and implementation
-uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Es importante entender las métricas y las mediciones que se encuentran en las f
 
 Cuando determine la correspondencia entre métricas y eventos para la fuente de datos, cambie los nombres descriptivos de los eventos para que reflejen mejor las métricas asociadas.
 
-Consulte [Eventos de éxito](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) en la ayuda de Herramientas de administración.
+Consulte [Eventos de éxito](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=es) en la ayuda de Herramientas de administración.
 
 >[!NOTE]
 >

@@ -2,10 +2,10 @@
 description: 'También puede utilizar las dimensiones Audiencias de AAM en Analytics. Los segmentos integrados son nuevas dimensiones de Analytics llamadas ID de audiencias y Nombre de audiencias, y pueden utilizarse como cualquier otra dimensión que Analytics recopile. En Fuentes de datos, los ID de audiencia se almacenan en la columna “mc_audiences”. Estas dimensiones no están disponibles en este momento en Data Workbench o Livestream. Estos son algunos ejemplos de cómo puede aprovechar las dimensiones Audiencias '
 solution: Experience Cloud
 title: Utilización de los datos de audiencias en Analytics
-uuid: 203925fb-f070-441c-813a-43099cb9b2b9
+feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Los datos de segmentos de AAM se pasan a Analytics para cada visita y representa
 
 ![](assets/flow-aamaudiences.png)
 
-Las audiencias también pueden utilizarse en las [visualizaciones de visitas en el orden previsto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=es).
+Las audiencias también pueden utilizarse en las [visualizaciones de visitas en el orden previsto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 ## Visualización de Venn en Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
 

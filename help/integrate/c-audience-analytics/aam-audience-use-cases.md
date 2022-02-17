@@ -1,10 +1,10 @@
 ---
 description: Casos de uso relacionados con Advertising Analytics.
 title: Casos de uso de Audience Analytics
-uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
+feature: Audience Analytics
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%
 

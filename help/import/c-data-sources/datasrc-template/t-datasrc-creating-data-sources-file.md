@@ -3,9 +3,9 @@ description: El archivo de plantilla de importaciones está diseñado para propo
 subtopic: Data sources
 title: Generación de plantillas de archivo de importación
 topic-fix: Developer and implementation
-uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
+feature: Data Sources
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 98%
@@ -25,7 +25,7 @@ La plantilla de la fuente de datos es un archivo .txt que se puede abrir con cua
 Consulte [Referencia sobre el archivo de importación](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) para obtener más detalles.
 
 1. Iniciar sesión en Analytics.
-1. En el encabezado de Suite, seleccione **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Fuentes de datos]**.
+1. En el encabezado de Suite, seleccione **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Fuentes de datos]**.
 1. En la pestaña **[!UICONTROL Crear de Fuentes de datos]**, elija una categoría de plantilla y un tipo.
 1. Revise las instrucciones o la información de activación y haga clic en **[!UICONTROL Activar]**.
 

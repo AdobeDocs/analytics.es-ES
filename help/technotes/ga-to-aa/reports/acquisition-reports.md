@@ -1,12 +1,12 @@
 ---
 title: Informes de adquisición en Adobe Analytics
 description: Información sobre la creación de informes basados en adquisiciones, usando Analysis Workspace.
+feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1578'
-ht-degree: 100%
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

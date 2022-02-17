@@ -1,8 +1,9 @@
 ---
 title: Fuentes de datos de ID de transacción
 description: Obtenga información sobre el flujo de trabajo general del uso de fuentes de datos con ID de transacción.
+feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
-source-git-commit: 4497ca252c4ee05175141e58d784ca2df215cb94
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 45%
@@ -21,11 +22,11 @@ Cuando se envía una visita de la fuente de datos de transacción, el ID de tran
 
 ## Ejemplo
 
-Si se pasa una visita en línea con el ID de transacción 1256 y se establece `evar1=blue`, `evar2=water` y `event1`, los datos de transacción para el ID de transacción 1256 se guardan con `evar1=blue`, `evar2=water`. No se guarda ningún valor de evento como parte de la información de transacción.
+Si se pasa una visita en línea con el ID de transacción 1256 `evar1=blue`, `evar2=water` y `event1` están configuradas, los datos de transacción del ID de transacción 1256 se guardan con `evar1=blue`, `evar2=water`. No se guarda ningún valor de evento como parte de la información de transacción.
 
-Ahora supongamos que se pasa una visita de transacción de origen de datos a través del sistema con los ID de transacción 1256 y `evar1=yellow`, `evar3=mountain` y `event2` configurados. El sistema encuentra los datos de transacción guardados y en los conjuntos de visitas de transacción de origen de datos `evar2=water` (ya que eso es lo que se estableció en la visita original). No establece `evar1=blue` (como en la visita original) porque ya había un valor para `evar1` (amarillo) establecido en la visita de transacción de la fuente de datos.  Por lo tanto, la visita de la transacción de la fuente de datos tiene como resultado `evar1=yellow`, `evar2=water` (a partir de la visita en línea original) y `evar3=mountain`. Estos 3 valores de eVar tienen `event2` establecido: el evento de la visita de transacción de la fuente de datos.
+Ahora supongamos que se pasa una visita de transacción de fuente de datos a través del sistema con el ID de transacción 1256 y `evar1=yellow`, `evar3=mountain` y `event2` configurado. El sistema encuentra los datos de transacción guardados y en los conjuntos de visitas de transacción de la fuente de datos `evar2=water` (ya que eso es lo que se estableció en la visita original). No está configurado `evar1=blue` (como en la visita original) porque había un valor para `evar1` (amarillo) ya establecido en la visita de transacción de la fuente de datos.  Por lo tanto, la visita de la transacción de la fuente de datos resulta en tener `evar1=yellow`, `evar2=water` (de la visita en línea original) y `evar3=mountain`. Estos 3 valores de eVar tienen `event2` set : el evento de la visita de transacción de la fuente de datos.
 
-No se establece ningún valor de la visita de transacción de origen de datos cuando se procesa la visita de transacción de origen de datos.`event1`
+No se obtiene ningún valor de la transacción de origen de datos `event1` se establece cuando se procesa la visita de transacción de origen de datos.
 
 ## Flujo de trabajo general de las fuentes de datos de ID de transacción
 

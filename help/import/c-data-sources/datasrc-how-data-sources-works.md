@@ -3,10 +3,9 @@ description: Información sobre los métodos de Adobe para proporcionar acceso a
 subtopic: Data sources
 title: Funcionamiento de las fuentes de datos
 topic-fix: Developer and implementation
-uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
+feature: Data Sources
 exl-id: 3d56ca3f-6c45-48d0-bbd2-53d6babfbb83
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%

@@ -1,10 +1,10 @@
 ---
 title: Informes de audiencia en Adobe Analytics
 description: Obtenga información sobre cómo crear informes basados en audiencias mediante Analysis Workspace.
+feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 100%
 

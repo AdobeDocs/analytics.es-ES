@@ -3,13 +3,12 @@ description: El sistema de fuentes de datos admite las siguientes dimensiones y 
 subtopic: Data sources
 title: Conversión
 topic-fix: Developer and implementation
-uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
+feature: Data Sources
 exl-id: 00450ad4-7148-4cf1-bdba-5d1732dd0fd3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 El sistema de fuentes de datos admite las siguientes dimensiones y métricas para los tipos de datos que se procesan como conversiones.
 
-## Conversión Dimensiones y métricas {#section_FA1731B232B246DABEDF5A5D84159084}
+## Métricas y dimensiones de conversión {#section_FA1731B232B246DABEDF5A5D84159084}
 
 Cuando se indica un evento Vista, también hay que indicar la dimensión de datos (eVar) correspondiente. Por ejemplo, si se incluyen las vistas de eVar2, se deberá indicar la eVar2 con un valor. La cantidad de eventos personalizados y vistas de eVar que admite un grupo de informes depende del contrato y varía según la empresa.
 

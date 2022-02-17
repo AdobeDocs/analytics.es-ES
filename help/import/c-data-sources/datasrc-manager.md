@@ -3,9 +3,9 @@ description: Cree, administre y visualice la utilización de fuentes de datos en
 subtopic: Data sources
 title: Administrador de fuentes de datos
 topic-fix: Developer and implementation
-uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
+feature: Data Sources
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 98%
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Cree, administre y visualice la utilización de fuentes de datos en un grupo de informes.
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Administración]**  >  **[!UICONTROL Todos los administradores]**  > Fuentes  **[!UICONTROL de datos]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Fuentes de datos]**.
 
 ## Pestaña Crear {#section_74603FDA3D8842E49F1A51624A06DE20}
 

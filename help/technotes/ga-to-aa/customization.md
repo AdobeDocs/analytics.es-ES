@@ -1,10 +1,10 @@
 ---
 title: Personalización de informes en Adobe Analytics
 description: Descubra cómo personalizar informes en Adobe Analytics
+feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 100%
 
