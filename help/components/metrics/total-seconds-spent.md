@@ -1,10 +1,10 @@
 ---
 title: Segundos totales empleados
 description: El número total agregado de segundos empleados en el elemento de la dimensión.
+feature: Metrics
 exl-id: 02302982-ce8c-44e9-9967-0a4f226f5e9e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
 

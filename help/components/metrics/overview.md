@@ -1,9 +1,10 @@
 ---
 title: Resumen de las métricas
 description: Vista de cantidades de datos o elementos de dimensión a lo largo del tiempo.
+feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
 

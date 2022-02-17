@@ -1,10 +1,10 @@
 ---
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 title: 'Referencia: funciones avanzadas'
-uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
+feature: Calculated Metrics
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '2909'
 ht-degree: 100%
 
@@ -556,7 +556,7 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 ## Regresión cuadrática: Y predicha (Fila) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
-Calcula los valores [!DNL y] predichos (metric_Y), dados los valores [!DNL x] conocidos (metric_X) utilizando el método de los menos cuadrados para calcular la mejor opción de línea para [!DNL Y=(a*X+b)]**** .
+Calcula los valores [!DNL y] predichos (metric_Y), dados los valores [!DNL x] conocidos (metric_X) utilizando el método de los menos cuadrados para calcular la mejor opción de línea para [!DNL Y=(a*X+b)]****.
 
 ```
 ESTIMATE.QUADRATIC(metric_A, metric_B)
@@ -698,7 +698,7 @@ donde [!DNL x] es la puntuación sin procesar, [!DNL μ] es la media de poblaci�
 
 >[!NOTE]
 >
->[!DNL μ] (mu) y[!DNL σ] (sigma) se calculan automáticamente a partir de la métrica.
+>[!DNL μ] (mu) y [!DNL σ] (sigma) se calculan automáticamente a partir de la métrica.
 
 Puntuación Z(métrica)
 

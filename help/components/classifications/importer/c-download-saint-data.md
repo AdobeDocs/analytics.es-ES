@@ -1,16 +1,14 @@
 ---
 description: Opcional. Antes de importar las clasificaciones a informes de marketing, existe la posibilidad de descargar una plantilla para facilitar la creación del archivo de datos de clasificación. El archivo de datos utiliza las clasificaciones especificadas como encabezados de columna y, a continuación, organiza el conjunto de datos de informes con los encabezados de clasificación adecuados.
-subtopic: Classifications
 title: Plantilla de clasificación
-feature: Herramientas de administración
-uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: ht
-source-wordcount: '353'
+feature: Classifications
+exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
-
 
 # Plantilla de clasificación
 
@@ -52,4 +50,3 @@ La plantilla proporciona el formato de archivo que debe aplicarse a las clasific
 1. Guarde el archivo de plantilla en el sistema local.
 
    El archivo de plantilla es un archivo de datos delimitado por tabuladores (con la extensión de nombre de archivo [!DNL .tab]) compatible con la mayoría de las aplicaciones de hojas de cálculo.
-

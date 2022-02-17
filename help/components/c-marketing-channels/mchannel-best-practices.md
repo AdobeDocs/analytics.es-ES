@@ -1,13 +1,14 @@
 ---
 title: Prácticas recomendadas para implementar canales de marketing de Adobe Analytics
 description: Prácticas recomendadas actualizadas para usar los canales de marketing con Attribution IQ y Customer Journey Analytics
-source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
-workflow-type: ht
+feature: Marketing Channels
+exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 100%
 
 ---
-
 
 # Attribution IQ con canales de marketing: prácticas recomendadas
 
@@ -21,7 +22,7 @@ Dado que las dimensiones del canal de marketing dependen de una definición de v
 
 ## Práctica recomendada n.º 1: Aprovechar Attribution IQ para el análisis controlado
 
-Se recomienda utilizar [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=es#analysis-workspace) en lugar de la atribución de canal de marketing existente para ajustar el análisis de canal de marketing. Siga las otras prácticas recomendadas para garantizar la coherencia y controles sólidos de los análisis con Attribution IQ.
+Se recomienda utilizar [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) en lugar de la atribución de canal de marketing existente para ajustar el análisis de canal de marketing. Siga las otras prácticas recomendadas para garantizar la coherencia y controles sólidos de los análisis con Attribution IQ.
 
 ![](assets/attribution.png)
 

@@ -1,10 +1,10 @@
 ---
 title: Motor de búsqueda
 description: Motor de búsqueda que el visitante utilizó para llegar al sitio.
+feature: Dimensions
 exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
 

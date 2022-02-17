@@ -1,10 +1,10 @@
 ---
 title: 'Métrica Vistas de página explicada | Adobe Analytics '
 description: Conozca cómo se ha desarrollado la métrica de vistas de página en Adobe Analytics, y descubra la diferencia entre las vistas de página y las visitas.
+feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
 

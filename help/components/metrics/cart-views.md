@@ -1,10 +1,10 @@
 ---
 title: Vistas del carro de compras
 description: El número de visitas en las que un visitante vio el carro de compras.
+feature: Metrics
 exl-id: f181df60-4dec-47a1-ac6b-a162463c370f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
 

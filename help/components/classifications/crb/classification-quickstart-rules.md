@@ -1,16 +1,14 @@
 ---
 description: Las reglas de clasificación buscan términos no clasificados de forma periódica. Cuando se encuentra una coincidencia de regla, las reglas agregan los términos automáticamente a las tablas de datos de clasificación. Las reglas de clasificación también permiten sobrescribir las claves existentes.
-subtopic: Classifications
 title: Reglas de clasificación
-feature: Admin Tools
-uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
-workflow-type: ht
+feature: Classifications
+exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 100%
 
 ---
-
 
 # Reglas de clasificación
 
@@ -328,8 +326,8 @@ Para agregar nuevas reglas, debe establecerse la coincidencia entre una condici�
    >Los grupos de informes se muestran en esta página *solo* cuando se cumplen las siguientes condiciones:
    >
    >* Los grupos de informes tienen como mínimo una clasificación definida para la variable en [!UICONTROL Herramientas de administración].
-   >
-   >   (Consulte *Variable* en [Conjuntos de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) para obtener una explicación sobre este requisito previo).
+      >
+      >   (Consulte *Variable* en [Conjuntos de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) para obtener una explicación sobre este requisito previo).
    >
    >* Ha seleccionado el grupo de informes en la página **[!UICONTROL Grupos de informes disponibles]**, que se muestra después de hacer clic en [Agregar conjunto de reglas](/help/components/classifications/crb/classification-rule-set.md) para crear el conjunto de reglas.
 

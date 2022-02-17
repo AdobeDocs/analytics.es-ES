@@ -1,10 +1,10 @@
 ---
 title: AM/PM
 description: Determina si la visita se produjo durante las horas AM o PM.
+feature: Dimensions
 exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
 

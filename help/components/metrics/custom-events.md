@@ -1,10 +1,10 @@
 ---
 title: Eventos personalizados
 description: El número de visitas en las que se produce un evento personalizado.
+feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 

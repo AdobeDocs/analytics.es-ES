@@ -1,12 +1,12 @@
 ---
 description: Los derechos de las métricas calculadas difieren entre los usuarios a nivel de administrador y los usuarios no administradores.
 title: 'Métricas calculadas:  derechos basados en funciones'
-uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
+feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Los derechos de las métricas calculadas difieren entre los usuarios a nivel de 
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Usuarios de nivel de administrador</b> </td> 
-   <td colname="col02"> Los administradores pueden crear métricas calculadas y <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=es"  >grupos</a> para limitar los derechos de los usuarios en la creación de métricas calculadas. </td> 
+   <td colname="col02"> Los administradores pueden crear métricas calculadas y perfiles de producto en el Admin Console para limitar los derechos de los usuarios a la hora de crear métricas calculadas. </td> 
    <td colname="col2"> Pueden compartir con toda la empresa, con grupos de usuarios y con usuarios individuales. </td> 
    <td colname="col3"> <span class="keyword">Reports &amp; Analytics</span>: pueden ver, editar, eliminar, etc. sus propias métricas calculadas y las de otros usuarios. <p> <span class="keyword">Report Builder</span>: pueden ver, editar, eliminar, etc. sus propias métricas calculadas y las que se han compartido con ellos. </p> </td> 
    <td colname="col4"> Pueden aprobar métricas calculadas como canónicas. </td> 

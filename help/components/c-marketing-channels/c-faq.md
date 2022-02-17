@@ -1,13 +1,14 @@
 ---
 title: Preguntas más frecuentes sobre los canales de marketing
 description: Preguntas más frecuentes sobre los canales de marketing.
-source-git-commit: 9d4470dd297227333c6043572820053d7eb5e899
-workflow-type: ht
+feature: Marketing Channels
+exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 100%
 
 ---
-
 
 # Preguntas más frecuentes sobre los canales de marketing
 

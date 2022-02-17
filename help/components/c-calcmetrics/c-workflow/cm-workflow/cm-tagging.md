@@ -1,11 +1,10 @@
 ---
 description: En el Administrador de métricas calculadas, el etiquetado de segmentos le permite organizarlos.
 title: Etiquetar métricas calculadas
-uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
+feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
 

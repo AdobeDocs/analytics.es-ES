@@ -1,13 +1,14 @@
 ---
 title: Exportación de datos de clasificación mediante FTP
 description: La exportación a FTP ofrece más flexibilidad con las descargas de conjuntos de datos, incluida la descarga de datos de varios grupos de informes y la descarga de archivos de conjuntos de datos que superen las 50 000 filas de datos
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
-workflow-type: ht
+feature: Classifications
+exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 
 ---
-
 
 # Exportación de datos de clasificación mediante FTP
 
@@ -47,4 +48,3 @@ Estos pasos describen cómo exportar (descargar) clasificaciones desde Adobe Ana
 | [!UICONTROL Cuenta de FTP] | Especifique la información del servidor FTP donde desea que Adobe descargue el archivo de datos, incluidos el nombre de host y el puerto, la ruta de acceso al directorio de destino, el nombre de usuario y la contraseña. |
 | [!UICONTROL Notificación] | Especifica la dirección de correo electrónico donde se recibirán las notificaciones sobre esta descarga de FTP. |
 | [!UICONTROL Codificación] | Seleccione la codificación de caracteres del archivo de datos. El formato de codificación predeterminado es UTF-8 o ISO-8859-1, según la codificación cargada para la clasificación. UTF-8 a UTF-16 convierte sus clasificaciones con codificación UTF-8 en clasificaciones UTF-16. ISO-8859-1 a UTF-16 convierte sus clasificaciones con codificación ISO-8859-1 en clasificaciones UTF-16.<br>**Nota:** Si selecciona la conversión a UTF-16, la codificación de origen debe coincidir con la codificación de la carga original u obtendrá resultados inesperados. Se recomienda la codificación de todos los archivos cargados en UTF-8 sin BOM. |
-

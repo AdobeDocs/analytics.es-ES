@@ -1,10 +1,10 @@
 ---
 title: Promedio de vistas de página por visita
 description: El número promedio de veces que un elemento de dimensión determinado apareció en una visita.
+feature: Metrics
 exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 100%
 

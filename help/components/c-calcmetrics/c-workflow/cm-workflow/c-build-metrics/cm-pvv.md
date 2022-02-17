@@ -1,10 +1,10 @@
 ---
 description: Le muestra cómo crear una métrica "Vistas de página por visitas" simple.
 title: Crear una métrica "Vistas de página por visitas" simple
-uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
+feature: Calculated Metrics
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
 

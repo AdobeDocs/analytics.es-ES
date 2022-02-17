@@ -1,9 +1,10 @@
 ---
 title: 'Anchura del explorador: Agrupado'
 description: Anchura de la ventana del explorador en píxeles.
+feature: Dimensions
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 100%
 

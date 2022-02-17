@@ -1,11 +1,10 @@
 ---
 description: Solucione problemas y cuestiones relacionados con segmentos.
 title: Solución de problemas de segmentación
-uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
+feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
@@ -13,14 +12,14 @@ ht-degree: 100%
 
 # Solución de problemas de segmentación
 
-## Error: &quot;Elementos incompatibles en este segmento&quot; {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## Error: &quot;Elementos incompatibles en este segmento&quot; {#incompatible}
 
 Este error se produce cuando intenta guardar un segmento en la carpeta del Almacén de datos donde el segmento contiene elementos no compatibles con el Data Warehouse. Para corregir este error, puede hacer una de estas dos acciones:
 
 * Guardar el segmento en una carpeta distinta.
 * Eliminar o cambiar las partes incompatibles del segmento.
 
-## ¿Por qué no devuelve ningún dato mi segmento? {#section_999749CBBE984142AEA49A6E68E6730A}
+## ¿Por qué no devuelve ningún dato mi segmento? {#no-data}
 
 Motivos posibles:
 
@@ -28,7 +27,7 @@ Motivos posibles:
 * El informe no admite la segmentación.
 * No hay datos que coincidan con los criterios de segmentación.
 
-## ¿Por qué no puedo ver el segmento que he creado en el Administrador de segmentos? {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## ¿Por qué no puedo ver el segmento que he creado en el Administrador de segmentos? {#invisible}
 
 Motivos posibles:
 
@@ -40,7 +39,7 @@ Motivos posibles:
 * El segmento no se ha guardado.
 * La dirección IP puede haber sido bloqueada en el terminal del usuario.
 
-## ¿Por qué los datos de página mostrados tras aplicar un segmento parecen incorrectos? {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## ¿Por qué los datos de página mostrados tras aplicar un segmento parecen incorrectos? {#page-data}
 
 Motivos posibles:
 

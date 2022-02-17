@@ -1,13 +1,14 @@
 ---
 title: Introducción a los canales de marketing
 description: Obtenga información sobre el flujo de trabajo de Canales de marketing, la configuración automática y cómo aplicar la configuración del grupo de informes de plantilla a varios grupos de informes.
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: ht
+feature: Marketing Channels
+exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
 ---
-
 
 # Introducción a los canales de marketing
 
@@ -95,4 +96,3 @@ Cómo se utiliza un grupo de informes principal como plantilla para poner a prue
    1. Seleccione el grupo de informes de plantilla y uno o más grupos de informes de destino.
    1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de marketing]** > **[!UICONTROL Reglas de procesamiento de canal de marketing]**.
    1. Haga clic en **[!UICONTROL Guardar]**. Si el botón Guardar está deshabilitado en este paso, expanda una de las reglas para habilitarlo.
-

@@ -1,9 +1,10 @@
 ---
 title: Tipos de sistemas operativos
 description: El sistema operativo independientemente de la versión.
+feature: Dimensions
 exl-id: 0afd5261-98e8-4247-865a-1b8844c53ff4
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
 

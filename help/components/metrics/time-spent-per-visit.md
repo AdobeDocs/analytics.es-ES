@@ -1,10 +1,10 @@
 ---
 title: Tiempo empleado por visita
 description: Cantidad de tiempo empleado por visita para el elemento de la dimensión.
+feature: Metrics
 exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
 

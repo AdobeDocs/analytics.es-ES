@@ -1,10 +1,10 @@
 ---
 title: Sección del sitio
 description: Nombre de la sección del sitio.
+feature: Dimensions
 exl-id: 349bace0-4596-4b4c-bf29-6cd8866c246b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 

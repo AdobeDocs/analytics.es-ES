@@ -1,12 +1,12 @@
 ---
 title: Promedio de tiempo en el sitio
 description: Cantidad promedio de tiempo que un elemento de dimensión en concreto existió entre visitas.
+feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -37,9 +37,9 @@ Por ejemplo:
 
 Si desea ver el tiempo promedio en el sitio para el elemento de dimensión `Product page A`, primero debe usar la cantidad de tiempo transcurrido entre las visitas individuales para esa dimensión:
 
-* **12:04:20 - 12:05:30** = 1 minuto y 10 segundos
-* **12:05:30 - 12:07:00** = 1 minuto y 30 segundos
-* **12:07:40 - 12:08:10** = 30 segundos
+* **12:04:20 - 12:05:30** - 1 minuto y 10 segundos
+* **12:05:30 - 12:07:00** - 1 minuto y 30 segundos
+* **12:07:40 - 12:08:10** - 30 segundos
 * **12:25:40 - ?** = No se incluye
 
 La cantidad total de tiempo empleado de `Product page A` es `00:03:10`. Esta visita tuvo dos secuencias; la primera secuencia para los dos valores consecutivos y la segunda antes del cierre de compra. La última visita individual de la visita no es una secuencia, ya que no hay una marca de hora de finalización.

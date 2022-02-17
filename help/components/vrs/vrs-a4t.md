@@ -1,13 +1,14 @@
 ---
-description: 'Consideraciones especiales al usar grupos de informes virtuales de A4T y Adobe Analytics '
+description: Consideraciones especiales al usar grupos de informes virtuales de A4T y Adobe Analytics
 title: Grupos de informes virtuales y análisis para Target (A4T)
-source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
-workflow-type: ht
+feature: VRS
+exl-id: b81e5100-f512-4219-a8ab-5d7f6219d206
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%
 
 ---
-
 
 # Grupos de informes virtuales y análisis para Target (A4T)
 
