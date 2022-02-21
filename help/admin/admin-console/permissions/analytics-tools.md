@@ -6,7 +6,7 @@ feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,6 +42,6 @@ Los elementos de permiso de las herramientas de Analytics conceden acceso a las 
 | [!UICONTROL Creación de segmentos] | Concede la capacidad de crear y compartir segmentos en todas las funciones de Analytics. |
 | [!UICONTROL Administración de Advertising Analytics] | No se usa. |
 | [!UICONTROL Publicación de segmentos] | Concede la capacidad de convertir un segmento en una audiencia de Experience Cloud al crear o editar un segmento. |
-| [!UICONTROL Integraciones (crear)] | No se usa. Data Connectors han llegado al final de su vida útil. |
+| [!UICONTROL Integraciones (crear)] | No se usa. Data Connectors ha llegado al final de su vida útil. |
 | [!UICONTROL Integraciones (actualizar)] | No se usa. |
 | [!UICONTROL Integraciones (eliminar)] | No se usa. |

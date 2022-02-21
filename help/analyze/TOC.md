@@ -7,7 +7,7 @@ user-guide-description: Proporciona instrucciones sobre procedimientos con Analy
 source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 97%
       + [Resumen de componentes](analysis-workspace/components/analysis-workspace-components.md)
       + Anotaciones {#annotations}
          + [Descripción general de anotaciones](analysis-workspace/components/annotations/overview.md)
-         + [Crear anotaciones](analysis-workspace/components/annotations/create-annotations.md)
-         + [Administrar anotaciones](analysis-workspace/components/annotations/manage-annotations.md)
-         + [Ver anotaciones](analysis-workspace/components/annotations/view-annotations.md)
+         + [Creación de anotaciones](analysis-workspace/components/annotations/create-annotations.md)
+         + [Administración de anotaciones](analysis-workspace/components/annotations/manage-annotations.md)
+         + [Visualización de anotaciones](analysis-workspace/components/annotations/view-annotations.md)
       + Dimensiones {#dimensions}
          + [Vista preliminar de dimensiones](analysis-workspace/components/dimensions/view-dimensions.md)
          + [Desglose de dimensiones](analysis-workspace/components/dimensions/t-breakdown-fa.md)
