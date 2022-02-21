@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ Nota:
 
 | Acción | Acceso directo |
 | --- | --- |
-| Crear nuevo proyecto | ctrl + mayús + p |
-| Abrir proyecto existente | ctrl + o |
+| Crear nuevo proyecto | ctrl+mayús+p |
+| Abrir proyecto existente | ctrl+o |
 | Ir al panel Paneles | Alt+Mayús+1 |
 | Ir al panel Visualizaciones | Alt+Mayús+2 |
 | Ir al panel Componentes | Alt+Mayús+3 |
@@ -39,18 +39,18 @@ Nota:
 | Acción | Acceso directo |
 | --- | --- |
 | Buscar carril izquierdo | Ctrl+/ |
-| Crear una alerta | ctrl + mayús + a |
-| Crear una anotación | ctrl + mayús + o |
-| Crear métrica calculada | ctrl + mayús + c |
-| Crear un intervalo de fechas | ctrl + mayús + d |
-| Creación de segmentos | ctrl + mayús + e |
+| Crear una alerta | ctrl+mayús+a |
+| Crear una anotación | ctrl+mayús+o |
+| Crear métrica calculada | ctrl+mayús+c |
+| Crear un intervalo de fechas | ctrl+mayús+d |
+| Creación de segmentos | ctrl+mayús+e |
 | Borrar todo | Alt+W |
-| Copiar | ctrl + c |
-| Rehacer | ctrl + mayús + z |
-| Deshacer | ctrl + z |
+| Copiar | ctrl+c |
+| Rehacer | ctrl+mayús+z |
+| Deshacer | ctrl+z |
 | Actualizar componentes | Alt+Mayús+R |
 | Actualizar proyecto | Alt+R |
-| Definir como página principal | ctrl + mayús + l |
+| Definir como página principal | ctrl+mayús+l |
 
 ## Añadir paneles y acciones de visualización
 
@@ -71,13 +71,13 @@ Nota:
 
 | Acción | Acceso directo |
 | --- | --- |
-| Guardar proyecto | ctrl + s |
-| Guardar proyecto como | ctrl + mayús + s |
+| Guardar proyecto | ctrl+s |
+| Guardar proyecto como | ctrl+mayús+s |
 | Guardar como plantilla | Alt+T |
-| Descargar como CSV | ctrl + mayús + v |
-| Descargar como PDF | ctrl + mayús + b |
-| Depurar datos de proyectos | ctrl + mayús + g |
-| Compartir proyecto | ctrl + g |
+| Descargar como CSV | ctrl+mayús+v |
+| Descargar como PDF | ctrl+mayús+b |
+| Depurar datos de proyectos | ctrl+mayús+g |
+| Compartir proyecto | ctrl+g |
 | Obtener vínculo del proyecto | Alt+L |
 | Enviar archivo ahora | Alt+S |
 | Enviar archivo según lo programado | Mayús+Alt+S |
