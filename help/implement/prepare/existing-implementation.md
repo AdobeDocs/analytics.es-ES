@@ -1,10 +1,10 @@
 ---
 title: Ocuparse de una implementación de Adobe Analytics existente
 description: Instrucciones para administradores que son nuevos en una implementación de Adobe Analytics existente.
+feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 

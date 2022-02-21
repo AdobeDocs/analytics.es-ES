@@ -1,10 +1,10 @@
 ---
 title: Revisión específica (después de cada lanzamiento de sitio web)
 description: Siga estos pasos para asegurarse de que la implementación no contenga errores y esté alineada con los KPI.
+feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
 

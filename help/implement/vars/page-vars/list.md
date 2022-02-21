@@ -1,9 +1,10 @@
 ---
 title: list
 description: Variables personalizadas que contienen varios valores en la misma visita.
+feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
 

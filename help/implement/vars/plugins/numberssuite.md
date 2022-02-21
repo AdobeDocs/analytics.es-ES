@@ -1,11 +1,12 @@
 ---
 title: Numbers Suite
 description: Produzca y manipule números para utilizarlos en otras variables de JavaScript.
+feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '644'
+ht-degree: 100%
 
 ---
 

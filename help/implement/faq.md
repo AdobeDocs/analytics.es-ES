@@ -1,9 +1,10 @@
 ---
 title: Preguntas frecuentes sobre la implementación
 description: Preguntas más frecuentes sobre implementación y vínculos a más información.
+feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 100%
 

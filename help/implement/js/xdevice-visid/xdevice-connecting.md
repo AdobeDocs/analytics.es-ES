@@ -3,11 +3,10 @@ description: La identificación de visitantes entre dispositivos ayuda a conecta
 keywords: Implementación de Analytics
 subtopic: Visitors
 title: Conectar usuarios entre dispositivos
-topic-fix: Developer and implementation
-uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
+feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 

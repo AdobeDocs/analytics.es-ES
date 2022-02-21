@@ -1,11 +1,12 @@
 ---
 title: inList
 description: Compruebe si un valor está contenido en otro valor delimitado por caracteres.
+feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
@@ -62,9 +63,9 @@ La función `inList` devuelve un valor booleano según sus entradas. Utiliza los
 * **`lv`** (obligatorio, cadena o matriz): Una lista delimitada de valores o un objeto de matriz JavaScript que buscar
 * **`vtc`** (obligatorio, cadena): El valor que se va a buscar
 * **`d`** (opcional, cadena): El delimitador utilizado para separar valores individuales en el argumento `lv`. Si no se configura de forma distinta, el valor predeterminado es una coma (`,`).
-* **`cc`** (opcional, booleano): Si se establece en  `true` o  `1`, se realiza una comprobación que distingue entre mayúsculas y minúsculas. Si se define como `false` o se omite, se realiza una comprobación que no distingue entre mayúsculas y minúsculas. El valor predeterminado es `false`.
+* **`cc`** (opcional, booleano): si se establece en`true` o `1`, se realiza una comprobación que distingue entre mayúsculas y minúsculas. Si se define como `false` o se omite, se realiza una comprobación que no distingue entre mayúsculas y minúsculas. El valor predeterminado es `false`.
 
-Llamar a esta función devuelve `true` si encuentra una coincidencia y `false` si no encuentra una coincidencia.
+La llamada a esta función hace que se devuelva `true` si encuentra una coincidencia, y `false` si no encuentra ninguna coincidencia.
 
 ## Ejemplos
 

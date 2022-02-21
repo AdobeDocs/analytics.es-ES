@@ -1,9 +1,10 @@
 ---
 title: Variables de configuración
 description: Utilice variables de configuración para determinar cómo se recopilan los datos.
+feature: Variables
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
 

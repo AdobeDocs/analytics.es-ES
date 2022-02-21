@@ -1,9 +1,10 @@
 ---
 title: events
 description: Configure la variable “events” (eventos), que gobierna la mayoría de las métricas del sitio.
+feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 100%
 

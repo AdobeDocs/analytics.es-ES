@@ -1,9 +1,10 @@
 ---
 title: Adobe Experience Cloud Debugger antiguo
 description: Instale una versión anterior de Adobe Experience Cloud Debugger. Este depurador inspecciona las etiquetas de recopilación de datos y de Analytics, Target, Advertising Cloud e Identity Service.
+feature: Validation
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 100%
 
@@ -35,7 +36,7 @@ Cada navegador tiene diferentes formas de administrar los marcadores, pero el co
 
 #### Chrome
 
-Si insiste en no utilizar la [extensión de Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es), se puede utilizar el bookmarklet una versión anterior del depurador.
+Si insiste en no utilizar la [extensión de Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html), se puede utilizar el bookmarklet una versión anterior del depurador.
 
 1. Haga clic en los tres puntos de la parte superior derecha y, a continuación, vaya a Marcadores > Administrador de marcadores. También puede pulsar `Ctrl` + `Shift` + `O` (Windows) o `Cmd` + `Shift` + `O` (Mac).
 2. En la parte superior derecha del administrador de marcadores, haga clic en los tres puntos y luego en “Agregar nuevo marcador”.

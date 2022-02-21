@@ -1,9 +1,10 @@
 ---
 title: dynamicAccountSelection
 description: La variable dynamicAccountSelection habilita o deshabilita la selección dinámica de cuentas.
+feature: Implementation Basics
 exl-id: ccb530f9-b128-4d2d-9b5d-9b305272f0a4
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: Uso de datos XDM con Analytics
 description: Información general sobre el uso de datos XDM de Experience Platform en Adobe Analytics
+feature: AEP Edge
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
-source-git-commit: 3def20b348713b580429e342ad3319963cae6549
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
 

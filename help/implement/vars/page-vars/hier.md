@@ -1,10 +1,10 @@
 ---
 title: hier
 description: Implementar variables de jerarquía en Adobe Analytics.
+feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
