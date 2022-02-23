@@ -1,11 +1,10 @@
 ---
 description: Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identidad, confidencialidad y control de datos a cada variable de un grupo de informes determinado. Asegúrese de familiarizarse primero con las etiquetas y sus definiciones.
 title: Etiquetado de datos de grupos de informes
-uuid: a694851c-8933-496e-9118-113cc38cba8a
+feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -64,7 +63,7 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
 
 1. Haga clic en **[!UICONTROL Aplicar]** una vez haya completado todo el etiquetado.
 
-## Copia de etiquetas en grupos de informes {#section_7C6FDAFF049F4126B84F6261F72668EE}
+## Copia de etiquetas en grupos de informes  {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
 Si desea aplicar la misma configuración de DULE/Privacidad de datos más de un grupo de informes, puede seguir estos pasos:
 
