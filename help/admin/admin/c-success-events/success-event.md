@@ -2,9 +2,9 @@
 description: Los eventos de éxito son acciones de las que se puede llevar un seguimiento. Usted determina lo que es un evento de éxito. Por ejemplo, si un visitante compra un artículo, el evento de compra puede considerarse un evento de éxito..
 keywords: evento
 title: Resumen de los eventos de éxito
-feature: Admin Tools
+feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 100%
