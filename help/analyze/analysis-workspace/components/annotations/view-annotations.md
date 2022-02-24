@@ -4,10 +4,10 @@ description: Cómo ver anotaciones en Espacio de trabajo.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 78%
+ht-degree: 66%
 
 ---
 
@@ -24,7 +24,7 @@ Las anotaciones se manifiestan de forma ligeramente diferente, en función de si
 | Fecha | Aspecto |
 | --- | --- |
 | **Día único** | ![](assets/single-day.png) |
-| **Intervalo de fechas** | El icono cambia y, cuando pasa el ratón por encima, aparece el intervalo de fechas.<p>![](assets/multi-day.png)<p>En una tabla, aparece un icono en cada fecha del intervalo de fechas.<p>![](assets/multi-day-table.png)<p>Tenga en cuenta lo siguiente: en los días que tengan más de una anotación vinculada a ellos, el icono será de color gris. |
+| **Intervalo de fechas** | El icono cambia y, cuando pasa el ratón por encima, aparece el intervalo de fechas.<p>![](assets/multi-day.png)<p>En una tabla, aparece un icono en cada fecha del intervalo de fechas.<p>![](assets/multi-day-table.png)<p>Tenga en cuenta lo siguiente: en los días que tengan más de una anotación vinculada a ellos, el icono aparece en color gris. |
 
 ## Visualización de anotaciones en un gráfico de resumen
 
