@@ -3,10 +3,10 @@ description: 'Los ID que envíe no siempre abarcan todos los datos coincidentes 
 title: Expansión de ID
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 100%
+source-wordcount: '1358'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Los ID que envíe no siempre abarcan todos los datos coincidentes que Analytics 
 "expandIds": true
 ```
 
-Consulte la [Ejemplos de solicitudes de JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) para ver un ejemplo de cómo incluir esta opción con la solicitud. Para obtener más información, consulte la [Documentación de la API del servicio de privacidad](https://www.adobe.io/apis/experienceplatform/gdpr.html).
+Consulte la [Ejemplos de solicitudes de JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) para ver un ejemplo de cómo incluir esta opción con la solicitud. Para obtener más información, consulte la [Documentación de la API del servicio de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en).
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -60,7 +60,7 @@ Además del valor predeterminado, el campo de prioridad también admite un valor
 
 >[!NOTE]
 >
->La [API del servicio de privacidad](https://www.adobe.io/apis/experienceplatform/gdpr.html) sirve para ayudarle a realizar las solicitudes de privacidad de datos, que suelen ser urgentes. Adobe no admite el uso de esta API para otros fines, y ello puede afectar a la capacidad de Adobe para proporcionar el retorno puntual de solicitudes de privacidad de datos iniciadas por los usuarios y de alta prioridad a otros clientes de Adobe. Le rogamos que no use la API del servicio de privacidad para otros fines, por ejemplo, para borrar datos que se hayan enviado por error a grupos de visitantes grandes.
+>La [API del servicio de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) sirve para ayudarle a realizar las solicitudes de privacidad de datos, que suelen ser urgentes. Adobe no admite el uso de esta API para otros fines, y ello puede afectar a la capacidad de Adobe para proporcionar el retorno puntual de solicitudes de privacidad de datos iniciadas por los usuarios y de alta prioridad a otros clientes de Adobe. Le rogamos que no use la API del servicio de privacidad para otros fines, por ejemplo, para borrar datos que se hayan enviado por error a grupos de visitantes grandes.
 
 También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que los detalles relativos al número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API del servicio de privacidad no es apropiada para este uso.
 

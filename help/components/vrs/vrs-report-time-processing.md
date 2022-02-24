@@ -3,10 +3,10 @@ description: El procesamiento de intervalo de tiempo es una configuración de lo
 title: Procesamiento de tiempo de los informes
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 100%
+source-wordcount: '1443'
+ht-degree: 96%
 
 ---
 
@@ -30,14 +30,14 @@ El [!UICONTROL Procesamiento de intervalo de tiempo] es un modo fundamentalmente
 
 Esta arquitectura de procesamiento ofrece opciones de realización de informes mucho más flexibles. Por ejemplo, puede cambiar el tiempo de espera de visita a cualquier periodo que desee de forma no destructiva, cambios que se reflejan retroactivamente en la persistencia de eVars y los contenedores de segmentos, como si estos ajustes se hubieran aplicado antes de la recopilación de los datos. Además, puede crear cualquier número de grupos de informes virtuales, cada uno con distintas opciones de Procesamiento de intervalo de tiempo y basados en el mismo grupo de informes base, sin alterar ninguno de los datos del grupo de informes base.
 
-El [!UICONTROL Procesamiento de intervalo de tiempo] también permite a Analytics impedir que las visitas en segundo plano comiencen nuevas visitas y permite al [SDK para móviles](https://www.adobe.io/apis/cloudplatform/mobile.html) indicar a la creación de informes que inicie una nueva visita cada vez que se active un evento de inicio de aplicación.
+[!UICONTROL Procesamiento de intervalo de tiempo] también permite a Analytics impedir que las visitas en segundo plano inicien nuevas visitas y permite que la variable [SDK de Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html) para indicar a los informes que inicien una nueva visita cada vez que se active un evento de inicio de aplicación.
 
 ## Opciones de configuración
 
 Los grupos de informes virtuales con Procesamiento de intervalo de tiempo habilitado disponen en este momento de las siguientes opciones de configuración:
 
 * **[!UICONTROL Tiempo de espera de visita]:** el tiempo de espera de visita es la cantidad de inactividad que un visitante único debe presentar antes de que se inicie automáticamente una nueva visita. El valor predeterminado es de 30 minutos. Por ejemplo, si establece el tiempo de espera de visita en 15 minutos, se crea un nuevo grupo de visitas por cada secuencia de visitas obtenida separada de la anterior por al menos 15 minutos de inactividad. Estos ajustes afectan no solo al recuento de visitas, sino también al modo de evaluar los contenedores de segmentos de visita y a la lógica de caducidad de visitas para cualquier eVar que caduque durante una visita. Reducir el tiempo de espera de visita probablemente aumente el número total de visitas en los informes, y viceversa.
-* **[!UICONTROL Configuración de visitas de aplicación móvil]:** para los grupos de informes que contienen datos generados por aplicaciones móviles mediante los [SDK para móviles de Adobe](https://www.adobe.io/apis/cloudplatform/mobile.html) existen ajustes de visita adicionales. Dichos ajustes no son destructivos y afectan únicamente a las visitas recopiladas mediante los SDK para móviles. Estos ajustes no tienen efecto en los datos recopilados fuera del SDK para móviles.
+* **[!UICONTROL Configuración de visitas de aplicación móvil]:** para los grupos de informes que contienen datos generados por aplicaciones móviles mediante los [SDK para móviles de Adobe](https://experienceleague.adobe.com/docs/mobile.html) existen ajustes de visita adicionales. Dichos ajustes no son destructivos y afectan únicamente a las visitas recopiladas mediante los SDK para móviles. Estos ajustes no tienen efecto en los datos recopilados fuera del SDK para móviles.
 * **[!UICONTROL Impedir que las visitas en segundo plano inicien una nueva visita]:** los SDK para móviles recopilan las visitas en segundo plano cuando la aplicación está en segundo plano.
 * **[!UICONTROL Iniciar una nueva visita cada vez que se inicie la aplicación]:** además del tiempo de espera de visita, es posible forzar el comienzo de una visita cada vez que se registra un evento de inicio de aplicación procedente de los SDK para móviles, independientemente del tiempo de inactividad. Esta configuración afecta a la métrica de visitas y al contenedor de segmentos de visita, así como a la lógica de caducidad de visitas de las eVars.
 * **[!UICONTROL Iniciar una nueva visita con el evento]:** una nueva sesión se inicia cuando se activa un evento, independientemente de si se ha superado o no el tiempo de espera de la sesión. La sesión recién creada incluye el evento que la ha iniciado. Además, es posible utilizar varios eventos para iniciar una sesión, y se activa una nueva si se observa cualquiera de esos eventos en los datos. Este ajuste afecta al recuento de visitas, al contenedor de segmentación de visitas y a la lógica de caducidad de las visitas en eVars.

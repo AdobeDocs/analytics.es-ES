@@ -3,10 +3,10 @@ description: A cada ID al que desee permitir búsquedas se le asigna un área de
 title: Espacios de nombres
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 100%
+source-wordcount: '892'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ La cadena del área de nombres se emplea para identificar los campos en los que 
 * Un campo “type” que, en la mayoría de las solicitudes de Adobe Analytics, contiene el valor “analytics”.
 * Un campo “value” que contiene el ID que Analytics debería buscar en las variables de área de nombres asociadas de cada uno de sus grupos de informes.
 
-Consulte la [documentación de la API de privacidad de datos de Experience Cloud](https://docs.adobe.com/content/help/es-ES/experience-platform/privacy/home.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) para obtener más información.
+Consulte la [documentación de la API de privacidad de datos de Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) para obtener más información.
 
 ## ID de cookie
 
@@ -74,7 +74,7 @@ También se puede utilizar `"namespaceId": 4` en lugar de o además de `"namespa
 
 Si el formato de la porción de valor de cualquiera de estos ID de cookie no cumple con el formato descrito para el ID, la solicitud amparada en la privacidad de datos falla y genera el error “El valor no tiene el formato correcto”.
 
-Lo habitual es que recopile estos ID de cookie mediante el nuevo código de [JavaScript de privacidad](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm) (vínculo a la documentación técnica), que proporcionará automáticamente todos los pares clave/valor para estos ID de JSON.
+Lo habitual es que recopile estos ID de cookie mediante el nuevo código de [JavaScript de privacidad](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) (vínculo a la documentación técnica), que proporcionará automáticamente todos los pares clave/valor para estos ID de JSON.
 
 Este código de JavaScript rellena el JSON con otros pares clave/valor además de los indicados arriba (área de nombres, tipo, valor), pero los campos que verá arriba son los más importantes para el tratamiento de la privacidad de datos de Analytics y los únicos que tendrá que proporcionar si recopila los ID con cualquier otro método.
 

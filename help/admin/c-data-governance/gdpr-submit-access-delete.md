@@ -3,10 +3,10 @@ description: Cómo enviar solicitudes de acceso y eliminación de datos en Adobe
 title: Envío de solicitudes de acceso y eliminación
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 100%
+source-wordcount: '1301'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Cada archivo combina los datos de todos sus grupos de informes y se eliminan aut
 
 ## Envío de solicitudes {#submit-requests}
 
-Puede enviar y eliminar solicitudes de acceso a la privacidad de datos a través de nuestro [portal de interfaz de usuario de privacidad de datos](https://docs.adobe.com/content/help/es-ES/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) o a través de nuestra [API de privacidad de datos.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
+Puede enviar solicitudes de acceso y eliminación de privacidad de datos a través de nuestra [IU de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) o a través de nuestra [API de Privacy Service.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)
 
 >[!NOTE]
 >
