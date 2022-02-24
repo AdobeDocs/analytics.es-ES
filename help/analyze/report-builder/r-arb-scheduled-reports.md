@@ -4,10 +4,10 @@ title: Administrador de tareas programadas
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 68a8eb3452d3f86bb59140ab5842667094198dee
+source-git-commit: 91d94ba33328f0ac5fba09cdafb26f58733b4d58
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 51%
+source-wordcount: '655'
+ht-degree: 47%
 
 ---
 
@@ -35,7 +35,7 @@ El propósito de esta pausa es administrar y mantener de forma eficaz nuestra ba
 | [!UICONTROL Opciones de publicación] | Esta columna indicará la Power BI si una de las [Power BI de opciones de publicación](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/publish-powerbi/power-bi.html) está seleccionado. |
 | [!UICONTROL Programación] | Tipo de envío programado. |
 | [!UICONTROL Formato del archivo] | Formato de envío del informe como, por ejemplo, Excel, PDF, HTML, etc. |
-| [!UICONTROL Reactivar] | Cuando un libro programado no puede ejecutarse, Report Builder intenta ejecutar el libro dos veces más cada quince minutos. Tras tres intentos fallidos, Report Builder desactiva la programación y muestra el botón Reactivar. Cuando se reactiva un libro, el envío programado se reinicia desde el momento en que se desactivó.  Por ejemplo, si un libro programado se desactivó hace 14 días y se ha reactivado hoy, se ejecuta por cada día que falte y se enviará 14 veces. Si no desea que el libro se envíe los días que faltan, puede eliminar el libro programado y posteriormente crear un nuevo libro utilizando los mismos parámetros de programación.   Nota: No se debe reactivar un libro a no ser que se conozcan los motivos por el que el sistema lo desactivó. Una solución al problema consiste en descargar un libro desactivado y actualizarlo en el cliente. Si no aparecen errores, debería poder reactivarlo. |
+| [!UICONTROL Reactivar] | Cuando un libro programado no puede ejecutarse, Report Builder intenta ejecutar el libro dos veces más cada quince minutos. Tras tres intentos fallidos, Report Builder desactiva la programación y muestra el botón Reactivar. Cuando se reactiva un libro, el envío programado se reinicia desde el momento en que se desactivó.<p>Por ejemplo, si un libro programado se desactivó hace 14 días y se ha reactivado hoy, se ejecuta por cada día que falte y se enviará 14 veces. Si no desea que el libro se envíe los días que faltan, puede eliminar el libro programado y posteriormente crear un nuevo libro utilizando los mismos parámetros de programación.<p>**Nota:** No reactive un libro a menos que conozca el motivo por el que el sistema lo desactivó. Para solucionar problemas, descargue un libro desactivado y actualícelo en el lado del cliente. Si no aparecen errores, debería poder reactivarlo. |
 | [!UICONTROL Enviado por última vez] | La fecha y la hora en que se envió el informe por última vez. |
 | Ficha **Destinatario** |  |
 | [!UICONTROL Correo electrónico del destinatario] | Destinatario de correo electrónico del informe. |
