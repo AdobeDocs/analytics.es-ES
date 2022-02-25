@@ -4,10 +4,10 @@ description: Cómo ver anotaciones en Espacio de trabajo.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
+source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 66%
+source-wordcount: '228'
+ht-degree: 50%
 
 ---
 
@@ -23,8 +23,9 @@ Las anotaciones se manifiestan de forma ligeramente diferente, en función de si
 
 | Fecha | Aspecto |
 | --- | --- |
-| **Día único** | ![](assets/single-day.png) |
-| **Intervalo de fechas** | El icono cambia y, cuando pasa el ratón por encima, aparece el intervalo de fechas.<p>![](assets/multi-day.png)<p>En una tabla, aparece un icono en cada fecha del intervalo de fechas.<p>![](assets/multi-day-table.png)<p>Tenga en cuenta lo siguiente: en los días que tengan más de una anotación vinculada a ellos, el icono aparece en color gris. |
+| **Día único** | ![](assets/single-day.png)<p>Cuando pasa el ratón por encima de la anotación, puede ver sus detalles, puede editarla seleccionando el icono de la pluma o puede eliminarla:<p> ![](assets/hover.png) |
+| **Intervalo de fechas** | El icono cambia y, cuando pasa el ratón por encima, aparece el intervalo de fechas.<p>![](assets/multi-day.png)<p>Cuando lo selecciona en el gráfico de líneas, aparecen los metadatos de la anotación y puede editarlos o eliminarlos:![](assets/multi-hover.png)<p>En una tabla, aparece un icono en cada fecha del intervalo de fechas.<p>![](assets/multi-day-table.png) |
+| **Anotaciones superpuestas** | En los días que tengan más de una anotación vinculada a ellos, el icono aparece en color gris.<p>![](assets/grey.png)<p>Cuando pasa el ratón por encima del icono gris, aparecen todas las anotaciones superpuestas:<p>![](assets/overlap.png) |
 
 ## Visualización de anotaciones en un gráfico de resumen
 
