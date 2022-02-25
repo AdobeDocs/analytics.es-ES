@@ -3,14 +3,19 @@ title: Panel de audiencia media por minuto de medio
 description: Cómo usar e interpretar el panel Audiencia media por minuto de medios en Analysis Workspace.
 feature: Panels
 role: User, Admin
-source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
+exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
+source-git-commit: 86f546da8a5eaded5abb4ee2ce8d4a536818574a
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 10%
+source-wordcount: '1320'
+ht-degree: 11%
 
 ---
 
 # Panel de audiencia media por minuto de medio
+
+>[!NOTE]
+>
+>Actualmente, esta función está en prueba limitada.
 
 Los clientes de Media Analytics pueden usar el panel de audiencia de minuto promedio para comprender mejor el consumo promedio de su contenido. La audiencia media por minuto permite comparar la programación de cualquier género o duración. Además, los clientes pueden comparar o anexar esta audiencia de minuto promedio digital a métricas de minuto promedio de televisión lineal. Este panel proporciona más flexibilidad para medir la audiencia promedio para periodos de tiempo personalizados, así como cuando la clasificación de duración se ha actualizado después del hecho. La métrica de audiencia media por minuto actual solo funciona si la duración está disponible en el tiempo de procesamiento.
 
