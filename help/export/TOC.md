@@ -3,10 +3,10 @@ product: analytics
 audience: end-user
 user-guide-title: Guía de exportación de Analytics
 breadcrumb-title: Guía de exportación
-user-guide-description: Utilice las fuentes de datos para recibir una exportación diaria o por hora de datos sin procesar. Utilice Data Warehouse para recuperar un extracto de datos en una hoja de cálculo.
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+user-guide-description: Utilice las fuentes de datos para recibir una exportación diaria o por hora de datos sin procesar. Utilice Data Warehouse para recuperar un extracto de datos en una hoja de cálculo. Aprenda a usar los protocolos FTP y SFTP para transferir archivos entre equipos y servidores.
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '303'
 ht-degree: 96%
 
 ---
