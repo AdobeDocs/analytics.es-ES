@@ -1,5 +1,5 @@
 ---
-title: Notas de la versión de Adobe Analytics de 2019 (y anteriores)
+title: Notas de la versión de Adobe Analytics (y anteriores) de 2019
 description: Notas de la versión de Adobe Analytics de 2019
 solution: Analytics
 feature: Release Notes

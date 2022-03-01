@@ -26,7 +26,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | **Octubre de 2021** |  |
 | 21 de octubre de 2021 | Nueva documentación sobre [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=es) en Analysis Workspace |
 | 21 de octubre de 2021 | Nueva documentación sobre [Tiempo invertido en la reproducción de medios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=es) en Analysis Workspace. |
-| 7 de octubre de 2021 | Nueva documentación sobre [visualizaciones para cuadros de resultados móviles](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es#apply-visualizations) |
+| 7 de octubre de 2021 | Nueva documentación sobre [visualizaciones para cuadros de resultados móviles](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es#viz) |
 | **Agosto de 2021** |  |
 | 18 de agosto de 2021 | Se ha revisado la estructura de nivel superior y se ha consolidado en una sola [página de aterrizaje](https://experienceleague.adobe.com/docs/analytics.html?lang=es) |
 | 18 de agosto de 2021 | Nuevo tema en [A4T y grupos de informes virtuales](/help/components/vrs/vrs-a4t.md) |

@@ -1,18 +1,18 @@
 ---
-description: Explica la estrategia de lanzamiento continuo de funciones para Adobe Analytics
+description: Explica la estrategia de lanzamiento continuo de funcionalidades para Adobe Analytics
 title: Versiones de funcionalidades de Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Versiones de funcionalidades de Adobe Analytics
 
-Las versiones de Adobe Analytics funcionan con un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades.
+Las versiones de Adobe Analytics funcionan con un modelo de entrega continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades.
 
 ## Estrategia de lanzamiento
 
@@ -30,7 +30,7 @@ Con cada versión de la funcionalidad, los plazos desde la fase de producción h
 
 Los indicadores de características se utilizan para controlar la visibilidad de las nuevas funciones durante el lanzamiento. Adobe recomienda añadir `app.launchdarkly.com` a la [lista de permitidos](/help/technotes/ip-addresses.md) del cortafuegos para disfrutar de una experiencia óptima durante el lanzamiento. Poco después de que se llegue a GA, se elimina el indicador.
 
-Puede realizar la vista de los indicadores de funciones activas en cualquier momento en **Ayuda > Acerca de Workspace > Indicadores** de funciones activas.
+Puede realizar la vista de los indicadores de funciones activas en cualquier momento en **Ayuda > Acerca de Espacio de trabajo > Indicadores de funciones activas**.
 
 ## Beneficios
 
