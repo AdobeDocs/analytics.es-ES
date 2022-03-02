@@ -4,10 +4,10 @@ title: Segmentos
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 5e9894e3b7ea3e6c36e45b3683c08a1c767df8f0
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '534'
+ht-degree: 92%
 
 ---
 
@@ -19,9 +19,9 @@ Puede crear distintos tipos de segmentos en Workspace, en función de su complej
 | Tipo de segmento | ¿Creado dónde? | ¿Dónde se aplica? | Uso |
 | --- | --- | --- | --- |
 | Segmento de lista de componentes | Haga clic en +, que le lleva al [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) | Todos los proyectos de Workspace | Para segmentos más complejos, segmentos secuenciales |
-| Segmento rápido | [Generador de segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Solo proyecto, pero puede guardar y añadir a la lista de segmentos. | Flexibilidad para añadir o editar una o más reglas |
+| Segmento rápido | [Generador de segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | [Solo proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F), pero puede guardar y agregar a su lista de segmentos. | Flexibilidad para añadir o editar una o más reglas |
 | Segmentos ad hoc: |  |  |  |
-| - Segmento de proyecto de Workspace ad hoc | [Arrastrar y soltar en la zona de colocación de segmentos de un proyecto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Solo proyecto, pero puede guardar y añadir a la lista de segmentos. | Para segmentos de una sola regla |
+| - Segmento de proyecto de Workspace ad hoc | [Arrastrar y soltar en la zona de colocación de segmentos de un proyecto](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | [Solo proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F), pero puede guardar y agregar a su lista de segmentos. | Para segmentos de una sola regla |
 | - Segmento basado en métricas calculadas | [Generador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=es) | Para métricas calculadas individuales | Aplicación de segmentos dentro de su definición de métrica |
 | - Segmento basado en VRS | [Generador de grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=es) | A un grupo de informes virtuales individual | Aplicación de segmentos dentro de su definición de VRS |
 
