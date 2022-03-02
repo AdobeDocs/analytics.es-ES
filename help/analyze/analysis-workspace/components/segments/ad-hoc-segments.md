@@ -4,31 +4,29 @@ title: Segmentos ad hoc
 feature: Segmentation
 role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: f50e3d9a1d3c1705c55a14af0e42a0da3ac00955
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '323'
+ht-degree: 55%
 
 ---
 
 # Segmentos de proyecto ad hoc
 
+Los segmentos de proyecto específicos le permiten arrastrar y soltar cualquier componente directamente en la zona de colocación del panel para crear un segmento. El segmento se convierte en un [segmento de nivel de proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F) local al proyecto actual.
+
 Aquí tiene un vídeo sobre la creación de segmentos de proyecto ad hoc:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-Puede crear segmentos de proyecto ad hoc si desea explorar rápidamente cómo un segmento podría afectar a su proyecto, sin ir al Generador de segmentos. Piense en estos segmentos como segmentos temporales del nivel de proyecto. Normalmente no formarán parte de la “biblioteca” de segmentos como los segmentos de componentes en el carril izquierdo. Sin embargo, puede guardarlos, como se muestra a continuación.
-
-Para ver una comparación de lo que pueden hacer los segmentos ad hoc frente a los segmentos de nivel de componente completos, consulte [aquí](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
-
-1. Suelte cualquier tipo de componente (dimensión, elemento de dimensión, evento, métrica, segmento, plantilla de segmento, intervalo de fechas) en la zona de colocación de segmentos en la parte superior de un panel. Los tipos de componente se convierten automáticamente en segmentos.
+1. Suelte cualquier tipo de componente (dimensión, elemento de dimensión, evento, métrica, segmento, plantilla de segmento, intervalo de fechas) en la zona de colocación de segmentos en la parte superior de un panel. Los tipos de componente se convierten automáticamente en segmentos ad-hoc o [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) si es compatible.
 Este es un ejemplo de cómo crear un segmento para el dominio de referencia de Twitter:
 
    ![](assets/ad-hoc1.png)
 
    El panel aplica automáticamente este segmento y puede ver los resultados al instante.
 
-1. Puede añadir un número ilimitado de componentes a un panel.
+1. Puede agregar un número ilimitado de segmentos a un panel.
 1. Si decide guardar este segmento, consulte la sección siguiente.
 
 Recuerde:
@@ -37,19 +35,15 @@ Recuerde:
 * Para las dimensiones y eventos completos, Analysis Workspace crea segmentos de visita del tipo “existe”. Ejemplos: `Hit where eVar1 exists` o `Hit where event1 exists`.
 * Si se suelta “sin especificar” o “ninguno” en la zona de colocación de segmentos, se convierten automáticamente en un segmento “no existe”, de modo que se los trate adecuadamente en la segmentación.
 
->[!NOTE]
->
->Los segmentos creados de esta forma son internos del proyecto.
+Para ver una comparación de los distintos segmentos que puede crear y aplicar en un proyecto, vaya a [here](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
-## Guardado de segmentos de proyecto ad hoc {#ad-hoc-save}
+## Guardar segmentos ad hoc {#ad-hoc-save}
 
-Puede guardar estos segmentos siguiendo estos pasos:
+Los segmentos específicos se pueden poner a disposición de otros proyectos si se guardan.
 
 1. Sitúese sobre el segmento de la zona de colocación y haga clic en el icono “i”.
-1. En el panel de información que aparece, haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en el lápiz de edición para ir al Generador de segmentos.
+1. Marque **[!UICONTROL Poner a disposición de todos los proyectos y añadirlos a la lista de componentes]**.
+1. Haga clic en **[!UICONTROL GUARDAR]**.
 
-   ![](assets/segment-info.png)
-
-## ¿Qué son segmentos solo de proyecto?
-
-Los segmentos solo de proyecto son segmentos rápidos o segmentos de proyecto ad hoc de Workspace. Al editarlos o abrirlos en el generador de segmentos, se mostrará el cuadro de solo proyecto. Si APLICAN un segmento rápido en el generador y no marcan la casilla de disponibilidad, sigue siendo un segmento solo de proyecto, pero ya no se puede abrir en el generador de segmentos rápidos. Si marcan la casilla y lo GUARDAN ahora es un segmento de lista de componentes.
+Una vez guardado, el segmento está disponible en la lista de componentes del carril izquierdo y se puede compartir con otros usuarios desde el Administrador de segmentos.
