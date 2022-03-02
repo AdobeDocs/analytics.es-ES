@@ -3,17 +3,14 @@ title: Implementación con etiquetas en Adobe Experience Platform
 description: Obtenga información sobre cómo implementar Adobe Analytics mediante etiquetas
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '308'
 ht-degree: 100%
 
 ---
 
 # Implementación con etiquetas en Adobe Experience Platform
-
->[!NOTE]
->Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el siguiente [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=es) para obtener una referencia consolidada de los cambios terminológicos.
 
 Durante toda la vida útil de Adobe Analytics, Adobe ha ofrecido varios métodos diferentes para implementar código en su sitio para la recopilación de datos. El método que recomienda actualmente Adobe es a través de etiquetas en Adobe Experience Platform.
 

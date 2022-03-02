@@ -3,10 +3,10 @@ description: Cree un contenedor básico para la recopilación de datos en Adobe 
 title: Crear un grupo de informes
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 66%
+source-wordcount: '318'
+ht-degree: 59%
 
 ---
 
@@ -24,13 +24,13 @@ Este artículo está diseñado para administradores de nivel de sistema o admini
 
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
 1. Haga clic en **[!UICONTROL Crear nuevo]** > **[!UICONTROL Grupo de informes]**.
-1. Para copiar la configuración de un grupo de informes, seleccione en la lista de plantillas un plantilla predefinida o un grupo de informes existente para usar como [plantilla.](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+1. Seleccione una plantilla predefinida o un grupo de informes existente para usar como [plantilla](../c-report-suite-templates/report-suite-templates.md).
 
    >[!NOTE]
    >
    >Solo puede copiarse la configuración, no los datos. Si el Servicio de atención al cliente va a sobrescribir la configuración, deberá confirmar por escrito el descargo de responsabilidad con el que el Servicio de atención al cliente le informa de los riesgos. Consulte [Configuración que no se copia desde un grupo de informes de origen](/help/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md) para obtener más información.
 
-1. Complete los campos descritos en [Nuevo grupo de informes.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+1. Complete los campos descritos en [Nuevo grupo de informes.](../c-new-report-suite/new-report-suite.md)
 1. Haga clic en **[!UICONTROL Crear grupo de informes]**.
 
 Una ID de grupo de informes tiene una longitud máxima de 40 bytes. Un nombre descriptivo del grupo de informes tiene una longitud máxima de 255 bytes.
@@ -41,10 +41,6 @@ Una ID de grupo de informes tiene una longitud máxima de 40 bytes. Un nombre de
 
 Esto significa que no se han concedido a su cuenta los permisos correctos para Analytics. Colabore con un administrador de nivel de sistema de su organización para asegurarse de que cuenta con un perfil con los permisos adecuados para acceder a Adobe Analytics.
 
-**Después de iniciar sesión en Adobe Analytics, falta la ventana emergente de &#39;Bienvenido a Adobe Analytics&#39; y la lista desplegable.**
-
-Asegúrese de haber iniciado sesión a través de la [Experience Cloud](https://experience.adobe.com)y no a través de my.omniture.com. Los usuarios que inician sesión a través de my.omniture.com no tienen disponible el asistente para la configuración de grupos de informes.
-
 ## Pasos siguientes
 
-[Crear una propiedad de etiqueta de Adobe Analytics ](/help/implement/launch/create-analytics-property.md): Crear un área para administrar la implementación de Analytics
+[Crear una propiedad de etiqueta de Adobe Analytics](/help/implement/launch/create-analytics-property.md): Cree un área para administrar la implementación de Analytics.

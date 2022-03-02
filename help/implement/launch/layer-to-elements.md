@@ -3,9 +3,9 @@ title: Asignación de objetos de capa de datos a elementos de datos
 description: Configure las etiquetas para que se lean desde la capa de datos.
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '305'
 ht-degree: 100%
 
 ---
@@ -13,9 +13,6 @@ ht-degree: 100%
 # Asignación de objetos de capa de datos a elementos de datos
 
 Una vez que la organización haya establecido e implementado una capa de datos en el sitio, puede asignar objetos de capa de datos a elementos de datos dentro de las etiquetas.
-
->[!NOTE]
->Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el siguiente [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=es) para obtener una referencia consolidada de los cambios terminológicos.
 
 ## Requisitos previos
 

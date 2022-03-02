@@ -3,19 +3,16 @@ title: Creación de una propiedad de Analytics en etiquetas
 description: Cree un espacio para personalizar cómo se recopilan los datos mediante etiquetas.
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 0763f2624d46eb282b7b4c94f7d103d8e9ad8095
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 98%
+source-wordcount: '513'
+ht-degree: 90%
 
 ---
 
 # Creación de una propiedad de etiquetas de Adobe Analytics
 
 Las etiquetas en Adobe Experience Platform le permiten integrar soluciones de Experience Cloud en su sitio web (incluido Analytics). Esta página describe específicamente cómo un administrador de etiquetas puede obtener una implementación básica de Adobe Analytics correctamente configurada.
-
->[!NOTE]
->Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el siguiente [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=es) para obtener una referencia consolidada de los cambios terminológicos.
 
 ## Requisitos previos
 
@@ -34,25 +31,27 @@ Las propiedades son contenedores generales que se utilizan para administrar etiq
 1. Todas las opciones de configuración, incluido el ID de organización de Experience Cloud deberían estar completos. Haga clic en **[!UICONTROL Guardar]**.
 1. Vuelva al catálogo de extensiones, busque Adobe Analytics y haga clic en **[!UICONTROL Instalar]**.
 
+Consulte la documentación completa para [Extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=es) para obtener información más detallada.
+
 ## Creación de elementos de datos para Adobe Analytics
 
 Los elementos de datos son referencias a partes específicas del sitio para recopilar valores de variables.
 
 1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas que desee implementar en el sitio.
-1. Haga clic en la pestaña **[!UICONTROL Elementos de datos]** y, a continuación, haga clic en **[!UICONTROL Crear nuevo elemento de datos]**.
+1. Haga clic en la pestaña **[!UICONTROL Elementos de datos]** y, a continuación, haga clic en **[!UICONTROL Agregar elemento de datos]**.
 1. Asigne al elemento de datos la siguiente configuración:
 
    * Nombre: Nombre de la página
    * Extensión: Core
    * Tipo de elemento de datos: Variable JavaScript
-   * Ruta a la variable: `window.document.title`
+   * Nombre de la variable JavaScript: `window.document.title`
 
       >[!NOTE]
       >
-      >Este es un valor de ejemplo para ayudarle a empezar. Si su organización define un valor más adecuado para el nombre de la página, como un valor de capa de datos, puede utilizarlo aquí.
+      >Este valor sirve como ejemplo para ayudarle a empezar. Si su organización define un valor más adecuado para el nombre de la página, como un valor de capa de datos, puede utilizarlo aquí.
    * Se ha seleccionado la opción Borrar texto
-   * Duración: Vista de página
+   * Duración del almacenamiento: Ninguna
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Creación de reglas para Adobe Analytics
@@ -61,12 +60,11 @@ Las reglas asignan elementos de datos a valores de variables de Analytics y dete
 
 1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas que desee implementar en el sitio.
-1. Haga clic en **[!UICONTROL Crear nueva regla]** y asígnele el nombre `Global Rule`.
+1. Haga clic en el **[!UICONTROL Reglas]** a continuación, haga clic en **[!UICONTROL Agregar regla]**. Asigne un nombre `Global Rule`.
 1. Haga clic en **[!UICONTROL Agregar]** junto a los eventos e introduzca la siguiente configuración:
    * Extensión: Core
    * Tipo de evento: Biblioteca cargada (Principio de página)
    * Nombre: Core - Biblioteca cargada (Principio de página)
-   * Pedido: 50
 1. Haga clic en **[!UICONTROL Mantener cambios]**.
 1. En **[!UICONTROL Acciones]**, haga clic en **[!UICONTROL Agregar]** e introduzca la siguiente configuración:
    * Extensión: Adobe Analytics
@@ -81,12 +79,6 @@ Las reglas asignan elementos de datos a valores de variables de Analytics y dete
    * Seguimiento: s.t()
 1. Haga clic en **[!UICONTROL Mantener cambios]**.
 1. Compruebe que tiene el evento y dos acciones definidas, y, a continuación, haga clic en **[!UICONTROL Guardar]**.
-
-## Documentación y recursos adicionales
-
-* [Documentación de la extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=es): Documentación completa específica de la extensión de Adobe Analytics en etiquetas.
-* [Introducción a etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=es): Documentación completa para etiquetas, incluida una guía de introducción más detallada
-* [Canal de Adobe Experience Platform Launch](https://experienceleague.adobe.com/?tag=Launch&amp;lang=es#recommended/solutions/experience-platform): Aprenda a utilizar etiquetas a través de vídeos
 
 ## Pasos siguientes
 

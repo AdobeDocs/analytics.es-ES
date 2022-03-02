@@ -3,19 +3,17 @@ title: Asignación de elementos de datos de etiquetas a variables de Analytics
 description: Asigne elementos de datos a variables de Analytics para que pueda utilizarlos como dimensiones en Analysis Workspace.
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
 
+
 # Asignación de elementos de datos de etiquetas a variables de Analytics
 
 Una vez que tenga un repositorio de elementos de datos de etiquetas, puede asignarlos a dimensiones de Analytics.
-
->[!NOTE]
->Adobe Experience Platform Launch se ha convertido en un conjunto de tecnologías de recopilación de datos en Experience Platform. Como resultado, se han implementado varios cambios terminológicos en la documentación del producto. Consulte el siguiente [documento](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=es) para obtener una referencia consolidada de los cambios terminológicos.
 
 ## Requisitos previos
 
