@@ -1,9 +1,11 @@
 ---
 description: El procesamiento de intervalo de tiempo es una configuración de los grupos de informes virtuales que permite procesar los datos de una forma retroactiva y no destructiva.
 title: Procesamiento de tiempo de los informes
+role: Admin
+solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+source-git-commit: a2d3336ec89823a764ce073526836b6af70f0b76
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 96%
