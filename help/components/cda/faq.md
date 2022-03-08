@@ -2,9 +2,9 @@
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
+source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1941'
 ht-degree: 100%
 
 ---
@@ -122,7 +122,7 @@ Si un cliente abandona Ultimate, ya no tendrá acceso a los datos enlazados. Se 
 
 ## ¿Por qué el número total de visitas es diferente entre mi grupo de informes de origen y el grupo de informes virtuales CDA?
 
-CDA utiliza una compleja canalización de procesamiento paralela, con varios componentes dependientes. Se espera una discordancia de datos de aproximadamente el 1 % para el número total de visitas entre el grupo de informes original y el grupo de informes virtuales CDA. Tiene un impacto mínimo en las capacidades entre dispositivos.
+CDA utiliza una compleja canalización de procesamiento paralela, con varios componentes dependientes. Se espera una discordancia de datos de aproximadamente el 1 % para el número total de visitas entre el grupo de informes original y el grupo de informes virtuales CDA.
 
 ## ¿Por qué está inflada la métrica Personas identificadas?
 
