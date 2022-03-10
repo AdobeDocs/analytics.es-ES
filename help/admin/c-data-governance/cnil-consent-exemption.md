@@ -3,10 +3,10 @@ description: Conozca las directrices y recomendaciones acerca del consentimiento
 title: Directrices de CNIL sobre el consentimiento del usuario para almacenar cookies
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 99bbc9d6cc4d50c39b7f689a9bd84ee95a008691
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 100%
+source-wordcount: '754'
+ht-degree: 92%
 
 ---
 
@@ -31,6 +31,7 @@ Las Directrices establecen una exención limitada del requisito de consentimient
 
 Se aplican las siguientes consideraciones adicionales:
 
+* Adobe Analytics opera centros de procesamiento de datos en Estados Unidos, Reino Unido y Singapur con el fin de proporcionar flexibilidad a todos los clientes para recopilar, procesar y almacenar sus datos a nivel regional. Al configurar la configuración inicial de Adobe Analytics, los clientes seleccionan la ubicación del centro de procesamiento de datos que deseen. En última instancia, los datos de los clientes se almacenan dentro de su región seleccionada para el producto principal de Analytics.
 * Considere la posibilidad de recopilar el estado de inclusión en una variable de Analytics para separar los datos de inclusión de los datos de exclusión para la segmentación, para los grupos de informes virtuales o para dirigirlos a puntos finales independientes.
 * No se efectúa ninguna medición fuera del sitio o de la aplicación sin consentimiento previo, por ejemplo, campañas externas, campañas por correo electrónico o iFrames.
 * La colección de información personal en variables no está permitida sin consentimiento. [Actividades de control de Experience Cloud basadas en el consentimiento del usuario](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=es&quot;\l&quot;implementation#implementation)
