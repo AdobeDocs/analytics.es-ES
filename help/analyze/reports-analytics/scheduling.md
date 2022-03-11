@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+source-git-commit: 000d9aedbe8d3ac109be472d9e29f7798f86baa7
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 97%
+source-wordcount: '1717'
+ht-degree: 89%
 
 ---
 
@@ -30,16 +30,16 @@ Debido a las diferencias en los mecanismos y las plataformas de procesamiento, l
 
 Estas limitaciones son para los informes individuales programados y descargados; los tableros se limitan a la cantidad de espacio disponible en un informe breve.
 
->[!NOTE]
->
->La “Hora de envío”/“Hora del día” introducida por el usuario especifica la hora en que el informe debe comenzar a procesarse, no la hora en que se enviará. El tiempo real en que el informe se enviará se basa principalmente en el tiempo que tarda en procesar (los informes complejos y grandes tardan más en procesarse que los más simples). Por ejemplo: si un informe tarda 15 minutos en procesarse, el tiempo de entrega real será al menos 15 minutos después del “Tiempo de entrega” /“Hora del día” especificado originalmente.
->Además, hay otros factores que pueden aumentar aún más la demora antes de que se presente el informe:
->
-> * **Ejecución de varias programaciones diferentes del mismo tipo al mismo tiempo** (por ejemplo, muchos paneles, etc.) puede sobrecargar el sistema. El sistema de programación solo permite ejecutar al mismo tiempo unos pocos informes (5-10) de cualquier tipo, por lo que cuando se programen más de 5-10 al mismo tiempo, algunos tendrán que esperar a que otros informes finalicen antes de que puedan comenzar a procesarse. Este problema se puede mitigar programando los informes de una empresa en horas escalonadas durante el día o la hora, en lugar de hacerlo simultáneamente.
-> * Además del tipo de informe específico (paneles, etc.), los informes también esperarán si la empresa tiene **más de 15 y 20 informes de cualquier tipo programados a la vez (en todos los diferentes tipos de informes)**. Esto se puede mitigar escalonando los tiempos de programación en lugar de tener varios ejecutándose al mismo tiempo.
-> * **Los problemas en los servicios descendentes** en los que se basa el planificador también pueden afectar al envío de informes. Por ejemplo: si utiliza las API de forma independiente para ejecutar informes y rellenar la cola de solicitudes de API, los informes programados pueden entregarse más despacio mientras solicita ese recurso.
-> * **La latencia del grupo de informes** (un retraso en la recopilación de datos) también puede retrasar algunos informes programados.
+## Tiempo de entrega frente a tiempo de procesamiento
 
+La &quot;Hora de envío&quot; o &quot;Hora del día&quot; introducidas por el usuario especifica la hora en que el informe debe comenzar a procesarse, no la hora en que se enviará. El momento en el que se enviará el informe se basa principalmente en el tiempo que tarda en procesarse. Los informes complejos y grandes tardan más en procesarse que los informes más simples. Por ejemplo, si un informe tarda 15 minutos en procesarse, la hora de envío real será al menos 15 minutos después de la &quot;Hora de envío&quot; o &quot;Hora del día&quot; especificadas originalmente.
+
+Además, hay otros factores que pueden aumentar aún más la demora antes de que se presente el informe:
+
+* **Ejecución de varias programaciones diferentes del mismo tipo al mismo tiempo** (por ejemplo, muchos paneles, etc.) puede sobrecargar el sistema. El sistema de programación solo permite ejecutar al mismo tiempo unos pocos informes (5-10) de cualquier tipo. Cuando se programen más de 5-10 a la vez, algunos tendrán que esperar a que otros informes finalicen antes de que puedan comenzar a procesarse. Este problema se puede mitigar programando los informes de una empresa en horas escalonadas durante el día o la hora, en lugar de hacerlo simultáneamente.
+* Además del tipo de informe específico (paneles, etc.), los informes también esperarán si la empresa tiene **más de 15 y 20 informes de cualquier tipo programados a la vez (en todos los diferentes tipos de informes)**. Esto se puede mitigar escalonando los tiempos de programación en lugar de tener varios ejecutándose al mismo tiempo.
+* **Los problemas en los servicios descendentes** en los que se basa el planificador también pueden afectar al envío de informes. Por ejemplo: si utiliza las API de forma independiente para ejecutar informes y rellenar la cola de solicitudes de API, los informes programados pueden entregarse más despacio mientras solicita ese recurso.
+* **La latencia del grupo de informes** (un retraso en la recopilación de datos) también puede retrasar algunos informes programados.
 
 
 ## Enviar un informe {#task_27642CD33D484FD0BF59EBD159EEF52C}
@@ -59,7 +59,7 @@ Instrucciones sobre cómo descargar y enviar por correo electrónico informes en
 1. Haga clic en **[!UICONTROL Opciones de envío avanzadas]** para especificar un programa de envío.
 
 | Opción | Descripción |
-|--- |--- |
+| --- |--- |
 | Nombre del archivo del informe | Especifica el nombre del informe. El formato predeterminado es `<report name> for <suite> - <report date range>` Para especificar un nombre personalizado, seleccione [!UICONTROL Personalizar]. |
 | Formato del informe | Le permite especificar formatos PDF, CSV, Excel, HTML, Word o Móvil para el envío. Si selecciona CSV, también puede especificar la codificación para CSV:<ul><li>Shift-JIS: codificación de caracteres japoneses.</li><li>EUC-JP: código Unix ampliado, principalmente para japonés, coreano y chino simplificado.</li></ul> |
 | Contenido del informe | <ul><li>Número de filas de la tabla: especifica el número de filas que desea que sean visibles en la tabla del informe que está enviando.</li><li>Idioma para el encabezado y pie de página: especifica el idioma del encabezado y el pie de página.</li><li>Comentarios: especifica el texto que aparece al comienzo del informe.</li></ul> |
@@ -119,7 +119,7 @@ Instrucciones sobre cómo compartir un informe generando un vínculo de informe 
 
 Cuando el destinatario hace clic en el vínculo, el sistema solicita las credenciales de inicio de sesión (nombre de la empresa, nombre de usuario y contraseña). Después de iniciar sesión, el destinatario se muestra en el informe generado por el usuario original. Se aplican restricciones de permiso estándar.
 
-**Para compartir un vínculo del informe**
+Para compartir un vínculo del informe,
 
 1. Ejecutar un informe.
 1. Haga clic en **[!UICONTROL Más]** > **[!UICONTROL Vínculo a este informe]**.
