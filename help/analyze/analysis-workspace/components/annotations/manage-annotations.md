@@ -4,7 +4,7 @@ description: Cómo administrar anotaciones en Espacio de trabajo.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 0d20c6debdb71b86aefa43e78900453f15d83e8f
+source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 65%
@@ -60,7 +60,9 @@ Cuando comparta anotaciones o trabaje con anotaciones que se compartieron con us
 
 ## Anotaciones y zonas horarias
 
-Todas las anotaciones se crean con una marca de tiempo, pero no con información de horas ni de zona horaria. A la hora del informe, siempre se aplica la zona horaria del grupo de informes del panel. Por lo tanto, una anotación creada para Navidad se produce el 25 de diciembre, independientemente de la zona horaria del grupo de informes en la que se encuentre. Otro ejemplo es el Día de Año Nuevo. Cada hora, una zona horaria diferente inicia fuegos artificiales a medida que comienza el año nuevo. A las 10 pm, hora de las montañas de EE.UU., la costa este de EE.UU. está ardiendo fuego porque ya son las 12 am, hora del este.
+Todas las anotaciones se crean con una marca de tiempo, pero no con información de horas ni de zona horaria. A la hora del informe, siempre se aplica la zona horaria del grupo de informes del panel. Por lo tanto, una anotación creada para Navidad se produce el 25 de diciembre, independientemente de la zona horaria del grupo de informes en la que se encuentre.
+
+Otro ejemplo es el Día de Año Nuevo. Cada hora, una zona horaria diferente inicia fuegos artificiales a medida que comienza el año nuevo. A las 10 pm, hora de las montañas de EE.UU., la costa este de EE.UU. está ardiendo fuego porque ya son las 12 am, hora del este.
 
 ## Otras tareas de anotaciones
 
