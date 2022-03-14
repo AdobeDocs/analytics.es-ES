@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
+source-git-commit: e35e437a61b925625f6dc7fa2344406c5a66e5fe
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 80%
+source-wordcount: '307'
+ht-degree: 74%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 >
 >Actualmente, esta función está en prueba limitada.
 
-Las anotaciones le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. Permiten enlazar eventos de calendario con dimensiones/métricas específicas. Puede anotar una fecha o un intervalo de fechas con problemas de datos conocidos, días festivos, lanzamientos de campañas, etc. Entonces, puede mostrar gráficamente los eventos y ver si las campañas u otros eventos han afectado al tráfico del sitio, los ingresos o alguna otra métrica.
+Las anotaciones en Workspace le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. Permiten enlazar eventos de calendario con dimensiones/métricas específicas. Puede anotar una fecha o un intervalo de fechas con problemas de datos conocidos, días festivos, lanzamientos de campañas, etc. Entonces, puede mostrar gráficamente los eventos y ver si las campañas u otros eventos han afectado al tráfico del sitio, los ingresos o alguna otra métrica.
 
 Por ejemplo, supongamos que comparte proyectos con su organización. Si tuvo un pico importante en el tráfico debido a una campaña de marketing, podría crear una anotación &quot;Fecha de inicio de la campaña&quot; y ampliarla para todo el grupo de informes. Cuando los usuarios ven cualquier conjunto de datos que incluya esa fecha, ven la anotación dentro de sus proyectos, junto con sus datos.
 
