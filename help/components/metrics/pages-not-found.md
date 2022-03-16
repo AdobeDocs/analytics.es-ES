@@ -1,12 +1,12 @@
 ---
-title: Páginas no encontradas
+title: Páginas no encontradas (métricas)
 description: Número de visitas que contienen un error.
 feature: Metrics
 exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 100%
+source-wordcount: '110'
+ht-degree: 96%
 
 ---
 

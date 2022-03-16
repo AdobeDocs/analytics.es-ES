@@ -1,12 +1,12 @@
 ---
-title: eVar
+title: variables de eVar
 description: Variables personalizadas que puede utilizar en su implementación.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
