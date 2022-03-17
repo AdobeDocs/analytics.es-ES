@@ -4,9 +4,9 @@ description: Puede establecer preferencias generales y de proyecto para los usua
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
-workflow-type: ht
-source-wordcount: '277'
+source-git-commit: 941b2b472301c3e99f268ab98976de348573ae1b
+workflow-type: tm+mt
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
@@ -45,6 +45,7 @@ Las preferencias de proyecto se aplican a nuevos proyectos y paneles creados en 
 |  | [Tipo de panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es) | <ul><li>Improvisado (predeterminado)</li><li>En blanco</li><li>Acceso rápido a información</li></ul> |
 |  | Formato de número | <ul><li>1000,00 (predeterminado)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Separador CSV carácter | <ul><li>Coma (predeterminado)</li><li>Punto y coma</li><li>Dos puntos</li><li>Barra vertical</li><li>Periodo</li><li>Espacio</li><li>Tabulación</li></ul> |
+|  | Tabla improvisada | <ul><li>Mostrar anomalías </li><li>Mostrar minigráficos</li><li>Mostrar anotaciones</li></ul> |
 
 ## [!UICONTROL Tema oscuro]
 
