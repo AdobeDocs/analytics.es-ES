@@ -3,12 +3,12 @@ description: Los marcadores le permiten acceder a los informes que utiliza con m
 subtopic: Bookmarks
 title: Administrador de marcadores
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-feature: Conceptos básicos de Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 029c6b168756448d01d73dd5e92cbe9df70e3f57
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '326'
 ht-degree: 98%
 
 ---
@@ -29,12 +29,12 @@ t_bookmarks_creating.xml
 
 1. Ejecute un informe y, a continuación, haga clic en **[!UICONTROL Marcador]**.
 
-       |Nombre|Un nombre de usuario reconocible para este marcador.|
-       |---|---|
-       |Agregar a|Especifica la carpeta en la que se desea colocar el marcador.|
-       |Hacer público| Hace que este marcador esté disponible para los usuarios con acceso al grupo de informes.|
-       |Mostrar informe tras iniciar sesión| Muestra el informe cuando se inicia sesión.|
-   
+   | Nombre | Nombre sencillo de usuario para este marcador. |
+   |---|---|
+   | Agregar a | Especifica la carpeta en la que desea colocar el marcador. |
+   | Convertir en público | Hace que este marcador esté disponible para los usuarios con acceso al grupo de informes. |
+   | Mostrar informe después del inicio de sesión | Muestra el informe cuando inicia sesión. |
+
 ## Administrar marcadores {#task_1EE793CB52EA467787817BBD98DEF150}
 
 Tras crear marcadores de informes, puede administrarlos en el [!UICONTROL Administrador de marcadores]. Puede editar, eliminar y organizar los marcadores y las carpetas desde una ubicación central.
@@ -45,7 +45,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Componentes]**  >  **[!UICONTROL Todos los componentes]**  >  **[!UICONTROL Marcadores]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Marcadores]**.
 
 **Mis marcadores**
 
