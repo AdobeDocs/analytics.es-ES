@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: a2d3336ec89823a764ce073526836b6af70f0b76
+source-git-commit: 00577a87f1f6ec69619dd17f18597dabe4c59bd2
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 96%
+source-wordcount: '1521'
+ht-degree: 91%
 
 ---
 
@@ -88,3 +88,4 @@ A continuación se ofrece una lista de dimensiones y métricas que pueden verse 
 * **eVars que no sean de comercialización/eVars reservadas:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, un valor establecido en una eVar persiste solo si se estableció dentro del intervalo de fechas del informe. Además, las caducidades basadas en la hora pueden producirse 60 minutos antes o después si la persistencia se ve afectada por un cambio de hora.
 * **eVars de comercialización/eVars reservadas:** Consulte lo anterior. Además, para la conversión de sintaxis, cuando el enlace está establecido en “cualquier evento”, se utiliza “cualquier visita”.
 * **Tipo de visita individual:** Esta dimensión especifica si una visita individual es en primer o en segundo plano.
+* **Dimension con (poco tráfico) o &quot;Se excedió la cantidad de valores exclusivos&quot;:** El elemento de línea (poco tráfico) se determina de forma ligeramente diferente al usar Procesamiento de intervalo de tiempo y no se garantiza que coincida con lo que se observa al generar informes en el grupo de informes base. Además, los elementos de línea de dimensión que no forman parte de Poco tráfico no están garantizados que representen el 100% de los datos de ese elemento de línea, a diferencia de un grupo de informes base. Estas diferencias se hacen más pronunciadas cuanto mayor es el número de valores únicos que existen en una dimensión.
