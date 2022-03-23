@@ -4,10 +4,10 @@ description: Cómo administrar anotaciones en Espacio de trabajo.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 65%
+source-wordcount: '687'
+ht-degree: 64%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->Actualmente, esta función está en prueba limitada.
+>La implementación gradual de esta función comienza el 23 de marzo de 2022. Disponibilidad general: 11 de abril de 2022.
 
 El administrador [!UICONTROL Componentes] > [!UICONTROL Anotaciones] ofrece numerosas maneras de conservar las anotaciones, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
 
