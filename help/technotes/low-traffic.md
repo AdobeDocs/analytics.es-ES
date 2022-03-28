@@ -1,45 +1,44 @@
 ---
-description: Cuando un informe contiene una gran cantidad de valores únicos, una funcionalidad incluida en Adobe permite asegurar que los valores más importantes aparezcan en el informe.
+description: Cuando un informe tiene una gran cantidad de valores únicos, el Adobe utiliza el elemento de dimensión Tráfico bajo para mejorar el rendimiento del informe.
 title: Valor de poco tráfico en Adobe Analytics
 feature: Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: e087c50784a99eb4e664021b243ad38c3b95e538
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '614'
+ht-degree: 49%
 
 ---
 
 # Valor de poco tráfico en Adobe Analytics
 
-Cuando un informe contiene varios valores únicos, una funcionalidad incluida en Adobe permite asegurar que los valores más importantes aparezcan en el informe. Los valores de variables únicas recopilados después de aproximadamente 500 000 valores existentes se enumeran con un elemento de línea titulado **[!UICONTROL Poco tráfico]**.
+Cuando un informe contiene varios valores únicos, una funcionalidad incluida en Adobe permite asegurar que los valores más importantes aparezcan en el informe. Los valores de variables únicas recopilados después de aproximadamente 500 000 valores existentes se enumeran dentro de un elemento de dimensión etiquetado **[!UICONTROL Poco tráfico]**.
 
 ## Funcionamiento de [!UICONTROL Poco tráfico]
 
 * La creación de informes no se ve afectada si la variable no alcanza los 500 000 valores únicos en un mes determinado.
-* Cuando una variable alcanza el primer umbral de 500 000, los datos comienzan a agruparse en bloques de poco tráfico. Todos los valores que superan este umbral se rigen por la siguiente lógica:
+* Cuando una variable alcanza los 500 000 valores únicos, los datos comienzan a agruparse en [!UICONTROL Poco tráfico]. Todos los valores que superan este umbral se rigen por la siguiente lógica:
    * Si un valor ya figura en los informes, añádalo como de costumbre.
-   * Si un valor aún no aparece en los informes, aparecerá en el elemento de línea [!UICONTROL Poco tráfico]. Si un valor que se ha incluido en el elemento de línea [!UICONTROL Poco tráfico] se ve un número significativo de veces en un corto tiempo, empezará a reconocerse como su propio elemento de línea. El número significativo de veces que se debe ver un elemento tiene muchas dependencias, como el número de servidores de procesamiento y daemons que están procesando datos para ese grupo de informes en particular.
-* Si un grupo de informes alcanza más de 1 000 000 de valores únicos, se aplica un filtrado más intenso:
-   * Si un valor ya figura en los informes, añádalo como de costumbre.
-   * Si un valor aún no aparece en los informes, aparecerá en el elemento de línea [!UICONTROL Poco tráfico]. Si un valor que se ha incluido en el elemento de línea [!UICONTROL Poco tráfico] se ve un número significativo de veces en un corto tiempo, empezará a reconocerse como su propio elemento de línea. El número significativo de veces que se debe ver un elemento tiene muchas dependencias, como el número de servidores de procesamiento y daemons que están procesando datos para ese grupo de informes en particular.
+   * Si un valor aún no aparece en los informes, inicialmente se agrupa en la variable [!UICONTROL Poco tráfico] elemento de dimensión.
+   * Si un valor que está agrupado en [!UICONTROL Poco tráfico] se ve en algún lugar con dos dígitos durante ese mes, empieza a reconocerse como su propio elemento de dimensión. Las instancias recopiladas antes de alcanzar el umbral permanecen por debajo de [!UICONTROL Poco tráfico]. El umbral exacto tiene muchas dependencias, como el número de servidores que procesan datos para el grupo de informes y el tiempo entre cada instancia de elemento de dimensión.
+* Si un grupo de informes alcanza más de 1 000 000 de valores únicos, se aplica un filtrado más intenso. Los valores únicos requieren instancias de tres dígitos antes de ser reconocidos como su propio elemento de dimensión.
 
-¿Por qué Adobe mueve un elemento de la línea [!UICONTROL Poco tráfico] a su propio elemento de línea? Por ejemplo, este movimiento podría reconocer una página nueva o elemento nuevo popular que se añadió más adelante ese mes (después de superar los valores exclusivos) y que recibe muchas visitas o vistas. El movimiento no pretende capturar todo lo que recibe un determinado número de visitas/visitas al día o al mes.
+Esta lógica permite que el Adobe optimice las funcionalidades de informes a la vez que permite a su organización informar sobre elementos de dimensión cruciales recopilados más adelante en el mes. Por ejemplo, su organización administra un sitio con millones de artículos y un nuevo artículo se hizo popular a finales de mes (después de superar ambos umbrales únicos). Aún puede analizar el rendimiento de ese artículo sin que se agrupe en [!UICONTROL Poco tráfico]. Tenga en cuenta que esta lógica no pretende dividir todo lo que recibe un determinado número de vistas de página por día o por mes.
 
 >[!NOTE]
->El recuento de búsqueda de páginas no solo incluye valores para [!UICONTROL pagename]/[!UICONTROL page_url]. La tabla de búsqueda de páginas incluye varias columnas o varios campos como [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url] y el contexto de clic (los datos antiguos de ClickMap).
+>La variable [Página](../components/dimensions/page.md) la dimensión utiliza varias columnas back-end que todas cuentan para umbrales únicos, incluyendo `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`y `click_context`. Estas columnas back-end pueden causar [!UICONTROL Poco tráfico] para aplicar mucho antes de que el número de elementos de dimensión de página únicos en Workspace alcance los 500 000.
 
 ## Cambio de los umbrales de límite único
 
-De forma predeterminada, estos umbrales son 500 000 y 1 millón de valores únicos. Estos límites se pueden cambiar según la variable. Póngase en contacto con el administrador de cuentas de su organización para solicitar este cambio. Al solicitar un cambio, indique:
+De forma predeterminada, estos umbrales son 500 000 y 1 millón de valores únicos. Estos límites se pueden cambiar según la variable. Póngase en contacto con el Servicio de atención al cliente de Adobe o con el administrador de cuentas de su organización para solicitar este cambio. Al solicitar un cambio, indique:
 
 * El ID del grupo de informes
 * La variable para la que solicita aumentar el umbral
 * El primer y el segundo umbral deseado
 
-Los cambios en los umbrales pueden afectar al rendimiento del informe. Adobe recomienda usar el buen criterio al solicitar un aumento de valores únicos en una variable.
+Los cambios en los umbrales pueden afectar al rendimiento del informe. Adobe recomienda usar el buen criterio al solicitar un aumento de valores únicos en una variable. Solo aumente los límites únicos para las variables que son críticas para las necesidades de informes de su organización.
 
-Los umbrales de poco tráfico no son visibles en la interfaz de usuario de Analytics. Si desea obtener más información sobre los umbrales existentes, pida a un usuario de asistencia técnica de su organización que se ponga en contacto con el Servicio de atención al cliente de Adobe.
+Los umbrales de poco tráfico no son visibles en la interfaz de usuario de Analytics. Póngase en contacto con el Servicio de atención al cliente de Adobe si desea obtener más información sobre los umbrales existentes.
 
 ## Poco tráfico con componentes y otras funciones
 
