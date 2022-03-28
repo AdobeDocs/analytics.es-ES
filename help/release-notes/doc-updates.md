@@ -4,10 +4,10 @@ description: Actualizaciones importantes en el conjunto de la documentación de 
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
 workflow-type: tm+mt
-source-wordcount: '2958'
-ht-degree: 100%
+source-wordcount: '3096'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,14 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Fecha | Descripción |
 | --- | --- |
+| **Marzo de 2022** |  |
+| Nueva documentación sobre anotaciones en Workspace | [Anotaciones en Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) permite comunicar de forma eficaz los matices y perspectivas de datos contextuales a la organización. |
+| Actualizaciones de la página de aterrizaje de Adobe Analytics | [Actualizaciones](/help/analyze/landing.md) a la página de aterrizaje conjunta de Workspace/Reports &amp; Analytics que mejora la facilidad de uso y navegación. |
+| [!UICONTROL Elemento siguiente] o [!UICONTROL Elemento anterior] Panel de Workspace | Este panel le permite explorar elementos que siguen o preceden a un elemento de dimensión de su elección. |
+| [!UICONTROL Resumen de página] Panel de Workspace | Este panel proporciona un análisis en profundidad para una página de su elección. |
+| **Febrero de 2022** |  |
+| Modo de vista previa del proyecto del cuadro de resultados móvil | La variable [modo de vista previa](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es#preview) permite obtener una vista previa de la experiencia antes de guardar y compartir un informe de valoración. |
+| Punto de conexión de proyectos de API | Añada, edite o elimine proyectos de Analysis Workspace mediante la API . [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | **Octubre de 2021** |  |
 | 21 de octubre de 2021 | Nueva documentación sobre [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=es) en Analysis Workspace |
 | 21 de octubre de 2021 | Nueva documentación sobre [Tiempo invertido en la reproducción de medios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=es) en Analysis Workspace. |
