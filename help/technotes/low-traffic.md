@@ -1,11 +1,11 @@
 ---
-description: Cuando un informe tiene una gran cantidad de valores únicos, el Adobe utiliza el elemento de dimensión Tráfico bajo para mejorar el rendimiento del informe.
+description: Cuando un informe tiene muchos valores únicos, el Adobe utiliza el elemento de dimensión Poco tráfico para mejorar el rendimiento del informe.
 title: Valor de poco tráfico en Adobe Analytics
 feature: Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: e087c50784a99eb4e664021b243ad38c3b95e538
+source-git-commit: ddd1473ccfe27dbcb28c0c51992628c9bf03cb5c
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '622'
 ht-degree: 49%
 
 ---
@@ -20,10 +20,10 @@ Cuando un informe contiene varios valores únicos, una funcionalidad incluida en
 * Cuando una variable alcanza los 500 000 valores únicos, los datos comienzan a agruparse en [!UICONTROL Poco tráfico]. Todos los valores que superan este umbral se rigen por la siguiente lógica:
    * Si un valor ya figura en los informes, añádalo como de costumbre.
    * Si un valor aún no aparece en los informes, inicialmente se agrupa en la variable [!UICONTROL Poco tráfico] elemento de dimensión.
-   * Si un valor que está agrupado en [!UICONTROL Poco tráfico] se ve en algún lugar con dos dígitos durante ese mes, empieza a reconocerse como su propio elemento de dimensión. Las instancias recopiladas antes de alcanzar el umbral permanecen por debajo de [!UICONTROL Poco tráfico]. El umbral exacto tiene muchas dependencias, como el número de servidores que procesan datos para el grupo de informes y el tiempo entre cada instancia de elemento de dimensión.
-* Si un grupo de informes alcanza más de 1 000 000 de valores únicos, se aplica un filtrado más intenso. Los valores únicos requieren instancias de tres dígitos antes de ser reconocidos como su propio elemento de dimensión.
+   * Si un valor que está agrupado en [!UICONTROL Poco tráfico] recibe una afluencia de tráfico (normalmente instancias con dos dígitos en un solo día) y comienza a reconocerse como su propio elemento de dimensión. Las instancias recopiladas antes de alcanzar el umbral permanecen por debajo de [!UICONTROL Poco tráfico]. El umbral exacto tiene muchas dependencias, como el número de servidores que procesan datos para el grupo de informes y la cantidad de tiempo entre cada instancia de elemento de dimensión.
+* Si un grupo de informes alcanza más de 1 000 000 de valores únicos, se aplica un filtrado más intenso. Los valores únicos requieren instancias con tres dígitos en un solo día antes de reconocerse como su propio elemento de dimensión.
 
-Esta lógica permite que el Adobe optimice las funcionalidades de informes a la vez que permite a su organización informar sobre elementos de dimensión cruciales recopilados más adelante en el mes. Por ejemplo, su organización administra un sitio con millones de artículos y un nuevo artículo se hizo popular a finales de mes (después de superar ambos umbrales únicos). Aún puede analizar el rendimiento de ese artículo sin que se agrupe en [!UICONTROL Poco tráfico]. Tenga en cuenta que esta lógica no pretende dividir todo lo que recibe un determinado número de vistas de página por día o por mes.
+Esta lógica permite que el Adobe optimice las funcionalidades de informes a la vez que permite a su organización informar sobre elementos de dimensión cruciales recopilados más adelante en el mes. Por ejemplo, su organización administra un sitio con millones de artículos y un nuevo artículo se hizo popular a finales de mes (después de superar ambos umbrales únicos). Aún puede analizar el rendimiento de ese artículo sin que se agrupe en [!UICONTROL Poco tráfico]. Esta lógica no pretende desagrupar todo lo que obtenga una cierta cantidad de vistas de página por día o por mes.
 
 >[!NOTE]
 >La variable [Página](../components/dimensions/page.md) la dimensión utiliza varias columnas back-end que todas cuentan para umbrales únicos, incluyendo `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`y `click_context`. Estas columnas back-end pueden causar [!UICONTROL Poco tráfico] para aplicar mucho antes de que el número de elementos de dimensión de página únicos en Workspace alcance los 500 000.
