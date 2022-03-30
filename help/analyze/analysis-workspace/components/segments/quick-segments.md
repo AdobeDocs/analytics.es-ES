@@ -4,9 +4,9 @@ title: Segmentos rápidos
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
+source-git-commit: 7434a941f3e5a47a3f5d5a28320a3fc396dd3740
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '886'
 ht-degree: 75%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 75%
 
 Puede crear segmentos rápidos dentro de un proyecto para evitar la complejidad del [generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) completo. Segmentos rápidos
 
-* Aplicar como [segmentos solo de proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
+* Apply as [project-only segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
 * Permiten hasta 3 reglas.
 * No se admiten contenedores anidados ni reglas secuenciales.
 
 Para ver una comparación de lo que pueden hacer los segmentos rápidos frente a los segmentos de lista de componentes completos, consulte [aquí](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+
+A continuación se muestra un vídeo introductorio de los segmentos rápidos:
+
+>[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
 ## Requisitos previos
 
@@ -81,7 +85,7 @@ Observe cómo la barra lateral del segmento cambia de azul rayado a azul más cl
 
 ## ¿Qué son segmentos solo de proyecto?
 
-Los segmentos solo de proyecto son segmentos que solo se aplican al proyecto actual en el que se crearon. No estarán disponibles en otros proyectos y no se podrán compartir con otros usuarios. Están pensados para una exploración rápida de sus datos sin tener que crear ni guardar un segmento en el carril izquierdo. Los segmentos solo de proyecto se pueden crear en la zona de colocación del panel con segmentos rápidos o [segmentos ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
+Los segmentos solo de proyecto son segmentos que solo se aplican al proyecto actual en el que se crearon. No estarán disponibles en otros proyectos y no se podrán compartir con otros usuarios. Están pensados para una exploración rápida de sus datos sin tener que crear ni guardar un segmento en el carril izquierdo. Project-only segments can be created in the panel drop zone either with Quick segments or [ad-hoc segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
 
 Si un segmento solo de proyecto se abre en la variable [!UICONTROL Generador de segmentos], aparece una notificación de solo proyecto. Si no marca &quot;Hacer que este segmento esté disponible.&quot; y haga clic en **[!UICONTROL APLICAR]**, el segmento sigue siendo un segmento solo de proyecto. Nota: si aplica un segmento rápido desde el Generador de segmentos, ya no se puede abrir en el [!UICONTROL Generador de segmentos rápido].
 
