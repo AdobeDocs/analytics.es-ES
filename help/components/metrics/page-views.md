@@ -1,16 +1,16 @@
 ---
-title: 'Métrica Vistas de página explicada | Adobe Analytics '
-description: Conozca cómo se ha desarrollado la métrica de vistas de página en Adobe Analytics, y descubra la diferencia entre las vistas de página y las visitas.
+title: Vistas de páginas
+description: El número de veces que un elemento de dimensión se estableció o persistió en Adobe Analytics.
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 65f87bf4b5b3897c9ef68d091858332c08cbf699
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 39%
 
 ---
 
-# Obtenga información acerca de Vistas de página con Adobe Analytics
+# Vistas de páginas
 
 La métrica “Vistas de página” muestra el número de veces que un elemento de dimensión determinado se estableció o persistió en una página. Es una de las métricas más comunes y básicas de los informes.
 
@@ -20,5 +20,5 @@ Esta métrica cuenta todas las llamadas de seguimiento de vista de página ([`t(
 
 ## Comparar con métricas similares
 
-* **Vistas de página vs. [Visitas](visits.md)**: vistas de página cuenta la cantidad de veces que se ve una página. Visitas cuenta el número de sesiones de los visitantes. Una visita consiste en una o más páginas.
-* **Vistas de página vs. [Eventos de página](page-events.md)**: vistas de página cuenta el número de llamadas de seguimiento de vistas de página (`t()`) y excluye las llamadas de seguimiento de vínculos (`tl()`). Eventos de página es lo contrario; cuenta el número de llamadas de seguimiento de vínculos y excluye las vistas de página.
+* **Vistas de página vs. [Visitas](visits.md)**: Las vistas de página cuentan la cantidad de veces que se ve una página. Las visitas cuentan el número de sesiones de los visitantes. Una visita consiste en una o más vistas de página.
+* **Vistas de página vs. [Eventos de página](page-events.md)**: Las vistas de página cuentan el número de llamadas de seguimiento de vista de página (`t()`) y excluye las llamadas de seguimiento de vínculos (`tl()`). Los eventos de página son lo contrario; cuentan el número de llamadas de seguimiento de vínculos y excluyen las llamadas de seguimiento de vista de página.
