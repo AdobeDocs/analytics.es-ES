@@ -3,10 +3,10 @@ description: Cómo cargar archivos de datos a través de FTP.
 title: Importación de FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 5edf3e6684b3572616f76db3f7c3bf0cf58ed408
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -55,6 +55,8 @@ Para obtener más información acerca de cómo crear una cuenta de FTP, consulte
    El archivo FIN es un archivo vacío que tiene el mismo nombre que su archivo de datos, con la extensión de nombre de archivo [!DNL .fin]. Por ejemplo, si su archivo de datos es [!DNL classdata1.tab], el nombre del archivo es [!DNL classdata1.fin].fin.
 
 A intervalos periódicos, Adobe recupera los archivos de datos cargados que tienen un archivo FIN asociado. Adobe los importa en los grupos de informes y conjuntos de datos indicados en la configuración de la cuenta FTP.
+
+Una vez que Adobe Analytics ha leído y procesado archivos cargados en la carpeta FTP, los archivos se eliminan automáticamente.
 
 ## Crear una cuenta de FTP {#task_C019268E6C934C7C95F4326F42A22CCF}
 
