@@ -3,16 +3,16 @@ title: Últimas notas de la versión de Analytics
 description: Ver las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 433a750ddf4aca56fd9fbe5ec2482f66cf45125f
+source-git-commit: 14881de9527796430f13199a6fc5d06452a94a60
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1141'
 ht-degree: 41%
 
 ---
 
 # Notas de la versión actual de Adobe Analytics (marzo de 2022)
 
-**Última actualización: 31 de marzo de 2022**
+**Última actualización: 6 de abril de 2022**
 
 * Para ver las notas de la versión de febrero de 2022, vaya [here](/help/release-notes/2022.md).
 * Para obtener las notas de la versión de Customer Journey Analytics, vaya a [here](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=es)
@@ -21,12 +21,14 @@ ht-degree: 41%
 
 ## Funciones nuevas en Adobe Analytics {#aa-features}
 
+**Última actualización: 6 de abril de 2022**
+
 | Función | Descripción | [Fecha objetivo](releases.md) |
 | ----------- | ---------- | ------- |
 | Anotaciones en Workspace | Las anotaciones en Workspace le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. [Más información](/help/analyze/analysis-workspace/components/annotations/overview.md) | La implementación gradual comienza el 23 de marzo de 2022. Disponibilidad general: 11 de abril de 2022 |
 | Actualizaciones de la página de aterrizaje de Adobe Analytics | Actualizaciones de la página de aterrizaje conjunta de Workspace/Reports &amp; Analytics que mejora la facilidad de uso y navegación. [Más información](/help/analyze/landing.md) | 1 de abril de 2022 |
-| [!UICONTROL Elemento siguiente] o [!UICONTROL Elemento anterior] Panel de Workspace | La variable [!UICONTROL Elemento siguiente o anterior] permite explorar elementos que siguen o preceden a un elemento de dimensión de su elección. Por ejemplo, utilícelo si desea ver las páginas siguientes o anteriores de una página de producto, un canal de marketing o incluso un tipo de dispositivo específicos. Este panel va más allá de los informes anteriores o siguientes, ya que le permite ver cualquier dimensión y no requiere ninguna implementación nueva para obtener información. | 1 de abril de 2022 |
-| [!UICONTROL Resumen de página] Panel de Workspace | La variable [!UICONTROL Resumen de página] proporciona un análisis en profundidad para una página de su elección. Proporciona los mismos detalles que los informes y análisis heredados [!UICONTROL Resumen de página] informe, más mucho más. | 1 de abril de 2022 |
+| [!UICONTROL Elemento siguiente] o [!UICONTROL Elemento anterior] Panel de Workspace | La variable [!UICONTROL Elemento siguiente o anterior] permite explorar elementos que siguen o preceden a un elemento de dimensión de su elección. Por ejemplo, utilícelo si desea ver las páginas siguientes o anteriores de una página de producto, un canal de marketing o incluso un tipo de dispositivo específicos. Este panel va más allá de los informes anteriores o siguientes, ya que le permite ver cualquier dimensión y no requiere ninguna implementación nueva para obtener información. | 20 de abril de 2022 |
+| [!UICONTROL Resumen de página] Panel de Workspace | La variable [!UICONTROL Resumen de página] proporciona un análisis en profundidad para una página de su elección. Proporciona los mismos detalles que los informes y análisis heredados [!UICONTROL Resumen de página] informe, más mucho más. | 20 de abril de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
