@@ -4,7 +4,7 @@ title: Comercio
 feature: Report Suite Settings
 exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '181'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
-| Visitas | Contador (sin subrelaciones) | N/D |
-| Vistas de páginas | Contador (sin subrelaciones) | N/D |
-| Visitantes únicos diarios | Contador (sin subrelaciones) | N/D |
-| Visitantes únicos | Contador (sin subrelaciones) | N/D |
+| Visitas | Contador (sin subrelaciones) | N/A |
+| Vistas de páginas | Contador (sin subrelaciones) | N/A |
+| Visitantes únicos diarios | Contador (sin subrelaciones) | N/A |
+| Visitantes únicos | Contador (sin subrelaciones) | N/A |
