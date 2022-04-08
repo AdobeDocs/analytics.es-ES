@@ -4,7 +4,7 @@ title: Códigos de divisa
 feature: Admin Tools
 exl-id: 8c9a2216-3259-4fdb-b09f-c724fa4c70b7
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
 ht-degree: 100%
 
@@ -25,17 +25,17 @@ Códigos de divisa utilizados en Experience Cloud.
 | ARS | Peso argentino |
 | AUD | Dólar australiano |
 | AWG | Florín arubeño |
-| AZM | Manat azerí de Azerbayán |
+| AZM | Manat azerí de Azerbaiyán |
 | BAM | Marco convertible de Bosnia y Herzegovina |
 | BBD | Dólar de Barbados |
 | BDT | Taka de Bangladesh |
 | BGN | Lev búlgaro |
-| BHD | Dinar bahrainí |
+| BHD | Dinar de Baréin |
 | BIF | Franco de Burundi |
 | BMD | Dólar bermudeño |
 | BND | Dólar de Brunei |
 | BOB | Boliviano |
-| BRL | Real |
+| BRL | Real de Brasil |
 | BSD | Dólar bahameño |
 | BTN | Ngultrum butanés |
 | BWP | Pula de Botsuana |
@@ -53,7 +53,7 @@ Códigos de divisa utilizados en Experience Cloud.
 | CVE | Escudo caboverdiano |
 | CYP | Libra chipriota |
 | CZK | Corona checa |
-| DJF | Franco de Djibouti |
+| DJF | Franco de Yibuti |
 | DKK | Corona danesa |
 | DOP | Peso dominicano |
 | DZD | Dinar argelino |
@@ -62,11 +62,11 @@ Códigos de divisa utilizados en Experience Cloud.
 | ERN | Nakfa de Eritrea |
 | ETB | Birr de Etiopía |
 | EUR | Euro |
-| FJD | Dólar fijiano |
+| FJD | Dólar fiyiano |
 | FKP | Libra malvinense |
 | GBP | Libra esterlina |
 | GEL | Lari georgiano |
-| GGP | Libra de Guernesey |
+| GGP | Libra de Guernsey |
 | GHC | Cedi ghanés |
 | GIP | Libra gibraltareña |
 | GMD | Dalasi de Gambia |
@@ -97,7 +97,7 @@ Códigos de divisa utilizados en Experience Cloud.
 | KRW | Won surcoreano |
 | KWD | Dinar kuwaití |
 | KYD | Dólar de las Islas Caimán |
-| KZT | Tenge de Kazajstán |
+| KZT | Tenge de Kazajistán |
 | LAK | Kip laosiano |
 | LBP | Libra libanesa |
 | LKR | Rupia esrilanquesa |
@@ -178,7 +178,7 @@ Códigos de divisa utilizados en Experience Cloud.
 | XAG | Onzas de plata |
 | XAU | Onzas de oro |
 | XCD | Dólar del Caribe Oriental |
-| XDR | International Monetary Fund Special Drawing Rights |
+| XDR | Derechos especiales de giro del Fondo Monetario Internacional |
 | XOF | Francos de la Communauté Financière Africaine BCEAO |
 | XPD | Onzas de paladio |
 | XPF | Franco Pacífico Francés |
