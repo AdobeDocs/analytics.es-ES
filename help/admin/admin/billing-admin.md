@@ -4,7 +4,7 @@ title: Facturación
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ El informe de [!UICONTROL facturación mensual] resultante incluirá la siguient
 >
 >Para obtener una copia de trabajo del informe de [!UICONTROL Facturación mensual], es necesario copiar este informe en el portapapeles y pegarlo en un programa de hoja de cálculo como Microsoft Excel*.
 
-## Fecha de informes vs. Fecha de procesamiento {#section_51A48C2F223F4904BE1407C13333C457}
+## Fecha de creación de informes vs. Fecha de procesamiento {#section_51A48C2F223F4904BE1407C13333C457}
 
 En la interfaz de usuario de informes, los datos presentados siempre están adjuntos a la **Fecha de informes**, que es la marca de tiempo adjunta al evento.
 
