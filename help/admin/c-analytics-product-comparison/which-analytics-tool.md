@@ -4,9 +4,9 @@ title: ¿Qué herramienta de Adobe Analytics debo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Las **[Fuentes de datos](/help/import/c-data-sources/datasrc-home.md)** deben u
 
 **[Integraciones de Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)** debe usarse:
 
-* Al interactuar con un proveedor ajeno que dispone de una conexión compatible con Adobe Analytics. Las aplicaciones de integración suelen incorporar datos de resumen a Adobe Analytics de forma permanente y automática, de forma recurrente.
+* Al interactuar con un proveedor ajeno que dispone de una conexión compatible con Adobe Analytics. Las aplicaciones de integración suelen incorporar en Adobe Analytics datos en el nivel de resumen de manera permanente, automática y recurrente.
 
 La **[API de inserción de datos](/help/import/c-data-insertion-api/c-data-insertion-api.md)** debe usarse:
 
