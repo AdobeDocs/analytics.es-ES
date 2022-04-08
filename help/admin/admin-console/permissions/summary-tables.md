@@ -4,7 +4,7 @@ description: Tablas que resumen los permisos de Adobe Analytics disponibles en A
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 | Administrador de feeds de datos | x |  |  |  | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. |
 | API de reparación de datos | x |  |  |  | Otorga acceso a la API de reparación de datos |
 | Administrador de fuentes de datos | x |  |  |  | Otorga acceso a Administración > Todos los admin > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
-| Medidas predeterminadas | x |  |  |  | Otorga acceso a Configuración de grupos de informes individuales > Métricas predeterminadas en el Administrador de grupos de informes. |
+| Métricas predeterminadas | x |  |  |  | Otorga acceso a Configuración de grupos de informes individuales > Métricas predeterminadas en el Administrador de grupos de informes. |
 | Excluir por dirección IP | x |  |  |  | Otorga acceso a Administración > Excluir por dirección IP en la navegación superior de Analytics. |
 | Métodos de búsqueda | x |  |  |  | Otorga acceso a Conversión > Métodos de búsqueda en el Administrador de grupos de informes. |
 | Variables de lista | x |  |  |  | Otorga acceso a Conversión > Variables de lista en el Administrador de grupos de informes. |
@@ -77,9 +77,9 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 | Administrador de códigos | x |  |  |  | Se ha mantenido para propósitos heredados. Otorga acceso a Administración > Todos los administradores > Administrador de códigos. En la mayoría de los casos, utilice las bibliotecas incluidas en la IU de recopilación de datos. |
 | Administrador de códigos - Servicios Web | x |  |  |  | Otorga acceso al Administrador de códigos mediante la API 1.4. |
 | Ocultar grupos de informes | x |  |  |  | Concede acceso a Administración > Todos los administradores > Configuración de la compañía > Ocultar grupos de informes. Otorga la capacidad de ocultar cualquier grupo de informes de la organización, independientemente del acceso a su grupo de informes. |
-| Integraciones (crear) | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Conectores de datos, y permite al usuario crear conectores de datos. |
-| Integraciones (eliminar) | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Conectores de datos, y permite al usuario eliminar conectores de datos. |
-| Integraciones (actualizar) | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Conectores de datos, y permite al usuario modificar las configuraciones de conectores existentes. |
+| Integraciones (crear) | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Data Connectors, y permite al usuario crear conectores de datos. |
+| Integraciones (eliminar) | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Data Connectors, y permite al usuario eliminar conectores de datos. |
+| Integraciones (actualizar) | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Data Connectors, y permite al usuario modificar las configuraciones de conectores existentes. |
 | Registros | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Registros. |
 | Registros - Servicios Web | x |  |  |  | Otorga acceso a los registros de extracción a través de la API 1.4. |
 | Acciones pendientes | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Configuraciones de la compañía > Acciones pendientes. |
