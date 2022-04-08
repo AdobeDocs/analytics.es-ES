@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear o editar una fuente de datos
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '948'
 ht-degree: 100%
 
