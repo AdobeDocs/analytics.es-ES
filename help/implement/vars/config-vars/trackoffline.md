@@ -4,7 +4,7 @@ description: Habilite o deshabilite el seguimiento sin conexión, que cambia la 
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
