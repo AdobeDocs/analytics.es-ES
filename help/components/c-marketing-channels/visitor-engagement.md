@@ -5,7 +5,7 @@ title: Caducidad del canal de marketing
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ La configuración de caducidad consiste en lo siguiente:
 | Nunca | El período de compromiso del visitante no caduca. |
 | Restablecimiento del canal | Termina todos los periodos de compromiso de los visitantes.  Si necesita restablecer todos los datos de canal de marketing, puede hacer que expiren todos los períodos de compromiso de los visitantes. Podría necesitar restablecer los datos si las reglas de procesamiento están mal configuradas. Todos los valores de canales de primer y último contacto expirarán inmediatamente y se restablecerán cuando vuelvan los visitantes. |
 
-## Definir la caducidad del canal de marketing {#define-expiration}
+## Definición de la caducidad del canal de marketing {#define-expiration}
 
 Especificar la caducidad de la participación del visitante.
 
