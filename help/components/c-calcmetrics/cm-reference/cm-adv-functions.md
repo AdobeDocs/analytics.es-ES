@@ -4,7 +4,7 @@ title: 'Referencia: funciones avanzadas'
 feature: Calculated Metrics
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2909'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Por ejemplo, si tiene una métrica Ingresos y, a continuación, agrega una métr
 
 Por otra parte, si tiene dos métricas en las que está interesado, puede que no sea justo afirmar que una tiene una media superior o mínima porque algunas de sus filas eran ceros, por lo que no debería marcar el parámetro para incluir ceros.
 
-## Y {#concept_E14513FE464F4491AD0D4130D4EE621C}
+## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
 Devuelve el valor de su argumento. Utilice NOT para asegurarse de que un valor no es igual a un valor en concreto.
 
@@ -41,7 +41,7 @@ AND(logical_test1,[logical_test2],...)
 | Argumento | Descripción |
 |---|---|
 | *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como TRUE o FALSE. |
-| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO. |
+| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como TRUE o FALSE. |
 
 ## Número aproximado de elementos distintos (dimensión) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
@@ -261,7 +261,7 @@ SLOPE.EXP(metric_X, metric_Y)
 
 ## Suelo (Fila) {#concept_D368150EC3684077B284EE471463FC31}
 
-Devuelve el mayor entero igual o menor a un valor determinado. Por ejemplo, si desea evitar los decimales en una moneda de un informe en los ingresos y un producto tiene el valor de 569,34 $, utilice la fórmula FLOOR(*Ingresos*) para redondear hacia arriba al dólar más próximo o 569 $.
+Devuelve el mayor entero igual o menor a un valor determinado. Por ejemplo, si desea evitar los decimales en una moneda de un informe en los ingresos y un producto tiene el valor de 569,34 $, utilice la fórmula FLOOR(*Revenue*) para redondear hacia arriba al dólar más próximo o 569 $.
 
 ```
 FLOOR(metric)
@@ -431,7 +431,7 @@ LN(metric)
 |---|---|
 | *métrica* | El número real positivo del cual desea el logaritmo natural. |
 
-## NO {#concept_BD954C455A8148A3904A301EC4DC821E}
+## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
 
 Devuelve 1 si el número es 0 o devuelve 0 si es otro número.
 
@@ -464,7 +464,7 @@ OR(logical_test1,[logical_test2],...)
 | Argumento | Descripción |
 |---|---|
 | *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como TRUE o FALSE. |
-| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO. |
+| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como TRUE o FALSE. |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
 
