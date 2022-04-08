@@ -4,7 +4,7 @@ title: Migración de las cuentas de usuario de Analytics para Enterprise ID y Fe
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ Si debe migrar cuentas de usuario de Adobe ID existentes a Enterprise ID o Feder
  </tbody> 
 </table>
 
-Para obtener más información sobre los campos del archivo [!DNL .csv], consulte el [formato de archivo CSV](https://helpx.adobe.com/enterprise/using/users.html).
+Para obtener más información sobre los campos del archivo [!DNL .csv], consulte el [formato de archivo CSV](https://helpx.adobe.com/es/enterprise/using/users.html).
 
 >[!NOTE]
 >
