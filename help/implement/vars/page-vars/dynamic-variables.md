@@ -4,7 +4,7 @@ description: Copiar variables sin aumentar la longitud de la solicitud de imagen
 feature: Variables
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
 ht-degree: 100%
 
