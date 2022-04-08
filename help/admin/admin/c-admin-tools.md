@@ -4,7 +4,7 @@ title: Herramientas de administración
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 + [Administración de móviles](mobile-management.md)
 + [Resumen de detección de búsqueda de pago](paid-search-detection/paid-search-detection.md)
 + [Listas de publicaciones](publishing-list.md)
-+ [Widget de publicaciones](publishing-widgets-admin.md)
++ [Widget de publicación](publishing-widgets-admin.md)
 + [Administrador de preferencias](preferences-manager.md)
 + [Configuración de privacidad](privacy-settings.md)
 + [Resumen de las reglas de procesamiento](c-processing-rules/processing-rules.md)
