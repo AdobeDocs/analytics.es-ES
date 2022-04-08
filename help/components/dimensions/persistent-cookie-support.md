@@ -4,7 +4,7 @@ description: Determina si el visitante puede admitir cookies persistentes.
 feature: Dimensions
 exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
 ht-degree: 100%
 
