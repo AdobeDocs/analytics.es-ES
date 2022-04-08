@@ -4,7 +4,7 @@ description: Número de visitas con exactamente una visita.
 feature: Metrics
 exl-id: fb83957c-9955-4b32-bc0f-53de92e2ba2c
 source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
 ht-degree: 100%
 
