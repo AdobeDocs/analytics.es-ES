@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
 >
 >No manipule el nombre del control. (Para ver el nombre, establezca el foco en el control y aparecerá el nombre de control directamente sobre la cuadrícula de Excel, en la esquina superior izquierda).
 
-## Implementar el control de intervalo de fechas interactivo {#section_39B228F2D2C44985863D31424C953280}
+## Implementación del control de intervalo de fecha interactivo {#section_39B228F2D2C44985863D31424C953280}
 
 1. En el paso 1 del Asistente para solicitudes, seleccione, por ejemplo, el informe **[!UICONTROL Página]**.
 1. Junto al menú desplegable de **[!UICONTROL Fechas más utilizadas]**, haga clic en el icono **[!UICONTROL Configuración de controles]**:
@@ -63,7 +63,7 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
       >
       >Puede utilizar la función de control nativa de Microsoft Excel de cortar/copiar/pegar. Report Builder reconoce automáticamente los controles recientemente añadidos.
 
-## Implementar el control de segmento interactivo {#section_5003D3F724644280BF1BCD6E1B0CB784}
+## Implementación del control de segmento interactivo {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
 Implementar el control de segmento interactivo es similar a implementar el control de intervalo de fechas.
 
