@@ -5,9 +5,9 @@ title: Resumen del reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Compruebe si el servicio Experience Cloud ID (ECID) está implementado. Para ell
 En la pestaña Solicitud, compruebe que haya un valor establecido para ECID. Esto indica que el Servicio de identidad está implementado correctamente, un requisito previo para el reenvío de lado del servidor.
 
 * Si ve un valor para ECID, siga con el paso 2.
-* Si no ve un valor para ECID, [implemente el Servicio de identidad](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) antes de seguir con el paso 2.
+* Si no ve un valor para ECID, [implemente el Servicio de identidad](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=es) antes de seguir con el paso 2.
 
 ## ![imagen step2_icon.png](assets/step2_icon.png) Verificar la versión de implementación de reenvío del lado del servidor
 
@@ -53,7 +53,7 @@ En la pestaña “Respuesta”, compruebe que la respuesta contenga datos de Aud
 
       1. Elimine el código DIL e instale el código de página [Módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es).
       1. Habilite el reenvío del lado del servidor en la interfaz de Administración de Analytics como se describe en el paso 3. Habilitar este ajuste antes de eliminar el código DIL duplica datos y crea llamadas de servidor facturables adicionales a Audience Manager.
-   * **Nuevos clientes de AAM**: instale el código de página [Módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) y siga con el paso 3. No se enviarán datos a Audience Manager hasta que se active el reenvío del lado del servidor en el paso 3.
+   * **Nuevos clientes de AAM**: instale el código de página [Módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es) y siga con el paso 3. No se enviarán datos a Audience Manager hasta que se active el reenvío del lado del servidor en el paso 3.
 
 
 ## ![imagen step3_icon.png](assets/step3_icon.png) Verificación de la implementación de reenvío de lado del servidor del grupo de informes
@@ -70,4 +70,4 @@ Vaya a **Analytics** > **Administración** > **Grupos de informes** > (seleccion
 
 >[!NOTE]
 >
->No aparecerán datos en otras soluciones de Experience Cloud, como [Audience Manager](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.html) o [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es), hasta que haya completado los 3 pasos. Una vez que termine, la configuración tardará varias horas en tener efecto.
+>No aparecerán datos en otras soluciones de Experience Cloud, como [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=es) o [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es), hasta que haya completado los 3 pasos. Una vez que termine, la configuración tardará varias horas en tener efecto.
