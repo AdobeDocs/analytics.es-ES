@@ -4,7 +4,7 @@ description: El número de visitas que se configuró una variable (y no persisti
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
 ht-degree: 100%
 
