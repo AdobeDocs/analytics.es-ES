@@ -4,7 +4,7 @@ description: Cambie el grupo de informes en cualquier momento de la implementaci
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
 ht-degree: 100%
 
