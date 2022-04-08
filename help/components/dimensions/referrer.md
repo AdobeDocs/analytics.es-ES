@@ -4,7 +4,7 @@ description: Dirección URL en la que se encontraba un visitante antes de hacer 
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
 ht-degree: 100%
 
