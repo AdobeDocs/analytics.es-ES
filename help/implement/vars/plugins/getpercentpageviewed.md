@@ -4,7 +4,7 @@ description: Recupere el porcentaje de la página que vio el visitante.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
 ht-degree: 100%
 
