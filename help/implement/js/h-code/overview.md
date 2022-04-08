@@ -4,7 +4,7 @@ description: Conozca el flujo de trabajo para implementar el código H en su sit
 feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
 ht-degree: 100%
 
@@ -40,4 +40,4 @@ El archivo JavaScript se almacena en caché en el explorador del visitante cuand
 
 ## Compresión de código H
 
-Si le preocupa el tamaño de descarga del archivo `s_code.js`, Adobe recomienda comprimir el archivo `s_code.js` con GZIP. GZIP es compatible con todos los exploradores principales y ofrece un mejor rendimiento que la compresión JavaScript. Consulte el [Módulo Apache mod_deflate](https://httpd.apache.org/docs/current/es/mod/mod_deflate.html) en la documentación de Apache.
+Si le preocupa el tamaño de descarga del archivo `s_code.js`, Adobe recomienda comprimir el archivo `s_code.js` con GZIP. GZIP es compatible con todos los exploradores principales y ofrece un mejor rendimiento que la compresión JavaScript. Consulte el [Módulo Apache mod_deflate](https://httpd.apache.org/docs/current/mod/mod_deflate.html) en la documentación de Apache.
