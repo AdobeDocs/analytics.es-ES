@@ -4,7 +4,7 @@ title: Referencia de datos y código del reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Los parámetros prefijados con `d_*` identifican pares clave-valor especiales de
 | `d_rs` | (Se establece con reenvío del lado del servidor heredado/basado en el servidor de seguimiento) <br>Se establece en los grupos de informes pasados con la visita a Analytics. |
 | `d_dst_filter` | (Se establece con el reenvío del lado del servidor basado en grupos de informes) <br>Se establece en los ID de grupo de informes pasados con la visita a Analytics. |
 | `d_dst` | Se establece en `d_dst=1` <br>si la solicitud a Analytics espera contenido acerca del destino que se va a devolver al cliente. |
-| `d_mid` | El ID de Experience Cloud transferido a Analytics. |
+| `d_mid` | El Experience Cloud ID transferido a Analytics. |
 
 ## Encabezados HTTP {#section_0549705E76004F9585224AEF872066C0}
 
@@ -42,7 +42,7 @@ Además, se genera una señal `h_ip` a partir de la IP del host que envía la so
 
 ## Señales definidas por el cliente {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Los parámetros prefijados con `c_` identifican variables definidas por el cliente. Consulte también [Atributos admitidos para llamadas a la API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Los parámetros prefijados con `c_` identifican variables definidas por el cliente. Consulte también [Atributos admitidos para llamadas a la API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=es).
 
 | Señal | Descripción |
 | --- |--- |
