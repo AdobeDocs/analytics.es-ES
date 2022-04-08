@@ -4,7 +4,7 @@ title: Información general sobre Uso de llamadas al servidor
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
 ht-degree: 100%
 
@@ -102,13 +102,13 @@ El permiso de Uso de llamadas al servidor se concede, de forma automática, a lo
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Inicie sesión en Analytics a través de sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Vaya a <span class="ignoretag"> <span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Todos los administradores</span> &gt; <span class="uicontrol">User management</span> &gt; <span class="uicontrol">Grupos </span> &gt; <span class="uicontrol">Editar todo el acceso a informes</span> &gt; <span class="uicontrol">Herramientas de Analytics</span> &gt; <span class="uicontrol">Personalizar</span> &gt; <span class="uicontrol">Uso de llamadas al servidor</span></span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Vaya a <span class="ignoretag"><span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Todos los administradores</span> &gt; <span class="uicontrol">User management</span> &gt; <span class="uicontrol">Grupos </span> &gt; <span class="uicontrol">Editar todo el acceso a informes</span> &gt; <span class="uicontrol">Herramientas de Analytics</span> &gt; <span class="uicontrol">Personalizar</span> &gt; <span class="uicontrol">Uso de llamadas al servidor</span></span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">Inicie sesión en login.experiencecloud.adobe.com.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Haga clic en <span class="uicontrol">Analytics</span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Vaya a <span class="ignoretag"><span class="uicontrol"> Productos</span> &gt; <span class="uicontrol">Product Profile</span> &gt; <span class="uicontrol">Permisos</span> &gt; <span class="uicontrol">Herramientas Analytics</span> &gt; <span class="uicontrol">Uso de llamadas al servidor</span></span>. </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Vaya a <span class="ignoretag"><span class="uicontrol">Productos</span> &gt; <span class="uicontrol">Product Profile</span> &gt; <span class="uicontrol">Permisos</span> &gt; <span class="uicontrol">Herramientas Analytics</span> &gt; <span class="uicontrol">Uso de llamadas al servidor</span></span>. </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
