@@ -4,7 +4,7 @@ description: Establecer manualmente la marca de tiempo de la visita.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ s.timestamp = new Date().toISOString();
 
 ## Valores ISO 8601
 
-Las fechas y horas expresadas de conformidad con la norma [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) pueden adoptar diferentes formas. Adobe no admite algunas de las formas descritas en la norma ISO 8601.
+Las fechas y horas expresadas de conformidad con la norma [ISO 8601](https://es.wikipedia.org/wiki/ISO_8601) pueden adoptar diferentes formas. Adobe no admite algunas de las formas descritas en la norma ISO 8601.
 
 * La fecha y la hora deben proporcionarse separadas por una `T`.
 * Es obligatorio detallar las horas y los minutos; los segundos son opcionales pero se recomiendan.
