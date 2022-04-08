@@ -4,9 +4,9 @@ description: Permite crear nuevas cuentas de publicidad y asignar varias cuentas
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '819'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Los administradores también pueden [conceder acceso a los usuarios que no son a
    | --- | --- |
    | Tipo | Dispone de 2 opciones: Google AdWords y Microsoft Bing Ads.  Nota: El 31 de marzo de 2019, Microsoft Bing absorbió Yahoo Gemini. Como resultado, la opción de cuenta publicitaria de Yahoo Gemini ya no está disponible. |
    | Nombre de la cuenta | Como nombre de esta cuenta, puede elegir el nombre que mejor le parezca. Este es el nombre sencillo de la cuenta que aparecerá en la IU. |
-   | Autenticador de OAuth | **Nota:** OAuth es un estándar abierto para la delegación de acceso, usado por lo general como una manera de conceder a los sitios web o a las aplicaciones acceso a su información en otros sitios web, pero sin proporcionarles las contraseñas. Verá que se le redirigirá a una URL de terceros (efrontier.com). Adobe utiliza efrontier como base del proceso de autenticación de OAuth para los tres motores de búsqueda. Si utiliza Internet Explorer 11 (o una versión anterior), no podrá recuperar correctamente el autenticador de OAuth para ninguno de los tres motores de búsqueda. En su lugar, utilice otros navegadores web.<p>Al hacer clic en **[!UICONTROL Recuperar autenticador]**, se inicia el proceso de autenticación de OAuth2. Se le pedirá que inicie sesión en su cuenta de búsqueda de Google/Bing con sus credenciales. En función del motor de búsqueda que haya elegido, el proceso es ligeramente diferente: <ul><li>Google AdWords: proporcione el identificador de la cuenta de Google</li><li>Microsoft Bing: proporcione el identificador de la cuenta de Bing y el identificador de cliente de Bing.</li></ul>Consulte [Localizar el identificador de cuenta](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) para obtener información sobre estos identificadores. Una vez que haya iniciado sesión correctamente, la variable **[!UICONTROL Token de OAuth]** visualizaciones de campo **[!UICONTROL Recuperado]**. |
+   | Autenticador de OAuth | **Nota:** OAuth es un estándar abierto para la delegación de acceso, usado por lo general como una manera de conceder a los sitios web o a las aplicaciones acceso a su información en otros sitios web, pero sin proporcionarles las contraseñas. Observará que se le dirige a una dirección URL de terceros (efrontier.com). Adobe utiliza efrontier como base del proceso de autenticación de OAuth para los tres motores de búsqueda. Si utiliza Internet Explorer 11 (o una versión anterior), no podrá recuperar correctamente el token de OAuth para ninguno de los tres motores de búsqueda. En su lugar, utilice otros exploradores web.<p>Al hacer clic en **[!UICONTROL Recuperar token]**, se inicia el proceso de autenticación de OAuth2. Se le pedirá que utilice sus credenciales para iniciar sesión en la cuenta de búsqueda de Google/Bing. En función del motor de búsqueda que haya elegido, el proceso es ligeramente diferente: <ul><li>Google AdWords: proporcione el identificador de la cuenta de Google</li><li>Microsoft Bing: proporcione el identificador de la cuenta de Bing y el identificador de cliente de Bing.</li></ul>Consulte [Localice el identificador de cuenta](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) para obtener información sobre estos identificadores. Cuando haya iniciado sesión correctamente, en el campo **[!UICONTROL Token de OAuth]** se mostrará la palabra **[!UICONTROL Recuperado]**. |
 
 1. En la sección **[!UICONTROL Seguimiento]**, debe proporcionar información sobre cómo la implementación de Adobe Analytics realiza un seguimiento de los datos del motor de búsqueda. Este paso es necesario para incrementar adecuadamente los datos de Adobe Analytics con los datos del motor de búsqueda.
 Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimiento]**:
