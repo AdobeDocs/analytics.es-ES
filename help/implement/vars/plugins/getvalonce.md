@@ -4,7 +4,7 @@ description: Impida que una variable de Analytics se establezca en el mismo valo
 feature: Variables
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
 ht-degree: 100%
 
