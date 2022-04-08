@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo navegar por la interfaz de fuentes
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
 ht-degree: 100%
 
