@@ -4,7 +4,7 @@ description: Cree segmentos óptimos que devuelvan datos de forma eficaz.
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
 ht-degree: 100%
 
