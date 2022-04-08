@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear informes basados en audienci
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1715'
 ht-degree: 100%
 
