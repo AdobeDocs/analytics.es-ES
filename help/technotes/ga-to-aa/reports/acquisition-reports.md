@@ -4,9 +4,9 @@ description: Información sobre la creación de informes basados en adquisicione
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1578'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Los informes de fuente y medio muestran los dominios que condujeron el tráfico 
 Consulte las siguientes páginas en la Guía del usuario de componentes para obtener más información sobre sus dimensiones:
 
 * [Dominio de referencia](/help/components/dimensions/referring-domain.md)
-* [Tipo de referente](/help/components/dimensions/referrer-type.md)
+* [Tipo de remitente](/help/components/dimensions/referrer-type.md)
 * [Palabra clave de búsqueda](/help/components/dimensions/search-keyword.md)
 
 ## Todo el tráfico: referencias
