@@ -5,7 +5,7 @@ title: Clasificaciones
 feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Consulte las [clasificaciones](https://experienceleague.adobe.com/docs/analytics
 
 La cantidad de tiempo que el sistema necesita para importar estos archivos varía en función de diversos factores. Si un archivo cargado está en el servidor FTP pasados más de tres días, colabore con los usuarios de soporte técnico de su compañía para ponerse en contacto con el Servicio de atención al cliente de Adobe.
 
-Las importaciones que se llevan a cabo correctamente enseguida muestran los cambios correspondientes en una exportación, mientras que los cambios de datos en Analytics pueden tardar hasta cuatro horas con una importación por navegador y hasta 24 horas con una importación por FTP.
+Las importaciones que se llevan a cabo correctamente enseguida muestran los cambios correspondientes en una exportación, mientras que los cambios de datos en Analytics pueden tardar hasta cuatro horas con una importación por explorador y hasta 24 horas con una importación por FTP.
 
 Para obtener información sobre los límites de FTP y la retención de datos, consulte [Límites de FTP y retención de datos](/help/export/ftp-and-sftp/ftp-limits.md).
 
