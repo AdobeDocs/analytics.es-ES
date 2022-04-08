@@ -4,7 +4,7 @@ title: Tiempo de espera necesario para aumentos de tráfico
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Respete las siguientes normas para determinar la antelación del envío de alert
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Hasta 1,000,000 </td>
+   <td colname="col1"> Hasta 1 000 000 </td>
    <td colname="col2"> No existe tiempo de espera necesario </td>
    <td colname="col3"> No existe tiempo de espera necesario </td>
   </tr>
