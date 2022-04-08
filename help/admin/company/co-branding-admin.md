@@ -4,9 +4,9 @@ title: Promoción conjunta de marca
 feature: Company Settings
 exl-id: 0297086d-4bff-44ab-9ad2-4f036215a2f9
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '73'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 84%
 
 La página Administrar imagen de promoción conjunta de marca le permite mostrar el logotipo de su empresa en los informes descargados y los paneles heredados de Reports &amp; Analytics. La promoción conjunta de marca no se utiliza en Analysis Workspace.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración de la empresa]** > **[!UICONTROL Promoción conjunta de marca con Adobe Experience Cloud]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Toda la administración]** > **[!UICONTROL Configuración de la compañía]** > **[!UICONTROL Promoción conjunta de marca con Adobe Experience Cloud]**
 
 Siga las siguientes instrucciones para que la imagen aparezca mejor:
 
