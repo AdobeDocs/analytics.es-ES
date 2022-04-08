@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
-> Estas restricciones se aplican únicamente a la opción “Publicar solicitudes de Report Builder como tablas de conjuntos de datos de Power BI”.
+> Estas restricciones se aplican únicamente a la opción Publicar solicitudes de Report Builder como tablas de conjuntos de datos de Power BI.
 
 * Se puede exportar a Power BI un máximo de 100 solicitudes de Report Builder por cada libro.
 * El proceso de programación detendrá las solicitudes de exportación al alcanzar la 101.ª solicitud.
@@ -27,7 +27,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
-> Esta especificación se aplica a las opciones “Publicar todas las solicitudes de Report Builder como tablas de conjunto de datos de Power BI” y “Publicar todas las tablas con formato en el libro como tablas de conjuntos de datos de Power BI”.
+> Esta especificación se aplica a las opciones Publicar todas las solicitudes de Report Builder como tablas de conjunto de datos de Power BI y Publicar todas las tablas con formato en el libro como tablas de conjuntos de datos de Power BI.
 
 Editar una solicitud de Report Builder tras su publicación en Power BI puede causar problemas.
 
@@ -62,12 +62,12 @@ Editar una solicitud de Report Builder tras su publicación en Power BI puede ca
 
 * **Caso 2**: ancla una sección de su libro a un tablero de Power BI y, más adelante, elimina del libro dicha sección (por ejemplo, un gráfico o una tabla). De este modo se produce un error de visualización.
 
-## Cambiar el nombre de un informe de Power BI {#section_2E7893A78B914EBFACB2B08CBD9E472E}
+## Cambio de nombre de un informe de Power BI {#section_2E7893A78B914EBFACB2B08CBD9E472E}
 
 De forma predeterminada, el nombre se rellena con el nombre de archivo del libro (sin la extensión .xlsx), aunque reemplazando los espacios con caracteres de guion bajo.
 
 Tenga en cuenta que
 
 * La etiqueta no puede ser una combinación de letras y números que pueda confundirse con una dirección de fila o columna. Por ejemplo, no puede haber una etiqueta A100 porque es una dirección de celda en un libro.
-* Los caracteres siguientes no son caracteres de etiqueta válidos: `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;, y `'~', ' '` . Se sustituyen por un carácter de guion bajo.
+* Los siguientes caracteres no son válidos en las etiquetas: `'#', '@', '!', '$', '^', '&', '&#42;', '` y `'~', ' '`. Se reemplazarán por caracteres de guion bajo.
 * Si introduce un nombre no válido, aparece un mensaje de error que le sugiere un nombre generado automáticamente. Si hace clic en **[!UICONTROL Sí]**, se utilizará dicho nombre. Si hace clic en **[!UICONTROL No]**, la interfaz de usuario del Asistente avanzado le permitirá introducir uno nuevo.
