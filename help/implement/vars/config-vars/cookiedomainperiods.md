@@ -4,7 +4,7 @@ description: Ayudar a AppMeasurement a comprender qué dominio almacenará cooki
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
 ht-degree: 100%
 
