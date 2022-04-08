@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Al hacer clic en **[!UICONTROL Recuperar los tableros]** o **[!UICONTROL Recuper
 
 >[!NOTE]
 >
->En Report Builder, la lista de paneles y marcadores disponibles está limitada al usuario, pero también a los que se aplican al grupo de informes que ha seleccionado en el paso 1 del asistente. Por el contrario, en los informes y análisis de marketing obtiene acceso a todos los marcadores y tableros que le son accesibles, independientemente de qué grupos de informes utilicen dichos tableros y marcadores.
+>En Report Builder, la lista de paneles y marcadores disponibles está limitada al usuario, pero también a los que se aplican al grupo de informes que ha seleccionado en el paso 1 del asistente. Por el contrario, en los informes y análisis de marketing obtiene acceso a todos los marcadores y paneles que le son accesibles, independientemente de qué grupos de informes utilicen dichos paneles y marcadores.
 
 >[!NOTE]
 >
