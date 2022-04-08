@@ -4,7 +4,7 @@ description: Elimine un valor específico de una cadena delimitada por caractere
 feature: Variables
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
 ht-degree: 100%
 
@@ -333,7 +333,7 @@ s.events = rfl(s.events,"event23,event24");
 s.events = "event22,event23,event24,event25";
 ```
 
-No se admite la configuración de varios valores en el argumento `vr`. La lógica `rfl` del ejemplo anterior primero dividiría los valores del argumento `lv` (es decir, s.events) y luego trataría de hacer coincidir cada valor del argumento completo (es decir `vr` argument value (i.e. `"event23,event24"`).
+No se admite la configuración de varios valores en el argumento `vr`. La lógica `rfl` del ejemplo anterior primero dividiría los valores del argumento `lv` (es decir, s.events) y luego trataría de hacer coincidir cada valor del argumento completo es decir `vr` argument value (i.e. `"event23,event24"`).
 
 ### Ejemplo 13
 
