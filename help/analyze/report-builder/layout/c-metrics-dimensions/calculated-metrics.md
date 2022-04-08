@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Report Builder 5.2 es compatible con las métricas calculadas unificadas de Adob
 >
 >Los libros de trabajo existentes pueden apuntar a solicitudes con identificadores de métricas antiguas. Al usar Report Builder 5.2, dichos identificadores de métricas antiguas se convertirán en identificadores globales nuevos. Si comparte el libro de trabajo con un usuario de Report Builder 5.1 u otra anterior, dicho usuario no podrá consultar las métricas calculadas.
 
-Para obtener más información acerca de cómo crear y administrar métricas calculadas con los nuevos Creador de métricas calculadas y Administrador, consulte la guía [Métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html).
+Para obtener más información acerca de cómo crear y administrar métricas calculadas con los nuevos Creador de métricas calculadas y Administrador, consulte la guía [Métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=es).
 
 En el paso 2 del Asistente de solicitudes, puede filtrar y aplicar métricas calculadas.
 
