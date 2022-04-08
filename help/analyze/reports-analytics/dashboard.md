@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1827'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,11 +42,11 @@ Debe tener en cuenta que algunos de los informes visualizados con más frecuenci
 
 Además de los tableros que cree, se incluyen los siguientes tableros empaquetados previamente para cada usuario:
 
-**[!UICONTROL Componentes] > [!UICONTROL Todos los componentes] > [!UICONTROL Tableros] > [!UICONTROL Tableros compartidos] > [!UICONTROL Sitios locales]**
+**[!UICONTROL Componentes] > [!UICONTROL Todos los componentes] > [!UICONTROL Paneles] > [!UICONTROL Paneles compartidos] > [!UICONTROL Sitios locales]**
 
 Este tablero se puede personalizar y permite soltar informes breves en la plantilla proporcionada.
 
-**[!UICONTROL Componentes] > [!UICONTROL Todos los componentes] > [!UICONTROL Tableros] > [!UICONTROL Tableros compartidos] > [!UICONTROL Tablero de operaciones del sitio]**
+**[!UICONTROL Componentes] > [!UICONTROL Todos los componentes] > [!UICONTROL Paneles] > [!UICONTROL Paneles compartidos] > [!UICONTROL Tablero de operaciones del sitio]**
 
 Este tablero proporciona información general sobre las métricas clave relacionadas con las operaciones del sitio web. Los informes de este tablero incluyen:
 
@@ -215,14 +215,14 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración de la empresa]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Toda la administración]** > **[!UICONTROL Configuración de la compañía]**.
 1. En la página [!UICONTROL Configuración de empresa], haga clic en **[!UICONTROL Promocionar conjuntamente Adobe Experience Cloud]**.
 1. Haga clic en **[!UICONTROL Habilitar promoción conjunta de marca]**.
 1. Examine para cargar la imagen y, a continuación, haga clic en **[!UICONTROL Guardar]**.
 
    Para obtener mejores resultados al ver la imagen en un explorador, cargue una imagen de 100 px por 30 px. Para obtener mejores resultados en el archivo PDF, cargue una imagen de 417 px por 125 px (300 ppp). Las imágenes de gran tamaño se reducen y se conserva la relación de aspecto.
 
-## Usar segmentos con tableros {#concept_ED030C3713D54D03971FB7B209285750}
+## Uso de segmentos con tableros {#concept_ED030C3713D54D03971FB7B209285750}
 
 Los tableros, como la mayoría de los informes de Adobe Analytics, pueden usar segmentos para recuperar la información que desee.
 
