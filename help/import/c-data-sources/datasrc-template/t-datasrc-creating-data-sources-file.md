@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,16 +16,16 @@ ht-degree: 98%
 
 El archivo de plantilla de importaciones está diseñado para proporcionarle los conceptos básicos de importación.
 
-No es obligatorio usar nada más las columnas definidas en la plantilla, sino que se pueden agregar otras columnas que se necesiten, siempre que la métrica o la definición sea compatible con el tipo de procesamiento de datos seleccionado. Para saber cuáles son las métricas y dimensiones compatibles con cada tipo, consulte las siguientes secciones: [Registro web](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md), [Tráfico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md), [Conversión](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md), [ID de transacción](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md), [ID de visitante](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md), [Procesamiento completo](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)). Por ejemplo, para un tipo de datos de tráfico, se puede agregar una columna para cualquiera de las métricas o dimensiones que se enumeran en [Tráfico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md).
+No es obligatorio usar nada más las columnas definidas en la plantilla, Se pueden añadir otras columnas que se necesiten, siempre que la métrica o la definición sea compatible con el tipo de procesamiento de datos seleccionado. Para saber cuáles son las métricas y dimensiones compatibles con cada tipo, consulte las siguientes secciones: [Registro web](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md), [Tráfico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md), [Conversión](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md), [ID de transacción](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md), [ID de visitante](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md), [Procesamiento completo](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)). Por ejemplo, para un tipo de datos de tráfico, se puede agregar una columna para cualquiera de las métricas o dimensiones que se enumeran en [Tráfico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md).
 
 Una vez creada la plantilla, puede descargarla, escribir los datos en ella y cargar el archivo al sitio FTP del sistema de fuentes de datos. En cuanto el servidor de fuentes de datos procese los datos importados, estos ya se podrán usar en informes de Analytics.
 
-La plantilla de la fuente de datos es un archivo .txt que se puede abrir con cualquier editor de texto. Sin embargo, es más fácil trabajar con la plantilla en Microsoft Excel u otra aplicación de hoja de cálculo. El contenido de la plantilla depende de las opciones que se elijan en el asistente para la activación de fuentes de datos.
+La plantilla de la fuente de datos es un archivo .txt que se puede abrir con cualquier editor de texto. Sin embargo, es más fácil trabajar con la plantilla en Microsoft Excel u otra aplicación de hojas de cálculo. El contenido de la plantilla depende de las opciones que se elijan en el asistente para la activación de fuentes de datos.
 
 Consulte [Referencia sobre el archivo de importación](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) para obtener más detalles.
 
 1. Iniciar sesión en Analytics.
-1. En el encabezado de Suite, seleccione **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Fuentes de datos]**.
+1. En la Suite, haga clic en **[!UICONTROL Administradores]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Fuentes de datos]**.
 1. En la pestaña **[!UICONTROL Crear de Fuentes de datos]**, elija una categoría de plantilla y un tipo.
 1. Revise las instrucciones o la información de activación y haga clic en **[!UICONTROL Activar]**.
 
