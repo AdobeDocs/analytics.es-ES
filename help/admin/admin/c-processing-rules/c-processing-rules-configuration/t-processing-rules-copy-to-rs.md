@@ -5,7 +5,7 @@ title: Copiar reglas de procesamiento en otro grupo de informes
 feature: Processing Rules
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
 ht-degree: 100%
 
