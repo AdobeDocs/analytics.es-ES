@@ -4,7 +4,7 @@ description: Obtenga el último valor que se haya pasado a una variable.
 feature: Variables
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '664'
 ht-degree: 100%
 
