@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo mitigar el efecto de las limitacio
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
 ht-degree: 100%
 
@@ -38,4 +38,4 @@ Para obtener información práctica sobre los pasos que su empresa puede seguir 
 
 >[!MORELIKETHIS]
 >
->[Adobe Analytics y cookies de explorador](cookies.md)
+>[Cookies de Adobe Analytics y de explorador](cookies.md)
