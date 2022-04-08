@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ Si se envía un archivo UTF-8 o ISO-8859-1 y el grupo de informes no está confi
 * Los informes más útiles para ver datos de registro web son los informes de tráfico como, por ejemplo, el de vistas de páginas.
 * Los nombres de las páginas se muestran como direcciones URL completas, incluida la parte de consulta.
 * Cada solicitud de archivo individual se muestra como una vista de página independiente; esto incluye las hojas de estilo y los archivos de imagen.
-* Si se añade información a la URL, puede ocurrir que los archivos se registren como páginas separadas. Por ejemplo, Adobe registra las siguientes direcciones URL como dos páginas separadas:
+* Si se añade información a la URL, puede ocurrir que los archivos se registren como páginas separadas. Por ejemplo, Adobe registrará las siguientes direcciones URL como dos páginas separadas:
 
 `/jokes/misc/snail_joke.html?userid=12345`
 
