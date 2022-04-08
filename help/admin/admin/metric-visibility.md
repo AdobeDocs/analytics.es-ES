@@ -4,7 +4,7 @@ title: Visibilidad de las métricas
 feature: Admin Tools
 exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Esta configuración no afecta a la recopilación de datos de esa métrica. Solo 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Oculto en todas partes</b> </td> 
-   <td colname="col2"> N/D </td> 
+   <td colname="col2"> N/A </td> 
    <td colname="col3"> 
     <ul id="ul_CB9780D567BD4DBA90C092DDA892BF41"> 
      <li id="li_CF90047F78FD4BB28E90E95B9B367445">Reports &amp; Analytics (menú y selector de métricas) </li> 
