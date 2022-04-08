@@ -4,9 +4,9 @@ title: Estimar las llamadas al servidor anteriores y programar un pico de tráfi
 feature: Traffic Management
 exl-id: 1076ffbf-95a7-478c-a597-04bb3890e4a0
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 Le permite obtener el promedio diario de llamadas al servidor correspondiente a un lapso de tiempo específico del año pasado, además de un aumento esperado del volumen de llamadas de este año. Así, podrá programar un pico de tráfico basado en este factor de multiplicación.
 
-1. Inicie sesión en Analytics como administrador y vaya a **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administración del tráfico]**.
+1. Inicie sesión en Analytics como administrador y vaya a **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Administración del tráfico]**.
 
 1. Haga clic en **[!UICONTROL Ampliar]** para ampliar la lista de grupos de informes y haga clic en **[!UICONTROL Seleccionar grupos de informes]** para seleccionar varios grupos de informes.
 
