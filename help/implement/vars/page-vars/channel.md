@@ -4,7 +4,7 @@ description: Rellene la dimensión “Secciones del sitio”.
 feature: Variables
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
 ht-degree: 100%
 
