@@ -4,7 +4,7 @@ description: Agrega eventos personalizados a la variable products y events.
 feature: Variables
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
 ht-degree: 100%
 
