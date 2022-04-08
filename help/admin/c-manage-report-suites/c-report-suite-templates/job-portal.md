@@ -4,7 +4,7 @@ title: Portal de trabajo
 feature: Report Suite Settings
 exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
-| Visitas | Contador (sin subrelaciones) | N/D |
-| Vistas de páginas | Contador (sin subrelaciones) | N/D |
-| Visitantes únicos diarios | Contador (sin subrelaciones) | N/D |
-| Visitantes únicos | Contador (sin subrelaciones) | N/D |
+| Visitas | Contador (sin subrelaciones) | N/A |
+| Vistas de páginas | Contador (sin subrelaciones) | N/A |
+| Visitantes únicos diarios | Contador (sin subrelaciones) | N/A |
+| Visitantes únicos | Contador (sin subrelaciones) | N/A |
