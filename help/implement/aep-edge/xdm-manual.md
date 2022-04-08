@@ -4,7 +4,7 @@ description: Asignación manual de datos XDM de Experience Platform a Adobe Anal
 feature: AEP Edge
 exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Para que los utilice Analytics, los datos XDM se acoplan con notación de puntos
 
 ## Reglas de procesamiento
 
-Se puede acceder a todos los datos recopilados por la red perimetral mediante [reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html). En Analytics, puede utilizar reglas de procesamiento para incorporar datos de contexto en variables de Analytics.
+Se puede acceder a todos los datos recopilados por la red perimetral mediante [reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html?lang=es). En Analytics, puede utilizar reglas de procesamiento para incorporar datos de contexto en variables de Analytics.
 
 Por ejemplo, en la regla siguiente, Analytics está configurado para rellenar los **términos de búsqueda interna (eVar2)** con los datos asociados con **a.x_atag.search.term(Context Data)**.
 
@@ -83,4 +83,4 @@ alloy("event",{
 });
 ```
 
-Para obtener más información sobre el seguimiento de eventos con el SDK web de AEP, consulte [Seguimiento de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html).
+Para obtener más información sobre el seguimiento de eventos con el SDK web de AEP, consulte [Seguimiento de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=es).
