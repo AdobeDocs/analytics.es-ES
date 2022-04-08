@@ -4,7 +4,7 @@ title: No especificado, Ninguno, Otro y Desconocido en los informes
 feature: Analytics Basics
 exl-id: 35451239-91f3-400a-981e-8c3fbc0e4185
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ El estado “Desconocido” se puede producir bajo determinadas circunstancias:
 * **Visitas que no son de explorador al ver informes de tecnología:** si una biblioteca de AppMeasurement no puede determinar si una función es compatible, en los informes se muestra “Desconocido”.
 * **Uso de segmentos en los que no se puede acceder a los componentes:** asegúrese de que las variables utilizadas en un segmento estén habilitadas y de que los usuarios puedan acceder a ellas. Si un usuario no tiene acceso a un componente de segmento, o si una variable está deshabilitada, se muestra “Desconocido”.
 
-## Filtrado de estos valores en los informes {#section_5536E2B419D445D39C932E8F12C0070C}
+## Filtrado de estos valores en la creación de informes {#section_5536E2B419D445D39C932E8F12C0070C}
 
 En la mayoría de las circunstancias, estos elementos de línea se pueden ignorar con seguridad. El filtro de búsqueda puede utilizarse para eliminarlos si lo desea.
 
