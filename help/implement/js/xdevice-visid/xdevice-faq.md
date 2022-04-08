@@ -4,7 +4,7 @@ description: Preguntas frecuentes sobre la identificación de visitantes entre d
 feature: Implementation Basics
 exl-id: da972fee-fe6e-45b2-af01-50674989c375
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
 ht-degree: 100%
 
