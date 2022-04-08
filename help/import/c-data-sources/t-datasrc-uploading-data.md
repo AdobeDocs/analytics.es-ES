@@ -5,9 +5,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 8b7fa32c-01f2-452b-bf8e-8a81da266926
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '293'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Después de preparar un archivo de fuente de datos, debe enviarlo al sistema de 
    El archivo [!DNL .fin] debe tener el mismo nombre que el archivo de fuente de datos, a excepción de la extensión de archivo. Adobe solamente colocará el archivo de fuente de datos en la cola de procesamiento cuando se cargue el archivo [!DNL .fin].
 
    No cargue el archivo hasta que se acaben de cargar todos los archivos de fuente de datos. Si no espera, puede que las fuentes de datos intenten procesar un archivo incompleto.
-1. Una vez cargado el archivo .fin, es importante que cierre la sesión del sitio FTP de fuentes de datos. El motivo es que Analytics utiliza eventos de cierre de sesión como déclencheur para indicar que los archivos están listos para procesarse.
+1. Una vez cargado el archivo .fin, es importante que cierre la sesión del sitio FTP de fuentes de datos. El motivo es que Analytics utiliza eventos de cierre de sesión como un activador para indicar que los archivos están listos para procesarse.
 1. Durante el procesamiento del archivo de fuente de datos, observe si aparece algún mensaje del sistema.
 
    Si durante el procesamiento del archivo se producen errores, el Administrador de fuentes de datos mostrará un mensaje relacionado.
