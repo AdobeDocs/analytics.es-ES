@@ -4,7 +4,7 @@ description: La exportación del explorador permite exportar los datos de clasif
 feature: Classifications
 exl-id: f4c709b2-f707-4e3c-82ba-6b43def3e698
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '627'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ El archivo del conjunto de datos es un archivo de datos delimitado por tabulador
 
 | Elemento | Descripciones |
 | --- | --- |
-| Seleccionar grupo de informes | Selecciona el grupo de informes desde el que se desea exportar los datos del informe. |
+| Seleccionar grupo de informes | Seleccione el grupo de informes desde el que desea exportar los datos del informe. |
 | Conjunto de datos a clasificar | Desde el menú desplegable, seleccione el conjunto de datos que se debe clasificar. |
 | Seleccionar cantidad de filas | Especifica el número de filas de datos que debe exportarse.<ul><li>Seleccione **[!UICONTROL Todo]** para exportar todos los datos del informe (máximo 50 000 filas).</li><li>Seleccione **[!UICONTROL Limitar filas de datos a]** si desea indicar un número concreto de filas a descargar.</li></ul>Si desea descargar más de 50 000 filas de datos, utilice la opción de descarga mediante FTP. |
 | Filtrar por fecha de recepción | Opcional. Filtra los datos por fecha de recepción. Debe especificarse el intervalo de fecha cuyos datos van a descargarse. |
