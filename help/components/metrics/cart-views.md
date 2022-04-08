@@ -4,7 +4,7 @@ description: El número de visitas en las que un visitante vio el carro de compr
 feature: Metrics
 exl-id: f181df60-4dec-47a1-ac6b-a162463c370f
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '69'
 ht-degree: 100%
 
