@@ -4,7 +4,7 @@ description: Para los sitios de comercio electrónico, establece la moneda que u
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Los siguientes códigos de moneda son válidos:
 | `BMD` | Dólar bermudeño |
 | `BND` | Dólar de Brunei |
 | `BOB` | Boliviano |
-| `BRL` | Real |
+| `BRL` | Real de Brasil |
 | `BSD` | Dólar bahameño |
 | `BTN` | Ngultrum butanés |
 | `BWP` | Pula de Botsuana |
@@ -96,7 +96,7 @@ Los siguientes códigos de moneda son válidos:
 | `CVE` | Escudo caboverdiano |
 | `CYP` | Libra chipriota |
 | `CZK` | Corona checa |
-| `DJF` | Franco de Djibouti |
+| `DJF` | Franco de Yibuti |
 | `DKK` | Corona danesa |
 | `DOP` | Peso dominicano |
 | `DZD` | Dinar argelino |
@@ -105,11 +105,11 @@ Los siguientes códigos de moneda son válidos:
 | `ERN` | Nakfa de Eritrea |
 | `ETB` | Birr de Etiopía |
 | `EUR` | Euro |
-| `FJD` | Dólar fijiano |
+| `FJD` | Dólar fiyiano |
 | `FKP` | Libra malvinense |
 | `GBP` | Libra esterlina |
 | `GEL` | Lari georgiano |
-| `GGP` | Libra de Guernesey |
+| `GGP` | Libra de Guernsey |
 | `GHC` | Cedi ghanés |
 | `GIP` | Libra gibraltareña |
 | `GMD` | Dalasi de Gambia |
@@ -140,7 +140,7 @@ Los siguientes códigos de moneda son válidos:
 | `KRW` | Won surcoreano |
 | `KWD` | Dinar kuwaití |
 | `KYD` | Dólar de las Islas Caimán |
-| `KZT` | Tenge de Kazajstán |
+| `KZT` | Tenge de Kazajistán |
 | `LAK` | Kip laosiano |
 | `LBP` | Libra libanesa |
 | `LKR` | Rupia esrilanquesa |
