@@ -4,9 +4,9 @@ title: Programar una solicitud recurrente
 feature: Data Warehouse
 exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '74'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
