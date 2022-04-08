@@ -5,7 +5,7 @@ title: Funcionamiento de las reglas de procesamiento
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Las reglas de procesamiento permiten realizar cambios en los datos según cierta
 
 Las reglas de procesamiento se aplican a los datos según se van recopilando y a todos los datos que pasan a través de las bibliotecas AppMeasurement y a través de la API de inserción de datos. Las reglas de procesamiento también se aplican a las fuentes de datos de registro y completas. Estas fuentes contienen datos que representan una *`hit`* o una acción que realiza un usuario. Las reglas de procesamiento no se aplican a otras fuentes de datos.
 
-## Conceptos básicos {#section_EB138775E7C64C74B0D1D3213F7A823C}
+## Conceptos importantes {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
 La siguiente tabla contiene los principales conceptos que debe comprender al utilizar reglas de procesamiento:
 
