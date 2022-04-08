@@ -5,7 +5,7 @@ keywords: página de salida, sección del sitio de salida, servidor de salida, c
 feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
 ht-degree: 100%
 
