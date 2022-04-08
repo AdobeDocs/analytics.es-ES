@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '903'
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Las categorías ofrecen un modo de agrupar las fuentes de datos según la perspe
 | Fuente de datos | Tipo de procesamiento | Descripción |
 | --- | --- | --- |
 | [!UICONTROL Fuente de datos genérica (solo datos de resumen)] | [Conversión](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md) | Utilice esta fuente de datos cuando no haya otra que coincida más con el tipo de datos que desea importar a informes y análisis de marketing. |
-| [!UICONTROL Fuente de datos genérica (procesamiento completo)] | Procesamiento completo | Adobe dejó de utilizar las fuentes de datos de procesamiento completo el 31 de enero de 2022. [Más información](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md). Adobe recomienda usar la [API de inserción de datos en lote (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=es) en su lugar. |
+| [!UICONTROL Fuente de datos genérica (procesamiento completo)] | Procesamiento completo | Adobe dejó de utilizar las fuentes de datos de procesamiento completo el 31 de enero de 2022. [Más información](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md). Adobe recomienda usar la [API de inserción de datos en lote (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) en su lugar. |
 | [!UICONTROL Fuente de datos genérica (ID de transacción)] | <ul><li>ID de transacción</li><li>ID de visitante</li></ul> | Permite vincular cualquier evento que se produce sin conexión con otro que se produce con conexión. El [!UICONTROL ID de transacción] actúa como una clave que vincula los eventos sin conexión con los eventos en línea. |
 
 ## Compras en línea {#purchases}
