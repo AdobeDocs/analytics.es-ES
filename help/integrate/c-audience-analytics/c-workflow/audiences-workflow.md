@@ -1,19 +1,19 @@
 ---
-description: Cómo aprovisionar, compartir y utilizar datos de audiencia.
+description: Aprovisionar, compartir y utilizar datos de audiencia.
 solution: Analytics
-title: Flujo de trabajo de Audience Analytics sobre validación
+title: Flujo de trabajo de Audience Analytics información general
 feature: Audience Analytics
 exl-id: 507e02f8-dbfa-4011-99be-6242b392669f
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '115'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Resumen del flujo de trabajo del Audience Analytics
+# Resumen del flujo de trabajo de Audience Analytics
 
-Cómo aprovisionar, compartir y usar datos de audiencia.
+Aprovisionar, compartir y utilizar datos de audiencia.
 
 | Paso # | Descripción de tarea | Notas |
 |--- |--- |--- |
