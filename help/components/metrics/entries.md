@@ -4,7 +4,7 @@ description: Instancia del primer valor de una visita.
 feature: Metrics
 exl-id: f5d359ce-e6ac-4f80-a30b-ff78cc5fc8dc
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
 ht-degree: 100%
 
