@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Report Builder incluye un panel de segmentación en el paso 1 del Asistente para
 
 ![](assets/seg_dialog.png)
 
-## Añadir o editar segmentos {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
+## Adición o edición de segmentos {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Report Builder incluye un panel de segmentación en el paso 1 del Asistente para
 >
 >La lista se almacena en caché y el segmento recién creado no aparecerá a menos que la actualice.
 
-## Crear segmentos en contexto {#section_6DD2C663B2854469AA1075438F907678}
+## Creación de segmentos en contexto {#section_6DD2C663B2854469AA1075438F907678}
 
 Es posible que tenga combinaciones específicas de dimensiones de informe que desee convertir en un segmento. Puede crear estos segmentos desde la interfaz de Report Builder. Por ejemplo, seleccione algunas páginas de un resultado de solicitud de Página y cree un segmento basado en esos valores.
 
@@ -52,7 +52,7 @@ Es posible que tenga combinaciones específicas de dimensiones de informe que de
 
 ## Buscar y aplicar segmentos {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Cualquier segmento que se haya creado en Reports &amp; Analytics, Report Builder o el Data Warehouse aparecerá en esta lista de segmentos. Para actualizar la lista, haga clic en el icono Actualizar (![](assets/refresh_icon.png)).
+Cualquier segmento que se haya creado en Reports &amp; Analytics, Report Builder o Data Warehouse aparecerá en esta lista de segmentos. Para actualizar la lista, haga clic en el icono Actualizar (![](assets/refresh_icon.png)).
 
 Puede aplicar uno o varios segmentos a una solicitud determinada. Esto incluye segmentos secuenciales.
 
@@ -66,7 +66,7 @@ Puede aplicar uno o varios segmentos a una solicitud determinada. Esto incluye s
 >
 >Tanto si es un administrador como si no, en Report Builder podrá ver solo aquellos segmentos que le pertenecen y aquellos que se han compartido con usted. (En la interfaz de usuario de Reports &amp; Analytics de marketing, el administrador puede ver todos los segmentos de la organización).
 
-## Filtrar segmentos {#section_376E986D3E684999A7CDB08E53854159}
+## Filtrar segmentos. {#section_376E986D3E684999A7CDB08E53854159}
 
 Para **filtrar** segmentos haga clic en el icono filtrar:  ![](assets/segment_filter.png)
 
@@ -82,7 +82,7 @@ Los filtros disponibles incluyen:
 | Otros filtros > Favoritos | Muestra todos los segmentos que ha marcado como Favoritos. |
 | Otros filtros > Aprobados | Muestra todos los segmentos oficialmente aprobados. |
 
-## Añadir un control de segmento a un libro {#section_E3E5149A8464441FA5445A98DBD520AC}
+## Adición de un control de segmento a un libro {#section_E3E5149A8464441FA5445A98DBD520AC}
 
 Añadir un control de segmento le permite conmutar segmentos dentro de un libro en lugar de tener que ir al Asistente para solicitudes.
 
@@ -103,9 +103,9 @@ Añadir un control de segmento le permite conmutar segmentos dentro de un libro 
 
 ## Actualizar la lista de segmentos {#section_22E4A86789444B4A998532396B476EFB}
 
-Siempre que añada un segmento nuevo o edite un segmento existente, debería hacer clic en el icono Actualizar (![](assets/refresh_icon.png)) para actualizar la lista almacenada en caché de segmentos.
+Siempre que añada un segmento nuevo o edite uno existente, debería hacer clic en el icono Actualizar (![](assets/refresh_icon.png)) para actualizar la lista almacenada en caché de segmentos.
 
-## Gestionar segmentos entre solicitudes {#section_C3D63FCBE1A94369A319243313B03C93}
+## Administración de segmentos entre solicitudes {#section_C3D63FCBE1A94369A319243313B03C93}
 
 Antes de la versión 5.4, Report Builder permitía a los usuarios cambiar segmentos en varias solicitudes. No obstante, este proceso siempre sustituía los segmentos que ya existían. Los usuarios que deseen añadir un nuevo segmento para cada solicitud no podrán hacerlo, ya que al añadir el segmento se eliminaría el conjunto de segmentos previo ya asignado a cada solicitud.
 

@@ -6,8 +6,8 @@ feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 40%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Las anotaciones se manifiestan de forma ligeramente diferente, en función de si
 | --- | --- |
 | **Día único** | ![](assets/single-day.png)<p>Cuando pasa el ratón por encima de la anotación, puede ver sus detalles, puede editarla seleccionando el icono de la pluma o puede eliminarla:<p> ![](assets/hover.png) |
 | **Intervalo de fechas** | El icono cambia y, cuando pasa el ratón por encima, aparece el intervalo de fechas.<p>![](assets/multi-day.png)<p>Cuando lo selecciona en el gráfico de líneas, aparecen los metadatos de la anotación y puede editarlos o eliminarlos:![](assets/multi-hover.png)<p>En una tabla, aparece un icono en cada fecha del intervalo de fechas.<p>![](assets/multi-day-table.png) |
-| **Anotaciones superpuestas** | En los días que tengan más de una anotación vinculada a ellos, el icono aparece en color gris.<p>![](assets/grey.png)<p>Cuando pasa el ratón por encima del icono gris, aparecen todas las anotaciones superpuestas:<p>![](assets/overlap.png) |
+| **Anotaciones superpuestas** | En los días que tengan más de una anotación vinculada a ellos, el icono será de color gris.<p>![](assets/grey.png)<p>Cuando pasa el ratón por encima del icono gris, aparecen todas las anotaciones superpuestas:<p>![](assets/overlap.png) |
 
 ## Visualización de anotaciones en un archivo .pdf
 

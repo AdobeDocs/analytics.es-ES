@@ -6,8 +6,8 @@ feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -101,7 +101,7 @@ Respuestas a preguntas que podría tener al implementar Audience Analytics.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>P: ¿Por qué veo el mensaje “Se ha alcanzado el límite de audiencias” en mi informe de Analytics? (Nota: esto también se representará como ID de audiencia = -1 y "::max_audiences_exceeded::" en Data Warehouse)</b> </p> </td> 
+   <td colname="col1"> <p><b>P: ¿Por qué veo el mensaje “Se ha alcanzado el límite de audiencias” en mi informe de Analytics? (Nota: Esto también se representará como ID de audiencia = -1 y “::max_audiences_exceeded::” en Data Warehouse)</b> </p> </td> 
    <td colname="col2"> <p>De forma predeterminada, la integración de Audience Analytics para AAM envía a Analytics, para cada visita, todos los segmentos a los que el visitante pertenece. Si un visitante pertenece a más de 150 segmentos de AAM en una sola visita, se envían a Analytics los <b>150 segmentos para los que se ha obtenido cualificación más recientemente</b> y el resto se trunca. </p> <p>Se envía a Analytics un marcador adicional que indica que la lista de segmentos se ha truncado y se muestra “Alcanzado límite de audiencias” en la dimensión Nombre de audiencia y “-1” en la dimensión ID de audiencia. </p> <p>Aunque es poco probable que un visitante esté cualificado para pertenecer a más de 150 segmentos en una visita particular, puede suceder en un pequeño número de ocasiones. Si el mensaje “Alcanzado límite de audiencias” aparece en su informe, tiene dos opciones: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Opción 1</b>: permita que la integración siga funcionando del modo predeterminado, con el envío de los 150 segmentos para los que un visitante particular ha obtenido cualificación más recientemente. </li> 

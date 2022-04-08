@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '3169'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,8 +32,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Nuevo tema sobre la pausa de informes programados más antiguos | Efectivo **15 de abril de 2022**, el Adobe se propone [poner en pausa todos los informes programados que tengan una fecha de creación buena a dos años](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
 | **Febrero de 2022** |
 | Modo de vista previa del proyecto del cuadro de resultados móvil | La variable [modo de vista previa](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es#preview) permite obtener una vista previa de la experiencia antes de guardar y compartir un informe de valoración. |
-| Punto de conexión de proyectos de API | Añada, edite o elimine proyectos de Analysis Workspace mediante la API . [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
-| Se ha actualizado el tema sobre la pausa de tareas de Report Builder programadas más antiguas | **En vigor a partir del 15 de abril de 2022**, el Adobe se propone [poner en pausa todas las tareas de Report Builder programadas que se crearon hace más de dos años](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+| Punto de conexión de proyectos de API | Agregue, edite o elimine proyectos de Analysis Workspace mediante la API. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
+| Se ha actualizado el tema sobre la pausa de tareas de Report Builder programadas más antiguas | **A partir del 15 de abril de 2022**[, Adobe tiene la intención de poner en pausa todas las tareas de Report Builder programadas que se crearon hace más de dos años](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **Octubre de 2021** |  |
 | 21 de octubre de 2021 | Nueva documentación sobre [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=es) en Analysis Workspace |
 | 21 de octubre de 2021 | Nueva documentación sobre [Tiempo invertido en la reproducción de medios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=es) en Analysis Workspace. |

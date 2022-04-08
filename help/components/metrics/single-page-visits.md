@@ -1,12 +1,12 @@
 ---
 title: Visitas a una sola página (métricas)
 description: El número de veces que el elemento de dimensión “Página” no ha cambiado en una visita.
-feature: Metrics
-exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
+feature: Dimensions
+exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 97%
 
 La métrica [!UICONTROL Visitas de página única] muestra el número de visitas donde el elemento de la dimensión [Página](../dimensions/page.md) solo contenía un valor único para toda la visita. Esta métrica es útil en el contexto de dimensiones en las que desea ver visitas cortas, pero no tiene reglas tan estrictas como [[!UICONTROL Devoluciones]](bounces.md).
 
-## Cálculo de esta métrica
+Cálculo de esta métrica[](../segmentation/seg-home.md)
 
-Esta métrica cuenta el número de visitas en las que el elemento de dimensión [!UICONTROL Página] solo contenía un valor único para toda la visita. Si un visitante vuelve a cargar la página o activa las llamadas de seguimiento de vínculos, aún se cuenta como una sola visita a la página. Tan pronto como la dimensión Página cambie a un segundo valor único, la visita ya no se califica como una visita de página única.
+## Esta métrica cuenta el número de visitas en las que el elemento de dimensión [!UICONTROL Página] solo contenía un valor único para toda la visita. Si un visitante vuelve a cargar la página o activa las llamadas de seguimiento de vínculos, aún se cuenta como una sola visita a la página. Tan pronto como la dimensión Página cambie a un segundo valor único, la visita ya no se califica como una visita de página única.
 
 Consulte [Acceso único](single-access.md) para ver una comparación entre métricas.
 

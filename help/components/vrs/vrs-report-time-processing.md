@@ -7,8 +7,8 @@ feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 source-git-commit: 00577a87f1f6ec69619dd17f18597dabe4c59bd2
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ El [!UICONTROL Procesamiento de intervalo de tiempo] es un modo fundamentalmente
 
 Esta arquitectura de procesamiento ofrece opciones de realización de informes mucho más flexibles. Por ejemplo, puede cambiar el tiempo de espera de visita a cualquier periodo que desee de forma no destructiva, cambios que se reflejan retroactivamente en la persistencia de eVars y los contenedores de segmentos, como si estos ajustes se hubieran aplicado antes de la recopilación de los datos. Además, puede crear cualquier número de grupos de informes virtuales, cada uno con distintas opciones de Procesamiento de intervalo de tiempo y basados en el mismo grupo de informes base, sin alterar ninguno de los datos del grupo de informes base.
 
-[!UICONTROL Procesamiento de intervalo de tiempo] también permite a Analytics impedir que las visitas en segundo plano inicien nuevas visitas y permite que la variable [SDK de Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html) para indicar a los informes que inicien una nueva visita cada vez que se active un evento de inicio de aplicación.
+El [!UICONTROL Procesamiento de intervalo de tiempo] también permite a Analytics impedir que las visitas en segundo plano comiencen nuevas visitas y permite al [SDK para móviles de Adobe Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=es) indicar a la creación de informes que inicie una nueva visita cada vez que se active un evento de inicio de aplicación.
 
 ## Opciones de configuración
 
@@ -50,7 +50,7 @@ Este es un vídeo sobre el inicio de una nueva visita con un evento:
 
 ## Limitaciones del Procesamiento de intervalo de tiempo
 
-El Procesamiento de intervalo de tiempo no admite todas las métricas y dimensiones disponibles en la creación de informes tradicional de Analytics. Solo se puede acceder a los grupos de informes virtuales que utilizan Procesamiento de intervalo de tiempo desde Analysis Workspace. No es posible hacerlo desde [!UICONTROL Informes y Analytics], Data Warehouse, Report Builder, Fuentes de datos o la API de informes.
+El Procesamiento de intervalo de tiempo no admite todas las métricas y dimensiones disponibles en la creación de informes tradicional de Analytics. Solo se puede acceder a los grupos de informes virtuales que utilizan Procesamiento de intervalo de tiempo desde Analysis Workspace. No es posible hacerlo desde [!UICONTROL Reports &amp; Analytics], Data Warehouse, Report Builder, Fuentes de datos o la API de informes.
 
 Además, Procesamiento de intervalo de tiempo solo procesa los datos que se producen dentro del intervalo de fechas del informe (lo que se refiere como “limitación de fechas” más adelante). Esto significa que los valores de eVar establecidos para no caducar nunca para un visitante antes de intervalo de fechas del informe no persisten hasta el periodo del informe y no aparecen en este. También significa que las mediciones de lealtad de los clientes se basan exclusivamente en los datos presentes en el intervalo de fechas del informe, y no en el historial completo anterior a dicho intervalo.
 

@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
 source-git-commit: f50e3d9a1d3c1705c55a14af0e42a0da3ac00955
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 55%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Aquí tiene un vídeo sobre la creación de segmentos de proyecto ad hoc:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-1. Suelte cualquier tipo de componente (dimensión, elemento de dimensión, evento, métrica, segmento, plantilla de segmento, intervalo de fechas) en la zona de colocación de segmentos en la parte superior de un panel. Los tipos de componente se convierten automáticamente en segmentos ad-hoc o [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) si es compatible.
+1. Suelte cualquier tipo de componente (dimensión, elemento de dimensión, evento, métrica, segmento, plantilla de segmento, intervalo de fechas) en la zona de colocación de segmentos en la parte superior de un panel. Los tipos de componente se convierten automáticamente en segmentos ad-hoc o [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=es) si es compatible.
 Este es un ejemplo de cómo crear un segmento para el dominio de referencia de Twitter:
 
    ![](assets/ad-hoc1.png)

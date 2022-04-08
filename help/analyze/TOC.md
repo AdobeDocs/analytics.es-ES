@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
-user-guide-description: Instrucciones de uso para Analysis Workspace, la herramienta de análisis y visualización más importante para Analytics, así como herramientas como paneles de Adobe Analytics, Report Builder y Activity Map.
+user-guide-description: Instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como paneles de Adobe Analytics, Report Builder y Activity Map.
 source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 # Guía de herramientas de Adobe Analytics {#analyze}
 
 + [Guía de herramientas de Analytics](home.md)
-+ [Notas de la versión de Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Notas de la versión de Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Información general de Analysis Workspace](analysis-workspace/home.md)
@@ -92,8 +92,8 @@ ht-degree: 96%
       + [Panel de Attribution](analysis-workspace/c-panels/attribution.md)
       + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
       + [Panel de forma libre](analysis-workspace/c-panels/freeform-panel.md)
-      + [Panel Audiencia media por minuto de medios](analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [Panel Visualizadores simultáneos de medios](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Panel de audiencia media por minuto de medios](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [Panel de visualizadores simultáneos de medios](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + Tiempo invertido en la reproducción de medios {#media-playback-timespent}
          + [Información general](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Configuración de entrada y salida](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)

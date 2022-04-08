@@ -5,8 +5,8 @@ feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Responde preguntas frecuentes sobre las funciones de segmentación, acceso, perm
 * Puede crear [Segmentos secuenciales](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 * El contenedor de vista de página se llama ahora “contenedor de visita individual” para indicar que el contenedor segmenta todos los tipos de datos, no solo vistas de página. Por ejemplo, si vincula las llamadas de seguimiento, el Contenedor de visita individual incluirá o excluirá las llamadas trackAction desde los SDK móviles. Tenga en cuenta que no se ha modificado la manera de funcionar del contenedor; simplemente se le ha cambiado el nombre.
 
-Consulte la publicación [Mejora de segmentación en Adobe Analytics](https://blog.adobe.com/es/publish/2014/05/20/improving-segmentation-adobe-analytics.html) en el blog de Adobe para obtener más detalles.
+Consulte la publicación [Mejora de segmentación en Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) en el blog de Adobe para obtener más detalles.
 
 ## Acceso a las herramientas de segmentación {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 

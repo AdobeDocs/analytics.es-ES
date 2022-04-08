@@ -5,8 +5,8 @@ feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '1805'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>¿De qué modo admite Adobe Analytics las solicitudes de acceso y eliminación de usuarios finales (interesados) validadas por los clientes (responsables del tratamiento de datos)?</b> </p> </td> 
-   <td colname="col2"> <p>Cuando entre en vigor el reglamento de privacidad de datos (RGPD, CCPA), Adobe Analytics admitirá el procesamiento de solicitudes verificadas enviadas por los responsables del tratamiento de datos a la API de privacidad de datos de Experience Cloud para permitir un proceso más automatizado. La API de privacidad de datos de Adobe se ha diseñado para ayudar a tramitar las solicitudes de derechos individuales (como las solicitudes de acceso y eliminación) relacionadas con los datos de nuestros clientes almacenados en las soluciones de Adobe Experience Cloud. Resulta flexible y se escala según el número de solicitudes de acceso y eliminación de datos que recibe su empresa por parte de los interesados. Además, la API de Privacy Service permite al cliente comprobar el estado de cumplimiento de las solicitudes de acceso y eliminación de datos. </p> <p>Para obtener más información, consulte <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> documentación de la API del Privacy Service. </a> </p> </td> 
+   <td colname="col2"> <p>Cuando entre en vigor el reglamento de privacidad de datos (RGPD, CCPA), Adobe Analytics admitirá el procesamiento de solicitudes verificadas enviadas por los responsables del tratamiento de datos a la API de privacidad de datos de Experience Cloud para permitir un proceso más automatizado. La API de privacidad de datos de Adobe se ha diseñado para ayudar a tramitar las solicitudes de derechos individuales (como las solicitudes de acceso y eliminación) relacionadas con los datos de nuestros clientes almacenados en las soluciones de Adobe Experience Cloud. Resulta flexible y se escala según el número de solicitudes de acceso y eliminación de datos que recibe su empresa por parte de los interesados. Además, la API de Privacy Service permite que los clientes comprueben el estado de cumplimiento de las solicitudes de acceso y eliminación. </p> <p>Para obtener más información, consulte <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Documentación de la API de Privacy Service</a>.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>¿Quién es el responsable de la recepción, la aceptación y el cumplimiento de las solicitudes de privacidad de datos de los usuarios finales?</b> </p> </td> 

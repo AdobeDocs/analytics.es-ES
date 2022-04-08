@@ -6,8 +6,8 @@ feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 64%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

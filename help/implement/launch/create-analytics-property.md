@@ -5,8 +5,8 @@ feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Las propiedades son contenedores generales que se utilizan para administrar etiq
 1. Asigne un nombre a la propiedad, como el título del sitio web e introduzca el dominio en el que desea implementar Analytics. Haga clic en **[!UICONTROL Guardar]**.
 1. Haga clic en la propiedad de etiquetas recién creada para establecer su configuración.
 1. Haga clic en la pestaña **[!UICONTROL Extensiones]** y, a continuación, en **[!UICONTROL Catálogo]**.
-1. Busque &quot;Servicio de ID de Experience Cloud&quot; y, a continuación, haga clic en **[!UICONTROL Instalar]**.
+1. Busque Servicio de Experience Cloud ID y, a continuación, haga clic en **[!UICONTROL Instalar]**.
 1. Todas las opciones de configuración, incluido el ID de organización de Experience Cloud deberían estar completos. Haga clic en **[!UICONTROL Guardar]**.
 1. Vuelva al catálogo de extensiones, busque Adobe Analytics y haga clic en **[!UICONTROL Instalar]**.
 

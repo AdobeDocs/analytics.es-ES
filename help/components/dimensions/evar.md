@@ -5,8 +5,8 @@ feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 99%
 
 *Esta página de ayuda describe cómo funcionan las eVars como dimensiones. Para obtener información sobre cómo implementar eVars, consulte [eVars](/help/implement/vars/page-vars/evar.md) en la guía de implementación de usuario.*
 
-Las eVars son variables personalizadas que se pueden utilizar como desee. Si tiene un [documento de diseño de solución](/help/implement/prepare/solution-design.md)[!UICONTROL , la mayoría de las dimensiones específicas de su organización terminan como eVars]. De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. Puede personalizar su caducidad y asignación en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)[!UICONTROL  en la configuración del grupo de informes].
+Las eVars son variables personalizadas que se pueden utilizar como desee. Si tiene un [documento de diseño de solución](/help/implement/prepare/solution-design.md), la mayoría de las dimensiones específicas de su organización terminan como [!UICONTROL eVars]. De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. Puede personalizar su caducidad y asignación en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la [!UICONTROL configuración del grupo de informes].
 
 El número de eVars disponibles depende del contrato con Adobe. Hay disponibles hasta 250 eVars si su contrato con Adobe lo permite.
 

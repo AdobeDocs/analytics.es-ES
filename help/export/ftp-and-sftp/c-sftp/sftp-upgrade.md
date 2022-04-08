@@ -5,8 +5,8 @@ feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 source-git-commit: dd1b2d358e6074fc393e6e5999c4286549a1b82d
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
