@@ -5,7 +5,7 @@ title: Grupos de informes virtuales y consideraciones sobre el etiquetado de gru
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1753'
 ht-degree: 100%
 
@@ -75,11 +75,11 @@ Las fuentes de datos no pueden utilizar grupos de informes virtuales. Sin embarg
 
 Las fuentes de datos le permiten recibir una exportación diaria o por hora de todos sus datos de Adobe Analytics a nivel de visita individual. Las fuentes de datos no se pueden segmentar previamente antes de que se le entreguen, por lo que solo puede recibir una fuente de datos para su grupo de informes globales. Si su organización tiene una gran necesidad de fuentes de datos individuales en un nivel granular, de marca, propiedad, región u otro, considere la posibilidad de utilizar el etiquetado de grupos múltiples.
 
-### Conectores de datos con cuentas de socio
+### Data Connectors con cuentas de socio
 
 Ciertas integraciones de socios de Adobe en Adobe Analytics están limitadas a una cuenta de socio por grupo de informes. Algunas organizaciones podrían requerir varias cuentas de socios para la misma integración.
 
-Por ejemplo, solo se permite un DCM de Google por grupo de informes. Muchas empresas tienen varias cuentas de DCM, lo que permite a diferentes marcas, unidades de negocio y regiones administrar sus anuncios en pantalla de forma independiente entre sí. Las integraciones no se pueden configurar en grupos de informes virtuales. Si tiene conectores de datos dependientes con varias cuentas, considere la posibilidad de utilizar el etiquetado de grupos múltiples.
+Por ejemplo, solo se permite un DCM de Google por grupo de informes. Muchas empresas tienen varias cuentas de DCM, lo que permite a diferentes marcas, unidades de negocio y regiones administrar sus anuncios en pantalla de forma independiente entre sí. Las integraciones no se pueden configurar en grupos de informes virtuales. Si tiene Data Connectors dependientes con varias cuentas, considere la posibilidad de utilizar el etiquetado de grupos múltiples.
 
 ### Fuentes de datos de resumen
 
