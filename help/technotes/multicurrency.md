@@ -4,9 +4,9 @@ title: Compatibilidad con múltiples monedas
 feature: Analytics Basics
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1354'
+ht-degree: 100%
 
 ---
 
