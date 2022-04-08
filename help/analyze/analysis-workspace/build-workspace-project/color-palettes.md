@@ -5,15 +5,15 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Paletas de colores de visualización
 
-Puede cambiar la paleta de colores de visualización que se emplea en Workspace eligiendo una paleta de color diferente o creando una paleta propia que corresponda a los colores de marca de su empresa. Esta función afecta a la mayoría de las visualizaciones de Workspace, pero sí a **not** afectar [!UICONTROL Cambio de resumen], formato condicional en [!UICONTROL Forma libre] y [!UICONTROL Mapa] visualización.
+Puede cambiar la paleta de colores de visualización que se emplea en Espacio de trabajo eligiendo una de color diferente o creando una propia que corresponda a los colores de marca de su compañía. Esta característica afecta a la mayoría de las visualizaciones de Espacio de trabajo, pero **no** afecta al [!UICONTROL Cambio de resumen], al formato condicional en tablas de [!UICONTROL forma libre] ni a la visualización de [!UICONTROL mapas].
 
 >[!NOTE]
 >
@@ -26,9 +26,9 @@ Recuerde:
 * Hay cinco paletas de color preconfiguradas entre las que elegir. La paleta predeterminada y la de abajo se han optimizado para lograr un contraste óptimo y son más accesibles para los que no tienen color.
 * Las paletas de color 3, 4 y 5, situadas bajo las dos primeras, están optimizada para ofrecer la mayor armonía cromática.
 
-## Cambie el [!UICONTROL paleta de colores]:
+## Para cambiar la [!UICONTROL paleta de color]:
 
-Este es un vídeo sobre el uso de [!UICONTROL paletas de color]:
+A continuación se muestra un vídeo sobre el uso de [!UICONTROL paletas de color] a medida:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
