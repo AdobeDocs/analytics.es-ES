@@ -4,9 +4,9 @@ title: Comparación de productos y requisitos de Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Si no sabe qué producto de Adobe Analytics utilizar, consúltelo [aquí](/help/
 | **Número de desgloses** | Sin límite | Hasta 2 | Hasta 2 | Sin límite | Sin límite | Sin límite | Sin límite, ejecutar en varias consultas |
 | **Segmentación** <br> [Más información](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Sí | Sí | Sí | Sí, con [limitaciones](/help/components/segmentation/seg-reference/seg-compatibility.md) | Sí | No | Sí |
 | **Métricas calculadas** <br> [Más información](/help/components/c-calcmetrics/cm-overview.md) | Sí, con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Sí | Sí | No | Sí | No | Sí, con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
-| **Canales de marketing** <br> [Más información](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Sí | Sí | Sí | Sí | Sí | Sí - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Sí |
+| **Canales de marketing** <br> [Más información](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Sí | Sí | Sí | Sí | Sí | Sí, [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Sí |
 | **Análisis de cohorte** | [Sí](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | No | No | No | Sí | No | No |
 | **Atribución** | Sí, con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Limitado | Limitado | No | Sí | No | Sí, con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Funciones de Analyst virtual** <br> [Más información](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | Sí | No | No | No | No | No | Sí |
