@@ -4,9 +4,9 @@ title: Configuración que no se copia desde un grupo de informes de origen
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Las siguientes configuraciones no se copian de la plantilla o los grupos de info
   </tr> 
   <tr> 
    <td colname="col1"> <p>Administrador del mapa de clics del visitante </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> Actualizar a Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html?lang=es"> Actualizar a Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reglas de VISTA </p> </td> 
