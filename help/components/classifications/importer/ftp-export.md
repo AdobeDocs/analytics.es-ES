@@ -4,7 +4,7 @@ description: La exportación a FTP ofrece más flexibilidad con las descargas de
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Estos pasos describen cómo exportar (descargar) clasificaciones desde Adobe Ana
 
 | Elemento | Descripciones |
 | --- | --- |
-| [!UICONTROL Seleccionar grupo de informes] | Selecciona el grupo de informes desde el que se desea exportar los datos del informe. |
+| [!UICONTROL Seleccionar grupo de informes] | Seleccione el grupo de informes desde el que desea exportar los datos del informe. |
 | [!UICONTROL Conjunto de datos a clasificar] | Desde el menú desplegable, seleccione el conjunto de datos que se debe clasificar. |
 | [!UICONTROL Seleccionar cantidad de filas] | Especifica el número de filas de datos que debe exportarse.<ul><li>Seleccione **[!UICONTROL Todos]** para descargar todos los datos de informe.</li><li>Seleccione **[!UICONTROL Limitar filas de datos a]** si desea indicar un número concreto de filas a descargar.</li></ul> |
 | [!UICONTROL Filtrar por fecha de recepción] | Opcional. Filtra los datos por fecha de recepción. Debe especificarse el intervalo de fecha cuyos datos van a descargarse. |
