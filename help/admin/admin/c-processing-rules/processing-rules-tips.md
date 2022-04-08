@@ -5,7 +5,7 @@ title: Consejos y sugerencias de reglas de procesamiento
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Esta sección contiene directrices para probar las reglas de procesamiento, así como una lista de errores comunes que se deben evitar.
 
-## Probar reglas de procesamiento {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
+## Prueba de reglas de procesamiento {#section_F092D2FECDE24082AE9FC6F8BE87F29F}
 
 Esta sección contiene algunas pautas de ayuda para probar reglas de procesamiento antes de implementarlas en la producción.
 
