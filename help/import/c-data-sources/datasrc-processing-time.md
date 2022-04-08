@@ -1,12 +1,12 @@
 ---
-description: Información sobre la cantidad de tiempo que tarda el Adobe en procesar fuentes de datos.
+description: Información sobre la cantidad de tiempo que tarda Adobe en procesar fuentes de datos.
 title: Tiempo de procesamiento de las fuentes de datos
 feature: Data Sources
 exl-id: 2445775b-e079-45f0-afcc-b373c63350e8
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
