@@ -6,7 +6,7 @@ feature: Cohort Analysis
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '928'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Casos de uso de [!UICONTROL análisis de cohorte]
 
-Ejemplos de casos de uso para [!UICONTROL Análisis de cohorte].
+Ejemplos de casos de uso para [!UICONTROL Análisis de cohortes].
 
 ## Caso de uso de interacción con aplicaciones {#section_ADEC6EE79F1846319B2E0D9544CC5E40}
 
