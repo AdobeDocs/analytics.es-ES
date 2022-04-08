@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '315'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > 
 
  -->
 
-Para ver si el registro de ID de transacción está habilitado, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Fuentes de datos]**.
+Para comprobar si el registro de ID de transacción está activado, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Toda la administración]** > **[!UICONTROL Fuentes de datos]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -63,6 +63,6 @@ Para registrar el estado de un visitante en determinado momento se usan ID de tr
 
 Cuando el cliente se desconecta, a menudo se convierte en un cliente anónimo.
 
-Los eventos de ID de transacción no se incluyen en las métricas de participación de visitas (las que se muestran en los informes de marketing). Esto se debe a que los datos del ID de transacción no están asociados a una visita (porque el evento sin conexión no suele formar parte del evento sin conexión), sino al visitante.
+Los eventos de ID de transacción no se incluyen en las métricas de participación de visitas (las que se muestran en los informes de marketing). Esto se debe a que los datos del ID de transacción no están asociados a una visita (porque el evento sin conexión no suele formar parte del evento en línea), sino al visitante.
 
 Consulte [ID de transacción](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
