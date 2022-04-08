@@ -4,7 +4,7 @@ description: Omisión del referente registrado automáticamente para una visita.
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
