@@ -4,7 +4,7 @@ description: Distingue las métricas de la búsqueda de pago y la búsqueda natu
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '148'
 ht-degree: 100%
 
