@@ -4,7 +4,7 @@ description: Cree un nombre de página fácil de leer a partir de la ruta del si
 feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
 ht-degree: 100%
 
