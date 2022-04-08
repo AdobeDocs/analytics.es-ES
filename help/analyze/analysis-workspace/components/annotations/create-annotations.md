@@ -4,10 +4,10 @@ description: Cómo crear anotaciones en Espacio de trabajo.
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+source-git-commit: 6a63c480220fa963cf1dc00acdd5e482dc2bab38
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 58%
+source-wordcount: '640'
+ht-degree: 88%
 
 ---
 
@@ -21,13 +21,14 @@ ht-degree: 58%
 
 | Método de creación | Detalles |
 | --- | --- |
-| **Vaya a [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Anotación].** | Se abre la página Administrador de anotaciones. Haga clic en [!UICONTROL Crear nueva anotación] y se abrirá el Generador de anotaciones. |
-| **Haga clic con el botón derecho en un punto de una tabla.** | [!UICONTROL Se abre el Generador de anotaciones. ] Tenga en cuenta que, de forma predeterminada, las anotaciones creadas de esta forma solo son visibles en el proyecto en el que se crearon. No obstante, puede ponerlas a disposición de todos los proyectos. Tenga en cuenta también que las fechas y cualquier métrica, etc., ya se han rellenado.<p>![](assets/annotate-table.png) |
-| **Haga clic con el botón derecho en un punto de una [!UICONTROL Línea] gráfico.** | La variable [!UICONTROL Generador de anotaciones] se abre. Tenga en cuenta que, de forma predeterminada, las anotaciones creadas de esta forma solo son visibles en el proyecto en el que se crearon. No obstante, puede ponerlas a disposición de todos los proyectos. Tenga en cuenta también que las fechas y cualquier métrica, etc., ya se han rellenado.<p>![](assets/annotate-line.png) |
-| **En Espacio de trabajo, vaya a [!UICONTROL Componentes] > [!UICONTROL Crear anotación].** | La variable [!UICONTROL Generador de anotaciones] se abre. |
+| **Vaya a [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Anotación].** | Se abre la página Administrador de anotaciones. Haga clic en [!UICONTROL Crear nueva anotación] y se abrirá el [!UICONTROL Generador de anotaciones]. |
+| **Haga clic con el botón derecho en un punto de una tabla.** | Se abre el [!UICONTROL Generador de anotaciones]. Tenga en cuenta que, de forma predeterminada, las anotaciones creadas de esta forma solo son visibles en el proyecto en el que se crearon. No obstante, puede ponerlas a disposición de todos los proyectos. Observe que las fechas y cualquier métrica, etc., ya se han rellenado.<p>![](assets/annotate-table.png) |
+| **Haga clic con el botón derecho en un punto de un gráfico de [!UICONTROL Líneas].** | Se abre el [!UICONTROL Generador de anotaciones]. Tenga en cuenta que, de forma predeterminada, las anotaciones creadas de esta forma solo son visibles en el proyecto en el que se crearon. No obstante, puede ponerlas a disposición de todos los proyectos. Observe que las fechas y cualquier métrica, etc., ya se han rellenado.<p>![](assets/annotate-line.png) |
+| **En Espacio de trabajo, vaya a [!UICONTROL Componentes] > [!UICONTROL Crear anotación].** | Se abre el [!UICONTROL Generador de anotaciones.] |
 | **Utilice esta tecla de acceso directo** para abrir el Generador de anotaciones: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Tenga en cuenta que al utilizar la tecla de acceso directo para crear una anotación, se crea una anotación de un solo día para la fecha actual, sin ningún ámbito preseleccionado (métricas o dimensiones). |
+| **Utilice la variable [2.0 API de anotaciones](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/annotations/)** | Las API de anotaciones de Analytics 2.0 le permiten crear, actualizar o recuperar anotaciones mediante programación a través del Adobe I/O. Estas API utilizan los mismos datos y métodos que el Adobe utiliza en la interfaz de usuario del producto. |
 
-1. Complete la variable [!UICONTROL Generador de anotaciones] elementos.
+1. Rellene los elementos del [!UICONTROL Creador de anotaciones.]
 
    ![](assets/ann-builder.png)
 
