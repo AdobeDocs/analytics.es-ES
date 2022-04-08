@@ -5,9 +5,9 @@ title: Resumen de las reglas de procesamiento
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -26,17 +26,17 @@ Las reglas de procesamiento simplifican la recopilación de datos y administran 
 
 ## Permisos de reglas de procesamiento {#section_8A4846688050453784DAE4D89355169A}
 
-Los administradores tienen derechos para utilizar reglas de procesamiento **de forma predeterminada**. Además, pueden conceder este mismo derecho a los demás usuarios desde la interfaz de las Herramientas de administración. Para obtener instrucciones, consulte []
+Los administradores tienen **de forma predeterminada** permiso para utilizar reglas de procesamiento. Además, pueden conceder este mismo derecho a los demás usuarios desde la interfaz de Herramientas de administración. Para obtener instrucciones, consulte []
 
 ![](assets/processing-rules.png)
 
 >[!IMPORTANT]
 >
->Como las reglas de procesamiento afectan permanentemente a los datos de Analytics, Adobe recomienda encarecidamente que los administradores de reglas de procesamiento reciban formación para certificación en Adobe Analytics y estén familiarizados con todas las fuentes de datos para sus grupos de informes (sitios web estándar, sitios móviles, aplicaciones móviles, API de inserción de datos, etc.). El conocimiento de las variables de datos de contexto y las variables estándar completadas en diversas plataformas ayudará a impedir la eliminación o modificación accidentales de los datos.
+>Como las reglas de procesamiento afectan permanentemente a los datos de Analytics, Adobe recomienda encarecidamente que los administradores de reglas de procesamiento reciban aprendizaje para certificación en Adobe Analytics, y estén familiarizados con todas las fuentes de datos para los grupos de informes (sitios web estándar, sitios móviles, aplicaciones móviles, API de inserción de datos, etc.). El conocimiento de las variables de datos de contexto y las variables estándar completadas en diversas plataformas ayudará a impedir la eliminación o modificación accidentales de los datos.
 
 ## Simplificar la recopilación de datos con datos de contexto {#section_09EEA03612D24C15839631AA9E9668D8}
 
-Las variables de datos de contexto son un tipo de variable que solo está disponible para las reglas de procesamiento. Para utilizar variables de datos de contexto, su implementación envía los pares de datos clave/valor, y se utilizan reglas de procesamiento para capturar estos valores en variables estándar de Analytics. Esto evita a los programadores tener que entender exactamente qué propiedad o eVar debería contener cada valor.
+Las variables de datos de contexto son un tipo de variable y están disponibles solamente para las reglas de procesamiento. Para utilizar variables de datos de contexto, su implementación envía los pares de datos clave/valor, y se utilizan reglas de procesamiento para capturar estos valores en variables estándar de Analytics. Esto evita a los programadores tener que entender exactamente qué propiedad o eVar debería contener cada valor.
 
 ```js
 s.contextData['author'] = "Robert Munch";
@@ -48,9 +48,9 @@ Una vez configurado el código, puede establecer reglas de procesamiento para as
 
 1. Mapa `author` a `eVar2`
 2. Mapa `section` a `prop1` y `eVar3`
-3. If `author` y `section` existe, conjunto `event5`
+3. Si `author` y `section` existen, establecer `event5`
 
-Consulte [contextData](/help/implement/vars/page-vars/contextdata.md) en la guía de usuario sobre implementación para obtener más información.
+Consulte [contextData](/help/implement/vars/page-vars/contextdata.md) en la guía del usuario Implementar para obtener más información.
 
 ## Transformar datos de visitas y activar eventos con reglas de procesamiento {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -58,6 +58,6 @@ Las reglas de procesamiento pueden supervisar los valores entrantes para transfo
 
 ## Uso de variables de datos de contexto en informes {#section_BD098BC503024A0B8703596628071134}
 
-Una vez que las variables de datos de contexto se definen en la implementación, se deben copiar en variables como las eVars para poder utilizarse en los informes.
+Una vez que las variables de datos de contexto se definen en la implementación, se deben copiar en variables como las eVars para poder utilizarse en la creación de informes.
 
-Consulte [Copiar una variable de datos de contexto en un eVar](processing-rules-examples/processing-rules-copy-context-data.md) y [Definir un evento con una variable de datos de contexto](processing-rules-examples/processing-rules-copy-context-data-event.md) para obtener más información.
+Consulte [Copiar una variable de datos de contexto en una eVar](processing-rules-examples/processing-rules-copy-context-data.md) y [Definir un evento con una variable de datos de contexto](processing-rules-examples/processing-rules-copy-context-data-event.md) para obtener más información.
