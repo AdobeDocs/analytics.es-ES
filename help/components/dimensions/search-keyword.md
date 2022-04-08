@@ -4,7 +4,7 @@ description: La palabra clave de búsqueda que el visitante utilizó para llegar
 feature: Dimensions
 exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
 ht-degree: 100%
 
