@@ -4,7 +4,7 @@ description: Instrucciones para administradores que son nuevos en una implementa
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -25,5 +25,5 @@ Consulte estas sugerencias de su compañera propietaria técnica, Sarah Owen. Sa
 Consulte también:
 
 * [Lista de comprobación de &quot;Revisión específica&quot; para revisar la implementación después de cada lanzamiento de sitio web](/help/implement/review/focused-review.md)
-* [Lista de comprobación de &quot;Revisión completa&quot; para revisar la implementación cada 6 meses](/help/implement/review/full-review.md)
-* [Definición de los 5 KPI principales](/help/implement/review/define-kpis.md)
+* [Lista de comprobación de “Revisión completa” para revisar la implementación cada seis meses](/help/implement/review/full-review.md)
+* [Definición de los cinco KPI principales](/help/implement/review/define-kpis.md)
