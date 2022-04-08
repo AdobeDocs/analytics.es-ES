@@ -5,7 +5,7 @@ title: Utilización de los datos de audiencias en Analytics
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Los datos de segmentos de AAM se pasan a Analytics para cada visita y representa
 
 ![](assets/flow-aamaudiences.png)
 
-Las audiencias también pueden utilizarse en las [visualizaciones de visitas en el orden previsto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
+Las audiencias también pueden utilizarse en las [visualizaciones de visitas en el orden previsto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=es).
 
 ## Visualización de Venn en Analysis Workspace {#section_E78AB764FB5047148B51DC1526B0DF89}
 
