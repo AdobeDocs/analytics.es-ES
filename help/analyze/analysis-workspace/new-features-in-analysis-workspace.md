@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8276'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleag
 
 | Función | Fecha objetivo | Descripción |
 | --- | --- | --- |
-| URL de imagen | 14 de enero de 2021 | Puede añadir imágenes a proyectos de Workspace haciendo referencia a una URL de imagen pública. |
+| URL de imagen | 14 de enero de 2021 | Puede añadir imágenes a proyectos del Espacio de trabajo haciendo referencia a una dirección URL de imagen pública. |
 | Administrador combinado de origen y configuración para visualizaciones | 14 de enero de 2021 | El administrador de [!UICONTROL fuentes de datos] (punto) y el administrador de configuración (engranaje) para visualizaciones se han combinado en una sola ventana emergente, de modo que puede administrar fácilmente el origen y la configuración desde la misma ubicación. |
 
 ## Octubre de 2020
@@ -51,7 +51,7 @@ Consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleag
 | Función | Descripción |
 | --- | --- |
 | [Descargar 50.000 elementos para una sola dimensión](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es#download-items) | Ahora puede descargar 50.000 elementos para una sola dimensión en una tabla improvisada, con segmentos y filtros aplicados. Esto le permite acceder a más de 400 filas de datos fuera de Analysis Workspace. |
-| [Mejoras en la visualización de Línea](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Puede mostrar u ocultar el eje X y el eje Y de cualquier visualización de [!UICONTROL Línea]. Esto puede resultar especialmente útil cuando las visualizaciones de [!UICONTROL Línea] son más compactas.</li><li>Puede superponer una etiqueta de valor mínimo y máximo en cualquier visualización de Línea para resaltar rápidamente los picos y los valores de una métrica.</li><li>Puede superponer distintas líneas de tendencia de regresión en cualquier visualización de Línea para ver con mayor facilidad la tendencia en los datos. Las opciones incluyen [!UICONTROL Lineal], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potencia] y [!UICONTROL Cuadrático].</li></ul> |
+| [Mejoras en la visualización de Línea](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=es) | <ul><li>Puede mostrar u ocultar el eje X y el eje Y de cualquier visualización de [!UICONTROL Línea]. Esto puede resultar especialmente útil cuando las visualizaciones de [!UICONTROL Línea] son más compactas.</li><li>Puede superponer una etiqueta de valor mínimo y máximo en cualquier visualización de Línea para resaltar rápidamente los picos y los valores de una métrica.</li><li>Puede superponer distintas líneas de tendencia de regresión en cualquier visualización de Línea para ver con mayor facilidad la tendencia en los datos. Las opciones incluyen [!UICONTROL Lineal], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potencia] y [!UICONTROL Cuadrático].</li></ul> |
 | Intervalos de fechas nuevos | Añadimos 5 nuevos intervalos de fechas para que pueda elegir entre intervalos de fechas que no incluyan datos de día parciales de hoy: últimos 7 días completos, últimos 14 días completos, últimos 30 días completos, últimos 60 días completos, últimos 90 días completos. |
 
 ## Agosto de 2020
@@ -76,7 +76,7 @@ Nuevas funciones lanzadas el 18 de junio de 2020.
 | Attribution IQ: Ventanas retroactivas personalizadas | Ahora puede configurar cualquier modelo de atribución en Attribution IQ para incluir puntos de contacto desde 90 días antes del período de creación de informes. Esto generalmente aumenta la precisión de atribución de eventos que se producen al principio del período de la creación de informes teniendo en cuenta las interacciones que se produjeron en el mes o meses anteriores. Disponible para los clientes de Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete y Ultimate. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=es#lookback-windows) |
 | Funciones de proyecto para proyectos compartidos de Workspace | Al compartir un proyecto de Workspace, ahora puede colocar destinatarios en una de las tres funciones de proyecto, según la experiencia del proyecto que desee que tengan: Editar, Duplicado y Vista. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) |
 | Proyectos de Workspace solo de vista | Los proyectos de Workspace se pueden compartir con los usuarios solo como Puede ver. Cuando un destinatario de Vista abre el proyecto compartido, recibe una experiencia de proyecto más restrictiva sin carril izquierdo e interacciones limitadas. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=es) |
-| Capacidad para editar proyectos de Workspace de forma conjunta | Los destinatarios añadidos a la función Puede editar pueden guardar un proyecto que se haya compartido con ellos. Esto se extiende tanto a los administradores como a los no administradores. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Capacidad para editar proyectos de Workspace de forma conjunta | Los destinatarios añadidos a la función Puede editar pueden guardar un proyecto que se haya compartido con ellos. Esto se extiende tanto a los administradores como a los no administradores. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) |
 | Panel en blanco actualizado | El panel en blanco ahora incluye paneles y visualizaciones, lo que le ofrece una forma más fluida de elegir el flujo de trabajo de análisis que mejor se adapte a sus necesidades. |
 | Panel de Quick Insights (25 de junio de 2020) | Quick Insights proporciona una guía a los no analistas y a los nuevos usuarios de Analysis Workspace para aprender a responder preguntas comerciales de forma rápida y sencilla. [Más información...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Panel Analytics for Target en Workspace  (25 de junio de 2020) | El panel Analytics for Target (A4T) le permite analizar con confianza las actividades y experiencias de Adobe Target en Analysis Workspace. [Más información...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -548,7 +548,7 @@ Nuevas funciones y mejoras publicadas el 18 de enero de 2018.
   </tr>
   <tr>
    <td colname="col1"> <p>Análisis de contribución: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=es"  > notificación de tokens </a> </p> </td>
-   <td colname="col2"> <p>Si su empresa tiene un número limitado de tokens de Análisis de contribución, la interfaz de Analysis Workspace muestra ahora una notificación cada vez que consume un token. De este modo, sabe cuántos tokens le quedan. </p> <p>(Usuarios administradores: es posible restringir quién puede utilizar estos tokens mediante la edición de los permisos de grupo. El permiso se denomina "Detección de anomalías y análisis de contribución" en <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Administrador </span> &gt; <span class="uicontrol"> Todos los administradores </span>  &gt; <span class="uicontrol"> Administración de usuarios </span>&gt; <span class="uicontrol"> Editar grupos </span> &gt; <span class="uicontrol"> Editar acceso a todos los informes </span> &gt; <span class="uicontrol"> Personalizar herramientas de grupos de informes </span> &gt; <span class="uicontrol"> Herramientas E Informes </span>. ) </p> </td>
+   <td colname="col2"> <p>Si su empresa tiene un número limitado de tokens de Análisis de contribución, la interfaz de Analysis Workspace muestra ahora una notificación cada vez que consume un token. De este modo, sabe cuántos tokens le quedan. </p> <p>(Usuarios administradores: es posible restringir quién puede utilizar estos tokens mediante la edición de los permisos de grupo. El permiso se denomina Detección de anomalías y análisis de contribución en <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Administración </span> &gt; <span class="uicontrol"> Toda la administración </span> &gt; <span class="uicontrol"> Administración de usuarios </span> &gt; <span class="uicontrol"> Editar grupos </span> &gt; <span class="uicontrol"> Editar el acceso a todos los informes </span> &gt; <span class="uicontrol"> Personalizar las herramientas del grupo de informes </span> &gt; <span class="uicontrol"> Herramientas e informes </span>).  </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>Archivos CSV con caracteres multibyte </p> </td>
@@ -598,7 +598,7 @@ Nuevas funciones lanzadas el 26 de octubre de 2017.
  <tbody>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > Visualización de mapas </a> </p> </td>
-   <td colname="col2"> <p>La nueva visualización de mapas permite ver fácilmente las interacciones de los clientes en el contexto de su ubicación. De una vista macro (global) a una vista micro (de la ciudad), puede fácilmente aumentar y reducir distintos niveles de jerarquía en la visualización para ver clústeres de usuarios en las regiones. </p> <p>Puede visualizar los datos de ubicación a través de la dirección IP (en conjuntos de datos no móviles) o proporcionar datos de latitud y longitud (para clientes que usen el SDK móvil) en Analysis Workspace. </p> </td>
+   <td colname="col2"> <p>La nueva visualización de mapas permite ver fácilmente las interacciones de los clientes en el contexto de su ubicación. De una vista macro (global) a una vista micro (de la ciudad), puede fácilmente aumentar y reducir distintos niveles de jerarquía en la visualización para ver clústeres de usuarios en las regiones. </p> <p>Puede visualizar los datos de ubicación a través de la dirección IP (en conjuntos de datos no móviles) o dar vida a los datos de latitud y longitud (para clientes que usen el SDK móvil) en Analysis Workspace. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > Selector de granularidad en visualizaciones de tendencias </a> </p> </td>
@@ -1096,11 +1096,11 @@ Nuevas funciones lanzadas el 21 de enero de 2016:
 * [Vincular a este proyecto](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
 * [Visualizaciones de gráficos de viñetas, diagramas de dispersión y gráficos de rectángulos](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_B19EA50EBF5546E99D3A142827153FD6)
 * [“Guardar como” para segmentos, métricas y fechas](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_04C8B10A0751453AAE5F1BC35938C6CE)
-* [Botón Agregar nuevo segmento](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_85CC88C02C79456EA2B41F2BFBB64FC4)
+* [Botón Añadir nuevo segmento](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_85CC88C02C79456EA2B41F2BFBB64FC4)
 * [Formato condicional](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_5775B505D83041408B8C3EAEC5D7C32B)
 * [Vista previa de dimensión](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_F519EBF889B244E8B25BB6BA2833325A)
 * [Leyenda visible](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_28D10D86CAE343AB838808C1DD2E7983)
-* [Eje Y delimitador a cero](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_83DF5DE79EF04F9F8DCB3154F5E799B3)
+* [Anclar eje Y a cero](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_83DF5DE79EF04F9F8DCB3154F5E799B3)
 * [Nombre del proyecto en el título de la ficha](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_497C61A030984BCCA2CEA553312C3226)
 * [Transferir propiedad del proyecto](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_989C2CCB80B5408EB85E6B12C8D943E3)
 
@@ -1232,7 +1232,7 @@ En la [!UICONTROL Configuración de visualización], la opción **[!UICONTROL Le
 
 ![](assets/legend-visible.png)
 
-## Eje Y delimitador a cero {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
+## Anclar eje Y a cero {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
 Dependiendo de los números de los gráficos de línea y de área, la parte inferior del eje Y podría no ser cero. Al habilitar **[!UICONTROL Eje Y delimitador a cero]** en [!UICONTROL Configuración de visualización], se fuerza al eje Y a comenzar por cero para obtener una visión más precisa de las tendencias. Los siguientes ejemplos muestran cómo cambia un gráfico de ingresos con esta configuración activada o desactivada:
 
