@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Describe la compatibilidad de Report Builder con los informes de rutas y abandon
 | Rutas completas | No admitido. |
 | PathFinder | No se proporciona como un informe independiente. Se puede reproducir como un informe de Ruta con un filtro. |
 | Longitud de ruta | Compatible únicamente para la dimensión de Página. |
-| Análisis de página > Resumen de dimensión | No se proporciona como un informe independiente. Se puede reproducir con diversas solicitudes con la dimensión de Ruta y con un filtro. |
+| Análisis de página > Resumen de dimensiones | No se proporciona como un informe independiente. Se puede reproducir con diversas solicitudes con la dimensión de Ruta y con un filtro. |
 | Análisis de página > Recargas | No se proporciona como un informe independiente. Se puede reproducir con un informe de dimensión con la métrica Recargas. |
 | Análisis de página > Profundidad de dimensión | Compatible únicamente para la dimensión de Página. |
 | Análisis de página > Tiempo invertido en dimensión | No admitido. |
