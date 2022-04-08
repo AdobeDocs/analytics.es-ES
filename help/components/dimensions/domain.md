@@ -4,7 +4,7 @@ description: La organización o el ISP que el visitante utiliza para acceder a I
 feature: Dimensions
 exl-id: 292dc256-e9e7-47be-8586-774f1c047011
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ La dimensión “Dominio” indica los puntos de acceso que los visitantes utili
 
 ## Rellene esta dimensión con datos
 
-Adobe está asociado con [Digital Element](https://www.digitalelement.com/es) para determinar el dominio del punto de acceso. Para determinar el dominio del punto de acceso se utilizan varios métodos, incluida la búsqueda inversa de DNS. No requiere ninguna configuración y no tiene una variable que rellenar. Funciona de forma predeterminada con todas las implementaciones de AppMeasurement.
+Adobe está asociado con [Digital Element](https://www.digitalelement.com/es/) para determinar el dominio del punto de acceso. Para determinar el dominio del punto de acceso se utilizan varios métodos, incluida la búsqueda inversa de DNS. No requiere ninguna configuración y no tiene una variable que rellenar. Funciona de forma predeterminada con todas las implementaciones de AppMeasurement.
 
 ## Elementos de dimensión
 
