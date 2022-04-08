@@ -4,7 +4,7 @@ description: El número de veces que una visita coincidió con los criterios de 
 feature: Metrics
 exl-id: b84c895d-e678-47a1-9e41-500970e0a80c
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
 ht-degree: 100%
 
