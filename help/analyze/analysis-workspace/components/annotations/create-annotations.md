@@ -4,10 +4,10 @@ description: Cómo crear anotaciones en Espacio de trabajo.
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 6a63c480220fa963cf1dc00acdd5e482dc2bab38
+source-git-commit: 587de061b1a395892be55a1898dde9f3204f285c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '597'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 0%
 | **Haga clic con el botón derecho en un punto de un gráfico de [!UICONTROL Líneas].** | Se abre el [!UICONTROL Generador de anotaciones]. Tenga en cuenta que, de forma predeterminada, las anotaciones creadas de esta forma solo son visibles en el proyecto en el que se crearon. No obstante, puede ponerlas a disposición de todos los proyectos. Observe que las fechas y cualquier métrica, etc., ya se han rellenado.<p>![](assets/annotate-line.png) |
 | **En Espacio de trabajo, vaya a [!UICONTROL Componentes] > [!UICONTROL Crear anotación].** | Se abre el [!UICONTROL Generador de anotaciones.] |
 | **Utilice esta tecla de acceso directo** para abrir el Generador de anotaciones: (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Tenga en cuenta que al utilizar la tecla de acceso directo para crear una anotación, se crea una anotación de un solo día para la fecha actual, sin ningún ámbito preseleccionado (métricas o dimensiones). |
-| **Utilice la variable [2.0 API de anotaciones](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/annotations/)** | Las API de anotaciones de Analytics 2.0 le permiten crear, actualizar o recuperar anotaciones mediante programación a través del Adobe I/O. Estas API utilizan los mismos datos y métodos que el Adobe utiliza en la interfaz de usuario del producto. |
 
 1. Rellene los elementos del [!UICONTROL Creador de anotaciones.]
 
