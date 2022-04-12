@@ -3,21 +3,21 @@ title: Aviso de fin de vida útil para informes programados
 description: El Adobe tiene la intención de poner en pausa todos los informes programados que tengan una fecha de creación buena de dos años.
 feature: Reports & Analytics Basics
 role: User, Admin
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
-
 # Aviso de fin de vida útil para informes programados
 
-A partir del 15 de abril de 2022, el Adobe tiene la intención de poner en pausa todos los informes programados que tengan una fecha de creación buena a dos años (cualquier tarea creada antes del 31 de enero de 2020). No se eliminarán informes ni datos. Solo se pausarán los informes identificados como de más de dos años y no se enviarán informes programados adicionales.
+A partir del 21 de abril de 2022, el Adobe tiene la intención de poner en pausa todos los informes programados que tengan una fecha de creación buena a dos años (cualquier tarea creada antes del 31 de enero de 2020). No se eliminarán informes ni datos. Solo se pausarán los informes identificados como de más de dos años y no se enviarán informes programados adicionales.
 
 Los informes programados que aún se envíen se pueden reactivar simplemente iniciando sesión en Analytics y abriendo el [!UICONTROL Informes programados] gerente. Haga clic en el [!UICONTROL Editar] y establezca una nueva hora y caducidad programadas. Cualquier informe que se reactive tendrá una caducidad predeterminada de 9 meses, a menos que se elija una fecha de caducidad más corta.
 
-Cualquier informe con una fecha de creación inferior a dos años sin fecha de caducidad (o con una fecha de caducidad superior a dos años) tendrá aplicada una fecha de caducidad predeterminada de 9 meses. La nueva fecha de caducidad será el 15 de diciembre de 2022. Puede editar esta fecha de caducidad para que sea inferior a 9 meses, pero no buena.
+Cualquier informe con una fecha de creación inferior a dos años sin fecha de caducidad (o con una fecha de caducidad superior a dos años) tendrá aplicada una fecha de caducidad predeterminada de 9 meses. La nueva fecha de caducidad será el 15 de diciembre de 2022. Puede editarla para que sea inferior a 9 meses, pero no superior.
 
 Por último, las ediciones realizadas en un informe programado existente sin fecha de caducidad requieren una fecha de caducidad de 9 meses o menos. De lo contrario, no podrá guardar ninguna edición ni cambio en el informe.
 

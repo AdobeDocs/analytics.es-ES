@@ -4,8 +4,8 @@ title: Administrador de tareas programadas
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 91d94ba33328f0ac5fba09cdafb26f58733b4d58
-workflow-type: ht
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ El [!UICONTROL Administrador de tareas programadas] le permite ver una lista de 
 
 ## Pausa de tareas programadas antiguas
 
-**A partir del 15 de abril de 2022**, Adobe tiene la intención de poner en pausa todas las tareas de Report Builder programadas que se crearon hace más de dos años. Específicamente, esta pausa se aplica a **cualquier tarea creada antes del 31 de enero de 2020**. No se eliminarán tareas, libros ni datos. Las tareas que tengan más de dos años se pausarán y no se enviarán tareas programadas adicionales.
+**A partir del 21 de abril de 2022**, Adobe tiene la intención de poner en pausa todas las tareas de Report Builder programadas que se crearon hace más de dos años. Específicamente, esta pausa se aplica a **cualquier tarea creada antes del 31 de enero de 2020**. No se eliminarán tareas, libros ni datos. Las tareas que tengan más de dos años se pausarán y no se enviarán tareas programadas adicionales.
 
 Cualquier tarea que cuyo envío desee reanudar se puede reactivar. Inicie sesión en Report Builder y lance el [!UICONTROL Administrador de tareas programadas]. Haga clic en **[!UICONTROL Reactivar]** para la tarea programada cuyo envío desea reanudar. Cualquier tarea que se reactive tendrá una caducidad predeterminada de 18 meses, a menos que se elija una fecha de caducidad más corta.
 
