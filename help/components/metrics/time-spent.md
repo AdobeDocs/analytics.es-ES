@@ -3,10 +3,10 @@ title: Cálculo del tiempo empleado en Adobe Analytics
 description: Una página agregada de dimensiones y métricas de tiempo empleado.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
-source-wordcount: '1581'
-ht-degree: 100%
+source-git-commit: de08ad32d36219ccd7da5470e5821de565bed18b
+workflow-type: tm+mt
+source-wordcount: '1617'
+ht-degree: 94%
 
 ---
 
@@ -19,8 +19,8 @@ Los productos de Adobe Analytics ofrecen varias métricas y dimensiones de [!UIC
 | Métrica | Definición | Disponible en |
 |---|---|---|
 | [!UICONTROL Segundos totales empleados] | Representa el tiempo total durante el cual los visitantes interactúan con un elemento de dimensión específico. Incluye la instancia de un valor y persistencia en todas las visitas individuales posteriores. En el caso de las props, el tiempo empleado también se cuenta en los eventos de vínculo siguientes. | Analysis Workspace, Reports &amp; Analytics, Report Builder (denominado “tiempo total empleado”), Data Warehouse |
-| [!UICONTROL Tiempo empleado por visita] (segundos) | *Segundos totales empleados (devoluciones)*<br> representa el tiempo medio durante el cual los visitantes interactúan con un elemento de dimensión específico durante cada visita. | Analysis Workspace, Reports &amp; Analytics |
-| [!UICONTROL Tiempo empleado por visitante] (segundos) | *Segundos totales empleados (visitantes únicos)*<br> representa el tiempo medio durante el cual los visitantes interactúan con un elemento de dimensión específico a lo largo de la duración de la visita (la duración de su cookie). | Analysis Workspace, Reports &amp; Analytics |
+| [!UICONTROL Tiempo empleado por visita] (segundos) | Aproximadamente *Segundos totales empleados / (devoluciones de visita)*<br> Representa el tiempo medio durante el cual los visitantes interactúan con un elemento de dimensión específico durante cada visita. **Nota**: Esta métrica no se puede calcular de forma independiente porque el denominador de esta función es una métrica interna. | Analysis Workspace, Reports &amp; Analytics |
+| [!UICONTROL Tiempo empleado por visitante] (segundos) | Aproximadamente *Segundos totales empleados/visitante único*<br> Representa el tiempo medio durante el cual los visitantes interactúan con un elemento de dimensión específico a lo largo de la duración del visitante (la duración de su cookie). **Nota**: Esta métrica no se puede calcular de forma independiente porque el denominador de esta función es una métrica interna. | Analysis Workspace, Reports &amp; Analytics |
 | [!UICONTROL Tiempo promedio empleado en el sitio] (segundos) | Representa el tiempo total durante el cual los visitantes interactúan con un elemento de dimensión específico, por secuencia con un elemento de dimensión. No se limita al promedio del “sitio”, como su nombre sugiere. Consulte la sección “Cómo se calcula el tiempo empleado” para obtener más información sobre las secuencias.<br>**Nota:** Es muy probable que, en el nivel de elemento de dimensión, esta métrica difiera del “Tiempo empleado por visita” debido a diferencias en el denominador del cálculo. | Analysis Workspace, Reports &amp; Analytics (se muestra en minutos), Report Builder (se muestra en minutos) |
 | [!UICONTROL Promedio de tiempo en el sitio] | Es la misma métrica que *Duración media de la visita (segundos)*, pero con el formato Tiempo (hh:mm:ss) | Analysis Workspace |
 | [!UICONTROL Tiempo promedio empleado en la página] | Métrica obsoleta.<br> En su lugar, se recomienda el uso de “Tiempo promedio empleado en el sitio” si se necesita el tiempo promedio para un elemento de dimensión. | Report Builder (cuando hay una dimensión en la solicitud) |
