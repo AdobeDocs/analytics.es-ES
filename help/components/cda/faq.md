@@ -2,10 +2,10 @@
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 100%
+source-wordcount: '1937'
+ht-degree: 98%
 
 ---
 
@@ -104,7 +104,7 @@ CDA extrae los elementos de dimensión de identificador variable antes de optimi
 
 ## ¿Cuántos de los grupos de informes de mi compañía se pueden habilitar para CDA?
 
-Se pueden habilitar varios grupos de informes, pero cada grupo de informes adicional aumentará el tiempo de aprovisionamiento general si se solicitan varios grupos de informes a la vez. CDA no combina grupos de informes. Cada grupo de informes habilitado para CDA debe ser de varios dispositivos (con datos de varias superficies, como la web de escritorio, la web móvil, la aplicación móvil, etc.)
+A partir del 1 de mayo de 2022, cualquier nueva implementación de CDA se limitará a un máximo de tres ID de grupos de informes (RSID) por cliente. CDA no combina grupos de informes. Cada grupo de informes habilitado para CDA debe ser de varios dispositivos (con datos de varias superficies, como la web de escritorio, la web móvil, la aplicación móvil, etc.).
 
 ## Si mi Experience Cloud org (también conocida como IMS org) tiene varias compañías en diferentes regiones, ¿puedo habilitar CDA para todas ellas?
 

@@ -1,16 +1,16 @@
 ---
-title: Requisitos del sistema
+title: Requisitos del sistema de Adobe Analytics
 description: Requisitos del sistema para utilizar Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: ht
-source-wordcount: '106'
-ht-degree: 100%
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 92%
 
 ---
 
-# Requisitos del sistema
+# Requisitos del sistema de Adobe Analytics
 
 Muestra los requisitos del sistema para utilizar varias soluciones de productos en Adobe Analytics.
 
