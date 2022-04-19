@@ -3,9 +3,9 @@ description: Panel que muestra los elementos de dimensión siguientes o anterior
 title: Panel de elementos siguiente o anterior
 feature: Panels
 role: User, Admin
-source-git-commit: 73fa048164c67c6c381ce5e223bb178f9ab1833f
+source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '484'
 ht-degree: 8%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # Panel de elementos siguiente o anterior
 
-La variable [!UICONTROL Elemento siguiente o anterior] El panel se inició como un informe en Reports &amp; Analytics, en [!UICONTROL Informes] > [!UICONTROL Más popular] > [!UICONTROL Página siguiente/Página anterior]. Este panel de Workspace contiene varias tablas y visualizaciones para identificar fácilmente el elemento de dimensión siguiente o anterior para una dimensión específica. Por ejemplo, es posible que desee explorar a qué páginas se dirigieron los clientes con más frecuencia después de visitar la página principal.
+La variable [!UICONTROL Elemento siguiente o anterior] El panel se inició como un informe en Reports &amp; Analytics, en [!UICONTROL Informes] > [!UICONTROL Más popular] > [!UICONTROL Página siguiente/Página anterior]. Ahora también es un panel de Workspace. Este panel contiene varias tablas y visualizaciones para identificar fácilmente el elemento de dimensión siguiente o anterior para una dimensión específica. Por ejemplo, es posible que desee explorar a qué páginas se dirigieron los clientes con más frecuencia después de visitar la página principal.
 
 ## Acceso al panel
 

@@ -3,9 +3,9 @@ description: El panel de resumen de la página muestra información resumida de 
 title: Panel de resumen de la página
 feature: Panels
 role: User, Admin
-source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
+source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '469'
 ht-degree: 9%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # Panel de resumen de la página
 
-La variable [!UICONTROL Resumen de la página] El panel se inició como un informe en Reports &amp; Analytics, en Informes > Participación > Análisis de página > Resumen de página. Este panel de Workspace permite explorar fácilmente estadísticas clave sobre páginas específicas.
+La variable [!UICONTROL Resumen de la página] El panel se inició como un informe en Reports &amp; Analytics, en Informes > Participación > Análisis de página > Resumen de página. Ahora también es un panel de Workspace. Este panel le permite explorar fácilmente estadísticas clave sobre páginas específicas.
 
 ## Acceso al panel
 
