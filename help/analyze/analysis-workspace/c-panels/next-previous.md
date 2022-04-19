@@ -3,10 +3,10 @@ description: Panel que muestra los elementos de dimensión siguientes o anterior
 title: Panel de elementos siguiente o anterior
 feature: Panels
 role: User, Admin
-source-git-commit: 2a16410a1a9ece301844ef0f242d09e3a16318c0
+source-git-commit: d4106324f6716139731cc6bd948ef06b35303620
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 7%
+source-wordcount: '459'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,9 @@ Puede acceder al panel desde [!UICONTROL Informes] o dentro de [!UICONTROL Espac
 | Punto de acceso | Descripción |
 | --- | --- |
 | [!UICONTROL Informes] | <ul><li>El panel ya se ha colocado en un proyecto.</li><li>El carril izquierdo está colapsado.</li><li>Si ha seleccionado [!UICONTROL Página siguiente], ya se ha aplicado la configuración predeterminada, como [!UICONTROL Página] para [!UICONTROL Dimension]y la página superior como el [!UICONTROL Elemento Dimension], [!UICONTROL Siguiente] para [!UICONTROL Dirección] y [!UICONTROL Visita] para [!UICONTROL Contenedor]. Puede modificar todos estos ajustes.</li></ul>![Panel siguiente/anterior](assets/next-previous.png) |
-| Workspace | Cree un nuevo proyecto y seleccione el icono Panel en el carril izquierdo. A continuación, arrastre el [!UICONTROL Elemento siguiente o anterior] sobre la tabla improvisada. Observe que la variable [!UICONTROL Dimension] y [!UICONTROL Elemento Dimension] se dejan en blanco. Seleccione una dimensión en la lista desplegable. [!UICONTROL elementos del Dimension] se rellenan en función de la variable [!UICONTROL dimensión] usted eligió. Se agrega el elemento de dimensión superior, pero puede seleccionar otro elemento.<p>![Panel siguiente/anterior](assets/next-previous2.png) |
+| Workspace | Cree un nuevo proyecto y seleccione el icono Panel en el carril izquierdo. A continuación, arrastre el [!UICONTROL Elemento siguiente o anterior] sobre la tabla improvisada. Observe que la variable [!UICONTROL Dimension] y [!UICONTROL Elemento Dimension] se dejan en blanco. Seleccione una dimensión en la lista desplegable. [!UICONTROL elementos del Dimension] se rellenan en función de la variable [!UICONTROL dimensión] usted eligió. Se agrega el elemento de dimensión superior, pero puede seleccionar otro elemento. Los valores predeterminados son Next y Visitor. De nuevo, también puede modificarlos.<p>![Panel siguiente/anterior](assets/next-previous2.png) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Entradas de panel {#Input}
 
@@ -32,9 +34,11 @@ Puede configurar la variable [!UICONTROL Elemento siguiente o anterior] panel de
 | --- | --- |
 | Zona de colocación de segmentos (u otros componentes) | Puede arrastrar y soltar segmentos u otros componentes para filtrar aún más los resultados del panel. |
 | Dimensión | Dimensión para la que desea explorar elementos anteriores o siguientes. |
-| Elemento de dimensión | El elemento |
+| Elemento de dimensión | Elemento específico en el centro de la siguiente consulta/anterior. |
 | Dirección | Especifique si está buscando la variable [!UICONTROL Siguiente] o [!UICONTROL Anterior] elemento de dimensión. |
 | Contenedor | [!UICONTROL Visita] o [!UICONTROL Visitante] (predeterminado) determina el ámbito de la consulta. |
+
+{style=&quot;table-layout:auto&quot;}
 
 Haga clic en **[!UICONTROL Generar]** para crear el panel.
 
@@ -46,3 +50,10 @@ La variable [!UICONTROL Elemento siguiente o anterior] devuelve un completo conj
 
 ![Salida de panel siguiente/anterior](assets/next-previous-output2.png)
 
+| Visualización | Descripción |
+| --- | --- |
+| Barra horizontal | Enumera los elementos siguientes (o anteriores) en función del elemento de dimensión que ha elegido. Al pasar el ratón por encima de una barra, se resaltará el elemento correspondiente de la tabla improvisada. |
+| Número de resumen | Número de resumen de alto nivel de todas las incidencias del elemento de dimensión siguiente o anterior del mes actual (hasta ahora). |
+| Tabla improvisada | Enumera los elementos siguientes (o anteriores) en función del elemento de dimensión que ha elegido, en formato de tabla. Por ejemplo, cuáles fueron las páginas más populares (por ocurrencias) a las que se dirigieron los usuarios después (o antes) de la página principal o la página del espacio de trabajo. |
+
+{style=&quot;table-layout:auto&quot;}

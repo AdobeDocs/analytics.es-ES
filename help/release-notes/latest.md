@@ -3,9 +3,9 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c101a98e2d2d73fecc39054289f516411d7d529a
+source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '996'
 ht-degree: 40%
 
 ---
@@ -26,8 +26,8 @@ ht-degree: 40%
 | Función | Descripción | [Fecha objetivo](releases.md) |
 | ----------- | ---------- | ------- |
 | Actualizaciones de la página de aterrizaje de Adobe Analytics | Actualizaciones de la página de aterrizaje conjunta de Workspace/Reports &amp; Analytics que mejora la facilidad de uso y navegación. [Más información](/help/analyze/landing.md) | 20 de abril de 2022 |
-| [!UICONTROL Elemento siguiente] o [!UICONTROL Elemento anterior] Panel de Workspace | La variable [!UICONTROL Elemento siguiente o anterior] permite explorar elementos que siguen o preceden a un elemento de dimensión de su elección. Por ejemplo, utilícelo si desea ver las páginas siguientes o anteriores de una página de producto, un canal de marketing o incluso un tipo de dispositivo específicos. Este panel va más allá de los informes anteriores o siguientes, ya que le permite ver cualquier dimensión y no requiere ninguna implementación nueva para obtener información. | 20 de abril de 2022 |
-| [!UICONTROL Resumen de página] Panel de Workspace | La variable [!UICONTROL Resumen de página] proporciona un análisis en profundidad para una página de su elección. Proporciona los mismos detalles que los informes y análisis heredados [!UICONTROL Resumen de página] informe, más mucho más. | 20 de abril de 2022 |
+| [!UICONTROL Elemento siguiente] o [!UICONTROL Elemento anterior] Panel de Workspace | La variable [!UICONTROL Elemento siguiente o anterior] permite explorar elementos que siguen o preceden a un elemento de dimensión de su elección. Por ejemplo, utilícelo si desea ver las páginas siguientes o anteriores de una página de producto, un canal de marketing o incluso un tipo de dispositivo específicos. Este panel va más allá de los informes anteriores o siguientes, ya que le permite ver cualquier dimensión y no requiere ninguna implementación nueva para obtener información. [Más información](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 20 de abril de 2022 |
+| [!UICONTROL Resumen de página] Panel de Workspace | La variable [!UICONTROL Resumen de página] proporciona un análisis en profundidad para una página de su elección. Proporciona los mismos detalles que los informes y análisis heredados [!UICONTROL Resumen de página] informe, más mucho más. [Más información](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 20 de abril de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
