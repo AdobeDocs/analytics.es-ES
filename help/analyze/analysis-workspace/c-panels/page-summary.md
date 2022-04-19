@@ -3,13 +3,13 @@ description: El panel de resumen de la página muestra información resumida de 
 title: Panel de resumen de la página
 feature: Panels
 role: User, Admin
-source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
+exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
+source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '473'
 ht-degree: 9%
 
 ---
-
 
 # Panel de resumen de la página
 
@@ -26,12 +26,12 @@ Puede acceder al panel desde [!UICONTROL Informes] o dentro de [!UICONTROL Espac
 
 ## Entradas de panel {#Input}
 
-Puede configurar la variable [!UICONTROL Elemento siguiente o anterior] panel de panel con esta configuración de entrada:
+Puede configurar la variable [!UICONTROL Resumen de la página] con esta configuración de entrada:
 
 | Configuración | Descripción |
 | --- | --- |
 | Zona de colocación de segmentos (u otros componentes) | Puede arrastrar y soltar segmentos u otros componentes para filtrar aún más los resultados del panel. |
-| Elemento de dimensión de página | En la lista desplegable, seleccione el elemento de dimensión cuyas estadísticas clave desee explorar. |
+| Elemento de dimensión de página | En la lista desplegable, seleccione el elemento de dimensión Página cuyas estadísticas clave desee explorar. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -56,3 +56,7 @@ La variable [!UICONTROL Resumen de la página] devuelve un completo conjunto de 
 | [!UICONTROL Flujo] | Diagrama de flujo con la página seleccionada como punto focal. Puede profundizar en los datos como en cualquier [Diagrama de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
 
 {style=&quot;table-layout:auto&quot;}
+
+![Panel de resumen de la página](assets/page-sum1.png)
+
+![Métricas y flujo](assets/page-sum2.png)
