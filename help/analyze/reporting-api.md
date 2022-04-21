@@ -5,16 +5,16 @@ uuid: 68ec3490-6e47-4606-860d-dd5e89c574a1
 feature: API
 role: Developer
 exl-id: 003a8b83-6ef0-4313-903a-b76078558d55
-source-git-commit: 44b869a269fdf3a52d8ef132787a66a8284cf6c3
-workflow-type: ht
-source-wordcount: '133'
-ht-degree: 100%
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 92%
 
 ---
 
 # API de informes de Analytics
 
-La documentación de las API de Adobe Analytics se encuentra en [Adobe I/O](https://developer.adobe.com/analytics-apis/docs/2.0/).
+La documentación de las API de Adobe Analytics se encuentra en [Desarrollador de Adobe](https://developer.adobe.com/analytics-apis/docs/2.0/).
 
 ## Comparación de las API de Analytics
 
