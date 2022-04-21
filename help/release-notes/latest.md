@@ -3,16 +3,16 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b93b27fac0a9e3364512bb8a27ad64c7eb379dd1
+source-git-commit: 80e7241fd35e5c745c2341182983613f537ce224
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 32%
+source-wordcount: '1022'
+ht-degree: 31%
 
 ---
 
 # Notas de la versión actual de Adobe Analytics (abril de 2022)
 
-**Última actualización**: 19 de abril de 2022
+**Última actualización**: 20 de abril de 2022
 
 * Para ver las notas de la versión de marzo de 2022, vaya [here](/help/release-notes/2022.md).
 
@@ -27,7 +27,7 @@ ht-degree: 32%
 | Actualizaciones de la página de aterrizaje de Adobe Analytics | Actualizaciones de la página de aterrizaje conjunta de Workspace/Reports &amp; Analytics que mejora la facilidad de uso y navegación. [Más información](/help/analyze/landing.md) | 20 de abril de 2022 |
 | [!UICONTROL Elemento siguiente] o [!UICONTROL Elemento anterior] Panel de Workspace | La variable [!UICONTROL Elemento siguiente o anterior] permite explorar elementos que siguen o preceden a un elemento de dimensión de su elección. Por ejemplo, utilícelo si desea ver las páginas siguientes o anteriores de una página de producto, un canal de marketing o incluso un tipo de dispositivo específicos. Este panel va más allá de los informes anteriores o siguientes, ya que le permite ver cualquier dimensión y no requiere ninguna implementación nueva para obtener información. [Más información](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 20 de abril de 2022 |
 | [!UICONTROL Resumen de página] Panel de Workspace | La variable [!UICONTROL Resumen de página] proporciona un análisis en profundidad para una página de su elección. Proporciona los mismos detalles que los informes y análisis heredados [!UICONTROL Resumen de página] informe, más mucho más. [Más información](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 20 de abril de 2022 |
-| Se ha eliminado el requisito de `x-proxy-global-company-id` encabezado para llamadas a la API 2.0 | Las API de Adobe Analytics 2.0 ya no requieren la variable `x-proxy-global-company-id` , ya que esta información forma parte de la dirección URL del extremo. Puede incluir este encabezado, pero ya no genera un error si falta. | 20 de abril de 2022 |
+| Se ha eliminado el requisito de `x-proxy-global-company-id` encabezado para llamadas a la API 2.0 | Las API de Adobe Analytics 2.0 ya no requieren la variable `x-proxy-global-company-id` , ya que esta información forma parte de la dirección URL del extremo. Puede incluir este encabezado, pero ya no obtendrá un error si falta. | 20 de abril de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
