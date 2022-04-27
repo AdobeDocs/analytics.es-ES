@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 716b57203cd15ec646792ce1cf5ca47340c23421
 workflow-type: tm+mt
 source-wordcount: '3212'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -28,16 +28,16 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Tema nuevo en [!UICONTROL Resumen de página] panel | [Panel de resumen de la página](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Tema nuevo en [!UICONTROL Elemento siguiente/anterior] panel | [Panel de elementos de dimensión siguiente/anterior](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Marzo de 2022** |  |
-| Tema nuevo sobre los algoritmos de cifrado HTTPS admitidos | [Algoritmos de cifrado HTTPS admitidos](/help/technotes/rdc/encryption-algos.md) para clientes con un nivel de seguridad cifrado establecido en &quot;Alto&quot;. |
-| Nueva documentación sobre anotaciones en Workspace | [Anotaciones en Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) permite comunicar de forma eficaz los matices y perspectivas de datos contextuales a la organización. |
-| Actualizaciones de la página de aterrizaje de Adobe Analytics | [Actualizaciones](/help/analyze/landing.md) a la página de aterrizaje conjunta de Workspace/Reports &amp; Analytics que mejora la facilidad de uso y navegación. |
-| [!UICONTROL Elemento siguiente] o [!UICONTROL Elemento anterior] Panel de Workspace | Este panel le permite explorar elementos que siguen o preceden a un elemento de dimensión de su elección. |
-| [!UICONTROL Resumen de página] Panel de Workspace | Este panel proporciona un análisis en profundidad para una página de su elección. |
-| Nuevo tema sobre la pausa de informes programados más antiguos | Efectivo **15 de abril de 2022**, el Adobe se propone [poner en pausa todos los informes programados que tengan una fecha de creación buena a dos años](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| Tema nuevo sobre los algoritmos de cifrado HTTPS admitidos | [Algoritmos de cifrado HTTPS admitidos](/help/technotes/rdc/encryption-algos.md) para clientes con un nivel de seguridad cifrado establecido en “Alto”. |
+| Nueva documentación sobre anotaciones en Analysis Workspace | [Las anotaciones en Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. |
+| Actualizaciones de la página de aterrizaje de Adobe Analytics | [Actualizaciones](/help/analyze/landing.md) a la página de aterrizaje conjunta de Analysis Workspace/Reports &amp; Analytics que mejora la facilidad de uso y navegación. |
+| [!UICONTROL Elemento siguiente] o [!UICONTROL Elemento anterior] Panel de espacio de trabajo | Este panel le permite explorar elementos que siguen o preceden a un elemento de dimensión de su elección. |
+| [!UICONTROL Resumen de página] Panel de espacio de trabajo | Este panel proporciona un análisis en profundidad para una página de su elección. |
+| Nuevo tema sobre la pausa de informes programados más antiguos | A partir del **15 de abril de 2022**, Adobe se propone [poner en pausa todos los informes programados que tengan una fecha de creación mayor de dos años](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
 | **Febrero de 2022** |
-| Modo de vista previa del proyecto del cuadro de resultados móvil | La variable [modo de vista previa](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es#preview) permite obtener una vista previa de la experiencia antes de guardar y compartir un informe de valoración. |
+| Modo de vista previa del proyecto del cuadro de resultados móvil | El [modo de vista previa](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es#preview) permite obtener una vista previa de la experiencia antes de guardar y compartir un cuadro de resultados. |
 | Punto de conexión de proyectos de API | Agregue, edite o elimine proyectos de Analysis Workspace mediante la API. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
-| Se ha actualizado el tema sobre la pausa de tareas de Report Builder programadas más antiguas | **A partir del 15 de abril de 2022**[, Adobe tiene la intención de poner en pausa todas las tareas de Report Builder programadas que se crearon hace más de dos años](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+| Se ha actualizado el tema sobre la pausa de tareas de Report Builder programadas más antiguas | **A partir del 15 de abril de 2022**, Adobe tiene la intención de [poner en pausa todas las tareas de Report Builder programadas que se crearon hace más de dos años](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **Octubre de 2021** |  |
 | 21 de octubre de 2021 | Nueva documentación sobre [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=es) en Analysis Workspace |
 | 21 de octubre de 2021 | Nueva documentación sobre [Tiempo invertido en la reproducción de medios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=es) en Analysis Workspace. |
