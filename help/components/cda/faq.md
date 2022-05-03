@@ -2,9 +2,9 @@
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1934'
 ht-degree: 98%
 
 ---
@@ -104,11 +104,11 @@ CDA extrae los elementos de dimensión de identificador variable antes de optimi
 
 ## ¿Cuántos de los grupos de informes de mi compañía se pueden habilitar para CDA?
 
-A partir del 1 de mayo de 2022, cualquier nueva implementación de CDA se limitará a un máximo de tres ID de grupos de informes (RSID) por cliente. CDA no combina grupos de informes. Cada grupo de informes habilitado para CDA debe ser de varios dispositivos (con datos de varias superficies, como la web de escritorio, la web móvil, la aplicación móvil, etc.).
+Efectivo 1 de mayo de 2022, cualquier nueva implementación de CDA se limitará a un máximo de tres ID de grupos de informes (RSID) por cliente. CDA no combina grupos de informes. Cada grupo de informes habilitado para CDA debe ser de varios dispositivos (con datos de varias superficies, como la web de escritorio, la web móvil, la aplicación móvil, etc.).
 
-## Si mi Experience Cloud org (también conocida como IMS org) tiene varias compañías en diferentes regiones, ¿puedo habilitar CDA para todas ellas?
+## Si mi ID de organización tiene varias empresas en diferentes regiones, ¿puedo habilitar CDA para todas ellas?
 
-No. Para la misma organización, solo una región puede tener CDA habilitado.
+No. Para el mismo ID de organización, solo una región puede tener CDA habilitado.
 
 ## ¿Cuáles son las ventajas y desventajas de una repetición de 7 días en lugar de una reproducción de 1 día?
 

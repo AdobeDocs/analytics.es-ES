@@ -4,10 +4,10 @@ solution: Analytics
 title: Resumen del reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,7 @@ En la pestaña “Respuesta”, compruebe que la respuesta contenga datos de Aud
 
       1. Elimine el código DIL e instale el código de página [Módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es).
       1. Habilite el reenvío del lado del servidor en la interfaz de Administración de Analytics como se describe en el paso 3. Habilitar este ajuste antes de eliminar el código DIL duplica datos y crea llamadas de servidor facturables adicionales a Audience Manager.
-   * **Nuevos clientes de AAM**: instale el código de página [Módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es) y siga con el paso 3. No se enviarán datos a Audience Manager hasta que se active el reenvío del lado del servidor en el paso 3.
+   * **Nuevos clientes de AAM**: instale el código de página [Módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) y siga con el paso 3. No se enviarán datos a Audience Manager hasta que se active el reenvío del lado del servidor en el paso 3.
 
 
 ## ![imagen step3_icon.png](assets/step3_icon.png) Verificación de la implementación de reenvío de lado del servidor del grupo de informes
@@ -64,7 +64,7 @@ Se recomienda el reenvío del lado del servidor en el nivel de grupo de informes
 
 Vaya a **Analytics** > **Administración** > **Grupos de informes** > (seleccione **grupos de informes**) > **Editar configuración** > **General** > **Reenvío de servidor**. Si la casilla de verificación está:
 
-* **Inactivo** (No puede realizar una selección o el menú no existe): los grupos de informes seleccionados no están asignados a una organización de IMS. Póngase en contacto con el Servicio de atención al cliente para asegurarse de que el grupo de informes está asignado correctamente.
+* **Inactivo** (No puede realizar una selección o el menú no existe): los grupos de informes seleccionados no están asignados a un ID de organización. Póngase en contacto con el Servicio de atención al cliente para asegurarse de que el grupo de informes está asignado correctamente.
 * **Deshabilitada**: no tiene activado el nuevo reenvío del lado del servidor. Lea el contenido de la página y habilite esta función.
 * **Habilitada**: ya está aprovisionado para el nuevo reenvío del lado del servidor. También puede configurar esta integración de Audience Analytics.
 

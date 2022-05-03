@@ -3,10 +3,10 @@ description: Solucione problemas y cuestiones relacionadas con Advertising Analy
 title: Solucionar problemas de Advertising Analytics
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ Está intentando [configurar una cuenta publicitaria nueva](/help/integrate/c-ad
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. El grupo de informes no está asignado a la Experience Cloud Org ID del usuario que ha iniciado sesión. </p> </td> 
-   <td colname="col2"> <p>Póngase en contacto con el Servicio de atención al cliente para asignar el grupo de informes a una organización de IMS.</p> </td> 
+   <td colname="col2"> <p>Póngase en contacto con el Servicio de atención al cliente para asignar el grupo de informes a un ID de organización.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. El grupo de informes no está aprovisionado para los informes de Advertising Analytics. </p> </td> 
