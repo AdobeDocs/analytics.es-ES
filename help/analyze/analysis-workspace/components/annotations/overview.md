@@ -5,20 +5,16 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '300'
+ht-degree: 100%
 
 ---
 
 # Descripción general de anotaciones
 
->[!NOTE]
->
->La implementación gradual de esta función comienza el 23 de marzo de 2022. Disponibilidad general: 11 de abril de 2022.
-
-Las anotaciones en Workspace le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. Permiten enlazar eventos de calendario con dimensiones/métricas específicas. Puede anotar una fecha o un intervalo de fechas con problemas de datos conocidos, días festivos, lanzamientos de campañas, etc. Entonces, puede mostrar gráficamente los eventos y ver si las campañas u otros eventos han afectado al tráfico del sitio, los ingresos o alguna otra métrica.
+Las anotaciones en el espacio de trabajo le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. Permiten enlazar eventos de calendario con dimensiones/métricas específicas. Puede anotar una fecha o un intervalo de fechas con problemas de datos conocidos, días festivos, lanzamientos de campañas, etc. Entonces, puede mostrar gráficamente los eventos y ver si las campañas u otros eventos han afectado al tráfico del sitio, los ingresos o alguna otra métrica.
 
 Por ejemplo, supongamos que comparte proyectos con su organización. Si tuvo un pico importante en el tráfico debido a una campaña de marketing, podría crear una anotación de “Fecha de inicio de la campaña” y ampliarla para todo el grupo de informes. Cuando los usuarios ven cualquier conjunto de datos que incluya esa fecha, ven la anotación dentro de sus proyectos, junto con sus datos.
 
@@ -34,13 +30,13 @@ Recuerde:
 
 * Pueden aplicarse al grupo de informes en el que se crearon (predeterminado) o a todos los grupos de informes.
 
-## Permisos
+## Permisos {#permissions}
 
 De forma predeterminada, solo los administradores pueden crear anotaciones. Los usuarios tienen derechos para ver las anotaciones como lo hacen con otros componentes de Analytics (como segmentos, métricas calculadas, etc.).
 
 Sin embargo, los administradores pueden dar el permiso de [!UICONTROL Creación de anotaciones] (Herramientas de Analytics) a los usuarios a través de [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=es).
 
-## Activación o desactivación de anotaciones
+## Activación o desactivación de anotaciones {#on-off}
 
 Las anotaciones se pueden activar o desactivar en varios niveles:
 

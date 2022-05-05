@@ -4,28 +4,20 @@ title: Página de aterrizaje de Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 97396b20aec5864f70a14d969c7b87244ff84ae0
+source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
 workflow-type: tm+mt
-source-wordcount: '3610'
+source-wordcount: '3564'
 ht-degree: 83%
 
 ---
 
 # Página de aterrizaje de Adobe Analytics
 
-La página de aterrizaje para Adobe Analytics reúne ambas [!DNL Analysis Workspace] y [!DNL Reports & Analytics] en una sola interfaz y punto de acceso bajo la [!DNL Workspace] paraguas. Incluye una página de inicio del administrador de proyectos, un menú de informes actualizado e informes modernizados, así como una sección de aprendizaje que le ayudará a iniciarse de forma más eficaz.
-
->[!IMPORTANT]
->
->Esta página de aterrizaje está actualmente en Open Beta. Es un punto de partida opcional. Si lo prefiere, puede utilizar la página de aterrizaje existente, independientemente de si es así [!UICONTROL Espacio de trabajo] o [!UICONTROL Informes]. Si decide adherirse al programa beta, acceda a la página y haga clic en **[!UICONTROL Proporcionar comentarios]** en la parte superior de la pantalla para registrar sus comentarios y los errores que pueda encontrar. Puede excluirse del programa beta y volver a acceder a él en cualquier momento. Cualquier trabajo realizado en la interfaz de usuario beta se transfiere al [!UICONTROL Espacio de trabajo] experiencia.
+La página de aterrizaje para Adobe Analytics reúne ambas [!DNL Analysis Workspace] y [!DNL Reports & Analytics] en una sola interfaz y punto de acceso bajo la [!DNL Workspace] paraguas. Incluye una página de inicio del administrador de proyectos, un menú de informes actualizado e informes modernizados, así como una sección de aprendizaje que le ayudará a iniciarse de forma más eficaz. A continuación, se muestra un vídeo introductorio:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## Nuevas funciones de la página de aterrizaje
-
->[!NOTE]
->
->Estas adiciones y cambios están actualmente [en pruebas limitadas](/help/release-notes/releases.md).
+## Nuevas funciones de la página de aterrizaje {#new-features}
 
 | Función | Descripción | Captura de pantalla |
 | --- | --- | --- |
@@ -47,7 +39,7 @@ Después de iniciar sesión en Adobe Experience Cloud y Analytics, active el bot
 
 ![Aterrizaje](assets/landing.png)
 
-## Estructura del menú
+## Estructura del menú superior {#top-menu}
 
 ![Menú superior](assets/top-menus.png)
 
@@ -112,7 +104,7 @@ La pestaña [!UICONTROL Informes] consolida tres conjuntos de informes:
 
 Como se ha mencionado anteriormente, solo están disponibles aquí los informes más utilizados que antes se agrupaban en Reports &amp; Analytics. No se migraron algunos informes poco usados o que ya no son relevantes. Consulte las preguntas frecuentes a continuación para obtener más información.
 
-### Menús y submenús
+### Menús y submenús {#menus}
 
 Aquí están los menús y sus submenús. Si no encuentra un informe específico, haga una búsqueda en la página para encontrarlo.
 
@@ -125,7 +117,7 @@ Aquí están los menús y sus submenús. Si no encuentra un informe específico,
 | **[!UICONTROL Adquisición]** | <ul><li>Canales de marketing > Canal de primer contacto, Detalles de canal de primer contacto (¿Qué canal de primer contacto y qué canal de primer contacto específico está teniendo el mejor rendimiento?)</li><li>Canales de marketing > Primer canal, Detalle del último canal (¿Qué canal de último contacto y qué canal de último contacto específico está teniendo el mejor rendimiento?)</li><li>Campañas > Campañas (¿Qué campañas están impulsando mis métricas clave?)</li><li>Campañas > Rendimiento de la campaña (¿Qué campañas consiguen el máximo de los ingresos?)</li><li>Campañas > Código de seguimiento (¿Qué códigos de seguimiento de campaña funcionan mejor?)</li><li>[Adquisición web](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#web)</li><li>[Adquisición móvil](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics: búsqueda de pago](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#advertising)</li><li>Palabras clave de búsqueda: todas, pagadas, naturales (¿Qué palabras clave de búsqueda y palabras clave de búsqueda pagada/natural impulsan mejor mis métricas clave?)</li><li>Motores de búsqueda: todos, pagados, naturales (¿Qué motores de búsqueda y motores de búsqueda natural/pagada impulsan mejor mis métricas clave?)</li><li>Clasificación de todas las páginas de búsqueda (¿De qué página de búsqueda están visitando mis usuarios?)</li><li>Dominios de referencia (¿Qué dominios dirigen tráfico a mi sitio?)</li><li>Dominios de referencia originales (¿Cuál fue el primer dominio en el que se encontraban los usuarios antes de visitar mi sitio?)</li><li>Remitentes del reenvío (¿En qué URL estaban mis usuarios antes de hacer clic en mi sitio?)</li><li>Tipos de remitente del reenvío (¿A qué categoría pertenecen mis URL de referencia?)</li></ul> |
 | **[!UICONTROL Informes de la compañía]** | Informes que su compañía ha creado para su uso. Consulte “Crear un Informe de la compañía” a continuación. |
 
-### Ubicación de las plantillas (ahora denominadas informes)
+### Ubicación de las plantillas (ahora denominadas informes) {#templates}
 
 | Nombre del informe (plantilla) | Ubicación del informe |
 | --- | --- |
@@ -152,7 +144,7 @@ Aquí están los menús y sus submenús. Si no encuentra un informe específico,
 | Adquisición web | Adquisición > Adquisición web |
 | Advertising Analytics: búsqueda de pago | Adquisición > Advertising Analytics: búsqueda de pago |
 
-### Uso de la pestaña Informes
+### Uso de la pestaña Informes {#use-reports}
 
 Para los usuarios actuales de Reports &amp; Analytics, aquí tiene una breve introducción sobre cómo utilizar los informes a los que está acostumbrado y que ahora se muestran en Espacio de trabajo. Los informes funcionan como plantillas existentes: si realiza cambios en ellos, se le pedirá que guarde o descarte los cambios al desplazarse fuera o a otro informe. Y si desea guardar los cambios, se guarda el informe como un nuevo proyecto.
 
@@ -170,7 +162,7 @@ Para los usuarios actuales de Reports &amp; Analytics, aquí tiene una breve int
    * Puede cambiar el intervalo de fechas en el calendario, en la parte superior derecha.
    * Puede agregar desgloses de dimensión, arrastrar otras métricas y, por lo general, personalizar el informe de la manera que desee.
 
-### Creación de un Informe de la compañía (personalizado)
+### Creación de un Informe de la compañía (personalizado) {#company-report}
 
 Los informes personalizados se denominan Informes de la compañía y se encuentran en el menú Informe de la compañía (ver a continuación). Aquí se enumeran todos los creados anteriormente y todos los nuevos.
 
@@ -199,6 +191,22 @@ La página Aprendizaje contiene tutoriales y recorridos en vídeo prácticos, ad
 * El recorrido [!UICONTROL Conceptos básicos del Espacio de trabajo] le lleva directamente a Espacio de trabajo, y le explica el diseño del Espacio de trabajo y dónde encontrar y realizar las acciones más comunes. También se puede reiniciar en cualquier momento directamente en el Espacio de trabajo en la ventana emergente de información del panel del encabezado.
 * Al hacer clic en un vídeo/recorrido, se agrega la etiqueta **[!UICONTROL Visto]**. Esta etiqueta le ayuda a realizar un seguimiento del progreso por el contenido de aprendizaje. Puede hacer clic en la etiqueta y desaparece, en caso de que aún no haya completado el contenido.
 * El botón **[!UICONTROL Más información]** del modo de vídeo le lleva a una página de documentación de Adobe Experience League con más contenido de ayuda relacionado con el vídeo que acaba de ver.  **[!UICONTROL Ver más vídeos]** le dirige a la lista de reproducción completa de YouTube de Analysis Workspace.
+
+## Establecer una página de aterrizaje {#set-landing}
+
+Los usuarios pueden establecer su página de aterrizaje preferida.
+
+1. Vaya a Analytics > [!UICONTROL Componentes] > [!UICONTROL Preferencias] > [!UICONTROL General].
+1. Compruebe qué página de aterrizaje preferiría:
+
+   ![Establecer página de aterrizaje](assets/landing-pref.png)
+
+## Ocultar informe, ficha {#hide-reports}
+
+Los administradores pueden ocultar la ficha Informes para todos los usuarios de su organización.
+
+1. Vaya a [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Preferencias] > [!UICONTROL Empresa].
+1. Marque **[!UICONTROL Ficha Ocultar informes]**.
 
 ## Preguntas frecuentes sobre la página de aterrizaje {#landing-faq}
 
