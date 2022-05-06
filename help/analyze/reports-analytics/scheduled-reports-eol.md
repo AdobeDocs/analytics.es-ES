@@ -4,10 +4,10 @@ description: El Adobe tiene la intención de poner en pausa todos los informes p
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 35e5f056f962066a068ca1f0247c5b550efc2edc
+source-git-commit: 3a307eefec4f9e6559c5109819ef55b200852b3b
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,6 +31,6 @@ El propósito de esta acción es administrar y mantener de forma eficaz nuestros
 * Después del 21 de abril de 2022, todos los informes programados tienen una fecha de caducidad máxima de 9 meses.
 * Después de 9 meses, las tareas caducadas se pausan y se pueden reactivar, si es necesario, hasta el 31 de diciembre de 2023.
 * El 31 de diciembre de 2023, Reports &amp; Analytics dejará de usarse.
-* Ya no se pueden configurar nuevas extracciones de datos. Las existentes seguirán ejecutándose, pero no se podrán programar nuevas.
+* A partir del 21 de abril de 2022, ya no podrá configurar nuevas extracciones de datos. Las existentes seguirán ejecutándose, pero no se podrán programar nuevas.
 
 Para obtener más información o asistencia, póngase en contacto con el Servicio de atención al cliente de Adobe.
