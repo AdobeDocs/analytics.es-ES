@@ -5,34 +5,30 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 0bab340afcffdf337d0ff6bacb0351d744c1d9a5
+source-git-commit: ec4edb257490d326ab8f8de51a4ab9412a2b4a28
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 95%
+source-wordcount: '1306'
+ht-degree: 84%
 
 ---
 
 # Procesamiento de tiempo de los informes
 
-El [!UICONTROL Procesamiento de intervalo de tiempo] es una configuración de los grupos de informes virtuales que permite procesar los datos de una forma retroactiva y no destructiva.
-
->[!NOTE]
->
->El [!UICONTROL Procesamiento de intervalo de tiempo] solo está disponible para Analysis Workspace.
+[!UICONTROL Procesamiento de tiempo de los informes] es una configuración de grupo de informes virtuales que permite procesar los datos en Analysis Workspace de forma retroactiva y no destructiva.
 
 El [!UICONTROL Procesamiento de intervalo de tiempo] solo afecta a los datos en el grupo de informes virtuales y no tiene efecto sobre ningún dato o recopilación de datos en el grupo de informes base. La diferencia entre el [!UICONTROL Procesamiento de intervalo de tiempo] y el procesamiento tradicional de Analytics se entiende mejor con el siguiente diagrama:
 
-![Google1](assets/google1.jpg)
+![Canalización de procesamiento tradicional](assets/google1.jpg)
 
 Durante el procesamiento de datos de Analytics, los datos fluyen por el canal de recopilación de datos hasta un paso de preprocesamiento que los prepara para la realización de informes. Este paso de preprocesamiento aplica lógica de caducidad de visitas y de persistencia de eVars (entre otras cosas) a los datos que se van recopilando. La principal desventaja de este modelo de preprocesamiento es que requiere que la configuración esté completada antes de recabar los datos. Por tanto, cualquier cambio realizado en la configuración de preprocesamiento solo se aplica a los nuevos datos desde ese momento en adelante. Esto puede suponer un problema si los datos no llegan ordenados, o si la configuración presenta errores.
 
 El [!UICONTROL Procesamiento de intervalo de tiempo] es un modo fundamentalmente distinto de procesar datos de Analytics para la creación de informes. En lugar de predeterminar la lógica de procesamiento antes de la recopilación de datos, Analytics ignora el conjunto de datos durante el paso de preprocesamiento y aplica la lógica cada vez que se ejecuta un informe:
 
-![Google2](assets/google2.jpg)
+![Canalización de procesamiento de tiempo de los informes](assets/google2.jpg)
 
-Esta arquitectura de procesamiento ofrece opciones de realización de informes mucho más flexibles. Por ejemplo, puede cambiar el tiempo de espera de visita a cualquier periodo que desee de forma no destructiva, cambios que se reflejan retroactivamente en la persistencia de eVars y los contenedores de segmentos, como si estos ajustes se hubieran aplicado antes de la recopilación de los datos. Además, puede crear cualquier número de grupos de informes virtuales, cada uno con distintas opciones de Procesamiento de intervalo de tiempo y basados en el mismo grupo de informes base, sin alterar ninguno de los datos del grupo de informes base.
+Esta arquitectura de procesamiento ofrece opciones de realización de informes mucho más flexibles. Por ejemplo, puede cambiar el tiempo de espera de visita a cualquier periodo que desee de forma no destructiva, cambios que se reflejan en la persistencia del eVar y los contenedores de segmento durante todo el período de informe. Además, puede crear cualquier número de grupos de informes virtuales, cada uno con distintas opciones de Procesamiento de intervalo de tiempo y basados en el mismo grupo de informes base, sin alterar ninguno de los datos del grupo de informes base.
 
-El [!UICONTROL Procesamiento de intervalo de tiempo] también permite a Analytics impedir que las visitas en segundo plano comiencen nuevas visitas y permite al [SDK para móviles de Adobe Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=es) indicar a la creación de informes que inicie una nueva visita cada vez que se active un evento de inicio de aplicación.
+[!UICONTROL Procesamiento de intervalo de tiempo] también permite a Analytics impedir que las visitas en segundo plano inicien nuevas visitas y permite que la variable [SDK de Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=es) para iniciar una nueva visita cada vez que se active un evento de inicio de aplicación.
 
 ## Opciones de configuración
 
@@ -54,23 +50,23 @@ El Procesamiento de intervalo de tiempo no admite todas las métricas y dimensio
 
 Además, Procesamiento de intervalo de tiempo solo procesa los datos que se producen dentro del intervalo de fechas del informe (lo que se refiere como “limitación de fechas” más adelante). Esto significa que los valores de eVar establecidos para no caducar nunca para un visitante antes de intervalo de fechas del informe no persisten hasta el periodo del informe y no aparecen en este. También significa que las mediciones de lealtad de los clientes se basan exclusivamente en los datos presentes en el intervalo de fechas del informe, y no en el historial completo anterior a dicho intervalo.
 
-A continuación se ofrece una lista de métricas y dimensiones que en este momento no son compatibles con Procesamiento de intervalo de tiempo:
+Las siguientes dimensiones y métricas no son compatibles con Procesamiento de intervalo de tiempo:
 
-* **Analytics for Target:** Actualmente no es compatible. Está prevista la compatibilidad futura.
-* **Métricas y dimensiones reservadas de Analytics para Advertising Cloud:** Actualmente no es compatible. Está prevista la compatibilidad futura.
-* **Métrica de acceso único:** No es compatible de forma permanente.
-* **Variables de lista:** Actualmente no es compatible. Está prevista la compatibilidad futura.
-* **eVars de contador:** No es compatible de forma permanente.
-* **Variables de canales de marketing:** Actualmente no es compatible. Está prevista la compatibilidad futura.
-* **Dimensión de días desde la última compra:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, esta dimensión no es compatible.
-* **Dimensión de días antes de la primera compra:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, esta dimensión no es compatible.
-* **Dimensión de frecuencia de retorno:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, esta dimensión no es compatible. Se puede utilizar un enfoque alternativo empleando una métrica de recuento de visitas en un segmento, o utilizando la métrica de visitas en un informe de histograma.
-* **Dimensión de días desde la última visita:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, esta dimensión no es compatible.
-* **Dimensión Página de entrada original:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, esta dimensión no es compatible.
-* **eVars de asignación lineal:** Actualmente no es compatible. Está prevista la compatibilidad futura.
-* **Dimensión del dominio de referencia original:** Actualmente no es compatible. Está prevista la compatibilidad futura.
-* **Número de visitas:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, esta métrica no es compatible. Como alternativa en las aplicaciones móviles, puede utilizar una métrica calculada que incluya visitantes/visitas con la métrica Instalación de la aplicación para identificar nuevos visitantes o visitas.
-* **Fuentes de datos de ID de transacción:** Actualmente no es compatible. Está prevista la compatibilidad futura.
+* **Analytics for Target**
+* **Dimensiones y métricas de Analytics for Advertising Cloud**
+* **eVars de contador**
+* **Días antes de la primera compra**
+* **Días desde la última compra**
+* **Días transcurridos desde la última visita**
+* **Página de entrada original**
+* **eVars de asignación lineal**
+* **Vars de lista**
+* **Dimensiones de los canales de marketing**
+* **Dominio de referencia original**
+* **Frecuencia de retorno**
+* **Acceso único**
+* **Fuentes de datos de ID de transacción**
+* **Número de visita**
 
 ## Dimensiones y métricas afectadas
 

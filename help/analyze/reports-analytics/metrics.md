@@ -4,14 +4,14 @@ title: Resumen de las métricas
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: f0d2508b64b835a030258c7437c10b7c8654b5ed
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '327'
+ht-degree: 98%
 
 ---
 
-# Resumen de las métricas
+# Resumen de las métricas de Reports &amp; Analytics
 
 Las métricas son la base de los informes, ya que ayudan a ver y a comprender las relaciones que hay entre los datos y permiten las comparaciones paralelas de diferentes conjuntos de datos relacionados con el sitio Web. Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc.
 
