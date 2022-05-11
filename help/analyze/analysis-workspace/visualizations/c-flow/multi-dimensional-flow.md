@@ -5,8 +5,8 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: ht
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
 
@@ -14,9 +14,7 @@ ht-degree: 100%
 
 # Flujos interdimensionales
 
-Un flujo interdimensional le permite examinar las rutas del usuario entre diversas dimensiones.
-
-Aquí tiene un vídeo sobre el ajuste de texto y el flujo multidimensional en Analysis Workspace:
+Un flujo interdimensional le permite examinar las rutas del usuario entre diversas dimensiones. Aquí tiene un vídeo sobre el ajuste de texto y el flujo multidimensional en Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -26,7 +24,7 @@ Existe una etiqueta de dimensión en la parte superior de cada columna Flujo que
 
 Observaremos dos casos de uso: un caso de uso de aplicación y un caso de uso web.
 
-## Caso de uso uno: app {#section_3D31D37B9C9F4134AE46C96291E41294}
+## Caso de uso uno: app {#app}
 
 La dimensión [!UICONTROL Nombre de la acción] se ha añadido al flujo, donde el principal elemento devuelto es [!UICONTROL ItemAdded]:
 
@@ -56,7 +54,7 @@ Esto es lo que sucede si añade otra dimensión Nombre de la acción al final de
 
 Esto permite obtener información exhaustiva y realizar posibles cambios a la aplicación que está analizando.
 
-## Caso de uso dos: web {#section_8D55983FA0C84926995270052AE01CD8}
+## Caso de uso dos: web {#web}
 
 Este caso de uso le muestra cómo puede analizar qué campañas obtienen el máximo número de entradas al sitio web.
 

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como paneles de Adobe Analytics, Report Builder y Activity Map.
-source-git-commit: e865cd474b5b4a3251ed6e7cf6dae1f604f5a9c8
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 99%
+source-wordcount: '1051'
+ht-degree: 98%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 99%
       + Flujo {#flow}
          + [Resumen de flujos](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configuración de una visualización de flujo](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+         + [Nueva visualización de flujo (beta)](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Configuración de flujo](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [Flujos interdimensionales](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histograma](analysis-workspace/visualizations/histogram.md)
@@ -99,7 +100,7 @@ ht-degree: 99%
          + [Configuración de entrada y salida](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Preguntas frecuentes](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
       + [Panel de elementos siguiente o anterior](analysis-workspace/c-panels/next-previous.md)
-      + [Panel de resumen de la página](analysis-workspace/c-panels/page-summary.md)
+      + [Panel Resumen de página](analysis-workspace/c-panels/page-summary.md)
       + [Panel de información rápida](analysis-workspace/c-panels/quickinsight.md)
       + Panel de comparación de segmentos {#segment-comparison}
          + [Información general del de comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
