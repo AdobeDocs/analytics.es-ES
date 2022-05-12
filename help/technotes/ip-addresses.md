@@ -3,24 +3,24 @@ title: IP y dominios utilizados por Adobe Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '407'
-ht-degree: 100%
+source-git-commit: e777313f5a46939ef5525205deaffc807f33a894
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 86%
 
 ---
 
 # IP y dominios utilizados por Adobe Analytics
 
-La configuración de algunos cortafuegos bloquea las direcciones IP que se originan de los servidores de recopilación de datos de Adobe o de los servidores responsables de acceder a datos. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización.
+La configuración de algunos cortafuegos bloquea las direcciones IP que se originan de los servidores de recopilación de datos de Adobe o de los servidores responsables de acceder a datos. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización. Esta página incluye tanto los sistemas entrantes (como la recopilación de datos) como los salientes (como las fuentes de datos) que utiliza el Adobe.
 
 >[!IMPORTANT]
 >
->A pesar del esfuerzo que realiza por mantener actualizado este documento, Adobe no puede garantizar que la lista de intervalos de IP sea la misma. Los posibles cambios incluyen el crecimiento y la expansión del negocio, un registro de Internet requiere cambios en el espacio de direcciones IP del Adobe o un proveedor de servicio de Internet deja de funcionar.
+>Aunque Adobe hace todo lo posible por mantener actualizado este documento, no puede garantizar que la lista de intervalos de IP sea la misma. Los posibles cambios incluyen el crecimiento y la expansión del negocio, un registro de Internet requiere cambios en el espacio de direcciones IP del Adobe o un proveedor de servicio de Internet deja de funcionar.
 
 ## Permitir dominios de tecnología dependientes
 
-Adobe Analytics utiliza los siguientes hosts para mejorar el rendimiento y la experiencia del producto. Adobe recomienda añadir estos dominios a la lista de permitidos del cortafuegos para una experiencia óptima con Adobe Analytics.
+Adobe Analytics utiliza los siguientes hosts para mejorar el rendimiento y la experiencia del producto. Adobe recomienda permitir que estos dominios pasen por el cortafuegos de su organización para disfrutar de una experiencia óptima con Adobe Analytics.
 
 | Tecnología | Dominio |
 | --- | --- |
@@ -89,14 +89,14 @@ Si su organización prefiere permitir intervalos específicos de direcciones IP,
 | Singapur | `172.82.246.0/23` |
 | Singapur | `172.82.248.0/21` |
 | San Jose | `66.117.20.0/24` |
-| San Jose | `66.235.132.0/22` |
-| San Jose | `130.248.128.0/22` |
-| San Jose | `192.243.248.0/23` |
-| San Jose | `172.82.200.0/22` |
-| San Jose | `66.235.136.0/22` |
-| San Jose | `208.91.175.0/24` |
-| San Jose | `208.91.174.0/24` |
-| San Jose | `208.91.169.0/24` |
+| San José | `66.235.132.0/22` |
+| San José | `130.248.128.0/22` |
+| San José | `192.243.248.0/23` |
+| San José | `172.82.200.0/22` |
+| San José | `66.235.136.0/22` |
+| San José | `208.91.175.0/24` |
+| San José | `208.91.174.0/24` |
+| San José | `208.91.169.0/24` |
 | Sídney | `216.104.216.0/23` |
 | Tokio | `66.235.159.0/24` |
 | Tokio | `66.117.21.0/24` |
