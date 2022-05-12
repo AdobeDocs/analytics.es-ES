@@ -3,13 +3,13 @@ description: Utilice la visualización de flujo en un proyecto de Workspace.
 title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
-source-git-commit: 141daf54e845970254f478e8c3e95be2239013c5
+exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
+source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 44%
+source-wordcount: '794'
+ht-degree: 40%
 
 ---
-
 
 # Configuración de una visualización de flujo
 
@@ -17,13 +17,13 @@ ht-degree: 44%
 >
 >Esta nueva versión de [!UICONTROL Flujo] la visualización está actualmente en versión beta privada. Consulte [esta página](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) para la funcionalidad actual.
 
-Flujo permite rastrear los recorridos exactos que los clientes están tomando a través del sitio web o la aplicación. Rastrea una ruta a través de sus dimensiones (y elementos de dimensión) o métricas. Cada flujo tiene un punto de inicio y un punto final, y una métrica o dimensión (o elemento) que está rastreando.
+La visualización de flujo actualizada permite comprender los recorridos que se derivan de un evento de conversión específico en el sitio web o la aplicación, o que se generan en él. Rastrea una ruta a través de sus dimensiones (y elementos de dimensión) o métricas. Flujo permite configurar el inicio o el final de la ruta que le interese o analizar todas las rutas que fluyen a través de una dimensión o elemento de dimensión.
 
 El nuevo [!UICONTROL flujo] la experiencia mejora el flujo de trabajo de varias formas:
 
-* Permite rastrear métricas, además de dimensiones y elementos de dimensión.
+* Ahora puede elegir iniciar o finalizar la ruta con la combinación de una métrica y una dimensión de rutas.
 * Contiene [!UICONTROL Configuración avanzada] para permitirle personalizar aún más el [!UICONTROL flujo].
-* Permite configurar la variable [!UICONTROL flujo] antes de construirlo.
+* El nuevo botón &quot;Generar&quot; ahorra tiempo en análisis al permitirle configurar el recorrido de una sola vez, luego consultar y luego crear automáticamente varias columnas y nodos a la vez &#x200B;.
 
 ![nueva interfaz de usuario de flujo](assets/new-flow.png)
 
@@ -53,7 +53,7 @@ El nuevo [!UICONTROL flujo] la experiencia mejora el flujo de trabajo de varias 
    | --- | --- |
    | **[!UICONTROL Incluir instancias repetidas]** | Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo, recargas de página. Sin embargo, las repeticiones no se pueden eliminar de las visualizaciones de flujo que incluyen dimensiones multivalor, como listVars, listProps, s.product, eVars de comercialización, etc. Valor predeterminado = sin marcar. |
    | **[!UICONTROL Etiquetas de ajuste]** | Normalmente, las etiquetas de los elementos de flujo se truncan para ahorrar espacio en la pantalla, pero puede hacer la etiqueta entera visible al marcar esta casilla.  Valor predeterminado = sin marcar. |
-   | **[!UICONTROL Límite de entradas/salidas]** | Resultados limitados a rutas cuando el primer/último punto de contacto es y entrada/salida. |
+   | **[!UICONTROL Limitar a primera/última incidencia]** | Limite las rutas a aquellas que comienzan/finalizan con la primera/última incidencia de una dimensión, elemento/métrica. |
    | **[!UICONTROL Número de columnas]** | Determina cuántas columnas desea incluir en el diagrama de flujo. |
    | **[!UICONTROL Elementos expandidos por columna]** | ¿Cuántos elementos desea incluir en cada columna? |
    | **[!UICONTROL Contenedor de flujo]** | <ul><li>Visita</li><li>Visitante.</li></ul> Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. Estos ajustes le permiten comprender el compromiso del visitante a nivel de visitante (a lo largo de visitas) o restringir el análisis a una única visita. |
