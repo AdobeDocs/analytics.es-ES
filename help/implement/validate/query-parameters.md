@@ -3,10 +3,10 @@ title: Parámetros de consulta de recopilación de datos
 description: Enumera todos los parámetros de cadena de consulta utilizados en solicitudes de imagen.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 | `p` | Ninguna | Ya no se utiliza. Lista de complementos utilizados en el explorador. |
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | Se utiliza en la dimensión [Página](/help/components/dimensions/page.md). |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Se utiliza en la dimensión [Páginas no encontradas](/help/components/dimensions/pages-not-found.md). |
-| `pccr` | Ninguna | Solo se configura para visitantes nuevos y siempre se establece como `true`. Ayuda a evitar redireccionamientos infinitos. |
+| `pccr` | Ninguna | Solo se configura para visitantes nuevos y siempre se establece como `true`. Ayuda a evitar redirecciones infinitas si un visitante rechaza cookies. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Determina el tipo de vínculo personalizado. Necesario para [Vínculos personalizados](/help/components/dimensions/custom-link.md), [Vínculos de descarga](/help/components/dimensions/download-link.md) y [Vínculos de salida](/help/components/dimensions/exit-link.md). |
 | `pev1` | Ninguna | Dirección URL en la que se produjo el vínculo personalizado. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Nombre reconocible del vínculo personalizado. |
@@ -77,7 +77,8 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | Dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md). |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md) o dimensiones de conversión personalizadas. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Variable de ID de visitante. |
-| `vmk` | `vmk` | Ya no se utiliza. Clave de migración de Visitante, que ayudó a migrar las implementaciones de cookies de terceros a cookies de origen. |
+| `vidn` | Ninguno | La establece AppMeasurement para visitantes nuevos. Contiene el valor de ID almacenado en la cookie del visitante. |
+| `vmk` | `vmk` | Ya no se utiliza. Clave de migración de visitantes, que ayudó a migrar las implementaciones de cookies de terceros a cookies de origen. |
 | `vvp` | `variableProvider` | Se utiliza en Data Connectors. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | Se utiliza con las fuentes de datos para enlazar datos en línea y sin conexión. |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | Se utiliza en la dimensión [Código postal](/help/components/dimensions/zip-code.md). |
