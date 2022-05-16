@@ -3,9 +3,9 @@ title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1934'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -106,9 +106,9 @@ CDA extrae los elementos de dimensión de identificador variable antes de optimi
 
 Efectivo 1 de mayo de 2022, cualquier nueva implementación de CDA se limitará a un máximo de tres ID de grupos de informes (RSID) por cliente. CDA no combina grupos de informes. Cada grupo de informes habilitado para CDA debe ser de varios dispositivos (con datos de varias superficies, como la web de escritorio, la web móvil, la aplicación móvil, etc.).
 
-## Si mi ID de organización tiene varias empresas en diferentes regiones, ¿puedo habilitar CDA para todas ellas?
+## Si mi ID de organización tiene varias empresas en diferentes regiones, ¿puedo habilitar el CDA para todas ellas?
 
-No. Para el mismo ID de organización, solo una región puede tener CDA habilitado.
+No. Solo una región puede tener un CDA habilitado para el mismo ID de organización.
 
 ## ¿Cuáles son las ventajas y desventajas de una repetición de 7 días en lugar de una reproducción de 1 día?
 
@@ -122,7 +122,7 @@ Si un cliente abandona Ultimate, ya no tendrá acceso a los datos enlazados. Se 
 
 ## ¿Por qué el número total de visitas es diferente entre mi grupo de informes de origen y el grupo de informes virtuales CDA?
 
-CDA utiliza una compleja canalización de procesamiento paralela, con varios componentes dependientes. Se espera una discordancia de datos de aproximadamente el 1 % para el número total de visitas entre el grupo de informes original y el grupo de informes virtuales CDA.
+CDA utiliza una compleja canalización de procesamiento paralela, con varios componentes dependientes. Se espera una discordancia de datos de aproximadamente el 1 % para el número total de visitas entre el grupo de informes original y el grupo de informes virtuales de CDA.
 
 ## ¿Por qué está inflada la métrica Personas identificadas?
 
