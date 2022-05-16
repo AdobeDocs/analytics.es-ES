@@ -4,9 +4,9 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
+source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '808'
 ht-degree: 40%
 
 ---
@@ -45,6 +45,10 @@ El nuevo [!UICONTROL flujo] la experiencia mejora el flujo de trabajo de varias 
 
    ![dimensión de rutas](assets/pathing-dim.png)
 
+   >[!IMPORTANT]
+   >
+   >Las métricas calculadas no se pueden colocar en la variable  **[!UICONTROL Comienza con]** o **[!UICONTROL Finaliza con]** zonas de colocación.
+
 1. (Opcional) Haga clic en **[!UICONTROL Mostrar configuración avanzada]** para configurar la configuración avanzada:
 
    ![configuración avanzada](assets/adv-settings.png)
@@ -53,7 +57,7 @@ El nuevo [!UICONTROL flujo] la experiencia mejora el flujo de trabajo de varias 
    | --- | --- |
    | **[!UICONTROL Incluir instancias repetidas]** | Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo, recargas de página. Sin embargo, las repeticiones no se pueden eliminar de las visualizaciones de flujo que incluyen dimensiones multivalor, como listVars, listProps, s.product, eVars de comercialización, etc. Valor predeterminado = sin marcar. |
    | **[!UICONTROL Etiquetas de ajuste]** | Normalmente, las etiquetas de los elementos de flujo se truncan para ahorrar espacio en la pantalla, pero puede hacer la etiqueta entera visible al marcar esta casilla.  Valor predeterminado = sin marcar. |
-   | **[!UICONTROL Limitar a primera/última incidencia]** | Limite las rutas a aquellas que comienzan/finalizan con la primera/última incidencia de una dimensión, elemento/métrica. |
+   | **[!UICONTROL Limitar a la primera/última ocurrencia]** | Limite las rutas a aquellas que comienzan/finalizan con la primera/última incidencia de una dimensión, elemento/métrica. |
    | **[!UICONTROL Número de columnas]** | Determina cuántas columnas desea incluir en el diagrama de flujo. |
    | **[!UICONTROL Elementos expandidos por columna]** | ¿Cuántos elementos desea incluir en cada columna? |
    | **[!UICONTROL Contenedor de flujo]** | <ul><li>Visita</li><li>Visitante.</li></ul> Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. Estos ajustes le permiten comprender el compromiso del visitante a nivel de visitante (a lo largo de visitas) o restringir el análisis a una única visita. |
