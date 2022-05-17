@@ -1,25 +1,25 @@
 ---
-description: Uso de segmentos ad hoc en Analysis Workspace.
+description: Utilice segmentos ad hoc en Analysis Workspace.
 title: Segmentos ad hoc
 feature: Segmentation
 role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
-source-git-commit: f50e3d9a1d3c1705c55a14af0e42a0da3ac00955
+source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 48%
 
 ---
 
-# Segmentos de proyecto ad hoc
+# Segmentos de proyecto específicos
 
 Los segmentos de proyecto específicos le permiten arrastrar y soltar cualquier componente directamente en la zona de colocación del panel para crear un segmento. El segmento se convierte en un [segmento de nivel de proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F) local al proyecto actual.
 
-Aquí tiene un vídeo sobre la creación de segmentos de proyecto ad hoc:
+Aquí tiene un vídeo sobre la creación de segmentos de proyecto específicos:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-1. Suelte cualquier tipo de componente (dimensión, elemento de dimensión, evento, métrica, segmento, plantilla de segmento, intervalo de fechas) en la zona de colocación de segmentos en la parte superior de un panel. Los tipos de componente se convierten automáticamente en segmentos ad-hoc o [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=es) si es compatible.
+1. Suelte cualquier tipo de componente (dimensión, elemento de dimensión, evento, métrica, segmento, plantilla de segmento, intervalo de fechas) en la zona de colocación de segmentos en la parte superior de un panel. Los tipos de componente se convierten automáticamente en segmentos ad hoc o [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) si es compatible.
 Este es un ejemplo de cómo crear un segmento para el dominio de referencia de Twitter:
 
    ![](assets/ad-hoc1.png)
