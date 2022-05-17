@@ -4,10 +4,10 @@ title: Resumen de paneles
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: ca1ca90c5b40ef89db14741bca826d7a57be44c6
-workflow-type: ht
-source-wordcount: '1095'
-ht-degree: 100%
+source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
+workflow-type: tm+mt
+source-wordcount: '1098'
+ht-degree: 95%
 
 ---
 
@@ -66,11 +66,11 @@ Arrastre y suelte cualquier segmento del carril izquierdo en la zona desplegable
 
 ![](assets/segment-filter.png)
 
-### Filtros de segmentos específicos
+### Filtros de segmento ad hoc
 
-Los componentes que no son segmentos también se pueden arrastrar directamente a la zona de colocación para crear segmentos específicos, lo que le ahorrará el tiempo y el tener que utilizar el Generador de segmentos. Los segmentos creados de esta manera se definen automáticamente como segmentos de nivel de visita individual. Puede modificar esta definición haciendo clic en el icono de información (i) junto al segmento, seleccionando el icono de edición con forma de lápiz y editándola en el Generador de segmentos.
+Los componentes que no son de segmento también se pueden arrastrar directamente a la zona de colocación para crear segmentos ad hoc, lo que le ahorra tiempo y esfuerzo al ir al Generador de segmentos. Los segmentos creados de esta manera se definen automáticamente como segmentos de nivel de visita individual. Puede modificar esta definición haciendo clic en el icono de información (i) junto al segmento, seleccionando el icono de edición con forma de lápiz y editándola en el Generador de segmentos.
 
-Los segmentos específicos son locales del proyecto y no aparecerán en el carril izquierdo a menos que los haga públicos.
+Los segmentos específicos son locales para el proyecto y no aparecen en el carril izquierdo a menos que los haga públicos.
 
 ![](assets/adhoc-segment-filter.png)
 
