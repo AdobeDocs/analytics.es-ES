@@ -3,10 +3,10 @@ title: Vistas del carro de compras
 description: El número de visitas en las que un visitante vio el carro de compras.
 feature: Metrics
 exl-id: f181df60-4dec-47a1-ac6b-a162463c370f
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
-source-wordcount: '69'
-ht-degree: 100%
+source-git-commit: 932a6c1452d4710b11c1ce5551c845ef6721f137
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 92%
 
 ---
 
@@ -17,3 +17,5 @@ La métrica “vistas del carro de compras” muestra el número de veces que un
 ## Cálculo de esta métrica
 
 Esta métrica cuenta el número de visitas donde `scView` existe en la variable [`events`](/help/implement/vars/page-vars/events/events-overview.md).
+
+Consulte [Carros de compras](carts.md) para ver una comparación de métricas.
