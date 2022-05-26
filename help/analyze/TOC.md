@@ -7,7 +7,7 @@ user-guide-description: Instrucciones sobre procedimientos con Analysis Workspac
 source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 98%
          + [Información general](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Configuración de entrada y salida](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Preguntas frecuentes](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
-      + [Panel de elementos siguiente o anterior](analysis-workspace/c-panels/next-previous.md)
+      + [Panel de elemento siguiente o anterior](analysis-workspace/c-panels/next-previous.md)
       + [Panel Resumen de página](analysis-workspace/c-panels/page-summary.md)
       + [Panel de información rápida](analysis-workspace/c-panels/quickinsight.md)
       + Panel de comparación de segmentos {#segment-comparison}
