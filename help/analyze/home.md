@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '242'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 Esta guía proporciona documentación de producto y autoayuda para las siguientes herramientas de análisis e informes de Adobe Analytics:
 
 * **[!UICONTROL Analysis Workspace]:** esta es la funcionalidad más importante de Adobe Analytics. Workspace proporciona un lienzo en el que puede arrastrar componentes para satisfacer sus necesidades de creación de informes.
-* **[!UICONTROL Paneles de Adobe Analytics]:** Esta aplicación móvil permite a los usuarios acceder mediante dispositivos móviles a cuadros de resultados intuitivos con métricas clave y poder realizar desgloses e informes de tendencias más detallados.
+* **[!UICONTROL Paneles de Adobe Analytics]:** esta aplicación móvil permite a los usuarios acceder mediante dispositivos móviles a cuadros de resultados intuitivos con métricas clave y poder realizar desgloses e informes de tendencias más detallados.
 * **[!UICONTROL Activity Map]:** es un complemento del navegador que muestra una superposición en el sitio en la que aparecerán los elementos que reciben más clics.
 * **[!UICONTROL Report Builder]:** complemento de Excel que le permite recuperar datos de Analytics y colocarlos directamente en un libro de trabajo.
 * **[!UICONTROL API de creación de informes]:** para realizar consultas de informes directamente en los servidores de Adobe y obtener respuestas para su uso en sus propias herramientas de creación de informes de clientes.
