@@ -5,9 +5,9 @@ role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ Dado que no puede pasar el ratón sobre los iconos de un archivo .pdf, este arch
 
 ![](assets/ann-pdf.png)
 
-## Ver anotaciones con datos de tendencias
+## Visualización de anotaciones con datos sin tendencias
 
 A veces, las anotaciones se muestran con datos sin tendencias, pero vinculados a una dimensión específica. En ese caso, solo aparecen en una anotación de resumen en la esquina inferior derecha. Vea el siguiente ejemplo:
 
 ![](assets/non-date.png)
 
-El gráfico de resumen aparece en todos los tipos de visualización de la esquina, no solo en tablas improvisadas sin tendencias y números de resumen. También aparece en visualizaciones como [!UICONTROL Anillo], [!UICONTROL Flujo],[!UICONTROL Visita en el orden previsto],[!UICONTROL Cohorte], etc.
+El gráfico de resumen aparece en todos los tipos de visualización de la esquina, no solo en tablas improvisadas sin tendencias y números de resumen. También aparece en visualizaciones como [!UICONTROL Anillo], [!UICONTROL Flujo], [!UICONTROL Visita en orden previsto], [!UICONTROL Cohorte], etc.
 
 ![](assets/ann-summary.png)
