@@ -5,9 +5,9 @@ role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 
    | Elemento | Descripción |
    | --- | --- |
-   | [!UICONTROL Anotación solo de proyecto] | De forma predeterminada, la anotación se aplica al proyecto actual. Al marcar esta casilla, puede poner la anotación a disposición de todos los proyectos que posea.<p> ![](assets/project-only.png) |
+   | [!UICONTROL Anotación solo de proyecto] | De forma predeterminada, la anotación se aplica al proyecto actual. Al marcar esta casilla, puede hacer que la anotación esté disponible para todos los proyectos que posea.<p> ![](assets/project-only.png) |
    | [!UICONTROL Título] | Asigne un nombre a la anotación, por ejemplo, “Día de la Independencia”. |
    | [!UICONTROL Descripción] | (Opcional) Proporcione una descripción para la anotación, por ejemplo, “Día festivo celebrado en los Estados Unidos”. |
    | [!UICONTROL Etiquetas] | (Opcional) Organice las anotaciones creando o aplicando una etiqueta. |
