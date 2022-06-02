@@ -16,7 +16,7 @@ ht-degree: 100%
 
 + [Guía de herramientas de Analytics](home.md)
 + [Notas de la versión de Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
-+ [Landing page](landing.md)
++ [Página de aterrizaje](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Información general de Analysis Workspace](analysis-workspace/home.md)
    + [Novedades en Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
