@@ -5,9 +5,9 @@ role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -44,13 +44,13 @@ Editar una anotación significa que puede ajustar intervalos de fechas, colores,
 
 * En el [!UICONTROL Administrador de anotaciones], haga clic en el título de la anotación.
 
-Ambas opciones le llevan de nuevo a la [!UICONTROL Generador de anotaciones]. Aquí puede realizar los ajustes necesarios y guardar la nueva versión.
+Ambas opciones le permiten volver a acceder al [!UICONTROL Generador de anotaciones]. Aquí puede realizar los ajustes necesarios y guardar la nueva versión.
 
-## Compartir anotaciones
+## Uso compartido de anotaciones
 
 Cuando comparta anotaciones o trabaje con anotaciones que se compartieron con usted, tenga esto en cuenta:
 
-* Supongamos que crea un proyecto con anotaciones solo de proyecto y luego comparte el proyecto con otro usuario. Se mostrarán estas anotaciones, pero ninguna persona con la que comparta el proyecto puede editarlas o eliminarlas.
+* Supongamos que crea un proyecto con anotaciones solo de proyecto y luego lo comparte con otro usuario. Se mostrarán estas anotaciones, pero ninguna persona con la que comparta el proyecto puede editarlas o eliminarlas.
 
 * Si guarda una anotación y la comparte directamente con un usuario, solo podrá editarla o eliminarla si tiene derechos de administrador.
 
@@ -58,9 +58,9 @@ Cuando comparta anotaciones o trabaje con anotaciones que se compartieron con us
 
 ## Anotaciones y zonas horarias
 
-Todas las anotaciones se crean con una marca de tiempo, pero no con información de horas ni de zona horaria. A la hora del informe, siempre se aplica la zona horaria del grupo de informes del panel. Por lo tanto, una anotación creada para Navidad se produce el 25 de diciembre, independientemente de la zona horaria del grupo de informes en la que se encuentre.
+Todas las anotaciones se crean con una marca de tiempo, pero no con información de horas ni de zona horaria. En el momento del informe, siempre se aplica la zona horaria del conjunto de informes del panel. Por lo tanto, una anotación creada para el día de Navidad se produce el 25 de diciembre, sin importar la zona horaria de grupo de informes en la que se encuentre.
 
-Otro ejemplo es el Día de Año Nuevo. Cada hora, una zona horaria diferente inicia fuegos artificiales a medida que comienza el año nuevo. A las 10 pm, hora de las montañas de EE.UU., la costa este de EE.UU. está ardiendo fuego porque ya son las 12 am, hora del este.
+Otro ejemplo es el día de Año Nuevo. Cada hora, una zona horaria diferente lanza fuegos artificiales al comenzar el nuevo año. A las 10 p. m., tiempo de la montaña de EE. UU., la costa este de ese mismo país está lanzando fuegos artificiales porque ya son las 0:00, hora del Este.
 
 ## Otras tareas de anotaciones
 
@@ -71,10 +71,10 @@ Solo tiene que seleccionar una o varias anotaciones y aparecerá la barra de tar
 | Tarea | Descripción |
 | --- | --- |
 | [!UICONTROL Agregue] | Le lleva al Generador de anotaciones, donde puede crear nuevas anotaciones. |
-| [!UICONTROL Etiqueta] | Todos los usuarios pueden crear etiquetas para las anotaciones y aplicar una o más a una anotación. Sin embargo, solo verá las etiquetas de las anotaciones que le pertenecen. ¿Qué tipo de etiquetas debería crear? A continuación encontrará una serie de sugerencias para crear etiquetas útiles:<ul><li>Etiquetas basadas en nombres de equipos, como Marketing social o Marketing móvil</li><li>Etiquetas de proyectos (etiquetas de análisis), como análisis de Páginas de entrada</li><li>Etiquetas de categorías: Para hombres o Área geográfica</li><li>Etiquetas de flujo de trabajo: Revisado para (unidad comercial específica); Aprobado</li></ul> |
+| [!UICONTROL Etiqueta] | Todos los usuarios pueden crear etiquetas para las anotaciones y aplicar una o más a una anotación. Sin embargo, solo puede ver las etiquetas de las anotaciones que posee. ¿Qué tipo de etiquetas debería crear? A continuación encontrará una serie de sugerencias para crear etiquetas útiles:<ul><li>Etiquetas basadas en nombres de equipos, como Marketing social o Marketing móvil</li><li>Etiquetas de proyectos (etiquetas de análisis), como análisis de Páginas de entrada</li><li>Etiquetas de categorías: Para hombres o Área geográfica</li><li>Etiquetas de flujo de trabajo: Revisado para (unidad comercial específica); Aprobado</li></ul> |
 | [!UICONTROL Eliminar] | Al eliminar una anotación, esta se elimina de cualquier proyecto de su organización. |
 | [!UICONTROL Cambiar el nombre] | Al cambiar el nombre de una anotación, se le cambia el nombre en todos los proyectos a los que se ha aplicado. |
-| [!UICONTROL Copy] | Crea una copia distinta con su nuevo ID de anotación, pero con el mismo nombre y definición. |
+| [!UICONTROL Copiar] | Crea una copia distinta con su nuevo ID de anotación, pero con el mismo nombre y definición. |
 | [!UICONTROL Exportar a CSV] | Exporte la definición de la anotación a un archivo .csv. |
 | [!UICONTROL Filtro] (carril izquierdo) | Filtre por etiquetas, grupo de informes, propietarios y otros filtros (Míos, Aprobados, Favoritos, Compartidos conmigo y Mostrar todo). |
 
