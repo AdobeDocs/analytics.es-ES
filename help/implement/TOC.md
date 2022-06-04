@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: 'Personalice los datos que se recopilan para obtener más información de Adobe Analytics. '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 95%
 
 ---
 
@@ -131,6 +131,22 @@ ht-degree: 100%
    + [Modo de implementación](prepare/implementation-modal.md)
    + [Creación de un documento de diseño de solución](prepare/solution-design.md)
    + [Ocuparse de una implementación de Adobe Analytics existente](prepare/existing-implementation.md)
++ Implementar Analytics con Experience Platform Edge {#aep-edge}
+   + [Información general de Experience Edge](aep-edge/overview.md)
+   + [Asignación de variables](aep-edge/variable-mapping.md)
+   + SDK web {#web-sdk}
+      + [Información general del SDK web](aep-edge/web-sdk/overview.md)
+   + SDK móvil {#mobile-sdk}
+      + [Información general del SDK móvil](aep-edge/mobile-sdk/overview.md)
+   + API de Edge {#edge-api}
+      + [Información general de la API de Edge](aep-edge/edge-api/overview.md)
++ Implementación de Analytics mediante etiquetas en Adobe Experience Platform {#launch}
+   + [Información general sobre las etiquetas](launch/overview.md)
+   + [Creación de una propiedad de etiquetas de Adobe Analytics](launch/create-analytics-property.md)
+   + [Implementación en un entorno de desarrollo](launch/deploy-dev.md)
+   + [Validación y publicación para producción](launch/validate-publish-prod.md)
+   + [Asignación de objetos de capa de datos a elementos de datos](launch/layer-to-elements.md)
+   + [Asignación de elementos de datos de etiquetas a variables de Analytics](launch/elements-to-variable.md)
 + Implementar Analytics mediante JavaScript {#js}
    + [Información general de JavaScript](js/overview.md)
    + [Implementación de Vínculos de no participación](js/opt-out.md)
@@ -150,13 +166,6 @@ ht-degree: 100%
       + [Ejemplo de visita](js/xdevice-visid/visit-example.md)
       + [Preguntas frecuentes sobre dispositivos cruzados heredados](js/xdevice-visid/xdevice-faq.md)
    + [Solución de problemas de AppMeasurement](js/troubleshooting.md)
-+ Implementación de Analytics mediante etiquetas en Adobe Experience Platform {#launch}
-   + [Información general sobre las etiquetas](launch/overview.md)
-   + [Creación de una propiedad de etiquetas de Adobe Analytics](launch/create-analytics-property.md)
-   + [Implementación en un entorno de desarrollo](launch/deploy-dev.md)
-   + [Validación y publicación para producción](launch/validate-publish-prod.md)
-   + [Asignación de objetos de capa de datos a elementos de datos](launch/layer-to-elements.md)
-   + [Asignación de elementos de datos de etiquetas a variables de Analytics](launch/elements-to-variable.md)
 + Implementar Analytics en otras plataformas {#other}
    + [Implementación de Analytics mediante solicitudes de imagen codificadas](other/hardcoded.md)
    + [Implementar Analytics mediante DTM](other/dtm-implementation-overview.md)
@@ -179,6 +188,3 @@ ht-degree: 100%
    + [Revisión específica (después de cada lanzamiento de sitio web)](review/focused-review.md)
    + [Revisión completa (cada 6 meses)](review/full-review.md)
    + [Definición de los 5 KPI principales](review/define-kpis.md)
-+ Uso de datos XDM con Analytics {#aep-edge}
-   + [Uso del SDK web de AEP](aep-edge/xdmoverview.md)
-   + [Asignación manual de datos XDM a Analytics](aep-edge/xdm-manual.md)

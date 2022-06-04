@@ -1,16 +1,16 @@
 ---
-title: Implementación con etiquetas en Adobe Experience Platform
+title: Implementar Adobe Analytics con etiquetas en Adobe Experience Platform
 description: Obtenga información sobre cómo implementar Adobe Analytics mediante etiquetas
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 94%
 
 ---
 
-# Implementación con etiquetas en Adobe Experience Platform
+# Implementar Adobe Analytics con etiquetas en Adobe Experience Platform
 
 Durante toda la vida útil de Adobe Analytics, Adobe ha ofrecido varios métodos diferentes para implementar código en su sitio para la recopilación de datos. El método que recomienda actualmente Adobe es a través de etiquetas en Adobe Experience Platform.
 

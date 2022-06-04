@@ -1,11 +1,10 @@
 ---
 description: El análisis de contribución es un proceso de aprendizaje automatizado intensivo diseñado para descubrir qué contribuye a una anomalía observada en Adobe Analytics. El propósito es ayudar al usuario a descubrir las áreas de interés u oportunidades para un análisis adicional de forma más rápida de lo que sería posible de otro modo.
 title: Técnicas estadísticas utilizadas en los análisis de contribución
-feature: AI Tools
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
