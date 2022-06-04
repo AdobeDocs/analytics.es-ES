@@ -2,7 +2,7 @@
 title: Vinculación basada en el campo
 description: Comprenda los requisitos previos y las limitaciones de la vinculación de datos mediante la vinculación basada en el campo.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 88c6874a043c3aa1a9ff1ec9d4b196ba37179387
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 97%
@@ -17,7 +17,7 @@ Cross-Device Analytics proporciona dos métodos distintos para unir datos. Este 
 
 Si tiene intención de implementar el análisis entre dispositivos mediante la vinculación basada en el campo, es necesario lo siguiente. Trabaje con equipos de su organización y con el administrador de cuentas de Adobe para asegurarse de que cumple todos los requisitos siguientes.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Si no se cumplen todos los requisitos previos, es posible que no se pueda habilitar el análisis entre dispositivos o que se obtengan resultados deficientes al vincular datos.
 

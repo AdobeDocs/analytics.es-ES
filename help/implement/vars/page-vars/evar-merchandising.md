@@ -3,7 +3,7 @@ title: Variables de eVar (comercialización)
 description: Variables personalizadas que se relacionan con productos individuales.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 99%
@@ -20,7 +20,7 @@ Para obtener información detallada sobre cómo funcionan las eVars de comercial
 
 Antes de usar eVars en la implementación, asegúrese de configurar la eVar con la sintaxis deseada en la configuración del grupo de informes. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la guía de administración.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Si no se configuran correctamente las eVars de comercialización, se pueden producir valores inesperados o incluso perder datos para la variable. Asegúrese de que esté correctamente configurado para su implementación.
 

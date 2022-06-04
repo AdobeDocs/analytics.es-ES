@@ -3,10 +3,10 @@ title: productos
 description: Enviar datos sobre qué productos se muestran o están en el carro de compras.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 98%
 
 ---
 
@@ -33,9 +33,7 @@ Puede utilizar una de estas extensiones o puede utilizar el editor de código pe
 
 La variable `s.products` es una cadena que contiene varios campos delimitados por producto. Delimite cada campo con un punto y coma (`;`) en la cadena.
 
->[!IMPORTANT]
->**[!UICONTROL Categoría ]**ya no se recomienda como opción viable para realizar un seguimiento del rendimiento de la categoría del producto. Como resultado, todas las cadenas de producto deben comenzar con el punto y coma, lo que significa que el primer campo está vacío.
-
+* **Categoría** (opcional): La categoría del producto. La longitud máxima de este campo es de 100 bytes.
 * **Nombre** del producto (obligatorio): El nombre del producto. La longitud máxima de este campo es de 100 bytes.
 * **Cantidad** (opcional): Cuántos de estos productos están en el carro de compras. Este campo solo se aplica a las visitas con el evento de compra.
 * **Precio** (opcional): El precio total del producto como decimal. Si la cantidad es mayor que 1, establezca el precio en el total y no en el precio del producto individual. Alinee la moneda de este valor para que coincida con la variable [`currencyCode`](../config-vars/currencycode.md). No incluya el símbolo de moneda en este campo. Este campo solo se aplica a las visitas con el evento de compra.
@@ -44,17 +42,17 @@ La variable `s.products` es una cadena que contiene varios campos delimitados po
 
 ```js
 // Set a single product using all available fields
-s.products = ";Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
+s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
 Esta variable admite varios productos en la misma visita. Es útil para un carro de compras y pedidos que incluyen múltiples productos. La longitud máxima de toda la cadena `products` es de 64 K. Separe cada producto con una coma (`,`) en la cadena.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = ";Example product 1;1;3.50,;Example product 2;1;5.99";
+s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
 ```
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Elimine todos los puntos y comas, las barras de los nombres de productos y las categorías, y los valores de eVar de comercialización. Si el nombre de un producto incluye una coma, AppMeasurement la analiza como el inicio de un nuevo producto. Este error en el análisis elimina el resto de la cadena de producto, lo que provoca datos incorrectos en dimensiones e informes.
 
@@ -64,13 +62,13 @@ La variable `products` es flexible cuando se omiten campos e incluyen varios pro
 
 ```js
 // Include only product and category. Common on individual product pages
-s.products = ";Example product";
+s.products = "Example category;Example product";
 
 // Include only product name
 s.products = ";Example product";
 
 // One product has a category, the other does not. Note the comma and adjacent semicolon to omit category
-s.products = ";Example product 1,;Example product 2";
+s.products = "Example category;Example product 1,;Example product 2";
 
 // A visitor purchases a single product; record quantity and price
 s.events = "purchase";
@@ -96,7 +94,7 @@ s.products = ";Example product;;;;eVar1=Merchandising value";
 
 // Multiple products using multiple different events and multiple different merchandising eVars
 s.events = "event1,event2,event3,event4,purchase";
-s.products = ";Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
+s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
 Si utiliza la `digitalData` [capa de datos](../../prepare/data-layer.md), puede iterar a través de la matriz de objetos `digitalData.product`:

@@ -4,10 +4,9 @@ title: Marcas de hora opcionales
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
@@ -22,7 +21,7 @@ Marcas de hora opcionales, permite hacer lo siguiente:
 * Envíe datos con marca de hora de una aplicación móvil a un grupo de informes globales.
 * Actualice aplicaciones para usar el seguimiento sin conexión sin tener que crear un nuevo grupo de informes.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Si usa Marcas de hora opcionales, no configure [s.visitorID](/help/implement/vars/config-vars/visitorid.md) en datos que ya cuenten con marcas de hora. Esto puede generar datos confusos y afectar de forma negativa a los cálculos de hora (como por ejemplo los valores de tiempo empleado), atribución (persistencia de eVar), número de visitas/recuentos de visitas y informes de rutas.
 

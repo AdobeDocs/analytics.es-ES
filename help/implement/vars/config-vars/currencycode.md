@@ -3,8 +3,8 @@ title: ¿Qué es la variable currencyCode y cómo se usa?
 description: Para los sitios de comercio electrónico, establece la moneda que usa la página.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Si `currencyCode` está definida y coincide con la moneda del grupo de informes,
 
 Si `currencyCode` está definida y es diferente a la moneda del grupo de informes, Adobe aplica una conversión de moneda basada en el tipo de cambio del día actual. Adobe se asocia con [XE](https://xe.com) para convertir moneda cada día. Todos los valores almacenados en los servidores de recopilación de datos se almacenan finalmente en la moneda del grupo de informes.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Si `currencyCode` contiene un valor no válido, se descarta toda la visita, lo que provoca la pérdida de datos. Asegúrese de que esta variable esté correctamente definida si la utiliza en la implementación.
 

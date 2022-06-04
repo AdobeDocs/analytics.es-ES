@@ -3,8 +3,8 @@ description: Los segmentos secuenciales se crean mediante el operador THEN, en l
 title: Generar segmentos secuenciales
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '3864'
 ht-degree: 100%
 
@@ -399,7 +399,7 @@ En el caso de &quot;Después de 2 semanas&quot;, si una visita individual a una 
 * [!UICONTROL En] le permite rastrear por año, mes, día, hora y minuto para hacer coincidir visitas.
 * [!UICONTROL En] solo puede aplicarse a un contenedor de [!UICONTROL visita individual] porque es el único nivel para el cual se define una granularidad tan fina.
 
->[!IMPORTANT]
+>[!TIP]
 >
 >En una cláusula “En”, entre instrucciones THEN, se puede agregar, por ejemplo, “En 1 instancia de palabra clave de búsqueda”, “En 1 instancia de eVar 47”. Esto restringe el segmento a una instancia de una dimensión.
 

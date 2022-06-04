@@ -3,8 +3,8 @@ title: registerPreTrackCallback
 description: Cree funciones de devolución de llamada antes de enviar una visita a Adobe.
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 La variable `registerPreTrackCallback` permite a la organización conectar una función de JavaScript después de compilar una dirección URL de solicitud de imagen pero antes de enviarla. Puede utilizar esta variable para enviar datos recopilados por AppMeasurement a un socio o a una infraestructura interna.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >No llame ninguna llamada de seguimiento como [`t()`](t-method.md) o [`tl()`](tl-method.md) dentro de la variable [`registerPostTrackCallback`](registerposttrackcallback.md). Las funciones de seguimiento en esta variable provocan un bucle infinito de solicitudes de imagen.
 

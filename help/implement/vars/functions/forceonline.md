@@ -3,8 +3,8 @@ title: forceOnline
 description: Establezca manualmente el estado en línea de AppMeasurement.
 feature: Variables
 exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 El método `forceOnline()` permite anular el estado detectado automáticamente de AppMeasurement.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Utilice este método únicamente cuando [`trackOffline`](../config-vars/trackoffline.md) esté habilitada. El uso de esta función fuera del seguimiento sin conexión puede causar la pérdida de datos.
 

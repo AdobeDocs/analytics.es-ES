@@ -3,8 +3,8 @@ title: registerPostTrackCallback
 description: Cree funciones de llamada de retorno después de enviar una visita a Adobe.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 La variable `registerPostTrackCallback` permite a su organización conectar una función de JavaScript inmediatamente después de que una visita se envíe correctamente a Adobe. Si falla una llamada de seguimiento, esta función no se ejecuta. Puede utilizar esta variable para enviar los datos recopilados por AppMeasurement a un socio o a una infraestructura interna, o para limpiar los valores de las variables en aplicaciones de una sola página.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >No llame ninguna llamada de seguimiento como [`t()`](t-method.md) o [`tl()`](tl-method.md) dentro de la variable `registerPostTrackCallback`. Las funciones de seguimiento en esta variable provocan un bucle infinito de solicitudes de imagen.
 

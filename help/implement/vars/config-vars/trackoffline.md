@@ -3,8 +3,8 @@ title: trackOffline
 description: Habilite o deshabilite el seguimiento sin conexión, que cambia la forma en que AppMeasurement recopila datos.
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ El seguimiento sin conexión es una forma opcional de recopilar datos en Adobe A
 
 La variable `trackOffline` determina si desea utilizar el seguimiento sin conexión en la implementación.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Debe configurar el grupo de informes para que acepte visitas con marca de tiempo antes de habilitar esta variable. Si un grupo de informes no acepta visitas con marca de tiempo y esta variable está habilitada, los datos se pierden y no se pueden recuperar.
 

@@ -4,8 +4,8 @@ description: Descubra cómo y por qué crear proyectos en Workspace con varios g
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Puede aplicar un grupo de informes a todos los paneles a la vez haciendo clic co
 
 Con esta función, presentamos el concepto de &quot;panel activo&quot; frente a &quot;panel inactivo&quot;. Puede reconocer el panel activo por el borde celeste que lo rodea. Al hacer clic dentro de un panel, este se convierte en el panel activo.
 
->[!IMPORTANT]
+>[!TIP]
 >Puede arrastrar y soltar en cualquier panel que esté en el mismo grupo de informes del panel activo. Al arrastrarlo a un panel inactivo del mismo grupo de informes, el panel se activará.
 
 | Tarea | Panel activo | Panel inactivo |

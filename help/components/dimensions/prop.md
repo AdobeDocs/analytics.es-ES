@@ -3,8 +3,8 @@ title: Prop
 description: Dimensión personalizada que se puede utilizar en sistema de informes.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ De forma predeterminada, las props no distinguen entre mayúsculas y minúsculas
 
 Puede hacer que cualquier prop distinga mayúsculas de minúsculas. También puede deshabilitar la distinción entre mayúsculas y minúsculas en cualquier prop una vez que esté habilitada. Póngase en contacto con el Servicio de atención al cliente de Adobe con el ID del grupo de informes y las variables deseadas para alternar la distinción entre mayúsculas y minúsculas.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Alternar la distinción entre mayúsculas y minúsculas puede acotar los elementos de dimensión, provocar resultados inesperados con los segmentos y causar problemas con los filtros. Adobe recomienda encarecidamente alternar esta configuración entre dos periodos de tiempo principales, como el inicio de un mes o año.
 

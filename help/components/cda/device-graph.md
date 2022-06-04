@@ -2,8 +2,8 @@
 title: Gráfico del dispositivo
 description: Comprenda los requisitos previos y las limitaciones de la vinculación de datos mediante el gráfico del dispositivo.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Adobe ofrece dos tipos de gráficos de dispositivos como parte del servicio de I
 
 Si tiene intención de implementar el análisis entre dispositivos mediante el método del gráfico del dispositivo, es necesario lo siguiente. Trabaje con equipos de su organización y con el administrador de cuentas de Adobe para asegurarse de que cumple todos los requisitos siguientes.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Si no se cumplen todos los requisitos previos, es posible que no se pueda habilitar el análisis entre dispositivos o que se obtengan resultados deficientes al vincular datos.
 

@@ -4,8 +4,8 @@ title: Controles interactivos
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
 >
 
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >No manipule el nombre del control. (Para ver el nombre, establezca el foco en el control y aparecerá el nombre de control directamente sobre la cuadrícula de Excel, en la esquina superior izquierda).
 
