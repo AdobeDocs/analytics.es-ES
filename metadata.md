@@ -6,12 +6,10 @@ git-repo: https://github.com/AdobeDocs/analytics.es-ES
 type: Documentation
 index: true
 feature-set: Analytics
-translation-type: tm+mt
 source-git-commit: 7df2f1d5f5f7135557924cac53d2a145f22b600a
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 100%
-showfeedback: true
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
