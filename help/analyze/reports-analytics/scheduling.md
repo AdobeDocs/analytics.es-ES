@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 000d9aedbe8d3ac109be472d9e29f7798f86baa7
+source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 89%
+source-wordcount: '1772'
+ht-degree: 86%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 Información sobre cómo programar, descargar y distribuir informes.
 
 >[!IMPORTANT]
->A partir del 15 de abril de 2022, el Adobe tiene la intención de poner en pausa todos los informes programados que tengan una fecha de creación buena a dos años (cualquier tarea creada antes del 31 de enero de 2020). No se eliminarán informes ni datos. Solo se pausarán los informes identificados como de más de dos años y no se enviarán informes programados adicionales. [Más información](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+>El 21 de abril de 2022, anunciamos la desaprobación de varias funciones específicas de los informes programados como preparación para el fin de vida útil anunciado anteriormente para Reports &amp; Analytics. Estas funciones incluían la capacidad de programar nuevos informes, así como nuevos extractos de datos. En respuesta a las solicitudes de los clientes que buscan una extensión y para facilitar la transición desde Reports &amp; Analytics, hemos decidido ampliar el acceso a estas funciones hasta el 31 de enero de 2023. Tenga en cuenta que los plazos de caducidad para los informes y los extractos de datos seguirán estando limitados a nueve meses; la entrega de informes y extracciones de datos se pausará al final de este periodo a menos que se reactive la programación. [Más información](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Al programar un informe para su envío a una aplicación de Adobe Analytics, se pueden utilizar las herramientas de programación y distribución para ver qué archivos se han enviado automáticamente y así modificar o finalizar los envíos.
 
