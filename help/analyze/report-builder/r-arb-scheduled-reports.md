@@ -4,10 +4,10 @@ title: Administrador de tareas programadas
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '769'
+ht-degree: 81%
 
 ---
 
@@ -17,13 +17,20 @@ El [!UICONTROL Administrador de tareas programadas] le permite ver una lista de 
 
 ## Pausa de tareas programadas antiguas
 
-**A partir del 21 de abril de 2022**, Adobe tiene la intención de poner en pausa todas las tareas de Report Builder programadas que se crearon hace más de dos años. Específicamente, esta pausa se aplica a **cualquier tarea creada antes del 31 de enero de 2020**. No se eliminarán tareas, libros ni datos. Las tareas que tengan más de dos años se pausarán y no se enviarán tareas programadas adicionales.
+El 21 de abril de 2022, implementamos cambios en las tareas programadas en Report Builder como parte de nuestros esfuerzos de optimización de rendimiento y envío. Estos cambios incluían la eliminación de la capacidad de que los envíos programados &quot;terminen después de x ocurrencias&quot;. En respuesta a varias solicitudes de clientes que buscan más tiempo para explorar e implementar alternativas, hemos decidido restaurar esta opción de forma limitada hasta **31 de enero de 2023**.
+
+Podrá programar tareas de Report Builder por hora y hacer que finalicen después de un máximo de 99 incidencias. Tenga en cuenta que la reversión solo se aplica a tareas por hora; el evento &quot;end after x occurrences&quot; permanecerá no disponible para todos los demás intervalos de entrega (diario, semanal, mensual y anual).
+
+Tenga en cuenta que esta opción quedará obsoleta el 31 de enero de 2023.
+Para obtener más preguntas o asistencia, póngase en contacto con el Servicio de atención al cliente de Adobe.
+
+Específicamente, esta pausa se aplica a **cualquier tarea creada antes del 31 de enero de 2020**. No se eliminarán tareas, libros ni datos. Las tareas que tengan más de dos años se pausarán y no se enviarán tareas programadas adicionales.
 
 Cualquier tarea que cuyo envío desee reanudar se puede reactivar. Inicie sesión en Report Builder y lance el [!UICONTROL Administrador de tareas programadas]. Haga clic en **[!UICONTROL Reactivar]** para la tarea programada cuyo envío desea reanudar. Cualquier tarea que se reactive tendrá una caducidad predeterminada de 18 meses, a menos que se elija una fecha de caducidad más corta.
 
 Además, cualquier tarea con una fecha de creación inferior a dos años y sin fecha de caducidad actual (o superior a dos años) tendrá aplicada una fecha de caducidad predeterminada de 18 meses. La nueva fecha de caducidad será el 15 de octubre de 2023. Puede editarla para que sea inferior a 18 meses, pero no superior. En el momento de la caducidad, la tarea se pone en pausa. Sin embargo, puede reactivarla con una nueva fecha de caducidad de 18 meses. No se eliminarán tareas, libros ni datos.
 
-El propósito de esta pausa es administrar y mantener de forma eficaz nuestra base de datos de tareas programadas para garantizar un rendimiento y un envío óptimos para las tareas y los libros necesarios. Esto servirá para que nuestra nueva política de gobernanza avance. A partir del 15 de abril de 2022, todas las tareas tendrán una fecha de caducidad máxima de 18 meses. Después de 18 meses, las tareas caducadas se pausarán y se podrán reactivar según sea necesario.
+El propósito de esta pausa es administrar y mantener de forma eficaz nuestra base de datos de tareas programadas para garantizar un rendimiento y un envío óptimos para las tareas y los libros necesarios. Esto servirá para que nuestra nueva política de gobernanza avance. Después del 31 de enero de 2023, todas las tareas tendrán una fecha de caducidad máxima de 18 meses. Después de 18 meses, las tareas caducadas se pausarán y se podrán reactivar según sea necesario.
 
 ## Configuración de tareas programadas
 
