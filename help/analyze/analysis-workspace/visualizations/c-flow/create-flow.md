@@ -4,7 +4,7 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
+source-git-commit: 2ce17ecd45810e1c567e99423271dbc2d5288485
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 40%
@@ -15,7 +15,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->Esta nueva versión de [!UICONTROL Flujo] la visualización está actualmente en versión beta privada. Consulte [esta página](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) para la funcionalidad actual.
+>Esta nueva versión de [!UICONTROL Flujo] actualmente, la visualización está en prueba limitada. Consulte [esta página](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) para la funcionalidad actual.
 
 La visualización de flujo actualizada permite comprender los recorridos que se derivan de un evento de conversión específico en el sitio web o la aplicación, o que se generan en él. Rastrea una ruta a través de sus dimensiones (y elementos de dimensión) o métricas. Flujo permite configurar el inicio o el final de la ruta que le interese o analizar todas las rutas que fluyen a través de una dimensión o elemento de dimensión.
 
