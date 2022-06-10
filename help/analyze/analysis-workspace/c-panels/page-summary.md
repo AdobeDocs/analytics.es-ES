@@ -1,17 +1,17 @@
 ---
 description: El panel de resumen de la página muestra información resumida de una página de su elección.
-title: Panel de resumen de la página
+title: Panel Resumen de página
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
+source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 9%
 
 ---
 
-# Panel de resumen de la página
+# Panel Resumen de página
 
 La variable [!UICONTROL Resumen de la página] El panel se inició como un informe en Reports &amp; Analytics, en Informes > Participación > Análisis de página > Resumen de página. Ahora también es un panel de Workspace. Este panel le permite explorar fácilmente estadísticas clave sobre páginas específicas.
 
@@ -47,16 +47,16 @@ La variable [!UICONTROL Resumen de la página] devuelve un completo conjunto de 
 | [!UICONTROL Vistas de página] - 4 semanas antes | Número de vistas de página de esta página durante el último mes. |
 | [!UICONTROL Vistas de página] - 52 semanas antes | Número de vistas de página de esta página durante el último año. |
 | [!UICONTROL Tendencia] | Un gráfico de vista de página de tendencias para este mes, 4 semanas antes y 52 semanas antes. |
-| [!UICONTROL Porcentaje de todas las vistas de la página] | Un número de resumen del porcentaje de todas las vistas de página que se enviaron a esta página. |
+| [!UICONTROL Porcentaje de todas las vistas de página] | Un número de resumen del porcentaje de todas las vistas de página que se enviaron a esta página. |
 | [!UICONTROL Tiempo invertido en la página] | Un gráfico de barras horizontal que enumera el tiempo empleado en esta página. |
 | [!UICONTROL Visitas de página única] | Número de resumen que indica el número de vistas de página en las que esta fue la única página visitada. |
 | [!UICONTROL Recargas] | La variable [!UICONTROL Recargas] muestra el número de veces que un elemento de dimensión estuvo presente durante una recarga. La forma más común de activar una recarga es a través de un visitante que actualiza su explorador. |
 | [!UICONTROL Entradas] | La variable [!UICONTROL Entradas] muestra el número de veces que un elemento de dimensión determinado se captura como el primer valor de una visita. |
 | [!UICONTROL Salidas] | La variable [!UICONTROL Salidas] muestra el número de veces que un elemento de dimensión determinado se captura como el último valor de una visita. |
-| [!UICONTROL Flujo] | Diagrama de flujo con la página seleccionada como punto focal. Puede profundizar en los datos como en cualquier [Diagrama de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
+| [!UICONTROL Flujo] | Diagrama de flujo con la página seleccionada como punto focal. Puede profundizar en los datos como en cualquier [Diagrama de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
 {style=&quot;table-layout:auto&quot;}
 
-![Panel de resumen de la página](assets/page-sum1.png)
+![Panel Resumen de página](assets/page-sum1.png)
 
 ![Métricas y flujo](assets/page-sum2.png)

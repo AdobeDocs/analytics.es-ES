@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como paneles de Adobe Analytics, Report Builder y Activity Map.
-source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
+source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
@@ -70,8 +70,7 @@ ht-degree: 100%
          + [Aplicación de segmentos en el análisis de abandonos](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flujo {#flow}
          + [Resumen de flujos](analysis-workspace/visualizations/c-flow/flow.md)
-         + [Configuración de una visualización de flujo](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
-         + [Nueva visualización de flujo (beta)](analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [Configuración de una visualización de flujo](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Configuración de flujo](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [Flujos interdimensionales](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histograma](analysis-workspace/visualizations/histogram.md)
