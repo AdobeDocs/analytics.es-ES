@@ -3,7 +3,7 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 76190c666b8506e4b3acc1c80e08e60ca1736759
+source-git-commit: cf291c4d46a6bff9e1c61804ca7e897ee1d4e4d5
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 49%
@@ -18,7 +18,6 @@ ht-degree: 49%
 
 **Última actualización**: 10 de junio de 2022
 
-
 ## Recursos relacionados
 
 * [Notas de la versión anteriores de 2022](/help/release-notes/2022.md)
@@ -32,7 +31,7 @@ ht-degree: 49%
 | ----------- | ---------- | ------- |
 | Nueva interfaz de usuario de visualización de flujo | Proporciona funcionalidad adicional a nuestra visualización de flujo para hacerla más potente y capaz. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | 15 de junio de 2022 |
 | Compartir anotaciones en informes de valoración de Mobile | Puede mostrar anotaciones creadas en Workspace en informes de valoración móviles. Esto le permite compartir matices de datos contextuales y perspectivas sobre su organización y campañas directamente dentro de proyectos de informes de valoración móviles, visibles en la aplicación móvil de paneles de Analytics . Más información (a continuación) | 15 de junio de 2022 |
-| Compatibilidad con la versión de sintaxis del producto de Variables de comercialización con la colección Edge | Ahora puede establecer variables de comercialización utilizando el equivalente de la sintaxis del producto estableciendo los campos XDM relevantes. Obtenga más información sobre la sintaxis del producto para las variables de comercialización [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=es). Consulte las asignaciones para la sintaxis del producto [here](https://experienceleague.corp.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 15 de junio de 2022 |
+| Compatibilidad con la versión de sintaxis del producto de Variables de comercialización con la colección Edge | Ahora puede establecer variables de comercialización utilizando el equivalente de la sintaxis del producto estableciendo los campos XDM relevantes. Obtenga más información sobre la sintaxis del producto para las variables de comercialización [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=es). Consulte las asignaciones para la sintaxis del producto [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 15 de junio de 2022 |
 | Rellenado de dimensiones y métricas de Ciclo vital mediante Experience Edge | Los datos del Ciclo de vida móvil enviados mediante Experience Edge ahora aparecerán en los informes de Analytics. Consulte la documentación para obtener detalles sobre qué campos XDM se asignan a los informes de ciclo de vida móviles existentes. [Más información](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 27 de mayo de 2022 |
 | Nueva experiencia de clasificaciones: Fase 1 | Esta versión por fases de la nueva experiencia del usuario del conjunto de clasificaciones mejora significativamente la visibilidad de los datos de clasificación de propiedad del cliente. Se estima que la Asamblea General se celebrará a principios de 2023. | Las pruebas limitadas comienzan el 15 de junio de 2022 |
 
