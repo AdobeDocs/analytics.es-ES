@@ -3,10 +3,10 @@ title: Creación de una capa de datos
 description: Descubra qué es una capa de datos en su implementación de Analytics y cómo se puede utilizar para asignar variables en Adobe Analytics.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ La implementación de Adobe Analytics mediante una capa de datos suele seguir es
    >
    >Seguir las especificaciones de capa de datos recomendadas por Adobe es opcional. Si ya dispone de una capa de datos o decide no seguir las especificaciones de Adobe, asegúrese de que su organización se ajuste a las siguientes especificaciones.
 1. **Valide la capa de datos con una consola de explorador**: Una vez creada una capa de datos, puede validar que funcione con cualquier consola de desarrollador del explorador. Puede abrir la consola de desarrollador en la mayoría de los exploradores con la clave `F12`. Un valor de variable de ejemplo sería `digitalData.page.pageInfo.pageID`.
-1. **Utilice las etiquetas de Adobe Experience Platform para asignar objetos de capa de datos a elementos de datos**: Cree elementos de datos en la IU de recopilación de datos en Adobe Experience Platform y asígnelos a los atributos de JavaScript descritos en la capa de datos.
+1. **Uso de la recopilación de datos de Adobe Experience Platform para asignar objetos de capa de datos a elementos de datos**: Cree elementos de datos en la recopilación de datos de Adobe Experience Platform y asígnelos a los atributos de JavaScript descritos en la capa de datos.
 1. **Utilice la extensión de etiquetas de Adobe Analytics para asignar elementos de datos a variables de Analytics**: De acuerdo con el documento de diseño de la solución, asigne cada elemento de datos a la variable de Analytics correspondiente.
 
 ## Especificaciones

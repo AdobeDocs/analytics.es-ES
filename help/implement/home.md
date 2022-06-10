@@ -3,10 +3,10 @@ title: Implementación de Adobe Analytics
 description: Implemente Adobe Analytics en su sitio, propiedad o aplicación.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
-source-wordcount: '374'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 79%
 
 ---
 
@@ -33,7 +33,8 @@ El código JavaScript envía una solicitud de imagen a los servidores de recopil
 
 Adobe Analytics requiere código en el sitio web, la aplicación móvil u otra aplicación para enviar datos a los servidores de recopilación de datos. Hay varios métodos para implementar este código, según la plataforma y las necesidades de la organización.
 
-* **Etiquetas en Adobe Experience Platform**: Método estandarizado y recomendado para implementar Adobe Analytics. Coloque una etiqueta de carga en cada página y utilice la IU de recopilación de datos para determinar cómo se define cada variable.
+* **SDK web**: Método estandarizado y recomendado para implementar Adobe Analytics. Instale la extensión del SDK web en la recopilación de datos de Adobe Experience Platform, utilice una etiqueta loader en cada página y envíe datos a Adobe Experience Platform Edge en un formato conveniente para su organización. Experience Edge reenvía datos entrantes a Adobe Analytics en el formato correcto.
+* **Extensión de Adobe Analytics**: Instale la extensión de Adobe Analytics en la recopilación de datos de Adobe Experience Platform. Coloque una etiqueta de cargador en cada página y utilice la extensión de Analytics para determinar cómo se define cada variable.
 * **JavaScript heredado:** Método manual histórico para implementar Adobe Analytics. Esquema de las variables y configuraciones utilizadas en una implementación, que pueden ser útiles para implementaciones de etiquetas utilizando reglas con código personalizado.
 * **SDK móvil**: Bibliotecas dedicadas para enviar fácilmente datos a Adobe desde aplicaciones móviles.
 

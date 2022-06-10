@@ -3,10 +3,10 @@ title: registerPostTrackCallback
 description: Cree funciones de llamada de retorno después de enviar una visita a Adobe.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 75%
 
 ---
 
@@ -24,11 +24,29 @@ Cada vez que llama a la variable `registerPostTrackCallback`, vincula esa funci�
 >
 >No se garantiza el tiempo y el orden de las funciones activadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) y `registerPostTrackCallback`. Evite las dependencias entre estas dos funciones.
 
-## Registro de devoluciones de llamada posterior al seguimiento con etiquetas en Adobe Experience Platform
+## Llamada de retorno posterior al seguimiento con la extensión SDK web
 
-No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+próximamente!
 
-## s.registerPostTrackCallback en el editor de código personalizado de AppMeasurement y 
+## Llamada de retorno posterior al seguimiento implementando manualmente el SDK web
+
+Puede utilizar una promesa de JavaScript al enviar un evento para registrar una función después de que los datos se hayan enviado correctamente al Adobe.
+
+```js
+alloy("sendEvent",{
+  "xdm": {}
+}).then(function(result) {
+  Console.Log("Data was successfully sent.");
+});
+```
+
+Consulte [Gestión de respuestas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) en la documentación del SDK web para obtener más información.
+
+## Registrar llamadas de retorno posteriores al seguimiento con la extensión Adobe Analytics
+
+No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+
+## s.registerPostTrackCallback en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 `s.registerPostTrackCallback` es una función que toma una función como su único argumento. La función anidada se ejecuta justo después de que se envíe una solicitud de imagen.
 

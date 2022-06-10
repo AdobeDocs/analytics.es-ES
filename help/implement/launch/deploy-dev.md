@@ -3,10 +3,10 @@ title: Implementación de Adobe Analytics en un entorno de desarrollo
 description: Descubra cómo utilizar etiquetas para implementar Adobe Analytics en su entorno de desarrollo.
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '594'
+ht-degree: 43%
 
 ---
 
@@ -22,7 +22,7 @@ Una vez creada y configurada una propiedad de etiquetas, las bibliotecas están 
 
 Las etiquetas adaptan muchos flujos de trabajo de la organización en la implementación de código. Siga estos pasos para crear los componentes mínimos necesarios para una implementación de Analytics. Como administrador de etiquetas, puede trabajar dentro de su organización para establecer el flujo de trabajo correcto para implementar las soluciones de Adobe.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas que desee implementar en el sitio.
 3. Haga clic en **[!UICONTROL Hosts]** y haga clic en **[!UICONTROL Agregar host]**.
 4. Asigne un nombre `"Adobe managed"`y seleccione **[!UICONTROL Administrado por Adobe]** en la lista desplegable de tipo . Haga clic en Guardar.
@@ -36,7 +36,7 @@ Las etiquetas adaptan muchos flujos de trabajo de la organización en la impleme
 
 A pesar de todos los cambios y configuraciones realizados hasta ahora, no se ha publicado ningún código. La creación de una biblioteca, traducida como una colección de cambios, permite la publicación de código para su uso en el sitio.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas que desee implementar en el sitio.
 3. Haga clic en el **[!UICONTROL Flujo de publicación]** a continuación, haga clic en **[!UICONTROL Agregar biblioteca]**. Consulte [Información general sobre la publicación](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) en la documentación Etiquetas para obtener más información sobre esta página.
 4. Asigne un nombre a la biblioteca `'Initial changes'`y seleccione su entorno de desarrollo.

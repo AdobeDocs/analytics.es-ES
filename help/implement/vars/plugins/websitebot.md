@@ -3,10 +3,10 @@ title: websiteBot
 description: Identifique de forma dinámica los bots moviendo el ratón.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ Este plug-in realiza dos comprobaciones:
 
 Si el agente de usuario está en un escritorio y no se detecta ningún movimiento de ratón, el plug-in puede
 
-* Realice una llamada a una regla de llamada directa mediante etiquetas en Adobe Experience Platform o
+* Realice una llamada a la regla de llamada directa mediante el SDK web o la extensión Adobe Analytics, o
 * Realice una llamada de seguimiento de vínculos para indicar que el visitante no es un bot.
 
 ## Requisitos previos

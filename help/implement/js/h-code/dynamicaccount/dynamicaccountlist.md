@@ -3,10 +3,10 @@ title: dynamicAccountList
 description: Establezca una lógica sobre cómo determina la implementación su grupo de informes.
 feature: Implementation Basics
 exl-id: ccff24a1-4b9a-4f62-adb5-09ab60e9b93e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 94%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Las cuentas dinámicas solo se admiten mediante implementaciones de JavaScript heredadas (código H). Estas variables no son compatibles con las bibliotecas actuales de AppMeasurement ni con la IU de recopilación de datos.
+>Las cuentas dinámicas solo se admiten mediante implementaciones de JavaScript heredadas (código H). Estas variables no son compatibles con las bibliotecas de AppMeasurement actuales ni con la recopilación de datos de Adobe Experience Platform.
 
 La variable `s.dynamicAccountList` determina dinámicamente el valor de `s_account`. Si `dynamicAccountSelection` se establece en `true`, la variable `dynamicAccountMatch` se compara con `dynamicAccountList`. Si se encuentra una coincidencia, se utiliza el ID del grupo de informes coincidente.
 

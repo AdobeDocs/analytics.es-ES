@@ -3,10 +3,10 @@ title: linkLeaveQueryString
 description: Permite la conservación de cadenas de consulta en dimensiones de seguimiento de vínculos.
 feature: Variables
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 80%
 
 ---
 
@@ -24,18 +24,22 @@ La activación de `linkLeaveQueryString` se aplica a todas las dimensiones de se
 >
 >Esta variable no afecta a las dimensiones fuera del seguimiento de vínculos. Solo afecta a los vínculos personalizados, de salida y de descarga.
 
-## Guardado de parámetros de URL con etiquetas en Adobe Experience Platform
+## Gestión de cadenas de consulta de vínculos mediante el SDK web
+
+Las cadenas de consulta no se eliminan del campo XDM `web.webInteraction.URL`. Si desea eliminar cadenas de consulta de este campo XDM, puede editarlas mediante `onBeforeEventSend`.
+
+## Mantener parámetros de URL con la extensión Adobe Analytics
 
 [!UICONTROL Mantener parámetros de URL] es una casilla de verificación en el acordeón de [!UICONTROL Seguimiento de vínculos] al configurar la extensión de Adobe Analytics.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-2. Haga clic en la propiedad deseada.
-3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+2. Haga clic en la propiedad de etiquetas deseada.
+3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 4. Expanda el acordeón de [!UICONTROL Seguimiento de vínculos], que muestra la casilla [!UICONTROL Mantener parámetros de URL].
 
 Marque esta casilla si desea incluir cadenas de consulta en dimensiones de seguimiento de vínculos.
 
-## s.linkLeaveQueryString en el editor de código personalizado de AppMeasurement y 
+## s.linkLeaveQueryString en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.linkLeaveQueryString` es booleana. Su valor predeterminado es `false`.
 

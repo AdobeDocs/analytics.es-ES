@@ -3,10 +3,10 @@ title: writeSecureCookies
 description: Permite a AppMeasurement establecer cookies con el atributo Secure.
 feature: Variables
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '274'
+ht-degree: 72%
 
 ---
 
@@ -20,18 +20,22 @@ Obtenga más información acerca de las cookies de Analytics [aquí](https://exp
 
 >[!WARNING]
 >
->Si habilita la variable `writeSecureCookies`, asegúrese de que todo el contenido del sitio se suministre de forma segura a través de HTTPS. AppMeasurement no funciona si esta variable está habilitada y tiene contenido no seguro en la página.
+>Si habilita la variable `writeSecureCookies`, asegúrese de que todo el contenido del sitio se suministre de forma segura a través de HTTPS. La recopilación de datos no funciona correctamente si esta variable está habilitada y tiene contenido no seguro en la página.
 
-## Escritura de cookies seguras mediante etiquetas en Adobe Experience Platform
+## Uso de cookies seguras con el SDK web
+
+Si su sitio utiliza el protocolo HTTPS, el atributo Secure se establece para todas las cookies que establezca el SDK web.
+
+## Escribir cookies seguras con la extensión Adobe Analytics
 
 [!UICONTROL Escribir cookies seguras] es una casilla de verificación situada debajo del elemento de acordeón [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-2. Haga clic en la propiedad deseada.
-3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+2. Haga clic en la propiedad de etiquetas deseada.
+3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL Cookies], que muestra la casilla [!UICONTROL Escribir cookies seguras].
 
-## s.writeSecureCookies en el editor de código personalizado de AppMeasurement y 
+## s.writeSecureCookies en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.writeSecureCookies` es un booleano que determina si AppMeasurement establece el atributo Secure al crear una cookie. Su valor predeterminado es `false`. Configure esta variable en `true` si todo el contenido del sitio es seguro y desea que las cookies configuradas por AppMeasurement tengan el atributo Secure.
 

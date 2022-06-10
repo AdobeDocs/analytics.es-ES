@@ -3,10 +3,10 @@ title: getQueryParam
 description: Extraiga el valor de un parámetro de cadena de consulta de una dirección URL.
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '666'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '675'
+ht-degree: 90%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 100%
 
 El complemento `getQueryParam` le permite extraer el valor de cualquier parámetro de cadena de consulta contenido en una dirección URL. Resulta útil para extraer códigos de campaña, tanto internos como externos, de las direcciones URL de las páginas de aterrizaje. También resulta útil al extraer términos de búsqueda u otros parámetros de cadena de consulta.
 
-Este complemento proporciona funciones sólidas para analizar direcciones URL complejas, incluidos hashes y direcciones URL que contienen varios parámetros de cadena de consulta. Si solo necesita parámetros de cadena de consulta simples, Adobe recomienda utilizar las funciones de parámetro de URL con etiquetas en Adobe Experience Platform o el método [`Util.getQueryParam()`](../functions/util-getqueryparam.md) incluido en AppMeasurement.
+Este complemento proporciona funciones sólidas para analizar direcciones URL complejas, incluidos hashes y direcciones URL que contienen varios parámetros de cadena de consulta. Si solo necesita parámetros de cadena de consulta simples, Adobe recomienda utilizar las funciones de parámetro de URL mediante el SDK web o la extensión Adobe Analytics o el [`Util.getQueryParam()`](../functions/util-getqueryparam.md) método incluido en AppMeasurement.
 
-## Instalación del complemento con etiquetas en Adobe Experience Platform
+## Instalación del complemento utilizando el SDK web o la extensión Adobe Analytics
 
 Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Haga clic en la propiedad deseada.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Haga clic en la propiedad de etiquetas deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
 1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
 1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
@@ -40,9 +40,9 @@ Adobe ofrece una extensión que le permite disfrutar de los complementos más ut
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
+1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en la extensión de Adobe Analytics.
 1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.

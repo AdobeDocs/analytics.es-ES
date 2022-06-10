@@ -3,10 +3,10 @@ title: Vínculos de no participación
 description: Obtenga información sobre cómo crear e implementar Vínculos de no participación para los visitantes del sitio.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '593'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '594'
+ht-degree: 97%
 
 ---
 
@@ -28,9 +28,9 @@ Cuando un visitante llega a una URL de exclusión, se le solicita que instale un
 
 La página de exclusión de su organización depende del valor de la variable [`trackingServer`](../vars/config-vars/trackingserver.md) en la implementación.
 
-* En la IU de recopilación de datos:
-   1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-   1. Haga clic en la propiedad deseada.
+* En la extensión de Analytics:
+   1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+   1. Haga clic en la propiedad de etiquetas deseada.
    1. Haga clic en la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Configurar] en Adobe Analytics.
    1. Haga clic en el acordeón [!UICONTROL General] y anote el valor [!UICONTROL Servidor de seguimiento].
 

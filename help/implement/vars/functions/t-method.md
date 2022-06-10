@@ -3,10 +3,10 @@ title: t
 description: Envíe una llamada de seguimiento de vista de página a Adobe.
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '276'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 52%
 
 ---
 
@@ -36,18 +36,40 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 Adobe recibe la solicitud de imagen y, a continuación, analiza los parámetros de encabezado, dirección URL y cadena de consulta de la solicitud. Los servidores de recopilación de datos devuelven una imagen transparente de 1x1 píxeles, que se muestra de forma invisible en el sitio.
 
-## Llamada de seguimiento de vista de página mediante etiquetas en Adobe Experience Platform
+## Envío de un evento mediante la extensión del SDK web
 
-La IU de recopilación de datos tiene una ubicación dedicada configurada como una llamada de seguimiento de vista de página.
+Utilice una acción para configurar el envío de datos de evento XDM a Adobe. El Datastream recibe estos datos, aplica cualquier asignación configurada y reenvía esos datos a Adobe Analytics si se trata de un servicio agregado a ese Datastream.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-2. Haga clic en la propiedad deseada.
-3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
-4. En [!UICONTROL Acciones], haga clic en el icono “+”.
-5. Establezca la lista desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en Enviar señalización.
-6. Haga clic en el botón de opción `s.t()`.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Haga clic en la propiedad de etiquetas deseada.
+1. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
+1. En [!UICONTROL Acciones], haga clic en la acción que desee o haga clic en la **&#39;+&#39;** para añadir una acción.
+1. Configure las variables [!UICONTROL Extensión] desplegable a **[!UICONTROL SDK web de Adobe Experience Platform]** y [!UICONTROL Tipo de acción] a **[!UICONTROL Enviar evento]**.
 
-## El método s.t() en el editor de código personalizado de AppMeasurement y 
+## Envío manual de un evento de implementación del SDK web
+
+Utilice la variable `sendEvent` para enviar datos a Adobe. El Datastream recibe estos datos, aplica cualquier asignación configurada y reenvía esos datos a Adobe Analytics si se trata de un servicio agregado a ese Datastream.
+
+```js
+alloy("sendEvent", {
+  "xdm": {}
+});
+```
+
+Consulte [Seguimiento de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=es) en la documentación del SDK web para obtener más información.
+
+## Llamada de seguimiento de vista de página mediante la extensión Adobe Analytics
+
+La extensión Adobe Analytics de la recopilación de datos de Adobe Experience Platform tiene una ubicación dedicada configurada como llamada de seguimiento de vista de página.
+
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Haga clic en la propiedad de etiquetas deseada.
+1. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
+1. En [!UICONTROL Acciones], haga clic en la acción que desee o haga clic en la **&#39;+&#39;** para añadir una acción.
+1. Configure las variables [!UICONTROL Extensión] desplegable a **[!UICONTROL Adobe Analytics]** y [!UICONTROL Tipo de acción] a **[!UICONTROL Send Beacon]**.
+1. Haga clic en el botón de opción `s.t()`.
+
+## El método s.t() en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 Llame al método `s.t()` cuando desee enviar una llamada de seguimiento a Adobe.
 

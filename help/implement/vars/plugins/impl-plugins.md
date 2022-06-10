@@ -3,10 +3,10 @@ title: Información general de complementos
 description: Pegue código en el sitio para incorporar nuevas funciones.
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Los complementos son fragmentos de código que realizan varias funciones avanzad
 
 Adobe ofrece varias formas de instalar un complemento determinado:
 
-1. Utilice la extensión Complementos comunes de Analytics con etiquetas en Adobe Experience Platform
+1. Utilice la extensión &quot;Complementos comunes de Analytics&quot; mediante el SDK web o la extensión de Adobe Analytics
 2. Pegue el código del complemento con el editor de código personalizado 
 3. Pegue el código del complemento en el archivo `AppMeasurement.js`.
 

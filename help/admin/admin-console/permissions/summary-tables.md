@@ -3,10 +3,10 @@ title: 'Permisos de Adobe Analytics: tablas de resumen'
 description: Tablas que resumen los permisos de Adobe Analytics disponibles en Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '1271'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '1277'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 
 | Herramienta Analytics | Administración | Controles de acceso | Características solo de informes | Obsoleto | Descripción |
 | --- | --- | --- | --- | --- | --- |
-| Administrador de códigos | x |  |  |  | Se ha mantenido para propósitos heredados. Otorga acceso a Administración > Todos los administradores > Administrador de códigos. En la mayoría de los casos, utilice las bibliotecas incluidas en la IU de recopilación de datos. |
+| Administrador de códigos | x |  |  |  | Se ha mantenido para propósitos heredados. Otorga acceso a Administración > Todos los administradores > Administrador de códigos. En la mayoría de los casos, utilice las bibliotecas incluidas en la extensión de Adobe Analytics en la recopilación de datos de Adobe Experience Platform. |
 | Administrador de códigos - Servicios Web | x |  |  |  | Otorga acceso al Administrador de códigos mediante la API 1.4. |
 | Ocultar grupos de informes | x |  |  |  | Concede acceso a Administración > Todos los administradores > Configuración de la compañía > Ocultar grupos de informes. Otorga la capacidad de ocultar cualquier grupo de informes de la organización, independientemente del acceso a su grupo de informes. |
 | Integraciones (crear) | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Data Connectors, y permite al usuario crear conectores de datos. |

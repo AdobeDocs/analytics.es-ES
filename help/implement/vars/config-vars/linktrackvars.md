@@ -3,10 +3,10 @@ title: linkTrackVars
 description: Especifique qué variables se incluirán en las solicitudes de imagen de seguimiento de vínculos.
 feature: Variables
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 61%
 
 ---
 
@@ -16,15 +16,19 @@ Algunas implementaciones no desean incluir todas las variables en todas las soli
 
 Esta variable no se utiliza para las llamadas de vista de página (método [`t()`](../functions/t-method.md)).
 
-## Variables en llamadas de seguimiento de vínculos que utilizan etiquetas en Adobe Experience Platform
+## Determinar qué variables se incluyen en un evento XDM mediante el SDK web
 
-Adobe Experience Platform rellena automáticamente esta variable en el servidor en función de las variables establecidas en la interfaz, por lo que siempre se establece en implementaciones que utilizan etiquetas en Adobe Experience Platform.
+El SDK web no excluye determinados campos para las llamadas de seguimiento de vínculos. Sin embargo, puede usar la variable `onBeforeEventSend` llamada de retorno para borrar o establecer los campos deseados antes de que los datos se envíen a Adobe. Consulte [Modificación global de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) en la documentación del SDK web para obtener más información.
+
+## Variables en llamadas de seguimiento de vínculos que utilizan la extensión Adobe Analytics
+
+Esta variable se rellena automáticamente en el servidor en función de las variables establecidas en la interfaz, por lo que siempre se establece en implementaciones que utilizan la extensión de Adobe Analytics.
 
 >[!IMPORTANT]
 >
->Si establece variables mediante el editor de código personalizado, debe incluir la variable en `linkTrackVars` mediante el uso del código personalizado.
+>Si establece variables mediante el editor de código personalizado, debe incluir las variables en `linkTrackVars` también se usa código personalizado.
 
-## s.linkTrackVars en el editor de código personalizado de AppMeasurement y 
+## s.linkTrackVars en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.linkTrackVars` es una cadena que contiene una lista delimitada por comas de variables que desea incluir en las solicitudes de imagen de seguimiento de vínculos (método `tl()`). Se deben cumplir los dos criterios siguientes para incluir dimensiones en las visitas de seguimiento de vínculos:
 

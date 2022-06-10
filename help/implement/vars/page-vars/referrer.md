@@ -3,10 +3,10 @@ title: referrer
 description: Omisión del referente registrado automáticamente para una visita.
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 82%
 
 ---
 
@@ -14,12 +14,16 @@ ht-degree: 100%
 
 La variable `referrer` omite el referente registrado automáticamente en los informes. Esta variable es útil en situaciones en las que el referente podría perderse, como, por ejemplo, durante redirecciones o reenvíos temporales del visitante a un procesador de pagos. Esta variable ayuda a rellenar las dimensiones “Referente” y “Dominio de referencia”.
 
-## Referente con etiquetas en Adobe Experience Platform
+## Referente que utiliza el SDK web
+
+El referente es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) en el campo XDM `web.webReferrer.URL`.
+
+## Referente con la extensión de Adobe Analytics
 
 Puede establecer el referente al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-2. Haga clic en la propiedad deseada.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
 5. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Establecer variables].
@@ -27,7 +31,7 @@ Puede establecer el referente al configurar la extensión de Analytics (variable
 
 Puede establecer el referente en cualquier valor de cadena, incluidos los elementos de datos.
 
-## “s.referrer” en el editor de código personalizado de AppMeasurement y 
+## s.referrer en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.referrer` es una cadena que contiene la dirección URL de la página anterior. Esta variable puede almacenar un máximo de 255 bytes. Los valores mayores a 255 bytes se truncan. AppMeasurement establece automáticamente esta variable en `document.referrer`. No es necesario configurar esta variable a menos que desee anular el valor registrado automáticamente.
 

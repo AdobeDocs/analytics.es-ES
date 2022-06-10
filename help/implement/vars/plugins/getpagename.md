@@ -3,10 +3,10 @@ title: getPageName
 description: Cree un nombre de página fácil de leer a partir de la ruta del sitio web actual.
 feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '596'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 94%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 El complemento `getPageName` crea una versión fácil de leer y con formato sencillo de la dirección URL actual. Adobe recomienda utilizar este complemento si desea un valor [`pageName`](../page-vars/pagename.md) fácil de configurar y comprender en el sistema de informes. Este complemento no es necesario si ya tiene una estructura de nombres para la variable `pageName`, como por ejemplo a través de una capa de datos. Se recomienda utilizarlo cuando no tenga otra solución para configurar la variable `pageName`.
 
-## Instalación del complemento con etiquetas en Adobe Experience Platform
+## Instalación del complemento utilizando el SDK web o la extensión Adobe Analytics
 
 Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Haga clic en la propiedad deseada.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Haga clic en la propiedad de etiquetas deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
 1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
 1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
@@ -38,9 +38,9 @@ Adobe ofrece una extensión que le permite disfrutar de los complementos más ut
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
+1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en la extensión de Adobe Analytics.
 1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.

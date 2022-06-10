@@ -3,10 +3,10 @@ title: Creación de una propiedad de Analytics en etiquetas
 description: Cree un espacio para personalizar cómo se recopilan los datos mediante etiquetas.
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ Las etiquetas en Adobe Experience Platform le permiten integrar soluciones de Ex
 
 Las propiedades son contenedores generales que se utilizan para administrar etiquetas. Las extensiones permiten instalar etiquetas específicas del producto y configurarlas.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
 1. Haga clic en **[!UICONTROL Nueva propiedad]**.
 1. Asigne un nombre a la propiedad, como el título del sitio web e introduzca el dominio en el que desea implementar Analytics. Haga clic en **[!UICONTROL Guardar]**.
 1. Haga clic en la propiedad de etiquetas recién creada para establecer su configuración.
@@ -37,7 +37,7 @@ Consulte la documentación completa para [Extensión de Adobe Analytics](https:/
 
 Los elementos de datos son referencias a partes específicas del sitio para recopilar valores de variables.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas que desee implementar en el sitio.
 1. Haga clic en la pestaña **[!UICONTROL Elementos de datos]** y, a continuación, haga clic en **[!UICONTROL Agregar elemento de datos]**.
 1. Asigne al elemento de datos la siguiente configuración:
@@ -58,7 +58,7 @@ Los elementos de datos son referencias a partes específicas del sitio para reco
 
 Las reglas asignan elementos de datos a valores de variables de Analytics y determinan cuándo se envían dichos valores a los servidores de Adobe.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas que desee implementar en el sitio.
 1. Haga clic en el **[!UICONTROL Reglas]** a continuación, haga clic en **[!UICONTROL Agregar regla]**. Asigne un nombre `Global Rule`.
 1. Haga clic en **[!UICONTROL Agregar]** junto a los eventos e introduzca la siguiente configuración:

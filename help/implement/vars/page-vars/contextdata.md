@@ -3,10 +3,10 @@ title: contextData
 description: Las variables de datos de contexto permiten definir variables personalizadas en cada página que puedan leer las reglas de procesamiento.
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 79%
 
 ---
 
@@ -16,11 +16,17 @@ Las variables de datos de contexto permiten definir variables personalizadas en 
 
 Las variables de datos de contexto son útiles para que los equipos de desarrollo recopilen datos en elementos con nombre en lugar de variables numeradas. Por ejemplo, en lugar de solicitar que los equipos de desarrollo asignen al autor de la página a `eVar10`, puede solicitar que se asigne a `s.contextData["author"]`. Un administrador de Analytics de su organización puede crear reglas de procesamiento para asignar variables de datos de contexto a variables de análisis para los informes. En última instancia, los equipos de desarrollo solo se preocuparían por las variables de datos de contexto en lugar de por las variables de página que ofrece Adobe.
 
-## Variables de datos de contexto que utilizan etiquetas en Adobe Experience Platform
+## Variables de datos de contexto que utilizan el SDK web
 
-La IU de recopilación de datos no tiene una ubicación dedicada para establecer variables de datos de contexto. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+Si un campo XDM no [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html), se incluye automáticamente como variable de datos de contexto. A continuación, puede utilizar [Reglas de procesamiento](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) para asignar la variable de datos de contexto a la variable de Analytics deseada.
 
-## s.contextData en el editor de código personalizado de AppMeasurement y 
+Aunque es recomendable asignar datos a los campos XDM correctos en el almacén de datos, este método logra resultados similares.
+
+## Variables de datos de contexto que utilizan la extensión de Adobe Analytics
+
+La recopilación de datos de Adobe Experience Platform no tiene una ubicación dedicada para establecer variables de datos de contexto. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+
+## s.contextData en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.contextData` no toma directamente un valor. En su lugar, establezca las propiedades de esta variable en una cadena.
 

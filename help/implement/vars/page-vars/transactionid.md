@@ -3,10 +3,10 @@ title: transactionID
 description: Utilice esta variable para vincular datos en línea y sin conexión.
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 92%
 
 ---
 
@@ -22,12 +22,12 @@ Cuando se configura `transactionID` en caso de una visita, Adobe toma una “ins
 
 De forma predeterminada, Adobe registra todos los valores de ID de transacción (vinculados y desvinculados) durante un máximo de 90 días. Si el proceso de interacción sin conexión supera los 90 días, contacte con el Servicio de atención al cliente para ampliar este límite.
 
-## ID de transacción con etiquetas en Adobe Experience Platform
+## ID de transacción con la extensión de Adobe Analytics
 
 Puede establecer el ID de transacción al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-2. Haga clic en la propiedad deseada.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
 5. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Establecer variables].
@@ -35,7 +35,7 @@ Puede establecer el ID de transacción al configurar la extensión de Analytics 
 
 Puede establecer el ID de transacción para cualquier valor de cadena, incluidos los elementos de datos.
 
-## s.transactionID en AppMeasurement y el editor de código personalizado de 
+## s.transactionID en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.transactionID` es una cadena que contiene un identificador único para una transacción. Todos los caracteres alfanuméricos de hasta 100 bytes de longitud son valores válidos. Aparece como una cadena vacía de manera predeterminada.
 

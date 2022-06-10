@@ -3,10 +3,10 @@ title: Asignación de objetos de capa de datos a elementos de datos
 description: Configure las etiquetas para que se lean desde la capa de datos.
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '307'
+ht-degree: 90%
 
 ---
 
@@ -20,9 +20,9 @@ Una vez que la organización haya establecido e implementado una capa de datos e
 
 ## Uso de etiquetas para crear elementos de datos
 
-Los [elementos de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=es) son componentes de la IU de recopilación de datos que se pueden usar en toda la herramienta. Puede asignar valores de variables en la extensión de Adobe Analytics mediante elementos de datos.
+[Elementos de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=es) son componentes de la recopilación de datos de Adobe Experience Platform que puede utilizar en toda la herramienta. Puede asignar valores de variables en la extensión de Adobe Analytics mediante elementos de datos.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
 1. Haga clic en la pestaña **[!UICONTROL Elementos de datos]** y, a continuación, haga clic en **[!UICONTROL Agregar elemento de datos]**.
 

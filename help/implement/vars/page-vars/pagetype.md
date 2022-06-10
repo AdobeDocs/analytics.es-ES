@@ -3,10 +3,10 @@ title: pageType
 description: Determine si la página actual conduce a un error 404.
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 77%
 
 ---
 
@@ -18,11 +18,11 @@ La variable `pageType` es un indicador que se utiliza para designar las páginas
 >
 >No configure esta variable en páginas que no sean de error.
 
-## Tipo de página con etiquetas en Adobe Experience Platform
+## Tipo de página con la extensión de Adobe Analytics
 
-No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## “s.pageType” en el editor de código personalizado de AppMeasurement y 
+## s.pageType en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.pageType` es una cadena donde el valor `errorPage` es el único válido. Establezca esta variable en este valor en cualquier página de error del sitio, como en páginas de error 404.
 

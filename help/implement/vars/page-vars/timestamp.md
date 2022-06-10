@@ -3,10 +3,10 @@ title: timestamp
 description: Establecer manualmente la marca de tiempo de la visita.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '246'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,11 @@ La variable `timestamp` establece manualmente la marca de tiempo de la visita en
 >
 >No utilice esta variable si el grupo de informes no está configurado explícitamente para aceptar visitas con marca de tiempo. AppMeasurement establece automáticamente la hora de una visita en los grupos de informes que no admiten visitas con marca de tiempo. Si envía una visita con esta variable a un grupo de informes que no admita marcas de tiempo, los datos se perderán de forma irreversible.
 
-## Marca de tiempo mediante etiquetas en Adobe Experience Platform
+## Marca de tiempo con la extensión de Adobe Analytics
 
-No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.timestamp en AppMeasurement y el editor de código personalizado de 
+## s.timestamp en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.timestamp` es una cadena que contiene la fecha y la hora de la visita. Los formatos válidos para la marca de tiempo son [ISO 8601](https://es.wikipedia.org/wiki/ISO_8601) y [Unix time](https://es.wikipedia.org/wiki/Tiempo_Unix).
 
@@ -42,7 +42,7 @@ s.timestamp = new Date().toISOString();
 
 ## Valores ISO 8601
 
-Las fechas y horas expresadas de conformidad con la norma [ISO 8601](https://es.wikipedia.org/wiki/ISO_8601) pueden adoptar diferentes formas. Adobe no admite algunas de las formas descritas en la norma ISO 8601.
+Las fechas y horas expresadas de conformidad con la norma [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) pueden adoptar diferentes formas. Adobe no admite algunas de las formas descritas en la norma ISO 8601.
 
 * La fecha y la hora deben proporcionarse separadas por una `T`.
 * Es obligatorio detallar las horas y los minutos; los segundos son opcionales pero se recomiendan.

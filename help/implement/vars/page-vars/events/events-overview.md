@@ -3,10 +3,10 @@ title: events
 description: Configure la variable “events” (eventos), que gobierna la mayoría de las métricas del sitio.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '680'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 84%
 
 ---
 
@@ -16,12 +16,29 @@ Las dimensiones y las métricas son componentes fundamentales para los informes.
 
 Antes de implementar eventos, asegúrese de crearlos y configurarlos en [Eventos de éxito](/help/admin/admin/c-success-events/success-event.md) en la configuración del grupo de informes. Si planea utilizar eventos personalizados en las visitas de seguimiento de vínculos, asegúrese de que [`linkTrackVars`](../../config-vars/linktrackvars.md) y [`linkTrackEvents`](../../config-vars/linktrackevents.md) están correctamente configurados.
 
-## Eventos con etiquetas en Adobe Experience Platform
+## Eventos que utilizan el SDK web
+
+Los eventos personalizados son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) en los siguientes campos XDM:
+
+* Los eventos personalizados 1-100 están asignados a `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
+* Los eventos personalizados 101-200 están asignados a `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
+* Este patrón repite cada 100 eventos a `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
+* Los pedidos están asignados a `commerce.purchases.value`.
+* Las unidades se asignan a la suma de todas `productListItems[].quantity` campos.
+* Los ingresos se asignan a la suma de todos los `productListItems[].priceTotal` campos.
+* Las vistas del producto están asignadas a `commerce.productListViews.value`.
+* Los carros de compras están asignados a `commerce.productListOpens.value`.
+* Las adiciones al carro de compras están asignadas a `commerce.productListAdds.value`.
+* Las eliminaciones del carro de compras están asignadas a `commerce.productListRemovals.value`.
+* Las vistas del carro de compras están asignadas a `commerce.productListViews.value`.
+* Las cierres de compra están asignadas a `commerce.checkouts.value`.
+
+## Eventos que utilizan la extensión de Adobe Analytics
 
 Puede establecer eventos al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-2. Haga clic en la propiedad deseada.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
 5. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Establecer variables].
@@ -34,7 +51,7 @@ Hay varias funciones disponibles:
 * Campo de texto opcional para un valor de evento. Puede incluir moneda para eventos de moneda o un entero para eventos que no sean de moneda para incrementar la cifra varias veces. Por ejemplo, si selecciona `event1` en la lista desplegable e incluye `10` en este campo, los informes se incrementan `event1` en 10.
 * Botón para agregar otro evento. No hay un límite razonable para el número de eventos que puede incluir en una visita.
 
-## “s.events” en el editor de código personalizado de AppMeasurement y 
+## s.events en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.events` es una cadena que contiene una lista de eventos delimitada por comas que se pueden incluir en la visita. No hay límite de bytes para esta variable, por lo que no se trunca. Los valores válidos son los siguientes:
 

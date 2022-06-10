@@ -3,10 +3,10 @@ title: visitorID
 description: Utilice un ID de visitante personalizado.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '259'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 86%
 
 ---
 
@@ -18,18 +18,22 @@ Adobe utiliza diferentes métodos para identificar a los visitantes del sitio. L
 >
 >Adobe recomienda evitar esta variable. En su lugar, utilice el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
 
-## ID de visitante con etiquetas en Adobe Experience Platform
+## Anulación de ID de visitante mediante el SDK web
+
+próximamente!
+
+## ID de visitante con la extensión de Adobe Analytics
 
 [!UICONTROL ID de visitante] es un campo en el acordeón de [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-2. Haga clic en la propiedad deseada.
-3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+2. Haga clic en la propiedad de etiquetas deseada.
+3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL Cookies], que muestra el campo [!UICONTROL ID de visitante].
 
 Asigne este campo al elemento de datos que contenga su ID de visitante personalizada. No establezca este campo como un valor estático.
 
-## s.visitorID en el editor de código personalizado de AppMeasurement y 
+## s.visitorID en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.visitorID` es una cadena que contiene un identificador único personalizado para el visitante. Los valores válidos incluyen caracteres alfanuméricos de hasta 100 bytes. Evite utilizar guiones, espacios, guiones bajos o símbolos en esta variable.
 

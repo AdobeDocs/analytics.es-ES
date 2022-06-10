@@ -3,10 +3,10 @@ title: list
 description: Variables personalizadas que contienen varios valores en la misma visita.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 85%
 
 ---
 
@@ -24,11 +24,15 @@ Asegúrese de registrar la forma en que utiliza cada variable de lista y su lóg
 
 Asegúrese de configurar cada variable de lista en la configuración del grupo de informes antes de usarla en la implementación. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/list-var-admin.md) en la guía de administración.
 
-## Variables de lista con etiquetas en Adobe Experience Platform
+## Enumerar variables mediante el SDK web
 
-No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+Las variables de lista son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) en los campos XDM `_experience.analytics.customDimensions.lists.list1` a `_experience.analytics.customDimensions.lists.list3`.
 
-## “s.list1 - s.list3” en el editor de código personalizado de AppMeasurement y 
+## Enumerar variables mediante la extensión de Adobe Analytics
+
+No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+
+## s.list1 - s.list3 en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 Cada variable de lista es una cadena que contiene valores personalizados específicos de su organización. No tienen un máximo de bytes; sin embargo, cada valor individual tiene un máximo de 255 bytes. El delimitador que utilice se determina al configurar la variable en la configuración del grupo de informes. No utilice espacios al delimitar varios elementos.
 

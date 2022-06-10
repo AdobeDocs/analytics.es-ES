@@ -3,10 +3,10 @@ title: Util.getQueryParam
 description: Devuelve el valor de un parámetro de cadena de consulta.
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '260'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 81%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 100%
 
 Los parámetros de cadena de consulta de una URL de navegador contienen con frecuencia datos importantes para Analytics. Utilice el método `Util.getQueryParam()` para recuperar datos de la cadena de consulta.
 
-## Obtención de datos de parámetros de cadena de consulta con etiquetas en Adobe Experience Platform
+## Obtenga datos de parámetros de cadena de consulta mediante la extensión de Adobe Analytics y la extensión de SDK web
 
 Puede obtener datos de parámetros de cadena de consulta estableciendo valores en los elementos de datos.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-2. Haga clic en la propiedad deseada.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Elementos de datos] y, a continuación, haga clic en el elemento de datos deseado (o cree un elemento de datos).
-4. Establezca el menú desplegable [!UICONTROL Extensión] como [!UICONTROL Principal] y el [!UICONTROL Tipo de elemento de datos] como [!UICONTROL Parámetro de cadena de consulta].
+4. Establezca el menú desplegable [!UICONTROL Extensión] como **[!UICONTROL Principal]** y el [!UICONTROL Tipo de elemento de datos] como **[!UICONTROL Parámetro de cadena de consulta]**.
 5. Introduzca el parámetro de cadena de consulta en el campo de texto.
 
-El valor del parámetro de cadena de consulta se almacena en el elemento de datos. A continuación, puede hacer referencia al elemento de datos en las reglas para asignar variables de Analytics.
+El valor del parámetro de cadena de consulta se almacena en el elemento de datos. A continuación, puede hacer referencia al elemento de datos en las reglas para asignar las variables deseadas.
 
-## s.Util.getQueryParam() en el editor de código personalizado de AppMeasurement y 
+## s.Util.getQueryParam() en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 Llame al método `s.Util.getQueryParam()` para recuperar un valor de cadena de consulta de la dirección URL del explorador. Se requiere el argumento de cadena que contiene un parámetro de cadena de consulta. Este método devuelve una cadena que puede asignar a variables de Analytics:
 

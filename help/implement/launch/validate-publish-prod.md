@@ -3,10 +3,10 @@ title: Validación de una implementación de desarrollo y publicación en produc
 description: Descubra cómo utilizar etiquetas de Adobe Experience Platform para implementar Adobe Analytics en su entorno de producción.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '631'
+ht-degree: 83%
 
 ---
 
@@ -31,7 +31,7 @@ El depurador de Experience Cloud es una extensión que muestra todas las etiquet
 
 Una vez validado que está viendo los datos, puede insertar la implementación en la versión activa del sitio.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas que desee implementar en el sitio.
 1. Haga clic en la pestaña **[!UICONTROL Publicación]** y busque la biblioteca en la columna de desarrollo.
 1. Haga clic en el menú desplegable de la biblioteca y seleccione **[!UICONTROL Enviar para aprobación]**. Haga clic en **[!UICONTROL Enviar]** en la ventana modal.

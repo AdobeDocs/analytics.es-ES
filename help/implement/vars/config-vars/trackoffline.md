@@ -3,10 +3,10 @@ title: trackOffline
 description: Habilite o deshabilite el seguimiento sin conexión, que cambia la forma en que AppMeasurement recopila datos.
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 83%
 
 ---
 
@@ -28,11 +28,15 @@ Cuando está habilitada, AppMeasurement utiliza el siguiente proceso para enviar
    * Si no puede acceder a los servidores de recopilación de datos de Adobe, la visita se agrega a la cola del dispositivo.
    * Si puede acceder a los servidores de recopilación de datos de Adobe, se envían la visita y la cola de visitas mientras el dispositivo estaba sin conexión.
 
-## Seguimiento sin conexión con etiquetas en Adobe Experience Platform
+## Seguimiento sin conexión mediante el SDK web
 
-No hay ningún campo específico en la IU de recopilación de datos para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+El SDK web no admite el seguimiento sin conexión.
 
-## s.trackOffline en el editor de código personalizado de AppMeasurement y 
+## Seguimiento sin conexión con la extensión Adobe Analytics
+
+No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+
+## s.trackOffline en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.trackOffline` es un booleano que habilita o deshabilita el seguimiento sin conexión. Su valor predeterminado es `false`. Establezca este valor como `true` si desea habilitar el seguimiento sin conexión.
 

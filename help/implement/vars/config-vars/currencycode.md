@@ -3,10 +3,10 @@ title: ¿Qué es la variable currencyCode y cómo se usa?
 description: Para los sitios de comercio electrónico, establece la moneda que usa la página.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 100%
+source-wordcount: '862'
+ht-degree: 93%
 
 ---
 
@@ -26,13 +26,17 @@ Si `currencyCode` está definida y es diferente a la moneda del grupo de informe
 
 Esta variable no persiste entre visitas. Asegúrese de que esta variable esté definida en todas las páginas que involucren eventos de ingresos o de moneda.
 
-## Código de moneda con etiquetas en Adobe Experience Platform
+## Código de moneda mediante el SDK web
+
+El código de divisa es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) en el campo XDM `commerce.order.currencyCode`.
+
+## Código de moneda con la extensión Adobe Analytics
 
 Código de moneda es un campo en el acordeón [!UICONTROL General] al configurar la extensión de Adobe Analytics.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Haga clic en la propiedad deseada.
-1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Haga clic en la propiedad de etiquetas deseada.
+1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 1. Expanda el acordeón [!UICONTROL General], que muestra el campo [!UICONTROL Código de moneda].
 
 Puede utilizar un código de moneda preestablecido o un código de moneda personalizado. Si utiliza un código de moneda personalizado, asegúrese de que el código sea válido.
@@ -47,7 +51,7 @@ El código de moneda se pasa a los SDK de Adobe Experience Platform Mobile a tra
 
 Puede utilizar un código de moneda preestablecido o un código de moneda personalizado. Si utiliza un código de moneda personalizado, asegúrese de que el código sea válido.
 
-## s.currencyCode en el editor de código personalizado de AppMeasurement y 
+## s.currencyCode en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.currencyCode` es una cadena que contiene un código en mayúsculas de 3 letras que representa la moneda de la página.
 

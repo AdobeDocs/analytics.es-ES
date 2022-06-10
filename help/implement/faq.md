@@ -3,10 +3,10 @@ title: Preguntas frecuentes sobre la implementación
 description: Preguntas más frecuentes sobre implementación y vínculos a más información.
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '502'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ AppMeasurement crea un objeto de imagen en la página HTML y, a continuación, e
 
 A veces, una organización desea quitar una implementación debido a la caducidad del contrato o para reducir el número de llamadas al servidor.
 
-* **Implementaciones mediante etiquetas en Adobe Experience Platform**: Deshabilite o desinstale la extensión de Adobe Analytics en la pestaña [!UICONTROL Extensiones] y, a continuación, publique.
+* **Implementaciones que utilizan la recopilación de datos de Adobe Experience Platform**: Deshabilite o desinstale la extensión de Adobe Analytics, SDK web o SDK móvil aplicable en la [!UICONTROL Extensiones] y, a continuación, publicar.
 * **Implementaciones heredadas de AppMeasurement**: Reemplace todo el contenido del archivo `s_code.js` con la siguiente línea de código:
 
 ```js

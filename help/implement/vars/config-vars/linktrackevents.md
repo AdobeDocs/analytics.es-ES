@@ -3,10 +3,10 @@ title: linkTrackEvents
 description: Determine qué eventos incluir en las solicitudes de imagen de seguimiento de vínculos.
 feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 67%
 
 ---
 
@@ -16,15 +16,19 @@ Algunas implementaciones no desean incluir todas las variables en todas las soli
 
 Esta variable no se utiliza para las llamadas de vista de página (método [`t()`](../functions/t-method.md)).
 
-## Eventos en llamadas de seguimiento de vínculos mediante etiquetas en Adobe Experience Platform
+## Determinar qué eventos de Analytics incluir en un evento XDM mediante el SDK web
+
+El SDK web no excluye determinados campos para las llamadas de seguimiento de vínculos. Sin embargo, puede usar la variable `onBeforeEventSend` llamada de retorno para borrar o establecer los campos deseados antes de que los datos se envíen a Adobe. Consulte [Modificación global de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) en la documentación del SDK web para obtener más información.
+
+## Eventos en llamadas de seguimiento de vínculos con la extensión Adobe Analytics
 
 Adobe Experience Platform incluye automáticamente eventos definidos en las visitas de seguimiento de vínculos si no utiliza código personalizado.
 
 >[!IMPORTANT]
 >
->Si establece eventos en la IU de recopilación de datos mediante el editor de código personalizado, también debe incluir el evento en `linkTrackEvents` mediante el uso del código personalizado.
+>Si establece eventos en el editor de código personalizado de la extensión de Analytics, debe incluir el evento en `linkTrackEvents` también se usa código personalizado.
 
-## s.linkTrackEvents en el editor de código personalizado de AppMeasurement y 
+## s.linkTrackEvents en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.linkTrackEvents` es una cadena que contiene una lista delimitada por comas de los eventos que desea incluir en las solicitudes de imagen de seguimiento de vínculos (método `tl()`). Se deben cumplir los tres criterios siguientes para incluir métricas en las visitas de seguimiento de vínculos:
 

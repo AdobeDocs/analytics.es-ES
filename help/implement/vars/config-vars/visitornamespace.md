@@ -3,10 +3,10 @@ title: visitorNameSpace
 description: Variable retirada que determinó el dominio de la cookie.
 feature: Variables
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '217'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 86%
 
 ---
 
@@ -22,18 +22,18 @@ En versiones anteriores de Adobe Analytics, AppMeasurement utilizaba la variable
 >
 >Adobe recomienda el uso de cookies de origen en el sitio. Las cookies de origen no utilizan esta variable.
 
-## Área de nombres de visitante con etiquetas en Adobe Experience Platform
+## Espacio de nombres del visitante con la extensión Adobe Analytics
 
 El [!UICONTROL espacio de nombres del visitante] es un campo en el acordeón [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
 
-1. Inicie sesión en la [IU de recopilación de datos](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-2. Haga clic en la propiedad deseada.
-3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+2. Haga clic en la propiedad de etiquetas deseada.
+3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL Cookies], que muestra el campo [!UICONTROL Espacio de nombres del visitante].
 
 Adobe recomienda evitar este campo. Utilice `trackingServer` y `trackingServerSecure` en su lugar.
 
-## s.visitorNamespace en el editor de código personalizado de AppMeasurement y 
+## s.visitorNamespace en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.visitorNamespace` es una cadena que contiene un valor único por organización. Las bibliotecas antiguas de AppMeasurement incluían automáticamente este valor único al descargarlo de versiones anteriores de Adobe Analytics. Las bibliotecas actuales de AppMeasurement no utilizan esta variable a menos que `trackingServer` y `trackingServerSecure` se establezcan.
 

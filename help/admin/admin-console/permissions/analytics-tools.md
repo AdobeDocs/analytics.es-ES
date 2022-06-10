@@ -3,10 +3,10 @@ title: Permisos de perfil de productos para las herramientas de Analytics
 description: Los elementos de permiso de las herramientas de Analytics conceden acceso a las funciones de Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '456'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ Los elementos de permiso de las herramientas de Analytics conceden acceso a las 
 | Elemento de permiso de las herramientas de Analytics | Descripción |
 |----|----|
 | [!UICONTROL Uso de llamadas al servidor] | Otorga acceso a Administración > Uso de llamada al servidor. |
-| [!UICONTROL Administrador de códigos] | Se ha mantenido para propósitos heredados. Otorga acceso a Administración > Todos los administradores > Administrador de códigos. En la mayoría de los casos, utilice las bibliotecas incluidas en la IU de recopilación de datos. |
+| [!UICONTROL Administrador de códigos] | Se ha mantenido para propósitos heredados. Otorga acceso a Administración > Todos los administradores > Administrador de códigos. En la mayoría de los casos, utilice las bibliotecas incluidas en la extensión de Adobe Analytics en la recopilación de datos de Adobe Experience Platform. |
 | [!UICONTROL Administrador de códigos - Servicios Web] | Otorga acceso al Administrador de códigos mediante la API 1.4. |
 | [!UICONTROL Registros] | Otorga acceso a Administración > Todos los administradores > Registros. |
 | [!UICONTROL Registros - Servicios Web] | Otorga acceso a los registros de extracción a través de la API 1.4. |
