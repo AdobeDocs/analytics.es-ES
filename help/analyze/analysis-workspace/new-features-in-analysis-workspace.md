@@ -5,8 +5,8 @@ title: Novedades en Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
-workflow-type: ht
+source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
+workflow-type: tm+mt
 source-wordcount: '8276'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleag
 | Función | Descripción |
 | --- | --- |
 | [Descargar 50.000 elementos para una sola dimensión](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es#download-items) | Ahora puede descargar 50.000 elementos para una sola dimensión en una tabla improvisada, con segmentos y filtros aplicados. Esto le permite acceder a más de 400 filas de datos fuera de Analysis Workspace. |
-| [Mejoras en la visualización de Línea](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=es) | <ul><li>Puede mostrar u ocultar el eje X y el eje Y de cualquier visualización de [!UICONTROL Línea]. Esto puede resultar especialmente útil cuando las visualizaciones de [!UICONTROL Línea] son más compactas.</li><li>Puede superponer una etiqueta de valor mínimo y máximo en cualquier visualización de Línea para resaltar rápidamente los picos y los valores de una métrica.</li><li>Puede superponer distintas líneas de tendencia de regresión en cualquier visualización de Línea para ver con mayor facilidad la tendencia en los datos. Las opciones incluyen [!UICONTROL Lineal], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potencia] y [!UICONTROL Cuadrático].</li></ul> |
+| [Mejoras en la visualización de Línea](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Puede mostrar u ocultar el eje X y el eje Y de cualquier visualización de [!UICONTROL Línea]. Esto puede resultar especialmente útil cuando las visualizaciones de [!UICONTROL Línea] son más compactas.</li><li>Puede superponer una etiqueta de valor mínimo y máximo en cualquier visualización de Línea para resaltar rápidamente los picos y los valores de una métrica.</li><li>Puede superponer distintas líneas de tendencia de regresión en cualquier visualización de Línea para ver con mayor facilidad la tendencia en los datos. Las opciones incluyen [!UICONTROL Lineal], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potencia] y [!UICONTROL Cuadrático].</li></ul> |
 | Intervalos de fechas nuevos | Añadimos 5 nuevos intervalos de fechas para que pueda elegir entre intervalos de fechas que no incluyan datos de día parciales de hoy: últimos 7 días completos, últimos 14 días completos, últimos 30 días completos, últimos 60 días completos, últimos 90 días completos. |
 
 ## Agosto de 2020
@@ -76,7 +76,7 @@ Nuevas funciones lanzadas el 18 de junio de 2020.
 | Attribution IQ: Ventanas retroactivas personalizadas | Ahora puede configurar cualquier modelo de atribución en Attribution IQ para incluir puntos de contacto desde 90 días antes del período de creación de informes. Esto generalmente aumenta la precisión de atribución de eventos que se producen al principio del período de la creación de informes teniendo en cuenta las interacciones que se produjeron en el mes o meses anteriores. Disponible para los clientes de Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete y Ultimate. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=es#lookback-windows) |
 | Funciones de proyecto para proyectos compartidos de Workspace | Al compartir un proyecto de Workspace, ahora puede colocar destinatarios en una de las tres funciones de proyecto, según la experiencia del proyecto que desee que tengan: Editar, Duplicado y Vista. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) |
 | Proyectos de Workspace solo de vista | Los proyectos de Workspace se pueden compartir con los usuarios solo como Puede ver. Cuando un destinatario de Vista abre el proyecto compartido, recibe una experiencia de proyecto más restrictiva sin carril izquierdo e interacciones limitadas. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=es) |
-| Capacidad para editar proyectos de Workspace de forma conjunta | Los destinatarios añadidos a la función Puede editar pueden guardar un proyecto que se haya compartido con ellos. Esto se extiende tanto a los administradores como a los no administradores. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) |
+| Capacidad para editar proyectos de Workspace de forma conjunta | Los destinatarios añadidos a la función Puede editar pueden guardar un proyecto que se haya compartido con ellos. Esto se extiende tanto a los administradores como a los no administradores. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Panel en blanco actualizado | El panel en blanco ahora incluye paneles y visualizaciones, lo que le ofrece una forma más fluida de elegir el flujo de trabajo de análisis que mejor se adapte a sus necesidades. |
 | Panel de Quick Insights (25 de junio de 2020) | Quick Insights proporciona una guía a los no analistas y a los nuevos usuarios de Analysis Workspace para aprender a responder preguntas comerciales de forma rápida y sencilla. [Más información...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Panel Analytics for Target en Workspace  (25 de junio de 2020) | El panel Analytics for Target (A4T) le permite analizar con confianza las actividades y experiencias de Adobe Target en Analysis Workspace. [Más información...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -169,7 +169,7 @@ Mejora publicada el 09 de mayo de 2019.
 
 | Mejora | Descripción |
 |--- |--- |
-| Se agregó una nueva configuración a la configuración de visualización de flujo: Incluir instancias de repetición. | [Configuración de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md) |
+| Se agregó una nueva configuración a la configuración de visualización de flujo: Incluir instancias de repetición. | [Configuración de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 
 ## Abril de 2019
 
@@ -811,7 +811,7 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
     </ul> </td>
   </tr>
   <tr>
-   <td colname="col1"> Mejoras de <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b>flujo</b></a> </td>
+   <td colname="col1"> Mejoras de <a href="/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md"  ><b>flujo</b></a> </td>
    <td colname="col2">
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1">
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Se ha añadido una nueva configuración de visualización denominada <span class="wintitle"> Inhabilitar el truncado de etiquetas </span> (valor predeterminado = sin marcar). </li>
