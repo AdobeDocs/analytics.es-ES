@@ -2,7 +2,7 @@
 title: Asignación de variables de Analytics en Adobe Experience Edge
 description: Vea qué campos XDM de Edge se asignan automáticamente a variables de Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 0%
@@ -114,7 +114,7 @@ La tabla siguiente muestra las variables que Adobe Experience Platform Edge Netw
 | `productListItems[].quantity` | Ayuda a determinar la variable [Unidades](../../components/metrics/units.md) métrica. |
 | `web.webInteraction.URL` | La variable [linkURL](../vars/config-vars/linkurl.md) variable de implementación. |
 | `web.webInteraction.name` | La variable [Vínculo personalizado](../../components/dimensions/custom-link.md), [Vínculo de descarga](../../components/dimensions/download-link.md)o [Vínculo de salida](../../components/dimensions/exit-link.md) , según el valor de `web.webInteraction.type` |
-| `web.webInteraction.type` | Determina el tipo de vínculo en el que se hizo clic. Los valores válidos incluyen `lnk_o` (Vínculos personalizados), `lnk_d` (Vínculos de descarga) y `lnk_e` (Vínculos de salida). |
+| `web.webInteraction.type` | Determina el tipo de vínculo en el que se hizo clic. Los valores válidos incluyen `other` (Vínculos personalizados), `download` (Vínculos de descarga) y `exit` (Vínculos de salida). |
 | `web.webPageDetails.URL` | La variable [Dirección URL de la página](../../components/dimensions/page-url.md) dimensión. |
 | `web.webPageDetails.errorPage` | Indicador que ayuda a determinar las &quot;Páginas no encontradas&quot; [dimensión](../../components/dimensions/pages-not-found.md) y [métrica](../../components/metrics/pages-not-found.md). |
 | `web.webPageDetails.name` | La variable [Página](../../components/dimensions/page.md) dimensión. |

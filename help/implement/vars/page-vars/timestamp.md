@@ -3,10 +3,10 @@ title: timestamp
 description: Establecer manualmente la marca de tiempo de la visita.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 87%
+source-wordcount: '276'
+ht-degree: 78%
 
 ---
 
@@ -17,6 +17,10 @@ La variable `timestamp` establece manualmente la marca de tiempo de la visita en
 >[!WARNING]
 >
 >No utilice esta variable si el grupo de informes no está configurado explícitamente para aceptar visitas con marca de tiempo. AppMeasurement establece automáticamente la hora de una visita en los grupos de informes que no admiten visitas con marca de tiempo. Si envía una visita con esta variable a un grupo de informes que no admita marcas de tiempo, los datos se perderán de forma irreversible.
+
+## Marca de tiempo mediante el SDK web
+
+La marca de tiempo es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) en el campo XDM `_experience.analytics.session.timestamp`. Este campo solo admite la hora Unix.
 
 ## Marca de tiempo con la extensión de Adobe Analytics
 

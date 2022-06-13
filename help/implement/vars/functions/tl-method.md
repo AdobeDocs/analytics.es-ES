@@ -3,10 +3,10 @@ title: tl
 description: Envíe una llamada de seguimiento de vínculos a Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 80%
+source-wordcount: '702'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,11 @@ Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExterna
 
 ## Seguimiento de vínculos mediante el SDK web
 
-El SDK web no diferencia entre las llamadas de vista de página y las llamadas de seguimiento de vínculos; ambos utilizan la variable `sendEvent` comando. Si desea que Adobe Analytics cuente un evento determinado como una llamada de seguimiento de vínculos, asegúrese de que los datos XDM incluyen `web.webInteraction.name`, `web.webInteraction.URL`y `web.webInteraction.type`.
+El SDK web no diferencia entre las llamadas de vista de página y las llamadas de seguimiento de vínculos; ambos utilizan la variable `sendEvent` comando. Si desea que Adobe Analytics cuente un evento XDM determinado como una llamada de seguimiento de vínculos, asegúrese de que los datos XDM incluyen o están asignados a `web.webInteraction.name`, `web.webInteraction.URL`y `web.webInteraction.type`.
+
+* El nombre del vínculo se asigna a `web.webInteraction.name`.
+* La dirección URL del vínculo se asigna a `web.webInteraction.URL`.
+* El tipo de vínculo se asigna a `web.webInteraction.type`. Los valores válidos incluyen `other` (Vínculos personalizados), `download` (Vínculos de descarga) y `exit` (Vínculos de salida).
 
 ```js
 alloy("sendEvent", {
