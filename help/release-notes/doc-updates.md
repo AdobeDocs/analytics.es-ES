@@ -4,10 +4,10 @@ description: Actualizaciones importantes en el conjunto de la documentación de 
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
+source-git-commit: 94e9f0688de4dd5b3d2a36d8eb68b0963bc67071
 workflow-type: tm+mt
-source-wordcount: '3212'
-ht-degree: 100%
+source-wordcount: '3372'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,12 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Fecha | Descripción |
 | --- | --- |
+| **Junio de 2022** |  |
+| Documentación de visualización de flujo actualizada | En función de la variable [nueva interfaz de usuario](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
+| Documentación sobre el uso compartido de anotaciones en informes de valoración móviles | Puede mostrar [anotaciones creadas en Workspace: en informes de valoración móviles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html). |
+| Documentación sobre la versión de sintaxis del producto de las variables de comercialización con la colección Edge | Ahora puede establecer variables de comercialización utilizando el equivalente de la sintaxis del producto estableciendo los campos XDM relevantes. Obtenga más información sobre la sintaxis del producto para las variables de comercialización [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=es). Consulte las asignaciones para la sintaxis del producto [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). |
+| **Mayo de 2022** |  |
+| Rellenado de dimensiones y métricas de Ciclo vital mediante Experience Edge | Los datos del Ciclo de vida móvil enviados mediante Experience Edge ahora aparecerán en los informes de Analytics. Consulte la documentación para obtener detalles sobre qué campos XDM se asignan a los informes de ciclo de vida móviles existentes. [Más información](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) |
 | **Abril de 2022** |  |
 | Actualizaciones de la página de aterrizaje de Adobe Analytics | Actualizaciones de la [página de aterrizaje conjunta de Analysis Workspace/Reports &amp; Analytics](/help/analyze/landing.md) que mejora la facilidad de uso y navegación. |
 | Tema nuevo en el panel [!UICONTROL Resumen de página] | [Panel Resumen de página](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
@@ -39,7 +45,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Punto de conexión de proyectos de API | Agregue, edite o elimine proyectos de Analysis Workspace mediante la API. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | Se ha actualizado el tema sobre la pausa de tareas de Report Builder programadas más antiguas | **A partir del 15 de abril de 2022**, Adobe tiene la intención de [poner en pausa todas las tareas de Report Builder programadas que se crearon hace más de dos años](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **Octubre de 2021** |  |
-| 21 de octubre de 2021 | Nueva documentación sobre [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=es) en Analysis Workspace |
+| 21 de octubre de 2021 | Nueva documentación sobre [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) en Analysis Workspace |
 | 21 de octubre de 2021 | Nueva documentación sobre [Tiempo invertido en la reproducción de medios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=es) en Analysis Workspace. |
 | 7 de octubre de 2021 | Nueva documentación sobre [visualizaciones para cuadros de resultados móviles](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es#viz) |
 | **Agosto de 2021** |  |
@@ -50,7 +56,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 5 de agosto de 2021 | Se ha actualizado la documentación de clasificaciones en [plantillas](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=es), [importación del explorador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=es) y [exportación del explorador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=es) para indicar que las opciones que no están disponibles para los grupos de informes que están habilitados para la nueva arquitectura de clasificación. |
 | 2 de agosto de 2021 | Se han actualizado varias páginas para reflejar el cambio de marca de [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=es) |
 | **Julio de 2021** |  |
-| 23 de julio de 2021 | Nuevo análisis en profundidad de [eVars de comercialización](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=es) |
+| 23 de julio de 2021 | Nuevo análisis en profundidad de [eVars de comercialización](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
 | 15 de julio de 2021 | Se ha añadido nueva documentación sobre la nueva [página de aterrizaje de Adobe Analytics](/help/analyze/landing.md) |
 | **Junio de 2021** |  |
 | 15 de junio de 2021 | Se han actualizado las [prácticas recomendadas de los canales de marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=es) |
