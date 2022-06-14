@@ -2,12 +2,12 @@
 title: 'Anotaciones al informe de valoración móvil    '
 description: Aprenda a que aparezcan anotaciones en informes de valoración móviles.
 role: User, Admin
-solution: Customer Journey Analytics
+solution: Analytics
 feature: Components
-source-git-commit: 6f0d92a85003537447821687bf5385b1690dc33f
+source-git-commit: bb6b14e2b44c0e83e6f1f0bbc5914eb86c09adc1
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
