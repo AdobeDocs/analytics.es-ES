@@ -1,16 +1,16 @@
 ---
 description: Adobe Analytics admiten los modelos de clasificaciones de un solo nivel y de varios niveles. Las jerarquías de clasificación permiten aplicar una clasificación a otra.
-title: Acerca de las subclasificaciones
+title: Subclasificaciones
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '651'
+source-git-commit: 611f20718c0af133f2daf3fe44e8a5b9ea97336b
+workflow-type: tm+mt
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
 
-# Acerca de las subclasificaciones
+# Subclasificaciones
 
 Adobe Analytics admite los modelos de clasificaciones de un solo nivel y de varios niveles. Las jerarquías de clasificación permiten aplicar una clasificación a otra.
 
@@ -88,6 +88,6 @@ Al cargar los archivos de datos correspondientes a esta clasificación de produc
 
 | CLAVE | CÓDIGO | CÓDIGO^COLOR |
 |---|---|---|
-| * | 01 | Piedra |
-| * | 03 | Jaspeado |
-| * | 23 | Agua |
+| &#42; | 01 | Piedra |
+| &#42; | 03 | Jaspeado |
+| &#42; | 23 | Agua |

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Ayude a administrar los datos mediante componentes como segmentos, métricas calculadas, grupos de informes virtuales, alertas, canales de marketing, clasificaciones y obtenga información sobre Análisis entre dispositivos.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: ht
-source-wordcount: '674'
-ht-degree: 100%
+source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
+workflow-type: tm+mt
+source-wordcount: '693'
+ht-degree: 97%
 
 ---
 
@@ -227,6 +227,18 @@ ht-degree: 100%
    + [Alertas inteligentes: Casos de uso](c-alerts/alerts-use-cases.md)
 + Clasificaciones {#classifications}
    + [Resumen general de las clasificaciones](classifications/c-classifications.md)
+   + Conjuntos de clasificaciones {#sets}
+      + [Información general sobre los conjuntos de clasificaciones](classifications/sets/overview.md)
+      + [Administrador de conjuntos de clasificaciones](classifications/sets/set-manager.md)
+      + [Administrador de trabajos de conjuntos de clasificaciones](classifications/sets/job-manager.md)
+      + [Crear un conjunto de clasificaciones](classifications/sets/create.md)
+      + [Configuración del conjunto de clasificaciones](classifications/sets/settings.md)
+   + Clasificación del Generador de reglas {#classifications-rulebuilder}
+      + [Flujo de trabajo del generador de reglas de clasificación](classifications/crb/classification-rule-builder.md)
+      + [Conjuntos de reglas de clasificación](classifications/crb/classification-rule-set.md)
+      + [Reglas de clasificación](classifications/crb/classification-quickstart-rules.md)
+      + [Reglas de clasificación - Definiciones](classifications/crb/classification-rule-definitions.md)
+      + [Subclasificaciones y el Generador de reglas](classifications/crb/sub-classification-rule-builder.md)
    + Importador de clasificaciones {#classifications-importer}
       + [Resumen del importador de clasificaciones](classifications/importer/c-working-with-saint.md)
       + [Archivos de datos de clasificación](classifications/importer/c-saint-data-files.md)
@@ -241,12 +253,6 @@ ht-degree: 100%
       + [Exportación de FTP](classifications/importer/ftp-export.md)
       + [Tiempo de procesamiento](classifications/importer/processing-time.md)
       + [Resolución de problemas](classifications/importer/troubleshooting.md)
-   + Clasificación del Generador de reglas {#classifications-rulebuilder}
-      + [Flujo de trabajo del generador de reglas de clasificación](classifications/crb/classification-rule-builder.md)
-      + [Conjuntos de reglas de clasificación](classifications/crb/classification-rule-set.md)
-      + [Reglas de clasificación](classifications/crb/classification-quickstart-rules.md)
-      + [Reglas de clasificación - Definiciones](classifications/crb/classification-rule-definitions.md)
-      + [Subclasificaciones y el Generador de reglas](classifications/crb/sub-classification-rule-builder.md)
    + [Subclasificaciones](classifications/c-sub-classifications.md)
    + [Preguntas más frecuentes sobre las clasificaciones](classifications/faq.md)
 + [Eventos de calendario](t-calendar-event.md)
