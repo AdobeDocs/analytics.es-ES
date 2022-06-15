@@ -3,10 +3,10 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d6456064e6fb0f78f1b3c1beda5ff288c33f6d71
+source-git-commit: 29f152bf1724c566da69598f35929ee3b502b7f9
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 47%
+source-wordcount: '1077'
+ht-degree: 46%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 47%
 | **Compartir anotaciones en informes de valoración de Mobile** | Puede mostrar anotaciones creadas en Workspace en informes de valoración móviles. Esto le permite compartir matices de datos contextuales y perspectivas sobre su organización y campañas directamente dentro de proyectos de informes de valoración móviles, visibles en la aplicación móvil de paneles de Analytics . [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 15 de junio de 2022 |
 | **Compatibilidad con la versión de sintaxis del producto de Variables de comercialización con la colección Edge** | Ahora puede establecer variables de comercialización utilizando el equivalente de la sintaxis del producto estableciendo los campos XDM relevantes. Obtenga más información sobre la sintaxis del producto para las variables de comercialización [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=es). Consulte las asignaciones para la sintaxis del producto [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 15 de junio de 2022 |
 | **Rellenado de dimensiones y métricas de Ciclo vital mediante Experience Edge** | Los datos del Ciclo de vida móvil enviados mediante Experience Edge ahora aparecerán en los informes de Analytics. Consulte la documentación para obtener detalles sobre qué campos XDM se asignan a los informes de ciclo de vida móviles existentes. [Más información](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 27 de mayo de 2022 |
-| **Reglas de procesamiento de Mobile Services disponibles en las reglas de procesamiento de Analytics** | La fecha de finalización de la vida útil de Adobe Mobile Services es el 31 de diciembre de 2022. Las reglas de procesamiento existentes creadas o generadas por Adobe Mobile Services migrarán automáticamente a las reglas de procesamiento de Adobe Analytics. Se pueden administrar, pero ya no se pueden editar en Mobile Services hasta que se acabe el producto. Para obtener más información o ayuda, póngase en contacto con el Servicio de atención al cliente de Adobe. [Más información](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 15 de junio de 2022 |
+| **Reglas de procesamiento de Mobile Services disponibles en las reglas de procesamiento de Analytics** | La fecha de finalización de la vida útil de Adobe Mobile Services es el 31 de diciembre de 2022. Las reglas de procesamiento existentes creadas o generadas por Adobe Mobile Services migrarán automáticamente a las reglas de procesamiento de Adobe Analytics, donde puede editarlas y administrarlas. Se pueden administrar, pero ya no se pueden editar en Mobile Services hasta que se acabe el producto. Para obtener más información o ayuda, póngase en contacto con el Servicio de atención al cliente de Adobe. [Más información](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 15 de junio de 2022 |
 | **Nueva experiencia de clasificaciones: Fase 1** | Esta versión por fases de la nueva experiencia del usuario del conjunto de clasificaciones mejora significativamente la visibilidad de los datos de clasificación de propiedad del cliente. [Disponibilidad general](/help/release-notes/releases.md) se estima a principios de 2023. | Las pruebas limitadas comienzan el 15 de junio de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
