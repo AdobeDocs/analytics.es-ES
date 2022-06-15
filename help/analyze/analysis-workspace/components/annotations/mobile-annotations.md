@@ -1,22 +1,19 @@
 ---
-title: 'Anotaciones al informe de valoración móvil    '
+title: Anotaciones al informe de valoración móvil
 description: Aprenda a que aparezcan anotaciones en informes de valoración móviles.
 role: User, Admin
 solution: Analytics
 feature: Components
-source-git-commit: bb6b14e2b44c0e83e6f1f0bbc5914eb86c09adc1
+exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
+source-git-commit: 0e7a9aa92c8c5b61fffae96d42bd1b258920e99d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '377'
+ht-degree: 2%
 
 ---
 
 
 # Uso compartido de anotaciones en informes de valoración móviles
-
->[!NOTE]
->
->Actualmente, esta función está en [prueba limitada](/help/release-notes/releases.md).
 
 Puede mostrar anotaciones creadas en Workspace en informes de valoración móviles. Esto le permite compartir matices de datos contextuales y perspectivas sobre su organización y campañas directamente dentro de proyectos de informes de valoración móviles, visibles en la aplicación móvil de paneles de Analytics .
 
@@ -32,17 +29,17 @@ Para obtener información sobre la creación de anotaciones, consulte [Crear ano
 
 1. Select **Mostrar anotaciones** para mostrar la anotación en los informes de valoración móviles.
 
-![](assets/show-annotations.png)
+<img src="assets/show-annotations.png"  width="75%">
 
 1. Confirme que la opción mostrar anotaciones está seleccionada y vaya a **Proyecto** > **Información y configuración del proyecto**.
 
-![](assets/project-info-settings.png)
+<img src="assets/project-info-settings.png" width="40%">
 
 ## Ver anotaciones en informes de valoración móviles
 
 Cuando las anotaciones están activadas, los iconos de anotación se pueden ver en el Generador de informes de valoración. Las anotaciones aparecen únicamente en los gráficos y tablas de la vista detallada. Las anotaciones no están visibles desde la vista de mosaico principal del informe de valoración.
 
-![](assets/view-annotations.png)
+<img src="assets/view-annotations.png"  width="75%">
 
 Cuando los iconos de anotación están visibles, no se puede ver ni interactuar con las anotaciones en el lienzo del generador. Utilice el modo de vista previa para ver e interactuar con anotaciones tal y como aparecen en la aplicación. ![](assets/preview-icon.png)
 
@@ -52,6 +49,6 @@ Los colores de anotación se seleccionan cuando la anotación se crea en el espa
 
 | Fecha | Aspecto |
 | --- | --- |
-| **Día único** | ![](assets/single-day-mobile-annotations.png)<br></br> |
-| **Intervalo de fechas** | ![](assets/date-range.png) |
-| **Anotaciones superpuestas** | ![](assets/overlapping-annotations.png)<br></br>Para ver los detalles de las anotaciones en la aplicación de paneles de Analytics, pulse un icono de anotación. <br></br>Cuando vea una anotación en un gráfico, puede deslizar hacia la izquierda y hacia la derecha para navegar por todas las anotaciones presentes en el gráfico. Cuando vea una anotación en la tabla, deslice hacia la izquierda y la derecha para navegar por todas las anotaciones asociadas con ese elemento de fila en la tabla. <br></br>![](assets/swipe-multiple-annotations.png) <br></br>En gráficos que no tienen una base de tiempo *eje x*, como los gráficos de barras circulares u horizontales, las anotaciones que se aplican al gráfico se pueden ver tocando el icono situado en la esquina inferior derecha.<br></br> ![](assets/charts-without-timebase.png) |
+| **Día único** | <img src="assets/single-day-mobile-annotations.png"  width="30%"><br></br> |
+| **Intervalo de fechas** | <img src="assets/date-range.png"  width="30%"> |
+| **Anotaciones superpuestas** | <img src="assets/overlapping-annotations.png"  width="30%"><br></br>Para ver los detalles de las anotaciones en la aplicación de paneles de Analytics, pulse un icono de anotación. <br></br>Cuando vea una anotación en un gráfico, puede deslizar hacia la izquierda y hacia la derecha para navegar por todas las anotaciones presentes en el gráfico. Cuando vea una anotación en la tabla, deslice hacia la izquierda y la derecha para navegar por todas las anotaciones asociadas con ese elemento de fila en la tabla. <br></br><img src="assets/swipe-multiple-annotations.png"  width="30%"> <br></br>En gráficos que no tienen una base de tiempo *eje x*, como los gráficos de barras circulares u horizontales, las anotaciones que se aplican al gráfico se pueden ver tocando el icono situado en la esquina inferior derecha.<br></br> <img src="assets/charts-without-timebase.png"  width="30%"> |
