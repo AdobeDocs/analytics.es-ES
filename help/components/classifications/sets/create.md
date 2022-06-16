@@ -1,13 +1,13 @@
 ---
 title: Crear un conjunto de clasificaciones
 description: Campos y descripciones disponibles al crear un conjunto de clasificaciones.
-source-git-commit: 7347fe573aaab86bdef51a9d74cbef0e091739d4
+exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
-
 
 # Crear un conjunto de clasificaciones
 
@@ -21,5 +21,7 @@ Al crear un conjunto de clasificaciones, están disponibles los campos siguiente
 * **[!UICONTROL Nombre de columna]**: Nombre de la dimensión de clasificación que desea crear. Este campo es el nombre de dimensión que se utiliza en Analysis Workspace y el nombre de columna al exportar datos de clasificación.
 * **[!UICONTROL Tipo]**: Botones de radio que indican el tipo de clasificación. Las clasificaciones principales suelen usarse; Representación de clasificaciones de búsqueda [Subclasificaciones](../c-sub-classifications.md).
 * **[!UICONTROL Suscripciones]** Grupo de informes y dimensión a los que se aplica este conjunto de clasificaciones. Se ha planificado la compatibilidad con varios grupos de informes.
+
+![Crear un conjunto de clasificaciones](../assets/classification-set-create.png)
 
 Si existe un conjunto de clasificaciones para un grupo de informes + determinado, en su lugar se agrega la clasificación al esquema.

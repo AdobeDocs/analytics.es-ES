@@ -1,13 +1,13 @@
 ---
 title: Información general sobre los conjuntos de clasificaciones
 description: Utilice los conjuntos de clasificaciones para administrar los datos de clasificación.
-source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
+exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
-
 
 # Información general sobre los conjuntos de clasificaciones
 
@@ -15,7 +15,7 @@ Los conjuntos de clasificaciones proporcionan una interfaz única para administr
 
 >[!NOTE]
 >
->Esta función se encuentra actualmente en una versión limitada. Si desea acceder a esta función, póngase en contacto con el Servicio de atención al cliente de Adobe o con su administrador de cuentas, que podrá reenviar la solicitud al equipo del conjunto de clasificaciones para que la solicite.
+>Esta función se encuentra actualmente en una versión limitada. Si desea acceder a esta función, póngase en contacto con el servicio de atención al cliente de Adobe o con el administrador de cuentas, que podrán reenviar la solicitud al equipo de clasificaciones para que la solicite.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificaciones]**
 
