@@ -2,9 +2,9 @@
 title: Administrador de conjuntos de clasificaciones
 description: Administrar conjuntos de clasificaciones en Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 17bde9f5f00d1ddb54a2f9273b55f7e947fe4fef
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,7 @@ Las siguientes columnas están disponibles en el Administrador de conjuntos de c
 * **[!UICONTROL Suscripciones]**: Número de suscripciones o número de grupos de informes a los que se aplica este conjunto de clasificaciones.
 * **[!UICONTROL Propietario]**: El propietario del conjunto de clasificaciones.
 * **[!UICONTROL Clasificaciones]**: Número de dimensiones de clasificación que contiene el conjunto de clasificaciones.
-* **[!UICONTROL Automatizado]**: Indica si el conjunto de clasificaciones está configurado para extraer automáticamente datos de un sitio FTP.
 * **[!UICONTROL Última modificación]**: La fecha y la hora de la última modificación del conjunto de clasificaciones.
-* **[!UICONTROL Host y ruta de FTP]**: Si está automatizada, la ubicación FTP desde la que el conjunto de clasificaciones extrae datos.
 
 ## Crear o editar opciones
 
