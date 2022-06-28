@@ -3,10 +3,10 @@ title: productos
 description: Enviar datos sobre qué productos se muestran o están en el carro de compras.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 3edb7208f4b11a2fa58a2f7c696444ab998a6bfe
+source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 77%
+source-wordcount: '600'
+ht-degree: 73%
 
 ---
 
@@ -28,6 +28,11 @@ Los productos son [asignado para Adobe Analytics](https://experienceleague.adobe
 * El precio está asignado a `productListItems[].priceTotal`.
 * Las eVars de comercialización están asignadas a `productListItems._experience.analytics.customDimensions.eVars.eVar1` a `productListItems._experience.analytics.customDimensions.eVars.eVar250`, según el eVar que desee enlazar a un producto.
 * Los eventos de comercialización se asignan a `productListItems[]._experience.analytics.event1to100.event1.value` a `productListItems._experience.analytics.event901to1000.event1000.value`, según el evento que desee enlazar a un producto.
+
+>[!NOTE]
+>
+>`lineItemId` debe añadirse como campo personalizado, ya que no forma parte del esquema de eventos estándar de Analytics. En el futuro, agregaremos un campo &quot;categoría&quot; dedicado.
+
 
 ## Productos que utilizan la extensión de Adobe Analytics
 
