@@ -7,7 +7,7 @@ user-guide-description: 'Personalice los datos que se recopilan para obtener má
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 93%
    + [Información general](vars/overview.md)
    + Variables de configuración {#config-vars}
       + [Información general de variables de configuración](vars/config-vars/configuration-variables.md)
-      + [anular](vars/config-vars/abort.md)
-      + [cuenta](vars/config-vars/account.md)
+      + [abort](vars/config-vars/abort.md)
+      + [account](vars/config-vars/account.md)
       + [charSet](vars/config-vars/charset.md)
       + [cookieDomain](vars/config-vars/cookiedomain.md)
       + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
@@ -54,7 +54,7 @@ ht-degree: 93%
    + Variables de página {#page-vars}
       + [Información general sobre las variables de página](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
-      + [canal](vars/page-vars/channel.md)
+      + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Variables dinámicas](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
@@ -73,8 +73,8 @@ ht-degree: 93%
       + [purchaseID](vars/page-vars/purchaseid.md)
       + [referente](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
-      + [servidor](vars/page-vars/server.md)
-      + [estado](vars/page-vars/state.md)
+      + [server](vars/page-vars/server.md)
+      + [state](vars/page-vars/state.md)
       + [timestamp](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
@@ -93,7 +93,7 @@ ht-degree: 93%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Complementos {#plugins}
+   + Complementos  {#plugins}
       + [Información general de complementos](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
