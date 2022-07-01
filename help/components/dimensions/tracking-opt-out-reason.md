@@ -3,14 +3,16 @@ title: Motivo de exclusión de seguimiento
 description: Previsualiza qué datos se excluirían si habilitó Configuración de privacidad.
 feature: Dimensions
 exl-id: f0521f4f-b11e-4ce3-b0fe-60788be6b120
-source-git-commit: 4c896fe930b52e440f8b91725fa6451faaa76fc8
+source-git-commit: b7209b914695423099266f5c507eaa34c2b98bc5
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 7%
+source-wordcount: '262'
+ht-degree: 9%
 
 ---
 
 # Motivo de exclusión de seguimiento
+
+*Esta página hace referencia a la dimensión que permite ver el posible impacto en los datos si se habilita cierta configuración del grupo de informes. No está relacionado con el [Servicio de inclusión de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es).*
 
 La dimensión &quot;Motivo de exclusión de seguimiento&quot; actúa como una previsualización de los datos que se excluirían si habilitó la Configuración de privacidad. Esta dimensión se utiliza principalmente para determinar si la implementación se vería afectada negativamente si activó [Configuración de privacidad](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) en Configuración del grupo de informes.
 
