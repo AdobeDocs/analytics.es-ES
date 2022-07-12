@@ -3,10 +3,10 @@ title: IP y dominios utilizados por Adobe Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: e777313f5a46939ef5525205deaffc807f33a894
+source-git-commit: 6788b904295fd92642d27ade65a31d61897069a3
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 86%
+source-wordcount: '408'
+ht-degree: 85%
 
 ---
 
@@ -109,7 +109,6 @@ Si su organización prefiere permitir intervalos específicos de direcciones IP,
 | Virginia | `130.248.144.0/22` |
 | Virginia | `172.82.204.0/22` |
 | Virginia | `172.82.212.0/22` |
-| Virginia | Consulte los hosts de AWS |
 
 ## Hosts de AWS
 
@@ -117,32 +116,17 @@ Adobe Analytics utiliza los servicios web de Amazon como parte de su proceso de 
 
 | Ubicación | Host |
 | --- | --- |
-| Australia | `13.54.219.183` |
-| Australia | `52.62.137.88` |
-| Australia | `54.79.162.112` |
-| China | `52.81.111.133` |
-| China | `140.179.22.22` |
+| China | `140.179.89.228` |
+| China | `140.179.125.98` |
 | Francia | `13.36.218.177` |
 | Francia | `15.188.95.229` |
 | Francia | `15.236.176.210` |
-| India | `3.7.24.204` |
-| India | `3.108.50.194` |
-| India | `3.108.177.136` |
-| Irlanda | `54.220.133.225` |
 | Irlanda | `54.74.170.177` |
 | Irlanda | `54.195.254.128` |
-| Oregón | `54.212.155.93` |
+| Irlanda | `54.220.133.225` |
 | Oregón | `52.10.149.115` |
 | Oregón | `52.40.172.46` |
-| Singapur | `54.255.88.178` |
-| Singapur | `52.220.235.10` |
-| Singapur | `3.1.237.132` |
-| Tokio | `3.113.78.189` |
-| Tokio | `13.115.137.161` |
-| Tokio | `54.178.162.114` |
-| Virginia | `18.205.241.19` |
-| Virginia | `44.194.25.77` |
-| Virginia | `52.0.93.32` |
+| Oregón | `54.212.155.93` |
 | Virginia | `3.216.131.23` |
 | Virginia | `34.204.237.47` |
 | Virginia | `54.163.234.74` |
