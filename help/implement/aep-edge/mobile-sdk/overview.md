@@ -5,13 +5,13 @@ exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Implementar Adobe Analytics mediante el SDK móvil de Adobe Experience Platform
 
-El SDK móvil de Adobe Experience Platform ayuda a impulsar las soluciones y los servicios Experience Cloud de los Adobes en sus aplicaciones móviles. Está disponible para Android, iOS y varios marcos de desarrollo entre plataformas. La configuración se gestiona mediante la recopilación de datos de Adobe Experience Platform.
+El SDK móvil de Adobe Experience Platform ayuda a impulsar las soluciones y los servicios Experience Cloud de los Adobes en sus aplicaciones móviles. Está disponible para Android, iOS y varios marcos de desarrollo entre plataformas. La configuración se administra mediante la recopilación de datos de Adobe Experience Platform.
 
 Para enviar datos a Adobe Experience Edge mediante el SDK para móviles:
 
