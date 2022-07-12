@@ -4,10 +4,10 @@ description: Variables personalizadas que se relacionan con productos individual
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 2624a18896f99aadcfe0a04538ece21c370a28b9
+source-git-commit: 9a94e910d4e837bb9808b5662beebe6214ed4174
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 75%
+source-wordcount: '523'
+ht-degree: 72%
 
 ---
 
@@ -80,7 +80,7 @@ Estructura XDM:
 Parámetro &quot;products&quot; resultante pasado a Analytics:
 
 ```js
-pl = ;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large
+pl = ”;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large”
 ```
 
 ## Implementación y uso de la sintaxis de la variable de conversión
@@ -107,6 +107,8 @@ El valor `"Aviary"` de `eVar1` se asigna al producto `"Canary"`. Todos los event
 
 Puede especificar la misma información utilizando campos XDM asignados a campos de Analytics. Puede ver una lista de todas las asignaciones de XDM a parámetros de Analytics [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). La duplicación XDM del ejemplo anterior tendría el siguiente aspecto:
 
+Establezca el eVar en la misma llamada de evento o en la anterior:
+
 ```js
                   "_experience": {
                       "analytics": {
@@ -116,7 +118,12 @@ Puede especificar la misma información utilizando campos XDM asignados a campos
                               }
                           }
                       }
-                  },
+                  }
+```
+
+Establezca el evento de enlace y los valores para la cadena de productos:
+
+```js
                   "commerce": {
                       "productViews" : {
                           "value" : 1
