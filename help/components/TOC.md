@@ -7,7 +7,7 @@ user-guide-description: Ayude a administrar los datos mediante componentes como 
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 

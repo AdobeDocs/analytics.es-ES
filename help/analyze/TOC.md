@@ -5,7 +5,7 @@ user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como paneles de Adobe Analytics, Report Builder y Activity Map.
 source-git-commit: 6f0d92a85003537447821687bf5385b1690dc33f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ ht-degree: 100%
       + [Resumen de las visualizaciones](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Administración de fuentes de datos](analysis-workspace/visualizations/t-sync-visualization.md)
       + Tabla de forma libre {#freeform-table}
-         + [Tabla improvisada](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [Tabla de forma libre](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + Configuración de columna y fila {#column-row-settings}
             + [Configuración de columna](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Configuración de filas](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
