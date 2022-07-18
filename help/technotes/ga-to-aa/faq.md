@@ -4,9 +4,9 @@ description: Conozca las respuestas a las preguntas más frecuentes sobre el cam
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
 source-git-commit: 1192a6a1e14e43aa2b434ac0b2675c73d249214a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '399'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Cada plataforma de Analytics tiene diferentes formas de recopilar, gestionar y a
 
 Si su organización insiste en tener datos históricos transferidos a Adobe, póngase en contacto con el administrador de cuentas de su organización. Un consultor de implementación puede trabajar con su organización para traducir una exportación de datos de Google Analytics a una fuente de datos que los servidores de recopilación de datos de Adobe puedan ingerir.
 
-Para pasar sobre los datos históricos, recomendamos usar [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es) que pueden traer cualquier fuente de datos omnicanal.
+Para pasar sobre los datos históricos, recomendamos usar [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es) que puede traer cualquier fuente de datos omnicanal.
 
 **Estoy acostumbrado a un menú desplegable de segmentación en muchos de mis informes. ¿Cómo puedo recrear esta situación en [!UICONTROL Analysis Workspace]?**
 
@@ -31,4 +31,4 @@ Los usuarios que accedan a este proyecto de [!UICONTROL Workspace] pueden utiliz
 
 **Estoy acostumbrado a hacer clic en un elemento de dimensión para ver la navegación por jerarquía. ¿Cómo puedo replicar ese sencillo flujo de trabajo en Analysis Workspace?**
 
-Los valores de dimensión en [!UICONTROL Analysis Workspace] también tienen un flujo de trabajo de desglose sencillo. Puede acceder a él haciendo clic con el botón derecho en lugar de hacer clic con el botón izquierdo. Haga clic con el botón derecho en un elemento de dimensión, haga clic en **[!UICONTROL Desglose] y seleccione el componente deseado. Puede aplicar el mismo desglose a varios elementos de dimensión pulsando Ctrl+clic (Windows) o Cmd+clic (Mac) en cada valor.
+Los valores de dimensión en [!UICONTROL Analysis Workspace] también tienen un flujo de trabajo de desglose sencillo. Puede acceder a él haciendo clic con el botón derecho en lugar de hacer clic con el botón izquierdo. Haga clic con el botón derecho en un elemento de dimensión, haga clic en [!UICONTROL Desglose] y seleccione el componente deseado. Puede aplicar el mismo desglose a varios elementos de dimensión pulsando Ctrl+clic (Windows) o Cmd+clic (Mac) en cada valor.
