@@ -5,7 +5,7 @@ exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
 workflow-type: tm+mt
 source-wordcount: '1340'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ La tabla siguiente muestra las variables que Adobe Experience Platform Edge Netw
 | `environment.ipV4` | Se utiliza como método de identificación alternativo [visitante único](../../components/metrics/unique-visitors.md). Normalmente se rellena usando el encabezado HTTP `X-Forwarded-For`. |
 | `environment.language` | La configuración regional de la dimensión móvil. |
 | `environment.operatingSystem` | El [sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions) de la dimensión móvil. |
-| `environment.operatingSystemVersion` | Ayuda a establecer la variable [Versión del sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions) dimensión. |
+| `environment.operatingSystemVersion` | Ayuda a establecer la dimensión [Versión del sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Establece la dimensión respectiva [eVar](../../components/dimensions/evar.md). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | El delimitador utilizado para un [Prop de lista](../vars/page-vars/prop.md#list-props). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Una matriz de cadenas que contiene los valores respectivos [Prop de lista](../vars/page-vars/prop.md#list-props). |
@@ -108,8 +108,8 @@ La tabla siguiente muestra las variables que Adobe Experience Platform Edge Netw
 | `placeContext.geo.stateProvince` | La dimensión [Estados Unidos](../../components/dimensions/us-states.md). |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Aplica la comercialización de [sintaxis del producto](../vars/page-vars/products.md) a eVars. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Aplica la comercialización de [sintaxis del producto](../vars/page-vars/products.md) en eventos. |
-| `productListItems[].lineItemId` | La dimensión [Categoría. ](../../components/dimensions/category.md) Consulte también la variable de página [productos](../vars/page-vars/products.md). |
-| `productListItems[].name` | La dimensión [Producto. ](../../components/dimensions/product.md) Consulte también la variable de página [productos](../vars/page-vars/products.md). |
+| `productListItems[].lineItemId` | La dimensión [Categoría](../../components/dimensions/category.md). Consulte también la variable de página [productos](../vars/page-vars/products.md). |
+| `productListItems[].name` | La dimensión [Producto](../../components/dimensions/product.md). Consulte también la variable de página [productos](../vars/page-vars/products.md). |
 | `productListItems[].priceTotal` | Ayuda a determinar la métrica [Ingresos](../../components/metrics/revenue.md). Consulte también la variable de página [productos](../vars/page-vars/products.md). |
 | `productListItems[].quantity` | Ayuda a determinar la métrica [Unidades](../../components/metrics/units.md). Consulte también la variable de página [productos](../vars/page-vars/products.md). |
 | `web.webInteraction.URL` | La variable de implementación [linkURL](../vars/config-vars/linkurl.md). |
