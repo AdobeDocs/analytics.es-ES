@@ -4,10 +4,10 @@ keywords: Fuente de datos, trabajo, columna previa, columna posterior, distinci�
 title: Preguntas frecuentes sobre las fuentes de datos
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: ef228e7d7ba41e934fe7a74db15ce112be2c13d8
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 98%
+source-wordcount: '1437'
+ht-degree: 94%
 
 ---
 
@@ -97,4 +97,5 @@ Sin embargo, los objetos no heredan permisos del contenedor principal. Por tanto
 
 >[!NOTE]
 >
->[!DNL Analytics] no determina si el contenedor tiene una política que requiera dar al propietario del contenedor total control de nuevos objetos, o incluso si el propietario del contenedor está en una cuenta diferente a la del usuario que escribe los datos. En su lugar, [!DNL Analytics] agrega automáticamente el propietario del contenedor a la ACL BucketOwnerFullControl con cada carga de fuente.
+>Adobe Analytics no determina si el compartimento tiene una directiva que requiera dar al propietario del compartimento control total de nuevos objetos, o incluso si el propietario del compartimento está en una cuenta diferente a la del usuario que escribe los datos. En su lugar, Analytics agrega automáticamente el propietario del bloque al `BucketOwnerFullControl` ACL con cada carga de fuente.
+
