@@ -4,10 +4,10 @@ description: Actualizaciones importantes en el conjunto de la documentación de 
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 1c56c03a46d5a037faac109dcda536516fbd3532
+source-git-commit: 7738b3c899f9d51f9f5847c3d4bef00408f94669
 workflow-type: tm+mt
-source-wordcount: '3420'
-ht-degree: 100%
+source-wordcount: '3448'
+ht-degree: 99%
 
 ---
 
@@ -24,6 +24,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Fecha | Descripción |
 | --- | --- |
 | **Junio de 2022** |  |
+| Variables de comercialización en XDM para la recopilación de Edge | Documentación sobre [compatibilidad con variables de comercialización en XDM para Edge Collection](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en) |
 | Documentación de Experience Platform Edge | Nuevos artículos sobre la implementación de Adobe Analytics mediante [SDK web](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=es), [SDK móvil](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=es) y [API de Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=es). |
 | Documentación de visualización de flujo actualizada | En función de la [nueva interfaz de usuario](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=es) |
 | Documentación sobre el uso compartido de anotaciones en informes de valoración móviles | Puede mostrar [anotaciones creadas en Workspace: en informes de valoración móviles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=es). |
