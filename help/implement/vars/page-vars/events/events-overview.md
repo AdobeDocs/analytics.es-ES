@@ -3,9 +3,9 @@ title: events
 description: Configure la variable “events” (eventos), que gobierna la mayoría de las métricas del sitio.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '788'
 ht-degree: 84%
 
 ---
@@ -23,6 +23,8 @@ Los eventos personalizados son [asignado para Adobe Analytics](https://experienc
 * Los eventos personalizados 1-100 están asignados a `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * Los eventos personalizados 101-200 están asignados a `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
 * Este patrón repite cada 100 eventos a `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
+* `eventx.value` para especificar el valor.
+* `eventx.id` se utiliza para especificar el id de serialización.
 * Los pedidos están asignados a `commerce.purchases.value`.
 * Las unidades se asignan a la suma de todas `productListItems[].quantity` campos.
 * Los ingresos se asignan a la suma de todos los `productListItems[].priceTotal` campos.

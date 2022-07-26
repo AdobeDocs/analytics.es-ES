@@ -3,10 +3,10 @@ title: getPageLoadTime
 description: Rastree el tiempo que tarda una página en cargarse.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 92%
+source-wordcount: '372'
+ht-degree: 96%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 92%
 
 El complemento `getPageLoadTime` utiliza el objeto de rendimiento JavaScript para permitirle medir el tiempo que tarda una página en cargarse por completo. Adobe recomienda utilizar este complemento si desea medir cuánto tardan las páginas en cargarse.
 
-## Instalación del complemento utilizando el SDK web o la extensión Adobe Analytics
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
-1. Haga clic en la propiedad de etiquetas deseada.
-1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
-1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
-1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
-   * Condición: Ninguna
-   * Evento: Core – Biblioteca cargada (Principio de página)
-1. Añada una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Common Analytics Plugins
-   * Tipo de acción: Inicializar getPageLoadTime
-1. Guarde y publique los cambios en la regla.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getPageLoadTime
+1. Save and publish the changes to the rule.-->
 
 ## Instalación del complemento con el editor de código personalizado de 
 

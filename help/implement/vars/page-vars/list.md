@@ -3,10 +3,10 @@ title: list
 description: Variables personalizadas que contienen varios valores en la misma visita.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 85%
+source-wordcount: '368'
+ht-degree: 91%
 
 ---
 
@@ -23,10 +23,6 @@ Asegúrese de registrar la forma en que utiliza cada variable de lista y su lóg
 ## Configure variables de lista en la configuración del grupo de informes
 
 Asegúrese de configurar cada variable de lista en la configuración del grupo de informes antes de usarla en la implementación. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/list-var-admin.md) en la guía de administración.
-
-## Enumerar variables mediante el SDK web
-
-Las variables de lista son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) en los campos XDM `_experience.analytics.customDimensions.lists.list1` a `_experience.analytics.customDimensions.lists.list3`.
 
 ## Enumerar variables mediante la extensión de Adobe Analytics
 
