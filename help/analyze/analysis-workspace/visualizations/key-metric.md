@@ -3,9 +3,9 @@ description: Utilice la visualización de resumen de métricas clave para compar
 title: Resumen de métricas clave
 feature: Visualizations
 role: User, Admin
-source-git-commit: a126f51c82cf7b23f4e03134c2d870d216dadc47
+source-git-commit: 73de5dca8584d8d04b57a0d50dffcb57cfeefb08
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '605'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 >
 >Actualmente, esta funcionalidad está en [prueba limitada](/help/release-notes/releases.md).
 
-La visualización Resumen de métricas clave le permite ver las tendencias de una métrica importante dentro de un único intervalo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo. Proporciona las ventajas de varias visualizaciones combinadas en una sola visualización:
+La variable [!UICONTROL Resumen de métricas clave] la visualización le permite ver las tendencias de una métrica importante dentro de un solo intervalo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo. Proporciona las ventajas de varias visualizaciones combinadas en una sola visualización:
 
 * **[!UICONTROL Línea]** visualizaciones que muestran la tendencia de la métrica para los intervalos de fechas principales y de comparación
 
@@ -62,7 +62,7 @@ Tenga en cuenta:
 
 * La variable **[!UICONTROL Período anterior]** el gráfico de líneas (siempre mostrado en gris) corresponde a la variable **[!UICONTROL Intervalo de fechas de comparación]** en el paso de configuración.
 
-* Si no se selecciona un intervalo de fechas de comparación durante la configuración o está oculto en la configuración de visualización (más en la configuración siguiente), solo se muestra el gráfico de líneas del intervalo de fechas principal. El cambio de resumen estará oculto.
+* Si no se especifica un intervalo de fechas de comparación durante la configuración o está oculto en la configuración de visualización, solo se muestra el gráfico de líneas del intervalo de fechas principal. El cambio de resumen estará oculto.
 
 * Desde aquí, puede pasar el ratón por encima de los gráficos de líneas para ver las estadísticas de los días individuales:
 
@@ -76,16 +76,16 @@ El resumen de métricas clave ofrece varias configuraciones flexibles para permi
 
 | Configuración | Descripción |
 | --- | --- |
-| Resaltar cambio porcentual | Mostrar el cambio de resumen en negrita destacado en el centro de la visualización |
-| Valor numérico de énfasis | Mostrar el número de resumen en negrita destacado en el centro de la visualización |
-| Leyenda visible | Mostrar u ocultar la leyenda en la parte inferior de la visualización |
-| Mostrar anotaciones | Mostrar u ocultar anotaciones agregadas por un administrador |
-| Mostrar minigráficos | Mostrar u ocultar gráficos de líneas en la parte inferior del gráfico. Cuando esté oculta, la leyenda cambiará para no hacer referencia visual a las líneas |
-| Mostrar mínimo y máximo en minigráficos | Mostrar u ocultar valores mínimos y máximos en gráficos de líneas principales y de comparación |
-| Mostrar comparación | Mostrar u ocultar datos de comparación. Cuando está oculto, el gráfico de líneas de comparación y los objetos de cambio de resumen quedan ocultos. |
-| Mostrar número total | Mostrar u ocultar número de resumen |
-| Mostrar diferencia sin procesar | Mostrar u ocultar la diferencia sin procesar entre el valor total de la métrica en el intervalo de fechas principal y el intervalo de fechas secundario |
-| Valor abreviado | Abreviar los valores numéricos para simplificar las perspectivas comunicadas (por ejemplo, 20 000 -> 20 000) |
+| **[!UICONTROL Resaltar cambio porcentual]** | Mostrar el cambio de resumen en negrita destacado en el centro de la visualización |
+| **[!UICONTROL Valor numérico de énfasis]** | Mostrar el número de resumen en negrita destacado en el centro de la visualización |
+| **[!UICONTROL Leyenda visible]** | Mostrar u ocultar la leyenda en la parte inferior de la visualización |
+| **[!UICONTROL Mostrar anotaciones]** | Mostrar u ocultar anotaciones agregadas por un administrador |
+| **[!UICONTROL Mostrar minigráficos]** | Mostrar u ocultar gráficos de líneas en la parte inferior del gráfico. Cuando esté oculta, la leyenda cambiará para no hacer referencia visual a las líneas |
+| **[!UICONTROL Mostrar mínimo y máximo en minigráficos]** | Mostrar u ocultar valores mínimos y máximos en gráficos de líneas principales y de comparación |
+| **[!UICONTROL Mostrar comparación]** | Mostrar u ocultar datos de comparación. Cuando está oculto, el gráfico de líneas de comparación y los objetos de cambio de resumen quedan ocultos. |
+| **[!UICONTROL Mostrar número total]** | Mostrar u ocultar número de resumen |
+| **[!UICONTROL Mostrar diferencia sin procesar]** | Mostrar u ocultar la diferencia sin procesar entre el valor total de la métrica en el intervalo de fechas principal y el intervalo de fechas secundario |
+| **[!UICONTROL Valor abreviado]** | Abreviar los valores numéricos para simplificar las perspectivas comunicadas (por ejemplo, 20 000 -> 20 000) |
 
 ## Editar visualización
 
