@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como paneles de Adobe Analytics, Report Builder y Activity Map.
-source-git-commit: 6f0d92a85003537447821687bf5385b1690dc33f
+source-git-commit: eb45e267835fcf91010dd87deb13707082dbf736
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1051'
 ht-degree: 100%
 
 ---
@@ -65,8 +65,8 @@ ht-degree: 100%
          + [Configurar un informe de análisis de cohorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Casos de uso de análisis de cohorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Abandono {#fallout}
-         + [Resumen de abandonos](analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [Configurar una visualización de abandonos](analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [Resumen de visita en orden previsto](analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [Configurar una visualización de visita en orden previsto](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Visita en orden previsto multidimensional](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Aplicación de segmentos en el análisis de abandonos](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flujo {#flow}
@@ -74,6 +74,7 @@ ht-degree: 100%
          + [Configuración de una visualización de flujo](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Flujos interdimensionales](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histograma](analysis-workspace/visualizations/histogram.md)
+      + [Resumen de métricas clave](analysis-workspace/visualizations/key-metric.md)
       + [Mapa](analysis-workspace/visualizations/map-visualization.md)
       + [Venn](analysis-workspace/visualizations/venn.md)
       + [Área y área apilada](analysis-workspace/visualizations/area.md)
