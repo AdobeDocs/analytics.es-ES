@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como paneles de Adobe Analytics, Report Builder y Activity Map.
-source-git-commit: eb45e267835fcf91010dd87deb13707082dbf736
+source-git-commit: 04a314e93a77ecf5687e771e143bf68ba911b32b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1053'
 ht-degree: 100%
 
 ---
@@ -73,20 +73,21 @@ ht-degree: 100%
          + [Resumen de flujos](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configuración de una visualización de flujo](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Flujos interdimensionales](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [Histograma](analysis-workspace/visualizations/histogram.md)
-      + [Resumen de métricas clave](analysis-workspace/visualizations/key-metric.md)
-      + [Mapa](analysis-workspace/visualizations/map-visualization.md)
-      + [Venn](analysis-workspace/visualizations/venn.md)
       + [Área y área apilada](analysis-workspace/visualizations/area.md)
       + [Barra y barra apilada](analysis-workspace/visualizations/bar.md)
       + [Gráfico de viñetas](analysis-workspace/visualizations/bullet-graph.md)
+      + [Gráfico combinado](analysis-workspace/visualizations/combo-charts.md)
       + [Anillo](analysis-workspace/visualizations/donut.md)
+      + [Histograma](analysis-workspace/visualizations/histogram.md)
       + [Barras horizontales y barras horizontales apiladas](analysis-workspace/visualizations/horizontal-bar.md)
-      + [Líneas](analysis-workspace/visualizations/line.md)
+      + [Resumen de métricas clave](analysis-workspace/visualizations/key-metric.md)
+      + [Línea](analysis-workspace/visualizations/line.md)
+      + [Mapa](analysis-workspace/visualizations/map-visualization.md)
       + [Diagrama de dispersión](analysis-workspace/visualizations/scatterplot.md)
       + [Número de resumen y cambio de resumen](analysis-workspace/visualizations/summary-number-change.md)
       + [Texto](analysis-workspace/visualizations/text.md)
       + [Mapa de árbol](analysis-workspace/visualizations/treemap.md)
+      + [Venn](analysis-workspace/visualizations/venn.md)
    + Paneles {#panels}
       + [Resumen de paneles](analysis-workspace/c-panels/panels.md)
       + [Panel de Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
