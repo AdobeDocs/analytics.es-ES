@@ -3,13 +3,13 @@ description: Permite visualizar fácilmente datos de comparación en Analysis Wo
 title: Visualización de gráficos combinados
 feature: Visualizations
 role: User, Admin
-source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
+exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
+source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 34%
 
 ---
-
 
 # Gráfico combinado
 
@@ -47,8 +47,8 @@ Tenga en cuenta que puede
    | Tipo de comparación de líneas | Definición |
    | --- | --- |
    | **[!UICONTROL Comparación del tiempo]** | El tipo de comparación más común: comparar este período de tiempo con hace 4 semanas, por ejemplo. Si ha seleccionado [!UICONTROL Comparación horaria], realice una selección secundaria de qué periodo de tiempo desea comparar.<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL Métrica adicional]** | Por ejemplo, podría comparar [!UICONTROL Ingresos] a otra métrica.<p>![](assets/combo-2metrics.png) |
    | **[!UICONTROL Función]** | Puede introducir una función como [!UICONTROL Promedio] en la comparación. Consulte la lista de funciones admitidas a continuación.<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL Métrica secundaria]** | Por ejemplo, podría comparar [!UICONTROL Ingresos] a otra métrica.<p>![](assets/combo-2metrics.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -107,5 +107,3 @@ Haga clic en el icono de engranaje en la parte superior derecha de un gráfico c
 | **[!UICONTROL Eje Y delimitador a cero]** | Si todos los valores marcados en el gráfico están considerablemente por encima de cero, el gráfico mostrará el valor base del eje Y distinto a cero. Si marca esta casilla, el eje Y se forzará a ser cero (y se redibujará el gráfico). |
 
 {style=&quot;table-layout:auto&quot;}
-
-
