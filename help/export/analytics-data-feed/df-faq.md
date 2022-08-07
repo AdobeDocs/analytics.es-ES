@@ -5,9 +5,9 @@ title: Preguntas frecuentes sobre las fuentes de datos
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1437'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 94%
 
 Preguntas frecuentes sobre las fuentes de datos.
 
-## ¿Deben ser únicos los nombres de las fuentes?{#unique}
+## ¿Deben ser únicos los nombres de las fuentes? {#unique}
 
-Los nombres de los archivos de fuente de datos se componen del ID del grupo de informes y de la fecha. Si dos fuentes están configuradas para el mismo ID de grupo de informes y la misma fecha, tendrán el mismo nombre de archivo. Si esas fuentes se entregan en la misma ubicación, los archivos se sobrescribirán entre sí. Para impedirlo, evite crear fuentes que puedan sobrescribir otra que ya exista en la misma ubicación.
+Los nombres de los archivos de fuente de datos se componen del ID del grupo de informes y de la fecha. Si dos fuentes están configuradas para el mismo RSID y la misma fecha, tendrán el mismo nombre de archivo. Si esas fuentes se entregan en la misma ubicación, los archivos se sobrescribirán entre sí. Para impedirlo, evite crear fuentes que puedan sobrescribir otras que ya existan en la misma ubicación.
 
-Cuando se intenta crear una fuente cuando existe otra con el mismo nombre de archivo, se genera un mensaje de error. Consideremos las siguientes soluciones alternativas:
+Cuando intente crear una fuente con el mismo nombre de archivo que otra, recibirá un mensaje de error. Considere las siguientes soluciones:
 
 * Cambiar la ruta de entrega
 * Cambiar las fechas si es posible
@@ -97,5 +97,5 @@ Sin embargo, los objetos no heredan permisos del contenedor principal. Por tanto
 
 >[!NOTE]
 >
->Adobe Analytics no determina si el compartimento tiene una directiva que requiera dar al propietario del compartimento control total de nuevos objetos, o incluso si el propietario del compartimento está en una cuenta diferente a la del usuario que escribe los datos. En su lugar, Analytics agrega automáticamente el propietario del bloque al `BucketOwnerFullControl` ACL con cada carga de fuente.
+>Adobe Analytics no determina si el contenedor tiene una política que requiera dar al propietario del contenedor total control de nuevos objetos, o incluso si el propietario del contenedor está en una cuenta diferente a la del usuario que escribe los datos. En su lugar, Analytics agrega automáticamente el propietario del contenedor a la ACL de `BucketOwnerFullControl` con cada carga de fuente.
 
