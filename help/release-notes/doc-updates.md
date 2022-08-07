@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 7738b3c899f9d51f9f5847c3d4bef00408f94669
 workflow-type: tm+mt
 source-wordcount: '3448'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Fecha | Descripción |
 | --- | --- |
 | **Junio de 2022** |  |
-| Variables de comercialización en XDM para la recopilación de Edge | Documentación sobre [compatibilidad con variables de comercialización en XDM para Edge Collection](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=es) |
+| Variables de comercialización en XDM para la recopilación de Edge | Documentación sobre [Compatibilidad con variables de comercialización en XDM para la recopilación de Edge](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=es) |
 | Documentación de Experience Platform Edge | Nuevos artículos sobre la implementación de Adobe Analytics mediante [SDK web](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=es), [SDK móvil](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=es) y [API de Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=es). |
 | Documentación de visualización de flujo actualizada | En función de la [nueva interfaz de usuario](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=es) |
-| Documentación sobre el uso compartido de anotaciones en informes de valoración móviles | Puede mostrar [anotaciones creadas en Workspace: en informes de valoración móviles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=es). |
+| Documentación sobre el uso compartido de anotaciones en informes de valoración móviles | Puede mostrar [anotaciones creadas en Analysis Workspace: en informes de valoración móviles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=es). |
 | Documentación sobre la versión de sintaxis del producto de las variables de comercialización con la colección Edge | Ahora puede establecer variables de comercialización utilizando el equivalente de la sintaxis del producto estableciendo los campos XDM relevantes. Obtenga más información sobre la sintaxis del producto para las variables de comercialización [aquí](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=es). Consulte las asignaciones para la sintaxis del producto [aquí](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es#aep-edge). |
 | **Mayo de 2022** |  |
-| Rellenado de dimensiones y métricas de Ciclo vital mediante Experience Edge | Los datos del Ciclo de vida móvil enviados mediante Experience Edge ahora aparecerán en los informes de Analytics. Consulte la documentación para obtener detalles sobre qué campos XDM se asignan a los informes de ciclo de vida móviles existentes. [Más información](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) |
+| Rellenado de dimensiones y métricas de Ciclo vital mediante Experience Edge | Los datos del Ciclo de vida móvil enviados mediante Experience Edge ahora aparecerán en los informes de Analytics. Consulte la documentación para obtener detalles sobre qué campos XDM se asignan a los informes de ciclo de vida móviles existentes. [Más información](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) |
 | **Abril de 2022** |  |
 | Actualizaciones de la página de aterrizaje de Adobe Analytics | Actualizaciones de la [página de aterrizaje conjunta de Analysis Workspace/Reports &amp; Analytics](/help/analyze/landing.md) que mejora la facilidad de uso y navegación. |
 | Tema nuevo en el panel [!UICONTROL Resumen de página] | [Panel Resumen de página](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
