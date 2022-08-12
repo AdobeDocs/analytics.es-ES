@@ -3,16 +3,16 @@ title: 'Actualización de servicios SFTP: preguntas frecuentes'
 description: Preguntas frecuentes sobre la actualización de los servicios SFTP prevista para mayo de 2022.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: 43869c683ca30c94157c6822b53f02a917f6e3ff
+source-git-commit: 970c3d9d4e5c8e2779a99c287f6aedcbe02fbb7c
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 91%
+source-wordcount: '439'
+ht-degree: 92%
 
 ---
 
 # Actualización de servicios SFTP: preguntas frecuentes
 
-En el verano de 2022, Adobe Analytics actualizará su Protocolo seguro de transferencia de archivos [SFTP] para proporcionar una seguridad mejorada para las transferencias de archivos. Con este cambio, algunas configuraciones de cliente SFTP ya no serán compatibles. Esto solo afecta a los datos enviados o recuperados de Adobe Analytics mediante SFTP. El protocolo FTP no se verá afectado. Para evitar interrupciones en el servicio, asegúrese de que sus clientes SFTP (código, herramientas y servicios) se ajusten a los cambios detallados a continuación.
+Activado **7 de septiembre de 2022**, Adobe Analytics actualizará su Protocolo seguro de transferencia de archivos [SFTP] para proporcionar una seguridad mejorada para las transferencias de archivos. Con este cambio, algunas configuraciones de cliente SFTP ya no serán compatibles. Esto solo afecta a los datos enviados o recuperados de Adobe Analytics mediante SFTP. El protocolo FTP no se verá afectado. Para evitar interrupciones en el servicio, asegúrese de que sus clientes SFTP (código, herramientas y servicios) se ajusten a los cambios detallados a continuación.
 
 ## ¿Cómo puedo determinar qué algoritmos, tipos de conexión y protocolos utiliza mi organización actualmente?
 
