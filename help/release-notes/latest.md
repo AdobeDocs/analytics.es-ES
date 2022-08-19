@@ -3,16 +3,16 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 903139cdc11770f035ca36911c0d5dbf778c62be
+source-git-commit: 21b8e21a0f5488e4e8702d5e7538360add1cd621
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 87%
+source-wordcount: '1264'
+ht-degree: 70%
 
 ---
 
 # Notas de la versión actual de Adobe Analytics (agosto de 2022)
 
-**Última actualización**: 12 de agosto de 2022
+**Última actualización**: 19 de agosto de 2022
 
 ## Recursos relacionados
 
@@ -25,7 +25,8 @@ ht-degree: 87%
 
 | Función | Descripción | [Fecha objetivo](releases.md) |
 | ----------- | ---------- | ------- |
-| No hay nuevas funciones este mes |  |  |
+| Compatibilidad con variables de lista en XDM para la colección Edge | Permite a los clientes que recopilan datos mediante el SDK web/perimetral de Experience utilizar XDM para especificar el contenido de la variable de lista.  [Más información](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en#list-variables-using-the-web-sdk) | 18 de agosto de 2022 |
+| Uso del campo SKU en XDM para la colección perimetral al configurar variables de cadena de producto | Permite a los clientes que recopilan datos a través del SDK web/perimetral de Experience Cloud utilizar el valor SKU para establecer el campo de producto en la variable products.  [Más información](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=en#products-using-the-web-sdk) | 18 de agosto de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -41,6 +42,7 @@ AN-274281; AN-280956; AN-285670; AN-288176; AN-289221; AN-289665; AN-289768; AN-
 
 | Aviso | Fecha de incorporación o actualizada | Descripción |
 | ----------- | ---------- | ---------- |
+| **Actualización de las búsquedas de dispositivos debido a las sugerencias del cliente de Google** | 19 de agosto de 2022 | A partir de octubre de 2022, el Adobe empezará a utilizar sugerencias del cliente, además del agente de usuario, al obtener determinada información del dispositivo para las visitas procedentes de exploradores Chromium, como Google Chrome y Microsoft Edge. Esto es en respuesta al plan de Google de reducir gradualmente la información presentada desde la cadena del agente de usuario en lugar de los datos pasados a través de sugerencias del cliente. Más información sobre sugerencias del cliente [here](https://web.dev/user-agent-client-hints/).<p> Para octubre, las bibliotecas de recopilación AppMeasurement y SDK web admitirán la recopilación de sugerencias de cliente y la configuración de si se recopilan sugerencias de cliente de alta entropía. Como parte de este cambio, Adobe utilizará Device Atlas para todas las búsquedas de dispositivos relacionadas con el agente de usuario. Actualmente, Device Atlas solo se utiliza para visitas con dispositivos móviles. Estas actualizaciones pueden provocar pequeños cambios en la información del dispositivo derivada históricamente del agente de usuario, específicamente del explorador, el tipo de explorador, el sistema operativo, el tipo de sistema operativo y el dispositivo móvil. |
 | **Actualización de SFTP** | 12 de agosto de 2022 | Anteriormente, habíamos comunicado que Adobe actualizaría sus servicios de Protocolo seguro de transferencia de archivos (SFTP) en mayo de 2022 para proporcionar una seguridad mejorada para la transferencia de archivos. Hemos pospuesto esta actualización a **7 de septiembre de 2022**. Cuando se realice este cambio, ya no se admitirán determinadas configuraciones del cliente SFTP. Esto solo afecta a los datos enviados o recuperados de Adobe Analytics mediante SFTP. El protocolo FTP no se ve afectado. Para evitar interrupciones en el servicio, asegúrese de que sus clientes SFTP (código, herramientas y servicios) estén de acuerdo con los cambios detallados [aquí](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=es). |
 | **Actualización de la nueva base de datos de portadores de NetAcuity** | 11 de julio de 2022 | **A partir de octubre de 2022**, información relacionada con el operador de telefonía almacenada en la variable `carrier` en Data Warehouse de Adobe Analytics y las fuentes de datos de Analytics cambiarán. Históricamente, el formato de datos de esa columna se ha `<domain>:<ISP>`. Adobe ha mantenido una tabla de búsqueda interna para asignarlas `<domain>:<ISP>` en nombres de operadores para la creación de informes en herramientas de informes de Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, API de informes, Data Warehouse, LiveStream, etc.). El archivo de búsqueda (`carrier.tsv`) también se proporciona con Fuentes de datos para que pueda usar las mismas asignaciones.<p>Esta actualización del estado mejora nuestras asignaciones de operadores mediante el uso de una base de datos de operadores más precisa de NetAcuity. El formato de los datos de la columna de portador de las fuentes de datos cambiará en adelante. En lugar de `<domain>:<ISP>`, contendrá un nombre de operador. Adobe seguirá utilizando la tabla de búsqueda para mantener la mayor continuidad posible con los informes anteriores. Herramientas de creación de informes donde Adobe aplica las búsquedas (Analysis Workspace, Reports &amp; Analytics, API de informes, Data Warehouse, LiveStream, etc.) se beneficiarán de asignaciones más precisas. Algunas asignaciones, especialmente para dominios internacionales e ISP, cambiarán más que otras cuando adoptemos la nueva base de datos. El archivo de búsqueda del operador de telefonía de fuentes de datos (`carrier.tsv`) mantendrá las asignaciones antiguas y agregará las nuevas asignaciones.<p>El conector de origen de Analytics no asigna actualmente el campo de operador, por lo que los informes de operador no están disponibles actualmente en AEP, CJA, etc. Por lo tanto, el uso de la nueva base de datos de operadores no afectará a nada en AEP que se base en los datos proporcionados por el Conector de origen de Analytics. |
 | **Asignación de IP a geolocalización mejorada** | 11 de julio de 2022 | Nuestro proveedor de búsquedas de IP, Digital Element, está actualizando a un nuevo conjunto de datos mejorado (NetAcuity Pulse) para la asignación de IP a geolocalización. Adobe Analytics adoptará este nuevo conjunto de datos en el periodo de tiempo de **octubre de 2022**. La nueva base de datos será más precisa que las versiones anteriores. Algunas asignaciones de IP a regiones cambiarán o mejorarán cuando se adopte la nueva base de datos.<p>Todas las herramientas de Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, API de informes, Data Warehouse, LiveStream, fuentes de datos, etc.) aprovechará automáticamente las nuevas asignaciones mejoradas. No habrá cambios en el formato de los datos en las fuentes de datos. Los datos de CJA proporcionados a través del conector de origen de Analytics también aprovecharán automáticamente las nuevas asignaciones. |
