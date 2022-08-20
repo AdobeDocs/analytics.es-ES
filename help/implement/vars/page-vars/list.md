@@ -3,10 +3,10 @@ title: list
 description: Variables personalizadas que contienen varios valores en la misma visita.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 62%
+source-wordcount: '547'
+ht-degree: 59%
 
 ---
 
@@ -57,6 +57,10 @@ Las variables de lista son [asignado para Adobe Analytics](https://experiencelea
     }
 }
 ```
+
+>[!NOTE]
+>
+>El esquema XDM de Adobe contiene `key` objetos, además de `value` objetos de cada `list[]` matriz. El Adobe no utiliza estos `key` objetos al enviar datos a Adobe Analytics.
 
 Si su organización requiere un delimitador diferente que una coma (&quot;`,`&#39;), puede pasar toda la cadena de lista, incluidos los delimitadores deseados, a un campo XDM personalizado. Asegúrese de que la variable de lista esté configurada para aceptar el delimitador deseado en [Configuración del grupo de informes](/help/admin/admin/conversion-var-admin/list-var-admin.md).
 
