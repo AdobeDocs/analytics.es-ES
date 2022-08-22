@@ -3,20 +3,16 @@ title: Creación de una capa de datos
 description: Descubra qué es una capa de datos en su implementación de Analytics y cómo se puede utilizar para asignar variables en Adobe Analytics.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 92%
+source-wordcount: '514'
+ht-degree: 63%
 
 ---
 
 # Creación de una capa de datos
 
-Una capa de datos es un marco de objetos de JavaScript del sitio que contiene todos los valores de variables utilizados en la implementación. Permite un mayor control y un mantenimiento más sencillo en la implementación.
-
-Aquí tiene un vídeo sobre el uso de las capas de datos:
-
->[!VIDEO](https://video.tv.adobe.com/v/28775/?quality=12)
+Una capa de datos es un marco de objetos JavaScript del sitio que contienen los valores de variables que se utilizan en la implementación de Analytics. Permite un bueno control y un mantenimiento más sencillo al asignar valores a variables de Analytics.
 
 ## Requisitos previos
 
@@ -31,145 +27,18 @@ La implementación de Adobe Analytics mediante una capa de datos suele seguir es
    >[!NOTE]
    >
    >Seguir las especificaciones de capa de datos recomendadas por Adobe es opcional. Si ya dispone de una capa de datos o decide no seguir las especificaciones de Adobe, asegúrese de que su organización se ajuste a las siguientes especificaciones.
-1. **Valide la capa de datos con una consola de explorador**: Una vez creada una capa de datos, puede validar que funcione con cualquier consola de desarrollador del explorador. Puede abrir la consola de desarrollador en la mayoría de los exploradores con la clave `F12`. Un valor de variable de ejemplo sería `digitalData.page.pageInfo.pageID`.
-1. **Uso de la recopilación de datos de Adobe Experience Platform para asignar objetos de capa de datos a elementos de datos**: Cree elementos de datos en la recopilación de datos de Adobe Experience Platform y asígnelos a los atributos de JavaScript descritos en la capa de datos.
-1. **Utilice la extensión de etiquetas de Adobe Analytics para asignar elementos de datos a variables de Analytics**: De acuerdo con el documento de diseño de la solución, asigne cada elemento de datos a la variable de Analytics correspondiente.
+1. **Valide la capa de datos con una consola de explorador**: Una vez creada una capa de datos, puede validar que funcione con cualquier consola de desarrollador del explorador. Puede abrir la consola de desarrollador en la mayoría de los exploradores con la clave `F12`. Un valor de variable de ejemplo sería `adobeDataLayer.page.title`.
+1. **Uso de la recopilación de datos de Adobe Experience Platform para asignar objetos de capa de datos a elementos de datos**: Este paso varía en función del método de implementación de su organización:
+   * **Si se utiliza el SDK web**: Asigne los objetos de capa de datos deseados a los campos XDM deseados en Adobe Experience Platform Edge. Consulte [Asignación de variables de Analytics](../aep-edge/variable-mapping.md) para determinar la asignación de capa de datos que desee.
+   * **Si se utiliza la extensión de Analytics**: Cree elementos de datos en Etiquetas en la recopilación de datos de Adobe Experience Platform y asígnelos a los objetos de capa de datos que desee. A continuación, dentro de la extensión de Analytics, asigne cada elemento de datos a la variable de Analytics correspondiente.
 
 ## Especificaciones
 
-Adobe recomienda seguir la [capa de datos digitales de la experiencia del cliente](https://www.w3.org/2013/12/ceddl-201312.pdf) descrita por el [grupo de la comunidad de datos digitales de la experiencia del cliente](https://www.w3.org/community/custexpdata/). Utilice las siguientes secciones para comprender cómo interactúan los elementos de la capa de datos con Adobe Analytics.
+Adobe recomienda usar la variable [Capa de datos del cliente de Adobe](https://github.com/adobe/adobe-client-data-layer/wiki) para implementaciones nuevas o reestructuradas.
 
-El objeto de capa de datos que se recomienda usar es `digitalData`. En el ejemplo siguiente se muestra un objeto JSON de capa de datos bastante completo con valores de ejemplo:
+Su organización puede utilizar otras especificaciones de capa de datos, como el [Capa de datos digital de la experiencia del cliente](https://www.w3.org/2013/12/ceddl-201312.pdf), u otra capa de datos personalizada por completo. Lo más importante es alinear con una capa de datos coherente que satisfaga las necesidades de su organización.
 
-```js
-digitalData = {
-    pageInstanceID: "Example page - production",
-    page: {
-        pageInfo: {
-            pageID: "5093",
-            pageName: "Example page",
-            destinationURL: "https://example.com/index.html",
-            referringURL: "https://example.com/referrer.html",
-            sysEnv: "desktop",
-            variant: "2",
-            version: "1.14",
-            breadCrumbs: ["Home","Example group","Example page"],
-            author: "J Smith",
-            issueDate: "Example date",
-            effectiveDate: "Example date",
-            expiryData: "Example date",
-            language: "en-US",
-            geoRegion: "US",
-            industryCodes: "Example industry codes",
-            publisher: "Example publisher"
-        },
-        category: {
-            primaryCategory: "Example page category",
-            subCategory: "Sub-category example"
-        },
-        attributes: {
-            country: "US",
-            language: "en-US"
-        }
-    },
-    product: [{
-        productInfo: {
-            productID: "4859",
-            productName: "Example product",
-            description: "Example description",
-            productURL: "https://example.com/product.html",
-            productImage: "https://example.com/product_image.png",
-            productThumbnail: "https://example.com/product_thumbnail.png",
-            manufacturer: "Example manufacturer",
-            quantity: 1,
-            size: "Product size"
-        },
-        category: {
-            primaryCategory: "Example product category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    cart: {
-        cartID: "934856",
-        price: {
-            basePrice: 200.00,
-            voucherCode: "EXAMPLEVOUCHER1",
-            voucherDiscount: 0.50,
-            currency: "USD",
-            taxRate: 0.20,
-            shipping: 5.00,
-            shippingMethod: "UPS",
-            priceWithTax: 120,
-            cartTotal: 125
-        }
-    },
-    transaction: {
-        transactionID: "694025",
-        profile: {
-            profileInfo: {
-                profileID: "exampleprofile",
-                userName: "exampleusername",
-                email: "user@example.com"
-            },
-            address: {
-                line1: "123 Vague Street",
-                line2: "Apt 1",
-                city: "Austin",
-                stateProvince: "TX",
-                postalCode: "78610",
-                country: "USA"
-            },
-            shippingAddress: {
-                line1: "123 Vague Street",
-                line2: "Apt 1",
-                city: "Austin",
-                stateProvince: "TX",
-                postalCode: "78610",
-                country: "USA"
-            }
-        }
-    },
-    event: [{
-        category: {
-            primaryCategory: "Example event category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    component: [{
-        componentInfo: {
-            componentID: "4921",
-            componentName: "Example component"
-        },
-        category: {
-            primaryCategory: "Example event category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    user: [{
-        segment: "Premium membership",
-        profile: [{
-            profileInfo: {
-                profileID: "exampleprofile",
-                userName: "exampleusername",
-                email: "user@example.com",
-                language: "en-US",
-                returningStatus: "New"
-            },
-            social: {
-                facebook: "examplefacebookid",
-                twitter: "exampletwitterhandle"
-            }
-        }]
-    }],
-    privacy: {
-        accessCategories: [{
-            categoryName: "Default",
-            domains: "adobedtm.com"
-        }]
-    },
-    version: "1.0"
-}
-```
+
 
 Utilice el informe [Capa de datos digital de la experiencia del cliente](https://www.w3.org/2013/12/ceddl-201312.pdf) para obtener detalles sobre cada objeto y subobjeto. No todos los sitios utilizan todos los objetos; por ejemplo, si aloja un sitio de noticias, es poco probable que lo haya utilizado para la matriz de objetos `digitalData.product`.
 
