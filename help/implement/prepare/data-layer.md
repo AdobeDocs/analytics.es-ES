@@ -3,10 +3,10 @@ title: Creación de una capa de datos
 description: Descubra qué es una capa de datos en su implementación de Analytics y cómo se puede utilizar para asignar variables en Adobe Analytics.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
+source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 63%
+source-wordcount: '468'
+ht-degree: 60%
 
 ---
 
@@ -36,11 +36,7 @@ La implementación de Adobe Analytics mediante una capa de datos suele seguir es
 
 Adobe recomienda usar la variable [Capa de datos del cliente de Adobe](https://github.com/adobe/adobe-client-data-layer/wiki) para implementaciones nuevas o reestructuradas.
 
-Su organización puede utilizar otras especificaciones de capa de datos, como el [Capa de datos digital de la experiencia del cliente](https://www.w3.org/2013/12/ceddl-201312.pdf), u otra capa de datos personalizada por completo. Lo más importante es alinear con una capa de datos coherente que satisfaga las necesidades de su organización.
-
-
-
-Utilice el informe [Capa de datos digital de la experiencia del cliente](https://www.w3.org/2013/12/ceddl-201312.pdf) para obtener detalles sobre cada objeto y subobjeto. No todos los sitios utilizan todos los objetos; por ejemplo, si aloja un sitio de noticias, es poco probable que lo haya utilizado para la matriz de objetos `digitalData.product`.
+Su organización puede utilizar otras especificaciones de capa de datos, como el [Capa de datos digital de la experiencia del cliente](https://www.w3.org/2013/12/ceddl-201312.pdf), u otra especificación personalizada por completo. Lo más importante es alinear con una capa de datos coherente que satisfaga las necesidades de su organización.
 
 Las capas de datos son extensibles; si tiene requisitos específicos de su organización, puede incluir objetos en su capa de datos para satisfacer esas necesidades.
 
