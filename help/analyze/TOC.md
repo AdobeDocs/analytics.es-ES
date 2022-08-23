@@ -5,7 +5,7 @@ user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como paneles de Adobe Analytics, Report Builder y Activity Map.
 source-git-commit: 04a314e93a77ecf5687e771e143bf68ba911b32b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1053'
 ht-degree: 100%
 
