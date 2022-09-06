@@ -3,10 +3,10 @@ title: Creación o edición de una fuente de datos
 description: Obtenga información sobre cómo crear o editar una fuente de datos.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 60335be9a60b467969f5e1796ce465a7d453951f
+source-git-commit: ed1a627dafdf10f8a0a65e94b20ab6a3204a5d15
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 56%
+source-wordcount: '948'
+ht-degree: 100%
 
 ---
 
@@ -26,69 +26,27 @@ Antes de leer esta página se recomienda conocer las fuentes de datos de forma b
 * **Fechas de inicio y finalización**: la fecha de inicio indica la primera fecha en la que desea una fuente de datos. Establezca esta fecha en el pasado para comenzar inmediatamente a procesar fuentes de datos para datos históricos. Las fuentes continúan procesando hasta que llegan a la fecha de finalización. Las fechas de inicio y finalización se basan en el huso horario del grupo de informes.
 * **Fuente continua**: esta casilla elimina la fecha de finalización, lo que permite que una fuente se ejecute indefinidamente. Cuando una fuente termina de procesar datos históricos, la fuente espera a que los datos terminen de recopilar durante una hora o un día determinados. Una vez finalizada la hora o el día actuales, el procesamiento comienza después del retraso especificado.
 
-## Campo de destino
+## Campos de destino
 
 Los campos disponibles en los campos de destino dependen del tipo de destino.
 
-### Google Cloud Platform
+### FTP
 
-Acceda a los bloques de almacenamiento GCP como destino seguro
+Los datos de las fuentes de datos se pueden entregar en una ubicación de Adobe o de FTP alojado por el cliente. Se necesita un host FTP, un nombre de usuario y una contraseña. Utilice el campo de ruta para colocar los archivos de fuente en una carpeta. Las carpetas ya deben existir, las fuentes generan un error si la ruta de acceso especificada no existe.
 
-**Campos**
-* *Tipo:* Tipo de destino de Google Cloud Platform
-* *ID del proyecto:* ID del proyecto GCP donde existe el espacio de almacenamiento
-* *Nombre del depósito de almacenamiento:* Los nombres de bloque sin puntos están limitados a entre 3 y 63 caracteres. Los nombres que contienen puntos pueden contener hasta 222 caracteres, pero cada componente separado por puntos no puede tener más de 63 caracteres.
-* *Ruta (opcional):* &amp; *Anexar ID del grupo de informes a la ruta:* Ubicación de los recursos que se van a recuperar o almacenar
+![Información del FTP](assets/dest-ftp.jpg)
 
-![Información de GCP](assets/dest-gcp.png)
+### SFTP
 
-**Proceso de creación de cuentas de servicio**
+La compatibilidad con SFTP para fuentes de datos está disponible. Se necesita un host SFTP, un nombre de usuario y el sitio de destino para contener una clave pública RSA o DSA válida. Puede descargar la clave pública adecuada al crear la fuente.
 
-Se requerirá que el usuario cree una cuenta de servicio para que el destino de Google Cloud Platform esté seleccionado.
+![Información del SFTP](assets/dest-sftp.jpg)
 
-Solo se permitirá una cuenta de servicio GCP por organización de análisis. Una vez creada la cuenta de servicio para la fuente de datos, todas las fuentes de datos adicionales dentro de la organización se rellenarán previamente con la cuenta de servicio.
+### S3
 
-![Información de la cuenta de servicio de GCP](assets/service-account.png)
+Puede enviar fuentes directamente a los bloques de Amazon S3. Este tipo de destino requiere un nombre de contenedor, un ID de clave de acceso y una clave secreta. Consulte los [requisitos de nomenclatura de contenedor de Amazon S3](https://docs.aws.amazon.com/es_es/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) en los documentos de Amazon S3 para obtener más información.
 
-
-### Amazon S3
-
-Almacenamiento de bloques de Amazon S3 al que se accede mediante el rol de IAM dentro de una entidad de confianza.
-
-**Campos**
-
-* *Tipo:* Tipo de destino de Amazon S3
-* *Cubo:* S3 bucket name
-* *ARN de entidad de confianza:* ARN de entidad de AWS IAM `arn:aws:iam::<12 digit account number>:user/<username>`
-* *ARN de funciones:* ARN de funciones de AWS IAM `arn:aws:iam::<12 digit account number>:role/<role name>`
-* *Ruta (opcional):* &amp; *Anexar ID del grupo de informes a la ruta:* Ubicación de los recursos que se van a recuperar o almacenar
-* *Especificar región (opcional):* Lista desplegable de todas las regiones de AWS disponibles, incluidas las regiones CN
-
-![Información de Amazon S3](assets/dest-s3-secure.png)
-
-
-**Creación y selección de una entidad de confianza**
-
-El usuario puede seleccionar una entidad de confianza entre las opciones que se enumeran en la lista desplegable o crear y recuperar una nueva haciendo clic en el botón `Create Entity` botón.
-
-Después de hacer clic en el botón `Create Entity` , el usuario se redirigirá a un proceso de autenticación. Una vez que el usuario se autentica, la entidad de confianza se crea y se agrega a las opciones de la lista desplegable.
-
-La lista desplegable enumera todas las entidades de confianza que este usuario creó en la organización.
-
-![Información de entidad](assets/entity-creation.png)
-
-Puede enviar fuentes directamente a los bloques de Amazon S3 mediante el método heredado. Consulte los [requisitos de nomenclatura de contenedor de Amazon S3](https://docs.aws.amazon.com/es_es/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) en los documentos de Amazon S3 para obtener más información.
-
-**Campos: obsoletos**
-
-* *Tipo:* Tipo de destino del método S3 obsoleto
-* *Cubo:* Amazon S3 Bucket name
-* *Ruta (opcional):* &amp; *Anexar ID del grupo de informes a la ruta:* Ubicación de los recursos que se van a recuperar o almacenar
-* *Clave de acceso:* Acceso al ID de clave del usuario de AWS
-* *Clave secreta:* Clave secreta del usuario de AWS
-* *Confirmar clave secreta:* Vuelva a introducir la clave secreta del usuario de AWS
-
-![Información de S3](assets/dest-s3-dpr.png)
+![Información de S3](assets/dest-s3.jpg)
 
 El usuario que proporcione para cargar fuentes de datos debe tener los siguientes [permisos](https://docs.aws.amazon.com/es_es/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
 
@@ -96,9 +54,12 @@ El usuario que proporcione para cargar fuentes de datos debe tener los siguiente
 * s3:PutObject
 * s3:PutObjectAcl
 
-Para cada carga en un contenedor de Amazon S3, [!DNL Analytics] añade el propietario del contenedor a la ACL BucketOwnerFullControl, independientemente de si el bloque tiene o no una directiva que la requiera. Para obtener más información, consulte “[¿Cuál es la configuración de BucketOwnerFullControl para las fuentes de datos de Amazon S3?](df-faq.md#BucketOwnerFullControl)”
+   >[!NOTE]
+   >
+   >Para cada carga en un contenedor de Amazon S3, [!DNL Analytics] añade el propietario del contenedor a la ACL BucketOwnerFullControl, independientemente de si el bloque tiene o no una directiva que la requiera. Para obtener más información, consulte “[¿Cuál es la configuración de BucketOwnerFullControl para las fuentes de datos de Amazon S3?](df-faq.md#BucketOwnerFullControl)”
 
-**Regiones de AWS compatibles**:
+Se admiten las 16 regiones de AWS estándar siguientes (utilizando el algoritmo de firma adecuado cuando sea necesario):
+
 * us-east-2
 * us-east-1
 * us-west-1
@@ -115,78 +76,20 @@ Para cada carga en un contenedor de Amazon S3, [!DNL Analytics] añade el propie
 * eu-west-3
 * eu-north-1
 * sa-east-1
-* cn-north-1
-* cn-northwest-1
 
+>[!NOTE]
+>
+>No se admite la región cn-north-1.
 
 ### Azure Blob
 
-Destino seguro de Azure Blob mediante Control de acceso basado en roles (RBAC) o Firma de acceso compartido (SAS). Al seleccionar el control de acceso, el contenido del panel se actualizará para reflejar los campos correspondientes.
+Las fuentes de datos admiten destinos de Azure Blob. Se necesita un contenedor, una cuenta y una clave. Amazon cifra automáticamente los datos en reposo. Cuando se descarguen los datos, estos se descifrarán automáticamente. Consulte [Creación de una cuenta de almacenamiento](https://docs.microsoft.com/es-es/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) en los documentos de Microsoft Azure para obtener más información.
 
-**Campos: RBAC**
-* *Tipo:* Tipo de destino de Azure Blob
-* *Control de acceso:* Opción para usar RBAC o SAS
-* *ID del inquilino de Active Directory:* ID de organización de la cuenta de Azure
-* *ID de aplicación:* ID de aplicación del adaptador de Active Directory
-* *Secreto del cliente:* Secreto del cliente de Azure
-* *Nombre de la cuenta de almacenamiento:* Nombre de la cuenta que contiene objetos de datos
-* *Nombre del contenedor:* Contenedor que pertenece a una cuenta de almacenamiento determinada.
-* *Ruta (opcional):* &amp; *Anexar ID del grupo de informes a la ruta:* Ubicación de los recursos que se van a recuperar o almacenar
-
-![Información de Azure RBAC](assets/dest-azure-rbac.png)
-
-**Campos: SAS**
-* *Tipo:* Tipo de destino de Azure Blob
-* *Control de acceso:* Opción para usar RBAC o SAS
-* *ID del inquilino de Active Directory:* ID de instancia de Azure Active Directory
-* *ID de aplicación:* ID de aplicación del adaptador de Active Directory
-* *Secreto del cliente:* Secreto del cliente de Azure
-* *URI de almacén de claves:* Ubicación de Azure Key Vault
-* *Nombre secreto de la caja fuerte de claves:* Nombre secreto para acceder a Key Vault seguro
-* *Ruta (opcional):* &amp; *Anexar ID del grupo de informes a la ruta:* Ubicación de los recursos que se van a recuperar o almacenar
-
-![Información de Azure SAS](assets/dest-azure-sas.png)
-
-**Campos: obsoletos**
-* *Tipo:* Tipo de destino de Azure Blob
-* *Contenedor:* Nombre del contenedor de Azure
-* *Ruta (opcional):* &amp; *Anexar ID del grupo de informes a la ruta:* Ubicación de los recursos que se van a recuperar o almacenar
-* *Cuenta:* Secreto de cuenta de Azure
-* *URI de almacén de claves:* Ubicación de Azure Key Vault
-* *Nombre secreto de la caja fuerte de claves:* Nombre secreto para acceder a Key Vault seguro
-
-Debe implementar su propio proceso para administrar el espacio en disco en el destino de la fuente. Adobe no elimina ningún dato del servidor.
-Consulte [Creación de una cuenta de almacenamiento](https://docs.microsoft.com/es-es/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) en los documentos de Microsoft Azure para obtener más información.
-
-![Información obsoleta de Azure](assets/dest-azure-dpr.png)
+![Información de Azure](assets/azure.png)
 
 >[!NOTE]
 >
 >Debe implementar su propio proceso para administrar el espacio en disco en el destino de la fuente. Adobe no elimina ningún dato del servidor.
-
-### FTP: obsoleto
-
-**Campos**
-* *Tipo:* Tipo de destino de FTP
-* *Host:* Punto final para acceder al host
-* *Ruta (opcional):* &amp; *Anexar ID del grupo de informes a la ruta:* Ubicación de los recursos que se van a recuperar o almacenar
-* *Nombre de usuario:* Nombre de usuario del host
-* *Contraseña:* Contraseña del host
-* *Confirmar contraseña:* Vuelva a introducir y compruebe la contraseña del host
-
-![Información del FTP](assets/dest-ftp-dpr.png)
-
-### SFTP - Obsoleto
-
-La compatibilidad con SFTP para fuentes de datos está disponible. Se necesita un host SFTP, un nombre de usuario y el sitio de destino para contener una clave pública RSA o DSA válida. Puede descargar la clave pública adecuada al crear la fuente.
-
-**Campos**
-* *Tipo:* Tipo de destino de SFTP
-* *Host:* Punto final para acceder al host
-* *Ruta (opcional):* &amp; *Anexar ID del grupo de informes a la ruta:* Ubicación de los recursos que se van a recuperar o almacenar
-* *Clave pública RSA:* o *Clave pública DSA:* Clave pública para acceder al host
-
-![Información del SFTP](assets/dest-sftp-dpr.png)
 
 ## Definiciones de columnas de datos
 
