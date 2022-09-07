@@ -2,9 +2,9 @@
 title: Plantilla de CDA Workspace
 description: Describe cada campo de la plantilla CDA de Analysis Workspace.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
-source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
-workflow-type: ht
-source-wordcount: '439'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
@@ -23,10 +23,8 @@ Se crea un proyecto de Analysis Workspace que contiene varios paneles. En la par
 
 <!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
-* **Nota especial para los miembros del Gráfico de cooperación**: muestra qué parte del grupo de informes contiene visitantes en regiones donde se admite el gráfico de cooperación y en regiones donde no se admite.
 * **Identificación de los usuarios**: muestra la frecuencia con la que se identifican los visitantes del sitio mediante métodos basados en el análisis entre dispositivos.
 * **Medición del tamaño de la audiencia**: muestra una comparación de &#39;Dispositivos únicos&#39; con &#39;Personas&#39;. La proporción de estos dos números se conoce como &#39;compresión entre dispositivos&#39;, una métrica calculada visible en este panel. Esta métrica de compresión depende de varios factores:
-   * Uso del gráfico de colaboración o del gráfico privado: En términos generales, las organizaciones que utilizan la colaboración entre dispositivos tienden a ver mejores tasas de compresión que las organizaciones que utilizan el gráfico privado.
    * Velocidad de inicio de sesión: Cuantos más usuarios inicien sesión en el sitio, más podrá Adobe identificar y unir a los visitantes entre dispositivos. Los sitios con una tasa de inicio de sesión baja también tienen tasas de compresión bajas.
    * Cobertura del Experience Cloud ID: Solo se pueden vincular los visitantes con un ECID. Un porcentaje menor de visitantes que utilizan un ECID se correlaciona con tasas de compresión más bajas.
    * Uso de varios dispositivos: Si los visitantes del sitio no utilizan varios dispositivos, puede ver tasas de compresión más bajas.

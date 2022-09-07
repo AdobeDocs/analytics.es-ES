@@ -3,9 +3,9 @@ description: Los grupos de informes virtuales segmentan los datos de Adobe Analy
 title: Resumen de los grupos de informes virtuales
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '790'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '782'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,6 @@ Los grupos de informes virtuales ayudan a:
 * Simplificar la implementación permitiéndole utilizar un solo ID de grupo de informes (RSID) en todos los sitios o dominios. Tener todos los datos en un único grupo de informes permite el análisis de clientes conforme se avanza a la siguiente generación de Adobe Analytics.
 * Los usuarios empresariales de su organización ven solo los segmentos de datos que les son relevantes.
 * Mejorar la seguridad permitiendo a los usuarios administradores controlar el acceso a los datos más fácilmente y con más granularidad después de la implementación.
-* Proporcionar la capacidad de participar en la cooperación entre dispositivos
 * Métrica Personas
 * Una visualización de datos de un solo cliente (en el futuro)
 * La capacidad para crear grupos de informes virtuales ilimitados con los que segmentar datos

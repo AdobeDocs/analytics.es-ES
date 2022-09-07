@@ -4,9 +4,9 @@ title: Plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '1410'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '1313'
 ht-degree: 100%
 
 ---
@@ -123,19 +123,15 @@ Aquí tiene un vídeo sobre la plantilla [!UICONTROL Tutorial de aprendizaje]:
 
 ### Personas
 
->[!NOTE]
->
->La plantilla Personas y su métrica asociada Personas solo se pueden usar como parte de [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=es).
+Esta plantilla se basa en la métrica Personas que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. Esta plantilla le permite hacer lo siguiente::
 
-Esta plantilla se basa en la métrica Personas que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. Esta plantilla le permite hacer lo siguiente:
-
-* Segmentar sus datos para EE. UU./Canadá frente al resto del mundo. En estos momentos, la funcionalidad de cooperación entre dispositivos solo está disponible en Norteamérica.
-* Comparar en paralelo las métricas Personas y Visitantes únicos.
-* Consultar la “tasa de compresión”, una métrica calculada que analiza en qué medida la métrica Personas es inferior como porcentaje de Visitantes únicos.
+* Segmentar sus datos para EE. UU./Canadá frente al resto del mundo
+* Comparar en paralelo las métricas Personas y Visitantes únicos
+* Consultar la “tasa de compresión”, una métrica calculada que analiza en qué medida la métrica Personas es inferior como porcentaje de Visitantes únicos
 * Comparar los totales por tipo de dispositivo que utilizan sus clientes.
-* Consultar cuántos dispositivos se utilizan de media por persona.
-* Aprender a utilizar la función para apilas segmentos con la métrica Personas.
-* Descubra cómo mejorar la eficacia de la métrica Personas con el uso del Experience Cloud ID en su entorno.
+* Consultar cuántos dispositivos se utilizan de media por persona
+* Aprender a utilizar la función para apilas segmentos con la métrica Personas
+* Descubra cómo mejorar la eficacia de la métrica Personas con el uso del Experience Cloud ID en su entorno
 
 ### IQ del recorrido: plantilla del Análisis multidispositivo
 
@@ -143,10 +139,8 @@ Esta plantilla se basa en la métrica Personas que es una versión deduplicada d
 
 Esta plantilla le permite ver datos de rendimiento vitales entre dispositivos. Solo está disponible para clientes que tienen acceso al [análisis entre dispositivos](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=es) (CDA).
 
-* **Nota especial para los miembros del gráfico de cooperación**: muestra qué parte del grupo de informes contiene visitantes en regiones donde se admite el gráfico de cooperación y en regiones donde no se admite.
 * **Identificación de los usuarios**: muestra la frecuencia con la que se identifican los visitantes del sitio mediante métodos basados en el análisis entre dispositivos.
 * **Medición del tamaño de la audiencia**: muestra una comparación de &#39;Dispositivos únicos&#39; con &#39;Personas&#39;. La proporción de estos dos números se conoce como &#39;compresión entre dispositivos&#39;, una métrica calculada visible en este panel. Esta métrica de compresión depende de varios factores:
-   * **Uso del gráfico de colaboración o del gráfico privado**: en términos generales, las organizaciones que utilizan la colaboración entre dispositivos tienden a ver mejores tasas de compresión que las organizaciones que utilizan el gráfico privado.
    * **Velocidad de inicio de sesión**: cuantos más usuarios inicien sesión en el sitio, más podrá Adobe identificar y unir a los visitantes entre dispositivos. Los sitios con una tasa de inicio de sesión baja también tienen tasas de compresión bajas.
    * **Cobertura de Experience Cloud ID**: solo se pueden vincular los visitantes con un ECID. Un porcentaje menor de visitantes que utilizan un ECID se correlaciona con tasas de compresión más bajas.
    * **Uso de varios dispositivos**: si los visitantes del sitio no utilizan varios dispositivos, puede ver tasas de compresión más bajas.

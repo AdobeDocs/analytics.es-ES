@@ -2,23 +2,16 @@
 title: Gráfico del dispositivo
 description: Comprenda los requisitos previos y las limitaciones de la vinculación de datos mediante el gráfico del dispositivo.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 92%
 
 ---
 
 # Gráfico del dispositivo
 
-Cross-Device Analytics proporciona dos métodos distintos para unir datos. Este método utiliza el gráfico de cooperación o el gráfico privado de Adobe Experience Platform Identity Service para vincular los datos. CDA se comunica regularmente con el gráfico del dispositivo para vincular dispositivos.
-
-## Diferencias entre gráficos de cooperación y gráficos privados
-
-Adobe ofrece dos tipos de gráficos de dispositivos como parte del servicio de ID:
-
-* **Gráfico de cooperación**: Repositorio de ID de dispositivos con hash a los que cualquier cliente puede contribuir y hacer referencia. Dado que este tipo de gráfico de dispositivos es colaborativo, generalmente coincide con más dispositivos que un gráfico privado.
-* **Gráfico privado**: Repositorio de ID de dispositivos con hash al que solo hace referencia su organización.
+El análisis entre dispositivos puede utilizar el gráfico privado para unir datos. Private Graph es un repositorio de ID de dispositivos con hash que es específico de su organización. CDA se comunica regularmente con el gráfico del dispositivo para vincular dispositivos.
 
 ## Requisitos previos específicos del gráfico del dispositivo
 
