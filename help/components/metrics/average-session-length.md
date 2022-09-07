@@ -3,16 +3,16 @@ title: Longitud promedio de la sesión (móvil)
 description: Longitud promedio de sesión del dispositivo móvil.
 feature: Metrics
 exl-id: e33ac9ca-f1be-4d9c-9247-c5db8fb0102e
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: ht
-source-wordcount: '81'
-ht-degree: 100%
+source-git-commit: 47d5a532505aff48d43972836c78620870bd8221
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 65%
 
 ---
 
 # Longitud promedio de la sesión (móvil)
 
-La métrica “Longitud promedio de sesión (móvil)” muestra la cantidad promedio de tiempo que un elemento de dimensión dado está presente por elemento de dimensión. Es similar a la métrica [Tiempo promedio en el sitio](average-time-on-site.md), excepto que esta métrica utiliza componentes específicos del SDK móvil como parte de su cálculo.
+La métrica “Longitud promedio de sesión (móvil)” muestra la cantidad promedio de tiempo que un elemento de dimensión dado está presente por elemento de dimensión. Es similar a la variable [Tiempo empleado por visita [segundos]](https://experienceleague.adobe.com/docs/analytics/components/metrics/time-spent-per-visit.html) , excepto que esta métrica utiliza componentes específicos del SDK móvil como parte de su cálculo.
 
 ## Cálculo de esta métrica
 
