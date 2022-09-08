@@ -2,10 +2,10 @@
 title: Configuración de análisis entre dispositivos
 description: Configure un grupo de informes virtuales para habilitar CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: ht
-source-wordcount: '533'
-ht-degree: 100%
+source-git-commit: f7106ca52447988c90a3ccac6a1e1cc7514f1fc9
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ El departamento de ingeniería de Adobe ofrece las analíticas de varios disposi
 
 * Su ID de organización de Adobe Experience Cloud (la cadena alfanumérica que termina con @AdobeOrg)
 * El ID del grupo de informes perteneciente al grupo de informes entre dispositivos que desea habilitar con analíticas de varios dispositivos
-* Qué método de analíticas de varios dispositivos desea utilizar (vinculación basada en campos, gráfico privado de Adobe o gráfico de cooperación de Adobe)
+* Qué método de CDA desea utilizar (vinculación basada en el campo o gráfico de dispositivos de Adobe)
 * Si desea utilizar la vinculación basada en campos, el prop o eVar que contiene el ID de usuario
 * Su preferencia de frecuencia de repetición y longitud de retrospectiva. Las opciones incluyen una reproducción una vez a la semana con una ventana retrospectiva de 7 días o una reproducción cada día con una ventana retrospectiva de 1 día.
 El valor predeterminado es la reproducción semanal con una ventana retrospectiva de 7 días. En este caso, los datos de la última semana están sujetos a cambios (ya que se identifican y se actualizan progresivamente).
