@@ -3,10 +3,10 @@ title: timestamp
 description: Establecer manualmente la marca de tiempo de la visita.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
+source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ La variable `timestamp` establece manualmente la marca de tiempo de la visita en
 
 ## Marca de tiempo mediante el SDK web
 
-La marca de tiempo es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) en el campo XDM `_experience.analytics.session.timestamp`. Este campo solo admite la hora Unix.
+La marca de tiempo es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `xdm.timestamp`. Este campo solo admite la hora Unix.
 
 ## Marca de tiempo con la extensión de Adobe Analytics
 
