@@ -3,10 +3,10 @@ title: list
 description: Variables personalizadas que contienen varios valores en la misma visita.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: 50e57e30a50d9c010e8b25b5a7d0afc8926525f5
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 59%
+source-wordcount: '477'
+ht-degree: 67%
 
 ---
 
@@ -24,13 +24,9 @@ Asegúrese de registrar la forma en que utiliza cada variable de lista y su lóg
 
 Asegúrese de configurar cada variable de lista en la configuración del grupo de informes antes de usarla en la implementación. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/list-var-admin.md) en la guía de administración. Este paso se aplica a todos los métodos de implementación.
 
->[!NOTE]
->
->Las variables de lista implementadas mediante campos asignados en el SDK web utilizan el delimitador predeterminado de una coma (&#39;`,`&quot;).
-
 ## Enumerar variables mediante el SDK web
 
-Las variables de lista son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los campos XDM `_experience.analytics.customDimensions.lists.list1.list[]` a `_experience.analytics.customDimensions.lists.list3.list[]`. Cada elemento de matriz contiene un `"value"` objeto que contiene cada cadena. Por ejemplo, el siguiente objeto XDM rellena la variable `list1` con `"Example value 1,Example value 2,Example value 3"`.
+Las variables de lista son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los campos XDM `_experience.analytics.customDimensions.lists.list1.list[]` a `_experience.analytics.customDimensions.lists.list3.list[]`. Cada elemento de matriz contiene un `"value"` objeto que contiene cada cadena. No es necesario proporcionar un delimitador; se incluye automáticamente utilizando el valor especificado en [Configuración del grupo de informes](/help/admin/admin/conversion-var-admin/list-var-admin.md). Por ejemplo, si una coma (&#39;`,`&#39;) está configurado como delimitador para la variable de lista 1, el siguiente objeto XDM rellena la variable `list1` con `"Example value 1,Example value 2,Example value 3"`.
 
 ```json
 "xdm": {
@@ -62,23 +58,6 @@ Las variables de lista son [asignado para Adobe Analytics](https://experiencelea
 >
 >El esquema XDM de Adobe contiene `key` objetos, además de `value` objetos de cada `list[]` matriz. El Adobe no utiliza estos `key` objetos al enviar datos a Adobe Analytics.
 
-Si su organización requiere un delimitador diferente que una coma (&quot;`,`&#39;), puede pasar toda la cadena de lista, incluidos los delimitadores deseados, a un campo XDM personalizado. Asegúrese de que la variable de lista esté configurada para aceptar el delimitador deseado en [Configuración del grupo de informes](/help/admin/admin/conversion-var-admin/list-var-admin.md).
-
-```json
-"xdm": {
-    "custom_object": {
-        "custom_path": {
-            "custom_listvar": "Example value 1|Example value 2|Example value 3"
-        }
-    }
-}
-```
-
-A continuación, puede:
-
-* Asigne el campo XDM personalizado a la variable de lista deseada en Adobe Experience Edge; o
-* Cree una regla de procesamiento para sobrescribir la variable de lista deseada con la variable de datos de contexto. Consulte [Asignación de otros campos XDM a variables de Analytics](../../aep-edge/variable-mapping.md#mapping-other-xdm-fields-to-analytics-variables).
-
 ## Enumerar variables mediante la extensión de Adobe Analytics
 
 No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
@@ -100,6 +79,6 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 Las props de lista y las variables de lista pueden contener varios valores en una misma visita. Sin embargo, existen varias diferencias clave entre estos dos tipos de variables.
 
-* Cualquier propiedad puede convertirse en una prop de lista. Puede tener hasta 75 props de lista si todas las propiedades son props de lista. Solo hay 3 variables de lista disponibles.
+* Cualquier propiedad puede convertirse en una prop de lista. Puede tener hasta 75 props de lista si todas las propiedades son props de lista. Solo hay tres variables de lista disponibles.
 * Las props de lista tienen un límite de 100 bytes para toda la variable. Las variables de lista tienen un límite de 255 bytes por valor y no tienen un límite de bytes total.
 * Las props de lista no se mantienen más allá de la visita en la que están configuradas. A las variables de lista se les puede incluir en la configuración la caducidad que se desee. Sin embargo, con el [procesamiento del tiempo de los informes](/help/components/vrs/vrs-report-time-processing.md), puede aplicar un atributo personalizado tanto a las props de lista como a las variables de lista.
