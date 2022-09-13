@@ -4,10 +4,10 @@ description: Variables personalizadas que se relacionan con productos individual
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 43703a5e90bcc2afbe45091d72f2c09a50f3db24
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 75%
+source-wordcount: '541'
+ht-degree: 71%
 
 ---
 
@@ -48,6 +48,10 @@ Las variables de comercialización de sintaxis de producto son [asignado para Ad
 
 * Las eVars de comercialización de sintaxis de producto están asignadas en `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` a `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
 * Los eventos de comercialización de sintaxis de producto se asignan en `productListItems[]._experience.analytics.event1to100.event1.value` a `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Serialización de eventos](events/event-serialization.md) Los campos XDM están asignados en `productListItems[]._experience.analytics.event1to100.event1.id` a `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+
+>[!NOTE]
+>
+>Cuando establece eventos en `productListItems`, no es necesario configurarlos en la cadena de evento. Si se establecen en ambos lugares, el valor de la cadena de evento tiene prioridad.
 
 El siguiente ejemplo muestra una [producto](products.md) usar varias eVars y eventos de comercialización:
 
