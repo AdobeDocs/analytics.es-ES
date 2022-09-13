@@ -3,10 +3,10 @@ title: prop
 description: Variables personalizadas que puede utilizar en su implementación.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 89%
+source-wordcount: '603'
+ht-degree: 73%
 
 ---
 
@@ -24,7 +24,7 @@ Si tiene un [documento de diseño de soluciones](/help/implement/prepare/solutio
 
 ## Props mediante el SDK web
 
-Las props son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) en los campos XDM `_experience.analytics.customDimensions.props.prop1` a `_experience.analytics.customDimensions.props.prop75`.
+Las props son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los campos XDM `_experience.analytics.customDimensions.props.prop1` a `_experience.analytics.customDimensions.props.prop75`. Las props de lista se especifican en un conjunto independiente de campos.
 
 ## Props con la extensión Adobe Analytics
 
@@ -53,13 +53,17 @@ Las props de lista son una configuración aplicada a las propiedades que permite
 
 ### Configurar props de lista
 
-Habilite props de lista en la configuración del grupo de informes. Consulte [Variables de tráfico](/help/admin/admin/c-traffic-variables/traffic-var.md) en la guía de administración. Asegúrese de que el delimitador deseado está configurado correctamente. Adobe no proporciona un delimitador predeterminado.
+Habilitar props de lista en [Variables de tráfico](/help/admin/admin/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes. Asegúrese de que el delimitador deseado está configurado correctamente. Adobe no proporciona un delimitador predeterminado.
 
 >[!TIP]
 >
->Los delimitadores comunes que se utilizan en las implementaciones son una coma (`,`), dos puntos (`:`), un punto y coma (`;`) o una barra vertical (`|`). Puede utilizar el delimitador que se adapte mejor a la implementación.
+>Los delimitadores comunes que se utilizan en las implementaciones son una coma (`,`), dos puntos (`:`), un punto y coma (`;`) o una barra vertical (`|`). Puede utilizar cualquier delimitador ASCII no extendido que se adapte mejor a su implementación.
 
-### Configurar props de lista
+### Establecer props de lista mediante el SDK web
+
+Una vez configuradas las props de lista en la configuración del grupo de informes con el delimitador deseado, las props de lista se asignan para Adobe Analytics en `_experience.analytics.customDimensions.listProps.prop1.values[]` a `_experience.analytics.customDimensions.listProps.prop75.values[]`. El SDK web utiliza automáticamente el delimitador correcto que aparece en la configuración del grupo de informes. Si establece el delimitador en el campo XDM (por ejemplo, `_experience.analytics.customDimensions.props.prop1.delimiter`), que anula el delimitador recuperado automáticamente de la configuración del grupo de informes y puede provocar un análisis incorrecto de la cadena prop de lista.
+
+### Configurar props de lista con la extensión Adobe Analytics y AppMeasurement
 
 Una vez configuradas las props de lista en la configuración del grupo de informes con el delimitador deseado, no hay más diferencias de implementación que el uso del delimitador.
 
