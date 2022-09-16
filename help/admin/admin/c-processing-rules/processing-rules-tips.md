@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: Consejos y sugerencias de reglas de procesamiento
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
-source-wordcount: '490'
-ht-degree: 100%
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 95%
 
 ---
 
@@ -60,3 +60,9 @@ Los términos de búsqueda extraídos de una cadena de consulta deben codificars
 Seleccione la condición de coincidencia apropiada para encontrar la condición más restrictiva que coincida correctamente. Puede buscar valores en un informe antes de crear una regla para asegurarse de que no haya coincidencias no deseadas. Por ejemplo, debe buscar en el informe Prop2 para encontrar todas las ubicaciones en las que coincida esta condición antes de habilitar esta regla.
 
 ![](assets/tips-startswith.png)
+
+## Aplicación de las reglas de procesamiento al copiar visitas usando VISTA
+
+Si tiene una regla VISTA configurada para copiar visitas a otro grupo de informes, las visitas se envían aunque haya reglas de procesamiento definidas en el otro grupo de informes.
+
+Si tiene reglas de procesamiento definidas en el grupo de informes original, es posible que estas reglas se apliquen o no en función de cómo configuraron la regla de VISTA los servicios de ingeniería. Para averiguarlo, puede preguntarle a su especialista en implementaciones si la regla de VISTA copia los valores “pre” o “post” en el grupo de informes original. Si se copia un valor “pre”, las reglas de procesamiento definidas en el grupo de informes original no se aplican. Si se copia el valor “post”, las reglas de procesamiento se aplican antes de que se copie la visita.

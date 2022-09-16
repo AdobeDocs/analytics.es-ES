@@ -3,10 +3,10 @@ description: Las reglas de bots permiten eliminar de un grupo de informes el tr�
 title: Resumen sobre reglas de Bot
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '1364'
-ht-degree: 100%
+source-git-commit: 65b3a9001aa062429a870d374af20618c532de35
+workflow-type: tm+mt
+source-wordcount: '1369'
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ El campo **[!UICONTROL contiene]** está limitado a 100 caracteres. La lista no 
 
 ### Dirección IP (incluyendo coincidencias de comodín)
 
-Hace coincidir una dirección IP o varias direcciones en el mismo bloque usando comodines (*). Proporcione los valores numéricos de la dirección IP que desee hacer coincidir. Sustituya * en los valores que desee hacer coincidir usando un comodín. La lista siguiente contiene ejemplos de cadena de coincidencia de dirección IP:
+Hace coincidir una dirección IP o varias direcciones en el mismo bloque usando comodines (&#42;). Proporcione los valores numéricos de la dirección IP que desee hacer coincidir. Sustituto &#42; para cualquier valor que desee coincidir con usando un comodín. La lista siguiente contiene ejemplos de cadena de coincidencia de dirección IP:
 
 ```
 10.10.10.1
@@ -74,7 +74,7 @@ Hace coincidir una dirección IP o varias direcciones en el mismo bloque usando 
 
 ### Rango de direcciones IP
 
-Proporcione el rango inicial y final de las direcciones IP para buscar coincidencias. Sustituya * en los valores que desee hacer coincidir usando un comodín.
+Proporcione el rango inicial y final de las direcciones IP para buscar coincidencias. Sustituto &#42; para cualquier valor que desee coincidir con usando un comodín.
 
 ### Definir una regla de bots personalizada
 
@@ -118,12 +118,11 @@ Seleccione la casilla **[!UICONTROL Sobrescribir reglas existentes]** para elimi
 
 El botón **[!UICONTROL Exportar archivo de bots cargado]** exporta todas las reglas definidas en la IU en formato CSV.
 
-
 ## Efecto de las reglas de bots en la recopilación de datos {#section_F01A3130E7A04A9993371CF26F6586F2}
 
 Las reglas de bots se aplican a todos los datos de análisis. Los datos que quitan las reglas de bots solo se pueden ver en los informes Bots y Páginas de bots.
 
-Las reglas de VISTA se aplican después de las reglas de bots (consulte [Orden de procesamiento).](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
+Las reglas de VISTA se aplican después de las reglas de bots. Consulte [Orden de procesamiento](/help/technotes/processing-order.md) en la guía de usuario de Technotes.
 
 **Procesamiento de visitas intensivas:** si en una visita se registran más de 100 entradas, el informe determinará si el tiempo en segundos asignado a la visita es inferior o igual al número de entradas que contiene. En este caso, debido al costo de las visitas intensivas que requieren un procesamiento prolongado, el informe comienza de nuevo con una nueva lista. Por lo general, las visitas intensivas se deben a ataques de bots y no se consideran eventos de exploración de visitantes corrientes.
 
@@ -137,4 +136,4 @@ La lista de bots de la IAB se basa exclusivamente en agente usuario, por lo que 
 
 Si la confusión de la IP está habilitada, la exclusión de la IP se produce antes de que la dirección IP se confunda, por lo que los clientes no necesitan cambiar nada cuando habilitan la confusión de la IP.
 
-Si se elimina el último octeto, será antes del filtrado de la IP. Como tal, el último octeto se sustituye por un 0 y las reglas de exclusión de la IP se deben actualizar para coincidir con las direcciones de IP que tengan un cero al final. Un * coincidente debe corresponder a un 0.
+Si se elimina el último octeto, será antes del filtrado de la IP. Como tal, el último octeto se sustituye por un 0 y las reglas de exclusión de la IP se deben actualizar para coincidir con las direcciones de IP que tengan un cero al final. Coincidencia &#42; debe coincidir con 0.

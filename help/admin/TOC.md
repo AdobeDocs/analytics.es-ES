@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,6 @@ ht-degree: 100%
       + [Resumen de las reglas de procesamiento](admin/c-processing-rules/processing-rules.md)
       + Configuración de reglas de procesamiento {#processing-rules-configuration}
          + [Funcionamiento de las reglas de procesamiento](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-         + [Orden de procesamiento](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
          + [Crear reglas de procesamiento](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
          + [Ver las reglas de procesamiento activas](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
          + [Ver el historial de reglas de procesamiento](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
