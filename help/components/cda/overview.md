@@ -3,20 +3,20 @@ title: Análisis entre dispositivos
 description: Cambie los datos de centrados en el dispositivo a centrados en la persona mediante la vinculación de los datos del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: 9c9322647145832503e4a5875789e9cf7e9a2397
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '860'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Análisis entre dispositivos
 
-El análisis entre dispositivos (CDA) es una función que transforma Analytics de una vista centrada en el dispositivo a una vista centrada en la persona. Como resultado, los analistas pueden comprender el comportamiento del usuario que cruza navegadores, dispositivos o aplicaciones. Adobe admite dos flujos de trabajo generales para vincular datos de dispositivos:
+Análisis entre dispositivos (CDA) es una función que transforma Analytics de una vista centrada en el dispositivo a una vista centrada en la persona. Como resultado, los analistas pueden comprender el comportamiento del usuario que cruza navegadores, dispositivos o aplicaciones. Adobe admite dos flujos de trabajo generales para vincular datos de dispositivos:
 
 * [**Vinculación basada en el campo**](field-based-stitching.md): se recomienda la opción de vinculación porque solo utiliza la coincidencia determinística para vincular dispositivos.
 Permite elegir una variable de Analytics como base para la vinculación entre dispositivos en un grupo de informes virtuales.
 
-* [**Gráfico del dispositivo**](device-graph.md): CDA se comunica con un gráfico privado para unir dispositivos.
+* [**Gráfico del dispositivo**](device-graph.md): CDA se comunica con un gráfico privado para vincular dispositivos.
 
 Con CDA, puede dar respuesta a preguntas como:
 
@@ -37,7 +37,7 @@ Consulte [Journey IQ: Página de demostración de análisis entre dispositivos](
 El uso de CDA requiere lo siguiente. Los métodos de [vinculación basada en el campo](field-based-stitching.md) y [gráficos del dispositivo](device-graph.md) también tienen sus propios requisitos previos específicos.
 
 * Se debe firmar un contrato con Adobe que incluya Adobe Analytics Ultimate.
-* Su organización elige qué grupos de informes habilitar CDA. Adobe recomienda grupos de informes que contienen datos entre dispositivos, es decir, datos de varios tipos de dispositivos, exploradores o aplicaciones. Algunas organizaciones se refieren a este concepto como un grupo de informes “global”, aunque el CDA no tiene que ser estrictamente global desde una perspectiva geográfica.
+* Su organización elige en qué grupos de informes habilitar CDA. Adobe recomienda grupos de informes que contienen datos entre dispositivos, es decir, datos de varios tipos de dispositivos, exploradores o aplicaciones. Algunas organizaciones se refieren a este concepto como un grupo de informes “global”, aunque el CDA no tiene que ser estrictamente global desde una perspectiva geográfica.
 
 ## Limitaciones
 
