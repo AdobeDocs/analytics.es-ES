@@ -29,8 +29,8 @@ La tabla siguiente muestra las variables que Adobe Experience Platform Edge Netw
 | `commerce.checkouts.value` | Aumenta el valor de la métrica [Cierres de compra](../../components/metrics/checkouts.md) por la cantidad deseada. |
 | `commerce.order.currencyCode` | Establece la variable de configuración [currencyCode](../vars/config-vars/currencycode.md). |
 | `commerce.order.purchaseID` | Establece la variable de página [purchaseID](../vars/page-vars/purchaseid.md). |
-| `commerce.order.transactionID` | Establece la variable [transactionID](../vars/page-vars/transactionid.md) variable de página. |
-| `commerce.productListAdds.id` | Aplica [serialización de eventos](../vars/page-vars/events/event-serialization.md) a la métrica [Adiciones al carro de compras](../../components/metrics/cart-additions.md). |
+| `commerce.order.transactionID` | Establece la variable de página [transactionID](../vars/page-vars/transactionid.md). |
+| `commerce.productListAdds.id` | Aplica [Serialización de eventos](../vars/page-vars/events/event-serialization.md) a la métrica [Adiciones al carro de compras](../../components/metrics/cart-additions.md). |
 | `commerce.productListAdds.value` | Aumenta la métrica [Adiciones al carro de compras](../../components/metrics/cart-additions.md). |
 | `commerce.productListOpens.id` | Aplica [serialización de eventos](../vars/page-vars/events/event-serialization.md) a la métrica [Carros de compras](../../components/metrics/carts.md). |
 | `commerce.productListOpens.value` | Aumenta la métrica [Carros de compras](../../components/metrics/carts.md). |
