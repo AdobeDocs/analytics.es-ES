@@ -3,9 +3,9 @@ title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1927'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Puede utilizar una visualización de [!UICONTROL flujo] con la dimensión Tipo d
 
 1. Inicie sesión en Adobe Analytics y cree un nuevo proyecto de Workspace en blanco.
 2. Haga clic en la pestaña Visualizaciones de la izquierda y arrastre una visualización de Flujo al lienzo de la derecha.
-3. Haga clic en la pestaña Componentes de la izquierda y arrastre la dimensión &#39;Tipo de dispositivo móvil&#39; a la ubicación central denominada &#39;Dimensión o elemento&#39;.
+3. Haga clic en la pestaña Componentes de la izquierda y arrastre la dimensión “Tipo de dispositivo móvil” a la ubicación central denominada “Dimensión o elemento”.
 4. Este informe de flujo es interactivo. Haga clic en cualquiera de los valores para expandir los flujos a páginas posteriores o anteriores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
 
 ## ¿Puedo ver cómo se mueven las personas entre distintas experiencias de usuario (p. ej., explorador de escritorio vs. navegador móvil vs. aplicación móvil)?
@@ -28,11 +28,11 @@ El ejemplo del tipo de dispositivo móvil, como se ilustra más arriba, permite 
 
 La vinculación entre dispositivos de CDA se produce en dos procesos simultáneos.
 
-* El primer proceso se denomina vinculación activa y se produce cuando los datos se transfieren a Adobe Analytics. Durante la vinculación activa, CDA hace todo lo posible para reiterar los datos con respecto a la persona. Sin embargo, si la persona es desconocida en el momento de la vinculación activa, CDA vuelve al ID de visitante para representar a la persona.
+* El primer proceso se denomina “vinculación activa” y se produce cuando los datos se transfieren a Adobe Analytics. Durante la vinculación activa, CDA hace todo lo posible para reiterar los datos con respecto a la persona. Sin embargo, si la persona es desconocida en el momento de la vinculación activa, CDA vuelve al ID de visitante para representar a la persona.
 
-* El segundo proceso se llama repetición. Durante la reproducción, CDA retrocede en el tiempo y reitera los datos históricos, cuando es posible, en un período de tiempo retrospectivo especificado. Este periodo oscila de 1 a 7 días, según cómo haya solicitado que se configure CDA. Durante la reproducción, CDA intenta reiterar las visitas en las que la persona era anteriormente desconocida.
+* El segundo proceso se llama “repetición”. Durante la reproducción, CDA retrocede en el tiempo y reitera los datos históricos, cuando es posible, en un período de tiempo retrospectivo especificado. Este periodo oscila de 1 a 7 días, según cómo haya solicitado que se configure CDA. Durante la reproducción, CDA intenta reiterar las visitas en las que la persona era anteriormente desconocida.
 
-* **Si se utiliza un gráfico de dispositivos**, Adobe mantiene las asignaciones de Device Graph durante aproximadamente 6 meses. Un ECID que no tenga actividad durante más de seis meses se elimina del gráfico. Los datos ya enlazados en CDA no se ven afectados; las visitas posteriores para ese ECID se tratan como una persona nueva.
+* **Si se utiliza un gráfico de dispositivos**, Adobe mantiene las asignaciones de Gráfico de dispositivos durante aproximadamente 6 meses. Un ECID que no tenga actividad durante más de seis meses se elimina del gráfico. Los datos ya enlazados en CDA no se ven afectados, las visitas posteriores para ese ECID se tratan como una persona nueva.
 
 ## ¿Cómo gestiona CDA las visitas con marca de hora?
 
@@ -64,9 +64,9 @@ En algunas situaciones, un usuario individual puede asociarse con un gran númer
 
 ## ¿Cuál es la diferencia entre la métrica Personas en CDA y la métrica Visitantes únicos fuera de CDA?
 
-Tanto la métrica [Personas](/help/components/metrics/people.md) como la métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) tienen como objetivo contar los visitantes diferentes (personas). Sin embargo, considere la posibilidad de que dos dispositivos diferentes pertenezcan a la misma persona. CDA asigna los dos dispositivos a la misma persona, mientras que los dos dispositivos se registran como dos Visitantes únicos independientes fuera de CDA.
+Tanto la métrica [Personas](/help/components/metrics/people.md) como la métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) tienen como objetivo contar los visitantes diferentes (personas). Sin embargo, considere la posibilidad de que dos dispositivos diferentes pertenezcan a la misma persona. CDA asigna los dos dispositivos a la misma persona, mientras que los dos dispositivos se registran como dos “Visitantes únicos” independientes fuera de CDA.
 
-## ¿Cuál es la diferencia entre la métrica &#39;Dispositivos únicos&#39; en CDA y la métrica &#39;Visitantes únicos fuera de CDA?
+## ¿Cuál es la diferencia entre la métrica “Dispositivos únicos” en CDA y la métrica &#39;Visitantes únicos fuera de CDA?
 
 Estas dos métricas son aproximadamente equivalentes entre sí. Las diferencias entre las dos métricas se producen cuando:
 
@@ -124,9 +124,9 @@ Si un cliente abandona Ultimate, ya no tendrá acceso a los datos enlazados. Se 
 
 CDA utiliza una compleja canalización de procesamiento paralela, con varios componentes dependientes. Se espera una discordancia de datos de aproximadamente el 1 % para el número total de visitas entre el grupo de informes original y el grupo de informes virtuales de CDA.
 
-## ¿Por qué está inflada la métrica Personas identificadas?
+## ¿Por qué está inflada la métrica “Personas identificadas”?
 
-El número de la métrica Personas identificadas puede ser ligeramente superior si el valor del identificador de prop/eVar se ejecuta en un [conflicto de hash](/help/implement/validate/hash-collisions.md).
+El número de la métrica “Personas identificadas” puede ser ligeramente superior si el valor del identificador de prop/eVar se ejecuta en un [conflicto de hash](/help/implement/validate/hash-collisions.md).
 
 Para la vinculación basada en el campo, la variable personalizada de identificador distingue entre mayúsculas y minúsculas. El número de la métrica “Personas identificadas” puede ser significativamente mayor si los valores de los identificadores no coinciden con las mayúsculas y minúsculas. Por ejemplo, si se envían `bob` y `Bob` y se espera que sean la misma persona, CDA interpreta estos dos valores como diferentes.
 
