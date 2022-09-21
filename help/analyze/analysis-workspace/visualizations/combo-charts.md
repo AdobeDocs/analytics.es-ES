@@ -4,18 +4,14 @@ title: Visualización de gráficos combinados
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
+source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 34%
+source-wordcount: '756'
+ht-degree: 33%
 
 ---
 
 # Gráfico combinado
-
->[!NOTE]
->
->Actualmente, esta funcionalidad está en [prueba limitada](/help/release-notes/releases.md).
 
 La variable [!UICONTROL Gráfico combinado] la visualización facilita la creación rápida de una visualización de comparación sin tener que crear primero una tabla. Puede ver fácilmente las tendencias de sus datos en una combinación de líneas/barras.
 
