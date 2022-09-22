@@ -3,10 +3,10 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '2267'
-ht-degree: 100%
+source-git-commit: b99852f4b8e0a3034ea8965e5646b1ab2f1a8c4c
+workflow-type: tm+mt
+source-wordcount: '2325'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,13 @@ Recopilación de notas de versiones de [!DNL AppMeasurement] para JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Puede descargar la versión más reciente de AppMeasurement en el [Administrador de códigos](/help/admin/admin/code-manager-admin.md).
+
+## Versión 2.23.0
+
+Fecha de versión: **TBD**
+
+* AppMeasurement ahora admite la recopilación de sugerencias de cliente de agente de usuario de alta entropía que los exploradores Chromium (Google Chrome y Microsoft Edge) utilizan para proporcionar información del dispositivo. Puede configurar sugerencias del cliente mediante Etiquetas o utilizar el indicador &quot;collectHighEntropyUserAgentHints&quot;. La colección de sugerencias de alta entropía está desactivada de forma predeterminada. Obtenga más información sobre las sugerencias del cliente de usuario-agente aquí [vínculo a continuación].
+
 
 ## Versión 2.22.4
 
@@ -449,7 +456,7 @@ Fecha de versión: **15 de noviembre de 2013**
 Fecha de versión: **14 de noviembre de 2013**
 
 * Se ha agregado compatibilidad con la [medición de vídeos de Heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
-* `VisitorAPI.js` se ha incluido para admitir el [servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
+* `VisitorAPI.js` se ha incluido para admitir el [servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Versión 1.1.1
 
