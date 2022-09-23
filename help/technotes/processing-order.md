@@ -1,9 +1,9 @@
 ---
 title: Orden de procesamiento de los datos en Adobe Analytics
 description: Conozca el orden de los componentes y servicios que procesan los datos en Adobe Analytics.
-source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
+source-git-commit: 0881efeb2ce4f7af96f42bc925e43ce5ba1f64a2
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
