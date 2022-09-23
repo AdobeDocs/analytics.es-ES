@@ -1,7 +1,7 @@
 ---
 title: Sugerencias del cliente
 description: Obtenga información sobre cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
-source-git-commit: c26012465b998b2d05bd08e8ddb064cd43940449
+source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -17,7 +17,7 @@ Google divide las sugerencias del cliente User-Agent en dos categorías: sugeren
 
 * **Sugerencias de baja entropía** contienen información más genérica sobre dispositivos. Estos consejos los proporcionan automáticamente los exploradores Chromium.
 
-* **Alta entropía** las sugerencias contienen información más detallada. Estas sugerencias solo están disponibles si se solicita. AppMeasurement y el SDK web se pueden configurar para solicitar sugerencias de alta entropía. De forma predeterminada, ambas bibliotecas sí lo hacen **not** solicite sugerencias de alta entropía.
+* **Alta entropía** las sugerencias contienen información más detallada. Estas sugerencias solo están disponibles si se solicita. AppMeasurement y SDK web [se puede configurar](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) para solicitar sugerencias de alta entropía. De forma predeterminada, ambas bibliotecas sí lo hacen **not** solicite sugerencias de alta entropía.
 
 >[!NOTE]
 >
