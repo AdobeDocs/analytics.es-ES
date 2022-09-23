@@ -3,7 +3,7 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b99852f4b8e0a3034ea8965e5646b1ab2f1a8c4c
+source-git-commit: 4a1d151df7cd23ebc6cf8e7c317cdf5196056bca
 workflow-type: tm+mt
 source-wordcount: '2325'
 ht-degree: 97%
@@ -20,7 +20,7 @@ Puede descargar la versión más reciente de AppMeasurement en el [Administrador
 
 ## Versión 2.23.0
 
-Fecha de versión: **TBD**
+Fecha de versión: **23 de septiembre de 2022**
 
 * AppMeasurement ahora admite la recopilación de sugerencias de cliente de agente de usuario de alta entropía que los exploradores Chromium (Google Chrome y Microsoft Edge) utilizan para proporcionar información del dispositivo. Puede configurar sugerencias del cliente mediante Etiquetas o utilizar el indicador &quot;collectHighEntropyUserAgentHints&quot;. La colección de sugerencias de alta entropía está desactivada de forma predeterminada. Obtenga más información sobre las sugerencias del cliente de usuario-agente aquí [vínculo a continuación].
 
