@@ -1,9 +1,9 @@
 ---
 title: Sugerencias del cliente
 description: Obtenga información sobre cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
+source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '855'
 ht-degree: 5%
 
 ---
@@ -86,9 +86,15 @@ Las sugerencias del cliente solo se aplican a exploradores Chromium como Google 
 
 +++
 
++++**¿Las sugerencias del cliente se admiten en conexiones inseguras?
+
+No. Las sugerencias del cliente solo se pueden recopilar mediante una conexión HTTP segura, como HTTPS.
+
++++
+
 +++**¿Estarán disponibles las sugerencias del cliente en los datos enviados a AEP y CJA a través del conector de origen de Adobe?**
 
-Planeamos incluir sugerencias del cliente en los datos a través del conector de origen de Adobe en el primer semestre de 2023.
+Adobe planea incluir sugerencias del cliente en los datos a través del conector de origen de Adobe en el primer semestre de 2023.
 
 +++
 
