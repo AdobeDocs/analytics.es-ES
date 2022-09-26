@@ -2,10 +2,10 @@
 title: Crear un conjunto de clasificaciones
 description: Campos y descripciones disponibles al crear un conjunto de clasificaciones.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
-source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
+source-git-commit: 759e2b1d2b4fa99cfbb699be18e736600bf358ab
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 100%
+source-wordcount: '188'
+ht-degree: 83%
 
 ---
 
@@ -15,7 +15,7 @@ Puede usar el Administrador de conjuntos de clasificaciones para crear un conjun
 
 >[!NOTE]
 >
->Actualmente, esta funcionalidad está en versión limitada. Si desea acceder a esta funcionalidad, póngase en contacto con el servicio de atención al cliente de Adobe o con el administrador de cuentas, que podrán reenviar la solicitud al equipo de clasificaciones para que la solicite.
+>Esta función estará disponible para todos los clientes que tengan sus grupos de informes migrados a la nueva arquitectura de clasificaciones. Para obtener más información, póngase en contacto con el Servicio de atención al cliente de Adobe o con su administrador de cuentas.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificaciones]** > **[!UICONTROL Conjuntos]** > **[!UICONTROL Agregar]**
 
