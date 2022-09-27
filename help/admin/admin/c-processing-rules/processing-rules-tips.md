@@ -5,9 +5,9 @@ title: Consejos y sugerencias de reglas de procesamiento
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -65,4 +65,4 @@ Seleccione la condición de coincidencia apropiada para encontrar la condición 
 
 Si tiene una regla VISTA configurada para copiar visitas a otro grupo de informes, las visitas se envían aunque haya reglas de procesamiento definidas en el otro grupo de informes.
 
-Si tiene reglas de procesamiento definidas en el grupo de informes original, es posible que estas reglas se apliquen o no en función de cómo configuraron la regla de VISTA los servicios de ingeniería. Para averiguarlo, puede preguntarle a su especialista en implementaciones si la regla de VISTA copia los valores “pre” o “post” en el grupo de informes original. Si se copia un valor “pre”, las reglas de procesamiento definidas en el grupo de informes original no se aplican. Si se copia el valor “post”, las reglas de procesamiento se aplican antes de que se copie la visita.
+Si tiene reglas de procesamiento definidas en el grupo de informes original, pueden aplicarse o no en función de cómo configuraron la regla VISTA los servicios de ingeniería. Para averiguarlo, puede preguntarle a su especialista en implementaciones si la regla de VISTA copia los valores “pre” o “post” en el grupo de informes original. Si se copia un valor “pre”, las reglas de procesamiento definidas en el grupo de informes original no se aplican. Si se copia el valor “post”, las reglas de procesamiento se aplican antes de que se copie la visita.
