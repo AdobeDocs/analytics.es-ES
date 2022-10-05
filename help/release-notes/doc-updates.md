@@ -4,10 +4,10 @@ description: Actualizaciones importantes en el conjunto de la documentación de 
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
+source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
 workflow-type: tm+mt
-source-wordcount: '3467'
-ht-degree: 97%
+source-wordcount: '3545'
+ht-degree: 95%
 
 ---
 
@@ -21,8 +21,13 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 ## Detalles sobre las principales actualizaciones de la documentación
 
-| Fecha | Descripción |
+| Función | Descripción |
 | --- | --- |
+| **Octubre de 2022** |  |
+| Resumen de métricas clave | Nuevo tema sobre [Resumen de métricas clave](/help/analyze/analysis-workspace/visualizations/key-metric.md) visualización. |
+| Conjuntos de clasificaciones | El nuevo usuario [Conjuntos de clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) experience proporciona una interfaz única para administrar clasificaciones y reglas y mejora la visibilidad de los datos de clasificación de propiedad del cliente. |
+| Aplicación móvil: Vistas de detalles personalizadas | Tema nuevo en [vistas de detalles personalizadas](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es). |
+| Data Workbench | Data Workbench [preguntas frecuentes sobre el fin de vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html). |
 | **Septiembre de 2022** |  |
 | Gráficos combinados | Nuevo tema sobre [gráficos combinados](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualización. |
 | Complemento actualizado | Versión actualizada del [getvalonce](/help/implement/vars/plugins/getvalonce.md) complemento de implementación. |
@@ -63,7 +68,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 18 de agosto de 2021 | Nuevo tema en [A4T y grupos de informes virtuales](/help/components/vrs/vrs-a4t.md) |
 | 18 de agosto de 2021 | Nuevo tema sobre [Prácticas recomendadas de atribución](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | 5 de agosto de 2021 | Nuevo tema sobre [Recuento de instancias repetidas](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html?lang=es) |
-| 5 de agosto de 2021 | Se ha actualizado la documentación de clasificaciones en [plantillas](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=es), [importación del explorador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=es) y [exportación del explorador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=es) para indicar que las opciones que no están disponibles para los grupos de informes que están habilitados para la nueva arquitectura de clasificación. |
+| 5 de agosto de 2021 | Se ha actualizado la documentación de clasificaciones en [plantillas](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), [importación del explorador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) y [exportación del explorador](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) para indicar que las opciones que no están disponibles para los grupos de informes que están habilitados para la nueva arquitectura de clasificación. |
 | 2 de agosto de 2021 | Se han actualizado varias páginas para reflejar el cambio de marca de [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=es) |
 | **Julio de 2021** |  |
 | 23 de julio de 2021 | Nuevo análisis en profundidad de [eVars de comercialización](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=es) |

@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
-user-guide-description: Instrucciones sobre procedimientos con Analysis Workspace, la herramienta de análisis y visualización más importante de Analytics, así como herramientas como paneles de Adobe Analytics, Report Builder y Activity Map.
-source-git-commit: 04a314e93a77ecf5687e771e143bf68ba911b32b
-workflow-type: ht
-source-wordcount: '1053'
-ht-degree: 100%
+user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluidas Analysis Workspace, Paneles de Analytics, Report Builder y Activity Map.
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+workflow-type: tm+mt
+source-wordcount: '1043'
+ht-degree: 98%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 100%
          + [Administrador de alertas](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Alertas inteligentes: Casos de uso](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Preferencias del usuario](analysis-workspace/user-preferences.md)
-   + Preguntas frecuentes sobre del Espacio de trabajo {#workspace-faq}
+   + Preguntas frecuentes sobre de Workspace {#workspace-faq}
       + [Preguntas frecuentes](analysis-workspace/workspace-faq/faq.md)
       + [Optimizar rendimiento de Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Mensajes de error](analysis-workspace/workspace-faq/error-messages.md)
