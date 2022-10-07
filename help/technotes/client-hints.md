@@ -1,45 +1,45 @@
 ---
 title: Sugerencias del cliente
-description: Obtenga información sobre cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
+description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
 source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 
 # Información general y preguntas frecuentes sobre sugerencias del cliente
 
-Las sugerencias del cliente son información individual sobre el dispositivo de un usuario. Los proporcionan exploradores Chromium como Google Chrome y Microsoft Edge. Para estos exploradores, las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo. Adobe Analytics actualizará su proceso de búsqueda de dispositivos para que utilice sugerencias del cliente además de User-Agent para determinar la información del dispositivo.
+Las sugerencias del cliente son información individual acerca del dispositivo de un usuario. Las proporcionan exploradores Chromium como Google Chrome y Microsoft Edge. Para estos, las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo. Adobe Analytics actualizará su proceso de búsqueda de dispositivos para que utilice sugerencias del cliente además de las del agente de usuario para determinar la información del dispositivo.
 
-Google divide las sugerencias del cliente User-Agent en dos categorías: sugerencias de baja entropía y alta entropía.
+Google divide las sugerencias del cliente agente de usuario en dos categorías: sugerencias de baja entropía y de alta entropía.
 
-* **Sugerencias de baja entropía** contienen información más genérica sobre dispositivos. Estos consejos los proporcionan automáticamente los exploradores Chromium.
+* Las **sugerencias de baja entropía** contienen información más genérica acerca de los dispositivos. Estas las proporcionan automáticamente los exploradores Chromium.
 
-* **Alta entropía** las sugerencias contienen información más detallada. Estas sugerencias solo están disponibles si se solicita. AppMeasurement y SDK web [se puede configurar](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) para solicitar sugerencias de alta entropía. De forma predeterminada, ambas bibliotecas sí lo hacen **not** solicite sugerencias de alta entropía.
+* Las sugerencias de **alta entropía** contienen información más detallada. Estas solo están disponibles si se solicitan. AppMeasurement y SDK web [se puede configurar](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) para solicitar sugerencias de alta entropía. De forma predeterminada, **ninguna** de las dos bibliotecas solicita sugerencias de alta entropía.
 
 >[!NOTE]
 >
->A partir de octubre de 2022, las nuevas versiones de los exploradores Chromium empezarán a &quot;congelar&quot; la versión del sistema operativo representada en la cadena User-Agent. A medida que los usuarios actualizan sus dispositivos, el sistema operativo del agente de usuario no cambiará. Por lo tanto, con el tiempo, la información de la versión operativa tal como se representa en el User-Agent será menos precisa. La versión del sistema operativo es una sugerencia de alta entropía, por lo que para mantener la precisión de la versión del sistema operativo en los informes es necesario configurar la biblioteca de recopilación para recopilar estas sugerencias de alta entropía. Con el tiempo, se bloqueará otra información del dispositivo del User-Agent, lo que requiere sugerencias del cliente para mantener la precisión de los informes de dispositivos.
+>A partir de octubre de 2022, las nuevas versiones de los exploradores Chromium empezarán a “congelar” la versión del sistema operativo representada en la cadena del agente de usuario. A medida que los usuarios actualizan sus dispositivos, el sistema operativo del agente de usuario no cambiará. Por lo tanto, con el tiempo, la información de la versión operativa tal como se representa en el agente de usuario será menos precisa. La versión del sistema operativo es una sugerencia de alta entropía, por lo que para mantener su precisión en la creación de informes es necesario configurar la biblioteca de colección para recopilar estas sugerencias de alta entropía. Con el tiempo, se bloqueará otra información del dispositivo del agente de usuario, lo que requiere sugerencias del cliente para mantener la precisión de la creación de informes de dispositivos.
 
 ## Preguntas frecuentes
 
-+++**¿Dónde puedo obtener más información sobre las sugerencias del cliente?**
++++**¿Dónde puedo obtener más información acerca de las sugerencias del cliente?**
 
-Esta [Publicación de blog de Google](https://web.dev/user-agent-client-hints/) es una buena referencia y punto de partida.
+Esta [publicación de blog de Google](https://web.dev/user-agent-client-hints/) es una buena referencia y punto de partida.
 
 +++
 
-+++**¿Cómo habilito la recopilación de sugerencias del cliente?**
++++**¿Cómo habilito la colección de sugerencias del cliente?**
 
-El explorador proporciona automáticamente sugerencias de baja entropía que se incluyen en el proceso de Adobe para obtener información del dispositivo y el explorador. Se pueden configurar versiones más recientes de AppMeasurement (a partir de 2.23.0) y del SDK web (a partir de 2.12.0) para recopilar sugerencias de alta entropía. Para ambas bibliotecas, la recopilación de sugerencias de alta entropía es **desactivado de forma predeterminada**.
+El explorador proporciona automáticamente sugerencias de baja entropía que se incluyen en el proceso de Adobe para obtener información del dispositivo y el explorador. Se pueden configurar versiones más recientes de AppMeasurement (a partir de 2.23.0) y del SDK web (a partir de 2.12.0) para recopilar sugerencias de alta entropía. Para ambas bibliotecas, la colección de sugerencias de alta entropía está **desactivada de forma predeterminada**.
 
 +++
 
 +++**¿Cómo capturo las sugerencias de alta entropía?**
 
-Las sugerencias de alta entropía se pueden configurar con las bibliotecas SDK web y AppMeasurement a través de sus respectivas extensiones Tags o directamente con el indicador collectHighEntropyUserAgentHints .
+Las sugerencias de alta entropía se pueden configurar con las bibliotecas del SDK web y AppMeasurement a través de sus respectivas extensiones de etiquetas o directamente con el indicador collectHighEntropyUserAgentHints.
 
 +++
 
@@ -49,28 +49,28 @@ En este momento no. Puede elegir recopilar todas las sugerencias de alta entrop�
 
 +++
 
-+++**¿Se producirán cambios en los informes de dispositivos en Analytics?**
++++**¿Se producirán cambios en la creación de informes de dispositivos en Analytics?**
 
-Los campos de dispositivo disponibles para informes no cambiarán. Los datos capturados para esos campos pueden cambiar en función del campo y de cómo haya configurado la recopilación para las sugerencias del cliente.
+Los campos de dispositivo disponibles para la creación de informes no cambiarán. Los datos capturados para esos campos pueden cambiar en función del campo y de cómo haya configurado la colección para las sugerencias del cliente.
 
 +++
 
-+++**¿Qué campos de informes de Analytics se derivan del agente de usuario?**
++++**¿Qué campos de creación de informes de Analytics se derivan del agente de usuario?**
 
-* [Explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=en)
-* [Tipo de explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=en)
-* [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=en)
-* [Tipos de sistemas operativos](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=en)
-* [Tipo de dispositivo móvil y dispositivo móvil](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=en)
+* [Explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=es)
+* [Tipo de explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=es)
+* [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es)
+* [Tipos de sistemas operativos](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=es)
+* [Tipo de dispositivo móvil y dispositivo móvil](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=es)
 * [Archivos de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es)
 
 +++
 
-+++**¿Qué campos de informes de Analytics se derivan de valores almacenados en sugerencias de alta entropía?**
++++**¿Qué campos de creación informes de Analytics se derivan de valores almacenados en sugerencias de alta entropía?**
 
-A partir de septiembre de 2022, la cronología publicada por Google para &quot;congelar&quot; las sugerencias de usuario-agente indica que la versión del sistema operativo dejará de actualizarse a partir de octubre de 2022. Cuando los usuarios actualizan su sistema operativo, la versión del sistema operativo del agente de usuario no se actualiza. Si no hay una entropía alta, la precisión de la versión del sistema operativo, que se incluye en la dimensión &quot;Sistema operativo&quot; de Analytics, se degradará gradualmente.
+A partir de septiembre de 2022, la cronología publicada por Google para &quot;congelar&quot; las sugerencias de agente de usuario indica que la versión del sistema operativo dejará de actualizarse a partir de octubre de 2022. Cuando los usuarios actualizan su sistema operativo, la versión del sistema operativo del agente de usuario no se actualiza. Si no hay una entropía alta, la precisión de la versión del sistema operativo, que se incluye en la dimensión &quot;Sistema operativo&quot; de Analytics, se degradará gradualmente.
 
-Consulte la [cronología publicada por Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) para ver el tiempo de congelación de otras partes del User-Agent.
+Consulte la [cronología publicada por Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) para ver la temporalización de congelación de otras partes del agente de usuario.
 
 +++
 
@@ -86,7 +86,7 @@ Las sugerencias del cliente solo se aplican a exploradores Chromium como Google 
 
 +++
 
-+++**¿Las sugerencias del cliente se admiten en conexiones inseguras?
++++**¿Las sugerencias del cliente se admiten en conexiones no seguras?
 
 No. Las sugerencias del cliente solo se pueden recopilar mediante una conexión HTTP segura, como HTTPS.
 
@@ -94,7 +94,7 @@ No. Las sugerencias del cliente solo se pueden recopilar mediante una conexión 
 
 +++**¿Estarán disponibles las sugerencias del cliente en los datos enviados a AEP y CJA a través del conector de origen de Adobe?**
 
-Adobe planea incluir sugerencias del cliente en los datos a través del conector de origen de Adobe en el primer semestre de 2023.
+Adobe tiene previsto incluir sugerencias del cliente en los datos a través del conector de origen de Adobe en el primer semestre de 2023.
 
 +++
 
@@ -104,13 +104,13 @@ Consulte la [documentación del esquema](https://github.com/adobe/xdm/blob/maste
 
 +++
 
-+++**¿Cuáles son los distintos campos de sugerencias? ¿Cuáles afectan a los informes de dispositivos?**
++++**¿Cuáles son los distintos campos de sugerencias? ¿Cuáles afectan a la creación de informes de dispositivos?**
 
-En la tabla siguiente se describen las sugerencias del cliente a partir de septiembre de 2022.
+En la tabla siguiente se describen las sugerencias de los clientes a partir de septiembre de 2022.
 
 | Sugerencia | Descripción | Entropía alta o baja | Ejemplo |
 | --- | --- | --- | --- | 
-| Sec-CH-UA | Navegador y versión significativa | Bajo | &quot;Google Chrome 84&quot; |
+| Sec-CH-UA | Explorador y versión significativa | Bajo | &quot;Google Chrome 84&quot; |
 | Sec-CH-UA-Mobile | Dispositivo móvil (verdadero o falso) | Bajo | TRUE |
 | Sec-CH-UA-Platform | Sistema operativo/Plataforma | Bajo | &quot;Android&quot; |
 | Sec-CH-UA-Arch | Arquitectura del sitio | Alto | &quot;arm&quot; |
