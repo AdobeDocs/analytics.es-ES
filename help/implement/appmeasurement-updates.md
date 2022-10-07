@@ -4,9 +4,9 @@ description: Recopilación de notas de versiones de AppMeasurement para JavaScri
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2321'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Puede descargar la versión más reciente de AppMeasurement en el [Administrador
 
 Fecha de versión: **23 de septiembre de 2022**
 
-* AppMeasurement ahora admite la recopilación de sugerencias de cliente de agente de usuario de alta entropía que los exploradores Chromium (Google Chrome y Microsoft Edge) utilizan para proporcionar información del dispositivo. Puede configurar sugerencias del cliente mediante Etiquetas o utilizar el indicador &quot;collectHighEntropyUserAgentHints&quot;. La colección de sugerencias de alta entropía está desactivada de forma predeterminada. Más información sobre User-Agent [sugerencias del cliente](/help/technotes/client-hints.md).
+* AppMeasurement ahora admite la colección de sugerencias de cliente de agente de usuario de alta entropía que los exploradores Chromium (Google Chrome y Microsoft Edge) utilizan para proporcionar información del dispositivo. Puede configurar sugerencias del cliente mediante Etiquetas o utilizar el indicador “collectHighEntropyUserAgentHints”. La colección de sugerencias de alta entropía está desactivada de forma predeterminada. Más información sobre [sugerencias del cliente](/help/technotes/client-hints.md) de Usuario-Agente.
 
 
 ## Versión 2.22.4
@@ -149,7 +149,7 @@ Fecha de versión: **24 de mayo de 2018**
 
 >[!NOTE]
 >
->En el caso de los clientes que utilicen el servicio de [!DNL Experience Cloud] ID, se necesita la API de visitantes 3.0 o una versión posterior. Adobe recomienda actualizar a la última versión de la API de visitantes cada vez que se actualicen las bibliotecas de código asociadas ([!DNL at.js], etc.).[!DNL AppMeasurement.js]
+>En el caso de los clientes que utilicen el servicio de [!DNL Experience Cloud] ID, se necesita la API de visitantes 3.0 o una versión posterior. Adobe recomienda actualizar a la última versión de la API de visitantes cada vez que se actualicen las bibliotecas de código asociadas ([!DNL at.js], [!DNL AppMeasurement.js], etc.).
 
 * Se ha actualizado [!DNL AppMeasurement] para utilizar la interfaz de Visitante actualizada para solicitar los ID. (AN-151483)
 * Se ha solucionado un problema que causaba que la cookie de seguimiento seguía escribiéndose tras desactivar el seguimiento de enlaces. (AN-156332)
@@ -283,7 +283,7 @@ Fecha de versión: **21 de julio de 2016**
 
 * Inclusión de la API de visitante 1.6.0.
 * Se ha corregido un problema que hacía que [!DNL AppMeasurement] llamara al método ofuscado incorrecto en la API de visitante. (AN-126006)
-* Se ha corregido un problema que daba lugar al error de [!DNL JavaScript] : “Attribute only valid on v:image”. (AN-124009)
+* Se ha corregido un problema que daba lugar al error de [!DNL JavaScript]: “Attribute only valid on v:image”. (AN-124009)
 
 ## Versión 1.6.1
 
@@ -443,7 +443,7 @@ Fecha de versión: **20 de febrero de 2014**
 
 Fecha de versión: **6 de febrero de 2014**
 
-* Se ha solucionado un error de compatibilidad con el módulo DIL de [!DNL Audience Manager]. [!DNL Audience Manager]Los clientes de también deben actualizar a la versión 4.8 del módulo DIL.
+* Se ha solucionado un error de compatibilidad con el módulo DIL de [!DNL Audience Manager]. [!DNL Audience Manager] Los clientes de también deben actualizar a la versión 4.8 del módulo DIL.
 
 ## Versión 1.2.1
 
@@ -456,7 +456,7 @@ Fecha de versión: **15 de noviembre de 2013**
 Fecha de versión: **14 de noviembre de 2013**
 
 * Se ha agregado compatibilidad con la [medición de vídeos de Heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
-* `VisitorAPI.js` se ha incluido para admitir el [servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* `VisitorAPI.js` se ha incluido para admitir el [servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
 
 ## Versión 1.1.1
 
