@@ -4,9 +4,9 @@ title: Creación de un cuadro de resultados móvil
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 40f335c18849551bce23f386c647f2aec32c7988
+source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1750'
 ht-degree: 74%
 
 ---
@@ -156,13 +156,13 @@ Si desea quitar los elementos de dimensión [!UICONTROL No especificados] de los
 
 Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con ese mosaico y su diapositiva de detalles. En este carril, puede proporcionar una nueva **Título** para el mosaico y, alternativamente, configure el mosaico aplicando segmentos.
 
-![Mosaico de propiedades](assets/properties_tile.png)
+![Mosaico de propiedades](assets/properties-tile-new.png)
 
 ## Ver diapositivas de detalles {#view-detail-slides}
 
-Al hacer clic en mosaicos, una ventana emergente dinámica muestra cómo aparece la diapositiva de detalles para el usuario ejecutivo de la aplicación. Puede agregar dimensiones para desglosar los datos según sus necesidades específicas. Si no se ha aplicado ninguna dimensión, la dimensión de desglose se **hour** o **días**, según el intervalo de fechas predeterminado.
+Al hacer clic en mosaicos, una ventana emergente dinámica muestra cómo aparece la diapositiva de detalles para el usuario ejecutivo de la aplicación. Puede agregar dimensiones para desglosar los datos según sus necesidades específicas. Si no se ha aplicado una dimensión, la dimensión de desglose será **hour** o **días**, según el intervalo de fechas predeterminado.
 
-Los desgloses afinan el análisis al desglosar literalmente las métricas por elementos de dimensión.
+Los desgloses refinan el análisis mediante el desglose de métricas por elementos de dimensión como los siguientes:
 
 * Métrica Visitantes únicos desglosada por plataforma de publicidad (AMO ID)
 * Visitas desglosadas por categoría de producto (venta minorista)
