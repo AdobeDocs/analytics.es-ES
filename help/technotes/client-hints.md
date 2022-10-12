@@ -1,10 +1,10 @@
 ---
 title: Sugerencias del cliente
 description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
-source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
-workflow-type: ht
-source-wordcount: '855'
-ht-degree: 100%
+source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
+workflow-type: tm+mt
+source-wordcount: '947'
+ht-degree: 77%
 
 ---
 
@@ -21,7 +21,11 @@ Google divide las sugerencias del cliente agente de usuario en dos categorías: 
 
 >[!NOTE]
 >
->A partir de octubre de 2022, las nuevas versiones de los exploradores Chromium empezarán a “congelar” la versión del sistema operativo representada en la cadena del agente de usuario. A medida que los usuarios actualizan sus dispositivos, el sistema operativo del agente de usuario no cambiará. Por lo tanto, con el tiempo, la información de la versión operativa tal como se representa en el agente de usuario será menos precisa. La versión del sistema operativo es una sugerencia de alta entropía, por lo que para mantener su precisión en la creación de informes es necesario configurar la biblioteca de colección para recopilar estas sugerencias de alta entropía. Con el tiempo, se bloqueará otra información del dispositivo del agente de usuario, lo que requiere sugerencias del cliente para mantener la precisión de la creación de informes de dispositivos.
+>A partir de octubre de 2022, las nuevas versiones de los exploradores Chromium empezarán a “congelar” la versión del sistema operativo representada en la cadena del agente de usuario. La versión del sistema operativo es una sugerencia de alta entropía, por lo que para mantener su precisión en la creación de informes es necesario configurar la biblioteca de colección para recopilar estas sugerencias de alta entropía. Con el tiempo, se bloqueará otra información del dispositivo del agente de usuario, lo que requiere sugerencias del cliente para mantener la precisión de la creación de informes de dispositivos.
+
+>[!NOTE]
+>
+>AAM requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está utilizando [reenvío del lado del servidor a AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=es) a continuación, es posible que desee habilitar la recopilación de sugerencias de alta entropía.
 
 ## Preguntas frecuentes
 
@@ -49,6 +53,24 @@ En este momento no. Puede elegir recopilar todas las sugerencias de alta entrop�
 
 +++
 
++++**¿Cuáles son los distintos valores de sugerencias del cliente?**
+
+En la tabla siguiente se describen las sugerencias del cliente a partir de octubre de 2022.
+
+| Sugerencia | Descripción | Entropía alta o baja | Ejemplo |
+| --- | --- | --- | --- | 
+| Sec-CH-UA | Explorador y versión significativa | Bajo | &quot;Google Chrome 84&quot; |
+| Sec-CH-UA-Mobile | Dispositivo móvil (verdadero o falso) | Bajo | TRUE |
+| Sec-CH-UA-Platform | Sistema operativo/Plataforma | Bajo | &quot;Android&quot; |
+| Sec-CH-UA-Arch | Arquitectura del sitio | Alto | &quot;arm&quot; |
+| Sec-CH-UA-Bitness | Perfiles de arquitectura | Alto | &quot;64&quot; |
+| Sec-CH-UA-Full-Version | Versión completa del explorador | Alto | &quot;84.0.4143.2&quot; |
+| Sec-CH-UA-Full-Version-List | Lista de marcas con su versión | Alto | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
+| Sec-CH-UA-Model | Modelo de dispositivo | Alto | &quot;Pixel 3&quot; |
+| Sec-CH-UA-Platform-Version | Versión del sistema operativo/plataforma | Alto | &quot;10&quot; |
+
++++
+
 +++**¿Se producirán cambios en la creación de informes de dispositivos en Analytics?**
 
 Los campos de dispositivo disponibles para la creación de informes no cambiarán. Los datos capturados para esos campos pueden cambiar en función del campo y de cómo haya configurado la colección para las sugerencias del cliente.
@@ -57,18 +79,19 @@ Los campos de dispositivo disponibles para la creación de informes no cambiará
 
 +++**¿Qué campos de creación de informes de Analytics se derivan del agente de usuario?**
 
+Estos campos se derivan directamente del User-Agent, pero el User-Agent se puede utilizar para ayudar a derivar valores para otros campos relacionados con el dispositivo, según los detalles del dispositivo.
+
 * [Explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=es)
 * [Tipo de explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=es)
 * [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es)
 * [Tipos de sistemas operativos](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=es)
 * [Tipo de dispositivo móvil y dispositivo móvil](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=es)
-* [Archivos de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es)
 
 +++
 
 +++**¿Qué campos de creación informes de Analytics se derivan de valores almacenados en sugerencias de alta entropía?**
 
-A partir de septiembre de 2022, la cronología publicada por Google para &quot;congelar&quot; las sugerencias de agente de usuario indica que la versión del sistema operativo dejará de actualizarse a partir de octubre de 2022. Cuando los usuarios actualizan su sistema operativo, la versión del sistema operativo del agente de usuario no se actualiza. Si no hay una entropía alta, la precisión de la versión del sistema operativo, que se incluye en la dimensión &quot;Sistema operativo&quot; de Analytics, se degradará gradualmente.
+Esto cambiará con el tiempo a medida que Google &quot;congela&quot; más partes del agente de usuario. El primer campo que se verá directamente afectado es &quot;Sistema operativo&quot; que incluye la versión del sistema operativo Según la cronología publicada por Google para &quot;congelar&quot; sugerencias de usuario-agente, la versión del sistema operativo se bloqueará a partir de finales de octubre de 2022 con la versión 107 de Chromium. En ese punto, la versión del sistema operativo en el agente de usuario será inexacta en algunos casos.
 
 Consulte la [cronología publicada por Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) para ver la temporalización de congelación de otras partes del agente de usuario.
 
@@ -86,7 +109,7 @@ Las sugerencias del cliente solo se aplican a exploradores Chromium como Google 
 
 +++
 
-+++**¿Las sugerencias del cliente se admiten en conexiones no seguras?
++++**¿Se admiten sugerencias del cliente en conexiones inseguras?**
 
 No. Las sugerencias del cliente solo se pueden recopilar mediante una conexión HTTP segura, como HTTPS.
 
@@ -104,28 +127,15 @@ Consulte la [documentación del esquema](https://github.com/adobe/xdm/blob/maste
 
 +++
 
-+++**¿Cuáles son los distintos campos de sugerencias? ¿Cuáles afectan a la creación de informes de dispositivos?**
-
-En la tabla siguiente se describen las sugerencias de los clientes a partir de septiembre de 2022.
-
-| Sugerencia | Descripción | Entropía alta o baja | Ejemplo |
-| --- | --- | --- | --- | 
-| Sec-CH-UA | Explorador y versión significativa | Bajo | &quot;Google Chrome 84&quot; |
-| Sec-CH-UA-Mobile | Dispositivo móvil (verdadero o falso) | Bajo | TRUE |
-| Sec-CH-UA-Platform | Sistema operativo/Plataforma | Bajo | &quot;Android&quot; |
-| Sec-CH-UA-Arch | Arquitectura del sitio | Alto | &quot;arm&quot; |
-| Sec-CH-UA-Bitness | Perfiles de arquitectura | Alto | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | Versión completa del explorador | Alto | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | Lista de marcas con su versión | Alto | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-Model | Modelo de dispositivo | Alto | &quot;Pixel 3&quot; |
-| Sec-CH-UA-Platform-Version | Versión del sistema operativo/plataforma | Alto | &quot;10&quot; |
-
-+++
-
-
-
 +++**¿Qué partes del Agente-Usuario se están &quot;congelando&quot; y cuándo?**
 
 Consulte la [cronología publicada por Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Esto puede estar sujeto a cambios.
 
 +++
+
++++**¿Admitirá AAM reenvío del lado del servidor las sugerencias del cliente?**
+
+Sí. Las sugerencias del cliente se incluirán en los datos reenviados a AAM. Tenga en cuenta que AAM requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está utilizando [reenvío del lado del servidor a AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) a continuación, es posible que desee habilitar la recopilación de sugerencias de alta entropía.
+
++++
+
