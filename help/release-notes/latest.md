@@ -3,16 +3,16 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2dc8dc9f7dd9671cfa25095e075474d2b5463dc0
+source-git-commit: 6014be392d700fae0df1f178d1f989eb29d03477
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 78%
+source-wordcount: '1569'
+ht-degree: 75%
 
 ---
 
 # Notas de la versión actual de Adobe Analytics (octubre de 2022)
 
-**Última actualización**: 5 de octubre de 2022
+**Última actualización**: 13 de octubre de 2022
 
 Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -30,6 +30,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | **[!UICONTROL Resumen de métricas clave]** visualización | La variable [!UICONTROL Resumen de métricas clave] la visualización le permite ver las tendencias de una métrica importante dentro de un solo intervalo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo.  [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | Lanzamiento gradual a partir del 5 de octubre de 2022 |
 | Nuevo **[!UICONTROL Conjuntos de clasificaciones]** experiencia del usuario | La nueva experiencia de usuario proporciona una sola interfaz para administrar clasificaciones y reglas, y mejora la visibilidad de los datos de clasificación de propiedad del cliente.  [Más información](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) | 5 de octubre de 2022 |
 | Aplicación móvil: **Vistas de detalles personalizadas** | Las vistas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia, ya que permiten centrarse en lo que es más importante. Puede modificar el diseño de la vista de detalles asociada a cada mosaico del informe de valoración y agregar texto para explicar mejor lo que el usuario final puede ver en los datos.  [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es) | 5 de octubre de 2022 |
+| **Variables de varios valores que no distinguen entre mayúsculas y minúsculas** | Para variables de varios valores que no distinguen entre mayúsculas y minúsculas, los valores se almacenan en `mvvar1` - `mvvar3` en las fuentes de datos ya no se convertirán en minúsculas automáticamente. En su lugar, las fuentes de datos (y los datos pasados a través del Conector de origen de Analytics a Adobe Experience Platform y CJA) reflejarán el caso original que se pasó desde la página. | 24 de octubre de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
