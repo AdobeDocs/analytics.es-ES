@@ -1,10 +1,10 @@
 ---
 title: Sugerencias del cliente
 description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
-source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
+source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 77%
+source-wordcount: '948'
+ht-degree: 75%
 
 ---
 
