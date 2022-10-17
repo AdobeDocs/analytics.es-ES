@@ -1,10 +1,10 @@
 ---
 title: Sugerencias del cliente
 description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
-source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
+source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 75%
+source-wordcount: '1073'
+ht-degree: 60%
 
 ---
 
@@ -17,7 +17,11 @@ Google divide las sugerencias del cliente agente de usuario en dos categorías: 
 
 * Las **sugerencias de baja entropía** contienen información más genérica acerca de los dispositivos. Estas las proporcionan automáticamente los exploradores Chromium.
 
-* Las sugerencias de **alta entropía** contienen información más detallada. Estas solo están disponibles si se solicitan. AppMeasurement y SDK web [se puede configurar](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) para solicitar sugerencias de alta entropía. De forma predeterminada, **ninguna** de las dos bibliotecas solicita sugerencias de alta entropía.
+* Las sugerencias de **alta entropía** contienen información más detallada. Estas solo están disponibles si se solicitan. AppMeasurement y SDK web se puede configurar para solicitar sugerencias de alta entropía. De forma predeterminada, **ninguna** de las dos bibliotecas solicita sugerencias de alta entropía.
+
+>[!NOTE]
+>
+>Las sugerencias del cliente se incorporarán al proceso de búsqueda de dispositivos de Analytics a partir de mediados de enero de 2023. AppMeasurement y el SDK web admiten actualmente la recopilación de datos de sugerencias, pero no se utilizarán en la búsqueda de dispositivos hasta mediados de enero. Esto tiene por objeto evitar posibles interrupciones en los informes durante el período crítico de fin de año. Como se indica a continuación, la versión del sistema operativo se bloqueará a partir de octubre, pero debido a un despliegue gradual y al hecho de que la mayoría de los agentes de usuario se congelarán en la versión del sistema operativo correcta, estimamos que esto afectará a &lt;3% de los visitantes de Chrome.
 
 >[!NOTE]
 >
@@ -37,13 +41,9 @@ Esta [publicación de blog de Google](https://web.dev/user-agent-client-hints/) 
 
 +++**¿Cómo habilito la colección de sugerencias del cliente?**
 
-El explorador proporciona automáticamente sugerencias de baja entropía que se incluyen en el proceso de Adobe para obtener información del dispositivo y el explorador. Se pueden configurar versiones más recientes de AppMeasurement (a partir de 2.23.0) y del SDK web (a partir de 2.12.0) para recopilar sugerencias de alta entropía. Para ambas bibliotecas, la colección de sugerencias de alta entropía está **desactivada de forma predeterminada**.
+El explorador proporciona automáticamente sugerencias de baja entropía que se incorporan para obtener información del dispositivo y el explorador. Se pueden configurar versiones más recientes del SDK web (a partir de 2.12.0) y AppMeasurement (a partir de 2.23.0) para recopilar sugerencias de alta entropía mediante sus respectivas extensiones de etiquetas o directamente mediante una opción de configuración. Consulte las instrucciones para [SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) y [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
 
-+++
-
-+++**¿Cómo capturo las sugerencias de alta entropía?**
-
-Las sugerencias de alta entropía se pueden configurar con las bibliotecas del SDK web y AppMeasurement a través de sus respectivas extensiones de etiquetas o directamente con el indicador collectHighEntropyUserAgentHints.
+Para ambas bibliotecas, la colección de sugerencias de alta entropía está **desactivada de forma predeterminada**.
 
 +++
 
@@ -89,6 +89,12 @@ Estos campos se derivan directamente del User-Agent, pero el User-Agent se puede
 
 +++
 
++++**¿Qué partes del Agente-Usuario se están &quot;congelando&quot; y cuándo?**
+
+Consulte la [cronología publicada por Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Esto puede estar sujeto a cambios.
+
++++
+
 +++**¿Qué campos de creación informes de Analytics se derivan de valores almacenados en sugerencias de alta entropía?**
 
 Esto cambiará con el tiempo a medida que Google &quot;congela&quot; más partes del agente de usuario. El primer campo que se verá directamente afectado es &quot;Sistema operativo&quot; que incluye la versión del sistema operativo Según la cronología publicada por Google para &quot;congelar&quot; sugerencias de usuario-agente, la versión del sistema operativo se bloqueará a partir de finales de octubre de 2022 con la versión 107 de Chromium. En ese punto, la versión del sistema operativo en el agente de usuario será inexacta en algunos casos.
@@ -115,6 +121,12 @@ No. Las sugerencias del cliente solo se pueden recopilar mediante una conexión 
 
 +++
 
++++**¿Cómo puedo incluir datos de sugerencias del cliente al utilizar el envío de API?**
+
+Consulte la documentación para incluirlas en [API de inserción de datos en lotes](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+
++++
+
 +++**¿Estarán disponibles las sugerencias del cliente en los datos enviados a AEP y CJA a través del conector de origen de Adobe?**
 
 Adobe tiene previsto incluir sugerencias del cliente en los datos a través del conector de origen de Adobe en el primer semestre de 2023.
@@ -124,12 +136,6 @@ Adobe tiene previsto incluir sugerencias del cliente en los datos a través del 
 +++**¿Cómo se representan las sugerencias del cliente en XDM?**
 
 Consulte la [documentación del esquema](https://github.com/adobe/xdm/blob/master/components/datatypes/browserdetails.schema.json#L121) en Adobe Experience Platform.
-
-+++
-
-+++**¿Qué partes del Agente-Usuario se están &quot;congelando&quot; y cuándo?**
-
-Consulte la [cronología publicada por Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Esto puede estar sujeto a cambios.
 
 +++
 
