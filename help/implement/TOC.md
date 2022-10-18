@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
-user-guide-description: Aprenda a implementar Adobe Analytics. Personalice los datos que se recopilan para aprovechar al máximo los datos de Analytics.
+user-guide-description: Aprenda formas de implementar Adobe Analytics. Personalice qué se recopila para aprovechar al máximo los datos de Analytics.
 source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

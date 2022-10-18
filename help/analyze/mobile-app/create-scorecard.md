@@ -7,7 +7,7 @@ exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 74%
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Para implementar la plantilla del informe de valoración:
 
 Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico.
 
-Por ejemplo, puede añadir dimensiones adecuadas (como **[!DNL Marketing Channel]**, en este ejemplo) a la métrica **[!UICONTROL Visitantes únicos]** arrastrándolas y soltándolas en el mosaico. Los desgloses de Dimension aparecen en la sección [!UICONTROL Entradas de obtención de detalles] de la diapositiva de detalles **[!UICONTROL Propiedades]**. Puede agregar varias dimensiones a cada mosaico.
+Por ejemplo, puede añadir dimensiones adecuadas (como **[!DNL Marketing Channel]**, en este ejemplo) a la métrica **[!UICONTROL Visitantes únicos]** arrastrándolas y soltándolas en el mosaico. Los desgloses de las dimensiones aparecen en la sección [!UICONTROL Aumentar detalle] de la diapositiva de detalle **[!UICONTROL Propiedades]** específica. Puede agregar varias dimensiones a cada mosaico.
 
 ![Agregar dimensiones](assets/layer_dimensions.png)
 
@@ -154,13 +154,13 @@ Si desea quitar los elementos de dimensión [!UICONTROL No especificados] de los
 
 ## Vista y configuración de propiedades de mosaico {#tiles}
 
-Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con ese mosaico y su diapositiva de detalles. En este carril, puede proporcionar una nueva **Título** para el mosaico y, alternativamente, configure el mosaico aplicando segmentos.
+Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril derecho muestra las propiedades y características asociadas a dicho mosaico y su diapositiva de detalle. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, alternativamente, configurar el mosaico aplicando segmentos.
 
 ![Mosaico de propiedades](assets/properties-tile-new.png)
 
-## Ver diapositivas de detalles {#view-detail-slides}
+## Ver diapositivas de detalle {#view-detail-slides}
 
-Al hacer clic en mosaicos, una ventana emergente dinámica muestra cómo aparece la diapositiva de detalles para el usuario ejecutivo de la aplicación. Puede agregar dimensiones para desglosar los datos según sus necesidades específicas. Si no se ha aplicado una dimensión, la dimensión de desglose será **hour** o **días**, según el intervalo de fechas predeterminado.
+Cuando hace clic en un mosaico, la ventana emergente dinámica le muestra cómo aparece la diapositiva de detalle para el usuario ejecutivo en la aplicación. Puede añadir dimensiones para desglosar los datos según sus necesidades específicas. Si no se ha aplicado una dimensión, la dimensión de desglose será **hour** o **días**, según el intervalo de fechas predeterminado.
 
 Los desgloses refinan el análisis mediante el desglose de métricas por elementos de dimensión como los siguientes:
 
@@ -170,31 +170,31 @@ Los desgloses refinan el análisis mediante el desglose de métricas por element
 
 ![Breakdown_view](assets/break_view.png)
 
-Cada dimensión agregada a la diapositiva de detalles se mostrará en una lista desplegable de la vista de la diapositiva de detalles de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
+Cada dimensión agregada a la diapositiva de detalle se mostrará en una lista desplegable de la vista de la diapositiva de detalle de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
 
-## Personalizar diapositivas de detalle {#customize-detail-slide}
+## Personalización de diapositivas de detalle {#customize-detail-slide}
 
-Las diapositivas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia. Puede modificar el diseño de cada diapositiva de detalle y añadir texto para explicar mejor lo que el usuario final puede ver en los datos. También puede cambiar el tipo de gráfico mediante el menú desplegable .
+Las diapositivas de detalle personalizadas le permiten centrarse aún más en la información que comparte con su audiencia. Puede modificar el diseño de cada diapositiva de detalle y añadir texto para explicar mejor lo que el usuario final puede ver en los datos. También puede cambiar el tipo de gráfico mediante el menú desplegable.
 
-![diapositiva de detalle personalizada](assets/custom-detail-slide.png)
+![Diapositiva de detalle personalizada](assets/custom-detail-slide.png)
 
-### Cambiar el diseño de la diapositiva
+### Cambio del diseño de diapositiva
 
 Cambie el diseño de la diapositiva para centrarse en la información más importante. Por ejemplo, puede cambiar el diseño para mostrar solo un gráfico o una tabla. Para cambiar el diseño de la diapositiva, seleccione uno de los formatos prediseñados.
 
-![Presentación de diapositivas](assets/layout.png)
+![Diseño de diapositivas](assets/layout.png)
 
 También puede cambiar el diseño de la diapositiva arrastrando y soltando los componentes de visualización del carril izquierdo al lienzo. Cada diapositiva de detalle solo puede admitir dos visualizaciones a la vez.
 
-![Cambio de diseño de diapositiva](assets/slide-layout-change.png)
+![Cambio del diseño de diapositiva](assets/slide-layout-change.png)
 
-### Agregar texto descriptivo a una diapositiva
+### Adición de texto descriptivo a una diapositiva
 
-Puede agregar texto para proporcionar información significativa sobre lo que contiene los gráficos o matices sobre los datos.
+Puede añadir texto para proporcionar información significativa acerca de lo que contienen los gráficos o matices sobre los datos.
 
-Para agregar texto a una diapositiva de detalles, seleccione un diseño que muestre la variable `T` o arrastre y suelte el componente de visualización Texto desde el carril izquierdo. El editor de texto se abrirá automáticamente al agregar una nueva visualización de texto o al elegir un diseño de diapositiva con texto. El editor de texto proporciona todas las opciones estándar para dar formato al texto. Puede aplicar estilos de texto como párrafo, encabezados y subencabezados, y aplicar negrita y cursiva. Puede justificar el texto, agregar listas numeradas y con viñetas y agregar vínculos. Cuando haya terminado de editar, seleccione el botón minimizar en la esquina superior derecha del editor de texto para cerrarlo. Para editar texto que ya agregó, seleccione el icono de lápiz para abrir de nuevo el editor de texto.
+Para agregar texto a una diapositiva de detalle, seleccione un diseño que muestre el símbolo `T` o arrastre y suelte el componente de visualización Texto desde el carril izquierdo. El editor de texto se abre automáticamente al agregar una nueva visualización de texto o elegir un diseño de diapositiva con texto. El editor de texto proporciona todas las opciones estándar para dar formato al texto. Puede aplicar estilos de texto como párrafo, encabezados y subencabezados, así como fuentes en negrita y cursiva. Puede justificar el texto, agregar listas con números y viñetas y añadir vínculos. Cuando haya terminado de editar, seleccione el botón de minimizar en la esquina superior derecha del editor de texto para cerrarlo. Si quiere editar texto que ya añadió, seleccione el icono de lápiz para abrir de nuevo el editor de texto.
 
-![Cambio de diseño de diapositiva](assets/add-descriptive-text.png)
+![Cambio del diseño de diapositiva](assets/add-descriptive-text.png)
 
 ## Eliminación de componentes {#remove}
 
