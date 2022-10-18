@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Notas de la versión de Analytics
 breadcrumb-title: Notas de la versión
-user-guide-description: Obtenga información sobre las nuevas funciones y correcciones en Adobe Analytics.
+user-guide-description: Descubra las nuevas funciones y correcciones de Adobe Analytics.
 source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '39'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
