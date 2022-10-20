@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo crear carpetas y subcarpetas en Wo
 keywords: Analysis Workspace
 title: Crear carpetas
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 11%
+source-wordcount: '152'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ Puede agregar una carpeta nueva o una subcarpeta a la lista de proyectos y carpe
 
 >[!NOTE]
 >
->Actualmente, esta funcionalidad está en versión limitada. Algunas pantallas pueden cambiar.
+>Esta función está actualmente en versión beta. Algunas pantallas pueden cambiar.
 
 ## Crear una nueva carpeta
 

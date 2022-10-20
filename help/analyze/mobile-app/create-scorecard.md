@@ -4,10 +4,10 @@ title: Creación de un cuadro de resultados móvil
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -158,11 +158,11 @@ Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril 
 
 ![Mosaico de propiedades](assets/properties-tile-new.png)
 
-## Ver diapositivas de detalle {#view-detail-slides}
+## Ver diapositivas de detalles {#view-detail-slides}
 
-Cuando hace clic en un mosaico, la ventana emergente dinámica le muestra cómo aparece la diapositiva de detalle para el usuario ejecutivo en la aplicación. Puede añadir dimensiones para desglosar los datos según sus necesidades específicas. Si no se ha aplicado una dimensión, la dimensión de desglose será **hour** o **días**, según el intervalo de fechas predeterminado.
+Cuando hace clic en un mosaico, la ventana emergente dinámica le muestra cómo aparece la diapositiva de detalle para el usuario ejecutivo en la aplicación. Puede agregar dimensiones para desglosar los datos según sus necesidades específicas. Si no se ha aplicado ninguna dimensión, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
 
-Los desgloses refinan el análisis mediante el desglose de métricas por elementos de dimensión como los siguientes:
+Los desgloses afinan el análisis mediante el desglose de métricas por elementos de dimensión como los siguientes:
 
 * Métrica Visitantes únicos desglosada por plataforma de publicidad (AMO ID)
 * Visitas desglosadas por categoría de producto (venta minorista)
@@ -174,11 +174,15 @@ Cada dimensión agregada a la diapositiva de detalle se mostrará en una lista d
 
 ## Personalización de diapositivas de detalle {#customize-detail-slide}
 
-Las diapositivas de detalle personalizadas le permiten centrarse aún más en la información que comparte con su audiencia. Puede modificar el diseño de cada diapositiva de detalle y añadir texto para explicar mejor lo que el usuario final puede ver en los datos. También puede cambiar el tipo de gráfico mediante el menú desplegable.
+Las diapositivas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+Puede modificar el diseño de cada diapositiva de detalle y añadir texto para explicar mejor lo que el usuario final puede ver en los datos. También puede cambiar el tipo de gráfico mediante el menú desplegable.
 
 ![Diapositiva de detalle personalizada](assets/custom-detail-slide.png)
 
-### Cambio del diseño de diapositiva
+### Cambio del diseño de la diapositiva
 
 Cambie el diseño de la diapositiva para centrarse en la información más importante. Por ejemplo, puede cambiar el diseño para mostrar solo un gráfico o una tabla. Para cambiar el diseño de la diapositiva, seleccione uno de los formatos prediseñados.
 
@@ -186,13 +190,13 @@ Cambie el diseño de la diapositiva para centrarse en la información más impor
 
 También puede cambiar el diseño de la diapositiva arrastrando y soltando los componentes de visualización del carril izquierdo al lienzo. Cada diapositiva de detalle solo puede admitir dos visualizaciones a la vez.
 
-![Cambio del diseño de diapositiva](assets/slide-layout-change.png)
+![Cambio de diseño de diapositiva](assets/slide-layout-change.png)
 
 ### Adición de texto descriptivo a una diapositiva
 
-Puede añadir texto para proporcionar información significativa acerca de lo que contienen los gráficos o matices sobre los datos.
+Puede agregar texto para proporcionar información significativa acerca de lo que contienen los gráficos o matices sobre los datos.
 
-Para agregar texto a una diapositiva de detalle, seleccione un diseño que muestre el símbolo `T` o arrastre y suelte el componente de visualización Texto desde el carril izquierdo. El editor de texto se abre automáticamente al agregar una nueva visualización de texto o elegir un diseño de diapositiva con texto. El editor de texto proporciona todas las opciones estándar para dar formato al texto. Puede aplicar estilos de texto como párrafo, encabezados y subencabezados, así como fuentes en negrita y cursiva. Puede justificar el texto, agregar listas con números y viñetas y añadir vínculos. Cuando haya terminado de editar, seleccione el botón de minimizar en la esquina superior derecha del editor de texto para cerrarlo. Si quiere editar texto que ya añadió, seleccione el icono de lápiz para abrir de nuevo el editor de texto.
+Para agregar texto a una diapositiva de detalles, seleccione un diseño que muestre el símbolo `T` o arrastre y suelte el componente de visualización Texto desde el carril izquierdo. El editor de texto se abrirá automáticamente al agregar una nueva visualización de texto o al elegir un diseño de diapositiva con texto. El editor de texto proporciona todas las opciones estándar para dar formato al texto. Puede aplicar estilos de texto como párrafo, encabezados y subencabezados, y aplicar negrita y cursiva. Puede justificar el texto, agregar listas con números y viñetas y agregar vínculos. Cuando haya terminado de editar, seleccione el botón minimizar en la esquina superior derecha del editor de texto para cerrarlo. Para editar el texto que ya añadió, seleccione el icono de lápiz para abrir de nuevo el editor de texto.
 
 ![Cambio del diseño de diapositiva](assets/add-descriptive-text.png)
 

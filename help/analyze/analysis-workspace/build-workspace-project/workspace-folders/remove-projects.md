@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo eliminar proyectos de carpetas
 keywords: Analysis Workspace
 title: Eliminar proyectos de carpetas
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 5%
+source-wordcount: '174'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ Para quitar un proyecto de una carpeta, puede moverlo a otra ubicación o elimin
 
 >[!NOTE]
 >
->Actualmente, esta funcionalidad está en versión limitada. Algunas pantallas pueden cambiar.
+>Esta función está actualmente en versión beta. Algunas pantallas pueden cambiar.
 
 >[!NOTE]
 >

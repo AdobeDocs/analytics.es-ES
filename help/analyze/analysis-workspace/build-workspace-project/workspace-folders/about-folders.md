@@ -3,10 +3,10 @@ description: Obtenga información sobre las carpetas en Workspace
 keywords: Analysis Workspace
 title: Información general sobre carpetas
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 2%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ Carpetas en proyectos de Workspace es un sistema de administración de carpetas 
 
 >[!NOTE]
 >
->Actualmente, esta funcionalidad está en versión limitada. Algunas pantallas pueden cambiar.
+>Esta función está actualmente en versión beta. Algunas pantallas pueden cambiar.
 
 Carpetas en proyectos de Workspace ayuda a los usuarios a organizar y categorizar sus proyectos para una mejor recuperación y acceso. Además, una carpeta de empresa compartida permite a los administradores crear y compartir contenido fácilmente con todos los usuarios de Workspace. 
 
