@@ -162,7 +162,7 @@ Al hacer clic en un mosaico en el Generador de cuadros de resultados, el carril 
 
 Cuando hace clic en un mosaico, la ventana emergente dinámica le muestra cómo aparece la diapositiva de detalle para el usuario ejecutivo en la aplicación. Puede agregar dimensiones para desglosar los datos según sus necesidades específicas. Si no se ha aplicado ninguna dimensión, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
 
-Los desgloses afinan el análisis mediante el desglose de métricas por elementos de dimensión como los siguientes:
+Los desgloses afinan el análisis al desglosar las métricas por elementos de dimensión como los siguientes:
 
 * Métrica Visitantes únicos desglosada por plataforma de publicidad (AMO ID)
 * Visitas desglosadas por categoría de producto (venta minorista)
