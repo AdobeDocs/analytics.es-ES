@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+source-git-commit: 10a325b5479b6852fc98ed780f59ee525ec6f51b
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '674'
 ht-degree: 100%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 100%
       + [Resumen de informes en tiempo real](admin/realtime/realtime.md)
       + [Configuración de informes en tiempo real](admin/realtime/t-realtime-admin.md)
       + [Métricas y dimensiones en tiempo real compatibles](admin/realtime/realtime-metrics.md)
+   + [Administrador de actividades de creación de informes](admin/reporting-activity.md)
    + [Cola de informes programados](admin/scheduled-reports-admin.md)
    + Reenvío del lado del servidor {#server-side-forwarding}
       + [Resumen del reenvío del lado del servidor](admin/c-server-side-forwarding/ssf.md)
