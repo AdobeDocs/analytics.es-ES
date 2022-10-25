@@ -4,10 +4,10 @@ title: Administrador de actividades de creación de informes
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 70cfad1a04d17e1007178f32af73988be503fe90
+source-git-commit: 6ab2f39bdfc3a50c2b91f020c98b0e81da8b2b8e
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 1%
+source-wordcount: '406'
+ht-degree: 3%
 
 ---
 
@@ -28,23 +28,21 @@ El Administrador de actividades de informes le permite ver la capacidad de infor
 
 En Adobe Analytics, los administradores acceden a **[!UICONTROL Administrador]** > **[!UICONTROL Administrador de actividades de informes]**.
 
-## Administrar la cola de informes
+## Ver la cola de informes
 
-Al abrir el Administrador de actividades de informes, verá una lista de los grupos de informes base. Los grupos de informes virtuales no se incluyen en esta vista.
+Al abrir la página de información general de Administrador de actividades de informes , verá una lista de los grupos de informes base habilitados.
 
 ![cola de informes](assets/reporting-activity1.png)
 
-Los grupos de informes virtuales añaden complejidad a las solicitudes de informes debido a los niveles adicionales de filtrado y segmentación aplicados. Todas las solicitudes procedentes de los grupos de informes virtuales se combinan y se reducen al grupo de informes base. Por lo tanto, si tiene 10 solicitudes procedentes de 5 VRS, estas son 50 solicitudes en el grupo de informes de nivel base. De esta manera, puede alcanzar la capacidad rápidamente.
-
-Esta es una vista de un VRS cuya capacidad de creación de informes se muestra en tiempo real:
-
-![grupos de informes virtuales](assets/reporting-activity-vrs.png)
+| Elemento de la IU | Descripción |
+| --- | --- |
+| **[!UICONTROL Grupo de informes]** | El grupo de informes base |
+| **[!UICONTROL Grupo de informes virtuales]** | Todos los grupos de informes virtuales que se incluyen en este grupo de informes base. Los grupos de informes virtuales añaden complejidad a las solicitudes de informes debido a los niveles adicionales de filtrado y segmentación aplicados. Todas las solicitudes procedentes de los grupos de informes virtuales se combinan y se reducen al grupo de informes base.<p>Si tiene 10 solicitudes procedentes de 5 VRS, son 50 solicitudes en el grupo de informes de nivel base. De esta manera, puede alcanzar la capacidad rápidamente. |
+| **[!UICONTROL Capacidad de uso]** | En porcentaje, qué parte de la capacidad de informes del grupo de informes se está utilizando, en tiempo real. |
+| **[!UICONTROL Estado]** | Cuatro posibles indicadores de estado: <ul><li>**Rojo - En Capacidad**: El grupo de informes se define como máximo en términos de capacidad de informes.</li><li>**Amarillo - Capacidad de lectura**: Este grupo de informes corre el riesgo de alcanzar su capacidad máxima.</li><li>**Verde: disponible**: Hay mucha capacidad de generación de informes.</li><li>**Gris: no disponible**: El grupo de informes no está configurado para la capacidad de generación de informes.</li></ul> |
 
 Actualice la página para cambiar los resultados.
 
-## Repercusiones de los informes del espacio de trabajo
+## Filtrar grupos de informes
 
-
-
-
-
+Puede filtrar los grupos de informes por
