@@ -3,41 +3,37 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
+source-git-commit: 5f94ac8a04510b99ce8838daf55745f524bffd95
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 100%
+source-wordcount: '1429'
+ht-degree: 95%
 
 ---
 
-# Notas de la versión actuales de Adobe Analytics (octubre de 2022)
+# Notas de la versión actual de Adobe Analytics (octubre/noviembre de 2022)
 
-**Última actualización**: 19 de octubre de 2022
+**Última actualización**: 25 de octubre de 2022
 
 Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
-## Recursos relacionados
-
-* [Notas de la versión anteriores de 2022](/help/release-notes/2022.md)
-* [Notas de la versión de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=es)
-* [Notas de la versión de Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=es)
-* Las últimas actualizaciones de la versión para los [productos de Adobe Experience Cloud](https://business.adobe.com/es/products/adobe-experience-cloud-products.html)
-
 ## Funciones nuevas o actualizadas en Adobe Analytics
 
-| Función | Descripción | [Fecha objetivo](releases.md) |
-| ----------- | ---------- | ------- |
-| Visualización del **[!UICONTROL resumen de métricas clave]** | La visualización del [!UICONTROL resumen de métricas clave] permite ver las tendencias de una métrica importante dentro de un solo periodo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=es) | Despliegue gradual a partir del 5 de octubre de 2022 |
-| Nueva experiencia del usuario en **[!UICONTROL Conjuntos de clasificación]** | La nueva experiencia del usuario proporciona una sola interfaz para administrar clasificaciones y reglas, y mejora la visibilidad de los datos de clasificación propiedad del cliente. [Más información](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=es) | 5 de octubre de 2022 |
-| Aplicación móvil: **Vistas de detalles personalizadas** | Las vistas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia, ya que le dejan enfocarse en lo más importante. Puede modificar el diseño de la vista de detalles asociada a cada mosaico del cuadro de resultados y agregar texto para explicar mejor lo que el usuario final puede ver en los datos.  [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es) | 5 de octubre de 2022 |
-| **Variables de varios valores que no distinguen entre mayúsculas y minúsculas** | Para variables de varios valores que no distinguen entre mayúsculas y minúsculas, los valores que se almacenan en `mvvar1` - `mvvar3` en las fuentes de datos ya no se convertirán en minúsculas automáticamente. En su lugar, las fuentes de datos (y los datos que pasan por el Conector de origen de Analytics a Adobe Experience Platform y CJA) reflejarán el formato original que se pasó desde la página. | 24 de octubre de 2022 |
+| Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
+| ----------- | ---------- | ------- | ---- |
+| Visualización del **[!UICONTROL resumen de métricas clave]** | La visualización del [!UICONTROL resumen de métricas clave] permite ver las tendencias de una métrica importante dentro de un solo periodo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo.  [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=es) | 5 de octubre de 2022 | 19 de octubre de 2023 |
+| **Variables de varios valores que no distinguen entre mayúsculas y minúsculas** | Para variables de varios valores que no distinguen entre mayúsculas y minúsculas, los valores que se almacenan en `mvvar1` - `mvvar3` en las fuentes de datos ya no se convertirán en minúsculas automáticamente. En su lugar, las fuentes de datos (y los datos que pasan por el Conector de origen de Analytics a Adobe Experience Platform y CJA) reflejarán el formato original que se pasó desde la página. | N/A | 24 de octubre de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Correcciones en Adobe Analytics
 
-AN-298512; AN-300117; AN-301754; AN-301584; AN-301685; AN-301783; AN-301818; AN-301825; AN-301834; AN-301965; AN-302095; AN-302189; AN-302269; AN-302290; AN-302301; AN-302348; AN-302531; AN-302533;
+* Se ha corregido un problema por el cual las versiones recientes de MacOS recibían el nombre incorrecto de &quot;Macintosh&quot;. Con esta corrección, la dimensión del sistema operativo empezará a utilizar la numeración de versiones &quot;MacOS&quot;, a partir de MacOS 11. (AN-301834)
+* Se ha corregido un problema con el intervalo de fechas &quot;fechas fijas&quot; en el Report Builder. (AN-303684)
+* Se han corregido problemas con la interfaz de usuario de la fuente de datos que no se cargaba. (AN-303803, AN-303784)
 
+### Otras correcciones
+
+-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-302631; AN-302811; AN-303090; AN-303372; AN-; AN-303428; AN-303429; AN-303432; AN-303434; AN-303437; AN-303438; AN-303519; AN-303610; AN-303656; AN-303659; AN-303663; AN-303664; AN-303818; AN-303823; AN-303837; AN-304036; AN-304195; AN-304321; AN-304325; AN-304339; AN-304356; AN-304435; AN-304457; AN-304509; AN-304519; AN-304534
 
 ## Avisos importantes para los administradores de Adobe Analytics
 
@@ -48,7 +44,6 @@ AN-298512; AN-300117; AN-301754; AN-301584; AN-301685; AN-301783; AN-301818; AN-
 | **[!UICONTROL Detección de anomalías] condiciones de ejecución automática** | 29 de septiembre de 2022 | Hoy en día, [!UICONTROL Detección de anomalías] se ejecuta automáticamente en todas las columnas de tablas de forma libre de series temporales. Para garantizar que los datos estén disponibles para el análisis y que los proyectos se carguen más rápido, Adobe cambiará la forma en que se ejecuta automáticamente la Detección de anomalías. A partir del **26 de octubre de 2022**, [!UICONTROL Detección de anomalías] solo se ejecutará automáticamente en la primera columna de métrica de una tabla. Puede configurar la configuración de la columna para ejecutar la detección de anomalías en otras columnas, en caso de ser necesario. |
 | **Actualización de la nueva base de datos de portadores de NetAcuity** | 26 de septiembre de 2022 | Esta actualización, planeada originalmente para el 5 de octubre de 2022, se ha pospuesto para **enero de 2023**. La información relacionada con el operador de telefonía se almacena en el campo `carrier` en Adobe Analytics Data Warehouse y las fuentes de datos de Analytics cambiarán. Históricamente, el formato de datos de esa columna se ha `<domain>:<ISP>`. Adobe ha mantenido una tabla de búsqueda interna para asignar estos valores `<domain>:<ISP>` en nombres de operadores para la creación de informes en las herramientas con este fin de Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, API de informes, Data Warehouse, LiveStream, etc.). El archivo de búsqueda (`carrier.tsv`) también se proporciona con fuentes de datos para que pueda utilizar las mismas asignaciones.<p>Esta actualización del estado mejora nuestras asignaciones de operadores mediante el uso de una base de datos de operadores más precisa de NetAcuity. El formato de los datos de la columna de operador de las fuentes de datos cambiará en adelante. En lugar de `<domain>:<ISP>`, contendrá un nombre de operador. Adobe seguirá utilizando la tabla de búsqueda para mantener la mayor continuidad posible con los informes anteriores. Herramientas de creación de informes donde Adobe aplica las búsquedas (Analysis Workspace, Reports &amp; Analytics, API de informes, Data Warehouse, LiveStream, etc.) se beneficiarán de asignaciones más precisas. Algunas asignaciones, especialmente para dominios internacionales e ISP, cambiarán más que otras cuando Adobe adopte la nueva base de datos. El archivo de búsqueda del operador de fuentes de datos (`carrier.tsv`) mantendrá las asignaciones antiguas y agregará las nuevas.<p>El conector de origen de Analytics no asigna actualmente el campo de operador, por lo que la creación de informes de operador no está disponible actualmente en Experience Platform, CJA, etc. Por lo tanto, el uso de la nueva base de datos de operadores no afectará a nada en Experience Platform que se base en los datos proporcionados por el Conector de origen de Analytics. |
 | **Asignación de IP a geolocalización mejorada** | 26 de septiembre de 2022 | Nuestro proveedor de búsquedas de IP, Digital Element, está actualizando a un nuevo conjunto de datos mejorado (NetAcuity Pulse) para la asignación de IP a geolocalización. Originalmente planificado para octubre de 2022, Adobe Analytics adoptará este nuevo conjunto de datos en **enero de 2023**. La nueva base de datos será más precisa que las versiones anteriores. Algunas asignaciones de IP a regiones cambiarán o mejorarán cuando se adopte la nueva base de datos.<p>Todas las herramientas de Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, API de informes, Data Warehouse, LiveStream, fuentes de datos, etc.) aprovechará automáticamente las nuevas asignaciones mejoradas. No habrá cambios en el formato de los datos en las fuentes de datos. Los datos de CJA proporcionados a través del conector de origen de Analytics también aprovecharán automáticamente las nuevas asignaciones. |
-| **Actualización de SFTP** | 19 de septiembre de 2022 | Anteriormente, Adobe había comunicado que actualizaría sus servicios de Protocolo seguro de transferencia de archivos (SFTP) en septiembre de 2022 para proporcionar una seguridad mejorada para la transferencia de archivos. Adobe realizó esta actualización el **20 de septiembre de 2022**. Cuando se hizo este cambio, dejaron de admitirse determinadas configuraciones del cliente SFTP. Esto solo afecta a los datos enviados o recuperados de Adobe Analytics mediante SFTP. El protocolo FTP no se ve afectado. Para evitar interrupciones en el servicio, asegúrese de que sus clientes SFTP (código, herramientas y servicios) estén de acuerdo con los cambios detallados [aquí](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=es). |
 | **Pausa de informes programados en Reports &amp; Analytics** | 8 de junio de 2022 | El 21 de abril de 2022, Adobe anunció la retirada de varias funciones específicas de los informes programados, como preparación para el fin de vida útil de Reports &amp; Analytics, previamente comunicado. Estas funciones incluían la capacidad de programar nuevos informes, así como nuevos extractos de datos.<p>En respuesta a las solicitudes de los clientes que buscan una extensión y para facilitar la transición desde Reports &amp; Analytics, Adobe ha decidido ampliar el acceso a estas funciones hasta el **31 de enero de 2023**. Tenga en cuenta que los plazos de caducidad para los informes y los extractos de datos seguirán estando limitados a nueve meses; la entrega de informes y extracciones de datos se pausará al final de este periodo a menos que se reactive la programación.<p>Para reiterar, estas funciones quedarán obsoletas el 31 de enero de 2023. Antes de esta fecha, debe migrar los informes programados a uno de los demás mecanismos disponibles en Adobe Analytics. Para obtener más información o ayuda, póngase en contacto con el Servicio de atención al cliente de Adobe. [Más información](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | **Pausa de tareas programadas en el Report Builder** | 8 de junio de 2022 | El 21 de abril de 2022, Adobe implementó cambios en las tareas programadas en Report Builder como parte de nuestros esfuerzos de optimización del rendimiento y la entrega. Estos cambios incluían la eliminación de la capacidad de que los envíos programados “terminen después de x incidencias”. En respuesta a varias solicitudes de clientes que buscan más tiempo para explorar e implementar alternativas, Adobe ha decidido restaurar esta opción de forma limitada hasta el **31 de enero de 2023**.<p>Puede continuar programando tareas de Report Builder por hora y hacer que finalicen después de un máximo de 99 incidencias. Tenga en cuenta que la reversión solo se aplica a tareas por hora; el evento “terminar después de x incidencias” permanecerá no disponible para todos los demás intervalos de entrega (diario, semanal, mensual y anual). Tenga en cuenta que esta opción quedará obsoleta el 31 de enero de 2023. Para obtener más información o ayuda, póngase en contacto con el Servicio de atención al cliente de Adobe. [Más información](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 
@@ -67,3 +62,10 @@ AN-298512; AN-300117; AN-301754; AN-301584; AN-301685; AN-301783; AN-301818; AN-
 ## AppMeasurement
 
 Para obtener las últimas actualizaciones de las versiones de AppMeasurement (2.23.0), consulte las [notas de la versión de AppMeasurement para JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=es).
+
+## Recursos relacionados
+
+* [Notas de la versión anteriores de 2022](/help/release-notes/2022.md)
+* [Notas de la versión de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=es)
+* [Notas de la versión de Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=es)
+* Las últimas actualizaciones de la versión para los [productos de Adobe Experience Cloud](https://business.adobe.com/es/products/adobe-experience-cloud-products.html)
