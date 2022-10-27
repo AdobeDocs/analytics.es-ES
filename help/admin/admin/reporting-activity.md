@@ -5,10 +5,10 @@ feature: Admin Tools
 mini-toc-levels: 3
 hide: true
 hidefromtoc: true
-source-git-commit: 77b3e8a1f8ebb1459eeac83f098cab92f671efe6
+source-git-commit: 123a2131be1a3cb23246e2ba591be645c7025b26
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 3%
+source-wordcount: '659'
+ht-degree: 7%
 
 ---
 
@@ -40,9 +40,9 @@ Al abrir la página de información general de Administrador de actividades de i
 | **[!UICONTROL Grupo de informes]** | El grupo de informes base cuya actividad de informes está monitorizando. |
 | **[!UICONTROL Grupo de informes virtuales]** | Muestra todos los grupos de informes virtuales que se alimentan de este grupo de informes base. Los grupos de informes virtuales añaden complejidad a las solicitudes de informes debido a los niveles adicionales de filtrado y segmentación aplicados. Todas las solicitudes procedentes de los grupos de informes virtuales se combinan y se reducen al grupo de informes base.<p>Por ejemplo, si tiene 10 solicitudes procedentes de 5 VRS, son 50 solicitudes en el grupo de informes de nivel base. De esta manera, puede alcanzar la capacidad rápidamente. |
 | **[!UICONTROL Capacidad de uso]** | En porcentaje, qué parte de la capacidad de informes del grupo de informes se está utilizando, en tiempo real. |
-| **[!UICONTROL Estado]** | Cuatro posibles indicadores de estado: <ul><li>**Rojo - En Capacidad**: El grupo de informes se define como máximo en términos de capacidad de informes.</li><li>**Amarillo - Capacidad de lectura**: Este grupo de informes corre el riesgo de alcanzar su capacidad máxima.</li><li>**Verde - Todo bien**: Hay mucha capacidad de generación de informes.</li><li>**[!UICONTROL Estado pendiente]**: ?</li><li>**Gris: no disponible**: El grupo de informes no está configurado para la capacidad de generación de informes.</li></ul> |
+| **[!UICONTROL Estado]** | Cuatro posibles indicadores de estado: <ul><li>**Rojo - [!UICONTROL A la capacidad]**: El grupo de informes se define como máximo en términos de capacidad de informes.</li><li>**Amarillo - [!UICONTROL Capacidad de lectura]**: Este grupo de informes corre el riesgo de alcanzar su capacidad máxima.</li><li>**Verde - [!UICONTROL Todo bien]**: Hay mucha capacidad de generación de informes.</li><li>**[!UICONTROL Estado pendiente]**: ?</li><li>**Gris: no disponible**: El grupo de informes no está configurado para la capacidad de generación de informes.</li></ul> |
 
-### Informes de acciones de actividades
+### Otras acciones de actividades de informes
 
 * Haga clic en **[!UICONTROL Actualizar]** en la parte superior derecha para actualizar los resultados.
 * Haga clic en la estrella a la izquierda del nombre del grupo de informes para marcar como favorito este grupo de informes.
@@ -52,5 +52,60 @@ Al abrir la página de información general de Administrador de actividades de i
 
 ## Ver la actividad de informes de grupos de informes individuales
 
+Haga clic en el vínculo de título de un grupo de informes para el que desee ver los detalles.
+
+![grupo de informes](assets/indiv-report-ste.png)
+
+### Gráfico de líneas
+
+El gráfico de líneas muestra la actividad de informes del grupo de informes seleccionado durante las últimas 2 horas.
+
+* El eje x muestra los datos de capacidad de informes de las últimas 2 horas.
+* El eje Y muestra el tiempo de espera promedio para una consulta, en segundos.
+* Puede situarse sobre el gráfico de líneas para ver los puntos en el tiempo y el tiempo de espera promedio para ese instante.
+
+   ![detalle](assets/detail.png)
+
+### Filtro
+
+Puede filtrar la tabla por aplicación (consulte la lista en la tabla siguiente), por usuario y por proyecto.
+
+![filtro](assets/filter.png)
+
+### Números de resumen
+
+![filtro](assets/summary_numbers.png)
+
+Los números de resumen muestran la siguiente información:
+
+| Número de resumen | Descripción |
+| --- | --- |
+| Usuarios | Cuántos usuarios están enviando solicitudes de informes actualmente a este grupo de informes. |
+| Proyectos |  |
+| Consultas |  |
+| Tiempo de espera promedio |  |
+| Capacidad de uso | La capacidad de uso actual de este grupo de informes. |
+
+{style=&quot;table-layout:auto&quot;}
+
+### Tabla
+
+La tabla detallada a continuación muestra
+
+| Columna | Descripción |
+| --- | --- |
+| ID de consulta |  |
+| Tiempo de ejecución |  |
+| Tiempo de espera |  |
+| Hora de inicio |  |
+| de asistencia al cliente | Las aplicaciones compatibles con el Administrador de actividades de informes son: <ul><li>IU de Analysis Workspace</li><li>Proyectos programados de Workspace</li><li>Report Builder</li><li>IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.</li></ul> |
+| Usuario |  |
+| Proyecto |  |
+| Límites del mes |
+| Columnas |  |
+| Segmentos |  |
+| Estado |  |
+
+{style=&quot;table-layout:auto&quot;}
 
 
