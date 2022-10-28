@@ -3,10 +3,10 @@ description: Los segmentos secuenciales se crean mediante el operador THEN, en l
 title: Generar segmentos secuenciales
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
 workflow-type: tm+mt
-source-wordcount: '3864'
-ht-degree: 100%
+source-wordcount: '3827'
+ht-degree: 97%
 
 ---
 
@@ -210,14 +210,7 @@ Cree un segmento como lo haría para un segmento secuencial simple, de nivel mix
 
 Si el punto de comprobación de exclusión se encuentra al inicio de un segmento secuencial, se garantiza que no se ha producido una vista de página excluida antes de la primera visita individual no excluida.
 
-**Ejemplo**: El visitante visitó la página A y no la página B.
-
-**Casos de uso**
-
-A continuación encontrará una serie de ejemplos prácticos de cómo se puede utilizar este tipo de segmento:
-
-* Los visitantes que visitaron la página A y no la página B.
-* Un restaurante quiere ver los usuarios habituales que evitan la página de aterrizaje principal y acceden directamente a la página de pedidos.
+Por ejemplo, un restaurante quiere ver los usuarios habituales que evitan la página de aterrizaje principal y acceden directamente a la página de pedidos. Este ejemplo se puede simplificar para que un visitante evite visitar la página A y vaya directamente a la página B.
 
 **Crear este segmento**
 
@@ -229,14 +222,7 @@ Cree dos contenedores de visita individual separados dentro de un contenedor de 
 
 Si el punto de comprobación de exclusión está al final de la secuencia, se garantiza que el punto de comprobación no se produjo entre el último punto de comprobación no excluido y el final de la secuencia del visitante.
 
-**Ejemplos**: Los visitantes que visitaron la página A y luego no visitaron la B en la visita actual o en visitas posteriores.
-
-**Casos de uso**
-
-A continuación encontrará una serie de ejemplos de cómo se puede utilizar este tipo de segmento:
-
-* Los visitantes que visitaron la página A y no la página B.
-* Un restaurante quiere ver los usuarios habituales que evitan la página de aterrizaje principal y acceden directamente a la página de pedidos.
+Por ejemplo, una tienda de ropa quiere ver todos los visitantes que vieron una página de producto pero que no visitaron más tarde su carro de compras. Este ejemplo se puede simplificar para que un visitante que vaya a la página A nunca vaya a la página B en visitas actuales o posteriores.
 
 **Crear este segmento**
 
