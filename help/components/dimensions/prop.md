@@ -1,12 +1,12 @@
 ---
 title: Prop
-description: Dimensión personalizada que se puede utilizar en sistema de informes.
+description: Dimensión personalizada que se puede usar en los informes.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '469'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ AppMeasurement, que compila variables JavaScript en una solicitud de imagen para
 
 ## Elementos de dimensión
 
-Dado que las props contienen cadenas personalizadas en la implementación, la organización determina los elementos de dimensión de cada propiedad. Asegúrese de registrar el propósito de cada prop y los valores de dimensión típicos en un [documento de diseño de solución](/help/implement/prepare/solution-design.md).
+Dado que las props contienen cadenas personalizadas en la implementación, la organización determina los elementos de dimensión de cada propiedad. Asegúrese de registrar el propósito de cada propiedad y los elementos de dimensión típicos en una [documento de diseño de solución](/help/implement/prepare/solution-design.md).
 
 ## Distinción entre mayúsculas y minúsculas
 

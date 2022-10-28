@@ -5,10 +5,10 @@ uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 61%
+source-wordcount: '363'
+ht-degree: 57%
 
 ---
 
@@ -75,11 +75,12 @@ Como ejemplo, supongamos que tenemos varios vínculos “Buy” (comprar) identi
 
 ## Personalizar el ID del vínculo con s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Al crear un ID de objeto único, `s_objectID`, para un vínculo o una ubicación de vínculo en una página, se puede mejorar el seguimiento del Activity Map o utilizar el Activity Map para informar sobre un tipo o ubicación de vínculo, en lugar de la URL del vínculo. Haga clic [aquí](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=es) para obtener más información sobre la variable `s_objectID`
+Al crear un ID de objeto único, `s_objectID`, para un vínculo o una ubicación de vínculo en una página, puede mejorar el seguimiento del Activity Map o utilizar el Activity Map para informar sobre un tipo o ubicación de vínculo en lugar de la dirección URL del vínculo. Haga clic [aquí](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=es) para obtener más información sobre la variable `s_objectID`
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que se requiere un punto y coma de cierre (`;`) al utilizar `s_objectID` en el Activity Map.
+>Tenga en cuenta que el punto y coma de cierre (`;`) es necesario cuando se utiliza `s_objectID` en Activity Map.
+
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
   <tr>
@@ -135,13 +136,13 @@ Al crear un ID de objeto único, `s_objectID`, para un vínculo o una ubicación
 
 ## Personalizar la región {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-Puede personalizar la región asegurándose de que cada vínculo &quot;Buy&quot; tenga definida su propia región. Para ello, agregue un parámetro `"id"` a uno de los elementos primarios de cada etiqueta de anclaje &quot;Buy&quot;.
+Puede personalizar la región asegurándose de que cada vínculo &quot;Buy&quot; tenga definida su propia región. Para ello, agregue un `"id"` a uno de los elementos principales de cada etiqueta de anclaje &quot;Buy&quot;.
 
 >[!NOTE]
->Se pueden usar otros parámetros como identificadores de región aparte de `"id"`. También puede establecer su propio identificador con la variable `"s.ActivityMap.regionIDAttribute"` de JavaScript.
 >
->
-><table id="table_250DB52A869C466B942517BABA1C287B">
+>No está estrictamente limitado a la variable `"id"` como identificador de región. También puede establecer su propio identificador con la variable JavaScript `"s.ActivityMap.regionIDAttribute"`.
+
+<table id="table_250DB52A869C466B942517BABA1C287B">
  <thead>
   <tr>
    <th colname="col02" class="entry"> Ejemplo de código </th>
@@ -197,11 +198,12 @@ Puede personalizar la región asegurándose de que cada vínculo &quot;Buy&quot;
 ## Personalizar el archivo del módulo Activity Map AppMeasurement {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
-No se olvide de probar el código modificado para asegurarse de que funciona correctamente. Adobe no se responsabiliza por el comportamiento del código modificado.
+>
+>Asegúrese de probar el código modificado para asegurarse de que funciona correctamente. Adobe no se responsabiliza por el comportamiento del código modificado.
 
 A continuación, presentamos un par de ejemplos de funciones de vínculo y región **genéricas** que se pueden incluir (modificadas) en el archivo AppMeasurement.js.
 
-```
+```js
 s.ActivityMap.link = function(ele, linkName) {
   if (linkName) {
     return linkName;
@@ -214,9 +216,9 @@ s.ActivityMap.link = function(ele, linkName) {
 }
 ```
 
-El `linkName` se pasa durante las llamadas a `s.tl()`.
+La variable `linkName` se pasa durante las llamadas a `s.tl()`.
 
-```
+```js
 s.ActivityMap.region = function(ele) {
   var className,
   classNames = {

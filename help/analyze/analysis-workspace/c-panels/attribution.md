@@ -4,10 +4,10 @@ description: Utilizar e interpretar el panel de atribución en Analysis Workspac
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '442'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ El panel [!UICONTROL Atribución] es una forma sencilla de generar un análisis 
 * **Métrica total**: El número total de conversiones que tienen lugar durante el periodo establecido por la ventana de creación de informes. Estas son las conversiones que se atribuyen a través de la dimensión seleccionada.
 * **Barra comparativa de la atribución**: Compara visualmente las conversiones atribuidas en cada uno de los elementos de dimensión de la dimensión seleccionada. Cada color de barra representa un modelo de atribución distinto.
 * **Tabla comparativa de la atribución**: Muestra los mismos datos que el gráfico de barras, representados como una tabla. Al seleccionar distintas columnas o filas en esta tabla, se filtra el gráfico de barras, así como varias de las demás visualizaciones del panel. Esta tabla actúa de manera similar a cualquier otra tabla de forma libre en Workspace, lo que le permite agregar componentes como métricas, segmentos o desgloses.
-* **Diagrama de superposición**: Un diagrama de Venn que muestra los tres elementos de dimensión principales y la frecuencia con la que participan conjuntamente en una conversión. Por ejemplo, el tamaño de la superposición de burbujas indica con qué frecuencia ocurrieron las conversiones cuando un visitante estuvo expuesto a ambos elementos de dimensión. Si se seleccionan otras filas en la Tabla improvisada, se actualizará la visualización para reflejar su selección.
+* **Diagrama de superposición**: Un diagrama de Venn que muestra los tres elementos de dimensión principales y la frecuencia con la que participan conjuntamente en una conversión. Por ejemplo, el tamaño de la superposición de burbujas indica con qué frecuencia ocurrieron las conversiones cuando un visitante estuvo expuesto a ambos elementos de dimensión. Si se seleccionan otras filas en la Tabla de forma libre, se actualizará la visualización para reflejar su selección.
 * **Detalles de rendimiento**: Permite comparar visualmente hasta tres modelos de atribución mediante un diagrama de puntos.
-* **Rendimiento de tendencias**: De forma predeterminada, muestra la tendencia del rendimiento de conversión por modelo de atribución para la primera dimensión enumerada en la tabla de forma libre adyacente. Puede seleccionar diferentes filas de dimensión en la tabla de forma libre para mostrar la tendencia de las dimensiones seleccionadas (como Ingresos totales para cada modelo de atribución de Campañas sociales y Búsqueda de pago). Como alternativa, puede seleccionar celdas en las columnas para cualquier combinación de métrica y tipo de atribución en la tabla improvisada para ver el rendimiento de tendencias por valor de dimensión para los modelos de atribución especificados (como Ingresos totales por canal de marketing mediante la atribución primer y último contacto).
+* **Rendimiento de tendencias**: De forma predeterminada, muestra la tendencia del rendimiento de conversión por modelo de atribución para la primera dimensión enumerada en la tabla de forma libre adyacente. Puede seleccionar diferentes filas de dimensión en la tabla de forma libre para mostrar la tendencia de las dimensiones seleccionadas (como Ingresos totales para cada modelo de atribución de Campañas sociales y Búsqueda de pago). Como alternativa, puede seleccionar celdas en las columnas para cualquier combinación de métrica y tipo de atribución en la tabla de forma libre para ver el rendimiento de tendencias por valor de dimensión para los modelos de atribución especificados (como Ingresos totales por canal de marketing mediante la atribución primer y último contacto).
 * **Flujo**: Permite ver en qué canales hay interacción con más frecuencia y en qué orden a lo largo del recorrido de un visitante.

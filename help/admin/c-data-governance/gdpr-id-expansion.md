@@ -1,12 +1,12 @@
 ---
-description: 'Los ID que envíe no siempre abarcan todos los datos coincidentes que Analytics puede asociar al interesado. Analytics puede crear un conjunto ampliado de ID para incluir estos datos asociados en las solicitudes de privacidad de datos. Puede solicitar esta opción con un parámetro opcional a cada solicitud de privacidad de datos que envíe junto a la solicitud de JSON '
+description: Los ID que envíe no siempre abarcan todos los datos coincidentes que Analytics puede asociar al interesado. Analytics puede crear un conjunto ampliado de ID para incluir estos datos asociados en las solicitudes de privacidad de datos. Puede solicitar esta opción con un parámetro opcional a cada solicitud de privacidad de datos que envíe junto a la solicitud de JSON
 title: Expansión de ID
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: ht
-source-wordcount: '1358'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '1359'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Consulte la [Ejemplos de solicitudes de JSON](/help/admin/c-data-governance/gdpr
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Expansión de ID de cookie </p> </td> 
-   <td colname="col2"> <p>Muchos clientes de Analytics utilizaban originalmente la <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=es">cookie de Analytics</a> (obsoleta), pero ahora usan el <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es">servicio de identidad (ECID)</a>, antes conocido como servicio de Marketing Cloud ID (MCID). Para los visitantes de su sitio web que efectuaran la visita después de la transición, solo existe el ECID. Sin embargo, en el caso de aquellos que realizaran su visita por primera vez cuando solo estaba disponible la cookie heredada, pero hayan vuelto a visitar el sitio después: algunos de sus datos tendrán ambas cookies, pero los más antiguos solo tendrán la cookie de Analytics, mientras que, en muy pocos casos, los datos más nuevos podrían presentar únicamente un ECID. </p> <p>Debe asegurarse de que encuentra todos los datos de un visitante identificado mediante una cookie de Analytics (ID del visitante) o un ECID. Por tanto, si en estos momentos utiliza el ECID y antes usaba la cookie de Analytics, siempre que envíe una solicitud utilizando cualquiera de los tipos de ID, deberá incluir ambos ID, o bien especificar la opción expandIDs. Cuando especifique expandIDs, Adobe buscará otros ECID o cookies de Analytics que correspondan a los ID de cookie que facilite. La solicitud se ampliará automáticamente para incluir los ID de cookie recién identificados. </p> </td> 
+   <td colname="col2"> <p>Muchos clientes de Analytics utilizaban originalmente la <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=es">cookie de Analytics</a> (obsoleta), pero ahora usan el <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es">servicio de identidad (ECID)</a>, antes conocido como servicio de Marketing Cloud ID (MCID). Para los visitantes de su sitio web que efectuaran la visita después de la transición, solo existe el ECID. Sin embargo, en el caso de aquellos que realizaran su visita por primera vez cuando solo estaba disponible la cookie heredada, pero hayan vuelto a visitar el sitio después: algunos de sus datos tendrán ambas cookies, pero los más antiguos solo tendrán la cookie de Analytics, mientras que, en muy pocos casos, los datos más nuevos podrían presentar únicamente un ECID. </p> <p>Asegúrese de encontrar todos los datos de un visitante identificado mediante una cookie de Analytics (ID de visitante) o ECID. Por tanto, si en estos momentos utiliza el ECID y antes usaba la cookie de Analytics, siempre que envíe una solicitud utilizando cualquiera de los tipos de ID, deberá incluir ambos ID, o bien especificar la opción expandIDs. Cuando especifique expandIDs, Adobe buscará otros ECID o cookies de Analytics que correspondan a los ID de cookie que facilite. La solicitud se ampliará automáticamente para incluir los ID de cookie recién identificados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expansión de ID personalizado a ID de cookie </p> </td> 
@@ -60,7 +60,7 @@ Además del valor predeterminado, el campo de prioridad también admite un valor
 
 >[!NOTE]
 >
->La [API del servicio de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=es) sirve para ayudarle a realizar las solicitudes de privacidad de datos, que suelen ser urgentes. Adobe no admite el uso de esta API para otros fines, y ello puede afectar a la capacidad de Adobe para proporcionar el retorno puntual de solicitudes de privacidad de datos iniciadas por los usuarios y de alta prioridad a otros clientes de Adobe. Le rogamos que no use la API del servicio de privacidad para otros fines, por ejemplo, para borrar datos que se hayan enviado por error a grupos de visitantes grandes.
+>La [API del servicio de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) sirve para ayudarle a realizar las solicitudes de privacidad de datos, que suelen ser urgentes. Adobe no admite el uso de esta API para otros fines, y ello puede afectar a la capacidad de Adobe para proporcionar el retorno puntual de solicitudes de privacidad de datos iniciadas por los usuarios y de alta prioridad a otros clientes de Adobe. Le rogamos que no use la API del servicio de privacidad para otros fines, por ejemplo, para borrar datos que se hayan enviado por error a grupos de visitantes grandes.
 
 También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que los detalles relativos al número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API del servicio de privacidad no es apropiada para este uso.
 

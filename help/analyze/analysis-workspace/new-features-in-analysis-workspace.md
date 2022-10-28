@@ -5,10 +5,10 @@ title: Novedades en Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '8276'
-ht-degree: 100%
+source-wordcount: '8277'
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ Consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleag
 
 | Función | Descripción |
 | --- | --- |
-| [Descargar 50.000 elementos para una sola dimensión](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es#download-items) | Ahora puede descargar 50.000 elementos para una sola dimensión en una tabla improvisada, con segmentos y filtros aplicados. Esto le permite acceder a más de 400 filas de datos fuera de Analysis Workspace. |
+| [Descargar 50.000 elementos para una sola dimensión](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es#download-items) | Ahora puede descargar 50.000 elementos para una sola dimensión en una tabla de forma libre, con segmentos y filtros aplicados. Esto le permite acceder a más de 400 filas de datos fuera de Analysis Workspace. |
 | [Mejoras en la visualización de Línea](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Puede mostrar u ocultar el eje X y el eje Y de cualquier visualización de [!UICONTROL Línea]. Esto puede resultar especialmente útil cuando las visualizaciones de [!UICONTROL Línea] son más compactas.</li><li>Puede superponer una etiqueta de valor mínimo y máximo en cualquier visualización de Línea para resaltar rápidamente los picos y los valores de una métrica.</li><li>Puede superponer distintas líneas de tendencia de regresión en cualquier visualización de Línea para ver con mayor facilidad la tendencia en los datos. Las opciones incluyen [!UICONTROL Lineal], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potencia] y [!UICONTROL Cuadrático].</li></ul> |
 | Intervalos de fechas nuevos | Añadimos 5 nuevos intervalos de fechas para que pueda elegir entre intervalos de fechas que no incluyan datos de día parciales de hoy: últimos 7 días completos, últimos 14 días completos, últimos 30 días completos, últimos 60 días completos, últimos 90 días completos. |
 
@@ -88,7 +88,7 @@ Nuevas funciones lanzadas el 21 de mayo de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| Crear automáticamente tablas improvisadas a partir de un estado en blanco | Anteriormente, no se podían soltar componentes directamente en un proyecto o panel en blanco; primero tenía que agregar una tabla improvisada. Ahora puede soltar componentes directamente en un proyecto o panel en blanco, y automáticamente se creará una tabla improvisada en un formato recomendado. Además, se mejoró la forma en que se gestionan los tipos de componentes mixtos (como dimensiones y métricas) al soltarlos juntos en una tabla improvisada en blanco. |
+| Crear automáticamente tablas improvisadas a partir de un estado en blanco | Anteriormente, no se podían soltar componentes directamente en un proyecto o panel en blanco; primero tenía que agregar una tabla de forma libre. Ahora puede soltar componentes directamente en un proyecto o panel en blanco, y automáticamente se creará una tabla de forma libre en un formato recomendado. Además, se mejoró la forma en que se gestionan los tipos de componentes mixtos (como dimensiones y métricas) al soltarlos juntos en una tabla de forma libre en blanco. |
 | Mejoras de accesibilidad | El equipo de Adobe Analytics ha realizado varias mejoras de accesibilidad en Analysis Workspace, incluida la navegación mejorada con el teclado, el contraste de color y la compatibilidad con lectores de pantalla. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=es) |
 
 ## Abril de 2020
@@ -97,7 +97,7 @@ Nueva función lanzada el 16 de abril de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| Crear automáticamente [!UICONTROL tablas improvisadas] a partir de un estado en blanco | Anteriormente, no se podían soltar componentes directamente en un proyecto o panel en blanco; primero tenía que agregar una tabla improvisada. Ahora puede soltar componentes directamente en un proyecto o panel en blanco, y automáticamente se creará una tabla improvisada en un formato recomendado. Además, se mejoró la forma en que se gestionan los tipos de componentes mixtos (p. ej., dimensiones y métricas) al soltarlos juntos en una [!UICONTROL Tabla improvisada] en blanco. |
+| Crear automáticamente [!UICONTROL tablas improvisadas] a partir de un estado en blanco | Anteriormente, no se podían soltar componentes directamente en un proyecto o panel en blanco; primero tenía que agregar una tabla de forma libre. Ahora puede soltar componentes directamente en un proyecto o panel en blanco, y automáticamente se creará una tabla de forma libre en un formato recomendado. Además, se mejoró la forma en que se gestionan los tipos de componentes mixtos (p. ej., dimensiones y métricas) al soltarlos juntos en una [!UICONTROL tabla de forma libre] en blanco. |
 
 ## Marzo de 2020
 
@@ -125,7 +125,7 @@ Nueva función lanzada el 16 de enero de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| [Generador de tablas improvisadas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=es) | Con el Creador de tablas improvisada, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas comerciales más complejas. Los datos no se actualizarán inmediatamente. En su lugar, las actualizaciones se producen después de hacer clic en **[!UICONTROL Generar]**, lo que le ahorra tiempo una vez que sepa qué tabla desea crear. Además, esta función ofrece:<ul><li>**Vista previa**: Puede obtener una vista previa del formato de una tabla antes de dedicar su tiempo a procesar datos reales.</li><li>**Configuración de desglose y filas flexibles**: Puede definir los niveles de fila y desglose para cada fila de dimensión. Anteriormente, el Espacio de trabajo imponía valores predeterminados que no se podían cambiar hasta que se devolvían los datos.</li><li>**Desglose por posición**: Puede definir filas de dimensión para que siempre _se desglosen por posición_ en lugar de _por elemento específico_ (valor predeterminado).</li><li>**Ordenación manual de filas estáticas**: Puede ordenar manualmente las filas estáticas para que las filas de la tabla se muestren exactamente como las necesita. Anteriormente, las filas estáticas solo se podían ordenar por una columna de métrica o alfabéticamente.</li></ul> |
+| [Generador de tablas de forma libre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=es) | Con el Creador de tablas improvisada, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas comerciales más complejas. Los datos no se actualizarán inmediatamente. En su lugar, las actualizaciones se producen después de hacer clic en **[!UICONTROL Generar]**, lo que le ahorra tiempo una vez que sepa qué tabla desea crear. Además, esta función ofrece:<ul><li>**Vista previa**: Puede obtener una vista previa del formato de una tabla antes de dedicar su tiempo a procesar datos reales.</li><li>**Configuración de desglose y filas flexibles**: Puede definir los niveles de fila y desglose para cada fila de dimensión. Anteriormente, el Espacio de trabajo imponía valores predeterminados que no se podían cambiar hasta que se devolvían los datos.</li><li>**Desglose por posición**: Puede definir filas de dimensión para que siempre _se desglosen por posición_ en lugar de _por elemento específico_ (valor predeterminado).</li><li>**Ordenación manual de filas estáticas**: Puede ordenar manualmente las filas estáticas para que las filas de la tabla se muestren exactamente como las necesita. Anteriormente, las filas estáticas solo se podían ordenar por una columna de métrica o alfabéticamente.</li></ul> |
 
 ## Octubre de 2019
 
@@ -133,7 +133,7 @@ Mejoras publicadas el 10 de octubre de 2019.
 
 | Mejora | Descripción |
 |--- |--- |
-| Actualizar a totales de tabla improvisada | Las tablas improvisadas ahora incluyen dos totales, un **[!UICONTROL Total de tabla]** y un **[!UICONTROL Total general]**. La fila Total de la tabla cuenta los [filtros de informe](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=es) aplicados. Anteriormente, solo la segmentación afectaba a los totales. [Obtenga más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=es)<br/>Además, se han agregado las opciones **[!UICONTROL Mostrar totales]** y **[!UICONTROL Mostrar total general]** a la **[!UICONTROL Configuración de columna]**.<br/>Con este cambio a los totales de forma libre, se actualizarán las visualizaciones dependientes (por ejemplo, las visualizaciones de **[!UICONTROL Número de resumen]** vinculadas), así como los datos CSV y PDF exportados. |
+| Actualizar a totales de tabla de forma libre | Las tablas improvisadas ahora incluyen dos totales, un **[!UICONTROL Total de tabla]** y un **[!UICONTROL Total general]**. La fila Total de la tabla cuenta los [filtros de informe](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=es) aplicados. Anteriormente, solo la segmentación afectaba a los totales. [Obtenga más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=es)<br/>Además, se han agregado las opciones **[!UICONTROL Mostrar totales]** y **[!UICONTROL Mostrar total general]** a la **[!UICONTROL Configuración de columna]**.<br/>Con este cambio a los totales de forma libre, se actualizarán las visualizaciones dependientes (por ejemplo, las visualizaciones de **[!UICONTROL Número de resumen]** vinculadas), así como los datos CSV y PDF exportados. |
 | Opción para eliminar No especificado/Ninguno | Se ha añadido la funcionalidad de eliminar “No especificado (Ninguno)” con facilidad a los filtros de informe. |
 | Obsolescencia de los componentes de granularidad morados | Los componentes de hora de granularidad morados (Minuto, Hora, Día, Semana, Mes, Trimestre, Año) han quedado obsoletos. Los componentes de hora morados siempre se han comportado exactamente como sus equivalentes de dimensión naranjas, por lo que este cambio simplificará la experiencia. No es necesario realizar **ninguna acción** si ha utilizado uno de los componentes de tiempo morados en el pasado.<br/>Con este cambio, se ha cambiado de nombre la sección morada **[!UICONTROL Hora]** a **[!UICONTROL Intervalos de fecha]**. |
 
@@ -391,7 +391,7 @@ Nuevas funciones y mejoras publicadas el 12 de abril de 2018.
   </tr>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Nueva configuración de filas</a> </p> </td>
-   <td colname="col2"> <p>La nueva configuración <span class="uicontrol"> Calcular porcentaje por fila </span> obliga a la tabla improvisada a calcular los porcentajes de las celdas en la fila en lugar de en la columna. Esto resulta particularmente útil en los porcentajes de tendencias, como averiguar cómo se comporta un elemento de dimensión en comparación con el resto a lo largo del tiempo. Se activa de forma predeterminada al hacer clic en el icono <span class="uicontrol">Visualizar</span>. </p> </td>
+   <td colname="col2"> <p>La nueva configuración <span class="uicontrol"> Calcular porcentaje por fila </span> obliga a la tabla de forma libre a calcular los porcentajes de las celdas en la fila en lugar de en la columna. Esto resulta particularmente útil en los porcentajes de tendencias, como averiguar cómo se comporta un elemento de dimensión en comparación con el resto a lo largo del tiempo. Se activa de forma predeterminada al hacer clic en el icono <span class="uicontrol">Visualizar</span>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > Configuración de la visualización “Apilada al 100 %”</a> </p> </td>
@@ -486,7 +486,7 @@ Nueva función y mejoras publicadas el 8 de febrero de 2018.
   </tr>
   <tr>
    <td colname="col1"> <p>Mejora al seleccionar los colores o mantener el puntero sobre ellos en las tablas de Workspace </p> </td>
-   <td colname="col2"> <p>La diferencia de colores al mantener el puntero sobre una celda de una tabla improvisada en comparación con el hecho de hacer clic en una celda ahora es más clara. </p> </td>
+   <td colname="col2"> <p>La diferencia de colores al mantener el puntero sobre una celda de una tabla de forma libre en comparación con el hecho de hacer clic en una celda ahora es más clara. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -624,7 +624,7 @@ Nuevas funciones lanzadas el 26 de octubre de 2017.
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Dimensiones integradas, ordenadas en un orden lógico de forma predeterminada </a> </p> </td>
    <td colname="col2"> <p>El criterio de ordenación predeterminado de algunas dimensiones integradas se ha actualizado en estos casos: </p>
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C">
-     <li id="li_FE72ADDCD32A4FF7907462726D6E7758">Cuando se arrastran a una tabla improvisada. </li>
+     <li id="li_FE72ADDCD32A4FF7907462726D6E7758">Cuando se arrastran a una tabla de forma libre. </li>
      <li id="li_5D78DD0DCB7347AC85E260F53109010C">Cuando se ven en el carril izquierdo. </li>
     </ul> <p>Por ejemplo, si se coloca “Hora del día” en una tabla, se ordena de 00 a 23. Sigue existiendo la opción de ordenar por cualquier columna de métrica. </p> </td>
   </tr>
@@ -642,7 +642,7 @@ Nuevas funciones lanzadas el 26 de octubre de 2017.
     <ul id="ul_645B43AC6F554353B887DD58F0AA86E8">
      <li id="li_05B16A84008E4DA3A5DE91AF3C942D55">Panel en blanco: ahora empezamos resaltando todas las visualizaciones que le puede añadir, como Mapa, Visitas en el orden previsto, Flujo, Histograma, Conjunto y Venn. Tiene la opción de guardar este panel como el estado de partida del proyecto predeterminado. </li>
      <li id="li_9F1ED138DB0E453DA6BD4B4A512492CC">El nuevo diseño del carril izquierdo hace que los paneles, las visualizaciones y los componentes sean más visibles y cómodos de usar. </li>
-     <li id="li_5DF6177F0EFD4D4D9D432768DEA3F37D">Tabla improvisada: las tablas vacías improvisada muestran un GIF animado que ilustra el paradigma “arrastrar y colocar” de Analysis Workspace. </li>
+     <li id="li_5DF6177F0EFD4D4D9D432768DEA3F37D">Tabla de forma libre: las tablas vacías improvisada muestran un GIF animado que ilustra el paradigma “arrastrar y colocar” de Analysis Workspace. </li>
     </ul> </td>
   </tr>
  </tbody>
@@ -684,7 +684,7 @@ Nuevas funciones lanzadas el 21 de septiembre de 2017.
   </tr>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477"  > Método de contabilización de accesos de histograma </a> </p> </td>
-   <td colname="col2"> <p>Antes, había dos métodos de contabilización en una visualización de histograma: Visita y Visitante (predeterminado). </p> <p>Ahora, se puede usar un tercer método de contabilización como contenedor de segmentos: “Acceso”. “Ocurrencias” se utiliza como métrica del eje Y en la tabla improvisada. </p> </td>
+   <td colname="col2"> <p>Antes, había dos métodos de contabilización en una visualización de histograma: Visita y Visitante (predeterminado). </p> <p>Ahora, se puede usar un tercer método de contabilización como contenedor de segmentos: “Acceso”. “Ocurrencias” se utiliza como métrica del eje Y en la tabla de forma libre. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p> Botón <span class="uicontrol">Borrar todo</span> para la configuración de Comparación de segmentos y Análisis de contribución </p> </td>
@@ -905,7 +905,7 @@ Nueva función lanzada el 16 de febrero de 2017:
  <tbody>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Desglose por posición </a> </p> </td>
-   <td colname="col2"> <p>Permite el desglose por posición de tabla. Ejemplo: “Siempre quiero desglosadas las 7 filas superiores de una tabla improvisada”. Ahora, cuando crea una tabla improvisada hay una casilla que le permite habilitar “Desglose por posición”. Esta opción está desactivada de manera predeterminada. </p> <p>Anteriormente, la lista de valores en el desglose estaba “bloqueada”. Esto llevaba a una situación en la que, por ejemplo, si realizaba un desglose de <span class="wintitle">Fecha</span> por <span class="wintitle">Página</span>, obtenía una lista de las 50 primeras páginas para el intervalo de fechas seleccionado. </p> <p>Si se guardaba ese informe y se ejecutaba un mes después, era probable que las 50 primeras páginas hubieran cambiado. No obstante, Analysis Workspace “confiaba” en los resultados del desglose original y devolvía las mismas páginas, pero con el mes en curso como intervalo de fechas. </p> </td>
+   <td colname="col2"> <p>Permite el desglose por posición de tabla. Ejemplo: “Siempre quiero desglosadas las 7 filas superiores de una tabla de forma libre”. Ahora, cuando crea una tabla de forma libre hay una casilla que le permite habilitar “Desglose por posición”. Esta opción está desactivada de manera predeterminada. </p> <p>Anteriormente, la lista de valores en el desglose estaba “bloqueada”. Esto llevaba a una situación en la que, por ejemplo, si realizaba un desglose de <span class="wintitle">Fecha</span> por <span class="wintitle">Página</span>, obtenía una lista de las 50 primeras páginas para el intervalo de fechas seleccionado. </p> <p>Si se guardaba ese informe y se ejecutaba un mes después, era probable que las 50 primeras páginas hubieran cambiado. No obstante, Analysis Workspace “confiaba” en los resultados del desglose original y devolvía las mismas páginas, pero con el mes en curso como intervalo de fechas. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -1051,7 +1051,7 @@ Nuevas funciones lanzadas el 20 de octubre de 2016:
 Nuevas funciones lanzadas el 16 de junio de 2016:
 
 * [Nuevo permiso de grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=es) que permite que los administradores permitan o denieguen el acceso a la pestaña **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** a los usuarios. Desde el 16 de junio de 2016, todos los usuarios tienen acceso a esta pestaña. Para denegar el acceso, solo tiene que eliminar usuarios del grupo Acceso a Analysis Workspace.
-* La variable  [El panel Comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) detecta las diferencias más significativas estadísticamente entre dos segmentos a través de un análisis automatizado de cada métrica y dimensión a la cual tenga acceso.
+* La variable  [Panel de comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)detecta las diferencias más significativas estadísticamente entre dos segmentos cualesquiera a través de un análisis automatizado de cada métrica y dimensión a la que tenga acceso.
 * [Estructura del Nuevo menú de proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) que reorganiza el menú de la parte superior y lo hace más extensible. Por ejemplo, para crear un **Panel de cohorte nuevo** ahora tiene que crear un Panel en blanco y arrastrarlo hasta una visualización de Tabla de cohorte.
 * [Nuevo carril izquierdo](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): paneles, visualizaciones, componentes.
 * Un nuevo tipo de [Visualización Venn](/help/analyze/analysis-workspace/visualizations/venn.md) le permite arrastrar hasta tres segmentos y una métrica y construir un diagrama de Venn.

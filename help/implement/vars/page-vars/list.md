@@ -3,10 +3,10 @@ title: list
 description: Variables personalizadas que contienen varios valores en la misma visita.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 50e57e30a50d9c010e8b25b5a7d0afc8926525f5
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 67%
+source-wordcount: '478'
+ht-degree: 63%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 67%
 
 Las variables “list” (lista) son variables personalizadas que se pueden utilizar como desee. Funcionan de manera similar a las eVars, excepto que pueden contener varios valores en la misma visita. Las variables de lista no tienen un límite de caracteres.
 
-Asegúrese de registrar la forma en que utiliza cada variable de lista y su lógica en el [documento de diseño de la solución](../../prepare/solution-design.md).
+Asegúrese de registrar cómo utiliza cada variable de lista y su lógica en su [documento de diseño de solución](../../prepare/solution-design.md).
 
 >[!NOTE]
 >

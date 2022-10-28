@@ -5,10 +5,10 @@ title: Preparación para el uso de fuentes de datos
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '568'
+ht-degree: 96%
 
 ---
 
@@ -48,9 +48,9 @@ Las métricas se pueden definir con varias dimensiones de datos, pero entonces d
 
 Después de definir las dimensiones de datos que se tienen que utilizar con una fuente de datos, asigne los datos de las dimensiones a una variable para integrarlos en los informes de marketing. Utilice informes estándar (por ejemplo, producto, código de seguimiento, palabra clave de búsqueda) o variables de tráfico de conversiones (eVars).
 
-Cuando se usan eVars como dimensiones de datos, pueden ser eVars nuevas o preexistentes. Después de seleccionar una eVar para que reciba una dimensión desde la fuente de datos, no olvide ponerle un nombre adecuado.
+Cuando se usan eVars como dimensiones de datos, pueden ser eVars nuevas o preexistentes. Después de seleccionar un eVar para recibir una dimensión de datos de las fuentes de datos, asegúrese de ponerles el nombre adecuado.
 
-Consulte [Eventos de éxito](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=es) en la ayuda de Analytics.
+Consulte [Eventos de éxito](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) en la ayuda de Analytics.
 
 ## Código de seguimiento de campaña {#section_468222796FF449ABAA90D88EB3264CB1}
 

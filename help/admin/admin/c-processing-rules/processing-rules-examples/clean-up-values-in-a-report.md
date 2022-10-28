@@ -5,11 +5,10 @@ title: Limpiar los valores de un informe
 feature: Admin Tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 exl-id: 109005a3-2ea4-4b61-a733-d1019218ec56
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 84%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 Puede hacer coincidir los valores con los errores de escritura más comunes y actualizarlos de modo que aparezcan correctamente en los informes.
 
-Si se desea garantizar que no coincidirán con otros valores de forma involuntaria, debe utilizarse la opción de coincidencia disponible más restrictiva. Puede ejecutar un informe en la variable (Prop1 en el ejemplo anterior) y buscar los términos que desea reemplazar para asegurarse de que no coinciden con valores no deseados. Al comparar cadenas, no se distingue entre mayúsculas y minúsculas.
+Para asegurarse de que no coinciden con otros valores de forma involuntaria, utilice la opción de coincidencia disponible más restrictiva. Puede ejecutar un informe en la variable (Prop1 en el ejemplo anterior) y buscar los términos que desea reemplazar para asegurarse de que no coinciden con valores no deseados. Al comparar cadenas, no se distingue entre mayúsculas y minúsculas.
 
 | Conjunto de reglas | Valor |
 |---|---|

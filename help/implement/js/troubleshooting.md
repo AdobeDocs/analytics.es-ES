@@ -3,10 +3,10 @@ title: Solución de problemas de implementación de JavaScript
 description: Obtenga más información sobre problemas comunes y prácticas recomendadas para solucionar problemas de la implementación de JavaScript.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '693'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ La mayoría de las variables enviadas a Adobe son cadenas. En JavaScript, puede 
 
 ### Combinación de comillas para definir una variable
 
-Le recomendamos que compruebe que es coherente con los tipos de comillas que utiliza. Si una comilla simple designa el inicio de una cadena, debe utilizarse una comilla simple para cerrarla.
+Como práctica recomendada, asegúrese de que es coherente con los tipos de comillas que utiliza. Si una comilla simple designa el inicio de una cadena, debe utilizarse una comilla simple para cerrarla.
 
 Por ejemplo, tanto `s.eVar1 = 'Value'` como `s.eVar1 = "Value"` son ejemplos válidos. En cambio, `s.eVar1 = 'Value"` no es válido.
 

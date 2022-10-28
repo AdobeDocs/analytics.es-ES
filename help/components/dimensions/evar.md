@@ -1,12 +1,12 @@
 ---
-title: eVar para Dimension
-description: Dimensión personalizada que se puede utilizar en sistema de informes.
+title: eVar (dimensión)
+description: Dimensión personalizada que se puede usar en los informes.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '787'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ AppMeasurement, que compila variables JavaScript en una solicitud de imagen para
 
 ## Elementos de dimensión
 
-Dado que las eVars contienen cadenas personalizadas en la implementación, su organización determina cuáles son los elementos de dimensión para cada eVar. Asegúrese de registrar el propósito de cada eVar y los elementos de dimensión típicos en un [documento de diseño de solución](/help/implement/prepare/solution-design.md).
+Dado que las eVars contienen cadenas personalizadas en la implementación, su organización determina cuáles son los elementos de dimensión para cada eVar. Asegúrese de registrar el propósito de cada eVar y los elementos de dimensión típicos en una [documento de diseño de solución](/help/implement/prepare/solution-design.md).
 
 ## Cómo funcionan las eVars
 

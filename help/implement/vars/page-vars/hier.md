@@ -3,41 +3,50 @@ title: hier
 description: Implementar variables de jerarquía en Adobe Analytics.
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
-source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
+source-git-commit: f435453f655caef89460de42ebecf489b021dc47
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 93%
+source-wordcount: '352'
+ht-degree: 62%
 
 ---
 
 # hier
 
-Las variables de jerarquía son variables personalizadas que permiten ver la estructura de un sitio.
-
->[!TIP]
->
->Esta variable era más común en versiones anteriores de Adobe Analytics. Adobe recomienda usar [eVars](evar.md) y clasificaciones en su lugar.
-
 >[!IMPORTANT]
 >
->La jerarquía no es compatible con la recopilación de datos mediante XDM para Experience Edge.
+>Esta variable desaparece y no es una dimensión disponible en Analysis Workspace. Adobe recomienda usar [eVars](evar.md) y clasificaciones en su lugar.
+
+Las variables de jerarquía son variables personalizadas que permiten ver la estructura de un sitio. Adobe admite hasta 5 variables de jerarquía en la implementación.
 
 Esta variable resulta útil para los sitios que tienen más de tres niveles en la estructura del sitio. Por ejemplo: un sitio de medios puede tener 4 niveles en la sección Deportes: `Sports`, `Local Sports`, `Baseball`, y `Team name`. Si alguien visita la página de béisbol, tanto deportes como deportes locales y béisbol reflejarán esa visita.
 
-Adobe admite hasta 5 variables de jerarquía en la implementación. Al momento de habilitar la jerarquía, determine un delimitador para la variable y el número de niveles de la jerarquía. Por ejemplo, si el delimitador es una coma, la jerarquía tendría un aspecto similar al siguiente:
+Antes de usar jerarquías en la implementación, asegúrese de configurar cada jerarquía en la configuración del grupo de informes.
 
-```js
-s.hier1 = "Sports,Local Sports,Baseball";
-```
+## Jerarquías que utilizan el SDK web
+
+Las jerarquías son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los campos XDM `_experience.analytics.customDimensions.hierarchies.hier1` a `_experience.analytics.customDimensions.hierarchies.hier5`.
+
+## Jerarquías que utilizan la extensión Adobe Analytics
+
+Puede establecer jerarquías al configurar la extensión de Analytics (variables globales) o en reglas.
+
+1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+2. Haga clic en la propiedad de etiquetas deseada.
+3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
+4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
+5. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Establecer variables].
+6. Busque la variable [!UICONTROL Jerarquía] para obtener más información.
+
+Puede establecer un valor de jerarquía en una cadena estática o hacer referencia a un elemento de datos. También puede establecer el delimitador deseado. Asegúrese de que el delimitador que ha establecido aquí coincide con el conjunto de delimitadores definido en la configuración del grupo de informes.
+
+## s.hier1 - s.hier5 en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+
+Cada jerarquía es una cadena que contiene valores personalizados específicos de su organización. Su longitud máxima es de 255 bytes; los valores superiores a 255 bytes se truncan automáticamente cuando se envían a Adobe.
 
 Asegúrese de que ninguno de los nombres de sección contenga un delimitador. Por ejemplo, si llama a una de las secciones `Coach Griffin, Jim`, elija un delimitador que no sea una coma. El límite total de variables es de 255 bytes. Los delimitadores pueden constar de varios caracteres, como `||` o `/|\`, que tienen menos probabilidades de aparecer en los valores de las variables.
 
-## Ejemplos
-
 ```js
-s.hier1="Toys|Boys 6+|Legos|Super Block Tub";
-```
+s.hier1 = "Toys|Boys 6+|Legos|Super Block Tub";
 
-```js
-s.hier4="Sports/Local Sports/Baseball";
+s.hier3 = "Sports/Local Sports/Baseball";
 ```

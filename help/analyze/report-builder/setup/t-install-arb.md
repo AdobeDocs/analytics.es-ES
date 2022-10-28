@@ -5,10 +5,10 @@ uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
 role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 94%
+source-wordcount: '141'
+ht-degree: 74%
 
 ---
 
@@ -27,4 +27,4 @@ Pasos que describen cómo instalar Report Builder.
 
 ## Permisos
 
-Si no ve el **[!UICONTROL Report Builder]** como un elemento de menú en **[!UICONTROL Herramientas]**, pídale al administrador de Adobe Analytics que se asegure de que forma parte de un perfil de productos que incluya los siguientes permisos: &quot;Report Builder&quot;. Obtenga más información sobre [Perfiles de productos](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=es) y [permisos de Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
+Si no ve **[!UICONTROL Report Builder]** como elemento de menú en **[!UICONTROL Herramientas]**, pídale al administrador de Adobe Analytics que se asegure de que forma parte de un perfil de producto que incluya el siguiente permiso: &quot;Report Builder&quot;. Obtenga más información sobre [Perfiles de productos](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=es) y [permisos de Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=es).

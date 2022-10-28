@@ -4,10 +4,10 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 89%
+source-wordcount: '1377'
+ht-degree: 88%
 
 ---
 
@@ -37,7 +37,7 @@ La nueva experiencia de [!UICONTROL flujo] mejora el flujo de trabajo de varias 
 
    * Utilice el menú desplegable para seleccionar métricas o dimensiones.
    * Arrastre elementos desde la lista de dimensiones o métricas.
-   * Utilice la búsqueda para encontrar las métricas o dimensiones que esté buscando.
+   * Utilice la búsqueda para encontrar la dimensión o métrica que está buscando.
 
    Por ejemplo, supongamos que desea rastrear todo lo que conduce a un evento de cierre de compra. Puede arrastrar una dimensión o métrica relacionada con el cierre de compra (por ejemplo, [!UICONTROL Existe un pedido]) en la zona de colocación **[!UICONTROL Finaliza con]**.
 

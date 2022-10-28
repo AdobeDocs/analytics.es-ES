@@ -5,10 +5,10 @@ uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
 role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ Para activar el modo sin conexión:
 
 1. Haga clic en **[!UICONTROL Opciones]** en el menú de Report Builder.
 
-   ![](assets/offline_mode.png)
+   ![Modo sin conexión](assets/offline_mode.png)
 
 1. Active la casilla junto a **[!UICONTROL Activar el modo fuera de línea para la creación y edición de solicitudes]**.
 1. En el campo **[!UICONTROL Mostrar los datos de métrica como]**, introduzca los datos del marcador de posición que desee que se devuelvan en su solicitud. Por ejemplo, introduzca &quot;1&quot;.
@@ -30,8 +30,8 @@ Para activar el modo sin conexión:
 1. Ahora cree y ejecute su solicitud (en modo sin conexión) mediante el Asistente para solicitudes.
 1. Su solicitud con &quot;1&quot; como datos de marcador de posición tendrán un aspecto como este:
 
-   ![](assets/offline_mode_example.png)
+   ![Ejemplo de modo sin conexión](assets/offline_mode_example.png)
 
    >[!IMPORTANT]
    >
-   >Asegúrese de desactivar el modo sin conexión antes de ejecutar sus solicitudes con datos reales. Para ello, simplemente vuelva a **[!UICONTROL Opciones]** y elimine la marca de activación.
+   >Asegúrese de desactivar el modo sin conexión antes de ejecutar las solicitudes con datos reales. Para ello, simplemente vuelva a **[!UICONTROL Opciones]** y elimine la marca de activación.

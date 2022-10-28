@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo migrar las reglas de procesamiento
 title: Migración de las reglas de procesamiento de Mobile Services a Adobe Analytics
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '686'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 93%
 
 ---
 

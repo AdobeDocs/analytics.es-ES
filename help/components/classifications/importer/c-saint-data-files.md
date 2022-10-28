@@ -3,10 +3,10 @@ description: El importador permite realizar cargas masivas de datos de clasifica
 title: Archivos de datos de clasificación
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '1784'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Los archivos de datos deben cumplir las siguientes reglas estructurales:
 * Los archivos actualizados deben usar la codificación de caracteres UTF-8 sin BOM.
 * En una celda se pueden incrustar caracteres especiales, como por ejemplo tabulaciones, líneas nuevas y comillas, siempre que el formato de archivo especificado sea v2.1 y que en la celda se hayan usado convenientemente [secuencias de escape](/help/components/classifications/importer/t-classifications-escape-data.md). Los caracteres especiales incluyen:
 
-   ```
+   ```text
    \t     tab character 
    \r     form feed character 
    \n    newline character 
@@ -53,7 +53,7 @@ Los archivos de datos deben cumplir las siguientes reglas estructurales:
    * v2.0 ignora las comillas y supone que todas forman parte de las claves y los valores especificados. Por ejemplo, considere este valor: &quot;Este es &quot;&quot;un valor&quot;&quot;&quot;. v2.0 lo interpretaría literalmente como: &quot;Este es &quot;&quot;un valor&quot;&quot;&quot;.
    * v2.1 indica a las clasificaciones que supongan que las comillas forman parte del formato del archivo utilizado en archivos de Excel. Entonces, v2.1 aplicaría el siguiente formato para el ejemplo anterior: Este es &quot;un valor&quot;.
    * Pueden surgir problemas cuando se especifica v2.1 en el archivo, pero lo que realmente se desea es v2.0, concretamente, cuando las comillas se utilizan de formas que son ilegales según el formato de Excel. Por ejemplo, si tiene un valor: &quot;VP SIN REPS&quot; S/l Dress w/ Overlay. Con v2.1, este formato es incorrecto (el valor debería estar comprendido entre comillas de apertura y cierre, y las comillas que forman parte del valor real deberían estar especificadas con comillas) y las clasificaciones no funcionarán más allá de este punto.
-   * Asegúrese de realizar una de las siguientes acciones: cambiar el formato de archivo a v2.0 al cambiar el encabezado (celda C1) en los archivos que carga, O implementar correctamente el entrecomillado de Excel en todos los archivos.
+   * Asegúrese de realizar una de las siguientes acciones: cambie el formato de archivo a v2.0 cambiando el encabezado (celda C1) en los archivos que cargue O implemente correctamente el entrecomillado de Excel en todos los archivos.
 
 * La primera fila (que no es de comentario) del archivo de datos contiene los encabezados de columna que se usan para identificar los datos de clasificación de esa columna. El importador requiere un formato específico para los encabezados de columna. Para obtener más información, consulte [Formato de encabezado de columna](/help/components/classifications/importer/c-saint-data-files.md).
 * Justo después de la fila del encabezado de los archivos de datos, están las filas de datos. Cada línea de datos debe contener un campo de datos por cada encabezado de columna.
@@ -155,7 +155,7 @@ Estos caracteres tienen un significado especial dentro de un archivo de datos. C
 
 **Ejemplo:** Si la Campaña A tuvo un coste de 10 000 $, la columna [!UICONTROL Campaigns^~Cost] contiene un valor de 10 000 y la columna [!UICONTROL Campaigns^~Cost~per] contiene [!UICONTROL FIJO]. Al mostrar el Coste de la Campaña A en los informes, verá 10 000 $ como el coste fijo de la Campaña A correspondiente al intervalo de fechas.
 
-**Ejemplo:** si la Campaña B cuesta aproximadamente 2 $ por clic, la columna [!UICONTROL Campaigns^~Cost] contiene 2 y la columna **[!UICONTROL Campaigns^~Cost~per]** contiene [!UICONTROL CLICK]. Al mostrar el Coste de la Campaña B en los informes, Adobe calcula (2 * [número de clics]) de inmediato para el intervalo de fechas del informe. Esto le proporciona un cálculo del coste total basado en el número de clics realizados con la Campaña B.
+**Ejemplo:** si la Campaña B cuesta aproximadamente 2 $ por clic, la columna [!UICONTROL Campaigns^~Cost] contiene 2 y la columna **[!UICONTROL Campaigns^~Cost~per]** contiene [!UICONTROL CLICK]. Al mostrar el Coste de la Campaña B en los informes, el Adobe se calcula (2 &#42; [número de clics]) sobre la marcha para el intervalo de fechas del informe. Esto le proporciona un cálculo del coste total basado en el número de clics realizados con la Campaña B.
 
 ### Fecha
 
@@ -203,4 +203,4 @@ Para clasificar campañas basadas en intervalos de fechas:
 
 ## Clasificaciones de resolución de errores
 
-* [Problemas comunes de la carga](https://helpx.adobe.com/es/analytics/kb/common-saint-upload-issues.html): Artículo de la base de conocimiento que describe los problemas que surgen de los formatos de archivo y del contenido de archivo incorrectos.
+* [Problemas comunes de la carga](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Artículo de la base de conocimiento que describe los problemas que surgen de los formatos de archivo y del contenido de archivo incorrectos.

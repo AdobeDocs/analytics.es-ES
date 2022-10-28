@@ -1,12 +1,12 @@
 ---
-description: Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identidad, confidencialidad y control de datos a cada variable de un grupo de informes determinado. Asegúrese de familiarizarse primero con las etiquetas y sus definiciones.
+description: Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identidad, confidencialidad y control de datos a cada variable de un grupo de informes determinado.
 title: Etiquetado de datos de grupos de informes
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '964'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '967'
+ht-degree: 97%
 
 ---
 
@@ -22,11 +22,11 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
 
 **Ejemplo**: Usted, como responsable del tratamiento de datos, pretende recopilar direcciones de correo electrónico e ID de cookie de los interesados para tratar sus solicitudes de privacidad de datos. Estos ID de cookie se almacenan en un grupo de informes en Adobe Analytics. Si desea crear una etiqueta para direcciones de correo electrónico e ID de cookie, debe usar el marco de etiquetado y aplicación del uso de los datos (DULE) de Adobe Cloud Platform en Analytics.
 
-1. En Analytics, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Control de datos]** > **[!UICONTROL (seleccione el grupo de informes)]** ![](assets/privacy_rs_settings.png)
+1. En Analytics, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Control de datos]** > **[!UICONTROL (seleccione el grupo de informes)]** ![Configuración de privacidad](assets/privacy_rs_settings.png)
 
 1. Seleccione el grupo de variables que desea etiquetar.
 
-   ![](assets/variables.png)
+   ![Variables](assets/variables.png)
 
    * **Dimensiones estándar** (dimensiones predefinidas de Adobe Analytics)
    * **Métricas estándar** (métricas predefinidas de Adobe Analytics)
@@ -39,11 +39,11 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
 
 1. (Opcional) Haga clic en el icono de información (i) junto a cada variable para comprender mejor sus valores más comunes a lo largo de los últimos 90 días. (Esta funcionalidad no está disponible para las dimensiones de procesamiento de datos porque no está disponible en la interfaz de Analytics).
 
-   ![](assets/info.png)
+   ![Información](assets/info.png)
 
 1. Para seleccionar una o más variables, haga clic en sus casillas de verificación y, después, seleccione el icono **[!UICONTROL Editar]** (a la derecha) para editar una o más variables.
 
-   ![](assets/edit.png)
+   ![Editar](assets/edit.png)
 
 1. El cuadro de diálogo de etiquetas de **datos de identidad** se abre automáticamente. Estas etiquetas clasifican los datos que se pueden usar por sí mismos o en combinación con otros datos para identificar a una persona o permitir ponerse en contacto de forma directa con ella. Para obtener más información sobre estas etiquetas, consulte [Etiquetas de datos de identidad (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
 
@@ -51,15 +51,15 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
    >
    >El marco de etiquetado y aplicación del uso de los datos (Data Usage Labeling &amp; Enforcement, DULE) se ha diseñado para proporcionar una manera uniforme de recopilar, comunicar y usar metadatos de los datos de soluciones, servicios y plataformas en Adobe Experience Cloud. Los metadatos ayudan a los responsables del tratamiento de datos a indicar qué datos son información personal, cuáles son datos confidenciales y qué restricciones contractuales están asociadas a los datos.
 
-   ![](assets/identity_labels.png)
+   ![Etiquetas de identidad](assets/identity_labels.png)
 
 1. Abra la sección **Datos confidenciales** para establecer las etiquetas de datos confidenciales, la cual organiza por categorías los datos de geolocalización. Para obtener más información sobre estas etiquetas, consulte [Etiquetas de datos confidenciales (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
-   ![](assets/sensitive_data.png)
+   ![Datos confidenciales](assets/sensitive_data.png)
 
 1. Abra la sección de datos de privacidad de datos para establecer las etiquetas de **Administración de datos**. Utilice esta sección para instruir cómo gestiona Adobe cada variable de solicitudes de eliminación y acceso de privacidad de datos, así como para la definición de qué variables deben analizarse para encontrar ID de interesados para estas solicitudes. Para obtener más información sobre estas etiquetas, consulte [Etiquetas de administración de datos (Privacidad de datos).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
-   ![](assets/privacy_labels.png)
+   ![Etiquetas de privacidad](assets/privacy_labels.png)
 
 1. Haga clic en **[!UICONTROL Aplicar]** una vez haya completado todo el etiquetado.
 
@@ -71,7 +71,7 @@ Si desea aplicar la misma configuración de DULE/Privacidad de datos más de un 
 1. Seleccione algunas o todas las variables de este grupo.
 1. Haga clic en **[!UICONTROL Copiar etiquetas en los grupos de informes]** en la parte superior derecha del cuadro de diálogo Control de datos.
 
-   ![](assets/apply_as_template.png)
+   ![Aplicar como plantilla](assets/apply_as_template.png)
 
 1. Haga clic en **[!UICONTROL Seleccionar todo]** para copiar las etiquetas para las variables seleccionadas en todos los grupos de informes o seleccione el grupo de informes individual en que desea copiar las etiquetas.
 
