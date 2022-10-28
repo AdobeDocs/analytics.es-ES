@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo utilizar el administrador de activ
 title: Administrador de actividades de creación de informes
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
+source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '942'
 ht-degree: 7%
 
 ---
@@ -45,6 +45,8 @@ Al abrir la página de información general de Administrador de actividades de i
 | **[!UICONTROL Grupo de informes virtuales]** | Muestra todos los grupos de informes virtuales que se alimentan de este grupo de informes base. Los grupos de informes virtuales añaden complejidad a las solicitudes de informes debido a los niveles adicionales de filtrado y segmentación aplicados. Todas las solicitudes procedentes de los grupos de informes virtuales se combinan y se reducen al grupo de informes base.<p>Por ejemplo, si tiene 10 solicitudes procedentes de 5 VRS, son 50 solicitudes en el grupo de informes de nivel base. De esta manera, puede alcanzar la capacidad rápidamente. |
 | **[!UICONTROL Capacidad de uso]** | En porcentaje, qué parte de la capacidad de informes del grupo de informes se está utilizando, en tiempo real. |
 | **[!UICONTROL Estado]** | Cuatro posibles indicadores de estado: <ul><li>**Rojo - [!UICONTROL A la capacidad]**: El grupo de informes se define como máximo en términos de capacidad de informes. (95 % - 100 %) </li><li>**Amarillo - [!UICONTROL Capacidad de lectura]**: Este grupo de informes corre el riesgo de alcanzar su capacidad máxima. (90 % - 94 %)</li><li>**Verde - [!UICONTROL Todo bien]**: Hay mucha capacidad de generación de informes. (0 % - 90 %)</li><li>**Gris [!UICONTROL Estado pendiente]**: ?</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Otras acciones de actividades de informes
 
