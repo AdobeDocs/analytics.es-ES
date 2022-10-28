@@ -5,7 +5,7 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 97%
@@ -13,6 +13,8 @@ ht-degree: 97%
 ---
 
 # Ejecutar diferentes tipos de informes
+
+{{ra-eol}}
 
 Pasos para ejecutar los distintos tipos de informes.
 
@@ -69,7 +71,7 @@ Consulte el sistema de ayuda de [Canal de mercadotecnia](/help/components/c-mark
 
 ## Ejecutar un informe de detección de anomalías {#task_4808C96327354D789C075823F5C3A049}
 
-Puede ejecutar [Detección de anomalías y Análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=es) solo en Analysis Workspace.
+Puede ejecutarse [Detección de anomalías y análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=es) solo en Analysis Workspace.
 
 ## Ejecutar un informe en tiempo real {#task_5D25929C918E40B18965222FA94176B0}
 

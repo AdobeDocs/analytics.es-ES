@@ -3,10 +3,10 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5f94ac8a04510b99ce8838daf55745f524bffd95
+source-git-commit: 96488440c73acfdc015560012de5481368baed8a
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 95%
+source-wordcount: '1425'
+ht-degree: 94%
 
 ---
 
@@ -54,7 +54,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | Final de la vida útil de producto o función | Fecha de incorporación o actualización | Descripción |
 | --- | --- | --- |
 | **Funcionalidad del final de vida útil de las [!UICONTROL Listas de publicación]** | 29 de septiembre de 2022 | Como parte del final de la vida útil de Reports &amp; Analytics, las Listas de publicación están programadas para llegar al final de su vida útil en **diciembre de 2023**. No podrá crear Listas de publicación nuevas ni acceder a las existentes para enviar o programar proyectos de Analysis Workspace. [Más información](/help/admin/admin/publishing-list.md) |
-| **Fin de la vida útil para Data Workbench** | 14 de septiembre de 2022 | Adobe tiene planeado el fin de la vida útil de Data Workbench con fecha de aplicación el **31 de diciembre de 2023**. Póngase en contacto con su representante del Servicio de atención al cliente para ver soluciones alternativas a Data Workbench o si tiene alguna pregunta. [Más información](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=es) |
+| **Fin de la vida útil para Data Workbench** | 14 de septiembre de 2022 | Adobe tiene planeado el fin de la vida útil de Data Workbench con fecha de aplicación el **31 de diciembre de 2023**. Consulte [anuncio de fin de vida útil de Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=es) para obtener más información. Póngase en contacto con el administrador de cuentas de Adobe de su organización si tiene alguna pregunta. |
 | **EOL para [!DNL Reports & Analytics]** | 4 de enero de 2022 | A partir del **31 de diciembre de 2023**, Adobe tiene la intención de descatalogar [!DNL Reports & Analytics] y sus informes y funciones correspondientes. Los informes, las visualizaciones y la tecnología subyacente que alimentan [!DNL Reports & Analytics] ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de [!DNL Reports & Analytics] están disponibles en [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de [!DNL Reports & Analytics] se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. [Este aviso](https://spark.adobe.com/page/6WnF8JK6IRDhf/) explica el proceso de finalización de la vida útil. |
 
 {style=&quot;table-layout:auto&quot;}

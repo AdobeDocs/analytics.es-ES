@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y Activity Map.
-source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 98%
+source-wordcount: '1059'
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 98%
    + Proyectos {#build-workspace-project}
       + [Información general sobre Proyectos](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Guardar proyectos](analysis-workspace/build-workspace-project/save-projects.md)
-      + Carpetas en Workspace {#workspace-folders}
-         + [Acerca de las carpetas en Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+      + Carpetas de Workspace {#workspace-folders}
+         + [Acerca de las carpetas de Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Crear carpetas y subcarpetas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Agregar proyectos](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Eliminar un proyecto](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
@@ -305,7 +305,6 @@ ht-degree: 98%
       + [Menú Informes](reports-analytics/overview/reports-menu.md)
       + [Características de los informes](reports-analytics/overview/report-overview.md)
       + [Términos comunes](reports-analytics/overview/overview-common-terms.md)
-      + [Adobe Analytics para iOS](reports-analytics/overview/app-ios.md)
    + [Configuración de visualización de informes y navegación](reports-analytics/report-settings.md)
    + [Programación y distribución del informe](reports-analytics/scheduling.md)
    + [Aviso de fin de vida útil para informes programados](reports-analytics/scheduled-reports-eol.md)

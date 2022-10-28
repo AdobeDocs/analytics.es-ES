@@ -5,14 +5,16 @@ keywords: prácticas recomendadas; error; tiempo de ejecución; solución de pro
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 1c09f514-42ab-4698-bdee-d1b509da3f11
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%
 
 ---
 
 # Prácticas recomendadas y resolución de problemas de la creación de informes
+
+{{ra-eol}}
 
 *Esta página de ayuda se refiere a las prácticas recomendadas de Reports &amp; Analytics. Para obtener más información sobre Analysis Workspace, consulte [Optimización del rendimiento de Analysis Workspace](../analysis-workspace/workspace-faq/optimizing-performance.md). Para Data Warehouse, consulte [Prácticas recomendadas sobre Data Warehouse](/help/export/data-warehouse/data-warehouse-bp.md).*
 

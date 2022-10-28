@@ -5,14 +5,16 @@ title: Paneles e informes breves
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 100%
 
 ---
 
 # Paneles e informes breves
+
+{{ra-eol}}
 
 Un tablero es una colección de informes en miniatura, llamados informes breves. Un tablero es más útil cuando contiene informes breves relacionados que le ofrecen información general completa sobre determinados aspectos de su sitio, como métodos de búsqueda, perfiles de visitantes, etc.
 

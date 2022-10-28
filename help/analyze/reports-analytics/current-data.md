@@ -3,17 +3,19 @@ description: La opción Incluir datos actuales de Reports & Analytics le permite
 subtopic: Current Data
 title: Datos actuales
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-feature: Conceptos básicos de Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '566'
 ht-degree: 97%
 
 ---
 
 # Datos actuales
+
+{{ra-eol}}
 
 La opción Incluir datos actuales de Reports &amp; Analytics le permite ver los datos de Analytics más recientes, con frecuencia antes incluso de que dichos datos se hayan completado y procesado totalmente. Datos actuales muestra la mayoría de las métricas en cuestión de minutos y proporciona datos procesables que facilitan una toma de decisiones rápida.
 

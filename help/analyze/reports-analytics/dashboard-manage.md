@@ -3,17 +3,19 @@ description: Utilice el administrador de paneles para copiar, compartir, archiva
 subtopic: Dashboards
 title: Administrador de tableros
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Conceptos básicos de Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '794'
 ht-degree: 98%
 
 ---
 
 # Administrador de tableros
+
+{{ra-eol}}
 
 Utilice el administrador de paneles para copiar, compartir, archivar y programar tableros para su envío.
 
@@ -35,7 +37,7 @@ Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UIC
 
 Los pasos describen cómo usar las opciones de administración del tablero compartido.
 
-1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Paneles]**.
+1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Tableros]**.
 1. En [!UICONTROL Tableros compartidos], localice el tablero compartido (o tablero preexistente) que desee administrar y elija una o más de las siguientes opciones:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 

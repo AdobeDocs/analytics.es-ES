@@ -4,14 +4,16 @@ description: Dimensiones y métricas que utiliza Reports & Analytics para cada i
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
 
 ---
 
 # Informes
+
+{{ra-eol}}
 
 Cada informe de Reports &amp; Analytics utiliza una dimensión dedicada y una métrica predeterminada. Puede cambiar la métrica en cada informe y agregar desgloses si lo desea. Las siguientes listas indican qué dimensión se utiliza en cada informe.
 

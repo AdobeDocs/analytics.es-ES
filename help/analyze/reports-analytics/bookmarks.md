@@ -6,7 +6,7 @@ uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-source-git-commit: 029c6b168756448d01d73dd5e92cbe9df70e3f57
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 98%
@@ -14,6 +14,8 @@ ht-degree: 98%
 ---
 
 # Administrador de marcadores
+
+{{ra-eol}}
 
 Los marcadores le permiten acceder a los informes que utiliza con mayor frecuencia. Los marcadores que cree se añadirán a Experience Cloud y estarán disponibles en funciones integradas como los conectores de datos.
 
