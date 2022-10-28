@@ -3,7 +3,7 @@ description: Obtenga información sobre cómo utilizar el administrador de activ
 title: Administrador de actividades de creación de informes
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: eb9400e20fe6f5e4a3cecfde85e8dc1428db9d1b
+source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 7%
@@ -17,7 +17,9 @@ ht-degree: 7%
 >
 >Esta funcionalidad se encuentra actualmente en fase de prueba beta.
 
-El Administrador de actividades de informes le permite ver la capacidad de informes de cada grupo de informes de su organización. Como administrador, le ofrece una visibilidad detallada del consumo de los informes y le ayuda a diagnosticar y solucionar problemas de capacidad durante las horas de mayor actividad de los informes. Cuando su organización llega a la capacidad de las solicitudes de informes y experimenta una degradación en el rendimiento de los informes, ahora tiene una forma de autodiagnosticar los problemas de los informes sin intervención del servicio de atención al cliente o ingeniería de Adobe. Puede administrar fácilmente las colas de informes dentro de una sola interfaz y actuar inmediatamente &#x200B; &#x200B; para mejorar la experiencia de los usuarios. Esta herramienta:
+El Administrador de actividades de informes le permite ver la capacidad de informes de cada grupo de informes de su organización. Como administrador, le ofrece una visibilidad detallada del consumo de los informes y le ayuda a diagnosticar y solucionar problemas de capacidad durante las horas de mayor actividad de los informes.
+
+Cuando su organización llega a la capacidad de las solicitudes de informes y experimenta una degradación en el rendimiento de los informes, ahora tiene una forma de autodiagnosticar los problemas de los informes sin intervención del servicio de atención al cliente o ingeniería de Adobe. Puede administrar fácilmente las colas de informes dentro de una sola interfaz y actuar inmediatamente &#x200B; &#x200B; para mejorar la experiencia de los usuarios. Esta herramienta:
 
 * Le informa, en tiempo real, sobre su capacidad actual de creación de informes en sus grupos de informes.
 * Proporciona información detallada de las consultas de informes sobre solicitudes de informes actuales, tanto si están en cola como en curso.
