@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo utilizar el administrador de activ
 title: Administrador de actividades de creación de informes
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
+source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '919'
 ht-degree: 7%
 
 ---
@@ -44,7 +44,7 @@ Al abrir la página de información general de Administrador de actividades de i
 | **[!UICONTROL Grupo de informes]** | El grupo de informes base cuya actividad de informes está monitorizando. |
 | **[!UICONTROL Grupo de informes virtuales]** | Muestra todos los grupos de informes virtuales que se alimentan de este grupo de informes base. Los grupos de informes virtuales añaden complejidad a las solicitudes de informes debido a los niveles adicionales de filtrado y segmentación aplicados. Todas las solicitudes procedentes de los grupos de informes virtuales se combinan y se reducen al grupo de informes base.<p>Por ejemplo, si tiene 10 solicitudes procedentes de 5 VRS, son 50 solicitudes en el grupo de informes de nivel base. De esta manera, puede alcanzar la capacidad rápidamente. |
 | **[!UICONTROL Capacidad de uso]** | En porcentaje, qué parte de la capacidad de informes del grupo de informes se está utilizando, en tiempo real. |
-| **[!UICONTROL Estado]** | Cuatro posibles indicadores de estado: <ul><li>**Rojo - [!UICONTROL A la capacidad]**: El grupo de informes se define como máximo en términos de capacidad de informes. (95 % - 100 %) </li><li>**Amarillo - [!UICONTROL Capacidad de lectura]**: Este grupo de informes corre el riesgo de alcanzar su capacidad máxima. (90 % - 94 %)</li><li>**Verde - [!UICONTROL Todo bien]**: Hay mucha capacidad de generación de informes. (0 % - 90 %)</li><li>**Gris [!UICONTROL Estado pendiente]**: ?</li></ul> |
+| **[!UICONTROL Estado]** | Cuatro posibles indicadores de estado: <ul><li>**Rojo - [!UICONTROL A la capacidad]**: El grupo de informes se define como máximo en términos de capacidad de informes. (100%) </li><li>**Amarillo - [!UICONTROL Capacidad de lectura]**: Este grupo de informes corre el riesgo de alcanzar su capacidad máxima. (90 % - 99 %)</li><li>**Verde - [!UICONTROL Todo bien]**: Hay mucha capacidad de generación de informes. (0 % - 89 %)</li><li>**Gris [!UICONTROL Estado pendiente/No habilitado]**: Capacidad de los informes no disponible.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -86,11 +86,11 @@ Los números de resumen muestran la siguiente información:
 
 | Número de resumen | Descripción |
 | --- | --- |
-| Usuarios | Cuántos usuarios están enviando solicitudes de informes actualmente a este grupo de informes. |
-| Proyectos | Proyectos de Workspace, libros de Report Builder, etc. |
-| Consultas | Número de consultas que se están ejecutando actualmente. |
-| Tiempo de espera promedio | El tiempo de espera promedio para todas las consultas en ejecución. |
-| Capacidad de uso | La capacidad de uso actual de este grupo de informes. |
+| [!UICONTROL Usuarios] | Cuántos usuarios están enviando solicitudes de informes actualmente a este grupo de informes. |
+| [!UICONTROL Proyectos] | Proyectos de Workspace, libros de Report Builder, etc. |
+| [!UICONTROL Consultas] | Número de consultas que se están ejecutando actualmente. |
+| [!UICONTROL Tiempo de espera promedio] | El tiempo de espera promedio para todas las consultas en ejecución. |
+| [!UICONTROL Capacidad de uso] | La capacidad de uso actual de este grupo de informes. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -100,17 +100,17 @@ La tabla detallada a continuación muestra los detalles del grupo de informes.
 
 | Columna | Descripción |
 | --- | --- |
-| ID de consulta | Se puede utilizar para solucionar problemas. |
-| Tiempo de ejecución | Cuánto tiempo lleva ejecutándose la consulta. |
-| Tiempo de espera | El tiempo que la consulta ha estado esperando antes de procesarse. Generalmente en &quot;0&quot; cuando hay suficiente capacidad. |
-| Hora de inicio | Cuando la consulta comenzó a procesarse (hora local del administrador). |
-| de asistencia al cliente | Las aplicaciones compatibles con el Administrador de actividades de informes son: <ul><li>IU de Analysis Workspace</li><li>Proyectos programados de Workspace</li><li>Report Builder</li><li>IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.</li><li>Llamadas de API desde la API 1.4 o 2.0 (5 solicitudes simultáneas)</li><li>Alertas inteligentes</li></ul> |
-| Usuario | El usuario que inició la consulta. |
-| Proyecto | Proyectos de Workspace, libros de Report Builder, etc. |
-| Límites del mes | ¿Cuántos límites mensuales cruza una solicitud? Esto aumenta la complejidad de la solicitud. |
-| Columnas | Número de métricas y desgloses en Workspace para medir la complejidad de la solicitud. |
-| Segmentos | Cuántos segmentos se aplican a esta solicitud. Esto aumenta la complejidad de la solicitud. |
-| Estado | Cuatro posibles indicadores de estado: <ul><li>**Rojo - [!UICONTROL A la capacidad]**: El grupo de informes se define como máximo en términos de capacidad de informes. (95 % y más)</li><li>**Amarillo - [!UICONTROL Capacidad de lectura]**: Este grupo de informes corre el riesgo de alcanzar su capacidad máxima (90 % - 95 %).</li><li>**Verde - [!UICONTROL Todo bien]**: Hay mucha capacidad de generación de informes.</li><li>**[!UICONTROL Estado pendiente]**: Estado no disponible.</li></ul> |
+| [!UICONTROL ID de consulta] | Se puede utilizar para solucionar problemas. |
+| [!UICONTROL Tiempo de ejecución] | Cuánto tiempo lleva ejecutándose la consulta. |
+| [!UICONTROL Tiempo de espera] | El tiempo que la consulta ha estado esperando antes de procesarse. Generalmente en &quot;0&quot; cuando hay suficiente capacidad. |
+| [!UICONTROL Hora de inicio] | Cuando la consulta comenzó a procesarse (hora local del administrador). |
+| [!UICONTROL de asistencia al cliente] | Las aplicaciones compatibles con el Administrador de actividades de informes son: <ul><li>IU de Analysis Workspace</li><li>Proyectos programados de Workspace</li><li>Report Builder</li><li>IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.</li><li>Llamadas de API desde la API 1.4 o 2.0</li><li>Alertas inteligentes</li></ul> |
+| [!UICONTROL Usuario] | El usuario que inició la consulta. |
+| [!UICONTROL Proyecto] | Nombres de proyectos de Workspace guardados, ID de informes de API, etc. (Los metadatos pueden variar entre distintas aplicaciones). |
+| [!UICONTROL Límites del mes] | ¿Cuántos límites mensuales cruza una solicitud? Esto aumenta la complejidad de la solicitud. |
+| [!UICONTROL Columnas] | Número de métricas y desgloses en Workspace para medir la complejidad de la solicitud. |
+| [!UICONTROL Segmentos] | Cuántos segmentos se aplican a esta solicitud. Esto aumenta la complejidad de la solicitud. |
+| [!UICONTROL Estado] | Indicadores de estado: <ul><li>**Ejecución**: La solicitud se está procesando actualmente.</li><li>**Pendiente**: La solicitud está esperando a procesarse.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -134,6 +134,5 @@ Los usuarios de aplicaciones de Workspace, por ejemplo, verán aparecer el sigui
 | Pregunta | Respuesta |
 | --- | --- |
 | ¿Puedo adquirir capacidad de informes adicional? | Esta capacidad estará disponible próximamente. |
-| ¿Otras preguntas? |  |
 
 {style=&quot;table-layout:auto&quot;}
