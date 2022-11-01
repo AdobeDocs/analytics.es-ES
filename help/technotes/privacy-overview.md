@@ -4,10 +4,10 @@ keywords: privacidad
 title: Resumen de privacidad
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Analytics recopila los datos siguientes:
 | Sistema operativo | Sí |
 | ISP/velocidad de conexión | Sí |
 | Configuración de pantalla (como tamaño y resolución de pantalla) | Sí |
-| Dirección IP (usada para obtener una ubicación aproximada) | Sí* |
+| Dirección IP (usada para obtener una ubicación aproximada) | Sí&#42; |
 | Información proporcionada por los consumidores en formularios en el sitio del cliente | Sí |
 | Información que los consumidores proporcionan en formularios en redes sociales | **No** |
 | Si el consumidor ha hecho clic en un anuncio | Sí |
@@ -49,7 +49,7 @@ Adobe Analytics recopila los datos siguientes:
 | Índices de éxito de las campañas de publicidad | Sí |
 | Información de productos, como colores, precios, estilos, fotos | Sí |
 
-*Excepto si el cliente de Adobe decide eliminar la dirección IP.
+&#42;Excepto si el cliente de Adobe decide eliminar la dirección IP.
 
 ## Otras consideraciones de privacidad {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
@@ -103,7 +103,7 @@ Adobe Analytics recopila los datos siguientes:
   </tr> 
   <tr> 
    <td colname="col1"> Alemania </td> 
-   <td colname="col2"> <p>Si los clientes no poseen un Contrato de procesamiento de datos para Adobe Analytics con Adobe, deberán contactar con su administrador de cuentas de Adobe o el administrador de éxito de clientes, quienes trabajarán con el Departamento legal de Adobe para obtenerlo. </p> <p>Adobe ha preparado un Contrato de procesamiento de datos (Vertrag fuer Auftragsdatenverarbeitung – ADV) para Analytics que ha sido revisado y aprobado por la Autoridad de Protección de Datos de Baviera (Bayerisches Landesamt fuer Datenschutzaufsicht – BayLDA). El ADV está disponible en alemán y en inglés. </p> </td> 
+   <td colname="col2"> <p>Si todavía no ha establecido un Contrato de procesamiento de datos para Adobe Analytics con Adobe, debe ponerse en contacto con el administrador de cuentas de Adobe o el administrador de éxito de clientes, quienes trabajarán con el Departamento legal de Adobe para implementarlo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

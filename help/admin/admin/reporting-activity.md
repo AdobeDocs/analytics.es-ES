@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo utilizar el administrador de activ
 title: Administrador de actividades de creación de informes
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '928'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,7 @@ En Adobe Analytics, los administradores acceden a **[!UICONTROL Administrador]**
 
 ## Permisos
 
-Para administrar la actividad de creación de informes, necesita permisos de administración del sistema de Analytics. El acceso del administrador de productos no es suficiente.
+Se necesitan permisos de administrador de productos de Analytics para administrar la actividad de informes.
 
 ## Ver la cola de informes
 
@@ -118,7 +118,7 @@ La tabla detallada a continuación muestra los detalles del grupo de informes.
 
 Para cancelar una solicitud
 
-1. Marque la casilla a la izquierda de una o más **[!UICONTROL ID de consulta]** en la tabla y haga clic en **[!UICONTROL Cancelar solicitudes]** en la parte inferior.
+1. Marque la casilla a la izquierda de una o más **[!UICONTROL ID de consulta]** en la tabla y haga clic en **[!UICONTROL Cancelar solicitudes]** en la parte inferior. (También puede cancelar las solicitudes de forma masiva consultando los detalles mediante [!UICONTROL Usuario], [!UICONTROL Proyecto]o [!UICONTROL Aplicación].)
 1. En el **[!UICONTROL Cancelar x consulta]** que aparece, puede modificar el mensaje de cancelación, si es necesario.
 1. Haga clic en **[!UICONTROL Continuar]**.
 
@@ -127,7 +127,6 @@ Para cancelar una solicitud
 Los usuarios de aplicaciones de Workspace, por ejemplo, verán aparecer el siguiente aviso en sus proyectos:
 
 ![cancel-user-notice](assets/cancel-user-facing.png)
-
 
 ## Preguntas frecuentes
 
