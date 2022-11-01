@@ -3,7 +3,7 @@ description: Obtenga información sobre cómo utilizar el administrador de activ
 title: Administrador de actividades de creación de informes
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
+source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 7%
@@ -17,12 +17,12 @@ ht-degree: 7%
 >
 >Esta funcionalidad se encuentra actualmente en fase de prueba beta.
 
-El Administrador de actividades de informes le permite ver la capacidad de informes de cada grupo de informes de su organización. Como administrador, le ofrece una visibilidad detallada del consumo de los informes y le ayuda a diagnosticar y solucionar problemas de capacidad durante las horas de mayor actividad de los informes.
+La variable [!UICONTROL Administrador de actividades de informes] le permite ver la capacidad de creación de informes de cada grupo de informes de su organización. Como administrador, le ofrece una visibilidad detallada del consumo de los informes y le ayuda a diagnosticar y solucionar problemas de capacidad durante las horas de mayor actividad de los informes.
 
 Cuando su organización llega a la capacidad de las solicitudes de informes y experimenta una degradación en el rendimiento de los informes, ahora tiene una forma de autodiagnosticar los problemas de los informes sin intervención del servicio de atención al cliente o ingeniería de Adobe. Puede administrar fácilmente las colas de informes dentro de una sola interfaz y actuar inmediatamente &#x200B; &#x200B; para mejorar la experiencia de los usuarios. Esta herramienta:
 
 * Le informa, en tiempo real, sobre su capacidad actual de creación de informes en sus grupos de informes.
-* Proporciona información detallada de las consultas de informes sobre solicitudes de informes actuales, tanto si están en cola como en curso.
+* Proporciona información detallada de las consultas de informes sobre solicitudes de informes actuales, estén en cola o en curso.
 * Permite optimizar la cola de informes priorizando algunas y cancelando otras solicitudes de informes para liberar capacidad. En otras palabras, puede preguntar en tiempo real: ¿es necesario este informe en este momento o puedo cancelarlo a favor de informes más urgentes?
 
 ## Acceso al Administrador de actividades de informes
@@ -35,7 +35,7 @@ Para administrar la actividad de creación de informes, necesita permisos de adm
 
 ## Ver la cola de informes
 
-Al abrir la página de información general de Administrador de actividades de informes , verá una lista de los grupos de informes base habilitados.
+Al abrir el [!UICONTROL Actividad de informes] Página de información general del administrador, verá una lista de los grupos de informes base habilitados.
 
 ![cola de informes](assets/reporting-activity1.png)
 
@@ -104,7 +104,7 @@ La tabla detallada a continuación muestra los detalles del grupo de informes.
 | [!UICONTROL Tiempo de ejecución] | Cuánto tiempo lleva ejecutándose la consulta. |
 | [!UICONTROL Tiempo de espera] | El tiempo que la consulta ha estado esperando antes de procesarse. Generalmente en &quot;0&quot; cuando hay suficiente capacidad. |
 | [!UICONTROL Hora de inicio] | Cuando la consulta comenzó a procesarse (hora local del administrador). |
-| [!UICONTROL de asistencia al cliente] | Las aplicaciones compatibles con el Administrador de actividades de informes son: <ul><li>IU de Analysis Workspace</li><li>Proyectos programados de Workspace</li><li>Report Builder</li><li>IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.</li><li>Llamadas de API desde la API 1.4 o 2.0</li><li>Alertas inteligentes</li></ul> |
+| [!UICONTROL de asistencia al cliente] | Las aplicaciones compatibles con la variable [!UICONTROL Administrador de actividades de informes] son: <ul><li>IU de Analysis Workspace</li><li>Proyectos programados de Workspace</li><li>Report Builder</li><li>IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.</li><li>Llamadas de API desde la API 1.4 o 2.0</li><li>Alertas inteligentes</li></ul> |
 | [!UICONTROL Usuario] | El usuario que inició la consulta. |
 | [!UICONTROL Proyecto] | Nombres de proyectos de Workspace guardados, ID de informes de API, etc. (Los metadatos pueden variar entre distintas aplicaciones). |
 | [!UICONTROL Límites del mes] | ¿Cuántos límites mensuales cruza una solicitud? Esto aumenta la complejidad de la solicitud. |
