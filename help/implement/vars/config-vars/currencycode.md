@@ -3,10 +3,10 @@ title: ¿Qué es la variable currencyCode y cómo se usa?
 description: Para los sitios de comercio electrónico, establece la moneda que usa la página.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 93%
+source-wordcount: '955'
+ht-degree: 72%
 
 ---
 
@@ -14,21 +14,24 @@ ht-degree: 93%
 
 Para los sitios comerciales, los ingresos y la moneda son una parte importante de Analytics. Muchos sitios, especialmente los que abarcan varios países, utilizan distintas monedas. Utilice la variable `currencyCode` para asegurarse de que los atributos de ingresos corresponden a la moneda correcta.
 
-Si `currencyCode` no está definida, los valores monetarios definidos por la variable [`products`](../page-vars/products.md) y los eventos de moneda se tratan como si fueran iguales a la moneda del grupo de informes. Consulte [Configuración general de cuenta](/help/admin/admin/general-acct-settings-admin.md) en la guía del usuario de administración para ver la moneda del grupo de informes.
+La conversión de moneda utiliza la siguiente lógica en cada visita. Estos pasos se aplican a los valores de ingresos establecidos en la variable [`products`](../page-vars/products.md) y todos los eventos enumerados como &quot;Moneda&quot; en [Eventos de éxito](/help/admin/admin/c-success-events/success-event.md) en Configuración del grupo de informes.
 
-Si `currencyCode` está definida y coincide con la moneda del grupo de informes, no se aplica ninguna conversión de moneda.
+* If `currencyCode` no está definida, el Adobe supone que todos los valores de moneda son la moneda del grupo de informes. Consulte [Configuración general de la cuenta](/help/admin/admin/general-acct-settings-admin.md) en la configuración del grupo de informes para ver la moneda del grupo de informes.
+* Si `currencyCode` está definida y coincide con la moneda del grupo de informes, no se aplica ninguna conversión de moneda.
+* Si `currencyCode` está definida y es diferente a la moneda del grupo de informes, Adobe aplica una conversión de moneda basada en el tipo de cambio del día actual. Adobe se asocia con [XE](https://xe.com) para convertir moneda cada día. Todos los valores almacenados en el grupo de informes se encuentran en la moneda del grupo de informes.
+* If `currencyCode` se establece en un valor no válido, **se descarta toda la visita, lo que provoca la pérdida de datos.** Asegúrese de que esta variable esté correctamente definida cuando se utilice.
 
-Si `currencyCode` está definida y es diferente a la moneda del grupo de informes, Adobe aplica una conversión de moneda basada en el tipo de cambio del día actual. Adobe se asocia con [XE](https://xe.com) para convertir moneda cada día. Todos los valores almacenados en los servidores de recopilación de datos se almacenan finalmente en la moneda del grupo de informes.
+Esta variable no persiste entre visitas. Asegúrese de que esta variable esté definida en todas las páginas que involucren ingresos o eventos de moneda que no coincidan con la moneda predeterminada del grupo de informes.
 
->[!WARNING]
+>[!NOTE]
 >
->Si `currencyCode` contiene un valor no válido, se descarta toda la visita, lo que provoca la pérdida de datos. Asegúrese de que esta variable esté correctamente definida si la utiliza en la implementación.
+>Aunque los códigos de moneda pueden cambiar entre páginas, todas las métricas de moneda de una sola visita deben utilizar la misma moneda.
 
-Esta variable no persiste entre visitas. Asegúrese de que esta variable esté definida en todas las páginas que involucren eventos de ingresos o de moneda.
+Un periodo **must** se utilizará como separador de moneda para todas las monedas al implementar esta variable. Por ejemplo, la corona sueca, que normalmente muestra un separador de comas, debe modificarse para que utilice un punto en la variable `products` y todos los eventos de moneda. Adobe muestra el separador de divisas correcto en los informes.
 
 ## Código de moneda mediante el SDK web
 
-El código de divisa es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) en el campo XDM `commerce.order.currencyCode`.
+El código de divisa es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `commerce.order.currencyCode`.
 
 ## Código de moneda con la extensión Adobe Analytics
 
@@ -53,7 +56,7 @@ Puede utilizar un código de moneda preestablecido o un código de moneda person
 
 ## s.currencyCode en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
-La variable `s.currencyCode` es una cadena que contiene un código en mayúsculas de 3 letras que representa la moneda de la página.
+La variable `s.currencyCode` es una cadena que contiene un código en mayúsculas de 3 letras que representa la moneda de la página. Los valores distinguen entre mayúsculas y minúsculas.
 
 ```js
 s.currencyCode = "USD";
@@ -61,7 +64,7 @@ s.currencyCode = "USD";
 
 Los siguientes códigos de moneda son válidos:
 
-| Código de moneda | Descripción de moneda |
+| Código de moneda | Etiqueta |
 | --- | --- |
 | `AED` | Dirham de Emiratos Árabes Unidos |
 | `AFA` | Afgani de Afganistán |
