@@ -23,11 +23,11 @@ ht-degree: 100%
    + Proyectos {#build-workspace-project}
       + [Información general sobre Proyectos](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Guardar proyectos](analysis-workspace/build-workspace-project/save-projects.md)
-      + Carpetas de Workspace {#workspace-folders}
-         + [Acerca de las carpetas de Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [Crear carpetas y subcarpetas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+      + Carpetas en el Espacio de trabajo {#workspace-folders}
+         + [Acerca de las carpetas en el Espacio de trabajo](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Creación de carpetas y subcarpetas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Agregar proyectos](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-         + [Eliminar un proyecto](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
+         + [Quitar un proyecto](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Guardar un nuevo proyecto](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [Plantillas](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Múltiples grupos de informes](analysis-workspace/build-workspace-project/multiple-report-suites.md)
