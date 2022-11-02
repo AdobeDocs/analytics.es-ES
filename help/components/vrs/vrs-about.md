@@ -3,9 +3,9 @@ description: Los grupos de informes virtuales segmentan los datos de Adobe Analy
 title: Resumen de los grupos de informes virtuales
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
+source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '807'
 ht-degree: 95%
 
 ---
@@ -59,6 +59,8 @@ Los grupos de informes virtuales tienen las siguientes limitaciones :
 | Admite la creación de informes DL, marcadores, tableros, objetivos, alertas, segmentos, métricas calculadas... | Sí | Sí |
 | Se puede añadir individualmente a los grupos de permisos | Sí | Sí |
 | Se pueden utilizar funciones de administrador para modificar opciones de configuración individuales en este grupo de informes (Administración > Grupos de informes) | No (la configuración se hereda de un grupo superior) | Sí |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Combinación de grupos de informes virtuales y etiquetado de grupos múltiples {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
