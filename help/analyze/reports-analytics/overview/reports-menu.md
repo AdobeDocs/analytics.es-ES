@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '853'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Mis favoritos, Vistos con mayor frecuencia e Historial de informes son todos esp
 
 Se puede navegar por los informes con una vista de columna jerárquica. Haga clic en **[!UICONTROL Ver todos los informes]** o presione la tecla de barra diagonal (/) y, a continuación, presione la tecla de flecha abajo (↓) para visualizar rápidamente y navegar por el menú con las teclas de flecha. Presione la tecla Escape para cerrar el menú sin cambiar el informe actual; o bien, presione Intro para cargar el informe seleccionado.
 
-![](assets/reports-landing.png){width=&quot;672px&quot;}
+![](assets/reports-landing.png){width="672px"}
 
 Para conocer los detalles sobre los informes individuales, consulte [Dimensiones](/help/components/dimensions/overview.md).
 

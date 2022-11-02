@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
@@ -27,13 +27,13 @@ Este ejemplo muestra un [!UICONTROL Informe de páginas]. Las opciones de config
 
 Un ejemplo de informe de páginas (**[!UICONTROL Informes]** > **[!UICONTROL Contenido del sitio]** > **[!UICONTROL Informes de páginas]** > **[!UICONTROL Páginas]**).
 
-![](assets/pages_report.png){width=&quot;672px&quot;}
+![](assets/pages_report.png){width="672px"}
 
 ## Barra de herramientas de informes {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Comparta los datos del informe con quienes toman decisiones y pueden cambiar las estrategias de marketing o del sitio basándose en los datos.
 
-![](assets/toolbar.png){width=&quot;672px&quot;}
+![](assets/toolbar.png){width="672px"}
 
 Consulte también [Personalización de un informe](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
@@ -41,7 +41,7 @@ Consulte también [Personalización de un informe](/help/analyze/reports-analyti
 
 Muestra la configuración del informe y permite configurar el tipo de informe, seleccionar las métricas, etc. Las opciones disponibles en este grupo varían dependiendo del informe que ejecute.
 
-![](assets/settings_header.png){width=&quot;672px&quot;}
+![](assets/settings_header.png){width="672px"}
 
 Consulte [Personalización de un informe](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) para obtener más información.
 
@@ -49,7 +49,7 @@ Consulte [Personalización de un informe](/help/analyze/reports-analytics/report
 
 Especifique la fecha haciendo clic en el botón de calendario y seleccionando un intervalo de fecha. También puede seleccionar dos intervalos de fechas para comparar el rendimiento.
 
-![](assets/calendar_large.png){width=&quot;672px&quot;}
+![](assets/calendar_large.png){width="672px"}
 
 Consulte [Selección de una fecha o un intervalo de fechas](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) y [Comparación de fechas](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 

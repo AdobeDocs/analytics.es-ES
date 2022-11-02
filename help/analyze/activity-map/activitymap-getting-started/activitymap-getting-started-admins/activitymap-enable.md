@@ -6,8 +6,8 @@ feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '403'
+workflow-type: tm+mt
+source-wordcount: '399'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Los datos de Activity Map no se pueden recopilar si no actualiza a esta versión
       …&c.&a.&Activity Map.&link=My%20Link&region=My%20Region&page=My%20Page&.Activity Map&.a&.c&...
       ```
 
-1. Desglose este informe por **[!UICONTROL Vínculo de Activity Map por región]** para ver el vínculo o la región de esa página:  ![](assets/am_breakdown.png){width=&quot;400px&quot;}
+1. Desglose este informe por **[!UICONTROL Vínculo de Activity Map por región]** para ver el vínculo o la región de esa página:  ![](assets/am_breakdown.png){width="400px"}
 
 ## Paso 2. Habilitar los informes de Activity Map {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 
