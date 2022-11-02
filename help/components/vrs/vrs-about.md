@@ -3,10 +3,10 @@ description: Los grupos de informes virtuales segmentan los datos de Adobe Analy
 title: Resumen de los grupos de informes virtuales
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '804'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ Los grupos de informes virtuales tienen las siguientes limitaciones :
 | Función | Grupo de informes virtuales | Etiquetado de grupos múltiples |
 |--- |--- |--- |
 | Ofrece informe en tiempo real o de datos actuales | No | Sí |
-| Funciona en todas las herramientas de Analytics (Analysis Workspace, Report Builder, etc.) | Sí. **Nota:** Solo puede editar e identificar los grupos de informes virtuales en Reports &amp; Analytics. Sin embargo, puede seleccionarlos en los menús desplegables del propio grupo de informes en las otras herramientas. | Sí |
+| Funciona en todas las herramientas de Analytics (Analysis Workspace, Report Builder, etc.) | Sí. **Nota:** Solo puede editarlas e identificarlas como grupos de informes virtuales en [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Grupos de informes virtuales]. Sin embargo, puede seleccionarlos en los menús desplegables del propio grupo de informes en las otras herramientas.<p>**Importante**: Actualmente, Adobe Report Builder no admite los grupos de informes virtuales con procesamiento de tiempo de informes y personalización de variables. | Sí |
 | Puede cargar datos en él (a través de clasificaciones, fuente de datos, etc.) | No | Sí |
 | Admite la creación de informes DL, marcadores, tableros, objetivos, alertas, segmentos, métricas calculadas... | Sí | Sí |
 | Se puede añadir individualmente a los grupos de permisos | Sí | Sí |
