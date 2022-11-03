@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 10a325b5479b6852fc98ed780f59ee525ec6f51b
+source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '671'
 ht-degree: 100%
 
 ---
@@ -172,7 +172,6 @@ ht-degree: 100%
    + [Ejemplo de etiquetado](c-data-governance/gdpr-labeling-example.md)
    + [Privacidad de datos y Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Terminología de privacidad de datos](c-data-governance/gdpr-terminology.md)
-   + [Variables de informes de privacidad](c-data-governance/consent-variables.md)
 + Uso de llamadas al servidor {#server-call-usage}
    + [Resumen del uso de llamadas al servidor](c-server-call-usage/overage-overview.md)
    + [Ver uso de llamadas al servidor actual](c-server-call-usage/server-call-usage-dashboard.md)

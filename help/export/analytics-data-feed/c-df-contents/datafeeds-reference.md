@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 5c178ebb86ffc932ecd90f427bd0a5e90fada1cb
+source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
 workflow-type: tm+mt
-source-wordcount: '3526'
-ht-degree: 96%
+source-wordcount: '3599'
+ht-degree: 94%
 
 ---
 
@@ -63,6 +63,8 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | **`cust_hit_time_gmt`** | Solo grupos de informes con marca de tiempo. La marca de tiempo enviada con la visita y basada en el Tiempo Unix. | int |
 | **`cust_visid`** | Si se estableció una ID de visitante personalizada, aparece completada en esta columna. | varchar(255) |
 | **`daily_visitor`** | Indicador que determina si la visita es un visitante nuevo diario. | tinyint sin firmar |
+| **`dataprivacyconsentoptin`** | Variable utilizada en la variable [Inclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-in.md) dimensión. Puede haber varios valores por visita, separados por una barra vertical (`|`). Los valores válidos incluyen `DMP` y `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | Variable utilizada en la variable [Exclusión de la administración de consentimiento](/help/components/dimensions/cm-opt-out.md) dimensión. Puede haber varios valores por visita, separados por una barra vertical (`|`). Los valores válidos incluyen `SSF`, `DMP`y `SELL`. | varchar(100) |
 | **`date_time`** | La hora de la visita en un formato legible, basada en la zona horaria del grupo de informes. | datetime |
 | **`domain`** | Variable utilizada en la dimensión [Dominio](/help/components/dimensions/domain.md). Basado en el punto de acceso a Internet del visitante. | varchar(100) |
 | **`duplicate_events`** | Muestra cada evento que se contó como duplicado. | varchar(255) |
@@ -201,9 +203,12 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | **`socialownedpropertypropertyvsapp`** | Ya no se utiliza. Propiedad social frente a aplicación | varchar(255) |
 | **`state`** | Variable de estado. | varchar(50) |
 | **`stats_server`** | No es de uso. Servidor interno de Adobe que ha procesado la visita. | char(30) |
+| **`survey`** | Ya no se utiliza. Adobe Survey . | texto |
+| **`survey_instances`** | Ya no se utiliza. Adobe Survey instances . | texto |
 | **`t_time_info`** | Hora local del visitante. El formato es: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Se utiliza en las integraciones de Adobe Target. Representa todas las pruebas para las que está cualificado actualmente. El formato es: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | texto |
 | **`tnt_action`** | Se utiliza en las integraciones de Adobe Target. Representa todas las pruebas para las que se calificó la visita. | texto |
+| **`tnt_instances`** | Se utiliza en las integraciones de Adobe Target. Variable de instancias de Target. | texto |
 | **`tnt_post_vista`** | Ya no se utiliza. Utilice `post_tnt` en su lugar. | texto |
 | **`transactionid`** | Un identificador exclusivo donde, más tarde, se pueden cargar diversos puntos de datos a través de fuentes de datos. Recopilado mediante la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | texto |
 | **`truncated_hit`** | Un indicador que señala que se ha truncado la solicitud de imagen. Indica que se ha recibido una visita parcial. <br>S: Se truncó la visita; visita parcial recibida <br>N: La visita no se truncó; visita completa recibida | char(1) |
@@ -268,7 +273,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | **`visid_low`** | Se utiliza en combinación con `visid_high` para identificar un visitante de forma exclusiva. | bigint sin firmar |
 | **`visid_new`** | Indicador que identifica si la visita contiene una ID de visitante generada recientemente. | char(1) |
 | **`visid_timestamp`** | Si la ID de visitante se ha generado recientemente, proporciona la marca de tiempo (en Tiempo Unix) del momento en que se generó la ID de visitante. | int |
-| **`visid_type`** | No para uso externo; Adobe lo utiliza internamente para procesar optimizaciones. ID numérica que representa el método utilizado para identificar al visitante.<br>0: VisitorID personalizado o desconocido/no aplicable<br>1: IP y reserva del agente de usuario <br>2: Encabezado de suscriptor móvil HTTP <br>3: Valor de la cookie heredada (`s_vi`) <br>4: Valor de la cookie de reserva (`s_fid`) <br>5: Servicio de identidad | tinyint sin firmar |
+| **`visid_type`** | No para uso externo; Adobe lo utiliza internamente para procesar optimizaciones. ID numérica que representa el método utilizado para identificar al visitante.<br>`0`: ID de visitante personalizado o Desconocido/no aplicable<br>`1`: IP y reserva del agente de usuario <br>`2`: Encabezado de suscriptor móvil HTTP <br>`3`: Valor de cookie heredado (`s_vi`) <br>`4`: Valor de cookie de reserva (`s_fid`) <br>`5`: Servicio de identidad | tinyint sin firmar |
 | **`visit_keywords`** | Variable utilizada en la dimensión [Palabra clave de búsqueda](/help/components/dimensions/search-keyword.md). Esta columna utiliza un límite de caracteres no estándar de varchar(244) para dar cabida a la lógica back-end que utiliza Adobe. | varchar(244) |
 | **`visit_num`** | Variable utilizada en la dimensión [Número de visitas](/help/components/dimensions/visit-number.md). Empieza en 1 y aumenta cada vez que se inicia una nueva visita por visitante. | int sin firmar |
 | **`visit_page_num`** | Variable utilizada en la dimensión [Profundidad de visita](/help/components/dimensions/hit-depth.md). Aumenta de uno en uno con cada visita que genera el usuario. Restablece cada visita. | int sin firmar |
