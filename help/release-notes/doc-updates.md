@@ -4,10 +4,11 @@ description: Actualizaciones importantes en el conjunto de la documentación de 
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
+mini-toc-levels: 3
+source-git-commit: 87e32cfdda69303939045b90a7984efafdf05b27
 workflow-type: tm+mt
-source-wordcount: '3545'
-ht-degree: 100%
+source-wordcount: '3550'
+ht-degree: 99%
 
 ---
 
@@ -16,14 +17,17 @@ ht-degree: 100%
 Actualizaciones de contenido para la documentación de Adobe Analytics establecidas desde enero de 2019.
 
 * Para obtener información sobre [!UICONTROL Customer Journey Analytics], haga clic [aquí](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=es).
-* Para obtener una lista completa de las nuevas funciones de Adobe Analytics, las notas de administración y las correcciones de errores, consulte las últimas [notas de la versión de Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es).
-* Para obtener más información sobre Adobe Analytics para audio y vídeo, consulte [Medición de audio y vídeo en Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
+* Para obtener información sobre Adobe Medium Analytics, consulte [Medición de audio y vídeo en Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
 
 ## Detalles sobre las principales actualizaciones de la documentación
+
+### 2022 {#22}
 
 | Función | Descripción |
 | --- | --- |
 | **Octubre de 2022** |  |
+| Data Workbench | [Anuncio de fin de vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en) |
+| Sugerencias del cliente | Nuevo [información general y preguntas más frecuentes](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en). |
 | Resumen de métricas clave | Nuevo tema sobre el [Resumen de métricas clave](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Conjuntos de clasificación | La nueva experiencia del usuario [Conjuntos de clasificación](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=es) proporciona una interfaz única para administrar clasificaciones y reglas y mejora la visibilidad de los datos de clasificación propiedad del cliente. |
 | Aplicación móvil: vistas de detalles personalizadas | Tema nuevo sobre [vistas de detalles personalizadas](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es). |
@@ -59,6 +63,11 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Modo de vista previa del proyecto del cuadro de resultados móvil | El [modo de vista previa](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es#preview) permite obtener una vista previa de la experiencia antes de guardar y compartir un cuadro de resultados. |
 | Punto de conexión de proyectos de API | Agregue, edite o elimine proyectos de Analysis Workspace mediante la API. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | Se ha actualizado el tema sobre la pausa de tareas de Report Builder programadas más antiguas | **A partir del 15 de abril de 2022**, Adobe tiene la intención de [poner en pausa todas las tareas de Report Builder programadas que se crearon hace más de dos años](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+
+### 2021 {#21}
+
+| Función | Descripción |
+| --- | --- |
 | **Octubre de 2021** |  |
 | 21 de octubre de 2021 | Nueva documentación sobre [Segmentos rápidos](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=es) en Analysis Workspace |
 | 21 de octubre de 2021 | Nueva documentación sobre [Tiempo invertido en la reproducción de medios](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=es) en Analysis Workspace. |
@@ -90,6 +99,11 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 14 de enero de 2021 | Se ha añadido la opción de selección de idioma a la documentación de paneles de Analytics. |
 | 14 de enero de 2021 | Se ha añadido documentación sobre cómo puede añadir imágenes a proyectos del Espacio de trabajo haciendo referencia a una URL de imagen pública. |
 | 14 de enero de 2021 | Administrador de fuente y de configuración combinado para visualizaciones del Espacio de trabajo: El administrador de [!UICONTROL fuente de datos] (punto) y el de configuración (engranaje) para visualizaciones se han combinado en una sola ventana emergente, de modo que puede administrar fácilmente el origen y la configuración desde la misma ubicación. |
+
+### 2020 {#20}
+
+| Función | Descripción |
+| --- | --- |
 | **Diciembre de 2020** |  |
 | 7 de diciembre de 2020 | Se han modificado todas las páginas relevantes para incluir o sustituir el extremo adobedc.net. |
 | 8 de diciembre de 2020 | Actualizaciones de la página [Crear nuevo proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=es) en el Espacio de trabajo. |
@@ -152,7 +166,11 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 16 de enero de 2020 | Nueva documentación sobre el [generador de tablas de forma libre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=es). Con el Creador de tablas improvisada, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas comerciales más complejas. Los datos no se actualizarán inmediatamente. En su lugar, las actualizaciones se producen después de hacer clic en **[!UICONTROL Generar]**, lo que le ahorra tiempo una vez que sepa qué tabla desea crear. Además, esta función ofrece:<ul><li>**Vista previa**: Puede obtener una vista previa del formato de una tabla antes de dedicar su tiempo a procesar datos reales.</li><li>**Configuración de desglose y filas flexibles**: Puede definir los niveles de fila y desglose para cada fila de dimensión. Anteriormente, el Espacio de trabajo imponía valores predeterminados que no se podían cambiar hasta que se devolvían los datos.</li><li>**Desglose por posición**: Puede definir filas de dimensión para que siempre _se desglosen por posición_ en lugar de _por elemento específico_ (valor predeterminado).</li><li>**Ordenación manual de filas estáticas**: Puede ordenar manualmente las filas estáticas para que las filas de la tabla se muestren exactamente como las necesita. Anteriormente, las filas estáticas solo se podían ordenar por una columna de métrica o alfabéticamente.</li></ul> |
 | 13 de enero de 2020 | Se añadieron [Adobe Analytics y las cookies de explorador](/help/technotes/cookies/cookies.md). |
 | 13 de enero de 2020 | Se ha modificado la página [Qué herramienta de Adobe Analytics debo usar](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=es). |
-| **2019** |  |
+
+### 2019 {#19}
+
+| Función | Descripción |
+| --- | --- |
 | 19 de diciembre de 2020 | Se ha cambiado el [límite predeterminado de almacenamiento de datos de FTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=es) a 10 GB. |
 | 29 de noviembre de 2019 | Sobrescribir a la [Documentación de datos](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 de noviembre de 2019 | Tema nuevo sobre el fin de vida útil para aplicar restricciones de inicio de sesión de IP. |
