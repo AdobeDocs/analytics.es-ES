@@ -4,10 +4,10 @@ title: Introducción a Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 100%
+source-wordcount: '788'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Todos los usuarios tienen acceso a la página [!UICONTROL Información de la cue
 | Tipo de información | Definición |
 | --- | --- |
 | Contacto | Especifique la siguiente información personal de su cuenta:<ul><li>Nombre (obligatorio)</li><li>Apellidos (obligatorio)</li><li>Título</li><li>Dirección de correo electrónico (obligatoria)</li><li>N.º de teléfono</li></ul> |
-| Inicio de sesión | Muestra el nombre de usuario de la cuenta y le permite cambiar la contraseña de la cuenta. Vea también: [Cómo restablecer la contraseña de la cuenta de Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=es). |
+| Inicio de sesión | Muestra el nombre de usuario de la cuenta y le permite cambiar la contraseña de la cuenta. Vea también: [Cómo restablecer la contraseña de la cuenta de Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html). |
 | Servicio web | Muestra el nombre de usuario de los servicios web y el secreto compartido asociado a esta cuenta. Utilice estas credenciales cuando acceda a Experience Cloud a través de las API de servicios web. Si desea más información, consulte Developer Connection. **Nota:** Esta información se muestra únicamente si la cuenta está autorizada como usuario de servicios Web. |
 | Excluir este equipo | Aplica una cookie al equipo actual para excluirlo de la recopilación de datos. Resulta útil si no desea que sus actividades en línea afecten a los recuentos de Vista de páginas y Visitantes de su dominio. **Nota:** Para usar esta función, su navegador debe tener habilitadas las cookies. Si elimina las cookies de su equipo, debe restablecer la cookie de exclusión. |
 

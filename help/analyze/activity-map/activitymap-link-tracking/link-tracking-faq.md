@@ -5,8 +5,8 @@ uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
 role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
-source-git-commit: 2a20ce50f773c82856da59154bb212f1fca2b7ea
-workflow-type: ht
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ b. A través de la variable `s_objectID`. Ejemplo:
 ### Ejemplo 1
 
 ```
-  <a hef="/home?lang=en>Home</a>
+  <a hef="/home>Home</a>
 ```
 
 ### Ejemplo 2

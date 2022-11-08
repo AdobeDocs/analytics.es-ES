@@ -3,9 +3,9 @@ title: Implementar Adobe Analytics con etiquetas en Adobe Experience Platform
 description: Obtenga información sobre cómo implementar Adobe Analytics mediante etiquetas
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 94%
 
 ---
@@ -33,6 +33,6 @@ Consulte [Crear una propiedad de etiquetas de Analytics](create-analytics-proper
 
 Las etiquetas se pueden personalizar en gran medida. Obtenga más información sobre cómo aprovechar al máximo Adobe Analytics mediante la inclusión de los datos adecuados en la implementación.
 
-* [Documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es): Descubra cómo funciona la interfaz y qué extensiones están disponibles.
+* [Documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es#): Descubra cómo funciona la interfaz y qué extensiones están disponibles.
 * [Extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=es): Utilice la extensión de Analytics para enviar datos a Adobe Analytics.
 * [Variables de implementación](../vars/overview.md): Determine qué variables desea enviar a los servidores de recopilación de datos.

@@ -2,10 +2,10 @@
 title: Gráfico del dispositivo
 description: Comprenda los requisitos previos y las limitaciones de la vinculación de datos mediante el gráfico del dispositivo.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: f7106ca52447988c90a3ccac6a1e1cc7514f1fc9
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 69%
+source-wordcount: '321'
+ht-degree: 68%
 
 ---
 

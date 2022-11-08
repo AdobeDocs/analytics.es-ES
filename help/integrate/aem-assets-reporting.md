@@ -3,10 +3,10 @@ description: Pasos administrativos para activar Informes de AEM Assets en Analyt
 title: Creación de informes sobre AEM Assets en Adobe Analytics
 feature: AEM Assets Reporting
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '116'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 93%
 
 ---
 
@@ -22,4 +22,4 @@ Permite que Analytics recopile impresiones y clics en recursos proporcionados po
 * Añade nuevas dimensiones a las variables de los recursos en Analysis Workspace: ID del recurso, origen del recurso e ID del recurso en el que se ha hecho clic.
 * Añade nuevas dimensiones a los eventos de los recursos: Clics de recursos e Impresiones de recursos.
 
-Para que se rellenen los datos, consulte la [documentación de AEM Asset Insights](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=es), donde encontrará instrucciones completas para la implementación.
+Para que se rellenen los datos, consulte la [documentación de AEM Asset Insights](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html), donde encontrará instrucciones completas para la implementación.

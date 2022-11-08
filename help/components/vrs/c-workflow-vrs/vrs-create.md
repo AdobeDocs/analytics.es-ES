@@ -4,10 +4,10 @@ keywords: Grupo de informes virtuales
 title: Crear un grupo de informes virtuales
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ Este es un vídeo sobre cómo ajustar una definición de visita en un grupo de i
 ![](assets/components.png)
 
 1. En la pestaña [!UICONTROL Componentes], active la casilla de verificación para aplicar la depuración para incluir, excluir y cambiar el nombre de los componentes de este grupo de informes virtuales en Analysis Workspace.
-Para obtener más información sobre la depuración de VRS, consulte [Depuración de componentes de grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=es#virtual-report-suites).
+Para obtener más información sobre la depuración de VRS, consulte [Depuración de componentes de grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites).
 
 1. Arrastre los componentes (dimensiones, métricas, segmentos o intervalos de fechas) que desee incluir en el VRS a la sección [!UICONTROL Componentes incluidos].
 

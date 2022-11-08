@@ -4,10 +4,10 @@ description: Variables personalizadas que se relacionan con productos individual
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 64%
+source-wordcount: '541'
+ht-degree: 62%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 64%
 
 *Esta página de ayuda describe cómo implementar eVars de comercialización. Para obtener información sobre cómo funcionan las eVars de comercialización como dimensiones, consulte [eVars (dimensión Comercialización)](/help/components/dimensions/evar-merchandising.md) en la guía de usuario sobre componentes.*
 
-Para obtener información detallada sobre cómo funcionan las eVars de comercialización, consulte [eVars de comercialización y métodos de búsqueda de productos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=es).
+Para obtener información detallada sobre cómo funcionan las eVars de comercialización, consulte [eVars de comercialización y métodos de búsqueda de productos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
 
 ## Configurar eVars en la configuración del grupo de informes
 

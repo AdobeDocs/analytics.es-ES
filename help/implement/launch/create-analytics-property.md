@@ -3,9 +3,9 @@ title: Creación de una propiedad de Analytics en etiquetas
 description: Cree un espacio para personalizar cómo se recopilan los datos mediante etiquetas.
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '514'
 ht-degree: 85%
 
 ---

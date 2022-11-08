@@ -3,9 +3,9 @@ description: Una lista exhaustiva con descripciones de las variables de configur
 title: Referencia de datos y código del reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
-source-wordcount: '520'
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '518'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Además, se genera una señal `h_ip` a partir de la IP del host que envía la so
 
 ## Señales definidas por el cliente {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Los parámetros prefijados con `c_` identifican variables definidas por el cliente. Consulte también [Atributos admitidos para llamadas a la API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=es).
+Los parámetros prefijados con `c_` identifican variables definidas por el cliente. Consulte también [Atributos admitidos para llamadas a la API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Señal | Descripción |
 | --- |--- |

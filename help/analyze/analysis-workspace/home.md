@@ -4,10 +4,10 @@ description: Analysis Workspace es la principal herramienta de análisis de Adob
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 405403523e7b862005839cb4eb07adf804c6bc9c
-workflow-type: ht
-source-wordcount: '577'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '575'
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,13 @@ Si solo tiene unos minutos, consulte esta breve descripción general para ver qu
 
 ## Iniciar sesión en Adobe Analytics {#login}
 
-Para empezar a usar Analysis Workspace, inicie sesión en Adobe Analytics en [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Aterrizará en la página de inicio de la lista del proyecto de Workspace si no se ha seleccionado anteriormente un proyecto específico.
+Para empezar a usar Analysis Workspace, inicie sesión en Adobe Analytics en [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Aterrizará en la página de inicio de la lista del proyecto del Espacio de trabajo si no se ha seleccionado anteriormente un proyecto específico.
 
 ![](assets/login-analytics.png)
 
 ## Uso del tutorial de formación {#training-tutorial}
 
-Una vez que haya iniciado sesión, la primera parada debe ser el Tutorial de formación de Analysis Workspace, que le explicará la terminología común y los pasos para crear su primer análisis en Workspace. Para comenzar el tutorial, haga clic en **[!UICONTROL Crear nuevo proyecto]** y, a continuación, seleccione **Tutorial de formación** dentro del nuevo modal de proyecto.
+Una vez que haya iniciado sesión, la primera parada debe ser el Tutorial de formación de Analysis Workspace, que le explicará la terminología común y los pasos para crear su primer análisis el Espacio de trabajo. Para comenzar el tutorial, haga clic en **[!UICONTROL Crear nuevo proyecto]** y, a continuación, seleccione **Tutorial de formación** dentro del nuevo modal de proyecto.
 
 ![](assets/training-tutorial.png)
 
@@ -41,11 +41,11 @@ También puede iniciar el análisis a partir de **plantillas** creadas previamen
 
 ## Cree su análisis {#analysis}
 
-En el proyecto de Workspace, se accede a **paneles, tablas, visualizaciones y componentes** desde el carril izquierdo. Estos son los componentes básicos del proyecto.
+En el proyecto del Espacio de trabajo, se accede a **paneles, tablas, visualizaciones y componentes** desde el carril izquierdo. Estos son los componentes básicos del proyecto.
 
 ### Componentes
 
-**Los componentes** son dimensiones, métricas, segmentos o intervalos de fechas, los cuales se pueden combinar en una **[!UICONTROL tabla improvisada]** para responder en inicio a las preguntas comerciales. Asegúrese de familiarizarse con cada [tipo de componente](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) antes de sumergirse en su análisis. Una vez dominada la terminología de los componentes, puede empezar a arrastrar y soltar para [crear el análisis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=es) en una **[!UICONTROL tabla improvisada]**.
+**Los componentes** son dimensiones, métricas, segmentos o intervalos de fechas, los cuales se pueden combinar en una **[!UICONTROL tabla de forma libre]** para responder en inicio a las preguntas comerciales. Asegúrese de familiarizarse con cada [tipo de componente](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) antes de sumergirse en su análisis. Una vez dominada la terminología de los componentes, puede empezar a arrastrar y soltar para [crear el análisis](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=es) en una **[!UICONTROL tabla de forma libre]**.
 
 ![](assets/build-components.png)
 
@@ -70,4 +70,4 @@ A continuación se muestra un vídeo introductorio de la administración de proy
 ## Recursos adicionales {#resources}
 
 * Adobe ofrece cientos de [tutoriales de formación en vídeo de Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=es).
-* Consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es#analytics) para obtener actualizaciones acerca de las nuevas funciones.
+* Consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics) para obtener actualizaciones acerca de las nuevas funciones.

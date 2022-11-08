@@ -3,10 +3,10 @@ title: Revisión específica (después de cada lanzamiento de sitio web)
 description: Siga estos pasos para asegurarse de que la implementación no contenga errores y esté alineada con los KPI.
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 84%
+source-wordcount: '511'
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ Asegúrese de que la versión más reciente del sitio no haya repercutido en la 
 
 Si ha añadido o cambiado recientemente métricas o variables, deberá actualizar el Documento de requisitos de empresa (BRD) y la Referencia de diseño de soluciones (SDR).
 
-Si no dispone de documentación sobre la implementación, exporte una lista de variables y cree su BRD o SDR con [esta plantilla](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=es#implementation).
+Si no dispone de documentación sobre la implementación, exporte una lista de variables y cree su BRD o SDR con [esta plantilla](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
 ## 5. Aborde inmediatamente cualquier brecha que encuentre en la calidad de los datos
 

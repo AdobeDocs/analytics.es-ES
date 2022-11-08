@@ -4,9 +4,9 @@ title: Plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1311'
 ht-degree: 100%
 
 ---
@@ -123,7 +123,7 @@ Aquí tiene un vídeo sobre la plantilla [!UICONTROL Tutorial de aprendizaje]:
 
 ### Personas
 
-Esta plantilla se basa en la métrica Personas que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. Esta plantilla le permite hacer lo siguiente::
+Esta plantilla se basa en la métrica Personas que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. Esta plantilla le permite hacer lo siguiente: 
 
 * Segmentar sus datos para EE. UU./Canadá frente al resto del mundo
 * Comparar en paralelo las métricas Personas y Visitantes únicos

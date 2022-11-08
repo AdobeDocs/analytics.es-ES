@@ -3,10 +3,10 @@ title: 'Actualización de servicios SFTP: preguntas frecuentes'
 description: Preguntas más frecuentes sobre la actualización de los servicios SFTP prevista.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: 70ede981a0f6f7aebbbdf4dbcbf9e5187a3df495
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 87%
+source-wordcount: '447'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ Las siguientes funciones proporcionan una opción para cargar datos en Adobe Ana
 
 * [Clasificaciones](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=es)
 
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=en)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
 
 * [Archivos de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=es)
 

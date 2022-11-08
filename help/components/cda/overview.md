@@ -2,10 +2,10 @@
 title: Análisis entre dispositivos
 description: Cambie los datos de centrados en el dispositivo a centrados en la persona mediante la vinculación de los datos del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 9c9322647145832503e4a5875789e9cf7e9a2397
-workflow-type: ht
-source-wordcount: '860'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ El análisis entre dispositivos es una característica innovadora y sólida, per
 * El análisis entre dispositivos no funciona en todos los grupos de informes ni combina datos de varios grupos de informes.
 * Los grupos de informes de Adobe Analytics no pueden asignarse a más de un ID de organización. Dado que el CDA vincula dispositivos dentro de un grupo de informes determinado, el CDA no se puede usar para unir datos en varios ID de organización.
 * CDA utiliza una compleja canalización de procesamiento, con varios componentes dependientes. Esto se ejecuta en paralelo con el flujo de trabajo base de creación de informes de Analytics. Por lo tanto, se espera una discordancia de datos de aproximadamente el 1 % para el número total de visitas entre el grupo de informes original y el grupo de informes virtuales de CDA.
-* Análisis entre dispositivos utiliza un grupo de informes virtuales y un procesamiento de tiempo de informes, que tienen sus propias limitaciones. Por ejemplo, actualmente no admiten variables de Canales de marketing. Consulte [Grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=es) y [Procesamiento de tiempo de los informes](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=es) para saber más sobre estas limitaciones.
+* Análisis entre dispositivos utiliza un grupo de informes virtuales y un procesamiento de tiempo de informes, que tienen sus propias limitaciones. Por ejemplo, actualmente no admiten variables de Canales de marketing. Consulte [Grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=es) y [Procesamiento de tiempo de los informes](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html#report-time-processing-limitations) para saber más sobre estas limitaciones.
 * Private Graph aprovecha las mismas sincronizaciones de ID que las utilizadas por la capacidad [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=es) ubicada en Experience Cloud y Adobe Analytics. Sin embargo, los grupos de informes virtuales de CDA (basados en gráficos privados o en la identificación entre dispositivos basada en campos) no son compatibles con el resto de la funcionalidad Atributos del cliente. Es decir, las dimensiones basadas en atributos del cliente no están disponibles para su uso en los grupos de informes virtuales de CDA.
 * En la actualidad, CDA no es compatible con A4T.
 * La API 1.4 no es compatible. Los conectores de Power BI y Report Builder dependen de la API 1.4 y, por lo tanto, no son compatibles con CDA.
