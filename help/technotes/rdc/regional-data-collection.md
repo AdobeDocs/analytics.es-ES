@@ -3,10 +3,10 @@ title: Recopilación de datos regionales
 description: Información sobre la recopilación de datos regionales
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+source-git-commit: 1016e802f80855aebe0046f48556733652379d33
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud utiliza la recopilación de datos regionales (RDC) para q
 
 >[!IMPORTANT]
 >
->El paquete de complementos de recopilación de datos regionales de China (China Performance Optimization) es un complemento facturable de Adobe Analytics. La optimización del rendimiento de Adobe en China continental permite a los clientes de China enviar datos directamente al nodo perimetral de China, en lugar de a otras ubicaciones de todo el mundo. Esto mejora los tiempos de carga de página y la precisión de los datos en comparación con el envío de estos a nodos fuera de China. Para obtener más información, póngase en contacto con el representante de ventas de Adobe.
+>El paquete de complementos de recopilación de datos regionales de China (China Performance Optimization) es un complemento facturable de Adobe Analytics. La optimización del rendimiento del Adobe en China continental permite a los clientes con usuarios dentro de China que envíen esos datos directamente a servidores de recopilación perimetral de Adobe dentro de China, en lugar de a otras ubicaciones de todo el mundo. Esto mejora los tiempos de carga de página y la precisión de los datos en comparación con el envío de estos a nodos fuera de China. Tenga en cuenta que, en última instancia, los datos se transfieren a uno de los centros de procesamiento de datos (DPC) de Adobe fuera de China. Para obtener más información, póngase en contacto con el representante de ventas de Adobe.
 
 Actualmente, la recopilación de datos regionales incluye las siguientes ubicaciones (sujetas a cambios):
 
