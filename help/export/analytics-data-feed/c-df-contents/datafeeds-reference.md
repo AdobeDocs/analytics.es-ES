@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+source-git-commit: 8be5cc920e601e7ebd57e0e3df645f3fa817924f
 workflow-type: tm+mt
-source-wordcount: '3599'
-ht-degree: 94%
+source-wordcount: '3621'
+ht-degree: 93%
 
 ---
 
@@ -63,8 +63,8 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | **`cust_hit_time_gmt`** | Solo grupos de informes con marca de tiempo. La marca de tiempo enviada con la visita y basada en el Tiempo Unix. | int |
 | **`cust_visid`** | Si se estableció una ID de visitante personalizada, aparece completada en esta columna. | varchar(255) |
 | **`daily_visitor`** | Indicador que determina si la visita es un visitante nuevo diario. | tinyint sin firmar |
-| **`dataprivacyconsentoptin`** | Variable utilizada en la variable [Inclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-in.md) dimensión. Puede haber varios valores por visita, separados por una barra vertical (`|`). Los valores válidos incluyen `DMP` y `SELL`. | varchar(100) |
-| **`dataprivacyconsentoptout`** | Variable utilizada en la variable [Exclusión de la administración de consentimiento](/help/components/dimensions/cm-opt-out.md) dimensión. Puede haber varios valores por visita, separados por una barra vertical (`|`). Los valores válidos incluyen `SSF`, `DMP`y `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptin`** | Variable utilizada en la variable [Inclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-in.md) dimensión. Puede haber varios valores por visita, separados por una barra vertical (`\|`). Los valores válidos incluyen `DMP` y `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | Variable utilizada en la variable [Exclusión de la administración de consentimiento](/help/components/dimensions/cm-opt-out.md) dimensión. Puede haber varios valores por visita, separados por una barra vertical (`\|`). Los valores válidos incluyen `SSF`, `DMP`y `SELL`. | varchar(100) |
 | **`date_time`** | La hora de la visita en un formato legible, basada en la zona horaria del grupo de informes. | datetime |
 | **`domain`** | Variable utilizada en la dimensión [Dominio](/help/components/dimensions/domain.md). Basado en el punto de acceso a Internet del visitante. | varchar(100) |
 | **`duplicate_events`** | Muestra cada evento que se contó como duplicado. | varchar(255) |
@@ -163,6 +163,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | **`page_type`** | Se utilizaba para completar la dimensión [Páginas no encontradas](/help/components/dimensions/pages-not-found.md) y se usaba exclusivamente para las páginas 404. Esta variable debe estar vacía o debe contener el valor `ErrorPage`. | char(20) |
 | **`page_url`** | La URL de la visita. Tenga en cuenta que `post_page_url` se elimina para las solicitudes de imagen de seguimiento de vínculos y utiliza un tipo de datos de varchar(255). | texto |
 | **`pagename`** | Se utiliza para completar la dimensión [Página](/help/components/dimensions/page.md). Si la variable [`pagename`](/help/implement/vars/page-vars/pagename.md) está vacía, Analytics utiliza `page_url` en su lugar. | varchar(100) |
+| **`pagename_no_url`** | Similar a `pagename`, excepto que no vuelve a `page_url`. Solo el `post` está disponible. | varchar(100) |
 | **`paid_search`** | Un indicador que se establece si la visita coincide con la detección de búsquedas de pago. | tinyint sin firmar |
 | **`partner_plugins`** | No se usa. Parte de una función limpiada. | varchar(255) |
 | **`persistent_cookie`** | Se utiliza en la dimensión [Compatibilidad con cookies persistentes](/help/components/dimensions/persistent-cookie-support.md). Indica si el visitante admite las cookies que no se descartan después de cada visita. | char(1) |
@@ -201,9 +202,10 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | **`socialownedpropertyid`** | Ya no se utiliza. ID de propiedad social | varchar(255) |
 | **`socialownedpropertyname`** | Ya no se utiliza. Nombre de la propiedad social | varchar(255) |
 | **`socialownedpropertypropertyvsapp`** | Ya no se utiliza. Propiedad social frente a aplicación | varchar(255) |
+| **`sourceid`** | . | int sin firmar |
 | **`state`** | Variable de estado. | varchar(50) |
 | **`stats_server`** | No es de uso. Servidor interno de Adobe que ha procesado la visita. | char(30) |
-| **`survey`** | Ya no se utiliza. Adobe Survey . | texto |
+| **`survey`** | Ya no se utiliza. Adobe Survey . Solo el `post` está disponible. | texto |
 | **`survey_instances`** | Ya no se utiliza. Adobe Survey instances . | texto |
 | **`t_time_info`** | Hora local del visitante. El formato es: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Se utiliza en las integraciones de Adobe Target. Representa todas las pruebas para las que está cualificado actualmente. El formato es: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | texto |
