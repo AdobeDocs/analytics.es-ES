@@ -3,13 +3,13 @@ description: Obtenga información sobre cómo utilizar el administrador de activ
 title: Administrador de actividades de creación de informes
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
+exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
+source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '934'
 ht-degree: 7%
 
 ---
-
 
 # Administrador de actividades de creación de informes
 
@@ -31,7 +31,9 @@ En Adobe Analytics, los administradores acceden a **[!UICONTROL Administrador]**
 
 ## Permisos
 
-Se necesitan permisos de administrador de productos de Analytics para administrar la actividad de informes.
+Se requiere el permiso de administrador de productos de Analytics (en Adobe Admin Console) para administrar la actividad de informes.
+
+![permiso](assets/rep-mgr-permission.png)
 
 ## Ver la cola de informes
 
