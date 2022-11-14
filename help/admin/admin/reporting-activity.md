@@ -4,9 +4,9 @@ title: Administrador de actividades de creación de informes
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
+source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '962'
 ht-degree: 7%
 
 ---
@@ -88,7 +88,7 @@ Los números de resumen muestran la siguiente información:
 
 | Número de resumen | Descripción |
 | --- | --- |
-| [!UICONTROL Usuarios] | Cuántos usuarios están enviando solicitudes de informes actualmente a este grupo de informes. |
+| [!UICONTROL Usuarios] | Número de usuarios que actualmente envían solicitudes de informes a este grupo de informes. |
 | [!UICONTROL Proyectos] | Proyectos de Workspace, libros de Report Builder, etc. |
 | [!UICONTROL Consultas] | Número de consultas que se están ejecutando actualmente. |
 | [!UICONTROL Tiempo de espera promedio] | El tiempo de espera promedio para todas las consultas en ejecución. |
@@ -120,7 +120,10 @@ La tabla detallada a continuación muestra los detalles del grupo de informes.
 
 Para cancelar una solicitud
 
-1. Marque la casilla a la izquierda de una o más **[!UICONTROL ID de consulta]** en la tabla y haga clic en **[!UICONTROL Cancelar solicitudes]** en la parte inferior. (También puede cancelar las solicitudes de forma masiva consultando los detalles mediante [!UICONTROL Usuario], [!UICONTROL Proyecto]o [!UICONTROL Aplicación].)
+1. Marque la casilla a la izquierda de una o más **[!UICONTROL ID de consulta]** en la tabla y haga clic en **[!UICONTROL Cancelar solicitudes]** en la parte inferior.
+
+   También puede cancelar las solicitudes de forma masiva consultando los detalles mediante [!UICONTROL Usuario], [!UICONTROL Proyecto]o [!UICONTROL Aplicación]. Las solicitudes posteriores de un proyecto, usuario o aplicación que no estaban en cola o que se estaban ejecutando en el momento de la cancelación pueden seguir apareciendo cuando se actualiza la actividad.
+
 1. En el **[!UICONTROL Cancelar x consulta]** que aparece, puede modificar el mensaje de cancelación, si es necesario.
 1. Haga clic en **[!UICONTROL Continuar]**.
 
