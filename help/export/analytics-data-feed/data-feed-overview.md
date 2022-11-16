@@ -5,9 +5,9 @@ title: Resumen de la fuente de datos de Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Las fuentes de datos son una forma eficaz de obtener datos sin procesar de Adobe
 
 ## Requisitos previos
 
-Asegúrese de cumplir todos los requisitos siguientes antes de utilizar fuentes de datos.
+Asegúrese de cumplir todos los requisitos antes de utilizar fuentes de datos.
 
 * Tenga a mano un sitio FTP y credenciales. Las fuentes de datos solo se pueden enviar a un destino de servidor. Su organización suele proporcionar credenciales de FTP. Adobe puede proporcionar una ubicación FTP con una cantidad modesta de almacenamiento si así lo desea. Póngase en contacto con el Servicio de atención al cliente para solicitar un destino de FTP para fuentes de datos.
 * Implementación de trabajo que envía datos a los servidores de recopilación de datos de Adobe. Consulte [Validación y publicación de una implementación](/help/implement/launch/validate-publish-prod.md) en la guía del usuario de implementación.
