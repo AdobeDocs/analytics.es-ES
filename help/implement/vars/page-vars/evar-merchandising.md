@@ -7,19 +7,19 @@ mini-toc-levels: 3
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 62%
+ht-degree: 98%
 
 ---
 
 # eVar (comercialización)
 
-*Esta página de ayuda describe cómo implementar eVars de comercialización. Para obtener información sobre cómo funcionan las eVars de comercialización como dimensiones, consulte [eVars (dimensión Comercialización)](/help/components/dimensions/evar-merchandising.md) en la guía de usuario sobre componentes.*
+*Esta página de ayuda describe cómo implementar eVars de comercialización. Para obtener información sobre cómo funcionan las eVars de comercialización como dimensiones, consulte [eVars (dimensión de comercialización)](/help/components/dimensions/evar-merchandising.md) en la guía del usuario de Componentes.*
 
 Para obtener información detallada sobre cómo funcionan las eVars de comercialización, consulte [eVars de comercialización y métodos de búsqueda de productos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
 
 ## Configurar eVars en la configuración del grupo de informes
 
-Antes de usar eVars en la implementación, asegúrese de configurar el eVar con la sintaxis deseada en la configuración del grupo de informes. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la guía de administración.
+Antes de usar eVars en la implementación, asegúrese de configurar la eVar con la sintaxis deseada en la configuración del grupo de informes. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la guía de administración.
 
 >[!WARNING]
 >
@@ -44,16 +44,16 @@ El valor de `eVar1` se asigna al producto. Todos los eventos de éxito subsiguie
 
 ### Sintaxis del producto mediante el SDK web
 
-Las variables de comercialización de sintaxis de producto son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en varios campos XDM diferentes.
+Las variables de comercialización de sintaxis de producto se [asignan para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en varios campos XDM diferentes.
 
-* Las eVars de comercialización de sintaxis de producto están asignadas en `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` a `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
-* Los eventos de comercialización de sintaxis de producto se asignan en `productListItems[]._experience.analytics.event1to100.event1.value` a `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Serialización de eventos](events/event-serialization.md) Los campos XDM están asignados en `productListItems[]._experience.analytics.event1to100.event1.id` a `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+* Las eVars de comercialización de sintaxis de producto están asignados en `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` a `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
+* Los eventos de comercialización de sintaxis de producto están asignados en `productListItems[]._experience.analytics.event1to100.event1.value` a `productListItems[]._experience.analytics.event901to1000.event1000.value`. Los campos XDM de [serialización de eventos](events/event-serialization.md) están asignados en `productListItems[]._experience.analytics.event1to100.event1.id` a `productListItems[]._experience.analytics.event901to1000.event1000.id`.
 
 >[!NOTE]
 >
->Cuando establece eventos en `productListItems`, no es necesario configurarlos en la cadena de evento. Si se establecen en ambos lugares, el valor de la cadena de evento tiene prioridad.
+>Cuando establece eventos en `productListItems`, no es necesario establecerlos en la cadena de evento. Si se establecen en ambos lugares, el valor de la cadena de evento tiene prioridad.
 
-El siguiente ejemplo muestra una [producto](products.md) usar varias eVars y eventos de comercialización:
+El siguiente ejemplo muestra un único [producto](products.md) que usa varias eVars y eventos de comercialización:
 
 ```js
 "productListItems": [
@@ -84,7 +84,7 @@ El siguiente ejemplo muestra una [producto](products.md) usar varias eVars y eve
 ]
 ```
 
-El objeto de ejemplo anterior se enviaría a Adobe Analytics como `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
+El objeto del ejemplo anterior se enviaría a Adobe Analytics como `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
 
 ## Implementación y uso de la sintaxis de la variable de conversión
 
@@ -108,9 +108,9 @@ El valor `"Aviary"` de `eVar1` se asigna al producto `"Canary"`. Todos los event
 
 ### Sintaxis de variables de conversión mediante el SDK web
 
-La sintaxis de la variable de conversión que utiliza el SDK web funciona de forma similar a la implementación de otros [eVars](evar.md) y [events](events/events-overview.md). La duplicación XDM del ejemplo anterior tendría el siguiente aspecto:
+La sintaxis de variables de conversión mediante el SDK web funciona de forma similar a la implementación de otras [eVars](evar.md) y [eventos](events/events-overview.md). La duplicación XDM del ejemplo anterior tendría el siguiente aspecto:
 
-Establezca el eVar en la misma llamada de evento o en la anterior:
+Establezca la eVar en la misma llamada de evento o en la anterior:
 
 ```js
 "_experience": {

@@ -5,13 +5,13 @@ title: Agregar carpetas en Workspace
 feature: Workspace Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
+exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
 
 ---
-
 
 # Agregar proyectos a carpetas
 
@@ -19,7 +19,7 @@ Puede agregar proyectos a una carpeta en la vista de tabla o desde una carpeta.
 
 >[!NOTE]
 >
->Esta funcionalidad está actualmente en Beta. Algunas pantallas pueden cambiar.
+>Esta funcionalidad está actualmente en beta. Algunas pantallas pueden cambiar.
 
 ## Desde la vista de tabla
 

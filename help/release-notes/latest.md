@@ -6,11 +6,11 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
-# Notas de la versión actual de Adobe Analytics (octubre/noviembre de 2022)
+# Notas de la versión actuales de Adobe Analytics (octubre/noviembre de 2022)
 
 **Última actualización**: 28 de octubre de 2022
 
@@ -21,19 +21,19 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | Visualización del **[!UICONTROL resumen de métricas clave]** | La visualización del [!UICONTROL resumen de métricas clave] permite ver las tendencias de una métrica importante dentro de un solo periodo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo.  [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html) | 5 de octubre de 2022 | 19 de octubre de 2023 |
-| **Variables de varios valores que no distinguen entre mayúsculas y minúsculas** | Para variables de varios valores que no distinguen entre mayúsculas y minúsculas, los valores se almacenan en `mvvar1 - mvvar3` y `post_mvvar1 - post_mvvar3` en Fuentes de datos ya no se convertirán en minúsculas automáticamente. En su lugar, las fuentes de datos (y los datos que pasan por el Conector de origen de Analytics a Adobe Experience Platform y CJA) reflejarán el formato original que se pasó desde la página. | N/A | 24 de octubre de 2022 |
+| **Variables de varios valores que no distinguen entre mayúsculas y minúsculas** | Para variables de varios valores que no distinguen entre mayúsculas y minúsculas, los valores que se almacenan en `mvvar1 - mvvar3` y `post_mvvar1 - post_mvvar3` en las fuentes de datos ya no se convertirán a minúsculas automáticamente. En su lugar, las fuentes de datos (y los datos que pasan por el Conector de origen de Analytics a Adobe Experience Platform y CJA) reflejarán el formato original que se pasó desde la página. | N/A | 24 de octubre de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Correcciones en Adobe Analytics
 
-* Se ha corregido un problema por el cual las versiones recientes de MacOS recibían el nombre incorrecto de &quot;Macintosh&quot;. Con esta corrección, la dimensión del sistema operativo empezará a utilizar la numeración de las versiones de &quot;MacOS&quot; a partir de MacOS 11. (AN-301834)
-* Se ha corregido un problema con el intervalo de fechas &quot;fechas fijas&quot; en el Report Builder. (AN-303684)
-* Se han corregido problemas con la interfaz de usuario de la fuente de datos que no se cargaba. (AN-303803, AN-303784)
+* Se ha corregido un problema por el cual las versiones recientes de macOS recibían el nombre incorrecto de “Macintosh”. Con esta corrección, la dimensión del sistema operativo empezará a utilizar la numeración de las versiones de “macOS” a partir de macOS 11. (AN-301834)
+* Se ha corregido un problema con el intervalo de fechas “fechas fijas” en Report Builder. (AN-303684)
+* Se han corregido problemas con la IU de la fuente de datos que no se cargaba. (AN-303803, AN-303784)
 
 ### Otras correcciones
 
--295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-302631; AN-302811; AN-303090; AN-303372; AN-; AN-303428; AN-303429; AN-303432; AN-303434; AN-303437; AN-303438; AN-303519; AN-303610; AN-303656; AN-303659; AN-303663; AN-303664; AN-303818; AN-303823; AN-303837; AN-304036; AN-304195; AN-304321; AN-304325; AN-304339; AN-304356; AN-304435; AN-304457; AN-304509; AN-304519; AN-304534
+AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-302631; AN-302811; AN-303090; AN-303372; AN-; AN-303428; AN-303429; AN-303432; AN-303434; AN-303437; AN-303438; AN-303519; AN-303610; AN-303656; AN-303659; AN-303663; AN-303664; AN-303818; AN-303823; AN-303837; AN-304036; AN-304195; AN-304321; AN-304325; AN-304339; AN-304356; AN-304435; AN-304457; AN-304509; AN-304519; AN-304534
 
 ## Avisos importantes para los administradores de Adobe Analytics
 
@@ -54,7 +54,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | Final de la vida útil de producto o función | Fecha de incorporación o actualización | Descripción |
 | --- | --- | --- |
 | **Funcionalidad del final de vida útil de las [!UICONTROL Listas de publicación]** | 29 de septiembre de 2022 | Como parte del final de la vida útil de Reports &amp; Analytics, las Listas de publicación están programadas para llegar al final de su vida útil en **diciembre de 2023**. No podrá crear Listas de publicación nuevas ni acceder a las existentes para enviar o programar proyectos de Analysis Workspace. [Más información](/help/admin/admin/publishing-list.md) |
-| **Fin de la vida útil para Data Workbench** | 14 de septiembre de 2022 | Adobe tiene planeado el fin de la vida útil de Data Workbench con fecha de aplicación el **31 de diciembre de 2023**. Consulte [anuncio de fin de vida útil de Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=es) para obtener más información. Póngase en contacto con el administrador de cuentas de Adobe de su organización si tiene alguna pregunta. |
+| **Fin de la vida útil para Data Workbench** | 14 de septiembre de 2022 | Adobe tiene planeado el fin de la vida útil de Data Workbench con fecha de aplicación el **31 de diciembre de 2023**. Consulte [Anuncio del fin de la vida útil de Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=es) para obtener más información. Póngase en contacto con el Administrador de cuentas de Adobe de su organización si tiene alguna pregunta. |
 | **EOL para [!DNL Reports & Analytics]** | 4 de enero de 2022 | A partir del **31 de diciembre de 2023**, Adobe tiene la intención de descatalogar [!DNL Reports & Analytics] y sus informes y funciones correspondientes. Los informes, las visualizaciones y la tecnología subyacente que alimentan [!DNL Reports & Analytics] ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de [!DNL Reports & Analytics] están disponibles en [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de [!DNL Reports & Analytics] se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. [Este aviso](https://spark.adobe.com/page/6WnF8JK6IRDhf/) explica el proceso de finalización de la vida útil. |
 
 {style=&quot;table-layout:auto&quot;}
