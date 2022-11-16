@@ -5,9 +5,9 @@ title: Resumen de privacidad
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics recopila los datos siguientes:
 | Índices de éxito de las campañas de publicidad | Sí |
 | Información de productos, como colores, precios, estilos, fotos | Sí |
 
-&#42;Excepto si el cliente de Adobe decide eliminar la dirección IP.
+&#42;Excepto si el cliente de Adobe decide quitar la dirección IP.
 
 ## Otras consideraciones de privacidad {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
@@ -103,7 +103,7 @@ Adobe Analytics recopila los datos siguientes:
   </tr> 
   <tr> 
    <td colname="col1"> Alemania </td> 
-   <td colname="col2"> <p>Si todavía no ha establecido un Contrato de procesamiento de datos para Adobe Analytics con Adobe, debe ponerse en contacto con el administrador de cuentas de Adobe o el administrador de éxito de clientes, quienes trabajarán con el Departamento legal de Adobe para implementarlo. </p> </td> 
+   <td colname="col2"> <p>Si aún no tiene un Contrato de procesamiento de datos para Adobe Analytics con Adobe, deberá contactar con su Administrador de cuentas de Adobe o Customer Success Manager, quienes trabajarán con el Departamento legal de Adobe para obtenerlo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
