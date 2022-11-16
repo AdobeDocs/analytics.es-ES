@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ Para activar el modo sin conexión:
 1. Ahora cree y ejecute su solicitud (en modo sin conexión) mediante el Asistente para solicitudes.
 1. Su solicitud con &quot;1&quot; como datos de marcador de posición tendrán un aspecto como este:
 
-   ![Ejemplo de modo sin conexión](assets/offline_mode_example.png)
+   ![Ejemplo del modo sin conexión](assets/offline_mode_example.png)
 
    >[!IMPORTANT]
    >
-   >Asegúrese de desactivar el modo sin conexión antes de ejecutar las solicitudes con datos reales. Para ello, simplemente vuelva a **[!UICONTROL Opciones]** y elimine la marca de activación.
+   >Asegúrese de desactivar el modo sin conexión antes de ejecutar sus solicitudes con datos reales. Para ello, simplemente vuelva a **[!UICONTROL Opciones]** y quite la marca de activación.
