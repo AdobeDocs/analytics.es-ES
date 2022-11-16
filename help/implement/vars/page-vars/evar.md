@@ -4,9 +4,9 @@ description: Variables personalizadas que puede utilizar en su implementación.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Antes de usar eVars en la implementación, asegúrese de configurar cada eVar en
 
 ## eVars con el SDK web
 
-Las eVars son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los campos XDM `_experience.analytics.customDimensions.eVars.eVar1` a `_experience.analytics.customDimensions.eVars.eVar250`.
+Las eVars se [asignan para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los campos XDM `_experience.analytics.customDimensions.eVars.eVar1` a `_experience.analytics.customDimensions.eVars.eVar250`.
 
-## eVars con la extensión Adobe Analytics
+## eVars con la extensión de Adobe Analytics
 
 Puede establecer eVars al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
