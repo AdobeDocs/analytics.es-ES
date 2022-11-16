@@ -1,14 +1,14 @@
 ---
-description: Introducción a los términos de análisis de marketing que se usan más frecuentemente en Reports & Analytics.
+description: Introducción a los términos de análisis de marketing que se usan con mayor frecuencia en Reports & Analytics.
 title: Términos comunes
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Introducción a los términos más utilizados de Adobe Analytics.
   </tr> 
   <tr> 
    <td> <p>Visita </p> </td> 
-   <td> <p>Secuencia de visitas de la página efectuadas en una sesión. La visita termina únicamente después de 30 minutos de inactividad o de 12 horas de actividad continua. (Esta medición de tiempo es el estándar del sector de marketing analytics). Las visitas se rastrean mediante cookies. Una visita comienza cuando un visitante accede a una página. En ocasiones, la visita recibe el nombre de <span class="term"> sesión</span>, pero no es una sesión del explorador. Dirigirse a un sitio diferente, cerrar el explorador o incluso reiniciar el equipo no termina una visita. </p> <p> Si se supera el tiempo de inactividad mientras un visitante está leyendo una página, la visita se cerrará y se procesará. Se inicia una nueva visita cuando el visitante llega a otra página. </p> <p>Si la fecha cambia durante la visita, como cuando se visita un sitio a medianoche, la visita se atribuye al día en que se inició la misma. </p> </td> 
+   <td> <p>Secuencia de visitas de la página efectuadas en una sesión. La visita termina únicamente después de 30 minutos de inactividad o de 12 horas de actividad continua. (Esta métrica de tiempo es el estándar en la industria para el análisis de marketing). Las visitas se rastrean mediante cookies. Una visita comienza cuando un visitante accede a una página. En ocasiones, la visita recibe el nombre de <span class="term"> sesión</span>, pero no es una sesión del explorador. Dirigirse a un sitio diferente, cerrar el explorador o incluso reiniciar el equipo no termina una visita. </p> <p> Si se supera el tiempo de inactividad mientras un visitante está leyendo una página, la visita se cerrará y se procesará. Se inicia una nueva visita cuando el visitante llega a otra página. </p> <p>Si la fecha cambia durante la visita, como cuando se visita un sitio a medianoche, la visita se atribuye al día en que se inició la misma. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Visitante único </p> </td> 
@@ -64,7 +64,7 @@ Introducción a los términos más utilizados de Adobe Analytics.
   </tr> 
   <tr> 
    <td> <p>Eventos de conversión (éxito) </p> </td> 
-   <td> <p>Los eventos de conversión son las actividades del sitio que usted desea que las personas realicen (indicadores de rendimiento clave). En los sitios de comercio electrónico, los eventos de conversión pueden ser una vista detallada del producto, un cierre de compra o una compra. En un sitio de generación de posibles clientes, el evento podría ser la cumplimentación de un formulario. Los eventos de conversión se cuentan en el sitio y tienen sus propios informes que muestran la cantidad de eventos que se han producido. Tales eventos también se convierten en métricas que se incluyen en otros informes y pueden mostrar por qué sucedieron los eventos de conversión o qué contribuyó a que se produjeran. </p> <p>La excepción a esta regla (un evento se transforma en una métrica) es el evento de compra que genera tres métricas: Ingresos, Pedidos y Unidades. </p> <p>Existen más métricas de conversión que no están definidas aquí, pero las métricas de conversión forman la base del análisis de marketing, sobre el cual se crean otras métricas e informes. </p> </td> 
+   <td> <p>Los eventos de conversión son las actividades del sitio que usted desea que las personas realicen (indicadores de rendimiento clave). En los sitios de comercio electrónico, los eventos de conversión pueden ser una vista detallada del producto, un cierre de compra o una compra. En un sitio de generación de posibles clientes, el evento podría ser la cumplimentación de un formulario. Los eventos de conversión se cuentan en el sitio y tienen sus propios informes que muestran la cantidad de eventos que se han producido. Tales eventos también se convierten en métricas que se incluyen en otros informes y pueden mostrar por qué sucedieron los eventos de conversión o qué contribuyó a que se produjeran. </p> <p>La excepción a esta regla (un evento se transforma en una métrica) es el evento de compra que genera tres métricas: Ingresos, Pedidos y Unidades. </p> <p>Existen más métricas de conversión que no están definidas aquí. No obstante, las métricas de conversión forman la base del análisis de su marketing, sobre el cual se generan otras medidas e informes. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Canal </p> </td> 
