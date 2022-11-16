@@ -4,9 +4,9 @@ description: Variables personalizadas que contienen varios valores en la misma v
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 63%
 
 Las variables “list” (lista) son variables personalizadas que se pueden utilizar como desee. Funcionan de manera similar a las eVars, excepto que pueden contener varios valores en la misma visita. Las variables de lista no tienen un límite de caracteres.
 
-Asegúrese de registrar cómo utiliza cada variable de lista y su lógica en su [documento de diseño de solución](../../prepare/solution-design.md).
+Asegúrese de registrar la forma en que utiliza cada variable de lista y su lógica en el [documento de diseño de la solución](../../prepare/solution-design.md).
 
 >[!NOTE]
 >
@@ -24,9 +24,9 @@ Asegúrese de registrar cómo utiliza cada variable de lista y su lógica en su 
 
 Asegúrese de configurar cada variable de lista en la configuración del grupo de informes antes de usarla en la implementación. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/list-var-admin.md) en la guía de administración. Este paso se aplica a todos los métodos de implementación.
 
-## Enumerar variables mediante el SDK web
+## Variables de lista mediante el SDK web
 
-Las variables de lista son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los campos XDM `_experience.analytics.customDimensions.lists.list1.list[]` a `_experience.analytics.customDimensions.lists.list3.list[]`. Cada elemento de matriz contiene un `"value"` objeto que contiene cada cadena. No es necesario proporcionar un delimitador; se incluye automáticamente utilizando el valor especificado en [Configuración del grupo de informes](/help/admin/admin/conversion-var-admin/list-var-admin.md). Por ejemplo, si una coma (&#39;`,`&#39;) está configurado como delimitador para la variable de lista 1, el siguiente objeto XDM rellena la variable `list1` con `"Example value 1,Example value 2,Example value 3"`.
+Las variables de lista se [asignan para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los campos XDM `_experience.analytics.customDimensions.lists.list1.list[]` a `_experience.analytics.customDimensions.lists.list3.list[]`. Cada elemento de matriz contiene un objeto `"value"` que engloba cada cadena. No es necesario proporcionar un delimitador; se incluye automáticamente utilizando el valor especificado en [Configuración del grupo de informes](/help/admin/admin/conversion-var-admin/list-var-admin.md). Por ejemplo, si una coma (“`,`”) está configurada como delimitador para la variable de lista 1, el siguiente objeto XDM rellena la variable `list1` con `"Example value 1,Example value 2,Example value 3"`.
 
 ```json
 "xdm": {
@@ -56,15 +56,15 @@ Las variables de lista son [asignado para Adobe Analytics](https://experiencelea
 
 >[!NOTE]
 >
->El esquema XDM de Adobe contiene `key` objetos, además de `value` objetos de cada `list[]` matriz. El Adobe no utiliza estos `key` objetos al enviar datos a Adobe Analytics.
+>El esquema XDM de Adobe contiene objetos `key`, además de objetos `value` en cada matriz `list[]`. Adobe no emplea estos objetos `key` al enviar datos a Adobe Analytics.
 
-## Enumerar variables mediante la extensión de Adobe Analytics
+## Variables de lista mediante la extensión de Adobe Analytics
 
-No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.list1 - s.list3 en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
-Cada variable de lista es una cadena que contiene valores personalizados específicos de su organización. No tienen un máximo de bytes; sin embargo, cada valor individual tiene un máximo de 255 bytes. El delimitador que utilice se determina al configurar la variable en [Configuración del grupo de informes](/help/admin/admin/conversion-var-admin/list-var-admin.md). No utilice espacios al delimitar varios elementos.
+Cada variable de lista es una cadena que contiene valores personalizados específicos de su organización. No tienen un máximo de bytes; sin embargo, cada valor individual tiene un máximo de 255 bytes. El delimitador que utilice se determina al configurar la variable en la [configuración del grupo de informes](/help/admin/admin/conversion-var-admin/list-var-admin.md). No utilice espacios al delimitar varios elementos.
 
 ```js
 // A list variable configured with a comma as a delimiter
