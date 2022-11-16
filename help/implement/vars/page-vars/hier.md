@@ -4,9 +4,9 @@ description: Implementar variables de jerarquía en Adobe Analytics.
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 source-git-commit: f435453f655caef89460de42ebecf489b021dc47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -22,24 +22,24 @@ Esta variable resulta útil para los sitios que tienen más de tres niveles en l
 
 Antes de usar jerarquías en la implementación, asegúrese de configurar cada jerarquía en la configuración del grupo de informes.
 
-## Jerarquías que utilizan el SDK web
+## Jerarquías que usan el SDK web
 
-Las jerarquías son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los campos XDM `_experience.analytics.customDimensions.hierarchies.hier1` a `_experience.analytics.customDimensions.hierarchies.hier5`.
+Las jerarquías son [asignadas para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los campos XDM de `_experience.analytics.customDimensions.hierarchies.hier1` a `_experience.analytics.customDimensions.hierarchies.hier5`.
 
-## Jerarquías que utilizan la extensión Adobe Analytics
+## Jerarquías que usan la extensión Adobe Analytics
 
 Puede establecer jerarquías al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) usando sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
 5. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Establecer variables].
-6. Busque la variable [!UICONTROL Jerarquía] para obtener más información.
+6. Busque la sección [!UICONTROL Jerarquía].
 
-Puede establecer un valor de jerarquía en una cadena estática o hacer referencia a un elemento de datos. También puede establecer el delimitador deseado. Asegúrese de que el delimitador que ha establecido aquí coincide con el conjunto de delimitadores definido en la configuración del grupo de informes.
+Puede establecer un valor de jerarquía en una cadena estática o hacer referencia a un elemento de datos. También puede establecer el delimitador que desee. Asegúrese de que el delimitador que ha establecido aquí coincide con el conjunto de delimitadores de la configuración del grupo de informes.
 
-## s.hier1 - s.hier5 en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.hier1 - s.hier5 en el editor de código personalizado de la extensión de Analytics y AppMeasurement
 
 Cada jerarquía es una cadena que contiene valores personalizados específicos de su organización. Su longitud máxima es de 255 bytes; los valores superiores a 255 bytes se truncan automáticamente cuando se envían a Adobe.
 
