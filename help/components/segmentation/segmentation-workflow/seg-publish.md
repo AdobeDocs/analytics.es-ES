@@ -4,9 +4,9 @@ title: Publicación de segmentos en Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1324'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,10 +55,10 @@ Vea este vídeo para obtener más información:
 1. Proporcione un título y una descripción para el segmento; de lo contrario, no podrá guardarlo.
 1. Consulte **[!UICONTROL Publicar este segmento en Experience Cloud (para *grupo de informes*)]**.
 
-![Experience Cloud de publicación](assets/publish-ec.png)
+![Publicar Experience Cloud](assets/publish-ec.png)
 
 >[!IMPORTANT]
->Asegúrese de utilizar &quot;Visitantes con ID de Experience Cloud&quot; al consultar las vistas previas de segmentos en Analytics en lugar de la vista previa de segmentos de &quot;visitantes únicos&quot; totales al comparar los números de Adobe Analytics con los números de Audience Manager:
+>Asegúrese de utilizar “Visitantes con Experience Cloud ID” al consultar las vistas previas de segmentos en Analytics en lugar de la vista previa de segmentos de “visitantes únicos” totales al comparar los números de Adobe Analytics con los de Audience Manager:
 >
 >![Segmentar a los visitantes con ECID](assets/seg-vis-ecid.png)
 
@@ -83,7 +83,7 @@ Para eliminar un segmento publicado en Experience Cloud, tiene que cancelar la p
 1. Vaya a [!UICONTROL Analytics > Componentes > Segmentos].
 1. Observe la nueva columna [!UICONTROL Publicado]. Sí/No hace referencia a si el segmento se ha publicado en Experience Cloud o no.
 
-![Estado de publicación](assets/publish-status.png)
+![Publicar el estado](assets/publish-status.png)
 
 ## Conseguir el UUID de [!DNL Audience Manager]
 
@@ -102,7 +102,7 @@ Las siguientes capturas de pantalla muestran cómo conseguir el UUID de AAM en e
 
 ![Depurador](assets/debugger.jpg)
 
-### Método 2: Uso de las herramientas para desarrolladores de Chrome (u otras herramientas para desarrolladores de navegador)
+### Método 2: Uso de las herramientas para desarrolladores de Chrome (u otras herramientas para desarrolladores de explorador)
 
 1. Iniciar Herramientas para desarrolladores Chrome antes de cargar una página
 1. Cargue la página y seleccione Aplicaciones > Cookies. El UUID de AAM debe configurarse en la cookie de terceros Demdex ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es) en el ejemplo siguiente). El parámetro de campo es la configuración UUID de AAM en el navegador (`50814298273775797762943354787774730612` en el ejemplo siguiente).
@@ -113,7 +113,7 @@ Las siguientes capturas de pantalla muestran cómo conseguir el UUID de AAM en e
 
 El UUID de AAM en el navegador se utilizará de forma predeterminada cuando se cargue el [!UICONTROL visor de perfiles de visitante]. Si comprueba las realizaciones de características para otros usuarios, introduzca un UUID en el campo UUID y haga clic en [!UICONTROL Actualizar]. Consulte [Visor de perfiles de visitantes](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=es) para obtener más información.
 
-![visor de perfiles del Audience Manager](assets/aam-vpv.png)
+![Visualizador de perfiles de Audience Manager](assets/aam-vpv.png)
 
 ## Vea las características del segmento en [!DNL Audience Manager]
 
