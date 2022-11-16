@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Tenga en cuenta que
 
 * Solo pueden agregarse métricas a solicitudes de diseño de tabla dinámica. Si alguna de las solicitudes seleccionadas es un diseño personalizado, no es posible agregar métricas. El motivo es que Report Builder no sabe en qué parte de la hoja de cálculo colocar la nueva métrica, ya que el diseño es personalizado.
 * Por lo tanto, si únicamente ha seleccionado solicitudes de diseño personalizado, la opción **[!UICONTROL Agregación de métricas]** no está disponible.
-* La agregación de métricas aumenta el tamaño de una solicitud y puede provocar que se solape con otra. Asegúrese de que la solicitud tenga suficiente espacio alrededor para permitir la adición de métricas.
+* La agregación de métricas aumenta el tamaño de una solicitud y puede provocar que se solape con otra. Asegúrese de que su solicitud tenga espacio suficiente alrededor para permitir la agregación de métricas.
 * Si la métrica agregada ya está presente en una de las solicitudes seleccionadas, no se agregará a esa solicitud.
 
 Para agregar una o más métricas:
@@ -70,9 +70,9 @@ Para eliminar métricas:
 
 1. Seleccione una o más solicitudes en Excel y haga clic con el botón derecho para seleccionar **[!UICONTROL Editar métricas]**. También puede hacer clic en **[!UICONTROL Administrar]** > **[!UICONTROL Editar varios]** > **`<choose metric>`** > **[!UICONTROL Editar grupo]** para seleccionar el grupo de solicitudes que quiere modificar.
 
-1. Seleccione **[!UICONTROL Eliminar métricas]**.
+1. Seleccione **[!UICONTROL Quitar métricas]**.
 
-   ![Eliminar métrica](assets/remove_metric.png)
+   ![Quitar métrica](assets/remove_metric.png)
 
 1. Seleccione una o más métricas a eliminar de una solicitud.
 1. Actualice la solicitud. Hasta que actualice, verá los datos sin conexión.
