@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
 ht-degree: 100%
 
@@ -211,7 +211,7 @@ Esta función se aplica solamente a los informes de tendencia filtrados con un i
 1. Ejecute un informe de tendencias en un intervalo de fechas específico.
 1. Haga clic en el vínculo **[!UICONTROL Día de la semana]** y, a continuación, haga clic en un día.
 
-## Botón “Probar en el espacio de trabajo”  {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
+## Botón “Probar en el espacio de trabajo” {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
 Al hacer clic en el botón **[!UICONTROL Probar en el espacio de trabajo]** situado en la parte superior de un informe, el mismo informe se cargará en Analysis Workspace.
 
