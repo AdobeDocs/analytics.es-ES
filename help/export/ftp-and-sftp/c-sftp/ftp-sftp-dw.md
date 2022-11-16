@@ -5,9 +5,9 @@ title: Envío de solicitudes de Data Warehouse a los servidores SFTP
 feature: FTP Export
 exl-id: 45694647-69ec-45e3-b614-4a936909a338
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,16 +22,16 @@ Adobe admite la exporación de solicitudes de Data Warehouse a los servidores SF
 * Cuando el protocolo `sftp://` se especifica en el campo del host (por ejemplo, `sftp://ftp.example.com`) y SOLO se utiliza el puerto 22 al solicitar el informe de Data Warehouse. También puede utilizar la opción `sftp+norename://`, tal y como se describe a continuación.
 * El archivo `authorized_keys` de Adobe se encuentra en el directorio `.ssh`, dentro del directorio raíz del usuario con el que inicia sesión.
 * El destino no es `ftp.omniture.com`. No se admite el protocolo SFTP entre los servidores internos de Adobe.
-* El destino admite la autenticación de un factor (PKI). Si se exigen dos factores, el informe no se podrá entregar. Asegúrese de que el servidor no esté configurado para intentar la autenticación de dos factores. Adobe Analytics requiere que, al iniciar sesión, solo se utilice la clave.
+* El destino admite la autenticación de un factor (PKI). Si se exigen dos factores, el informe no se podrá entregar. Asegúrese de que el servidor no esté configurado para intentar la autenticación de doble factor. Adobe Analytics requiere que, al iniciar sesión, solo se utilice la clave.
 * Adobe admite el cifrado SSHv2 y regresa a SSHv1 (solo clave RSA).
 
-Para enviar correctamente una solicitud de Data Warehouse a través de SFTP:
+Para enviar satisfactoriamente una solicitud de Data Warehouse a través de SFTP:
 
 1. Pídale a uno de los usuarios de soporte técnico de su compañía que se ponga en contacto con el servicio de atención al cliente para obtener el archivo `authorized_keys`.
-1. Cuando tenga el archivo, inicie sesión en el sitio del FTP con las mismas credenciales que se usan en la solicitud del almacén de datos.
+1. Cuando tenga el archivo, inicie sesión en el sitio del FTP con las mismas credenciales que se usan en la solicitud de Data Warehouse.
 1. En el directorio raíz, vaya a la carpeta denominada `.ssh` (si todavía no existe, créela) y coloque en ella el archivo `authorized_keys`.
 
-1. Vaya al administrador de solicitudes del almacén de datos. Configure la solicitud según sus preferencias y luego haga clic en **[!UICONTROL Opciones de envío avanzadas]**.
+1. Vaya al administrador de solicitudes de Data Warehouse. Configure la solicitud según sus preferencias y luego haga clic en **[!UICONTROL Opciones de envío avanzadas]**.
 
 1. En la ventana emergente, haga clic en **[!UICONTROL FTP]** y después especifique el sitio del FTP (incluido el protocolo `sftp://`, de este modo: `sftp://ftp.omniture.com`) a través del puerto 22.
 
