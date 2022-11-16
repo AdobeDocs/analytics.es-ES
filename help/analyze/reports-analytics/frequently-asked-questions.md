@@ -1,14 +1,14 @@
 ---
 description: Ofrece respuestas y sugerencias para resolución de problemas a algunas de las preguntas más frecuentes de Analytics.
 keywords: Resolución de problemas de Analytics
-title: Preguntas más frecuentes sobre Reports & Analytics
+title: Preguntas frecuentes sobre Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '757'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Ofrece sugerencias para la resolución de problemas y respuestas a algunas de la
 Para reactivar una cuenta, póngase en contacto con un administrador de su organización. Consulte también [Solucionar problemas de inicio de sesión con Adobe Analytics](/help/technotes/troubleshoot-login.md) en la guía del usuario de Technotes.
 +++
 
-+++¿Por qué veo un informe en blanco aunque sepa que se recopilan datos?
++++¿Por qué veo un informe en blanco si sé que se recopilan datos?
 Es necesario comprobar varios aspectos para solucionar problemas con los datos del informe:
 
 * Compruebe las métricas utilizadas: Algunos informes tienen el valor predeterminado Ingresos en Reports &amp; Analytics. Asegúrese de que la métrica que está viendo sea relevante para el informe.
-* Compruebe el intervalo de fechas: Los intervalos de fechas, especialmente los que no se incluyan en la política de retención de datos de su organización, no pueden devolver datos. Compruebe que el intervalo de fechas esté configurado correctamente.
+* Compruebe el intervalo de fechas: Los intervalos de fechas, especialmente los que no se incluyan en la política de retención de datos de su organización, no pueden devolver datos. Asegúrese de que el intervalo de fechas esté configurado correctamente.
 * Compruebe los filtros de URL internos: Algunos informes de fuentes de tráfico no funcionarán hasta que se definan correctamente los filtros de URL internos.
 +++
 
@@ -38,7 +38,7 @@ Los informes que faltan en un menú suelen proceder de permisos restringidos o d
 Casi todas las variables de Adobe Analytics tienen un límite de caracteres. El nombre de página tiene un límite de 100 caracteres, mientras que las variables de conversión personalizadas (eVars) tienen un límite de 255 caracteres. Adobe recomienda asegurarse de que los valores que envía a Adobe son concisos para evitar que se trunquen.
 +++
 
-+++¿Por qué veo un retraso importante en los informes?
++++¿Por qué veo un retraso importante en la creación de informes?
 La generación de informes en tiempo real permite disponer de métricas de tráfico en cuestión de minutos, mientras que tanto los datos de conversión como otros datos de procesamiento intensivo suelen estar disponibles en un periodo de entre 30 y 90 minutos. A pesar de la solidez de la plataforma de Experience Cloud, hay algunas situaciones que pueden provocar retrasos en la generación de informes. Este retraso se conoce como latencia. Consulte [Latencia](/help/technotes/latency.md) en la guía del usuario de administración para obtener más información.
 +++
 
@@ -62,6 +62,6 @@ No se puede eliminar un grupo de informes. Sin embargo, se puede ocultar un grup
 Según la amplitud con la que desee capturar los datos, utilizará un contenedor de segmentos u otro. Los contenedores de vista de página solo generan visitas que coinciden con los criterios del segmento, lo cual resulta útil para filtrar partes irrelevantes de las visitas. Los contenedores de visita reúnen todas las visitas de una visita individual en la que una o más visitas cumplieron los criterios del segmento, lo cual resulta útil para ver las sesiones en general. Los contenedores de visitante proporcionan todas las visitas individuales en las que una visita cumplió los criterios del segmento, lo cual resulta útil para ver a los usuarios. Como analista, debe determinar qué contenedor de segmentos le conviene utilizar. Consulte [Información general de segmentación](/help/components/segmentation/seg-overview.md) en la guía del usuario Componentes para obtener más información.
 +++
 
-+++¿Por qué mi segmento no se muestra en la Data Warehouse?
++++¿Por qué no se muestra mi segmento en Data Warehouse?
 La plataforma no está optimizada para manejar algunos tipos de datos, como las rutas, debido a la arquitectura de procesamiento única de Data Warehouse. Consulte [Compatibilidad de segmentos de Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md) en la guía del usuario Componentes para obtener más información.
 +++
