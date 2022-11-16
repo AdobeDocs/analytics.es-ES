@@ -5,19 +5,19 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: 5bad2982cc8883701be3c63a6ca179933fb59d2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # Preguntas frecuentes
 
 +++¿Cuáles son los requisitos previos para utilizar Analysis Workspace?
-[Envío de datos a Adobe Analytics mediante la extensión de Adobe Analytics](/help/implement/launch/validate-publish-prod.md): El uso de Analysis Workspace requiere una implementación activa. Asegúrese de que su organización envía datos al Adobe antes de utilizar la herramienta. Otras implementaciones, como las implementaciones manuales heredadas, también pueden funcionar.
+[Envío de datos a Adobe Analytics mediante la extensión de Adobe Analytics](/help/implement/launch/validate-publish-prod.md): El uso de Analysis Workspace requiere una implementación activa. Compruebe que su organización envía datos a Adobe antes de utilizar la herramienta. Otras implementaciones, como las implementaciones manuales heredadas, también pueden funcionar.
 +++
 
-+++¿Cuáles son los requisitos de administración y acceso para Analysis Workspace?
++++¿Cuáles son los requisitos de administración y acceso de Analysis Workspace?
 Consulte [Requisitos de administración](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
 +++
 
@@ -25,7 +25,7 @@ Consulte [Requisitos de administración](/help/analyze/analysis-workspace/worksp
 Como Analysis Workspace es una herramienta de generación de informes, no afecta a la recopilación de datos. No hay repercusiones en arrastrar indiscriminadamente componentes a un proyecto para ver qué funciona. Arrastre diferentes combinaciones de dimensiones y métricas al proyecto de Workspace para ver qué hay disponible. Si arrastra accidentalmente un componente no válido al proyecto de Workspace o desea volver atrás un paso, pulse ctrl+Z (Windows) o cmd+Z (Mac) para deshacer la última acción realizada. También puede empezar con una pizarra limpia haciendo clic en **[!UICONTROL Proyecto]** > **[!UICONTROL Nuevo]** en el menú superior izquierdo.
 +++
 
-+++¿Cuántos grupos de informes se pueden mostrar en un proyecto de Analysis Workspace?
++++¿Cuántos grupos de informes se pueden ver en un proyecto de Analysis Workspace?
 Ahora puede crear proyectos en Analysis Workspace con datos de [más de un grupo de informes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=es).
 +++
 
@@ -37,7 +37,7 @@ No se requiere implementación especial. Analysis Workspace está disponible en 
 No. Como es un entorno separado, no se producen cambios en sus informes existentes o preconfigurados en Adobe Analytics. Puede seguir empleando los informes estándar tanto de Reports &amp; Analytics como del Report Builder mediante Analysis Workspace.
 +++
 
-+++¿Puedo usar Analysis Workspace para la Data Warehouse?
++++¿Puedo usar Analysis Workspace para Data Warehouse?
 No se recomienda Analysis Workspace para exportación masiva de datos. Es un espacio de trabajo de visualización que crea proyectos de análisis con estilo de tablero.
 +++
 
@@ -60,7 +60,7 @@ Vea este vídeo sobre el seguimiento del uso para Analysis Workspace:
 
 +++
 
-+++Cuando arrastro una métrica, significa &quot;Datos no válidos&quot;. ¿Cómo puedo resolver este problema?
++++Cuando arrastro una métrica, dice “Datos no válidos”. ¿Cómo puedo resolver este problema?
 Datos no válidos significa que Adobe no puede devolver datos mediante la combinación de dimensiones y métricas utilizadas en el informe. Por ejemplo: dos métricas apiladas una encima de la otra no se pueden devolver como datos, ya que no hay forma de mostrar dos métricas de esa manera. En su lugar, coloque las métricas una al lado de la otra.
 +++
 
