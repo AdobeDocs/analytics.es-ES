@@ -4,9 +4,9 @@ title: Generar segmentos secuenciales
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3827'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Los segmentos secuenciales se crean mediante el operador THEN, en lugar de AND u
 
 ![](assets/before-after-sequence.png)
 
-Además, puede restringir los segmentos secuenciales a una duración, granularidad y recuentos entre puntos de comprobación específicos mediante los [operadores Después y En](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+Además, puede restringir los segmentos secuenciales a una duración, granularidad y recuentos entre puntos de comprobación específicos mediante los [operadores After y Within](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
 Este es un vídeo sobre la segmentación secuencial:
 
@@ -210,7 +210,7 @@ Cree un segmento como lo haría para un segmento secuencial simple, de nivel mix
 
 Si el punto de comprobación de exclusión se encuentra al inicio de un segmento secuencial, se garantiza que no se ha producido una vista de página excluida antes de la primera visita individual no excluida.
 
-Por ejemplo, un restaurante quiere ver los usuarios habituales que evitan la página de aterrizaje principal y acceden directamente a la página de pedidos. Este ejemplo se puede simplificar para que un visitante evite visitar la página A y vaya directamente a la página B.
+Por ejemplo, un restaurante quiere ver los usuarios habituales que evitan la página de aterrizaje principal y acceden directamente a la página de pedidos. Este ejemplo se puede simplificar con que un visitante evita la página A y va directamente a la B.
 
 **Crear este segmento**
 
@@ -222,7 +222,7 @@ Cree dos contenedores de visita individual separados dentro de un contenedor de 
 
 Si el punto de comprobación de exclusión está al final de la secuencia, se garantiza que el punto de comprobación no se produjo entre el último punto de comprobación no excluido y el final de la secuencia del visitante.
 
-Por ejemplo, una tienda de ropa quiere ver todos los visitantes que vieron una página de producto pero que no visitaron más tarde su carro de compras. Este ejemplo se puede simplificar para que un visitante que vaya a la página A nunca vaya a la página B en visitas actuales o posteriores.
+Por ejemplo, una tienda de ropa quiere conocer todos los visitantes que vieron una página de producto, pero que no visitaron más tarde su carro de compras. Este ejemplo se puede simplificar con que un visitante va a la página A y nunca a la B en visitas actuales o posteriores.
 
 **Crear este segmento**
 
