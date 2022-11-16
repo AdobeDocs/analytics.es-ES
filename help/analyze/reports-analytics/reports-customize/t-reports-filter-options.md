@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Coincide si el término se encuentra en cualquier punto del elemento de línea. 
 
 **No contiene**
 
-Coincide si el término no se encuentra en cualquier punto del elemento de línea. Puede filtrar “sin especificar”, “ninguno”, “teclado no disponible” y otros [valores especiales](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html) desde los informes mediante “No contiene”.
+Coincide si el término no se encuentra en cualquier punto del elemento de línea. Puede filtrar “sin especificar”, “ninguno”, “teclado no disponible” y otros [valores especiales](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=es) desde los informes mediante “No contiene”.
 
 No contiene: `none`
 
