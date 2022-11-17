@@ -3,10 +3,10 @@ description: Adobe necesita que se informe por adelantado en caso de nuevas conf
 title: Tiempo de espera necesario para aumentos de tráfico
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
-source-wordcount: '332'
-ht-degree: 100%
+source-git-commit: f9462d1b8b2795bec9dab9b479d4885fcaa92b5d
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 78%
 
 ---
 
@@ -24,36 +24,30 @@ Respete las siguientes normas para determinar la antelación del envío de alert
 
 ## Tiempos de espera de Asignación de hardware
 
+
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> Estimativos de tráfico DIARIO (visitas individuales) </th>
-   <th colname="col2" class="entry"> <p>Tiempo de espera necesario (de enero a octubre) </p> </th>
-   <th colname="col3" class="entry"> <p>Tiempo de espera necesario (de noviembre a diciembre) </p> </th>
+   <th colname="col1" class="entry"> Tipo de cambio de tráfico </th>
+   <th colname="col2" class="entry"> Tiempo de espera necesario </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Hasta 1 000 000 </td>
-   <td colname="col2"> No existe tiempo de espera necesario </td>
-   <td colname="col3"> No existe tiempo de espera necesario </td>
+   <td colname="col1"> Nueva configuración de cuenta </td>
+   <td colname="col2"> <ul><li>3 días hábiles</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 1 000 000 - 5 000 000 </td>
-   <td colname="col2"> Dos días HÁBILES </td>
-   <td colname="col3" morerows="3"> Todos los incrementos de tráfico planeados para noviembre y diciembre deberían enviarse antes del 1 de septiembre. El objetivo de esto es permitir tiempo para la capacidad de compra si es necesario para ajustarse al tráfico de las fiestas. </td>
+   <td colname="col1"> Pico de tráfico o aumento repentino del tráfico permanente de hasta un 25% en volumen diario promedio comparado con los últimos 30 días</td>
+   <td colname="col2"> <ul><li>Grupos de informes con &lt; 100 millones de visitas al día: No se requiere notificación</li><li>Grupos de informes con &gt; 100 millones de visitas al día: 5 días hábiles</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 5 000 000 - 10 000 000 </td>
-   <td colname="col2"> Una semana natural </td>
+   <td colname="col1"> Pico de tráfico o aumento repentino del tráfico permanente de más del 25% en volumen diario promedio comparado con los últimos 30 días</td>
+   <td colname="col2"> <ul><li>5 días hábiles</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 10 000 000 - 25 000 000 </td>
-   <td colname="col2"> Dos semanas naturales </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>Más de 25.000.000 </p> </td>
-   <td colname="col2"> Uno o más meses </td>
+   <td colname="col1"> Eventos festivos de octubre a diciembre </td>
+   <td colname="col2"> <ul><li>Un mes natural</li></ul> </td>
   </tr>
  </tbody>
 </table>
