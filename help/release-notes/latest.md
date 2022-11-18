@@ -3,16 +3,16 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 3c010207764de51ed053b7bf9ee777e68097e411
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 99%
+source-wordcount: '1461'
+ht-degree: 96%
 
 ---
 
 # Notas de la versión actuales de Adobe Analytics (octubre/noviembre de 2022)
 
-**Última actualización**: 28 de octubre de 2022
+**Última actualización**: 18 de noviembre de 2022
 
 Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -39,6 +39,7 @@ AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-
 
 | Aviso | Fecha de incorporación o actualizada | Descripción |
 | ----------- | ---------- | ---------- |
+| **Directrices actualizadas para notificaciones de picos de tráfico** | 18 de noviembre de 2022 | Las directrices anteriores se basaban estrictamente en los volúmenes de visitas. La variable [nuevas directrices](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=en) se basan en una combinación de tamaño y aumento porcentual del grupo de informes. |
 | **Actualización de las búsquedas de dispositivos debido a las sugerencias del cliente de Google** | 14 de octubre de 2022 | El uso de sugerencias de cliente en la búsqueda de dispositivos, planificado originalmente para el 26 de octubre de 2022, se ha pospuesto hasta **enero de 2023**. <p> <p>Desde octubre de 2022, es posible recopilar sugerencias del cliente con las bibliotecas de SDK web o JavaScript de AppMeasurement. Sin embargo, las sugerencias del cliente no se incorporarán a la búsqueda de dispositivos hasta enero de 2023. En esa fecha, Adobe empezará a utilizar sugerencias del cliente, además del agente de usuario, al obtener determinada información de los dispositivos para las visitas procedentes de exploradores Chromium, como Google Chrome y Microsoft Edge. Esto es en respuesta al plan de Google de reducir gradualmente la información presentada desde la cadena del agente de usuario en lugar de los datos pasados a través de sugerencias del cliente. <p> <p>Como parte de este cambio, Adobe utilizará DeviceAtlas para todas las búsquedas de dispositivos relacionadas con el agente de usuario. [Más información](/help/technotes/client-hints.md) |
 | **Página de aterrizaje predeterminada** | 29 de septiembre de 2022 | La [nueva página de aterrizaje](/help/analyze/landing.md) que se introdujo a principios de este año se convertirá en la experiencia predeterminada para todos los usuarios en **enero de 2023**. La página actual quedará obsoleta y todos tendrán que utilizar la nueva experiencia. |
 | **[!UICONTROL Detección de anomalías] condiciones de ejecución automática** | 29 de septiembre de 2022 | Hoy en día, [!UICONTROL Detección de anomalías] se ejecuta automáticamente en todas las columnas de tablas de forma libre de series temporales. Para garantizar que los datos estén disponibles para el análisis y que los proyectos se carguen más rápido, Adobe cambiará la forma en que se ejecuta automáticamente la Detección de anomalías. A partir del **26 de octubre de 2022**, [!UICONTROL Detección de anomalías] solo se ejecutará automáticamente en la primera columna de métrica de una tabla. Puede configurar la configuración de la columna para ejecutar la detección de anomalías en otras columnas, en caso de ser necesario. |
