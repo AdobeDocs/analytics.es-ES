@@ -3,16 +3,16 @@ title: Requisitos del sistema de Adobe Analytics
 description: Requisitos del sistema para utilizar Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: 45c6f0e08870cd9e01e8e6bfb7900ca54d356d02
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 92%
+source-wordcount: '118'
+ht-degree: 76%
 
 ---
 
 # Requisitos del sistema de Adobe Analytics
 
-Muestra los requisitos del sistema para utilizar varias soluciones de productos en Adobe Analytics.
+La mayoría de las soluciones de Adobe Analytics se ejecutan en el explorador. Las secciones siguientes proporcionan los requisitos del sistema para las soluciones de cliente y explorador:
 
 ## Requisitos del sistema para soluciones basadas en explorador
 

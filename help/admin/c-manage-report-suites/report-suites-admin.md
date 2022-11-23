@@ -3,18 +3,30 @@ description: Los grupos de informes definen los informes completos e independien
 title: Administrador del grupo de informes
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
-source-wordcount: '439'
-ht-degree: 100%
+source-git-commit: 45c6f0e08870cd9e01e8e6bfb7900ca54d356d02
+workflow-type: tm+mt
+source-wordcount: '419'
+ht-degree: 88%
 
 ---
 
 # Administrador del grupo de informes
 
-Los grupos de informes definen los informes completos e independientes de un sitio web concreto, de un conjunto de sitios web o de un subconjunto de páginas web. Por lo general, un grupo de informes es un sitio web, pero podría ser un segmento global en el cual haya combinado las cifras de varios sitios para obtener valores totales. Cuando inicia sesión en cualquier solución de Adobe Analytics, selecciona un grupo de informes a utilizar (excepto cuando utiliza resúmenes que combinan grupos de informes). Asimismo, un grupo de informes puede ser de menor tamaño que un sitio web si desea ejecutar informes solo para una parte del sitio. Las soluciones de Analytics reúnen estos almacenes de datos y generan informes a partir de ellos. El Administrador del grupo de informes de administración permite definir las reglas que rigen la forma en la que se procesan los datos en un grupo de informes.
+Los grupos de informes definen los informes completos e independientes para cualquiera de los siguientes almacenes de datos:
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**
+* Un solo sitio web (el más típico)
+
+* Parte o subconjunto de un sitio web único
+
+* Un segmento global compuesto por números de varios sitios para obtener totales
+
+Las soluciones de Analytics reúnen estos almacenes de datos y generan informes a partir de ellos. El Administrador del grupo de informes de administración permite definir las reglas que rigen la forma en la que se procesan los datos en un grupo de informes.
+
+Cuando inicia sesión en cualquier solución de Adobe Analytics, selecciona un grupo de informes a utilizar (excepto cuando utiliza resúmenes que combinan grupos de informes).
+
+Para acceder a un grupo de informes:
+
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Grupos de informes]**
 
 >[!NOTE]
 >
