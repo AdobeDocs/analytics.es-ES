@@ -1,13 +1,13 @@
 ---
 title: Sugerencias del cliente
 description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
-source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
-workflow-type: ht
-source-wordcount: '1073'
-ht-degree: 100%
+exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
+source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 87%
 
 ---
-
 
 # Información general y preguntas frecuentes sobre sugerencias del cliente
 
@@ -41,7 +41,7 @@ Esta [publicación de blog de Google](https://web.dev/user-agent-client-hints/) 
 
 +++**¿Cómo habilito la colección de sugerencias del cliente?**
 
-El explorador proporciona automáticamente sugerencias de baja entropía, ingeridas para derivar la información del dispositivo y del explorador. Se pueden configurar versiones más recientes del SDK web (a partir de 2.12.0) y AppMeasurement (a partir de 2.23.0) para recopilar sugerencias de alta entropía mediante sus respectivas extensiones de etiquetas o directamente mediante una opción de configuración. Consulte las instrucciones para [SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=es#enabling-high-entropy-client-hints) y [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=es).
+El explorador proporciona automáticamente sugerencias de baja entropía, ingeridas para derivar la información del dispositivo y del explorador. Se pueden configurar versiones más recientes del SDK web (a partir de 2.12.0) y AppMeasurement (a partir de 2.23.0) para recopilar sugerencias de alta entropía mediante sus respectivas extensiones de etiquetas o directamente mediante una opción de configuración. Consulte las instrucciones para [SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) y [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 Para ambas bibliotecas, la colección de sugerencias de alta entropía está **desactivada de forma predeterminada**.
 
@@ -81,17 +81,25 @@ Los campos de dispositivo disponibles para la creación de informes no cambiará
 
 Estos campos derivan directamente del agente de usuario, pero este se puede utilizar para derivar valores para otros campos relacionados con el dispositivo, según sus detalles.
 
-* [Explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=es)
-* [Tipo de explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=es)
-* [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es)
-* [Tipos de sistemas operativos](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=es)
-* [Tipo de dispositivo móvil y dispositivo móvil](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=es)
+* [Explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
+* [Tipo de explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
+* [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
+* [Tipos de sistemas operativos](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
+* [Tipo de dispositivo móvil y dispositivo móvil](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
 
 +++
 
 +++**¿Qué partes del Agente-Usuario se están &quot;congelando&quot; y cuándo?**
 
 Consulte la [cronología publicada por Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Esto puede estar sujeto a cambios.
+
++++
+
++++**¿De qué manera Analytics depende del agente de usuario?**
+
+La información del dispositivo en los informes se deriva del agente de usuario. Hemos actualizado nuestros procesos para utilizar tanto las sugerencias del agente de usuario como las del cliente cuando estén disponibles.
+
+El ID de reserva ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) se deriva del agente de usuario y de la dirección IP. Este ID solo se utiliza si no se puede configurar una cookie, por lo que no se utiliza de forma generalizada
 
 +++
 
@@ -105,7 +113,7 @@ Consulte la [cronología publicada por Google](https://blog.chromium.org/2021/09
 
 +++**¿Cómo usará Adobe las sugerencias del cliente para derivar información del dispositivo?**
 
-Adobe utiliza un tercero, DeviceAtlas, que usa las sugerencias del cliente y el agente de usuario para obtener información del dispositivo.
+Adobe utiliza un tercero, Device Atlas, que usará tanto las sugerencias del cliente como el User-Agent para obtener información del dispositivo.
 
 +++
 
@@ -141,7 +149,6 @@ Consulte la [documentación del esquema](https://github.com/adobe/xdm/blob/maste
 
 +++**¿Admitirá el reenvío del lado del servidor a AAM las sugerencias del cliente?**
 
-Sí. Las sugerencias del cliente se incluirán en los datos reenviados a AAM. Tenga en cuenta que AAM requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está utilizando el [reenvío del lado del servidor a AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=es), es posible que desee habilitar la recopilación de sugerencias de alta entropía.
+Sí. Las sugerencias del cliente se incluirán en los datos reenviados a AAM. Tenga en cuenta que AAM requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está utilizando el [reenvío del lado del servidor a AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html), es posible que desee habilitar la recopilación de sugerencias de alta entropía.
 
 +++
-
