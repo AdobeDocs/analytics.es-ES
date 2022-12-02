@@ -3,20 +3,20 @@ title: Requisitos del sistema de Adobe Analytics
 description: Requisitos del sistema para utilizar Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 45c6f0e08870cd9e01e8e6bfb7900ca54d356d02
+source-git-commit: 1ff50284015588888f9118f7640b4057232457d2
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 76%
+source-wordcount: '125'
+ht-degree: 63%
 
 ---
 
 # Requisitos del sistema de Adobe Analytics
 
-La mayoría de las soluciones de Adobe Analytics se ejecutan en el explorador. Las secciones siguientes proporcionan los requisitos del sistema para las soluciones de cliente y explorador:
+La mayoría de las soluciones de Adobe Analytics se ejecutan en el explorador. La información de este artículo proporciona requisitos del sistema tanto para soluciones de navegador como de cliente.
 
 ## Requisitos del sistema para soluciones basadas en explorador
 
-La mayoría de las soluciones de Adobe Analytics, incluido Analysis Workspace, se basan en el explorador. Por lo tanto, el requisito más importante para utilizar Adobe Analytics es un explorador web moderno. Adobe es compatible con la última versión de estos navegadores:
+La mayoría de las soluciones de Adobe Analytics, incluido Analysis Workspace, se basan en el explorador. Por lo tanto, el requisito más importante para utilizar Adobe Analytics es un explorador web moderno. Adobe es compatible con la última versión estable de los siguientes navegadores:
 
 * Microsoft Edge
 * Google Chrome
@@ -31,5 +31,5 @@ La mayoría de las soluciones de Adobe Analytics, incluido Analysis Workspace, s
 
 Consulte la página de soluciones vinculadas para conocer los requisitos del sistema de cada solución.
 
-* [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
-* [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=es)
+* [Report Builder requisitos del sistema](/help/analyze/report-builder/setup/system-requirements.md)
+* [requisitos del sistema de Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=es)
