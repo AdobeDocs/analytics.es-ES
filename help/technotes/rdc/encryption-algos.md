@@ -2,13 +2,13 @@
 title: Algoritmos de cifrado HTTPS admitidos
 description: El 23 de junio de 2022, se eliminará la compatibilidad con cifrados TLS 1.2 que utilicen SHA1 o CBC para clientes con un nivel de seguridad cifrado establecido en "Alto".
 feature: Regional Data Collection
-source-git-commit: ce607610516a94e4d0fbbc53a1f8f53f5977a777
+exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
+source-git-commit: 84a8dc9c6052d34e9dea370e444c83e84bf17852
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 0%
+source-wordcount: '285'
+ht-degree: 5%
 
 ---
-
 
 # Algoritmos de cifrado HTTPS admitidos
 
@@ -24,6 +24,8 @@ Ya no se admitirán los siguientes cifrados TLS 1.2:
 * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
 * TLS_RSA_WITH_AES_128_CBC_SHA
 * TLS_RSA_WITH_AES_256_CBC_SHA
+* TLS_RSA_WITH_AES_128_GCM_SHA256
+* TLS_RSA_WITH_AES_256_GCM_SHA384
 
 Se sabe que los siguientes clientes se ven afectados por este cambio porque carecen de compatibilidad con los estándares de cifrado actuales:
 
@@ -35,4 +37,3 @@ Se sabe que los siguientes clientes se ven afectados por este cambio porque care
 Los dispositivos Android no se ven afectados por este cambio.
 
 Los clientes con un nivel de seguridad cifrado establecido en &quot;Estándar&quot; no se ven afectados por este cambio.
-
