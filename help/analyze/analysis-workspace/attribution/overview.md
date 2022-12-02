@@ -4,10 +4,10 @@ description: Concepto de atribución de crédito de un evento de éxito a varios
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 639449ea27721a15e29ca1b3085788d764b14909
-workflow-type: ht
-source-wordcount: '442'
-ht-degree: 100%
+source-git-commit: ecb3600d524817ccb01f0e0697672e4828d99e86
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Analytics mejora la atribución al permitir lo siguiente:
 * Definir la atribución más allá del contenido multimedia de pago: cualquier dimensión, métrica, canal o evento puede aplicarse a modelos (por ejemplo, búsqueda interna), no solo a campañas de marketing.
 * Utilizar la comparación de modelos de atribución sin límites: compare dinámicamente todos los modelos que desee.
 * Evitar cambios de implementación: con el procesamiento de tiempo de informes y las sesiones con reconocimiento de contexto, el contexto del recorrido del cliente puede generarse y aplicarse en el tiempo de ejecución.
-* Construir la sesión más adecuada para su situación de atribución.
+* Construir la sesión más adecuada para su escenario de atribución.
 * Desglosar la atribución por segmentos: compare fácilmente el rendimiento de sus canales de marketing en cualquier segmento importante (por ejemplo, clientes nuevos frente a repetidos, producto X frente a producto Y, nivel de fidelidad o CLV).
 * Inspeccionar análisis de canales cruzados y de múltiples contactos mediante Diagramas de Venn e Histogramas, y resultados de atribución de tendencias.
 * Analizar visualmente secuencias de marketing clave: explore las rutas que generaron una conversión visualmente con las visualizaciones de visitas en el orden previsto y flujo de varios nodos.
@@ -64,3 +64,6 @@ Adición de comparaciones paralelas de modelos de Attribution IQ:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
+## Herramientas de Adobe Analytics que no admiten Attribution IQ
+
+Las herramientas que no admiten la API de Analytics 2.0, como Report Builder, no admiten Attribution IQ.
