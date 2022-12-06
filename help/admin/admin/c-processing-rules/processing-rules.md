@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: Resumen de las reglas de procesamiento
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
-workflow-type: ht
-source-wordcount: '329'
-ht-degree: 100%
+source-git-commit: 3d22d27a259b100cbbe8306b4d610afacb59d265
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 88%
 
 ---
 
@@ -57,3 +57,7 @@ Las reglas de procesamiento pueden supervisar los valores entrantes para transfo
 Una vez que las variables de datos de contexto se definen en la implementación, se deben copiar en variables como las eVars para poder utilizarse en la creación de informes.
 
 Consulte [Copiar una variable de datos de contexto en una eVar](processing-rules-examples/processing-rules-copy-context-data.md) y [Definir un evento con una variable de datos de contexto](processing-rules-examples/processing-rules-copy-context-data-event.md) para obtener más información.
+
+## Limitaciones conocidas
+
+**Uso de quilates (^) en reglas de procesamiento.** Si desea utilizar caracteres en reglas de procesamiento como delimitadores o para otros fines, cada carro individual debe estar representado por dos quilates. Por ejemplo, representar un solo carro como ^^, un doble carro como ^^^^, etc.
