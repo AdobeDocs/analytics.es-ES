@@ -3,8 +3,8 @@ description: Explica la estrategia de lanzamiento continuo de funcionalidades pa
 title: Versiones de funcionalidades de Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
+source-git-commit: 517c12482ea87a8b600f1d8eab3143ff90ff0524
+workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
 
@@ -41,4 +41,4 @@ Las versiones por fases permiten a Adobe escalar mejor el proceso de implementac
 | Pregunta | Respuesta |
 | --- | --- |
 | ¿Puedo solicitar acceso anticipado a una funcionalidad? | No. No se puede solicitar el acceso anticipado.<br>Si desea probar las versiones iniciales de Analytics, le recomendamos que pruebe [Adobe Analytics Labs](/help/analyze/labs.md) para proporcionar comentarios sobre las innovaciones líderes del sector. |
-| ¿Esta estrategia de lanzamiento afecta mi acceso a las funcionalidades? | No. Una vez que una funcionalidad haya llegado a su fase de disponibilidad general, tendrá acceso a ella si está incluida en su paquete de Analytics.<br>Puede ver los detalles del paquete de Analytics en [Niveles de acceso de las funciones](/help/admin/company/feature-access-levels.md). |
+| ¿Esta estrategia de lanzamiento afecta mi acceso a las funcionalidades? | No. Una vez que una funcionalidad haya llegado a su fase de disponibilidad general, tendrá acceso a ella si está incluida en su paquete de Analytics.<br>Puede ver los detalles del paquete de Analytics en [Niveles de acceso de las funciones](/help/admin/admin/get-started/company/feature-access-levels.md). |
