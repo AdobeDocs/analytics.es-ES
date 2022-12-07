@@ -4,10 +4,10 @@ title: Segmentos rápidos
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 71%
+source-wordcount: '943'
+ht-degree: 65%
 
 ---
 
@@ -43,7 +43,7 @@ Configure el segmento rápido desde esta pizarra en blanco:
 | --- | --- |
 | Nombre | El nombre predeterminado de un segmento es una combinación de los nombres de reglas del segmento. Puede cambiar el nombre del segmento. |
 | Inclusión/exclusión | Puede incluir o excluir componentes en su definición de segmento, pero no ambas cosas. |
-| Contenedor de visita/visita individual/visitante | Los segmentos rápidos incluyen solo un [contenedor de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) que le permite incluir una dimensión, métrica o intervalo de fecha en el segmento (o excluirlo). [!UICONTROL Visitante] contiene datos globales específicos del visitante en las visitas y vistas de páginas. Un contenedor de [!UICONTROL Visita] le permite establecer reglas para desglosar los datos del visitante en función de las visitas, y un contenedor de [!UICONTROL Visita individual] le permite desglosar la información del visitante según las vistas de página individuales. El contenedor predeterminado es [!UICONTROL Visita individual]. |
+| Contenedor de visita/visita individual/visitante | Los segmentos rápidos incluyen solo un [contenedor de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) que le permite incluir una dimensión, métrica o intervalo de fecha en el segmento (o excluirlo). [!UICONTROL Visitante] contiene datos globales específicos del visitante en las visitas y vistas de páginas. A [!UICONTROL Visita] contenedor le permite establecer reglas para desglosar los datos del visitante en función de las visitas y un [!UICONTROL Visita] contenedor le permite desglosar la información del visitante según las vistas de página individuales. El contenedor predeterminado es [!UICONTROL Visita individual]. |
 | Componentes (dimensión/métrica/intervalo de fechas) | Defina hasta 3 reglas añadiendo componentes (dimensiones o métricas o intervalos de fechas) y sus valores. Existen tres formas de encontrar el componente correcto:<ul><li>Empiece a escribir y el generador de [!UICONTROL segmentos rápidos] encontrará automáticamente el componente adecuado.</li><li>Utilice la lista desplegable para buscar el componente.</li><li>Arrástrelos y suéltelos desde el carril izquierdo.</li></ul> |
 | Operador | Utilice el menú desplegable para buscar operadores estándar y operadores de [!UICONTROL recuento distintos]. [Más información](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=es) |
 | Signo más (+) | Añadir otra regla |
@@ -94,3 +94,10 @@ Si un segmento solo de proyecto se abre en la variable [!UICONTROL Generador de 
 Si marca &quot;Hacer que este segmento esté disponible.&quot; y haga clic en **[!UICONTROL GUARDAR]**, el segmento está disponible en la lista de componentes del carril izquierdo para su uso en otros proyectos. También se puede compartir con otros usuarios desde el Administrador de segmentos.
 
 ![Solo de proyecto marcado](assets/project-only-checked.png)
+
+## Problema conocido
+
+1. Cree un segmento rápido con 2 entradas y **[!UICONTROL Guardar]** como Prueba 1.
+1. Haga clic en **[!UICONTROL Guardar como]** y guarde este segmento rápido como Prueba 2.
+1. Edite el segmento rápido Test2 y vuelva a guardarlo como Prueba2.
+Observe que Test2 modifica el segmento rápido de Test1.
