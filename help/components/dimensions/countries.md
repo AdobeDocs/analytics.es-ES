@@ -3,10 +3,10 @@ title: Países
 description: El país desde donde se originó la visita.
 feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 89%
+source-wordcount: '308'
+ht-degree: 77%
 
 ---
 
@@ -30,3 +30,4 @@ Dado que esta dimensión se basa en la dirección IP, algunos escenarios pueden 
 * **Direcciones IP móviles**: La segmentación de direcciones IP móviles funciona en diferentes niveles según la ubicación y la red del dispositivo. Algunos operadores pasan el tráfico de IP por puntos de presencia centralizados o regionales.
 * **Usuarios de ISP satelitales**: Es difícil identificar la ubicación específica de estos usuarios, ya que normalmente parecen proceder de la ubicación del vínculo superior.
 * **IP militares y gubernamentales**: Representa al personal que viaja por todo el mundo y accede a Internet a través de su ubicación local en lugar de la base u oficina en la que esté destinado.
+* **Proxies que oscurecen las direcciones IP por motivos de privacidad**: Servicios como Private Relay de Apple ocultan la dirección IP verdadera al enviar datos aleatoriamente a través de un intermediario o proxy. A continuación, este proxy sustituye una dirección IP diferente antes de reenviar al Adobe.
