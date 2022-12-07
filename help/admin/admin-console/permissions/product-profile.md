@@ -3,10 +3,10 @@ title: Perfiles de producto para Adobe Analytics
 description: Descubra cómo se pueden utilizar los perfiles de producto como ajustes preestablecidos de permisos que los administradores de productos pueden asignar a los usuarios de una organización.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 88ed2f874d680f9ed1aea9bfb60e303f123cbc37
+source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '714'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Los perfiles de producto son ajustes preestablecidos de permisos que los administradores de productos pueden asignar a los usuarios de una organización. Si crea un perfil de producto y asigna un usuario de Experience Cloud a ese perfil de producto, heredarán los elementos de permiso contenidos en el perfil de producto.
 
-Consulte [Administrar perfiles de producto para usuarios empresariales](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) en la guía de usuario de Enterprise para obtener información general sobre los perfiles de producto.
+Para obtener información general sobre los perfiles de producto, incluida la creación de perfiles de producto y la asignación de usuarios, consulte [Administrar perfiles de producto para usuarios empresariales](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) en la guía de usuario de Enterprise.
 
 ## Administradores de perfil de producto
 
@@ -24,6 +24,8 @@ Los administradores de perfil de producto son un grupo opcional que puede agrega
 * Los administradores de perfil de productos pueden ajustar los elementos de permisos en el perfil de productos.
 * Los administradores de perfil de productos pueden asignar o quitar perfiles de producto a grupos de usuarios.
 * Los administradores de perfil de productos son ideales para los líderes o jefes de equipo que necesitan dar y administrar el acceso a Adobe Analytics de su equipo. Los usuarios no necesitan molestar a los administradores del sistema o de productos para conceder acceso a Adobe Analytics.
+
+Para obtener información sobre cómo asignar administradores de perfil de producto, consulte la sección &quot;Administrar administradores de perfil de producto&quot; en el artículo, [Administrar perfiles de producto para usuarios empresariales](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) en la guía de usuario de Enterprise.
 
 ## Elementos de permiso de Adobe Analytics
 
