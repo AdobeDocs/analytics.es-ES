@@ -3,8 +3,8 @@ title: Día de la semana
 description: El día de la semana, independientemente del intervalo de fechas.
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
 
@@ -20,4 +20,4 @@ Esta dimensión funciona de forma predeterminada para todas las implementaciones
 
 ## Elementos de dimensión
 
-Los elementos de dimensión incluyen `Sunday` - `Saturday`, que representan el día de la semana en el que se produjo la visita. El orden de los elementos de dimensión respeta el primer día de la semana en [Personalizar calendario](/help/admin/admin/custom-calendar.md) de forma predeterminada.
+Los elementos de dimensión incluyen `Sunday` - `Saturday`, que representan el día de la semana en el que se produjo la visita. El orden de los elementos de dimensión respeta el primer día de la semana en [Personalizar calendario](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md) de forma predeterminada.

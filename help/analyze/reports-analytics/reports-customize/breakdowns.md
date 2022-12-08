@@ -5,8 +5,8 @@ uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Utilice desgloses cuando quiera obtener más información sobre la relación que
 
 Un ejemplo es el desglose de un informe de tráfico personalizado llamado Grupo de edad, en el que han recopilado las edades de los visitantes del sitio a partir de la información de una encuesta. Este informe permite ver qué grupo de edad es responsable de la mayor cantidad de tráfico en el sitio. Sin embargo, si se ha tomado la molestia de capturar información como la edad de un visitante, es posible que desee saber más que solo las vistas a las páginas. En dicho caso, puede generar un informe de desglose sobre los motores de búsqueda y las palabras clave que utilizan o su ubicación geográfica. Está correlacionando el grupo de edad y el motor de búsqueda.
 
-Si desglosa un informe por  *`Referrer Type`*, es posible que vea un punto de datos para *`Inside Your Site`*. Este valor indica una página de referente que se encuentra en la lista de filtros URL internos. Consulte [Filtros URL internos](/help/admin/admin/internal-url-filter-admin.md) en la referencia del administrador.
+Si desglosa un informe por  *`Referrer Type`*, es posible que vea un punto de datos para *`Inside Your Site`*. Este valor indica una página de referente que se encuentra en la lista de filtros URL internos. Consulte [Filtros URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) en la referencia del administrador.
 
 Puede desglosar cualquier variable de Analytics (eVar o propiedad) mediante cualquier otra variable. El menú **[!UICONTROL Desglosar por]** de la tabla de informes es igual que el menú estándar de informes de Analytics, para mantener la coherencia.
 

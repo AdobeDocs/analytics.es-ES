@@ -3,8 +3,8 @@ title: Palabra clave de búsqueda
 description: La palabra clave de búsqueda que el visitante utilizó para llegar al sitio.
 feature: Dimensions
 exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Un remitente del reenvío debe cumplir los dos requisitos siguientes para clasif
 * Adobe reconoce el dominio de referencia como un [motor de búsqueda](search-engine.md) válido.
 * Existe un parámetro de cadena de consulta de palabra clave en la dirección URL de referencia. Si la cadena de consulta de palabra clave existe pero no contiene un valor, se agrupa bajo el elemento de dimensión `"Keyword unavailable"`.
 
-Si desea distinguir la búsqueda de pago y la búsqueda natural, se requiere la [detección de búsquedas de pago](/help/admin/admin/paid-search-detection/paid-search-detection.md). Hay varias dimensiones disponibles para las palabras clave de búsqueda:
+Si desea distinguir la búsqueda de pago y la búsqueda natural, se requiere la [detección de búsquedas de pago](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md). Hay varias dimensiones disponibles para las palabras clave de búsqueda:
 
 * **Palabra clave de búsqueda**: La palabra clave de búsqueda utilizada para llegar al sitio, independientemente de si es una búsqueda de pago o natural.
 * **Palabra clave de búsqueda - de pago**: La palabra clave de búsqueda utilizada para llegar a su sitio, que coincidió con la detección de búsquedas de pago.
@@ -31,7 +31,7 @@ Si desea distinguir la búsqueda de pago y la búsqueda natural, se requiere la 
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia a varias tablas de búsqueda internas de Adobe. Cada valor se basa en el [remitente del reenvío](referrer.md) de la visita, que depende de los [filtros de URL internos](/help/admin/admin/internal-url-filter-admin.md). Asegúrese de que la dimensión de remitente del reenvío y los filtros de URL internos están correctamente configurados.
+Esta dimensión hace referencia a varias tablas de búsqueda internas de Adobe. Cada valor se basa en el [remitente del reenvío](referrer.md) de la visita, que depende de los [filtros de URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Asegúrese de que la dimensión de remitente del reenvío y los filtros de URL internos están correctamente configurados.
 
 ## Elementos de dimensión
 

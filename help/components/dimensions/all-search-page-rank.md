@@ -3,8 +3,8 @@ title: Clasificación de todas las páginas de búsqueda
 description: Determinar en qué página de un motor de búsqueda hizo clic un visitante en el sitio.
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ La dimensión “Clasificación de todas las páginas de búsqueda” proporcion
 
 ## Rellene esta dimensión con datos
 
-Para que esta dimensión funcione solo es necesario que el grupo de informes tenga correctamente configurados los [Filtros URL internos](/help/admin/admin/internal-url-filter-admin.md). AppMeasurement rellena automáticamente esta dimensión sin ningún cambio en el código de implementación.
+Para que esta dimensión funcione solo es necesario que el grupo de informes tenga correctamente configurados los [Filtros URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). AppMeasurement rellena automáticamente esta dimensión sin ningún cambio en el código de implementación.
 
 ## Elementos de dimensión
 

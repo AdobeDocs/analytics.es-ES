@@ -3,8 +3,8 @@ title: ¿Qué es la variable currencyCode y cómo se usa?
 description: Para los sitios de comercio electrónico, establece la moneda que usa la página.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Para los sitios comerciales, los ingresos y la moneda son una parte importante d
 
 La conversión de moneda utiliza la siguiente lógica en cada visita. Estos pasos se aplican a los valores de ingresos establecidos en la variable [`products`](../page-vars/products.md) y a todos los eventos enumerados como «Moneda» en [Eventos de éxito](/help/admin/admin/c-success-events/success-event.md) en Configuración del grupo de informes.
 
-* Si `currencyCode` no está definida, Adobe supone que todos los valores de moneda son la moneda del grupo de informes. Consulte [Configuración general de la cuenta](/help/admin/admin/general-acct-settings-admin.md) en Configuración del grupo de informes para ver la moneda del grupo de informes.
+* Si `currencyCode` no está definida, Adobe supone que todos los valores de moneda son la moneda del grupo de informes. Consulte [Configuración general de la cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) en Configuración del grupo de informes para ver la moneda del grupo de informes.
 * Si `currencyCode` está definida y coincide con la moneda del grupo de informes, no se aplica ninguna conversión de moneda.
 * Si `currencyCode` está definida y es diferente a la moneda del grupo de informes, Adobe aplica una conversión de moneda basada en el tipo de cambio del día actual. Adobe se asocia con [XE](https://xe.com) para convertir moneda cada día. Todos los valores almacenados en el grupo de informes tienen la moneda del grupo de informes.
 * Si `currencyCode` se establece en un valor no válido, **se descarta toda la visita, lo que provoca la pérdida de datos.** Asegúrese de que esta variable esté correctamente definida cuando se utilice.

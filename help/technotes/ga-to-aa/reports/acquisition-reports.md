@@ -3,8 +3,8 @@ title: Informes de adquisición en Adobe Analytics
 description: Información sobre la creación de informes basados en adquisiciones, usando Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ En esta página se da por hecho que el usuario tiene conocimientos básicos sobr
 
 Muestra una vista acumulada de todos los canales que los visitantes utilizan para llegar al sitio.
 
-1. En el menú Componentes, busque la dimensión **Canal de marketing** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
+1. En el menú Componentes, localice la dimensión **Canal de marketing** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 ## Todo el tráfico: diagramas de árbol
@@ -51,7 +51,7 @@ Los informes de fuente y medio muestran los dominios que condujeron el tráfico 
 * La dimensión principal **Medio** está disponible en Analysis Workspace como dimensión **Tipo de referente**.
 * La dimensión principal de **Palabra clave** está disponible en Analysis Workspace como dimensión de **Palabra clave de búsqueda**.
 
-1. En el menú de componentes, localice la dimensión deseada indicada arriba y arrástrela al área “Colocar una dimensión aquí” de la tabla de forma libre.
+1. En el menú Componentes, localice la dimensión deseada indicada arriba y arrástrela al área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 Consulte las siguientes páginas en la Guía del usuario de componentes para obtener más información sobre sus dimensiones:
@@ -65,7 +65,7 @@ Consulte las siguientes páginas en la Guía del usuario de componentes para obt
 * La dimensión principal **Origen** está disponible en Analysis Workspace como dimensión **Dominio de referencia**.
 * La dimensión principal de la **Página de aterrizaje** está disponible en Analysis Workspace como dimensión de **Página de entrada**.
 
-1. En el menú de componentes, localice la dimensión **Dominio de referencia** o **Página de entrada** y arrástrela al área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
+1. En el menú Componentes, localice la dimensión **Dominio de referencia** o **Página de entrada** y arrástrela al área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 Consulte la dimensión [Dominio de referencia](/help/components/dimensions/referring-domain.md) en la guía del usuario sobre Componentes para obtener más información.
@@ -86,8 +86,8 @@ A veces, los visitantes llegan al sitio a través de diversos canales en la mism
 
 El informe Referencias de red muestra los dominios de redes sociales que conducen el tráfico al sitio. Estos datos están disponibles en Analysis Workspace mediante la dimensión **Dominio de referencia** y el segmento **Visitas desde medios sociales**.
 
-1. En el menú Componentes, busque la dimensión **Dominio de referencia** y arrástrela al área grande de la tabla de forma libre con la etiqueta “Colocar una dimensión aquí”.
-2. En el menú Componentes, busque el segmento **Visitas desde medios sociales** y arrástrelo hasta el área pequeña que se encuentra justo encima de la tabla de forma libre denominada “Colocar un segmento aquí”.
+1. En el menú Componentes, localice la dimensión **Dominio de referencia** y arrástrela al área grande de la tabla de forma libre con la etiqueta “Colocar una dimensión aquí”.
+2. En el menú Componentes, localice el segmento **Visitas desde medios sociales** y arrástrelo hasta el área pequeña que se encuentra justo encima de la tabla de forma libre denominada “Colocar un segmento aquí”.
 3. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 ### Social: Páginas de destino
@@ -95,7 +95,7 @@ El informe Referencias de red muestra los dominios de redes sociales que conduce
 El informe Páginas de destino muestra a qué páginas llegaron los visitantes después de hacer clic en un vínculo a través de una red social. Estos datos están disponibles en Analysis Workspace, con la dimensión **Página de entrada** y el segmento **Visitas desde sitios sociales**.
 
 1. En el menú Componentes, localice la dimensión **Página de entrada** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
-2. En el menú Componentes, busque el segmento **Visitas desde medios sociales** y arrástrelo hasta el área pequeña que se encuentra justo encima de la tabla de forma libre denominada “Colocar un segmento aquí”.
+2. En el menú Componentes, localice el segmento **Visitas desde medios sociales** y arrástrelo hasta el área pequeña que se encuentra justo encima de la tabla de forma libre denominada “Colocar un segmento aquí”.
 3. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 ### Social: conversiones
@@ -122,21 +122,21 @@ El informe de campañas está disponible en Analysis Workspace con la dimensión
 
 Es posible recopilar parámetros de UTM en Adobe Analytics mediante variables personalizadas (eVars). Adobe recomienda trabajar con un consultor de implementación para garantizar que los valores del código de seguimiento se recopilen con precisión en Adobe Analytics.
 
-1. En el menú Componentes, busque la dimensión **Código de seguimiento** y arrástrela hasta el área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
+1. En el menú Componentes, localice la dimensión **Código de seguimiento** y arrástrela hasta el área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 ## Campañas: palabras clave de pago
 
-El informe Palabras clave de pago muestra el rendimiento de cada palabra clave después de que un visitante haga clic desde un motor de búsqueda en un vínculo de búsqueda de pago. La dimensión **Palabras clave de búsqueda de pago** está disponible en Analysis Workspace, pero requiere una configuración única de detección de búsqueda de pago para recopilar datos. Consulte [Detección de búsqueda de pago](/help/admin/admin/paid-search-detection/paid-search-detection.md) en la guía de usuario del administrador para obtener más información sobre la configuración.
+El informe Palabras clave de pago muestra el rendimiento de cada palabra clave después de que un visitante haga clic desde un motor de búsqueda en un vínculo de búsqueda de pago. La dimensión **Palabras clave de búsqueda de pago** está disponible en Analysis Workspace, pero requiere una configuración única de detección de búsqueda de pago para recopilar datos. Consulte [Detección de búsqueda de pago](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) en la guía de usuario del administrador para obtener más información sobre la configuración.
 
-1. En el menú Componentes, ubique la dimensión **Palabra clave de búsqueda de pago** y arrástrela al área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
+1. En el menú Componentes, localice la dimensión **Palabra clave de búsqueda de pago** y arrástrela al área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 ## Campañas: palabras clave orgánicas
 
 El informe de palabras clave orgánicas muestra el rendimiento de cada palabra clave después de que un visitante haga clic desde un motor de búsqueda en un vínculo de búsqueda orgánica. La dimensión **Palabras clave de búsqueda: natural** está disponible en Analysis Workspace. Si no está configurada la detección de búsqueda de pago, esta dimensión recopila palabras clave tanto de pago como naturales.
 
-1. En el menú Componentes, busque la dimensión **Buscar palabra clave: natural** y arrástrela al área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
+1. En el menú Componentes, localice la dimensión **Buscar palabra clave: natural** y arrástrela al área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 ## Análisis de costes

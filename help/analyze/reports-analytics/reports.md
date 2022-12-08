@@ -4,8 +4,8 @@ description: Dimensiones y métricas que utiliza Reports & Analytics para cada i
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Cada informe de Reports &amp; Analytics utiliza una dimensión dedicada y una m�
 
 >[!NOTE]
 >
->El menú de informes puede tener un aspecto diferente en función de las personalizaciones que haya realizado un administrador en su organización. Consulte [Personalización de menús](/help/admin/admin/customize-menus.md) en la guía de usuario de administración.
+>El menú de informes puede tener un aspecto diferente en función de las personalizaciones que haya realizado un administrador en su organización. Consulte [Personalización de menús](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md) en la guía de usuario de administración.
 
 >[!IMPORTANT]
 >A partir del **31 de diciembre de 2023**, Adobe tiene la intención de descatalogar Reports &amp; Analytics, y sus informes y funciones correspondientes. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejarán de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de Reports &amp; Analytics se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. Este aviso explica el proceso de finalización de la vida útil.
@@ -119,7 +119,7 @@ Contiene informes que le permiten ver los datos de rutas de los visitantes.
 
 ## Fuentes de tráfico
 
-Contiene un informe que proporciona una perspectiva de desde dónde proceden los visitantes antes de llegar al sitio. Estos informes no funcionarán de forma adecuada a menos que establezca correctamente los [filtros de URL internas](../../admin/admin/internal-url-filter-admin.md) en la configuración del grupo de informes.
+Contiene un informe que proporciona una perspectiva de desde dónde proceden los visitantes antes de llegar al sitio. Estos informes no funcionarán de forma adecuada a menos que establezca correctamente los [filtros de URL internas](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) en la configuración del grupo de informes.
 
 * Palabras clave de búsqueda - todas: Utiliza la dimensión [Palabra clave de búsqueda](/help/components/dimensions/search-keyword.md).
 * Palabras clave de búsqueda - de pago: Utiliza la dimensión [Palabra clave de búsqueda: de pago](/help/components/dimensions/search-keyword.md).
@@ -230,4 +230,4 @@ Contiene los destinatarios que ha creado. Consulte [Destinatarios](targets.md) p
 
 >[!NOTE]
 >
->Si no encuentra el informe en esta página de ayuda, es posible que el administrador haya cambiado el nombre de las carpetas o las haya ajustado. Consulte [Personalización de menús](/help/admin/admin/customize-menus.md) en la guía de usuario de administración.
+>Si no encuentra el informe en esta página de ayuda, es posible que el administrador haya cambiado el nombre de las carpetas o las haya ajustado. Consulte [Personalización de menús](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md) en la guía de usuario de administración.

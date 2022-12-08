@@ -3,7 +3,7 @@ description: Descripción de los tipos de grupos de informes y comparación de l
 title: Enfoques de los grupos de informes
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: e8cbf24f6e0c829dadb2a6e7db502d0e8ba1f07f
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 100%
@@ -44,7 +44,7 @@ El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltip
 >
 >[!DNL Reports & Analytics] es la única herramienta que admite informes de resumen y Adobe ya no recomienda el uso de resúmenes. Considere la posibilidad de utilizar un grupo de informes globales con etiquetado de grupos múltiples o grupos de informes virtuales.
 
-Un informe de resumen es una simple agregación de datos de varios grupos de informes, sin anulación de duplicación ni desglose de datos o segmentos. Los resúmenes no requieren la implementación de código. Para usar informes de resumen, [implemente grupos de informes secundarios](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) y luego [combínelos en un informe de resumen](/help/admin/admin/c-manage-report-suites/t-rollups.md) con las [!UICONTROL Herramientas de administración].
+Un informe de resumen es una simple agregación de datos de varios grupos de informes, sin anulación de duplicación ni desglose de datos o segmentos. Los resúmenes no requieren la implementación de código. Para usar informes de resumen, [implemente grupos de informes secundarios](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) y luego [combínelos en un informe de resumen](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md) con las [!UICONTROL Herramientas de administración].
 
 Los informes de resumen son gratuitos: los grupos de informes secundarios realizan sus propias llamadas al servidor, pero el resumen no efectúa llamadas adicionales. Los resúmenes son una característica heredada y tienen muchas limitaciones.
 

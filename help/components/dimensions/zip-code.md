@@ -3,8 +3,8 @@ title: Código postal
 description: Código postal del visitante.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Esta dimensión es única, ya que contiene varias formas de rellenarla con datos
 * Configure el código postal directamente mediante la variable `zip`; o
 * configúrela para extraer de los datos de segmentación geográfica.
 
-La opción [!UICONTROL Código postal] de [Configuración general de cuenta](/help/admin/admin/general-acct-settings-admin.md) controla cómo desea rellenar esta dimensión.
+La opción [!UICONTROL Código postal] de [Configuración general de cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) controla cómo desea rellenar esta dimensión.
 
 >[!IMPORTANT]
 >

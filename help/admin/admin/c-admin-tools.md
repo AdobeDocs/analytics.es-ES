@@ -3,7 +3,7 @@ description: Índice de herramientas de administración en Adobe Analytics.
 title: Herramientas de administración
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
@@ -24,22 +24,22 @@ ht-degree: 100%
 + [Variables de conversión (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [Códigos de divisa](currency.md)
 + [Descripciones personalizadas de informe](custom-desc-admin.md)
-+ [Personalizar calendario](custom-calendar.md)
++ [Personalizar calendario](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
 + [Fuentes de datos](data-sources.md)
 + [Métricas predeterminadas](default-metrics.md)
 + [Excluir por dirección IP](exclude-ip.md)
 + [Métodos de búsqueda](finding-methods.md)
-+ [Configuración general de la cuenta](general-acct-settings-admin.md)
-+ [Filtros URL internos](internal-url-filter-admin.md)
++ [Configuración general de la cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
++ [Filtros URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
 + [Registros](logs.md)
 + [Canales de marketing](marketing-channels-admin.md)
-+ [Personalización de menús](customize-menus.md)
++ [Personalización de menús](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
 + [Visibilidad de las métricas](metric-visibility.md)
 + [Administración de móviles](mobile-management.md)
-+ [Resumen de detección de búsqueda de pago](paid-search-detection/paid-search-detection.md)
++ [Resumen de detección de búsqueda de pago](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
 + [Administrador de preferencias](preferences-manager.md)
 + [Configuración de privacidad](privacy-settings.md)
-+ [Resumen de las reglas de procesamiento](c-processing-rules/processing-rules.md)
++ [Resumen de las reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
 + [Resumen de informes en tiempo real](realtime/realtime.md)
 + [Cola de informes programados](scheduled-reports-admin.md)
 + [Resumen del reenvío del lado del servidor](c-server-side-forwarding/ssf.md)

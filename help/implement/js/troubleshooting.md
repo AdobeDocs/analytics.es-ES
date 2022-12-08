@@ -3,7 +3,7 @@ title: Solución de problemas de implementación de JavaScript
 description: Obtenga más información sobre problemas comunes y prácticas recomendadas para solucionar problemas de la implementación de JavaScript.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 97%
@@ -33,7 +33,7 @@ A veces, queremos incluir una comilla simple o doble en una cadena. Por ejemplo:
 
 ### Evitar el uso de comillas curvas
 
-Algunos programas convierten automáticamente las comillas neutras (`"..."` y `'...'`) en comillas curvas (`“...”` y `‘...’`). Evite utilizar editores de documentos (como Microsoft Word) o transferir fragmentos de código por correo electrónico. Las comillas curvas no se pueden usar en JavaScript.
+Algunos programas convierten automáticamente las comillas neutras (`"..."` y `'...'`) en comillas curvas (`"..."` y `'...'`). Evite utilizar editores de documentos (como Microsoft Word) o transferir fragmentos de código por correo electrónico. Las comillas curvas no se pueden usar en JavaScript.
 
 ## Referencia al objeto Analytics
 
@@ -87,7 +87,7 @@ Estos dos valores de variable se consideran independientes en Adobe Analytics. S
 Las implementaciones que rellenan muchas variables con valores largos a veces se pueden ejecutar en solicitudes de imagen truncadas. Algunos exploradores más antiguos, como Internet Explorer, imponen un límite de 2083 caracteres en las direcciones URL de solicitudes de imágenes. Si su organización se enfrenta a solicitudes de imagen muy largas, intente lo siguiente:
 
 * **Utilice el servicio de Experience Cloud ID**: Las bibliotecas de AppMeasurement 1.4.1 y posteriores envían automáticamente solicitudes de imagen mediante el POST HTTP si son demasiado largas. Los datos enviados mediante este método no se truncan independientemente de la longitud. Consulte [Servicio de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) para obtener más información.
-* **Usar reglas de procesamiento**: Las [reglas de procesamiento](/help/admin/admin/c-processing-rules/processing-rules.md) pueden copiar valores de una variable a otra. Este método evita que se establezca el mismo valor en varias variables. Por ejemplo:
+* **Usar reglas de procesamiento**: Las [reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pueden copiar valores de una variable a otra. Este método evita que se establezca el mismo valor en varias variables. Por ejemplo:
 
    Ejecute siempre:<br>
 Sobrescribir el valor de prop1 con eVar1<br>

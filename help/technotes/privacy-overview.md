@@ -4,8 +4,8 @@ keywords: privacidad
 title: Resumen de privacidad
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 100%
 
@@ -91,7 +91,7 @@ Adobe Analytics recopila los datos siguientes:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe ha habilitado la opción "Protección de IP: habilitada - IP eliminada (x.x.x.x)" de forma predeterminada para todos los clientes con un grupo de informes establecido en EMEA. Con esta configuración, la dirección IP será reemplazada completamente por el valor (x.x.x.x) después de realizar la búsqueda geográfica y ya no estará disponible como punto de datos. <p>El método de sustitución básico no se puede analizar mediante ingeniería inversa para obtener una dirección IP única. Ni el cliente ni Adobe pueden tener acceso a la dirección IP, ya que se ha convertido en anónima de forma irreversible. Para obtener más información sobre la configuración de ofuscación de IP, consulte </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">Configuración general de la cuenta</a> en la guía del usuario de administración.</p> </td>
+   <td colname="col2"> Adobe ha habilitado la opción "Protección de IP: habilitada - IP eliminada (x.x.x.x)" de forma predeterminada para todos los clientes con un grupo de informes establecido en EMEA. Con esta configuración, la dirección IP será reemplazada completamente por el valor (x.x.x.x) después de realizar la búsqueda geográfica y ya no estará disponible como punto de datos. <p>El método de sustitución básico no se puede analizar mediante ingeniería inversa para obtener una dirección IP única. Ni el cliente ni Adobe pueden tener acceso a la dirección IP, ya que se ha convertido en anónima de forma irreversible. Para obtener más información sobre la configuración de ofuscación de IP, consulte </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md">Configuración general de la cuenta</a> en la guía del usuario de administración.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 

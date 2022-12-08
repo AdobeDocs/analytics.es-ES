@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8e6f8ecb153d5af183adee76acef0a12901bb1be
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '3517'
 ht-degree: 94%
@@ -203,7 +203,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 11 de abril de 2019 | Mejoras en las prácticas recomendadas de optimización del Espacio de trabajo: [Optimización del rendimiento](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 11 de abril de 2019 | Actualizaciones para [optimizar el rendimiento del Espacio de trabajo](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | 14 de marzo de 2019 | Actualización principal de la [recopilación de datos regionales](/help/technotes/rdc/regional-data-collection.md). |
-| 7 de febrero de 2019 | Pequeña actualización de los ajustes &quot;Reemplazar el último octeto de direcciones IP por 0&quot; y &quot;Ofuscación IP&quot; en [Configuración general de la cuenta](/help/admin/admin/general-acct-settings-admin.md). |
+| 7 de febrero de 2019 | Pequeña actualización de los ajustes &quot;Reemplazar el último octeto de direcciones IP por 0&quot; y &quot;Ofuscación IP&quot; en [Configuración general de la cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | 1 de febrero de 2019 | Actualización importante del complemento de implementación [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17 de enero de 2019 | [Análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md): Las principales mejoras realizadas en Análisis de cohorte le permiten hacer lo siguiente:<ul><li>Aplicar una inclusión de segmento y devolver métricas por separado. </li><li>Mostrar la pérdida en lugar de la retención.</li><li>Mostrar tablas de latencia (tiempo transcurrido antes y después de un evento de inclusión).</li><li>Personalizar la dimensión de cohorte (para agrupar visitantes en función de una eVar, no solo el tiempo).</li><li>Cálculo de cohorte móvil: calcule la retención y la pérdida en función de un período de tiempo previo, no de la cohorte original. </li><li>Añada múltiples métricas en campos de inclusión y devolución, y aplique segmentos. (No se admiten las métricas calculadas)</li></ul> |
 | 17 de enero de 2019 | [Ver densidad](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). Esta nueva configuración le permite ver más datos en una sola pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. Puede acceder a ella desde Proyecto > Info y configuración del proyecto. |
