@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y Activity Map.
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 9960b79ee6dcd98ed9f64af7c0e668c081542bb2
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1055'
 ht-degree: 100%
 
 ---
@@ -171,7 +171,6 @@ ht-degree: 100%
          + [Selección de un grupo de informes de una solicitud existente en Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Uso de Excel para localizar un ID de grupo de informes](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Administración de segmentos](report-builder/data-requests/segmentation.md)
-      + [Permitir anulaciones de la lista de publicación](report-builder/data-requests/allow-publishing-list-overrides.md)
       + Tipos de informes {#report-types}
          + [Información general sobre tipos de informes](report-builder/data-requests/c-report-types/select-report-types.md)
          + [Informes de ruta y de abandonos de ruta en Report Builder](report-builder/data-requests/c-report-types/report-path-fallout.md)

@@ -4,9 +4,9 @@ title: 'Solicitudes de datos: Paso 1 del Asistente para solicitudes'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '418'
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+workflow-type: tm+mt
+source-wordcount: '364'
 ht-degree: 100%
 
 ---
@@ -24,8 +24,6 @@ En el formulario Asistente para solicitudes: Paso 1, se selecciona el grupo y el
 1. **Segmento**: los segmentos son subconjuntos de datos o datos filtrados mediante reglas que se han creado. Los segmentos se basan en visitas individuales, visitas y visitantes. Consulte la [Guía de segmentación de Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=es) para obtener más información acerca de los segmentos.
 
    Por ejemplo, puede ejecutar un [!UICONTROL Informe de páginas] y, a continuación, aplicar el segmento Primeras visitas.
-
-1. **Permitir anulación de la lista de publicación**: cuando se programa un informe, se puede seleccionar una lista de publicación para utilizarla en la distribución. Las listas de publicaciones se configuran en **[!UICONTROL Analytics]** > **[!UICONTROL Herramientas de administración]**. El grupo de informes de esta solicitud se reemplaza por el ID de grupo de informes asignado a cada destinatario incluido en la lista de publicación. Consulte [Permitir anulaciones de la lista de publicación](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md).
 
 1. **Tipo de informe**: especifica el informe base que se desea ejecutar en la solicitud de datos. Por cada solicitud se ejecuta un informe, y éste puede tener de una a varias dimensiones y métricas. La métrica y las dimensiones de un tipo de informe se muestran en la interfaz del [!UICONTROL Asistente para solicitudes: Paso 2]. Consulte [Seleccione Tipos de informes](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 

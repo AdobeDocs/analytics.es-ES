@@ -3,9 +3,9 @@ description: Esta página de ayuda contiene casos de uso recomendados para cada 
 title: ¿Qué herramienta de Adobe Analytics debo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1164'
 ht-degree: 99%
 
 ---
@@ -32,7 +32,6 @@ Este es un vídeo que compara varias herramientas de Adobe Analytics:
 * Para configurar Targets.
 * Para ver informes de Bot.
 * Para acceder a visualizaciones de vídeo únicas de Video Daypart y Viewer Drop-off.
-* Para utilizar las Listas de publicación en informes programados.
 
 El **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=es)** debe usarse:
 
