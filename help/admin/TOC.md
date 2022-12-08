@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -39,9 +39,31 @@ ht-degree: 96%
       + [Perfiles de producto para Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Permisos de perfil de productos para las herramientas de grupo de informes](admin-console/permissions/report-suite-tools.md)
       + [Permisos de perfil de productos para las herramientas de Analytics](admin-console/permissions/analytics-tools.md)
-+ Herramientas de administración {#admin-tools}
++ Administración de Analytics {#admin-tools}
    + [Herramientas de administración](admin/c-admin-tools.md)
    + [Facturación](admin/billing-admin.md)
+   + Administrador del grupo de informes {#manage-report-suites}
+      + [Administrar grupos de informes](admin/c-manage-report-suites/report-suites-admin.md)
+      + [Grupos de informes globales y resumidos](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [Crear un grupo de informes resumidos](admin/c-manage-report-suites/t-rollups.md)
+      + [Crear un grupo de grupos de informes](admin/c-manage-report-suites/t-create-rs-group.md)
+      + [Guardar una búsqueda de grupos de informes](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [Configuración de grupos de informes individuales](admin/c-manage-report-suites/individual-rs-settings.md)
+      + [Descargar la configuración de grupo de informes](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + Nuevo grupo de informes {#new-report-suite}
+         + [Crear un grupo de informes](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [Descargar la configuración del grupo de informes](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [Configuración que no se copia desde un grupo de informes de origen](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + Plantillas de grupos de informes {#report-suite-templates}
+         + [Resumen de las plantillas de grupos de informes](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [Portal de agregadores](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [Comercio](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [Contenido y medios](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [Plantilla predeterminada](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [Servicios financieros](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [Portal de trabajo](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [Generación de posibles clientes](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [Medios de soporte técnico](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + Eliminación de bots {#bot-removal}
       + [Eliminación de bots](admin/bot-removal/bot-removal.md)
       + [Resumen sobre reglas de Bot](admin/bot-removal/bot-rules.md)
@@ -124,28 +146,6 @@ ht-degree: 96%
       + [Especificar la variable única de visitante](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Caso de uso: Extracción de ID de visitantes](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Administración de vídeo](admin/video-management.md)
-+ Administrar grupos de informes {#manage-report-suites}
-   + [Administrador del grupo de informes](c-manage-report-suites/report-suites-admin.md)
-   + [Grupos de informes globales y resumidos](c-manage-report-suites/rollup-report-suite.md)
-   + [Crear un grupo de informes resumidos](c-manage-report-suites/t-rollups.md)
-   + Plantillas de grupos de informes {#report-suite-templates}
-      + [Resumen de las plantillas de grupos de informes](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-      + [Portal de agregadores](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-      + [Comercio](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-      + [Contenido y medios](c-manage-report-suites/c-report-suite-templates/content-media.md)
-      + [Plantilla predeterminada](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-      + [Servicios financieros](c-manage-report-suites/c-report-suite-templates/financial-services.md)
-      + [Portal de trabajo](c-manage-report-suites/c-report-suite-templates/job-portal.md)
-      + [Generación de posibles clientes](c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-      + [Medios de soporte técnico](c-manage-report-suites/c-report-suite-templates/support-media.md)
-   + [Guardar una búsqueda de grupos de informes](c-manage-report-suites/t-report-suite-saved-search.md)
-   + [Configuración de grupos de informes individuales](c-manage-report-suites/individual-rs-settings.md)
-   + [Descargar la configuración de grupo de informes](c-manage-report-suites/t-download-rs-settings.md)
-   + Nuevo grupo de informes {#new-report-suite}
-      + [Crear un grupo de informes](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-      + [Descargar la configuración del grupo de informes](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-      + [Configuración que no se copia desde un grupo de informes de origen](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-   + [Crear un grupo de grupos de informes](c-manage-report-suites/t-create-rs-group.md)
 + Administración de usuarios y productos (heredados) {#user-product-management}
    + [Administración de usuarios y productos](user-management2/user-management.md)
    + Migración de usuarios a Adobe Admin Console {#migrate-users}
