@@ -5,7 +5,7 @@ title: Preguntas frecuentes sobre Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 88df864b58cecef71aadc0314d1d2d81c5b9b72f
+source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 100%
@@ -55,7 +55,7 @@ Puede eliminar datos de las actividades internas del sitio web (como las pruebas
 +++
 
 +++¿Puedo eliminar un grupo de informes?
-No se puede eliminar un grupo de informes. Sin embargo, se puede ocultar un grupo de informes de todas las vistas de Adobe Analytics. Tenga en cuenta que las llamadas al servidor enviadas a un grupo de informes oculto siguen teniendo en cuenta el límite mensual del contrato. Consulte [Ocultar grupos de informes](/help/admin/admin/get-started/company/c-hide-report-suites.md) en la guía del usuario Administración para obtener más información.
+No se puede eliminar un grupo de informes. Sin embargo, se puede ocultar un grupo de informes de todas las vistas de Adobe Analytics. Tenga en cuenta que las llamadas al servidor enviadas a un grupo de informes oculto siguen teniendo en cuenta el límite mensual del contrato. Consulte [Ocultar grupos de informes](/help/admin/get-started/company/c-hide-report-suites.md) en la guía del usuario Administración para obtener más información.
 +++
 
 +++Al utilizar la segmentación, ¿qué contenedor debo utilizar? ¿Vista de página, visita o visitante?
