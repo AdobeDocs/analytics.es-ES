@@ -3,8 +3,8 @@ description: Ahora puede ocultar métricas (integradas) estándar, eventos perso
 title: Visibilidad de las métricas
 feature: Admin Tools
 exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Ahora puede ocultar métricas (integradas) estándar, eventos personalizados y eventos integrados en el Menú, el Selector de métricas, el Creador de métricas calculadas y el Generador de segmentos.
 
-1. Acceda a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Eventos de éxito]**. [Más...](/help/admin/admin/c-success-events/t-success-events.md)
+1. Acceda a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Eventos de éxito]**. [Más...](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
 1. Establezca la columna Visibilidad como **[!UICONTROL Visible en todas partes]**, **[!UICONTROL Generadores]** u **[!UICONTROL Oculto en todas partes]**.
 
 Esta configuración no afecta a la recopilación de datos de esa métrica. Solo afecta a su visibilidad en la interfaz de usuario. Esta es la forma en la que la configuración afecta a la visibilidad de las métricas en la interfaz de usuario:
@@ -54,7 +54,7 @@ Esta configuración no afecta a la recopilación de datos de esa métrica. Solo 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Oculto en todas partes</b> </td> 
-   <td colname="col2"> N/A </td> 
+   <td colname="col2"> N/D </td> 
    <td colname="col3"> 
     <ul id="ul_CB9780D567BD4DBA90C092DDA892BF41"> 
      <li id="li_CF90047F78FD4BB28E90E95B9B367445">Reports &amp; Analytics (menú y selector de métricas) </li> 

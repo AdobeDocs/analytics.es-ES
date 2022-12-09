@@ -3,7 +3,7 @@ description: Adobe Analytics admiten los modelos de clasificaciones de un solo n
 title: Subclasificaciones
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 611f20718c0af133f2daf3fe44e8a5b9ea97336b
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
@@ -16,7 +16,7 @@ Adobe Analytics admite los modelos de clasificaciones de un solo nivel y de vari
 
 >[!NOTE]
 >
->Subclasificación hace referencia a la posibilidad de crear clasificaciones de clasificaciones. Sin embargo, no es lo mismo que la [!UICONTROL Jerarquía de clasificaciones] utilizada para crear informes de [!UICONTROL Jerarquía]. Para obtener más información sobre las jerarquías de clasificación, consulte [Jerarquías de clasificación](/help/admin/admin/conversion-var-admin/classification-hierarchies.md).
+>Subclasificación hace referencia a la posibilidad de crear clasificaciones de clasificaciones. Sin embargo, no es lo mismo que la [!UICONTROL Jerarquía de clasificaciones] utilizada para crear informes de [!UICONTROL Jerarquía]. Para obtener más información sobre las jerarquías de clasificación, consulte [Jerarquías de clasificación](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md).
 
 Por ejemplo:
 

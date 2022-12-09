@@ -4,7 +4,7 @@ description: Variables personalizadas que se relacionan con productos individual
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 98%
@@ -19,7 +19,7 @@ Para obtener información detallada sobre cómo funcionan las eVars de comercial
 
 ## Configurar eVars en la configuración del grupo de informes
 
-Antes de usar eVars en la implementación, asegúrese de configurar la eVar con la sintaxis deseada en la configuración del grupo de informes. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la guía de administración.
+Antes de usar eVars en la implementación, asegúrese de configurar la eVar con la sintaxis deseada en la configuración del grupo de informes. Consulte [Variables de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) en la guía de administración.
 
 >[!WARNING]
 >

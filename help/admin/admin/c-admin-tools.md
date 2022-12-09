@@ -3,7 +3,7 @@ description: Índice de herramientas de administración en Adobe Analytics.
 title: Herramientas de administración
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
@@ -21,14 +21,14 @@ ht-degree: 100%
 + [Facturación](billing-admin.md)
 + [Resumen sobre reglas de Bot](bot-removal/bot-rules.md)
 + [Administrador de códigos](code-manager-admin.md)
-+ [Variables de conversión (eVar)](conversion-var-admin/conversion-var-admin.md)
++ [Variables de conversión (eVar)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
 + [Códigos de divisa](currency.md)
 + [Descripciones personalizadas de informe](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
 + [Personalizar calendario](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
 + [Fuentes de datos](data-sources.md)
 + [Métricas predeterminadas](default-metrics.md)
 + [Excluir por dirección IP](exclude-ip.md)
-+ [Métodos de búsqueda](finding-methods.md)
++ [Métodos de búsqueda](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
 + [Configuración general de la cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
 + [Filtros URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
 + [Registros](logs.md)
@@ -44,8 +44,8 @@ ht-degree: 100%
 + [Cola de informes programados](scheduled-reports-admin.md)
 + [Resumen del reenvío del lado del servidor](c-server-side-forwarding/ssf.md)
 + [Menú de informes simplificado](t-simplified-menu.md)
-+ [Resumen de los eventos de éxito](c-success-events/success-event.md)
++ [Resumen de los eventos de éxito](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
 + [Marcas de hora opcionales](timestamp-optional.md)
 + [Resumen de variable de tráfico (prop)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
-+ [Especificar la variable única de visitante](unique-visitor-variable-admin/t-unique-visitor-variable.md)
++ [Especificar la variable única de visitante](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [Administración de vídeo](video-management.md)

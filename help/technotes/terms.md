@@ -2,7 +2,7 @@
 title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -17,7 +17,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Admin Console:** puede hacer referencia a:
    * Herramientas de administración heredadas en las se administra la configuración del grupo de informes en Adobe Analytics. En versiones anteriores de Adobe Analytics, los permisos de usuario también se gestionaban aquí. Consulte [Herramientas de administración](/help/admin/admin/c-admin-tools.md) en la guía de usuario de administración.
    * La Admin Console de Adobe, donde se proporciona acceso al producto y se administran los permisos de usuario. Consulte [Admin Console](/help/admin/admin-console/home.md) en la guía de usuario de administración.
-* **Asignación:** si una variable de conversión encuentra más de un valor durante una visita, la configuración de asignación de la variable determina qué valor se guarda. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la guía de usuario de administración.
+* **Asignación:** si una variable de conversión encuentra más de un valor durante una visita, la configuración de asignación de la variable determina qué valor se guarda. Consulte [Variables de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) en la guía de usuario de administración.
 * **Analysis Workspace:** solución de explorador para crear proyectos de análisis sólidos y personalizados y democratizar las perspectivas. Ofrece una mayor flexibilidad para los informes que Reports and Analytics.
 * **Anomalía:** las anomalías se detectan usando un modelado estadístico para encontrar automáticamente tendencias inesperadas en los datos. El modelo analiza las métricas y determina un límite inferior, límite superior y rango esperado de valores. Consulte [Detección de anomalías](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) en la guía de usuario de sobre análisis.
 * **AppMeasurement:** biblioteca de códigos utilizada para recopilar datos y enviarlos a Adobe. Consulte la [Página de inicio](/help/implement/home.md) de la guía de usuario sobre implementación.
@@ -55,7 +55,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **eVar:** Consulte Variable de conversión.
 * **Evento:** Consulte Evento de éxito.
 * **ExcelClient:** ya no se usa como término. Es el nombre del predecesor del Report Builder.
-* **Caducidad:** define, en el contexto de una variable de conversión, cuánto tiempo persiste el valor en el backend. Esta persistencia permite que los eventos se asocien con valores de variables antes de la visita del evento. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la guía de usuario de administración.
+* **Caducidad:** define, en el contexto de una variable de conversión, cuánto tiempo persiste el valor en el backend. Esta persistencia permite que los eventos se asocien con valores de variables antes de la visita del evento. Consulte [Variables de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) en la guía de usuario de administración.
 * **Flujo:** tipo de visualización en Analysis Workspace que muestra las rutas de los usuarios por el sitio. Consulte [Visualización de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) en la guía de usuario sobre análisis.
 * **Genesis:** ya no se usa como término. Es el nombre anterior de los Data Connectors.
 * **Grupo de informes globales:** término que designa un grupo de informes que recopila visitas de varios sitios.

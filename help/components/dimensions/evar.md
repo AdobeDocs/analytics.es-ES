@@ -1,12 +1,12 @@
 ---
 title: eVar (dimensión)
-description: Dimensión personalizada que se puede usar en los informes.
+description: Dimensión personalizada que se puede utilizar en la creación de informes.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 96%
 
 *Esta página de ayuda describe cómo funcionan las eVars como dimensiones. Para obtener información sobre cómo implementar eVars, consulte [eVars](/help/implement/vars/page-vars/evar.md) en la guía de implementación de usuario.*
 
-Las eVars son variables personalizadas que se pueden utilizar como desee. Si tiene un [documento de diseño de solución](/help/implement/prepare/solution-design.md), la mayoría de las dimensiones específicas de su organización terminan como [!UICONTROL eVars]. De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. Puede personalizar su caducidad y asignación en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la [!UICONTROL configuración del grupo de informes].
+Las eVars son variables personalizadas que se pueden utilizar como desee. Si tiene un [documento de diseño de solución](/help/implement/prepare/solution-design.md), la mayoría de las dimensiones específicas de su organización terminan como [!UICONTROL eVars]. De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. Puede personalizar su caducidad y asignación en [Variables de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) en la [!UICONTROL configuración del grupo de informes].
 
 El número de eVars disponibles depende del contrato con Adobe. Hay disponibles hasta 250 eVars si su contrato con Adobe lo permite.
 
@@ -84,7 +84,7 @@ Dado que la asignación y la caducidad determinan qué valores persisten, son vi
 * De forma predeterminada, una eVar utiliza la última asignación. Los valores nuevos sobrescriben los valores persistentes.
 * De forma predeterminada, una eVar utiliza una caducidad de visita. Una vez que finaliza una visita, los valores dejan de copiarse de fila en fila en la columna `post_evar`.
 
-Puede cambiar la asignación y caducidad de la eVar en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes.
+Puede cambiar la asignación y caducidad de la eVar en [Variables de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes.
 
 ## Valor de las eVars sobre las props
 

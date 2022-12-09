@@ -3,8 +3,8 @@ title: eVar (variable)
 description: Variables personalizadas que puede utilizar en su implementación.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 *Esta página de ayuda describe cómo implementar eVars. Para obtener información sobre cómo funcionan las eVars como dimensiones, consulte [eVars](/help/components/dimensions/evar.md) en la guía del usuario de Componentes.*
 
-Las eVars son variables personalizadas que se pueden utilizar como desee. Si tiene un [documento de diseño de solución](/help/implement/prepare/solution-design.md), la mayoría de las dimensiones específicas de su organización terminan como eVars. De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. Puede personalizar su caducidad y asignación en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes.
+Las eVars son variables personalizadas que se pueden utilizar como desee. Si tiene un [documento de diseño de solución](/help/implement/prepare/solution-design.md), la mayoría de las dimensiones específicas de su organización terminan como eVars. De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. Puede personalizar su caducidad y asignación en [Variables de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes.
 
 El número de eVars disponibles depende del contrato con Adobe. Hay disponibles hasta 250 eVars si su contrato con Adobe lo permite.
 
 ## Configurar eVars en la configuración del grupo de informes
 
-Antes de usar eVars en la implementación, asegúrese de configurar cada eVar en la configuración del grupo de informes. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la guía de administración.
+Antes de usar eVars en la implementación, asegúrese de configurar cada eVar en la configuración del grupo de informes. Consulte [Variables de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) en la guía de administración.
 
 ## eVars con el SDK web
 
@@ -63,4 +63,4 @@ Si se especifican más de dos decimales, el contador de eVar redondea a dos deci
 
 >[!IMPORTANT]
 >
->Primero debe configurar las eVars en &#39;Contador&#39; en Admin Console antes de usar las eVars de contador. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la guía de administración.
+>Primero debe configurar las eVars en &#39;Contador&#39; en Admin Console antes de usar las eVars de contador. Consulte [Variables de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) en la guía de administración.

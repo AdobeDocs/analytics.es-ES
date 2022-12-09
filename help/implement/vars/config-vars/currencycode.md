@@ -3,7 +3,7 @@ title: ¿Qué es la variable currencyCode y cómo se usa?
 description: Para los sitios de comercio electrónico, establece la moneda que usa la página.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Para los sitios comerciales, los ingresos y la moneda son una parte importante de Analytics. Muchos sitios, especialmente los que abarcan varios países, utilizan distintas monedas. Utilice la variable `currencyCode` para asegurarse de que los atributos de ingresos corresponden a la moneda correcta.
 
-La conversión de moneda utiliza la siguiente lógica en cada visita. Estos pasos se aplican a los valores de ingresos establecidos en la variable [`products`](../page-vars/products.md) y a todos los eventos enumerados como «Moneda» en [Eventos de éxito](/help/admin/admin/c-success-events/success-event.md) en Configuración del grupo de informes.
+La conversión de moneda utiliza la siguiente lógica en cada visita. Estos pasos se aplican a los valores de ingresos establecidos en la variable [`products`](../page-vars/products.md) y a todos los eventos enumerados como «Moneda» en [Eventos de éxito](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) en Configuración del grupo de informes.
 
 * Si `currencyCode` no está definida, Adobe supone que todos los valores de moneda son la moneda del grupo de informes. Consulte [Configuración general de la cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) en Configuración del grupo de informes para ver la moneda del grupo de informes.
 * Si `currencyCode` está definida y coincide con la moneda del grupo de informes, no se aplica ninguna conversión de moneda.
