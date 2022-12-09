@@ -4,8 +4,8 @@ description: Las dimensiones de salida de Listas y su uso.
 keywords: página de salida, sección del sitio de salida, servidor de salida, conocimiento personalizado de salida
 feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 *Esta página de ayuda describe cómo funcionan las salidas como una dimensión. Para obtener información sobre cómo funcionan las salidas como métricas, consulte la métrica [Salidas](../metrics/exits.md).*
 
-Las dimensiones de salidas registran el último elemento de dimensión y lo aplican de forma retroactiva a todas las visitas individuales de la visita. Las dimensiones de salida están disponibles para todas las variables con las rutas habilitadas en [Variables de tráfico](/help/admin/admin/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes.
+Las dimensiones de salidas registran el último elemento de dimensión y lo aplican de forma retroactiva a todas las visitas individuales de la visita. Las dimensiones de salida están disponibles para todas las variables con las rutas habilitadas en [Variables de tráfico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes.
 
 ## Rellenar dimensiones de salida con datos
 

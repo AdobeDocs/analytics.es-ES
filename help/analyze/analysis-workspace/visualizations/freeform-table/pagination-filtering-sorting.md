@@ -4,8 +4,8 @@ title: Paginación, filtrado y ordenación de tablas
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Paginación, filtrado y ordenación de tablas
 
-Al hacer clic en el icono de filtro y, luego, en Mostrar avanzado junto a una dimensión de una tabla improvisada, podrá filtrar según los criterios siguientes:
+Al hacer clic en el icono de filtro y, luego, en Mostrar avanzado junto a una dimensión de una tabla de forma libre, podrá filtrar según los criterios siguientes:
 
 * Contiene
 * No contiene
@@ -27,4 +27,4 @@ Al hacer clic en el icono de filtro y, luego, en Mostrar avanzado junto a una di
 * Comienza con
 * Finaliza con
 
-![](assets/advanced-filter.png)
+![](/help/admin/admin/assets/filter.png)

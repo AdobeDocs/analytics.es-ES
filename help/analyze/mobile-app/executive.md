@@ -4,8 +4,8 @@ title: Guía del usuario ejecutivo sobre paneles de Adobe Analytics
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Para usar los paneles:
 
    ![Proceso de inicio de sesión](assets/signseq.png)
 
-1. Seleccione una empresa. Después de iniciar sesión en los paneles, aparecerá la pantalla **[!UICONTROL Elegir una empresa]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece. Pulse el nombre de la empresa asociada con el informe de valoración compartido con usted.
+1. Seleccione una empresa. Después de iniciar sesión en los paneles, aparecerá la pantalla **[!UICONTROL Seleccione una compañía]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece. Pulse el nombre de la empresa asociada con el informe de valoración compartido con usted.
 
 1. A continuación, la lista informes de valoración mostrará todos los informes de valoración que se han compartido con usted. Pulse el informe de valoración que desee ver.
 
@@ -78,8 +78,8 @@ Para usar los paneles:
    * La granularidad de los minigráficos depende de la longitud del intervalo de fecha:
 
       * Si se selecciona un día se muestra una tendencia horaria
-      * Si se selecciona más de un día y menos de un año, se muestra una tendencia diaria
-      * Si se selecciona un año o más se muestra una tendencia semanal
+      * Si se selecciona más de un día y menos de un año, se muestra una tendencia diaria.
+      * Si se selecciona un año o más se muestra una tendencia semanal.
    * La fórmula de la variación del valor porcentual es el total de la métrica (intervalo de fecha actual) – el total de la métrica (intervalo de fecha de comparación) / el total de la métrica (intervalo de fecha de comparación).
 
    * Puede arrastrar la pantalla hacia abajo para actualizar el informe de valoración.
@@ -103,7 +103,7 @@ Para usar los paneles:
 
 1. Para aplicar un filtro de segmento a su informe de valoración, pulse la lista desplegable de filtros y seleccione un segmento que haya configurado el depurador. Los [filtros](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) de la aplicación funcionan del mismo modo que en Analytics Workspace.
 
-   ![Filtro de segmento](assets/segment_filter.png)
+   ![Filtro de segmento](/help/admin/admin/assets/filter.png)
 
 1. Obtener actualizaciones del informe de valoración. Si un informe de valoración no incluye todas las métricas o desgloses que le interesen, contacte con el equipo de Analytics para actualizar el informe de valoración. Una vez hecho, puede arrastrar el informe de valoración hacia abajo para actualizarlo, lo cual hará que se carguen los datos agregados recientemente.
 

@@ -3,7 +3,7 @@ description: Habilite las dimensiones de administración de consentimiento .
 title: Creación de informes de privacidad
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 6ce83892cc3b3dd6ee818b6d00e764e892060a1b
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 14%
@@ -19,7 +19,7 @@ Para acceder a esta página:
 1. Inicie sesión en Adobe Analytics y vaya a **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]**.
 1. Seleccione uno o varios grupos de informes y, a continuación, seleccione **[!UICONTROL Editar configuración]** > **[!UICONTROL Administración de la privacidad]** > **[!UICONTROL Informes de privacidad]**.
 
-   ![Editar configuración](assets/rsm-privacy-select.png)
+   ![Editar configuración](/help/admin/admin/assets/rsm-privacy-select.png)
 
 1. Haga clic en el botón **[!UICONTROL Activar informes de privacidad de datos.]**
 
@@ -27,8 +27,8 @@ Para acceder a esta página:
    >
    >Una vez estas variables estén activadas, no se pueden desactivar.
 
-   ![Activar](assets/rsm-privacy-enable.png)
+   ![Activar](/help/admin/admin/assets/rsm-privacy-enable.png)
 
 1. Una vez activado, aparece un mensaje de confirmación. Las dimensiones están disponibles en los informes.
 
-   ![Informe](assets/consent-management.png)
+   ![Informe](/help/admin/admin/assets/consent-management.png)

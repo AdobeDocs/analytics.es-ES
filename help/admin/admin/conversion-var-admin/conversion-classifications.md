@@ -3,7 +3,7 @@ description: Las clasificaciones sirven para clasificar los valores en grupos e 
 title: Clasificaciones de conversión
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 0ec9d6fd44f1f6eb565f8602cc5a2d449556d0ee
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Instrucciones que describen cómo se agregan clasificaciones de conversión en A
 1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Clasificaciones de conversión]**.
 1. En la lista desplegable **[!UICONTROL Seleccionar tipo de clasificación]**, seleccione la variable donde desee agregar una clasificación.
 
-   ![Información sobre los pasos](../assets/sub_class_create.png)
+   ![Información sobre los pasos](/help/admin/admin/assets/sub_class_create.png)
 
 1. Pase el cursor sobre el icono **[!UICONTROL Editar clasificación]**, a continuación seleccione **[!UICONTROL Añadir clasificación]**.
 1. En el campo **[!UICONTROL Seleccionar tipo]**, seleccione el tipo de clasificación que desee agregar a la variable.

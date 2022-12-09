@@ -4,7 +4,7 @@ title: Resumen de paneles
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 95%
@@ -64,7 +64,7 @@ La zona de colocación del panel permite aplicar filtros de segmentos y desplega
 
 Arrastre y suelte cualquier segmento del carril izquierdo en la zona desplegable del panel para empezar a filtrar el panel.
 
-![](assets/segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### Filtros de segmento ad hoc
 
@@ -72,7 +72,7 @@ Los componentes que no son de segmento también se pueden arrastrar directamente
 
 Los segmentos específicos son locales para el proyecto y no aparecen en el carril izquierdo a menos que los haga públicos.
 
-![](assets/adhoc-segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### Filtros desplegables {#dropdown-filter}
 

@@ -3,8 +3,8 @@ description: Explica las mejoras en el reenvío del lado del servidor que se han
 title: Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
+source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Puede usar Adobe Analytics para generar informes sobre el volumen de su tráfico
 Para configurar este tipo de informes, asigne la nueva variable contextual a una variable de tráfico personalizado (prop) mediante reglas de procesamiento. Para ello, haga lo siguiente:
 
 1. Implemente la variable “cm.ssf” tal como se ha indicado anteriormente.
-1. [Habilite el elemento prop.](/help/admin/admin/c-traffic-variables/traffic-var.md)
+1. [Habilite el elemento prop.](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
 1. Utilice reglas de procesamiento para asignar la variable contextual al elemento prop.
 
    1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** y seleccione un grupo de informes.

@@ -3,10 +3,10 @@ title: prop
 description: Variables personalizadas que puede utilizar en su implementación.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -30,7 +30,7 @@ Las props son [asignado para Adobe Analytics](https://experienceleague.adobe.com
 
 Puede establecer propiedades durante la configuración de la extensión de Analytics (variables globales) o en reglas.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
@@ -53,7 +53,7 @@ Las props de lista son una configuración aplicada a las propiedades que permite
 
 ### Configurar props de lista
 
-Habilitar props de lista en [Variables de tráfico](/help/admin/admin/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes. Asegúrese de que el delimitador deseado está configurado correctamente. Adobe no proporciona un delimitador predeterminado.
+Habilitar props de lista en [Variables de tráfico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes. Asegúrese de que el delimitador deseado está configurado correctamente. Adobe no proporciona un delimitador predeterminado.
 
 >[!TIP]
 >

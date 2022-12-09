@@ -3,8 +3,8 @@ description: Los segmentos secuenciales se crean mediante el operador THEN, en l
 title: Generar segmentos secuenciales
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '3827'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Este es un vídeo sobre la segmentación secuencial:
 
 Al crear un segmento en el cual se ha definido “Incluir a todos”, el segmento identifica las rutas de acceso que coinciden con el patrón determinado como conjunto. Este es un ejemplo de segmento de secuencia básica que busca una visita individual (Página A) seguida de otra (Página B) según la visita del mismo visitante. Este segmento está definido en Incluir a todos.
 
-![](assets/sequence-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 | Si el resultado... | Secuencia |
 |--- |--- |

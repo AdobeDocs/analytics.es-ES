@@ -3,8 +3,8 @@ description: No se puede combinar el Generador de reglas de clasificación con s
 title: Subclasificaciones y el Generador de reglas
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 
    Ejemplo:
 
-   ![Información sobre los pasos](assets/sub_class_create.png)
+   ![Información sobre los pasos](/help/admin/admin/assets/sub_class_create.png)
 
 1. En el [Generador de reglas de clasificación](/help/components/classifications/crb/classification-rule-builder.md), clasifique la clave de subclasificación del código de seguimiento original.
 
@@ -67,8 +67,8 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 
    | Clave | Canal | código Campaña general | Campaña amplia, código&amp;Hat;Tipo de campaña | Campaña amplia de código&amp;Hat;Director de campaña | ... |
    |---|---|---|---|---|---|
-   | * |  | 111 | Marca | Suzanne |  |
-   | * |  | 222 | Marca | Frank |  |
+   | &#42; |  | 111 | Marca | Suzanne |  |
+   | &#42; |  | 222 | Marca | Frank |  |
 
 1. Para realizar el mantenimiento de las tablas de búsqueda, cargue un archivo pequeño (como se muestra arriba).
 

@@ -5,9 +5,9 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '316'
 ht-degree: 91%
 
 ---
@@ -22,7 +22,7 @@ Se puede buscar en elementos de dimensión específicos mediante la creación de
 
 1. Cree o edite una solicitud y avance en el [!UICONTROL Asistente para solicitudes: Paso 2].
 
-   ![Resultado](assets/dimension_filter.png)
+   ![Resultado](/help/admin/admin/assets/filter.png)
 
 1. En el [!UICONTROL Asistente para solicitudes: Paso 2], haga clic en el vínculo situado junto a la dimensión en la cuadrícula y, a continuación, seleccione **[!UICONTROL Filtro]**.
 
@@ -36,6 +36,6 @@ Se puede buscar en elementos de dimensión específicos mediante la creación de
    * **Desde la lista:** permite seleccionar datos desde una lista en la que se puede añadir información.
 1. Si activa **[!UICONTROL Desde la lista]**, seleccione cualquier elemento disponible de la lista, o bien haga clic en **[!UICONTROL Añadir]**.
 
-   Al hacer clic en **[!UICONTROL Agregar]**, el formulario [!UICONTROL Seleccionar de la lista] muestra una lista de elementos de dimensión disponibles para el intervalo de fechas de la solicitud actual, limitado a los primeros 10.000 elementos. Se puede buscar entre estos elementos o hacer clic en **[!UICONTROL Más...]**, con lo que muestra el [!UICONTROL formulario de búsqueda] para crear una búsqueda más detallada de dimensiones.
+   Al hacer clic en **[!UICONTROL Agregar]**, el [!UICONTROL Seleccionar desde lista] el formulario muestra una lista de elementos de dimensión disponibles para el intervalo de fechas de la solicitud actual, limitado a los primeros 10 000 elementos. Se puede buscar entre estos elementos o hacer clic en **[!UICONTROL Más...]**, con lo que muestra el [!UICONTROL formulario de búsqueda] para crear una búsqueda más detallada de dimensiones.
 1. En [!UICONTROL Seleccionar desde lista], haga clic en **[!UICONTROL Aceptar]**.
 1. En el formulario [!UICONTROL Seleccionar página], guarde el filtro específico si lo desea y, a continuación, haga clic en **[!UICONTROL Aceptar]**.

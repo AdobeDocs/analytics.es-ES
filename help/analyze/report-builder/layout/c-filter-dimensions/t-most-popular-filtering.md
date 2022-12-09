@@ -5,9 +5,9 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Los filtros más utilizados son filtros de expresión que se configuran mediante
 
 1. Cree o edite una solicitud y avance en el [!UICONTROL Asistente para solicitudes: Paso 2].
 
-   ![Información sobre los pasos](assets/dimension_filter.png)
+   ![Información sobre los pasos](/help/admin/admin/assets/filter.png)
 
 1. En el [!UICONTROL Asistente para solicitudes: Paso 2], haga clic en el vínculo situado junto a la dimensión en la cuadrícula y, a continuación, seleccione **[!UICONTROL Filtro]**.
 1. En el formulario [!UICONTROL Elegir página], active **[!UICONTROL Más populares]** y después configure las siguientes opciones:
