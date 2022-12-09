@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -39,37 +39,32 @@ ht-degree: 95%
       + [Perfiles de producto para Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Permisos de perfil de productos para las herramientas de grupo de informes](admin-console/permissions/report-suite-tools.md)
       + [Permisos de perfil de productos para las herramientas de Analytics](admin-console/permissions/analytics-tools.md)
+   + Administración de usuarios y productos (heredados) {#user-product-management}
+      + [Administración de usuarios y productos](admin-console/user-management2/user-management.md)
+      + Migración de usuarios a Adobe Admin Console {#migrate-users}
+         + [Migración de usuarios de Analytics a Admin Console](admin-console/user-management2/user-migration/c-migration-tool.md)
+         + [Migración de cuentas de usuarios de Analytics para Adobe ID](admin-console/user-management2/user-migration/t-migrate-users.md)
+         + [Migración de las cuentas de usuario de Analytics para Enterprise ID y Federated ID](admin-console/user-management2/user-migration/migrate-enterprise.md)
+         + [Desactivación de inicios de sesión heredados](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
+         + [API afectadas por la migración](admin-console/user-management2/user-migration/developer.md)
 + Administración de Analytics {#admin-tools}
    + [Herramientas de administración](admin/c-admin-tools.md)
    + [Facturación](admin/billing-admin.md)
-   + Eliminación de bots {#bot-removal}
-      + [Eliminación de bots](admin/bot-removal/bot-removal.md)
-      + [Resumen sobre reglas de Bot](admin/bot-removal/bot-rules.md)
-      + [Firmas comunes de bots](admin/bot-removal/bot-signatures.md)
-      + [Métodos de exclusión de bots](admin/bot-removal/bot-exclusion-methods.md)
    + [Administrador de códigos](admin/code-manager-admin.md)
    + [Códigos de divisa](admin/currency.md)
    + [Fuentes de datos](admin/data-sources.md)
    + [Métricas predeterminadas](admin/default-metrics.md)
    + [Excluir por dirección IP](admin/exclude-ip.md)
    + [Registros](admin/logs.md)
-   + [Canales de marketing](admin/marketing-channels-admin.md)
    + [Visibilidad de las métricas](admin/metric-visibility.md)
-   + [Administración de aplicaciones](admin/mobile-management.md)
    + [Administrador de preferencias](admin/preferences-manager.md)
-   + [Configuración de privacidad](admin/privacy-settings.md)
    + [Creación de informes de privacidad](admin/privacy-reporting.md)
-   + Informes en tiempo real {#real-time-reports}
-      + [Resumen de informes en tiempo real](admin/realtime/realtime.md)
-      + [Configuración de informes en tiempo real](admin/realtime/t-realtime-admin.md)
-      + [Métricas y dimensiones en tiempo real compatibles](admin/realtime/realtime-metrics.md)
    + [Administrador de actividades de creación de informes](admin/reporting-activity.md)
    + [Cola de informes programados](admin/scheduled-reports-admin.md)
    + Administrador del grupo de informes {#manage-report-suites}
       + [Administrar grupos de informes](admin/c-manage-report-suites/report-suites-admin.md)
       + [Grupos de informes globales y resumidos](admin/c-manage-report-suites/rollup-report-suite.md)
       + [Guardar una búsqueda de grupos de informes](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [Configuración de grupos de informes individuales](admin/c-manage-report-suites/individual-rs-settings.md)
       + [Descargar la configuración de grupo de informes](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Nuevo grupo de informes {#c-new-report-suite}
          + [Crear un grupo de informes](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
@@ -118,6 +113,20 @@ ht-degree: 95%
                   + [Definir un evento con una variable de datos de contexto](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [Eliminar un evento de una visita](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [Consejos y sugerencias de reglas de procesamiento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+            + Eliminación de bots {#bot-removal}
+               + [Eliminación de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
+               + [Resumen sobre reglas de Bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [Firmas comunes de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
+               + [Métodos de exclusión de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
+            + [Configuración de privacidad](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
+            + [Marcas de hora opcionales](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + Reenvío del lado del servidor {#server-side-forwarding}
+               + [Resumen del reenvío del lado del servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
+               + [Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
+               + [Requisitos para el reenvío del lado del servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
+               + [Referencia de datos y código del reenvío del lado del servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
+               + [Comprobar la implementación del reenvío del lado del servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
+               + [Preguntas frecuentes acerca del reenvío del lado del servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + Variables de tráfico {#traffic-variables}
             + [Resumen de variable de tráfico (prop)](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [Habilitar los informes de variables de tráfico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
@@ -138,24 +147,27 @@ ht-degree: 95%
                + [Resumen de los eventos de éxito](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
                + [Configurar eventos de éxito](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
                + [Información sobre el cambio de tipo de evento](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
-   + Reenvío del lado del servidor {#server-side-forwarding}
-      + [Resumen del reenvío del lado del servidor](admin/c-server-side-forwarding/ssf.md)
-      + [Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor](admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [Requisitos para el reenvío del lado del servidor](admin/c-server-side-forwarding/ssf-requirements.md)
-      + [Referencia de datos y código del reenvío del lado del servidor](admin/c-server-side-forwarding/ssf-reference.md)
-      + [Comprobar la implementación del reenvío del lado del servidor](admin/c-server-side-forwarding/ssf-verify.md)
-      + [Preguntas frecuentes acerca del reenvío del lado del servidor](admin/c-server-side-forwarding/ssf-faq.md)
+         + [Canales de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
+         + Administración del tráfico {#traffic-management}
+            + [Administrar tráfico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+            + [Programar un pico de tráfico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [Estimar las llamadas al servidor anteriores y programar un pico de tráfico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
+            + [Especificar un incremento de tráfico permanente](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+            + [Tiempo de espera necesario para aumentos de tráfico](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
+         + [Configuración de grupos de informes individuales](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
+         + [Administración de aplicaciones](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + Informes en tiempo real {#real-time-reports}
+            + [Resumen de informes en tiempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
+            + [Configuración de informes en tiempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
+            + [Métricas y dimensiones en tiempo real compatibles](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + [Menú de informes simplificado](admin/t-simplified-menu.md)
-   + [Marcas de hora opcionales](admin/timestamp-optional.md)
    + [Administración de vídeo](admin/video-management.md)
-+ Administración de usuarios y productos (heredados) {#user-product-management}
-   + [Administración de usuarios y productos](user-management2/user-management.md)
-   + Migración de usuarios a Adobe Admin Console {#migrate-users}
-      + [Migración de usuarios de Analytics a Admin Console](user-management2/user-migration/c-migration-tool.md)
-      + [Migración de cuentas de usuarios de Analytics para Adobe ID](user-management2/user-migration/t-migrate-users.md)
-      + [Migración de las cuentas de usuario de Analytics para Enterprise ID y Federated ID](user-management2/user-migration/migrate-enterprise.md)
-      + [Desactivación de inicios de sesión heredados](user-management2/user-migration/t-disable-legacy-login.md)
-      + [API afectadas por la migración](user-management2/user-migration/developer.md)
+   + Uso de llamadas al servidor {#server-call-usage}
+      + [Resumen del uso de llamadas al servidor](admin/c-server-call-usage/overage-overview.md)
+      + [Ver uso de llamadas al servidor actual](admin/c-server-call-usage/server-call-usage-dashboard.md)
+      + [Ver uso del grupo de informes](admin/c-server-call-usage/report-suite-usage.md)
+      + [Alertas de uso de llamadas al servidor](admin/c-server-call-usage/scu-alerts.md)
+      + [Preguntas frecuentes sobre uso de llamadas al servidor](admin/c-server-call-usage/overage-faq.md)
 + Gobierno de datos {#data-governance}
    + [Adobe Analytics y el RGPD](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics y la CCPA](c-data-governance/an-ccpa-overview.md)
@@ -172,16 +184,4 @@ ht-degree: 95%
    + [Ejemplo de etiquetado](c-data-governance/gdpr-labeling-example.md)
    + [Privacidad de datos y Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Terminología de privacidad de datos](c-data-governance/gdpr-terminology.md)
-+ Uso de llamadas al servidor {#server-call-usage}
-   + [Resumen del uso de llamadas al servidor](c-server-call-usage/overage-overview.md)
-   + [Ver uso de llamadas al servidor actual](c-server-call-usage/server-call-usage-dashboard.md)
-   + [Ver uso del grupo de informes](c-server-call-usage/report-suite-usage.md)
-   + [Alertas de uso de llamadas al servidor](c-server-call-usage/scu-alerts.md)
-   + [Preguntas frecuentes sobre uso de llamadas al servidor](c-server-call-usage/overage-faq.md)
-+ Administración del tráfico {#traffic-management}
-   + [Administrar tráfico](c-traffic-management/traffic-management.md)
-   + [Programar un pico de tráfico](c-traffic-management/t-traffic-schedule-spike.md)
-   + [Estimar las llamadas al servidor anteriores y programar un pico de tráfico](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-   + [Especificar un incremento de tráfico permanente](c-traffic-management/t-traffic-permanent.md)
-   + [Tiempo de espera necesario para aumentos de tráfico](c-traffic-management/traffic-lead-time.md)
 + [API de administración](c-admin-api/c-admin-api.md)

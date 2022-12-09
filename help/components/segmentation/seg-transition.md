@@ -3,10 +3,10 @@ description: Preguntas frecuentes sobre la segmentación.
 title: Preguntas más frecuentes sobre segmentación
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2082'
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ en la navegación izquierda, y se mostrará el carril de segmentos.
 
 La lista desplegable de grupo de informes se ha trasladado junto al selector de fecha, en la esquina superior derecha de cada informe o panel.
 
-![Selector de grupos de informes](assets/report_suite_selector.png)
+![Selector de grupos de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
 ## Permisos {#section_648DFA3A882146C485A84ED014EEC707}
 

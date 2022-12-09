@@ -3,8 +3,8 @@ title: Introducción a los canales de marketing
 description: Obtenga información sobre el flujo de trabajo de Canales de marketing, la configuración automática y cómo aplicar la configuración del grupo de informes de plantilla a varios grupos de informes.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Los canales de marketing giran en torno a las métricas de primer y último cont
 
 ## Flujo de trabajo de canales de marketing
 
-![](assets/step1_icon.png) Definir los canales en función de las necesidades empresariales.
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) Definir los canales en función de las necesidades empresariales.
 
 La definición de los canales utilizados es una de las partes más importantes de los canales de marketing. La definición de canales exige la colaboración entre distintos integrantes de su organización. Estas son algunas cuestiones que hay que tener en cuenta:
 
@@ -35,7 +35,7 @@ La definición de los canales utilizados es una de las partes más importantes d
 
 Hay una lista de canales recomendados en [Preguntas frecuentes y ejemplos](/help/components/c-marketing-channels/c-faq.md). Cree una lista con los canales que desee usar. De este modo, será más fácil activar y definir los canales a la hora de crearlos.
 
-![](assets/step2_icon.png) Añada canales de marketing en la página del [!UICONTROL Administrador de canales de marketing].
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) Añada canales de marketing en la página del [!UICONTROL Administrador de canales de marketing].
 
 Después de definir los canales para seguir, los habilita en **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
 
@@ -47,7 +47,7 @@ Consulte [Agregar canales](/help/components/c-marketing-channels/c-channels.md) 
 >
 >Si los canales de marketing no se han configurado anteriormente, se muestra la [configuración automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md). Esta configuración proporciona varios canales preconfigurados que se pueden personalizar. Adobe recomienda usar estas reglas como plantilla. No obstante, si ya tiene definiciones de canales consolidadas, puede omitir la configuración automática.
 
-![](assets/step3_icon.png) Configure o pula las reglas de cada canal en la página [!UICONTROL Reglas de procesamiento de canal de marketing].
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Configure o pula las reglas de cada canal en la página [!UICONTROL Reglas de procesamiento de canal de marketing].
 
 Después de crear los canales en la página [!UICONTROL Administrador de canales de marketing], configure las reglas para que esos canales puedan obtener datos y crear informes.
 

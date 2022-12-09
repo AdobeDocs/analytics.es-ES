@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Funcionamiento de las reglas de procesamiento
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
@@ -39,7 +39,7 @@ La siguiente tabla contiene los principales conceptos que debe comprender al uti
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las reglas de procesamiento se aplican inmediatamente al grupo de informes después de guardarse. </p> </td> 
-   <td colname="col2"> <p>Los cambios de las reglas de procesamiento deberían estar visibles en el grupo de informes tras unos minutos después de guardarse. A la hora de probar reglas de procesamiento, es recomendable configurar <a href="/help/admin/admin/realtime/t-realtime-admin.md"> Informes en tiempo real</a> en su grupo de informes de prueba para poder ver rápidamente los resultados de una regla de procesamiento. </p> </td> 
+   <td colname="col2"> <p>Los cambios de las reglas de procesamiento deberían estar visibles en el grupo de informes tras unos minutos después de guardarse. A la hora de probar reglas de procesamiento, es recomendable configurar <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> Informes en tiempo real</a> en su grupo de informes de prueba para poder ver rápidamente los resultados de una regla de procesamiento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las reglas de procesamiento son la única forma de acceder a las variables de datos de contexto. </p> </td> 

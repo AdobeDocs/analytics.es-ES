@@ -1,23 +1,26 @@
 ---
 description: Muestra tráfico de páginas web y clasifica las vistas de página en tiempo real. Proporciona datos procesables en los que fundamentar sus decisiones comerciales.
-title: Resumen de informes en tiempo real
-topic-fix: Reports
+title: Informes en tiempo real
 feature: Real-time
-exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
 
-# Resumen de informes en tiempo real
+# Informes en tiempo real
 
-Los informes en tiempo real muestran tráfico de páginas web y clasifican las vistas de página en tiempo real. Proporciona datos procesables en los que fundamentar sus decisiones comerciales.
+Muestra tráfico de páginas web y clasifica las vistas de página en tiempo real. Proporciona datos procesables en los que fundamentar sus decisiones comerciales.
 
 >[!NOTE]
 >
 >El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte [Configuración de informes en tiempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+
+A continuación, se muestra un vídeo introductorio:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
 
 **[!UICONTROL Métricas del sitio]** > **[!UICONTROL Tiempo real]**
 
@@ -43,13 +46,13 @@ Como administrador, puede
 
 * Compare, por ejemplo, los valores de la semana pasada con los valores del año pasado (así como el total de hoy).
 
-Tenga en cuenta que no se admiten las métricas de conversión (eVar), ya que no hay concepto de persistencia. Aunque puede seleccionar métricas de conversión, solo funcionarán si se establecen en la misma página que las dimensiones. Para obtener más información, consulte el mensaje de advertencia registrado en [Configuración de informesen tiempo real](/help/components/c-real-time-reporting/t-realtime-admin.md).
+Tenga en cuenta que no se admiten las métricas de conversión (eVar), ya que no hay concepto de persistencia. Aunque puede seleccionar métricas de conversión, solo funcionarán si se establecen en la misma página que las dimensiones. Para obtener más información, consulte el mensaje de advertencia registrado en [Configuración de informesen tiempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
 La configuración y visualización de informes en tiempo real está restringida a administradores o cualquier otro usuario de los grupos de permisos &quot;Acceso a todos los informes&quot; e &quot;Informes avanzados&quot;. Sin embargo, Tiempo real respeta los permisos. Por ejemplo, si no dispone de permisos para ver ingresos, no podrá ver un informe en tiempo real que incluya datos de ingresos.
 
 ## Latencia de datos como resultado de la configuración de A4T {#section_806CE36354FC4C539A0DED9266A5C704}
 
-Tras activar la integración de A4T en Adobe [!DNL Target], experimentará otros 5-10 minutos de latencia en Adobe Analytics. Este aumento de la latencia permite almacenar los datos de Analytics y [!DNL Target] en la misma visita, lo que le permite desplegar las pruebas por página y por sección de sitio.
+Tras activar la integración de A4T en Adobe Target, experimentará otros 5-10 minutos de latencia en Adobe Analytics. Este aumento de la latencia permite almacenar los datos de Analytics y Target en la misma visita, lo que le permite desplegar las pruebas por página y por sección de sitio.
 
 Este aumento se ve reflejado en todos los servicios y herramientas de Adobe Analytics, incluido el flujo en directo y los informes en tiempo real, y se aplica a estos escenarios:
 

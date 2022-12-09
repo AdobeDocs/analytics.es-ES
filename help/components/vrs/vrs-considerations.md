@@ -4,7 +4,7 @@ keywords: Grupo de informes virtuales,VRS
 title: Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 98%
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 Los grupos de informes virtuales (VRS) le permiten ver datos de un grupo de informes que recopila datos de sus propiedades digitales, pero con un segmento aplicado de manera permanente.
 
-En muchos casos, puede utilizar grupos de informes virtuales para reemplazar el etiquetado de grupos múltiples. Cambiar a grupos de informes virtuales puede eliminar de forma efectiva la necesidad de realizar [llamadas secundarias al servidor](/help/admin/c-server-call-usage/overage-overview.md). Por ejemplo: su organización tiene 6 sitios web diferentes, cada uno de los cuales envía datos a su propio grupo de informes, así como a un grupo de informes globales combinados. Cada sitio realiza una llamada secundaria al servidor, una al grupo de informes de marca individual y otra al grupo de informes globales. En su lugar, puede enviar datos de todos los sitios únicamente al grupo de informes globales y, a continuación, utilizar varios grupos de informes virtuales para separar cada marca.
+En muchos casos, puede utilizar grupos de informes virtuales para reemplazar el etiquetado de grupos múltiples. Cambiar a grupos de informes virtuales puede eliminar de forma efectiva la necesidad de realizar [llamadas secundarias al servidor](/help/admin/admin/c-server-call-usage/overage-overview.md). Por ejemplo: su organización tiene 6 sitios web diferentes, cada uno de los cuales envía datos a su propio grupo de informes, así como a un grupo de informes globales combinados. Cada sitio realiza una llamada secundaria al servidor, una al grupo de informes de marca individual y otra al grupo de informes globales. En su lugar, puede enviar datos de todos los sitios únicamente al grupo de informes globales y, a continuación, utilizar varios grupos de informes virtuales para separar cada marca.
 
 La sustitución del etiquetado de grupos múltiples con un grupo de informes globales y VRS permite simplificar la implementación de Adobe Analytics y reducir el consumo de llamadas al servidor. Además, se aconseja como práctica recomendada. Sin embargo, hay algunas limitaciones importantes del VRS que hay que tener en cuenta. Las siguientes directrices le ayudarán a decidir si la implementación de grupos de informes virtuales creados en un grupo de informes global es la estrategia adecuada.
 
@@ -35,7 +35,7 @@ Los segmentos no se pueden publicar en Adobe Experience Cloud desde un grupo de 
 
 Los informes a tiempo real no son compatibles con los grupos de informes virtuales porque los datos están segmentados. Los Datos actuales no son compatibles con los grupos de informes virtuales, ya que no admiten segmentación. Ambas funciones son específicas de Reports &amp; Analytics.
 
-[Los informes en tiempo real](/help/admin/admin/realtime/t-realtime-admin.md) y los [Datos actuales](/help/technotes/latency.md) no están disponibles en los grupos de informes virtuales. Esto afecta a los usuarios que responden a las tendencias que se ven en Reports &amp; Analytics en cuestión de segundos o pocos minutos después de la recopilación de datos. Por ejemplo, esto podría incluir editores en una sala de prensa que ajusten los titulares en función del consumo de contenido en tiempo real. Considere utilizar el etiquetado de grupos múltiples si necesita datos en tiempo real significativos y específicos de los grupos de informes individuales. Los datos actuales y en tiempo real se pueden seguir utilizando en el grupo de informes globales.
+[Los informes en tiempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) y los [Datos actuales](/help/technotes/latency.md) no están disponibles en los grupos de informes virtuales. Esto afecta a los usuarios que responden a las tendencias que se ven en Reports &amp; Analytics en cuestión de segundos o pocos minutos después de la recopilación de datos. Por ejemplo, esto podría incluir editores en una sala de prensa que ajusten los titulares en función del consumo de contenido en tiempo real. Considere utilizar el etiquetado de grupos múltiples si necesita datos en tiempo real significativos y específicos de los grupos de informes individuales. Los datos actuales y en tiempo real se pueden seguir utilizando en el grupo de informes globales.
 
 ### Límites únicos
 

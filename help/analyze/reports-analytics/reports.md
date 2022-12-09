@@ -4,7 +4,7 @@ description: Dimensiones y métricas que utiliza Reports & Analytics para cada i
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
@@ -56,9 +56,9 @@ Contiene informes que suelen generar tendencias mediante un intervalo de fechas.
    * Cierres de compras: Obtiene la tendencia de la métrica [Cierres de compras](/help/components/metrics/checkouts.md) a lo largo del tiempo.
 * Eventos personalizados: Contiene todos los informes relacionados con [Eventos](/help/components/metrics/custom-events.md) personalizados específicos de su implementación.
 * Bots: Muestra informes relacionados con bots.
-   * Bots: Muestra los bots que más frecuentan el sitio. Consulte [Reglas de bots](../../admin/admin/bot-removal/bot-rules.md) en la guía de usuario de administración.
+   * Bots: Muestra los bots que más frecuentan el sitio. Consulte [Reglas de bots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) en la guía de usuario de administración.
    * Páginas de bots: Muestra las páginas más visitadas por los bots.
-* Tiempo real: Muestra determinadas dimensiones y métricas segundos después de su recopilación de datos. Consulte [Informes en tiempo real](/help/components/c-real-time-reporting/realtime.md) para obtener más información.
+* Tiempo real: Muestra determinadas dimensiones y métricas segundos después de su recopilación de datos. Consulte [Informes en tiempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) para obtener más información.
 
 ## Contenido del sitio
 

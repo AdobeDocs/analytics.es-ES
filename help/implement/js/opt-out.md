@@ -3,10 +3,10 @@ title: Vínculos de no participación
 description: Obtenga información sobre cómo crear e implementar Vínculos de no participación para los visitantes del sitio.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -22,14 +22,14 @@ Cuando un visitante llega a una URL de exclusión, se le solicita que instale un
 
 >[!TIP]
 >
->Adobe también ofrece la configuración de privacidad por grupo de informes. Consulte [Configuración de privacidad](../../admin/admin/privacy-settings.md) en la guía del usuario del administrador.
+>Adobe también ofrece la configuración de privacidad por grupo de informes. Consulte [Configuración de privacidad](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md) en la guía del usuario del administrador.
 
 ## URL de exclusión
 
 La página de exclusión de su organización depende del valor de la variable [`trackingServer`](../vars/config-vars/trackingserver.md) en la implementación.
 
 * En la extensión de Analytics:
-   1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+   1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
    1. Haga clic en la propiedad de etiquetas deseada.
    1. Haga clic en la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Configurar] en Adobe Analytics.
    1. Haga clic en el acordeón [!UICONTROL General] y anote el valor [!UICONTROL Servidor de seguimiento].

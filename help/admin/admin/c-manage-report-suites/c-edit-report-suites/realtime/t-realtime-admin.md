@@ -1,8 +1,8 @@
 ---
 description: Pasos administrativos para configurar informes en tiempo real.
-title: Configurar informes en tiempo real
+title: Configuración de informes en tiempo real
 feature: Real-time
-exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
+exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '298'
@@ -10,11 +10,11 @@ ht-degree: 100%
 
 ---
 
-# Configurar informes en tiempo real
+# Configuración de informes en tiempo real
 
 Pasos administrativos para configurar informes en tiempo real.
 
-Configurar informes en tiempo real en [!UICONTROL Reports &amp; Analytics] consiste en seleccionar el grupo de informes y configurar hasta 3 informes para este.
+Configurar informes en tiempo real en Reports &amp; Analytics consiste en seleccionar el grupo de informes y configurar hasta 3 informes para este.
 
 1. Seleccione el grupo de informes para el que quiere habilitar los informes en tiempo real.
 
@@ -33,13 +33,13 @@ Configurar informes en tiempo real en [!UICONTROL Reports &amp; Analytics] consi
 1. Active la configuración **[!UICONTROL Activar Tiempo real]**.
 1. Configure la recopilación de datos en tiempo real para hasta tres informes, con una métrica y tres dimensiones o clasificaciones por informe.
 
-   ![](assets/real_time_admin.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
 
    Para obtener información sobre las métricas y dimensiones compatibles en tiempo real, consulte [Métricas y dimensiones compatibles](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
 
    Si ha creado clasificaciones, estas aparecerán con sangría debajo de las dimensiones para las que se hayan definido:
 
-   ![](assets/classifications.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
 
    >[!NOTE]
    >
