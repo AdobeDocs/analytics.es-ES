@@ -3,8 +3,8 @@ title: Canal de último contacto
 description: El canal de marketing más reciente dentro de la caducidad de la participación del visitante.
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ La dimensión “Canal de último contacto” informa del canal de marketing má
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia directamente a los nombres de canales que ha definido en el [administrador de canales de marketing](/help/admin/admin/marketing-channels-admin.md).
+Esta dimensión hace referencia directamente a los nombres de canales que ha definido en el [administrador de canales de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md).
 
 Cada visita enviada a los servidores de recopilación de datos de Adobe se ejecuta a través de las reglas de procesamiento del canal de marketing del grupo de informes. Se repite por cada regla en orden numérico hasta que encuentra una coincidencia, en la que ese canal de marketing se vincula con la visita. El canal de último contacto persiste con el visitante hasta que no visita el sitio durante más tiempo que el período de participación de visitante (de forma predeterminada, 30 días).
 
