@@ -3,10 +3,10 @@ description: Las sesiones según el contexto en los grupos de informes virtuales
 title: Sesiones según el contexto
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '1563'
-ht-degree: 100%
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+workflow-type: tm+mt
+source-wordcount: '1562'
+ht-degree: 97%
 
 ---
 
@@ -131,7 +131,7 @@ El tiempo pasado se sigue calculando de un modo análogo a como se hace sin visi
 
 ## Configuración del procesamiento de visitas en segundo plano
 
-Como el procesamiento de visitas en segundo plano solo está disponible para grupos de informes virtuales que utilizan Procesamiento de intervalo de tiempo, Adobe Analytics admite dos modos de procesar las visitas en segundo plano para preservar el recuento de visitas en el grupo de informes base que no utiliza Procesamiento de intervalo de tiempo. Para obtener acceso a estos ajustes, vaya a Adobe Analytics Admin Console y a la configuración del grupo de informes base aplicable y, a continuación, diríjase al menú “Administración de móviles” y al submenú “Informes de aplicaciones móviles”.
+Como el procesamiento de visitas en segundo plano solo está disponible para grupos de informes virtuales que utilizan Procesamiento de intervalo de tiempo, Adobe Analytics admite dos modos de procesar las visitas en segundo plano para preservar el recuento de visitas en el grupo de informes base que no utiliza Procesamiento de intervalo de tiempo. Para acceder a esta configuración, vaya a las Herramientas de administración de Adobe Analytics, vaya a la configuración del grupo de informes base correspondiente y, a continuación, vaya al menú Administración de móviles y, a continuación, al submenú &quot;Informes de aplicaciones móviles&quot;.
 
 1. “Procesamiento heredado activado”: esta es la configuración predeterminada para todos los grupos de informes. Si se deja activado el procesamiento heredado, las visitas en segundo plano se procesan como visitas normales en nuestro canal de procesamiento por lo que respecta al grupo de informes base de atribución de tiempo no de informes. Esto significa que cualquier visita en segundo plano que aparezca en el grupo de informes base aumente las visitas como una visita normal. Si no desea que las visitas en segundo plano aparezcan en el grupo de informes base, cambie este ajuste a “Desactivado”.
 1. “Procesamiento heredado desactivado”: cuando el procesamiento heredado de visitas en segundo plano está desactivado, el grupo de informes base ignora las visitas en segundo plano, a las que solo se puede acceder si se configura el uso de Procesamiento de intervalo de tiempo en un grupo de informes virtuales creado en este grupo de informes base. Esto significa que cualquier dato captado por las visitas en segundo plano y enviado a este grupo de informes base solo aparece en los grupos de informes virtuales que tengan habilitado Procesamiento de intervalo de tiempo.
