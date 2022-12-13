@@ -3,9 +3,9 @@ description: El cuadro de diálogo Administración de datos en Herramientas de a
 title: Consulta o administración de la configuración de control de datos del grupo de informes
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 538d5bcea449ecb868ff9ebcce4ca742f91b4a87
-workflow-type: ht
-source-wordcount: '517'
+source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+workflow-type: tm+mt
+source-wordcount: '520'
 ht-degree: 100%
 
 ---
@@ -33,3 +33,5 @@ El cuadro de diálogo Administración de datos en Herramientas de administració
 | **[!UICONTROL Grupos]** | La funcionalidad de agrupado actualmente no está implementada. |
 | Barra lateral izquierda | Haga clic en el icono de embudo para abrir o cerrar la barra lateral. La sección [!UICONTROL Asignación a organizaciones] muestra el número de grupos de informes que se encuentran en cada una de las categorías descritas. La sección [!UICONTROL Directiva de retención de datos] muestra cada una de las políticas de retención de datos únicas en vigor para su organización y el número de grupos de informes que se han asignado a dicha directiva de retención. |
 | **[!UICONTROL Exportar a CSV]** | Si marca la casilla de verificación que está junto a uno o más grupos de informes, se muestra la opción Exportar a CSV. Esta opción le permite descargar un archivo CSV que contiene todas las definiciones de etiqueta actuales para todas las variables de todos los grupos de informes seleccionados. Le recomendamos que su equipo legal revise sus opciones de etiquetado, algo que esta opción facilita. En lugar de tener que realizar la revisión con una sesión iniciada en la interfaz de Administración de datos, puede compartir el archivo .CSV con ellos. |
+
+{style=&quot;table-layout:auto&quot;}

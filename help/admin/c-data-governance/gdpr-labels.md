@@ -3,9 +3,9 @@ description: Ejemplos de etiquetas de privacidad de datos para variables de Adob
 title: Etiquetas de privacidad de datos para variables de Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
 workflow-type: tm+mt
-source-wordcount: '3909'
+source-wordcount: '3672'
 ht-degree: 98%
 
 ---
@@ -32,58 +32,23 @@ La implementación de privacidad de datos de Adobe Analytics admite las siguient
 
 Las etiquetas “I” de datos de identidad se utilizan para categorizar los datos que podrían usarse para identificar a una persona específica o ponerse en contacto con ella.
 
-<table id="table_6B5368D714424E52835D5DFE189BD080"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Etiqueta </th> 
-   <th colname="col2" class="entry"> Definición </th> 
-   <th colname="col3" class="entry"> Otros requisitos </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>I1 </p> </td> 
-   <td colname="col2"> <p><b>Directamente identificable</b>: datos que pueden identificar específicamente a una persona o permitir que alguien se ponga en contacto de forma directa con ella, como un nombre o una dirección de correo electrónico. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_4E2AD59D119E40D28B869D0BB63B9FD9"> 
-     <li id="li_AC3E99B57E3A4AE2A12BE219680AFC58">No se pueden establecer en eventos. </li> 
-     <li id="li_BB66992863C8402F8D58656293F31E71">No se pueden establecer en eVars de comercialización. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>I2 </p> </td> 
-   <td colname="col2"> <p><b>Indirectamente identificable</b>: datos que se pueden utilizar en combinación con otros para identificar a una persona o dispositivo, o permitir que alguien se ponga en contacto con ellos de forma directa. </p> <p>No permiten que se determine de qué persona se trata por sí solos, pero podrían combinarse con otra información (que usted podría tener o no en su poder) para identificar a alguien. Entre los ejemplos se incluyen un número de fidelidad de cliente o un ID empleado por el sistema de CRM de una empresa que es único para cada uno de sus clientes. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_A0EF0F3DC5804D4FBE228946D697ABEB"> 
-     <li id="li_A592EA6DA82C4D8C80E03F02ADF4E20E">No se pueden establecer en eventos. </li> 
-     <li id="li_46CE7B1E84884CDAB356A6DF89397849">No se pueden establecer en eVars de comercialización. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Etiqueta | Definición | Otros requisitos |
+| --- | --- | --- |
+| I1 | Directamente identificable: datos que pueden identificar específicamente a una persona o permitir que alguien se ponga en contacto de forma directa con ella, como un nombre o una dirección de correo electrónico. | <ul><li>No se pueden establecer en eventos.</li><li>No se pueden establecer en eVars de comercialización.</li></ul> |
+| I2 | Indirectamente identificable: datos que se pueden utilizar en combinación con otros para identificar a una persona o dispositivo, o permitir que alguien se ponga en contacto con ellos de forma directa.  No permiten que se determine de qué persona se trata por sí solos, pero podrían combinarse con otra información (que usted podría tener o no en su poder) para identificar a alguien. Entre los ejemplos se incluyen un número de fidelidad de cliente o un ID empleado por el sistema de CRM de una empresa que es único para cada uno de sus clientes. | <ul><li>No se pueden establecer en eventos.</li><li>No se pueden establecer en eVars de comercialización.</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Etiquetas de datos confidenciales (DULE) {#sensitive-data-labels}
 
 Las etiquetas de datos confidenciales “S” se utilizan para categorizar datos confidenciales, como datos geográficos. En el futuro, se presentarán etiquetas de datos confidenciales adicionales para identificar otros tipos de información confidencial.
 
-<table id="table_A778A508620545CCB37830E5CF1C75B7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Etiqueta </th> 
-   <th colname="col2" class="entry"> Definición </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>S1 </p> </td> 
-   <td colname="col2"> <p> Los datos de ubicación geográfica precisos relacionados con la latitud y la longitud que se pueden usar para determinar la ubicación exacta de un dispositivo (en un radio de 100 metros o menos). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>S2 </p> </td> 
-   <td colname="col2"> <p> Los datos de ubicación geográfica que se pueden usar para determinar un área de geoperímetro definida a grandes rasgos. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Etiqueta | Definición |
+| --- | --- |
+| S1 | Los datos de ubicación geográfica precisos relacionados con la latitud y la longitud que se pueden usar para determinar la ubicación exacta de un dispositivo (en un radio de 100 metros o menos). |
+| S2 | Los datos de ubicación geográfica que se pueden usar para determinar un área de geoperímetro definida a grandes rasgos. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Etiquetas de administración de datos (privacidad de datos) {#data-governance-labels}
 
@@ -91,124 +56,38 @@ Las etiquetas de control de datos confieren a los usuarios la capacidad de clasi
 
 ### Etiquetas de acceso a la privacidad de datos
 
-<table id="table_663EFF43A454498386F7F3E60875E0F8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Etiqueta </th> 
-   <th colname="col2" class="entry"> Definición </th> 
-   <th colname="col3" class="entry"> Otros requisitos </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Ninguna </p> </td> 
-   <td colname="col2"> <p>Seleccione esta opción si esta variable no contiene datos que deban incluirse en los datos devueltos al interesado como parte de una solicitud de acceso a la privacidad de datos. </p> </td> 
-   <td colname="col3"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ACC-ALL </p> </td> 
-   <td colname="col2"> <p>Los valores de este campo se deben incluir en <u>todas</u> las solicitudes de acceso de la privacidad de datos. </p> <p>Si esta visita provenía de un dispositivo compartido por varias personas, al aplicar esta etiqueta, usted, como controlador de datos, indica que es aceptable compartir los datos de este campo con cualquier persona que tenga acceso al dispositivo compartido. </p> </td> 
-   <td colname="col3"> <p>Los campos con esta etiqueta se devolverán para todas las solicitudes de la privacidad de datos. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ACC-PERSON </p> </td> 
-   <td colname="col2"> <p> Los valores de este campo se deben incluir únicamente para solicitudes de acceso de la privacidad de datos cuando tengamos la certeza, dentro de lo razonable, de que la visita correspondía al interesado, tal y como se determine mediante la coincidencia de un ID de solicitud de la privacidad de datos con el valor de un campo ID-PERSON. </p> </td> 
-   <td colname="col3"> <p>También debe tener una etiqueta ID-PERSON configurada en alguna variable dentro de este grupo de informes y enviar solicitudes mediante ese ID; de lo contrario, esta etiqueta nunca se aplicará. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Etiqueta | Definición | Otros requisitos |
+| --- | --- | --- |
+| Ninguna | Seleccione esta opción si esta variable no contiene datos que deban incluirse en los datos devueltos al interesado como parte de una solicitud de acceso a la privacidad de datos. |  |
+| ACC-ALL | Los valores de este campo se deben incluir en todas las solicitudes de acceso de la privacidad de datos. Si esta visita provenía de un dispositivo compartido por varias personas, al aplicar esta etiqueta, usted, como controlador de datos, indica que es aceptable compartir los datos de este campo con cualquier persona que tenga acceso al dispositivo compartido. | Los campos con esta etiqueta se devolverán para todas las solicitudes de la privacidad de datos. |
+| ACC-PERSON | Los valores de este campo se deben incluir únicamente para solicitudes de acceso de la privacidad de datos cuando tengamos la certeza, dentro de lo razonable, de que la visita correspondía al interesado, tal y como se determine mediante la coincidencia de un ID de solicitud de la privacidad de datos con el valor de un campo ID-PERSON. | También debe tener una etiqueta ID-PERSON configurada en alguna variable dentro de este grupo de informes y enviar solicitudes mediante ese ID; de lo contrario, esta etiqueta nunca se aplicará. |
+
+{style=&quot;table-layout:auto&quot;}
 
 Mientras que algunas variables recibirán alguna de las otras etiquetas, se espera que el acceso a las etiquetas se aplique a muchas de sus variables. Sin embargo, está en su mano, con el asesoramiento de su equipo legal, decidir cuáles de los datos que ha recopilado deben compartirse con los interesados.
 
 ### Etiquetas de eliminación de la privacidad de datos
 
-<table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Etiqueta </th> 
-   <th colname="col2" class="entry"> Definición </th> 
-   <th colname="col3" class="entry"> Otros requisitos </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>A diferencia de otras etiquetas, estas etiquetas de eliminación no son mutuamente exclusivas. Puede seleccionar una, ambas o ninguna. No es necesaria una etiqueta Ninguno aparte, ya que la opción Ninguno se indica simplemente si no se marca ninguna de las opciones de eliminación. </p> </td> 
-   <td colname="col3"> <p>Se requiere una etiqueta de eliminación únicamente para los campos que contienen un valor que pueda permitir la asociación de la visita con el interesado (por ejemplo, que permita la identificación del interesado). </p> <p> Otra información personal (favoritos, historial de navegación/compras, estado de salud, etc.) no requiere de la eliminación, ya que la asociación con el interesado queda truncada. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>DEL-DEVICE </p> </td> 
-   <td colname="col2"> <p>En el caso de solicitudes de eliminación de la privacidad de datos, los valores de este campo deben convertirse en anónimos solo para aquellas solicitudes en las que haya una etiqueta ID-DEVICE presente en la visita. </p> <p>Si el mismo valor aparece en otras visitas que no se vayan a eliminar, estas otras instancias no se modificarán. Esto conllevará que los recuentos cambien en informes que calculen recuentos únicos en este campo. En dispositivos compartidos, esto podría eliminar identificadores de otras personas, aparte de los del interesado. </p> <p>Los recuentos no cambian si este campo también tiene una etiqueta ID-DEVICE y el valor del campo se ha utilizado como ID para la solicitud de privacidad de datos. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_45C3A09E1F05492B97C3F3DEA7C78FBC"> 
-     <li id="li_BAB277F92F284ADE9D7B6839BDD716E2">También requiere una etiqueta I1, I2 o S1. </li> 
-     <li id="li_6DDFC0571457489CBA9D76F547247F20">No se puede establecer en eventos. </li> 
-     <li id="li_E79C6DFC6C58478EAA1504E3820D512C">No se puede establecer en eVars de comercialización. </li> 
-     <li id="li_B78E273212E447D49D0707E174B66DEC">No se puede establecer en clasificaciones. </li> 
-     <li id="li_F0F52D0DE7454557A6A97063C1FBC372">Debe enviar solicitudes mediante un ID-DEVICE o establecer expandIDs como true; de lo contrario, esta etiqueta nunca se aplicará. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>DEL-PERSON </p> </td> 
-   <td colname="col2"> <p>En el caso de solicitudes de eliminación de la privacidad de datos, los valores de este campo deben convertirse en anónimos solo para aquellas solicitudes en las que haya una etiqueta ID-PERSON presente en la visita. </p> <p>Si el mismo valor aparece en otras visitas que no se vayan a eliminar, estos otros valores no se modificarán. Esto conllevará que los recuentos cambien en informes que calculen recuentos únicos en este campo. Los recuentos no cambiarán si este campo también tiene una etiqueta ID-PERSON y el valor del campo se ha utilizado como ID para la solicitud de privacidad de datos. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_6722E42E036E47B4B5E17DC213636D51"> 
-     <li id="li_6C1A64FF68AF428A827D8C6C33E22970">También requiere una etiqueta I1, I2 o S1. </li> 
-     <li id="li_8053533FFE874EE795C8B6043A4F73B3">No se puede establecer en eventos. </li> 
-     <li id="li_D6700CF4D03E44DDA83C4DDBB5B70CC3">No se puede establecer en eVars de comercialización. </li> 
-     <li id="li_B6C2B15484B344889DBF29B62E2EA8FD">No se puede establecer en clasificaciones. </li> 
-     <li id="li_3BBD0C27D9644C2B9618457A0BFC15EF">También debe tener una etiqueta ID-PERSON configurada en alguna variable dentro de este grupo de informes y enviar solicitudes mediante ese ID; de lo contrario, esta etiqueta nunca se aplicará. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+A diferencia de otras etiquetas, estas etiquetas de eliminación no son mutuamente exclusivas. Puede seleccionar una, ambas o ninguna. Una [!UICONTROL Ninguna] no es necesario, ya que [!UICONTROL Ninguna] se indica simplemente no marcando ninguna de las opciones de eliminación.
+
+Se requiere una etiqueta de eliminación únicamente para los campos que contienen un valor que pueda permitir la asociación de la visita con el interesado (por ejemplo, que permita la identificación del interesado). Otra información personal (favoritos, historial de navegación/compras, estado de salud, etc.) no requiere de la eliminación, ya que la asociación con el interesado queda truncada.
+
+| Etiqueta | Definición | Otros requisitos |
+| --- | --- | --- |
+| DEL-DEVICE | En el caso de solicitudes de eliminación de la privacidad de datos, los valores de este campo deben convertirse en anónimos solo para aquellas solicitudes en las que haya una etiqueta ID-DEVICE presente en la visita.  Si el mismo valor aparece en otras visitas que no se vayan a eliminar, estas otras instancias no se modificarán. Esto conllevará que los recuentos cambien en informes que calculen recuentos únicos en este campo. En dispositivos compartidos, esto podría eliminar identificadores de otras personas, aparte de los del interesado.  Los recuentos no cambian si este campo también tiene una etiqueta ID-DEVICE y el valor del campo se ha utilizado como ID para la solicitud de privacidad de datos. | <ul><li>También requiere una etiqueta I1, I2 o S1.</li><li>No se puede establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li></li><li>No se puede establecer en clasificaciones.</li><li>Debe enviar solicitudes mediante un ID-DEVICE o establecer expandIDs como true; de lo contrario, esta etiqueta nunca se aplicará.</li></ul> |
+| DEL-PERSON | En el caso de solicitudes de eliminación de la privacidad de datos, los valores de este campo deben convertirse en anónimos solo para aquellas solicitudes en las que haya una etiqueta ID-PERSON presente en la visita.  Si el mismo valor aparece en otras visitas que no se vayan a eliminar, estos otros valores no se modificarán. Esto conllevará que los recuentos cambien en informes que calculen recuentos únicos en este campo. Los recuentos no cambiarán si este campo también tiene una etiqueta ID-PERSON y el valor del campo se ha utilizado como ID para la solicitud de privacidad de datos. | <ul><li>También requiere una etiqueta I1, I2 o S1.</li><li>No se puede establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li></li><li>No se puede establecer en clasificaciones.</li><li>Debe enviar solicitudes mediante una etiqueta ID-PERSON configurada en alguna variable dentro de este grupo de informes y enviar solicitudes mediante ese ID; de lo contrario, esta etiqueta nunca se aplicará.</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Etiquetas de identidad de la privacidad de datos
-
-<table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Etiqueta </th> 
-   <th colname="col2" class="entry"> Definición </th> 
-   <th colname="col3" class="entry"> Otros requisitos </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Ninguna </p> </td> 
-   <td colname="col2"> <p>Esta variable no contiene ningún ID que se usará para las solicitudes de privacidad de datos. </p> </td> 
-   <td colname="col3"> <p>Solo debe establecer una de estas otras etiquetas si este campo contiene un ID que utilizará al enviar solicitudes de acceso o eliminación a través de la [API del Privacy Service] (https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) o la interfaz de usuario. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID-DEVICE </p> </td> 
-   <td colname="col2"> <p>Este campo contiene un ID que puede utilizarse para identificar un dispositivo para una solicitud de privacidad de datos, pero no puede distinguir entre distintos usuarios de un dispositivo compartido. </p> <p>No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si envía solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_618019CB8FCA4A5C94C47636240197B2"> 
-     <li id="li_0E5ADED36FF24A348FDD434E2CC8C8EE">También requiere una etiqueta I1 o I2. </li> 
-     <li id="li_20BCFF07B2BF468C8E0D477C10B2EF9F">No se pueden establecer en eventos. </li> 
-     <li id="li_0BD73EEF4184475D8E97878CF8DBEB90">No se puede establecer en eVars de comercialización. </li> 
-     <li id="li_129851035C4A4BF0922296B4C3BEE39B">No se puede establecer en clasificaciones. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID-PERSON </p> </td> 
-   <td colname="col2"> <p>Este campo contiene un ID que se puede usar para identificar a un usuario autenticado (una persona específica) cuando se realice una solicitud de privacidad de datos. </p> <p>No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si enviará solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_0C7EEC8FCB5C4BCDA5D48F3C98770A67"> 
-     <li id="li_2E781AE8D7A046A7996C7300CA854B86">También requiere una etiqueta I1 o I2. </li> 
-     <li id="li_EB4C6430C218405DAAE81DEE010DCAA2">No se pueden establecer en eventos. </li> 
-     <li id="li_05AA67B45974474F9DA520E8B877BA11">No se puede establecer en eVars de comercialización. </li> 
-     <li id="li_8A6BF4B40ED249289EAD46FE1C755FB0">No se puede establecer en clasificaciones. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 | Etiqueta | Definición | Otros requisitos |
 | --- | --- | --- |
 | Ninguna | Esta variable no contiene ningún ID que se usará para las solicitudes de privacidad de datos. | Únicamente debe establecer una de estas otras etiquetas si este campo contiene un ID que utilizará al enviar las solicitudes de acceso o eliminación mediante la interfaz de usuario o la [API de servicio de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html). |
 | ID-DEVICE | Este campo contiene un ID que puede utilizarse para identificar un dispositivo para una solicitud de privacidad de datos, pero no puede distinguir entre distintos usuarios de un dispositivo compartido.  No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si envía solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. | También requiere una etiqueta I1 o I2..<ul><li>No se pueden establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li><li>No se puede establecer en clasificaciones.</li></ul> |
-| ID-PERSON | Este campo contiene un ID que se puede usar para identificar a un usuario autenticado (una persona específica) cuando se realice una solicitud de privacidad de datos.  No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si enviará solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. | También requiere una etiqueta I1 o I2..<ul><li>No se pueden establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li><li>No se puede establecer en clasificaciones.</li></ul> |
+| ID-PERSON | Este campo contiene un ID que se puede usar para identificar a un usuario autenticado (una persona específica) cuando se realice una solicitud de privacidad de datos.  No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si enviará solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. | <ul><li>También requiere una etiqueta I1 o I2..</li><li>No se pueden establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li><li>No se puede establecer en clasificaciones.</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Proporcionar un área de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
@@ -254,51 +133,16 @@ Otro ejemplo: puede tener un CRM ID que en ocasiones se envía a través de eVar
 >
 >Las áreas de nombres &quot;visitorId&quot; y &quot;customVisitorId&quot; están reservadas para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de cliente de Analytics. No utilice estas áreas de nombres para variables de conversión o tráfico personalizado.
 
-## Tipos de variables y etiquetas de privacidad de datos/DULE que admiten {#section_CE7C3EDE1344466A98BC45E394B40762}
+## Tipos de variables y etiquetas de privacidad de datos/DULE que admiten {#variable-types}
 
 El etiquetado de privacidad de datos/DULE afecta a cuatro clases amplias de variables de Analytics. No todas las variables admiten todas las etiquetas. En esta tabla se muestra qué variables admiten o no cada etiqueta.
 
-<table id="table_95D4416B3A8A40C28B2610D0003456E6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Tipo de variable </th> 
-   <th colname="col2" class="entry"> Etiquetas admitidas </th> 
-   <th colname="col3" class="entry"> Etiquetas no admitidas </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <ul id="ul_0615B545A5AD43F2A6F25698A47AAD3E"> 
-     <li id="li_A4B3E8E241B149C99F2A71B21227AD72">Eventos de éxito personalizados </li> 
-     <li id="li_8AEF688AE9B8426C82D199E4B195330D">eVars de comercialización </li> 
-     <li id="li_DFFCA65DCC6146AEB6D47476B4D4CC3B">Variables multivalor (mvVars) </li> 
-     <li id="li_3192D08B12C249D1AAA8AAEEDE2FD7D7">Variables de jerarquía </li> 
-    </ul> </td> 
-   <td colname="col2"> <p>S1/S2 </p> <p>ACC-ALL, ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>I1/I2 </p> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Clasificaciones </p> </td> 
-   <td colname="col2"> <p>I1/I2, S1/S2 </p> <p>ACC-ALL, ACC-PERSON, </p> </td> 
-   <td colname="col3"> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 
-    <ul id="ul_1C2FD4D606664965A88F10818E1C11A9"> 
-     <li id="li_590975F5C7304317B22C80B20718E914">Variables de tráfico (props) </li> 
-     <li id="li_6E614B7036994434BFDA71A4424529A0">Variables de comercio (eVars no relacionadas con el marketing) </li> 
-    </ul> </td> 
-   <td colname="col2"> <p>Todas las etiquetas </p> </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>La mayoría de las otras variables </p> <p><i>(Consulte la siguiente tabla para ver las excepciones).</i> </p> </td> 
-   <td colname="col2"> <p>ACC-ALL, ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>I1/I2, S1/S2 </p> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Tipo de variable | Etiquetas admitidas | Etiquetas no admitidas |
+|--- |--- |--- |
+| <ul><li>Eventos de éxito personalizados</li><li>eVars de comercialización</li><li>Variables multivalor (mvVars)</li><li>Variables de jerarquía</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
+| Clasificaciones | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
+| <ul><li>Variables de tráfico (props)</li><li>Variables de comercio (eVars no relacionadas con el marketing)</li></ul> | Todas las etiquetas | - |
+| La mayoría de las otras variables  (*Consulte la siguiente tabla para ver las excepciones*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 ## Variables a las que se pueden asignar otras etiquetas que no sean ACC-ALL/ACC-PERSON/modificado {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
@@ -378,7 +222,7 @@ En la tabla siguiente se describe cómo se &quot;eliminan&quot; las distintas va
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>• Variables de tráfico (props) </p> <p>• Variables de comercio (eVars) </p> </td> 
+   <td colname="col1"> <p>* Variables de tráfico (props) </p> <p>* Variables de comercio (eVars) </p> </td> 
    <td colname="col2"> <p>El valor existente se reemplaza con uno nuevo con el formulario “Privacidad de datos-356396D55C4F9C7AB3FBB2F2FA223482”, donde el valor hexadecimal de 32 dígitos después del prefijo “Privacidad de datos” es un número pseudoaleatorio con cifrado de 128 bits. Como, en esencia, se está reemplazando con una cadena aleatoria, no hay forma de determinar el valor original a partir de este nuevo valor, ni hay forma de derivar el nuevo valor si se conoce el valor original. </p> <p>En una variable determinada, si el valor idéntico al que se va a reemplazar se produce dentro de otras visitas que también se van a eliminar como parte de la misma solicitud de privacidad de datos, todas las instancias de dicho valor se sustituirán por el mismo valor nuevo. </p> <p>Si algunas instancias de un valor se reemplazan con una solicitud de eliminación y una solicitud posterior elimina otras (nuevas) instancias del valor original, el nuevo valor de reemplazo será distinto del valor de reemplazo original. </p> </td> 
   </tr> 
   <tr> 
@@ -390,15 +234,15 @@ En la tabla siguiente se describe cómo se &quot;eliminan&quot; las distintas va
    <td colname="col2"> <p>El valor es un entero de 128 bits y se reemplaza con un valor pseudoaleatorio con cifrado de 128 bits. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• MCID </p> <p>• ID de visitante personalizado </p> <p>• Dirección IP </p> <p>• Dirección IP 2 </p> </td> 
+   <td colname="col1"> <p>* MCID </p> <p>* ID de visitante personalizado </p> <p>* Dirección IP </p> <p>* Dirección IP 2 </p> </td> 
    <td colname="col2"> <p>El valor se borra (establecido como cadena vacía o 0, según el tipo de variable). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• Acción de ClickMap (heredada) </p> <p>• Contexto de ClickMap (heredado) </p> <p>• Página </p> <p>• URL de la página </p> <p>• URL de la página de la entrada original </p> <p>• Referente </p> <p>• URL de la página del inicio de la visita </p> </td> 
+   <td colname="col1"> <p>* Acción de ClickMap (heredada) </p> <p>* Contexto de ClickMap (heredada) </p> <p>* Página </p> <p>* URL de la página </p> <p>* URL de la página de la entrada original </p> <p>* Remitente del reenvío </p> <p>* URL de la página del inicio de la visita </p> </td> 
    <td colname="col2"> <p>Los parámetros de URL se borran o eliminan. Si el valor no parece una URL, se borra (se establece en la cadena vacía). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• Latitud </p> <p>• Longitud </p> </td> 
+   <td colname="col1"> <p>* Latitud </p> <p>* Longitud </p> </td> 
    <td colname="col2"> <p>La precisión se reduce hasta no ser mejor que 1 km. </p> </td> 
   </tr> 
  </tbody> 
@@ -451,7 +295,7 @@ En esta sección se pretende aclarar la información sobre las variables de Anal
  </tbody> 
 </table>
 
-## Campos de fecha para solicitudes de acceso {#section_6678FB4FF42B481C9B78E64F61782397}
+## Campos de fecha para solicitudes de acceso {#access-requests}
 
 Hay cinco variables estándar que contienen marcadores de tiempo:
 
