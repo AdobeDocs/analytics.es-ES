@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 87%
 
 ---
 
@@ -18,17 +18,29 @@ ht-degree: 100%
 
 ## Editar [!UICONTROL configuración de columna] {#edit-column-settings}
 
-Para acceder a la [!UICONTROL Configuración de columna], arrastre una tabla improvisada al proyecto y, a continuación, haga clic en el icono de engranaje en el encabezado de la columna.
+Puede editar la configuración de columna de una columna individual o de varias columnas simultáneamente.
 
-![](assets/column_settings.png)
+1. En Analysis Workspace, arrastre una tabla improvisada al proyecto.
 
-Puede editar la configuración **de varias columnas a la vez**. Basta con seleccionar varias columnas y hacer clic en el icono de configuración de cualquiera de ellas. Los cambios realizados se aplicarán a todas las columnas que tengan celdas seleccionadas.
+1. (Condicional) Para editar varias columnas simultáneamente, seleccione cada columna que desee editar mientras pulsa la tecla Mayús.
+
+1. Pase el ratón sobre la columna que quiera editar y, a continuación, seleccione el icono de engranaje.
+
+   Si ha seleccionado varias columnas, haga clic en el icono de engranaje de cualquiera de las columnas seleccionadas. Los cambios que realice se aplicarán a todas las columnas seleccionadas.
+
+   ![](assets/column_settings.png)
+
+1. Continuar con [Configuración de columna](#column-settings).
+
+## Configuración de columna
+
+La siguiente configuración de columna está disponible al editar columnas en Analysis Workspace:
 
 | Elemento | Descripción |
 | --- | --- |
 | **Celdas con totales** |  |
 | Mostrar totales | Este total suele ser igual o un subconjunto del [!UICONTROL Total general]. Refleja cualquier filtro de tabla aplicado en la tabla de forma libre, incluida la opción [!UICONTROL Incluir ninguno]. |
-| Mostrar el total | Este total representa todas las visitas recopiladas, a veces denominadas “total del grupo de informes”. Cuando se aplica un segmento en el nivel de panel o en la tabla improvisada, este total se ajusta para reflejar todas las visitas que coinciden con los criterios del segmento. El total general no es compatible con tablas o desgloses con [filas estáticas](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
+| Mostrar el total | Este total representa todas las visitas recopiladas, a veces denominadas “total del grupo de informes”. Cuando se aplica un segmento en el nivel de panel o en la tabla de forma libre, este total se ajusta para reflejar todas las visitas que coinciden con los criterios del segmento. El total general no es compatible con tablas o desgloses con [filas estáticas](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 | **Celdas de la tabla** |  |
 | Número | Determina si una celda muestra u oculta el valor numérico de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor numérico es el número de visualizaciones de la página para el elemento de fila. |
 | Porcentaje | Determina si una celda muestra u oculta el valor porcentual de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor porcentual es el número de visualizaciones de la página para el elemento de fila dividido por el total de visualizaciones de la página para la columna.  Nota: Se pueden mostrar porcentajes superiores al 100 % para mejorar la precisión. También se ha he incrementado el límite superior hasta el 1000 % para garantizar que la anchura de las columnas se pueda ampliar. |
@@ -57,7 +69,7 @@ El formato condicional aplica formato que puede definir a los límites superior,
 
 Analysis Workspace admite la [atribución](/help/analyze/analysis-workspace/attribution/overview.md) en casi cualquier métrica.
 
-1. Haga clic en el icono Configuración (engranaje) en una columna de Tabla improvisada.
+1. Haga clic en el icono Configuración (engranaje) en una columna de Tabla de forma libre.
 
    ![Casilla de verificación de atribución](assets/attribution-checkbox.png)
 
