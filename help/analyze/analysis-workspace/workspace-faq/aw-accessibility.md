@@ -1,12 +1,12 @@
 ---
 description: Funciones de soporte de accesibilidad en Analysis Workspace
 title: Accesibilidad en Analysis Workspace
-feature: Conceptos básicos de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: ht
-source-wordcount: '657'
+source-wordcount: '655'
 ht-degree: 100%
 
 ---
@@ -65,7 +65,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 
 | Acceso directo | Acción |
 |---|---|
-| Alt + 1 | Nueva tabla improvisada |
+| Alt + 1 | Nueva tabla de forma libre |
 | Ctrl + Mayús + C | Nueva métrica calculada |
 | Ctrl + Mayús + D | Nuevo intervalo de fechas |
 | Ctrl + Mayús + E | Nuevo segmento |
