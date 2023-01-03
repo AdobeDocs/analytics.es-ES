@@ -1,12 +1,12 @@
 ---
 description: Preguntas frecuentes sobre la administración de datos de Adobe Analytics
-title: Preguntas frecuentes sobre el control de datos
+title: Preguntas frecuentes sobre la gobernanza de datos
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1805'
+ht-degree: 100%
 
 ---
 
