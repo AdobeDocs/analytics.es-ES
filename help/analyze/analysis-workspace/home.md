@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,4 +70,4 @@ A continuación se muestra un vídeo introductorio de la administración de proy
 ## Recursos adicionales {#resources}
 
 * Adobe ofrece cientos de [tutoriales de formación en vídeo de Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=es).
-* Consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics) para obtener actualizaciones acerca de las nuevas funciones.
+* Consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es#analytics) para obtener actualizaciones acerca de las nuevas funciones.
