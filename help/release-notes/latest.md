@@ -4,9 +4,9 @@ description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1459'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Visualización del **[!UICONTROL resumen de métricas clave]** | La visualización del [!UICONTROL resumen de métricas clave] permite ver las tendencias de una métrica importante dentro de un solo periodo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo.  [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html) | 5 de octubre de 2022 | 19 de octubre de 2023 |
+| Visualización del **[!UICONTROL resumen de métricas clave]** | La visualización del [!UICONTROL resumen de métricas clave] permite ver las tendencias de una métrica importante dentro de un solo periodo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo.  [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=es) | 5 de octubre de 2022 | 19 de octubre de 2023 |
 | **Variables de varios valores que no distinguen entre mayúsculas y minúsculas** | Para variables de varios valores que no distinguen entre mayúsculas y minúsculas, los valores que se almacenan en `mvvar1 - mvvar3` y `post_mvvar1 - post_mvvar3` en las fuentes de datos ya no se convertirán a minúsculas automáticamente. En su lugar, las fuentes de datos (y los datos que pasan por el Conector de origen de Analytics a Adobe Experience Platform y CJA) reflejarán el formato original que se pasó desde la página. | N/A | 24 de octubre de 2022 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -33,13 +33,13 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 
 ### Otras correcciones
 
-AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-302631; AN-302811; AN-303090; AN-303372; AN-; AN-303428; AN-303429; AN-303432; AN-303434; AN-303437; AN-303438; AN-303519; AN-303610; AN-303656; AN-303659; AN-303663; AN-303664; AN-303818; AN-303823; AN-303837; AN-304036; AN-304195; AN-304321; AN-304325; AN-304339; AN-304356; AN-304435; AN-304457; AN-304509; AN-304519; AN-304534
+AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-302631; AN-302811; AN-303090; AN-303372; AN-303428; AN-303429; AN-303432; AN-303434; AN-303437; AN-303438; AN-303519; AN-303610; AN-303656; AN-303659; AN-303663; AN-303664; AN-303818; AN-303823; AN-303837; AN-304036;  AN-304195; AN-304321; AN-304325; AN-304339; AN-304356; AN-304435; AN-304457; AN-304509; AN-304519; AN-304534
 
 ## Avisos importantes para los administradores de Adobe Analytics
 
 | Aviso | Fecha de incorporación o actualizada | Descripción |
 | ----------- | ---------- | ---------- |
-| **Directrices actualizadas para notificaciones de picos de tráfico** | 18 de noviembre de 2022 | Las directrices anteriores se basaban estrictamente en los volúmenes de visitas. La variable [nuevas directrices](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=en) se basan en una combinación de tamaño y aumento porcentual del grupo de informes. |
+| **Directrices actualizadas para notificaciones de picos de tráfico** | 18 de noviembre de 2022 | Las directrices anteriores se basaban estrictamente en los volúmenes de visitas. La variable [nuevas directrices](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=es) se basan en una combinación de tamaño y aumento porcentual del grupo de informes. |
 | **Actualización de las búsquedas de dispositivos debido a las sugerencias del cliente de Google** | 14 de octubre de 2022 | El uso de sugerencias de cliente en la búsqueda de dispositivos, planificado originalmente para el 26 de octubre de 2022, se ha pospuesto hasta **enero de 2023**. <p> <p>Desde octubre de 2022, es posible recopilar sugerencias del cliente con las bibliotecas de SDK web o JavaScript de AppMeasurement. Sin embargo, las sugerencias del cliente no se incorporarán a la búsqueda de dispositivos hasta enero de 2023. En esa fecha, Adobe empezará a utilizar sugerencias del cliente, además del agente de usuario, al obtener determinada información de los dispositivos para las visitas procedentes de exploradores Chromium, como Google Chrome y Microsoft Edge. Esto es en respuesta al plan de Google de reducir gradualmente la información presentada desde la cadena del agente de usuario en lugar de los datos pasados a través de sugerencias del cliente. <p> <p>Como parte de este cambio, Adobe utilizará DeviceAtlas para todas las búsquedas de dispositivos relacionadas con el agente de usuario. [Más información](/help/technotes/client-hints.md) |
 | **Página de aterrizaje predeterminada** | 29 de septiembre de 2022 | La [nueva página de aterrizaje](/help/analyze/landing.md) que se introdujo a principios de este año se convertirá en la experiencia predeterminada para todos los usuarios en **enero de 2023**. La página actual quedará obsoleta y todos tendrán que utilizar la nueva experiencia. |
 | **[!UICONTROL Detección de anomalías] condiciones de ejecución automática** | 29 de septiembre de 2022 | Hoy en día, [!UICONTROL Detección de anomalías] se ejecuta automáticamente en todas las columnas de tablas de forma libre de series temporales. Para garantizar que los datos estén disponibles para el análisis y que los proyectos se carguen más rápido, Adobe cambiará la forma en que se ejecuta automáticamente la Detección de anomalías. A partir del **26 de octubre de 2022**, [!UICONTROL Detección de anomalías] solo se ejecutará automáticamente en la primera columna de métrica de una tabla. Puede configurar la configuración de la columna para ejecutar la detección de anomalías en otras columnas, en caso de ser necesario. |
@@ -54,9 +54,9 @@ AN-295574; AN-296354; AN-297143; AN-299501; AN-301755; AN-302054; AN-302304; AN-
 
 | Final de la vida útil de producto o función | Fecha de incorporación o actualización | Descripción |
 | --- | --- | --- |
-| **Funcionalidad del final de vida útil de las [!UICONTROL Listas de publicación]** | 29 de septiembre de 2022 | Como parte del final de la vida útil de Reports &amp; Analytics, las Listas de publicación están programadas para llegar al final de su vida útil en **diciembre de 2023**. No podrá crear Listas de publicación nuevas ni acceder a las existentes para enviar o programar proyectos de Analysis Workspace. |
+| **Funcionalidad del final de vida útil de las [!UICONTROL Listas de publicación]** | 29 de septiembre de 2022 | Como parte del final de la vida útil de Reports &amp; Analytics, las Listas de publicación están programadas para llegar al final de su vida útil en **diciembre de 2023**. No podrá crear Listas de publicaciones nuevas ni acceder a las existentes para enviar o programar proyectos de Analysis Workspace. |
 | **Fin de la vida útil para Data Workbench** | 14 de septiembre de 2022 | Adobe tiene planeado el fin de la vida útil de Data Workbench con fecha de aplicación el **31 de diciembre de 2023**. Consulte [Anuncio del fin de la vida útil de Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=es) para obtener más información. Póngase en contacto con el Administrador de cuentas de Adobe de su organización si tiene alguna pregunta. |
-| **EOL para [!DNL Reports & Analytics]** | 4 de enero de 2022 | A partir del **31 de diciembre de 2023**, Adobe tiene la intención de descatalogar [!DNL Reports & Analytics] y sus informes y funciones correspondientes. Los informes, las visualizaciones y la tecnología subyacente que alimentan [!DNL Reports & Analytics] ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de [!DNL Reports & Analytics] están disponibles en [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de [!DNL Reports & Analytics] se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. [Este aviso](https://spark.adobe.com/page/6WnF8JK6IRDhf/) explica el proceso de finalización de la vida útil. |
+| **EOL para [!DNL Reports & Analytics]** | 4 de enero de 2022 | A partir del **31 de diciembre de 2023**, Adobe tiene la intención de descatalogar [!DNL Reports & Analytics] y sus informes y funciones correspondientes. Los informes, las visualizaciones y la tecnología subyacente que alimentan [!DNL Reports & Analytics] ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de [!DNL Reports & Analytics] están disponibles en [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de [!DNL Reports & Analytics] se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. [Este aviso](https://spark.adobe.com/page/6WnF8JK6IRDhf/) explica el proceso de finalización de la vida útil. |
 
 {style=&quot;table-layout:auto&quot;}
 
