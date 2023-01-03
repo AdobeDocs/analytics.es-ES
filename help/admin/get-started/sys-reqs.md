@@ -4,9 +4,9 @@ description: Requisitos del sistema para utilizar Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '125'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ La mayoría de las soluciones de Adobe Analytics se ejecutan en el explorador. L
 
 ## Requisitos del sistema para soluciones basadas en explorador
 
-La mayoría de las soluciones de Adobe Analytics, incluido Analysis Workspace, se basan en el explorador. Por lo tanto, el requisito más importante para utilizar Adobe Analytics es un explorador web moderno. Adobe es compatible con la última versión estable de los siguientes navegadores:
+La mayoría de las soluciones de Adobe Analytics, incluido Analysis Workspace, se basan en el explorador. Por lo tanto, el requisito más importante para utilizar Adobe Analytics es un explorador web moderno. Adobe es compatible con la última versión de estos navegadores:
 
 * Microsoft Edge
 * Google Chrome
@@ -32,4 +32,4 @@ La mayoría de las soluciones de Adobe Analytics, incluido Analysis Workspace, s
 Consulte la página de soluciones vinculadas para conocer los requisitos del sistema de cada solución.
 
 * [Report Builder requisitos del sistema](/help/analyze/report-builder/setup/system-requirements.md)
-* [requisitos del sistema de Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=es)
+* [Requisitos del sistema para Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=es)
