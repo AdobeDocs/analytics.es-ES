@@ -34,7 +34,7 @@ Suponga que dispone de los siguientes datos de visita:
 
 ## Ejemplo de solicitud de acceso
 
-Si envío una solicitud de acceso, el archivo de resumen contiene los valores indicados en la tabla a continuación. Una solicitud puede contener únicamente un archivo de dispositivo, solo un archivo de persona o uno de cada. Solo se devuelven dos archivos de resumen si se utiliza un ID de persona y expandIDs es &quot;true&quot;.
+Si envío una solicitud de acceso, el archivo de resumen contiene los valores indicados en la tabla a continuación. Una solicitud puede contener únicamente un archivo de dispositivo, solo un archivo de persona o uno de cada. Solo se devuelven dos archivos de resumen si se utiliza un ID de persona y expandIDs es “true”.
 
 <table>
   <tr>
