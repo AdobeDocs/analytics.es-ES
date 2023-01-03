@@ -5,9 +5,9 @@ user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
 source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 95%
       + [Promoción conjunta de marca](get-started/company/co-branding-admin.md)
       + [Ocultar grupos de informes](get-started/company/c-hide-report-suites.md)
       + [Administrador de seguridad](get-started/company/security-manager.md)
-+ Permisos de usuario en la consola de administración de Adobe {#admin-console}
++ Permisos de usuario en Adobe Admin Console {#admin-console}
    + [Analytics en Adobe Admin Console](admin-console/home.md)
-   + [Guía del primer administrador de Adobe Analytics](admin-console/first-admin-guide.md)
+   + [Guía de administración inicial de Adobe Analytics](admin-console/first-admin-guide.md)
    + [Funciones de administrador en Adobe Analytics](admin-console/admin-roles-in-analytics.md)
    + Permisos {#permissions}
       + [Permisos de Analytics en Admin Console](admin-console/permissions/summary-tables.md)
@@ -47,7 +47,7 @@ ht-degree: 95%
          + [Migración de las cuentas de usuario de Analytics para Enterprise ID y Federated ID](admin-console/user-management2/user-migration/migrate-enterprise.md)
          + [Desactivación de inicios de sesión heredados](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
          + [API afectadas por la migración](admin-console/user-management2/user-migration/developer.md)
-+ Administración de Analytics {#admin-tools}
++ Administrador de Analytics {#admin-tools}
    + [Herramientas de administración](admin/c-admin-tools.md)
    + [Facturación](admin/billing-admin.md)
    + [Administrador de códigos](admin/code-manager-admin.md)
@@ -63,7 +63,7 @@ ht-degree: 95%
    + [Cola de informes programados](admin/scheduled-reports-admin.md)
    + Administrador del grupo de informes {#manage-report-suites}
       + [Administrar grupos de informes](admin/c-manage-report-suites/report-suites-admin.md)
-      + [Grupos de informes globales y resumidos](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [Grupos de informes globales y de resumen](admin/c-manage-report-suites/rollup-report-suite.md)
       + [Guardar una búsqueda de grupos de informes](admin/c-manage-report-suites/t-report-suite-saved-search.md)
       + [Descargar la configuración de grupo de informes](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Nuevo grupo de informes {#c-new-report-suite}
