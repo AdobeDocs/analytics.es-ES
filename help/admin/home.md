@@ -4,9 +4,9 @@ description: Ayuda de administración para administradores de Adobe Analytics, i
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '328'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ A continuación, se muestra un vídeo introductorio de Adobe Analytics:
 Por el momento, Adobe Analytics tiene dos áreas para administradores:
 
 * Adobe Admin Console: Utilice esta área para proporcionar las herramientas de Experience Cloud y administrar permisos de usuario. Se encuentra en [adminconsole.adobe.com](https://adminconsole.adobe.com).
-* Herramientas de administración de Analytics: Utilice esta área para el grupo de informes y la administración de variables. Se puede acceder a ella haciendo clic en [!UICONTROL Admin] en el encabezado superior de Adobe Analytics.
+* Herramientas de administración de Analytics: utilice esta área para el grupo de informes y la administración de variables. Se puede acceder a ella haciendo clic en [!UICONTROL Admin] en el encabezado superior de Adobe Analytics.
 
 Esta guía describe:
 
@@ -46,4 +46,4 @@ Esta guía no cubre muchas de las capacidades genéricas que ofrece Adobe Admin 
 * [Contactar con el servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=es#support)
 * [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos de Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=es)
-* [Experience League](https://experienceleague.adobe.com/?lang=es#dashboard/learning)
+* [Experience League](https://experienceleague.adobe.com/?lang=es#home)
