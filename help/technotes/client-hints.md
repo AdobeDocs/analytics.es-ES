@@ -2,10 +2,10 @@
 title: Sugerencias del cliente
 description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
+source-git-commit: 69b37e23636848770693a999318d818d3b7443ee
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 87%
+source-wordcount: '1133'
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ Google divide las sugerencias del cliente agente de usuario en dos categorías: 
 
 >[!NOTE]
 >
->Las sugerencias del cliente se incorporarán al proceso de búsqueda de dispositivos de Analytics a partir de mediados de enero de 2023. AppMeasurement y el SDK web admiten actualmente la colección de datos de sugerencias, pero no se emplearán en la búsqueda de dispositivos hasta mediados de enero. Esto tiene por objeto evitar posibles interrupciones en la creación de informes durante el período crítico de fin de año. Como se indica a continuación, la versión del sistema operativo se bloqueará a partir de octubre, pero debido a un despliegue gradual, y, a que la mayoría de los agentes de usuario se congelarán en la versión del sistema operativo correcta, estimamos que esto afectará a menos del 3 % de los visitantes de Chrome.
+>Las sugerencias del cliente se incorporarán al proceso de búsqueda de dispositivos de Analytics a partir del 25 de enero de 2023. AppMeasurement y el SDK web admiten actualmente la colección de datos de sugerencias, pero no se emplearán en la búsqueda de dispositivos hasta mediados de enero. Esto tiene por objeto evitar posibles interrupciones en la creación de informes durante el período crítico de fin de año. Como se indica a continuación, la versión del sistema operativo se bloqueará a partir de octubre, pero debido a un despliegue gradual, y, a que la mayoría de los agentes de usuario se congelarán en la versión del sistema operativo correcta, estimamos que esto afectará a menos del 3 % de los visitantes de Chrome.
 
 >[!NOTE]
 >
@@ -149,6 +149,6 @@ Consulte la [documentación del esquema](https://github.com/adobe/xdm/blob/maste
 
 +++**¿Admitirá el reenvío del lado del servidor a AAM las sugerencias del cliente?**
 
-Sí. Las sugerencias del cliente se incluirán en los datos reenviados a AAM. Tenga en cuenta que AAM requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está utilizando el [reenvío del lado del servidor a AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html), es posible que desee habilitar la recopilación de sugerencias de alta entropía.
+Sí. Las sugerencias del cliente se incluirán en los datos reenviados a AAM. Tenga en cuenta que AAM requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está utilizando el [reenvío del lado del servidor a AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=es), es posible que desee habilitar la recopilación de sugerencias de alta entropía.
 
 +++
