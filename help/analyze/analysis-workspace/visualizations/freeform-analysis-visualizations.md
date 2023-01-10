@@ -5,10 +5,10 @@ title: Resumen de las visualizaciones
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
-workflow-type: ht
-source-wordcount: '1082'
-ht-degree: 100%
+source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
+workflow-type: tm+mt
+source-wordcount: '1155'
+ht-degree: 91%
 
 ---
 
@@ -29,9 +29,9 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | [Gráfico de viñetas](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Muestra cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos). |
 | [Tabla de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte es útil para el análisis de retención, pérdida o latencia. |
 | [Anillo](/help/analyze/analysis-workspace/visualizations/donut.md) | Similar a un gráfico circular, esta visualización muestra los datos como partes o segmentos de un todo. |
-| [Abandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
+| [Visita en orden previsto](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
 | [Flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Muestra las rutas del cliente en sus sitios web y aplicaciones. |
-| [Tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una tabla improvisada no es solamente una tabla de datos, sino también una visualización interactiva. Es la base del análisis de datos en Workspace. |
+| [Tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una tabla de forma libre no es solamente una tabla de datos, sino también una visualización interactiva. Es la base del análisis de datos en Workspace. |
 | [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md) | Un histograma agrupa a visitantes, visitas o visitas individuales en contenedores en función de un volumen de métrica. |
 | [Barra horizontal](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Muestra las barras horizontales que representan los distintos valores de una o varias métricas. |
 | [Líneas](/help/analyze/analysis-workspace/visualizations/line.md) | Representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas utiliza el tiempo a lo largo del eje x. |
@@ -43,9 +43,25 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | [Gráfico de rectángulos](/help/analyze/analysis-workspace/visualizations/treemap.md) | Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados. |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Utiliza círculos para mostrar la superposición de métricas de hasta 3 segmentos. |
 
-## Configuración {#settings}
+## Personalización de la configuración de visualización
 
-Cada visualización tiene su propia configuración que puede administrar. Para acceder a [!UICONTROL Configuración de visualización], haga clic en el icono de engranaje [!UICONTROL Configuración de visualización].
+Puede personalizar la configuración de visualización para una visualización individual o para todas las visualizaciones que cree.
+
+### Personalización de la configuración de visualización para una sola visualización
+
+Para acceder a [!UICONTROL Configuración de visualización] para una visualización individual:
+
+1. En Analysis Workspace, pase el ratón sobre la visualización cuya configuración desee personalizar.
+
+1. Haga clic en el icono del engranaje.
+
+   Cada tipo de visualización tiene una configuración única que puede personalizar. Para obtener información sobre la configuración disponible, consulte [Configuración](#settings).
+
+### Personalización de la configuración de visualización para todas las visualizaciones que cree
+
+Puede personalizar la configuración de todas las visualizaciones que cree. Para obtener más información, consulte [Preferencias de usuario](/help/analyze/analysis-workspace/user-preferences.md).
+
+## Configuración  {#settings}
 
 ![](assets/settings.png)
 
@@ -60,7 +76,7 @@ Cada visualización tiene su propia configuración que puede administrar. Para a
 | Eje Y delimitador a cero | Si todos los valores marcados en el gráfico están considerablemente por encima de cero, el gráfico mostrará el valor base del eje Y distinto a cero. Si marca esta casilla, el eje Y se forzará a ser cero (y se redibujará el gráfico). |
 | Normalización | Fuerza métricas para igualar proporciones. Esto resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 | Mostrar eje doble | Solo es aplicable si cuenta con dos métricas: puede tener un eje Y a la izquierda (para una métrica) y a la derecha (para otra métrica). Esto resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. |
-| Mostrar anomalías | Mejora los gráficos de líneas y las tablas improvisadas al mostrar la detección de anomalías. La detección de anomalías en las visualizaciones de líneas incluye un valor esperado (línea discontinua) y un intervalo esperado (banda sombreada). |
+| Mostrar anomalías | Mejora los gráficos de líneas y las tablas de forma libre al mostrar la detección de anomalías. La detección de anomalías en las visualizaciones de líneas incluye un valor esperado (línea discontinua) y un intervalo esperado (banda sombreada). |
 
 ## Leyenda {#legend}
 
@@ -78,7 +94,7 @@ Para editar una etiqueta de leyenda:
 1. Introduzca el nuevo texto de etiqueta.
 1. Pulse **[!UICONTROL Intro]** para guardar.
 
-## Haga clic con el botón derecho en el menú {#right-click}
+## Menú contextual {#right-click}
 
 Una funcionalidad adicional está disponible haciendo clic con el botón derecho en el encabezado de la visualización. La configuración variará según la visualización. Algunos de los ajustes disponibles son:
 
@@ -91,7 +107,7 @@ Una funcionalidad adicional está disponible haciendo clic con el botón derecho
 | [Descargar elementos como CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es#download-items) | Descargue hasta 50 000 elementos de dimensión para la dimensión seleccionada como CSV. |
 | [Descargue los datos como CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es#download-data) | Descargue la fuente de datos de visualización como CSV. |
 | Duplicar visualización | Crea un duplicado exacto de la visualización actual, el cual puede modificar a continuación. |
-| Editar descripción | Añade (o edite) una descripción de texto para la visualización. |
+| Editar descripción | Añada (o edite) una descripción de texto para la visualización. |
 | Obtener vínculo de visualización | Le permite dirigir a los usuarios a una visualización específica en un proyecto. Al hacer clic en el vínculo, el destinatario deberá iniciar sesión antes de que se le dirija a la visualización exacta a la que está vinculado. |
 | Volver a empezar | (Funciona en Flujo, Venn e Histograma) Elimina la configuración de la visualización actual para que pueda volver a configurarla desde cero. |
 
