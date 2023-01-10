@@ -3,12 +3,10 @@ description: Aprenda a agregar carpetas en Workspace
 keywords: Analysis Workspace
 title: Agregar carpetas en Workspace
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -17,11 +15,7 @@ ht-degree: 100%
 
 Puede agregar proyectos a una carpeta en la vista de tabla o desde una carpeta.
 
->[!NOTE]
->
->Esta funcionalidad está actualmente en beta. Algunas pantallas pueden cambiar.
-
-## Desde la vista de tabla
+## Desde la vista de tabla {#table-view}
 
 Agregue proyectos a una carpeta desde la vista de tabla de la página principal.
 
@@ -47,7 +41,7 @@ Agregue proyectos a una carpeta desde la vista de tabla de la página principal.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## Desde dentro de una carpeta
+## Desde dentro de una carpeta {#inside-folder}
 
 También puede agregar proyectos desde dentro de una carpeta mediante el vínculo de puntos suspensivos.
 

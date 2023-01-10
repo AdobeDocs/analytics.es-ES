@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y Activity Map.
-source-git-commit: 9960b79ee6dcd98ed9f64af7c0e668c081542bb2
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 100%
+source-wordcount: '1057'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
       + Carpetas en el Espacio de trabajo {#workspace-folders}
          + [Acerca de las carpetas en el Espacio de trabajo](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creación de carpetas y subcarpetas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Eliminar carpetas](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [Agregar proyectos](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Quitar un proyecto](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Guardar un nuevo proyecto](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
