@@ -4,7 +4,7 @@ description: Puede establecer preferencias generales y de proyecto para los usua
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 23d2297440e25ab519751d690552c61f6e32133c
+source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
 workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 49%
@@ -43,7 +43,7 @@ Puede personalizar las preferencias generales de todos los proyectos nuevos que 
 | --- | --- |
 | Página de aterrizaje | Elija la página que se muestra como predeterminada al acceder a Adobe Analytics: <ul><li>Lista de proyectos (predeterminado)</li><li>Proyecto en blanco</li><li>Proyecto específico seleccionado de una lista</li></ul> |
 | Mostrar sugerencias | Muestra sugerencias en un cuadro azul en el área inferior derecha de Analysis Workspace. <p>Esta opción está activada de forma predeterminada.</p> |
-| <span class="preview">Componentes mostrados en los grupos del carril izquierdo</span> | Elija cuántos de cada componente se van a mostrar en el menú Componentes del carril izquierdo. <p>Si elige 0, ya no se puede acceder al componente desde el carril izquierdo de los espacios de trabajo.</p><p>De forma predeterminada, se muestran 5 componentes para cada una de las siguientes opciones:</p> <ul><li>Dimensiones</li><li>Métricas</li><li>Filtros</li><li>Intervalos de fechas</li></ul> <p>Para obtener más información sobre los componentes en Analysis Workspace, consulte [Información general sobre componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
+| Componentes mostrados en los grupos del carril izquierdo | Elija cuántos de cada componente se van a mostrar en el menú Componentes del carril izquierdo. <p>Si elige 0, ya no se puede acceder al componente desde el carril izquierdo de los espacios de trabajo.</p><p>De forma predeterminada, se muestran 5 componentes para cada una de las siguientes opciones:</p> <ul><li>Dimensiones</li><li>Métricas</li><li>Filtros</li><li>Intervalos de fechas</li></ul> <p>Para obtener más información sobre los componentes en Analysis Workspace, consulte [Información general sobre componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
 
 ## Preferencias de proyecto
 
@@ -57,7 +57,7 @@ Haga clic en los títulos de preferencias vinculados para obtener más informaci
 | --- | --- | --- |
 | **Mostrar** |  |  |
 |  | [Ver densidad](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=es) | Elija cuánto contenido se mostrará en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. <ul><li>Compacto</li><li>Cómodo</li><li>Expandido (predeterminado)</li></ul> |
-|  | [Paleta de color](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=es) | Elija la paleta de colores de visualización que se utiliza en Analysis Workspace. <ul><li>Paletas proporcionadas por Adobe (predeterminado)</li><li><span class="preview">Paleta de formato condicional </span></li><li><span class="preview">Paleta arriba/abajo (divergente)</span><li>Paletas personalizadas</li></ul> |
+|  | [Paleta de color](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=es) | Elija la paleta de colores de visualización que se utiliza en Analysis Workspace. <ul><li>Paletas proporcionadas por Adobe (predeterminado)</li><li>Paleta de formato condicional </li><li>Paleta arriba/abajo (divergente)<li>Paletas personalizadas</li></ul> |
 | **Datos** |  |  |
 |  | [Grupo de informes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es#report-suite) | Elija entre las tablas y las visualizaciones que obtienen sus datos. <ul><li>Más reciente (predeterminado)</li><li>Grupo de informes específico seleccionado de una lista</li></ul> |
 |  | [Calendario](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es#calendar) | Seleccione de una lista de: <ul><li>Intervalos proporcionados por Adobe (el valor predeterminado es Este mes)</li><li>Intervalos definidos a medida</li></ul> |
