@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
+source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3644'
 ht-degree: 96%
 
 ---
@@ -234,7 +234,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | **`video`** | Contenido del vídeo | varchar(255) |
 | **`videoad`** | Nombre del anuncio de vídeo | varchar(255) |
 | **`videoadinpod`** | Anuncio de vídeo en posición del pod | varchar(255) |
-| **`videoadlength`** | Duración del anuncio de vídeo | varchar(255) |
+| **`videoadlength`** | Duración del anuncio de vídeo | integer |
 | **`videoadload`** | Cargas del anuncio de vídeo | varchar(255) |
 | **`videoadname`** | Nombre del anuncio de vídeo | varchar(255) |
 | **`videoadplayername`** | Nombre del reproductor del anuncio de vídeo | varchar(255) |
@@ -254,12 +254,13 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | **`videoepisode`** | Episodio del vídeo | varchar(255) |
 | **`videofeedtype`** | Tipo de fuente de vídeo | varchar(255) |
 | **`videogenre`** | Género del vídeo | texto |
-| **`videolength`** | Duración del vídeo | varchar(255) |
+| **`videolength`** | Duración del vídeo | integer |
 | **`videomvpd`** | MVPD del vídeo | varchar(255) |
 | **`videoname`** | Nombre del vídeo | varchar(255) |
 | **`videonetwork`** | Red del vídeo | varchar(255) |
 | **`videopath`** | Ruta de vídeo | varchar(100) |
 | **`videoplayername`** | Nombre del reproductor de vídeo | varchar(255) |
+| **`videotime`** | Tiempo de vídeo | integer |
 | **`videoqoebitrateaverageevar`** | Tasa de bits promedio de la calidad de vídeo | varchar(255) |
 | **`videoqoebitratechangecountevar`** | Recuento de cambios en la calidad de vídeo | varchar(255) |
 | **`videoqoebuffercountevar`** | Recuento de búferes en la calidad de vídeo | varchar(255) |
