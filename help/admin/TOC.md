@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: f84ba51558dbbe59af496f83d37ed5f2789baf1d
+source-git-commit: 1c42cbec42d97ce3aa33bd5446b0fe59eaaa3caf
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 98%
+source-wordcount: '682'
+ht-degree: 97%
 
 ---
 
@@ -174,14 +174,14 @@ ht-degree: 98%
    + [Exención de consentimiento de CNIL](c-data-governance/cnil-consent-exemption.md)
    + [Preguntas frecuentes](c-data-governance/gdpr-faq.md)
    + [Flujo de trabajo de privacidad de datos de Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
-   + [Consulta o administración de la configuración de control de datos del grupo de informes](c-data-governance/gdpr-view-settings.md)
+   + [Etiquetas de privacidad de datos para componentes de Analytics](c-data-governance/gdpr-labels.md)
    + [Etiquetado de datos de grupos de informes](c-data-governance/gdpr-setup-reportsuite.md)
-   + [Envío de solicitudes de acceso y eliminación](c-data-governance/gdpr-submit-access-delete.md)
-   + [Etiquetas de privacidad de datos para variables de Analytics](c-data-governance/gdpr-labels.md)
-   + [Espacios de nombres](c-data-governance/gdpr-namespaces.md)
-   + [Expansión de ID](c-data-governance/gdpr-id-expansion.md)
+   + [Ver/administrar las etiquetas de privacidad del grupo de informes](c-data-governance/gdpr-view-settings.md)
    + [Prácticas recomendadas de etiquetado](c-data-governance/gdpr-analytics-ids.md)
    + [Ejemplo de etiquetado](c-data-governance/gdpr-labeling-example.md)
+   + [Envío de solicitudes de acceso y eliminación](c-data-governance/gdpr-submit-access-delete.md)
+   + [Espacios de nombres](c-data-governance/gdpr-namespaces.md)
+   + [Expansión de ID](c-data-governance/gdpr-id-expansion.md)
    + [Privacidad de datos y Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Terminología de privacidad de datos](c-data-governance/gdpr-terminology.md)
 + [API de administración](c-admin-api/c-admin-api.md)

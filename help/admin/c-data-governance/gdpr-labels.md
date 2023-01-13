@@ -3,16 +3,16 @@ description: Ejemplos de etiquetas de privacidad de datos para variables de Adob
 title: Etiquetas de privacidad de datos para variables de Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
-workflow-type: ht
+source-git-commit: 4f7282f22cba344a86efca992ea273af0707cdcf
+workflow-type: tm+mt
 source-wordcount: '3685'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Etiquetas de privacidad de datos para variables de Analytics
 
-## ¿Por qué debería etiquetar sus datos?  {#why-label}
+## ¿Por qué etiquetar sus datos? {#why-label}
 
 Muchos clientes de Adobe tienen equipos legales que han revisado las leyes de privacidad de datos (RGPD, CCPA, etc.). Estos equipos han sacado sus propias conclusiones sobre cómo deben gestionarse los datos para cumplir con las leyes de privacidad de datos. Las interpretaciones legales pueden ser distintas de una empresa a otra y la configuración de administración de datos también puede diferir según el cliente. Dado que los clientes tienen distintas preferencias para el tratamiento de privacidad de datos y diferentes conjuntos de datos, Adobe permite a sus clientes, como responsables del tratamiento de datos, personalizar la configuración que deseen para el tratamiento de privacidad de datos en lo relativo a sus propios datos. De este modo, cada cliente único puede tratar las solicitudes de privacidad de datos de la manera que mejor se adapte a su marca y a su conjunto de datos único.
 
@@ -50,7 +50,7 @@ Las etiquetas de datos confidenciales “S” se utilizan para categorizar datos
 
 {style=&quot;table-layout:auto&quot;}
 
-## Etiquetas de administración de datos (privacidad de datos) {#data-governance-labels}
+## Etiquetas de control de datos (privacidad de datos) {#data-governance-labels}
 
 Las etiquetas de control de datos confieren a los usuarios la capacidad de clasificar datos que reflejen consideraciones relacionadas con la privacidad y condiciones contractuales a fin de cumplir las normativas y las políticas corporativas.
 
@@ -89,11 +89,11 @@ Se requiere una etiqueta de eliminación únicamente para los campos que contien
 
 {style=&quot;table-layout:auto&quot;}
 
-## Proporcionar un área de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Proporcionar un área de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON {#provide-namespace}
 
 Cuando etiquete una variable como ID-DEVICE o ID-PERSON, se le solicitará que proporcione un área de nombres. Puede utilizar un área de nombres definida anteriormente o definir una nueva.
 
-### Utilizar un área de nombres definida anteriormente
+### Usar un área de nombres definida anteriormente
 
 Si ha asignado una etiqueta de ID anteriormente a otras variables de cualquier grupo de informes de su empresa de inicio de sesión, puede seleccionar una de estas áreas de nombres existentes. Debe volver a utilizar el área de nombres si esta variable contiene el mismo tipo de ID que otras variables que ya están etiquetadas con esta área de nombres y desea realizar búsquedas en todos ellos al enviar una solicitud.
 
@@ -146,7 +146,7 @@ El etiquetado de privacidad de datos/DULE afecta a cuatro clases amplias de vari
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variables a las que se pueden asignar o en las que se pueden modificar otras etiquetas que no sean ACC-ALL/ACC-PERSON {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variables a las que se pueden asignar o en las que se pueden modificar otras etiquetas que no sean ACC-ALL/ACC-PERSON {#variables}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -209,7 +209,7 @@ El etiquetado de privacidad de datos/DULE afecta a cuatro clases amplias de vari
  </tbody> 
 </table>
 
-## Gestión de eliminaciones {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Gestión de eliminaciones {#deletion}
 
 La compatibilidad de Adobe Analytics con las solicitudes de eliminación de privacidad de datos se ha diseñado para que los informes se vean menos afectados. En la mayoría de los casos, las métricas mostradas en los informes no deben cambiar. Un informe sobre el historial ejecutado antes de eliminar la privacidad de datos coincidirá con el mismo informe ejecutado una vez realizada la eliminación. Esto se consigue al desvincular por completo los datos eliminados del interesado y, a la vez, dejando los datos no identificables en su lugar para mantener la coherencia de los valores notificados.
 
@@ -226,7 +226,7 @@ En la tabla siguiente se describe cómo se “eliminan” las distintas variable
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variables que no admiten las etiquetas de eliminación esperadas {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## Variables que no admiten las etiquetas de eliminación esperadas {#no-delete-support}
 
 En esta sección se pretende aclarar la información sobre las variables de Analytics que no admiten eliminación. A veces, estas variables las eliminan usuarios que no son de Analytics (como el equipo jurídico), que no comprenden el tipo de datos que contiene la variable y que realizan suposiciones incorrectas basadas en el nombre de la variable. A continuación se muestra una lista de algunas de estas variables y por qué no hace falta eliminarlas o por qué no requieren una etiqueta de eliminación específica.
 
