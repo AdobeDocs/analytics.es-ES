@@ -4,10 +4,10 @@ title: Página de aterrizaje de Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: f13e282c83b76c28cd75dfd4964fa1a51cc60229
+source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
 workflow-type: tm+mt
-source-wordcount: '3582'
-ht-degree: 82%
+source-wordcount: '3727'
+ht-degree: 79%
 
 ---
 
@@ -82,6 +82,18 @@ La página de aterrizaje de Adobe Analytics reúne a [!DNL Analysis Workspace] y
 | Icono Personalizar tabla | Selecciona qué columnas se verán en la tabla. Para agregar o quitar columnas de la lista de proyectos, haga clic en el icono de columna (![Landing all](/help/analyze/assets/select-column.png) ) en la parte superior derecha, seleccione o anule la selección de los títulos de las columnas. |
 | MOSTRAR: Carpetas y proyectos para todos los proyectos | Cambia la configuración de vista de la tabla para mostrar carpetas y proyectos según la organización de carpetas **o** mostrar todos los proyectos en una lista desorganizada. |
 | &lt; (Botón Atrás) | Le devuelve a la configuración de página de aterrizaje más reciente de un proyecto o un informe de Workspace. La configuración de página que tenía al salir de la página de aterrizaje persistirá cuando vuelva. |
+
+### Obsolescencia de la página Administrador de proyectos {#deprecate-pm-page}
+
+Con el lanzamiento de la nueva página de aterrizaje, se ha desaprobado el Administrador de proyectos como aparece en el Administrador de componentes. La nueva página de aterrizaje gestiona todas las funciones de la antigua página Administrador de proyectos y más.
+
+Un caso de uso común para la página Administrador de proyectos era ver todos sus proyectos. Para ver todos los proyectos en la nueva página de aterrizaje mediante el carril de filtro, seleccione **OTROS FILTROS** y, a continuación, seleccione **Mostrar todo**.
+
+![Otros filtros](assets/other-filters.png)
+
+Si está en la vista &quot;Carpetas y proyectos&quot;, aparecerá un modal en el que se le preguntará si desea cambiar a la vista &quot;Todos los proyectos&quot;, lo que facilita la visualización de todos los proyectos fuera de las carpetas en las que se puedan organizar.   Select **Cambiar a la vista &quot;Todos los proyectos&quot;** para ver mejor todos los proyectos a los que tiene acceso.
+
+![Cambiar a Todos los proyectos](assets/switch-all-projects-view.png)
 
 ## Vaya a la pestaña [!UICONTROL Informes] {#navigate-reports}
 
