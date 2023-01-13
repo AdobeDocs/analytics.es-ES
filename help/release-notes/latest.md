@@ -3,16 +3,16 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e4468aa0a34654395fe78e70092df77d8f7011f6
+source-git-commit: b6c22fdeab68c55f145ed72002532ed87c06a258
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 60%
+source-wordcount: '1473'
+ht-degree: 58%
 
 ---
 
 # Notas de la versión actual de Adobe Analytics
 
-**Última actualización**: 6 de enero de 2023
+**Última actualización**: 12 de enero de 2023
 
 Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -22,6 +22,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | ----------- | ---------- | ------- | ---- |
 | **Carpetas en el Espacio de trabajo** | Las carpetas le ayudan a organizar y categorizar sus proyectos para una mejor recuperación y acceso. Además, un **[!UICONTROL Empresa]** permite a los administradores crear y compartir contenido fácilmente con todos los usuarios de Workspace.  [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | N/A | 11 de enero de 2023 |
 | **Página de aterrizaje predeterminada** | La variable [nueva página de aterrizaje](/help/analyze/landing.md) que se introdujo a principios de 2022 se convertirá en la experiencia predeterminada para todos los usuarios de **11 de enero de 2023**. La página de aterrizaje heredada quedará obsoleta y todos tendrán que utilizar la nueva experiencia. | N/A | 11 de enero de 2023 |
+| **Página Administrador de proyectos en desuso** | Con el lanzamiento de la nueva página de aterrizaje, hemos desaprobado el **[!UICONTROL Administrador de proyectos]** como aparece en **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Componentes]**. La nueva página de aterrizaje tiene todas las funciones de la antigua página Administrador de proyectos y más. Más información | N/A | 11 de enero de 2023 |
 | **Guardar automáticamente nuevos proyectos** | Analysis Workspace ahora guarda automáticamente los proyectos recién creados. Si, por cualquier motivo, pierde de forma inesperada el acceso a un proyecto recién creado antes de guardarlo manualmente, ya está disponible una versión de recuperación del proyecto. Anteriormente, los proyectos se guardaban automáticamente solo después de guardarse inicialmente manualmente.  [Más información](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) | N/A | 11 de enero de 2023 |
 | **Preferencias de usuario mejoradas** | Ahora puede configurar preferencias adicionales a nivel de usuario (en [!UICONTROL Componentes] > [!UICONTROL Preferencias]). Al establecer las preferencias de usuario, las selecciones se extienden a lo largo de los proyectos, tablas y visualizaciones. La página Preferencias ahora contiene las siguientes pestañas nuevas, cada una de las cuales contiene muchas opciones de configuración nuevas:<ul><li>Tabla de forma libre</li><li>Visualizaciones</li></ul>Además, ahora hay más preferencias disponibles en el **[!UICONTROL General]** y **[!UICONTROL Proyecto]** pestañas.<p>Anteriormente, muchas de estas preferencias solo se podían configurar para proyectos, tablas y visualizaciones individuales.  [Más información](/help/analyze/analysis-workspace/user-preferences.md) | N/A | 11 de enero de 2023 |
 
