@@ -3,10 +3,10 @@ title: getTimeToComplete
 description: Mida el tiempo que se tarda en completar una tarea.
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: 77142b65fe0f88826b8b0df5bba4a4dc1a0dbecf
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 86%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en la extensión de Adobe Analytics.
 1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].
@@ -62,7 +62,8 @@ La función `getTimeToComplete` utiliza los siguientes argumentos:
 
 * **`sos`** (opcional, cadena): Configúrelo en `"start"` cuando desee iniciar el temporizador. Configúrelo en `"stop"` cuando desee detener el temporizador. El valor predeterminado es `"start"`.
 * **`cn`** (opcional, cadena): El nombre de la cookie para almacenar la hora de inicio. El valor predeterminado es `"s_gttc"`.
-* **`exp`** (opcional, entero): El número de días en que caduca la cookie (y el temporizador). El valor predeterminado es `0`, que representa el final de la sesión del explorador.
+* **`exp`** (opcional, entero): El número de segundos, horas o días (según la variable `tp` argumento de partición de tiempo) de que la cookie (y el temporizador) caducan. El valor predeterminado es de 30 minutos.
+* **`tp`** (opcional, cadena): La cadena de partición de tiempo en la que caduca la cookie (y el temporizador), utilizada con la variable `exp` argumento. Configúrelo en &quot;d&quot; para días, &quot;h&quot; para horas o &quot;s&quot; para segundos. Si no se establece este valor, el valor predeterminado de la caducidad de la cookie (y del temporizador) es de 30 minutos, independientemente de la variable `exp` se ha establecido en.
 
 Llamar a esta función devuelve una cadena que contiene el número de días, horas, minutos o segundos transcurridos entre la acción `"start"` y `"stop"`.
 
@@ -80,8 +81,8 @@ if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
 // Stores each timer in their own respective cookies so they run independently
 if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
 if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
-if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
-if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7, "d");
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7, "d");
 ```
 
 ## Historial de versiones
