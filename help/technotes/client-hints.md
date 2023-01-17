@@ -2,10 +2,10 @@
 title: Sugerencias del cliente
 description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 69b37e23636848770693a999318d818d3b7443ee
+source-git-commit: e7260f745f40dd89bd0aeb476b70b2d77813af96
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 86%
+source-wordcount: '1174'
+ht-degree: 83%
 
 ---
 
@@ -26,6 +26,10 @@ Google divide las sugerencias del cliente agente de usuario en dos categorías: 
 >[!NOTE]
 >
 >A partir de octubre de 2022, las nuevas versiones de los exploradores Chromium empezarán a “congelar” la versión del sistema operativo representada en la cadena del agente de usuario. La versión del sistema operativo es una sugerencia de alta entropía, por lo que para mantener su precisión en la creación de informes es necesario configurar la biblioteca de colección para recopilar estas sugerencias de alta entropía. Con el tiempo, se bloqueará otra información del dispositivo del agente de usuario, lo que requiere sugerencias del cliente para mantener la precisión de la creación de informes de dispositivos.
+
+>[!NOTE]
+>
+> A partir de enero de 2023, algunas versiones de los sistemas operativos Mac y Windows se representan incorrectamente en el agente de usuario, pero correctamente en sugerencias de cliente de alta entropía. Consulte [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es) para obtener más información.
 
 >[!NOTE]
 >
