@@ -1,20 +1,23 @@
 ---
-description: Obtenga información sobre cómo activar la creación de informes de Adobe Campaign en Adobe Analytics
-title: ¿Cómo se integra la creación de informes de Adobe Campaign en Adobe Analytics?
+description: Obtenga información sobre cómo habilitar los informes de Adobe Campaign Standard en Adobe Analytics
+title: ¿Cómo se integra Adobe Campaign Standard Reporting en Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: a7537a80719ff149b4d60da500c93d3e451499c9
+source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 68%
 
 ---
 
-# Informes de Adobe Campaign
+# Informes de Adobe Campaign Standard
 
 Para obtener más información acerca de cómo configurar esta integración, vaya a la [documentación de Adobe Campaign](https://helpx.adobe.com/es/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
-Esta integración entre Adobe Analytics y Adobe Campaign
+>[!IMPORTANT]
+>Este artículo se aplica a Adobe Campaign **Estándar** solo informes. Consulte [here](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) para agregar Adobe Campaign **Classic** informes.
+
+Esta integración entre Adobe Analytics y Adobe Campaign Standard:
 
 * Le permite compartir sus datos de KPI (Indicador de rendimiento clave) de Adobe Campaign Standard con Adobe Analytics.
 * Enriquece las fórmulas de seguimiento con parámetros de Adobe Analytics.
@@ -22,11 +25,11 @@ Esta integración entre Adobe Analytics y Adobe Campaign
 * Agrega 5 nuevas clasificaciones de Adobe Campaign.
 * Agrega 9 nuevas métricas de Adobe Campaign.
 * Agrega 6 nuevas dimensiones de Adobe Campaign.
-* Sincroniza datos con Analytics cada 15 minutos.
+* Sincroniza datos con Analytics cada 15 minutos mediante una fuente de datos aprovisionada automáticamente.
 
-## Paso 1. Habilite la creación de informes de Adobe Campaign {#section_C685EF10505045708A6536BB13F6CD58}
+## Paso 1. Habilitar los informes de Adobe Campaign Standard {#section_C685EF10505045708A6536BB13F6CD58}
 
-Para ver datos de campaña en Analytics, primero debe habilitar la creación de informes de Campaign.
+Para ver los datos del Campaign Standard en Analytics, primero debe habilitar la creación de informes de Campaign en el Administrador del grupo de informes.
 
 1. Vaya a  **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **`<select report suite>`** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Informes de Adobe Campaign]** .
 1. Haga clic en **[!UICONTROL Habilitar los informes de Adobe Campaign]**.
@@ -37,9 +40,7 @@ Para ver datos de campaña en Analytics, primero debe habilitar la creación de 
 
 La integración entre Adobe Campaign Standard y Adobe Analytics agrega el siguiente informe en **[!UICONTROL Analytics]** > **[!UICONTROL Informes]**
 
-| Información general de la tienda de aplicaciones | Definición |
-|--- |--- |
-| ID de entrega ejecutada de Adobe Campaign | Muestra datos importados desde Adobe Campaign acerca de correos electrónicos enviados desde Adobe Campaign. |
+* **[!UICONTROL ID de entrega ejecutada de Adobe Campaign]**: Muestra datos importados de Adobe Campaign sobre correos electrónicos enviados desde Adobe Campaign. |
 
 ## Paso 3. Use clasificaciones de Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
@@ -47,13 +48,15 @@ La integración entre Adobe Campaign Standard y Adobe Analytics agrega el siguie
 
 Una vez que el grupo de informes esté habilitado para Adobe Campaign, quedan disponibles las siguientes clasificaciones:
 
-* ID de entrega (nombre de entrega interno que ve en Campaign)
-* Etiqueta de entrega (Entrega en Campaign - Entrega individual/Entrega recurrente/Entrega de transacción)
-* ID de campaña (nombre de campaña interno que ve en Campaign)
-* Etiqueta de campaña (campaña en Adobe Campaign)
-* Etiqueta de entrega ejecutada (lista de entregas ejecutadas individuales)
+| Clasificación de | Descripción |
+| --- | --- |
+| [!UICONTROL ID de entrega] | Nombre de entrega interno que ve en Campaign |
+| [!UICONTROL Etiqueta de entrega] | Entrega en Campaign: Entrega individual/Entrega recurrente/Entrega de transacción |
+| [!UICONTROL ID de campaña] | Nombre de campaña interno que ve en Campaign |
+| [!UICONTROL Etiqueta de campaña] | Campaign en Adobe Campaign |
+| [!UICONTROL Etiqueta de entrega ejecutada] | Lista de entregas ejecutadas individuales |
 
-## Dimensiones y métricas de Adobe Campaign disponibles en Adobe Analytics {#section_F33385C9660644AF84172EC39601469B}
+## Dimensiones y métricas de Adobe Campaign Standard disponibles en Adobe Analytics {#section_F33385C9660644AF84172EC39601469B}
 
 Las siguientes **métricas** están disponibles desde Campaign en los grupos de informes de Adobe Analytics:
 
@@ -70,7 +73,7 @@ Las siguientes **métricas** están disponibles desde Campaign en los grupos de 
 Las siguientes **dimensiones** están disponibles desde Campaign en los grupos de informes de Adobe Analytics:
 
 | Nombre de la dimensión | Definición |
-|--- |--- |
+| --- | --- |
 | ID de campaña | ID de todas las campañas para las que se han enviado KPI a lo largo de la duración. |
 | Etiqueta de campaña | Etiquetas de los ID de campaña |
 | ID de entrega | ID de todas las entregas para las que se han enviado KPI a lo largo de la duración. También incluye el ID de entregas maestras de una entrega recurrente o de transacción. Ejemplo: Hay programada una entrega recurrente DM1 que cuenta con las entregas secundarias DM2, DM3, DM4 y DM5.  El ID de entrega muestra resultados para todas las entregas, de DM1 a DM5. |
