@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo activar la creación de informes d
 title: ¿Cómo se integra la creación de informes de Adobe Campaign en Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '478'
+source-git-commit: a7537a80719ff149b4d60da500c93d3e451499c9
+workflow-type: tm+mt
+source-wordcount: '475'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Esta integración entre Adobe Analytics y Adobe Campaign
 * Enriquece las fórmulas de seguimiento con parámetros de Adobe Analytics.
 * Agrega un nuevo informe en **[!UICONTROL Analytics]** > **[!UICONTROL Informes]** > **[!UICONTROL Adobe Campaign.]**
 * Agrega 5 nuevas clasificaciones de Adobe Campaign.
-* Agrega 10 nuevas métricas de Adobe Campaign.
+* Agrega 9 nuevas métricas de Adobe Campaign.
 * Agrega 6 nuevas dimensiones de Adobe Campaign.
 * Sincroniza datos con Analytics cada 15 minutos.
 
@@ -60,7 +60,6 @@ Las siguientes **métricas** están disponibles desde Campaign en los grupos de 
 * Se envió Adobe Campaign
 * Se abrió Adobe Campaign
 * Se hizo clic en Adobe Campaign
-* Se procesó Adobe Campaign
 * Se entregó Adobe Campaign
 * Adobe Campaign único y abierto
 * Clic único de Adobe Campaign
