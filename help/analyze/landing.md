@@ -4,10 +4,10 @@ title: Página de aterrizaje de Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
+source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
 workflow-type: tm+mt
-source-wordcount: '3727'
-ht-degree: 79%
+source-wordcount: '3947'
+ht-degree: 74%
 
 ---
 
@@ -87,13 +87,17 @@ La página de aterrizaje de Adobe Analytics reúne a [!DNL Analysis Workspace] y
 
 Con el lanzamiento de la nueva página de aterrizaje, se ha desaprobado el Administrador de proyectos como aparece en el Administrador de componentes. La nueva página de aterrizaje gestiona todas las funciones de la antigua página Administrador de proyectos y más.
 
-Un caso de uso común para la página Administrador de proyectos era ver todos sus proyectos. Para ver todos los proyectos en la nueva página de aterrizaje mediante el carril de filtro, seleccione **OTROS FILTROS** y, a continuación, seleccione **Mostrar todo**.
+Un caso de uso común para la página Administrador de proyectos era ver todos sus proyectos.
 
-![Otros filtros](assets/other-filters.png)
+Para ver todos los proyectos en la nueva página de aterrizaje mediante el carril de filtro, seleccione **OTROS FILTROS** y, a continuación, seleccione **Mostrar todo**.
+
+![Mostrar todos los proyectos](assets/show-all-fIlter.png)
 
 Si está en la vista &quot;Carpetas y proyectos&quot;, aparecerá un modal en el que se le preguntará si desea cambiar a la vista &quot;Todos los proyectos&quot;, lo que facilita la visualización de todos los proyectos fuera de las carpetas en las que se puedan organizar.   Select **Cambiar a la vista &quot;Todos los proyectos&quot;** para ver mejor todos los proyectos a los que tiene acceso.
 
 ![Cambiar a Todos los proyectos](assets/switch-all-projects-view.png)
+
+Otro caso de uso para los administradores es administrar los informes de la empresa para eliminar, cambiar el nombre, etiquetar o aprobar informes. Para obtener información sobre la administración de informes, consulte [Administración de informes de la empresa](#manage-company-reports).
 
 ## Vaya a la pestaña [!UICONTROL Informes] {#navigate-reports}
 
@@ -188,6 +192,36 @@ Más opciones de aprendizaje:
 * Para nuevos usuarios, recomendamos el vídeo del [Tutorial de aprendizaje](https://www.youtube.com/watch?v=lCH1Kl1q9Wk) que le enseñará a crear un nuevo proyecto.
 * Aquí tiene un vínculo a la [documentación completa de Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 * Esta es la [lista de reproducción completa de YouTube de Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
+
+### Administración de informes de la empresa {#manage-company-reports}
+
+Los administradores pueden filtrar la lista de proyectos para mostrar y administrar los informes de la empresa. Los elementos anclados permanecen anclados seguidos de la lista de informes de la empresa identificados por la variable ![icono del informe](assets/report-icon.png) icono del informe. En esta vista, puede eliminar, cambiar el nombre, etiquetar o aprobar uno o más informes.
+
+Para mostrar y administrar los informes de la empresa
+
+1. En el carril de filtro, seleccione **OTROS FILTROS** y, a continuación, seleccione **Informes de la empresa**.
+Se muestra una lista de los informes de empresa. No se muestran todos los proyectos normales, a menos que estén anclados.
+
+   ![Mostrar los filtros de informes de la empresa](assets/company-reports-filter.png)
+
+   Cuando se muestran los informes de la empresa, los administradores pueden eliminar, cambiar el nombre, añadir una etiqueta o aprobar el informe.
+
+1. En la lista de informes, seleccione un solo informe o varios informes.
+
+1. Haga clic en el **...** icono de elipsis junto a un informe para ver las opciones disponibles (Eliminar, Cambiar nombre, Etiquetar y Aprobar).
+
+   ![Acciones del informe de la empresa](assets/company-reports-actions.png)
+
+1. Seleccione una opción (Eliminar, Cambiar nombre, Etiquetar y Aprobar).
+
+1. Para volver a la vista normal cuando haya terminado, en el carril de filtro, vuelva a desmarcar la opción Informes de empresa .
+
+### Eliminar un informe de empresa
+
+Los administradores pueden eliminar un informe mediante la opción de lista de informes de la empresa (descrita anteriormente) o eliminar un informe del modo Crear proyecto .
+
+![Otros filtros](assets/delete-fr-create-project-modal.png)
+
 
 ## Vaya a la pestaña Aprendizaje {#navigate-learning}
 
