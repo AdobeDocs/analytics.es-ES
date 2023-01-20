@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
+source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
 workflow-type: tm+mt
-source-wordcount: '3644'
+source-wordcount: '3641'
 ht-degree: 96%
 
 ---
@@ -38,7 +38,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | **`browser_width`** | Anchura de la ventana del explorador en píxeles. | smallint sin firmar |
 | **`c_color`** | Profundidad de bits de la paleta de colores. Se utiliza en el cálculo de la dimensión [Profundidad de color](/help/components/dimensions/color-depth.md). AppMeasurement utiliza la función JavaScript `screen.colorDepth()`. | char(20) |
 | **`campaign`** | Variable utilizada en la dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md). | varchar(255) |
-| **`carrier`** | Variable de integración de Adobe Advertising Cloud. Especifica el operador de telefonía móvil. Se remite a la tabla de búsqueda `carrier`. | varchar(100) |
+| **`carrier`** | Variable de integración de Adobe Advertising Especifica el operador de telefonía móvil. Se remite a la tabla de búsqueda `carrier`. | varchar(100) |
 | **`ch_hdr`** | Sugerencias del cliente recopiladas mediante el encabezado de petición HTTP. | texto |
 | **`ch_js`** | Sugerencias del cliente recopiladas mediante la API de JavaScript de sugerencias del cliente agente de usuario. | texto |
 | **`channel`** | Variable utilizada en la dimensión [Secciones del sitio](/help/components/dimensions/site-section.md). | varchar(100) |
@@ -71,7 +71,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | **`duplicate_events`** | Muestra cada evento que se contó como duplicado. | varchar(255) |
 | **`duplicate_purchase`** | Indicador que señala que el evento de compra de esta visita se ignora porque es un duplicado. | tinyint sin firmar |
 | **`duplicated_from`** | Solo se utiliza en los grupos de informes que contienen las reglas de VISTA de copia de visita. Indica de qué grupo de informes se copió la visita. | varchar(40) |
-| **`ef_id`** | `ef_id` que se usa en las integraciones de Adobe Advertising Cloud. | varchar(255) |
+| **`ef_id`** | `ef_id` que se usa en las integraciones de Adobe Advertising  | varchar(255) |
 | **`evar1 - evar250`** | Variables personalizadas 1-250. Se utiliza en dimensiones [eVar](/help/components/dimensions/evar.md). Cada organización utiliza las eVars de forma diferente. El mejor lugar para obtener más información sobre cómo su organización completa las eVars respectivos sería un documento de diseño de soluciones que sea específico de su organización. | varchar(255) |
 | **`event_list`** | Una lista separada con comas de las ID numéricas que representa los eventos activados en la visita. Incluye los eventos predeterminados y los eventos personalizados 1-1000. Utiliza la búsqueda `event.tsv`. | texto |
 | **`exclude_hit`** | Un indicador que señala que la visita no está incluida en la creación de informes. La columna `visit_num` no aumenta con las visitas excluidas.<br>1: No se usa. Parte de una función limpiada.<br>2: No se usa. Parte de una función limpiada.<br>3: Ya no se utiliza. Exclusión de agente de usuario<br>4: Exclusión basada en la dirección IP<br>5: Falta información clave de visitas, como `page_url`, `pagename`, `page_event` o `event_list`<br>6: JavaScript no ha procesado la visita correctamente<br>7: Exclusión específica de la cuenta, como en reglas VISTA<br>8: Sin usar. Exclusión alternativa específica de la cuenta.<br>9: No se usa. Parte de una función limpiada.<br>10: Código de moneda no válido<br>11: La visita individual no incluye una marca de tiempo en un grupo de informes solo de marca de tiempo o una visita que contiene una marca de tiempo en un grupo de informes que no es de marca de hora<br>12: No se usa. Parte de una función limpiada.<br>13: No se usa. Parte de una función limpiada.<br>14: La visita de Target que no coincide con una visita de Analytics<br>15: No se utiliza actualmente.<br>16: Visita de Advertising Cloud que no coincide con una visita de Analytics | tinyint sin firmar |
@@ -184,7 +184,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | **`ref_type`** | Una ID numérica que representa el tipo de referente de la visita. Se utiliza en la dimensión [Tipo de remitente del reenvío](/help/components/dimensions/referrer-type.md). <br>1: Dentro del sitio<br>2: Otros sitios web <br>3: Motores de búsqueda <br>4: Disco duro <br>5: USENET <br>6: Escritos o marcadores (sin referente) <br>7: Correo electrónico <br>8: Sin JavaScript <br>9: Redes sociales | tinyint sin firmar |
 | **`referrer`** | URL de la página anterior. Se utiliza en la dimensión [Remitente del reenvío](/help/components/dimensions/referrer.md). Tenga en cuenta que mientras `referrer` utiliza un tipo de datos de varchar(255), `post_referrer` emplea un tipo de datos de varchar(244). | varchar(255) |
 | **`resolution`** | ID numérico que representa la resolución del monitor. Se utiliza en la dimensión [Resolución del monitor](/help/components/dimensions/monitor-resolution.md). Utiliza la tabla de búsqueda `resolution.tsv`. | smallint sin firmar |
-| **`s_kwcid`** | ID de palabra clave utilizado en las integraciones de Adobe Advertising Cloud. | varchar(255) |
+| **`s_kwcid`** | ID de palabra clave utilizado en las integraciones de Adobe Advertising  | varchar(255) |
 | **`s_resolution`** | Valor no procesado de resolución de pantalla. Se recopila mediante la función de JavaScript `screen.width x screen.height`. | char(20) |
 | **`search_engine`** | ID numérica que representa el Motor de búsqueda que refirió al visitante a su sitio. Utiliza la búsqueda `search_engines.tsv`. | smallint sin firmar |
 | **`search_page_num`** | Lo utiliza la dimensión [Rango de todas las páginas de búsqueda](/help/components/dimensions/all-search-page-rank.md). Indica en qué página de resultados de búsqueda apareció su sitio antes de que el usuario hiciera clic para acceder a su sitio. | smallint sin firmar |
