@@ -5,7 +5,7 @@ title: Dimensiones disponibles para las reglas de procesamiento
 feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
 ht-degree: 100%
 
