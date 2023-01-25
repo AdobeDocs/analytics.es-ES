@@ -2,10 +2,10 @@
 title: Sugerencias del cliente
 description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: e7260f745f40dd89bd0aeb476b70b2d77813af96
+source-git-commit: cb15ba22fc9817583c6ded8fe12af5a115c1ea43
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 83%
+source-wordcount: '1230'
+ht-degree: 73%
 
 ---
 
@@ -21,11 +21,11 @@ Google divide las sugerencias del cliente agente de usuario en dos categorías: 
 
 >[!NOTE]
 >
->Las sugerencias del cliente se incorporarán al proceso de búsqueda de dispositivos de Analytics a partir del 25 de enero de 2023. AppMeasurement y el SDK web admiten actualmente la colección de datos de sugerencias, pero no se emplearán en la búsqueda de dispositivos hasta mediados de enero. Esto tiene por objeto evitar posibles interrupciones en la creación de informes durante el período crítico de fin de año. Como se indica a continuación, la versión del sistema operativo se bloqueará a partir de octubre, pero debido a un despliegue gradual, y, a que la mayoría de los agentes de usuario se congelarán en la versión del sistema operativo correcta, estimamos que esto afectará a menos del 3 % de los visitantes de Chrome.
+>Las sugerencias del cliente se incorporarán al proceso de búsqueda de dispositivos de Analytics a partir del 15 de febrero de 2023. AppMeasurement y el SDK web admiten actualmente la recopilación de datos de sugerencias, pero no se utilizarán en la búsqueda de dispositivos hasta mediados de febrero. Como se indica a continuación, la versión del sistema operativo se congeló a partir de octubre, pero debido a un despliegue gradual y al hecho de que muchos agentes de usuario ya proporcionan una versión del sistema operativo congelada (ver más [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es)), estimamos que esto afectará a &lt;3% de los visitantes de Chrome.
 
 >[!NOTE]
 >
->A partir de octubre de 2022, las nuevas versiones de los exploradores Chromium empezarán a “congelar” la versión del sistema operativo representada en la cadena del agente de usuario. La versión del sistema operativo es una sugerencia de alta entropía, por lo que para mantener su precisión en la creación de informes es necesario configurar la biblioteca de colección para recopilar estas sugerencias de alta entropía. Con el tiempo, se bloqueará otra información del dispositivo del agente de usuario, lo que requiere sugerencias del cliente para mantener la precisión de la creación de informes de dispositivos.
+>A partir de octubre de 2022, las nuevas versiones de los exploradores Chromium empezaron a &quot;congelar&quot; la versión del sistema operativo representada en la cadena User-Agent. La versión del sistema operativo es una sugerencia de alta entropía, por lo que para mantener su precisión en la creación de informes es necesario configurar la biblioteca de colección para recopilar estas sugerencias de alta entropía. Con el tiempo, se bloqueará otra información del dispositivo del agente de usuario, lo que requiere sugerencias del cliente para mantener la precisión de la creación de informes de dispositivos.
 
 >[!NOTE]
 >
@@ -48,6 +48,8 @@ Esta [publicación de blog de Google](https://web.dev/user-agent-client-hints/) 
 El explorador proporciona automáticamente sugerencias de baja entropía, ingeridas para derivar la información del dispositivo y del explorador. Se pueden configurar versiones más recientes del SDK web (a partir de 2.12.0) y AppMeasurement (a partir de 2.23.0) para recopilar sugerencias de alta entropía mediante sus respectivas extensiones de etiquetas o directamente mediante una opción de configuración. Consulte las instrucciones para [SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) y [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 Para ambas bibliotecas, la colección de sugerencias de alta entropía está **desactivada de forma predeterminada**.
+
+Para los datos enviados mediante API, como mediante [API de inserción de datos](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) o [API de inserción de datos en lotes](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), las sugerencias deben incluirse explícitamente en la carga útil. Consulte la documentación correspondiente para obtener más información.
 
 +++
 
@@ -72,6 +74,8 @@ En la tabla siguiente se describen las sugerencias del cliente a partir de octub
 | Sec-CH-UA-Full-Version-List | Lista de marcas con su versión | Alto | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
 | Sec-CH-UA-Model | Modelo de dispositivo | Alto | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | Versión del sistema operativo/plataforma | Alto | &quot;10&quot; |
+
+Las sugerencias de alta entropía se recopilan mediante llamadas de JavaScript y se pasan mediante parámetros de consulta
 
 +++
 
