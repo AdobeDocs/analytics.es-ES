@@ -2,7 +2,7 @@
 title: Sugerencias del cliente
 description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 0364b52a2abc05b57184871616b702507d17205d
+source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 73%
@@ -21,7 +21,7 @@ Google divide las sugerencias del cliente agente de usuario en dos categorías: 
 
 >[!NOTE]
 >
->Las sugerencias del cliente se incorporarán al proceso de búsqueda de dispositivos de Analytics a partir del 15 de febrero de 2023. AppMeasurement y el SDK web admiten actualmente la recopilación de datos de sugerencias, pero no se utilizarán en la búsqueda de dispositivos hasta mediados de febrero. Como se indica a continuación, la versión del sistema operativo se congeló a partir de octubre, pero debido a un despliegue gradual y al hecho de que muchos agentes de usuario ya proporcionan una versión del sistema operativo congelada (ver más [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es)), estimamos que esto afectará a &lt;3% de los visitantes de Chrome.
+>Las sugerencias del cliente se incorporarán al proceso de búsqueda de dispositivos de Analytics a partir del 16 de febrero de 2023. AppMeasurement y el SDK web admiten actualmente la recopilación de datos de sugerencias, pero no se utilizarán en la búsqueda de dispositivos hasta mediados de febrero. Como se indica a continuación, la versión del sistema operativo se congeló a partir de octubre, pero debido a un despliegue gradual y al hecho de que muchos agentes de usuario ya proporcionan una versión del sistema operativo congelada (ver más [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es)), estimamos que esto afectará a &lt;3% de los visitantes de Chrome.
 
 >[!NOTE]
 >
