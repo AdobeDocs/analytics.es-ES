@@ -2,7 +2,7 @@
 title: Sugerencias del cliente
 description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: cb15ba22fc9817583c6ded8fe12af5a115c1ea43
+source-git-commit: 0364b52a2abc05b57184871616b702507d17205d
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 73%
@@ -75,7 +75,7 @@ En la tabla siguiente se describen las sugerencias del cliente a partir de octub
 | Sec-CH-UA-Model | Modelo de dispositivo | Alto | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | Versión del sistema operativo/plataforma | Alto | &quot;10&quot; |
 
-Las sugerencias de alta entropía se recopilan mediante llamadas de JavaScript y se pasan mediante parámetros de consulta
+Las sugerencias de alta entropía se recopilan mediante una llamada de JavaScript y se pasan mediante parámetros de consulta
 
 +++
 
