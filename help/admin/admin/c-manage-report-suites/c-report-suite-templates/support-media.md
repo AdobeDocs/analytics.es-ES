@@ -4,7 +4,7 @@ title: Medios de soporte técnico
 feature: Report Suite Settings
 exl-id: f522173a-8f58-4fa4-868b-251158a71e26
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
-| Visitas | Contador (sin subrelaciones) | N/D |
-| Vistas de páginas | Contador (sin subrelaciones) | N/D |
-| Visitantes únicos diarios | Contador (sin subrelaciones) | N/D |
-| Visitantes únicos | Contador (sin subrelaciones) | N/D |
+| Visitas | Contador (sin subrelaciones) | N/A |
+| Vistas de páginas | Contador (sin subrelaciones) | N/A |
+| Visitantes únicos diarios | Contador (sin subrelaciones) | N/A |
+| Visitantes únicos | Contador (sin subrelaciones) | N/A |
