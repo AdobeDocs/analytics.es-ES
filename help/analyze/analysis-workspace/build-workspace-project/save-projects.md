@@ -4,10 +4,10 @@ title: Guardar proyectos
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
+source-git-commit: 563564c756fdedd4d5bfcf7f3be3904b7e9b4a0c
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 39%
+source-wordcount: '727'
+ht-degree: 38%
 
 ---
 
@@ -85,10 +85,6 @@ Select **No** para eliminar la copia guardada automáticamente y abrir la últim
 Para **nuevos** proyectos que nunca se han guardado, los cambios sin guardar no se pueden recuperar.
 
 ## Abrir una versión anterior {#previous-version}
-
->[!NOTE]
->
->Las versiones anteriores del proyecto están actualmente en versión limitada.
 
 Para abrir una versión anterior de un proyecto:
 
