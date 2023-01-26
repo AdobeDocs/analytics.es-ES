@@ -3,8 +3,8 @@ description: Cómo enviar solicitudes de acceso y eliminación de datos en Adobe
 title: Envío de solicitudes de acceso y eliminación
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Tenga en cuenta que existen tres bloques en la sección del usuario que represen
 Tenga en cuenta que
 
 * El valor “5D7236525AA6D9580A495C6C@AdobeOrg” en la sección “companyContexts” debe actualizarse con el valor de su propia organización de Experience Cloud.
-* Los campos “tipo” y “área de nombres” se describen de forma más detallada en la sección [Área de nombres](/help/admin/c-data-governance/gdpr-namespaces.md).
+* Los campos “tipo” y “área de nombres” se describen de forma más detallada en la sección [Área de nombres](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md).
 * Los campos “descripción” se ignoran.
 * Los campos “clave” pueden contener cualquier valor que desee. Si tiene un ID interno que utiliza para realizar el seguimiento de las solicitudes de privacidad de datos, puede introducir ese valor aquí para facilitar las solicitudes de coincidencia en el sistema de Adobe con los de sus propios sistemas.
 

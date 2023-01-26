@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
+source-git-commit: db87f32341e064343f1f233701ed04011f802d94
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 97%
+source-wordcount: '667'
+ht-degree: 96%
 
 ---
 
@@ -169,19 +169,16 @@ ht-degree: 97%
       + [Alertas de uso de llamadas al servidor](admin/c-server-call-usage/scu-alerts.md)
       + [Preguntas frecuentes sobre uso de llamadas al servidor](admin/c-server-call-usage/overage-faq.md)
 + Gobierno de datos {#data-governance}
-   + [Adobe Analytics y el RGPD](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics y la CCPA](c-data-governance/an-ccpa-overview.md)
-   + [Exención de consentimiento de CNIL](c-data-governance/cnil-consent-exemption.md)
-   + [Preguntas frecuentes](c-data-governance/gdpr-faq.md)
    + [Flujo de trabajo de privacidad de datos de Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
-   + [Etiquetas de privacidad de datos para componentes de Analytics](c-data-governance/gdpr-labels.md)
-   + [Etiquetado de datos de grupos de informes](c-data-governance/gdpr-setup-reportsuite.md)
-   + [Ver/administrar las etiquetas de privacidad del grupo de informes](c-data-governance/gdpr-view-settings.md)
-   + [Prácticas recomendadas de etiquetado](c-data-governance/gdpr-analytics-ids.md)
-   + [Ejemplo de etiquetado](c-data-governance/gdpr-labeling-example.md)
+   + [Preguntas frecuentes](c-data-governance/gdpr-faq.md)
+   + Etiquetado de datos {#data-labels}
+      + [Etiquetas de privacidad de datos para componentes de Analytics](c-data-governance/data-labeling/gdpr-labels.md)
+      + [Etiquetado de datos de grupos de informes](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [Ver/administrar las etiquetas de privacidad del grupo de informes](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [Prácticas recomendadas de etiquetado](c-data-governance/data-labeling/gdpr-analytics-ids.md)
+      + [Ejemplo de etiquetado](c-data-governance/data-labeling/gdpr-labeling-example.md)
+      + [Espacios de nombres](c-data-governance/data-labeling/gdpr-namespaces.md)
    + [Envío de solicitudes de acceso y eliminación](c-data-governance/gdpr-submit-access-delete.md)
-   + [Espacios de nombres](c-data-governance/gdpr-namespaces.md)
    + [Expansión de ID](c-data-governance/gdpr-id-expansion.md)
-   + [Privacidad de datos y Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [Terminología de privacidad de datos](c-data-governance/gdpr-terminology.md)
+   + [Exención de consentimiento de CNIL](c-data-governance/cnil-consent-exemption.md)
 + [API de administración](c-admin-api/c-admin-api.md)
