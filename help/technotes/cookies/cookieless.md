@@ -3,10 +3,10 @@ title: Opciones para mitigar el efecto de las limitaciones de cookies del explor
 description: Obtenga información sobre cómo mitigar el efecto de las limitaciones de cookies del explorador para mejorar la recopilación de datos para Adobe Analytics.
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: 19fc62470c51bca091342006ff3715ba357e075c
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 88%
+source-wordcount: '566'
+ht-degree: 85%
 
 ---
 
@@ -30,7 +30,7 @@ Estas limitaciones del explorador reflejan un paso más amplio desde el seguimie
 
 La recopilación del lado del servidor proporciona la flexibilidad para proporcionar su propio identificador en lugar de depender de los mecanismos del explorador para configurar las cookies.
 
-Puede enviar datos del lado del servidor de Analytics mediante la [API de inserción de datos](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) o la [API de inserción de datos por lotes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). La API de inserción de datos por lotes se recomienda para las nuevas implementaciones del lado del servidor. Para ver una comparación de las dos API, consulte [Qué herramienta de Adobe Analytics debo usar](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=es).
+Puede enviar datos del lado del servidor de Analytics mediante la [API de inserción de datos](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) o la [API de inserción de datos por lotes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). La API de inserción de datos por lotes se recomienda para las nuevas implementaciones del lado del servidor. Para ver una comparación de las dos API, consulte &quot;[Qué herramienta de Adobe Analytics debo usar](/help/analyze/get-started/which-analytics-tool.md).&quot;
 
 ## ID de dispositivo de origen (FPID) con SDK web
 
