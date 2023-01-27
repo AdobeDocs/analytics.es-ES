@@ -3,10 +3,10 @@ description: A cada ID al que desee permitir búsquedas se le asigna un área de
 title: Espacios de nombres
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '890'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ El valor debe especificarse como dos números hexadecimales separados por una ra
 
 También puede utilizar `"namespaceId": 10` en lugar de o además de `"namespace": "AAID"` y es posible que vea otros productos de Adobe usar ese formulario.
 
-## Antigua cookie de rastreo de Analytics: forma obsoleta
+## Cookie de seguimiento de Analytics heredada: Formulario obsoleto
 
 ```
 {
@@ -52,7 +52,7 @@ Forma obsoleta:
 
 El valor debe especificarse como dos números hexadecimales de 16 dígitos o como dos números decimales de 19 dígitos. Los números deben separarse con una raya, una raya baja o dos puntos. Si alguno de los números no tiene dígitos suficientes, es necesario añadir ceros a la izquierda.
 
-## Cookie del servicio de identidad
+## Cookie de servicio de identidad
 
 ```
 {

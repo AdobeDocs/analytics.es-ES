@@ -3,10 +3,10 @@ description: Comprenda los ID capturados en los datos de Analytics y decida los 
 title: Prácticas recomendadas de etiquetado
 feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '2698'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >Recuerde que el etiquetado debe revisarse cada vez que se crea un nuevo grupo de informes o cuando se activa una nueva variable dentro de un grupo de informes existente. También es posible que necesite revisar el etiquetado cuando se activen nuevas integraciones de la solución, ya que pueden exponer nuevas variables que pueden requerir etiquetado. Una reimplementación de sus aplicaciones móviles o sitios web puede cambiar la forma en la que se utilizan las variables existentes, las cuales también pueden necesitar la actualización de las etiquetas.
 
-## ID directamente e indirectamente identificables {#section_030799AA1397433FBA61A2BC60A7A750}
+## ID directa e indirectamente identificables {#direct-vs-indirect}
 
 Antes de poder determinar las etiquetas que se deben aplicar a cada variable o campo, primero debe comprender qué tipo de ID captura en sus datos de Analytics y decidir cuáles usará para las solicitudes de privacidad de datos. La privacidad de datos amplia el ámbito de lo que se puede considerar como un ID. Los ID se dividen en dos clases amplias: directamente identificables (etiqueta de identidad: I1) e indirectamente identificables (etiqueta de identidad: I2).
 
@@ -32,7 +32,7 @@ Aunque su empresa recopile muchos ID distintos en sus datos de Analytics, puede 
 * Algunos ID pueden corresponder a varias personas y puede no querer arriesgarse a devolver información sobre una persona a otra distinta con ese mismo ID. Por ejemplo, aunque pueda verificar que el nombre de una persona es Juan Pérez, es posible que no desee devolver todos los datos sobre todos los usuarios llamados Juan Pérez de su sistema.
 * Otro ejemplo es un ID de dispositivo, como el ID de cookie de Analytics. Si el ID se origina en una aplicación de un teléfono móvil, puede decidir que todas las interacciones que utilicen ese ID deban estar disponibles para el propietario del teléfono móvil. No obstante, si se produce en un dispositivo compartido, como un ordenador doméstico o uno de una biblioteca o un cibercafé, puede determinar que no le es posible distinguir entre los usuarios del dispositivo en cuestión y que existe demasiado riesgo de devolver datos de un usuario distinto como para permitir el uso de este tipo de ID.
 
-## Prácticas recomendadas para los ID admitidos por Analytics {#section_B6481505FF1949498D4B4B35B780D050}
+## Prácticas recomendadas para los ID admitidos por Analytics {#best-practices-an}
 
 Utilice esta tabla para determinar los tipos de ID que usará para enviar solicitudes de privacidad de datos a Analytics. Una vez que conozca esta información, le resultará más fácil determinar qué otras etiquetas debería utilizar para sus variables.
 
@@ -68,7 +68,7 @@ Utilice esta tabla para determinar los tipos de ID que usará para enviar solici
  </tbody> 
 </table>
 
-## Prácticas recomendadas para establecer etiquetas de eliminación {#section_08166C99B48E49218392FAC18922C10E}
+## Prácticas recomendadas para establecer etiquetas de eliminación {#best-practices-delete}
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ Las etiquetas de eliminación DEL-DEVICE y DEL-PERSON deben usarse con moderaci�
 
    Por ejemplo, si cuenta con tres visitas que contienen el valor “foo” en eVar7, pero solo una de ellas contiene también un ID en una variable distinta que coincide con una eliminación, entonces el valor “foo” de dicha visita se modificará por uno como “Privacidad de datos-123456789”, mientras que en las otras dos visitas permanecerá sin cambios. Un informe que incluye el número de valores únicos para eVar7 ahora mostrará un valor único más que antes. Un informe que incluye los valores principales para los eVar puede incluir “foo” con solo dos instancias (en lugar de las tres anteriores), y el nuevo valor aparecerá también como instancia única.
 
-## Prácticas recomendadas para establecer etiquetas de acceso {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Prácticas recomendadas para establecer etiquetas de acceso {#best-practices-access}
 
 Aunque muy pocos campos tendrán alguna de las otras etiquetas, será habitual que un gran número de campos presenten etiquetas ACC. Las etiquetas de acceso adecuadas dependerán de los ID que utilice para las solicitudes de privacidad de datos.
 

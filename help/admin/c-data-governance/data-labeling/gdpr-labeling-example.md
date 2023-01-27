@@ -3,16 +3,16 @@ description: Muestra ejemplos de cómo etiquetar datos para datos de visitas, so
 title: Ejemplos de etiquetado
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: b0716d9a4ea51dc0e1e6fc024f3de6b01a9ccfd8
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Ejemplos de etiquetado
 
-## Ejemplo de datos de visita
+## Datos de visitas de muestra {#hit}
 
 Suponga que dispone de los siguientes datos de visita:
 
@@ -32,7 +32,7 @@ Suponga que dispone de los siguientes datos de visita:
 |  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
-## Ejemplo de solicitud de acceso
+## Ejemplo de solicitud de acceso {#access}
 
 Si envío una solicitud de acceso, el archivo de resumen contiene los valores indicados en la tabla a continuación. Una solicitud puede contener únicamente un archivo de dispositivo, solo un archivo de persona o uno de cada. Solo se devuelven dos archivos de resumen si se utiliza un ID de persona y expandIDs es “true”.
 
@@ -141,7 +141,7 @@ Si envío una solicitud de acceso, el archivo de resumen contiene los valores in
 
 Tenga en cuenta que la configuración para expandIDs no supone ninguna diferencia en cuanto al resultado cuando se utiliza un ID de cookie.
 
-## Ejemplos de solicitudes de eliminación
+## Ejemplos de solicitudes de eliminación {#delete}
 
 Con una solicitud de eliminación que utiliza valores de API en la primera fila de la tabla, la tabla de visitas se actualizará para buscar algo parecido a esto:
 

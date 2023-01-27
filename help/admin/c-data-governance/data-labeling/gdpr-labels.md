@@ -3,7 +3,7 @@ description: Ejemplos de etiquetas de privacidad de datos para variables de Adob
 title: Etiquetas de privacidad de datos para variables de Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '3685'
 ht-degree: 98%
@@ -66,7 +66,7 @@ Las etiquetas de control de datos confieren a los usuarios la capacidad de clasi
 
 Mientras que algunas variables recibirán alguna de las otras etiquetas, se espera que el acceso a las etiquetas se aplique a muchas de sus variables. Sin embargo, está en su mano, con el asesoramiento de su equipo legal, decidir cuáles de los datos que ha recopilado deben compartirse con los interesados.
 
-### Etiquetas de eliminación de la privacidad de datos
+### Etiquetas de eliminación de privacidad de datos
 
 A diferencia de otras etiquetas, estas etiquetas de eliminación no son mutuamente exclusivas. Puede seleccionar una, ambas o ninguna. No es necesaria una etiqueta separada [!UICONTROL Ninguno], porque [!UICONTROL Ninguno] se indica simplemente no marcando ninguna opción Eliminar.
 
@@ -79,7 +79,7 @@ Se requiere una etiqueta de eliminación únicamente para los campos que contien
 
 {style=&quot;table-layout:auto&quot;}
 
-### Etiquetas de identidad de la privacidad de datos
+### Etiquetas de identidad de privacidad de datos
 
 | Etiqueta | Definición | Otros requisitos |
 | --- | --- | --- |
@@ -133,7 +133,7 @@ Otro ejemplo: puede tener un CRM ID que en ocasiones se envía a través de eVar
 >
 >Las áreas de nombres “visitorId” y “customVisitorId” están reservadas para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de cliente de Analytics. No utilice estas áreas de nombres para variables de conversión o tráfico personalizado.
 
-## Tipos de variables y etiquetas de privacidad de datos/DULE que admiten {#variable-types}
+## Tipos de variables y las etiquetas de privacidad de datos/DULE que admiten {#variable-types}
 
 El etiquetado de privacidad de datos/DULE afecta a cuatro clases amplias de variables de Analytics. No todas las variables admiten todas las etiquetas. En esta tabla se muestra qué variables admiten o no cada etiqueta.
 

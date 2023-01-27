@@ -3,7 +3,7 @@ description: El cuadro de diálogo Etiquetado de privacidad para la administraci
 title: Ver/administrar el etiquetado de privacidad para la administración de datos
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 44%
@@ -75,7 +75,7 @@ Si desea aplicar la misma configuración de DULE/Privacidad de datos a más de u
    >
    >Siempre debe comprobar los grupos de informes de destino para garantizar que las etiquetas se copian correctamente. Esto resulta especialmente importante en el caso de variables que tienen etiquetas de ID o DEL.
 
-## Exportación a un archivo .csv
+## Exportación a un archivo .csv {#export-csv}
 
 Puede descargar un archivo CSV que contenga todas las definiciones de etiqueta actuales para todas las variables del grupo de informes seleccionado. Le recomendamos que su equipo legal revise sus opciones de etiquetado y esta opción facilita esta revisión. En lugar de tener que realizar la revisión con una sesión iniciada en la interfaz de Administración de datos, puede compartir el archivo .CSV con ellos.
 
@@ -85,6 +85,6 @@ Puede descargar un archivo CSV que contenga todas las definiciones de etiqueta a
 
 1. Seleccione uno o varios grupos de informes para los que desea exportar toda la configuración de control de datos.
 
-## Editar etiquetas de privacidad
+## Editar etiquetas de privacidad {#edit}
 
 Consulte [Asignación o edición de etiquetas de privacidad de grupos de informes](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).
