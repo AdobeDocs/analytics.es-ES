@@ -1,13 +1,13 @@
 ---
-description: Vídeo sobre paginación, filtrado y ordenación.
-title: Paginación, filtrado y ordenación de tablas
+description: Documentación que describe cómo filtrar y ordenar tablas en Analysis Workspace.
+title: Filtrado y ordenación de tablas
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
+source-git-commit: af0c56a8911c5ea2fb49fb9625c68331a8517d81
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 3%
+source-wordcount: '653'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Para filtrar datos en tablas improvisadas:
 
    ![Icono de filtro en una tabla](assets/table-filter-icon.png)
 
-1. En el [!UICONTROL **Palabra o frase de búsqueda**] especifique una palabra o frase por la que desee filtrar. Solo se muestran las filas que contienen la palabra o la frase exacta que especifique.
+1. En el [!UICONTROL **Palabra o frase de búsqueda**] especifique una palabra o frase por la que desee filtrar. Solo se muestran las filas que contienen la palabra o la frase exacta especificada.
 
 1. (Opcional) Para filtrar por diferentes criterios o por varios criterios, seleccione [!UICONTROL **Mostrar avanzado**].
 
@@ -46,7 +46,7 @@ Para filtrar datos en tablas improvisadas:
 
 ## Ordenar tablas
 
-Puede ordenar los datos de una tabla improvisada según cualquiera de las columnas disponibles en Analysis Workspace.
+Puede ordenar los datos de una tabla improvisada según cualquier columna de Analysis Workspace que sea una métrica.
 
 Icono de flecha abajo ![Icono de flecha abajo, columna de tabla ordenada](assets/table-sort-arrow-icon.png) es visible en el encabezado de la columna por la que se ordenan actualmente los datos.
 

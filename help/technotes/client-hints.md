@@ -2,10 +2,10 @@
 title: Sugerencias del cliente
 description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
+source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 72%
+source-wordcount: '1232'
+ht-degree: 71%
 
 ---
 
@@ -63,23 +63,20 @@ En este momento no. Puede elegir recopilar todas las sugerencias de alta entrop�
 
 En la tabla siguiente se describen las sugerencias del cliente a partir de octubre de 2022.
 
-| Sugerencia* | Descripción | Entropía alta o baja | Ejemplo |
+| Sugerencia | Descripción | Entropía alta o baja | Ejemplo |
 | --- | --- | --- | --- | 
-| Sec-CH-UA | Explorador y versión significativa | Bajo | &quot;Google Chrome 84&quot; |
-| Sec-CH-UA-Mobile | Dispositivo móvil (verdadero o falso) | Bajo | TRUE |
-| Sec-CH-UA-Platform | Sistema operativo/Plataforma | Bajo | &quot;Android&quot; |
-| Sec-CH-UA-Arch | Arquitectura del sitio | Alto | &quot;arm&quot; |
-| Sec-CH-UA-Bitness | Perfiles de arquitectura | Alto | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | Versión completa del explorador | Alto | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | Lista de marcas con su versión | Alto | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-Model | Modelo de dispositivo | Alto | &quot;Pixel 3&quot; |
-| Sec-CH-UA-Platform-Version | Versión del sistema operativo/plataforma | Alto | &quot;10&quot; |
+| Sec-CH-UA | Explorador y versión significativa | Bajo | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | Dispositivo móvil (verdadero o falso) | Bajo | `true` |
+| Sec-CH-UA-Platform | Sistema operativo/Plataforma | Bajo | `"Android"` |
+| Sec-CH-UA-Arch | Arquitectura del sitio | Alto | `"arm"` |
+| Sec-CH-UA-Bitness | Perfiles de arquitectura | Alto | `"64"` |
+| Sec-CH-UA-Full-Version | Versión completa del explorador | Alto | `"84.0.4143.2"` |
+| Sec-CH-UA-Full-Version-List | Lista de marcas con su versión | Alto | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| Sec-CH-UA-Model | Modelo de dispositivo | Alto | `"Pixel 3"` |
+| Sec-CH-UA-Platform-Version | Versión del sistema operativo/plataforma | Alto | `"10"` |
 
-
-* Las sugerencias de baja entropía se recopilan mediante el encabezado. Las sugerencias de alta entropía se recopilan mediante JavaScript y se pasan en parámetros de cadena de consulta.
-
-* Las sugerencias de alta entropía se recopilan mediante una llamada de JavaScript y se pasan mediante parámetros de consulta
-
+* Las sugerencias de baja entropía se recopilan mediante el encabezado de la solicitud.
+* Las sugerencias de alta entropía se recopilan mediante JavaScript y se pasan a través de valores de parámetros de cadena de consulta. Los parámetros de cadena de consulta utilizan `h.` como prefijo en la solicitud de imagen.
 
 +++
 
