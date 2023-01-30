@@ -2,10 +2,10 @@
 title: Sugerencias del cliente
 description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
+source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 73%
+source-wordcount: '1248'
+ht-degree: 72%
 
 ---
 
@@ -63,7 +63,7 @@ En este momento no. Puede elegir recopilar todas las sugerencias de alta entrop�
 
 En la tabla siguiente se describen las sugerencias del cliente a partir de octubre de 2022.
 
-| Sugerencia | Descripción | Entropía alta o baja | Ejemplo |
+| Sugerencia* | Descripción | Entropía alta o baja | Ejemplo |
 | --- | --- | --- | --- | 
 | Sec-CH-UA | Explorador y versión significativa | Bajo | &quot;Google Chrome 84&quot; |
 | Sec-CH-UA-Mobile | Dispositivo móvil (verdadero o falso) | Bajo | TRUE |
@@ -75,7 +75,11 @@ En la tabla siguiente se describen las sugerencias del cliente a partir de octub
 | Sec-CH-UA-Model | Modelo de dispositivo | Alto | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | Versión del sistema operativo/plataforma | Alto | &quot;10&quot; |
 
-Las sugerencias de alta entropía se recopilan mediante una llamada de JavaScript y se pasan mediante parámetros de consulta
+
+* Las sugerencias de baja entropía se recopilan mediante el encabezado. Las sugerencias de alta entropía se recopilan mediante JavaScript y se pasan en parámetros de cadena de consulta.
+
+* Las sugerencias de alta entropía se recopilan mediante una llamada de JavaScript y se pasan mediante parámetros de consulta
+
 
 +++
 
