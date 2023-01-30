@@ -3,10 +3,10 @@ description: Preguntas frecuentes sobre la administración de datos de Adobe Ana
 title: Preguntas frecuentes sobre la gobernanza de datos
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 82c69131fcc5a22795e44ed97246240aec31f4d9
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '1867'
-ht-degree: 88%
+source-wordcount: '2164'
+ht-degree: 87%
 
 ---
 
@@ -49,6 +49,20 @@ La herramienta Control de datos contiene las siguientes etiquetas de datos:
 * Etiquetas de datos de privacidad de datos: Se utilizan para definir los campos que pueden contener identificadores personales para su uso en solicitudes de privacidad de datos o que deberán eliminarse como parte de una solicitud de eliminación de privacidad de datos. Estas etiquetas pueden superponerse a las etiquetas de Identidad y Datos confidenciales, en algunos casos.
 
 Para obtener más información sobre las etiquetas de Administración de datos, consulte [Etiquetas de privacidad de datos para variables de Analytics](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
+
++++
+
++++ **¿Cómo puedo validar que las solicitudes del servicio de privacidad funcionan correctamente para eliminar datos de Adobe Analytics?**
+
+Normalmente, los clientes de Analytics configuran algunos grupos de informes de prueba para verificar la funcionalidad antes de que se publique al público en general. Las aplicaciones o los sitios web de preproducción enviarán datos a estos grupos de informes de prueba/desarrollo/control de calidad para evaluar cómo funcionará todo cuando el código se publique antes de que el tráfico real se envíe a los grupos de informes de producción.
+
+Sin embargo, con una configuración normal, el procesamiento de solicitudes de RGPD no se puede probar primero en estos grupos de informes de prueba antes de aplicar solicitudes a los grupos de informes de producción. El motivo es que una solicitud amparada en la privacidad de datos se aplica automáticamente a todos los grupos de informes de la organización de Experience Cloud, que a menudo son todos los grupos de informes de su empresa.
+
+Hay varias maneras de probar el procesamiento de privacidad de datos antes de aplicarlo a todos los grupos de informes:
+
+* Una opción consiste en configurar una organización de Experience Cloud independiente que solo contenga grupos de informes de prueba. A continuación, utilice esta organización de Experience Cloud para sus pruebas de privacidad de datos y su organización normal de Experience Cloud para el procesamiento real de la privacidad de datos.
+
+* Otra opción consiste en asignar diferentes áreas de nombres a los ID en los grupos de informes de prueba, frente a los de los grupos de informes de producción. Por ejemplo, puede utilizar el prefijo “qa-” en cada área de nombres en los grupos de informes de prueba. Al enviar solicitudes de privacidad de datos con solo áreas de nombres con el prefijo qa, estas solicitudes se ejecutarán únicamente en los grupos de informes de prueba. Más adelante, cuando envíe solicitudes sin el prefijo qa, se aplicarán a los grupos de informes de producción. **Este es el método recomendado, a menos que utilice los áreas de nombres visitorId, AAID, ECID o customVisitorId . Estas áreas de nombres están codificadas y no se pueden especificar nombres alternativos en los grupos de informes de prueba.**
 
 +++
 
