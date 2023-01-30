@@ -3,9 +3,9 @@ description: El cuadro de diálogo Etiquetado de privacidad para la administraci
 title: Ver/administrar el etiquetado de privacidad para la administración de datos
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '906'
 ht-degree: 44%
 
 ---
@@ -45,7 +45,7 @@ La variable **[!UICONTROL Etiquetado de privacidad para la administración de da
 
 ## Copiar etiquetas de privacidad en un grupo de informes  {#copy-to-rs}
 
-Si desea aplicar la misma configuración de DULE/Privacidad de datos a más de un grupo de informes, siga estos pasos:
+Si desea aplicar la misma configuración de privacidad de datos a más de un grupo de informes, siga estos pasos:
 
 1. Seleccione la variable que desee copiar. Tenga en cuenta que solo puede copiar las etiquetas de una variable a la vez.
 1. Haga clic en **[!UICONTROL Copiar a grupos de informes]** en la parte inferior del cuadro de diálogo Control de datos.
