@@ -5,10 +5,10 @@ title: Novedades en Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: f83ab75e9a3cce2dd3dc13d88be97cf97df3dc65
+workflow-type: tm+mt
 source-wordcount: '8277'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,8 +75,8 @@ Nuevas funciones lanzadas el 18 de junio de 2020.
 | Attribution IQ: Atribución algorítmica | El modelo de atribución algorítmica de Analysis Workspace utiliza técnicas estadísticas para determinar dinámicamente la asignación óptima de crédito para la métrica seleccionada. Disponible para los clientes de Adobe Analytics Ultimate. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=es) |
 | Attribution IQ: Ventanas retroactivas personalizadas | Ahora puede configurar cualquier modelo de atribución en Attribution IQ para incluir puntos de contacto desde 90 días antes del período de creación de informes. Esto generalmente aumenta la precisión de atribución de eventos que se producen al principio del período de la creación de informes teniendo en cuenta las interacciones que se produjeron en el mes o meses anteriores. Disponible para los clientes de Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete y Ultimate. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=es#lookback-windows) |
 | Funciones de proyecto para proyectos compartidos de Espacio de trabajo | Al compartir un proyecto del Espacio de trabajo, ahora puede colocar destinatarios en una de las tres funciones de proyecto, según la experiencia del proyecto que desee que tengan: Editar, Duplicado y Vista. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) |
-| Proyectos de Workspace solo de vista | Los proyectos de Espacio de trabajo se pueden compartir con los usuarios solo como Puede ver. Cuando un destinatario de Vista abre el proyecto compartido, recibe una experiencia de proyecto más restrictiva sin carril izquierdo e interacciones limitadas. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=es) |
-| Capacidad para editar proyectos de Espacio de trabajo de forma conjunta | Los destinatarios añadidos a la función Puede editar pueden guardar un proyecto que se haya compartido con ellos. Esto se extiende tanto a los administradores como a los no administradores. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) |
+| Proyectos de Workspace solo de vista | Los proyectos de Workspace se pueden compartir con los usuarios solo como &quot;Puede ver&quot;. Cuando un destinatario de Vista abre el proyecto compartido, recibe una experiencia de proyecto más restrictiva sin carril izquierdo e interacciones limitadas. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=es) |
+| Capacidad para editar proyectos de Espacio de trabajo de forma conjunta | Los destinatarios añadidos a la función “Puede editar” pueden guardar un proyecto que se haya compartido con ellos. Esto se extiende tanto a los administradores como a los no administradores. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) |
 | Panel en blanco actualizado | El panel en blanco ahora incluye paneles y visualizaciones, lo que le ofrece una forma más fluida de elegir el flujo de trabajo de análisis que mejor se adapte a sus necesidades. |
 | Panel de Quick Insights (25 de junio de 2020) | Quick Insights proporciona una guía a los no analistas y a los nuevos usuarios de Analysis Workspace para aprender a responder preguntas comerciales de forma rápida y sencilla. [Más información...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Panel Analytics for Target en Espacio de trabajo  (25 de junio de 2020) | El panel Analytics for Target (A4T) le permite analizar con confianza las actividades y experiencias de Adobe Target en Analysis Workspace. [Más información...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -133,8 +133,8 @@ Mejoras publicadas el 10 de octubre de 2019.
 
 | Mejora | Descripción |
 |--- |--- |
-| Actualizar a totales de tabla de forma libre | Las tablas de forma libre ahora incluyen dos totales, un **[!UICONTROL Total de tabla]** y un **[!UICONTROL Total general]**. La fila Total de la tabla cuenta los [filtros de informe](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=es) aplicados. Anteriormente, solo la segmentación afectaba a los totales. [Obtenga más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=es)<br/>Además, se han agregado las opciones **[!UICONTROL Mostrar totales]** y **[!UICONTROL Mostrar total general]** a la **[!UICONTROL Configuración de columna]**.<br/>Con este cambio a los totales de forma libre, se actualizarán las visualizaciones dependientes (por ejemplo, las visualizaciones de **[!UICONTROL Número de resumen]** vinculadas), así como los datos CSV y PDF exportados. |
-| Opción para eliminar No especificado/Ninguno | Se ha añadido la funcionalidad de eliminar “No especificado (Ninguno)” con facilidad a los filtros de informe. |
+| Actualizar a totales de tabla de forma libre | Las tablas de forma libre ahora incluyen dos totales, un **[!UICONTROL Total de tabla]** y un **[!UICONTROL Total general]**. La fila Total de la tabla cuenta los [filtros de informe](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) aplicados. Anteriormente, solo la segmentación afectaba a los totales. [Obtenga más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=es)<br/>Además, se han agregado las opciones **[!UICONTROL Mostrar totales]** y **[!UICONTROL Mostrar total general]** a la **[!UICONTROL Configuración de columna]**.<br/>Con este cambio a los totales de forma libre, se actualizarán las visualizaciones dependientes (por ejemplo, las visualizaciones de **[!UICONTROL Número de resumen]** vinculadas), así como los datos CSV y PDF exportados. |
+| Opción para eliminar No especificado/Ninguno | Se ha agregado la capacidad de eliminar fácilmente &quot;No especificado (Ninguno)&quot; como opción para los filtros de informe. |
 | Obsolescencia de los componentes de granularidad morados | Los componentes de hora de granularidad morados (Minuto, Hora, Día, Semana, Mes, Trimestre, Año) han quedado obsoletos. Los componentes de hora morados siempre se han comportado exactamente como sus equivalentes de dimensión naranjas, por lo que este cambio simplificará la experiencia. No es necesario realizar **ninguna acción** si ha utilizado uno de los componentes de tiempo morados en el pasado.<br/>Con este cambio, se ha cambiado de nombre la sección morada **[!UICONTROL Hora]** a **[!UICONTROL Intervalos de fecha]**. |
 
 ## Agosto de 2019
@@ -504,7 +504,7 @@ Nuevas funciones y mejoras publicadas el 18 de enero de 2018.
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p>Más <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  > opciones de filtrado </a> de elementos de dimensión en tablas de forma libre </p> </td>
+   <td colname="col1"> <p>Más <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md"  > opciones de filtrado </a> de elementos de dimensión en tablas de forma libre </p> </td>
    <td colname="col2"> <p>Se han añadido estas opciones de filtrado (avanzadas) para elementos de dimensión (además de las opciones existentes “contiene” y “no contiene”): </p>
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18">
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">Contiene todos los términos </li>

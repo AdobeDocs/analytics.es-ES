@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y Activity Map.
-source-git-commit: 2ee9007bdb3e359c9d5babe81c6f64bd7d7b6e8e
+source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 99%
+source-wordcount: '1075'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 99%
             + [Configuración de columna](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Configuración de filas](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Elementos dinámicos vs. estáticos](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Paginación, filtrado y ordenación de tablas](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [Filtrado y ordenación de tablas](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Totales del Espacio de trabajo](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabla de cohorte {#cohort-table}
          + [¿Qué es el análisis de cohorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
