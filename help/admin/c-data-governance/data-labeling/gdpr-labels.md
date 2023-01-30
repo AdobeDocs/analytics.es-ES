@@ -3,9 +3,9 @@ description: Ejemplos de etiquetas de privacidad de datos para variables de Adob
 title: Etiquetas de privacidad de datos para variables de Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '3685'
+source-wordcount: '3567'
 ht-degree: 98%
 
 ---
@@ -22,13 +22,7 @@ Antes de poder determinar las etiquetas que se deben aplicar a cada variable o c
 
 La implementación de privacidad de datos de Adobe Analytics admite las siguientes etiquetas para datos de identidad, datos confidenciales y administración de datos.
 
-## Etiquetas DULE {#dule-labels}
-
->[!NOTE]
->
->El marco de etiquetado y aplicación del uso de los datos (Data Usage Labeling &amp; Enforcement, DULE) se ha diseñado para proporcionar una manera uniforme de recopilar, comunicar y usar metadatos de los datos de todas las soluciones, servicios y plataformas de Adobe en Adobe Experience Cloud. Los metadatos ayudan a los responsables del tratamiento de datos a indicar qué datos son información personal, cuáles son datos confidenciales y qué restricciones contractuales están asociadas a los datos. En esta versión inicial, Analytics expone únicamente las etiquetas DULE que son relevantes para la privacidad de datos. A medida que otros productos de Adobe implementan la compatibilidad con las etiquetas DULE, las futuras versiones introducirán etiquetas de datos confidenciales adicionales, así como etiquetas contractuales, las cuales ayudarán a garantizar que los datos compartidos entre productos se utilizan únicamente de las formas permisibles según la ley.
-
-## Etiquetas de datos de identidad (DULE) {#identity-data-labels}
+## Etiquetas de datos de identidad {#identity-data-labels}
 
 Las etiquetas “I” de datos de identidad se utilizan para categorizar los datos que podrían usarse para identificar a una persona específica o ponerse en contacto con ella.
 
@@ -39,7 +33,7 @@ Las etiquetas “I” de datos de identidad se utilizan para categorizar los dat
 
 {style=&quot;table-layout:auto&quot;}
 
-## Etiquetas de datos confidenciales (DULE) {#sensitive-data-labels}
+## Etiquetas de datos confidenciales {#sensitive-data-labels}
 
 Las etiquetas de datos confidenciales “S” se utilizan para categorizar datos confidenciales, como datos geográficos. En el futuro, se presentarán etiquetas de datos confidenciales adicionales para identificar otros tipos de información confidencial.
 
@@ -133,9 +127,9 @@ Otro ejemplo: puede tener un CRM ID que en ocasiones se envía a través de eVar
 >
 >Las áreas de nombres “visitorId” y “customVisitorId” están reservadas para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de cliente de Analytics. No utilice estas áreas de nombres para variables de conversión o tráfico personalizado.
 
-## Tipos de variables y las etiquetas de privacidad de datos/DULE que admiten {#variable-types}
+## Tipos de variables y las etiquetas de privacidad de datos que admiten {#variable-types}
 
-El etiquetado de privacidad de datos/DULE afecta a cuatro clases amplias de variables de Analytics. No todas las variables admiten todas las etiquetas. En esta tabla se muestra qué variables admiten o no cada etiqueta.
+El etiquetado de la privacidad de datos afecta a cuatro clases amplias de variables de Analytics. No todas las variables admiten todas las etiquetas. En esta tabla se muestra qué variables admiten o no cada etiqueta.
 
 | Tipo de variable | Etiquetas admitidas | Etiquetas no admitidas |
 |--- |--- |--- |
