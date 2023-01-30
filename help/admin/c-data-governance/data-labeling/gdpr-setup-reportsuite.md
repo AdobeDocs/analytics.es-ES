@@ -3,10 +3,10 @@ description: Al etiquetar los datos de los grupos de informes, se asignan etique
 title: Etiquetado de datos de grupos de informes
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 50%
+source-wordcount: '539'
+ht-degree: 48%
 
 ---
 
@@ -24,7 +24,7 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
 
 ## Asignación o edición de etiquetas de privacidad de grupos de informes {#assign-edit}
 
-**Ejemplo**: Usted, como responsable del tratamiento de datos, pretende recopilar direcciones de correo electrónico e ID de cookie de los interesados para tratar sus solicitudes de privacidad de datos. Estos ID de cookie se almacenan en un grupo de informes en Adobe Analytics. Para crear una etiqueta para direcciones de correo electrónico e ID de cookie, debe utilizar el marco de etiquetado y aplicación del uso de los datos (DULE) de la plataforma de Adobe Experience Cloud en Analytics.
+**Ejemplo**: Usted, como responsable del tratamiento de datos, pretende recopilar direcciones de correo electrónico e ID de cookie de los interesados para tratar sus solicitudes de privacidad de datos. Estos ID de cookie se almacenan en un grupo de informes en Adobe Analytics.
 
 1. En Adobe Analytics, vaya a **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración y recopilación de datos]** > **[!UICONTROL Administración de datos]**.
 
@@ -48,10 +48,6 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
    Esta pantalla muestra las etiquetas aplicadas actualmente y le permite aplicar etiquetas adicionales. Es posible que no pueda aplicar o modificar todas las etiquetas, según el componente.
 
    ![Etiquetas aplicadas](assets/edit-labels2.png)
-
-   >[!NOTE]
-   >
-   >El marco de etiquetado y aplicación del uso de los datos (Data Usage Labeling &amp; Enforcement, DULE) se ha diseñado para proporcionar una manera uniforme de recopilar, comunicar y usar metadatos de los datos de soluciones, servicios y plataformas en Adobe Experience Cloud. Los metadatos ayudan a los responsables del tratamiento de datos a indicar qué datos son información personal, cuáles son datos confidenciales y qué restricciones contractuales están asociadas a los datos.
 
 1. Haga clic en **[!UICONTROL Aplicar]** una vez haya completado todo el etiquetado.
 
