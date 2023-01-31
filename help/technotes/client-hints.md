@@ -4,8 +4,8 @@ description: Obtenga información acerca de cómo las sugerencias del cliente re
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 71%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

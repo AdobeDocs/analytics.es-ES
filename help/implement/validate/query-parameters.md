@@ -5,8 +5,8 @@ feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
