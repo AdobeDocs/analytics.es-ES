@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: 3e023a3cbf4eb8c1ec337a791f816458786835f5
 workflow-type: tm+mt
-source-wordcount: '3549'
-ht-degree: 99%
+source-wordcount: '3578'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Enero de 2023** |  |
+| Filtrado y ordenación de tablas | Se ha actualizado el contenido (incluyendo procedimientos y explicaciones de las opciones disponibles) en la [Filtrado y ordenación de tablas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) artículo. Se ha cambiado el nombre de este artículo de &quot;Paginación, filtrado y ordenación de tablas&quot;. |
 | Carpetas | Páginas dedicadas para [Administración de carpetas](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Preferencias del usuario | Muchas preferencias de usuario adicionales están ahora disponibles en [Preferencias](/help/analyze/analysis-workspace/user-preferences.md). |
 | Guardar automáticamente para proyectos | Se ha actualizado el contenido para incluir la funcionalidad de guardado automático en [Guardar proyectos](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
