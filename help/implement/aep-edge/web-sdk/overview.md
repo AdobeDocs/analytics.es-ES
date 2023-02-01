@@ -3,8 +3,8 @@ title: Implementar Adobe Analytics mediante el SDK web de Adobe Experience Platf
 description: Utilice la extensión del SDK web en la recopilación de datos de Adobe Experience Platform para enviar datos a Adobe Analytics.
 source-git-commit: 472faef9c6ef99d4e58f2f5a9a71ca8d058f0ee2
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 23%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
