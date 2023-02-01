@@ -2,19 +2,19 @@
 description: Aprenda a crear vínculos que se pueden compartir a proyectos o visualizaciones
 keywords: Uso compartido en Analysis Workspace
 title: Crear vínculos que se pueden compartir
-feature: Depurar y compartir
+feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 68%
 
 ---
 
 # Crear vínculos que se pueden compartir
 
-Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Los usuarios que reciban un vínculo deben iniciar sesión en Adobe Analytics antes de poder acceder al proyecto.
+Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Para la mayoría de los tipos de vínculos, los usuarios que reciben un vínculo deben iniciar sesión en Adobe Analytics antes de poder acceder al proyecto.
 
 ## Obtener vínculo del proyecto {#project-link}
 
@@ -32,6 +32,14 @@ También puede compartir un vínculo a una parte específica de un proyecto, com
 [Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=es) sobre cómo crear vínculos y utilizarlos para dirigir destinatarios a partes específicas del proyecto.
 
 ![](assets/get-viz-link.png)
+
+## Obtener vínculo público
+
+{{release-limited-testing-section}}
+
+Puede compartir proyectos de Analysis Workspace con personas que no tengan acceso a Adobe Analytics. Esto puede incluir personas ajenas a su organización o pertenecientes a su organización que no estén aprovisionadas con Adobe Analytics.
+
+Para obtener más información, consulte [Compartir un vínculo público con cualquier persona (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) en [Compartir proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md).)
 
 ## Uso de vínculos en una tabla de contenido {#TOC}
 

@@ -3,27 +3,44 @@ title: Programar un pico de tráfico
 description: Asociarse con Adobe para asegurarse de que los eventos de alto tráfico no experimenten latencia.
 feature: Traffic Management
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
-workflow-type: ht
-source-wordcount: '581'
-ht-degree: 100%
+source-git-commit: c13e39e7bfe3d7fef07ea9ccda76255d28dde1c3
+workflow-type: tm+mt
+source-wordcount: '738'
+ht-degree: 73%
 
 ---
 
 # Programar un pico de tráfico
 
-Adobe intenta asociarse con los clientes para garantizar que un evento de alto tráfico se realice correctamente. La programación de los picos de tráfico es el punto de partida de ese proceso de asociación. La sección Programación de pico permite alertar a Adobe de los picos de tráfico temporales para que se puedan asignar los recursos adecuados para administrarlos.
+Adobe intenta asociarse con los clientes para garantizar que un evento de alto tráfico se realice correctamente. La programación de los picos de tráfico es el punto de partida de ese proceso de asociación. La sección Programación de pico permite alertar a Adobe de los picos de tráfico temporales para que se puedan asignar los recursos adecuados para administrarlos. Puede estimar las llamadas al servidor anteriores para obtener una mejor idea del tamaño del pico de tráfico que debe programar.
 
 Se utiliza el equilibrio de datos avanzado del lado del servidor con varios empleados dedicados para garantizar que todos los clientes tengan los informes más actualizados posibles. A medida que su organización notifica a Adobe de picos de tráfico, Adobe puede asegurarse de que el aumento repentino de tráfico sea una experiencia positiva. Si no se notifica a Adobe de los incrementos de tráfico, puede aumentar la latencia durante períodos críticos de creación de informes.
 
-Lea la información sobre [Tiempo de espera necesario para aumentos de tráfico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md) antes de programar un pico de tráfico.
+{{$include /help/_includes/traffic-lead-time.md}}
+
+## Programar un pico de tráfico
+
+Para programar un pico de tráfico:
 
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administradores]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Grupos de informes]**.
 1. Selección de un grupo de informes.
 1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Administración de tráfico]** > **[!UICONTROL Programar pico]**.
-1. En el campo **[!UICONTROL Fecha de inicio del pico]**, especifique la fecha en la que espera que comience el pico de tráfico.
+1. (Opcional) Puede estimar las llamadas al servidor anteriores para obtener una mejor idea de cómo se debe programar el pico de tráfico.
+
+   Por ejemplo, puede obtener el promedio diario de llamadas al servidor del año pasado durante un lapso de tiempo específico, además de un aumento esperado en el volumen de llamadas al servidor para este año. Así, podrá programar un pico de tráfico basado en este factor de multiplicación.
+
+   1. En el **[!UICONTROL Llamadas al servidor anteriores]** seleccione una fecha de inicio y de finalización para los grupos de informes seleccionados.
+
+      El importe de [!UICONTROL **Día punta**], [!UICONTROL **Llamadas al servidor del día punta**] y [!UICONTROL **Promedio diario de llamadas al servidor**] se genera.
+
+   1. Introduzca un valor para el factor de multiplicación y, a continuación, seleccione **[!UICONTROL Haga clic para multiplicar y configurar]**.
+
+      El valor de todas las columnas se multiplica para cada grupo de informes.
+1. En el [!UICONTROL **Configurar parámetros del pico**] , en el **[!UICONTROL Fecha de inicio del pico]** especifique la fecha en la que espera que comience el pico de tráfico.
 1. En el campo **[!UICONTROL Fecha de fin del pico]**, especifique la fecha en la que espera que termine el pico de tráfico.
-1. En el campo **[!UICONTROL Vistas de página diarias esperadas durante el pico]**, especifique el total de vistas de página diarias esperadas durante el período del pico de tráfico, y haga clic en **[!UICONTROL Enviar]**.
+1. En el **[!UICONTROL Llamadas al servidor del día punta]** especifique el total de vistas de página pico esperadas por día durante el período del pico de tráfico.
+1. En el **[!UICONTROL Llamadas máximas al servidor de hora]** especifique el total de vistas de página pico esperadas por hora durante el período del pico de tráfico.
+1. Select **[!UICONTROL Submit]**.
 
    Asegúrese de indicar el número total de vistas de página esperadas, no solo las vistas de página adicionales.
 
@@ -43,6 +60,6 @@ Cuando los clientes notifican a Adobe de picos de tráfico para cada grupo de in
 
 Adobe desea asegurarse de que su experiencia con los informes actualizados sea coherente. Para realizar esta tarea con mayor eficacia, Adobe recomienda encarecidamente lo siguiente:
 
-* Programar todos los picos de tráfico según [Tiempo de espera necesario para aumentos de tráfico](traffic-lead-time.md). **Es especialmente importante que cualquier pico de tráfico anticipado en los meses de noviembre a diciembre esté programado para el 15 de septiembre**. Si se pierde la fecha límite, programe el pico lo antes posible. Menos tiempo de espera es mejor que ninguno y Adobe funciona con los recursos actuales para adaptarse mejor a los grupos de informes.
+* Programe el tiempo de espera para todos los picos de tráfico. **Es especialmente importante que cualquier pico de tráfico anticipado en los meses de noviembre a diciembre esté programado para el 15 de septiembre**. Si se pierde la fecha límite, programe el pico lo antes posible. Menos tiempo de espera es mejor que ninguno y Adobe funciona con los recursos actuales para adaptarse mejor a los grupos de informes.
 * Si Adobe se pone en contacto con usted con respecto a un pico de tráfico programado, asegúrese de comunicar si la creación de informes en tiempo real o la creación de informes de procesamiento completo son más importantes. Algunas organizaciones dependen más de la creación de informes en tiempo real que otras. Comprender qué tipo de creación de informes se utiliza puede ayudar a Adobe a priorizar en consecuencia.
 * Comunicarse con el administrador de su cuenta en lo relacionado con los informes más importantes y cuándo extraerlos puede ayudarle a abogar por usted.

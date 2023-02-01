@@ -3,14 +3,14 @@ description: La página Administración del tráfico permite especificar los cam
 title: Administrar tráfico
 feature: Traffic Management
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
-workflow-type: ht
-source-wordcount: '91'
-ht-degree: 100%
+source-git-commit: c13e39e7bfe3d7fef07ea9ccda76255d28dde1c3
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 96%
 
 ---
 
-# Administrar tráfico
+# Resumen de administración del tráfico
 
 La página Administración del tráfico permite especificar los cambios esperados en el volumen del tráfico. Esta configuración permite a Adobe asignar los recursos adecuados para garantizar un seguimiento y procesamiento adecuados del tráfico.
 
