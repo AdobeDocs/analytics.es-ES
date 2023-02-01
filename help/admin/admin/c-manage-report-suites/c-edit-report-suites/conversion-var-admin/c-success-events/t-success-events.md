@@ -3,10 +3,10 @@ description: Instrucciones sobre cómo configurar eventos de éxito.
 title: Configurar eventos de éxito
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,15 @@ Instrucciones sobre cómo configurar eventos de éxito.
 1. En la columna **[!UICONTROL Polaridad]**, especifique si una tendencia al alza para esta métrica es positiva o negativa.
 1. En la columna **[!UICONTROL Visibilidad]**, puede ocultar las métricas (integradas), los eventos personalizados y los eventos incorporados en el menú, los selectores de métricas, el Creador de métricas calculadas y el Generador de segmentos.
 
-   Esta configuración no afecta a la recopilación de datos de esa métrica o evento. Solo afecta a su visibilidad en la interfaz de usuario. [Más...](/help/admin/admin/metric-visibility.md)
+   Esta configuración no afecta a la recopilación de datos de esa métrica o evento; afecta únicamente a su visibilidad en la interfaz de usuario, como se indica a continuación:
+
+
+   | Configuración | Visible en | No visible en |
+   |---------|----------|---------|
+   | [!UICONTROL **Visible en todas partes**] | <ul><li>Reports &amp; Analytics (menú y selector de métricas)</li><li>Analysis Workspace</li><li>Generador de segmentos</li><li>Creador de métricas calculadas</li></ul> | N/A |
+   | [!UICONTROL **Generadores**] | <ul><li>Generador de segmentos</li><li>Creador de métricas calculadas</li></ul> | <ul><li>Reports &amp; Analytics (menú y selector de métricas)</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Oculto en todas partes**] | N/A | <ul><li>Reports &amp; Analytics (menú y selector de métricas)</li><li>Analysis Workspace</li><li>Generador de segmentos</li><li>Creador de métricas calculadas</li></ul> |
+
 1. Proporcione una descripción.
 1. Compruebe si desea registrar siempre el evento.
 1. Habilite o deshabilite las métricas de participación.
