@@ -2,10 +2,10 @@
 title: Sugerencias del cliente
 description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1245'
+ht-degree: 70%
 
 ---
 
@@ -77,6 +77,8 @@ En la tabla siguiente se describen las sugerencias del cliente a partir de octub
 
 * Las sugerencias de baja entropía se recopilan mediante el encabezado de la solicitud.
 * Las sugerencias de alta entropía se recopilan mediante JavaScript y se pasan a través de valores de parámetros de cadena de consulta. Los parámetros de cadena de consulta utilizan `h.` como prefijo en la solicitud de imagen.
+
+Las sugerencias de alta entropía se recopilan mediante una llamada de JavaScript y se pasan mediante parámetros de consulta
 
 +++
 

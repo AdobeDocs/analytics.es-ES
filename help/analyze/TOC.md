@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y Activity Map.
-source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
+source-git-commit: 0d7ae5dea6597996039d5af5256be8b5b65b3bd3
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 98%
+source-wordcount: '1101'
+ht-degree: 96%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 98%
       + [Ver densidad](analysis-workspace/build-workspace-project/view-density.md)
    + Componentes {#components}
       + [Resumen de componentes](analysis-workspace/components/analysis-workspace-components.md)
+      + [Agregar descripciones de componentes](analysis-workspace/components/add-component-descriptions.md)
       + Anotaciones {#annotations}
          + [Descripción general de anotaciones](analysis-workspace/components/annotations/overview.md)
          + [Creación de anotaciones](analysis-workspace/components/annotations/create-annotations.md)
@@ -60,6 +61,11 @@ ht-degree: 98%
          + [Resumen de calendario e intervalos de fechas](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Crear intervalos de fechas](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Comparación de fechas](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+      + Diccionario de datos {#data-dictionary}
+         + [Resumen del diccionario de datos](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [Ver información de componentes en el diccionario de datos](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [Editar entradas de componentes en el diccionario de datos](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [Monitorizar el estado del diccionario de datos](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + Visualizaciones {#visualizations}
       + [Resumen de las visualizaciones](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Administración de fuentes de datos](analysis-workspace/visualizations/t-sync-visualization.md)

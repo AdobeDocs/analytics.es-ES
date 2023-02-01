@@ -4,10 +4,10 @@ title: Creación de un cuadro de resultados móvil
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
+source-git-commit: a50451010a4c972d4acdc11a5229406f47bdf292
 workflow-type: tm+mt
-source-wordcount: '1750'
-ht-degree: 100%
+source-wordcount: '1789'
+ht-degree: 98%
 
 ---
 
@@ -101,6 +101,16 @@ Si el intervalo de fechas que desea aún no se ha creado, puede crear uno nuevo 
 ![Nuevo cuadro de resultados5](assets/new_score_card5.png)
 
 Esto le llevará al generador de intervalos de fechas, donde puede crear y guardar un nuevo componente de intervalo de fechas.
+
+### Mostrar comparación de intervalos de fechas {#showo-comparison-dates}
+
+Para incluir intervalos de fechas de comparación, active la opción **Incluir fechas de comparación** configuración.
+
+![Incluir fechas de comparación](assets/include-comparison-dates.png)
+
+El entorno es *en* de forma predeterminada. Anule la selección de la opción si no desea ver las fechas de comparación.
+
+![Configuración de fecha de comparación no seleccionada](assets/no-comparison-dates.png)
 
 ## Aplicación de visualizaciones {#viz}
 

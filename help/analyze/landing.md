@@ -4,7 +4,7 @@ title: Página de aterrizaje de Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
+source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
 source-wordcount: '3947'
 ht-degree: 74%
@@ -195,7 +195,7 @@ Más opciones de aprendizaje:
 
 ### Administración de informes de la empresa {#manage-company-reports}
 
-Los administradores pueden filtrar la lista de proyectos para mostrar y administrar los informes de la empresa. Los elementos anclados permanecen anclados seguidos de la lista de informes de la empresa identificados por la variable ![icono del informe](assets/report-icon.png) icono del informe. En esta vista, puede eliminar, cambiar el nombre, etiquetar o aprobar uno o más informes.
+Los administradores pueden filtrar la lista de proyectos para mostrar y administrar los informes de la empresa. Los elementos anclados permanecen anclados seguidos de la lista de informes de la empresa identificados por la variable ![icono del informe](assets/report-icon.png) icono del informe . En esta vista, puede eliminar, cambiar el nombre, etiquetar o aprobar uno o más informes.
 
 Para mostrar y administrar los informes de la empresa
 
