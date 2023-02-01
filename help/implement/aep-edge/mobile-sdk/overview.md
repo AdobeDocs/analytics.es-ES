@@ -1,10 +1,10 @@
 ---
 title: Implementar Adobe Analytics mediante el SDK móvil de Adobe Experience Platform
 description: Utilice la extensión del SDK móvil en la recopilación de datos de Adobe Experience Platform para enviar datos a Adobe Analytics.
-source-git-commit: e6b40881a543b43c03b612c7e7b0d9bd09f44c0d
+source-git-commit: 97bff355a5d9bb737d510221b63ba1321aaf5812
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 20%
+source-wordcount: '632'
+ht-degree: 28%
 
 ---
 
@@ -21,7 +21,65 @@ Una visión general de alto nivel de las tareas de implementación:
 
 ![Adobe Analytics mediante el flujo de trabajo de extensión de Analytics](../../assets/mobilesdk-annotated.png)
 
-|<div style="width:20px"></div>| Tarea | Más información | |-| —|—| | 1 | Asegúrese de que **definición de un grupo de informes**. | [Administrador del grupo de informes](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **Configuración de esquemas y conjuntos de datos**. Para estandarizar la recopilación de datos para su uso en todas las aplicaciones que aprovechan Adobe Experience Platform, Adobe ha creado el estándar abierto y documentado públicamente, Experience Data Model (XDM). | [Configuración de esquemas y conjuntos de datos](https://developer.adobe.com/client-sdks/documentation/getting-started/set-up-schemas-and-datasets/) | | 3 | **Configurar un conjunto de datos**. Un conjunto de datos representa la configuración del lado del servidor al implementar el SDK web de Adobe Experience Platform. | [Configurar un conjunto de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en) | | 4 | **Añadir un servicio de Adobe Analytics** al conjunto de datos. Ese servicio controla si los datos se envían a Adobe Analytics y cómo se hacen. | [Añadir el servicio Adobe Analytics a un conjunto de datos](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics) | | 5 | **Crear una propiedad móvil**. Una propiedad es un contenedor que se rellena con extensiones, reglas, elementos de datos y bibliotecas. | [Configuración de una propiedad móvil](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) | | 6 | **Instalación de la extensión Adobe Experience Platform Edge Network** en la propiedad mobile tag y configure el conjunto de datos en la extensión . | [Adobe Experience Platform Edge Network](https://developer.adobe.com/client-sdks/documentation/edge-network/) | | 7 | **Uso del código en la aplicación** para registrar las extensiones necesarias y cargar la configuración de la etiqueta. | [Configuración](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration) | | 8 | **Implementación y funcionalidad de prueba** mediante la combinación de elementos de datos de la etiqueta, reglas, extensiones adicionales y llamadas de API de SDK en la aplicación. Inspect, valide y depure la recopilación de datos y experiencias para su aplicación móvil. | [Uso de la aplicación de ejemplo](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application) | | 9 | **Ampliar y validar la implementación de la aplicación móvil** antes de llevarlo a producción. | |
+<table style="width:100%">
+
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>Tarea</b></th><th style="width:35%"><b>Más información</b></th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Asegúrese de que <b>definición de un grupo de informes</b>.</td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>Configuración de esquemas y conjuntos de datos</b>. Para estandarizar la recopilación de datos para su uso en todas las aplicaciones que aprovechan Adobe Experience Platform, Adobe ha creado el estándar abierto y documentado públicamente, Experience Data Model (XDM).</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es">Información general sobre la interfaz de usuario de Esquemas</a> y <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es">Información general sobre la interfaz de usuario de conjuntos de datos</a></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b>Configurar un conjunto de datos</b>. Un conjunto de datos representa la configuración del lado del servidor al implementar el SDK web de Adobe Experience Platform.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en">Configurar un conjunto de datos<a></td> 
+</tr>
+
+<td>4</td>
+<td><b>Añadir un servicio de Adobe Analytics</b> al conjunto de datos. Ese servicio controla si los datos se envían a Adobe Analytics y cómo se hacen.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics">Añadir el servicio Adobe Analytics a un conjunto de datos</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><b>Crear una propiedad móvil</b>. Una propiedad es un contenedor que se rellena con extensiones, reglas, elementos de datos y bibliotecas.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/">Configuración de una propiedad móvil</a></tr>
+
+<tr>
+<td>6</td>
+<td><b>Instalación de la extensión Adobe Experience Platform Edge Network</b> en la propiedad mobile tag y configure el conjunto de datos en la extensión .</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/edge-network/">Adobe Experience Platform Edge Network</a>
+</tr>
+
+<tr>
+<td>7</td>
+<td><b>Uso del código en la aplicación</b> para registrar las extensiones necesarias y cargar la configuración de la etiqueta.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Configuración</a></td>
+</tr>
+
+<tr>
+<td>8</td>
+<td><b>Implementación y funcionalidad de prueba</b> mediante la combinación de elementos de datos de la etiqueta, reglas, extensiones adicionales y llamadas de API de SDK en la aplicación. Inspect, valide y depure la recopilación de datos y experiencias para su aplicación móvil.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Uso de la aplicación de ejemplo</a>
+</tr>
+
+<tr>
+<td>9</td>
+<td><b>Ampliar y validar la implementación de la aplicación móvil</b> antes de llevarlo a producción.</td>
+<td></td> 
+</tr>
+
+</table>
 
 
 ## Extensión de Adobe Analytics.
@@ -30,7 +88,49 @@ Una visión general de alto nivel de las tareas de implementación:
 
 ![Adobe Analytics mediante el flujo de trabajo de extensión de Analytics](../../assets/mobilesdk-analytics-annotated.png)
 
-|<div style="width:20px"></div> | Tarea | Más información | |-| —|—| | 1 | Asegúrese de que **definición de un grupo de informes**. | [Administrador del grupo de informes](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **Crear una propiedad móvil**. Una propiedad es un contenedor que se rellena con extensiones, reglas, elementos de datos y bibliotecas. | [Configuración de una propiedad móvil](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) | | 3 | **Instalación de la extensión de Adobe Analytics** en la propiedad mobile tag y configure la extensión para que apunte al grupo de informes. | [Extensión de Adobe Analytics para la propiedad móvil](https://developer.adobe.com/client-sdks/documentation/adobe-analytics/) | | 4 | **Uso del código en la aplicación** para registrar las extensiones necesarias y cargar la configuración de la etiqueta. | [Configuración](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration) | | 5 | **Implementación y funcionalidad de prueba** mediante la combinación de elementos de datos de la etiqueta, reglas, extensiones adicionales y llamadas de API de SDK en la aplicación. Inspect, valide y depure la recopilación de datos y experiencias para su aplicación móvil. | [Uso de la aplicación de ejemplo](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application) | | 6 | **Ampliar y validar la implementación de la aplicación móvil** antes de llevarlo a producción. | |
+<table style="width:100%">
+
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>Tarea</b></th><th style="width:35%"><b>Más información</b></th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Asegúrese de que <b>definición de un grupo de informes</b>.</td>
+<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>Configuración de esquemas y conjuntos de datos</b>. Para estandarizar la recopilación de datos para su uso en todas las aplicaciones que aprovechan Adobe Experience Platform, Adobe ha creado el estándar abierto y documentado públicamente, Experience Data Model (XDM).</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es">Información general sobre la interfaz de usuario de Esquemas</a> y <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es">Información general sobre la interfaz de usuario de conjuntos de datos</a></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b>Instalación de la extensión de Adobe Analytics</b> en la propiedad mobile tag y configure la extensión para que apunte al grupo de informes.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/adobe-analytics/">Extensión de Adobe Analytics para la propiedad móvil</a>
+</tr>
+
+<tr>
+<td>4</td>
+<td><b>Uso del código en la aplicación</b> para registrar las extensiones necesarias y cargar la configuración de la etiqueta.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Configuración</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><b>Implementación y funcionalidad de prueba</b> mediante la combinación de elementos de datos de la etiqueta, reglas, extensiones adicionales y llamadas de API de SDK en la aplicación. Inspect, valide y depure la recopilación de datos y experiencias para su aplicación móvil.</td>
+<td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Uso de la aplicación de ejemplo</a>
+</tr>
+
+<tr>
+<td>6</td>
+<td><b>Ampliar y validar la implementación de la aplicación móvil</b> antes de llevarlo a producción.</td>
+<td></td> 
+</tr>
+
+</table>
 
 ## Recursos adicionales
 
