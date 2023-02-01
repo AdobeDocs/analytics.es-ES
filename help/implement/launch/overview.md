@@ -1,38 +1,32 @@
 ---
-title: Implementar Adobe Analytics con etiquetas en Adobe Experience Platform
-description: Obtenga información sobre cómo implementar Adobe Analytics mediante etiquetas
+title: Implementar Adobe Analytics con la extensión de Analytics
+description: Obtenga información sobre cómo implementar Adobe Analytics mediante etiquetas y la extensión de Analytics
 feature: Launch Implementation
-exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 472faef9c6ef99d4e58f2f5a9a71ca8d058f0ee2
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 94%
+source-wordcount: '358'
+ht-degree: 48%
 
 ---
 
-# Implementar Adobe Analytics con etiquetas en Adobe Experience Platform
+# Implementar Adobe Analytics con la extensión de Analytics
 
-Durante toda la vida útil de Adobe Analytics, Adobe ha ofrecido varios métodos diferentes para implementar código en su sitio para la recopilación de datos. El método que recomienda actualmente Adobe es a través de etiquetas en Adobe Experience Platform.
+Durante toda la vida útil de Adobe Analytics, Adobe ha ofrecido varios métodos diferentes para implementar código en su sitio para la recopilación de datos. El método recomendado actual de Adobe es mediante etiquetas en Adobe Experience Platform.
 
 Las etiquetas en Adobe Experience Platform son una solución de administración de etiquetas que le permite implementar código de Analytics junto con otros requisitos de etiquetado. Adobe ofrece integraciones con otras soluciones y productos, y le permite implementar código personalizado. Todas estas tareas se pueden realizar sin depender de ningún equipo de desarrollo de la organización para actualizar el código del sitio.
 
 Todos los clientes con un contrato activo de Adobe Experience Cloud pueden utilizar etiquetas. Si no está seguro de tener acceso, póngase en contacto con uno de los administradores del sistema de Experience Cloud de su organización.
 
-## Flujo de trabajo general
+Una visión general de alto nivel de las tareas de implementación:
 
-Para ejecutar una implementación con etiquetas, siga estos pasos:
+![Adobe Analytics mediante el flujo de trabajo de extensión de Analytics](../assets/analytics-extension-annotated.png)
 
-1. **Obtener acceso a etiquetas**: Puede obtener acceso a etiquetas a través de un administrador del sistema de su organización.
-2. **Crear una propiedad de etiquetas**: Las propiedades son contenedores generales que se utilizan para hacer referencia a los datos de administración de etiquetas.
-3. **Implementar en un entorno de desarrollo**: Utilice un entorno en el que pueda iterar en el desarrollo de etiquetas.
-4. **Validar y publicar para producción**: Asegúrese de que todo funcione y, a continuación, publíquelo para su producción.
-
-Consulte [Crear una propiedad de etiquetas de Analytics](create-analytics-property.md) para empezar.
+| | Tarea | Más información | |-| —|—| | 1 | Asegúrese de que **definición de un grupo de informes**. | [Administrador del grupo de informes](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **Creación de una capa de datos** para administrar el seguimiento de los datos del sitio web. | [Creación de una capa de datos](../prepare/data-layer.md) | | 3 | **Crear una propiedad de etiqueta**. Las propiedades son contenedores generales que se utilizan para hacer referencia a los datos de administración de etiquetas.| [Crear una propiedad de etiqueta de Adobe Analytics](../launch/create-analytics-property.md) | | 4 | **Instalación de la extensión de Analytics** en la propiedad tag . Configure la extensión de Analytics para enviar datos a Adobe Analytics. | [Información general sobre la extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **Implementar en un entorno de desarrollo**. Tenga un entorno en el que pueda iterar en el desarrollo de etiquetas. | [Implementación de una implementación de Analytics en un entorno de desarrollo](./deploy-dev.md) | | 6 | **Validación y publicación en producción**. Agregue la propiedad tag al sitio web. A continuación, utilice elementos de datos, reglas, etc. para personalizar la implementación.| [Validación de una implementación de desarrollo y publicación en producción](./validate-publish-prod.md) |
 
 ## Recursos adicionales
 
 Las etiquetas se pueden personalizar en gran medida. Obtenga más información sobre cómo aprovechar al máximo Adobe Analytics mediante la inclusión de los datos adecuados en la implementación.
 
-* [Documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es#): Descubra cómo funciona la interfaz y qué extensiones están disponibles.
-* [Extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=es): Utilice la extensión de Analytics para enviar datos a Adobe Analytics.
-* [Variables de implementación](../vars/overview.md): Determine qué variables desea enviar a los servidores de recopilación de datos.
+- [Documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es#): Descubra cómo funciona la interfaz y qué extensiones están disponibles.
+
+- [Variables de implementación](../vars/overview.md): Determine qué variables desea enviar a los servidores de recopilación de datos.
