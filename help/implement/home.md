@@ -2,7 +2,7 @@
 title: Implementación de Adobe Analytics
 description: Implemente Adobe Analytics en su sitio, propiedad o aplicación.
 feature: Implementation Basics
-source-git-commit: ad0099e41315b5e61cd62747e68f578266b47054
+source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 40%
@@ -65,7 +65,7 @@ El siguiente flujo de decisión puede ayudarle a seleccionar un método de imple
 
 >[!TIP]
 >
->Póngase en contacto con el Adobe para obtener asesoramiento y prácticas recomendadas sobre qué implementación elegir en función de su situación actual. >
+>Póngase en contacto con el Adobe para obtener asesoramiento y prácticas recomendadas sobre qué implementación elegir en función de su situación actual.
 
 ## Métodos de implementación de aplicaciones móviles
 
