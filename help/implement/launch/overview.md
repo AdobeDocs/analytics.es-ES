@@ -2,10 +2,10 @@
 title: Implementar Adobe Analytics con la extensión de Analytics
 description: Obtenga información sobre cómo implementar Adobe Analytics mediante etiquetas y la extensión de Analytics
 feature: Launch Implementation
-source-git-commit: e6b40881a543b43c03b612c7e7b0d9bd09f44c0d
+source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 48%
+source-wordcount: '364'
+ht-degree: 58%
 
 ---
 
@@ -19,9 +19,54 @@ Todos los clientes con un contrato activo de Adobe Experience Cloud pueden utili
 
 Una visión general de alto nivel de las tareas de implementación:
 
+
+
 ![Adobe Analytics mediante el flujo de trabajo de extensión de Analytics](../assets/analytics-extension-annotated.png)
 
-|<div style="width:20px"></div>| Tarea | Más información | |-| —|—| | 1 | Asegúrese de que **definición de un grupo de informes**. | [Administrador del grupo de informes](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **Creación de una capa de datos** para administrar el seguimiento de los datos del sitio web. | [Creación de una capa de datos](../prepare/data-layer.md) | | 3 | **Crear una propiedad de etiqueta**. Las propiedades son contenedores generales que se utilizan para hacer referencia a los datos de administración de etiquetas.| [Crear una propiedad de etiqueta de Adobe Analytics](../launch/create-analytics-property.md) | | 4 | **Instalación de la extensión de Analytics** en la propiedad tag . Configure la extensión de Analytics para enviar datos a Adobe Analytics. | [Información general sobre la extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **Implementar en un entorno de desarrollo**. Tenga un entorno en el que pueda iterar en el desarrollo de etiquetas. | [Implementación de una implementación de Analytics en un entorno de desarrollo](./deploy-dev.md) | | 6 | **Validación y publicación en producción**. Agregue la propiedad tag al sitio web. A continuación, utilice elementos de datos, reglas, etc. para personalizar la implementación.| [Validación de una implementación de desarrollo y publicación en producción](./validate-publish-prod.md) |
+<table style="width:100%">
+
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>Tarea</b></th><th style="width:35%"><b>Más información</b></th>
+</tr>
+
+<tr>
+<td> 1</td>
+<td>Asegúrese de que <b>definición de un grupo de informes</b>.</td>
+<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>Creación de una capa de datos</b>para administrar el seguimiento de los datos del sitio web.</td>
+<td>
+<a href="../prepare/data-layer.md">Creación de una capa de datos</a>
+</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b><b>Crear una propiedad de etiqueta</b>. Las propiedades son contenedores generales que se utilizan para hacer referencia a los datos de administración de etiquetas.</td>
+<td><a ref="../launch/create-analytics-property.md">Creación de una propiedad de etiquetas de Adobe Analytics</a></td>
+</tr>
+
+<tr>
+<td>4</td><td><b>Instalación de la extensión de Analytics</b> en la propiedad tag . Configure la extensión de Analytics para enviar datos a Adobe Analytics.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en">Información general sobre la extensión Adobe Analytics</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><b>Implementar en un entorno de desarrollo</b>. Tenga un entorno en el que pueda iterar en el desarrollo de etiquetas.</td>
+<td><a href="./deploy-dev.md">Integrar una implementación de Analytics en un entorno de desarrollo</td>
+</tr>
+
+<tr>
+<td>6</td> 
+<td><b>Validación y publicación para producción</b>. Agregue la propiedad tag al sitio web. A continuación, utilice elementos de datos, reglas, etc. para personalizar la implementación.</td>
+<td><a href="./validate-publish-prod.md">Validación de una implementación de desarrollo y publicación en producción</a></td>
+</tr>
+
+</table>
 
 ## Recursos adicionales
 
