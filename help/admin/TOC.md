@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 96%
+source-wordcount: '634'
+ht-degree: 95%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 96%
 + [Guía de administración de Analytics](home.md)
 + [Notas de la versión de Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
 + Consola de administración de Adobe {#admin-console}
-   + [Analytics en Adobe Admin Console](admin-console/home.md)
+   + [Información general](admin-console/home.md)
    + [Guía de administración inicial de Adobe Analytics](admin-console/first-admin-guide.md)
    + [Funciones de administrador en Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-   + Permisos {#permissions}
+   + Resumen de permisos de las herramientas de Analytics {#permissions}
       + [Permisos de Analytics en Admin Console](admin-console/permissions/summary-tables.md)
       + [Perfiles de producto para Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Permisos de perfil de productos para las herramientas de grupo de informes](admin-console/permissions/report-suite-tools.md)
@@ -156,7 +156,6 @@ ht-degree: 96%
       + [Promoción conjunta de marca](admin/company/co-branding-admin.md)
       + [Ocultar grupos de informes](admin/company/c-hide-report-suites.md)
       + [Administrador de seguridad](admin/company/security-manager.md)
-   + [Menú de informes simplificado](admin/t-simplified-menu.md)
    + [Administración de vídeo](admin/video-management.md)
    + Uso de llamadas al servidor {#server-call-usage}
       + [Resumen del uso de llamadas al servidor](admin/c-server-call-usage/overage-overview.md)

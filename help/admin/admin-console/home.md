@@ -3,14 +3,14 @@ title: Analytics en Adobe Admin Console
 description: Aprenda a utilizar Adobe Admin Console para administrar los productos y usuarios de Analytics.
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
 feature: Admin Tools
-source-git-commit: 087eb1efbd7f34492033e61685082f5830c004ce
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 80%
+source-wordcount: '116'
+ht-degree: 81%
 
 ---
 
-# Analytics en Adobe Admin Console
+# Información general sobre Analytics en Adobe Admin Console
 
 Utilice [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html) para administrar los productos y usuarios de Analytics. Adobe Admin Console se encuentra en [adminconsole.adobe.com](https://adminconsole.adobe.com/).
 
