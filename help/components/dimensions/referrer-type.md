@@ -3,7 +3,7 @@ title: Tipo de referente
 description: El tipo de remitente del reenvío, según la procedencia del visitante.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 1700ec727912f49c7aed12af74d18488daeb1e7e
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
@@ -56,7 +56,6 @@ La siguiente lista hace referencia a la tabla de búsqueda “Redes sociales” 
 * `blogspot.com`
 * `blogster.com`
 * `blomotion.jp`
-* `boards.qwant.com`
 * `bolt.com`
 * `brightkite.com`
 * `buzznet.com`
@@ -142,26 +141,6 @@ La siguiente lista hace referencia a la tabla de búsqueda “Redes sociales” 
 * `pakila.jp`
 * `photobucket.com`
 * `pinterest.com`
-* `pinterest.co.uk`
-* `pinterest.ca`
-* `pinterest.fr`
-* `pinterest.es`
-* `pinterest.de`
-* `pinterest.se`
-* `pinterest.pt`
-* `pinterest.dk`
-* `pinterest.ie`
-* `pinterest.co.kr`
-* `pinterest.ch`
-* `pinterest.at`
-* `pinterest.`
-* `pinterest.nz`
-* `pinterest.ph`
-* `pinterest.cl`
-* `pinterest.hu`
-* `pinterest.be`
-* `pinterest.in`
-* `pinterest.co`
 * `plaxo.com`
 * `plurk.com`
 * `plus.url.google.com`
