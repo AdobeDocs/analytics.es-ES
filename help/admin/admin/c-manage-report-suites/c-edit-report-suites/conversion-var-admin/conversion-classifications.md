@@ -3,10 +3,10 @@ description: Las clasificaciones sirven para clasificar los valores en grupos e 
 title: Clasificaciones de conversión
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '560'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Después de activar las clasificaciones, utilice el [Importador de clasificacion
 
 ## Agregar clasificaciones de conversión
 
-Instrucciones que describen cómo se agregan clasificaciones de conversión en Administración.
+Para agregar clasificaciones de conversión en Administración:
 
 1. Haga clic en **[!UICONTROL Admin]** > **[!UICONTROL Grupos de informes]**.
 1. Selección de un grupo de informes.

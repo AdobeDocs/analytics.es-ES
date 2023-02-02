@@ -3,18 +3,20 @@ description: Instrucciones que describen cómo designar la eVar que contiene su 
 title: Especificar la variable única de visitante
 feature: Admin Tools
 exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '94'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 82%
 
 ---
 
 # Especificar la variable única de visitante
 
-Instrucciones que describen cómo designar la eVar que contiene su identificador de visitante.
+Puede designar qué eVar contiene su identificador de visitante.
 
 Esta variable designa una eVar que contendrá su identificador de visitante único. Esta variable permite crear informes sobre la actividad de los clientes utilizando su propio identificador único.
+
+Para designar qué eVar contiene su identificador de visitante:
 
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
 1. Selección de un grupo de informes.

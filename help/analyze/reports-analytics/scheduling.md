@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 86%
+source-wordcount: '1761'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 86%
 Información sobre cómo programar, descargar y distribuir informes.
 
 >[!IMPORTANT]
->El 21 de abril de 2022, anunciamos la desaprobación de varias funciones específicas de los informes programados como preparación para el fin de vida útil anunciado anteriormente para Reports &amp; Analytics. Estas funciones incluían la capacidad de programar nuevos informes, así como nuevos extractos de datos. En respuesta a las solicitudes de los clientes que buscan una extensión y para facilitar la transición desde Reports &amp; Analytics, hemos decidido ampliar el acceso a estas funciones hasta el 31 de enero de 2023. Tenga en cuenta que los plazos de caducidad para los informes y los extractos de datos seguirán estando limitados a nueve meses; la entrega de informes y extracciones de datos se pausará al final de este periodo a menos que se reactive la programación. [Más información](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+>El 21 de abril de 2022, anunciamos la desaprobación de varias funciones específicas de los informes programados como preparación para el fin de vida útil anunciado anteriormente para Reports &amp; Analytics. Estas funciones incluían la capacidad de programar nuevos informes, así como nuevos extractos de datos. En respuesta a las solicitudes de los clientes que buscan una extensión y para facilitar la transición desde Reports &amp; Analytics, hemos decidido ampliar el acceso a estas funciones hasta el 31 de enero de 2023. Tenga en cuenta que los plazos de caducidad para los informes y los extractos de datos seguirán estando limitados a nueve meses; la entrega de informes y extracciones de datos se pausará al final de este periodo a menos que se reactive la programación.  [Más información](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Al programar un informe para su envío a una aplicación de Adobe Analytics, se pueden utilizar las herramientas de programación y distribución para ver qué archivos se han enviado automáticamente y así modificar o finalizar los envíos.
 
@@ -44,7 +44,7 @@ Además, hay otros factores que pueden aumentar aún más la demora antes de que
 
 ## Enviar un informe {#task_27642CD33D484FD0BF59EBD159EEF52C}
 
-Instrucciones sobre cómo descargar y enviar por correo electrónico informes en diversos formatos, y sobre cómo programar un informe para su envío.
+Para descargar y enviar por correo electrónico informes en diversos formatos y programar el envío de un informe:
 
 1. Ejecute un informe y, a continuación, haga clic en **[!UICONTROL Más]** > **[!UICONTROL Enviar]**.
 1. Especifique las opciones de envío:
@@ -78,7 +78,7 @@ Instrucciones sobre cómo descargar y enviar por correo electrónico informes en
 
 ## Imprimir un informe {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
-Instrucciones sobre cómo imprimir un informe.
+Para imprimir un informe:
 
 1. Ejecutar un informe.
 1. Haga clic en **[!UICONTROL Más]** > **[!UICONTROL Imprimir]**.  ![](assets/print.png)
@@ -115,11 +115,11 @@ El [!UICONTROL Administrador de programación de informes] muestra los artículo
 
 ## Compartir un vínculo a un informe {#task_9711DDE9E140451B8C914EC5513E21EC}
 
-Instrucciones sobre cómo compartir un informe generando un vínculo de informe (una dirección URL) para enviarlo a otro usuario.
+Puede compartir un informe generando un vínculo del informe (URL) para enviarlo a otro usuario.
 
 Cuando el destinatario hace clic en el vínculo, el sistema solicita las credenciales de inicio de sesión (nombre de la empresa, nombre de usuario y contraseña). Después de iniciar sesión, el destinatario se muestra en el informe generado por el usuario original. Se aplican restricciones de permiso estándar.
 
-Para compartir un vínculo del informe,
+Para compartir un vínculo del informe:
 
 1. Ejecutar un informe.
 1. Haga clic en **[!UICONTROL Más]** > **[!UICONTROL Vínculo a este informe]**.

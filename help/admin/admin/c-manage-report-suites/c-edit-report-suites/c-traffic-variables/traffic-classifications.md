@@ -4,10 +4,10 @@ subtopic: Classifications
 title: Clasificaciones de tráfico
 feature: Admin Tools
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '192'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,7 @@ t_classification_add_traffic.xml
 
  -->
 
-Instrucciones que describen cómo agregar o editar clasificaciones para los grupos de informes seleccionados.
+Para agregar o editar clasificaciones para los grupos de informes seleccionados:
 
 1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** en el encabezado de Suite.
 1. Selección de un grupo de informes.

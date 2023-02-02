@@ -5,9 +5,9 @@ uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '558'
 ht-degree: 86%
 
 ---
@@ -39,7 +39,7 @@ Descripciones de los campos y las opciones de la página [!UICONTROL Agregar y e
 
 ## Agregue un [!UICONTROL Target] {#task_94915391E26E4F808F2538AA92BC7E71}
 
-Instrucciones sobre cómo añadir un objetivo.
+Para agregar un objetivo:
 
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Objetivos]**.
 1. En el [!UICONTROL Administrar objetivos] página, haga clic en **[!UICONTROL Agregar nuevo...]**.

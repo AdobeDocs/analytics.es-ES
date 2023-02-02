@@ -5,10 +5,10 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,7 @@ Avanzado le permite realizar una búsqueda con comodines y otras búsquedas comp
 
 ## Crear filtros específicos de informes {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-Instrucciones sobre cómo crear filtros de informes.
+Puede crear filtros para informes.
 
 <!-- 
 
@@ -153,7 +153,7 @@ Ciertos informes contienen un filtro que es específico para ese informe. Por ej
 
 Cuando accede a estos filtros, puede ver las métricas del informe para los artículos especificados en la lista.
 
-**Para crear filtros específicos del informe**
+Para crear filtros específicos del informe:
 
 1. Genere un informe, por ejemplo un [!UICONTROL Informe de compra] (**[!UICONTROL Métricas del sitio]** > **[!UICONTROL Compras]** > **[!UICONTROL Canal de conversión de compra]**).
 1. En el encabezado del informe, haga clic en el vínculo **[!UICONTROL Filtro]**.
@@ -162,8 +162,6 @@ Cuando accede a estos filtros, puede ver las métricas del informe para los art�
 1. Haga clic en **[!UICONTROL Aceptar]**.
 
 ## Añadir un filtro de correlación {#task_065042E384DA4BF3864C58AF2B88D6E2}
-
-Instrucciones sobre cómo añadir un filtro de correlación.
 
 <!-- 
 
@@ -175,7 +173,7 @@ Ciertos informes permiten que se les añadan filtros de correlación personaliza
 
 Puede filtrar los datos que se muestran en un informe de correlación usando cualquier correlación disponible. Este ejemplo muestra cómo se agrega un filtro de correlación de motor de búsqueda.
 
-**Para agregar un filtro de correlación**
+Para agregar un filtro de correlación:
 
 1. Ejecute un informe que admita correlaciones. (Consulte [Ejecución de un informe de desglose](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. En el encabezado del informe, haga clic en el vínculo **[!UICONTROL Filtro de correlación]**.

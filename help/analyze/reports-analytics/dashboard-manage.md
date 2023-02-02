@@ -6,10 +6,10 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 98%
+source-wordcount: '705'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UIC
 
 ## Administrar tableros compartidos
 
-Los pasos describen cómo usar las opciones de administración del tablero compartido.
+Para administrar tableros compartidos:
 
 1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Tableros]**.
 1. En [!UICONTROL Tableros compartidos], localice el tablero compartido (o tablero preexistente) que desee administrar y elija una o más de las siguientes opciones:
@@ -92,7 +92,9 @@ Cuando copia el tablero preexistente, el sistema lo abre para editarlo y ahí pu
 
 ## Compartir un tablero
 
-Instrucciones sobre cómo un administrador puede compartir un tablero con varios usuarios (o insertarlo en sus escritorios). Al insertar los tableros en el escritorio de los usuarios, esos tableros pasan a estar disponibles en el menú [!UICONTROL Tableros compartidos] del usuario.
+Los administradores de Analytics pueden compartir (o insertar) un tablero en el escritorio de varios usuarios. Al insertar los tableros en el escritorio de los usuarios, esos tableros pasan a estar disponibles en el menú [!UICONTROL Tableros compartidos] del usuario.
+
+Para compartir un tablero con varios usuarios:
 
 1. En el [!UICONTROL Administrador de tableros], busque el tablero y, a continuación, active **[!UICONTROL Compartido]**.
 1. Haga clic en **[!UICONTROL Insertar en escritorio de usuarios]**.  ![](assets/push.png)
@@ -110,18 +112,3 @@ En el [!UICONTROL Administrador de tableros], puede ver si un tablero está prog
 1. Haga clic en **[!UICONTROL Más]** > **[!UICONTROL Enviar]**.
 
    Consulte [Programación y distribución](/help/analyze/reports-analytics/scheduling.md) para obtener más información.
-
-## Archivar un tablero
-
->[!NOTE]
->
->Esta funcionalidad ya no estará disponible en enero de 2020.
-
-Instrucciones sobre cómo archivar cualquier tablero enviado como archivo PDF. El sistema almacena el archivo archivado durante dos años o hasta que llegue al límite máximo de 4 GB de informes archivados, lo que suceda primero.
-
-1. Abra un tablero.
-1. Haga clic en **[!UICONTROL Más]** > **[!UICONTROL Enviar]**.
-1. En el grupo [!UICONTROL Enviar informe por correo electrónico], active **[!UICONTROL Archivar]**.
-1. Especifique las opciones de envío y, a continuación, haga clic en **[!UICONTROL Enviar]**.
-
-   Puede ver los tableros archivados en el administrador de tableros. También puede abrir un tablero y hacer clic en **[!UICONTROL Más]** > **[!UICONTROL Ver archivo]**.

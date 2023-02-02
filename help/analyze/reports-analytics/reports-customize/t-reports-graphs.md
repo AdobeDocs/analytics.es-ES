@@ -5,10 +5,10 @@ uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 {{ra-eol}}
 
-Instrucciones sobre cómo personalizar el gráfico de modo que resulte lo más práctico posible para la audiencia objetivo.
+Puede personalizar el gráfico para que resulte lo más útil posible para la audiencia objetivo.
 
 El tipo de gráficos disponibles depende del tipo de informe que ejecute. Por ejemplo, los gráficos de líneas de tendencia son útiles para los informes de tendencia pero también puede utilizar gráfico de barras verticales, que ilustran claramente las tendencias de los días, las semanas, los meses, etc. También puede elegir un gráfico circular para ilustrar los porcentajes de páginas vistas.
 
-**Para cambiar un gráfico de informe**
+Para cambiar un gráfico de informe:
 
 1. Ejecutar un informe.
 1. Haga clic en **[!UICONTROL Configurar gráfico]**.

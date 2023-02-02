@@ -3,16 +3,16 @@ description: Pasos que describen cómo aplicar secuencias de escape a los datos 
 title: Aplicar secuencias de escape a los datos de clasificación
 feature: Classifications
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '104'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 92%
 
 ---
 
 # Aplicar secuencias de escape a los datos de clasificación
 
-Pasos que describen cómo aplicar secuencias de escape a los datos de clasificación del archivo de clasificación.
+Para omitir los datos de clasificación en el archivo de clasificación:
 
 <!--Meike, please check this page against orginal. It might be missing information. -->
 

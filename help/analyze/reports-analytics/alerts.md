@@ -6,10 +6,10 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 96%
+source-wordcount: '841'
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ Para obtener más información, consulte la documentación de Analysis Workspace
 
 ## Añadir una alerta {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
-Instrucciones para añadir una alerta en Adobe Analytics.
+Puede agregar una alerta en Adobe Analytics desde el Generador de alertas o desde un informe específico.
 
 <!-- 
 
@@ -40,7 +40,11 @@ t_add_an_alert.xml
 
  -->
 
-Vaya al nuevo Generador de alertas en el menú **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]**. Sin embargo, todavía puede acceder a él desde informes en Reports &amp; Analytics:
+### Adición de una alerta desde el Generador de alertas
+
+1. Select **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** para abrir el Generador de alertas.
+
+### Agregar una alerta desde un informe individual
 
 1. En Reports &amp; Analytics, abra el informe en el que desee establecer una alerta.
 1. Haga clic en **[!UICONTROL Más]** > **[!UICONTROL Agregar alerta]**.
@@ -48,7 +52,7 @@ Vaya al nuevo Generador de alertas en el menú **[!UICONTROL Analytics]** > **[!
 
 ## Visualización o edición de alertas existentes {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
-Contexto de tarea
+<!-- add Task Context-->
 
 1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]**. Le llevará al nuevo [Administrador de alertas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html).
 

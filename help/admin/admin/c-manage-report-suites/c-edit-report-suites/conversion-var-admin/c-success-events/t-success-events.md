@@ -3,16 +3,16 @@ description: Instrucciones sobre cómo configurar eventos de éxito.
 title: Configurar eventos de éxito
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 89%
+source-wordcount: '252'
+ht-degree: 87%
 
 ---
 
 # Configurar eventos de éxito
 
-Instrucciones sobre cómo configurar eventos de éxito.
+Para configurar eventos de éxito:
 
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
 1. Selección de un grupo de informes.

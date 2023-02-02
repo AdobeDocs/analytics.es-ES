@@ -5,16 +5,16 @@ uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
 feature: Report Builder
 role: User, Admin
 exl-id: 621e3928-17d8-4b0a-93dc-7bf1622b16fc
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 100%
+source-wordcount: '84'
+ht-degree: 90%
 
 ---
 
 # Fechas móviles
 
-Pasos que describen cómo personalizar una fecha móvil para la solicitud.
+Para personalizar una fecha móvil para la solicitud:
 
 1. En el [!UICONTROL Asistente para solicitudes: Paso 1], seleccione **[!UICONTROL Fechas móviles]**.
 1. Haga clic en el vínculo **[!UICONTROL Móvil]** para seleccionar el tipo móvil y, a continuación, utilice los vínculos de fecha para configurar las fechas móviles.

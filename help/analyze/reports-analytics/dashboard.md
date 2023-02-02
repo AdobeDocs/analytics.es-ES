@@ -5,10 +5,10 @@ title: Paneles e informes breves
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '1827'
-ht-degree: 100%
+source-git-commit: dbccae5fdfd092da40e0786aa76238f1e6c1ccb9
+workflow-type: tm+mt
+source-wordcount: '1818'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,6 @@ Consulte [Administración de tableros](/help/analyze/reports-analytics/dashboard
 
 ## Crear un tablero {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
-Instrucciones sobre cómo crear un tablero.
 
 <!-- 
 
@@ -74,6 +73,8 @@ t_dashboard_add.xml
  -->
 
 Antes de añadir un informe (como informe breve) a un tablero, defina el diseño del tablero.
+
+Para crear un tablero:
 
 1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Administrar tableros]**.
 1. Haga clic en **[!UICONTROL Agregar tablero]**.
@@ -96,13 +97,15 @@ Antes de añadir un informe (como informe breve) a un tablero, defina el diseño
 
 ## Crear un informe breve {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
-Instrucciones sobre cómo crear un informe breve. El informe breve, una vez creado, estará disponible para mostrar en un tablero.
+Después de crear un informe breve, estará disponible para mostrarlo en un tablero.
 
 <!-- 
 
 t_dashboard_add_report.xml
 
  -->
+
+Para crear un informe breve:
 
 1. Ejecutar un informe.
 1. Haga clic en **[!UICONTROL Tablero]**.
@@ -122,13 +125,15 @@ t_dashboard_add_report.xml
 
 ## Añadir contenido a un tablero {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
-Pasos que describen cómo agregar contenido de otros tableros y tableros compartidos. También puede añadir contenido desde fuentes personalizadas y externas, como texto e imágenes.
+Puede agregar contenido desde otros tableros y tableros compartidos. También puede añadir contenido desde fuentes personalizadas y externas, como texto e imágenes.
 
 <!-- 
 
 t_dashboard_content.xml
 
  -->
+
+Para agregar contenido a un tablero:
 
 1. Abra un tablero y, a continuación, haga clic en **[!UICONTROL Diseño]**.
 1. Haga clic en **[!UICONTROL Agregar contenido]** y, a continuación, arrastre artículos al tablero.
@@ -209,7 +214,7 @@ t_dashboard_edit.xml
 
 ## Promoción conjunta de marca en un tablero {#task_603BDE7700B945699AF5514C2DEB81F7}
 
-Instrucciones sobre cómo cargar una imagen para mostrarla en un tablero.
+Para cargar una imagen para mostrarla en un tablero:
 
 <!-- 
 

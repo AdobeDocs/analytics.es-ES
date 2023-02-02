@@ -4,10 +4,10 @@ title: Resumen de las métricas de Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '329'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Para obtener una lista completa de las métricas, consulte [Información general
 
 ## Seleccionar métricas de informe predeterminadas
 
-Instrucciones sobre cómo seleccionar métricas predeterminadas en el nivel de informe.
+Para seleccionar métricas predeterminadas en el nivel de informe:
 
 <!-- 
 

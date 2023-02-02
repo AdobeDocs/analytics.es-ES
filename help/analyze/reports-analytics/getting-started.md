@@ -4,10 +4,10 @@ title: Introducción a Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 99%
+source-wordcount: '782'
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ Antes de acceder a la interfaz, colabore con su administrador de cuentas o con e
 
 ## Inicie sesión utilizando Experience Cloud
 
-Instrucciones sobre cómo iniciar sesión utilizando Adobe Experience Cloud.
+Para iniciar sesión a través de Adobe Experience Cloud:
 
 1. En un equipo con acceso a Internet, abra un explorador.
 1. Vaya a [!DNL https://login.experiencecloud.adobe.com/].
@@ -62,7 +62,7 @@ Instrucciones sobre cómo iniciar sesión utilizando Adobe Experience Cloud.
 
 ## Ejecutar un informe
 
-Instrucciones sobre cómo generar un informe.
+Para generar un informe 
 
 1. Inicie sesión en [!UICONTROL Reports &amp; Analytics].
 
@@ -93,7 +93,9 @@ Todos los usuarios tienen acceso a la página [!UICONTROL Información de la cue
 
 ## Cambiar el idioma de la interfaz
 
-Instrucciones sobre cómo cambiar el idioma de la interfaz. Puede ver la interfaz de Reports &amp; Analytics en el idioma que prefiera.
+Puede cambiar el idioma de la interfaz. Puede ver la interfaz de Reports &amp; Analytics en el idioma que prefiera.
+
+Para cambiar el idioma de la interfaz:
 
 1. Inicie sesión en Analytics y seleccione la pestaña **[!UICONTROL Informes]**.
 1. En el pie de página, haga clic en el idioma activo en el menú **[!UICONTROL Idioma]** y, a continuación, seleccione el idioma que prefiera.

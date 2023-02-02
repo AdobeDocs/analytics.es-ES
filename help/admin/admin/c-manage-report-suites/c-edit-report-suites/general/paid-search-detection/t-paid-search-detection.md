@@ -3,16 +3,16 @@ description: Instrucciones que describen cómo configurar la detección de búsq
 title: Configurar la detección de búsqueda pagada
 feature: Admin Tools
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '78'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 93%
 
 ---
 
 # Configurar la detección de búsqueda pagada
 
-Instrucciones que describen cómo configurar la detección de búsqueda de pago.
+Para configurar la detección de búsqueda de pago:
 
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** para abrir el [!UICONTROL Administrador de grupos de informes].
 1. Selección de un grupo de informes.
