@@ -3,24 +3,28 @@ title: pageType
 description: Determine si la página actual conduce a un error 404.
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 77%
+source-wordcount: '208'
+ht-degree: 56%
 
 ---
 
 # pageType
 
-La variable `pageType` es un indicador que se utiliza para designar las páginas de error en el sitio, como los errores 404. Si esta variable contiene la cadena `errorPage`, rellena la dimensión “Páginas no encontradas”.
+La variable `pageType` es un indicador que se utiliza para designar las páginas de error en el sitio, como los errores 404. Si esta variable contiene la cadena `errorPage`, rellena las &quot;Páginas no encontradas&quot; [dimensión](/help/components/dimensions/pages-not-found.md) y [métrica](/help/components/metrics/pages-not-found.md).
 
 >[!IMPORTANT]
 >
 >No configure esta variable en páginas que no sean de error.
 
+## Tipo de página que utiliza el SDK web
+
+El tipo de página es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `web.webPageDetails.isErrorPage`. Este campo XDM es booleano; configúrelo como `true` para marcarla como página de error, o `false` si no es una página de error. El Adobe traduce automáticamente el booleano al valor de cadena `errorPage` cuando se envía a un grupo de informes de Analytics.
+
 ## Tipo de página con la extensión de Adobe Analytics
 
-No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.pageType en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
