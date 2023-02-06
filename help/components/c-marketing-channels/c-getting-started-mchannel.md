@@ -3,10 +3,10 @@ title: Introducción a los canales de marketing
 description: Obtenga información sobre el flujo de trabajo de Canales de marketing, la configuración automática y cómo aplicar la configuración del grupo de informes de plantilla a varios grupos de informes.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 100%
+source-wordcount: '829'
+ht-degree: 97%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >Para maximizar la eficacia de los canales de marketing para Attribution IQ y Customer Journey Analytics, hemos publicado algunas [prácticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>
+>Los administradores de Analytics pueden administrar canales de marketing para sus organizaciones, tal como se describe en [Administrar canales de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Los canales de marketing se utilizan habitualmente para saber cómo llegan los visitantes al sitio. Se pueden personalizar reglas de procesamiento de canal de marketing en función de los canales que quiera rastrear y de cómo desea hacerlo.
 
@@ -39,9 +41,9 @@ Hay una lista de canales recomendados en [Preguntas frecuentes y ejemplos](/help
 
 Después de definir los canales para seguir, los habilita en **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
 
-Consulte [Acerca de los canales y las reglas](/help/components/c-marketing-channels/c-channels.md) para obtener información importante sobre requisitos previos y conceptos.
+Consulte [Acerca de los canales y las reglas](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) para obtener información importante sobre requisitos previos y conceptos.
 
-Consulte [Agregar canales](/help/components/c-marketing-channels/c-channels.md) de marketing para ver el procedimiento.
+Consulte [Agregar canales](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) de marketing para ver el procedimiento.
 
 >[!NOTE]
 >
@@ -51,7 +53,7 @@ Consulte [Agregar canales](/help/components/c-marketing-channels/c-channels.md) 
 
 Después de crear los canales en la página [!UICONTROL Administrador de canales de marketing], configure las reglas para que esos canales puedan obtener datos y crear informes.
 
-Consulte [Reglas de procesamiento de canal de marketing](/help/components/c-marketing-channels/c-rules.md).
+Consulte [Reglas de procesamiento de canal de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 
 Si los canales se han creado en la configuración automática, las reglas de los canales ya estarán definidas. Puede modificarlas para adaptarlas a sus necesidades.
 
@@ -69,7 +71,7 @@ Cómo se ejecuta la configuración automática para los canales de marketing.
 
    >[!NOTE]
    >
-   >La página [!UICONTROL Canales de marketing: configuración automática] se abre automáticamente al acceder a las aplicaciones de configuración de canal en las Herramientas de administración. (Consulte el [administrador de Canales de marketing](/help/components/c-marketing-channels/c-channels.md).) Esta página no indica si el grupo de informes contiene uno o más canales de marketing. Solo podrá volver a acceder a esta página si selecciona otro grupo de informes que no contenga canales de marketing.
+   >La página [!UICONTROL Canales de marketing: configuración automática] se abre automáticamente al acceder a las aplicaciones de configuración de canal en las Herramientas de administración. (Consulte el [administrador de Canales de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).) Esta página no indica si el grupo de informes contiene uno o más canales de marketing. Solo podrá volver a acceder a esta página si selecciona otro grupo de informes que no contenga canales de marketing.
 
 1. Asegúrese de que los canales que desee crear estén seleccionados.
 
