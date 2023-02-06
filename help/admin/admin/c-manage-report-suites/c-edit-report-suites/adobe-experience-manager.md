@@ -1,16 +1,16 @@
 ---
-description: Pasos administrativos para activar Informes de AEM Assets en Analytics.
-title: Creación de informes sobre AEM Assets en Adobe Analytics
-feature: AEM Assets Reporting
-exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
+description: Puede ver los datos de Adobe Experience Manager en Adobe Analytics
+title: Ver datos de Adobe Experience Manager en Adobe Analytics
+feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 93%
+source-wordcount: '119'
+ht-degree: 72%
 
 ---
 
-# Informes de AEM Assets
+
+# Ver datos de Adobe Experience Manager en Adobe Analytics
 
 Pasos administrativos para activar Informes de AEM Assets en Analytics.
 
@@ -24,4 +24,4 @@ Permite que Analytics recopile impresiones y clics en recursos proporcionados po
 
 Para que se rellenen los datos, consulte la [documentación de AEM Asset Insights](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html), donde encontrará instrucciones completas para la implementación.
 
-<!--The content in this article is duplicated with the content in the Admin guide (adobe-experience-manager.md)-->
+<!--The content in this article is duplicated with the content in the Integration guide (aem-assets-reporting.md)-->
