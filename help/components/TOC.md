@@ -6,8 +6,8 @@ breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
 source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

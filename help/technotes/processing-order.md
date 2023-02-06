@@ -4,8 +4,8 @@ description: Conozca el orden de los componentes y servicios que procesan los da
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

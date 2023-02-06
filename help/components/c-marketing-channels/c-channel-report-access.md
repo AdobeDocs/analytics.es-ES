@@ -5,8 +5,8 @@ feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
