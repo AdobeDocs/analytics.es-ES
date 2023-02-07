@@ -3,10 +3,10 @@ description: A cada ID al que desee permitir búsquedas se le asigna un área de
 title: Espacios de nombres
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 A cada ID al que desee permitir búsquedas se le asigna un área de nombres, que es una cadena personalizada que identifica ese ID en cualquier variable en la que se utiliza en todos los grupos de informes.
 
-La cadena del área de nombres se emplea para identificar los campos en los que desea buscar al proporcionar un ID como parte de una solicitud de privacidad de datos. Cuando se envía una solicitud de privacidad de datos, la solicitud incluirá una sección de JSON en la que se especifican los ID de los interesados que se utilizarán para la solicitud. Se pueden incluir varios ID como parte de una sola solicitud para un interesado. En el JSON se incluye lo siguiente:
+La cadena del área de nombres se emplea para identificar los campos en los que desea buscar al proporcionar un ID como parte de una solicitud de privacidad de datos. Cuando se envía una solicitud de privacidad de datos, la solicitud incluirá una sección de JSON en la que se especifican los ID de sujeto de datos que se utilizarán para la solicitud. Se pueden incluir varios ID como parte de una única solicitud para un sujeto de datos. En el JSON se incluye lo siguiente:
 
 * Un campo “namespace” que contiene la cadena del área de nombres.
 * Un campo “type” que, en la mayoría de las solicitudes de Adobe Analytics, contiene el valor “analytics”.
@@ -38,7 +38,7 @@ El valor debe especificarse como dos números hexadecimales separados por una ra
 
 También puede utilizar `"namespaceId": 10` en lugar de o además de `"namespace": "AAID"` y es posible que vea otros productos de Adobe usar ese formulario.
 
-## Cookie de seguimiento de Analytics heredada: Formulario obsoleto
+## Cookie de seguimiento de Analytics heredada: formulario obsoleto
 
 ```
 {

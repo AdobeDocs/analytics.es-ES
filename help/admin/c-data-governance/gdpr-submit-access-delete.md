@@ -3,30 +3,30 @@ description: Cómo enviar solicitudes de acceso y eliminación de datos en Adobe
 title: Envío de solicitudes de acceso y eliminación
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 100%
+ht-degree: 68%
 
 ---
 
 # Envío de solicitudes de acceso y eliminación
 
-Si sus clientes (consumidores o interesados) desean saber qué datos almacena sobre ellos o deciden que desean que estos se eliminen de sus propiedades de Analytics, usted como responsable del tratamiento de datos debe encargarse de tratar dichas solicitudes. El responsable del tratamiento de datos determina cómo interactuará la organización con los interesados (por ejemplo, mediante un portal de usuario para ellos) y gestiona las interacciones con cada interesado. El responsable del tratamiento de datos también se encarga de cerrar el proceso con el interesado cuando se satisfaga la solicitud. Dicho de otro modo, Adobe Experience Cloud, como encargado del tratamiento de datos, no aceptará solicitudes directamente de interesados ni les devolverá datos directamente. Adobe recibirá solicitudes suyas y únicamente le devolverá datos a usted, el responsable del tratamiento de datos.
+Si sus clientes (consumidores/sujetos de datos) desean saber qué datos almacena sobre ellos o deciden que desean que estos se eliminen de sus propiedades de Analytics, usted como responsable del tratamiento de datos es el responsable de responder a esas solicitudes. El controlador de datos determina cómo interactuará su organización con los sujetos de datos (por ejemplo, a través de un portal de usuario para ellos) y gestiona las interacciones con el sujeto de datos. También es responsabilidad del controlador cerrar el bucle con el sujeto de datos cuando se satisfaga la solicitud. En otras palabras, Adobe Experience Cloud, como responsable del tratamiento de datos, no aceptará solicitudes directamente de sujetos de datos ni les devolverá datos directamente. En su lugar, Adobe recibirá solicitudes de y únicamente le devolverá datos a usted como responsable del tratamiento de datos.
 
-También debería garantizar que sus aplicaciones móviles y sitios web tengan avisos emergentes relevantes y materiales de apoyo sobre los derechos de los interesados en lo relativo a sus datos directa o indirectamente identificables y a otros datos que recopile.
+También es posible que desee garantizar que sus aplicaciones móviles y sitios web tengan avisos emergentes relevantes y materiales de apoyo sobre los derechos de los sujetos de datos con respecto a sus datos directa o indirectamente identificables y a otros datos que recopile.
 
 ## Gestión del consentimiento de los clientes {#section_3012015E7E8942519FB9279CF7057EAB}
 
-Usted, como responsable del tratamiento de datos, es el responsable de obtener un consentimiento explícito por parte de sus interesados antes de recopilar datos sobre los mismos (que posiblemente incluyan datos de Adobe Analytics) y de implementar un [mecanismo de exclusión](https://www.adobe.com/es/privacy/opt-out.html#customeruse) en su sitio web. Esto permite que sus interesados queden excluidos de la recopilación de datos futura de Adobe Experience Cloud.
+Usted, como responsable del tratamiento de datos, es el responsable de obtener un consentimiento explícito por parte de sus sujetos de datos antes de recopilar datos sobre ellos (que posiblemente incluyan datos de Adobe Analytics) y de implementar una [mecanismo de exclusión](https://www.adobe.com/es/privacy/opt-out.html#customeruse) en el sitio web. Esto permite que los sujetos de datos queden excluidos de la recopilación de datos futura de Adobe Experience Cloud.
 
 ## Validación de usuarios y sus datos {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-Usted, como responsable del tratamiento de datos, se encarga de verificar que el interesado sea quien dice ser y que tenga derechos sobre los datos que solicita. Además, es su responsabilidad garantizar que se devuelvan los datos correctos al interesado y que no reciba por accidente datos de otros interesados.
+Usted, como responsable del tratamiento de datos, es el responsable de verificar que el sujeto de datos sea quien dice ser y que tenga derecho a los datos que solicita. Además, es su responsabilidad garantizar que se devuelvan los datos correctos al sujeto de datos y que no reciba por accidente datos sobre otros sujetos de datos.
 
-Para ello, debe revisar los datos que devuelva Adobe Analytics como parte de una solicitud de acceso de privacidad de datos antes de remitírselos al interesado. Se debe prestar especial atención si se usan ID de persona y se devuelven no solo datos en los que esté presente un ID concreto, sino también datos de otras visitas en un dispositivo compartido en el que ese ID estaba presente algunas veces. Consulte [Expansión de ID.](/help/admin/c-data-governance/gdpr-id-expansion.md)
+Esto incluye revisar los datos devueltos por Adobe Analytics como parte de una solicitud de acceso de privacidad de datos antes de enviarlos al sujeto de datos. Se debe prestar especial atención si se usan ID de persona y se devuelven no solo datos en los que esté presente un ID concreto, sino también datos de otras visitas en un dispositivo compartido en el que ese ID estaba presente algunas veces. Consulte [Expansión de ID.](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
-Cada archivo combina los datos de todos sus grupos de informes y se eliminan automáticamente las copias adicionales de las visitas replicadas. Puede decidir cuál de estos archivos quiere devolver al interesado. O puede extraer algunos de estos datos y combinarlos con datos de otros sistemas antes de devolvérselos al interesado.
+Cada archivo combina los datos de todos sus grupos de informes y se eliminan automáticamente las copias adicionales de las visitas replicadas. Puede decidir cuál de estos archivos quiere devolver al sujeto de datos. O puede extraer algunos de estos datos y combinarlos con datos de otros sistemas antes de devolvérselos al sujeto de datos.
 
 ## Envío de solicitudes {#submit-requests}
 
@@ -98,7 +98,7 @@ A continuación tiene un JSON que podría enviarse mediante la API o la interfaz
 } 
 ```
 
-Tenga en cuenta que existen tres bloques en la sección del usuario que representan tres solicitudes independientes, posiblemente de tres interesados diferentes.
+Tenga en cuenta que existen tres bloques en la sección del usuario que representan tres solicitudes independientes, posiblemente de tres sujetos de datos independientes.
 
 * La primera solicitud es una solicitud de acceso que utiliza un ID de cookie tradicional de Adobe Analytics (AAID).
 * La segunda solicitud también es de acceso, pero utiliza una cookie de MCID/ECID.
@@ -131,7 +131,7 @@ Los datos devueltos en respuesta a una solicitud de acceso le proporcionan, como
 
 Cada archivo combina los datos de todos sus grupos de informes y se eliminan automáticamente las copias adicionales de las visitas replicadas.
 
-Puede decidir cuál de ellos quiere devolver al interesado. O puede extraer algunos de estos datos y combinarlos con datos de otros sistemas antes de devolvérselos al interesado.
+Puede decidir cuál de ellos quiere devolver al sujeto de datos. O puede extraer algunos de estos datos y combinarlos con datos de otros sistemas antes de devolvérselos al sujeto de datos.
 
 **Detalles de respuesta de eliminación**
 
