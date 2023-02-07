@@ -3,16 +3,16 @@ description: Los administradores pueden agregar descripciones para los component
 title: Agregar descripciones de componentes
 feature: Components
 role: Admin
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
+source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
 # Agregar descripciones de componentes
 
-Los administradores de Analytics pueden agregar descripciones para componentes (Dimension, métricas, segmentos e intervalos de fechas) dentro del grupo de informes.
+Los administradores de Analytics pueden agregar descripciones para componentes (Dimension, métricas, segmentos e intervalos de fechas)<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
 
 Los usuarios de su organización pueden ver las descripciones al crear proyectos en Analysis Workspace o al ver informes. Las descripciones ayudan a los usuarios a saber cómo utilizar mejor los distintos componentes.
 
@@ -21,3 +21,15 @@ Los usuarios de su organización pueden ver las descripciones al crear proyectos
 En el siguiente vídeo se describe cómo agregar descripciones de dimensiones y métricas en un grupo de informes:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+
+<!--
+## Add descriptions to components in Analysis Workspace (using the Data Dictionary) {#add-descriptions}
+
+{{release-limited-testing-section}}
+
+The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment. This includes the ability for Analytics administrators to add component descriptions directly within Analysis Workspace. 
+
+For information about adding a component description in the data dictionary, see [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+
+For general information about the Data Dictionary, see [Data Dictionary overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
+-->
