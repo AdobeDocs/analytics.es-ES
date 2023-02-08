@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Para ver información sobre un componente en el diccionario de datos:
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
-1. Asegúrese de que el grupo de informes que contiene el componente que desea ver esté seleccionado en el menú desplegable.
+1. Asegúrese de que el grupo de informes que contiene el componente que desea ver esté seleccionado en el menú desplegable. De forma predeterminada, se muestra el grupo de informes en el que ya se encuentra.
 
 1. (Opcional) En el campo de búsqueda, empiece a escribir el nombre del componente que desea ver.
 
