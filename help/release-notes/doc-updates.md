@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 526c7b0739ac9a4c1424bbb3cdfb320369725de6
+source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
 workflow-type: tm+mt
 source-wordcount: '3592'
 ht-degree: 98%
@@ -40,7 +40,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | --- | --- |
 | **Noviembre de 2022** |  |
 | Variables de administración de consentimiento | Páginas dedicadas a la [Inclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-in.md) y la [Exclusión de la administración de consentimiento](/help/components/dimensions/cm-opt-out.md). |
-| Actualización en varias monedas | Se actualizaron las páginas de [Compatibilidad con múltiples monedas](/help/technotes/multicurrency.md). |
+| Actualización en varias monedas | Se actualizaron las páginas de [Compatibilidad con múltiples monedas](/help/implement/vars/config-vars/currencycode.md). |
 | **Octubre de 2022** |  |
 | Data Workbench | [Anuncio de fin de vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=es) |
 | Sugerencias del cliente | Nueva sección [información general y preguntas más frecuentes](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=es). |

@@ -3,13 +3,22 @@ description: Vínculo a la API de administración de Adobe Analytics en github.
 title: API de administración
 feature: Admin Tools
 exl-id: 51118977-bd7c-4f36-a35f-e2930c732574
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '26'
-ht-degree: 100%
+source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 16%
 
 ---
 
-# API de administración
+# API de Adobe Analytics
 
-[API de administración 1.4 en GitHub](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/admin-api/index.md)
+Las siguientes API de Adobe Analytics están disponibles en el sitio de Adobe Developer:
+
+>[!IMPORTANT]
+>
+>Si está creando una nueva integración, Adobe recomienda encarecidamente utilizar las API 2.0.
+
+
+* [**API de Adobe Analytics 2.0**](https://developer.adobe.com/analytics-apis/docs/2.0/): Las API de Adobe Analytics 2.0 le permiten llamar directamente a los servidores de Adobe para realizar casi cualquier acción que pueda realizar en la interfaz de usuario.
+
+* [**API de Adobe Analytics 1.4**](https://developer.adobe.com/analytics-apis/docs/1.4/): Las API de Adobe Analytics 1.4 son las predecesoras de las API de Analytics 2.0. Permiten la creación de interfaces de usuario con muchos datos que puede utilizar para manipular e integrar datos.
