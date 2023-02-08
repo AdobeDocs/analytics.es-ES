@@ -1,7 +1,7 @@
 ---
-source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '604'
 ht-degree: 7%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 7%
 |---------|----------|
 | [!UICONTROL **Aprobado**] | Indica que el administrador ha revisado y aprobado el componente. Los administradores ven una [!UICONTROL **Aprobación requerida**] para componentes no aprobados. Al seleccionar esta opción, se marca como Aprobado. |
 | [!UICONTROL **Descripción**] | Describe la función deseada del componente. (El administrador de Analytics agrega esta información, tal como se describe en [Agregar descripciones de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
-| [!UICONTROL **Utilizado con frecuencia con**] | Muestra los 5 componentes más utilizados con el componente que está viendo en los 5 tipos de componente principales: Métrica, Métrica calculada, Dimension, segmento e intervalo de fechas. Esta lista se basa en los datos de los últimos 90 días. Solo se muestran los componentes a los que tiene acceso para ver. |
-| [!UICONTROL **Similar a**] | Muestra hasta 5 componentes con etiquetas similares al componente que está viendo en los 5 tipos de componentes principales: Métrica, Métrica calculada, Dimension, segmento e intervalo de fechas. Solo se muestran los componentes a los que tiene acceso para ver. |
-| [!UICONTROL **Etiquetas**] | Muestra todas las etiquetas aplicadas al componente. |
+| [!UICONTROL **Utilizado con frecuencia con**] | Muestra los 5 componentes más utilizados con el componente que está viendo en los 5 tipos de componente principales: Métrica, Métrica calculada, Dimension, segmento e intervalo de fechas. Esta lista se basa en los datos de los últimos 90 días. Solo se muestran los componentes a los que tiene acceso para ver. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **Similar a**] | Muestra hasta 5 componentes con etiquetas similares al componente que está viendo en los 5 tipos de componentes principales: Métrica, Métrica calculada, Dimension, segmento e intervalo de fechas. Solo se muestran los componentes a los que tiene acceso para ver. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **Etiquetas**] | Muestra todas las etiquetas aplicadas al componente. Los usuarios con acceso de administrador pueden añadir etiquetas al editar el componente. |
 | [!UICONTROL **Tipo de componente**] | Muestra el tipo de componente que es, ya sea un Dimension, una métrica, un segmento o un intervalo de fechas. |
 | [!UICONTROL **Creado por**] | Muestra el nombre del usuario que creó el componente. |
 | [!UICONTROL **Vista previa**] | Muestra una vista previa del aspecto del componente en Analysis Workspace. |
