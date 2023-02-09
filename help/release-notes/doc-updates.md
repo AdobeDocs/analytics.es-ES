@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 64a0bb6e04f4b56cd40676ea1c239f1beef8c41a
+source-git-commit: 8c4535a1811381e7a24735d7cbfffd241d5b19b9
 workflow-type: tm+mt
 source-wordcount: '3639'
 ht-degree: 96%
@@ -27,8 +27,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | --- | --- |
 | **Febrero de 2023** |  |
 | Implementación | Contenido actualizado sobre cómo [implementación de Adobe Analytics para web y dispositivos móviles](../implement/home.md). |
-| Calendarios e intervalos de fechas de Workspace | Se ha actualizado el contenido para describir intervalos de fechas relativos, actualizaciones de cálculo de fórmula y cambios en la interfaz de usuario del calendario. Consulte [Acerca de los intervalos de fechas del panel relativo](/help/components/date-ranges/calendar.md). |
-| Tarjetas de valoración móviles | Nueva sección de documentación para describir cómo mostrar y ocultar intervalos de fechas de comparación. Consulte [Mostrar intervalos de fechas de comparación](/help/mobile-app/create-scorecard.md) en CJA. |
+| Calendarios e intervalos de fechas de Workspace | Se ha actualizado el contenido para describir intervalos de fechas relativos, actualizaciones de cálculo de fórmula y cambios en la interfaz de usuario del calendario. Consulte [Acerca de los intervalos de fechas del panel relativo](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
+| Tarjetas de valoración móviles | Nueva sección de documentación para describir cómo mostrar y ocultar intervalos de fechas de comparación. Consulte [Mostrar intervalos de fechas de comparación](/help/analyze/mobile-app/create-scorecard.md) en CJA. |
 | **Enero de 2023** |  |
 | Filtrado y ordenación de tablas | Se ha actualizado el contenido (incluyendo procedimientos y explicaciones de las opciones disponibles) en la [Filtrado y ordenación de tablas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) artículo. Se ha cambiado el nombre de este artículo de &quot;Paginación, filtrado y ordenación de tablas&quot;. |
 | Carpetas | Páginas dedicadas para [Administración de carpetas](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
