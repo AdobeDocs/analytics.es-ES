@@ -3,10 +3,10 @@ description: Explica la estrategia de lanzamiento continuo de funcionalidades pa
 title: Versiones de funcionalidades de Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 7a6a7438ae6dcfd514c8de66626331f3a0e8210d
+source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Las versiones de Adobe Analytics funcionan con un modelo de entrega continuo que
 
 * **Disponibilidad general (GA)**: La funcionalidad está disponible para el 100% de las organizaciones de Experience Cloud y la versión de la funcionalidad está completa.
 
-Con cada versión de la funcionalidad, los plazos desde la fase de producción hasta su disponibilidad general pueden variar. El objetivo es reducir el número de versiones, de modo que en los 2 meses posteriores al comienzo de la producción, la funcionalidad esté disponible de forma general.
+Con cada versión de la función, la cronología desde el inicio del lanzamiento hasta GA puede variar. El objetivo es reducir el número de versiones, de modo que en los 2 meses posteriores al inicio del lanzamiento, la función esté disponible para el público general.
 
 ## Indicadores de características
 
