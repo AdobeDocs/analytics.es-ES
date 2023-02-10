@@ -2,10 +2,10 @@
 title: Información general sobre los conjuntos de clasificaciones
 description: Utilice los conjuntos de clasificaciones para administrar los datos de clasificación.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: 4824170ae2465f3fa04ee588d9571e1cc73d11fc
+source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 46%
+source-wordcount: '264'
+ht-degree: 45%
 
 ---
 
@@ -27,8 +27,8 @@ La arquitectura back-end lanzada con Conjuntos de clasificaciones contiene varia
 
 La arquitectura back-end lanzada con Conjuntos de clasificaciones también contiene varios cambios importantes:
 
-* Al usar la importación del explorador, &#39;[!UICONTROL Sobrescribir en conflicto]&#39; siempre está habilitado.
-* Al utilizar la importación del explorador, ya no se admite la opción de exportar inmediatamente después de la importación. Las exportaciones deben iniciarse por separado.
+* Al usar el explorador o la importación mediante FTP, &#39;[!UICONTROL Sobrescribir en conflicto]&#39; siempre está habilitado.
+* Al utilizar el explorador o la importación mediante FTP, ya no se admite la opción de exportar inmediatamente después de la importación. Las exportaciones deben iniciarse por separado.
 * La API de Analytics 2.0 `GetDimensions` ahora devuelve identificadores de cadena para clasificaciones en lugar de identificadores numéricos. Se pueden seguir utilizando identificadores numéricos, pero Adobe recomienda utilizar los nuevos identificadores de cadena siempre que sea posible. Los identificadores numéricos se pueden recuperar utilizando la variable `?expansion=hidden` parámetro de cadena de consulta.
 
 
