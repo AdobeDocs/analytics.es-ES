@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 El diccionario de datos de Analysis Workspace ayuda a los usuarios y administradores a realizar un seguimiento de los componentes de su entorno de Analytics y a comprenderlos mejor.
 
-Los administradores del sistema son responsables de conservar esta información sobre cada componente del diccionario de datos y de ponerla a disposición de los usuarios.
+Los administradores de Analytics son responsables de conservar la información sobre cada componente en el diccionario de datos para que esté disponible para los usuarios.
 
 ## Ventajas para los usuarios
 
@@ -33,6 +33,8 @@ La información disponible en el diccionario de datos incluye:
 * Componentes similares al que está viendo
 
 * Si el administrador del sistema aprueba un componente
+
+Para obtener información sobre cómo acceder al diccionario de datos y para obtener detalles sobre la información que contiene, consulte [Ver información de componentes en el diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
 ## Ventajas para los administradores
 
@@ -67,7 +69,13 @@ Puede acceder al diccionario de datos de cualquiera de las siguientes maneras en
 
 * Desde el menú: [!UICONTROL **Ayuda**] > [!UICONTROL **Diccionario de datos**].
 
-   <!--add screenshot-->
+Para obtener información detallada sobre las distintas opciones disponibles en el diccionario de datos, consulte [Ver información de componentes en el diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+
+## Actualizar y depurar el diccionario de datos
+
+Los administradores de Analytics son responsables de mantener un diccionario de datos correcto para su organización, tal como se describe en [Monitorizar el estado del diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
+
+Como parte de este proceso, los administradores de Analytics pueden editar información sobre cada componente en el diccionario de datos, tal como se describe en [Editar entradas de componentes en el diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## Mover, minimizar o cerrar el diccionario de datos
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3c57d8984634e626f5c50daf0554d660537281b5
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '718'
 ht-degree: 16%
 
 ---
@@ -19,16 +19,18 @@ ht-degree: 16%
 
    | Opción | Función |
    |---------|----------|
+   | [!UICONTROL **Aprobado**] | Mostrar solo los componentes marcados como Aprobado por un administrador. |
+   | [!UICONTROL **Favoritos**] | Mostrar solo los componentes que se encuentran en la lista de Favoritos. Para obtener información sobre cómo añadir componentes a la lista de favoritos, consulte [Información general sobre componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **Dimensiones**] | Mostrar solo los componentes que son Dimension. (Esta opción también está disponible en la [!UICONTROL **Filtros rápidos**] al acceder por primera vez al diccionario de datos). |
    | [!UICONTROL **Métricas**] | Mostrar solo los componentes que son Métricas. (Esta opción también está disponible en la [!UICONTROL **Filtros rápidos**] al acceder por primera vez al diccionario de datos). |
    | [!UICONTROL **Segmentos**] | Mostrar solo los componentes que son Segmentos. (Esta opción también está disponible en la [!UICONTROL **Filtros rápidos**] al acceder por primera vez al diccionario de datos). <!--this is Filters in CJA--> |
    | [!UICONTROL **Intervalos de fechas**] | Mostrar solo los componentes que son intervalos de fechas. (Esta opción también está disponible en la [!UICONTROL **Filtros rápidos**] al acceder por primera vez al diccionario de datos). |
-   | [!UICONTROL **Falta una descripción**] | Mostrar solo los componentes que aún no tienen una descripción en el campo Descripción . Esta opción solo está disponible para administradores. |
-   | [!UICONTROL **Duplicados**] | Mostrar solo los componentes que tengan la misma etiqueta o la misma descripción que la de otro componente en el grupo de informes seleccionado. Esta opción solo está disponible para administradores. Las etiquetas o descripciones deben coincidir de forma exacta para que se muestren como duplicados. |
-   | [!UICONTROL **No hay datos recientemente**] | Mostrar solo los componentes que no han recopilado ningún dato en los últimos 90 días. Esta opción solo está disponible para administradores. |
-   | [!UICONTROL **Creado por Adobe**] | Mostrar solo los componentes creados por Adobe. No se muestran los componentes creados por un administrador u otro usuario de su organización. |
-   | [!UICONTROL **Aprobado**] | Mostrar solo los componentes marcados como Aprobado por un administrador. |
-   | Sin aprobar (solo disponible para administradores) | <!--this is in the requirements doc, but I don't see this in the UI--> |
+   | [!UICONTROL **Mostrar todo**] | Mostrar todos los componentes. Esta opción solo está disponible para administradores. |
+   | [!UICONTROL **No aprobado**] | Mostrar solo los componentes que aún no están marcados como Aprobados por un administrador. Como administrador, resulta útil a la hora de identificar los componentes que requieren su revisión y aprobación. Esta opción solo está disponible para administradores. |
+   | [!UICONTROL **Falta la descripción**] | Mostrar solo los componentes que aún no tienen una descripción en el campo Descripción . Esta opción solo está disponible para administradores. |
+   | [!UICONTROL **Mostrar duplicados**] | Mostrar solo los componentes que tengan la misma etiqueta o la misma descripción que la de otro componente en el grupo de informes seleccionado. Las etiquetas o descripciones deben coincidir de forma exacta para que se muestren como duplicados. Esta opción solo está disponible para administradores. |
+   | [!UICONTROL **No hay datos recientes**] | Mostrar solo los componentes que no han recopilado ningún dato en los últimos 90 días. Esta opción solo está disponible para administradores. |
+   | [!UICONTROL **Creado por Adobe**] <!-- I don't see this option--> | Mostrar solo los componentes creados por Adobe. No se muestran los componentes creados por un administrador u otro usuario de su organización. |
 
    {style=&quot;table-layout:auto&quot;}
 
