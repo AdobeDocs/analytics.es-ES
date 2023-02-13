@@ -4,7 +4,7 @@ title: Referencia de datos y código del reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Además, se genera una señal `h_ip` a partir de la IP del host que envía la so
 
 ## Señales definidas por el cliente {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Los parámetros prefijados con `c_` identifican variables definidas por el cliente. Consulte también [Atributos admitidos para llamadas a la API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Los parámetros prefijados con `c_` identifican variables definidas por el cliente. Consulte también [Atributos admitidos para llamadas a la API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=es).
 
 | Señal | Descripción |
 | --- |--- |
@@ -67,7 +67,7 @@ Los parámetros prefijados con `c_` identifican variables definidas por el clien
 | `c_linkExitURL` | La dirección URL del vínculo de salida. |
 | `c_list#` | Variables de lista personalizadas. |
 | `c_longitude` | Longitud numérica. |
-| `c_mediaPlayerType` | Para solicitudes de seguimiento de retransmisión de medios. Las opciones incluyen: otro, primetime |
+| `c_mediaPlayerType` | Para solicitudes de seguimiento de retransmisión de medios. Las opciones incluyen:   otro, primetime |
 | `c_pageName` | El nombre de la página (si está configurado). |
 | `c_pageURL` | La dirección de la página en la barra de dirección del explorador. |
 | `c_products` | La cadena de producto (configurada por `s.products`). |
