@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
 source-wordcount: '3679'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -33,10 +33,10 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Seguimiento en tipos de implementación | Se ha actualizado el caso de uso [Seguimiento en diferentes tipos de implementación](../implement/use-cases/cross-type-implementation.md) para dar cabida al servicio de ID de Experience Cloud. |
 | **Enero de 2023** |  |
 | Filtrado y ordenación de tablas | Se ha actualizado el contenido (incluyendo procedimientos y explicaciones de las opciones disponibles) en la [Filtrado y ordenación de tablas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) artículo. Se ha cambiado el nombre de este artículo de &quot;Paginación, filtrado y ordenación de tablas&quot;. |
-| Carpetas | Páginas dedicadas para [Administración de carpetas](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| Preferencias del usuario | Muchas preferencias de usuario adicionales están ahora disponibles en [Preferencias](/help/analyze/analysis-workspace/user-preferences.md). |
-| Guardar automáticamente para proyectos | Se ha actualizado el contenido para incluir la funcionalidad de guardado automático en [Guardar proyectos](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
-| Página de aterrizaje | Nuevo [actualizaciones de la página de aterrizaje](/help/analyze/landing.md) |
+| Carpetas | Páginas específicas para la [administración de carpetas](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
+| Preferencias de usuario | Muchas preferencias de usuario adicionales están ahora disponibles en [Preferencias](/help/analyze/analysis-workspace/user-preferences.md). |
+| Guardado automático para proyectos | Contenido actualizado para incluir la funcionalidad de guardado automático en [Guardar proyectos](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
+| Página de aterrizaje | Nuevas [actualizaciones de la página de aterrizaje](/help/analyze/landing.md) |
 
 ### 2022 {#22}
 
@@ -73,7 +73,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Tema nuevo en el panel [!UICONTROL Resumen de página] | [Panel Resumen de página](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Tema nuevo en el panel [!UICONTROL Elemento siguiente/anterior] | [Panel Elemento de dimensión siguiente/anterior](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Marzo de 2022** |  |
-| Tema nuevo sobre los algoritmos de cifrado HTTPS admitidos | [Algoritmos de cifrado HTTPS admitidos](/help/technotes/rdc/encryption-algos.md) para clientes con un nivel de seguridad cifrado establecido en “Alto”. |
+| Tema nuevo sobre los algoritmos de cifrado HTTPS admitidos | [Algoritmos de cifrado HTTPS admitidos](/help/technotes/rdc/encryption-algos.md) para clientes con un nivel de seguridad de cifrado establecido en “Alto”. |
 | Nueva documentación sobre anotaciones en Analysis Workspace | [Las anotaciones en Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. |
 | Actualizaciones de la página de aterrizaje de Adobe Analytics | [Actualizaciones](/help/analyze/landing.md) a la página de aterrizaje conjunta de Analysis Workspace/Reports &amp; Analytics que mejora la facilidad de uso y navegación. |
 | [!UICONTROL Elemento siguiente] o [!UICONTROL Elemento anterior] Panel de espacio de trabajo | Este panel le permite explorar elementos que siguen o preceden a un elemento de dimensión de su elección. |

@@ -5,7 +5,7 @@ exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
 workflow-type: tm+mt
 source-wordcount: '1247'
-ht-degree: 69%
+ht-degree: 94%
 
 ---
 
@@ -21,9 +21,9 @@ Google divide las sugerencias del cliente agente de usuario en dos categorías: 
 
 * Las sugerencias de **alta entropía** contienen información más detallada. Estas solo están disponibles si se solicitan. AppMeasurement y SDK web se pueden configurar para solicitar sugerencias de alta entropía. De forma predeterminada, **ninguna** de las dos bibliotecas solicita sugerencias de alta entropía.
 
-A partir de octubre de 2022, las nuevas versiones de los exploradores Chromium empezaron a &quot;congelar&quot; la versión del sistema operativo representada en la cadena User-Agent. La versión del sistema operativo es una sugerencia de alta entropía, por lo que para mantener su precisión en la creación de informes es necesario configurar la biblioteca de colección para recopilar estas sugerencias de alta entropía. Con el tiempo, se bloqueará otra información del dispositivo del agente de usuario, lo que requiere sugerencias del cliente para mantener la precisión de la creación de informes de dispositivos.
+A partir de octubre de 2022, las nuevas versiones de los exploradores Chromium empezaron a “bloquear” la versión del sistema operativo representada en la cadena del agente de usuario. La versión del sistema operativo es una sugerencia de alta entropía, por lo que para mantener su precisión en la creación de informes es necesario configurar la biblioteca de colección para recopilar estas sugerencias de alta entropía. Con el tiempo, se bloqueará otra información del dispositivo del agente de usuario, lo que requiere sugerencias del cliente para mantener la precisión de la creación de informes de dispositivos.
 
-Las sugerencias del cliente se incorporarán al proceso de búsqueda de dispositivos de Analytics a partir del 16 de febrero de 2023. AppMeasurement y el SDK web admiten actualmente la recopilación de datos de sugerencias, pero no se utilizarán en la búsqueda de dispositivos hasta mediados de febrero. Como se indica a continuación, la versión del sistema operativo se congeló a partir de octubre, pero debido a un despliegue gradual y al hecho de que muchos agentes de usuario ya proporcionan una versión del sistema operativo congelada (ver más [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es)), estimamos que esto afectará a &lt;3% de los visitantes de Chrome.
+Las sugerencias del cliente se incorporarán al proceso de búsqueda de dispositivos de Analytics a partir del 16 de febrero de 2023. AppMeasurement y el SDK web admiten actualmente la recopilación de datos de sugerencias, pero no se emplearán en la búsqueda de dispositivos hasta mediados de febrero. Como se indica a continuación, la versión del sistema operativo se bloqueó a partir de octubre, pero debido a un despliegue gradual y al hecho de que muchos agentes de usuario ya proporcionan una versión del sistema operativo bloqueada (ver más [aquí](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es)), estimamos que esto afectará a menos del 3 % de los visitantes de Chrome.
 
 >[!NOTE]
 >
@@ -41,11 +41,11 @@ Esta [publicación de blog de Google](https://web.dev/user-agent-client-hints/) 
 
 +++**¿Cómo habilito la colección de sugerencias del cliente?**
 
-El explorador proporciona automáticamente sugerencias de baja entropía, ingeridas para derivar la información del dispositivo y del explorador. Se pueden configurar versiones más recientes del SDK web (a partir de 2.12.0) y AppMeasurement (a partir de 2.23.0) para recopilar sugerencias de alta entropía mediante sus respectivas extensiones de etiquetas o directamente mediante una opción de configuración. Consulte las instrucciones para [SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) y [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
+El explorador proporciona automáticamente sugerencias de baja entropía, ingeridas para derivar la información del dispositivo y del explorador. Se pueden configurar versiones más recientes del SDK web (a partir de 2.12.0) y AppMeasurement (a partir de 2.23.0) para recopilar sugerencias de alta entropía mediante sus respectivas extensiones de etiquetas o directamente mediante una opción de configuración. Consulte las instrucciones para [SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=es#enabling-high-entropy-client-hints) y [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=es).
 
 Para ambas bibliotecas, la colección de sugerencias de alta entropía está **desactivada de forma predeterminada**.
 
-Para los datos enviados mediante API, como mediante [API de inserción de datos](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) o [API de inserción de datos en lotes](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), las sugerencias deben incluirse explícitamente en la carga útil. Consulte la documentación correspondiente para obtener más información.
+Para los datos enviados mediante API, como [API de inserción de datos](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) o [API de inserción de datos en lotes](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=es), las sugerencias deben incluirse explícitamente en la carga útil. Consulte la documentación correspondiente para obtener más detalles.
 
 +++
 
@@ -84,15 +84,15 @@ Los campos de dispositivo disponibles para la creación de informes no cambiará
 
 +++
 
-+++**¿Qué campos de creación de informes de Analytics se derivan del agente de usuario?**
++++**¿Qué campos de creación de informes de Analytics derivan del agente de usuario?**
 
 Estos campos derivan directamente del agente de usuario, pero este se puede utilizar para derivar valores para otros campos relacionados con el dispositivo, según sus detalles.
 
-* [Explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
-* [Tipo de explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
-* [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
-* [Tipos de sistemas operativos](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
-* [Tipo de dispositivo móvil y dispositivo móvil](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
+* [Explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=es)
+* [Tipo de explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=es)
+* [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es)
+* [Tipos de sistemas operativos](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=es)
+* [Tipo de dispositivo móvil y dispositivo móvil](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=es)
 
 +++
 
@@ -104,9 +104,9 @@ Consulte la [cronología publicada por Google](https://blog.chromium.org/2021/09
 
 +++**¿De qué manera Analytics depende del agente de usuario?**
 
-La información del dispositivo en los informes se deriva del agente de usuario. Hemos actualizado nuestros procesos para utilizar tanto las sugerencias del agente de usuario como las del cliente cuando estén disponibles.
+La información del dispositivo en la creación de informes deriva del agente de usuario. Hemos actualizado nuestros procesos para utilizar tanto las sugerencias del agente de usuario como las del cliente cuando estén disponibles.
 
-El ID de reserva ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) se deriva del agente de usuario y de la dirección IP. Este ID solo se utiliza si no se puede configurar una cookie, por lo que no se utiliza de forma generalizada
+El Fallback ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=es)) deriva del agente de usuario y de la dirección IP. Este ID solo se utiliza si no se puede configurar una cookie, por lo que no se utiliza de forma generalizada
 
 +++
 
@@ -120,7 +120,7 @@ Consulte la [cronología publicada por Google](https://blog.chromium.org/2021/09
 
 +++**¿Cómo usará Adobe las sugerencias del cliente para derivar información del dispositivo?**
 
-Adobe utiliza un tercero, Device Atlas, que usará tanto las sugerencias del cliente como el User-Agent para obtener información del dispositivo.
+Adobe utiliza un tercero, DeviceAtlas, que usa las sugerencias del cliente y del agente de usuario para obtener información del dispositivo.
 
 +++
 

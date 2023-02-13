@@ -7,7 +7,7 @@ exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
 source-wordcount: '3947'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ La página de aterrizaje de Adobe Analytics reúne a [!DNL Analysis Workspace] y
 | Un solo clic para abrir un informe | Anteriormente, se tenía que hacer doble clic. |  |
 | Nuevos vínculos a informes de **[!UICONTROL Reports &amp; Analytics]** | <ul><li>**[!UICONTROL Informes]** > **[!UICONTROL Audiencia]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Informes]** > **[!UICONTROL Audiencia]** > **[!UICONTROL Páginas de bots]**<li>**[!UICONTROL Informes]** > **[!UICONTROL Participación]** > **[!UICONTROL Tiempo real]**</li></ul> | ![Nuevos vínculos](assets/report-links.png) |
 | Nuevos informes predeterminados | <ul><li>**[!UICONTROL Informes]** > **[!UICONTROL Más popular]** > **[!UICONTROL Página siguiente]**</li><li>**[!UICONTROL Informes]** > **[!UICONTROL Más popular]** > **[!UICONTROL Página anterior]**</li><li>**[!UICONTROL Informes]** > **[!UICONTROL Participación]** > **[!UICONTROL Análisis de página]** > **[!UICONTROL Resumen de la página]**</li></ul>Tenga en cuenta que estos informes se encuentran en el [!UICONTROL Espacio de trabajo] y requieren configuración y compilación. El resultado consiste en un panel de métricas de alto nivel, datos de tendencias, [!UICONTROL Flujo] visualización, etc. Puede modificar estos informes y cambiar dimensiones, elementos de las dimensiones, etc. Estos informes también están disponibles como paneles en los paneles del espacio de trabajo. | ![Página siguiente](assets/next-page.png) |
-| **[!UICONTROL Crear proyecto]** el modal vuelve | Al hacer clic en **[!UICONTROL Crear proyecto]** en Workspace, una vez más puede elegir entre una [!UICONTROL Proyecto en blanco] y [!UICONTROL Informe de valoración móvil en blanco]. También puede elegir entre cualquier plantilla que haya creado su compañía. | ![Crear nuevo](assets/create-new.png) |
+| El modal **[!UICONTROL Crear proyecto]** está de vuelta | Al hacer clic en **[!UICONTROL Crear proyecto]** en el Espacio de trabajo, una vez más puede elegir entre un [!UICONTROL Proyecto en blanco] y un [!UICONTROL Cuadro de resultados móviles en blanco]. También puede elegir entre cualquier plantilla que haya creado su compañía. | ![Crear nuevo](assets/create-new.png) |
 | También disponible en Customer Journey Analytics | Esta página de aterrizaje, en un formulario modificado, también está disponible en CJA. |  |
 
 {style=&quot;table-layout:auto&quot;}
@@ -48,44 +48,44 @@ La página de aterrizaje de Adobe Analytics reúne a [!DNL Analysis Workspace] y
 
 ## Vaya a la pestaña [!UICONTROL Proyectos] {#navigate-projects}
 
-[!UICONTROL Proyectos] sirve como página de inicio del [!UICONTROL Espacio de trabajo]. La pestaña Proyectos muestra la carpeta Empresa, las carpetas personales que ha creado, los proyectos y los informes de valoración de Mobile. Utilice esta página para ver, crear y modificar carpetas, proyectos y informes de valoración móviles. Para obtener más información, consulte [Acerca de las carpetas en Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+[!UICONTROL Proyectos] sirve como página de inicio de [!UICONTROL Workspace]. La pestaña Proyectos muestra la carpeta Compañía, las carpetas personales que ha creado, los proyectos y los informes de valoración móviles. Utilice esta página para ver, crear y modificar carpetas, proyectos e informes de valoración móviles. Para obtener más información, consulte [Acerca de las carpetas en Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
 ![Aterrizar todo](assets/landing-all2.png)
 
 >[!NOTE]
 >
->Varias de las siguientes configuraciones persisten durante la sesión y entre sesiones. Por ejemplo, la ficha seleccionada, los filtros seleccionados, las columnas seleccionadas y la dirección de clasificación de las columnas. Los resultados de la búsqueda no son persistentes.
+>Varias de las siguientes configuraciones persisten durante la sesión y entre sesiones. Por ejemplo, la pestaña seleccionada, los filtros seleccionados, las columnas seleccionadas y la dirección de clasificación de las columnas. Los resultados de la búsqueda no son persistentes.
 
 | Elemento de la IU | Definición |
 | --- | --- |
 | Editar preferencias | Le permite [!UICONTROL Ver tutoriales] y [Editar preferencias de usuario](/help/analyze/analysis-workspace/user-preferences.md). |
-| [!UICONTROL Crear nuevo] | Abre el modal del proyecto, donde puede crear un proyecto de Workspace o un informe de valoración móvil o abrir una plantilla de empresa. |
-| [!UICONTROL Mostrar menos<br> Mostrar más] | Alterna entre no mostrar y mostrar el titular: ![titular superior](assets/top-banner.png)  |
-| [!UICONTROL Proyecto del Espacio de trabajo] | Crea un espacio en blanco [Proyecto de Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es) para que diseñe y construya. |
-| [!UICONTROL Informe de valoración móvil] | Crea un espacio en blanco [informe de valoración móvil](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=es) para que diseñe y construya. |
-| [!UICONTROL Tutorial de formación abierta] | Abre el tutorial de formación de Workspace que le guía a través del proceso de creación de un nuevo proyecto de inicio en un tutorial paso a paso. |
+| [!UICONTROL Crear nuevo] | Abre el modal del proyecto, donde puede crear un proyecto del Espacio de trabajo o un informe de valoración móvil o abrir una plantilla de empresa. |
+| [!UICONTROL Mostrar menos<br> Mostrar más] | Alterna entre no mostrar y mostrar el titular: ![titular superior](assets/top-banner.png) |
+| [!UICONTROL Proyecto del Espacio de trabajo] | Crea un [proyecto del Espacio de trabajo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es) en blanco para que pueda diseñarlo y elaborarlo. |
+| [!UICONTROL Informe de valoración móvil] | Crea un [informe de valoración móvil](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=es) en blanco para que pueda diseñarlo y elaborarlo. |
+| [!UICONTROL Abrir tutorial de formación] | Abre el tutorial de formación del Espacio de trabajo que le guía a través del proceso de creación de un nuevo proyecto de inicio en un tutorial paso a paso. |
 | [!UICONTROL Abrir notas de la versión] | Abre la sección Adobe Analytics de las últimas notas de la versión de Adobe Experience Cloud. |
-| Icono de filtro | Filtros por etiquetas, grupos de informes, propietarios, tipos y otros filtros (Míos, Compartidos conmigo, Favoritos y Aprobados) |
+| Icono de filtro | Filtre por etiquetas, grupos de informes, propietarios, tipos y otros filtros (Míos, Compartidos conmigo, Favoritos y Aprobados) |
 | Barra de búsqueda | Busca todas las columnas de la tabla. |
-| Cuadro de selección | Selecciona uno o varios proyectos para mostrar las acciones de administración de proyectos que puede realizar: **Eliminar**, **Compartir**, **Cambiar nombre**, **Copiar**, **Desanclar**, **Subir**, **Bajar**, **Etiqueta**, **Aprobar**, **Exportar CSV** y **Mover a**. Es posible que no tenga permisos para realizar todas las acciones de la lista. |
-| [!UICONTROL Favoritos] | Agrega una estrella junto a un proyecto o carpeta favoritos que se puede usar como filtro. |
+| Cuadro de selección | Selecciona uno o varios proyectos para mostrar las acciones de administración de proyectos que puede realizar: **Eliminar**, **Compartir**, **Cambiar nombre**, **Copiar**, **Desanclar**, **Subir**, **Bajar**, **Etiqueta**, **Aprobar**, **Exportar CSV** y **Mover a**. Es posible que no tenga permisos para realizar todas estas acciones. |
+| [!UICONTROL Favoritos] | Agrega una estrella junto a un proyecto o una carpeta favoritos que se puede usar como filtro. |
 | [!UICONTROL Nombre] | Identifica el nombre del proyecto. |
-| Icono de anclaje | Anclar elementos para que siempre aparezcan en la parte superior de la lista, pero puede volver a ajustar el orden moviéndolos hacia arriba o hacia abajo en el orden. Utilice el menú de opciones de elipsis y seleccione **Subir** o **Bajar** en la lista. |
-| Icono de información (i) | Muestra la siguiente información sobre un proyecto: Escriba, función del proyecto, propietario, descripción y con quién se comparte. También indica quién puede [editar o duplicar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) este proyecto. |
-| Puntos suspensivos (...) | Muestra las acciones de administración de proyectos que puede realizar: **Eliminar**, **Compartir**, **Cambiar nombre**, **Copiar**, **Desanclar**, **Subir**, **Bajar**, **Etiqueta**, **Aprobar**, **Exportar CSV** y **Mover a**. Es posible que no tenga permisos para realizar todas las acciones de la lista. |
-| [!UICONTROL Tipo] | Indica si este tipo es un proyecto de Workspace, un informe de valoración móvil o una carpeta. |
+| Icono de anclaje | Ancla elementos para que siempre aparezcan en la parte superior de la lista, pero puede volver a ajustar el orden moviéndolos hacia arriba o hacia abajo en el orden. Utilice el menú de opciones de puntos suspensivos y seleccione **Subir** o **Bajar** en la lista. |
+| Icono de información (i) | Muestra la siguiente información sobre un proyecto: Escribir, Función del proyecto, Propietario, Descripción y con quién se comparte. También indica quién puede [editar o duplicar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) este proyecto. |
+| Puntos suspensivos (...) | Muestra las acciones de administración de proyectos que puede realizar: **Eliminar**, **Compartir**, **Cambiar nombre**, **Copiar**, **Desanclar**, **Subir**, **Bajar**, **Etiqueta**, **Aprobar**, **Exportar CSV** y **Mover a**. Es posible que no tenga permisos para realizar todas estas acciones. |
+| [!UICONTROL Tipo] | Indica si este tipo es un proyecto del Espacio de trabajo, un informe de valoración móvil o una carpeta. |
 | [!UICONTROL Etiquetas] | Etiqueta proyectos para organizarlos en grupos. |
-| [!UICONTROL Función del proyecto] | Identifica las funciones del proyecto: si es el propietario del proyecto y si tiene permisos para editar o duplicar el proyecto. |
+| [!UICONTROL Función del proyecto] | Identifica las funciones de proyecto: si usted es el propietario del proyecto y si tiene permisos para editar o duplicar el proyecto. |
 | [!UICONTROL Grupo de informes] | Identifica los grupos de informes asociados al proyecto.<br>Las tablas y visualizaciones de un panel derivan datos del grupo de informes seleccionado en la parte superior derecha del panel. El grupo de informes también determina qué componentes están disponibles en el carril izquierdo. Dentro de un proyecto, puede utilizar uno o varios grupos de informes en función de los casos de uso del análisis. La lista de grupos de informes se ordena según la relevancia. Adobe define la relevancia en función del uso reciente y de la frecuencia con que el usuario actual ha utilizado el grupo, y en función de la frecuencia con la que el grupo se utiliza dentro de la organización. |
-| [!UICONTROL Propietario] | Identifica a la persona que creó el proyecto. |
+| [!UICONTROL Propietario] | Identifica la persona que creó el proyecto. |
 | [!UICONTROL Última apertura] | Identifica la última fecha en que abrió el proyecto. |
-| Icono Personalizar tabla | Selecciona qué columnas se verán en la tabla. Para agregar o quitar columnas de la lista de proyectos, haga clic en el icono de columna (![Landing all](/help/analyze/assets/select-column.png) ) en la parte superior derecha, seleccione o anule la selección de los títulos de las columnas. |
-| MOSTRAR: Carpetas y proyectos para todos los proyectos | Cambia la configuración de vista de la tabla para mostrar carpetas y proyectos según la organización de carpetas **o** mostrar todos los proyectos en una lista desorganizada. |
-| &lt; (Botón Atrás) | Le devuelve a la configuración de página de aterrizaje más reciente de un proyecto o un informe de Workspace. La configuración de página que tenía al salir de la página de aterrizaje persistirá cuando vuelva. |
+| Icono Personalizar tabla | Selecciona qué columnas se verán en la tabla. Para agregar o quitar columnas de la lista de proyectos, haga clic en el icono de columna (![Aterrizar todo](/help/analyze/assets/select-column.png)) en la parte superior derecha y, a continuación, seleccione o anule la selección de los títulos de las columnas. |
+| MOSTRAR: Carpetas y proyectos o Todos los proyectos | Cambia la configuración de vista de la tabla para mostrar carpetas y proyectos según la organización de carpetas **o** mostrar todos los proyectos en una lista desorganizada. |
+| &lt; (Botón Atrás) | Le devuelve a la configuración de página de aterrizaje más reciente de un proyecto o un informe del Espacio de trabajo. La configuración de la página que tenía cuando abandonó la página de aterrizaje se mantendrá cuando regrese. |
 
 ### Obsolescencia de la página Administrador de proyectos {#deprecate-pm-page}
 
-Con el lanzamiento de la nueva página de aterrizaje, se ha desaprobado el Administrador de proyectos como aparece en el Administrador de componentes. La nueva página de aterrizaje gestiona todas las funciones de la antigua página Administrador de proyectos y más.
+Con el lanzamiento de la nueva página de aterrizaje, ha quedado en desuso el Administrador de proyectos como se muestra en el Administrador de componentes. La nueva página de aterrizaje gestiona todas las funciones de la antigua página Administrador de proyectos y más.
 
 Un caso de uso común para la página Administrador de proyectos era ver todos sus proyectos.
 
@@ -93,11 +93,11 @@ Para ver todos los proyectos en la nueva página de aterrizaje mediante el carri
 
 ![Mostrar todos los proyectos](assets/show-all-fIlter.png)
 
-Si está en la vista &quot;Carpetas y proyectos&quot;, aparecerá un modal en el que se le preguntará si desea cambiar a la vista &quot;Todos los proyectos&quot;, lo que facilita la visualización de todos los proyectos fuera de las carpetas en las que se puedan organizar.   Select **Cambiar a la vista &quot;Todos los proyectos&quot;** para ver mejor todos los proyectos a los que tiene acceso.
+Si está en la vista “Carpetas y proyectos”, aparecerá un modal en el que se le preguntará si desea cambiar a la vista “Todos los proyectos”, lo que facilita la visualización de todos los proyectos fuera de las carpetas en las que se puedan organizar.   Seleccione **Cambiar a la vista “Todos los proyectos”** para ver mejor todos los proyectos a los que tiene acceso.
 
 ![Cambiar a Todos los proyectos](assets/switch-all-projects-view.png)
 
-Otro caso de uso para los administradores es administrar los informes de la empresa para eliminar, cambiar el nombre, etiquetar o aprobar informes. Para obtener información sobre la administración de informes, consulte [Administración de informes de la empresa](#manage-company-reports).
+Otro caso de uso para los administradores es administrar los informes de la empresa para eliminar, cambiar el nombre, etiquetar o aprobar informes. Para obtener información sobre la administración de informes, consulte [Administración de informes de la compañía](#manage-company-reports).
 
 ## Vaya a la pestaña [!UICONTROL Informes] {#navigate-reports}
 
@@ -171,9 +171,9 @@ Para los usuarios actuales de Reports &amp; Analytics, aquí tiene una breve int
    * Puede cambiar el intervalo de fechas en el calendario, en la parte superior derecha.
    * Puede agregar desgloses de dimensión, arrastrar otras métricas y, por lo general, personalizar el informe de la manera que desee.
 
-### Crear un informe de empresa personalizado {#company-report}
+### Creación de un informe de la compañía personalizado {#company-report}
 
-Los informes personalizados creados y guardados para que los demás usuarios de su empresa de inicio de sesión los utilicen, se denominan informes de la empresa. Los informes de empresa creados anteriormente y los informes de empresa recién creados se muestran en el modal Crear proyecto , como se muestra a continuación.
+Los informes personalizados creados y guardados para que los demás usuarios de su empresa de inicio de sesión los utilicen, se denominan informes de la compañía. Los informes de la compañía creados anteriormente y los recién creados se muestran en el modal Crear proyecto, como se muestra a continuación.
 
 Para crear un nuevo Informe de la compañía:
 
@@ -184,7 +184,7 @@ Para crear un nuevo Informe de la compañía:
 
 1. Añada todos los campos deseados al modal y guárdelo.
 
-   El informe se agrega a la lista Informes de la empresa en el modal Crear proyecto y está disponible para los usuarios de la empresa de inicio de sesión.
+   El informe se añade a la lista de informes de la compañía en el modal Crear proyecto y está disponible para los usuarios de la empresa de inicio de sesión.
 
 Más opciones de aprendizaje:
 
@@ -193,32 +193,32 @@ Más opciones de aprendizaje:
 * Aquí tiene un vínculo a la [documentación completa de Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 * Esta es la [lista de reproducción completa de YouTube de Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
-### Administración de informes de la empresa {#manage-company-reports}
+### Administración de informes de la compañía {#manage-company-reports}
 
-Los administradores pueden filtrar la lista de proyectos para mostrar y administrar los informes de la empresa. Los elementos anclados permanecen anclados seguidos de la lista de informes de la empresa identificados por la variable ![icono del informe](assets/report-icon.png) icono del informe . En esta vista, puede eliminar, cambiar el nombre, etiquetar o aprobar uno o más informes.
+Los administradores pueden filtrar la lista de proyectos para mostrar y administrar los informes de la compañía. Los elementos anclados permanecen anclados seguidos de la lista de informes de la compañía que se identifican con el icono de informe ![icono de informe . ](assets/report-icon.png) En esta vista, puede eliminar, cambiar el nombre, etiquetar o aprobar uno o más informes.
 
-Para mostrar y administrar los informes de la empresa
+Para mostrar y administrar los informes de la compañía
 
-1. En el carril de filtro, seleccione **OTROS FILTROS** y, a continuación, seleccione **Informes de la empresa**.
-Se muestra una lista de los informes de empresa. No se muestran todos los proyectos normales, a menos que estén anclados.
+1. En el carril de filtro, seleccione **OTROS FILTROS** y, a continuación, seleccione **Informes de la compañía**.
+Se muestra una lista de los informes de la compañía. No se muestran todos los proyectos normales, a menos que estén anclados.
 
-   ![Mostrar los filtros de informes de la empresa](assets/company-reports-filter.png)
+   ![Mostrar los filtros de informes de la compañía](assets/company-reports-filter.png)
 
-   Cuando se muestran los informes de la empresa, los administradores pueden eliminar, cambiar el nombre, añadir una etiqueta o aprobar el informe.
+   Cuando se muestran los informes de la compañía, los administradores pueden eliminar, cambiar el nombre, añadir una etiqueta o aprobar el informe.
 
 1. En la lista de informes, seleccione un solo informe o varios informes.
 
-1. Haga clic en el **...** icono de elipsis junto a un informe para ver las opciones disponibles (Eliminar, Cambiar nombre, Etiquetar y Aprobar).
+1. Haga clic en el icono de puntos suspensivos **…** junto a un informe para ver las opciones disponibles (Eliminar, Cambiar nombre, Etiquetar y Aprobar).
 
-   ![Acciones del informe de la empresa](assets/company-reports-actions.png)
+   ![Acciones del informe de la compañía](assets/company-reports-actions.png)
 
 1. Seleccione una opción (Eliminar, Cambiar nombre, Etiquetar y Aprobar).
 
-1. Para volver a la vista normal cuando haya terminado, en el carril de filtro, vuelva a desmarcar la opción Informes de empresa .
+1. Para volver a la vista normal cuando haya terminado, en el carril de filtro, vuelva a desmarcar la opción Informes de la compañía.
 
-### Eliminar un informe de empresa
+### Eliminar un informe de la compañía
 
-Los administradores pueden eliminar un informe mediante la opción de lista de informes de la empresa (descrita anteriormente) o eliminar un informe del modo Crear proyecto .
+Los administradores pueden eliminar un informe mediante la opción Lista de informes de la compañía (descrita anteriormente) o eliminar un informe en el modal Crear proyecto.
 
 ![Otros filtros](assets/delete-fr-create-project-modal.png)
 
@@ -227,11 +227,11 @@ Los administradores pueden eliminar un informe mediante la opción de lista de i
 
 La página Aprendizaje contiene tutoriales y recorridos en vídeo prácticos, además de vínculos a documentación.
 
-* El recorrido [!UICONTROL Conceptos básicos del Espacio de trabajo] le lleva directamente a Espacio de trabajo, y le explica el diseño del Espacio de trabajo y dónde encontrar y realizar las acciones más comunes. También se puede reiniciar en cualquier momento directamente en el Espacio de trabajo en la ventana emergente de información del panel del encabezado.
+* El recorrido [!UICONTROL Conceptos básicos de Workspace] le lleva directamente a Workspace, y le explica el diseño de Workspace y dónde encontrar y realizar las acciones más comunes. También se puede reiniciar en cualquier momento directamente en Workspace, en la ventana emergente de información del panel del encabezado.
 * Al hacer clic en un vídeo/recorrido, se agrega la etiqueta **[!UICONTROL Visto]**. Esta etiqueta le ayuda a realizar un seguimiento del progreso por el contenido de aprendizaje. Puede hacer clic en la etiqueta y desaparece, en caso de que aún no haya completado el contenido.
 * El botón **[!UICONTROL Más información]** del modo de vídeo le lleva a una página de documentación de Adobe Experience League con más contenido de ayuda relacionado con el vídeo que acaba de ver.  **[!UICONTROL Ver más vídeos]** le dirige a la lista de reproducción completa de YouTube de Analysis Workspace.
 
-## Establecer la página de aterrizaje {#set-landing}
+## Establecer una página de aterrizaje {#set-landing}
 
 Los usuarios pueden establecer su página de aterrizaje preferida.
 
@@ -252,7 +252,7 @@ Los administradores pueden ocultar la pestaña Informes para todos los usuarios 
 | Pregunta | Respuesta |
 | --- | --- |
 | ¿Dónde están las plantillas que estoy acostumbrado a ver en el [!UICONTROL espacio de trabajo]? | Esas plantillas se agrupan en la pestaña [!UICONTROL Informes]. |
-| ¿El trabajo realizado en la IU del programa beta se transfiere a la experiencia de producción del [!UICONTROL espacio de trabajo]? | Sí, cualquier trabajo realizado en la versión beta se transfiere a la experiencia antigua/actual del [!UICONTROL Espacio de trabajo]. |
+| ¿El trabajo realizado en la IU del programa beta se transfiere a la experiencia de producción de [!UICONTROL Workspace]? | Sí, cualquier trabajo realizado en la versión beta se transfiere a la experiencia antigua/actual del [!UICONTROL Espacio de trabajo]. |
 | ¿Se transfieren mis favoritos actuales de [!DNL Reports & Analytics]? | No, NO se transfieren. Sin embargo, todos los favoritos del proyecto del [!UICONTROL Espacio de trabajo] sí se transfieren. |
 | ¿Hay un número máximo de proyectos que pueda fijar? | No, no hay límite en el número de proyectos que puede fijar. |
 | ¿Pueden los administradores designar esta página de aterrizaje para sus usuarios? | No, los administradores no pueden designar la página de aterrizaje en nombre de los usuarios. Los usuarios individuales deben activar la opción ellos mismos. |

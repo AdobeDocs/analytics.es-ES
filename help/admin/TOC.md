@@ -7,7 +7,7 @@ user-guide-description: Obtenga información acerca de las tareas de administrac
 source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 94%
          + [Métricas predeterminadas](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [Administración de aplicaciones](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [Administración de medios](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
-         + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
+         + [Página de ](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Creación de informes de privacidad](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
@@ -156,20 +156,20 @@ ht-degree: 94%
       + [Alertas de uso de llamadas al servidor](admin/c-server-call-usage/scu-alerts.md)
       + [Preguntas frecuentes sobre uso de llamadas al servidor](admin/c-server-call-usage/overage-faq.md)
    + Administración de usuarios y productos (heredados) {#user-product-management}
-      + [Administración de usuarios y productos (Heredado)](admin/user-management2/user-management.md)
+      + [Administración de usuarios y productos  (Heredados)](admin/user-management2/user-management.md)
       + Migración de usuarios a Adobe Admin Console {#migrate-users}
          + [Migración de usuarios de Analytics a Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migración de cuentas de usuarios de Analytics para Adobe ID](admin/user-management2/user-migration/t-migrate-users.md)
          + [Migración de las cuentas de usuario de Analytics para Enterprise ID y Federated ID](admin/user-management2/user-migration/migrate-enterprise.md)
          + [Desactivación de inicios de sesión heredados](admin/user-management2/user-migration/t-disable-legacy-login.md)
          + [API afectadas por la migración](admin/user-management2/user-migration/developer.md)
-+ Gobierno de datos {#data-governance}
++ Administración de datos {#data-governance}
    + [Flujo de trabajo de privacidad de datos de Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
    + [Preguntas frecuentes](c-data-governance/gdpr-faq.md)
    + Etiquetado de datos {#data-labels}
       + [Etiquetas de privacidad de datos para componentes de Analytics](c-data-governance/data-labeling/gdpr-labels.md)
       + [Etiquetado de datos de grupos de informes](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [Ver/administrar las etiquetas de privacidad del grupo de informes](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [Ver/administrar etiquetas de privacidad del grupo de informes](c-data-governance/data-labeling/gdpr-view-settings.md)
       + [Prácticas recomendadas de etiquetado](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [Ejemplo de etiquetado](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [Espacios de nombres](c-data-governance/data-labeling/gdpr-namespaces.md)

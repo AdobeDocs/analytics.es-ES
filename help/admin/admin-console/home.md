@@ -6,7 +6,7 @@ feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 81%
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,6 @@ En este capítulo, se explican los conceptos que necesita conocer sobre los perf
 
 ## Añadir un administrador en Adobe Analytics
 
-Vea el siguiente vídeo demostrativo para aprender a añadir un administrador en Adobe Analytics:
+Vea el siguiente vídeo demostrativo para obtener información acerca de cómo añadir un administrador en Adobe Analytics:
 
 [Añadir un administrador en Adobe Analytics](https://video.tv.adobe.com/v/37648/?quality=12){target=_blank}

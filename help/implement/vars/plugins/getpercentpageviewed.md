@@ -6,7 +6,7 @@ exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 source-git-commit: bebd9e9e53c05d697adf52e5a2bdda3ca60796f2
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
     * Action Type: Initialize getPercentPageViewed
 1. Save and publish the changes to the rule.-->
 
-## Instalación del complemento con el editor de código personalizado de 
+## Instalación del complemento con el editor de código personalizado
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
@@ -58,18 +58,18 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 La función `getPercentPageViewed` utiliza los argumentos siguientes:
 
-* **`pid`** (opcional, cadena): Variable o valor igual a la página actual. Valores predeterminados de AppMeasurement de Analytics `pageName` O la dirección URL actual si la variable pageName de AppMeasurement no está configurada.
-* **`ch`** (opcional, booleano): Configúrelo en `false` (o `0`) si no desea que el complemento tenga en cuenta los cambios realizados en el tamaño de una página después de su carga inicial. Si se omite, el valor predeterminado de este argumento es `true`. Adobe recomienda omitir este argumento en la mayoría de los casos.
+* **`pid`** (opcional, cadena): variable o valor igual a la página actual. Su valor predeterminado es la variable `pageName` de AppMeasurement Analytics O la dirección URL actual si dicha variable no se ha establecido.
+* **`ch`** (opcional, booleano): configúrelo en `false` (o `0`) si no desea que el complemento tenga en cuenta los cambios realizados en el tamaño de una página después de su carga inicial. Si se omite, el valor predeterminado de este argumento es `true`. Adobe recomienda omitir este argumento en la mayoría de los casos.
 
 Llamar a esta función no devuelve nada; en su lugar, establece las siguientes variables:
 
 * `window._ppvPreviousPage`: El nombre de la página anterior que vio el visitante. Las mediciones de desplazamiento finales de la página actual no estarán disponibles hasta que se cargue una página nueva.
 * `window._ppvInitialPercentViewed`: El porcentaje de la página anterior que era visible cuando se cargó la página. Si toda la página está visible la primera vez que se carga, este valor es `100`.
-* `window._ppvHighestPercentViewed`: El porcentaje más alto de la página anterior que vio el visitante (en altura). El punto más alejado al que se desplazó el visitante en la página anterior. Si toda la página está visible la primera vez que se carga, este valor es `100`.
-* `window._ppvFinalPercentViewed`: El porcentaje de la página anterior que era visible en el momento en que el visitante se movió a la página actual. Este valor será igual o bueno al porcentaje inicial visto y también será igual o menor que el porcentaje más alto visto.
-* `window._ppvHighestPixelsSeen`: El número más elevado de píxeles vistos (en cuanto a altura) al desplazarse hacia abajo el visitante en la página anterior.
+* `window._ppvHighestPercentViewed`: el porcentaje más alto de la página anterior que vio el visitante (en cuanto a altura). El punto más alejado al que se desplazó el visitante en la página anterior. Si toda la página está visible la primera vez que se carga, este valor es `100`.
+* `window._ppvFinalPercentViewed`: el porcentaje de la página anterior que era visible en el momento en que el visitante se movió a la página actual. Este valor será igual o mayor que el porcentaje inicial visto y también será igual o menor que el porcentaje más alto visto.
+* `window._ppvHighestPixelsSeen`: el número más elevado de píxeles vistos (en cuanto a altura) al desplazarse hacia abajo el visitante en la página anterior.
 * `window._ppvFoldsAvailable`: El número total de “pliegues de página” disponibles para desplazarse hacia abajo en la página anterior. Si toda la página está visible la primera vez que se carga, este valor es `1`.
-* `window._ppvFoldsSeen`: El número más elevado de “pliegues de página” alcanzados al desplazarse hacia abajo el visitante en la página anterior. Esta variable incluye el pliegue “principio de página”. Si toda la página está visible la primera vez que se carga, este valor es `1`.
+* `window._ppvFoldsSeen`: el número más elevado de “pliegues de página” alcanzados al desplazarse hacia abajo el visitante en la página anterior. Esta variable incluye el pliegue “principio de página”. Si toda la página está visible la primera vez que se carga, este valor es `1`.
 
 Asigne una o más de estas variables a las eVars para ver los datos de dimensión en los informes.
 
@@ -104,7 +104,7 @@ if(_ppvPreviousPage)
 
 ### 5.1 (8 de diciembre de 2022)
 
-* Se ha añadido la variable `_finalPercentViewed` solución
+* Se ha añadido la solución `_finalPercentViewed`
 
 ### 5.0.1 (22 de junio de 2021)
 

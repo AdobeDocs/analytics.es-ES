@@ -6,7 +6,7 @@ exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 78%
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ Los cambios de menú se aplican a todos los usuarios que acceden al grupo de inf
 
 >[!NOTE]
 >
->Cualquier cambio en la estructura del menú no afecta al Report Builder. Sin embargo, si se cambia el nombre de un informe, esta herramienta se verá reflejada.
+>Cualquier cambio en la estructura del menú no afecta al Report Builder. No obstante, si se cambia el nombre de un informe, este cambio sí se verá reflejado en esta herramienta.
 
 Para personalizar los menús que los usuarios ven en Reports &amp; Analytics:
 

@@ -6,7 +6,7 @@ exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 85%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 Este documento analiza las opciones para preservar la identificación de visitantes persistentes en todas las propiedades y soluciones a medida que los exploradores principales implementan medidas de prevención de seguimiento para las cookies.
 
-Adobe Analytics se basa en cookies de origen para registrar la actividad en el sitio de un visitante. Analytics también se basa en cookies de terceros para comprender la actividad fuera del sitio de un visitante, como la actividad en otros de sus dominios. Las cookies de terceros están bloqueadas en muchos exploradores y, en gran medida, no estarán disponibles con la próxima eliminación de la compatibilidad con Chrome (que está planificada para finales de 2024). Las cookies de origen están permitidas en todos los exploradores, pero tienen una caducidad limitada en Safari y en otros exploradores con las medidas de [prevención del seguimiento de ITP](https://webkit.org/tracking-prevention) de Apple. Para obtener más información sobre las limitaciones actuales de las cookies del explorador, consulte [Adobe Analytics y las cookies del explorador](cookies.md).
+Adobe Analytics se basa en cookies de origen para registrar la actividad en el sitio de un visitante. Analytics también se basa en cookies de terceros para comprender la actividad fuera del sitio de un visitante, como la actividad en otros de sus dominios. Las cookies de terceros están bloqueadas en muchos exploradores y, en gran medida, no estarán disponibles con la próxima eliminación de la compatibilidad con Chrome (programada, por ahora, para finales de 2024). Las cookies de origen están permitidas en todos los exploradores, pero tienen una caducidad limitada en Safari y en otros exploradores con las medidas de [prevención del seguimiento de ITP](https://webkit.org/tracking-prevention) de Apple. Para obtener más información sobre las limitaciones actuales de las cookies del explorador, consulte [Adobe Analytics y las cookies del explorador](cookies.md).
 
 Estas limitaciones del explorador reflejan un paso más amplio desde el seguimiento anónimo de terceros hacia el uso compartido explícito de información entre usuarios y marcas en las que confían. Para admitir este movimiento, Adobe proporciona maneras para que los clientes complementen las cookies tradicionales mediante la inclusión de identificadores duraderos recopilados mediante sus relaciones de origen.
 
@@ -34,11 +34,11 @@ Puede enviar datos del lado del servidor de Analytics mediante la [API de inserc
 
 ## ID de dispositivo de origen (FPID) con SDK web
 
-Con el SDK web de Adobe Experience Platform, puede optar por establecer y administrar sus propios identificadores de dispositivo en lugar de los ID de Experience Cloud (ECID) generados por el Adobe. Estos se denominan ID de dispositivos de origen (FPID). Obtenga más información [aquí](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=es).
+Con el SDK web de Adobe Experience Platform, puede optar por establecer y administrar sus propios identificadores de dispositivo en lugar de los Experience Cloud ID (ECID) generados por Adobe. Estos se denominan ID de dispositivos de origen (FPID). Obtenga más información [aquí](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=es).
 
 ## Más información
 
-Para obtener información práctica sobre los pasos que su empresa puede seguir para dejar de usar cookies de terceros, consulte [Adquirir y mantener clientes en un mundo sin cookies con Adobe](https://business.adobe.com/es/solutions/cookieless.html) y el artículo detallado [Más allá de las cookies de terceros: uía completa para un mundo sin cookies de terceros](https://business.adobe.com/content/dam/www/us/es/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf).
+Para obtener información práctica sobre los pasos que su empresa puede seguir para dejar de usar cookies de terceros, consulte [Adquirir y mantener clientes en un mundo sin cookies con Adobe](https://business.adobe.com/es/solutions/cookieless.html) y el artículo detallado [Más allá de las cookies de terceros: uía completa para un mundo sin cookies de terceros](https://business.adobe.com/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf).
 
 >[!MORELIKETHIS]
 >

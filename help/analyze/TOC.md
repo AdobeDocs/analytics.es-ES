@@ -7,7 +7,7 @@ user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluy
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 96%
    + Proyectos {#build-workspace-project}
       + [Información general sobre Proyectos](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Guardar proyectos](analysis-workspace/build-workspace-project/save-projects.md)
-      + Carpetas en el Espacio de trabajo {#workspace-folders}
-         + [Acerca de las carpetas en el Espacio de trabajo](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+      + Carpetas en Workspace {#workspace-folders}
+         + [Acerca de las carpetas en Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creación de carpetas y subcarpetas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Eliminar carpetas](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [Agregar proyectos](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -76,7 +76,7 @@ ht-degree: 96%
             + [Configuración de filas](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Elementos dinámicos vs. estáticos](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Filtrado y ordenación de tablas](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Totales del Espacio de trabajo](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Totales de Workspace](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabla de cohorte {#cohort-table}
          + [¿Qué es el análisis de cohorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar un informe de análisis de cohorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -156,7 +156,7 @@ ht-degree: 96%
          + [Generador de alertas](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Administrador de alertas](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Alertas inteligentes: Casos de uso](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + [Preferencias del usuario](analysis-workspace/user-preferences.md)
+   + [Preferencias de usuario](analysis-workspace/user-preferences.md)
    + Preguntas frecuentes sobre de Workspace {#workspace-faq}
       + [Preguntas frecuentes](analysis-workspace/workspace-faq/faq.md)
       + [Optimizar rendimiento de Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
@@ -178,7 +178,7 @@ ht-degree: 96%
       + [Solicitudes de datos: Paso 1 del Asistente para solicitudes](report-builder/data-requests/data-requests.md)
       + [Crear una solicitud de datos](report-builder/data-requests/t-create-a-data-request.md)
       + Grupos de informes {#report-suites}
-         + [Selección de un grupo de informes](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [Selección de un grupo de informes ](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
          + [Selección de un grupo de informes de una solicitud existente en Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Uso de Excel para localizar un ID de grupo de informes](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Administración de segmentos](report-builder/data-requests/segmentation.md)

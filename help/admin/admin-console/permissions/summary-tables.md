@@ -6,13 +6,13 @@ feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
 # Permisos de Analytics en el Admin Console
 
-Utilice las siguientes tablas de resumen para identificar los permisos de Adobe Analytics en Adobe Admin Console, por agrupaciones lógicas.
+Utilice las siguientes tablas de resumen para identificar los permisos de Adobe Analytics en Adobe Admin Console, por grupos lógicos.
 
 ## Herramientas de grupos de informes
 
@@ -74,7 +74,7 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 
 | Herramienta Analytics | Administración | Controles de acceso | Características solo de informes | Obsoleto | Descripción |
 | --- | --- | --- | --- | --- | --- |
-| Administrador de códigos | x |  |  |  | Se ha mantenido para propósitos heredados. Otorga acceso a Administración > Todos los administradores > Administrador de códigos. En la mayoría de los casos, utilice las bibliotecas incluidas en la extensión de Adobe Analytics en la recopilación de datos de Adobe Experience Platform. |
+| Administrador de códigos | x |  |  |  | Se ha mantenido para propósitos heredados. Otorga acceso a Administración > Todos los administradores > Administrador de códigos. En la mayoría de los casos, utilice las bibliotecas incluidas en la extensión de Adobe Analytics en la Recopilación de datos de Adobe Experience Platform. |
 | Administrador de códigos - Servicios Web | x |  |  |  | Otorga acceso al Administrador de códigos mediante la API 1.4. |
 | Ocultar grupos de informes | x |  |  |  | Concede acceso a Administración > Todos los administradores > Configuración de la compañía > Ocultar grupos de informes. Otorga la capacidad de ocultar cualquier grupo de informes de la organización, independientemente del acceso a su grupo de informes. |
 | Integraciones (crear) | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Data Connectors, y permite al usuario crear conectores de datos. |
