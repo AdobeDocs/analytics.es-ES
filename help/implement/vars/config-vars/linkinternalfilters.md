@@ -4,17 +4,17 @@ description: Utilice la variable linkInternalFilters para ayudar al seguimiento 
 feature: Variables
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # linkInternalFilters
 
-AppMeasurement ofrece la capacidad de rastrear automáticamente los vínculos que redirigen fuera del sitio. If [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackdownloadlinks.md) (SDK web) está habilitado, se envía una solicitud de imagen al Adobe justo cuando un visitante hace clic en un vínculo para abandonar el sitio. Las variables [`linkExternalFilters`](linkexternalfilters.md) y `linkInternalFilters` determinan qué vínculos se consideran internos/externos.
+AppMeasurement ofrece la capacidad de rastrear automáticamente los vínculos que redirigen fuera del sitio. Si [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackdownloadlinks.md) (SDK web) está habilitada, se envía una solicitud de imagen a Adobe justo cuando un visitante hace clic en un vínculo para abandonar el sitio. Las variables [`linkExternalFilters`](linkexternalfilters.md) y `linkInternalFilters` determinan qué vínculos se consideran internos/externos.
 
-Si esta variable contiene un valor, el seguimiento automático de vínculos de salida se comporta como una lista de bloqueados. Si un clic en un vínculo no coincide con ningún valor `linkInternalFilters`, se considera un vínculo de salida. La dirección URL completa se examina con esta variable. Si [`linkLeaveQueryString`](linkleavequerystring.md) está habilitada, también se examina la cadena de consulta.
+Si esta variable contiene un valor, el seguimiento automático de vínculos de salida se comporta de una manera similar a una lista de elementos bloqueados. Si un clic en un vínculo no coincide con ningún valor `linkInternalFilters`, se considera un vínculo de salida. La dirección URL completa se examina con esta variable. Si [`linkLeaveQueryString`](linkleavequerystring.md) está habilitada, también se examina la cadena de consulta.
 
 Si utiliza `linkInternalFilters` y `linkExternalFilters` simultáneamente, el vínculo en el que se hizo clic debe coincidir con `linkExternalFilters` **y no** con `linkInternalFilters` para considerarse como un vínculo de salida. Si un vínculo en el que se hizo clic coincide con los criterios de vínculo de salida y de descarga, el tipo de vínculo de descarga tiene prioridad.
 
@@ -26,9 +26,9 @@ Activity Map utiliza esta variable para determinar qué vínculos son internos d
 
 ## Vínculos de salida en el SDK web
 
-Los vínculos se califican automáticamente como vínculos de salida si el dominio de destino del vínculo es distinto del actual `window.location.hostname`. El SDK web no ofrece ninguna variable de configuración para modificar la detección automática de vínculos de salida. Si necesita personalizar los dominios que cumplen los requisitos como vínculo de salida, puede utilizar la lógica personalizada en la variable `onBeforeEventSend` llamada de retorno.
+Los vínculos se califican automáticamente como vínculos de salida si el dominio de destino del vínculo es distinto del actual `window.location.hostname`. El SDK web no ofrece ninguna variable de configuración para modificar la detección automática de vínculos de salida. Si necesita personalizar los dominios que cumplen los requisitos como vínculo de salida, puede utilizar la lógica personalizada en la llamada de retorno `onBeforeEventSend`.
 
-Consulte [Seguimiento automático de vínculos](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) en la documentación del SDK web para obtener más información.
+Consulte [Seguimiento automático de vínculos](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=es#automaticLinkTracking) en la documentación del SDK web para obtener más información.
 
 ## Vínculos de salida: No rastrear nunca con la extensión de Adobe Analytics
 
