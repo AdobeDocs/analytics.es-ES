@@ -1,18 +1,18 @@
 ---
 title: 'Actualización de servicios SFTP: preguntas frecuentes'
-description: Preguntas más frecuentes sobre la actualización de los servicios SFTP prevista.
+description: Preguntas frecuentes sobre la actualización prevista de los servicios SFTP.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Actualización de servicios SFTP: preguntas frecuentes
 
-El 20 de septiembre de 2022, Adobe Analytics actualizará su Protocolo seguro de transferencia de archivos [SFTP] para proporcionar una seguridad mejorada para las transferencias de archivos. Con este cambio, algunas configuraciones de cliente SFTP ya no serán compatibles. Esto solo afecta a los datos enviados o recuperados de Adobe Analytics mediante SFTP. El protocolo FTP no se verá afectado. Para evitar interrupciones en el servicio, asegúrese de que sus clientes SFTP (código, herramientas y servicios) se ajusten a los cambios detallados a continuación.
+El 20 de septiembre de 2022, Adobe Analytics actualizará su protocolo seguro de transferencia de archivos ([SFTP]) para proporcionar una seguridad mejorada en las transferencias de archivos. Con este cambio, algunas configuraciones de cliente SFTP ya no serán compatibles. Esto solo afecta a los datos enviados o recuperados de Adobe Analytics mediante SFTP. El protocolo FTP no se verá afectado. Para evitar interrupciones en el servicio, asegúrese de que sus clientes SFTP (código, herramientas y servicios) se ajusten a los cambios detallados a continuación.
 
 ## ¿Cómo puedo determinar qué algoritmos, tipos de conexión y protocolos utiliza mi organización actualmente?
 
@@ -26,7 +26,7 @@ Las siguientes funciones proporcionan una opción para cargar datos en Adobe Ana
 
 * [Clasificaciones](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=es)
 
-* [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
+* [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=es)
 
 * [Archivos de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=es)
 
