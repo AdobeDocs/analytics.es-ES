@@ -5,7 +5,7 @@ feature: Admin Tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ La página Métodos de localización identifica la manera en que los diversos in
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Métodos de localización]**.
 
-## Descripciones de los métodos de localización {#section_8B6278DB75224EAB9F49D89A86274E8A}
+## Descripciones de los métodos de búsqueda {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
 <table id="table_8ABC1C9BD63F419082E4C4C69E401526"> 
  <thead> 
