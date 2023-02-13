@@ -3,9 +3,9 @@ title: Importar métricas de búsqueda de pago
 description: Pasos para configurar Adobe Analytics para que realice un seguimiento de las métricas de búsqueda de pago (por ejemplo, Google AdWords, MSN, Yahoo, etc.) uso de fuentes de datos.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1210'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ El [!UICONTROL Asistente para la activación de la fuente de datos] muestra:
 1. Haga clic en **[!UICONTROL Siguiente]** y asigne un nombre a la fuente de datos. Este nombre aparecerá en el Administrador de la fuente de datos.
 1. Acepte el contrato de servicio y haga clic en **[!UICONTROL Siguiente]**.
 1. Seleccione las tres métricas estándar: [!UICONTROL Impresiones], [!UICONTROL Clics] y [!UICONTROL Coste total], y haga clic en **[!UICONTROL Siguiente]**.
-1. Ahora, &quot;asigne&quot; esta nueva fuente de datos a los eventos personalizados que hemos creado en [Configurar eventos de éxito](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
+1. Ahora, “asigne” esta nueva fuente de datos a los eventos personalizados que hemos creado en [Configurar eventos de éxito](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
 
    ![Asignación](assets/data-source-mapping.png)
 
@@ -117,11 +117,11 @@ Vuelva al asistente de fuentes de datos para obtener instrucciones y cargue el a
 
 Agregar métricas calculadas será útil cuando tome decisiones de pago por clic.
 
-Por ejemplo, puede agregar estas [métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics):
+Por ejemplo, puede agregar estas [métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=es#calculated-metrics):
 
 | Nombre | Fórmula | Tipo de métrica | Descripción |
 | --- | --- | --- | --- |
-| ‏‏Vistas de página por visita | Vistas de página/Visitas | Ocultar grupos de informes | Cuando se aplica a nivel de sitio: muestra la media de páginas por visita. Cuando se aplica en el informe de páginas más populares: muestra el número promedio de veces que una página específica se ha visto por visita. |
+| ‏‏Vistas de página por visita | Vistas de página/Visitas | Numéricos | Cuando se aplica a nivel de sitio: muestra la media de páginas por visita. Cuando se aplica en el informe de páginas más populares: muestra el número promedio de veces que una página específica se ha visto por visita. |
 | Valor de pedido promedio | Ingresos/Pedidos | Moneda | Muestra el ingreso promedio por pedido. |
 | Ingresos por visita | Ingresos/Visita | Moneda | Muestra el ingreso promedio por visita. |
 | Tasa de clics (CTR) | Clics/Impresiones | Numéricos | Mida la proporción de clics respecto a impresiones de una publicidad en línea o una campaña de marketing por correo electrónico. |
