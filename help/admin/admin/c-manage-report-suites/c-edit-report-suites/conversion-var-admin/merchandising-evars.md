@@ -4,9 +4,9 @@ description: Una profundización en los conceptos subyacentes a las eVars de com
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5289'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Para demostrar cómo configurar estas variables, aquí tiene un ejemplo en el qu
 
 Cuando establece estas dos variables en función de estos valores específicos, sabe que el visitante está usando el término de búsqueda de palabra clave interna “sandalias” para encontrar un producto. Al mismo tiempo, sabe que el visitante no está usando los otros métodos de búsqueda de productos para encontrarlos (por ejemplo, el visitante no está navegando a través de las categorías de productos al mismo tiempo que realiza una búsqueda de palabras clave). Para garantizar que se realice la asignación adecuada por producto, estos métodos no utilizados no deben obtener crédito por encontrar un producto que se haya encontrado mediante una búsqueda de palabras clave interna. Por lo tanto, debe insertar una lógica en el código (como AppMeasurement, AEP Web SDK, etc.) que establezca automáticamente las eVars asociadas con estos otros métodos de búsqueda iguales a un valor de método de no localización.
 
-Por ejemplo, cuando un usuario busca productos utilizando la palabra clave &quot;sandals&quot;, la lógica del código de Analytics debe establecer las variables iguales a las siguientes en la página de resultados de búsqueda de palabras clave internas:
+Por ejemplo, cuando un usuario busca productos utilizando la palabra clave “sandalias”, la lógica del código de Analytics debe establecer las variables iguales a las siguientes en la página de resultados de búsqueda de la palabra clave interna:
 
 * eVar2=&quot;sandalias&quot;: la palabra clave “sandalias” se utilizó en la búsqueda de palabra clave interna
 * eVar1=&quot;internal keyword search&quot;: se utilizó el método de localización “búsqueda de palabra clave interna”
@@ -57,7 +57,7 @@ Por ejemplo, cuando un usuario busca productos utilizando la palabra clave &quot
 
 Estas son las diferentes configuraciones que puede usar con las eVars de comercialización. La siguiente captura de pantalla proviene del Administrador del grupo de informes. Para acceder, vaya a [!UICONTROL Analytics] > [!UICONTROL Administración] > [!UICONTROL Grupos de informes] > [!UICONTROL Editar configuración] > [!UICONTROL Conversión] > [!UICONTROL Variables de conversión] > [!UICONTROL Añadir nuevo] > [!UICONTROL Habilitar la comercialización].
 
-![eVars de comercialización](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/merch-evars1.png)
+![eVar de comercialización](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/merch-evars1.png)
 
 Encontrará más información sobre esta configuración en las secciones debajo de la tabla.
 
@@ -88,7 +88,7 @@ Sin embargo, con **[!UICONTROL Sintaxis del producto]**, la eVar se configura ú
 
 `s.products="[category];[name];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL Categoría] y [!UICONTROL Nombre] identifique el producto dado.
+* [!UICONTROL Categoría] y [!UICONTROL Nombre] identifican el producto especificado.
 * [!UICONTROL Cantidad] e [!UICONTROL Ingresos] son útiles cuando se realiza un seguimiento de la compra de un producto.
 * Los [!UICONTROL Eventos] son útiles para registrar valores de eventos incrementales o monetarios personalizados que no están pensados para ser contabilizados como ingresos (como envíos, descuentos, etc.)
 
@@ -100,7 +100,7 @@ Observe que todavía tenemos marcadores de posición delimitados por punto y com
 
 ### Asignación
 
-El término Asignación de las eVars de comercialización puede resultar confuso, especialmente en el caso de las eVars de comercialización que utilizan Sintaxis de variables de conversión. Todas las eVars estándar pueden tener su propia configuración de asignación individual. Sin embargo, las eVars de comercialización con Sintaxis de variables de conversión solo usan la configuración de asignación Más reciente (último), independientemente de lo que muestre la configuración de asignación en el Administrador del grupo de informes.
+El término Asignación de las eVars de comercialización puede resultar confuso, especialmente en el caso de las eVars de comercialización que utilizan Sintaxis de variables de conversión. Todas las eVars estándar pueden tener su propia configuración de asignación individual. Sin embargo, las eVars de comercialización con Sintaxis de variables de conversión solo usan la configuración de asignación “Más reciente (último)”, independientemente de lo que muestre la configuración de asignación en el Administrador del grupo de informes.
 
 Comprender lo que hace esta configuración significa comprender la diferencia entre la asignación de la eVar y el enlace de la eVar de comercialización. Para las eVars de comercialización, Enlace de la eVar de comercialización es un nombre más apropiado para esta configuración de Asignación.
 
@@ -110,13 +110,13 @@ Siempre que se recopila cualquier eVar con sintaxis estándar de una solicitud d
 
 Para las eVars estándar, la configuración de Asignación determina si el primer o el último valor de eVar que se recopiló durante un periodo determinado se insertará en la columna `post_evar`. Si la configuración de Asignación para una eVar estándar es igual a Valor original (primero), el primer valor de eVar recopilado del visitante se inserta en la columna `post_evar` para todas las solicitudes de imagen posteriores. Esto continúa para todas las solicitudes futuras enviadas desde el explorador de este visitante hasta que la eVar caduque según la configuración Caduca después.
 
-Si la configuración de Asignación de una eVar estándar es igual a Más reciente (último), el valor de la eVar más reciente recopilado del visitante se rellena en la columna `post_evar` para todas las solicitudes de imagen posteriores. La asignación Más reciente (último) implica que el valor `post_evar` cambia cada vez que su eVar correspondiente se establece en un nuevo valor en cualquier solicitud de imagen. La asignación Valor original (primero) implica que la columna `post_evar` no cambia entre visitas individuales aunque su eVar correspondiente pueda establecerse en un valor diferente en una solicitud de imagen futura.
+Si la configuración de Asignación de una eVar estándar es igual a “Más reciente (último)”, el valor de la eVar más reciente recopilado del visitante se rellena en la columna `post_evar` para todas las solicitudes de imagen posteriores. La asignación “Más reciente (último)” implica que el valor `post_evar` cambia cada vez que su eVar correspondiente se establece en un nuevo valor en cualquier solicitud de imagen. La asignación Valor original (primero) implica que la columna `post_evar` no cambia entre visitas individuales aunque su eVar correspondiente pueda establecerse en un valor diferente en una solicitud de imagen futura.
 
 #### Configuración de asignación (enlace) de la eVar de comercialización
 
-Como se mencionó anteriormente, todas las eVars de comercialización con Sintaxis de variables de conversión solo tienen una asignación Más reciente (último).  Por lo tanto, la configuración de Asignación para eVars de comercialización no determina qué valores se insertan en la columna post_evar mientras un visitante sigue usando el sitio. En su lugar, esta configuración determina qué valor de eVar se vincula a un producto y cómo dichos productos asignan sus eventos de éxito de nuevo a los valores de eVar a los que están vinculados.
+Como se mencionó anteriormente, todas las eVar de comercialización con Sintaxis de variables de conversión solo tienen una asignación “Más reciente (último)”.  Por lo tanto, la configuración de Asignación para eVars de comercialización no determina qué valores se insertan en la columna post_evar mientras un visitante sigue usando el sitio. En su lugar, esta configuración determina qué valor de eVar se vincula a un producto y cómo dichos productos asignan sus eventos de éxito de nuevo a los valores de eVar a los que están vinculados.
 
-Lo siguiente ocurre cuando la configuración de asignación (enlace) de un eVar de comercialización se establece en &quot;Valor original (primero)&quot;: Todos los productos que se establezcan junto a la columna post_evar y que no se hayan enlazado previamente al eVar &quot;preprocesado&quot; correspondiente de la columna post_evar se enlazarán al valor contenido en la columna post_evar.  Este enlace entre el valor del eVar y el producto nunca cambia hasta que el eVar caduca según la configuración &quot;Caduca después&quot; de la configuración del grupo de informes.
+Lo siguiente ocurre cuando la configuración de asignación (enlace) de una eVar de comercialización se establece en “Valor original” (primero): todos los productos que se establecen junto a la columna post_evar y que no se hayan enlazado previamente a la eVar “preprocesada” correspondiente de la columna post_evar se enlazarán al valor contenido en la columna post_evar. Este enlace entre el valor de la eVar y el producto nunca cambiará hasta que la eVar caduque según el valor “Caduca después”, en la configuración del grupo de informes.
 
 Cada vez que una solicitud de imagen cumple los criterios que, de lo contrario, enlazarían un producto ya enlazado con el valor de eVar establecido más recientemente, la configuración Valor original (primero) obliga a los servidores de recopilación de datos de Adobe Analytics a ignorar cualquier intento posterior de hacerlo. Lo contrario sucede con las eVars de comercialización cuya configuración de Asignación (enlace) tiene el valor &quot;Más reciente (último)&quot; Cada vez que una solicitud de imagen cumple los criterios que unen un producto a una eVar de comercialización, el producto se enlazará (y se volverá a enlazar) al valor más reciente pasado a la eVar o al valor que (siempre) se encuentra en la columna `post_evar`.
 
@@ -134,7 +134,7 @@ La caducidad de un eVar puede producirse cuando se registra un evento de éxito 
 
 Para el método de localización de productos, la práctica recomendada para configurar la caducidad de un eVar de comercialización es establecerlo en
 
-* La cantidad de tiempo que un producto está retenido en el carro de compras de un sitio antes de que el sitio lo retire automáticamente del carro de compras (por ejemplo, 14 días, 30 días, etc.)
+* Cantidad de tiempo que un producto se encuentra en el carro de compras de un sitio antes de que el sitio lo elimine automáticamente de este (por ejemplo, 14 días, 30 días, etc.)
 * O cuando se produce el evento de compra.
 
 Con cualquiera de las opciones, los productos que compre un visitante tienen el crédito de pedido/unidad/ingresos asignado a los valores de eVar de comercialización a los que estaban enlazados los productos en ese momento.
@@ -170,7 +170,7 @@ Si desea enlazar la búsqueda de palabras clave interna al ID de producto 12345,
 
 `s.products=";12345;;;;eVar1=internal keyword search";`
 
-Cualquier evento de éxito (adiciones al carro de compras, compras) que se capture al mismo tiempo que el ID de producto 12345 se acreditará tanto al ID de producto 12345 como al valor de eVar 1 de &quot;búsqueda de palabra clave interna&quot;. La única manera en que un valor de eVar1 diferente obtenga crédito por los eventos de éxito asociados con el ID de producto 12345 es que eVar1 se establezca posteriormente en un valor diferente dentro de la variable de productos (junto con el ID de producto 12345).
+Cualquier evento de éxito (compras, adiciones al carro de compras, etc.) que se capture al mismo tiempo que el ID de producto 12345 se acreditará tanto al ID de producto 12345 como al valor de eVar1 de “búsqueda de palabra clave interna”. La única manera en que un valor de eVar1 diferente obtenga crédito por los eventos de éxito asociados con el ID de producto 12345 es que eVar1 se establezca posteriormente en un valor diferente dentro de la variable de productos (junto con el ID de producto 12345).
 
 Por ejemplo:
 
@@ -178,7 +178,7 @@ Por ejemplo:
 s.products=";12345;;;;eVar1=internal campaign";
 ```
 
-Esta configuración de variable cambia el enlace del ID de producto 12345 del valor eVar1 de &quot;búsqueda de palabras clave internas&quot; al valor eVar1 de &quot;campaña interna&quot;. Además, este cambio de enlace se produce cuando el eVar está configurado para utilizar Sintaxis del producto y la configuración Asignación (enlace) de &quot;Más reciente (último)&quot;. Si la configuración Asignación (enlace) se estableciera en &quot;Valor original (primero)&quot;, establecer eVar1 en &quot;campaña interna&quot; junto con el ID de producto 12345 no devolvería el ID de producto 12345 al valor de eVar1 de &quot;campaña interna&quot;. En su lugar, el enlace permanecería con el valor enlazado originalmente: &quot;búsqueda de palabra clave interna&quot;.
+Esta configuración de variable cambia el enlace del ID de producto 12345 del valor de eVar1 de “búsqueda de palabra clave interna” al valor de eVar1 de “campaña interna”. Además, este cambio de enlace se produce cuando el eVar está configurado para utilizar Sintaxis del producto y la configuración Asignación (enlace) de “Más reciente (último)”. Si la configuración Asignación (enlace) se estableciera en “Valor original (primero)”, establecer eVar1 en “campaña interna” junto con el ID de producto 12345 no devolvería el ID de producto 12345 al valor de eVar1 de “campaña interna”. En su lugar, el enlace permanecería con el valor enlazado originalmente: “búsqueda de palabra clave interna”.
 
 ### Desafíos del uso de Sintaxis del producto
 
@@ -201,7 +201,7 @@ Los siguientes valores tendrían 1 pedido, 1 unidad y 79,95 $ de ingresos atribu
 * Valor de eVar1 de “búsqueda de palabras clave interna”
 * Valor de eVar3 de “campaña no interna”
 * Valor de eVar4 de “sin examinar”
-* eVar5 valor de &quot;no venta cruzada&quot;
+* Valor de eVar5 de “no realizar venta cruzada”
 
 Esto es una atribución correcta, lo que no es un problema. En cambio, el principal dilema con este enfoque es determinar cómo y cuándo configurar las eVars del método de localización de productos.
 
@@ -242,9 +242,9 @@ s.products=";tshirt123;1;20;;eVar10=tshirt123-m-blue,;tshirt123;1;20;;eVar10=tsh
 
 En este caso, tanto los valores `eVar10` (childSKU) de camiseta123-m-azul como camiseta123-l-roja obtienen crédito por la compra de sus respectivas instancias del ID de producto camiseta123.
 
-### Desafíos con la asignación Más reciente
+### Desafíos con la asignación “Más reciente”
 
-Puede encontrar problemas adicionales utilizando la configuración Asignación (enlace) de Más reciente (último). En muchas experiencias de navegación web, los visitantes vuelven a encontrar un producto que ya han visto o agregado al carro de compras. Esto suele ocurrir en una visita posterior o justo antes de que decidan completar una compra. Supongamos que durante una visita al sitio, un visitante encuentra el producto &quot;sandal123&quot; a través de la búsqueda de palabras clave de &quot;sandals&quot;. Inmediatamente lo añade al carro de compras desde la página de resultados de búsqueda de palabras clave. El código que captura la adición al carro de compras se configuraría de la siguiente manera:
+Puede encontrar problemas adicionales utilizando la configuración Asignación (enlace) de “Más reciente (último)”. En muchas experiencias de navegación web, los visitantes vuelven a encontrar un producto que ya han visto o agregado al carro de compras. Esto suele ocurrir en una visita posterior o justo antes de que decidan completar una compra. Supongamos que durante su primera visita al sitio, un visitante encuentra el producto “sandalia123” a través de la búsqueda de la palabra clave “sandalias”. Inmediatamente lo añade al carro de compras desde la página de resultados de búsqueda de palabras clave. El código que captura la adición al carro de compras se configuraría de la siguiente manera:
 
 ```js
 s.linkTrackVars="products,events";
@@ -254,18 +254,18 @@ s.products=";sandal123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-
 
 Como resultado, cada uno de los valores de eVar que se ven en esta solicitud de imagen están enlazados al producto sandalia123.
 
-Ahora, imaginemos que el visitante no compra el producto durante esta visita, pero regresa al sitio tres días después con el producto &quot;sandals123&quot; aún en el carro de compras. El visitante desea obtener más información acerca del producto antes de realizar la compra. Pero, en lugar de usar una búsqueda de palabras clave para encontrarlo, navega por el sitio. Terminan en la sección de navegación de comercialización mujeres > zapatos > sandalias justo antes de “reencontrarse” con el producto. Cuando terminan “reencontrando” la página de detalles del producto para el producto sandalia123, las variables se configurarían de la siguiente manera (al cargar la página):
+Ahora, imaginemos que no compra el producto durante esta visita, pero regresa al sitio tres días después con el producto “sandalia123” aún en el carro de compras. El visitante desea obtener más información acerca del producto antes de realizar la compra. Pero, en lugar de usar una búsqueda de palabras clave para encontrarlo, navega por el sitio. Terminan en la sección de navegación de comercialización mujeres > zapatos > sandalias justo antes de “reencontrarse” con el producto. Cuando terminan “reencontrando” la página de detalles del producto para el producto sandalia123, las variables se configurarían de la siguiente manera (al cargar la página):
 
 ```js
 s.events="prodView";
 s.products=";sandal123;;;;eVar4=womens > shoes > sandals|eVar1=browse|eVar3=non-internal campaign|eVar2=non-search|eVar5=non-cross-sell";
 ```
 
-Con la configuración Asignación (enlace) de Más reciente (último), el producto sandalia123 se vuelve a unir con valores de eVar completamente diferentes a los que estaba vinculado originalmente. Además, si el visitante completa la compra de la sandalia123, todo el crédito de compra se otorga a estos valores de eVar recién enlazados en lugar de a los valores enlazados originalmente.
+Con la configuración Asignación (enlace) de “Más reciente (último)”, el producto “sandalia123” se vuelve a unir con valores de eVar completamente diferentes a los que estaba vinculado originalmente. Además, si el visitante completa la compra de la sandalia123, todo el crédito de compra se otorga a estos valores de eVar recién enlazados en lugar de a los valores enlazados originalmente.
 
-La pregunta aquí es: “¿qué valores de eVar deben recibir crédito por la compra?” Recuerde que el visitante encontró inicialmente el producto sandalia123 con una búsqueda de palabras clave interna. Luego, lo agregaron al carro de compras directamente desde la página de resultados de búsqueda. Por lo tanto, el valor eVar1 de búsqueda de palabras clave interna (y el valor eVar2 de “sandalias”) debería obtener crédito por la compra. Sin embargo, la configuración Asignación (enlace) se estableció en Más reciente (último). Por lo tanto, el valor eVar1 de examinar (y el valor eVar4 de mujer > zapatos > sandalias) obtiene el crédito de compra en su lugar. La razón es que fueron los últimos valores enlazados a sandalia123 antes de que el visitante completara la compra.
+La pregunta aquí es: “¿qué valores de eVar deben recibir crédito por la compra?” Recuerde que el visitante encontró inicialmente el producto sandalia123 con una búsqueda de palabras clave interna. Luego, lo agregaron al carro de compras directamente desde la página de resultados de búsqueda. Por lo tanto, el valor eVar1 de búsqueda de palabras clave interna (y el valor eVar2 de “sandalias”) debería obtener crédito por la compra. Sin embargo, la configuración Asignación (enlace) se estableció en “Más reciente (último)”. Por lo tanto, el valor eVar1 de examinar (y el valor eVar4 de mujer > zapatos > sandalias) obtiene el crédito de compra en su lugar. La razón es que fueron los últimos valores enlazados a sandalia123 antes de que el visitante completara la compra.
 
-Una solución a este problema es cambiar la configuración de asignación (enlace) de la eVar de comercialización de Más reciente (último) a Valor original (primero). De este modo, los valores de eVar originales enlazados al producto sandalia123 obtienen crédito cuando se realiza la compra, independientemente de cuántas veces el visitante “vuelva a encontrar” el producto.
+Una solución a este problema es cambiar la configuración de asignación (enlace) de la eVar de comercialización de “Más reciente (último)” a “Valor original (primero)”. De este modo, los valores de eVar originales enlazados al producto sandalia123 obtienen crédito cuando se realiza la compra, independientemente de cuántas veces el visitante “vuelva a encontrar” el producto.
 
 Si el visitante agrega un producto al carro de compras, pero nunca lo compra, la caducidad de la eVar permite que se vincule un nuevo valor de método de localización al producto. La caducidad de la eVar debe coincidir con el tiempo que un sitio web permite que un producto permanezca en el carro de compras antes de que se elimine automáticamente.
 
@@ -297,7 +297,7 @@ s.eVar5="non-cross sell";
 
 No debe preocuparse de pasar datos de página en página e intentar crear una cadena bastante grande y poco manejable para insertarla en la variable products. En su lugar, los desarrolladores pueden implementar su parte de las soluciones de seguimiento (que se inserta en las props) y dejar el resto de la implementación en el código personalizado proporcionado por la asesoría de Adobe.
 
-Como se explicó anteriormente, todas las eVars de comercialización que utilizan Sintaxis de variables de conversión tienen la configuración Asignación de Más reciente (último). Una vez que una eVar tiene establecido cualquier valor, ese valor persiste en todas las visitas individuales posteriores (gracias a la columna post_evar). Se mantiene hasta que se establece en un valor diferente o hasta que caduca la eVar. Por lo tanto, cualquier producto con el que interactúe una vez configuradas las eVars, si aún no se han enlazado a ellas, se enlazará con los valores Más reciente (último) que se pasen a la eVar.
+Como se explicó anteriormente, todas las eVars de comercialización que utilizan Sintaxis de variables de conversión tienen la configuración Asignación de “Más reciente (último)”. Una vez que una eVar tiene establecido cualquier valor, ese valor persiste en todas las visitas individuales posteriores (gracias a la columna post_evar). Se mantiene hasta que se establece en un valor diferente o hasta que caduca la eVar. Por lo tanto, cualquier producto con el que interactúe una vez configuradas las eVar, si aún no se han enlazado a ellas, se enlazará con los valores “Más reciente (último)” que se pasen a la eVar.
 
 Utilizando el ejemplo anterior, el valor `eVar2` de sandalias y el valor eVar1 de búsqueda de palabra clave interna, etc. persisten en todas las páginas vistas después de que se haya realizado la búsqueda de palabra clave. Persisten hasta que las eVars se sobrescriben con otros valores. Supongamos que un visitante hace clic en un vínculo a la página de detalles del producto correspondiente al ID del producto sandalia123 desde la página de resultados de búsqueda de palabras clave.  A continuación, el ID de producto sandalia123 (si aún no se ha enlazado) se enlaza a cada uno de los valores contenidos en las columnas post_evar o a los valores de eVar recopilados de la página anterior (resultados de búsqueda).
 
@@ -391,4 +391,4 @@ En resumen, sin configuración adicional, la métrica Instancias predeterminada 
 
 ![Selección de atribución](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/attribution-select.png)
 
-Al añadir una métrica de instancias para una eVar de comercialización a un informe, el modelo de Attribution IQ adecuado sería el modelo Último toque. La configuración de la ventana de búsqueda del modelo no importa en este caso. El motivo es que un modelo de atribución de Último toque “forzado” siempre da crédito de instancia a cada valor individual que se transfiere mediante una solicitud. Esto sucede independientemente de si la configuración real de atribución/enlace del eVar está establecida en Más reciente (último) en Valor original (primero).
+Al añadir una métrica de instancias para una eVar de comercialización a un informe, el modelo de Attribution IQ adecuado sería el modelo Último toque. La configuración de la ventana de búsqueda del modelo no importa en este caso. El motivo es que un modelo de atribución de Último toque “forzado” siempre da crédito de instancia a cada valor individual que se transfiere mediante una solicitud. Esto sucede independientemente de si la configuración real de atribución/enlace del eVar está establecida en “Más reciente (último)” en “Valor original (primero)”.
