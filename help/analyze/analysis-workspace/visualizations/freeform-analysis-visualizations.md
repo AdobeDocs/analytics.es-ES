@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,23 +45,23 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 
 ## Personalización de la configuración de visualización
 
-Puede personalizar la configuración de visualización para una visualización individual o para todas las visualizaciones que cree.
+Puede personalizar la configuración de visualización de una visualización individual o de todas las visualizaciones que cree.
 
-### Personalización de la configuración de visualización para una sola visualización
+### Personalización de la configuración de visualización de una sola visualización
 
-Para acceder a [!UICONTROL Configuración de visualización] para una visualización individual:
+Para acceder a la [!UICONTROL Configuración de visualización] de una visualización individual:
 
 1. En Analysis Workspace, pase el ratón sobre la visualización cuya configuración desee personalizar.
 
-1. Haga clic en el icono del engranaje.
+1. Haga clic en el icono de engranaje.
 
    Cada tipo de visualización tiene una configuración única que puede personalizar. Para obtener información sobre la configuración disponible, consulte [Configuración](#settings).
 
-### Personalización de la configuración de visualización para todas las visualizaciones que cree
+### Personalización de la configuración de visualización de todas las visualizaciones que cree
 
 Puede personalizar la configuración de todas las visualizaciones que cree. Para obtener más información, consulte [Preferencias de usuario](/help/analyze/analysis-workspace/user-preferences.md).
 
-## Configuración  {#settings}
+## Configuración {#settings}
 
 ![](assets/settings.png)
 
