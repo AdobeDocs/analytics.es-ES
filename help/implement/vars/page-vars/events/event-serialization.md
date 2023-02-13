@@ -4,9 +4,9 @@ description: Ayuda a deduplicar métricas en el sitio.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Al utilizar ID de evento, la deduplicación se produce en los siguientes niveles
 >
 >Si desea deduplicar el evento [`purchase`](event-purchase.md), utilice la variable [`purchaseID`](../purchaseid.md) en su lugar.
 
-## Uso de ID de evento mediante el SDK web
+## Uso de ID de eventos mediante el SDK web
 
-La serialización de eventos es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el evento deseado del campo XDM `id`. La ruta completa de XDM depende del evento que se desea serializar.
+La serialización de eventos se [asigna para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) como `id` del campo XDM del evento deseado. La ruta completa de XDM depende del evento que se desea serializar.
 
-Por ejemplo, si desea serializar la métrica Adiciones al carro de compras, establezca la variable `commerce.productListAdds.id` Campo XDM con el valor de serialización deseado. Si desea serializar el evento personalizado 20, establezca la variable `_experience.analytics.event1to100.event20` Campo XDM con el valor de serialización deseado.
+Por ejemplo, si desea serializar la métrica Adiciones al carro de compras, establezca el campo XDM `commerce.productListAdds.id` en el valor de serialización deseado. Si desea serializar el evento personalizado 20, establezca el campo XDM `_experience.analytics.event1to100.event20` en el valor de serialización deseado.
 
 ## Uso de ID de eventos con la extensión de Adobe Analytics
 
@@ -51,7 +51,7 @@ Puede establecer el campo de ID de evento al configurar la extensión de Analyti
 
 Los valores válidos son caracteres alfanuméricos de hasta 20 bytes de longitud. Si introduce un valor que supera los 20 bytes, el sistema lo truncará a los primeros 20 bytes.
 
-## Uso de ID de eventos en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## Utilice ID de eventos en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La serialización de eventos es parte de la variable `s.events`. Asigne un ID a cada evento utilizando dos puntos en la cadena.
 
