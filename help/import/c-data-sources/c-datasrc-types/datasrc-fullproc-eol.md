@@ -4,9 +4,9 @@ description: Razones para finalizar la vida útil y comparaciones entre la API d
 feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1217'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ La API de inserción de datos en lote (BDIA) proporciona una funcionalidad adici
 
 * La inserción de datos en lote permite enviar varios archivos que se pueden procesar en paralelo. Puede utilizar Grupos de visitantes para garantizar la continuidad del visitante y la atribución de eVar.
 * La inserción de datos en lote tiene funcionalidades de validación de datos y de gestión de errores, lo que elimina parte del trabajo administrativo del envío de datos de visitas.
-* La inserción de datos en lote admite varias opciones para los ID de visitante. Puede enviar tanto el ID de Analytics como el ID de Marketing Cloud (consulte [Servicio de identidad](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) para obtener más información). Además, puede usar su propio ID como [origen para generar un ECID](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md#customer-id-and-experience-cloud-visitor-id-seeds).
+* La inserción de datos en lote admite varias opciones para los ID de visitante. Puede enviar tanto el ID de Analytics como el ID de Experience Cloud (consulte [Servicio de identidad](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) para obtener más información). Además, puede usar su propio ID como [origen para generar un ECID](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md#customer-id-and-experience-cloud-visitor-id-seeds).
 * La inserción de datos en lote admite variables de datos de lista y contexto.
 * La inserción de datos en lote no admite datos de Activity Map.
 
@@ -53,9 +53,9 @@ Para obtener más información, consulte la siguiente comparación de los valore
 | currencyCode | currencyCode | Código de la moneda en que están expresados los ingresos (por ejemplo, `USD`) |
 | customerID.[customerIDType].authState | No admitido | El estado autenticado del que procede el visitante. Los valores admitidos son: 0, 1, 2, DESCONOCIDO, AUTENTICADO, DESCONECTADO o &#39;&#39; (sin distinción de mayúsculas y minúsculas). Dos comillas simples consecutivas (&#39;&#39;) hacen que el valor se omita de la cadena de consulta, lo que significa 0 cuando se efectúa la visita. Tenga en cuenta que los valores numéricos authState admitidos indican lo siguiente: 0 = DESCONOCIDO, 1 = AUTENTICADO, 2 = DESCONECTADO. customerIDType puede ser cualquier cadena alfanumérica, pero debe considerarse que distingue entre mayúsculas y minúsculas. |
 | customerID.[customerIDType].id | No admitido | El ID de cliente que se va a usar. customerIDType puede ser cualquier cadena alfanumérica, pero debe considerarse que distingue entre mayúsculas y minúsculas. |
-| customerID.[customerIDType].isMCSeed | No admitido | Indica si este es o no el origen del ID de visitante de Marketing Cloud. Los valores admitidos son: 0, 1, TRUE, FALSE, &#39;&#39; (sin distinción de mayúsculas y minúsculas). El uso de 0, FALSE o dos comillas simples consecutivas (&#39;&#39;) hace que el valor se omita de la cadena de consulta. customerIDType puede ser cualquier cadena alfanumérica, pero debe considerarse que distingue entre mayúsculas y minúsculas. |
-| eVarN | eVarN, es decir, `<eVar2>`...`<eVar>` | Nombre de la eVar de conversión. Se pueden usar hasta 75 eVars (eVar1 - eVar75 ) Puede indicar el nombre de la eVar (eVar12) o un nombre descriptivo (Campaña de publicidad 3).  |
-| Events | Events | [Cadena de eventos](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html#vars), el formato se aplica con la misma sintaxis que la variable s.events. Por ejemplo: scAdd,event1,event7 |
+| customerID.[customerIDType].isMCSeed | No admitido | Indica si este es o no el origen del ID de visitante de Experience Cloud. Los valores admitidos son: 0, 1, TRUE, FALSE, &#39;&#39; (sin distinción de mayúsculas y minúsculas). El uso de 0, FALSE o dos comillas simples consecutivas (&#39;&#39;) hace que el valor se omita de la cadena de consulta. customerIDType puede ser cualquier cadena alfanumérica, pero debe considerarse que distingue entre mayúsculas y minúsculas. |
+| eVarN | eVarN, es decir, `<eVar2>`...`<eVar>` | Nombre de la eVar de conversión. Se pueden usar hasta 75 eVars ( eVar1 - eVar75 ) Puede indicar el nombre de la eVar (eVar12) o un nombre descriptivo (Campaña de publicidad 3).  |
+| Events | Events | [Cadena de eventos](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=es#vars), el formato se aplica con la misma sintaxis que la variable s.events. Por ejemplo: scAdd,event1,event7 |
 | hierN | hierN, es decir, `<hier2>`...`</hier2>` | Nombre de la jerarquía. Se pueden usar hasta cinco jerarquías ( hier1 - hier5). Puede indicar el nombre predeterminado de la jerarquía `hier2` o un nombre descriptivo (Barcelona). |
 | homePage | homePage | Y o N, según si la página actual es la página principal del visitante. |
 | ipaddress | No admitido | La dirección IP del visitante. |
@@ -63,10 +63,10 @@ Para obtener más información, consulte la siguiente comparación de los valore
 | javaScriptVersion | javaScriptVersion | Versión de JavaScript (por ejemplo, 1.3). |
 | idioma | No admitido | El idioma admitido del explorador. Por ejemplo, `en-us`. |
 | linkName | linkName | Nombre del vínculo. |
-| linkType | linkType | Tipo de vínculo. Los valores admitidos son: `d: Download link`, `e: Exit link`, `o: Custom link`. |
+| linkType | linkType | Tipo de vínculo. Los valores admitidos son:  `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF del vínculo. |
 | listn Por ejemplo, list2. | No admitido | Una lista delimitada de valores que se pasan a una variable y se incluyen en los informes como elementos de línea individuales |
-| marketingCloudVisitorID | No admitido | Marketing Cloud ID. Consulte [Identificación de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html#id-service-api) y el servicio de ID de visitante de Marketing Cloud |
+| marketingCloudVisitorID | No admitido | Experience Cloud ID. Consulte [Identificación de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es#id-service-api) y el servicio de ID de visitante de Experience Cloud |
 | No admitido | charSet | Conjunto de caracteres admitido para el sitio web. Por ejemplo, UTF-8, ISO-8859-1, etc. |
 | No admitido | clickAction | Identificador de objeto correspondiente al mapa de clics del visitante (oid) |
 | No admitido | clickActionType | Tipo de identificador de objeto correspondiente al mapa de clics del visitante (oidt) |
@@ -84,14 +84,14 @@ Para obtener más información, consulte la siguiente comparación de los valore
 | prop1 - prop75 | propN, es decir, `<prop2>`...`</prop2>` | Cadena correspondiente a la propiedad (por ejemplo, Sección de deportes). |
 | propN | propN | Valores de las propiedades. |
 | purchaseID | purchaseID | Número de ID de la compra. |
-| referrer | referente | Dirección URL del referente de la página. |
+| referrer | referrer | Dirección URL del referente de la página. |
 | reportSuiteID | s_account | Especifica los grupos de informes en los que se desea enviar datos. Separe las distintas ID de grupo de informes con una coma. |
 | resolution | resolution | Resolución de pantalla (por ejemplo, 1024x768). |
 | servidor | servidor | Cadena del servidor. |
 | state | state | Cadena de estado de la conversión. |
 | timestamp | date | Use el formato de fecha ISO 8601 (AAAA-MM-DDThh:mm:ss±desplazamiento_UTC; por ejemplo, 2021-09-01T12:00:00-07:00) o el formato de tiempo de Unix (la cantidad de segundos transcurridos desde el 1 de enero de 1970). |
 | trackingServer | No admitido | Solo se puede proporcionar mediante el encabezado de columna. |
-| transactionID | No admitido | Valor común que se usa para enlazar conjuntamente actividades de usuario de multicanal para los informes. Para obtener más información, consulte la [Guía del usuario de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html#data-sources). |
+| transactionID | No admitido | Valor común que se usa para enlazar conjuntamente actividades de usuario de multicanal para los informes. Para obtener más información, consulte la [Guía del usuario de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=es#data-sources). |
 | userAgent | No admitido | Cadena del agente de usuario |
-| visitorID | visitorID | ID de Analytics del visitante. Consulte [Identificación de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| visitorID | visitorID | ID de Analytics del visitante. Consulte [Identificación de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). |
 | zip | zip | Código postal de la conversión. |
