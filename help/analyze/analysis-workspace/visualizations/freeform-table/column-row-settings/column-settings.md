@@ -6,9 +6,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
 source-git-commit: 2525180898d8f4cf29df891a5f228cfd82e6ffc2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '844'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 76%
 
 Puede editar la configuración de columna de una columna individual o de varias columnas simultáneamente.
 
-1. En Analysis Workspace, arrastre una tabla improvisada al proyecto.
+1. En Analysis Workspace, arrastre una tabla de forma libre al proyecto.
 
 1. (Condicional) Para editar varias columnas simultáneamente, seleccione cada columna que desee editar mientras pulsa la tecla Mayús.
 
@@ -30,13 +30,13 @@ Puede editar la configuración de columna de una columna individual o de varias 
 
    ![](assets/column_settings.png)
 
-1. Continuar con [Configuración de columna](#column-settings).
+1. Continúe con [Configuración de columna](#column-settings).
 
 ## Configuración de columna
 
 Puede actualizar la siguiente configuración de columna para tablas individuales en Analysis Workspace, tal como se describe en [Editar configuración de columna](#edit-uicontrol-column-settings).
 
-Algunas de estas mismas configuraciones también se pueden administrar para todos los proyectos nuevos que cree en Analysis Workspace, tal como se describe en [Preferencias de usuario](/help/analyze/analysis-workspace/user-preferences.md)
+Algunas de estas mismas configuraciones también se pueden administrar para todos los proyectos nuevos que cree en Analysis Workspace, tal como se describe en [Preferencias de usuario](/help/analyze/analysis-workspace/user-preferences.md).
 
 | Elemento | Descripción |
 | --- | --- |
@@ -46,8 +46,8 @@ Algunas de estas mismas configuraciones también se pueden administrar para todo
 | **Celdas de la tabla** |  |
 | Número | Determina si una celda muestra u oculta el valor numérico de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor numérico es el número de visualizaciones de la página para el elemento de fila. |
 | Porcentaje | Determina si una celda muestra u oculta el valor porcentual de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor porcentual es el número de visualizaciones de la página para el elemento de fila dividido por el total de visualizaciones de la página para la columna.  Nota: Se pueden mostrar porcentajes superiores al 100 % para mejorar la precisión. También se ha he incrementado el límite superior hasta el 1000 % para garantizar que la anchura de las columnas se pueda ampliar. |
-| Anomalías | Determina si se ha ejecutado una detección de anomalías en los valores de esta columna. Para obtener más información, consulte [Ver anomalías en Analysis Workspace](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md). |
-| Justificar el texto del encabezado | Permite justificar el texto del encabezado en las tablas improvisadas para que los encabezados sean más legibles y las tablas se puedan compartir con mayor facilidad. Esto resulta útil en el procesamiento de archivos .pdf y en las métricas con nombres largos. Está activada de forma predeterminada. |
+| Anomalías | Determina si se ha ejecutado una detección de anomalías en los valores de esta columna. Para obtener más información, consulte [Visualización de anomalías en Analysis Workspace](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md). |
+| Justificar el texto del encabezado | Permite justificar el texto del encabezado en las tablas de forma libre para que los encabezados sean más legibles y las tablas se puedan compartir con mayor facilidad. Esto resulta útil en el procesamiento de archivos .pdf y en las métricas con nombres largos. Está activada de forma predeterminada. |
 | La interpretación de cero no tiene valor | Para las celdas con un valor de 0, determina si se va a mostrar un 0 o una celda en blanco. Esto es útil si desea analizar los datos de todos los días de un mes y todavía faltan algunos días.  En vez de mostrar 0 para las fechas futuras, se pueden mostrar celdas en blanco. Los gráficos también respetan estas opciones de configuración (por ejemplo, si esta opción de configuración está marcada, no muestran ninguna línea ni ninguna barra con el valor 0). |
 | Contexto | Determina si una celda muestra u oculta todo el formato de la celda, que incluye la gráfico de barras y el formato condicional. |
 | Gráfico de barras | Muestra un gráfico de barras horizontal que representa el valor de la celda con relación al total de la columna. |
@@ -56,13 +56,13 @@ Algunas de estas mismas configuraciones también se pueden administrar para todo
 
 ## Formato condicional {#conditional-formatting}
 
-El formato condicional aplica formato que puede definir a los límites superior, medio e inferior. La aplicación de formato condicional (colores, por ejemplo) en tablas improvisadas también está activada automáticamente en los desgloses, a menos que los límites &quot;Personalizados&quot; estén seleccionados.
+El formato condicional aplica formato que puede definir a los límites superior, medio e inferior. La aplicación de formato condicional (por ejemplo, colores) en tablas de forma libre también está activada automáticamente en los desgloses, a menos que los límites “Personalizados” estén seleccionados.
 
 ![](assets/conditional-formatting.png)
 
 | Elemento | Descripción |
 | --- | --- |
-| Formato condicional | Aplica un conjunto de colores preconfigurado que elija a las celdas. Dependiendo de cuál de los 4 esquemas de color disponibles seleccione, se asignan diferentes colores a valores altos, valores medios y valores bajos. <br> Sustituir una dimensión en la tabla restablece los límites de formato condicional. Cuando se sustituye una métrica se vuelven a calcular los límites de dicha columna (donde las métricas se encuentran en el eje X y las dimensiones se encuentran en el eje Y). |
+| Formato condicional | Aplica a las celdas el conjunto de colores preconfigurado que desee. Dependiendo de cuál de los 4 esquemas de color disponibles seleccione, se asignan diferentes colores a valores altos, valores medios y valores bajos. <br> Sustituir una dimensión en la tabla restablece los límites de formato condicional. Cuando se sustituye una métrica se vuelven a calcular los límites de dicha columna (donde las métricas se encuentran en el eje X y las dimensiones se encuentran en el eje Y). |
 | Usar límites porcentuales | Cambie el rango de límite en función de los porcentajes, no en función de los valores absolutos. Esto sirve para métricas que solo se basan en porcentajes (como el porcentaje de rebote), así como para métricas que tienen un recuento y un porcentaje (como las vistas de la página). |
 | Generación automática | Calcule automáticamente los límites superior/medio/inferior en función de los datos. El límite superior es el valor máximo de esta columna. El límite inferior es el valor más bajo y el punto medio es la media entre los límites superior e inferior. |
 | Personalizado | Asigne los límites superior/medio/inferior en forma manual. Esto le proporciona la flexibilidad para determinar si el valor de una columna es bueno, medio o malo. |
