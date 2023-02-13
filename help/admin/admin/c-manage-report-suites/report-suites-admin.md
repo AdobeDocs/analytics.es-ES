@@ -4,15 +4,15 @@ title: Administrador del grupo de informes
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Administrador del grupo de informes
 
-Los grupos de informes definen los informes completos e independientes para cualquiera de los siguientes almacenes de datos:
+Los grupos de informes definen los informes completos e independientes de cualquiera de los siguientes almacenes de datos:
 
 * Un solo sitio web (el más típico)
 
@@ -22,11 +22,11 @@ Los grupos de informes definen los informes completos e independientes para cual
 
 Las soluciones de Analytics reúnen estos almacenes de datos y generan informes a partir de ellos. El Administrador del grupo de informes de administración permite definir las reglas que rigen la forma en la que se procesan los datos en un grupo de informes.
 
-Cuando inicia sesión en cualquier solución de Adobe Analytics, selecciona un grupo de informes a utilizar (excepto cuando utiliza resúmenes que combinan grupos de informes).
+Cuando inicia sesión en cualquier solución de Adobe Analytics, selecciona un grupo de informes para utilizar (excepto cuando utiliza resúmenes que combinan grupos de informes).
 
 Para acceder a un grupo de informes:
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Grupos de informes]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administradores]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Grupos de informes]**
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ La tabla siguiente describe los elementos de la página [!UICONTROL Administrado
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Resúmenes</span> </td> 
-   <td colname="col2"> <p>Un resumen es un único grupo de informes que combina los datos de seguimiento de otros grupos de informes. </p> <p>Consulte <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Grupo de informes resumidos</a>. </p> </td> 
+   <td colname="col2"> <p>Un resumen es un único grupo de informes que combina los datos de seguimiento de otros grupos de informes. </p> <p>Consulte  <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Grupo de informes resumidos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar configuración</span> </td> 
