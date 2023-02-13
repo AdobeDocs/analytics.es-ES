@@ -4,9 +4,9 @@ description: Identifique de forma dinámica los bots moviendo el ratón.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Este plug-in realiza dos comprobaciones:
 
 Si el agente de usuario está en un escritorio y no se detecta ningún movimiento de ratón, el plug-in puede
 
-* Realice una llamada a la regla de llamada directa mediante el SDK web o la extensión Adobe Analytics, o
+* Realice una llamada a la regla de llamada directa mediante el SDK web o la extensión de Adobe Analytics, o
 * Realice una llamada de seguimiento de vínculos para indicar que el visitante no es un bot.
 
 ## Requisitos previos
@@ -35,7 +35,7 @@ Adobe recomienda lo siguiente antes de utilizar este plug-in:
 * **Configuración de eVar**: configure un eVar en [Variables de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes. Establezca la caducidad en **Nunca** o **Visita** y la asignación a **“Valor original (primero)”**. Esta eVar se debe establecer en ambas circunstancias: cuando se activa la regla [!UICONTROL Direct Call] o la llamada `s.tl`.
 * **Recopilar agente de usuario en una variable independiente**: recopile la cadena del agente de usuario en una variable independiente para supervisar la eficacia de este plug-in. Establezca un eVar en `navigator.UserAgent` en cada visita para recopilar estos datos.
 
-## Instalación del complemento con el editor de código personalizado de 
+## Instalación del complemento con el editor de código personalizado
 
 1. Añada una nueva regla `websiteBot`.
 1. Añada un evento **Mouse Move Listener** a la regla `websiteBot` con este código personalizado:
