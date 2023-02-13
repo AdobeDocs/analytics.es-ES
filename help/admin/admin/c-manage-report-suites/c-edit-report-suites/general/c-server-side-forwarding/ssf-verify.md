@@ -5,9 +5,9 @@ title: Comprobar la implementación del reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Para comprobar el estado del reenvío del lado del servidor:
 
 >[!CAUTION]
 >
->Si la respuesta contiene el par clave-valor `"status":"SUCCESS"` o una imagen 2 x 2, el reenvío del lado del servidor no está configurado correctamente. Asegúrese de que el servicio de identidad esté correctamente implementado, de que haya implementado el módulo App Measurement, de que el grupo de informes aplicable esté asignado al ID de organización correcto y de que el reenvío del lado del servidor esté habilitado en las herramientas de administración de Analytics.
+>Si la respuesta contiene el par clave-valor `"status":"SUCCESS"` o una imagen 2 x 2, el reenvío del lado del servidor no está configurado correctamente. Compruebe que el servicio de identidad esté correctamente implementado, que haya implementado el módulo AppMeasurement, que el grupo de informes aplicable esté asignado al ID de organización correcto y que el reenvío del lado del servidor esté habilitado en las herramientas de administración de Analytics.
 
 >[!MORELIKETHIS]
 >
