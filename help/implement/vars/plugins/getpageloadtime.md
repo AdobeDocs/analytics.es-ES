@@ -4,9 +4,9 @@ description: Rastree el tiempo que tarda una página en cargarse.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: a00511d62960dc077620b2882f4e7f816267f939
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 64%
 
 El complemento `getPageLoadTime` utiliza el objeto de rendimiento JavaScript para permitirle medir el tiempo que tarda una página en cargarse por completo. Adobe recomienda utilizar este complemento si desea medir cuánto tardan las páginas en cargarse.
 
->NOTA/ADVERTENCIA: Si está actualizando este complemento desde una versión anterior, lo más probable es que tenga que cambiar el código que llama a esta función también.  Compruebe la implementación y realice pruebas exhaustivas antes de implementarla en producción
+>NOTA/ADVERTENCIA: Si está actualizando este complemento desde una versión anterior, lo más probable es que también tenga que cambiar el código que llama a esta función.  Compruebe la implementación y realice pruebas exhaustivas antes de implementarla en producción
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -36,7 +36,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
     * Action Type: Initialize getPageLoadTime
 1. Save and publish the changes to the rule.-->
 
-## Instalación del complemento con el editor de código personalizado de 
+## Instalación del complemento con el editor de código personalizado
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
@@ -62,16 +62,16 @@ Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement
 
 La función `getPercentPageViewed` utiliza los argumentos siguientes:
 
-* **`pv`** (opcional, cadena): Dimensión con la que se correlaciona el tiempo de carga de la página.  Este valor debe ser igual a un valor que identifique la propia página. Cuando no se establece, el valor predeterminado de este argumento es la variable pageName de Adobe AppMeasurement (es decir, s.pageName) o la dirección URL cuando no se establece s.pageName
+* **`pv`** (opcional, cadena): dimensión con la que se correlaciona el tiempo de carga de la página.  Este valor debe ser igual a un valor que identifique la propia página. Cuando no se establece, el valor predeterminado de este argumento es la variable pageName de Adobe AppMeasurement (es decir, s.pageName) o la dirección URL cuando no se establece s.pageName
 
 Llamar a esta función no devuelve nada; en su lugar, establece las siguientes variables:
 
-* `window._pltPreviousPage`: El valor de la página anterior (es decir, lo que se pasó al argumento pv)
-* `window._pltLoadTime`: Tiempo en segundos que tardó la página anterior en cargarse.
+* `window._pltPreviousPage`: el valor de la página anterior (es decir, lo que se pasó al argumento pv)
+* `window._pltLoadTime`: tiempo, en segundos, que tardó la página anterior en cargarse
 
 El complemento getPageLoadTime crea una cookie de origen:
 
-* `s_plt`: Tiempo, en segundos, que tardó la página anterior en cargarse.  También contiene el valor de lo que se pasó al argumento pv.  Caduca al final de la sesión del explorador.
+* `s_plt`: tiempo, en segundos, que tardó la página anterior en cargarse También contiene el valor de lo que se pasó al argumento pv.  Caduca al final de la sesión del explorador.
 
 ## Ejemplo
 
@@ -95,7 +95,7 @@ if(window._pltPreviousPage)
 ### 3.0 (6 de diciembre de 2022)
 
 * Reescritura completa del complemento para que sea independiente de la solución.  Por ejemplo, ahora es compatible con el SDK web de AEP
-* Crea el `_pltPreviousPage` y `_pltLoadTime` variables en el objeto window (en lugar de en el objeto s de AppMeasurement)
+* Crea las variables `_pltPreviousPage` y `_pltLoadTime` en el objeto de ventana (en lugar de en el objeto s de AppMeasurement)
 * Elimina la necesidad de la cookie s_pltp: ahora todo está almacenado únicamente en la cookie s_plt
 * Incluye la función getVersion para ayudar en la resolución de problemas
 
