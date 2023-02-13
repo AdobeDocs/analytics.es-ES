@@ -4,9 +4,9 @@ description: Configure la variable “events” (eventos), que gobierna la mayor
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 source-git-commit: 62f793491d2f95266a71bc217260353f8c040525
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -16,28 +16,28 @@ Las dimensiones y las métricas son componentes fundamentales para los informes.
 
 Antes de implementar eventos, asegúrese de crearlos y configurarlos en [Eventos de éxito](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) en la configuración del grupo de informes. Si planea utilizar eventos personalizados en las visitas de seguimiento de vínculos, asegúrese de que [`linkTrackVars`](../../config-vars/linktrackvars.md) y [`linkTrackEvents`](../../config-vars/linktrackevents.md) están correctamente configurados.
 
-## Eventos que utilizan el SDK web
+## Eventos con el SDK web
 
-Los eventos personalizados son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los siguientes campos XDM:
+Los eventos personalizados se [asignan para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los siguientes campos XDM:
 
-* Los eventos personalizados 1-100 están asignados a `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
-* Los eventos personalizados 101-200 están asignados a `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* Este patrón repite cada 100 eventos a `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` se utiliza para especificar la cantidad que se va a incrementar. `eventx.id` se usa para [serialización](event-serialization.md).
-* Los pedidos están asignados a `commerce.purchases.value`.
-* Las unidades se asignan a la suma de todas `productListItems[].quantity` campos.
-* Los ingresos se asignan a la suma de todos los `productListItems[].priceTotal` campos.
-* Las vistas del producto están asignadas a `commerce.productListViews.value`.
-* Los carros de compras están asignados a `commerce.productListOpens.value`.
-* Las adiciones al carro de compras están asignadas a `commerce.productListAdds.value`.
-* Las eliminaciones del carro de compras están asignadas a `commerce.productListRemovals.value`.
-* Las vistas del carro de compras están asignadas a `commerce.productListViews.value`.
-* Las cierres de compra están asignadas a `commerce.checkouts.value`.
+* Los eventos personalizados 1-100 se asignan a `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
+* Los eventos personalizados 101-200 se asignan a `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
+* Este patrón se repite cada 100 eventos en `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` se utiliza para especificar la cantidad que se va a incrementar. `eventx.id` se usa para la [serialización](event-serialization.md).
+* Los pedidos se asignan a `commerce.purchases.value`.
+* Las unidades se asignan a la suma de todos los campos `productListItems[].quantity`.
+* Los ingresos se asignan a la suma de todos los campos `productListItems[].priceTotal`.
+* Las vistas del producto se asignan a `commerce.productListViews.value`.
+* Los carros de compras se asignan a `commerce.productListOpens.value`.
+* Las adiciones al carro de compras se asignan a `commerce.productListAdds.value`.
+* Las eliminaciones del carro de compras se asignan a `commerce.productListRemovals.value`.
+* Las vistas del carro de compras se asignan a `commerce.productListViews.value`.
+* Los cierres de compra se asignan a `commerce.checkouts.value`.
 
 >[!NOTE]
 >
->Si se establece un evento en `productListItems` (por ejemplo, `productListItems._experience.analytics.event1.value`) y ese evento aún no está en este campo, ese evento se agrega automáticamente a este campo.
+>Si se establece un evento en `productListItems` (por ejemplo, `productListItems._experience.analytics.event1.value`) y aún no está en este campo, se agregará automáticamente a dicho campo.
 
-## Eventos que utilizan la extensión de Adobe Analytics
+## Eventos con la extensión de Adobe Analytics
 
 Puede establecer eventos al configurar la extensión de Analytics (variables globales) o en reglas.
 
@@ -53,7 +53,7 @@ Hay varias funciones disponibles:
 * Un menú desplegable permite seleccionar el evento que se va a incluir.
 * Un campo de texto opcional permite la serialización. Consulte [Serialización de eventos](event-serialization.md) para obtener más información.
 * Campo de texto opcional para un valor de evento. Puede incluir moneda para eventos de moneda o un entero para eventos que no sean de moneda para incrementar la cifra varias veces. Por ejemplo, si selecciona `event1` en la lista desplegable e incluye `10` en este campo, los informes se incrementan `event1` en 10.
-* Botón para agregar otro evento. Puede agregar tantos eventos como desee a una única regla dentro del motivo.
+* Botón para agregar otro evento. Puede agregar tantos eventos como desee a una única regla dentro de lo razonable.
 
 ## s.events en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
