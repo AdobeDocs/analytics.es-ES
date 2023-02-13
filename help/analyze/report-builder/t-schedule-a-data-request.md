@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
 source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Además, después de crear una programación de libro de trabajo en Report Build
 
 >[!NOTE]
 >
->Para poder programar un libro de trabajo, debe disponer de Excel 2007 o tener el paquete de compatibilidad instalado. Puede tener un máximo de 10 libros programados por cada licencia de Report Builder. Sin embargo, puede aumentar este número si resta de otras licencias. Para ello, vaya a **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración de la empresa]** > **[!UICONTROL Informes del Report Builder]**. Un libro que se ha programado (o cargado a la Biblioteca de libros) y no se ha tocado (actualizado, reemplazado) en más de 28 meses se eliminará.
+>Para poder programar un libro de trabajo, debe disponer de Excel 2007 o tener el paquete de compatibilidad instalado. Puede tener un máximo de 10 libros programados por cada licencia de Report Builder. Sin embargo, puede aumentar este número si resta de otras licencias. Para hacerlo, vaya a **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración de la compañía]** > **[!UICONTROL Informes de Report Builder]**. Un libro que se ha programado (o cargado a la Biblioteca de libros) y no se ha tocado (actualizado, reemplazado) en más de 28 meses se eliminará.
 
 >[!NOTE]
 >
