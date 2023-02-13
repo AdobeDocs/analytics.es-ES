@@ -4,9 +4,9 @@ description: Para los sitios de comercio electrónico, establece la moneda que u
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Puede utilizar un código de moneda preestablecido o un código de moneda person
 El código de moneda se pasa a los SDK de Adobe Experience Platform Mobile a través de variables de datos de contexto en la extensión de Adobe Analytics.
 
 1. Configure el código de moneda en una variable de datos de contexto durante `trackState` o `trackAction`.
-1. Cree una regla de procesamiento en las Herramientas de administración de Adobe Analytics para el grupo de informes. Configure la regla para sobrescribir la variable Código de moneda.
+1. Cree una regla de procesamiento en las herramientas de administración de Adobe Analytics para el grupo de informes. Configure la regla para sobrescribir la variable Código de moneda.
 1. Pase el código de moneda a la variable `products` en su llamada para `trackState` o `trackAction`.
 
 Puede utilizar un código de moneda preestablecido o un código de moneda personalizado. Si utiliza un código de moneda personalizado, asegúrese de que el código sea válido.
