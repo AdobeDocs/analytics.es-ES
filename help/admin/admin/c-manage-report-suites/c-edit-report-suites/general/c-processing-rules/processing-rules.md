@@ -5,9 +5,9 @@ title: Resumen de las reglas de procesamiento
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -54,10 +54,10 @@ Las reglas de procesamiento pueden supervisar los valores entrantes para transfo
 
 ## Uso de variables de datos de contexto en informes {#section_BD098BC503024A0B8703596628071134}
 
-Una vez que las variables de datos de contexto se definen en la implementación, se deben copiar en variables como las eVars para poder utilizarse en la creación de informes.
+Una vez que las variables de datos de contexto se definen en la implementación, se deben copiar en variables como las eVar para poder utilizarse en la creación de informes.
 
 Consulte [Copiar una variable de datos de contexto en una eVar](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) y [Definir un evento con una variable de datos de contexto](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md) para obtener más información.
 
 ## Limitaciones conocidas
 
-**Uso de quilates (^) en reglas de procesamiento.** Si desea utilizar caracteres en reglas de procesamiento como delimitadores o para otros fines, cada carro individual debe estar representado por dos quilates. Por ejemplo, representar un solo carro como ^^, un doble carro como ^^^^, etc.
+**Uso del signo de intercalación (^) en reglas de procesamiento.** Si desea utilizar signos de intercalación en reglas de procesamiento como delimitadores o para otros fines, cada signo de intercalación individual debe estar representado por dos signos de intercalación. Por ejemplo, represente un solo signo de intercalación como ^^, un doble signo de intercalación como ^^^^, etc.
