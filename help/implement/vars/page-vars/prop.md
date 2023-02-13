@@ -4,9 +4,9 @@ description: Variables personalizadas que puede utilizar en su implementación.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Las propiedades son variables personalizadas que se pueden utilizar como desee. 
 
 Si tiene un [documento de diseño de soluciones](/help/implement/prepare/solution-design.md), puede asignar estas dimensiones personalizadas a valores específicos de su organización. El número de propiedades disponibles depende del contrato con Adobe. Hay disponibles hasta 75 props si su contrato con Adobe lo admite.
 
-## Props mediante el SDK web
+## Props con el SDK web
 
-Las props son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los campos XDM `_experience.analytics.customDimensions.props.prop1` a `_experience.analytics.customDimensions.props.prop75`. Las props de lista se especifican en un conjunto independiente de campos.
+Las prop se [asignan para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los campos XDM `_experience.analytics.customDimensions.props.prop1` a `_experience.analytics.customDimensions.props.prop75`. Las prop de lista se especifican en un conjunto independiente de campos.
 
-## Props con la extensión Adobe Analytics
+## Props con la extensión de Adobe Analytics
 
 Puede establecer propiedades durante la configuración de la extensión de Analytics (variables globales) o en reglas.
 
@@ -57,13 +57,13 @@ Habilitar props de lista en [Variables de tráfico](/help/admin/admin/c-manage-r
 
 >[!TIP]
 >
->Los delimitadores comunes que se utilizan en las implementaciones son una coma (`,`), dos puntos (`:`), un punto y coma (`;`) o una barra vertical (`|`). Puede utilizar cualquier delimitador ASCII no extendido que se adapte mejor a su implementación.
+>Los delimitadores comunes que se utilizan en las implementaciones son una coma (`,`), dos puntos (`:`), un punto y coma (`;`) o una barra vertical (`|`). Puede utilizar el delimitador ASCII no extendido que se adapte mejor a la implementación.
 
-### Establecer props de lista mediante el SDK web
+### Establecer las prop de lista mediante el SDK web
 
-Una vez configuradas las props de lista en la configuración del grupo de informes con el delimitador deseado, las props de lista se asignan para Adobe Analytics en `_experience.analytics.customDimensions.listProps.prop1.values[]` a `_experience.analytics.customDimensions.listProps.prop75.values[]`. El SDK web utiliza automáticamente el delimitador correcto que aparece en la configuración del grupo de informes. Si establece el delimitador en el campo XDM (por ejemplo, `_experience.analytics.customDimensions.props.prop1.delimiter`), que anula el delimitador recuperado automáticamente de la configuración del grupo de informes y puede provocar un análisis incorrecto de la cadena prop de lista.
+Una vez configuradas las prop de lista en la configuración del grupo de informes con el delimitador deseado, las prop de lista se asignan para Adobe Analytics en `_experience.analytics.customDimensions.listProps.prop1.values[]` a `_experience.analytics.customDimensions.listProps.prop75.values[]`. El SDK web utiliza automáticamente el delimitador correcto que aparece en la configuración del grupo de informes. Si establece el delimitador en el campo XDM (por ejemplo, `_experience.analytics.customDimensions.props.prop1.delimiter`), eso anula el delimitador recuperado automáticamente de la configuración del grupo de informes y puede provocar un análisis incorrecto de la cadena prop de lista.
 
-### Configurar props de lista con la extensión Adobe Analytics y AppMeasurement
+### Configurar las prop de lista con la extensión Adobe Analytics y AppMeasurement
 
 Una vez configuradas las props de lista en la configuración del grupo de informes con el delimitador deseado, no hay más diferencias de implementación que el uso del delimitador.
 
@@ -74,6 +74,6 @@ s.prop1 = "value1,value2,value3";
 
 >[!IMPORTANT]
 >
->Las props de lista siguen estando sujetas a la longitud máxima de 100 bytes. No es raro que las props de lista alcancen este límite, por lo que se truncan, ya que pueden contener varios valores. Utilice abreviaciones o valores abreviados si prevé que se pueda alcanzar este límite de 100 bytes.
+>Las prop de lista siguen estando sujetas a la longitud máxima de 100 bytes. No es raro que las props de lista alcancen este límite, por lo que se truncan, ya que pueden contener varios valores. Utilice abreviaciones o valores abreviados si prevé que se pueda alcanzar este límite de 100 bytes.
 
 Si establece el mismo valor más de una vez en una propiedad de lista, se anula la duplicación en sistema de informes. Analysis Workspace cuenta la cantidad de visitas en las que se ve un valor y no la cantidad de veces que existe un valor en los datos.
