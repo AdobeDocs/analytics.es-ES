@@ -4,9 +4,9 @@ description: Cree un espacio para personalizar cómo se recopilan los datos medi
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Las propiedades son contenedores generales que se utilizan para administrar etiq
 1. Todas las opciones de configuración, incluido el ID de organización de Experience Cloud deberían estar completos. Haga clic en **[!UICONTROL Guardar]**.
 1. Vuelva al catálogo de extensiones, busque Adobe Analytics y haga clic en **[!UICONTROL Instalar]**.
 
-Consulte la documentación completa para [Extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=es) para obtener información más detallada.
+Consulte la documentación completa para la [extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=es) para obtener información más detallada.
 
 ## Creación de elementos de datos para Adobe Analytics
 
@@ -51,7 +51,7 @@ Los elementos de datos son referencias a partes específicas del sitio para reco
       >
       >Este valor sirve como ejemplo para ayudarle a empezar. Si su organización define un valor más adecuado para el nombre de la página, como un valor de capa de datos, puede utilizarlo aquí.
    * Se ha seleccionado la opción Borrar texto
-   * Duración del almacenamiento: Ninguna
+   * Duración del almacenamiento: ninguna
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Creación de reglas para Adobe Analytics
@@ -60,7 +60,7 @@ Las reglas asignan elementos de datos a valores de variables de Analytics y dete
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas que desee implementar en el sitio.
-1. Haga clic en el **[!UICONTROL Reglas]** a continuación, haga clic en **[!UICONTROL Agregar regla]**. Asigne un nombre `Global Rule`.
+1. Haga clic en la pestaña **[!UICONTROL Reglas]** y, a continuación, haga clic en **[!UICONTROL Agregar regla]**. Asígnele el nombre `Global Rule`.
 1. Haga clic en **[!UICONTROL Agregar]** junto a los eventos e introduzca la siguiente configuración:
    * Extensión: Core
    * Tipo de evento: Biblioteca cargada (Principio de página)
