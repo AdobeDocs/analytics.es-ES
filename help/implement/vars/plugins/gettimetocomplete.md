@@ -4,9 +4,9 @@ description: Mida el tiempo que se tarda en completar una tarea.
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 source-git-commit: 77142b65fe0f88826b8b0df5bba4a4dc1a0dbecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
     * Action Type: Initialize getTimeToComplete
 1. Save and publish the changes to the rule.-->
 
-## Instalación del complemento con el editor de código personalizado de 
+## Instalación del complemento con el editor de código personalizado
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
@@ -62,8 +62,8 @@ La función `getTimeToComplete` utiliza los siguientes argumentos:
 
 * **`sos`** (opcional, cadena): Configúrelo en `"start"` cuando desee iniciar el temporizador. Configúrelo en `"stop"` cuando desee detener el temporizador. El valor predeterminado es `"start"`.
 * **`cn`** (opcional, cadena): El nombre de la cookie para almacenar la hora de inicio. El valor predeterminado es `"s_gttc"`.
-* **`exp`** (opcional, entero): El número de segundos, horas o días (según la variable `tp` argumento de partición de tiempo) de que la cookie (y el temporizador) caducan. El valor predeterminado es de 30 minutos.
-* **`tp`** (opcional, cadena): La cadena de partición de tiempo en la que caduca la cookie (y el temporizador), utilizada con la variable `exp` argumento. Configúrelo en &quot;d&quot; para días, &quot;h&quot; para horas o &quot;s&quot; para segundos. Si no se establece este valor, el valor predeterminado de la caducidad de la cookie (y del temporizador) es de 30 minutos, independientemente de la variable `exp` se ha establecido en.
+* **`exp`** (opcional, entero): el número de segundos, horas o días (según el argumento de partición de tiempo `tp`) en los que caduca la cookie (y el temporizador). El valor predeterminado es de 30 minutos.
+* **`tp`** (opcional, cadena): la cadena de partición de tiempo en la que caduca la cookie (y el temporizador), utilizada con el argumento `exp`. Configúrelo en “d” para días, “h” para horas o “s” para segundos. Si no se configura, el valor predeterminado de la caducidad de la cookie (y del temporizador) es de 30 minutos, independientemente de cómo se haya configurado el argumento `exp`.
 
 Llamar a esta función devuelve una cadena que contiene el número de días, horas, minutos o segundos transcurridos entre la acción `"start"` y `"stop"`.
 
