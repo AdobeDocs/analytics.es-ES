@@ -4,9 +4,9 @@ description: Rellene manualmente la dimensión “Código postal” si la config
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ La variable `zip` permite rellenar manualmente la dimensión “Código postal�
 >
 >Asegúrese de que la [!UICONTROL opción Zip] de la configuración del grupo de informes está establecida con el valor deseado. No puede utilizar esta variable si siempre se utiliza [!UICONTROL geo zip]. Consulte [Configuración general de la cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) en la Guía de administración para obtener más información.
 
-## Código postal con la extensión Adobe Analytics
+## Zip con la extensión de Adobe Analytics
 
 Puede establecer el código postal al configurar la extensión Analytics (variables globales) o en reglas.
 
