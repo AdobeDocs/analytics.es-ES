@@ -5,9 +5,9 @@ feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
 source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '943'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 65%
 
 Puede crear segmentos rápidos dentro de un proyecto para evitar la complejidad del [generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) completo. Segmentos rápidos
 
-* Aplicar como [segmentos solo de proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html#what-are-project-only-segments%3F).
+* Aplicar como [segmentos de solo proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=es#what-are-project-only-segments).
 * Permiten hasta 3 reglas.
 * No se admiten contenedores anidados ni reglas secuenciales.
 
 Para ver una comparación de lo que pueden hacer los segmentos rápidos frente a los segmentos de lista de componentes completos, consulte [aquí](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
-A continuación se muestra un vídeo introductorio de los segmentos rápidos:
+A continuación se muestra un vídeo introductorio de segmentos rápidos:
 
 >[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
@@ -43,7 +43,7 @@ Configure el segmento rápido desde esta pizarra en blanco:
 | --- | --- |
 | Nombre | El nombre predeterminado de un segmento es una combinación de los nombres de reglas del segmento. Puede cambiar el nombre del segmento. |
 | Inclusión/exclusión | Puede incluir o excluir componentes en su definición de segmento, pero no ambas cosas. |
-| Contenedor de visita/visita individual/visitante | Los segmentos rápidos incluyen solo un [contenedor de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) que le permite incluir una dimensión, métrica o intervalo de fecha en el segmento (o excluirlo). [!UICONTROL Visitante] contiene datos globales específicos del visitante en las visitas y vistas de páginas. A [!UICONTROL Visita] contenedor le permite establecer reglas para desglosar los datos del visitante en función de las visitas y un [!UICONTROL Visita] contenedor le permite desglosar la información del visitante según las vistas de página individuales. El contenedor predeterminado es [!UICONTROL Visita individual]. |
+| Contenedor de visita/visita individual/visitante | Los segmentos rápidos incluyen solo un [contenedor de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=es#section_AF2A28BE92474DB386AE85743C71B2D6) que le permite incluir una dimensión, métrica o intervalo de fecha en el segmento (o excluirlo). [!UICONTROL Visitante] contiene datos globales específicos del visitante en las visitas y vistas de páginas. Un contenedor de [!UICONTROL Visita] le permite establecer reglas para desglosar los datos del visitante en función de las visitas, y un contenedor de [!UICONTROL Visita individual] le permite desglosar la información del visitante según las vistas de página individuales. El contenedor predeterminado es [!UICONTROL Visita individual]. |
 | Componentes (dimensión/métrica/intervalo de fechas) | Defina hasta 3 reglas añadiendo componentes (dimensiones o métricas o intervalos de fechas) y sus valores. Existen tres formas de encontrar el componente correcto:<ul><li>Empiece a escribir y el generador de [!UICONTROL segmentos rápidos] encontrará automáticamente el componente adecuado.</li><li>Utilice la lista desplegable para buscar el componente.</li><li>Arrástrelos y suéltelos desde el carril izquierdo.</li></ul> |
 | Operador | Utilice el menú desplegable para buscar operadores estándar y operadores de [!UICONTROL recuento distintos]. [Más información](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=es) |
 | Signo más (+) | Añadir otra regla |
@@ -81,23 +81,23 @@ El segmento aparece en la parte superior. Fíjese en su barra lateral con bandas
 1. (Opcional) Cambie el nombre del segmento.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-Observe cómo la barra lateral del segmento cambia de azul rayado a azul más claro. Ahora también aparece en la lista de componentes del carril izquierdo.
+Observe cómo la barra lateral del segmento cambia de azul a rayas a un azul más claro. Ahora también aparece en la lista de componentes del carril izquierdo.
 
-## ¿Qué son segmentos solo de proyecto?
+## ¿Qué son segmentos de solo proyecto?
 
-Los segmentos solo de proyecto son segmentos que solo se aplican al proyecto actual en el que se crearon. No estarán disponibles en otros proyectos y no se podrán compartir con otros usuarios. Están pensados para una exploración rápida de sus datos sin tener que crear ni guardar un segmento en el carril izquierdo. Los segmentos solo de proyecto se pueden crear en la zona de colocación del panel con segmentos rápidos o [segmentos ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html).
+Los segmentos de solo proyecto son segmentos que solo se aplican al proyecto actual en el que se crearon. No estarán disponibles en otros proyectos y no se pueden compartir con otros usuarios. Están pensados para una exploración rápida de sus datos sin tener que crear ni guardar un segmento en el carril izquierdo. Los segmentos de solo proyecto se pueden crear en la zona de colocación del panel con segmentos rápidos o [segmentos ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=es).
 
-Si un segmento solo de proyecto se abre en la variable [!UICONTROL Generador de segmentos], aparece una notificación de solo proyecto. Si no marca &quot;Hacer que este segmento esté disponible.&quot; y haga clic en **[!UICONTROL APLICAR]**, el segmento sigue siendo un segmento solo de proyecto. Nota: si aplica un segmento rápido desde el Generador de segmentos, ya no se puede abrir en el [!UICONTROL Generador de segmentos rápido].
+Si un segmento de solo proyecto se abre en el [!UICONTROL Generador de segmentos], aparece una notificación de solo proyecto. Si no marca “Hacer que este segmento esté disponible..” y hace clic en **[!UICONTROL APLICAR]**, el segmento sigue siendo un segmento de solo proyecto. Nota: Si aplica un segmento rápido desde el Generador de segmentos, ya no se puede abrir en el [!UICONTROL Generador de segmentos rápidos].
 
-![Solo de proyecto marcado](assets/project-only-unchecked.png)
+![De solo proyecto desactivado](assets/project-only-unchecked.png)
 
-Si marca &quot;Hacer que este segmento esté disponible.&quot; y haga clic en **[!UICONTROL GUARDAR]**, el segmento está disponible en la lista de componentes del carril izquierdo para su uso en otros proyectos. También se puede compartir con otros usuarios desde el Administrador de segmentos.
+Si marca “Hacer que este segmento esté disponible” y hace clic en **[!UICONTROL GUARDAR]**, el segmento está disponible en la lista de componentes del carril izquierdo para su uso en otros proyectos. También se puede compartir con otros usuarios desde el Administrador de segmentos.
 
-![Solo de proyecto marcado](assets/project-only-checked.png)
+![De solo proyecto marcado](assets/project-only-checked.png)
 
 ## Problema conocido
 
-1. Cree un segmento rápido con 2 entradas y **[!UICONTROL Guardar]** como Prueba 1.
-1. Haga clic en **[!UICONTROL Guardar como]** y guarde este segmento rápido como Prueba 2.
-1. Edite el segmento rápido Test2 y vuelva a guardarlo como Prueba2.
-Observe que Test2 modifica el segmento rápido de Test1.
+1. Cree un segmento rápido con 2 entradas y haga clic en **[!UICONTROL Guardar]** como Prueba1.
+1. Haga clic en **[!UICONTROL Guardar como]** y guarde este segmento rápido como Prueba2.
+1. Edite el segmento rápido Prueba2 y vuelva a guardarlo como Prueba2.
+Observe que Prueba2 modifica el segmento rápido Prueba1.
