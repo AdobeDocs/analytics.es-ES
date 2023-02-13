@@ -5,9 +5,9 @@ feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '962'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ En Adobe Analytics, los administradores acceden a **[!UICONTROL Administrador]**
 
 ## Permisos
 
-Se requiere el permiso de administrador de productos de Analytics (en Adobe Admin Console) para administrar la actividad de informes.
+Se requiere el permiso de administrador de productos de Analytics (en Adobe Admin Console) para administrar la actividad de creación de informes.
 
 ![permiso](/help/admin/admin/assets/rep-mgr-permission.png)
 
@@ -88,7 +88,7 @@ Los números de resumen muestran la siguiente información:
 
 | Número de resumen | Descripción |
 | --- | --- |
-| [!UICONTROL Usuarios] | Número de usuarios que actualmente envían solicitudes de informes a este grupo de informes. |
+| [!UICONTROL Usuarios] | Número de usuarios que actualmente envían solicitudes de creación de informes a este grupo de informes. |
 | [!UICONTROL Proyectos] | Proyectos de Workspace, libros de Report Builder, etc. |
 | [!UICONTROL Consultas] | Número de consultas que se están ejecutando actualmente. |
 | [!UICONTROL Tiempo de espera promedio] | El tiempo de espera promedio para todas las consultas en ejecución. |
@@ -122,7 +122,7 @@ Para cancelar una solicitud
 
 1. Marque la casilla a la izquierda de una o más **[!UICONTROL ID de consulta]** en la tabla y haga clic en **[!UICONTROL Cancelar solicitudes]** en la parte inferior.
 
-   También puede cancelar las solicitudes de forma masiva consultando los detalles mediante [!UICONTROL Usuario], [!UICONTROL Proyecto]o [!UICONTROL Aplicación]. Las solicitudes posteriores de un proyecto, usuario o aplicación que no estaban en cola o que se estaban ejecutando en el momento de la cancelación pueden seguir apareciendo cuando se actualiza la actividad.
+   Puede cancelar las solicitudes de forma masiva consultando los detalles mediante [!UICONTROL Usuario], [!UICONTROL Proyecto] o [!UICONTROL Aplicación]. Las solicitudes posteriores de un proyecto, usuario o aplicación que no estaban en cola o que se estaban ejecutando en el momento de la cancelación pueden seguir apareciendo cuando se actualiza la actividad.
 
 1. En la ventana **[!UICONTROL Cancelar x consulta]** que aparece, puede modificar el mensaje de cancelación, si es necesario.
 1. Haga clic en **[!UICONTROL Continuar]**.
