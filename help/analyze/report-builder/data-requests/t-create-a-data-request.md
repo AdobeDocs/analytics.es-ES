@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
 source-git-commit: d2e4a6eed54fa8b3e080b162a5e841fc2f5a0e59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Pasos para crear una solicitud de datos básica.
 1. En la ventana [!UICONTROL Asistente para solicitudes: Paso 1], seleccione un [Grupo de informes](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (Opcional) Seleccione un segmento que aplicar a la solicitud. Cuando haya seleccionado uno o más segmentos, se moverán al principio de la lista.
 
-   Report Builder utiliza los segmentos de la misma forma que lo hace Adobe Analytics. Consulte la [Guía de segmentación de Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=es).
+   Report Builder utiliza los segmentos de la misma forma que lo hace Adobe Analytics. Consulte la [guía de segmentación de Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=es).
 1. Seleccione un [tipo de informe](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 1. Especifique un [intervalo de fechas](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) y una [granularidad](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md) para el informe.
 1. Haga clic en **[!UICONTROL Siguiente]**.
@@ -35,4 +35,4 @@ Pasos para crear una solicitud de datos básica.
 
    Las [dimensiones](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html?lang=es) disponibles en el Paso 2 dependen de qué informe base se ha seleccionado en el Paso 1, así como de la configuración de su grupo de informes. Las dimensiones son elementos que se correlacionan, subrelacionan o son una clasificación de la métrica del tipo de informe original que se seleccionó en la ventana [!UICONTROL Asistente para solicitudes: Paso 1]. La adición de varias dimensiones en el Paso 2 es el modo en que se crea un desglose en la solicitud de datos.
 
-   Consulte [Agregar métricas y dimensiones](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) para obtener más información.
+   Consulte  [Agregar métricas y dimensiones](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) para obtener más información.
