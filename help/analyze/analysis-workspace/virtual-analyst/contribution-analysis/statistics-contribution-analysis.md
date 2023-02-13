@@ -4,9 +4,9 @@ title: Técnicas estadísticas utilizadas en los análisis de contribución
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
 source-git-commit: 865b19f5e541691eabaa81d4533a64c79501fd19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ El análisis de contribución lo consigue mediante la realización de un algorit
 
    ![](assets/cramers-v.png)
 
-1. Para cada elemento de dimensión, se utiliza la residual (PR) de Pearson para medir la asociación entre la métrica anómala y cada elemento de dimensión. PR sigue un estándar de distribución normal, el cual permite que el algoritmo compare las PR de dos variables aleatorias incluso si las desviaciones no son comparables. En la práctica, el error no es conocido y se calcula utilizando una corrección de muestra infinita.
+1. Para cada elemento de dimensión, se utiliza la residual de Pearson (PR) para medir la asociación entre la métrica anómala y cada elemento de dimensión. PR sigue un estándar de distribución normal, el cual permite que el algoritmo compare las PR de dos variables aleatorias incluso si las desviaciones no son comparables. En la práctica, el error no es conocido y se calcula utilizando una corrección de muestra infinita.
 
    En el ejemplo anterior de la tabla 1, la PR, con corrección de muestra finita por país “i” y un periodo de tiempo 2 está determinado por
 
    ![](assets/persons-residual.png)
 
-   aquí,
+   Aquí,
 
    ![](assets/pr-example.png)
 
