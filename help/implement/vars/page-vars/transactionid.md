@@ -4,9 +4,9 @@ description: Utilice esta variable para vincular datos en línea y sin conexión
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ De forma predeterminada, Adobe registra todos los valores de ID de transacción 
 
 ## ID de transacción con el SDK web
 
-El ID de transacción es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `commerce.order.transactionID`.
+El ID de transacción se [asigna para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `commerce.order.transactionID`.
 
 ## ID de transacción con la extensión de Adobe Analytics
 
