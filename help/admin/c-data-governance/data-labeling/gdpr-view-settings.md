@@ -3,7 +3,7 @@ description: El cuadro de diálogo Etiquetado de privacidad para la administraci
 title: Ver/administrar el etiquetado de privacidad para la administración de datos
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 75%
@@ -17,15 +17,15 @@ El cuadro de diálogo **[!UICONTROL Etiquetado de privacidad para la administrac
 ## Ver etiquetas de privacidad {#view-privacy}
 
 1. Inicie sesión en Adobe Experience Cloud.
-1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración y recopilación de datos]** > **[!UICONTROL Administración de datos]**.
+2. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración y recopilación de datos]** > **[!UICONTROL Administración de datos]**.
 
    >[!NOTE]
    >
    >Si no ve este elemento de menú, debe añadirse a un [perfil de producto en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=es) con permisos para esta funcionalidad.
 
-1. En la parte superior derecha, seleccione un grupo de informes cuyas etiquetas de privacidad desee ver o administrar.
+3. En la parte superior derecha, seleccione un grupo de informes cuyas etiquetas de privacidad desee ver o administrar.
 
-   ![](assets/privacy_labeling.png)
+![](assets/privacy_labeling.png)
 
 | Configuración | Descripción |
 | --- | --- |

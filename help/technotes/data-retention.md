@@ -3,7 +3,7 @@ title: Política de retención de datos
 description: Una política de retención de datos determina el tiempo que Adobe almacena los datos.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
@@ -54,3 +54,4 @@ Sí. Adobe puede proporcionarle el conjunto de datos históricos, compuesto por 
 **¿Cuándo elimina Adobe los datos?**
 
 Póngase en contacto con el administrador de cuentas de su organización para conocer el período de tiempo específico en el que está programado que se eliminen sus datos. Los datos suelen eliminarse mensualmente.
+
