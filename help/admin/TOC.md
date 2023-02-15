@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+source-git-commit: d712a64111ff5ee9856196a60265de4b395f53b2
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 97%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 97%
                + [Firmas comunes de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [Métodos de exclusión de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Configuración de privacidad](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-            + [Marcas de hora opcionales](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + [Configuración de marcas de hora](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
             + Reenvío del lado del servidor {#server-side-forwarding}
                + [Resumen del reenvío del lado del servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
@@ -99,9 +99,9 @@ ht-degree: 97%
             + [Variables de lista](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [eVars de comercialización](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + Canales de marketing {#marketing-channels}
-            + [Administrar Canales de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
-            + [Reglas de procesamiento de canales de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-            + [Clasificaciones en los canales de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [Administrador de canales de mercadotecnia](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [Reglas de procesamiento de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+            + [Clasificaciones de canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [Caducidad del canal de marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Administración del tráfico {#traffic-management}
             + [Información general](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
