@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '574'
 ht-degree: 97%
 
 ---
@@ -163,17 +163,5 @@ ht-degree: 97%
          + [Migración de las cuentas de usuario de Analytics para Enterprise ID y Federated ID](admin/user-management2/user-migration/migrate-enterprise.md)
          + [Desactivación de inicios de sesión heredados](admin/user-management2/user-migration/t-disable-legacy-login.md)
          + [API afectadas por la migración](admin/user-management2/user-migration/developer.md)
-+ Administración de datos {#data-governance}
-   + [Flujo de trabajo de privacidad de datos de Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
-   + [Preguntas frecuentes](c-data-governance/gdpr-faq.md)
-   + Etiquetado de datos {#data-labels}
-      + [Etiquetas de privacidad de datos para componentes de Analytics](c-data-governance/data-labeling/gdpr-labels.md)
-      + [Etiquetado de datos de grupos de informes](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [Ver/administrar etiquetas de privacidad del grupo de informes](c-data-governance/data-labeling/gdpr-view-settings.md)
-      + [Prácticas recomendadas de etiquetado](c-data-governance/data-labeling/gdpr-analytics-ids.md)
-      + [Ejemplo de etiquetado](c-data-governance/data-labeling/gdpr-labeling-example.md)
-      + [Espacios de nombres](c-data-governance/data-labeling/gdpr-namespaces.md)
-   + [Expansión de ID](c-data-governance/gdpr-id-expansion.md)
-   + [Exención de consentimiento de CNIL](c-data-governance/cnil-consent-exemption.md)
 + [API de administración](c-admin-api/c-admin-api.md)
 

@@ -2,8 +2,8 @@
 title: Orden de procesamiento de los datos en Adobe Analytics
 description: Conozca el orden de los componentes y servicios que procesan los datos en Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: ht
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -45,6 +45,6 @@ En este punto, la visita individual se registra en las tablas de datos del grupo
 Los datos de Adobe Analytics son en su mayoría permanentes; sin embargo, hay algunas características que pueden permitir el ajuste o la eliminación selectivos de los datos:
 
 * [**API de reparación de datos**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/): edite determinadas columnas o elimine las filas de datos deseadas.
-* [**Administración de datos**](/help/admin/c-data-governance/an-gdpr-workflow.md): acepte solicitudes de privacidad para eliminar datos de forma permanente.
+* [**Administración de datos**](/help/technotes/c-data-governance/an-gdpr-workflow.md): acepte solicitudes de privacidad para eliminar datos de forma permanente.
 * [**Clasificaciones**](/help/components/classifications/c-classifications.md): cree dimensiones basadas en reglas o datos cargados que le permitan organizar los datos de forma diferente. Los datos del grupo de informes subyacente no se modifican, por lo que puede editar o sobrescribir libremente los datos de clasificación.
 * [**Grupos de informes virtuales**](/help/components/vrs/vrs-about.md): cree una vista de grupo de informes alternativa que pueda cambiar el tiempo de espera de visita o permitir el [Análisis entre dispositivos](/help/components/cda/overview.md).
