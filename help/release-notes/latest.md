@@ -3,16 +3,16 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 7c05a3364b1f1b7abaf7ac3c97edb5e590781ec3
+source-git-commit: 98890c72a375b61bcecb79f2d32b3f29ee5782bd
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 51%
+source-wordcount: '1079'
+ht-degree: 49%
 
 ---
 
 # Notas de la versión de Adobe Analytics actual (Febrero de 2023)
 
-**Última actualización**: 9 de febrero de 2023
+**Última actualización**: 15 de febrero de 2023
 
 Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -35,6 +35,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 
 | Aviso | Fecha de incorporación  o actualizada | Descripción |
 | ----------- | ---------- | ---------- |
+| **Disponibilidad del conector de origen de Analytics** | 15 de febrero de 2023 | El 28 de febrero de 2023, el conector de origen de Analytics estará disponible en el nuevo centro de datos de Adobe Experience Platform ubicado en Canadá. |
 | **Migración automática a la arquitectura del conjunto de clasificaciones** | 8 de febrero de 2023 | En los próximos meses, el Adobe planea migrar todas las clasificaciones de todas las organizaciones a la arquitectura de clasificación más reciente. Se estima que los últimos clientes en migrar se producirán en mayo de 2023. No se requiere ninguna acción por parte del cliente y no se espera tiempo de inactividad. Esta nueva arquitectura tiene muchas ventajas, entre ellas:<ul><li>Reducción significativa del tiempo de procesamiento (72 horas → 24 horas)</li><li>La capacidad de usar la variable [Conjuntos de clasificaciones](/help/components/classifications/sets/overview.md) IU</li><li>La opción de usar datos de clasificación en Adobe Experience Platform en el futuro mediante el [Conector de origen de Adobe Analytics para datos de clasificación](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>Tenga en cuenta los siguientes cambios que pueden afectar potencialmente al flujo de trabajo de su organización:<ul><li>Al usar el explorador o la importación mediante FTP, &#39;[!UICONTROL Sobrescribir en conflicto]&#39; siempre está habilitado.</li><li>Al utilizar el explorador o la importación mediante FTP, ya no se admite la opción de exportar inmediatamente después de la importación.</li><li>La API de Analytics 2.0 `GetDimensions` ahora devuelve identificadores de cadena para clasificaciones en lugar de identificadores numéricos. Se pueden seguir utilizando identificadores numéricos, pero Adobe recomienda utilizar los nuevos identificadores de cadena siempre que sea posible. Los identificadores numéricos se pueden recuperar utilizando la variable `?expansion=hidden` parámetro de cadena de consulta.</li></ul>Póngase en contacto con el Servicio de atención al cliente de Adobe si desea un programa de migración más específico para su organización o si tiene preguntas o inquietudes acerca de esta migración. [Más información](/help/components/classifications/sets/overview.md) |
 | **Actualización de las búsquedas de dispositivos debido a las sugerencias del cliente de Google** | 25 de enero de 2023 | El uso de sugerencias del cliente en la búsqueda de dispositivos se iniciará el **16 de febrero de 2023**. <p> <p>Desde octubre de 2022, es posible recopilar sugerencias del cliente con las bibliotecas de SDK web o JavaScript de AppMeasurement. Sin embargo, las sugerencias del cliente no se incorporarán a la búsqueda de dispositivos hasta febrero de 2023. En esa fecha, Adobe empezará a utilizar sugerencias del cliente, además del agente de usuario, al obtener determinada información de los dispositivos para las visitas procedentes de exploradores Chromium, como Google Chrome y Microsoft Edge. Esto es en respuesta al plan de Google de reducir gradualmente la información presentada desde la cadena del agente de usuario en lugar de los datos pasados a través de sugerencias del cliente. <p> <p>Como parte de este cambio, Adobe utilizará DeviceAtlas para todas las búsquedas de dispositivos relacionadas con el agente de usuario. [Más información](/help/technotes/client-hints.md) |
 
