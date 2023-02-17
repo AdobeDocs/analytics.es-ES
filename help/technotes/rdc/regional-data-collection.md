@@ -3,30 +3,39 @@ title: Recopilación de datos regionales
 description: Información sobre la recopilación de datos regionales
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 60c2422ef32a4fadbb975006c111d12878a98f53
-workflow-type: ht
-source-wordcount: '510'
-ht-degree: 100%
+source-git-commit: 88d6edd99c96d19980464e0f1cfa5cc867baf645
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 38%
 
 ---
 
 # Recopilación de datos regionales
 
-Adobe Experience Cloud utiliza la recopilación de datos regionales (RDC) para que las interacciones entre los usuarios finales y Adobe Experience Cloud se produzcan lo más cerca posible de los usuarios finales. Esto mejora el rendimiento de su sitio y de la aplicación y garantiza que los datos se recopilen lo más rápidamente posible para optimizar la experiencia del usuario final. Una vez que los datos de sus propiedades digitales se recopilan a nivel regional en un centro de recopilación de datos (DCC, Data Collection Center), estos se envían a través de una conexión segura a un centro de procesamiento de datos (DPC, Data Processing Center), donde se procesan y se ponen a disposición de los productos en Adobe Experience Cloud.
+Adobe Experience Cloud utiliza la recopilación de datos regionales (RDC) para que las interacciones entre los visitantes y los Adobes se produzcan lo más cerca posible de los visitantes. Una vez que los datos se recopilan a nivel regional en un centro de recopilación de datos (DCC), se envían a través de una conexión segura a un centro de procesamiento de datos (DPC). Después del procesamiento, los datos están disponibles para los productos de Adobe Experience Cloud.
 
->[!IMPORTANT]
->
->El paquete de complementos de recopilación de datos regionales de China (China Performance Optimization) es un complemento facturable de Adobe Analytics. La optimización del rendimiento de Adobe en China continental permite a los clientes con usuarios de China enviar datos directamente a los servidores de recopilación perimetral de Adobe dentro de China, en lugar de a otras ubicaciones de todo el mundo. Esto mejora los tiempos de carga de página y la precisión de los datos en comparación con el envío de estos a nodos fuera de China. Tenga en cuenta que, en última instancia, los datos se transfieren a uno de los centros de procesamiento de datos (DPC) de Adobe fuera de China. Para obtener más información, póngase en contacto con el representante de ventas de Adobe.
+El proceso de recopilación de datos regionales emplea los pasos siguientes:
+
+1. DNS resuelve automáticamente el nombre de host de recopilación en la dirección IP del centro de recopilación de datos más cercano al visitante.
+1. El visitante envía los datos a esa ubicación.
+1. Los datos se reenvían inmediatamente a través de una conexión segura a un centro de procesamiento de datos, donde se procesan y se ponen a disposición de los productos en Adobe Experience Cloud.
+
+El uso de la recopilación de datos regionales ofrece varias ventajas:
+
+* **Rendimiento**: Con RDC, los visitantes se conectan al DCC más cercano. Esta optimización proporciona el tiempo de respuesta más rápido, lo que da como resultado un seguimiento más preciso y tiempos de carga más rápidos.
+* **Redundancia**: Si hay una interrupción en la comunicación entre el DCC y su DPC, la infraestructura RDC de Adobe guarda los datos localmente y luego los reenvía al DPC cuando se restauran las comunicaciones.
 
 Actualmente, la recopilación de datos regionales incluye las siguientes ubicaciones (sujetas a cambios):
 
 ## Recopilación de datos de terceros
 
 | Tipo de RDC | Centros de recopilación de datos |
-|---------------------|-------------------|
+| --- | --- |
 | Predeterminado | Oregón, Virginia, Irlanda, París, Mumbai, Singapur, Tokio, Sydney, China* |
 
-* La recopilación de datos regionales de China requiere el uso del paquete de complementos para China. Consulte la nota “Importante” anterior.
+{style=&quot;table-layout:auto&quot;}
+
+* La recopilación de datos regionales de China requiere el uso del paquete de complementos para China. Consulte [Optimización del rendimiento de China](#china-performance-optimization) más abajo.
 
 >[!NOTE]
 >
@@ -35,7 +44,7 @@ Actualmente, la recopilación de datos regionales incluye las siguientes ubicaci
 ## Recopilación de datos propia
 
 | Tipo de RDC | Centros de recopilación de datos |
-|---------------------|-------------------|
+| --- | --- |
 | Global (predeterminado) | Oregón, Virginia, Irlanda, París, Mumbai, Singapur, Tokio, Sydney |
 | Global + China* | China*, Oregón, Virginia, Irlanda, París, Bombay, Singapur, Tokio, Sídney |
 | Solo para América del Norte y América del Sur | Oregón, Virginia |
@@ -43,23 +52,14 @@ Actualmente, la recopilación de datos regionales incluye las siguientes ubicaci
 | Solo Asia-Pacífico | Mumbai, Singapur, Tokio, Sydney |
 | Solo China* | Pekín |
 
-*Los tipos de RDC Solo China y Global + China requieren el paquete de complementos de China. Consulte la nota “Importante” anterior. Global + China enrutará los datos que se originen dentro de China a nuestra RDC de China, y los datos que se originen fuera de China a la RDC más cercana fuera de China.
+{style=&quot;table-layout:auto&quot;}
 
->[!NOTE]
->
->Experience Edge Global ofrece el mejor rendimiento para los usuarios finales.  Si quiere utilizar un tipo de RDC alternativo, póngase en contacto con el Servicio de atención al cliente de Adobe para obtener ayuda.
+*Los tipos de RDC Solo China y Global + China requieren el paquete de complementos de China. Global + China enruta los datos que se originan dentro de China a la RDC de China de Adobe mientras enruta los datos que se originan fuera de China a la RDC más cercana fuera de China. Consulte [Optimización del rendimiento de China](#china-performance-optimization) más abajo.
 
-## Ventajas de la recopilación de datos regionales
+## Optimización del rendimiento de China
 
-| Ventaja | Descripción |
-| --- | --- |
-| Rendimiento | Con la recopilación de datos regionales, los visitantes se conectan al centro de recogida de datos más cercano. Esto proporciona el tiempo de respuesta más rápido, lo que da como resultado un seguimiento más preciso y tiempos de carga más rápidos. |
-| Redundancia | En caso de que se interrumpa la comunicación entre el centro de recogida de datos y el centro de procesamiento de datos, la infraestructura de recopilación de datos regionales de Adobe guarda los datos localmente y los reenvía al centro de procesamiento de datos cuando se restauran las comunicaciones. |
+El paquete de complementos de RDC de China (China Performance Optimization) es un complemento facturable para Adobe Analytics. La optimización del rendimiento del Adobe en China continental permite a los clientes con usuarios dentro de China que envíen esos datos directamente a los servidores de recopilación de datos del Adobe dentro de China en lugar de a otras ubicaciones de todo el mundo. Esta optimización mejora los tiempos de carga de la página y la precisión de los datos en comparación con el envío de datos a ubicaciones fuera de China. En última instancia, los datos se transfieren a uno de los centros de procesamiento de datos (DPC) de Adobe fuera de China. Póngase en contacto con el representante de ventas de Adobe para obtener más información.
 
-## Funcionamiento de la recopilación de datos regionales (RDC)
+>!![NOTE]
+El paquete de complementos de RDC de China no es compatible con el [SDK web](/help/implement/aep-edge/overview.md).
 
-En la siguiente lista se describe el proceso de recopilación de datos que Adobe usa:
-
-1. El DNS resuelve automáticamente la recopilación del nombre del host a la dirección IP del centro de recopilación de datos más cercano al visitante.
-1. El visitante envía los datos a esa ubicación.
-1. Los datos se reenvían inmediatamente a través de una conexión segura a un centro de procesamiento de datos, donde se procesan y se ponen a disposición de los productos en Adobe Experience Cloud.
