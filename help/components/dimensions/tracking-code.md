@@ -3,16 +3,18 @@ title: Código de seguimiento
 description: Nombre del código de seguimiento o campaña.
 feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '525'
-ht-degree: 100%
+source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 91%
 
 ---
 
 # Código de seguimiento
 
-La dimensión “Código de seguimiento” muestra los nombres de los códigos de seguimiento en el sitio. Esta dimensión se recopila generalmente mediante parámetros de cadena de consulta. Puede colocar vínculos con diferentes valores de parámetros de cadena de consulta en diferentes lugares de Internet. Esta dimensión indica qué vínculos fueron los más exitosos a la hora de conducir el tráfico al sitio.
+La dimensión “Código de seguimiento” muestra los nombres de los códigos de seguimiento en el sitio. Puede colocar vínculos con diferentes valores de parámetros de cadena de consulta en diferentes lugares de Internet. Esta dimensión le ayuda a comprender qué vínculos fueron los más exitosos a la hora de conducir el tráfico al sitio.
+
+La adición de cadenas de consulta de código de seguimiento es común en correos electrónicos, anuncios, anuncios de medios sociales y otros esfuerzos de marketing que utiliza su organización.
 
 ## Rellene esta dimensión con datos
 
@@ -20,7 +22,7 @@ Esta dimensión recupera datos de la [`v0`cadena de consulta](/help/implement/v
 
 ## Elementos de dimensión
 
-Los elementos de dimensión incluyen los nombres de los códigos de seguimiento en el sitio. Su organización determina qué elementos de dimensión específicos desea utilizar.
+Los elementos de dimensión incluyen los nombres de los códigos de seguimiento en el sitio. Su organización determina qué elementos de dimensión específicos desea utilizar. Consulte [Seguimiento de campañas](/help/implement/use-cases/campaign-tracking.md) para obtener más información.
 
 ## Comparación de la dimensión Código de seguimiento con los canales de marketing que recopilan códigos de seguimiento
 

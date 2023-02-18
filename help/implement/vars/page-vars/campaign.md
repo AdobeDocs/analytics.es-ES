@@ -3,10 +3,10 @@ title: campaign
 description: Rellene la dimensión “Código de seguimiento”.
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 77%
+source-wordcount: '244'
+ht-degree: 75%
 
 ---
 
@@ -14,17 +14,17 @@ ht-degree: 77%
 
 La variable `campaign` está dedicada a recopilar códigos de seguimiento en el sitio. En versiones anteriores de Adobe Analytics, se le aplicaba un tratamiento especial en el que podía utilizarse como desglose de la mayoría de las dimensiones. En la versión actual de Adobe Analytics, actúa igual que una eVar.
 
-Esta variable rellena la dimensión “Código de seguimiento”.
+Esta variable rellena la variable [Código de seguimiento](/help/components/dimensions/tracking-code.md) dimensión. Normalmente obtiene su valor de una cadena de consulta utilizando la variable [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) método de utilidad. Sin embargo, su organización determina exactamente cómo configurar esta variable.
 
 ## Campaña con el SDK web
 
-La campaña es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) en el campo XDM `marketing.trackingCode`.
+La campaña es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `marketing.trackingCode`.
 
 ## Campaña con la extensión de Adobe Analytics
 
 Puede establecer la campaña durante la configuración de la extensión de Analytics (variables globales) o en reglas.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
