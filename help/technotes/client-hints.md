@@ -2,10 +2,10 @@
 title: Sugerencias del cliente
 description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
+source-git-commit: 66c314d45c4ee4f15cc2e7d05ea248b95ff3c717
 workflow-type: tm+mt
 source-wordcount: '1247'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Google divide las sugerencias del cliente agente de usuario en dos categorías: 
 
 A partir de octubre de 2022, las nuevas versiones de los exploradores Chromium empezaron a “bloquear” la versión del sistema operativo representada en la cadena del agente de usuario. La versión del sistema operativo es una sugerencia de alta entropía, por lo que para mantener su precisión en la creación de informes es necesario configurar la biblioteca de colección para recopilar estas sugerencias de alta entropía. Con el tiempo, se bloqueará otra información del dispositivo del agente de usuario, lo que requiere sugerencias del cliente para mantener la precisión de la creación de informes de dispositivos.
 
-Las sugerencias del cliente se incorporarán al proceso de búsqueda de dispositivos de Analytics a partir del 16 de febrero de 2023. AppMeasurement y el SDK web admiten actualmente la recopilación de datos de sugerencias, pero no se emplearán en la búsqueda de dispositivos hasta mediados de febrero. Como se indica a continuación, la versión del sistema operativo se bloqueó a partir de octubre, pero debido a un despliegue gradual y al hecho de que muchos agentes de usuario ya proporcionan una versión del sistema operativo bloqueada (ver más [aquí](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es)), estimamos que esto afectará a menos del 3 % de los visitantes de Chrome.
+Las sugerencias del cliente se incorporarán al proceso de búsqueda de dispositivos de Analytics a partir de marzo de 2023. AppMeasurement y el SDK web admiten actualmente la recopilación de datos de sugerencias, pero no se emplearán en la búsqueda de dispositivos hasta mediados de febrero. Como se indica a continuación, la versión del sistema operativo se bloqueó a partir de octubre, pero debido a un despliegue gradual y al hecho de que muchos agentes de usuario ya proporcionan una versión del sistema operativo bloqueada (ver más [aquí](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es)), estimamos que esto afectará a menos del 3 % de los visitantes de Chrome.
 
 >[!NOTE]
 >
