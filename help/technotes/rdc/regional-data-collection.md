@@ -3,7 +3,7 @@ title: Recopilación de datos regionales
 description: Información sobre la recopilación de datos regionales
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 88d6edd99c96d19980464e0f1cfa5cc867baf645
+source-git-commit: 8f02656820ed0b9201f29fc9dca6870e6f7fe8fd
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 38%
@@ -60,6 +60,7 @@ Actualmente, la recopilación de datos regionales incluye las siguientes ubicaci
 
 El paquete de complementos de RDC de China (China Performance Optimization) es un complemento facturable para Adobe Analytics. La optimización del rendimiento del Adobe en China continental permite a los clientes con usuarios dentro de China que envíen esos datos directamente a los servidores de recopilación de datos del Adobe dentro de China en lugar de a otras ubicaciones de todo el mundo. Esta optimización mejora los tiempos de carga de la página y la precisión de los datos en comparación con el envío de datos a ubicaciones fuera de China. En última instancia, los datos se transfieren a uno de los centros de procesamiento de datos (DPC) de Adobe fuera de China. Póngase en contacto con el representante de ventas de Adobe para obtener más información.
 
->!![NOTE]
-El paquete de complementos de RDC de China no es compatible con el [SDK web](/help/implement/aep-edge/overview.md).
+>[!NOTE]
+>
+>El paquete de complementos de RDC de China no es compatible con el [SDK web](/help/implement/aep-edge/overview.md).
 
