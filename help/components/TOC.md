@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
+source-git-commit: 74a6f05817cf93eb95dc7b5546b3e5155a08c725
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '687'
+ht-degree: 96%
 
 ---
 
@@ -152,7 +152,8 @@ ht-degree: 0%
    + [Visitas](metrics/visits.md)
 + Segmentación {#segmentation}
    + [Segmentación de Analytics](segmentation/seg-home.md)
-   + [Acerca de los segmentos y los contenedores](segmentation/seg-overview.md)
+   + [Acerca de los segmentos](segmentation/seg-overview.md)
+   + [Acerca de los contenedores de segmentos](segmentation/seg-containers.md)
    + [Funciones de segmentación en Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Flujo de trabajo de segmentación {#segmentation-workflow}
       + [Resumen del flujo de trabajo de segmentación](segmentation/segmentation-workflow/seg-workflow.md)
@@ -173,7 +174,7 @@ ht-degree: 0%
       + [Compatibilidad del segmento con el Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Derechos de segmentos por función](segmentation/seg-reference/seg-rights.md)
       + [Resolución de problemas](segmentation/seg-reference/c-troubleshooting.md)
-   + [Preguntas frecuentes](segmentation/seg-transition.md)
+   + [Preguntas frecuentes sobre la administración de segmentos heredados ](segmentation/seg-transition.md)
    + [Prácticas recomendadas](segmentation/best-practices.md)
 + Métricas calculadas {#calculated-metrics}
    + [Métricas calculadas y calculadas avanzadas (derivadas)](c-calcmetrics/cm-overview.md)
@@ -181,7 +182,7 @@ ht-degree: 0%
    + Flujo de trabajo de las métricas calculadas {#calcmetric-workflow}
       + [Flujo de trabajo de las métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Buscar métricas](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [Crear métricas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Generar métricas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [Tipo de métrica y atribución](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Crear una métrica &quot;Vistas de página por visitas&quot; simple](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Métricas segmentadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
