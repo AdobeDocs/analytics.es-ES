@@ -3,10 +3,10 @@ description: Los segmentos le permiten identificar subconjuntos de visitantes ba
 title: Acerca de los segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 385c27de382b7bb047b6c62420d0471dd6e1650d
+source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 88%
+source-wordcount: '1173'
+ht-degree: 87%
 
 ---
 
@@ -53,7 +53,7 @@ Analysis Workspace contiene estas funciones adicionales:
 
 ## Segmentos proporcionados por el Adobe
 
-El carril Componente de la parte izquierda de la pantalla muestra los segmentos creados por usted y su empresa, así como los segmentos de Adobe que se proporcionan fuera del cuadro. Al hacer clic en **[!UICONTROL Mostrar todo]**, estos segmentos suelen aparecer en la parte inferior de la lista y se identifican con el logotipo del Adobe a la derecha:
+El carril Componente de la parte izquierda de la pantalla muestra los segmentos creados por usted y su empresa, así como los segmentos de Adobe que se proporcionan fuera del cuadro. Al hacer clic en **[!UICONTROL Mostrar todo]**, estos segmentos suelen aparecer en la parte inferior de la lista y se identifican con el logotipo de Adobe a la derecha. Esta es una lista parcial de segmentos proporcionados por el Adobe:
 
 ![segmentos de Adobe](assets/adobe-segs.png)
 
@@ -76,7 +76,7 @@ Los segmentos secuenciales pueden basarse en los siguientes valores de visitas i
 
 Un segmento secuencial filtra conjuntos de datos en función de las acciones del usuario usando el operador [!UICONTROL THEN].
 
-## Vídeo explicativo {#segment-video}
+## Vídeo explicativo de la segmentación {#segment-video}
 
 En este vídeo se proporciona una breve descripción sobre qué son los contenedores de segmento y cómo se utilizan: [Contenedores de segmento en Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=es)
 

@@ -3,36 +3,16 @@ description: Preguntas más frecuentes sobre la administración de segmentos her
 title: Preguntas más frecuentes sobre segmentos heredados
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: e1ba6e93bcea4ece6e06941a97227a54116e2c25
+source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 94%
+source-wordcount: '1440'
+ht-degree: 92%
 
 ---
 
 # Preguntas más frecuentes sobre segmentos heredados
 
 Responde preguntas frecuentes sobre las prácticas recomendadas para administrar segmentos heredados: segmentos creados antes de 2014.
-
-## Prácticas recomendadas {#best-practices}
-
-+++ **¿Qué debería hacer con los segmentos duplicados que tienen el mismo nombre pero que pueden tener definiciones distintas?**
-Ahora que los segmentos funcionan en múltiples grupos de informes, es posible que descubra que tiene múltiples segmentos con el mismo nombre. Le recomendamos que siga uno de los procedimientos siguientes
-
-* Cambie el nombre de los segmentos que tienen el mismo nombre pero tienen definiciones distintas, o
-* Elimine los segmentos que ya no son necesarios.
-
-+++
-
-+++ **¿Qué recomienda Adobe con respecto a la limpieza de segmentos?**
-
-* Etiquete todos los segmentos con la etiqueta heredada.
-* Revise los segmentos que tiene.
-* Añádalos a la biblioteca de segmentos cuando sea pertinente.
-* Apruebe los segmentos canónicos.
-* Etiquete los segmentos siguiendo las [prácticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
-
-+++
 
 ## Administración de segmentos heredados {#legacy}
 
@@ -70,7 +50,7 @@ Puede crear o editar segmentos nuevos del Almacén de datos en el Generador/Data
 
 +++
 
-**¿Qué les ha sucedido a los segmentos configurados previamente?**
++++ **¿Qué les ha sucedido a los segmentos configurados previamente?**
 
 * **Visitas a una sola página**
 * **Visitas desde dispositivos móviles**
@@ -98,7 +78,7 @@ Los informes existentes que tienen estos segmentos aplicados siguen funcionando 
 
 +++
 
-+++ **¿Qué les sucede a los segmentos de administración (conocidos como segmentos &quot;Globales&quot;)?**
++++ **¿Qué les ha sucedido a los segmentos de administración (conocidos como segmentos &quot;Globales&quot;)?**
 
 Los segmentos de **Administrador** se migrarán en la nueva interfaz de segmentos y se mostrarán como segmentos compartidos para todos.
 
@@ -110,6 +90,24 @@ Los segmentos existentes que utilizan la lógica que se ha modificado según se 
 
 +++
 
++++ **¿Qué debería hacer con los segmentos duplicados que tienen el mismo nombre pero que pueden tener definiciones distintas?**
+Ahora que los segmentos funcionan en múltiples grupos de informes, es posible que descubra que tiene múltiples segmentos con el mismo nombre. Le recomendamos que siga uno de los procedimientos siguientes
+
+* Cambie el nombre de los segmentos que tienen el mismo nombre pero tienen definiciones distintas, o
+* Elimine los segmentos que ya no son necesarios.
+
++++
+
++++ **¿Qué recomienda Adobe con respecto a la limpieza de segmentos?**
+
+* Etiquete todos los segmentos con la etiqueta heredada.
+* Revise los segmentos que tiene.
+* Añádalos a la biblioteca de segmentos cuando sea pertinente.
+* Apruebe los segmentos canónicos.
+* Etiquete los segmentos siguiendo las [prácticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+
++++
+
 ### Consejos para la migración
 
 Los siguientes consejos le ayudarán a migrar dimensiones comunes:
@@ -117,10 +115,7 @@ Los siguientes consejos le ayudarán a migrar dimensiones comunes:
 * Ciudad/región/país geográfico: Busca y selecciona ciudades, regiones o países específicos, en lugar de utilizar una coincidencia parcial.
 * Exploradores: Utiliza la dimensión Tipos de exploradores para obtener todos los exploradores de un tipo, por ejemplo Google Chrome.
 * Sistemas operativos: Utiliza las dimensiones Tipos de sistemas operativos para obtener todos los sistemas operativos de un tipo, como Microsoft Windows.
-
-* [Dimensiones nuevas y renombradas](/help/components/segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [Cambios en Contiene](/help/components/segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Cambios en Menor que y Mayor que](/help/components/segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* Consulte &quot;Dimension nuevos y renombrados&quot; (consulte a continuación)
 
 ## Dimensiones nuevas y renombradas {#renamed}
 
