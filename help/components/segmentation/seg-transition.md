@@ -3,10 +3,10 @@ description: Preguntas más frecuentes sobre la administración de segmentos her
 title: Preguntas más frecuentes sobre segmentos heredados
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
+source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 92%
+source-wordcount: '1446'
+ht-degree: 91%
 
 ---
 
@@ -153,8 +153,9 @@ Las dimensiones basadas en cadenas que tienen un conjunto de valores conocidos s
 
 Las siguientes dimensiones se cambiaron a listas enumeradas:
 
+| nombre del Dimension | nombre del Dimension | nombre del Dimension |
+| --- | --- | --- |
 | fabricante de dispositivos móviles | longitud de correo electrónico móvil | profundidad de color |
-|---|---|---|
 | tamaño de la pantalla del dispositivo móvil | número de dispositivo móvil | resolución del monitor |
 | altura de la pantalla del dispositivo móvil | pulsar y hablar móvil | plugin |
 | compatibilidad con cookies del dispositivo móvil | decoración de correo móvil | sistema operativo |
@@ -171,7 +172,7 @@ Las siguientes dimensiones se cambiaron a listas enumeradas:
 
 ## Cambios en las dimensiones basadas en enteros que tienen valores conocidos {#integer-based-dims}
 
-Las dimensiones basadas en enteros (como el ancho del explorador) con un conjunto de valores conocidos se dividieron en varios intervalos para que pueda definir rápidamente segmentos para un intervalo específico. A estas listas enumeradas se les ha agregado &quot;- Agrupado&quot; tras el nombre de la dimensión. La siguiente pantalla demuestra cómo se segmentan estas dimensiones utilizando la interfaz antigua y nueva del generador de segmentos:
+Las dimensiones basadas en enteros (como el ancho del explorador) con un conjunto de valores conocidos se dividieron en varios intervalos para que pueda definir rápidamente segmentos para un intervalo específico. A estas listas enumeradas se les ha agregado &quot;- Agrupado&quot; tras el nombre de la dimensión. La siguiente pantalla muestra cómo se segmentan estas dimensiones utilizando las interfaces anteriores y nuevas del generador de segmentos:
 
 ![](assets/seg_browser_dimension.png)
 
