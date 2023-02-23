@@ -1,8 +1,8 @@
 ---
-source-git-commit: df0d2c4687117fd00714ced56db6259e44698a20
+source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 15%
+source-wordcount: '763'
+ht-degree: 21%
 
 ---
 # Fragmentos
@@ -28,7 +28,7 @@ ht-degree: 15%
    | [!UICONTROL **Mostrar todo**] | Mostrar todos los componentes. Esta opción solo está disponible para administradores. |
    | [!UICONTROL **No aprobado**] | Mostrar solo los componentes que aún no están marcados como Aprobados por un administrador. Como administrador, resulta útil a la hora de identificar los componentes que requieren su revisión y aprobación. Esta opción solo está disponible para administradores. |
    | [!UICONTROL **Falta la descripción**] | Mostrar solo los componentes que aún no tienen una descripción en el campo Descripción . Esta opción solo está disponible para administradores. |
-   | [!UICONTROL **Mostrar duplicados**] | Mostrar solo los componentes que tengan la misma etiqueta o la misma descripción que la de otro componente en el grupo de informes seleccionado. Las etiquetas o descripciones deben coincidir de forma exacta para que se muestren como duplicados. Esta opción solo está disponible para administradores. |
+   | [!UICONTROL **Mostrar duplicados**] | Mostrar solo los componentes que tengan la misma etiqueta o la misma descripción que la de otro componente en el grupo de informes seleccionado. Esto incluye los componentes que crea, así como los proporcionados por el Adobe. Las etiquetas o descripciones deben coincidir de forma exacta para que se muestren como duplicados. Esta opción solo está disponible para administradores. |
    | [!UICONTROL **No hay datos recientes**] | Mostrar solo los componentes que no han recopilado ningún dato en los últimos 90 días. Esta opción solo está disponible para administradores. |
    | [!UICONTROL **Creado por Adobe**] <!-- I don't see this option--> | Mostrar solo los componentes creados por Adobe. No se muestran los componentes creados por un administrador u otro usuario de su organización. |
 
@@ -55,7 +55,7 @@ ht-degree: 15%
 
 >[!AVAILABILITY]
 >
->La funcionalidad descrita en este artículo se encuentra en la fase Prueba limitada de la versión y es posible que no esté disponible aún en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Analytics, consulte [Lanzamientos de funciones de Adobe Analytics](/help/release-notes/releases.md).
+>La funcionalidad descrita en este artículo se encuentra en la fase de Prueba limitada de la versión y es posible que no esté disponible aún en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Analytics, consulte [Lanzamientos de funciones de Adobe Analytics](/help/release-notes/releases.md).
 
 ## Sección de prueba limitada de fase de lanzamiento {#release-limited-testing-section}
 
