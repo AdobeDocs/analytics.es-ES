@@ -3,9 +3,9 @@ title: IP y dominios utilizados por Adobe Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 222ce14fd60ce5dae39a72c1a2bec4315a68b4e4
+source-git-commit: efe78fb17d9a7ea7dde27075d9d890a33138a0d6
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '393'
 ht-degree: 73%
 
 ---
@@ -55,6 +55,7 @@ Si su organización prefiere permitir intervalos específicos de direcciones IP,
 | Australia | `63.140.56.0/23` |
 | California | `63.140.32.0/23` |
 | California | `63.140.34.0/24` |
+| Francia | `63.140.62.0/23` |
 | India | `66.117.20.0/24` |
 | India | `66.117.22.0/23` |
 | Japón | `130.248.130.0/23` |
@@ -81,21 +82,12 @@ Adobe Analytics utiliza los servicios web de Amazon como parte de su proceso de 
 | --- | --- |
 | China | `52.80.83.220` |
 | China | `71.132.16.253` |
-| Francia | `13.36.218.177` |
-| Francia | `15.188.95.229` |
-| Francia | `15.236.176.210` |
+| China | `52.80.7.181` |
+| China | `71.131.244.185` |
+| China | `140.179.152.255` |
 | Francia | `13.37.25.97` |
 | Francia | `15.236.117.205` |
 | Francia | `15.236.125.10` |
-| Irlanda | `54.74.170.177` |
-| Irlanda | `54.195.254.128` |
-| Irlanda | `54.220.133.225` |
-| Oregón | `52.10.149.115` |
-| Oregón | `52.40.172.46` |
-| Oregón | `54.212.155.93` |
-| Virginia | `3.216.131.23` |
-| Virginia | `34.204.237.47` |
-| Virginia | `54.163.234.74` |
 
 La siguiente tabla incluye los bloques de direcciones IPv6 de AWS utilizados por el Adobe. Estos hosts **no** están incluidos en el intervalo de bloques acumulado anterior.
 
