@@ -3,16 +3,16 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
+source-git-commit: 5eefd324cfb1d9985f21faf3809e889802c96e0c
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 38%
+source-wordcount: '1100'
+ht-degree: 54%
 
 ---
 
 # Notas de la versión de Adobe Analytics actual (Febrero de 2023)
 
-**Última actualización**: 17 de febrero de 2023
+**Última actualización**: 23 de febrero de 2023
 
 Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -21,10 +21,10 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Interfaz de usuario actualizada para etiquetas de privacidad de datos** | La interfaz actualizada optimiza el proceso de creación, administración y edición de etiquetas de privacidad de datos para los componentes del grupo de informes. [Más información](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en) | N/A | 8 de febrero de 2023 |
-| **Ocultar intervalos de fechas de comparación en informes de valoración móviles** | Con los informes de valoración móviles, puede alternar la variable **[!UICONTROL Incluir fechas de comparación]** configuración para ver u ocultar fechas de comparación. | N/A | 8 de febrero de 2023 |
-| **Actualizaciones de calendario en Workspace** | <ul><li>Fechas del panel de anclaje: Puede hacer que los componentes del intervalo de fechas sean relativos al calendario del panel. [Más información](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>Actualizaciones de estilo del calendario: Los estilos de calendario de toda la interfaz de usuario se han actualizado para presentar un flujo de trabajo más coherente y fácil de usar.</li><li>Actualizaciones de la fórmula del calendario: Si utiliza fechas relativas, todas las fórmulas del calendario reflejarán el inicio del intervalo de fechas del panel. [Más información](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | N/A | 8 de febrero de 2023 |
+| **Ocultar intervalos de fechas de comparación en los cuadros de resultados móviles** | Con los informes de valoración móviles, puede alternar la variable **[!UICONTROL Incluir fechas de comparación]** configuración para ver u ocultar fechas de comparación. | N/A | 8 de febrero de 2023 |
+| **Actualizaciones de calendario en Workspace** | <ul><li>Fechas del panel de anclaje: puede hacer que los componentes del intervalo de fechas sean relativas al calendario del panel.  [Más información](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>Actualizaciones de estilo del calendario: los estilos de calendario de toda la IU se han actualizado para presentar un flujo de trabajo más coherente y fácil de usar.</li><li>Actualizaciones de la fórmula del calendario: si utiliza fechas relativas, todas las fórmulas del calendario reflejarán el inicio del intervalo de fechas del panel. [Más información](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | N/A | 8 de febrero de 2023 |
 | **Actualizaciones del intervalo de fechas del panel** | En Workspace, se han añadido las siguientes mejoras:<ul><li>A partir de la versión de febrero, las vistas previas de componentes y datos se basarán en el intervalo de fechas del panel y no en los últimos 90 días. </li><li>Todos los componentes enumerados en el carril izquierdo estarán disponibles en función del intervalo de fechas del panel.</li><li>Todas las vistas previas de fechas del segmento y los creadores de métricas calculadas se basarán en el intervalo de fechas del panel (a menos que se acceda desde los administradores de componentes, que no tienen un panel asociado, se basarán en los últimos 90 días).</li><li>Cualquier vista previa de datos mostrará datos o componentes en función del intervalo de fechas del panel.</li></ul> | N/A | 8 de febrero de 2023 |
-| **Filtrado de filas y columnas para la transmisión por secuencias del conector de origen de Adobe Analytics** | El conector de origen de Analytics en Adobe Experience Platform ahora permite filtrar los datos de Analytics que se usan para rellenar perfiles en [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es). El filtrado a nivel de fila ayuda a reducir el número de eventos asociados a perfiles. El filtrado a nivel de columna ayuda a reducir la riqueza de los propios eventos, lo que permite optimizar el uso de derechos de perfil. Este filtrado solo se aplica a los datos enviados al Perfil del cliente en tiempo real y [Servicio de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es). **El filtrado no afecta a los datos que se envían a Data Lake para su uso en aplicaciones como Customer Journey Analytics**. [Más información](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | N/A | 22 de febrero de 2023 |
+| **Filtrado de filas y columnas para el streaming del conector de origen de Adobe Analytics** | El conector de origen de Analytics en Adobe Experience Platform ahora permite filtrar los datos de Analytics que se usan para rellenar perfiles en el [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es). El filtrado a nivel de fila ayuda a reducir el número de eventos asociados a perfiles. El filtrado a nivel de columna ayuda a reducir la riqueza de los propios eventos, lo que permite optimizar el uso de derechos de perfil. Este filtrado solo se aplica a los datos enviados al Perfil del cliente en tiempo real y al [Servicio de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es). **El filtrado no afecta a los datos que se envían a Data Lake para su uso en aplicaciones como Customer Journey Analytics**. [Más información](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es#filtering-for-profile) | N/A | Reprogramado para el 29 de marzo de 2023 |
 
 {style=&quot;table-layout:auto&quot;}
 
