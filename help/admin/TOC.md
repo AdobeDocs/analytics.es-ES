@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
+source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '629'
+ht-degree: 94%
 
 ---
 
@@ -153,6 +153,18 @@ ht-degree: 0%
       + [Administrador de preferencias](admin/company/preferences-manager.md)
       + [Acciones pendientes](admin/company/pending-actions-admin.md)
       + [Niveles de acceso de las funcionalidades](admin/company/feature-access-levels.md)
+   + Etiquetado de privacidad de administración de datos {#data-governance}
+      + [Flujo de trabajo de privacidad de datos de Adobe Analytics](admin/c-data-governance/an-gdpr-workflow.md)
+      + [Preguntas frecuentes](admin/c-data-governance/gdpr-faq.md)
+      + Etiquetado de datos {#data-labels}
+         + [Etiquetas de privacidad de datos para componentes de Analytics](admin/c-data-governance/data-labeling/gdpr-labels.md)
+         + [Etiquetado de datos de grupos de informes](admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+         + [Ver/administrar etiquetas de privacidad del grupo de informes](admin/c-data-governance/data-labeling/gdpr-view-settings.md)
+         + [Prácticas recomendadas de etiquetado](admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)
+         + [Ejemplo de etiquetado](admin/c-data-governance/data-labeling/gdpr-labeling-example.md)
+         + [Espacios de nombres](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
+      + [Expansión de ID](admin/c-data-governance/gdpr-id-expansion.md)
+      + [Exención de consentimiento de CNIL](admin/c-data-governance/cnil-consent-exemption.md)
    + Uso de llamadas al servidor {#server-call-usage}
       + [Resumen del uso de llamadas al servidor](admin/c-server-call-usage/overage-overview.md)
       + [Ver uso de llamadas al servidor actual](admin/c-server-call-usage/server-call-usage-dashboard.md)
