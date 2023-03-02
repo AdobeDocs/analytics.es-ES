@@ -4,9 +4,9 @@ description: Las clasificaciones sirven para categorizar los valores en grupos r
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '321'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 > Para maximizar la eficacia de los canales de marketing para Attribution IQ y Customer Journey Analytics, hemos publicado algunas [prácticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de marketing]** > **[!UICONTROL Clasificaciones de canal de marketing]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de marketing]** > **[!UICONTROL Clasificaciones de los Canales de marketing]**.
 
 Las clasificaciones sirven para categorizar los valores en grupos relacionados y para crear informes del nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede crear informes sobre los resultados de esa categoría en relación con métricas como Instancias (o pulsaciones).
 
