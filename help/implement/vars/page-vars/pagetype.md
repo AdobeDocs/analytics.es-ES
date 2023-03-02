@@ -4,15 +4,15 @@ description: Determine si la página actual conduce a un error 404.
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
 # pageType
 
-La variable `pageType` es un indicador que se utiliza para designar las páginas de error en el sitio, como los errores 404. Si esta variable contiene la cadena `errorPage`, rellena las &quot;Páginas no encontradas&quot; [dimensión](/help/components/dimensions/pages-not-found.md) y [métrica](/help/components/metrics/pages-not-found.md).
+La variable `pageType` es un indicador que se utiliza para designar las páginas de error en el sitio, como los errores 404. Si esta variable contiene la cadena `errorPage`, rellena la [dimensión](/help/components/dimensions/pages-not-found.md) y la [métrica](/help/components/metrics/pages-not-found.md) “Páginas no encontradas”.
 
 >[!IMPORTANT]
 >
@@ -20,7 +20,7 @@ La variable `pageType` es un indicador que se utiliza para designar las páginas
 
 ## Tipo de página que utiliza el SDK web
 
-El tipo de página es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `web.webPageDetails.isErrorPage`. Este campo XDM es booleano; configúrelo como `true` para marcarla como página de error, o `false` si no es una página de error. El Adobe traduce automáticamente el booleano al valor de cadena `errorPage` cuando se envía a un grupo de informes de Analytics.
+El tipo de página está [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `web.webPageDetails.isErrorPage`. Este campo XDM es booleano; configúrelo como `true` para marcarla como página de error, o `false` si no es una página de error. Adobe traduce automáticamente el booleano al valor de cadena `errorPage` cuando se envía a un grupo de informes de Analytics.
 
 ## Tipo de página con la extensión de Adobe Analytics
 
