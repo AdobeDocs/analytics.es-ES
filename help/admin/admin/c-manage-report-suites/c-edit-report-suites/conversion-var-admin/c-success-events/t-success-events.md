@@ -4,9 +4,9 @@ title: Configurar eventos de éxito
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Para configurar eventos de éxito:
 1. En la columna **[!UICONTROL Polaridad]**, especifique si una tendencia al alza para esta métrica es positiva o negativa.
 1. En la columna **[!UICONTROL Visibilidad]**, puede ocultar las métricas (integradas), los eventos personalizados y los eventos incorporados en el menú, los selectores de métricas, el Creador de métricas calculadas y el Generador de segmentos.
 
-   Esta configuración no afecta a la recopilación de datos de esa métrica o evento; afecta únicamente a su visibilidad en la interfaz de usuario, como se indica a continuación:
+   Esta configuración no afecta a la recopilación de datos de esa métrica o evento. Solo afecta a su visibilidad en la interfaz de usuario, como se indica a continuación:
 
 
    | Configuración | Visible en | No visible en |
