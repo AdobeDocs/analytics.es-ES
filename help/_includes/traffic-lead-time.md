@@ -4,9 +4,9 @@ title: Tiempo de espera necesario para aumentos de tráfico
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 55c8337dbeebcc76db367ead15128c095e4d8ce5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ Respete las siguientes normas para determinar la antelación del envío de alert
    <td colname="col2"> <ul><li>3 días hábiles</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> Pico de tráfico o aumento repentino del tráfico permanente de hasta un 25% en volumen diario promedio comparado con los últimos 30 días</td>
-   <td colname="col2"> <ul><li>Grupos de informes con &lt; 100 millones de visitas al día: No se requiere notificación</li><li>Grupos de informes con &gt; 100 millones de visitas al día: 5 días hábiles</li></ul></td>
+   <td colname="col1"> Pico de tráfico o incremento repentino de tráfico permanente de hasta un 25 % en volumen diario promedio comparado con los últimos 30 días</td>
+   <td colname="col2"> <ul><li>Grupos de informes con menos de 100 millones de visitas al día: no se requiere notificación</li><li>Grupos de informes con más de 100 millones de visitas al día: 5 días hábiles</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> Pico de tráfico o aumento repentino del tráfico permanente de más del 25% en volumen diario promedio comparado con los últimos 30 días</td>
+   <td colname="col1"> Pico de tráfico o incremento repentino de tráfico permanente de más de un 25 % en volumen diario promedio comparado con los últimos 30 días</td>
    <td colname="col2"> <ul><li>5 días hábiles</li></ul></td>
   </tr>
   <tr>
