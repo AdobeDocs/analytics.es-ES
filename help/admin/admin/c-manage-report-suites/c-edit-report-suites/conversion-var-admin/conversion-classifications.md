@@ -4,9 +4,9 @@ title: Clasificaciones de conversión
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
