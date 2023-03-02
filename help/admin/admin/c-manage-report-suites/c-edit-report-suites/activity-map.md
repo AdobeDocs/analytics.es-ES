@@ -1,16 +1,16 @@
 ---
-description: Puede ver los datos de Activity Map en Adobe Analytics
-title: Ver datos de Activity Map en Adobe Analytics
+description: Puede ver los datos del Activity Map en Adobe Analytics
+title: Visualización de datos de Activity Map en Adobe Analytics
 feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# Ver datos de Activity Map en Adobe Analytics
+# Visualización de datos de Activity Map en Adobe Analytics
 
 Pasos administrativos para activar Informes del Activity Map en Analytics.
 
