@@ -6,15 +6,15 @@ feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1132'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
-# Uso compartido de proyectos
+# Compartir proyectos
 
-Puede compartir un proyecto con usuarios o grupos de Adobe Analytics existentes de su organización. Cuando comparta un proyecto como se describe en esta sección, los usuarios con los que comparta ya deben tener una cuenta de Adobe Analytics.
+Puede compartir un proyecto con usuarios o grupos de Adobe Analytics de su organización. Cuando comparta un proyecto, como se describe en esta sección, los usuarios con los que lo comparta deben tener una cuenta de Adobe Analytics.
 
 Puede compartir una función específica con usuarios o grupos, o bien compartir un vínculo.
 
@@ -26,15 +26,15 @@ Puede compartir una función específica con usuarios o grupos, o bien compartir
 
 Cuando comparta una función de proyecto específica con usuarios y grupos de su organización, tenga en cuenta lo siguiente:
 
-* Funciones de proyecto (**[!UICONTROL Puede editar]**, **[!UICONTROL Puede duplicarse]** y **[!UICONTROL Puede ver]**) están vinculados al usuario y al ID de proyecto específico. Las funciones de proyecto son independientes de los permisos de usuario administrados en [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es).
+* Funciones de proyecto (**[!UICONTROL puede editar]**, **[!UICONTROL puede duplicar]** y **[!UICONTROL puede ver]**) están vinculados al usuario y al ID de proyecto específico. Las funciones de proyecto son independientes de los permisos de usuario administrados en la [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es).
 
-* En Adobe Analytics, los grupos se definen mediante perfiles de producto en [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es). Los administradores pueden compartir con cualquier grupo, incluido &quot;Todos&quot;. Los no administradores pueden compartir con cualquier grupo al que pertenezcan, con la excepción de &quot;Todos&quot;.
+* En Adobe Analytics, los grupos se definen mediante los perfiles de producto en la [Admin Console de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es). Los administradores pueden compartir con cualquier grupo, incluido “Todos”. Los no administradores pueden compartir con los grupos de los que son miembros, excepto con el grupo “Todos”.
 
-* Un usuario que se coloca en varias funciones siempre obtiene la experiencia más alta. Esto puede ocurrir si se agrega un usuario como individuo y como parte de un grupo. Por ejemplo, si a un usuario se le da la variable **[!UICONTROL Puede editar]** función individual y **[!UICONTROL Puede ver]** como miembro de un grupo, recibirán un **[!UICONTROL Puede editar]** experiencia del proyecto.
+* El usuario que desempeña varias funciones siempre obtiene la mayor experiencia. Esto puede ocurrir si se agrega un destinatario como individuo y además, como parte de un grupo. Por ejemplo, si a un destinatario se le asigna la función **[!UICONTROL Puede editar]** como individuo y **[!UICONTROL Puede ver]** como miembro de un grupo, recibirá una experiencia **[!UICONTROL Puede editar]** en el proyecto.
 
-* Los administradores se colocan en la **[!UICONTROL Puede duplicarse]** o **[!UICONTROL Puede ver]** reciben esas experiencias limitadas cuando abren un proyecto. Si lo desea, un administrador puede aumentar su función a **[!UICONTROL Puede editar]** en cualquier momento mediante **[!UICONTROL Componentes] > [!UICONTROL Proyectos]**.
+* Los administradores con una función **[!UICONTROL Puede duplicar]** o **[!UICONTROL Puede ver]** recibirán esas experiencias limitadas cuando abran un proyecto. Si lo desea, un administrador puede aumentar su función a **[!UICONTROL Puede editar]** en cualquier momento en **[!UICONTROL Componentes] > [!UICONTROL Proyectos]**.
 
-Para compartir una función de proyecto específica con usuarios o grupos de su organización:
+Para compartir una función de proyecto específica con usuarios o grupos de su organización, haga lo siguiente:
 
 1. Vaya al proyecto que desea compartir y, a continuación, haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Compartir proyecto]**. <!-- recommned changing "Share project" to "Share project internally" or something like that -->
 Si hay cambios sin guardar, se le pedirá que guarde primero el proyecto.
@@ -43,19 +43,19 @@ Si hay cambios sin guardar, se le pedirá que guarde primero el proyecto.
 
    Para obtener información sobre cómo compartir varios proyectos simultáneamente, consulte [Compartir proyectos en el administrador de proyectos](#share-projects-in-the-project-manager).
 
-1. Agregue destinatarios o grupos de destinatarios en uno de los campos de función proporcionados:
+1. Añada destinatarios o grupos de destinatarios en uno de los campos de función proporcionados:
 
-   **Puede editar:** Los destinatarios pueden **[!UICONTROL Guardar]** cambios en un proyecto y una función como copropietarios. Esta función resulta útil si desea administrar un proyecto conjuntamente con otros compañeros. Esto incluye editar, eliminar y modificar listas de destinatario para un proyecto compartido. <br>Nota: Actualmente, Analysis Workspace no admite la colaboración en tiempo real, por lo que se recomienda que solo un usuario edite un proyecto a la vez. Si los proyectos se guardan al mismo tiempo, se conservará la última versión.
+   **Puede editar:** los destinatarios pueden **[!UICONTROL Guardar]** los cambios en un proyecto y en una funcionalidad como copropietarios. Esta función resulta útil si desea administrar un proyecto conjuntamente con otros compañeros. Esto incluye editar, eliminar y modificar listas de destinatario para un proyecto compartido. <br>Nota: Actualmente, Analysis Workspace no admite la colaboración en tiempo real, por lo que se recomienda que solo un usuario edite un proyecto a la vez. Si los proyectos se guardan al mismo tiempo, se conservará la última versión.
 
-   **Puede duplicar:** Los destinatarios pueden **[!UICONTROL Guardar como]** y tienen acceso al carril izquierdo. Las interacciones del proyecto no están limitadas en esta función. Esta función es útil si desea compartir un proyecto con usuarios que comprendan los datos de su organización y cómo usar Analysis Workspace, pero no desea que el proyecto se modifique.
+   **Puede duplicar:** los destinatarios pueden **[!UICONTROL Guardar como]** y acceder al carril izquierdo. Las interacciones del proyecto no están limitadas en esta función. Esta función es útil si desea compartir un proyecto con usuarios que comprendan los datos de su organización y cómo usar Analysis Workspace, pero no desea que el proyecto se modifique.
 
-   **Se puede ver:** Los destinatarios no pueden **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]** y no tienen acceso al carril izquierdo. Las interacciones del proyecto también están limitadas. Esta función es útil si desea compartir un proyecto con usuarios menos familiarizados con la estructura de datos de su organización, Analysis Workspace o Adobe Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro. Obtenga más información sobre la [la función de proyecto “Puede ver”](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).
+   **Puede ver:** los destinatarios no pueden **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]** y no tienen acceso al carril izquierdo. Las interacciones del proyecto también están limitadas. Esta función resulta útil si desea compartir un proyecto con usuarios menos familiarizados con la estructura de datos de su organización, con Analysis Workspace o con Adobe Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro. Obtenga más información sobre la [la función de proyecto “Puede ver”](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).
 
 1. Elija si desea habilitar las siguientes opciones al compartir el proyecto:
 
-   * **Compartir componentes de proyecto incrustados:** Comparte segmentos, métricas calculadas e intervalos de fechas con todos los destinatarios. Después de compartirlos, estos componentes aparecerán en el menú desplegable de componentes de Workspace del destinatario. Esta configuración no se mantiene: se trata de una acción única en el momento de compartir.
+   * **Compartir componentes del proyecto incrustados:** comparta segmentos, métricas calculadas e intervalos de fechas con todos los destinatarios. Después de compartirlos, estos componentes aparecerán en el menú desplegable de componentes del espacio de trabajo del destinatario. Esta configuración no se mantiene, se trata de una acción concreta usada al momento de compartir.
 
-   * **Establecer como página de aterrizaje para destinatarios:** Establece esta página como página de aterrizaje para destinatarios. Esta configuración no se mantiene: se trata de una acción única en el momento de compartir.
+   * **Establecer como página de aterrizaje para destinatarios:** establece esta página como página de aterrizaje para destinatarios. Esta configuración no se mantiene, se trata de una acción concreta usada al momento de compartir.
 
 1. Haga clic en **[!UICONTROL Compartir]**.
 También puede hacer clic en **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. Si un proyecto ya se ha compartido, estos botones indicarán **[!UICONTROL Actualizar]** y **[!UICONTROL Depurar y actualizar]**. Obtenga más información sobre la [depuración del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=es).
@@ -66,16 +66,16 @@ Cuando comparta un vínculo como se describe en esta sección, tenga en cuenta l
 
 * Los destinatarios que utilicen el vínculo deben iniciar sesión en Adobe Analytics antes de obtener acceso al proyecto.
 
-* Si a un destinatario no se le asigna una función y recibe una [vínculo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=es) al proyecto (**[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo del proyecto]**), se les asigna una función de forma predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]** y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**.
+* Si a un destinatario no se le asigna una función y recibe un [vínculo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=es) al proyecto (**[!UICONTROL Compartir] > [!UICONTROL Obtener vínculo de proyecto]**), se le asignará una función predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]**, y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**.
 
-Para compartir el vínculo del proyecto con los usuarios de su organización:
+Para compartir el vínculo del proyecto con los usuarios de su organización, haga lo siguiente:
 
 1. Haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Compartir proyecto]**. <!-- recommned changing "Share project" to "Share project internally" or something like that -->
-Si hay cambios sin guardar, se le pedirá que guarde primero el proyecto.
+Si hay cambios sin guardar, se le pedirá primero que guarde el proyecto.
 
    ![](assets/share-proj-modal.png)
 
-1. Haga clic en **[!UICONTROL Copiar vínculo]** junto a la variable **[!UICONTROL Campo Compartir URL]**.
+1. Haga clic en **[!UICONTROL Copiar vínculo]** junto al **[!UICONTROL campo Compartir URL]**.
 
 1. Comparta el vínculo con los usuarios de su organización. Por ejemplo, puede pegarlo en un correo electrónico, en un sitio web interno, etc.
 
