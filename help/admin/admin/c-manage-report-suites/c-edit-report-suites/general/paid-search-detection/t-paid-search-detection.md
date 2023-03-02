@@ -1,16 +1,16 @@
 ---
 description: Instrucciones que describen cómo configurar la detección de búsqueda de pago.
-title: Configurar la detección de búsqueda pagada
+title: Configurar la detección de búsqueda de pago
 feature: Admin Tools
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '74'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Configurar la detección de búsqueda pagada
+# Configurar la detección de búsqueda de pago
 
 Para configurar la detección de búsqueda de pago:
 
