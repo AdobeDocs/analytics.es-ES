@@ -5,15 +5,15 @@ title: Copiar reglas de procesamiento en otro grupo de informes
 feature: Processing Rules
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Copiar reglas de procesamiento en otro grupo de informes
 
-Para copiar reglas de procesamiento de un grupo de informes y reemplazarlas o anexarlas a otro grupo de informes:
+Para copiar reglas de procesamiento de un grupo de informes y reemplazarlas o anexarlas a otro grupo de informes, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
 1. Selección de un grupo de informes.
