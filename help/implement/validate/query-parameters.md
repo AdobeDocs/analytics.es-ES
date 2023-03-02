@@ -4,9 +4,9 @@ description: Enumera todos los parámetros de cadena de consulta utilizados en s
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '718'
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | Las direcciones URL superiores a 255 bytes se dividen. Los primeros 255 bytes aparecen en el parámetro `g` y todos los bytes restantes aparecen en el parámetro `-g`. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | Abreviatura de la cadena de consulta `pageName`. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Abreviatura de la cadena de consulta `pageType`. |
-| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | Prefijo de varias variables que representan [Sugerencias del cliente](/help/technotes/client-hints.md). |
+| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | Prefijo de varias variables que representan las [sugerencias del cliente](/help/technotes/client-hints.md). |
 | `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | Dimensiones de jerarquía. |
 | `hp` | Ninguna | Ya no se utiliza. En versiones anteriores de Adobe Analytics, se determinó si la dirección URL actual era la página principal del explorador. |
 | `j` | Ninguna | Versión de JavaScript instalada en el explorador. |
@@ -56,7 +56,7 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 | `p` | Ninguna | Ya no se utiliza. Lista de complementos utilizados en el explorador. |
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | Se utiliza en la dimensión [Página](/help/components/dimensions/page.md). |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Se utiliza en la dimensión [Páginas no encontradas](/help/components/dimensions/pages-not-found.md). |
-| `pccr` | Ninguna | Solo se configura para visitantes nuevos y siempre se establece como `true`. Ayuda a evitar redirecciones infinitas si un visitante rechaza cookies. |
+| `pccr` | Ninguna | Solo se configura para visitantes nuevos y siempre se establece como `true`. Ayuda a evitar redirecciones infinitas si un visitante rechaza las cookies. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Determina el tipo de vínculo personalizado. Necesario para [Vínculos personalizados](/help/components/dimensions/custom-link.md), [Vínculos de descarga](/help/components/dimensions/download-link.md) y [Vínculos de salida](/help/components/dimensions/exit-link.md). |
 | `pev1` | Ninguna | Dirección URL en la que se produjo el vínculo personalizado. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Nombre reconocible del vínculo personalizado. |
@@ -78,8 +78,8 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | Dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md). |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md) o dimensiones de conversión personalizadas. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Variable de ID de visitante. |
-| `vidn` | Ninguno | La establece AppMeasurement para visitantes nuevos. Contiene el valor de ID almacenado en la cookie del visitante. |
-| `vmk` | `vmk` | Ya no se utiliza. Clave de migración de visitantes, que ayudó a migrar las implementaciones de cookies de terceros a cookies de origen. |
+| `vidn` | Ninguno | Establecida por AppMeasurement para visitantes nuevos. Contiene el valor de ID almacenado en la cookie del visitante. |
+| `vmk` | `vmk` | Ya no se utiliza. Clave de migración del visitante que ayudó a migrar las implementaciones de cookies de terceros a cookies de origen. |
 | `vvp` | `variableProvider` | Se utiliza en Data Connectors. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | Se utiliza con las fuentes de datos para enlazar datos en línea y sin conexión. |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | Se utiliza en la dimensión [Código postal](/help/components/dimensions/zip-code.md). |
