@@ -6,15 +6,15 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
 source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Crear vínculos que se pueden compartir
 
-Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Para la mayoría de los tipos de vínculos, los usuarios que reciben un vínculo deben iniciar sesión en Adobe Analytics antes de poder acceder al proyecto.
+Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Para la mayoría de tipos de vínculos, los usuarios que reciban un vínculo deben iniciar sesión en Adobe Analytics antes de poder acceder al proyecto.
 
 ## Obtener vínculo del proyecto {#project-link}
 
