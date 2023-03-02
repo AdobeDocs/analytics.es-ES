@@ -1,16 +1,16 @@
 ---
 description: Pasos que describen cómo aplicar secuencias de escape a los datos de clasificación del archivo de clasificación.
-title: Aplicar secuencias de escape a los datos de clasificación
+title: Omitir los datos de clasificación
 feature: Classifications
 exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '100'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Aplicar secuencias de escape a los datos de clasificación
+# Omitir los datos de clasificación
 
 Para omitir los datos de clasificación en el archivo de clasificación:
 
