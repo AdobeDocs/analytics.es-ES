@@ -4,9 +4,9 @@ title: Claves no clasificadas
 feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ t_rename_classification_none.xml
 
  -->
 
-Para cambiar el nombre de una clave no clasificada que aparece como *`none`* en los informes:
+Para cambiar el nombre de una clave no clasificada que aparece como *`none`* en la creación de informes:
 
 1. Con el importador, exporte las clasificaciones a un archivo local.
 1. Agregue una fila al archivo y escriba `~none~` en la columna Clave.
