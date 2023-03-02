@@ -4,15 +4,15 @@ description: Asociarse con Adobe para asegurarse de que los eventos de alto trá
 feature: Traffic Management
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
 source-git-commit: c13e39e7bfe3d7fef07ea9ccda76255d28dde1c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '738'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 # Programar un pico de tráfico
 
-Adobe intenta asociarse con los clientes para garantizar que un evento de alto tráfico se realice correctamente. La programación de los picos de tráfico es el punto de partida de ese proceso de asociación. La sección Programación de pico permite alertar a Adobe de los picos de tráfico temporales para que se puedan asignar los recursos adecuados para administrarlos. Puede estimar las llamadas al servidor anteriores para obtener una mejor idea del tamaño del pico de tráfico que debe programar.
+Adobe intenta asociarse con los clientes para garantizar que un evento de alto tráfico se realice correctamente. La programación de los picos de tráfico es el punto de partida de ese proceso de asociación. La sección Programación de pico permite alertar a Adobe de los picos de tráfico temporales para que se puedan asignar los recursos adecuados para administrarlos. Puede estimar las llamadas al servidor anteriores para hacerse una mejor idea del tamaño del pico de tráfico que debe programar.
 
 Se utiliza el equilibrio de datos avanzado del lado del servidor con varios empleados dedicados para garantizar que todos los clientes tengan los informes más actualizados posibles. A medida que su organización notifica a Adobe de picos de tráfico, Adobe puede asegurarse de que el aumento repentino de tráfico sea una experiencia positiva. Si no se notifica a Adobe de los incrementos de tráfico, puede aumentar la latencia durante períodos críticos de creación de informes.
 
@@ -25,22 +25,22 @@ Para programar un pico de tráfico:
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administradores]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Grupos de informes]**.
 1. Selección de un grupo de informes.
 1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Administración de tráfico]** > **[!UICONTROL Programar pico]**.
-1. (Opcional) Puede estimar las llamadas al servidor anteriores para obtener una mejor idea de cómo se debe programar el pico de tráfico.
+1. (Opcional) Puede estimar las llamadas al servidor anteriores para hacerse una mejor idea del tamaño del pico de tráfico que debe programar.
 
-   Por ejemplo, puede obtener el promedio diario de llamadas al servidor del año pasado durante un lapso de tiempo específico, además de un aumento esperado en el volumen de llamadas al servidor para este año. Así, podrá programar un pico de tráfico basado en este factor de multiplicación.
+   Por ejemplo, puede obtener el promedio diario de llamadas al servidor correspondiente a un lapso de tiempo específico del año pasado, además de un aumento esperado del volumen de llamadas de este año. Así, podrá programar un pico de tráfico basado en este factor de multiplicación.
 
-   1. En el **[!UICONTROL Llamadas al servidor anteriores]** seleccione una fecha de inicio y de finalización para los grupos de informes seleccionados.
+   1. En el área **[!UICONTROL Llamadas al servidor anteriores]**, seleccione una fecha de inicio y de finalización para los grupos de informes seleccionados.
 
-      El importe de [!UICONTROL **Día punta**], [!UICONTROL **Llamadas al servidor del día punta**] y [!UICONTROL **Promedio diario de llamadas al servidor**] se genera.
+      Se generan las cantidades para [!UICONTROL **Día punta**], [!UICONTROL **Pico diario de llamadas al servidor**] y [!UICONTROL **Promedio diario de llamadas al servidor**].
 
-   1. Introduzca un valor para el factor de multiplicación y, a continuación, seleccione **[!UICONTROL Haga clic para multiplicar y configurar]**.
+   1. Introduzca un valor para el factor de multiplicación y, a continuación, seleccione **[!UICONTROL Hacer clic para multiplicar y establecer]**.
 
       El valor de todas las columnas se multiplica para cada grupo de informes.
-1. En el [!UICONTROL **Configurar parámetros del pico**] , en el **[!UICONTROL Fecha de inicio del pico]** especifique la fecha en la que espera que comience el pico de tráfico.
+1. En el área [!UICONTROL **Establecer parámetros de pico**], en el campo **[!UICONTROL Fecha de inicio del pico]**, especifique la fecha en la que espera que comience el pico de tráfico.
 1. En el campo **[!UICONTROL Fecha de fin del pico]**, especifique la fecha en la que espera que termine el pico de tráfico.
-1. En el **[!UICONTROL Llamadas al servidor del día punta]** especifique el total de vistas de página pico esperadas por día durante el período del pico de tráfico.
-1. En el **[!UICONTROL Llamadas máximas al servidor de hora]** especifique el total de vistas de página pico esperadas por hora durante el período del pico de tráfico.
-1. Select **[!UICONTROL Submit]**.
+1. En el campo **[!UICONTROL Pico diario de llamadas al servidor]**, especifique el pico total de páginas vistas previsto por día durante el periodo del pico de tráfico.
+1. En el campo **[!UICONTROL Pico horario de llamadas al servidor]**, especifique el pico total de páginas vistas previsto por hora durante el periodo del pico de tráfico.
+1. Seleccione **[!UICONTROL Enviar]**.
 
    Asegúrese de indicar el número total de vistas de página esperadas, no solo las vistas de página adicionales.
 
