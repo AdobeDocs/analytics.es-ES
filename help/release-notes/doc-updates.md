@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3679'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Febrero de 2023** |  |
-| Implementación | Contenido actualizado sobre cómo [implementación de Adobe Analytics para web y dispositivos móviles](../implement/home.md). |
-| Calendarios e intervalos de fechas de Workspace | Se ha actualizado el contenido para describir intervalos de fechas relativos, actualizaciones de cálculo de fórmula y cambios en la interfaz de usuario del calendario. Consulte [Acerca de los intervalos de fechas del panel relativo](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
-| Tarjetas de valoración móviles | Nueva sección de documentación para describir cómo mostrar y ocultar intervalos de fechas de comparación. Consulte [Mostrar intervalos de fechas de comparación](/help/analyze/mobile-app/create-scorecard.md) en CJA. |
-| API 1.4 | La variable [API de Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) ha recibido una reescritura completa y ahora se publica en Adobe Developer. |
+| Implementación | Se ha actualizado el contenido sobre cómo [implementar Adobe Analytics para web y móvil](../implement/home.md). |
+| Calendarios e intervalos de fechas del Espacio de trabajo | Se ha actualizado el contenido para describir intervalos de fechas relativos, actualizaciones de cálculo de fórmula y cambios en la IU del calendario. Consulte [Acerca de los intervalos de fechas relativos del panel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
+| Cuadros de resultados móviles | Nueva sección de documentación para describir cómo mostrar y ocultar intervalos de fechas de comparación. Consulte [Mostrar intervalos de fechas de comparación](/help/analyze/mobile-app/create-scorecard.md) en CJA. |
+| API 1.4 | La [API de Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) se ha reescrito por completo y ahora está publicada en Adobe Developer. |
 | Seguimiento en tipos de implementación | Se ha actualizado el caso de uso [Seguimiento en diferentes tipos de implementación](../implement/use-cases/cross-type-implementation.md) para dar cabida al servicio de ID de Experience Cloud. |
 | **Enero de 2023** |  |
-| Filtrado y ordenación de tablas | Se ha actualizado el contenido (incluyendo procedimientos y explicaciones de las opciones disponibles) en la [Filtrado y ordenación de tablas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) artículo. Se ha cambiado el nombre de este artículo de &quot;Paginación, filtrado y ordenación de tablas&quot;. |
+| Filtrado y ordenación de tablas | Se ha actualizado el contenido (incluyendo procedimientos y explicaciones de las opciones disponibles) en el artículo [Filtrado y ordenación de tablas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Se ha cambiado el nombre de este artículo de “Paginación, filtrado y ordenación de tablas”. |
 | Carpetas | Páginas específicas para la [administración de carpetas](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Preferencias de usuario | Muchas preferencias de usuario adicionales están ahora disponibles en [Preferencias](/help/analyze/analysis-workspace/user-preferences.md). |
 | Guardado automático para proyectos | Contenido actualizado para incluir la funcionalidad de guardado automático en [Guardar proyectos](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
