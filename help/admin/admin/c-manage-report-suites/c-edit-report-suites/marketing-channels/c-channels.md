@@ -5,9 +5,9 @@ title: Administrar Canales de marketing
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '767'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 > Para maximizar la eficacia de los canales de marketing para Attribution IQ y Customer Journey Analytics, hemos publicado algunas [prácticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de marketing]** > **[!UICONTROL Administrador de canales de marketing]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de marketing]** > **[!UICONTROL Administrador del canal de marketing]**.
 
 Agregue o habilite canales de marketing en el Administrador de canales de marketing. En los grupos de informes que no tengan canales de marketing, puede crear varios canales, junto con sus reglas, gracias a una configuración automática. Puede editar los canales predefinidos según sus necesidades o crear otros (hasta un total de 25).
 
@@ -28,8 +28,8 @@ La adición de canales a la página [!UICONTROL Canales de marketing] se realiza
 Aquí tiene algunas indicaciones para la creación de canales:
 
 * Planifíquelos con tiempo y haga una lista de todos los canales, de modo que todas las visitas se clasifiquen en el canal correcto.
-* Incluir canales para las categorías de [Internas](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) visitas individuales.
-* Incluya un canal “Otras Campañas”, que se colocará después de los canales pagados y antes de los canales orgánicos.
+* Incluya canales para las categorías de visitas individuales [internas](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+* Incluya un canal de “Otras campañas”, que se colocará después de los canales pagados y antes de los canales orgánicos.
 
 
 ## Requisitos previos {#prereqs}
@@ -81,7 +81,7 @@ Hay varias opciones de configuración que se pueden aplicar a cada canal en la p
 
 ### Prácticas recomendadas sobre anulaciones
 
-Se recomienda desactivar la opción de anulación del último contacto para los canales directos e internos, de modo que no puedan tomar crédito de otros canales de último contacto persistentes (o entre sí).
+Es una práctica recomendada desactivar la opción de anulación del último contacto para los canales directos e internos, de modo que no puedan tomar crédito de otros canales de último contacto persistentes (o entre sí).
 
 ![](assets/int-channel2.png)
 
