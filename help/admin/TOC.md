@@ -7,7 +7,7 @@ user-guide-description: Obtenga información acerca de las tareas de administrac
 source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 
 + [Guía de administración de Analytics](home.md)
 + [Notas de la versión de Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
-+ Consola de administración de Adobe {#admin-console}
++ Adobe Admin Console {#admin-console}
    + [Información general](admin-console/home.md)
    + [Guía de administración inicial de Adobe Analytics](admin-console/first-admin-guide.md)
    + [Funciones de administrador en Adobe Analytics](admin-console/admin-roles-in-analytics.md)
@@ -110,11 +110,11 @@ ht-degree: 94%
          + [Métricas predeterminadas](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [Administración de aplicaciones](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [Administración de medios](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
-         + [Página de ](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
+         + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Creación de informes de privacidad](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + Administración de Document Cloud {#doc-cloud-mgt}
+         + Gestión de Document Cloud {#doc-cloud-mgt}
             + [Configuración de Document Cloud con Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
             + [Configuración de informes de Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Configuración de Advertising Analytics](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)

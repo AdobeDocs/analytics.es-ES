@@ -1,22 +1,22 @@
 ---
 description: Los administradores pueden agregar descripciones para los componentes mediante el grupo de informes o el diccionario de datos.
-title: Agregar descripciones de componentes
+title: Adición de descripciones de componentes
 feature: Components
 role: Admin
 source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 0%
+ht-degree: 73%
 
 ---
 
-# Agregar descripciones de componentes
+# Adición de descripciones de componentes
 
-Las descripciones ayudan a los usuarios a saber cómo utilizar mejor los distintos componentes al crear proyectos en Analysis Workspace o al ver informes.
+Las descripciones ayudan a los usuarios a utilizar mejor los distintos componentes al crear proyectos en Analysis Workspace o al ver informes.
 
-Los administradores de Analytics pueden agregar descripciones para componentes (Dimension, métricas, segmentos e intervalos de fechas)<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
+Los administradores de Analytics pueden agregar descripciones para componentes (Dimensiones, Métricas, Segmentos e Intervalos de fechas)<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
 
-## Agregar descripciones a componentes de un grupo de informes
+## Adición de descripciones a componentes de un grupo de informes
 
 En el siguiente vídeo se describe cómo agregar descripciones de dimensiones y métricas en un grupo de informes:
 

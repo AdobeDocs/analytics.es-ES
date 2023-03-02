@@ -6,11 +6,11 @@ feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Información general sobre Analytics en Adobe Admin Console
+# Información general de Analytics en Adobe Admin Console
 
 Utilice [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html) para administrar los productos y usuarios de Analytics. Adobe Admin Console se encuentra en [adminconsole.adobe.com](https://adminconsole.adobe.com/).
 

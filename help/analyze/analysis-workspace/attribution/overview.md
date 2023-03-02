@@ -7,7 +7,7 @@ exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 92%
 
 La atribución permite a los analistas personalizar la forma en que los elementos de dimensión obtienen crédito por los eventos de éxito. Por ejemplo:
 
-1. Un visitante de su sitio hace clic en un vínculo de búsqueda de pago a una de las páginas de producto. Agregan el producto al carro de compras, pero no lo compran.
-2. Al día siguiente, ven una publicación en medios sociales de uno de sus amigos, hacen clic en el vínculo y luego completan la compra.
+1. Un visitante de su sitio hace clic en un vínculo de búsqueda de pago a una de las páginas de producto. Después, agrega el producto al carro de compras, pero no lo compra.
+2. Al día siguiente, ve una publicación en los medios sociales de uno de sus amigos, hace clic en el vínculo y completa la compra.
 
 En algunos informes, es posible que desee atribuir el pedido a la búsqueda de pago. En otros informes, es posible que desee atribuir el pedido a los medios sociales. La atribución permite controlar este aspecto del sistema de informes. Está disponible para todas las organizaciones en Adobe Analytics Ultimate, Prime, Select y Foundation. Si no está seguro de qué tipo de contrato tiene con Adobe, póngase en contacto con el administrador de cuentas de su organización.
 

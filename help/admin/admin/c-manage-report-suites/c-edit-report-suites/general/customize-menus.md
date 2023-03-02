@@ -6,13 +6,13 @@ exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# Personalización de menús
+# Personalizar menús
 
-Puede personalizar los menús de los informes que ve un usuario en Reports &amp; Analytics. Se pueden mostrar u ocultar informes y moverlos a distintas carpetas entre todos los usuarios. Esto resulta especialmente útil si su organización solo utiliza ciertos informes y no desea saturar el menú de la izquierda con datos no utilizados o irrelevantes.
+Puede personalizar los menús de los informes que ve un usuario en Reports &amp; Analytics. Se pueden mostrar u ocultar informes y moverlos a distintas carpetas entre todos los usuarios. Esto es especialmente útil si la organización solo utiliza informes y no se desea atestar el menú de la izquierda con datos irrelevantes o que no se usan.
 
 Los cambios de menú se aplican a todos los usuarios que acceden al grupo de informes. Sin embargo, los usuarios pueden restaurar la configuración predeterminada de un menú al utilizar el grupo de informes.
 

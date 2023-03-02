@@ -7,7 +7,7 @@ user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluy
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 97%
       + [Ver densidad](analysis-workspace/build-workspace-project/view-density.md)
    + Componentes {#components}
       + [Resumen de componentes](analysis-workspace/components/analysis-workspace-components.md)
-      + [Agregar descripciones de componentes](analysis-workspace/components/add-component-descriptions.md)
+      + [Adición de descripciones de componentes](analysis-workspace/components/add-component-descriptions.md)
       + Anotaciones {#annotations}
          + [Descripción general de anotaciones](analysis-workspace/components/annotations/overview.md)
          + [Creación de anotaciones](analysis-workspace/components/annotations/create-annotations.md)
@@ -62,10 +62,10 @@ ht-degree: 97%
          + [Crear intervalos de fechas](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Comparación de fechas](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
       + Diccionario de datos {#data-dictionary}
-         + [Resumen del diccionario de datos](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
-         + [Ver información de componentes en el diccionario de datos](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
-         + [Editar entradas de componentes en el diccionario de datos](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
-         + [Monitorizar el estado del diccionario de datos](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
+         + [Información general del diccionario de datos](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [Visualización de información de componentes en el diccionario de datos](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [Edición de entradas de componentes en el diccionario de datos](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [Monitorización del estado del diccionario de datos](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + Visualizaciones {#visualizations}
       + [Resumen de las visualizaciones](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Administración de fuentes de datos](analysis-workspace/visualizations/t-sync-visualization.md)

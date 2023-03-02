@@ -195,7 +195,7 @@ Más opciones de aprendizaje:
 
 ### Administración de informes de la compañía {#manage-company-reports}
 
-Los administradores pueden filtrar la lista de proyectos para mostrar y administrar los informes de la compañía. Los elementos anclados permanecen anclados seguidos de la lista de informes de la compañía que se identifican con el icono de informe ![icono de informe . ](assets/report-icon.png) En esta vista, puede eliminar, cambiar el nombre, etiquetar o aprobar uno o más informes.
+Los administradores pueden filtrar la lista de proyectos para mostrar y administrar los informes de la compañía. Los elementos anclados permanecen anclados seguidos de la lista de informes de la compañía que se identifican con el icono de informe ![icono de informe. ](assets/report-icon.png) En esta vista, puede eliminar, cambiar el nombre, etiquetar o aprobar uno o más informes.
 
 Para mostrar y administrar los informes de la compañía
 
