@@ -4,13 +4,13 @@ description: Tablas que resumen los permisos de Adobe Analytics disponibles en A
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1280'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Permisos de Analytics en el Admin Console
+# Permisos de Analytics en Admin Console
 
 Utilice las siguientes tablas de resumen para identificar los permisos de Adobe Analytics en Adobe Admin Console, por grupos lógicos.
 
