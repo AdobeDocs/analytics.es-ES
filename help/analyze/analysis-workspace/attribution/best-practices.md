@@ -4,9 +4,9 @@ description: ¿Cuáles son las mejores prácticas para decidir un modelo de atri
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ A continuación puede realizar análisis de canal superior e inferior para ampli
 
 ### Análisis del canal superior
 
-Los canales de análisis del canal superior se utilizan para crear conciencia de marca o producto. Por ejemplo, el objetivo de la mayoría de los anuncios de TV es la imagen de marca. Puede utilizar el modelo de atribución [&quot;Time decay&quot;](/help/analyze/analysis-workspace/attribution/models.md), ya que las personas se olvidarán de su anuncio de TV a lo largo del tiempo.
+Los canales de análisis del canal superior se utilizan para concienciar sobre la marca o el producto. Por ejemplo, el objetivo de la mayoría de los anuncios de TV es la imagen de marca. Puede utilizar el modelo de atribución [&quot;Time decay&quot;](/help/analyze/analysis-workspace/attribution/models.md), ya que las personas se olvidarán de su anuncio de TV a lo largo del tiempo.
 
 ### Análisis de canal inferior
 
@@ -41,19 +41,19 @@ El propósito de este paso es validar las hipótesis.
 
 **Ejemplo 1**
 
-Supongamos que la hipótesis es: &quot;Mi canal de primer toque tiene más impacto en la conversión que mi canal de último toque&quot;.
+Supongamos que su hipótesis es esta: “Mi canal de primer contacto tiene más impacto en la conversión que mi canal del último contacto”.
 
-En este caso, se usa la variable [Modelo de atribución &quot;en forma de J inversa&quot;](/help/analyze/analysis-workspace/attribution/models.md) para probar esta hipótesis. Este modelo proporciona el 60 % del crédito al primer punto de contacto.
+En este caso, se usaría el [modelo de atribución “Forma de J invertida”](/help/analyze/analysis-workspace/attribution/models.md) para probar esta hipótesis. Este modelo proporciona el 60 % del crédito al primer punto de contacto.
 
 **Ejemplo 2**
 
-Supongamos que la hipótesis es: &quot;En nuestra industria (como la industria de viajes), la ventana de atribución es de 60 o 90 días, no de 30 días, porque los clientes hacen mucha investigación antes de comprar un producto&quot;.
+Imaginemos que su hipótesis es esta: “En nuestro sector (como el de los viajes), la ventana de atribución es de 60 o 90 días, no de 30, porque los clientes hacen mucha investigación antes de comprar un producto”.
 
-En este caso, cambiaría su [ventana retroactiva](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=es#lookback-windows) a 90 días.
+En este caso, cambiaría su [ventana retrospectiva](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=es#lookback-windows) a 90 días.
 
 ## Paso 3: utilizar atribución algorítmica
 
-Si todavía no tiene un modelo de atribución que proporcione respuestas satisfactorias a todas las preguntas, puede utilizar [atribución algorítmica](/help/analyze/analysis-workspace/attribution/algorithmic.md). Como es muy difícil validar un gran número de hipótesis y combinaciones posibles, la atribución algorítmica utiliza algoritmos integrados para asignar crédito entre elementos de dimensión.
+Si todavía no tiene un modelo de atribución que proporcione respuestas satisfactorias a todas las preguntas, puede emplear [atribución algorítmica](/help/analyze/analysis-workspace/attribution/algorithmic.md). Como es muy difícil validar un gran número de hipótesis y combinaciones posibles, la atribución algorítmica recurre a algoritmos integrados para asignar crédito entre elementos de dimensión.
 
 ## Otras consideraciones
 
