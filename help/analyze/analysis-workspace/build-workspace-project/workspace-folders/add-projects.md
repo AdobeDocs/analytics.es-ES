@@ -5,9 +5,9 @@ title: Agregar carpetas en Workspace
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
 source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Puede agregar proyectos a una carpeta en la vista de tabla o desde una carpeta.
 
 >[!NOTE]
 >
->Solo los administradores de Analytics pueden agregar proyectos a la carpeta de la empresa o crear un nuevo proyecto y guardarlo en la carpeta de la empresa
+>Solo los administradores de Analytics pueden agregar proyectos a la carpeta de la compañía o crear un nuevo proyecto y guardarlo en ella
 
 ## Desde la vista de tabla {#table-view}
 
@@ -35,7 +35,7 @@ Agregue proyectos a una carpeta desde la vista de tabla de la página principal.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
-1. Select **Mover**.
+1. Seleccione **Mover**.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
@@ -55,7 +55,7 @@ También puede agregar proyectos desde dentro de una carpeta mediante el víncul
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. Seleccione el **...** icono de elipsis en la esquina superior derecha.
+1. Seleccione el icono de elipsis **...** en la esquina superior derecha.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
 
@@ -64,10 +64,10 @@ También puede agregar proyectos desde dentro de una carpeta mediante el víncul
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
 
 
-1. (Opcional) Seleccione proyectos adicionales en la lista desplegable para agregar varios proyectos.
+1. (Opcional) Seleccione proyectos adicionales en la lista desplegable para agregar varios.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. Select **Agregar** para agregar los proyectos a la carpeta .
+1. Seleccione **Agregar** para añadir los proyectos a la carpeta.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
