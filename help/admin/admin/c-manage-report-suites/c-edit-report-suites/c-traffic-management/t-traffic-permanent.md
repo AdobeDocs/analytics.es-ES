@@ -4,19 +4,19 @@ title: Especificar un incremento de tráfico permanente
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 source-git-commit: 157b6f53b482d8cc19b99976ed1d927a80fec490
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Especificar un incremento de tráfico permanente
 
-Puede cambiar los niveles de tráfico esperados para que el Adobe pueda reasignar recursos para gestionar el nuevo nivel de tráfico. (También puede [programar un pico de tráfico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) si desea reasignar temporalmente los recursos).
+Puede cambiar los niveles de tráfico esperados para que Adobe pueda reasignar recursos para gestionar el nuevo nivel de tráfico. (También puede [programar un pico de tráfico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) si desea reasignar temporalmente los recursos).
 
 {{$include /help/_includes/traffic-lead-time.md}}
 
-## Especificar un aumento de tráfico permanente
+## Especificar un incremento de tráfico permanente
 
 1. Para abrir el Administrador de grupos de informes, haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Grupos de informes]**.
 1. Selección de un grupo de informes.
