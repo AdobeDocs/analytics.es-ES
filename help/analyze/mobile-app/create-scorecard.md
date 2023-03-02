@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 45795a98a71e0b7d6a4bc3fda758fb3efa5134f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1792'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -102,13 +102,13 @@ Si el intervalo de fechas que desea aún no se ha creado, puede crear uno nuevo 
 
 Esto le llevará al generador de intervalos de fechas, donde puede crear y guardar un nuevo componente de intervalo de fechas.
 
-### Mostrar/ocultar intervalos de fechas de comparación {#show-comparison-dates}
+### Mostrar/ocultar comparación de intervalos de fechas {#show-comparison-dates}
 
-Para mostrar u ocultar intervalos de fechas de comparación, active la opción **Incluir fechas de comparación** configuración.
+Para mostrar u ocultar intervalos de fechas de comparación, active la configuración **Incluir fechas de comparación**.
 
 ![Incluir fechas de comparación](assets/include-comparison-dates.png)
 
-El entorno es *en* de forma predeterminada. Anule la selección de la opción si no desea ver las fechas de comparación.
+La configuración está *activada* de forma predeterminada. Anule la selección de la opción si no desea ver las fechas de comparación.
 
 ![Configuración de fecha de comparación no seleccionada](assets/no-comparison-dates.png)
 
