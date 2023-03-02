@@ -4,9 +4,9 @@ title: Versiones de funcionalidades de Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Las versiones de Adobe Analytics funcionan con un modelo de entrega continuo que
 
 [!UICONTROL Analysis Workspace] utiliza indicadores de funcionalidades (también conocidos como “alternadores”) para controlar la visibilidad de las nuevas funcionalidades, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
 
-* **Prueba limitada**: Una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. A continuación, se pone a disposición de un pequeño grupo de cuentas de cliente para garantizar que la función satisfaga las necesidades y expectativas de los clientes.
+* **Prueba limitada**: una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. A continuación, se pone a disposición de un pequeño grupo de cuentas del cliente para garantizar que la funcionalidad satisfaga sus necesidades y expectativas.
 
-* **Inicio de la implementación**: La implementación de una versión por fases comienza con la fase Prueba limitada . Después, la versión se escalará con una disponibilidad del 0 % al 100 % en el transcurso de un par de meses. La implementación por fases se produce en el nivel de organización de Experience Cloud, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
+* **Inicio del despliegue**: el despliegue de una versión por fases comienza con la prueba limitada. Después, la versión se escalará con una disponibilidad del 0 % al 100 % en el transcurso de un par de meses. La implementación por fases se produce en el nivel de organización de Experience Cloud, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
 
-* **Disponibilidad general (GA)**: La funcionalidad está disponible para el 100% de las organizaciones de Experience Cloud y la versión de la funcionalidad está completa.
+* **Disponibilidad general (GA)**: la funcionalidad está disponible para el 100% de las organizaciones de Experience Cloud y la versión de la funcionalidad está completa.
 
-Con cada versión de la función, la cronología desde el inicio del lanzamiento hasta GA puede variar. El objetivo es reducir el número de versiones, de modo que en los 2 meses posteriores al inicio del lanzamiento, la función esté disponible para el público general.
+Con cada versión de la funcionalidad, la cronología desde el inicio del despliegue hasta su disponibilidad general puede variar. El objetivo es reducir el número de versiones, de modo que, en los dos meses posteriores al inicio del despliegue, la funcionalidad esté disponible de forma general.
 
 ## Indicadores de características
 
