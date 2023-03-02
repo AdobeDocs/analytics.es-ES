@@ -4,9 +4,9 @@ description: Vista de cantidades de datos o elementos de dimensión a lo largo d
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -29,4 +29,4 @@ Si no encuentra una página de ayuda de métrica determinada, es probable que se
 
 ## Agregar descripciones de métricas
 
-Los administradores de Analytics pueden agregar descripciones para métricas y otros componentes, ya sea dentro del grupo de informes o directamente dentro de Analysis Workspace. Para obtener información sobre cómo agregar descripciones a métricas, consulte [Agregar descripciones de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+Los administradores de Analytics pueden agregar descripciones para métricas y otros componentes, ya sea dentro del grupo de informes o directamente dentro de Analysis Workspace. Para obtener información acerca de cómo agregar descripciones a métricas, consulte [Adición de descripciones de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
