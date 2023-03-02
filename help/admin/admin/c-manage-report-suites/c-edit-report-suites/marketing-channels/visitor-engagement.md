@@ -5,9 +5,9 @@ title: Caducidad del canal de marketing
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '381'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 > Para maximizar la eficacia de los canales de marketing para Attribution IQ y Customer Journey Analytics, hemos publicado algunas [prácticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de marketing]** > **[!UICONTROL Caducidad del canal de marketing]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de marketing]** > **[!UICONTROL Caducidad del canal de marketing]**
 
 Obtenga información sobre cómo especificar la caducidad o el periodo de participación de visitantes para los canales de marketing.
 
