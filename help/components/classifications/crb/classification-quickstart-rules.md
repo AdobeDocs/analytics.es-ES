@@ -4,9 +4,9 @@ title: Reglas de clasificación
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2015'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -365,7 +365,7 @@ t_classifications_test_rule.xml
 
 Puede probar una regla de clasificación o un conjunto de reglas. Al ejecutar una prueba se comprueban todas las reglas de un conjunto.
 
-Para probar un conjunto de reglas de clasificación:
+Probar un conjunto de reglas de clasificación:
 
 1. [Crear un conjunto de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) .
 1. En el [!UICONTROL Generador de reglas de clasificación], haga clic en el nombre del conjunto de reglas.
@@ -397,7 +397,7 @@ t_validate_rules.xml
 
  -->
 
-Para validar y activar reglas de clasificación:
+Validar y activar reglas de clasificación:
 
 1. [Cree un conjunto de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) y luego [agregue reglas de clasificación](/help/components/classifications/crb/classification-quickstart-rules.md) al conjunto.
 1. En el editor de reglas, haga clic en **[!UICONTROL Activar]**.
