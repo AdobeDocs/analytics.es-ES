@@ -4,9 +4,9 @@ description: Variables que contienen valores de cadena.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -26,4 +26,4 @@ Cada dimensión representa una parte o faceta diferente del sitio. Puede combina
 
 ## Agregar descripciones de dimensión
 
-Los administradores de Analytics pueden agregar descripciones para dimensiones y otros componentes tanto dentro del grupo de informes como directamente dentro de Analysis Workspace. Para obtener información sobre cómo añadir descripciones a dimensiones, consulte [Agregar descripciones de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+Los administradores de Analytics pueden añadir descripciones para dimensiones y otros componentes tanto dentro del grupo de informes como directamente dentro de Analysis Workspace. Para obtener información acerca de cómo añadir descripciones a dimensiones, consulte [Adición de descripciones de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
