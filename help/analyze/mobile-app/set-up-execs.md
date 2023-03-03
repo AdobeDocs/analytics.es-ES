@@ -4,10 +4,10 @@ title: Configure usuarios ejecutivos con la aplicación
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '749'
-ht-degree: 100%
+source-git-commit: 02d0baee99ad2ea5966788f036644d3e3780016e
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ En algunos casos, puede que los usuarios ejecutivos necesiten asistencia adicion
 
 Para garantizar que los usuarios ejecutivos tengan acceso a sus informes de valoración en la aplicación, asegúrese de que:
 
-* El requisito mínimo del sistema operativo móvil de sus dispositivos sea iOS versión 10 o posterior, o Android versión 4.4 (KitKat) o posterior
+* El requisito mínimo del sistema operativo móvil de sus dispositivos sea iOS versión 10 o posterior, o Android versión 4.4 (KitKat) o posterior.
 * Tengan unas credenciales de inicio de sesión válidas para Adobe Analytics.
 * Haya creado y compartido correctamente los informes de valoración móviles de los usuarios.
 * Los usuarios tengan acceso a los componentes que se incluyen en el cuadro de resultados. Tenga en cuenta que, al compartir los cuadros de resultados, puede seleccionar la opción **[!UICONTROL Compartir los componentes incrustados]**.
@@ -77,8 +77,8 @@ Información adicional sobre los mosaicos:
 
 * La granularidad de los minigráficos depende de la longitud del intervalo de fecha:
 * Si se selecciona un día se muestra una tendencia horaria
-   * Si se selecciona más de un día y menos de un año, se muestra una tendencia diaria
-   * Si se selecciona un año o más se muestra una tendencia semanal
+   * Si se selecciona más de un día y menos de un año, se muestra una tendencia diaria.
+   * Si se selecciona un año o más se muestra una tendencia semanal.
    * La fórmula de la variación del valor porcentual es el total de la métrica (intervalo de fecha actual) – el total de la métrica (intervalo de fecha de comparación) / el total de la métrica (intervalo de fecha de comparación).
    * Puede arrastrar la pantalla hacia abajo para actualizar el informe de valoración.
 
@@ -114,4 +114,4 @@ Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correct
 
 >[!IMPORTANT]
 >
->Desde octubre de 2020, Adobe está implementando gradualmente una serie de mejoras para optimizar el rendimiento de la aplicación Paneles de Adobe Analytics. Estas mejoras se centran en el almacenamiento en caché de datos históricos de Analytics que se utilizan para rellenar informes de valoración con fechas (excluido el día actual). Estos datos se almacenarán en caché durante un máximo de 24 horas en una cuenta segura de almacenamiento público en la nube de Microsoft Azure. Póngase en contacto con el CSM si desea excluirse de estas funciones de mejora de rendimiento.
+>A partir de octubre de 2020, Adobe está implementando gradualmente una serie de mejoras para optimizar el rendimiento de la aplicación Paneles de Adobe Analytics. Estas mejoras se centran en el almacenamiento en caché de datos históricos de Analytics que se utilizan para rellenar informes de valoración con fechas (excluido el día actual). Estos datos se almacenarán en caché durante un máximo de 24 horas en una cuenta segura de almacenamiento público en la nube de Microsoft Azure. Póngase en contacto con el equipo de cuenta de Adobe si desea excluirse de estas funciones de mejora de rendimiento.
