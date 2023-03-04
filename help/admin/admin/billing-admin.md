@@ -3,10 +3,10 @@ description: La página Facturación permite acceder a la información de factur
 title: Facturación
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ La página Facturación permite acceder a la información de facturación, que c
 
 >[!NOTE]
 >
->Si una empresa tiene deshabilitado el acceso a la ficha de facturación, deberá ponerse en contacto con el Administrador de cuentas correspondiente.
+>Si una empresa tiene deshabilitado el acceso a la ficha de facturación, deberá ponerse en contacto con el equipo de cuenta de Adobe.
 
 Los datos de información general del tráfico de la página de facturación permiten establecer una correlación entre los datos de vistas de página de los informes y las llamadas al servidor facturables incluidas en la factura. La página [!UICONTROL Facturación] permite lo siguiente:
 
@@ -44,7 +44,7 @@ El informe de [!UICONTROL facturación mensual] resultante incluirá la siguient
 
 >[!NOTE]
 >
->Para obtener una copia de trabajo del informe de [!UICONTROL Facturación mensual], es necesario copiar este informe en el portapapeles y pegarlo en un programa de hoja de cálculo como Microsoft Excel*.
+>Para obtener una copia de trabajo del informe de [!UICONTROL Facturación mensual], es necesario copiar este informe en el portapapeles y pegarlo en un programa de hoja de cálculo como Microsoft Excel&#42;.
 
 ## Fecha de creación de informes vs. Fecha de procesamiento {#section_51A48C2F223F4904BE1407C13333C457}
 

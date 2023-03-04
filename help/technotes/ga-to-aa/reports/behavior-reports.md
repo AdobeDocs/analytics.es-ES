@@ -3,10 +3,10 @@ title: Informes de comportamiento en Adobe Analytics
 description: Descubra cómo crear informes de comportamiento en Adobe Analytics
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ El informe de flujo de comportamiento se puede volver a crear con la visualizaci
 
 El informe de páginas muestra el rendimiento de las páginas individuales del sitio.
 
-1. En el menú Componentes, busque la dimensión **Páginas** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
+1. En el menú Componentes, localice la dimensión **Páginas** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 Como alternativa, Adobe proporciona varios espacios de trabajo precreados denominados plantillas. La plantilla Consumo de contenido (Web) proporciona un valor similar al del informe de todas las páginas.
@@ -56,7 +56,7 @@ Adobe recomienda utilizar la métrica **Visitas** para esta dimensión.
 
 El informe de páginas de salida muestra las páginas principales que se convirtieron en la última página de la visita individual. Está disponible en Analysis Workspace con el mismo nombre.
 
-1. En el menú Componentes, busque la dimensión **Página de salida** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
+1. En el menú Componentes, localice la dimensión **Página de salida** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 Adobe recomienda utilizar la métrica **Visitas** para esta dimensión.
@@ -87,4 +87,4 @@ Ya que esta función requiere cambios en la implementación, Adobe recomienda tr
 
 ## Informes de editor
 
-De forma similar a como Google requiere una conexión con Google Ad Manager, Adobe tiene un producto diseñado para proporcionar información denominado Adobe Advertising Cloud. Si su organización está interesada en utilizar este producto, póngase en contacto con el administrador de cuentas de su organización.
+De forma similar a como Google requiere una conexión con Google Ad Manager, Adobe tiene un producto diseñado para proporcionar información denominado Adobe Advertising Cloud. Si su organización está interesada en utilizar este producto, póngase en contacto con el equipo de cuenta de Adobe.

@@ -3,9 +3,9 @@ title: Información general de complementos
 description: Pegue código en el sitio para incorporar nuevas funciones.
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 100%
 
 Los complementos son fragmentos de código que realizan varias funciones avanzadas que mejoran la implementación de Analytics. Estos complementos amplían las capacidades del archivo JavaScript y aportan una funcionalidad ampliada que no se encuentra disponible con una implementación básica. Adobe ofrece otros complementos como parte de soluciones avanzadas.
 
->[!IMPORTANT]
->
->Los complementos son cortesía de Adobe Consulting para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica para ninguno de estos complementos, ni para la instalación ni para la solución de problemas. Si necesita ayuda con algún complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+{{plug-in}}
 
 Adobe ofrece varias formas de instalar un complemento determinado:
 

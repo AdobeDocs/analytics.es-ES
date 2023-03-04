@@ -3,20 +3,18 @@ title: cleanStr
 description: Eliminación o sustitución de todos los caracteres innecesarios de una cadena.
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '300'
+ht-degree: 80%
 
 ---
 
 # Complemento de Adobe: cleanStr
 
->[!IMPORTANT]
->
->Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+{{plug-in}}
 
-El complemento `cleanStr` elimina o reemplaza todos los caracteres innecesarios de una cadena, incluidos los caracteres de etiqueta HTML, espacios en blanco adicionales, pestañas y retornos de línea/carro nuevos. También reemplaza las comillas simples (`‘` y `’`) con las rectas (`'`). Adobe recomienda utilizar este complemento si desea eliminar caracteres innecesarios de los valores de las variables y la función &quot;Limpiar texto&quot; de la recopilación de datos de Adobe Experience Platform no satisface sus necesidades de implementación. Este complemento no es necesario si los datos recopilados no contienen caracteres innecesarios o si la función &quot;Limpiar texto&quot; de la recopilación de datos de Adobe Experience Platform es suficiente.
+El complemento `cleanStr` elimina o reemplaza todos los caracteres innecesarios de una cadena, incluidos los caracteres de etiqueta HTML, espacios en blanco adicionales, pestañas y retornos de línea/carro nuevos. También reemplaza las comillas simples (`‘` y `’`) con las rectas (`'`). El Adobe recomienda utilizar este complemento si desea eliminar caracteres innecesarios de los valores de las variables y la función Limpiar texto de la recopilación de datos de Adobe Experience Platform no satisface sus necesidades de implementación. Este complemento no es necesario si los datos recopilados no contienen caracteres innecesarios o si la función Limpiar texto de la recopilación de datos de Adobe Experience Platform es suficiente.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -34,11 +32,11 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
     * Action Type: Initialize cleanStr
 1. Save and publish the changes to the rule.-->
 
-## Instalación del complemento con el editor de código personalizado de 
+## Instalación del complemento con el editor de código personalizado
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en la extensión de Adobe Analytics.
 1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].

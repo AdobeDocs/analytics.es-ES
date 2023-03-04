@@ -3,18 +3,16 @@ title: getValOnce
 description: Impida que una variable de Analytics se establezca en el mismo valor dos veces seguidas.
 feature: Variables
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: 02b7e45bb4141d92cd37ef7ccbbbb9bdbc70bc2a
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 96%
+source-wordcount: '420'
+ht-degree: 98%
 
 ---
 
 # Complemento de Adobe: getValOnce
 
->[!IMPORTANT]
->
->Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+{{plug-in}}
 
 El complemento `getValOnce` evita que una variable se establezca en el mismo valor más de una vez. Adobe recomienda utilizar este complemento cuando desee anular la duplicación de incidencias cuando un visitante actualiza una página o visita una página determinada varias veces. Este complemento no es necesario si no le preocupa la métrica “Ocurrencias” de Analysis Workspace.
 
@@ -34,11 +32,11 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
     * Action Type: Initialize getValOnce
 1. Save and publish the changes to the rule.-->
 
-## Instalación del complemento con el editor de código personalizado de 
+## Instalación del complemento con el editor de código personalizado
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en la extensión de Adobe Analytics.
 1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].
@@ -84,7 +82,7 @@ s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 
 ### 3.1 (22 de septiembre de 2022)
 
-* Se ha corregido un error para la caducidad
+* Se ha corregido un error por caducidad
 
 ### 3.0 (19 de marzo de 2021)
 

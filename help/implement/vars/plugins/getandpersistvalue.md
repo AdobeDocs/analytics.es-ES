@@ -3,20 +3,18 @@ title: getAndPersistValue
 description: Almacene un valor que pueda utilizarse posteriormente en cualquier momento.
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 89%
+source-wordcount: '425'
+ht-degree: 91%
 
 ---
 
 # Complemento de Adobe: getAndPersistValue
 
->[!IMPORTANT]
->
->Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+{{plug-in}}
 
-El complemento `getAndPersistValue` le permite almacenar un valor en una cookie que se puede utilizar más adelante durante una visita. Cumple una función similar a la de [!UICONTROL Duración del almacenamiento] en la extensión de Adobe Analytics dentro de la recopilación de datos de Adobe Experience Platform. Adobe recomienda utilizar este complemento si desea mantener automáticamente una variable de Analytics con el mismo valor en las visitas posteriores después de configurar la variable. Este complemento no es necesario si se usa la variable [!UICONTROL Duración del almacenamiento] en la extensión de Analytics es suficiente. Tampoco es necesario utilizar este complemento si no requiere establecer y mantener variables con el mismo valor en las visitas posteriores. La persistencia integrada de eVars no requiere el uso de este complemento, ya que Adobe mantiene eVars en el lado del servidor.
+El complemento `getAndPersistValue` le permite almacenar un valor en una cookie que se puede utilizar más adelante durante una visita. Cumple una función similar a la de [!UICONTROL Duración del almacenamiento] función en la extensión de Adobe Analytics dentro de la recopilación de datos de Adobe Experience Platform. Adobe recomienda utilizar este complemento si desea mantener automáticamente una variable de Analytics con el mismo valor en las visitas posteriores después de configurar la variable. Este complemento no es necesario si la variable [!UICONTROL Duración del almacenamiento] en la extensión de Analytics es suficiente. Tampoco es necesario utilizar este complemento si no requiere establecer y mantener variables con el mismo valor en las visitas posteriores. La persistencia integrada de eVars no requiere el uso de este complemento, ya que Adobe mantiene eVars en el lado del servidor.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -34,11 +32,11 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
     * Action Type: Initialize getAndPersistValue
 1. Save and publish the changes to the rule.-->
 
-## Instalación del complemento con el editor de código personalizado de 
+## Instalación del complemento con el editor de código personalizado
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en la extensión de Adobe Analytics.
 1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].

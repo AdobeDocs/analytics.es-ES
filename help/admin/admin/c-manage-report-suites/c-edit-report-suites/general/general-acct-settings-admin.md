@@ -4,10 +4,10 @@ title: Configuración general de la cuenta
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ A continuación se muestra un vídeo sobre la configuración general de la cuent
 | Almacenamiento del ID de transacción | Permite utilizar las fuentes de datos de [ID de la transacción](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md). |
 | Habilitar Data Warehouse | Permite habilitar la IU de Data Warehouse en Analytics > Herramientas > Almacén de datos. |
 | Opción Zip | Permite especificar el código postal en lugar de usar el que produce nuestra búsqueda geográfica de IP. |
-| Compatibilidad con caracteres multibyte | La compatibilidad con caracteres multibyte almacena los caracteres del grupo de informes en UTF-8. El sistema, al recibir los datos del conjunto de caracteres de la página web, los convierte al conjunto de caracteres UTF-8, para que pueda utilizar cualquier idioma en los informes de marketing. Para cambiar la compatibilidad de caracteres multibyte en un grupo de informes existente, el usuario debe ponerse en contacto con el Administrador de cuentas o Servicio de atención al cliente. |
+| Compatibilidad con caracteres multibyte | La compatibilidad con caracteres multibyte almacena los caracteres del grupo de informes en UTF-8. El sistema, al recibir los datos del conjunto de caracteres de la página web, los convierte al conjunto de caracteres UTF-8, para que pueda utilizar cualquier idioma en los informes de marketing. Póngase en contacto con el equipo de cuenta de Adobe o con el Servicio de atención al cliente para cambiar la compatibilidad de caracteres multibyte en un grupo de informes existente. |
 | Activado | Especifica si este grupo de informes está activado o no. |
 | Moneda base | Permite especificar la [moneda](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=es) base para este grupo de informes. |
 | ID de organización | El ID asociado con la compañía que ha seleccionado en Experience Cloud. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |

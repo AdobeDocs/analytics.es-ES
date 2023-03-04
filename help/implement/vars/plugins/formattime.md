@@ -3,18 +3,16 @@ title: formatTime
 description: Convierta un número de segundos en su equivalente en minutos, horas, etc.
 feature: Variables
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 97%
+source-wordcount: '438'
+ht-degree: 100%
 
 ---
 
 # Complemento de Adobe: formatTime
 
->[!IMPORTANT]
->
->Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+{{plug-in}}
 
 El complemento `formatTime` le permite presentar cualquier cifra en segundos en un formato agrupado, redondeada al valor de referencia deseado. Adobe recomienda utilizar este complemento si desea registrar un valor de tiempo en segundos y convertirlo en un formato agrupado (como minutos, días o semanas). Este complemento no es necesario si no desea incluir valores basados en segundos en un formato redondeado de tiempo.
 
@@ -34,11 +32,11 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
     * Action Type: Initialize formatTime
 1. Save and publish the changes to the rule.-->
 
-## Instalación del complemento con el editor de código personalizado de 
+## Instalación del complemento con el editor de código personalizado
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en la extensión de Adobe Analytics.
 1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].

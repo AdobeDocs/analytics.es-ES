@@ -3,10 +3,10 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2f725239404a1d08b63a12c9e6b4e4fa3c35d410
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 92%
+source-wordcount: '1111'
+ht-degree: 91%
 
 ---
 
@@ -48,7 +48,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | --- | --- | --- |
 | **Final de la vida útil de algunas funciones de programación de Reports and Analytics y Report Builder** | 9 de febrero de 2023 | Las siguientes funciones de programación finalizaron su vida útil el 31 de enero de 2023:<ul><li>La opción “terminen después de x incidencias” para tareas por hora en Report Builder</li><li>La capacidad de programar nuevos informes y descargar extractos de datos en Reports and Analytics</li></ul><p>**Nota**: Originalmente, dimos de baja estas funciones en abril de 2022, pero deshicimos el cambio. También enviamos una notificación de que estas funciones se estaban restaurando temporalmente y que volverían a finalizar el 31 de enero de 2023. |
 | **Funcionalidad del final de vida útil de las [!UICONTROL Listas de publicación]** | 29 de septiembre de 2022 | Como parte del final de la vida útil de Reports &amp; Analytics, las Listas de publicación están programadas para llegar al final de su vida útil en **diciembre de 2023**. No podrá crear Listas de publicaciones nuevas ni acceder a las existentes para enviar o programar proyectos de Analysis Workspace. |
-| **Fin de la vida útil para Data Workbench** | 14 de septiembre de 2022 | Adobe tiene planeado el fin de la vida útil de Data Workbench con fecha de aplicación el **31 de diciembre de 2023**. Consulte [Anuncio del fin de la vida útil de Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=es) para obtener más información. Póngase en contacto con el Administrador de cuentas de Adobe de su organización si tiene alguna pregunta. |
+| **Fin de la vida útil para Data Workbench** | 14 de septiembre de 2022 | Adobe tiene planeado el fin de la vida útil de Data Workbench con fecha de aplicación el **31 de diciembre de 2023**. Consulte [Anuncio del fin de la vida útil de Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=es) para obtener más información. Póngase en contacto con el equipo de cuenta de Adobe si tiene alguna pregunta. |
 | **EOL para [!DNL Reports & Analytics]** | 4 de enero de 2022 | A partir del **31 de diciembre de 2023**, Adobe tiene la intención de descatalogar [!DNL Reports & Analytics] y sus informes y funciones correspondientes. Los informes, las visualizaciones y la tecnología subyacente que alimentan [!DNL Reports & Analytics] ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de [!DNL Reports & Analytics] están disponibles en [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de [!DNL Reports & Analytics] se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. [Este aviso](https://spark.adobe.com/page/6WnF8JK6IRDhf/) explica el proceso de finalización de la vida útil. |
 
 {style=&quot;table-layout:auto&quot;}

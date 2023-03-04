@@ -3,18 +3,16 @@ title: websiteBot
 description: Identifique de forma dinámica los bots moviendo el ratón.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '437'
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
 
 # Complemento de Adobe: websiteBot
 
->[!IMPORTANT]
->
->Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+{{plug-in}}
 
 El plug-in `websiteBot` permite identificar de forma dinámica si los visitantes de escritorio son bots. Puede utilizar estos datos para aumentar la precisión en todos los tipos de creación de informes, lo que le permite medir mejor el tráfico legítimo del sitio.
 

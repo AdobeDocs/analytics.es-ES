@@ -1,7 +1,7 @@
 ---
-source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '822'
 ht-degree: 84%
 
 ---
@@ -63,3 +63,8 @@ ht-degree: 84%
 >
 >La funcionalidad descrita en esta sección se encuentra en la fase prueba limitada de la versión y es posible que no esté disponible aún en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Analytics, consulte [Lanzamientos de funciones de Adobe Analytics](/help/release-notes/releases.md).
 
+## Descargo de responsabilidad de complemento {#plug-in}
+
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el equipo de cuenta de Adobe de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.

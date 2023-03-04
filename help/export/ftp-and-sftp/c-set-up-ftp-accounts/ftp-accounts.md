@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: Resumen de configuración de cuentas de FTP
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -23,6 +23,6 @@ Como los eventos de mantenimiento están programados, los clientes de Adobe reci
 * Después de haberlos transferido correctamente a sus sistemas, los usuarios deben eliminar los datos que Adobe envió a la cuenta de FTP.
 * Se debe informar a Adobe cuando las cuentas de FTP ya no se necesiten para proceder a su desactivación.
 
-El nombre de host del de FTP de Adobe es [!DNL ftp.omniture.com] o [!DNL ftp2.omniture.com].
+El nombre de host del de FTP de Adobe es `ftp.omniture.com` o `ftp2.omniture.com`.
 
-Esta información, junto con el nombre de usuario y la contraseña, se debe suministrar en [!UICONTROL Experience Cloud] (en el caso de las clasificaciones y fuentes de datos). También se puede delegar esta tarea en un representante de Adobe encargado de configurar la cuenta. Si no sabe qué dirección de FTP usar, póngase en contacto con el administrador de cuentas de Adobe, que le indicará la dirección correcta. Además, en el caso de las cuentas de clasificaciones y fuentes de datos, Adobe no procesa los archivos de FTP a ninguna hora determinada del día, sino que utiliza un script que sondea continuamente las cuentas de FTP en busca de nuevos procesos de archivo. Los archivos cargados en estas cuentas se procesan lo más rápido posible.
+Esta información, junto con el nombre de usuario y la contraseña, se debe suministrar en [!UICONTROL Experience Cloud] (en el caso de las clasificaciones y fuentes de datos). También se puede delegar esta tarea en un representante de Adobe encargado de configurar la cuenta. Si no sabe qué dirección de FTP utilizar, póngase en contacto con el equipo de cuenta de Adobe, que le indicará la dirección correcta. Además, en el caso de las cuentas de clasificaciones y fuentes de datos, Adobe no procesa los archivos de FTP a ninguna hora determinada del día, sino que utiliza un script que sondea continuamente las cuentas de FTP en busca de nuevos procesos de archivo. Los archivos cargados en estas cuentas se procesan lo más rápido posible.
