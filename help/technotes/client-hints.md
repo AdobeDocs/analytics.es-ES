@@ -2,10 +2,10 @@
 title: Sugerencias del cliente
 description: Obtenga información acerca de cómo las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 58937630e6173013b622deec0433ef67b483c483
+source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 98%
+source-wordcount: '1279'
+ht-degree: 95%
 
 ---
 
@@ -53,6 +53,8 @@ Para los datos enviados mediante API, como [API de inserción de datos](https://
 
 En este momento no. Puede elegir recopilar todas las sugerencias de alta entropía o ninguna.
 
+Tenga en cuenta que fullVersionList no se recopila actualmente porque la versión principal del explorador se captura como una sugerencia de baja entropía.
+
 +++
 
 +++**¿Cuáles son los distintos valores de sugerencias del cliente?**
@@ -64,15 +66,14 @@ En la tabla siguiente se describen las sugerencias del cliente a partir de octub
 | Sec-CH-UA | Explorador y versión significativa | Bajo | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | Dispositivo móvil (verdadero o falso) | Bajo | `true` |
 | Sec-CH-UA-Platform | Sistema operativo/Plataforma | Bajo | `"Android"` |
-| Sec-CH-UA-Arch | Arquitectura del sitio | Alto | `"arm"` |
-| Sec-CH-UA-Bitness | Perfiles de arquitectura | Alto | `"64"` |
-| Sec-CH-UA-Full-Version | Versión completa del explorador | Alto | `"84.0.4143.2"` |
-| Sec-CH-UA-Full-Version-List | Lista de marcas con su versión | Alto | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| Sec-CH-UA-Model | Modelo de dispositivo | Alto | `"Pixel 3"` |
-| Sec-CH-UA-Platform-Version | Versión del sistema operativo/plataforma | Alto | `"10"` |
+| arquitectura | Arquitectura del sitio | Alto | `"arm"` |
+| picadura | Bits de arquitectura | Alto | `"64"` |
+| fullVersionList | Lista de marcas con su versión | Alto | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| model | Modelo de dispositivo | Alto | `"Pixel 3"` |
+| platformVersion | Versión del sistema operativo/plataforma | Alto | `"10"` |
 
 * Las sugerencias de baja entropía se recopilan mediante el encabezado de la solicitud.
-* Las sugerencias de alta entropía se recopilan mediante JavaScript y se pasan a través de valores de parámetros de cadena de consulta. Los parámetros de cadena de consulta utilizan `h.` como prefijo en la solicitud de imagen.
+* Las sugerencias de alta entropía se recopilan mediante JavaScript y se pasan a través de valores de parámetros de cadena de consulta. Los parámetros de cadena de consulta utilizan `h.` como prefijo en la solicitud de imagen. Tenga en cuenta que fullVersionList no se recopila actualmente porque la versión principal del explorador se captura como una sugerencia de baja entropía.
 
 Las sugerencias de alta entropía se recopilan mediante una llamada de JavaScript y se pasan mediante parámetros de consulta
 
