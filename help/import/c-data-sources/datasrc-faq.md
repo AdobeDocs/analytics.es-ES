@@ -5,10 +5,10 @@ title: Preguntas frecuentes sobre las fuentes de datos
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '1496'
-ht-degree: 100%
+source-git-commit: 18c5f88cef907af1bdb17c99df59dfb46cc859bc
+workflow-type: tm+mt
+source-wordcount: '1601'
+ht-degree: 94%
 
 ---
 
@@ -146,3 +146,9 @@ Si se requieren eventos numéricos, monetarios o de contador (más de 1), utilic
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
 ```
+
+## ¿Por qué no se recoge la carga de ftp?
+
+Una vez cargado el archivo .fin, es importante que cierre la sesión del sitio FTP de fuentes de datos. El motivo es que Analytics utiliza eventos de cierre de sesión como un activador para indicar que los archivos están listos para procesarse. Si carga los archivos mediante programación, es importante que el proceso automatizado también cierre la sesión del sitio FTP después de cargar los archivos.
+
+Compruebe que los nombres de archivo tienen el formato correcto. Los espacios en blanco iniciales o finales del nombre del archivo hacen que este no se reconozca y no se recoja en el proceso de ingesta de Adobe.
