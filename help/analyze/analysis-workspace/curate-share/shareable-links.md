@@ -5,22 +5,30 @@ title: Crear vínculos que se pueden compartir
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
-workflow-type: ht
-source-wordcount: '298'
-ht-degree: 100%
+source-git-commit: 8935f71e52e2486fc1fd8562a31dbd18d69fd18d
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 81%
 
 ---
 
 # Crear vínculos que se pueden compartir
 
-Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Para la mayoría de tipos de vínculos, los usuarios que reciban un vínculo deben iniciar sesión en Adobe Analytics antes de poder acceder al proyecto.
+Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Algunos tipos de vínculos requieren que el destinatario inicie sesión en Adobe Analytics antes de acceder al proyecto, mientras que otros no.
 
 ## Obtener vínculo del proyecto {#project-link}
 
 Para compartir un vínculo al proyecto completo, vaya a **[!UICONTROL Compartir > Obtener vínculo del proyecto]**. Si no se ha asignado al destinatario del vínculo una [función de proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es), los administradores tendrán la función: **[!UICONTROL Puede editar]** y los que no sean administradores: **[!UICONTROL Puede duplicar]**.
 
 ![](assets/get-project-link.png)
+
+## Obtener vínculo público
+
+{{release-limited-testing-section}}
+
+Puede compartir un vínculo de solo vista a proyectos de Analysis Workspace con personas que no tienen acceso a Adobe Analytics.
+
+Para obtener más información, consulte &quot;Compartir un vínculo público con cualquier persona (no se requiere inicio de sesión)&quot; en el artículo [Compartir proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ## Obtener panel o vínculo de visualización {#panel-link}
 
