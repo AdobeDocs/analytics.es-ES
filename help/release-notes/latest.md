@@ -3,9 +3,9 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ccb40e45ea559db815f4252d85baa61b9e109024
+source-git-commit: 6e6fcca0c2fa1fd1ee433c7d1b9727c058bb711e
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1062'
 ht-degree: 55%
 
 ---
@@ -21,7 +21,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Diccionario de datos en Analysis Workspace** | El diccionario de datos ayuda a los usuarios y administradores a realizar un seguimiento, administrar y comprender mejor los componentes (dimensiones, métricas) de su entorno de Analytics. [Más información](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 de marzo de 2023 | 22 de marzo de 2023 |
-| **Historias de datos en paneles móviles** | Las historias de datos le permiten agregar varias vistas de detalles personalizables a mosaicos en proyectos de cuadros de resultados móviles. Utilice historias de datos para profundizar en los controladores clave, las métricas relacionadas y los diferentes pasos a lo largo del recorrido del cliente. Puede deslizar fácilmente el dedo a través de estas vistas para comprender toda la historia detrás de sus métricas clave. Más información (a continuación) | N/A | 8 de marzo de 2023 |
+| **Historias de datos en paneles móviles** | Las historias de datos le permiten agregar varias vistas de detalles personalizables a mosaicos en proyectos de cuadros de resultados móviles. Utilice historias de datos para profundizar en los controladores clave, las métricas relacionadas y los diferentes pasos a lo largo del recorrido del cliente. Puede deslizar fácilmente el dedo a través de estas vistas para comprender toda la historia detrás de sus métricas clave. [Más información](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | N/A | 8 de marzo de 2023 |
 | **Fechas de caducidad del proyecto programado** | Puede establecer las fechas de caducidad máximas para los proyectos programados hasta un año, independientemente de la frecuencia de programación. | N/A | 8 de marzo de 2023 |
 | **Uso compartido de vínculos para proyectos (no se requiere inicio de sesión)** - Solo acceso beta privado | <p>Ahora puede compartir vínculos de solo lectura a proyectos de Analysis Workspace con personas que no tienen acceso a Adobe Analytics. Puede compartir vínculos de proyectos con personas fuera de su organización o con personas de su organización que no estén aprovisionadas para Adobe Analytics. [Más información](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Para unirse a la versión beta privada, póngase en contacto con el equipo de la cuenta de Adobe.</p> | 15 de marzo de 2023 (beta privada) | Abril de 2023 |
 

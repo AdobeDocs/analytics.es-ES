@@ -4,7 +4,7 @@ title: Creación de un cuadro de resultados móvil
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 67f74d852f1650f729ce9b5ad725134d9fc9cd60
+source-git-commit: 06fc208465e8eb5be1f1fd766d40dadee84e4f9c
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 76%
@@ -233,7 +233,7 @@ Cree su historia de datos agregando varias diapositivas de detalle a un mosaico.
 1. Comience con un proyecto de cuadro de resultados móvil.
 1. Seleccione un mosaico en el que desee crear una historia.
    ![Crear una historia de datos](assets/data-story1.png)
-   ![Crear iconos de historia de datos](assets/create-data-story.png){width="25%"}
+   ![Crear iconos de historia de datos](assets/create-data-story.png){width=".50%"}
 1. Agregue diapositivas para crear su historia de datos. La primera diapositiva se genera de forma predeterminada.
 Para añadir nuevas diapositivas, pase el ratón sobre una diapositiva o haga clic en ella y, a continuación, seleccione una de las opciones disponibles:
    * Pulse el signo + para crear una nueva diapositiva.
