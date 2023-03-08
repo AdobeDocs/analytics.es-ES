@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
-workflow-type: ht
-source-wordcount: '3679'
-ht-degree: 100%
+source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
+workflow-type: tm+mt
+source-wordcount: '3693'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Función | Descripción |
 | --- | --- |
+| **Marzo de 2023** |  |
+| Métricas calculadas predeterminadas | Se ha añadido contenido que explica la [métricas calculadas predeterminadas proporcionadas por el Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | **Febrero de 2023** |  |
 | Implementación | Se ha actualizado el contenido sobre cómo [implementar Adobe Analytics para web y móvil](../implement/home.md). |
 | Calendarios e intervalos de fechas del Espacio de trabajo | Se ha actualizado el contenido para describir intervalos de fechas relativos, actualizaciones de cálculo de fórmula y cambios en la IU del calendario. Consulte [Acerca de los intervalos de fechas relativos del panel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |

@@ -3,10 +3,10 @@ description: Los administradores pueden agregar descripciones para los component
 title: Adición de descripciones de componentes
 feature: Components
 role: Admin
-source-git-commit: a8605f6c3077a625d6936b4ba9e135dc35c99439
+source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 56%
+source-wordcount: '167'
+ht-degree: 31%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 56%
 
 Las descripciones ayudan a los usuarios a utilizar mejor los distintos componentes al crear proyectos en Analysis Workspace o al ver informes.
 
-Los administradores de Analytics pueden agregar descripciones para componentes (Dimensiones, Métricas, Segmentos e Intervalos de fechas)<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
+Los administradores de Analytics pueden agregar descripciones para los componentes (Dimension, métricas, segmentos e intervalos de fechas) dentro del grupo de informes o utilizando el diccionario de datos directamente en Analysis Workspace.
 
 ## Adición de descripciones a componentes de un grupo de informes
 
@@ -22,14 +22,12 @@ En el siguiente vídeo se describe cómo agregar descripciones de dimensiones y 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 
-<!--
-## Add descriptions to components in Analysis Workspace (using the Data Dictionary) {#add-descriptions}
+## Agregar descripciones a componentes en Analysis Workspace (mediante el diccionario de datos) {#add-descriptions}
 
 {{release-limited-testing-section}}
 
-The Data Dictionary in Analysis Workspace helps both users and administrators keep track of and better understand the components in their Analytics environment. This includes the ability for Analytics administrators to add component descriptions directly within Analysis Workspace. 
+El diccionario de datos de Analysis Workspace ayuda a los usuarios y administradores a seguir los componentes de su entorno de Analytics y a comprenderlos mejor. Esto incluye la capacidad de los administradores de Analytics para agregar descripciones de componentes directamente en Analysis Workspace.
 
-For information about adding a component description in the data dictionary, see [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+Para obtener información sobre cómo agregar una descripción de componente en el diccionario de datos, consulte [Editar entradas de componente en el diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
-For general information about the Data Dictionary, see [Data Dictionary overview](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
--->
+Para obtener información general sobre el diccionario de datos, consulte [Resumen del diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
