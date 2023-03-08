@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 74a6f05817cf93eb95dc7b5546b3e5155a08c725
+source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 96%
+source-wordcount: '690'
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
    + [Profundidad de color](dimensions/color-depth.md)
    + [Tipo de conexión](dimensions/connection-type.md)
    + [Inclusión en la administración de consentimiento](dimensions/cm-opt-in.md)
-   + [Exclusión de la administración de consentimiento](dimensions/cm-opt-out.md)
+   + [Exclusión en la administración de consentimiento](dimensions/cm-opt-out.md)
    + [Compatibilidad con cookies](dimensions/cookie-support.md)
    + [Países](dimensions/countries.md)
    + [Vínculo personalizado](dimensions/custom-link.md)
@@ -201,6 +201,7 @@ ht-degree: 96%
       + [Compatibilidad de métricas](c-calcmetrics/cm-compatibility.md)
       + [Derechos de las métricas calculadas basados en funciones](c-calcmetrics/cm-role-based-rights.md)
       + [Totales de métricas calculadas](c-calcmetrics/cm-totals.md)
+      + [Métricas calculadas predeterminadas](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Grupos de informes virtuales {#virtual-report-suites}
    + [Resumen de los grupos de informes virtuales](vrs/vrs-about.md)
    + [Revisión de componentes de grupo de informes virtuales](vrs/vrs-components.md)
