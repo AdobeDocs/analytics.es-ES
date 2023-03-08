@@ -3,9 +3,7 @@ description: El diccionario de datos de Analysis Workspace permite a los usuario
 title: Información general del diccionario de datos
 feature: Components
 role: User, Admin
-hide: true
-hidefromtoc: true
-source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
+source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 77%
@@ -65,7 +63,7 @@ Puede acceder al diccionario de datos de cualquiera de las siguientes maneras en
 * Desde el icono del **diccionario de datos** dentro de la ventana emergente de información de un componente.
 
    ![Icono del diccionario de datos en la ventana emergente de información](assets/data-dictionary-access-infopopover.png)
-<!--update screenshot; this was taken from a mock-->
+   <!--update screenshot; this was taken from a mock-->
 
 * Desde el menú: [!UICONTROL **Ayuda**] > [!UICONTROL **Diccionario de datos**].
 
