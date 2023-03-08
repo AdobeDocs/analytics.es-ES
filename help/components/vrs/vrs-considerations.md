@@ -4,10 +4,10 @@ keywords: Grupo de informes virtuales,VRS
 title: Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '1755'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ La sustitución del etiquetado de grupos múltiples con un grupo de informes glo
 
 ## Directrices
 
-Si no está seguro de si los casos de uso descritos se aplican a usted y a su organización, consulte con los demás administradores de Adobe Analytics o con el equipo de cuenta de Adobe. Pueden ayudarle a evaluar las necesidades de la empresa y recomendarle la mejor solución.
+Si no está seguro de si los casos de uso descritos se aplican a usted y a su organización, consulte con los otros administradores de Adobe Analytics o con el administrador de su cuenta de Adobe. Pueden ayudarle a evaluar las necesidades de la empresa y recomendarle la mejor solución.
 
 Tenga en cuenta las siguientes consideraciones a la hora de determinar si debe utilizar el etiquetado de grupos múltiples o los grupos de informes virtuales:
 

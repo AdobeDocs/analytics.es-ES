@@ -2,16 +2,16 @@
 title: Asignación de variables de Analytics en Adobe Experience Edge
 description: Vea qué campos XDM de Edge se asignan automáticamente a variables de Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 6a1c95a25c89332b0d549e5ce8c5197331e71e3c
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 98%
+source-wordcount: '1441'
+ht-degree: 100%
 
 ---
 
 # Asignación de variables de Analytics en Adobe Experience Edge
 
-La tabla siguiente muestra las variables que Adobe Experience Platform Edge Network asigna automáticamente a Adobe Analytics. Si utiliza estas rutas de campo XDM, no es necesaria ninguna configuración adicional para enviar datos a Adobe Analytics. Estos campos se incluyen en la variable **[!UICONTROL Plantilla de Adobe Analytics ExperienceEvent]** grupo de campos.
+La tabla siguiente muestra las variables que Adobe Experience Platform Edge Network asigna automáticamente a Adobe Analytics. Si utiliza estas rutas de campo XDM, no es necesaria ninguna configuración adicional para enviar datos a Adobe Analytics.
 
 | Ruta de campo XDM | Dimensión y descripción de Analytics |
 | --- | --- |
@@ -125,7 +125,7 @@ La tabla siguiente muestra las variables que Adobe Experience Platform Edge Netw
 | `web.webPageDetails.siteSection` | La dimensión [Sección del sitio](../../components/dimensions/site-section.md). |
 | `web.webReferrer.URL` | La dimensión [Referente](../../components/dimensions/referrer.md). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
 

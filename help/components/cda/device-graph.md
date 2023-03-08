@@ -2,10 +2,10 @@
 title: Gráfico del dispositivo
 description: Comprenda los requisitos previos y las limitaciones de la vinculación de datos mediante el gráfico del dispositivo.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 62%
+ht-degree: 68%
 
 ---
 
@@ -15,7 +15,7 @@ Los análisis entre dispositivos pueden utilizar Private Graph para vincular los
 
 ## Requisitos previos específicos del gráfico del dispositivo
 
-Si tiene intención de implementar el análisis entre dispositivos mediante el método del gráfico del dispositivo, es necesario lo siguiente. Trabaje con equipos de su organización y con el equipo de cuenta de Adobe para asegurarse de que cumple todos los requisitos siguientes.
+Si tiene intención de implementar el análisis entre dispositivos mediante el método del gráfico del dispositivo, es necesario lo siguiente. Trabaje con equipos de su organización y con el administrador de cuentas de Adobe para asegurarse de que cumple todos los requisitos siguientes.
 
 >[!WARNING]
 >

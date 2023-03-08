@@ -3,10 +3,10 @@ description: En este documento se describe lo que debe hacer en Adobe Analytics 
 title: Adobe Analytics y la CCPA
 feature: Data Governance
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Consulte [Etiquetado de datos de grupos de informes](/help/admin/admin/c-data-go
 * Vincule su empresa de inicio de sesión a una organización de Experience Cloud, si no lo ha hecho ya. Póngase en contacto con el servicio de atención al cliente de Adobe y consulte [Organizaciones y vinculación de cuentas.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es)
 * Establezca una política de retención de datos para cada grupo de informes a fin de poder satisfacer las solicitudes de acceso y eliminación de la CCPA.
 
-   Adobe Analytics no puede ayudarle con el tratamiento de solicitudes en la API de los servicios de privacidad (es decir, el tratamiento de las solicitudes de acceso o eliminación que reciba de sus usuarios finales) si no se ha establecido el periodo de retención de datos en Adobe Analytics. Póngase en contacto con el equipo de su cuenta de Adobe para establecer el período de retención de datos.
+   Adobe Analytics no puede ayudarle con el tratamiento de solicitudes en la API de los servicios de privacidad (es decir, el tratamiento de las solicitudes de acceso o eliminación que reciba de sus usuarios finales) si no se ha establecido el periodo de retención de datos en Adobe Analytics. Póngase en contacto con su gestor de éxito de los clientes para establecer el periodo de retención de datos.
 
 * Compruebe sus permisos: para utilizar la interfaz de gestión del control de datos en Adobe Analytics, debe ser administrador de Adobe Analytics.
 * Considere implementar las [Variables de administración de consentimiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) para rastrear el estado de consentimiento en un nivel de visita individual.

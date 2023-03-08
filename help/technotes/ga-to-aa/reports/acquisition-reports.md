@@ -3,10 +3,10 @@ title: Informes de adquisición en Adobe Analytics
 description: Información sobre la creación de informes basados en adquisiciones, usando Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -141,4 +141,4 @@ El informe de palabras clave orgánicas muestra el rendimiento de cada palabra c
 
 ## Análisis de costes
 
-Este informe muestra los datos de rendimiento de visitas, costes e ingresos de los canales de marketing de pago. Adobe ofrece un producto específico para proporcionar información, denominado Adobe Advertising Cloud. Si su organización está interesada en utilizar este producto, póngase en contacto con el equipo de cuenta de Adobe.
+Este informe muestra los datos de rendimiento de visitas, costes e ingresos de los canales de marketing de pago. Adobe ofrece un producto específico para proporcionar información, denominado Adobe Advertising Cloud. Si su organización está interesada en utilizar este producto, póngase en contacto con el administrador de cuentas de su organización.

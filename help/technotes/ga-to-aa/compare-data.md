@@ -3,10 +3,10 @@ title: Comparación de datos de Adobe Analytics con productos de terceros
 description: Comprenda sus opciones al comparar directamente los datos en Adobe Analytics con los datos recopilados por otras soluciones de Analytics.
 feature: Third-party Integration
 exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,4 +20,4 @@ Si observa una gran discrepancia entre Adobe Analytics y una herramienta de aná
 
 * **Autoauditoría con el depurador**: Puede comprobar las páginas del sitio con el [depurador de Adobe](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es) u otro monitor de paquetes. El uso del depurador permite validar la implementación para asegurarse de que las solicitudes de imagen se activan correctamente con las variables correctas.
 * **Autoauditoría mediante fuentes de datos**: Adobe ofrece a su organización la opción de recibir [fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) que contengan todos los datos sin procesar de cada día. A continuación, su organización puede utilizar estos datos y compararlos con las herramientas de análisis de terceros para determinar cualquier discrepancia.
-* **Auditoría asistida y validación de datos con asesoría de Adobe**: Si desea que un representante oficial del Adobe realice una auditoría de implementación completa en su sitio, póngase en contacto con el equipo de cuenta de Adobe. Pueden organizar una reunión con un asesor de implementación que pueda auditar el sitio según el contrato de su empresa.
+* **Auditoría asistida y validación de datos con Adobe Consulting**: Si desea que un representante oficial de Adobe realice una auditoría de implementación completa en su sitio, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un asesor de implementación que pueda auditar el sitio según el contrato de su empresa.

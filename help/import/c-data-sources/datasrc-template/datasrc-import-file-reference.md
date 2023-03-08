@@ -5,10 +5,10 @@ title: Referencia sobre el archivo de importación
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 93%
+source-wordcount: '430'
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Utilice la plantilla de fuente de datos para crear un archivo de fuente de datos
 * Para acelerar el procesamiento del archivo de fuente de datos, Adobe recomienda consolidar los datos de evento (métrica) en una sola fila por cada fecha.
 
    Por ejemplo, si el archivo de fuente de datos asigna los datos de impresión de anuncios al evento 6, incluya la cantidad total de impresiones de cada día en una sola fila para ese día, en vez de crear una fila de datos diferente para cada impresión que se haya producido en un día concreto.
-* Si necesita cargar datos de fechas anteriores a la fecha de creación del grupo de informes, póngase en contacto con el equipo de cuenta de Adobe para cambiar la fecha más antigua a partir de la cual se pueden ejecutar informes.
+* Si necesita cargar datos de fechas anteriores a la fecha de creación del grupo de informes, póngase en contacto con su administrador de cuentas para que modifique la fecha más antigua a partir de la cual usted puede ejecutar informes.
 
 **Archivo .FIN**
 

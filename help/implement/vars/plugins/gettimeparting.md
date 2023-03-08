@@ -3,16 +3,18 @@ title: getTimeParting
 description: Mida el tiempo en que sucede una acción específica.
 feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '612'
 ht-degree: 100%
 
 ---
 
 # Complemento de Adobe: getTimeParting
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 El complemento `getTimeParting` le permite registrar en qué momento se produce cualquier actividad que se pueda medir en su sitio web. Este complemento es útil si quiere desglosar métricas para cualquier franja de tiempo que se repita en un intervalo de fechas determinado. Por ejemplo: puede comparar las tasas de conversión entre dos días diferentes de la semana, como los domingos frente a los jueves. También puede comparar periodos del día, como las mañanas frente a las noches.
 

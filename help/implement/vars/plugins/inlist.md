@@ -3,16 +3,18 @@ title: inList
 description: Compruebe si un valor está contenido en otro valor delimitado por caracteres.
 feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
 
 # Complemento de Adobe: inList
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 El complemento `inList` le permite comprobar si ya existe un valor en una cadena delimitada o en un objeto de matriz JavaScript. Otros complementos dependen del complemento `inList` para funcionar. Este complemento proporciona una clara ventaja sobre el método `indexOf()` de JavaScript, que no comprueba si coincide con cadenas parciales. Por ejemplo, si utilizó este complemento para buscar `"event2"`, no coincidirá con una cadena que contenga `"event25"`. Este complemento no es necesario si no necesita comprobar los valores de cadenas o matrices delimitadas o si desea utilizar su propia lógica `indexOf()`.
 

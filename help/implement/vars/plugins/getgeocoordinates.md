@@ -3,16 +3,18 @@ title: getGeoCoordinates
 description: Rastree la geolocalización de un visitante.
 feature: Variables
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '377'
 ht-degree: 100%
 
 ---
 
 # Complemento de Adobe: getGeoCoordinates
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 El complemento `getGeoCoordinates` le permite registrar la latitud y la longitud de los dispositivos de los visitantes. Adobe recomienda utilizar este complemento si desea obtener datos de localización geográfica en variables de Analytics.
 

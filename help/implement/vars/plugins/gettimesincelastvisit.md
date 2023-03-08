@@ -3,16 +3,18 @@ title: getTimeSinceLastVisit
 description: Mida el tiempo transcurrido entre dos visitas.
 feature: Variables
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '402'
 ht-degree: 100%
 
 ---
 
 # Complemento de Adobe: getTimeSinceLastVisit
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 El complemento `getTimeSinceLastVisit` le permite rastrear cuánto tiempo ha tardado un visitante en regresar a su sitio después de su última visita.
 

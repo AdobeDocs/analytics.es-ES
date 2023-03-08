@@ -3,16 +3,18 @@ title: getResponsiveLayout
 description: Determine qué diseño de un sitio web se está viendo en ese momento.
 feature: Variables
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '422'
 ht-degree: 100%
 
 ---
 
 # Complemento de Adobe: getResponsiveLayout
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 El complemento `getResponsiveLayout` le permite rastrear qué versión de su sitio web con diseño interactivo está viendo un visitante en ese momento. Adobe recomienda utilizar este complemento si su sitio utiliza un diseño interactivo y si desea rastrear la versión del sitio que vio un visitante. Este complemento no es necesario si su sitio no utiliza un diseño interactivo.
 

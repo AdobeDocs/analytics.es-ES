@@ -3,7 +3,7 @@ description: Cuando un informe tiene muchos valores únicos, el Adobe utiliza el
 title: Valor de poco tráfico en Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 49%
@@ -30,7 +30,7 @@ Esta lógica permite al Adobe optimizar las capacidades de creación de informes
 
 ## Cambio de los umbrales de límite único
 
-De forma predeterminada, estos umbrales son 500 000 y 1 millón de valores únicos. Estos límites se pueden cambiar según la variable. Póngase en contacto con el Servicio de atención al cliente de Adobe o con su Equipo de cuenta de Adobe para solicitar este cambio. Al solicitar un cambio, indique:
+De forma predeterminada, estos umbrales son 500 000 y 1 millón de valores únicos. Estos límites se pueden cambiar según la variable. Póngase en contacto con el Servicio de atención al cliente de Adobe o con el administrador de cuentas de su organización para solicitar este cambio. Al solicitar un cambio, indique:
 
 * El ID del grupo de informes
 * La variable para la que solicita aumentar el umbral

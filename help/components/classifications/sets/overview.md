@@ -2,10 +2,10 @@
 title: Información general sobre los conjuntos de clasificaciones
 description: Utilice los conjuntos de clasificaciones para administrar los datos de clasificación.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 90%
+source-wordcount: '264'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Los conjuntos de clasificaciones proporcionan una interfaz única para administr
 
 >[!NOTE]
 >
->Esta función está disponible para todos los clientes en la arquitectura de conjuntos de clasificaciones. Póngase en contacto con el Servicio de atención al cliente de Adobe o con el equipo de su cuenta de Adobe para obtener más información.
+>Los conjuntos de clasificaciones estarán disponibles para todos los clientes a los que se haya migrado su grupo de informes a la nueva arquitectura de clasificaciones. Para obtener más información, póngase en contacto con el Servicio de atención al cliente de Adobe o con su Administrador de cuentas.
 
 La arquitectura back-end lanzada con conjuntos de clasificación contiene varias mejoras notables:
 

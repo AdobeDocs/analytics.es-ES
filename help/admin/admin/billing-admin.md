@@ -3,10 +3,10 @@ description: La página Facturación permite acceder a la información de factur
 title: Facturación
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 96%
+source-wordcount: '503'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ La página Facturación permite acceder a la información de facturación, que c
 
 >[!NOTE]
 >
->Si una empresa tiene deshabilitado el acceso a la ficha de facturación, deberá ponerse en contacto con el equipo de cuenta de Adobe.
+>Si una empresa tiene deshabilitado el acceso a la ficha de facturación, deberá ponerse en contacto con el Administrador de cuentas correspondiente.
 
 Los datos de información general del tráfico de la página de facturación permiten establecer una correlación entre los datos de vistas de página de los informes y las llamadas al servidor facturables incluidas en la factura. La página [!UICONTROL Facturación] permite lo siguiente:
 

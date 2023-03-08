@@ -3,16 +3,18 @@ title: pt
 description: Ejecute una función en una lista de variables.
 feature: Variables
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '502'
 ht-degree: 100%
 
 ---
 
 # Complemento de Adobe: pt
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 El complemento `pt` ejecuta una función o un método en una lista de variables de Analytics. Por ejemplo, puede ejecutar la función [`clearVars`](../functions/clearvars.md) de forma selectiva en varias variables sin llamar manualmente a la función cada vez. Otros complementos dependen de este código para ejecutarse correctamente. Este complemento no es necesario si no necesita ejecutar una función específica en más de una variable de Analytics a la vez o si no utiliza ningún complemento dependiente.
 

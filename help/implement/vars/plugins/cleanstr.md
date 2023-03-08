@@ -3,16 +3,18 @@ title: cleanStr
 description: Eliminación o sustitución de todos los caracteres innecesarios de una cadena.
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 80%
+source-wordcount: '356'
+ht-degree: 83%
 
 ---
 
 # Complemento de Adobe: cleanStr
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 El complemento `cleanStr` elimina o reemplaza todos los caracteres innecesarios de una cadena, incluidos los caracteres de etiqueta HTML, espacios en blanco adicionales, pestañas y retornos de línea/carro nuevos. También reemplaza las comillas simples (`‘` y `’`) con las rectas (`'`). El Adobe recomienda utilizar este complemento si desea eliminar caracteres innecesarios de los valores de las variables y la función Limpiar texto de la recopilación de datos de Adobe Experience Platform no satisface sus necesidades de implementación. Este complemento no es necesario si los datos recopilados no contienen caracteres innecesarios o si la función Limpiar texto de la recopilación de datos de Adobe Experience Platform es suficiente.
 

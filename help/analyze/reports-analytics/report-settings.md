@@ -4,10 +4,10 @@ title: Configuración de visualización de informes y navegación
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 98%
+source-wordcount: '1557'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Configuración que define cómo aparecen todos los informes y la información qu
 | **Idioma/Moneda/Codificación** |  |
 | Separador de miles | Seleccione un separador para cada miles (decimal o coma). Según el país, se utiliza el punto o la coma para separar los miles. (Este separador se aplica a todos los números del sistema, no solo a la moneda.) |
 | Utilice la moneda predeterminada del grupo de informes | Especifica si se utiliza la moneda predeterminada del grupo de informes. |
-| Moneda | La moneda a la que quiere convertir sus datos. Cuando se selecciona un valor en esta configuración, la selección no afecta a los datos almacenados en la base de datos, pero se muestra como un valor convertido basado en la tasa de conversión de moneda del día actual. Cuando no se han configurado las opciones de moneda (cuando son las predeterminadas), no se realiza ninguna conversión de moneda, y todos los valores se almacenan y se muestran en dólares estadounidenses (USD). Para convertir la divisa cuando se procesen los datos (antes de mostrarlos), póngase en contacto con el equipo de cuenta de Adobe. |
+| Moneda | La moneda a la que quiere convertir sus datos. Cuando se selecciona un valor en esta configuración, la selección no afecta a los datos almacenados en la base de datos, pero se muestra como un valor convertido basado en la tasa de conversión de moneda del día actual. Cuando no se han configurado las opciones de moneda (cuando son las predeterminadas), no se realiza ninguna conversión de moneda, y todos los valores se almacenan y se muestran en dólares estadounidenses (USD). Para convertir la moneda cuando se procesen los datos (antes de mostrarlos), póngase en contacto con su Administrador de cuentas. |
 | Codificación de informe programado | Shift-JIS para la codificación de caracteres japoneses. EUC-JP para código Unix ampliado, principalmente para japonés, coreano y chino simplificado. |
 | Carácter separador de CSV | El carácter que desea utilizar para separar valores CSV. |
 
