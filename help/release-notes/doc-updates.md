@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
+source-git-commit: 60af9f7a14e81609a2a51558677031bc778aef3e
 workflow-type: tm+mt
-source-wordcount: '3693'
-ht-degree: 99%
+source-wordcount: '3773'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | --- | --- |
 | **Marzo de 2023** |  |
 | Métricas calculadas predeterminadas | Se ha añadido contenido que explica la [métricas calculadas predeterminadas proporcionadas por el Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
+| Diccionario de datos | <p>Se ha añadido nueva documentación para el diccionario de datos, que incluye [Información general](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [Visualización](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [Edición](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md), y [Monitorización](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) el diccionario de datos.</p><p>Información en [Adición de descripciones de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md) se actualizó para tener en cuenta la funcionalidad del diccionario de datos.</p> |
+| Uso compartido de vínculos para proyectos (no se requiere inicio de sesión) | <p>Se ha actualizado la documentación existente para explicar cómo compartir un vínculo de solo lectura de un proyecto con personas que no tienen acceso a Analysis Workspace.</p> <p>La documentación actualizada del usuario incluye [Compartir proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md) y [Crear vínculos que se pueden compartir](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>Se agregaron opciones para administradores a [Preferencias](/help/analyze/analysis-workspace/user-preferences.md).</p> |
 | **Febrero de 2023** |  |
 | Implementación | Se ha actualizado el contenido sobre cómo [implementar Adobe Analytics para web y móvil](../implement/home.md). |
 | Calendarios e intervalos de fechas del Espacio de trabajo | Se ha actualizado el contenido para describir intervalos de fechas relativos, actualizaciones de cálculo de fórmula y cambios en la IU del calendario. Consulte [Acerca de los intervalos de fechas relativos del panel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
