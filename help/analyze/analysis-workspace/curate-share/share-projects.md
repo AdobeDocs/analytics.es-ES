@@ -5,10 +5,10 @@ title: Compartir proyectos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: ffe72f02a80496160a5d894456bc9eb96b6cf9b0
+source-git-commit: 66a02a6d0c6cc88752ea39172bd30b026908846b
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 69%
+source-wordcount: '1584'
+ht-degree: 70%
 
 ---
 
@@ -140,9 +140,9 @@ Para compartir un vínculo público a un proyecto de Analysis Workspace:
 
    * **[!UICONTROL Requerir autenticación de Experience Cloud]:**
 
-      Cuando esta opción está habilitada, solo los destinatarios que tengan un Federated ID y puedan iniciar sesión en Adobe Experience Cloud pueden acceder a los vínculos públicos compartidos. Requiera que las personas con el vínculo se autentiquen con su inicio de sesión en Adobe Experience Cloud para obtener acceso al proyecto compartido.
+      Cuando esta opción está habilitada, solo pueden utilizar este vínculo los usuarios que puedan iniciar sesión en la organización de Adobe Experience Cloud donde se creó el proyecto que está compartiendo.
 
-      Los administradores de Analytics pueden establecer esta preferencia para la compañía, tal como se describe en [Preferencias](/help/analyze/analysis-workspace/user-preferences.md). Puede encontrar los siguientes escenarios, según la configuración que haya realizado el administrador con esta opción:
+      Los administradores de Analytics pueden configurar esta preferencia para la compañía, tal como se describe en [Preferencias](/help/analyze/analysis-workspace/user-preferences.md). Puede encontrar los siguientes escenarios, según la configuración que haya realizado el administrador con esta opción:
 
       * Si esta opción no está visible, el administrador de Analytics no habilitó esta función.
 
