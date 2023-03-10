@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 60af9f7a14e81609a2a51558677031bc778aef3e
+source-git-commit: 04e80edd290b1b6a007e7ccec1bb1d563e98ecf8
 workflow-type: tm+mt
-source-wordcount: '3773'
-ht-degree: 97%
+source-wordcount: '3801'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Marzo de 2023** |  |
+| Crear historias de datos en cuadros de resultados móviles | A [historia de datos](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) es una colección de puntos de datos de soporte, contexto empresarial y métricas relacionadas que se crean en torno a un tema o métrica central. |
 | Métricas calculadas predeterminadas | Se ha añadido contenido que explica la [métricas calculadas predeterminadas proporcionadas por el Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | Diccionario de datos | <p>Se ha añadido nueva documentación para el diccionario de datos, que incluye [Información general](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [Visualización](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [Edición](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md), y [Monitorización](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) el diccionario de datos.</p><p>Información en [Adición de descripciones de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md) se actualizó para tener en cuenta la funcionalidad del diccionario de datos.</p> |
 | Uso compartido de vínculos para proyectos (no se requiere inicio de sesión) | <p>Se ha actualizado la documentación existente para explicar cómo compartir un vínculo de solo lectura de un proyecto con personas que no tienen acceso a Analysis Workspace.</p> <p>La documentación actualizada del usuario incluye [Compartir proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md) y [Crear vínculos que se pueden compartir](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>Se agregaron opciones para administradores a [Preferencias](/help/analyze/analysis-workspace/user-preferences.md).</p> |
