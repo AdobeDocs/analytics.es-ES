@@ -3,10 +3,10 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c99e4f2b91d6246a2a47e39dc24ba443b76636f6
+source-git-commit: 3d2e6966fbc765cd19f7a258457d89af3097083f
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 55%
+source-wordcount: '1208'
+ht-degree: 50%
 
 ---
 
@@ -24,6 +24,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | **Historias de datos en paneles móviles** | Las historias de datos le permiten agregar varias vistas de detalles personalizables a mosaicos en proyectos de cuadros de resultados móviles. Utilice historias de datos para profundizar en los controladores clave, las métricas relacionadas y los diferentes pasos a lo largo del recorrido del cliente. Puede deslizar fácilmente el dedo a través de estas vistas para comprender toda la historia detrás de sus métricas clave. [Más información](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | N/A | 8 de marzo de 2023 |
 | **Fechas de caducidad del proyecto programado** | Puede establecer las fechas de caducidad máximas para los proyectos programados hasta un año, independientemente de la frecuencia de programación. | N/A | 8 de marzo de 2023 |
 | **Uso compartido de vínculos para proyectos (no se requiere inicio de sesión)** - Solo acceso beta privado | <p>Ahora puede compartir vínculos de solo lectura a proyectos de Analysis Workspace con personas que no tienen acceso a Adobe Analytics. Puede compartir vínculos de proyectos con personas fuera de su organización o con personas de su organización que no estén aprovisionadas para Adobe Analytics. [Más información](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Para unirse a la versión beta privada, póngase en contacto con el equipo de la cuenta de Adobe.</p> | 15 de marzo de 2023 (beta privada) | Abril de 2023 |
+| **Actualizaciones del intervalo de fechas del panel** | En Workspace, hemos añadido las siguientes mejoras:<ul><li>A partir de la versión de febrero, los elementos de dimensión y las vistas previas de datos se basan en el intervalo de fechas del panel y no en los últimos 90 días. </li><li>Todos los elementos de dimensión enumerados se basan en los datos dentro del intervalo de fechas del panel. Si un elemento de dimensión tiene datos fuera del intervalo de fechas, puede mostrar datos adicionales más allá del intervalo de fechas en la parte inferior de la lista.</li><li>Los Dimension que no tienen datos se pueden mostrar en el carril izquierdo. Haga clic en las opciones mostrar más para ver los elementos de dimensión con datos fuera del intervalo de fechas del panel.</li><li>Las vistas previas de datos en los creadores de segmentos y métricas calculadas se basan en el intervalo de fechas del panel a menos que se acceda desde los administradores de componentes, que no tienen un panel asociado y siguen basados en los últimos 90 días.</li><li>Las vistas previas de datos muestran datos o componentes basados en el intervalo de fechas del panel.</li></ul> | N/A | 8 de febrero de 2023 |
 
 ## Correcciones en Adobe Analytics 
 
