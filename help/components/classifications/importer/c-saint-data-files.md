@@ -3,10 +3,10 @@ description: El importador permite realizar cargas masivas de datos de clasifica
 title: Archivos de datos de clasificación
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '1784'
-ht-degree: 100%
+source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+workflow-type: tm+mt
+source-wordcount: '1798'
+ht-degree: 98%
 
 ---
 
@@ -109,11 +109,11 @@ Cada valor debe ser único en todo el sistema. El valor de este campo correspond
 
 ### Encabezado de la columna Clasificación
 
-Por ejemplo, Reports and Analytics incluye automáticamente dos clasificaciones para variables de [!UICONTROL Campaña]: [!UICONTROL Campañas] y [!UICONTROL Elementos creativos]. Para añadir datos a la clasificación [!UICONTROL Campañas], el encabezado de la columna del archivo de datos de clasificación sería [!UICONTROL Campañas].
+Ejemplo: La implementación de Reports &amp; Analytics incluye automáticamente dos clasificaciones para [!UICONTROL Campaign] variables: [!UICONTROL Campañas] y [!UICONTROL Elementos creativos]. Para añadir datos a la clasificación [!UICONTROL Campañas], el encabezado de la columna del archivo de datos de clasificación sería [!UICONTROL Campañas].
 
 >[!NOTE]
 >
->Los valores del encabezado de la columna [!UICONTROL Clasificaciones] deben coincidir exactamente con la convención de nomenclatura de la clasificación; si no es así, la importación no se realizará correctamente. Por ejemplo, si el administrador cambia [!UICONTROL Campañas] por [!UICONTROL Nombres de campaña internos] en el [!UICONTROL Gestor de configuración de campañas], el encabezado de la columna del archivo debe cambiar también para que coincidan.
+>Los valores del encabezado de la columna [!UICONTROL Clasificaciones] deben coincidir exactamente con la convención de nomenclatura de la clasificación; si no es así, la importación no se realizará correctamente. Por ejemplo, si el administrador cambia [!UICONTROL Campañas] por [!UICONTROL Nombres de campaña internos] en el [!UICONTROL Gestor de configuración de campañas], el encabezado de la columna del archivo debe cambiar también para que coincidan. &quot;Key&quot; es un valor de clasificación reservado (encabezado). No se admiten nuevas clasificaciones denominadas &quot;Clave&quot;.
 
 Además, el archivo de datos admite las siguientes convenciones de encabezado adicionales, para identificar subclasificaciones y otras columnas de datos especializados:
 
