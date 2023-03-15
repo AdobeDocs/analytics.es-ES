@@ -326,8 +326,8 @@ Para agregar o editar una regla de clasificación:
    >Los grupos de informes se muestran en esta página *solo* cuando se cumplen las siguientes condiciones:
    >
    >* Los grupos de informes tienen como mínimo una clasificación definida para la variable en [!UICONTROL Herramientas de administración].
-      >
-      >   (Consulte *Variable* en [Conjuntos de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) para obtener una explicación sobre este requisito previo).
+   >
+   >   (Consulte *Variable* en [Conjuntos de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) para obtener una explicación sobre este requisito previo).
    >
    >* Ha seleccionado el grupo de informes en la página **[!UICONTROL Grupos de informes disponibles]**, que se muestra después de hacer clic en [Agregar conjunto de reglas](/help/components/classifications/crb/classification-rule-set.md) para crear el conjunto de reglas.
 
