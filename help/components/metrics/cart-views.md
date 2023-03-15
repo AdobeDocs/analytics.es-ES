@@ -18,4 +18,4 @@ La métrica “vistas del carro de compras” muestra el número de veces que un
 
 Esta métrica cuenta el número de visitas donde `scView` existe en la variable [`events`](/help/implement/vars/page-vars/events/events-overview.md).
 
-Consulte [Carros de compras](carts.md) para ver una comparación de métricas.
+Consulte [Carritos](carts.md) para ver una comparación de métricas.

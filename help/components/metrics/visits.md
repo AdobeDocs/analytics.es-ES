@@ -21,7 +21,7 @@ Una visita se vincula siempre a un periodo de tiempo, para que sepa si se debe c
 * **30 minutos de inactividad**: Casi todas las sesiones finalizan de esta forma. Si pasan más de 30 minutos entre cada visita individual, se inicia una nueva visita.
 * **12 horas de actividad**: Si un usuario activa las solicitudes de imagen de forma consistente sin interrupciones de 30 minutos durante más de 12 horas, se iniciará automáticamente una nueva visita.
 * **2500 visitas**: Si un usuario genera un gran número de visitas sin iniciar una sesión nueva, se cuenta una visita nueva después de 2500 solicitudes de imagen.
-* **100 visitas en 100 segundos**: Si una visita tiene más de 100 visitas que se producen en los primeros 100 segundos de la visita, esta finaliza automáticamente. Este comportamiento suele indicar la actividad de bots y esta limitación se impone para ayudar a aumentar el rendimiento del informe.
+* **100 visitas en 100 segundos**: Si una visita tiene más de 100 visitas que se producen en los primeros 100 segundos de la visita, la visita finaliza automáticamente. Este comportamiento suele indicar la actividad de bots y esta limitación se impone para ayudar a aumentar el rendimiento del informe.
 
 Una visita no necesariamente coincide con una sesión del explorador debido a los criterios anteriores. Una de las diferencias más comunes se produce cuando un visitante navega hasta el sitio, deja la pestaña abierta durante más de 30 minutos y luego reanuda la exploración. Aunque esta acción es técnicamente parte de la misma sesión de navegación, Adobe considera que esta acción genera dos visitas separadas.
 

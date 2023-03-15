@@ -6,7 +6,7 @@ exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 81%
+ht-degree: 90%
 
 ---
 
@@ -16,11 +16,11 @@ El seguimiento sin conexión es una forma opcional de recopilar datos en Adobe A
 
 Cuando un dispositivo vuelve a conectarse, todas las visitas almacenadas en el dispositivo se envían a los servidores de recopilación de datos de Adobe. Un gran número de visitas en cola puede afectar potencialmente al rendimiento en dispositivos más antiguos. Utilice la variable `offlineThrottleDelay` para establecer la frecuencia con la que las visitas en cola se envían a Adobe.
 
-## Retraso de aceleración sin conexión con la extensión de Adobe Analytics
+## Retraso de aceleración sin conexión mediante la extensión de Adobe Analytics
 
-No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.offlineThrottleDelay en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.offlineThrottleDelay en el editor de código personalizado de la extensión de Analytics y AppMeasurement
 
 La variable `s.offlineThrottleDelay` es un entero que representa el número de milisegundos que AppMeasurement espera entre el envío de visitas en cola. Su valor predeterminado es `0`, que quiere decir que todas las visitas en cola se envían a la vez. Si `trackOffline` tiene el valor `false`, esta variable no hace nada.
 

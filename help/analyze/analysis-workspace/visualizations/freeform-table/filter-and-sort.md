@@ -5,7 +5,7 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
 source-git-commit: af0c56a8911c5ea2fb49fb9625c68331a8517d81
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
 

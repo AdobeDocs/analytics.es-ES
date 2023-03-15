@@ -5,7 +5,7 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
 source-git-commit: bc56f3567d2285d063ef35f316e22699bdcf151d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 

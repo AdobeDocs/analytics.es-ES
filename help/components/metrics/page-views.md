@@ -5,8 +5,8 @@ feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
 source-git-commit: 65f87bf4b5b3897c9ef68d091858332c08cbf699
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '162'
+ht-degree: 39%
 
 ---
 
@@ -21,4 +21,4 @@ Esta métrica cuenta todas las llamadas de seguimiento de vista de página ([`t(
 ## Comparar con métricas similares
 
 * **Vistas de página vs. [Visitas](visits.md)**: Las vistas de página cuentan la cantidad de veces que se ve una página. Las visitas cuentan el número de sesiones de los visitantes. Una visita consiste en una o más vistas de página.
-* **Vistas de página vs. [Eventos de página](page-events.md)**: Las vistas de página cuentan el número de llamadas de seguimiento de vista de página (`t()`) y excluye las llamadas de seguimiento de vínculos (`tl()`). Los eventos de página son lo contrario; cuentan el número de llamadas de seguimiento de vínculos y excluyen las llamadas de seguimiento de vista de página.
+* **Vistas de página vs. [Eventos de página](page-events.md)**: las vistas de página cuentan el número de llamadas de seguimiento de vista de página (`t()`) y excluye las llamadas de seguimiento de vínculos (`tl()`). Los eventos de página son lo contrario; cuentan el número de llamadas de seguimiento de vínculos y excluyen las llamadas de seguimiento de vista de página.

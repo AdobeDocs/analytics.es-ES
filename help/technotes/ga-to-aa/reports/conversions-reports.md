@@ -4,7 +4,7 @@ description: Obtenga información sobre el uso de los informes de conversión en
 feature: Third-party Integration
 exl-id: 315b7dc0-1cd9-4beb-8203-88e205375f84
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Los informes de embudo multicanal proporcionan datos adicionales del canal de ma
 
 Las conversiones asistidas muestran el número de veces que cada canal ayudó con una conversión. En Analysis Workspace, se puede utilizar la métrica **Asistencia para pedidos**.
 
-1. En el menú Componentes, busque la dimensión **Canal de marketing** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
+1. En el menú Componentes, localice la dimensión **Canal de marketing** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre la métrica **Asistencia para pedidos** sobre el encabezado de métrica **Ocurrencias** creado automáticamente para reemplazarla. Se pueden arrastrar métricas adicionales al espacio de trabajo.
 
 ### Varios canales: rutas de conversión principales
@@ -77,14 +77,14 @@ Esta visualización de flujo es interactiva. Haga clic en cada canal para expand
 
 El informe de retraso muestra la cantidad de días que tardó un visitante en realizar la conversión en el sitio. En Analysis Workspace, estos datos están disponibles mediante la dimensión **Días antes de la primera compra**. Solo está disponible en el contexto de un evento de compra correctamente implementado.
 
-1. En el menú Componentes, busque la dimensión **Días antes de la primera compra** y arrástrela al área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
+1. En el menú Componentes, localice la dimensión **Días antes de la primera compra** y arrástrela al área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 Adobe recomienda utilizar las métricas **Pedidos**, **Unidades** o **Ingresos** con esta dimensión.
 
 Para otros tipos de conversiones, como los eventos personalizados, está disponible la dimensión **Tiempo previo al evento**. Esta muestra la cantidad de minutos que tardó un visitante en desencadenar el evento dentro de la visita.
 
-1. En el menú Componentes, busque la dimensión **Tiempo previo al evento** y arrástrela al área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
+1. En el menú Componentes, localice la dimensión **Tiempo previo al evento** y arrástrela al área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 Adobe recomienda utilizar esta dimensión junto con eventos personalizados o eventos de compra.

@@ -4,7 +4,7 @@ title: Compatibilidad del segmento con el Data Warehouse
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 

@@ -25,7 +25,7 @@ Acceda al Generador de alertas de una de las cuatro formas disponibles:
 
    `ctrl (or cmd) + shift + a`
 * En **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alerta nueva]**.
-* Seleccione uno o más elementos de línea de la tabla improvisada, haga clic con el botón secundario y elija **[!UICONTROL Crear alerta a partir de la selección]**.
+* Seleccione uno o más elementos de línea de la tabla de forma libre, haga clic con el botón secundario y elija **[!UICONTROL Crear alerta a partir de la selección]**.
 * Desde un informe de Reports &amp; Analytics, vaya a **[!UICONTROL Más]** > **[!UICONTROL Agregar alerta]**.
 
 ## Generar alertas

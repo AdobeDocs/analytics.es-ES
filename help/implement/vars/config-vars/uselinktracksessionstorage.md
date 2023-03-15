@@ -6,7 +6,7 @@ exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -31,7 +31,7 @@ El SDK web no admite esta funcionalidad.
 
 ## Uso del almacenamiento de sesión de seguimiento de vínculos con la extensión Adobe Analytics
 
-No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.useLinkTrackSessionStorage en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 

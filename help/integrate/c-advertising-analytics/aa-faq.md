@@ -1,16 +1,16 @@
 ---
 description: Preguntas frecuentes sobre Advertising Analytics.
-title: Preguntas más frecuentes sobre análisis publicitario
+title: Preguntas más frecuentes sobre análisis de publicidad
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1414'
+ht-degree: 99%
 
 ---
 
-# Preguntas frecuentes
+# Preguntas frecuentes 
 
 ## Acceso y derechos {#section_5F558C5981F747F0AF375A9E4B75C93C}
 

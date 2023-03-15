@@ -4,7 +4,7 @@ description: Ayuda a deduplicar métricas en el sitio.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
 

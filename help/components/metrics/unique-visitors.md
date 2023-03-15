@@ -4,7 +4,7 @@ description: Número de ID de visitante único.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 100%
 

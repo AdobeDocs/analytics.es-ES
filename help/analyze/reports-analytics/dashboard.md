@@ -97,7 +97,7 @@ Para crear un tablero:
 
 ## Crear un informe breve {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
-Después de crear un informe breve, estará disponible para mostrarlo en un tablero.
+Después de crear un informe breve, este estará disponible para mostrar en un tablero.
 
 <!-- 
 
@@ -125,7 +125,7 @@ Para crear un informe breve:
 
 ## Añadir contenido a un tablero {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
-Puede agregar contenido desde otros tableros y tableros compartidos. También puede añadir contenido desde fuentes personalizadas y externas, como texto e imágenes.
+Puede añadir contenido desde otros tableros y tableros compartidos. También puede añadir contenido desde fuentes personalizadas y externas, como texto e imágenes.
 
 <!-- 
 
@@ -214,7 +214,7 @@ t_dashboard_edit.xml
 
 ## Promoción conjunta de marca en un tablero {#task_603BDE7700B945699AF5514C2DEB81F7}
 
-Para cargar una imagen para mostrarla en un tablero:
+Para cargar una imagen para mostrarla en un panel:
 
 <!-- 
 

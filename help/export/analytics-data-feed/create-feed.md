@@ -14,7 +14,7 @@ ht-degree: 98%
 
 La creación de una fuente de datos permite a Adobe saber dónde enviar archivos de datos sin procesar y qué desea incluir en cada archivo. En esta página se muestra una lista de las opciones individuales que puede personalizar al crear una fuente de datos.
 
-Antes de leer esta página se recomienda conocer las fuentes de datos de forma básica. Consulte [Resumen de las fuentes de datos](data-feed-overview.md) para asegurarse de que cumple los requisitos para crear una fuente de datos.
+Antes de leer esta página se recomienda conocer las fuentes de datos de forma básica. Consulte [Resumen de fuentes de datos](data-feed-overview.md) para asegurarse de que cumple los requisitos para crear una fuente de datos.
 
 ## Campos de Información de fuente
 

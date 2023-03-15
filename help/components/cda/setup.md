@@ -23,7 +23,7 @@ El departamento de ingeniería de Adobe ofrece las analíticas de varios disposi
 
 * Su ID de organización de Adobe Experience Cloud (la cadena alfanumérica que termina con @AdobeOrg)
 * El ID del grupo de informes perteneciente al grupo de informes entre dispositivos que desea habilitar con analíticas de varios dispositivos
-* Qué método de CDA desea utilizar (vinculación basada en el campo o gráfico de dispositivos de Adobe)
+* Qué método de análisis multidispositivo desea utilizar (vinculación basada en el campo o gráfico de dispositivos de Adobe)
 * Si desea utilizar la vinculación basada en campos, el prop o eVar que contiene el ID de usuario
 * Su preferencia de frecuencia de repetición y longitud de retrospectiva. Las opciones incluyen una reproducción una vez a la semana con una ventana retrospectiva de 7 días o una reproducción cada día con una ventana retrospectiva de 1 día.
 El valor predeterminado es la reproducción semanal con una ventana retrospectiva de 7 días. En este caso, los datos de la última semana están sujetos a cambios (ya que se identifican y se actualizan progresivamente).

@@ -4,7 +4,7 @@ description: Rellene manualmente la dimensión “Código postal” si la config
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 100%
 

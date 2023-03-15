@@ -4,7 +4,7 @@ description: Procedimientos de certificados para los certificados administrados 
 feature: Regional Data Collection
 exl-id: 7d1373c8-6f7b-4ce7-a555-d3d506e08d17
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 

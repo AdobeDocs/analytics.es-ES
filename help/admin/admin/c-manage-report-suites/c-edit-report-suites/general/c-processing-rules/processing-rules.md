@@ -5,7 +5,7 @@ title: Resumen de las reglas de procesamiento
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 100%
 

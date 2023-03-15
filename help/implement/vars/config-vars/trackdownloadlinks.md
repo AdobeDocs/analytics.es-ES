@@ -6,7 +6,7 @@ exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 51%
+ht-degree: 59%
 
 ---
 
@@ -16,18 +16,18 @@ Adobe ofrece la posibilidad de rastrear los vínculos de descarga sin configurar
 
 Cuando está habilitado, AppMeasurement compara cualquier URL de vínculo donde se haga clic con los valores de [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Si hay una coincidencia, se activa automáticamente una llamada de seguimiento de vínculos de descarga.
 
-## Habilitar o deshabilitar la recopilación de clics mediante la extensión Web SDK
+## Habilitar o deshabilitar la recopilación de clics mediante la extensión del SDK web
 
-Utilice la variable [!UICONTROL Habilitar la recopilación de datos de clic] al configurar el SDK web. Esta casilla de verificación controla los vínculos de salida y de descarga.
+Utilice el [!UICONTROL Habilitar la recopilación de datos de clics] casilla de verificación al configurar el SDK web. Esta casilla de verificación gestiona los vínculos de salida y de descarga.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
-1. Vaya a la [!UICONTROL Extensiones] y, a continuación, haga clic en la pestaña **[!UICONTROL Configurar]** botón debajo de [!UICONTROL SDK web de Adobe Experience Platform].
-1. En [!UICONTROL Recopilación de datos], haga clic en **[!UICONTROL Habilitar la recopilación de datos de clic]** casilla de verificación.
+1. Vaya a la [!UICONTROL Extensiones] y, a continuación, haga clic en **[!UICONTROL Configurar]** botón debajo de [!UICONTROL SDK web de Adobe Experience Platform].
+1. En [!UICONTROL Recopilación de datos], haga clic en **[!UICONTROL Habilitar la recopilación de datos de clics]** casilla de verificación
 
-## Habilitar o deshabilitar la colección de clics implementando manualmente el SDK web
+## Habilitar o deshabilitar la recopilación de clics manualmente mediante la implementación del SDK web
 
-Configuración del SDK mediante [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). El campo es un booleano que determina si los datos asociados con clics en vínculos se recopilan automáticamente. Su valor predeterminado es `true`. Establezca este valor como `false` si desea deshabilitar el seguimiento automático de vínculos. Esta configuración administra el seguimiento automático de vínculos tanto de descarga como de salida.
+Configuración del SDK mediante [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). El campo es un booleano que determina si los datos asociados con los clics en vínculos se recopilan automáticamente. Su valor predeterminado es `true`. Establezca este valor en `false` si desea deshabilitar el seguimiento automático de vínculos. Esta configuración administra el seguimiento automático de vínculos tanto para los vínculos de descarga como de salida.
 
 ```json
 alloy("configure", {
@@ -39,7 +39,7 @@ alloy("configure", {
 
 Rastrear vínculos de descarga es una casilla de verificación en el acordeón [!UICONTROL Seguimiento de vínculos] al configurar la extensión de Adobe Analytics.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL Seguimiento de vínculos], que muestra la casilla [!UICONTROL Rastrear vínculos de descarga].

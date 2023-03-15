@@ -42,9 +42,9 @@ Puede configurar el panel Audiencia media por minuto de medios con esta configur
 |---------|------------|
 | Dimensiones de creación de informes | Al elegir contenido específico, puede seleccionar el resultado del informe para utilizar los campos Nombre del vídeo o ID de contenido, y mostrar el contenido y su audiencia de minuto promedio asociada durante el período de tiempo seleccionado. |
 | Filtrar contenido por (opcional) | Puede filtrar el contenido específico según la vista que desee o la forma en que se estructuran los datos. |
-| Programa, temporada, episodio | Al seleccionar &quot;Mostrar, temporada, episodio&quot;, se muestran los programas disponibles en la lista desplegable, que puede filtrar con una búsqueda (o arrastrando y soltando el nombre del programa desde la columna izquierda). Puede terminar su selección allí para ver todas las temporadas del programa, o puede filtrar por temporadas individuales y luego por episodios individuales. Esta configuración muestra los datos de los programas, las temporadas o los episodios del período de tiempo seleccionado. |
+| Programa, temporada, episodio | Al seleccionar Mostrar, temporada, episodio, se muestran los programas disponibles en la lista desplegable, que puede filtrar con una búsqueda (o arrastrando y soltando el nombre para mostrar de la columna izquierda). Puede terminar su selección allí para ver todas las temporadas del programa, o puede filtrar por temporadas individuales y luego por episodios individuales. Esta configuración muestra los datos de los programas, las temporadas o los episodios del período de tiempo seleccionado. |
 | Dimensión personalizada | Si el nombre para mostrar se encuentra en una dimensión personalizada, puede encontrarla buscando en la lista desplegable de dimensiones (opcional) o utilizando la búsqueda de la columna izquierda. El elemento de dimensión se rellena automáticamente en función de esa selección y se trata como un episodio. |
-| Ninguno | Puede elegir *Ninguna* para mostrar todos los nombres de vídeo que tengan datos de audiencia de minuto promedio para la selección que haya elegido. |
+| Ninguno | Puede elegir *Ninguno* para mostrar todos los nombres de vídeo que tengan datos de audiencia de minuto promedio para la selección que haya elegido. |
 
 ### Configuración avanzada de contenido específico
 
@@ -61,7 +61,7 @@ Puede configurar el panel Audiencia media por minuto de medios con esta configur
 | Filtrar contenido por (opcional) | Puede filtrar el contenido específico según la vista que desee o la forma en que se estructuran los datos. |
 | Programa, temporada, episodio | La selección *Programa, temporada, episodio* muestra los programas disponibles en la lista desplegable, que puede filtrar mediante la búsqueda (o arrastrando y soltando el nombre para mostrar de la columna izquierda). Puede terminar su selección allí para ver todas las temporadas del programa, o puede filtrar por temporadas individuales y luego por episodios individuales. Esta configuración muestra los datos de los programas, las temporadas o los episodios del período de tiempo seleccionado. |
 | Dimensión personalizada | Si el nombre para mostrar se encuentra en una dimensión personalizada, puede encontrarla buscando en la lista desplegable de dimensiones (opcional) o utilizando la búsqueda de la columna izquierda. El elemento de dimensión se rellena automáticamente en función de esa selección y se trata como un episodio. |
-| Ninguno | Puede elegir *Ninguna* para mostrar todos los nombres de vídeo durante el período de tiempo que ha elegido. |
+| Ninguno | Puede elegir *Ninguno* para mostrar todos los nombres de vídeo durante el período de tiempo que ha elegido. |
 
 ### Configuración avanzada de período de tiempo personalizado
 

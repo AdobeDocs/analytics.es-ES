@@ -4,7 +4,7 @@ description: El 23 de junio de 2022, se eliminará la compatibilidad con cifrado
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
 source-git-commit: 84a8dc9c6052d34e9dea370e444c83e84bf17852
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: Nombre del vínculo personalizado.
 feature: Dimensions
 exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 

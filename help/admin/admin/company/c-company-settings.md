@@ -4,7 +4,7 @@ title: Resumen de la configuración de la empresa
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
 source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 100%
 

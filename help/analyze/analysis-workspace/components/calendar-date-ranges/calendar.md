@@ -7,7 +7,7 @@ exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
 workflow-type: tm+mt
 source-wordcount: '863'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -79,9 +79,9 @@ Cuando se usa un calendario personalizado basado en semanas y se añaden meses o
 
 Si genera o utiliza un segmento con una fecha móvil, por ejemplo, los últimos siete días o las últimas dos semanas, y hace clic en la vista previa del segmento, se inicia la fecha móvil desde *hoy* en lugar de la fecha de inicio del panel. Como resultado, la vista previa del segmento no coincidirá cuando realmente utilice el segmento en la tabla. Se ve afectada la vista previa, no el propio segmento.
 
-## Directrices para intervalos de fechas y previsualizaciones del panel {#guidelines-panel-dates}
+## Directrices para los intervalos de fechas del panel y las vistas previas {#guidelines-panel-dates}
 
-* A partir de la versión de febrero, las previsualizaciones de componentes y datos se basarán en el intervalo de fechas del panel y no en los últimos 90 días.
+* A partir de la versión de febrero, las vistas previas de componentes y datos se basarán en el intervalo de fechas del panel y no en los últimos 90 días.
 * Todos los componentes enumerados en el carril izquierdo estarán disponibles en función del intervalo de fechas del panel.
-* Todas las previsualizaciones de fecha de los creadores de segmentos y métricas calculadas se basarán en el intervalo de fechas del panel (a menos que se acceda desde los administradores de componentes, que no tienen un panel asociado, se basarán en los últimos 90 días).
+* Todas las vistas previas de fechas en los generadores de segmentos y métricas calculadas se basarán en el intervalo de fechas del panel (a menos que se acceda desde los administradores de componentes, que no tienen un panel asociado, seguirán basándose en los últimos 90 días).
 * Cualquier vista previa de datos mostrará datos o componentes basados en el intervalo de fechas del panel.

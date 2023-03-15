@@ -4,7 +4,7 @@ description: Descubra cómo se pueden utilizar los perfiles de producto como aju
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 100%
 

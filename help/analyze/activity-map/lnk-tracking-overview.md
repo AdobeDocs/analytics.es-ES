@@ -1,5 +1,5 @@
 ---
-description: 'Activity Map realiza un seguimiento de los vínculos con un algoritmo más seguro que '
+description: Activity Map realiza un seguimiento de los vínculos con un algoritmo más seguro que
 title: Potente seguimiento de vínculos
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 feature: Activity Map
@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 1f077234-ff88-46ce-a931-2d21d68042b0
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '239'
 ht-degree: 100%
 
 ---

@@ -14,7 +14,7 @@ ht-degree: 84%
 
 # Procesamiento de tiempo de los informes
 
-[!UICONTROL Procesamiento de tiempo de los informes] es una configuración de grupo de informes virtuales que permite procesar los datos en Analysis Workspace de forma retroactiva y no destructiva.
+[!UICONTROL Procesamiento de tiempo de informes] es una configuración de grupo de informes virtuales que permite procesar los datos en Analysis Workspace de forma retroactiva y no destructiva.
 
 El [!UICONTROL Procesamiento de intervalo de tiempo] solo afecta a los datos en el grupo de informes virtuales y no tiene efecto sobre ningún dato o recopilación de datos en el grupo de informes base. La diferencia entre el [!UICONTROL Procesamiento de intervalo de tiempo] y el procesamiento tradicional de Analytics se entiende mejor con el siguiente diagrama:
 
@@ -24,18 +24,18 @@ Durante el procesamiento de datos de Analytics, los datos fluyen por el canal de
 
 El [!UICONTROL Procesamiento de intervalo de tiempo] es un modo fundamentalmente distinto de procesar datos de Analytics para la creación de informes. En lugar de predeterminar la lógica de procesamiento antes de la recopilación de datos, Analytics ignora el conjunto de datos durante el paso de preprocesamiento y aplica la lógica cada vez que se ejecuta un informe:
 
-![Canalización de procesamiento de tiempo de los informes](assets/google2.jpg)
+![Canalización de procesamiento de tiempo de informes](assets/google2.jpg)
 
-Esta arquitectura de procesamiento ofrece opciones de realización de informes mucho más flexibles. Por ejemplo, puede cambiar el tiempo de espera de visita a cualquier periodo que desee de forma no destructiva, cambios que se reflejan en la persistencia del eVar y los contenedores de segmento durante todo el período de informe. Además, puede crear cualquier número de grupos de informes virtuales, cada uno con distintas opciones de Procesamiento de intervalo de tiempo y basados en el mismo grupo de informes base, sin alterar ninguno de los datos del grupo de informes base.
+Esta arquitectura de procesamiento ofrece opciones de realización de informes mucho más flexibles. Por ejemplo, puede cambiar el tiempo de espera de visita a cualquier periodo que desee de forma no destructiva, cambios que se reflejan en la persistencia de eVar y en los contenedores de segmentos durante el periodo completo del informe. Además, puede crear cualquier número de grupos de informes virtuales, cada uno con distintas opciones de Procesamiento de intervalo de tiempo y basados en el mismo grupo de informes base, sin alterar ninguno de los datos del grupo de informes base.
 
-[!UICONTROL Procesamiento de intervalo de tiempo] también permite a Analytics impedir que las visitas en segundo plano inicien nuevas visitas y permite que la variable [SDK de Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=es) para iniciar una nueva visita cada vez que se active un evento de inicio de aplicación.
+[!UICONTROL Procesamiento de intervalo de tiempo] también permite a Analytics impedir que las visitas en segundo plano comiencen nuevas visitas y permite al [SDK de Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=es) para iniciar una nueva visita cada vez que se active un evento de inicio de aplicación.
 
 ## Opciones de configuración
 
 Los grupos de informes virtuales con Procesamiento de intervalo de tiempo habilitado disponen en este momento de las siguientes opciones de configuración:
 
 * **[!UICONTROL Tiempo de espera de visita]:** el tiempo de espera de visita es la cantidad de inactividad que un visitante único debe presentar antes de que se inicie automáticamente una nueva visita. El valor predeterminado es de 30 minutos. Por ejemplo, si establece el tiempo de espera de visita en 15 minutos, se crea un nuevo grupo de visitas por cada secuencia de visitas obtenida separada de la anterior por al menos 15 minutos de inactividad. Estos ajustes afectan no solo al recuento de visitas, sino también al modo de evaluar los contenedores de segmentos de visita y a la lógica de caducidad de visitas para cualquier eVar que caduque durante una visita. Reducir el tiempo de espera de visita probablemente aumente el número total de visitas en los informes, y viceversa.
-* **[!UICONTROL Configuración de visitas de aplicación móvil]:** para los grupos de informes que contienen datos generados por aplicaciones móviles mediante los [SDK para móviles de Adobe](https://experienceleague.adobe.com/docs/mobile.html) existen ajustes de visita adicionales. Dichos ajustes no son destructivos y afectan únicamente a las visitas recopiladas mediante los SDK para móviles. Estos ajustes no tienen efecto en los datos recopilados fuera del SDK para móviles.
+* **[!UICONTROL Configuración de visitas de aplicación móvil]:** para los grupos de informes que contienen datos generados por aplicaciones móviles mediante los [SDK para móviles de Adobe](https://experienceleague.adobe.com/docs/mobile.html?lang=es) existen ajustes de visita adicionales. Dichos ajustes no son destructivos y afectan únicamente a las visitas recopiladas mediante los SDK para móviles. Estos ajustes no tienen efecto en los datos recopilados fuera del SDK para móviles.
 * **[!UICONTROL Impedir que las visitas en segundo plano inicien una nueva visita]:** los SDK para móviles recopilan las visitas en segundo plano cuando la aplicación está en segundo plano.
 * **[!UICONTROL Iniciar una nueva visita cada vez que se inicie la aplicación]:** además del tiempo de espera de visita, es posible forzar el comienzo de una visita cada vez que se registra un evento de inicio de aplicación procedente de los SDK para móviles, independientemente del tiempo de inactividad. Esta configuración afecta a la métrica de visitas y al contenedor de segmentos de visita, así como a la lógica de caducidad de visitas de las eVars.
 * **[!UICONTROL Iniciar una nueva visita con el evento]:** una nueva sesión se inicia cuando se activa un evento, independientemente de si se ha superado o no el tiempo de espera de la sesión. La sesión recién creada incluye el evento que la ha iniciado. Además, es posible utilizar varios eventos para iniciar una sesión, y se activa una nueva si se observa cualquiera de esos eventos en los datos. Este ajuste afecta al recuento de visitas, al contenedor de segmentación de visitas y a la lógica de caducidad de las visitas en eVars.
@@ -53,7 +53,7 @@ Además, Procesamiento de intervalo de tiempo solo procesa los datos que se prod
 Las siguientes dimensiones y métricas no son compatibles con Procesamiento de intervalo de tiempo:
 
 * **Analytics for Target**
-* **Dimensiones y métricas de Analytics for Advertising Cloud**
+* **Dimensiones/métricas de Analytics para Advertising Cloud**
 * **eVars de contador**
 * **Días antes de la primera compra**
 * **Días desde la última compra**
@@ -61,7 +61,7 @@ Las siguientes dimensiones y métricas no son compatibles con Procesamiento de i
 * **Página de entrada original**
 * **eVars de asignación lineal**
 * **Vars de lista**
-* **Dimensiones de los canales de marketing**
+* **Dimensiones de canales de marketing**
 * **Dominio de referencia original**
 * **Frecuencia de retorno**
 * **Acceso único**
@@ -84,4 +84,4 @@ A continuación se ofrece una lista de dimensiones y métricas que pueden verse 
 * **eVars que no sean de comercialización/eVars reservadas:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, un valor establecido en una eVar persiste solo si se estableció dentro del intervalo de fechas del informe. Además, las caducidades basadas en la hora pueden producirse 60 minutos antes o después si la persistencia se ve afectada por un cambio de hora.
 * **eVars de comercialización/eVars reservadas:** Consulte lo anterior. Además, para la conversión de sintaxis, cuando el enlace está establecido en “cualquier evento”, se utiliza “cualquier visita”.
 * **Tipo de visita individual:** Esta dimensión especifica si una visita individual es en primer o en segundo plano.
-* **Dimension con (poco tráfico) o &quot;Se excedió la cantidad de valores exclusivos&quot;:** El elemento de línea (poco tráfico) se determina de forma ligeramente diferente al usar Procesamiento de intervalo de tiempo y no se garantiza que coincida con lo que se observa al generar informes en el grupo de informes base. No se garantiza que los elementos de línea del Dimension que no forman parte de Poco tráfico representen el 100% de los datos de ese elemento de línea. Estas diferencias pueden hacerse más pronunciadas cuanto mayor sea el número de valores únicos que existen en una dimensión.
+* **Dimension con (poco tráfico) o &quot;excesos en la cantidad de valores exclusivos&quot;:** El elemento de línea (Poco tráfico) se determina de forma ligeramente diferente al usar Procesamiento de intervalo de tiempo y no se garantiza que coincida con lo que se observa al crear informes en el grupo de informes base. No se garantiza que los elementos de línea del Dimension que no forman parte de Poco tráfico representen el 100 % de los datos de ese elemento de línea. Estas diferencias pueden ser más pronunciadas cuanto mayor sea el número de valores únicos existentes en una dimensión.

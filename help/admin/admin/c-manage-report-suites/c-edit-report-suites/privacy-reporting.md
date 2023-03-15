@@ -4,7 +4,7 @@ title: Creación de informes de privacidad
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
 source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 100%
 

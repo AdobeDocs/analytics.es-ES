@@ -5,7 +5,7 @@ title: Comprobar la implementación del reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 

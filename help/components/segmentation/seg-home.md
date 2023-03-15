@@ -23,4 +23,4 @@ Los científicos de datos y analistas de marketing pueden utilizar, ampliar y re
 
 ## Introducción
 
-Consulte [Acerca de los segmentos](/help/components/segmentation/seg-overview.md) para obtener información general rápida. A continuación, vaya a [Configuración de un flujo de trabajo de segmentación](/help/components/segmentation/segmentation-workflow/seg-workflow.md) o [Generación de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md).
+Consulte [Acerca de los segmentos](/help/components/segmentation/seg-overview.md) para obtener una descripción general rápida. A continuación, vaya a [Configuración de un flujo de trabajo de segmentación](/help/components/segmentation/segmentation-workflow/seg-workflow.md) o [Generación de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md).

@@ -6,7 +6,7 @@ exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 80%
+ht-degree: 84%
 
 ---
 
@@ -20,13 +20,13 @@ Las cookies configuradas por AppMeasurement suelen tener una caducidad de 2 año
 
 ## Duración de la cookie mediante el SDK web
 
-El SDK web aún no ofrece personalización a la duración de las cookies que establece.
+El SDK web aún no ofrece personalización durante la duración de las cookies que establece.
 
-## Duración de la cookie con la extensión de Adobe Analytics
+## Duración de la cookie mediante la extensión Adobe Analytics
 
 Duración de la cookie es un menú desplegable en el acordeón de [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 1. Expanda el acordeón [!UICONTROL Cookies], que muestra el menú desplegable [!UICONTROL Duración de la cookie].

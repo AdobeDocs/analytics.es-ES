@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '301'
 ht-degree: 93%
 
 ---
@@ -20,7 +20,7 @@ Tras instalar Report Builder e iniciar Excel, haga clic en **[!UICONTROL Complem
 
 ![](assets/report_builder_toolbar.png)
 
-**Inicio de sesión:** muestra   Información de inicio de sesión para que pueda iniciar sesión con sus credenciales o como un usuario diferente. También muestra su nombre de empresa tras el inicio de sesión. Consulte [Inicio de sesión en el Report Builder](/help/analyze/report-builder/setup/login.md).
+**Iniciar sesión:** Muestra el [!UICONTROL Iniciar sesión] para que pueda iniciar sesión con sus credenciales o como un usuario diferente. También muestra su nombre de empresa tras el inicio de sesión. Consulte [Inicio de sesión en el Report Builder](/help/analyze/report-builder/setup/login.md).
 
 **Crear:** inicia el [!UICONTROL Asistente para solicitudes]. Si no ha iniciado la sesión, se le indicará que lo haga. Consulte [Solicitudes de datos](/help/analyze/report-builder/data-requests/data-requests.md).
 

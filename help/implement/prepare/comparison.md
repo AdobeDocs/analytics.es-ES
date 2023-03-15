@@ -3,7 +3,7 @@ title: Comparación de métodos de implementación
 description: Consulte las ventajas de cada método para enviar datos a Adobe Analytics.
 source-git-commit: 2e69321404237213c6929f3fb0c330575d8a90db
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 76%
 
 ---
@@ -16,8 +16,8 @@ Consulte cómo se compara cada método de implementación de Adobe Analytics ent
 | --- | --- | --- | --- | --- |
 | Requisitos de implementación | Haga referencia a `AppMeasurement.js` en cada página, defina las variables y envíe datos mediante `s.t()` | Haga referencia al cargador de etiquetas en cada página, utilice la interfaz de usuario de recopilación de datos para definir variables y enviar datos a Adobe | Haga referencia a `Alloy.js` en cada página, utilice `alloy("sendEvent",{})` para enviar un objeto JSON que contenga los datos deseados | Haga referencia al cargador de etiquetas en cada página, utilice la interfaz de usuario de recopilación de datos para establecer el objeto JSON para enviar datos |
 | Destino de los datos | Enviado directamente a Adobe Analytics | Enviado directamente a Adobe Analytics | Enviado a Adobe Experience Platform Edge, que reenvía datos a Adobe Analytics | Enviado a Adobe Experience Platform Edge, que reenvía datos a Adobe Analytics |
-| Dificultad para realizar ajustes de implementación | Requiere acceso al código del sitio web para cada cambio de implementación | Cambie el código del sitio web una vez para instalar la etiqueta loader; todas las actualizaciones de implementación adicionales se pueden realizar en la interfaz de usuario de recopilación de datos | Requiere acceso al código del sitio web para cada cambio de implementación | Cambie el código del sitio web una vez para instalar la etiqueta loader; todas las actualizaciones de implementación adicionales se pueden realizar en la interfaz de usuario de recopilación de datos |
+| Dificultad para realizar ajustes de implementación | Requiere acceso al código del sitio web para cada cambio de implementación | Cambie el código del sitio web una vez para instalar la etiqueta del cargador; todas las actualizaciones de implementación posteriores se pueden realizar en la IU de recopilación de datos | Requiere acceso al código del sitio web para cada cambio de implementación | Cambie el código del sitio web una vez para instalar la etiqueta del cargador; todas las actualizaciones de implementación posteriores se pueden realizar en la IU de recopilación de datos |
 | Cómo se gestiona A4T | Las llamadas a A4T se incluyen en las visitas enviadas a Adobe | Las llamadas a A4T se incluyen en las visitas enviadas a Adobe | Las llamadas a A4T se envían como visitas separadas | Las llamadas a A4T se envían como visitas separadas |
-| Datos de contexto | Utilice `s.contextData`. | Uso `s.contextData` en bloques de código personalizado | Todos los campos sin asignar se envían automáticamente como `a.x.*` variables de datos de contexto. | Todos los campos sin asignar se envían automáticamente como `a.x.*` variables de datos de contexto. |
+| Datos de contexto | Utilice `s.contextData`. | Uso `s.contextData` en bloques de código personalizado | Todos los campos no asignados se envían automáticamente como `a.x.*` variables de datos de contexto. | Todos los campos no asignados se envían automáticamente como `a.x.*` variables de datos de contexto. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

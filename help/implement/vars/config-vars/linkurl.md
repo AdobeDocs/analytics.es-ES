@@ -6,7 +6,7 @@ exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 61%
+ht-degree: 76%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 61%
 
 Cada vez que se envía una llamada de seguimiento de vínculos a Adobe, los servidores de recopilación de datos detectan automáticamente la dirección URL. Utilice la variable `linkURL` para anular la dirección URL detectada.
 
-## Vincular URL con el SDK web
+## Vincular URL mediante el SDK web
 
-La dirección URL del vínculo es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) en el campo XDM `web.webInteraction.URL`.
+La URL del vínculo es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `web.webInteraction.URL`.
 
-## URL de vínculo con la extensión de Adobe Analytics
+## URL de vínculo con la extensión Adobe Analytics
 
-No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.linkURL en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 

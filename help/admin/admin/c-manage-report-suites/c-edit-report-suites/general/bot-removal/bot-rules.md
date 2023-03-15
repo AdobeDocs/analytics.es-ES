@@ -4,7 +4,7 @@ title: Resumen sobre reglas de Bot
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 100%
 

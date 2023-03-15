@@ -4,7 +4,7 @@ title: Alertas inteligentes
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Hay cuatro formas en las que puede acceder al Generador de alertas:
 
    `ctrl (or cmd) + shift + a`
 * Seleccione directamente el Generador de alertas: **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alerta nueva]** .
-* Seleccione uno o más elementos de línea de la tabla improvisada, haga clic con el botón derecho y seleccione **[!UICONTROL Crear alerta a partir de la selección]**. De esta forma se abrirá el Generador de alertas, que se rellenará con las métricas y filtros adecuados aplicados a partir de la tabla. A continuación, puede editar la alerta si fuera necesario.
+* Seleccione uno o más elementos de línea de la tabla de forma libre, haga clic con el botón derecho y seleccione **[!UICONTROL Crear alerta a partir de la selección]**. De esta forma se abrirá el Generador de alertas, que se rellenará con las métricas y filtros adecuados aplicados a partir de la tabla. A continuación, puede editar la alerta si fuera necesario.
 
    ![](assets/create-alert-from-selection.png)
 

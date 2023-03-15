@@ -18,7 +18,7 @@ ht-degree: 90%
 Información sobre cómo programar, descargar y distribuir informes.
 
 >[!IMPORTANT]
->El 21 de abril de 2022, anunciamos la desaprobación de varias funciones específicas de los informes programados como preparación para el fin de vida útil anunciado anteriormente para Reports &amp; Analytics. Estas funciones incluían la capacidad de programar nuevos informes, así como nuevos extractos de datos. En respuesta a las solicitudes de los clientes que buscan una extensión y para facilitar la transición desde Reports &amp; Analytics, hemos decidido ampliar el acceso a estas funciones hasta el 31 de enero de 2023. Tenga en cuenta que los plazos de caducidad para los informes y los extractos de datos seguirán estando limitados a nueve meses; la entrega de informes y extracciones de datos se pausará al final de este periodo a menos que se reactive la programación.  [Más información](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+>El 21 de abril de 2022, anunciamos la desaprobación de varias funciones específicas de los informes programados como preparación para el fin de vida útil anunciado anteriormente para Reports &amp; Analytics. Estas funciones incluían la capacidad de programar nuevos informes, así como nuevos extractos de datos. En respuesta a las solicitudes de los clientes que buscan una extensión y para facilitar la transición desde Reports &amp; Analytics, hemos decidido ampliar el acceso a estas funciones hasta el 31 de enero de 2023. Tenga en cuenta que los plazos de caducidad para los informes y los extractos de datos seguirán estando limitados a nueve meses; la entrega de informes y extracciones de datos se pausará al final de este periodo a menos que se reactive la programación. [Más información](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Al programar un informe para su envío a una aplicación de Adobe Analytics, se pueden utilizar las herramientas de programación y distribución para ver qué archivos se han enviado automáticamente y así modificar o finalizar los envíos.
 
@@ -30,13 +30,13 @@ Debido a las diferencias en los mecanismos y las plataformas de procesamiento, l
 
 Estas limitaciones son para los informes individuales programados y descargados; los tableros se limitan a la cantidad de espacio disponible en un informe breve.
 
-## Tiempo de entrega frente a tiempo de procesamiento
+## Tiempo de envío frente al tiempo de procesamiento
 
-La &quot;Hora de envío&quot; o &quot;Hora del día&quot; introducidas por el usuario especifica la hora en que el informe debe comenzar a procesarse, no la hora en que se enviará. El momento en el que se enviará el informe se basa principalmente en el tiempo que tarda en procesarse. Los informes complejos y grandes tardan más en procesarse que los informes más simples. Por ejemplo, si un informe tarda 15 minutos en procesarse, la hora de envío real será al menos 15 minutos después de la &quot;Hora de envío&quot; o &quot;Hora del día&quot; especificadas originalmente.
+La &quot;Hora de envío&quot; u &quot;Hora del día&quot; introducida por el usuario especifica la hora en que el informe debe comenzar a procesarse, no la hora en que se enviará. El momento en que se enviará el informe se basa principalmente en el tiempo que tarda en procesarse. Los informes complejos y grandes tardan más en procesarse que los más simples. Por ejemplo: si un informe tarda 15 minutos en procesarse, la hora de envío real será al menos 15 minutos después de la &quot;Hora de envío&quot; u &quot;Hora del día&quot; especificadas originalmente.
 
 Además, hay otros factores que pueden aumentar aún más la demora antes de que se presente el informe:
 
-* **Ejecución de varias programaciones diferentes del mismo tipo al mismo tiempo** (por ejemplo, muchos paneles, etc.) puede sobrecargar el sistema. El sistema de programación solo permite ejecutar al mismo tiempo unos pocos informes (5-10) de cualquier tipo. Cuando se programen más de 5-10 a la vez, algunos tendrán que esperar a que otros informes finalicen antes de que puedan comenzar a procesarse. Este problema se puede mitigar programando los informes de una empresa en horas escalonadas durante el día o la hora, en lugar de hacerlo simultáneamente.
+* **Ejecución de varias programaciones diferentes del mismo tipo al mismo tiempo** (por ejemplo, muchos paneles, etc.) puede sobrecargar el sistema. El sistema de programación solo permite ejecutar al mismo tiempo unos pocos informes (5-10) de cualquier tipo. Cuando se programan más de 5-10 a la vez, algunos tendrán que esperar a que otros informes finalicen antes de que puedan comenzar a procesarse. Este problema se puede mitigar programando los informes de una empresa en horas escalonadas durante el día o la hora, en lugar de hacerlo simultáneamente.
 * Además del tipo de informe específico (paneles, etc.), los informes también esperarán si la empresa tiene **más de 15 y 20 informes de cualquier tipo programados a la vez (en todos los diferentes tipos de informes)**. Esto se puede mitigar escalonando los tiempos de programación en lugar de tener varios ejecutándose al mismo tiempo.
 * **Los problemas en los servicios descendentes** en los que se basa el planificador también pueden afectar al envío de informes. Por ejemplo: si utiliza las API de forma independiente para ejecutar informes y rellenar la cola de solicitudes de API, los informes programados pueden entregarse más despacio mientras solicita ese recurso.
 * **La latencia del grupo de informes** (un retraso en la recopilación de datos) también puede retrasar algunos informes programados.
@@ -44,7 +44,7 @@ Además, hay otros factores que pueden aumentar aún más la demora antes de que
 
 ## Enviar un informe {#task_27642CD33D484FD0BF59EBD159EEF52C}
 
-Para descargar y enviar por correo electrónico informes en diversos formatos y programar el envío de un informe:
+Para descargar y enviar por correo electrónico informes en diversos formatos y programar su envío:
 
 1. Ejecute un informe y, a continuación, haga clic en **[!UICONTROL Más]** > **[!UICONTROL Enviar]**.
 1. Especifique las opciones de envío:
@@ -115,7 +115,7 @@ El [!UICONTROL Administrador de programación de informes] muestra los artículo
 
 ## Compartir un vínculo a un informe {#task_9711DDE9E140451B8C914EC5513E21EC}
 
-Puede compartir un informe generando un vínculo del informe (URL) para enviarlo a otro usuario.
+Puede compartir un informe generando un vínculo de informe (URL) para enviarlo a otro usuario.
 
 Cuando el destinatario hace clic en el vínculo, el sistema solicita las credenciales de inicio de sesión (nombre de la empresa, nombre de usuario y contraseña). Después de iniciar sesión, el destinatario se muestra en el informe generado por el usuario original. Se aplican restricciones de permiso estándar.
 

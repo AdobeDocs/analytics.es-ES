@@ -5,7 +5,7 @@ title: Crear un grupo de informes virtuales
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: Informes en tiempo real
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
 source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
 

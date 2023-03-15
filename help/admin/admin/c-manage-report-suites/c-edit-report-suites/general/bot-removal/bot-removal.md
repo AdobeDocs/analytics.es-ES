@@ -4,7 +4,7 @@ description: Eliminación de bots en Adobe Analytics
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 100%
 

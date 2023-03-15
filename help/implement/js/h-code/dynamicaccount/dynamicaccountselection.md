@@ -14,7 +14,7 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->Las cuentas dinámicas solo se admiten mediante implementaciones de JavaScript heredadas (código H). Estas variables no son compatibles con las bibliotecas de AppMeasurement actuales ni con la recopilación de datos de Adobe Experience Platform.
+>Las cuentas dinámicas solo se admiten mediante implementaciones de JavaScript heredadas (código H). Estas variables no son compatibles con las bibliotecas actuales de AppMeasurement ni con la recopilación de datos de Adobe Experience Platform.
 
 La variable `dynamicAccountSelection` es un valor booleano que determina si se utiliza la selección dinámica de cuentas.
 

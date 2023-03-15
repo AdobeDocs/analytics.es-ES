@@ -3,7 +3,7 @@ description: Puede ver los datos de Adobe Campaign en Adobe Analytics
 title: Ver datos de Adobe Campaign en Adobe Analytics
 feature: Admin Tools
 source-git-commit: d4e831398182166e0ffe78659e26d2078fa9be7b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 100%
 

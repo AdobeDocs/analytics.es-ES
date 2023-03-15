@@ -20,7 +20,7 @@ La mayoría de las variables enviadas a Adobe son cadenas. En JavaScript, puede 
 
 ### Combinación de comillas para definir una variable
 
-Como práctica recomendada, asegúrese de que es coherente con los tipos de comillas que utiliza. Si una comilla simple designa el inicio de una cadena, debe utilizarse una comilla simple para cerrarla.
+Como práctica recomendada, asegúrese de ser coherente con los tipos de comillas que utiliza. Si una comilla simple designa el inicio de una cadena, debe utilizarse una comilla simple para cerrarla.
 
 Por ejemplo, tanto `s.eVar1 = 'Value'` como `s.eVar1 = "Value"` son ejemplos válidos. En cambio, `s.eVar1 = 'Value"` no es válido.
 

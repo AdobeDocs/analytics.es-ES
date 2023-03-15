@@ -4,7 +4,7 @@ description: Revise la implementación cada 6 meses para garantizar una alineaci
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 

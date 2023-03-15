@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: a0bed55f-042c-4963-b7e5-7a5369bba48e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 62%
+source-wordcount: '109'
+ht-degree: 61%
 
 ---
 
@@ -20,7 +20,7 @@ Activity Map es compatible con los siguientes exploradores web.
 |--- |--- |
 | Internet Explorer | Última versión |
 | Firefox | Última versión |
-| Chrome | Última versión. Nota:  El complemento Activity Map Chrome es un complemento de &quot;modo de desarrollador&quot; solo en este momento. Al iniciar este complemento, aparece un mensaje que le anima a desactivar las extensiones del modo de desarrollador. Este mensaje se muestra cada vez que se inicia el complemento. |
+| Chrome | Última versión. Nota: El complemento de Activity Map Chrome solo está en &quot;modo de desarrollador&quot; de momento. Al iniciar este complemento, aparece un mensaje que le anima a desactivar las extensiones del modo de desarrollador. Este mensaje se muestra cada vez que se inicia el complemento. |
 
 >[!NOTE]
 >

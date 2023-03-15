@@ -4,7 +4,7 @@ description: El número de visitas en las que un visitante quitó un producto de
 feature: Metrics
 exl-id: 74b9677e-89c7-4409-8bd3-99707436def0
 source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ title: Resumen del reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 100%
 

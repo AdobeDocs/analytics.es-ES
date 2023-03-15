@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear informes basados en audienci
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ El informe geográfico de idioma muestra el tráfico del sitio según la configu
 
 Para crear un informe de idioma:
 
-1. En el menú Componentes, busque la dimensión **Idioma** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
+1. En el menú Componentes, localice la dimensión **Idioma** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 Consulte la dimensión [Idioma](/help/components/dimensions/language.md) en la Guía del usuario de componentes para obtener más información.
@@ -86,7 +86,7 @@ Para crear un informe de ubicación geográfica:
 
 Si, además del mapa, también desea utilizar la tabla:
 
-1. En el menú Componentes, busque la dimensión **Países** y arrástrela al área “Colocar una dimensión aquí” de la tabla de forma libre.
+1. En el menú Componentes, localice la dimensión **Países** y arrástrela al área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 Consulte las dimensiones [Países](/help/components/dimensions/countries.md) en la Guía del usuario de componentes para obtener más información.
@@ -97,7 +97,7 @@ El informe que compara las visitas nuevas con las recurrentes incluye informaci�
 
 Para crear un informe de visitas nuevas y recurrentes:
 
-1. En el menú de componentes, busque el segmento **Visitas por primera vez** y arrástrelo al área “Colocar una dimensión aquí” de la tabla de forma libre. Tenga en cuenta que **Visitas por primera vez** es un segmento, mientras que Workspace suele utilizar dimensiones para representar filas.
+1. En el menú Componentes, localice el segmento **Visitas por primera vez** y arrástrelo al área “Colocar una dimensión aquí” de la tabla de forma libre. Tenga en cuenta que **Visitas por primera vez** es un segmento, mientras que Workspace suele utilizar dimensiones para representar filas.
 2. Busque el segmento **Visitas de retorno** y arrástrelo sobre el encabezado de fila Segmentos. Esto agrega el segmento como una dimensión debajo de Visitas por primera vez, lo que permite realizar una comparación sencilla.
 3. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
@@ -111,7 +111,7 @@ Si también se desea un gráfico de líneas:
 
 El informe de frecuencia y actualización es aproximadamente igual a la dimensión **Número de visita** en Analysis Workspace.
 
-1. En el menú de componentes, localice la dimensión **Número de visita** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
+1. En el menú Componentes, localice la dimensión **Número de visita** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 Consulte la dimensión [Número de visita](/help/components/dimensions/visit-number.md) en la Guía del usuario de componentes para obtener más información.
@@ -120,7 +120,7 @@ Consulte la dimensión [Número de visita](/help/components/dimensions/visit-num
 
 El informe de participación es aproximadamente igual a la dimensión **Tiempo empleado por visita: Agrupado**.
 
-1. En el menú de componentes, busque la dimensión **Tiempo empleado por visita: Agrupado** y arrástrela al área “Colocar una dimensión aquí” de la tabla de forma libre.
+1. En el menú Componentes, localice la dimensión **Tiempo empleado por visita: Agrupado** y arrástrela al área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 Consulte la dimensión [Tiempo empleado por visita](/help/components/dimensions/time-spent-per-visit.md) en la Guía del usuario de componentes para obtener más información.
@@ -135,7 +135,7 @@ Hay varias dimensiones principales disponibles en el informe Explorador y SO.
 * La dimensión principal **Colores de pantalla** está disponible en Analysis Workspace como la dimensión **Profundidad de color**.
 * La dimensión principal **Versión de Flash** no está disponible en Adobe Analytics, pero si se desea, una eVar puede recopilar estos datos.
 
-1. En el menú de componentes, localice la dimensión deseada indicada arriba y arrástrela al área “Colocar una dimensión aquí” de la tabla de forma libre.
+1. En el menú Componentes, localice la dimensión deseada indicada arriba y arrástrela al área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 Consulte las siguientes páginas en la Guía del usuario de componentes para obtener más información sobre sus dimensiones:
@@ -149,7 +149,7 @@ Consulte las siguientes páginas en la Guía del usuario de componentes para obt
 
 El informe de red es aproximadamente igual a la dimensión **Dominio**.
 
-1. En el menú de componentes, busque la dimensión **Dominio** y arrástrela al área “Colocar una dimensión aquí” de la tabla de forma libre.
+1. En el menú Componentes, localice la dimensión **Dominio** y arrástrela al área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 Consulte la dimensión [Dominio](/help/components/dimensions/domain.md) en la Guía del usuario de componentes para obtener más información.
@@ -158,7 +158,7 @@ Consulte la dimensión [Dominio](/help/components/dimensions/domain.md) en la Gu
 
 El informe de información general móvil es aproximadamente igual a la dimensión **Tipo de dispositivo móvil**. Tenga en cuenta que el valor “Otro” es equivalente al tráfico de escritorio.
 
-1. En el menú de componentes, busque la dimensión **Tipo de dispositivo móvil** y arrástrela al área “Colocar una dimensión aquí” de la tabla de forma libre.
+1. En el menú Componentes, localice la dimensión **Tipo de dispositivo móvil** y arrástrela al área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 Consulte la dimensión [Tipo de dispositivo móvil](/help/components/dimensions/mobile-dimensions.md) en la Guía del usuario de componentes para obtener más información.
@@ -167,7 +167,7 @@ Consulte la dimensión [Tipo de dispositivo móvil](/help/components/dimensions/
 
 El informe de dispositivos móviles es prácticamente igual que la dimensión de **Dispositivos móviles**.
 
-1. En el menú de componentes, busque la dimensión **Dispositivo móvil** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
+1. En el menú Componentes, localice la dimensión **Dispositivo móvil** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
 Consulte la dimensión [Dispositivo móvil](/help/components/dimensions/mobile-dimensions.md) en la Guía del usuario de componentes para obtener más información.

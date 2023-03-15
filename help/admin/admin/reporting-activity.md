@@ -5,8 +5,8 @@ feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '962'
+workflow-type: tm+mt
+source-wordcount: '950'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Al abrir la página de información general del Administrador de [!UICONTROL act
 | **[!UICONTROL Capacidad de uso]** | Porcentualmente, qué parte de la capacidad de creación de informes del grupo de informes se está utilizando en tiempo real. |
 | **[!UICONTROL Estado]** | Hay cuatro posibles indicadores de estado: <ul><li>**Rojo - [!UICONTROL Al límite de la capacidad]**: el grupo de informes está al límite de su capacidad de creación de informes. (100 %) </li><li>**Amarillo - [!UICONTROL Casi a plena capacidad]**: el grupo de informes corre el riesgo de alcanzar su capacidad máxima. (90 % - 99 %)</li><li>**Verde - [!UICONTROL Buen estado]**: hay suficiente capacidad de creación de informes. (0 % - 89 %)</li><li>**Gris - [!UICONTROL Estado pendiente/No habilitado]**: la capacidad de la creación de informes no está disponible.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Otras acciones de actividades de creación de informes
 
@@ -94,7 +94,7 @@ Los números de resumen muestran la siguiente información:
 | [!UICONTROL Tiempo de espera promedio] | El tiempo de espera promedio para todas las consultas en ejecución. |
 | [!UICONTROL Capacidad de uso] | La capacidad de uso actual de este grupo de informes. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Tabla
 
@@ -114,7 +114,7 @@ La tabla detallada a continuación muestra los detalles del grupo de informes.
 | [!UICONTROL Segmentos] | Cuántos segmentos se aplican a esta solicitud. Esto aumenta la complejidad de la solicitud. |
 | [!UICONTROL Estado] | Indicadores de estado: <ul><li>**Ejecución**: la solicitud está siendo procesada en este momento.</li><li>**Pendiente**: la solicitud está esperando a procesarse.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cancelar solicitudes de creación de informes
 
@@ -139,4 +139,4 @@ Los usuarios de aplicaciones de Workspace, por ejemplo, verán aparecer el sigui
 | --- | --- |
 | ¿Puedo adquirir capacidad adicional de creación de informes? | Esta capacidad estará disponible próximamente. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

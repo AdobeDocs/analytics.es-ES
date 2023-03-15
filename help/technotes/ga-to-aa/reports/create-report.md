@@ -4,7 +4,7 @@ description: Información sobre la creación de un informe básico en Analysis W
 feature: Third-party Integration
 exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Cree la plantilla Consumo de contenido (similar al informe Todas las páginas de
 
 Como Analysis Workspace es una herramienta de generación de informes, no afecta a la recopilación de datos. No hay repercusiones en arrastrar indiscriminadamente componentes a un proyecto para ver qué funciona. Arrastre diferentes combinaciones de dimensiones y métricas al proyecto del espacio de trabajo para ver qué hay disponible.
 
-Si arrastra accidentalmente un componente no válido al proyecto del espacio de trabajo o desea volver atrás un paso, pulse ctrl+Z (Windows) o cmd+Z (Mac) para deshacer la última acción realizada. También puede empezar con una pizarra limpia haciendo clic en *[!UICONTROL Proyecto] > [!UICONTROL Nuevo]* en el menú superior izquierdo.
+Si arrastra accidentalmente un componente no válido al proyecto de Workspace o desea volver atrás un paso, pulse ctrl+Z (Windows) o cmd+Z (Mac) para deshacer la última acción realizada. También puede empezar con una pizarra limpia haciendo clic en *[!UICONTROL Proyecto] > [!UICONTROL Nuevo]* en el menú superior izquierdo.
 
 Adobe incluye muchas funciones en Analysis Workspace, en el menú contextual que se muestra al hacer clic con el botón derecho. Para obtener un análisis y una interacción más detallados con la mayoría de las visualizaciones, haga clic sobre ellas con el botón derecho. Haciendo clic con el botón derecho sobre los componentes del espacio de trabajo, se pueden consultar las opciones disponibles.
 

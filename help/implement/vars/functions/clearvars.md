@@ -6,7 +6,7 @@ exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 74%
+ht-degree: 80%
 
 ---
 
@@ -31,13 +31,13 @@ Este método no toma ningún argumento y no devuelve ningún valor. Su único pr
 
 ## Borrado de variables mediante el SDK web
 
-Cuando se envían datos a Adobe mediante el SDK web, todos los datos XDM se borran automáticamente.
+Al enviar datos al Adobe mediante el SDK web, todos los datos XDM se borran automáticamente.
 
-## Borrar variables con la extensión Adobe Analytics
+## Borrado de variables con la extensión Adobe Analytics
 
 Establezca la acción Borrar variables al configurar una regla.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en el icono “+”.

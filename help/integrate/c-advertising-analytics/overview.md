@@ -4,7 +4,7 @@ title: Guía de Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 100%
 

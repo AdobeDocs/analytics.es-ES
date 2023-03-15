@@ -1,6 +1,6 @@
 ---
 description: Pasos para añadir eventos de calendario y gestionar eventos compartidos.
-title: Agregar y administrar eventos de calendario
+title: Adición y administración de eventos de calendario
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 feature: Calendar
 role: User, Admin

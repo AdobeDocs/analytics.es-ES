@@ -4,7 +4,7 @@ description: Año en el que se produjo la métrica.
 feature: Dimensions
 exl-id: 872fb659-fb19-40ac-b371-e89c5a5d0274
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 100%
 

@@ -1,5 +1,5 @@
 ---
-description: Puede ver los datos de Advertising Analytics en Adobe Analytics
+description: Puede ver datos de Advertising Analytics en Adobe Analytics
 title: Configuración de Advertising Analytics
 feature: Admin Tools
 source-git-commit: 47ba1b9f7e03628976962b648a0faf8f6c59e82c
@@ -22,7 +22,7 @@ Puede obtener los siguientes datos en Adobe Analytics:
 
 * Clics
 
-* Costea los datos directamente desde los motores de búsqueda
+* Coste datos directamente de los motores de búsqueda
 
 * Instancias de ID de AMO (instancias de clic)
 

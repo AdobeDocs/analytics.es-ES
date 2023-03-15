@@ -4,7 +4,7 @@ description: Dimensión basada en visitas que indica la profundidad de la visita
 feature: Dimensions
 exl-id: 3e9aca08-2255-46ca-9949-77334ee7120e
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
 

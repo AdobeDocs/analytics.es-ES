@@ -6,7 +6,7 @@ exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 72%
+ht-degree: 81%
 
 ---
 
@@ -22,19 +22,19 @@ Al configurar un evento de compra, este afecta a las siguientes métricas:
 
 >[!NOTE]
 >
->Los ingresos no se multiplican por el campo de cantidad. Por ejemplo, `s.products="Womens;Socks;5;4.50"` no pasa 22,50 dólares a ingresos; pasa 4,50 $. Asegúrese de que la implementación pasa los ingresos totales en relación con la cantidad enumerada. Por ejemplo, `s.products="Womens;Socks;5;22.50"`.
+>Los ingresos no se multiplican por el campo de cantidad. Por ejemplo, `s.products="Womens;Socks;5;4.50"` no pasa 22,50 $ a los ingresos, sino que pasa 4,50 $. Asegúrese de que la implementación pasa los ingresos totales en relación con la cantidad enumerada. Por ejemplo, `s.products="Womens;Socks;5;22.50"`.
 
-## Definir el evento de compra mediante el SDK web
+## Configuración del evento de compra mediante el SDK web
 
-El evento de compra es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) en varios campos XDM:
+El evento de compra es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en varios campos XDM:
 
-* Los pedidos están asignados a `commerce.purchases.value`.
-* Las unidades se asignan a la suma de todas `productListItems[].quantity` campos.
-* Los ingresos se asignan a la suma de todos los `productListItems[].priceTotal` campos.
+* Los pedidos se asignan a `commerce.purchases.value`.
+* Las unidades se asignan a la suma de todos los campos `productListItems[].quantity`.
+* Los ingresos se asignan a la suma de todos los campos `productListItems[].priceTotal`.
 
-## Configurar el evento de compra con la extensión de Adobe Analytics
+## Configure el evento de compra con la extensión Adobe Analytics
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
@@ -43,7 +43,7 @@ El evento de compra es [asignado para Adobe Analytics](https://experienceleague.
 
 Otras variables dependientes como `products` y `purchaseID` no tiene campos dedicados en la extensión de Analytics dentro de la recopilación de datos de Adobe Experience Platform. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement para estas variables.
 
-## Establezca el evento de compra en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## Configure el evento de compra en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 El evento de compra es una cadena que se establece como parte de la variable de eventos.
 

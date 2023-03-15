@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Eliminar carpetas en el Espacio de trabajo
 feature: Workspace Basics
 source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 100%
 

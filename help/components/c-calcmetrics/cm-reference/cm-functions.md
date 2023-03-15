@@ -4,7 +4,7 @@ title: 'Referencia: funciones básicas'
 feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ SUM(metric)
 
 ## Recuento (Tabla) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
-Devuelve un número, o recuento, de valores distintos de cero para una métrica dentro de una columna (el número de elementos únicos informados dentro de una dimensión).
+Devuelve un número, o recuento, de valores distintos de cero para una métrica dentro de una columna (el número de elementos únicos incluidos dentro de una dimensión).
 
 ```
 COUNT(metric)
@@ -178,7 +178,7 @@ QUARTILE(metric,quart)
 | *métrica* | La métrica de la cual desea el valor de cuartil. |
 | *cuarto* | Indica qué *valor debe devolver. |
 
-*Si *cuarto* = 0, QUARTILE devuelve el valor mínimo. Si *cuarto* = 1, QUARTILE muestra el primer cuartil (porcentaje 25). Si *cuarto* = 2, QUARTILE muestra el primer cuartil (porcentaje 50). Si *cuarto* = 3, QUARTILE muestra el primer cuartil (porcentaje 75). Si *cuarto* = 4, QUARTILE devuelve el valor máximo.
+&#42;Si *cuarto* = 0, QUARTILE devuelve el valor mínimo. Si *cuarto* = 1, QUARTILE muestra el primer cuartil (porcentaje 25). Si *cuarto* = 2, QUARTILE muestra el primer cuartil (porcentaje 50). Si *cuarto* = 3, QUARTILE muestra el primer cuartil (porcentaje 75). Si *cuarto* = 4, QUARTILE devuelve el valor máximo.
 
 ## Ronda {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 

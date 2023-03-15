@@ -4,7 +4,7 @@ description: Descubra cómo las medidas de prevención de seguimiento afectan a 
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1981'
 ht-degree: 100%
 

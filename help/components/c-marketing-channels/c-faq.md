@@ -4,7 +4,7 @@ description: Preguntas más frecuentes sobre los canales de marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 100%
 

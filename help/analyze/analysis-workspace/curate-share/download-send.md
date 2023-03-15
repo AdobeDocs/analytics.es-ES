@@ -5,7 +5,7 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ La opción **[!UICONTROL Descargar datos como CSV]** del botón secundario le pe
 
 ## Descargar elementos como CSV {#download-items}
 
-Si desea analizar más de las 400 filas de datos visibles en una tabla, haga clic con el botón derecho en cualquier encabezado de tabla o fila y seleccione **Descargar elementos como CSV (nombre de la dimensión)**. Esta opción exportará hasta 50 000 elementos de dimensión (según el orden de tabla) para la dimensión seleccionada, con filtros y segmentos aplicados. Si elige esta opción en la parte superior de la tabla, se exporta la primera dimensión de la tabla. Aunque no se aplican límites en la tabla improvisada, se recomienda utilizar la opción Descargar elementos en tablas con menos de 20 columnas para garantizar un rendimiento óptimo.
+Si desea analizar más de las 400 filas de datos visibles en una tabla, haga clic con el botón derecho en cualquier encabezado de tabla o fila y seleccione **Descargar elementos como CSV (nombre de la dimensión)**. Esta opción exportará hasta 50 000 elementos de dimensión (según el orden de tabla) para la dimensión seleccionada, con filtros y segmentos aplicados. Si elige esta opción en la parte superior de la tabla, se exporta la primera dimensión de la tabla. Aunque no se aplican límites en la tabla de forma libre, se recomienda utilizar la opción Descargar elementos en tablas con menos de 20 columnas para garantizar un rendimiento óptimo.
 
 >[!TIP]
 >

@@ -6,7 +6,7 @@ exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -18,15 +18,15 @@ Adobe utiliza diferentes métodos para identificar a los visitantes del sitio. L
 >
 >Adobe recomienda evitar esta variable. En su lugar, utilice el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
 
-## Anulación de ID de visitante mediante el SDK web
+## Anulación del ID de visitante mediante el SDK web
 
-próximamente!
+Próximamente!
 
-## ID de visitante con la extensión de Adobe Analytics
+## ID de visitante con la extensión Adobe Analytics
 
 [!UICONTROL ID de visitante] es un campo en el acordeón de [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL Cookies], que muestra el campo [!UICONTROL ID de visitante].

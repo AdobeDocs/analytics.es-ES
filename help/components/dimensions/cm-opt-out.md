@@ -3,7 +3,7 @@ title: Exclusión en la administración de consentimiento
 description: Ver qué configuración de privacidad excluyó un visitante.
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 

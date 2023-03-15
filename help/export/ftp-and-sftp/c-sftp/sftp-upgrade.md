@@ -4,7 +4,7 @@ description: Preguntas frecuentes sobre la actualización prevista de los servic
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 100%
 

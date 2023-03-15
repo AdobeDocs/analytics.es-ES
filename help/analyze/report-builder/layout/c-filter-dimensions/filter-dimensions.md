@@ -6,7 +6,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
 
@@ -40,31 +40,31 @@ Las tablas que aparecen a continuación contienen ejemplos e información sobre 
    <td colname="col1"> <p>Contiene todos los términos </p> </td> 
    <td colname="col02"> <p>Contiene todos los valores delimitados por espacios, en cualquier orden. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>Devuelve como resultado  <span class="term"> a b c</span> y <span class="term"> b a c</span>, etc. </p> </td> 
+   <td colname="col3"> <p>Devuelve como resultado <span class="term"> a b c</span> y <span class="term"> b a c</span>, etc. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contiene cualquier término </p> </td> 
    <td colname="col02"> <p>Contiene al menos uno de los filtros (delimitados por espacios). </p> </td> 
    <td colname="col2"> <p>A B C </p> </td> 
-   <td colname="col3"> <p>Devuelve como resultado  <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>, pero no <span class="term"> D4</span>. </p> </td> 
+   <td colname="col3"> <p>Devuelve como resultado <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>, pero no <span class="term"> D4</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contiene la frase </p> </td> 
    <td colname="col02"> <p>Contiene el filtro de búsqueda y, posiblemente, otros términos. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>Devuelve como resultado  <span class="term"> abc</span> y <span class="term"> abc def</span>. </p> </td> 
+   <td colname="col3"> <p>Devuelve como resultado <span class="term"> abc</span> y <span class="term"> abc def</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>No contiene ningún término </p> </td> 
    <td colname="col02"> <p>Devuelve todos los resultados excepto los que contienen alguno de los valores introducidos. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>Devuelve como resultado  <span class="term"> d e f</span> pero no <span class="term"> c d e f</span>. </p> </td> 
+   <td colname="col3"> <p>Devuelve como resultado <span class="term"> d e f</span> pero no <span class="term"> c d e f</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>No contiene la frase </p> </td> 
    <td colname="col02"> <p>Devuelve todos los resultados excepto los que contienen la frase especificada. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>Excluye  <span class="term"> abc</span>, <span class="term"> abc def</span> y coincide con <span class="term"> def</span> </p> </td> 
+   <td colname="col3"> <p>Excluye <span class="term"> abc</span>, <span class="term"> abc def</span> y coincide con <span class="term"> def</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Es igual a </p> </td> 
@@ -119,7 +119,7 @@ Las tablas que aparecen a continuación contienen ejemplos e información sobre 
   <tr> 
    <td colname="col1"> " " </td> 
    <td colname="col2"> Es igual a </td> 
-   <td colname="col3"> <p>No es necesario anteponer un carácter de escape si no se combina con otras comillas. Por ejemplo,  <span class="term"> Pantalla de 17"</span> no es una frase. </p> </td> 
+   <td colname="col3"> <p>No es necesario anteponer un carácter de escape si no se combina con otras comillas. Por ejemplo, <span class="term"> Pantalla de 17"</span> no es una frase. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> * </td> 

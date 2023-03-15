@@ -1,11 +1,11 @@
 ---
-description: Obtenga información sobre cómo crear carpetas y subcarpetas en el Espacio de trabajo
+description: Obtenga información sobre cómo crear carpetas y subcarpetas en Workspace
 keywords: Analysis Workspace
 title: Creación de carpetas
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
 source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Creación de carpetas
 
-Puede agregar una carpeta nueva o una subcarpeta a la lista de proyectos y carpetas de la página de aterrizaje del Espacio de trabajo.
+Puede agregar una carpeta nueva o una subcarpeta a la lista de proyectos y carpetas de la página de aterrizaje de Workspace.
 
 ## Crear una nueva carpeta {#create-new-folder}
 

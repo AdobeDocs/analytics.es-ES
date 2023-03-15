@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: afe2326d-3ea9-4977-aa8f-2c5e1a79e4c7
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 83%
 
 ---
@@ -24,7 +24,7 @@ Puede seleccionar uno o varios segmentos en el menú desplegable **[!UICONTROL S
 
 ![](assets/segments.png)
 
-Cuando la selección de segmentos ha cambiado y después de cerrar el selector de segmentos, se inicia un nuevo proceso de recuperación de datos de Analytics para todas las métricas que se muestran en la aplicación. Los segmentos seleccionados se recuerdan cuando se navega de una página a otra.
+Cuando la selección de segmentos ha cambiado, y después de cerrar el selector de segmentos, se inicia un nuevo proceso de recuperación de datos de Analytics para todas las métricas que se muestran en la aplicación. Los segmentos seleccionados se recuerdan cuando se navega de una página a otra.
 
 Cuando se selecciona más de un segmento, en la etiqueta de selección de segmentos (en estado contraído) aparece “Múltiple”. La lista completa de segmentos seleccionados se verá al hacer clic en el control.
 

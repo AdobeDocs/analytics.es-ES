@@ -4,7 +4,7 @@ description: Permite crear nuevas cuentas de publicidad y asignar varias cuentas
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 100%
 

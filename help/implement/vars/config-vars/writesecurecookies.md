@@ -6,7 +6,7 @@ exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 72%
+ht-degree: 77%
 
 ---
 
@@ -24,13 +24,13 @@ Obtenga más información acerca de las cookies de Analytics [aquí](https://exp
 
 ## Uso de cookies seguras con el SDK web
 
-Si su sitio utiliza el protocolo HTTPS, el atributo Secure se establece para todas las cookies que establezca el SDK web.
+Si su sitio utiliza el protocolo HTTPS, el atributo Secure se establece para todas las cookies que establece el SDK web.
 
-## Escribir cookies seguras con la extensión Adobe Analytics
+## Escribir cookies seguras mediante la extensión de Adobe Analytics
 
 [!UICONTROL Escribir cookies seguras] es una casilla de verificación situada debajo del elemento de acordeón [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL Cookies], que muestra la casilla [!UICONTROL Escribir cookies seguras].

@@ -6,7 +6,7 @@ exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 61%
+ht-degree: 68%
 
 ---
 
@@ -18,24 +18,24 @@ Adobe recopila datos en el sitio mediante la recepción de una solicitud de imag
 >
 >Si se cambia este valor, AppMeasurement buscará cookies en una ubicación diferente. La cantidad de visitantes únicos puede aumentar temporalmente en los informes a medida que las cookies de los visitantes se establecen en la nueva ubicación.
 
-## Dominio perimetral con la extensión SDK web
+## Dominio perimetral con la extensión del SDK web
 
-El SDK web utiliza [!UICONTROL Dominio perimetral] para gestionar el servidor de seguimiento y el servidor de seguimiento seguro. Puede configurar la [!UICONTROL Dominio perimetral] al configurar la extensión del SDK web.
+El SDK web utiliza [!UICONTROL Dominio de Edge] para gestionar tanto el servidor de seguimiento como el servidor de seguimiento seguro. Puede establecer el [!UICONTROL Dominio de Edge] al configurar la extensión del SDK web.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
-1. Vaya a la [!UICONTROL Extensiones] y, a continuación, haga clic en la pestaña **[!UICONTROL Configurar]** botón debajo de [!UICONTROL SDK web de Adobe Experience Platform].
-1. Configure los **[!UICONTROL Dominio perimetral]** campo de texto.
+1. Vaya a la [!UICONTROL Extensiones] y, a continuación, haga clic en **[!UICONTROL Configurar]** botón debajo de [!UICONTROL SDK web de Adobe Experience Platform].
+1. Defina el **[!UICONTROL Dominio de Edge]** campo de texto.
 
-Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) en la documentación del SDK web para obtener más información.
+Consulte [Configuración de la extensión SDK para web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=es) en la documentación del SDK web para obtener más información.
 
 >[!TIP]
 >
->Si su organización se traslada al SDK web desde una implementación de extensión de AppMeasurement o Analytics, este campo puede utilizar el mismo valor contenido en `trackingServerSecure` (o `trackingServer`).
+>Si su organización cambia al SDK web desde una implementación de extensión de AppMeasurement o Analytics, este campo puede utilizar el mismo valor contenido en `trackingServerSecure` (o `trackingServer`).
 
-## Dominio perimetral que implementa manualmente el SDK web
+## Dominio de Edge que implementa manualmente el SDK web
 
-Configuración del SDK mediante [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es). El campo es una cadena que determina el dominio al que enviar los datos.
+Configuración del SDK mediante [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es). El campo es una cadena que determina el dominio al que se envían los datos.
 
 ```json
 alloy("configure", {
@@ -43,11 +43,11 @@ alloy("configure", {
 });
 ```
 
-## Servidor de seguimiento SSL con la extensión Adobe Analytics
+## Servidor de seguimiento SSL con la extensión de Adobe Analytics
 
 [!UICONTROL El servidor de seguimiento SSL] es un campo del acordeón [!UICONTROL General] al configurar la extensión de Adobe Analytics.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL General], que muestra el campo [!UICONTROL Servidor de seguimiento SSL].

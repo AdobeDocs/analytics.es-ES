@@ -4,7 +4,7 @@ title: Generación de posibles clientes
 feature: Report Suite Settings
 exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 100%
 

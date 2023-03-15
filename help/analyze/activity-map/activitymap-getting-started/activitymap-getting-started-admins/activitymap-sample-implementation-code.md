@@ -1,5 +1,5 @@
 ---
-description: Implemente Activity Map mediante la extensión de Adobe Analytics.
+description: Implemente Activity Map con la extensión de Adobe Analytics.
 title: Implementación de Activity Map
 feature: Activity Map
 role: User, Admin
@@ -13,4 +13,4 @@ ht-degree: 37%
 
 # Implementación de Activity Map
 
-El Activity Map se puede implementar con una casilla de verificación en la extensión de etiqueta de Adobe Analytics, en [Seguimiento de vínculos](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=es).
+El Activity Map se puede implementar con una casilla de verificación en la extensión de etiquetas de Adobe Analytics, en [Seguimiento de vínculos](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=es).

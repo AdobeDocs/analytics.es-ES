@@ -6,7 +6,7 @@ exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 80%
+ht-degree: 84%
 
 ---
 
@@ -24,15 +24,15 @@ La activación de `linkLeaveQueryString` se aplica a todas las dimensiones de se
 >
 >Esta variable no afecta a las dimensiones fuera del seguimiento de vínculos. Solo afecta a los vínculos personalizados, de salida y de descarga.
 
-## Gestión de cadenas de consulta de vínculos mediante el SDK web
+## Administrar cadenas de consulta de vínculo mediante el SDK web
 
-Las cadenas de consulta no se eliminan del campo XDM `web.webInteraction.URL`. Si desea eliminar cadenas de consulta de este campo XDM, puede editarlas mediante `onBeforeEventSend`.
+Las cadenas de consulta no se eliminan del campo XDM `web.webInteraction.URL`. Si desea eliminar cadenas de consulta de este campo XDM, puede editarlo mediante `onBeforeEventSend`.
 
 ## Mantener parámetros de URL con la extensión Adobe Analytics
 
 [!UICONTROL Mantener parámetros de URL] es una casilla de verificación en el acordeón de [!UICONTROL Seguimiento de vínculos] al configurar la extensión de Adobe Analytics.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 4. Expanda el acordeón de [!UICONTROL Seguimiento de vínculos], que muestra la casilla [!UICONTROL Mantener parámetros de URL].

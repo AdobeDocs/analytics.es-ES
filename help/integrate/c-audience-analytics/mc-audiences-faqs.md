@@ -5,7 +5,7 @@ title: Preguntas frecuentes  para Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 100%
 

@@ -141,7 +141,7 @@ Avanzado le permite realizar una búsqueda con comodines y otras búsquedas comp
 
 ## Crear filtros específicos de informes {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-Puede crear filtros para informes.
+Puede crear filtros para los informes.
 
 <!-- 
 

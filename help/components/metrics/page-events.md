@@ -4,7 +4,7 @@ description: Número de acciones de seguimiento de vínculos activadas.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%
 

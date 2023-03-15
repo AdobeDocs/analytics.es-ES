@@ -1,12 +1,12 @@
 ---
-description: 'Obtenga más información sobre '
+description: Obtenga más información sobre
 title: Tipo de métrica y atribución
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -58,9 +58,9 @@ Hay algunas diferencias en el funcionamiento de la atribución lineal entre esta
 
 ## Funcionamiento de la asignación lineal antes de julio de 2018
 
-Antes del 19 de julio de 2018, la atribución lineal se calculaba después de producirse la persistencia de primer toque o de último toque. Esto quiere decir que, para la última eVar de toque anterior, 10 $ se distribuirían de esta forma: A = 10 * (3/6) = 5 $, B = 10 * (2/6) = 3,33 $, C = 10 * (1/6) = 1,67 $.
+Antes del 19 de julio de 2018, la atribución lineal se calculaba después de producirse la persistencia de primer toque o de último toque. Esto significa que para el eVar de último contacto anterior, los 10 $ se distribuirían de la siguiente manera: A = 10 &#42; (3/6) = 5 USD, B = 10 &#42; (2/6) = 3,33 USD, C = 10 &#42; (1/6) = 1,67 $.
 
-Para la eVar de primer toque anterior, los 10 $ se asignarían a A. Para la prop: A = 10 * (2/4) = 5 $, B = 10 * (1/4) = 2,50 $ y C = 10 * (1/4) = 2,50 $. Para resumir el funcionamiento anterior de la asignación lineal:
+Para el eVar de primer contacto anterior, los $10 se le darían a A. Para la prop: A = 10 &#42; (2/4) = 5 USD, B = 10 &#42; (1/4) = 2,50 $ y C = 10 &#42; (1/4) = 2,50 $. Para resumir la asignación lineal como funcionaba anteriormente:
 
 | Valores | eVar de último toque actual | eVar de primer toque actual | Prop actual |
 |---|---|---|---|
@@ -71,7 +71,7 @@ Para la eVar de primer toque anterior, los 10 $ se asignarían a A. Para la pro
 
 **Resumen del funcionamiento actual de la asignación lineal**
 
-En lugar de usar los valores persistidos basados en el último o el primer toque, ahora [!DNL Analytics] usará solo los valores pasados (la primera fila de la tabla superior). De este modo, la configuración de la asignación de dimensiones ya no tendrá ningún impacto en la forma de calcular la asignación lineal (lo que significa que props y eVars se tratarán del mismo modo) y los resultados reflejarán lo que se haya transferido originalmente, en lugar de los valores de primer o último toque que puedan haber persistido. Es decir, en los tres casos, A = 10 * (2/4) = 5 USD, B = 10 * (1/4) = 2,50 USD, and C = 10 * (1/4) = 2,50 USD.
+En lugar de usar los valores persistidos basados en el último o el primer toque, ahora [!DNL Analytics] usará solo los valores pasados (la primera fila de la tabla superior). De este modo, la configuración de la asignación de dimensiones ya no tendrá ningún impacto en la forma de calcular la asignación lineal (lo que significa que props y eVars se tratarán del mismo modo) y los resultados reflejarán lo que se haya transferido originalmente, en lugar de los valores de primer o último toque que puedan haber persistido. Así, en los tres casos, A = 10 &#42; (2/4) = 5 USD, B = 10 &#42; (1/4) = 2,50 $ y C = 10 &#42; (1/4) = 2,50 $.
 
 | Valores | eVar de último toque nueva | eVar de primer toque nueva | Prop nueva |
 |---|---|---|---|

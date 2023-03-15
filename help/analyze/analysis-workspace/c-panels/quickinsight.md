@@ -5,7 +5,7 @@ feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Para ayudarle con esto, y en función del uso que haga su propia compañía de l
 
 * Crear correctamente una tabla de datos y una visualización adjunta en [!UICONTROL Analysis Workspace].
 * Conocer la terminología y el vocabulario para componentes básicos y partes de [!UICONTROL Analysis Workspace].
-* Realizar desgloses simples de dimensiones, agregar varias métricas o comparar segmentos fácilmente dentro de una [!UICONTROL tabla improvisada].
+* Realizar desgloses simples de dimensiones, agregar varias métricas o comparar segmentos fácilmente dentro de una [!UICONTROL tabla de forma libre].
 * Cambiar o probar varios tipos de visualización para encontrar la herramienta de búsqueda para su análisis de forma rápida e intuitiva.
 
 A continuación se muestra un vídeo introductorio del panel [!UICONTROL Quick Insights]:
@@ -66,7 +66,7 @@ A continuación se incluyen algunos de los términos básicos que debe conocer. 
 
 1. Cuando haya agregado al menos una dimensión y una métrica, se creará lo siguiente:
 
-   * Una tabla improvisada con la dimensión (Estados de EE. UU. en este ejemplo) verticalmente y la métrica (Visitas) horizontalmente en la parte superior. Consulte esta tabla:
+   * Una tabla de forma libre con la dimensión (Estados de EE. UU. en este ejemplo) verticalmente y la métrica (Visitas) horizontalmente en la parte superior. Consulte esta tabla:
 
    ![](assets/qibuilder3.png)
 
@@ -109,4 +109,4 @@ Recibirá una advertencia antes de agregar cualquier cosa directamente a la tabl
 
 ![](assets/qibuilder8.png)
 
-De lo contrario, la creación directa hará que la tabla ahora se comporte como una tabla improvisada tradicional, sin las funciones útiles para los nuevos usuarios.
+De lo contrario, la creación directa hará que la tabla ahora se comporte como una tabla de forma libre tradicional, sin las funciones útiles para los nuevos usuarios.

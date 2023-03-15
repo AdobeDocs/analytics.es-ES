@@ -6,13 +6,13 @@ exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Ejemplos de etiquetado
 
-## Datos de visitas de muestra {#hit}
+## Ejemplo de datos de visita {#hit}
 
 Suponga que dispone de los siguientes datos de visita:
 
@@ -32,7 +32,7 @@ Suponga que dispone de los siguientes datos de visita:
 |  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
-## Ejemplo de solicitud de acceso {#access}
+## Muestra de solicitud de acceso {#access}
 
 Si envío una solicitud de acceso, el archivo de resumen contiene los valores indicados en la tabla a continuación. Una solicitud puede contener únicamente un archivo de dispositivo, solo un archivo de persona o uno de cada. Solo se devuelven dos archivos de resumen si se utiliza un ID de persona y expandIDs es “true”.
 
@@ -141,7 +141,7 @@ Si envío una solicitud de acceso, el archivo de resumen contiene los valores in
 
 Tenga en cuenta que la configuración para expandIDs no supone ninguna diferencia en cuanto al resultado cuando se utiliza un ID de cookie.
 
-## Ejemplos de solicitudes de eliminación {#delete}
+## Muestras de solicitudes de eliminación {#delete}
 
 Con una solicitud de eliminación que utiliza valores de API en la primera fila de la tabla, la tabla de visitas se actualizará para buscar algo parecido a esto:
 
@@ -365,6 +365,6 @@ Recuerde lo siguiente:
 * Solo se ven afectadas las celdas de las filas que contienen `user=Mary` y una etiqueta `DEL-PERSON`.
 * Debido a la expansión del ID, las celdas de las filas que contienen `AAID=77`, `AAID=88` o `AAID=99` (que son los valores AAID de las filas que contienen `user=Mary`) y una etiqueta `DEL-DEVICE` se ven afectadas. Esto incluye celdas con una etiqueta `DEL-DEVICE` en filas donde `user=Mary`. Esto provoca que las celdas de las filas 4 y 5 (así como las filas 1-3) con etiquetas `DEL-DEVICE` (AAID, MyEvar2 y MyEvar3) se deban ocultar.
 * La configuración expandIDs no se expande a la llamada para incluir los valores presentes en MyEvar3 (`X`, `Y` y `Z`), que tiene una etiqueta ID-DEVICE, cuando `user=Mary`. ExpandIDs solo se expande para incluir los ID de visitante (AAID en este ejemplo, pero también el ECID) en filas donde `user=Mary`. Por lo tanto, las dos últimas filas, que contienen los valores MyEvar3 de `X` y `Z`, no se ven afectadas.
-* `MyEvar2` en las filas cuarta y quinta se actualizan porque estas filas contienen los mismos valores de ID de visitante (`77` y `88`) como los de las filas primera y segunda. Como resultado, la expansión de ID los incluye para eliminaciones en el nivel de dispositivo.
+* `MyEvar2` en las filas cuarta y quinta se actualiza, ya que estas filas contienen los mismos valores de ID de visitante (`77` y `88`) que los de las filas primera y segunda. Como resultado, la expansión de ID los incluye para eliminaciones en el nivel de dispositivo.
 * Los valores de `MyEvar2` en las filas segunda y quinta coinciden tanto antes como después de la eliminación. Sin embargo, después de la eliminación, ya no coinciden con el valor `N` que se produce en la última fila, ya que esa fila no se actualizó como parte de la solicitud de eliminación.
 * `MyEvar3` se comporta de forma muy distinta a como lo hacía sin expansión de ID porque, sin esta, ningún coincidía.`ID-DEVICES` Ahora, `AAID` coincide en las primeras cinco filas.

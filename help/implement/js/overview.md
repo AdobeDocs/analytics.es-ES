@@ -5,7 +5,7 @@ feature: Implementation Basics
 source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 45%
+ht-degree: 58%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 45%
 
 Históricamente, AppMeasurement para JavaScript ha sido un método común para implementar Adobe Analytics. Sin embargo, con la creciente popularidad de los sistemas de Tag Management, se recomienda utilizar [etiquetas en Adobe Experience Platform](../launch/overview.md).
 
-Una visión general de alto nivel de las tareas de implementación:
+Una información general de alto nivel de las tareas de implementación:
 
 ![Información general sobre la implementación de Adobe Analytics con AppMeasurement](../assets/appmeasurement-annotated.png)
 
@@ -24,15 +24,15 @@ Una visión general de alto nivel de las tareas de implementación:
 </tr>
 
 <tr>
-<td>1</td><td>Asegúrese de que <b>definición de un grupo de informes</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
+<td>1</td><td>Asegúrese de haber <b>definido un grupo de informes</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>Descargue el código JavaScript necesario para AppMeasurement</b> del Administrador de códigos. Descomprima el archivo.</td><td><a href="../../admin/admin/code-manager-admin.md">Administrador de códigos</a></td>
+<td>2</td><td><b>Descargue el código JavaScript necesario para AppMeasurement</b> de Administrador de códigos. Descomprima el archivo.</td><td><a href="../../admin/admin/code-manager-admin.md">Administrador de códigos</a></td>
 </tr>
 
 <tr>
-<td>3</td><td><b>Agregar <code>AppMeasurement.js</code> al archivo de plantilla del sitio web</b>. El código contiene las bibliotecas necesarias para enviar datos a Adobe.
+<td>3</td><td><b>Añadir <code>AppMeasurement.js</code> al archivo de plantilla del sitio web</b>. El código contiene las bibliotecas necesarias para enviar datos al Adobe.
 
 ```html
 <head>
@@ -72,13 +72,13 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>Envíe los datos a Adobe mediante la <code>t()</code> method</b>, cuando se definan todas las variables de página.
+<td>6</td><td><b>Envíe los datos al Adobe mediante la variable <code>t()</code> método</b>, cuando se definan todas las variables de página.
 
 ```js
 s.t();
 ```
 
-</td><td><a href="../vars/functions/t-method.md">t(), método</a></td>
+</td><td><a href="../vars/functions/t-method.md">método t()</a></td>
 </tr>
 
 <tr>

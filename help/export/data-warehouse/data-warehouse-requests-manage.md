@@ -4,10 +4,9 @@ title: Administrar solicitudes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 80%
 
 ---
@@ -31,6 +30,6 @@ Al trabajar en esta ficha, puede
 * Volver a priorizar los informes al arrastrarlos y colocarlos en una nueva ubicación dentro de la cola.
 * Para ver cuándo comenzó a procesarse una solicitud, haga clic en el ID de una solicitud programada y revise el menú emergente que se abre.
 
-Haga clic en un trabajo para ver solicitudes individuales para ese trabajo.
+Haga clic en un trabajo para ver las solicitudes individuales de ese trabajo.
 
-* Tasa limitada: Su organización tiene demasiadas solicitudes de Data Warehouse en ejecución. La solicitud se detiene hasta que se completen otras solicitudes de datos.
+* Velocidad limitada: Su organización tiene demasiadas solicitudes de Data Warehouse en ejecución. La solicitud se detiene hasta que se completen otras solicitudes de datos.

@@ -22,7 +22,7 @@ Está intentando [configurar una cuenta publicitaria nueva](/help/integrate/c-ad
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Razón </th> 
+   <th colname="col1" class="entry"> Motivo </th> 
    <th colname="col2" class="entry"> Solución </th> 
   </tr>
  </thead>
@@ -43,7 +43,7 @@ Está intentando [configurar una cuenta publicitaria nueva](/help/integrate/c-ad
 <table id="table_F1C1192BF40C43CE8600B1BB417A7269"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Razón </th> 
+   <th colname="col1" class="entry"> Motivo </th> 
    <th colname="col2" class="entry"> Solución </th> 
   </tr>
  </thead>

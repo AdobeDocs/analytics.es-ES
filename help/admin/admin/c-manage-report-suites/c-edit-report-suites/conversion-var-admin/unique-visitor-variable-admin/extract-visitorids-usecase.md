@@ -4,7 +4,7 @@ title: 'Caso de uso: obtención de ID de visitantes'
 feature: Admin Tools
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 100%
 

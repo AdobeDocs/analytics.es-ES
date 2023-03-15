@@ -4,7 +4,7 @@ title: API afectadas por la migración de usuarios
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%
 

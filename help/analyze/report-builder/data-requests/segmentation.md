@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '914'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Es posible que tenga combinaciones específicas de dimensiones de informe que de
 
    ![](assets/seg_in_context.png)
 
-   Si desea información acerca de los contenedores, consulte la [Guía de segmentación](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
+   Si desea información acerca de los contenedores, consulte la [Guía de segmentación](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=es).
 
 1. Se iniciará la interfaz de usuario del creador de segmentos en Internet Explorer. La interfaz de usuario del creador de segmentos se iniciará con el contenedor y el filtro que haya especificado.
 1. Añada un nombre y una descripción al segmento y, a continuación, guárdelo.

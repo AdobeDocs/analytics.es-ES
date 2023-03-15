@@ -6,7 +6,7 @@ exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
 
 ## Asignación o edición de etiquetas de privacidad de grupos de informes {#assign-edit}
 
-**Ejemplo**: Usted, como responsable del tratamiento de datos, pretende recopilar direcciones de correo electrónico e ID de cookie de los sujetos de datos para procesar sus solicitudes de privacidad de datos. Estos ID de cookie se almacenan en un grupo de informes en Adobe Analytics.
+**Ejemplo**: usted, como responsable del tratamiento de datos, pretende recopilar direcciones de correo electrónico e ID de cookie de los interesados para tratar sus solicitudes de privacidad de datos. Estos ID de cookie se almacenan en un grupo de informes en Adobe Analytics.
 
 1. En Adobe Analytics, vaya a **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración y recopilación de datos]** > **[!UICONTROL Administración de datos]**.
 

@@ -6,7 +6,7 @@ exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -32,9 +32,9 @@ Cuando está habilitada, AppMeasurement utiliza el siguiente proceso para enviar
 
 El SDK web no admite el seguimiento sin conexión.
 
-## Seguimiento sin conexión con la extensión Adobe Analytics
+## Seguimiento sin conexión mediante la extensión de Adobe Analytics
 
-No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.trackOffline en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 

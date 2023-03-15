@@ -16,7 +16,7 @@ ht-degree: 97%
 
 {{ra-eol}}
 
-Puede personalizar el gráfico para que resulte lo más útil posible para la audiencia objetivo.
+Puede personalizar el gráfico para que resulte lo más útil posible para la audiencia a la que va dirigido.
 
 El tipo de gráficos disponibles depende del tipo de informe que ejecute. Por ejemplo, los gráficos de líneas de tendencia son útiles para los informes de tendencia pero también puede utilizar gráfico de barras verticales, que ilustran claramente las tendencias de los días, las semanas, los meses, etc. También puede elegir un gráfico circular para ilustrar los porcentajes de páginas vistas.
 

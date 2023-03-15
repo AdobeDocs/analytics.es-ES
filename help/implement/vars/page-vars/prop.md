@@ -4,7 +4,7 @@ description: Variables personalizadas que puede utilizar en su implementación.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 100%
 

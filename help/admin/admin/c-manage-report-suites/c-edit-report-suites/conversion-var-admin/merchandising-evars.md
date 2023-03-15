@@ -4,7 +4,7 @@ description: Una profundización en los conceptos subyacentes a las eVars de com
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '5289'
 ht-degree: 100%
 

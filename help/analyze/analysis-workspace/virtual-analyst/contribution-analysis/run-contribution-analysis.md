@@ -18,7 +18,7 @@ El análisis de contribución es un proceso de aprendizaje automatizado intensiv
 
 Hay dos formas de invocar el análisis de contribución en un proyecto:
 
-* En una tabla improvisada con granularidad diaria, haga clic con el botón secundario en cualquier fila y seleccione **[!UICONTROL Ejecutar análisis de contribución]**. Incluso puede ejecutarlo en filas que no muestren ninguna anomalía.
+* En una tabla de forma libre con granularidad diaria, haga clic con el botón secundario en cualquier fila y seleccione **[!UICONTROL Ejecutar análisis de contribución]**. Incluso puede ejecutarlo en filas que no muestren ninguna anomalía.
 
    >[!NOTE]
    >

@@ -5,8 +5,8 @@ feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '725'
+workflow-type: tm+mt
+source-wordcount: '723'
 ht-degree: 100%
 
 ---

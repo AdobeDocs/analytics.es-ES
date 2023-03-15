@@ -181,7 +181,7 @@ Para comparar grupos de informes:
 
 ## Especificar la granularidad de los informes {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
-Los totales de los informes se pueden ver por hora, por día, por semana, por mes, por trimestre o por año.
+Puede ver los totales del informe por horas, días, semanas, meses, trimestrales o años.
 
 <!-- 
 

@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '265'
 ht-degree: 92%
 
 ---
@@ -21,7 +21,7 @@ Describe cómo definir permisos y las dimensiones que están disponibles en Anal
 Para que los usuarios puedan informar sobre las dimensiones de Activity Map, es necesario que usted, como administrador, realice las acciones siguientes:
 
 * [Agregar usuarios al grupo de acceso de Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-* Agregar los grupos de informes que desea que tengan acceso a este grupo. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Grupos]** > **[!UICONTROL Acceso de Activity Map]** > **[!UICONTROL Editar]**.
+* Agregar los grupos de informes que desea que tengan acceso a este grupo. Vaya a **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Grupos]** > **[!UICONTROL Acceso de Activity Map]** > **[!UICONTROL Editar]**.
 * Personalice el acceso de los usuarios a las dimensiones. Consulte la siguiente sección.
 
 ## Dimensiones de Activity Map de Analytics {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}

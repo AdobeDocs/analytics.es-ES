@@ -1,20 +1,20 @@
 ---
-title: eVar (dimensión Comercialización)
+title: eVar (dimensión de comercialización)
 description: Variables personalizadas que se relacionan con la dimensión Productos.
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
 # eVar (comercialización)
 
-*Esta página de ayuda describe cómo funcionan las eVars de comercialización como dimensiones. Para obtener información sobre cómo implementar eVars de comercialización, consulte [eVar (variable de comercialización)](/help/implement/vars/page-vars/evar-merchandising.md) en la guía de usuario sobre implementación.*
+*Esta página de ayuda describe cómo funcionan las eVars de comercialización como dimensiones. Para obtener información sobre cómo implementar eVars de comercialización, consulte [eVar (variable de comercialización)](/help/implement/vars/page-vars/evar-merchandising.md) en la Guía del usuario de implementación.*
 
-Para obtener información detallada sobre cómo funcionan las eVars de comercialización, consulte [eVars de comercialización y métodos de búsqueda de productos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
+Para obtener información detallada sobre cómo funcionan las eVars de comercialización, consulte [eVars de comercialización y métodos de búsqueda de productos](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=es).
 
 Al medir el éxito de campañas o términos de búsqueda externos, normalmente se desea que un único valor reciba crédito por los eventos de éxito que se produzcan. Por ejemplo, si un cliente hace clic en un vínculo de una campaña de correo electrónico para visitar un sitio web, todas las compras que se realicen como resultado de ese clic deben abonarse a dicha campaña.
 

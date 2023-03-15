@@ -5,7 +5,7 @@ feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '804'
 ht-degree: 95%
 
 ---
@@ -54,13 +54,13 @@ Los grupos de informes virtuales tienen las siguientes limitaciones :
 | Función | Grupo de informes virtuales | Etiquetado de grupos múltiples |
 |--- |--- |--- |
 | Ofrece informe en tiempo real o de datos actuales | No | Sí |
-| Funciona en todas las herramientas de Analytics (Analysis Workspace, Report Builder, etc.) | Sí. **Nota:** Solo puede editarlas e identificarlas como grupos de informes virtuales en [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Grupos de informes virtuales]. Sin embargo, puede seleccionarlos en los menús desplegables del propio grupo de informes en las otras herramientas.<p>**Importante**: Actualmente, Adobe Report Builder no admite los grupos de informes virtuales con procesamiento de tiempo de informes y personalización de variables. | Sí |
+| Funciona en todas las herramientas de Analytics (Analysis Workspace, Report Builder, etc.) | Sí. **Nota:** Solo puede editarlos e identificarlos como grupos de informes virtuales en [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Grupos de informes virtuales]. Sin embargo, puede seleccionarlos en los menús desplegables del propio grupo de informes en las otras herramientas.<p>**Importante**: Los grupos de informes virtuales con procesamiento de tiempo de informes y personalización de variables no son compatibles actualmente con Adobe Report Builder. | Sí |
 | Puede cargar datos en él (a través de clasificaciones, fuente de datos, etc.) | No | Sí |
 | Admite la creación de informes DL, marcadores, tableros, objetivos, alertas, segmentos, métricas calculadas... | Sí | Sí |
 | Se puede añadir individualmente a los grupos de permisos | Sí | Sí |
 | Se pueden utilizar funciones de administrador para modificar opciones de configuración individuales en este grupo de informes (Administración > Grupos de informes) | No (la configuración se hereda de un grupo superior) | Sí |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Combinación de grupos de informes virtuales y etiquetado de grupos múltiples {#section_026FA3FCD7314DD18220E73EC5702AFF}
 

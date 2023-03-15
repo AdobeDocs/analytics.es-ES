@@ -4,7 +4,7 @@ description: El trimestre numérico del año, independientemente de qué año.
 feature: Dimensions
 exl-id: 0de5f916-9cc1-4594-9dfc-68ef831dcc0a
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 100%
 

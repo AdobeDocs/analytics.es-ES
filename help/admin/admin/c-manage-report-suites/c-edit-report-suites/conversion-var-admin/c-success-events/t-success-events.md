@@ -4,7 +4,7 @@ title: Configurar eventos de éxito
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
 

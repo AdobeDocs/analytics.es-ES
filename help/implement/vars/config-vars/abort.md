@@ -6,7 +6,7 @@ exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 40%
+ht-degree: 48%
 
 ---
 
@@ -14,23 +14,23 @@ ht-degree: 40%
 
 La variable `abort` es un booleano que puede evitar que la siguiente llamada de seguimiento se envíe a Adobe. Existe una funcionalidad similar en el SDK web que le permite devolver `false` antes de enviar un evento XDM.
 
-## Cancelar el envío de un evento mediante la extensión del SDK web
+## Cancelación del envío de un evento mediante la extensión del SDK web
 
-Utilice la variable [!UICONTROL Activado antes de que el evento envíe una llamada de retorno] editor de código y devolución `false`.
+Utilice el [!UICONTROL Activado antes de devolución de llamada de envío de evento] editor de código y retorno `false`.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
-1. Vaya a la [!UICONTROL Extensiones] y, a continuación, haga clic en la pestaña **[!UICONTROL Configurar]** botón debajo de [!UICONTROL SDK web de Adobe Experience Platform].
-1. En [!UICONTROL Recopilación de datos], haga clic en **[!UICONTROL Editar antes del código de llamada de retorno de envío de evento]** botón.
-1. En el editor de código, coloque el siguiente código bajo cualquier condición en la que desee anular el envío de datos a Edge:
+1. Vaya a la [!UICONTROL Extensiones] y, a continuación, haga clic en **[!UICONTROL Configurar]** botón debajo de [!UICONTROL SDK web de Adobe Experience Platform].
+1. En [!UICONTROL Recopilación de datos], haga clic en **[!UICONTROL Editar en antes del código de devolución de llamada de envío de evento]** botón.
+1. En el editor de código, ponga el siguiente código en cualquier condición en la que desee cancelar el envío de datos a Edge:
 
 ```js
 return false;
 ```
 
-## Cancelar el envío de un evento implementando manualmente el SDK web
+## Cancelación del envío de un evento manualmente mediante la implementación del SDK web
 
-Utilice la variable `onBeforeEventSend` devolución de llamada y devolución `false`. Consulte [Modificación global de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) en la documentación del SDK web para obtener más información.
+Utilice el `onBeforeEventSend` devolución de llamada y devolución `false`. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) en la documentación del SDK web para obtener más información.
 
 ```js
 alloy("configure"), {
@@ -42,7 +42,7 @@ alloy("configure"), {
 
 ## Uso de la variable abort en la extensión de Adobe Analytics
 
-No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.abort en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
@@ -59,7 +59,7 @@ s.abort = true;
 >
 >La variable `abort` se restablece como `false` después de cada llamada de seguimiento. Si necesita cancelar llamadas de seguimiento subsiguientes en la misma página, establezca `abort` nuevamente como `true`.
 
-Por ejemplo, la variable `abort` se puede configurar en la variable [`doPlugins()`](../functions/doplugins.md) , que es la última función que se ejecuta antes de que se envíe una solicitud de imagen al Adobe. Este ejemplo funciona de forma similar a la variable `onBeforeEventSend` llamada de retorno mediante el SDK web.
+Por ejemplo, la variable `abort` se puede configurar en la variable [`doPlugins()`](../functions/doplugins.md) función, que es la última función que se ejecuta antes de que se envíe una solicitud de imagen al Adobe. Este ejemplo funciona de manera similar a `onBeforeEventSend` devolución de llamada mediante el SDK web.
 
 ```js
 s.doPlugins = function(s) {

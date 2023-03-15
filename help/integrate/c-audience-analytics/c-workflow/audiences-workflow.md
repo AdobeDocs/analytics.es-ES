@@ -5,7 +5,7 @@ title: Flujo de trabajo de Audience Analytics información general
 feature: Audience Analytics
 exl-id: 507e02f8-dbfa-4011-99be-6242b392669f
 source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%
 

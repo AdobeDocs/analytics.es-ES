@@ -6,7 +6,7 @@ exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 70%
+ht-degree: 80%
 
 ---
 
@@ -24,9 +24,9 @@ AppMeasurement detecta automáticamente el estado en línea del dispositivo. Pue
 
 El SDK web no admite el seguimiento sin conexión.
 
-## Forzar desconexión mediante la extensión de Adobe Analytics
+## Forzado de la desconexión mediante la extensión Adobe Analytics
 
-No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.forceOffline() en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 

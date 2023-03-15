@@ -5,7 +5,7 @@ feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Hay cuatro formas en las que puede acceder al Generador de alertas:
 | --- | --- |
 | Ir directamente al Generador de alertas | **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** |
 | Uso del atajo de teclado en Espacio de trabajo | `Ctrl + Shift + A` (Windows) o `Cmd + Shift + A` (Mac) |
-| Seleccione uno o más elementos de línea de la tabla improvisada | Haga clic con el botón derecho y seleccione **[!UICONTROL Crear alerta a partir de la selección]**. Se abre el [!UICONTROL Generador de alertas] y se rellenan previamente las métricas y los filtros adecuados aplicados desde la tabla. A continuación, puede editar la alerta si fuera necesario. ![Crear alerta a partir de la selección](assets/create-alert-from-selection.png) |
+| Seleccione uno o más elementos de línea de la tabla de forma libre | Haga clic con el botón derecho y seleccione **[!UICONTROL Crear alerta a partir de la selección]**. Se abre el [!UICONTROL Generador de alertas] y se rellenan previamente las métricas y los filtros adecuados aplicados desde la tabla. A continuación, puede editar la alerta si fuera necesario. ![Crear alerta a partir de la selección](assets/create-alert-from-selection.png) |
 | Desde un informe de Reports &amp; Analytics | Vaya a  **[!UICONTROL Más]** > **[!UICONTROL Añadir alerta]**. Esto abre el Generador de alertas y rellena previamente las métricas y filtros adecuados aplicados desde el informe. A continuación, puede editar la alerta si fuera necesario. ![Agregar alerta](assets/add-alert.png) |
 
 Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. En función de la granularidad de tiempo que seleccione, se emplean [distintos modelos](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) para calcular cuánto se aleja (cuántas desviaciones estándar tiene) cada punto de datos respecto a la norma. Si establece un umbral más bajo (por ejemplo, 90%), obtendrá más anomalías que con otro más alto (99,75%).

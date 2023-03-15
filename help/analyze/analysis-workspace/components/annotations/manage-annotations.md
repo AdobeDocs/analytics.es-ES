@@ -5,8 +5,8 @@ role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: ht
-source-wordcount: '683'
+workflow-type: tm+mt
+source-wordcount: '677'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ El administrador [!UICONTROL Anotaciones] le muestra todas las anotaciones que p
 | [!UICONTROL Compartido con] | Indica cuántos individuos o grupos han compartido la anotación. Haga clic para ver más detalles. |
 | [!UICONTROL Fecha de modificación] | Muestra la fecha y la hora de la última modificación de la anotación. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Edición de anotaciones
 
@@ -46,11 +46,11 @@ Editar una anotación significa que puede ajustar intervalos de fechas, colores,
 
 Ambas opciones le permiten volver a acceder al [!UICONTROL Generador de anotaciones]. Aquí puede realizar los ajustes necesarios y guardar la nueva versión.
 
-## Uso compartido de anotaciones
+## Compartir anotaciones
 
 Cuando comparta anotaciones o trabaje con anotaciones que se compartieron con usted, tenga esto en cuenta:
 
-* Supongamos que crea un proyecto con anotaciones solo de proyecto y luego lo comparte con otro usuario. Se mostrarán estas anotaciones, pero ninguna persona con la que comparta el proyecto puede editarlas o eliminarlas.
+* Supongamos que crea un proyecto con anotaciones solo de proyecto y luego comparte el proyecto con otro usuario. Se mostrarán estas anotaciones, pero ninguna persona con la que comparta el proyecto puede editarlas o eliminarlas.
 
 * Si guarda una anotación y la comparte directamente con un usuario, solo podrá editarla o eliminarla si tiene derechos de administrador.
 
@@ -60,7 +60,7 @@ Cuando comparta anotaciones o trabaje con anotaciones que se compartieron con us
 
 Todas las anotaciones se crean con una marca de tiempo, pero no con información de horas ni de zona horaria. En el momento del informe, siempre se aplica la zona horaria del conjunto de informes del panel. Por lo tanto, una anotación creada para el día de Navidad se produce el 25 de diciembre, sin importar la zona horaria de grupo de informes en la que se encuentre.
 
-Otro ejemplo es el día de Año Nuevo. Cada hora, una zona horaria diferente lanza fuegos artificiales al comenzar el nuevo año. A las 10 p. m., tiempo de la montaña de EE. UU., la costa este de ese mismo país está lanzando fuegos artificiales porque ya son las 0:00, hora del Este.
+Otro ejemplo es el Día de Año Nuevo. Cada hora, una zona horaria diferente inicia fuegos artificiales a medida que comienza el año nuevo. A las 22:00, hora de las montañas de EE. UU., la costa este de EE. UU. está preparando los fuegos artificiales porque ya son las 00:00 en el este.
 
 ## Otras tareas de anotaciones
 
@@ -78,4 +78,4 @@ Solo tiene que seleccionar una o varias anotaciones y aparecerá la barra de tar
 | [!UICONTROL Exportar a CSV] | Exporte la definición de la anotación a un archivo .csv. |
 | [!UICONTROL Filtro] (carril izquierdo) | Filtre por etiquetas, grupo de informes, propietarios y otros filtros (Míos, Aprobados, Favoritos, Compartidos conmigo y Mostrar todo). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

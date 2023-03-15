@@ -4,7 +4,7 @@ description: Resolución del monitor del visitante en píxeles.
 feature: Dimensions
 exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%
 

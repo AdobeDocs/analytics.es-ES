@@ -23,7 +23,7 @@ Utilice el administrador de paneles para copiar, compartir, archivar y programar
 >
 >La práctica recomendada al utilizar el administrador de paneles es no tener más de 300 paneles para un solo usuario. Además, tenga en cuenta que el administrador carga todos los paneles compartidos a continuación, por lo que debe ser prudente al compartir los paneles.
 
-Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Tableros]**.
+Clic **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Paneles]**.
 
 | Elemento | Descripción |
 |--- |--- |
@@ -35,9 +35,9 @@ Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UIC
 
 ## Administrar tableros compartidos
 
-Para administrar tableros compartidos:
+Para administrar paneles compartidos:
 
-1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Tableros]**.
+1. Ir a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Paneles]**.
 1. En [!UICONTROL Tableros compartidos], localice el tablero compartido (o tablero preexistente) que desee administrar y elija una o más de las siguientes opciones:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
@@ -92,7 +92,7 @@ Cuando copia el tablero preexistente, el sistema lo abre para editarlo y ahí pu
 
 ## Compartir un tablero
 
-Los administradores de Analytics pueden compartir (o insertar) un tablero en el escritorio de varios usuarios. Al insertar los tableros en el escritorio de los usuarios, esos tableros pasan a estar disponibles en el menú [!UICONTROL Tableros compartidos] del usuario.
+Los administradores de Analytics pueden compartir un tablero con varios usuarios (o insertarlo). Al insertar los tableros en el escritorio de los usuarios, esos tableros pasan a estar disponibles en el menú [!UICONTROL Tableros compartidos] del usuario.
 
 Para compartir un tablero con varios usuarios:
 

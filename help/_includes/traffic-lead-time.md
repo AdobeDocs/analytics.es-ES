@@ -4,7 +4,7 @@ title: Tiempo de espera necesario para aumentos de tráfico
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 55c8337dbeebcc76db367ead15128c095e4d8ce5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
 

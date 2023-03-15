@@ -1,5 +1,5 @@
 ---
-description: La visualización de área es como un gráfico de líneas, pero con un área de color debajo de la línea.
+description: La visualización de áreas es similar a un gráfico de líneas, pero incluye una zona coloreada bajo la línea.
 title: Área y área apilada
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations

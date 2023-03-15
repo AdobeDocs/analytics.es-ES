@@ -4,9 +4,9 @@ title: Programar una solicitud recurrente
 feature: Data Warehouse
 exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## Programar una solicitud recurrente {#topic_8C3CE0CE8A584F80946D24B377CB51BE}
 
-Para programar solicitudes diarias, mensuales o anuales del Data Warehouse, asegúrese de que *Predeterminado* esté correctamente seleccionado.
+Para programar solicitudes de Data Warehouse para diarios/mensuales/anuales, asegúrese de &#42;Preestablecido &#42;está seleccionado correctamente
 
 1. En [!UICONTROL Fecha de informes], seleccione **[!UICONTROL Predeterminado]**.
 

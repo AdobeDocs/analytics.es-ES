@@ -32,7 +32,7 @@ Este es un tutorial en vídeo de visualización de flujo:
 
 ## Flujos interdimensionales {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-Puede mostrar el [flujo entre dimensiones](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Por ejemplo, puede combinar páginas y departamentos en un diagrama. En este caso, su flujo puede ir desde la página principal, a la página de hombres y, a continuación, al departamento Zapatos.
+Puede mostrar el [flujo entre dimensiones](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Por ejemplo, puede combinar páginas y departamentos en un diagrama. En este caso, su flujo puede ir desde la página de inicio a la página para hombres y, a continuación, al departamento Zapatos.
 
 Cada columna puede mostrar una dimensión distinta. Arrastre una dimensión y suéltela en una zona de colocación para añadir esa dimensión al diagrama.
 

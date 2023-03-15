@@ -4,7 +4,7 @@ description: Las variables de datos de contexto permiten definir variables perso
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 100%
 

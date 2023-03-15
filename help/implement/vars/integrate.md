@@ -6,7 +6,7 @@ exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Para obtener el código del módulo, es necesario que un usuario tenga acceso al
 
 La implementación del módulo Integrate en su sitio requiere acceso a la recopilación de datos de Adobe Experience Platform. Si utiliza una implementación de JavaScript heredada, se requiere acceso al código fuente del sitio web de la organización.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad etiquetas que desee editar.
 1. Haga clic en la pestaña Extensiones y, a continuación, haga clic en Configurar en Adobe Analytics.
 1. Abra “Configurar rastreador con código personalizado” y haga clic en “Abrir editor”.

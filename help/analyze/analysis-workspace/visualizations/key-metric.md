@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '595'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Esta visualización aborda una variedad de casos de uso comunes, entre los que s
    | **[!UICONTROL Intervalo de fechas de comparación]** | El intervalo de fechas con el que se desea comparar el intervalo de fechas principal. |
    | **[!UICONTROL Segmento (opcional)]** | Cualquier segmento que le interese específicamente para este resumen. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Haga clic en **[!UICONTROL Generar]**.
 

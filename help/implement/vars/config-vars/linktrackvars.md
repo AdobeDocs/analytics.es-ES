@@ -16,17 +16,17 @@ Algunas implementaciones no desean incluir todas las variables en todas las soli
 
 Esta variable no se utiliza para las llamadas de vista de página (método [`t()`](../functions/t-method.md)).
 
-## Determinar qué variables se incluyen en un evento XDM mediante el SDK web
+## Determine qué variables se incluirán en un evento XDM mediante el SDK web
 
-El SDK web no excluye determinados campos para las llamadas de seguimiento de vínculos. Sin embargo, puede usar la variable `onBeforeEventSend` llamada de retorno para borrar o establecer los campos deseados antes de que los datos se envíen a Adobe. Consulte [Modificación global de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) en la documentación del SDK web para obtener más información.
+El SDK web no excluye ciertos campos para las llamadas de seguimiento de vínculos. Sin embargo, puede utilizar el complemento `onBeforeEventSend` devolución de llamada para borrar o establecer los campos deseados antes de enviar los datos al Adobe. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) en la documentación del SDK web para obtener más información.
 
-## Variables en llamadas de seguimiento de vínculos que utilizan la extensión Adobe Analytics
+## Variables en llamadas de seguimiento de vínculos que utilizan la extensión de Adobe Analytics
 
 Esta variable se rellena automáticamente en el servidor en función de las variables establecidas en la interfaz, por lo que siempre se establece en implementaciones que utilizan la extensión de Adobe Analytics.
 
 >[!IMPORTANT]
 >
->Si establece variables mediante el editor de código personalizado, debe incluir las variables en `linkTrackVars` también se usa código personalizado.
+>Si establece variables mediante el editor de código personalizado, debe incluir las variables en `linkTrackVars` también mediante código personalizado.
 
 ## s.linkTrackVars en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 

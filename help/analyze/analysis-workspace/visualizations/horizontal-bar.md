@@ -2,12 +2,12 @@
 description: Utilice la visualización de barras horizontales en un proyecto de Workspace.
 title: Barras horizontales y barras horizontales apiladas
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-feature: Visualizaciones
+feature: Visualizations
 role: User, Admin
 exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '71'
+workflow-type: tm+mt
+source-wordcount: '70'
 ht-degree: 100%
 
 ---

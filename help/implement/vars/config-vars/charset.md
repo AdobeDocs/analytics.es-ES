@@ -6,7 +6,7 @@ exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 69%
+ht-degree: 74%
 
 ---
 
@@ -22,9 +22,9 @@ Actualmente, el SDK web solo admite UTF-8 y no proporciona opciones para cambiar
 
 ## Conjunto de caracteres en la extensión de Adobe Analytics
 
-Conjunto de caracteres es un campo de la sección [!UICONTROL General] al configurar la extensión de Adobe Analytics en la recopilación de datos de Adobe Experience Platform.
+Conjunto de caracteres es un campo en la variable [!UICONTROL General] al configurar la extensión de Adobe Analytics en la recopilación de datos de Adobe Experience Platform.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 1. Expanda el acordeón [!UICONTROL General], que muestra el campo [!UICONTROL Conjunto de caracteres].

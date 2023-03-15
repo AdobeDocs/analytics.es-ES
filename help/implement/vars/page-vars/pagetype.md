@@ -4,7 +4,7 @@ description: Determine si la página actual conduce a un error 404.
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
 

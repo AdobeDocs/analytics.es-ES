@@ -5,7 +5,7 @@ title: Variables de conversión (eVar)
 feature: Admin Tools
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 source-git-commit: 2f219f599b5c9231a29a23e1ebd9412081754c9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1672'
 ht-degree: 100%
 

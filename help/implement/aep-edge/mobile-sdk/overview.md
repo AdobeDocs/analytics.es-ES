@@ -2,7 +2,7 @@
 title: Implementar Adobe Analytics mediante el SDK móvil de Adobe Experience Platform
 description: Utilice la extensión del SDK móvil en la recopilación de datos de Adobe Experience Platform para enviar datos a Adobe Analytics.
 source-git-commit: 97bff355a5d9bb737d510221b63ba1321aaf5812
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 
@@ -35,8 +35,8 @@ Una información general de alto nivel de las tareas de implementación:
 
 <tr>
 <td>2</td>
-<td><b>Configure esquemas y conjuntos de datos</b>. Para estandarizar la recopilación de datos para su uso en todas las aplicaciones que aprovechan Adobe Experience Platform, Adobe ha creado el estándar abierto y documentado públicamente, Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es">Información general sobre la IU de esquemas</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es">Información general sobre la IU de conjuntos de datos</a></td>
+<td><b>Configuración de esquemas y conjuntos de datos</b>. Para estandarizar la recopilación de datos para su uso en todas las aplicaciones que aprovechan Adobe Experience Platform, Adobe ha creado el estándar abierto y documentado públicamente, Experience Data Model (XDM).</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es">Información general sobre la IU de esquemas</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es">Información general sobre la IU del conjunto de datos</a></td>
 </tr>
 
 <tr>
@@ -96,14 +96,14 @@ Una información general de alto nivel de las tareas de implementación:
 
 <tr>
 <td>1</td>
-<td>Asegúrese de haber <b>definido un conjunto de informes</b>.</td>
+<td>Asegúrese de haber <b>definido un grupo de informes</b>.</td>
 <td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
 </tr>
 
 <tr>
 <td>2</td>
-<td><b>Configura esquemas y conjuntos de datos</b>. Para estandarizar la recopilación de datos para su uso en todas las aplicaciones que aprovechan Adobe Experience Platform, Adobe ha creado el estándar abierto y documentado públicamente, Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es">Información general sobre la IU de esquemas</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es">Información general sobre la IU de conjuntos de datos</a></td>
+<td><b>Configuración de esquemas y conjuntos de datos</b>. Para estandarizar la recopilación de datos para su uso en todas las aplicaciones que aprovechan Adobe Experience Platform, Adobe ha creado el estándar abierto y documentado públicamente, Experience Data Model (XDM).</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es">Información general sobre la IU de esquemas</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es">Información general sobre la IU del conjunto de datos</a></td>
 </tr>
 
 <tr>

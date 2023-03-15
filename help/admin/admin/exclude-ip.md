@@ -4,9 +4,9 @@ description: Impida que los datos generados por ciertas direcciones IP aparezcan
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Se pueden excluir datos de las direcciones IP específicas, por ejemplo, las act
 >
 >Las visitas excluidas por dirección IP se facturan como [llamadas al servidor](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=es).
 
-Pueden utilizarse indicadores comodín (*) para excluir un intervalo de direcciones. Por ejemplo, `[!DNL 0.0.*.0]` excluiría todas las direcciones IP entre `[!DNL 0.0.0.0]` y `[!DNL 0.0.255.0]`. Puede excluir hasta 50 direcciones IP diferentes.
+Puede utilizar indicadores comodín (&#42;) para excluir un rango de direcciones. Por ejemplo, `[!DNL 0.0.*.0]` excluiría todas las direcciones IP entre `[!DNL 0.0.0.0]` y `[!DNL 0.0.255.0]`. Puede excluir hasta 50 direcciones IP diferentes.
 
 >[!TIP]
 >
@@ -30,4 +30,4 @@ Pueden utilizarse indicadores comodín (*) para excluir un intervalo de direccio
 
 Si la confusión de la IP está habilitada, la exclusión de la IP se produce antes de que la dirección IP se confunda, por lo que los clientes no necesitan cambiar nada cuando habilitan la confusión de la IP.
 
-Si se elimina el último octeto, será antes del filtrado de la IP. Como tal, el último octeto se sustituye por un 0 y las reglas de exclusión de la IP se deben actualizar para coincidir con las direcciones de IP que tengan un cero al final. Un * coincidente debe corresponder a un 0.
+Si se elimina el último octeto, será antes del filtrado de la IP. Como tal, el último octeto se sustituye por un 0 y las reglas de exclusión de la IP se deben actualizar para coincidir con las direcciones de IP que tengan un cero al final. Un coincidente &#42; debe corresponder a un 0.

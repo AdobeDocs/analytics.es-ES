@@ -5,7 +5,7 @@ title: Administrar Canales de marketing
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 100%
 

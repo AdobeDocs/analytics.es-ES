@@ -5,7 +5,7 @@ feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
 
 1. Arrastre una visualización de [!UICONTROL visitas en el orden previsto] de la lista desplegable Visualizaciones a una [!UICONTROL tabla improvisada].
 
-1. Arrastre la dimensión Página en la tabla improvisada y, desde allí, arrastre una página (en este caso, Home - JJEsquire) al campo **[!UICONTROL Agregar punto de contacto]** como el primer punto de contacto.
+1. Arrastre la dimensión Página en la tabla de forma libre y, desde allí, arrastre una página (en este caso, Home - JJEsquire) al campo **[!UICONTROL Agregar punto de contacto]** como el primer punto de contacto.
 
    ![](assets/fallout1.png)
 

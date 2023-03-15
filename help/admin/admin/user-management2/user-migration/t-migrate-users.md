@@ -4,7 +4,7 @@ title: Migración de cuentas de usuarios de Analytics para Adobe ID
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
 source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 100%
 

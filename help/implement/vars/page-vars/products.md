@@ -6,7 +6,7 @@ exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -22,22 +22,22 @@ La variable `products` rastrea productos y propiedades vinculados a ellos. Esta 
 
 Los productos son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en varios campos XDM:
 
-* La categoría está asignada a `productListItems[].lineItemId`.
+* Categoría asignada a `productListItems[].lineItemId`.
 * El producto está asignado a `productListItems[].SKU` o `productListItems[].name`. Si ambos campos XDM están presentes, `productListItems[].SKU` se utiliza.
-* La cantidad está asignada `productListItems[].quantity`.
+* La cantidad se ha asignado a `productListItems[].quantity`.
 * El precio está asignado a `productListItems[].priceTotal`.
-* Las eVars de comercialización están asignadas a `productListItems._experience.analytics.customDimensions.eVars.eVar1` a `productListItems._experience.analytics.customDimensions.eVars.eVar250`, según el eVar que desee enlazar a un producto.
-* Los eventos de comercialización se asignan a `productListItems[]._experience.analytics.event1to100.event1.value` a `productListItems._experience.analytics.event901to1000.event1000.value`, según el evento que desee enlazar a un producto. Si establece un evento en uno de estos campos, se incluye automáticamente en la variable [evento](events/events-overview.md) cadena enviada a Adobe Analytics.
+* Las eVars de comercialización se asignan a `productListItems._experience.analytics.customDimensions.eVars.eVar1` hasta `productListItems._experience.analytics.customDimensions.eVars.eVar250`, dependiendo del eVar al que desee enlazar un producto.
+* Los eventos de comercialización se asignan a `productListItems[]._experience.analytics.event1to100.event1.value` hasta `productListItems._experience.analytics.event901to1000.event1000.value`, en función del evento que desee enlazar a un producto. Si establece un evento en uno de estos campos, se incluye automáticamente en la variable [evento](events/events-overview.md) cadena enviada a Adobe Analytics.
 
 >[!NOTE]
 >
->`lineItemId` debe añadirse como campo personalizado, ya que aún no forma parte del esquema de eventos estándar de Analytics. Adobe planea añadir un campo específico &quot;Categoría&quot; en el futuro.
+>`lineItemId` debe añadirse como campo personalizado, ya que aún no forma parte del esquema de eventos estándar de Analytics. El Adobe tiene previsto añadir un campo específico &quot;Categoría&quot; en el futuro.
 
-## Productos que utilizan la extensión de Adobe Analytics
+## Productos con la extensión Adobe Analytics
 
-No hay un campo dedicado en la recopilación de datos de Adobe Experience Platform para establecer esta variable; sin embargo, existen varias extensiones de terceros que pueden ayudar.
+No hay un campo específico en la recopilación de datos de Adobe Experience Platform para configurar esta variable; sin embargo, existen varias extensiones de terceros que pueden ayudar.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Catálogo] para ver todas las extensiones disponibles.
 4. Busque el término “product”, que revela varias extensiones disponibles para ayudarle a configurar esta variable.

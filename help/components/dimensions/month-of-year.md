@@ -4,7 +4,7 @@ description: El mes numérico del año, independientemente de qué año.
 feature: Dimensions
 exl-id: ed2887f2-46e7-48a4-b337-f59177c7558c
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 100%
 

@@ -19,4 +19,4 @@ La métrica “Vistas de producto” muestra el número de veces que se vio un p
 Esta métrica cuenta el número de visitas que coinciden con **cualquiera** de las siguientes:
 
 * El valor `prodView` existe en la variable [`events`](/help/implement/vars/page-vars/events/events-overview.md); o
-* La variable [`products`](/help/implement/vars/page-vars/products.md) y la variable `events` está vacía.
+* El [`products`](/help/implement/vars/page-vars/products.md) se configura, y la variable `events` está vacía.

@@ -178,7 +178,7 @@ ht-degree: 99%
 + Casos de uso de implementación {#use-cases}
    + [Uso de AppMeasurement con iFrames](use-cases/iframe.md)
    + [Seguimiento en diferentes tipos de implementación](use-cases/cross-type-implementation.md)
-   + [Flujo de trabajo del seguimiento de campañas](use-cases/campaign-tracking.md)
+   + [Flujo de trabajo de seguimiento de campaña](use-cases/campaign-tracking.md)
 + Validación de la implementación {#validate}
    + [Adobe Experience Cloud Debugger antiguo](validate/debugger.md)
    + [Parámetros de consulta de recopilación de datos](validate/query-parameters.md)

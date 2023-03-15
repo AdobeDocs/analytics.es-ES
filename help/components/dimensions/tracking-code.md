@@ -12,9 +12,9 @@ ht-degree: 91%
 
 # Código de seguimiento
 
-La dimensión “Código de seguimiento” muestra los nombres de los códigos de seguimiento en el sitio. Puede colocar vínculos con diferentes valores de parámetros de cadena de consulta en diferentes lugares de Internet. Esta dimensión le ayuda a comprender qué vínculos fueron los más exitosos a la hora de conducir el tráfico al sitio.
+La dimensión “Código de seguimiento” muestra los nombres de los códigos de seguimiento en el sitio. Puede colocar vínculos con diferentes valores de parámetros de cadena de consulta en diferentes lugares de Internet. Esta dimensión ayuda a comprender qué vínculos fueron los más exitosos a la hora de dirigir el tráfico al sitio.
 
-La adición de cadenas de consulta de código de seguimiento es común en correos electrónicos, anuncios, anuncios de medios sociales y otros esfuerzos de marketing que utiliza su organización.
+La adición de cadenas de consulta de código de seguimiento es habitual en correos electrónicos, anuncios, publicaciones en medios sociales y otros esfuerzos de marketing que utiliza su organización.
 
 ## Rellene esta dimensión con datos
 

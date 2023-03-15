@@ -7,7 +7,7 @@ exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 78%
+ht-degree: 84%
 
 ---
 
@@ -21,11 +21,11 @@ Cuando se habilita, AppMeasurement recopila información sobre el vínculo y env
 
 El SDK web aún no admite la recopilación de datos de Activity Map.
 
-## Habilitar Clickmap mediante la extensión de Adobe Analytics
+## Habilitar ClickMap con la extensión Adobe Analytics
 
 [!UICONTROL Habilitar ClickMap] es una casilla de verificación en el acordeón de [!UICONTROL Seguimiento de vínculos] al configurar la extensión de Adobe Analytics.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 4. Expanda el acordeón de [!UICONTROL Seguimiento de vínculos], que muestra la casilla [!UICONTROL Habilitar ClickMap].

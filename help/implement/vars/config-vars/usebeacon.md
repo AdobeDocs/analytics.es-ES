@@ -6,7 +6,7 @@ exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 54%
+ht-degree: 61%
 
 ---
 
@@ -22,22 +22,22 @@ Si `useBeacon` está activada, la siguiente visita enviada a Adobe utiliza el m�
 
 La variable `useBeacon` se omite cuando el visitante utiliza un explorador que no admite `navigator.sendBeacon()`. El uso de esta variable requiere AppMeasurement 2.16.0 o superior.
 
-## Usar la API sendBeacon con la extensión web SDK
+## Utilice la API sendBeacon con la extensión del SDK web
 
-La variable **[!UICONTROL El documento se descargará]** dentro de una Configuración de acción determina si los datos enviados a Adobe utilizan la API sendBeacon.
+El **[!UICONTROL Se descargará el documento]** en una Configuración de acción determina si los datos enviados al Adobe utilizan la API sendBeacon.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
 1. Vaya a la [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee.
-1. En [!UICONTROL Acciones], haga clic en la acción que desee o haga clic en la **&#39;+&#39;** para agregar una nueva acción.
-1. Establezca el menú desplegable Extensión en **[!UICONTROL SDK web de Adobe Experience Platform]** y [!UICONTROL Tipo de acción] a **[!UICONTROL Enviar evento]**
-1. Haga clic en la casilla de verificación **[!UICONTROL El documento se descargará]** a la derecha.
+1. En [!UICONTROL Acciones], haga clic en la acción deseada o en **&#39;+&#39;** para añadir una nueva acción.
+1. Establezca el menú desplegable Extensión en **[!UICONTROL SDK web de Adobe Experience Platform]** y el [!UICONTROL Tipo de acción] hasta **[!UICONTROL Enviar evento]**
+1. Haga clic en la casilla **[!UICONTROL Se descargará el documento]** a la derecha.
 
-Si se marca esta casilla, los datos se envían a Adobe mediante la API sendBeacon. De forma predeterminada, está desactivada.
+Si se marca esta casilla, los datos se envían al Adobe mediante la API sendBeacon. De forma predeterminada, está desactivada.
 
-## Utilice la API sendBeacon implementando manualmente el SDK web
+## Utilice la API sendBeacon para implementar manualmente el SDK web
 
-Establezca `documentUnloading` a `true` al enviar un evento. Si no se configura, su valor predeterminado es `false`.
+Establecer `documentUnloading` hasta `true` al enviar un evento. Si no se configura, su valor predeterminado es `false`.
 
 ```json
 alloy("sendEvent", {
@@ -48,9 +48,9 @@ alloy("sendEvent", {
 
 Consulte [Uso de la API sendBeacon](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) en la documentación del SDK web para obtener más información.
 
-## Utilice la señalización con la extensión Adobe Analytics
+## Uso de la señalización mediante la extensión de Adobe Analytics
 
-No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.useBeacon en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 

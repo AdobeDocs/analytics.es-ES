@@ -4,7 +4,7 @@ description: Rellene el “Informe de estado del visitante” en Reports and Ana
 feature: Variables
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
 

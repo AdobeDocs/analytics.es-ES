@@ -1,16 +1,16 @@
 ---
-description: Preguntas más frecuentes sobre la administración de segmentos heredados.
-title: Preguntas más frecuentes sobre segmentos heredados
+description: Preguntas frecuentes sobre la administración de segmentos heredados.
+title: Preguntas más frecuentes sobre los segmentos heredados
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1443'
 ht-degree: 91%
 
 ---
 
-# Preguntas más frecuentes sobre segmentos heredados
+# Preguntas más frecuentes sobre los segmentos heredados
 
 Responde preguntas frecuentes sobre las prácticas recomendadas para administrar segmentos heredados: segmentos creados antes de 2014.
 
@@ -50,7 +50,7 @@ Puede crear o editar segmentos nuevos del Almacén de datos en el Generador/Data
 
 +++
 
-+++ **¿Qué les ha sucedido a los segmentos configurados previamente?**
++++ **¿Qué ha pasado con los segmentos preconfigurados?**
 
 * **Visitas a una sola página**
 * **Visitas desde dispositivos móviles**
@@ -62,7 +62,7 @@ Estos segmentos se migrarán como plantillas de segmentos al Generador de segmen
 
 +++
 
-+++ **Qué ha pasado con los segmentos de Experience Cloud (Suite):**
++++ **Qué ha pasado con los segmentos de Experience Cloud (grupo):**
 
 * No compradores
 * Compradores
@@ -78,7 +78,7 @@ Los informes existentes que tienen estos segmentos aplicados siguen funcionando 
 
 +++
 
-+++ **¿Qué les ha sucedido a los segmentos de administración (conocidos como segmentos &quot;Globales&quot;)?**
++++ **¿Qué ha pasado con los segmentos de administración (también conocidos como segmentos &quot;globales&quot;)?**
 
 Los segmentos de **Administrador** se migrarán en la nueva interfaz de segmentos y se mostrarán como segmentos compartidos para todos.
 
@@ -115,7 +115,7 @@ Los siguientes consejos le ayudarán a migrar dimensiones comunes:
 * Ciudad/región/país geográfico: Busca y selecciona ciudades, regiones o países específicos, en lugar de utilizar una coincidencia parcial.
 * Exploradores: Utiliza la dimensión Tipos de exploradores para obtener todos los exploradores de un tipo, por ejemplo Google Chrome.
 * Sistemas operativos: Utiliza las dimensiones Tipos de sistemas operativos para obtener todos los sistemas operativos de un tipo, como Microsoft Windows.
-* Consulte &quot;Dimension nuevos y renombrados&quot; (consulte a continuación)
+* Consulte &quot;Dimension nuevos y renombrados&quot; (ver a continuación)
 
 ## Dimensiones nuevas y renombradas {#renamed}
 
@@ -145,7 +145,7 @@ La siguiente tabla contiene una lista de dimensiones que se renombraron en el Ge
 | Profundidad de la visita | Longitud de ruta | - |
 | Código postal | Código postal | - |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cambios en las dimensiones basadas en cadenas que tienen valores conocidos {#string-based-dims}
 

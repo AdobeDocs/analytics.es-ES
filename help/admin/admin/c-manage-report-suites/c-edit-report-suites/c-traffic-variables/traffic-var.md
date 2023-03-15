@@ -4,7 +4,7 @@ title: Resumen de variable de tráfico (prop)
 feature: Admin Tools
 exl-id: b05dbd33-b298-41a0-9474-e015ba5bc23c
 source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
 

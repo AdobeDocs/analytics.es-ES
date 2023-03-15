@@ -48,9 +48,9 @@ Las métricas se pueden definir con varias dimensiones de datos, pero entonces d
 
 Después de definir las dimensiones de datos que se tienen que utilizar con una fuente de datos, asigne los datos de las dimensiones a una variable para integrarlos en los informes de marketing. Utilice informes estándar (por ejemplo, producto, código de seguimiento, palabra clave de búsqueda) o variables de tráfico de conversiones (eVars).
 
-Cuando se usan eVars como dimensiones de datos, pueden ser eVars nuevas o preexistentes. Después de seleccionar un eVar para recibir una dimensión de datos de las fuentes de datos, asegúrese de ponerles el nombre adecuado.
+Cuando se usan eVars como dimensiones de datos, pueden ser eVars nuevas o preexistentes. Después de seleccionar un eVar para recibir una dimensión de datos de fuentes de datos, asegúrese de asignarle un nombre adecuado.
 
-Consulte [Eventos de éxito](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) en la ayuda de Analytics.
+Consulte [Eventos de éxito](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=es) en la ayuda de Analytics.
 
 ## Código de seguimiento de campaña {#section_468222796FF449ABAA90D88EB3264CB1}
 

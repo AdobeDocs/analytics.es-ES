@@ -6,7 +6,7 @@ feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
-source-wordcount: '3947'
+source-wordcount: '3944'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ La página de aterrizaje de Adobe Analytics reúne a [!DNL Analysis Workspace] y
 | El modal **[!UICONTROL Crear proyecto]** está de vuelta | Al hacer clic en **[!UICONTROL Crear proyecto]** en el Espacio de trabajo, una vez más puede elegir entre un [!UICONTROL Proyecto en blanco] y un [!UICONTROL Cuadro de resultados móviles en blanco]. También puede elegir entre cualquier plantilla que haya creado su compañía. | ![Crear nuevo](assets/create-new.png) |
 | También disponible en Customer Journey Analytics | Esta página de aterrizaje, en un formulario modificado, también está disponible en CJA. |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Estructura del menú superior {#top-menu}
 

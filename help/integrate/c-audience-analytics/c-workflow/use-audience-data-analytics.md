@@ -1,11 +1,11 @@
 ---
-description: 'También puede utilizar las dimensiones Audiencias de AAM en Analytics. Los segmentos integrados son nuevas dimensiones de Analytics llamadas ID de audiencias y Nombre de audiencias, y pueden utilizarse como cualquier otra dimensión que Analytics recopile. En Fuentes de datos, los ID de audiencia se almacenan en la columna “mc_audiences”. Estas dimensiones no están disponibles en este momento en Data Workbench o Livestream. Estos son algunos ejemplos de cómo puede aprovechar las dimensiones Audiencias '
+description: También puede utilizar las dimensiones Audiencias de AAM en Analytics. Los segmentos integrados son nuevas dimensiones de Analytics llamadas ID de audiencias y Nombre de audiencias, y pueden utilizarse como cualquier otra dimensión que Analytics recopile. En Fuentes de datos, los ID de audiencia se almacenan en la columna “mc_audiences”. Estas dimensiones no están disponibles en este momento en Data Workbench o Livestream. Estos son algunos ejemplos de cómo puede aprovechar las dimensiones Audiencias
 solution: Experience Cloud
 title: Utilización de los datos de audiencias en Analytics
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 

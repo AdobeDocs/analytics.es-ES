@@ -6,7 +6,7 @@ exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 79%
+ht-degree: 88%
 
 ---
 
@@ -16,11 +16,11 @@ El seguimiento sin conexión es una forma opcional de recopilar datos en Adobe A
 
 La variable `offlineHitLimit` coloca un límite en el número de visitas que almacena el dispositivo localmente. Esta variable solo funciona si [`trackOffline`](trackoffline.md) está habilitada.
 
-## Límite de visitas sin conexión mediante la extensión de Adobe Analytics
+## Límite de visitas sin conexión mediante la extensión Adobe Analytics
 
-No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.offlineHitLimit en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.offlineHitLimit en el editor de código personalizado de la extensión de Analytics y AppMeasurement
 
 La variable `s.offlineHitLimit` es un número entero que representa el número máximo de visitas que un dispositivo almacena mientras están sin conexión. Si no se define esta variable, no hay límite en el número de visitas que almacena un dispositivo mientras está sin conexión.
 

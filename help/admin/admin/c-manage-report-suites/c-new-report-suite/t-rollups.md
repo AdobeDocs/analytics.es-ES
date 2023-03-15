@@ -4,7 +4,7 @@ title: Crear un grupo de informes resumidos
 feature: Report Suite Settings
 exl-id: 0aac9063-d915-4484-92c0-c84a75704ac2
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%
 

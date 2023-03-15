@@ -4,7 +4,7 @@ description: Para los sitios de comercio electrónico, establece la moneda que u
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 100%
 

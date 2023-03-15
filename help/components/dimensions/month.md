@@ -4,7 +4,7 @@ description: El mes en el que se produjo la métrica.
 feature: Dimensions
 exl-id: 77f7aa91-ea2e-482f-9a29-35912efb967a
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: El número promedio de veces que un elemento de dimensión determin
 feature: Metrics
 exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
 source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 100%
 

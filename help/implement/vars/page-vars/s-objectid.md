@@ -6,7 +6,7 @@ exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ Si la precisión de Activity Map es crucial para su empresa, Adobe recomienda in
 
 ## ID de objeto con la extensión Adobe Analytics
 
-No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s_objectID en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 

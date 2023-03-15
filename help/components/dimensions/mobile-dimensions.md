@@ -31,7 +31,7 @@ Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante etiquetas en 
 * **Operador de telefonía móvil**: Los valores de esta dimensión se rellenan buscando datos de terceros (elementos digitales) basados en las direcciones IP capturadas por Analytics. Los valores de ejemplo incluyen `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` y `"Verizon"`.
 * **Profundidad de color del dispositivo móvil**: Profundidad de color del dispositivo en bits.
 * **Compatibilidad con cookies móviles**: Determina si el dispositivo móvil admite cookies. Este informe no indica si el explorador acepta cookies. Los elementos de dimensión incluyen `"Supported"`, `"Not supported"` y `"Unknown"`.
-* **Dispositivo móvil**: El dispositivo móvil que utiliza el visitante. **Nota**: Digital Elements publica actualizaciones periódicamente para reconocer dispositivos nuevos o actualizados.
+* **Dispositivo móvil**: El dispositivo móvil que utiliza el visitante. **Nota**: Elementos digitales publica actualizaciones periódicamente para reconocer dispositivos nuevos o actualizados.
 * **Número de dispositivo móvil**: Determina si el dispositivo móvil transmite su número. Los elementos de dimensión incluyen `"Supported"`, `"Not supported"` y `"Unknown"`.
 * **Tipo de dispositivo móvil**: Tipo de dispositivo móvil. Los valores de ejemplo incluyen `"Mobile phone"`, `"Tablet"`, `"Media player"` y `"Gaming console"`.
 * **DRM móvil**: Tipo de DRM que admite el dispositivo móvil. Los valores de ejemplo incluyen `"DRM OMA forward"`, `"DRM OMA combined delivery"` y `"DRM OMA separate delivery"`.

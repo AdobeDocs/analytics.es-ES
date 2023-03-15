@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ El formulario [!UICONTROL Guardar plantilla] tiene algunas de las mismas funcion
 
 Cualquier nombre de archivo utilizado debe incluir 255 caracteres o menos. Asimismo, el nombre del archivo no puede contener los siguientes caracteres:
 
-\ ? | > &lt; : / * &#39; &quot;
+\ ? | > &lt; : / &#42; &#39; &quot;
 
 Finalmente, no se pueden utilizar caracteres Unicode que no estén incluidos en el conjunto de caracteres extendidos ASCII.
 

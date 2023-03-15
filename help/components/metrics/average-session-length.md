@@ -12,7 +12,7 @@ ht-degree: 65%
 
 # Longitud promedio de la sesión (móvil)
 
-La métrica “Longitud promedio de sesión (móvil)” muestra la cantidad promedio de tiempo que un elemento de dimensión dado está presente por elemento de dimensión. Es similar a la variable [Tiempo empleado por visita [segundos]](https://experienceleague.adobe.com/docs/analytics/components/metrics/time-spent-per-visit.html) , excepto que esta métrica utiliza componentes específicos del SDK móvil como parte de su cálculo.
+La métrica “Longitud promedio de sesión (móvil)” muestra la cantidad promedio de tiempo que un elemento de dimensión dado está presente por elemento de dimensión. Es similar a la [Tiempo empleado por visita [segundos]](https://experienceleague.adobe.com/docs/analytics/components/metrics/time-spent-per-visit.html) , excepto que esta métrica utiliza componentes específicos del SDK móvil como parte de su cálculo.
 
 ## Cálculo de esta métrica
 

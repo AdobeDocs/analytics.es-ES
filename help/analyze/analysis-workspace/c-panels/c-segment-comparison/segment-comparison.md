@@ -6,7 +6,7 @@ feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Este es un vídeo sobre la comparación de segmentos:
 1. En la barra de navegación superior, haga clic en Workspace.
 1. Haga clic en el botón Crear nuevo proyecto.
 1. En la ventana emergente modal, compruebe que está seleccionado “Proyecto en blanco” y, a continuación, haga clic en Crear.
-1. Haga clic en el botón Paneles de la izquierda y, a continuación, arrastre el panel Comparación de segmentos por encima o por debajo del panel de tabla improvisada creado automáticamente.
+1. Haga clic en el botón Paneles de la izquierda y, a continuación, arrastre el panel Comparación de segmentos por encima o por debajo del panel de tabla de forma libre creado automáticamente.
 
    ![Comparar panel](assets/seg-compare-panel.png)
 

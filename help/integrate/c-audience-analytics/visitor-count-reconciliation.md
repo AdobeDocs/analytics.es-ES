@@ -4,7 +4,7 @@ title: Diferencias en la contabilización de visitantes
 feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
 

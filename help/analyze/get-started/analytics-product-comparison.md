@@ -4,7 +4,7 @@ title: Comparación de productos y requisitos de Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: 'Referencia: funciones avanzadas'
 feature: Calculated Metrics
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2909'
 ht-degree: 100%
 
@@ -204,7 +204,7 @@ Si N &lt;= 0 utiliza todas las filas anteriores. Como se ordena por la dimensió
 
 ## Media acumulada {#concept_ABB650962DC64FD58A79C305282D3E61}
 
-Devuelve la media de las últimas N filas.
+Devuelve el promedio de las últimas N filas.
 
 Si N &lt;= 0 utiliza todas las filas anteriores. Como se ordena por la dimensión, solo resulta útil en dimensiones que tienen un orden natural como la fecha o la longitud de ruta.
 

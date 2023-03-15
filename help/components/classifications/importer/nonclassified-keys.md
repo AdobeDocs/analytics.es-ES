@@ -4,7 +4,7 @@ title: Claves no clasificadas
 feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 

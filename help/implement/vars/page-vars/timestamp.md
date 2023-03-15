@@ -6,7 +6,7 @@ exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -20,11 +20,11 @@ La variable `timestamp` establece manualmente la marca de tiempo de la visita en
 
 ## Marca de tiempo mediante el SDK web
 
-La marca de tiempo es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `xdm.timestamp`. Este campo solo admite la hora Unix.
+La marca de tiempo es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `xdm.timestamp`. Este campo solo admite Tiempo Unix.
 
-## Marca de tiempo con la extensión de Adobe Analytics
+## Marca de tiempo con la extensión Adobe Analytics
 
-No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.timestamp en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
@@ -46,7 +46,7 @@ s.timestamp = new Date().toISOString();
 
 ## Valores ISO 8601
 
-Las fechas y horas expresadas de conformidad con la norma [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) pueden adoptar diferentes formas. Adobe no admite algunas de las formas descritas en la norma ISO 8601.
+Las fechas y horas expresadas de conformidad con la norma [ISO 8601](https://es.wikipedia.org/wiki/ISO_8601) pueden adoptar diferentes formas. Adobe no admite algunas de las formas descritas en la norma ISO 8601.
 
 * La fecha y la hora deben proporcionarse separadas por una `T`.
 * Es obligatorio detallar las horas y los minutos; los segundos son opcionales pero se recomiendan.

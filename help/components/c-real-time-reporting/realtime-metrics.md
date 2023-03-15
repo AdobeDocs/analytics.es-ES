@@ -1,6 +1,6 @@
 ---
 description: Proporciona una lista de métricas y dimensiones compatibles con los informes en tiempo real. Las clasificaciones también son compatibles, en caso de que las haya definido.
-title: Métricas y dimensiones en tiempo real compatibles información general
+title: Métricas y dimensiones en tiempo real compatibles  información general
 topic-fix: Reports
 feature: Real-time
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61

@@ -4,7 +4,7 @@ description: Comprenda el lapso de tiempo en que Adobe procesa los archivos de c
 feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
 

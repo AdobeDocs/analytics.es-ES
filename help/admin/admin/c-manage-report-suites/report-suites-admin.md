@@ -4,7 +4,7 @@ title: Administrador del grupo de informes
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ La tabla siguiente describe los elementos de la página [!UICONTROL Administrado
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Resúmenes</span> </td> 
-   <td colname="col2"> <p>Un resumen es un único grupo de informes que combina los datos de seguimiento de otros grupos de informes. </p> <p>Consulte  <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Grupo de informes resumidos</a>. </p> </td> 
+   <td colname="col2"> <p>Un resumen es un único grupo de informes que combina los datos de seguimiento de otros grupos de informes. </p> <p>Consulte <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Grupo de informes resumidos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar configuración</span> </td> 

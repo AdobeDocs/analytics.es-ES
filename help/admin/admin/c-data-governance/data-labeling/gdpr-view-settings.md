@@ -5,8 +5,8 @@ feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 0f5a1e7264b194b368731f612a04bb805740a932
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 75%
+source-wordcount: '864'
+ht-degree: 93%
 
 ---
 
@@ -33,11 +33,11 @@ El cuadro de diálogo **[!UICONTROL Etiquetado de privacidad para la administrac
 | **[!UICONTROL Identidad]** | Las etiquetas “I” de datos de identidad se utilizan para categorizar los datos que podrían usarse para identificar a una persona específica o ponerse en contacto con ella. [Más información](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-identity-labels) |
 | **[!UICONTROL Confidencialidad]** | Las etiquetas de datos confidenciales “S” se utilizan para categorizar datos confidenciales, como datos geográficos. En el futuro, se presentarán etiquetas de datos confidenciales adicionales para identificar otros tipos de información confidencial. [Más información](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#sensitive-data-labels) |
 | **[!UICONTROL Acceso a RGPD]** | Las etiquetas de administración de datos confieren a los usuarios la capacidad de clasificar datos que reflejen consideraciones relacionadas con la privacidad y condiciones contractuales a fin de cumplir las normativas y las políticas corporativas. [Más información](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-access-labels) |
-| **[!UICONTROL Eliminación de RGPD]** | Solo se requiere una etiqueta de eliminación para los campos que contienen un valor que permita asociar una visita al sujeto de datos (es decir, que permita la identificación del sujeto de datos). [Más información](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
+| **[!UICONTROL Eliminación de RGPD]** | Se requiere una etiqueta de eliminación únicamente para los campos que contienen un valor que pueda permitir la visita con los datos del sujeto (por ejemplo, que permita la identificación del sujeto). [Más información](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
 | **[!UICONTROL Área de nombres]** | Cuando etiquete una variable como ID-DEVICE o ID-PERSON, se le solicitará que proporcione un área de nombres. Puede utilizar un área de nombres definida anteriormente o definir una nueva. [Más información](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#provide-namespace) |
 | **[!UICONTROL Categoría]** | Hace referencia al tipo de componente, como componente estándar, variable de conversión, etc. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Copiar etiquetas de privacidad en un grupo de informes  {#copy-to-rs}
 
@@ -54,26 +54,26 @@ Si desea aplicar la misma configuración de privacidad de datos a más de un gru
 
    >[!IMPORTANT]
    >
-   >Tenga en cuenta que todos los grupos de informes que seleccione deben estar asignados a su organización Experience Cloud.
+   >Tenga en cuenta que todos los grupos de informes que seleccione deben estar asignados a su organización de Experience Cloud.
 
    Cuando copia las etiquetas de una variable o establece variables en distintos grupos de informes, la copia se dirige a la variable de la posición correspondiente en el grupo de informes de destino. Para los componentes estándar, las variables de lista y los eventos de éxito, las etiquetas se copiarán en la variable con el **mismo nombre** en el grupo de informes de destino.
 
-   Sin embargo, para las variables de conversión (eVars) y los Dimension de tráfico (props), la copia se dirige a la variable con la variable **mismo número** en el grupo de informes de destino. Por ejemplo, eVar12 se copiará en eVar12 de todos los grupos de informes de destino. Los nombres de estas variables se ignorarán en la determinación del destino de la copia. Si la variable correspondiente no está activada en el grupo de informes de destino, la copia de dicha variable fallará.
+   Sin embargo, para las variables de conversión (eVars) y las dimensiones de tráfico (props), la copia se realizará en la variable con el **mismo número** en el grupo de informes de destino. Por ejemplo, eVar12 se copiará en eVar12 de todos los grupos de informes de destino. Los nombres de estas variables se ignorarán en la determinación del destino de la copia. Si la variable correspondiente no está activada en el grupo de informes de destino, la copia de dicha variable fallará.
 
    Cuando copia las etiquetas de las clasificaciones definidas para una variable, las etiquetas se copiarán a una clasificación en la variable correspondiente en el grupo de informes de destino (como eVar7 a eVar7) cuyo nombre es idéntico al de la clasificación que se está copiando. De lo contrario, no se realizará la copia de las etiquetas de dicha clasificación.
 
 1. Marque la casilla situada junto a uno o varios grupos de informes en los que coincida la configuración.
 1. Haga clic en **[!UICONTROL Aplicar]**.
 
-   Se muestra un mensaje de estado después de aplicar una etiqueta. El mensaje de estado incluirá los nombres de cualquier variable o clasificación de destino y sus grupos de informes para los cuales no se ha podido realizar la copia.
+   Se muestra un mensaje de estado tras aplicar un conjunto de etiquetas. El mensaje de estado incluirá los nombres de cualquier variable o clasificación de destino y sus grupos de informes para los cuales no se ha podido realizar la copia.
 
    >[!IMPORTANT]
    >
-   >Siempre debe comprobar los grupos de informes de destino para asegurarse de que las etiquetas se han copiado correctamente. Esto resulta especialmente importante en el caso de variables que tienen etiquetas de ID o DEL.
+   >Siempre debe comprobar los grupos de informes de destino para garantizar que las etiquetas se copian correctamente. Esto resulta especialmente importante en el caso de variables que tienen etiquetas de ID o DEL.
 
 ## Exportación a archivo .csv {#export-csv}
 
-Puede descargar un archivo CSV que contenga todas las definiciones de etiqueta actuales para todas las variables de los grupos de informes seleccionados. Le recomendamos que su equipo legal revise sus opciones de etiquetado y esta opción facilita esta revisión. En lugar de tener que realizar la revisión con una sesión iniciada en la interfaz de usuario de administración de datos, puede compartir el archivo .CSV con ellos.
+Puede descargar un archivo CSV que contenga todas las definiciones de etiqueta actuales de todas las variables del grupo de informes seleccionado. Le recomendamos que su equipo legal revise sus opciones de etiquetado y esta opción facilita esta revisión. En lugar de tener que realizar la revisión con una sesión iniciada en la interfaz de usuario de administración de datos, puede compartir el archivo .CSV con ellos.
 
 1. Haga clic en **[!UICONTROL Exportar CSV]** en la parte superior derecha y se muestra este cuadro de diálogo:
 

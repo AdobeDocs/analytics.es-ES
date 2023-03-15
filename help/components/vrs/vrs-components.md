@@ -4,7 +4,7 @@ title: Revisión de componentes de grupo de informes virtuales
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
 

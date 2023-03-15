@@ -6,7 +6,7 @@ exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 66%
+ht-degree: 76%
 
 ---
 
@@ -16,11 +16,11 @@ Las variables de configuración controlan la manera en que se capturan y procesa
 
 ## Establecer variables de configuración
 
-En implementaciones que utilizan la extensión web SDK o la extensión de Analytics, las variables de configuración generalmente se encuentran en la configuración de la extensión:
+En implementaciones que utilizan la extensión del SDK web o la extensión de Analytics, las variables de configuración generalmente se encuentran en la configuración de la extensión:
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
-1. Haga clic en el [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Configurar] en la extensión .
+1. Haga clic en [!UICONTROL Extensiones] y haga clic en [!UICONTROL Configurar] en la extensión.
 
 En implementaciones de JavaScript que utilizan `AppMeasurement.js`, las variables de configuración generalmente se establecen en la parte superior del archivo JS.
 

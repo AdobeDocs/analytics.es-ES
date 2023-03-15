@@ -3,8 +3,8 @@ title: Seguimiento en diferentes tipos de implementación
 description: Utilice diferentes tipos de implementación y realice un seguimiento de los visitantes.
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
-workflow-type: ht
-source-wordcount: '442'
+workflow-type: tm+mt
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
@@ -23,6 +23,6 @@ Si usa más de un tipo de implementación (como AppMeasurement y solicitudes de 
 | Servidor de seguimiento | Las variables [`trackingServer`](../vars/config-vars/trackingserver.md) y [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) | [!UICONTROL Servidor de seguimiento] y [!UICONTROL Servidor de seguimiento SSL] en la sección [!UICONTROL General] al [configurar la extensión](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=es) | La propiedad `edgeDomain` al [configurar el SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es) | El [!UICONTROL dominio Edge] al [configurar la extensión](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=es) | El `hostname` de la URL de solicitud de imagen |
 | Servicio Experience Cloud ID | Implementación [`VisitorAPI.js`](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=es) | Utilice la [Extensión del servicio de ID de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html?lang=es) | Utilice la [Extensión del servicio de ID de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html?lang=es) | Utilice la [Extensión del servicio de ID de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/id-service/overview.html?lang=es) | Haga una [llamada separada a los servidores del servicio de ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/direct-integration.html?lang=es) para obtener el ID deseado |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Si cualquiera de estas variables no es coherente en cada tipo de implementación, Adobe las considera visitantes independientes. Si los visitantes no se rastrean sin problemas en los tipos de implementación del sitio, el motivo más común es que el servicio de ID está configurado incorrectamente. Consulte [Métodos de implementación](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-methods.html?lang=es) en la guía del usuario del servicio de ID para obtener más información.

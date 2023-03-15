@@ -4,7 +4,7 @@ title: 'Métricas calculadas:  derechos basados en funciones'
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 100%
 

@@ -6,7 +6,7 @@ exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 78%
+ht-degree: 84%
 
 ---
 
@@ -18,15 +18,15 @@ AppMeasurement registra automáticamente la dirección URL de la página en cada
 >
 >Esta variable no es una dimensión disponible en Analysis Workspace. Solo está disponible en Data Warehouse y en Data Feeds. Además, los servidores de recopilación de datos de Adobe eliminan esta dimensión de todas las solicitudes de imagen de [seguimiento de vínculos](/help/implement/vars/functions/tl-method.md). Si desea utilizar la dirección URL de la página como dimensión en Analysis Workspace o desea tener esta dimensión en las visitas de seguimiento de vínculos, considere pasar la variable `pageURL` a una [eVar](evar.md) en cada visita.
 
-## Dirección URL de la página que utiliza el SDK web
+## Dirección URL de la página mediante el SDK web
 
-La dirección URL de la página es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) en el campo XDM `web.webPageDetails.URL`.
+La URL de la página es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `web.webPageDetails.URL`.
 
 ## Dirección URL de la página con la extensión Adobe Analytics
 
 La extensión de Analytics en la recopilación de datos de Adobe Experience Platform rellena automáticamente la dirección URL de la página. Sin embargo, puede establecer la anulación de la dirección URL de la página al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña **[!UICONTROL Reglas]** y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En **[!UICONTROL Acciones]**, haga clic en una acción existente de **[!UICONTROL Adobe Analytics: Establecer variables]** o haga clic en el icono “+”.

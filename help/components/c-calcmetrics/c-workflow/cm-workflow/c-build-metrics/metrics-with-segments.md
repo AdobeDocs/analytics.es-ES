@@ -1,10 +1,10 @@
 ---
-description: 'La segmentación de una métrica individual le permite realizar comparaciones de métricas dentro del mismo informe. '
+description: La segmentación de una métrica individual le permite realizar comparaciones de métricas dentro del mismo informe.
 title: Métricas segmentadas
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Digamos que desea comparar distintos aspectos de los segmentos de “Visitantes 
    ![](assets/german-visitors.png)
 
 1. Repita el paso 3 con el segmento de Visitantes internacionales y la métrica de Visitantes únicos para crear una métrica de Visitantes internacionales.
-1. En Analysis Workspace, arrastre la dimensión **[!UICONTROL Página]** a una tabla de formato libre y, luego, las dos métricas calculadas nuevas en paralelo en la parte superior:
+1. En Analysis Workspace, arrastre la dimensión **[!UICONTROL Página]** a una tabla de forma libre y, luego, las dos métricas calculadas nuevas en paralelo en la parte superior:
 
    ![](assets/workspace-pages.png)
 

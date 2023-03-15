@@ -5,8 +5,8 @@ feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '628'
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ Los modelos de atribución personalizados utilizados con la dimensión de canal 
 
 ## Práctica recomendada n.º 4: Minimizar el periodo de participación del visitante
 
-Si establece el periodo de compromiso del visitante como mínimo en &quot;1 día&quot;, se minimiza la probabilidad de que persistan los valores. Debido a que los modelos de atribución personalizados (AIQ) permiten ventanas de retrospectiva flexibles, recomendamos configurar el valor mínimo para minimizar el impacto de esta configuración.
+Si establece el período de participación del visitante como mínimo en 1 día, se minimiza la probabilidad de que persistan los valores. Debido a que los modelos de atribución personalizados (AIQ) permiten ventanas de retrospectiva flexibles, recomendamos configurar el valor mínimo para minimizar el impacto de esta configuración.
 
 ![](assets/expiration.png)
 

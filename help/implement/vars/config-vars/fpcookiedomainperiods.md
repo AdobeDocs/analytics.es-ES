@@ -6,7 +6,7 @@ exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 
@@ -21,15 +21,15 @@ La variable `fpCookieDomainPeriods` ayuda a AppMeasurement a determinar dónde s
 >
 >No tenga en cuenta los subdominios para esta variable. Por ejemplo, no configure `fpCookieDomainPeriods` en la URL de ejemplo `store.toys.example.com`. AppMeasurement reconoce de forma predeterminada que las cookies deben almacenarse en `example.com`, incluso en direcciones URL con muchos subdominios.
 
-## Puntos de dominio de origen que utilizan el SDK web
+## Puntos de dominio de origen mediante el SDK web
 
 El SDK web puede determinar el dominio de almacenamiento de cookies correcto sin esta variable.
 
-## Períodos de dominio de origen mediante la extensión de Adobe Analytics
+## Puntos de dominio de origen mediante la extensión de Adobe Analytics
 
 Puntos de dominio de origen es un campo en el acordeón de [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
 
-1. Iniciar sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) uso de sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 4. Expanda el acordeón de [!UICONTROL Cookies], que muestra el campo [!UICONTROL Puntos de dominio de origen].

@@ -12,7 +12,7 @@ ht-degree: 77%
 
 # Países
 
-La dimensión “Países” informa del país desde donde se originó la visita. Esta dimensión es útil para determinar de qué países suelen proceder los visitantes del sitio. Puede utilizar estos datos para centrarse en los esfuerzos de marketing de estos países o asegurarse de que la experiencia del sitio sea óptima en países que tienen diferentes idiomas principales.
+La dimensión “Países” informa del país desde donde se originó la visita. Esta dimensión es útil para determinar de qué países suelen proceder los visitantes del sitio. Puede utilizar estos datos para centrar sus campañas de marketing en estos países o asegurarse de que la experiencia del sitio sea óptima en países que tienen diferentes idiomas principales.
 
 ## Rellene esta dimensión con datos
 
@@ -30,4 +30,4 @@ Dado que esta dimensión se basa en la dirección IP, algunos escenarios pueden 
 * **Direcciones IP móviles**: La segmentación de direcciones IP móviles funciona en diferentes niveles según la ubicación y la red del dispositivo. Algunos operadores pasan el tráfico de IP por puntos de presencia centralizados o regionales.
 * **Usuarios de ISP satelitales**: Es difícil identificar la ubicación específica de estos usuarios, ya que normalmente parecen proceder de la ubicación del vínculo superior.
 * **IP militares y gubernamentales**: Representa al personal que viaja por todo el mundo y accede a Internet a través de su ubicación local en lugar de la base u oficina en la que esté destinado.
-* **Proxies que oscurecen las direcciones IP por motivos de privacidad**: Servicios como Private Relay de Apple ocultan la dirección IP verdadera al enviar datos aleatoriamente a través de un intermediario o proxy. A continuación, este proxy sustituye una dirección IP diferente antes de reenviar al Adobe.
+* **Proxies que oscurecen las direcciones IP por motivos de privacidad**: los servicios como Private Relay de Apple ocultan la dirección IP real enviando datos aleatoriamente a través de un intermediario o proxy. A continuación, este proxy sustituye una dirección IP diferente antes de reenviarla al Adobe.

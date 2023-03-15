@@ -4,7 +4,7 @@ title: Informar sobre datos publicitarios en Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -32,17 +32,17 @@ Esta plantilla permite a cualquier usuario que implemente esta integración del 
 |--- |--- |
 | Tendencias publicitarias | Información general de tendencias diarias para Impresiones de AMO, Clics de AMO y Coste de AMO. |
 | Plataformas de publicidad | Gráfico de aros del coste de las dos plataformas principales (Google, Bing). |
-| Totales de las plataformas de publicidad | Tabla de formato libre de las plataformas principales desglosada por Impresiones de AMO, Clics de AMO, Costes de AMO, Posición media de AMO y Posición media de AMO Puntuación de calidad |
+| Totales de las plataformas de publicidad | Tabla de forma libre de las plataformas principales desglosada por Impresiones de AMO, Clics de AMO, Costes de AMO, Posición media de AMO y Posición media de AMO Puntuación de calidad |
 | Cuentas | Área apilada de costes. |
-| Totales de cuenta | Tabla de formato libre de las cuentas principales desglosada por las métricas asociadas. |
+| Totales de cuenta | Tabla de forma libre de las cuentas principales desglosada por las métricas asociadas. |
 | Campañas | Gráfico de barras del coste de la campaña. |
-| Totales de campaña | Tabla de formato libre de las campañas principales desglosada por las métricas asociadas. |
+| Totales de campaña | Tabla de forma libre de las campañas principales desglosada por las métricas asociadas. |
 | Grupos | Mapa en árbol del coste. |
-| Totales de grupo | Tabla de formato libre de los grupos publicitarios principales desglosada por las métricas asociadas. |
+| Totales de grupo | Tabla de forma libre de los grupos publicitarios principales desglosada por las métricas asociadas. |
 | Anuncios | Gráficos de barras horizontales de impresiones, clics y costes. |
-| Totales de anuncios | Tabla de formato libre de los anuncios principales desglosada por las métricas asociadas. |
+| Totales de anuncios | Tabla de forma libre de los anuncios principales desglosada por las métricas asociadas. |
 | Palabras clave | Gráfico de dispersión de impresiones, clics y costes para todas las combinaciones de tipo palabra clave / coincidencia. |
-| Totales de palabras clave | Tabla de formato libre de las combinaciones de tipo palabra clave / coincidencia principales desglosada por las métricas asociadas. |
+| Totales de palabras clave | Tabla de forma libre de las combinaciones de tipo palabra clave / coincidencia principales desglosada por las métricas asociadas. |
 
 ## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
 

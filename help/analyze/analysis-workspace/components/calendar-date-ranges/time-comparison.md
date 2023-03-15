@@ -26,7 +26,7 @@ A continuación, se muestra un vídeo sobre este tema:
 
 El análisis requiere contexto, y este lo proporciona a menudo un periodo de tiempo previo. Por ejemplo, la pregunta “¿En qué medida nos va mejor/peor que en este mismo momento del año pasado?” es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna “diferencia” que muestra el porcentaje de cambio en comparación con un periodo de tiempo concreto.
 
-1. Cree una tabla improvisada con cualquier dimensión y métrica que quiera comprobar a lo largo de un periodo de tiempo.
+1. Cree una tabla de forma libre con cualquier dimensión y métrica que quiera comprobar a lo largo de un periodo de tiempo.
 1. Haga clic con el botón secundario en una fila de la tabla y seleccione **[!UICONTROL Comparar periodos de tiempo]**.
 
    ![](assets/compare-time.png)

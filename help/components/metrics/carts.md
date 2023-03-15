@@ -23,7 +23,7 @@ Esta métrica cuenta el número de visitas donde `scOpen` existe en la variable 
 Dado que &quot;Carros de compras&quot;, &quot;Vistas del carro de compras&quot; y &quot;Adiciones al carro de compras&quot; son eventos que requieren implementación, su organización decide la diferencia exacta entre estas métricas. Sin embargo, Adobe diseñó estas métricas para la siguiente lógica:
 
 * “Carros de compras” solo se activa una vez por compra cuando un visitante agrega su primer producto al carro de compras.
-* déclencheur de &quot;Vistas del carro de compras&quot; cada vez que un visitante ve su carro de compras.
+* Los déclencheur &quot;Vistas del carro de compras&quot; aparecen cada vez que un visitante ve su carro de compras.
 * Los activadores de “Adiciones al carro de compras” para cada producto agregado al carro de compras.
 
-Cuando un cliente agrega su primer producto a un carro de compras, el comportamiento deseado es que tanto el déclencheur &quot;Carros de compras&quot; como el de &quot;Adiciones al carro de compras&quot;. Una vez más, estas directrices no son concretas; su organización determina la lógica de implementación exacta.
+Cuando un cliente agrega su primer producto a un carro de compras, el comportamiento deseado es que tanto &quot;Carros de compras&quot; como &quot;Adiciones al carro de compras&quot; generen déclencheur. Una vez más, estas directrices no son concretas; su organización determina la lógica de implementación exacta.

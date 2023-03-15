@@ -3,7 +3,7 @@ title: Importar métricas de búsqueda de pago
 description: Pasos para configurar Adobe Analytics para que realice un seguimiento de las métricas de búsqueda de pago (por ejemplo, Google AdWords, MSN, Yahoo, etc.) uso de fuentes de datos.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 100%
 

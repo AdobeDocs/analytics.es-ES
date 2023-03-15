@@ -41,7 +41,7 @@ La tabla siguiente resume las tareas necesarias para la migración de visitantes
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Para comenzar:</b> Póngase en <a href="https://helpx.adobe.com/es/marketing-cloud/contact-support.html"  >contacto con el Servicio de atención al cliente</a> y especifique el o los dominios que desea migrar, así como el período de migración que desea habilitar (30, 60 o 90 días). Asegúrese de incluir los dominios seguros y no seguros. </p> </td> 
+   <td colname="col1"> <p> <b>Para comenzar:</b> Póngase en <a href="https://helpx.adobe.com/es/marketing-cloud/contact-support.html"  >contacto con el Servicio de atención al cliente</a> y especifique el o los dominios que desea migrar, así como el período de migración que desea habilitar (30, 60 o 90 días). Asegúrese de incluir los dominios no seguros y seguros. </p> </td> 
    <td colname="col3"> <p>Cree una lista con la sintaxis <i>exacta</i> de los dominios de origen y destino de la migración. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 

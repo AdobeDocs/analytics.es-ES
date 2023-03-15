@@ -4,7 +4,7 @@ title: Administrar tráfico
 feature: Traffic Management
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
 source-git-commit: c13e39e7bfe3d7fef07ea9ccda76255d28dde1c3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 100%
 

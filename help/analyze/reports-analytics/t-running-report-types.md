@@ -59,7 +59,7 @@ Consulte el nuevo panel de [Análisis de visitas en el orden previsto](https://e
 
 Los informes de flujo de página muestran el orden en el que los visitantes acceden a las páginas y navegan a través del sitio. Este informe ayuda a dar respuesta
 
-Consulte la [Visualización de flujo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) en Analysis Workspace!
+Consulte la [Visualización de flujo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=es) en Analysis Workspace.
 
 Por ejemplo, haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Rutas]** > **[!UICONTROL Páginas]** > **[!UICONTROL Flujo de página siguiente]**.
 
@@ -71,7 +71,7 @@ Consulte el sistema de ayuda de [Canal de mercadotecnia](/help/components/c-mark
 
 ## Ejecutar un informe de detección de anomalías {#task_4808C96327354D789C075823F5C3A049}
 
-Puede ejecutarse [Detección de anomalías y análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=es) solo en Analysis Workspace.
+Puede ejecutar [Detección de anomalías y análisis de contribución](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=es) solo en Analysis Workspace.
 
 ## Ejecutar un informe en tiempo real {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -92,7 +92,7 @@ Consulte [Resumen de informes en tiempo real](/help/components/c-real-time-repor
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Seleccionar grupo de informes</strong></td> 
-   <td class="chdesc stentry"> Muestra el grupo de informes para abarca este informe en tiempo real. Para cambiar el grupo de informes, consulte la <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >Configuración de informes en tiempo real </a>. </td> 
+   <td class="chdesc stentry"> Muestra el grupo de informes para abarca este informe en tiempo real. Para cambiar el grupo de informes, consulte la <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=es"  >Configuración de informes en tiempo real </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Conmutar entre informes</strong></td> 

@@ -1,16 +1,16 @@
 ---
-title: Guía del primer administrador de Adobe Analytics
-description: Comprender cómo se lleva a cabo el primer proceso de aprovisionamiento de administración y los pasos siguientes
+title: Guía de administración inicial de Adobe Analytics
+description: Descubra cómo se lleva a cabo el primer proceso de aprovisionamiento de administración y los pasos siguientes
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
 source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 19%
+ht-degree: 45%
 
 ---
 
-# Guía del primer administrador de Adobe Analytics
+# Guía de administración inicial de Adobe Analytics
 
 Antes de poder asignar funciones en Adobe Analytics a cualquier usuario, este debe asignarse como primer administrador en Experience Cloud. El primer administrador puede aprovisionar a los usuarios de la organización con otras funciones clave.
 
@@ -18,9 +18,9 @@ Un primer administrador es el punto de partida para permitir que el resto de la 
 
 ## Proceso de aprovisionamiento para un primer administrador
 
-Una vez firmado el contrato:
+Después de firmar un contrato:
 
-1. El equipo de aprovisionamiento de la Adobe se prepara para la creación de la cuenta.
+1. El equipo de aprovisionamiento de Adobe se prepara para la creación de la cuenta.
 
 1. El primer administrador recibe un correo electrónico con credenciales de inicio de sesión antes de la fecha de inicio del contrato.
 
@@ -32,4 +32,4 @@ Una vez firmado el contrato:
 
 Una vez aprovisionado un primer administrador para su organización, el primer administrador puede aprovisionar a los usuarios de la organización con otras funciones clave.
 
-Para obtener información sobre cómo aprovisionar a los usuarios de su organización funciones clave para Adobe Analytics, consulte [Funciones de administrador en Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md).
+Para obtener información sobre cómo aprovisionar usuarios en su organización con funciones clave para Adobe Analytics, consulte [Funciones de administrador en Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md).

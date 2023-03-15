@@ -6,7 +6,7 @@ exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
@@ -20,11 +20,11 @@ Los ID de compra se aplican a todos los visitantes y no caducan. Si un visitante
 
 ## ID de compra mediante el SDK web
 
-El ID de compra es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) en el campo XDM `commerce.order.purchaseID`.
+El ID de compra es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `commerce.order.purchaseID`.
 
-## ID de compra con la extensión de Adobe Analytics
+## ID de compra con la extensión Adobe Analytics
 
-No hay un campo específico en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.purchaseID en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
