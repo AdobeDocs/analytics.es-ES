@@ -5,16 +5,16 @@ title: Proyectos de solo de vista
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+source-git-commit: 7d79d6a329c5d42ede2d15d8afd67021fde23e1c
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Proyectos de solo de vista
 
-Puede compartir proyectos como “Solo consulta” a destinatarios a través del [flujo de trabajo de uso compartido de proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md). Los Destinatarios que se tengan la función “Puede ver” tendrán opciones limitadas dentro del proyecto. Esto puede ser útil si comparte un proyecto con usuarios que están menos familiarizados con la estructura de datos de su organización, con Analysis Workspace o con Adobe Analytics en general pero, aun así, desea que consuman datos y perspectivas en un entorno seguro.
+Puede compartir proyectos como “Solo consulta” a destinatarios a través del [flujo de trabajo de uso compartido de proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md). Los Destinatarios que se tengan la función “Puede ver” tendrán opciones limitadas dentro del proyecto. Esto puede ser útil si comparte un proyecto con usuarios que están menos familiarizados con la estructura de datos de su organización, Analysis Workspace o Adobe Analytics en general, pero aun así desea que consuman datos y perspectivas en un entorno seguro.
 
 ![](assets/view-only-project.png)
 
