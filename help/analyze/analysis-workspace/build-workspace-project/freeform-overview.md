@@ -5,10 +5,10 @@ title: Información general sobre Proyectos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+source-git-commit: 5b22de34d4c99d68609d39711a970f871c893b74
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 84%
+source-wordcount: '1555'
+ht-degree: 83%
 
 ---
 
@@ -38,8 +38,6 @@ La página Proyectos contiene la siguiente información:
 | [Editar preferencias](/help/analyze/analysis-workspace/user-preferences.md) | Administre la configuración de Analysis Workspace y sus componentes relacionados para todos los proyectos o paneles nuevos que cree. |
 | [Crear carpeta](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Agregue una nueva carpeta o subcarpeta a la lista de proyectos y carpetas. |
 | [Crear proyecto](/help/analyze/analysis-workspace/home.md) | Inicio de un nuevo proyecto desde cero o desde un [plantilla](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#analysis-workspace). |
-| Administrar proyectos <!--I don't see this option--> | Al hacer clic en este vínculo, accederá al administrador de componentes de proyectos (**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Proyectos]**), que muestra todos sus proyectos y le permite etiquetar, compartir, eliminar, cambiar el nombre, aprobar, copiar y exportar proyectos a CSV. |
-| Definir como página principal <!--I don't see this option--> | Convierte esta página en su página de aterrizaje de Workspace. |
 | Mostrar más | Muestra las opciones para crear un proyecto en blanco o un informe de valoración móvil, [visualización de tutoriales de formación](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=es)o [ver notas de la versión](/help/release-notes/latest.md). |
 | Mostrar carpetas y proyectos | Elija si desea mostrar la estructura de carpetas de los proyectos. Para obtener más información, consulte [Acerca de las carpetas en Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Personalizar tabla (icono) | Permite personalizar la información que se muestra para cada proyecto en la página Proyectos . |
@@ -58,8 +56,6 @@ La página Proyectos contiene la siguiente información:
 | El intervalo de fecha más largo | Intervalo de fechas más largo del proyecto. |
 | Cantidad de consultas | Número total de consultas contenidas en el proyecto. |
 | Ubicación | Carpeta donde reside el proyecto. |
-| Mis proyectos favoritos <!--I don't see this option--> | Para marcar un proyecto como favorito, abra el proyecto y haga clic en la estrella junto a su nombre. Aparecerá en esta lista la próxima vez que abra Workspace. |
-| Proyectos vistos con frecuencia <!--I don't see this option--> | Lista todos los proyectos que abre con frecuencia para facilitar el acceso. |
 
 ## Barra de menú {#menu-bar}
 
