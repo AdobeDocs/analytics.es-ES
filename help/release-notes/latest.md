@@ -3,16 +3,16 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ca99382a39644dc422baaf7dbd5c4d95942455af
+source-git-commit: ff90d4da4b0bbce35716e9a42ae33ea21f650cdf
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 88%
+source-wordcount: '1267'
+ht-degree: 84%
 
 ---
 
 # Notas de la versión de Adobe Analytics actual (Marzo de 2023)
 
-**Última actualización**: 10 de marzo de 2023
+**Última actualización**: 21 de marzo de 2023
 
 Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -44,6 +44,7 @@ AN-308177; AN-308727; AN-308846; AN-309591; AN-310614; AN-311544; AN-311570; AN-
 
 | Final de la vida útil de producto o función | Fecha de incorporación o actualización | Descripción |
 | --- | --- | --- |
+| **Fin de la vida útil del servicio japonés de seguimiento de Feature Phone** | 21 de marzo de 2023 | Solo para nuestros clientes japoneses: A finales de mayo de 2023, el servicio japonés de seguimiento de Feature Phone (mod_ktrack) dejará de funcionar. Pedimos disculpas por las molestias, pero le pedimos que desinstale o deshabilite los módulos instalados en su servidor Apache. Consulte las páginas 27 y 28 en [este documento](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) como referencia. |
 | **EOL para [!DNL Reports & Analytics]** | 7 de marzo de 2023 | A partir del **31 de diciembre de 2023**, Adobe tiene la intención de descatalogar [!DNL Reports & Analytics] y sus informes y funciones correspondientes. Los informes, las visualizaciones y la tecnología subyacente que alimentan [!DNL Reports & Analytics] ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de [!DNL Reports & Analytics] están disponibles en [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de [!DNL Reports & Analytics] se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. [Este aviso](https://spark.adobe.com/page/6WnF8JK6IRDhf/) explica el proceso de finalización de la vida útil.<p>El 31 de diciembre de 2023, finalizaremos muchas de las funciones de Reports &amp; Analytics asociadas, incluidas, entre otras, las siguientes: Informes programados, Extractos de datos e Informes DL. A partir del 31 de diciembre de 2023, ya no se enviarán los informes programados. En **Abril de 2023**, cualquier informe que estuviera programado para caducar después del 31 de diciembre de 2023 se actualizará automáticamente y se revertirá para que caduque el 31 de diciembre de 2023. Además, ya no puede programar informes futuros después del 31 de diciembre de 2023. |
 | **EOL de la métrica [!UICONTROL Personas]** | 9 de marzo de 2023 | Con la retirada de [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html?lang=es), la métrica Personas relacionada con la cooperación entre dispositivos ya no es relevante. El 8 de mayo de 2023, eliminaremos el [!UICONTROL People] métrica. En ese momento, redireccionaremos sus datos a la métrica [!UICONTROL Visitante único] para evitar que se estropeen los proyectos, los segmentos y las métricas calculadas.<p>**Nota**: La métrica [[!UICONTROL Personas] vinculada a análisis multidispositivo](/help/components/metrics/people.md) no se ve afectado por este anuncio. |
 | **Funcionalidad del final de vida útil de las [!UICONTROL Listas de publicación]** | 29 de septiembre de 2022 | Como parte del final de la vida útil de Reports &amp; Analytics, las [!UICONTROL Listas de publicación] están programadas para llegar al final de su vida útil en **diciembre de 2023**. No podrá crear [!UICONTROL Listas de publicación] nuevas ni acceder a las existentes para enviar o programar proyectos de [!UICONTROL Analysis Workspace]. |
