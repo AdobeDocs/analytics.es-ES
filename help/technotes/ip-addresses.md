@@ -3,7 +3,7 @@ title: IP y dominios utilizados por Adobe Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 5268016c1055e9387a3394ee6bdfdb2dc508e7d0
+source-git-commit: 07606370e0198901d409ae054f8c8ca6c793bbeb
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 73%
@@ -81,9 +81,9 @@ Adobe Analytics utiliza los servicios web de Amazon como parte de su proceso de 
 
 | Ubicación | Host |
 | --- | --- |
-| China | `52.80.169.108` |
-| China | `54.223.47.95` |
-| China | `140.179.13.49` |
+| China | `52.80.44.16` |
+| China | `52.80.161.58` |
+| China | `140.179.173.142` |
 | Francia | `13.36.218.177` |
 | Francia | `15.188.95.229` |
 | Francia | `15.236.176.210` |
