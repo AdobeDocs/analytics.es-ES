@@ -5,10 +5,10 @@ title: Compartir proyectos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 5f502cb30deb49ce21c72c1bf84db340ac3b426e
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 65%
+source-wordcount: '1668'
+ht-degree: 62%
 
 ---
 
@@ -122,6 +122,10 @@ Puede conceder [acceso de solo lectura](/help/analyze/analysis-workspace/curate-
 >* El administrador de Analytics puede deshabilitar la capacidad de compartir un proyecto de esta forma, tal como se describe en [Preferencias](/help/analyze/analysis-workspace/user-preferences.md). Si no puede compartir un proyecto como se describe en esta sección, su administrador de Analytics ha desactivado esta capacidad.
 >
 >* Los proyectos con más de 14 visualizaciones expandidas no se pueden compartir con personas que no tienen acceso a Adobe Analytics.
+>
+>* Los usuarios con los que comparta pueden ver los filtros que se aplicaron al proyecto durante [depuración](curate.md).
+> 
+>* Los usuarios con los que comparta pueden cambiar el intervalo de fechas del proyecto. El intervalo de fechas definido para el proyecto se muestra de forma predeterminada.
 
 
 Para compartir un proyecto de Analysis Workspace con personas que no tienen acceso a Adobe Analytics:
@@ -153,6 +157,8 @@ Para compartir un proyecto de Analysis Workspace con personas que no tienen acce
 1. Comparta el vínculo con las personas a las que desee tener acceso al proyecto. Por ejemplo, puede pegar el vínculo en un correo electrónico.
 
    Cualquier persona con la que comparta el vínculo puede ver el proyecto de Analysis Workspace.
+
+1. (Opcional) Puede hacer clic en la **Generar nuevo vínculo** icono ![Icono Generar vínculo](assets/regenerate-link.png) para eliminar el acceso de los usuarios que recibieron previamente un vínculo al proyecto. Se genera un nuevo vínculo que puede compartir con los usuarios a los que desee acceder al proyecto.
 
 1. Select **[!UICONTROL Cerrar]** para cerrar el cuadro de diálogo compartir. Los cambios se guardan automáticamente.
 
