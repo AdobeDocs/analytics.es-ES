@@ -5,10 +5,10 @@ title: Crear vínculos que se pueden compartir
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 870252bebc55ddc5621e6d1add708cb1d9fda60d
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 73%
+source-wordcount: '380'
+ht-degree: 61%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 73%
 
 Analysis Workspace ofrece varias formas de compartir un proyecto con los usuarios, incluida la posibilidad de obtener un vínculo a un proyecto o a una parte específica de un proyecto. Algunos tipos de vínculos requieren que el destinatario inicie sesión en Adobe Analytics antes de acceder al proyecto, mientras que otros no lo hacen.
 
-## Obtener vínculo del proyecto para compartirlo con otros usuarios de Workspace {#project-link}
+## Obtener un vínculo de proyecto para compartirlo con otros usuarios de Workspace {#project-link}
 
-Para compartir un vínculo al proyecto completo, vaya a [!UICONTROL **Compartir**] > [!UICONTROL **Compartir con usuarios de Workspace**] > [!UICONTROL **Compartir por vínculo**]. Si no se ha asignado al destinatario del vínculo una [función de proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es), los administradores tendrán la función: **[!UICONTROL Puede editar]** y los que no sean administradores: **[!UICONTROL Puede duplicar]**.
+Para compartir un vínculo a un proyecto, vaya al proyecto que desea compartir y, a continuación, seleccione ir a [!UICONTROL **Compartir**] > [!UICONTROL **Compartir con usuarios de Workspace**] > [!UICONTROL **Compartir por vínculo**]. Los usuarios con los que comparta el vínculo deben iniciar sesión.
 
-![](assets/get-project-link.png)
+Si al destinatario del vínculo no se le ha asignado un [función del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es), los administradores reciben **[!UICONTROL Puede editar]** y reciben los usuarios que no son administradores **[!UICONTROL Puede duplicarse]** experiencias.
 
 ## Obtener un vínculo de solo lectura para compartirlo con cualquier persona
 
 {{release-limited-testing-section}}
 
-Puede compartir un vínculo de solo lectura a proyectos de Analysis Workspace con personas que no tienen acceso a Adobe Analytics.
+Puede compartir un vínculo de solo lectura a proyectos de Analysis Workspace con personas que no tienen acceso a Adobe Analytics. Los usuarios con los que comparta el vínculo no tienen que iniciar sesión.
 
 Para obtener más información, consulte &quot;Compartir un proyecto con cualquier persona (no se requiere inicio de sesión)&quot; en el artículo [Compartir proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
