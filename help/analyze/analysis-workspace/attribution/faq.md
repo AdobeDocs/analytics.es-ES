@@ -4,10 +4,10 @@ description: Obtenga respuestas a preguntas más frecuentes sobre Attribution.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 1c9f2a0f811d42c55205ee9e0431cee2f67187e7
+source-git-commit: 5ed1ff0ecee4843f866b1a911e2cb5f14310c58a
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 89%
+source-wordcount: '1071'
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ Sí, las clasificaciones son compatibles.
 
 Sí, la mayoría de las fuentes de datos son compatibles. La atribución no es compatible con fuentes de datos de resumen porque no están vinculadas a un identificador de visitante de Analytics.
 
-Las fuentes de datos del ID de transacción se tratan como cualquier otra visita; no utilizan el procesamiento especial que normalmente utilizan en los informes tradicionales.
+Las fuentes de datos del ID de transacción se tratan como cualquier otra visita; no utilizan el procesamiento especial que normalmente utilizan en los informes tradicionales. En otras palabras, al utilizar el procesamiento de tiempo del informe, las visitas del ID de transacción tendrán valores de eVar propagados a partir de las visitas que se produzcan cerca de la marca de tiempo de la visita del ID de transacción. Los valores no se propagarán desde las visitas que se hayan producido cerca del momento de la transacción original.
 
 ## ¿Se puede usar la atribución con la integración de Advertising Analytics?
 
