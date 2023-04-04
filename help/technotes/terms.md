@@ -2,7 +2,7 @@
 title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -47,7 +47,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Servidor de recopilación de datos:** servidores que pertenecen a Adobe y que reciben y procesan datos. Las solicitudes de imagen se envían a los servidores de recopilación de datos de Adobe para su uso en los informes.
 * **Conectores de datos:** una solución de desarrollo completa que permite a terceros automatizar la carga de datos en Adobe Analytics. Los clientes de estos terceros pueden utilizar un conector de datos para enriquecer sus datos en Adobe Analytics. La mayoría de los conectores de datos presentan un flujo de trabajo similar al utilizado por las fuentes de datos. Consulte los [conectores de datos](/help/import/data-connectors/data-connectors-eol.md) en la guía del usuario sobre importación.
 * **Fuente de datos:** exportación de datos sin procesar que enumera cada visita en una fila y muestra las variables como columnas independientes. Normalmente se utiliza para exportar datos de Adobe Analytics a una base de datos de terceros. Consulte [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) en la guía de usuario sobre exportación.
-* **Fuentes de datos:** permiten a un usuario cargar los datos de un archivo a Adobe Analytics. Normalmente, el archivo se extrae de un sitio FTP. Consulte [Fuentes de datos](/help/import/c-data-sources/datasrc-home.md) en la guía de usuario sobre importación.
+* **Fuentes de datos:** permiten a un usuario cargar los datos de un archivo a Adobe Analytics. Normalmente, el archivo se extrae de un sitio FTP. Consulte [Fuentes de datos](/help/import/data-sources/overview.md) en la guía de usuario sobre importación.
 * **Data Warehouse:** característica de Adobe Analytics que permite solicitar informes de mayor tamaño. Consulte [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) en la guía de usuario sobre exportación.
 * **Data Workbench:** anteriormente conocido como Insight. Diseñado para recopilar, procesar, analizar y visualizar datos desde interacciones del usuario, tanto en línea como sin conexión, en múltiples canales.
 * **Dimensión:** un tipo de componente que contiene valores variables, como texto. Algunos ejemplos son Nombre de página, Código de seguimiento o Dominio de referencia. Su homólogo suele ser una métrica.

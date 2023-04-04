@@ -3,7 +3,7 @@ title: Tipo de conexión
 description: Conexión del visitante a Internet.
 feature: Dimensions
 exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Esta dimensión utiliza una combinación de la [`ct` cadena de consulta](/help/i
 1. Si la cadena de consulta `ct` es igual a `"modem"`, establezca el elemento de dimensión en `"Modem"`. AppMeasurement solo recopila estos datos en exploradores como Internet Explorer no compatibles, lo que hace que este elemento de dimensión sea poco común.
 1. Compruebe la dirección IP de la visita y haga referencia a una tabla de búsqueda interna de Adobe. Si la dirección IP es de un operador de telefonía móvil, establezca el elemento de dimensión en `"Mobile Carrier"`.
 1. Si la cadena de consulta `ct` es igual a `"lan"`, establezca el elemento de dimensión en `"LAN/Wifi"`.
-1. Si la visita se origina desde una [Fuente de datos](/help/import/c-data-sources/datasrc-home.md) o se considera de otro modo un tipo especial de visita, establezca el elemento de dimensión en `"Not specified"`.
+1. Si la visita se origina desde una [Fuente de datos](/help/import/data-sources/overview.md) o se considera de otro modo un tipo especial de visita, establezca el elemento de dimensión en `"Not specified"`.
 1. Si no se cumple ninguna de las reglas anteriores, el valor predeterminado es `"LAN/Wifi"`.
 
 ## Elementos de dimensión

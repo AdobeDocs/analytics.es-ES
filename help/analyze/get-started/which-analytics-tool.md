@@ -3,7 +3,7 @@ description: Esta página de ayuda contiene casos de uso recomendados para cada 
 title: ¿Qué herramienta de Adobe Analytics debo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 100%
@@ -52,7 +52,7 @@ El **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/usi
    * Generador de reglas: úselo cuando tenga valores de formato predecibles que se recopilen para una variable (por ejemplo, valores delimitados). Este enfoque le permite configurar reglas una vez y, en gran medida, no tendrá que volver a modificarlas.
    * Importación del explorador: Úsela cuando no tenga valores predecibles o cuando tenga una lista de valores limitada que requiera una actualización única. Para este enfoque es necesario supervisar de forma continuada las clasificaciones para identificar nuevos valores.
 
-Las **[Fuentes de datos](/help/import/c-data-sources/datasrc-home.md)** deben usarse:
+Las **[Fuentes de datos](/help/import/data-sources/overview.md)** deben usarse:
 
 * Cuando hay datos sin conexión que desea escribir de forma permanente en Adobe Analytics.
 * Opciones:

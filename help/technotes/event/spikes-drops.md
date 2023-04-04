@@ -2,7 +2,7 @@
 title: Solución de problemas de picos y caídas de datos
 description: Conocer las posibles razones por las que puede ver incrementos o disminuciones drásticos en los informes de tendencias.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Los picos de tráfico se clasifican en dos secciones: cerca de los datos dobles 
 ### Posibles causas de tener casi o exactamente el doble de los datos esperados
 
 * **Varias solicitudes de imagen dentro de una implementación**: Si la implementación contiene más de una llamada al método [`t()`](/help/implement/vars/functions/t-method.md) por página, dobla de forma eficaz todos los datos recopilados. Use el depurador del sitio y observe si hay varias solicitudes de imagen para captar duplicados.
-* **Archivos de fuentes de datos de duplicado cargados**: Si su organización utiliza [fuentes de datos](/help/import/c-data-sources/datasrc-home.md), un usuario de su organización puede cargar el mismo archivo dos veces a Adobe Analytics. Al realizar esta carga de duplicado, se dobla de forma eficaz esa información en la creación de informes, lo que provoca el pico de tráfico.
+* **Archivos de fuentes de datos de duplicado cargados**: Si su organización utiliza [fuentes de datos](/help/import/data-sources/overview.md), un usuario de su organización puede cargar el mismo archivo dos veces a Adobe Analytics. Al realizar esta carga de duplicado, se dobla de forma eficaz esa información en la creación de informes, lo que provoca el pico de tráfico.
 
 ### Otras causas potenciales del aumento del tráfico
 
