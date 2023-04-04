@@ -4,16 +4,16 @@ description: Adobe se propone pausar todos los informes programados que tengan u
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Aviso de fin de vida útil para informes programados
 
-El 21 de abril de 2022, anunciamos la desaprobación de varias funciones específicas de los informes programados como preparación para el anuncio previo [fin de vida útil de Reports and Analytics](https://express.adobe.com/page/6WnF8JK6IRDhf/). Estas funciones incluían la capacidad de programar nuevos informes, así como nuevos extractos de datos. En respuesta a las solicitudes de los clientes que buscan una extensión y para facilitar la transición desde Reports &amp; Analytics, hemos decidido ampliar el acceso a estas funciones hasta el **31 de enero de 2023**. Tenga en cuenta que los plazos de caducidad para los informes y los extractos de datos seguirán estando limitados a nueve meses; la entrega de informes y extracciones de datos se pausará al final de este periodo a menos que se reactive la programación.
+El 21 de abril de 2022, anunciamos la desaprobación de varias funciones específicas de los informes programados como preparación para el anuncio previo [fin de vida útil de Reports and Analytics](https://www.adobe.com/go/analytics_rnaeol_en). Estas funciones incluían la capacidad de programar nuevos informes, así como nuevos extractos de datos. En respuesta a las solicitudes de los clientes que buscan una extensión y para facilitar la transición desde Reports &amp; Analytics, hemos decidido ampliar el acceso a estas funciones hasta el **31 de enero de 2023**. Tenga en cuenta que los plazos de caducidad para los informes y los extractos de datos seguirán estando limitados a nueve meses; la entrega de informes y extracciones de datos se pausará al final de este periodo a menos que se reactive la programación.
 
 Para reiterar, estas funciones quedarán obsoletas el 31 de enero de 2023, antes de lo cual deberá migrar los informes programados a uno de los demás mecanismos disponibles en Adobe Analytics.
 

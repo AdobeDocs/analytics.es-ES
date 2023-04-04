@@ -1,5 +1,5 @@
 ---
-source-git-commit: 57772f5a2e74ec20fd7c234b996678f7e75607ea
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 64%
@@ -11,7 +11,7 @@ ht-degree: 64%
 
 >[!IMPORTANT]
 >
->Más información acerca del [Anuncio del final de la vida útil](https://express.adobe.com/page/6WnF8JK6IRDhf/) de Reports &amp; Analytics.
+>Más información acerca del [Anuncio del final de la vida útil](https://www.adobe.com/go/analytics_rnaeol_en) de Reports &amp; Analytics.
 
 ## Criterios de filtro del diccionario de datos {#dd-filter-criteria}
 
