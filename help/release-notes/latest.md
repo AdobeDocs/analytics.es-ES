@@ -3,10 +3,10 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 78ab323ca7f508b319c293975b430c2cb3e043de
+source-git-commit: 3bfa7e7eeac52370b32060c264c408de32a56fc1
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 67%
+source-wordcount: '1546'
+ht-degree: 68%
 
 ---
 
@@ -20,7 +20,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Compatibilidad parcial con el Activity Map con el SDK web** | A partir de la versión 2.15.0 del SDK web, se empezaron a rellenar los datos del Activity Map cuando el seguimiento de vínculos está habilitado. Esto permite a los usuarios del SDK web obtener informes de Activity Map si tienen habilitado el seguimiento de vínculos con el SDK web y el Activity Map configurado en Analytics.<p>Tenga en cuenta que al habilitar el seguimiento de vínculos con el SDK web, se envían eventos de vínculo cuando un cliente navega de una página a otra. Como resultado, las visitas facturables adicionales se envían al Adobe. Estamos trabajando para que el SDK web recopile un Activity Map de forma que refleje lo que hace AppMeasurement. En algunas situaciones, AppMeasurement envía datos por separado en las vistas de página siguientes, lo que reduce el número de llamadas al servidor. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=es) | N/A | 31 de marzo de 2023 |
+| **Compatibilidad parcial con el Activity Map con el SDK web** | A partir de la versión 2.15.0 del SDK web, se empezaron a rellenar los datos del Activity Map cuando el seguimiento de vínculos está habilitado. Esto permite a los usuarios del SDK web obtener informes de Activity Map si tienen habilitado el seguimiento de vínculos con el SDK web y el Activity Map configurado en Analytics.<p>Al habilitar el seguimiento de vínculos con el SDK web, se envían eventos de vínculo cuando un cliente navega de una página a otra. Esto es diferente a cómo funciona AppMeasurement y puede resultar potencialmente en visitas facturables adicionales enviadas al Adobe. Más información [here](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=es) y [here](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) | N/A | 31 de marzo de 2023 |
 | **Diccionario de datos en Analysis Workspace** | El diccionario de datos ayuda a los usuarios y a los administradores a realizar el seguimiento de los componentes (dimensiones, métricas) en el entorno de Analytics, a administrarlos y a comprenderlos mejor. [Más información](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 de marzo de 2023 | **No disponible temporalmente** |
 | **Historias de datos en paneles móviles** | Las historias de datos le permiten añadir varias vistas de detalles personalizables a mosaicos en proyectos de cuadros de resultados móviles. Utilice historias de datos para profundizar en los controladores clave, las métricas relacionadas y los diferentes pasos a lo largo del recorrido del cliente. Puede desplazarse fácilmente por estas vistas para comprender toda la historia detrás de las métricas clave. [Más información](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | N/A | 8 de marzo de 2023 |
 | **Fechas de caducidad del proyecto programado** | Puede establecer las fechas de caducidad máximas para los proyectos programados hasta un año, independientemente de la frecuencia de programación. | N/A | 8 de marzo de 2023 |
