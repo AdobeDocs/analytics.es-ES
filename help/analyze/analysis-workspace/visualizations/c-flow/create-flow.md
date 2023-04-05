@@ -4,22 +4,16 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 100%
+source-wordcount: '1304'
+ht-degree: 96%
 
 ---
 
 # Configuración de una visualización de flujo
 
-La visualización de flujo actualizada le permite comprender los recorridos que se derivan de un evento de conversión específico en el sitio web o la aplicación, o que conducen a él. Traza una ruta a través de las dimensiones (y elementos de dimensión) o las métricas. El flujo le permite configurar el inicio o el final de la ruta que le interesa o analizar todas las rutas que fluyen a través de una dimensión o un elemento de dimensión.
-
-La nueva experiencia de [!UICONTROL flujo] mejora el flujo de trabajo de varias formas:
-
-* Ahora puede elegir iniciar o finalizar la ruta con la combinación de una métrica y una dimensión de ruta.
-* Contiene [!UICONTROL configuración avanzada] para permitirle personalizar aún más el [!UICONTROL flujo].
-* El nuevo botón «Generar» le permite ahorrar tiempo en el análisis, ya que le permite configurar todo el recorrido de una sola vez, luego consultar y, por último, crear automáticamente varias columnas y nodos a la vez.
+Las visualizaciones de flujo le ayudan a comprender los recorridos que se derivan de un evento de conversión específico del sitio web o la aplicación, o que se generan en él. Traza una ruta a través de las dimensiones (y elementos de dimensión) o las métricas. Las visualizaciones de flujo permiten configurar el inicio o el final de la ruta que le interese o analizar todas las rutas que fluyen a través de una dimensión o elemento de dimensión.
 
 ![nueva interfaz de usuario de flujo](assets/new-flow.png)
 

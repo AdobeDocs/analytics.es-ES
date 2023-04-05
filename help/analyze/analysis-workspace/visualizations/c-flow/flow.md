@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 90%
+source-wordcount: '226'
+ht-degree: 84%
 
 ---
 
@@ -32,9 +32,13 @@ Este es un tutorial en vídeo de visualización de flujo:
 
 ## Flujos interdimensionales {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-Puede mostrar el [flujo entre dimensiones](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Por ejemplo, puede combinar páginas y departamentos en un diagrama. En este caso, su flujo puede ir desde la página de inicio a la página para hombres y, a continuación, al departamento Zapatos.
+Puede mostrar el [flujo entre dimensiones](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Por ejemplo, puede combinar páginas y departamentos en un diagrama. En este caso, su flujo puede ir desde la página principal, a la página de hombres y, a continuación, al departamento Zapatos.
 
 Cada columna puede mostrar una dimensión distinta. Arrastre una dimensión y suéltela en una zona de colocación para añadir esa dimensión al diagrama.
+
+## Configuración de una visualización de flujo
+
+Para obtener información sobre cómo configurar una visualización de flujo, consulte [Configuración de una visualización de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 
 ## Exportación de diagramas de flujo como parte de archivos .CSV de proyecto {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 

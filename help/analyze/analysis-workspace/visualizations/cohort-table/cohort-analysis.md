@@ -4,10 +4,10 @@ description: Explore en detalle los datos de su audiencia y desglóselos en grup
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,9 @@ Vídeo sobre tablas de cohorte en Analysis Workspace:
 
 >[!IMPORTANT]
 >
->El [!UICONTROL Análisis de cohorte] no admite métricas no segmentables (incluidas las métricas calculadas), métricas no enteras (como Ingresos) >u Ocurrencias. Solo se pueden usar las métricas de los segmentos en [!UICONTROL Análisis de cohorte] y solo se pueden incrementar en >1 a la vez.
+>[!UICONTROL Análisis de cohorte] no admite métricas no segmentables (incluidas las métricas calculadas), métricas no enteras (como Ingresos) u Ocurrencias.
+>
+>Solo se pueden usar las métricas de los segmentos en [!UICONTROL Análisis de cohorte] y solo se pueden incrementar en >1 a la vez.
 
 ## Capacidades del análisis de cohorte
 
