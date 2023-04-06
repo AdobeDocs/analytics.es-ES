@@ -4,28 +4,43 @@ description: Las tablas de forma libre son la base del análisis de datos en Wor
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
+source-git-commit: 8ca676a9e69195ef873981dd390bb0a6d4d465f1
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '626'
+ht-degree: 69%
 
 ---
 
 # Tabla de forma libre
 
-En Analysis Workspace, una tabla de forma libre es la base del análisis de datos interactivo. Puede arrastrar y soltar una combinación de [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=es) en filas y columnas para crear una tabla personalizada para su análisis. A medida que se suelta cada componente, la tabla se actualiza inmediatamente para que pueda analizar rápidamente y explorar en mayor profundidad.
+En Analysis Workspace, una tabla de forma libre es la base del análisis de datos interactivo. Puede arrastrar y soltar una combinación de [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=es) en filas y columnas para crear una tabla personalizada para su análisis. A medida que se suelta cada componente, la tabla se actualiza inmediatamente, para que pueda analizar y profundizar rápidamente.
 
-![](assets/opening-section.png)
+Para ilustrarlo, comience con una tabla improvisada vacía.
+
+![Tabla improvisada vacía](assets/freeform-table-1.png)
+
+Si suelta la variable **[!UICONTROL ** Visitas **]** en la **[!UICONTROL ** Coloque una métrica aquí (o cualquier otro componente)**]**, la tabla improvisada se rellena automáticamente con visitas por día durante el período seleccionado.
+
+![Tabla improvisada de visitas](assets/freeform-table-2.png)
+
+Si a continuación suelta el **[!UICONTROL ** Página **]** para reemplazar la dimensión **[!UICONTROL ** Día **]** , la tabla improvisada refleja automáticamente las visitas de cada página.
+
+![Visitas por tabla improvisada de página](assets/freeform-table-3.png)
+
+Y luego puede desglosar, por ejemplo, el **[!UICONTROL ** categoría:5 **]** soltando la página **[!UICONTROL ** Canal de marketing **]** en la dimensión **[!UICONTROL ** categoría:5 **]** fila.
+
+![Desglose de visitas por tabla improvisada de página](assets/freeform-table-4.png)
+
 
 ## Tablas automatizadas
 
-La forma más rápida de crear una tabla es soltar componentes directamente en un proyecto, panel o tabla de forma libre en blanco. Se creará automáticamente una tabla de forma libre en un formato recomendado. [Vea el tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=es).
+Como se ilustra más arriba, la forma más rápida de crear una tabla es soltar componentes directamente en un proyecto, panel o tabla improvisada en blanco. Se creará automáticamente una tabla de forma libre en un formato recomendado. [Vea el tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=es).
 
 ![](assets/automated-table.png)
 
 ## Generador de tablas de forma libre
 
-Si prefiere primero agregar varios componentes a la tabla y luego procesar los datos, puede habilitar el Generador de tablas de forma libre. Con el Generador de tablas improvisadas, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas más complejas. Los datos no se actualizarán sobre la marcha, sino una vez que haga clic en **[!UICONTROL Generar]**.
+Si prefiere primero agregar varios componentes a la tabla y luego procesar los datos, puede habilitar el Generador de tablas de forma libre. Con el generador habilitado, puede arrastrar y soltar muchas dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas más complejas. Los datos no se actualizarán sobre la marcha, sino una vez que haga clic en **[!UICONTROL Generar]**.
 
 ![](assets/table-builder.png)
 
@@ -50,7 +65,7 @@ Obtenga más información sobre todas las [opciones de exportación](https://exp
 
 * Al hacer clic con el botón derecho en > **[!UICONTROL Copiar datos en el portapapeles]**, se exportan los datos de tabla mostrados. Si se realiza una selección de tabla, esta opción dirá **[!UICONTROL Copiar selección al portapapeles]**. La tecla de acceso directo **Ctrl + C** también copia los datos seleccionados.
 * Al hacer clic con el botón derecho en > **[!UICONTROL Descargar datos como CSV]**, se descargan los datos de tabla mostrados como CSV. Si se hace una selección de tabla, esta opción indicará **[!UICONTROL Descargar selección como CSV]**.
-* Al hacer clic con el botón derecho en > **[!UICONTROL Proyecto > Descargar elementos como CSV]**, se exportarán hasta 50 000 elementos de dimensión de la dimensión seleccionada.
+* Haga clic con el botón derecho > **[!UICONTROL Proyecto > Descargar elementos como CSV]** exporta hasta 50 000 elementos de dimensión para la dimensión seleccionada.
 
 Obtenga más información sobre todas las [opciones de exportación](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es) de datos de Analysis Workspace.
 
