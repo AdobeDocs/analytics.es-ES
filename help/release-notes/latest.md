@@ -3,10 +3,10 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 4e9b96fc29ee8c409019c292d565ea229e7c521f
+source-git-commit: c24a78f914faf1a236a1cb7ae2ce51dd9265012f
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 69%
+source-wordcount: '1535'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | **Diccionario de datos en Analysis Workspace** | El diccionario de datos ayuda a los usuarios y a los administradores a realizar el seguimiento de los componentes (dimensiones, métricas) en el entorno de Analytics, a administrarlos y a comprenderlos mejor. [Más información](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 de marzo de 2023 | 29 de marzo de 2023 |
 | **Historias de datos en paneles móviles** | Las historias de datos le permiten añadir varias vistas de detalles personalizables a mosaicos en proyectos de cuadros de resultados móviles. Utilice historias de datos para profundizar en los controladores clave, las métricas relacionadas y los diferentes pasos a lo largo del recorrido del cliente. Puede desplazarse fácilmente por estas vistas para comprender toda la historia detrás de las métricas clave. [Más información](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | N/A | 8 de marzo de 2023 |
 | **Fechas de caducidad del proyecto programado** | Puede establecer las fechas de caducidad máximas para los proyectos programados hasta un año, independientemente de la frecuencia de programación. | N/A | 8 de marzo de 2023 |
-| **Uso compartido de vínculos para proyectos (no se requiere inicio de sesión)** - Solo acceso beta privado | <p>Ahora puede compartir vínculos de solo lectura a proyectos de Analysis Workspace con personas que no tienen acceso a Adobe Analytics. Puede compartir vínculos de proyectos con personas fuera de su organización o con personas de su organización que no estén aprovisionadas para Adobe Analytics. [Más información](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Para unirse a la versión beta privada, póngase en contacto con su equipo de cuenta de Adobe.</p> | 26 de abril de 2023 | Junio de 2023 |
+| **Uso compartido de vínculos para proyectos (no se requiere inicio de sesión)** - Solo acceso beta privado | <p>Ahora puede compartir vínculos de solo lectura a proyectos de Analysis Workspace con personas que no tienen acceso a Adobe Analytics. Puede compartir vínculos de proyectos con personas fuera de su organización o con personas de su organización que no estén aprovisionadas para Adobe Analytics. [Más información](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> | 26 de abril de 2023 | Junio de 2023 |
 | **Actualizaciones del intervalo de fechas del panel** | En Workspace, hemos añadido las siguientes mejoras:<ul><li>A partir de la versión de febrero, los elementos de dimensión y las vistas previas de datos se basan en el intervalo de fechas del panel y no en los últimos 90 días. </li><li>Todos los elementos de dimensión enumerados se basan en datos dentro del intervalo de fechas del panel. Si un elemento de dimensión tiene datos fuera del intervalo de fechas, puede mostrar datos adicionales más allá del intervalo de fechas en la parte inferior de la lista.</li><li>Los Dimension que no tienen datos se pueden mostrar en el carril izquierdo. Haga clic en mostrar más opciones para ver elementos de dimensión con datos fuera del intervalo de fechas del panel.</li><li>Las vistas previas de datos en el segmento y los creadores de métricas calculadas se basan en el intervalo de fechas del panel, a menos que se acceda desde los administradores de componentes, que no tienen un panel asociado y siguen basándose en los últimos 90 días.</li><li>Las vistas previas de datos muestran datos o componentes en función del intervalo de fechas del panel.</li></ul> | N/A | 8 de febrero de 2023 |
 
 {style="table-layout:auto"}
