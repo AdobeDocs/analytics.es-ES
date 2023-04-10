@@ -3,10 +3,10 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 3bfa7e7eeac52370b32060c264c408de32a56fc1
+source-git-commit: 4e9b96fc29ee8c409019c292d565ea229e7c521f
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 68%
+source-wordcount: '1545'
+ht-degree: 69%
 
 ---
 
@@ -21,7 +21,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Compatibilidad parcial con el Activity Map con el SDK web** | A partir de la versión 2.15.0 del SDK web, se empezaron a rellenar los datos del Activity Map cuando el seguimiento de vínculos está habilitado. Esto permite a los usuarios del SDK web obtener informes de Activity Map si tienen habilitado el seguimiento de vínculos con el SDK web y el Activity Map configurado en Analytics.<p>Al habilitar el seguimiento de vínculos con el SDK web, se envían eventos de vínculo cuando un cliente navega de una página a otra. Esto es diferente a cómo funciona AppMeasurement y puede resultar potencialmente en visitas facturables adicionales enviadas al Adobe. Más información [here](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=es) y [here](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) | N/A | 31 de marzo de 2023 |
-| **Diccionario de datos en Analysis Workspace** | El diccionario de datos ayuda a los usuarios y a los administradores a realizar el seguimiento de los componentes (dimensiones, métricas) en el entorno de Analytics, a administrarlos y a comprenderlos mejor. [Más información](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 de marzo de 2023 | **No disponible temporalmente** |
+| **Diccionario de datos en Analysis Workspace** | El diccionario de datos ayuda a los usuarios y a los administradores a realizar el seguimiento de los componentes (dimensiones, métricas) en el entorno de Analytics, a administrarlos y a comprenderlos mejor. [Más información](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 de marzo de 2023 | 29 de marzo de 2023 |
 | **Historias de datos en paneles móviles** | Las historias de datos le permiten añadir varias vistas de detalles personalizables a mosaicos en proyectos de cuadros de resultados móviles. Utilice historias de datos para profundizar en los controladores clave, las métricas relacionadas y los diferentes pasos a lo largo del recorrido del cliente. Puede desplazarse fácilmente por estas vistas para comprender toda la historia detrás de las métricas clave. [Más información](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | N/A | 8 de marzo de 2023 |
 | **Fechas de caducidad del proyecto programado** | Puede establecer las fechas de caducidad máximas para los proyectos programados hasta un año, independientemente de la frecuencia de programación. | N/A | 8 de marzo de 2023 |
 | **Uso compartido de vínculos para proyectos (no se requiere inicio de sesión)** - Solo acceso beta privado | <p>Ahora puede compartir vínculos de solo lectura a proyectos de Analysis Workspace con personas que no tienen acceso a Adobe Analytics. Puede compartir vínculos de proyectos con personas fuera de su organización o con personas de su organización que no estén aprovisionadas para Adobe Analytics. [Más información](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Para unirse a la versión beta privada, póngase en contacto con su equipo de cuenta de Adobe.</p> | 26 de abril de 2023 | Junio de 2023 |
