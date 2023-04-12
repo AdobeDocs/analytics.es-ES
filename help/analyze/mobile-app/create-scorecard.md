@@ -7,7 +7,7 @@ exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
 workflow-type: tm+mt
 source-wordcount: '2353'
-ht-degree: 76%
+ht-degree: 98%
 
 ---
 
@@ -216,81 +216,81 @@ Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de r
 
 ![Remove_components](assets/new_remove.png)
 
-## Crear historias de datos {#create-data-story}
+## Creación de historias de datos {#create-data-story}
 
-Una historia de datos es una colección de puntos de datos compatibles, contexto empresarial y métricas relacionadas creadas en torno a un tema o métrica central.
+Una historia basada en datos es una colección de puntos de datos de apoyo, contexto empresarial y métricas relacionadas creada en torno a un tema o métrica central.
 
-Por ejemplo, si se centra en el tráfico web, la métrica más importante pueden ser las visitas, pero también es posible que le interesen los nuevos visitantes, los visitantes únicos y es posible que desee ver los datos desglosados por página web o por el tipo de dispositivo desde el que proviene el tráfico. Los artículos de datos en proyectos de informes de valoración móviles le permiten centrar sus métricas más importantes, mientras cuentan el historial completo detrás de las métricas con varias diapositivas de detalles.
+Por ejemplo, si se centra en el tráfico web, la métrica más importante puede ser las visitas, pero también es posible que le interesen los visitantes nuevos y los únicos, o que desee ver los datos desglosados por página web o por el tipo de dispositivo desde el que proviene el tráfico. Las historias basadas en datos en proyectos de cuadros de resultados móviles le permiten poner sus métricas más importantes en primer plano y, al mismo tiempo, contar toda la historia que hay detrás con múltiples diapositivas detalladas.
 
-Vea el vídeo para obtener más información sobre la creación de artículos de datos en proyectos de informes de valoración móviles en Analysis Workspace.
+Vea el vídeo para obtener más información acerca de la creación de historias basadas en datos en los proyectos de cuadro de resultados móviles en Analysis Workspace.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
 
-**Para crear un artículo de datos**
+**Para crear una historia basada en datos**
 
-Cree su historia de datos agregando varias diapositivas de detalles a un mosaico.
+Cree su historia basada en datos al agregar varias diapositivas de detalles a un mosaico.
 
-1. Comience con un proyecto de informe de valoración móvil.
-1. Seleccione un mosaico desde el que desee crear un artículo.
+1. Comience con un proyecto de cuadro de resultados móvil.
+1. Seleccione un mosaico desde el que desee crear una historia.
 
-   ![Crear un artículo de datos](assets/data-story1.png)
+   ![Creación de una historia basada en datos](assets/data-story1.png)
 
-   ![Creación de iconos de artículos de datos](assets/create-data-story.png){width=".50%"}
+   ![Creación de iconos de historia basada en datos](assets/create-data-story.png){width=".50%"}
 
-1. Añada diapositivas para crear la historia de datos. La primera diapositiva se genera de forma predeterminada.
+1. Agregue diapositivas para generar la historia basada en datos. La primera diapositiva se genera de forma predeterminada.
 
-   Para agregar nuevas diapositivas, pase el ratón sobre una diapositiva o haga clic en ella y, a continuación, seleccione una de las opciones disponibles:
+   Para agregar nuevas diapositivas, pase el ratón sobre una o haga clic en ella y, a continuación, seleccione una de las opciones disponibles:
 
    * Toque . [!UICONTROL +] para crear una nueva diapositiva.
 
    * Pulse el icono de duplicado para duplicar la diapositiva existente.
 
-1. Si crea una diapositiva en blanco, arrastre y suelte los componentes desde el carril izquierdo o elija un diseño para rellenar automáticamente la diapositiva con los datos del mosaico.
+1. Si crea una diapositiva en blanco, arrastre y suelte los componentes desde el carril izquierdo o elija un diseño para llenarla automáticamente con los datos del mosaico.
 
-   ![Crear un artículo de datos](assets/data-story2.png)
+   ![Creación de una historia basada en datos](assets/data-story2.png)
 
 Para eliminar una diapositiva, pulse el icono de papelera.
 
-### Personalización de una historia de datos {#customize-data-story}
+### Personalización de una historia basada en datos {#customize-data-story}
 
-Los artículos de datos le permiten personalizar todo para que pueda compartir la información que desee compartir y excluir todo lo que no necesite. Puede personalizar mosaicos y diapositivas individuales para agregar filtros, mostrar desgloses, cambiar el diseño y cambiar las visualizaciones.
+Las historias basadas en datos le permiten personalizar todos los elementos para que pueda compartir la información que desee y excluir lo que no necesite. Puede personalizar mosaicos y diapositivas individuales para agregar filtros, mostrar desgloses, cambiar el diseño y modificar las visualizaciones.
 
-**Personalización de mosaicos**
+**Para personalizar mosaicos**
 
-1. Toque un mosaico. El mosaico seleccionado está delineado en azul y el panel derecho muestra las propiedades del mosaico.
-1. Cambie el título, el tipo de gráfico y otras opciones de mosaico.
+1. Toque un mosaico. El mosaico seleccionado se resalta en azul y el panel derecho muestra las propiedades.
+1. Cambie el título, el tipo de gráfico y otras opciones del mosaico.
 1. Arrastre un componente al mosaico.
 
-   ![Crear un artículo de datos](assets/data-story3.png)
+   ![Creación de una historia basada en datos](assets/data-story3.png)
 
    Cuando arrastra y suelta un componente como una visualización en un mosaico, el componente se aplica a todas las diapositivas de artículos de datos.
 
-1. Para aplicar un cambio solo al título, mantenga pulsada la tecla Mayús para aplicar el cambio.
+1. Para aplicar un cambio solo al título, mantenga pulsada la tecla Mayús.
 
-   ![Crear un artículo de datos](assets/data-story4.png)
+   ![Creación de una historia basada en datos](assets/data-story4.png)
 
 >[!NOTE]
->Las diapositivas heredan componentes del mosaico, pero los mosaicos no heredan componentes de las diapositivas.
+>Las diapositivas heredan los componentes del mosaico, pero los mosaicos no.
 
-**Personalización de diapositivas individuales**
+**Para personalizar las diapositivas individuales**
 
-Puede cambiar la visualización de diapositivas individuales en un artículo de datos. Por ejemplo, puede cambiar una barra horizontal por un gráfico de anillos para una diapositiva específica. También puede cambiar el diseño. Consulte [Personalizar diapositivas de detalle](#customize-detail-slide).
+Puede cambiar la visualización de diapositivas individuales en una historia basada en datos. Por ejemplo, puede cambiar una barra horizontal por un gráfico de anillos para una diapositiva específica. También puede cambiar el diseño. Consulte [los detalles de personalización de diapositivas](#customize-detail-slide).
 
-### Vista previa de un artículo de datos {#preview-data-story}
+### Vista previa de una historia basada en datos {#preview-data-story}
 
-Después de crear un artículo de datos, use la variable **Vista previa** para ver e interactuar con un artículo de datos como si fuera un usuario de la aplicación. Para obtener información sobre la vista previa del artículo de datos, consulte [Vista previa de un informe de valoración](#preview)
+Después de crear una historia basada en datos, use el botón **Vista previa** para verla e interactuar con ella como si fuera un usuario de la aplicación. Para obtener información acerca de la vista previa de la historia basada en datos, consulte [Vista previa del cuadro de resultados](#preview)
 
-### Desplazamiento entre mosaicos y diapositivas {#navigate-tiles-slides}
+### Navegación entre mosaicos y diapositivas {#navigate-tiles-slides}
 
-La barra de navegación muestra iconos que representan lo que hay en cada diapositiva. La barra de navegación facilita el desplazamiento a una diapositiva específica si tiene muchas diapositivas.
+La barra de navegación muestra iconos que representan lo que hay en cada diapositiva. Si hay muchas, la barra de navegación facilita el desplazamiento a una diapositiva específica.
 
-Para moverse entre el mosaico y las diapositivas, pulse la barra de navegación.
+Para moverse entre los mosaicos y las diapositivas, pulse la barra de navegación.
 
-![Crear un artículo de datos](assets/data-story5.png)
+![Creación de una historia basada en datos](assets/data-story5.png)
 
-![Crear un artículo de datos](assets/data-story-nav.png){width="25%"}
+![Creación de una historia basada en datos](assets/data-story-nav.png){width="25%"}
 
-También puede navegar hacia atrás y adelante utilizando las flechas del teclado o seleccionando un componente y manteniéndolo a la izquierda o a la derecha de la pantalla para desplazarse.
+También puede navegar hacia atrás y hacia adelante utilizando las flechas del teclado o seleccionando un componente y manteniéndolo a la izquierda o a la derecha de la pantalla para desplazarse.
 
 
 ## Vista previa del cuadro de resultados {#preview}
