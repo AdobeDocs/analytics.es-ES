@@ -5,16 +5,20 @@ title: Migración de visitantes
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 21bbb59cdc630823cf342ff7dd0142b83f89a314
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 97%
+source-wordcount: '465'
+ht-degree: 88%
 
 ---
 
 # Migración de visitantes
 
-La migración de visitantes es un proceso en el que las cookies de ID de visitante se migran de un dominio a otro.
+>[!NOTE]
+>
+>Si ya ha implementado el servicio de ID de visitante de Experience Cloud, el período de gracia no es aplicable y no debería estar habilitado.
+
+La migración de visitantes es un proceso en el que las cookies de ID de visitante (s_vi) se migran de un dominio a otro.
 
 La migración de visitantes permite preservar las cookies de identificación de visitantes al cambiar de dominio de recopilación de datos. Los dominios de recopilación de datos pueden cambiar por las siguientes razones:
 
@@ -41,7 +45,7 @@ La tabla siguiente resume las tareas necesarias para la migración de visitantes
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Para comenzar:</b> Póngase en <a href="https://helpx.adobe.com/es/marketing-cloud/contact-support.html"  >contacto con el Servicio de atención al cliente</a> y especifique el o los dominios que desea migrar, así como el período de migración que desea habilitar (30, 60 o 90 días). Asegúrese de incluir los dominios no seguros y seguros. </p> </td> 
+   <td colname="col1"> <p> <b>Para comenzar:</b> Póngase en <a href="https://helpx.adobe.com/es/marketing-cloud/contact-support.html"  >contacto con el Servicio de atención al cliente</a> y especifique el o los dominios que desea migrar, así como el período de migración que desea habilitar (30, 60 o 90 días). Asegúrese de incluir los dominios seguros y no seguros. </p> </td> 
    <td colname="col3"> <p>Cree una lista con la sintaxis <i>exacta</i> de los dominios de origen y destino de la migración. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
