@@ -3,10 +3,10 @@ title: Información general de complementos
 description: Pegue código en el sitio para incorporar nuevas funciones.
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: f3c656b0b631d655159ae89d4622990937cf84ef
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 96%
 
 ---
 
@@ -14,15 +14,13 @@ ht-degree: 100%
 
 Los complementos son fragmentos de código que realizan varias funciones avanzadas que mejoran la implementación de Analytics. Estos complementos amplían las capacidades del archivo JavaScript y aportan una funcionalidad ampliada que no se encuentra disponible con una implementación básica. Adobe ofrece otros complementos como parte de soluciones avanzadas.
 
->[!IMPORTANT]
->
->Los complementos son cortesía de Adobe Consulting para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica para ninguno de estos complementos, ni para la instalación ni para la solución de problemas. Si necesita ayuda con algún complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+{{plug-in}}
 
 Adobe ofrece varias formas de instalar un complemento determinado:
 
-<!--1. Use the 'Common Analytics Plugins' extension using the Web SDK or the Adobe Analytics extension-->
-1. Pegue el código del complemento con el editor de código personalizado 
-1. Pegue el código del complemento en el archivo `AppMeasurement.js`.
+* Utilice la extensión &quot;Complementos comunes de Analytics&quot; con la extensión de Adobe Analytics
+* Pegue el código del complemento con el editor de código personalizado 
+* Pegue el código del complemento en el archivo `AppMeasurement.js`.
 
 Cada organización tiene diferentes necesidades de implementación, por lo que puede decidir cómo desea incluirlas en la implementación. Asegúrese de cumplir los siguientes criterios al incluir el código en el sitio:
 

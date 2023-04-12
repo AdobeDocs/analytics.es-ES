@@ -3,10 +3,10 @@ title: Política de retención de datos
 description: Una política de retención de datos determina el tiempo que Adobe almacena los datos.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ Los datos retenidos se basan en la fecha actual y en la fecha y hora de los dato
 
 ## Ajuste del período de retención de datos predeterminado
 
-Si desea reducir o ampliar el período de retención de datos predeterminado, póngase en contacto con el administrador de cuentas de su organización.
+Si desea reducir o ampliar el período de retención de datos predeterminado, comuníquese con el equipo de cuentas de Adobe.
 
 * Reducir el período de retención de datos predeterminado no entraña coste alguno.
 * Para prolongar la retención de datos más allá del período de retención predeterminado de 25 meses se deben adquirir extensiones (cada una de ellas aumenta el período en un año). Se pueden adquirir hasta ocho extensiones, lo que equivale a un total de 10 años y 1 mes (2 años y 1 mes de la retención por defecto, más los 8 años adquiridos).
@@ -49,9 +49,9 @@ La directiva de retención de datos define un período de retención de datos gr
 
 **¿Puedo solicitar una copia de mis datos antes de que se eliminen?**
 
-Sí. Adobe puede proporcionarle el conjunto de datos históricos, compuesto por datos sin procesar y de nivel de visita. Consulte [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) en la guía de usuario sobre exportación para obtener más información. Si la interfaz de usuario no puede adecuarse a sus necesidades especiales de exportación de datos, póngase en contacto con el administrador de cuentas de su organización. Se pueden hacer adaptaciones especiales con costes variables.
+Sí. Adobe puede proporcionarle el conjunto de datos históricos, compuesto por datos sin procesar y de nivel de visita. Consulte [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) en la guía de usuario sobre exportación para obtener más información. Si tiene requisitos de exportación de datos fuera del ámbito de lo que la interfaz de usuario puede proporcionar, póngase en contacto con el equipo de cuentas de Adobe. Se pueden hacer adaptaciones especiales con costes variables.
 
 **¿Cuándo elimina Adobe los datos?**
 
-Póngase en contacto con el administrador de cuentas de su organización para conocer el período de tiempo específico en el que está programado que se eliminen sus datos. Los datos suelen eliminarse mensualmente.
+Póngase en contacto con su equipo de cuentas de Adobe para conocer el tiempo específico en el que está programado que se eliminen sus datos. Los datos suelen eliminarse mensualmente.
 

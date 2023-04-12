@@ -3,10 +3,10 @@ description: Preguntas frecuentes sobre la administración de datos de Adobe Ana
 title: Preguntas frecuentes sobre la gobernanza de datos
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '2076'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -108,7 +108,7 @@ La [API de Privacy Service de datos](https://developer.adobe.com/experience-plat
 
 Le rogamos que no use la API de privacidad de datos para otros fines, por ejemplo, para borrar datos que se hayan enviado por error a grupos de visitantes grandes. También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que los detalles relativos al número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API de privacidad de datos no es apropiada para este uso.
 
-Póngase en contacto con su administrador de cuentas para que se coordine con nuestro equipo de consultoría encargado de la arquitectura de ingeniería. De este modo, podremos llevar a cabo una revisión más exhaustiva y establecer el nivel de actuación a la hora de subsanar cualquier problema relacionado con los datos o con PII.
+Póngase en contacto con su equipo de cuentas de Adobe para que se coordine con nuestro equipo de consultoría encargado de la arquitectura de ingeniería. De este modo, podremos llevar a cabo una revisión más exhaustiva y establecer el nivel de actuación a la hora de subsanar cualquier problema relacionado con los datos o con PII.
 
 +++
 
@@ -118,7 +118,7 @@ La [API de Privacy Service de datos](https://developer.adobe.com/experience-plat
 
 También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que los detalles relativos al número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API de privacidad de datos no es apropiada para este uso.
 
-Póngase en contacto con su administrador de cuentas para que se coordine con nuestro equipo de consultoría encargado de la arquitectura de ingeniería. De este modo, podremos llevar a cabo una revisión más exhaustiva y establecer el nivel de actuación a la hora de subsanar cualquier problema relacionado con los datos o con PII.
+Póngase en contacto con su equipo de cuentas de Adobe para que se coordine con nuestro equipo de consultoría encargado de la arquitectura de ingeniería. De este modo, podremos llevar a cabo una revisión más exhaustiva y establecer el nivel de actuación a la hora de subsanar cualquier problema relacionado con los datos o con PII.
 
 +++
 

@@ -1,43 +1,24 @@
 ---
-description: La funcionalidad de los segmentos difiere considerablemente entre los usuarios de nivel de administrador y los usuarios que no son administradores.
+description: Gráfico de comparación que utiliza segmentos entre administradores y no administradores.
 title: Derechos de segmentos por función
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 100%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
 # Derechos de segmentos por función
 
-La funcionalidad de los segmentos difiere considerablemente entre los usuarios de nivel de administrador y los usuarios que no son administradores.
+La funcionalidad de los segmentos difiere principalmente entre los usuarios de nivel de administrador y los usuarios que no son administradores.
 
-<table id="table_13F72FD90C964B86BD4B51E6F51ED292"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"></th> 
-   <th colname="col2" class="entry"> Uso compartido de segmentos </th> 
-   <th colname="col3" class="entry"> Visualización/Administración de segmentos </th> 
-   <th colname="col4" class="entry"> Aprobación de segmentos </th> 
-   <th colname="col5" class="entry"> Aplicación de segmentos </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <b>Usuarios de nivel de administrador</b> </td> 
-   <td colname="col2"> Pueden compartir con toda la empresa, con grupos de usuarios y con usuarios individuales. </td> 
-   <td colname="col3"> <span class="keyword"> Analysis Workspace, Reports &amp; Analytics </span>: Pueden ver, editar, eliminar, etc. sus propios segmentos y los de otros usuarios. <p> <span class="keyword"> Report Builder </span>: puede ver, editar, eliminar, etc. sus propios segmentos y los que se han compartido. </p> </td> 
-   <td colname="col4"> Pueden aprobar segmentos como canónicos. </td> 
-   <td colname="col5"> Pueden aplicar cualquier segmento en toda la organización. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Usuarios que no son administradores</b> </td> 
-   <td colname="col2"> Pueden compartir únicamente con usuarios individuales. </td> 
-   <td colname="col3"> Pueden ver, editar, eliminar, etc. solo sus propios segmentos. </td> 
-   <td colname="col4"> Solo pueden consumir segmentos aprobados; no pueden marcar como aprobado. </td> 
-   <td colname="col5"> Pueden aplicar sus propios segmentos y segmentos que se han compartido con ellos. </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | Usuarios administradores | No administradores |
+| --- | --- | --- |
+| Aplicación de segmentos | Segmentos propios o compartidos. Sin embargo, puede compartir cualquier segmento de cualquier usuario para que se use | Solo segmentos de propiedad o compartidos |
+| Visualización de segmentos en el Administrador de segmentos | Todos los segmentos de la organización | Solo segmentos de propiedad o compartidos |
+| Administración de segmentos | Puede ver, editar, eliminar o aprobar cualquier segmento de cualquier usuario | Solo puede editar o eliminar sus propios segmentos. No se pueden aprobar segmentos. |
+| Uso compartido de segmentos | Puede compartir con toda la empresa, con grupos de usuarios o con personas | Solo se puede compartir con usuarios individuales |
+
+{style="table-layout:auto"}

@@ -2,9 +2,9 @@
 title: Administrador de trabajos del conjunto de clasificaciones
 description: Ver los trabajos de clasificación actuales y completados generados a partir de los conjuntos de clasificaciones.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '387'
 ht-degree: 100%
 
 ---
@@ -12,10 +12,6 @@ ht-degree: 100%
 # Administrador de trabajos de conjuntos de clasificaciones
 
 El Administrador de trabajos de conjuntos de clasificaciones permite ver los trabajos de clasificación actuales y completados que se generaron a partir de conjuntos de clasificaciones. También puede utilizar esta interfaz para descargar datos de clasificación o plantillas para un trabajo en particular, o cargar datos adicionales en un trabajo.
-
->[!NOTE]
->
->Esta funcionalidad estará disponible para todos los clientes que tengan sus grupos de informes migrados a la nueva arquitectura de clasificaciones. Para obtener más información, póngase en contacto con el Servicio de atención al cliente de Adobe o con su Administrador de cuentas.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificaciones]** > **[!UICONTROL Trabajos]**
 

@@ -4,10 +4,10 @@ description: Concepto de atribución de crédito de un evento de éxito a varios
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '470'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ La atribución permite a los analistas personalizar la forma en que los elemento
 1. Un visitante de su sitio hace clic en un vínculo de búsqueda de pago a una de las páginas de producto. Después, agrega el producto al carro de compras, pero no lo compra.
 2. Al día siguiente, ve una publicación en los medios sociales de uno de sus amigos, hace clic en el vínculo y completa la compra.
 
-En algunos informes, es posible que desee atribuir el pedido a la búsqueda de pago. En otros informes, es posible que desee atribuir el pedido a los medios sociales. La atribución permite controlar este aspecto del sistema de informes. Está disponible para todas las organizaciones en Adobe Analytics Ultimate, Prime, Select y Foundation. Si no está seguro de qué tipo de contrato tiene con Adobe, póngase en contacto con el administrador de cuentas de su organización.
+En algunos informes, es posible que desee atribuir el pedido a la búsqueda de pago. En otros informes, es posible que desee atribuir el pedido a los medios sociales. La atribución permite controlar este aspecto del sistema de informes. Está disponible para todas las organizaciones en Adobe Analytics Ultimate, Prime, Select y Foundation. Si no está seguro de qué tipo de contrato tiene con el Adobe, póngase en contacto con el equipo de cuentas de Adobe de su organización.
 
 ## Valor de Attribution IQ
 

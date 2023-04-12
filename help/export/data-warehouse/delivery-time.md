@@ -3,10 +3,10 @@ title: Resolución de problemas de las horas de envío de la solicitud del Data 
 description: Determinar posibles problemas con una solicitud del Data Warehouse que puede prolongar las horas de envío.
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,4 +37,4 @@ Si necesita estos tipos de informes de forma más oportuna, considere las siguie
 
 * **Analysis Workspace**: Aunque no hay elementos de dimensión ilimitados disponibles, incluye casi todos los demás casos de uso que ofrece el Data Warehouse.
 * **Fuente de datos**: Toma todos los datos sin procesar de un grupo de informes diariamente y los envía a un sitio FTP. A continuación, puede importar estos datos en su propia base de datos y ejecutar consultas para obtener los datos que busca.
-* **Solución de servicios de ingeniería personalizados**: Los Servicios de ingeniería de Adobe pueden proporcionar una solución personalizada para su organización a un coste adicional. Póngase en contacto con el administrador de cuentas de su organización para obtener más detalles.
+* **Solución de servicios de ingeniería personalizados**: Los Servicios de ingeniería de Adobe pueden proporcionar una solución personalizada para su organización a un coste adicional. Póngase en contacto con su equipo de cuentas de Adobe para obtener más información.

@@ -2,9 +2,9 @@
 title: Información general sobre los conjuntos de clasificaciones
 description: Utilice los conjuntos de clasificaciones para administrar los datos de clasificación.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '233'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 Los conjuntos de clasificaciones proporcionan una interfaz única para administrar las clasificaciones y las reglas. Este flujo de trabajo combina el concepto de crear clasificaciones en la configuración del grupo de informes con el concepto de Importador de clasificaciones para proporcionar una interfaz más intuitiva para crear y administrar los datos de clasificación.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificaciones]**
-
->[!NOTE]
->
->Los conjuntos de clasificaciones estarán disponibles para todos los clientes a los que se haya migrado su grupo de informes a la nueva arquitectura de clasificaciones. Para obtener más información, póngase en contacto con el Servicio de atención al cliente de Adobe o con su Administrador de cuentas.
 
 La arquitectura back-end lanzada con conjuntos de clasificación contiene varias mejoras notables:
 

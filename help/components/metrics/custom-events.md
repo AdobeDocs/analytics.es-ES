@@ -3,10 +3,10 @@ title: Eventos personalizados
 description: El número de visitas en las que se produce un evento personalizado.
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -24,6 +24,6 @@ Los eventos personalizados se calculan de forma diferente en función de su tipo
 * **Eventos numéricos**: Suma el valor numérico asignado al evento en la variable `events`.
 * **Eventos monetarios**: Aplica la conversión de moneda al tipo de cambio de ese día y, a continuación, suma el valor numérico asignado a cada visita individual en la variable `events`.
 
-El número de eventos disponibles depende del contrato de Analytics de su organización. La mayoría de las organizaciones con contratos no incluidos tienen disponibles 1000 eventos personalizados. Contacte con el administrador de cuentas de su organización si no está seguro de cuántos eventos personalizados tiene a su disposición.
+El número de eventos disponibles depende del contrato de Analytics de su organización. La mayoría de las organizaciones con contratos no incluidos tienen disponibles 1000 eventos personalizados. Póngase en contacto con su equipo de cuenta de Adobe si no está seguro de cuántos eventos personalizados tiene a su disposición.
 
 Adobe recomienda que registre cómo utiliza cada evento en el [documento de diseño de soluciones](/help/implement/prepare/solution-design.md) de su organización.

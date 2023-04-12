@@ -2,9 +2,9 @@
 title: Administrador de conjuntos de clasificaciones
 description: Administrar conjuntos de clasificaciones en Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -12,10 +12,6 @@ ht-degree: 100%
 # Administrador de conjuntos de clasificaciones
 
 El Administrador de conjuntos de clasificaciones permite crear, editar o eliminar conjuntos de clasificaciones.
-
->[!NOTE]
->
->Esta funcionalidad estará disponible para todos los clientes que tengan sus grupos de informes migrados a la nueva arquitectura de clasificaciones. Para obtener más información, póngase en contacto con el Servicio de atención al cliente de Adobe o con su Administrador de cuentas.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificaciones]** > **[!UICONTROL Conjuntos]**
 

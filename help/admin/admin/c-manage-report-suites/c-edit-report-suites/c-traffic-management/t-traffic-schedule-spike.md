@@ -3,10 +3,10 @@ title: Programar un pico de tráfico
 description: Asociarse con Adobe para asegurarse de que los eventos de alto tráfico no experimenten latencia.
 feature: Traffic Management
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 100%
+source-wordcount: '739'
+ht-degree: 97%
 
 ---
 
@@ -62,4 +62,4 @@ Adobe desea asegurarse de que su experiencia con los informes actualizados sea c
 
 * Programe el tiempo de espera para todos los picos de tráfico. **Es especialmente importante que cualquier pico de tráfico anticipado en los meses de noviembre a diciembre esté programado para el 15 de septiembre**. Si se pierde la fecha límite, programe el pico lo antes posible. Menos tiempo de espera es mejor que ninguno y Adobe funciona con los recursos actuales para adaptarse mejor a los grupos de informes.
 * Si Adobe se pone en contacto con usted con respecto a un pico de tráfico programado, asegúrese de comunicar si la creación de informes en tiempo real o la creación de informes de procesamiento completo son más importantes. Algunas organizaciones dependen más de la creación de informes en tiempo real que otras. Comprender qué tipo de creación de informes se utiliza puede ayudar a Adobe a priorizar en consecuencia.
-* Comunicarse con el administrador de su cuenta en lo relacionado con los informes más importantes y cuándo extraerlos puede ayudarle a abogar por usted.
+* Comunicarse con el equipo de cuentas de Adobe acerca de los informes más importantes y cuándo extraerlos puede ayudarles a abogar por usted.

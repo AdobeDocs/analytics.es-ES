@@ -2,20 +2,20 @@
 title: Vinculación basada en el campo
 description: Comprenda los requisitos previos y las limitaciones de la vinculación de datos mediante la vinculación basada en el campo.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 97%
+source-wordcount: '523'
+ht-degree: 90%
 
 ---
 
 # Vinculación basada en el campo
 
-Cross-Device Analytics proporciona dos métodos distintos para unir datos. Este método depende de una variable de Analytics, como una [propiedad](/help/implement/vars/page-vars/prop.md) o un [eVar](/help/implement/vars/page-vars/evar.md), para contener un identificador de persona. Utiliza esa variable como base para vincular dispositivos. El Adobe recomienda esta opción de vinculación para lograr una mayor transparencia y predictibilidad en el seguimiento de visitantes.
+Cross-Device Analytics proporciona dos métodos distintos para unir datos. Este método depende de una variable de Analytics, como una [propiedad](/help/implement/vars/page-vars/prop.md) o un [eVar](/help/implement/vars/page-vars/evar.md), para contener un identificador de persona. Utiliza esa variable como base para vincular dispositivos. Adobe recomienda esta opción de vinculación para una mayor transparencia y previsibilidad en el seguimiento de visitantes.
 
 ## Requisitos previos específicos de la vinculación basada en el campo
 
-Si tiene intención de implementar el análisis entre dispositivos mediante la vinculación basada en el campo, es necesario lo siguiente. Trabaje con equipos de su organización y con el administrador de cuentas de Adobe para asegurarse de que cumple todos los requisitos siguientes.
+Si tiene intención de implementar el análisis entre dispositivos mediante la vinculación basada en el campo, es necesario lo siguiente. Trabaje con equipos de su organización y con su equipo de cuenta de Adobe para asegurarse de que cumple todos los requisitos siguientes.
 
 >[!WARNING]
 >
@@ -23,7 +23,7 @@ Si tiene intención de implementar el análisis entre dispositivos mediante la v
 
 * Todos los requisitos previos enumerados en la [página de información general](overview.md).
 * La implementación debe establecer una propiedad o una eVar que identifique de forma exclusiva a un individuo siempre que sea posible, como cuando un usuario inicia sesión o abre un correo electrónico. Este requisito se aplica a todas las plataformas, incluidas las aplicaciones móviles, si se utilizan. Evite asignar un valor predeterminado a la prop o al eVar.
-* Comunique la variable de identificación que desee al administrador de cuentas cuando se aprovisione para la vinculación basada en el campo.
+* Comunique la variable de identificación que desee al equipo de cuentas de Adobe cuando se aprovisione para la vinculación basada en el campo.
 
 ## Limitaciones específicas de la vinculación basada en el campo
 

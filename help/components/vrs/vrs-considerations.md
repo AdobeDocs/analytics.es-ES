@@ -4,10 +4,10 @@ keywords: Grupo de informes virtuales,VRS
 title: Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '1755'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ La sustitución del etiquetado de grupos múltiples con un grupo de informes glo
 
 ## Directrices
 
-Si no está seguro de si los casos de uso descritos se aplican a usted y a su organización, consulte con los otros administradores de Adobe Analytics o con el administrador de su cuenta de Adobe. Pueden ayudarle a evaluar las necesidades de la empresa y recomendarle la mejor solución.
+Si no está seguro de si los casos de uso descritos se aplican a usted y a su organización, consulte con los demás administradores de Adobe Analytics o con el equipo de cuentas de Adobe. Pueden ayudarle a evaluar las necesidades de la empresa y recomendarle la mejor solución.
 
 Tenga en cuenta las siguientes consideraciones a la hora de determinar si debe utilizar el etiquetado de grupos múltiples o los grupos de informes virtuales:
 
@@ -100,7 +100,7 @@ Si opta por eliminar llamadas secundarias al servidor en favor de los grupos de 
    * Se recomienda utilizar el [apilamiento de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) para poder editar un segmento en una ubicación y aplicarlo a todos los grupos de informes virtuales dependientes.
    * Utilice contenedores de visita si desea que los grupos de informes virtuales sean más excluyentes de manera mutua.
 2. Después de confirmar que los grupos de informes virtuales están correctamente configurados, elimine los ID del grupo de informes secundario de la implementación. Para eliminar los grupos de informes secundarios:
-   * En la extensión de Adobe Analytics dentro de la recopilación de datos de Adobe Experience Platform, haga clic en la &quot;x&quot; junto a los grupos de informes que ya no desee utilizar.
+   * En la extensión Adobe Analytics de la recopilación de datos de Adobe Experience Platform, haga clic en la &quot;x&quot; junto a los grupos de informes que ya no desee utilizar.
    * En implementaciones de JavaScript antiguas, ubique la variable `s.account` y elimine todos los ID de los grupos de informes que ya no desee usar.
    * En todos los casos, deje solo el ID del grupo de informes global/principal para recopilar datos para sus sitios y aplicaciones.
    * Vaya a Administración > Grupos de informes y oculte los grupos de informes secundarios que ya no se utilicen.

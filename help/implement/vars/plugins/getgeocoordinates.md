@@ -3,40 +3,56 @@ title: getGeoCoordinates
 description: Rastree la geolocalización de un visitante.
 feature: Variables
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '566'
+ht-degree: 72%
 
 ---
 
 # Complemento de Adobe: getGeoCoordinates
 
->[!IMPORTANT]
->
->Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+{{plug-in}}
 
 El complemento `getGeoCoordinates` le permite registrar la latitud y la longitud de los dispositivos de los visitantes. Adobe recomienda utilizar este complemento si desea obtener datos de localización geográfica en variables de Analytics.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Instalación del complemento con la extensión Web SDK
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con el SDK web.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getGeoCoordinates
-1. Save and publish the changes to the rule.-->
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Haga clic en **[!UICONTROL Etiquetas]** a la izquierda, haga clic en la propiedad de etiqueta que desee.
+1. Haga clic en **[!UICONTROL Extensiones]** a la izquierda, haga clic en el botón **[!UICONTROL Catálogo]** ficha
+1. Localice e instale el **[!UICONTROL Complementos comunes del SDK web]** extensión.
+1. Haga clic en **[!UICONTROL Elementos de datos]** a la izquierda, haga clic en el elemento de datos deseado.
+1. Establezca el nombre del elemento de datos deseado con la siguiente configuración:
+   * Extensión: Complementos comunes del SDK web
+   * Elemento de datos: `getGeoCoordinates`
+1. Guarde y publique los cambios en el elemento de datos.
 
-## Instalación del complemento con el editor de código personalizado
+## Instalación del complemento Implementación manual del SDK web
 
-Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
+Este complemento aún no se puede usar en una implementación manual del SDK web.
+
+## Instalación del complemento con la extensión de Adobe Analytics
+
+Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con Adobe Analytics.
+
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad de etiquetas deseada.
+1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
+1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
+   * Tipo de acción: Inicializar getGeoCoordinates
+1. Guarde y publique los cambios en la regla.
+
+## Instalación del complemento con el editor de código personalizado de 
+
+Si no desea utilizar la extensión de complemento de Analytics comunes, puede utilizar el editor de código personalizado.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.

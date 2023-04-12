@@ -4,10 +4,10 @@ title: Introducción a Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ Requisitos del sistema y del explorador para iniciar sesión en la interfaz de R
 
 ## Inicie de sesión en Reports &amp; Analytics
 
-Antes de acceder a la interfaz, colabore con su administrador de cuentas o con el servicio de atención al cliente de Adobe para configurar la cuenta de su empresa.
+Antes de acceder a la interfaz, póngase en contacto con el equipo de cuentas de Adobe o con el servicio de atención al cliente para configurar la cuenta de su empresa.
 
 ## Inicie sesión utilizando Experience Cloud
 

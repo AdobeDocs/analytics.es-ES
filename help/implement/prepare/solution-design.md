@@ -3,10 +3,10 @@ title: Creación de un documento de diseño de solución
 description: Descubra qué es un documento de diseño de solución y cómo puede utilizarlo en su organización.
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 100%
+source-wordcount: '697'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Al determinar qué datos recopilar, es fácil decir “todo”; sin embargo, est
 
 ## Recursos adicionales
 
-La definición de un documento de diseño de solución es un proyecto bastante complejo, especialmente para las organizaciones que no lo han creado anteriormente. Si necesita asistencia adicional, Adobe proporciona asesoramiento especializado para ayudarle a poner en marcha su organización con Adobe Analytics. Póngase en contacto con el Administrador de cuentas si desea obtener los servicios profesionales de Adobe. Se puede rellenar un [cuestionario técnico previo a la implementación](assets/technical-pre-implementation-questionnaire.pdf) para que Adobe sepa exactamente cómo ayudarle en función de las necesidades de su organización.
+La definición de un documento de diseño de solución es un proyecto bastante complejo, especialmente para las organizaciones que no lo han creado anteriormente. Si necesita asistencia adicional, Adobe proporciona asesoramiento especializado para ayudarle a poner en marcha su organización con Adobe Analytics. Póngase en contacto con su equipo de cuentas de Adobe si desea obtener los servicios profesionales de Adobe. Se puede rellenar un [cuestionario técnico previo a la implementación](assets/technical-pre-implementation-questionnaire.pdf) para que Adobe sepa exactamente cómo ayudarle en función de las necesidades de su organización.
 
 También hay varios socios de Adobe que se especializan en ayudar a crear un documento de diseño de solución, así como en implementar Adobe Analytics en su sitio.
 
