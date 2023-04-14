@@ -4,10 +4,10 @@ title: Resumen de paneles
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 95%
+source-wordcount: '1111'
+ht-degree: 93%
 
 ---
 
@@ -66,13 +66,13 @@ Arrastre y suelte cualquier segmento del carril izquierdo en la zona desplegable
 
 ![](/help/admin/admin/assets/filter.png)
 
-### Filtros de segmentos ad hoc
+### Filtros de segmento ad hoc
 
-Los componentes que no son segmentos también se pueden arrastrar directamente a la zona de colocación para crear segmentos específicos, lo que le ahorrará el tiempo y el tener que utilizar el Generador de segmentos. Los segmentos creados de esta manera se definen automáticamente como segmentos de nivel de visita individual. Puede modificar esta definición haciendo clic en el icono de información (i) junto al segmento, seleccionando el icono de edición con forma de lápiz y editándola en el Generador de segmentos.
+Los componentes que no son de segmento también se pueden arrastrar directamente a la zona de colocación para crear segmentos ad hoc, lo que le ahorra tiempo y esfuerzo al ir al Generador de segmentos. Los segmentos creados de esta manera se definen automáticamente como segmentos de nivel de visita individual. Puede modificar esta definición haciendo clic en el icono de información (i) junto al segmento, seleccionando el icono de edición con forma de lápiz y editándola en el Generador de segmentos.
 
-Los segmentos ad hoc son locales del proyecto y no aparecen en el carril izquierdo a menos que los haga públicos.
+Los segmentos ad hoc son un tipo de segmento rápido y son locales para el proyecto. No aparecen en el carril izquierdo a menos que los haga públicos.
 
-![](/help/admin/admin/assets/filter.png)
+Para obtener más información, consulte [Segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ### Filtros desplegables {#dropdown-filter}
 

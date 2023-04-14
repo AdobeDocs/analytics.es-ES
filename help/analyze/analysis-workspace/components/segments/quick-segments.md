@@ -4,96 +4,138 @@ title: Segmentos rápidos
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
+source-git-commit: f2a22aa71c928be30d365fcea71c8fb42efc3919
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 100%
+source-wordcount: '1197'
+ht-degree: 40%
 
 ---
 
 # Segmentos rápidos
 
-Puede crear segmentos rápidos dentro de un proyecto para evitar la complejidad del [generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) completo. Segmentos rápidos
+Los segmentos rápidos le permiten explorar fácilmente los datos dentro de un proyecto determinado, sin necesidad de crear un segmento de lista de componentes más complejo en la variable [generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md).
 
-* Aplicar como [segmentos de solo proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=es#what-are-project-only-segments).
-* Permiten hasta 3 reglas.
+Tenga en cuenta lo siguiente al crear segmentos rápidos:
+
+* Los segmentos rápidos solo se aplican al proyecto en el que se crearon. No están disponibles en otros proyectos y no se pueden compartir con otros usuarios.
+* Se permiten un máximo de 3 reglas.
 * No se admiten contenedores anidados ni reglas secuenciales.
 
-Para ver una comparación de lo que pueden hacer los segmentos rápidos frente a los segmentos de lista de componentes completos, consulte [aquí](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
-
-A continuación se muestra un vídeo introductorio de segmentos rápidos:
+El siguiente vídeo muestra cómo utilizar segmentos rápidos:
 
 >[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
-## Requisitos previos
+## Crear un segmento rápido
 
-Cualquiera puede crear un [!UICONTROL segmento rápido]. Sin embargo, necesita el permiso de [!UICONTROL Creación de segmentos] en [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=es#analytics-tools) para poder guardar segmentos rápidos o abrirlos en el [!UICONTROL Generador de segmentos].
+Cualquier usuario de Analysis Workspace puede crear un segmento rápido.
 
-## Creación de segmentos rápidos
+Para crear un segmento rápido:
 
-En una tabla de forma libre, haga clic en el icono filtrar+ del encabezado del panel:
+1. Elija uno de los siguientes métodos para empezar a crear el segmento rápido:
 
-![](assets/quick-seg1.png)
+   * **Ad Hoc (arrastrar y soltar):** Desde el carril izquierdo, arrastre un componente a la zona de colocación junto al **Segmento** en el encabezado del panel y, a continuación, seleccione el **Editar** para ajustar el segmento.
 
-Configure el segmento rápido desde esta pizarra en blanco:
+      ![Editar segmento ad hoc](assets/filter-adhoc-edit.png)
 
-![segmento rápido en blanco](assets/qs-blank-slate.png)
+      >[!NOTE]
+      >
+      > Tenga en cuenta lo siguiente al crear un segmento rápido ad hoc (arrastrar y soltar):
+      > * No se admiten los siguientes tipos de componentes: métricas y dimensiones calculadas, así como métricas a partir de las cuales no se pueden crear segmentos.
+      > * Para las dimensiones y eventos completos, Analysis Workspace crea segmentos de visita del tipo “existe”. Ejemplos: `Hit where eVar1 exists` o `Hit where event1 exists`.
+      > * Si se suelta &quot;sin especificar&quot; o &quot;ninguno&quot; en la zona de colocación de segmentos, se convierte automáticamente en un segmento &quot;no existe&quot;, de modo que se lo trate correctamente en los segmentos.
 
-| Configuración | Descripción |
-| --- | --- |
-| Nombre | El nombre predeterminado de un segmento es una combinación de los nombres de reglas del segmento. Puede cambiar el nombre del segmento. |
-| Inclusión/exclusión | Puede incluir o excluir componentes en su definición de segmento, pero no ambas cosas. |
-| Contenedor de visita/visita individual/visitante | Los segmentos rápidos incluyen solo un [contenedor de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=es#section_AF2A28BE92474DB386AE85743C71B2D6) que le permite incluir una dimensión, métrica o intervalo de fecha en el segmento (o excluirlo). [!UICONTROL Visitante] contiene datos globales específicos del visitante en las visitas y vistas de páginas. Un contenedor de [!UICONTROL Visita] le permite establecer reglas para desglosar los datos del visitante en función de las visitas, y un contenedor de [!UICONTROL Visita individual] le permite desglosar la información del visitante según las vistas de página individuales. El contenedor predeterminado es [!UICONTROL Visita individual]. |
-| Componentes (dimensión/métrica/intervalo de fechas) | Defina hasta 3 reglas añadiendo componentes (dimensiones o métricas o intervalos de fechas) y sus valores. Existen tres formas de encontrar el componente correcto:<ul><li>Empiece a escribir y el generador de [!UICONTROL segmentos rápidos] encontrará automáticamente el componente adecuado.</li><li>Utilice la lista desplegable para buscar el componente.</li><li>Arrástrelos y suéltelos desde el carril izquierdo.</li></ul> |
-| Operador | Utilice el menú desplegable para buscar operadores estándar y operadores de [!UICONTROL recuento distintos]. [Más información](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=es) |
-| Signo más (+) | Añadir otra regla |
-| Cualificadores AND/OR | Puede agregar calificadores AND u OR a las reglas, pero no puede combinar AND y OR en una sola definición de segmento. |
-| Aplicar | Aplique este segmento al panel. Si el segmento no contiene datos, se le preguntará si desea continuar. |
-| Abrir creador | Se abrirá el Generador de segmentos. Una vez guardado o aplicado el segmento en el Generador de segmentos, ya no se considera un “segmento rápido”. Forma parte de la biblioteca de segmentos de lista de componentes. |
-| Cancelar | Cancele este segmento rápido: no lo aplique. |
-| Intervalo de fechas | El validador utiliza el intervalo de fecha del panel para la búsqueda de datos. Sin embargo, cualquier intervalo de fechas aplicado en un segmento rápido anula el intervalo de fechas del panel en la parte superior del panel. |
-| Vista previa (parte superior derecha) | Le permite previsualizar las métricas clave para comprobar si tiene un segmento válido y ver su amplitud. Representa el desglose del conjunto de datos que verá cuando aplique este segmento. Podría recibir un aviso que indique que este segmento no tiene datos. Si es el caso, puede continuar o cambiar la definición del segmento. |
 
-Este es un ejemplo de un segmento que combina dimensiones y métricas:
 
-![](assets/quick-seg2.png)
+   * **Uso del icono de segmento:** En una tabla improvisada, seleccione la opción **Segmento** en el encabezado del panel.
 
-El segmento aparece en la parte superior. Fíjese en su barra lateral con bandas azules, a diferencia de la barra lateral azul para segmentos de nivel de componente en la biblioteca de segmentos a la izquierda.
+      ![Filtro de segmento](assets/quick-seg1.png)
 
-![](assets/quick-seg5.png)
+1. Ajuste cualquiera de las siguientes opciones:
+
+   | Configuración | Descripción |
+   | --- | --- |
+   | [!UICONTROL Nombre] | El nombre predeterminado de un segmento es una combinación de los nombres de reglas del segmento. Puede cambiar el nombre del segmento por otro más descriptivo. |
+   | [!UICONTROL Incluir/excluir] | Puede incluir o excluir componentes en su definición de segmento, pero no ambas cosas. |
+   | [!UICONTROL Contenedor de visita/visita individual/visitante] | Los segmentos rápidos incluyen solo un [contenedor de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=es#section_AF2A28BE92474DB386AE85743C71B2D6) que le permite incluir una dimensión, métrica o intervalo de fecha en el segmento (o excluirlo). [!UICONTROL Visitante] contiene datos globales específicos del visitante en las visitas y vistas de páginas. Un contenedor de [!UICONTROL Visita] le permite establecer reglas para desglosar los datos del visitante en función de las visitas, y un contenedor de [!UICONTROL Visita individual] le permite desglosar la información del visitante según las vistas de página individuales. El contenedor predeterminado es [!UICONTROL Visita individual]. |
+   | [!UICONTROL Componentes] (dimensión/métrica/intervalo de fechas) | Defina hasta 3 reglas añadiendo componentes (dimensiones, métricas, intervalos de fechas o valores de dimensión). Existen tres formas de encontrar el componente correcto:<ul><li>Empiece a escribir y el generador rápido de segmentos encuentre automáticamente el componente adecuado.</li><li>Utilice la lista desplegable para buscar el componente.</li><li>Arrástrelos y suéltelos desde el carril izquierdo.</li></ul> |
+   | [!UICONTROL Operador] | Utilice el menú desplegable para buscar operadores estándar y operadores de [!UICONTROL recuento distintos]. Consulte [Operadores de segmentos](/help/components/segmentation/seg-reference/seg-operators.md). |
+   | Signo más (+) | Añadir otra regla |
+   | Cualificadores AND/OR | Puede agregar calificadores AND u OR a las reglas, pero no puede combinar AND y OR en una sola definición de segmento. |
+   | [!UICONTROL Aplicar] | Aplique este segmento al panel. Si el segmento no contiene datos, se le preguntará si desea continuar. |
+   | [!UICONTROL Abrir creador] | Se abrirá el Generador de segmentos. Después de guardar o aplicar el segmento en el Generador de segmentos, ya no se considera un &quot;segmento rápido&quot;. Forma parte de la biblioteca de segmentos de lista de componentes. <p>Para que el componente esté disponible en todos los proyectos y en el carril izquierdo, seleccione la opción [!UICONTROL **Poner este segmento a disposición de todos los proyectos y añadirlo a la lista de componentes**].</p><p>Para obtener más información, consulte la sección [Guardar un segmento rápido como segmento de lista de componentes](#save-a-quick-segment-as-a-component-list-segment) en este artículo.</p><p>**Nota:** Solo los usuarios con permiso de creación de segmentos en la [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=es#analytics-tools) puede abrir el Generador de segmentos.</p> |
+   | [!UICONTROL Cancelar] | Cancelar este segmento rápido (no aplicarlo). |
+   | [!UICONTROL Intervalo de fechas] | El validador utiliza el intervalo de fecha del panel para la búsqueda de datos. Sin embargo, cualquier intervalo de fechas aplicado en un segmento rápido anula el intervalo de fechas del panel en la parte superior del panel. |
+   | Vista previa (parte superior derecha) | Le permite previsualizar las métricas clave para comprobar si tiene un segmento válido y ver su amplitud. Representa el desglose del conjunto de datos que verá cuando aplique este segmento. Podría recibir un aviso que indique que este segmento no tiene datos. En este caso, puede continuar o cambiar la definición del segmento. |
+
+1. Select [!UICONTROL **Aplicar**] para guardar los cambios.
 
 ## Edición de segmentos rápidos
 
-1. Pase el ratón sobre el segmento rápido y seleccione el icono de lápiz.
-1. Edite la definición del segmento o el nombre del segmento.
-1. Haga clic en [!UICONTROL Aplicar].
+1. Pase el ratón sobre el segmento rápido y seleccione la opción **Editar** icono.
 
-## Guardado de segmentos rápidos
+   ![Editar filtro ad hoc](assets/filter-adhoc-edit.png)
+
+1. Edite la definición del segmento o el nombre del segmento.
+
+1. Seleccione [!UICONTROL **Aplicar**].
+
+## Guardar segmentos rápidos como un segmento de lista de componentes
 
 >[!IMPORTANT]
->Una vez guardado o aplicado el segmento, ya no puede editarlo en el Generador de segmentos rápidos, solo en el Generador de segmentos normal. Solo los administradores de productos de Adobe Analytics y el creador del segmento rápido pueden guardar los cambios en un segmento rápido existente.
+>
+> Tenga en cuenta lo siguiente al guardar un segmento rápido:
+> 
+> * Para guardar un segmento rápido, necesita el permiso de creación de segmentos en el [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=es#analytics-tools).
+> 
+> * Después de guardar o aplicar el segmento, ya no se puede editar en el generador rápido de segmentos. En su lugar, debe usar el Generador de segmentos normal.
 
-1. Una vez aplicado el segmento rápido, pase el ratón sobre él y seleccione el icono de información (“i”).
 
-   ![](assets/quick-seg6.png)
+Puede elegir guardar segmentos rápidos como segmentos de lista de componentes. Las ventajas de los segmentos de la lista de componentes incluyen:
 
-1. Haga clic en **[!UICONTROL Hacer disponible en todos los proyectos y añadir a la lista de componentes]**.
+* Disponibilidad en todos los proyectos de Workspace
+* Admitir segmentos más complejos así como segmentos secuenciales
+
+Puede guardar segmentos desde el Generador de segmentos rápido o desde el [!UICONTROL Generador de filtros].
+
+### Guardar en el generador rápido de segmentos {#save2}
+
+1. Después de aplicar el segmento rápido, pase el ratón sobre él y seleccione el icono de información (&quot;i&quot;).
+1. Select **[!UICONTROL Poner a disposición de todos los proyectos y añadirlos a la lista de componentes]**.
 1. (Opcional) Cambie el nombre del segmento.
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Seleccione **[!UICONTROL Guardar]**.
 
-Observe cómo la barra lateral del segmento cambia de azul a rayas a un azul más claro. Ahora también aparece en la lista de componentes del carril izquierdo.
+   El segmento ahora aparece en la lista de componentes en el carril izquierdo. Además, tenga en cuenta que la barra lateral del segmento cambia de azul claro a azul oscuro, lo que indica que ya no se puede editar ni abrir en el generador rápido de segmentos.
 
-## ¿Qué son segmentos de solo proyecto?
+### Guardar en el Generador de segmentos {#save3}
 
-Los segmentos de solo proyecto son segmentos que solo se aplican al proyecto actual en el que se crearon. No estarán disponibles en otros proyectos y no se pueden compartir con otros usuarios. Están pensados para una exploración rápida de sus datos sin tener que crear ni guardar un segmento en el carril izquierdo. Los segmentos de solo proyecto se pueden crear en la zona de colocación del panel con segmentos rápidos o [segmentos ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=es).
+1. Después de aplicar el segmento rápido, pase el ratón sobre él y seleccione el icono de información (&quot;i&quot;).
+1. Select **[!UICONTROL Guardar segmento]**
+1. (Opcional) Cambie el nombre del segmento y seleccione [!UICONTROL **Aplicar**].
 
-Si un segmento de solo proyecto se abre en el [!UICONTROL Generador de segmentos], aparece una notificación de solo proyecto. Si no marca “Hacer que este segmento esté disponible..” y hace clic en **[!UICONTROL APLICAR]**, el segmento sigue siendo un segmento de solo proyecto. Nota: Si aplica un segmento rápido desde el Generador de segmentos, ya no se puede abrir en el [!UICONTROL Generador de segmentos rápidos].
+   Vuelva a Workspace y tenga en cuenta que la barra lateral del segmento cambia de azul claro a azul más oscuro, lo que indica que ya no se puede editar ni abrir en el generador rápido de segmentos. Al guardarlo, pasa a formar parte de la lista de componentes.
 
-![De solo proyecto desactivado](assets/project-only-unchecked.png)
+Después de aplicar el segmento, puede elegir añadirlo a su lista de componentes del segmento y ponerlo a disposición de todos sus proyectos.
 
-Si marca “Hacer que este segmento esté disponible” y hace clic en **[!UICONTROL GUARDAR]**, el segmento está disponible en la lista de componentes del carril izquierdo para su uso en otros proyectos. También se puede compartir con otros usuarios desde el Administrador de segmentos.
+1. Pase el ratón sobre el segmento guardado y seleccione el icono de lápiz.
 
-![De solo proyecto marcado](assets/project-only-checked.png)
+1. Select [!UICONTROL **Abrir generador**].
+
+1. En la parte superior del Generador de segmentos, observe la [!UICONTROL **Segmento solo de proyecto**] diálogo:
+
+   ![cuadro de diálogo de segmentos solo de proyecto](assets/project-only-segment-dialog.png)
+
+1. Seleccione la casilla de verificación situada junto a **[!UICONTROL Poner a disposición de todos los proyectos y añadirlos a la lista de componentes.]**
+
+1. Seleccione **[!UICONTROL Guardar]**.
+
+   El segmento ahora aparece en la lista de componentes del segmento para todos sus proyectos.
+También puede [compartir el segmento](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=es#concept_4A9726927E7C44AFA260E2BB2721AFC6) con otras personas de su organización.
+
+## Ejemplo de segmento rápido
+
+El siguiente ejemplo de segmento combina dimensiones y métricas:
+
+![](assets/quick-seg2.png)
 
 ## Problema conocido
 

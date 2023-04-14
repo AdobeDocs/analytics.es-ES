@@ -4,10 +4,10 @@ title: Limitaciones conocidas en Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '414'
+ht-degree: 90%
 
 ---
 
@@ -36,7 +36,7 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 ## Componentes > Segmentos
 
 * Ciertas métricas y dimensiones no se pueden segmentar, como [!UICONTROL Ocurrencias], [!UICONTROL Visitantes únicos], etc.
-* Los segmentos ad hoc creados en la [zona desplegable del panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es) no aparecerán en la barra izquierda de Workspace ni en el administrador de componentes del segmento, a menos que se hagan públicos. Esto se puede hacer editando el segmento y seleccionando **[!UICONTROL Convertir este segmento en público]**.
+* Segmentos ad hoc creados en el [zona desplegable del panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es) son un tipo de filtro rápido. No aparecen en el carril izquierdo de Workspace ni en el administrador de componentes de segmentos a menos que se hagan públicos. Para obtener más información, consulte [Segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## Componentes > Métricas calculadas
 
