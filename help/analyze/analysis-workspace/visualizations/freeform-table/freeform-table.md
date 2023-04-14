@@ -4,9 +4,9 @@ description: Las tablas de forma libre son la base del análisis de datos en Wor
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 8ca676a9e69195ef873981dd390bb0a6d4d465f1
+source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '629'
 ht-degree: 69%
 
 ---
@@ -15,11 +15,13 @@ ht-degree: 69%
 
 En Analysis Workspace, una tabla de forma libre es la base del análisis de datos interactivo. Puede arrastrar y soltar una combinación de [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=es) en filas y columnas para crear una tabla personalizada para su análisis. A medida que se suelta cada componente, la tabla se actualiza inmediatamente, para que pueda analizar y profundizar rápidamente.
 
-Para ilustrarlo, comience con una tabla improvisada vacía.
+## Crear una tabla improvisada sencilla
+
+Comience con una tabla improvisada vacía.
 
 ![Tabla improvisada vacía](assets/freeform-table-1.png)
 
-Si suelta la variable **[!UICONTROL ** Visitas **]** en la **[!UICONTROL ** Coloque una métrica aquí (o cualquier otro componente)**]**, la tabla improvisada se rellena automáticamente con visitas por día durante el período seleccionado.
+Si suelta la variable **[!UICONTROL ** Visitas **]** en la **[!UICONTROL ** Coloque una métrica aquí (o cualquier otro componente)**]**, la tabla improvisada se rellena automáticamente con visitas por día durante el período de calendario seleccionado.
 
 ![Tabla improvisada de visitas](assets/freeform-table-2.png)
 
@@ -27,7 +29,7 @@ Si a continuación suelta el **[!UICONTROL ** Página **]** para reemplazar la d
 
 ![Visitas por tabla improvisada de página](assets/freeform-table-3.png)
 
-Y luego puede desglosar, por ejemplo, el **[!UICONTROL ** categoría:5 **]** soltando la página **[!UICONTROL ** Canal de marketing **]** en la dimensión **[!UICONTROL ** categoría:5 **]** fila.
+A continuación, puede desglosar, por ejemplo, el **[!UICONTROL ** categoría:5 **]** soltando la página **[!UICONTROL ** Canal de marketing **]** en la dimensión **[!UICONTROL ** categoría:5 **]** fila.
 
 ![Desglose de visitas por tabla improvisada de página](assets/freeform-table-4.png)
 
