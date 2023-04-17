@@ -1,13 +1,13 @@
 ---
 title: Guía de herramientas de Analytics
-description: Documentación del producto e instrucciones para Analysis Workspace, paneles de Adobe Analytics, Activity Map, Report Builder, API de informes y Reports & Analytics.
+description: Documentación del producto e instrucciones para Analysis Workspace, paneles de Analytics (aplicación móvil), Activity Map, Report Builder, API de informes e Reports & Analytics.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
-workflow-type: ht
-source-wordcount: '252'
-ht-degree: 100%
+source-git-commit: c659d85ce0dea98245eb25f1432720d69cfe77cf
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 43%
 
 ---
 
@@ -15,30 +15,26 @@ ht-degree: 100%
 
 ![Banner](../../assets/doc_banner_analyze.png)
 
-Esta guía proporciona documentación de producto y autoayuda para las siguientes herramientas de análisis e informes de Adobe Analytics:
+La Guía de herramientas de Analytics incluye información sobre características del producto, casos de uso, instrucciones de tareas y prácticas recomendadas para las siguientes herramientas de Analytics:
 
-* **[!UICONTROL Analysis Workspace]:** esta es la funcionalidad más importante de Adobe Analytics. Workspace proporciona un lienzo en el que puede arrastrar componentes para satisfacer sus necesidades de creación de informes.
-* **[!UICONTROL Paneles de Adobe Analytics]:** esta aplicación móvil permite a los usuarios un acceso móvil para crear cuadros de resultados intuitivos con métricas clave, desgloses más detallados e informes de tendencias.
-* **[!UICONTROL Activity Map]:** es un complemento del navegador que muestra una superposición en el sitio en la que aparecerán los elementos que reciben más clics.
-* **[!UICONTROL Report Builder]:** complemento de Excel que le permite recuperar datos de Analytics y colocarlos directamente en un libro de trabajo.
-* **[!UICONTROL API de creación de informes]:** para realizar consultas de informes directamente en los servidores de Adobe y obtener respuestas para su uso en sus propias herramientas de creación de informes de clientes.
-* **[!UICONTROL Reports &amp; Analytics]:** herramienta con decenas de informes generados previamente.. Adobe recomienda utilizar Analysis Workspace para la mayoría de sus necesidades de creación de informes. **Nota:** Reports &amp; Analytics llegará al [final de su vida útil](https://www.adobe.com/go/analytics_rnaeol_es) el 31 de diciembre de 2023.
+| Herramienta | Descripción |
+|-----------|----------------|
+| **[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es)** | Analysis Workspace es una herramienta de navegador flexible que le permite crear análisis y compartir perspectivas rápidamente. Mediante la interfaz de arrastrar y soltar, puede crear su análisis, agregar visualizaciones para dar vida a los datos, depurar un conjunto de datos, compartir y programar proyectos con cualquier persona de su organización. |
+| **[Paneles de Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=es)** | Los paneles de Analytics y sus informes de valoración móviles permiten a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivos móviles una amplia representación de datos de resumen importantes. Los gestores de datos agregan visualizaciones a los proyectos de informes de valoración móviles y las comparten con los ejecutivos.  <br>Los informes de valoración proporcionan una forma de determinar y medir los KPI y proporcionan una clara indicación de cómo funcionan las organizaciones para alcanzar sus objetivos. |
+| **[Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=es)** | Activity Map es una aplicación de Adobe Analytics diseñada para clasificar la actividad de los vínculos usando superposiciones visuales y que ofrece un tablero de análisis en tiempo real para supervisar la participación de la audiencia en las páginas web. <br>Activity Map permite configurar distintas vistas para identificar visualmente la aceleración de la actividad del cliente, cuantificar las iniciativas de marketing y responder a las necesidades y los comportamientos de la audiencia.&quot; |
+| **[Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=es)** | El Report Builder de  es un complemento para Microsoft Excel. Report Builder permite crear solicitudes personalizadas a partir de datos de Adobe Analytics que se insertan en hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que Report Builder presenta los datos. |
+| **[API de Analytics ](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Las API de Analytics le permiten llamar directamente a los servidores de Adobe para realizar casi cualquier acción que pueda realizar en la interfaz de usuario. Puede crear informes para explorar, obtener perspectivas o responder a preguntas importantes sobre sus datos. También puede administrar componentes de Adobe Analytics, como la creación de segmentos o métricas calculadas. |
+| **[Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html)** | Reports &amp; Analytics es una herramienta con decenas de informes y visualizaciones pregenerados. Ahora están disponibles en Analysis Workspace. **A partir del 31 de diciembre de 2023, Adobe tiene la intención de descatalogar Reports &amp; Analytics, y sus informes y funciones correspondientes. Adobe recomienda utilizar Analysis Workspace para la mayoría de sus necesidades de creación de informes.** Para obtener más información, consulte [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es). |
 
-A continuación, se muestra un vídeo introductorio de Adobe Analytics:
+Para obtener más información sobre los conceptos básicos de Adobe Analytics, consulte la *Introducción a Adobe Analytics: Seminario web de Experience Builder* a continuación. El vídeo le explica cómo se capturan los datos, cómo se envían los datos a Adobe Analytics y qué capacidades de visualización puede utilizar en Adobe Analytics. El vídeo proporciona una base para crear, implementar, recopilar e interpretar datos...le permite proporcionar perspectivas y recomendaciones procesables basadas en los datos recopilados.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
-## Artículos de herramientas de Analytics clave
+Si tiene preguntas sobre qué herramienta utilizar, consulte [¿Qué herramienta de Adobe Analytics debo usar?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html).
 
-* [Paneles de Adobe Analytics: Información general](/help/analyze/mobile-app/home.md)
-* [Introducción a Analysis Workspace](analysis-workspace/home.md)
-* [¿Qué herramienta de Adobe Analytics debo usar?](/help/analyze/get-started/which-analytics-tool.md)
-* [Introducción a Report Builder](report-builder/home.md)
-* [Introducción a Activity Map](activity-map/activity-map.md)
+## Guías del usuario de Analytics
 
-## Más guías del usuario de Analytics
-
-[Guías del usuario de Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=es)
+Para obtener información detallada sobre las funciones de Adobe Analytics y cómo utilizarlas, consulte [Guías del usuario de Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=es)
 
 ## Recursos clave de Analytics
 
@@ -46,3 +42,4 @@ A continuación, se muestra un vídeo introductorio de Adobe Analytics:
 * [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos de Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=es)
 * [Experience League](https://experienceleague.adobe.com/?lang=es#home)
+
