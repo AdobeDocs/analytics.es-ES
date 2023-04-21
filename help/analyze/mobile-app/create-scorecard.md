@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
 workflow-type: tm+mt
-source-wordcount: '2353'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -241,7 +241,7 @@ Cree su historia basada en datos al agregar varias diapositivas de detalles a un
 
    Para agregar nuevas diapositivas, pase el ratón sobre una o haga clic en ella y, a continuación, seleccione una de las opciones disponibles:
 
-   * Toque . [!UICONTROL +] para crear una nueva diapositiva.
+   * Pulse el signo [!UICONTROL +] para crear una nueva diapositiva.
 
    * Pulse el icono de duplicado para duplicar la diapositiva existente.
 
@@ -263,7 +263,7 @@ Las historias basadas en datos le permiten personalizar todos los elementos para
 
    ![Creación de una historia basada en datos](assets/data-story3.png)
 
-   Cuando arrastra y suelta un componente como una visualización en un mosaico, el componente se aplica a todas las diapositivas de artículos de datos.
+   Cuando arrastra y suelta un componente como una visualización en un mosaico, este se aplica a todas las diapositivas de historias basadas en datos.
 
 1. Para aplicar un cambio solo al título, mantenga pulsada la tecla Mayús.
 
