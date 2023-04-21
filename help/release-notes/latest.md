@@ -3,10 +3,10 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bdafc3218c29f72e97c3748967bd49bc7d0c0af8
+source-git-commit: b4ab6862de537d594bfc83abedcd06b10b007f48
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 96%
+source-wordcount: '1630'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | **Compatibilidad parcial con Activity Map con el SDK web** | A partir de la versión 2.15.0 del SDK web, se empezaron a rellenar los datos de Activity Map cuando el seguimiento de vínculos está habilitado. Esto permite a los usuarios del SDK web obtener el sistema de informes de Activity Map si tienen habilitado el seguimiento de vínculos con el SDK web y Activity Map configurado en Analytics.<p>Al habilitar el seguimiento de vínculos con el SDK web, se envían eventos de vínculo cuando un cliente navega de una página a la siguiente. Se trata de un funcionamiento diferente al de AppMeasurement y puede dar lugar a que se envíen más visitas facturables a Adobe. Más información [aquí](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=es) y [aquí](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) | N/A | 31 de marzo de 2023 |
 | **Confusión de IP para Experience Edge** | Experience Edge admitirá la confusión de IP para los datos enviados directamente a Adobe Experience Platform. Esto beneficia a los clientes que envían datos directamente a Platform para su uso en CJA u otras soluciones de Platform. La confusión de IP se ajusta en el nivel de flujo de datos. Admite la eliminación del último octeto o de toda la dirección IP.<p>**Nota**: La confusión NO se aplica a los datos enviados a Adobe Analytics. Analytics sigue obteniendo la IP completa. El procesamiento de IP se sigue realizando en Analytics por separado. En el futuro, planeamos permitir que los datos de Analytics se confundan en Edge. | N/A | Versión de AEP del 26 de abril de 2023 |
 | **Diccionario de datos en Analysis Workspace** | El diccionario de datos ayuda a los usuarios y a los administradores a realizar el seguimiento de los componentes (dimensiones, métricas) en el entorno de Analytics, a administrarlos y a comprenderlos mejor. [Más información](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 de marzo de 2023 | 29 de marzo de 2023 |
-| **Uso compartido de vínculos para proyectos (no se requiere inicio de sesión)** - Solo acceso beta privado | <p>Ahora puede compartir vínculos de solo lectura a proyectos de Analysis Workspace con personas que no tienen acceso a Adobe Analytics. Puede compartir vínculos de proyectos con personas fuera de su organización o con personas de su organización que no estén aprovisionadas para Adobe Analytics. [Más información](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Para unirse a la versión beta privada, póngase en contacto con su equipo de cuenta de Adobe.</p> | 26 de abril de 2023 | Junio de 2023 |
+| **Uso compartido de vínculos para proyectos (no se requiere inicio de sesión)** | <p>Ahora puede compartir vínculos de solo lectura a proyectos de Analysis Workspace con personas que no tienen acceso a Adobe Analytics. Esto incluye el uso compartido con personas ajenas a su organización o con personas pertenecientes a su organización que no estén aprovisionadas para Adobe Analytics. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)</p> <p>Esta funcionalidad está habilitada de forma predeterminada y el administrador del sistema puede desactivarla. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 26 de abril de 2023 (solo acceso beta privado) | Junio de 2023 |
 | 2 nuevas guías de extremo para la API de Adobe Analytics 2.0 | <ul><li>[API de Dimension de Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API de métricas de Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | N/A | 10 de abril de 2023 |
 
 {style="table-layout:auto"}
