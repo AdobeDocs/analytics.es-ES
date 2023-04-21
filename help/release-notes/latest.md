@@ -3,16 +3,16 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
+source-git-commit: bdafc3218c29f72e97c3748967bd49bc7d0c0af8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1605'
+ht-degree: 96%
 
 ---
 
 # Notas de la versión de Adobe Analytics actual (Abril de 2023)
 
-**Última actualización**: 12 de abril de 2023
+**Última actualización**: 21 de abril de 2023
 
 Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,6 +20,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Relleno para entornos limitados que no sean de producción** | Al crear un flujo de datos del conector de origen de Analytics en un simulador para pruebas que no sean de producción, el relleno de los entornos limitados que no sean de producción estará limitado a 3 meses. Permanecerá a los 13 meses para los entornos limitados de producción. | N/A | 26 de abril de 2023 |
 | **Filtrado de filas y columnas para el streaming del conector de origen de Analytics** | El conector de origen de Analytics en Adobe Experience Platform ahora permite filtrar los datos de Analytics que se usan para rellenar perfiles en el [Perfil del cliente en tiempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=es). El filtrado de nivel de fila reduce el número de eventos asociados a perfiles. El filtrado a nivel de columna ayuda a reducir la riqueza de los propios eventos, lo que permite optimizar el uso de derechos de perfil. Este filtrado solo se aplica a los datos enviados al perfil del cliente en tiempo real y al [Servicio de identidad](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es). **El filtrado no afecta a los datos que se envían al lago de datos para su uso en aplicaciones como Customer Journey Analytics**. [Más información](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=es#filtering-for-profile) | N/A | 29 de marzo de 2023 |
 | **Compatibilidad parcial con Activity Map con el SDK web** | A partir de la versión 2.15.0 del SDK web, se empezaron a rellenar los datos de Activity Map cuando el seguimiento de vínculos está habilitado. Esto permite a los usuarios del SDK web obtener el sistema de informes de Activity Map si tienen habilitado el seguimiento de vínculos con el SDK web y Activity Map configurado en Analytics.<p>Al habilitar el seguimiento de vínculos con el SDK web, se envían eventos de vínculo cuando un cliente navega de una página a la siguiente. Se trata de un funcionamiento diferente al de AppMeasurement y puede dar lugar a que se envíen más visitas facturables a Adobe. Más información [aquí](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=es) y [aquí](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) | N/A | 31 de marzo de 2023 |
 | **Confusión de IP para Experience Edge** | Experience Edge admitirá la confusión de IP para los datos enviados directamente a Adobe Experience Platform. Esto beneficia a los clientes que envían datos directamente a Platform para su uso en CJA u otras soluciones de Platform. La confusión de IP se ajusta en el nivel de flujo de datos. Admite la eliminación del último octeto o de toda la dirección IP.<p>**Nota**: La confusión NO se aplica a los datos enviados a Adobe Analytics. Analytics sigue obteniendo la IP completa. El procesamiento de IP se sigue realizando en Analytics por separado. En el futuro, planeamos permitir que los datos de Analytics se confundan en Edge. | N/A | Versión de AEP del 26 de abril de 2023 |
