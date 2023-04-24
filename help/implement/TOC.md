@@ -6,8 +6,8 @@ breadcrumb-title: Guía de implementación
 user-guide-description: Aprenda formas de implementar Adobe Analytics. Personalice qué se recopila para aprovechar al máximo los datos de Analytics.
 source-git-commit: 9a16cd89b2d650098495902cca5c5229df48b475
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 99%
 + Casos de uso de implementación {#use-cases}
    + [Uso de AppMeasurement con iFrames](use-cases/iframe.md)
    + [Seguimiento en diferentes tipos de implementación](use-cases/cross-type-implementation.md)
-   + [Flujo de trabajo de seguimiento de campaña](use-cases/campaign-tracking.md)
+   + [Flujo de trabajo del seguimiento de campañas](use-cases/campaign-tracking.md)
 + Validación de la implementación {#validate}
    + [Adobe Experience Cloud Debugger antiguo](validate/debugger.md)
    + [Parámetros de consulta de recopilación de datos](validate/query-parameters.md)
