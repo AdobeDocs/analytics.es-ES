@@ -2,10 +2,10 @@
 title: Configuración del conjunto de clasificaciones
 description: Cree o edite un conjunto de clasificaciones.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '573'
+ht-degree: 79%
 
 ---
 
@@ -38,7 +38,7 @@ Los campos adicionales están disponibles con fines informativos y no se pueden 
 Ver las dimensiones de clasificación configuradas actualmente para esta suscripción. Están disponibles los siguientes botones:
 
 * **[!UICONTROL Cargar]**: Cargue manualmente los datos de clasificación de una o varias dimensiones de clasificación. Los archivos JSON, CSV, TSV y TAB son compatibles. Al cargar un archivo válido, se muestra una previsualización de tabla de los datos que se van a clasificar.
-   * **[!UICONTROL Codificación de archivos]**: Seleccione la codificación de archivo correcta mediante este menú desplegable. Las opciones válidas incluyen [!UICONTROL UTF-8] y [!UICONTROL Latin1].
+   * **[!UICONTROL Codificación de archivos]**: Seleccione la codificación de archivo correcta con esta lista desplegable. Las opciones válidas incluyen [!UICONTROL UTF-8] y [!UICONTROL Latin1].
    * **[!UICONTROL Delimitador de lista]**: Seleccione el delimitador de lista correcto. Si utiliza un archivo de plantilla o archivo descargado, asegúrese de que el [!UICONTROL Delimitador de lista] aquí coincide el [!UICONTROL Delimitador de lista] cuando se descargó el archivo.
    * **[!UICONTROL Aplicar]**: Guarde los datos de clasificación cargados en el conjunto de clasificaciones.
 
@@ -47,19 +47,19 @@ Ver las dimensiones de clasificación configuradas actualmente para esta suscrip
 * **[!UICONTROL Descargar]**: Descargue los valores clave y sus columnas de clasificación.
    * **[!UICONTROL Filas]**: Número máximo de filas que se incluirán en el archivo de descarga.
    * **[!UICONTROL Descargar filas recibidas entre]**: Selector de fecha de calendario que le permite filtrar valores clave por el momento en que aparecen en los informes. Si un valor clave no se recopiló en este intervalo de fechas, no aparece en el archivo descargado.
-   * **[!UICONTROL Datos devueltos]**: Un menú desplegable que permite filtrar los valores clave incluidos en el archivo descargado en función de los datos de clasificación asociados.
+   * **[!UICONTROL Datos devueltos]**: Lista desplegable que permite filtrar los valores clave incluidos en el archivo descargado en función de los datos de clasificación asociados.
       * **[!UICONTROL Todos los valores clasificados]**: Incluye filas donde los datos de clasificación se incluyen en al menos una columna.
       * **[!UICONTROL Todos los valores no clasificados]**: Incluye filas en las que faltan datos de clasificación en al menos una columna.
-   * **[!UICONTROL Formato del archivo]**: Menú desplegable que determina el formato de archivo en el que se encuentra el archivo de descarga. Las opciones incluyen [!UICONTROL JSON], [!UICONTROL Valores separados por comas] y [!UICONTROL Valores separados por tabulaciones de Excel].
-   * **[!UICONTROL Codificación de archivos]**: Menú desplegable que determina la codificación del archivo. Las opciones incluyen [!UICONTROL UTF-8] y [!UICONTROL Latin1]. Se recomienda UTF-8.
-   * **[!UICONTROL Delimitadores de lista]**: Menú desplegable que determina el delimitador de lista que separa las columnas de clasificación de cada fila.
+   * **[!UICONTROL Formato del archivo]**: Lista desplegable que determina el formato de archivo en el que se encuentra el archivo de descarga. Las opciones incluyen [!UICONTROL JSON], [!UICONTROL Valores separados por comas] y [!UICONTROL Valores separados por tabulaciones de Excel].
+   * **[!UICONTROL Codificación de archivos]**: Lista desplegable que determina la codificación del archivo. Las opciones incluyen [!UICONTROL UTF-8] y [!UICONTROL Latin1]. Se recomienda UTF-8.
+   * **[!UICONTROL Delimitadores de lista]**: Lista desplegable que determina el delimitador de lista que separa las columnas de clasificación de cada fila.
 
    ![Descarga de conjunto de clasificaciones](../assets/classification-set-download.png)
 
 * **[!UICONTROL Plantilla]**: Descargue un archivo de plantilla. Este archivo es similar al botón de [!UICONTROL Descargar], excepto que no contiene datos de clasificación ni valores de clave.
-   * **[!UICONTROL Formato del archivo]**: Menú desplegable que determina el formato de archivo en el que se encuentra el archivo de plantilla. Las opciones incluyen [!UICONTROL Valores separados por comas] y [!UICONTROL Valores separados por tabulaciones de Excel].
-   * **[!UICONTROL Codificación de archivos]**: Menú desplegable que determina la codificación del archivo. Las opciones incluyen [!UICONTROL UTF-8] y [!UICONTROL Latin1]. Se recomienda UTF-8.
-   * **[!UICONTROL Delimitadores de lista]**: Menú desplegable que determina el delimitador de lista que separa las columnas de clasificación de cada fila.
+   * **[!UICONTROL Formato del archivo]**: Lista desplegable que determina el formato de archivo en el que se encuentra el archivo de plantilla. Las opciones incluyen [!UICONTROL Valores separados por comas] y [!UICONTROL Valores separados por tabulaciones de Excel].
+   * **[!UICONTROL Codificación de archivos]**: Lista desplegable que determina la codificación del archivo. Las opciones incluyen [!UICONTROL UTF-8] y [!UICONTROL Latin1]. Se recomienda UTF-8.
+   * **[!UICONTROL Delimitadores de lista]**: Lista desplegable que determina el delimitador de lista que separa las columnas de clasificación de cada fila.
 * **[!UICONTROL Historial de trabajos]**: un vínculo de acceso directo que le lleva al [Gestor de trabajos](job-manager.md), mostrando los trabajos solo para este conjunto de clasificaciones.
 
    ![Plantilla de conjunto de clasificaciones](../assets/classification-set-template.png)

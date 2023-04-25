@@ -4,10 +4,10 @@ keywords: flujo de navegación;fuente de datos;fuente de datos;Fuente de datos
 title: Resumen de la fuente de datos de Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Asegúrese de cumplir todos los requisitos antes de utilizar fuentes de datos.
    * Nombre de usuario: introduzca el nombre de usuario para iniciar sesión en el sitio FTP.
    * Contraseña y confirmar contraseña: introduzca la contraseña para iniciar sesión en el sitio FTP.
 7. Complete las [!UICONTROL definiciones de columnas de datos].
-   * Seleccione la última plantilla “Todas las columnas de Adobe” en el menú desplegable.
+   * Seleccione la última plantilla &quot;All Adobe Columns&quot; en la lista desplegable.
    * Formato de compresión: Gzip.
    * Tipo de paquete: varios archivos.
    * Manifiesto: sin archivo.

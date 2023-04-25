@@ -3,10 +3,10 @@ title: Detalles de canal de último contacto
 description: Detalles del canal de marketing más reciente dentro de la caducidad de la participación del visitante.
 feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 100%
+source-wordcount: '324'
+ht-degree: 89%
 
 ---
 
@@ -22,11 +22,11 @@ Si desea establecer esta dimensión en un valor específico, se requieren los si
 
 * Asegúrese de que el elemento de dimensión deseado esté en un atributo de visita o en una variable personalizada.
 * Establezca una regla de procesamiento de canal de marketing que contenga los criterios deseados para la visita.
-* Seleccione el valor desplegable que desee en [!UICONTROL Definir el valor del canal] dentro de la regla de procesamiento del canal de marketing.
+* Seleccione el valor desplegable que desee en [!UICONTROL Establezca el valor del canal] dentro de la regla de procesamiento del canal de marketing.
 * La visita del visitante al sitio debe coincidir con los criterios descritos en la regla de procesamiento del canal de marketing.
 
 ## Elementos de dimensión
 
-Los elementos de dimensión dependen de la lista desplegable de valores de canal. Por ejemplo, si establece el valor del canal en “Dirección URL de la página”, los elementos de dimensión incluyen las direcciones URL de la página en el sitio. Si establece el valor del canal en Dominio de referencia, los elementos de dimensión incluyen los dominios en los que ha hecho clic el visitante para llegar al sitio. Esta dimensión agrega todos los elementos de dimensión de detalle, independientemente del canal en el que se encuentren.
+Los elementos del Dimension dependen del valor de canal que aparece en la lista desplegable de la regla de procesamiento del canal de marketing aplicable. Por ejemplo, si establece el valor del canal en “Dirección URL de la página”, los elementos de dimensión incluyen las direcciones URL de la página en el sitio. Si establece el valor del canal en Dominio de referencia, los elementos de dimensión incluyen los dominios en los que ha hecho clic el visitante para llegar al sitio. Esta dimensión agrega todos los elementos de dimensión de detalle, independientemente del canal en el que se encuentren.
 
 Adobe recomienda configurar los valores de canal relacionados con el canal de marketing para obtener más información sobre los detalles del canal.

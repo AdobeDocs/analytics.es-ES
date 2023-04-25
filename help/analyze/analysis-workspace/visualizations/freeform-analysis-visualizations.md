@@ -5,10 +5,10 @@ title: Resumen de las visualizaciones
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 100%
+source-wordcount: '1156'
+ht-degree: 99%
 
 ---
 
@@ -68,7 +68,7 @@ Puede personalizar la configuración de todas las visualizaciones que cree. Para
 | Configuración | Descripción |
 | --- | --- |
 | Tipo de visualización | Cambie el tipo de imagen que se utiliza para representar los datos. |
-| Granularidad | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) de esta lista desplegable. Este cambio también se aplica a la tabla de fuente de datos. |
+| Granularidad | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) en esta lista desplegable. Este cambio también se aplica a la tabla de fuente de datos. |
 | Porcentajes | Muestra valores en porcentajes. |
 | Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. Ejemplo: ![Apilada al 100 %](assets/stacked_100_percent.png) |
 | Leyenda visible | Le permite ocultar el texto de detalles de la leyenda para la visualización de Número de resumen/Resumen del cambio. |

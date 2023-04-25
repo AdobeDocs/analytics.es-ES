@@ -4,10 +4,10 @@ title: Visualización de gráficos combinados
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '756'
+ht-degree: 99%
 
 ---
 
@@ -90,7 +90,7 @@ Haga clic en el icono de engranaje en la parte superior derecha de un gráfico c
 | Configuración | Definición |
 | --- | --- |
 | **[!UICONTROL Tipo de visualización]** | Le permite cambiar a otro tipo de visualización. |
-| **[!UICONTROL Granularidad]** | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) de esta lista desplegable. |
+| **[!UICONTROL Granularidad]** | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) en esta lista desplegable. |
 | **[!UICONTROL General]** |  |
 | **[!UICONTROL Porcentajes]** | Muestra valores en porcentajes. |
 | **[!UICONTROL Leyenda visible]** | Permite ocultar el texto de leyenda detallado para la visualización de gráficos combinados. |

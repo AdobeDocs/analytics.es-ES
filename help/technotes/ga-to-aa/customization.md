@@ -3,10 +3,10 @@ title: Personalización de informes en Adobe Analytics
 description: Descubra cómo personalizar informes en Adobe Analytics
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 96%
 
 ---
 
@@ -64,7 +64,7 @@ Para crear una medida calculada:
 
 1. Haga clic en el icono **+** cerca de la lista de métricas para abrir el [!UICONTROL Creador de métricas calculadas]. 
 2. Asigne un nombre a la métrica calculada y especifique un formato.
-3. Arrastre los componentes de la métrica hasta el área de definición y utilice los menús desplegables entre cada componente para designar un operador.
+3. Arrastre los componentes de la métrica hasta el área de definición y utilice las listas desplegables entre cada componente para designar un operador.
 4. Una vez que la métrica calculada contenga la fórmula deseada, haga clic en Guardar para volver al espacio de trabajo.
 5. Arrastre la métrica calculada recién definida al espacio de trabajo.
 

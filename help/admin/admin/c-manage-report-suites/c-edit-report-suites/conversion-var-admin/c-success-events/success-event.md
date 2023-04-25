@@ -4,9 +4,9 @@ keywords: evento
 title: Resumen de los eventos de éxito
 feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '708'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ Acceda a la página Eventos de éxito en la configuración del grupo de informes
 2. Haga clic en el botón de 9 cuadrículas en la parte superior y, a continuación, haga clic en [!UICONTROL Analytics].
 3. Vaya a [!UICONTROL Administración] > [!UICONTROL Grupos de informes]
 4. Seleccione el grupo de informes deseado y, a continuación, vaya a [!UICONTROL Editar configuración] > [!UICONTROL Conversión] > [!UICONTROL Eventos de éxito].
-5. Busque el evento deseado y modifique el cuadro desplegable [!UICONTROL Registro de un evento único] a [!UICONTROL Registrar una vez por visita] o [!UICONTROL Usar ID de evento].
 
 Existen muchas clases de eventos de éxito que varían en función del tipo de sitio web. Algunos ejemplos son:
 

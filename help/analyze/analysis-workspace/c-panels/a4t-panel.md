@@ -4,10 +4,10 @@ title: Panel de Analytics for Target (A4T)
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: c101a98e2d2d73fecc39054289f516411d7d529a
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 100%
+source-wordcount: '1101'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Puede configurar el panel de A4T con esta configuración de entrada:
 | Configuración | Descripción |
 |---|---|
 | Actividad de Target | Seleccione una lista de Actividades de Target o arrastre y suelte una actividad desde el carril izquierdo. Nota: La lista se rellena con los últimos 6 meses de actividades que han tenido al menos 1 visita. Si no ve una actividad en la lista, puede haberse producido hace más de 6 meses. Todavía se puede añadir desde el carril izquierdo, que tiene un periodo retrospectivo que incluye hasta 18 meses. |
-| Experiencia de control | Seleccione la experiencia de control. Puede cambiarla, si es necesario, desde la lista desplegable. |
+| Experiencia de control | Seleccione la experiencia de control. Puede cambiarlo si es necesario en la lista desplegable. |
 | Métrica de normalización | Elija entre Visitantes únicos, Visitas o Impresiones de actividad. Se recomiendan visitantes únicos para la mayoría de los casos de uso de análisis. Esta métrica (también denominada metodología de contabilización) se convierte en el denominador del cálculo del alza. También afecta a la manera en que se agregan los datos antes de que se calcule la confianza. |
 | Métricas de éxito | Seleccione hasta 3 eventos de éxito estándar (no calculados) en la lista desplegable o arrastre y suelte las métricas desde el carril izquierdo. Cada métrica tendrá una tabla y una visualización dedicadas en el panel procesado. |
 | Intervalo de fechas del calendario | Esto se rellenará automáticamente en función del intervalo de fechas de Actividad de Adobe Target. Puede cambiarlo si es necesario. |

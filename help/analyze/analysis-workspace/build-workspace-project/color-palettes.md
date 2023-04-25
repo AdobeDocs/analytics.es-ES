@@ -4,10 +4,10 @@ title: ¿Qué son las paletas de colores de visualización y cómo funcionan?
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '224'
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ A continuación se muestra un vídeo sobre el uso de [!UICONTROL paletas de colo
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
 1. Vaya a **[!UICONTROL Workspace]** > **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]**.
-1. En el menú desplegable **[!UICONTROL Paleta de color del proyecto]** puede escoger uno de los cinco esquemas de color preconfigurados.
+1. En el **[!UICONTROL Paleta de color del proyecto]** lista desplegable, puede elegir uno de los cinco esquemas de color preconfigurados.
 
    ![](assets/custom_palette.png)
 

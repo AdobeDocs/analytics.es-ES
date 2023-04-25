@@ -4,10 +4,10 @@ description: Preguntas frecuentes sobre Report Builder.
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Los informes programados se procesan en servidores que probablemente no comparta
 
 Los informes programados también se procesan en servidores que probablemente no comparten sintaxis de fecha. Por ejemplo, `7/1/YYYY` puede referirse al 1 de julio o al 7 de enero, según su país o región. El uso de la función `DATEVALUE()` en esta fecha resultaría en diferentes valores de serie según el equipo que lo ejecute.
 
-Como alternativa al uso de estas funciones de Excel, Adobe recomienda encarecidamente el uso de intervalos de fechas dentro de las solicitudes del Report Builder. En la primera página del asistente para solicitudes, seleccione **[!UICONTROL Fechas preestablecidas]** en el menú desplegable y, en Fechas más utilizadas, seleccione **[!UICONTROL Hoy]** u otro intervalo de fechas deseado. Esta configuración toma el tiempo del grupo de informes en el momento en que se ejecutó y no el tiempo en que el servidor procesa la solicitud.
+Como alternativa al uso de estas funciones de Excel, Adobe recomienda encarecidamente el uso de intervalos de fechas dentro de las solicitudes del Report Builder. En la primera página del asistente para solicitudes, seleccione **[!UICONTROL Fechas preestablecidas]** en la lista desplegable y, a continuación, en Fechas más utilizadas, seleccione **[!UICONTROL Hoy]** u otro intervalo de fechas deseado. Esta configuración toma el tiempo del grupo de informes en el momento en que se ejecutó y no el tiempo en que el servidor procesa la solicitud.
 
 ## ¿Cómo de grandes y complejos puedo hacer mis libros de trabajo?
 

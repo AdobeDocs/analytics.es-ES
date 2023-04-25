@@ -3,10 +3,10 @@ title: cookieLifetime
 description: Anule la caducidad de las cookies que crea AppMeasurement.
 feature: Variables
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 84%
+source-wordcount: '263'
+ht-degree: 64%
 
 ---
 
@@ -20,23 +20,23 @@ Las cookies configuradas por AppMeasurement suelen tener una caducidad de 2 año
 
 ## Duración de la cookie mediante el SDK web
 
-El SDK web aún no ofrece personalización durante la duración de las cookies que establece.
+El SDK web aún no ofrece personalización a la duración de las cookies que establece.
 
-## Duración de la cookie mediante la extensión Adobe Analytics
+## Duración de la cookie con la extensión de Adobe Analytics
 
-Duración de la cookie es un menú desplegable en el acordeón de [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
+Duración de la cookie es una lista desplegable en la sección [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
-1. Expanda el acordeón [!UICONTROL Cookies], que muestra el menú desplegable [!UICONTROL Duración de la cookie].
+1. Expanda el [!UICONTROL Cookies] el acordeón, que revela la variable [!UICONTROL Duración de la cookie] lista desplegable.
 
-Este menú desplegable contiene los siguientes valores:
+Esta lista desplegable contiene los siguientes valores:
 
 * **Predeterminado**: La cookie caduca pasados 2 años.
 * **Ninguno**: AppMeasurement no establece cookies.
 * **Sesión**: La cookie caduca al final de la sesión del visitante.
-* **Segundos**: La cookie caduca después de que haya transcurrido el número de segundos especificado. Por ejemplo, si se establece este menú desplegable en [!UICONTROL Segundos] y se coloca `86400` en el campo personalizado, las cookies caducan exactamente después de 24 horas.
+* **Segundos**: La cookie caduca después de que haya transcurrido el número de segundos especificado. Por ejemplo, si establece esta lista desplegable en [!UICONTROL Segundos] y colocación `86400` en el campo personalizado fuerza a que las cookies caduquen exactamente después de 24 horas.
 
 ## s.cookieLifetime en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 

@@ -3,10 +3,10 @@ title: Preguntas más frecuentes sobre la migración a Adobe Analytics
 description: Conozca las respuestas a las preguntas más frecuentes sobre el cambio desde una plataforma de terceros a Adobe.
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 95%
+source-wordcount: '401'
+ht-degree: 74%
 
 ---
 
@@ -20,14 +20,14 @@ Si su organización insiste en tener datos históricos transferidos a Adobe, pó
 
 Para pasar sobre los datos históricos, recomendamos usar [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es) que puede traer cualquier fuente de datos omnicanal.
 
-**Estoy acostumbrado a un menú desplegable de segmentación en muchos de mis informes. ¿Cómo puedo recrear esta situación en [!UICONTROL Analysis Workspace]?**
+**Estoy acostumbrado a una lista desplegable de segmentación en muchos de mis informes. ¿Cómo puedo recrear esta situación en [!UICONTROL Analysis Workspace]?**
 
-Los filtros desplegables son una funcionalidad flexible y práctica de [!UICONTROL Analysis Workspace] que permite desglosar una segmentación. En un proyecto de Workspace:
+Los filtros desplegables son una función flexible y fiable de [!UICONTROL Analysis Workspace] que permite una lista desplegable de segmentación. En un proyecto de Workspace:
 
-1. Utilice Ctrl+clic (Windows) o Cmd+clic (Mac) en los componentes que desee incluir en la lista desplegable. No está limitado solo a segmentos; cualquier componente se puede incluir en un filtro desplegable.
+1. Utilice Ctrl+clic (Windows) o Cmd+clic (Mac) en los componentes que desee incluir en el filtro desplegable. No está limitado solo a segmentos; cualquier componente se puede incluir en un filtro desplegable.
 2. Arrastre el grupo de componentes al espacio de trabajo “Colocar un segmento aquí”. Antes de soltarlo, mantenga pulsada la tecla Mayús.
 
-Los usuarios que accedan a este proyecto de [!UICONTROL Workspace] pueden utilizar el desplegable para aplicar segmentos y otros componentes al proyecto. Consulte [Información general sobre paneles](/help/analyze/analysis-workspace/c-panels/panels.md) en la guía de herramientas de Adobe Analytics para obtener más información.
+Usuarios que acceden a esta [!UICONTROL Espacio de trabajo] ahora, el proyecto puede utilizar este filtro desplegable para aplicar segmentos u otros componentes al proyecto. Consulte [Información general sobre paneles](/help/analyze/analysis-workspace/c-panels/panels.md) en la guía de herramientas de Adobe Analytics para obtener más información.
 
 **Estoy acostumbrado a hacer clic en un elemento de dimensión para ver la navegación por jerarquía. ¿Cómo puedo replicar ese sencillo flujo de trabajo en Analysis Workspace?**
 
