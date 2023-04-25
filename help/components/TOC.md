@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
+source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '697'
 ht-degree: 95%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 95%
    + [Compatibilidad de dimensiones](dimensions/compatibility.md)
    + [Clasificación de todas las páginas de búsqueda](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
+   + [Nombre de bots](dimensions/bot-name.md)
    + [Altura del explorador](dimensions/browser-height.md)
    + [Tipo de explorador](dimensions/browser-type.md)
    + [Anchura del explorador](dimensions/browser-width.md)
@@ -31,7 +32,7 @@ ht-degree: 95%
    + [Profundidad de color](dimensions/color-depth.md)
    + [Tipo de conexión](dimensions/connection-type.md)
    + [Inclusión en la administración de consentimiento](dimensions/cm-opt-in.md)
-   + [Exclusión en la administración de consentimiento](dimensions/cm-opt-out.md)
+   + [Exclusión de la administración de consentimiento](dimensions/cm-opt-out.md)
    + [Compatibilidad con cookies](dimensions/cookie-support.md)
    + [Países](dimensions/countries.md)
    + [Vínculo personalizado](dimensions/custom-link.md)
@@ -111,6 +112,8 @@ ht-degree: 95%
    + [Promedio de vistas de página por visita](metrics/average-page-views-per-visit.md)
    + [Longitud promedio de la sesión](metrics/average-session-length.md)
    + [Promedio de tiempo en el sitio](metrics/average-time-on-site.md)
+   + [Ocurrencias de bots](metrics/bot-occurrences.md)
+   + [Vistas de páginas de bots](metrics/bot-page-views.md)
    + [Porcentaje de rebote](metrics/bounce-rate.md)
    + [Devoluciones](metrics/bounces.md)
    + [Adiciones al carro de compras](metrics/cart-additions.md)
