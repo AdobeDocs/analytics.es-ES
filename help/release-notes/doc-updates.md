@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '3930'
+source-wordcount: '3953'
 ht-degree: 97%
 
 ---
@@ -28,6 +28,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | **Abril de 2023** |  |
 | 2 nuevas guías de extremo para la API de Adobe Analytics 2.0 | <ul><li>[API de Dimension de Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API de métricas de Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | Segmentos de proyecto (segmentos específicos y rápidos) | Documentación optimizada sobre segmentos de proyectos y información duplicada eliminada. Los pasos para crear segmentos ad hoc ahora se combinan con los pasos para [creación de segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
+| Búsquedas dinámicas | Información adicional alrededor de [Búsquedas dinámicas](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) se añade. Anteriormente, la información solo existía para atributos móviles, que es una de varias búsquedas dinámicas. |
 | **Marzo de 2023** |  |
 | Compatibilidad del SDK web con Activity Map | Se ha actualizado [Implementación de Adobe Analytics](/help/implement/home.md) y [Habilitación de Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | Información general sobre variables de tráfico (props) | Se han añadido secciones y procedimientos paso a paso para aclarar y mejorar el contenido del artículo. Se ha combinado el contenido de un artículo titulado “Habilitar los informes de variables de tráfico” y luego se eliminó. Consulte [Información general sobre variables de tráfico (props)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |

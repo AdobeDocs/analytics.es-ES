@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Caracteres especiales en las fuentes de datos
 feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Cuando estos valores reservados van precedidos de una barra invertida, se envía
 | `\\n` | El valor “`\n`” se envió durante la recopilación de datos, omitido por Adobe. |
 | `\\` | El valor “`\`” se envió durante la recopilación de datos, omitido por Adobe. |
 
-Por ejemplo: Un visitante del sitio utiliza la búsqueda interna y busca “search\nstring”. Propague la eVar1 con “search\nstring” y envíe ese valor a Adobe. Adobe recibe esta visita y omite la nueva línea incluida en la cadena. El valor real colocado en los datos sin procesar es “search\\nstring”.
+Por ejemplo, un visitante del sitio utiliza la búsqueda interna y busca `"search\nstring"`. El eVar 1 se rellena con `"search\nstring"`y envíe ese valor a Adobe. Adobe recibe esta visita y omite la nueva línea incluida en la cadena. El valor real colocado en los datos sin procesar es `"search\\nstring"`.
 
 ## Caracteres especiales de las variables multivalor (events_list, products_list, mvvars)
 
