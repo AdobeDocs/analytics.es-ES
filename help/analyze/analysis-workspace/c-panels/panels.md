@@ -4,10 +4,10 @@ title: Resumen de paneles
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 6057262f95586c7ac63fc98d7c47c9867945f329
+source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 57%
+source-wordcount: '1202'
+ht-degree: 68%
 
 ---
 
@@ -100,21 +100,21 @@ Al hacer clic con el botón derecho en un filtro desplegable se proporcionan las
 
 [Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=es) para obtener más información sobre cómo añadir filtros desplegables al proyecto.
 
-### Filtros desplegables dinámicos
+<!--### Dynamic drop-down filters
 
-Los filtros desplegables dinámicos le permiten determinar los valores disponibles en función de los datos incluidos en el intervalo de informes del panel y los valores de otros filtros desplegables. Por ejemplo, puede crear dos desplegables dinámicos utilizando la variable [Países](/help/components/dimensions/countries.md) dimensión y [Ciudades](/help/components/dimensions/cities.md) dimensión. Al seleccionar un país de la lista [!UICONTROL Países] lista desplegable, [!UICONTROL Ciudades] la lista desplegable se ajusta dinámicamente para mostrar solo ciudades dentro de ese país.
+Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
 
-Este mismo concepto se aplica a todas las dimensiones; solo están visibles los elementos de dimensión que aparecen dentro del intervalo de fechas del panel y los filtros seleccionados. Los elementos de Dimension seleccionados en filtros desplegables estáticos afectan a los valores disponibles en los filtros desplegables dinámicos. Sin embargo, lo contrario no es cierto; Los elementos de Dimension seleccionados en los filtros desplegables dinámicos no afectan a los valores disponibles en los filtros desplegables estáticos.
+This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
 
-La selección manual de elementos de dimensión está disponible si se espera que un determinado elemento de dimensión se recopile en el futuro. También puede borrar un filtro desplegable dinámico para que no contenga un valor, lo que permite que otros filtros desplegables dinámicos contengan más valores. Select **[!UICONTROL Borrar todo]** para borrar la selección de todos los filtros desplegables de ese panel.
+Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all drop-down filters for that panel.
 
-Para crear un filtro desplegable dinámico:
+To create a dynamic drop-down filter:
 
-* Arrastre y suelte una sola dimensión en la zona desplegable del panel **mientras mantenga`[Shift]`**.
-* Los filtros desplegables dinámicos no están disponibles para métricas, segmentos o intervalos de fechas.
-* Haga clic con el botón derecho en un filtro desplegable y seleccione **[!UICONTROL Eliminar filtro]** para eliminarlo.
+* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
+* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
+* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
 
-Al hacer clic con el botón derecho en un filtro desplegable dinámico, se proporcionan las mismas opciones que los filtros desplegables estáticos.
+Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.-->
 
 ## Menú contextual {#right-click}
 
