@@ -3,7 +3,7 @@ title: IP y dominios utilizados por Adobe Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 07606370e0198901d409ae054f8c8ca6c793bbeb
+source-git-commit: b68d961ae68e5a803c46cee350724cfd5e20fc1e
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 73%
@@ -64,6 +64,8 @@ Si su organización prefiere permitir intervalos específicos de direcciones IP,
 | Japón | `66.117.31.0/24` |
 | Londres | `66.235.156.0/24` |
 | Londres | `185.34.188.0/22` |
+| Londres | `130.248.244.32/29` |
+| Londres | `130.248.244.40/29` |
 | Oregón | `66.235.132.0/22` |
 | Oregón | `130.248.150.0/24` |
 | Oregón | `130.248.160.0/21` |
@@ -84,9 +86,6 @@ Adobe Analytics utiliza los servicios web de Amazon como parte de su proceso de 
 | China | `52.80.44.16` |
 | China | `52.80.161.58` |
 | China | `140.179.173.142` |
-| Francia | `13.36.218.177` |
-| Francia | `15.188.95.229` |
-| Francia | `15.236.176.210` |
 
 La siguiente tabla incluye los bloques de direcciones IPv6 de AWS utilizados por el Adobe. Estos hosts **no** están incluidos en el intervalo de bloques acumulado anterior.
 
@@ -95,6 +94,7 @@ La siguiente tabla incluye los bloques de direcciones IPv6 de AWS utilizados por
 | Australia | `2406:da1c:406:1a00::/56` |
 | Australia | `2406:da1c:ce5:b400::/56` |
 | California | `2600:1f1c:366:d900::/56` |
+| Francia | `2a05:d012:706:d000::/56` |
 | India | `2406:da1a:f34:6a00::/56` |
 | Irlanda | `2a05:d018:309:600::/56` |
 | Japón | `2406:da14:b07:ab00::/56` |
