@@ -4,10 +4,10 @@ title: Filtrado y ordenación de tablas
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: af0c56a8911c5ea2fb49fb9625c68331a8517d81
+source-git-commit: c546058b83be79f4ffb94811727a12b30dd14033
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '683'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,10 @@ Las tablas de forma libre en Analysis Workspace son la base del análisis intera
 ## Filtrado de tablas
 
 Los filtros de Analysis Workspace le ayudan a mostrar la información más importante.
+
+>[!NOTE]
+>
+> Solo se pueden filtrar los elementos de dimensión dinámicos como se describe en esta sección. Los elementos de dimensión estáticos no se pueden filtrar. Para obtener más información, consulte [Elementos de dimensión dinámicos o estáticos en tablas improvisadas](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 Para filtrar datos en tablas de forma libre:
 
