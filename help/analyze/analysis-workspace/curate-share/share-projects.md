@@ -5,7 +5,7 @@ title: Compartir proyectos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: e3447bc278cfcf5553e46ceb298d9f4743f73328
+source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
 workflow-type: tm+mt
 source-wordcount: '1752'
 ht-degree: 55%
@@ -120,7 +120,7 @@ Puede conceder [acceso de solo lectura](/help/analyze/analysis-workspace/curate-
 >
 >* El administrador de Analytics puede deshabilitar la capacidad de compartir un proyecto de esta forma, tal como se describe en [Preferencias](/help/analyze/analysis-workspace/user-preferences.md). Si no puede compartir un proyecto como se describe en esta sección, su administrador de Analytics ha desactivado esta capacidad.
 >
->* Los proyectos con más de 14 visualizaciones expandidas no se pueden compartir con personas que no tienen acceso a Adobe Analytics.
+>* Los proyectos con más de 50 visualizaciones expandidas no se pueden compartir con personas que no tienen acceso a Adobe Analytics.
 >
 >* Los usuarios con los que comparta pueden ver los filtros que se aplicaron al proyecto durante [depuración](curate.md).
 > 

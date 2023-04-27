@@ -4,10 +4,10 @@ description: Interacción con elementos de dimensión dinámicos y estáticos en
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Cuando se coloca una dimensión en una tabla de forma libre, se devuelven filas 
 
 Por ejemplo, cuando arrastra la dimensión Tipo de explorador a la tabla, los elementos de dimensión Tipo de explorador principales (por ejemplo, Microsoft, Apple, Google, etc.) se devuelven de forma dinámica a las filas de la tabla. Si se sueltan en una columna, los 5 elementos de dimensión Tipo de explorador principales se devuelven de forma dinámica.
 
-Los elementos de dimensión dinámicos tienen la opción de filtro de fila y **no** tienen iconos de bloqueo y X.
+Los elementos de dimensión dinámicos tienen la opción de filtro de fila y **no** tienen iconos de bloqueo y X. Para obtener más información sobre la aplicación de filtros a tablas, consulte [Filtrado y ordenación de tablas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ![](assets/dynamic-items.png)
 
