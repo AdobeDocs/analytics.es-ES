@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '692'
 ht-degree: 95%
 
 ---
@@ -208,7 +208,6 @@ ht-degree: 95%
 + Grupos de informes virtuales {#virtual-report-suites}
    + [Resumen de los grupos de informes virtuales](vrs/vrs-about.md)
    + [Revisión de componentes de grupo de informes virtuales](vrs/vrs-components.md)
-   + [Compatibilidad con VRS en Mobile Services](vrs/vrs-mobile-services.md)
    + [Sesiones según el contexto](vrs/vrs-mobile-visit-processing.md)
    + [Procesamiento de tiempo de los informes](vrs/vrs-report-time-processing.md)
    + [Consideraciones de A4T](vrs/vrs-a4t.md)
