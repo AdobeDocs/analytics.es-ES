@@ -3,10 +3,10 @@ description: Ejemplos de etiquetas de privacidad de datos para variables de Adob
 title: Etiquetas de privacidad de datos para variables de Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 11cfba59a57ba3292bbfe936ec104d85bf2f7695
 workflow-type: tm+mt
-source-wordcount: '3558'
-ht-degree: 100%
+source-wordcount: '3578'
+ht-degree: 99%
 
 ---
 
@@ -161,6 +161,12 @@ El etiquetado de privacidad de datos afecta a cuatro clases amplias de variables
    <td colname="col2"> <p>Todas, excepto las clasificaciones </p> </td> 
    <td colname="col3"> <p>Todas </p> </td> 
    <td colname="col4"> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p>Variables de tráfico </p> </td> 
+   <td colname="col2"> <p>props de lista </p> </td> 
+   <td colname="col3"> <p>None/S1/S2 </p> </td> 
+   <td colname="col4"> <p>Las props de lista pueden contener varios valores y no se permiten como identificadores de privacidad.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Clasificaciones </p> </td> 
