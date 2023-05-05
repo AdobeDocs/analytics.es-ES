@@ -3,7 +3,7 @@ description: Conozca los conceptos básicos para crear un proyecto en Analysis W
 title: Crear proyectos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Crear proyectos
 
-[Proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) en Analysis Workspace le permite mostrar datos críticos para el negocio que se pueden compartir con las partes interesadas dentro o fuera de la organización.
+[Proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) en Analysis Workspace le permite ver los análisis críticos para el negocio que se pueden compartir con las partes interesadas dentro o fuera de su organización.
 
 Para obtener información general sobre cómo empezar a usar Analysis Workspace, consulte [Información general de Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 
