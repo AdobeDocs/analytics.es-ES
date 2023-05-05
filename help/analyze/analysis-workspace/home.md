@@ -4,9 +4,9 @@ description: Analysis Workspace es la principal herramienta de análisis de Adob
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: f3ba2c1b63b9b7fa0da4c0d3b784036abdd9df1b
+source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '749'
 ht-degree: 33%
 
 ---
@@ -90,11 +90,11 @@ Un análisis en Analysis Workspace se denomina [proyecto](/help/analyze/analysis
 
 Puede crear un proyecto en Analysis Workspace tal como se describe en [Crear proyectos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
-### Guardar y compartir proyectos
+### Guardar y compartir un proyecto
 
 A medida que crea un análisis en Analysis Workspace, su trabajo es [guardado automáticamente](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
-Cuando terminas de construir el proyecto y está reuniendo perspectivas procesables, está listo para ser consumido por otros. Puede compartir el proyecto con usuarios y grupos de su organización, o incluso con personas ajenas a su organización. Para obtener información sobre cómo compartir un proyecto, consulte [Compartir proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+Cuando termina de crear el proyecto y está recopilando perspectivas procesables, el proyecto está listo para ser consumido por otros. Puede compartir el proyecto con usuarios y grupos de su organización, o incluso con personas ajenas a su organización. Para obtener información sobre cómo compartir un proyecto, consulte [Compartir proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ### Administración de proyectos en Analysis Workspace
 
