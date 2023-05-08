@@ -3,10 +3,10 @@ title: Algoritmos de cifrado HTTPS admitidos
 description: Configuración de seguridad de cifrado TLS y tipos de certificado.
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
-source-git-commit: 299de03c05f6a8af4f6c5d98c76bae54eec4c088
+source-git-commit: 1ca7f750387fd9ae034d10ebf3e47190cf33d4b7
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 30%
+source-wordcount: '282'
+ht-degree: 25%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 30%
 
 ## Niveles de seguridad del cifrado
 
-Adobe ofrece dos niveles de seguridad de cifrado para satisfacer las distintas necesidades de seguridad de los clientes en la recopilación de datos de origen. Estos niveles determinan qué algoritmos de cifrado se admiten para conexiones HTTPS con nuestros servidores. Adobe revisa y actualiza regularmente el conjunto de algoritmos compatibles en función de las prácticas de seguridad actuales. Si desea cambiar la configuración de seguridad de cifrado, póngase en contacto con el Servicio de atención al cliente.
+Adobe ofrece dos niveles de seguridad de cifrado para satisfacer las distintas necesidades de seguridad de los clientes en la recopilación de datos de origen. Estos niveles determinan qué algoritmos de codificación se admiten para conexiones HTTPS con servidores de Adobe. Adobe revisa y actualiza regularmente el conjunto de algoritmos compatibles en función de las prácticas de seguridad actuales. Si desea cambiar la configuración de seguridad de cifrado, póngase en contacto con el Servicio de atención al cliente.
 
-&#39;Standard&#39; requiere TLS 1.2 o una versión posterior y al menos un cifrado de 128 bits. Está diseñado para proporcionar la mayor compatibilidad con dispositivos mientras se mantiene el cifrado seguro.
+&#39;Standard&#39; requiere TLS 1.2 o una versión posterior y al menos un cifrado de 128 bits. Está diseñado para proporcionar la mayor compatibilidad de dispositivos mientras se mantiene el cifrado seguro.
 
 El nivel de seguridad de cifrado &quot;alto&quot; requiere TLS 1.2 o una versión posterior y ya no es compatible con cifrados más débiles. Está diseñado para los clientes que desean el cifrado más seguro y no se preocupan por la compatibilidad con dispositivos antiguos.
 
