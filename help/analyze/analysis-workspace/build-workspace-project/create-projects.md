@@ -3,10 +3,10 @@ description: Conozca los conceptos básicos para crear un proyecto en Analysis W
 title: Crear proyectos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '685'
+ht-degree: 5%
 
 ---
 
@@ -26,7 +26,7 @@ En las secciones siguientes se describe cómo crear un proyecto y cómo empezar 
 
    +++Crear un proyecto en blanco
 
-   1. Seleccione el [!UICONTROL **Proyectos**] y, a continuación, seleccione [!UICONTROL **Crear proyecto**].
+   1. En el [!UICONTROL **Espacio de trabajo**] , seleccione [!UICONTROL **Proyectos**] a la izquierda de la página, seleccione [!UICONTROL **Crear proyecto**].
 
    1. Elija si desea crear un proyecto en blanco o un informe de valoración móvil en blanco
 
@@ -38,7 +38,7 @@ En las secciones siguientes se describe cómo crear un proyecto y cómo empezar 
 
    +++Crear un proyecto a partir de una plantilla
 
-   1. Seleccione el [!UICONTROL **Informes**] pestaña .
+   1. En el [!UICONTROL **Espacio de trabajo**] , seleccione [!UICONTROL **Informes**] en la parte izquierda de la página.
 
    1. Busque o vaya a la plantilla que desee utilizar y selecciónela cuando aparezca.
 
