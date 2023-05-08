@@ -3,10 +3,10 @@ description: Conozca los conceptos básicos para crear un proyecto en Analysis W
 title: Crear proyectos
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -101,7 +101,9 @@ Para añadir un componente:
 
 1. Busque el componente que desea añadir. Cuando aparezca en el carril izquierdo, arrástrelo a un panel o visualización dentro del proyecto.
 
-### Guardar y compartir el proyecto
+1. (Opcional) Comparta el proyecto como se describe en [Guardar y compartir el proyecto](#save-and-share-the-project).
+
+## Guardar y compartir el proyecto
 
 A medida que crea un análisis en Analysis Workspace, su trabajo es [guardado automáticamente](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
