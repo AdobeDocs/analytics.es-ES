@@ -3,10 +3,11 @@ description: El diccionario de datos de Analysis Workspace permite a los usuario
 title: Visualización del diccionario de datos
 feature: Components
 role: User, Admin
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+exl-id: 68f68ea4-f0a6-4937-bf8f-aecfa28572bb
+source-git-commit: 02b3dca057731dc56f3ee72e3ce33e30b2cb2a28
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 71%
+source-wordcount: '302'
+ht-degree: 65%
 
 ---
 
@@ -33,6 +34,10 @@ Para ver información acerca de un componente en el diccionario de datos:
    El tipo de componente se puede identificar mediante el color y el icono. **Dimension** ![Dimension](assets/dimension-icon.png) son naranjas, **Segmentos** ![Icono de segmento](assets/segment-icon.png) son azules, **Intervalos de fechas** ![Icono de intervalo de fechas](assets/date-range-icon.png) son púrpura y **Métricas** ![Icono de métrica](assets/default-metric-icon.png) son verdes. El icono del Adobe ![Icono de Adobe](assets/default-calc-metric-icon.png) indica una plantilla de métrica calculada o una plantilla de segmento y el icono de la calculadora ![Icono de calculadora](assets/calculated-metric-icon-created.png) indica una métrica calculada que fue creada por un administrador de Analytics en su organización.
 
 {{dd-filter-criteria}}
+
+1. (Opcional) Seleccione el **Ordenar** icono ![Icono Ordenar componentes](assets/component-sort-icon.png)y, a continuación, seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
+
+   {{components-sort-options}}
 
 1. En la lista de componentes, seleccione el componente que desee ver.
 

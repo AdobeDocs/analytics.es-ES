@@ -4,10 +4,10 @@ title: Resumen de componentes
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 6247f44aca1e6aba6cf02ed34a0e26ef5e182021
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 96%
+source-wordcount: '1120'
+ht-degree: 71%
 
 ---
 
@@ -60,18 +60,78 @@ Algunos ejemplos de intervalos de fechas son julio de 2019, [!UICONTROL Últimas
 ![](assets/date-ranges.png)
 
 
-## Acciones de componente {#actions}
+## Administración de componentes {#actions}
 
-Puede administrar componentes (de forma individual o seleccionando más de uno) directamente en el carril izquierdo. Haga clic con el botón secundario en un componente o haga clic en el icono de puntos Acción en la parte superior de la lista de componentes.
+Puede administrar componentes directamente en el carril izquierdo.
 
-![](assets/component-actions.png)
+1. Haga clic con el botón derecho en un componente.
 
-| Acción de componente | Descripción |
-|--- |--- |
-| Etiqueta | Organizar o administrar componentes aplicándoles etiquetas. A continuación, puede buscar por etiqueta en el carril izquierdo haciendo clic en el filtro o escribiendo #. Las etiquetas también actúan como filtros en los administradores de componentes. |
-| Favorito | Añadir el componente a la lista de favoritos. Al igual que las etiquetas, puede buscar por Favoritos en el carril izquierdo y filtrar con este criterio en los administradores de componentes. |
-| Aprobar | Marque los componentes como aprobados para indicar a los usuarios que el componente lo ha aprobado la organización. Al igual que las etiquetas, puede buscar por Aprobado en el carril izquierdo y filtrar con este criterio en los administradores de componentes. |
-| Compartir | Comparta componentes con usuarios de su organización. Esta opción solo está disponible para componentes personalizados, como segmentos o métricas calculadas. |
-| Eliminar | Elimine los componentes que ya no necesite. Esta opción solo está disponible para componentes personalizados, como segmentos o métricas calculadas. |
+   o
+
+   Seleccione un componente y, a continuación, seleccione el **Acción** icono (3 puntos) en la parte superior de la lista de componentes.
+
+   >[!TIP]
+   >
+   >   Para seleccionar varios componentes, mantenga pulsada la tecla Mayús o mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
+
+
+   ![](assets/component-actions.png)
+
+   | Acción de componente | Descripción |
+   |--- |--- |
+   | [!UICONTROL **Etiqueta**] | Organizar o administrar componentes aplicándoles etiquetas. A continuación, puede buscar por etiqueta en el carril izquierdo haciendo clic en el filtro o escribiendo #. Las etiquetas también actúan como filtros en los administradores de componentes. |
+   | [!UICONTROL **Favorito**] | Añadir el componente a la lista de favoritos. Al igual que las etiquetas, puede buscar por Favoritos en el carril izquierdo y filtrar con este criterio en los administradores de componentes. |
+   | [!UICONTROL **Aprobar**] | Marque los componentes como aprobados para indicar a los usuarios que el componente lo ha aprobado la organización. Al igual que las etiquetas, puede buscar por Aprobado en el carril izquierdo y filtrar con este criterio en los administradores de componentes. |
+   | [!UICONTROL **Compartir**] | Comparta componentes con usuarios de su organización. Esta opción solo está disponible para componentes personalizados, como segmentos o métricas calculadas. |
+   | [!UICONTROL **Eliminar**] | Elimine los componentes que ya no necesite. Esta opción solo está disponible para componentes personalizados, como segmentos o métricas calculadas. |
 
 Los componentes personalizados también se pueden administrar a través de sus respectivos administradores de componentes. Por ejemplo, el [Administrador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md).
+
+## Buscar, filtrar y ordenar la lista de componentes
+
+Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo de Analysis Workspace para localizar rápidamente un componente concreto.
+
+### Buscar en la lista de componentes
+
+1. Seleccione el **Componentes** icono ![Icono de componentes](assets/components-icon.png) en el carril izquierdo.
+
+1. En el campo de búsqueda, empiece a escribir el nombre del componente que desee utilizar en el proyecto.
+
+   El tipo de componente se puede identificar mediante el color y el icono. **Dimension** ![Dimension](assets/dimension-icon.png) son naranjas, **Segmentos** ![Icono de segmento](assets/segment-icon.png) son azules, **Intervalos de fechas** ![Icono de intervalo de fechas](assets/date-range-icon.png) son púrpura y **Métricas** ![Icono de métrica](assets/default-metric-icon.png) son verdes. El icono del Adobe ![Icono de Adobe](assets/default-calc-metric-icon.png) indica una plantilla de métrica calculada o una plantilla de segmento y el icono de la calculadora ![Icono de calculadora](assets/calculated-metric-icon-created.png) indica una métrica calculada que fue creada por un administrador de Analytics en su organización.
+
+1. Seleccione el componente cuando aparezca en la lista desplegable.
+
+### Filtrar la lista de componentes
+
+1. Seleccione el **Componentes** icono ![Icono de componentes](assets/components-icon.png) en el carril izquierdo.
+
+1. Seleccione el **Filtro** icono ![Icono de filtro del diccionario de datos](assets/components-filter-icon.png).
+
+   o
+
+   Escriba el signo de almohadilla (#) en el campo de búsqueda.
+
+1. Seleccione cualquiera de las siguientes opciones de filtro para filtrar la lista de componentes:
+
+   | Opción | Función |
+   |---------|----------|
+   | [!UICONTROL **Aprobado**] | Mostrar solo los componentes marcados como Aprobado por un administrador. |
+   | [!UICONTROL **Favoritos**] | Mostrar solo los componentes que se encuentran en la lista de Favoritos. Para obtener información acerca de cómo añadir componentes a la lista de favoritos, consulte [Información general sobre componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+   | [!UICONTROL **Dimensiones**] | Mostrar solo los componentes que son dimensiones. |
+   | [!UICONTROL **Métricas**] | Mostrar solo los componentes que son métricas. |
+   | [!UICONTROL **Segmentos**] | Mostrar solo los componentes que son segmentos. <!--this is Filters in CJA--> |
+   | [!UICONTROL **Intervalos de fechas**] | Mostrar solo los componentes que son intervalos de fechas. |
+   | [!UICONTROL **Mostrar todo**] | Mostrar todos los componentes. Esta opción solo está disponible para administradores. |
+   | [!UICONTROL **No aprobado**] | Mostrar solo los componentes que aún no están marcados como Aprobado por un administrador. Como administrador, resulta útil a la hora de identificar los componentes que requieren su revisión y aprobación. Esta opción solo está disponible para administradores. |
+
+1. (Opcional) Para perfeccionar la lista, puede ordenar la lista de componentes, tal como se describe en [Ordenar la lista de componentes](#sort-the-component-list).
+
+### Ordenar la lista de componentes
+
+1. (Opcional) Aplique cualquier filtro a la lista de componentes, tal como se describe en [Filtrar la lista de componentes](#filter-the-component-list).
+
+1. Seleccione el **Componentes** icono ![Icono de componentes](assets/components-icon.png) en el carril izquierdo.
+
+1. Seleccione el **Ordenar** icono ![Icono Ordenar componentes](assets/component-sort-icon.png)y, a continuación, seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
+
+   {{components-sort-options}}
