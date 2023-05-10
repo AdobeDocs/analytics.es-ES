@@ -4,10 +4,10 @@ title: Filtrado y ordenación de tablas
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: c546058b83be79f4ffb94811727a12b30dd14033
+source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 95%
+source-wordcount: '811'
+ht-degree: 77%
 
 ---
 
@@ -23,19 +23,40 @@ Los filtros de Analysis Workspace le ayudan a mostrar la información más impor
 >
 > Solo se pueden filtrar los elementos de dimensión dinámicos como se describe en esta sección. Los elementos de dimensión estáticos no se pueden filtrar. Para obtener más información, consulte [Elementos de dimensión dinámicos o estáticos en tablas improvisadas](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
+### Excluir rápidamente filas específicas de una tabla
+
+Puede excluir rápidamente filas específicas de la tabla sin tener que abrir el cuadro de diálogo Filtro .
+
+>[!NOTE]
+>
+>Cuando excluye filas como se describe en esta sección, una [!UICONTROL **No es igual a**] se aplica automáticamente en la variable [**[!UICONTROL Filtro avanzado]**](#apply-a-simple-or-advanced-filter) diálogo.
+
+Para excluir rápidamente filas específicas de una tabla improvisada:
+
+1. Pase el ratón sobre la fila que quiera excluir y, a continuación, seleccione el icono x .
+
+   Mantenga pulsada la tecla Mayús para seleccionar un rango de filas o mantenga pulsada la tecla Comando (en Mac) o la tecla Ctrl (en Windows) para seleccionar varias filas.
+
+### Aplicar un filtro simple o avanzado a una tabla
+
 Para filtrar datos en tablas de forma libre:
 
-1. En una tabla de forma libre, pase el ratón sobre la columna que contiene los datos que desea filtrar. <!--only some types of columns show the filter... Which? Just Dimensions?-->
+1. Pase el ratón sobre la columna que contiene los datos que desea filtrar. <!--only some types of columns show the filter... Which? Just Dimensions?-->
 
 1. Seleccione el icono de **Filtro** cuando aparezca.
 
    ![Icono de filtro en una tabla](assets/table-filter-icon.png)
 
-1. En el campo [!UICONTROL **Buscar palabra o frase**], especifique una palabra o frase por la que desee filtrar. Solo se muestran las filas que contienen la palabra o la frase exacta especificada.
+   Las opciones disponibles son las siguientes:
 
-1. (Opcional) Para filtrar por diferentes criterios o por varios criterios, seleccione [!UICONTROL **Mostrar avanzadas**].
+   | Opción | Función |
+   |---------|----------|
+   | [!UICONTROL **Palabra o frase de búsqueda**] | Especifique una palabra o frase por la que desee filtrar. Solo se muestran las filas que contienen la palabra o la frase exacta especificada. |
+   | [!UICONTROL **Incluir no especificado (ninguno)**] | Seleccione esta opción para mostrar los datos de la tabla que no estén dentro de ninguna de sus dimensiones. <!--what is this?--> |
 
-   Las opciones disponibles son las siguientes
+1. (Opcional) Para filtrar por diferentes criterios o por varios criterios, seleccione [!UICONTROL **Filtro avanzado**].
+
+   Las siguientes opciones de filtro avanzado están disponibles:
 
    | Opción | Función |
    |---------|----------|
