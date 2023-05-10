@@ -4,10 +4,10 @@ title: Guía del usuario ejecutivo sobre paneles de Adobe Analytics
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 98%
+source-wordcount: '1276'
+ht-degree: 92%
 
 ---
 
@@ -58,9 +58,15 @@ Para usar los paneles:
 
 1. Seleccione una empresa. Después de iniciar sesión en los paneles, aparecerá la pantalla **[!UICONTROL Seleccione una compañía]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece. Pulse el nombre de la empresa asociada con el informe de valoración compartido con usted.
 
-1. A continuación, la lista informes de valoración mostrará todos los informes de valoración que se han compartido con usted. Pulse el informe de valoración que desee ver.
+   La lista de informes de valoración muestra todos los informes de valoración que se han compartido con usted.
 
-   ![Seleccione una empresa](assets/nextseq.png)
+1. Pulse el informe de valoración que desee ver.
+
+   Si tiene acceso a más de una organización en un inicio de sesión, todos los informes de valoración de sus organizaciones estarán disponibles en la lista de informes de valoración.
+
+   Puede ordenar la lista del informe de valoración según el título del informe de valoración, el nombre de la organización o los datos vistos más recientemente. Incluso puede buscar un informe de valoración específico.
+
+   ![Seleccione una empresa](assets/mobile-home-screen.png)
 
    Si inicia sesión y ve un mensaje que indica que no se ha compartido nada, compruebe lo siguiente con su gestor de datos:
 
