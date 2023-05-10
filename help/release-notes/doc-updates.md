@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 08185446c031582bfea21cb35cbfa365fa8f4239
 workflow-type: tm+mt
-source-wordcount: '4008'
-ht-degree: 97%
+source-wordcount: '4121'
+ht-degree: 95%
 
 ---
 
@@ -28,6 +28,9 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | **Mayo de 2023** |  |
 | Información general de Analysis Workspace | Actualizado [Información general de Analysis Workspace](/help/analyze/analysis-workspace/home.md) para incluir información general más general y vínculos a contenido relevante. |
 | Crear proyectos | Se ha creado un artículo nuevo que explica en detalle cómo [Crear proyectos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) en Analysis Workspace. |
+| Ordenar componentes en el carril izquierdo | Se ha añadido información sobre la ordenación de la lista de componentes en el carril izquierdo. Consulte la sección &quot;Buscar, filtrar y ordenar la lista de componentes&quot; en [Información general sobre componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| Eliminar filas que contienen dimensiones dinámicas de una tabla improvisada | Se ha añadido información sobre cómo eliminar rápidamente filas específicas que contienen dimensiones dinámicas mediante el icono x. Consulte la sección &quot;Excluir rápidamente filas específicas de una tabla&quot; en [Filtrado y ordenación de tablas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| Botón para añadir una visualización dentro de un panel | Se ha añadido información sobre un nuevo botón en la parte inferior de cada panel en Analysis Workspace que le permite agregar rápidamente una visualización. Consulte la sección &quot;Añadir visualizaciones a un panel&quot; en [Resumen de las visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **Abril de 2023** |  |
 | Transferir recursos de usuario y establecer caducidades de cuenta | Se ha añadido información sobre cómo [transferir recursos de usuario y establecer caducidades de cuenta](/help/admin/admin/user-management2/users-assets.md). |
 | 2 nuevas guías de punto final para la API de Adobe Analytics 2.0 | <ul><li>[API de dimensiones de Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API de métricas de Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
