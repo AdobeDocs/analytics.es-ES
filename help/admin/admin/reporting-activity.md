@@ -4,18 +4,16 @@ title: Administrador de actividades de creación de informes
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: 646eb5aeefb17ded89a7041df6f6ad927b799f3f
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 95%
 
 ---
 
 # Administrador de actividades de creación de informes
 
->[!NOTE]
->
->Actualmente, esta funcionalidad está en la fase de pruebas beta.
+{{release-limited-testing}}
 
 El [!UICONTROL Administrador de actividades de creación de informes] le permite ver la capacidad de creación de informes de cada grupo de informes de su organización. Como administrador, le ofrece una visibilidad detallada del consumo de creación de informes y le ayuda a diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad de la creación de informes.
 
@@ -64,13 +62,13 @@ Para ver los detalles del grupo de informes que desee, haga clic en el vínculo 
 
 ![grupo de informes](/help/admin/admin/assets/indiv-report-ste.png)
 
-### Gráfico de líneas
+### Gráfico de líneas {#line}
 
 El gráfico de líneas muestra la actividad de creación de informes de un grupo de informes seleccionado durante las últimas 2 horas.
 
 * El eje X muestra los datos de capacidad de creación de informes de las últimas 2 horas.
-* El eje Y muestra el tiempo de espera promedio para una consulta, en segundos.
-* Puede pasar el ratón sobre el gráfico de líneas para ver los puntos en el tiempo y el tiempo de espera promedio en ese instante.
+* El eje Y muestra la capacidad de uso de informes % por minuto para el grupo de informes seleccionado.
+* Puede situarse sobre el gráfico de líneas para ver los puntos en el tiempo en los que el porcentaje de capacidad de uso representado será el % más alto para ese minuto.
 
    ![detalle](/help/admin/admin/assets/detail.png)
 
@@ -80,7 +78,7 @@ Puede filtrar la tabla por aplicación (consulte la lista en la tabla siguiente)
 
 ![filtro](/help/admin/admin/assets/filter.png)
 
-### Números de resumen
+### Números de resumen {#summary}
 
 ![filtro](/help/admin/admin/assets/summary_numbers.png)
 
@@ -96,7 +94,7 @@ Los números de resumen muestran la siguiente información:
 
 {style="table-layout:auto"}
 
-### Tabla
+### Tabla con detalles del grupo de informes {#details}
 
 La tabla detallada a continuación muestra los detalles del grupo de informes.
 
@@ -116,7 +114,7 @@ La tabla detallada a continuación muestra los detalles del grupo de informes.
 
 {style="table-layout:auto"}
 
-## Cancelar solicitudes de creación de informes
+## Cancelar solicitudes de creación de informes {#cancel}
 
 Para cancelar una solicitud
 
@@ -133,7 +131,7 @@ Los usuarios de aplicaciones de Workspace, por ejemplo, verán aparecer el sigui
 
 ![aviso-cancelar-usuario](/help/admin/admin/assets/cancel-user-facing.png)
 
-## Preguntas frecuentes
+## Preguntas frecuentes {#faq}
 
 | Pregunta | Respuesta |
 | --- | --- |
