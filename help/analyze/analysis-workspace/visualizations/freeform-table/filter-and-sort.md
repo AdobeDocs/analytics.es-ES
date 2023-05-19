@@ -4,10 +4,10 @@ title: Filtrado y ordenación de tablas
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 77%
+source-wordcount: '825'
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ Puede excluir rápidamente filas específicas de la tabla sin tener que abrir el
 
 >[!NOTE]
 >
->Cuando excluye filas como se describe en esta sección, una [!UICONTROL **No es igual a**] se aplica automáticamente en la variable [**[!UICONTROL Filtro avanzado]**](#apply-a-simple-or-advanced-filter) diálogo.
+>Cuando excluye filas como se describe en esta sección, una [!UICONTROL **Excluir siempre elementos**] se aplica automáticamente en el cuadro de diálogo de filtro avanzado. (Puede ver la regla aplicada seleccionando el icono Filtro y, a continuación, [**[!UICONTROL Mostrar avanzado]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
 Para excluir rápidamente filas específicas de una tabla improvisada:
 
@@ -54,7 +54,7 @@ Para filtrar datos en tablas de forma libre:
    | [!UICONTROL **Palabra o frase de búsqueda**] | Especifique una palabra o frase por la que desee filtrar. Solo se muestran las filas que contienen la palabra o la frase exacta especificada. |
    | [!UICONTROL **Incluir no especificado (ninguno)**] | Seleccione esta opción para mostrar los datos de la tabla que no estén dentro de ninguna de sus dimensiones. <!--what is this?--> |
 
-1. (Opcional) Para filtrar por diferentes criterios o por varios criterios, seleccione [!UICONTROL **Filtro avanzado**].
+1. (Opcional) Para filtrar por diferentes criterios o por varios criterios, seleccione [!UICONTROL **Mostrar avanzadas**].
 
    Las siguientes opciones de filtro avanzado están disponibles:
 
