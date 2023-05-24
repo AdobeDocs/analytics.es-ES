@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 50983b3cdc6ee003593eacc5b9a158eae761e4a5
+source-git-commit: 5a555c1e2da1659086c0f244e41894192e592d19
 workflow-type: tm+mt
-source-wordcount: '4163'
-ht-degree: 96%
+source-wordcount: '4191'
+ht-degree: 95%
 
 ---
 
@@ -26,13 +26,14 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Mayo de 2023** |  |
-| Asignación de IP a geolocalización mejorada | Creación de un tema en [Preguntas frecuentes](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
-| Administrador de actividades de creación de informes | Se ha actualizado esta documentación beta, específicamente la sección de [Visualización de la actividad de informes para grupos de informes individuales](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
+| Iconos de espectro | Se han reemplazado, cuando corresponde, las capturas de pantalla de los iconos de la interfaz de usuario de en la documentación de con referencias a los iconos equivalentes en [Sistema de diseño de espectro de Adobe](https://spectrum.adobe.com/page/icons/). |
+| Asignación de IP a geolocalización mejorada | Se ha creado un tema en [Preguntas frecuentes](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
+| Administrador de actividades de creación de informes | Se ha actualizado esta documentación beta, específicamente la sección sobre [Visualización de la actividad de informes para grupos de informes individuales](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
 | Información general de Analysis Workspace | Se ha actualizado la [información general de Analysis Workspace](/help/analyze/analysis-workspace/home.md) para incluir información más general y vínculos a contenido relevante. |
 | Crear proyectos | Se ha creado un nuevo artículo que explica en detalle cómo [Crear proyectos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) en Analysis Workspace. |
-| Ordenar componentes en el carril izquierdo | Se ha añadido información sobre la ordenación de la lista de componentes en el carril izquierdo. Consulte la sección &quot;Buscar, filtrar y ordenar la lista de componentes&quot; en [Información general sobre componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
-| Eliminación de filas que contienen dimensiones dinámicas de una tabla de forma libre | Se ha añadido información sobre cómo eliminar rápidamente filas específicas que contienen dimensiones dinámicas mediante el icono x. Consulte la sección &quot;Excluir rápidamente filas específicas de una tabla&quot; en [Filtrado y ordenación de tablas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
-| Botón para añadir una visualización dentro de un panel | Se ha añadido información sobre un nuevo botón en la parte inferior de cada panel en Analysis Workspace que le permite agregar rápidamente una visualización. Consulte la sección &quot;Añadir visualizaciones a un panel&quot; en [Resumen de las visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
+| Ordenar componentes en el carril izquierdo | Se ha añadido información sobre la ordenación de la lista de componentes en el carril izquierdo. Consulte la sección Buscar, filtrar y ordenar la lista de componentes en [Resumen de componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| Eliminación de filas que contienen dimensiones dinámicas de una tabla de forma libre | Se ha añadido información acerca de cómo eliminar rápidamente filas específicas que contienen dimensiones dinámicas mediante el icono x. Consulte la sección Excluir rápidamente filas específicas de una tabla en [Filtrado y ordenación de tablas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| Botón para añadir una visualización dentro de un panel | Se ha agregado información sobre un nuevo botón en la parte inferior de cada panel en Analysis Workspace que le permite agregar rápidamente una visualización. Consulte la sección &quot;Añadir visualizaciones a un panel&quot; en [Información general sobre visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **Abril de 2023** |  |
 | Transferir recursos de usuario y establecer caducidades de cuenta | Se ha añadido información sobre cómo [transferir recursos de usuario y establecer caducidades de cuenta](/help/admin/admin/user-management2/users-assets.md). |
 | 2 nuevas guías de punto final para la API de Adobe Analytics 2.0 | <ul><li>[API de dimensiones de Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API de métricas de Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
