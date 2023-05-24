@@ -3,10 +3,10 @@ description: Los segmentos le permiten identificar subconjuntos de visitantes ba
 title: Acerca de los segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 87%
+source-wordcount: '1189'
+ht-degree: 86%
 
 ---
 
@@ -86,9 +86,9 @@ En este vídeo se proporciona una breve descripción sobre qué son los contened
 
 Para acceder al Generador de segmentos, haga lo siguiente:
 
-* Mostrar un informe existente y hacer clic en el icono de Segmentos ![icono de Segmento](assets/segment_icon.png) en el menú de navegación de la izquierda. Haga clic en **[!UICONTROL Agregar]** en el carril de segmentos que se muestra o bien
+* Mostrar un informe existente y hacer clic en el icono de Segmentos ![icono de Segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) en el menú de navegación de la izquierda. Haga clic en **[!UICONTROL Agregar]** en el carril de segmentos que se muestra o bien
 
-* En la parte superior del Administrador de segmentos, haga clic en **[!UICONTROL + Agregar]**.  ![Botón Agregar](assets/add_button.png)
+* En la parte superior del Administrador de segmentos, haga clic en **[!UICONTROL + Agregar]**.  ![Botón Agregar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
    o
 

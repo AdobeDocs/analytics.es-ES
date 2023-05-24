@@ -5,7 +5,7 @@ uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%
@@ -18,13 +18,9 @@ Puede proteger todas las solicitudes en un libro contra las solicitudes para añ
 
 Como analista, bloquear un libro le permite proteger sus solicitudes de libros contra la manipulación por parte de otros usuarios dentro de su organización. Al mismo tiempo, estos usuarios aún pueden actualizar las solicitudes del libro.
 
-Para proteger un libro contra la edición, haga clic en **[!UICONTROL Bloqueado]** en la barra de herramientas de Report Builder ( ![](assets/locked_icon.png)
+Para proteger un libro contra la edición, haga clic en **[!UICONTROL Bloqueado]** en la barra de herramientas de Report Builder ( ![](assets/locked_icon.png)).
 
-).
-
-Para desproteger un libro, haga clic en **[!UICONTROL Desbloqueado]** ( ![](assets/unlocked_icon.png)
-
-).
+Para desproteger un libro, haga clic en **[!UICONTROL Desbloqueado]** ( ![](assets/unlocked_icon.png)).
 
 Puede desbloquear un libro bloqueado si cuenta con uno de los siguientes permisos:
 

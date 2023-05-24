@@ -5,7 +5,7 @@ uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 feature: Activity Map
 role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Los complementos del explorador de Activity Map:
 1. Vuelva a la barra de direcciones de Chrome y escriba `chrome://extensions`.
 1. Active la casilla Modo de desarrollador.
 1. Haga clic en el botón Cargar extensión descomprimida y seleccione la carpeta descomprimida en la ventana emergente.
-1. Si ve un icono de Adobe Analytics ![](assets/an_icon.png){width="70px"} nuevo en la barra de herramientas, significa que la descarga se ha realizado correctamente. Ahora puede [iniciar Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) desde la página.
+1. Si ve un icono de Adobe Analytics  nuevo en la barra de herramientas, significa que la descarga se ha realizado correctamente. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Ahora puede [iniciar Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) desde la página.
 
 ## Instalación del complemento de Activity Map en Firefox {#section_1F69D3D22DB34D6992747B1A62C1D2DA}
 
@@ -47,7 +47,7 @@ Los complementos del explorador de Activity Map:
 1. Haga clic en **[!UICONTROL Instalar ahora]**.
 1. Haga clic en el icono **[!UICONTROL Abrir menú]** en la parte superior derecha y seleccione **[!UICONTROL Complementos]**. ![](assets/firefox_install3.png){width="250px"}
 1. Activity Map debe aparecer como uno de los complementos de Firefox.
-1. Si ve un icono de Adobe Analytics ![](assets/an_icon.png) nuevo en la barra de herramientas, significa que la descarga se ha realizado correctamente. Ahora puede [iniciar Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) desde la página.
+1. Si ve un icono de Adobe Analytics  nuevo en la barra de herramientas, significa que la descarga se ha realizado correctamente. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Ahora puede [iniciar Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) desde la página.
 
 ## Instalación del complemento de Activity Map en Internet Explorer {#section_1A33705D7F784C4A88C9026ADC860FB8}
 

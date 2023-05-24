@@ -3,10 +3,10 @@ description: 'Describe las dos formas principales de encontrar sus métricas: cl
 title: Buscar métricas
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '246'
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ Describe las dos formas principales de encontrar sus métricas: clasificación y
 
 ## Clasificación {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-Cuando abra un informe y haga clic en el icono Métricas ![](assets/metrics_icon.png) que encontrará a la izquierda para que se muestre el carril Métricas, verá cuatro opciones de clasificación en la lista desplegable **[!UICONTROL Clasificar por]** del Selector de métricas:
+Cuando abra un informe y haga clic en el icono Métricas  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)) a la izquierda de un informe para que aparezca el carril Métricas, el **[!UICONTROL Ordenar por]** La lista desplegable del Selector de métricas muestra cuatro opciones de ordenación:
 
 ![](assets/cm_sort.png)
 

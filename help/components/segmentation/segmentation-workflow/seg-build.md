@@ -3,10 +3,10 @@ description: El Generador de segmentos proporciona un lienzo al que arrastrar y 
 title: Generación de segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '2046'
-ht-degree: 100%
+source-wordcount: '2054'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Existen varias formas de acceder al Generador de segmentos:
 
 * **Navegación superior de Analytics**: Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]**.
 * **[!UICONTROL Analysis Workspace]**: Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, abra un proyecto y haga clic en **[!UICONTROL + Nuevo]** > **[!UICONTROL Crear segmento]**.
-* **[!UICONTROL Reports &amp; Analytics]** Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Informes]**, abra un informe existente y haga clic en el icono Segmentos ![](assets/segment_icon.png) en la navegación izquierda; a continuación, haga clic en **[!UICONTROL Agregar]**.
+* **[!UICONTROL Reports &amp; Analytics]** Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Informes]**, abra un informe existente y haga clic en el icono Segmentos ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) en la navegación izquierda; a continuación, haga clic en **[!UICONTROL Agregar]**.
 * **[!UICONTROL Report Builder]**: [Añadir o editar segmentos en Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=es).
 
 ## Criterios del Creador {#section_F61C4268A5974C788629399ADE1E6E7C}

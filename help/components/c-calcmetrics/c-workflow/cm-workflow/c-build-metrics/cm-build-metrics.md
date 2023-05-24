@@ -3,10 +3,10 @@ description: El Creador de métricas calculadas proporciona un lienzo en el que 
 title: Crear métricas
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '972'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
 
 * Haga clic en **[!UICONTROL + Agregar]**, en la parte superior del [Administrador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), o bien
 
-* Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Informes]**, abra cualquier informe, haga clic en el icono Métricas ![](assets/metrics_icon.png) para subir el riel de Métricas y, por último, haga clic en **[!UICONTROL Agregar]**.
+* Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Informes]**, abra cualquier informe, haga clic en el icono Métricas ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) para subir el riel de Métricas y, por último, haga clic en **[!UICONTROL Agregar]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -67,7 +67,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Resumen </span> </td> 
-   <td colname="col3"> <p>La fórmula de <span class="uicontrol">Resumen</span> se actualiza cada vez que realice cambios en la definición de la métrica. Esta fórmula también se muestra en el carril de métrica a la izquierda, al pasar el ratón por encima de una métrica y hacer clic en el icono <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" />. </p> </td> 
+   <td colname="col3"> <p>La fórmula de <span class="uicontrol">Resumen</span> se actualiza cada vez que realice cambios en la definición de la métrica. Esta fórmula también se muestra en el carril de métrica a la izquierda, al pasar el ratón por encima de una métrica y hacer clic en el icono <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" />. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Definición </span> </td> 
@@ -79,7 +79,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Operador </span> </td> 
-   <td colname="col3"> <p>Dividido entre ( <img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) es el operador predeterminado, además de los operadores +, - y x. </p> </td> 
+   <td colname="col3"> <p>Dividido entre ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) es el operador predeterminado, además de los operadores +, - y x. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Vista previa </span> </td> 

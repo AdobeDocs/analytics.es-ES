@@ -4,10 +4,10 @@ title: Administración de segmentos (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '922'
+ht-degree: 98%
 
 ---
 
@@ -86,18 +86,18 @@ Los filtros disponibles incluyen:
 
 Añadir un control de segmento le permite conmutar segmentos dentro de un libro en lugar de tener que ir al Asistente para solicitudes.
 
-1. Haga clic en el icono de Control (![](assets/control_icon.png)) junto al menú desplegable de segmento.
+1. Haga clic en el icono Control ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) junto a la lista desplegable de segmentos.
 
    ![](assets/seg_control.png)
 
-1. Marque todos los segmentos que desee que aparezcan en el control de segmentos o marque **[!UICONTROL Seleccionar todo]**.
-1. Tenga en cuenta la opción para **[!UICONTROL Actualizar automáticamente las solicitudes vinculadas al seleccionar el elemento]**.
+2. Marque todos los segmentos que desee que aparezcan en el control de segmentos o marque **[!UICONTROL Seleccionar todo]**.
+3. Tenga en cuenta la opción para **[!UICONTROL Actualizar automáticamente las solicitudes vinculadas al seleccionar el elemento]**.
 
    * Si esta opción está activada, se actualizan todas las solicitudes que utilizan este control.
    * Si no está activada, los parámetros de solicitud asociados se actualizan, pero las solicitudes no se actualizan.
 
-1. Especifique la ubicación de la celda superior izquierda del control de segmentos.
-1. Haga clic en **[!UICONTROL Aceptar]** y aparecerá el control de segmento en la ubicación especificada.
+4. Especifique la ubicación de la celda superior izquierda del control de segmentos.
+5. Haga clic en **[!UICONTROL Aceptar]** y aparecerá el control de segmento en la ubicación especificada.
 
    ![](assets/seg_control2.png)
 

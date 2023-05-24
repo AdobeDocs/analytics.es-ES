@@ -4,10 +4,10 @@ title: Filtrado y ordenación de tablas
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 78%
+source-wordcount: '841'
+ht-degree: 76%
 
 ---
 
@@ -21,21 +21,21 @@ Los filtros de Analysis Workspace le ayudan a mostrar la información más impor
 
 >[!NOTE]
 >
-> Solo se pueden filtrar los elementos de dimensión dinámicos como se describe en esta sección. Los elementos de dimensión estáticos no se pueden filtrar. Para obtener más información, consulte [Elementos de dimensión dinámicos o estáticos en tablas improvisadas](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+> Solo se pueden filtrar los elementos de dimensión dinámicos como se describe en esta sección. Los elementos de dimensión estáticos no se pueden filtrar. Para obtener más información, consulte [Elementos de dimensión dinámicos o estáticos en tablas de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 ### Excluir rápidamente filas específicas de una tabla
 
-Puede excluir rápidamente filas específicas de la tabla sin tener que abrir el cuadro de diálogo Filtro .
+Puede excluir rápidamente filas específicas de la tabla sin necesidad de abrir el cuadro de diálogo Filtro.
 
 >[!NOTE]
 >
->Cuando excluye filas como se describe en esta sección, una [!UICONTROL **Excluir siempre elementos**] se aplica automáticamente en el cuadro de diálogo de filtro avanzado. (Puede ver la regla aplicada seleccionando el icono Filtro y, a continuación, [**[!UICONTROL Mostrar avanzado]**](#apply-a-simple-or-advanced-filter-to-a-table).)
+>Cuando excluya filas como se describe en esta sección, [!UICONTROL **Excluir elementos siempre**] La regla de se aplica automáticamente en el cuadro de diálogo filtro avanzado. (Puede ver la regla aplicada seleccionando el icono Filtrar y, a continuación, [**[!UICONTROL Mostrar avanzadas]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
-Para excluir rápidamente filas específicas de una tabla improvisada:
+Para excluir rápidamente filas específicas de una tabla de forma libre:
 
-1. Pase el ratón sobre la fila que quiera excluir y, a continuación, seleccione el icono x .
+1. Pase el ratón sobre la fila que quiera excluir y luego seleccione el icono x.
 
-   Mantenga pulsada la tecla Mayús para seleccionar un rango de filas o mantenga pulsada la tecla Comando (en Mac) o la tecla Ctrl (en Windows) para seleccionar varias filas.
+   Mantenga pulsada la tecla Mayús para seleccionar un rango de filas, o bien mantenga pulsada la tecla Comando (en Mac) o Ctrl (en Windows) para seleccionar varias filas.
 
 ### Aplicar un filtro simple o avanzado a una tabla
 
@@ -51,12 +51,12 @@ Para filtrar datos en tablas de forma libre:
 
    | Opción | Función |
    |---------|----------|
-   | [!UICONTROL **Palabra o frase de búsqueda**] | Especifique una palabra o frase por la que desee filtrar. Solo se muestran las filas que contienen la palabra o la frase exacta especificada. |
+   | [!UICONTROL **Buscar palabra o frase**] | Especifique una palabra o frase por la que desee filtrar. Solo se muestran las filas que contienen la palabra o la frase exacta especificada. |
    | [!UICONTROL **Incluir no especificado (ninguno)**] | Seleccione esta opción para mostrar los datos de la tabla que no estén dentro de ninguna de sus dimensiones. <!--what is this?--> |
 
 1. (Opcional) Para filtrar por diferentes criterios o por varios criterios, seleccione [!UICONTROL **Mostrar avanzadas**].
 
-   Las siguientes opciones de filtro avanzado están disponibles:
+   Estas son las opciones de filtro avanzadas disponibles:
 
    | Opción | Función |
    |---------|----------|
@@ -67,19 +67,19 @@ Para filtrar datos en tablas de forma libre:
 
 1. Seleccione [!UICONTROL **Aplicar**] para filtrar los datos.
 
-   El icono de **filtro** de la ![Tabla filtrada](assets/table-filter-blue-icon.png) se vuelve azul cuando se aplica un filtro a la tabla.
+   El icono de **filtro** de la ![Tabla filtrada](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) se vuelve azul cuando se aplica un filtro a la tabla.
 
 ## Orden de tablas
 
 Puede ordenar los datos de una tabla de forma libre según cualquier columna de Analysis Workspace que sea una métrica.
 
-El icono de flecha hacia abajo en la ![columna de tabla ordenada](assets/table-sort-arrow-icon.png) es visible en el encabezado de la columna por la que se ordenan actualmente los datos.
+El icono de flecha hacia abajo en la ![columna de tabla ordenada](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) es visible en el encabezado de la columna por la que se ordenan actualmente los datos.
 
 Para ordenar los datos de una tabla de forma libre por una columna concreta:
 
 1. Pase el ratón sobre el título de la columna por la que desea ordenar los datos.
 
-1. Seleccione el icono de flecha hacia abajo cuando aparezca.
+2. Seleccione el icono de flecha hacia abajo cuando aparezca.
 
    ![Icono de flecha hacia abajo en la columna de tabla ordenada](assets/table-sort.png)
 

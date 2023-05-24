@@ -4,10 +4,10 @@ title: Edición de entradas en el diccionario de datos
 feature: Components
 role: Admin
 exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
-source-git-commit: 631f84794203cb0a1154d68149c9d64d7247ecd3
+source-git-commit: a6805f0944570bee265d5db9a159ae24e0694837
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 70%
+source-wordcount: '375'
+ht-degree: 58%
 
 ---
 
@@ -29,20 +29,20 @@ Para editar un componente en el diccionario de datos:
 
 1. (Opcional) En el campo de búsqueda, empiece a escribir el nombre del componente que desea editar.
 
-   El tipo de componente se puede identificar mediante el color y el icono. **Dimension** ![Dimension](assets/dimension-icon.png) son naranjas, **Segmentos** ![Icono de segmento](assets/segment-icon.png) son azules, **Intervalos de fechas** ![Icono de intervalo de fechas](assets/date-range-icon.png) son púrpura y **Métricas** ![Icono de métrica](assets/default-metric-icon.png) son verdes. El icono del Adobe ![Icono de Adobe](assets/default-calc-metric-icon.png) indica una plantilla de métrica calculada o una plantilla de segmento y el icono de la calculadora ![Icono de calculadora](assets/calculated-metric-icon-created.png) indica una métrica calculada que fue creada por un administrador de Analytics en su organización.
+   El tipo de componente se puede identificar mediante colores e iconos. **Dimension** ![Icono de Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) son naranjas, **Segmentos** ![Icono de segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) son azules, **Intervalos de fechas** ![Icono de intervalo de fecha](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) son morados y **Métricas** ![Icono de métrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) son verdes. El Adobe de métricas indica una plantilla de métrica calculada o de segmento, y el icono de la calculadora ![Icono Calculadora](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indicó una métrica calculada que creó un administrador de Analytics en su organización.
 
 {{dd-filter-criteria}}
 
-1. (Opcional) Seleccione el **Ordenar** icono ![Icono Ordenar componentes](assets/component-sort-icon.png)y, a continuación, seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
+1. (Opcional) Seleccione la **Ordenar** icono ![Icono Ordenar componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), luego seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
 
    {{components-sort-options}}
 
 1. En la lista de componentes, seleccione el componente que desea editar.
 
-1. Seleccione el icono **Editar** ![icono Editar del diccionario de datos](assets/data-dictionary-edit-icon.png) junto al nombre del componente.
+1. Seleccione el icono **Editar** ![icono Editar del diccionario de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) junto al nombre del componente.
 
 1. Edite cualquiera de la siguiente información acerca del componente:
 
    {{dd-component-information}}
 
-1. Haga clic en el icono **Guardar** ![icono Guardar del diccionario de datos](assets/data-dictionary-save-icon.png) para guardar los cambios.
+1. Haga clic en el icono **Guardar** ![icono Guardar del diccionario de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SaveFloppy_18_N.svg) para guardar los cambios.

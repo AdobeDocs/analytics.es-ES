@@ -1,7 +1,7 @@
 ---
-source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1040'
 ht-degree: 94%
 
 ---
@@ -11,11 +11,11 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Más información acerca del [Anuncio del final de la vida útil](https://www.adobe.com/go/analytics_rnaeol_es) de Reports &amp; Analytics.
+>Más información acerca del [Anuncio del final de la vida útil](https://www.adobe.com/go/analytics_rnaeol_en) de Reports &amp; Analytics.
 
 ## Criterios de filtro del diccionario de datos {#dd-filter-criteria}
 
-1. (Opcional) Seleccione el icono **Filtrar** ![del diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/assets/data-dictionary-filter-icon.png) y, a continuación, cualquiera de las siguientes opciones para filtrar la lista de componentes:
+1. (Opcional) Seleccione el icono **Filtrar** ![del diccionario de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) y, a continuación, cualquiera de las siguientes opciones para filtrar la lista de componentes:
 
    | Opción | Función |
    |---------|----------|
@@ -55,9 +55,9 @@ ht-degree: 94%
 
 | Opción | Función |
 |---------|----------|
-| [!UICONTROL **Recomendado**] | Ordena los componentes con los que se recomiendan en la parte superior de la lista. Los componentes que usted u otras personas de la organización utilizan con más frecuencia y más recientemente se muestran en la parte superior de la lista. |
+| [!UICONTROL **Recomendado**] | Ordena los componentes con los recomendados al principio de la lista. Los componentes que utiliza con más frecuencia y más recientemente usted o otras personas de su organización aparecen en la parte superior de la lista. |
 | [!UICONTROL **Alfabético**] | Ordena los componentes alfabéticamente. |
-| [!UICONTROL **Categórica**] | Ordena los componentes según el tipo de componente (dimensión, métrica, segmento, intervalo de fechas). |
+| [!UICONTROL **Categórica**] | Ordena los componentes según su tipo (dimensión, métrica, segmento, intervalo de fechas). |
 
 {style="table-layout:auto"}
 
