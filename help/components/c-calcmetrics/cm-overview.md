@@ -4,16 +4,16 @@ keywords: Métricas calculadas, métricas derivadas y métricas calculadas avanz
 title: Métricas calculadas y calculadas avanzadas (derivadas)
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Métricas calculadas y calculadas avanzadas (derivadas)
 
-Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas personalizadas que puede crear a partir de métricas existentes.
+Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas personalizadas que se pueden crear a partir de métricas existentes.
 
 Nuestras herramientas de métricas calculadas ofrecen una forma muy flexible de crear, administrar y ajustar métricas. Como expertos en marketing, gestores de productos y analistas, les permite plantear preguntas acerca de los datos sin tener que cambiar su implementación de [!DNL Analytics] En cada paquete de [!DNL Analytics] están disponibles las siguientes métricas personalizadas:
 
@@ -22,9 +22,9 @@ Nuestras herramientas de métricas calculadas ofrecen una forma muy flexible de 
 * [Adobe Analytics Prime](https://www.adobe.com/es/data-analytics-cloud/analytics/prime.html): calculadas + calculadas avanzadas
 * [Adobe Analytics Ultimate](https://www.adobe.com/es/data-analytics-cloud/analytics/ultimate.html): calculadas + calculadas avanzadas
 
-A continuación se muestra una comparación de las competencias de las métricas calculadas y las métricas calculadas avanzadas:
+A continuación se muestra una comparación de las métricas calculadas y las capacidades de las métricas calculadas avanzadas:
 
-| Opciones del creador | Métricas calculadas | Métricas calculadas avanzadas (derivadas) |
+| Opciones del creador | Métricas calculadas  | Métricas calculadas avanzadas (derivadas) |
 |---|---|---|
 | [Tipos de formato (decimal, tiempo, porcentaje, moneda)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Sí | Sí |
 | [Cambios de atribución (predeterminado, lineal, de participación, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sí | Sí |
@@ -48,7 +48,7 @@ Puede
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
-* (Solo métricas calculadas avanzadas) Incorporar funciones estadísticas para ayudar a describir mejor los datos. Por ejemplo, puede contar el número de elementos de un informe o agregar el número de desviaciones estándar para cada elemento.
+* (Solo métricas calculadas avanzadas) Incorporar funciones estadísticas para ayudarle a describir mejor los datos. Por ejemplo, puede contar el número de elementos de un informe o agregar el número de desviaciones estándar para cada elemento.
 
 ## Limitaciones {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -65,7 +65,7 @@ Algunas funciones de [!DNL Analytics] permiten utilizar eventos, pero no métric
 
 ## Herramientas {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-A continuación se describen brevemente las herramientas de [!UICONTROL Métricas calculadas]:
+A continuación se muestra una breve descripción general de la [!UICONTROL Métricas calculadas] herramientas:
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 

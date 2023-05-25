@@ -3,16 +3,22 @@ description: En el Administrador de segmentos, puede establecer un flujo de trab
 title: Aprobar segmentos
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 53%
 
 ---
 
 # Aprobar segmentos
 
-En el Administrador de segmentos, puede establecer un flujo de trabajo que incluya la aprobación de segmentos para varios niveles de aplicación, para departamentos específicos o para grupos, y coherente con las políticas de creación de informes.
+En el Administrador de segmentos, puede configurar un flujo de trabajo que incluya la aprobación de segmentos para varios niveles de aplicación, para departamentos específicos o para grupos, y coherente con las políticas de creación de informes.
+
+>[!NOTE]
+>
+>Los administradores también pueden aprobar segmentos (y otros componentes) del diccionario de datos, como se describe en [Editar entradas de componente en el diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>
+>Cualquier segmento aprobado en el diccionario de datos se reflejará en el Administrador de segmentos. Del mismo modo, las métricas aprobadas en el Administrador de segmentos se reflejan en el diccionario de datos.
 
 Así es como se marca un segmento como aprobado:
 

@@ -3,7 +3,7 @@ description: En el Administrador de métricas calculadas, el etiquetado de segme
 title: Etiquetar métricas calculadas
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 19%
@@ -19,11 +19,12 @@ Todos los usuarios pueden crear etiquetas para métricas calculadas y aplicar un
 >[!TIP]
 >
 >Los tipos de etiquetas más útiles suelen ser las que se basan en los siguientes criterios:
+>
+>* **Nombres del equipo**, como Marketing social o Marketing móvil.
+>* **Proyectos** (etiquetas de análisis), como análisis de Páginas de entrada.
+>* **Categorías**, como Mujeres; Geografía.
+>* **Flujos de trabajo**, como Por aprobar; Revisado para (una unidad comercial específica)
 
-* **Nombres del equipo**, como Marketing social o Marketing móvil.
-* **Proyectos** (etiquetas de análisis), como análisis de Páginas de entrada.
-* **Categorías**, como Mujeres; Geografía.
-* **Flujos de trabajo**, como Por aprobar; Revisado para (una unidad comercial específica)
 
 ## Aplicación de etiquetas a una métrica calculada
 
