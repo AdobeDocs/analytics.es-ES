@@ -3,34 +3,53 @@ description: En el Administrador de métricas calculadas, el etiquetado de segme
 title: Etiquetar métricas calculadas
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '278'
+ht-degree: 19%
 
 ---
 
 # Etiquetar métricas calculadas
 
-En el Administrador de métricas calculadas, el etiquetado de segmentos le permite organizarlos.
+En el Administrador de métricas calculadas, puede organizar los segmentos etiquetándolos.
 
-Todos los usuarios pueden crear etiquetas para métricas calculadas y aplicar una o más a una métrica. Sin embargo, solo verá las etiquetas de las métricas calculadas que sean suyas o que se hayan compartido con usted. ¿Qué tipo de etiquetas debería crear? A continuación encontrará una serie de sugerencias para crear etiquetas útiles:
+Todos los usuarios pueden crear etiquetas para métricas calculadas y aplicar una o más a una métrica. Sin embargo, solo verá las etiquetas de las métricas calculadas que sean suyas o que se hayan compartido con usted.
 
-* Etiquetas basadas en **nombres de equipos**, como Marketing social o Marketing móvil.
-* Etiquetas de **proyectos** (etiquetas de análisis), como análisis de páginas de entrada.
-* Etiquetas de **categorías**: para hombres, geografía.
-* Etiquetas de **flujo de trabajo**: pendiente de aprobación, conservado para (una unidad empresarial específica).
+>[!TIP]
+>
+>Los tipos de etiquetas más útiles suelen ser las que se basan en los siguientes criterios:
 
-1. En el Administrador de métricas calculadas, marque la casilla que aparece junto a la métrica que desea etiquetar. Aparecerá la barra de herramientas de administración:
-1. Haga clic en **[!UICONTROL Etiqueta]** y:
+* **Nombres del equipo**, como Marketing social o Marketing móvil.
+* **Proyectos** (etiquetas de análisis), como análisis de Páginas de entrada.
+* **Categorías**, como Mujeres; Geografía.
+* **Flujos de trabajo**, como Por aprobar; Revisado para (una unidad comercial específica)
 
-   * Seleccione una de las etiquetas existentes, o bien
-   * Agregue un nuevo nombre de etiqueta en el cuadro de diálogo Agregar etiquetas/Buscar y pulse **[!UICONTROL Entrar]**.
+## Aplicación de etiquetas a una métrica calculada
 
-      ![](assets/cm_add_tags.png)
+1. En Adobe Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para ir al Administrador de métricas calculadas.
 
-1. Haga clic en **[!UICONTROL Etiqueta]** de nuevo para etiquetar la métrica.
+1. En el Administrador de métricas calculadas, active la casilla que hay junto a las métricas que desea etiquetar.
 
-La etiqueta debería aparecer en la columna de etiquetas. (Haga clic en el icono del engranaje en la esquina superior derecha para administrar las columnas.)
+   ![](assets/cm_add_tags.png)
 
-También puede filtrar las etiquetas accediendo a **[!UICONTROL Mostrar filtros]** > **[!UICONTROL Etiquetas]**.
+1. En el **[!UICONTROL Etiquetar métrica calculada]** Cuadro de diálogo:
+
+   * Añada una etiqueta nueva. Escriba el nombre en la [!UICONTROL **Añadir etiquetas**] y, a continuación, pulse Intro.
+   * Seleccione una o varias etiquetas existentes para aplicarlas a las métricas seleccionadas.
+
+1. Seleccionar [!UICONTROL **Guardar**] para aplicar las etiquetas.
+
+## Ver etiquetas aplicadas
+
+1. En Adobe Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para ir al Administrador de métricas calculadas.
+
+1. En el Administrador de métricas calculadas, las etiquetas aparecen en la variable [!UICONTROL **Etiquetas**] columna. (Haga clic en el icono de engranaje en la parte superior derecha para administrar las columnas.)
+
+## Filtrado de métricas por etiquetas
+
+1. En Adobe Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para ir al Administrador de métricas calculadas.
+
+1. En el Administrador de métricas calculadas, seleccione la **Filtrar** y, a continuación, seleccione las etiquetas por las que desee filtrar.
+
+   Solo se muestran las métricas que tienen el filtro seleccionado.

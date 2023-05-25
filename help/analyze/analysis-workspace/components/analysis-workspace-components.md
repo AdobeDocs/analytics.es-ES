@@ -4,7 +4,7 @@ title: Resumen de componentes
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 66%
@@ -103,8 +103,6 @@ Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo d
 
 ### Filtrado de la lista de componentes
 
-{{release-limited-testing-section}}
-
 1. Seleccione el **Componentes** icono ![Icono Componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) en el carril izquierdo.
 
 2. Seleccione el **Filtrar** icono ![Icono Filtro de diccionario de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
@@ -129,6 +127,8 @@ Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo d
 4. (Opcional) Para perfeccionar aún más la lista, puede ordenarla, tal como se describe en [Ordenar la lista de componentes](#sort-the-component-list).
 
 ### Ordenar la lista de componentes
+
+{{release-limited-testing-section}}
 
 1. (Opcional) Aplique cualquier filtro a la lista de componentes, tal como se describe en [Filtrado de la lista de componentes](#filter-the-component-list).
 

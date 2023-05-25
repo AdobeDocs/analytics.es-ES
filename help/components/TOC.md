@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 95%
+source-wordcount: '695'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
    + [Compatibilidad de dimensiones](dimensions/compatibility.md)
    + [Clasificación de todas las páginas de búsqueda](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)
-   + [Nombre de bots](dimensions/bot-name.md)
+   + [Nombre de bot](dimensions/bot-name.md)
    + [Altura del explorador](dimensions/browser-height.md)
    + [Tipo de explorador](dimensions/browser-type.md)
    + [Anchura del explorador](dimensions/browser-width.md)
@@ -32,7 +32,7 @@ ht-degree: 95%
    + [Profundidad de color](dimensions/color-depth.md)
    + [Tipo de conexión](dimensions/connection-type.md)
    + [Inclusión en la administración de consentimiento](dimensions/cm-opt-in.md)
-   + [Exclusión de la administración de consentimiento](dimensions/cm-opt-out.md)
+   + [Exclusión en la administración de consentimiento](dimensions/cm-opt-out.md)
    + [Compatibilidad con cookies](dimensions/cookie-support.md)
    + [Países](dimensions/countries.md)
    + [Vínculo personalizado](dimensions/custom-link.md)
@@ -113,7 +113,7 @@ ht-degree: 95%
    + [Longitud promedio de la sesión](metrics/average-session-length.md)
    + [Promedio de tiempo en el sitio](metrics/average-time-on-site.md)
    + [Ocurrencias de bots](metrics/bot-occurrences.md)
-   + [Vistas de páginas de bots](metrics/bot-page-views.md)
+   + [Vistas de página de bots](metrics/bot-page-views.md)
    + [Porcentaje de rebote](metrics/bounce-rate.md)
    + [Devoluciones](metrics/bounces.md)
    + [Adiciones al carro de compras](metrics/cart-additions.md)
@@ -185,15 +185,15 @@ ht-degree: 95%
    + Flujo de trabajo de las métricas calculadas {#calcmetric-workflow}
       + [Flujo de trabajo de las métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Buscar métricas](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [Generar métricas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Crear métricas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Crear una métrica &quot;Vistas de página por visitas&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Crear una métrica de &quot;Asistencia para pedidos&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Crear una métrica de &quot;participación&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Tipo de métrica y atribución](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [Crear una métrica &quot;Vistas de página por visitas&quot; simple](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Métricas segmentadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Apilar y sustituir segmentos](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Métricas filtradas y ponderadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [Métrica de ayudas para pedidos](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Uso de funciones](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [Métrica de participación](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Etiquetar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Aprobar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Compartir métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)

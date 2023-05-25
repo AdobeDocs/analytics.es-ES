@@ -3,10 +3,10 @@ description: La segmentación de una métrica individual le permite realizar com
 title: Métricas segmentadas
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 69%
 
 ---
 
@@ -24,20 +24,32 @@ Digamos que desea comparar distintos aspectos de los segmentos de “Visitantes 
 * Como un porcentaje de visitantes totales, ¿cuántos visitantes alemanes navegan por ciertas páginas en comparación con los visitantes internacionales?
 * ¿Cuáles son las principales diferencias en términos de a qué contenido se accede desde estos segmentos diferentes?
 
-1. Si no tiene ningún segmento comparable, cree un segmento ad hoc en el creador de métricas calculadas que se llame “Visitantes alemanes”, en el que la opción “Países” sea “Alemania”. Arrastre la dimensión de países al lienzo de definición y seleccione que el valor sea Alemania:
+Cree y guarde una métrica llamada &quot;Visitantes alemanes&quot; y una métrica llamada &quot;Visitantes internacionales&quot;:
+
+1. Cree un segmento ad hoc en el Creador de métricas calculadas que se llame &quot;Visitantes alemanes&quot;, en el que la opción &quot;Países&quot; sea &quot;Alemania&quot;.
+
+   Arrastre la dimensión Países al lienzo Definición y seleccione [!UICONTROL **Alemania**] como valor:
 
    ![](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >También puede llevar a cabo esta acción en el [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md), pero hemos simplificado el flujo de trabajo al establecer que las dimensiones estén disponibles en el creador de métricas calculadas. La opción “ad hoc” implica que el segmento no esté visible en la lista **[!UICONTROL Segmentos]** del carril de la izquierda. Sin embargo, puede hacerlo público si pasa el ratón por el icono “i”, que se sitúa junto a ella, y hace clic en **[!UICONTROL Hacer público]**.
+   >También puede hacer esto en la [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md), pero hemos simplificado el flujo de trabajo al establecer que las dimensiones estén disponibles en el Creador de métricas calculadas. La opción “ad hoc” implica que el segmento no esté visible en la lista **[!UICONTROL Segmentos]** del carril de la izquierda. Sin embargo, puede hacerlo público si pasa el ratón por el icono “i”, que se sitúa junto a ella, y hace clic en **[!UICONTROL Hacer público]**.
 
-1. Si no tiene ningún segmento comparable, cree un segmento que se llame “Visitantes internacionales” en el que “Países” no sea igual a “Alemania”.
-1. Cree y guarde una métrica llamada “Visitantes de Alemania” arrastrando el segmento de Alemania al lienzo Definición y la métrica de Visitantes únicos dentro de este:
+1. Arrastre el segmento Alemania al lienzo Definición y arrastre la métrica Visitantes únicos dentro de este:
 
    ![](assets/german-visitors.png)
 
-1. Repita el paso 3 con el segmento de Visitantes internacionales y la métrica de Visitantes únicos para crear una métrica de Visitantes internacionales.
+1. Seleccionar [!UICONTROL **Guardar**] para guardar la métrica calculada.
+
+1. Cree un segmento ad hoc en el Creador de métricas calculadas llamado &quot;Visitantes internacionales&quot;, donde &quot;Países&quot; no sea igual a &quot;Alemania&quot;.
+
+   Arrastre la dimensión Países al lienzo Definición y seleccione [!UICONTROL **Alemania**] como valor, luego seleccione [!UICONTROL **no es igual a**] como operador.
+
+1. Arrastre la métrica Visitantes únicos dentro.
+
+1. Seleccionar [!UICONTROL **Guardar**] para guardar la métrica calculada.
+
 1. En Analysis Workspace, arrastre la dimensión **[!UICONTROL Página]** a una tabla de forma libre y, luego, las dos métricas calculadas nuevas en paralelo en la parte superior:
 
    ![](assets/workspace-pages.png)
