@@ -3,10 +3,10 @@ description: El Creador de métricas calculadas proporciona un lienzo en el que 
 title: Crear métricas
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
+source-git-commit: 991b2a8597ca59aab9869437d7f4097a8f638b90
 workflow-type: tm+mt
 source-wordcount: '962'
-ht-degree: 90%
+ht-degree: 87%
 
 ---
 
@@ -115,15 +115,15 @@ Puede empezar a crear una métrica calculada de cualquiera de las siguientes man
    <td colname="col2"> <p>Lista de métricas </p> </td> 
    <td colname="col3"> <p>Las métricas se dividen en 3 categorías: </p> 
     <ul id="ul_7BF50F4964EF45858FBA1634FBFA45CF"> 
-     <li id="li_90F2312927A6499CA1CE04F8FFC912CF">Métricas estándar ( <img placement="inline"  src="assets/met_icon.png" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li> 
-     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">Métricas calculadas ( <img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
-     <li id="li_8735E76637ED4C3F983731A66E04C93E">Plantillas de métricas (<img placement="inline"  src="assets/cm_template_icon.png" width="25px" id="image_D236601511CC4DD3828F223431E27E88" />), al final de la lista. </li> 
-    </ul> <p>Cuando pasa el ratón por encima de una métrica, puede ver el icono de información a su derecha: <img placement="inline"  src="assets/info.png" width="150px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Si hace clic en este icono, le proporcionará la siguiente información: </p> 
+     <li id="li_90F2312927A6499CA1CE04F8FFC912CF">Métricas estándar ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li> 
+     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">Métricas calculadas ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
+     <li id="li_8735E76637ED4C3F983731A66E04C93E">Plantillas de métricas (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />), al final de la lista. </li> 
+    </ul> <p>Cuando pasa el ratón por encima de una métrica, puede ver el icono de información a su derecha: <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Si hace clic en este icono, le proporcionará la siguiente información: </p> 
     <ul id="ul_DF35DDB9FBFA40C8A93FA0F2286A0BBE"> 
      <li id="li_4215AA9BF93F4C8B941002A7A4D2F50B">La fórmula de cómo se calcula. </li> 
      <li id="li_6A8E39EB6DCE4377B0B594B6D4FC0294">Una vista previa de la tendencia de la métrica. </li> 
-     <li id="li_44C1595E4BE64ED69D1DB3BB6655ED55">Un icono de edición (lápiz) en la parte superior derecha que le conducirá al Generador de métricas calculadas donde puede editar esta métrica calculada. </li> 
-    </ul> <p><img placement="break" align="center"  src="assets/info2.png" width="200px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> </p> </td> 
+     <li id="li_44C1595E4BE64ED69D1DB3BB6655ED55">Un icono de edición (lápiz) <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> en la parte superior derecha, que le llevará al Creador de métricas calculadas, donde puede editar esta métrica calculada. </li> 
+    </ul> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lista de segmentos </p> </td> 

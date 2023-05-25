@@ -4,10 +4,10 @@ title: Administración de segmentos (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 98%
+source-wordcount: '938'
+ht-degree: 93%
 
 ---
 
@@ -52,7 +52,7 @@ Es posible que tenga combinaciones específicas de dimensiones de informe que de
 
 ## Buscar y aplicar segmentos {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Cualquier segmento que se haya creado en Reports &amp; Analytics, Report Builder o Data Warehouse aparecerá en esta lista de segmentos. Para actualizar la lista, haga clic en el icono Actualizar (![](assets/refresh_icon.png)).
+Cualquier segmento que se haya creado en Reports &amp; Analytics, Report Builder o Data Warehouse aparecerá en esta lista de segmentos. Para actualizar la lista, haga clic en el icono Actualizar ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 Puede aplicar uno o varios segmentos a una solicitud determinada. Esto incluye segmentos secuenciales.
 
@@ -60,7 +60,7 @@ Puede aplicar uno o varios segmentos a una solicitud determinada. Esto incluye s
 
    ![](assets/seg_list.png)
 
-1. Marque los segmentos que desee aplicar.
+2. Marque los segmentos que desee aplicar.
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ Añadir un control de segmento le permite conmutar segmentos dentro de un libro 
 
 ## Actualizar la lista de segmentos {#section_22E4A86789444B4A998532396B476EFB}
 
-Siempre que añada un segmento nuevo o edite uno existente, debería hacer clic en el icono Actualizar (![](assets/refresh_icon.png)) para actualizar la lista almacenada en caché de segmentos.
+Siempre que añada un segmento nuevo o edite uno existente, debe hacer clic en el icono Actualizar ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) para actualizar la lista almacenada en caché de segmentos.
 
 ## Administración de segmentos entre solicitudes {#section_C3D63FCBE1A94369A319243313B03C93}
 

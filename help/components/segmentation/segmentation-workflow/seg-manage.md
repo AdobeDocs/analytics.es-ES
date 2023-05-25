@@ -3,10 +3,10 @@ description: El Administrador de segmentos ofrece numerosas maneras de conservar
 title: Administración de segmentos (Administrador de segmentos)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ El Administrador de segmentos ofrece numerosas maneras de conservar los segmento
 El Administrador de segmentos de Analytics le muestra todos los segmentos que posee y que han compartido con usted. Los usuarios con nivel de administrador pueden ver todos los segmentos de la organización. Esta introducción presenta la interfaz de usuario y las capacidades del Administrador de segmentos. Acceda al Administrador de segmentos de una de las siguientes maneras:
 
 * Vaya a **[!UICONTROL Análisis]** > **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]** en el panel de navegación superior.
-* Muestre un informe existente y haga clic en el icono de Segmentos ![](assets/segment_icon.png) en el menú de navegación de la izquierda. A continuación, haga clic en **[!UICONTROL Administrar]**.
+* Muestre un informe existente y haga clic en el icono de Segmentos ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) en el menú de navegación de la izquierda. A continuación, haga clic en **[!UICONTROL Administrar]**.
 
 ## Vídeo explicativo {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
