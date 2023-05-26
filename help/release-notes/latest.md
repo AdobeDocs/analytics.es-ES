@@ -3,16 +3,16 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 70b32752bdb6c8a561c5fd2d16bf9d76beecca60
+source-git-commit: 55c7f9223328cc629a2155dfb472aeae50d6f448
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 78%
+source-wordcount: '1517'
+ht-degree: 77%
 
 ---
 
 # Notas de la versión de Adobe Analytics actual (Mayo de 2023)
 
-**Última actualización:** 25 de mayo de 2023
+**Última actualización:** 26 de mayo de 2023
 
 Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -22,11 +22,11 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | ----------- | ---------- | ------- | ---- |
 | **Relleno para zonas protegidas que no sean de producción** | Al crear un flujo de datos del conector de origen de Analytics en una zona protegida que no sea de producción, el relleno de las zonas protegidas que no sean de producción estará limitado a 3 meses. Permanecerá a los 13 meses para las zonas protegidas de producción. | N/A | 26 de abril de 2023 |
 | **Uso compartido de vínculos para proyectos (no se requiere inicio de sesión)** | Ahora puede compartir vínculos de solo lectura a proyectos de Analysis Workspace con personas que no tienen acceso a Adobe Analytics. Esto incluye compartir con personas fuera de su organización o con personas de su organización que no estén aprovisionadas para Adobe Analytics. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es#share-public-link)<p>Esta funcionalidad está habilitada de forma predeterminada y el administrador del sistema puede inhabilitarla. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=es#company-preferences)</p> | 3 de mayo de 2023 | Junio de 2023 |
-| **Pantalla de inicio actualizada para la aplicación de paneles de Analytics (aplicación móvil)** | La nueva pantalla de inicio actualizada le permite ver todos los cuadros de resultados en una lista consolidada de cuadros de resultados. Si tiene acceso a más de una organización en un inicio de sesión, todos los cuadros de resultados de sus organizaciones estarán disponibles en una sola lista. | N/A | 10 de mayo de 2023 |
+| **Pantalla de inicio actualizada para la aplicación de paneles de Analytics (aplicación móvil)** | La nueva pantalla de inicio actualizada le permite ver todos los cuadros de resultados en una lista consolidada de cuadros de resultados. Si tiene acceso a más de una organización en un inicio de sesión, todos los cuadros de resultados de sus organizaciones estarán disponibles en una sola lista. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html#use-dashboards) | N/A | 10 de mayo de 2023 |
 | **Ordenar componentes en Analysis Workspace** | Ahora hay disponible una nueva opción de ordenación al ver componentes en el carril izquierdo o en el diccionario de datos de Analysis Workspace. Puede ordenar los componentes por Recomendado (los más utilizados), Alfabético o Categórico (tipo).<p>Anteriormente, solo se podían buscar o filtrar componentes. [Más información](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | N/A | Por determinar |
 | **Eliminación de filas que contienen dimensiones dinámicas de una tabla de forma libre** | En una tabla de forma libre de Analysis Workspace, ahora puede eliminar rápidamente filas específicas que contengan dimensiones dinámicas mediante el icono x. Al hacerlo, se aplica automáticamente la regla de filtro &quot;Excluir siempre elementos&quot;.<p>Anteriormente, la única forma de eliminar filas que contenían dimensiones dinámicas era crear manualmente una regla en el cuadro de diálogo Filtro. [Más información](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)</p> | N/A | 17 de mayo de 2023 |
 | **Nuevo botón para añadir una visualización dentro de un panel** | Ahora hay disponible un nuevo botón en la parte inferior de cada panel en Analysis Workspace, lo que le permite añadir rápidamente una visualización. <p>Anteriormente, los únicos métodos para añadir una visualización a un panel eran arrastrar una visualización desde el carril izquierdo, duplicar o copiar una visualización existente o crear un panel en blanco. [Más información](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | N/A | 17 de mayo de 2023 |
-| **Vinculación profunda (aplicación móvil)** | Permite a los usuarios enviar vínculos a cuadros de resultados que los llevarán directamente al cuadro de resultados de la aplicación. Esto facilita aún más el uso compartido de proyectos e impulsa la participación de una audiencia menos técnica. | N/A | 17 de mayo de 2023 |
+| **Vinculación profunda (aplicación móvil)** | Permite a los usuarios enviar vínculos a cuadros de resultados que los llevarán directamente al cuadro de resultados de la aplicación. Esto facilita aún más el uso compartido de proyectos e impulsa la participación de una audiencia menos técnica. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#share-scorecards-using-a-shareable-link) | N/A | 17 de mayo de 2023 |
 
 {style="table-layout:auto"}
 
