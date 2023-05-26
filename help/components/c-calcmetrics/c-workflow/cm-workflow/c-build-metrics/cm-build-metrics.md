@@ -3,10 +3,10 @@ description: El Creador de métricas calculadas proporciona un lienzo en el que 
 title: Crear métricas
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 49%
+ht-degree: 46%
 
 ---
 
@@ -24,7 +24,7 @@ Puede empezar a crear una métrica calculada de cualquiera de las siguientes man
 
 ## Áreas del Creador de métricas calculadas
 
-En la siguiente imagen y en la tabla adjunta se explican algunas de las áreas y características principales del Administrador de métricas calculadas.
+La siguiente imagen y la tabla adjunta explican algunas de las áreas y características principales del Creador de métricas calculadas.
 
 ![](assets/cm_builder_ui.png)
 
@@ -40,7 +40,7 @@ En la siguiente imagen y en la tabla adjunta se explican algunas de las áreas y
 | 8 | **Definición:** Aquí es donde arrastra las métricas/métricas calculadas, segmentos o funciones para crear la métrica calculada. <ul><li>Si arrastra una métrica calculada, ampliará su definición de métrica automáticamente. </li> <li>Puede anidar definiciones en contenedores. Sin embargo, a diferencia de los contenedores de segmento, estos contenedores funcionan como una expresión matemática y determinan el orden de las operaciones. </li> </ul> |
 | 9 | **Operador:** Dividido entre ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) es el operador predeterminado, además de los operadores +, - y x. |
 | 10 | **Vista previa:** Proporciona una lectura rápida de cualquier posible error. La vista previa abarca los últimos 90 días. Esta es una forma de calibrar inicialmente si ha seleccionado los componentes adecuados para su métrica. Un resultado inesperado significaría que debe volver a revisar la definición de la métrica. |
-| 11 | **Compatibilidad del producto:** <p>La compatibilidad del producto le muestra si la métrica es compatible con los <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=es"  >Datos actuales</a>, con los Datos completamente procesados o solo con los informes del Canal de marketing (asignación de primer contacto). <p>Nota: Datos actuales no es compatible con todas las métricas. Las métricas que contienen segmentos o funciones no son compatibles con los datos actuales. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Más... </a> </p> </p> |
+| 11 | **Compatibilidad del producto:** La compatibilidad del producto le muestra si la métrica es compatible con <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=es"  > Datos actuales </a>, con Datos completamente procesados o solo con informes de Canal de marketing (asignación de primer toque). <p>Nota: Datos actuales no es compatible con todas las métricas. Las métricas que contienen segmentos o funciones no son compatibles con los datos actuales. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Más... </a> </p> </p> |
 | 12 | **Agregar:** Para todos los tipos de métricas calculadas, puede agregar contenedores y números estáticos a la definición. Para obtener métricas calculadas avanzadas, también puede añadir segmentos y funciones. <ul><li>Los contenedores funcionan como una expresión matemática y determinan el orden de las operaciones. Así, cualquier cosa que se encuentre en un contenedor se procesará antes de la operación siguiente.</li><li>Al arrastrar un segmento a un contenedor, se segmenta todo lo que se encuentra en dicho contenedor (solo métricas calculadas avanzadas).</li><li>Puede apilar múltiples segmentos en un contenedor.</li></ul> |
 | 13 | **Icono de engranaje (Tipo de métrica, Atribución):** Si selecciona el icono de engranaje junto a una métrica, puede especificar la variable <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > tipo de métrica y modelos de atribución </a>. |
 | 14 | **Nuevo:** Permite crear un nuevo componente, como un nuevo segmento (que le dirige a la variable <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Generador de segmentos </a>.) |
