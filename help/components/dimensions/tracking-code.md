@@ -3,10 +3,10 @@ title: Código de seguimiento
 description: Nombre del código de seguimiento o campaña.
 feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
-source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
+source-git-commit: 6d0771f7b8779d7a9d3bcea73a430ba3a9093e3e
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 91%
+source-wordcount: '555'
+ht-degree: 68%
 
 ---
 
@@ -26,23 +26,36 @@ Los elementos de dimensión incluyen los nombres de los códigos de seguimiento 
 
 ## Comparación de la dimensión Código de seguimiento con los canales de marketing que recopilan códigos de seguimiento
 
-Algunos usuarios que configuran reglas de procesamiento de canal de marketing configuran una regla que toma todos los valores utilizados en la dimensión Código de seguimiento. A pesar de ser una práctica excelente, son diferentes debido a las diferencias inherentes de procesamiento y arquitectura. La siguiente lista explica por qué estas dos dimensiones, aunque parecidas de un vistazo, no se pueden comparar entre sí.
+Algunos usuarios que configuran reglas de procesamiento de canal de marketing configuran una regla que toma todos los valores utilizados en la dimensión Código de seguimiento. A pesar de ser una práctica excelente, son diferentes debido a las diferencias inherentes de procesamiento y arquitectura. La siguiente lista explica por qué estos dos métodos, aunque parecidos de un vistazo, pueden cambiar el comportamiento de atribución.
 
-* **Canales anteriores en reglas de procesamiento**: Las reglas de procesamiento de los canales de marketing que se encuentran más arriba en la lista pueden impedir que las visitas se atribuyan a su canal de marketing de códigos de seguimiento. Por ejemplo:
+### Canales anteriores en reglas de procesamiento
 
-   1. Tiene “Redes sociales” configuradas como la primera regla y “Códigos de seguimiento” como la segunda.
-   2. Un usuario publica un vínculo a su sitio que contiene un código de seguimiento en un sitio de medios sociales y varios de sus amigos hacen clic en ese vínculo a su sitio.
+Las reglas de procesamiento de los canales de marketing que se encuentran más arriba en la lista pueden impedir que las visitas se atribuyan a su canal de marketing de códigos de seguimiento. Por ejemplo:
 
-   Dado que “Redes sociales” es la primera regla de procesamiento de canales de marketing, estos usuarios atribuyen el canal de marketing “Redes sociales” y no el canal de marketing de códigos de seguimiento.
-* **Otros canales de marketing pueden robar atribución**: Cuando se trata de una dimensión Código de seguimiento estándar, no es necesario preocuparse por otras partes del sitio que roban la atribución. Sin embargo, con los canales de marketing, un usuario puede hacer coincidir una regla diferente y dar una atribución diferente. Por ejemplo:
-   1. Tiene “Códigos de seguimiento” como primer canal y “Directo” como segundo.
-   2. Un usuario llega al sitio inicialmente a través de un código de seguimiento, pero luego sale.
-   3. Al día siguiente, escriben su dirección URL en la barra de direcciones y luego realizan una compra.
+1. Tiene “Redes sociales” configuradas como la primera regla y “Códigos de seguimiento” como la segunda.
+2. Un usuario publica un vínculo a su sitio que contiene un código de seguimiento en un sitio de medios sociales y varios de sus amigos hacen clic en ese vínculo a su sitio.
 
-   El canal de marketing de códigos de seguimiento no obtendría crédito de último contacto para esa compra. En su lugar, iría al canal de marketing “Directo”.
-* **Diferencias de caducidad**: Los canales de marketing tienen una caducidad de participación del visitante de 30 días móviles, independientemente de si hubo contacto con un canal o no. Los códigos de seguimiento tienen una caducidad basada en el momento en que se configuró la variable. Por ejemplo:
-   1. Tiene una caducidad de la participación del visitante de 30 días y también configuró la dimensión Código de seguimiento para que caduque a los 30 días.
-   2. Un usuario llega al sitio a través de un código de seguimiento. Exploran el sitio y luego se van.
-   3. Tres semanas después, regresan sin un código de seguimiento o canal de marketing, y luego se van de nuevo.
-   4. Otras dos semanas después (cinco semanas después de su visita inicial), regresan sin un código de seguimiento o canal de marketing y luego realizan una compra.
-   El usuario realizó una compra más allá de los 30 días, pero nunca estuvo inactivo durante más de 30 días. Verá los ingresos atribuidos al canal de marketing de códigos de seguimiento, pero no a la dimensión independiente.
+Dado que “Redes sociales” es la primera regla de procesamiento de canales de marketing, estos usuarios atribuyen el canal de marketing “Redes sociales” y no el canal de marketing de códigos de seguimiento.
+
+### Otros canales de marketing pueden atribuir la atribución mediante el último contacto
+
+Cuando se trata de una dimensión Código de seguimiento estándar, no es necesario preocuparse por otras partes del sitio que roban la atribución. Sin embargo, con los canales de marketing, un usuario puede hacer coincidir una regla diferente y dar una atribución diferente. Por ejemplo:
+1. Tiene “Códigos de seguimiento” como primer canal y “Directo” como segundo.
+2. Un usuario llega al sitio inicialmente a través de un código de seguimiento, pero luego sale.
+3. Al día siguiente, escriben su dirección URL en la barra de direcciones y luego realizan una compra.
+
+En este ejemplo, el canal de marketing de códigos de seguimiento no obtendría crédito de último contacto para esa compra. En su lugar, iría al canal de marketing “Directo”.
+
+
+### Diferencias de caducidad
+
+Los canales de marketing tienen una caducidad de participación del visitante de 30 días móviles, independientemente de si se ha tocado o no un canal. Los códigos de seguimiento tienen una caducidad basada en el momento en que se configuró la variable. Por ejemplo:
+1. Tiene una caducidad de la participación del visitante de 30 días y también configuró la dimensión Código de seguimiento para que caduque a los 30 días.
+2. Un usuario llega al sitio a través de un código de seguimiento. Exploran el sitio y luego se van.
+3. Tres semanas después, regresan sin un código de seguimiento o canal de marketing, y luego se van de nuevo.
+4. Otras dos semanas después (cinco semanas después de su visita inicial), regresan sin un código de seguimiento o canal de marketing y luego realizan una compra.
+
+El usuario realizó una compra más allá de los 30 días, pero nunca estuvo inactivo durante más de 30 días. En este caso, vería los ingresos atribuidos al canal de marketing de códigos de seguimiento, pero no a la propia dimensión de código de seguimiento.
+
+
+
