@@ -2,7 +2,7 @@
 title: collectHighEntropyUserAgentHints
 description: Utilice la variable collectHighEntropyUserAgentHints para determinar si Adobe solicitará sugerencias de alta entropía a los exploradores Chromium (por ejemplo, Google Chrome y Microsoft Edge).
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
-source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
+source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
@@ -22,11 +22,8 @@ Las sugerencias de cliente de alta entropía forman parte de las categorías de 
 **[!UICONTROL Recopilar sugerencias de usuario-agente de alta entropía]** es una casilla de verificación en el acordeón General al configurar la extensión de Adobe Analytics.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/#/@adobepm/data-collection) con sus credenciales de Adobe ID.
-
 1. Haga clic en la [!UICONTROL propiedad de etiquetas] deseada.
-
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Configurar] en Adobe Analytics.
-
 1. Expanda el acordeón [!UICONTROL General], que revela la casilla de verificación [!UICONTROL Recopilar sugerencias de agente de usuario de alta entropía]. De forma predeterminada, está desactivada.
 
 ## collectHighEntropyUserAgentHints en AppMeasurement
