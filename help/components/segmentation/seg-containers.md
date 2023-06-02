@@ -4,10 +4,10 @@ keywords: segmentation;segments
 title: Contenedores de segmentos
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: bbe429512e9a65c6840ff10ace50bd6df6bcb481
+source-git-commit: d9087fbb2d7aef49dab42692ba6bc189e3c32d55
 workflow-type: tm+mt
-source-wordcount: '3420'
-ht-degree: 58%
+source-wordcount: '3488'
+ht-degree: 57%
 
 ---
 
@@ -27,36 +27,22 @@ Cada contenedor le permite realizar informes basados en el historial del visitan
 <table style="table-layout: fixed; border: none;">
 
 <tr>
-<td style="background-color: #FFFFFF; border: 0; " colspan="5">
-</tr>
-
-<tr style="border: none;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visitantes</td>
-<td></td>
 </tr>
 
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visitas</td>
-<td></td>
 </tr>
 
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Visitas únicas</td>
-<td></td>
 </tr>
-
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/sequential_segmentation_container_hierarchy.png)
+<!--![](assets/sequential_segmentation_container_hierarchy.png)-->
 
 A continuación se muestra un vídeo introductorio de los contenedores de segmentos:
 
@@ -140,133 +126,109 @@ crea un segmento que se comporta en este orden:
 
 La segmentación secuencial emplea los mismos contenedores básicos, incluidos el de [!UICONTROL visitantes], [!UICONTROL visitas] y [!UICONTROL visitas individuales] (así como las vistas de página u otras dimensiones) anidados jerárquicamente.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visitantes</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visitas</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Visitas únicas</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/nesting_container.png)
+<!--![](assets/nesting_container.png)-->
 
 [!UICONTROL Visitantes] constituye el contenedor de orden superior en la segmentación secuencial, con [!UICONTROL visitas] contenidas dentro del contenedor de [!UICONTROL visitantes] y [!UICONTROL visitas individuales] contenidas dentro de los contenedores de [!UICONTROL visitantes] o [!UICONTROL visitas]. Esta [jerarquía de contenedores](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) debe mantenerse para generar segmentos secuenciales bien ordenados.
 
 **Para generar segmentos secuenciales**, los contenedores están anidados y la lógica secuencial unida mediante la variable [!UICONTROL THEN] operador que requiere que cada contenedor sea `true` en función de la secuencia del visitante.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visitantes</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visitas</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Visitas únicas</td>
-<td></td>
 </tr>
-<tr><td ></td><td style="background-color: #E5E4E2;"></td><td colspan="2">ENTONCES</td></td><td></td></tr>
+
 <tr>
-<td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">ENTONCES</td></td>
+</tr>
+
+<tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visitas</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Visitas únicas</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/sequential_segmentation_nesting_3.png)
+<!--![](assets/sequential_segmentation_nesting_3.png)-->
 
 La única excepción a esta jerarquía de contenedores es al usar el [contenedor de grupo lógico](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). El contenedor de [!UICONTROL grupo lógico] le permite anidar una visita individual dentro de un contenedor sin orden para capturar eventos y dimensiones pero fuera de un orden secuencial.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visitantes</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visitas</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Visitas únicas</td>
-<td></td>
 </tr>
-<tr><td ></td><td style="background-color: #E5E4E2;"></td><td colspan="2">ENTONCES</td></td><td></td></tr>
+
 <tr>
-<td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">ENTONCES</td></td>
+</tr>
+
+<tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Group_18_N.svg"/> Grupo</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Visitas únicas</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visitas</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
+
 </table>
 
-![](assets/logic_group_hierarchy.png)
+<!--![](assets/logic_group_hierarchy.png)-->
 
 ## Informes basados en datos de contenedores {#reports}
 
@@ -278,24 +240,19 @@ Los datos capturados en cada nivel de la jerarquía de contenedores visitante > 
 
 Por ejemplo, el visitante que se muestra a continuación visitó un sitio en la primera visita, aterrizó en la página de inicio y, a continuación, visitó otras tres páginas y convirtió la visita en una venta. En una visita aparte, el visitante llegó esta vez a través de la página del producto, se dirigió a la página de inicio, volvió atrás a la página del producto y, por último, cerró la sesión tras echar un vistazo a los gorros de invierno. En función de los datos capturados para cada contenedor del segmento, se muestran en el informe valores diferentes.
 
-El segmento *Página es igual a Abrigo de invierno* que se muestra a continuación se aplica al **informe de páginas**.
+El `Pages equals Winter Coat` el segmento siguiente se aplica al **Informe de páginas**.
 
-![](assets/page_winter_coat.png)
 
-En función del contenedor seleccionado, el informe muestra resultados diferentes.
+En función del contenedor seleccionado, el informe muestra resultados diferentes para las siguientes visitas y vistas de página de un visitante.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:auto; border: 0;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="7">
-</tr>
-<tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>Visita 1</b></td>
+<td style="background-color: #E5E4E2;" colspan="4"><b>Visita 1</b></td>
 </tr>
 <tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+<tr>
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
 </td>
@@ -303,19 +260,17 @@ En función del contenedor seleccionado, el informe muestra resultados diferente
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Ropa de invierno</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Abrigo de invierno</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Compra 100 $</td>
-<td></td>
 </tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </tr>
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>Visita 2</b></td>
+<td style="background-color: #E5E4E2;"colspan="4"><b>Visita 2</b></td>
 </tr>
 <tr>
 <tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
 </td>
@@ -323,15 +278,11 @@ En función del contenedor seleccionado, el informe muestra resultados diferente
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Botas de invierno</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Ropa de invierno</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Sombreros de invierno</td>
-<td></td>
-</tr>
-<tr>
-<td colspan="7">
-</tr>
+
 </table>
 
 
-![](assets/container_overview.png)
+<!--![](assets/container_overview.png)-->
 
 ### Informes desde el contenedor de visita individual
 
@@ -341,11 +292,16 @@ Cuando esta condición se encuentre dentro de un contenedor de visita individual
 |---|--:|
 | Abrigo de invierno | 1 |
 
-![](assets/container_overview_PV.png)
+<!--![](assets/container_overview_PV.png)-->
 
 Al realizar informes desde el contenedor de visita individual, podrá ver cómo los informes de diferentes contenedores afectan a los valores generales de los informes. Cuando visualice el informe del segmento, fíjese en que las vistas de página equivalen aproximadamente a las visitas (cerca de 2000 visitantes vieron páginas duplicadas en una visita, lo que se suma al número total de vistas de página). Y los visitantes únicos son aproximadamente iguales al número de visitas (cerca de 2000 visitantes únicos visitados más de una vez).
 
-![](assets/container_report_PV.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
+|---|---|--:|--:|
+|  | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **69 252** de 351.292 <br/>**67 554** de 165.175 <br/>**63 541** de 113.169 | **19%**<br/>**40%**<br/>**56%** |
+
+
+<!--![](assets/container_report_PV.png)-->
 
 >[!IMPORTANT]
 >
@@ -362,11 +318,15 @@ Si esta misma condición se encuentra dentro de un contenedor de visita, entonce
 | Abrigo de invierno | 1 |
 | Compra | 1 |
 
-![](assets/container_overview_visit.png)
+<!--![](assets/container_overview_visit.png)-->
 
 Si muestra valores de segmento desde el contenedor de visita, comprobará que el número de vistas de página ha aumentado considerablemente. Este aumento se debe a que al realizar informes desde el contenedor de visita se identifican todas las páginas que cumplen las condiciones, además de todas las demás páginas visualizadas en la visita (con todas las vistas de página capturadas en cada contenedor de visita).
 
-![](assets/container_report_Visit.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
+|---|---|--:|--:|
+|  | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **226 193** de 351.292 <br/>**67 554** de 165.175 <br/>**63 541** de 113.169 | **64%**<br/>**40%**<br/>**56%** |
+
+<!--![](assets/container_report_Visit.png)-->
 
 ### Informes desde el contenedor de visitante
 
@@ -394,11 +354,15 @@ Si esta misma condición se encuentra dentro de un contenedor de visitante, ento
 | Botas de invierno | 1 |
 | Sombreros de invierno | 1 |
 
-![](assets/container_overview_visitors.png)
+<!--![](assets/container_overview_visitors.png)-->
 
 Si muestra los segmentos desde el contenedor de visitante, verá que las vistas de página y las visitas han aumentado. Este aumento se debe a que, a nivel de visitante, si este visitó la página Abrigos de invierno solo una vez (con lo que la condición es verdadera), entonces se capturaron todas las demás vistas de página y visitas de ese visitante.
 
-![](assets/container_report_Visitor.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
+|---|---|--:|--:|
+|  | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **240 094** de 351.292 <br/>**83 823** de 165.175 <br/>**63 541** de 113.169 | **68%**<br/>**50%**<br/>**56%** |
+
+<!--![](assets/container_report_Visitor.png)-->
 
 Resumiendo: es fundamental entender cómo funciona la segmentación en diferentes desgloses de datos para interpretar los datos que devuelve.
 
@@ -437,26 +401,22 @@ El uso de un segmento con un contenedor menor que el alcance del desglose devuel
 
 El hecho de filtrar por dimensiones que persisten en una serie de páginas, como el eVar de una campaña o una dimensión de referencia, afecta a los datos recopilados a nivel de contenedor, y debe entenderse bien para garantizar la precisión de los informes.
 
-Los datos de los segmentos pueden variar en función de la persistencia de una dimensión o de una variable aplicada en las páginas seleccionadas. Algunas dimensiones, como la de página, proporcionan valores únicos a nivel de página y se filtran basándose en los datos del contenedor de visita individual. (Consulte el [ejemplo de Informes basados en datos de contenedores](/help/components/segmentation/seg-overview.md)). Otras dimensiones, como la de dominio de referencia, persisten en varias páginas de una visita. Algunas dimensiones o variables aplicadas, como la duración de la visita, permanecen en todo el historial del visitante.
+Los datos de los segmentos pueden variar en función de la persistencia de una dimensión o de una variable aplicada en las páginas seleccionadas. Algunas dimensiones, como la de página, proporcionan valores únicos a nivel de página y se filtran basándose en los datos del contenedor de visita individual. (Consulte el [ejemplo de Informes basados en datos de contenedores](/help/components/segmentation/seg-overview.md)). Otras dimensiones, como la de dominio de referencia, persisten en varias páginas de una visita. Por ejemplo: `Referring Domain equals aol.com`. Algunas dimensiones o variables aplicadas, como la duración de la visita, permanecen en todo el historial del visitante.
 
-![](assets/RefDomain_aol.png)
+<!--![](assets/RefDomain_aol.png)-->
 
 A diferencia de la dimensión de página, el valor del dominio de referencia se incluye en cada página de esta visita. Por ejemplo, el visitante mostrado más adelante llega a la página de inicio desde un sitio de referencia. Por lo tanto, todas las páginas de esa visita se asignan al mismo valor del dominio de referencia.
 
 El segmento *Dominio de referencia es igual a aol.com* indicado a continuación se aplica al **informe de páginas**.
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: 0;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="7">
-</tr>
-<tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>Visita 1</b></td>
+<td style="background-color: #E5E4E2;" colspan="4"><b>Visita 1</b></td>
 </tr>
 <tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+<tr>
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>aol.com
 </td>
@@ -464,19 +424,17 @@ El segmento *Dominio de referencia es igual a aol.com* indicado a continuación 
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Ropa de invierno</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Abrigo de invierno</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Compra 100 $</td>
-<td></td>
 </tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </tr>
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>Visita 2</b></td>
+<td style="background-color: #E5E4E2;"colspan="4"><b>Visita 2</b></td>
 </tr>
 <tr>
 <tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>weather.com
 </td>
@@ -484,11 +442,7 @@ El segmento *Dominio de referencia es igual a aol.com* indicado a continuación 
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Botas de invierno</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Ropa de invierno</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Sombreros de invierno</td>
-<td></td>
-</tr>
-<tr>
-<td colspan="7">
-</tr>
+
 </table>
 
 <!--![](assets/container_overview_persist.png)-->
@@ -506,11 +460,15 @@ Dado que a todas las vistas de página dentro de la misma visita se les asigna e
 | Abrigo de invierno | 1 |
 | Compra | 1 |
 
-![](assets/container_overview_persist_Visit.png)
+<!--![](assets/container_overview_persist_Visit.png)-->
 
 Según los datos del contenedor de visita individual, se realizaron 92.000 vistas de página en más de 33.000 visitas de más de 32.000 visitantes. De media, cada visita realizó tres vistas de página, y casi todas las visitas fueron de visitantes únicos.
 
-![](assets/container_report_persist_PV.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
+|---|---|--:|--:|
+|  | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **98 234** de 351.165 <br/>**33 203** de 165.173 <br/>**32 269** de 113.110 | **27%**<br/>**20%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_PV.png)-->
 
 ### Informes desde el contenedor de visita
 
@@ -523,11 +481,15 @@ Si esta misma condición se filtra en el contenedor de visita para un informe de
 | Abrigo de invierno | 1 |
 | Compra | 1 |
 
-![](assets/container_overview_persist_Visit.png)
+<!--![](assets/container_overview_persist_Visit.png)-->
 
 Dado que todas las páginas tienen el mismo valor de dominio de referencia basado en la visita, el informe a nivel de contenedor de visita es (casi) igual al informe del contenedor de vista de página. Hay un ligero desplazamiento (98 234 frente a 98 248) debido a anomalías de los datos.
 
-![](assets/container_report_persist_Visit.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
+|---|---|--:|--:|
+|  | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **98 248** de 351.165 <br/>**33 203** de 165.173 <br/>**32 269** de 113.110 | **27%**<br/>**20%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_Visit.png)-->
 
 ### Informes desde el contenedor de visitante
 
@@ -559,14 +521,15 @@ En un informe de Dominio de referencia, *Dominio de referencia = &quot;aol.com&q
 | Sombreros de invierno<br/>Dominio de referencia = &#39;weather.com&#39; | 1 |
 
 
-
-
-
-![](assets/container_overview_persist_Visitor.png)
+<!--![](assets/container_overview_persist_Visitor.png)-->
 
 Cuando vea datos desde el contenedor de visitante, fíjese en que las vistas de página han aumentado considerablemente (de 98.248 a 112.925). Este aumento se debe a que se han enumerado todas las vistas de página del visitante (incluidas las páginas con otros valores de dominio de referencia guardados a nivel de contenedor de visitante). Y las visitas adicionales de ese visitante, aumentando las visitas de 33.203 a 43.448.
 
-![](assets/container_report_persist_Visitor.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
+|---|---|--:|--:|
+|  | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **112 925** de 351.165 <br/>**43 448** de 165.173 <br/>**32 269** de 113.110 | **32%**<br/>**26%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_Visitor.png)-->
 
 ## Resumen
 
