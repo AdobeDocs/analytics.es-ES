@@ -4,10 +4,10 @@ keywords: segmentation;segments
 title: Contenedores de segmentos
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: d9087fbb2d7aef49dab42692ba6bc189e3c32d55
+source-git-commit: 5a9ba3f9749338c181fbcdc311bd08a92144e698
 workflow-type: tm+mt
-source-wordcount: '3488'
-ht-degree: 57%
+source-wordcount: '3469'
+ht-degree: 54%
 
 ---
 
@@ -370,7 +370,7 @@ Resumiendo: es fundamental entender cómo funciona la segmentación en diferente
 
 Todos los desgloses de datos de segmentos tienen un alcance determinado al que estos se aplican. La mayoría de los desgloses de informes se basan en *vistas de página*. Sin embargo, muchos segmentos valiosos se basan en el contenedor de *visita* y, en menor medida, en el contenedor de *visitante*. Es importante entender los informes en función del alcance del contenedor.
 
-Uso del *Página = Abrigos de invierno* ejemplo de segmento, a continuación se muestran ejemplos de los resultados de este segmento en función de cómo se aplican los datos del contenedor y de cómo coincide el ámbito de los datos con el tipo de segmento.
+Uso del `Page equals Winter Coats` ejemplo de segmento, a continuación se muestran ejemplos de los resultados de este segmento en función de cómo se aplican los datos del contenedor y de cómo coincide el ámbito de los datos con el tipo de segmento.
 
 ### Contenedor de segmento basado en regla de segmento coincidente
 
@@ -407,7 +407,7 @@ Los datos de los segmentos pueden variar en función de la persistencia de una d
 
 A diferencia de la dimensión de página, el valor del dominio de referencia se incluye en cada página de esta visita. Por ejemplo, el visitante mostrado más adelante llega a la página de inicio desde un sitio de referencia. Por lo tanto, todas las páginas de esa visita se asignan al mismo valor del dominio de referencia.
 
-El segmento *Dominio de referencia es igual a aol.com* indicado a continuación se aplica al **informe de páginas**.
+El `Referring Domain equals aol.com` el segmento siguiente se aplica al **Informe de páginas**.
 
 <table style="table-layout:fixed; border: 0;">
 
@@ -451,9 +451,9 @@ En una visita nueva, el visitante es remitido desde otro sitio. Por lo tanto, a 
 
 ### Informes desde el contenedor de visita individual
 
-Dado que a todas las vistas de página dentro de la misma visita se les asigna el mismo valor del dominio de referencia, los informes realizados a nivel del contenedor de visita individual donde *Dominio de referencia = &quot;aol.com&quot;* devuelven todas las páginas enumeradas en la siguiente tabla.
+Dado que a todas las vistas de página dentro de la misma visita se les asigna el mismo valor del dominio de referencia, los informes realizados a nivel del contenedor de visita individual donde `Referring Domain equsls 'aol.com'` devuelve todas las páginas enumeradas en la tabla siguiente.
 
-| Dominio de referencia = &#39;aol.com&#39; | Vistas de páginas |
+| Dominio de referencia es igual a &quot;aol.com&quot; | Vistas de páginas |
 |----|---:|
 | Página principal | 1 |
 | Ropa de invierno | 1 |
@@ -472,9 +472,9 @@ Según los datos del contenedor de visita individual, se realizaron 92.000 vista
 
 ### Informes desde el contenedor de visita
 
-Si esta misma condición se filtra en el contenedor de visita para un informe de páginas, entonces todas las páginas de la visita donde *Dominio de referencia = &quot;aol.com&quot;* tienen un valor verdadero. Dado que el valor del dominio de referencia se establece a nivel de visita, los informes realizados a nivel de vista de página y de visita son iguales.
+Si esta misma condición se filtra en el contenedor de visita para un informe de páginas, entonces todas las páginas de la visita donde `Referring Domain equals 'aol.com'`es verdadero. Dado que el valor del dominio de referencia se establece a nivel de visita, los informes realizados a nivel de vista de página y de visita son iguales.
 
-| Dominio de referencia = &#39;aol.com&#39; | Vistas de páginas |
+| Dominio de referencia es igual a &quot;aol.com&quot; | Vistas de páginas |
 |----|---:|
 | Página principal | 1 |
 | Ropa de invierno | 1 |
@@ -493,11 +493,11 @@ Dado que todas las páginas tienen el mismo valor de dominio de referencia basad
 
 ### Informes desde el contenedor de visitante
 
-Desde el contenedor de visitante, el informe de página enumera todas las páginas vistas por cualquier visitante donde *Dominio de referencia es igual a &quot;aol.com&quot;* tenga un valor verdadero. Por lo tanto, si un visitante *&quot;aol.com&quot;* como dominio de referencia en cualquier momento del historial (dentro del período de tiempo definido), se enumerarán todas las páginas del contenedor de visitante (incluidas las vistas de página de otras visitas). Incluso las páginas que no cumplen la condición principal se enumeran en el informe, ya que están incluidas en el contenedor de visitante. En el informe se enumeran todas las páginas del contenedor de visitante, incluso si son anteriores y no cumplen estrictamente las condiciones.
+Desde el contenedor de visitante, el informe de página enumera todas las páginas visitadas por un visitante donde `Referring Domain equals 'aol.com'` es verdadero. Por lo tanto, si un visitante *&#39;aol.com&#39;* como dominio de referencia en cualquier momento del historial (dentro del período de tiempo definido), se enumerarán todas las páginas del contenedor de visitante (incluidas las vistas de página de otras visitas). Incluso las páginas que no cumplen la condición principal se enumeran en el informe, ya que están incluidas en el contenedor de visitante. En el informe se enumeran todas las páginas del contenedor de visitante, incluso si son anteriores y no cumplen estrictamente las condiciones.
 
-En un informe de Dominio de referencia, *Dominio de referencia = &quot;aol.com&quot;* es verdadero en cuatro vistas de página, pero *Dominio de referencia = &quot;weather.com&quot;* es verdadero en las demás páginas que visitó el visitante. Desde el contenedor de visitante, obtendrá una lista de visitantes donde &quot;aol.com&quot; es verdadero. Pero también le proporciona páginas donde el dominio de referencia es &quot;weather.com&quot;, no el valor que coincidió con su solicitud inicial en el segmento.
+En un informe Dominio de referencia, `Referring Domain equals 'aol.com'` es verdadero en cuatro vistas de página, pero `Referring Domain equals "weather.com"` es verdadero en las demás páginas que visitó el visitante. Desde el contenedor de visitante, obtendrá una lista de visitantes donde &quot;aol.com&quot; es verdadero. Pero también le proporciona páginas donde el dominio de referencia es &quot;weather.com&quot;, no el valor que coincidió con su solicitud inicial en el segmento.
 
-| Visita 1<br/>Dominio de referencia = &#39;aol.com&#39; | <br/>Vistas de páginas |
+| Visita 1<br/>Dominio de referencia es igual a &quot;aol.com&quot; | <br/>Vistas de páginas |
 |----|---:|
 | Página principal | 1 |
 | Ropa de invierno | 1 |
@@ -510,15 +510,15 @@ En un informe de Dominio de referencia, *Dominio de referencia = &quot;aol.com&q
 | Abrigo de invierno | 1 |
 | Compra | 1 |
 
-| Contenedor de visitante<br/>Dominio de referencia = &#39;aol.com&#39; | Vistas de páginas |
+| Contenedor de visitante<br/>Dominio de referencia es igual a &quot;aol.com&quot; | Vistas de páginas |
 |----|---:|
-| Ropa de invierno<br/>Dominio de referencia = &#39;aol.com&#39; | 1 |
-| Ropa de invierno<br/>Dominio de referencia = &#39;weather.com&#39; | 1 |
-| Inicio <br/>Dominio de referencia = &#39;aol.com&#39; | 1 |
-| Abrigo de invierno <br/>Dominio de referencia = &#39;aol.com&#39; | 1 |
-| Comprar<br/>Dominio de referencia = &#39;aol.com&#39; | 1 |
-| Botas de invierno<br/>Dominio de referencia = &#39;weather.com&#39; | 1 |
-| Sombreros de invierno<br/>Dominio de referencia = &#39;weather.com&#39; | 1 |
+| Ropa de invierno<br/>Dominio de referencia: &#39;aol.com&#39; | 1 |
+| Ropa de invierno<br/>Dominio de referencia: &#39;weather.com&#39; | 1 |
+| Inicio <br/>Dominio de referencia: &#39;aol.com&#39; | 1 |
+| Abrigo de invierno <br/>Dominio de referencia: &#39;aol.com&#39; | 1 |
+| Comprar<br/>Dominio de referencia: &#39;aol.com&#39; | 1 |
+| Botas de invierno<br/>Dominio de referencia: &#39;weather.com&#39; | 1 |
+| Sombreros de invierno<br/>Dominio de referencia: &#39;weather.com&#39; | 1 |
 
 
 <!--![](assets/container_overview_persist_Visitor.png)-->
