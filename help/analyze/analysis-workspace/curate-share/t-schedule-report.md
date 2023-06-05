@@ -5,10 +5,10 @@ title: Programar proyectos
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
+source-git-commit: 99f9a1d1fa6238918c1566f64df41418cd13fa0e
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 93%
+source-wordcount: '646'
+ht-degree: 86%
 
 ---
 
@@ -20,9 +20,11 @@ En el **menú Compartir** de Workspace, puede enviar proyectos de Analysis Works
 
 Para enviar un archivo inmediatamente a los destinatarios por correo electrónico:
 
-1. Haga clic en **[!UICONTROL Compartir] > [!UICONTROL Exportar archivo]**.
-1. Especifique el tipo de archivo (CSV o PDF).
-1. (Opcional) Añada una descripción que se incluirá en el correo electrónico para explicar el archivo que se va a recibir.
+1. Clic **[!UICONTROL Compartir] > [!UICONTROL Exportar archivo]**.
+1. Especifique el tipo de archivo:
+   * [!UICONTROL **CSV**]: elija esta opción si desea datos de texto sin formato.
+   * [!UICONTROL **PDF**]: elija esta opción si desea que el archivo descargado contenga todas las tablas y visualizaciones mostradas (visibles) en el proyecto.
+1. (Opcional) Añada una descripción para incluirla en el correo electrónico y explicar el archivo que se va a recibir.
 1. Añadir destinatarios o grupos. También se pueden introducir direcciones de correo electrónico.
 1. Haga clic en **[!UICONTROL Enviar ahora]**.
 1. (Opcional) Haga clic en **[!UICONTROL Mostrar opciones de programación]** para especificar una programación de entregas.
@@ -33,7 +35,7 @@ Para enviar un archivo inmediatamente a los destinatarios por correo electrónic
 
 Para enviar un archivo en una programación recurrente a los destinatarios por correo electrónico:
 
-1. Haga clic en **[!UICONTROL Compartir] > [!UICONTROL Programar exportación de archivos]**.
+1. Clic **[!UICONTROL Compartir] > [!UICONTROL Programar exportación de archivos]**.
 1. Especifique el tipo de archivo (CSV o PDF).
 1. (Opcional) Añada una descripción que se incluirá en el correo electrónico para explicar el archivo que se va a recibir.
 1. Añadir destinatarios o grupos. También se pueden introducir direcciones de correo electrónico.
@@ -59,7 +61,7 @@ En el Administrador de proyectos programados, puede editar y eliminar la program
 | [!UICONTROL Propietario] | La persona que creó el proyecto y es de su propiedad. |
 | [!UICONTROL Etiquetas] | (opcional) El etiquetado es una buena forma de organizar los proyectos. Todos los usuarios pueden crear etiquetas y aplicar una o más a un proyecto. Sin embargo, solo verá las etiquetas de los proyectos que sean suyos o que se hayan compartido con usted. |
 | [!UICONTROL Entregado a] | Los destinatarios de este proyecto programado. |
-| [!UICONTROL Fecha de caducidad] | Para cualquier frecuencia de proyecto programada, puede establecer la fecha de caducidad hasta un año en el futuro. |
+| [!UICONTROL Fecha de caducidad] | Para cualquier frecuencia de proyecto programado, puede establecer la fecha de caducidad para un año en el futuro. |
 | [!UICONTROL Frecuencia] | La frecuencia con la que desea que este proyecto programado se envíe a los destinatarios. |
 | [!UICONTROL Hora de ejecución] | A qué hora del día se envía este proyecto programado. |
 | [!UICONTROL Cantidad de consultas] | Número de consultas de este proyecto. |
@@ -74,7 +76,7 @@ Las siguientes son acciones comunes en el administrador de proyectos programados
 | **[!UICONTROL Eliminar programación]** | Seleccione el proyecto programado en la lista y, a continuación, haga clic en Eliminar en el menú. Esto eliminará la programación seleccionada para el proyecto; el proyecto en sí no se eliminará. |
 | **[!UICONTROL Añadir etiquetas]** | Seleccione el proyecto programado en la lista y, a continuación, elija “Etiqueta” o “Aprobar” para organizar las programaciones y facilitar su búsqueda. |
 | **[!UICONTROL Ver las programaciones fallidas]** | Vaya al carril izquierdo > Otros filtros > No se han podido ver las programaciones que han fallado. |
-| **[!UICONTROL Ver las programaciones caducadas]** | Vaya al carril izquierdo > Otros filtros > Caducado para ver las programaciones que han caducado. Haga clic en el título de la programación para configurar una nueva programación de envío. |
+| **[!UICONTROL Ver las programaciones caducadas]** | Vaya al carril izquierdo > Otros filtros > Caducado para ver las programaciones que han caducado. Haga clic en el título de la programación para configurar una nueva programación de entrega. |
 | **[!UICONTROL Ver el ID de programación]** | Vaya a las opciones de columna en la parte superior derecha y añada la columna ID de programación a la tabla. El ID de programación suele ser útil para la depuración. |
 
 El Administrador de programación de proyectos muestra los artículos que ha creado un usuario en particular. Si la cuenta del usuario está desactivada en la aplicación, se detienen todos los envíos programados. La propiedad del proyecto programado se puede **transferir** a un nuevo usuario en **Administración > Usuarios y activos de Analytics > Transferir activos**.
