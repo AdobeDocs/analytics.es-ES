@@ -3,10 +3,10 @@ title: Resumen de las métricas
 description: Vista de cantidades de datos o elementos de dimensión a lo largo del tiempo.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 100%
+source-wordcount: '210'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ Por ejemplo, si combina la dimensión “Página” con la métrica “Visitas�
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-Si no encuentra una página de ayuda de métrica determinada, es probable que sea un [evento personalizado](custom-events.md) o una [métrica calculada](../c-calcmetrics/cm-overview.md).
+Si no encuentra la página de ayuda de una métrica determinada, es probable que se trate de una [Evento personalizado](custom-events.md) o una [métrica calculada](../c-calcmetrics/cm-overview.md).
 
 * Si la métrica es un evento personalizado, consulte a un administrador de Analytics de su organización o el [documento de diseño de soluciones](/help/implement/prepare/solution-design.md) del grupo de informes.
 * Si la métrica es una métrica calculada, haga clic en el icono de información para determinar su fórmula.
@@ -30,3 +30,7 @@ Si no encuentra una página de ayuda de métrica determinada, es probable que se
 ## Agregar descripciones de métricas
 
 Los administradores de Analytics pueden agregar descripciones para métricas y otros componentes, ya sea dentro del grupo de informes o directamente dentro de Analysis Workspace. Para obtener información acerca de cómo agregar descripciones a métricas, consulte [Adición de descripciones de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+
+## Uso de métricas en Analysis Workspace
+
+Para obtener información sobre cómo usar métricas en Analysis Workspace, consulte &quot;Usar métricas en Analysis Workspace&quot; en [Métricas](/help/analyze/analysis-workspace/components/apply-create-metrics.md).

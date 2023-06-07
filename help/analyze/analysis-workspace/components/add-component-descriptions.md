@@ -3,7 +3,8 @@ description: Los administradores pueden agregar descripciones para los component
 title: Adición de descripciones de componentes
 feature: Components
 role: Admin
-source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
+exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 31%
@@ -23,8 +24,6 @@ En el siguiente vídeo se describe cómo agregar descripciones de dimensiones y 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 
 ## Agregar descripciones a componentes en Analysis Workspace (mediante el diccionario de datos) {#add-descriptions}
-
-{{release-limited-testing-section}}
 
 El diccionario de datos de Analysis Workspace ayuda a los usuarios y administradores a seguir los componentes de su entorno de Analytics y a comprenderlos mejor. Esto incluye la capacidad de los administradores de Analytics para agregar descripciones de componentes directamente en Analysis Workspace.
 
