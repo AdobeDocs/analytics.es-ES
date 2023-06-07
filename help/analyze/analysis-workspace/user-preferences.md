@@ -4,10 +4,10 @@ description: Puede establecer preferencias generales y de proyecto para los usua
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
+source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
 workflow-type: tm+mt
-source-wordcount: '3116'
-ht-degree: 79%
+source-wordcount: '3063'
+ht-degree: 80%
 
 ---
 
@@ -49,17 +49,13 @@ Puede personalizar las preferencias generales de todos los proyectos nuevos que 
 
 ## Preferencias de compañía
 
->[!AVAILABILITY]
->
->La funcionalidad para compartir un proyecto con alguien como se describe en esta sección se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Analytics, consulte [Lanzamientos de funciones de Adobe Analytics](/help/release-notes/releases.md).
-
 Puede actualizar las preferencias de la empresa que se aplican a todos los usuarios y proyectos de su organización. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
 
 | Sección | Preferencia | Opciones |
 | --- | --- | --- |
 | **Pestaña de informes** |  |  |
 |  | Pestaña Ocultar informes | Oculta la pestaña Informes para todos los usuarios de su organización. |
-| **Uso compartido de proyectos** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
+| **Uso compartido de proyectos** |  |  |
 |  | Permitir compartir solo con usuarios de Workspace | <p>Cuando esta opción está habilitada, los usuarios de su organización no pueden ver la opción &quot;Compartir con nadie&quot; en el menú Compartir. Esto significa que los usuarios no pueden compartir proyectos con personas que no tengan una cuenta de Analysis Workspace en su organización como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Compartir proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p><p>Tenga en cuenta lo siguiente al habilitar o deshabilitar esta opción:</p> <ul><li><p>Cuando se habilita esta opción, las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido &quot;Compartir con cualquiera&quot; ya no pueden acceder al proyecto.</p></li><li><p>Si esta opción está habilitada (para permitir el uso compartido solo con usuarios de Workspace) y luego deshabilitada (para permitir el uso compartido con cualquier persona), las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido &quot;Compartir con cualquiera&quot; no recuperan automáticamente su acceso al proyecto. En este caso, el usuario que compartió el proyecto debe habilitar la variable [!UICONTROL **El vínculo está activo**] opción que está disponible al compartir un proyecto con cualquier persona ([!UICONTROL **Compartir**] > [!UICONTROL **Compartir con cualquiera**]), tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Compartir proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> |
 |  | Requiere autenticación de Experience Cloud | <p>Cuando está habilitado, las personas que tengan acceso a un proyecto desde la opción Compartir con cualquiera de Analysis Workspace deben autenticarse con sus credenciales de Experience Cloud.</p> <p>Después de habilitar esta opción, cada vez que un usuario comparta un proyecto con la opción de uso compartido &quot;Compartir con alguien&quot;, se habilitará la opción &quot;Requerir autenticación de Experience Cloud&quot; en el cuadro de diálogo de uso compartido y el usuario que comparte el proyecto no podrá deshabilitarla. (Para obtener información sobre cómo los usuarios pueden compartir proyectos con cualquier persona, consulte [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Compartir proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>Tenga en cuenta lo siguiente al habilitar esta opción:</p><ul><li><p>Al habilitar esta opción, se desactivan todos los proyectos que se compartieron anteriormente con la opción de uso compartido &quot;Compartir con cualquiera&quot; y que no tienen activada la opción &quot;Requerir autenticación de Experience Cloud&quot;.</p></li> <li><p>Si esta opción está habilitada (para requerir autenticación de Experience Cloud) y luego deshabilitada (para permitir que cualquier persona con el vínculo acceda al proyecto), las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido &quot;Compartir con alguien&quot; no recuperan automáticamente su acceso al proyecto. En este caso, el usuario que compartió el proyecto debe habilitar la opción &quot;El vínculo está activo&quot; que está disponible al compartir un proyecto con cualquier persona ([!UICONTROL **Compartir**] > [!UICONTROL **Compartir con cualquiera**] > [!UICONTROL **El vínculo está activo**]), tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Compartir proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>Esta opción solo está disponible si el SSO está implementado en su organización. Para obtener información sobre cómo los administradores del sistema pueden habilitar el SSO para su organización, consulte [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html){target=_blank}.</p><p>Si SSO está configurado para su organización, compruebe si algún tipo de creación de cuenta automática se implementa en la consola. Normalmente, un administrador del sistema lo configuraría, tal como se describe en [Habilitar la creación automática de cuentas](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>Si su organización se encuentra en un sector que requiere el cumplimiento de la HIPAA, esta opción se activa automáticamente y no se puede desactivar.</p></li></ul> |
 
