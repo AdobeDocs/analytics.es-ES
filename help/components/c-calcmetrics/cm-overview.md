@@ -4,9 +4,9 @@ keywords: Métricas calculadas, métricas derivadas y métricas calculadas avanz
 title: Métricas calculadas y calculadas avanzadas (derivadas)
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 970c18834c1cc7f866b7b0ceec7dc1642c3482ad
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '591'
 ht-degree: 88%
 
 ---
@@ -39,14 +39,10 @@ A continuación se muestra una comparación de las métricas calculadas y las ca
 Puede
 
 * Cree métricas en [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución].
-* Crear métricas segmentadas que se derivan del tiempo de ejecución de un informe, sin tener que cambiar la implementación. Estas pueden verse en el historial, ya que se basan en segmentos. Aquí tiene un vídeo sobre las métricas sin implementación:
-
-   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+* Crear métricas segmentadas que se derivan del tiempo de ejecución de un informe, sin tener que cambiar la implementación. Éstas pueden verse en el historial, ya que se basan en segmentos.
 
 * Compartir métricas entre grupos de informes. Esto significa que todas las métricas de reciente creación se aplican a todos los grupos de informes en la misma empresa de inicio de sesión.
-* (Solo métricas calculadas avanzadas) Segmentar métricas. Por ejemplo, puede crear una métrica para “Visitantes nuevos”, con un recuento de personas de las cuales sea la primera sesión. A continuación se muestra un vídeo sobre este tema:
-
-   >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
+* (Solo métricas calculadas avanzadas) Segmentar métricas. Por ejemplo, puede crear una métrica para “Visitantes nuevos”, con un recuento de personas de las cuales sea la primera sesión.
 
 * (Solo métricas calculadas avanzadas) Incorporar funciones estadísticas para ayudarle a describir mejor los datos. Por ejemplo, puede contar el número de elementos de un informe o agregar el número de desviaciones estándar para cada elemento.
 
