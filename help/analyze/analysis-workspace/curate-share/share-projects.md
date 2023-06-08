@@ -5,10 +5,10 @@ title: Compartir proyectos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
+source-git-commit: 441484c0547439de2ab1cdc2596fb681592df012
 workflow-type: tm+mt
-source-wordcount: '1852'
-ht-degree: 52%
+source-wordcount: '1817'
+ht-degree: 49%
 
 ---
 
@@ -18,15 +18,15 @@ Puede compartir un proyecto de Analysis Workspace con los siguientes tipos de pe
 
 * Usuarios y grupos de su organización que tienen acceso a Adobe Analytics
 
-   Puede compartir el acceso de Editar, Duplicar o Ver
+  Puede compartir el acceso de Editar, Duplicar o Ver
 
 * Usuarios y grupos de su organización que no tienen acceso a Adobe Analytics
 
-   Los destinatarios tienen acceso de solo lectura
+  Los destinatarios tienen acceso de solo lectura
 
 * Personas fuera de la organización
 
-   Los destinatarios tienen acceso de solo lectura
+  Los destinatarios tienen acceso de solo lectura
 
 Cualquiera [depuración](curate.md) la solicitud presentada antes del uso compartido se refleja cuando los destinatarios abren el proyecto.
 
@@ -55,7 +55,7 @@ Cuando comparta una función de proyecto específica con usuarios y grupos de su
 
 * El usuario que desempeña varias funciones siempre obtiene la mayor experiencia. Esto puede ocurrir si se agrega un destinatario como individuo y además, como parte de un grupo. Por ejemplo, si a un destinatario se le asigna la función **[!UICONTROL Puede editar]** como individuo y **[!UICONTROL Puede ver]** como miembro de un grupo, recibirá una experiencia **[!UICONTROL Puede editar]** en el proyecto.
 
-* Los administradores con una función **[!UICONTROL Puede duplicar]** o **[!UICONTROL Puede ver]** recibirán esas experiencias limitadas cuando abran un proyecto. Si lo desea, un administrador puede aumentar su función a **[!UICONTROL Puede editar]** en cualquier momento en **[!UICONTROL Componentes] > [!UICONTROL Proyectos]**.
+* Los administradores con una función **[!UICONTROL Puede duplicar]** o **[!UICONTROL Puede ver]** recibirán esas experiencias limitadas cuando abran un proyecto. Un administrador puede cambiar su función a **[!UICONTROL Puede editar]** compartiendo el proyecto con ellos mismos y otorgando la función Editar, tal como se describe en el siguiente procedimiento.
 
 Para compartir una función de proyecto específica con usuarios o grupos de su organización, haga lo siguiente:
 
@@ -126,7 +126,6 @@ Puede conceder [acceso de solo lectura](/help/analyze/analysis-workspace/curate-
 >
 >* Un proyecto podría resultar inaccesible si muchos usuarios intentan acceder a un vínculo determinado al mismo tiempo. De forma predeterminada, más de 190 personas pueden acceder a un solo vínculo cada 5 minutos. Si su organización alcanza este límite, espere 5 minutos e intente acceder al vínculo de nuevo.
 
-
 La siguiente demostración en vídeo y la documentación adjunta describen las opciones asociadas con el uso compartido de un vínculo con cualquier persona:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
@@ -151,9 +150,9 @@ Para compartir un proyecto de Analysis Workspace con personas que no tienen acce
 
    * **[!UICONTROL Requiere autenticación de Experience Cloud]:**
 
-      Cuando esta opción está habilitada, los únicos usuarios que pueden acceder al proyecto son los que pueden iniciar sesión en la organización de Adobe Experience Cloud en la que se creó el proyecto que está compartiendo. Sin embargo, los usuarios con los que comparta no necesitan tener acceso a Adobe Analytics.
+     Cuando esta opción está habilitada, los únicos usuarios que pueden acceder al proyecto son los que pueden iniciar sesión en la organización de Adobe Experience Cloud en la que se creó el proyecto que está compartiendo. Sin embargo, los usuarios con los que comparta no necesitan tener acceso a Adobe Analytics.
 
-      Los administradores de Analytics pueden configurar esta preferencia para la compañía, tal como se describe en [Preferencias](/help/analyze/analysis-workspace/user-preferences.md). Puede encontrar los siguientes escenarios, según la configuración que haya realizado el administrador con esta opción:
+     Los administradores de Analytics pueden configurar esta preferencia para la compañía, tal como se describe en [Preferencias](/help/analyze/analysis-workspace/user-preferences.md). Puede encontrar los siguientes escenarios, según la configuración que haya realizado el administrador con esta opción:
 
       * Si esta opción no está visible, el administrador de Analytics no habilitó esta función.
 
@@ -196,6 +195,5 @@ A continuación se muestra un vídeo sobre este tema:
 | Pregunta | Respuesta |
 | --- | --- |
 | ¿Qué sucede si dos editores guardan un proyecto al mismo tiempo? | Los cambios no se combinan y se conservará la última versión guardada del proyecto. Actualmente, Analysis Workspace no admite la colaboración en tiempo real. |
-| Como administrador, ¿qué experiencia de proyecto veré? | Los administradores con una función **[!UICONTROL Puede duplicar]** o **[!UICONTROL Puede ver]** recibirán esas experiencias limitadas cuando abran un proyecto. Si lo desea, un administrador puede aumentar su función a **[!UICONTROL Puede editar]** en cualquier momento mediante **[!UICONTROL Componentes] > [!UICONTROL Proyectos]**. |
 | ¿Qué sucede si un destinatario se coloca en una función como individuo y otra como miembro de un grupo? | Si un destinatario se coloca en varias funciones, siempre recibirá la experiencia más alta. Por ejemplo, si a un destinatario se le asigna la función **[!UICONTROL Puede editar]** como individuo y la función **[!UICONTROL Puede ver]** como miembro de un grupo, recibirá una experiencia **[!UICONTROL Puede editar]** en el proyecto. |
 | ¿Qué experiencia obtiene un destinatario si abre un vínculo de proyecto? | Los Destinatarios reciben la función que les ha asignado en el modal de uso compartido. Si un destinatario no tiene asignada una función y recibe un vínculo al proyecto (**[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]**, luego seleccione **[!UICONTROL Copiar]** junto al **[!UICONTROL Compartir mediante vínculo]** ), se les asignará una función de forma predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]**, y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**. |
