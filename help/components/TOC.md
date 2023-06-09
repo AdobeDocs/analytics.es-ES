@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 0d16592cfa1f0da4e868d9d51c1a73269235b653
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 90%
+source-wordcount: '715'
+ht-degree: 86%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 90%
       + [Compatibilidad del segmento con el Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Derechos de segmentos por función](segmentation/seg-reference/seg-rights.md)
       + [Resolución de problemas](segmentation/seg-reference/c-troubleshooting.md)
-   + [Preguntas frecuentes sobre la administración de segmentos heredados ](segmentation/seg-transition.md)
+   + [Preguntas frecuentes sobre la administración de segmentos heredados](segmentation/seg-transition.md)
    + [Prácticas recomendadas](segmentation/best-practices.md)
 + Métricas calculadas {#calculated-metrics}
    + [Métricas calculadas y calculadas avanzadas (derivadas)](c-calcmetrics/cm-overview.md)
@@ -234,12 +234,18 @@ ht-degree: 90%
    + [Alertas inteligentes: Casos de uso](c-alerts/alerts-use-cases.md)
 + Clasificaciones {#classifications}
    + [Resumen general de las clasificaciones](classifications/c-classifications.md)
-   + Conjuntos de clasificaciones {#sets}
-      + [Información general sobre los conjuntos de clasificaciones](classifications/sets/overview.md)
-      + [Administrador de conjuntos de clasificaciones](classifications/sets/set-manager.md)
+   + Conjuntos de clasificación {#sets}
+      + [Información general sobre conjuntos de clasificaciones](classifications/sets/overview.md)
+      + Administrar conjuntos de clasificaciones {#manage}
+         + [Administrador de conjuntos de clasificaciones](classifications/sets/manage/set-manager.md)
+         + [Crear un conjunto de clasificaciones](classifications/sets/manage/create.md)
+         + [Configuración del conjunto de clasificaciones](classifications/sets/manage/settings.md)
+         + [Esquema del conjunto de clasificaciones](classifications/sets/manage/schema.md)
+         + [Reglas del conjunto de clasificaciones](classifications/sets/manage/rules.md)
       + [Administrador de trabajos de conjuntos de clasificaciones](classifications/sets/job-manager.md)
-      + [Crear un conjunto de clasificaciones](classifications/sets/create.md)
-      + [Configuración del conjunto de clasificaciones](classifications/sets/settings.md)
+      + Consolidación de conjuntos de clasificaciones {#consolidations}
+         + [Administrador de consolidaciones de conjuntos de clasificaciones](classifications/sets/consolidations/manage.md)
+         + [Proceso de consolidaciones del conjunto de clasificaciones](classifications/sets/consolidations/process.md)
    + Clasificación del Generador de reglas {#classifications-rulebuilder}
       + [Flujo de trabajo del generador de reglas de clasificación](classifications/crb/classification-rule-builder.md)
       + [Conjuntos de reglas de clasificación](classifications/crb/classification-rule-set.md)
@@ -260,6 +266,7 @@ ht-degree: 90%
       + [Exportación de FTP](classifications/importer/ftp-export.md)
       + [Tiempo de procesamiento](classifications/importer/processing-time.md)
       + [Resolución de problemas](classifications/importer/troubleshooting.md)
+
    + [Subclasificaciones](classifications/c-sub-classifications.md)
    + [Preguntas más frecuentes sobre las clasificaciones](classifications/faq.md)
 + [Eventos de calendario](t-calendar-event.md)

@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: Aprenda formas de implementar Adobe Analytics. Personalice qué se recopila para aprovechar al máximo los datos de Analytics.
-source-git-commit: 9a16cd89b2d650098495902cca5c5229df48b475
+source-git-commit: fb739c9185cdc246540cfe9c78dc8660022512d4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '411'
+ht-degree: 99%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 0%
       + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
       + [cookieLifetime](vars/config-vars/cookielifetime.md)
       + [currencyCode](vars/config-vars/currencycode.md)
+      + [doubleEncodeLinkParameters](vars/config-vars/doubleencodelinkparameters.md)
       + [dynamicVariablePrefix](vars/config-vars/dynamicvariableprefix.md)
       + [fpCookieDomainPeriods](vars/config-vars/fpcookiedomainperiods.md)
       + [linkDownloadFileTypes](vars/config-vars/linkdownloadfiletypes.md)
@@ -178,7 +179,7 @@ ht-degree: 0%
 + Casos de uso de implementación {#use-cases}
    + [Uso de AppMeasurement con iFrames](use-cases/iframe.md)
    + [Seguimiento en diferentes tipos de implementación](use-cases/cross-type-implementation.md)
-   + [Flujo de trabajo del seguimiento de campañas](use-cases/campaign-tracking.md)
+   + [Flujo de trabajo de seguimiento de campaña](use-cases/campaign-tracking.md)
 + Validación de la implementación {#validate}
    + [Adobe Experience Cloud Debugger antiguo](validate/debugger.md)
    + [Parámetros de consulta de recopilación de datos](validate/query-parameters.md)

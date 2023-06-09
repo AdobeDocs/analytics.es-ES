@@ -1,11 +1,11 @@
 ---
-title: Administrador de trabajos del conjunto de clasificaciones
-description: Ver los trabajos de clasificación actuales y completados generados a partir de los conjuntos de clasificaciones.
+title: Administrador de trabajos de conjuntos de clasificaciones
+description: Ver los trabajos de clasificación actuales y completados generados a partir de conjuntos de clasificaciones.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 496b4891d447ed9dd091a6498a792146a2d5aceb
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '415'
+ht-degree: 49%
 
 ---
 
@@ -15,26 +15,26 @@ El Administrador de trabajos de conjuntos de clasificaciones permite ver los tra
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificaciones]** > **[!UICONTROL Trabajos]**
 
-Tenga en cuenta que no puede crear trabajos desde esta interfaz. En su lugar, puede crear trabajos cargando datos en un conjunto de clasificaciones, solicitando un archivo de descarga o solicitando un archivo de plantilla.
+No puede crear trabajos desde esta interfaz. Cree trabajos cargando datos en un conjunto de clasificaciones (manualmente o a través de una ubicación externa configurada), solicitando un archivo de descarga o solicitando un archivo de plantilla.
 
 ## Filtrar conjuntos de clasificaciones
 
-La parte izquierda del Administrador de trabajos de conjuntos de clasificaciones proporciona una configuración de filtro para localizar el trabajo deseado. Al hacer clic en el icono de filtro, se alterna la visibilidad de la configuración del filtro. Puede filtrar los conjuntos de clasificaciones por **[!UICONTROL Conjunto de clasificaciones]**, **[!UICONTROL Hora de finalización]** o **[!UICONTROL Estado]**.
+La parte izquierda del Administrador de trabajos de conjuntos de clasificaciones proporciona una configuración de filtro para localizar el trabajo deseado. Al hacer clic en el icono de filtro, se alterna la visibilidad de la configuración del filtro. Puede filtrar los conjuntos de clasificaciones por **[!UICONTROL Conjunto de clasificaciones]**, **[!UICONTROL Hora de finalización]**, **[!UICONTROL Estado]**, **[!UICONTROL Tipo de trabajo]**, o **[!UICONTROL Origen]**.
 
-![Filtros de trabajo de conjunto de clasificaciones](../assets/classification-set-job-filters.png)
+![Filtros del trabajo del conjunto de clasificaciones](../assets/classification-set-job-filters.png)
 
-Hay opciones de filtro adicionales disponibles encima de las columnas del Administrador de trabajos de conjuntos de clasificaciones:
+Hay opciones de filtro adicionales disponibles encima de las columnas del administrador de trabajos del conjunto de clasificaciones:
 
 * **[!UICONTROL Buscar por título]**: buscar trabajos por nombre de archivo.
-* **[!UICONTROL Cargar más]**: el Administrador de trabajos de conjuntos de clasificaciones muestra inicialmente hasta 1000 trabajos. Haga clic en este botón para cargar 1000 trabajos más.
+* **[!UICONTROL Cargar más]**: el administrador de trabajos del conjunto de clasificaciones muestra inicialmente hasta 1000 trabajos. Si hay más trabajos, haga clic en este botón para cargar 1000 trabajos más.
 * **Mostrar/ocultar columnas**: alternar visibilidad para cualquier columna aparte de [!UICONTROL Nombre de archivo] y [!UICONTROL Hora de finalización].
 
-## Columnas del Administrador de trabajos del conjunto de clasificaciones
+## Columnas del administrador de trabajos del conjunto de clasificaciones
 
-Las siguientes columnas están disponibles en el Administrador de trabajos de conjuntos de clasificaciones:
+Las siguientes columnas están disponibles en el administrador de trabajos del conjunto de clasificaciones:
 
 * **[!UICONTROL Nombre de archivo]**: Nombre del archivo de carga o descarga.
-* **[!UICONTROL Conjunto de clasificaciones]**: Nombre del conjunto de clasificaciones al que se aplica el archivo. Puede hacer clic en el nombre del conjunto de clasificaciones para llegar a la [Configuración](settings.md).
+* **[!UICONTROL Conjunto de clasificaciones]**: nombre del conjunto de clasificaciones al que se aplica el archivo. Puede hacer clic en el nombre del conjunto de clasificaciones para llegar al de [Configuración](manage/settings.md).
 * **[!UICONTROL Tamaño]**: El tamaño del archivo.
 * **[!UICONTROL Estado]**: estado del trabajo que procesa el archivo.
    * **[!UICONTROL Creado]**: se envió el trabajo.
@@ -45,6 +45,9 @@ Las siguientes columnas están disponibles en el Administrador de trabajos de co
    * **[!UICONTROL Error de procesamiento]**: error en el procesamiento del archivo.
    * **[!UICONTROL Completar]**: el procesamiento ha finalizado. Los datos de clasificación se pueden ver en los informes.
    * **[!UICONTROL Error]**: error genérico no relacionado con la validación o el procesamiento.
-* **[!UICONTROL Tipo]**: tipo de trabajo.
+* **[!UICONTROL Tipo de trabajo]**: el tipo de trabajo.
+* **[!UICONTROL Origen]**: el origen del trabajo.
 * **[!UICONTROL Descarga de archivos]**: solo se aplica a los trabajos de descarga, como descargar datos de clasificación o descargar plantillas. Cuando una descarga está lista, esta columna proporciona un vínculo de descarga.
+* **[!UICONTROL Líneas modificadas]**: el número de líneas modificadas.
+* **[!UICONTROL Líneas completadas]**: el número de líneas completadas.
 * **[!UICONTROL Hora de finalización]**: la fecha y hora en que se completó el trabajo (o falló).
