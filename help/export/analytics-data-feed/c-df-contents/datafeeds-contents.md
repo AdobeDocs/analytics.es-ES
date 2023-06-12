@@ -5,16 +5,30 @@ subtopic: data feeds
 title: Resumen del contenido de la fuente de datos
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 92%
 
 ---
 
-# Resumen del contenido de la fuente de datos
+# Resumen del contenido de las fuentes de datos
 
-En esta sección se describen los archivos que se encuentran en una entrega de fuentes de datos.
+Las secciones siguientes describen cómo acceder y comprender los archivos que se encuentran en una entrega de fuentes de datos.
+
+## Acceso al contenido de fuentes de datos
+
+Para acceder al contenido de una fuente de datos:
+
+1. Inicie sesión en el sitio de destino de la fuente de datos.
+
+   Este es el sitio de destino que configura al crear la fuente de datos, como un bloque de Amazon S3 o Google Cloud Platform.
+
+1. Descargue el archivo de fuente de datos comprimido en el equipo local.
+
+1. Descomprima el archivo comprimido con un programa que admita extensiones de archivo `.tar.gz`.
+
+1. Abra el archivo `hit_data.tsv` en la hoja de cálculo o la aplicación de base de datos que desee para ver los datos sin procesar de ese día. —>
 
 ## Archivo de manifiesto {#feed-manifest}
 

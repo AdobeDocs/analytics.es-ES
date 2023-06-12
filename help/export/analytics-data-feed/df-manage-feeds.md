@@ -3,10 +3,10 @@ title: Interfaz de usuario de fuentes de datos
 description: Obtenga información sobre cómo navegar por la interfaz de fuentes de datos.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-wordcount: '646'
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ Haga clic en la pestaña Trabajos para ver los trabajos individuales que cada un
 
 ### Agregar
 
-Cerca de las pestañas de fuentes y trabajos, haga clic en el botón + [!UICONTROL Agregar] para crear una nueva fuente. Consulte [Agregar una fuente](create-feed.md) para obtener más información.
+Cerca de las pestañas de fuentes y trabajos, haga clic en el botón + [!UICONTROL Agregar] para crear una nueva fuente. Consulte [Crear una fuente de datos](create-feed.md) para obtener más información.
 
 ### Columnas
 
@@ -66,8 +66,8 @@ Cada fuente creada muestra varias columnas que proporcionan información al resp
 * **ID del grupo de informes**: el identificador único del grupo de informes.
 * **Columnas de datos**: qué columnas de datos están activas para la fuente. En la mayoría de los casos, hay demasiadas columnas para mostrar en este formato.
 * **Intervalo**: indicador de si la fuente es por hora o por día.
-* **Tipo de destino**: el tipo de destino de la fuente. Por ejemplo: FTP, Amazon S3 o Azure.
-* **Host de destino**: ubicación en la que se coloca el archivo. Por ejemplo: `ftp.example.com`.
+* **Tipo de destino**: el tipo de destino de la fuente. Por ejemplo, Amazon S3, GCP o Azure.
+* **Host de destino**: ubicación en la que se coloca el archivo.
 * **Propietario**: cuenta de usuario que creó la fuente.
 * **Estado**: el estado de la fuente.
    * Activa: la fuente se está ejecutando.
