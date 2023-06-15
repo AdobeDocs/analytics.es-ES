@@ -3,10 +3,10 @@ title: Instancias
 description: El número de visitas que se configuró una variable (y no persistió).
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 65%
 
 ---
 
@@ -17,3 +17,7 @@ La métrica “Instancias” muestra el número de veces que una dimensión se h
 ## Cálculo de esta métrica
 
 De todas las visitas individuales de un grupo de informes, solo incluye las visitas que establecen explícitamente un elemento de dimensión en la solicitud de imagen. Algunas dimensiones, como las [eVars](../dimensions/evar.md), persisten más allá de la visita en la que están configuradas. Las métricas como [Vistas de página](page-views.md) y [Ocurrencias](occurrences.md) cuentan tanto los valores iniciales como los persistentes. Esta métrica no cuenta los valores persistentes.
+
+Por ejemplo, un visitante llega a su sitio y utiliza la búsqueda interna. Rastrea la búsqueda interna en eVar1. Después de usar la búsqueda interna una vez, visitan cinco páginas más antes de irse.
+
+Si viera un informe en el espacio de trabajo, vería una instancia de eVar1 y seis repeticiones. La instancia única se activó en la página de resultados de búsqueda, mientras que las ocurrencias contaron el valor inicial así como los valores persistentes.

@@ -4,10 +4,10 @@ description: Incluye las dimensiones de entrada y su uso.
 keywords: página de entrada, sección de entrada al sitio, servidor de entrada, conocimiento personalizado de entrada
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 *Esta página de ayuda describe cómo funcionan las entradas como una dimensión. Para obtener información sobre cómo funcionan las entradas como métricas, consulte la métrica [Entradas](../metrics/entries.md).*
 
-Las dimensiones de entrada se basan en visitas. Registran el primer elemento de dimensión y lo mantienen durante toda la visita. Las dimensiones de entrada están disponibles para todas las variables con las rutas habilitadas en [Variables de tráfico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes.
+Las dimensiones de entrada son [basado en visitas](../metrics/visits.md). Registran el primer elemento de dimensión y lo mantienen durante toda la visita. Las dimensiones de entrada están disponibles para todas las variables con las rutas habilitadas en [Variables de tráfico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes.
 
 ## Rellenar dimensiones de entrada con datos
 

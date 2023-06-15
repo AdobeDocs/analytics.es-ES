@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Resumen del contenido de la fuente de datos
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 92%
+source-wordcount: '981'
+ht-degree: 77%
 
 ---
 
@@ -81,24 +81,24 @@ Los archivos de búsqueda se entregan juntos en un zip comprimido al que se le a
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* [!DNL column_headers.tsv] (personalizado para esta fuente de datos)
-* [!DNL browser.tsv]
-* [!DNL browser_type.tsv]
-* [!DNL color_depth.tsv]
-* [!DNL connection_type.tsv]
-* [!DNL country.tsv]
-* [!DNL javascript_version.tsv]
-* [!DNL languages.tsv]
-* [!DNL operating_systems.tsv]
-* [!DNL plugins.tsv]
-* [!DNL resolution.tsv]
-* [!DNL referrer_type.tsv]
-* [!DNL search_engines.tsv]
-* [!DNL event_lookup.tsv] (personalizado para esta fuente de datos)
+* **`column_headers.tsv`**: una sola fila que contiene los encabezados de columna para `hit_data.tsv`.
+* **`browser.tsv`**: Asigna el ID del explorador (la variable `browser` fuente (columna ) con el nombre descriptivo del explorador.
+* **`browser_type.tsv`**: Asigna el ID del explorador (la variable `browser` fuente (columna) al tipo de explorador.
+* **`color_depth.tsv`**: asigna el ID de profundidad de color (el `color` fuente (columna) a la profundidad de color.
+* **`connection_type.tsv`**: Asigna el ID de tipo de conexión (el `connection_type` fuente (columna ) al tipo de conexión.
+* **`country.tsv`**: asigna el ID de país (el `country` fuente (columna) al nombre del país.
+* **`javascript_version.tsv`**: Asigna el ID de versión de JavaScript (el `javascript` fuente (columna ) a la versión de JavaScript.
+* **`languages.tsv`**: Asigna el ID de idioma (la variable `language` fuente (columna) al idioma.
+* **`operating_systems.tsv`**: asigna el ID del sistema operativo (el `os` fuente (columna ) al nombre del sistema operativo.
+* **`plugins.tsv`**: Asigna los ID del complemento (la variable `plugin` fuente (columna ) con cada nombre de complemento correspondiente.
+* **`resolution.tsv`**: Asigna el ID de resolución (la variable `resolution` fuente (columna) a la resolución del monitor.
+* **`referrer_type.tsv`**: Asigna el ID de tipo de referente (el `ref_type` fuente (columna) al tipo de referente.
+* **`search_engines.tsv`**: Asigna el ID del motor de búsqueda (la variable `search_engine` fuente (columna ) al nombre del motor de búsqueda.
+* **`event.tsv`**: asigna cada ID de evento (la variable `event_list` fuente (columna) a su nombre de evento respectivo.
 
 ## Archivos de datos de visitas
 
-Los datos de visitas se proporcionan en un archivo [!DNL hit_data.tsv]. La cantidad de datos incluida en este archivo viene determinada por el formato de entrega (por hora o por día, y en un archivo o en varios). El archivo contiene solo datos de visitas. Los encabezados de columna se entregan por separado con los archivos de búsqueda. Cada fila del archivo contiene una sola llamada al servidor.
+Los datos de visitas se proporcionan en un archivo `hit_data.tsv`. La cantidad de datos incluida en este archivo viene determinada por el formato de entrega (por hora o por día, y en un archivo o en varios). El archivo contiene solo datos de visitas. Los encabezados de columna se entregan por separado con los archivos de búsqueda. Cada fila del archivo contiene una sola llamada al servidor.
 
 Los archivos que Adobe entrega varían en función del tipo de fuente de datos que usted haya configurado. Todos los archivos se codifican con ISO-8859-1.
 

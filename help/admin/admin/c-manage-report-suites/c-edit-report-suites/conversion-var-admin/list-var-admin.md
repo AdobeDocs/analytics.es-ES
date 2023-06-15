@@ -3,31 +3,27 @@ title: Variables de lista
 description: Cree y configure variables de lista para usar en sistema de informes.
 feature: Admin Tools
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '480'
+ht-degree: 92%
 
 ---
 
 # Variables de lista
 
-Cree y configure variables de lista para usar en sistema de informes. Defina aquí sus valores de delimitador, caducidad, asignación y máximo.
+Cree y configure variables de lista para usar en sistema de informes. Establezca sus valores de delimitador, caducidad, asignación y máximo.
 
-Puede acceder a la configuración en Admin Console:
-
-1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]**.
-2. Seleccione el grupo de informes.
-3. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Lista de variables]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Métodos de localización]**
 
 * **Nombre**: Cada valor delimitado puede contener un máximo de 255 caracteres (o menos si se utilizan caracteres multibyte). Esta es la longitud máxima de cada elemento.
 * **Delimitador de valores**: carácter utilizado para separar valores en una variable de lista. Normalmente son caracteres como comas, dos puntos, barras verticales o algún otro similar.
 
-   >[!NOTE]
-   >
-   >Los caracteres de bytes múltiples no se admiten como delimitadores en variables de lista. El delimitador debe ser de un solo byte.
+  >[!NOTE]
+  >
+  >Los caracteres de bytes múltiples no se admiten como delimitadores en variables de lista. El delimitador debe ser de un solo byte.
 
-* **Caducidad**: similar a la caducidad de eVar, determina la cantidad de tiempo que puede transcurrir entre la variable de lista y el evento de conversión para que se relacionen.
+* **Caducidad**: Similar a la caducidad del eVar, este campo determina la cantidad de tiempo que puede producirse entre la variable de lista y el evento de conversión para que se relacionen.
    * **A nivel de vista de página o visita**: Los eventos de éxito más allá de la vista de página o la visita no se vincularán con ningún valor que haya dentro de la variable de lista.
    * **En función de un período de tiempo como día, semana, mes, etc.**: Los eventos de éxito que no entren dentro del período de tiempo especificado no se vincularán a ningún valor que haya dentro de la variable de lista. También se puede definir un número de días personalizado.
    * **Eventos de conversión específicos**: Cualquier otro evento de éxito que se active después del evento específico designado no se vinculará con ningún valor que haya dentro de la variable de lista.

@@ -4,16 +4,18 @@ subtopic: Classifications
 title: Jerarquías de clasificación
 feature: Classifications
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 97%
 
 ---
 
 # Jerarquías de clasificación
 
 La página Jerarquías de clasificación le permite definir jerarquías de clasificación que puede utilizar para crear informes de jerarquía con el mismo nombre.
+
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Jerarquías de clasificación]**
 
 ## Jerarquías de clasificación {#concept_10A956342D7D4C3E9114CCFCE1364741}
 
