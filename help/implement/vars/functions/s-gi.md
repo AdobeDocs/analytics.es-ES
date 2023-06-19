@@ -4,9 +4,9 @@ description: Cree y rastree instancias de AppMeasurement.
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -14,18 +14,18 @@ ht-degree: 73%
 
 La función `s_gi()` crea una instancia de AppMeasurement o la encuentra por el ID del grupo de informes. AppMeasurement realiza un seguimiento de todas las instancias que se crean y `s_gi()` devuelve la instancia de un grupo de informes, si existe. Si no existe, se crea una nueva instancia.
 
-## Crear una instancia de un objeto de seguimiento con la extensión SDK para web
+## Creación de una instancia de un objeto de seguimiento con la extensión SDK web
 
-La extensión del SDK web crea una instancia del objeto de seguimiento y lo administra. Sin embargo, puede personalizar el nombre del objeto de seguimiento en la configuración de la extensión:
+La extensión SDK de Analytics crea una instancia del objeto de seguimiento y lo administra. Sin embargo, puede personalizar el nombre del objeto de seguimiento en la configuración de la extensión:
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
-1. Vaya a la [!UICONTROL Extensiones] y, a continuación, haga clic en **[!UICONTROL Configurar]** en el SDK web de Adobe Experience Platform.
-1. Cambie el [!UICONTROL Nombre] al valor deseado. Su valor predeterminado es `alloy`.
+1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** bajo el SDK web de Adobe Analytics.
+1. Cambie el campo [!UICONTROL Nombre] al valor deseado. Su valor predeterminado es `alloy`.
 
-## Crear una instancia de un objeto de seguimiento implementando manualmente el SDK web
+## Creación de una instancia de un objeto de seguimiento implementando manualmente el SDK web
 
-El siguiente código carga el SDK web y crea una instancia de un objeto de seguimiento. Puede personalizar el nombre del objeto de seguimiento cambiando la cadena `"alloy"` al final del script en línea hasta el valor deseado.
+El siguiente código carga el SDK web y crea una instancia de un objeto de seguimiento. Puede personalizar el nombre del objeto de seguimiento cambiando la cadena `"alloy"` al final del script en línea al valor deseado.
 
 ```js
 <script>
@@ -39,7 +39,7 @@ El siguiente código carga el SDK web y crea una instancia de un objeto de segui
 
 Consulte [Instalación del SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=es) en la documentación del SDK web para obtener más información.
 
-## Creación de una instancia de un objeto de seguimiento con la extensión Adobe Analytics
+## Creación de una instancia de un objeto de seguimiento con la extensión de Adobe Analytics
 
 La extensión de Analytics crea una instancia del objeto de seguimiento y lo administra. Sin embargo, también puede establecer un objeto de seguimiento global en el acordeón de [!UICONTROL Administración de biblioteca] al configurar la extensión de Adobe Analytics.
 
