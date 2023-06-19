@@ -4,7 +4,7 @@ description: Recopilación de notas de versiones de AppMeasurement para JavaScri
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
 ht-degree: 100%
 
@@ -376,24 +376,24 @@ Fecha de versión: **18 de septiembre de 2014**
 
 * Se agregó una variable `tagContainerMarker` que permite la implementación para especificar hasta 4 caracteres que se anexan a la cadena de versión junto con un delimitador de guion adicional. Se usa mediante la administración dinámica de etiquetas.
 
-   ```js
-   // JavaScript
-   s.tagContainerMarker = "D1.0";
-   
-   // Data Collection request
-   //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
-   ```
+  ```js
+  // JavaScript
+  s.tagContainerMarker = "D1.0";
+  
+  // Data Collection request
+  //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
+  ```
 
-   Los cuatro caracteres se limitan a caracteres permitidos en las rutas de archivo de URL, como caracteres alfanuméricos y punto.
+  Los cuatro caracteres se limitan a caracteres permitidos en las rutas de archivo de URL, como caracteres alfanuméricos y punto.
 
 * En las páginas con doble etiqueta con código H, se corrigió un bucle que se podía producir durante el seguimiento automático de vínculos (descarga y salida) cuando se habilita el seguimiento forzado de vínculos (exploradores de Webkit predeterminados). Además, se agregó una protección general en torno al seguimiento automático de vínculos para impedir bucles similares. Esta protección limita el seguimiento automático de vínculos de clics repetidos con el *mismo* objeto a una vez cada 10 segundos. Esta protección se aplica solo al seguimiento automático de vínculos, de modo que las llamadas al seguimiento manual de vínculos (s.tl) no están limitadas. Los clics a diferentes objetos tampoco se ven afectados por esta protección y se seguirán.
 * Se corrigió el control del objeto en el que se hace clic cuando es necesario un retraso.
 * Se corrigió un problema que provocaba un recuento doble de vista de página cuando se llamaba a s.t desde una función de onclick de vínculo, si la API del visitante no tiene aún los valores necesarios.
 * Compatibilidad con HTTP POST.
 
-   >[!IMPORTANT]
-   >
-   >Para que una llamada de [!DNL Analytics] utilice el método POST en lugar del método GET en [!DNL AppMeasurement] (para resolver [URL truncadas en IE](https://helpx.adobe.com/es/analytics/kb/shortening-image-request-urls.html)), debe utilizar la implementación más reciente del servicio de ID de visitante para Experience Cloud.
+  >[!IMPORTANT]
+  >
+  >Para que una llamada de [!DNL Analytics] utilice el método POST en lugar del método GET en [!DNL AppMeasurement] (para resolver [URL truncadas en IE](https://helpx.adobe.com/es/analytics/kb/shortening-image-request-urls.html)), debe utilizar la implementación más reciente del servicio de ID de visitante para Experience Cloud.
 
 ## Versión 1.4
 
@@ -482,11 +482,11 @@ Fecha de versión: **18 de julio de 2013**
 
 * Ahora el seguimiento automático de vínculos ignora el hash/fragmento. Anteriormente, se seguía automáticamente la siguiente URL porque la `href` entera terminaba en `.pdf` :
 
-   ```js
-   <a href="index.htm#anchor.pdf">Test Link</a>
-   ```
+  ```js
+  <a href="index.htm#anchor.pdf">Test Link</a>
+  ```
 
-   Ahora se ignora el hash/fragmento de modo que el vínculo solo se sigue cuando el nombre del archivo termina en una extensión que coincide.
+  Ahora se ignora el hash/fragmento de modo que el vínculo solo se sigue cuando el nombre del archivo termina en una extensión que coincide.
 
 ## Versión 1.0.1
 
