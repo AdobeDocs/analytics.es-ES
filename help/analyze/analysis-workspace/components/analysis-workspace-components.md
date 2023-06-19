@@ -4,8 +4,8 @@ title: Resumen de componentes
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
-workflow-type: ht
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo d
    | [!UICONTROL **Favoritos**] | Mostrar solo los componentes que se encuentran en la lista de Favoritos. Para obtener información acerca de cómo añadir componentes a la lista de favoritos, consulte [Información general sobre componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **Dimensiones**] | Mostrar solo los componentes que son dimensiones. |
    | [!UICONTROL **Métricas**] | Mostrar solo los componentes que son métricas. |
-   | [!UICONTROL **Segmentos**] | Mostrar solo los componentes que son segmentos. <!--this is Filters in CJA--> |
+   | [!UICONTROL **Segmentos**] | Mostrar solo los componentes que son segmentos. <!--this is Filters in Customer Jourey Analytics--> |
    | [!UICONTROL **Intervalos de fechas**] | Mostrar solo los componentes que son intervalos de fechas. |
    | [!UICONTROL **Mostrar todo**] | Mostrar todos los componentes. Esta opción solo está disponible para administradores. |
    | [!UICONTROL **No aprobado**] | Mostrar solo los componentes que aún no están marcados como Aprobado por un administrador. Como administrador, resulta útil a la hora de identificar los componentes que requieren su revisión y aprobación. Esta opción solo está disponible para administradores. |

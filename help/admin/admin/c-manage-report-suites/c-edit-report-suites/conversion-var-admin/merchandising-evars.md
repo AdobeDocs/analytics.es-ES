@@ -3,10 +3,10 @@ title: eVars de comercialización y métodos de búsqueda de productos
 description: Una profundización en los conceptos subyacentes a las eVars de comercialización y en cómo procesan y asignan los datos.
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '5289'
-ht-degree: 100%
+source-wordcount: '5297'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ Para demostrar cómo configurar estas variables, aquí tiene un ejemplo en el qu
 * `eVar2` es igual a la palabra clave que se utilizó en la búsqueda (sandalias)
 * `eVar1` es igual al método de localización de productos utilizado (búsqueda de palabras clave interna).
 
-Cuando establece estas dos variables en función de estos valores específicos, sabe que el visitante está usando el término de búsqueda de palabra clave interna “sandalias” para encontrar un producto. Al mismo tiempo, sabe que el visitante no está usando los otros métodos de búsqueda de productos para encontrarlos (por ejemplo, el visitante no está navegando a través de las categorías de productos al mismo tiempo que realiza una búsqueda de palabras clave). Para garantizar que se realice la asignación adecuada por producto, estos métodos no utilizados no deben obtener crédito por encontrar un producto que se haya encontrado mediante una búsqueda de palabras clave interna. Por lo tanto, debe insertar una lógica en el código (como AppMeasurement, AEP Web SDK, etc.) que establezca automáticamente las eVars asociadas con estos otros métodos de búsqueda iguales a un valor de método de no localización.
+Cuando establece estas dos variables en función de estos valores específicos, sabe que el visitante está usando el término de búsqueda de palabra clave interna “sandalias” para encontrar un producto. Al mismo tiempo, sabe que el visitante no está usando los otros métodos de búsqueda de productos para encontrarlos (por ejemplo, el visitante no está navegando a través de las categorías de productos al mismo tiempo que realiza una búsqueda de palabras clave). Para garantizar que se realice la asignación adecuada por producto, estos métodos no utilizados no deben obtener crédito por encontrar un producto que se haya encontrado mediante una búsqueda de palabras clave interna. Por lo tanto, debe insertar una lógica en el código (como AppMeasurement, SDK web de Adobe Experience Platform, etc.) que establezca automáticamente las eVars asociadas con estos otros métodos de búsqueda iguales a un valor de método de no localización.
 
 Por ejemplo, cuando un usuario busca productos utilizando la palabra clave “sandalias”, la lógica del código de Analytics debe establecer las variables iguales a las siguientes en la página de resultados de búsqueda de la palabra clave interna:
 
@@ -80,7 +80,7 @@ Cuando la opción Habilitar comercialización está habilitada, todas las opcion
 
 Esta opción no está disponible para eVars estándar. La configuración de [!UICONTROL Comercialización] permite elegir entre [!UICONTROL Sintaxis de la variable de conversión] o [!UICONTROL Sintaxis del producto] como método para capturar el valor de la eVar de comercialización.
 
-La **[!UICONTROL Sintaxis de la variable de conversión]** significa que el valor de la eVar se establece en su propia variable. Por ejemplo, con Sintaxis de la variable de conversión, el valor `eVar1` de búsqueda de palabra clave interna se establece de la siguiente manera dentro del código de página (o el código AppMeasurement, el código AEP WebSDK, etc.):
+La **[!UICONTROL Sintaxis de la variable de conversión]** significa que el valor de la eVar se establece en su propia variable. Por ejemplo, con Sintaxis de la variable de conversión, la variable `eVar1` El valor de búsqueda de palabras clave interna se establece de la siguiente manera dentro del código de página (o el código de AppMeasurement, el código SDK web de Adobe Experience Platform, etc.):
 
 `s.eVar1="internal keyword search";`
 
@@ -271,11 +271,11 @@ Si el visitante agrega un producto al carro de compras, pero nunca lo compra, la
 
 ### Uso de Sintaxis de la variable de conversión
 
-Volvamos a la Sintaxis del producto frente a la pregunta Sintaxis de la variable de conversión. Adobe ha descubierto un método más sencillo para recopilar eVars de comercialización del método de localización de productos y enlazar sus valores a productos que los visitantes han encontrado: el uso de Sintaxis de variables de conversión reduce el trabajo de implementación del que son responsables los desarrolladores del cliente. Sigue ofreciendo la misma información (o incluso mejor) que el método de Sintaxis del producto. Los desarrolladores simplemente tienen que seguir las instrucciones de implementación que se les han dado y el resto del código se puede colocar en el archivo SDK web de Adobe AppMeasurement/AEP.
+Volvamos a la Sintaxis del producto frente a la pregunta Sintaxis de la variable de conversión. Adobe ha descubierto un método más sencillo para recopilar eVars de comercialización del método de localización de productos y enlazar sus valores a productos que los visitantes han encontrado: el uso de Sintaxis de variables de conversión reduce el trabajo de implementación del que son responsables los desarrolladores del cliente. Sigue ofreciendo la misma información (o incluso mejor) que el método de Sintaxis del producto. Los desarrolladores simplemente tienen que seguir las instrucciones de implementación que se les han dado y el resto del código se puede colocar en el archivo SDK web de Adobe AppMeasurement/Adobe Experience Platform.
 
 Por ejemplo, veamos la solución recomendada para rastrear el rendimiento interno de la búsqueda de palabras clave. Dice que en la página de resultados de búsqueda de palabras clave, el código captura la palabra clave buscada a través de una prop (por ejemplo, prop4) y otra prop (por ejemplo, prop5). Estas props hacen un seguimiento de la cantidad de resultados que se muestran en la búsqueda. Siempre que se genera una solicitud de imagen de Adobe Analytics en la página de resultados de la búsqueda, se utilizan los objetos de capa de datos (o código de página) implementados por los desarrolladores para rellenar las variables anteriores (las props).
 
-La lógica adicional contenida en el archivo SDK web de AppMeasurement/AEP puede rellenar el resto de las variables (las eVars/dimensiones de comercialización) que deben configurarse al mismo tiempo.\
+La lógica adicional contenida en el archivo SDK web de AppMeasurement/Adobe Experience Platform puede rellenar el resto de las variables (las eVars/dimensiones de comercialización) que deben configurarse al mismo tiempo.\
 Por ejemplo, si un nuevo visitante realizara una búsqueda de palabra clave de “sandalias” que arroja 25 resultados en la página de resultados de búsqueda, el código que se activaría (a través del código de página O la captura de capa de datos) tendría este aspecto:
 
 ```js

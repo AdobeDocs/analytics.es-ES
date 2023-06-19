@@ -3,10 +3,10 @@ title: getPageLoadTime
 description: Rastree el tiempo que tarda una página en cargarse.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 88%
+source-wordcount: '586'
+ht-degree: 86%
 
 ---
 
@@ -18,9 +18,9 @@ El complemento `getPageLoadTime` utiliza el objeto de rendimiento JavaScript par
 
 >NOTA/ADVERTENCIA: Si está actualizando este complemento desde una versión anterior, lo más probable es que también tenga que cambiar el código que llama a esta función.  Compruebe la implementación y realice pruebas exhaustivas antes de implementarla en producción
 
-## Instalación del complemento con la extensión SDK web o SDK web
+## Instalación del complemento con el SDK web o la extensión del SDK web
 
-Este complemento aún no se puede usar en el SDK web.
+Este complemento aún no es compatible con el SDK web.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 
@@ -40,7 +40,7 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 ## Instalación del complemento con el editor de código personalizado de 
 
-Si no desea utilizar la extensión de complemento de Analytics comunes, puede utilizar el editor de código personalizado.
+Si no desea utilizar la extensión de complemento Common Analytics Plugins, puede utilizar el editor de código personalizado.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
@@ -96,7 +96,7 @@ if(window._pltPreviousPage)
 
 ### 3.0 (6 de diciembre de 2022)
 
-* Reescritura completa del complemento para que sea independiente de la solución.  Por ejemplo, ahora es compatible con el SDK web de AEP
+* Reescritura completa del complemento para que sea independiente de la solución.  Por ejemplo, esto ahora es compatible con el SDK web de Adobe Experience Platform
 * Crea las variables `_pltPreviousPage` y `_pltLoadTime` en el objeto de ventana (en lugar de en el objeto s de AppMeasurement)
 * Elimina la necesidad de la cookie s_pltp: ahora todo está almacenado únicamente en la cookie s_plt
 * Incluye la función getVersion para ayudar en la resolución de problemas

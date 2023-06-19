@@ -3,10 +3,10 @@ description: Explica las mejoras en el reenvío del lado del servidor que se han
 title: Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 60%
 
 ---
 
@@ -16,11 +16,11 @@ En esta sección se explican las mejoras aplicadas en el reenvío del lado del s
 
 El reenvío del lado del servidor se utiliza para compartir en tiempo real datos de Adobe Analytics con otras soluciones de [!DNL Experience Cloud Solutions], como Audience Manager. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de Experience Cloud. Asimismo, también permite a estas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
 
-Anteriormente, el reenvío del lado del servidor no tenía una forma de delinear entre el consentimiento y los eventos/visitas previos al consentimiento. Desde el 1 de noviembre de 2018, usted, como responsable del tratamiento de datos (cliente de Adobe Analytics), tiene la opción de restringir datos preconsentidos a Adobe Analytics e impedir que se reenvíen a AAM. Una nueva variable de contexto de implementación le permite marcar las visitas en las que no se recibió consentimiento. Cuando esta variable está establecida, impide que dichas visitas se envíen a AAM hasta haber recibido el consentimiento.
+Anteriormente, el reenvío del lado del servidor no tenía una forma de delinear entre el consentimiento y los eventos/visitas previos al consentimiento. A partir del 1 de noviembre de 2018, usted como responsable del tratamiento de datos (cliente de Adobe Analytics) tendrá la opción de restringir a Adobe Analytics los datos previos al consentimiento y de evitar que se reenvíen a Adobe Audience Manager. Una nueva variable de contexto de implementación le permite marcar las visitas en las que no se recibió consentimiento. Cuando esta variable está establecida, impide que estas visitas se envíen a Adobe Audience Manager hasta que se haya recibido el consentimiento.
 
-Si esta nueva variable contextual, `cm.ssf=1`, existe en una visita, esta se marca y no se incluye en el reenvío del lado del servidor a AAM. Por el contrario, si esta cadena no aparece en una visita, se reenvía a AAM.
+Cuando esta nueva variable de contexto `cm.ssf=1`, existe en una visita, esta se marca y no se incluye en el reenvío del lado del servidor a Adobe Audience Manager. Por el contrario, si esta cadena no aparece en una visita, la visita se reenvía a Adobe Audience Manager.
 
-El reenvío del lado del servidor es bidireccional, lo que significa que cuando se aplica a una visita y esta se reenvía a AAM, Audience Analytics recibe de AAM información de segmento de dicha visita y la vuelve a enviar a Analytics. En consecuencia, las visitas que no se incluyan en el reenvío del lado del servidor de Analytics a AAM no se enriquecerán con la lista de ID de segmento de AAM. Así pues, habrá un subconjunto de tráfico o visitas que no recibirá información sobre ID de segmento de AAM.
+El reenvío del lado del servidor es bidireccional, lo que significa que cuando se aplica a una visita y esa visita se reenvía a Adobe Audience Manager, el Audience Analytics recibe información del segmento para esa visita de Adobe Audience Manager y la envía de vuelta a Analytics. Como resultado, las visitas que no se reenvíen del lado del servidor de Analytics a Adobe Audience Manager no se ampliarán con la lista de ID de segmento de Adobe Audience Manager. Por lo tanto, habrá un subconjunto de tráfico/visitas que no obtendrá información de ID de segmento de Adobe Audience Manager.
 
 ## Detalles de implementación {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
@@ -33,7 +33,7 @@ Siga los pasos indicados en función del método de implementación.
 
 ## Creación de informes (opcional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-Puede usar Adobe Analytics para generar informes sobre el volumen de su tráfico consentido y que, por lo tanto, se ha incluido en el reenvío del lado del servidor. De este modo, puede compararlo con el volumen de su tráfico no consentido y que, de igual manera, no se ha reenviado a AAM.
+Puede utilizar Adobe Analytics para generar informes sobre el volumen de su tráfico consentido y que, como resultado, se ha reenviado del lado del servidor. De este modo, puede compararlo con el volumen de su tráfico no consentido y que, de igual manera, no se ha reenviado a Adobe Audience Manager.
 
 Para configurar este tipo de informes, asigne la nueva variable contextual a una variable de tráfico personalizado (prop) mediante reglas de procesamiento. Para ello, haga lo siguiente:
 

@@ -4,9 +4,9 @@ title: Página de aterrizaje de Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '3952'
+source-wordcount: '3954'
 ht-degree: 99%
 
 ---
@@ -29,7 +29,7 @@ La página de aterrizaje de Adobe Analytics reúne a [!DNL Analysis Workspace] y
 | Nuevos vínculos a informes de **[!UICONTROL Reports &amp; Analytics]** | <ul><li>**[!UICONTROL Informes]** > **[!UICONTROL Audiencia]** > **[!UICONTROL Bots]**</li><li>**[!UICONTROL Informes]** > **[!UICONTROL Audiencia]** > **[!UICONTROL Páginas de bots]**<li>**[!UICONTROL Informes]** > **[!UICONTROL Participación]** > **[!UICONTROL Tiempo real]**</li></ul> | ![Nuevos vínculos](assets/report-links.png) |
 | Nuevos informes predeterminados | <ul><li>**[!UICONTROL Informes]** > **[!UICONTROL Más popular]** > **[!UICONTROL Página siguiente]**</li><li>**[!UICONTROL Informes]** > **[!UICONTROL Más popular]** > **[!UICONTROL Página anterior]**</li><li>**[!UICONTROL Informes]** > **[!UICONTROL Participación]** > **[!UICONTROL Análisis de página]** > **[!UICONTROL Resumen de la página]**</li></ul>Tenga en cuenta que estos informes se encuentran en el [!UICONTROL Espacio de trabajo] y requieren configuración y compilación. El resultado consiste en un panel de métricas de alto nivel, datos de tendencias, [!UICONTROL Flujo] visualización, etc. Puede modificar estos informes y cambiar dimensiones, elementos de las dimensiones, etc. Estos informes también están disponibles como paneles en los paneles del espacio de trabajo. | ![Página siguiente](assets/next-page.png) |
 | El modal **[!UICONTROL Crear proyecto]** está de vuelta | Al hacer clic en **[!UICONTROL Crear proyecto]** en el Espacio de trabajo, una vez más puede elegir entre un [!UICONTROL Proyecto en blanco] y un [!UICONTROL Cuadro de resultados móviles en blanco]. También puede elegir entre cualquier plantilla que haya creado su compañía. | ![Crear nuevo](assets/create-new.png) |
-| También disponible en Customer Journey Analytics | Esta página de aterrizaje, en un formulario modificado, también está disponible en CJA. |  |
+| También disponible en Customer Journey Analytics | Esta página de aterrizaje, en un formulario modificado, también está disponible en Customer Journey Analytics. |  |
 
 {style="table-layout:auto"}
 

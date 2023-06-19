@@ -1,23 +1,23 @@
 ---
-description: También puede utilizar las dimensiones Audiencias de AAM en Analytics. Los segmentos integrados son nuevas dimensiones de Analytics llamadas ID de audiencias y Nombre de audiencias, y pueden utilizarse como cualquier otra dimensión que Analytics recopile. En Fuentes de datos, los ID de audiencia se almacenan en la columna “mc_audiences”. Estas dimensiones no están disponibles en este momento en Data Workbench o Livestream. Estos son algunos ejemplos de cómo puede aprovechar las dimensiones Audiencias
+description: Puede utilizar las dimensiones Audiencia de Adobe Audience Manager en todo Analytics. Los segmentos integrados son nuevas dimensiones de Analytics llamadas ID de audiencias y Nombre de audiencias, y pueden utilizarse como cualquier otra dimensión que Analytics recopile. En Fuentes de datos, los ID de audiencia se almacenan en la columna “mc_audiences”. Estas dimensiones no están disponibles en este momento en Data Workbench o Livestream. Estos son algunos ejemplos de cómo puede aprovechar las dimensiones Audiencias
 solution: Experience Cloud
 title: Utilización de los datos de audiencias en Analytics
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 90%
 
 ---
 
 # Utilización de los datos de audiencias en Analytics
 
-También puede utilizar las dimensiones Audiencias de AAM en Analytics. Los segmentos integrados son nuevas dimensiones de Analytics llamadas ID de audiencias y Nombre de audiencias, y pueden utilizarse como cualquier otra dimensión que Analytics recopile. En Fuentes de datos, los ID de audiencia se almacenan en la columna “mc_audiences”. Estas dimensiones no están disponibles en este momento en Data Workbench o Livestream. Estos son algunos ejemplos de cómo puede aprovechar las dimensiones Audiencias:
+Puede utilizar las dimensiones Audiencia de Adobe Audience Manager en todo Analytics. Los segmentos integrados son nuevas dimensiones de Analytics llamadas ID de audiencias y Nombre de audiencias, y pueden utilizarse como cualquier otra dimensión que Analytics recopile. En Fuentes de datos, los ID de audiencia se almacenan en la columna “mc_audiences”. Estas dimensiones no están disponibles en este momento en Data Workbench o Livestream. Estos son algunos ejemplos de cómo puede aprovechar las dimensiones Audiencias:
 
 ## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
 
-En Analysis Workspace, los segmentos de AAM aparecen como dos dimensiones.
+En Analysis Workspace, los segmentos de Adobe Audience Manager aparecen como dos dimensiones.
 
 1. Vaya a **[!UICONTROL Workspace]**.
 1. En la lista de **[!UICONTROL Dimensiones]**, seleccione **[!UICONTROL ID de audiencia]** o **[!UICONTROL Nombre de audiencia]**. Nombre es una clasificación descriptiva del ID.
@@ -43,7 +43,7 @@ En Analysis Workspace, los segmentos de AAM aparecen como dos dimensiones.
 
 ## Viaje del cliente (Flujo) en Analysis Workspace {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-Los datos de segmentos de AAM se pasan a Analytics para cada visita y representan el estado de pertenencia de un visitante a las distintas audiencias en un momento dado. Esto significa que un visitante podría encajar en un segmento (p. ej., “Conocimiento”) y más tarde tener la cualificación para un segmento superior (p. ej., “Consideración”). Puede utilizar [Flujo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=es) en Analysis Workspace para visualizar el viaje que realiza un visitante entre audiencias.
+Los datos de segmentos de Adobe Audience Manager se pasan a Analytics para cada visita y representan el estado de pertenencia de un visitante a las distintas audiencias en un momento dado. Esto significa que un visitante podría encajar en un segmento (p. ej., “Conocimiento”) y más tarde tener la cualificación para un segmento superior (p. ej., “Consideración”). Puede utilizar [Flujo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=es) en Analysis Workspace para visualizar el viaje que realiza un visitante entre audiencias.
 
 1. Vaya a **[!UICONTROL Workspace]** y seleccione el panel **[!UICONTROL Flujo]** en el carril izquierdo.
 

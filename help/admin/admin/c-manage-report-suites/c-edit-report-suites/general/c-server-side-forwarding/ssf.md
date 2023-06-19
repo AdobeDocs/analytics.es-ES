@@ -4,10 +4,10 @@ solution: Analytics
 title: Resumen del reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ El reenvío del lado del servidor mejora la recopilación de datos porque:
 >Los clientes existentes de Audience Manager que utilicen Analytics deberían migrar al reenvío del lado del servidor. Los nuevos clientes de Adobe Analytics y Audience Manager deberían implementar el reenvío del lado del servidor (en lugar de DIL) como método predeterminado de recopilación y transferencia de datos.
 
 >[!IMPORTANT]
->A instancias del reglamento de la UE sobre cumplimiento normativo de las cookies, los controladores de datos (clientes de Analytics) tienen ahora la opción de restringir a Adobe Analytics los datos previos al consentimiento y de impedir que se reenvíen en el lado del servidor a Adobe Audience Manager (AAM). Una nueva variable de contexto de implementación le permite marcar las visitas en las que no se recibió consentimiento. Cuando esta variable está establecida, impide que dichas visitas se envíen a AAM hasta haber recibido el consentimiento. Para obtener más información, consulte [RGPD_ePrivacy cumplimiento y reenvío del lado del servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
+>A instancias del reglamento de la UE sobre cumplimiento normativo de las cookies, los controladores de datos (clientes de Analytics) tienen ahora la opción de restringir a Adobe Analytics los datos previos al consentimiento y de impedir que se reenvíen en el lado del servidor a Adobe Audience Manager. Una nueva variable de contexto de implementación le permite marcar las visitas en las que no se recibió consentimiento. Cuando esta variable está establecida, impide que estas visitas se envíen a Adobe Audience Manager hasta que se haya recibido el consentimiento. Para obtener más información, consulte [RGPD_ePrivacy cumplimiento y reenvío del lado del servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
 
 Para comprender la posición de su organización en cuanto a la implementación del reenvío del lado del servidor, siga estos pasos de validación:
 
@@ -49,12 +49,12 @@ En la pestaña “Respuesta”, compruebe que la respuesta contenga datos de Aud
 * **&quot;status&quot;:&quot;SUCCESS&quot;**: Tiene implementado el módulo Gestión de público, pero el reenvío de servidor no está configurado correctamente. Siga con el paso 3.
 * Una **imagen 2 x 2**: no tiene implementado el reenvío del lado del servidor o el módulo Gestión de público. Para corregir esto:
 
-   * **Clientes de AAM con DIL**: se deben realizar los dos pasos siguientes en un breve tiempo:
+   * **Clientes de Adobe Audience Manager con DIL**: coordine los dos elementos siguientes en un breve tiempo:
 
       1. Elimine el código DIL e instale el código de página [Módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es).
       1. Habilite el reenvío del lado del servidor en la interfaz de Administración de Analytics como se describe en el paso 3. Habilitar este ajuste antes de eliminar el código DIL duplica datos y crea llamadas de servidor facturables adicionales a Audience Manager.
-   * **Nuevos clientes de AAM**: instale el código de página [Módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es) y siga con el paso 3. No se enviarán datos a Audience Manager hasta que se active el reenvío del lado del servidor en el paso 3.
 
+   * **Nuevos clientes de Adobe Audience Manager** - instale el [Módulo de Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es) código de página y siga con el paso 3. No se enviarán datos a Audience Manager hasta que se active el reenvío del lado del servidor en el paso 3.
 
 ## ![imagen step3_icon.png](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Verificación de la implementación de reenvío de lado del servidor del grupo de informes
 
