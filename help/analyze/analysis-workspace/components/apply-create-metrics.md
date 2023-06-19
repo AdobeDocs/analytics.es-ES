@@ -5,43 +5,43 @@ feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
 # Métricas
 
-Las métricas le permiten cuantificar los puntos de datos en Analysis Workspace. Normalmente se utilizan como columnas en una visualización y vinculadas a dimensiones.
+Las métricas permiten cuantificar los puntos de datos en Analysis Workspace. Normalmente se utilizan como columnas en una visualización y están vinculadas a las dimensiones.
 
 ## Tipos de métricas
 
 Adobe ofrece varios tipos de métricas para usar en Analysis Workspace:
 
-* **Métricas estándar**: la mayoría de las métricas que utiliza en los proyectos son métricas estándar. Algunos ejemplos son [Page views](/help/components/metrics/page-views.md), [Ingresos](/help/components/metrics/revenue.md), o [Eventos personalizados](/help/components/metrics/custom-events.md). Consulte [Resumen de métricas](/help/components/metrics/overview.md) en la Guía del usuario de componentes para obtener más información.
+* **Métricas estándar**: la mayoría de las métricas que se utilizan en los proyectos son estándar. Algunos ejemplos son [Vistas de páginas](/help/components/metrics/page-views.md), [Ingresos](/help/components/metrics/revenue.md) o [Eventos personalizados](/help/components/metrics/custom-events.md). Consulte la [Información general sobre las métricas](/help/components/metrics/overview.md) en la guía del usuario Componentes para obtener más información.
 
-   ![Métrica estándar](assets/standard-metric.png)
+  ![Métricas estándar](assets/standard-metric.png)
 
-* **Métricas calculadas**: métricas definidas por el usuario que se basan en métricas estándar, números estáticos o funciones algorítmicas. Las métricas calculadas definidas por el usuario muestran un icono de calculadora en la lista de componentes disponibles. Consulte [Resumen de métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) en la Guía del usuario de componentes para obtener más información.
+* **Métricas calculadas**: métricas definidas por el usuario que se basan en métricas estándar, números estáticos o funciones algorítmicas. Las métricas calculadas definidas por el usuario muestran un icono de calculadora en la lista de componentes disponibles. Consulte [Información general sobre las métricas](/help/components/c-calcmetrics/cm-overview.md) en la guía del usuario Componentes para obtener más información.
 
-   ![Métrica calculada](assets/calculated-metric.png)
+  ![Métrica calculada](assets/calculated-metric.png)
 
-* **Plantillas de métricas calculadas**: métricas definidas por el Adobe que se comportan de manera similar a las métricas calculadas. Puede utilizarlos tal cual en los proyectos de Workspace o guardar una copia para personalizar su lógica. Las plantillas de métricas calculadas muestran un icono de Adobe en la lista de componentes disponibles.
+* **Plantillas de métricas calculadas**: métricas definidas por Adobe que se comportan de manera similar a las calculadas. Puede utilizarlas tal cual en los proyectos de Workspace o guardar una copia para personalizar su lógica. Las plantillas de métricas calculadas muestran un icono de Adobe en la lista de componentes disponibles.
 
-   ![Plantilla de métrica calculada](assets/calculated-metric-template.png)
+  ![Plantilla de métricas calculadas](assets/calculated-metric-template.png)
 
 ## Uso de métricas en Analysis Workspace
 
-Las métricas se pueden utilizar de varias formas dentro de Analysis Workspace. Puede:
+Las métricas se pueden utilizar de varias formas dentro de Analysis Workspace. Puede realizar lo siguiente:
 
-* Arrastre una métrica a una tabla de forma libre vacía para ver las tendencias de esa métrica durante el período de fecha del proyecto.
+* Arrastrar una métrica a una tabla de forma libre vacía para ver las tendencias de esa métrica durante el período de fecha del proyecto.
 
-* Arrastre una métrica cuando una dimensión esté presente para verla comparada con cada elemento de dimensión.
+* Arrastrar una métrica cuando haya una dimensión presente para verla en comparación con cada elemento de dimensión.
 
-* Arrastre una métrica sobre un encabezado de métrica existente para reemplazarla.
+* Arrastrar una métrica sobre un encabezado de métrica existente para reemplazarla.
 
-* Arrastre una métrica junto a un encabezado para ver ambas métricas en paralelo.
+* Arrastrar una métrica junto a un encabezado para ver ambas métricas en paralelo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
@@ -49,9 +49,9 @@ Las métricas se pueden utilizar de varias formas dentro de Analysis Workspace. 
 
 Las métricas calculadas permiten ver fácilmente cómo se relacionan entre sí las métricas mediante operadores simples o funciones estadísticas. Existen varias formas de crear métricas calculadas:
 
-* Haga clic en el icono &quot;+&quot; junto al encabezado Métricas en la lista de componentes de la izquierda.
+* Haga clic en el icono “+” junto al encabezado Métricas en la lista de componentes de la izquierda.
 * Vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Métricas calculadas]** > **[!UICONTROL Añadir]**.
-* Haga clic con el botón derecho en un encabezado de columna > **[!UICONTROL Crear métrica a partir de selección]** cuando se seleccionan una o varias celdas de columna de encabezado. Esta opción crea automáticamente una métrica calculada sin necesidad de usar el Creador de reglas de métricas calculadas.
+* Haga clic con el botón derecho en un encabezado de columna > **[!UICONTROL Crear métrica a partir de selección]** cuando se seleccionan una o varias celdas de columna de encabezado. Esta opción crea automáticamente una métrica calculada sin necesidad de usar el Generador de reglas de métricas calculadas.
 
 [Métricas calculadas: métricas sin implementación](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=es) (3:42)
 
