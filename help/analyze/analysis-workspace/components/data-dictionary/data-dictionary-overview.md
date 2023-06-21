@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 El diccionario de datos de Analysis Workspace ayuda a los usuarios y administradores a seguir los componentes de su entorno de Analytics y a comprenderlos mejor.
 
-Los administradores de Analytics son responsables de conservar la información sobre cada componente en el diccionario de datos para que esté disponible para los usuarios.
+Los administradores de Analytics son responsables de seleccionar la información sobre cada componente en el Diccionario de datos para ponerla a disposición de los usuarios.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
 
@@ -33,7 +33,7 @@ La información disponible en el diccionario de datos incluye la siguiente:
 
 * Si el administrador del sistema ha aprobado un componente
 
-Para obtener información sobre cómo acceder al diccionario de datos y para obtener detalles sobre la información que contiene, consulte [Ver información de componentes en el diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+Para obtener información sobre cómo acceder al diccionario de datos y para obtener detalles sobre la información que contiene, consulte [Ver información del componente en el diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
 ## Ventajas para los administradores
 
@@ -49,9 +49,9 @@ A continuación se indican algunas de las formas en que los administradores de A
 
 * Actualizar las descripciones de los componentes directamente en Analysis Workspace. Las actualizaciones introducidas en las descripciones de los componentes del diccionario de datos se reflejan en el grupo de informes.
 
-   Del mismo modo, cualquier actualización introducida en las descripciones de los componentes del grupo de informes se refleja en Analysis Workspace.
+  Del mismo modo, cualquier actualización introducida en las descripciones de los componentes del grupo de informes se refleja en Analysis Workspace.
 
-   Para obtener más información acerca de la adición de descripciones de componentes en Analysis Workspace o en un grupo de informes, consulte [Adición de descripciones de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+  Para obtener más información acerca de la adición de descripciones de componentes en Analysis Workspace o en un grupo de informes, consulte [Adición de descripciones de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
 
 ## Acceso al diccionario de datos
 
@@ -59,22 +59,22 @@ Puede acceder al diccionario de datos de cualquiera de las siguientes maneras en
 
 * Desde el icono del **diccionario de datos** en el carril izquierdo.
 
-   ![Icono del diccionario de datos en el carril izquierdo](assets/data-dictionary-access-icon.png)
+  ![Icono del diccionario de datos en el carril izquierdo](assets/data-dictionary-access-icon.png)
 
 * Desde el icono del **diccionario de datos** dentro de la ventana emergente de información de un componente.
 
-   ![Icono del diccionario de datos en la ventana emergente de información](assets/data-dictionary-access-infopopover.png)
-   <!--update screenshot; this was taken from a mock-->
+  ![Icono del diccionario de datos en la ventana emergente de información](assets/data-dictionary-access-infopopover.png)
+  <!--update screenshot; this was taken from a mock-->
 
 * Desde el menú: [!UICONTROL **Ayuda**] > [!UICONTROL **Diccionario de datos**].
 
-Para obtener información detallada sobre las distintas opciones disponibles en el diccionario de datos, consulte [Ver información de componentes en el diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+Para obtener información detallada sobre las distintas opciones disponibles en el diccionario de datos, consulte [Ver información del componente en el diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
 ## Actualizar y depurar el diccionario de datos
 
-Los administradores de Analytics son responsables de mantener un diccionario de datos correcto para su organización, tal como se describe en [Monitorizar el estado del diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
+Los administradores de Analytics son responsables de mantener un diccionario de datos correcto para su organización, tal como se describe en [Monitorizar estado del diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
 
-Como parte de este proceso, los administradores de Analytics pueden editar información sobre cada componente en el diccionario de datos, tal como se describe en [Editar entradas de componentes en el diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+Como parte de este proceso, los administradores de Analytics pueden editar información sobre cada componente del diccionario de datos, tal y como se describe en [Editar entradas de componente en el diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## Movimiento, minimización o cierre del diccionario de datos
 
@@ -84,12 +84,12 @@ Puede manipular la ventana Diccionario de datos de cualquiera de estas formas:
 
 * Arrastrarla a cualquier área dentro de Analysis Workspace
 
-   Si cierra y vuelve a abrir Analysis Workspace, la ventana Diccionario de datos permanece en la ubicación donde la movió por última vez. <!--True?-->
+  Si cierra y vuelve a abrir Analysis Workspace, la ventana Diccionario de datos permanece en la ubicación donde la movió por última vez. <!--True?-->
 
 * Minimizarla
 
-   Cuando se minimiza, el diccionario de datos aparece como una pestaña azul en la esquina inferior derecha de Analysis Workspace.
+  Cuando se minimiza, el diccionario de datos aparece como una pestaña azul en la esquina inferior derecha de Analysis Workspace.
 
-   Al seleccionar la pestaña azul, el diccionario de datos se abre con el componente que estaba viendo más recientemente.
+  Al seleccionar la pestaña azul, el diccionario de datos se abre con el componente que estaba viendo más recientemente.
 
 * Cerrarla
