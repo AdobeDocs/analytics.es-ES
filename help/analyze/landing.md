@@ -4,10 +4,10 @@ title: Página de aterrizaje de Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 06daaf4dcf5a88b7d571de94d72e273d942812bf
 workflow-type: tm+mt
-source-wordcount: '3954'
-ht-degree: 99%
+source-wordcount: '4037'
+ht-degree: 94%
 
 ---
 
@@ -223,13 +223,24 @@ Los administradores pueden eliminar un informe mediante la opción Lista de info
 ![Otros filtros](assets/delete-fr-create-project-modal.png)
 
 
-## Vaya a la pestaña Aprendizaje {#navigate-learning}
+## Uso de la pestaña Aprendizaje {#navigate-learning}
 
-La página Aprendizaje contiene tutoriales y recorridos en vídeo prácticos, además de vínculos a documentación.
+La página Aprendizaje contiene recorridos en vídeo prácticos, tutoriales y vínculos a documentación.
 
-* El recorrido [!UICONTROL Conceptos básicos de Workspace] le lleva directamente a Workspace, y le explica el diseño de Workspace y dónde encontrar y realizar las acciones más comunes. También se puede reiniciar en cualquier momento directamente en Workspace, en la ventana emergente de información del panel del encabezado.
-* Al hacer clic en un vídeo/recorrido, se agrega la etiqueta **[!UICONTROL Visto]**. Esta etiqueta le ayuda a realizar un seguimiento del progreso por el contenido de aprendizaje. Puede hacer clic en la etiqueta y desaparece, en caso de que aún no haya completado el contenido.
-* El botón **[!UICONTROL Más información]** del modo de vídeo le lleva a una página de documentación de Adobe Experience League con más contenido de ayuda relacionado con el vídeo que acaba de ver.  **[!UICONTROL Ver más vídeos]** le dirige a la lista de reproducción completa de YouTube de Analysis Workspace.
+Utilice la página Aprendizaje en Adobe Analytics para aprender las funciones y casos de uso principiantes, intermedios o avanzados en Adobe Analytics.
+
+### Acceso a la página Aprendizaje
+
+1. En Adobe Analytics, seleccione [!UICONTROL **Workspace**] > [!UICONTROL **Aprendizaje**].
+
+### Funciones de página de aprendizaje
+
+* **Filtrar contenido:** El icono Filtro en el carril izquierdo le permite filtrar el contenido de aprendizaje por nivel de experiencia (principiante, intermedio o avanzado) y por tipo de contenido (documento, vídeo o recorridos y tutoriales).
+* **Seguimiento del progreso:** Después de seleccionar un fragmento de contenido, se crea un **[!UICONTROL Visto]** aparece la etiqueta. Esta etiqueta le ayuda a realizar un seguimiento del progreso por el contenido de aprendizaje. Puede seleccionar el **[!UICONTROL Visto]** para eliminarlo de un fragmento de contenido.
+* **Ver contenido adicional:** Mientras ve cualquier vídeo, seleccione la opción **[!UICONTROL Más información]** para ver el contenido de la documentación relacionado en el Experience League. O bien, en la página Aprendizaje, seleccione cualquiera de las siguientes opciones para ver contenido adicional:
+   * **[!UICONTROL Visite YouTube]:** Vea la lista de reproducción completa de Analysis Workspace YouTube.
+   * [!UICONTROL **Visitar Experience League**]: consulte el conjunto completo de documentación de Adobe Analytics sobre Experience League.
+* **Aspectos básicos para nuevos usuarios:** El [!UICONTROL Aspectos básicos de Workspace] se recomienda realizar una visita guiada para los usuarios nuevos. Este recorrido le lleva directamente a Workspace y le explica las acciones más comunes. También se puede reiniciar en cualquier momento en Workspace en la ventana emergente de información del panel del encabezado.
 
 ## Establecer una página de aterrizaje {#set-landing}
 
