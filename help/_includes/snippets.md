@@ -1,8 +1,8 @@
 ---
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 # Fragmentos
@@ -11,7 +11,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Más información acerca del [Anuncio del final de la vida útil](https://www.adobe.com/go/analytics_rnaeol_en) de Reports &amp; Analytics.
+>Más información acerca del [Anuncio del final de la vida útil](https://www.adobe.com/go/analytics_rnaeol_es) de Reports &amp; Analytics.
 
 ## Criterios de filtro del diccionario de datos {#dd-filter-criteria}
 
@@ -55,9 +55,9 @@ ht-degree: 94%
 
 | Opción | Función |
 |---------|----------|
-| [!UICONTROL **Recomendado**] | Ordena los componentes con los recomendados al principio de la lista. Los componentes que utiliza con más frecuencia y más recientemente usted o otras personas de su organización aparecen en la parte superior de la lista. |
+| [!UICONTROL **Recomendado**] | Ordena los componentes con los recomendados en la parte superior de la lista. Los componentes que usted u otras personas de su organización utilizan con más frecuencia y más recientemente aparecen en la parte superior de la lista. |
 | [!UICONTROL **Alfabético**] | Ordena los componentes alfabéticamente. |
-| [!UICONTROL **Categórica**] | Ordena los componentes según su tipo (dimensión, métrica, segmento, intervalo de fechas). |
+| [!UICONTROL **Categórica**] | Ordena los componentes según su tipo (dimensión, métrica, segmento, intervalo de fecha). |
 
 {style="table-layout:auto"}
 
