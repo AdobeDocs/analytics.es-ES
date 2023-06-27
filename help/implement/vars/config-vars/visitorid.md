@@ -3,10 +3,10 @@ title: visitorID
 description: Utilice un ID de visitante personalizado.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 0e4afc2532c7a6fe90085ad6f24ac859bcd3baf7
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 91%
+source-wordcount: '263'
+ht-degree: 93%
 
 ---
 
@@ -17,10 +17,6 @@ Adobe utiliza diferentes métodos para identificar a los visitantes del sitio. L
 >[!IMPORTANT]
 >
 >Adobe recomienda evitar esta variable. En su lugar, utilice el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es).
-
-## Anulación del ID de visitante mediante el SDK web
-
-Próximamente!
 
 ## ID de visitante con la extensión Adobe Analytics
 
@@ -33,7 +29,7 @@ Próximamente!
 
 Asigne este campo al elemento de datos que contenga su ID de visitante personalizada. No establezca este campo como un valor estático.
 
-## s.visitorID en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.visitorID en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.visitorID` es una cadena que contiene un identificador único personalizado para el visitante. Los valores válidos incluyen caracteres alfanuméricos de hasta 100 bytes. Evite utilizar guiones, espacios, guiones bajos o símbolos en esta variable.
 
