@@ -2,10 +2,11 @@
 title: Limitar un VRS a determinadas fechas
 description: Obtenga información sobre cómo limitar un intervalo de fechas de VRS para que se centre únicamente en datos vinculados.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +26,7 @@ Cuando configure el VRS, en Componentes, añada un intervalo de fechas que tenga
 
 A continuación, cree un segmento de visitas que coloque el intervalo de fechas en un contenedor de exclusión dentro de otro contenedor de exclusión. Es una &quot;exclusión&quot;.
 
-El motivo de la exclusión es que los intervalos de fechas pretenden anular el intervalo de fechas del informe. Por lo tanto, si solo se incluye el 1 de junio en adelante, siempre se realizará el intervalo de fechas del informe a partir del 1 de junio. Esto dará lugar a resultados no deseados. Cuando excluye, anula este comportamiento y limita los datos que se pueden dibujar al intervalo de fechas adecuado.
+El motivo de la exclusión es que los intervalos de fechas pretenden anular el intervalo de fechas del informe. Por lo tanto, si solo se incluye el 1 de junio en adelante, siempre se realizará el intervalo de fechas del informe a partir del 1 de junio. Esto dará lugar a resultados no deseados. Cuando excluye, anula este comportamiento y limita los datos que puede dibujar al intervalo de fechas adecuado.
 
 ![](assets/exclude-exclude.png)
 

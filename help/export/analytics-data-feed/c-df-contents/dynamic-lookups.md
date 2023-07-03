@@ -1,20 +1,22 @@
 ---
 title: Búsquedas dinámicas
 description: Obtenga información sobre qué son las búsquedas dinámicas y cómo habilitarlas. Incluye operadores, atributos móviles y tipos de sistemas operativos.
-source-git-commit: b6084fc34165ea602fce616e13b3adfcd7bdfdbd
+exl-id: 644bf34b-312d-483a-a590-2dd8d6a773a5
+feature: Data Feeds
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Búsquedas dinámicas
 
-Las búsquedas dinámicas le permiten recibir archivos de búsqueda adicionales en su fuente de datos; de lo contrario, no estarán disponibles. Esta configuración permite enviar las siguientes tablas de búsqueda con cada archivo de fuente de datos:
+Las búsquedas dinámicas permiten recibir archivos de búsqueda adicionales en la fuente de datos; de lo contrario, no estarán disponibles. Esta configuración permite enviar las siguientes tablas de búsqueda con cada archivo de fuente de datos:
 
-* **Nombre del operador de telefonía móvil**: Proporciona contexto adicional para la variable `carrier` para abrir el Navegador. El nombre de archivo incluido es `carrier.tsv`.
-* **Atributos móviles**: Proporciona contexto adicional para la variable `mobile_id` , incluidas todas las funciones rastreadas para cada dispositivo móvil. El nombre de archivo incluido es `mobile_attributes.tsv`.
-* **Tipo de sistema operativo**: Proporciona un contexto alternativo para la variable `os` para abrir el Navegador. Ambas `operating_systems.tsv` y `operating_system_type.tsv` use el `os` como clave, aunque solo `operating_system_type.tsv` es una búsqueda dinámica.
+* **Nombre del operador**: proporciona contexto adicional para `carrier` columna. El nombre de archivo incluido es `carrier.tsv`.
+* **Atributos móviles**: proporciona contexto adicional para `mobile_id` , incluidas todas las funciones rastreadas para cada dispositivo móvil. El nombre de archivo incluido es `mobile_attributes.tsv`.
+* **Tipo de sistema operativo**: proporciona un contexto alternativo para `os` columna. Ambos `operating_systems.tsv` y `operating_system_type.tsv` use el `os` como clave, aunque solo `operating_system_type.tsv` es una búsqueda dinámica.
 
 ## Habilitar búsquedas dinámicas
 
@@ -24,18 +26,18 @@ Si desea recibir los archivos de búsqueda mencionados, debe cumplir todos los r
    * Para `carrier.tsv`, debe incluir `carrier`.
    * Para `mobile_attributes.tsv`, debe incluir `mobile_id`.
    * Para `operating_system_type.tsv`, debe incluir `os`.
-* Las columnas siguientes deben ser **Excluido**. Si alguna de estas columnas está incluida en la fuente de datos, no se incluyen las tablas de búsqueda adicionales.
+* Las siguientes columnas deben ser **excluido**. Si alguna de estas columnas se incluye en la fuente de datos, no se incluyen las tablas de búsqueda adicionales.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`
 
-Una vez que la fuente de datos cumpla los requisitos de inclusión y exclusión de columnas, póngase en contacto con el Servicio de atención al cliente con el ID de fuente de datos y solicite la activación de búsquedas dinámicas.
+Una vez que la fuente de datos cumpla los requisitos de inclusión y exclusión de columnas, póngase en contacto con el Servicio de atención al cliente con el ID de la fuente de datos y solicite habilitar las búsquedas dinámicas.
 
-## Referencia de encabezado de búsqueda
+## Referencia del encabezado de búsqueda
 
-Los encabezados de columna de estos archivos de búsqueda no cambian con el tiempo, por lo que no se incluyen en cada archivo de fuente de datos. Utilice estos encabezados de columna como referencia o descargue sus `.tsv` archivo.
+Los encabezados de columna de estos archivos de búsqueda no cambian con el tiempo, por lo que los encabezados no se incluyen en cada archivo de fuente de datos. Utilice estos encabezados de columna como referencia o descargue sus respectivos `.tsv` archivo.
 
-+++**Nombre del operador de telefonía móvil**
++++**Nombre del operador**
 Descargar [carrier_headers.tsv](assets/carrier_headers.tsv) o haga referencia a los encabezados siguientes.
 
 `carrier`

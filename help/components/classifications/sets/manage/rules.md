@@ -1,9 +1,11 @@
 ---
 title: Reglas del conjunto de clasificaciones
 description: Ver y editar las reglas de un conjunto de clasificaciones individual.
-source-git-commit: 496b4891d447ed9dd091a6498a792146a2d5aceb
+exl-id: b3518aaa-382f-47ad-860f-b6af6ddb3cbc
+feature: Classifications
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

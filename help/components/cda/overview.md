@@ -2,10 +2,11 @@
 title: Análisis entre dispositivos
 description: Cambie los datos de centrados en el dispositivo a centrados en la persona mediante la vinculación de los datos del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

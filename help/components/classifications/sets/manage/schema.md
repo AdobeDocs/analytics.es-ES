@@ -1,10 +1,12 @@
 ---
 title: Esquema del conjunto de clasificaciones
 description: Ver y editar el esquema de un conjunto de clasificaciones individual.
-source-git-commit: d0e3b28590b24d630a192ee857a7d84c115dc8c1
+exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
+feature: Classifications
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 46%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

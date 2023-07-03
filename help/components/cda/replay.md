@@ -2,10 +2,11 @@
 title: Cómo funcionan las reproducciones
 description: Comprensión del concepto "reproducción" en Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
-source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,12 +42,12 @@ Tanto las visitas no autenticadas como las autenticadas en los nuevos dispositiv
 
 * **Si se utiliza el gráfico de dispositivo**, las visitas no autenticadas en dispositivos reconocidos se vinculan en directo una vez que el gráfico del dispositivo publica un grupo. La publicación de grupos tarda entre tres horas y dos semanas.
 
-   También se agrega una tercera persona acumulativa cuando se publica un grupo. Esta tercera persona representa el propio grupo, además de los dispositivos individuales. Esta tercera &quot;persona&quot; permanece hasta que se reproduzcan los datos.
+  También se agrega una tercera persona acumulativa cuando se publica un grupo. Esta tercera persona representa el propio grupo, además de los dispositivos individuales. Esta tercera &quot;persona&quot; permanece hasta que se reproduzcan los datos.
 
-   La atribución no funciona en todos los dispositivos hasta que se publica un grupo e incluso entonces solo se vinculan en directo a partir de ese momento. En el ejemplo anterior, ninguna de las visitas se ha vinculado aún entre dispositivos. La atribución entre dispositivos en relación con las visitas individuales existentes no funciona hasta después de la reproducción de la vinculación.
+  La atribución no funciona en todos los dispositivos hasta que se publica un grupo e incluso entonces solo se vinculan en directo a partir de ese momento. En el ejemplo anterior, ninguna de las visitas se ha vinculado aún entre dispositivos. La atribución entre dispositivos en relación con las visitas individuales existentes no funciona hasta después de la reproducción de la vinculación.
 * **Si se utiliza la vinculación basada en campos,** las visitas no autenticadas en dispositivos reconocidos se vinculan en directo a partir de ese momento.
 
-   La atribución funciona tan pronto como la variable personalizada de identificación se vincula a un dispositivo. En el ejemplo anterior, todas las visitas, excepto la 1 y la 3, están vinculadas en tiempo real (todas utilizan el identificador `Bob`). La atribución funciona en las visitas 1 y 3 tras la reproducción de la vinculación.
+  La atribución funciona tan pronto como la variable personalizada de identificación se vincula a un dispositivo. En el ejemplo anterior, todas las visitas, excepto la 1 y la 3, están vinculadas en tiempo real (todas utilizan el identificador `Bob`). La atribución funciona en las visitas 1 y 3 tras la reproducción de la vinculación.
 
 >[!NOTE]
 >

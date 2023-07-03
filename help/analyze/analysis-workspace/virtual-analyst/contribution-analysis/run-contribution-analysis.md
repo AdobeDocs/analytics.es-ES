@@ -3,10 +3,11 @@ description: Ejecute un informe de análisis de contribución en un proyecto de 
 title: Ejecutar análisis de contribución
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+feature: Anomaly Detection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,15 +21,15 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
 
 * En una tabla de forma libre con granularidad diaria, haga clic con el botón secundario en cualquier fila y seleccione **[!UICONTROL Ejecutar análisis de contribución]**. Incluso puede ejecutarlo en filas que no muestren ninguna anomalía.
 
-   >[!NOTE]
-   >
-   >Actualmente únicamente se admite el análisis de contribución con granularidad diaria.
+  >[!NOTE]
+  >
+  >Actualmente únicamente se admite el análisis de contribución con granularidad diaria.
 
-   ![](assets/run_ca.png)
+  ![](assets/run_ca.png)
 
 * En un gráfico de líneas, sitúese sobre un punto de datos de anomalía. Haga clic en el vínculo **[!UICONTROL Analizar]** que aparece.
 
-   ![](assets/contribution-analysis.png)
+  ![](assets/contribution-analysis.png)
 
 1. (Opcional) Una vez haya hecho clic en **[!UICONTROL Ejecutar análisis de contribución]** tanto en un gráfico de líneas como en una tabla, puede reducir (y así acelerar) el ámbito del análisis mediante [la exclusión de dimensiones](#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
@@ -41,7 +42,7 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
 
    * La tabla [Segmentos generados](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es) (grupos de elementos principales) identifica las asociaciones de los elementos principales en función de su puntuación de contribución, ocurrencias de anomalías y el porcentaje de contribución general a la métrica anómala. A continuación, esto se captura como segmento de audiencia (segmento de contribución 1, segmento de contribución 2, etcétera). Si hace clic en el botón “i” (información), se le mostrará la definición de cada segmento automático, incluidos los elementos principales de los cuales se compone:
 
-      ![](assets/auto_segment.png)
+     ![](assets/auto_segment.png)
 
 1. Como el análisis de contribución ahora forma parte de Analysis Workspace, puede aprovechar algunas de sus funciones desde el menú secundario de la tabla para que su análisis sea aún más relevante, por ejemplo:
 

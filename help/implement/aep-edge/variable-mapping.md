@@ -2,10 +2,11 @@
 title: Asignación de variables de Analytics en Adobe Experience Edge
 description: Vea qué campos XDM de Edge se asignan automáticamente a variables de Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 825552f176e9082fcf2a5b6103d2a5c30dd3a583
+feature: Implementation Basics
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 95%
 
 La tabla siguiente muestra las variables que Adobe Experience Platform Edge Network asigna automáticamente a Adobe Analytics. Si utiliza estas rutas de campo XDM, no es necesaria ninguna configuración adicional para enviar datos a Adobe Analytics. Estos campos se incluyen en la variable **[!UICONTROL Plantilla de Adobe Analytics ExperienceEvent]** grupo de campos.
 
-Las actualizaciones anteriores a esta tabla se encuentran en el [historial de confirmación en GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md).
+Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones en GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md).
 
 | Ruta de campo XDM | Dimensión y descripción de Analytics |
 | --- | --- |
@@ -67,7 +68,7 @@ Las actualizaciones anteriores a esta tabla se encuentran en el [historial de co
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena todas las cadenas `value` en cada matriz `list[]` a su respectiva [Variable de lista](../vars/page-vars/list.md). El delimitador se elige automáticamente en función del valor establecido en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | Establece las dimensiones respectivas [Prop](../../components/dimensions/prop.md). |
 | `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Aplica la [serialización de eventos](../vars/page-vars/events/event-serialization.md) a la métrica respectiva [Eventos personalizados. ](../../components/metrics/custom-events.md) Cada ID de evento reside en su elemento principal de 100 grupos. Por ejemplo, para aplicar la serialización a `event678`, use `_experience.analytics.event601to700.event678.id`. |
-| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Incrementa la métrica respectiva [Eventos personalizados](../../components/metrics/custom-events.md) por la cantidad deseada. Cada evento reside en su elemento principal de 100 grupos. Por ejemplo, el campo para `event567` es `_experience.analytics.event501to600.event567.value`. |
+| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Incrementa la métrica respectiva [Eventos personalizados](../../components/metrics/custom-events.md) por la cantidad deseada. Cada evento reside en su elemento principal de 100 grupos. Por ejemplo, el campo de `event567` es `_experience.analytics.event501to600.event567.value`. |
 | `identityMap.ECID[0].id` | El [Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). |
 | `marketing.trackingCode` | Establece la dimensión [Código de seguimiento](../../components/dimensions/tracking-code.md). |
 | `media.mediaTimed.completes.value` | El [contenido completado](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=es#content-complete) de la métrica Media Analytics. |

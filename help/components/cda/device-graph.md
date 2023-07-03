@@ -2,29 +2,30 @@
 title: Gráfico del dispositivo
 description: Comprenda los requisitos previos y las limitaciones de la vinculación de datos mediante el gráfico del dispositivo.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 62%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Gráfico del dispositivo
 
-El análisis entre dispositivos puede utilizar el gráfico privado para unir datos. Private Graph es un repositorio de ID de dispositivos con hash que es específico de su organización. CDA se comunica regularmente con el gráfico del dispositivo para vincular dispositivos.
+Los análisis entre dispositivos pueden utilizar Private Graph para vincular los datos. Private Graph es un repositorio de ID de dispositivos con hash específicos de su organización. CDA se comunica regularmente con el gráfico del dispositivo para vincular dispositivos.
 
 ## Requisitos previos específicos del gráfico del dispositivo
 
-Si tiene intención de implementar el análisis entre dispositivos mediante el método del gráfico del dispositivo, es necesario lo siguiente. Trabaje con equipos de su organización y con su equipo de cuenta de Adobe para asegurarse de que cumple todos los requisitos siguientes.
+Si tiene intención de implementar el análisis entre dispositivos mediante el método del gráfico del dispositivo, es necesario lo siguiente. Trabaje con equipos de su organización y con el equipo de cuenta de Adobe para asegurarse de que cumple todos los requisitos siguientes.
 
 >[!WARNING]
 >
 >Si no se cumplen todos los requisitos previos, es posible que no se pueda habilitar el análisis entre dispositivos o que se obtengan resultados deficientes al vincular datos.
 
 * Todos los requisitos previos enumerados en la [página de información general](overview.md).
-* Su organización debe usar la variable [Gráfico privado del servicio de identidad de Adobe Experience Platform](https://business.adobe.com/products/experience-platform/identity-service.html). Consulte también la [Página principal](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es) en la guía del usuario del servicio de ID.
-* La implementación debe utilizar la versión más reciente del servicio de ID de Experience Cloud (ECID). Consulte la [Página principal](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) en la guía de usuario del servicio de ID. La mayoría de las implementaciones que utilizan [Etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) en Adobe Experience Platform probablemente ya tenga implementado el servicio de ID.
-* Su implementación debe llamar a la función `setCustomerIDs` (o SDK equivalente) cada vez que se pueda identificar a un individuo, como cuando un usuario inicia sesión o abre un correo electrónico. Este requisito se aplica a todas las plataformas, incluidas las aplicaciones móviles, si se utilizan. Consulte [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=es) en la guía de usuario del servicio de ID.
+* Su organización debe utilizar el [Gráfico privado del servicio de identidad de Adobe Experience Platform](https://business.adobe.com/products/experience-platform/identity-service.html). Consulte también la [Página principal](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es) en la guía del usuario del servicio de ID.
+* La implementación debe utilizar la última versión del servicio de ID de Experience Cloud (ECID). Consulte la [Página principal](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) en la guía del usuario del servicio de ID. La mayoría de las implementaciones que utilizan [Etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) en Adobe Experience Platform probablemente ya tengan implementado el servicio de ID.
+* Su implementación debe llamar a la función `setCustomerIDs` (o SDK equivalente) cada vez que se pueda identificar a un individuo, como cuando un usuario inicia sesión o abre un correo electrónico. Este requisito se aplica a todas las plataformas, incluidas las aplicaciones móviles, si se utilizan. Consulte [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=es) en la guía del usuario del servicio de ID.
 
 ## Limitaciones específicas del gráfico del dispositivo
 

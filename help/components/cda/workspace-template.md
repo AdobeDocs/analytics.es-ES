@@ -2,10 +2,11 @@
 title: Plantilla de CDA Workspace
 description: Describe cada campo de la plantilla CDA de Analysis Workspace.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +30,7 @@ Se crea un proyecto de Analysis Workspace que contiene varios paneles. En la par
    * Cobertura del Experience Cloud ID: Solo se pueden vincular los visitantes con un ECID. Un porcentaje menor de visitantes que utilizan un ECID se correlaciona con tasas de compresión más bajas.
    * Uso de varios dispositivos: Si los visitantes del sitio no utilizan varios dispositivos, puede ver tasas de compresión más bajas.
    * Granularidad de informes: La compresión por día suele ser menor que la compresión por mes o año. Las posibilidades de que un individuo utilice varios dispositivos se reducen en un solo día en comparación con todo un mes. Segmentar, filtrar o utilizar dimensiones de desglose también puede mostrar una tasa de compresión más baja.
-* **Segmentos basados en personas**: Contiene una lista desplegable de segmentos que le permite ver datos específicos del dispositivo. Este panel promueve la experimentación con segmentos para ver cómo la inclusión o la exclusión de tipos de dispositivos afectan los informes.
+* **Segmentos basados en personas**: contiene una lista desplegable de segmentos que le permite ver datos específicos del dispositivo. Este panel promueve la experimentación con segmentos para ver cómo la inclusión o la exclusión de tipos de dispositivos afectan los informes.
 * **Análisis del viaje entre dispositivos**: proporciona informes de flujo y visitas en el orden previsto en función del tipo de dispositivo.
 * **Atribución entre dispositivos**: combine las características de Journey IQ y Attribution IQ.
 * **Otros consejos y trucos**: temas útiles en torno a CDA que le permite aprovecharlo al máximo.
