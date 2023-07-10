@@ -3,7 +3,7 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d00ae976a7e7de2fad7f5c214c2bbf39644c9a08
+source-git-commit: 9044bb3bc8581ff3c12abd5620e81ade513b5f0f
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 85%
@@ -39,7 +39,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | **Vinculación profunda (aplicación móvil)** | Permite a los usuarios enviar vínculos a cuadros de resultados que los llevarán directamente al cuadro de resultados de la aplicación. Esto facilita aún más el uso compartido de proyectos e impulsa la participación de una audiencia menos técnica. [Más información](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es#share-scorecards-using-a-shareable-link) | N/A | 17 de mayo de 2023 |
 | **Filtros desplegables dinámicos** | Presentamos un nuevo tipo de filtro desplegable que determina los valores disponibles en función de los datos dentro del intervalo de creación de informes del panel y los valores de otros filtros desplegables. Puede utilizar filtros desplegables dinámicos arrastrando una dimensión a la zona desplegable del panel mientras mantiene pulsada la tecla [!UICONTROL Mayús]. Los filtros desplegables estáticos permanecen inalterados al arrastrar un grupo de elementos de dimensión a la zona desplegable del panel mientras se mantiene presionada la tecla [!UICONTROL Mayús]. [Más información](/help/analyze/analysis-workspace/c-panels/panels.md) |  | 14 de junio de 2023 |
 | **Página de aprendizaje de Analytics actualizada** | La pestaña Aprendizaje de la página de aterrizaje de Adobe Analytics ahora contiene las siguientes mejoras:<ul><li>Diseño mejorado que muestra más contenido de aprendizaje en una sola página con navegación mejorada</li><li>Capacidad para personalizar el contenido de aprendizaje por nivel de experiencia (principiante, intermedio y avanzado)</li></ul>[Más información](/help/analyze/landing.md) | 27 de junio de 2023 | 30 de junio de 2023 |
-| **Ordenar componentes en Analysis Workspace** | Ahora hay disponible una nueva opción de ordenación al ver componentes en el carril izquierdo o en el diccionario de datos de Analysis Workspace. Puede ordenar los componentes por Recomendado (los más utilizados), Alfabético o Categórico (tipo).<p>Anteriormente, solo se podían buscar o filtrar componentes. [Más información](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | N/A | Por determinar |
+| **Ordenar componentes en Analysis Workspace** | Ahora hay disponible una nueva opción de ordenación al ver componentes en el carril izquierdo o en el diccionario de datos de Analysis Workspace. Puede ordenar los componentes por Recomendado (los más utilizados), Alfabético o Categórico (tipo).<p>Anteriormente, solo se podían buscar o filtrar componentes. [Más información](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | N/A | 7 de junio de 2023 |
 
 {style="table-layout:auto"}
 
