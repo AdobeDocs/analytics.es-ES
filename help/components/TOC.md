@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: e87e47eb32ce150491596216d4ddc4fb87348497
+source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 88%
 
 ---
@@ -262,14 +262,16 @@ ht-degree: 88%
       + [Importación del explorador y FTP](classifications/importer/import-file.md)
       + [Importación del explorador](classifications/importer/browser-import.md)
       + [Exportación del explorador](classifications/importer/browser-export.md)
-      + [Importación de nube](/help/components/classifications/importer/configure-import-accounts.md)
       + [Importación de FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [Exportación de FTP](classifications/importer/ftp-export.md)
       + [Tiempo de procesamiento](classifications/importer/processing-time.md)
       + [Resolución de problemas](classifications/importer/troubleshooting.md)
-
    + [Subclasificaciones](classifications/c-sub-classifications.md)
    + [Preguntas más frecuentes sobre las clasificaciones](classifications/faq.md)
++ Ubicaciones {#locations}
+   + [Administrador de ubicaciones](/help/components/locations/locations-manager.md)
+   + [Cuentas de importación de nube](/help/components/locations/configure-import-accounts.md)
+   + [Ubicaciones de importación de nube](/help/components/locations/configure-import-locations.md)
 + [Eventos de calendario](t-calendar-event.md)
 + [Cola de informes programados](scheduled-reports-admin.md)
 + Informes en tiempo real {#real-time-reporting}

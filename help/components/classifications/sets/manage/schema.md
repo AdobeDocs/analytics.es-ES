@@ -3,7 +3,7 @@ title: Esquema del conjunto de clasificaciones
 description: Ver y editar el esquema de un conjunto de clasificaciones individual.
 exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
 feature: Classifications
-source-git-commit: 6cc7f491340ec7c36252f7ae53de07b0ab8f3b6f
+source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 42%
@@ -48,11 +48,11 @@ Están disponibles los siguientes botones:
 * **[!UICONTROL Automatizar]**: Introduzca automáticamente datos de ubicaciones de almacenamiento externas.
    * **[!UICONTROL Cuenta de ubicación]**: una lista desplegable que muestra las cuentas de ubicación existentes que su organización ha configurado. Si su organización aún no ha configurado una cuenta de ubicación, puede configurarla seleccionando [!UICONTROL **Crear una nueva cuenta**].
 
-     Para obtener información sobre cómo configurar la cuenta de ubicación, consulte [Configurar ubicaciones de importación en la nube](/help/components/classifications/importer/configure-import-accounts.md).
+     Para obtener información sobre cómo configurar la cuenta de ubicación, consulte [Configurar cuentas de importación en la nube](/help/components/locations/configure-import-accounts.md).
 
    * **[!UICONTROL Ubicación]**: una lista desplegable que muestra las ubicaciones existentes que su organización ha configurado. Si su organización aún no ha configurado una ubicación, puede configurarla seleccionando [!UICONTROL **Crear una nueva ubicación**].
 
-     Para obtener información sobre cómo configurar una ubicación, consulte [Configurar ubicaciones de importación en la nube](/help/components/classifications/importer/configure-import-accounts.md).
+     Para obtener información sobre cómo configurar una ubicación, consulte [Configurar ubicaciones de importación en la nube](/help/components/locations/configure-import-locations.md).
 
    * **[!UICONTROL Delimitador]**: El delimitador de columna para los archivos cargados. Las opciones incluyen [!UICONTROL Coma], [!UICONTROL Punto y coma], [!UICONTROL Dos puntos], [!UICONTROL Barra vertical], [!UICONTROL Espacio], [!UICONTROL Barra oblicua], [!UICONTROL Barra invertida], [!UICONTROL Guión], o [!UICONTROL Subrayado].
 
