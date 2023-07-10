@@ -3,16 +3,16 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 8e753a4ab2f86ff1b45d3116e51c5ce03f5b038b
+source-git-commit: d00ae976a7e7de2fad7f5c214c2bbf39644c9a08
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 87%
+source-wordcount: '1542'
+ht-degree: 85%
 
 ---
 
 # Notas de la versión de Adobe Analytics actual (Junio de 2023)
 
-**Última actualización**: 21 de junio de 2023
+**Última actualización**: 10 de julio de 2023
 
 Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,6 +20,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Configurar ubicaciones de almacenamiento de cuentas en la nube para ingerir datos de clasificación** | Ahora puede administrar las ubicaciones de almacenamiento de cuentas en la nube que se utilizan para la automatización de conjuntos de clasificaciones.<p>[Más información](/help/components/classifications/importer/configure-import-accounts.md)</p> |  | 10 de julio de 2023 |
 | **Mejoras del filtro de reparación de datos** | Se han añadido tres mejoras de filtrado a Reparación de datos:<ul><li>Filtre por una variable para modificar una segunda variable. Por ejemplo, si `eVar2` contiene &quot;@&quot; y luego eliminar `eVar3`.</li><li>Filtrar por valores numéricos o no numéricos</li><li>Aplique varios filtros con un Y. Por ejemplo, donde `eVar2="a"` Y `eVar3="b"`</li></ul>[Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 21 de junio de 2023 | 12 de julio de 2023 |
 | **Uso compartido de vínculos para proyectos (no se requiere inicio de sesión)** | Ahora puede compartir vínculos de solo lectura a proyectos de Analysis Workspace con personas que no tienen acceso a Adobe Analytics. Esto incluye compartir con personas fuera de su organización o con personas de su organización que no estén aprovisionadas para Adobe Analytics. [Más información](../analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)<p>Esta funcionalidad está habilitada de forma predeterminada y el administrador del sistema puede inhabilitarla. [Más información](../analyze/analysis-workspace/user-preferences.md#company-preferences)</p> | 3 de mayo de 2023 | 7 de junio de 2023 |
 | **Nuevas funciones para los conjuntos de clasificaciones** | [Conjuntos de clasificaciones](/help/components/classifications/sets/overview.md) se han actualizado con varias funciones nuevas:<ul><li>**Consolidación**: Combine conjuntos de clasificaciones en un único conjunto de clasificaciones consolidado. El conjunto de clasificaciones consolidadas se puede utilizar como otros conjuntos de clasificaciones o como un conjunto de datos de búsqueda en Customer Journey Analytics. [Más información](../components/classifications/sets/consolidations/manage.md)</li><li>**Reglas**: Clasifique automáticamente los valores según las reglas del conjunto de clasificaciones. [Más información](../components/classifications/sets/manage/rules.md)</li><li>**Importación automatizada**: importe automáticamente los datos de clasificación de los destinos de almacenamiento en la nube. [Más información](../components/classifications/sets/manage/schema.md)</li></ul> | | 7 de junio de 2023 |
