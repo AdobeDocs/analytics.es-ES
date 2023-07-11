@@ -3,7 +3,7 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 47f102662e5887b3df456a3db88038cec61a6fb2
+source-git-commit: 386661af0d37fb223f51904a48593065f42ba47b
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 76%
@@ -20,7 +20,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Configurar ubicaciones de almacenamiento de cuentas en la nube para ingerir datos de clasificación** | Ahora puede administrar las ubicaciones de almacenamiento de cuentas en la nube que se utilizan para la automatización de conjuntos de clasificaciones.[Más información](/help/components/locations/configure-import-accounts.md)<p> | N/A | 10 de julio de 2023 |
+| **Configurar ubicaciones de almacenamiento de cuentas en la nube para ingerir datos de clasificación** | Ahora puede administrar las ubicaciones de almacenamiento de cuentas en la nube que se utilizan para la automatización de conjuntos de clasificaciones. [Más información](/help/components/locations/configure-import-accounts.md)<p> | N/A | 10 de julio de 2023 |
 | **Mejoras del filtro de reparación de datos** | Se han añadido tres mejoras de filtrado a Reparación de datos:<ul><li>Filtre por una variable para modificar una segunda variable. Por ejemplo, si `eVar2` contiene &quot;@&quot; y luego eliminar `eVar3`.</li><li>Filtrar por valores numéricos o no numéricos</li><li>Aplique varios filtros con un Y. Por ejemplo, donde `eVar2="a"` Y `eVar3="b"`</li></ul>[Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 21 de junio de 2023 | 12 de julio de 2023 |
 | **Destinos seguros para la exportación de fuentes de datos** | Ahora, las fuentes de datos se pueden enviar a los siguientes destinos de almacenamiento en la nube:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Ya no se recomiendan los destinos que antes estaban disponibles (FTP, SFTP, S3 y Azure Blob). [Más información](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=es) | 12 de junio de 2023 | 15 de julio de 2023 |
 
