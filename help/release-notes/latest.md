@@ -3,10 +3,10 @@ title: Últimas notas de la versión de Analytics
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b724ef95771b49a81563587a5d8bbfe26c99c134
+source-git-commit: ce2a6c9607b252150a2f8c87befb86837869fe66
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 72%
+source-wordcount: '920'
+ht-degree: 73%
 
 ---
 
@@ -23,6 +23,7 @@ Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](r
 | **Configurar ubicaciones de almacenamiento de cuentas en la nube para ingerir datos de clasificación** | Ahora puede administrar las ubicaciones de almacenamiento de cuentas en la nube que se utilizan para la automatización de conjuntos de clasificaciones. [Más información](/help/components/locations/configure-import-accounts.md)<p> | N/A | 10 de julio de 2023 |
 | **Mejoras del filtro de reparación de datos** | Se han añadido tres mejoras de filtrado a Reparación de datos:<ul><li>Filtre por una variable para modificar una segunda variable. Por ejemplo, si `eVar2` contiene &quot;@&quot; y luego eliminar `eVar3`.</li><li>Filtrar por valores numéricos o no numéricos</li><li>Aplique varios filtros con un Y. Por ejemplo, donde `eVar2="a"` Y `eVar3="b"`</li></ul>[Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 21 de junio de 2023 | 12 de julio de 2023 |
 | **Destinos seguros para la exportación de fuentes de datos** | Ahora, las fuentes de datos se pueden enviar a los siguientes destinos de almacenamiento en la nube:<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>Ya no se recomiendan los destinos que antes estaban disponibles (FTP, SFTP, S3 y Azure Blob). [Más información](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=es) | 12 de junio de 2023 | 15 de julio de 2023 |
+| **Nueva variable de AppMeasurement** | La variable `decodeLinkParameters` se adapta a los casos extremos en los que las implementaciones codifican caracteres multibyte en variables de seguimiento de vínculos. La mayoría de las implementaciones no necesitan definir esta variable. [Más información](../implement/vars/config-vars/decodelinkparameters.md) |  | 17 de julio de 2023 |
 
 {style="table-layout:auto"}
 
