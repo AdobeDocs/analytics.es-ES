@@ -3,10 +3,10 @@ title: productos
 description: Enviar datos sobre qué productos se muestran o están en el carro de compras.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
+source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 72%
+source-wordcount: '633'
+ht-degree: 71%
 
 ---
 
@@ -60,7 +60,7 @@ La variable `s.products` es una cadena que contiene varios campos delimitados po
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Esta variable admite varios productos en la misma visita. Es útil para un carro de compras y pedidos que incluyen múltiples productos. La longitud máxima de toda la cadena `products` es de 64 K. Separe cada producto con una coma (`,`) en la cadena.
+Esta variable admite varios productos en la misma visita. Es útil para un carro de compras y pedidos que incluyen múltiples productos. La longitud máxima de todo el `products` la cadena tiene 64 k bytes. Separe cada producto con una coma (`,`) en la cadena.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
