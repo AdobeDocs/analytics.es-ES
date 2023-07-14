@@ -4,7 +4,7 @@ title: Resumen de componentes
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 100%
@@ -97,7 +97,7 @@ Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo d
 
 2. En el campo de búsqueda, empiece a escribir el nombre del componente que desea utilizar en el proyecto.
 
-   El tipo de componente se puede identificar por el color y el icono. Las **dimensiones** ![icono de Dimensión](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) son de color naranja; los **segmentos** ![icono de Segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg), color azul; los **intervalos de fechas** ![icono de Intervalo de fecha](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg), color morado y las **métricas** ![Icono de Métricas](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg), color verde. El icono de Adobe indica una plantilla de métricas calculadas o de segmentos y el icono de calculadora ![icono de Calculadora](assets/calculated-metric-icon-created.png) indica una métrica calculada creada por un administrador de Analytics de su organización.
+   El tipo de componente se puede identificar por el color y el icono. **Dimensiones** ![Los iconos de dimensión](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) son naranjas, **Segmentos** ![Los iconos de segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) son azules, **Intervalos de fechas** ![Los iconos de intervalos de fecha](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) son morados y **Métricas** ![Los iconos de métrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) son verdes. El icono de Adobe indica una plantilla de métricas calculadas o de segmentos y el icono de calculadora ![icono de Calculadora](assets/calculated-metric-icon-created.png) indica una métrica calculada creada por un administrador de Analytics de su organización.
 
 3. Seleccione el componente cuando aparezca en la lista desplegable.
 
@@ -119,7 +119,7 @@ Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo d
    | [!UICONTROL **Favoritos**] | Mostrar solo los componentes que se encuentran en la lista de Favoritos. Para obtener información acerca de cómo añadir componentes a la lista de favoritos, consulte [Información general sobre componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **Dimensiones**] | Mostrar solo los componentes que son dimensiones. |
    | [!UICONTROL **Métricas**] | Mostrar solo los componentes que son métricas. |
-   | [!UICONTROL **Segmentos**] | Mostrar solo los componentes que son segmentos. <!--this is Filters in Customer Jourey Analytics--> |
+   | [!UICONTROL **Segmentos**] | Mostrar solo los componentes que son segmentos. <!--this is Filters in Customer Journey Analytics--> |
    | [!UICONTROL **Intervalos de fechas**] | Mostrar solo los componentes que son intervalos de fechas. |
    | [!UICONTROL **Mostrar todo**] | Mostrar todos los componentes. Esta opción solo está disponible para administradores. |
    | [!UICONTROL **No aprobado**] | Mostrar solo los componentes que aún no están marcados como Aprobado por un administrador. Como administrador, resulta útil a la hora de identificar los componentes que requieren su revisión y aprobación. Esta opción solo está disponible para administradores. |

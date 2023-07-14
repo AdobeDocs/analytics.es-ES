@@ -4,7 +4,7 @@ title: Página de aterrizaje de Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: f7bd5eaffd4502510451e3afb5929682ad967ecb
+source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
 workflow-type: tm+mt
 source-wordcount: '4071'
 ht-degree: 85%
