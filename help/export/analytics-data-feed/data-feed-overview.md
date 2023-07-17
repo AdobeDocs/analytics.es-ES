@@ -4,18 +4,14 @@ keywords: flujo de navegación;fuente de datos;fuente de datos;Fuente de datos
 title: Resumen de la fuente de datos de Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 83%
+source-wordcount: '573'
+ht-degree: 87%
 
 ---
 
 # Resumen de la fuente de datos de Analytics
-
->[!AVAILABILITY]
->
->Algunos de los tipos de destino descritos en esta página se encuentran en la fase de prueba limitada de la versión y es posible que aún no estén disponibles en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Analytics, consulte [Lanzamientos de funciones de Adobe Analytics](/help/release-notes/releases.md).
 
 Las fuentes de datos son una forma eficaz de obtener datos sin procesar de Adobe Analytics. Estos datos sin procesar se pueden utilizar en otras plataformas fuera de Adobe para su uso según convenga a su organización. Los datos se entregan en lotes por hora al final de cada hora o en lotes diarios al final de cada día.
 

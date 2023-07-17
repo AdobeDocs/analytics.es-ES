@@ -4,7 +4,7 @@ title: Resumen de componentes
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 100%
@@ -127,8 +127,6 @@ Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo d
 4. (Opcional) Para perfeccionar aún más la lista, puede ordenarla, tal como se describe en [Ordenación de la lista de componentes](#sort-the-component-list).
 
 ### Ordenación de la lista de componentes
-
-{{release-limited-testing-section}}
 
 1. (Opcional) Aplique cualquier filtro a la lista de componentes, tal como se describe en [Filtrado de la lista de componentes](#filter-the-component-list).
 
