@@ -3,7 +3,7 @@ title: decodeLinkParameters
 description: Habilite o deshabilite las variables de seguimiento de vínculos de codificación doble de AppMeasurement.
 exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
 feature: Variables
-source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
+source-git-commit: e666a2efae01bad3cc3ccc5c8bfafe009a429588
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 7%
@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # decodeLinkParameters
 
-El `decodeLinkParameters` es un booleano que determina si las variables de seguimiento de vínculos se codifican una vez (si se establece en ) `true`) o dos veces (si se configura como ) `false`). Solo afecta a `linkName` (parte del [`tl()`](../functions/tl-method.md) método) y [`linkURL`](linkurl.md). Requiere el AppMeasurement 2.23.1 o superior para su uso. El valor predeterminado de esta variable es `false`.
+El `decodeLinkParameters` es un booleano que determina si las variables de seguimiento de vínculos se codifican una vez (si se establece en ) `true`) o dos veces (si se configura como ) `false`). Solo afecta a `linkName` (parte del [`tl()`](../functions/tl-method.md) método) y [`linkURL`](linkurl.md). Requiere el AppMeasurement 2.24.0 o superior para su uso. El valor predeterminado de esta variable es `false`.
 
 En versiones anteriores de AppMeasurement, las variables de seguimiento de vínculos siempre tenían codificación URL dos veces. Aunque no supone un problema para las implementaciones que generalmente dependen de caracteres de un solo byte, la codificación doble creaba valores codificados incorrectamente para caracteres de bytes múltiples en los informes. Configurando esta variable como `true` codifica una vez los valores de seguimiento de vínculos, que suele ser el comportamiento deseado.
 
