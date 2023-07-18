@@ -3,10 +3,10 @@ title: Interfaz de usuario de fuentes de datos
 description: Obtenga información sobre cómo navegar por la interfaz de fuentes de datos.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 97%
+source-wordcount: '656'
+ht-degree: 77%
 
 ---
 
@@ -20,11 +20,9 @@ Aquí tiene un vídeo sobre la IU de administración de fuentes de datos:
 
 Para acceder a la administración de fuentes de datos, siga estos pasos:
 
-1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
-2. Haga clic en el menú de 9 cuadrículas en la parte superior derecha y, a continuación, haga clic en [!UICONTROL Analytics].
-3. En el menú superior, haga clic en [!UICONTROL Administración] > [!UICONTROL Fuentes de datos].
-
-![Menú de fuente de datos](assets/AdminMenu.png)
+1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
+1. Seleccione el icono de 9 cuadrados en la esquina superior derecha y, a continuación, seleccione [!UICONTROL **Analytics**].
+1. En la barra de navegación superior, vaya a [!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**].
 
 ## Navegación por la interfaz
 
@@ -36,27 +34,25 @@ Si no se han definido fuentes, la página mostrará el botón [!UICONTROL Crear 
 
 ### Filtros y búsqueda
 
-Utilice filtros y busque la fuente exacta que necesite.
+Utilice la búsqueda o los filtros para localizar una fuente específica.
 
-En el extremo izquierdo, haga clic en el icono de filtro para mostrar u ocultar las opciones de filtrado. Los filtros están organizados por categoría. Haga clic en el botón de contenido adicional para contraer o expandir las categorías de filtrado. Haga clic en la casilla de verificación para aplicar el filtro.
+* En el campo de búsqueda, empiece a escribir el nombre de una fuente. En la lista de fuentes disponibles solo se muestran las fuentes que coinciden con.
 
-![Filtro](assets/filters.jpg)
+* En el extremo izquierdo, haga clic en el icono de filtro para mostrar u ocultar las opciones de filtrado. Los filtros están organizados por categoría. Puede contraer o expandir las categorías de filtrado. Seleccione la casilla de verificación situada junto a cualquier filtro que desee aplicar.
 
-Utilice la búsqueda para buscar una fuente por el nombre.
-
-![Buscar](assets/search.jpg)
+  ![Filtro](assets/filters.png)
 
 ### Fuentes y trabajos
 
-Haga clic en la pestaña Trabajos para ver los trabajos individuales que cada una de las fuentes crea. Consulte [Administración de trabajos de fuentes de datos](df-manage-jobs.md).
+Seleccione el [!UICONTROL **Trabajos**] para ver los trabajos individuales que cada una de las fuentes crea. Consulte [Administración de trabajos de fuentes de datos](df-manage-jobs.md).
 
 ### Agregar
 
-Cerca de las pestañas de fuentes y trabajos, haga clic en el botón + [!UICONTROL Agregar] para crear una nueva fuente. Consulte [Crear una fuente de datos](create-feed.md) para obtener más información.
+El [!UICONTROL Añadir] permite crear una fuente nueva. Consulte [Crear una fuente de datos](create-feed.md) para obtener más información.
 
 ### Columnas
 
-Cada fuente creada muestra varias columnas que proporcionan información al respecto. Haga clic en el encabezado de una columna para ordenarla en orden ascendente. Vuelva a hacer clic en el encabezado de una columna para ordenarla en orden descendente. Si no puede ver una columna específica, haga clic en el icono de columna en la parte superior derecha.
+Cada fuente creada muestra varias columnas que proporcionan información al respecto. Seleccione un encabezado de columna para ordenarlo en orden ascendente. Vuelva a seleccionar un encabezado de columna para ordenarlo en orden descendente. Si no puede ver una columna específica, haga clic en el icono de columna en la parte superior derecha.
 
 ![Icono de columna](assets/cols.jpg)
 

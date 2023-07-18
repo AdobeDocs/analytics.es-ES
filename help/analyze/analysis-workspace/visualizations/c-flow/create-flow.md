@@ -4,9 +4,9 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 58f53da6076bf57d060303538814582cb5eb009c
+source-git-commit: d1c2966bfd7cb5e397de23adf45bb38fca34e416
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1351'
 ht-degree: 62%
 
 ---
@@ -23,11 +23,9 @@ Las visualizaciones de flujo permiten configurar el inicio o el final de la ruta
 
 1. Añada un panel en blanco al proyecto y haga clic en el icono de visualizaciones en el carril izquierdo.
 
-1. Arrastre el [!UICONTROL **Flujo**] visualización en el panel.
-
    o
 
-   Arrastre el [!UICONTROL **Flujo**] visualización en un proyecto existente.
+   Añada una visualización de cualquiera de las formas descritas en la sección &quot;Añadir visualizaciones a un panel&quot; de [Información general sobre visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
 1. Ancle la visualización de flujo mediante una de las siguientes opciones:
 
@@ -45,7 +43,7 @@ Las visualizaciones de flujo permiten configurar el inicio o el final de la ruta
    >
    >Las métricas calculadas no se pueden usar en  **[!UICONTROL Comienza por]** o **[!UICONTROL Finaliza con]** campos.
 
-1. Si elige una métrica, también debe proporcionar un [!UICONTROL Dimension de rutas] para usar como ruta de acceso o de salida del componente seleccionado, como se muestra aquí. El valor predeterminado es [!UICONTROL **Página**].
+1. Si elige una métrica, también debe proporcionar un [!UICONTROL **Dimension de rutas**] para usar como ruta de acceso o de salida del componente seleccionado, como se muestra aquí. El valor predeterminado es [!UICONTROL **Página**].
 
    ![dimensión de las rutas](assets/pathing-dim.png)
 
