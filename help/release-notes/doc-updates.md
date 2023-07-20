@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: 2673f684c5111f94a7f3f6c65872bf0ebe3e7a57
 workflow-type: tm+mt
-source-wordcount: '4490'
+source-wordcount: '4503'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Julio de 2023** | |
+| Límite de tamaño de FTP actualizado | Se ha cambiado el [límite predeterminado de almacenamiento de datos de FTP](/help/export/ftp-and-sftp/ftp-limits.md) a 100 GB. |
 | Nueva variable de AppMeasurement | La variable `decodeLinkParameters` se adapta a los casos extremos en los que las implementaciones codifican caracteres multibyte en variables de seguimiento de vínculos. [Más información](../implement/vars/config-vars/decodelinkparameters.md) |
 | **Junio de 2023** | |
 | Nuevas funciones para conjuntos de clasificación | Los [conjuntos de clasificación](/help/components/classifications/sets/overview.md) se han actualizado con varias funciones nuevas:<ul><li>**Consolidación**: combine conjuntos de clasificación en un único conjunto de clasificación consolidado. El conjunto de clasificaciones consolidadas se puede utilizar como otros conjuntos de clasificaciones o como un conjunto de datos de búsqueda en Customer Journey Analytics. [Más información](../components/classifications/sets/consolidations/manage.md)</li><li>**Reglas**: clasifique automáticamente los valores según las reglas del conjunto de clasificación. [Más información](../components/classifications/sets/manage/rules.md)</li><li>**Importación automatizada**: importe automáticamente los datos de clasificación de los destinos de almacenamiento en la nube. [Más información](../components/classifications/sets/manage/schema.md)</li></ul> |
@@ -59,7 +60,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | **Febrero de 2023** | |
 | Implementación | Se ha actualizado el contenido sobre cómo [implementar Adobe Analytics para web y móvil](../implement/home.md). |
 | Calendarios e intervalos de fechas del Espacio de trabajo | Se ha actualizado el contenido para describir intervalos de fechas relativos, actualizaciones de cálculo de fórmula y cambios en la IU del calendario. Consulte [Acerca de los intervalos de fechas relativos del panel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
-| Cuadros de resultados móviles | Nueva sección de documentación para describir cómo mostrar y ocultar intervalos de fechas de comparación. Consulte [Mostrar comparación de intervalos de fechas](/help/analyze/mobile-app/create-scorecard.md) en Customer Journey Analytics. |
+| Cuadros de resultados móviles | Nueva sección de documentación para describir cómo mostrar y ocultar intervalos de fechas de comparación. Consulte [Mostrar intervalos de fechas de comparación](/help/analyze/mobile-app/create-scorecard.md) en Customer Journey Analytics. |
 | API 1.4 | La [API de Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) se ha reescrito por completo y ahora está publicada en Adobe Developer. |
 | Seguimiento en tipos de implementación | Se ha actualizado el caso de uso [Seguimiento en diferentes tipos de implementación](../implement/use-cases/cross-type-implementation.md) para dar cabida al servicio de ID de Experience Cloud. |
 | **Enero de 2023** | |
