@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9a6728de91ac968c5ff4eb28217b5ea1d11513f8
+source-git-commit: 45fbd7f7502abe4b579135d100c7e3618546c0f5
 workflow-type: tm+mt
-source-wordcount: '4529'
+source-wordcount: '4576'
 ht-degree: 98%
 
 ---
@@ -26,9 +26,11 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Julio de 2023** | |
-| ID de empresa global | Documentado [cómo encontrar el id de empresa global](../admin/admin/company/web-services-admin.md) para la empresa de Analytics en la que ha iniciado sesión. Este ID es necesario para las API de Analytics 2.0. |
+| ID de empresa global | Documentado [cómo encontrar el ID de empresa global](../admin/admin/company/web-services-admin.md) para la empresa de Analytics en la que ha iniciado sesión. Este ID es necesario para las API de Analytics 2.0. |
 | Límite de tamaño de FTP actualizado | Se ha cambiado el [límite predeterminado de almacenamiento de datos de FTP](/help/export/ftp-and-sftp/ftp-limits.md) a 100 GB. |
 | Nueva variable de AppMeasurement | La variable `decodeLinkParameters` se adapta a los casos extremos en los que las implementaciones codifican caracteres multibyte en variables de seguimiento de vínculos. [Más información](../implement/vars/config-vars/decodelinkparameters.md) |
+| Configuración de ubicaciones de almacenamiento de cuentas en la nube para ingerir datos de clasificación | Ahora puede administrar las ubicaciones del almacenamiento de cuentas en la nube que se utilizan para la automatización de conjuntos de clasificación. [Más información](/help/components/locations/configure-import-accounts.md) |
+| Mejoras del filtro de reparación de datos | Se han añadido tres mejoras de filtrado a Reparación de datos. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
 | **Junio de 2023** | |
 | Nuevas funciones para conjuntos de clasificación | Los [conjuntos de clasificación](/help/components/classifications/sets/overview.md) se han actualizado con varias funciones nuevas:<ul><li>**Consolidación**: combine conjuntos de clasificación en un único conjunto de clasificación consolidado. El conjunto de clasificaciones consolidadas se puede utilizar como otros conjuntos de clasificaciones o como un conjunto de datos de búsqueda en Customer Journey Analytics. [Más información](../components/classifications/sets/consolidations/manage.md)</li><li>**Reglas**: clasifique automáticamente los valores según las reglas del conjunto de clasificación. [Más información](../components/classifications/sets/manage/rules.md)</li><li>**Importación automatizada**: importe automáticamente los datos de clasificación de los destinos de almacenamiento en la nube. [Más información](../components/classifications/sets/manage/schema.md)</li></ul> |
 | Actualizaciones de métricas calculadas | Se han realizado actualizaciones en varios artículos relacionados con las métricas calculadas, incluida la actualización de capturas de pantalla y pasos en los procedimientos. Estos cambios se realizaron para alinear la documentación con la funcionalidad actual de Adobe Analytics. |
