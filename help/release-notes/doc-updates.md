@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bcef7aeffa28bd8c2fa2863c4dfb6e6cde15a469
+source-git-commit: 1c7dd6fad55acc579229f47d0b22ec50b80eb565
 workflow-type: tm+mt
 source-wordcount: '4623'
 ht-degree: 97%
@@ -26,7 +26,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Julio de 2023** | |
-| API del servidor de red Adobe Experience Platform Edge | Se ha añadido documentación más completa sobre cuándo y cómo implementar la recopilación de datos con Adobe Analytics mediante [API del servidor de red Adobe Experience Platform Edge](../implement/aep-edge/server-api/overview.md). Por ejemplo, la implementación de la recopilación de datos con Adobe Analytics en aplicaciones de escritorio, dispositivos de IoT, y el establecimiento de cuadros superiores. |
+| API del servidor de red Adobe Experience Platform Edge | Se ha añadido documentación más completa sobre cuándo y cómo implementar la recopilación de datos con Adobe Analytics mediante [API del servidor de red Adobe Experience Platform Edge](../implement/aep-edge/server-api/overview.md). Por ejemplo, implementar la recopilación de datos con Adobe Analytics en aplicaciones de escritorio, dispositivos IoT, establecer cuadros superiores. |
 | ID de empresa global | Documentado [cómo encontrar el ID de empresa global](../admin/admin/company/web-services-admin.md) para la empresa de Analytics en la que ha iniciado sesión. Este ID es necesario para las API de Analytics 2.0. |
 | Límite de tamaño de FTP actualizado | Se ha cambiado el [límite predeterminado de almacenamiento de datos de FTP](/help/export/ftp-and-sftp/ftp-limits.md) a 100 GB. |
 | Nueva variable de AppMeasurement | La variable `decodeLinkParameters` se adapta a los casos extremos en los que las implementaciones codifican caracteres multibyte en variables de seguimiento de vínculos. [Más información](../implement/vars/config-vars/decodelinkparameters.md) |
