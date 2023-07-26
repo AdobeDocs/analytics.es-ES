@@ -3,10 +3,10 @@ title: 'Permisos de Adobe Analytics: tablas de resumen'
 description: Tablas que resumen los permisos de Adobe Analytics disponibles en Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 100%
+source-wordcount: '1302'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 | Grupos de informes (escritura) |  |  |  | x | No se usa. |
 | SiteCatalyst |  |  |  | x | No se usa. En su lugar, utilice &#39;Acceso a Analysis Workspace&#39;. |
 | Social |  |  |  | x | No se usa. |
-| Informe breve de texto |  |  |  | x | No se usa. |
+| Informe breve de texto |  |  |   | x | No se usa. |
 | Administración del tráfico |  |  |  | x | No se usa. |
 | Informe breve de resumen de uso |  |  |  | x | No se usa. |
 | Configuración de vídeo |  |  |  | x | No se usa. |
@@ -88,6 +88,7 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 | Asistencia | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Configuraciones de la compañía > Información de asistencia. |
 | Administración del tráfico | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Administración del tráfico. |
 | Servicios Web | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Configuraciones de la compañía > Servicios web. |
+| Uso compartido de vínculos del proyecto con cualquier persona | x |  |  |  | Otorga acceso a los usuarios para compartir con cualquiera que se encuentre en un proyecto de Workspace -> Compartir -> Compartir con cualquier persona. |
 | Activity Map |  | x |  |  | Otorga acceso a Herramientas > Activity Map. Permite al usuario utilizar la extensión Activity Map. |
 | Usuarios con licencias para Ad Hoc Analysis |  | x |  |  | Ad Hoc Analysis ha llegado al final de su vida útil. [Más información](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Acceso a Analysis Workspace |  | x |  |  | Disponen de acceso a Analysis Workspace. Los usuarios deben pertenecer a este grupo (opción preferida) o a Acceso a Reports &amp; Analytics para utilizar Adobe Analytics. |

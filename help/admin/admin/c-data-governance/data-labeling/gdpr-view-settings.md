@@ -3,10 +3,10 @@ description: El cuadro de diálogo Etiquetado de privacidad para la administraci
 title: Ver/administrar el etiquetado de privacidad para la administración de datos
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 0f5a1e7264b194b368731f612a04bb805740a932
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 93%
+source-wordcount: '877'
+ht-degree: 89%
 
 ---
 
@@ -21,11 +21,11 @@ El cuadro de diálogo **[!UICONTROL Etiquetado de privacidad para la administrac
 
    >[!NOTE]
    >
-   >Si no ve este elemento de menú, debe añadirse a un [perfil de producto en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=es) con permisos para esta funcionalidad.
+   >Si no ve este elemento de menú, debe agregarlo a un [perfil de producto en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=es) con permisos para esta funcionalidad o se les ha proporcionado acceso a un grupo de informes dentro del Admin Console.
 
 3. En la parte superior derecha, seleccione un grupo de informes cuyas etiquetas de privacidad desee ver o administrar.
 
-![](assets/privacy_labeling.png)
+   ![](assets/privacy_labeling.png)
 
 | Configuración | Descripción |
 | --- | --- |

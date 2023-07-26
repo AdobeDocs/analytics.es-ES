@@ -3,9 +3,9 @@ title: Crear una fuente de datos
 description: Obtenga información sobre cómo crear una fuente de datos.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3122'
 ht-degree: 21%
 
 ---
@@ -262,7 +262,6 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
          | [!UICONTROL **Nombre de la cuenta**] | Un nombre para la cuenta. Puede ser cualquier nombre que elija. |
          | [!UICONTROL **Descripción de la cuenta**] | Una descripción de la cuenta. |
          | [!UICONTROL **ID del proyecto**] | Su ID del proyecto de Google Cloud. Consulte la [Documentación de Google Cloud sobre la obtención de un ID de proyecto](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
-         | [!UICONTROL **Principal**] | El principal lo proporciona el Adobe. Debe conceder permiso a esta entidad de seguridad para recibir fuentes. Consulte la [Documentación de Google Cloud sobre cómo agregar un principal a una directiva](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-iam). |
 
          {style="table-layout:auto"}
 
@@ -317,6 +316,7 @@ La siguiente información proporciona información de configuración para cada u
 Los datos de las fuentes de datos se pueden entregar en un Adobe o en una ubicación FTP alojada por el cliente. Se necesita un host FTP, un nombre de usuario y una contraseña. Utilice el campo de ruta para colocar los archivos de fuente en una carpeta. Las carpetas ya deben existir, las fuentes generan un error si la ruta de acceso especificada no existe.
 
 Utilice la siguiente información al completar los campos disponibles:
+
 * [!UICONTROL **Host**]: introduzca la dirección URL de destino de FTP que desee. Por ejemplo, `ftp://ftp.omniture.com`.
 * [!UICONTROL **Ruta**]: se puede dejar en blanco
 * [!UICONTROL **Nombre de usuario**]: introduzca el nombre de usuario para iniciar sesión en el sitio FTP.
