@@ -4,9 +4,9 @@ description: Secuencia de visitas de la página efectuadas en una sesión.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Una visita se vincula siempre a un periodo de tiempo, para que sepa si se debe c
 * **30 minutos de inactividad**: Casi todas las sesiones finalizan de esta forma. Si pasan más de 30 minutos entre cada visita individual, se inicia una nueva visita.
 * **12 horas de actividad**: Si un usuario activa las solicitudes de imagen de forma consistente sin interrupciones de 30 minutos durante más de 12 horas, se iniciará automáticamente una nueva visita.
 * **2500 visitas**: Si un usuario genera un gran número de visitas sin iniciar una sesión nueva, se cuenta una visita nueva después de 2500 solicitudes de imagen.
-* **100 visitas en 100 segundos**: Si una visita tiene más de 100 visitas que se producen en los primeros 100 segundos de la visita, esta finaliza automáticamente. Este comportamiento suele indicar la actividad de bots y esta limitación se impone para ayudar a aumentar el rendimiento del informe.
+* **100 visitas en 100 segundos**: si una visita tiene más de 100 visitas que se producen en los primeros 100 segundos de la visita, la visita finaliza automáticamente. Este comportamiento suele indicar la actividad de bots y esta limitación se impone para ayudar a aumentar el rendimiento del informe.
 
 Una visita no necesariamente coincide con una sesión del explorador debido a los criterios anteriores. Una de las diferencias más comunes se produce cuando un visitante navega hasta el sitio, deja la pestaña abierta durante más de 30 minutos y luego reanuda la exploración. Aunque esta acción es técnicamente parte de la misma sesión de navegación, Adobe considera que esta acción genera dos visitas separadas.
 
@@ -45,7 +45,7 @@ Si un visitante realiza cualquiera de estas acciones, una nueva visita **no se i
 
 Puede cambiar el tiempo necesario para la definición de una visita a un intervalo de tiempo diferente a 30 minutos.
 
-* Para [Grupos de informes virtuales](../vrs/vrs-about.md), puede cambiar el tiempo de espera de visita mediante la función [!UICONTROL Tiempo de espera de visita] lista desplegable. Puede cambiar el tiempo de espera de visita a cualquier valor razonable.
+* Para los [grupos de informes virtuales](../vrs/vrs-about.md), puede cambiar el tiempo de espera de visita mediante la lista desplegable [!UICONTROL Tiempo de espera de visita]. Puede cambiar el tiempo de espera de visita a cualquier valor razonable.
 * Para los grupos de informes estándar, póngase en contacto con el Servicio de atención al cliente para solicitar que la duración de la visita se acorte en un grupo de informes determinado. La duración de la visita para los grupos de informes estándar no puede exceder los 30 minutos, por lo que solo puede abreviarse.
 
 ## Visitas que abarcan un límite de fecha
