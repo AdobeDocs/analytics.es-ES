@@ -5,9 +5,9 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4071'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -101,24 +101,24 @@ Otro caso de uso para los administradores es administrar los informes de la empr
 
 ## Vaya a la pestaña [!UICONTROL Informes] {#navigate-reports}
 
-El [!UICONTROL Informes] consolida los siguientes conjuntos de informes:
+La pestaña [!UICONTROL Informes] consolida los siguientes conjuntos de informes:
 
 * Las plantillas generadas previamente del [!UICONTROL Espacio de trabajo] que anteriormente se encontraban en [!UICONTROL Espacio de trabajo] > [!UICONTROL Proyecto] > [!UICONTROL Nuevo]. Adobe ya no utiliza la palabra “plantilla” en este contexto.
 * La mayoría de los informes generados previamente estaban en el menú superior anterior de Adobe Analytics [!UICONTROL Informes]. Estos informes ahora se muestran en [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es).
 
 >[!NOTE]
 >
->Tenga en cuenta lo siguiente al utilizar los informes:
+>Tenga en cuenta lo siguiente al utilizar informes:
 >* En Informes, la carpeta Favoritos aparece únicamente si marca un nuevo informe como favorito. No se arrastran los favoritos preexistentes de Reports &amp; Analytics.
->* Solo están disponibles los informes más utilizados que anteriormente se agrupaban en Reports &amp; Analytics. Ya no están disponibles algunos informes poco usados o que ya no son relevantes. Consulte la [Preguntas frecuentes sobre la página de aterrizaje](#landing-page-faq) a continuación para obtener más información.
+>* Solo están disponibles los informes más utilizados que antes se agrupaban en Reports &amp; Analytics. Ya no están disponibles algunos informes poco utilizados o que ya no son relevantes. Consulte las [Preguntas frecuentes sobre la página de aterrizaje](#landing-page-faq) que se muestra a continuación para obtener más información.
 
 ![Pestaña de informes](assets/reports-tab2.png)
 
 
 ### Ver informes {#menus}
 
-1. Vaya a la pestaña [!UICONTROL **Informes**]
-1. Utilice el campo de búsqueda para buscar un informe específico.
+1. Vaya a la pestaña [!UICONTROL **Informes**].
+1. Utilice el campo de búsqueda para buscar un informe determinado.
 
    o
 
@@ -136,24 +136,24 @@ El [!UICONTROL Informes] consolida los siguientes conjuntos de informes:
 
 ### Ver y guardar un informe {#use-reports}
 
-Si sale de un informe después de realizar cambios, se le pedirá que guarde o descarte los cambios. Al guardar los cambios en un informe, se guarda el informe como un nuevo proyecto.
+Si sale de un informe después de realizar cambios, se le solicitará que guarde o descarte los cambios. Al guardar los cambios en un informe, se guarda el informe como un nuevo proyecto.
 
-1. Vaya a la pestaña [!UICONTROL **Informes**]
-1. Seleccione el informe que desee ver. Por ejemplo, en [!UICONTROL **El más popular**], seleccione la [!UICONTROL **Páginas**] informe.
+1. Vaya a la pestaña [!UICONTROL **Informes**].
+1. Seleccione el informe que desee ver, por ejemplo, en [!UICONTROL **El más popular**], seleccione el informe [!UICONTROL **Páginas**].
 
    ![Informe de páginas](assets/pages-report.png)
 
 1. El informe Páginas, tal como se muestra en Analysis Workspace, muestra dos [visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([Gráfico de barras](/help/analyze/analysis-workspace/visualizations/bar.md) y [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)) y una [Tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). La métrica utilizada es Ocurrencias.
 1. Realice una de las siguientes acciones:
 
-   * Ver el informe.
-   * Arrastre uno o más segmentos a la zona de colocación de Segmento en la parte superior. Por ejemplo, arrastre el segmento [!UICONTROL **Clientes móviles**] y ver los resultados.
-   * Para cambiar el intervalo de fechas, vaya al calendario en la parte superior derecha.
+   * Vea el informe.
+   * Puede arrastrar uno o más segmentos a la zona de colocación de Segmento en la parte superior. Por ejemplo, arrastre el segmento [!UICONTROL **Clientes móviles**] y vea los resultados.
+   * Para cambiar el intervalo de fecha, vaya al calendario en la parte superior derecha.
    * Añada desgloses de dimensión, arrastre otras métricas y, por lo general, personalice el informe según sus necesidades.
 
 1. (Opcional) Guarde el informe como un proyecto seleccionando [!UICONTROL **Proyecto**] > [!UICONTROL **Guardar**].
 
-   Esto guarda el informe como un nuevo proyecto, pero no modifica el informe existente. Para obtener más información sobre cómo guardar un informe como proyecto, consulte &quot;Crear un proyecto a partir de un proyecto en blanco o un informe&quot; en [Creación de proyectos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   El informe se guarda como un nuevo proyecto, pero no se modifica el informe existente. Para obtener más información sobre cómo guardar un informe como un proyecto, consulte &quot;Crear un proyecto a partir de un proyecto en blanco o un informe&quot; en [Creación de un proyecto a partir de un proyecto en blanco](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 ### Creación de un informe de la compañía personalizado {#company-report}
 
@@ -162,15 +162,15 @@ Los informes personalizados creados y guardados para que los demás usuarios de 
 Para crear un nuevo Informe de la compañía:
 
 1. Cree un proyecto en Analysis Workspace con el estado que desee.
-1. Seleccionar [!UICONTROL **Proyecto**] > **[!UICONTROL Guardar como informe de la empresa...]**.
+1. Seleccione [!UICONTROL **Proyecto**] > **[!UICONTROL Guardar como informe de la compañía...]**.
 
    ![Informe de la compañía](assets/company-report.png)
 
-1. Actualice el nombre del informe, añada una descripción, añada etiquetas y, a continuación, seleccione [!UICONTROL **Guardar como informe de la empresa**].
+1. Actualice el nombre del informe, añada una descripción, añada etiquetas y, a continuación, seleccione [!UICONTROL **Guardar como informe de la compañía**].
 
-   El informe se añade a la lista Informes de la compañía en el modal Crear proyecto y está disponible para los usuarios de la empresa de inicio de sesión.
+   El informe se añade a la lista de informes de la compañía en el modal Crear proyecto y está disponible para los usuarios de la compañía al iniciar sesión.
 
-   Para obtener más información sobre cómo los usuarios pueden crear un proyecto basado en un informe de compañía, consulte &quot;Crear un proyecto a partir de un proyecto en blanco o un informe&quot; en [Creación de proyectos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   Para obtener más información sobre cómo se puede crear un proyecto basado en un informe de la compañía, consulte &quot;Creación de un proyecto a partir de un proyecto en blanco o un informe&quot; en [Crear proyectos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 Más opciones de aprendizaje:
 
@@ -179,7 +179,7 @@ Más opciones de aprendizaje:
 * Aquí tiene un vínculo a la [documentación completa de Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 * Esta es la [lista de reproducción completa de YouTube de Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
-### Administrar informes de empresa {#manage-company-reports}
+### Administración de informes de la compañía {#manage-company-reports}
 
 Los administradores pueden filtrar la lista de proyectos para mostrar y administrar los informes de la compañía. Los elementos anclados permanecen anclados seguidos de la lista de informes de la compañía que se identifican con el icono de informe ![icono de informe. ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) En esta vista, puede eliminar, cambiar el nombre, etiquetar o aprobar uno o más informes.
 
@@ -238,22 +238,22 @@ Los administradores pueden eliminar un informe mediante la opción Lista de info
 
 ## Uso de la pestaña Aprendizaje {#navigate-learning}
 
-La página Aprendizaje contiene recorridos en vídeo prácticos, tutoriales y vínculos a documentación.
+La página Aprendizaje contiene vídeos prácticos, tutoriales y vínculos a la documentación.
 
-Utilice la página Aprendizaje en Adobe Analytics para aprender las funciones y casos de uso principiantes, intermedios o avanzados en Adobe Analytics.
+Utilice la página Aprendizaje en Adobe Analytics para aprender las funciones y casos de uso para el nivel de principiante, intermedio o avanzado en Adobe Analytics.
 
 ### Acceso a la página Aprendizaje
 
-1. En Adobe Analytics, seleccione [!UICONTROL **Workspace**] > [!UICONTROL **Aprendizaje**].
+1. En Adobe Analytics, seleccione [!UICONTROL **Espacio de trabajo**] > [!UICONTROL **Aprendizaje**].
 
-### Funciones de página de aprendizaje
+### Funciones de la página Aprendizaje
 
-* **Filtrar contenido:** El icono Filtro en el carril izquierdo le permite filtrar el contenido de aprendizaje por nivel de experiencia (principiante, intermedio o avanzado) y por tipo de contenido (documento, vídeo o recorridos y tutoriales).
-* **Seguimiento del progreso:** Después de seleccionar un fragmento de contenido, se crea un **[!UICONTROL Visto]** aparece la etiqueta. Esta etiqueta le ayuda a realizar un seguimiento del progreso por el contenido de aprendizaje. Puede seleccionar el **[!UICONTROL Visto]** para eliminarlo de un fragmento de contenido.
-* **Ver contenido adicional:** Mientras ve cualquier vídeo, seleccione la opción **[!UICONTROL Más información]** para ver el contenido de la documentación relacionado en el Experience League. O bien, en la página Aprendizaje, seleccione cualquiera de las siguientes opciones para ver contenido adicional:
-   * **[!UICONTROL Visite YouTube]:** Vea la lista de reproducción completa de Analysis Workspace YouTube.
-   * [!UICONTROL **Visitar Experience League**]: consulte el conjunto completo de documentación de Adobe Analytics sobre Experience League.
-* **Aspectos básicos para nuevos usuarios:** El [!UICONTROL Aspectos básicos de Workspace] se recomienda realizar una visita guiada para los usuarios nuevos. Este recorrido le lleva directamente a Workspace y le explica las acciones más comunes. También se puede reiniciar en cualquier momento en Workspace en la ventana emergente de información del panel del encabezado.
+* **Filtrar contenido:** El icono de Filtro en el carril izquierdo le permite filtrar el contenido de aprendizaje por nivel de experiencia (principiante, intermedio o avanzado) y por tipo de contenido (documento, vídeo o visitas guiadas y tutoriales).
+* **Seguimiento del progreso:** después de seleccionar un fragmento de contenido, aparece una etiqueta **[!UICONTROL Visto]**. Esta etiqueta le ayuda a realizar un seguimiento del progreso por el contenido de aprendizaje. Puede seleccionar la etiqueta **[!UICONTROL Visto]** para quitarla de un fragmento de contenido.
+* **Ver contenido adicional:** mientras ve cualquier vídeo, seleccione la opción **[!UICONTROL Más información]** para ver el contenido de la documentación relacionada sobre Experience League. O bien, en la página Aprendizaje, seleccione cualquiera de las siguientes opciones para ver contenido adicional:
+   * **[!UICONTROL Visitar YouTube]:** vea la lista de reproducción completa en YouTube de Analysis Workspace.
+   * [!UICONTROL **Visitar Experience League**]: vea el conjunto completo de documentación de Adobe Analytics sobre Experience League.
+* **Elementos fundamentales para nuevos usuarios:** se recomienda a los nuevos usuarios la visita guiada [!UICONTROL Elementos fundamentales de Workspace]. Esta visita guiada le lleva directamente a Workspace y le lleva por las acciones más comunes. Esta visita guiada también se puede reiniciar en cualquier momento directamente en el espacio de trabajo a través de la ventana emergente de información sobre herramientas del encabezado del panel.
 
 ## Establecer una página de aterrizaje {#set-landing}
 
