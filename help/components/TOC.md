@@ -5,9 +5,9 @@ user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
 source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 88%
    + [Longitud promedio de la sesión](metrics/average-session-length.md)
    + [Promedio de tiempo en el sitio](metrics/average-time-on-site.md)
    + [Ocurrencias de bots](metrics/bot-occurrences.md)
-   + [Vistas de página de bots](metrics/bot-page-views.md)
+   + [Vistas de páginas de bots](metrics/bot-page-views.md)
    + [Porcentaje de rebote](metrics/bounce-rate.md)
    + [Devoluciones](metrics/bounces.md)
    + [Adiciones al carro de compras](metrics/cart-additions.md)
@@ -187,7 +187,7 @@ ht-degree: 88%
       + [Buscar métricas](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Generar métricas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [Generar una métrica “Vistas de página por visitas” ](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Crear una métrica de &quot;Asistencia para pedidos&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Crear una métrica de &quot;Asistencias de pedidos&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Generar una métrica de “participación”](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Tipo de métrica y atribución](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Métricas segmentadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
@@ -235,17 +235,17 @@ ht-degree: 88%
 + Clasificaciones {#classifications}
    + [Resumen general de las clasificaciones](classifications/c-classifications.md)
    + Conjuntos de clasificación {#sets}
-      + [Información general sobre conjuntos de clasificaciones](classifications/sets/overview.md)
-      + Administrar conjuntos de clasificaciones {#manage}
-         + [Administrador de conjuntos de clasificaciones](classifications/sets/manage/set-manager.md)
-         + [Crear un conjunto de clasificaciones](classifications/sets/manage/create.md)
-         + [Configuración del conjunto de clasificaciones](classifications/sets/manage/settings.md)
-         + [Esquema del conjunto de clasificaciones](classifications/sets/manage/schema.md)
-         + [Reglas del conjunto de clasificaciones](classifications/sets/manage/rules.md)
-      + [Administrador de trabajos de conjuntos de clasificaciones](classifications/sets/job-manager.md)
-      + Consolidación de conjuntos de clasificaciones {#consolidations}
-         + [Administrador de consolidaciones de conjuntos de clasificaciones](classifications/sets/consolidations/manage.md)
-         + [Proceso de consolidaciones del conjunto de clasificaciones](classifications/sets/consolidations/process.md)
+      + [Información general sobre los conjuntos de clasificación](classifications/sets/overview.md)
+      + Administrar conjuntos de clasificación {#manage}
+         + [Administrador de conjuntos de clasificación](classifications/sets/manage/set-manager.md)
+         + [Crear un conjunto de clasificación](classifications/sets/manage/create.md)
+         + [Configuración del conjunto de clasificación](classifications/sets/manage/settings.md)
+         + [Esquema del conjunto de clasificación](classifications/sets/manage/schema.md)
+         + [Reglas del conjunto de clasificación](classifications/sets/manage/rules.md)
+      + [Administrador de trabajos de conjuntos de clasificación](classifications/sets/job-manager.md)
+      + Consolidación de conjuntos de clasificación {#consolidations}
+         + [Administrador de consolidaciones de conjuntos de clasificación](classifications/sets/consolidations/manage.md)
+         + [Proceso de consolidaciones del conjunto de clasificación](classifications/sets/consolidations/process.md)
    + Clasificación del Generador de reglas {#classifications-rulebuilder}
       + [Flujo de trabajo del generador de reglas de clasificación](classifications/crb/classification-rule-builder.md)
       + [Conjuntos de reglas de clasificación](classifications/crb/classification-rule-set.md)
@@ -270,8 +270,8 @@ ht-degree: 88%
    + [Preguntas más frecuentes sobre las clasificaciones](classifications/faq.md)
 + Ubicaciones {#locations}
    + [Administrador de ubicaciones](/help/components/locations/locations-manager.md)
-   + [Cuentas de importación de nube](/help/components/locations/configure-import-accounts.md)
-   + [Ubicaciones de importación de nube](/help/components/locations/configure-import-locations.md)
+   + [Cuentas de importación en la nube](/help/components/locations/configure-import-accounts.md)
+   + [Ubicaciones de importación en la nube](/help/components/locations/configure-import-locations.md)
 + [Eventos de calendario](t-calendar-event.md)
 + [Cola de informes programados](scheduled-reports-admin.md)
 + Informes en tiempo real {#real-time-reporting}
