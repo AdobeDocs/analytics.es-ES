@@ -6,9 +6,9 @@ title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3671'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`ch_hdr`** | Sugerencias del cliente recopiladas mediante el encabezado de petición HTTP. | texto |
 | **`ch_js`** | Sugerencias del cliente recopiladas mediante la API de JavaScript de sugerencias del cliente agente de usuario. | texto |
 | **`channel`** | Variable utilizada en la dimensión [Secciones del sitio](/help/components/dimensions/site-section.md). | varchar(100) |
-| **`click_action`** | Ya no se utiliza. Dirección de vínculos en los que se ha hecho clic en la herramienta ClickMap heredada. | varchar(100) |
-| **`click_action_type`** | Ya no se utiliza. Tipo de vínculo de la herramienta de ClickMap heredada.<br>0: URL de HREF<br>1: ID personalizada<br>2: Evento onClick de JavaScript<br>3: Elemento de formulario | tinyint sin firmar |
-| **`click_context`** | Ya no se utiliza. Nombre de la página en la que se ha hecho clic en vínculo. Forma parte de la herramienta heredada ClickMap. | varchar(255) |
+| **`click_action`** | Ya no se utiliza. Dirección de vínculos en los que se ha hecho clic en la herramienta heredada Clickmap. | varchar(100) |
+| **`click_action_type`** | Ya no se utiliza. Tipo de vínculo de la herramienta heredada Clickmap.<br>0: URL de HREF<br>1: ID personalizada<br>2: Evento onClick de JavaScript<br>3: Elemento de formulario | tinyint sin firmar |
+| **`click_context`** | Ya no se utiliza. Nombre de la página en la que se ha hecho clic en vínculo. Forma parte de la herramienta heredada Clickmap. | varchar(255) |
 | **`click_context_type`** | Ya no se utiliza. Indica si `click_context` tenía un nombre de página o si estaba vinculado a la URL de la página de forma predeterminada.<br>0: Dirección URL de la página<br>1: Nombre de la página | tinyint sin firmar |
-| **`click_sourceid`** | Ya no se utiliza. ID numérica para la ubicación dentro de la página del enlace en el que se ha hecho clic. Forma parte de la herramienta heredada ClickMap. | int sin firmar |
+| **`click_sourceid`** | Ya no se utiliza. ID numérica para la ubicación dentro de la página del enlace en el que se ha hecho clic. Forma parte de la herramienta heredada Clickmap. | int sin firmar |
 | **`click_tag`** | Ya no se utiliza. Tipo de elemento HTML en el que se ha hecho clic. | char(10) |
 | **`clickmaplink`** | Vínculo de Activity Map | varchar(255) |
 | **`clickmaplinkbyregion`** | Vínculo de Activity Map por región | varchar(255) |
@@ -63,7 +63,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`curr_factor`** | Determina el lugar decimal de la moneda y se utiliza para la conversión de monedas. Por ejemplo, USD utiliza dos lugares decimales, por lo que el valor de esta columna debe ser 2. | tinyint |
 | **`curr_rate`** | El tipo de cambio vigente cuando se produjo la transacción. Adobe se asocia con XE para determinar el tipo de cambio del día. | decimal(24,12) |
 | **`currency`** | El código de moneda que se ha utilizado durante la transición. | char(8) |
-| **`cust_hit_time_gmt`** | Solo grupos de informes con marca de tiempo. La marca de tiempo enviada con la visita basada en la hora UNIX®. | int |
+| **`cust_hit_time_gmt`** | Solo grupos de informes con marca de tiempo. La marca de tiempo enviada con la visita y basada en el Tiempo UNIX®. | int |
 | **`cust_visid`** | Si se estableció una ID de visitante personalizada, aparece completada en esta columna. | varchar(255) |
 | **`daily_visitor`** | Indicador que determina si la visita es un visitante nuevo diario. | tinyint sin firmar |
 | **`dataprivacyconsentoptin`** | Variable utilizada en la dimensión [Inclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-in.md). Puede haber varios valores por visita, separados por una barra vertical (`\|`). Los valores válidos incluyen `DMP` y `SELL`. | varchar(100) |
@@ -87,11 +87,11 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`geo_country`** | Abreviatura del país del que provino la visita basada en la dirección IP. Se utiliza en la dimensión [Países.](/help/components/dimensions/countries.md) | char(4) |
 | **`geo_dma`** | ID numérica del área demográfica de la que provino la visita basada en la dirección IP. Se utiliza en la dimensión [US DMA](/help/components/dimensions/us-dma.md). | int sin firmar |
 | **`geo_region`** | Nombre del estado o región del que provino la visita basada en la dirección IP. Se utiliza en la dimensión [Regiones](/help/components/dimensions/regions.md). | char(32) |
-| **`geo_zip`** | El código postal del que provino la visita basado en la dirección IP. Ayuda a rellenar la dimensión [Código postal](/help/components/dimensions/zip-code.md). Consulte también `zip`. | varchar(16) |
+| **`geo_zip`** | El código postal del que provino la visita basada en la dirección IP. Ayuda a rellenar la dimensión [Código postal](/help/components/dimensions/zip-code.md). Consulte también `zip`. | varchar(16) |
 | **`hier1 - hier5`** | Se utiliza por variables de jerarquía. Contiene una lista delimitada de valores. El delimitador se selecciona en virtud de la configuración del grupo de informes. | varchar(255) |
-| **`hit_source`** | Indica el origen del que provino la visita. Se facturan las fuentes de visitas 1, 2 y 6. <br>1: Solicitud de imagen estándar sin marca de tiempo <br>2: Solicitud de imagen estándar con marca de tiempo <br>3: Carga de la fuente de datos activa con marcas de tiempo<br>4: Sin usar <br>5: Carga genérica de la fuente de datos <br>6: Carga completa de la fuente de datos de procesamiento <br>7: Carga del origen de datos TransactionID <br>8: Ya no se utiliza; versiones anteriores de las fuentes de datos de Adobe Advertising Cloud <br>9: Ya no se utiliza; métricas resumen de Adobe Social <br>10: Envío del lado del servidor de Audience Manager utilizado | tinyint sin firmar |
-| **`hit_time_gmt`** | La marca de tiempo de los servidores de recopilación de datos del Adobe de visitas que recibieron la visita, basada en la hora UNIX®. | int |
-| **`hitid_high`** | Se utiliza con `hitid_low` para identificar una visita. | bigint sin firmar |
+| **`hit_source`** | Indica la fuente de la que provino la visita. Se facturan las fuentes de visitas 1, 2 y 6. <br>1: Solicitud de imagen estándar sin marca de tiempo <br>2: Solicitud de imagen estándar con marca de tiempo <br>3: Carga de la fuente de datos activa con marcas de tiempo<br>4: Sin usar <br>5: Carga genérica de la fuente de datos <br>6: Carga completa de la fuente de datos de procesamiento <br>7: Carga del origen de datos TransactionID <br>8: Ya no se utiliza; versiones anteriores de las fuentes de datos de Adobe Advertising Cloud <br>9: Ya no se utiliza; métricas resumen de Adobe Social <br>10: Envío del lado del servidor de Audience Manager utilizado | tinyint sin firmar |
+| **`hit_time_gmt`** | La marca de tiempo de los servidores de recopilación de datos de visitas de Adobe que recibieron la visita, basada en el tiempo UNIX®. | int |
+| **`hitid_high`** | Se utiliza en combinación con `hitid_low` para identificar una visita. | bigint sin firmar |
 | **`hitid_low`** | Se utiliza con `hitid_high` para identificar una visita. | bigint sin firmar |
 | **`homepage`** | Ya no se utiliza. Indicaba si la URL actual es la página de inicio del explorador. | char(1) |
 | **`hourly_visitor`** | Un indicador que determina si la visita es un visitante nuevo por hora. | tinyint sin firmar |
@@ -132,7 +132,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`mobiledeeplinkid`** | Recopilado desde la variable de datos de contexto `a.deeplink.id`. Se utiliza en los informes de adquisición como identificador para el vínculo de adquisición móvil. | varchar(255) |
 | **`mobiledevice`** | Nombre del dispositivo móvil. En iOS, se almacena como una cadena de 2 dígitos separados por una coma. El primer número representa la generación del dispositivo y el segundo, la familia del dispositivo. | varchar(255) |
 | **`mobilehourofday`** | Define la hora del día en que se inició la aplicación. Sigue el formato numérico de 24 horas. | varchar(255) |
-| **`mobileinstalldate`** | Fecha de instalación del móvil. Proporciona la fecha de la primera vez que un usuario abre la aplicación móvil. | varchar(255) |
+| **`mobileinstalldate`** | Fecha de instalación del móvil. Proporciona la fecha de la primera vez que se abre la aplicación móvil. | varchar(255) |
 | **`mobilelaunchessincelastupgrade`** | RETIRADO: recopilado desde la variable de datos de contexto a.LaunchesSinceUpgrade. Informa del número de inicios desde la última actualización. | varchar(255) |
 | **`mobilelaunchnumber`** | Incrementa de uno en uno cada vez que se abre la aplicación móvil. | varchar(255) |
 | **`mobileltv`** | Ya no se utiliza. Rellenado con métodos trackLifetimeValue. | varchar(255) |
@@ -156,7 +156,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`mobileresolution`** | Resolución del dispositivo móvil. `[Width] x [Height]` en píxeles. | varchar(255) |
 | **`monthly_visitor`** | Un indicador que señala que el visitante es exclusivo del mes actual. | tinyint sin firmar |
 | **`mvvar1`** - `mvvar3` | Valores de variable de lista. Contiene una lista delimitada de valores personalizados en función de la implementación. Las columnas `post_mvvar1` - `post_mvvar3` reemplazan el delimitador original por `--**--`. | texto |
-| **`mvvar1_instances`** - `mvvar3_instances` | Los valores de variable de lista que se establecieron en la visita actual. Reemplaza el delimitador original por `--**--`. No tiene un `post` columna. | texto |
+| **`mvvar1_instances`** - `mvvar3_instances` | Los valores de variable de lista que se establecieron en la visita actual. Reemplaza el delimitador original por `--**--`. No tiene una columna `post`. | texto |
 | **`namespace`** | No se usa. Parte de una función limpiada. | varchar(50) |
 | **`new_visit`** | Un indicador que determina si la visita actual es una nueva visita. Los servidores de Adobe lo establecen después de 30 minutos de inactividad de la visita. | tinyint sin firmar |
 | **`os`** | ID numérica que representa el sistema operativo del visitante. Se basa en la columna`user_agent`. El valor clave de `operating_system.tsv` búsqueda estándar y `operating_system_type.tsv` [Búsqueda dinámica](dynamic-lookups.md). | int sin firmar |
@@ -189,7 +189,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`s_kwcid`** | ID de palabra clave utilizado en las integraciones de Adobe Advertising. | varchar(255) |
 | **`s_resolution`** | Valor no procesado de resolución de pantalla. Se recopila mediante la función de JavaScript `screen.width x screen.height`. | char(20) |
 | **`search_engine`** | ID numérica que representa el Motor de búsqueda que refirió al visitante a su sitio. Utiliza la búsqueda `search_engines.tsv`. | smallint sin firmar |
-| **`search_page_num`** | Lo utiliza la dimensión [Rango de todas las páginas de búsqueda](/help/components/dimensions/all-search-page-rank.md). Indica en qué página de resultados de búsqueda apareció su sitio antes de que el usuario hiciera clic para acceder a su sitio. | smallint sin firmar |
+| **`search_page_num`** | Lo utiliza la dimensión [Rango de todas las páginas de búsqueda](/help/components/dimensions/all-search-page-rank.md). Indica en qué página de resultados de búsqueda apareció su sitio antes de que se hiciera clic para acceder a él. | smallint sin firmar |
 | **`secondary_hit`** | Indicador que hace un seguimiento de las visitas secundarias. Por lo general, se origina a partir del etiquetado de grupos múltiples y las reglas de VISTA que copian las visitas. | tinyint sin firmar |
 | **`service`** | No se usa. Utilice `page_event` en su lugar. | char(2) |
 | **`socialaccountandappids`** | Ya no se utiliza. Cuenta social e ID de aplicación. | varchar(255) |
@@ -280,7 +280,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`visid_high`** | Se utiliza con `visid_low` para identificar un visitante de forma exclusiva. | bigint sin firmar |
 | **`visid_low`** | Se utiliza con `visid_high` para identificar un visitante de forma exclusiva. | bigint sin firmar |
 | **`visid_new`** | Indicador que identifica si la visita contiene una ID de visitante generada recientemente. | char(1) |
-| **`visid_timestamp`** | Si la ID de visitante se ha generado recientemente, proporciona la marca de tiempo (en UNIX® del momento en que se generó la ID de visitante. | int |
+| **`visid_timestamp`** | Si el ID de visitante se ha generado recientemente, proporciona la marca de tiempo (en tiempo UNIX) del momento en que se generó el ID de visitante. | int |
 | **`visid_type`** | No para uso externo; Adobe lo utiliza internamente para procesar optimizaciones. ID numérica que representa el método utilizado para identificar al visitante.<br>`0`: ID de visitante personalizado o desconocido/no aplicable<br>`1`: IP y reserva del agente de usuario <br>`2`: encabezado de suscriptor móvil HTTP <br>`3`: valor de la cookie heredada (`s_vi`) <br>`4`: valor de la cookie de reserva (`s_fid`) <br>`5`: servicio de identidad | tinyint sin firmar |
 | **`visit_keywords`** | Variable utilizada en la dimensión [Palabra clave de búsqueda](/help/components/dimensions/search-keyword.md). Esta columna utiliza un límite de caracteres no estándar de varchar(244) para dar cabida a la lógica back-end que utiliza Adobe. | varchar(244) |
 | **`visit_num`** | Variable utilizada en la dimensión [Número de visitas](/help/components/dimensions/visit-number.md). Empieza en 1 y aumenta cada vez que se inicia una nueva visita por visitante. | int sin firmar |
