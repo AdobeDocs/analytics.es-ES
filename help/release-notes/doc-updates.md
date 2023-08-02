@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 1c7dd6fad55acc579229f47d0b22ec50b80eb565
 workflow-type: tm+mt
 source-wordcount: '4623'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Julio de 2023** | |
-| API del servidor de red Adobe Experience Platform Edge | Se ha añadido documentación más completa sobre cuándo y cómo implementar la recopilación de datos con Adobe Analytics mediante [API del servidor de red Adobe Experience Platform Edge](../implement/aep-edge/server-api/overview.md). Por ejemplo, implementar la recopilación de datos con Adobe Analytics en aplicaciones de escritorio, dispositivos IoT, establecer cuadros superiores. |
-| ID de empresa global | Documentado [cómo encontrar el ID de empresa global](../admin/admin/company/web-services-admin.md) para la empresa de Analytics en la que ha iniciado sesión. Este ID es necesario para las API de Analytics 2.0. |
+| API del servidor de red Adobe Experience Platform Edge | Se ha añadido documentación más completa sobre cuándo y cómo implementar la recopilación de datos con Adobe Analytics mediante la [API del servidor de Adobe Experience Platform Edge Network](../implement/aep-edge/server-api/overview.md). Por ejemplo, implementar la recopilación de datos con Adobe Analytics en aplicaciones de escritorio, dispositivos IoT, establecer los cuadros superiores. |
+| ID de compañía global | Se ha documentado [cómo encontrar el ID de compañía global](../admin/admin/company/web-services-admin.md) para la compañía de Analytics en la que ha iniciado sesión. Este ID es necesario para las API de Analytics 2.0. |
 | Límite de tamaño de FTP actualizado | Se ha cambiado el [límite predeterminado de almacenamiento de datos de FTP](/help/export/ftp-and-sftp/ftp-limits.md) a 100 GB. |
 | Nueva variable de AppMeasurement | La variable `decodeLinkParameters` se adapta a los casos extremos en los que las implementaciones codifican caracteres multibyte en variables de seguimiento de vínculos. [Más información](../implement/vars/config-vars/decodelinkparameters.md) |
-| Configuración de ubicaciones de almacenamiento de cuentas en la nube para ingerir datos de clasificación | Ahora puede administrar las ubicaciones del almacenamiento de cuentas en la nube que se utilizan para la automatización de conjuntos de clasificación. [Más información](/help/components/locations/configure-import-accounts.md) |
+| Configuración de ubicaciones del almacenamiento de cuentas en la nube para introducir datos de clasificación | Ahora puede administrar las ubicaciones del almacenamiento de cuentas en la nube que se utilizan para la automatización de conjuntos de clasificación. [Más información](/help/components/locations/configure-import-accounts.md) |
 | Mejoras del filtro de reparación de datos | Se han añadido tres mejoras de filtrado a Reparación de datos. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
 | **Junio de 2023** | |
 | Nuevas funciones para conjuntos de clasificación | Los [conjuntos de clasificación](/help/components/classifications/sets/overview.md) se han actualizado con varias funciones nuevas:<ul><li>**Consolidación**: combine conjuntos de clasificación en un único conjunto de clasificación consolidado. El conjunto de clasificación consolidado se puede utilizar como otros conjuntos de clasificación o como un conjunto de datos de búsqueda en Customer Journey Analytics. [Más información](../components/classifications/sets/consolidations/manage.md)</li><li>**Reglas**: clasifique automáticamente los valores según las reglas del conjunto de clasificación. [Más información](../components/classifications/sets/manage/rules.md)</li><li>**Importación automatizada**: importe automáticamente los datos de clasificación de los destinos de almacenamiento en la nube. [Más información](../components/classifications/sets/manage/schema.md)</li></ul> |

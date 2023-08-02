@@ -7,7 +7,7 @@ exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Para obtener más información sobre el diccionario de datos, consulte [Informac
 
 ### Fuentes de datos
 
-La sincronización de visualizaciones le permite controlar qué tabla de datos o fuente de datos corresponde con una visualización. A continuación se proporciona más información sobre cómo [administración de fuentes de datos](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+La sincronización de visualizaciones le permite controlar qué tabla de datos o fuente de datos corresponde con una visualización. A continuación se proporciona más información sobre cómo [administrar las fuentes de datos](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
 ## Empezar a utilizar Analysis Workspace
 
