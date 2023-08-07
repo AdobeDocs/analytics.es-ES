@@ -5,7 +5,7 @@ title: Crear vínculos que se pueden compartir
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
+source-git-commit: 9349883dc827eb73ee59e852d054091ade70999c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 61%
@@ -20,7 +20,7 @@ Analysis Workspace ofrece varias formas de compartir un proyecto con los usuario
 
 Para compartir un vínculo a un proyecto, vaya al proyecto que desee compartir y, a continuación, seleccione ir a [!UICONTROL **Compartir**] > [!UICONTROL **Compartir con usuarios de Workspace**] > [!UICONTROL **Compartir mediante vínculo**]. Los usuarios con los que comparte el vínculo deben iniciar sesión.
 
-Si no se ha asignado un al destinatario del vínculo [función del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es), los administradores reciben **[!UICONTROL Puede editar]** y los usuarios que no son administradores reciben **[!UICONTROL Se puede duplicar]** experiencias.
+Si no se ha asignado un al destinatario del vínculo [función del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es), los administradores reciben **[!UICONTROL Editar original]** y los usuarios que no son administradores reciben **[!UICONTROL Editar copia]** experiencias.
 
 ## Obtener un vínculo de solo lectura para compartir con cualquier persona
 
