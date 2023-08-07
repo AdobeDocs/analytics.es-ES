@@ -3,10 +3,10 @@ title: Implementación de Analytics para dispositivos móviles
 description: Determine qué biblioteca móvil de AppMeasurement utilizar.
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: cf55284ec2fd01949107f8b16e25977fd80c758f
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 51%
+source-wordcount: '85'
+ht-degree: 60%
 
 ---
 
@@ -24,5 +24,5 @@ Para implementar Analytics para dispositivos móviles, utilice el SDK móvil de 
 
 >[!CAUTION]
 >
->La compatibilidad con los SDK para móviles de la versión 4 finalizó el 30 de septiembre de 2020.
+>La compatibilidad con los SDK Mobile de la versión 4 finalizó el 31 de agosto de 2021. Consulte [las preguntas frecuentes sobre el fin de la compatibilidad de los SDK móviles de la versión 4](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/) para obtener más información.
 
