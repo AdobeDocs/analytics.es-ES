@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bf111fc5529692283bf6b341655e80498107633b
+source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
 workflow-type: tm+mt
-source-wordcount: '4907'
+source-wordcount: '4891'
 ht-degree: 95%
 
 ---
@@ -45,7 +45,6 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Documentación sobre vinculación profunda (aplicación móvil) | Permite a los usuarios enviar vínculos a cuadros de resultados que los llevarán directamente al cuadro de resultados de la aplicación. [Más información](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Documentación sobre la actualización de la pantalla de inicio de la aplicación de paneles de Analytics (aplicación móvil) | La nueva pantalla de inicio actualizada le permite ver todos los cuadros de resultados en una lista consolidada de cuadros de resultados. [Más información](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Iconos de espectro | Se han reemplazado, cuando corresponde, las capturas de pantalla de los iconos de la interfaz de usuario en la documentación con referencias a los iconos equivalentes en [Sistema de diseño de espectro de Adobe](https://spectrum.adobe.com/page/icons/). |
-| Asignación de IP a geolocalización mejorada | Se ha creado un tema en [Preguntas frecuentes](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=es). |
 | Administrador de actividades de creación de informes | Se ha actualizado esta documentación beta, específicamente la sección sobre [Visualización de la actividad de creación de informes para grupos de informes individuales](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=es#view-reporting-activity-for-individual-report-suites). |
 | Información general de Analysis Workspace | Se ha actualizado la [información general de Analysis Workspace](/help/analyze/analysis-workspace/home.md) para incluir información más general y vínculos a contenido relevante. |
 | Crear proyectos | Se ha creado un nuevo artículo que explica en detalle cómo [Crear proyectos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) en Analysis Workspace. |
