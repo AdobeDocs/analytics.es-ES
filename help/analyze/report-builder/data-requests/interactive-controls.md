@@ -4,10 +4,10 @@ title: Controles interactivos
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,6 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
 >* Si ejecuta Excel en Mac y cambia el valor en el control provocará que se muestre el siguiente mensaje: “No se encuentra la macro &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event’”.
 >
 
-
 >[!WARNING]
 >
 >No manipule el nombre del control. (Para ver el nombre, establezca el foco en el control y aparecerá el nombre de control directamente sobre la cuadrícula de Excel, en la esquina superior izquierda).
@@ -37,11 +36,11 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
 1. En el paso 1 del Asistente para solicitudes, seleccione, por ejemplo, el informe **[!UICONTROL Página]**.
 1. Junto al menú desplegable de **[!UICONTROL Fechas más utilizadas]**, haga clic en el icono **[!UICONTROL Configuración de controles]**:
 
-   ![](assets/date_range_control.png)
+   ![Captura de pantalla del Asistente para solicitudes: Paso 1, que resalta el icono Configuración de control. ](assets/date_range_control.png)
 
 1. En el cuadro de diálogo Configuración de controles, seleccione todos los elementos de intervalo de fechas que desee mostrar en el control interactivo. Además, especifique la ubicación de la celda superior izquierda del control.
 
-   ![](assets/control_settings.png)
+   ![Captura de pantalla que muestra los elementos de intervalo de fechas seleccionados y la ubicación de la celda superior izquierda.](assets/control_settings.png)
 
 1. Tenga en cuenta la opción para “Actualizar automáticamente las solicitudes vinculadas al seleccionar el elemento”.
 
@@ -50,18 +49,19 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
 
 1. Haga clic en **[!UICONTROL Aceptar]**. Aparece el control en la ubicación de la celda que haya especificado:
 
-   ![](assets/date_range_control_interactive.png)
-
 1. Ahora puede cambiar el intervalo de fechas y la solicitud se actualizará con ese intervalo de fechas.
+
+   ![Captura de pantalla que muestra el intervalo de fechas seleccionado.](assets/date_range_control_interactive.png)
+
 1. También puede copiar la solicitud y hacer clic con el botón derecho para utilizar una de las dos opciones de Pegar solicitud:
 
    * **[!UICONTROL Pegar solicitud]** > **[!UICONTROL Utilizar celda de entrada absoluta]**. Esto significa que la solicitud copiada señalará al mismo control de fecha interactivo que la solicitud original.
 
    * **[!UICONTROL Pegar solicitud]** > **[!UICONTROL Utilizar celda de entrada relativa]**. Esto significa que la solicitud copiada señalará a su propio control.
 
-      >[!NOTE]
-      >
-      >Puede utilizar la función de control nativa de Microsoft Excel de cortar/copiar/pegar. Report Builder reconoce automáticamente los controles recientemente añadidos.
+     >[!NOTE]
+     >
+     >Puede utilizar la función de control nativa de Microsoft Excel de cortar/copiar/pegar. Report Builder reconoce automáticamente los controles recientemente añadidos.
 
 ## Implementación del control de segmento interactivo {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
@@ -69,12 +69,12 @@ Implementar el control de segmento interactivo es similar a implementar el contr
 
 1. En el paso 1 del Asistente para solicitudes, junto a la lista desplegable de **[!UICONTROL Segmento]**, seleccione el icono de Configuración de controles del segmento:
 
-   ![](assets/segment_interactive_1.png)
+   ![Captura de pantalla del icono Configuración de control de segmentos.](assets/segment_interactive_1.png)
 
 1. En el cuadro de diálogo Configuración de controles del segmento, seleccione los segmentos que desee incluir en la lista desplegable. Además, especifique la ubicación de la celda superior izquierda del control.
 
-   ![](assets/segment_drop_down_properties.png)
+   ![Captura de pantalla que muestra la configuración de control de segmentos con los segmentos seleccionados y la ubicación de la celda.](assets/segment_drop_down_properties.png)
 
 1. El nuevo control interactivo ahora aparecerá en el libro:
 
-   ![](assets/segment_interactive_3.png)
+   ![Captura de pantalla que muestra el nuevo control interactivo seleccionado.](assets/segment_interactive_3.png)

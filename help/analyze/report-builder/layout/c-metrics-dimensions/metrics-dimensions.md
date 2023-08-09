@@ -5,16 +5,16 @@ uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 feature: Report Builder
 role: User, Admin
 exl-id: 6c56a8e5-07c0-4dc4-b40b-94a07b783514
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 91%
 
 ---
 
 # Resumen de métricas y dimensiones
 
-En el paso 2 del Asistente para solicitudes se pueden añadir métricas y dimensiones para definir el diseño de Analytics para los datos en la solicitud. La lista de métricas y dimensiones de Report Builder es similar al diseño de menú mostrado en Reports and Analytics.
+Añada métricas y dimensiones en el Asistente para solicitudes: Paso 2 para definir el diseño de Analytics para los datos en la solicitud. La lista de métricas y dimensiones de Report Builder es similar al diseño de menú mostrado en Reports and Analytics.
 
 Las métricas se expresan en valores numéricos. Están compuestas de información cuantitativa sobre la actividad del sitio web como, por ejemplo, [!UICONTROL vistas de la página], [!UICONTROL perfil del visitante], [!UICONTROL pulsaciones], [!UICONTROL recargas], [!UICONTROL tiempo promedio invertido], [!UICONTROL fecha], [!UICONTROL unidades], etc. Report Builder organiza las métricas en distintos grupos a modo de la agrupación estándar de Analytics:
 

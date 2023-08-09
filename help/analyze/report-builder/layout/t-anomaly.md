@@ -1,14 +1,14 @@
 ---
-description: Los pasos describen cómo crear una solicitud de detección de anomalías en Report Builder.
+description: Obtenga información sobre cómo crear una solicitud de detección de anomalías en Report Builder.
 title: Configuración de una solicitud de detección de anomalías
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '184'
+ht-degree: 72%
 
 ---
 
@@ -25,15 +25,15 @@ Para crear una solicitud de detección de anomalías en Report Builder:
 
 1. Tras configurar los intervalos de fechas, haga clic en **[!UICONTROL Siguiente]**.
 
-   Resultado (1). En el Asistente para solicitudes: paso 2 de 2, añada una métrica como por ejemplo **[!UICONTROL Visitas]**.
+   En el Asistente para solicitudes: paso 2 de 2, añada una métrica como por ejemplo **[!UICONTROL Visitas]**.
 
-   Resultado (1). En la métrica añadida, haga clic en el vínculo **[!UICONTROL Ninguno]**.
+   En la métrica añadida, haga clic en el vínculo **[!UICONTROL Ninguno]**.
 
-   ![Resultado](assets/anomaly_select.png)
+   ![Captura de pantalla que muestra la Detección de anomalías y, a continuación, Insertar y luego insertar opciones para Límite inferior y Superior y esperado.](assets/anomaly_select.png)
 
 1. Seleccione **[!UICONTROL Detección de anomalías]** > **[!UICONTROL `<selection>`]**.
 
-   ![Información sobre los pasos](assets/anomaly_visit.png)
+   ![Captura de pantalla que muestra el paso 2 del Asistente para solicitudes - Informe de tráfico.](assets/anomaly_visit.png)
 
    Cuando selecciona una de estas opciones, el sistema crea copias de Detección de anomalías de la métrica original. Por ejemplo, en la métrica Visitas, la métrica de límite inferior de visitas se añade al grupo de [!UICONTROL Métrica].
 1. Haga clic en **[!UICONTROL Finalizar]** y seleccione la celda para los resultados de Excel.

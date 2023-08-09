@@ -4,10 +4,10 @@ title: Resumen de publicación en Power BI
 feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1171'
+ht-degree: 79%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 100%
 
 Microsoft Power BI es un conjunto de tableros de análisis empresarial para analizar datos y compartir resultados. La integración de Adobe Analytics con Power BI le permite visualizar datos de Analytics de Report Builder dentro de Microsoft Power BI y compartirlos fácilmente dentro de su organización.
 
-Anteriormente, el analista programaba el envío de libros de Report Builder mediante correo electrónico (o ftp). Ahora, las personas que usted determine pueden emplear sus cuentas de Power BI para obtener acceso a datos precisos y actualizados de su empresa mediante un entorno basado en web, disponible desde distintas plataformas y dispositivos.
+Como analista, anteriormente programaba la distribución de libros de Report Builder mediante correo electrónico o ftp. Ahora puede proporcionar a las partes interesadas de su empresa acceso a los datos precisos y actualizados desde sus cuentas de Power BI en un entorno basado en web al que se puede acceder desde distintas plataformas y dispositivos.
 
-Al combinar las capacidades de generación de Report Builder con las características de visualización de Power BI, la información se hace más accesible para todos los miembros de la organización. Power BI también le permite integrar Adobe Analytics con otras fuentes de datos (p. ej., puntos de venta, CRM) para descubrir datos, asociaciones y oportunidades relativos a los clientes únicos.
+Al combinar las capacidades de generación de Report Builder con las características de visualización de Power BI, la información se hace más accesible para todos los miembros de la organización. Con Power BI, también puede integrar Adobe Analytics con otras fuentes de datos, por ejemplo, puntos de venta o fuentes CRM, para descubrir perspectivas, asociaciones y oportunidades de clientes únicos.
 
-![](assets/aaplusbi.png)
+![Diagrama del icono de Microsoft Power BI más el icono de Adobe Analytics.](assets/aaplusbi.png)
 
 ## Requisitos del sistema {#section_0B71092D853446F38FA36447DAC0D32B}
 
@@ -28,7 +28,7 @@ Al combinar las capacidades de generación de Report Builder con las caracterís
 
 ## Publicar libro de trabajo en Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
 
-Los libros programados son hojas de cálculo de Excel con formato, rellenas con datos de Adobe Analytics y enviadas de forma regular y programada.
+Los libros programados son hojas de cálculo de Excel con formato y rellenas con datos de Adobe Analytics que se distribuyen de forma regular y programada.
 
 **Publicar libro en Report Builder**
 
@@ -37,7 +37,7 @@ Los libros programados son hojas de cálculo de Excel con formato, rellenas con 
 
 1. En el Asistente de programación básico, marque la casilla junto a **[!UICONTROL Publicar libro en Microsoft Power BI]**.
 
-   ![](assets/simple-schedule-wizard.png)
+   ![Captura de pantalla del Asistente de programación de Report Builder que muestra la opción de marcar la opción Publicar libro en Microsoft Power BI.](assets/simple-schedule-wizard.png)
 
 1. Especifique su correo electrónico y envíe inmediatamente, o especifique la frecuencia de la programación (cada día, cada hora, etc.).
 1. Haga clic en **[!UICONTROL Aceptar]** para publicar.
@@ -50,9 +50,9 @@ Los libros programados son hojas de cálculo de Excel con formato, rellenas con 
 
 1. En Power BI, haga doble clic en el libro dentro del menú [!UICONTROL Libros].
 
-   ![](assets/workbooks-power-bi.png)
+   ![Captura de pantalla de la vista Libros de Power BI.](assets/workbooks-power-bi.png)
 
-1. Ahora puede ver los datos del tablero del libro.  ![](assets/view-data-pbi.png)
+1. Ahora puede ver los datos del tablero del libro.  ![Los datos del tablero del libro.](assets/view-data-pbi.png)
 
 1. También puede anclar un área de este libro para incluirla en cualquiera de sus tableros de Power BI.
 
@@ -76,7 +76,7 @@ En vez de importar todo el libro, puede importar solo el contenido de todas las 
 1. En el Asistente de programación básico, haga clic en **[!UICONTROL Opciones de programación avanzadas]**.
 1. En [!UICONTROL Asistente de programación avanzado], en la pestaña **[!UICONTROL Opciones de publicación]**, marque la casilla junto a **[!UICONTROL Publicar todas las tablas con formato como tablas de conjuntos de datos de Power BI]**.
 
-   ![](assets/advanced-schedule-wizard2.png)
+   ![Captura de pantalla que muestra el Asistente de programación: opciones de publicación avanzadas con la opción Publicar todas las tablas con formato como tablas de conjuntos de datos de Power BI.](assets/advanced-schedule-wizard2.png)
 
 1. (Opcional) Puede personalizar el nombre del activo publicado en Power BI. Puede ser útil si utiliza el control de versiones como parte del nombre del libro (p. ej., milibro_v1.1.xlsx) y no quiere que el número de versión aparezca en el nombre del activo publicado en Power BI. Tiene la ventaja añadida de que el activo publicado no cambiará si el número de versión varía. (Vea aquí las [especificaciones](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md)).
 
@@ -84,19 +84,19 @@ En vez de importar todo el libro, puede importar solo el contenido de todas las 
 
 1. En Power BI, vaya al menú **[!UICONTROL Espacios de trabajo]** > **[!UICONTROL Conjuntos de datos]**.
 
-   ![](assets/datasets-menu.png)
+   ![Captura de pantalla que muestra el menú Conjuntos de datos de Power BI resaltando Creación de informes.](assets/datasets-menu.png)
 
 1. Seleccione el conjunto de datos que ha publicado y haga clic en el icono [!UICONTROL Crear informe] que hay junto a él. Fíjese en que las tablas aparecen como campos.
 
-   ![](assets/formatted-tables.png)
+   ![Captura de pantalla que muestra el conjunto de datos publicado seleccionado que enumera las tablas como campos.](assets/formatted-tables.png)
 
 1. Seleccione una tabla y sus columnas asociadas.
 
-   ![](assets/view-table-dataset.png)
+   ![Captura de pantalla que muestra una tabla seleccionada con columnas asociadas](assets/view-table-dataset.png)
 
 1. En el menú [!UICONTROL Visualizaciones] puede seleccionar cómo se muestra una tabla en Power BI. Por ejemplo, podría presentar los datos como un gráfico de líneas:
 
-   ![](assets/bi-line-graph.png)
+   ![Captura de pantalla que muestra el menú Visualizaciones y un gráfico de líneas de datos.](assets/bi-line-graph.png)
 
 1. A partir de aquí, puede crear visualizaciones a partir de esta tabla de conjunto de datos.
 
@@ -112,7 +112,7 @@ Puede convertir todas las solicitudes en tablas de conjuntos de datos y crear vi
 1. En la barra de herramientas de Report Builder, haga clic en **[!UICONTROL Programar]** > **[!UICONTROL Nuevo]**.
 
 1. En el Asistente de programación básico, haga clic en **[!UICONTROL Opciones de programación avanzadas]**.
-1. En el [!UICONTROL Asistente de programación avanzado], en la ficha **[!UICONTROL Opciones de publicación]**, marque la casilla junto a **[!UICONTROL Publicar todas las solicitudes de Report Builder como tablas de conjunto de datos de Power BI]** ![](assets/advanced-schedule-wizard2.png)
+1. En el [!UICONTROL Asistente de programación avanzado], en la ficha **[!UICONTROL Opciones de publicación]**, marque la casilla junto a **[!UICONTROL Publicar todas las solicitudes de Report Builder como tablas de conjunto de datos de Power BI]** ![Captura de pantalla que muestra el Asistente de programación que resalta la opción Publicar todas las solicitudes de Report Builder como tablas de conjuntos de datos de Power BI.](assets/advanced-schedule-wizard2.png)
 
 1. Haga clic en **[!UICONTROL Aceptar]**.
 
@@ -126,7 +126,7 @@ Cada solicitud programada de Report Builder se publica como una tabla en el conj
 
    Fíjese en que las solicitudes aparecen como tablas en el menú [!UICONTROL Campos].
 
-   ![](assets/published-requests.png)
+   ![Captura de pantalla que muestra una solicitud seleccionada publicada en un formato bidimensional de fila de encabezado único.](assets/published-requests.png)
 
    >[!NOTE]
    >
@@ -134,4 +134,4 @@ Cada solicitud programada de Report Builder se publica como una tabla en el conj
 
 1. Fíjese también en que hay una tabla adicional llamada **[!UICONTROL Leyenda]**. Si saca una solicitud del contexto de Report Builder, puede ser difícil recordar qué significa. El propósito de la tabla Leyenda es, por ejemplo, mostrarle el nombre de cada solicitud bajo el ID de tabla. También puede añadir otras columnas Leyenda para obtener una visualización completa de la solicitud.
 
-   ![](assets/legend-table.png)
+   ![Captura de pantalla que muestra la tabla Leyenda con el nombre de cada solicitud bajo el ID de tabla.](assets/legend-table.png)

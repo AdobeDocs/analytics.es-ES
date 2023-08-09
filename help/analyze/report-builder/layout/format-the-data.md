@@ -1,20 +1,20 @@
 ---
-description: Además de las opciones de formato de celda estándar disponibles mediante la función de Excel Formato > Celdas (Ctrl+1), es posible aplicar un formato limitado a los rangos de celdas con Report Builder. Estas opciones de formato dependen de la métrica seleccionada.
-title: Dar formato a las fechas
+description: Aprenda a aplicar formato estándar y limitado a rangos de celdas.
+title: Formato de la fecha en Report Builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 98%
+source-wordcount: '257'
+ht-degree: 80%
 
 ---
 
 # Dar formato a las fechas
 
-Además de las opciones de formato de celda estándar disponibles mediante la función de Excel Formato > Celdas (Ctrl+1), es posible aplicar un formato limitado a los rangos de celdas con Report Builder. Estas opciones de formato dependen de la métrica seleccionada.
+Además de las opciones de formato de celda estándar disponibles mediante la función de Excel Formato > Celdas (Ctrl+1), puede aplicar formato limitado a los rangos de celdas con Report Builder. Estas opciones de formato dependen de la métrica seleccionada.
 
 Después de [añadir dimensiones](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) a la cuadrícula Rótulos de fila, haga clic en **[!UICONTROL Formato]**.
 

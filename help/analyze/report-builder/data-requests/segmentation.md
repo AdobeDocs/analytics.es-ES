@@ -4,10 +4,10 @@ title: Administración de segmentos (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 91%
+source-wordcount: '1008'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ Cómo añadir, editar, aplicar y filtrar los segmentos de Adobe Analytics en Rep
 
 Report Builder incluye un panel de segmentación en el paso 1 del Asistente para solicitudes que le permite Crear y administrar segmentos.
 
-![](assets/seg_dialog.png)
+![Captura de pantalla que muestra las opciones de Segmento para Agregar, Editar o Borrar segmentos y que resalta los iconos de Control, Filtro y Actualizar.](assets/seg_dialog.png)
 
 ## Adición o edición de segmentos {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -41,7 +41,7 @@ Es posible que tenga combinaciones específicas de dimensiones de informe que de
 1. Seleccione los elementos de resultado del informe que desee convertir en un segmento.
 1. Haga clic con el botón derecho para seleccionar **[!UICONTROL Crear segmento en contexto en]** y especifique el contenedor derecho (Contenedor de visita, Contenedor de visitas, Contenedor de visitantes).
 
-   ![](assets/seg_in_context.png)
+   ![Captura de pantalla que muestra Crear segmento en contexto en las opciones de contenedor seleccionadas y disponibles.](assets/seg_in_context.png)
 
    Si desea información acerca de los contenedores, consulte la [Guía de segmentación](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=es).
 
@@ -58,9 +58,9 @@ Puede aplicar uno o varios segmentos a una solicitud determinada. Esto incluye s
 
 1. Vaya a la lista desplegable de **[!UICONTROL Segmento]** y haga clic en la pequeña flecha hacia abajo en el cuadro **[!UICONTROL Elegir segmento]** para mostrar todos los segmentos.
 
-   ![](assets/seg_list.png)
+1. Marque los segmentos que desee aplicar.
 
-2. Marque los segmentos que desee aplicar.
+   ![Captura de pantalla que muestra los segmentos seleccionados.](assets/seg_list.png)
 
 >[!NOTE]
 >
@@ -88,18 +88,20 @@ Añadir un control de segmento le permite conmutar segmentos dentro de un libro 
 
 1. Haga clic en el icono Control ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) junto a la lista desplegable de segmentos.
 
-   ![](assets/seg_control.png)
+1. Marque todos los segmentos que desee que aparezcan en el control de segmentos o marque **[!UICONTROL Seleccionar todo]**.
 
-2. Marque todos los segmentos que desee que aparezcan en el control de segmentos o marque **[!UICONTROL Seleccionar todo]**.
-3. Tenga en cuenta la opción para **[!UICONTROL Actualizar automáticamente las solicitudes vinculadas al seleccionar el elemento]**.
+   ![Captura de pantalla del cuadro de diálogo Configuración de control con todas las configuraciones seleccionadas.](assets/seg_control.png)
+
+1. Tenga en cuenta la opción para **[!UICONTROL Actualizar automáticamente las solicitudes vinculadas al seleccionar el elemento]**.
 
    * Si esta opción está activada, se actualizan todas las solicitudes que utilizan este control.
    * Si no está activada, los parámetros de solicitud asociados se actualizan, pero las solicitudes no se actualizan.
 
-4. Especifique la ubicación de la celda superior izquierda del control de segmentos.
-5. Haga clic en **[!UICONTROL Aceptar]** y aparecerá el control de segmento en la ubicación especificada.
+1. Especifique la ubicación de la celda superior izquierda del control de segmentos.
 
-   ![](assets/seg_control2.png)
+1. Haga clic en **[!UICONTROL Aceptar]** y aparecerá el control de segmento en la ubicación especificada.
+
+   ![Captura de pantalla que muestra el campo desplegable Elegir campo de segmento.](assets/seg_control2.png)
 
 ## Actualizar la lista de segmentos {#section_22E4A86789444B4A998532396B476EFB}
 
@@ -114,7 +116,7 @@ Report Builder 5.4 permite añadir, eliminar, reemplazar y reemplazar todos los 
 1. Seleccione varias solicitudes en un libro.
 1. Haga clic con el botón derecho y seleccione **[!UICONTROL Editar solicitudes]** > **[!UICONTROL Por segmento]**.
 
-   ![](assets/edit_by_segment.png)
+   ![Captura de pantalla que muestra Editar solicitudes y Por segmento seleccionado.](assets/edit_by_segment.png)
 
 1. En el cuadro de diálogo Editar grupo, seleccione una de las cuatro opciones:
 

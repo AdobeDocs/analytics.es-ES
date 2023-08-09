@@ -4,10 +4,10 @@ title: Filtrado de un informe de abandonos mediante el Asistente para solicitude
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 91%
 
 ---
 
@@ -21,13 +21,13 @@ En este ejemplo se muestra el informe de visitas en el orden previsto de página
 1. Seleccione el grupo de informes adecuado.
 1. En la vista de árbol de la izquierda, seleccione **[!UICONTROL Rutas]** > **[!UICONTROL Página]** > **[!UICONTROL Página Visitas]**.
 
-   ![](assets/page_fallout.png)
+   ![Captura de pantalla que muestra la vista de árbol de Windows para el directorio de Report Builder. Visita en el orden previsto de página está seleccionado.](assets/page_fallout.png)
 
 1. Configure los [intervalos de fechas](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) adecuados.
 1. Haga clic en **[!UICONTROL Siguiente]**.
 1. En el paso 2 del asistente, en **[!UICONTROL Rótulos de fila]**, haga clic en el vínculo **[!UICONTROL Definir puntos de comprobación]**. (En un informe de visitas en el orden previsto, siempre tiene que definir los elementos de ruta, a diferencia de en un informe de ruta, donde se aplica un patrón previamente).
 
-   ![](assets/define_checkpoints.png)
+   ![Captura de pantalla que muestra el vínculo Definir puntos de comprobación.](assets/define_checkpoints.png)
 
 1. Seleccione la opción **[!UICONTROL Filtro]**.
 

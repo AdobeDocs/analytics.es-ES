@@ -1,14 +1,14 @@
 ---
-description: Una solicitud de referencia utiliza los valores de las celdas como entrada para parámetros como, por ejemplo, un filtro de datos o un filtro relacional.
-title: Copiar solicitudes de referencia
+description: Obtenga información sobre cómo copiar solicitudes de referencia.
+title: Cómo copiar solicitudes de referencia
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 feature: Report Builder
 role: User, Admin
 exl-id: 3cd77325-7461-4345-a672-64c03ea1ae5b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 79%
 
 ---
 
@@ -16,13 +16,15 @@ ht-degree: 100%
 
 Una solicitud de referencia utiliza los valores de las celdas como entrada para parámetros como, por ejemplo, un filtro de datos o un filtro relacional.
 
-Para propagar o copiar y pegar las solicitudes de referencia en la hoja de cálculo, debe haber creado al menos una solicitud válida en la hoja de cálculo. Asimismo, los datos generados por la solicitud deben contener una celda cuyo valor sea dependiente de una solicitud en otra celda (utilizando un filtro coincidente o de desglose), o bien, dependiente de un filtro que adopte la entrada de los datos introducidos en una celda.
+Para propagar o copiar y pegar solicitudes de referencia en la hoja de cálculo:
+* Debe crear al menos una solicitud válida en la hoja de cálculo.
+* Los datos producidos por la solicitud deben contener una celda cuyo valor dependa de una solicitud en otra celda (mediante un desglose o filtro coincidente) o de un filtro que tome datos introducidos en una celda.
 
 También se pueden crear solicitudes que hagan referencia a filtros de entrada desde solicitudes en diferentes hojas de cálculo, pero no en diferentes libros. Por ejemplo, una solicitud de la Hoja 2 puede utilizar un grupo de informes de una celda determinada de la Hoja 1 y un intervalo de fechas de una celda de una solicitud en la Hoja 2. La nueva salida se puede situar en cualquier hoja o en una nueva hoja del mismo libro. Cuando se pega una solicitud relativa, si un filtro de entrada reside en una hoja de cálculo distinta de la hoja en la que se sitúa el resultado de la solicitud copiada, el filtro se pega como filtro absoluto.
 
 >[!NOTE]
 >
->No se puede generar la misma solicitud en varias hojas de cálculo. Asimismo, el sistema no puede pegar algunas solicitudes copiadas en libros nuevos porque las solicitudes contienen filtros de entrada de otras hojas de cálculo. Los filtros de entrada incluyen grupos de informes de celdas, intervalos de fechas de celdas, filtros de celdas y otros parámetros relacionados.
+>No se puede generar una única solicitud en varias hojas de cálculo. Además, el sistema no puede pegar algunas de las solicitudes copiadas en libros nuevos porque las solicitudes contienen filtros de entrada de otras hojas de cálculo. Los filtros de entrada incluyen grupos de informes de celdas, intervalos de fechas de celdas, filtros de celdas y otros parámetros relacionados.
 
 **Para copiar solicitudes de referencia**
 

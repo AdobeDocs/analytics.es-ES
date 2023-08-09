@@ -5,10 +5,10 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ El formulario del filtro seleccionado se completa según el elemento y la métri
 
 Información sobre filtros en el panel **[!UICONTROL Filtros más populares]** > **[!UICONTROL Definir filtro]**.
 
-![](/help/admin/admin/assets/filter.png)
+![Captura de pantalla que muestra el cuadro de diálogo Definir filtro con opciones para filtrar por aplicación, usuario y proyecto.](/help/admin/admin/assets/filter.png)
 
 Las tablas que aparecen a continuación contienen ejemplos e información sobre filtros:
 

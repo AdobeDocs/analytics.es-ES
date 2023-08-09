@@ -5,22 +5,22 @@ uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 feature: Report Builder
 role: User, Admin
 exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 82%
 
 ---
 
 # Permisos de acceso del usuario para dimensiones y métricas
 
-Report Builder de Adobe incluye ahora una configuración de permisos análoga a la de las Herramientas de administración de Analytics.
+Adobe Report Builder presenta una configuración de permisos similar a la de las Herramientas de administración de Analytics.
 
 Es posible que haya creado libros anteriormente con solicitudes dirigidas a dimensiones y métricas a las que no tiene acceso al no ser administrador. Estos permisos ahora son obligatorios.
 
-Por ejemplo, si actualiza una solicitud que incluye dimensiones o métricas a las cuales no tiene acceso, obtendrá un error de permiso restringido:
+Por ejemplo, si actualiza una solicitud que incluye dimensiones o métricas a las cuales no tiene acceso, obtendrá un error de permiso restringido. El mensaje de error indica que una solicitud no está disponible para su cuenta de usuario debido a permisos administrativos.
 
-![](assets/arb_restrc_perm.png)
+![Captura de pantalla que muestra el mensaje de error de permisos restringidos.](assets/arb_restrc_perm.png)
 
 Siga estas instrucciones para **cada uno** de los libros de Report Builder que mantiene:
 

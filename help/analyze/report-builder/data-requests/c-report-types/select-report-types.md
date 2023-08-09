@@ -4,10 +4,10 @@ title: Información general sobre tipos de informes
 feature: Report Builder
 role: User, Admin
 exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 55%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 Se puede seleccionar el tipo de informe básico para la solicitud de datos, que puede ser Métricas del sitio, Contenido del sitio y Vídeo.
 
-Solo se puede seleccionar un tipo de informe base para un rango de celdas de la hoja de cálculo. Si va a editar una solicitud creada anteriormente, puede modificar el tipo de informe en la ventana [!UICONTROL Asistente para solicitudes: Paso 1] sin necesidad de reconfigurar otros valores de la solicitud.
+Solo se puede seleccionar un tipo de informe base para un rango de celdas de la hoja de cálculo. Si está editando una solicitud creada anteriormente, puede cambiar el tipo de informe en la [!UICONTROL Asistente para solicitudes: Paso 1] sin volver a configurar otras opciones de la solicitud.
 
-Puede buscar informes usando la barra de búsqueda de autocompletar. Una vez haya seleccionado un informe desde este control, la vista de árbol seleccionará automáticamente el nodo correspondiente.
+Puede buscar informes usando la barra de búsqueda de autocompletar. Después de seleccionar un informe de este control, la vista de árbol selecciona automáticamente el nodo coincidente.
 
-![](assets/search_reports.png)
+![Captura de pantalla que muestra la vista de árbol del grupo de informes y el nodo coincidente seleccionado.](assets/search_reports.png)

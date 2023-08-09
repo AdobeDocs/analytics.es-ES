@@ -4,10 +4,10 @@ title: Métricas calculadas
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 87%
 
 ---
 
@@ -25,13 +25,13 @@ En el paso 2 del Asistente de solicitudes, puede filtrar y aplicar métricas cal
 
 ## Filtrar métricas calculadas {#section_376E986D3E684999A7CDB08E53854159}
 
-Para **filtrar** métricas calculadas, haga clic en el icono Filtrar:  ![](/help/admin/admin/assets/filter.png)
+**Filtrar** métricas calculadas haciendo clic en el icono Filtro:  ![Captura de pantalla de las opciones de filtro que muestran los campos Aplicación, Usuario y Proyecto.](/help/admin/admin/assets/filter.png)
 
-  El cuadro de diálogo Filtros avanzados se rellena con métricas calculadas y estándar.
+El cuadro de diálogo Filtros avanzados se rellena con métricas calculadas y estándar.
 
 Los filtros disponibles incluyen:
 
-![](assets/advanced_filters.png)
+![Captura de pantalla que muestra las opciones de Filtros avanzados que se describen en la siguiente tabla.](assets/advanced_filters.png)
 
 | Nombre del filtro | Descripción |
 |---|---|
@@ -47,4 +47,4 @@ Los filtros disponibles incluyen:
 
 Cuando haya seleccionado los filtros, haga clic en **[!UICONTROL Aplicar]** para aplicarlos en la solicitud. Las métricas seleccionadas se agregarán al diseño del informe.
 
-![](assets/filtering_for_metric.png)
+![Captura de pantalla que muestra el Paso 2 del Asistente para solicitudes - Totales del sitio que apuntan a la ventana Filtros avanzados y métricas de informe aplicadas.](assets/filtering_for_metric.png)

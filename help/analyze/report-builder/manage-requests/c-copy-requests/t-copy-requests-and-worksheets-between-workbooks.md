@@ -1,22 +1,27 @@
 ---
-description: Se puede copiar una hoja de cálculo completa de un libro de origen en una hoja de cálculo de uno o varios libros de destino.
-title: Copiar solicitudes y hojas de cálculo entre libros
+description: Obtenga información sobre cómo copiar una hoja de cálculo de un libro de origen en uno o varios libros de destino.
+title: Cómo copiar solicitudes y hojas de cálculo entre libros
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 79%
 
 ---
 
 # Copiar solicitudes y hojas de cálculo entre libros
 
-Se puede copiar una hoja de cálculo completa de un libro de origen en una hoja de cálculo de uno o varios libros de destino.
+Se puede copiar una hoja de cálculo completa de un libro de origen en una hoja de cálculo de uno o varios libros de destino. Para ello, debe tener al menos dos libros abiertos en la misma instancia de Excel:
+* El primer libro de origen contiene una hoja de cálculo (hoja de cálculo) con solicitudes asignadas a celdas.
+* Los libros de destino adicionales son los destinos. En los libros de destino debe Inicie sesión en el mismo grupo de informes que el libro de origen; de lo contrario, no podrá pegar hojas de cálculo que contengan solicitudes.
 
-Para ello, debe tener al menos dos libros abiertos en la misma instancia de Excel: el primer libro de origen contiene la hoja de cálculo con solicitudes asignadas a celdas, mientras que el resto de libros adicionales constituyen el destino. En los libros de destino debe Inicie sesión en el mismo grupo de informes que el libro de origen; de lo contrario, no podrá pegar hojas de cálculo que contengan solicitudes.
+>[!NOTE]
+>
+>Debe iniciar sesión en el libro de destino utilizando el mismo grupo de informes que el libro de origen. Las solicitudes de ambos libros se deben crear utilizando el mismo inicio de sesión del grupo de informes.
+
 1. Haga clic con el botón derecho en la hoja de cálculo del libro de origen y seleccione **[!UICONTROL Copiar hoja de cálculo con solicitudes]**.
 1. En el libro de destino, haga clic con el botón derecho en la hoja de cálculo y seleccione **[!UICONTROL Pegar hoja de cálculo con solicitudes]**.
 

@@ -1,14 +1,14 @@
 ---
-description: Se puede copiar una solicitud simple en vez de una solicitud de referencia. Una solicitud simple no contiene referencias a otra solicitud ni al contenido de una celda.
-title: Copiar solicitudes simples
+description: Aprenda a copiar una solicitud simple.
+title: Cómo copiar solicitudes simples
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 feature: Report Builder
 role: User, Admin
 exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 87%
 
 ---
 
@@ -17,6 +17,9 @@ ht-degree: 100%
 Se puede copiar una solicitud simple en vez de una solicitud de referencia. Una solicitud simple no contiene referencias a otra solicitud ni al contenido de una celda.
 
 Una [solicitud de referencia](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) utiliza los valores de las celdas como entrada para parámetros como, por ejemplo, un filtro de datos o un filtro relacional. Estos filtros utilizan la coincidencia o la tendencia y se basan en resultados de una solicitud anterior o en el contenido introducido por el usuario en una celda, denominada celda de entrada.
+
+Para copiar una solicitud simple
+
 1. Cree una solicitud válida.
 1. Haga clic con el botón derecho en una de las celdas donde se asigna la solicitud, o bien seleccione una región de celdas que contenga solicitudes.
 
@@ -24,7 +27,7 @@ Una [solicitud de referencia](/help/analyze/report-builder/manage-requests/c-cop
 1. Seleccione **[!UICONTROL Copiar solicitud]**.
 1. En otra parte de la hoja de cálculo, haga clic con el botón derecho en una celda vacía (una celda que no contenga solicitudes).
 
-   Para evitar que se pierdan o se dañen las solicitudes creadas, no se permite pegar celdas que contengan solicitudes en celdas asignadas actualmente a solicitudes. Si se copian o se cortan celdas que contengan solicitudes, la opción [!UICONTROL Pegar solicitudes] del menú contextual queda desactivada al hacer clic con el botón derecho en las celdas (o conjunto de celdas) que contengan solicitudes. Se debe seleccionar una celda distinta como destino de la operación de pegado para que las solicitudes no se superpongan. Esto es así tanto si se selecciona una sola celda con una solicitud para pegar, como si se selecciona una región de celdas que contenga solicitudes.
+   Para evitar que se pierdan o dañen solicitudes ya creadas, no se pueden pegar celdas que contengan solicitudes a celdas asignadas actualmente a solicitudes. Si se copian o se cortan celdas que contengan solicitudes, la opción [!UICONTROL Pegar solicitudes] del menú contextual queda desactivada al hacer clic con el botón derecho en las celdas (o conjunto de celdas) que contengan solicitudes. Se debe seleccionar una celda distinta como destino de la operación de pegado para que las solicitudes no se superpongan. Esto es así tanto si se selecciona una sola celda con una solicitud para pegar, como si se selecciona una región de celdas que contenga solicitudes.
 1. Haga clic en **[!UICONTROL Pegar solicitud]**.
 
    Una copia de la solicitud original se sitúa en la(s) celda(s), en una posición (o posiciones) relativa a la solicitud original.
@@ -33,6 +36,6 @@ Una [solicitud de referencia](/help/analyze/report-builder/manage-requests/c-cop
    >
    >Solo se copian las solicitudes, no el contenido de las celdas. Si dispone de otra información que no se base en las solicitudes, pero que resulte relevante para comprender los datos mostrados en las celdas (por ejemplo, encabezados de columna de tabla o identificadores de fila), utilice los comandos estándar Copiar y Pegar de Excel.
 
-   Debido a que Excel utiliza diferentes portapapeles para copiar el contenido de celdas y el contenido de solicitudes, puede copiar el contenido de celdas que no sean de solicitudes y posteriormente las solicitudes utilizando consecutivamente copiar/pegar y copiar solicitudes/pegar solicitudes. Sin embargo, si aplica formato a las solicitudes de la hoja de cálculo y después copia y pega, Report Builder reproducirá el formato original (p. ej., bordes, fuentes, etc.) en la zona de pegado.
+   Debido a que Excel utiliza diferentes portapapeles para copiar el contenido de celdas y el contenido de solicitudes, puede copiar el contenido de celdas que no sean de solicitudes y posteriormente las solicitudes utilizando consecutivamente copiar/pegar y copiar solicitudes/pegar solicitudes. Sin embargo, si aplica formato a las solicitudes de la hoja de cálculo y después copia y pega, Report Builder reproduce el formato original (por ejemplo, bordes, fuentes, etc.) en la zona de pegado.
 
    Si se modifica una solicitud copiada o cortada en el portapapeles antes de pegar la solicitud, la solicitud se elimina del portapapeles. Por lo tanto, para conservar la solicitud en su estado original, no la modifique entre el momento en que la copie y la pegue.

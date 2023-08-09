@@ -4,10 +4,10 @@ title: Importación de informes marcados e informes del panel
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Cuando selecciona un informe marcado, el Asistente para solicitudes rellena toda
 
 Este es el modo en el que el Paso 1 del Asistente para solicitudes muestra un tablero y sus informes breves:
 
-![](assets/import_dashboard_reportlet.png)
+![Captura de pantalla que muestra el resaltado del Paso 1 de 2 del Asistente para solicitudes. Recupere sus paneles y recupere sus marcadores.](assets/import_dashboard_reportlet.png)
 
 Al hacer clic en **[!UICONTROL Recuperar los tableros]** o **[!UICONTROL Recuperar los marcadores]**, se recuperan los datos de los tableros y/o los marcadores y se pegan en la hoja de cálculo.
 

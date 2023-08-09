@@ -4,10 +4,10 @@ title: Filtrado de informes de ruta añadiendo solicitudes dependientes
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 85%
 
 ---
 
@@ -29,12 +29,10 @@ Report Builder no ofrece estos informes independientes, pero puede crearlos en l
 * Ruta > Ruta de entrada > Como página de entrada
 * Ruta > Ruta de salida > Como página de salida
 
-1. Seleccione múltiples filas de una solicitud existente, a continuación, haga clic con el botón derecho en **[!UICONTROL Añadir una solicitud dependiente]** > **[!UICONTROL Ruta]**.
+1. Seleccione múltiples filas de una solicitud existente, a continuación, haga clic con el botón derecho en **[!UICONTROL Añadir una solicitud dependiente]** > **[!UICONTROL Ruta]**. Debe seleccionar al menos tres filas si desea ver la variable **[!UICONTROL Abandonos de página]** elemento de menú.
 
-   (Tenga en cuenta que debe seleccionar al menos 3 filas si desea ver el elemento de menú **[!UICONTROL Visitas en el orden previsto de la página]**).
+   ![Captura de pantalla que muestra tres filas seleccionadas con la opción Añadir solicitud dependiente seleccionada.](assets/dependen_request.png)
 
-   ![](assets/dependen_request.png)
-
-1. Seleccione el filtro predefinido, por ejemplo **[!UICONTROL Página anterior]**.
+2. Seleccione el filtro predefinido, por ejemplo **[!UICONTROL Página anterior]**.
 
    Aparece el Asistente para solicitudes con la métrica Página anterior ya seleccionada. 1. Siga perfeccionando la solicitud en el Asistente para solicitudes y genere su solicitud.

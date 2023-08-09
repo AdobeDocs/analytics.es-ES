@@ -4,10 +4,10 @@ title: 'Solicitudes de datos: Paso 1 del Asistente para solicitudes'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '371'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 En el formulario Asistente para solicitudes: Paso 1, se selecciona el grupo y el tipo de informes, así como los segmentos, y se configuran las fechas.
 
-![](assets/rw1_overview.png)
+![Captura de pantalla que muestra el formulario Asistente para solicitudes: Paso 1.](assets/rw1_overview.png)
 
 1. **[!UICONTROL Grupo de informes:]** lista de los grupos de informes que están a su disposición en función de sus credenciales de inicio de sesión. Consulte [Seleccionar grupos de informes](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 

@@ -5,10 +5,10 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 100%
+source-wordcount: '333'
+ht-degree: 90%
 
 ---
 
@@ -22,17 +22,19 @@ Se puede buscar en elementos de dimensión específicos mediante la creación de
 
 1. Cree o edite una solicitud y avance en el [!UICONTROL Asistente para solicitudes: Paso 2].
 
-   ![Resultado](/help/admin/admin/assets/filter.png)
+   ![Captura de pantalla que muestra las opciones Filtrar por: Aplicación, Usuario y Proyecto.](/help/admin/admin/assets/filter.png)
 
 1. En el [!UICONTROL Asistente para solicitudes: Paso 2], haga clic en el vínculo situado junto a la dimensión en la cuadrícula y, a continuación, seleccione **[!UICONTROL Filtro]**.
 
-   ![Resultado](assets/choose_page_specific01.png)
+1. Activar **[!UICONTROL Específico]**.
 
-1. Active **[!UICONTROL Específico]** y después active una de las siguientes opciones:
+   ![Captura de pantalla del cuadro de diálogo Elegir página con la opción Específica seleccionada.](assets/choose_page_specific01.png)
+
+1. Active una de las siguientes opciones específicas:
 
    * **Desde el rango de celdas:** permite seleccionar datos de celdas. Puede seleccionar:
-   * **Todas las celdas del rango:** permite asignar todas las celdas del rango. El texto descriptivo explica cuántos grupos de celdas se deben seleccionar. Para asignar varios grupos de celdas, presione la tecla Ctrl conforme realice las sucesivas selecciones. Si el rango que se debe asignar solo contiene una celda, esta es la única opción disponible.
-   * **Primera celda del rango:** solo es necesario seleccionar la celda superior izquierda del rango y, a continuación, elegir una dirección para los datos. Asimismo, si la solicitud tiene varios períodos, se selecciona la dirección de los mismos y si desea omitir un número establecido de celdas entre los períodos.
+      * **Todas las celdas del rango:** permite asignar todas las celdas del rango. El texto descriptivo explica cuántos grupos de celdas se deben seleccionar. Para asignar varios grupos de celdas, presione la tecla Ctrl conforme realice las sucesivas selecciones. Si el rango que se debe asignar solo contiene una celda, esta es la única opción disponible.
+      * **Primera celda del rango:** solo es necesario seleccionar la celda superior izquierda del rango y, a continuación, elegir una dirección para los datos. Asimismo, si la solicitud tiene varios períodos, se selecciona la dirección de los mismos y si desea omitir un número establecido de celdas entre los períodos.
    * **Desde la lista:** permite seleccionar datos desde una lista en la que se puede añadir información.
 1. Si activa **[!UICONTROL Desde la lista]**, seleccione cualquier elemento disponible de la lista, o bien haga clic en **[!UICONTROL Añadir]**.
 
