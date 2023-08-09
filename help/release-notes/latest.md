@@ -3,9 +3,9 @@ title: Notas de la versión de Adobe Analytics actual
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d1b9ef79a456fc52b7fa644d088f7089c9b654e4
+source-git-commit: 00fd63b7486382da5506d16540bb949c52541c6d
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '895'
 ht-degree: 79%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 Estas notas de la versión abarcan el periodo de lanzamiento del 9 de agosto al 13 de septiembre de 2023. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
-## Nuevas funciones o mejoras entre el 9 de agosto y el 12 de septiembre de 2023 {#features}
+## Nuevas funciones o mejoras {#features}
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
