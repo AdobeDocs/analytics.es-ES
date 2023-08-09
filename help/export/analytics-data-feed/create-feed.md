@@ -3,9 +3,9 @@ title: Crear una fuente de datos
 description: Obtenga información sobre cómo crear una fuente de datos.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
 workflow-type: tm+mt
-source-wordcount: '3122'
+source-wordcount: '3174'
 ht-degree: 21%
 
 ---
@@ -20,7 +20,7 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
 
 >[!NOTE]
 >
->Antes de crear una fuente de datos, es importante tener una comprensión básica de las fuentes de datos y y que cumpla todos los requisitos previos necesarios. Para obtener más información, consulte [Resumen de fuentes de datos](data-feed-overview.md).
+>Antes de crear una fuente de datos, es importante tener una comprensión básica de las fuentes de datos y y asegurarse de que cumple todos los requisitos previos necesarios. Para obtener más información, consulte [Resumen de fuentes de datos](data-feed-overview.md).
 
 ## Creación y configuración de una fuente de datos
 
@@ -45,6 +45,15 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
    | [!UICONTROL **Alimentación continua**] | Esta casilla elimina la fecha de finalización, lo que permite que una fuente se ejecute indefinidamente. Cuando una fuente termina de procesar datos históricos, la fuente espera a que los datos terminen de recopilar durante una hora o un día determinados. Una vez finalizada la hora o el día actuales, el procesamiento comienza después del retraso especificado. |
 
 1. En el [!UICONTROL **Destino**] , en la sección [!UICONTROL **Tipo**] , seleccione el destino al que desee enviar los datos.
+
+   >[!NOTE]
+   >
+   >Tenga en cuenta lo siguiente al configurar un destino de informe:
+   >
+   >* Se recomienda utilizar una cuenta de nube para el destino del informe. [Cuentas heredadas de FTP y SFTP](#legacy-destinations) están disponibles, pero no se recomiendan.
+   >
+   >* Las cuentas de nube de están asociadas a su cuenta de usuario de Adobe Analytics. Otros usuarios no pueden usar ni ver las cuentas de nube que configure.
+   >
 
    ![Menú desplegable de destino de fuente de datos](assets/datafeed-destinations-dropdown.png)
 
