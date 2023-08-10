@@ -3,10 +3,10 @@ title: Eventos de página
 description: Número de acciones de seguimiento de vínculos activadas.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 5e70a84c7793b516c0eca2776d8bbfd3ea3fc02b
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 100%
+source-wordcount: '142'
+ht-degree: 60%
 
 ---
 
@@ -16,8 +16,8 @@ La métrica “Eventos de página” muestra la cantidad de veces que se realiz�
 
 ## Cálculo de esta métrica
 
-Esta métrica cuenta todas las llamadas de seguimiento de vínculos ([`tl()`](/help/implement/vars/functions/tl-method.md)) en un grupo de informes. Se incluyen todos los tipos de vínculos (vínculos personalizados, vínculos de descarga y vínculos de salida). No incluye las llamadas de seguimiento de vista de página ([`t()`](/help/implement/vars/functions/t-method.md)).
+Esta métrica cuenta todos [Llamadas de seguimiento de vínculos (`tl()`)](/help/implement/vars/functions/tl-method.md) en un grupo de informes. Se incluyen todos los tipos de vínculos (vínculos personalizados, vínculos de descarga y vínculos de salida). No incluye [Llamadas de seguimiento de vista de página (`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## Comparar con métricas similares
 
-* **Eventos de página vs. [Vistas de página](page-views.md)**: Los eventos de página cuentan el número de llamadas de seguimiento de vínculos (`tl()`) y excluyen las llamadas de seguimiento de vista de páginas (`t()`). Vistas de página es lo contrario; cuenta el número de llamadas de seguimiento de vista de página y excluye los vínculos.
+* **Eventos de página vs. [Page views](page-views.md)**: Los eventos de página cuentan el número de llamadas de seguimiento de vínculos (`tl()`) y excluyen las llamadas de seguimiento de vista de página (`t()`). Las vistas de página son lo contrario; cuenta el número de llamadas de seguimiento de vista de página y excluye los vínculos.
