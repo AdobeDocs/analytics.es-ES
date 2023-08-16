@@ -3,10 +3,10 @@ title: Páginas no encontradas (métricas)
 description: Número de visitas que contienen un error.
 feature: Metrics
 exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: ed4538efa9a28d40ab18fecd3bd87545808d9ac5
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 96%
+source-wordcount: '130'
+ht-degree: 45%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 96%
 
 *En esta página de ayuda se describe cómo funciona &quot;Páginas no encontradas&quot; como métrica. Consulte la dimensión [Páginas no encontradas](../dimensions/pages-not-found.md) para obtener más información.*
 
-La métrica “Páginas no encontradas” muestra el número de visitas en las que la página contenía un error. Esta métrica es valiosa cuando desea ver qué páginas o direcciones URL contenían mensajes de error (como un 404), para que pueda determinar la causa del error y corregirlo.
+La métrica &quot;Páginas no encontradas&quot; muestra el número de visitas configurado o en las que persiste una dimensión en el momento en que un visitante encontró un error. Esta métrica es valiosa cuando desea ver qué páginas o direcciones URL contenían mensajes de error (como un 404). A continuación, puede pasar esta información al equipo de desarrollo web, que puede determinar la causa del error y corregirlo.
 
 ## Cálculo de esta métrica
 
