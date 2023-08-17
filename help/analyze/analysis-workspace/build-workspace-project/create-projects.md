@@ -4,14 +4,14 @@ title: Crear proyectos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 6130b1d8-078c-46d8-9fce-eb39739a9570
-source-git-commit: f7bd5eaffd4502510451e3afb5929682ad967ecb
+source-git-commit: fabe043264e4567d54dc497897fff0aaad77eaaf
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 5%
+source-wordcount: '705'
+ht-degree: 14%
 
 ---
 
-# Crear proyectos
+# Creación de proyectos en Analysis Workspace
 
 [Proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) Las en Analysis Workspace le permiten ver análisis críticos para el negocio que se pueden compartir con las partes interesadas dentro o fuera de su organización.
 
@@ -110,6 +110,6 @@ Para añadir un componente:
 
 ## Guarde y comparta el proyecto
 
-A medida que crea un análisis en Analysis Workspace, su trabajo es [guardado automáticamente](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
+A medida que crea un análisis en Analysis Workspace, su trabajo se [guarda automáticamente](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
-Cuando termine de crear el proyecto y recopile información procesable, el proyecto estará listo para que otros lo consuman. Puede compartir el proyecto con usuarios y grupos de su organización, o incluso con personas fuera de su organización. Para obtener información sobre cómo compartir un proyecto, consulte [Compartir proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+Cuando termine de crear el proyecto y recopile información procesable, el proyecto estará listo para que otros lo consuman. Puede compartir el proyecto con personas y grupos de su organización, o incluso con personas fuera de su organización. Para obtener información sobre cómo compartir un proyecto, consulte [Uso compartido de proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md).

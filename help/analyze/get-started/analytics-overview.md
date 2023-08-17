@@ -4,9 +4,9 @@ title: Información general de Adobe Analytics
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d5a7dfe720cc84b67208e7d30434295caf1e2aac
+source-git-commit: 1c6cc23c9cb6b4b007d2f296ea23e697cc135bd4
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '3101'
 ht-degree: 32%
 
 ---
@@ -104,7 +104,7 @@ El [!UICONTROL Componentes] Esta pestaña incluye funciones que le ayudan a ajus
 
    ![Pestaña Workspace](assets/components-tab.png)
 
-2. Seleccione cualquiera de las siguientes funciones de producto para configurarlo: (Según sus permisos, es posible que todas las funciones no estén visibles).
+2. Seleccione cualquiera de las siguientes funciones de producto para configurarlo:
 
 
    | Funcionalidad del producto | Función | Más información |

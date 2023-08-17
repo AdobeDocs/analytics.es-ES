@@ -3,10 +3,10 @@ description: Esta página de ayuda contiene casos de uso recomendados para cada 
 title: ¿Qué herramienta de Adobe Analytics debo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: a288253816fa73444dd5078d56d3d30e92aebe3f
-workflow-type: ht
-source-wordcount: '1163'
-ht-degree: 100%
+source-git-commit: 52f7ff8a357cfe80e1f92b4162057da807f44e9d
+workflow-type: tm+mt
+source-wordcount: '1227'
+ht-degree: 98%
 
 ---
 
@@ -30,17 +30,22 @@ Este es un vídeo que compara varias herramientas de Adobe Analytics:
 * Para acceder a datos en tiempo real en la IU.
 * Para configurar eventos de Calendario.
 * Para configurar Targets.
-* Para ver informes de Bot.
 * Para acceder a visualizaciones de vídeo únicas de Video Daypart y Viewer Drop-off.
+
+>[!IMPORTANT]
+>
+>A partir del **31 de diciembre de 2023**, Adobe tiene la intención de descatalogar Reports &amp; Analytics, y sus informes y funciones correspondientes. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejarán de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de Reports &amp; Analytics se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. Este aviso explica el proceso de finalización de la vida útil.
 
 El **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=es)** debe usarse:
 
-* Como la opción de herramienta de Analytics más flexible (para análisis en el nivel de visita y de visitante).
-* Para crear un conjunto de datos de varios canales de interacciones en línea y sin conexión desde CRM hasta POS a web.
-* Para generar atribuciones avanzadas (modelos algorítmicos y basados en reglas).
 * Para generar modelos predictivos y estadísticos (puntuación de tendencia, agrupación en clústeres, correlaciones, etc.).
 * Para análisis de latencia (tiempo antes/desde un evento).
 * Para la identificación y exportación de segmentos completos mediante Adobe Experience Cloud.
+
+>[!IMPORTANT]
+>
+>Más información sobre la Data Workbench [Anuncio de fin de vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en).
+
 
 ## Importación de datos en Adobe Analytics {#import}
 
