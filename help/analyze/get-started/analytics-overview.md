@@ -4,10 +4,10 @@ title: Información general de Adobe Analytics
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f2f1d21989b609bf069da28b3b90785ccd14ef19
+source-git-commit: 58e5f3ca4b99e92b64e01095d61d5fe1fc97feb9
 workflow-type: tm+mt
-source-wordcount: '5049'
-ht-degree: 42%
+source-wordcount: '5077'
+ht-degree: 41%
 
 ---
 
@@ -21,7 +21,7 @@ A continuación se indican algunas de las formas clave en que Adobe Analytics ay
 
 Para obtener más información sobre las ventajas que proporciona Adobe Analytics, consulte la [página de producto de Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html).
 
-### Análisis web
++++Análisis web
 
 Adobe Analytics proporciona las siguientes herramientas predictivas y de segmentación compleja para analizar el tráfico del sitio web:
 
@@ -31,7 +31,9 @@ Adobe Analytics proporciona las siguientes herramientas predictivas y de segment
 
 * [Segmentación avanzada](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=es)
 
-### Análisis de marketing
++++
+
++++Análisis de marketing
 
 Adobe Analytics ayuda a las organizaciones a comprender dónde interactúan los clientes con sus marcas, qué canales prefieren los clientes y qué experiencias resuenan con ellos.
 
@@ -43,14 +45,18 @@ Las siguientes funciones clave de Adobe Analytics proporcionan estas funciones d
 
 * [Análisis ad hoc en Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 
-### Atribución
++++
+
++++Atribución
 
 La atribución permite a las organizaciones ver cómo las distintas interacciones a lo largo del recorrido del cliente afectan a la conversión. Además de proporcionar opciones de atribución más tradicionales, como los modelos Lineal o Primer contacto, la atribución en Adobe Analytics también utiliza el aprendizaje automático y modelos estadísticos avanzados para comprender el impacto preciso de cada contacto.
 
 Para obtener más información, consulte [Modelos de atribución y ventanas retroactivas](/help/analyze/analysis-workspace/attribution/models.md).
 
++++
 
-### Análisis predictivo
+
++++Análisis predictivo
 
 El análisis predictivo utiliza el aprendizaje automático y el modelado estadístico avanzado para analizar los datos de los clientes, encontrar patrones y predecir comportamientos futuros como la pérdida o la probabilidad de conversión. Permite a los analistas de datos aprovechar los enormes conjuntos de datos que, de lo contrario, se podrían desperdiciar.
 
@@ -61,6 +67,8 @@ Las siguientes funciones clave de Adobe Analytics proporcionan estas funciones p
 * [Análisis de contribución](#contribution-analysis)
 
 * [Alertas inteligentes](#intelligent-alerts)
+
++++
 
 ## Requisitos previos para utilizar Adobe Analytics
 
@@ -78,9 +86,13 @@ Para poder usar Adobe Analytics, debe contar con:
 
 ## Explicación de la interfaz de Analytics
 
-La interfaz de Adobe Analytics consta de las siguientes áreas principales:
+La interfaz de Adobe Analytics consta de las siguientes áreas clave, incluidas pestañas para administrar proyectos en Analysis Workspace, componentes de administración, herramientas y funciones de administrador.
 
-### Pestaña Workspace
+![Pestaña Workspace](assets/landing-all2.png)
+
+Expanda las siguientes secciones para obtener más información sobre cada área de Analysis Workspace:
+
++++pestaña Workspace
 
 El [!UICONTROL Workspace] La pestaña muestra el [!UICONTROL Proyectos] de forma predeterminada, que muestra la carpeta Compañía, las carpetas personales que haya creado, sus proyectos y los cuadros de resultados móviles.
 
@@ -90,13 +102,17 @@ El [!UICONTROL Workspace] La pestaña muestra el [!UICONTROL Proyectos] de forma
 
 Para obtener más información sobre las funciones disponibles en la [!UICONTROL Workspace] pestaña, consulte [Página de aterrizaje de Adobe Analytics](/help/analyze/landing.md).
 
-### Pestaña de informes
++++
+
++++Pestaña de informes
 
 A partir del 31 de diciembre de 2023, Adobe tiene la intención de descatalogar Reports &amp; Analytics, y sus informes y funciones correspondientes.
 
 En su lugar, utilice el [!UICONTROL **Informes**] área en el carril izquierdo de la [!UICONTROL **Workspace**] pestaña. Para obtener más información, consulte *Vaya a la pestaña Informes* in [Página de aterrizaje de Adobe Analytics](/help/analyze/landing.md).
 
-### Pestaña Componentes
++++
+
++++Pestaña Componentes
 
 El [!UICONTROL Componentes] Esta pestaña incluye funciones que le ayudan a ajustar y potenciar su análisis de datos.
 
@@ -128,7 +144,9 @@ El [!UICONTROL Componentes] Esta pestaña incluye funciones que le ayudan a ajus
 
    {style="table-layout:auto"}
 
-### Ficha Herramientas
++++
+
++++Ficha Herramientas
 
 <!-- The Tools tab ... -->
 
@@ -150,7 +168,9 @@ El [!UICONTROL Componentes] Esta pestaña incluye funciones que le ayudan a ajus
 
    {style="table-layout:auto"}
 
-### Pestaña Administración
++++
+
++++Ficha Admin
 
 La pestaña Admin incluye funciones y opciones de configuración para administrar Adobe Analytics.
 
@@ -194,7 +214,9 @@ La pestaña Admin incluye funciones y opciones de configuración para administra
 
    {style="table-layout:auto"}
 
-### Analysis Workspace
++++
+
++++Analysis Workspace
 
 Analysis Workspace le permite crear análisis rápidamente para recopilar información y luego compartirlas con otros. Mediante la interfaz del explorador arrastrar y soltar, puede crear su análisis, añadir visualizaciones para que los datos cobren vida, depurar un conjunto de datos, compartir y programar proyectos con cualquier persona de su organización.
 
@@ -210,6 +232,8 @@ Para obtener una descripción general más detallada de Analysis Workspace, cons
 | B | **Carril izquierdo:** en función de la pestaña seleccionada en el carril del extremo izquierdo, esta área contiene paneles, visualizaciones o componentes individuales. |
 | C | **Lienzo:** es el área principal donde se arrastra contenido desde los carriles izquierdos para crear el proyecto. El proyecto se actualiza dinámicamente a medida que se añaden paneles, visualizaciones y componentes al lienzo. |
 | D | **Menú desplegable de grupo de informes:** para cada panel de Analysis Workspace, el menú desplegable del grupo de informes le permite elegir el grupo de informes que desea utilizar como fuente de datos. |
+
++++
 
 ## Introducción para administradores, analistas, usuarios finales y desarrolladores
 
