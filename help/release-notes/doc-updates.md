@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: 1dd49a030b501ef3f291448facf08216fce0fe5e
 workflow-type: tm+mt
-source-wordcount: '4924'
+source-wordcount: '4940'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Agosto de 2023** | |
+| Panel Tiempo invertido en la reproducción de medios | Contenido actualizado para  [Panel Tiempo invertido en la reproducción de medios](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) para mejorar la legibilidad. |
 | Se ha movido contenido sobre la administración de proyectos programados | Se ha creado un nuevo artículo en la Guía de componentes de Analytics llamado [Proyectos programados](/help/components/scheduled-projects-manager.md). Este contenido se encontraba anteriormente en [Programar proyectos](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) en la Guía de herramientas de Analytics. |
 | Comparación de los métodos de implementación | Documentación actualizada que compara diferentes métodos de implementación. [Más información](../implement/prepare/comparison.md) |
 | Se ha precisado que la configuración de SFTP para fuentes de datos no requiere el Servicio de atención al cliente de Adobe | Se ha precisado en [Envío de datos de Adobe a una cuenta de FTP externa con SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) que los clientes no necesitan contactar con el Servicio de atención al cliente de Adobe para configurar SFTP para fuentes de datos. <p>También se ha añadido una nota indicando que ya no se recomienda el uso de SFTP y que los clientes deben utilizar un destino en la nube cuando configuren fuentes de datos.</p> |
