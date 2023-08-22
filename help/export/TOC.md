@@ -5,7 +5,7 @@ user-guide-title: Guía de exportación de Analytics
 breadcrumb-title: Guía de exportación
 user-guide-description: Obtenga información acerca del uso de fuentes de datos para exportar datos sin procesar y Data Warehouse para recuperar el resultado de una hoja de cálculo de datos. Aprenda a utilizar FTP y SFTP para transferir archivos.
 source-git-commit: 78ec6e91e64791d2f8a5386518d3d64403b2170a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
 ht-degree: 100%
 
