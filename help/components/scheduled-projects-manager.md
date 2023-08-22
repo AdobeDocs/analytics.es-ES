@@ -3,9 +3,9 @@ description: Consulte y administre informes programados en toda la organización
 title: Administrador de proyectos programados
 feature: Admin Tools
 source-git-commit: 8d0cf795b0366b2797fa0574ae9faaffb76b005e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 74%
 
 Los proyectos programados de Analysis Workspace se pueden administrar en **Analytics > Componentes > Proyectos programados**.
 
-Al administrar proyectos programados, puede editar y eliminar la programación recurrente de proyectos. Busque una programación en la barra de búsqueda o utilizando las opciones de filtro en el carril izquierdo. Puede filtrar por [!UICONTROL Etiquetas], [!UICONTROL Propietarios], [!UICONTROL Favoritos], y más.
+Al administrar proyectos programados, puede editar y eliminar las programaciones recurrentes de proyectos. Busque una programación en la barra de búsqueda o utilizando las opciones de filtro en el carril izquierdo. Puede filtrar por [!UICONTROL Etiquetas], [!UICONTROL Propietarios], [!UICONTROL Favoritos] y más.
 
 ![](assets/scheduled-project-manager2.png)
 
@@ -24,12 +24,12 @@ Al administrar proyectos programados, puede editar y eliminar la programación r
 | [!UICONTROL Favoritos] | Al seleccionar el icono de estrella, marca esta programación como favorita. |
 | [!UICONTROL ID de programación] | Este ID se utiliza principalmente con fines de depuración. |
 | [!UICONTROL Título y descripción] | Título y descripción de este proyecto. |
-| [!UICONTROL Propietario] | La persona que creó el proyecto y es de su propiedad. |
+| [!UICONTROL Propietario] | La persona que creó el proyecto y es propietaria de él. |
 | [!UICONTROL Etiquetas] | (opcional) El etiquetado es una buena forma de organizar los proyectos. Todos los usuarios pueden crear etiquetas y aplicar una o más a un proyecto. Sin embargo, solo verá las etiquetas de los proyectos que sean suyos o que se hayan compartido con usted. |
-| [!UICONTROL Entregado a] | Los destinatarios de este proyecto programado. |
-| [!UICONTROL Fecha de caducidad] | Para cualquier frecuencia de proyecto programado, puede establecer la fecha de caducidad para un año en el futuro. |
-| [!UICONTROL Frecuencia] | La frecuencia con la que desea que este proyecto programado se envíe a los destinatarios. |
-| [!UICONTROL Tiempo de ejecución] | A qué hora del día se envía este proyecto programado. |
+| [!UICONTROL Entregado a] | Las personas destinatarias de este proyecto programado. |
+| [!UICONTROL Fecha de caducidad] | Para cualquier frecuencia de proyecto programado, puede establecer la fecha de caducidad hasta un año en el futuro. |
+| [!UICONTROL Frecuencia] | La frecuencia con la que desea que este proyecto programado se envíe a las personas destinatarias. |
+| [!UICONTROL Hora de ejecución] | A qué hora del día se envía este proyecto programado. |
 | [!UICONTROL Cantidad de consultas] | Número de consultas de este proyecto. |
 
 ## Acciones comunes
@@ -38,11 +38,11 @@ Las siguientes son acciones comunes en el administrador de proyectos programados
 
 | Acción | Descripción |
 |---|---|
-| **[!UICONTROL Editar]** | Seleccione el título de la programación para actualizar su configuración de entrega. |
+| **[!UICONTROL Editar]** | Seleccione el título de la programación para actualizar la configuración de envío. |
 | **[!UICONTROL Eliminar]** | Seleccione el proyecto programado en la lista y, a continuación, haga clic en Eliminar en el menú. Esto eliminará la programación seleccionada para el proyecto; el proyecto en sí no se eliminará. |
 | **[!UICONTROL Etiqueta]** | Seleccione el proyecto programado en la lista y, a continuación, elija “Etiqueta” o “Aprobar” para organizar las programaciones y facilitar su búsqueda. |
 | **[!UICONTROL Ver las programaciones fallidas]** | Vaya al carril izquierdo > Otros filtros > No se han podido ver las programaciones que han fallado. |
-| **[!UICONTROL Ver las programaciones caducadas]** | Vaya al carril izquierdo > Otros filtros > Caducado para ver las programaciones que han caducado. Haga clic en el título de la programación para configurar una nueva programación de entrega. |
+| **[!UICONTROL Ver las programaciones caducadas]** | Vaya al carril izquierdo > Otros filtros > Caducado para ver las programaciones que han caducado. Haga clic en el título de la programación para configurar una nueva programación de envío. |
 | **[!UICONTROL Ver el ID de programación]** | Vaya a las opciones de columna en la parte superior derecha y añada la columna ID de programación a la tabla. El ID de programación suele ser útil para la depuración. |
 
-El Administrador de programación de proyectos muestra los artículos que ha creado un usuario en particular. Si la cuenta del usuario está desactivada en la aplicación, se detienen todos los envíos programados. La propiedad del proyecto programado se puede transferir a un nuevo usuario en **Administrador** > **Usuarios y activos de Analytics** > **Transferir recursos**.
+El administrador de proyectos programados muestra los elementos que ha creado una persona concreta. Si la cuenta de usuario está desactivada en la aplicación, se detienen todos los envíos programados. La propiedad del proyecto programado se puede transferir a una nueva persona en **Administración** > **Usuarios y activos de Analytics** > **Transferir activos**.
