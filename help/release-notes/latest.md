@@ -3,8 +3,8 @@ title: Notas de la versión de Adobe Analytics actual
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 00fd63b7486382da5506d16540bb949c52541c6d
-workflow-type: ht
+source-git-commit: 2232778be91502eca2ecdc2c9598b8a3375abb8b
+workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Notas de la versión de Adobe Analytics actual (Agosto de 2023)
 
-**Última actualización**: 9 de agosto de 2023
+**Última actualización**: 24 de agosto de 2023
 
 Estas notas de la versión corresponden al periodo comprendido entre el 9 de agosto y el 13 de septiembre de 2023. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,8 +20,8 @@ Estas notas de la versión corresponden al periodo comprendido entre el 9 de ago
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Conjuntos de clasificación en la API 2.0** | Proporciona métodos de la API de Adobe Analytics 2.0 para guardar, eliminar, recuperar, importar y exportar datos del conjunto de clasificación. | N/A | 31 de agosto de 2023 |
-| **Administrador de actividades de creación de informes** | El administrador de actividades de creación de informes proporciona a los administradores una visibilidad detallada del consumo de creación de informes para cada grupo de informes, lo que permite a los administradores diagnosticar fácilmente y luego corregir los problemas de capacidad durante las horas de mayor actividad de creación de informes. [Más información](/help/admin/admin/reporting-activity.md) | N/A | 6 de septiembre de 2023 |
+| **Conjuntos de clasificación en la API 2.0** | Proporciona métodos de la API de Adobe Analytics 2.0 para guardar, eliminar, recuperar, importar y exportar datos del conjunto de clasificación. | N/A | 30 de agosto de 2023 |
+| **Administrador de actividades de creación de informes** | El administrador de actividades de creación de informes proporciona a los administradores una visibilidad detallada del consumo de creación de informes para cada grupo de informes, lo que permite a los administradores diagnosticar fácilmente y luego corregir los problemas de capacidad durante las horas de mayor actividad de creación de informes. [Más información](/help/admin/admin/reporting-activity.md) | N/A | 12 de septiembre de 2023 |
 
 {style="table-layout:auto"}
 
