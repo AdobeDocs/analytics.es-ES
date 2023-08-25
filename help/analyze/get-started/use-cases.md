@@ -4,10 +4,10 @@ title: Casos de uso de Analytics
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 4%
+source-wordcount: '291'
+ht-degree: 7%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Analytics ayuda a las organizaciones a comprender dónde interactúan los 
 
 Las siguientes funciones clave de Adobe Analytics proporcionan estas funciones de marketing:
 
-* Recopilación de datos multicanal
+* [Recopilación de datos multicanal](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=es)
 
 * [Integración de datos sin conexión](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en)
 
