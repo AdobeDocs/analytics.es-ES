@@ -3,10 +3,10 @@ title: Crear una fuente de datos
 description: Obtenga información sobre cómo crear una fuente de datos.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
+source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
 workflow-type: tm+mt
-source-wordcount: '3174'
-ht-degree: 21%
+source-wordcount: '3175'
+ht-degree: 20%
 
 ---
 
@@ -41,7 +41,7 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
    | [!UICONTROL **Enviar correo electrónico al completar**] | La dirección de correo electrónico que se notificará cuando una fuente termine de procesarse. La dirección de correo electrónico debe tener el formato correcto. |
    | [!UICONTROL **Intervalo de fuente**] | Seleccionar **Diario** para datos históricos o de relleno. Las fuentes diarias contienen datos de un día completo, de medianoche a medianoche en el huso horario del grupo de informes.  Seleccionar **Por hora** para datos continuos (diariamente también está disponible para fuentes continuas, si lo prefiere). Las fuentes por hora contienen datos de una sola hora. |
    | [!UICONTROL **Retrasar procesamiento**] | Espere un tiempo determinado antes de procesar un archivo de fuente de datos. Un retraso puede resultar útil para ofrecer a las implementaciones móviles la oportunidad de que los dispositivos sin conexión se conecten y envíen datos. También se puede utilizar para dar cabida a los procesos del lado del servidor de su organización en la administración de archivos procesados anteriormente. En la mayoría de los casos, no es necesario un retraso. Una fuente se puede retrasar hasta 120 minutos. |
-   | [!UICONTROL **Fechas de inicio y finalización**] | La fecha de inicio indica la primera fecha en la que desea una fuente de datos. Establezca esta fecha en el pasado para comenzar inmediatamente a procesar fuentes de datos para datos históricos. Las fuentes continúan procesando hasta que llegan a la fecha de finalización. Las fechas de inicio y finalización se basan en el huso horario del grupo de informes. |
+   | [!UICONTROL **Fechas de inicio y finalización**] | La fecha de inicio indica la fecha en la que desea que comience la fuente de datos. Para comenzar a procesar inmediatamente fuentes de datos para datos históricos, establezca esta fecha en cualquier fecha en el pasado en que se estén recopilando datos. Las fechas de inicio y finalización se basan en el huso horario del grupo de informes. |
    | [!UICONTROL **Alimentación continua**] | Esta casilla elimina la fecha de finalización, lo que permite que una fuente se ejecute indefinidamente. Cuando una fuente termina de procesar datos históricos, la fuente espera a que los datos terminen de recopilar durante una hora o un día determinados. Una vez finalizada la hora o el día actuales, el procesamiento comienza después del retraso especificado. |
 
 1. En el [!UICONTROL **Destino**] , en la sección [!UICONTROL **Tipo**] , seleccione el destino al que desee enviar los datos.
