@@ -4,9 +4,9 @@ title: ¿Qué herramienta de Adobe Analytics debo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 52f7ff8a357cfe80e1f92b4162057da807f44e9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1227'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ El **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/usi
 
 >[!IMPORTANT]
 >
->Más información sobre la Data Workbench [Anuncio de fin de vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en).
+>Lea más sobre el [Anuncio de fin de vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=es) de Data Workbench.
 
 
 ## Importación de datos en Adobe Analytics {#import}
