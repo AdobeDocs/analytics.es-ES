@@ -5,16 +5,16 @@ title: Programar proyectos
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 73%
+source-wordcount: '315'
+ht-degree: 51%
 
 ---
 
 # Programar proyectos
 
-En el **menú Compartir** de Workspace, puede enviar proyectos de Analysis Workspace por correo electrónico a destinatarios seleccionados. Los archivos se pueden enviar en formato CSV o PDF.
+Desde el espacio de trabajo **Menú Compartir**, puede enviar proyectos de Analysis Workspace por correo electrónico a destinatarios seleccionados. Los archivos se pueden enviar en formato CSV o PDF. Después de compartir proyectos programados, puede editar la configuración de programación para modificar la frecuencia, la lista de destinatarios o el tipo de archivo mediante el Administrador de proyectos programados.
 
 ## Enviar archivo ahora
 
@@ -46,6 +46,14 @@ Para enviar un archivo en una programación recurrente a los destinatarios por c
 ![](assets/send-on-schedule.png)
 
 ## Administrar proyectos programados
+
+Al administrar proyectos programados, puede editar y eliminar programaciones de proyectos recurrentes:
+
+* Cambiar el tipo de archivo (.csv o PDF)
+* Actualizar la descripción del proyecto
+* Adición o eliminación de destinatarios
+* Cambiar la frecuencia
+
 
 Los proyectos programados de Analysis Workspace se pueden administrar en **Analytics > Componentes > Proyectos programados**.
 

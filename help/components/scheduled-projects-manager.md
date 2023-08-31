@@ -2,10 +2,10 @@
 description: Consulte y administre informes programados en toda la organización.
 title: Administrador de proyectos programados
 feature: Admin Tools
-source-git-commit: 8d0cf795b0366b2797fa0574ae9faaffb76b005e
-workflow-type: ht
-source-wordcount: '414'
-ht-degree: 100%
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 86%
 
 ---
 
@@ -13,9 +13,19 @@ ht-degree: 100%
 
 Los proyectos programados de Analysis Workspace se pueden administrar en **Analytics > Componentes > Proyectos programados**.
 
-Al administrar proyectos programados, puede editar y eliminar las programaciones recurrentes de proyectos. Busque una programación en la barra de búsqueda o utilizando las opciones de filtro en el carril izquierdo. Puede filtrar por [!UICONTROL Etiquetas], [!UICONTROL Propietarios], [!UICONTROL Favoritos] y más.
+Al administrar proyectos programados, puede editar y eliminar programaciones de proyectos recurrentes:
 
-![](assets/scheduled-project-manager2.png)
+* Cambiar el tipo de archivo (.csv o PDF)
+* Actualizar la descripción del proyecto
+* Adición o eliminación de destinatarios
+* Cambiar la frecuencia
+
+Para modificar un proyecto programado
+
+1. Seleccionar **Analytics > Componentes > Proyectos programados**.
+1. Busque una programación en la barra de búsqueda o utilizando las opciones de filtro en el carril izquierdo. Puede filtrar por [!UICONTROL Etiquetas], [!UICONTROL Propietarios], [!UICONTROL Favoritos] y más.
+
+![Captura de pantalla que muestra la lista de proyectos programados con la columna que muestra el título, el propietario, las etiquetas, los envíos a y otras columnas que se describen en la sección Columnas disponibles.](assets/scheduled-project-manager2.png)
 
 ## Columnas disponibles
 
