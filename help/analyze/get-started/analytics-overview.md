@@ -1,17 +1,18 @@
 ---
-description: Información general sobre Adobe Analytics, incluida la información sobre la interfaz de Analytics, así como información de introducción para administradores, analistas, usuarios y desarrolladores.
-title: Información general de Adobe Analytics
+description: Información general acerca de Adobe Analytics, incluida información acerca de la interfaz de Analytics, así como información de introducción para personas usuarias y roles de administrador, analista y desarrollador.
+short-description: Conozca las funciones clave, los casos de uso comunes y los primeros pasos para analistas, usuarios finales y administradores.
+title: Información general sobre Adobe Analytics
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
+source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 47%
+source-wordcount: '461'
+ht-degree: 77%
 
 ---
 
-# Información general de Adobe Analytics
+# Información general sobre Adobe Analytics
 
-Adobe Analytics permite a las organizaciones recopilar datos y obtener perspectivas procesables de cualquier interacción digital con los clientes. Con un análisis en profundidad, informes versátiles e inteligencia predictiva, las organizaciones obtienen la base perspicaz que necesitan para crear mejores experiencias para sus clientes.
+Adobe Analytics permite a las organizaciones recopilar datos y obtener información procesable de cualquier interacción digital del cliente. Con análisis en profundidad, informes versátiles e inteligencia predictiva, las organizaciones adquieren la base de información que necesitan para crear mejores experiencias para sus clientes.
 
 ## Introducción a Adobe Analytics
 
@@ -29,13 +30,13 @@ Utilice los siguientes recursos para conocer los conceptos básicos de Adobe Ana
 
 ## Información general del vídeo
 
-Para obtener más información sobre los conceptos básicos de Adobe Analytics, consulte esto *Introducción a Adobe Analytics: Seminario web de Skills Builder* vídeo. El vídeo le explica cómo se capturan los datos, cómo se envían a Adobe Analytics y qué capacidades de visualización puede utilizar en Adobe Analytics. El vídeo proporciona una base para crear, implementar, recopilar e interpretar los datos, lo que le permite proporcionar perspectivas procesables y recomendaciones basadas en los datos recopilados.
+Para obtener más información acerca de los conceptos básicos de Adobe Analytics, consulte el vídeo *Introducción a Adobe Analytics: seminario web del generador de habilidades*. El vídeo le explica cómo se capturan los datos, cómo se envían a Adobe Analytics y qué capacidades de visualización puede utilizar en Adobe Analytics. El vídeo le proporciona una base para generar, implementar, recopilar e interpretar datos, permitiéndole así ofrecer información procesable y recomendaciones basadas en los datos recopilados.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 Si tiene preguntas acerca de qué herramienta utilizar, consulte [¿Qué herramienta de Adobe Analytics debo usar?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=es).
 
-## Ir más allá con el Customer Journey Analytics
+## Vaya más allá con Customer Journey Analytics
 
 Customer Journey Analytics es una solución de análisis de próxima generación que le permite utilizar la potencia de Analysis Workspace con los datos de Adobe Experience Platform. Puede desglosar, filtrar, consultar y visualizar datos de años, y se combina con la capacidad de Platform de albergar todo tipo de esquemas y tipos de datos.
 
@@ -49,5 +50,5 @@ A continuación se indican algunas de las ventajas de Customer Journey Analytics
 
 * **Datos de grupos de informes múltiples**: las implementaciones existentes de varios conjuntos de datos se pueden combinar en Platform.
 
-Para obtener más información, consulte [Introducción al Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es).
+Para obtener más información, consulte [Información general de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es).
 
