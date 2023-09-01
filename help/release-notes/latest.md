@@ -3,7 +3,7 @@ title: Notas de la versión de Adobe Analytics actual
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5d0133495613c89deca4dc070d38389ef89853b3
+source-git-commit: 991c46091d08a3efa8c1ff90d6ccc2a4e698f208
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 93%
@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Notas de la versión de Adobe Analytics actual (Agosto de 2023)
 
-**Última actualización**: 24 de agosto de 2023
+**Última actualización**: 29 de agosto de 2023
 
 Estas notas de la versión corresponden al periodo comprendido entre el 9 de agosto y el 13 de septiembre de 2023. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,7 +20,7 @@ Estas notas de la versión corresponden al periodo comprendido entre el 9 de ago
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Conjuntos de clasificación en la API 2.0** | Proporciona métodos de la API de Adobe Analytics 2.0 para guardar, eliminar, recuperar, importar y exportar datos del conjunto de clasificación. | N/A | 30 de agosto de 2023 |
+| **Conjuntos de clasificación en la API 2.0** | Proporciona métodos de la API de Adobe Analytics 2.0 para guardar, eliminar, recuperar, importar y exportar datos del conjunto de clasificación. | N/A | 13 de septiembre de 2023 |
 | **Administrador de actividades de creación de informes** | El administrador de actividades de creación de informes proporciona a los administradores una visibilidad detallada del consumo de creación de informes para cada grupo de informes, lo que permite a los administradores diagnosticar fácilmente y luego corregir los problemas de capacidad durante las horas de mayor actividad de creación de informes. [Más información](/help/admin/admin/reporting-activity.md) | N/A | 12 de septiembre de 2023 |
 
 {style="table-layout:auto"}
