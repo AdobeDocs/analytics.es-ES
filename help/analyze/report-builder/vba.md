@@ -1,25 +1,27 @@
 ---
-title: Macros de Visual Basic en Report Builder
-description: Expanda la funcionalidad de los libros y Report Builder de Excel mediante VBA.
+title: Cómo utilizar macros de Visual Basic en Report Builder
+description: Obtenga información sobre cómo expandir la funcionalidad de los libros y Report Builder de Excel mediante macros de VBA.
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 100%
+source-wordcount: '194'
+ht-degree: 68%
 
 ---
 
 # Macros de Visual Basic en Report Builder
 
-Las macros de VBA, también conocidas como macros de Visual Basic, permiten manipular libros de formas que Microsoft Excel no puede. Visual Basic tiene acceso al libro, Excel e incluso Windows.
+Las macros de Visual Basic (VBA) proporcionan características que ayudan a actualizar los libros de Excel. Visual Basic tiene acceso al libro, Excel y Windows.
 
-Adobe admite tres métodos de API de Report Builder. Asegúrese de que está instalada la versión más reciente del creador de informes e inicie sesión antes de ejecutar cualquier macro.
+Debe ejecutar la última versión de Report Builder e iniciar sesión antes de ejecutar macros de VBA.
 
 >[!IMPORTANT]
 >
 >Por motivos de seguridad, no se puede programar un libro que contenga una macro.
+
+Adobe admite tres métodos de API de Report Builder.
 
 ## `RefreshAllReportBuilderRequests()`
 

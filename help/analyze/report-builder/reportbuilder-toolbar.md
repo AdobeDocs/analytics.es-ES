@@ -1,14 +1,14 @@
 ---
-description: Información sobre la función de los botones de la barra de herramientas de Report Builder.
-title: Barra de herramientas de Report Builder
+description: Obtenga información acerca de las funciones de los botones de la barra de herramientas del Report Builder.
+title: Cómo utilizar la barra de herramientas del Report Builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 feature: Report Builder
 role: User, Admin
 exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 93%
+source-wordcount: '304'
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,7 @@ Información sobre la función de los botones de la barra de herramientas de Rep
 
 Tras instalar Report Builder e iniciar Excel, haga clic en **[!UICONTROL Complementos]**.
 
-![](assets/report_builder_toolbar.png)
+![Iconos de barra de herramientas del Report Builder](assets/report_builder_toolbar.png)
 
 **Iniciar sesión:** Muestra el [!UICONTROL Iniciar sesión] para que pueda iniciar sesión con sus credenciales o como un usuario diferente. También muestra su nombre de empresa tras el inicio de sesión. Consulte [Inicio de sesión en el Report Builder](/help/analyze/report-builder/setup/login.md).
 
@@ -32,7 +32,7 @@ Tras instalar Report Builder e iniciar Excel, haga clic en **[!UICONTROL Complem
 
 **Programación:** permite programar el envío de informes de acuerdo al formato de archivo y la hora que se especifiquen. Consulte [Programar solicitudes de informes](/help/analyze/report-builder/schedule-report-requests.md).
 
-**Biblioteca:** inicia la [!UICONTROL biblioteca de libros] para que se pueda cargar un libro de Excel de Report Builder que desee compartir. También se pueden descargar y editar libros compartidos. Consulte [Usar la biblioteca de libros de trabajo](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
+**Biblioteca:** Inicia el [!UICONTROL Biblioteca de libros] para poder cargar un libro de Excel de Report Builder que desee compartir. También se pueden descargar y editar libros compartidos. Consulte [Usar la biblioteca de libros de trabajo](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
 **Opciones:** permite especificar si desea que aparezca el valor **[!UICONTROL Con fecha]** (ahora) al actualizar las solicitudes, así como habilitar el registro para solucionar posibles problemas. Consulte [Opciones](/help/analyze/report-builder/options.md).
 

@@ -1,13 +1,13 @@
 ---
-description: Descripción de los campos para el Administrador de tareas programadas.
-title: Administrador de tareas programadas
+description: Obtenga información acerca de las descripciones de los campos del Administrador de tareas programadas.
+title: Acerca del Administrador de tareas programadas
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 95%
+source-wordcount: '774'
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ El propósito de esta pausa es administrar y mantener de forma eficaz nuestra ba
 
 | Campo | Descripción |
 | --- | --- |
-| **[!UICONTROL Pestaña Informes programados]** |  |
+| **[!UICONTROL Pestaña Informes programados]** | |
 | [!UICONTROL Nombre del informe] | Indica el nombre de la tarea programada. |
 | [!UICONTROL Correo electrónico/FTP] | La dirección de correo electrónico o FTP del destinatario. **Nota:** Si el correo electrónico está seleccionado, los informes que tengan un tamaño mayor que 1 MB se adjuntan directamente al correo electrónico como un archivo .zip. Esta función no se puede desactivar y ayuda a que el tamaño de archivo siempre sea reducido. |
 | [!UICONTROL Opciones de publicación] | Esta columna indicará Power BI si una de las [opciones de publicación de Power BI](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/publish-powerbi/power-bi.html?lang=es) está seleccionada. |
@@ -44,10 +44,10 @@ El propósito de esta pausa es administrar y mantener de forma eficaz nuestra ba
 | [!UICONTROL Formato del archivo] | El formato de envío del informe como, por ejemplo, Excel, PDF, HTML, etc. |
 | [!UICONTROL Reactivar] | Cuando un libro programado no puede ejecutarse, Report Builder intenta ejecutarlo dos veces más cada quince minutos. Tras tres intentos fallidos, Report Builder desactiva la programación y muestra el botón Reactivar. Cuando se reactiva un libro, el envío programado se reinicia desde el momento en que se desactivó.<p>Por ejemplo, si un libro programado se desactivó hace 14 días y se ha reactivado hoy, se ejecuta por cada día que falte y se enviará 14 veces. Si no desea que el libro se envíe los días que faltan, puede eliminar el libro programado y posteriormente crear un nuevo libro utilizando los mismos parámetros de programación.<p>**Nota:** No reactive un libro a no ser que se conozcan los motivos por el que el sistema lo desactivó. Para solucionar problemas, descargue un libro desactivado y actualícelo en el lado del cliente. Si no aparecen errores, debería poder reactivarlo. |
 | [!UICONTROL Enviado por última vez] | La fecha y la hora en que se envió el informe por última vez. |
-| **Pestaña de destinatario** |  |
+| **Pestaña de destinatario** | |
 | [!UICONTROL Correo electrónico del destinatario] | El destinatario de correo electrónico del informe. |
 | [!UICONTROL Informes] | Los informes enviados a cada destinatario. |
-| **Pestaña Historial de informes** |  |
+| **Pestaña Historial de informes** | |
 | [!UICONTROL Nombre del archivo] | Indica el nombre de la tarea programada. |
 | [!UICONTROL Fecha] | La fecha y la hora en que se envió el informe por última vez. |
 | [!UICONTROL Estado] | El estado indica si el informe está Enviado o No enviado. |

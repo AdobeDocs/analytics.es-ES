@@ -1,14 +1,14 @@
 ---
-description: Una solicitud dependiente es la que depende de otra solicitud existente.
-title: Agregar solicitudes dependientes
+description: Obtenga información sobre cómo agregar solicitudes dependientes.
+title: Adición de solicitudes dependientes
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 feature: Report Builder
 role: User, Admin
 exl-id: e45eef96-0bd2-4c5a-b1d1-cd41390c08d4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '101'
+ht-degree: 48%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Una solicitud dependiente es la que depende de otra solicitud existente.
 
-En los informes con desgloses de correlación activados en la tabla del informe, se puede examinar más detalladamente un elemento haciendo clic con el botón derecho en la celda y haciendo clic en **[!UICONTROL Añadir solicitud dependiente]** > **[!UICONTROL Desglosar]**.
+En el caso de los informes con los desgloses de correlación habilitados dentro de la tabla de informe, para ver de cerca un elemento, haga clic con el botón secundario en la celda y, a continuación, haga clic en **[!UICONTROL Añadir solicitud dependiente]** > **[!UICONTROL Desglose]**.
 
 >[!NOTE]
 >

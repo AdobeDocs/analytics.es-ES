@@ -1,18 +1,18 @@
 ---
-description: Puede proteger todas las solicitudes en un libro contra las solicitudes para añadir y editar si bloquea el libro. Esto permite la edición de libros sin conexión al pausar todas las solicitudes de informe para una edición más eficiente.
-title: Bloquear/desbloquear libros
+description: Obtenga información sobre cómo proteger todas las solicitudes de un libro contra las solicitudes de adición y edición bloqueando el libro.
+title: Bloquear y desbloquear libros
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 100%
+source-wordcount: '471'
+ht-degree: 77%
 
 ---
 
-# Bloquear/desbloquear libros
+# Bloquear y desbloquear libros
 
 Puede proteger todas las solicitudes en un libro contra las solicitudes para añadir y editar si bloquea el libro. Esto permite la edición de libros sin conexión al pausar todas las solicitudes de informe para una edición más eficiente.
 
@@ -33,20 +33,18 @@ Puede desbloquear un libro bloqueado si cuenta con uno de los siguientes permiso
 
 Cuando un libro está bloqueado contra la edición de solicitudes,
 
-* Los usuarios no pueden crear/añadir solicitudes.
+* Los usuarios no pueden crear ni agregar solicitudes.
 * Los usuarios no pueden editar solicitudes a través del Asistente para solicitudes.
 * Los usuarios no pueden editar solicitudes con las funciones de Editar múltiples solicitudes.
 * Los usuarios no pueden cortar, copiar o pegar solicitudes. Sin embargo, los usuarios aún pueden utilizar el menú contextual de cortar/copiar/pegar nativo de Excel para cortar/copiar/pegar el contenido de las solicitudes.
 * Los usuarios pueden actualizar las solicitudes de forma individual o como parte de un grupo.
 * Si la solicitud utiliza valores de entrada de las celdas (intervalo de fechas, segmento, filtros), los usuarios pueden cambiar estos valores en las celdas y, por tanto, editar de forma indirecta las solicitudes actualizándolas.
 
-Si intenta editar un libro protegido (con el menú contextual o el **[!UICONTROL Administrador de solicitudes]** o **[!UICONTROL Editar múltiples solicitudes]**), puede que se le permita o no hacerlo:
+Si intenta editar un libro protegido a través del menú contextual, o **[!UICONTROL Administrador de solicitudes]**, o **[!UICONTROL Editar varias solicitudes]**, se le puede permitir o no hacerlo:
 
-* Si no tiene los permisos para desbloquear la solicitud, aparecerá este mensaje:
+* Si no tiene permisos para desbloquear una solicitud, verá un mensaje que indica que no tiene derechos para desbloquear y editar el libro.
 
-   ![](assets/locked_workbook_error.png)
-
-* Si dispone de los permisos necesarios, no se mostrará ningún mensaje y podrá editar la solicitud.
+  ![Captura de pantalla que muestra el mensaje de error cuando no tiene permisos para desbloquear una solicitud.](assets/locked_workbook_error.png)
 
 ## Flujo de trabajo {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 

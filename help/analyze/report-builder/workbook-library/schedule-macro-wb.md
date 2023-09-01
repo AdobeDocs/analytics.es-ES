@@ -1,14 +1,14 @@
 ---
-description: Report Builder de Adobe admite el formato .xlsm que le permite programar libros con las macros habilitadas.
-title: Programar libros con las macros habilitadas
+description: Obtenga información acerca de la programación de libros con macros habilitadas.
+title: Acerca de la programación de libros con macros habilitadas
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 feature: Report Builder
 role: User, Admin
 exl-id: 34b8ffc7-646a-4472-a99a-4b8876ea7b16
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 100%
+source-wordcount: '104'
+ht-degree: 77%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Report Builder de Adobe admite el formato .xlsm que le permite programar libros con las macros habilitadas.
 
-Puede ser útil si desea programar, procesar y recibir de forma segura libros con las macros habilitadas.
+Esto resulta útil si necesita programar, procesar y recibir libros con las macros habilitadas de forma segura.
 
 >[!IMPORTANT]
 >

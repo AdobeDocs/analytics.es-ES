@@ -5,10 +5,10 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 Es posible filtrar las dimensiones que se añadan a la cuadrícula Rótulos de fila. Los filtros limitan los datos devueltos por las solicitudes y se pueden aplicar desde los diseños personalizados y de tabla dinámica. Cuando se configura el filtro de dimensiones desde el diseño de tabla dinámica, se puede especificar además el número de entradas de la celda.
 
-El formulario del filtro seleccionado se completa según el elemento y la métrica que estén seleccionados en la solicitud de Report Builder.
+El formulario de filtro seleccionado se rellena en función del elemento y la métrica que estén seleccionados en la solicitud del Report Builder.
 
 ## Definir filtro: valores y caracteres especiales {#section_15840216A4044C40974945FAA435AD93}
 

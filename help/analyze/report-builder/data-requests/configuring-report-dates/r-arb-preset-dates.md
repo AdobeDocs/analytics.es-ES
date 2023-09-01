@@ -5,10 +5,10 @@ uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
 role: User, Admin
 exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ Las fechas preestablecidas permiten seleccionar fechas guardadas o utilizadas co
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Fechas más utilizadas </p> </td> 
-   <td colname="col2"> <p>Muestra los intervalos de fecha utilizados con más frecuencia. Esta opción se activa de forma predeterminada cuando se crea una nueva solicitud. Si hay al menos una solicitud en el libro, Report Builder utiliza la fecha de la solicitud existente como opción predeterminada. </p> </td> 
+   <td colname="col2"> <p>Muestra los intervalos de fecha utilizados con más frecuencia. Esta opción se activa de forma predeterminada cuando se crea una nueva solicitud. Si hay al menos una solicitud en el libro, Report Builder utiliza la fecha de la solicitud existente como configuración predeterminada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Plantillas de fecha guardadas </p> </td> 

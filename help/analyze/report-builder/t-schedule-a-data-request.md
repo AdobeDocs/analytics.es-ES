@@ -1,14 +1,14 @@
 ---
-description: Los informes se pueden programar para enviarlos de acuerdo al formato de archivo y la hora que se definan.
-title: Programar una solicitud de datos
+description: Obtenga información sobre cómo programar informes.
+title: Programación de una solicitud de datos
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 100%
+source-wordcount: '999'
+ht-degree: 96%
 
 ---
 
@@ -34,17 +34,15 @@ Además, después de crear una programación de libro de trabajo en Report Build
 > * **Los problemas en los servicios descendentes** en los que se basa el planificador también pueden afectar al envío de libros de trabajo. Por ejemplo: si utiliza las API de forma independiente para ejecutar libros de trabajo y rellenar la cola de solicitudes de API, los libros programados pueden entregarse más despacio mientras solicita ese recurso.
 > * **La latencia del grupo de informes** (un retraso en la recopilación de datos) también puede retrasar algunos libros de trabajo programados.
 
-
 ## Programar un libro
 
 1. Genere y guarde un libro de trabajo.
 1. En la barra de herramientas de Report Builder, haga clic en **[!UICONTROL Programar]**.
 
    La ficha [!UICONTROL Informes programados] resume todas las tareas que se han creado, así como el número de tareas restantes.
-1. En la ficha **[!UICONTROL Informes programados]**, haga clic en **[!UICONTROL Nuevo]**.
-1. El Asistente de programación básico muestra:
+1. En la ficha **[!UICONTROL Informes programados]**, haga clic en **[!UICONTROL Nuevo]**. El Asistente de programación básico muestra las opciones utilizadas para definir el informe programado.
 
-   ![](assets/simple-schedule-wizard.png)
+   ![Captura de pantalla que muestra el Asistente de programación básico.](assets/simple-schedule-wizard.png)
 
 1. En el [!UICONTROL Asistente de programación básico], configure las siguientes opciones:
 

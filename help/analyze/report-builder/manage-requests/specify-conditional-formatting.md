@@ -1,26 +1,26 @@
 ---
-description: Tras crear informes con solicitudes insertadas, se puede aplicar formato condicional a las celdas del libro.
-title: Especificar un formato condicional
+description: Aprenda a aplicar formato condicional a las celdas del libro.
+title: Acerca del formato condicional para libros
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 feature: Report Builder
 role: User, Admin
 exl-id: 5a5f2415-8269-4c8a-9193-784537b29edf
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '175'
+ht-degree: 36%
 
 ---
 
 # Especificar un formato condicional
 
-Tras crear informes con solicitudes insertadas, se puede aplicar formato condicional a las celdas del libro.
+Después de crear informes con solicitudes incrustadas, puede aplicar formato condicional a las celdas del libro.
 
-En la barra de herramientas de Report Builder, haga clic en **[!UICONTROL Formato]**.
+En la barra de herramientas del Report Builder, haga clic en **[!UICONTROL Formato]**.
 
-El formato condicional permite identificar las celdas que contienen resultados o valores que se desean supervisar. Por ejemplo, se puede aplicar un sombreado rojo (o resaltado) a una celda concreta si el resultado es inferior a las expectativas o un sombreado azul si el resultado sobrepasa las cantidades previstas. Si un cambio en los intervalos de fechas para las solicitudes elimina las condiciones que hacen que el formato condicional se aplique a los valores de celda, los formatos que resaltan la condición se desactivan temporalmente. Aunque los formatos condicionales que se especifiquen no impliquen cambios en la visualización del formato de celda, ya que no se cumplen las condiciones, continúan aplicándose a las celdas hasta que se eliminen.
+El formato condicional permite identificar las celdas que contienen resultados o valores que se desean supervisar. Por ejemplo, puede aplicar sombreado rojo o resaltado a una celda concreta si los ingresos están por debajo de las expectativas, y sombreado azul si los ingresos superan las cantidades previstas. Si un cambio en los intervalos de fechas para las solicitudes elimina las condiciones que hacen que el formato condicional se aplique a los valores de celda, los formatos que resaltan la condición se desactivan temporalmente. Cuando los formatos condicionales especificados no dan lugar a ningún cambio porque no se cumplen las condiciones, los formatos condicionales se seguirán aplicando a las celdas hasta que se eliminen.
 
-Por motivos de seguridad, se deshabilitan las macros que se escriben para el libro utilizando el lenguaje Visual Basic para Aplicaciones (VBA) de Excel.
+Por motivos de seguridad, las macros se deshabilitan si se escriben las macros de los libros utilizando el lenguaje Visual Basic para Aplicaciones (VBA) de Excel.
 
 >[!NOTE]
 >

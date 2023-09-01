@@ -1,14 +1,14 @@
 ---
-description: Es posible modificar varias solicitudes al mismo tiempo en función del grupo de informes de la solicitud, la granularidad y el intervalo de fechas.
-title: Editar varias solicitudes
+description: Aprenda a cambiar varias solicitudes al mismo tiempo.
+title: Cómo editar varias solicitudes
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '312'
+ht-degree: 90%
 
 ---
 
@@ -35,11 +35,11 @@ Puede cambiar varias solicitudes al mismo tiempo, en función del grupo de infor
    * **Por segmento:** agrupa las solicitudes según el nombre del segmento.
 
       * **Elegir segmento**: muestra si Para agregar segmentos, haga clic en **[!UICONTROL Editar grupo]** y seleccione un segmento del panel [!UICONTROL Editar grupo].
+
    * **Por métrica:** Consulte [Editar métricas en varias solicitudes](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
    * **Por intervalo de fechas y granularidad:** agrupa la visualización de solicitudes por intervalo de fechas y la granularidad de la hora.
    * **Por grupo:** agrupa la visualización de solicitudes por grupos de solicitudes agrupadas.
-
 
 1. En el formulario [!UICONTROL Editar varias solicitudes], haga clic en **[!UICONTROL Aceptar]**.
 

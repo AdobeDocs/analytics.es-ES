@@ -1,20 +1,20 @@
 ---
-description: Los desgloses de clasificación se utilizan para asignar datos de informes de análisis a propiedades relacionadas. Las clasificaciones pueden utilizarse para distintos fines, pero el más común es la clasificación de los códigos de seguimiento de campaña (tanto internos como externos) y los ID de productos.
-title: Clasificación de
+description: Descubra cómo se utilizan las clasificaciones.
+title: Clasificaciones de datos
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
 role: User, Admin
 exl-id: ca083152-d589-4896-8cd0-9f8e1cee2116
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '149'
+ht-degree: 76%
 
 ---
 
 # Clasificaciones
 
-Los desgloses de clasificación se utilizan para asignar datos de informes de análisis a propiedades relacionadas. Las clasificaciones pueden utilizarse para distintos fines, pero el más común es la clasificación de los códigos de seguimiento de campaña (tanto internos como externos) y los ID de productos.
+Los desgloses de clasificación se utilizan para asignar datos de informes de análisis a propiedades relacionadas. Las clasificaciones se pueden utilizar para varios fines, pero se utilizan principalmente para clasificar códigos de seguimiento de campaña, tanto internos como externos, e ID de productos.
 
 Por ejemplo, un informe de [!UICONTROL campaña] puede tener una clasificación de [!UICONTROL administrador] o de [!UICONTROL salida]. Estas clasificaciones se pueden ordenar siguiendo una jerarquía determinada y cada grupo de valores del informe se puede desglosar en subgrupos.
 

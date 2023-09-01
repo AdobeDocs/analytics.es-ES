@@ -4,10 +4,10 @@ title: Administración de segmentos (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -47,7 +47,7 @@ Es posible que tenga combinaciones específicas de dimensiones de informe que de
 
 1. Se iniciará la interfaz de usuario del creador de segmentos en Internet Explorer. La interfaz de usuario del creador de segmentos se iniciará con el contenedor y el filtro que haya especificado.
 1. Añada un nombre y una descripción al segmento y, a continuación, guárdelo.
-1. Vuelva a Report Builder y haga clic en el icono Actualizar para actualizar la lista de segmentos.
+1. Vuelva al Report Builder y haga clic en el botón Actualizar para actualizar la lista de segmentos.
 1. Ahora está listo para aplicar este segmento.
 
 ## Buscar y aplicar segmentos {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
@@ -76,7 +76,7 @@ Los filtros disponibles incluyen:
 |---|---|
 | Etiquetas | Le permite filtrar segmentos con determinadas etiquetas. Tenga en cuenta que los filtros de etiqueta utilizan el operador AND. Si marca dos etiquetas, el panel derecho muestra los segmentos etiquetados con **ambas** etiquetas. |
 | Propietarios | Le permite filtrar segmentos por propietario. Tenga en cuenta que los filtros de Propietario utilizan el operador OR. Si marca dos propietarios, el panel de la derecha muestra los segmentos que son propiedad de **uno** de los propietarios. |
-| Otros filtros > Solo el *nombre del grupo de informes* | Si aplica el filtro “Solo el *nombre del grupo de informes*” en el Creador de segmentos, en [!DNL marketing reports & analytics] y, a continuación, muestra el Filtro avanzado en [!DNL report builder], el Filtro avanzado solo mostrará las métricas calculadas correspondientes al informe seleccionado. |
+| Otros filtros > Solo el *nombre del grupo de informes* | Si aplica el filtro “Solo el *nombre del grupo de informes*” en el Creador de segmentos, en [!DNL marketing reports & analytics] y, a continuación, muestra el Filtro avanzado en [!DNL Report Builder], el Filtro avanzado solo mostrará las métricas calculadas correspondientes al informe seleccionado. |
 | Otros filtros > Míos | Muestra todos los segmentos de su propiedad. |
 | Otros filtros > Compartidos conmigo | Muestra todos los segmentos que se han compartido con usted. |
 | Otros filtros > Favoritos | Muestra todos los segmentos que ha marcado como Favoritos. |

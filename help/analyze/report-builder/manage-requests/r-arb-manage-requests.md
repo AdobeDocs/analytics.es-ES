@@ -1,30 +1,30 @@
 ---
-description: Descripción de los campos para administrar solicitudes en Report Builder.
-title: 'Administrar solicitudes: definiciones'
+description: Obtenga información sobre las descripciones de los campos para administrar solicitudes en Report Builder.
+title: Administración de solicitudes en Report Builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 78%
 
 ---
 
 # Administrar solicitudes: definiciones
 
-Descripción de los campos para administrar solicitudes en Report Builder.
+Vea los detalles del estado de una solicitud y utilice las descripciones de los campos para administrar solicitudes en Report Builder.
 
 ## Información general {#section_75C288C945FA4781A4EDF806711A5660}
 
-El [!UICONTROL Administrador de solicitudes] proporciona una vista detallada del estado de todas las solicitudes creadas para una o todas las hojas del libro activo. También se pueden añadir, editar, actualizar y eliminar solicitudes (funciones asociadas generalmente al [!UICONTROL Asistente para solicitudes] y el [!UICONTROL Administrador de solicitudes]), haciendo clic con el botón derecho en una celda disponible de la hoja de cálculo de Excel que contenga solicitudes anteriores.
+El [!UICONTROL Administrador de solicitudes] proporciona una vista detallada del estado de todas las solicitudes generadas para todas las hojas o solo una hoja del libro activo. También puede agregar, editar, actualizar y eliminar una solicitud. Estas funciones suelen estar asociadas con la variable [!UICONTROL Asistente para solicitudes] y [!UICONTROL Administrador de solicitudes] al hacer clic con el botón derecho en una celda disponible en la hoja de cálculo de Excel que contiene solicitudes anteriores.
 
-El [!UICONTROL Administrador de solicitudes] se muestra al hacer clic en **[!UICONTROL Administrar]** ![](assets/edit_request.gif) en la barra de herramientas de Report Builder.
+El [!UICONTROL Administrador de solicitudes] se muestra al hacer clic en **[!UICONTROL Administrar]**  ![](assets/edit_request.gif) en la barra de herramientas del Report Builder.
 
 >[!NOTE]
 >
->Adobe Report Builder exige dependencias de solicitud únicamente en la misma hoja de cálculo, no entre hojas de cálculo. La restricción a las dependencias dentro de una única hoja de cálculo asegura la puntualidad de ejecución.
+>Adobe Report Builder exige dependencias de solicitud únicamente en la misma hoja de cálculo, no entre hojas de cálculo. La restricción a las dependencias dentro de una sola hoja de cálculo garantiza la puntualidad de ejecución.
 
 ## Definiciones {#section_FD29D8614DE74F32A0027FA130F40304}
 

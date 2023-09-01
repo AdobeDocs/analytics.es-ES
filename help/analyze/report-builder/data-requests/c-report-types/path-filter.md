@@ -4,10 +4,10 @@ title: Filtrado de un informe de rutas mediante el Asistente para solicitudes
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 67%
+ht-degree: 62%
 
 ---
 
