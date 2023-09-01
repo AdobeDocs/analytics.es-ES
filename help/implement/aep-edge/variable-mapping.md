@@ -3,10 +3,10 @@ title: Asignación de variables de Analytics en Adobe Experience Edge
 description: Vea qué campos XDM de Edge se asignan automáticamente a variables de Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: b6a92b8ca79422d2ba857cd98c172a824658a7a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1506'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | `commerce.checkouts.value` | Aumenta el valor de la métrica [Cierres de compra](../../components/metrics/checkouts.md) por la cantidad deseada. |
 | `commerce.order.currencyCode` | Establece la variable de configuración [currencyCode](../vars/config-vars/currencycode.md). |
 | `commerce.order.purchaseID` | Establece la variable de página [purchaseID](../vars/page-vars/purchaseid.md). |
-| `commerce.order.transactionID` | Establece la variable de página [transactionID](../vars/page-vars/transactionid.md). |
+| `commerce.order.payments[0].transactionID` | Establece la variable de página [transactionID](../vars/page-vars/transactionid.md). |
 | `commerce.productListAdds.id` | Aplica [Serialización de eventos](../vars/page-vars/events/event-serialization.md) a la métrica [Adiciones al carro de compras](../../components/metrics/cart-additions.md). |
 | `commerce.productListAdds.value` | Aumenta la métrica [Adiciones al carro de compras](../../components/metrics/cart-additions.md). |
 | `commerce.productListOpens.id` | Aplica [serialización de eventos](../vars/page-vars/events/event-serialization.md) a la métrica [Carros de compras](../../components/metrics/carts.md). |
