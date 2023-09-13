@@ -2,10 +2,10 @@
 description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración general de solicitudes de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: ea4c1ae21f2c83bad92723e6ffd2e706fac5e1e8
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 27%
+source-wordcount: '354'
+ht-degree: 26%
 
 ---
 
@@ -38,7 +38,7 @@ Para definir la configuración general de una solicitud de Data Warehouse:
    | Opción | Función |
    |---------|----------|
    | Nombre de la solicitud | Este nombre aparece en la página de Data Warehouse principal al administrar solicitudes. |
-   | Intervalos de fechas | Seleccione el intervalo de fechas que se incluirá en el informe. <p>Puede elegir fechas personalizadas o un intervalo de fechas preestablecido. Los intervalos preestablecidos son relativos a la fecha en la que se envía el informe.</p><p>Estas son las opciones preestablecidas disponibles:</p><ul><li>Hoy</li><li>Ayer</li><li>Últimos 7 días</li><li>Últimos 30 días</li><li>Esta semana</li><li>Última semana</li><li>Últimas 2 semanas</li><li>Últimas 3 semanas</li><li>Últimas 4 semanas</li><li>Este mes</li><li>Mes pasado</li><li>Última hora</li><li>Hoy</li><li>Hoy</li></ul> |
+   | Intervalos de fechas | Seleccione el intervalo de fechas que se incluirá en el informe. <p>Puede elegir fechas personalizadas o un intervalo de fechas preestablecido. Los intervalos preestablecidos son relativos a la fecha en la que se envía el informe.</p><p>Estas son las opciones preestablecidas disponibles:</p><ul><li>Hoy</li><li>Ayer</li><li>Últimos 7 días</li><li>Últimos 30 días</li><li>Esta semana</li><li>Última semana</li><li>Últimas 2 semanas</li><li>Últimas 3 semanas</li><li>Últimas 4 semanas</li><li>Este mes</li><li>Mes pasado</li><li>Última hora</li></ul> |
    | Granularidad | <!--what does this setting do? It's not the schedule/frequency... --> La granularidad de tiempo. Los valores válidos son Ninguno, Hora, Día, Semana, Mes, Trimestre y Año.<p>Registrar la granularidad requiere tiempos de procesamiento más prolongados. Si se desea registrar la granularidad mensual de todo un año, los informes se procesarán mucho más rápido si se envía una solicitud de informe cada mes.</p> |
 
    {style="table-layout:auto"}
