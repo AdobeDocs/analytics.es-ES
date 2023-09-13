@@ -2,16 +2,22 @@
 description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración general de solicitudes de Data Warehouse
 feature: Data Warehouse
-source-git-commit: c63e5d5f1065aabdbbd5471d6a2e702f9f099396
+source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '356'
 ht-degree: 27%
 
 ---
 
 # Configuración general de solicitudes de Data Warehouse
 
-{{release-limited-testing}}
+>[!AVAILABILITY]
+>
+>Algunas de las funciones de Data Warehouse descritas en este artículo (y otros artículos de Data Warehouse en esta sección) están disponibles solamente en la fase de Prueba limitada de la versión y es posible que aún no estén disponibles en su entorno.
+>
+>Para obtener información sobre las funciones que aún no están disponibles para todos los clientes, así como sobre la cronología de lanzamiento de estas funciones, consulte la [notas de la versión](/help/release-notes/latest.md).
+>
+>Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Analytics, consulte [Lanzamientos de funciones de Adobe Analytics](/help/release-notes/releases.md).
 
 Hay varias opciones de configuración disponibles al crear una solicitud de Data Warehouse. La siguiente información describe cómo configurar las opciones generales de la solicitud.
 
