@@ -3,10 +3,10 @@ title: Notas de la versión de Adobe Analytics actual
 description: Vea las notas de la versión actuales de Adobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 81f30a16fce33350aaf02fd8c6cf5011489c8250
+source-git-commit: bd73793e865ce73affc5536b2e95aae143f99a04
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 69%
+source-wordcount: '800'
+ht-degree: 68%
 
 ---
 
@@ -20,7 +20,7 @@ Las notas de la versión de septiembre abarcan el período de lanzamiento del 13
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Conjuntos de clasificación en la API 2.0** | Proporciona métodos de la API de Adobe Analytics 2.0 para guardar, eliminar, recuperar, importar y exportar datos del conjunto de clasificación. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | N/A | 13 de septiembre de 2023 |
+| **Clasificación en la API 2.0** | Proporciona métodos de la API de Adobe Analytics 2.0 para guardar, eliminar, recuperar, importar y exportar datos del conjunto de clasificación. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | N/A | 13 de septiembre de 2023 |
 | **Compatibilidad con nuevos `correlationID` Campo para clasificaciones de A4T** | El `_experience.decisioning.propositions.scopeDetails.correlationID` El campo ahora está disponible en el esquema del conector de origen de Adobe Analytics. Estamos agregando este ID para facilitar la combinación de los datos de clasificación para las actividades y los eventos de experiencia de Adobe Target. | N/A | 13 de septiembre de 2023 |
 | **Mejoras del Data Warehouse** | Al crear una solicitud de Data Warehouse, ahora puede configurar una cuenta de la nube para usarla como destino del informe. Los siguientes tipos de cuenta de nube están disponibles para enviar datos:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Correo electrónico (esta opción estaba disponible anteriormente)</li></ul>FTP, SFTP, Azure Blob y S3 siguen estando disponibles como destinos de informe, pero ya no se recomiendan.<p>También se ha mejorado la experiencia del usuario al crear y administrar solicitudes de Data Warehouse. Para obtener más información, consulte [Creación de una solicitud de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/create-request/t-dw-create-request.html) y [Administrar solicitudes de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=es). | 13 de septiembre de 2023 | 4 de octubre de 2023 |
 
