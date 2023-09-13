@@ -2,10 +2,10 @@
 description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración de las opciones de informes de una solicitud de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 18%
+source-wordcount: '493'
+ht-degree: 19%
 
 ---
 
@@ -37,17 +37,17 @@ Para configurar las opciones de informe de una solicitud de Data Warehouse:
 
    | Opción | Función |
    |---------|----------|
-   | Nombre del archivo | Identifica el informe. |
-   | Anexar intervalo de fechas del informe al nombre del archivo | Agrega el intervalo de fechas al nombre del archivo de informe. <p>Por ejemplo, si solicita datos del 1 al 7 de mayo de 2024, el nombre de archivo incluye el intervalo de fechas 20240501 - 20240507.</p> |
-   | CSV | Ofrece informes en formato de archivo CSV para ver los datos en una hoja de cálculo. |
-   | Tableau (TDE) | Presenta informes en formato de archivo Tableau Data Extract (TDE), que se puede utilizar para visualizar datos y capas en datos adicionales dentro de Tableau. |
-   | Enviar informe como archivo comprimido (ZIP) | Presenta informes en un formato de archivo comprimido (ZIP). Se recomienda habilitar esta opción al utilizar el correo electrónico como [destino del informe](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
-   | Número de filas de la tabla | El número de filas que se pueden incluir en el informe. Utilice 0 para incluir todas las filas (esta es la selección predeterminada). <!-- when would you want to limit the rows? To improve performance? Do we have recommendations? --> |
-   | Comentarios | Agregue los comentarios que desee incluir en el informe. Los comentarios aparecen al principio del informe. |
-   | Ordenar por métricas | Proporciona informes de desgloses clasificados en Data Warehouse, ordenados por el valor de métrica descendente. La ordenación por métrica permite interpretar más fácilmente los informes de Data Warehouse, así como compararlos más fácilmente con otras vistas de informes de desgloses de Analytics.<p>Para obtener más información, consulte [Ordenar por métrica](/help/export/data-warehouse/sorting-by-metric.md).</p> |
-   | Enviar archivo de manifiesto | Incluye metadatos sobre los archivos incluidos en el informe.<!-- What kind of metadata is included in the manifest file? --> |
-   | Enviar archivo de firma digital | Permite a los destinatarios del informe comprobar que el archivo proviene del Adobe y que no se ha alterado. |
-   | Enviar un archivo vacío cuando no haya datos en el informe | Envía un informe incluso cuando el informe no contiene datos. |
+   | [!UICONTROL **Nombre del archivo**] | Identifica el informe. |
+   | [!UICONTROL **Anexar intervalo de fechas del informe al nombre del archivo**] | Agrega el intervalo de fechas al nombre del archivo de informe. <p>Por ejemplo, si solicita datos del 1 al 7 de mayo de 2024, el nombre de archivo incluye el intervalo de fechas 20240501 - 20240507.</p> |
+   | [!UICONTROL **CSV**] | Ofrece informes en formato de archivo CSV para ver los datos en una hoja de cálculo. |
+   | [!UICONTROL **Tableau (TDE)**] | Presenta informes en formato de archivo Tableau Data Extract (TDE), que se puede utilizar para visualizar datos y capas en datos adicionales dentro de Tableau. |
+   | [!UICONTROL **Enviar informe como archivo comprimido (ZIP)**] | Presenta informes en un formato de archivo comprimido (ZIP). Se recomienda habilitar esta opción al utilizar el correo electrónico como [destino del informe](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **Devolver todas las filas**] | Cuando se habilita, todas las filas se incluyen en el informe. Desactive esta opción para especificar el número de filas que desea incluir. |
+   | [!UICONTROL **Comentarios al principio del informe**] | Agregue los comentarios que desee incluir en el informe. Los comentarios aparecen al principio del informe. |
+   | [!UICONTROL **Ordenar por métricas**] | Proporciona informes de desgloses clasificados en Data Warehouse, ordenados por el valor de métrica descendente. La ordenación por métrica permite interpretar más fácilmente los informes de Data Warehouse, así como compararlos más fácilmente con otras vistas de informes de desgloses de Analytics.<p>Para obtener más información, consulte [Ordenar por métrica](/help/export/data-warehouse/sorting-by-metric.md).</p> |
+   | [!UICONTROL **Enviar un archivo de manifiesto**] | Incluye metadatos sobre los archivos incluidos en el informe.<!-- What kind of metadata is included in the manifest file? --> |
+   | [!UICONTROL **Enviar un archivo de firma digital**] | Permite a los destinatarios del informe comprobar que el archivo proviene del Adobe y que no se ha alterado. |
+   | [!UICONTROL **Enviar un archivo vacío cuando no haya datos en el informe**] | Envía un informe incluso cuando el informe no contiene datos. |
 
    {style="table-layout:auto"}
 

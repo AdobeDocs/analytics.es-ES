@@ -2,7 +2,7 @@
 description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración de las opciones de informes de una solicitud de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 15%
@@ -37,8 +37,8 @@ Para configurar un mensaje de correo electrónico de notificación para una soli
 
    | Opción | Función |
    |---------|----------|
-   | Enviar notificación por correo electrónico a | Especifique las direcciones de correo electrónico de las personas que deben recibir notificaciones por correo electrónico cuando se envíe el informe. <p>Puede especificar una sola dirección de correo electrónico o una lista de direcciones de correo electrónico separadas por coma.</p> |
-   | Opciones avanzadas | Seleccione esta opción para incluir un asunto y notas para el correo electrónico cuando se envíe la notificación. |
+   | [!UICONTROL **Enviar notificación por correo electrónico a**] | Especifique las direcciones de correo electrónico de las personas que deben recibir notificaciones por correo electrónico cuando se envíe el informe. <p>Puede especificar una sola dirección de correo electrónico o una lista de direcciones de correo electrónico separadas por coma.</p> |
+   | [!UICONTROL **Opciones avanzadas**] | Seleccione esta opción para incluir un asunto y notas para el correo electrónico cuando se envíe la notificación. |
 
    {style="table-layout:auto"}
 
