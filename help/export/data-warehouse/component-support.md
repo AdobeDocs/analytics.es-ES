@@ -3,7 +3,7 @@ title: Compatibilidad con componentes en Data Warehouse
 description: Descubra qué dimensiones y métricas adicionales están disponibles en Data Warehouse y qué otras no se admiten.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 65%
@@ -78,3 +78,4 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
    * Recargas
    * Acceso único
    * Métricas de “tiempo empleado”
+
