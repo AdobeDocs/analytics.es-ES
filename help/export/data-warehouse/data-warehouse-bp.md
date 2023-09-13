@@ -5,7 +5,7 @@ title: Prácticas recomendadas de Data Warehouse
 feature: Data Warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
 exl-id: 7e21534b-a7ec-4231-89f1-0ad5013e70cf
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: 2ed0627efe50c000c9fe440fccafd12739b09554
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 89%
@@ -24,3 +24,4 @@ La interfaz de Data Warehouse resulta muy flexible para ejecutar informes person
 | Informes sobre intervalos de fecha completados | Los informes de Data Warehouse se generan cuando se completa el intervalo de fecha. Por ejemplo, si se solicita un informe sobre esta semana en miércoles, el informe no se generará hasta el domingo siguiente. |
 | Generar informes de rutas en el Data Warehouse | Las métricas de rutas (entradas, salidas, devoluciones, etc.) no están disponibles en el Data Warehouse. |
 | Grupos de informes virtuales | Los informes del Data Warehouse en los grupos de informes virtuales permiten que haya configurada una zona horaria alternativa en el grupo de informes virtuales. |
+
