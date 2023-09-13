@@ -3,10 +3,10 @@ description: Requisitos del sistema y comparación de Analysis Workspace, Report
 title: Comparación de productos y requisitos de Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 71ebabf7efca70c0cbd2489dc538f7f10cae16cb
+source-git-commit: 0579715d33db28f1741eed2b1aa1520d3beb757b
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 97%
+source-wordcount: '426'
+ht-degree: 95%
 
 ---
 
@@ -37,5 +37,5 @@ Para obtener información sobre qué producto de Adobe Analytics utilizar, consu
 | **Revisión** <br> [Más información](/help/analyze/analysis-workspace/curate-share/curate.md) | Sí: Proyecto y VRS | No | No | No | No | No | Sí - Solo VRS |
 | **Uso compartido de proyectos** <br> [Más información](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Sí, con funciones de proyecto | Sí | Sí | No | Sí | No | No |
 | **Envío programado** | Sí | Sí | Sí | Sí | No | Sí | No |
-| **Destinos de envío** | Correo electrónico | Correo electrónico | Correo electrónico, FTP, SFTP, [publicación en Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Correo electrónico, FTP. Póngase en contacto con el Servicio de atención al cliente para obtener soporte de destino adicional, incluidos SFTP, Azure Blob y Amazon S3 | - | Amazon S3, Azure RBAC, Azure SAS y Google Cloud Platform | - |
+| **Destinos de envío** | Correo electrónico | Correo electrónico | Correo electrónico, FTP, SFTP, [publicación en Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC y correo electrónico | - | Amazon S3, Azure RBAC, Azure SAS y Google Cloud Platform | - |
 | **Procesamiento de tiempo de informes VRS** <br> [Más información](/help/components/vrs/vrs-report-time-processing.md) | Sí | No | No | No | No | No | Sí |

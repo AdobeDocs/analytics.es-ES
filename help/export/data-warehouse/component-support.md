@@ -3,32 +3,32 @@ title: Compatibilidad con componentes en Data Warehouse
 description: Descubra qué dimensiones y métricas adicionales están disponibles en Data Warehouse y qué otras no se admiten.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 65%
 
 ---
 
 # Compatibilidad con componentes en Data Warehouse
 
-La arquitectura de procesamiento única de Data Warehouse admite algunos componentes que no suelen estar disponibles en otras funciones de Adobe Analytics. Debido a su arquitectura única, algunos componentes no están disponibles para su uso en informes o segmentos. Utilice esta página para comprender qué se puede usar y qué no.
+El procesamiento único en la arquitectura de Data Warehouse permite algunos componentes que no suelen estar disponibles en otras funciones de Adobe Analytics. Debido a su arquitectura única, algunos componentes no están disponibles para su uso en informes o segmentos. Utilice esta página para comprender qué se puede usar y qué no.
 
 ## Componentes únicos de Data Warehouse
 
-Algunas dimensiones y métricas se pueden usar en Data Warehouse, mientras que otras no están disponibles en Adobe Analytics.
+Algunas dimensiones y métricas que se pueden usar en Data Warehouse no están disponibles cuando se usan otras funcionalidades en Adobe Analytics.
 
 ### Dimensiones admitidas exclusivamente
 
-* Experience Cloud ID: Para implementaciones que utilizan el servicio Experience Cloud ID (ECID), un número de 128 bits que consta de dos números concatenados de 64 bits seguidos de 19 dígitos.
-* Dirección URL de la página: Dirección URL de la página en la que se produjo la visita.
-* ID de compra: Identificador único de una compra, establecido mediante la variable purchaseID.
-* ID del visitante: Proporciona el identificador único del visitante. Este valor es el mismo que el valor concatenado de las columnas `visid_high` y `visid_low` de las fuentes de datos. Consulte [Referencia de la columna de datos](../analytics-data-feed/c-df-contents/datafeeds-reference.md) en Fuentes de datos para obtener más información.
+* **ID de Experience Cloud**: Para implementaciones que utilizan el servicio de ID de Experience Cloud (ECID), un número de 128 bits que consta de dos números concatenados de 64 bits seguidos de 19 dígitos.
+* **URL de página**: Dirección URL de la página en la que se produjo la visita.
+* **ID de compra**: Identificador único de una compra, establecido mediante la variable purchaseID.
+* **ID de visitante**: Proporciona el identificador único del visitante. Este valor es el mismo que el valor concatenado de las columnas `visid_high` y `visid_low` de las fuentes de datos. Consulte [Referencia de la columna de datos](../analytics-data-feed/c-df-contents/datafeeds-reference.md) en Fuentes de datos para obtener más información.
 
 ### Métricas admitidas de forma exclusiva
 
-* Visitas: Esta métrica en el contexto de Data Warehouse excluye las visitas de cookies no persistentes.
-* Visitas: Todos los visitantes: Esta métrica en el contexto de Data Warehouse se parece más a la métrica de visitas en otras herramientas de Adobe Analytics.
+* **Visitas**: Esta métrica en el contexto de la Data Warehouse excluye las visitas de cookies no persistentes.
+* **Visitas - Todos los visitantes**: Esta métrica en el contexto de la Data Warehouse se parece más a la métrica de visitas en otras herramientas de Adobe Analytics.
 
 ## Componentes no admitidos en Data Warehouse
 
