@@ -78,7 +78,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -90,7 +90,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -106,7 +106,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -120,7 +120,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Correo electrónico
 
@@ -147,7 +147,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -160,7 +160,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -173,7 +173,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -187,7 +187,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
    1. Seleccione [!UICONTROL **Guardar**].
 
