@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ebec057aea182a7c036c105c44d163155809bfd9
+source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
 workflow-type: tm+mt
-source-wordcount: '5089'
-ht-degree: 97%
+source-wordcount: '5136'
+ht-degree: 96%
 
 ---
 
@@ -26,12 +26,13 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Septiembre de 2023** | |
+| Estructura actualizada de los artículos del panel Tiempo invertido en la reproducción de medios | Se ha eliminado la carpeta denominada Tiempo invertido en la reproducción de contenido y se ha combinado el contenido de la carpeta en un solo artículo: [Panel Tiempo invertido en la reproducción de medios](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Este cambio está más en línea con la documentación de otros paneles.</p> |
 | Introducción a las mejoras de contenido | Se ha añadido información en la que se describen las tareas y recursos clave de introducción para administradores, analistas, usuarios finales y desarrolladores. Ya están disponibles los siguientes artículos nuevos: <ul><li>[Introducción (por función)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Explicación de la interfaz de Analytics](/help/analyze/get-started/analytics-interface.md)<li>[Casos de uso](/help/analyze/get-started/use-cases.md)</li></ul> |
 | Mejoras en la documentación de informes de Media Analytics | Se ha reorganizado parte del contenido de la sección Informes de la guía de medios de streaming, incluida la consolidación de la documentación de la API en su propia sección y el ajuste del orden de algunos artículos. <p>Se ha cambiado el nombre del artículo Plantillas de Workspace de medios a [Informes de medios en Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=es) para alinearse mejor con la nomenclatura en el producto. </p> |
 | **Agosto de 2023** | |
 | Aclaración de fuente de datos | Actualizado [la definición de las fechas de inicio y finalización](/help/export/analytics-data-feed/create-feed.md) para aclarar que, al procesar fuentes de datos para datos históricos, puede establecer la fecha de inicio en cualquier fecha en el pasado en que se recopilen datos. |
 | Administración de datos de Experience Edge | Contenido añadido sobre Adobe Analytics [administra datos de Experience Edge](../implement/aep-edge/overview.md). |
-| Panel Tiempo invertido en la reproducción de medios | Contenido actualizado del [Panel Tiempo invertido en la reproducción de medios](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) para mejorar la legibilidad. |
+| Panel Tiempo invertido en la reproducción de medios | Contenido actualizado del [Panel Tiempo invertido en la reproducción de medios](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) para mejorar la legibilidad. |
 | Se ha movido contenido sobre la gestión de proyectos programados | Se ha creado un nuevo artículo en la Guía de componentes de Analytics llamado [Proyectos programados](/help/components/scheduled-projects-manager.md). Este contenido se encontraba anteriormente en el artículo [Programación de proyectos](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) en la Guía de herramientas de Analytics. |
 | Comparación de los métodos de implementación | Documentación actualizada que compara diferentes métodos de implementación. [Más información](../implement/prepare/comparison.md) |
 | Se ha precisado que la configuración de SFTP para fuentes de datos no requiere el Servicio de atención al cliente de Adobe | Se ha precisado en [Envío de datos de Adobe a una cuenta de FTP externa con SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) que los clientes no necesitan contactar con el Servicio de atención al cliente de Adobe para configurar SFTP para fuentes de datos. <p>También se ha añadido una nota indicando que ya no se recomienda el uso de SFTP y que los clientes deben utilizar un destino en la nube cuando configuren fuentes de datos.</p> |

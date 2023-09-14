@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y Activity Map.
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1105'
 ht-degree: 99%
 
 ---
@@ -116,11 +116,8 @@ ht-degree: 99%
       + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
       + [Panel de forma libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Panel de audiencia media por minuto de medios](analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [Panel de visualizadores simultáneos de medios](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + Tiempo invertido en la reproducción de medios {#media-playback-timespent}
-         + [Información general](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
-         + [Configuración de entrada y salida](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
-         + [Preguntas frecuentes](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [Panel Visualizadores simultáneos de medios](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Panel Tiempo invertido en la reproducción de contenido](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Panel de elemento siguiente o anterior](analysis-workspace/c-panels/next-previous.md)
       + [Panel Resumen de página](analysis-workspace/c-panels/page-summary.md)
       + [Panel de información rápida](analysis-workspace/c-panels/quickinsight.md)
