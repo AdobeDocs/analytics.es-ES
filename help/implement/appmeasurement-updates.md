@@ -3,10 +3,10 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
+source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 96%
+source-wordcount: '2414'
+ht-degree: 95%
 
 ---
 
@@ -17,6 +17,13 @@ Recopilación de notas de versiones de AppMeasurement para JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Puede descargar la versión más reciente de AppMeasurement en [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## Versión 2.25.0
+
+Fecha de versión: **12 de septiembre de 2023**
+
+* Se ha añadido una configuración opcional (`bufferRequests`) para mejorar la fiabilidad de la captura de solicitudes en situaciones en las que un explorador puede no admitir la API de señalización correctamente o puede cancelar solicitudes cuando se descarga una página.
+* Se han agregado salvaguardas para evitar múltiples llamadas de retorno posteriores al seguimiento para una única solicitud de seguimiento.
 
 ## Versión 2.24.0
 
