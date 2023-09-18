@@ -4,7 +4,7 @@ description: Cómo utilizar e interpretar el panel Tiempo invertido en la reprod
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
+source-git-commit: 95f28d537e6e7538133ebd04d185ebcfd28a13d4
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 80%
@@ -32,13 +32,10 @@ A continuación se muestra un vídeo introductorio de este panel:
 ## Uso del panel Tiempo invertido en la reproducción de medios
 
 1. Vaya a un grupo de informes con los componentes de Media Analytics habilitados.
-
 1. Seleccione el icono del panel en el extremo izquierdo y, a continuación, arrastre el panel a su proyecto de Analysis Workspace.
-
 1. Continúe con las secciones siguientes para personalizar el panel Tiempo invertido en la reproducción de medios
 
    * [Entradas de panel](#panel-inputs)
-
    * [Salida de panel](#panel-output)
 
 ## Entradas de panel {#Input}
