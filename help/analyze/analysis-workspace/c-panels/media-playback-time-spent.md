@@ -4,7 +4,7 @@ description: Cómo utilizar e interpretar el panel Tiempo invertido en la reprod
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 23f34a5588abc125427346ead3f49a25d178aa7f
+source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 80%
@@ -76,7 +76,7 @@ La única métrica que se puede usar en este panel es Tiempo invertido en la rep
 |---|---|
 | Tiempo invertido en la reproducción | Total de horas:minutes:segundos (o minutos) de contenido visualizado durante la granularidad seleccionada, incluyendo pausas, búfer y tiempo para el inicio. |
 
-### Preguntas frecuentes
+## Preguntas frecuentes
 
 | Pregunta | Respuesta |
 |---|---|
