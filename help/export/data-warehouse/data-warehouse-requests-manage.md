@@ -4,9 +4,9 @@ title: Administrar solicitudes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 8507ce3f7e4d09956ad88c2be5335b68c8e3b8a0
+source-git-commit: 1f6dc980c7ec4646b8b58be06563f553c0010245
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '781'
 ht-degree: 18%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->Si su organización aún no tiene la nueva experiencia de Data Warehouse, que estará disponible próximamente para todos los clientes, utilice la información de [Administrar solicitudes de Data Warehouse (experiencia antigua)](#manage-data-warehouse-requests-old-experience)
+>Si su organización aún no tiene la nueva experiencia de Data Warehouse, que estará disponible próximamente para todos los clientes, utilice la información de [Administrar solicitudes de Data Warehouse (experiencia antigua)](#manage-data-warehouse-requests-old-experience) al final de esta página.
 
 
 Puede administrar las solicitudes de Data Warehouse que haya realizado. Las secciones siguientes describen las actividades que puede realizar al administrar solicitudes. <!-- just those you have made? I think you can see other people's requests (you can filter by them). What can you do with other people's requests? Just view them?-->
