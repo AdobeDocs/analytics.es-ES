@@ -1,20 +1,20 @@
 ---
 title: decodeLinkParameters
-description: Habilite o deshabilite las variables de seguimiento de vínculos de codificación doble de AppMeasurement.
+description: Habilite o deshabilite las variables de seguimiento de vínculos de doble codificación de AppMeasurement.
 exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
 feature: Variables
-source-git-commit: e666a2efae01bad3cc3ccc5c8bfafe009a429588
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '303'
 ht-degree: 7%
 
 ---
 
 # decodeLinkParameters
 
-El `decodeLinkParameters` es un booleano que determina si las variables de seguimiento de vínculos se codifican una vez (si se establece en ) `true`) o dos veces (si se configura como ) `false`). Solo afecta a `linkName` (parte del [`tl()`](../functions/tl-method.md) método) y [`linkURL`](linkurl.md). Requiere el AppMeasurement 2.24.0 o superior para su uso. El valor predeterminado de esta variable es `false`.
+El `decodeLinkParameters` es un booleano que determina si las variables de seguimiento de vínculos se codifican una vez (si se establece en ) `true`) o dos veces (si se configura como ) `false`). Solo afecta a `linkName` (parte del [`tl()`](../functions/tl-method.md) método) y [`linkURL`](linkurl.md). Requiere el AppMeasurement v2.24.0 o superior para su uso. El valor predeterminado de esta variable es `false`.
 
-En versiones anteriores de AppMeasurement, las variables de seguimiento de vínculos siempre tenían codificación URL dos veces. Aunque no supone un problema para las implementaciones que generalmente dependen de caracteres de un solo byte, la codificación doble creaba valores codificados incorrectamente para caracteres de bytes múltiples en los informes. Configurando esta variable como `true` codifica una vez los valores de seguimiento de vínculos, que suele ser el comportamiento deseado.
+En las versiones de AppMeasurement anteriores a la v2.24.0, las variables de seguimiento de vínculos siempre tenían codificación URL doble. Aunque no supone un problema para las implementaciones que generalmente dependen de caracteres de un solo byte, la codificación doble creaba valores codificados incorrectamente para caracteres de bytes múltiples en los informes. Configurando esta variable como `true` codifica una vez los valores de seguimiento de vínculos, que suele ser el comportamiento deseado.
 
 * Si la implementación utiliza caracteres multibyte y las variables de seguimiento de vínculos tienen una URL descodificada para la codificación doble de AppMeasurement de desplazamiento, establezca esta variable como `false`. Este valor conserva la funcionalidad de AppMeasurement existente.
 * Si la implementación utiliza caracteres multibyte y no descodifica los valores de seguimiento de vínculos mediante URL, Adobe recomienda configurar esta variable como `true`.

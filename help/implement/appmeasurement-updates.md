@@ -3,10 +3,10 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
+source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 95%
+source-wordcount: '2399'
+ht-degree: 92%
 
 ---
 
@@ -22,14 +22,14 @@ Puede descargar la versión más reciente de AppMeasurement en [GitHub](https://
 
 Fecha de versión: **12 de septiembre de 2023**
 
-* Se ha añadido una configuración opcional (`bufferRequests`) para mejorar la fiabilidad de la captura de solicitudes en situaciones en las que un explorador puede no admitir la API de señalización correctamente o puede cancelar solicitudes cuando se descarga una página.
+* Se ha añadido el método opcional [`bufferRequests()`](vars/functions/bufferrequests.md) para mejorar la fiabilidad de la captura de solicitudes cuando un explorador no admite la API de señalización de o cancela solicitudes cuando se descarga una página.
 * Se han agregado salvaguardas para evitar múltiples llamadas de retorno posteriores al seguimiento para una única solicitud de seguimiento.
 
 ## Versión 2.24.0
 
 Fecha de versión: **18 de julio de 2023**
 
-* Se ha añadido una configuración opcional (`decodeLinkParameters` - default = false) que descodifica las direcciones URL de los vínculos que incluyen caracteres con codificación de doble byte.
+* Se ha añadido la variable de configuración opcional [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) para descodificar direcciones URL de vínculos que incluyen caracteres con codificación de doble byte.
 * Se ha añadido la administración de errores adicional para exploradores con API de sugerencias de cliente de agente de usuario de alta entropía defectuosas.
 * Se ha cambiado el encabezado de tipo de contenido del POST a uso `x-www-form-urlencoded` de forma predeterminada.
 
@@ -37,25 +37,25 @@ Fecha de versión: **18 de julio de 2023**
 
 Fecha de versión: **23 de septiembre de 2022**
 
-* AppMeasurement ahora admite la colección de sugerencias de cliente de agente de usuario de alta entropía que los exploradores Chromium (Google Chrome y Microsoft Edge) utilizan para proporcionar información del dispositivo. Puede configurar sugerencias del cliente mediante Etiquetas o utilizar el indicador “collectHighEntropyUserAgentHints”. La colección de sugerencias de alta entropía está desactivada de forma predeterminada. Más información sobre [sugerencias del cliente](/help/technotes/client-hints.md) de Usuario-Agente.
+* AppMeasurement ahora admite la colección de sugerencias de cliente de agente de usuario de alta entropía que los exploradores Chromium (Google Chrome y Microsoft Edge) utilizan para proporcionar información del dispositivo. Puede configurar sugerencias del cliente mediante Etiquetas o utilizar el [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) variable de configuración. La colección de sugerencias de alta entropía está deshabilitada de forma predeterminada. Más información sobre [sugerencias del cliente](/help/technotes/client-hints.md) de Usuario-Agente.
 
 ## Versión 2.22.4
 
 Fecha de versión: **18 de enero de 2022**
 
-* La llamada de seguimiento de vínculos `s.tl()` ahora comprueba que el objeto que se le pasa contiene un `href` atributo de tipo `string`. Si no es un `string`, entonces ignorará correctamente el atributo `href` en lugar de error. Esto puede ocurrir al pasar `svg` objetos a la llamada de seguimiento de vínculos.
+* La llamada de seguimiento de vínculos `s.tl()` ahora comprueba que el objeto que se le pasa contiene un `href` atributo de tipo `string`. Si no es un `string`, entonces ignora correctamente el `href` en lugar de generar errores. Este escenario se puede producir cuando pase `svg` a la llamada de seguimiento de vínculos.
 
 ## Versión 2.22.3
 
 Fecha de versión: **11 de octubre de 2021**
 
-* Se han actualizado los archivos que hacen referencia a la documentación de la Ayuda para que apunten a las ubicaciones de la Ayuda actuales.
+* Se han actualizado los vínculos de archivos que apuntaban a documentación.
 
 ## Versión 2.22.2
 
 Fecha de versión: **7 de septiembre de 2021**
 
-* Esta actualización hace que `opt.dmp` y `opt.sell` siempre se incluyan al rastrear vínculos. A continuación, se muestra una [lista completa de variables de consentimiento](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=es).
+* Esta actualización hace que `opt.dmp` y `opt.sell` siempre se incluyan al rastrear vínculos. Consulte la [Informes de privacidad](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) en la Guía del usuario de administración para obtener más información.
 
 ## Versión 2.22.1
 

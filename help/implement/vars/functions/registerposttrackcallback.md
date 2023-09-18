@@ -3,10 +3,10 @@ title: registerPostTrackCallback
 description: Cree funciones de llamada de retorno después de enviar una visita a Adobe.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 79%
+ht-degree: 71%
 
 ---
 
@@ -16,7 +16,7 @@ La variable `registerPostTrackCallback` permite a su organización conectar una 
 
 >[!WARNING]
 >
->No llame ninguna llamada de seguimiento como [`t()`](t-method.md) o [`tl()`](tl-method.md) dentro de la variable `registerPostTrackCallback`. Las funciones de seguimiento en esta variable provocan un bucle infinito de solicitudes de imagen.
+>No realice ninguna llamada de seguimiento como [`t()`](t-method.md) o [`tl()`](tl-method.md) dentro de `registerPostTrackCallback` variable. La configuración de llamadas de seguimiento en esta variable provoca un bucle infinito de solicitudes de imagen.
 
 Cada vez que llama a la variable `registerPostTrackCallback`, vincula esa función para que se ejecute de forma inmediata después de que se envíe correctamente una solicitud de imagen. Evite registrar la misma función varias veces en la misma carga de página.
 
@@ -46,7 +46,7 @@ Consulte [Gestión de respuestas de eventos](https://experienceleague.adobe.com/
 
 No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.registerPostTrackCallback en el editor de código personalizado de la extensión de Analytics y AppMeasurement
+## s.registerPostTrackCallback en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 `s.registerPostTrackCallback` es una función que toma una función como su único argumento. La función anidada se ejecuta justo después de que se envíe una solicitud de imagen.
 
@@ -73,7 +73,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-## Ejemplo de caso de uso
+## Caso de uso
 
 El registro de la función [`clearVars()`](clearvars.md) en la devolución de llamada posterior al seguimiento puede ser beneficioso para aplicaciones de una sola página. Cada vez que envía una visita a Adobe, se ejecuta la función `clearVars()`. La implementación puede definir las variables de nuevo sin preocuparse por los valores que persisten incorrectamente.
 
