@@ -2,10 +2,10 @@
 description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración de las opciones de informes de una solicitud de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+source-git-commit: 6e6a406c7f3ab6ad83dcf60dbd78a5f6953f1fbb
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 19%
+source-wordcount: '532'
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,7 @@ Para configurar las opciones de informe de una solicitud de Data Warehouse:
 
    | Opción | Función |
    |---------|----------|
-   | [!UICONTROL **Nombre del archivo**] | Identifica el informe. |
+   | [!UICONTROL **Nombre del archivo**] | Identifica el informe. <p>Si se utiliza cualquiera de los siguientes caracteres especiales en el nombre del archivo, la solicitud no se puede guardar: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` {  } \| ~</code> </p><p>El carácter % solo se puede usar si va seguido de &quot;R&quot;, &quot;rsid&quot; o &quot;id&quot;, como se indica a continuación: <code>%R</code>, <code>%rsid</code>, y <code>%id</code>.</p> |
    | [!UICONTROL **Anexar intervalo de fechas del informe al nombre del archivo**] | Agrega el intervalo de fechas al nombre del archivo de informe. <p>Por ejemplo, si solicita datos del 1 al 7 de mayo de 2024, el nombre de archivo incluye el intervalo de fechas 20240501 - 20240507.</p> |
    | [!UICONTROL **CSV**] | Ofrece informes en formato de archivo CSV para ver los datos en una hoja de cálculo. |
    | [!UICONTROL **Tableau (TDE)**] | Presenta informes en formato de archivo Tableau Data Extract (TDE), que se puede utilizar para visualizar datos y capas en datos adicionales dentro de Tableau. |
