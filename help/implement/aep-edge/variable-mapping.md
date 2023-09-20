@@ -3,7 +3,7 @@ title: Asignación de variables de Analytics en Adobe Experience Edge
 description: Vea qué campos XDM de Edge se asignan automáticamente a variables de Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: b6a92b8ca79422d2ba857cd98c172a824658a7a6
+source-git-commit: f790407b5495d5fad679a2980c951b2247971069
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 96%
@@ -113,7 +113,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | `placeContext.localTime` | Ayuda a rellenar [Zonas horarias](/help/analyze/reports-analytics/reports.md) en Report &amp; Analytics. Aparece como `t_time_info` en [Fuentes de datos](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Aplica la comercialización de [sintaxis del producto](../vars/page-vars/products.md) a eVars. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Aplica la comercialización de [sintaxis del producto](../vars/page-vars/products.md) en eventos. |
-| `productListItems[].lineItemId` | La dimensión [Categoría](../../components/dimensions/category.md). Consulte también la variable de página [productos](../vars/page-vars/products.md). |
+| `productListItems[].productCategories[].categoryID` | La dimensión [Categoría](../../components/dimensions/category.md). Consulte también la variable de página [productos](../vars/page-vars/products.md). |
 | `productListItems[].name` | La dimensión [Producto](../../components/dimensions/product.md). Consulte también la variable de página [productos](../vars/page-vars/products.md). Si `productListItems[].SKU` y `productListItems[].name` contienen datos, se utiliza el valor de `productListItems[].SKU`. |
 | `productListItems[].priceTotal` | Ayuda a determinar la métrica [Ingresos](../../components/metrics/revenue.md). Consulte también la variable de página [productos](../vars/page-vars/products.md). |
 | `productListItems[].quantity` | Ayuda a determinar la métrica [Unidades](../../components/metrics/units.md). Consulte también la variable de página [productos](../vars/page-vars/products.md). |
