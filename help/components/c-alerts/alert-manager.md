@@ -3,9 +3,9 @@ description: Gestionar alertas.
 title: Información general de Alert Manager
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 637f498c8abee0f3c83780bccd0447f2e3a804e3
+source-git-commit: 69b763bc5740223be54309c0c0b98f40536c4d7e
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '468'
 ht-degree: 33%
 
 ---
@@ -61,6 +61,6 @@ Para configurar las columnas visibles en el Administrador de alertas:
    | Etiquetas | Muestra las etiquetas aplicadas a la alerta, tanto por su parte como por parte de las personas que han compartido la alerta con usted. |
    | Compartido con | Enumera las personas o grupos (solo administrador) o todos (solo administrador) con los que compartió la alerta. |
    | Fecha de modificación | Indica la fecha de la última modificación de la alerta. |
-   | Último uso | **Nota:** Esta funcionalidad se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener más información sobre el proceso de lanzamiento de Customer Journey Analytics, consulte [Versiones de funcionalidades de Customer Journey Analytics](/help/release-notes/releases.md).<p>Muestra la fecha en la que se utilizó la alerta por última vez.</p> <p>Esta información puede ayudarle a determinar si una alerta es valiosa para los usuarios de su organización o si debe eliminarse.</p><p>Esta información no incluye el uso de la API, el Report Builder o la Data Warehouse.</p> |
+   | Último uso | **Nota:** Esta funcionalidad se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener más información sobre el proceso de lanzamiento de Customer Journey Analytics, consulte [Versiones de funcionalidades de Adobe Analytics](/help/release-notes/releases.md).<p>Muestra la fecha en la que se utilizó la alerta por última vez.</p> <p>Esta información puede ayudarle a determinar si un componente es valioso para los usuarios de su organización, dónde se utiliza y si debe eliminarse o modificarse.</p><p>Esta información no incluye el uso de la API, el Report Builder o la Data Warehouse.</p> |
 
    {style="table-layout:auto"}
