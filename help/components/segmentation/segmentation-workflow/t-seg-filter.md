@@ -3,10 +3,10 @@ description: Filtre por etiquetas, propietarios y otros filtros (Mostrar todo, M
 title: Filtrar segmentos
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: dc84909f9c19681adfd28696495b667837056146
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 95%
+source-wordcount: '170'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,7 @@ El uso de filtros hace mucho más sencilla la búsqueda de segmentos en el carri
    |---|---|
    | Etiquetas | Le permite filtrar segmentos con determinadas [etiquetas](/help/components/segmentation/segmentation-workflow/seg-tag.md). La columna Etiquetas se muestra de manera predeterminada. |
    | Propietarios | Le permite filtrar segmentos por propietario. |
+   | Grupo de informes | Le permite filtrar por grupo de informes. |
    | Otros filtros > Mostrar todo | **(Solo administrador)** Muestra todos los segmentos, su propietario y la última fecha de modificación. |
    | Otros filtros > Míos | Muestra todos los segmentos de su propiedad. |
    | Otros filtros > Compartidos conmigo | Muestra todos los segmentos que se han [compartido](/help/components/segmentation/segmentation-workflow/t-seg-share.md) con usted. |

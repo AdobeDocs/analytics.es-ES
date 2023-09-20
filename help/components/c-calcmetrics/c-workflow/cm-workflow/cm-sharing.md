@@ -3,10 +3,10 @@ description: En función de sus permisos, puede compartir métricas con toda su 
 title: Compartir métricas calculadas
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 27%
+source-wordcount: '335'
+ht-degree: 26%
 
 ---
 
@@ -20,6 +20,8 @@ En función de sus permisos, puede compartir métricas con toda su organización
 | No administrador | Puede compartir métricas únicamente con usuarios individuales. |
 
 Para compartir una métrica calculada:
+
+1. En Adobe Analytics, seleccione la **[!UICONTROL Componentes]** pestaña, luego seleccione **[!UICONTROL Métricas calculadas]**.
 
 1. En el Administrador de métricas calculadas, active la casilla que hay a la izquierda de todas las métricas que desee compartir.
 
@@ -35,15 +37,15 @@ Para compartir una métrica calculada:
 
    * **[!UICONTROL Todo]** (Solo administradores): lo comparte con todos los usuarios de la organización.
 
-      Considere la posibilidad de compartir con todos solo si resulta útil para toda la compañía y si todos se sienten cómodos al utilizarla. En este caso, debe considerar la posibilidad de marcarla como [métrica aprobada](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
+     Considere la posibilidad de compartir con todos solo si resulta útil para toda la compañía y si todos se sienten cómodos al utilizarla. En este caso, debe considerar la posibilidad de marcarla como [métrica aprobada](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
 
    * **[!UICONTROL Grupos]** (Solo administradores): seleccione los grupos con los que desee compartir.
 
-      Considere la posibilidad de compartir con un grupo si la métrica aporta valor empresarial al equipo.
+     Considere la posibilidad de compartir con un grupo si la métrica aporta valor empresarial al equipo.
 
    * **[!UICONTROL Usuarios individuales]**: busque y seleccione a los usuarios individuales con los que desea compartir.
 
-      Esta es la única opción de uso compartido disponible para todos los usuarios. Es posible que los administradores deseen utilizar esta opción para examinar y validar una métrica antes de ponerla a disposición de un grupo o de todos. Si la métrica no es útil, se puede descartar. Los administradores no deben aprobar oficialmente este tipo de métrica.
+     Esta es la única opción de uso compartido disponible para todos los usuarios. Es posible que los administradores deseen utilizar esta opción para examinar y validar una métrica antes de ponerla a disposición de un grupo o de todos. Si la métrica no es útil, se puede descartar. Los administradores no deben aprobar oficialmente este tipo de métrica.
 
 1. Seleccione **[!UICONTROL Compartir]**.
 

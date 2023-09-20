@@ -3,10 +3,10 @@ description: En el Administrador de métricas calculadas, el etiquetado de segme
 title: Etiquetar métricas calculadas
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 19%
+source-wordcount: '274'
+ht-degree: 20%
 
 ---
 
@@ -25,10 +25,9 @@ Todos los usuarios pueden crear etiquetas para métricas calculadas y aplicar un
 >* **Categorías**, como Mujeres o Geografía.
 >* **Flujos de trabajo**, como Por aprobar o Depurar para (una unidad comercial específica)
 
-
 ## Aplicación de etiquetas a una métrica calculada
 
-1. En Adobe Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para ir al Administrador de métricas calculadas.
+1. En Adobe Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**].
 
 1. En el Administrador de métricas calculadas, active la casilla que hay junto a las métricas que desea etiquetar.
 
