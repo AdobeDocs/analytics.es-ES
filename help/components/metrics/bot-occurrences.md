@@ -3,16 +3,16 @@ title: Ocurrencias de bots
 description: El número de visitas que coincidieron con las reglas de bots.
 feature: Metrics
 exl-id: 3b6cbe94-98db-4ba4-aab2-ce59cdbc420a
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '129'
+ht-degree: 9%
 
 ---
 
 # Ocurrencias de bots
 
-La métrica &quot;Ocurrencias de bots&quot; muestra el número de visitas que coincidieron [Reglas de bots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+Las &quot;ocurrencias de bots&quot; [métrica](overview.md) muestra el número de visitas coincidentes [Reglas de bots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 Dado que los informes de bots están separados del resto de los datos del grupo de informes, esta métrica solo funciona con las siguientes dimensiones:
 

@@ -3,7 +3,7 @@ title: Cálculo del tiempo empleado en Adobe Analytics
 description: Una página agregada de dimensiones y métricas de tiempo empleado.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: e2128ef18a62832a9740a4cb610685f351c7db19
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 74%
@@ -12,7 +12,7 @@ ht-degree: 74%
 
 # Información general sobre el tiempo empleado
 
-Los productos de Adobe Analytics ofrecen varias métricas y dimensiones de [!UICONTROL “tiempo empleado”].
+Los productos de Adobe Analytics ofrecen varias métricas y dimensiones de [!UICONTROL “tiempo empleado”].[](overview.md)
 
 ## Métricas de “tiempo empleado”
 
@@ -69,7 +69,7 @@ Las métricas de &quot;Tiempo empleado&quot; que se pueden aplicar a cualquier d
 
 +++
 
-+++¿Qué dimensión de tiempo empleado es más apropiada para su uso en desgloses con otras dimensiones?
++++¿Qué dimensión de tiempo empleado es más apropiada para su desglose con otras dimensiones?
 
 El [!UICONTROL Tiempo invertido en la página (pormenorizado)] dimensión es una dimensión de nivel de visita individual. Desglosarla mediante otra dimensión indicará los segundos que duró una visita individual en la que la dimensión de desglose también estaba presente.
 En el ejemplo siguiente, el término de búsqueda &quot;classifieds&quot; se asocia a los tiempos de visita individual de 54 segundos, 59 segundos, etc., tal vez indicando que los visitantes pasan tiempo leyendo el contenido devuelto por el término de búsqueda.

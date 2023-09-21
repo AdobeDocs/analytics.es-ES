@@ -3,16 +3,16 @@ title: Unidades
 description: Número total de productos comprados dentro de todos los pedidos.
 feature: Metrics
 exl-id: c7293445-0760-4237-83ae-812224ca6f4b
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Unidades
 
-La métrica “Unidades” muestra la cantidad total de productos comprados dentro de todos los pedidos. Esta métrica es vital para los sitios de comercio electrónico a la hora de medir la conversión. Puede combinar esta métrica con cualquier dimensión para ver qué elementos de dimensión contribuyeron a la cantidad de productos comprados. Por ejemplo, puede ver las campañas principales (usando la dimensión de [código de seguimiento](../dimensions/tracking-code.md)) o los términos de búsqueda interna principales (usando una [eVar](../dimensions/evar.md)) que contribuyeron en los productos comprados.
+Las &quot;unidades&quot; [métrica](overview.md) muestra la cantidad total de productos comprados dentro de todos los pedidos. Esta métrica es vital para los sitios de comercio electrónico a la hora de medir la conversión. Puede combinar esta métrica con cualquier dimensión para ver qué elementos de dimensión contribuyeron a la cantidad de productos comprados. Por ejemplo, puede ver las campañas principales (usando la dimensión de [código de seguimiento](../dimensions/tracking-code.md)) o los términos de búsqueda interna principales (usando una [eVar](../dimensions/evar.md)) que contribuyeron en los productos comprados.
 
 ## Cálculo de esta métrica
 

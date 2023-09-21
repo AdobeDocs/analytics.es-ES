@@ -3,16 +3,16 @@ title: Código de seguimiento
 description: Nombre del código de seguimiento o campaña.
 feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
-source-git-commit: 6d0771f7b8779d7a9d3bcea73a430ba3a9093e3e
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '555'
-ht-degree: 68%
+ht-degree: 66%
 
 ---
 
 # Código de seguimiento
 
-La dimensión “Código de seguimiento” muestra los nombres de los códigos de seguimiento en el sitio. Puede colocar vínculos con diferentes valores de parámetros de cadena de consulta en diferentes lugares de Internet. Esta dimensión ayuda a comprender qué vínculos fueron los más exitosos a la hora de dirigir el tráfico al sitio.
+El &quot;código de seguimiento&quot; [dimensión](overview.md) muestra los nombres de los códigos de seguimiento del sitio. Puede colocar vínculos con diferentes valores de parámetros de cadena de consulta en diferentes lugares de Internet. Esta dimensión ayuda a comprender qué vínculos fueron los más exitosos a la hora de dirigir el tráfico al sitio.
 
 La adición de cadenas de consulta de código de seguimiento es habitual en correos electrónicos, anuncios, publicaciones en medios sociales y otros esfuerzos de marketing que utiliza su organización.
 
@@ -40,6 +40,7 @@ Dado que “Redes sociales” es la primera regla de procesamiento de canales de
 ### Otros canales de marketing pueden atribuir la atribución mediante el último contacto
 
 Cuando se trata de una dimensión Código de seguimiento estándar, no es necesario preocuparse por otras partes del sitio que roban la atribución. Sin embargo, con los canales de marketing, un usuario puede hacer coincidir una regla diferente y dar una atribución diferente. Por ejemplo:
+
 1. Tiene “Códigos de seguimiento” como primer canal y “Directo” como segundo.
 2. Un usuario llega al sitio inicialmente a través de un código de seguimiento, pero luego sale.
 3. Al día siguiente, escriben su dirección URL en la barra de direcciones y luego realizan una compra.
@@ -50,6 +51,7 @@ En este ejemplo, el canal de marketing de códigos de seguimiento no obtendría 
 ### Diferencias de caducidad
 
 Los canales de marketing tienen una caducidad de participación del visitante de 30 días móviles, independientemente de si se ha tocado o no un canal. Los códigos de seguimiento tienen una caducidad basada en el momento en que se configuró la variable. Por ejemplo:
+
 1. Tiene una caducidad de la participación del visitante de 30 días y también configuró la dimensión Código de seguimiento para que caduque a los 30 días.
 2. Un usuario llega al sitio a través de un código de seguimiento. Exploran el sitio y luego se van.
 3. Tres semanas después, regresan sin un código de seguimiento o canal de marketing, y luego se van de nuevo.

@@ -3,16 +3,16 @@ title: Promedio de vistas de página por visita
 description: El número promedio de veces que un elemento de dimensión determinado apareció en una visita.
 feature: Metrics
 exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Promedio de vistas de página por visita
 
-La dimensión “Promedio de vistas de página por visita” muestra cuántas vistas de página se produjeron en promedio con respecto a la dimensión deseada. En el caso de las dimensiones basadas en el tiempo, puede ver cómo el número promedio de vistas de página dentro de una visita se mantiene a lo largo del tiempo. Esta métrica es útil cuando desea comprender con qué frecuencia aparecen los elementos de dimensión en una visita.
+La dimensión “Promedio de vistas de página por visita” muestra cuántas vistas de página se produjeron en promedio con respecto a la dimensión deseada. En el caso de las dimensiones basadas en el tiempo, puede ver cómo el número promedio de vistas de página dentro de una visita se mantiene a lo largo del tiempo. Esta [métrica](overview.md) es útil cuando desea comprender con qué frecuencia aparecen los elementos de dimensión en una visita.
 
 >[!TIP]
 >

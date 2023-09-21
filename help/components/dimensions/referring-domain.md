@@ -3,16 +3,16 @@ title: Dominio de referencia
 description: Dominio general en el que se encontraba un visitante antes de hacer clic en el sitio.
 feature: Dimensions
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Dominio de referencia
 
-La dimensión “Dominio de referencia” indica los dominios en los que los visitantes hacen clic para llegar al sitio. Esta dimensión es útil para comprender qué sitios de terceros generan la mayor cantidad de tráfico en el suyo. Debe existir un vínculo en el sitio externo y un visitante debe hacer clic en él para que se muestre el elemento de dimensión.
+El &quot;dominio de referencia&quot; [dimensión](overview.md) informa de los dominios en los que los visitantes hacen clic para llegar al sitio. Esta dimensión es útil para comprender qué sitios de terceros generan la mayor cantidad de tráfico en el suyo. Debe existir un vínculo en el sitio externo y un visitante debe hacer clic en él para que se muestre el elemento de dimensión.
 
 >[!IMPORTANT]
 >

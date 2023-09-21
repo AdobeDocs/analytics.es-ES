@@ -3,16 +3,16 @@ title: Lealtad del cliente
 description: Categorías basadas en el número de compras anteriores realizadas por un visitante.
 feature: Dimensions
 exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Lealtad del cliente
 
-La dimensión “Lealtad del cliente” informa sobre la cantidad de visitantes al sitio que han realizado 0 compras anteriores, 1 compra anterior, 2 compras anteriores o más de 3 compras anteriores. Esta dimensión es valiosa para comprender cómo el sitio afecta en el comportamiento de compra. También puede usar esta dimensión en un segmento para centrarse en visitantes que vuelven para realizar una compra, de modo que pueda estimular un comportamiento similar para nuevos visitantes.
+La &quot;Lealtad del cliente&quot; [dimensión](overview.md) informa sobre la cantidad de visitantes al sitio que han realizado 0 compras anteriores, 1 compra anterior, 2 compras anteriores o más de 3 compras anteriores. Esta dimensión es valiosa para comprender cómo el sitio afecta en el comportamiento de compra. También puede usar esta dimensión en un segmento para centrarse en visitantes que vuelven para realizar una compra, de modo que pueda estimular un comportamiento similar para nuevos visitantes.
 
 ## Rellene esta dimensión con datos
 

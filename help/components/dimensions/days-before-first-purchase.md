@@ -3,16 +3,16 @@ title: Días antes de la primera compra
 description: Número de días entre la primera visita de un visitante y la primera compra.
 feature: Dimensions
 exl-id: 651f9d55-49b9-402a-b7c7-ba4fba62c695
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Días antes de la primera compra
 
-La dimensión “Días antes de la primera compra” informa de la cantidad de días que transcurren entre la primera vez que los visitantes llegan al sitio y el momento en el que realizan la primera compra. Por ejemplo, si un visitante realiza una compra un día después de la primera visita, cualquier visita o evento posterior pertenece al elemento de dimensión “1 día”.
+Los &quot;Días antes de la primera compra&quot; [dimensión](overview.md) informa de la cantidad de días que transcurren entre la primera vez que un visitante llega al sitio y el momento en el que realiza una compra. Por ejemplo, si un visitante realiza una compra un día después de la primera visita, cualquier visita o evento posterior pertenece al elemento de dimensión “1 día”.
 
 Una vez que un visitante realiza su primera compra, pertenece al mismo elemento de dimensión durante el resto de la duración de la cookie del visitante.
 

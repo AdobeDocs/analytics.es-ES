@@ -3,16 +3,16 @@ title: Exclusión en la administración de consentimiento
 description: Ver qué configuración de privacidad excluyó un visitante.
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '254'
+ht-degree: 93%
 
 ---
 
 # Exclusión en la administración de consentimiento
 
-La dimensión “Exclusión en la administración de consentimiento” muestra qué configuración de privacidad ha excluido explícitamente un visitante. Puede utilizar esta dimensión para filtrar los datos en función de la configuración de privacidad o ver los motivos de exclusión de privacidad más comunes.
+La &quot;Exclusión De La Administración De Consentimiento&quot; [dimensión](overview.md) muestra la configuración de privacidad que un visitante ha excluido explícitamente. Puede utilizar esta dimensión para filtrar los datos en función de la configuración de privacidad o ver los motivos de exclusión de privacidad más comunes.
 
 ## Rellene esta dimensión con datos
 

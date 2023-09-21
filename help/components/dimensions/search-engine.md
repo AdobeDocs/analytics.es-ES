@@ -3,16 +3,16 @@ title: Motor de búsqueda
 description: Motor de búsqueda que el visitante utilizó para llegar al sitio.
 feature: Dimensions
 exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Motor de búsqueda
 
-La dimensión “Motor de búsqueda” indica los motores de búsqueda que los visitantes utilizan para llegar al sitio. Un remitente del reenvío debe cumplir los dos requisitos siguientes para clasificarse como motor de búsqueda:
+El &quot;motor de búsqueda&quot; [dimensión](overview.md) informa de los motores de búsqueda que los visitantes utilizan para llegar al sitio. Un remitente del reenvío debe cumplir los dos requisitos siguientes para clasificarse como motor de búsqueda:
 
 * Adobe reconoce el dominio de referencia como un motor de búsqueda válido.
 * Existe un parámetro de cadena de consulta de palabra clave en la dirección URL de referencia. El parámetro de cadena de consulta puede estar en blanco (como sucede con varios motores de búsqueda debido a políticas de privacidad).

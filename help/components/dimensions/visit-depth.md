@@ -3,16 +3,16 @@ title: Profundidad de la visita
 description: Dimensión basada en visitas que indica la profundidad de la visita.
 feature: Dimensions
 exl-id: 3e9aca08-2255-46ca-9949-77334ee7120e
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 # Profundidad de la visita
 
-La dimensión “Profundidad de la visita” indica la cantidad de vistas de página que vio el visitante en toda la visita. La profundidad de la visita solo aumenta si la visita es una vista de página y la dimensión [Página](page.md) no es la misma que el elemento de dimensión de la última vista de página. Es una dimensión basada en visitas, lo que significa que contiene el mismo valor para toda la visita. Esta variable se establece para todas las visitas de una visita después de que la visita finalice.
+La &quot;Profundidad de la visita&quot; [dimensión](overview.md) informa de la cantidad de vistas de página que vio el visitante en toda la visita. La profundidad de la visita solo aumenta si la visita es una vista de página y la dimensión [Página](page.md) no es la misma que el elemento de dimensión de la última vista de página. Es una dimensión basada en visitas, lo que significa que contiene el mismo valor para toda la visita. Esta variable se establece para todas las visitas de una visita después de que la visita finalice.
 
 ## Rellene esta dimensión con datos
 

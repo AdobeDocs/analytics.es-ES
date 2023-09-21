@@ -3,16 +3,16 @@ title: Profundidad de la visita
 description: Número de visitas individuales en la visita.
 feature: Dimensions
 exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Profundidad de la visita
 
-La dimensión “Profundidad de la visita” indica hasta dónde llega una visita determinada. Esta dimensión es valiosa para comprender hasta qué punto los visitantes realizan acciones en el sitio durante una visita. La profundidad de visitas cuenta todos los tipos de visitas, incluidas las vistas de página ([`t()`](/help/implement/vars/functions/t-method.md)) y las visitas de seguimiento de vínculos ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+La &quot;Profundidad de la visita&quot; [dimensión](overview.md) informa de hasta dónde llega una visita determinada en una visita. Esta dimensión es valiosa para comprender hasta qué punto los visitantes realizan acciones en el sitio durante una visita. La profundidad de visitas cuenta todos los tipos de visitas, incluidas las vistas de página ([`t()`](/help/implement/vars/functions/t-method.md)) y las visitas de seguimiento de vínculos ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Rellene esta dimensión con datos
 

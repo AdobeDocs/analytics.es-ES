@@ -3,16 +3,16 @@ title: Búsqueda de pago
 description: Distingue las métricas de la búsqueda de pago y la búsqueda natural.
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # Búsqueda de pago
 
-La dimensión “Búsqueda de pago” le permite mirar cualquier métrica y compararla entre la búsqueda de pago y la búsqueda natural. Se omiten todas las demás visitas fuera de los motores de búsqueda. Esta dimensión es útil para comprender cómo se comparan los esfuerzos de búsqueda de pago con la búsqueda orgánica.
+La &quot;Búsqueda de pago&quot; [dimensión](overview.md) le permite mirar cualquier métrica y compararla entre la búsqueda de pago y la búsqueda natural. Se omiten todas las demás visitas fuera de los motores de búsqueda. Esta dimensión es útil para comprender cómo se comparan los esfuerzos de búsqueda de pago con la búsqueda orgánica.
 
 ## Rellene esta dimensión con datos
 

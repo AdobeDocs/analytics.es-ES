@@ -3,16 +3,16 @@ title: 'Anchura del explorador: Agrupado'
 description: Anchura de la ventana del explorador en píxeles.
 feature: Dimensions
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Anchura del explorador
 
-La dimensión “Anchura del explorador: agrupado” muestra la anchura de la ventana del explorador, clasificada en grupos de 100 píxeles. Esta dimensión es útil cuando desea comprender la amplitud con la que los visitantes ven el contenido. El comprender la amplitud con la que se visualiza el contenido puede permitirle optimizar el contenido para su visualización.
+La &quot;Anchura del explorador: agrupado&quot; [dimensión](overview.md) muestra la anchura de la ventana del explorador, clasificada en grupos de 100 píxeles. Esta dimensión es útil cuando desea comprender la amplitud con la que los visitantes ven el contenido. El comprender la amplitud con la que se visualiza el contenido puede permitirle optimizar el contenido para su visualización.
 
 Esta dimensión es diferente a la anchura de la pantalla. La anchura del explorador es el número de píxeles dentro del espacio del explorador visible, mientras que la anchura de la pantalla es el ancho de todo el monitor en píxeles. Si desea ver la diferencia entre estas dos variables en su propio equipo, abra la consola del explorador (F12 en la mayoría de los exploradores) y copie y pegue el siguiente código en la consola:
 

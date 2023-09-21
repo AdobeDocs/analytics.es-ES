@@ -3,16 +3,16 @@ title: Canal de último contacto
 description: El canal de marketing más reciente dentro de la caducidad de la participación del visitante.
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Canal de último contacto
 
-La dimensión “Canal de último contacto” informa del canal de marketing más reciente con el que coincide un visitante durante el periodo de participación de ese visitante (de forma predeterminada, 30 días). Esta dimensión es valiosa para comprender qué canales de marketing conducen el tráfico al sitio y cuáles resultan en conversiones, lo que permite enfocar los esfuerzos de marketing en las áreas más efectivas.
+El &quot;canal de último contacto&quot; [dimensión](overview.md) informa del canal de marketing más reciente con el que coincide un visitante durante el periodo de participación de ese visitante (de forma predeterminada, 30 días). Esta dimensión es valiosa para comprender qué canales de marketing conducen el tráfico al sitio y cuáles resultan en conversiones, lo que permite enfocar los esfuerzos de marketing en las áreas más efectivas.
 
 ## Rellene esta dimensión con datos
 

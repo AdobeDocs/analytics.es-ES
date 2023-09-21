@@ -3,16 +3,16 @@ title: Referente
 description: Dirección URL en la que se encontraba un visitante antes de hacer clic para ir al sitio.
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Referente
 
-La dimensión “Remitente del reenvío” indica en qué direcciones URL se encontraban los visitantes al hacer clic para llegar al sitio. Esta dimensión es útil para comprender qué direcciones URL específicas generan la mayor cantidad de tráfico en el sitio. Debe existir un vínculo en la dirección URL externa y un visitante debe hacer clic en él para que se muestre el elemento de dimensión.
+El &#39;referente&#39; [dimensión](overview.md) informa de las direcciones URL en las que se encontraban los visitantes al hacer clic para llegar al sitio. Esta dimensión es útil para comprender qué direcciones URL específicas generan la mayor cantidad de tráfico en el sitio. Debe existir un vínculo en la dirección URL externa y un visitante debe hacer clic en él para que se muestre el elemento de dimensión.
 
 >[!IMPORTANT]
 >

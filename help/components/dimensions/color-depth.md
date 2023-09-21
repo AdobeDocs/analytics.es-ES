@@ -3,16 +3,16 @@ title: Profundidad de color
 description: Profundidad de color del dispositivo.
 feature: Dimensions
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Profundidad de color
 
-La dimensión “Profundidad de color” indica cuántos colores admite el dispositivo. Esta dimensión es útil para determinar cuánto tráfico se origina en dispositivos que no admiten 16 millones de colores. Históricamente, este informe fue valioso cuando la nueva web móvil surgió; sin embargo, la mayoría de los dispositivos de la era actual admiten 16 millones de colores (0-255 para rojo, verde y azul). <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
+La &quot;Profundidad de color&quot; [dimensión](overview.md) informa de cuántos colores admite el dispositivo. Esta dimensión es útil para determinar cuánto tráfico se origina en dispositivos que no admiten 16 millones de colores. Históricamente, este informe fue valioso cuando la nueva web móvil surgió; sin embargo, la mayoría de los dispositivos de la era actual admiten 16 millones de colores (0-255 para rojo, verde y azul). <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## Rellene esta dimensión con datos
 

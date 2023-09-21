@@ -3,16 +3,16 @@ title: Promedio de tiempo en el sitio
 description: Cantidad promedio de tiempo que un elemento de dimensión en concreto existió entre visitas.
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Promedio de tiempo en el sitio
 
-La métrica “Promedio de tiempo en el sitio” muestra la cantidad de tiempo que transcurrió entre visitas individuales para un elemento de dimensión determinado. Esta métrica es útil cuando desea ver el tiempo promedio empleado para elementos de dimensión específicos. También puede analizar la tendencia de esta métrica con el paso del tiempo para ver cómo cambia el tiempo empleado en general. Esta métrica se muestra con el formato `HH:MM:SS`.
+El &quot;Promedio de tiempo en el sitio&quot; [métrica](overview.md) muestra la cantidad de tiempo que transcurrió entre visitas individuales para un elemento de dimensión determinado. Esta métrica es útil cuando desea ver el tiempo promedio empleado para elementos de dimensión específicos. También puede analizar la tendencia de esta métrica con el paso del tiempo para ver cómo cambia el tiempo empleado en general. Esta métrica se muestra con el formato `HH:MM:SS`.
 
 Esta métrica está relacionada con la dimensión [Tiempo empleado por visita](../dimensions/time-spent-per-visit.md).
 

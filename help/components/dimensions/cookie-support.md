@@ -3,16 +3,16 @@ title: Compatibilidad con cookies
 description: Determina si el explorador admite cookies.
 feature: Dimensions
 exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Compatibilidad con cookies
 
-La dimensión “Compatibilidad con cookies” informa sobre si el explorador admite cookies para una visita determinada. Es útil determinar la proporción de visitantes que utilizan exploradores que admiten cookies y los que las deshabilitan intencionalmente.
+La &quot;Compatibilidad con cookies&quot; [dimensión](overview.md) informa de si el explorador admite cookies para una visita determinada. Es útil determinar la proporción de visitantes que utilizan exploradores que admiten cookies y los que las deshabilitan intencionalmente.
 
 ## Rellene esta dimensión con datos
 

@@ -3,16 +3,16 @@ title: Día del año
 description: El día numérico del año, independientemente de qué año.
 feature: Dimensions
 exl-id: 40a95926-3d1b-4e9c-a82a-6e23b711e6e7
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '108'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # Día del año
 
-La dimensión “Día del año” indica el día numérico de cualquier año dado como un elemento de dimensión. Este informe es valioso si desea un informe desglosado por día del año, pero no desea una fecha estática como elementos de dimensión.
+El &#39;Día del año&#39; [dimensión](overview.md) registra el día numérico de cualquier año dado como un elemento de dimensión. Este informe es valioso si desea un informe desglosado por día del año, pero no desea una fecha estática como elementos de dimensión.
 
 ## Rellene esta dimensión con datos
 

@@ -3,16 +3,16 @@ title: Vínculo de salida
 description: Nombre del vínculo de salida.
 feature: Dimensions
 exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Vínculo de salida
 
-La dimensión “Vínculo de salida” indica los nombres de los vínculos de salida implementados en el sitio. Esta dimensión es útil cuando desea comprender qué vínculos son los más populares y que apuntan a dominios fuera del sitio.
+El &quot;vínculo de salida&quot; [dimensión](overview.md) informa de los nombres de los vínculos de salida implementados en el sitio. Esta dimensión es útil cuando desea comprender qué vínculos son los más populares y que apuntan a dominios fuera del sitio.
 
 ## Rellene esta dimensión con datos
 

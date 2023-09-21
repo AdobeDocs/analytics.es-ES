@@ -3,16 +3,16 @@ title: Eventos de página
 description: Número de acciones de seguimiento de vínculos activadas.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: 5e70a84c7793b516c0eca2776d8bbfd3ea3fc02b
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 60%
+ht-degree: 50%
 
 ---
 
 # Eventos de página
 
-La métrica “Eventos de página” muestra la cantidad de veces que se realizó una llamada de seguimiento de vínculo. Esta métrica es útil cuando desea comprender qué páginas tienen el contenido más atractivo. La medición para esta métrica es muy valiosa cuando un visitante puede realizar una acción en la página sin navegar a una nueva página.
+Los &quot;Eventos de página&quot; [métrica](overview.md) muestra la cantidad de veces que se realizó una llamada de seguimiento de vínculos. Esta métrica es útil cuando desea comprender qué páginas tienen el contenido más atractivo. La medición para esta métrica es muy valiosa cuando un visitante puede realizar una acción en la página sin navegar a una nueva página.
 
 ## Cálculo de esta métrica
 

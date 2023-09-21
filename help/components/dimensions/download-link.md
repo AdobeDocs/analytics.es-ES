@@ -3,16 +3,16 @@ title: Vínculo de descarga
 description: Nombre del vínculo de descarga.
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Vínculo de descarga
 
-La dimensión “Vínculo de descarga” indica los nombres de los vínculos de descarga implementados en el sitio. Esta dimensión es valiosa cuando desea obtener más información sobre el comportamiento del visitante en los vínculos de descarga como, por ejemplo:
+El &quot;Vínculo de descarga&quot; [dimensión](overview.md) informa de los nombres de los vínculos de descarga implementados en el sitio. Esta dimensión es valiosa cuando desea obtener más información sobre el comportamiento del visitante en los vínculos de descarga como, por ejemplo:
 
 * Determinar cuáles son los archivos que se descargan con mayor frecuencia desde el sitio.
 * Saber si algunos archivos se descargan con mayor frecuencia durante períodos de tiempo específicos.

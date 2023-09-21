@@ -3,16 +3,16 @@ title: Trimestre del año
 description: El trimestre numérico del año, independientemente de qué año.
 feature: Dimensions
 exl-id: 0de5f916-9cc1-4594-9dfc-68ef831dcc0a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # Trimestre del año
 
-La dimensión “Trimestre del año” indica el trimestre de cualquier año dado como un elemento de dimensión. Este informe es valioso si desea un informe desglosado por trimestre del año, pero no desea una fecha estática como elementos de dimensión. Puede acumular informes año tras año por trimestre, de modo que los datos del primer trimestre de este año se sumen con los datos del primer trimestre del año pasado en el mismo elemento de dimensión.
+El &#39;trimestre del año&#39; [dimensión](overview.md) registra el trimestre de cualquier año dado como un elemento de dimensión. Este informe es valioso si desea un informe desglosado por trimestre del año, pero no desea una fecha estática como elementos de dimensión. Puede acumular informes año tras año por trimestre, de modo que los datos del primer trimestre de este año se sumen con los datos del primer trimestre del año pasado en el mismo elemento de dimensión.
 
 ## Rellene esta dimensión con datos
 

@@ -3,7 +3,7 @@ title: Explorador
 description: Nombre y versión del explorador utilizado.
 feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
-source-git-commit: 39f1ac66fb6374c62f790f9a38a52fba3bf9bda1
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 38%
@@ -12,7 +12,7 @@ ht-degree: 38%
 
 # Explorador
 
-El &#39;[!UICONTROL Explorador]&#39; indica el nombre y la versión del explorador que envía la visita. Esta dimensión es útil para comprender los exploradores más comunes que utilizan los visitantes. Al probar las nuevas versiones del sitio, puede ejecutar esas pruebas en los exploradores principales de esta dimensión para maximizar los esfuerzos de control de calidad.
+El &#39;[!UICONTROL Explorador]&#39; [dimensión](overview.md) informa del nombre y la versión del explorador que envía la visita. Esta dimensión es útil para comprender los exploradores más comunes que utilizan los visitantes. Al probar las nuevas versiones del sitio, puede ejecutar esas pruebas en los exploradores principales de esta dimensión para maximizar los esfuerzos de control de calidad.
 
 ## Rellene esta dimensión con datos
 

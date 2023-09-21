@@ -3,16 +3,16 @@ title: Product
 description: Nombre del producto.
 feature: Dimensions
 exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Product
 
-La dimensión “Producto” informa del nombre del producto en la visita. Resulta útil para implementaciones que utilizan la variable `products` y desean ver métricas en torno a los productos, como los principales vendedores o los más visitados. Esta dimensión puede estar en blanco si no tiene ningún producto en el sitio.
+El &quot;producto&quot; [dimensión](overview.md) informa del nombre del producto en la visita. Resulta útil para implementaciones que utilizan la variable `products` y desean ver métricas en torno a los productos, como los principales vendedores o los más visitados. Esta dimensión puede estar en blanco si no tiene ningún producto en el sitio.
 
 ## Rellene esta dimensión con datos
 

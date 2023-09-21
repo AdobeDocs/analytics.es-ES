@@ -3,16 +3,16 @@ title: Instancias
 description: El número de visitas que se configuró una variable (y no persistió).
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 65%
+ht-degree: 57%
 
 ---
 
 # Instancias
 
-La métrica “Instancias” muestra el número de veces que una dimensión se ha definido explícitamente en una solicitud de imagen. Algunas dimensiones, como las [eVars](../dimensions/evar.md) persisten los elementos de dimensión más allá de la visita en la que están establecidas. Esta métrica resulta útil cuando desea ver el número de veces que se estableció un elemento de dimensión sin las visitas individuales en las que dicho valor persistió.
+Las &#39;Instancias&#39; [métrica](overview.md) muestra el número de veces que una dimensión se definió explícitamente en una solicitud de imagen. Algunas dimensiones, como las [eVars](../dimensions/evar.md) persisten los elementos de dimensión más allá de la visita en la que están establecidas. Esta métrica resulta útil cuando desea ver el número de veces que se estableció un elemento de dimensión sin las visitas individuales en las que dicho valor persistió.
 
 ## Cálculo de esta métrica
 

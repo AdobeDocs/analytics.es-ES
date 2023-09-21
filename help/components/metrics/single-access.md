@@ -3,16 +3,16 @@ title: Acceso único
 description: Número de veces que un elemento de dimensión no ha cambiado en una visita.
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Acceso único
 
-La métrica “Acceso único” muestra el número de visitas en las que el elemento de la dimensión solo contenía un valor único para toda la visita. Esta métrica es útil en el contexto de cualquier dimensión en la que desee ver qué elementos de dimensión se estancan durante una visita.
+El &#39;acceso único&#39; [métrica](overview.md) muestra el número de visitas en las que el elemento de dimensión solo contenía un valor único para toda la visita. Esta métrica es útil en el contexto de cualquier dimensión en la que desee ver qué elementos de dimensión se estancan durante una visita.
 
 ## Cálculo de esta métrica
 

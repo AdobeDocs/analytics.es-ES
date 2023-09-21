@@ -3,16 +3,16 @@ title: Tipo de visita
 description: Determina si la visita fue una visita en primer o segundo plano.
 feature: Dimensions
 exl-id: b922adbb-fe36-46c7-aab2-b9471de07d2f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # Tipo de visita
 
-La dimensión “Tipo de visita” determina si una aplicación móvil estaba en primer o segundo plano cuando la visita se envió a los servidores de recopilación de datos de Adobe. Esta dimensión solo es relevante para los grupos de informes que contienen datos para aplicaciones móviles. Los datos del explorador recopilados con AppMeasurement siempre informan de la visita como “Primer plano”.
+El &quot;Tipo de visita&quot; [dimensión](overview.md) determina si una aplicación móvil estaba en primer o segundo plano cuando la visita se envió a los servidores de recopilación de datos de Adobe. Esta dimensión solo es relevante para los grupos de informes que contienen datos para aplicaciones móviles. Los datos del explorador recopilados con AppMeasurement siempre informan de la visita como “Primer plano”.
 
 ## Rellene esta dimensión con datos
 

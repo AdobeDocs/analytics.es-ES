@@ -3,16 +3,16 @@ title: Compatibilidad con cookies persistentes
 description: Determina si el visitante puede admitir cookies persistentes.
 feature: Dimensions
 exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Compatibilidad con cookies persistentes
 
-La dimensión “Compatibilidad con cookies persistentes” muestra si la visita utilizó un identificador de visitante originado en una fuente persistente. La fuente persistente más común es de una cookie, pero también puede utilizar encabezados móviles y otras fuentes.
+La &quot;Compatibilidad con cookies persistentes&quot; [dimensión](overview.md) muestra si la visita utilizó un identificador de visitante originado en una fuente persistente. La fuente persistente más común es de una cookie, pero también puede utilizar encabezados móviles y otras fuentes.
 
 ## Rellene esta dimensión con datos
 

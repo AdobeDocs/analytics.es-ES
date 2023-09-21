@@ -3,16 +3,16 @@ title: Días transcurridos desde la última visita
 description: Número de días entre la visita actual y la última vez que la visitaron.
 feature: Dimensions
 exl-id: 8063bdc6-516a-4dd0-a4ca-ded739e8d406
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Días transcurridos desde la última visita
 
-La dimensión “Días transcurridos desde la última visita” mide la cantidad de tiempo transcurrido entre la visita actual del visitante y su visita anterior (si existe). Esta dimensión ayuda a comprender el comportamiento de los visitantes tras visitar el sitio. Algunos ejemplos son:
+Los &quot;Días transcurridos desde la última visita&quot; [dimensión](overview.md) mide la cantidad de tiempo transcurrido entre la visita actual del visitante y su visita anterior (si existe). Esta dimensión ayuda a comprender el comportamiento de los visitantes tras visitar el sitio. Algunos ejemplos son:
 
 * ¿Con qué frecuencia regresan los usuarios al sitio?
 * ¿Cómo se correlaciona la frecuencia de retorno con la conversión? ¿Los compradores habituales realizan visitas frecuentemente o con poca frecuencia?

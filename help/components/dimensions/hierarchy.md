@@ -3,10 +3,10 @@ title: Jerarquía
 description: Dimensión personalizada que se puede utilizar en la creación de informes.
 feature: Dimensions
 exl-id: f9bd3ae1-3578-44c5-a540-ea93feac5bef
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Esta dimensión desaparece y no es una dimensión disponible en Analysis Workspace. Adobe recomienda usar [eVars](evar.md) y clasificaciones en su lugar.
+>Esta dimensión desaparece y no es un elemento disponible [dimensión](overview.md) en Analysis Workspace. Adobe recomienda usar [eVars](evar.md) y clasificaciones en su lugar.
 
 Las jerarquías son variables personalizadas que se pueden utilizar como desee. No se mantienen más allá de la visita en la que están configuradas. Hay disponibles hasta 5 jerarquías si su contrato con Adobe lo permite.
 

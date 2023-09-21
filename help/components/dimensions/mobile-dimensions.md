@@ -3,10 +3,10 @@ title: Dimensiones móviles
 description: Dimensiones basadas en la dirección IP del dispositivo.
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: 9e7ad96710d536baac6923850e29df49dfaec98f
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 *Esta página hace referencia a las propiedades de los dispositivos móviles que tienen acceso al sitio web. Si desea realizar un seguimiento de los dispositivos en una aplicación móvil, consulte [Implementación de Analytics para dispositivos móviles](/help/implement/mobile-device-sdk.md) en la Guía del usuario de implementación.*
 
-Las dimensiones móviles proporcionan una visión detallada de las propiedades de los dispositivos móviles que visitan el sitio. Puede utilizar estas dimensiones para comprender las funciones que admite un dispositivo móvil.
+Móvil [dimensiones](overview.md) proporciona información sobre las propiedades de los dispositivos móviles que visitan el sitio. Puede utilizar estas dimensiones para comprender las funciones que admite un dispositivo móvil.
 
 ## Rellene estas dimensiones con datos
 
@@ -60,10 +60,10 @@ Si desea recopilar la versión del dispositivo iPhone, hay dos formas de evitar 
 * **Utilice el SDK de iOS**: El SDK móvil contiene dimensiones que exponen la versión del dispositivo para usarla en sistemas de informes. Este método es más ideal para las aplicaciones móviles que para los sitios web.
 * **Utilice otras variables disponibles mediante JavaScript**: Algunas variables, como `screen.height` y `screen.width`, pueden utilizarse para deducir la versión del dispositivo. Por ejemplo, puede utilizar el siguiente fragmento de código en el sitio:
 
-   ```js
-   if (navigator.userAgent.indexOf('iPhone') > -1) {
-     s.eVarXX = screen.width + "x" + screen.height;
-     }
-   ```
+  ```js
+  if (navigator.userAgent.indexOf('iPhone') > -1) {
+    s.eVarXX = screen.width + "x" + screen.height;
+    }
+  ```
 
-   Este bloque de código detecta primero si el dispositivo es un iPhone. Si es así, el código utiliza JavaScript para extraer la resolución de pantalla en una eVar. Este método permite detectar aproximadamente la versión del dispositivo si las resoluciones de pantalla son únicas.
+  Este bloque de código detecta primero si el dispositivo es un iPhone. Si es así, el código utiliza JavaScript para extraer la resolución de pantalla en una eVar. Este método permite detectar aproximadamente la versión del dispositivo si las resoluciones de pantalla son únicas.

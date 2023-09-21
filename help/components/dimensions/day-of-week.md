@@ -3,16 +3,16 @@ title: Día de la semana
 description: El día de la semana, independientemente del intervalo de fechas.
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Día de la semana
 
-La dimensión “Día de la semana” informa del día de la semana en que se produjo la visita. Este informe es útil si desea un informe desglosado por semana, pero no desea días estáticos como elementos de dimensión. Es especialmente útil como dimensión en los informes programados, ya que esta dimensión funciona con cualquier intervalo de fechas.
+El &#39;Día de la semana&#39; [dimensión](overview.md) informa del día de la semana en que se produjo la visita. Este informe es útil si desea un informe desglosado por semana, pero no desea días estáticos como elementos de dimensión. Es especialmente útil como dimensión en los informes programados, ya que esta dimensión funciona con cualquier intervalo de fechas.
 
 ## Rellene esta dimensión con datos
 

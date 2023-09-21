@@ -3,16 +3,16 @@ title: Países
 description: El país desde donde se originó la visita.
 feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 77%
+ht-degree: 74%
 
 ---
 
 # Países
 
-La dimensión “Países” informa del país desde donde se originó la visita. Esta dimensión es útil para determinar de qué países suelen proceder los visitantes del sitio. Puede utilizar estos datos para centrar sus campañas de marketing en estos países o asegurarse de que la experiencia del sitio sea óptima en países que tienen diferentes idiomas principales.
+Los &#39;países&#39; [dimensión](overview.md) informa del país desde donde se originó la visita. Esta dimensión es útil para determinar de qué países suelen proceder los visitantes del sitio. Puede utilizar estos datos para centrar sus campañas de marketing en estos países o asegurarse de que la experiencia del sitio sea óptima en países que tienen diferentes idiomas principales.
 
 ## Rellene esta dimensión con datos
 

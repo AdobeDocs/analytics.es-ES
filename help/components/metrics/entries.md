@@ -3,10 +3,10 @@ title: Entradas
 description: Instancia del primer valor de una visita.
 feature: Metrics
 exl-id: f5d359ce-e6ac-4f80-a30b-ff78cc5fc8dc
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *Esta página de ayuda describe cómo funcionan las entradas como una métrica. Para obtener información sobre cómo funcionan las entradas como dimensiones, consulte [Dimensiones de entrada](../dimensions/entry-dimensions.md).*
 
-La métrica “Entradas” muestra el número de veces que un elemento determinado se captura como el primero de una visita. Esta métrica es útil cuando desea conocer mejor las primeras impresiones del sitio en los visitantes. Ver los primeros valores de una dimensión puede ayudarle a comprender y optimizar la experiencia que obtiene un nuevo visitante.
+Las &#39;entradas&#39; [métrica](overview.md) muestra el número de veces que un elemento determinado se captura como el primer valor de una visita. Esta métrica es útil cuando desea conocer mejor las primeras impresiones del sitio en los visitantes. Ver los primeros valores de una dimensión puede ayudarle a comprender y optimizar la experiencia que obtiene un nuevo visitante.
 
 ## Cálculo de esta métrica
 

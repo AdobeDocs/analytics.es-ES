@@ -3,16 +3,16 @@ title: Nuevos compromisos
 description: Número de veces que se establece un canal de primer contacto.
 feature: Metrics
 exl-id: a419d048-9715-4d7b-9c24-d34129755371
-source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Nuevos compromisos
 
-La métrica “Nuevas participaciones” muestra el número de veces que un visitante coincide con un canal de marketing por primera vez en el periodo de participación de ese visitante. Esta métrica es útil cuando desea comparar cualquier dimensión con un visitante que coincida con una regla de procesamiento de canal de marketing por primera vez.
+Los &#39;nuevos compromisos&#39; [métrica](overview.md) muestra el número de veces que un visitante coincide con un canal de marketing por primera vez en el periodo de participación de ese visitante. Esta métrica es útil cuando desea comparar cualquier dimensión con un visitante que coincida con una regla de procesamiento de canal de marketing por primera vez.
 
 ## Cálculo de esta métrica
 

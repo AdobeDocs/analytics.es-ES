@@ -3,7 +3,7 @@ title: Tiempo empleado por visita (dimensiones)
 description: Cantidad total de tiempo que duró la visita.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Tiempo empleado por visita
 
-*En esta página de ayuda se describe el funcionamiento de “Tiempo empleado por visita” como sus dimensiones correspondientes. Consulte la métrica [Tiempo empleado por visita](../metrics/time-spent-per-visit.md) para obtener más información.*
+*[En esta página de ayuda se describe el funcionamiento de “Tiempo empleado por visita” como sus dimensiones correspondientes](overview.md). Consulte la métrica [Tiempo empleado por visita](../metrics/time-spent-per-visit.md) para obtener más información.*
 
 Las dimensiones “Tiempo empleado por visita” registran la cantidad de tiempo que un visitante ha invertido en toda la visita. Para medir el cálculo se utilizan los pasos siguientes:
 

@@ -3,16 +3,16 @@ title: Pedidos por visita
 description: La proporción de pedidos respecto a las visitas.
 feature: Metrics
 exl-id: 4197e24f-6c97-45be-ab06-08bc64ff5713
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 100%
+ht-degree: 62%
 
 ---
 
 # Pedidos por visita
 
-La métrica “Pedidos por visita” muestra la proporción de pedidos que se realizaron en el visitante durante la cantidad total de visitas al sitio. Puede utilizar esta métrica para comprender la tasa de conversión del sitio.
+Los &quot;Pedidos por visita&quot; [métrica](overview.md) muestra la proporción de pedidos que los visitantes realizaron en relación con la cantidad total de visitas al sitio. Puede utilizar esta métrica para comprender la tasa de conversión del sitio.
 
 ## Cálculo de esta métrica
 

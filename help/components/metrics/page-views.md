@@ -3,8 +3,8 @@ title: Vistas de páginas
 description: El número de veces que un elemento de dimensión se ha establecido o persistido en Adobe Analytics.
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
-workflow-type: ht
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Vistas de páginas
 
-La métrica **[!UICONTROL Vistas de página]** muestra el número de veces que un elemento de dimensión determinado (valor de dimensión) se ha definido o persistido (es decir, cuando caduca) en una página. Es una de las métricas más comunes y básicas de los informes.
+La métrica **[!UICONTROL Vistas de página]** muestra el número de veces que un elemento de dimensión determinado (valor de dimensión) se ha definido o persistido (es decir, cuando caduca) en una página. [](overview.md) Es una de las métricas más comunes y básicas de los informes.
 
 Por ejemplo, la dimensión [!UICONTROL Días de la semana] está compuesta por los siguientes elementos de dimensión: domingo, lunes, martes, miércoles, jueves, viernes y sábado.
 

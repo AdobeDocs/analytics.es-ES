@@ -3,16 +3,16 @@ title: Ciudades
 description: Ciudad en la que se originó la visita.
 feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 89%
+ht-degree: 86%
 
 ---
 
 # Ciudades
 
-La dimensión “Ciudades” indica la ciudad desde la que se originó la visita. Esta dimensión es útil para determinar de qué ciudades suelen proceder los visitantes del sitio. Puede usar estos datos para centrarse en la publicidad local en estas ciudades, como carteleras o anuncios.
+Las &#39;ciudades&#39; [dimensión](overview.md) informa de la ciudad desde la que se originó la visita. Esta dimensión es útil para determinar de qué ciudades suelen proceder los visitantes del sitio. Puede usar estos datos para centrarse en la publicidad local en estas ciudades, como carteleras o anuncios.
 
 ## Rellene esta dimensión con datos
 

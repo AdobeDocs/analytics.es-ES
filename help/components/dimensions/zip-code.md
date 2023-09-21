@@ -3,16 +3,16 @@ title: Código postal
 description: Código postal del visitante.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Código postal
 
-La dimensión “Código postal” indica el código postal del visitante. Puede utilizar esta dimensión para comprender mejor el éxito de la publicidad local o para ver en qué parte del mundo su sitio funciona mejor.
+El &quot;código postal&quot; [dimensión](overview.md) informa del código postal del visitante. Puede utilizar esta dimensión para comprender mejor el éxito de la publicidad local o para ver en qué parte del mundo su sitio funciona mejor.
 
 ## Rellene esta dimensión con datos
 

@@ -3,16 +3,16 @@ title: Dominio
 description: La organización o el ISP que el visitante utiliza para acceder a Internet.
 feature: Dimensions
 exl-id: 292dc256-e9e7-47be-8586-774f1c047011
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 # Dominio
 
-La dimensión “Dominio” indica los puntos de acceso que los visitantes utilizan para acceder a Internet.
+El &quot;dominio&quot; [dimensión](overview.md) informa sobre los puntos de acceso que los visitantes utilizan para acceder a internet.
 
 ## Rellene esta dimensión con datos
 

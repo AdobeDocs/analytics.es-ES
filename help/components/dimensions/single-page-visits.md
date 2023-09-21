@@ -3,7 +3,7 @@ title: Visitas a una sola página (dimensiones)
 description: Un indicador que indica que la visita consistió en una sola página.
 feature: Dimensions
 exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 97%
@@ -12,7 +12,7 @@ ht-degree: 97%
 
 # Visitas de página única
 
-*Esta página de ayuda describe cómo funciona “Visitas de página única” como dimensión. Consulte la métrica [Visita de página única](../metrics/single-page-visits.md) para obtener más información.*
+*[Esta página de ayuda describe cómo funciona “Visitas de página única” como dimensión](overview.md). Consulte la métrica [Visita de página única](../metrics/single-page-visits.md) para obtener más información.*
 
 La dimensión Visitas de página única indica el número de visitas que consistieron en un único elemento de dimensión de [Página](page.md). Es la forma de dimensión de la métrica [Visitas de página única](../metrics/single-page-visits.md).
 

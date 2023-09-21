@@ -3,16 +3,16 @@ title: Área de mercado designada (DMA) de EE.UU.
 description: Área de mercado designada de la visita.
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 85%
+ht-degree: 80%
 
 ---
 
 # Área de mercado designada (DMA) de EE.UU.
 
-La dimensión “DMA de EE. UU.” informa de la zona de mercado designada (DMA) del visitante. Se basa en los mercados de medios recopilados por [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/).
+El &quot;DMA de EE. UU.&quot; [dimensión](overview.md) informa de la zona de mercado designada (DMA) del visitante. Se basa en los mercados de medios recopilados por [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/).
 
 ## Rellene esta dimensión con datos
 

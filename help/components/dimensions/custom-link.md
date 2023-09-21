@@ -3,16 +3,16 @@ title: Vínculo personalizado
 description: Nombre del vínculo personalizado.
 feature: Dimensions
 exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Vínculo personalizado
 
-La dimensión “Vínculo personalizado” indica los nombres de los vínculos personalizados implementados en el sitio. Esta dimensión es valiosa cuando desea comprender los tipos de vínculos en los que más hacen clic los visitantes.
+El &quot;vínculo personalizado&quot; [dimensión](overview.md) informa de los nombres de los vínculos personalizados implementados en el sitio. Esta dimensión es valiosa cuando desea comprender los tipos de vínculos en los que más hacen clic los visitantes.
 
 ## Rellene esta dimensión con datos
 

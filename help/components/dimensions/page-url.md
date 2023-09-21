@@ -3,16 +3,16 @@ title: URL de la página
 description: La URL de la página.
 feature: Dimensions
 exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # URL de la página
 
-La dimensión “URL de página” indica las direcciones URL del sitio.
+La &quot;URL de la página&quot; [dimensión](overview.md) muestra las direcciones URL del sitio.
 
 >[!IMPORTANT]
 >

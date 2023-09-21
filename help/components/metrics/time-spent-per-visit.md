@@ -3,10 +3,10 @@ title: Tiempo empleado por visita (métricas)
 description: Cantidad de tiempo empleado por visita para el elemento de la dimensión.
 feature: Metrics
 exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 *En esta página de ayuda se describe el funcionamiento de “Tiempo empleado por visita” como métrica. Consulte la dimensión [Tiempo empleado por visita](../dimensions/time-spent-per-visit.md) para obtener más información.*
 
-La métrica “Tiempo empleado por visita (segundos)” muestra la cantidad promedio de tiempo que los visitantes interactúan con un elemento de dimensión determinado durante cada visita.
+El tiempo empleado por visita (segundos) [métrica](overview.md) muestra la cantidad de tiempo promedio que los visitantes interactúan con un elemento de dimensión determinado durante cada visita.
 
 Esta métrica no está disponible en Data Warehouse debido a que su arquitectura de procesamiento es diferente.
 

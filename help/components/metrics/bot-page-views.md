@@ -1,18 +1,18 @@
 ---
-title: Vistas de página de bots
+title: Vistas de páginas de bots
 description: Número de vistas de página que coinciden con las reglas de bots.
 feature: Metrics
 exl-id: 9b1efcb1-10ca-40fb-8f20-e6da105366d9
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '124'
+ht-degree: 11%
 
 ---
 
-# Vistas de página de bots
+# Vistas de páginas de bots
 
-La métrica &quot;Vistas de página de bots&quot; muestra el número de visitas individuales de página que coincidieron [Reglas de bots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+Las &quot;vistas de página de bots&quot; [métrica](overview.md) muestra el número de visitas individuales de página que coincidieron [Reglas de bots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 Dado que los informes de bots están separados del resto de los datos del grupo de informes, esta métrica solo funciona con las siguientes dimensiones:
 

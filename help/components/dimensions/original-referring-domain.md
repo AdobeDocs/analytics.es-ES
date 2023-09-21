@@ -3,16 +3,16 @@ title: Dominio de referencia original
 description: El primer dominio de referencia en el que se encontraba un visitante antes de hacer clic en el sitio.
 feature: Dimensions
 exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # Dominio de referencia original
 
-La dimensión “Dominio de referencia original” informa del primer dominio de referencia en el que un visitante hizo clic para llegar al sitio. Una vez configurado, contiene el mismo valor para toda la duración de ese ID de visitante. Esta dimensión es útil para comprender qué sitios de terceros generan tráfico al sitio originalmente.
+El &quot;dominio de referencia original&quot; [dimensión](overview.md) informa del primer dominio de referencia en el que un visitante hizo clic para llegar al sitio. Una vez configurado, contiene el mismo valor para toda la duración de ese ID de visitante. Esta dimensión es útil para comprender qué sitios de terceros generan tráfico al sitio originalmente.
 
 >[!IMPORTANT]
 >

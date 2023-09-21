@@ -3,16 +3,16 @@ title: Inclusión en la administración de consentimiento
 description: Ver qué configuración de privacidad eligió un visitante.
 exl-id: b2768180-b763-41fb-8cba-665fac047e29
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '182'
+ht-degree: 91%
 
 ---
 
 # Inclusión en la administración de consentimiento
 
-La dimensión “Inclusión en la administración de consentimiento” muestra qué configuración de privacidad ha elegido un visitante. Puede utilizar esta dimensión para filtrar los datos en función de la configuración de privacidad o ver los motivos de inclusión de privacidad más comunes.
+La &quot;Inclusión En La Administración De Consentimiento&quot; [dimensión](overview.md) muestra a qué configuración de privacidad se ha suscrito un visitante. Puede utilizar esta dimensión para filtrar los datos en función de la configuración de privacidad o ver los motivos de inclusión de privacidad más comunes.
 
 ## Rellene esta dimensión con datos
 

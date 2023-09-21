@@ -3,16 +3,16 @@ title: Tipo de referente
 description: El tipo de remitente del reenvío, según la procedencia del visitante.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 61a8aec9bbd6102dd3c0eb60362e02d553e1ebd2
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Tipo de referente
 
-La dimensión “tipo de Remitente del reenvío” indica en qué canales genéricos hicieron clic los visitantes para llegar a su sitio. Adobe mantiene las reglas para cada elemento de dimensión, a diferencia de los [canales de marketing](marketing-channel.md), donde su organización mantiene reglas para cada canal.
+El &quot;tipo de referente&quot; [dimensión](overview.md) informa de los canales genéricos en los que hicieron clic los visitantes para llegar al sitio. Adobe mantiene las reglas para cada elemento de dimensión, a diferencia de los [canales de marketing](marketing-channel.md), donde su organización mantiene reglas para cada canal.
 
 ## Rellene esta dimensión con datos
 
