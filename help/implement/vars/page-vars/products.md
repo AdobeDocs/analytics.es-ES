@@ -3,10 +3,10 @@ title: productos
 description: Enviar datos sobre qué productos se muestran o están en el carro de compras.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+source-git-commit: 19bb3da46637bf8afc4e5723e2fa28b490e09c88
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 71%
+source-wordcount: '660'
+ht-degree: 68%
 
 ---
 
@@ -22,7 +22,7 @@ La variable `products` rastrea productos y propiedades vinculados a ellos. Esta 
 
 Los productos son [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en varios campos XDM:
 
-* Categoría asignada a `productListItems[].lineItemId`.
+* Categoría asignada a `productListItems[].productCategories[].categoryID`. Utiliza el primer elemento de la `productCategories[]` matriz. `lineItemId` también se asigna correctamente, pero recomendamos `categoryID` ya que es un XDM estándar. Si ambos campos XDM están presentes `lineItemId` tiene prioridad.
 * El producto está asignado a `productListItems[].SKU` o `productListItems[].name`. Si ambos campos XDM están presentes, `productListItems[].SKU` se utiliza.
 * La cantidad se ha asignado a `productListItems[].quantity`.
 * El precio está asignado a `productListItems[].priceTotal`.
