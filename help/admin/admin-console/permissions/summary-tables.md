@@ -3,7 +3,7 @@ title: 'Permisos de Adobe Analytics: tablas de resumen'
 description: Tablas que resumen los permisos de Adobe Analytics disponibles en Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 98%
@@ -70,6 +70,8 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 | Configuración de vídeo |  |  |  | x | No se usa. |
 | Recursos Web |  |  |  | x | No se usa. |
 
+{style="table-layout:auto"}
+
 ## Herramientas de Analytics
 
 | Herramienta Analytics | Administración | Controles de acceso | Características solo de informes | Obsoleto | Descripción |
@@ -110,3 +112,5 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 | Permisos (escritura) - Servicios Web |  |  |  | x | Ya no se utiliza. Permite al usuario editar permisos de Analytics heredados mediante la API de administración. Utilice Adobe Admin Console en su lugar. |
 | Preferencias |  |  |  | x | No se usa. |
 | Inicio de sesión único |  |  |  | x | Ya no se utiliza. Otorga acceso al servicio de inicio de sesión único obsoleto. |
+
+{style="table-layout:auto"}
