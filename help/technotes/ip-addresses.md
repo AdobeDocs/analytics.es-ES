@@ -3,7 +3,7 @@ title: IP y dominios utilizados por Adobe Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 23de7e6fb9f3b1276c7725ac99154e96e09a8469
+source-git-commit: 32318f2974e4ced630ab6d4090fa9ea5c420ddae
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 73%
@@ -12,15 +12,15 @@ ht-degree: 73%
 
 # IP y dominios utilizados por Adobe Analytics
 
-La configuración de algunos cortafuegos bloquea las direcciones IP que se originan de los servidores de recopilación de datos de Adobe o de los servidores responsables de acceder a datos. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización. Esta página incluye tanto los sistemas entrantes (como la recopilación de datos) como los salientes (como las fuentes de datos) que utiliza el Adobe.
+La configuración de algunos cortafuegos bloquea las direcciones IP que se originan de los servidores de recopilación de datos de Adobe o de los servidores responsables de acceder a datos. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización. Esta página incluye sistemas entrantes (como la recopilación de datos) y salientes (como las fuentes de datos) que utiliza el Adobe.
 
 >[!IMPORTANT]
 >
->Aunque Adobe hace todo lo posible por mantener actualizado este documento, no puede garantizar que la lista de intervalos de IP sea la misma. Los posibles cambios incluyen el crecimiento y la expansión del negocio, un registro de Internet requiere cambios en el espacio de direcciones IP del Adobe o un proveedor de servicio de Internet deja de funcionar.
+>Aunque Adobe hace todo lo posible para mantener este documento actualizado, no puede garantizar que la lista de intervalos de IP sea la misma. Los posibles cambios incluyen el crecimiento y la expansión del negocio, un registro de Internet requiere cambios en el espacio de direcciones IP del Adobe o un proveedor de servicio de Internet deja de funcionar.
 
 ## Permitir dominios de tecnología dependientes
 
-Adobe Analytics utiliza los siguientes hosts para mejorar el rendimiento y la experiencia del producto. Adobe recomienda permitir que estos dominios pasen por el cortafuegos de su organización para disfrutar de una experiencia óptima con Adobe Analytics.
+Adobe Analytics utiliza los siguientes hosts para mejorar el rendimiento y la experiencia del producto. Adobe recomienda permitir estos dominios a través del cortafuegos de su organización para una experiencia óptima con Adobe Analytics.
 
 | Tecnología | Dominio |
 | --- | --- |
@@ -79,15 +79,15 @@ Si su organización prefiere permitir intervalos específicos de direcciones IP,
 
 ## Hosts de AWS
 
-Adobe Analytics utiliza los servicios web de Amazon como parte de su proceso de recopilación de datos. La siguiente tabla incluye las direcciones de host IPv4 de AWS reservadas para el Adobe. Estos hosts **no** están incluidos en el intervalo de bloques acumulado anterior.
+Adobe Analytics utiliza los servicios web de Amazon como parte de su proceso de recopilación de datos. En la tabla siguiente se incluyen las direcciones de host IPv4 de AWS reservadas para el Adobe. Estos hosts **no** están incluidos en el intervalo de bloques acumulado anterior.
 
 | Ubicación | Host |
 | --- | --- |
-| China | `52.80.44.16` |
-| China | `52.80.161.58` |
-| China | `140.179.173.142` |
+| China | `52.80.168.159` |
+| China | `52.80.199.104` |
+| China | `54.223.199.8` |
 
-La siguiente tabla incluye los bloques de direcciones IPv6 de AWS utilizados por el Adobe. Estos hosts **no** están incluidos en el intervalo de bloques acumulado anterior.
+En la tabla siguiente se incluyen los bloques de direcciones IPv6 de AWS que utiliza el Adobe. Estos hosts **no** están incluidos en el intervalo de bloques acumulado anterior.
 
 | Ubicación | Host |
 | --- | --- |
