@@ -3,9 +3,9 @@ title: Permisos de perfil de productos para las herramientas de Analytics
 description: Los elementos de permiso de las herramientas de Analytics conceden acceso a las funciones de Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '491'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,7 @@ Los elementos de permiso de las herramientas de Analytics conceden acceso a las 
 | Elemento de permiso de las herramientas de Analytics | Descripción |
 |----|----|
 | [!UICONTROL Activity Map] | Otorga acceso a Herramientas > Activity Map. Permite al usuario utilizar la extensión Activity Map. |
-| [!UICONTROL Administración de Advertising Analytics] | No se usa. |
+| [!UICONTROL Administración de Advertising Analytics] | Permite a los usuarios configurar/editar/visualizar las cuentas de búsqueda publicitarias. |
 | [!UICONTROL Acceso a Analysis Workspace] | Disponen de acceso a Analysis Workspace. Los usuarios deben pertenecer a este grupo (opción preferida) o a Acceso a Reports &amp; Analytics para utilizar Adobe Analytics. |
 | [!UICONTROL Analysis Workspace: Guardar como plantilla] | Otorga acceso a Proyecto > Guardar como plantilla en Analysis Workspace. |
 | [!UICONTROL Creación de anotaciones] | Concede la capacidad de crear anotaciones. |
