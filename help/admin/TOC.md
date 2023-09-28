@@ -4,9 +4,11 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 48ca87747093efe72476de739f0ee5b1b3fd291a
+hide: true
+hidefromtoc: true
+source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '633'
 ht-degree: 96%
 
 ---
@@ -32,6 +34,7 @@ ht-degree: 96%
    + [Excluir por dirección IP](admin/exclude-ip.md)
    + [Registros](admin/logs.md)
    + [Administrador de actividades de creación de informes](admin/reporting-activity.md)
+   + [Migración de componentes](admin/component-migration.md)
    + Administrador del grupo de informes {#manage-report-suites}
       + Editar la configuración de un grupo de informes {#edit-report-suite}
          + General {#report-suite-general}
@@ -112,7 +115,7 @@ ht-degree: 96%
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Creación de informes de privacidad](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + Administración de Document Cloud {#doc-cloud-mgt}
+         + Gestión de Document Cloud {#doc-cloud-mgt}
             + [Configuración de Document Cloud con Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
             + [Configuración de informes de Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Configuración de Advertising Analytics](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
@@ -171,7 +174,7 @@ ht-degree: 96%
       + [Preguntas frecuentes sobre uso de llamadas al servidor](admin/c-server-call-usage/overage-faq.md)
    + Administración de usuarios y productos (heredados) {#user-product-management}
       + [Administración de usuarios y productos  (Heredados)](admin/user-management2/user-management.md)
-      + [Transferir recursos de usuario o establecer caducidades de cuenta](admin/user-management2/users-assets.md)
+      + [Transferir recursos de usuario o establecer caducidad de cuentas](admin/user-management2/users-assets.md)
       + Migración de usuarios a Adobe Admin Console {#migrate-users}
          + [Migración de usuarios de Analytics a Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migración de cuentas de usuarios de Analytics para Adobe ID](admin/user-management2/user-migration/t-migrate-users.md)
