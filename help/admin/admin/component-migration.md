@@ -2,10 +2,10 @@
 description: Explica cómo migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics.
 title: Migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics
 feature: Admin Tools
-source-git-commit: 73cbfbbad4d8e7bb3107ee08861a6342aba85e84
+source-git-commit: 8eb26f7aa3dcbb21f4d0c042b8d6958aa0a19cf6
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 9%
+source-wordcount: '1649'
+ht-degree: 8%
 
 ---
 
@@ -17,11 +17,13 @@ El proceso de migración incluye lo siguiente:
 
 * Volver a crear proyectos de Adobe Analytics en Customer Journey Analytics.
 
-* Hacer coincidir dimensiones y métricas de grupos de informes de Adobe Analytics con dimensiones y métricas en vistas de datos de Customer Journey Analytics.
+* Asignación de dimensiones y métricas de grupos de informes de Adobe Analytics a dimensiones y métricas en vistas de datos de Customer Journey Analytics.
 
-  Algunas dimensiones y métricas coinciden automáticamente; otras deben coincidir manualmente como parte del proceso de migración.
+  Algunas dimensiones y métricas se asignan automáticamente, mientras que otras se deben asignar manualmente como parte del proceso de migración.
 
 ## Preparación para una migración
+
+Antes de empezar a migrar proyectos a su organización, complete los requisitos previos, conozca qué se migra y qué no, y cree un plan de migración para su organización.
 
 ### Requisitos previos
 
@@ -33,7 +35,7 @@ Antes de que sus proyectos y sus dimensiones y métricas asociadas estén listos
 
    * [Ingesta y uso de los datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=es)
 
-* Asegúrese de que los usuarios de Customer Journey Analytics estén aprovisionados en las vistas de datos en las que coinciden los datos.
+* Asegúrese de que los usuarios de Customer Journey Analytics estén aprovisionados en las vistas de datos donde se asignan los datos.
 
   Para obtener más información, consulte [Permisos de Customer Journey Analytics en el Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) in [control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
@@ -70,9 +72,9 @@ La siguiente tabla indica qué elementos de un proyecto y de un componente se in
 
 ### Creación de un plan de migración como organización
 
-Dado que cualquier componente que coincida con una migración de proyecto determinada se aplica a cualquier migración de proyecto futura de toda la organización, es importante que la organización planifique todas las migraciones de proyecto por adelantado.
+Dado que cualquier componente asignado para una migración de proyecto determinada se aplica a cualquier migración de proyecto futura de toda la organización, es importante que la organización planifique todas las migraciones de proyecto con antelación.
 
-Como organización, debe decidir qué dimensiones y métricas coinciden con qué, a fin de evitar que los administradores individuales tomen decisiones en un silo en el momento de la migración de un proyecto.
+Como organización, debe decidir cómo se asignarán las dimensiones y métricas. Al hacerlo, se evita que los administradores individuales tomen decisiones en un silo al considerar solo un proyecto.
 
 ## Migrar proyectos de Adobe Analytics a Customer Journey Analytics
 
@@ -80,31 +82,15 @@ Como organización, debe decidir qué dimensiones y métricas coinciden con qué
 >
 >Antes de migrar proyectos a Customer Journey Analytics como se describe en esta sección, obtenga más información sobre la migración de proyectos en la [Planificación de la migración](#plan-the-migration) sección anterior.
 >
->Cualquier dimensión o métrica que coincida es permanente, tanto para este proyecto como para todos los proyectos futuros que se migren en toda la organización. No se pueden modificar las coincidencias que realice.
+>Las dimensiones o métricas que asigne son permanentes, tanto para este proyecto como para todos los proyectos futuros que se migren en toda la organización. Las asignaciones que realice no se podrán modificar una vez finalizada la migración.
 
-
-
-1. En Adobe Analytics, seleccione [!UICONTROL **Administrador**] pestaña, luego seleccione [!UICONTROL **Todos los administradores**].
+1. En Adobe Analytics, seleccione la pestaña [!UICONTROL **Administración**] y, a continuación, seleccione [!UICONTROL **Todos los administradores**].
 
 1. En [!UICONTROL **Configuración y recopilación de datos**], seleccione [!UICONTROL **Migración de componentes**].
 
-1. (Condicional) Para encontrar rápidamente el proyecto que desea migrar, puede hacer lo siguiente:
+1. Busque el proyecto que desea migrar. Puede filtrar, ordenar o buscar en la lista de proyectos.
 
-   * Filtre la lista de proyectos seleccionando el icono Filtrar.
-
-     Puede filtrar por los siguientes criterios:
-
-      * Estado
-
-      * Etiquetas
-
-      * Grupo de informes
-
-      * Propietarios
-
-      * Otros filtros
-
-   * Utilice el campo de búsqueda para buscar el proyecto que desea migrar.
+   De forma predeterminada, solo se muestran los proyectos compartidos con usted. Para ver todos los proyectos de su organización, seleccione la **Filtrar** y, a continuación, expanda [!UICONTROL **Otros filtros**] y seleccione [!UICONTROL **Mostrar todo**]. (Para obtener más información sobre cómo filtrar, ordenar y buscar en la lista de proyectos, consulte [Filtrar, ordenar y buscar la lista de proyectos](#filter-sort-and-search-the-list-of-projects).)
 
 1. Pase el ratón sobre el proyecto que quiere migrar y, a continuación, seleccione la **Migrar** icono ![Migrar proyecto](assets/migrate.svg).
 
@@ -122,21 +108,21 @@ Como organización, debe decidir qué dimensiones y métricas coinciden con qué
 
    El propietario que especifique tendrá derechos de administración completos del proyecto.
 
-1. En el [!UICONTROL **Coincidir esquema para grupos de informes**] , seleccione un grupo de informes.
+1. En el [!UICONTROL **Esquema de asignación para grupos de informes**] , seleccione un grupo de informes.
 
 1. En el [!UICONTROL **Vista de datos**] en el menú desplegable, seleccione la vista de datos del Customer Journey Analytics en la que desea migrar el proyecto y los componentes.
 
-1. Seleccionar [!UICONTROL **Coincidir esquema**].
+1. Seleccionar [!UICONTROL **Asignar esquema**].
 
-1. En el [!UICONTROL **Coincidir esquema**] , expanda la [!UICONTROL **Dimension**] y [!UICONTROL **Métricas**] secciones.
+1. En el [!UICONTROL **Asignar esquema**] , expanda la [!UICONTROL **Dimension**] y [!UICONTROL **Métricas**] secciones.
 
-   Algunas dimensiones y métricas de Adobe Analytics coinciden automáticamente con una dimensión o métrica de Customer Journey Analytics. Otros deben coincidir manualmente.
+   Algunas dimensiones y métricas en Adobe Analytics se asignan automáticamente a una dimensión o métrica en Customer Journey Analytics. Otros deben asignarse manualmente.
 
-   **Dimensiones y métricas coincidentes automáticamente**
+   **Asignar automáticamente dimensiones y métricas**
 
-   Algunas dimensiones y métricas de Adobe Analytics coinciden automáticamente con una dimensión o métrica de Customer Journey Analytics. No se puede tomar ninguna decisión que coincida con estas dimensiones y métricas.
+   Algunas dimensiones y métricas en Adobe Analytics se asignan automáticamente a una dimensión o métrica en Customer Journey Analytics. No se puede tomar ninguna decisión de asignación para estas dimensiones y métricas.
 
-   Por ejemplo, la variable **Visitas** La métrica de Adobe Analytics coincide automáticamente con el **Sesiones** métrica en Customer Journey Analytics.
+   Por ejemplo, la variable **Visitas** en Adobe Analytics se asigna automáticamente con la variable **Sesiones** métrica en Customer Journey Analytics.
 
    Puede seleccionar cualquier dimensión o métrica para ver sus ID asociados.
 
@@ -144,28 +130,98 @@ Como organización, debe decidir qué dimensiones y métricas coinciden con qué
 
    ![Esquema de migración del proyecto](assets/project-migration-schema.png)
 
-   **Coincidir manualmente dimensiones y métricas**
+   **Asignación manual de dimensiones y métricas**
 
-   Otras dimensiones y métricas de Adobe Analytics no se pueden hacer coincidir automáticamente con una dimensión o métrica de Customer Journey Analytics.
+   Algunas dimensiones y métricas en Adobe Analytics no se pueden asignar automáticamente a una dimensión o métrica en Customer Journey Analytics.
 
-   Cuando una dimensión o métrica no se puede hacer coincidir automáticamente, aparece un contador naranja junto a la variable [!UICONTROL **Dimension**] o [!UICONTROL **Métricas**] encabezado de sección, que indica el número de dimensiones o métricas que deben coincidir manualmente. En la tabla, un icono de advertencia ![icono de advertencia](assets/schema-warning.png) se muestra junto a cada dimensión o métrica que debe coincidir manualmente.
+   Cuando una dimensión o métrica no se puede asignar automáticamente, aparece un contador naranja junto a [!UICONTROL **Dimension**] o [!UICONTROL **Métricas**] encabezado de sección, que indica el número de dimensiones o métricas que deben asignarse manualmente. En la tabla, un icono de advertencia ![icono de advertencia](assets/schema-warning.png) se muestra junto a cada dimensión o métrica que debe asignarse manualmente.
+
+   Además, la variable [!UICONTROL **Estado**] la columna dice [!UICONTROL **No asignado**].
 
    <!-- update screenshot after I can see the Status column -->
 
-   ![Coincidencia manual del esquema de migración](assets/schema-manual-map.png)
+   ![Asignación manual del esquema de migración](assets/schema-manual-map.png)
 
-1. Para hacer coincidir manualmente dimensiones y métricas, seleccione una dimensión o métrica que contenga un icono de advertencia ![icono de advertencia](assets/schema-warning.png), luego en el [!UICONTROL **Métrica de Customer Journey Analytics coincidente**] (o el [!UICONTROL **Dimensión de Customer Journey Analytics coincidente**] campo (si desea hacer coincidir una dimensión), seleccione la dimensión o métrica del Customer Journey Analytics que desee hacer coincidir con la dimensión o métrica que haya seleccionado.
+1. Para asignar manualmente dimensiones y métricas, seleccione una dimensión o métrica que contenga un icono de advertencia ![icono de advertencia](assets/schema-warning.png), luego en el [!UICONTROL **Métrica de Customer Journey Analytics asignada**] (o el [!UICONTROL **Dimensión de Customer Journey Analytics asignada**] campo (si va a asignar una dimensión), seleccione la dimensión o métrica del Customer Journey Analytics que desee asignar a la dimensión o métrica que haya seleccionado.
 
-   ![dimensiones y métricas coincidentes](assets/schema-manual-map-drop-down.png)
+   ![asignación de dimensiones y métricas](assets/schema-manual-map-drop-down.png)
+
+   Una vez asignada una dimensión o métrica, el icono de advertencia desaparece y la variable [!UICONTROL **Estado**] cambios de columna en [!UICONTROL **Asignado**] con un punto verde. (Un estado de [!UICONTROL **Asignado**] con un punto gris indica que la dimensión o métrica se asignó durante una migración anterior; las asignaciones anteriores no se pueden actualizar.)
 
    Repita este proceso para cada dimensión o métrica que contenga el icono de advertencia.
 
-   Una vez que todas las dimensiones y métricas del grupo de informes de Adobe Analytics coinciden con una dimensión o métrica en la vista de datos del Customer Journey Analytics, active la marca de verificación verde ![marca de verificación](assets/report-suite-check.png) aparece junto al nombre del grupo de informes en la [!UICONTROL **Coincidir esquema para grupos de informes**] sección.
+   Una vez que todas las dimensiones y métricas del grupo de informes de Adobe Analytics se hayan asignado a una dimensión o métrica en la vista de datos del Customer Journey Analytics, aparecerá una marca de verificación verde ![marca de verificación](assets/report-suite-check.png) aparece junto al nombre del grupo de informes en la [!UICONTROL **Esquema de asignación para grupos de informes**] sección.
 
-1. (Condicional) Si el proyecto que está migrando contiene más de un grupo de informes, seleccione otro grupo de informes en la [!UICONTROL **Coincidir esquema para grupos de informes**] y, a continuación, repita los pasos del 6 al 10. <!-- double-check that the step numbers are still correct -->
+1. (Condicional) Si el proyecto que está migrando contiene más de un grupo de informes, seleccione otro grupo de informes en la [!UICONTROL **Esquema de asignación para grupos de informes**] y, a continuación, repita los pasos del 6 al 10. <!-- double-check that the step numbers are still correct -->
 
 1. Seleccionar [!UICONTROL **Migrar**].
 
    >[!WARNING]
    >
-   >   Aparece un mensaje de advertencia en pantalla después de seleccionar [!UICONTROL **Migrar**]. Antes de elegir continuar, es necesario que entienda que cualquier dimensión o métrica que coincida es permanente, tanto para este proyecto como para todos los proyectos futuros que se migran en toda la organización. Si continúa, las coincidencias que realice no se podrán modificar.
+   >   Aparece un mensaje de advertencia en pantalla después de seleccionar [!UICONTROL **Migrar**]. Antes de elegir continuar, es necesario que entienda que cualquier dimensión o métrica que asigne es permanente, tanto para este proyecto como para todos los proyectos futuros que se migren en toda la organización. Si continúa, las asignaciones que realice no se podrán modificar.
+
+   Una vez finalizada la migración, la variable [!UICONTROL **Estado de migración**] proporciona un resumen de lo que se ha migrado.
+
+   Si la migración falla, consulte la [Reintento de una migración fallida](#retry-a-failed-migration) para obtener más información.
+
+## Reintento de una migración fallida
+
+Si falla una migración, puede volver a intentar la migración.
+
+Puede reintentar una migración fallida de cualquiera de las siguientes maneras:
+
+>[!NOTE]
+>
+>Si la migración sigue fallando después de volver a intentarlo, póngase en contacto con el Servicio de atención al cliente con el ID de proyecto. Puede encontrar el ID del proyecto en la página de estado de la migración. <!-- when does this page display? How can they get there -->
+
+1. En Adobe Analytics, seleccione la pestaña [!UICONTROL **Administración**] y, a continuación, seleccione [!UICONTROL **Todos los administradores**].
+
+1. En [!UICONTROL **Configuración y recopilación de datos**], seleccione [!UICONTROL **Migración de componentes**].
+
+1. Seleccionar [!UICONTROL **Error**] en el [!UICONTROL **Estado de migración**] al lado del proyecto que desea volver a intentar.
+
+   ![error de columna de estado de migración](assets/migration-failed.png)
+
+   El [!UICONTROL **Estado de migración**] página muestra.
+
+   Esta página también se muestra inmediatamente después de completar los pasos de migración descritos en la sección [Migrar proyectos de Adobe Analytics a Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics) arriba.
+
+1. Seleccionar [!UICONTROL **Reintentar migración**].
+
+## Filtrar, ordenar y buscar la lista de proyectos
+
+Puede filtrar, ordenar y buscar la lista de proyectos en la página Migración de componentes.
+
+### Filtrado de la lista de proyectos
+
+Puede filtrar por los siguientes criterios:
+
+| Filtro | Descripción |
+|---------|----------|
+| [!UICONTROL **Estado**] | El estado de la migración: <ul><li>[!UICONTROL **Sin iniciar**]</li><li>[!UICONTROL **Iniciado**]</li><li>[!UICONTROL **Completado**]</li><li>[!UICONTROL **Fallido**]</li></ul>. |
+| [!UICONTROL **Etiquetas**] | Seleccione cualquier etiqueta de la lista de etiquetas. Solo se muestran los proyectos que tienen las etiquetas seleccionadas aplicadas. |
+| [!UICONTROL **Grupo de informes**] | Seleccione cualquier grupo de informes de la lista de grupos de informes. Solo se muestran los proyectos que utilizan los grupos de informes seleccionados. |
+| [!UICONTROL **Propietarios**] | Seleccione cualquier propietario de la lista de propietarios. Solo se muestran los proyectos que son propiedad de los usuarios que seleccione. |
+| [!UICONTROL **Otros filtros**] | Los filtros adicionales disponibles son los siguientes: <ul><li>[!UICONTROL **Mío**]: muestra solo los proyectos en los que está establecido como propietario.</li><li>[!UICONTROL **Compartido conmigo**]: muestra solo los proyectos que se han compartido con usted.</li><li>[!UICONTROL **Favoritos**]: Muestra solo los proyectos marcados como favoritos. (Puede marcar un proyecto como favorito desde el menú [página de aterrizaje del proyecto](/help/analyze/landing.md).)</li><li>[!UICONTROL **Mensual**]</li><li>[!UICONTROL **Anual**]</li></ul> |
+
+{style="table-layout:auto"}
+
+### Ordenar la lista de proyectos
+
+Puede ordenar la lista de proyectos por cualquier columna.
+
+Para ordenar la lista de proyectos:
+
+1. Seleccione el encabezado de la columna por la que desea ordenar.
+
+1. (Opcional) Vuelva a seleccionar el mismo encabezado de columna para invertir el orden.
+
+### Buscar un proyecto
+
+Puede buscar en la lista de proyectos de la página Migración de componentes para encontrar el proyecto que desea migrar.
+
+1. En el campo de búsqueda que se encuentra en la parte superior de la página Migración de componentes, empiece a escribir el nombre del proyecto que desea migrar.
+
+1. Seleccione el proyecto cuando aparezca en el menú desplegable.
+
+<!-- is there going to be a way to customize the columns that are displayed? -->
