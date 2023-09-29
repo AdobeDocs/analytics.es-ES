@@ -4,10 +4,10 @@ title: Migrar componentes y proyectos de Adobe Analytics a Customer Journey Anal
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
+source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 8%
+source-wordcount: '1974'
+ht-degree: 9%
 
 ---
 
@@ -116,11 +116,89 @@ Elimine estos elementos del proyecto de Adobe Analytics antes de migrar el proye
 
 * [Alertas](/help/components/c-alerts/intellligent-alerts.md)
 
-### Creación de un plan de migración como organización
+### Decida, como organización, cómo asignará los componentes no compatibles
 
-Dado que cualquier componente asignado para una migración de proyecto determinada se aplica a cualquier migración de proyecto futura de toda la organización, es importante que la organización planifique todas las migraciones de proyecto con antelación.
+>[!IMPORTANT]
+>
+>El proceso de migración identifica los componentes del proyecto de Adobe Analytics que no se pueden asignar automáticamente a los componentes de Customer Journey Analytics y le permite asignarlos manualmente.
+>
+>**Cualquier asignación realizada en un proyecto se aplica a todos los proyectos futuros de toda la organización, independientemente del usuario que realice la migración. Estas asignaciones no se pueden modificar ni deshacer excepto poniéndose en contacto con el Servicio de atención al cliente.**
+>
+>Por ello, es importante que su organización decida cómo se asignarán las dimensiones y métricas antes de migrar cualquier proyecto. Al hacerlo, se evita que los administradores individuales tomen decisiones en un silo al considerar solo un proyecto.
+>
+>A continuación se muestra una lista de dimensiones y métricas que debe asignar manualmente si existen en el proyecto. Se recomienda revisar esta lista antes de la migración. Si alguno de estos componentes existe en el proyecto, decida ahora a qué componentes de Customer Journey Analytics los asignará.
 
-Como organización, debe decidir cómo se asignarán las dimensiones y métricas. Al hacerlo, se evita que los administradores individuales tomen decisiones en un silo al considerar solo un proyecto.
+
+#### Dimensiones no admitidas
+
+* averagepagetime
+* pagetimeseconds
+* singlepagevisits
+* visitnumber
+* timeprior
+* timespent
+* Categoría
+* connectiontype
+* customerloyalty
+* customlink
+* downloadlink
+* exitlink
+* hitdepth
+* hittype
+* pathlength
+* daysbeforefirstpurchase
+* dayssincelastpurchase
+* dayssincelastvisit
+* identificationstate
+* optoutreason
+* persistentcookie
+* returnfrequency
+* searchenginenatural
+* searchenginenaturalkeyword
+* mobilecarrier
+* monitorresolution
+* surveybase
+* mcaudiences
+* tntbase
+* targetraw
+
+
+#### Métricas no admitidas
+
+* timespentvisit
+* timespentvisitor
+* recargas
+* bounces
+* botar
+* pageevents
+* pageviewspervisit
+* orderspervisit
+* averagepagedepth
+* averagetimespentonsite
+* exitlinkinstances
+* customlinkinstances
+* downloadlinkinstances
+* darkvisitors
+* singlepagevisits
+* singlevaluevisits
+* visitorhomepage
+* visitorsmcvisid
+* pagesnotfound
+* nuevos compromisos
+* time_granularity
+* concurrentes_visores_visitantes
+* concurrentes_visores_ocurrencias
+* dispositivos
+* personas estimadas
+* playback_time_spent_seconds
+* playback_time_spent_minutes
+* average_minute_audience_time_based
+* average_minute_audience_media_time
+* average_minute_audience_content_time
+* video_length
+* targetconversion
+* targetimpression
+
 
 ## Migrar proyectos de Adobe Analytics a Customer Journey Analytics
 
@@ -214,11 +292,13 @@ Como organización, debe decidir cómo se asignarán las dimensiones y métricas
 
 Si falla una migración, puede volver a intentar la migración.
 
-Puede reintentar una migración fallida de cualquiera de las siguientes maneras:
+Antes de reintentar una migración fallida, asegúrese de eliminar cualquier [elementos no compatibles](#understand-unsupported-elements-that-cause-errors) del proyecto.
 
 >[!NOTE]
 >
 >Si la migración sigue fallando después de volver a intentarlo, póngase en contacto con el Servicio de atención al cliente con el ID de proyecto. Puede encontrar el ID del proyecto en la página de estado de la migración. <!-- when does this page display? How can they get there -->
+
+Para reintentar una migración fallida:
 
 1. En Adobe Analytics, seleccione la pestaña [!UICONTROL **Administración**] y, a continuación, seleccione [!UICONTROL **Todos los administradores**].
 
