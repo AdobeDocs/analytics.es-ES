@@ -3,9 +3,9 @@ title: Permisos de perfil de producto para las herramientas de grupo de informes
 description: Comprenda cada elemento de permiso en Herramientas de grupos de informes.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
+source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 94%
 
 ---
@@ -44,8 +44,8 @@ Utilice esta página para comprender cada elemento de permiso dentro de Herramie
 | [!UICONTROL Informe en tiempo real] | Otorga acceso a Métricas del sitio > Tiempo real en Reports &amp; Analytics. Utilice el elemento de permiso &#39;Configuración de informes en tiempo real&#39; para otorgar acceso a la configuración de este informe. |
 | [!UICONTROL Configuración de informes en tiempo real] | Otorga acceso a Tiempo real en el Administrador de grupos de informes. Utilice el elemento de permiso &#39;Informe en tiempo real&#39; para conceder acceso al informe en sí. |
 | [!UICONTROL Visitas de retorno] | Otorga acceso a Retención de visitantes > Visitas de retorno en Reports &amp; Analytics. |
-| [!UICONTROL Informes de administradores de Activity Manager] | Por determinar |
-| [!UICONTROL Acceso al Administrador de actividades de creación de informes] | Por determinar |
+| [!UICONTROL Informes de administradores de Activity Manager] | No se usa. |
+| [!UICONTROL Acceso al Administrador de actividades de creación de informes] | No se usa. |
 | [!UICONTROL Administración de conjuntos de informes] | Otorga acceso al Administrador de grupos de informes, pero no permite ningún cambio. |
 | [!UICONTROL Informe breve de imagen del panel de R&amp;A] | No se usa. |
 | [!UICONTROL Informe breve de medición del panel de R&amp;A] | No se usa. |
