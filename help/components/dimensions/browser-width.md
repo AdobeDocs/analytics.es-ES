@@ -3,18 +3,18 @@ title: 'Anchura del explorador: Agrupado'
 description: Anchura de la ventana del explorador en píxeles.
 feature: Dimensions
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 93%
+source-wordcount: '273'
+ht-degree: 81%
 
 ---
 
 # Anchura del explorador
 
-La &quot;Anchura del explorador: agrupado&quot; [dimensión](overview.md) muestra la anchura de la ventana del explorador, clasificada en grupos de 100 píxeles. Esta dimensión es útil cuando desea comprender la amplitud con la que los visitantes ven el contenido. El comprender la amplitud con la que se visualiza el contenido puede permitirle optimizar el contenido para su visualización.
+La &quot;Anchura del explorador: agrupado&quot; [dimensión](overview.md) muestra la anchura de la ventana del explorador, clasificada en grupos predefinidos. Esta dimensión es útil cuando desea comprender la amplitud con la que los visitantes ven el contenido. Comprender la anchura con la que se visualiza el contenido generalmente puede permitirle optimizar ese contenido.
 
-Esta dimensión es diferente a la anchura de la pantalla. La anchura del explorador es el número de píxeles dentro del espacio del explorador visible, mientras que la anchura de la pantalla es el ancho de todo el monitor en píxeles. Si desea ver la diferencia entre estas dos variables en su propio equipo, abra la consola del explorador (F12 en la mayoría de los exploradores) y copie y pegue el siguiente código en la consola:
+Esta dimensión es diferente al ancho de la pantalla. La anchura del explorador es el número de píxeles dentro del espacio del explorador visible, mientras que la anchura de la pantalla es el ancho de todo el monitor en píxeles. Si desea ver la diferencia entre estas dos variables en su propio equipo, abra la consola del explorador (F12 en la mayoría de los exploradores) y copie y pegue el siguiente código en la consola:
 
 ```javascript
 "Browser width: " + window.innerWidth + " pixels\nScreen width: " + screen.width + " pixels";
@@ -30,4 +30,4 @@ Adobe mantiene la anchura del navegador para una visita. Si la anchura del explo
 
 ## Elementos de dimensión
 
-Los elementos de dimensión incluyen todas las anchuras recopiladas del navegador, clasificadas en grupos de 100 píxeles. Por ejemplo, si la anchura del explorador de una visita es `1280`, se agrupa en el elemento de dimensión `1200 to 1299`.
+Los elementos de Dimension incluyen todas las anchuras recopiladas del navegador, clasificadas en grupos predefinidos. Por ejemplo, si la anchura del explorador de una visita es `1280`, se agrupa en el elemento de dimensión `1200 to 1299`.

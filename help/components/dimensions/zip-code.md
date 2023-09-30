@@ -3,10 +3,10 @@ title: Código postal
 description: Código postal del visitante.
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 94%
+source-wordcount: '271'
+ht-degree: 80%
 
 ---
 
@@ -19,13 +19,14 @@ El &quot;código postal&quot; [dimensión](overview.md) informa del código post
 Esta dimensión es única, ya que contiene varias formas de rellenarla con datos. Puede usar uno o una combinación de ambos.
 
 * Configure el código postal directamente mediante la variable `zip`; o
-* configúrela para extraer de los datos de segmentación geográfica.
+* Configúrela para extraer de los datos de geolocalización.
 
 La opción [!UICONTROL Código postal] de [Configuración general de cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) controla cómo desea rellenar esta dimensión.
 
->[!IMPORTANT]
->
->La configuración del grupo de informes es vital si desea tener un control total sobre cómo completar esta dimensión.
+Si decide utilizar cualquier opción que implique geo zip:
+
+* Para implementaciones de AppMeasurement, esta dimensión funciona de forma predeterminada.
+* Para implementaciones de SDK web, habilite [!UICONTROL Búsqueda geográfica] cuando [configuración de una secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es).
 
 ## Elementos de dimensión
 

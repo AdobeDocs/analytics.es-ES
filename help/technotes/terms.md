@@ -3,10 +3,10 @@ title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2549'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Empresa de inicio de sesión:** una recopilación de los grupos de informes que utiliza su organización. Algunas organizaciones tienen varias empresas de inicio de sesión que se aplican a diferentes partes de la organización.
 * **Canal de marketing:** característica de Adobe Analytics que categoriza las visitas según la forma en que llegaron al sitio. La lógica utilizada para categorizar las visitas se puede personalizar mediante reglas de procesamiento del canal de marketing. Consulte [Introducción a los canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) en la guía de usuario sobre componentes.
 * **Métrica:** un tipo de componente que contiene datos cuantitativos. Los valores de las métricas generalmente contienen números, como Vistas de página, Visitas e Ingresos. Su homólogo suele ser una dimensión.
-* **Mobile Services:** aúna las prestaciones de marketing móvil para aplicaciones móviles desde Adobe Experience Cloud, lo que permite que entienda y mejore la participación del usuario con sus aplicaciones móviles. Consulte [Información general de Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=es).
+* **Mobile Services:** Un producto de Adobe retirado que aúna las capacidades de marketing móvil para aplicaciones móviles desde Adobe Experience Cloud, lo que le permite comprender y mejorar la participación del usuario en sus aplicaciones.
 * **Etiquetado de grupos múltiples:** la práctica de enviar la misma visita a varios grupos de informes. Con la introducción de los grupos de informes virtuales, esta práctica ya no es necesaria. La mayoría de los procesos de etiquetado de grupos múltiples se centran en un grupo de informes global.
 * **Normalización:** forma de organizar una visualización que recoge todas las métricas e iguala sus proporciones, lo que permite una comparación más sencilla de las tendencias.
 * **Ocurrencias:** un tipo de métrica que muestra el número de visitas para el que se configuró o durante el cual persistió un elemento de dimensión. Consulte la métrica [Ocurrencias](/help/components/metrics/occurrences.md) en la guía del usuario Componentes.

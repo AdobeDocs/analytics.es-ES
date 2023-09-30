@@ -3,10 +3,10 @@ title: Asignación de variables de Analytics en Adobe Experience Edge
 description: Vea qué campos XDM de Edge se asignan automáticamente a variables de Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: f790407b5495d5fad679a2980c951b2247971069
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 96%
+source-wordcount: '1495'
+ht-degree: 83%
 
 ---
 
@@ -18,16 +18,16 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 
 | Ruta de campo XDM | Dimensión y descripción de Analytics |
 | --- | --- |
-| `application.isClose` | Ayuda a definir la métrica móvil [Bloqueos](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es#metrics). |
-| `application.isInstall` | Ayuda a determinar cuándo aumentar la métrica móvil [Primeros lanzamientos](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es#metrics). |
-| `application.isLaunch` | Ayuda a determinar cuándo aumentar la métrica móvil [Primeros lanzamientos](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es#metrics). |
-| `application.closeType` | Determina si un evento de cierre es un bloqueo o no. Los valores válidos incluyen `close` (finaliza la sesión del ciclo vital y se recibió un evento de pausa para la sesión anterior) y `unknown` (una sesión de ciclo vital termina sin un evento de pausa). Ayuda a establecer la métrica [Bloqueos](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es#metrics). |
-| `application.isInstall` | La métrica móvil [Instalaciones](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es#metrics). |
-| `application.isLaunch` | La métrica móvil [Lanzamientos](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es#metrics). |
-| `application.name` | Ayuda a establecer el [ID de la aplicación](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es#dimensions) de la dimensión móvil. |
-| `application.isUpgrade` | La métrica móvil [Actualizaciones](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es#metrics). |
-| `application.version` | Ayuda a establecer el [ID de la aplicación](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es#dimensions) de la dimensión móvil. |
-| `application.sessionLength` | La métrica móvil [Duración anterior de la sesión](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es#metrics). |
+| `application.isClose` | Ayuda a definir la métrica del ciclo vital móvil [Bloqueos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isInstall` | Ayuda a determinar cuándo aumentar la métrica del ciclo vital móvil [Primeros lanzamientos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isLaunch` | Ayuda a determinar cuándo aumentar la métrica del ciclo vital móvil [Primeros lanzamientos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.closeType` | Determina si un evento de cierre es un bloqueo o no. Los valores válidos incluyen `close` (finaliza la sesión del ciclo vital y se recibió un evento de pausa para la sesión anterior) y `unknown` (una sesión de ciclo vital termina sin un evento de pausa). Ayuda a establecer la métrica de ciclo vital móvil [Bloqueos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) métrica. |
+| `application.isInstall` | La métrica de ciclo vital móvil [Instala](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isLaunch` | La métrica de ciclo vital móvil [Lanzamientos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.name` | Ayuda a establecer la dimensión de ciclo vital móvil [ID de aplicación](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isUpgrade` | La métrica de ciclo vital móvil [Actualizaciones](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.version` | Ayuda a establecer la dimensión de ciclo vital móvil [ID de aplicación](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.sessionLength` | La métrica de ciclo vital móvil [Duración de la sesión anterior](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `commerce.checkouts.id` | Aplica [serialización de eventos](../vars/page-vars/events/event-serialization.md) a la métrica [Cierres de compra](../../components/metrics/checkouts.md). |
 | `commerce.checkouts.value` | Aumenta el valor de la métrica [Cierres de compra](../../components/metrics/checkouts.md) por la cantidad deseada. |
 | `commerce.order.currencyCode` | Establece la variable de configuración [currencyCode](../vars/config-vars/currencycode.md). |
@@ -44,7 +44,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | `commerce.productViews.id` | Aplica [serialización de eventos](../vars/page-vars/events/event-serialization.md) a la métrica [Vistas del producto](../../components/metrics/product-views.md). |
 | `commerce.productViews.value` | Aumenta la métrica [Vistas del producto](../../components/metrics/product-views.md). |
 | `commerce.purchases.value` | Aumenta la métrica [Compras](../../components/metrics/orders.md). |
-| `device.model` | Dimensión móvil [Nombre del dispositivo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es#dimensions). |
+| `device.model` | La dimensión ciclo vital móvil [Nombre del dispositivo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `device.colorDepth` | Ayuda a establecer la dimensión [Profundidad de color](../../components/dimensions/color-depth.md). |
 | `device.screenHeight` | Ayuda a establecer la dimensión [Resolución del monitor.](../../components/dimensions/monitor-resolution.md) |
 | `device.screenWidth` | Ayuda a establecer la dimensión [Resolución del monitor.](../../components/dimensions/monitor-resolution.md) |
@@ -55,12 +55,12 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | `environment.browserDetails.userAgent` | Se utiliza como método de identificación alternativo [visitante único](../../components/metrics/unique-visitors.md). Normalmente se rellena usando el encabezado de solicitud HTTP `User-Agent`. Puede asignar este campo a una eVar si desea utilizarlo en los informes. |
 | `environment.browserDetails.viewportHeight` | Establece la dimensión [Altura del explorador](../../components/dimensions/browser-height.md). |
 | `environment.browserDetails.viewportWidth` | Establece la dimensión [Anchura del explorador](../../components/dimensions/browser-width.md). |
-| `environment.carrier` | La dimensión móvil [Nombre del operador](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es#dimensions). |
+| `environment.carrier` | La dimensión ciclo vital móvil [Nombre del operador](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `environment.connectionType` | Ayuda a establecer la dimensión [Tipo de conexión](../../components/dimensions/connection-type.md). |
 | `environment.ipV4` | Se utiliza como método de identificación alternativo [visitante único](../../components/metrics/unique-visitors.md). Normalmente se rellena usando el encabezado HTTP `X-Forwarded-For`. |
 | `environment.language` | La configuración regional de la dimensión móvil. |
-| `environment.operatingSystem` | El [sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es#dimensions) de la dimensión móvil. |
-| `environment.operatingSystemVersion` | Ayuda a establecer la dimensión [Versión del sistema operativo](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=es#dimensions). |
+| `environment.operatingSystem` | La dimensión ciclo vital móvil [Sistema operativo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `environment.operatingSystemVersion` | Ayuda a establecer la dimensión de ciclo vital móvil [Versión del sistema operativo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Establece la dimensión respectiva [eVar](../../components/dimensions/evar.md). |
 | `_experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`_experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | Establece las dimensiones respectivas [Jerarquía](/help/components/dimensions/hierarchy.md). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Anulación del delimitador prop de lista. No se recomienda utilizar este campo, ya que el delimitador se recupera automáticamente de la [Administración de variables de tráfico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes. El uso de este campo puede crear una discrepancia entre el delimitador utilizado y el delimitador que Analytics espera. |

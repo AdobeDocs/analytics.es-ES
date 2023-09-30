@@ -3,16 +3,16 @@ title: 'Altura del explorador: Agrupado'
 description: Altura de la ventana del explorador en píxeles.
 feature: Dimensions
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 93%
+source-wordcount: '272'
+ht-degree: 87%
 
 ---
 
 # Altura del explorador
 
-La &quot;Altura del explorador: agrupado&quot; [dimensión](overview.md) muestra la altura de la ventana del explorador, clasificada en grupos de 100 píxeles. Esta dimensión es útil cuando desea saber dónde está el “pliegue” en el sitio para los visitantes. Conocer la ubicación del pliegue permite optimizar la visualización del contenido.
+La &quot;Altura del explorador: agrupado&quot; [dimensión](overview.md) muestra la altura de la ventana del explorador, clasificada en grupos predefinidos. Esta dimensión es útil cuando desea saber dónde está el “pliegue” en el sitio para los visitantes. Conocer la ubicación del pliegue permite optimizar la visualización del contenido.
 
 Esta dimensión es diferente a la altura de la pantalla. La altura del explorador es el número de píxeles dentro del espacio visible del explorador, mientras que la altura de la pantalla es la altura de todo el monitor en píxeles. Si desea ver la diferencia entre estas dos variables en su propio equipo, abra la consola del explorador (F12 en la mayoría de los exploradores) y copie y pegue el siguiente código en la consola:
 
@@ -30,4 +30,4 @@ Adobe mantiene la altura del explorador durante una visita. Si la altura del exp
 
 ## Elementos de dimensión
 
-Los elementos de dimensión incluyen todas las alturas recopiladas del navegador, clasificadas en grupos de 100 píxeles. Por ejemplo, si la altura del explorador de una visita es `720`, se agrupa en el elemento de dimensión `700 to 799`.
+Los elementos de Dimension incluyen todas las alturas recopiladas del navegador, clasificadas en grupos predefinidos. Por ejemplo, si la altura del explorador de una visita es `720`, se agrupa en el elemento de dimensión `700 to 799`.

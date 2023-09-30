@@ -3,9 +3,9 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2366'
 ht-degree: 92%
 
 ---
@@ -353,8 +353,8 @@ Fecha de versión: **18 de junio de 2015**
 
 Fecha de versión: **21 de mayo de 2015**
 
-* A partir de iOS SDK versión 4.5, una nueva extensión de iOS le permite recopilar el uso de los datos de sus aplicaciones de Apple Watch, utilidades de Today, utilidades de edición fotográfica y todas las demás aplicaciones de extensión de iOS. Consulte [Implementación de la extensión de iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html?lang=es) en la guía del usuario de Mobile Services.
-* A partir de la versión 4.5 del SDK para Android, una nueva extensión de Android le permitirá recopilar datos de su aplicación Android Wearable. Consulte [Android Wearables](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html?lang=es) en la guía del usuario de Mobile Services.
+* A partir de iOS SDK versión 4.5, una nueva extensión de iOS le permite recopilar el uso de los datos de sus aplicaciones de Apple Watch, utilidades de Today, utilidades de edición fotográfica y todas las demás aplicaciones de extensión de iOS.
+* A partir de la versión 4.5 del SDK para Android, una nueva extensión de Android le permitirá recopilar datos de su aplicación Android Wearable.
 * Inclusión de la API de visitante 1.4.
 * Se ha actualizado el módulo AudienceManagement para que utilice DIL versión 6.0.
 

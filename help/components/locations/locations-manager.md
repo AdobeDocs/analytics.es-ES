@@ -3,20 +3,18 @@ description: Configure la cuenta de importación y la ubicación de la nube en l
 keywords: Analysis Workspace
 title: Administrador de ubicaciones
 feature: Classifications
-source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 1%
+source-wordcount: '293'
+ht-degree: 3%
 
 ---
 
 # Administrador de ubicaciones
 
-El Administrador de ubicaciones permite crear, editar o eliminar ubicaciones.
+El Administrador de ubicaciones permite crear, editar o eliminar ubicaciones. Estas ubicaciones permiten guardar y reutilizar destinos para archivos exportados o orígenes para archivos importados. El administrador de ubicación estará disponible una vez que todos los grupos de informes de su organización utilicen el [Conjunto de clasificaciones](../classifications/sets/overview.md) arquitectura.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Ubicaciones]**
-
-Para importar datos de clasificación de Adobe Analytics desde un destino de nube, primero debe agregar y configurar la ubicación donde desea que se recopilen los datos de clasificación. Esta página explica las distintas opciones disponibles en la página Ubicaciones.
 
 ## Filtrar ubicaciones
 
@@ -50,7 +48,7 @@ Las siguientes opciones están disponibles en el administrador Ubicaciones:
 * **[!UICONTROL Cargar más]**: el administrador de ubicaciones muestra inicialmente hasta 1000 ubicaciones. Este botón carga 1.000 ubicaciones más.
 * **Personalizar tabla**: El icono Personalizar tabla ![Icono Personalizar tabla](assets/customize-table-icon.png) permite elegir qué columnas se muestran en la tabla.
 
-Seleccione la casilla de verificación situada junto a una ubicación para mostrar las siguientes opciones:
+Al seleccionar una casilla de verificación junto a una ubicación, se muestran las siguientes opciones:
 
 * **[!UICONTROL Editar]**: permite editar la ubicación seleccionada. Para obtener información sobre los campos disponibles que puede editar, consulte [Configurar ubicaciones de importación en la nube](/help/components/locations/configure-import-accounts.md).
 * **[!UICONTROL Eliminar]**: elimina las ubicaciones seleccionadas. Esta opción le permite seleccionar varias ubicaciones.

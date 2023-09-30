@@ -3,10 +3,10 @@ title: Tipos de sistemas operativos
 description: El sistema operativo independientemente de la versión.
 feature: Dimensions
 exl-id: 0afd5261-98e8-4247-865a-1b8844c53ff4
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 85%
+source-wordcount: '136'
+ht-degree: 55%
 
 ---
 
@@ -16,8 +16,11 @@ Los &quot;Tipos de sistemas operativos&quot; [dimensión](overview.md) muestra e
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia a una tabla de búsqueda interna de Adobe. El valor de búsqueda se basa en el encabezado HTTP `User-Agent` de las solicitudes de imagen. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante etiquetas en Adobe Experience Platform), esta dimensión funciona de forma predeterminada.
+Esta dimensión hace referencia a una tabla de búsqueda interna de Adobe. El valor de búsqueda se basa en el encabezado HTTP `User-Agent` de las solicitudes de imagen. Adobe se asocia con [DeviceAtlas](https://deviceatlas.com/) para mantener búsquedas entre el agente de usuario y el tipo de sistema operativo.
+
+* Para implementaciones de AppMeasurement, esta dimensión funciona de forma predeterminada.
+* Para implementaciones de SDK web, habilite [!UICONTROL Búsqueda de dispositivos] cuando [configuración de una secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es).
 
 ## Elementos de dimensión
 
-Los elementos de dimensión incluyen el tipo de sistemas operativos utilizados. Los ejemplos incluyen `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"` y `"Apple iOS"`.
+Los elementos de Dimension incluyen el tipo de sistema operativo utilizado. Los ejemplos incluyen `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"` y `"Apple iOS"`.

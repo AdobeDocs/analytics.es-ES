@@ -3,10 +3,10 @@ title: Tipo de explorador
 description: La organización que creó el explorador.
 feature: Dimensions
 exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 89%
+source-wordcount: '155'
+ht-degree: 69%
 
 ---
 
@@ -16,7 +16,10 @@ El &quot;Tipo de explorador&quot; [dimensión](overview.md) enumera las organiza
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia a una tabla de búsqueda interna de Adobe. El valor de búsqueda se basa en el encabezado HTTP `User-Agent` de las solicitudes de imagen. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante etiquetas en Adobe Experience Platform), esta dimensión funciona de forma predeterminada.
+Esta dimensión hace referencia a una tabla de búsqueda interna de Adobe. El valor de búsqueda se basa en el encabezado HTTP `User-Agent` de las solicitudes de imagen. Adobe se asocia con [DeviceAtlas](https://deviceatlas.com/) para mantener búsquedas entre el agente de usuario y el explorador.
+
+* Para implementaciones de AppMeasurement, esta dimensión funciona de forma predeterminada.
+* Para implementaciones de SDK web, habilite [!UICONTROL Búsqueda de dispositivos] cuando [configuración de una secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es).
 
 ## Elementos de dimensión
 
