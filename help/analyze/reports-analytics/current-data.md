@@ -6,7 +6,7 @@ uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 97%
@@ -45,7 +45,7 @@ Las métricas aparecen en uno de los tres lapsos de tiempo siguientes. Al hacer 
 
 Algunos de los datos que se muestran en la vista de datos actuales no se han procesado por completo, por lo que se podrá apreciar una diferencia entre los valores que aparecen en esta vista y los de la vista finalizada. En los informes de tendencias, la diferencia de los datos suele alcanzar un 1%.
 
-## Métricas calculadas
+## Métricas calculadas 
 
 Las métricas calculadas pueden crearse con métricas de latencia variada, por lo que es posible que algunos valores recientes se calculen en la vista de datos actuales con datos incompletos.
 

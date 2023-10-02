@@ -4,7 +4,7 @@ keywords: Métricas calculadas, métricas derivadas y métricas calculadas avanz
 title: Métricas calculadas y calculadas avanzadas (derivadas)
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 88%
@@ -22,7 +22,7 @@ Nuestras herramientas de métricas calculadas ofrecen una forma muy flexible de 
 * [Adobe Analytics Prime](https://www.adobe.com/es/data-analytics-cloud/analytics/prime.html): calculadas + calculadas avanzadas
 * [Adobe Analytics Ultimate](https://www.adobe.com/es/data-analytics-cloud/analytics/ultimate.html): calculadas + calculadas avanzadas
 
-A continuación se muestra una comparación de las métricas calculadas y las capacidades de las métricas calculadas avanzadas:
+A continuación se muestra una comparación de las métricas calculadas y las capacidades avanzadas de las métricas calculadas:
 
 | Opciones del creador | Métricas calculadas  | Métricas calculadas avanzadas (derivadas) |
 |---|---|---|

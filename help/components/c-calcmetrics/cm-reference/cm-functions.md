@@ -3,10 +3,10 @@ description: El Creador de métricas calculadas permite aplicar funciones estad�
 title: 'Referencia: funciones básicas'
 feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -281,4 +281,4 @@ A modo de ejemplo, suponga que tiene una columna de tres elementos:
 
 3
 
-El promedio de esta columna es 2. La varianza de la columna será ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.
+El promedio de esta columna es 2. La variación de la columna será (1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.
