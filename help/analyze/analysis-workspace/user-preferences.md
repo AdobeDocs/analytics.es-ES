@@ -4,10 +4,10 @@ description: Puede establecer preferencias generales y de proyecto para los usua
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
-workflow-type: ht
-source-wordcount: '3063'
-ht-degree: 100%
+source-git-commit: cca740f66783de4323b91dd722e3a108dde6b023
+workflow-type: tm+mt
+source-wordcount: '3156'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ Puede actualizar las preferencias de la compañía que se aplican a todas las pe
 
 {style="table-layout:auto"}
 
-## Preferencias de proyecto
+## Preferencias de proyectos y análisis
 
 Puede personalizar las preferencias de proyecto para todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
 
@@ -73,7 +73,7 @@ Haga clic en los títulos de las preferencias vinculadas para obtener más infor
 | --- | --- | --- |
 | **Mostrar** | | |
 |  | [Ver densidad](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=es) | Elija cuánto contenido se mostrará en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. <ul><li>Compacto</li><li>Cómodo</li><li>Expandido (predeterminado)</li></ul> |
-| | [Paleta de color](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=es) | Elija la paleta de colores de visualización que se utiliza en Analysis Workspace. <ul><li>Paletas proporcionadas por Adobe (predeterminado)</li><li>Paleta de formato condicional </li><li>Paleta arriba/abajo (divergente)<li>Paletas personalizadas</li></ul> |
+| | [Paleta de color](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=es) | Elija las paletas de colores de visualización que se utilizan en Analysis Workspace.<ul><li>**Paleta categórica**: Se aplica a muchas visualizaciones de Analysis Workspace. Cada color representa un valor categórico distinto. Elija entre las opciones proporcionadas por el Adobe o introduzca una paleta personalizada definida por valores hexadecimales delimitados por comas.</li><li>**Paleta divergente**: se aplica a la tabla de cohorte de Analysis Workspace. Esta paleta contiene un significado numérico con dos extremos y una línea de base en el medio.</li><li>**Paleta secuencial**: Se aplica al análisis guiado de tendencias de frecuencia (barra apilada). Esta paleta contiene un significado numérico, de claro a oscuro.</li></ul> |
 | **Datos** | | |
 |  | [Grupo de informes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es#report-suite) | Elija desde dónde las tablas y las visualizaciones obtienen sus datos. <ul><li>Más reciente (predeterminado)</li><li>Grupo de informes específico seleccionado de una lista</li></ul> |
 |  | [Calendario](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es#calendar) | Seleccione de una lista de: <ul><li>Intervalos proporcionados por Adobe (el valor predeterminado es Este mes)</li><li>Intervalos definidos a medida</li></ul> |
@@ -112,10 +112,11 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | **[Fila](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | Desglose por posición | Seleccione esta opción si desea que el desglose permanezca con la posición del elemento en lugar de con el propio elemento. Para obtener más información sobre los desgloses, consulte [Desglose de dimensiones](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md). |
 | | Cálculo de porcentajes | <ul><li>Columna</li><li>Fila</li></ul> |
+| | Totales de columna (solo filas estáticas) | <ul><li>Mostrar suma de filas: muestra la suma de los elementos de línea individuales </li><li>Mostrar el total general: muestra la suma de filas deduplicadas.</li></ul> |
 
 ## Preferencias de visualizaciones
 
-Puede actualizar las preferencias de visualización para todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
+Puede actualizar las preferencias de visualización de todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
 
 Algunas de estas mismas preferencias también se pueden personalizar para visualizaciones individuales.
 
