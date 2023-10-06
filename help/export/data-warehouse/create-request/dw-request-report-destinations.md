@@ -2,10 +2,11 @@
 description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración del destino de un informe para una solicitud de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
+exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
+source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 16%
+source-wordcount: '2255'
+ht-degree: 15%
 
 ---
 
@@ -78,7 +79,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -90,7 +91,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -106,7 +107,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -120,7 +121,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Correo electrónico
 
@@ -147,7 +148,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -160,7 +161,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -173,7 +174,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -187,7 +188,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
    1. Seleccione [!UICONTROL **Guardar**].
 
@@ -209,14 +210,59 @@ Los datos del Data Warehouse se pueden entregar en un Adobe o en una ubicación 
 
 Utilice la siguiente información al completar los campos disponibles:
 
-* [!UICONTROL **Host**]: introduzca la dirección URL de destino de FTP que desee. Por ejemplo, `ftp://ftp.omniture.com`.
-* [!UICONTROL **Ruta**]: se puede dejar en blanco
+#### Campos de cuenta
+
+* [!UICONTROL **Nombre de cuenta**]: nombre de la cuenta de FTP.
+
+* [!UICONTROL **Descripción de cuenta**]: una descripción de la cuenta de FTP.
+
+* [!UICONTROL **Hostname**]: introduzca la dirección URL de destino de FTP que desee. Por ejemplo, `ftp.company.com`.
+
+  >[!NOTE]
+  >
+  >  No incluir `ftp://` al principio de la dirección URL.
+
 * [!UICONTROL **Nombre de usuario**]: introduzca el nombre de usuario para iniciar sesión en el sitio FTP.
+
 * [!UICONTROL **Contraseña y confirmar contraseña**]: introduzca la contraseña para iniciar sesión en el sitio FTP.
+
+#### Campos de ubicación
+
+* [!UICONTROL **Nombre de ubicación**]: nombre de la ubicación de la cuenta de FTP a la que desea enviar los archivos.
+
+* [!UICONTROL **Descripción de ubicación**]: una descripción de la ubicación en la cuenta de FTP.
+
+* [!UICONTROL **Ruta de directorio**]: Ruta a la ubicación en la cuenta de FTP.
 
 ### SFTP
 
 La compatibilidad con SFTP para Data Warehouse está disponible. Se necesita un host SFTP, un nombre de usuario y el sitio de destino para contener una clave pública RSA o DSA válida. Puede descargar la clave pública adecuada al crear el destino de Data Warehouse.
+
+Utilice la siguiente información al completar los campos disponibles:
+
+#### Campos de cuenta
+
+* [!UICONTROL **Nombre de cuenta**]: nombre de la cuenta de FTP.
+
+* [!UICONTROL **Descripción de cuenta**]: una descripción de la cuenta de FTP.
+
+* [!UICONTROL **Hostname**]: introduzca la dirección URL de destino SFTP que desee. Por ejemplo, `sftp.company.com`.
+
+  >[!NOTE]
+  >
+  >  No incluir `sftp://` al principio de la dirección URL.
+
+* [!UICONTROL **Nombre de usuario**]: introduzca el nombre de usuario para iniciar sesión en el sitio SFTP.
+
+* [!UICONTROL **Claves públicas**]: descargue la clave pública adecuada al crear el destino del almacén de datos.
+
+#### Campos de ubicación
+
+* [!UICONTROL **Nombre de ubicación**]: nombre de la ubicación de la cuenta SFTP a la que desea enviar los archivos.
+
+* [!UICONTROL **Descripción de ubicación**]: una descripción de la ubicación en la cuenta SFTP.
+
+* [!UICONTROL **Ruta de directorio**]: Ruta a la ubicación en la cuenta SFTP.
 
 ### S3
 
