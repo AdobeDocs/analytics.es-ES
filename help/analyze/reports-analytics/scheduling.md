@@ -6,19 +6,18 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1655'
 ht-degree: 90%
 
 ---
 
 # Programación y distribución del informe
 
-Información sobre cómo programar, descargar y distribuir informes.
+{{ra-eol}}
 
->[!IMPORTANT]
->El 21 de abril de 2022, anunciamos la desaprobación de varias funciones específicas de los informes programados como preparación para el fin de vida útil anunciado anteriormente para Reports &amp; Analytics. Estas funciones incluían la capacidad de programar nuevos informes, así como nuevos extractos de datos. En respuesta a las solicitudes de los clientes que buscan una extensión y para facilitar la transición desde Reports &amp; Analytics, hemos decidido ampliar el acceso a estas funciones hasta el 31 de enero de 2023. Tenga en cuenta que los plazos de caducidad para los informes y los extractos de datos seguirán estando limitados a nueve meses; la entrega de informes y extracciones de datos se pausará al final de este periodo a menos que se reactive la programación. [Más información](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+Información sobre cómo programar, descargar y distribuir informes.
 
 Al programar un informe para su envío a una aplicación de Adobe Analytics, se pueden utilizar las herramientas de programación y distribución para ver qué archivos se han enviado automáticamente y así modificar o finalizar los envíos.
 

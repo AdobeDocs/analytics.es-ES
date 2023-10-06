@@ -4,19 +4,18 @@ title: Configuración de visualización de informes y navegación
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1471'
 ht-degree: 98%
 
 ---
 
 # Configuración de visualización de informes y navegación
 
-Configuración que define cómo aparecen todos los informes y la información que asigna las opciones de menú predeterminadas a su ubicación en el menú simplificado.
+{{ra-eol}}
 
->[!IMPORTANT]
->A partir del **31 de diciembre de 2023**, Adobe tiene la intención de descatalogar Reports &amp; Analytics, y sus informes y funciones correspondientes. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejarán de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de Reports &amp; Analytics se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. Este aviso explica el proceso de finalización de la vida útil.
+Configuración que define cómo aparecen todos los informes y la información que asigna las opciones de menú predeterminadas a su ubicación en el menú simplificado.
 
 ## Configuración de visualización de informes y navegación {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
@@ -45,7 +44,7 @@ Configuración que define cómo aparecen todos los informes y la información qu
 | **Idioma/Moneda/Codificación** |  |
 | Separador de miles | Seleccione un separador para cada miles (decimal o coma). Según el país, se utiliza el punto o la coma para separar los miles. (Este separador se aplica a todos los números del sistema, no solo a la moneda.) |
 | Utilice la moneda predeterminada del grupo de informes | Especifica si se utiliza la moneda predeterminada del grupo de informes. |
-| Moneda | La moneda a la que quiere convertir sus datos. Cuando se selecciona un valor en esta configuración, la selección no afecta a los datos almacenados en la base de datos, pero se muestra como un valor convertido basado en la tasa de conversión de moneda del día actual. Cuando no se han configurado las opciones de moneda (cuando son las predeterminadas), no se realiza ninguna conversión de moneda, y todos los valores se almacenan y se muestran en dólares estadounidenses (USD). Para convertir la moneda cuando se procesen los datos (antes de mostrarlos), póngase en contacto con el equipo de cuentas de Adobe. |
+| Moneda | La moneda a la que quiere convertir sus datos. Cuando se selecciona un valor en esta configuración, la selección no afecta a los datos almacenados en la base de datos, pero se muestra como un valor convertido basado en la tasa de conversión de moneda del día actual. Cuando no se han configurado las opciones de moneda (cuando son las predeterminadas), no se realiza ninguna conversión de moneda, y todos los valores se almacenan y se muestran en dólares estadounidenses (USD). Para convertir la divisa cuando se procesen los datos (antes de mostrarlos), póngase en contacto con el equipo de cuenta de Adobe. |
 | Codificación de informe programado | Shift-JIS para la codificación de caracteres japoneses. EUC-JP para código Unix ampliado, principalmente para japonés, coreano y chino simplificado. |
 | Carácter separador de CSV | El carácter que desea utilizar para separar valores CSV. |
 
@@ -62,92 +61,92 @@ Si está acostumbrado al menú predeterminado, la tabla siguiente le facilita en
 | Ubicación en el menú predeterminado | Ubicación en el menú simplificado |
 |---|---|
 | **Métricas del sitio** |  |  |
-|  | Información general de sitio | Métricas > Información general del sitio |
-|  | Métricas clave | Métricas > Métricas clave |
-|  | Vistas de páginas | Métricas > Vistas de páginas |
-|  | Visitas | Métricas > Visitas |
-|  | Visitantes | Métricas > Visitantes |
-|  | Tiempo empleado por visita | Métricas > Tiempo empleado por visita |
-|  | Tiempo previo al evento | Métricas > Tiempo previo al evento |
-|  | Compras | Métricas > Compras |
-|  | Carro de compras | Métricas > Carro de compras |
-|  | Eventos personalizados | Métricas > Eventos personalizados |
-|  | Bots | Audiencia > Bots |
-|  | Detección de anomalías | Métricas > Detección de anomalías |
-|  | Tiempo real | Métricas > Tiempo real |
+|   | Información general de sitio | Métricas > Información general del sitio |
+|   | Métricas clave | Métricas > Métricas clave |
+|   | Vistas de páginas | Métricas > Vistas de páginas |
+|   | Visitas | Métricas > Visitas |
+|   | Visitantes | Métricas > Visitantes |
+|   | Tiempo empleado por visita | Métricas > Tiempo empleado por visita |
+|   | Tiempo previo al evento | Métricas > Tiempo previo al evento |
+|   | Compras | Métricas > Compras |
+|   | Carro de compras | Métricas > Carro de compras |
+|   | Eventos personalizados | Métricas > Eventos personalizados |
+|   | Bots | Audiencia > Bots |
+|   | Detección de anomalías | Métricas > Detección de anomalías |
+|   | Tiempo real | Métricas > Tiempo real |
 | **Contenido del sitio** |  |  |
-|  | Páginas | Contenido > Páginas |
-|  | Secciones del sitio | Contenido > Secciones del sitio |
-|  | Servidores | Contenido > Servidores |
-|  | Vínculos | Navegación > Vínculos personalizados; Navegación > Vínculos de salida; Navegación > ClickMap; Navegación > Descargas de archivos |
-|  | Páginas no encontradas | Navegación > Páginas no encontradas |
+|   | Páginas | Contenido > Páginas |
+|   | Secciones del sitio | Contenido > Secciones del sitio |
+|   | Servidores | Contenido > Servidores |
+|   | Vínculos | Navegación > Vínculos personalizados; Navegación > Vínculos de salida; Navegación > ClickMap; Navegación > Descargas de archivos |
+|   | Páginas no encontradas | Navegación > Páginas no encontradas |
 | **Mobile** |  |  |
-|  | Dispositivos | Audiencia > Móvil > Dispositivos |
-|  | Tipo de dispositivo | Audiencia > Móvil > Tipo de dispositivo |
-|  | Fabricante | Audiencia > Móvil > Fabricante |
-|  | Tamaño de la pantalla | Audiencia > Móvil > Tamaño de la pantalla |
-|  | Altura de la pantalla | Audiencia > Móvil > Altura de la pantalla |
-|  | Ancho de la pantalla | Audiencia > Móvil > Ancho de la pantalla |
-|  | Compatibilidad con cookies | Audiencia > Móvil > Compatibilidad con cookies |
-|  | Compatibilidad con imágenes | Audiencia > Móvil > Compatibilidad con imágenes |
-|  | Profundidad de color | Audiencia > Móvil > Profundidad de color |
-|  | Compatibilidad con audio | Audiencia > Móvil > Compatibilidad con audio |
-|  | Compatibilidad con vídeo | Audiencia > Móvil > Compatibilidad con vídeo |
-|  | Sistema operativo | Audiencia > Móvil > Sistema operativo |
+|   | Dispositivos | Audiencia > Móvil > Dispositivos |
+|   | Tipo de dispositivo | Audiencia > Móvil > Tipo de dispositivo |
+|   | Fabricante | Audiencia > Móvil > Fabricante |
+|   | Tamaño de la pantalla | Audiencia > Móvil > Tamaño de la pantalla |
+|   | Altura de la pantalla | Audiencia > Móvil > Altura de la pantalla |
+|   | Ancho de la pantalla | Audiencia > Móvil > Ancho de la pantalla |
+|   | Compatibilidad con cookies | Audiencia > Móvil > Compatibilidad con cookies |
+|   | Compatibilidad con imágenes | Audiencia > Móvil > Compatibilidad con imágenes |
+|   | Profundidad de color | Audiencia > Móvil > Profundidad de color |
+|   | Compatibilidad con audio | Audiencia > Móvil > Compatibilidad con audio |
+|   | Compatibilidad con vídeo | Audiencia > Móvil > Compatibilidad con vídeo |
+|   | Sistema operativo | Audiencia > Móvil > Sistema operativo |
 | **Rutas** |  |  |
-|  | Páginas | Navegación > Rutas > Páginas |
-|  | Términos de búsqueda interna | Navegación > Rutas > Términos de búsqueda interna |
+|   | Páginas | Navegación > Rutas > Páginas |
+|   | Términos de búsqueda interna | Navegación > Rutas > Términos de búsqueda interna |
 | **Fuentes de tráfico** |  |  |
-|  | Palabra clave de búsqueda: todo | Fuentes de tráfico > Palabra clave de búsqueda: todo |
-|  | Palabra clave de búsqueda: de pago | Fuentes de tráfico > Palabra clave de búsqueda: de pago |
-|  | Palabra clave de búsqueda: natural | Fuentes de tráfico > Palabra clave de búsqueda: natural |
-|  | Motores de búsqueda: todo | Fuentes de tráfico > Motores de búsqueda: todo |
-|  | Motores de búsqueda: de pago | Fuentes de tráfico > Motores de búsqueda: de pago |
-|  | Motores de búsqueda: natural | Fuentes de tráfico > Motores de búsqueda: natural |
-|  | Clasificación de todas las páginas de búsqueda | Fuentes de tráfico > Clasificación de todas las páginas de búsqueda |
-|  | Dominios de referencia | Fuentes de tráfico > Dominios de referencia |
-|  | Dominios de referencia originales | Fuentes de tráfico > Dominios de referencia originales |
-|  | Referentes | Fuentes de tráfico > Referentes |
-|  | Tipos de referente | Fuentes de tráfico > Tipos de referente |
+|   | Palabra clave de búsqueda: todo | Fuentes de tráfico > Palabra clave de búsqueda: todo |
+|   | Palabra clave de búsqueda: de pago | Fuentes de tráfico > Palabra clave de búsqueda: de pago |
+|   | Palabra clave de búsqueda: natural | Fuentes de tráfico > Palabra clave de búsqueda: natural |
+|   | Motores de búsqueda: todo | Fuentes de tráfico > Motores de búsqueda: todo |
+|   | Motores de búsqueda: de pago | Fuentes de tráfico > Motores de búsqueda: de pago |
+|   | Motores de búsqueda: natural | Fuentes de tráfico > Motores de búsqueda: natural |
+|   | Clasificación de todas las páginas de búsqueda | Fuentes de tráfico > Clasificación de todas las páginas de búsqueda |
+|   | Dominios de referencia | Fuentes de tráfico > Dominios de referencia |
+|   | Dominios de referencia originales | Fuentes de tráfico > Dominios de referencia originales |
+|   | Referentes | Fuentes de tráfico > Referentes |
+|   | Tipos de referente | Fuentes de tráfico > Tipos de referente |
 | **Campañas** |  |  |
-|  | Canal de conversión de campañas | Fuentes de tráfico > Campañas > Canal de conversión de campañas |
-|  | Código de seguimiento | Fuentes de tráfico > Campañas > Código de seguimiento |
+|   | Canal de conversión de campañas | Fuentes de tráfico > Campañas > Canal de conversión de campañas |
+|   | Código de seguimiento | Fuentes de tráfico > Campañas > Código de seguimiento |
 | **Productos** |  |  |
-|  | Canal de conversión de productos | Conversión > Productos > Canal de conversión de productos |
-|  | Productos | Conversión > Productos > Productos |
-|  | Venta cruzada | Conversión > Productos > Venta cruzada |
-|  | Categorías | Conversión > Productos > Categorías |
+|   | Canal de conversión de productos | Conversión > Productos > Canal de conversión de productos |
+|   | Productos | Conversión > Productos > Productos |
+|   | Venta cruzada | Conversión > Productos > Venta cruzada |
+|   | Categorías | Conversión > Productos > Categorías |
 | **Retención de visitantes** |  |  |
-|  | Frecuencia de retorno | Audiencia > Retención de visitantes > Frecuencia de retorno |
-|  | Visitas de retorno | Audiencia > Retención de visitantes > Visitas de retorno |
-|  | Visitas de retorno diario | Audiencia > Retención de visitantes > Visitas de retorno diario |
-|  | Número de visita | Audiencia > Retención de visitantes > Número de visitas |
-|  | Ciclo de ventas | Audiencia > Retención de visitantes > Ciclo de ventas |
+|   | Frecuencia de retorno | Audiencia > Retención de visitantes > Frecuencia de retorno |
+|   | Visitas de retorno | Audiencia > Retención de visitantes > Visitas de retorno |
+|   | Visitas de retorno diario | Audiencia > Retención de visitantes > Visitas de retorno diario |
+|   | Número de visita | Audiencia > Retención de visitantes > Número de visitas |
+|   | Ciclo de ventas | Audiencia > Retención de visitantes > Ciclo de ventas |
 | **Perfil del visitante** |  |  |
-|  | Segmentación geográfica | Audiencia > Perfil del visitante > Segmentación geográfica |
-|  | Idiomas | Audiencia > Perfil del visitante > Idiomas |
-|  | Zonas horarias | Audiencia > Perfil del visitante > Zonas horarias |
-|  | Dominios | Audiencia > Perfil del visitante > Dominios |
-|  | Dominios de nivel superior | Audiencia > Perfil del visitante > Dominios de nivel superior |
-|  | Tecnología | Audiencia > Perfil del visitante > Tecnología |
-|  | Estado del visitante | Audiencia > Perfil del visitante > Estado de visitante |
-|  | Código postal del visitante | Audiencia > Perfil del visitante > Código postal del visitante |
+|   | Segmentación geográfica | Audiencia > Perfil del visitante > Segmentación geográfica |
+|   | Idiomas | Audiencia > Perfil del visitante > Idiomas |
+|   | Zonas horarias | Audiencia > Perfil del visitante > Zonas horarias |
+|   | Dominios | Audiencia > Perfil del visitante > Dominios |
+|   | Dominios de nivel superior | Audiencia > Perfil del visitante > Dominios de nivel superior |
+|   | Tecnología | Audiencia > Perfil del visitante > Tecnología |
+|   | Estado del visitante | Audiencia > Perfil del visitante > Estado de visitante |
+|   | Código postal del visitante | Audiencia > Perfil del visitante > Código postal del visitante |
 | **Conversión personalizada** |  |  |
-|  | Conversión personalizada 1-10 | Conversión > Conversión personalizada > Conversión personalizada 1-10 |
-|  | Conversión personalizada 11-20 | Conversión > Conversión personalizada > Conversión personalizada 11-20 |
+|   | Conversión personalizada 1-10 | Conversión > Conversión personalizada > Conversión personalizada 1-10 |
+|   | Conversión personalizada 11-20 | Conversión > Conversión personalizada > Conversión personalizada 11-20 |
 | **Tráfico personalizado** |  |  |
-|  | Tráfico personalizado 1-10 | Contenido > Tráfico personalizado > Tráfico personalizado 1-10 |
+|   | Tráfico personalizado 1-10 | Contenido > Tráfico personalizado > Tráfico personalizado 1-10 |
 | **Test&amp;Target** |  | Conversión > Test&amp;Target |
 | **Encuesta** |  | Audiencia > Survey |
 | **Canales de marketing** |  |  |
-|  | Informe de descripción general de canal | Fuentes de tráfico > Canales de marketing > Informe de descripción general de canal |
-|  | Canal de primer contacto | Fuentes de tráfico > Canales de marketing > Canal de primer toque |
-|  | Detalles de canal de primer contacto | Fuentes de tráfico > Canales de marketing > Detalles de canal de primer toque |
-|  | Canal de último contacto | Fuentes de tráfico > Canales de marketing > Canal de último toque |
-|  | Detalles de canal de último contacto | Fuentes de tráfico > Canales de marketing > Detalles de canal de último toque |
+|   | Informe de descripción general de canal | Fuentes de tráfico > Canales de marketing > Informe de descripción general de canal |
+|   | Canal de primer contacto | Fuentes de tráfico > Canales de marketing > Canal de primer toque |
+|   | Detalles de canal de primer contacto | Fuentes de tráfico > Canales de marketing > Detalles de canal de primer toque |
+|   | Canal de último contacto | Fuentes de tráfico > Canales de marketing > Canal de último toque |
+|   | Detalles de canal de último contacto | Fuentes de tráfico > Canales de marketing > Detalles de canal de último toque |
 | **Aplicación móvil** |  |  |
-|  | Información general de aplicación móvil | Contenido > Aplicación móvil > Información general de aplicación móvil |
-|  | Informes de ciclo de vida | Contenido > Aplicación móvil > Informes de ciclo de vida |
+|   | Información general de aplicación móvil | Contenido > Aplicación móvil > Información general de aplicación móvil |
+|   | Informes de ciclo de vida | Contenido > Aplicación móvil > Informes de ciclo de vida |
 | **Informes personalizados** |  |  |
-|  | Los informes personalizados solo se muestran si tiene alguno configurado. | Informes personalizados |
-|  |  |  |
+|   | Los informes personalizados solo se muestran si tiene alguno configurado. | Informes personalizados |
+|   |  |  |

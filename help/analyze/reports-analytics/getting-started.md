@@ -4,19 +4,18 @@ title: Introducción a Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 95%
+source-wordcount: '695'
+ht-degree: 94%
 
 ---
 
 # Introducción a Reports &amp; Analytics
 
-Antes de usar Reports &amp; Analytics, es necesario que comprenda estas tareas básicas de inicio de sesión y configuración, y que sepa cómo acceder a la información de la cuenta.
+{{ra-eol}}
 
->[!IMPORTANT]
->A partir del **31 de diciembre de 2023**, Adobe tiene la intención de descatalogar Reports &amp; Analytics, y sus informes y funciones correspondientes. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejarán de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de Reports &amp; Analytics se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. Este aviso explica el proceso de finalización de la vida útil.
+Antes de usar Reports &amp; Analytics, es necesario que comprenda estas tareas básicas de inicio de sesión y configuración, y que sepa cómo acceder a la información de la cuenta.
 
 Los informes ofrecen perspectivas de sus canales tradicionales basados en web y de los canales emergentes como móvil, vídeo y redes sociales. A continuación, mostramos algunos ejemplos de informes de
 
@@ -40,7 +39,7 @@ Requisitos del sistema y del explorador para iniciar sesión en la interfaz de R
 
 ## Inicie de sesión en Reports &amp; Analytics
 
-Antes de acceder a la interfaz, póngase en contacto con el equipo de cuentas de Adobe o con el servicio de atención al cliente para configurar la cuenta de su empresa.
+Antes de acceder a la interfaz, colabore con su equipo de cuenta de Adobe o con el Servicio de atención al cliente para configurar la cuenta de su empresa.
 
 ## Inicie sesión utilizando Experience Cloud
 
