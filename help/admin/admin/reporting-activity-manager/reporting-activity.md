@@ -1,0 +1,227 @@
+---
+description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
+title: Administrador de actividades de creación de informes
+feature: Admin Tools
+mini-toc-levels: 3
+exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
+source-git-commit: 0e03379550808e5be3e86f0f9ddbbedd026d4910
+workflow-type: tm+mt
+source-wordcount: '1593'
+ht-degree: 24%
+
+---
+
+# Ver la actividad de creación de informes en el Administrador de actividades de informes
+
+{{release-limited-testing}}
+
+El [!UICONTROL Administrador de actividades de informes] permite a los administradores diagnosticar y corregir rápidamente los problemas de capacidad de creación de informes durante las horas de mayor actividad en los informes.
+
+Para obtener más información sobre el Administrador de actividades de creación de informes, incluidas las ventajas clave y los requisitos de permisos, consulte [Información general del Administrador de actividades de creación de informes](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
+
+## Ver la actividad de informes de todos los grupos de informes {#view-all-report-suites}
+
+1. En Adobe Analytics, vaya a **[!UICONTROL Administrador]** > **[!UICONTROL Administrador de actividades de informes]**.
+
+   Se muestra una lista de los grupos de informes base habilitados.
+
+   ![cola de informes](/help/admin/admin/assets/reporting-activity1.png) 
+
+1. (Opcional) Puede buscar o filtrar la lista de grupos de informes:
+
+   * Utilice el campo de búsqueda para buscar un grupo de informes específico. Empiece a escribir el nombre o ID del grupo de informes y la lista de grupos de informes se actualiza a medida que escribe.
+
+   * Seleccione el [!UICONTROL **Filtrar**] icono ![Icono de filtro](assets/filter-icon.png) para expandir la lista de opciones de filtro. Puede filtrar por [!UICONTROL **Favoritos**] o [!UICONTROL **Estado**].
+
+     Para marcar un grupo de informes como favorito, seleccione el icono de estrella a la izquierda del nombre del grupo de informes.
+
+<!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
+
+1. Ver información de utilización de cada grupo de informes. Puede seleccionar un encabezado de columna para ordenar la tabla por esa columna.
+
+   Las columnas disponibles son las siguientes:
+
+   | Elemento de la IU | Descripción |
+   | --- | --- |
+   | **[!UICONTROL Grupo de informes]** | El grupo de informes base cuya actividad de creación de informes está monitorizando. |
+   | **[!UICONTROL Grupos de informes virtuales]** | Muestra todos los grupos de informes virtuales que se alimentan de este grupo de informes base. Los grupos de informes virtuales añaden complejidad a las solicitudes de creación de informes debido a los niveles adicionales de filtrado y segmentación aplicados. Todas las solicitudes que provienen de los grupos de informes virtuales se combinan y se reducen al grupo de informes base.<p>Por ejemplo, si tiene 10 solicitudes procedentes de 5 grupos de informes virtuales, son 50 solicitudes en el grupo de informes base. De este modo, puede alcanzar la capacidad rápidamente. |
+   | **[!UICONTROL Utilización de la capacidad]** | El porcentaje de la capacidad de creación de informes del grupo de informes que se está utilizando en tiempo real. <p>**Nota** Incluso una capacidad de uso del 100 % no significa necesariamente que deba empezar a cancelar las solicitudes de creación de informes. La capacidad de uso del 100% puede ser saludable si el tiempo de espera promedio es razonable. Un 100 % de capacidad de uso podría indicar un problema si el número de solicitudes en cola también aumenta.</p> |
+   | **[!UICONTROL Solicitudes en cola]** | El número de solicitudes en espera de ser procesadas. <!-- ??? --> |
+   | **[!UICONTROL Tiempo de espera en cola]** | Tiempo de espera promedio para que se procese cada solicitud. <!-- ???? --> |
+   | **[!UICONTROL Estado]** | Los estados posibles son: <ul><li>[!UICONTROL **Activo**] (azul): los informes se han ejecutado en el grupo de informes y se está monitorizando su actividad.</li><li>[!UICONTROL **Inactivo**] (gris): Nunca se han ejecutado informes en el grupo de informes. Este estado solo se muestra cuando se crean los grupos de informes por primera vez.</li></ul> |
+
+   {style="table-layout:auto"}
+
+## Ver la actividad de informes de un solo grupo de informes
+
+1. En Adobe Analytics, seleccione [!UICONTROL **Administrador**] > [!UICONTROL **Administrador de actividades de informes**].
+
+1. Seleccione el título vinculado del grupo de informes cuyos detalles desea ver.
+
+   Los datos de la actividad de creación de informes se muestran para el grupo de informes seleccionado.
+
+   <!-- Need to update this screenshot: ![report suite](assets/indiv-report-ste.png) -->
+
+1. Utilice los gráficos y las tablas disponibles para comprender la actividad de creación de informes en el grupo de informes.
+
+   * [Visualización de gráficos](#view-graphs)
+
+   * [Ver tabla](#view-data-in-the-table)
+
+### Visualización de gráficos
+
+Los siguientes gráficos están disponibles para ayudarle a comprender mejor la actividad que se produce en el grupo de informes. Si los gráficos no están visibles, seleccione la opción [!UICONTROL **Mostrar gráficos**] botón.
+
+#### Gráfico de utilización {#utilization}
+
+El gráfico Utilización muestra la utilización de los informes para el grupo de informes seleccionado durante las últimas 2 horas.
+
+* El eje x muestra la capacidad de uso de la creación de informes durante las últimas 2 horas.
+* El eje Y muestra el porcentaje de capacidad de uso de creación de informes, por minuto.
+* Puede pasar el ratón sobre el gráfico para ver los puntos en el tiempo en los que el porcentaje de capacidad de uso fue mayor para ese minuto.
+
+  ![gráfico de utilización](assets/utilization-graph.png)
+
+#### Gráfico de usuarios distintos
+
+El gráfico Usuarios distintos muestra la actividad de creación de informes del grupo de informes seleccionado durante las últimas 2 horas.
+
+* El eje x muestra un lapso de tiempo de 2 horas.
+* El eje Y muestra el número de usuarios que han realizado solicitudes de creación de informes, por minuto.
+* Puede pasar el ratón sobre el gráfico para ver los puntos en el tiempo en los que el número máximo de usuarios fue mayor para ese minuto.
+
+  ![Gráfico de usuarios distintos](assets/distinct-users-graph.png)
+
+<!--
+
+#### Requests graph
+
+The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
+
+* The x-axis shows a 2-hour time frame.
+* The y-axis shows the number of processed requests (in purple) and completed requests (in green), by minute.
+* You can hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+
+   ![Distinct Users graph](assets/requests-graph.png)
+
+#### Queueing graph
+
+The Queueing graph shows the average queue wait time (in seconds) for reporting requests for the selected report suite over the last 2 hours. 
+
+* The x-axis shows a 2-hour time frame.
+* The y-axis shows the average wait time (in seconds).
+* You can hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+
+   ![Distinct Users graph](assets/queueing-graph.png)
+
+-->
+
+### Ver tabla {#view-table}
+
+Puede elegir ver los datos eligiendo cualquiera de las siguientes pestañas en la parte superior de la tabla de datos: [!UICONTROL **Solicitud**], [!UICONTROL **Usuario**], [!UICONTROL **Proyecto**], o [!UICONTROL **Aplicación**].
+
+>[!TIP]
+>
+>Puede seleccionar [!UICONTROL **Ocultar gráficos**] para mostrar solo la tabla.
+
+![fichas de tabla](assets/indiv-report-ste-table-tabs.png)
+
+#### Vista de datos por solicitud
+
+Al seleccionar la variable [!UICONTROL **Solicitud**] , las siguientes columnas están disponibles en la tabla:
+
+| Columna | Descripción |
+| --- | --- |
+| [!UICONTROL **ID de solicitud**] | Se puede utilizar para solucionar problemas. |
+| [!UICONTROL **Tiempo de ejecución**] | Cuánto tiempo lleva ejecutándose la solicitud. |
+| [!UICONTROL **Hora de inicio**] | Cuando la solicitud comenzó a procesarse (según la hora local del administrador). |
+| [!UICONTROL **Tiempo de espera**] | El tiempo que la solicitud ha estado esperando antes de procesarse. Generalmente en &quot;0&quot; cuando hay suficiente capacidad. |
+| [!UICONTROL **Aplicación**] | Las aplicaciones compatibles con el [!UICONTROL Administrador de actividades de creación de informes] son: <ul><li>IU de Analysis Workspace</li><li>Proyectos programados de Workspace</li><li>Report Builder</li><li>IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.</li><li>Llamadas de API desde la API 1.4 o 2.0</li><li>Alertas inteligentes</li></ul> |
+| [!UICONTROL **Usuario**] | El usuario que inició la solicitud. Si el valor de esta columna es [!UICONTROL **No reconocido**], esto significa que el usuario se encuentra en una empresa de inicio de sesión en la que no tiene permisos administrativos. |
+| [!UICONTROL **Proyecto**] | Nombres de proyectos de Workspace guardados, ID de informes de API, etc. (Los metadatos pueden variar entre distintas aplicaciones). |
+| [!UICONTROL **Estado**] | Indicadores de estado: <ul><li>**Ejecución**: la solicitud está siendo procesada en este momento.</li><li>**Pendiente**: la solicitud está esperando a procesarse.</li></ul> |
+| [!UICONTROL **Complejidad**] | No todas las solicitudes requieren la misma cantidad de tiempo para procesarse. La complejidad de la solicitud puede ayudar a proporcionar una idea general sobre el tiempo necesario para procesar la solicitud. Entre los posibles valores están: <ul><li>[!UICONTROL **Bajo**]</li><li>[!UICONTROL **Medio**]</li><li>[!UICONTROL **Alto**]</li></ul>Este valor se ve influido por los valores de las siguientes columnas:<ul><li>[!UICONTROL **Límites de mes**]</li><li>[!UICONTROL **Columnas**]</li><li>[!UICONTROL **Segmentos**]</li></ul> |
+| [!UICONTROL **Límites del mes**] | El número de meses que se incluyen en una solicitud. Esto aumenta la complejidad de la solicitud. |
+| [!UICONTROL **Columnas**] | El número de métricas y desgloses de la solicitud. Esto aumenta la complejidad de la solicitud. |
+| [!UICONTROL **Segmentos**] | El número de segmentos aplicados a la solicitud. Esto aumenta la complejidad de la solicitud. |
+
+{style="table-layout:auto"}
+
+#### Vista de datos por usuario
+
+Al seleccionar la variable [!UICONTROL **Usuario**] , las siguientes columnas están disponibles en la tabla:
+
+| Columna | Descripción |
+| --- | --- |
+| [!UICONTROL **Usuario**] | El usuario que inició la solicitud. Si el valor de esta columna es [!UICONTROL **No reconocido**], esto significa que el usuario se encuentra en una empresa de inicio de sesión en la que no tiene permisos administrativos. |
+| [!UICONTROL **Número de solicitudes**] | Número de solicitudes iniciadas por el usuario. |
+| [!UICONTROL **Número de proyectos**] | El número de proyectos asociados con el usuario. <!-- ??? --> |
+| [!UICONTROL **Aplicación**] | Las aplicaciones compatibles con el [!UICONTROL Administrador de actividades de creación de informes] son: <ul><li>IU de Analysis Workspace</li><li>Proyectos programados de Workspace</li><li>Report Builder</li><li>IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.</li><li>Llamadas de API desde la API 1.4 o 2.0</li><li>Alertas inteligentes</li></ul> |
+| [!UICONTROL **Complejidad media**] | Complejidad promedio de las solicitudes iniciadas por el usuario. <p>No todas las solicitudes requieren la misma cantidad de tiempo para procesarse. La complejidad de la solicitud puede ayudar a proporcionar una idea general sobre el tiempo necesario para procesar la solicitud.</p><p>El valor de esta columna se basa en una puntuación que viene determinada por los valores de las columnas siguientes:</p><ul><li>[!UICONTROL **Límites mensuales medios**]</li><li>[!UICONTROL **Columnas medias**]</li><li>[!UICONTROL **Segmentos medios**]</li></ul> |
+| [!UICONTROL **Límites mensuales medios**] | Promedio de meses que se incluyen en las solicitudes. Esto aumenta la complejidad promedio de la solicitud. |
+| [!UICONTROL **Columnas medias**] | Número promedio de métricas y desgloses en las solicitudes incluidas. Esto aumenta la complejidad promedio. |
+| [!UICONTROL **Segmentos medios**] | El número promedio de segmentos aplicados a las solicitudes incluidas. Esto aumenta la complejidad promedio. |
+
+{style="table-layout:auto"}
+
+#### Vista de datos por proyecto
+
+Al seleccionar la variable [!UICONTROL **Proyecto**] , las siguientes columnas están disponibles en la tabla:
+
+| Columna | Descripción |
+| --- | --- |
+| [!UICONTROL **Proyecto**] | Proyecto en el que se iniciaron las consultas. |
+| [!UICONTROL **Número de solicitudes**] | El número de solicitudes asociadas con el proyecto. |
+| [!UICONTROL **Cantidad de usuarios**] | El número de usuarios asociados con el proyecto. <!-- ??? --> |
+| [!UICONTROL **Aplicación**] | Las aplicaciones compatibles con el [!UICONTROL Administrador de actividades de creación de informes] son: <ul><li>IU de Analysis Workspace</li><li>Proyectos programados de Workspace</li><li>Report Builder</li><li>IU del generador: Segmento, Métricas calculadas, Anotaciones, Audiencias, etc.</li><li>Llamadas de API desde la API 1.4 o 2.0</li><li>Alertas inteligentes</li></ul> |
+| [!UICONTROL **Complejidad media**] | Complejidad media de las solicitudes incluidas en el proyecto. <p>No todas las solicitudes requieren la misma cantidad de tiempo para procesarse. La complejidad de la solicitud puede ayudar a proporcionar una idea general sobre el tiempo necesario para procesar la solicitud.</p><p>El valor de esta columna se basa en una puntuación que viene determinada por los valores de las columnas siguientes:</p><ul><li>[!UICONTROL **Límites mensuales medios**]</li><li>[!UICONTROL **Columnas medias**]</li><li>[!UICONTROL **Segmentos medios**]</li></ul> |
+| [!UICONTROL **Límites mensuales medios**] | Promedio de meses que se incluyen en las solicitudes. Esto aumenta la complejidad promedio de la solicitud. |
+| [!UICONTROL **Columnas medias**] | Número promedio de métricas y desgloses en las solicitudes incluidas. Esto aumenta la complejidad promedio. |
+| [!UICONTROL **Segmentos medios**] | El número promedio de segmentos aplicados a las solicitudes incluidas. Esto aumenta la complejidad promedio. |
+
+{style="table-layout:auto"}
+
+#### Vista de datos por aplicación
+
+Al seleccionar la variable [!UICONTROL **Aplicación**] , las siguientes columnas están disponibles en la tabla:
+
+| Columna | Descripción |
+| --- | --- |
+| [!UICONTROL **Aplicación**] | Aplicación en la que se iniciaron las consultas. |
+| [!UICONTROL **Número de solicitudes**] | El número de solicitudes asociadas con la aplicación. |
+| [!UICONTROL **Cantidad de usuarios**] | El número de usuarios asociados con la aplicación. <!--???--> |
+| [!UICONTROL **Número de proyectos**] | El número de proyectos asociados con la aplicación. <!--???--> |
+| [!UICONTROL **Complejidad media**] | Complejidad promedio de las solicitudes asociadas con la aplicación. <p>No todas las solicitudes requieren la misma cantidad de tiempo para procesarse. La complejidad de la solicitud puede ayudar a proporcionar una idea general sobre el tiempo necesario para procesar la solicitud.</p><p>El valor de esta columna se basa en una puntuación que viene determinada por los valores de las columnas siguientes:</p>El valor de esta columna se basa en una puntuación que viene determinada por los valores de las columnas siguientes:<ul><li>[!UICONTROL **Límites mensuales medios**]</li><li>[!UICONTROL **Columnas medias**]</li><li>[!UICONTROL **Segmentos medios**]</li></ul> |
+| [!UICONTROL **Límites mensuales medios**] | Promedio de meses que se incluyen en las solicitudes. Esto aumenta la complejidad promedio de la solicitud. |
+| [!UICONTROL **Columnas medias**] | Número promedio de métricas y desgloses en las solicitudes incluidas. Esto aumenta la complejidad promedio. |
+| [!UICONTROL **Segmentos medios**] | El número promedio de segmentos aplicados a las solicitudes incluidas. Esto aumenta la complejidad promedio. |
+
+{style="table-layout:auto"}
+
+<!--
+
+### Filter
+
+You can filter the table by Application (see list in the table below), by User, and by Project.
+
+![filter](/help/admin/admin/assets/filter.png)
+
+### Summary Numbers {#summary}
+
+![filter](/help/admin/admin/assets/summary_numbers.png)
+
+The Summary Numbers show the following information:
+
+| Summary Number | Description |
+| --- | --- |
+| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this report suite. |
+| [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
+| [!UICONTROL **Queries**] | The number of queries currently running. |
+| [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
+| [!UICONTROL **Usage Capacity**] | The current usage capacity for this report suite. |
+
+{style="table-layout:auto"}
+
+-->
+
+

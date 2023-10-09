@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 31487111111575e267306d5f68eede23276e79a8
+source-git-commit: 0e03379550808e5be3e86f0f9ddbbedd026d4910
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '644'
 ht-degree: 95%
 
 ---
@@ -30,7 +30,10 @@ ht-degree: 95%
    + [Fuentes de datos](admin/data-sources.md)
    + [Excluir por dirección IP](admin/exclude-ip.md)
    + [Registros](admin/logs.md)
-   + [Administrador de actividades de creación de informes](admin/reporting-activity.md)
+   + Administrador de actividades de creación de informes {#reporting-activity-manager}
+      + [Información general](admin/reporting-activity-manager/reporting-activity-overview.md)
+      + [Ver actividad de informes](admin//reporting-activity-manager/reporting-activity.md)
+      + [Cancelar solicitudes de creación de informes](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
    + Migración de componentes {#component-migration}
       + [Preparación para la migración](admin/component-migration/prepare-component-migration.md)
       + [Flujo de trabajo migración](admin/component-migration/component-migration.md)
