@@ -2,9 +2,9 @@
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 title: Cancelar solicitudes de creación de informes en el Administrador de actividades de creación de informes
 feature: Admin Tools
-source-git-commit: dc09510ea1d97c39d00df309faf85f90003b50fa
+source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '937'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ Para obtener más información sobre el Administrador de actividades de creació
 
 ## Cancelar solicitudes específicas
 
-Puede elegir las solicitudes específicas que desea cancelar.
+Puede cancelar solicitudes individuales que consuman una gran cantidad de capacidad de creación de informes.
 
 1. En Adobe Analytics, vaya a **[!UICONTROL Administrador]** > **[!UICONTROL Administrador de actividades de informes]**.
 
@@ -41,7 +41,7 @@ Puede elegir las solicitudes específicas que desea cancelar.
 
 1. Seleccionar [!UICONTROL **Cancelar solicitudes**].
 
-   El [!UICONTROL **Cancelar x solicitudes de informe**] aparece el cuadro de diálogo.
+   El [!UICONTROL **Cancelar _x_ solicitudes de informe**] aparece el cuadro de diálogo.
 
 1. El campo Cancelación muestra el mensaje que se muestra a los usuarios cuando se cancelan sus solicitudes. Se proporciona un mensaje predeterminado. Puede actualizar el mensaje predeterminado para proporcionar detalles adicionales.
 
@@ -76,7 +76,7 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más usuario
 
 1. Seleccionar [!UICONTROL **Cancelar solicitudes**].
 
-   El [!UICONTROL **Cancelar solicitudes de informes x de usuarios x**] aparece el cuadro de diálogo.
+   El [!UICONTROL **Cancelar _x_ solicitudes de informes de usuarios x**] aparece el cuadro de diálogo.
 
 1. El campo Cancelación muestra el mensaje que se muestra a los usuarios cuando se cancelan sus solicitudes. Se proporciona un mensaje predeterminado. Puede actualizar el mensaje predeterminado para proporcionar detalles adicionales.
 
@@ -111,7 +111,7 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más proyect
 
 1. Seleccionar [!UICONTROL **Cancelar solicitudes**].
 
-   El [!UICONTROL **Cancelar solicitudes de informes x de proyectos x**] aparece el cuadro de diálogo.
+   El [!UICONTROL **Cancelar _x_ solicitudes de informes de x proyectos**] aparece el cuadro de diálogo.
 
 1. El campo Cancelación muestra el mensaje que se muestra a los usuarios cuando se cancelan sus solicitudes. Se proporciona un mensaje predeterminado. Puede actualizar el mensaje predeterminado para proporcionar detalles adicionales.
 
@@ -132,6 +132,6 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más proyect
 
 ## Experiencia cuando los usuarios acceden a un informe cancelado
 
-En Analysis Workspace, los usuarios que intenten acceder a un informe que se haya cancelado verán el siguiente mensaje:
+En Analysis Workspace, los usuarios ven el siguiente mensaje cuando intentan acceder a un informe cancelado por un administrador:
 
 ![aviso-cancelar-usuario](/help/admin/admin/assets/cancel-user-facing.png)
