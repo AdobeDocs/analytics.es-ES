@@ -4,22 +4,18 @@ description: Cómo administrar anotaciones en Espacio de trabajo.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
+source-git-commit: 4f0bd39b64535be8ba55e97d65177f6ef291ef6c
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 100%
+source-wordcount: '562'
+ht-degree: 61%
 
 ---
 
 # Administración de anotaciones
 
-El administrador [!UICONTROL Componentes] > [!UICONTROL Anotaciones] ofrece numerosas maneras de conservar las anotaciones, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
+El [!UICONTROL Administrador de anotaciones] muestra todas las anotaciones que posee o que se han compartido con usted. Las anotaciones específicas del proyecto no aparecen aquí. Puede utilizar esta interfaz para compartir, filtrar, etiquetar, copiar, eliminar y marcar como favoritas sus anotaciones. Los administradores pueden administrar y aprobar anotaciones.
 
-El administrador [!UICONTROL Anotaciones] le muestra todas las anotaciones que posee que se han asignado a todos sus proyectos y que se han compartido con usted.
-
->[!NOTE]
->
->Las [!UICONTROL anotaciones] que haya creado únicamente para un proyecto específico no aparecen en el administrador.
+**[!UICONTROL Componentes]** > **[!UICONTROL Anotaciones]**
 
 ## Interfaz de usuario del Administrador de anotaciones
 
@@ -38,10 +34,9 @@ El administrador [!UICONTROL Anotaciones] le muestra todas las anotaciones que p
 
 ## Edición de anotaciones
 
-Editar una anotación significa que puede ajustar intervalos de fechas, colores, ámbito o si se aplica o no a todos los grupos de informes o proyectos. Puede editar las anotaciones de dos formas:
+Editar una anotación significa que puede ajustar intervalos de fechas, colores, ámbito o si se aplica a todos los grupos de informes o proyectos. Puede editar las anotaciones de dos formas:
 
 * En un gráfico de líneas, pase el ratón sobre la anotación y haga clic en el icono de lápiz dentro de la ventana emergente.
-
 * En el [!UICONTROL Administrador de anotaciones], haga clic en el título de la anotación.
 
 Ambas opciones le permiten volver a acceder al [!UICONTROL Generador de anotaciones]. Aquí puede realizar los ajustes necesarios y guardar la nueva versión.
@@ -50,28 +45,24 @@ Ambas opciones le permiten volver a acceder al [!UICONTROL Generador de anotacio
 
 Cuando comparta anotaciones o trabaje con anotaciones que se compartieron con usted, tenga esto en cuenta:
 
-* Supongamos que crea un proyecto con anotaciones solo de proyecto y luego comparte el proyecto con otro usuario. Se mostrarán estas anotaciones, pero ninguna persona con la que comparta el proyecto puede editarlas o eliminarlas.
-
+* Si crea un proyecto con anotaciones solo de proyecto y luego lo comparte con otro usuario, nadie con el que comparta el proyecto podrá editar o eliminar las anotaciones.
 * Si guarda una anotación y la comparte directamente con un usuario, solo podrá editarla o eliminarla si tiene derechos de administrador.
-
-* Para recapitular, si el proyecto se comparte con usted, solo se mostrará en ese proyecto. Si la anotación se comparte directamente con usted, aparecerá en todos los proyectos en los que se pueda mostrar.
+* Si un proyecto se comparte con usted con una anotación solo de proyecto, solo se muestra en ese proyecto. Si la anotación se comparte directamente con usted, aparecerá en todos los proyectos en los que se pueda mostrar.
 
 ## Anotaciones y zonas horarias
 
-Todas las anotaciones se crean con una marca de tiempo, pero no con información de horas ni de zona horaria. En el momento del informe, siempre se aplica la zona horaria del conjunto de informes del panel. Por lo tanto, una anotación creada para el día de Navidad se produce el 25 de diciembre, sin importar la zona horaria de grupo de informes en la que se encuentre.
+Todas las anotaciones se crean con una marca de tiempo, pero no con información de horas ni de zona horaria. En el momento del informe, siempre se aplica la zona horaria del grupo de informes del panel. Por ejemplo, una anotación creada para Navidad se produce el 25 de diciembre, independientemente de la zona horaria del grupo de informes en la que se encuentre.
 
-Otro ejemplo es el Día de Año Nuevo. Cada hora, una zona horaria diferente inicia fuegos artificiales a medida que comienza el año nuevo. A las 22:00, hora de las montañas de EE. UU., la costa este de EE. UU. está preparando los fuegos artificiales porque ya son las 00:00 en el este.
-
-## Otras tareas de anotaciones
+## Otras tareas de anotación
 
 El Administrador de anotaciones permite a los administradores editar, añadir, etiquetar, eliminar, cambiar el nombre, aprobar, copiar, exportar y filtrar anotaciones. No es visible para los usuarios que no son administradores.
 
-Solo tiene que seleccionar una o varias anotaciones y aparecerá la barra de tareas.
+Hay opciones adicionales disponibles al seleccionar al menos una anotación:
 
 | Tarea | Descripción |
 | --- | --- |
-| [!UICONTROL Agregue] | Le lleva al Generador de anotaciones, donde puede crear nuevas anotaciones. |
-| [!UICONTROL Etiqueta] | Todos los usuarios pueden crear etiquetas para las anotaciones y aplicar una o más a una anotación. Sin embargo, solo puede ver las etiquetas de las anotaciones que posee. ¿Qué tipo de etiquetas debería crear? A continuación encontrará una serie de sugerencias para crear etiquetas útiles:<ul><li>Etiquetas basadas en nombres de equipos, como Marketing social o Marketing móvil</li><li>Etiquetas de proyectos (etiquetas de análisis), como análisis de Páginas de entrada</li><li>Etiquetas de categorías: Para hombres o Área geográfica</li><li>Etiquetas de flujo de trabajo: Revisado para (unidad comercial específica); Aprobado</li></ul> |
+| [!UICONTROL Agregue] | Le lleva al Generador de anotaciones, donde puede crear anotaciones. |
+| [!UICONTROL Etiqueta] | Todos los usuarios pueden crear etiquetas para las anotaciones y aplicar una o más a una anotación. Sin embargo, solo verá las etiquetas de las anotaciones que sean suyas. |
 | [!UICONTROL Eliminar] | Al eliminar una anotación, esta se elimina de cualquier proyecto de su organización. |
 | [!UICONTROL Cambiar el nombre] | Al cambiar el nombre de una anotación, se le cambia el nombre en todos los proyectos a los que se ha aplicado. |
 | [!UICONTROL Copiar] | Crea una copia distinta con su nuevo ID de anotación, pero con el mismo nombre y definición. |

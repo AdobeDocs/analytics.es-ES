@@ -3,14 +3,16 @@ title: Vínculos de no participación
 description: Obtenga información sobre cómo crear e implementar Vínculos de no participación para los visitantes del sitio.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 99%
+source-wordcount: '634'
+ht-degree: 92%
 
 ---
 
 # Implementación de Vínculos de no participación
+
+*Esta página de ayuda permite a los clientes de Adobe Analytics proporcionar a sus usuarios vínculos de no participación. Si no es cliente de Adobe Analytics, consulte [Opciones de privacidad de Adobe](https://www.adobe.com/es/privacy/opt-out.html) para controlar cómo utiliza el Adobe su información.*
 
 >[!IMPORTANT]
 >
@@ -38,7 +40,7 @@ La página de exclusión de su organización depende del valor de la variable [`
    1. En el servidor web, abra el archivo AppMeasurement.js que se utiliza en el sitio en un editor de código o texto.
    1. Tenga en cuenta el valor de la variable `trackingServer`.
 
-* Use [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es):
+* Use [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Vaya a su sitio mediante el explorador Chrome.
    1. Abra Experience Cloud Debugger y vaya a la pestaña [!UICONTROL Red].
    1. Tenga en cuenta el valor de [!UICONTROL Solicitar URL: Nombre de host].
