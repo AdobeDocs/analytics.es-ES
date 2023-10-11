@@ -3,10 +3,10 @@ title: Informes de audiencia en Adobe Analytics
 description: Obtenga información sobre cómo crear informes basados en audiencias mediante Analysis Workspace.
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1715'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -59,9 +59,9 @@ El informe Explorador de usuarios permite a un analista ver visitas individuales
 
 Los datos demográficos y de intereses proporcionan información sobre la edad, el sexo y los intereses de los usuarios del sitio. Google recopila esos datos mediante sus capacidades de seguimiento entre sitios.
 
-Adobe no recopila automáticamente los datos demográficos y de intereses. Sin embargo, si su organización obtiene estos datos, puede utilizar Atributos del cliente, una función de Adobe Experience Cloud Platform. Permite controlar la organización de los datos por atributos, y no se limita solo a la demografía o a los intereses.
+Adobe no recopila automáticamente los datos demográficos y de intereses. Sin embargo, si su organización obtiene estos datos, puede utilizar atributos del cliente, una función de Adobe Experience Cloud Platform. Permite controlar la organización de los datos por atributos, y no se limita solo a la demografía o a los intereses.
 
-Consulte la Ayuda sobre atributos del cliente para obtener más información.
+Consulte la ayuda de Atributos del cliente para obtener más información.
 
 ## Geografía: Idioma
 

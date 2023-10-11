@@ -3,10 +3,10 @@ description: Preguntas frecuentes sobre Advertising Analytics.
 title: Preguntas más frecuentes sobre análisis de publicidad
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 99%
+source-wordcount: '1419'
+ht-degree: 92%
 
 ---
 
@@ -94,8 +94,8 @@ ht-degree: 99%
    <td colname="col2"> <p>R: Antes de poder asignar un grupo de informes a una cuenta de Advertising Analytics, el grupo de informes en cuestión debe <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >aprovisionarse para los informes de Advertising Analytics </a>. </p> <p>Esto se realiza a través de una página de Administración independiente a la que se puede acceder desde: <span class="ignoretag"> <span class="uicontrol"> Administración</span> &gt; <span class="uicontrol">Grupos de informes</span> &gt; <span class="uicontrol">[seleccionar grupo de informes con Experience Cloud activado]</span> &gt; <span class="uicontrol">Editar configuración</span> &gt; <span class="uicontrol">Configuración de Advertising Analytics </span> </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>P: ¿Es posible asignar un <b>grupo de informes virtual</b> (VRS) a una cuenta de Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: Los grupos de informes virtuales no recopilan datos, de manera que no puede asignar directamente una cuenta de Advertising Analytics a un VRS. </p> <p>No obstante, puede asignar la cuenta de Advertising Analytics al grupo de informes principal del VRS en que quiere ver datos. </p> <p>Las métricas del motor de búsqueda (clic/coste/impresiones) pueden no mostrarse en el grupo de informes virtual a menos que se incluya en la lógica del segmento una condición “o” basada en el ID de AMO (o en su clasificación). Ejemplo: Agregar “todas las visitas donde exista un ID de AMO” incluiría en el segmento las métricas del motor de búsqueda. </p> </td> 
+   <td colname="col1"> <p>P: ¿Es posible asignar un <b>grupo de informes virtuales</b> a una cuenta de Advertising Analytics? </p> </td> 
+   <td colname="col2"> <p>R: Los grupos de informes virtuales no recopilan datos, por lo que no puede asignar directamente una cuenta de Advertising Analytics a un grupo de informes virtuales. </p> <p>Sin embargo, puede asignar la cuenta de Advertising Analytics al grupo de informes principal del grupo de informes virtuales en el que desea ver los datos. </p> <p>Es posible que las métricas del motor de búsqueda (clic/coste/impresiones) no se muestren en el grupo de informes virtual a menos que incluya una condición "o" en la lógica del segmento basada en el ID de AMO (o en su clasificación). Ejemplo: Agregar “todas las visitas donde exista un ID de AMO” incluiría en el segmento las métricas del motor de búsqueda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Se pueden incluir las métricas de Advertising Analytics en el informe <b>Canales de marketing</b>? </p> </td> 

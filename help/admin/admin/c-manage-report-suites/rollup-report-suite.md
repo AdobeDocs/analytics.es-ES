@@ -3,10 +3,10 @@ description: Descripción de los tipos de grupos de informes y comparación de l
 title: Enfoques de los grupos de informes
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: e8cbf24f6e0c829dadb2a6e7db502d0e8ba1f07f
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '973'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -26,17 +26,17 @@ Puede proporcionar subconjuntos de los datos del grupo de informes globales de s
 
 * **Etiquetado de grupos múltiples**: el etiquetado de grupos múltiples le permite enviar solicitudes de imagen no solo a un grupo de informes globales, sino también a grupos de informes secundarios individuales. La duplicación de los datos del informe global se anula en todos los grupos de informes.
 
-   Por ejemplo, podría recopilar todos los datos de un grupo de informes globales y también configurar grupos de informes secundarios según la marca, la región u otro diferenciador. Los diferentes equipos de su compañía podrían entonces centrarse en los datos de los grupos de informes que les interesen.
+  Por ejemplo, podría recopilar todos los datos de un grupo de informes globales y también configurar grupos de informes secundarios según la marca, la región u otro diferenciador. Los diferentes equipos de su compañía podrían entonces centrarse en los datos de los grupos de informes que les interesen.
 
-   Para utilizar el etiquetado de grupos múltiples, implemente grupos de informes secundarios y un grupo de informes globales que incluya todos los datos de los grupos secundarios. El código de seguimiento de sus páginas web y aplicaciones incluirá el ID del grupo de informes (RSID) para el grupo de informes globales y también los RSID para los grupos de informes secundarios aplicables.<!-- Wording/be more specific? And include any links? -->
+  Para utilizar el etiquetado de grupos múltiples, implemente grupos de informes secundarios y un grupo de informes globales que incluya todos los datos de los grupos secundarios. El código de seguimiento de sus páginas web y aplicaciones incluirá el ID del grupo de informes (RSID) para el grupo de informes globales y también los RSID para los grupos de informes secundarios aplicables.<!-- Wording/be more specific? And include any links? -->
 
-   Se realiza una llamada al servidor independiente a cada grupo de informes en la solicitud de imagen. Las llamadas a los grupos de informes secundarios son llamadas secundarias.
+  Se realiza una llamada al servidor independiente a cada grupo de informes en la solicitud de imagen. Las llamadas a los grupos de informes secundarios son llamadas secundarias.
 
 * **Grupo de informes virtuales**: un [grupo de informes virtuales](/help/components/vrs/vrs-about.md) es una consulta en segmentos especificados recopilados en un grupo de informes globales y disponibles para grupos de usuarios especificados. Los grupos de informes virtuales le permiten depurar elementos de informes para distintos usuarios finales sin utilizar el etiquetado de grupos múltiples, lo cual evita llamadas secundarias al servidor.
 
-   Para utilizar grupos de informes virtuales, implemente un grupo de informes globales y luego analice los datos para crear grupos de informes virtuales con segmentos específicos aplicados y con permisos de grupo específicos. Puede crear grupos de informes virtuales en el Administrador de grupos de informes virtuales ([!UICONTROL Componentes] > [!UICONTROL Grupos de informes virtuales]). Consulte [Flujo de trabajo de grupos de informes virtuales](/help/components/vrs/c-workflow-vrs/vrs-workflow.md) para obtener más información.
+  Para utilizar grupos de informes virtuales, implemente un grupo de informes globales y luego analice los datos para crear grupos de informes virtuales con segmentos específicos aplicados y con permisos de grupo específicos. Puede crear grupos de informes virtuales en el Administrador de grupos de informes virtuales ([!UICONTROL Componentes] > [!UICONTROL Grupos de informes virtuales]). Consulte [Flujo de trabajo de grupos de informes virtuales](/help/components/vrs/c-workflow-vrs/vrs-workflow.md) para obtener más información.
 
-El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltiples suele ser una práctica recomendada, pero los grupos de informes virtuales tienen algunas limitaciones. Consulte [Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples](/help/components/vrs/vrs-considerations.md) para determinar qué enfoque de grupo de informes es la mejor opción para sus necesidades comerciales. Para obtener una comparación detallada de los grupos de informes virtuales y la funcionalidad de etiquetado de grupos múltiples, consulte [Grupos de informes virtuales frente al etiquetado multigrupo](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).
+El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltiples suele ser una práctica recomendada, pero los grupos de informes virtuales tienen algunas limitaciones. Consulte [Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples](/help/components/vrs/vrs-considerations.md) para determinar qué enfoque de grupo de informes es la mejor opción para sus necesidades comerciales. Para obtener una comparación detallada de los grupos de informes virtuales y la funcionalidad de etiquetado de grupos múltiples, consulte &quot;[Grupos de informes virtuales frente al etiquetado de grupos múltiples](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
 
 ## Informes de resumen
 

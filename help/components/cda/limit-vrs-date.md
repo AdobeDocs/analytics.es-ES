@@ -1,24 +1,24 @@
 ---
-title: Limitar un VRS a determinadas fechas
-description: Obtenga información sobre cómo limitar un intervalo de fechas de VRS para que se centre únicamente en datos vinculados.
+title: Limitar un grupo de informes virtuales a determinadas fechas
+description: Obtenga información sobre cómo limitar el intervalo de fechas de un grupo de informes virtuales para que se centre únicamente en los datos vinculados.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '275'
+ht-degree: 35%
 
 ---
 
-# Limitar un VRS a determinadas fechas
+# Limitar un grupo de informes virtuales a determinadas fechas
 
-Cuando activamos la vinculación, la vinculación comienza en una fecha específica. Supongamos que la fecha es el 1 de junio. El VRS de CDA contendrá datos no enlazados antes del 1 de junio. Es posible que desee ocultar cualquier dato del VRS anterior al 1 de junio para que el análisis pueda centrarse en los intervalos de fechas después de iniciar la vinculación.
+Cuando activamos la vinculación, la vinculación comienza en una fecha específica. Supongamos que la fecha es el 1 de junio. El grupo de informes virtuales de CDA contendrá datos no enlazados antes del 1 de junio. Es posible que desee ocultar cualquier dato del grupo de informes virtuales anterior al 1 de junio para que el análisis pueda centrarse en los intervalos de fechas después de iniciar la vinculación.
 
-Puede limitar los datos del VRS a determinadas fechas haciendo lo siguiente:
+Puede limitar los datos del grupo de informes virtuales a determinadas fechas haciendo lo siguiente:
 
-## Paso 1: Crear VRS con un intervalo de fechas diario móvil
+## Paso 1: Crear un grupo de informes virtuales con un intervalo de fechas diario móvil
 
-Cuando configure el VRS, en Componentes, añada un intervalo de fechas que tenga un inicio fijo, con un intervalo de fechas diario móvil. El inicio fijo debe ser el día en que comenzó la vinculación.
+Cuando configure el grupo de informes virtuales, en Componentes, añada un intervalo de fechas que tenga un inicio fijo, con un intervalo de fechas diario móvil. El inicio fijo debe ser el día en que comenzó la vinculación.
 
 ![](assets/rolling-daily.png)
 
@@ -30,7 +30,7 @@ El motivo de la exclusión es que los intervalos de fechas pretenden anular el i
 
 ![](assets/exclude-exclude.png)
 
-## Paso 3: Aplicar este segmento a su VRS de CDA
+## Paso 3: Aplicar este segmento a su grupo de informes virtuales de análisis entre dispositivos
 
 ![](assets/apply-segment.png)
 

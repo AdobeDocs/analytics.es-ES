@@ -3,10 +3,10 @@ description: Requisitos del sistema y comparación de Analysis Workspace, Report
 title: Comparación de productos y requisitos de Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 0579715d33db28f1741eed2b1aa1520d3beb757b
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 95%
+source-wordcount: '432'
+ht-degree: 91%
 
 ---
 
@@ -34,8 +34,8 @@ Para obtener información sobre qué producto de Adobe Analytics utilizar, consu
 | **Análisis de cohorte** | [Sí](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | No | No | No | Sí | No | No |
 | **Atribución** | Sí, con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Limitado | Limitado | No | Sí | No | Sí, con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Funciones de Analyst virtual** <br> [Más información](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | Sí | No | No | No | No | No | Sí |
-| **Revisión** <br> [Más información](/help/analyze/analysis-workspace/curate-share/curate.md) | Sí: Proyecto y VRS | No | No | No | No | No | Sí - Solo VRS |
+| **Revisión** <br> [Más información](/help/analyze/analysis-workspace/curate-share/curate.md) | Sí: proyecto y grupo de informes virtuales | No | No | No | No | No | Sí - Solo grupo de informes virtuales |
 | **Uso compartido de proyectos** <br> [Más información](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Sí, con funciones de proyecto | Sí | Sí | No | Sí | No | No |
 | **Envío programado** | Sí | Sí | Sí | Sí | No | Sí | No |
 | **Destinos de envío** | Correo electrónico | Correo electrónico | Correo electrónico, FTP, SFTP, [publicación en Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC y correo electrónico | - | Amazon S3, Azure RBAC, Azure SAS y Google Cloud Platform | - |
-| **Procesamiento de tiempo de informes VRS** <br> [Más información](/help/components/vrs/vrs-report-time-processing.md) | Sí | No | No | No | No | No | Sí |
+| **Procesamiento de tiempo de informes de grupos de informes virtuales** <br> [Más información](/help/components/vrs/vrs-report-time-processing.md) | Sí | No | No | No | No | No | Sí |

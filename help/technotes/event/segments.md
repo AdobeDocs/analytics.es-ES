@@ -3,10 +3,10 @@ title: Excluir fechas específicas en el análisis
 description: Sugerencias para excluir fechas o intervalos de fechas si no desea incluirlas en los informes.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
 feature: Event, Segmentation
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '594'
+ht-degree: 2%
 
 ---
 
@@ -73,7 +73,7 @@ Puede aplicar el segmento &quot;Excluir días afectados&quot; a un proyecto de W
 
 ### Uso del segmento de exclusión en un grupo de informes virtuales {#use-vrs}
 
-Puede utilizar el segmento en una [grupo de informes virtuales](/help/components/vrs/vrs-about.md) para excluir más convenientemente los datos. Esta opción es ideal porque no tiene que recordar aplicar el segmento para cada informe que incluya el intervalo de fechas afectado. Si ya utiliza los grupos de informes virtuales como fuente principal de datos, puede añadir el segmento a un VRS existente.
+Puede utilizar el segmento en una [grupo de informes virtuales](/help/components/vrs/vrs-about.md) para excluir más convenientemente los datos. Esta opción es ideal porque no tiene que recordar aplicar el segmento para cada informe que incluya el intervalo de fechas afectado. Si ya utiliza los grupos de informes virtuales como fuente principal de datos, puede agregar el segmento a un grupo de informes virtuales existente.
 
 1. Vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Grupos de informes virtuales]**.
 2. Haga clic en **[!UICONTROL Agregar]**.
@@ -81,4 +81,4 @@ Puede utilizar el segmento en una [grupo de informes virtuales](/help/components
 4. Arrastre el segmento de exclusión hasta el área denominada **[!UICONTROL Añadir segmento]**.
 5. Clic **[!UICONTROL Continuar]** en la esquina superior derecha, haga clic en **[!UICONTROL Guardar]**.
 
-![Segmento aplicado al VRS](assets/exclude_segment_vrs.png)
+![Segmento aplicado al grupo de informes virtuales](assets/exclude_segment_vrs.png)

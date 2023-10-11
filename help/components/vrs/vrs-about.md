@@ -3,10 +3,10 @@ description: Los grupos de informes virtuales segmentan los datos de Adobe Analy
 title: Resumen de los grupos de informes virtuales
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 95%
+source-wordcount: '803'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ Muchos clientes mantienen un flujo de datos hacia un grupo de informes global, p
 
 Por ejemplo, todos los datos podrían recopilarse en un grupo de informes, pero luego puede establecer grupos de informes secundarios para que los empleados de la empresa tengan acceso a parte de estos datos, pero no a todos. Los datos podrían dividirse por regiones. Podrían tenerse distintos sitios web para distintos países. Otro ejemplo puede ser un grupo de marcas específicas que pertenecen a una misma empresa superior, aunque cada una con sus propios equipos de marketing.
 
-Un *grupo de informes virtuales* (VRS) le permite reproducir este concepto de ramificación, empleando segmentos en lugar de múltiples grupos de informes. Los datos se envían a un grupo de informes y luego se dividen en segmentos. Siguiendo el ejemplo de las distintas marcas, podría establecerse un prop para la marca a la que pertenece un artículo. Mediante segmentos, se podría realizar un informe con los artículos asignados a cada prop. Cada uno de estos segmentos se convierte en su propia visualización, lo que crea un nuevo grupo de informes. No se envían datos específicamente a los segmentos, sino al grupo de informes global, pero en los informes funciona como si fuera un grupo de informes diferente.
+A *grupo de informes virtuales* permite reproducir este concepto de ramificación mediante segmentos en lugar de varios grupos de informes. Los datos se envían a un grupo de informes y luego se dividen en segmentos. Siguiendo el ejemplo de las distintas marcas, podría establecerse un prop para la marca a la que pertenece un artículo. Mediante segmentos, se podría realizar un informe con los artículos asignados a cada prop. Cada uno de estos segmentos se convierte en su propia visualización, lo que crea un nuevo grupo de informes. No se envían datos específicamente a los segmentos, sino al grupo de informes global, pero en los informes funciona como si fuera un grupo de informes diferente.
 
 Un grupo de informes virtuales hereda la mayoría de los niveles de servicio del grupo de informes base, como la configuración de eVar, las reglas de procesamiento, las clasificaciones, etc. NO se heredan las siguientes opciones de configuración:
 
@@ -45,11 +45,11 @@ Los grupos de informes virtuales tienen las siguientes limitaciones :
 
 * Cualquier limitación de los segmentos se aplica a los grupos de informes virtuales
 
-   Un grupo de informes virtuales no es más que un segmento aplicado a un grupo de informes. Como cada grupo de informes cuenta con su propio Data Warehouse y sus fuentes de datos, el uso de varios grupos de informes presenta algunas ventajas que los segmentos no ofrecen.
+  Un grupo de informes virtuales no es más que un segmento aplicado a un grupo de informes. Como cada grupo de informes cuenta con su propio Data Warehouse y sus fuentes de datos, el uso de varios grupos de informes presenta algunas ventajas que los segmentos no ofrecen.
 * Informe en tiempo real
 * La configuración y los nombres de variables no se pueden personalizar como en un grupo de informes completo
 
-## Grupos de informes virtuales frente a etiquetado de grupos múltiples {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Grupos de informes virtuales frente al etiquetado de grupos múltiples {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | Función | Grupo de informes virtuales | Etiquetado de grupos múltiples |
 |--- |--- |--- |

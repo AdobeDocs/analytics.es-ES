@@ -1,27 +1,27 @@
 ---
 description: Los grupos de informes virtuales y el etiquetado de grupos múltiples tienen diferentes ventajas. Aprenda cuál es la mejor opción para su organización.
-keywords: Grupo de informes virtuales,VRS
+keywords: Grupo de informes virtuales
 title: Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 97%
+source-wordcount: '1766'
+ht-degree: 86%
 
 ---
 
 # Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
 
-Los grupos de informes virtuales (VRS) le permiten ver datos de un grupo de informes que recopila datos de sus propiedades digitales, pero con un segmento aplicado de manera permanente.
+Los grupos de informes virtuales le permiten ver datos de un grupo de informes que recopila datos de sus propiedades digitales, pero con un segmento aplicado de forma permanente.
 
 En muchos casos, puede utilizar grupos de informes virtuales para reemplazar el etiquetado de grupos múltiples. Cambiar a grupos de informes virtuales puede eliminar de forma efectiva la necesidad de realizar [llamadas secundarias al servidor](/help/admin/admin/c-server-call-usage/overage-overview.md). Por ejemplo: su organización tiene 6 sitios web diferentes, cada uno de los cuales envía datos a su propio grupo de informes, así como a un grupo de informes globales combinados. Cada sitio realiza una llamada secundaria al servidor, una al grupo de informes de marca individual y otra al grupo de informes globales. En su lugar, puede enviar datos de todos los sitios únicamente al grupo de informes globales y, a continuación, utilizar varios grupos de informes virtuales para separar cada marca.
 
-La sustitución del etiquetado de grupos múltiples con un grupo de informes globales y VRS permite simplificar la implementación de Adobe Analytics y reducir el consumo de llamadas al servidor. Además, se aconseja como práctica recomendada. Sin embargo, hay algunas limitaciones importantes del VRS que hay que tener en cuenta. Las siguientes directrices le ayudarán a decidir si la implementación de grupos de informes virtuales creados en un grupo de informes global es la estrategia adecuada.
+La sustitución del etiquetado de grupos múltiples con un grupo de informes globales y un grupo de informes virtuales le permite simplificar la implementación de Adobe Analytics y reducir el consumo de llamadas al servidor. Además, se aconseja como práctica recomendada. Sin embargo, hay algunas limitaciones importantes de los grupos de informes virtuales que hay que tener en cuenta. Las siguientes directrices le ayudarán a decidir si la implementación de grupos de informes virtuales creados en un grupo de informes global es la estrategia adecuada.
 
 ## Directrices
 
-Si no está seguro de si los casos de uso descritos se aplican a usted y a su organización, consulte con los demás administradores de Adobe Analytics o con el equipo de cuentas de Adobe. Pueden ayudarle a evaluar las necesidades de la empresa y recomendarle la mejor solución.
+Si no está seguro de si los casos de uso descritos se aplican a usted y a su organización, consulte con los demás administradores de Adobe Analytics o con el equipo de cuenta de Adobe. Pueden ayudarle a evaluar las necesidades de la empresa y recomendarle la mejor solución.
 
 Tenga en cuenta las siguientes consideraciones a la hora de determinar si debe utilizar el etiquetado de grupos múltiples o los grupos de informes virtuales:
 
@@ -55,13 +55,13 @@ Asegúrese de que el número de dimensiones y métricas únicas se pueda ajustar
 
 >[!TIP]
 >
->Con la introducción de la [protección](/help/analyze/analysis-workspace/curate-share/curate.md), puede cambiar el nombre de una dimensión o métrica determinada por VRS.
+>Con la introducción de [depuración](/help/analyze/analysis-workspace/curate-share/curate.md), puede cambiar el nombre de una dimensión o métrica determinada por grupo de informes virtuales.
 
 ### Matices de segmentación
 
 Un grupo de informes virtuales a un nivel fundamental no es más que un segmento aplicado a un grupo de informes. Las dimensiones basadas en visitas y visitantes pueden proporcionar resultados de informes poco intuitivos.
 
-Por ejemplo: tiene dos sitios web, A y B, que envían datos a un grupo de informes globales. Algunos visitantes inevitablemente pasan del sitio A al sitio B y este movimiento de uno a otro es visible en las rutas del grupo de informes globales. Si genera grupos de informes virtuales para los sitios A y B, una visita que comenzó en el sitio A y terminó en el sitio B no mostrará una página de entrada en el VRS B. La página de entrada para esta visita comenzó en el sitio A, que se segmenta fuera del grupo de informes virtuales.
+Por ejemplo: tiene dos sitios web, A y B, que envían datos a un grupo de informes globales. Algunos visitantes inevitablemente pasan del sitio A al sitio B y este movimiento de uno a otro es visible en las rutas del grupo de informes globales. Si genera grupos de informes virtuales para los sitios A y B, una visita que comenzó en el sitio A y terminó en el sitio B no mostrará una página de entrada en el grupo de informes virtuales B. La página de entrada para esta visita comenzó en el sitio A, que se segmenta fuera del grupo de informes virtuales.
 
 ### Conversión de moneda
 
@@ -83,7 +83,7 @@ Por ejemplo, solo se permite un DCM de Google por grupo de informes. Muchas empr
 
 ### Fuentes de datos de resumen
 
-Las fuentes de datos de resumen le permiten importar métricas agregadas a nivel de grupo de informes a Adobe Analytics. Como las cargas de fuentes de datos de resumen contienen métricas agregadas *sin un ID de visitante*, no se pueden segmentar en los contenedores [!UICONTROL Visita] y [!UICONTROL Visitante]. Dado que el VRS funciona con segmentación, los datos importados mediante fuentes de datos de resumen no están disponibles en los grupos de informes virtuales si el segmento se crea con un contenedor de visita o visitante.
+Las fuentes de datos de resumen le permiten importar métricas agregadas a nivel de grupo de informes a Adobe Analytics. Como las cargas de fuentes de datos de resumen contienen métricas agregadas *sin un ID de visitante*, no se pueden segmentar en los contenedores [!UICONTROL Visita] y [!UICONTROL Visitante]. Dado que el grupo de informes virtuales funciona mediante la segmentación, los datos importados mediante fuentes de datos de resumen no estarán disponibles en los grupos de informes virtuales si el segmento se crea con un contenedor de visita o visitante.
 
 Las fuentes de datos de resumen se muestran en el grupo de informes virtual si se utiliza un contenedor de visita individual y si este tiene reglas condicionadas para incluir la información de la fuente de datos.
 
@@ -91,7 +91,7 @@ Las fuentes de datos de resumen se muestran en el grupo de informes virtual si s
 >
 >Las fuentes de datos de procesamiento completo admiten la segmentación y pueden utilizarse en grupos de informes virtuales.
 
-## Pasos a seguir si ha decidido utilizar VRS
+## Pasos a seguir si ha decidido utilizar el grupo de informes virtuales
 
 Si opta por eliminar llamadas secundarias al servidor en favor de los grupos de informes virtuales:
 
@@ -100,7 +100,7 @@ Si opta por eliminar llamadas secundarias al servidor en favor de los grupos de 
    * Se recomienda utilizar el [apilamiento de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) para poder editar un segmento en una ubicación y aplicarlo a todos los grupos de informes virtuales dependientes.
    * Utilice contenedores de visita si desea que los grupos de informes virtuales sean más excluyentes de manera mutua.
 2. Después de confirmar que los grupos de informes virtuales están correctamente configurados, elimine los ID del grupo de informes secundario de la implementación. Para eliminar los grupos de informes secundarios:
-   * En la extensión Adobe Analytics de la recopilación de datos de Adobe Experience Platform, haga clic en la &quot;x&quot; junto a los grupos de informes que ya no desee utilizar.
+   * En la extensión de Adobe Analytics dentro de la recopilación de datos de Adobe Experience Platform, haga clic en la &quot;x&quot; junto a los grupos de informes que ya no desee utilizar.
    * En implementaciones de JavaScript antiguas, ubique la variable `s.account` y elimine todos los ID de los grupos de informes que ya no desee usar.
    * En todos los casos, deje solo el ID del grupo de informes global/principal para recopilar datos para sus sitios y aplicaciones.
    * Vaya a Administración > Grupos de informes y oculte los grupos de informes secundarios que ya no se utilicen.

@@ -3,10 +3,10 @@ title: Eliminación de bots en Adobe Analytics
 description: Eliminación de bots en Adobe Analytics
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -38,7 +38,7 @@ Para obtener más información, consulte la [Guía de implementación de Adobe A
 
 ## Uso de una combinación de Herramientas de Adobe
 
-Además, como los bots cambian rápidamente, Adobe ofrece otras funciones útiles que, combinadas correctamente y de forma regular, pueden ayudar a eliminar estos enemigos de la calidad de los datos. Estas funciones son: Servicio de Experience Cloud ID, Segmentación, Data Warehouse, Atributos del cliente y Grupos de informes virtuales. A continuación, se muestra una descripción general de cómo puede aprovechar estas herramientas.
+Además, como los bots cambian rápidamente, Adobe ofrece otras funciones útiles que, combinadas correctamente y de forma regular, pueden ayudar a eliminar estos enemigos de la calidad de los datos. Estas funciones son: servicio de ID de Experience Cloud, segmentación, Data Warehouse, atributos del cliente y grupos de informes virtuales. A continuación, se muestra una descripción general de cómo puede aprovechar estas herramientas.
 
 ### Paso 1: Pase el Experience Cloud ID de sus visitantes a un ID declarado nuevo
 
@@ -66,14 +66,14 @@ Ahora que ha identificado los bots mediante segmentos, el paso siguiente es apro
 
 Recuerde usar el ID de visitante de Experience Cloud como dimensión y aplicar el segmento Bots.
 
-### Paso 4: Devuelva esta lista a Adobe como atributo de cliente
+### Paso 4: Devuelva esta lista al Adobe como atributo de cliente
 
 Una vez que llegue el informe de Data Warehouse, tendrá una lista de los ECID que deben filtrarse a partir de los datos históricos. Copie y pegue estos ECID en un archivo .CSV en blanco con solo dos columnas, ECID e Indicador de bots.
 
 * **ECID**: Asegúrese de que el encabezado de esta columna coincide con el nombre que dio al nuevo ID declarado antes.
-* **Indicador de bots**: Agregue “Indicador de bots” como dimensión de esquema de atributo de cliente.
+* **Indicador de bots**: Agregue &quot;Indicador de bots&quot; como dimensión de esquema de atributos del cliente.
 
-Utilice este archivo .CSV como archivo de importación de atributos del cliente y, a continuación, suscriba los grupos de informes al atributo del cliente como se describe en esta [publicación de blog](https://theblog.adobe.com/link-digital-behavior-customers).
+Utilice este archivo .CSV como archivo de importación de atributos del cliente y, a continuación, suscriba los grupos de informes al atributo del cliente como se describe en esta sección [publicación de blog](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
@@ -85,11 +85,11 @@ Una vez que el conjunto de datos se haya procesado e integrado en Analysis Works
 
 ### Paso 6: Utilice este segmento como filtro de grupo de informes virtuales
 
-Finalmente, debe crear un [grupo de informes virtuales](/help/components/vrs/vrs-about.md) que aproveche este segmento para filtrar los bots identificados:
+Finalmente, cree un [Grupo de informes virtuales](/help/components/vrs/vrs-about.md) que utiliza este segmento para filtrar los bots identificados:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 
-Este grupo de informes virtuales recién segmentado ahora generará un conjunto de datos mucho más limpio, con los bots identificados completamente eliminados.
+Este grupo de informes virtuales recién segmentado ahora generará un conjunto de datos más limpio, con los bots identificados eliminados.
 
 ### Paso 7: Repita los pasos 2, 3 y 4 con regularidad
 

@@ -3,10 +3,10 @@ description: Aprenda a implementar el etiquetado de grupos múltiples para envia
 title: Implementación del etiquetado de grupos múltiples
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -36,4 +36,4 @@ El etiquetado de grupos múltiples implica varias llamadas al servidor para cada
 
 El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltiples suele ser una práctica recomendada, pero las necesidades de su empresa determinan la mejor opción de los grupos de informes para su organización.
 
-Para saber si los grupos de informes virtuales son su mejor opción, consulte &quot;[Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples](/help/components/vrs/vrs-considerations.md)&quot;. Consulte también &quot;[Grupos de informes virtuales vs. Etiquetado de grupos múltiples](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; para ver una comparación del etiquetado de grupos múltiples y la funcionalidad del grupo de informes virtuales.
+Para saber si los grupos de informes virtuales son su mejor opción, consulte &quot;[Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples](/help/components/vrs/vrs-considerations.md)&quot;. Consulte también &quot;[Grupos de informes virtuales frente a etiquetado de grupos múltiples](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; para ver una comparación del etiquetado de grupos múltiples y la funcionalidad del grupo de informes virtuales.

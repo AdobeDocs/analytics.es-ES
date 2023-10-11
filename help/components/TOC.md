@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 96%
+source-wordcount: '758'
+ht-degree: 93%
 
 ---
 
@@ -219,9 +219,9 @@ ht-degree: 96%
    + [Sesiones según el contexto](vrs/vrs-mobile-visit-processing.md)
    + [Procesamiento de tiempo de los informes](vrs/vrs-report-time-processing.md)
    + [Consideraciones de A4T](vrs/vrs-a4t.md)
-   + [Preguntas frecuentes sobre VRS](vrs/vrs-faq.md)
-   + [Información importante sobre el etiquetado de grupos múltiples y globales](vrs/vrs-considerations.md)
-   + Flujo de trabajo VRS {#vrs-workflow}
+   + [Preguntas frecuentes sobre grupos de informes virtuales](vrs/vrs-faq.md)
+   + [Grupos de informes virtuales y consideraciones sobre el etiquetado global/de grupos múltiples](vrs/vrs-considerations.md)
+   + Flujo de trabajo del grupo de informes virtuales {#vrs-workflow}
       + [Flujo de trabajo del grupo de informes virtuales](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Crear un grupo de informes virtuales](vrs/c-workflow-vrs/vrs-create.md)
       + [Administrar grupos de informes virtuales](vrs/c-workflow-vrs/vrs-manage.md)
@@ -233,7 +233,7 @@ ht-degree: 96%
    + [Configuración de análisis entre dispositivos](cda/setup.md)
    + [Cómo funcionan las reproducciones](cda/replay.md)
    + [Plantilla de CDA Workspace](cda/workspace-template.md)
-   + [Limitar un VRS a determinadas fechas](cda/limit-vrs-date.md)
+   + [Limitar un grupo de informes virtuales a determinadas fechas](cda/limit-vrs-date.md)
    + [Preguntas más frecuentes sobre análisis entre dispositivos](cda/faq.md)
 + Alertas {#alerts}
    + [Alertas inteligentes](c-alerts/intellligent-alerts.md)

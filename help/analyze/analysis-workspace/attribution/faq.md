@@ -4,10 +4,10 @@ description: Obtenga respuestas a preguntas más frecuentes sobre Attribution.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: aeb5558c85286c069b49663919fdbb15853bf88e
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 63%
+source-wordcount: '1222'
+ht-degree: 61%
 
 ---
 
@@ -106,7 +106,7 @@ Sí, las clasificaciones son compatibles.
 
 Sí, la mayoría de las fuentes de datos son compatibles. La atribución no es posible con fuentes de datos de resumen porque estas no están vinculadas a un identificador de visitante de Analytics.
 
-Las fuentes de datos del ID de transacción se tratan como cualquier otra visita. Las fuentes de datos del ID de transacción no utilizan el procesamiento especial que se suele emplear en los informes tradicionales. En otras palabras, al utilizar el procesamiento del tiempo de los informes, las visitas del ID de transacción tendrán valores de eVar propagados desde visitas que se producen cerca de la marca de tiempo de la visita del ID de transacción. Los valores no se propagarán desde visitas que se hayan producido cerca del momento de la transacción original.
+Las fuentes de datos del ID de transacción se tratan como cualquier otra visita. Las fuentes de datos del ID de transacción no utilizan el procesamiento especial que se suele emplear en los informes tradicionales. En otras palabras, al utilizar el procesamiento del tiempo de los informes, las visitas del ID de transacción tendrán valores de eVar propagados desde visitas que se produzcan cerca de la marca de tiempo de la visita del ID de transacción. Los valores no se propagarán desde visitas que se hayan producido cerca del momento de la transacción original.
 
 Cuando es posible, Attribution IQ se basa en el valor de columna MID enviado dentro de un evento en la fuente de datos, en lugar de en un valor persistente. El modelo de atribución se aplica a los valores de columna MID en la fuente de datos sobre la marcha. Por ejemplo, cuando se utiliza la atribución &quot;Último contacto&quot;, el modelo comienza desde cada instancia de una métrica y retrocede secuencialmente en las visitas hasta que el modelo alcanza el último valor observado en la columna MID.
 
@@ -146,7 +146,7 @@ Cuando la atribución se aplica a visitas con varios valores, todos los valores 
 
 La atribución siempre se ejecuta antes de la segmentación y esta se ejecuta antes de que se apliquen los filtros de informe. Este concepto también se aplica a los grupos de informes virtuales que utilizan segmentos.
 
-Por ejemplo, si crea un VRS y le aplica un segmento “Display Hits”, puede ver otros canales en una tabla utilizando algunos modelos de atribución.
+Por ejemplo, si crea un grupo de informes virtuales con un segmento &quot;Display Hits&quot; aplicado, puede ver otros canales en una tabla utilizando algunos modelos de atribución.
 
 ![Grupo de informes virtuales de solo visualización](assets/vrs-aiq-example.png)
 
