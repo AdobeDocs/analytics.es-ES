@@ -4,10 +4,10 @@ title: Administrar solicitudes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1f6dc980c7ec4646b8b58be06563f553c0010245
+source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 18%
+source-wordcount: '927'
+ht-degree: 16%
 
 ---
 
@@ -73,6 +73,19 @@ Puede ver el historial de cualquier informe que se haya ejecutado.
    ![Administración de una solicitud](assets/dw-manage-request.png)
 
 1. Seleccionar [!UICONTROL **Ver historial**].
+
+   El [!UICONTROL **Ver solicitud de Data Warehouse**] Esta página muestra una lista de los envíos de informes individuales.
+
+   ![Página historial de solicitudes](assets/dw-request-history.png)
+
+1. Seleccione una entrega de informes y, a continuación, seleccione cualquiera de las siguientes opciones:
+
+   | Opción | Función |
+   |---------|----------|
+   | [!UICONTROL **Detalles del destino**] | Muestra los detalles de cuenta y ubicación asociados con la solicitud. Esta es la cuenta y la ubicación configuradas anteriormente, tal como se describe en [Configuración del destino de un informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **Cancelar informe**] | Cancela el informe. No se pueden cancelar los informes cuyo estado sea [!UICONTROL **Completado**] o [!UICONTROL **Cancelado**]. |
+   | [!UICONTROL **Volver a ejecutar el informe**] | Ejecuta de nuevo el informe con los datos tal como estaban cuando se envió originalmente. Puede volver a ejecutar un informe que tenga cualquiera de los siguientes estados: [!UICONTROL **Cancelado**], [!UICONTROL **Completado**], [!UICONTROL **Error - Procesando**], o [!UICONTROL **Error: Error Al Enviar**]. |
+   | [!UICONTROL **Volver a enviar el informe**] | Reenvía el archivo de informe generado anteriormente. Puede reenviar un informe que tenga cualquiera de los siguientes estados: [!UICONTROL **Completado**] o [!UICONTROL **Error: Error Al Enviar**]. |
 
 ## Copiar solicitudes
 

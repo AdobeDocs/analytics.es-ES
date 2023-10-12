@@ -3,9 +3,9 @@ title: Crear una fuente de datos
 description: Obtenga información sobre cómo crear una fuente de datos.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '3175'
+source-wordcount: '3163'
 ht-degree: 20%
 
 ---
@@ -117,9 +117,9 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
 
    +++Azure RBAC
 
-   Puede enviar fuentes directamente a un contenedor de Azure mediante la autenticación RBAC. Este tipo de destino requiere un nombre de contenedor, un ID de aplicación, un ID de inquilino y una clave secreta.
+   Puede enviar fuentes directamente a un contenedor de Azure mediante la autenticación RBAC. Este tipo de destino requiere un ID de aplicación, un ID de inquilino y un secreto.
 
-   Para configurar un bloque RBAC de Azure como destino para una fuente de datos:
+   Para configurar una cuenta RBAC de Azure como destino de una fuente de datos:
 
    1. Si aún no lo ha hecho, cree una aplicación de Azure que Adobe Analytics pueda utilizar para la autenticación y, a continuación, conceda permisos de acceso en el control de acceso (IAM).
 
@@ -177,9 +177,9 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
 
    +++Azure SAS
 
-   Puede enviar fuentes directamente a un contenedor de Azure mediante la autenticación SAS. Este tipo de destino requiere un nombre de contenedor, un ID de aplicación, un ID de inquilino, un URI de almacén de claves, un nombre secreto de almacén de claves y una clave secreta.
+   Puede enviar fuentes directamente a un contenedor de Azure mediante la autenticación SAS. Este tipo de destino requiere un ID de aplicación, un ID de inquilino, un URI de almacén de claves, un nombre secreto de almacén de claves y un secreto.
 
-   Para configurar un bloque SAS de Azure como destino para una fuente de datos:
+   Para configurar Azure SAS como destino de una fuente de datos:
 
    1. Si aún no lo ha hecho, cree una aplicación de Azure que Adobe Analytics pueda utilizar para la autenticación.
 
@@ -210,7 +210,7 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
          | Campo | Función |
          |---------|----------|
          | [!UICONTROL **Nombre de la cuenta**] | Un nombre para la cuenta SAS de Azure. Este nombre se muestra en la variable [!UICONTROL **Seleccionar cuenta**] y puede ser cualquier nombre que elija. |
-         | [!UICONTROL **Descripción de cuenta**] | Descripción de la cuenta SAS de Azure. Esta descripción se muestra en la [!UICONTROL **Seleccionar cuenta**] y puede ser cualquier nombre que elija. |
+         | [!UICONTROL **Descripción de la cuenta**] | Descripción de la cuenta SAS de Azure. Esta descripción se muestra en la [!UICONTROL **Seleccionar cuenta**] y puede ser cualquier nombre que elija. |
          | [!UICONTROL **ID de la aplicación**] | Copie este ID de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en **Información general** dentro de la aplicación. Para obtener más información, consulte la [Documentación de Microsoft Azure sobre cómo registrar una aplicación con Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **ID de inquilino**] | Copie este ID de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en **Información general** dentro de la aplicación. Para obtener más información, consulte la [Documentación de Microsoft Azure sobre cómo registrar una aplicación con Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **URI de almacén de claves**] | <p>Ruta al token SAS en Azure Key Vault.  Para configurar Azure SAS, debe almacenar un token SAS como secreto mediante Azure Key Vault. Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Una vez creado el URI del almacén de claves, agregue una directiva de acceso en el almacén de claves para conceder permiso a la aplicación de Azure que ha creado. Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo asignar una directiva de acceso de Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |

@@ -3,9 +3,9 @@ description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración del destino de un informe para una solicitud de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2304'
 ht-degree: 15%
 
 ---
@@ -254,6 +254,8 @@ Utilice la siguiente información al completar los campos disponibles:
 
 * [!UICONTROL **Nombre de usuario**]: introduzca el nombre de usuario para iniciar sesión en el sitio SFTP.
 
+* [!UICONTROL **Usar extensiones de archivo temporales durante la carga**]: cuando está activada, la variable `.part` La extensión de archivo se utiliza durante el proceso de carga. Mantenga esta opción habilitada a menos que el servidor SFTP restrinja que los nombres de archivo se cambien una vez completada la carga.
+
 * [!UICONTROL **Claves públicas**]: descargue la clave pública adecuada al crear el destino del almacén de datos.
 
 #### Campos de ubicación
@@ -263,6 +265,8 @@ Utilice la siguiente información al completar los campos disponibles:
 * [!UICONTROL **Descripción de ubicación**]: una descripción de la ubicación en la cuenta SFTP.
 
 * [!UICONTROL **Ruta de directorio**]: Ruta a la ubicación en la cuenta SFTP.
+
+Para obtener más información sobre la configuración de SFTP, consulte [Envío de solicitudes de Data Warehouse a los servidores SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md).
 
 ### S3
 
