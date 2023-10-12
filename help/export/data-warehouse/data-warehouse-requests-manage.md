@@ -4,10 +4,10 @@ title: Administrar solicitudes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
+source-git-commit: 43dea048c675f42b4687bcf0630557291d2e4baf
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 16%
+source-wordcount: '1262'
+ht-degree: 13%
 
 ---
 
@@ -64,7 +64,7 @@ Para editar una solicitud programada:
 
 ## Ver el historial de una solicitud
 
-Puede ver el historial de cualquier informe que se haya ejecutado.
+Puede ver el historial de cualquier solicitud de Data Warehouse que haya realizado.
 
 1. En Adobe Analytics, seleccione [!UICONTROL **Herramientas**] > [!UICONTROL **Data Warehouse**].
 
@@ -74,9 +74,26 @@ Puede ver el historial de cualquier informe que se haya ejecutado.
 
 1. Seleccionar [!UICONTROL **Ver historial**].
 
-   El [!UICONTROL **Ver solicitud de Data Warehouse**] Esta página muestra una lista de los envíos de informes individuales.
+   El [!UICONTROL **Ver solicitud de Data Warehouse**] Esta página muestra una lista de los envíos de informes individuales asociados a la solicitud.
+
+   Seleccione el **Configurar columna** icono ![Icono Configurar columna](assets/configure-column-icon.png) para ocultar columnas o mostrar columnas que no se muestran de forma predeterminada.
 
    ![Página historial de solicitudes](assets/dw-request-history.png)
+
+   Las columnas disponibles son las siguientes:
+
+   | Columna | Descripción |
+   |---------|----------|
+   | [!UICONTROL **Fecha de creación**] | La fecha y la hora de creación del informe.<p>Esto se muestra en la zona horaria del usuario que inició la solicitud.</p> |
+   | [!UICONTROL **Fecha de inicio**] | La fecha y la hora de inicio del informe.<p>Esto se muestra en la zona horaria del usuario que inició la solicitud.</p> |
+   | [!UICONTROL **Fecha de finalización**] | La fecha y la hora en que se completó el informe.<p>Esto se muestra en la zona horaria del usuario que inició la solicitud.</p> |
+   | [!UICONTROL **Fecha de actualización**] | La fecha y la hora de la última actualización del informe.<p>Esto se muestra en la zona horaria del usuario que inició la solicitud.</p> |
+   | [!UICONTROL **Estado**] | El estado del envío del informe. Los estados posibles son:<ul><li>[!UICONTROL **Creado**]: el informe se ha creado, pero aún no se ha procesado.</li><li>[!UICONTROL **Pendiente**]: el informe está esperando a procesarse.</li><li>[!UICONTROL **Procesando**]: el informe se está procesando en este momento.</li><li>[!UICONTROL **Completado**]: el informe se ha completado y ya está disponible.</li><li>[!UICONTROL **Programado**]: el informe está programado pero aún no ha comenzado.</li><li>[!UICONTROL **Cancelado**]: el usuario canceló el informe.</li><li>[!UICONTROL **Error - Procesando**:] Se ha producido un error en el informe durante el procesamiento. Vuelva a ejecutar el informe para intentarlo de nuevo.</li><li>[!UICONTROL **Error: Error Al Enviar**]: el informe se ha generado correctamente pero no se ha podido entregar. Compruebe la [configuración del destino](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)y vuelva a enviar el informe.</li></ul>. |
+   | [!UICONTROL **De**] | La fecha de inicio del lapso de tiempo general incluido en el informe.<p>Esto se muestra en la zona horaria del grupo de informes.</p> |
+   | [!UICONTROL **Hasta**] | La fecha de finalización del lapso de tiempo general incluido en el informe. <p>Esto se muestra en la zona horaria del grupo de informes.</p> |
+   | [!UICONTROL **ID de solicitud heredada**] | El ID que se utiliza para identificar un informe en la interfaz de Data Warehouse heredada. Este ID puede ser necesario al ponerse en contacto con el Servicio de atención al cliente de Adobe. |
+   | [!UICONTROL **ID de informe**] | Identificador que se utiliza para identificar un informe en la interfaz de Data Warehouse actual. Este ID puede ser necesario al ponerse en contacto con el Servicio de atención al cliente de Adobe. |
+
 
 1. Seleccione una entrega de informes y, a continuación, seleccione cualquiera de las siguientes opciones:
 
