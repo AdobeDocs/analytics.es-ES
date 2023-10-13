@@ -4,10 +4,10 @@ title: Administrador de actividades de creación de informes
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
+source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 19%
+source-wordcount: '1761'
+ht-degree: 18%
 
 ---
 
@@ -96,31 +96,27 @@ Pase el ratón sobre el gráfico para ver los puntos en el tiempo en los que la 
 
   ![Gráfico de usuarios distintos](assets/distinct-users-graph.png)
 
-<!--
+#### Gráfico de solicitudes
 
-#### Requests graph
+El gráfico Solicitudes muestra el número de solicitudes procesadas y completadas del grupo de informes seleccionado durante las últimas 2 horas.
 
-The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
+Pase el ratón sobre el gráfico para ver los puntos en el tiempo en los que la cantidad máxima de solicitudes fue mayor en ese minuto.
 
-Hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+* **Eje X**: el número de solicitudes procesadas y completadas durante las últimas 2 horas.
+* **Eje Y**: el número de solicitudes procesadas (en morado) y completadas (en verde), por minuto.
 
-* **X-axis**: The number of processed and completed requests over the last 2-hour time frame.
-* **Y-axis**: The number of processed requests (in purple) and completed requests (in green), by minute.
+  ![Gráfico de usuarios distintos](assets/requests-graph.png)
 
-   ![Distinct Users graph](assets/requests-graph.png)
+#### Gráfico de colas
 
-#### Queueing graph
+El gráfico En cola muestra el tiempo medio de espera de cola (en segundos) para las solicitudes de creación de informes del grupo de informes seleccionado durante las últimas 2 horas.
 
-The Queueing graph shows the average queue wait time (in seconds) for reporting requests for the selected report suite over the last 2 hours. 
+Pase el ratón sobre el gráfico para ver los puntos en el tiempo en los que el tiempo de espera promedio máximo fue mayor para ese minuto.
 
-Hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+* **Eje X**: Tiempo promedio de espera en cola para solicitudes de informes durante el último lapso de tiempo de 2 horas.
+* **Eje Y**: Tiempo de espera promedio (en segundos).
 
-* **X-axis**: The average queue wait time for reporting requests over the last a 2-hour time frame.
-* **Y-axis**: The average wait time (in seconds).
-
-   ![Distinct Users graph](assets/queueing-graph.png)
-
--->
+  ![Gráfico de usuarios distintos](assets/queueing-graph.png)
 
 ### Ver tabla {#view-table}
 
