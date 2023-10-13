@@ -4,9 +4,9 @@ title: Administrar solicitudes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 43dea048c675f42b4687bcf0630557291d2e4baf
+source-git-commit: 02e743892d3e476a5614d9ad912523ce6315fe62
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1258'
 ht-degree: 13%
 
 ---
@@ -88,7 +88,7 @@ Puede ver el historial de cualquier solicitud de Data Warehouse que haya realiza
    | [!UICONTROL **Fecha de inicio**] | La fecha y la hora de inicio del informe.<p>Esto se muestra en la zona horaria del usuario que inició la solicitud.</p> |
    | [!UICONTROL **Fecha de finalización**] | La fecha y la hora en que se completó el informe.<p>Esto se muestra en la zona horaria del usuario que inició la solicitud.</p> |
    | [!UICONTROL **Fecha de actualización**] | La fecha y la hora de la última actualización del informe.<p>Esto se muestra en la zona horaria del usuario que inició la solicitud.</p> |
-   | [!UICONTROL **Estado**] | El estado del envío del informe. Los estados posibles son:<ul><li>[!UICONTROL **Creado**]: el informe se ha creado, pero aún no se ha procesado.</li><li>[!UICONTROL **Pendiente**]: el informe está esperando a procesarse.</li><li>[!UICONTROL **Procesando**]: el informe se está procesando en este momento.</li><li>[!UICONTROL **Completado**]: el informe se ha completado y ya está disponible.</li><li>[!UICONTROL **Programado**]: el informe está programado pero aún no ha comenzado.</li><li>[!UICONTROL **Cancelado**]: el usuario canceló el informe.</li><li>[!UICONTROL **Error - Procesando**:] Se ha producido un error en el informe durante el procesamiento. Vuelva a ejecutar el informe para intentarlo de nuevo.</li><li>[!UICONTROL **Error: Error Al Enviar**]: el informe se ha generado correctamente pero no se ha podido entregar. Compruebe la [configuración del destino](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)y vuelva a enviar el informe.</li></ul>. |
+   | [!UICONTROL **Estado**] | El estado del envío del informe. Los estados posibles son:<ul><li>[!UICONTROL **Creado**]: el informe se ha creado, pero aún no se ha procesado.</li><li>[!UICONTROL **Pendiente**]: el informe está esperando a procesarse.</li><li>[!UICONTROL **Procesando**]: el informe se está procesando en este momento.</li><li>[!UICONTROL **Completado**]: el informe se ha completado y ya está disponible.</li><li>[!UICONTROL **Programado**]: el informe está programado pero aún no ha comenzado.</li><li>[!UICONTROL **Cancelado**]: el usuario canceló el informe.</li><li>[!UICONTROL **Error - Procesando**:] El informe ha encontrado un error y no se ha podido procesar.</li><li>[!UICONTROL **Error: Error Al Enviar**]: el informe se ha generado correctamente pero no se ha podido entregar. Compruebe la [configuración del destino](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)y vuelva a enviar el informe.</li></ul>. |
    | [!UICONTROL **De**] | La fecha de inicio del lapso de tiempo general incluido en el informe.<p>Esto se muestra en la zona horaria del grupo de informes.</p> |
    | [!UICONTROL **Hasta**] | La fecha de finalización del lapso de tiempo general incluido en el informe. <p>Esto se muestra en la zona horaria del grupo de informes.</p> |
    | [!UICONTROL **ID de solicitud heredada**] | El ID que se utiliza para identificar un informe en la interfaz de Data Warehouse heredada. Este ID puede ser necesario al ponerse en contacto con el Servicio de atención al cliente de Adobe. |
