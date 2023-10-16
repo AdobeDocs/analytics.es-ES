@@ -2,10 +2,10 @@
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 title: Administrador de actividades de creación de informes información general
 feature: Admin Tools
-source-git-commit: fbb652c7f96197776cdb721c21b60e338a06f65d
+source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 33%
+source-wordcount: '291'
+ht-degree: 29%
 
 ---
 
@@ -23,7 +23,7 @@ El Administrador de actividades de creación de informes ofrece las siguientes v
 
 * Le permite supervisar y administrar la capacidad de creación de informes de cada grupo de informes de su organización.
 * Le informa en tiempo real sobre la capacidad actual de creación de informes entre sus grupos de informes.
-* Proporciona información detallada de las consultas de creación de informes sobre solicitudes de creación de informes actuales, tanto si están en cola como en curso.
+* Proporciona información detallada del informe sobre las solicitudes de informes actuales, ya estén en cola o en curso.
 * Le permite optimizar la cola de creación de informes priorizando y cancelando solicitudes de creación de informes para liberar capacidad. Responde preguntas como: ¿es necesario este informe en este momento o puedo cancelarlo para darle prioridad a informes más urgentes?
 * Permite restringir solicitudes futuras durante un período de tiempo especificado. Puede restringir solicitudes específicas o puede restringir todas las solicitudes de un usuario específico o las solicitudes asociadas a un proyecto específico.
 
