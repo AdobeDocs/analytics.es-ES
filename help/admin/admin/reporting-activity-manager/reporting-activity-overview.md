@@ -2,10 +2,10 @@
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 title: Administrador de actividades de creación de informes información general
 feature: Admin Tools
-source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
+source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 29%
+source-wordcount: '271'
+ht-degree: 23%
 
 ---
 
@@ -41,10 +41,3 @@ Para obtener información sobre la visualización de la actividad de creación d
 
 Para obtener información sobre la cancelación de solicitudes de creación de informes en el Administrador de actividades de creación de informes, consulte [Cancelar solicitudes de creación de informes en el Administrador de actividades de creación de informes](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
 
-## Preguntas frecuentes {#faq}
-
-| Pregunta | Respuesta |
-| --- | --- |
-| ¿Puedo adquirir capacidad adicional de creación de informes? | Esta capacidad estará disponible próximamente. |
-
-{style="table-layout:auto"}
