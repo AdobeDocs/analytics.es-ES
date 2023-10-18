@@ -3,10 +3,10 @@ title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 98%
+source-wordcount: '2577'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Fuente de datos del flujo de navegación:** consulte Fuente de datos
 * **Cohorte:** grupo de personas que comparten características comunes durante un período de tiempo determinado. Consulte [¿Qué es el análisis de cohorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)en la guía de usuario sobre análisis.
 * **Servidor de recopilación:** Consulte Servidor de recopilación de datos.
+* **Componente:** Los componentes de Analysis Workspace están formados por dimensiones, métricas, segmentos e intervalos de fechas que puede arrastrar y soltar en un proyecto. Consulte [Resumen de componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) en la guía de usuario sobre análisis.
 * **Variables de datos de contexto:** variables temporales utilizadas únicamente en las reglas de procesamiento. Los valores de las variables de datos de contexto se pierden de forma irreversible si una regla de procesamiento no los copia en una variable de conversión o de tráfico. Consulte [Variables de datos de contexto](../implement/vars/page-vars/contextdata.md) en la guía de usuario sobre implementación.
 * **Variable de conversión:** Conocidas de forma coloquial como eVars. Almacena un valor personalizado y conserva el valor de la variable hasta que caduque. Consulte la dimensión [eVar](/help/components/dimensions/evar.md) en la guía del usuario Componentes.
 * **Correlación:** ya no se utiliza como término; se ha sustituido por los desgloses de dimensión. En las versiones anteriores de Adobe Analytics, las correlaciones permitían desglosar variables de tráfico. Consulte [Desglosar dimensiones](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) en la guía del usuario sobre análisis.
