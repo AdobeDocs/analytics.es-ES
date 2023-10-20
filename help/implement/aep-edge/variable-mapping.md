@@ -3,7 +3,7 @@ title: Asignación de variables de Analytics en Adobe Experience Edge
 description: Vea qué campos XDM de Edge se asignan automáticamente a variables de Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 83%
@@ -106,8 +106,8 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | `media.mediaTimed.thirdQuartiles.value` | El [marcador de progreso del 75 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=es#seventy-five-progress-marker) de la métrica Media Analytics. |
 | `media.mediaTimed.timePlayed.value` | El [tiempo invertido en contenido](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=es#content-time-spent) de la métrica Media Analytics. |
 | `media.mediaTimed.totalTimePlayed.value` | El [tiempo invertido en contenido](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=es#media-time-spent) de la métrica Media Analytics. |
-| `placeContext.geo.latitude` | La dimensión móvil Latitud. |
-| `placeContext.geo.longitude` | Longitud de la dimensión Móvil. |
+| `placeContext.geo._schema.latitude` | La dimensión móvil Latitud. |
+| `placeContext.geo._schema.longitude` | Longitud de la dimensión Móvil. |
 | `placeContext.geo.postalCode` | La dimensión [Código postal](../../components/dimensions/zip-code.md). |
 | `placeContext.geo.stateProvince` | La dimensión [Estados Unidos](../../components/dimensions/us-states.md). |
 | `placeContext.localTime` | Ayuda a rellenar [Zonas horarias](/help/analyze/reports-analytics/reports.md) en Report &amp; Analytics. Aparece como `t_time_info` en [Fuentes de datos](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
