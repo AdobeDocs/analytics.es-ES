@@ -2,7 +2,7 @@
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 title: Administrador de actividades de creación de informes información general
 feature: Admin Tools
-source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
+source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 23%
@@ -10,8 +10,6 @@ ht-degree: 23%
 ---
 
 # Información general del Administrador de actividades de creación de informes
-
-{{release-limited-testing}}
 
 El [!UICONTROL Administrador de actividades de informes] está disponible para administradores.
 
