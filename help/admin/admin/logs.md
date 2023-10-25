@@ -3,10 +3,10 @@ description: Los archivos de registro ayudan a ver cuándo los usuarios inician 
 title: Registros
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 67%
+source-wordcount: '603'
+ht-degree: 66%
 
 ---
 
@@ -41,7 +41,7 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 | Sin categoría | Puede ser cualquier tipo de evento. |
 | Error al iniciar sesión | Error del proceso de inicio de sesión del usuario. |
 | Inicio de sesión correcto | El usuario ha iniciado sesión correctamente. |
-| Acción de administrador | Se produjo una acción de administración, como editar un grupo de informes, cambiar la configuración de la empresa, crear un usuario, etc. |
+| Acción de administrador | Se ha producido una acción de administración, como editar un grupo de informes, cambiar la configuración de la empresa, crear un usuario, cancelar una solicitud de creación de informes, etc. |
 | Cambio de configuración de seguridad | Se ha cambiado una configuración de seguridad. |
 | Informe visto | Se visualizó un informe de Reports &amp; Analytics. |
 | Informe descargado | Se ha descargado un informe de Reports &amp; Analytics. |
@@ -51,7 +51,7 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 | Acción de Omniture | El Adobe realizó una acción. |
 | Recuperación de contraseña | Se ha recuperado una contraseña. |
 | BookMarks | Se administró un marcador. |
-| Tableros | Se ha administrado un tablero. |
+| Paneles | Se ha administrado un tablero. |
 | Alertas | Se ha administrado una alerta. |
 | Eventos de calendario | Se ha administrado un evento de calendario. |
 | Objetivos | Se ha gestionado un destinatario. |

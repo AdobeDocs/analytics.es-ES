@@ -2,9 +2,9 @@
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 title: Cancelar solicitudes de creación de informes en el Administrador de actividades de creación de informes
 feature: Admin Tools
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1417'
 ht-degree: 15%
 
 ---
@@ -17,7 +17,11 @@ Tenga en cuenta lo siguiente al cancelar las solicitudes de creación de informe
 
 * Puede cancelar solicitudes específicas, cancelar todas las solicitudes de un usuario específico o cancelar todas las solicitudes relacionadas con un proyecto específico.
 
+  Cuando cancela una solicitud, la acción se registra en el [Registros](/help/admin/admin/logs.md). El [!UICONTROL **Tipo de evento**] se muestra como [!UICONTROL **Acción de administrador**], y una descripción de la cancelación está disponible en la [!UICONTROL **Evento**] columna.
+
 * Al cancelar las solicitudes, también puede optar por restringir las solicitudes posteriores durante un período de tiempo determinado.
+
+  Cuando restringe una solicitud posterior, la acción se registra en la variable [Registros](/help/admin/admin/logs.md). El [!UICONTROL **Tipo de evento**] se muestra como [!UICONTROL **Acción de administrador**], y una descripción de la restricción está disponible en la [!UICONTROL **Evento**] columna.
 
 * No puede cancelar una solicitud si [!UICONTROL **Usuario**] de una solicitud se muestra como [!UICONTROL **No reconocido**]. Cuando esto sucede, significa que el usuario se encuentra en una empresa de inicio de sesión en la que no tiene permisos administrativos.
 
