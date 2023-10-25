@@ -4,9 +4,9 @@ title: Administrar solicitudes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1293'
 ht-degree: 13%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 13%
 >Si su organización aún no tiene la nueva experiencia de Data Warehouse, que estará disponible próximamente para todos los clientes, utilice la información de [Administrar solicitudes de Data Warehouse (experiencia antigua)](#manage-data-warehouse-requests-old-experience) al final de esta página.
 
 
-Puede ver y administrar las solicitudes de Data Warehouse que haya realizado. Solo los administradores pueden ver y administrar las solicitudes realizadas por otros usuarios de la organización en la que tienen derechos administrativos.
+Puede ver y administrar las solicitudes de Data Warehouse que haya realizado. Solo los administradores pueden ver y administrar las solicitudes realizadas por otros usuarios de su organización.
 
 Las secciones siguientes describen las actividades que puede realizar al administrar solicitudes.
 
@@ -47,6 +47,8 @@ Tenga en cuenta lo siguiente al editar solicitudes:
 * Solo se pueden editar las solicitudes configuradas para ejecutarse en una programación.
 
 * No se pueden editar todos los campos asociados con la solicitud. Los campos que no se pueden editar aparecen atenuados.
+
+* Los administradores que editan la solicitud de otro usuario deben elegir una cuenta y una ubicación nuevas a las que puedan acceder.
 
 Para editar una solicitud programada:
 
