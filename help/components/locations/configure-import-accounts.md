@@ -3,9 +3,10 @@ description: Configure la cuenta de importación y la ubicación de la nube en l
 keywords: Analysis Workspace
 title: Configurar cuentas de importación en la nube
 feature: Classifications
-source-git-commit: 6010c65571b326759eeddc5e71f8a52212ddbb98
+exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
+source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '901'
 ht-degree: 5%
 
 ---
@@ -39,7 +40,6 @@ Para configurar una cuenta de importación de nube:
    | Campo | Función |
    |---------|----------|
    | [!UICONTROL **ARN de función**] | Debe proporcionar un ARN de la función (nombre de recurso de Amazon) que el Adobe pueda utilizar para obtener acceso a la cuenta de Amazon S3. Para ello, se crea una directiva de permisos de IAM para la cuenta de origen, se adjunta la directiva a un usuario y, a continuación, se crea un rol para la cuenta de destino. Para obtener información específica, consulte [esta documentación de AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
-   | [!UICONTROL **ARN de usuario**] | El ARN del usuario (nombre del recurso de Amazon) lo proporciona Adobe. Debe adjuntar este usuario a la directiva que ha creado. |
 
    {style="table-layout:auto"}
 
@@ -90,4 +90,3 @@ Para configurar una cuenta de importación de nube:
 1. Seleccione [!UICONTROL **Guardar**].
 
 1. Continuar con [Configurar ubicaciones de importación en la nube](/help/components/locations/configure-import-locations.md).
-

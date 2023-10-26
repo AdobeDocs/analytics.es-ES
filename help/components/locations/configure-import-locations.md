@@ -3,9 +3,10 @@ description: Configure la cuenta de importación y la ubicación de la nube en l
 keywords: Analysis Workspace
 title: Configurar ubicaciones de importación en la nube
 feature: Classifications
-source-git-commit: 4efb0623d734419c376ca5f2bf2bbd94097ee4e4
+exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
+source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '543'
 ht-degree: 8%
 
 ---
@@ -38,7 +39,7 @@ Para configurar una ubicación de importación en la nube:
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Nombre del segmento**] | El bloque de su cuenta de Amazon S3 al que desea enviar los datos de Adobe Analytics. Asegúrese de que el ARN del usuario proporcionado por el Adobe tiene acceso para cargar archivos en este bloque. |
+   | [!UICONTROL **Nombre del segmento**] | El bloque de su cuenta de Amazon S3 al que desea enviar los datos de Adobe Analytics. |
    | [!UICONTROL **Prefijo clave**] | La carpeta dentro del bloque en el que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, agregue una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
 
    {style="table-layout:auto"}
