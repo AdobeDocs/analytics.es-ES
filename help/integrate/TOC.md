@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de integración de Analytics
 breadcrumb-title: Guía de integración
 user-guide-description: Configure integraciones con otras soluciones de Adobe Experience Cloud, como Audience Manager y Advertising Cloud.
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 241a3a6c7df71838d15e8479d47ef88f758c5848
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '184'
 ht-degree: 96%
 
 ---
@@ -44,4 +44,4 @@ ht-degree: 96%
 + [Integración de datos de Adobe Analytics con Adobe Campaign Classic](analytics-to-campaign-classic.md)
 + [Informes de AEM Assets](aem-assets-reporting.md)
 + [Informes de Activity Map](activitmap-reporting.md)
-+ [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.analytics.html#product)
++ [Adobe Exchange](https://exchange.adobe.com)
