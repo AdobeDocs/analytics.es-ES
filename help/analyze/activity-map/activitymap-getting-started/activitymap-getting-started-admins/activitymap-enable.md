@@ -5,10 +5,10 @@ uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: 87c2f559990674ee738e1ad57166cf192d58232c
+source-git-commit: d4caf0ddc5cf5402bfef94a64db1c00e1c725658
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 66%
+ht-degree: 74%
 
 ---
 
@@ -16,29 +16,29 @@ ht-degree: 66%
 
 Explica los pasos que el administrador de Analytics debe llevar a cabo para habilitar la recopilación de vínculos de Activity Map y la descarga de los usuarios.
 
-## Paso 1. Actualización del código de implementación {#section_5D1586289DF2489289B1B6C1C80C300D}
+## Paso 1. Actualice el código de implementación {#section_5D1586289DF2489289B1B6C1C80C300D}
 
 El módulo Activity Map forma parte de AppMeasurement.js y del SDK web (versión 2.15.0 o superior).
-La biblioteca AppMeasurement o el SDK web cargarán el módulo Activity Map cuando se cree una instancia.
+La biblioteca de AppMeasurement o el SDK web cargarán el módulo del Activity Map cuando se cree una instancia.
 
 >[!NOTE]
 >
->Los datos del Activity Map no se pueden recopilar a menos que actualice a **AppMeasurement** **versión 1.6** o higer o **SDK web** **versión 2.15.0** o superior
+>Los datos del Activity Map no se pueden recopilar a menos que actualice a **AppMeasurement** **versión 1.6** o superior o **SDK web** **versión 2.15.0** o superior.
 
 
-1. Descargue la última biblioteca JavaScript en función de si utiliza AppMeasurement o el SDK web.
+1. Descargue la biblioteca JavaScript más reciente en función de si utiliza AppMeasurement o SDK web.
 
-   - **AppMeasurement** (AppMeasurement_Javascript-1.6.zip) accediendo a  **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administrador de códigos]** y [implementar](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=es).
+   - **AppMeasurement** codifique (AppMeasurement_Javascript-1.6.zip) accediendo a  **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administrador de códigos]** y [implementarlo](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=es).
 
-      Hemos incluido [código de implementación de muestra](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) para facilitar la visualización de los cambios que se han hecho en el código al incluir el módulo Activity Map.
+     Hemos incluido [código de implementación de muestra](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) para facilitar la visualización de los cambios que se han hecho en el código al incluir el módulo Activity Map.
 
-   - **SDK web** code (alloy.js). Consulte [Instale el SDK - Opción 2: Instalación de la versión independiente precompilada](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=es#option-2%3A-installing-the-prebuilt-standalone-version) para obtener más información. Asegúrese de utilizar la versión 2.15 o posterior.
+   - **SDK web** código (alloy.js). Consulte [Instalación del SDK: Opción 2: Instalación de la versión independiente prediseñada](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=es#option-2%3A-installing-the-prebuilt-standalone-version) para obtener más información. Asegúrese de utilizar la versión 2.15 o posterior de.
 
-      Consulte [Seguimiento de vínculos](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=es) para obtener información sobre cómo implementar el seguimiento de vínculos y cómo habilitar la asignación de actividades capturando la variable `region` del elemento HTML en el que se hizo clic.
+     Consulte [Seguimiento de vínculos](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=es) para obtener información sobre cómo implementar el seguimiento de vínculos y cómo habilitar Activity Mapping capturando el `region` del elemento de HTML donde se hizo clic.
 
-      >[!NOTE]
-      >
-      >Al habilitar el seguimiento de vínculos con el SDK web, se envían eventos de vínculo cuando un cliente navega de una página a otra. Esto es diferente a cómo funciona AppMeasurement y puede resultar potencialmente en visitas facturables adicionales enviadas al Adobe.
+     >[!NOTE]
+     >
+     >Al habilitar el seguimiento de vínculos con el SDK web, se envían eventos de vínculo cuando un cliente navega de una página a la siguiente. Se trata de un funcionamiento diferente al de AppMeasurement y puede dar lugar a que se envíen más visitas facturables a Adobe.
 
 
 1. Validar la implementación:
