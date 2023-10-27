@@ -3,7 +3,7 @@ description: Cómo cargar archivos de datos a través de FTP.
 title: Importación de FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 81%
@@ -18,7 +18,7 @@ ht-degree: 81%
 >
 >No se recomienda utilizar FTP porque es un método no cifrado para compartir archivos, lo que significa que cualquiera puede interceptar el contenido del archivo, así como el nombre de usuario y la contraseña utilizados para la cuenta.
 >
->En su lugar, configure una cuenta en la nube como se describe en [Configurar ubicaciones de importación en la nube](/help/components/locations/configure-import-accounts.md).
+>En su lugar, configure una cuenta en la nube como se describe en [Configurar cuentas de importación en la nube](/help/components/locations/configure-import-accounts.md).
 
 Instrucciones sobre cómo cargar archivos de datos a través de FTP.
 

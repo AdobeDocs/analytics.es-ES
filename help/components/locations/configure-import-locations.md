@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar ubicaciones de importación en la nube
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 8%
+source-wordcount: '584'
+ht-degree: 7%
 
 ---
 
@@ -88,4 +88,11 @@ Para configurar una ubicación de importación en la nube:
 
 1. Seleccione [!UICONTROL **Guardar**].
 
-   Ahora puede importar datos a la cuenta y la ubicación configuradas.
+   Ahora puede importar datos desde la cuenta y la ubicación configuradas.
+
+   Los datos no se eliminan del destino de nube una vez importados.
+
+   >[!NOTE]
+   >
+   >   Si ha utilizado anteriormente [FTP para importar clasificaciones](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) a Adobe Analytics, tenía que cargar un archivo FIN. Este archivo FIN no es necesario al importar desde cuentas en la nube.
+
