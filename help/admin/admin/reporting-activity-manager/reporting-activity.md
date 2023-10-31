@@ -4,9 +4,9 @@ title: Administrador de actividades de creación de informes
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: 5e74c47dff7f1685be9fd738f834ae317c95fad5
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1921'
 ht-degree: 16%
 
 ---
@@ -35,7 +35,7 @@ Para obtener más información sobre el Administrador de actividades de creació
 
      <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
-1. Ver información de utilización de cada grupo de informes. Puede seleccionar un encabezado de columna para ordenar la tabla por esa columna.
+1. Ver información de utilización de cada grupo de informes. Los datos que se muestran en la tabla representan la actividad de creación de informes del grupo de informes en el momento en que se cargó la página por última vez.
 
    Las columnas disponibles son las siguientes:
 
@@ -46,7 +46,7 @@ Para obtener más información sobre el Administrador de actividades de creació
    | **[!UICONTROL Utilización de la capacidad]** | El porcentaje de la capacidad de creación de informes del grupo de informes que se está utilizando en tiempo real. <p>**Nota** Una capacidad de uso del 100 % no sugiere necesariamente que deba empezar a cancelar inmediatamente las solicitudes de creación de informes. La capacidad de uso del 100% puede ser saludable si el tiempo de espera promedio es razonable. Por otro lado, una capacidad de uso del 100 % podría sugerir un problema si el número de solicitudes en cola también aumenta.</p> |
    | **[!UICONTROL Solicitudes en cola]** | El número de solicitudes en espera de ser procesadas. <!-- ??? --> |
    | **[!UICONTROL Tiempo de espera en cola]** | Tiempo de espera promedio antes de que las solicitudes empiecen a procesarse. <!-- ???? --> |
-   | **[!UICONTROL Estado]** | Los estados posibles son: <ul><li>[!UICONTROL **Activo**] (azul): los informes se han ejecutado en el grupo de informes y se está monitorizando su actividad.</li><li>[!UICONTROL **Inactivo**] (gris): Nunca se han ejecutado informes en el grupo de informes. Este estado solo se muestra cuando se crean los grupos de informes por primera vez.</li></ul> |
+   | **[!UICONTROL Estado]** | Los estados posibles son: <ul><li>[!UICONTROL **Activo**] (azul): Los informes se han ejecutado en el grupo de informes en las últimas 2 horas. Los datos que se muestran en la tabla representan la capacidad de creación de informes del grupo de informes en el momento en que se cargó la página por última vez.</li><li>[!UICONTROL **Inactivo**] (gris): No se han ejecutado informes en el grupo de informes en las últimas 2 horas, por lo que no se muestran datos para el grupo de informes.</li></ul> |
 
    {style="table-layout:auto"}
 
