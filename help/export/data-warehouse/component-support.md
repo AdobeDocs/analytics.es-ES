@@ -3,10 +3,10 @@ title: Compatibilidad con componentes en Data Warehouse
 description: Descubra qué dimensiones y métricas adicionales están disponibles en Data Warehouse y qué otras no se admiten.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
+source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 65%
+source-wordcount: '402'
+ht-degree: 56%
 
 ---
 
@@ -40,17 +40,7 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
 
 ### Dimensiones no admitidas
 
-* Algunas dimensiones basadas en el tiempo, como:
-   * AM/PM
-   * Día del mes
-   * Día de la semana
-   * Día del año
-   * Hora del día
-   * Minuto
-   * Mes del año
-   * Trimestre del año
-   * Día de la semana/Fin de semana
-   * Año
+* AM/PM
 * Algunas dimensiones basadas en rutas, entre ellas:
    * Todas las dimensiones de entrada, excepto Página de entrada
    * Todas las dimensiones de salida, excepto Página de salida y Vínculo de salida
@@ -59,7 +49,6 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
    * Tiempo previo al evento
    * Tiempo empleado en la página - Agrupado
    * Tiempo empleado por visita - General
-   * Profundidad de la visita
 * Clasificación de todas las páginas de búsqueda
 * Variables de jerarquía
 * Tipo de visita
@@ -78,4 +67,16 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
    * Recargas
    * Acceso único
    * Métricas de “tiempo empleado”
+* Métricas de participación (como se describe en) [Crear una métrica de &quot;participación&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
+### Dimension admitidos de una manera diferente
+
+Se admiten las siguientes dimensiones basadas en el tiempo. Sin embargo, el resultado de las fechas no es estándar al utilizar estas dimensiones. En concreto, el año se compensa con 1900 y los meses se basan en cero.
+
+* Año
+* Trimestre
+* Mes
+* Semana
+* Día
+* Hora
+* Minuto
