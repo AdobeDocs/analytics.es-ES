@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8268'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -196,7 +196,7 @@ Nuevas funciones y mejoras publicadas el 1 de noviembre de 2018.
 
 | Función | Descripción |
 |--- |--- |
-| [Mejoras en el grupo de informes virtuales y depuración de proyectos](/help/analyze/analysis-workspace/curate-share/curate.md) | Estos cambios se introdujeron en octubre de 2018. Se han realizado cambios en los componentes que los administradores y no administradores pueden ver en los proyectos depurados de Workspace y en los grupos de informes virtuales depurados. <br> Anteriormente, cualquier usuario podía ver los componentes no depurados al hacer clic en el botón Mostrar todos los componentes. La experiencia actualizada de organización permite un control más detallado sobre qué componentes son visibles.</br> |
+| [Mejoras en el grupo de informes virtuales y revisión de proyectos](/help/analyze/analysis-workspace/curate-share/curate.md) | Estos cambios se introdujeron en octubre de 2018. Se han realizado cambios en los componentes que los administradores y no administradores pueden ver en los proyectos organizados de Workspace y en los grupos de informes virtuales organizados. <br> Anteriormente, cualquier usuario podía ver los componentes no depurados al hacer clic en el botón Mostrar todos los componentes. La experiencia actualizada de organización permite un control más detallado sobre qué componentes son visibles.</br> |
 
 ## Octubre de 2018
 
