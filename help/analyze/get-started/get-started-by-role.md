@@ -4,7 +4,7 @@ title: Introducción para personas usuarias y personal de administración, anál
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 100%
 
