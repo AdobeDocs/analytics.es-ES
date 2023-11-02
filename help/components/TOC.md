@@ -5,9 +5,9 @@ user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 93%
    + [Canal de marketing](dimensions/marketing-channel.md)
    + [Detalles del canal de marketing](dimensions/marketing-detail.md)
    + [Minuto](dimensions/minute.md)
-   + [Dimensiones del ciclo vital móvil](dimensions/lifecycle-dimensions.md)
+   + [Dimensiones del ciclo de vida móvil](dimensions/lifecycle-dimensions.md)
    + [Dimensiones de búsqueda móvil](dimensions/mobile-dimensions.md)
    + [Resolución del monitor](dimensions/monitor-resolution.md)
    + [Mes del año](dimensions/month-of-year.md)
@@ -129,7 +129,7 @@ ht-degree: 93%
    + [Salidas](metrics/exits.md)
    + [Personas identificadas](metrics/identified-people.md)
    + [Instancias](metrics/instances.md)
-   + [Métricas del ciclo vital móviles](metrics/lifecycle-metrics.md)
+   + [Métricas del ciclo de vida móvil](metrics/lifecycle-metrics.md)
    + [Vistas con dispositivos móviles](metrics/mobile-views.md)
    + [Nuevos compromisos](metrics/new-engagements.md)
    + [Ocurrencias](metrics/occurrences.md)
@@ -201,7 +201,7 @@ ht-degree: 93%
       + [Uso de funciones](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [Etiquetar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Filtrar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [Marcar métricas calculadas como favoritas](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
+      + [Marcar una métrica calculada como favorita](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [Aprobar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Compartir métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Copiar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
@@ -219,8 +219,8 @@ ht-degree: 93%
    + [Sesiones según el contexto](vrs/vrs-mobile-visit-processing.md)
    + [Procesamiento de tiempo de los informes](vrs/vrs-report-time-processing.md)
    + [Consideraciones de A4T](vrs/vrs-a4t.md)
-   + [Preguntas frecuentes sobre grupos de informes virtuales](vrs/vrs-faq.md)
-   + [Grupos de informes virtuales y consideraciones sobre el etiquetado global/de grupos múltiples](vrs/vrs-considerations.md)
+   + [Preguntas frecuentes de los grupos de informes virtuales](vrs/vrs-faq.md)
+   + [Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples o globales](vrs/vrs-considerations.md)
    + Flujo de trabajo del grupo de informes virtuales {#vrs-workflow}
       + [Flujo de trabajo del grupo de informes virtuales](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Crear un grupo de informes virtuales](vrs/c-workflow-vrs/vrs-create.md)
