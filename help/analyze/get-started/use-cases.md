@@ -1,19 +1,20 @@
 ---
-description: Información general sobre Adobe Analytics, incluida la información sobre la interfaz de Analytics, así como información de introducción para administradores, analistas, usuarios y desarrolladores.
+description: Información general acerca de Adobe Analytics, incluida información acerca de la interfaz de Analytics, así como información de introducción para personas usuarias y roles de administrador, analista y desarrollador.
 title: Casos de uso de Analytics
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: tm+mt
+exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 # Casos de uso de Analytics
 
-A continuación se indican algunas de las formas clave en que Adobe Analytics ayuda a las organizaciones a obtener perspectivas críticas para servir mejor a sus clientes.
+A continuación se detallan algunas de las principales formas en las que Adobe Analytics ayuda a las organizaciones a obtener información crítica para prestar un mejor servicio a sus clientes.
 
-Para obtener más información sobre las ventajas que proporciona Adobe Analytics, consulte la [página de producto de Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html).
+Para obtener más información acerca de las ventajas que ofrece Adobe Analytics, consulte la [página de producto de Adobe Analytics](https://business.adobe.com/es/products/analytics/adobe-analytics.html).
 
 ## Análisis web
 
@@ -28,27 +29,27 @@ Adobe Analytics proporciona las siguientes herramientas predictivas y de segment
 
 ## Análisis de marketing
 
-Adobe Analytics ayuda a las organizaciones a comprender dónde interactúan los clientes con sus marcas, qué canales prefieren los clientes y qué experiencias resuenan con ellos.
+Adobe Analytics ayuda a las organizaciones a comprender dónde interactúan los clientes con sus marcas, qué canales prefieren y qué experiencias les resultan atractivas.
 
-Las siguientes funciones clave de Adobe Analytics proporcionan estas funciones de marketing:
+Las siguientes características principales de Adobe Analytics proporcionan estas funciones de marketing:
 
 * [Recopilación de datos multicanal](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=es)
 
-* [Integración de datos sin conexión](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en)
+* [Integración de datos sin conexión](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=es)
 
 * [Análisis ad hoc en Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 
 ## Atribución
 
-La atribución permite a las organizaciones ver cómo las distintas interacciones a lo largo del recorrido del cliente afectan a la conversión. Además de proporcionar opciones de atribución más tradicionales, como los modelos Lineal o Primer contacto, la atribución en Adobe Analytics también utiliza el aprendizaje automático y modelos estadísticos avanzados para comprender el impacto preciso de cada contacto.
+La atribución permite a las organizaciones ver cómo las diferentes interacciones a lo largo del recorrido del cliente afectan a la conversión. Además de ofrecer opciones de atribución más tradicionales, como los modelos lineales o de primer contacto, la atribución en Adobe Analytics también utiliza el aprendizaje automático y modelos estadísticos avanzados para conocer el impacto preciso de cada interacción.
 
 Para obtener más información, consulte [Modelos de atribución y ventanas retroactivas](/help/analyze/analysis-workspace/attribution/models.md).
 
 ## Análisis predictivo
 
-El análisis predictivo utiliza el aprendizaje automático y el modelado estadístico avanzado para analizar los datos de los clientes, encontrar patrones y predecir comportamientos futuros como la pérdida o la probabilidad de conversión. Permite a los analistas de datos aprovechar los enormes conjuntos de datos que, de lo contrario, se podrían desperdiciar.
+El análisis predictivo utiliza el aprendizaje automático y modelos estadísticos avanzados para analizar los datos de los clientes, encontrar patrones y predecir comportamientos futuros, como la pérdida de clientes o la probabilidad de conversión. Permite a cada analista de datos aprovechar conjuntos de datos enormes que, de otro modo, podrían desperdiciarse.
 
-Las siguientes funciones clave de Adobe Analytics proporcionan estas funciones predictivas:
+Las siguientes características principales de Adobe Analytics proporcionan estas funciones predictivas:
 
 * [Detección de anomalías](#anomaly-detection)
 
