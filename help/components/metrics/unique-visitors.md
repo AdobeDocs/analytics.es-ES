@@ -4,15 +4,15 @@ description: Número de ID de visitante único.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Visitantes únicos
 
-Los &#39;visitantes únicos&#39; [métrica](overview.md) muestra el número de ID de visitante para el elemento de dimensión. Es una de las métricas más comunes utilizadas para determinar el tráfico, ya que proporciona una visión general de alto nivel de la popularidad de un elemento de dimensión. Por ejemplo: un visitante puede llegar a su sitio todos los días durante un mes, pero contará como un visitante único.
+La [métrica](overview.md) &quot;Visitantes únicos&quot; muestra el número de ID de visitante para el elemento de dimensión. Es una de las métricas más comunes utilizadas para determinar el tráfico, ya que proporciona una visión general de alto nivel de la popularidad de un elemento de dimensión. Por ejemplo: un visitante puede llegar a su sitio todos los días durante un mes, pero contará como un visitante único.
 
 Si utiliza [Análisis entre dispositivos](../cda/overview.md), esta métrica se sustituye por la métrica [Dispositivos únicos](unique-devices.md).
 
