@@ -4,9 +4,9 @@ description: Vista de cantidades de datos o elementos de dimensión a lo largo d
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Los administradores de Analytics pueden agregar descripciones para métricas y o
 
 ## Uso de métricas en Analysis Workspace
 
-Para obtener información sobre cómo utilizar las métricas en Analysis Workspace, consulte [Uso de métricas en Analysis Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Para obtener información sobre cómo usar métricas en Analysis Workspace, consulte [Uso de métricas en Analysis Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
