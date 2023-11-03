@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y Activity Map.
-source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
-workflow-type: ht
-source-wordcount: '1105'
+source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+workflow-type: tm+mt
+source-wordcount: '1094'
 ht-degree: 100%
 
 ---
@@ -280,12 +280,9 @@ ht-degree: 100%
 + Activity Map {#activity-map}
    + [Descripción general de Activity Map](activity-map/activity-map.md)
    + Introducción {#getting-started}
-      + Introducción para administradores {#get-started-admins}
-         + [Habilitar Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [Implementación de Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + Introducción para usuarios {#get-started-users}
-         + [Instalación de los complementos del explorador de Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-         + [Inicio de Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+      + [Habilitar Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
+      + [Instalación de los complementos del explorador de Activity Map ](activity-map/activitymap-getting-started/activitymap-install.md)
+      + [Inicio de Activity Map](activity-map/activitymap-getting-started/activitymap-launch.md)
    + [Potente seguimiento de vínculos](activity-map/lnk-tracking-overview.md)
    + Seguimiento de vínculos {#link-tracking}
       + [Método de seguimiento de vínculos](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
