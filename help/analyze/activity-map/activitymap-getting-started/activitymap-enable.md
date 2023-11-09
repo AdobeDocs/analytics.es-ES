@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
+source-git-commit: 4c6df8bc08f326bfb54b27eb61f97b4be2320805
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 40%
+source-wordcount: '653'
+ht-degree: 27%
 
 ---
 
@@ -23,19 +23,52 @@ El módulo Activity Map forma parte de AppMeasurement.js, Adobe Experience Platf
 
 +++SDK web (extensión de Adobe Experience Platform tags)
 
-En Adobe Experience Platform tags, vaya a la propiedad para la que va a implementar Analytics. En [!UICONTROL Extensiones] -> [!UICONTROL SDK web de Adobe Experience Platform], seleccione **[!UICONTROL Habilitar la recopilación de datos de clics]** como se destaca a continuación. A continuación, cree la biblioteca con los cambios y publique la biblioteca en producción.
+1. En Adobe Experience Platform tags, vaya a la propiedad para la que va a implementar Analytics. En [!UICONTROL Extensiones] -> [!UICONTROL SDK web de Adobe Experience Platform], seleccione **[!UICONTROL Habilitar la recopilación de datos de clics]** como se destaca a continuación.
+1. Cree la biblioteca con los cambios.
+1. Publique la biblioteca en producción.
 
 ![](assets/web_sdk.png)
+
+**Validación**
+
+Interactuar llamadas mediante la pestaña de red de Developer Console:
+
+1. Cargue el script de Launch de desarrollo en el sitio.
+1. Al hacer clic en Elementos, busque &#39;/ee&#39; en la pestaña Red
+
+   ![](assets/validation1.png)
+
+Adobe Experience Platform Debugger:
+
+1. Descargue e instale [Adobe Experience Platform Debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpo).
+1. Ir a [!UICONTROL Registros] > [!UICONTROL Edge] > [!UICONTROL Conectar con Edge].
+
+   ![](assets/validation2.jpg)
+
+**Preguntas frecuentes**
+
+* **La llamada de interacción no se activa en la pestaña Red (Network).**
+La recopilación de datos por clic en una llamada a recopilar. Necesitamos filtrar con &quot;/ee&quot; o &quot;recopilar?&quot;
+
+* **No se muestra la carga útil para la llamada a cobro revertido.**
+La llamada a cobro revertido está diseñada de tal manera que el seguimiento no debería afectar la navegación a otros sitios, por lo que la función de descarga de documentos es aplicable a las llamadas a cobro revertido. Esto no afectará a la recopilación de datos, pero si necesita realizar la validación en la página, añada target = &quot;_blank&quot; al elemento correspondiente. A continuación, el vínculo se abre en una nueva pestaña.
+
+* **¿Cómo ignoro la colección de PII?**
+Añada las condiciones respectivas en&lt;&lt; on before link click send callback>> y devuelva el valor &quot;False&quot; para ignorar esos valores. [Más información](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es)
+
+  Código de muestra:
+
+  ![](assets/sample-code.png)
 
 +++
 
 +++Implementación manual del SDK web
 
-Consulte [Seguimiento de vínculos](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=es) para obtener información sobre cómo implementar el seguimiento de vínculos y cómo habilitar Activity Mapping capturando el `region` del elemento de HTML donde se hizo clic.
+Consulte [Seguimiento de vínculos](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=es) para obtener información sobre cómo implementar el seguimiento de vínculos y cómo habilitar Activity Map capturando el `region` del elemento de HTML donde se hizo clic.
 
 >[!NOTE]
 >
->Al habilitar el seguimiento de vínculos con el SDK web, se envían eventos de vínculo cuando un cliente navega de una página a la siguiente. Se trata de un funcionamiento diferente al de AppMeasurement y puede dar lugar a que se envíen más visitas facturables a Adobe.
+>Actualmente, habilitar el seguimiento de vínculos con el SDK web envía eventos de vínculo cuando un cliente navega de una página a otra. Se trata de un funcionamiento diferente al de AppMeasurement y puede dar lugar a que se envíen más visitas facturables a Adobe.
 
 +++
 
