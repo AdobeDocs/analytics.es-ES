@@ -4,10 +4,10 @@ title: Guardar proyectos
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 563564c756fdedd4d5bfcf7f3be3904b7e9b4a0c
+source-git-commit: a6f49d0c66ff92eff850a330c35e4979275e3c92
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 99%
+source-wordcount: '728'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Para guardar manualmente un proyecto:
    | **[!UICONTROL Guardar]** | Guardar cambios en el proyecto. Si se comparte el proyecto, los destinatarios del proyecto también verán los cambios. Cuando guarde el proyecto por primera vez, se le pedirá que indique un nombre y una descripción (opcional), y que agregue etiquetas (opcional). |
    | **[!UICONTROL Guardar con notas]** | Antes de guardar el proyecto, agregue notas sobre los cambios realizados en el proyecto. Las notas se almacenan con la versión del proyecto y están disponibles para todos los editores en [!UICONTROL Proyecto] > [!UICONTROL Abrir versión anterior]. |
    | **[!UICONTROL Guardar como]** | Cree un duplicado del proyecto. El proyecto original no se verá afectado. |
-   | **[!UICONTROL Guardar como plantilla]** | Guarde el proyecto como una [plantilla personalizada](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es) que esté disponible para su organización en **[!UICONTROL Proyecto > Nuevo]** |
+   | **[!UICONTROL Guardar como informe de la empresa]** | Guarde el proyecto como [informe de empresa](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es) que está disponible para su organización en **[!UICONTROL Proyecto > Nuevo]** |
 
 ## Guardar automáticamente {#Autosave}
 
@@ -38,9 +38,9 @@ Todos los proyectos de Analysis Workspace se guardan automáticamente cada 2 min
 
 * **Nuevos proyectos:** aunque los nuevos proyectos se guardan automáticamente, debe guardarse cada nuevo proyecto manualmente la primera vez. Analysis Workspace solicita guardar los nuevos proyectos manualmente al cambiar a otro proyecto, cerrar la pestaña del explorador, etc.
 
-   Si, por cualquier motivo, se pierde de forma inesperada el acceso a un proyecto recién creado antes de guardarlo manualmente, se guarda una versión de recuperación del proyecto en la página de aterrizaje de Analysis Workspace en una carpeta denominada `Recovered Projects (Last 7 Days)`. Debe restaurar el proyecto recuperado y guardarlo manualmente en una ubicación deseada.
+  Si, por cualquier motivo, se pierde de forma inesperada el acceso a un proyecto recién creado antes de guardarlo manualmente, se guarda una versión de recuperación del proyecto en la página de aterrizaje de Analysis Workspace en una carpeta denominada `Recovered Projects (Last 7 Days)`. Debe restaurar el proyecto recuperado y guardarlo manualmente en una ubicación deseada.
 
-   Para restaurar un proyecto recuperado:
+  Para restaurar un proyecto recuperado:
 
    1. Vaya a la carpeta [!UICONTROL **Proyectos recuperados**] en la página de aterrizaje de Analysis Workspace.
 
@@ -50,7 +50,7 @@ Todos los proyectos de Analysis Workspace se guardan automáticamente cada 2 min
 
 * **Proyectos existentes:** si, por cualquier motivo, abandona un proyecto con cambios que aún no se han guardado automáticamente, Analysis Workspace le indicará que guarde los cambios o le enviará un mensaje de advertencia.
 
-   A continuación se presentan algunos escenarios comunes:
+  A continuación se presentan algunos escenarios comunes:
 
 ### Abrir otro proyecto
 
