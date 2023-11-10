@@ -5,9 +5,9 @@ user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y Activity Map.
 source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1096'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -280,7 +280,7 @@ ht-degree: 99%
 + Activity Map {#activity-map}
    + [Descripción general de Activity Map](activity-map/activity-map.md)
    + Introducción {#getting-started}
-      + [Activar y activar el Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
+      + [Activación y habilitación de Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
       + [Instalación de los complementos del explorador de Activity Map ](activity-map/activitymap-getting-started/activitymap-install.md)
       + [Inicio de Activity Map](activity-map/activitymap-getting-started/activitymap-launch.md)
    + [Potente seguimiento de vínculos](activity-map/lnk-tracking-overview.md)
