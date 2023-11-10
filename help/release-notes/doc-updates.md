@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
 workflow-type: tm+mt
 source-wordcount: '5327'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Noviembre de 2023** | |
-| Actualizaciones del tema Activación/activación del Activity Map | Añadido [SDK web](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) contenido (manual y a través de la extensión de etiquetas de Adobe Experience Platform). |
+| Actualizaciones del tema Activación/habilitación de Activity Map | Se ha añadido el contenido [SDK web](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=es) (manual y a través de la extensión de etiquetas de Adobe Experience Platform). |
 | **Octubre de 2023** | |
 | Se ha agregado información de registro al Administrador de actividades de creación de informes | Se ha agregado información acerca de que cualquier [cancelación o restricción posterior de la actividad de creación de informes](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) en el Administrador de actividades de creación de informes se captura en los [Registros](/help/admin/admin/logs.md). |
 | Actualizaciones en la compatibilidad de los componentes de Data Warehouse | Se ha agregado disponibilidad para algunos componentes y se ha eliminado para otros en Data Warehouse. Estos cambios se reflejan en [Compatibilidad de los componentes de Data Warehouse](/help/export/data-warehouse/component-support.md). <ul><li>Se ha agregado compatibilidad con la dimensión Profundidad de la visita (se ha eliminado Profundidad de la visita de la lista de dimensiones no admitidas)</li><li>Se ha eliminado la compatibilidad con las Métricas de participación (se ha agregado Métricas de participación a la lista de métricas no admitidas)</li><li>Se ha agregado compatibilidad con las siguientes dimensiones basadas en tiempo: Año, Trimestre, Mes, Semana, Día, Hora y Minuto (se han eliminado estas dimensiones de la lista de dimensiones no admitidas) <p>Anteriormente, Data Warehouse solo admitía estas dimensiones en la primera columna de una tabla de forma libre cuando se seleccionaba Granularidad. Ahora, estas dimensiones se admiten siempre.</p><p>Sin embargo, la salida de las fechas no es estándar al utilizar dichas dimensiones. El año se compensa con 1900 y los meses se basan en cero.</li></ul> |
