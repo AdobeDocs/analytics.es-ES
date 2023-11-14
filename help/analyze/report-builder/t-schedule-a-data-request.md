@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '985'
 ht-degree: 96%
 
 ---
@@ -53,7 +53,6 @@ Además, después de crear una programación de libro de trabajo en Report Build
 | Personalizar | Le permite personalizar el formato de fecha. |
 | Hasta | Muestra la libreta de direcciones de Outlook, si corresponde. |
 | Enviar a: Correo electrónico | Destinatario de correo electrónico del libro de trabajo. |
-| Enviar a: Lista de publicación | Muestra las listas de distribución disponibles para esta empresa. |
 | Power BI | Consulte [Publicar libro en Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) para obtener más información. |
 | Asunto | Descripción definida por el usuario. |
 | Programación | Permite especificar el momento de envío del libro de trabajo. (Inmediatamente, por hora, diariamente, semanalmente, mensualmente, trimestralmente y anualmente). |
