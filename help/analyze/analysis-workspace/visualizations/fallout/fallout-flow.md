@@ -4,9 +4,9 @@ title: Resumen de abandonos
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ Las visualizaciones de visitas en el orden previsto ofrecen más opciones para c
 
 A continuación, se muestra un vídeo sobre la visualización Visita en orden previsto:
 
->[!VIDEO](https://video.tv.adobe.com/v/24042/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
 
 Las visualizaciones de visitas en el orden previsto le permiten:
 
@@ -36,28 +36,3 @@ La visualización de visitas en el orden previsto es útil para analizar:
 * Las tasas de conversión a través de procesos específicos en el sitio (tales como un proceso de registro o de compra).
 * Flujos de tráfico generales, con un alcance más amplio: entre las personas que visitaron la página principal, este flujo muestra cuántas fueron de allí a realizar una búsqueda y cuántas continuaron para ver un elemento específico.
 * Correlaciones entre los eventos del sitio. Las correlaciones muestran el porcentaje de personas que leyeron la política de privacidad y procedieron a realizar la compra de un producto.
-
-## La segmentación como base para Flujo y Abandonos {#section_654F37A398C24DDDB1552A543EE29AA9}
-
-Los segmentos aplicados a los paneles de Workspace funcionan de un modo ligeramente distinto a los aplicados a los informes de visitas en orden previsto y flujo en Reports &amp; Analytics. La mayoría de las veces ofrecen los mismos resultados. La principal diferencia radica en que Reports &amp; Analytics aplica el segmento en cada paso de la secuencia. Esto puede producir resultados ligeramente distintos.
-
-Veamos un ejemplo de visitas en el orden previsto con dos pasos:
-
-![](assets/fallout_segments1.png)
-
-Si a continuación aplica un segmento en el nivel de panel de Workspace, el segmento se combina con las visitas en el orden previsto de este modo:
-
-![](assets/fallout_seg.png)
-
-Por el contrario, cuando Reports &amp; Analytics calcula el segmento, este se combina de esta manera:
-
-![](assets/fallout_segments3.png)
-
-Reports &amp; Analytics combina el segmento con cada paso. Cuando los contenedores se encuentran en el mismo nivel que las visitas en el orden previsto (p. ej., el nivel de visita o de visitante), el resultado es una coincidencia con el número de visitas o visitantes.
-
-Sin embargo, si el segmento aplicado al panel es menor que el nivel de las visitas en el orden previsto (p. ej., el nivel de visita individual), muestra resultados diferentes por el modo en que el informe lo combina. Para reiterar, en la mayoría de los casos, los números de Analysis Workspace coinciden con los de Reports &amp; Analytics. **No** coincidirán únicamente si se cumplen todas las condiciones siguientes:
-
-* El segmento no está en el mismo nivel que los abandonos.
-* El segmento incluye una variable por la que el visitante/visita puede adoptar distintos valores durante una visita/visitante.
-
-En el extraño caso de que necesite que Analysis Workspace refleje el modo de Reports &amp; Analytics de aplicar segmentos a visitas en el orden previsto/flujo, solo tiene que incluir el segmento en cada paso de las visitas en el orden previsto en Workspace. De este modo, los resultados serán idénticos.
