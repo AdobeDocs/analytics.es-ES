@@ -4,9 +4,9 @@ title: Filtrar y ordenar tablas de forma libre
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
+source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '920'
 ht-degree: 68%
 
 ---
@@ -32,7 +32,7 @@ Puede utilizar varios métodos para filtrar filas de una tabla de forma libre. 
 - Filtros de tabla
 - Segmentación
 
-Asegúrese de leer el impacto de cada método [Totales de tabla de forma libre](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
+Asegúrese de leer el impacto de cada método [Totales de tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### Excluir rápidamente filas específicas de una tabla
 
@@ -89,7 +89,7 @@ Para filtrar datos en tablas de forma libre:
 
 ### Segmentación
 
-Consulte nuestra [Documentación de segmentación](https://docs.adobe.com/help/es-ES/analytics/components/segmentation/seg-home.html) para obtener más información.
+Consulte nuestra [Documentación de segmentación](/help/components/segmentation/seg-home.md) para obtener más información.
 
 ## Orden de tablas
 
