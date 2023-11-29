@@ -3,7 +3,7 @@ description: El nuevo sistema Alertas inteligentes permite un control más granu
 title: Alertas inteligentes
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
@@ -37,19 +37,19 @@ Hay cuatro formas en las que puede acceder al Generador de alertas:
 
 * Mediante el acceso directo siguiente en Analysis Workspace:
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * Seleccione directamente el Generador de alertas: **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alerta nueva]** .
 * Seleccione uno o más elementos de línea de la tabla de forma libre, haga clic con el botón derecho y seleccione **[!UICONTROL Crear alerta a partir de la selección]**. De esta forma se abrirá el Generador de alertas, que se rellenará con las métricas y filtros adecuados aplicados a partir de la tabla. A continuación, puede editar la alerta si fuera necesario.
 
-   ![](assets/create-alert-from-selection.png)
+  ![](assets/create-alert-from-selection.png)
 
 * Desde un informe de [!UICONTROL Reports &amp; Analytics], vaya a **[!UICONTROL Más]** > **[!UICONTROL Agregar alerta]**. De esta forma se abrirá el nuevo Generador de alertas, que se rellenará con las métricas y filtros adecuados aplicados a partir del informe. A continuación, puede editar la alerta si fuera necesario.
 
-   ![](assets/add-alert.png)
+  ![](assets/add-alert.png)
 
 ## Preguntas más frecuentes: Cómo se calculan y activan las alertas {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. En función de la granularidad de tiempo que seleccione, se emplean [distintos modelos](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) para calcular cuánto se aleja (cuántas desviaciones estándar tiene) cada punto de datos respecto a la norma. Si establece un umbral más bajo (por ejemplo, 90 %), obtendrá más anomalías que con otro más alto (99 %). Los umbrales 99,75 % y 99,99 % se introdujeron específicamente para la granularidad horaria, de modo que no se activen tantas anomalías.
+Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. En función de la granularidad de tiempo que seleccione, se emplean [distintos modelos](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) para calcular cuánto se aleja (cuántas desviaciones estándar tiene) cada punto de datos respecto a la norma. Si establece un umbral más bajo (por ejemplo, 90 %), obtendrá más anomalías que con otro más alto (99 %). Los umbrales 99,75 % y 99,99 % se introdujeron específicamente para la granularidad horaria, de modo que no se activen tantas anomalías.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -61,7 +61,7 @@ Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 des
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Hasta dónde se remonta la detección de anomalías de una alerta para determinar anomalías de datos?</b> </p> </td> 
-   <td colname="col2"> <p>El periodo de aprendizaje varía en función de la granularidad seleccionada. Consulte Técnicas estadísticas utilizadas en la <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">detección de anomalías</a> para obtener más información. Aquí tiene un resumen: </p> 
+   <td colname="col2"> <p>El periodo de aprendizaje varía en función de la granularidad seleccionada. Consulte Técnicas estadísticas utilizadas en la <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">detección de anomalías</a> para obtener más información. Aquí tiene un resumen: </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">Mensual = 15 meses + el mismo intervalo del año anterior </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Semanal = 15 semanas + el mismo intervalo del año anterior </li> 

@@ -4,9 +4,9 @@ description: Obtenga respuestas a preguntas más frecuentes sobre Attribution.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1220'
 ht-degree: 61%
 
 ---
@@ -108,9 +108,9 @@ Sí, la mayoría de las fuentes de datos son compatibles. La atribución no es p
 
 Las fuentes de datos del ID de transacción se tratan como cualquier otra visita. Las fuentes de datos del ID de transacción no utilizan el procesamiento especial que se suele emplear en los informes tradicionales. En otras palabras, al utilizar el procesamiento del tiempo de los informes, las visitas del ID de transacción tendrán valores de eVar propagados desde visitas que se produzcan cerca de la marca de tiempo de la visita del ID de transacción. Los valores no se propagarán desde visitas que se hayan producido cerca del momento de la transacción original.
 
-Cuando es posible, Attribution IQ se basa en el valor de columna MID enviado dentro de un evento en la fuente de datos, en lugar de en un valor persistente. El modelo de atribución se aplica a los valores de columna MID en la fuente de datos sobre la marcha. Por ejemplo, cuando se utiliza la atribución &quot;Último contacto&quot;, el modelo comienza desde cada instancia de una métrica y retrocede secuencialmente en las visitas hasta que el modelo alcanza el último valor observado en la columna MID.
+Cuando es posible, la atribución se basa en el valor de columna MID enviado dentro de un evento en la fuente de datos, en lugar de en un valor persistente. El modelo de atribución se aplica a los valores de columna MID en la fuente de datos sobre la marcha. Por ejemplo, cuando se utiliza la atribución &quot;Último contacto&quot;, el modelo comienza desde cada instancia de una métrica y retrocede secuencialmente en las visitas hasta que el modelo alcanza el último valor observado en la columna MID.
 
-Cuando no es posible, Attribution IQ utilizará el valor MID en el &quot;registro anterior&quot; en la fuente de datos para la evaluación. Es posible que este registro anterior no se ordene secuencialmente por marca de tiempo, dado que AA no admite datos desordenados.
+Cuando no sea posible, la atribución utilizará el valor MID en el &quot;registro anterior&quot; de la fuente de datos para la evaluación. Es posible que este registro anterior no se ordene secuencialmente por marca de tiempo, dado que AA no admite datos desordenados.
 
 Debido a que los registros no se ordenan secuencialmente, los valores esperados de aplicar persistencia pueden afectar a la cantidad de tiempo que existe entre la marca de tiempo del ID de transacción proporcionada y la transacción original.
 

@@ -4,9 +4,9 @@ title: Limitaciones conocidas en Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '411'
 ht-degree: 90%
 
 ---
@@ -36,7 +36,7 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 ## Componentes > Segmentos
 
 * Ciertas métricas y dimensiones no se pueden segmentar, como [!UICONTROL Ocurrencias], [!UICONTROL Visitantes únicos], etc.
-* Segmentos ad hoc creados en el [zona desplegable del panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es) son un tipo de filtro rápido. No aparecen en el carril izquierdo de Workspace ni en el administrador de componentes de segmentos a menos que se hagan públicos. Para obtener más información, consulte [Segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+* Segmentos ad hoc creados en [zona desplegable del panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es) son un tipo de filtro rápido. No aparecen en el carril izquierdo de Workspace ni en el administrador de componentes del segmento a menos que se hagan públicos. Para obtener más información, consulte [Segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## Componentes > Métricas calculadas
 
@@ -56,6 +56,6 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 
 * Algunas de las opciones de la página [!UICONTROL Configuración de informes] no se aplican. Analysis Workspace solo utiliza la configuración de [!UICONTROL Idioma, moneda y codificación] de la parte inferior: [!UICONTROL Separador de miles], [!UICONTROL Codificación de informes programados] y [!UICONTROL Carácter separador de CSV].
 
-## Attribution IQ
+## Atribución
 
-* Un subconjunto de métricas no se admite en [!UICONTROL Attribution IQ]. Para obtener una lista completa, consulte las [preguntas más frecuentes sobre Attribution IQ](../attribution/faq.md).
+* Un subconjunto de métricas no se admite en [!UICONTROL Attribution]. Para obtener una lista completa, consulte las [preguntas más frecuentes sobre Attribution ](/help/analyze/analysis-workspace/attribution/faq.md).

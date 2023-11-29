@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '5327'
-ht-degree: 100%
+source-wordcount: '5323'
+ht-degree: 99%
 
 ---
 
@@ -202,8 +202,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | **Junio de 2020** | |
 | 25 de junio de 2020 | Nueva documentación para el [panel de Quick Insights](/help/analyze/analysis-workspace/c-panels/quickinsight.md) del Espacio de trabajo. Proporciona una guía a los no analistas y a los nuevos usuarios de Analysis Workspace para aprender a responder preguntas comerciales de forma rápida y sencilla. |
 | 25 de junio de 2020 | Nueva documentación para el [panel de Analytics for Target](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) en el Espacio de trabajo. Permite analizar con confianza las actividades y experiencias de Adobe Target. |
-| 18 de junio de 2020 | Nueva documentación sobre [Attribution IQ: Atribución algorítmica](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=es) |
-| 18 de junio de 2020 | Nueva documentación sobre [Attribution IQ: Ventanas retrospectivas personalizadas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=es#lookback-windows) |
+| 18 de junio de 2020 | Nueva documentación sobre [Atribución: Algorithmic Attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=es) |
+| 18 de junio de 2020 | Nueva documentación sobre [Atribución: ventanas retrospectivas personalizadas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=es#lookback-windows) |
 | 18 de junio de 2020 | Nueva documentación para [Funciones de proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) para proyectos compartidos del Espacio de trabajo. Al compartir un proyecto del Espacio de trabajo, ahora puede colocar destinatarios en una de las tres funciones de proyecto, según la experiencia del proyecto que desee que tengan: Editar, Duplicado y Vista. |
 | 18 de junio de 2020 | Nueva documentación sobre [Proyectos del Espacio de trabajo de solo vista](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=es). Los proyectos se pueden compartir con los usuarios solo como “Puede ver”. Cuando un destinatario de Vista abre el proyecto compartido, recibe una experiencia de proyecto más restrictiva sin carril izquierdo e interacciones limitadas. |
 | 18 de junio de 2020 | Nueva documentación sobre [Funciones de proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) para proyectos compartidos del Espacio de trabajo. Al compartir un proyecto del Espacio de trabajo, ahora puede colocar destinatarios en una de las tres funciones de proyecto, según la experiencia del proyecto que desee que tengan: Editar, Duplicado y Vista. |
@@ -276,4 +276,4 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 1 de febrero de 2019 | Actualización importante del complemento de implementación [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17 de enero de 2019 | [Análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md): Las principales mejoras realizadas en Análisis de cohorte le permiten hacer lo siguiente:<ul><li>Aplicar una inclusión de segmento y devolver métricas por separado. </li><li>Mostrar la pérdida en lugar de la retención.</li><li>Mostrar tablas de latencia (tiempo transcurrido antes y después de un evento de inclusión).</li><li>Personalizar la dimensión de cohorte (para agrupar visitantes en función de una eVar, no solo el tiempo).</li><li>Cálculo de cohorte móvil: calcule la retención y la pérdida en función de un período de tiempo previo, no de la cohorte original. </li><li>Añada múltiples métricas en campos de inclusión y devolución, y aplique segmentos. (No se admiten las métricas calculadas)</li></ul> |
 | 17 de enero de 2019 | [Ver densidad](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). Esta nueva configuración le permite ver más datos en una sola pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. Puede acceder a ella desde Proyecto > Info y configuración del proyecto. |
-| 17 de enero de 2019 | [Compatibilidad con variables de diversos valores en Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). Algunas dimensiones en Analytics pueden contener múltiples valores en una sola visita, como listVars, la variable de producto, las props de lista o eVars de merchandising. Analysis Workspace permite aplicar Attribution IQ a cualquiera de estos tipos de variables en el nivel de visita. |
+| 17 de enero de 2019 | [Compatibilidad con variables de diversos valores en Attribution](/help/analyze/analysis-workspace/attribution/overview.md). Algunas dimensiones en Analytics pueden contener múltiples valores en una sola visita, como listVars, la variable de producto, las props de lista o eVars de merchandising. Analysis Workspace permite aplicar Attribution a cualquiera de estos tipos de variables en el nivel de visita. |

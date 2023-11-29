@@ -3,10 +3,10 @@ description: Obtenga más información sobre
 title: Tipo de métrica y atribución
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 73%
+source-wordcount: '464'
+ht-degree: 75%
 
 ---
 
@@ -31,13 +31,13 @@ Para especificar el tipo de métrica al crear una métrica calculada:
 
 ## Funcionamiento de la asignación lineal
 
-[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) es cómo se evalúan los modelos de asignación en las métricas calculadas.
+[Atribución](/help/analyze/analysis-workspace/attribution/overview.md) es cómo se evalúan los modelos de asignación en las métricas calculadas.
 
 Para obtener una lista completa de los modelos de atribución no predeterminados y de las ventanas retroactivas, consulte [Modelos de atribución y ventanas retroactivas](/help/analyze/analysis-workspace/attribution/models.md).
 
 El siguiente ejemplo ilustra cómo funcionan las métricas calculadas con asignaciones lineales en los informes:
 
-|  | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 | Visita 6 | Visita 7 |
+| | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 | Visita 6 | Visita 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | Datos recibidos | PROMOCIÓN A | - | PROMOCIÓN A | PROMOCIÓN B | - | PROMOCIÓN C | $10 |
 | eVar de último toque | PROMOCIÓN A | PROMOCIÓN A | PROMOCIÓN A | PROMOCIÓN B | PROMOCIÓN B | PROMOCIÓN C | $10 |
@@ -51,4 +51,4 @@ En este ejemplo, los valores A, B y C se han enviado a una variable en las visit
 Hay algunas diferencias en el funcionamiento de la atribución lineal entre estas dos herramientas:
 
 * En Reports &amp; Analytics, la atribución lineal (procesada) siempre se basa en visitas, mientras que en Workspace puede basarse en visitas o visitantes.
-* En Reports &amp; Analytics, si no se pasa ningún valor en la primera visita individual de una visita, el valor (inicial) persistiría a partir de la visita anterior. Este NO es el caso en Workspace (Attribution IQ). Si no se pasa ningún valor en la primera visita individual de una visita, entonces “Ninguno” es el valor inicial.
+* En Reports &amp; Analytics, si no se pasa ningún valor en la primera visita individual de una visita, el valor (inicial) persistiría a partir de la visita anterior. Este NO es el caso en Workspace (Attribution). Si no se pasa ningún valor en la primera visita individual de una visita, entonces “Ninguno” es el valor inicial.

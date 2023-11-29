@@ -4,9 +4,9 @@ subtopic: Marketing channels
 title: Administrar Canales de marketing
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '766'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 >
 > Para obtener información general sobre los canales de marketing, consulte [Introducción a los canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Para maximizar la eficacia de los canales de marketing para Attribution IQ y Customer Journey Analytics, hemos publicado algunas [prácticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> Para maximizar la eficacia de los canales de marketing para Attribution y Customer Journey Analytics, hemos publicado algunas [prácticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de marketing]** > **[!UICONTROL Administrador del canal de marketing]**.
 
@@ -36,7 +36,7 @@ Aquí tiene algunas indicaciones para la creación de canales:
 
 * Configure el acceso a las dimensiones del canal de marketing.
 
-   Consulte los [permisos de los canales de marketing](/help/components/c-marketing-channels/c-channel-report-access.md).
+  Consulte los [permisos de los canales de marketing](/help/components/c-marketing-channels/c-channel-report-access.md).
 
 ## Agregar canales de marketing {#add-mktg-channels}
 

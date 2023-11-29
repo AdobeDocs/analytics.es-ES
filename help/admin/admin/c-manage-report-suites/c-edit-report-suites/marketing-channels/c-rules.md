@@ -3,9 +3,9 @@ title: Reglas de procesamiento de canales de marketing
 description: Las reglas de procesamiento de canales de marketing averiguan si el visitante que entra cumple los criterios asignados a un canal. Las reglas procesan cada visita que realizan los usuarios a su sitio web. Cuando una regla no cumple los criterios de un canal, o si las reglas no están configuradas correctamente, el sistema asigna la visita a No se ha identificado el canal.
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1889'
 ht-degree: 77%
 
 ---
@@ -30,7 +30,7 @@ Notas adicionales sobre el procesamiento:
 
 * Consulte la información conceptual de [Introducción a los Canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Cree uno o más canales para poder asignarles reglas. Consulte [Agregar canales de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
-* Revise las prácticas recomendadas para utilizar [!UICONTROL los canales de marketing] con [!UICONTROL Attribution IQ].
+* Revise las prácticas recomendadas para utilizar [!UICONTROL los canales de marketing] con [!UICONTROL Attribution].
 
 ## Creación de reglas de procesamiento para los canales de marketing
 

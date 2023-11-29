@@ -3,9 +3,9 @@ title: Preguntas más frecuentes sobre los canales de marketing
 description: Preguntas más frecuentes sobre los canales de marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1500'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Para maximizar la eficacia de los canales de marketing para Attribution IQ y Customer Journey Analytics, hemos publicado algunas [prácticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Para maximizar la eficacia de los canales de marketing para Attribution y Customer Journey Analytics, hemos publicado algunas [prácticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Los administradores de Analytics pueden administrar canales de marketing para sus organizaciones, tal como se describe en [Administrar canales de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
@@ -112,7 +112,7 @@ A veces, las reglas de procesamiento del canal de marketing se configuran incorr
    3. Ese usuario regresa varios días después a través de una búsqueda natural y realiza una compra.
    4. El canal de correo electrónico recibe crédito de primer contacto y la búsqueda natural recibe crédito de último contacto.
 
-   Incluso varios días después de cambiar las reglas de procesamiento, los datos se pueden recopilar en el canal de primer contacto incorrecto. Los datos de primer contacto se recopilan continuamente en el canal incorrecto hasta que caduca la participación del visitante de todos los usuarios.
+  Incluso varios días después de cambiar las reglas de procesamiento, los datos se pueden recopilar en el canal de primer contacto incorrecto. Los datos de primer contacto se recopilan continuamente en el canal incorrecto hasta que caduca la participación del visitante de todos los usuarios.
 
 La mejor manera de solucionar estas discrepancias es hacer una o ambas de las siguientes acciones:
 

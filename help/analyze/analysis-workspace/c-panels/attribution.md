@@ -4,16 +4,16 @@ description: Utilizar e interpretar el panel de atribución en Analysis Workspac
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '441'
 ht-degree: 97%
 
 ---
 
 # Panel de Attribution
 
-El panel [!UICONTROL Atribución] es una forma sencilla de generar un análisis comparando varios modelos de atribución. Es una funcionalidad de [Attribution IQ](../attribution/overview.md) que le proporciona un espacio de trabajo dedicado para usar y comparar modelos de atribución.
+El panel [!UICONTROL Atribución] es una forma sencilla de generar un análisis comparando varios modelos de atribución. Es una funcionalidad de [Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) que le proporciona un espacio de trabajo dedicado para usar y comparar modelos de atribución.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 

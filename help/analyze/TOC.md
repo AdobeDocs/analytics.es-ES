@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y Activity Map.
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
-workflow-type: ht
-source-wordcount: '1097'
+source-git-commit: af5e88141bef139fb1727ae458628dd66fe3d1f6
+workflow-type: tm+mt
+source-wordcount: '1080'
 ht-degree: 100%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 100%
       + [Proyectos de solo de vista](analysis-workspace/curate-share/view-only-projects.md)
       + [Descarga de archivos PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Programar proyectos](analysis-workspace/curate-share/t-schedule-report.md)
-   + Attribution IQ {#attribution}
+   + Atribución {#attribution}
       + [Información general de Attribution](analysis-workspace/attribution/overview.md)
       + [Modelos de atribución y ventanas retroactivas](analysis-workspace/attribution/models.md)
       + [Atribución algorítmica](analysis-workspace/attribution/algorithmic.md)
@@ -141,17 +141,12 @@ ht-degree: 100%
       + [Preguntas más frecuentes](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [IQ de segmento](analysis-workspace/segment-iq.md)
-   + Analista virtual {#virtual-analyst}
-      + [Descripción general del analista virtual](analysis-workspace/virtual-analyst/overview.md)
-      + Detección de anomalías {#anomaly-detection}
-         + [Resumen de la Detección de anomalías](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
-         + [Visualización de anomalías en Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
-         + [Desactivación de la detección de anomalías](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
-         + [Técnicas estadísticas utilizadas en la detección de anomalías](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-      + Análisis de contribución {#contribution-analysis}
-         + [Resumen de los análisis de contribución](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-         + [Ejecutar análisis de contribución](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
-         + [Técnicas estadísticas utilizadas en los análisis de contribución](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
+   + Detección de anomalías {#anomaly-detection}
+      + [Resumen de la Detección de anomalías](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [Visualización de anomalías en Analysis Workspace](analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [Desactivación de la detección de anomalías](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
+      + [Ejecutar análisis de contribución](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
+      + [Técnicas estadísticas utilizadas en la detección de anomalías](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
       + Alertas inteligentes {#intelligent-alerts}
          + [Resumen de las alertas inteligentes](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [Generador de alertas](analysis-workspace/c-intelligent-alerts/alert-builder.md)
