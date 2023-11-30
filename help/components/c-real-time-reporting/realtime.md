@@ -4,16 +4,14 @@ title: Resumen de informes en tiempo real
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '582'
+ht-degree: 92%
 
 ---
 
 # Resumen de informes en tiempo real
-
-{{ra-eol}}
 
 Los informes en tiempo real muestran tráfico de páginas web y clasifican las vistas de página en tiempo real. Proporciona datos procesables en los que fundamentar sus decisiones comerciales.
 
@@ -21,7 +19,13 @@ Los informes en tiempo real muestran tráfico de páginas web y clasifican las v
 >
 >El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte [Configuración de informes en tiempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
-**[!UICONTROL Métricas del sitio]** > **[!UICONTROL Tiempo real]**
+## Acceso a los informes en tiempo real
+
+1. En Analysis Workspace, seleccione la [!UICONTROL **Workspace**] pestaña.
+
+1. Seleccionar [!UICONTROL **Informes**] > [!UICONTROL **Participación**] > **[!UICONTROL Tiempo real]**.
+
+## Comprender los informes en tiempo real
 
 Los informes en tiempo real responden a las preguntas siguientes: ¿Cuáles son las tendencias en mi sitio y por qué? Le permite, como especialista en marketing, responder rápidamente y administrar de forma activa el rendimiento de sus campañas de marketing y de su contenido. Los datos en tiempo real recibidos tienen una latencia inferior a dos minutos y se actualizan automáticamente cada minuto.
 
@@ -55,7 +59,7 @@ Tras activar la integración de A4T en Adobe [!DNL Target], experimentará otros
 
 Este aumento se ve reflejado en todos los servicios y herramientas de Adobe Analytics, incluido el flujo en directo y los informes en tiempo real, y se aplica a estos escenarios:
 
-* Para el flujo en directo, los informes en tiempo real, las solicitudes de la API y todos los datos actuales para las variables de tráfico, solo se retrasan las visitas con un ID de datos suplementario.
+* Para el flujo en directo, los informes en tiempo real, las solicitudes de API y los datos actuales para las variables de tráfico, solo se retrasan las visitas con un ID de datos suplementario.
 * Para los datos actuales en las métricas de conversión, los datos finalizados y las fuentes de datos, todas las visitas se retrasan de 5 a 7 minutos más.
 
 Tenga en cuenta que el aumento de la latencia se da después de implementar el Servicio de identidad, incluso aunque no haya implementado correctamente esta integración.

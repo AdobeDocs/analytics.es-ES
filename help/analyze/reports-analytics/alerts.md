@@ -6,20 +6,18 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 91%
+source-wordcount: '843'
+ht-degree: 88%
 
 ---
 
 # Alertas
 
-{{ra-eol}}
-
 ## Alertas {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-Como el nuevo sistema de alertas, las alertas inteligentes de Adobe Analytics le permiten crear y gestionar alertas, junto con la previsualización de alerta y la contribución de reglas. Puede
+Al ser el sistema de alertas de todas las alertas inteligentes de Adobe Analytics, le permite crear y gestionar alertas, al tiempo que proporciona funciones para la previsualización de alertas y la contribución de reglas. Puede
 
 * Generar alertas en función de anomalías (umbrales del 90 %, 95 % o 99 %; cambio de %; por encima/por debajo).
 * Obtener una vista previa de la frecuencia con la que se activará una alerta.

@@ -1,8 +1,8 @@
 ---
-source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+source-git-commit: d857d1cf9f4aa23d7fd60c19bb6533090d956086
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 100%
+source-wordcount: '1139'
+ht-degree: 98%
 
 ---
 # Fragmentos
@@ -11,7 +11,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->A partir del **31 de diciembre de 2023**, Adobe tiene la intención de descatalogar Reports &amp; Analytics, y sus informes y funciones correspondientes. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejarán de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de Reports &amp; Analytics se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. Este aviso explica el proceso de finalización de la vida útil.
+>A partir del **31 de diciembre de 2023**, Adobe tiene la intención de descatalogar Reports &amp; Analytics, y sus informes y funciones correspondientes. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejarán de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Para obtener información sobre el uso de los informes en Analysis Workspace, consulte [Uso de informes generados previamente](/help/analyze/analysis-workspace/reports/use-reports.md).
+> 
+>Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de Reports &amp; Analytics se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. Este aviso explica el proceso de finalización de la vida útil.
 >
 >Más información acerca del [Anuncio del final de la vida útil](https://www.adobe.com/go/analytics_rnaeol_es) de Reports &amp; Analytics.
 

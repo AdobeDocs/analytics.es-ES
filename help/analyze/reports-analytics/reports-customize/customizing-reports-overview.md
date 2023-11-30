@@ -5,43 +5,16 @@ uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: cf0c15c1b81a243e35fbdcf32b43a6ef4ada9649
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 91%
+source-wordcount: '686'
+ht-degree: 90%
 
 ---
 
-# Resumen de los informes personalizados
-
-{{ra-eol}}
+# Personalizar informes
 
 Después de ejecutar un informe, puede personalizarlo para ver y analizar los datos según sus necesidades. Puede filtrar los datos de informe, cambiar la forma en que se presentan los datos gráficamente, cambiar la granularidad de la fecha, etc.
-
-## Crear un informe personalizado {#task_BA6EACA3039C40AEA5605E1D8C76E646}
-
-Puede guardar la configuración actual de un informe como un nuevo informe personalizado para que lo vean todos los usuarios.
-
-<!-- 
-
-t_reports_custom.xml
-
- -->
-
-Solo los administradores pueden crear un informe personalizado. Cuando crea un informe personalizado, se añade al menú principal de informes, situado al lado del informe en el que se basa.
-
-Para crear un informe personalizado:
-
-1. Ejecute un informe y configúrelo según sea necesario.
-1. Haga clic en **[!UICONTROL Más]** > **[!UICONTROL Crear informe personalizado]**.
-1. Especifique un nombre para el informe y, a continuación, haga clic en **[!UICONTROL Guardar]**.
-
-   Asegúrese de que no haya repetido el nombre de otro informe ya existente.
-
->[!MORELIKETHIS]
->
->* [Personalización de menús](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=es)
-
 
 ## Seleccionar una fecha o un intervalo de fecha {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
@@ -90,13 +63,17 @@ No puede comparar las fechas entre los informes de tendencia.
 >
 >Si desea llevar a cabo una comparación por fechas en métricas clave en un panel, puede extraer los datos en el [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=es) mediante dos solicitudes independientes. A continuación, puede usar fórmulas personalizadas en Excel para analizar la diferencia entre ambos.
 
-Para comparar fechas entre informes de clasificación en Reports &amp; Analytics:
+<!-- delete this procedure, but what about this entire "Compare dates" section?
 
-1. Ejecutar un informe.
-1. Haga clic en el calendario en la parte superior.
-1. Haga clic en **[!UICONTROL Comparar fechas]**.
-1. Seleccione las fechas que desee utilizar.
-1. Haga clic en **[!UICONTROL Ejecutar informe]**.
+To compare dates between ranked reports in Reports & analytics: 
+
+1. Run a report.
+1. Click the calendar at the top right.
+1. Click **[!UICONTROL Compare Dates]**.
+1. Select the dates you want to use.
+1. Click **[!UICONTROL Run Report]**.
+
+-->
 
 ## Mostrar un porcentaje como gráfico {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
@@ -212,19 +189,3 @@ Para ejecutar un informe de día de semana:
 
 1. Ejecute un informe de tendencias en un intervalo de fechas específico.
 1. Haga clic en el vínculo **[!UICONTROL Día de la semana]** y, a continuación, haga clic en un día.
-
-## Botón “Probar en el espacio de trabajo” {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
-
-Al hacer clic en el botón **[!UICONTROL Probar en el espacio de trabajo]** situado en la parte superior de un informe, el mismo informe se cargará en Analysis Workspace.
-
-<!-- 
-
-try_in_workspace.xml
-
- -->
-
-Ahora, la mayoría de los informes de Reports &amp; Analytics incluyen un botón “Probar en el espacio de trabajo” que le permite reproducir la vista actual en Analysis Workspace para seguir personalizándola.
-
-Actualmente, el botón solo está disponible si su nombre de usuario dispone de derechos completos con respecto a Analysis Workspace.
-
-Si desea obtener más información sobre cómo puede personalizar su informe, consulte la guía de [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es).

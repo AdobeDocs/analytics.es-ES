@@ -4,10 +4,10 @@ title: Página de aterrizaje de Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
-workflow-type: ht
-source-wordcount: '4071'
-ht-degree: 100%
+source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
+workflow-type: tm+mt
+source-wordcount: '2196'
+ht-degree: 98%
 
 ---
 
@@ -114,127 +114,9 @@ La pestaña [!UICONTROL Informes] consolida los siguientes conjuntos de informes
 
 ![Pestaña de informes](assets/reports-tab2.png)
 
+Para obtener más información sobre la pestaña Informes en Analysis Workspace, incluida la visualización y el guardado de informes, consulte [Uso de informes generados previamente](/help/analyze/analysis-workspace/reports/use-reports.md).
 
-### Ver informes {#menus}
-
-1. Vaya a la pestaña [!UICONTROL **Informes**].
-1. Utilice el campo de búsqueda para buscar un informe determinado.
-
-   o
-
-   Desplácese hasta el informe que desee ver.
-
-   Están disponibles los siguientes informes:
-
-   | Elemento del menú | Informes bajo este elemento de menú |
-   | --- | --- |
-   | **[!UICONTROL Más populares]** | <ul><li>Tutorial de aprendizaje (plantilla del Espacio de trabajo preexistente)</li><li>Páginas (¿Cuáles son mis páginas principales?)</li><li>Vistas de página (¿Cuántas vistas de página estoy generando?)</li><li>Visitas (¿Cuántas visitas estoy teniendo?)</li><li>Visitantes (¿Cuántos visitantes estoy teniendo?)</li><li>Métricas clave (¿Cuál es el rendimiento de mis métricas más importantes?)</li><li>Secciones del sitio (¿Qué secciones de mi sitio generaron la mayor cantidad de vistas de página?)</li><li>Página siguiente (¿Cuáles son las páginas siguientes a las que van mis visitantes?)</li><li>Página anterior (¿Cuáles son las páginas anteriores a las que se dirigieron mis visitantes?)</li><li>Campañas (¿Qué campañas están impulsando mis métricas clave?)</li><li>Productos (¿Qué productos están impulsando mis métricas clave?)</li><li>Canal de último contacto (¿Qué canal de último contacto tiene el mejor rendimiento?</li><li>Detalles del canal de último contacto (¿Qué canal de último contacto específico supera a los demás?)</li><li>Ingresos (¿Cómo van mis ingresos?)</li><li>Pedidos (¿Cómo van mis pedidos?)</li><li>Unidades (¿Cuántas unidades estoy vendiendo?)</li></ul> |
-   | **[!UICONTROL Participación]** | <ul><li>Métricas clave (¿Cuál es el rendimiento de mis métricas más importantes?)</li><li>Vistas de página (¿Cuántas vistas de página estoy generando?)</li><li>Páginas (¿Cuáles son mis páginas principales?)</li><li>Visitas (¿Cuántas visitas estoy teniendo?)</li><li>Visitantes (¿Cuántos visitantes estoy teniendo?)</li><li>Tiempo empleado por visita (¿Cuánto tiempo invierten mis usuarios por visita?)</li><li>Tiempo previo al evento (¿Cuánto tiempo dedican mis usuarios antes de un evento de éxito?)</li><li>Secciones del sitio (¿Qué secciones de mi sitio generaron la mayor cantidad de vistas de página?)</li><li>Consumo de contenido web (¿Qué contenido se consume más y resulta más atractivo para los usuarios?)</li><li>Consumo de contenido multimedia (¿Qué contenido se consume más y resulta más atractivo para los usuarios?)</li><li>Flujo de página siguiente y anterior (¿Cuáles son/fueron las rutas siguientes/anteriores de mis visitantes?)</li><li>Visita en orden previsto (¿Dónde veo la visita en orden previsto en mis propiedades digitales?)</li><li>Análisis entre dispositivos (Uso del análisis entre dispositivos en Analysis Workspace)</li><li>Retención web (¿Quiénes son mis usuarios más fieles y qué hacen?)</li><li>Consumo de audio multimedia (¿Cuáles son las tendencias y las principales métricas de consumo de audio?)</li><li>Actualización, frecuencia y lealtad de medios (¿Quiénes son mis lectores más fieles?)</li><li>Análisis de página > Recargas (¿Qué páginas generan la mayor cantidad de recargas?)</li><li>Análisis de página > Tiempo empleado en la página (¿Cuánto tiempo dedican mis usuarios a mis páginas?)</li><li>Entradas y salidas > Páginas de entrada (¿Cuáles son mis páginas de entrada principales?)</li><li>Entradas y salidas > Páginas de entrada originales (¿desde qué página entró mi visitante originalmente?)</li><li>Entradas y salidas > Visitas de página única (¿Qué páginas generaron la mayor cantidad de visitas de página única?)</li><li>Entradas y salidas > Páginas de salida (¿Cuáles son mis páginas de salida principales?)</li></ul> |
-   | **[!UICONTROL Conversión]** | <ul><li>Productos > Productos (¿Qué productos dirigen mis métricas clave?)</li><li>Productos > Rendimiento del producto (¿Qué productos tienen el mejor rendimiento?)</li><li>Productos > Categorías (¿Cuáles son las categorías de productos que tienen un mejor rendimiento?)</li><li>Carro de compras > Carros de compras (¿Cuántos usuarios agregaron un producto al carro de compras?)</li><li>Carro de compras > Vistas del carro de compras (¿Cuántas veces vieron mis visitantes sus carros de compras?)</li><li>Carro de compras > Adiciones al carro de compras (¿Con qué frecuencia los usuarios agregan un producto al carro de compras?)</li><li>Carro de compras > Eliminaciones del carro de compras (¿Con qué frecuencia eliminan los usuarios un producto de su carro de compras?)</li><li>Compras > Ingresos (¿Cómo van mis ingresos?)</li><li>Compras > Pedidos (¿Cómo van mis pedidos?)</li><li>Compras > Unidades (¿Cuántas unidades estoy vendiendo?)</li><li>[Magento: marketing y comercio](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#commerce)</li></ul> |
-   | **[!UICONTROL Audiencia]** | <ul><li>Métrica de personas (¿Cuántas personas interactúan con mi marca?)</li><li>Perfil del visitante > Información general sobre la ubicación (Qué ubicaciones son las que más utilizan los usuarios)</li><li>Perfil del visitante > Segmentación geográfica > Condados geográficos, Estados de EE. UU. geográficos, Regiones geográficas, Ciudades geográficas, DMA de EE. UU. geográfico (¿Desde qué lugares geográficos me visitan mis usuarios?)</li><li>Perfil del visitante > Idiomas (¿Qué idioma prefieren mis usuarios?)</li><li>Perfil del visitante > Zonas horarias (¿De qué zonas horarias me están visitando mis usuarios?)</li><li>Perfil del visitante > Dominios (¿Qué ISP utilizan los visitantes para acceder a mi sitio?)</li><li>Perfil del visitante > Dominios de nivel superior (¿Qué dominios conducen el tráfico a mi sitio?)</li><li>Perfil del visitante > Tecnología > Descripción general de la tecnología (¿Qué tecnologías utilizan los visitantes para acceder a mi sitio?)</li><li>Perfil del visitante > Tecnología > Exploradores, Tipo de explorador, Anchura del explorador, Altura del explorador (¿Qué explorador de qué empresa, versión de explorador, y ancho y alto utilizan las personas para acceder a mi sitio?)</li><li>Perfil del visitante > Tecnología > Sistema operativo, tipos de sistema operativo (¿Qué sistema operativo y qué versión usan mis visitantes?)</li><li>Perfil del visitante > Tecnología > Operador de telefonía móvil (¿Qué operadores de telefonía móvil utilizan los visitantes para acceder a mi sitio?)</li><li>Retención de visitantes > Frecuencia de retorno (¿Cuánto tiempo transcurre entre la visita actual del usuario y las visitas anteriores?)</li><li>Retención de visitantes > Visitas de retorno (¿Cuántas de mis visitas son usuarios recurrentes?)</li><li>Retención de visitantes > Número de visitas (Qué bloque de número de visitas genera la mayoría de mis métricas clave)</li><li>Retención de visitantes > Ciclo de ventas > Lealtad del cliente (¿A qué segmento de lealtad pertenecen mis usuarios?)</li><li>Retención de visitantes > Ciclo de ventas > Días antes de la primera compra (¿Cuántos días transcurrieron entre la primera visita de mis usuarios y su primera compra?)</li><li>Retención de visitantes > Ciclo de ventas > Días transcurridos desde la última compra (¿Cuántos días han transcurrido entre la visita actual de mis usuarios y la última compra?) )</li><li>Retención de visitantes > Móvil > Dispositivos y tipos de dispositivos (¿Qué dispositivos y tipos de dispositivos utilizan mis visitantes?)</li><li>Retención de visitantes > Móvil > Fabricante (¿Qué fabricante de dispositivo móvil usan mis visitantes?)</li><li>Retención de visitantes > Móvil > Tamaño, altura y anchura de la pantalla (¿Qué tamaño/altura/anchura de la pantalla móvil tienen mis visitantes?)</li><li>Retención de visitantes > Móvil > [Uso de aplicaciones móviles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#mobile)</li><li>Retención de visitantes > Móvil > [Recorridos de aplicaciones móviles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#mobile)</li><li>Retención de visitantes > Móvil > [Métricas de aplicaciones móviles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#mobile)</li><li>Retención de visitantes > Móvil > [Mensajería de aplicaciones móviles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#mobile)</li><li>Retención de visitantes > Móvil > [Rendimiento de las aplicaciones móviles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#mobile)</li><li>Retención de visitantes > Móvil > [Retención de aplicaciones móviles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#mobile)</li></ul> |
-   | **[!UICONTROL Adquisición]** | <ul><li>Canales de marketing > Canal de primer contacto, Detalles de canal de primer contacto (¿Qué canal de primer contacto y qué canal de primer contacto específico está teniendo el mejor rendimiento?)</li><li>Canales de marketing > Primer canal, Detalle del último canal (¿Qué canal de último contacto y qué canal de último contacto específico está teniendo el mejor rendimiento?)</li><li>Campañas > Campañas (¿Qué campañas están impulsando mis métricas clave?)</li><li>Campañas > Rendimiento de la campaña (¿Qué campañas consiguen el máximo de los ingresos?)</li><li>Campañas > Código de seguimiento (¿Qué códigos de seguimiento de campaña funcionan mejor?)</li><li>[Adquisición web](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#web)</li><li>[Adquisición móvil](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#mobile)</li><li>[Advertising Analytics: búsqueda de pago](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es#advertising)</li><li>Palabras clave de búsqueda: todas, pagadas, naturales (¿Qué palabras clave de búsqueda y palabras clave de búsqueda pagada/natural impulsan mejor mis métricas clave?)</li><li>Motores de búsqueda: todos, pagados, naturales (¿Qué motores de búsqueda y motores de búsqueda natural/pagada impulsan mejor mis métricas clave?)</li><li>Clasificación de todas las páginas de búsqueda (¿De qué página de búsqueda están visitando mis usuarios?)</li><li>Dominios de referencia (¿Qué dominios dirigen tráfico a mi sitio?)</li><li>Dominios de referencia originales (¿Cuál fue el primer dominio en el que se encontraban los usuarios antes de visitar mi sitio?)</li><li>Remitentes del reenvío (¿En qué URL estaban mis usuarios antes de hacer clic en mi sitio?)</li><li>Tipos de remitente del reenvío (¿A qué categoría pertenecen mis URL de referencia?)</li></ul> |
-
-### Ver y guardar un informe {#use-reports}
-
-Si sale de un informe después de realizar cambios, se le solicitará que guarde o descarte los cambios. Al guardar los cambios en un informe, se guarda el informe como un nuevo proyecto.
-
-1. Vaya a la pestaña [!UICONTROL **Informes**].
-1. Seleccione el informe que desee ver, por ejemplo, en [!UICONTROL **El más popular**], seleccione el informe [!UICONTROL **Páginas**].
-
-   ![Informe de páginas](assets/pages-report.png)
-
-1. El informe Páginas, tal como se muestra en Analysis Workspace, muestra dos [visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([Gráfico de barras](/help/analyze/analysis-workspace/visualizations/bar.md) y [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)) y una [Tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). La métrica utilizada es Ocurrencias.
-1. Realice una de las siguientes acciones:
-
-   * Vea el informe.
-   * Puede arrastrar uno o más segmentos a la zona de colocación de Segmento en la parte superior. Por ejemplo, arrastre el segmento [!UICONTROL **Clientes móviles**] y vea los resultados.
-   * Para cambiar el intervalo de fecha, vaya al calendario en la parte superior derecha.
-   * Añada desgloses de dimensión, arrastre otras métricas y, por lo general, personalice el informe según sus necesidades.
-
-1. (Opcional) Guarde el informe como un proyecto seleccionando [!UICONTROL **Proyecto**] > [!UICONTROL **Guardar**].
-
-   El informe se guarda como un nuevo proyecto, pero no se modifica el informe existente. Para obtener más información sobre cómo guardar un informe como un proyecto, consulte &quot;Crear un proyecto a partir de un proyecto en blanco o un informe&quot; en [Creación de un proyecto a partir de un proyecto en blanco](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
-
-### Creación de un informe de la compañía personalizado {#company-report}
-
-Los informes personalizados creados y guardados para que los demás usuarios de su empresa de inicio de sesión los utilicen, se denominan informes de la compañía. Los informes de la compañía creados anteriormente y los recién creados se muestran en el modal Crear proyecto, como se muestra a continuación.
-
-Para crear un nuevo Informe de la compañía:
-
-1. Cree un proyecto en Analysis Workspace con el estado que desee.
-1. Seleccione [!UICONTROL **Proyecto**] > **[!UICONTROL Guardar como informe de la compañía...]**.
-
-   ![Informe de la compañía](assets/company-report.png)
-
-1. Actualice el nombre del informe, añada una descripción, añada etiquetas y, a continuación, seleccione [!UICONTROL **Guardar como informe de la compañía**].
-
-   El informe se añade a la lista de informes de la compañía en el modal Crear proyecto y está disponible para los usuarios de la compañía al iniciar sesión.
-
-   Para obtener más información sobre cómo se puede crear un proyecto basado en un informe de la compañía, consulte &quot;Creación de un proyecto a partir de un proyecto en blanco o un informe&quot; en [Crear proyectos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
-
-Más opciones de aprendizaje:
-
-* Tenga en cuenta que puede acceder a un vídeo de información general de Analysis Workspace de 20 minutos en la parte superior izquierda de cualquier informe que abra.
-* Para nuevos usuarios, recomendamos el vídeo del [Tutorial de aprendizaje](https://www.youtube.com/watch?v=lCH1Kl1q9Wk) que le enseñará a crear un nuevo proyecto.
-* Aquí tiene un vínculo a la [documentación completa de Analysis Workspace](/help/analyze/analysis-workspace/home.md).
-* Esta es la [lista de reproducción completa de YouTube de Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
-
-### Administración de informes de la compañía {#manage-company-reports}
-
-Los administradores pueden filtrar la lista de proyectos para mostrar y administrar los informes de la compañía. Los elementos anclados permanecen anclados seguidos de la lista de informes de la compañía que se identifican con el icono de informe ![icono de informe. ](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) En esta vista, puede eliminar, cambiar el nombre, etiquetar o aprobar uno o más informes.
-
-Para mostrar y administrar los informes de la compañía
-
-1. En el carril de filtro, seleccione **OTROS FILTROS** y, a continuación, seleccione **Informes de la compañía**.
-Se muestra una lista de los informes de la compañía. No se muestran todos los proyectos normales, a menos que estén anclados.
-
-   ![Mostrar los filtros de informes de la compañía](assets/company-reports-filter.png)
-
-   Cuando se muestran los informes de la compañía, los administradores pueden eliminar, cambiar el nombre, añadir una etiqueta o aprobar el informe.
-
-1. En la lista de informes, seleccione un solo informe o varios informes.
-
-1. Haga clic en el icono de puntos suspensivos **…** junto a un informe para ver las opciones disponibles (Eliminar, Cambiar nombre, Etiquetar y Aprobar).
-
-   ![Acciones del informe de la compañía](assets/company-reports-actions.png)
-
-1. Seleccione una opción (Eliminar, Cambiar nombre, Etiquetar y Aprobar).
-
-1. Para volver a la vista normal cuando haya terminado, en el carril de filtro, vuelva a desmarcar la opción Informes de la compañía.
-
-### Eliminar un informe de la compañía
-
-Los administradores pueden eliminar un informe mediante la opción Lista de informes de la compañía (descrita anteriormente) o eliminar un informe en el modal Crear proyecto.
-
-![Otros filtros](assets/delete-fr-create-project-modal.png)
-
-### Ubicación de las plantillas (ahora denominadas informes) {#templates}
-
-| Nombre del informe (plantilla) | Ubicación del informe |
-| --- | --- |
-| Tutorial formativo | El más popular > Tutorial formativo |
-| Consumo de contenido web | Participación > Consumo de contenido web |
-| Consumo de contenido de medios | Participación > Consumo de contenido de medios |
-| Análisis multidispositivo | Participación > Análisis multidispositivo |
-| Retención web | Participación > Retención web |
-| Consumo de audio de medios | Participación > Consumo de audio de medios |
-| Actualización, frecuencia y fidelización de medios | Participación > Actualización, frecuencia y fidelización de medios |
-| Impacto de ITP | Participación > Impacto de ITP |
-| Rendimiento de producto | Conversión > Productos > Rendimiento de producto |
-| Magento: marketing y comercio | Conversión > Magento: marketing y comercio |
-| Métrica Personas | Audiencia > Métrica Personas |
-| Información general de ubicación | Audiencia > Perfil del visitante > Información general de ubicación |
-| Información general de tecnología | Audiencia > Perfil del visitante > Tecnología > Información general de tecnología |
-| Uso de aplicaciones móviles | Audiencia > Móvil > Uso de aplicaciones móviles |
-| Recorridos de aplicación móvil | Audiencia > Móvil > Recorridos de aplicación móvil |
-| Métricas de aplicación móvil | Audiencia > Móvil > Mensajería de aplicación móvil |
-| Rendimiento de aplicación móvil | Audiencia > Móvil > Rendimiento de aplicación móvil |
-| Retención de aplicación móvil | Audiencia > Móvil > Retención de aplicación móvil |
-| Rendimiento de la campaña | Adquisición > Campañas > Rendimiento de la campaña |
-| Adquisición móvil | Adquisición > Adquisición móvil |
-| Adquisición web | Adquisición > Adquisición web |
-| Advertising Analytics: búsqueda de pago | Adquisición > Advertising Analytics: búsqueda de pago |
-
+Para obtener información sobre la creación y administración de informes de empresa personalizados, consulte [Creación y administración de informes de empresa](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
 ## Uso de la pestaña Aprendizaje {#navigate-learning}
 
@@ -248,12 +130,12 @@ Utilice la página Aprendizaje en Adobe Analytics para aprender las funciones y 
 
 ### Funciones de la página Aprendizaje
 
-* **Filtrar contenido:** El icono de Filtro en el carril izquierdo le permite filtrar el contenido de aprendizaje por nivel de experiencia (principiante, intermedio o avanzado) y por tipo de contenido (documento, vídeo o visitas guiadas y tutoriales).
-* **Seguimiento del progreso:** después de seleccionar un fragmento de contenido, aparece una etiqueta **[!UICONTROL Visto]**. Esta etiqueta le ayuda a realizar un seguimiento del progreso por el contenido de aprendizaje. Puede seleccionar la etiqueta **[!UICONTROL Visto]** para quitarla de un fragmento de contenido.
-* **Ver contenido adicional:** mientras ve cualquier vídeo, seleccione la opción **[!UICONTROL Más información]** para ver el contenido de la documentación relacionada sobre Experience League. O bien, en la página Aprendizaje, seleccione cualquiera de las siguientes opciones para ver contenido adicional:
+* **Filtrar contenido:** el icono Filtro en el carril izquierdo le permite filtrar el contenido de aprendizaje por nivel de experiencia (principiante, intermedio o avanzado) y por tipo de contenido (documento, vídeo o recorridos y tutoriales).
+* **Seguimiento del progreso:** después de seleccionar un fragmento de contenido, aparece una etiqueta **[!UICONTROL Visto]**. Esta etiqueta le ayuda a realizar un seguimiento del progreso por el contenido de aprendizaje. Puede seleccionar la etiqueta **[!UICONTROL Visto]** para eliminarla de un fragmento de contenido.
+* **Ver contenido adicional:** mientras ve cualquier vídeo, seleccione el botón **[!UICONTROL Más información]** para ver el contenido de la documentación relacionado en Experience League. O bien, en la página Aprendizaje, seleccione cualquiera de las siguientes opciones para ver contenido adicional:
    * **[!UICONTROL Visitar YouTube]:** vea la lista de reproducción completa en YouTube de Analysis Workspace.
    * [!UICONTROL **Visitar Experience League**]: vea el conjunto completo de documentación de Adobe Analytics sobre Experience League.
-* **Elementos fundamentales para nuevos usuarios:** se recomienda a los nuevos usuarios la visita guiada [!UICONTROL Elementos fundamentales de Workspace]. Esta visita guiada le lleva directamente a Workspace y le lleva por las acciones más comunes. Esta visita guiada también se puede reiniciar en cualquier momento directamente en el espacio de trabajo a través de la ventana emergente de información sobre herramientas del encabezado del panel.
+* **Elementos fundamentales para nuevos usuarios:** se recomienda a los nuevos usuarios la visita guiada [!UICONTROL Elementos fundamentales de Workspace]. Este recorrido le lleva directamente a Workspace y le explica las acciones más comunes. También se puede reiniciar en cualquier momento directamente en Workspace en la ventana emergente de información del panel del encabezado.
 
 ## Establecer una página de aterrizaje {#set-landing}
 

@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 2bb3cc1ce46fc8e5f7e15291401fce1c4d8cb839
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 97%
+source-wordcount: '1069'
+ht-degree: 94%
 
 ---
 
@@ -16,28 +16,38 @@ ht-degree: 97%
 
 {{ra-eol}}
 
-Pasos para ejecutar los distintos tipos de informes.
+Puede ejecutar muchos tipos diferentes de informes en Analysis Workspace. A continuación se muestran algunos ejemplos.
 
-## Ejecutar un informe de clasificación {#task_C570BA4A213F4F2EB7B30E012934BE7D}
+Para obtener una lista completa de los tipos de informes pregenerados disponibles, consulte [Uso de informes generados previamente](/help/analyze/analysis-workspace/reports/use-reports.md)
 
-En los informes de clasificación, la tabla muestra las clasificaciones de las páginas del informe en relación con la métrica, según un número o un porcentaje. Los informes de clasificación pueden mostrar varias métricas a la vez.
+<!-- How do you do a Ranked Report in Workspace?
 
-1. Genere un informe, como por ejemplo un [!UICONTROL informe Páginas] (**[!UICONTROL Informes]** > **[!UICONTROL Contenido del sitio]** > **[!UICONTROL Páginas]**).
-1. En el encabezado del informe, haga clic en **[!UICONTROL Clasificación]**.
-1. Para clasificar el informe, haga clic en un encabezado de columna de la tabla.
+## Run a ranked report {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
-   Los informes de clasificación pueden tener hasta 200 artículos enumerados en la tabla (como productos, categorías, páginas web, etc.) y diez métricas (ingresos, pedidos, vistas, etc.).
+In a ranked report, the table shows the rankings of the report pages in relation to the metric, according to number or percentage. Ranked reports can display multiple metrics in a report.
 
-## Ejecutar un informe de tendencias {#task_F03B4E760B9E4EA29FC3F654E6316887}
+1. Generate a report, such as a [!UICONTROL Pages Report] ( [!UICONTROL **Workspace**] > **[!UICONTROL Engagement]** > **[!UICONTROL Pages]**).
+1. In the report header, click **[!UICONTROL Ranked.]**
+1. To rank the report, click a column heading in the table.
 
-Los informes de tendencias muestran las métricas en el transcurso del tiempo. Utilice este tipo de informe cuando desee ver cómo se comporta un segmento desde un periodo de tiempo hasta el siguiente.
+   Ranked reports can have up to 200 items listed in the table (such as products, categories, web pages, and so on) and ten metrics (revenue, orders, views, and so on).
 
-La mayoría de los informes de tráfico y conversión tienen una vista de tendencia disponible. Si utiliza el [!UICONTROL Calendario], puede exhibir la mejora para cualquier desglose de periodo de tiempo, incluyendo los días del mes, semanas del año, semanas del trimestre, meses del año, etc. Los informes de tendencias muestran las tendencias para una métrica sencilla (ingresos, pedidos, vistas, etc.) de hasta cinco artículos (como productos, categorías, páginas Web, etc.).
+-->
 
-**Para ejecutar un informe de tendencias**
+<!-- Can you do a Trended report? 
 
-1. Ejecute un informe de conversión o tráfico, como por ejemplo **[!UICONTROL Informes]** > **[!UICONTROL Contenido del sitio]** > **[!UICONTROL Páginas]**.
-1. En **[!UICONTROL Tipo de informe]**, haga clic en **[!UICONTROL Tendencias]**.
+## Run a trended report {#task_F03B4E760B9E4EA29FC3F654E6316887}
+
+Trended reports display metrics over time. You use this report type when you want to see how a segment performs from one time period to the next.
+
+Most Conversion and Traffic reports have a Trended view available. Using the [!UICONTROL Calendar], you can show improvement for any time period breakdowns, including days of a month, weeks of a year, weeks of a quarter, months of a year, and so on. Trended reports show trends for a single metric (revenue, orders, views, and so on) for up to five items (such as products, categories, web pages, and so on).
+
+**To run a trended report** 
+
+1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
+1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+
+-->
 
 ## Ejecutar un informe de visitas en el orden previsto {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -48,20 +58,14 @@ Consulte el nuevo panel de [Análisis de visitas en el orden previsto](https://e
 1. En [!UICONTROL Adobe Analytics], haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Rutas]** > **[!UICONTROL Páginas]** > **[!UICONTROL Visita en el orden previsto]**.
 1. En la página [!UICONTROL Informe de visitas en el orden previsto], haga clic en **[!UICONTROL Iniciar Report Builder para visitas en el orden previsto]**.
 
-   ![Resultado](assets/fallout_add_items.png)
-
 1. En la página [!UICONTROL Definir puntos de comprobación], especifique los puntos de comprobación que desee utilizar para el informe.
 1. Haga clic en **[!UICONTROL Ejecutar informe]**.
-
-   ![Resultado](assets/fallout_report.png)
 
 ## Ejecutar un informe de flujo de página {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 Los informes de flujo de página muestran el orden en el que los visitantes acceden a las páginas y navegan a través del sitio. Este informe ayuda a dar respuesta
 
-Consulte la [Visualización de flujo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=es) en Analysis Workspace.
-
-Por ejemplo, haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Rutas]** > **[!UICONTROL Páginas]** > **[!UICONTROL Flujo de página siguiente]**.
+Por ejemplo, haga clic en **[!UICONTROL Workspace]** > **[!UICONTROL Informes]** > **[!UICONTROL Participación]** > **[!UICONTROL Flujo de página siguiente y anterior]**.
 
 ## Ejecutar un informe de canal de marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
