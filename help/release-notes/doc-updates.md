@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '5323'
-ht-degree: 99%
+source-wordcount: '5424'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,10 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Función | Descripción |
 | --- | --- |
+| **Diciembre de 2023** | |
+| Nueva sección de informes | Se ha añadido una nueva sección Informes que incluye información sobre [uso de informes generados previamente](/help/analyze/analysis-workspace/reports/use-reports.md) y [creación y administración de informes de empresa](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
+| Actualizaciones en la documentación de Detección de anomalías y Análisis de contribución | Anteriormente, la documentación de Detección de anomalías y Análisis de contribución se encontraba en una sección sobre Analista virtual. Se han realizado los siguientes cambios: <ul><li>El término Analista virtual se ha eliminado de la documentación.</li><li>La sección sobre [Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) se ha movido directamente debajo de la sección Analysis Workspace.</li><li>La documentación de Análisis de contribución se combinó con la documentación de Detección de anomalías.</li></ul> |
+| &quot;Attribution IQ&quot; se cambió a &quot;Atribución&quot; | Se han cambiado todas las instancias de &quot;Attribution IQ&quot; a &quot;[Atribución](/help/analyze/analysis-workspace/attribution/overview.md)&quot; en toda la documentación. |
 | **Noviembre de 2023** | |
 | Actualizaciones del tema Activación/habilitación de Activity Map | Se ha añadido el contenido [SDK web](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=es) (manual y a través de la extensión de etiquetas de Adobe Experience Platform). |
 | **Octubre de 2023** | |
