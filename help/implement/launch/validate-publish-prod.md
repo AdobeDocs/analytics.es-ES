@@ -3,10 +3,10 @@ title: Validación de una implementación de desarrollo y publicación en produc
 description: Descubra cómo utilizar etiquetas de Adobe Experience Platform para implementar Adobe Analytics en su entorno de producción.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 76%
+source-wordcount: '622'
+ht-degree: 72%
 
 ---
 
@@ -22,25 +22,25 @@ Una vez que la biblioteca de etiquetas se haya puesto en producción, su organiz
 
 El depurador de Experience Cloud es una extensión que muestra todas las etiquetas de Experience Cloud presentes en una página.
 
-1. Instale la extensión para [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) o [Firefox](https://addons.mozilla.org/es/firefox/addon/adobe-experience-platform-dbg/).
+1. Instale la extensión para lo siguiente [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) o Firefox.
 2. Vaya al sitio web de desarrollo en el que haya implementado etiquetas.
-3. Haga clic en el icono de Adobe Experience Cloud Debugger en el explorador.
+3. Haga clic en el icono de Adobe Experience Cloud Debugger en el navegador.
 4. Si todo está correctamente implementado, debe ver el contenido dentro de Adobe Analytics, etiquetas y el servicio de ID de visitante de Adobe Experience Cloud.
 
 ## Integrar la implementación de desarrollo en las fases de ensayo/producción
 
-Una vez validado que está viendo los datos, puede insertar la implementación en la versión activa del sitio.
+Una vez que haya validado que está viendo los datos, puede insertar la implementación en la versión activa del sitio.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas que desee implementar en el sitio.
 1. Haga clic en la pestaña **[!UICONTROL Publicación]** y busque la biblioteca en la columna de desarrollo.
-1. Haga clic en la lista desplegable de la biblioteca y, a continuación, seleccione **[!UICONTROL Enviar para aprobación]**. Haga clic en **[!UICONTROL Enviar]** en la ventana modal.
-1. Vuelva a hacer clic en la lista desplegable de la biblioteca (ahora en la columna Enviado ) y seleccione **[!UICONTROL Generar para ensayo]**.
+1. Haga clic en la lista desplegable de la biblioteca y seleccione **[!UICONTROL Enviar para aprobación]**. Haga clic en **[!UICONTROL Enviar]** en la ventana modal.
+1. Vuelva a hacer clic en la lista desplegable de la biblioteca (ahora en la columna Enviados) y seleccione **[!UICONTROL Generar para ensayo]**.
 1. Después de unos momentos, la luz amarilla de color de la biblioteca se vuelve verde, lo que indica que la compilación se ha realizado correctamente.
 1. Vuelva a hacer clic en la lista desplegable de la biblioteca y seleccione **[!UICONTROL Aprobar para publicación]**.
-1. Vuelva a hacer clic en la lista desplegable de la biblioteca (ahora en el [!UICONTROL Aprobado] ) y seleccione **[!UICONTROL Generar y publicar en producción]**.
+1. Vuelva a hacer clic en la lista desplegable de la biblioteca (ahora en la variable [!UICONTROL Aprobado] columna ) y seleccione **[!UICONTROL Generar y publicar en producción]**.
 1. Vaya a la pestaña Entornos y haga clic en **[!UICONTROL Entorno de producción]**.
-1. Copie el código de instalación de producción y proporciónelo a los propietarios del sitio web. Solicite la implementación de este código en el entorno de producción del sitio.
+1. Copie el código de instalación de producción y suministre este código a los propietarios del sitio web. Solicite la implementación de este código en el entorno de producción del sitio.
 
 ## Validar la implementación de producción
 
@@ -58,7 +58,7 @@ En el sitio, abra la consola del desarrollador del explorador (normalmente F12).
 * No hay errores de JavaScript en la consola. Póngase en contacto con los propietarios del sitio web de su organización para asegurarse de que se han resuelto todos los errores de JS.
 * El código de encabezado está correctamente implementado: Asegúrese de que el código de encabezado se encuentra dentro de la etiqueta `<head>` y de que el archivo existe.
 * La biblioteca AppMeasurement existe: Navegue directamente al origen de JS para asegurarse de que el archivo JS contiene código. Si no es así, asegúrese de que se crea cada entorno y de que la biblioteca se publica en el entorno correspondiente.
-* Interferir extensiones: Algunas extensiones, como los bloqueadores de anuncios, pueden evitar que las solicitudes de imagen se activen. Deshabilite las extensiones que puedan impedir el envío de datos al Adobe.
+* Interferir extensiones: Algunas extensiones, como los bloqueadores de anuncios, pueden evitar que se activen solicitudes de imagen. Deshabilite las extensiones que puedan impedir el envío de datos al Adobe.
 
 ## Pasos siguientes
 
