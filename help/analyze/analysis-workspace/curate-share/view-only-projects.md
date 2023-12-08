@@ -5,16 +5,18 @@ title: Proyectos de solo de vista
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 0885ff8e13675a986f5c40396a14f9edecaa753d
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 82%
+source-wordcount: '238'
+ht-degree: 75%
 
 ---
 
 # Proyectos de solo de vista
 
-Puede compartir proyectos como “Solo consulta” a destinatarios a través del [flujo de trabajo de uso compartido de proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md). Los Destinatarios que se tengan la función “Puede ver” tendrán opciones limitadas dentro del proyecto. Esto puede ser útil si comparte un proyecto con usuarios que están menos familiarizados con la estructura de datos de su organización, Analysis Workspace o Adobe Analytics en general, pero aun así desea que consuman datos y perspectivas en un entorno seguro.
+Puede compartir proyectos como “Solo consulta” a destinatarios a través del [flujo de trabajo de uso compartido de proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md). Los Destinatarios que se tengan la función “Puede ver” tendrán opciones limitadas dentro del proyecto. Esto puede ser útil si comparte un proyecto con usuarios que están menos familiarizados con la estructura de datos de su organización, con Analysis Workspace o con Adobe Analytics en general, pero, aun así, desea que consuman datos y perspectivas en un entorno seguro.
+
+Tenga en cuenta que puede editar el intervalo de fechas del calendario del panel incluso en proyectos de solo vista.
 
 ![](assets/view-only-project.png)
 
@@ -28,7 +30,6 @@ Las interacciones desactivadas en un proyecto de Solo consulta incluyen:
 
 * Barra izquierda oculta
 * Grupo de informes
-* Intervalo de fechas del calendario del panel. Nota: Si desea otorgar el control del calendario a los destinatarios, agregue un [filtro desplegable con intervalos de fechas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es).
 * Filtro improvisado
 * N.º de filas visibles improvisado
 * Configuración de fila, columna o visualización improvisada
