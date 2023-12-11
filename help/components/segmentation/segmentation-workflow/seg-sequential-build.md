@@ -3,10 +3,10 @@ description: Los segmentos secuenciales se crean mediante el operador THEN, en l
 title: Generar segmentos secuenciales
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: c1584e4a304cfa04ae167084466322bcf58387dd
 workflow-type: tm+mt
-source-wordcount: '3827'
-ht-degree: 100%
+source-wordcount: '3879'
+ht-degree: 97%
 
 ---
 
@@ -181,11 +181,11 @@ Las reglas de segmentos incluyen todos los datos a menos que se excluyan especí
 
 Por ejemplo:
 
-* **Exclusión de páginas**. Use una regla de segmento para eliminar una página específica (como la *`Home Page`*) de un informe, cree una regla de visita individual en la que página sea igual a &quot;Página de inicio&quot; y luego exclúyala. Esta regla incluye automáticamente todos los valores excepto la página de inicio.
+* **Exclusión de páginas**. Utilice una regla de segmento para eliminar una página específica (como *`Home Page`*) de un informe, cree una regla de visita individual en la que página sea igual a &quot;Página de inicio&quot; y luego exclúyala. Esta regla incluye automáticamente todos los valores excepto la página de inicio.
 * **Exclusión de dominios de referencia**. Use una regla que incluya solo los dominios de referencia de Google.com y excluya todos los demás.
 * **Identificación de los no compradores**. Identifique el momento en que los pedidos son superiores a cero y luego excluya al [!UICONTROL visitante].
 
-El operador [!UICONTROL Exclude] puede emplearse para identificar una secuencia en la que las visitas o visitas individuales específicas no son efectuadas por el visitante. La [!UICONTROL exclusión de puntos de comprobación] también puede incluirse dentro de un [grupo lógico](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+El operador [!UICONTROL Exclude] puede emplearse para identificar una secuencia en la que las visitas o visitas individuales específicas no son efectuadas por el visitante. [!UICONTROL Excluir puntos de comprobación] también se puede incluir dentro de un [Grupo de lógica](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
 ### Exclusión entre puntos de comprobación
 
@@ -210,7 +210,7 @@ Cree un segmento como lo haría para un segmento secuencial simple, de nivel mix
 
 Si el punto de comprobación de exclusión se encuentra al inicio de un segmento secuencial, se garantiza que no se ha producido una vista de página excluida antes de la primera visita individual no excluida.
 
-Por ejemplo, un restaurante quiere ver los usuarios habituales que evitan la página de aterrizaje principal y acceden directamente a la página de pedidos. Este ejemplo se puede simplificar con que un visitante evita la página A y va directamente a la B.
+Por ejemplo, un restaurante quiere ver los usuarios que tienden a evitar la página de aterrizaje principal y acceden directamente a la página de pedidos. Para ver estos datos, excluya las visitas a la página de aterrizaje e incluya las visitas a la página de orden de salida en un segmento secuencial.
 
 **Crear este segmento**
 
