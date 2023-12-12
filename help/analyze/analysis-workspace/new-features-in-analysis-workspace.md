@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8261'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -72,8 +72,8 @@ Nuevas funciones lanzadas el 18 de junio de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| Atribución: Algorithmic Attribution | El modelo de atribución algorítmica de Analysis Workspace utiliza técnicas estadísticas para determinar dinámicamente la asignación óptima de crédito para la métrica seleccionada. Disponible para los clientes de Adobe Analytics Ultimate. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=es) |
-| Atribución: ventanas retrospectivas personalizadas | Ahora puede configurar cualquier modelo de atribución en Attribution para incluir puntos de contacto desde 90 días antes del período de creación de informes. Esto generalmente aumenta la precisión de atribución de eventos que se producen al principio del período de la creación de informes teniendo en cuenta las interacciones que se produjeron en el mes o meses anteriores. Disponible para los clientes de Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete y Ultimate. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=es#lookback-windows) |
+| Atribución: Atribución algorítmica | El modelo de atribución algorítmica de Analysis Workspace utiliza técnicas estadísticas para determinar dinámicamente la asignación óptima de crédito para la métrica seleccionada. Disponible para los clientes de Adobe Analytics Ultimate. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=es) |
+| Atribución: Ventanas retrospectivas personalizadas | Ahora puede configurar cualquier modelo de atribución en Atribución para incluir puntos de contacto desde 90 días antes del período de tiempo de creación de informes. Esto generalmente aumenta la precisión de atribución de eventos que se producen al principio del período de la creación de informes teniendo en cuenta las interacciones que se produjeron en el mes o meses anteriores. Disponible para los clientes de Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete y Ultimate. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=es#lookback-windows) |
 | Funciones de proyecto para proyectos compartidos de Espacio de trabajo | Al compartir un proyecto del Espacio de trabajo, ahora puede colocar destinatarios en una de las tres funciones de proyecto, según la experiencia del proyecto que desee que tengan: Editar, Duplicado y Vista. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) |
 | Proyectos de Workspace solo de vista | Los proyectos de Espacio de trabajo solamente se pueden compartir como &quot;Puede ver&quot;. Cuando un destinatario de Vista abre el proyecto compartido, recibe una experiencia de proyecto más restrictiva sin carril izquierdo e interacciones limitadas. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=es) |
 | Capacidad para editar proyectos de Espacio de trabajo de forma conjunta | Los destinatarios añadidos a la función “Puede editar” pueden guardar un proyecto que se haya compartido con ellos. Esto se extiende tanto a los administradores como a los no administradores. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) |
@@ -187,7 +187,7 @@ Nuevas funciones y mejoras publicadas el 17 de enero de 2019.
 |--- |--- |
 | [Análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Las principales mejoras realizadas en Análisis de cohorte le permiten:<ul><li>Aplicar una inclusión de segmento y devolver métricas por separado. </li><li>Mostrar la pérdida en lugar de la retención.</li><li>Mostrar tablas de latencia (tiempo transcurrido antes y después de un evento de inclusión).</li><li>Personalizar la dimensión de cohorte (para agrupar visitantes en función de una eVar, no solo el tiempo).</li><li>Cálculo de cohorte móvil: calcule la retención y la pérdida en función de un período de tiempo previo, no de la cohorte original. </li><li>Añada múltiples métricas en campos de inclusión y devolución, y aplique segmentos. (No se admiten las métricas calculadas)</li></ul> |
 | [Ver densidad](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Esta nueva configuración le permite ver más datos en una sola pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. Puede acceder a ella desde Proyecto > Info y configuración del proyecto. |
-| [Compatibilidad con variables de diversos valores en Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Algunas dimensiones en Analytics pueden contener múltiples valores en una sola visita, como listVars, la variable de producto, las props de lista o eVars de merchandising. Analysis Workspace permite aplicar Attribution a cualquiera de estos tipos de variables en el nivel de visita. |
+| [Compatibilidad con variables de diversos valores en Atribución](/help/analyze/analysis-workspace/attribution/overview.md) | Algunas dimensiones en Analytics pueden contener múltiples valores en una sola visita, como listVars, la variable de producto, las props de lista o eVars de comercialización. Analysis Workspace permite aplicar Atribución a cualquiera de estos tipos de variables en el nivel de visita. |
 | Mejoras en el rendimiento | Mejoras de velocidad en las visualizaciones de desgloses: los proyectos con muchos desgloses se cargarán más rápido. |
 
 ## Noviembre de 2018
@@ -271,7 +271,7 @@ Nuevas funciones y mejoras publicadas el 19 de julio de 2018.
  <tbody>
   <tr>
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Atribución </a> </b> </p> </td>
-   <td colname="col2"> <p>Attribution permite realizar un análisis más sofisticado e inteligente del rendimiento de marketing. Pueden utilizarse nuevos modelos de atribución en las métricas de Analysis Workspace (en cualquier tabla o desglose) y en las métricas calculadas. Un nuevo panel Atribución permite una mejor visualización y comparación. </p> </td>
+   <td colname="col2"> <p>Atribución permite realizar un análisis más sofisticado e inteligente del rendimiento de marketing. Pueden utilizarse nuevos modelos de atribución en las métricas de Analysis Workspace (en cualquier tabla o desglose) y en las métricas calculadas. Un nuevo panel Atribución permite una mejor visualización y comparación. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p><b> Mejoras en el carril izquierdo </b> </p> </td>
