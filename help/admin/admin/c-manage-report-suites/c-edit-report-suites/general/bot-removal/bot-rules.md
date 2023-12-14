@@ -1,35 +1,58 @@
 ---
 description: Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. La eliminación del tráfico de bots puede proporcionar una medida más precisa de la actividad del usuario en el sitio web.
-title: Resumen sobre reglas de Bot
+title: Comprensión y configuración de reglas de bots
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 7813900a7c104acdb9b1a3ebfadf597a5070a3e7
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 100%
+source-wordcount: '1613'
+ht-degree: 71%
 
 ---
 
-# Resumen sobre reglas de Bot
+# Comprensión y configuración de reglas de bots
 
 Las reglas de bots le permiten eliminar el tráfico del grupo de informes generado por arañas web y bots conocidos. La eliminación del tráfico de bots puede proporcionar una medida más precisa de la actividad del usuario en el sitio web.
 
-Aquí tiene un vídeo sobre la configuración de reglas de bots:
+Una vez definidas las reglas del bot, todo el tráfico entrante se compara con las reglas definidas. El tráfico que coincida con cualquiera de estas reglas no se recopila en el grupo de informes y no se incluye en las métricas de tráfico.
+
+Por lo general, al eliminar el tráfico de bots se reduce el volumen de las métricas de conversión y tráfico. Muchos clientes de descubren que la eliminación del tráfico de bots aumenta las tasas de conversión y aumenta otras métricas de uso.
+
+Los datos del tráfico de bots se almacenan en un repositorio independiente para mostrarlos en los informes Bots y Páginas de bots.
+
+## Actualizar o cargar reglas de bots
+
+>[!IMPORTANT]
+>
+>Antes de eliminar el tráfico de bots, es necesario ponerse en contacto con los interesados para asegurarse de que realicen los ajustes necesarios en los indicadores de rendimiento clave con relación a este cambio. Si es posible, recomendamos eliminar primero el tráfico de bots de un grupo de informes pequeño para así realizar una estimación del impacto potencial.
+
+El siguiente vídeo muestra cómo configurar reglas de bots:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
 
-Una vez definidas las reglas del bot, todo el tráfico entrante se compara con las reglas definidas. El tráfico que coincida con cualquiera de estas reglas no se recopila en el grupo de informes y no se incluye en las métricas de tráfico.
+Para actualizar o cargar reglas de bots:
 
-Para actualizar o cargar reglas de bots, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**. Seleccione el grupo de informes correcto y, a continuación, vaya a **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Reglas Bot]**.
+1. Ir a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]**.
 
-Por lo general, al eliminar el tráfico de bots se reduce el volumen de las métricas de conversión y tráfico. Muchos clientes consideran que eliminar el tráfico de bots provoca tasas de conversión superiores y aumenta otras métricas de uso. Antes de eliminar el tráfico de bots, es necesario ponerse en contacto con los interesados para asegurarse de que realicen los ajustes necesarios en los indicadores de rendimiento clave con relación a este cambio. Si es posible, recomendamos eliminar primero el tráfico de bots de un grupo de informes pequeño para así realizar una estimación del impacto potencial.
+1. Seleccione el grupo de informes donde desea actualizar las reglas de bots y luego seleccione **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Reglas de bots]**.
 
-Los datos del tráfico de bots se almacenan en un repositorio independiente para mostrarlos en los informes Bots y Páginas de bots. Existen dos opciones para activar el filtrado de bots:
+1. Utilice cualquiera de las siguientes opciones para actualizar o cargar reglas de bots para el grupo de informes:
 
-| Tipo de regla | Descripción |
-|--- |--- |
-| Reglas de bots estándar IAB | Al seleccionar [!UICONTROL Activar las reglas de filtrado de bots de la IAB], se utiliza la Lista internacional de arañas web y bots de la [IAB](https://www.iab.com) (International Advertising Bureau&#39;s) para eliminar el tráfico de bots. La mayoría de los clientes selecciona esta opción como mínimo. |
-| Reglas de bots personalizadas | Puede definir y agregar reglas de bots personalizadas basadas en agentes de usuario, direcciones IP o intervalos de IP. |
+   * Seleccionar [!UICONTROL **Activar reglas de filtrado de bots IAB**] para eliminar bots de la Lista internacional de arañas web y bots de la IAB (International Advertising Bureau&#39;s) y eliminar el tráfico de bots.
+
+     Le recomendamos que seleccione esta opción como mínimo.
+
+     Para obtener más información, consulte la sección siguiente, [Reglas de bots estándar IAB](#standard-iab-bot-rules).
+
+   * Seleccionar [!UICONTROL **Agregar regla**] para definir y agregar reglas de bots personalizadas basadas en agentes de usuario, direcciones IP o intervalos de IP.
+
+     Para obtener más información, consulte la sección siguiente, [Reglas de bots personalizadas](#custom-bot-rules).
+
+   * Junto a la [!UICONTROL **Seleccione el archivo CSV para importar**] , seleccione [!UICONTROL **Elegir archivo**], luego seleccione el archivo CSV que define las reglas de bots.
+
+     Para obtener más información, consulte la sección siguiente, [Cargar reglas de bots](#upload-bot-rules).
+
+1. Seleccione [!UICONTROL **Guardar**].
 
 ## Reglas de bots estándar IAB
 
@@ -39,13 +62,15 @@ Las reglas de bots estándar IAB se pueden activar marcando la casilla [!UICONTR
 
 Adobe no puede proporcionar la lista detallada de bots de la IAB a los clientes, pero se puede usar el informe de bots para ver una lista de los bots que han accedido a un sitio. Para enviar un bot a la lista de la IAB, visite [IAB](https://www.iab.com).
 
+Para obtener información sobre cómo habilitar reglas de bots estándar IAB en un grupo de informes, consulte [Actualizar o cargar reglas de bots](#update-or-upload-bot-rules).
+
 ## Reglas de bots personalizadas
 
 >[!NOTE]
 >
 >: La interfaz de usuario permite definir 500 reglas manualmente. Una vez alcanzado este límite, es necesario gestionar las reglas de forma masiva mediante las opciones Importar archivo y Exportar reglas Bot.
 
-Las reglas de bots personalizadas permiten filtrar el tráfico en función de las condiciones definidas.
+Las reglas de bots personalizadas le permiten filtrar el tráfico en función de las condiciones que defina. Para iniciar el proceso de habilitar reglas de bots personalizadas en un grupo de informes, consulte [Actualizar o cargar reglas de bots](#update-or-upload-bot-rules).
 
 Las reglas de bots personalizadas se definen usando los tipos de condición siguientes:
 
@@ -86,37 +111,52 @@ Proporcione el rango inicial y final de las direcciones IP para buscar coinciden
 
 Para importar reglas de bots de forma masiva, puede cargarse un archivo CSV que defina las reglas.
 
-Cree un archivo CSV con las columnas siguientes en el orden presentado:
+1. Para iniciar el proceso de carga de reglas de bots en un grupo de informes, consulte [Actualizar o cargar reglas de bots](#update-or-upload-bot-rules).
 
-| Columna 1 | Columna 2 | Columna 3 | Columna 4 | Columna 5 |
-|--- |--- |---|---|---|
-| Nombre de Bot | IP Start | IP End | Regla Agent Match <br>(contiene o empieza con)</br> | Agent Exclude<br>(límite de 255 caracteres)</br> |
+1. Cree un archivo CSV con las columnas siguientes, en la fila 1 de la hoja de cálculo y en el orden presentado:
 
-Puede definir tres tipos de reglas de bots:
+   | Columna 1, Fila 1 | Columna 2, Fila 1 | Columna 3, Fila 1 | Columna 4, Fila 1 | Columna 5, Fila 1 | Columna 6, Fila 1 |
+   |--- |--- |---|---|---|---|
+   | Nombre de Bot | IP Begin | IP End | Regla<br>(contiene o empieza con)</br> | Inclusión de agente de usuario | Exclusión del agente de usuario<br>(límite de 255 caracteres)</br> |
 
-* Agente de usuario contiene o comienza con
-* Coincidencia de dirección IP única o comodín
-* Coincidencia de rango de IP
+   Puede definir tres tipos de reglas de bots:
 
-Cada fila del archivo de importación puede contener una sola de las siguientes definiciones de bots:
+   * Agente de usuario contiene o comienza con
+   * Coincidencia de dirección IP única o comodín
+   * Coincidencia de rango de IP
 
-* **Agente de usuario contiene o comienza con**: proporcione una cadena del agente de usuario único en la columna Agent Include. Especifique el tipo de coincidencia que desea estableciendo *contiene* o *comienza con* en el campo Agent Match Rule. En la columna Agent Exclude se puede incluir un valor opcional que defina una o varias cadenas delimitadas por paréntesis (`|`) que el agente no contenga. Las coincidencias de cadena distinguen entre mayúsculas y minúsculas. Las columnas IP Start e IP End deben estar vacías.
+   Cada fila del archivo de importación puede contener una sola de las siguientes definiciones de bots:
 
-* **Coincidencia de dirección IP única o comodín**: Para hacer coincidir una dirección IP única (`10.10.10.1`) o una dirección IP comodín (`10.10.*.*`), introduzca el mismo valor en las columnas IP Start e IP End. Match Rule, Agent Include y Agent Exclude deben estar vacías.
+   >[!NOTE]
+   >
+   >   Para buscar coincidencias de un bot utilizando una combinación de reglas unidas con OR (por ejemplo, agente de usuario o dirección IP), proporcione un nombre idéntico para todas las reglas que desee combinar en el campo de nombre de bot. No se admiten coincidencias AND.
 
-* **Coincidencia de rango IP**: defina un intervalo de direcciones IP usando las columnas IP Start e IP End. Se pueden usar comodines para buscar coincidencias de rangos IP, por ejemplo de `10.10.10.*` a `10.10.20.*`. Match Rule, Agent Include y Agent Exclude deben estar vacías.
 
-### Varias reglas combinadas con OR
+   * **Agente de usuario contiene o comienza con**: proporcione una cadena del agente de usuario único en la columna Agent Include. Especifique el tipo de coincidencia que desea estableciendo *contiene* o *comienza con* en el campo Agent Match Rule. En la columna Agent Exclude se puede incluir un valor opcional que defina una o varias cadenas delimitadas por paréntesis (`|`) que el agente no contenga. Las coincidencias de cadena distinguen entre mayúsculas y minúsculas. Las columnas IP Start e IP End deben estar vacías.
 
-Para buscar coincidencias de un bot utilizando una combinación de reglas unidas con OR (por ejemplo, agente de usuario o dirección IP), proporcione un nombre idéntico para todas las reglas que desee combinar en el campo de nombre de bot. No se admiten coincidencias AND.
+   * **Coincidencia de dirección IP única o comodín**: Para hacer coincidir una dirección IP única (`10.10.10.1`) o una dirección IP comodín (`10.10.*.*`), introduzca el mismo valor en las columnas IP Start e IP End. Match Rule, Agent Include y Agent Exclude deben estar vacías.
 
-### Sobrescribir todas las reglas con un archivo de carga
+   * **Coincidencia de rango IP**: defina un intervalo de direcciones IP usando las columnas IP Start e IP End. Se pueden usar comodines para buscar coincidencias de rangos IP, por ejemplo de `10.10.10.*` a `10.10.20.*`. Match Rule, Agent Include y Agent Exclude deben estar vacías.
 
-Seleccione la casilla **[!UICONTROL Sobrescribir reglas existentes]** para eliminar todas las reglas existentes y sustituirlas por las reglas definidas en el archivo de carga.
+1. En la página Reglas de bots del Administrador del grupo de informes, junto a la variable [!UICONTROL **Seleccione el archivo CSV para importar**] , seleccione [!UICONTROL **Elegir archivo**], luego seleccione el archivo CSV que define las reglas de bots que desea importar.
 
-### Exportar reglas
+1. (Opcional) Seleccione la **[!UICONTROL Sobrescribir reglas existentes]** casilla de verificación para eliminar todas las reglas existentes y sustituirlas por las reglas definidas en el archivo de carga.
 
-El botón **[!UICONTROL Exportar archivo de bots cargado]** exporta todas las reglas definidas en la IU en formato CSV.
+1. Seleccionar [!UICONTROL **Importar archivo**].
+
+1. En el [!UICONTROL **Conjuntos de reglas**] , revise las reglas que se importaron.
+
+1. Seleccione [!UICONTROL **Guardar**].
+
+## Exportar reglas de bots
+
+Para exportar todas las reglas definidas en la interfaz de usuario en formato CSV:
+
+1. Ir a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]**.
+
+1. Seleccione el grupo de informes que contiene las reglas de bots que desea exportar y, a continuación, seleccione **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Reglas de bots]**.
+
+1. Seleccionar **[!UICONTROL Exportar reglas de bots]** A continuación, guarde el archivo CSV en el sistema de archivos.
 
 ## Efecto de las reglas de bots en la recopilación de datos {#section_F01A3130E7A04A9993371CF26F6586F2}
 

@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 0e03379550808e5be3e86f0f9ddbbedd026d4910
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 95%
+source-wordcount: '641'
+ht-degree: 91%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 95%
    + [Fuentes de datos](admin/data-sources.md)
    + [Excluir por dirección IP](admin/exclude-ip.md)
    + [Registros](admin/logs.md)
-   + Administrador de actividades de creación de informes {#reporting-activity-manager}
+   + Administrador de actividades de informes {#reporting-activity-manager}
       + [Información general](admin/reporting-activity-manager/reporting-activity-overview.md)
       + [Ver actividad de informes](admin//reporting-activity-manager/reporting-activity.md)
       + [Cancelar solicitudes de creación de informes](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
@@ -71,7 +71,7 @@ ht-degree: 95%
                + [Consejos y sugerencias de reglas de procesamiento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
             + Reglas de bots {#bot-removal}
                + [Eliminación de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
-               + [Resumen sobre reglas de Bot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [Comprensión y configuración de reglas de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [Firmas comunes de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [Métodos de exclusión de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Configuración de privacidad](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
@@ -158,7 +158,7 @@ ht-degree: 95%
       + [Administrador de preferencias](admin/company/preferences-manager.md)
       + [Acciones pendientes](admin/company/pending-actions-admin.md)
       + [Niveles de acceso de las funcionalidades](admin/company/feature-access-levels.md)
-   + Etiquetado de privacidad de administración de datos {#data-governance}
+   + Etiquetado de privacidad de gobernanza de datos {#data-governance}
       + [Flujo de trabajo de privacidad de datos de Adobe Analytics](admin/c-data-governance/an-gdpr-workflow.md)
       + [Preguntas frecuentes](admin/c-data-governance/gdpr-faq.md)
       + Etiquetado de datos {#data-labels}
@@ -177,8 +177,8 @@ ht-degree: 95%
       + [Alertas de uso de llamadas al servidor](admin/c-server-call-usage/scu-alerts.md)
       + [Preguntas frecuentes sobre uso de llamadas al servidor](admin/c-server-call-usage/overage-faq.md)
    + Administración de usuarios y productos (heredados) {#user-product-management}
-      + [Administración de usuarios y productos  (Heredados)](admin/user-management2/user-management.md)
-      + [Transferir recursos de usuario o establecer caducidad de cuentas](admin/user-management2/users-assets.md)
+      + [Administración de usuarios y productos (heredados)](admin/user-management2/user-management.md)
+      + [Transferir recursos de usuario o establecer caducidades de cuenta](admin/user-management2/users-assets.md)
       + Migración de usuarios a Adobe Admin Console {#migrate-users}
          + [Migración de usuarios de Analytics a Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migración de cuentas de usuarios de Analytics para Adobe ID](admin/user-management2/user-migration/t-migrate-users.md)
