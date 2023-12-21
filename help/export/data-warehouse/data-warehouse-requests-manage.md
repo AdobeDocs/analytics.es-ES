@@ -4,21 +4,14 @@ title: Administrar solicitudes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 13%
+source-wordcount: '1088'
+ht-degree: 4%
 
 ---
 
 # Administrar solicitudes de Data Warehouse
-
-{{release-limited-testing}}
-
->[!NOTE]
->
->Si su organización aún no tiene la nueva experiencia de Data Warehouse, que estará disponible próximamente para todos los clientes, utilice la información de [Administrar solicitudes de Data Warehouse (experiencia antigua)](#manage-data-warehouse-requests-old-experience) al final de esta página.
-
 
 Puede ver y administrar las solicitudes de Data Warehouse que haya realizado. Solo los administradores pueden ver y administrar las solicitudes realizadas por otros usuarios de su organización.
 
@@ -105,8 +98,8 @@ Puede ver el historial de cualquier solicitud de Data Warehouse que haya realiza
    |---------|----------|
    | [!UICONTROL **Detalles del destino**] | Muestra los detalles de cuenta y ubicación asociados con la solicitud. Esta es la cuenta y la ubicación configuradas anteriormente, tal como se describe en [Configuración del destino de un informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
    | [!UICONTROL **Cancelar informe**] | Cancela el informe. No se pueden cancelar los informes cuyo estado sea [!UICONTROL **Completado**] o [!UICONTROL **Cancelado**]. |
-   | [!UICONTROL **Volver a ejecutar el informe**] | Ejecuta de nuevo el informe con los datos tal como estaban cuando se envió originalmente. Puede volver a ejecutar un informe que tenga cualquiera de los siguientes estados: [!UICONTROL **Cancelado**], [!UICONTROL **Completado**], [!UICONTROL **Error - Procesando**], o [!UICONTROL **Error: Error Al Enviar**]. |
-   | [!UICONTROL **Volver a enviar el informe**] | Reenvía el archivo de informe generado anteriormente. Puede reenviar un informe que tenga cualquiera de los siguientes estados: [!UICONTROL **Completado**] o [!UICONTROL **Error: Error Al Enviar**]. |
+   | [!UICONTROL **Volver a ejecutar informe**] | Ejecuta de nuevo el informe con los datos tal como estaban cuando se envió originalmente. Puede volver a ejecutar un informe que tenga cualquiera de los siguientes estados: [!UICONTROL **Cancelado**], [!UICONTROL **Completado**], [!UICONTROL **Error - Procesando**], o [!UICONTROL **Error: Error Al Enviar**]. |
+   | [!UICONTROL **Reenviar informe**] | Reenvía el archivo de informe generado anteriormente. Puede reenviar un informe que tenga cualquiera de los siguientes estados: [!UICONTROL **Completado**] o [!UICONTROL **Error: Error Al Enviar**]. |
 
 ## Copiar solicitudes
 
@@ -159,7 +152,7 @@ Puede configurar la información que se muestra para cada solicitud añadiendo o
    | Nombre de la solicitud | El nombre de la persona que creó la solicitud. |
    | Grupo de informes | El grupo de informes asociado con la solicitud. |
    | Solicitado por | El usuario que creó la solicitud. |
-   | Solicitar fecha | La fecha en la que se realizó la solicitud. |
+   | Fecha de solicitud | La fecha en la que se realizó la solicitud. |
    | Estado | Los siguientes estados están disponibles:<ul><li><p>**Completado**: la solicitud se ejecutó correctamente.</p></li><li><p>**Cancelado**: la solicitud fue cancelada por el usuario.</p></li><li><p>**Programado**: la solicitud está configurada para ejecutarse en una programación.</p></li><!-- Are there other statuses? Failed? --> |
 
    {style="table-layout:auto"}
@@ -179,31 +172,3 @@ Puede configurar la información que se muestra para cada solicitud añadiendo o
 1. En el campo de búsqueda situado en la parte superior de la página de Data Warehouse, especifique el nombre de la solicitud que desea ver.
 
    Las solicitudes se filtran a medida que escribe.
-
-## Administrar solicitudes de Data Warehouse (experiencia antigua)
-
->[!NOTE]
->
->La siguiente información solo se aplica si su organización aún no tiene la nueva experiencia de Data Warehouse, que estará disponible próximamente para todos los clientes de Analytics.
-
-
-El administrador de solicitudes permite ver, duplicar y volver a priorizar solicitudes.
-
-En Data Warehouse, seleccione la ficha **[!UICONTROL Administrador de solicitudes]**.
-
-Al trabajar en esta ficha, puede
-
-* Ver solicitudes de informes recientes por nombre de informe, segmento aplicado, solicitante, fecha y estado de la solicitud.
-* Duplicar solicitudes. Haga clic en **[!UICONTROL Duplicar]** junto a la solicitud.
-
-  >[!NOTE]
-  >
-  >Esta acción duplica solo la solicitud, no la programación ni los detalles de la entrega.
-
-* Buscar informes por nombre de informe o por nombre de inicio de sesión del solicitante.
-* Volver a priorizar los informes al arrastrarlos y colocarlos en una nueva ubicación dentro de la cola.
-* Para ver cuándo comenzó a procesarse una solicitud, haga clic en el ID de una solicitud programada y revise el menú emergente que se abre.
-
-Haga clic en un trabajo para ver solicitudes individuales para ese trabajo.
-
-* Velocidad limitada: Su organización tiene demasiadas solicitudes de Data Warehouse en ejecución. La solicitud se detiene hasta que se completen otras solicitudes de datos.

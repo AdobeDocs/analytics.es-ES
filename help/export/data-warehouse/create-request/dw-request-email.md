@@ -2,22 +2,15 @@
 description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración de las opciones de informes de una solicitud de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 15%
+source-wordcount: '193'
+ht-degree: 8%
 
 ---
 
 # Configuración de un correo electrónico de notificación para una solicitud de Data Warehouse
-
->[!AVAILABILITY]
->
->Algunas de las funciones de Data Warehouse descritas en este artículo (y otros artículos de Data Warehouse en esta sección) están disponibles solamente en la fase de Prueba limitada de la versión y es posible que aún no estén disponibles en su entorno.
->
->Para obtener información sobre las funciones que aún no están disponibles para todos los clientes, así como sobre la cronología de lanzamiento de estas funciones, consulte la [notas de la versión](/help/release-notes/latest.md).
->
->Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Analytics, consulte [Lanzamientos de funciones de Adobe Analytics](/help/release-notes/releases.md).
 
 Hay varias opciones de configuración disponibles al crear una solicitud de Data Warehouse. La siguiente información describe cómo configurar un correo electrónico de notificación para la solicitud.
 
@@ -37,7 +30,7 @@ Para configurar un mensaje de correo electrónico de notificación para una soli
 
    | Opción | Función |
    |---------|----------|
-   | [!UICONTROL **Enviar notificación por correo electrónico a**] | Especifique las direcciones de correo electrónico de las personas que deben recibir notificaciones por correo electrónico cuando se envíe el informe. <p>Puede especificar una sola dirección de correo electrónico o una lista de direcciones de correo electrónico separadas por coma.</p> |
+   | [!UICONTROL **Enviar correo electrónico de notificación a**] | Especifique las direcciones de correo electrónico de las personas que deben recibir notificaciones por correo electrónico cuando se envíe el informe. <p>Puede especificar una sola dirección de correo electrónico o una lista de direcciones de correo electrónico separadas por coma.</p> |
    | [!UICONTROL **Opciones avanzadas**] | Seleccione esta opción para incluir un asunto y notas para el correo electrónico cuando se envíe la notificación. |
 
    {style="table-layout:auto"}
