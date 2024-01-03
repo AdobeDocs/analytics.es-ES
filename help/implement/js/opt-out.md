@@ -3,24 +3,24 @@ title: Vínculos de no participación
 description: Obtenga información sobre cómo crear e implementar Vínculos de no participación para los visitantes del sitio.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 92%
+source-wordcount: '563'
+ht-degree: 71%
 
 ---
 
 # Implementación de Vínculos de no participación
 
-*Esta página de ayuda permite a los clientes de Adobe Analytics proporcionar a sus usuarios vínculos de no participación. Si no es cliente de Adobe Analytics, consulte [Opciones de privacidad de Adobe](https://www.adobe.com/es/privacy/opt-out.html) para controlar cómo utiliza el Adobe su información.*
-
 >[!IMPORTANT]
 >
->Adobe recomienda utilizar el servicio de inclusión, especialmente para las organizaciones relacionadas con las regulaciones del RGPD. Consulte [Introducción al servicio de inclusión](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) en la guía del usuario del servicio de Experience Cloud ID.
+> **Esta página de ayuda permite a los clientes de Adobe Analytics proporcionar a sus usuarios vínculos de no participación. Si no es cliente de Adobe Analytics, consulte [Opciones de privacidad de Adobe](https://www.adobe.com/es/privacy/opt-out.html) para controlar cómo utiliza el Adobe su información.**
 
-Algunos visitantes del sitio Web prefieren no incluir su información de navegación en el conjunto de datos. Adobe permite especificar a los visitantes de un sitio web que así lo consideren que no desean que su información se recopile. Se admiten todos los tipos de implementación; su organización es responsable de su propia política de privacidad y de cumplir con los términos firmados.
+Algunos visitantes del sitio Web prefieren no incluir su información de navegación en el conjunto de datos. El Adobe permite proporcionar a los visitantes de un sitio web un medio para evitar que se analice su información.
 
-Cuando un visitante llega a una URL de exclusión, se le solicita que instale una cookie de exclusión. Si un usuario decide no rastrearse y se establece una cookie de exclusión, su archivo JavaScript continúa enviando datos a los servidores de Adobe. Sin embargo, esos datos no se procesan ni se incluyen en los informes.
+Los vínculos de exclusión permiten a los visitantes del sitio web omitir sus datos en los informes de Analytics. Estos vínculos se limitan a implementaciones de AppMeasurement; Adobe recomienda utilizar la variable [Servicio de inclusión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) en su lugar. El servicio de inclusión (Opt-in) es más robusto y funciona con varios productos de Adobe Experience Cloud, incluidos Adobe Analytics y AppMeasurement.
+
+Cuando un visitante llega a una URL de exclusión, se le solicita que instale una cookie de exclusión. Si un usuario decide no rastrearse y se establece una cookie de exclusión, el AppMeasurement continúa enviando datos al Adobe. Sin embargo, esos datos no se procesan ni se incluyen en los informes.
 
 >[!TIP]
 >
@@ -58,34 +58,30 @@ Hay opciones que se pueden cargar automáticamente en esta página mediante cade
 
 Cambiar automáticamente el idioma de la página de exclusión incluyendo el parámetro de cadena de consulta `locale`. Asigne este parámetro de cadena de consulta uno de los siguientes valores:
 
-* en_US (inglés, predeterminado)
-* bg_BG (búlgaro)
-* zh_CN (chino simplificado)
-* zh_TW (chino tradicional)
-* cs_CZ (checo)
-* da_NK (danés)
-* nl_NL (neerlandés)
-* et_EE (estonio)
-* fi_FI (finés)
-* fr_FR (francés)
-* de_DE (alemán)
-* el_GR (griego)
-* it_IT (italiano)
-* jp_JP (japonés)
-* ko_KR (coreano)
-* lv_LV (letón)
-* lt_LT (lituano)
-* nb_NO (noruego)
-* pl_PL (polaco)
-* pt_BR (portugués)
-* sk_SK (eslovaco)
-* es_ES (español)
+* `en_US` (Inglés, predeterminado)
+* `bg_BG` (Búlgaro)
+* `zh_CN` (Chino simplificado)
+* `zh_TW` (Chino tradicional)
+* `cs_CZ` (Checo)
+* `da_NK` (Danés)
+* `nl_NL` (neerlandés)
+* `et_EE` (Estonio)
+* `fi_FI` (finés)
+* `fr_FR` (francés)
+* `de_DE` (Alemán)
+* `el_GR` (Griego)
+* `it_IT` (Italiano)
+* `jp_JP` (Japonés)
+* `ko_KR` (Coreano)
+* `lv_LV` (Letón)
+* `lt_LT` (lituano)
+* `nb_NO` (Noruego)
+* `pl_PL` (Polaco)
+* `pt_BR` (portugués)
+* `sk_SK` (eslovaco)
+* `es_ES` (español)
 
 Por ejemplo, `https://example.data.adobedc.net/optout.html?locale=ko_KR` carga la página de exclusión en coreano.
-
->[!TIP]
->
->El valor de la cadena de consulta `en_US` no es obligatorio, ya que la página se carga en inglés de forma predeterminada.
 
 ### Ventana emergente
 

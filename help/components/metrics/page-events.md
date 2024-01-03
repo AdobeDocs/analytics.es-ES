@@ -3,10 +3,10 @@ title: Eventos de página
 description: Número de acciones de seguimiento de vínculos activadas.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a7434f72159a575f9ad7bf29644cb17777382df7
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 50%
+source-wordcount: '146'
+ht-degree: 40%
 
 ---
 
@@ -16,7 +16,7 @@ Los &quot;Eventos de página&quot; [métrica](overview.md) muestra la cantidad d
 
 ## Cálculo de esta métrica
 
-Esta métrica cuenta todos [Llamadas de seguimiento de vínculos (`tl()`)](/help/implement/vars/functions/tl-method.md) en un grupo de informes. Se incluyen todos los tipos de vínculos (vínculos personalizados, vínculos de descarga y vínculos de salida). No incluye [Llamadas de seguimiento de vista de página (`t()`)](/help/implement/vars/functions/t-method.md).
+Esta métrica cuenta todos [Llamadas de seguimiento de vínculos (`tl()`)](/help/implement/vars/functions/tl-method.md) en un grupo de informes. Todos los tipos de vínculos se incluyen en esta métrica, específicamente [Vínculos personalizados](../dimensions/custom-link.md), [Vínculos de descarga](../dimensions/download-link.md), y [Vínculos de salida](../dimensions/exit-link.md). No incluye [Llamadas de seguimiento de vista de página (`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## Comparar con métricas similares
 
