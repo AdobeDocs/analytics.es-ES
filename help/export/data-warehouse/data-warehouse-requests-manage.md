@@ -4,9 +4,9 @@ title: Administrar solicitudes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 4%
 
 ---
@@ -153,7 +153,7 @@ Puede configurar la información que se muestra para cada solicitud añadiendo o
    | Grupo de informes | El grupo de informes asociado con la solicitud. |
    | Solicitado por | El usuario que creó la solicitud. |
    | Fecha de solicitud | La fecha en la que se realizó la solicitud. |
-   | Estado | Los siguientes estados están disponibles:<ul><li><p>**Completado**: la solicitud se ejecutó correctamente.</p></li><li><p>**Cancelado**: la solicitud fue cancelada por el usuario.</p></li><li><p>**Programado**: la solicitud está configurada para ejecutarse en una programación.</p></li><!-- Are there other statuses? Failed? --> |
+   | Estado | Los siguientes estados están disponibles:<ul><li><p>**Completado**: la solicitud se ejecutó correctamente.</p></li><li><p>**Cancelado**: la solicitud fue cancelada por el usuario.</p></li><li><p>**Programado**: la solicitud está configurada para ejecutarse en una programación.</p></li><li><p>**Error**: no se pudo completar la solicitud. Si la solicitud continúa fallando, póngase en contacto con Atención al cliente.</p></li></ul> |
 
    {style="table-layout:auto"}
 

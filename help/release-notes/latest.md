@@ -3,25 +3,24 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 835b7b07e46de4aa5dc0ae27bc9dee9c083660ad
+source-git-commit: bed7f1def35defc63ffa890f1e2d13e5a7b8159b
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 96%
+source-wordcount: '980'
+ht-degree: 87%
 
 ---
 
-# Notas de la versión actuales de Adobe Analytics (octubre/noviembre de 2023)
+# Notas de la versión actuales de Adobe Analytics (enero de 2024)
 
 **Última actualización**: martes, 08 de enero de 2024
 
-Estas notas de la versión abarcan el periodo de lanzamiento del 23 de octubre de 2023 a mediados de enero de 2024. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+Estas notas de la versión abarcan el período de lanzamiento de enero de 2024. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Nuevas funciones o mejoras {#features}
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Administrador de actividades de creación de informes** | El Administrador de actividades de creación de informes le permite ver la capacidad de creación de informes de cada grupo de informes de su organización.  Proporciona a los administradores una visibilidad detallada del consumo de creación de informes para diagnosticar y corregir fácilmente los problemas de capacidad durante las horas de mayor actividad de creación de informes. A continuación se indican algunas de las mejoras que ahora están disponibles en el Administrador de actividades de creación de informes: <ul><li>Restringir las solicitudes posteriores: además de cancelar las solicitudes actuales, los administradores ahora pueden restringir las solicitudes durante un período de tiempo definido. Los administradores pueden restringir las solicitudes por solicitud, proyecto o usuario.</li><li>Además de las métricas de Utilización y Capacidad, el Administrador de actividades de creación de informes ahora incluye más datos sobre la actividad de creación de informes: columna Complejidad, columna Usuario y columna Conexión.</li><li>Todas las cancelaciones y restricciones realizadas en el administrador de actividades de creación de informes ahora están visibles en el registro de auditoría. Los administradores pueden utilizar el registro de auditoría para ver lo que se ha cancelado actualmente. Las cancelaciones no se pueden revertir en el Administrador de actividades de creación de informes ni en el Registro de auditoría.</li></ul><p>Para obtener más información, consulte [Información general del Administrador de actividades de creación de informes](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | 17 de octubre de 2023 | 24 de octubre de 2023 |
-| **Mejoras del Data Warehouse** | Al crear una solicitud de Data Warehouse, ahora puede configurar una cuenta de la nube para usarla como destino del informe. Los siguientes tipos de cuenta de nube están disponibles para enviar datos:<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>Correo electrónico (esta opción estaba disponible anteriormente)</li></ul>FTP, SFTP, Azure Blob y S3 siguen estando disponibles como destinos de informe, pero ya no se recomiendan.<p>También se ha mejorado la experiencia del usuario al crear y administrar solicitudes de Data Warehouse. Para obtener más información, consulte [Creación de una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) y [Administrar solicitudes de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=es). | 12 de septiembre de 2023 | sábado, 15 de diciembre de 2023 |
+| **Actualizaciones de Data Warehouse** | Ya están disponibles las siguientes mejoras en la Data Warehouse:<ul><li>Al crear una solicitud de Data Warehouse, los usuarios ahora pueden poner las solicitudes a disposición de todos los usuarios de la organización habilitando la nueva opción denominada [!UICONTROL **Poner a disposición de los usuarios de su organización**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>Al crear o administrar destinos de informes de Data Warehouse, los administradores del sistema ahora pueden mostrar cuentas y ubicaciones creadas por usuarios de la organización habilitando la opción llamada [!UICONTROL **Mostrar todos los destinos**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | N/A | jueves, 10 de enero de 2024 |
 
 {style="table-layout:auto"}
 

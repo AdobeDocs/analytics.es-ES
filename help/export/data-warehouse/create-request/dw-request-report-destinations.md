@@ -3,9 +3,9 @@ description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración del destino de un informe para una solicitud de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2167'
 ht-degree: 10%
 
 ---
@@ -38,7 +38,9 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
    ![Pestaña Destino del informe](assets/dw-report-destination.png)
 
-1. (Condicional) Si anteriormente configuró una cuenta (y un destino en esa cuenta) que desea usar como destino del informe:
+1. (Condicional) Si ya se ha configurado una cuenta (y un destino de esa cuenta) que desee usar como destino del informe:
+
+   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
 
    1. Seleccione la cuenta de la [!UICONTROL **Seleccionar cuenta**] menú desplegable.
 
@@ -123,7 +125,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
       |---------|----------|
       | [!UICONTROL **Destinatarios**] | Las notificaciones por correo electrónico se pueden enviar a usuarios específicos cuando se envía el informe. Especifique una sola dirección de correo electrónico o una lista de direcciones de correo electrónico separadas por coma. <!-- How does this differ from the Notification email tab? --> |
 
-   1. Seleccionar [!UICONTROL **Añadir ubicación**] y, a continuación, especifique la siguiente información: |Campo Función | | |---------|----------| | [!UICONTROL **Nombre**] | El nombre de la ubicación.  | | [!UICONTROL **Descripción**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. | | [!UICONTROL **Cuenta de ubicación**] | Seleccione la cuenta de ubicación que creó en [Agregar una cuenta](#add-an-account). |
+   1. Seleccionar [!UICONTROL **Añadir ubicación**] y, a continuación, especifique la siguiente información: |Campo | Función | |---------|----------| | [!UICONTROL **Nombre**] | El nombre de la ubicación.  | | [!UICONTROL **Descripción**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. | | [!UICONTROL **Cuenta de ubicación**] | Seleccione la cuenta de ubicación que creó en [Agregar una cuenta](#add-an-account). |
 
    1. En el [!UICONTROL **Propiedades de ubicación**] , especifique información específica para el tipo de cuenta de su cuenta de ubicación.
 
