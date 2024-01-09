@@ -3,9 +3,9 @@ description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración del destino de un informe para una solicitud de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2204'
 ht-degree: 10%
 
 ---
@@ -40,7 +40,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
 1. (Condicional) Si ya se ha configurado una cuenta (y un destino de esa cuenta) que desee usar como destino del informe:
 
-   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
+   1. (Opcional) Si es administrador del sistema, la variable [!UICONTROL **Mostrar todos los destinos**] está disponible. Active esta opción si desea tener acceso a todas las cuentas y ubicaciones creadas por cualquier usuario de la organización.
 
    1. Seleccione la cuenta de la [!UICONTROL **Seleccionar cuenta**] menú desplegable.
 
