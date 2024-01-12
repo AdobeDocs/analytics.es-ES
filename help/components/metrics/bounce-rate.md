@@ -3,10 +3,10 @@ title: Porcentaje de rebote
 description: La proporción de visitas con exactamente una visita en las entradas.
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: b9073cdb6e47358c4f60922dcbed798cd955c29e
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 35%
+source-wordcount: '161'
+ht-degree: 11%
 
 ---
 
@@ -18,4 +18,4 @@ Veamos un ejemplo: supongamos que la página principal de un sitio web recibe 50
 
 ## Cálculo de esta métrica
 
-Esta métrica se calcula mediante la fórmula [`Bounces`](bounces.md) `divided by` [`Entries`](entries.md).
+Esta métrica se calcula mediante la fórmula [Devoluciones](bounces.md) dividido por [Entradas](entries.md).
