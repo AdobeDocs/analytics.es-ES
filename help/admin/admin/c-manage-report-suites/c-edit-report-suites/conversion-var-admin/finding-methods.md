@@ -2,12 +2,12 @@
 description: La página Métodos de localización identifica la manera en que los diversos informes de métodos de localización reciben crédito para eventos de éxito de conversión en un sitio. Por ejemplo, si un motor de búsqueda envía a un visitante a un sitio, y este visitante realiza una compra, Métodos de localización especifica cómo debe recibir el crédito el motor de búsqueda para el referente.
 title: Métodos de búsqueda
 feature: Admin Tools
-uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
+role: Admin
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 100%
+source-wordcount: '319'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 La página Métodos de localización identifica la manera en que los diversos informes de métodos de localización reciben crédito para eventos de éxito de conversión en un sitio. Por ejemplo, si un motor de búsqueda envía a un visitante a un sitio, y este visitante realiza una compra, Métodos de localización especifica cómo debe recibir el crédito el motor de búsqueda para el referente.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Métodos de localización]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Métodos de búsqueda]**
 
 ## Descripciones de los métodos de búsqueda {#section_8B6278DB75224EAB9F49D89A86274E8A}
 

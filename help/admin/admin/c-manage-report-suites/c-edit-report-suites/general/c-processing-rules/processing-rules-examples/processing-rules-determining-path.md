@@ -3,9 +3,9 @@ description: Puede copiar el valor de una eVar en una propiedad para permitir la
 subtopic: Processing rules
 title: Determinar una ruta copiando un valor eVar en una propiedad
 feature: Admin Tools
-uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
+role: Admin
 exl-id: 23c978b9-a159-4364-9214-561a255d23e4
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 100%

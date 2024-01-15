@@ -3,8 +3,9 @@ description: La página Jerarquías de clasificación le permite definir jerarqu
 subtopic: Classifications
 title: Jerarquías de clasificación
 feature: Classifications
+role: Admin
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 97%

@@ -2,11 +2,12 @@
 description: El cuadro de diálogo Etiquetado de privacidad para la administración de datos proporciona información general sobre las etiquetas de privacidad y las áreas de nombres de un grupo de informes. También puede exportar la configuración a un archivo .csv desde aquí.
 title: Ver/administrar el etiquetado de privacidad para la administración de datos
 feature: Data Governance
+role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 89%
+source-wordcount: '820'
+ht-degree: 94%
 
 ---
 

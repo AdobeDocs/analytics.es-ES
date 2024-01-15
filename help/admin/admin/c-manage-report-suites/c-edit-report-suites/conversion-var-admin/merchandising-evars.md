@@ -2,11 +2,12 @@
 title: eVars de comercialización y métodos de búsqueda de productos
 description: Una profundización en los conceptos subyacentes a las eVars de comercialización y en cómo procesan y asignan los datos.
 feature: Admin Tools
+role: Admin
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '5285'
-ht-degree: 97%
+source-wordcount: '5279'
+ht-degree: 96%
 
 ---
 
@@ -377,7 +378,7 @@ Puede que le resulte familiar el valor contenido en la columna post_products. De
 
 Esto significa que el enlace copia los valores de la eVar de sintaxis de la variable de conversión en la variable products a través de Sintaxis del producto. Esta acción de copia solo tiene lugar cuando la variable products y un evento de enlace (configurado mediante la configuración de eVar) están contenidos en la misma solicitud. En ese punto, los valores contenidos en las columnas post_eVar están enlazados al producto. Este enlace se representa mediante Sintaxis del producto tal como se almacena en la columna post_products.
 
-## eVars de comercialización, métrica Instancias y Attribution
+## eVars de comercialización, métrica Instancias y Atribución
 
 Cuando se envía una eVar estándar en una llamada al servidor de Analytics, el valor de su columna post_evar siempre obtiene una instancia atribuida a ella. Las instancias representan el número de veces que se ha establecido un eVar igual a un valor en particular en una solicitud de imagen.
 
@@ -387,8 +388,8 @@ Las instancias de un eVar de comercialización atribuyen la atribución a los va
 
 Por ejemplo, configurar `s.eVar1="Internal Keyword Search"` por sí solo no da crédito a ninguna métrica Instancia en el valor eVar1 de Búsqueda de palabras clave internas. Se registra una instancia en ese momento. Sin embargo, a menos que un producto esté enlazado a ese valor Búsqueda de palabras clave internas al mismo tiempo que `eVar1` está establecido, la instancia se atribuye al bloque No especificado. En otras palabras, el valor `eVar1` de Búsqueda de palabras clave internas puede obtener una instancia. Pero esto solo sucede cuando un producto enlazado al valor de Búsqueda de palabras clave internas aparece en la variable products de la misma solicitud de imagen.
 
-En resumen, sin configuración adicional, la métrica Instancias predeterminada de un eVar de comercialización es menos que útil. Por suerte, Adobe ha lanzado [Attribution](/help/analyze/analysis-workspace/attribution/overview.md). Permite aplicar varios modelos de atribución para cualquier métrica personalizada que recopile Adobe Analytics. Las métricas que aplican estos modelos de atribución no utilizan los valores contenidos en las columnas post_evar ni los valores enlazados a un producto en particular. En su lugar, estas métricas utilizan solo los valores que se pasan a través de las propias solicitudes de imagen (o los valores que se capturan mediante reglas de procesamiento de Adobe Analytics). Puede utilizar las funciones de Attribution para obtener una métrica de instancias atribuidas con precisión para todas las eVars de comercialización que utilicen Sintaxis de variables de conversión.
+En resumen, sin configuración adicional, la métrica Instancias predeterminada de un eVar de comercialización es menos que útil. Afortunadamente, Adobe liberado [Atribución](/help/analyze/analysis-workspace/attribution/overview.md). Permite aplicar varios modelos de atribución para cualquier métrica personalizada que recopile Adobe Analytics. Las métricas que aplican estos modelos de atribución no utilizan los valores contenidos en las columnas post_evar ni los valores enlazados a un producto en particular. En su lugar, estas métricas utilizan solo los valores que se pasan a través de las propias solicitudes de imagen (o los valores que se capturan mediante reglas de procesamiento de Adobe Analytics). Puede utilizar las funciones de Atribución para obtener una métrica de instancias atribuidas con precisión para todas las eVars de comercialización que utilicen Sintaxis de variables de conversión.
 
 ![Selección de atribución](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/attribution-select.png)
 
-Al añadir una métrica de instancias para una eVar de comercialización a un informe, el modelo de Attribution adecuado sería el modelo Último toque. La configuración de la ventana de búsqueda del modelo no importa en este caso. El motivo es que un modelo de atribución de Último toque “forzado” siempre da crédito de instancia a cada valor individual que se transfiere mediante una solicitud. Esto sucede independientemente de si la configuración real de atribución/enlace del eVar está establecida en “Más reciente (último)” en “Valor original (primero)”.
+Al añadir una métrica de instancias para un eVar de comercialización a un informe, el modelo de atribución adecuado sería el modelo Último toque. La configuración de la ventana de búsqueda del modelo no importa en este caso. El motivo es que un modelo de atribución de Último toque “forzado” siempre da crédito de instancia a cada valor individual que se transfiere mediante una solicitud. Esto sucede independientemente de si la configuración real de atribución/enlace del eVar está establecida en “Más reciente (último)” en “Valor original (primero)”.

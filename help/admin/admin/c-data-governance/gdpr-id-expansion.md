@@ -1,12 +1,13 @@
 ---
-description: Los ID que envíe no siempre abarcarán todos los datos coincidentes que Analytics pueda asociar al interesado. Analytics puede crear un conjunto ampliado de ID para incluir estos datos asociados en las solicitudes de privacidad de datos. Puede solicitar esta opción con un parámetro opcional a cada solicitud de privacidad de datos que envíe junto a la solicitud de JSON
+description: Los ID que envíe no siempre abarcarán todos los datos coincidentes que Analytics pueda asociar al interesado. Analytics puede crear un conjunto ampliado de ID para incluir estos datos asociados en las solicitudes de privacidad de datos.
 title: Expansión de ID
 feature: Data Governance
+role: Admin
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 97%
+source-wordcount: '1299'
+ht-degree: 96%
 
 ---
 
@@ -59,4 +60,4 @@ Además del valor predeterminado, el campo `priority` también admite un valor �
 
 También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que los detalles relativos al número de visitas, los referentes, la primera página visitada, etc. El resultado no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API de Privacy Service no es apropiada para este uso.
 
-Póngase en contacto con su equipo de cuentas de Adobe para que se coordine con nuestro equipo de consultoría encargado de la arquitectura de ingeniería. De este modo, podremos llevar a cabo una revisión más exhaustiva y establecer el nivel de actuación a la hora de eliminar cualquier PII o resolver problemas de datos.
+Póngase en contacto con el equipo de cuenta de Adobe para coordinarse con nuestro equipo de consultoría de arquitectos de ingeniería y revisar y proporcionar un nivel de esfuerzo para eliminar cualquier PII o resolver problemas de datos.

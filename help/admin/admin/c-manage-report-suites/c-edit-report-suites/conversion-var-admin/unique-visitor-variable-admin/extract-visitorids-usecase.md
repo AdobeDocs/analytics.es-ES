@@ -2,11 +2,12 @@
 description: El Data Warehouse ofrece una característica que permite extraer una lista de los ID de visitante. Estos ID no son ID de cookies, sino ID que se capturan en una de las variables de conversión. Aunque hay otros modos de obtener esta información, el ejemplo siguiente es un método abreviado para generar una solicitud del Data Warehouse.
 title: 'Caso de uso: obtención de ID de visitantes'
 feature: Admin Tools
+role: Admin
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 El Data Warehouse ofrece una característica que permite extraer una lista de los ID de visitante. Estos ID no son ID de cookies, sino ID que se capturan en una de las variables de conversión. Aunque hay otros modos de obtener esta información, el ejemplo siguiente es un método abreviado para generar una solicitud del Data Warehouse.
 
-Pongamos por ejemplo que su empresa envía correos electrónicos comerciales a clientes y posibles clientes. Cada destinatario tiene un ID único en el sistema de correo electrónico (por ejemplo, *`EMAIL Contact ID`*). Usted configura los correos electrónicos para que cuando los contactos reciban un correo y hagan clic en uno de sus vínculos, el visitante llegue al sitio web con un ID de campaña y un ID de contacto de correo electrónico única. Por ejemplo, el vínculo incluido en el correo electrónico puede tener como destino:
+Pongamos por ejemplo que su empresa envía correos electrónicos comerciales a clientes y posibles clientes. Cada uno de estos destinatarios de correo electrónico tiene un ID único en su sistema de correo electrónico (como *`EMAIL Contact ID`*). Usted configura los correos electrónicos para que cuando los contactos reciban un correo y hagan clic en uno de sus vínculos, el visitante llegue al sitio web con un ID de campaña y un ID de contacto de correo electrónico única. Por ejemplo, el vínculo incluido en el correo electrónico puede tener como destino:
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158

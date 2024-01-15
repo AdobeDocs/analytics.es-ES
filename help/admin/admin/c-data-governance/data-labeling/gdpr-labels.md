@@ -2,11 +2,12 @@
 description: Ejemplos de etiquetas de privacidad de datos para variables de Adobe Analytics
 title: Etiquetas de privacidad de datos para variables de Analytics
 feature: Data Governance
+role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 11cfba59a57ba3292bbfe936ec104d85bf2f7695
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '3578'
-ht-degree: 99%
+source-wordcount: '3576'
+ht-degree: 98%
 
 ---
 
@@ -52,7 +53,7 @@ Las etiquetas de control de datos confieren a los usuarios la capacidad de clasi
 
 | Etiqueta | Definición | Otros requisitos |
 | --- | --- | --- |
-| Ninguna | Seleccione esta opción si esta variable no contiene datos que deban incluirse en los datos devueltos al interesado como parte de una solicitud de acceso a la privacidad de datos. |  |
+| Ninguna | Seleccione esta opción si esta variable no contiene datos que deban incluirse en los datos devueltos al interesado como parte de una solicitud de acceso a la privacidad de datos. | |
 | ACC-ALL | Los valores de este campo se deben incluir en todas las solicitudes de acceso de la privacidad de datos. Si esta visita provenía de un dispositivo compartido por varias personas, al aplicar esta etiqueta, usted, como controlador de datos, indica que es aceptable compartir los datos de este campo con cualquier persona que tenga acceso al dispositivo compartido. | Los campos con esta etiqueta se devolverán para todas las solicitudes de la privacidad de datos. |
 | ACC-PERSON | Los valores de este campo se deben incluir únicamente para solicitudes de acceso de la privacidad de datos cuando tengamos la certeza, dentro de lo razonable, de que la visita correspondía al interesado, tal y como se determine mediante la coincidencia de un ID de solicitud de la privacidad de datos con el valor de un campo ID-PERSON. | También debe tener una etiqueta ID-PERSON configurada en alguna variable dentro de este grupo de informes y enviar solicitudes mediante ese ID; de lo contrario, esta etiqueta nunca se aplicará. |
 
@@ -78,8 +79,8 @@ Se requiere una etiqueta de eliminación únicamente para los campos que contien
 | Etiqueta | Definición | Otros requisitos |
 | --- | --- | --- |
 | Ninguna | Esta variable no contiene ningún ID que se usará para las solicitudes de privacidad de datos. | Únicamente debe establecer una de estas otras etiquetas si este campo contiene un ID que utilizará al enviar las solicitudes de acceso o eliminación mediante la interfaz de usuario o la [API de servicio de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=es). |
-| ID-DEVICE | Este campo contiene un ID que puede utilizarse para identificar un dispositivo para una solicitud de privacidad de datos, pero no puede distinguir entre distintos usuarios de un dispositivo compartido.  No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si envía solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. | También requiere una etiqueta I1 o I2..<ul><li>No se pueden establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li><li>No se puede establecer en clasificaciones.</li></ul> |
-| ID-PERSON | Este campo contiene un ID que se puede usar para identificar a un usuario autenticado (una persona específica) cuando se realice una solicitud de privacidad de datos.  No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si enviará solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. | <ul><li>También requiere una etiqueta I1 o I2..</li><li>No se pueden establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li><li>No se puede establecer en clasificaciones.</li></ul> |
+| ID-DEVICE | Este campo contiene un ID que puede utilizarse para identificar un dispositivo para una solicitud de privacidad de datos, pero no puede distinguir entre distintos usuarios de un dispositivo compartido.  No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si envía solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. | También requiere una etiqueta I1 o I2.<ul><li>No se pueden establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li><li>No se puede establecer en clasificaciones.</li></ul> |
+| ID-PERSON | Este campo contiene un ID que se puede usar para identificar a un usuario autenticado (una persona específica) cuando se realice una solicitud de privacidad de datos.  No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si enviará solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. | <ul><li>También requiere una etiqueta I1 o I2.</li><li>No se pueden establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li><li>No se puede establecer en clasificaciones.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -136,7 +137,7 @@ El etiquetado de privacidad de datos afecta a cuatro clases amplias de variables
 | <ul><li>Eventos de éxito personalizados</li><li>eVars de comercialización</li><li>Variables multivalor (mvVars)</li><li>Variables de jerarquía</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | Clasificaciones | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>Variables de tráfico (props)</li><li>Variables de comercio (eVars no relacionadas con el marketing)</li></ul> | Todas las etiquetas | - |
-| La mayoría de las otras variables   (*Véase la tabla siguiente para las excepciones*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
+| La mayoría de las otras variables (*Consulte la tabla siguiente para ver las excepciones*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -181,7 +182,7 @@ El etiquetado de privacidad de datos afecta a cuatro clases amplias de variables
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eventos y dimensiones de la solución </p> </td> 
-   <td colname="col2"> <p>Vínculo de Activity Map, </p> <p>Activity Map Página </p> </td> 
+   <td colname="col2"> <p>Vínculo de Activity Map, </p> <p>Página del Activity Map </p> </td> 
    <td colname="col3"> <p>None/I1/I2 </p> <p>None/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Las variables pueden contener parámetros de URL, que podrían incluir datos directa o indirectamente identificables. Si su implementación no recopila datos directa o indirectamente identificables en estas variables, estos no necesitan etiquetas de identidad o eliminación. </p> <p>Tenga en cuenta que la eliminación borra los parámetros de URL, pero conserva la URL de base. </p> </td> 
   </tr> 

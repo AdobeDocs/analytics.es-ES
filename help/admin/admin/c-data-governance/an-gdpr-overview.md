@@ -2,11 +2,12 @@
 description: En este documento se describe lo que debe hacer en Adobe Analytics para cumplir los derechos de eliminación y acceso de sus interesados según el RGPD.
 title: Adobe Analytics y el RGPD
 feature: Data Governance
+role: Admin
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 97%
+source-wordcount: '581'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +41,7 @@ En Adobe somos conscientes de que usted es quien más familiarizado está con lo
 
 Para ello, Adobe Analytics proporciona una interfaz de usuario de control de datos que le permite, como responsable del tratamiento de datos, establecer [etiquetas de privacidad](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels) en sus grupos de informes de Analytics y en todas las dimensiones de métricas de dichos grupos. Puede identificar las columnas de su conjunto de datos que contengan datos directamente o indirectamente identificables, con lo que podrá presentar sus solicitudes de acceso y eliminación con respecto a esos datos. Para cada solicitud, se respetarán las etiquetas definidas en la interfaz de usuario de control de datos de Analytics del identificador específico con el que se corresponda dicha solicitud.
 
-Consulte [Etiquetado de datos de grupos de informes](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) para obtener más información sobre cómo configurar las etiquetas.
+Consulte [Etiquetar datos de grupos de informes](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) para obtener más información sobre cómo configurar las etiquetas.
 
 ## Requisitos previos {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
@@ -48,9 +49,9 @@ Consulte [Etiquetado de datos de grupos de informes](/help/admin/admin/c-data-go
 * Vincule su empresa de inicio de sesión a una organización de Experience Cloud, si no lo ha hecho ya. Póngase en contacto con el servicio de atención al cliente de Adobe y consulte [Organizaciones y vinculación de cuentas.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es)
 * Establezca una política de retención de datos para cada grupo de informes a fin de poder satisfacer las solicitudes de acceso y eliminación del RGPD.
 
-   >[!NOTE]
-   >
-   >Adobe Analytics no puede ayudarle con el tratamiento de solicitudes en la API del RGPD (es decir, el tratamiento de las solicitudes de acceso o eliminación que reciba de sus usuarios finales) si no se ha establecido el periodo de retención de datos en Adobe Analytics. Póngase en contacto con su equipo de cuentas de Adobe para establecer el período de retención de datos.
+  >[!NOTE]
+  >
+  >Adobe Analytics no puede ayudarle con el tratamiento de solicitudes en la API del RGPD (es decir, el tratamiento de las solicitudes de acceso o eliminación que reciba de sus usuarios finales) si no se ha establecido el periodo de retención de datos en Adobe Analytics. Póngase en contacto con el equipo de su cuenta de Adobe para establecer el período de retención de datos.
 
 * Compruebe sus permisos: para utilizar la interfaz de gestión del control de datos en Adobe Analytics, debe ser administrador de Adobe Analytics.
 

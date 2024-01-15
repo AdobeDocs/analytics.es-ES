@@ -2,10 +2,11 @@
 description: Describe los pasos para permitir que la implementación de Adobe Analytics admita el acceso a la privacidad de datos de los usuarios y los derechos de eliminación de estos.
 title: Flujo de trabajo de privacidad
 feature: Privacy
+role: Admin
 exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '346'
 ht-degree: 100%
 
 ---

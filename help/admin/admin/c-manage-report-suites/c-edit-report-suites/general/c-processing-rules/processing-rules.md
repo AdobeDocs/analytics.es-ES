@@ -3,10 +3,11 @@ description: Las reglas de procesamiento simplifican la recopilación de datos y
 subtopic: Processing rules
 title: Resumen de las reglas de procesamiento
 feature: Processing Rules
+role: Admin
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '376'
 ht-degree: 100%
 
 ---

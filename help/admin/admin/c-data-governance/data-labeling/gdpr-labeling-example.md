@@ -2,11 +2,12 @@
 description: Muestra ejemplos de cómo etiquetar datos para datos de visitas, solicitudes de acceso y solicitudes de eliminación
 title: Ejemplos de etiquetado
 feature: Data Governance
+role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 100%
+source-wordcount: '862'
+ht-degree: 99%
 
 ---
 
@@ -22,15 +23,15 @@ Suponga que dispone de los siguientes datos de visita:
 
 | Etiquetas | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
-| **Nombre de variable** <br> **(Área de nombres)** | **MyProp1** <br> **(usuario)** | **ID de visitante** <br> **(AAID)** | **MyEvar1**  | **MyEvar2**  | **MyEvar3**  <br> **(xyz)** |
+| **Nombre de variable** <br> **(Área de nombres)** | **MyProp1** <br> **(usuario)** | **ID de visitante** <br> **(AAID)** | **MyEvar1**  | **MyEvar2**  | **MyEvar3** <br> **(xyz)** |
 | Datos de visita | Mary | 77 | A | M | X |
-|  | Mary | 88 | B | N | Y |
-|  | Mary | 99 | C | O | Z |
-|  | John | 77 | D | P | W |
-|  | John | 88 | E | N | U |
-|  | John | 44 | F | Q | V |
-|  | John | 55 | G | R | X |
-|  | Alice | 66 | A | N | Z |
+| | Mary | 88 | B | N | Y |
+| | Mary | 99 | C | O | Z |
+| | John | 77 | D | P | W |
+| | John | 88 | E | N | U |
+| | John | 44 | F | Q | V |
+| | John | 55 | G | R | X |
+| | Alice | 66 | A | N | Z |
 
 ## Muestra de solicitud de acceso {#access}
 

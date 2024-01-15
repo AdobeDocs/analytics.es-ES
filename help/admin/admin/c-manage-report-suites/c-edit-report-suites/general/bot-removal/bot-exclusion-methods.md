@@ -2,17 +2,18 @@
 title: Comparación de diferentes métodos de exclusión de bots
 description: Permite comparar diferentes métodos para excluir bots.
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
+role: Admin
 feature: Bot Removal
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 94%
 
 ---
 
 # Comparación de diferentes métodos de exclusión de bots
 
-En la tabla siguiente se muestran diferentes métodos para excluir bots y cómo se apilan entre ellos.
+En la tabla siguiente se muestran diferentes métodos para excluir bots y cómo se comparan entre sí.
 
 | Método | Reglas de bots | Excluir por dirección IP | Atributos del cliente | Segmentación | Puntuación de terceros + Segmentación | Suprimir la llamada al servidor para bots en tiempo de ejecución | Regla VISTA de DB personalizada |
 | --- | --- | --- | --- | --- | --- | --- | --- |
