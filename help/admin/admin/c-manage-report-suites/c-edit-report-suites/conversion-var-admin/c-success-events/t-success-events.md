@@ -4,9 +4,9 @@ title: Configurar eventos de éxito
 feature: Event
 role: Admin
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -38,9 +38,9 @@ Para configurar eventos de éxito:
 
    | Configuración | Visible en | No visible en |
    |---------|----------|---------|
-   | [!UICONTROL **Visible en todas partes**] | <ul><li>Reports &amp; Analytics (menú y selector de métricas)</li><li>Analysis Workspace</li><li>Generador de segmentos</li><li>Creador de métricas calculadas</li></ul> | N/A |
-   | [!UICONTROL **Generadores**] | <ul><li>Generador de segmentos</li><li>Creador de métricas calculadas</li></ul> | <ul><li>Reports &amp; Analytics (menú y selector de métricas)</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **Oculto en todas partes**] | N/A | <ul><li>Reports &amp; Analytics (menú y selector de métricas)</li><li>Analysis Workspace</li><li>Generador de segmentos</li><li>Creador de métricas calculadas</li></ul> |
+   | [!UICONTROL **Visible en todas partes**] | <ul><li>Analysis Workspace</li><li>Generador de segmentos</li><li>Creador de métricas calculadas</li></ul> | N/A |
+   | [!UICONTROL **Generadores**] | <ul><li>Generador de segmentos</li><li>Creador de métricas calculadas</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Oculto en todas partes**] | N/A | <ul><li>Analysis Workspace</li><li>Generador de segmentos</li><li>Creador de métricas calculadas</li></ul> |
 
 1. Proporcione una descripción.
 1. Compruebe si desea registrar siempre el evento.

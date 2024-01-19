@@ -3,10 +3,10 @@ title: Permisos de perfil de producto para las herramientas de grupo de informes
 description: Comprenda cada elemento de permiso en Herramientas de grupos de informes.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 94%
+source-wordcount: '540'
+ht-degree: 90%
 
 ---
 
@@ -19,9 +19,6 @@ Utilice esta página para comprender cada elemento de permiso dentro de Herramie
 | [!UICONTROL Resumen de la cuenta] | Otorga acceso a General > Configuración general de la cuenta en el Administrador de grupos de informes. |
 | [!UICONTROL Configuración de Advertising Analytics] | Permite a los usuarios configurar los grupos de informes que se van a aprovisionar para Advertising Analytics. |
 | [!UICONTROL Detección de anomalías] | Otorga acceso a la Detección de anomalías en Analysis Workspace. |
-| [!UICONTROL Páginas de bots] | Otorga acceso al informe Métricas del sitio > Bots > Páginas de bots en Reports &amp; Analytics. |
-| [!UICONTROL Bots] | Concede acceso a Métricas del sitio > Bots > Informe de bots en Reports &amp; Analytics. |
-| [!UICONTROL Informe de canal] | Concede acceso a Canales de marketing > Informe general del canal en Reports &amp; Analytics. |
 | [!UICONTROL Canales] | Otorga acceso a los Canales de marketing, incluido el Administrador de canales de marketing, las Reglas de procesamiento de canal de marketing y la Caducidad de canal de marketing en el Administrador de grupos de informes. |
 | [!UICONTROL Clasificaciones] | Otorga acceso a todas las configuraciones de clasificación en el Administrador de grupos de informes. Este elemento de permiso incluye: <br>Tráfico > Clasificaciones de tráfico<br>Conversión > Clasificaciones de conversión<br>Conversión > Jerarquías de clasificación<br>Canales de marketing > Clasificaciones de canal de marketing<br>Administración de aplicaciones > Clasificaciones de aplicaciones<br>Administración de medios > Clasificaciones de medios<br>AEM > Clasificaciones de AEM Assets<br>Adobe Campaign > Clasificaciones de Adobe |
 | [!UICONTROL Costos] | Concede acceso a Canales de marketing > Costes de canal de marketing, en el Administrador de grupos de informes. |
@@ -30,23 +27,20 @@ Utilice esta página para comprender cada elemento de permiso dentro de Herramie
 | [!UICONTROL Calendario personalizado] | Otorga acceso a General > Personalizar calendario en el Administrador de grupos de informes. |
 | [!UICONTROL Informe del Data Warehouse personalizado] | Otorga acceso a Herramientas > Data Warehouse en la navegación superior de Analytics. |
 | [!UICONTROL Visitas de retorno diario] | Otorga acceso a Retención de visitantes > Visitas de retorno diario en Reports &amp; Analytics. |
-| [!UICONTROL Administrador de feeds de datos] | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. |
+| [!UICONTROL Administrador de fuentes de datos] | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. |
 | [!UICONTROL Administrador de fuentes de datos] | Otorga acceso a Administración > Todos los admin > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
-| API de [!UICONTROL reparación de datos] | Otorga acceso a la API de reparación de datos |
+| [!UICONTROL API de reparación de datos] | Otorga acceso a la API de reparación de datos |
 | [!UICONTROL Medidas predeterminadas] | Otorga acceso a Configuración de grupos de informes individuales > Métricas predeterminadas en el Administrador de grupos de informes. |
 | [!UICONTROL Excluir por dirección IP] | Otorga acceso a Administración > Excluir por dirección IP en la navegación superior de Analytics. |
 | [!UICONTROL Métodos de búsqueda] | Otorga acceso a Conversión > Métodos de búsqueda en el Administrador de grupos de informes. |
 | [!UICONTROL Variables de lista ] | Otorga acceso a Conversión > Variables de lista en el Administrador de grupos de informes. |
 | [!UICONTROL Personalización de menús] | Otorga acceso a General > Personalizar menús en el Administrador de grupos de informes. |
-| [!UICONTROL Informes recomendados] | Otorga acceso a Métricas del sitio > Mis informes recomendados en Reports &amp; Analytics. |
 | [!UICONTROL Búsqueda de pago] | Otorga acceso a General > Detección de búsqueda de pago en el Administrador de grupos de informes. |
 | [!UICONTROL Reglas de procesamiento] | Otorga acceso a General > Reglas de procesamiento y General > Reglas de bots en el Administrador de grupos de informes. |
-| [!UICONTROL Informe en tiempo real] | Otorga acceso a Métricas del sitio > Tiempo real en Reports &amp; Analytics. Utilice el elemento de permiso &#39;Configuración de informes en tiempo real&#39; para otorgar acceso a la configuración de este informe. |
 | [!UICONTROL Configuración de informes en tiempo real] | Otorga acceso a Tiempo real en el Administrador de grupos de informes. Utilice el elemento de permiso &#39;Informe en tiempo real&#39; para conceder acceso al informe en sí. |
-| [!UICONTROL Visitas de retorno] | Otorga acceso a Retención de visitantes > Visitas de retorno en Reports &amp; Analytics. |
 | [!UICONTROL Informes de administradores de Activity Manager] | No se usa. |
 | [!UICONTROL Acceso al Administrador de actividades de creación de informes] | No se usa. |
-| [!UICONTROL Administración de conjuntos de informes] | Otorga acceso al Administrador de grupos de informes, pero no permite ningún cambio. |
+| [!UICONTROL Administración de grupos de informes] | Otorga acceso al Administrador de grupos de informes, pero no permite ningún cambio. |
 | [!UICONTROL Informe breve de imagen del panel de R&amp;A] | No se usa. |
 | [!UICONTROL Informe breve de medición del panel de R&amp;A] | No se usa. |
 | [!UICONTROL Informe breve de resumen del grupo de informes del panel R&amp;A] | No se usa. |

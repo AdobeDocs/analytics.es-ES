@@ -4,9 +4,9 @@ title: Generador de alertas (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '453'
 ht-degree: 99%
 
 ---
@@ -23,10 +23,9 @@ Acceda al Generador de alertas de una de las cuatro formas disponibles:
 
 * Mediante el acceso directo siguiente en Analysis Workspace:
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * En **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alerta nueva]**.
 * Seleccione uno o más elementos de línea de la tabla de forma libre, haga clic con el botón secundario y elija **[!UICONTROL Crear alerta a partir de la selección]**.
-* Desde un informe de Reports &amp; Analytics, vaya a **[!UICONTROL Más]** > **[!UICONTROL Agregar alerta]**.
 
 ## Generar alertas
 
@@ -70,7 +69,7 @@ Establezca la fecha de caducidad de la alerta.
 
 * Arrastre y suelte las métricas en el lienzo para añadir activadores.
 
-   Si alguno de los componentes (métricas, dimensiones o segmentos) de la alerta no es compatible con el grupo de informes seleccionado, aparecerá un mensaje **“componentes no compatibles”**.
+  Si alguno de los componentes (métricas, dimensiones o segmentos) de la alerta no es compatible con el grupo de informes seleccionado, aparecerá un mensaje **“componentes no compatibles”**.
 * Determine el umbral que debe superar la métrica para que se establezca la alerta. Puede ajustar este valor a un umbral y, a continuación, a una de las condiciones siguientes:
 
    * existe anomalía
@@ -81,7 +80,7 @@ Establezca la fecha de caducidad de la alerta.
    * cambia por un
    * Puede establecer el umbral en 90 %, 95 %, 99 %, 99,75 % y 99,9 %.
 
-   Tenga en cuenta que también puede utilizar las métricas calculadas.
+  Tenga en cuenta que también puede utilizar las métricas calculadas.
 
 *... con estos filtros*
 

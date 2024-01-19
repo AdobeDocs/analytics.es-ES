@@ -3,10 +3,10 @@ title: Perfiles de producto para Adobe Analytics
 description: Descubra cómo se pueden utilizar los perfiles de producto como ajustes preestablecidos de permisos que los administradores de productos pueden asignar a los usuarios de una organización.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 1a7b853d6f5fc627223ea69e64b4a240c61aef2a
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 98%
+source-wordcount: '673'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ Para obtener información sobre cómo asignar administradores de perfil de produ
 Los permisos mínimos requeridos en un perfil de producto para acceder a Adobe Analytics son los siguientes:
 
 * El perfil de producto debe tener acceso al menos a un grupo de informes
-* El perfil de producto debe pertenecer al elemento de permiso Herramientas de Analytics **Acceso a Analysis Workspace** (o **Acceso a Reports &amp; Analytics**)
+* El perfil de producto debe pertenecer al elemento de permiso Herramientas de Analytics **Acceso a Analysis Workspace**.
 
 ### Grupos de informes
 
@@ -40,13 +40,13 @@ Concede acceso a los grupos de informes que pertenecen a su organización de Ana
 
 ### Métricas
 
-Otorga acceso a las métricas del grupo de informes. Las métricas se muestran como su componente respectivo en Analysis Workspace o si la métrica está disponible en Reports &amp; Analytics, disponible como un elemento de menú en Métricas del sitio.
+Otorga acceso a las métricas del grupo de informes. Las métricas se muestran como sus respectivos componentes en Analysis Workspace.
 
 Las métricas personalizadas están etiquetadas como &#39;Evento personalizado 1-1000&#39; para mantenerlas independientes de los grupos de informes. Si &#39;Evento personalizado 1&#39; es un elemento de permiso habilitado, ese usuario tiene acceso a event1 en todos los grupos de informes del perfil de producto.
 
 ### Dimensiones
 
-Otorga acceso a las dimensiones del grupo de informes. Las dimensiones se muestran como sus respectivos componentes en Analysis Workspace o si están disponibles en Reports &amp; Analytics, disponibles como elemento de menú.
+Otorga acceso a las dimensiones del grupo de informes. Los Dimension se enumeran como sus respectivos componentes en Analysis Workspace.
 
 Las variables personalizadas, como las eVars, están etiquetadas como &#39;Conversión personalizada 1-250&#39; para mantenerlas independientes de los grupos de informes. Si &#39;Conversión personalizada 1&#39; es un elemento de permiso habilitado, ese usuario tiene acceso a eVar1 en todos los grupos de informes del perfil de producto.
 

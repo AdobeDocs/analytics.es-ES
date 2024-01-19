@@ -4,10 +4,10 @@ title: Ejecutar análisis de contribución
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
 1. (Opcional) Una vez haya hecho clic en **[!UICONTROL Ejecutar análisis de contribución]** tanto en un gráfico de líneas como en una tabla, puede reducir (y así acelerar) el ámbito del análisis mediante [la exclusión de dimensiones](#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
 1. Espere mientras se carga su análisis de contribución. Esto puede requerir una gran cantidad de tiempo, en función del tamaño del grupo de informes y el número de dimensiones. El análisis de contribución realiza análisis en 50 000 elementos por dimensión.
-1. A continuación, Analysis Workspace carga un nuevo panel de análisis de contribución directamente en este proyecto. Observará una gran cantidad de paneles familiares si ya ha utilizado el análisis de contribución en Reports &amp; Analytics anteriormente:
+1. A continuación, Analysis Workspace carga un nuevo panel de análisis de contribución directamente en este proyecto.
 
    * Una visualización que muestra el número de **visitas** en ese día.
    * Una **línea de tendencias de visitas** mensual para el contexto.

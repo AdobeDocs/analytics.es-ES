@@ -4,10 +4,10 @@ title: Superposiciones personalizables
 feature: Activity Map
 role: User, Admin
 exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Las superposiciones permiten configurar la visualización de datos de varias formas para que pueda ver y conocer fácilmente la popularidad que tienen los vínculos en una página.
 
-Con las superposiciones se pueden ver los datos de clics directamente en la página. Esto es lo que diferencia una herramienta de análisis visual, como Activity Map, de la mayoría de las herramientas gráficas y de tablas, como Reports &amp; Analytics.
+Las superposiciones permiten visualizar datos sobre clics directamente en la página.
 
 Activity Map ofrece tres tipos de superposiciones:
 
@@ -51,7 +51,7 @@ Las superposiciones de burbujas se muestran cuando selecciona en la barra de her
 
 >[!NOTE]
 >
->Las superposiciones de burbujas en submenús solo se ven cuando se muestra el submenú:
+>Las superposiciones de burbujas en submenús solo se muestran al mostrar el submenú:
 >
 >![](assets/bubbles_submenu.png)>
 

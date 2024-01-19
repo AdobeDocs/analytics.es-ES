@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: Administrar Canales de marketing
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 100%
+source-wordcount: '742'
+ht-degree: 94%
 
 ---
 
@@ -51,7 +51,7 @@ Agregue canales de marketing en el Administrador de canales de marketing.
 
    Si selecciona varios grupos de informes, debe seleccionar una plantilla que copie la configuración de la plantilla a los grupos de informes seleccionados.
 
-   Consulte [Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Consulte [Aplicar la configuración de grupo de informes de plantilla a varios grupos de informes](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de marketing]** > **[!UICONTROL Administrador de canales de marketing]**.
 
@@ -77,7 +77,6 @@ Hay varias opciones de configuración que se pueden aplicar a cada canal en la p
 | Anular canal de último contacto | Permite sobrescribir un canal de último contacto persistente actual con el canal seleccionado. Si selecciona esta casilla, cualquier canal (incluidos el directo y el interno) sobrescribirán el canal que se haya tocado por última vez. Por lo tanto, se atribuirá la conversión a un canal al que, posiblemente, no corresponda el crédito. Por ejemplo, esta opción podría garantizar que el canal directo no reciba el crédito por la conversión si el usuario ha sido adquirido anteriormente mediante el canal Búsqueda natural. |
 | Desglose de canal | Permite desglosar un canal según el valor especificado. Puede agregar posibles desgloses de canal (subcanales) al crear [clasificaciones de canal de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md). |
 | Tipo | Especifica cómo llegó el usuario a su sitio web. Puede seleccionar En línea o Sin conexión. Utilice los canales en línea para los visitantes que llegaron mediante un motor de búsqueda o una campaña de correo electrónico. Los canales sin conexión se aplican a los visitantes que hayan encontrado el sitio mediante cupones de periódicos o anuncios en revistas. Por lo general, los canales sin conexión incluyen datos importados a través de las fuentes de datos de informes. Consulte [Fuentes de datos](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=es). Consulte [Añadir datos sin conexión](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| Color | Solo Reports &amp; Analytics: El color asociado con este canal de marketing. El color representa el canal en el informe Canal de marketing. |
 
 ### Prácticas recomendadas sobre anulaciones
 
@@ -95,4 +94,4 @@ Adobe proporciona varios canales predefinidos durante una [configuración autom�
 >
 >Adobe recomienda que configure el informe en un grupo de informes, que puede utilizar como plantilla para realizar pruebas. Puede usar la plantilla para aplicar conjuntos de canales y reglas de forma global a uno o más grupos de informes de producción.
 >
->Consulte [Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+>Consulte [Aplicar configuración de grupo de informes de plantilla a varios grupos de informes](/help/components/c-marketing-channels/c-getting-started-mchannel.md).

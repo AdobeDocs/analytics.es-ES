@@ -3,10 +3,10 @@ description: Descripción de los tipos de grupos de informes y comparación de l
 title: Enfoques de los grupos de informes
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 96%
+source-wordcount: '879'
+ht-degree: 93%
 
 ---
 
@@ -42,11 +42,7 @@ El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltip
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] es la única herramienta que admite informes de resumen y Adobe ya no recomienda el uso de resúmenes. Considere la posibilidad de utilizar un grupo de informes globales con etiquetado de grupos múltiples o grupos de informes virtuales.
-
-Un informe de resumen es una simple agregación de datos de varios grupos de informes, sin anulación de duplicación ni desglose de datos o segmentos. Los resúmenes no requieren la implementación de código. Para usar informes de resumen, [implemente grupos de informes secundarios](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) y luego [combínelos en un informe de resumen](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md) con las [!UICONTROL Herramientas de administración].
-
-Los informes de resumen son gratuitos: los grupos de informes secundarios realizan sus propias llamadas al servidor, pero el resumen no efectúa llamadas adicionales. Los resúmenes son una característica heredada y tienen muchas limitaciones.
+>[!DNL Reports & Analytics] es la única herramienta que admite informes de resumen. Reports &amp; Analytics finalizó su vida útil el 17 de enero de 2024.
 
 ### Limitaciones de los informes de resumen {#limitations-rollups}
 
@@ -80,6 +76,6 @@ Los informes de resumen son gratuitos: los grupos de informes secundarios realiz
 
 **Informes**: los grupos de informes globales ofrecen datos de todas las dimensiones, mientras que los resumidos ofrecen datos acumulados sobre los informes principales.
 
-**Productos compatibles**: los grupos de informes resumidos solo se pueden usar en Reports &amp; Analytics. No son compatibles con Analysis Workspace ni con Data Warehouse. Los grupos de informes globales se pueden utilizar en todos los productos.
+**Productos compatibles**: los resúmenes solo se podían usar en Reports &amp; Analytics. No son compatibles con Analysis Workspace ni con Data Warehouse. Los grupos de informes globales se pueden utilizar en todos los productos.
 
 **Número de grupos de informes agregados**: los grupos de informes resumidos solo admiten un máximo de 40 grupos de informes secundarios. Los grupos de informes globales se pueden implementar en cualquier dominio o aplicación de su propiedad.

@@ -3,10 +3,10 @@ description: El nuevo sistema Alertas inteligentes permite un control más granu
 title: Alertas inteligentes
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Las alertas inteligentes le permiten
 
 Los componentes del sistema de alerta incluyen: Generador de alertas, Administrador de alertas, Vista previa de alertas y un mejor acceso en contexto para la creación de alertas. La interfaz de usuario del sistema de alertas anterior ya no estará disponible, pero las alertas migran. Algunas de las funcionalidades de alerta heredadas [ya no están disponibles](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=es).
 
-Hay cuatro formas en las que puede acceder al Generador de alertas:
+Existen tres formas de acceder al Generador de alertas:
 
 * Mediante el acceso directo siguiente en Analysis Workspace:
 
@@ -43,13 +43,10 @@ Hay cuatro formas en las que puede acceder al Generador de alertas:
 
   ![](assets/create-alert-from-selection.png)
 
-* Desde un informe de [!UICONTROL Reports &amp; Analytics], vaya a **[!UICONTROL Más]** > **[!UICONTROL Agregar alerta]**. De esta forma se abrirá el nuevo Generador de alertas, que se rellenará con las métricas y filtros adecuados aplicados a partir del informe. A continuación, puede editar la alerta si fuera necesario.
 
-  ![](assets/add-alert.png)
+## Preguntas más frecuentes: Cómo se calculan y activan las alertas {#trigger}
 
-## Preguntas más frecuentes: Cómo se calculan y activan las alertas {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
-
-Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. En función de la granularidad de tiempo que seleccione, se emplean [distintos modelos](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) para calcular cuánto se aleja (cuántas desviaciones estándar tiene) cada punto de datos respecto a la norma. Si establece un umbral más bajo (por ejemplo, 90 %), obtendrá más anomalías que con otro más alto (99 %). Los umbrales 99,75 % y 99,99 % se introdujeron específicamente para la granularidad horaria, de modo que no se activen tantas anomalías.
+Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. En función de la granularidad de tiempo que elija, [diferentes modelos](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) se utilizan para calcular a qué distancia (cuántas desviaciones estándar tiene) está cada punto de datos con respecto a la norma. Si establece un umbral más bajo (por ejemplo, 90 %), obtendrá más anomalías que con otro más alto (99 %). Los umbrales 99,75 % y 99,99 % se introdujeron específicamente para la granularidad horaria, de modo que no se activen tantas anomalías.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 

@@ -4,16 +4,16 @@ title: Panel Resumen de página
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 8%
+source-wordcount: '444'
+ht-degree: 9%
 
 ---
 
 # Panel Resumen de página
 
-El [!UICONTROL Resumen de página] El panel de comenzó como un informe en Reports &amp; Analytics, en Informes > Participación > Análisis de página > Resumen de página. Ahora también es un panel de Workspace. Este panel le permite explorar fácilmente las estadísticas clave sobre páginas específicas.
+Este panel le permite explorar fácilmente las estadísticas clave sobre páginas específicas.
 
 ## Acceso al panel
 

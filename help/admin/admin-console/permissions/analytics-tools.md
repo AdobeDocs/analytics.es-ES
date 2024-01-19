@@ -3,10 +3,10 @@ title: Permisos de perfil de productos para las herramientas de Analytics
 description: Los elementos de permiso de las herramientas de Analytics conceden acceso a las funciones de Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 93%
+source-wordcount: '440'
+ht-degree: 91%
 
 ---
 
@@ -18,14 +18,13 @@ Los elementos de permiso de las herramientas de Analytics conceden acceso a las 
 |----|----|
 | [!UICONTROL Activity Map] | Otorga acceso a Herramientas > Activity Map. Permite al usuario utilizar la extensión Activity Map. |
 | [!UICONTROL Administración de Advertising Analytics] | Permite a los usuarios configurar/editar/visualizar las cuentas de búsqueda publicitarias. |
-| [!UICONTROL Acceso a Analysis Workspace] | Disponen de acceso a Analysis Workspace. Los usuarios deben pertenecer a este grupo (opción preferida) o a Acceso a Reports &amp; Analytics para utilizar Adobe Analytics. |
+| [!UICONTROL Acceso a Analysis Workspace] | Otorga acceso a Analysis Workspace. |
 | [!UICONTROL Analysis Workspace: Guardar como plantilla] | Otorga acceso a Proyecto > Guardar como plantilla en Analysis Workspace. |
 | [!UICONTROL Creación de anotaciones] | Concede la capacidad de crear anotaciones. |
 | [!UICONTROL Creación de métricas calculadas] | Concede la capacidad de crear métricas calculadas en todas las capacidades de Analytics. |
 | [!UICONTROL Promoción conjunta de marca] | No se usa. |
 | [!UICONTROL Administrador de códigos] | Se ha mantenido para propósitos heredados. Otorga acceso a Administración > Todos los administradores > Administrador de códigos. En la mayoría de los casos, utilice las bibliotecas incluidas en la extensión de Adobe Analytics en la Recopilación de datos de Adobe Experience Platform. |
 | [!UICONTROL Administrador de códigos - Servicios Web] | Otorga acceso al Administrador de códigos mediante la API 1.4. |
-| [!UICONTROL Datos actuales] | Habilita la opción para ver los datos actuales en los informes de Reports &amp; Analytics. |
 | [!UICONTROL Usuarios de licencias de Excel] | No se usa. |
 | [!UICONTROL Ocultar grupos de informes] | Concede acceso a Administración > Todos los administradores > Configuración de la compañía > Ocultar grupos de informes. Otorga la capacidad de ocultar cualquier grupo de informes de la organización, independientemente del acceso a su grupo de informes. |
 | [!UICONTROL Integraciones (crear)] | No se usa. Data Connectors ha llegado al final de su vida útil. |
@@ -38,7 +37,6 @@ Los elementos de permiso de las herramientas de Analytics conceden acceso a las 
 | [!UICONTROL Acciones pendientes] | Otorga acceso a Administración > Todos los administradores > Configuraciones de la compañía > Acciones pendientes. |
 | [!UICONTROL Preferencias] | No se usa. |
 | [!UICONTROL Report Builder] | Habilita el botón de descarga en Herramientas > Report Builder, y permite al usuario autenticarse dentro de Microsoft Excel. |
-| [!UICONTROL Acceso a Reports &amp; Analytics] | Concede acceso a Reports &amp; Analytics. Los usuarios deben pertenecer a este grupo o a Acceso a Analysis Workspace (opción preferida) para utilizar Adobe Analytics. |
 | [!UICONTROL Seguridad] | Otorga acceso a Administración > Todos los administradores > Configuraciones de la compañía > Administrador de seguridad. |
 | [!UICONTROL Creación de segmentos] | Concede la capacidad de crear y compartir segmentos en todas las funciones de Analytics. |
 | [!UICONTROL Publicación de segmentos] | Concede la capacidad de convertir un segmento en una audiencia de Experience Cloud al crear o editar un segmento. |

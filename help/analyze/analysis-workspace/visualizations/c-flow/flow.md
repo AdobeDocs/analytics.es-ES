@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 84%
+source-wordcount: '199'
+ht-degree: 82%
 
 ---
 
@@ -21,10 +21,6 @@ Le permite:
 * Visualizar el recorrido del cliente a lo largo de su sitio web o aplicación
 * Analizar a qué lugares van los clientes antes y después de los puntos de comprobación especificados, como la entrada, una dimensión específica o la salida
 * Crear segmentos mediante la designación de un punto específico en una ruta elegida
-
->[!NOTE]
->
->Para obtener información sobre cómo pueden diferir los resultados de aplicar segmentos a Flujo entre Analysis Workspace y Reports &amp; Analytics, consulte [Segmentación como base para Flujo y Visitas en orden previsto](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 Este es un tutorial en vídeo de visualización de flujo:
 

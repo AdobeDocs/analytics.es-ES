@@ -4,10 +4,10 @@ title: Panel de Analytics for Target (A4T)
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 32dfab4b10d3637aba53081f747d2650fc33a8f0
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 87%
+source-wordcount: '979'
+ht-degree: 93%
 
 ---
 
@@ -50,7 +50,7 @@ Cada tabla de forma libre muestra las siguientes columnas de métricas:
 | Tasa de conversión | Métrica de éxito/métrica de normalización |
 | Alza | Compara la tasa de conversión de cada experiencia con la experiencia de control. Nota: El alza es una “métrica bloqueada” de las experiencias de Target, no se puede desglosar ni utilizar con otras dimensiones. |
 | Alza (inferior) | Representa la peor elevación que una experiencia de variante podría tener sobre el control con un intervalo de confianza del 95 %.<br>Consulte [Cálculos estadísticos](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) y [Calculadora de confianza completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Archivo de Excel para obtener más información. |
-| Alza (media) | Representa la elevación media que una experiencia de variante podría tener sobre el control con un intervalo de confianza del 95 %. Esto es “Alza” en Reports &amp; Analytics.<br>Consulte [Cálculos estadísticos](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) y [Calculadora de confianza completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Archivo de Excel para obtener más información. |
+| Alza (media) | Representa la elevación media que una experiencia de variante podría tener sobre el control con un intervalo de confianza del 95 %. <br>Consulte [Cálculos estadísticos](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) y [Calculadora de confianza completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Archivo de Excel para obtener más información. |
 | Alza (superior) | Representa la mejor elevación que una experiencia de variante podría tener sobre el control con un intervalo de confianza del 95 %.<br>Consulte [Cálculos estadísticos](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) y [Calculadora de confianza completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Archivo de Excel para obtener más información. |
 | Confianza | La prueba T-test para estudiantes calcula el nivel de confianza, que indica la probabilidad de que los resultados se dupliquen si se vuelve a ejecutar la prueba. Se ha aplicado a la métrica un rango de formato condicional fijo del 75%/85%/95%. Este formato se puede personalizar, si es necesario, desde Configuración de columna. Nota: La confianza es una “métrica bloqueada” para las experiencias de Target; no se puede desglosar ni utilizar con otras dimensiones.<br>Consulte [Cálculos estadísticos](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) y [Calculadora de confianza completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Archivo de Excel para obtener más información. |
 

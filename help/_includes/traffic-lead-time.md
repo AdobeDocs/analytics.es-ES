@@ -3,20 +3,16 @@ description: Adobe necesita que se informe por adelantado en caso de nuevas conf
 title: Tiempo de espera necesario para aumentos de tráfico
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 55c8337dbeebcc76db367ead15128c095e4d8ce5
-workflow-type: ht
-source-wordcount: '337'
+source-git-commit: 726e5ee71be60838e48bb682d7fd48bfc1f96ec3
+workflow-type: tm+mt
+source-wordcount: '325'
 ht-degree: 100%
 
 ---
 
 # Tiempo de espera necesario para aumentos de tráfico
 
-## Tiempo de espera necesario para aumentos de tráfico
-
 Adobe necesita que se informe por adelantado en caso de nuevas configuraciones de cuentas, picos de tráfico e incrementos de tráfico. El hardware debe asignarse por adelantado para minimizar la latencia y las posibles consecuencias adversas en el sistema general.
-
-La asignación del hardware está dirigida por alertas enviadas mediante la interfaz de usuario de Reports &amp; Analytics.
 
 >[!IMPORTANT]
 >
@@ -24,7 +20,7 @@ La asignación del hardware está dirigida por alertas enviadas mediante la inte
 
 Respete las siguientes normas para determinar la antelación del envío de alertas de tráfico:
 
-### Tiempos de espera de Asignación de hardware
+## Tiempos de espera de Asignación de hardware
 
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
@@ -65,6 +61,6 @@ Otras cuestiones para tener en cuenta:
 
 * Las Alertas de clientes también son necesarias cuando el tráfico se reduce o cuando un grupo de informes queda obsoleto.
 
-### Anulación de asignaciones de hardware por tráfico inexistente
+## Anulación de asignaciones de hardware por tráfico inexistente
 
 Se anulará la asignación de hardware para nuevas cuentas, picos de tráfico e incrementos de tráfico si el tráfico proyectado en la alerta del cliente no se materializa dentro de las 4 semanas de la “Fecha de lanzamiento”. Si el tráfico aún está anticipado, se debe generar una nueva alerta de cliente como incremento de tráfico.

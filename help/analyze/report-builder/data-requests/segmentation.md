@@ -4,10 +4,10 @@ title: Administración de segmentos (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 85%
+source-wordcount: '959'
+ht-degree: 74%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 85%
 
 Cómo añadir, editar, aplicar y filtrar los segmentos de Adobe Analytics en Report Builder.
 
-Report Builder incluye un panel de segmentación en el paso 1 del Asistente para solicitudes que le permite Crear y administrar segmentos.
+Report Builder incluye un panel de segmentación en el paso 1 del Asistente para solicitudes que le permite crear y administrar segmentos.
 
 ![Captura de pantalla que muestra las opciones de Segmento para Agregar, Editar o Borrar segmentos y que resalta los iconos de Control, Filtro y Actualizar.](assets/seg_dialog.png)
 
@@ -50,9 +50,9 @@ Es posible que tenga combinaciones específicas de dimensiones de informe que de
 1. Vuelva al Report Builder y haga clic en el botón Actualizar para actualizar la lista de segmentos.
 1. Ahora está listo para aplicar este segmento.
 
-## Buscar y aplicar segmentos {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## Buscar y aplicar segmentos {#search}
 
-Cualquier segmento que se haya creado en Reports &amp; Analytics, Report Builder o Data Warehouse aparecerá en esta lista de segmentos. Para actualizar la lista, haga clic en el icono Actualizar ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+Cualquier segmento que se haya creado en Reports &amp; Analytics (ahora al final de su vida útil), Report Builder o Data Warehouse aparecerá en esta lista de segmentos. Para actualizar la lista, haga clic en el icono Actualizar ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 Puede aplicar uno o varios segmentos a una solicitud determinada. Esto incluye segmentos secuenciales.
 
@@ -64,9 +64,9 @@ Puede aplicar uno o varios segmentos a una solicitud determinada. Esto incluye s
 
 >[!NOTE]
 >
->Tanto si es un administrador como si no, en Report Builder podrá ver solo aquellos segmentos que le pertenecen y aquellos que se han compartido con usted. (En la interfaz de usuario de Reports &amp; Analytics de marketing, el administrador puede ver todos los segmentos de la organización).
+>Tanto si es un administrador como si no, en Report Builder podrá ver solo aquellos segmentos que le pertenecen y aquellos que se han compartido con usted.
 
-## Filtrar segmentos. {#section_376E986D3E684999A7CDB08E53854159}
+## Filtrar segmentos. {#filter}
 
 **Filtrar** para crear segmentos haciendo clic en el icono Filtro:  ![Icono de filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
@@ -74,15 +74,15 @@ Los filtros disponibles incluyen:
 
 | Nombre del filtro | Descripción |
 |---|---|
-| Etiquetas | Le permite filtrar segmentos con determinadas etiquetas. Tenga en cuenta que los filtros de etiqueta utilizan el operador AND. Si marca dos etiquetas, el panel derecho muestra los segmentos etiquetados con **ambas** etiquetas. |
+| Etiquetas | Le permite filtrar los segmentos con etiquetas específicas. Tenga en cuenta que los filtros de etiqueta utilizan el operador AND. Si marca dos etiquetas, el panel derecho muestra los segmentos etiquetados con **ambas** etiquetas. |
 | Propietarios | Le permite filtrar segmentos por propietario. Tenga en cuenta que los filtros de Propietario utilizan el operador OR. Si marca dos propietarios, el panel de la derecha muestra los segmentos que son propiedad de **uno** de los propietarios. |
-| Otros filtros > Solo el *nombre del grupo de informes* | Si aplica el filtro “Solo el *nombre del grupo de informes*” en el Creador de segmentos, en [!DNL marketing reports & analytics] y, a continuación, muestra el Filtro avanzado en [!DNL Report Builder], el Filtro avanzado solo mostrará las métricas calculadas correspondientes al informe seleccionado. |
+| Otros filtros > Solo el *nombre del grupo de informes* | Si aplica la variable &quot;Solo *nombre del grupo de informes*&quot; en el Generador de segmentos de Adobe Analytics y, a continuación, muestre el Filtro avanzado en [!DNL Report Builder], el filtro avanzado solo mostrará el segmento para el grupo de informes seleccionado. |
 | Otros filtros > Míos | Muestra todos los segmentos de su propiedad. |
-| Otros filtros > Compartidos conmigo | Muestra todos los segmentos que se han compartido con usted. |
-| Otros filtros > Favoritos | Muestra todos los segmentos que ha marcado como Favoritos. |
-| Otros filtros > Aprobados | Muestra todos los segmentos oficialmente aprobados. |
+| Otros filtros > Compartidos conmigo | Muestra todos los segmentos que otros comparten con usted. |
+| Otros filtros > Favoritos | Muestra todos los segmentos que haya marcado como Favoritos. |
+| Otros filtros > Aprobados | Muestra todos los segmentos aprobados oficialmente. |
 
-## Adición de un control de segmento a un libro {#section_E3E5149A8464441FA5445A98DBD520AC}
+## Adición de un control de segmento a un libro {#segment-control}
 
 Añadir un control de segmento le permite conmutar segmentos dentro de un libro en lugar de tener que ir al Asistente para solicitudes.
 
@@ -103,11 +103,11 @@ Añadir un control de segmento le permite conmutar segmentos dentro de un libro 
 
    ![Captura de pantalla que muestra el campo desplegable Elegir campo de segmento.](assets/seg_control2.png)
 
-## Actualizar la lista de segmentos {#section_22E4A86789444B4A998532396B476EFB}
+## Actualizar la lista de segmentos {#refresh}
 
 Siempre que añada un segmento nuevo o edite uno existente, debe hacer clic en el icono Actualizar ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) para actualizar la lista almacenada en caché de segmentos.
 
-## Administración de segmentos entre solicitudes {#section_C3D63FCBE1A94369A319243313B03C93}
+## Administración de segmentos entre solicitudes {#manage}
 
 Antes de la versión 5.4, Report Builder permitía a los usuarios cambiar segmentos en varias solicitudes. No obstante, este proceso siempre sustituía los segmentos que ya existían. Los usuarios que deseen añadir un nuevo segmento para cada solicitud no podrán hacerlo, ya que al añadir el segmento se eliminaría el conjunto de segmentos previo ya asignado a cada solicitud.
 
@@ -122,7 +122,7 @@ Report Builder 5.4 permite añadir, eliminar, reemplazar y reemplazar todos los 
 
    | Opción | Descripción |
    |---|---|
-   | Agregue Segmento | Permite elegir uno o más segmentos para añadirlos a la lista de segmentos actuales. |
+   | Añadir segmento | Permite elegir uno o más segmentos para añadirlos a la lista de segmentos actuales. |
    | Reemplazar segmentos | Permite elegir los segmentos que se reemplazarán por uno o más segmentos. |
    | Reemplazar todos los segmentos por | Permite elegir uno o más segmentos para reemplazar por ellos los segmentos actuales. |
    | Eliminar segmentos | Permite eliminar los segmentos de las solicitudes. |

@@ -4,10 +4,10 @@ title: Filtrado de informes de ruta añadiendo solicitudes dependientes
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 85%
+source-wordcount: '172'
+ht-degree: 62%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 85%
 
 Describe cómo crear informes de ruta con filtros predefinidos.
 
-Reports &amp; Analytics de marketing ofrece algunos informes independientes que son informes de ruta principal con filtros predefinidos, como por ejemplo [!UICONTROL Sección del sitio siguiente] y [!UICONTROL Sección del sitio anterior], Sección del sitio de entrada y [!UICONTROL Sección del sitio de salida], o [!UICONTROL Sección única del sitio].
-
-Report Builder no ofrece estos informes independientes, pero puede crearlos en los menús contextuales **[!UICONTROL Añadir solicitud dependiente]** > **[!UICONTROL Ruta]**. Están disponibles los siguientes informes:
+Report Builder no ofrece informes de ruta como informes independientes, pero puede crearlos a través de la variable **[!UICONTROL Añadir solicitud dependiente]** > **[!UICONTROL Ruta]** menús contextuales. Están disponibles los siguientes informes:
 
 * Ruta > Página Visitas
 * Ruta > Ruta de entrada
@@ -29,7 +27,7 @@ Report Builder no ofrece estos informes independientes, pero puede crearlos en l
 * Ruta > Ruta de entrada > Como página de entrada
 * Ruta > Ruta de salida > Como página de salida
 
-1. Seleccione múltiples filas de una solicitud existente, a continuación, haga clic con el botón derecho en **[!UICONTROL Añadir una solicitud dependiente]** > **[!UICONTROL Ruta]**. Debe seleccionar al menos tres filas si desea ver la variable **[!UICONTROL Abandonos de página]** elemento de menú.
+1. Seleccione varias filas de una solicitud existente y haga clic con el botón derecho del ratón **[!UICONTROL Añadir solicitud dependiente]** > **[!UICONTROL Ruta]**. Debe seleccionar al menos tres filas si desea ver la variable **[!UICONTROL Abandonos de página]** elemento de menú.
 
    ![Captura de pantalla que muestra tres filas seleccionadas con la opción Añadir solicitud dependiente seleccionada.](assets/dependen_request.png)
 

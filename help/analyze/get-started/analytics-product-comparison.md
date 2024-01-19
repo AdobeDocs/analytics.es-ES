@@ -3,16 +3,16 @@ description: Requisitos del sistema y comparación de Analysis Workspace, Report
 title: Comparación de productos y requisitos de Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: a733d7296c61e7cb96c637bbd101268e492a1cd4
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 97%
+source-wordcount: '342'
+ht-degree: 91%
 
 ---
 
 # Comparación de productos y requisitos de Analytics
 
-Esta página contiene una comparación de varios productos de Adobe Analytics: Analysis Workspace, Reports &amp; Analytics, Report Builder, Data Warehouse, Data Workbench, Fuentes de datos y API de Analytics 2.0.
+Esta página compara varios productos de Adobe Analytics: Analysis Workspace, Report Builder, Data Warehouse, Fuentes de datos y API de Analytics 2.0.
 
 Para obtener información sobre qué producto de Adobe Analytics utilizar, consulte [¿Qué herramienta de Adobe Analytics debo usar?](/help/analyze/get-started/which-analytics-tool.md).
 
@@ -25,14 +25,14 @@ Para obtener información sobre qué producto de Adobe Analytics utilizar, consu
 | **Nivel de procesamiento** | Procesamiento completo | Procesamiento completo, con [informe en tiempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) independiente | Procesamiento completo | Procesamiento completo | Procesamiento completo |
 | **Datos del filtro de bots de administrador incluidos** <br> [Más información](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | No | Sí: informe de bots independiente | No | No | No |
 | **Aparece poco tráfico (valores exclusivos excedidos)** <br> [Más información](/help/technotes/low-traffic.md) | Sí | Sí | No | No | Sí |
-| **Límite de fila visible (antes de la paginación)** | 400 | 50000 | Sin límite | Sin límite | Sin límite | 50000 |
+| **Límite de fila visible (antes de la paginación)** | 400 | 50000 | Sin límite | Sin límite | 50000 |
 | **Múltiples grupos de informes** | [Sí](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sí | No | Sí | No | Sí |
 | **Número de desgloses** | Sin límite | Hasta 2 | Sin límite | Sin límite | Sin límite, ejecutar en varias consultas |
 | **Segmentación** <br> [Más información](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Sí | Sí | Sí, con [limitaciones](/help/components/segmentation/seg-reference/seg-compatibility.md) | No | Sí |
-| **Métricas calculadas** <br> [Más información](/help/components/c-calcmetrics/cm-overview.md) | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) | Sí, con Attribution | Sí | No | No | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Métricas calculadas** <br> [Más información](/help/components/c-calcmetrics/cm-overview.md) | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) | Sí, con Attribution | Sí | No | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Canales de marketing** <br> [Más información](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Sí | Sí | Sí | Sí, [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Sí |
-| **Análisis de cohorte** | [Sí](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Sí | No | No | No | No |
-| **Atribución** | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) | Limitado | No | No | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Análisis de cohorte** | [Sí](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Sí | No | No | No |
+| **Atribución** | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) | Limitado | No | No | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) | No |
 | **Revisión** <br> [Más información](/help/analyze/analysis-workspace/curate-share/curate.md) | Sí - Proyecto y grupo de informes virtuales | No | No | No | Sí: solo grupo de informes virtuales |
 | **Uso compartido de proyectos** <br> [Más información](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Sí, con funciones de proyecto | Sí | No | No | No |
 | **Envío programado** | Sí | Sí | Sí | Sí | No |

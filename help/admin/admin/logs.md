@@ -3,10 +3,10 @@ description: Los archivos de registro ayudan a ver cuándo los usuarios inician 
 title: Registros
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 66%
+source-wordcount: '587'
+ht-degree: 67%
 
 ---
 
@@ -43,14 +43,12 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 | Inicio de sesión correcto | El usuario ha iniciado sesión correctamente. |
 | Acción de administrador | Se ha producido una acción de administración, como editar un grupo de informes, cambiar la configuración de la empresa, crear un usuario, cancelar una solicitud de creación de informes, etc. |
 | Cambio de configuración de seguridad | Se ha cambiado una configuración de seguridad. |
-| Informe visto | Se visualizó un informe de Reports &amp; Analytics. |
-| Informe descargado | Se ha descargado un informe de Reports &amp; Analytics. |
 | Alerta enviada | Se ha enviado una alerta. |
 | Acción del usuario | Se ha editado la información del usuario. |
 | Herramienta visualizada | Se ha visto una herramienta. |
 | Acción de Omniture | El Adobe realizó una acción. |
 | Recuperación de contraseña | Se ha recuperado una contraseña. |
-| BookMarks | Se administró un marcador. |
+| Marcadores | Se administró un marcador. |
 | Paneles | Se ha administrado un tablero. |
 | Alertas | Se ha administrado una alerta. |
 | Eventos de calendario | Se ha administrado un evento de calendario. |

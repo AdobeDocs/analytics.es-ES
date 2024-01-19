@@ -4,10 +4,10 @@ title: Preguntas frecuentes y resolución de problemas de Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 5bad2982cc8883701be3c63a6ca179933fb59d2a
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 100%
+source-wordcount: '539'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ No se requiere implementación especial. Analysis Workspace está disponible en 
 +++
 
 +++¿Analysis Workspace cambia los informes preconfigurados en Adobe Analytics?
-No. Como es un entorno separado, no se producen cambios en sus informes existentes o preconfigurados en Adobe Analytics. Puede seguir empleando los informes estándar tanto de Reports &amp; Analytics como del Report Builder mediante Analysis Workspace.
+No. Como es un entorno separado, no se producen cambios en sus informes existentes o preconfigurados en Adobe Analytics. Puede seguir utilizando informes de Report Builder estándar con Analysis Workspace.
 +++
 
 +++¿Puedo usar Analysis Workspace para Data Warehouse?
