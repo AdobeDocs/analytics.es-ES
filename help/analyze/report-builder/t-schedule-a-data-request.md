@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '970'
 ht-degree: 96%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 96%
 Puede programar libros de trabajo, especificar opciones de entrega avanzadas, definir destinatarios y ver el historial de programación. Las opciones de envío avanzadas permiten configurar los libros de trabajo que se desean enviar a una hora concreta o a intervalos. También se puede especificar el formato de archivo en el que se desea enviar el libro.
 
 Por ejemplo, los libros de trabajo se pueden programar para enviarse inmediatamente o en una programación recurrente, así como especificar el formato de archivo en [!DNL Advanced Delivery Options]. No es posible cargar archivos de libros de trabajo que superen los 5 MB.
-
-Además, después de crear una programación de libro de trabajo en Report Builder, puede visualizarse y editarse en **[!UICONTROL Analytics]** > **[!UICONTROL Informes]**. (Consulte [Programación y distribución de informes](/help/analyze/reports-analytics/scheduling.md) en la ayuda de Reports &amp; Analytics).
 
 >[!NOTE]
 >
@@ -40,7 +38,7 @@ Además, después de crear una programación de libro de trabajo en Report Build
 1. En la barra de herramientas de Report Builder, haga clic en **[!UICONTROL Programar]**.
 
    La ficha [!UICONTROL Informes programados] resume todas las tareas que se han creado, así como el número de tareas restantes.
-1. En la ficha **[!UICONTROL Informes programados]**, haga clic en **[!UICONTROL Nuevo]**. El Asistente de programación básico muestra las opciones utilizadas para definir el informe programado.
+1. En el **[!UICONTROL Informes programados]** pestaña, haga clic en **[!UICONTROL Nuevo]**. El Asistente de programación básico muestra las opciones utilizadas para definir el informe programado.
 
    ![Captura de pantalla que muestra el Asistente de programación básico.](assets/simple-schedule-wizard.png)
 

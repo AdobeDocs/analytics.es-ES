@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
 source-wordcount: '4994'
 ht-degree: 96%
@@ -142,7 +142,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Actualizaciones de la página de aterrizaje de Adobe Analytics | [Actualizaciones](/help/analyze/landing.md) a la página de aterrizaje conjunta de Analysis Workspace/Reports &amp; Analytics que mejora la facilidad de uso y navegación. |
 | [!UICONTROL Elemento siguiente] o [!UICONTROL Elemento anterior] Panel de espacio de trabajo | Este panel le permite explorar elementos que siguen o preceden a un elemento de dimensión de su elección. |
 | [!UICONTROL Resumen de página] Panel de espacio de trabajo | Este panel proporciona un análisis en profundidad para una página de su elección. |
-| Nuevo tema sobre la pausa de informes programados más antiguos | A partir del **15 de abril de 2022**, Adobe se propone [poner en pausa todos los informes programados que tengan una fecha de creación mayor de dos años](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| Nuevo tema sobre la pausa de informes programados más antiguos | Efectivo **15 de abril de 2022**, el Adobe se propone pausar todos los informes programados que tengan una fecha de creación mayor de dos años |
 | **Febrero de 2022** |
 | Modo de vista previa del proyecto del cuadro de resultados móvil | El [modo de vista previa](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es#preview) permite obtener una vista previa de la experiencia antes de guardar y compartir un cuadro de resultados. |
 | Punto de conexión de proyectos de API | Agregue, edite o elimine proyectos de Analysis Workspace mediante la API. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |

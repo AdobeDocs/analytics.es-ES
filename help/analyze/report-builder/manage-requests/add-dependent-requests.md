@@ -5,10 +5,10 @@ uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 feature: Report Builder
 role: User, Admin
 exl-id: e45eef96-0bd2-4c5a-b1d1-cd41390c08d4
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 48%
+source-wordcount: '98'
+ht-degree: 32%
 
 ---
 
@@ -26,4 +26,3 @@ En el caso de los informes con los desgloses de correlación habilitados dentro 
 >
 >Adobe Report Builder exige dependencias de solicitud únicamente en la misma hoja de cálculo, no entre hojas de cálculo. La restricción a las dependencias dentro de una única hoja de cálculo asegura la puntualidad de ejecución.
 
-Consulte [Informes de desglose](/help/analyze/reports-analytics/reports-customize/breakdowns.md).

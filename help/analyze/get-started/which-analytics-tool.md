@@ -3,10 +3,10 @@ description: Esta página de ayuda contiene casos de uso recomendados para cada 
 title: ¿Qué herramienta de Adobe Analytics debo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '1227'
-ht-degree: 100%
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 97%
 
 ---
 
@@ -24,28 +24,9 @@ Este es un vídeo que compara varias herramientas de Adobe Analytics:
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** debe ser la interfaz de usuario de referencia para todas sus necesidades de informe y análisis. Adobe continúa invirtiendo en el lanzamiento de actualizaciones mensuales de este producto. Si hay una tarea que no puede realizar en Analysis Workspace, evalúe las otras interfaces que aparecen a continuación.**
 
-**[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** debe usarse:
+**[Report Builder](/help/analyze/report-builder/home.md)** es un complemento para Microsoft Excel. Le permite generar solicitudes personalizadas a partir de datos de Adobe Analytics, que se pueden insertar en sus hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que Report Builder presenta los datos.
 
-* Por parte de los usuarios principiantes que necesitan acceso a los informes predefinidos que son más fáciles de explorar.
-* Para acceder a datos en tiempo real en la IU.
-* Para configurar eventos de Calendario.
-* Para configurar Targets.
-* Para acceder a visualizaciones de vídeo únicas de Video Daypart y Viewer Drop-off.
-
->[!IMPORTANT]
->
->A partir del **31 de diciembre de 2023**, Adobe tiene la intención de descatalogar Reports &amp; Analytics, y sus informes y funciones correspondientes. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejarán de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de Reports &amp; Analytics se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. Este aviso explica el proceso de finalización de la vida útil.
-
-El **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=es)** debe usarse:
-
-* Para generar modelos predictivos y estadísticos (puntuación de tendencia, agrupación en clústeres, correlaciones, etc.).
-* Para análisis de latencia (tiempo antes/desde un evento).
-* Para la identificación y exportación de segmentos completos mediante Adobe Experience Cloud.
-
->[!IMPORTANT]
->
->Lea más sobre el [Anuncio de fin de vida útil](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=es) de Data Workbench.
-
+**[Paneles de Adobe Analytics](/help/analyze/mobile-app/home.md)** permite a los usuarios acceder mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
 
 ## Importación de datos en Adobe Analytics {#import}
 

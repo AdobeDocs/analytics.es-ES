@@ -3,9 +3,9 @@ title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2535'
 ht-degree: 97%
 
 ---
@@ -42,7 +42,6 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Variables de datos de contexto:** variables temporales utilizadas únicamente en las reglas de procesamiento. Los valores de las variables de datos de contexto se pierden de forma irreversible si una regla de procesamiento no los copia en una variable de conversión o de tráfico. Consulte [Variables de datos de contexto](../implement/vars/page-vars/contextdata.md) en la guía de usuario sobre implementación.
 * **Variable de conversión:** Conocidas de forma coloquial como eVars. Almacena un valor personalizado y conserva el valor de la variable hasta que caduque. Consulte la dimensión [eVar](/help/components/dimensions/evar.md) en la guía del usuario Componentes.
 * **Correlación:** ya no se utiliza como término; se ha sustituido por los desgloses de dimensión. En las versiones anteriores de Adobe Analytics, las correlaciones permitían desglosar variables de tráfico. Consulte [Desglosar dimensiones](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) en la guía del usuario sobre análisis.
-* **Datos actuales:** una opción disponible en algunos informes que permite incluir datos recopilados recientemente que aún no se han procesado por completo. Consulte [Datos actuales](/help/analyze/reports-analytics/current-data.md) en la guía de usuario sobre análisis.
 * **Vínculo personalizado:** tipo de visita que contiene datos de vista que no son de página. Consulte la [función s.tl()](../implement/vars/functions/tl-method.md) en la guía de usuario sobre implementación. Consulte también Visita.
 * **Atributos del cliente:** una función de Experience Cloud que permite cargar los datos de atributos. Consulte [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es) en la guía de usuario de los servicios principales.
 * **Delegado de asistencia al cliente:** un usuario designado que está autorizado para interactuar directamente con el Servicio de atención al cliente de Adobe. Consulte [Delegados de asistencia al cliente](https://helpx.adobe.com/es/experience-cloud/supported-users.html) en la base de conocimiento de Experience Cloud.
