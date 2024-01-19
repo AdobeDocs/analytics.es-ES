@@ -3,9 +3,9 @@ title: Página
 description: Nombre de la página.
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '186'
 ht-degree: 94%
 
 ---
@@ -28,4 +28,4 @@ Los elementos de dimensión incluyen los nombres de las páginas del sitio. Su o
 
 >[!NOTE]
 >
->En Reports &amp; Analytics, las métricas de conversión utilizan la atribución lineal para esta dimensión. Por ejemplo, los ingresos se dividen entre todas las páginas vistas en una visita antes de un evento `purchase`. Analysis Workspace utiliza la última atribución de forma predeterminada, con la opción de utilizar cualquier modelo de atribución.
+>Analysis Workspace utiliza la última atribución de forma predeterminada, con la opción de utilizar cualquier modelo de atribución.

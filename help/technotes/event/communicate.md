@@ -1,12 +1,12 @@
 ---
-title: Comunicar el impacto a los usuarios
+title: Comunicación del impacto a los usuarios
 description: Aprenda formas eficaces de comunicar el impacto de un evento en su organización.
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
 feature: Event
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '346'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Si tiene un proyecto de Workspace compartido entre los usuarios de su organizaci
 
 También puede comunicar el impacto de un evento a través de visualizaciones de texto dedicadas. Consulte [Visualizaciones de texto](/help/analyze/analysis-workspace/visualizations/text.md) en la guía de usuario sobre análisis.
 
-![Visualización del texto](assets/text_visualization.png)
+![Visualización de texto](assets/text_visualization.png)
 
 ## Añadir eventos de calendario personalizados a las tendencias de Workspace
 
@@ -57,12 +57,3 @@ Para cualquier visualización de tendencias en Workspace, puede añadir una seri
 
    ![Icono de información](assets/calcmetric_infoicon.png)
 
-## Uso de un evento de calendario en Reports &amp; Analytics
-
-Si usa Reports &amp; Analytics, puede usar un [evento de calendario](/help/components/t-calendar-event.md) para resaltar los días afectados en cualquier informe de tendencias. Este método no se aplica a Analysis Workspace.
-
-1. Vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Eventos de calendario]**.
-2. Introduzca el título, el intervalo de fechas y el texto de la nota que desee.
-3. Haga clic en **[!UICONTROL Guardar]**.
-
-![Evento de calendario](assets/exclude_calendar_event.png)

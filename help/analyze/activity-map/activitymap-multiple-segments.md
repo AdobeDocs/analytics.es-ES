@@ -5,10 +5,10 @@ uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 feature: Activity Map
 role: User, Admin
 exl-id: afe2326d-3ea9-4977-aa8f-2c5e1a79e4c7
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 83%
+source-wordcount: '178'
+ht-degree: 60%
 
 ---
 
@@ -18,9 +18,9 @@ Permite aplicar un filtro de varios segmentos en Activity Map.
 
 >[!NOTE]
 >
->El control de segmentos está disponible solo en el modo Estándar porque la plataforma de Adobe Analytics no admite la segmentación de datos en tiempo real.
+>El control de segmentos está disponible solo en el modo Estándar porque la plataforma Adobe Analytics no admite la segmentación de datos en tiempo real.
 
-Puede seleccionar uno o varios segmentos en el menú desplegable **[!UICONTROL Segmentos]** que aparece a continuación. Los segmentos que se ven son los mismos que tiene o que se han compartido con usted a través de Reports &amp; Analytics en el grupo de informes seleccionado.
+Puede seleccionar uno o varios segmentos en el menú desplegable **[!UICONTROL Segmentos]** que aparece a continuación. Los segmentos enumerados son idénticos a los que posee o que han compartido con usted, para el grupo de informes seleccionado.
 
 ![](assets/segments.png)
 

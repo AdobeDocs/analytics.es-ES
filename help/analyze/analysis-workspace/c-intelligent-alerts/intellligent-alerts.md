@@ -4,10 +4,10 @@ title: Resumen de las alertas inteligentes
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 83%
+source-wordcount: '320'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ Este es un tutorial en vídeo sobre [Alertas inteligentes](https://experiencelea
 
 ## Información general
 
-El nuevo Generador de alertas y el Administrador de alertas de Analysis Workspace reemplazan la funcionalidad de alertas de Reports &amp; Analytics, que ha llegado al final de su vida útil. Las alertas inteligentes le permiten:
+Las alertas inteligentes le permiten:
 
 * Generar alertas en función de anomalías (umbrales del 90 %, 95 %, 99 %, 99,75 % y 99,9 %; cambio de %; por encima/por debajo)
 * Obtener una vista previa de la frecuencia con la que se activará una alerta

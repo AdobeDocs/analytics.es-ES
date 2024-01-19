@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: Resumen del Protocolo seguro de transferencia de archivos (SFTP)
 feature: FTP Export
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
-source-git-commit: 04ece4265ff270cc221a79def9494a95d0fdbb0e
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 100%
+source-wordcount: '219'
+ht-degree: 88%
 
 ---
 
@@ -21,11 +21,7 @@ Esto significa que los servidores de Adobe “insertan” el archivo en sus serv
 
 [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) y [la fuente de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=es) pueden insertar datos mediante un SFTP.
 
-Las siguientes herramientas de Analytics **no pueden** insertar datos por SFTP:
-
-* Reports &amp; Analytics
-* Ad Hoc Analysis
-* Report Builder
+Report Builder **no puede** insertar datos mediante SFTP.
 
 ## Entrega mediante extracción {#section_FA29FAEF02FE40B8B32452146A036F48}
 

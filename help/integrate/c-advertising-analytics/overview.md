@@ -3,10 +3,10 @@ description: Descubra todo lo que puede hacer con Advertising Analytics en esta 
 title: Guía de Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 100%
+source-wordcount: '1218'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Advertising Analytics le permite consultar todos los datos de búsqueda de pago 
 >
 >El 31 de marzo de 2019, Microsoft Bing absorbió Yahoo Gemini. Como resultado, la opción de cuenta publicitaria de Yahoo Gemini ya no está disponible.
 
-Al unir los datos de estos motores de búsqueda en Adobe Analytics, puede analizarlos mediante la potencia de Analysis Workspace. Una nueva plantilla denominada [Rendimiento de búsqueda de pago](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) de Workspace facilita este análisis.
+Al unir los datos de estos motores de búsqueda en Adobe Analytics, puede analizarlos mediante la potencia de Analysis Workspace. Un nuevo [Rendimiento de búsqueda de pago](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) en Workspace facilita este análisis.
 
 ![](assets/aa_aw.png)
 
@@ -70,7 +70,7 @@ Analytics cuenta con dos permisos que se conceden automáticamente a los adminis
 
 ## Dimensiones y métricas de Advertising Analytics {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
 
-Advertising Analytics añade las siguientes dimensiones y métricas a Analysis Workspace, Reports &amp; Analytics, Report Builder y la API de informes de Analytics.
+Advertising Analytics agrega las siguientes dimensiones y métricas a Analysis Workspace, Report Builder y la API de informes de Analytics.
 
 **Dimensiones**
 

@@ -3,9 +3,9 @@ title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '2535'
+source-wordcount: '2541'
 ht-degree: 97%
 
 ---
@@ -91,7 +91,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Tiempo real:** muestra con poca o ninguna latencia las variables configuradas en cuanto se recopilan. Consulte [Informes en tiempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) en la guía de usuario de administración.
 * **Report Builder:** Add-in de Microsoft Excel que permite crear solicitudes personalizadas a partir de los datos de Adobe Analytics.
 * **Grupo de informes:** contenedor general al que se envían datos. Todos los informes de Adobe Analytics pertenecen a un grupo de informes.
-* **Reports &amp; Analytics:** anteriormente conocido como SiteCatalyst. Solución de navegador para informes y análisis. Herramienta inicial en el paquete de Analytics.
+* **Reports &amp; Analytics:** anteriormente conocido como SiteCatalyst. Solución de navegador para informes y análisis. Herramienta inicial en el paquete de Analytics. Esta herramienta se ha [fin de vida útil](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=en).
 * **Intervalo de fecha móvil:** un tipo de intervalo de fecha relativo que cambia a medida que pasa el tiempo. Por ejemplo, un informe que muestra los últimos 7 días puede considerarse un intervalo de fecha móvil. Consulte también intervalo de fecha estático.
 * **RSID:** sigla de “Report suite ID” (el ID del grupo de informes). Un grupo de informes tiene un nombre descriptivo y un ID del grupo de informes.
 * **s.t():** nombre de la función de una biblioteca de AppMeasurement que envía una solicitud de imagen de vista de página. Algunas bibliotecas de AppMeasurement utilizan `s.track()` en su lugar. Consulte [t](../implement/vars/functions/t-method.md) en la guía de usuario sobre implementación.

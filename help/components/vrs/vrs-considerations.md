@@ -4,10 +4,10 @@ keywords: Grupo de informes virtuales
 title: Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 86%
+source-wordcount: '1652'
+ht-degree: 85%
 
 ---
 
@@ -30,12 +30,6 @@ Tenga en cuenta las siguientes consideraciones a la hora de determinar si debe u
 Con los grupos de informes virtuales no se pueden compartir segmentos con Adobe Experience Cloud. Los usuarios que deseen compartir un segmento con Experience Cloud deben tener acceso al grupo de informes de origen.
 
 Los segmentos no se pueden publicar en Adobe Experience Cloud desde un grupo de informes virtual para su personalización y segmentación. Todos los usuarios que publiquen segmentos deben tener acceso a un grupo de informes para este fin. Por ejemplo, quiere que los usuarios solo tengan acceso a los datos de su región geográfica, pero quiere que puedan crear y compartir segmentos de Adobe Analytics en Adobe Experience Cloud para realizar la segmentación en Adobe Target. En este caso, Adobe recomienda utilizar el etiquetado de grupos múltiples. Si no le importa que los usuarios tengan acceso al grupo de informes globales o no necesita publicar segmentos para usarlos en otras soluciones, se pueden utilizar los grupos de informes virtuales.
-
-### Datos actuales y en tiempo real
-
-Los informes a tiempo real no son compatibles con los grupos de informes virtuales porque los datos están segmentados. Los Datos actuales no son compatibles con los grupos de informes virtuales, ya que no admiten segmentación. Ambas funciones son específicas de Reports &amp; Analytics.
-
-[Los informes en tiempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) y los [Datos actuales](/help/technotes/latency.md) no están disponibles en los grupos de informes virtuales. Esto afecta a los usuarios que responden a las tendencias que se ven en Reports &amp; Analytics en cuestión de segundos o pocos minutos después de la recopilación de datos. Por ejemplo, esto podría incluir editores en una sala de prensa que ajusten los titulares en función del consumo de contenido en tiempo real. Considere utilizar el etiquetado de grupos múltiples si necesita datos en tiempo real significativos y específicos de los grupos de informes individuales. Los datos actuales y en tiempo real se pueden seguir utilizando en el grupo de informes globales.
 
 ### Límites únicos
 

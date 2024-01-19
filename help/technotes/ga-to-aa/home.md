@@ -3,10 +3,10 @@ title: Transición de una plataforma de análisis de terceros a Adobe Analytics
 description: Aprendizaje de los conceptos clave para obtener informes dirigido a usuarios familiarizados con otras plataformas, como Google Analytics.
 feature: Third-party Integration
 exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 90%
 
 ---
 
@@ -16,12 +16,7 @@ Esta guía presenta los tipos de informes más comunes y le ayuda a interiorizar
 
 Tanto Google Analytics como Adobe Analytics son plataformas potentes que permiten obtener datos valiosos sobre el rendimiento de su sitio web. Cada una de ellas tiene su propia arquitectura de procesamiento y su interfaz de usuario, lo que proporciona a cada plataforma ventajas únicas. Esta guía se ha diseñado para iniciar en Adobe Analytics a los usuarios experimentados de Google Analytics.
 
-En Adobe Analytics, hay dos formas principales de extraer informes básicos después de iniciar sesión en Adobe Experience Cloud:
-
-* **Reports &amp; Analytics** es el método histórico para extraer informes básicos. El menú de la izquierda proporciona una lista de informes prefabricados y permite al usuario navegar hasta el informe que desee y obtener datos. Los segmentos y las métricas proporcionan un grado de personalización aún mayor. Es posible que este diseño le resulte familiar a los usuarios que tengan experiencia con los informes de Google Analytics.
-* **Analysis Workspace** es el método que se recomienda actualmente para extraer la mayoría de los informes. El menú de la izquierda permite al usuario arrastrar y soltar componentes para crear su propio informe. Permite un mayor grado de flexibilidad, por lo que se adapta perfectamente a sus necesidades específicas en materia de informes. Es posible que los usuarios con experiencia en la creación de tableros e informes personalizados de Google Analytics estén familiarizados con este diseño.
-
-La mayoría de los informes se pueden crear tanto en [!UICONTROL Reports &amp; Analytics] como en [!UICONTROL Analysis Workspace]. Sin embargo, algunos informes solo se pueden extraer mediante una plataforma en concreto. En la mayoría de los casos, Adobe recomienda utilizar [!UICONTROL Analysis Workspace] a menos que una función específica solo esté disponible en [!UICONTROL Reports &amp; Analytics].
+En Adobe Analytics, la manera principal de extraer informes básicos después de iniciar sesión en Adobe Experience Cloud es utilizar **Analysis Workspace**. El menú de la izquierda permite al usuario arrastrar y soltar componentes para crear su propio informe. Permite una mayor libertad para satisfacer las necesidades exactas de creación de informes. Es posible que los usuarios con experiencia en la creación de tableros e informes personalizados de Google Analytics estén familiarizados con este diseño.
 
 ## Ruta de aprendizaje recomendada
 

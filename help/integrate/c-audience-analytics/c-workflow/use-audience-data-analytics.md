@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Utilización de los datos de audiencias en Analytics
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 90%
+source-wordcount: '573'
+ht-degree: 89%
 
 ---
 
@@ -81,9 +81,3 @@ Puede incorporar las dimensiones Audiencias al [Generador de segmentos](/help/co
 
    ![](assets/aud-segbuilder.png)
 
-## Reports &amp; Analytics, y Report Builder {#section_04E8FD30F73344D7937AD3C6CD19E34A}
-
-1. Para ver el informe de Analytics, vaya a **[!UICONTROL Informes]** > **[!UICONTROL Perfil del visitante]** > **[!UICONTROL Informes ID de audiencias]**.
-1. Desde esta carpeta tiene acceso a las dimensiones ID de audiencias y Nombre de audiencia.
-
-   ![](assets/mc-audiences.png)

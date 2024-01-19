@@ -3,10 +3,10 @@ title: Compatibilidad de dimensiones de Analytics
 description: Referencia para dimensiones e informes de Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 98%
+source-wordcount: '887'
+ht-degree: 97%
 
 ---
 
@@ -18,11 +18,7 @@ Esta página enumera [dimensiones](overview.md) compatibles con sus respectivas 
 >
 >En esta lista se omiten los nombres de las variables personalizadas, clasificaciones y atributos de visitantes. Estos elementos de dimensión son específicos de cada grupo de informes.
 
->[!NOTE]
->
->Hay algunas superposiciones en las que las herramientas de Analytics utilizan términos diferentes para dimensiones similares. Por ejemplo, Reports &amp; Analytics utiliza `browserwidth` mientras que Analysis Workspace utiliza `browserwidthbucketed`.
-
-## Dimensiones compatibles con Reports &amp; Analytics y con Analysis Workspace
+## Dimension admitidos en Analysis Workspace
 
 | Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |---|---|
@@ -84,7 +80,7 @@ Esta página enumera [dimensiones](overview.md) compatibles con sus respectivas 
 | SC-TnT | `tntbase` |
 | Motor de búsqueda | `searchengine` |
 | Palabra clave de búsqueda | `searchenginekeyword` |
-| Motor de búsqueda - Naturales | `searchenginenatural` |
+| Motor de búsqueda: natural | `searchenginenatural` |
 | Motor de búsqueda: de pago | `searchenginepaid` |
 | Palabra clave de búsqueda: natural | `searchenginenaturalkeyword` |
 | Palabra clave de búsqueda: de pago | `searchenginepaidkeyword` |
@@ -101,11 +97,6 @@ Esta página enumera [dimensiones](overview.md) compatibles con sus respectivas 
 | Profundidad de la visita | `pathlength` |
 | Número de visita | `visitnumber` |
 | Código postal | `zip` |
-
-## Dimensiones compatibles únicamente con Analysis Workspace
-
-| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
-|--- |--- |
 | AM/PM | `timepartampm` |
 | Altura del explorador: Agrupado | `browserheightbucketed` |
 | Anchura del explorador: Agrupado | `browserwidthbucketed` |
@@ -164,24 +155,7 @@ Esta página enumera [dimensiones](overview.md) compatibles con sus respectivas 
 | Recurso de canal de Nielsen | `nielsenchannelasset` |
 | Tipo de contenido de Nielsen | `nielsencontenttype` |
 
-## Dimensiones compatibles únicamente con Reports &amp; Analytics
-
-| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
-|--- |--- |
-| Altura del explorador | `browserheight` |
-| Anchura del explorador | `browserwidth` |
-| Clientes únicos diarios | `dailyuniquecustomers` |
-| JavaScript | `javascriptsupport` |
-| Versión de JavaScript | `javascriptversion` |
-| Clientes únicos mensuales | `monthlyuniquecustomers` |
-| Clientes únicos trimestrales | `quarterlyuniquecustomers` |
-| Zonas horarias | `timezone` |
-| Dominios de nivel superior | `topleveldomain` |
-| Estado del visitante | `legacystate` |
-| Clientes únicos semanales | `weeklyuniquecustomers` |
-| Clientes únicos anuales | `yearlyuniquecustomers` |
-
-## Dimensiones de reconocimiento de contenido compatibles con Reports &amp; Analytics y con Analysis Workspace
+## Dimensiones de reconocimiento de contenido compatibles con Analysis Workspace
 
 ### Vídeo (análisis de medios)
 
@@ -306,7 +280,7 @@ Esta página enumera [dimensiones](overview.md) compatibles con sus respectivas 
 | Vínculo de Activity Map por región | `clickmaplinkbyregion` |
 | Región de Activity Map | `clickmapregion` |
 | Vínculo de Activity Map | `clickmaplink` |
-| Página de Activity Map | `clickmappage` |
+| Página del Activity Map | `clickmappage` |
 
 ### Integración de Nielsen
 

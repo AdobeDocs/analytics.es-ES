@@ -3,10 +3,10 @@ description: Utilice alertas en Analysis Workspace.
 title: Información general del Generador de alertas
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 99%
+source-wordcount: '463'
+ht-degree: 97%
 
 ---
 
@@ -16,14 +16,13 @@ ht-degree: 99%
 >
 >Las alertas inteligentes están disponibles solo para los clientes de Adobe [!DNL Analytics] Prime y Adobe [!DNL Analytics] Ultimate.
 
-Acceda al Generador de alertas de una de las cuatro formas disponibles:
+Acceda al Generador de alertas de una de las tres formas siguientes:
 
 * Mediante el acceso directo siguiente en Analysis Workspace:
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * En **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alerta nueva]**.
 * Seleccione uno o más elementos de línea de la tabla de forma libre, haga clic con el botón secundario y elija **[!UICONTROL Crear alerta a partir de la selección]**.
-* Desde un informe de [!UICONTROL Reports &amp; Analytics], vaya a **[!UICONTROL Más]** > **[!UICONTROL Agregar alerta]**.
 
 La interfaz del Generador de alertas resulta familiar a quienes hayan creado segmentos o calculado métricas en [!DNL Analytics]:
 
@@ -59,7 +58,7 @@ Establezca la fecha de caducidad de la alerta.
 
 * Arrastre y suelte las métricas en el lienzo para añadir activadores.
 
-   Tenga en cuenta que si alguno de los componentes (métricas, dimensiones o segmentos) de la alerta no es compatible con el grupo de informes seleccionado, aparecerá un mensaje **“componentes no compatibles”**.
+  Tenga en cuenta que si alguno de los componentes (métricas, dimensiones o segmentos) de la alerta no es compatible con el grupo de informes seleccionado, aparecerá un mensaje **“componentes no compatibles”**.
 
 * Determine el umbral que debe superar la métrica para que se establezca la alerta. Puede ajustar este valor a un umbral y, a continuación, a una de las condiciones siguientes:
 

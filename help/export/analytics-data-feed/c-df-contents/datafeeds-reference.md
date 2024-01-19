@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
-workflow-type: ht
-source-wordcount: '3671'
-ht-degree: 100%
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
+source-wordcount: '3897'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`color`** | ID de profundidad de color basada en el valor de la columna `c_color`. Se remite a la tabla de búsqueda `color_depth.tsv`. | smallint sin firmar |
 | **`connection_type`** | ID numérica que representa el tipo de conexión. Variable utilizada en la dimensión [Tipo de conexión](/help/components/dimensions/connection-type.md). Se remite a la tabla de búsqueda `connection_type.tsv`. | tinyint sin firmar |
 | **`cookies`** | Variable utilizada en la dimensión [Compatibilidad con cookies](/help/components/dimensions/cookie-support.md).<br>S: Habilitado<br>N: No habilitado<br>D: Desconocido | char(1) |
-| **`country`** | ID numérica que representa los valores encontrados en la búsqueda de la variable `country.tsv`. Se utiliza en el informe Dominios de nivel superior de Reports &amp; Analytics. | smallint sin firmar |
+| **`country`** | ID numérica que representa los valores encontrados en `country.tsv` búsqueda. | smallint sin firmar |
 | **`ct_connect_type`** | En relación con la columna `connection_type`. Los valores más comunes son LAN/Wi-Fi, Operador de telefonía móvil y Módem. | char(20) |
 | **`curr_factor`** | Determina el lugar decimal de la moneda y se utiliza para la conversión de monedas. Por ejemplo, USD utiliza dos lugares decimales, por lo que el valor de esta columna debe ser 2. | tinyint |
 | **`curr_rate`** | El tipo de cambio vigente cuando se produjo la transacción. Adobe se asocia con XE para determinar el tipo de cambio del día. | decimal(24,12) |
@@ -112,7 +112,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`mcvisid`** | ID de visitante de Experience Cloud. Número de 128 bits que consiste en dos números de 64 bits concatenados aumentados a 19 dígitos. | varchar(255) |
 | **`mobile_id`** | Si el usuario utiliza un dispositivo móvil, es el ID numérico del dispositivo. El valor clave de `mobile_attributes.tsv` [Búsqueda dinámica](dynamic-lookups.md). | int |
 | **`mobileaction`** | Acción móvil. Se recopila automáticamente cuando se llama a `trackAction` en Mobile Services. Permite establecer automáticamente las rutas de acción en la aplicación. | varchar(100) |
-| **`mobileappid`** | ID de la aplicación móvil. Almacena el nombre y la versión de la aplicación en el siguiente formato:  `[AppName] [BundleVersion]` | varchar(255) |
+| **`mobileappid`** | ID de la aplicación móvil. Almacena el nombre y la versión de la aplicación en el siguiente formato: `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | Se utiliza en el conector de datos Apteligent. El ID de la aplicación utilizado en Apteligent. | varchar(255) |
 | **`mobileappperformancecrashid`** | Se utiliza en el conector de datos Apteligent. ID de bloqueo utilizado en Apteligent. | varchar(255) |
 | **`mobileappstoreobjectid`** | Se utiliza en el conector de datos Appfigures. ID de objeto de App Store. | varchar(255) |

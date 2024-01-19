@@ -3,16 +3,16 @@ title: Tiempo empleado por visita (dimensiones)
 description: Cantidad total de tiempo que duró la visita.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 98%
+source-wordcount: '302'
+ht-degree: 91%
 
 ---
 
 # Tiempo empleado por visita
 
-*[En esta página de ayuda se describe el funcionamiento de “Tiempo empleado por visita” como sus dimensiones correspondientes](overview.md). Consulte la métrica [Tiempo empleado por visita](../metrics/time-spent-per-visit.md) para obtener más información.*
+*Esta página de ayuda describe cómo funciona &quot;Tiempo empleado por visita&quot; como sus respectivos [dimensiones](overview.md). Consulte la métrica [Tiempo empleado por visita](../metrics/time-spent-per-visit.md) para obtener más información.*
 
 Las dimensiones “Tiempo empleado por visita” registran la cantidad de tiempo que un visitante ha invertido en toda la visita. Para medir el cálculo se utilizan los pasos siguientes:
 
@@ -39,6 +39,6 @@ Estas dimensiones funcionan de forma predeterminada para todas las implementacio
 Hay varias dimensiones para el tiempo invertido por visita:
 
 * **Tiempo empleado por visita (agrupado)**: La cantidad de tiempo se agrupa. Los elementos de dimensión varían de `"Less than 1 minute"` a `"More than 15 hours"`. Las visitas no suelen durar más de 12 horas; sin embargo, las visitas pueden superar las 12 horas si se utilizan visitas con marca de tiempo o fuentes de datos.
-* **Tiempo empleado por visita (granular)**: Cada número de segundos es un elemento de dimensión único. Esta dimensión no está disponible en Reports &amp; Analytics ni en Data Warehouse.
+* **Tiempo empleado por visita (granular)**: Cada número de segundos es un elemento de dimensión único. Esta dimensión no está disponible en la Data Warehouse.
 
 Consulte [Información general sobre el tiempo empleado](../metrics/time-spent.md) para saber más detalles sobre el tiempo invertido.

@@ -3,9 +3,9 @@ description: Solucione problemas y cuestiones relacionados con segmentos.
 title: Solución de problemas de segmentación
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '220'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,6 @@ Motivos posibles:
 Motivos posibles:
 
 * Algunas dimensiones están disponibles únicamente en el Almacén de datos y no en el Data Warehouse.
-* El segmento no es compatible con Reports &amp; Analytics.
 * El segmento únicamente se comprueba para un grupo de informes específico.
 * Es posible que otro usuario haya eliminado un segmento compartido.
 * Los segmentos no se han podido cargar debido a un problema de caché del navegador o del centro de datos.

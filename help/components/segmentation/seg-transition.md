@@ -3,10 +3,10 @@ description: Preguntas frecuentes sobre la administración de segmentos heredado
 title: Preguntas más frecuentes sobre los segmentos heredados
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 91%
+source-wordcount: '1445'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ Responde preguntas frecuentes sobre las prácticas recomendadas para administrar
 
 Sus segmentos existentes seguirán funcionando como siempre. Todos los informes a los que se hayan aplicado dichos segmentos funcionarán correctamente. [Más...](/help/components/segmentation/seg-transition.md)
 
-La mayoría de los segmentos de grupo y predefinidos antiguos se migrarán como plantillas de segmentos al Generador de segmentos. Las plantillas de segmentos se utilizan para generar rápidamente segmentos personalizados con audiencias comunes. Las plantillas de segmentos no pueden aplicarse a un informe directamente, pero pueden guardarse de manera muy sencilla en un segmento personalizado.
+La mayoría de los anteriores segmentos predefinidos y de grupo se migrarán como plantillas de segmento al Generador de segmentos. Las plantillas de segmentos se utilizan para generar rápidamente segmentos personalizados con audiencias comunes. Las plantillas de segmentos no pueden aplicarse a un informe directamente, pero pueden guardarse de manera muy sencilla en un segmento personalizado.
 
 Las plantillas de segmentos están marcadas con un icono especial en el Generador de segmentos:
 
@@ -44,7 +44,7 @@ Tiene un marcador que hace referencia al segmento para el grupo de informes main
 
 +++ **¿Qué ha pasado con los segmentos de Data Warehouse?**
 
-Todos los segmentos del Data Warehouse seguirán funcionando en el Data Warehouse. La mayoría de los segmentos de Data Warehouse también seguirán funcionando en otros componentes, como Analysis Workspace y Reports &amp; Analytics.
+Todos los segmentos del Data Warehouse seguirán funcionando en el Data Warehouse. La mayoría de los segmentos de Data Warehouse también seguirán funcionando en otros componentes, como Analysis Workspace.
 
 Puede crear o editar segmentos nuevos del Almacén de datos en el Generador/Data Warehouse. El mecanismo de compatibilidad del producto en el Generador de segmentos determina automáticamente si un segmento es compatible con el Data Warehouse.
 
@@ -104,11 +104,11 @@ Ahora que los segmentos funcionan en múltiples grupos de informes, es posible q
 * Revise los segmentos que tiene.
 * Añádalos a la biblioteca de segmentos cuando sea pertinente.
 * Apruebe los segmentos canónicos.
-* Etiquete los segmentos siguiendo las [prácticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Etiquete los segmentos según [prácticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
 
-### Consejos para la migración
+### Sugerencias de migración
 
 Los siguientes consejos le ayudarán a migrar dimensiones comunes:
 

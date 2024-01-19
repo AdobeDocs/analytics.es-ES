@@ -3,10 +3,10 @@ description: El importador permite realizar cargas masivas de datos de clasifica
 title: Archivos de datos de clasificación
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1798'
-ht-degree: 98%
+source-wordcount: '1768'
+ht-degree: 96%
 
 ---
 
@@ -29,16 +29,16 @@ Los archivos de datos deben cumplir las siguientes reglas estructurales:
 * Las clasificaciones no pueden tener un valor de 0 (cero).
 * Adobe recomienda limitar a 30 el número de columnas de importación y exportación.
 * Los archivos actualizados deben usar la codificación de caracteres UTF-8 sin BOM.
-* En una celda se pueden incrustar caracteres especiales, como por ejemplo tabulaciones, líneas nuevas y comillas, siempre que el formato de archivo especificado sea v2.1 y que en la celda se hayan usado convenientemente [secuencias de escape](/help/components/classifications/importer/t-classifications-escape-data.md). Los caracteres especiales incluyen:
+* En una celda se pueden incrustar caracteres especiales, como tabulaciones, líneas nuevas y comillas, siempre que el formato de archivo especificado sea v2.1 y que la celda esté correctamente [escapado](/help/components/classifications/importer/t-classifications-escape-data.md). Los caracteres especiales incluyen:
 
-   ```text
-   \t     tab character 
-   \r     form feed character 
-   \n    newline character 
-   "       double quote
-   ```
+  ```text
+  \t     tab character 
+  \r     form feed character 
+  \n    newline character 
+  "       double quote
+  ```
 
-   La coma no es un carácter especial.
+  La coma no es un carácter especial.
 
 * Las clasificaciones no pueden contener un acento circunflejo (^) porque este carácter se usa para denotar una subclasificación.
 * Utilice los guiones con cuidado. Por ejemplo, si se utiliza un guión (-) en un término de Social, Social interpretará el guión como un operador [!DNL Not] (el signo menos). Por ejemplo, si especifica *`fragrance-free`* como término al usar la importación, Social reconoce el término como sin fragancia *`minus`* y recopila publicaciones que mencionan *`fragrance`* pero no *`free`*.
@@ -94,7 +94,6 @@ Los archivos de datos deben cumplir las siguientes reglas estructurales:
 >
 >* [Problemas comunes de carga de ](https://helpx.adobe.com/es/analytics/kb/common-saint-upload-issues.html)
 
-
 ## Formato del encabezado de las columnas
 
 >[!NOTE]
@@ -109,11 +108,9 @@ Cada valor debe ser único en todo el sistema. El valor de este campo correspond
 
 ### Encabezado de la columna Clasificación
 
-Ejemplo: La implementación de Reports &amp; Analytics incluye automáticamente dos clasificaciones para [!UICONTROL Campaign] variables: [!UICONTROL Campañas] y [!UICONTROL Elementos creativos]. Para añadir datos a la clasificación [!UICONTROL Campañas], el encabezado de la columna del archivo de datos de clasificación sería [!UICONTROL Campañas].
-
 >[!NOTE]
 >
->Los valores del encabezado de la columna [!UICONTROL Clasificaciones] deben coincidir exactamente con la convención de nomenclatura de la clasificación; si no es así, la importación no se realizará correctamente. Por ejemplo, si el administrador cambia [!UICONTROL Campañas] por [!UICONTROL Nombres de campaña internos] en el [!UICONTROL Gestor de configuración de campañas], el encabezado de la columna del archivo debe cambiar también para que coincidan. &quot;Key&quot; es un valor de clasificación reservado (encabezado). No se admiten nuevas clasificaciones denominadas &quot;Clave&quot;.
+>Los valores del encabezado de la columna [!UICONTROL Clasificaciones] deben coincidir exactamente con la convención de nomenclatura de la clasificación; si no es así, la importación no se realizará correctamente. Por ejemplo, si el administrador cambia [!UICONTROL Campañas] hasta [!UICONTROL Nombres de campañas internas] en el [!UICONTROL Administrador de configuración de campañas], el encabezado de la columna del archivo debe cambiar para que coincida. &quot;Key&quot; es un valor de clasificación reservado (encabezado). No se admiten nuevas clasificaciones denominadas &quot;Clave&quot;.
 
 Además, el archivo de datos admite las siguientes convenciones de encabezado adicionales, para identificar subclasificaciones y otras columnas de datos especializados:
 

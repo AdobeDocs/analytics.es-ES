@@ -3,10 +3,10 @@ description: Los segmentos le permiten identificar subconjuntos de visitantes ba
 title: Acerca de los segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 70%
+source-wordcount: '1148'
+ht-degree: 67%
 
 ---
 
@@ -18,7 +18,7 @@ Los segmentos se basan en una variable [!UICONTROL Visitante], [!UICONTROL Visit
 
 Puede generar y guardar segmentos en el Generador de segmentos, o bien crearlos a partir de un informe de visitas en el orden previsto (en  Analysis Workspace). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos pueden utilizarse juntos como [segmentos apilados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
-Segmentos identificar
+Los segmentos identifican
 
 - quiénes son sus visitantes (país, sexo, cafetería),
 - qué dispositivos y servicios utilizan (explorador, motor de búsqueda, dispositivo móvil),
@@ -282,7 +282,7 @@ Los administradores pueden editar cualquier segmento, así como compartir segmen
 
 +++ **¿Puedo ver todos los segmentos de mi compañía?**
 
-Sí, los administradores pueden ver todos los segmentos incluidos en las interfaces de usuario de [!DNL Analysis Workspace] e [!DNL Reports & Analytics].
+Sí, los administradores pueden ver todos los segmentos incluidos en la variable [!DNL Analysis Workspace] interfaz de usuario.
 
 Report Builder muestra los segmentos que le pertenecen y los segmentos que han compartido con usted.
 
@@ -292,7 +292,7 @@ Report Builder muestra los segmentos que le pertenecen y los segmentos que han c
 
 Sí, todos los segmentos se pueden administrar en el Administrador de segmentos. El Administrador de segmentos muestra los segmentos que son visibles para el propietario (el usuario que creó el segmento), para usuarios compartidos y para los administradores. El selector de segmentos muestra los segmentos que son propiedad del usuario y que se comparten con él.
 
-Los administradores pueden ver todos los segmentos incluidos en las interfaces de usuario de Analysis Workspace y [!DNL Reports & Analytics].
+Los administradores pueden ver todos los segmentos incluidos en la interfaz de usuario de Analysis Workspace.
 
 Report Builder solo muestra los segmentos que ha creado usted o los segmentos que se han compartido específicamente con usted.
 

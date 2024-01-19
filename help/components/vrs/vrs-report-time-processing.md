@@ -5,16 +5,16 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 3be3de8c24e48f5ecddd37ff6d3cbcf64bca3209
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 74%
+source-wordcount: '1318'
+ht-degree: 69%
 
 ---
 
 # Procesamiento de tiempo de los informes
 
-[!UICONTROL Procesamiento de tiempo de los informes] es una configuración de grupo de informes virtuales que permite procesar los datos en Analysis Workspace de forma retroactiva y no destructiva.
+[!UICONTROL Procesamiento de tiempo de informes] es una configuración de grupo de informes virtuales que permite procesar los datos en Analysis Workspace de forma retroactiva y no destructiva.
 
 El [!UICONTROL Procesamiento de intervalo de tiempo] solo afecta a los datos en el grupo de informes virtuales y no tiene efecto sobre ningún dato o recopilación de datos en el grupo de informes base. La diferencia entre el [!UICONTROL Procesamiento de intervalo de tiempo] y el procesamiento tradicional de Analytics se entiende mejor con el siguiente diagrama:
 
@@ -24,11 +24,11 @@ Durante el procesamiento de datos de Analytics, los datos fluyen por el canal de
 
 El [!UICONTROL Procesamiento de intervalo de tiempo] es un modo fundamentalmente distinto de procesar datos de Analytics para la creación de informes. En lugar de predeterminar la lógica de procesamiento antes de la recopilación de datos, Analytics ignora el conjunto de datos durante el paso de preprocesamiento y aplica la lógica cada vez que se ejecuta un informe:
 
-![Canalización de procesamiento de tiempo de los informes](assets/google2.jpg)
+![Canalización de procesamiento de tiempo de informes](assets/google2.jpg)
 
-Esta arquitectura de procesamiento ofrece opciones de realización de informes mucho más flexibles. Por ejemplo, puede cambiar el tiempo de espera de visita a cualquier periodo que desee de forma no destructiva, cambios que se reflejan en la persistencia del eVar y los contenedores de segmento durante todo el período de informe. Además, puede crear cualquier número de grupos de informes virtuales, cada uno con distintas opciones de Procesamiento de intervalo de tiempo y basados en el mismo grupo de informes base, sin alterar ninguno de los datos del grupo de informes base.
+Esta arquitectura de procesamiento ofrece opciones de realización de informes mucho más flexibles. Por ejemplo, puede cambiar el tiempo de espera de visita a cualquier periodo que desee de forma no destructiva, cambios que se reflejan en la persistencia de eVar y en los contenedores de segmentos durante el periodo completo del informe. Además, puede crear cualquier número de grupos de informes virtuales, cada uno con distintas opciones de Procesamiento de intervalo de tiempo y basados en el mismo grupo de informes base, sin alterar ninguno de los datos del grupo de informes base.
 
-[!UICONTROL Procesamiento de intervalo de tiempo] también permite a Analytics impedir que las visitas en segundo plano inicien nuevas visitas y permite que la variable [SDK de Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=es) para iniciar una nueva visita cada vez que se active un evento de inicio de aplicación.
+[!UICONTROL Procesamiento de intervalo de tiempo] también permite a Analytics impedir que las visitas en segundo plano comiencen nuevas visitas y permite al [SDK de Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=es) para iniciar una nueva visita cada vez que se active un evento de inicio de aplicación.
 
 ## Opciones de configuración
 
@@ -46,26 +46,26 @@ Este es un vídeo sobre el inicio de una nueva visita con un evento:
 
 ## Limitaciones del Procesamiento de intervalo de tiempo
 
-El Procesamiento de intervalo de tiempo no admite todas las métricas y dimensiones disponibles en la creación de informes tradicional de Analytics. Solo se puede acceder a los grupos de informes virtuales que utilizan Procesamiento de intervalo de tiempo desde Analysis Workspace. No es posible hacerlo desde [!UICONTROL Reports &amp; Analytics], Data Warehouse, Report Builder, Fuentes de datos o la API de informes.
+El Procesamiento de intervalo de tiempo no admite todas las métricas y dimensiones disponibles en la creación de informes tradicional de Analytics. Solo se puede acceder a los grupos de informes virtuales que utilizan Procesamiento de intervalo de tiempo desde Analysis Workspace. No es posible hacerlo desde Data Warehouse, Report Builder, Fuentes de datos o la API de informes.
 
 Además, Procesamiento de intervalo de tiempo solo procesa los datos que se producen dentro del intervalo de fechas del informe (lo que se refiere como “limitación de fechas” más adelante). Esto significa que los valores de eVar establecidos para no caducar nunca para un visitante antes de intervalo de fechas del informe no persisten hasta el periodo del informe y no aparecen en este. También significa que las mediciones de lealtad de los clientes se basan exclusivamente en los datos presentes en el intervalo de fechas del informe, y no en el historial completo anterior a dicho intervalo.
 
 Las siguientes dimensiones y métricas no son compatibles con Procesamiento de intervalo de tiempo:
 
 * **Analytics for Target**
-* **Dimensiones y métricas de Analytics for Advertising Cloud**
+* **Dimensiones/métricas de Analytics para Advertising Cloud**
 * **eVars de contador**
 * [**Días antes de la primera compra**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Días desde la última compra**](/help/components/dimensions/days-since-last-purchase.md)
 * [**Días transcurridos desde la última visita**](/help/components/dimensions/days-since-last-visit.md)
 * **Página de entrada original**
 * **eVars de asignación lineal**
-* **Vars de lista**
+* **Variables de lista**
 * [**Dimensiones de los canales de marketing**](/help/components/dimensions/marketing-channel.md)
 * [**Dominio de referencia original**](/help/components/dimensions/original-referring-domain.md)
 * [**Frecuencia de retorno**](/help/components/dimensions/return-frequency.md)
 * [**Acceso único**](/help/components/metrics/single-access.md)
-* **Fuentes de datos de ID de transacción**
+* **Fuentes de datos del ID de transacción**
 * [**Número de visita**](/help/components/dimensions/visit-number.md)
 
 ## Dimensiones y métricas afectadas
@@ -73,7 +73,7 @@ Las siguientes dimensiones y métricas no son compatibles con Procesamiento de i
 A continuación se ofrece una lista de dimensiones y métricas que pueden verse afectadas por la configuración seleccionada para Procesamiento de intervalo de tiempo:
 
 * Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado, se producirán los siguientes cambios: Consulte [Creación de sesiones según el contexto](vrs-mobile-visit-processing.md) para obtener más información.
-   * [**Devoluciones**](/help/components/metrics/bounces.md) / [**Tasa de devoluciones:**](/help/components/metrics/bounce-rate.md) Las visitas en segundo plano que no van seguidas de una visita en primer plano no se consideran una devolución y no contribuyen a la tasa de salida hacia otro sitio.
+   * [**Devoluciones**](/help/components/metrics/bounces.md) / [**Tasa de devoluciones:**](/help/components/metrics/bounce-rate.md) Las visitas en segundo plano que no van seguidas de una visita en primer plano no se consideran una devolución y no contribuyen a la tasa de devoluciones.
    * [**Tiempo empleado en segundos por visita:**](/help/components/metrics/time-spent-per-visit.md) Solo las visitas que incluyen visitas individuales que se producen en primer plano contribuyen a esta métrica.
    * **Tiempo empleado por visita:** Solo las visitas que incluyen visitas individuales en primer plano contribuyen a esta métrica.
    * [**Métrica de entrada**](/help/components/metrics/entries.md) / [**Métrica de salida:**](/help/components/metrics/exits.md) En esta dimensión solo aparecen las entradas y salidas de visitas con visitas individuales en primer plano.
@@ -81,8 +81,8 @@ A continuación se ofrece una lista de dimensiones y métricas que pueden verse 
    * [**Métrica de visitantes únicos:**](/help/components/metrics/unique-visitors.md) En los visitantes únicos no se incluyen los visitantes que solo tuvieron visitas individuales en segundo plano en el intervalo de fechas del informe.
 * [**Visitas:**](/help/components/metrics/visits.md) Las visitas reflejan cualquier configuración del grupo de informes virtuales, que pueden diferir de las del grupo de informes base.
 * **Eventos serializados con ID de evento:** Los duplicados de los eventos que utilizan la serialización de eventos con un ID de evento solo se eliminan en el caso de los eventos que se producen dentro del intervalo de fechas del informe para un visitante. Los duplicados de estos eventos no se eliminan en todas las fechas o visitantes globalmente debido a la limitación de fechas del Procesamiento de intervalo de tiempo.
-* **Compras** / [**Ingresos**](/help/components/metrics/revenue.md) / [**Pedidos**](/help/components/metrics/orders.md) / [**Unidades:**](/help/components/metrics/units.md) Cuando se utiliza el ID de compra, estas métricas solo se deduplican para los ID de compra duplicados que se producen dentro del intervalo de fechas del informe para un visitante en lugar de en toda la fecha o visitantes globalmente debido a la limitación de fechas del Procesamiento de intervalo de tiempo.
-* [**eVars no relacionadas con la comercialización**](/help/components/dimensions/evar.md) / **eVars reservadas:** Los valores configurados en un eVar persisten solo si el valor se estableció dentro del intervalo de fechas del informe debido a la limitación de fechas del Procesamiento de intervalo de tiempo. Además, las caducidades basadas en la hora pueden producirse 60 minutos antes o después si la persistencia se ve afectada por un cambio de hora.
-* [**eVars de comercialización**](/help/components/dimensions/evar-merchandising.md) / **eVars reservadas:** Véase más arriba. Además, para la conversión de sintaxis, cuando el enlace está establecido en “cualquier evento”, se utiliza “cualquier visita”.
+* **Compras** / [**Ingresos**](/help/components/metrics/revenue.md) / [**Pedidos**](/help/components/metrics/orders.md) / [**Unidades:**](/help/components/metrics/units.md) Cuando se utiliza el ID de compra, la duplicación de estas métricas solo se anula en el caso de los ID de compra duplicados que se producen dentro del intervalo de fechas del sistema de informes para un visitante, y no en cualquier fecha o visitante de forma global, debido a la limitación de fechas del Procesamiento de intervalo de tiempo.
+* [**eVars que no sean de comercialización**](/help/components/dimensions/evar.md) / **eVars reservadas:** Los valores configurados en un eVar persisten únicamente si el valor se configuró dentro del intervalo de fechas del informe debido a la limitación de fechas del Procesamiento de intervalo de tiempo. Además, las caducidades basadas en la hora pueden producirse 60 minutos antes o después si la persistencia se ve afectada por un cambio de hora.
+* [**eVars de comercialización**](/help/components/dimensions/evar-merchandising.md) / **eVars reservadas:** Consulte lo anterior. Además, para la conversión de sintaxis, cuando el enlace está establecido en “cualquier evento”, se utiliza “cualquier visita”.
 * [**Tipo de visita individual:**](/help/components/dimensions/hit-type.md) Esta dimensión especifica si una visita individual es en primer o en segundo plano.
-* **Dimension con (poco tráfico) o &quot;Se excedió la cantidad de valores exclusivos&quot;:** El elemento de línea (poco tráfico) se determina de forma ligeramente diferente al usar Procesamiento de intervalo de tiempo y no se garantiza que coincida con lo que se observa al generar informes en el grupo de informes base. No se garantiza que los elementos de línea del Dimension que no forman parte de Poco tráfico representen el 100% de los datos de ese elemento de línea. Estas diferencias pueden hacerse más pronunciadas cuanto mayor sea el número de valores únicos que existen en una dimensión.
+* **Dimension con (poco tráfico) o &quot;excesos en la cantidad de valores exclusivos&quot;:** El elemento de línea (Poco tráfico) se determina de forma ligeramente diferente al usar Procesamiento de intervalo de tiempo y no se garantiza que coincida con lo que se observa al crear informes en el grupo de informes base. No se garantiza que los elementos de línea del Dimension que no forman parte de Poco tráfico representen el 100 % de los datos de ese elemento de línea. Estas diferencias pueden ser más pronunciadas cuanto mayor sea el número de valores únicos existentes en una dimensión.
