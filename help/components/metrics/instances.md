@@ -3,10 +3,10 @@ title: Instancias
 description: El número de visitas que se configuró una variable (y no persistió).
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 813d209980ad02c412970a698c282c1358921ed6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 57%
+source-wordcount: '263'
+ht-degree: 44%
 
 ---
 
@@ -20,4 +20,9 @@ De todas las visitas individuales de un grupo de informes, solo incluye las visi
 
 Por ejemplo, un visitante llega a su sitio y utiliza la búsqueda interna. Rastrea la búsqueda interna en eVar1. Después de usar la búsqueda interna una vez, visitan cinco páginas más antes de irse.
 
-Si viera un informe en el espacio de trabajo, vería una instancia de eVar1 y seis repeticiones. La instancia única se activó en la página de resultados de búsqueda, mientras que las ocurrencias contaron el valor inicial así como los valores persistentes.
+Si viera un informe en el espacio de trabajo, vería una instancia de eVar1 y seis repeticiones. Una instancia cuenta en la página de resultados de búsqueda, mientras que la métrica ocurrencias cuenta el valor inicial y los valores persistentes posteriores.
+
+## Comparar con métricas similares
+
+* **Instancias frente a [Ocurrencias](occurrences.md)**: Las instancias no incluyen visitas individuales en las que persiste un elemento de dimensión. Las ocurrencias cuentan visitas individuales en las que se ha establecido o mantenido un valor de dimensión.
+* **Instancias frente a [Page views](page-views.md)**: Las instancias incluyen todos los tipos de visitas, incluidas las llamadas de seguimiento de vista de página ([`t()`](/help/implement/vars/functions/t-method.md)), llamadas de seguimiento de vínculos ([`tl()`](/help/implement/vars/functions/tl-method.md)) y datos de resumen [Fuentes de datos](/help/import/data-sources/overview.md). La métrica vistas de página solo incluye llamadas de seguimiento de vista de página, excluidas las llamadas de seguimiento de vínculos y las fuentes de datos de resumen.
