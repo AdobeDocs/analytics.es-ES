@@ -1,11 +1,11 @@
 ---
 title: Asignación de objetos de capa de datos a elementos de datos
 description: Configure las etiquetas para que se lean desde la capa de datos.
-feature: Launch Implementation
+feature: Tags
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '299'
 ht-degree: 94%
 
 ---
@@ -29,8 +29,8 @@ Los [elementos de datos](https://experienceleague.adobe.com/docs/experience-plat
    ![crear elemento de datos](assets/createelement.png)
 
 1. Escriba un nombre para el elemento de datos. Puede ser una etiqueta simple que corresponde a una variable de JavaScript en la capa de datos que desee rastrear.
-1. En el **[!UICONTROL Extensión]** lista desplegable, seleccione **[!UICONTROL Principal]**.
-1. En el **[!UICONTROL Tipo de elemento de datos]** lista desplegable, seleccione **[!UICONTROL Variable JavaScript]**. Aparece un campo de texto a la derecha que le permite introducir la variable JavaScript para asignarla a este elemento de datos.
+1. En el **[!UICONTROL Extensión]** , seleccione la opción **[!UICONTROL Núcleo]**.
+1. En el **[!UICONTROL Tipo de elemento de datos]** , seleccione la opción **[!UICONTROL Variable JavaScript]**. Aparece un campo de texto a la derecha que le permite introducir la variable JavaScript para asignarla a este elemento de datos.
 1. Introduzca la variable de JavaScript que desee, normalmente dentro de la capa de datos. Por ejemplo, si la capa de datos de su organización coincide estrechamente con la práctica recomendada de Adobe, podría ser un valor de `digitalData.page.pageInfo.pageName`. Puede utilizar la consola del explorador para validar la sintaxis y los valores de las variables de JavaScript.
 1. Haga clic en **[!UICONTROL Guardar]**.
 

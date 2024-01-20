@@ -1,12 +1,12 @@
 ---
 title: Creación de una propiedad de Analytics en etiquetas
 description: Cree un espacio para personalizar cómo se recopilan los datos mediante etiquetas.
-feature: Launch Implementation
+feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '500'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ Las etiquetas en Adobe Experience Platform le permiten integrar soluciones de Ex
 
 ## Requisitos previos
 
-[Crear un grupo de informes](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Crear un silo para los datos de Analytics que se van a recopilar..
+[Crear un grupo de informes](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): cree un silo para los datos de Analytics que se van a recopilar.
 
 ## Creación de una propiedad de etiquetas e instalación de extensiones vitales
 
@@ -47,9 +47,9 @@ Los elementos de datos son referencias a partes específicas del sitio para reco
    * Tipo de elemento de datos: Variable JavaScript
    * Nombre de la variable JavaScript: `window.document.title`
 
-      >[!NOTE]
-      >
-      >Este valor sirve como ejemplo para ayudarle a empezar. Si su organización define un valor más adecuado para el nombre de la página, como un valor de capa de datos, puede utilizarlo aquí.
+     >[!NOTE]
+     >
+     >Este valor sirve como ejemplo para ayudarle a empezar. Si su organización define un valor más adecuado para el nombre de la página, como un valor de capa de datos, puede utilizarlo aquí.
    * Se ha seleccionado la opción Borrar texto
    * Duración del almacenamiento: ninguna
 1. Haga clic en **[!UICONTROL Guardar]**.

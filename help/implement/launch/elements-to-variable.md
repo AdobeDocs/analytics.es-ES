@@ -1,11 +1,11 @@
 ---
 title: Asignación de elementos de datos de etiquetas a variables de Analytics
 description: Asigne elementos de datos a variables de Analytics para que pueda utilizarlos como dimensiones en Analysis Workspace.
-feature: Launch Implementation
+feature: Tags
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '433'
 ht-degree: 96%
 
 ---
@@ -42,7 +42,7 @@ Las variables configuradas en las reglas son ideales cuando no desea que se conf
 1. Haga clic en la propiedad de etiquetas deseada.
 1. Haga clic en la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla deseada (o cree una).
 1. Haga clic en el botón [!UICONTROL Añadir] en [!UICONTROL Acciones].
-1. Configure las variables [!UICONTROL Extensión] lista desplegable de Adobe Analytics y [!UICONTROL Tipo de acción] a Establecer variables.
+1. Configure las variables [!UICONTROL Extensión] lista desplegable para Adobe Analytics y la variable [!UICONTROL Tipo de acción] para establecer variables.
 1. Haga clic en el icono del ![elemento de datos](assets/data-element.png) a la derecha de la variable de Analytics deseada. El [documento de diseño de soluciones](../prepare/solution-design.md) de su organización dicta qué variable de Analytics usar.
 1. Seleccione el elemento de datos deseado en la ventana modal. Haga clic en [!UICONTROL Seleccionar].
 1. El nombre del elemento de datos se agrega al campo de texto rodeado de símbolos `%`. Por ejemplo, si le asignara al elemento de datos el nombre &quot;Nombre de página&quot;, vería la cadena `%Page name%` al asignar un elemento de datos a una variable.

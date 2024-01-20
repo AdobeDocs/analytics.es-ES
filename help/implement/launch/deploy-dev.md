@@ -1,11 +1,11 @@
 ---
 title: Implementación de Adobe Analytics en un entorno de desarrollo
 description: Descubra cómo utilizar etiquetas para implementar Adobe Analytics en su entorno de desarrollo.
-feature: Launch Implementation
+feature: Tags
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '587'
 ht-degree: 48%
 
 ---
@@ -24,13 +24,13 @@ Las etiquetas adaptan muchos flujos de trabajo de la organización en la impleme
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas que desee implementar en el sitio.
-3. Haga clic en **[!UICONTROL Hosts]** y haga clic en **[!UICONTROL Agregar host]**.
-4. Asigne un nombre `"Adobe managed"`y seleccione **[!UICONTROL Administrado por Adobe]** en la lista desplegable tipo . Haga clic en Guardar.
-5. Vaya a **[!UICONTROL Entornos]** y haga clic en **[!UICONTROL Agregar entorno]**.
-6. Select **[!UICONTROL Desarrollo]**, asígnele el nombre `"Dev Environment"`y, a continuación, seleccione el host administrado por Adobe en la lista desplegable. Haga clic en **[!UICONTROL Guardar]**.
-7. Aparece una ventana modal que muestra las Instrucciones de instalación web. Volveremos a esta ventana más adelante; click **[!UICONTROL Cerrar]** por ahora.
-8. Haga clic en **[!UICONTROL Agregar entorno]**, seleccione **[!UICONTROL Ensayo]**, asígnele el nombre `"Staging Environment"`y, a continuación, seleccione el host administrado por Adobe. Haga clic en **[!UICONTROL Crear]** y cierre la ventana modal de instrucciones de instalación.
-9. Haga clic en **[!UICONTROL Agregar entorno]** de nuevo, seleccione **[!UICONTROL Producción]**, asígnele el nombre `"Production Environment"`y, a continuación, seleccione el host administrado por Adobe. Haga clic en **[!UICONTROL Crear]** y cierre la ventana modal de instrucciones de instalación.
+3. Clic **[!UICONTROL Hosts]**, luego haga clic en **[!UICONTROL Añadir host]**.
+4. Asígnele un nombre `"Adobe managed"`y seleccione **[!UICONTROL Administrado por Adobe]** en la lista desplegable tipo. Haga clic en Guardar.
+5. Vaya a **[!UICONTROL Entornos]**, luego haga clic en **[!UICONTROL Agregar entorno]**.
+6. Seleccionar **[!UICONTROL Desarrollo]**, asígnele un nombre `"Dev Environment"`, a continuación, seleccione el host gestionado por el Adobe de la lista desplegable. Haga clic en **[!UICONTROL Guardar]**.
+7. Aparece una ventana modal que muestra las instrucciones de instalación web. Volveremos a esta ventana más adelante; haga clic en **[!UICONTROL Cerrar]** por ahora.
+8. Clic **[!UICONTROL Agregar entorno]**, seleccione **[!UICONTROL Ensayo]**, asígnele un nombre `"Staging Environment"`y, a continuación, seleccione el host gestionado por Adobe. Clic **[!UICONTROL Crear]** y, a continuación, cierre la ventana modal de instrucciones de instalación.
+9. Clic **[!UICONTROL Agregar entorno]** de nuevo, seleccione **[!UICONTROL Producción]**, asígnele un nombre `"Production Environment"`y, a continuación, seleccione el host gestionado por Adobe. Clic **[!UICONTROL Crear]** y, a continuación, cierre la ventana modal de instrucciones de instalación.
 
 ## Creación de una biblioteca de desarrollo
 
@@ -38,20 +38,20 @@ A pesar de todos los cambios y configuraciones realizados hasta ahora, no se ha 
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas que desee implementar en el sitio.
-3. Haga clic en el **[!UICONTROL Flujo de publicación]** a continuación, haga clic en **[!UICONTROL Agregar biblioteca]**. Consulte [Información general sobre la publicación](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=es) en la documentación Etiquetas para obtener más información sobre esta página.
-4. Asigne un nombre a la biblioteca `'Initial changes'`y seleccione su entorno de desarrollo.
-5. Haga clic en **[!UICONTROL Agregar todos los recursos modificados]**, que muestra automáticamente Adobe Analytics, servicio de identidad y Core.
+3. Haga clic en **[!UICONTROL Flujo de publicación]** y haga clic en **[!UICONTROL Añadir biblioteca]**. Consulte [Resumen de publicación](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=es) en la documentación de Etiquetas para obtener más información sobre esta página.
+4. Asignar un nombre a la biblioteca `'Initial changes'`y seleccione su entorno de desarrollo.
+5. Clic **[!UICONTROL Añadir todos los recursos modificados]**, que enumera automáticamente Adobe Analytics, servicio de identidad y servicios principales.
 6. Haga clic en **[!UICONTROL Guardar]**.
-7. Vuelva a la pantalla Flujo de trabajo de publicación, haga clic en la lista desplegable junto a la nueva biblioteca y haga clic en **[!UICONTROL Generar para desarrollo]**. Después de unos segundos, el punto amarillo de la biblioteca se vuelve verde, lo que indica que la compilación se realizó correctamente.
-8. Vaya a **[!UICONTROL Entornos]** y, a continuación, haga clic en el icono de instalación a la derecha de su entorno de desarrollo. Esta acción vuelve a abrir la ventana modal Instrucciones de instalación web .
-9. Copie los bloques de código y proporciónelos a los propietarios del sitio web de su organización.
+7. Vuelva a la pantalla Flujo de trabajo de publicación, haga clic en la lista desplegable situada junto a la nueva biblioteca y, a continuación, haga clic en **[!UICONTROL Compilación para desarrollo]**. Después de unos segundos, el punto amarillo de la biblioteca se vuelve verde, lo que indica que la compilación se realizó correctamente.
+8. Vaya a **[!UICONTROL Entornos]** A continuación, haga clic en el icono instalar a la derecha del entorno de desarrollo. Esta acción vuelve a abrir la ventana modal Instrucciones de instalación web.
+9. Copie los bloques de código y envíeselos a los propietarios del sitio web de su organización.
 
 ## Instalación de etiquetas en el entorno de desarrollo del sitio web
 
 Si controla el código de su sitio web, implemente cada bloque de código en su ubicación respectiva:
 
-* La etiqueta principal pertenece a la variable `<head>` en el sitio.
-* Si decide cargar etiquetas sincrónicamente, también debe incluir un segundo bloque de código justo debajo de la etiqueta de cierre `</body>` en el sitio. Puede elegir cargar las etiquetas de biblioteca sincrónicamente alternando la variable **[!UICONTROL Cargar biblioteca asincrónicamente]** en las Instrucciones de instalación web.
+* La etiqueta principal pertenece a `<head>` en el sitio.
+* Si decide cargar las etiquetas sincrónicamente, también debe incluir un segundo bloque de código justo debajo del cierre `</body>` en el sitio. Puede elegir cargar las etiquetas de biblioteca sincrónicamente alternando la opción **[!UICONTROL Cargar biblioteca asincrónicamente]** en las Instrucciones de instalación web.
 
 El código de etiqueta suele colocarse en la plantilla general del sitio. Una página en blanco que solo contenga código de implementación tendría el siguiente aspecto:
 
