@@ -3,10 +3,10 @@ title: referrer
 description: Omisión del referente registrado automáticamente para una visita.
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: a37d6b26c2789211a9ed5602b708ef72768e289c
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 84%
+source-wordcount: '293'
+ht-degree: 80%
 
 ---
 
@@ -18,6 +18,8 @@ La variable `referrer` omite el referente registrado automáticamente en los inf
 
 El referente es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `web.webReferrer.URL`.
 
+El SDK web incluye esta dimensión en cada visita de evento.
+
 ## Referente con la extensión de Adobe Analytics
 
 Puede establecer el referente al configurar la extensión de Analytics (variables globales) o en reglas.
@@ -26,7 +28,7 @@ Puede establecer el referente al configurar la extensión de Analytics (variable
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
-5. Configure las variables [!UICONTROL Extensión] lista desplegable de Adobe Analytics y [!UICONTROL Tipo de acción] a [!UICONTROL Establecer variables].
+5. Configure las variables [!UICONTROL Extensión] lista desplegable para Adobe Analytics y la variable [!UICONTROL Tipo de acción] hasta [!UICONTROL Establecer variables].
 6. Busque la sección [!UICONTROL Referente].
 
 Puede establecer el referente en cualquier valor de cadena, incluidos los elementos de datos.
