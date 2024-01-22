@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: ht
-source-wordcount: '757'
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+workflow-type: tm+mt
+source-wordcount: '749'
 ht-degree: 100%
 
 ---
@@ -138,7 +138,7 @@ ht-degree: 100%
    + [Eventos de página](metrics/page-events.md)
    + [Vistas de páginas](metrics/page-views.md)
    + [Páginas no encontradas](metrics/pages-not-found.md)
-   + [Personas con Experience Cloud ID](metrics/people-with-exp-cloud-id.md)
+   + [Usuarios con Experience Cloud ID](metrics/people-with-exp-cloud-id.md)
    + [Personas](metrics/people.md)
    + [Vistas del producto](metrics/product-views.md)
    + [Recargas](metrics/reloads.md)
@@ -258,7 +258,7 @@ ht-degree: 100%
       + [Flujo de trabajo del generador de reglas de clasificación](classifications/crb/classification-rule-builder.md)
       + [Conjuntos de reglas de clasificación](classifications/crb/classification-rule-set.md)
       + [Reglas de clasificación](classifications/crb/classification-quickstart-rules.md)
-      + [Reglas de clasificación - Definiciones](classifications/crb/classification-rule-definitions.md)
+      + [Definiciones de reglas de clasificación](classifications/crb/classification-rule-definitions.md)
       + [Subclasificaciones y el Generador de reglas](classifications/crb/sub-classification-rule-builder.md)
    + Importador de clasificaciones {#classifications-importer}
       + [Resumen del importador de clasificaciones](classifications/importer/c-working-with-saint.md)
@@ -280,7 +280,6 @@ ht-degree: 100%
    + [Administrador de ubicaciones](/help/components/locations/locations-manager.md)
    + [Cuentas de importación en la nube](/help/components/locations/configure-import-accounts.md)
    + [Ubicaciones de importación en la nube](/help/components/locations/configure-import-locations.md)
-+ [Eventos de calendario](t-calendar-event.md)
 + [Proyectos programados](scheduled-projects-manager.md)
 + [Cola de informes programados](scheduled-reports-admin.md)
 + Informes en tiempo real {#real-time-reporting}

@@ -3,10 +3,10 @@ description: Descripción de los tipos de grupos de informes y comparación de l
 title: Enfoques de los grupos de informes
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 93%
+source-wordcount: '448'
+ht-degree: 89%
 
 ---
 
@@ -44,38 +44,38 @@ El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltip
 >
 >[!DNL Reports & Analytics] es la única herramienta que admite informes de resumen. Reports &amp; Analytics finalizó su vida útil el 17 de enero de 2024.
 
-### Limitaciones de los informes de resumen {#limitations-rollups}
+<!---### Limitations of Rollup Reports {#limitations-rollups}
 
-* Los resúmenes proporcionan datos totales, pero no registran valores individuales en los informes. Por ejemplo, los valores de eVar1 no están incluidos, pero sí su total agregado.
-* La duplicación de datos no se anula si el resumen combina datos de varios grupos de informes.
-* Los resúmenes se ejecutan todos los días a medianoche.
-* Al añadir un grupo de informes a un resumen existente, los datos históricos no se incluyen en el resumen.
-* Todos los grupos de informes secundarios deben contener datos para que el resumen funcione. Si se incluyen nuevos grupos de informes en un resumen, asegúrese de enviar al menos una vista de página a cada uno de esos grupos de informes.
-* Los grupos de informes de resumen pueden incluir un máximo de 40 grupos de informes secundarios.
-* Los grupos de informes de resumen pueden incluir un máximo de 100 eventos.
-* Los datos contenidos en los grupos de informes de resumen no admiten desgloses ni segmentos.
-* El informe de páginas se reemplaza por el informe de sitios más populares, que trata sobre las métricas en el nivel de grupo secundario.
+* Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
+* Data is not deduplicated when the rollup combines data across report suites.
+* Rollups run nightly at midnight.
+* When you add a report suite to an existing rollup, historical data is not included in the rollup.
+* All child report suites must have data in them for a rollup to function. If new report suites are included in a rollup, make sure to send at least one page view to each of those report suites.
+* Rollup report suites can include a maximum of 40 child report suites.
+* Rollup report suites can include a maximum of 100 events.
+* Data contained in rollup report suites does not support breakdowns or segments.
+* The Pages report is replaced with the Most Popular Sites report, which reports on metrics at the child-suite level.
 
-## Comparación de las funciones del grupo de informes globales y del informe de resumen
+## Comparison of Global Report Suite and Rollup Report  Features
 
-**Llamadas secundarias al servidor**: los resúmenes no realizan llamadas adicionales al servidor más allá de lo que recopila un solo grupo de informes. Si su organización utiliza el etiquetado de grupos múltiples, se realizan llamadas secundarias al servidor para cada grupo de informes adicional incluido en una solicitud de imagen.
+**Secondary server calls**: Rollups do not incur any additional server calls beyond what a single report suite collects. If your organization uses multi-suite tagging, secondary server calls are made for each additional report suite included in an image request.
 
 >[!TIP]
 >
->Si solo utiliza un grupo de informes globales con [grupos de informes virtuales](/help/components/vrs/vrs-considerations.md), no se necesitan llamadas secundarias al servidor.
+>If you use only a global report suite with [virtual report suites](/help/components/vrs/vrs-considerations.md), no secondary server calls are needed.
 
-**Cambios de implementación**: los resúmenes no requieren ningún cambio de implementación, mientras que los grupos de informes globales requieren que incluya el ID del grupo de informes global en la implementación.
+**Implementation changes**: Rollups do not require any implementation changes, while global report suites require you to include the global report suite ID in your implementation.
 
-**Duplicación**: a diferencia de los grupos de informes resumidos, los globales anulan la duplicación de visitantes únicos. Por ejemplo, si un usuario visita tres dominios de un mismo propietario el mismo día, los grupos de informes resumidos contabilizarían tres visitantes únicos diarios. Los grupos de informes globales registrarían un único visitante.
+**Duplication**: Global report suites deduplicate unique visitors, while rollups do not. For example, if a user visits three of your domains in the same day, rollups would count three daily unique visitors. Global report suites would record one unique visitor.
 
-**Lapso de tiempo**: los grupos de informes resumidos solo se procesan cada medianoche, mientras que los globales registran datos con latencia estándar.
+**Time frame**: Rollups are only processed at midnight each night, while global report suites report data with standard latency.
 
-**Espectro**: los grupos de informes resumidos no permiten la comunicación entre grupos de informes. Los grupos de informes globales pueden atribuir crédito a variables de conversión entre grupos de informes y ofrecer rutas entre los distintos grupos de informes.
+**Breadth**: Rollups have no way to communicate between report suites. Global report suites can attribute credit to conversion variables between report suites and provide pathing across report suites.
 
-**Datos históricos**: los grupos de informes resumidos pueden acumular datos históricos, mientras que los globales solo registran datos a partir del momento en que se implementan.
+**Historical data**: Rollups can aggregate historical data, while global report suites only report data from the point they were implemented.
 
-**Informes**: los grupos de informes globales ofrecen datos de todas las dimensiones, mientras que los resumidos ofrecen datos acumulados sobre los informes principales.
+**Reports**: Global report suites provide data on all dimensions; rollups provide aggregate data on only high-level reports.
 
-**Productos compatibles**: los resúmenes solo se podían usar en Reports &amp; Analytics. No son compatibles con Analysis Workspace ni con Data Warehouse. Los grupos de informes globales se pueden utilizar en todos los productos.
+**Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**Número de grupos de informes agregados**: los grupos de informes resumidos solo admiten un máximo de 40 grupos de informes secundarios. Los grupos de informes globales se pueden implementar en cualquier dominio o aplicación de su propiedad.
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->

@@ -3,10 +3,10 @@ description: Esta página de ayuda contiene casos de uso recomendados para cada 
 title: ¿Qué herramienta de Adobe Analytics debo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 97%
+source-wordcount: '1151'
+ht-degree: 93%
 
 ---
 
@@ -24,9 +24,11 @@ Este es un vídeo que compara varias herramientas de Adobe Analytics:
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** debe ser la interfaz de usuario de referencia para todas sus necesidades de informe y análisis. Adobe continúa invirtiendo en el lanzamiento de actualizaciones mensuales de este producto. Si hay una tarea que no puede realizar en Analysis Workspace, evalúe las otras interfaces que aparecen a continuación.**
 
+**[Paneles de Adobe Analytics](/help/analyze/mobile-app/home.md)** permite a los usuarios acceder mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
+
 **[Report Builder](/help/analyze/report-builder/home.md)** es un complemento para Microsoft Excel. Le permite generar solicitudes personalizadas a partir de datos de Adobe Analytics, que se pueden insertar en sus hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que Report Builder presenta los datos.
 
-**[Paneles de Adobe Analytics](/help/analyze/mobile-app/home.md)** permite a los usuarios acceder mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
+**[Activity Map](/help/analyze/activity-map/activity-map.md)** es una función de Adobe Analytics que proporciona una representación visual de la participación del usuario en páginas web y aplicaciones móviles. Permite a los especialistas en marketing y a los analistas realizar un seguimiento y analizar las interacciones del usuario, como los clics, los saltos y el comportamiento de desplazamiento.
 
 ## Importación de datos en Adobe Analytics {#import}
 

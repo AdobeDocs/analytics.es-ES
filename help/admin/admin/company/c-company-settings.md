@@ -3,9 +3,9 @@ description: Página de información general para configurar las opciones que se
 title: Resumen de la configuración de la empresa
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+source-git-commit: 09f44ce0b89acf70499e2bcdaa31307028d2fe92
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '62'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,5 @@ La página [!UICONTROL Configuración de la empresa] permite configurar opciones
 + [Informes de Report Builder](report-builder-reports-admin.md)
 + [Inicio de sesión único](single-signon-admin.md)
 + [Acciones pendientes](pending-actions-admin.md)
-+ [Promoción conjunta de marca](co-branding-admin.md)
 + [Ocultar grupos de informes](c-hide-report-suites.md)
 + [Administrador de seguridad](security-manager.md)

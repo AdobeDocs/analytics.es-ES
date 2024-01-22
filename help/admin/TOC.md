@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '633'
 ht-degree: 91%
 
 ---
@@ -46,7 +46,6 @@ ht-degree: 91%
             + Detección de búsqueda de pago {#paid-search-detection}
                + [Resumen de detección de búsqueda de pago](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Configurar la detección de búsqueda pagada](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + [Personalizar menús](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + Reglas de procesamiento {#c-processing-rules}
                + [Resumen de las reglas de procesamiento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
                + Reglas de procesamiento {#c-processing-rules-configuration}
@@ -133,7 +132,6 @@ ht-degree: 91%
       + [Descargar la configuración de grupo de informes](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Nuevo grupo de informes {#c-new-report-suite}
          + [Crear un grupo de informes](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [Crear un grupo de informes resumidos](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
          + [Crear un grupo de grupos de informes](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [Descargar la configuración del grupo de informes](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [Configuración que no se copia desde un grupo de informes de origen](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
@@ -153,8 +151,7 @@ ht-degree: 91%
       + [Servicios Web](admin/company/web-services-admin.md)
       + [Informes de Report Builder](admin/company/report-builder-reports-admin.md)
       + [Inicio de sesión único](admin/company/single-signon-admin.md)
-      + [Promoción conjunta de marca](admin/company/co-branding-admin.md)
-      + [Ocultar grupos de informes](admin/company/c-hide-report-suites.md)
+      + [Ocultamiento de grupos de informes](admin/company/c-hide-report-suites.md)
       + [Administrador de preferencias](admin/company/preferences-manager.md)
       + [Acciones pendientes](admin/company/pending-actions-admin.md)
       + [Niveles de acceso de las funcionalidades](admin/company/feature-access-levels.md)
