@@ -3,10 +3,10 @@ title: Implementar Adobe Analytics mediante la API del servidor de red perimetra
 description: Utilice la API del servidor de red perimetral de Adobe Experience Platform para enviar datos a Adobe Analytics.
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
-source-git-commit: 5a57f4d2d73f16a72fbe8b198b1609a8bffc38b6
+source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 40%
+source-wordcount: '260'
+ht-degree: 33%
 
 ---
 
@@ -34,14 +34,14 @@ Una información general de alto nivel de las tareas de implementación:
 
 <tr>
 <td>2</td>
-<td><b>Configuración de esquemas y conjuntos de datos</b>. Para estandarizar la recopilación de datos para su uso en todas las aplicaciones que aprovechan Adobe Experience Platform, Adobe ha creado el estándar abierto y documentado públicamente, Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es">Información general sobre la IU de esquemas</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=es">Información general sobre la IU del conjunto de datos</a></td>
+<td><b>Configuración de esquemas</b>. Para estandarizar la recopilación de datos para su uso en todas las aplicaciones que aprovechan Adobe Experience Platform, Adobe ha creado el estándar abierto y documentado públicamente, Experience Data Model (XDM).</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es">Resumen de IU de esquemas</a></td>
 </tr>
 
 <tr>
 <td>3</td>
 <td><b>Configurar una secuencia de datos</b>. Un conjunto de datos representa la configuración del lado del servidor al utilizar la API de la API de Adobe Experience Platform Edge Network.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=es">Configurar una secuencia de datos<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es">Configurar una secuencia de datos<a></td> 
 </tr>
 
 <tr>
