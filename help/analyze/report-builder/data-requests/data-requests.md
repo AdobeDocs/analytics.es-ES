@@ -4,10 +4,10 @@ title: 'Solicitudes de datos: Paso 1 del Asistente para solicitudes'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: 244af34b463ea5df55eaca31f3b2df4ada552b5d
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 98%
+source-wordcount: '388'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,9 @@ En el formulario Asistente para solicitudes: Paso 1, se selecciona el grupo y el
 
    Por ejemplo, puede ejecutar un [!UICONTROL Informe de páginas] y, a continuación, aplicar el segmento Primeras visitas.
 
-1. **Tipo de informe**: especifica el informe base que se desea ejecutar en la solicitud de datos. Por cada solicitud se ejecuta un informe, y éste puede tener de una a varias dimensiones y métricas. La métrica y las dimensiones de un tipo de informe se muestran en la interfaz del [!UICONTROL Asistente para solicitudes: Paso 2]. Consulte [Seleccione Tipos de informes](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
+1. **Permitir anulación de lista de publicación**: Las listas de publicación eran una función de Reports &amp; Analytics, que se ha [fin de vida útil](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?).
+
+1. **Tipo de informe**: especifica el informe base que se desea ejecutar en la solicitud de datos. Por cada solicitud se ejecuta un informe, y éste puede tener de una a varias dimensiones y métricas. La métrica y las dimensiones de un tipo de informe se muestran en la interfaz del [!UICONTROL Asistente para solicitudes: Paso 2]. Consulte [Seleccionar tipos de informes](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 
 1. **Intervalos de fechas**: define el lapso de tiempo abarcado por la solicitud. Existen distintos tipos de períodos de tiempo de solicitud como, por ejemplo, preestablecidos, fijos y móviles. El número máximo de períodos es 366. También puede seleccionar un intervalo de fechas especificado por una celda y guardar los intervalos de fechas como plantillas para su uso posterior.  Consulte [Configuración de fechas de informes](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)
 

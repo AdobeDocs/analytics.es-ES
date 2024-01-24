@@ -4,10 +4,10 @@ title: Calendario personalizado
 feature: Report Builder
 role: User, Admin
 exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 244af34b463ea5df55eaca31f3b2df4ada552b5d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 95%
 
 ---
 
@@ -44,7 +44,7 @@ A continuación, se describe cada formato de calendario.
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: enero tiene 4 semanas, febrero tiene 5, marzo tiene 4, y así sucesivamente. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: enero tiene 4 semanas, febrero tiene otras 4, marzo tiene 5, y así sucesivamente. </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>: enero tiene 5 semanas, febrero 5 semanas, marzo 4 semanas y así sucesivamente. </li> 
-    </ul> <p>Nota: Esta opción de calendario es compatible con todas las herramientas de Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, Report Builder y Activity Map). La excepción es Data Warehouse, que no admite calendarios personalizados. </p> </td> 
+    </ul> <p>Nota: Esta opción de calendario es compatible con todas las herramientas de Adobe Analytics: Analysis Workspace, Report Builder y Activity Map. La excepción es Data Warehouse, que no admite calendarios personalizados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
