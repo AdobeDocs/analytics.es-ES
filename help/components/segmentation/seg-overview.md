@@ -3,10 +3,10 @@ description: Los segmentos le permiten identificar subconjuntos de visitantes ba
 title: Acerca de los segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 67%
+ht-degree: 65%
 
 ---
 
@@ -16,7 +16,7 @@ Los segmentos le permiten identificar subconjuntos de visitantes basándose en s
 
 Los segmentos se basan en una variable [!UICONTROL Visitante], [!UICONTROL Visita], y [!UICONTROL Visita] jerarquía de niveles mediante un modelo de contenedor anidado. Los contenedores anidados le permiten definir los atributos y las acciones del visitante basándose en las reglas entre los contenedores y dentro de ellos. Los segmentos de Analytics pueden generarse, aprobarse, compartirse, guardarse y ejecutarse en varios productos y capacidades en [!DNL Adobe Experience Cloud]. Los segmentos pueden generarse a partir de un informe, integrarse en un informe de panel o marcarse como favoritos para acceder rápidamente a ellos.
 
-Puede generar y guardar segmentos en el Generador de segmentos, o bien crearlos a partir de un informe de visitas en el orden previsto (en  Analysis Workspace). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos pueden utilizarse juntos como [segmentos apilados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Puede crear y guardar segmentos en el Generador de segmentos, o bien crearlos a partir de un informe de abandonos (en [!UICONTROL Analysis Workspace]). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos pueden utilizarse juntos como [segmentos apilados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 Los segmentos identifican
 

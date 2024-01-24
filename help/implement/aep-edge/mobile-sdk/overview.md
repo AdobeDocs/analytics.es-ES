@@ -3,7 +3,7 @@ title: Implementar Adobe Analytics mediante el SDK móvil de Adobe Experience Pl
 description: Utilice la extensión del SDK móvil en la recopilación de datos de Adobe Experience Platform para enviar datos a Adobe Analytics.
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
-source-git-commit: 032237734ebd397374c171bfc4504124cea3d8c1
+source-git-commit: ebdf52c4b42e4a443284d285e79e949ac6646078
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 98%
@@ -105,7 +105,7 @@ Una información general de alto nivel de las tareas de implementación:
 
 <tr>
 <td>2</td>
-<td><b>Configurar esquemas</b>. Para estandarizar la recopilación de datos para su uso en todas las aplicaciones que aprovechan Adobe Experience Platform, Adobe ha creado el estándar abierto y documentado públicamente, Experience Data Model (XDM).</td>
+<td><b>Configuración de esquemas</b>. Para estandarizar la recopilación de datos para su uso en todas las aplicaciones que aprovechan Adobe Experience Platform, Adobe ha creado el estándar abierto y documentado públicamente, Experience Data Model (XDM).</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es">Resumen de IU de esquemas</a></td>
 </tr>
 
