@@ -1,19 +1,20 @@
 ---
-description: Para comprobar que el reenvío del lado del servidor esté correctamente habilitado, debe inspeccionar la respuesta HTTP a la solicitud de seguimiento de Analytics. Puede hacerse empleando las herramientas para desarrolladores de un navegador o una herramienta para proxys, como Charles Web Debugger. Las siguientes instrucciones ilustran qué indicadores debe haber presentes para garantizar que el reenvío del lado del servidor esté correctamente habilitado.
+description: Para comprobar que el reenvío del lado del servidor esté correctamente habilitado, debe inspeccionar la respuesta HTTP a la solicitud de seguimiento de Analytics. Estas instrucciones ilustran qué indicadores deben estar presentes para garantizar que el reenvío del lado del servidor esté habilitado correctamente.
 solution: Analytics
 title: Comprobar la implementación del reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 86%
 
 ---
 
 # Comprobar la implementación del reenvío del lado del servidor
 
-Para comprobar que el reenvío del lado del servidor esté correctamente habilitado, debe inspeccionar la respuesta HTTP a la solicitud de seguimiento de Analytics. Puede hacerse empleando las herramientas para desarrolladores de un navegador o una herramienta para proxys, como Charles Web Debugger. Las siguientes instrucciones ilustran qué indicadores debe haber presentes para garantizar que el reenvío del lado del servidor esté correctamente habilitado.
+Para comprobar que el reenvío del lado del servidor esté correctamente habilitado, debe inspeccionar la respuesta HTTP a la solicitud de seguimiento de Analytics. Puede hacerse empleando las herramientas para desarrolladores de un navegador o una herramienta para proxys, como Charles Web Debugger. Las siguientes instrucciones ilustran qué indicadores deben estar presentes para garantizar que el reenvío del lado del servidor esté correctamente habilitado.
 
 Para comprobar el estado del reenvío del lado del servidor:
 
@@ -30,4 +31,3 @@ Para comprobar el estado del reenvío del lado del servidor:
 >[!MORELIKETHIS]
 >
 >* [Charles Web Debugger](https://www.charlesproxy.com/)
-

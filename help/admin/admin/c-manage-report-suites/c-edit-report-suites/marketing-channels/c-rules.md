@@ -3,10 +3,11 @@ title: Reglas de procesamiento de canales de marketing
 description: Las reglas de procesamiento de canales de marketing averiguan si el visitante que entra cumple los criterios asignados a un canal. Las reglas procesan cada visita que realizan los usuarios a su sitio web. Cuando una regla no cumple los criterios de un canal, o si las reglas no están configuradas correctamente, el sistema asigna la visita a No se ha identificado el canal.
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 77%
+source-wordcount: '1884'
+ht-degree: 67%
 
 ---
 
@@ -30,7 +31,7 @@ Notas adicionales sobre el procesamiento:
 
 * Consulte la información conceptual de [Introducción a los Canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Cree uno o más canales para poder asignarles reglas. Consulte [Agregar canales de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
-* Revise las prácticas recomendadas para utilizar [!UICONTROL los canales de marketing] con [!UICONTROL Attribution].
+* Revise las prácticas recomendadas para usar [!UICONTROL Canales de marketing] con [!UICONTROL Atribución].
 
 ## Creación de reglas de procesamiento para los canales de marketing
 
@@ -41,7 +42,7 @@ Cree reglas de procesamiento de canales de marketing que averigüen si la visita
 
    Si no se han definido canales en el grupo de informes, se abre la página [!UICONTROL Canales de marketing: configuración automática].
 
-   Consulte [Ejecución de la configuración automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Consulte [Ejecutar la configuración automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 3. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de marketing]** > **[!UICONTROL Reglas de procesamiento de canal de marketing]**. Si ejecutó la configuración automática, se definió automáticamente un conjunto de canales y reglas.
 
@@ -74,12 +75,12 @@ Esta tabla de referencia define los campos, opciones y atributos de visita que p
 | ID de AMO | El código de seguimiento principal utilizado por las integraciones de Advertising Cloud y Advertising Analytics. Cuando se habilita una de estas integraciones, puede usar el prefijo del código de seguimiento para identificar canales específicos de Advertising Cloud. Utilice “AMO ID” para comenzar con “AL” para la búsqueda, “AC” para la visualización o “AO” para Social. Cuando se utiliza el ID de AMO en los canales de marketing, las métricas de clics, costes e impresiones se pueden atribuir al canal correcto (cuando no se configuran, estas métricas se dirigen a Directas o a Ninguna). |
 | AMO ED ID | Código de seguimiento secundario utilizado por Advertising Cloud. El propósito principal de este código de seguimiento es servir como clave para enviar datos de vuelta a Ad Cloud. Sin embargo, también se puede utilizar para identificar Mostrar clics respecto a Mostrar vistas si desea verlas como dos canales de marketing independientes. Esto se puede hacer configurando que la lógica del canal de marketing para &quot;AMO EF ID&quot; termine en `:d` para las visualizaciones de pulsaciones o &quot;AMO EF ID&quot; termina con `:i` para Mostrar vistas. Si no desea dividir Mostrar en dos canales, utilice la dimensión de ID de AMO en su lugar. |
 | Variables de conversión | Contiene eVars que se han habilitado para este grupo de informes y se aplica solamente cuando las variables se definen mediante el código de Adobe en la página. |
-| Existe | Se ofrecen varias opciones, entre ellas:<ul><li>**No existe**: indica que el atributo de visita no existe en la solicitud. Por ejemplo, en un dominio referente, si el usuario escribe una dirección URL o hace clic en un marcador, el atributo de dominio referente no existe.</li><li>**Está vacío**: indica que existe un atributo de visita que, generalmente, es un parámetro de eVar o de cadena de consulta, pero que no hay ningún valor asociado al atributo de visita.</li><li>**No contiene**: permite especificar, por ejemplo, que un dominio referente no contiene un valor específico (a diferencia de la opción &quot;Contiene&quot;.)</li></ul> |
+| Existe | Se ofrecen varias opciones, entre ellas:<ul><li>**No existe**: indica que el atributo de visita no existe en la solicitud. Por ejemplo, en un dominio referente, si el usuario escribe una dirección URL o hace clic en un marcador, el atributo de dominio referente no existe.</li><li>**Está vacío**: indica que existe un atributo de visita que, generalmente, es un parámetro de eVar o de cadena de consulta, pero que no hay ningún valor asociado al atributo de visita.</li><li>**Does Not Contiene**: le permite especificar, por ejemplo, que un dominio referente no contiene un valor específico (a diferencia de utilizar la selección &quot;Contiene&quot;).</li></ul> |
 | Identificar el canal como | Asocia la regla con un canal de marketing que haya agregado a la página Administrador de canales de marketing. |
 | Concuerda con las reglas de detección de búsqueda paga | Búsqueda paga detectada por Adobe. Las búsquedas pagas se dan cuando las empresas pagan una tarifa al motor de búsqueda para que las incluyan en las listas de su sitio. Por lo general, la búsqueda paga aparece en la parte superior o en el lado derecho de los resultados de búsqueda. |
 | Concuerda con las reglas de detección de búsqueda natural | Búsqueda no paga detectada por los informes de Adobe. |
 | El referente concuerda con los filtros de dirección URL internos | Visita cuya dirección URL de página coincide con un filtro de dirección de URL interno, tal como se define en el grupo de informes de las Herramientas de administración. |
-| El referente no concuerda con los filtros de dirección URL internos | La dirección URL de referencia no coincide con un filtro de dirección de URL interno, tal como se define en el grupo de informes de las Herramientas de administración. Puede utilizar esta configuración con URL de página y Existe para definir una regla de captador global y evitar que las visitas se dirijan a la sección del informe No se ha identificado el canal. |
+| El referente no concuerda con los filtros de dirección URL internos | La dirección URL de referencia no coincide con un filtro de dirección de URL interno, tal como se define en el grupo de informes de las Herramientas de administración. Puede utilizar esta configuración con la URL de la página y Existe para configurar una regla de captador global y evitar que las visitas se dirijan a la sección del informe No se ha identificado el canal. |
 | Hacer caso omiso de visitas que coincidan con los filtros de direcciones de URL internas | (Para los referentes) Realiza un seguimiento, solamente, de las visitas que provienen de sitios de referencia externos. Por lo general, se deja sin activar, salvo que desee incluir el tráfico interno. |
 | Es la primera página de la visita | Primera página de una visita detectada por los informes de Adobe. |
 | Página | La dimensión [Página](/help/components/dimensions/page.md). |
@@ -95,7 +96,7 @@ Esta tabla de referencia define los campos, opciones y atributos de visita que p
 | Dominio raíz de referencia | El dominio raíz del referente. El referente existe fuera del dominio que haya definido. |
 | Motor de búsqueda | Un motor de búsqueda, como Google o Yahoo!, que trajo visitantes al sitio. |
 | Palabras clave de búsqueda | Una palabra que se utiliza para llevar a cabo una búsqueda mediante un motor de búsqueda. |
-| Motor de búsqueda + Palabras clave | Una concatenación de la palabra clave de búsqueda y el motor de búsqueda que identifica de forma exclusiva el motor de búsqueda. Por ejemplo, si busca la palabra ordenador, el motor de búsqueda y la palabra clave se identifican de este modo:  `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Nota:** n = natural; p = de pago |
+| Motor de búsqueda + Palabras clave | Una concatenación de la palabra clave de búsqueda y el motor de búsqueda que identifica de forma exclusiva el motor de búsqueda. Por ejemplo, si busca la palabra ordenador, el motor de búsqueda y la palabra clave se identifican de la siguiente manera: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Nota:** n = natural; p = de pago |
 | Definir el valor del canal en | Establece el [Detalles de canal de marketing](/help/components/dimensions/marketing-detail.md) dimensión. Usted determina qué valor sería el mejor en el contexto de la regla. Algunos ejemplos son el ID del anuncio del banner, la palabra clave de búsqueda o la campaña de correo electrónico. |
 
 ## Orden y definiciones de reglas de canal de marketing {#channel-rules}

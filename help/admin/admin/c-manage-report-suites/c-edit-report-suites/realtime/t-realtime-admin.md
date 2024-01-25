@@ -3,10 +3,10 @@ description: Pasos administrativos para configurar informes en tiempo real.
 title: Configuración de informes en tiempo real
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Pasos administrativos para configurar informes en tiempo real.
 
-Configurar informes en tiempo real en Reports &amp; Analytics consiste en seleccionar el grupo de informes y configurar hasta 3 informes para este.
+Configurar informes en tiempo real en Adobe Analytics consiste en seleccionar el grupo de informes y configurar hasta 3 informes para este.
 
 1. Seleccione el grupo de informes para el que quiere habilitar los informes en tiempo real.
 
@@ -55,6 +55,6 @@ Configurar informes en tiempo real en Reports &amp; Analytics consiste en selecc
 
 1. Haga clic en **[!UICONTROL Guardar]** o en **[!UICONTROL Guardar y ver informe]**.
 
-   Después de esta configuración inicial del informe los datos pueden tardar hasta 20 minutos en ser transferidos. A partir de ese momento los datos estarán disponibles inmediatamente. Para obtener más información sobre la visualización de informes en tiempo real, consulte [Ejecución de un informe en tiempo real](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=es).
+   Después de esta configuración inicial del informe los datos pueden tardar hasta 20 minutos en ser transferidos. A partir de ese momento, los datos estarán disponibles inmediatamente.
 
 1. De manera predeterminada todos los usuarios tienen acceso a los informes en tiempo real.

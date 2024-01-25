@@ -3,10 +3,11 @@ description: Explica las mejoras en el reenvío del lado del servidor que se han
 title: Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 60%
+source-wordcount: '564'
+ht-degree: 55%
 
 ---
 

@@ -4,10 +4,11 @@ solution: Analytics
 title: Resumen del reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 94%
+source-wordcount: '795'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +27,7 @@ El reenvío del lado del servidor mejora la recopilación de datos porque:
 >Los clientes existentes de Audience Manager que utilicen Analytics deberían migrar al reenvío del lado del servidor. Los nuevos clientes de Adobe Analytics y Audience Manager deberían implementar el reenvío del lado del servidor (en lugar de DIL) como método predeterminado de recopilación y transferencia de datos.
 
 >[!IMPORTANT]
->A instancias del reglamento de la UE sobre cumplimiento normativo de las cookies, los controladores de datos (clientes de Analytics) tienen ahora la opción de restringir a Adobe Analytics los datos previos al consentimiento y de impedir que se reenvíen en el lado del servidor a Adobe Audience Manager. Una nueva variable de contexto de implementación le permite marcar las visitas en las que no se recibió consentimiento. Cuando esta variable está establecida, impide que estas visitas se envíen a Adobe Audience Manager hasta que se haya recibido el consentimiento. Para obtener más información, consulte [RGPD_ePrivacy cumplimiento y reenvío del lado del servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
+>A instancias de la normativa sobre cookies de la UE, los controladores de datos (clientes de Analytics) tienen ahora la opción de restringir los datos previos al consentimiento a Adobe Analytics y de evitar que se reenvíen en el lado del servidor a Adobe Audience Manager. Una nueva variable de contexto de implementación le permite marcar las visitas en las que no se recibió consentimiento. Cuando esta variable está establecida, impide que estas visitas se envíen a Adobe Audience Manager hasta que se haya recibido el consentimiento. Para obtener más información, consulte [RGPD_ePrivacy cumplimiento y reenvío del lado del servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
 
 Para comprender la posición de su organización en cuanto a la implementación del reenvío del lado del servidor, siga estos pasos de validación:
 

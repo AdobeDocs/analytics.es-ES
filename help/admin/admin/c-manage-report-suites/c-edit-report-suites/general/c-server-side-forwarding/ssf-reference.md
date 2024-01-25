@@ -3,10 +3,11 @@ description: Una lista exhaustiva con descripciones de las variables de configur
 title: Referencia de datos y código del reenvío del lado del servidor
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '490'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +68,7 @@ Los parámetros prefijados con `c_` identifican variables definidas por el clien
 | `c_linkExitURL` | La dirección URL del vínculo de salida. |
 | `c_list#` | Variables de lista personalizadas. |
 | `c_longitude` | Longitud numérica. |
-| `c_mediaPlayerType` | Para solicitudes de seguimiento de retransmisión de medios. Las opciones incluyen:   otro, primetime |
+| `c_mediaPlayerType` | Para solicitudes de seguimiento de retransmisión de medios. Las opciones incluyen: otro, primetime |
 | `c_pageName` | El nombre de la página (si está configurado). |
 | `c_pageURL` | La dirección de la página en la barra de dirección del explorador. |
 | `c_products` | La cadena de producto (configurada por `s.products`). |

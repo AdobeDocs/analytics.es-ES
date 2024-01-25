@@ -3,16 +3,18 @@ description: Muestra tráfico de páginas web y clasifica las vistas de página 
 title: Informes en tiempo real
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '579'
+ht-degree: 98%
 
 ---
 
 # Informes en tiempo real
 
 Muestra tráfico de páginas web y clasifica las vistas de página en tiempo real. Proporciona datos procesables en los que fundamentar sus decisiones comerciales.
+
+
 
 >[!NOTE]
 >

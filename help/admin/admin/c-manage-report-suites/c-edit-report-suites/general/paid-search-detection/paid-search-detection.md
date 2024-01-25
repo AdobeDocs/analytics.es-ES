@@ -3,7 +3,7 @@ description: La detección de búsqueda de pago diferencia entre búsquedas de p
 title: Detección de búsqueda de pago
 feature: Admin Tools
 exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 [!UICONTROL La detección de búsqueda de pago] diferencia entre búsquedas de pago y naturales en los informes [!UICONTROL Motores de búsqueda] y [!UICONTROL Palabras clave de búsqueda]. Se puede especificar los motores de búsqueda en los que se utilizan publicidades pagadas y definir una cadena de caracteres que se encuentre en la URL de una visita procedente de una publicidad pagada.
 
-## Opciones de configuración {#section_0C2CFA0AF77B47098BE37CB024665D0D}
+## Opciones de configuración {#configuration}
 
 La siguiente tabla describe los campos y las opciones que se utilizan para [configurar la detección de búsqueda de pago](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md).
 

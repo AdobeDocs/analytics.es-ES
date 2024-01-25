@@ -1,12 +1,13 @@
 ---
-description: Opciones de calendario aparte del modelo gregoriano. Las opciones incluyen los modelos de calendario 4-4-5, 4-5-4 y 5-4-4, todos ellos utilizados como estándar en el sector minorista. Además, los informes ofrecen la opción de usar un calendario totalmente personalizable que puede configurar usted mismo.
+description: Opciones de calendario aparte del modelo gregoriano. Las opciones incluyen los modelos de calendario 4-4-5, 4-5-4 y 5-4-4, todos ellos utilizados como estándar en el sector minorista. Los informes también ofrecen un calendario totalmente personalizable que puede configurar usted mismo.
 title: Personalizar calendario
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 97%
 
 ---
 
