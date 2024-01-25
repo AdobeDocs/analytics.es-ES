@@ -3,9 +3,9 @@ description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración del destino de un informe para una solicitud de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 7edee01a5a5399762f10037cf920863af35cc4d7
+source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2188'
 ht-degree: 10%
 
 ---
@@ -22,11 +22,10 @@ Para obtener información sobre cómo empezar a crear una solicitud, así como v
 >
 >* Recomendamos utilizar una cuenta en la nube o un correo electrónico para el destino del informe. Las cuentas heredadas de FTP y SFTP están disponibles, pero no se recomiendan.
 >
->* Las solicitudes de Data Warehouse están asociadas a su cuenta de usuario de Adobe Analytics. De forma predeterminada, otros usuarios no pueden utilizar ni ver las solicitudes configuradas. Puede poner las solicitudes de Data Warehouse a disposición de otros usuarios de su organización activando la variable **Mostrar todos los destinos** alternar, tal como se describe en [Configuración general de solicitudes de Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md).
+>* Cualquier cuenta de nube para la que haya configurado anteriormente [Fuentes de datos](/help/export/analytics-data-feed/create-feed.md) o para [importación de datos de clasificación de Adobe Analytics](/help/components/locations/locations-manager.md) están disponibles para su uso en la Data Warehouse. Sin embargo, no se puede utilizar ninguna ubicación configurada para importar datos de clasificación.
 >
->* Cualquier cuenta de la nube que haya creado anteriormente [configurado para fuentes de datos](/help/export/analytics-data-feed/create-feed.md) están disponibles para su uso en la Data Warehouse.
+>* Las cuentas de nube de están asociadas a su cuenta de usuario de Adobe Analytics. Otros usuarios no pueden usar ni ver las cuentas de nube que configure.
 >
->* Cuentas en la nube configuradas para [importación de datos de clasificación de Adobe Analytics](/help/components/locations/locations-manager.md) desde un destino en la nube se puede utilizar al configurar un destino de informe. Sin embargo, no se puede utilizar ninguna ubicación configurada para importar datos de clasificación.
 
 Para configurar el destino al que se envían los informes de Data Warehouse:
 
