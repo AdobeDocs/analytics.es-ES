@@ -3,10 +3,10 @@ description: Explica cómo migrar componentes y proyectos de Adobe Analytics a C
 title: Migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 31487111111575e267306d5f68eede23276e79a8
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 3%
+source-wordcount: '1389'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Antes de migrar proyectos a Customer Journey Analytics, obtenga más informació
 >
 >Antes de migrar proyectos a Customer Journey Analytics como se describe en esta sección, obtenga más información sobre la migración de proyectos en la [Preparación para migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 >
->Las dimensiones o métricas que asigne son permanentes, tanto para este proyecto como para todos los proyectos futuros que se migren en toda la organización. Las asignaciones que realice no se podrán modificar una vez completada la migración.
+>Cualquier dimensión o métrica que asigne es permanente, tanto para este proyecto como para todos los proyectos futuros que se migren en toda la organización de IMS. Las asignaciones que realice no se podrán modificar una vez completada la migración.
 
 1. En Adobe Analytics, seleccione la pestaña [!UICONTROL **Administración**] y, a continuación, seleccione [!UICONTROL **Todos los administradores**].
 
@@ -58,7 +58,7 @@ Antes de migrar proyectos a Customer Journey Analytics, obtenga más informació
 
 1. En el [!UICONTROL **Propietario del proyecto**] , empiece a escribir el nombre del usuario que desea establecer como propietario del proyecto en Customer Journey Analytics y, a continuación, seleccione su nombre en el menú desplegable.
 
-   El propietario que especifique tiene plenos derechos de gestión sobre el proyecto.
+   El propietario que especifique tendrá derechos de administración completos del proyecto.
 
 1. En el [!UICONTROL **Esquema de asignación para grupos de informes**] , seleccione un grupo de informes.
 

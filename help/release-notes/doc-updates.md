@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '4994'
-ht-degree: 96%
+source-wordcount: '5047'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Enero de 2024** | |
+| La migración de componentes se aplica a organizaciones IMS individuales | Aclaró que [migración de componentes](/help/admin/admin/component-migration/component-migration.md) no admite la migración de organización entre IMS. |
+| Se ha aclarado que cierta información solo está disponible para administradores | Se ha agregado información para indicar que las columnas &quot;Último uso&quot; y &quot;Utilizado en&quot; que se describen en [Administrador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) y [Administrador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md) solo están disponibles para los administradores del sistema. |
 | Actualizaciones en la documentación de audiencia media por minuto de medios | Información actualizada en [Panel de audiencia media por minuto de medios](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) para mejorar la claridad.<p>Las mejoras incluyen:</p> <ul><li>Mejor organización de la información</li><li>Se han añadido pasos para indicar información basada en tareas</li></ul> |
 
 ### 2023 {#23}
