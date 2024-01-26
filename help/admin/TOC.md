@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '631'
 ht-degree: 91%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 91%
             + [Configuración de informes en tiempo real](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Métricas y dimensiones en tiempo real compatibles](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
       + [Administrar grupos de informes](admin/c-manage-report-suites/report-suites-admin.md)
-      + [Grupos de informes globales y de resumen](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [Grupos de informes globales](admin/c-manage-report-suites/rollup-report-suite.md)
       + [Guardar una búsqueda de grupos de informes](admin/c-manage-report-suites/t-report-suite-saved-search.md)
       + [Descargar la configuración de grupo de informes](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Nuevo grupo de informes {#c-new-report-suite}

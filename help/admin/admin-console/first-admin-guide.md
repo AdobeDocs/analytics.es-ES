@@ -3,10 +3,11 @@ title: Guía de administración inicial de Adobe Analytics
 description: Descubra cómo se lleva a cabo el primer proceso de aprovisionamiento de administración y los pasos siguientes
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 45%
+ht-degree: 43%
 
 ---
 
@@ -18,7 +19,7 @@ Un primer administrador es el punto de partida para permitir que el resto de la 
 
 ## Proceso de aprovisionamiento para un primer administrador
 
-Después de firmar un contrato:
+Una vez firmado el contrato:
 
 1. El equipo de aprovisionamiento de Adobe se prepara para la creación de la cuenta.
 

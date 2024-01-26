@@ -2,10 +2,12 @@
 description: Obtenga más información sobre cómo utilizar el Administrador de actividades de creación de informes para diagnosticar y corregir problemas de capacidad durante las horas de mayor actividad en la creación de informes.
 title: Cancelar solicitudes de creación de informes en el Administrador de actividades de creación de informes
 feature: Admin Tools
-source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 15%
+source-wordcount: '1439'
+ht-degree: 13%
 
 ---
 
@@ -51,7 +53,7 @@ Puede cancelar solicitudes individuales que consuman una gran cantidad de capaci
 
    1. Active la opción para lo siguiente [!UICONTROL **Restringir solicitudes posteriores**]
 
-      ![Restringir las solicitudes posteriores](assets/restrict-subsequent-requests.png)
+      ![Restringir solicitudes posteriores](assets/restrict-subsequent-requests.png)
 
    1. Elija entre las siguientes opciones:
 
@@ -139,7 +141,7 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más proyect
 
       | Opción | Función |
       |---------|----------|
-      | [!UICONTROL **Usuario y proyecto**] | Los proyectos seleccionados quedarán temporalmente excluidos de cualquier solicitud de información realizada por los usuarios asociados. |
+      | [!UICONTROL **Usuario y proyecto**] | Los proyectos seleccionados quedarán temporalmente excluidos de cualquier solicitud de creación de informes realizada por los usuarios asociados. |
       | [!UICONTROL **Usuario**] | Se restringirá a los usuarios asociados a los proyectos seleccionados la posibilidad de solicitar la creación de informes. |
       | [!UICONTROL **Proyecto**] | Los proyectos seleccionados se restringirán temporalmente de cualquier solicitud de creación de informes realizada por cualquier usuario. |
       | [!UICONTROL **Restringido para**] | Elija cuánto tiempo se restringirán las solicitudes. Puede elegir 1 minuto (predeterminado), 5 minutos, 10 minutos, 15 minutos o 30 minutos. <!--double-check this--> <p>Una restricción no se puede eliminar antes de que se haya establecido.</p> |

@@ -3,10 +3,11 @@ description: Las API de servicios web proporcionan acceso mediante programación
 title: Servicios Web
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 45fbd7f7502abe4b579135d100c7e3618546c0f5
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 80%
+source-wordcount: '292'
+ht-degree: 75%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 80%
 
 Las API de servicios web proporcionan acceso mediante programación a los informes de marketing y a otros servicios de Suite que permiten duplicar y aumentar la funcionalidad disponible a través de la interfaz de Analytics.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Configuración de la empresa]** > **[!UICONTROL Servicios web]** o **[!UICONTROL Acceso a API]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración de empresa]** > **[!UICONTROL Servicios web]** o **[!UICONTROL Acceso a API]**
 
 
 ## API de Analytics 2.0

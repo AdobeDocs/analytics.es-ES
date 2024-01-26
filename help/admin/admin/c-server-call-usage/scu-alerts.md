@@ -3,18 +3,17 @@ description: Añada o administre alertas de uso de llamadas al servidor. Al conf
 title: Alertas sobre el uso de llamadas al servidor
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '521'
+ht-degree: 96%
 
 ---
 
 # Alertas sobre el uso de llamadas al servidor
 
 Al configurar una alerta, se aplica a todos los grupos de informes en todas las empresas de inicio de sesión de una empresa de facturación.
-
-## Información general
 
 Se añade una nueva categoría de alertas denominada **[!UICONTROL Alerta de uso de llamadas al servidor]** a la interfaz de usuario de [Administración de alertas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=es).
 
@@ -31,7 +30,7 @@ Puede acceder a las alertas de uso de llamadas al servidor de dos formas:
 * Haga clic en **[!UICONTROL Administrar alertas]** en la esquina superior derecha de la ficha Uso actual en la pestaña de uso de Grupo de informes o
 * Vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** en Adobe Analytics.
 
-## Crear alertas de uso de llamadas al servidor {#section_2A2882C6D48D47C1944D52FB7C766BEC}
+## Crear alertas de uso de llamadas al servidor {#create}
 
 Para crear alertas adicionales,
 
@@ -53,11 +52,11 @@ Para crear alertas adicionales,
 Añada el tipo de llamadas al servidor como métrica y especifique el umbral de alertas seleccionando el modificador y el umbral:
          * mayor o igual que
          * menor o igual que
-      * con Especifique el umbral y la condición (mayor o igual que, menor o igual que) para el Periodo de uso empleado.
+      * Con Especifique el umbral y la condición (mayor o igual que, menor o igual que) para el Periodo de uso empleado.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-## Administrar alertas de uso de llamadas al servidor {#section_8FF98170763C4B5CBEC6DD43F893177A}
+## Administrar alertas de uso de llamadas al servidor {#manage}
 
 ![](/help/admin/admin/c-server-call-usage/assets/alert_mgmt.png)
 
@@ -74,5 +73,7 @@ Para administrar alertas:
    | Cambiar nombre | Puede cambiar el nombre de todas las alertas excepto el de las predeterminadas. |
    | Aprobar | Apruebe alertas para hacerlas “oficiales”. |
    | Habilitar/Deshabilitar | Puede habilitar o deshabilitar todas las alertas, incluso las predeterminadas. |
-   | Renovar | Es posible renovar una o más alertas seleccionándolas. Esto hace que su fecha de caducidad pase a ser 1 año desde el día en que se hace clic en [!UICONTROL Renovar], fuera cual fuera la fecha de caducidad original. |
+   | Renovar | Cuando se seleccionan una o varias alertas, estas se pueden renovar. Esto retrasa las fechas de caducidad y las amplía a 1 año a partir del momento en que se hace clic en [!UICONTROL Renovar] sin tener en cuenta la fecha de caducidad original. |
    | Exportar a CSV | Consulte [Descargar informe de uso](/help/admin/admin/c-server-call-usage/report-suite-usage.md) |
+
+   {style="table-layout:auto"}

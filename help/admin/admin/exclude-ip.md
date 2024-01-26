@@ -3,10 +3,11 @@ title: Excluir por dirección IP
 description: Impida que los datos generados por ciertas direcciones IP aparezcan en los informes.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 95%
+source-wordcount: '219'
+ht-degree: 94%
 
 ---
 

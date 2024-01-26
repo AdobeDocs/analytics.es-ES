@@ -3,12 +3,14 @@ description: La función Fuentes de datos permite importar datos a Analytics des
 title: Fuentes de datos para administradores
 feature: Admin Tools
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 98%
+source-wordcount: '161'
+ht-degree: 97%
 
 ---
+
 
 # Fuentes de datos
 

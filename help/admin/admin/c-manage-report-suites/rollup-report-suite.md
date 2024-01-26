@@ -1,22 +1,17 @@
 ---
-description: Descripción de los tipos de grupos de informes y comparación de los grupos de informes globales y los grupos de informes resumidos.
-title: Enfoques de los grupos de informes
+description: Descripciones de los grupos de informes globales
+title: Grupos de informes globales
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 89%
+source-wordcount: '404'
+ht-degree: 90%
 
 ---
 
-# Enfoques de los grupos de informes
-
-<!-- change filename since page name changed? -->
-
-Puede configurar los grupos de informes como *grupos de informes globales* o *grupos de informes resumidos*.
-
-## Grupos de informes globales
+# Grupos de informes globales
 
 Un grupo de informes globales recopila datos de todos los dominios y las aplicaciones que posee su organización. Requiere implementación para enviar todas las solicitudes de imagen a un único grupo de informes.
 
@@ -38,13 +33,13 @@ Puede proporcionar subconjuntos de los datos del grupo de informes globales de s
 
 El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltiples suele ser una práctica recomendada, pero los grupos de informes virtuales tienen algunas limitaciones. Consulte [Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples](/help/components/vrs/vrs-considerations.md) para determinar qué enfoque de grupo de informes es la mejor opción para sus necesidades comerciales. Para obtener una comparación detallada de los grupos de informes virtuales y la funcionalidad de etiquetado de grupos múltiples, consulte &quot;[Grupos de informes virtuales frente al etiquetado de grupos múltiples](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
 
-## Informes de resumen
+<!---## Rollup reports
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] es la única herramienta que admite informes de resumen. Reports &amp; Analytics finalizó su vida útil el 17 de enero de 2024.
+>[!DNL Reports & Analytics] is the only tool that supported rollup reports. Reports & Analytics was end-of-lifed on January 17, 2024.
 
-<!---### Limitations of Rollup Reports {#limitations-rollups}
+Limitations of Rollup Reports {#limitations-rollups}
 
 * Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
 * Data is not deduplicated when the rollup combines data across report suites.

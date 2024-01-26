@@ -3,16 +3,15 @@ description: Información general sobre la funcionalidad de uso de llamadas al s
 title: Información general sobre Uso de llamadas al servidor
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1039'
 ht-degree: 100%
 
 ---
 
-# Información general sobre Uso de llamadas al servidor
-
-## ¿Por qué el control y las alertas de Uso de llamadas al servidor?  {#section_060C29BF1D00444B85892AD1FCF55290}
+# Uso de llamadas al servidor
 
 Uso de llamadas al servidor de Adobe Analytics trata sus solicitudes de transparencia tanto en los datos de uso de llamadas al explorador como al servidor móvil. Permite acceder a:
 
@@ -31,7 +30,7 @@ Anteriormente, aunque podía acceder a los datos mensuales de consumo de llamada
 * **Permisos:** Para acceder al tablero de Uso de llamadas al servidor y al Generador/Administrador de alertas, debe ser administrador de Adobe Analytics.
 * **Permisos:** Los administradores pueden conceder acceso a los no administradores. El permiso se llama **[!UICONTROL Uso de llamadas al servidor]**. Consulte [Permiso de Uso de llamadas al servidor](/help/admin/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
-## Terminología importante {#section_CBA348A039F34563B097CD8890AB358D}
+## Terminología importante {#terminology}
 
 Este es un breve manual sobre terminología esencial para Uso de llamadas al servidor:
 
@@ -80,7 +79,7 @@ Este es un breve manual sobre terminología esencial para Uso de llamadas al ser
  </tbody> 
 </table>
 
-## Permiso de Uso de llamadas al servidor {#section_FCC58EB635954A32990D4E67B52B4369}
+## Permiso de Uso de llamadas al servidor {#permission}
 
 El permiso de Uso de llamadas al servidor se concede, de forma automática, a los administradores de Analytics. Permite a los usuarios ver el tablero y crear alertas de llamadas al servidor. Los administradores pueden elegir conceder este permiso a los no administradores.
 

@@ -3,10 +3,11 @@ description: La ficha Uso del grupo de informes proporciona datos sobre el uso d
 title: Ver uso del grupo de informes
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 99%
 
 ---
 
@@ -30,6 +31,8 @@ El tablero de Uso del grupo de informes:
 
 ![](/help/admin/admin/c-server-call-usage/assets/report-suite-usage.png)
 
+## Configuración del panel {#settings}
+
 | Columna | Definición |
 |--- |--- |
 | Nombre del grupo de informes | Nombre descriptivo del grupo de informes. |
@@ -39,8 +42,9 @@ El tablero de Uso del grupo de informes:
 | Primarias móviles (%) | Todas las llamadas al servidor primarias móviles (y su porcentaje del total) en las que se ha incurrido en el periodo de uso actual. |
 | Secundarias móviles (%) | Todas las llamadas al servidor secundarias móviles (y su porcentaje del total) en las que se ha incurrido en el periodo de uso actual. |
 
+{style="table-layout:auto"}
 
-## Descargar informe de uso {#section_D7345660B5E043CD8850954216509A3D}
+## Descargar informe de uso {#download}
 
 Esta opción permite descargar los datos de uso actual y datos de periodos anteriores al periodo de uso actual (hasta enero de 2015). El informe se descarga como archivo .csv.
 
@@ -55,6 +59,8 @@ Esta opción permite descargar los datos de uso actual y datos de periodos anter
 | Grupos de informes incluidos | Cualquier grupo de informes que seleccione en la página Uso del servidor de informes se incluye en esta lista. |
 | Tipos de llamada incluidos | Especifique cualquier combinación de estas: Todas las llamadas (predeterminado), Primarias, Secundarias, Primarias móviles, Secundarias móviles. |
 | Intervalo de tiempo | Puede elegir el periodo de uso actual o especificar un intervalo personalizado.  Para un intervalo personalizado, especifique el comienzo del intervalo y el final del intervalo. <br>**Nota:** Recuerde que no puede descargar datos de uso anteriores a enero de 2015 </br>. |
+
+{style="table-layout:auto"}
 
 1. Haga clic en **[!UICONTROL Descargar]**.
 

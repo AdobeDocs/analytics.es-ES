@@ -3,10 +3,11 @@ title: Guía de administración de Analytics
 description: Ayuda de administración para administradores de Adobe Analytics, incluida la administración de usuarios y productos en Admin Console, la configuración de grupos de informes, variables, clasificaciones y recopilación de datos.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 100%
+source-wordcount: '307'
+ht-degree: 91%
 
 ---
 
@@ -34,7 +35,7 @@ Esta guía no cubre muchas de las capacidades genéricas que ofrece Adobe Admin 
 
 ## Artículos clave
 
-* [Guía introductoria para administradores de Analytics](admin-console/first-admin-guide.md): Si su empresa es nueva en Adobe Analytics, siga esta guía para comenzar a sacar el máximo partido a Adobe Analytics.
+* [Guía inicial de administración de Analytics](admin-console/first-admin-guide.md): Si su organización es nueva en Adobe Analytics, siga esta guía para comenzar a sacar el máximo partido a Adobe Analytics.
 * [Administrador de grupos de informes](admin/c-manage-report-suites/report-suites-admin.md): La herramienta de administración más utilizada en Analytics. El Administrador de grupos de informes contiene opciones para la administración de variables, administración de clasificación, zonas horarias y mucho más.
 
 ## Más guías del usuario de Analytics
