@@ -3,10 +3,10 @@ description: Pasos administrativos para configurar informes en tiempo real.
 title: Configuración de informes en tiempo real
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
+source-git-commit: f1dde3a475fe1276fd9abbe1bdafd6723701f2cb
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 86%
+source-wordcount: '219'
+ht-degree: 77%
 
 ---
 
@@ -18,19 +18,10 @@ Configurar informes en tiempo real en Adobe Analytics consiste en seleccionar el
 
 1. Seleccione el grupo de informes para el que quiere habilitar los informes en tiempo real.
 
-   Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Informes]** > **[!UICONTROL Ver todos los informes > Métricas del sitio]** > **[!UICONTROL Tiempo real]** y seleccione el grupo de informes en la lista desplegable de la parte superior:
+   Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración > Grupos de informes]**.
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+1. Clic **[!UICONTROL Editar configuración]** > **[!UICONTROL Tiempo real]**.
 
-   Si trata de ver informes en tiempo real de un grupo de informes que no se haya configurado para este tipo de informes, aparecerá un mensaje que le permitirá configurarlo.
-
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
-
-1. Haga clic en **[!UICONTROL Configurar]** (icono del engranaje) para ejecutar el [!UICONTROL Administrador del grupo de informes].
-
-   (También disponible en **[!UICONTROL Analytics]** > **[!UICONTROL Administración > Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Tiempo real]**).
-
-1. Active la configuración **[!UICONTROL Activar Tiempo real]**.
 1. Configure la recopilación de datos en tiempo real para hasta tres informes, con una métrica y tres dimensiones o clasificaciones por informe.
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
