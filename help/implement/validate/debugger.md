@@ -3,9 +3,10 @@ title: Adobe Experience Cloud Debugger antiguo
 description: Instale una versión anterior de Adobe Experience Cloud Debugger. Este depurador inspecciona las etiquetas de recopilación de datos y de Analytics, Target, Advertising Cloud e Identity Service.
 feature: Validation
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '678'
 ht-degree: 100%
 
 ---

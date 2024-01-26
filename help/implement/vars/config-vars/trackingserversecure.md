@@ -3,10 +3,11 @@ title: trackingServerSecure
 description: Determinar la ubicación a la que se envían las solicitudes de imagen en páginas HTTPS.
 feature: Variables
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 68%
+source-wordcount: '431'
+ht-degree: 66%
 
 ---
 
@@ -54,7 +55,7 @@ alloy("configure", {
 
 Si este campo se deja en blanco, el valor predeterminado es el valor en la variable [`trackingServer`](trackingserver.md).
 
-## s.trackingServerSecure en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.trackingServerSecure en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.trackingServerSecure` es una cadena que contiene la ubicación para enviar solicitudes de imagen. Es casi siempre un subdominio del sitio. Las prácticas de privacidad modernas en los navegadores suelen hacer que las cookies de terceros no sean fiables. Si esta variable está en blanco, utiliza el valor en la variable `s.trackingServer`.
 

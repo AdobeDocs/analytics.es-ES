@@ -3,10 +3,11 @@ title: Implementar Adobe Analytics con AppMeasurement para JavaScript
 description: Obtenga información sobre cómo implementar Adobe Analytics mediante JavaScript sin un sistema de administración de etiquetas.
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 56%
+ht-degree: 42%
 
 ---
 
@@ -25,7 +26,7 @@ Una información general de alto nivel de las tareas de implementación:
 </tr>
 
 <tr>
-<td>1</td><td>Asegúrese de haber <b>definido un grupo de informes</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
+<td>1</td><td>Asegúrese de que tiene <b>definición de un grupo de informes</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
 </tr>
 
 <tr>
@@ -46,7 +47,7 @@ Una información general de alto nivel de las tareas de implementación:
 </tr>
 
 <tr>
-<td>4</td><td><b>Defina las variables de configuración de <code>AppMeasurement.js</code></b>. Cuando se crea una instancia del objeto de Analytics, estas variables garantizan que la configuración de recopilación de datos sea correcta.
+<td>4</td><td><b>Defina las variables de configuración dentro de <code>AppMeasurement.js</code></b>. Cuando se crea una instancia del objeto de Analytics, estas variables garantizan que la configuración de recopilación de datos sea correcta.
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -61,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>Defina las variables de nivel de página dentro del código de página del sitio</b>. Estas variables determinan la dimensión y las métricas específicas que se envían a Adobe.
+<td>5</td><td><b>Defina las variables de nivel de página dentro del código de página del sitio</b>. Estas variables determinan la dimensión y las métricas específicas que se envían al Adobe.
 
 ```js
 s.pageName = "Example page";

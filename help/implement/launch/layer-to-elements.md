@@ -3,7 +3,8 @@ title: Asignación de objetos de capa de datos a elementos de datos
 description: Configure las etiquetas para que se lean desde la capa de datos.
 feature: Tags
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 94%

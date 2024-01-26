@@ -3,9 +3,10 @@ title: s_objectID
 description: Ayude a Activity Map a identificar vínculos únicos en el sitio.
 feature: Variables
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '404'
 ht-degree: 95%
 
 ---
@@ -20,7 +21,7 @@ Si la precisión de Activity Map es crucial para su empresa, Adobe recomienda in
 
 No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s_objectID en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s_objectID en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s_objectID` es una variable global, lo que significa que opera independientemente del objeto de seguimiento de Analytics (`s` de forma predeterminada). Los valores válidos para esta variable pueden ser cualquier cadena de hasta 100 bytes de longitud. Si no se define esta variable, Activity Map utiliza la dirección URL del vínculo como identificador para este.
 

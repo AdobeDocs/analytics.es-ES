@@ -3,9 +3,10 @@ title: Numbers Suite
 description: Produzca y manipule números para utilizarlos en otras variables de JavaScript.
 feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '618'
 ht-degree: 89%
 
 ---
@@ -20,9 +21,9 @@ Numbers Suite contiene una serie de funciones de JavaScript. Incluye los siguien
 * **`randomNumber`**: Genera un número aleatorio con un número específico de dígitos. Este complemento resulta útil si implementa etiquetas de terceros y desea un número aleatorio que elimine la caché.
 * **`twoDecimals`**: Redondea un número hasta la centésima más cercana. Este complemento es útil para fines monetarios, ya que le permite redondear un número a un valor de moneda válido.
 
-## Instalación del complemento con la extensión SDK web o SDK web
+## Instalación del complemento con el SDK web o la extensión del SDK web
 
-Este complemento aún no se puede usar en el SDK web.
+Este complemento aún no es compatible con el SDK web.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 
@@ -42,7 +43,7 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 ## Instalación del complemento con el editor de código personalizado de 
 
-Si no desea utilizar la extensión de complemento de Analytics comunes, puede utilizar el editor de código personalizado.
+Si no desea utilizar la extensión de complemento Common Analytics Plugins, puede utilizar el editor de código personalizado.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.

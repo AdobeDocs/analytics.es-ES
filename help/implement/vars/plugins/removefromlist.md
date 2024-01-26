@@ -3,9 +3,10 @@ title: rfl
 description: Elimine un valor específico de una cadena delimitada por caracteres.
 feature: Variables
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1033'
 ht-degree: 93%
 
 ---
@@ -21,9 +22,9 @@ El complemento utiliza la lógica siguiente:
 * Si el valor que desea eliminar existe, el complemento guarda todo en la variable excepto el valor que se va a eliminar.
 * Si el valor que desea eliminar no existe, el complemento mantiene la cadena original tal cual.
 
-## Instalación del complemento con la extensión SDK web o SDK web
+## Instalación del complemento con el SDK web o la extensión del SDK web
 
-Este complemento aún no se puede usar en el SDK web.
+Este complemento aún no es compatible con el SDK web.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 
@@ -43,7 +44,7 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 ## Instalación del complemento con el editor de código personalizado de 
 
-Si no desea utilizar la extensión de complemento de Analytics comunes, puede utilizar el editor de código personalizado.
+Si no desea utilizar la extensión de complemento Common Analytics Plugins, puede utilizar el editor de código personalizado.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.

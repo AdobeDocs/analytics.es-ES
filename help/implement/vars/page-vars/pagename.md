@@ -3,9 +3,10 @@ title: pageName
 description: El nombre de la página del sitio.
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '257'
 ht-degree: 81%
 
 ---
@@ -20,11 +21,11 @@ Si esta variable no está definida en una llamada de seguimiento de página dete
 >
 >Los servidores de recopilación de datos de Adobe eliminan esta dimensión de todas las solicitudes de imagen de [seguimiento de vínculos](/help/implement/vars/functions/tl-method.md). Si desea que esta dimensión aparezca en las visitas de seguimiento de vínculos, considere la posibilidad de copiar esta dimensión en una [eVar](evar.md).
 
-## Nombre de página con el SDK web
+## Nombre de página mediante el SDK web
 
 La página es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `web.webPageDetails.name`.
 
-## Nombre de página con la extensión de Adobe Analytics
+## Nombre de página con la extensión Adobe Analytics
 
 Puede definir el nombre de la página al configurar la extensión de Analytics (variables globales) o en reglas.
 
@@ -32,12 +33,12 @@ Puede definir el nombre de la página al configurar la extensión de Analytics (
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
-5. Configure las variables [!UICONTROL Extensión] lista desplegable de Adobe Analytics y [!UICONTROL Tipo de acción] a [!UICONTROL Establecer variables].
+5. Configure las variables [!UICONTROL Extensión] lista desplegable para Adobe Analytics y la variable [!UICONTROL Tipo de acción] hasta [!UICONTROL Establecer variables].
 6. Busque la sección [!UICONTROL Nombre de la página].
 
 Puede establecer el nombre de la página en cualquier valor de cadena, incluidos los elementos de datos.
 
-## s.pageName en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.pageName en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.pageName` es una cadena que generalmente contiene el nombre de la página. Tiene un valor máximo de 100 bytes. Los valores más largos se truncan. Este truncamiento incluye instancias a las que se recupera `pageURL` si esta variable está en blanco.
 

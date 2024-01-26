@@ -3,9 +3,10 @@ title: dynamicVariablePrefix
 description: Permite personalizar la cadena que identifica las variables dinámicas.
 feature: Variables
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '255'
 ht-degree: 76%
 
 ---
@@ -31,7 +32,7 @@ El prefijo de variable dinámica es un campo situado en el acordeón de [!UICONT
 
 Este campo contiene `D=` de forma predeterminada. Puede cambiar el valor si desea utilizar un prefijo de variable dinámica diferente. Puede utilizar cualquier valor que desee, siempre que coincida con la codificación de caracteres del sitio.
 
-## s.dynamicVariablePrefix en el editor de código personalizado de la extensión de Analytics y AppMeasurement
+## s.dynamicVariablePrefix en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.dynamicVariablePrefix` es una cadena que puede contener cualquier secuencia de caracteres. Si esta variable no está definida, AppMeasurement utiliza la cadena `D=` de forma predeterminada.
 

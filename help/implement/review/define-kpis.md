@@ -3,10 +3,11 @@ title: Definición de los 5 KPI principales
 description: Asegúrese de que los indicadores de rendimiento clave y las métricas y dimensiones asociadas se alinean con precisión con las necesidades de su empresa.
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+role: Admin, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '318'
+ht-degree: 80%
 
 ---
 
@@ -20,7 +21,7 @@ Comience por comprender los objetivos empresariales, de modo que pueda elegir lo
 
 ## 2. Formule una pregunta crucial
 
-Pregúntese a usted mismo: si su CEO estuviera atrapado en una isla y usted pudiera decirle solo 5 cosas acerca de la salud de la empresa, ¿cuáles serían esas cosas? Si usted le dijera que el tiempo promedio empleado en una página era 1:30, eso no ayudaría en absoluto. Sin embargo, si le dijera que los ingresos promedios por visita fue de 2 dólares y que tenía 2 millones de visitas, eso le daría una verdadera indicación del éxito de la empresa.
+Pregúntese a usted mismo: si su CEO estuviera atrapado en una isla y usted pudiera decirle solo 5 cosas acerca de la salud de la empresa, ¿cuáles serían esas cosas? Si le dijera que el tiempo promedio empleado en una página era 1:30, eso no ayudaría en absoluto. Sin embargo, si le dijera que los ingresos promedios por visita fue de 2 dólares y que tenía 2 millones de visitas, eso le daría una verdadera indicación del éxito de la empresa.
 
 ## 3. Recuerde cuáles son los KPI y cuáles no
 

@@ -3,10 +3,11 @@ title: Variables dinámicas
 description: Copiar variables sin aumentar la longitud de la solicitud de imagen.
 feature: Variables
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 79%
+source-wordcount: '429'
+ht-degree: 78%
 
 ---
 
@@ -26,13 +27,13 @@ Cuando Adobe reconoce un prefijo de variable dinámica, copia automáticamente l
 
 ## Variables dinámicas que utilizan el SDK web
 
-Utilice la asignación de almacén de datos para enviar datos a varias variables de Analytics desde un único campo XDM.
+Utilice la asignación de secuencia de datos para enviar datos a varias variables de Analytics desde un único campo XDM.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Haga clic en **[!UICONTROL Datastreams]** en el carril izquierdo.
+1. Clic **[!UICONTROL Datastreams]** en el carril izquierdo.
 1. Haga clic en el conjunto de datos deseado.
-1. Haga clic en **[!UICONTROL Editar asignación]** a la derecha.
-1. Asigne el [!UICONTROL Campo de origen] a la [!UICONTROL Campo de destino]. Un solo campo de origen puede asignarse a cualquier número de campos de destino.
+1. Clic **[!UICONTROL Editar asignación]** a la derecha.
+1. Asigne el [!UICONTROL Campo de origen] a lo deseado [!UICONTROL Campo de destino]. Un solo campo de origen puede asignarse a cualquier número de campos de destino.
 
 ## Variables dinámicas que utilizan la extensión de Adobe Analytics
 
@@ -42,7 +43,7 @@ Puede utilizar variables dinámicas en cualquier campo de dimensión que acepte 
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
-5. Configure las variables [!UICONTROL Extensión] lista desplegable de Adobe Analytics y [!UICONTROL Tipo de acción] a [!UICONTROL Establecer variables].
+5. Configure las variables [!UICONTROL Extensión] lista desplegable para Adobe Analytics y la variable [!UICONTROL Tipo de acción] hasta [!UICONTROL Establecer variables].
 6. Busque el elemento de dimensión deseado.
 
 Coloque el prefijo de variable dinámica en el campo de texto, seguido del parámetro de cadena de consulta o del encabezado HTTP al que desee hacer referencia. De forma predeterminada, el prefijo de la variable dinámica es `D=`.

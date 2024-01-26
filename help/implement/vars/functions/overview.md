@@ -3,7 +3,8 @@ title: Funciones y métodos
 description: Descubra cómo puede utilizar las funciones y los métodos que Adobe ofrece en su implementación.
 feature: Variables
 exl-id: 9ef5bd92-fae1-4fe4-90ea-c735e8ff4b9c
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%

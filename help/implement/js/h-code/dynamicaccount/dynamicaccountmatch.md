@@ -3,10 +3,11 @@ title: dynamicAccountMatch
 description: La variable dynamicAccountMatch determina el valor que se debe ver en las cuentas dinámicas.
 feature: Implementation Basics
 exl-id: 3b68f2e6-1bd9-4b16-9d03-a87c9217e1b7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -45,4 +46,4 @@ s.dynamicAccountMatch =  location.hostname + location.pathname + location.search
 ## Notas adicionales
 
 * Las páginas guardadas en una unidad de disco duro no tienen diferentes variables `location` definidas (por ejemplo, `location.host` está en blanco). Asegúrese de que `s_account` contiene un grupo de informes predeterminado.
-* Cuando se traduce una página con un motor de traducción web, como Google, la selección de cuentas dinámicas no funciona como está previsto. Para un seguimiento más preciso, rellene el lado del servidor de la variable `s_account`.
+* Cuando se traduce una página con un motor de traducción web, como Google, la selección de cuentas dinámicas no funciona como está previsto. Para un seguimiento más preciso, rellene el `s_account` del lado del servidor.

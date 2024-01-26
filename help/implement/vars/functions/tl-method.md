@@ -3,9 +3,10 @@ title: tl
 description: Envíe una llamada de seguimiento de vínculos a Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '701'
 ht-degree: 80%
 
 ---
@@ -18,10 +19,10 @@ Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExterna
 
 ## Seguimiento de vínculos mediante el SDK web
 
-El SDK web no diferencia entre las llamadas de vista de página y las llamadas de seguimiento de vínculos; ambos utilizan la variable `sendEvent` comando. Si desea que Adobe Analytics cuente un evento XDM determinado como una llamada de seguimiento de vínculos, asegúrese de que los datos XDM incluyen o están asignados a `web.webInteraction.name`, `web.webInteraction.URL`y `web.webInteraction.type`.
+El SDK web no diferencia entre las llamadas de vista de página y las llamadas de seguimiento de vínculos; ambas utilizan el `sendEvent` comando. Si desea que Adobe Analytics cuente un evento XDM determinado como una llamada de seguimiento de vínculos, asegúrese de que los datos XDM incluyan o estén asignados a `web.webInteraction.name`, `web.webInteraction.URL`, y `web.webInteraction.type`.
 
 * El nombre del vínculo se asigna a `web.webInteraction.name`.
-* La dirección URL del vínculo se asigna a `web.webInteraction.URL`.
+* Vincular asignaciones de URL a `web.webInteraction.URL`.
 * El tipo de vínculo se asigna a `web.webInteraction.type`. Los valores válidos incluyen `other` (vínculos personalizados), `download` (vínculos de descarga) y `exit` (vínculos de salida).
 
 ```js
@@ -40,13 +41,13 @@ alloy("sendEvent", {
 
 ## Seguimiento de vínculos con la extensión Adobe Analytics
 
-La extensión de Adobe Analytics tiene una ubicación dedicada para establecer una llamada de seguimiento de vínculos.
+La extensión de Adobe Analytics tiene una ubicación específica para establecer una llamada de seguimiento de vínculos.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
 1. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
-1. En [!UICONTROL Acciones], haga clic en la acción que desee o haga clic en la **&#39;+&#39;** para añadir una acción.
-1. Configure las variables [!UICONTROL Extensión] lista desplegable a **[!UICONTROL Adobe Analytics]** y [!UICONTROL Tipo de acción] a **[!UICONTROL Send Beacon]**.
+1. En [!UICONTROL Acciones], haga clic en la acción deseada o en **&#39;+&#39;** para añadir una acción.
+1. Configure las variables [!UICONTROL Extensión] lista desplegable para **[!UICONTROL Adobe Analytics]**, y el [!UICONTROL Tipo de acción] hasta **[!UICONTROL Send Beacon]**.
 1. Haga clic en el botón de opción `s.tl()`.
 
 No puede establecer ningún argumento opcional en la extensión de Analytics.

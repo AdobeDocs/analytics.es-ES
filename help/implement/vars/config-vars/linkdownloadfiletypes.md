@@ -3,16 +3,17 @@ title: linkDownloadFileTypes
 description: Determine las extensiones de archivo que se rastrean automáticamente como vínculos de descarga.
 feature: Variables
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 56%
+source-wordcount: '392'
+ht-degree: 55%
 
 ---
 
 # linkDownloadFileTypes
 
-Cuándo [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackdownloadlinks.md) (SDK web) está habilitado y un visitante hace clic en un vínculo, AppMeasurement comprueba la dirección URL del vínculo para ver si hay extensiones de tipo de archivo. Si la dirección URL del vínculo contiene un tipo de archivo coincidente, se envía automáticamente una solicitud de imagen del vínculo de descarga.
+Cuándo [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackdownloadlinks.md) (SDK web) está habilitado y un visitante hace clic en un vínculo, AppMeasurement comprueba la URL del vínculo para ver si hay extensiones de tipo de archivo. Si la dirección URL del vínculo contiene un tipo de archivo coincidente, se envía automáticamente una solicitud de imagen del vínculo de descarga.
 
 Utilice `linkDownloadFileTypes` para personalizar las extensiones de archivo que desea contar como vínculos de descarga.
 

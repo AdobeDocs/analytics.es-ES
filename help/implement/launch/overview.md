@@ -3,7 +3,8 @@ title: Implementar Adobe Analytics usando la extensión de Analytics
 description: Obtenga información sobre cómo implementar Adobe Analytics usando etiquetas y la extensión de Analytics
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 89%

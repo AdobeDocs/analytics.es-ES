@@ -3,9 +3,10 @@ title: getVisitNum
 description: Rastree el número de la visita actual de un visitante.
 feature: Variables
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '776'
 ht-degree: 78%
 
 ---
@@ -16,24 +17,24 @@ ht-degree: 78%
 
 El complemento `getVisitNum` devuelve el número de la visita de todos los visitantes que acceden al sitio dentro del número de días deseado. Analysis Workspace ofrece una dimensión “Número de visita” que proporciona una funcionalidad similar. Adobe recomienda utilizar este complemento si desea controlar mejor cómo se incrementa el número de visitas. Este complemento no es necesario si la dimensión “Número de visita” integrada en Analysis Workspace resulta suficiente para los informes que necesita.
 
-## Instalación del complemento con la extensión Web SDK
+## Instalación del complemento con la extensión del SDK web
 
 Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con el SDK web.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Haga clic en **[!UICONTROL Etiquetas]** a la izquierda, haga clic en la propiedad de etiqueta que desee.
-1. Haga clic en **[!UICONTROL Extensiones]** a la izquierda, haga clic en el botón **[!UICONTROL Catálogo]** ficha
-1. Localice e instale el **[!UICONTROL Complementos comunes del SDK web]** extensión.
-1. Haga clic en **[!UICONTROL Elementos de datos]** a la izquierda, haga clic en el elemento de datos deseado.
+1. Clic **[!UICONTROL Etiquetas]** a la izquierda, haga clic en la propiedad de etiqueta que desee.
+1. Clic **[!UICONTROL Extensiones]** a la izquierda y, a continuación, haga clic en **[!UICONTROL Catálogo]** pestaña
+1. Busque e instale el **[!UICONTROL Complementos comunes del SDK web]** extensión.
+1. Clic **[!UICONTROL Elementos de datos]** a la izquierda, haga clic en el elemento de datos deseado.
 1. Establezca el nombre del elemento de datos deseado con la siguiente configuración:
-   * Extensión: Complementos comunes del SDK web
+   * Extensión: Common Web SDK Plugins
    * Elemento de datos: `getVisitNum`
-1. Establezca los parámetros deseados a la derecha.
+1. Configure los parámetros deseados a la derecha.
 1. Guarde y publique los cambios en el elemento de datos.
 
-## Instalación del complemento Implementación manual del SDK web
+## Instalación manual del complemento mediante la implementación del SDK web
 
-Este complemento aún no se puede usar en una implementación manual del SDK web.
+Este complemento aún no es compatible con una implementación manual del SDK web.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 
@@ -53,7 +54,7 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 ## Instalación del complemento con el editor de código personalizado de 
 
-Si no desea utilizar la extensión de complemento de Analytics comunes, puede utilizar el editor de código personalizado.
+Si no desea utilizar la extensión de complemento Common Analytics Plugins, puede utilizar el editor de código personalizado.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.

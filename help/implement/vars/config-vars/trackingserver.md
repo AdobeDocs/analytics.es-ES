@@ -3,10 +3,11 @@ title: trackingServer
 description: Determinar la ubicación en la que se envían las solicitudes de imagen.
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 74%
+source-wordcount: '540'
+ht-degree: 72%
 
 ---
 
@@ -54,7 +55,7 @@ Servidor de seguimiento es un campo del acordeón [!UICONTROL General] al config
 
 Si este campo se deja en blanco, el valor predeterminado es `[rsid].data.adobedc.net`.
 
-## s.trackingServer en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.trackingServer en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.trackingServer` es una cadena que contiene la ubicación para enviar datos.
 

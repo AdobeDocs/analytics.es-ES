@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: Aprenda formas de implementar Adobe Analytics. Personalice qué se recopila para aprovechar al máximo los datos de Analytics.
-source-git-commit: 44830c4e68c4d6f9cace620e81d7adeda1de3563
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '402'
 ht-degree: 98%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 98%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Complementos  {#plugins}
+   + Complementos {#plugins}
       + [Información general de complementos](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -171,7 +171,6 @@ ht-degree: 98%
    + [Solución de problemas de AppMeasurement](js/troubleshooting.md)
 + Implementar Analytics en otras plataformas {#other}
    + [Implementación de Analytics mediante solicitudes de imagen codificadas](other/hardcoded.md)
-   + [Implementar Analytics mediante DTM](other/dtm-implementation-overview.md)
    + [Implementación de Analytics en Ajax](other/ajax.md)
    + [Implementación de Analytics en AMP](other/amp.md)
    + [Implementación de Analytics en asistentes digitales](other/digital-assistants.md)

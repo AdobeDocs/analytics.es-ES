@@ -3,9 +3,10 @@ title: Uso de AppMeasurement con iFrames
 description: Acceda a variables de Adobe Analytics dentro de un iframe o de una página principal mientras se encuentra en un iframe.
 feature: Implementation Basics
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '300'
 ht-degree: 100%
 
 ---

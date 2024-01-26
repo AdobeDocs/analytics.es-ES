@@ -3,10 +3,11 @@ title: getTimeToComplete
 description: Mida el tiempo que se tarda en completar una tarea.
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 88%
+source-wordcount: '600'
+ht-degree: 89%
 
 ---
 
@@ -16,9 +17,9 @@ ht-degree: 88%
 
 El complemento `getTimeToComplete` rastrea el tiempo que un usuario tarda en completar un proceso en un sitio. El “reloj” comienza cuando se llama a la acción `start` y finaliza cuando se llama a la acción `stop`. Adobe recomienda utilizar este complemento si hay un flujo de trabajo en el sitio que lleve cierto tiempo completar y si desea saber cuánto tiempo tardan los visitantes en completarlo. No es necesario utilizar este complemento si el flujo de trabajo del sitio lleva un breve periodo de tiempo (menos de 3 segundos) porque la granularidad solo se reduce al segundo completo.
 
-## Instalación del complemento con la extensión SDK web o SDK web
+## Instalación del complemento con el SDK web o la extensión del SDK web
 
-Este complemento aún no se puede usar en el SDK web.
+Este complemento aún no es compatible con el SDK web.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 
@@ -38,7 +39,7 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 ## Instalación del complemento con el editor de código personalizado de 
 
-Si no desea utilizar la extensión de complemento de Analytics comunes, puede utilizar el editor de código personalizado.
+Si no desea utilizar la extensión de complemento Common Analytics Plugins, puede utilizar el editor de código personalizado.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.

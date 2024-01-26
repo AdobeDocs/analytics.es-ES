@@ -3,9 +3,10 @@ title: cookieDomainPeriods
 description: Ayudar a AppMeasurement a comprender qué dominio almacenará cookies si su dominio tiene un punto en su sufijo.
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 88%
 
 ---
@@ -39,7 +40,7 @@ Períodos de dominio es un campo en el acordeón de [!UICONTROL Cookies] al conf
 
 Establezca este campo como `3` solo en los dominios que contengan un punto en su sufijo. De lo contrario, este campo se puede dejar en blanco.
 
-## s.cookieDomainPeriods en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.cookieDomainPeriods en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `cookieDomainPeriods` es una cadena que generalmente se define como `"3"`, solo en los dominios que contienen un punto en su sufijo. Su valor predeterminado es `"2"`, que se adapta a la mayoría de los dominios.
 

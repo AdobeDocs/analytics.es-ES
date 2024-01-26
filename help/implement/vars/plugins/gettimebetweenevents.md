@@ -3,9 +3,10 @@ title: getTimeBetweenEvents
 description: Mida el tiempo entre dos eventos.
 feature: Variables
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '786'
 ht-degree: 91%
 
 ---
@@ -16,9 +17,9 @@ ht-degree: 91%
 
 El complemento `getTimeBetweenEvents` le permite realizar un seguimiento del tiempo entre dos eventos de Analytics cualesquiera, incluidos el carro de compras y los eventos personalizados. Resulta útil para rastrear el tiempo que tarda un proceso de pago en completarse o cualquier otro proceso que desee medir. Este complemento no es necesario si no tiene ningún proceso de conversión cuya duración desee medir.
 
-## Instalación del complemento con la extensión SDK web o SDK web
+## Instalación del complemento con el SDK web o la extensión del SDK web
 
-Este complemento aún no se puede usar en el SDK web.
+Este complemento aún no es compatible con el SDK web.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 
@@ -38,7 +39,7 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 ## Instalación del complemento con el editor de código personalizado de 
 
-Si no desea utilizar la extensión de complemento de Analytics comunes, puede utilizar el editor de código personalizado.
+Si no desea utilizar la extensión de complemento Common Analytics Plugins, puede utilizar el editor de código personalizado.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
@@ -66,9 +67,9 @@ La función `getTimeBetweenEvents` utiliza los siguientes argumentos:
 * **`stp`** (obligatorio, cadena): Detener los eventos de temporizador. Cadena delimitada por comas de eventos de Analytics que “detienen el temporizador”.
 * **`res`** (obligatorio, booleano): Opción restablecer temporizador. Configúrelo en `true` si desea registrar el tiempo desde que se inició el temporizador Y restablézcalo después de que se detenga. Configúrelo en `false` si desea registrar la hora pero no detener el temporizador. Si se establece en `false`, el temporizador continúa ejecutándose después de que la variable de eventos registre un evento de parada.
 
-   >[!TIP]
-   >
-   >Si establece este argumento en `false`, se recomienda encarecidamente que configure el siguiente argumento `rte`.
+  >[!TIP]
+  >
+  >Si establece este argumento en `false`, se recomienda encarecidamente que configure el siguiente argumento `rte`.
 * **`cn`** (opcional, cadena): El nombre de la cookie en la que se almacena la hora del primer evento. El valor predeterminado es `"s_tbe"`.
 * **`etd`** (opcional, entero): El tiempo de caducidad de la cookie en días. Configúrelo en `0` para que caduque al terminar la sesión del explorador. Si no se configura de forma distinta, el valor predeterminado es 1 día.
 * **`fmt`** (opcional, cadena): El formato del tiempo en el que se devuelve el número de segundos (el valor predeterminado es nada)

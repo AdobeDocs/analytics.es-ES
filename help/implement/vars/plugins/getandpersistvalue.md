@@ -3,7 +3,8 @@ title: getAndPersistValue
 description: Almacene un valor que pueda utilizarse posteriormente en cualquier momento.
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 70%
@@ -14,26 +15,26 @@ ht-degree: 70%
 
 {{plug-in}}
 
-El complemento `getAndPersistValue` le permite almacenar un valor en una cookie que se puede utilizar más adelante durante una visita. Cumple una función similar a la de [!UICONTROL Duración del almacenamiento] en la extensión de Adobe Analytics dentro de la recopilación de datos de Adobe Experience Platform. Adobe recomienda utilizar este complemento si desea mantener automáticamente una variable de Analytics con el mismo valor en las visitas posteriores después de configurar la variable. Este complemento no es necesario si se usa la variable [!UICONTROL Duración del almacenamiento] en la extensión de Analytics es suficiente. Tampoco es necesario utilizar este complemento si no requiere establecer y mantener variables con el mismo valor en las visitas posteriores. La persistencia integrada de eVars no requiere el uso de este complemento, ya que Adobe mantiene eVars en el lado del servidor.
+El complemento `getAndPersistValue` le permite almacenar un valor en una cookie que se puede utilizar más adelante durante una visita. Cumple una función similar a la de [!UICONTROL Duración del almacenamiento] función en la extensión de Adobe Analytics dentro de la recopilación de datos de Adobe Experience Platform. Adobe recomienda utilizar este complemento si desea mantener automáticamente una variable de Analytics con el mismo valor en las visitas posteriores después de configurar la variable. Este complemento no es necesario si la variable [!UICONTROL Duración del almacenamiento] en la extensión de Analytics es suficiente. Tampoco es necesario utilizar este complemento si no requiere establecer y mantener variables con el mismo valor en las visitas posteriores. La persistencia integrada de eVars no requiere el uso de este complemento, ya que Adobe mantiene eVars en el lado del servidor.
 
-## Instalación del complemento con la extensión Web SDK
+## Instalación del complemento con la extensión del SDK web
 
 Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con el SDK web.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Haga clic en **[!UICONTROL Etiquetas]** a la izquierda, haga clic en la propiedad de etiqueta que desee.
-1. Haga clic en **[!UICONTROL Extensiones]** a la izquierda, haga clic en el botón **[!UICONTROL Catálogo]** ficha
-1. Localice e instale el **[!UICONTROL Complementos comunes del SDK web]** extensión.
-1. Haga clic en **[!UICONTROL Elementos de datos]** a la izquierda, haga clic en el elemento de datos deseado.
+1. Clic **[!UICONTROL Etiquetas]** a la izquierda, haga clic en la propiedad de etiqueta que desee.
+1. Clic **[!UICONTROL Extensiones]** a la izquierda y, a continuación, haga clic en **[!UICONTROL Catálogo]** pestaña
+1. Busque e instale el **[!UICONTROL Complementos comunes del SDK web]** extensión.
+1. Clic **[!UICONTROL Elementos de datos]** a la izquierda, haga clic en el elemento de datos deseado.
 1. Establezca el nombre del elemento de datos deseado con la siguiente configuración:
-   * Extensión: Complementos comunes del SDK web
+   * Extensión: Common Web SDK Plugins
    * Elemento de datos: `getAndPersistValue`
-1. Establezca los parámetros deseados a la derecha.
+1. Configure los parámetros deseados a la derecha.
 1. Guarde y publique los cambios en el elemento de datos.
 
-## Instalación del complemento Implementación manual del SDK web
+## Instalación manual del complemento mediante la implementación del SDK web
 
-Este complemento aún no se puede usar en una implementación manual del SDK web.
+Este complemento aún no es compatible con una implementación manual del SDK web.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 
@@ -53,7 +54,7 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 ## Instalación del complemento con el editor de código personalizado de 
 
-Si no desea utilizar la extensión de complemento de Analytics comunes, puede utilizar el editor de código personalizado.
+Si no desea utilizar la extensión de complemento Common Analytics Plugins, puede utilizar el editor de código personalizado.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.

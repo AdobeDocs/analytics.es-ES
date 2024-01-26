@@ -3,9 +3,10 @@ title: Solución de problemas de implementación de JavaScript
 description: Obtenga más información sobre problemas comunes y prácticas recomendadas para solucionar problemas de la implementación de JavaScript.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '690'
 ht-degree: 97%
 
 ---
@@ -89,24 +90,24 @@ Las implementaciones que rellenan muchas variables con valores largos a veces se
 * **Utilice el servicio de Experience Cloud ID**: Las bibliotecas de AppMeasurement 1.4.1 y posteriores envían automáticamente solicitudes de imagen mediante el POST HTTP si son demasiado largas. Los datos enviados mediante este método no se truncan independientemente de la longitud. Consulte [Servicio de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) para obtener más información.
 * **Usar reglas de procesamiento**: Las [reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pueden copiar valores de una variable a otra. Este método evita que se establezca el mismo valor en varias variables. Por ejemplo:
 
-   Ejecute siempre:<br>
+  Ejecute siempre:<br>
 Sobrescribir el valor de prop1 con eVar1<br>
 Sobrescribir el valor de eVar2 con eVar1<br>
 Sobrescribir el valor de prop2 con eVar1<br>
 
-   Luego establezca eVar1 en la implementación:
+  Luego establezca eVar1 en la implementación:
 
-   ```js
-   s.eVar1 = "The quick brown fox jumps over the lazy dog";
-   ```
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  ```
 
 * **Utilice variables dinámicas**: Si la implementación rellena muchas variables con el mismo valor, puede utilizar [variables dinámicas](/help/implement/vars/page-vars/dynamic-variables.md) para acortar la dirección URL de la solicitud:
 
-   ```js
-   s.eVar1 = "The quick brown fox jumps over the lazy dog";
-   s.eVar2 = "D=v1";
-   s.prop1 = "D=v1";
-   s.prop2 = "D=v1";
-   ```
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  s.eVar2 = "D=v1";
+  s.prop1 = "D=v1";
+  s.prop2 = "D=v1";
+  ```
 
 * **Use clasificaciones**: Si los nombres de producto o de página son inusualmente largos, puede utilizar un código o valor de identificación y, a continuación, utilizar las [clasificaciones](/help/components/classifications/c-classifications.md) para mostrar un nombre más descriptivo.

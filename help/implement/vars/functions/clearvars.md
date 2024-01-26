@@ -1,12 +1,13 @@
 ---
 title: clearVars
-description: Borra los valores siguientes del objeto de instancia. Esta función elimina los elementos (los establece como “undefined”).
+description: Borre los valores del objeto de instancia.
 feature: Variables
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 72%
+source-wordcount: '186'
+ht-degree: 67%
 
 ---
 
@@ -31,9 +32,9 @@ Este método no toma ningún argumento y no devuelve ningún valor. Su único pr
 
 ## Borrado de variables mediante el SDK web
 
-Cuando se envían datos a Adobe mediante el SDK web, todos los datos XDM se borran automáticamente.
+Al enviar datos al Adobe mediante el SDK web, todos los datos XDM se borran automáticamente.
 
-## Borrar variables con la extensión Adobe Analytics
+## Borrado de variables con la extensión Adobe Analytics
 
 Establezca la acción Borrar variables al configurar una regla.
 
@@ -41,7 +42,7 @@ Establezca la acción Borrar variables al configurar una regla.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en el icono “+”.
-5. Configure las variables [!UICONTROL Extensión] lista desplegable de Adobe Analytics y [!UICONTROL Tipo de acción] a [!UICONTROL Borrar variables].
+5. Configure las variables [!UICONTROL Extensión] lista desplegable para Adobe Analytics y la variable [!UICONTROL Tipo de acción] hasta [!UICONTROL Borrar variables].
 
 ## s.clearVars() en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 

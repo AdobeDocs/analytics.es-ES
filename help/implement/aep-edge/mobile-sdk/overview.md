@@ -3,7 +3,8 @@ title: Implementar Adobe Analytics mediante el SDK móvil de Adobe Experience Pl
 description: Utilice la extensión del SDK móvil en la recopilación de datos de Adobe Experience Platform para enviar datos a Adobe Analytics.
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
-source-git-commit: ebdf52c4b42e4a443284d285e79e949ac6646078
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 98%

@@ -3,10 +3,11 @@ title: trackExternalLinks
 description: Habilite o deshabilite el seguimiento automático de vínculos de salida.
 feature: Variables
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 59%
+source-wordcount: '324'
+ht-degree: 60%
 
 ---
 
@@ -46,7 +47,7 @@ Rastrear vínculos de salida es una casilla de verificación bajo el acordeón d
 
 Haga clic en la casilla de verificación para habilitar el seguimiento automático de vínculos de salida.
 
-## s.trackExternalLinks en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.trackExternalLinks en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 El `s.trackExternalLinks` es un booleano que habilita o deshabilita el seguimiento automático de vínculos de salida. Si no desea rastrear los vínculos de salida o prefiere llamar manualmente al método `tl()` para rastrear los vínculos de salida, debe establecer esta variable como `false`.
 

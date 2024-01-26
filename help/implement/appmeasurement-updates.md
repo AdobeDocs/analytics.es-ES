@@ -3,10 +3,11 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 92%
+source-wordcount: '2618'
+ht-degree: 90%
 
 ---
 
@@ -20,14 +21,14 @@ Puede descargar la versión más reciente de AppMeasurement en [GitHub](https://
 
 ## Versión 2.25.0
 
-Fecha de versión: **12 de septiembre de 2023**
+Fecha de versión: **miércoles, 12 de septiembre de 2023**
 
 * Se ha añadido el método opcional [`bufferRequests()`](vars/functions/bufferrequests.md) para mejorar la fiabilidad de la captura de solicitudes cuando un explorador no admite la API de señalización de o cancela solicitudes cuando se descarga una página.
 * Se han agregado salvaguardas para evitar múltiples llamadas de retorno posteriores al seguimiento para una única solicitud de seguimiento.
 
 ## Versión 2.24.0
 
-Fecha de versión: **18 de julio de 2023**
+Fecha de versión: **miércoles, 18 de julio de 2023**
 
 * Se ha añadido la variable de configuración opcional [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) para descodificar direcciones URL de vínculos que incluyen caracteres con codificación de doble byte.
 * Se ha añadido la administración de errores adicional para exploradores con API de sugerencias de cliente de agente de usuario de alta entropía defectuosas.
@@ -375,7 +376,7 @@ Fecha de versión: **16 de abril de 2015**
 Fecha de versión: **19 de febrero de 2015**
 
 * Se ha sistematizado todo el tratamiento de las llamadas de seguimiento demoradas con lo cual se han corregido los problemas con las variables de copia de seguridad durante la demora, por ejemplo, el objeto en el que se ha hecho clic.
-* Se ha cambiado la opción a no hacer seguimiento automático del referente tras la primera llamada de seguimiento, de modo que las llamadas segunda, tercera, etc. (por lo general seguimiento de vínculos) no contarán al referente doble si se ha configurado manualmente *`s.referrer`* se ha establecido manualmente antes de la primera llamada de seguimiento.
+* Se ha cambiado la opción a no hacer seguimiento automático del referente tras la primera llamada de seguimiento, de modo que las llamadas segunda, tercera, etc. (por lo general seguimiento de vínculos) no contarán al referente doble si *`s.referrer`* se ha establecido manualmente antes de la primera llamada de seguimiento.
 * Se ha actualizado el zip de distribución para incluir la API de visitante 1.3.5.
 
 ## Versión 1.4.2

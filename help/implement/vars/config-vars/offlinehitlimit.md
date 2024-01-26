@@ -3,7 +3,8 @@ title: offlineHitLimit
 description: Determinar el número máximo de visitas en cola para el seguimiento sin conexión.
 feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 88%
@@ -20,7 +21,7 @@ La variable `offlineHitLimit` coloca un límite en el número de visitas que alm
 
 No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.offlineHitLimit en el editor de código personalizado de la extensión de Analytics y AppMeasurement
+## s.offlineHitLimit en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.offlineHitLimit` es un número entero que representa el número máximo de visitas que un dispositivo almacena mientras están sin conexión. Si no se define esta variable, no hay límite en el número de visitas que almacena un dispositivo mientras está sin conexión.
 

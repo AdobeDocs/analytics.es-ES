@@ -3,16 +3,17 @@ title: abort
 description: La variable abort es un booleano que evita que se envíe una visita a los servidores de recopilación de datos de Adobe.
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 48%
+source-wordcount: '331'
+ht-degree: 44%
 
 ---
 
 # abort
 
-La variable `abort` es un booleano que puede evitar que la siguiente llamada de seguimiento se envíe a Adobe. Existe una funcionalidad similar en el SDK web que le permite devolver `false` antes de enviar un evento XDM.
+El `abort` es una variable booleana que puede evitar que la siguiente llamada de seguimiento se envíe al Adobe. Existe una funcionalidad similar en el SDK web que le permite devolver `false` antes de enviar un evento XDM.
 
 ## Cancelación del envío de un evento mediante la extensión del SDK web
 
@@ -44,7 +45,7 @@ alloy("configure"), {
 
 No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.abort en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.abort en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.abort` es booleana. Su valor predeterminado es `false`.
 

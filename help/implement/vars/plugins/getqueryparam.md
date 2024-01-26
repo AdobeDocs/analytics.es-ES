@@ -3,9 +3,10 @@ title: getQueryParam
 description: Extraiga el valor de un parámetro de cadena de consulta de una dirección URL.
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '761'
 ht-degree: 74%
 
 ---
@@ -16,26 +17,26 @@ ht-degree: 74%
 
 El complemento `getQueryParam` le permite extraer el valor de cualquier parámetro de cadena de consulta contenido en una dirección URL. Resulta útil para extraer códigos de campaña, tanto internos como externos, de las direcciones URL de las páginas de aterrizaje. También resulta útil al extraer términos de búsqueda u otros parámetros de cadena de consulta.
 
-Este complemento proporciona funciones sólidas para analizar direcciones URL complejas, incluidos hashes y direcciones URL que contienen varios parámetros de cadena de consulta. Si solo necesita parámetros de cadena de consulta simples, Adobe recomienda utilizar las funciones de parámetro de URL mediante el SDK web o la extensión Adobe Analytics o el [`Util.getQueryParam()`](../functions/util-getqueryparam.md) método incluido en AppMeasurement.
+Este complemento proporciona funciones sólidas para analizar direcciones URL complejas, incluidos hashes y direcciones URL que contienen varios parámetros de cadena de consulta. Si solo necesita parámetros de cadena de consulta simples, Adobe recomienda utilizar las funciones de parámetro de URL mediante el SDK web, la extensión de Adobe Analytics o el [`Util.getQueryParam()`](../functions/util-getqueryparam.md) método incluido en el AppMeasurement.
 
-## Instalación del complemento con la extensión Web SDK
+## Instalación del complemento con la extensión del SDK web
 
 Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con el SDK web.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Haga clic en **[!UICONTROL Etiquetas]** a la izquierda, haga clic en la propiedad de etiqueta que desee.
-1. Haga clic en **[!UICONTROL Extensiones]** a la izquierda, haga clic en el botón **[!UICONTROL Catálogo]** ficha
-1. Localice e instale el **[!UICONTROL Complementos comunes del SDK web]** extensión.
-1. Haga clic en **[!UICONTROL Elementos de datos]** a la izquierda, haga clic en el elemento de datos deseado.
+1. Clic **[!UICONTROL Etiquetas]** a la izquierda, haga clic en la propiedad de etiqueta que desee.
+1. Clic **[!UICONTROL Extensiones]** a la izquierda y, a continuación, haga clic en **[!UICONTROL Catálogo]** pestaña
+1. Busque e instale el **[!UICONTROL Complementos comunes del SDK web]** extensión.
+1. Clic **[!UICONTROL Elementos de datos]** a la izquierda, haga clic en el elemento de datos deseado.
 1. Establezca el nombre del elemento de datos deseado con la siguiente configuración:
-   * Extensión: Complementos comunes del SDK web
+   * Extensión: Common Web SDK Plugins
    * Elemento de datos: `getQueryParam`
-1. Establezca los parámetros deseados a la derecha.
+1. Configure los parámetros deseados a la derecha.
 1. Guarde y publique los cambios en el elemento de datos.
 
-## Instalación del complemento Implementación manual del SDK web
+## Instalación manual del complemento mediante la implementación del SDK web
 
-Este complemento aún no se puede usar en una implementación manual del SDK web.
+Este complemento aún no es compatible con una implementación manual del SDK web.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 
@@ -55,7 +56,7 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 ## Instalación del complemento con el editor de código personalizado de 
 
-Si no desea utilizar la extensión de complemento de Analytics comunes, puede utilizar el editor de código personalizado.
+Si no desea utilizar la extensión de complemento Common Analytics Plugins, puede utilizar el editor de código personalizado.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.

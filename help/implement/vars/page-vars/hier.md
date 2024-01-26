@@ -3,9 +3,10 @@ title: hier
 description: Implementar variables de jerarquía en Adobe Analytics.
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '350'
 ht-degree: 95%
 
 ---
@@ -34,7 +35,7 @@ Puede establecer jerarquías al configurar la extensión de Analytics (variables
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
-5. Configure las variables [!UICONTROL Extensión] lista desplegable de Adobe Analytics y [!UICONTROL Tipo de acción] a [!UICONTROL Establecer variables].
+5. Configure las variables [!UICONTROL Extensión] lista desplegable para Adobe Analytics y la variable [!UICONTROL Tipo de acción] hasta [!UICONTROL Establecer variables].
 6. Busque la sección [!UICONTROL Jerarquía].
 
 Puede establecer un valor de jerarquía en una cadena estática o hacer referencia a un elemento de datos. También puede establecer el delimitador que desee. Asegúrese de que el delimitador que ha establecido aquí coincide con el conjunto de delimitadores de la configuración del grupo de informes.

@@ -3,10 +3,11 @@ title: linkURL
 description: Omitir la URL del vínculo generado automáticamente que AppMeasurement utiliza en las llamadas de seguimiento de vínculos.
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 76%
+source-wordcount: '138'
+ht-degree: 75%
 
 ---
 
@@ -22,7 +23,7 @@ La URL del vínculo es [asignado para Adobe Analytics](https://experienceleague.
 
 No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.linkURL en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.linkURL en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.linkURL` es una cadena que contiene la dirección URL del explorador cuando se hizo clic en el vínculo. Esta variable no rellena ninguna dimensión disponible en los informes.
 

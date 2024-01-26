@@ -3,9 +3,10 @@ title: trackDownloadLinks
 description: Habilite o deshabilite el seguimiento automático de vínculos para los vínculos de descarga.
 feature: Variables
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '322'
 ht-degree: 59%
 
 ---
@@ -46,7 +47,7 @@ Rastrear vínculos de descarga es una casilla de verificación en el acordeón [
 
 Haga clic en la casilla de verificación para habilitar el seguimiento automático de vínculos de descarga.
 
-## s.trackDownloadLinks en AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.trackDownloadLinks en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 El `s.trackDownloadLinks` es un booleano que habilita o deshabilita el seguimiento automático de vínculos de descarga. Si no desea rastrear los vínculos de descarga o prefiere llamar manualmente al método `tl()` para rastrear las descargas, establezca esta variable como `false`.
 

@@ -3,9 +3,10 @@ title: fpcookieDomainPeriods
 description: Ayudar a AppMeasurement a comprender qué dominio almacenará cookies si su dominio tiene un punto en su sufijo.
 feature: Variables
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '288'
 ht-degree: 86%
 
 ---

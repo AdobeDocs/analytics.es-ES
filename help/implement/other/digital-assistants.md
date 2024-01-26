@@ -3,10 +3,11 @@ title: Implementar Analytics para asistentes digitales
 description: Implemente Adobe Analytics en asistentes digitales, como Amazon Alexa o Google Home.
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 100%
+source-wordcount: '1258'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +112,7 @@ Cache-Control: no-cache
 
 Todos los asistentes digitales cuentan con algoritmos que detectan las intenciones para luego transmitirlas a la “Aplicación” de modo que esta sepa lo que debe hacer. Estas intenciones son una representación sucinta de la solicitud.
 
-Por ejemplo, si un usuario dice: “Siri, envía a John 20 dólares desde mi aplicación de banca por la cena de anoche”, la intención podría ser algo como *sendMoney*.
+Por ejemplo, si un usuario dice: &quot;Siri, envía a John 20 dólares desde mi aplicación de banca por la cena de anoche&quot;, la intención podría ser algo así como *sendMoney*.
 
 Al enviar cada una de estas solicitudes como una eVar, puede realizar informes de control de rutas de todas las intenciones de una aplicación conversacional. Asegúrese de que la aplicación pueda también gestionar solicitudes sin intención. Adobe recomienda pasar “Sin intención especificada” a la variable de datos de contexto por intención, en lugar de omitir la variable.
 

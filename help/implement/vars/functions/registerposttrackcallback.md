@@ -3,10 +3,11 @@ title: registerPostTrackCallback
 description: Cree funciones de llamada de retorno después de enviar una visita a Adobe.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 71%
+source-wordcount: '349'
+ht-degree: 72%
 
 ---
 
@@ -26,7 +27,7 @@ Cada vez que llama a la variable `registerPostTrackCallback`, vincula esa funci�
 
 ## Llamada de retorno posterior al seguimiento con la extensión del SDK web
 
-Próximamente!
+¡Muy pronto!
 
 ## Llamada de retorno posterior al seguimiento implementando manualmente el SDK web
 

@@ -3,10 +3,11 @@ title: registerPreTrackCallback
 description: Cree funciones de devolución de llamada antes de enviar una visita a Adobe.
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 58%
+source-wordcount: '417'
+ht-degree: 55%
 
 ---
 
@@ -30,7 +31,7 @@ El SDK web no puede conectar una función después de compilar los datos pero an
 
 1. Inicie sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) IU con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
-1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]**[!UICONTROL  bajo el SDK web de Adobe Analytics].
+1. Vaya a la [!UICONTROL Extensiones] y, a continuación, haga clic en **[!UICONTROL Configurar]** botón debajo de [!UICONTROL SDK web de Adobe Experience Platform].
 1. En [!UICONTROL Recopilación de datos], haga clic en **[!UICONTROL Editar en antes del código de devolución de llamada de envío de evento]** botón.
 1. Coloque el código deseado en el editor.
 
