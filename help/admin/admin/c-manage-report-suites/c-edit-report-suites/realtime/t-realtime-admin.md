@@ -3,10 +3,10 @@ description: Pasos administrativos para configurar informes en tiempo real.
 title: Configuración de informes en tiempo real
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 90%
+source-wordcount: '288'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 Pasos administrativos para configurar informes en tiempo real.
 
-Configurar informes en tiempo real en Adobe Analytics consiste en seleccionar el grupo de informes y configurar hasta 3 informes para este.
+Configurar informes en tiempo real en Adobe Analytics consiste en seleccionar el grupo de informes y configurar hasta 3 informes para este. De manera predeterminada todos los usuarios tienen acceso a los informes en tiempo real.
 
 1. Seleccione el grupo de informes para el que quiere habilitar los informes en tiempo real.
 
@@ -53,8 +53,11 @@ Configurar informes en tiempo real en Adobe Analytics consiste en seleccionar el
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Haga clic en **[!UICONTROL Guardar]** o en **[!UICONTROL Guardar y ver informe]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
    Después de esta configuración inicial del informe los datos pueden tardar hasta 20 minutos en ser transferidos. A partir de ese momento, los datos estarán disponibles inmediatamente.
 
-1. De manera predeterminada todos los usuarios tienen acceso a los informes en tiempo real.
+1. Para ver el informe en tiempo real, vaya a:
+
+   **[!UICONTROL Workspace]** > **[!UICONTROL Informes]** > **[!UICONTROL Participación]** > **[!UICONTROL Tiempo real]**.
+
