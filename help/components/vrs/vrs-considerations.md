@@ -4,10 +4,10 @@ keywords: Grupo de informes virtuales
 title: Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 6e9ea48df286b2bde6a071ab3d0f29a764382c6d
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 85%
+source-wordcount: '1636'
+ht-degree: 79%
 
 ---
 
@@ -31,13 +31,13 @@ Con los grupos de informes virtuales no se pueden compartir segmentos con Adobe 
 
 Los segmentos no se pueden publicar en Adobe Experience Cloud desde un grupo de informes virtual para su personalización y segmentación. Todos los usuarios que publiquen segmentos deben tener acceso a un grupo de informes para este fin. Por ejemplo, quiere que los usuarios solo tengan acceso a los datos de su región geográfica, pero quiere que puedan crear y compartir segmentos de Adobe Analytics en Adobe Experience Cloud para realizar la segmentación en Adobe Target. En este caso, Adobe recomienda utilizar el etiquetado de grupos múltiples. Si no le importa que los usuarios tengan acceso al grupo de informes globales o no necesita publicar segmentos para usarlos en otras soluciones, se pueden utilizar los grupos de informes virtuales.
 
-### Límites únicos
+### Límites únicos (poco tráfico)
 
 Si tiene un grupo de informes globales que combina un gran número de sitios juntos, es posible que se encuentre con el elemento de línea de [poco tráfico](/help/technotes/low-traffic.md) con frecuencia. Si usa etiquetado de grupos múltiples, esto es solo un problema para el grupo de informes globales (es menos probable que los grupos de informes individuales vean poco tráfico). Si utiliza grupos de informes virtuales, se comparten límites únicos, lo que provoca que los grupos de informes individuales también muestren poco tráfico. Considere utilizar el etiquetado de grupos múltiples si desea evitar agrupar los datos en bloques de poco tráfico.
 
-Por ejemplo, una organización de medios de gran tamaño posee 100 propiedades web. Cada propiedad publica algunos miles de artículos de noticias al mes, además de alojar todos los artículos de meses anteriores. Esta organización utiliza un grupo de informes globales donde eVar1 es “Nombre del artículo”. En este informe, hay aproximadamente 4 millones de nombres de artículos únicos por mes de las diversas propiedades combinadas. Si se utiliza un grupo de informes virtuales, los 500 000 valores principales que comprenden la mayor parte del tráfico se incluyen en los grupos de informes virtuales, los 3,5 millones restantes están incluidos en el sector de poco tráfico. Si se utiliza el etiquetado de grupos múltiples, cada grupo de informes individual puede ver sus propios valores principales de 500 000. Los límites únicos del grupo de informes globales son los mismos entre el uso del etiquetado de grupos múltiples y los grupos de informes virtuales.
+Por ejemplo, una organización de medios de gran tamaño posee 100 propiedades web. Cada propiedad publica algunos miles de artículos de noticias al mes, además de alojar todos los artículos de meses anteriores. Esta organización utiliza un grupo de informes globales donde eVar1 es “Nombre del artículo”. Supongamos que en este informe hay aproximadamente 5 millones de nombres de artículos únicos por mes de las diversas propiedades combinadas. Si se utiliza un grupo de informes virtuales, solo se incluirá en el grupo de informes virtuales una parte de los 5 millones de valores. Los restantes se incluyen en poco tráfico. Si se utiliza el etiquetado de grupos múltiples, cada grupo de informes individual puede ver su propio conjunto de valores únicos.
 
-El Servicio de atención al cliente de Adobe puede aumentar los límites de valor único para un pequeño número de dimensiones, lo que puede eliminar este problema por completo. Para obtener más información, consulte con su equipo de cuenta y con el servicio de atención al cliente.
+Adobe El Servicio de atención al cliente a veces puede aumentar los límites de valor único para un pequeño número de dimensiones, lo que puede eliminar este problema por completo. Para obtener más información, consulte con su equipo de cuenta y con el servicio de atención al cliente.
 
 ### Compartir variables entre grupos de informes
 
