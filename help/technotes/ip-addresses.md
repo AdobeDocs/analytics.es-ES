@@ -3,7 +3,7 @@ title: IP y dominios utilizados por Adobe Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: e4f8467e9c2e3f461857b4ea3d4e5cbe643d57a0
+source-git-commit: 3483e209a6ae8c2b37d45903b270a2adb3b297ca
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 67%
@@ -44,6 +44,7 @@ La siguiente tabla abarca todas las direcciones IP de propiedad del Adobe utiliz
 | `66.235.128.0/19` |
 | `130.248.0.0/16` |
 | `185.34.188.0/22` |
+| `192.243.240.0/22` |
 
 ## Bloques de direcciones IP de FTP y recopilación de datos
 
