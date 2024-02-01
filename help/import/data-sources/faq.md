@@ -3,10 +3,11 @@ title: Preguntas frecuentes sobre fuentes de datos
 description: Preguntas más frecuentes sobre las fuentes de datos.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -40,7 +41,7 @@ Si el tamaño de datos supera los 50 MB, el procesamiento se detendrá y no se r
 
 +++¿Qué sucede si se transmiten valores negativos a informes a través de fuentes de datos?
 
-El valor disminuye según corresponda. Algunas organizaciones utilizan valores de fuentes de datos negativos para intentar corregir los datos. Los valores negativos de las fuentes de datos pueden afectar a los informes de formas potencialmente no deseadas o inesperadas. El Adobe recomienda utilizar fuentes de datos negativas solo como último recurso.
+El valor disminuye en consecuencia. Algunas organizaciones utilizan valores de fuentes de datos negativos para intentar corregir los datos. Los valores negativos de las fuentes de datos pueden afectar a los informes de formas potencialmente no deseadas o inesperadas. El Adobe recomienda utilizar fuentes de datos negativas solo como último recurso.
 +++
 
 +++¿Distinguen entre mayúsculas y minúsculas las extensiones de archivo?

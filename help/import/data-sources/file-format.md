@@ -3,10 +3,11 @@ title: Formato del archivo de fuente de datos
 description: Generar correctamente un archivo para utilizarlo en fuentes de datos.
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '533'
+ht-degree: 5%
 
 ---
 
@@ -41,9 +42,9 @@ Al cargar archivos de fuente de datos, se requieren encabezados de columna. Esto
 | Dimensión | Encabezado de fuente de datos |
 | --- | --- |
 | [Categoría](/help/components/dimensions/category.md) | `Category` |
-| [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
+| [eVar 1 - eVar 250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
 | [Canal de marketing](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
-| [Detalles del canal de marketing](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
+| [Detalles de canal de marketing](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
 | [Producto](/help/components/dimensions/product.md) | `Product` |
 | [Código de seguimiento](/help/components/dimensions/tracking-code.md) | `Tracking Code` |
 | [ID de transacción](/help/implement/vars/page-vars/transactionid.md) | `transactionID` |

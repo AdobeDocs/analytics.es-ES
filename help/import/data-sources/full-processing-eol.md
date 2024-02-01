@@ -3,10 +3,11 @@ title: Fin de la vida útil de las fuentes de datos de procesamiento completo
 description: Obtenga más información sobre el anuncio de fin de vida útil para fuentes de datos de procesamiento completo.
 exl-id: 7dd6d518-156f-4bf5-86cb-04d0acc8ff0c
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '369'
+ht-degree: 4%
 
 ---
 
@@ -30,21 +31,21 @@ El 25 de marzo de 2021, el Adobe impidió que se crearan nuevas conexiones de fu
 
 Las siguientes variables se introdujeron para la inserción de datos en lote, que antes no estaba disponible en las fuentes de datos de procesamiento completo:
 
-* **`aamlh`**: Sugerencia de ubicación de Adobe Audience Manager.
+* **`aamlh`**: sugerencia de ubicación de Adobe Audience Manager.
 * **`contextData.key`**: [Variables de datos de contexto](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: Variables de servicio de ID de Experience Cloud. Incluye `id`, `authState`y `isMCSeed`.
-* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=es) variables. Incluye `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion`, y `wow64`.
-* **`ipaddress`**: La dirección IP del visitante.
+* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variables. Incluye `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion`, y `wow64`.
+* **`ipaddress`**: la dirección IP del visitante.
 * **`language`**: La [Idioma](/help/components/dimensions/language.md) dimensión.
 * **`list1`** - **`list3`**: [Variables de lista](/help/implement/vars/page-vars/list.md).
-* **`marketingCloudVisitorID`**: El Experience Cloud ID del visitante.
+* **`marketingCloudVisitorID`**: ID de Experience Cloud del visitante.
 * **`tnta`**: Carga útil de datos de destino utilizada en [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es) integraciones.
-* **`trackingServer`**: La variable.[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)
-* **`transactionID`**: La variable.[`transactionID`](/help/implement/vars/page-vars/transactionid.md)
+* **`trackingServer`**: La [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) variable.
+* **`transactionID`**: La [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variable.
 * **`userAgent`**: la cadena del agente de usuario del dispositivo.
 
 Las siguientes variables no son compatibles mediante la inserción de datos en lote:
 
-* **`charSet`**: La variable. [`charSet`](/help/implement/vars/config-vars/charset.md) La inserción de datos en lote solo admite UTF-8.
+* **`charSet`**: La [`charSet`](/help/implement/vars/config-vars/charset.md) variable. La inserción de datos en lote solo admite UTF-8.
 * **`timezone`**: La diferencia de zona horaria del visitante con respecto a la zona GMT, en horas.
 * **`clickAction`**, **`clickActionType`**, **`clickContext`**, **`clickContextType`**, **`clickSourceID`**, **`clickTag`**: variables utilizadas en la recopilación de datos de Activity Map.

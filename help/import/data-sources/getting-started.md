@@ -3,16 +3,17 @@ title: Introducción a las fuentes de datos
 description: Cargar datos de ejemplo en un grupo de informes de desarrollo.
 exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
 
 # Introducción a las fuentes de datos
 
-Puede seguir estos pasos para cargar fácilmente datos de ejemplo en un grupo de informes de desarrollo y ver el flujo de trabajo en acción. Una vez que haya comprendido el proceso, puede ampliarlo y adaptarlo específicamente a la implementación de su organización.
+Puede seguir estos pasos para cargar fácilmente datos de ejemplo en un grupo de informes de desarrollo y ver el flujo de trabajo en acción. Una vez que comprenda el proceso, puede ampliarlo y adaptarlo específicamente a la implementación de su organización.
 
 >[!IMPORTANT]
 >
@@ -23,7 +24,7 @@ Puede seguir estos pasos para cargar fácilmente datos de ejemplo en un grupo de
 1. Seleccione un grupo de informes de desarrollo mediante la lista desplegable de la parte superior derecha.
 1. Haga clic en **[!UICONTROL Crear]** en la parte superior izquierda.
 1. En [!UICONTROL Seleccionar categoría], elija &quot;[!UICONTROL Genérico]&quot;, y en [!UICONTROL Seleccionar tipo], elija &quot;[!UICONTROL Fuente de datos genérica (solo datos de resumen)]&quot;.
-1. Haga clic en **[!UICONTROL Activar]**. Se abrirá una ventana emergente que muestra el [!UICONTROL Asistente para activación de fuentes de datos].
+1. Clic **[!UICONTROL Activar]**. Se abrirá una ventana emergente que muestra el [!UICONTROL Asistente para activación de fuentes de datos].
    1. Paso 1: Asigne un nombre al origen de datos y haga clic en la casilla de verificación de exención de responsabilidad.
    1. Paso 2: Este paso tenía más uso en versiones anteriores de Adobe Analytics. Haga clic en una casilla de verificación y, a continuación, escriba cualquier valor en el campo de texto situado junto a ella.
    1. Paso 3: Elija la métrica que desea incluir en el archivo de plantilla de fuente de datos. Seleccione &quot;Evento 1&quot; de la lista desplegable.
