@@ -3,10 +3,11 @@ title: Limitar un grupo de informes virtuales a determinadas fechas
 description: Obtenga información sobre cómo limitar el intervalo de fechas de un grupo de informes virtuales para que se centre únicamente en los datos vinculados.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 35%
+source-wordcount: '284'
+ht-degree: 41%
 
 ---
 

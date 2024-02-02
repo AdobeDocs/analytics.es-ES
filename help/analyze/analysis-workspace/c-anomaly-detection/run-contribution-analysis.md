@@ -4,7 +4,7 @@ title: Ejecutar análisis de contribución
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 97%
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 [El análisis de contribución es un proceso de aprendizaje automatizado intensivo diseñado para descubrir qué contribuye a una anomalía observada en Adobe Analytics. ](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) El propósito es ayudar al usuario a descubrir las áreas de interés u oportunidades para un análisis adicional de forma más rápida de lo que sería posible de otro modo.
 
-## Ejecutar análisis de contribución {#section_7D2C5E48A5664727941DF4C90976D9DC}
+## Ejecutar análisis de contribución {#run}
 
 Hay dos formas de invocar el análisis de contribución en un proyecto:
 
@@ -31,7 +31,7 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
 
   ![](assets/contribution-analysis.png)
 
-1. (Opcional) Una vez haya hecho clic en **[!UICONTROL Ejecutar análisis de contribución]** tanto en un gráfico de líneas como en una tabla, puede reducir (y así acelerar) el ámbito del análisis mediante [la exclusión de dimensiones](#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. (Opcional) Una vez haya hecho clic en **[!UICONTROL Ejecutar análisis de contribución]** tanto en un gráfico de líneas como en una tabla, puede reducir (y así acelerar) el ámbito del análisis mediante [la exclusión de dimensiones](#exclude).
 
 1. Espere mientras se carga su análisis de contribución. Esto puede requerir una gran cantidad de tiempo, en función del tamaño del grupo de informes y el número de dimensiones. El análisis de contribución realiza análisis en 50 000 elementos por dimensión.
 1. A continuación, Analysis Workspace carga un nuevo panel de análisis de contribución directamente en este proyecto.
@@ -56,7 +56,7 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
 >
 >La anomalía analizada se resalta con un punto azul en el análisis de contribución y en los proyectos de alerta inteligente vinculados con ella. Esto proporciona una indicación más clara de la anomalía que se está analizando.
 
-## Excluir dimensiones del análisis de contribución {#section_F6932F4BF74544B5872164E7B1E0C6FC}
+## Excluir dimensiones del análisis de contribución {#exclude}
 
 Puede haber ocasiones en las que desea excluir algunas dimensiones del análisis de contribución. Por ejemplo, es posible que no le importen las dimensiones relacionadas con el navegador o el hardware, y desea acelerar el análisis eliminándolas.
 

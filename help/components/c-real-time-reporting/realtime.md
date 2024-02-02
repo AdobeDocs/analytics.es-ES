@@ -4,10 +4,10 @@ title: Resumen de informes en tiempo real
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 92%
+source-wordcount: '591'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ Los informes en tiempo real muestran tráfico de páginas web y clasifican las v
 >
 >El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte [Configuración de informes en tiempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
-## Acceso a los informes en tiempo real
+## Acceso a informes en tiempo real
 
 1. En Analysis Workspace, seleccione la [!UICONTROL **Workspace**] pestaña.
 
@@ -53,7 +53,7 @@ Tenga en cuenta que no se admiten las métricas de conversión (eVar), ya que no
 
 La configuración y visualización de informes en tiempo real está restringida a administradores o cualquier otro usuario de los grupos de permisos &quot;Acceso a todos los informes&quot; e &quot;Informes avanzados&quot;. Sin embargo, Tiempo real respeta los permisos. Por ejemplo, si no dispone de permisos para ver ingresos, no podrá ver un informe en tiempo real que incluya datos de ingresos.
 
-## Latencia de datos como resultado de la configuración de A4T {#section_806CE36354FC4C539A0DED9266A5C704}
+## Latencia de datos como resultado de la configuración de A4T {#latency-a4t}
 
 Tras activar la integración de A4T en Adobe [!DNL Target], experimentará otros 5-10 minutos de latencia en Adobe Analytics. Este aumento de la latencia permite almacenar los datos de Analytics y [!DNL Target] en la misma visita, lo que le permite desplegar las pruebas por página y por sección de sitio.
 

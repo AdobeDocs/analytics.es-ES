@@ -3,10 +3,11 @@ title: Plantilla de CDA Workspace
 description: Describe cada campo de la plantilla CDA de Analysis Workspace.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 feature: CDA
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 96%
+source-wordcount: '380'
+ht-degree: 93%
 
 ---
 
@@ -32,5 +33,5 @@ Se crea un proyecto de Analysis Workspace que contiene varios paneles. En la par
    * Granularidad de informes: La compresión por día suele ser menor que la compresión por mes o año. Las posibilidades de que un individuo utilice varios dispositivos se reducen en un solo día en comparación con todo un mes. Segmentar, filtrar o utilizar dimensiones de desglose también puede mostrar una tasa de compresión más baja.
 * **Segmentos basados en personas**: contiene una lista desplegable de segmentos que le permite ver datos específicos del dispositivo. Este panel promueve la experimentación con segmentos para ver cómo la inclusión o la exclusión de tipos de dispositivos afectan los informes.
 * **Análisis del viaje entre dispositivos**: proporciona informes de flujo y visitas en el orden previsto en función del tipo de dispositivo.
-* **Atribución entre dispositivos**: combine las características de Journey y Attribution IQ.
+* **Atribución entre dispositivos**: Combine las características de Recorrido IQ y Attribution juntos.
 * **Otros consejos y trucos**: temas útiles en torno a CDA que le permite aprovecharlo al máximo.

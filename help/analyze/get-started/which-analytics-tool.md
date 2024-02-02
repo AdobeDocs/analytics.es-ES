@@ -3,10 +3,10 @@ description: Esta página de ayuda contiene casos de uso recomendados para cada 
 title: ¿Qué herramienta de Adobe Analytics debo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 93%
+source-wordcount: '1160'
+ht-degree: 91%
 
 ---
 
@@ -55,7 +55,7 @@ Las **[Fuentes de datos](/help/import/data-sources/overview.md)** deben usarse:
 
 La **[API de inserción de datos](/help/import/c-data-insertion-api/c-data-insertion-api.md)** debe usarse:
 
-* Cuando sea necesario cargar datos en Adobe Analytics y no sea posible utilizar Adobe AppMeasurement o el código del SDK móvil.
+* Cuando sea necesario cargar datos en Adobe Analytics y no sea posible utilizar Adobe AppMeasurement ni el código del SDK móvil. Se recomienda utilizar la API de inserción masiva de datos (consulte a continuación).
 
 **[API de inserción de datos en lotes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 

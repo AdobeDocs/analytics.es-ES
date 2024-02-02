@@ -3,10 +3,11 @@ title: Configuración de análisis entre dispositivos
 description: Configure un grupo de informes virtuales para habilitar CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 92%
+source-wordcount: '533'
+ht-degree: 87%
 
 ---
 
@@ -18,7 +19,7 @@ Una vez cumplidos todos los requisitos previos, siga los pasos siguientes para h
 >
 >Todos los requisitos previos deben cumplirse antes de seguir estos pasos. Si no se cumplen todos los requisitos previos, la función no estará disponible o no funcionará. Consulte la [página de información general](overview.md) y el método de vinculación deseado ([vinculación basada en el campo](field-based-stitching.md) o [gráfico del dispositivo](device-graph.md), respectivamente) para conocer los requisitos previos y las limitaciones.
 
-## Abra un ticket con el Servicio de atención al cliente para que CDA abastezca a su grupo de informes entre dispositivos
+## 1. Abra un ticket con el Servicio de atención al cliente para que CDA abastezca a su grupo de informes entre dispositivos
 
 El departamento de ingeniería de Adobe ofrece las analíticas de varios dispositivos en el grupo de informes entre dispositivos. Para iniciar este proceso, póngase en contacto con el Servicio de atención al cliente y asegúrese de proporcionar la siguiente información:
 
@@ -31,7 +32,7 @@ El valor predeterminado es la reproducción semanal con una ventana retrospectiv
 
 Una vez que haya proporcionado esta información al Servicio de atención al cliente, estos se pondrán en contacto con el departamento de ingeniería de Adobe para habilitar el grupo de informes elegido para el procesamiento de analíticas de varios dispositivos.
 
-## Crear un grupo de informes virtuales entre dispositivos para ver la vista entre dispositivos
+## 2. Cree un grupo de informes virtuales entre dispositivos para ver la vista entre dispositivos
 
 Los administradores con acceso para crear grupos de informes virtuales pueden crear grupos de informes virtuales CDA de la siguiente manera:
 
