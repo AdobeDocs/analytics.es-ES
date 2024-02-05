@@ -1,18 +1,18 @@
 ---
-description: Requisitos del sistema y comparación de Analysis Workspace, Report Builder, Data Warehouse y Data Workbench
+description: Requisitos del sistema y comparación de Analysis Workspace, Report Builder, Data Warehouse, y Data Workbench
 title: Comparación de productos y requisitos de Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Comparación de productos y requisitos de Analytics
 
-Esta página compara varios productos de Adobe Analytics: Analysis Workspace, Report Builder, Data Warehouse, Fuentes de datos y API de Analytics 2.0.
+Esta página contiene una comparación de varios productos de Adobe Analytics: Analysis Workspace, Report Builder, Data Warehouse, Fuentes de datos y Analytics API 2.0.
 
 Para obtener información sobre qué producto de Adobe Analytics utilizar, consulte [¿Qué herramienta de Adobe Analytics debo usar?](/help/analyze/get-started/which-analytics-tool.md).
 
@@ -29,11 +29,11 @@ Para obtener información sobre qué producto de Adobe Analytics utilizar, consu
 | **Múltiples grupos de informes** | [Sí](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sí | No | Sí | No | Sí |
 | **Número de desgloses** | Sin límite | Hasta 2 | Sin límite | Sin límite | Sin límite, ejecutar en varias consultas |
 | **Segmentación** <br> [Más información](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Sí | Sí | Sí, con [limitaciones](/help/components/segmentation/seg-reference/seg-compatibility.md) | No | Sí |
-| **Métricas calculadas** <br> [Más información](/help/components/c-calcmetrics/cm-overview.md) | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) | Sí, con Attribution | Sí | No | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Métricas calculadas** <br> [Más información](/help/components/c-calcmetrics/cm-overview.md) | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) | Sí, con Atribución | Sí | No | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Canales de marketing** <br> [Más información](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Sí | Sí | Sí | Sí, [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Sí |
 | **Análisis de cohorte** | [Sí](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Sí | No | No | No |
 | **Atribución** | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) | Limitado | No | No | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) | No |
-| **Revisión** <br> [Más información](/help/analyze/analysis-workspace/curate-share/curate.md) | Sí - Proyecto y grupo de informes virtuales | No | No | No | Sí: solo grupo de informes virtuales |
+| **Revisión** <br> [Más información](/help/analyze/analysis-workspace/curate-share/curate.md) | Sí - Proyecto y grupo de informes virtuales | No | No | No | Sí. Solo grupo de informes virtuales |
 | **Uso compartido de proyectos** <br> [Más información](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Sí, con funciones de proyecto | Sí | No | No | No |
 | **Envío programado** | Sí | Sí | Sí | Sí | No |
 | **Destinos de envío** | Correo electrónico | Correo electrónico, FTP, SFTP, [publicación en Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC y correo electrónico | Amazon S3, Azure RBAC, Azure SAS y Google Cloud Platform | - |
