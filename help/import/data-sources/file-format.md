@@ -4,7 +4,7 @@ description: Generar correctamente un archivo para utilizarlo en fuentes de dato
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: cc25fe304d9cab3db3fa2ddd306338ff3bb88a55
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 5%
@@ -74,8 +74,8 @@ El Adobe no admite fuentes de datos para ninguna otra dimensión o métrica. Si 
 
 El primer valor de cada fila **debe** sea la fecha. El formato de fecha debe tener uno de los siguientes formatos:
 
-* **`MM/DD/YY/HH/mm/SS`**
-* **`MM/DD/YY`**
+* **`MM/DD/YYYY/HH/mm/SS`**
+* **`MM/DD/YYYY`**
 
 Si se omiten las horas, minutos o segundos, la marca de tiempo se establece automáticamente en 12 p. m. para ese día.
 
