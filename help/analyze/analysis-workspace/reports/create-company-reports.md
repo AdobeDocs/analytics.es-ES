@@ -3,16 +3,17 @@ description: Información general sobre el uso de los informes predeterminados e
 title: Uso de informes
 feature: Analysis Workspace
 role: User, Admin
-source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
-workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 82%
+exl-id: d2b4edca-b8f5-4c17-b470-ae0cf5d66fb2
+source-git-commit: dcc517c2cd24a1aeeb2594094d09b9187ea7d144
+workflow-type: ht
+source-wordcount: '357'
+ht-degree: 100%
 
 ---
 
-# Creación y administración de informes de empresa
+# Creación y administración de informes de compañía
 
-Puede crear informes personalizados y guardarlos para que los utilicen otros usuarios de su empresa de inicio de sesión. Los informes de compañía están disponibles para elegir al crear un proyecto, tal como se describe en [Creación de un proyecto a partir de un proyecto o informe en blanco](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) en el artículo, [Creación de proyectos en Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+Puede crear informes personalizados y guardarlos para que los utilicen otros usuarios de su compañía en la misma sesión. Los informes de compañía están disponibles para elegir al crear un proyecto, tal como se describe en el artículo [Creación de un proyecto a partir de un proyecto o informe en blanco](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report), [Creación de proyectos en Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 ## Creación de un informe de la compañía personalizado
 
