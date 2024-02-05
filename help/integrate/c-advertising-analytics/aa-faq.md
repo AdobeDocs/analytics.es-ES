@@ -3,10 +3,10 @@ description: Preguntas frecuentes sobre Advertising Analytics.
 title: Preguntas más frecuentes sobre análisis de publicidad
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 591b82e271cc7474e9b413015804d4fe37d9050c
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 50%
+source-wordcount: '1303'
+ht-degree: 36%
 
 ---
 
@@ -161,29 +161,18 @@ No, actualmente no tenemos planes para estos otros canales en la hoja de ruta.
 
 ## Seguimiento automático frente al manual {#section_7437C4698A6D482EB7ED94A948390119}
 
-<table id="table_9738FF8459574ED2937A860A665BE739"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Pregunta </th> 
-   <th colname="col2" class="entry"> Respuesta </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>P: Al configurar la cuenta de Advertising, se indica que el uso de <b>Seguimiento automático</b> puede tener consecuencias imprevistas. ¿Qué tipos de consecuencias se pueden producir? </p> </td> 
-   <td colname="col2"> <p>R: 
-     <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
-      <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">El modo automático intentará añadir los parámetros de la dirección URL al final de las plantillas de seguimiento o de las direcciones URL de destino en el formato correcto. <b>Sin embargo, usted es responsable de garantizar que los parámetros de la dirección URL añadidos se conserven correctamente en la página de aterrizaje final. </b> </li> 
-      <li id="li_1202FE1FC88342378A60E8FE65E5426B">El modo automático puede insertar palabras clave en la dirección URL de aterrizaje, pero es posible que el servidor web no admita palabras clave con caracteres especiales. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>P: Si configuro en un primer momento el seguimiento automático o manual, <b>¿puedo cambiar</b> al otro modo más adelante? ¿Qué implicaciones hay? </p> </td> 
-   <td colname="col2"> <p>R: Sí, puede cambiar, pero antes deberá eliminar la antigua lógica de seguimiento. El resultado puede ser que se ralentice el seguimiento el día en que se realice el cambio (especialmente si se pasa de manual a automático). Por todo ello, se recomienda no hacer este cambio salvo que sea absolutamente necesario. </p> 
-    <ul id="ul_3F3CADD1C97B4947A13837CEE63A599D"> 
-     <li id="li_CB9265951FD040388AEAB9EAD790A36E"><b>Cambio de Manual a Automático</b>: quite las adiciones manuales hechas en las plantillas de seguimiento y, a continuación, en la interfaz de usuario de Advertising Analytics, cambie el conmutador de Manual a Automático. Después, guarde la configuración. Tenga en cuenta que el sistema puede tardar hasta x horas en rellenar los códigos de seguimiento automático. </li> 
-     <li id="li_2B6ED1342E2D443B8AF26D03532AB8E4"><b>Cambio de Automático a Manual</b>: en la interfaz de usuario de Advertising Analytics, cambie el conmutador de Automático a Manual y después implemente lo más rápido posible los códigos de seguimiento manual. Si mientras implementa los códigos de seguimiento manual ve los códigos de seguimiento automático en las plantillas de seguimiento del motor de búsqueda, elimínelos. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ Al configurar mi cuenta publicitaria, se indica lo siguiente<b> Seguimiento automático</b> puede tener consecuencias no deseadas. ¿Qué tipos de consecuencias se pueden producir?
+
+El modo automático intenta anexar parámetros de URL al final de las plantillas de seguimiento/URL de destino en el formato correcto. <b>Sin embargo, es su responsabilidad asegurarse de que los parámetros de URL añadidos se conserven correctamente en la página de aterrizaje final. El modo automático puede insertar palabras clave en la dirección URL de aterrizaje, pero es posible que el servidor web no admita palabras clave con caracteres especiales.
+
++++
+
++++ Si configuro el seguimiento manual o automático inicialmente, ¿puedo cambiar al otro modo de seguimiento más adelante? ¿Qué implicaciones hay?
+
+Sí, puede cambiar los modos de seguimiento, pero debe eliminar la lógica de seguimiento antigua antes de realizar el cambio. El resultado puede ser que se ralentice el seguimiento el día en que se realice el cambio (especialmente si se pasa de manual a automático). Como tal, recomendamos no cambiar a menos que sea absolutamente necesario.
+
+* Cambio de manual a automático: elimine las adiciones manuales a las plantillas de seguimiento y, a continuación, cambie el conmutador de la IU de Advertising Analytics de manual a automático y guarde la configuración. Tenga en cuenta que el sistema puede tardar varias horas en rellenar los códigos de seguimiento automáticos.
+
+* Cambio de automático a manual: actualice el cambio de manual a automático en la interfaz de usuario de configuración de Advertising Analytics y, a continuación, implemente los códigos de seguimiento manuales lo antes posible. Si mientras implementa los códigos de seguimiento manual ve los códigos de seguimiento automático en las plantillas de seguimiento del motor de búsqueda, elimínelos.
+
++++

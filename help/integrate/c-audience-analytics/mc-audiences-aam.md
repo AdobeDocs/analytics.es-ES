@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Resumen de Audience Analytics
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 44%
+source-wordcount: '470'
+ht-degree: 42%
 
 ---
 
@@ -19,7 +19,7 @@ Una vez que el Audience Analytics se haya integrado, podrá incorporar datos de 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
 
-## Ventajas principales {#section_94816D17283349E0BA28521BE55BB868}
+## Ventajas principales {#benefits}
 
 La integración de Audience Analytics ofrece las siguientes ventajas principales:
 
@@ -29,19 +29,19 @@ La integración de Audience Analytics ofrece las siguientes ventajas principales
 * Los administradores de soluciones pueden habilitar la integración desde la interfaz de usuario, solo se requieren cambios mínimos en el código.
 * Solo se comparten los segmentos que satisfacen los controles de exportación de datos de Audience Manager.
 
-## Cómo funciona {#section_CECDF5A0FEC64264B206EFEF54F19EF2}
+## Cómo funciona Audience Analytics {#works}
 
 ![](assets/mc-aud-dataflow.png)
 
 1. Cada vez que un visitante llega a una de sus propiedades digitales, las visitas se recopilan y se envían a Analytics.
-1. Con el [reenvío del lado del servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md), cada visita que Analytics recibe se envía automáticamente a Adobe Audience Manager en tiempo real.
+1. Con [reenvío del lado del servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md), cada visita que Analytics recibe se envía automáticamente a Adobe Audience Manager en tiempo real.
 1. A través de la integración de Audience Analytics, para cada visita se busca en Adobe Audience Manager si el visitante pertenece a alguna audiencia y se devuelve a Analytics una lista de ID de segmento para su procesamiento en tiempo real.
 
 Como los segmentos de Adobe Audience Manager se insertan por visita, puede estar seguro de que no le faltará ningún dato de Adobe Audience Manager sobre un visitante, y de que los datos de las visitas de dicho visitante estarán actualizados. Esta característica es mejor que un complemento de AppMeasurement, ya que los complementos solo pueden ofrecer los segmentos en la siguiente visita (y no en la visita actual).
 
 Además, clasificamos automáticamente los ID de segmento de Adobe Audience Manager con sus nombres descriptivos para que no tengan que ver los ID alfanuméricos en los informes de Analytics.
 
-## Requisitos previos {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
+## Requisitos previos {#prerequisites}
 
 Asegúrese de que se cumplen los siguientes requisitos previos:
 
