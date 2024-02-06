@@ -3,9 +3,10 @@ description: Pasos administrativos para activar Informes de AEM Assets en Analyt
 title: Creación de informes sobre AEM Assets en Adobe Analytics
 feature: AEM Assets Reporting
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
-source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '108'
 ht-degree: 100%
 
 ---

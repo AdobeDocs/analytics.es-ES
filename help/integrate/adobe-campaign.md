@@ -3,12 +3,14 @@ description: Obtenga información sobre cómo habilitar los informes de Adobe Ca
 title: ¿Cómo se integra la creación de informes de Adobe Campaign Standard en Adobe Analytics?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 68%
+source-wordcount: '512'
+ht-degree: 67%
 
 ---
+
 
 # Informes de Adobe Campaign Standard
 
@@ -50,11 +52,11 @@ Una vez que el grupo de informes esté habilitado para Adobe Campaign, quedan di
 
 | Clasificación de | Descripción |
 | --- | --- |
-| [!UICONTROL ID de entrega] | Nombre de entrega interno que ve en Campaign |
-| [!UICONTROL Etiqueta de entrega] | Entrega en Campaign: Entrega individual/Entrega recurrente/Entrega de transacción |
+| [!UICONTROL ID de envío] | Nombre de entrega interno que ve en Campaign |
+| [!UICONTROL Etiqueta de envío] | Entrega en Campaign: Entrega individual/Entrega recurrente/Entrega de transacción |
 | [!UICONTROL ID de campaña] | Nombre de campaña interno que se ve en Campaign |
 | [!UICONTROL Etiqueta de campaña] | Campaign en Adobe Campaign |
-| [!UICONTROL Etiqueta de entrega ejecutada] | Lista de envíos ejecutados individuales |
+| [!UICONTROL Etiqueta de envío ejecutada] | Lista de envíos ejecutados individuales |
 
 ## Dimensiones y métricas de Adobe Campaign Standard disponibles en Adobe Analytics {#section_F33385C9660644AF84172EC39601469B}
 

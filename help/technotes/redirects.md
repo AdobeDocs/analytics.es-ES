@@ -4,10 +4,10 @@ keywords: Implementación de Analytics
 title: Redirecciones y alias
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 100%
+source-wordcount: '1105'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Las redirecciones llevan al navegador a una nueva ubicación sin interacción del usuario. Se ejecutan en el navegador web (redirección del lado del cliente) o el servidor web (redirección del lado del servidor).
 
-## Redirecciones y alias {#concept_F4F1D53D473947FE8554897332545763}
+## Redirecciones y alias {#aliases}
 
 Las redirecciones llevan al navegador a una nueva ubicación sin interacción del usuario. Se ejecutan en el navegador web (redirección del lado del cliente) o el servidor web (redirección del lado del servidor).
 
@@ -23,11 +23,11 @@ Dado que las redirecciones no requieren interacción del usuario, se suelen ejec
 
 Aunque solo existen dos tipos de redirecciones, pueden implementarse de muchas maneras. Por ejemplo: las redirecciones del lado del cliente se pueden producir porque la página web a la que el usuario ha apuntado su navegador contiene un código HTML especial o una secuencia de comandos que redirecciona el navegador a otra dirección URL. Las redirecciones del lado del servidor se producen porque la página contiene secuencias de comandos del lado del servidor o porque el servidor web se ha configurado para dirigir al usuario hacia otra URL.
 
-## Analytics y redirecciones {#concept_F9132879D0CB4AC1BE7AF45E388A47F7}
+## Analytics y redirecciones {#aa-redirects}
 
 [!DNL Analytics] recopila algunos de sus datos del navegador y se basa en algunas de sus propiedades. Dos de esas propiedades, la “dirección URL de referencia” (o “referente”) y la “dirección URL actual” se pueden cambiar por una redirección del lado del servidor. El navegador, al ver que se ha solicitado una dirección URL pero se ha devuelto otra diferente, borra la dirección URL de referencia. El resultado es que la dirección URL de referencia está en blanco y [!DNL Analytics] podría notificar que no existe un referente para la página.
 
-## Ejemplo: navegación sin redirecciones {#section_5C835A4D665A4625A23333C2C21F152D}
+## Ejemplo: navegación sin redirecciones {#browse-without}
 
 Imagine la siguiente situación hipotética en la que el usuario no se topa con ninguna redirección:
 
@@ -36,7 +36,7 @@ Imagine la siguiente situación hipotética en la que el usuario no se topa con 
 1. El usuario hace clic en el vínculo de su sitio hipotético, [!DNL https://www.example.com/]. Cuando el usuario hace clic en este vínculo y aterriza en el sitio web de [!DNL example.com], [!DNL Analytics] utiliza JavaScript para recopilar la dirección URL de referencia (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) así como la dirección URL actual (`https://www.example.com/`).
 1. [!DNL Analytics] registra la información recopilada durante la interacción en distintos informes, como [!UICONTROL Dominios de referencia], [!UICONTROL Motores de búsqueda] y [!DNL Search Keywords].
 
-## Ejemplo: navegación con redirecciones {#section_921DDD32932847848C4A901ACEF06248}
+## Ejemplo: navegación con redirecciones {#browse-with}
 
 Las redirecciones pueden hacer que el navegador borre la verdadera dirección URL de referencia. Imagine la siguiente situación:
 
@@ -44,25 +44,13 @@ Las redirecciones pueden hacer que el navegador borre la verdadera dirección UR
 1. La barra de direcciones de la ventana del explorador muestra los términos de búsqueda que el usuario escribió en el campo de búsqueda `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Observe que los términos de búsqueda se incluyen en los parámetros de la cadena de consulta de la dirección URL que están después de `https://www.google.com/search?`. El navegador también muestra una página que contiene los resultados de la búsqueda, entre los que se incluye un vínculo a uno de sus nombres de dominio: [!DNL https://www.flytohawaiiforfree.com/]. Este dominio *mnemónico* está configurado para redireccionar al usuario a `https://www.example.com/`.
 1. El usuario hace clic en el vínculo `https://www.flytohawaiiforfree.com/` y el servidor lo redirecciona a su sitio principal, `https://www.example.com`. Cuando se produce la redirección, se pierden datos importantes para la recopilación de datos de [!DNL Analytics] porque el explorador borra la dirección URL de referencia. Por ello, se pierde la información de la búsqueda original que se usa en los informes de [!DNL Analytics] (por ejemplo: [!UICONTROL Dominios de referencia], [!UICONTROL Motores de búsqueda] y [!UICONTROL Palabras clave de búsqueda]).
 
-## Implementar redirecciones {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
+## Implementar redirecciones {#implement}
 
 Para captar los datos de [!DNL Analytics] provenientes de las redirecciones, es necesario realizar cuatro pequeñas modificaciones en el código que crea la redirección y el [!DNL AppMeasurement] archivo de para JavaScripts.
 
-<!-- 
-
-redirects_implement.xml
-
- -->
-
 Al llevar a cabo los siguientes pasos, se conservará la información que transfiere a su sitio el referente original (por ejemplo, `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` en el caso anterior):
 
-## Configuración del código de JavaScript para ignorar el referente {#section_87BB1D47D9C345C18339078824645CC4}
-
-<!-- 
-
-redirects_js_override.xml
-
- -->
+## Configuración del código de JavaScript para ignorar el referente {#override}
 
 El siguiente fragmento de código muestra dos variables de JavaScript, *`s_referrer`* y *`s_pageURL`*. El código se sitúa en la página de aterrizaje definitiva de la redirección.
 
@@ -82,7 +70,7 @@ s.pageURL=""
 >
 >Configurar *`s.referrer`* solo una vez en la página. Si la establece más de una vez con cada llamada de seguimiento o con cada clic en el vínculo que se rastree ocasiona el recuento doble del referente y dimensiones relacionadas, como motores de búsqueda y palabras clave.
 
-## Redirecciones mediante getQueryParam {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
+## Redirecciones mediante getQueryParam {#getqueryparam}
 
 Si bien [!UICONTROL getQueryParam] permite rellenar fácilmente las variables de [!DNL Analytics] con valores de las cadenas de consulta, este complemento se debe implementar junto con una variable temporal para que los referentes legítimos no se sobrescriban cuando la cadena de consulta esté vacía. La mejor manera de usar [!UICONTROL getQueryParam] es con el complemento [!UICONTROL getValue] tal como se indica con el seudocódigo siguiente.
 
@@ -100,25 +88,13 @@ if(tempVar)
   s.referrer=tempVar;
 ```
 
-## Modificación del mecanismo de redirección {#section_2FF9921E8FCA4440B6FF90F15386E548}
+## Modificación del mecanismo de redirección {#modify}
 
-<!-- 
-
-redirects_modify_mechanism.xml
-
- -->
-
-Puesto que el explorador elimina la dirección URL de referencia, se debe configurar el mecanismo que se ocupa de la redirección (por ejemplo: servidor web, código del lado del servidor, código del lado del cliente) de modo que transmita la información del referente original. Si, además, desea registrar la dirección URL del vínculo de alias, esta también se debe transferir a la página de aterrizaje definitiva. Use la variable *`s_pageURL`* para ignorar la URL actual.
+Puesto que el explorador elimina la dirección URL de referencia, se debe configurar el mecanismo que se ocupa de la redirección (por ejemplo: servidor web, código del lado del servidor, código del lado del cliente) de modo que transmita la información del referente original. Si, además, desea registrar la dirección URL del vínculo de alias, esta también se debe transferir a la página de aterrizaje definitiva. Utilice el *`s_pageURL`* para anular la dirección URL actual.
 
 Dado que existen varias formas de implementar una redirección, es posible que tenga que consultar al grupo de operaciones web o a su socio de publicidad en línea cuáles son los mecanismos concretos que ejecutan las redirecciones en su sitio web.
 
-## Captación del referente original {#section_7F1A77F447CF485385B456A64B174050}
-
-<!-- 
-
-redirects_referrer.xml
-
- -->
+## Captación del referente original {#original}
 
 En general, [!DNL Analytics] obtiene la dirección URL de referencia de la propiedad [!UICONTROL document.referrer] del explorador, y la dirección URL actual de la propiedad [!UICONTROL document.location]. Al pasar valores a las variables *`referrer`* y *`pageURL`*, puede anular el procesamiento predeterminado. Al transferir un valor a la variable referrer, [!DNL Analytics] interpreta que debe ignorar la información del referente que se encuentra en la propiedad [!UICONTROL document.referrer] y utilizar un valor alternativo que usted defina.
 
@@ -137,13 +113,7 @@ s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tick
 s.pageURL="https://www.flytohawaiiforfree.com"
 ```
 
-## Comprobación del referente con Adobe Debugger {#section_B3E85941982E4E1698B271375AD669B9}
-
-<!-- 
-
-redirects_verify_referrer.xml
-
- -->
+## Comprobación del referente con Adobe Debugger {#verify}
 
 Ejecute una prueba para comprobar si se captan las variables campaign, dirección URL de origen (*`s_server`*) y referente.
 
