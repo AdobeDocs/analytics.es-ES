@@ -3,9 +3,9 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d52e4d41ac0fc6ce6db04e491fc33bac2284f040
+source-git-commit: e9abbc03cf01abecab4ea0627624b5272b503d5c
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '722'
 ht-degree: 42%
 
 ---
@@ -21,7 +21,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 14 de febrero d
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Activity Map para SDK web sin coste adicional** | Actualmente, los eventos de vínculo de Activity Map se cuentan como eventos propios y conllevan un coste adicional. Esta mejora toma algunos eventos de vínculo y los empaqueta en la siguiente visita, de forma similar a como el AppMeasurement gestiona los eventos. |  | jueves, 06 de marzo de 2024 |
-| **Aumento de los umbrales de poco tráfico predeterminados** | Entrada **mediados de abril de 2024**, el Adobe empezará a aumentar los umbrales de poco tráfico predeterminados del grupo de informes de la siguiente manera: ![umbrales de poco tráfico](assets/thresholds.png) Esto solo afecta a las variables que actualmente están configuradas por debajo de los nuevos umbrales. Estos cambios se realizarán gradualmente y esperamos que el trabajo se complete antes de que finalice el **finales de mayo**. A medida que se desplieguen estos aumentos, es posible que observe cambios en las variables de alta cardinalidad:<ul><li>Pueden estar disponibles más valores de dimensión para la creación de informes.</li><li>Los segmentos y las métricas calculadas pueden incluir más datos.</li><li>Los grupos de informes virtuales basados en segmentos pueden incluir más datos.</li></ul> | Mediados de abril de 2024 | Final de mayo de 2024 |
+| **Aumento de los umbrales de poco tráfico predeterminados** | Entrada **mediados de abril de 2024**, el Adobe empezará a aumentar los umbrales de poco tráfico predeterminados del grupo de informes de la siguiente manera: ![umbrales de poco tráfico](assets/thresholds.png) Esto solo afecta a las variables que actualmente están configuradas por debajo de los nuevos umbrales. Estos cambios se realizarán gradualmente y esperamos que el trabajo se complete antes de que finalice el **finales de mayo**. A medida que se desplieguen estos aumentos, es posible que observe cambios en las variables de alta cardinalidad:<ul><li>Pueden estar disponibles más valores de dimensión para la creación de informes.</li><li>Los segmentos y las métricas calculadas pueden incluir más datos.</li><li>Los grupos de informes virtuales basados en segmentos pueden incluir más datos.</li><li>Las exportaciones de clasificación pueden incluir más datos.</li></ul> | Mediados de abril de 2024 | Final de mayo de 2024 |
 
 {style="table-layout:auto"}
 
