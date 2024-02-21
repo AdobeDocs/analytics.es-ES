@@ -3,10 +3,10 @@ description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración del destino de un informe para una solicitud de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
+source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
 workflow-type: tm+mt
-source-wordcount: '2308'
-ht-degree: 10%
+source-wordcount: '2441'
+ht-degree: 9%
 
 ---
 
@@ -94,7 +94,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
       |---------|----------|
       | [!UICONTROL **ID de aplicación**] | Copie este ID de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en **Información general** dentro de la aplicación. Para obtener más información, consulte la [Documentación de Microsoft Azure sobre cómo registrar una aplicación con Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
       | [!UICONTROL **ID de inquilino**] | Copie este ID de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en **Información general** dentro de la aplicación. Para obtener más información, consulte la [Documentación de Microsoft Azure sobre cómo registrar una aplicación con Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **URI de Key Vault**] | <p>Ruta al token SAS en Azure Key Vault.  Para configurar Azure SAS, debe almacenar un token SAS como secreto mediante Azure Key Vault. Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Una vez creado el URI del almacén de claves, agregue una directiva de acceso en el almacén de claves para conceder permiso a la aplicación de Azure que ha creado. Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo asignar una directiva de acceso de Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+      | [!UICONTROL **URI de Key Vault**] | <p>Ruta al token SAS en Azure Key Vault.  Para configurar Azure SAS, debe almacenar un token SAS como secreto mediante Azure Key Vault. Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Una vez creado el URI de key vault:<ul><li>Agregue una directiva de acceso en Key Vault para conceder permiso a la aplicación de Azure que ha creado.</li><li>Asegúrese de que el ID de aplicación tenga concedido el `Key Vault Certificate User` función integrada para acceder al URI de almacén de claves.</br><p>Para obtener más información, consulte [Funciones integradas de Azure](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo asignar una directiva de acceso de Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
       | [!UICONTROL **Nombre secreto de almacén de claves**] | El nombre secreto que creó al agregar el secreto a Azure Key Vault. En Microsoft Azure, esta información se encuentra en Key Vault que ha creado, en **Key Vault** páginas de configuración. Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
       | [!UICONTROL **Secreto**] | Copie el secreto de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en **Certificados y secretos** dentro de la aplicación. Para obtener más información, consulte la [Documentación de Microsoft Azure sobre cómo registrar una aplicación con Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
@@ -163,7 +163,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
       | Campo | Función |
       |---------|----------|
       | [!UICONTROL **Nombre del contenedor**] | El contenedor de la cuenta que especificó a donde desea enviar los datos de Adobe Analytics. |
-      | [!UICONTROL **Prefijo de clave**] | Carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, agregue una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
+      | [!UICONTROL **Prefijo de clave**] | Carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, agregue una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/`<p>Asegúrese de que el almacén de tokens SAS que especificó en el campo Nombre secreto de Key Vault al configurar la cuenta SAS de Azure tenga el valor `Write` permiso. Esto permite que el token SAS cree archivos en el contenedor de Azure. <p>Si desea que el token SAS sobrescriba también los archivos, asegúrese de que el almacén de tokens SAS tiene el `Delete` permiso.</p><p>Para obtener más información, consulte [Recursos de almacenamiento de blob](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) en la documentación de Azure Blob Storage.</p> |
 
       {style="table-layout:auto"}
 
@@ -176,7 +176,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
       | Campo | Función |
       |---------|----------|
       | [!UICONTROL **Nombre del contenedor**] | El contenedor de la cuenta que especificó a donde desea enviar los datos de Adobe Analytics. Asegúrese de conceder permisos para cargar archivos en la aplicación de Azure que creó anteriormente. |
-      | [!UICONTROL **Prefijo de clave**] | Carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, agregue una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
+      | [!UICONTROL **Prefijo de clave**] | Carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, agregue una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/`<p>Asegúrese de que el ID de aplicación especificado al configurar la cuenta de Azure RBAC tenga concedido el `Storage Blob Data Contributor` para acceder al contenedor (carpeta).</p> <p>Para obtener más información, consulte [Funciones integradas de Azure](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
       | [!UICONTROL **Nombre de cuenta**] | La cuenta de almacenamiento de Azure. |
 
       {style="table-layout:auto"}
