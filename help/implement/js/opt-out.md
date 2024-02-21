@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear e implementar Vínculos de n
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e196e94e891ca7a6b4b1f50482cb342f2339ea8f
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 71%
+source-wordcount: '590'
+ht-degree: 67%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 71%
 
 >[!IMPORTANT]
 >
-> **Esta página de ayuda permite a los clientes de Adobe Analytics proporcionar a sus usuarios vínculos de no participación. Si no es cliente de Adobe Analytics, consulte [Opciones de privacidad de Adobe](https://www.adobe.com/es/privacy/opt-out.html) para controlar cómo utiliza el Adobe su información.**
+> Este artículo proporciona lo siguiente **Clientes de Adobe Analytics que (planean) implementar Adobe Analytics** en su sitio web con instrucciones sobre cómo proporcionar a los usuarios de los sitios web vínculos de exclusión. <p><p>
+> Si es usted **visitar un sitio web que haya implementado Adobe Analytics**, y desea optar por su exclusión, **<span style="color:red">este artículo NO es para usted</span>**. Consulte lo siguiente [Opciones de privacidad de Adobe](https://www.adobe.com/es/privacy/opt-out.html) para controlar cómo utiliza el Adobe su información.
 
 Algunos visitantes del sitio Web prefieren no incluir su información de navegación en el conjunto de datos. El Adobe permite proporcionar a los visitantes de un sitio web un medio para evitar que se analice su información.
 
