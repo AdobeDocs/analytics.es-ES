@@ -3,16 +3,16 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e9abbc03cf01abecab4ea0627624b5272b503d5c
+source-git-commit: bb2b0f715941135d119d862b64c02f05800b3fdd
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 42%
+source-wordcount: '751'
+ht-degree: 40%
 
 ---
 
 # Notas de la versión actuales de Adobe Analytics (febrero de 2024)
 
-**Última actualización**: sábado, 16 de febrero de 2024
+**Última actualización**: jueves, 21 de febrero de 2024
 
 Estas notas de la versión abarcan el periodo de lanzamiento del 14 de febrero de 2024 al 11 de marzo de 2024. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,6 +20,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 14 de febrero d
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Documentación de API de Data Warehouse** | Consulte la [API DE Data Warehouse DE Adobe Analytics 2.0](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Warehouse%20APIs#/Data%20Warehouse%20Scheduled%20Requests%20API) para obtener más información. Ir a [!UICONTROL Seleccionar una definición] y seleccione [!UICONTROL API de Data Warehouse]. | | martes, 19 de febrero de 2024 |
 | **Activity Map para SDK web sin coste adicional** | Actualmente, los eventos de vínculo de Activity Map se cuentan como eventos propios y conllevan un coste adicional. Esta mejora toma algunos eventos de vínculo y los empaqueta en la siguiente visita, de forma similar a como el AppMeasurement gestiona los eventos. |  | jueves, 06 de marzo de 2024 |
 | **Aumento de los umbrales de poco tráfico predeterminados** | Entrada **mediados de abril de 2024**, el Adobe empezará a aumentar los umbrales de poco tráfico predeterminados del grupo de informes de la siguiente manera: ![umbrales de poco tráfico](assets/thresholds.png) Esto solo afecta a las variables que actualmente están configuradas por debajo de los nuevos umbrales. Estos cambios se realizarán gradualmente y esperamos que el trabajo se complete antes de que finalice el **finales de mayo**. A medida que se desplieguen estos aumentos, es posible que observe cambios en las variables de alta cardinalidad:<ul><li>Pueden estar disponibles más valores de dimensión para la creación de informes.</li><li>Los segmentos y las métricas calculadas pueden incluir más datos.</li><li>Los grupos de informes virtuales basados en segmentos pueden incluir más datos.</li><li>Las exportaciones de clasificación pueden incluir más datos.</li></ul> | Mediados de abril de 2024 | Final de mayo de 2024 |
 
