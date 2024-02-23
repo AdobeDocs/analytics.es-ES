@@ -4,9 +4,9 @@ title: Información general del diccionario de datos
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
-workflow-type: ht
-source-wordcount: '532'
+source-git-commit: 48e75fc4e9cc60bfd6865f7e80060c07ecf25ad8
+workflow-type: tm+mt
+source-wordcount: '526'
 ht-degree: 100%
 
 ---
@@ -65,8 +65,6 @@ Puede acceder al diccionario de datos de cualquiera de las siguientes maneras en
 
   ![Icono del diccionario de datos en la ventana emergente de información](assets/data-dictionary-access-infopopover.png)
   <!--update screenshot; this was taken from a mock-->
-
-* Desde el menú: [!UICONTROL **Ayuda**] > [!UICONTROL **Diccionario de datos**].
 
 Para obtener información detallada sobre las distintas opciones disponibles en el diccionario de datos, consulte [Ver información del componente en el diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
