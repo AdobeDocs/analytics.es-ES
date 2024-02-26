@@ -4,10 +4,10 @@ description: Preguntas más frecuentes sobre las fuentes de datos.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: f7d07525c97f4aa145dc46198f883a37cde80158
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 4%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ Los datos cargados a través de fuentes de datos no afectan a [Page views](/help
 
 +++¿Se pueden eliminar los datos importados mediante fuentes de datos?
 
-**No.** Los datos cargados en informes mediante fuentes de datos son **permanente**. No se puede eliminar, ni siquiera por Adobe, una vez importado. El Adobe recomienda encarecidamente cargar las fuentes de datos en un grupo de informes de prueba antes de cargarlos en un grupo de informes de producción.
+Sí. Puede eliminar estos datos mediante el [API de reparación de datos](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Además, el Adobe recomienda encarecidamente cargar las fuentes de datos en un grupo de informes de prueba antes de cargarlos en un grupo de informes de producción.
 +++
 
 +++¿Cuántos datos se pueden importar a la vez?
