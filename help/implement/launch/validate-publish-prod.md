@@ -4,7 +4,7 @@ description: Descubra cómo utilizar etiquetas de Adobe Experience Platform para
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 72%
@@ -23,7 +23,7 @@ Una vez que la biblioteca de etiquetas se haya puesto en producción, su organiz
 
 El depurador de Experience Cloud es una extensión que muestra todas las etiquetas de Experience Cloud presentes en una página.
 
-1. Instale la extensión para lo siguiente [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) o Firefox.
+1. Instale la extensión para lo siguiente [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) o Firefox.
 2. Vaya al sitio web de desarrollo en el que haya implementado etiquetas.
 3. Haga clic en el icono de Adobe Experience Cloud Debugger en el navegador.
 4. Si todo está correctamente implementado, debe ver el contenido dentro de Adobe Analytics, etiquetas y el servicio de ID de visitante de Adobe Experience Cloud.
