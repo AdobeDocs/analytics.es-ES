@@ -3,9 +3,9 @@ description: Preguntas frecuentes sobre Advertising Analytics.
 title: Preguntas más frecuentes sobre análisis de publicidad
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 02b6c4f4504785353f9b2457099d3332cd25a852
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1300'
 ht-degree: 36%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 36%
 
 +++ ¿Debo ser cliente de Adobe Advertising Cloud o Adobe Advertising Cloud (AMO) para acceder a esta funcionalidad?
 
-No, esta funcionalidad está disponible para clientes que no son de Advertising Cloud ni de AMO. </p> <p>Los clientes de AMO pueden aprovechar la integración Analytics-AMO existente; no podrán utilizar Ad Analytics.
+No, esta funcionalidad está disponible para clientes que no son de Advertising Cloud ni de AMO.
+
+Los clientes de AMO pueden aprovechar la integración Analytics-AMO existente; no podrán utilizar Ad Analytics.
 
 +++
 
@@ -104,7 +106,7 @@ No, los datos de búsqueda sin procesar se incluirán como un conjunto de datos 
 +++ Estoy intentando asignar mis cuentas de Advertising Analytics a un grupo de informes específico, pero no está disponible en el modal del grupo de informes. ¿Por qué?
 
 Antes de poder asignar un grupo de informes a una cuenta de Advertising Analytics, el grupo de informes en cuestión debe estar [aprovisionado para informes de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
-Esto se realiza a través de una página de Administración independiente a la que se puede acceder desde: Administración > Grupos de informes > [seleccionar grupo de informes] > Editar configuración > Configuración de Advertising Analytics.
+Esto se realiza a través de una página de Administración independiente a la que se puede acceder desde: Administración > Grupos de informes > `[select report suite]` > Editar configuración > Configuración de Advertising Analytics.
 
 +++
 
@@ -114,7 +116,7 @@ Los grupos de informes virtuales no recopilan datos, por lo que no puede asignar
 
 +++
 
-+++ ¿Se pueden registrar las métricas de Advertising Analytics en la <b>Canales de marketing</b> ¿reportar?
++++ ¿Se pueden registrar las métricas de Advertising Analytics en la *Canales de marketing* ¿reportar?
 
 No, no se incluyen en el informe Canales de marketing.
 
@@ -126,13 +128,13 @@ Los datos de búsqueda se obtienen de los motores de búsqueda alrededor de las 
 
 +++
 
-+++ Qué puede ser <b>capturado antes del clic</b>? ¿Obtenemos impresiones, costes, posiciones medias, etc. incluso sin el clic? </p> </td>
++++ Qué puede ser *capturado antes del clic*? ¿Obtenemos impresiones, costes, posiciones medias, etc. incluso sin el clic?
 
 El ID de AMO registrará las métricas del motor de búsqueda: impresiones, costes, clics, posición media y puntuación de calidad media. Si no hay clics, pero hay impresiones, los datos de impresión, posición y calidad se enviarán a Analytics. Normalmente, si no hay clics, tampoco hay costes.
 
 +++
 
-+++ ¿A qué nivel se capturan estos datos? <b>¿Una visita? Visita individual?</b>
++++ ¿A qué nivel se capturan estos datos? *¿Una visita? Visita individual?*
 
 Las métricas del motor de búsqueda se capturan en el nivel de la visita y se conectan al ID de AMO (y a sus clasificaciones). Son datos del nivel de resumen, y no están relacionados con los visitantes ni sus sesiones. Por este motivo, las métricas del motor de búsqueda solo se pueden usar en segmentos que estén dentro del ámbito del nivel de visita y se basan en el ID de AMO, o sus clasificaciones.
 
@@ -140,7 +142,7 @@ El ID de AMO también se captura en la página de aterrizaje, en la visita de la
 
 +++
 
-+++ ¿Solo capturamos google.com o <b>versiones de países</b> (como google.co.uk, google.it, google.fr o google.de) también?
++++ ¿Solo capturamos google.com o *versiones de países* (como google.co.uk, google.it, google.fr o google.de) también?
 
 La clasificación de la Plataforma de publicidad registra estos valores: &quot;Google AdWords&quot; y &quot;Bing Ads&quot;. Una recomendación habitual es incluir el código de país como parte del nombre de las campañas. A continuación, puede filtrarlas o segmentarlas (por ejemplo, si todas las campañas empiezan por códigodepaís_, el hecho de crear un segmento en el que las campañas (ID de AMO) empiecen por “UK_” solo le proporcionaría datos para el Reino Unido).
 
@@ -152,7 +154,7 @@ La clasificación de la Plataforma de publicidad registra estos valores: &quot;G
 
 +++
 
-+++ ¿Hay planes para incluir otros canales publicitarios como <b>Mostrar</b> o <b>Social</b>?
++++ ¿Hay planes para incluir otros canales publicitarios como *Mostrar* o *Social*?
 
 No, actualmente no tenemos planes para estos otros canales en la hoja de ruta.
 
@@ -161,9 +163,9 @@ No, actualmente no tenemos planes para estos otros canales en la hoja de ruta.
 
 ## Seguimiento automático frente al manual {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ Al configurar mi cuenta publicitaria, se indica lo siguiente<b> Seguimiento automático</b> puede tener consecuencias no deseadas. ¿Qué tipos de consecuencias se pueden producir?
++++ Al configurar mi cuenta publicitaria, se indica lo siguiente *Seguimiento automático* puede tener consecuencias no deseadas. ¿Qué tipos de consecuencias se pueden producir?
 
-El modo automático intenta anexar parámetros de URL al final de las plantillas de seguimiento/URL de destino en el formato correcto. <b>Sin embargo, es su responsabilidad asegurarse de que los parámetros de URL añadidos se conserven correctamente en la página de aterrizaje final. El modo automático puede insertar palabras clave en la dirección URL de aterrizaje, pero es posible que el servidor web no admita palabras clave con caracteres especiales.
+El modo automático intenta anexar parámetros de URL al final de las plantillas de seguimiento/URL de destino en el formato correcto. Sin embargo, es su responsabilidad asegurarse de que los parámetros de URL añadidos se conserven correctamente en la página de aterrizaje final. El modo automático puede insertar palabras clave en la dirección URL de aterrizaje, pero es posible que el servidor web no admita palabras clave con caracteres especiales.
 
 +++
 
