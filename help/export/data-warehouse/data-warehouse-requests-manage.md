@@ -4,9 +4,9 @@ title: Administrar solicitudes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1148'
 ht-degree: 4%
 
 ---
@@ -19,9 +19,13 @@ Las secciones siguientes describen las actividades que puede realizar al adminis
 
 ## Ver solicitudes
 
+De forma predeterminada, solo puede ver las solicitudes que cree, a menos que los usuarios hayan elegido hacer sus solicitudes visibles para otros miembros de la organización (como se describe en [Configuración general de solicitudes de Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md)). Los administradores del sistema pueden ver todas las solicitudes.
+
+Para ver solicitudes de Data Warehouse:
+
 1. En Adobe Analytics, seleccione [!UICONTROL **Herramientas**] > [!UICONTROL **Data Warehouse**].
 
-   La página Data Warehouse muestra todas las solicitudes que ha realizado. <!-- just those you have made? -->Los datos se muestran en cada columna. Puede [configurar qué columnas](#configure-columns) son visibles.
+   La página Data Warehouse muestra todas las solicitudes que ha realizado. Los datos se muestran en cada columna. Puede [configurar qué columnas](#configure-columns) son visibles.
 
    <!-- add screenshot of main page -->
 
