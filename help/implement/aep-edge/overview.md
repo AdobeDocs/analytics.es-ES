@@ -4,10 +4,10 @@ description: Información general sobre el uso de datos XDM de Experience Platfo
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 37%
+source-wordcount: '338'
+ht-degree: 35%
 
 ---
 
@@ -40,3 +40,4 @@ Para gestionar correctamente las vistas de página y los eventos de vínculo, se
 
 {style="table-layout:auto"}
 
+Consulte la [Grupo de campos de esquema de extensión completa de Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) para obtener más información.

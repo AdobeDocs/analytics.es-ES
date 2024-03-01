@@ -4,22 +4,22 @@ description: Utilice la API del servidor de red perimetral de Adobe Experience P
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: c72ca1da5491ff3afde8b401b2e4e140744eecf2
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 33%
+source-wordcount: '268'
+ht-degree: 32%
 
 ---
 
 # Implementar Adobe Analytics mediante la API del servidor de red perimetral de Adobe Experience Platform
 
-Normalmente, se utiliza la API del servidor de red perimetral de Experience Platform para recopilar datos de dispositivos como dispositivos de IoT, descodificadores y aplicaciones de escritorio. A continuación, envíe esos datos a la red de Edge y, luego, a servicios como Adobe Analytics.
+Normalmente, se utiliza la API del servidor de red perimetral de Experience Platform para recopilar datos del lado del servidor en lugar de del lado del cliente, y también para recopilar datos de dispositivos como dispositivos de IoT, descodificadores y aplicaciones de escritorio. A continuación, envíe esos datos a la red de Edge y a servicios como Adobe Analytics.
 
 Tenga en cuenta también la API del servidor de red perimetral cuando necesite que los datos confidenciales se recopilen de forma segura y se autentiquen en la red. Consulte [Autenticación](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=en) para obtener más información.
 
 Una información general de alto nivel de las tareas de implementación:
 
-![Adobe Analytics mediante el flujo de trabajo de extensión de Analytics](../../assets/edge-network-server-api.png)
+![Adobe Analytics mediante el flujo de trabajo de extensión de Analytics](../../assets/edge-network-server-api-annotated.png)
 
 <table style="width:100%">
 
