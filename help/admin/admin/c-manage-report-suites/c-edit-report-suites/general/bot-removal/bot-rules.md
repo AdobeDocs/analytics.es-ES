@@ -4,10 +4,10 @@ title: Comprensión y configuración de reglas de bots
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 71%
+source-wordcount: '1669'
+ht-degree: 69%
 
 ---
 
@@ -20,6 +20,10 @@ Una vez definidas las reglas del bot, todo el tráfico entrante se compara con l
 Por lo general, al eliminar el tráfico de bots se reduce el volumen de las métricas de conversión y tráfico. Muchos clientes de descubren que la eliminación del tráfico de bots aumenta las tasas de conversión y aumenta otras métricas de uso.
 
 Los datos del tráfico de bots se almacenan en un repositorio independiente para mostrarlos en los informes Bots y Páginas de bots.
+
+>[!NOTE]
+>
+>Adobe Experience Edge proporciona un [servicio de detección de bots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=es) qué etiquetas etiquetan las visitas identificadas como procedentes de bots. El proceso de detección de bots de Adobe Analytics es independiente de esto y no hace referencia a la puntuación de bots incluida en los datos que llegan a través de Experience Edge. Los dos sistemas utilizan la misma lista de bots de la IAB, por lo que deben comportarse de forma idéntica en ese sentido.
 
 ## Actualizar o cargar reglas de bots
 
