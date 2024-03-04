@@ -3,10 +3,10 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bb2b0f715941135d119d862b64c02f05800b3fdd
+source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 40%
+source-wordcount: '903'
+ht-degree: 50%
 
 ---
 
@@ -20,6 +20,9 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 14 de febrero d
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **actualización de AppMeasurement** | [Versión de AppMeasurement v2.26.0](/help/implement/appmeasurement-updates.md) está disponible. | | martes, 04 de marzo de 2024 |
+| **Actualizaciones de Data Warehouse** | Ya están disponibles las siguientes mejoras de Data Warehouse:<ul><li>Al crear una solicitud de Data Warehouse, los usuarios ahora pueden poner las solicitudes a disposición de todos los usuarios de la organización habilitando la nueva opción denominada [!UICONTROL **Poner a disposición de los usuarios de su organización**].<p>Para obtener más información, consulte [Configuración general de solicitudes de Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>Al crear o administrar destinos de informes de Data Warehouse, los administradores del sistema ahora pueden mostrar cuentas y ubicaciones creadas por usuarios de la organización habilitando la opción llamada [!UICONTROL **Mostrar todos los destinos**].<p>Para obtener más información, consulte [Configuración del destino de un informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | N/A | 10 de enero de 2024 |
+| **Actualizaciones de la visualización Resumen de métricas clave** | Al utilizar la visualización Resumen de métricas clave, el intervalo de fechas de comparación ahora se puede actualizar automáticamente, en función de si la opción Intervalo de fechas de comparación que elija es relativa al intervalo de fechas principal o fija. [Más información](/help/analyze/analysis-workspace/visualizations/key-metric.md). | N/A | 17 de enero de 2024 |
 | **Documentación de API de Data Warehouse** | Consulte la [API DE Data Warehouse DE Adobe Analytics 2.0](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Warehouse%20APIs#/Data%20Warehouse%20Scheduled%20Requests%20API) para obtener más información. Ir a [!UICONTROL Seleccionar una definición] y seleccione [!UICONTROL API de Data Warehouse]. | | martes, 19 de febrero de 2024 |
 | **Activity Map para SDK web sin coste adicional** | Actualmente, los eventos de vínculo de Activity Map se cuentan como eventos propios y conllevan un coste adicional. Esta mejora toma algunos eventos de vínculo y los empaqueta en la siguiente visita, de forma similar a como el AppMeasurement gestiona los eventos. |  | jueves, 06 de marzo de 2024 |
 | **Aumento de los umbrales de poco tráfico predeterminados** | Entrada **mediados de abril de 2024**, el Adobe empezará a aumentar los umbrales de poco tráfico predeterminados del grupo de informes de la siguiente manera: ![umbrales de poco tráfico](assets/thresholds.png) Esto solo afecta a las variables que actualmente están configuradas por debajo de los nuevos umbrales. Estos cambios se realizarán gradualmente y esperamos que el trabajo se complete antes de que finalice el **finales de mayo**. A medida que se desplieguen estos aumentos, es posible que observe cambios en las variables de alta cardinalidad:<ul><li>Pueden estar disponibles más valores de dimensión para la creación de informes.</li><li>Los segmentos y las métricas calculadas pueden incluir más datos.</li><li>Los grupos de informes virtuales basados en segmentos pueden incluir más datos.</li><li>Las exportaciones de clasificación pueden incluir más datos.</li></ul> | Mediados de abril de 2024 | Final de mayo de 2024 |
