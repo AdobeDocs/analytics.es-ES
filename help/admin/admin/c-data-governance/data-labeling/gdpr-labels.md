@@ -4,10 +4,10 @@ title: Etiquetas de privacidad de datos para variables de Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '3576'
-ht-degree: 98%
+source-wordcount: '3569'
+ht-degree: 97%
 
 ---
 
@@ -182,7 +182,7 @@ El etiquetado de privacidad de datos afecta a cuatro clases amplias de variables
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eventos y dimensiones de la solución </p> </td> 
-   <td colname="col2"> <p>Vínculo de Activity Map, </p> <p>Página del Activity Map </p> </td> 
+   <td colname="col2"> <p>Vínculo de Activity Map, </p> <p>Página de Activity Map </p> </td> 
    <td colname="col3"> <p>None/I1/I2 </p> <p>None/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Las variables pueden contener parámetros de URL, que podrían incluir datos directa o indirectamente identificables. Si su implementación no recopila datos directa o indirectamente identificables en estas variables, estos no necesitan etiquetas de identidad o eliminación. </p> <p>Tenga en cuenta que la eliminación borra los parámetros de URL, pero conserva la URL de base. </p> </td> 
   </tr> 
@@ -262,4 +262,4 @@ Hay cinco variables estándar que contienen marcadores de tiempo:
 
 El código para generar los archivos devueltos por las solicitudes de acceso amparadas en la privacidad de datos requiere que al menos una de las tres primeras variables de marcador de tiempo se incluya en la solicitud de acceso (que tenga una etiqueta ACC que se aplique al tipo de solicitud). Si no se incluye ninguna de estas marcas, Custom Hit Time UTC se trata como si tuviera una etiqueta ACC-ALL.
 
-El archivo CSV del nivel de visita que devuelven las solicitudes de acceso amparadas en la privacidad de datos convierte los valores de estos campos de marcador de tiempo Unix en campos de fecha y hora con el formato AAAA-MM-DD HH:MM:SS (por ejemplo, 2018-05-01 13:49:22). En el archivo HTML de resumen, estos valores de marcador de tiempo se truncan para incluir únicamente la fecha, AAAA-MM-DD, con el fin de reducir el número de valores únicos en estos campos.
+El archivo CSV del nivel de visita que devuelven las solicitudes de acceso amparadas en la privacidad de datos convierte los valores de estos campos de marcador de tiempo Unix en campos de fecha y hora con el formato `YYYY-MM-DD HH:MM:SS` (por ejemplo, `2018-05-01 13:49:22`). En el archivo del HTML de resumen, estos valores de marca de tiempo se truncan para incluir solo la fecha, `YYYY-MM-DD`, para reducir el número de valores únicos que se producen en estos campos.

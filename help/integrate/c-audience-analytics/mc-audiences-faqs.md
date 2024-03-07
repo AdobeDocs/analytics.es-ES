@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Preguntas más frecuentes para el Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 30%
@@ -105,7 +105,7 @@ Es probable que tenga en Adobe Audience Manager un conflicto de controles de pri
 
 +++
 
-+++ ¿Por qué veo &quot;Se ha alcanzado el límite de audiencias&quot; en mi informe de Analytics? (Nota: Esto también se representará como ID de audiencia = -1 y &quot;::max_audiences_exceeded::&quot; en Data Warehouse)
++++ ¿Por qué veo &quot;Se ha alcanzado el límite de audiencias&quot; en mi informe de Analytics? (Nota: Esto también se representará como ID de audiencia = -1 y `::max_audiences_exceeded::` en Data Warehouse)
 
 De forma predeterminada, la integración de Audience Analytics para Adobe Audience Manager envía a Analytics, para cada visita, todos los segmentos a los que el visitante pertenece. Si un visitante pertenece a más de 150 segmentos de Adobe Audience Manager en una sola visita, la variable **150 segmentos cualificados más recientemente** se envían a Analytics, mientras que la lista restante se trunca. Se envía a Analytics un marcador adicional que indica que la lista de segmentos se ha truncado y se muestra “Alcanzado límite de audiencias” en la dimensión Nombre de audiencia y “-1” en la dimensión ID de audiencia.
 
