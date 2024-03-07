@@ -1,17 +1,17 @@
 ---
-title: Asignación de variables de Analytics en Adobe Experience Edge
+title: Asignación de variables de Analytics mediante el objeto XDM del SDK web
 description: Vea qué campos XDM de Edge se asignan automáticamente a variables de Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bc1311171e7cec6538dcdb44ad13761b0d39851b
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 82%
+source-wordcount: '1149'
+ht-degree: 81%
 
 ---
 
-# Asignación de variables de Analytics en Adobe Experience Edge
+# Asignación de variables de Analytics mediante el objeto XDM del SDK web
 
 La tabla siguiente muestra las variables que Adobe Experience Platform Edge Network asigna automáticamente a Adobe Analytics. Si utiliza estas rutas de campo XDM, no es necesaria ninguna configuración adicional para enviar datos a Adobe Analytics. Estos campos se incluyen en la variable **[!UICONTROL Plantilla de Adobe Analytics ExperienceEvent]** grupo de campos.
 

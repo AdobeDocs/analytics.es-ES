@@ -4,7 +4,7 @@ title: Directrices de CNIL sobre el consentimiento del usuario para almacenar co
 feature: Data Governance
 role: Admin
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 96%
@@ -23,7 +23,7 @@ Las Directrices establecen una exención limitada del requisito de consentimient
 * Ámbito limitado. El ámbito de la cookie debe limitarse a un solo sitio o aplicación. [Cookies del explorador](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html#third-party-cookie-limitations)
 * Anónimización. Anonimizar el último octeto de la dirección IP. [Configuración general de la cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
 * Ocultar el ID de visitante de la creación de informes.  De forma predeterminada, los ID de visitante no están visibles en Adobe Workspace ni en Adobe Reports &amp; Analytics.  Los ID de visitante están disponibles en Data Feeds y Data Warehouse.  El acceso a las fuentes de datos y a la Data Warehouse se puede limitar por [Permisos de acceso en el Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es) y [Referencia de columnas de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=es#columns%2C-descriptions%2C-and-data-types)
-* Parámetros de geolocalización. El nivel de precisión de la geolocalización es equiparable al de los códigos postales. [Opción de código postal](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=en) y [Configuración general de la cuenta](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=es)
+* Parámetros de geolocalización. El nivel de precisión de la geolocalización es equiparable al de los códigos postales. [Opción de código postal](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html) y [Configuración general de la cuenta](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=es)
 * Configuración de las opciones de inclusión.  Con el servicio de inclusión puede configurar protocolos para que los usuarios puedan decidir si permiten la instalación de cookies en sus dispositivos o exploradores cuando visitan su sitio web. [Servicio de inclusión](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es)
 * Impedir el uso compartido de datos.  Para impedir el uso compartido de datos en Adobe Audience Manager, utilice la variable de contexto `opt.dmp` para la [Creación de informes de privacidad](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) a fin de impedir que se compartan datos sobre visitas.
 * Capacidad de acceso y eliminación. Utilización de Privacy Service para acceder y eliminar solicitudes. [Analytics y Privacy Service](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html?lang=es)

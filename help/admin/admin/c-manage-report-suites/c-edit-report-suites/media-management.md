@@ -4,10 +4,10 @@ title: Administración de medios
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: 6ddbf0821951e71d7323343104720fe60551dacb
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 53%
+source-wordcount: '163'
+ht-degree: 55%
 
 ---
 
@@ -21,10 +21,10 @@ Las siguientes opciones de administración de medios están disponibles al edita
 
 * [!UICONTROL **Informes de contenidos**]
 
-   Los informes específicos de medios de streaming están disponibles en la página Informes de medios. Para obtener más información sobre los informes de contenidos, consulte [Habilitación de informes de contenidos](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en).
+  Los informes específicos de medios de streaming están disponibles en la página Informes de medios. Para obtener más información sobre los informes de contenidos, consulte [Habilitación de informes de contenidos](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
 
 * [!UICONTROL **Clasificaciones de medios**]
 
-   Las clasificaciones específicas de los medios de streaming están disponibles en la página Clasificaciones de medios. Para obtener información sobre las clasificaciones, consulte [Clasificaciones de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+  Las clasificaciones específicas de los medios de streaming están disponibles en la página Clasificaciones de medios. Para obtener información sobre las clasificaciones, consulte [Clasificaciones de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
 
-Para obtener información general sobre Streaming Media Analytics, consulte [Guía de Adobe Analytics para medios de streaming](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
+Para obtener información general sobre Streaming Media Analytics, consulte [Guía de Adobe Analytics para mídia de streaming](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).

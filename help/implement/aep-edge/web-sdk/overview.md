@@ -4,18 +4,16 @@ description: Utilice la extensión del SDK web en la recopilación de datos de A
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 76%
+source-wordcount: '670'
+ht-degree: 72%
 
 ---
 
 # Implementar Adobe Analytics mediante el SDK web de Adobe Experience Platform
 
-Puede utilizar el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=es) para enviar datos a Adobe Analytics. Este método de implementación funciona traduciendo el [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es) a un formato utilizado por Analytics.
-
-Puede enviar datos a Experience Edge directamente mediante el [SDK web](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/overview.html?lang=en)o a través de la extensión del SDK web en Etiquetas.
+Puede utilizar el [SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) para enviar datos a Adobe Analytics. Este método de implementación funciona traduciendo el [Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es) en un formato utilizado por Analytics. Puede enviar datos a Adobe Experience Platform Edge Network mediante la biblioteca JavaScript del SDK web o la extensión de etiqueta del SDK web.
 
 ## SDK web
 
@@ -32,7 +30,7 @@ Una información general de alto nivel de las tareas de implementación:
 <tr>
 <td>1</td>
 <td>Asegúrese de haber <b>definido un grupo de informes</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
+<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
 </tr>
 
 <tr>
@@ -50,31 +48,31 @@ Una información general de alto nivel de las tareas de implementación:
 <tr>
 <td> 4</td>
 <td><b>Instale la versión independiente precompilada</b>. Puede hacer referencia a la biblioteca (<code>alloy.js</code>) en la red de distribución de contenido (CDN) directamente en su página, o bien, descargue y aloje en su propia infraestructura. Alternativamente, puede utilizar el paquete NPM.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=es#option-2%3A-installing-the-prebuilt-standalone-version">Instalación de la versión independiente precompilada</a> y <a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=es#option-3%3A-using-the-npm-package">Uso del paquete NPM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">Instalación de la versión independiente precompilada</a> y <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">Uso del paquete NPM</a></td>
 </tr>
 
 <tr>
 <td>5</td>
 <td><b>Configurar una secuencia de datos</b>. Una secuencia de datos representa la configuración del lado del servidor al implementar los SDK web de Adobe Experience Platform.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es">Configurar una secuencia de datos<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=es">Configurar una secuencia de datos<a></td> 
 </tr>
 
 <td>6</td>
 <td><b>Agregar un servicio de Adobe Analytics</b> a su secuencia de datos. Este servicio controla si los datos se envían a Adobe Analytics y cómo, y a qué grupo o grupos de informes se envían específicamente.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=es#analytics">Agregar el servicio Adobe Analytics a una secuencia de datos</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Agregar el servicio Adobe Analytics a una secuencia de datos</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>Configurar el SDK web</b>. Asegúrese de que la biblioteca que instaló en el paso 4 esté configurada correctamente con el ID de secuencia de datos (anteriormente conocido como ID de configuración de Edge ( ).<code>edgeConfigId</code>)), id de organización (<code>orgId</code>) y otras opciones disponibles. Asegúrese de que la asignación de variables sea correcta. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es">Configuración del SDK web</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Asignación de variables de Analytics</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Asignación manual de variables</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configuración del SDK web</a><br/><a href="../variable-mapping.md">Asignación de variables de objeto XDM</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>Ejecutar comandos</b> o <b>seguimiento de eventos</b>. Una vez implementado el código base en la página web, puede empezar a ejecutar comandos y rastrear eventos con el SDK.
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/executing-commands.html?lang=es">Ejecutar comandos</a> y <a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=es">Seguimiento de eventos</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">Envío de eventos</a></td>
 </tr>
 
 <tr>
@@ -98,7 +96,7 @@ Una información general de alto nivel de las tareas de implementación:
 <tr>
 <td>1</td>
 <td>Asegúrese de haber <b>definido un grupo de informes</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
+<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
 </tr>
 
 <tr>
@@ -116,19 +114,19 @@ Una información general de alto nivel de las tareas de implementación:
 <tr>
 <td>4</td>
 <td><b>Configurar una secuencia de datos</b>. Una secuencia de datos representa la configuración del lado del servidor al implementar los SDK web de Adobe Experience Platform.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=es">Configurar una secuencia de datos<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=es">Configurar una secuencia de datos<a></td> 
 </tr>
 
 <tr>
 <td>5</td> 
 <td><b>Agregar un servicio de Adobe Analytics</b> a su secuencia de datos. Este servicio controla si los datos se envían a Adobe Analytics y cómo, y a qué grupo o grupos de informes se envían específicamente.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=es#analytics">Agregar el servicio Adobe Analytics a una secuencia de datos</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Agregar el servicio Adobe Analytics a una secuencia de datos</a></td>
 </tr>
 
 <tr>
 <td>6</td>
 <td><b>Crear una propiedad de etiquetas</b>: las propiedades son contenedores generales que se utilizan para hacer referencia a los datos de administración de etiquetas.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=es#for-web">Creación o configuración de una propiedad de etiqueta para la web</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">Creación o configuración de una propiedad de etiqueta para la web</a></td>
 </tr>
 
 <tr>
@@ -140,7 +138,7 @@ Una información general de alto nivel de las tareas de implementación:
 <tr>
 <td>8</td>
 <td><b>Repetición, validación y publicación</b> para producción. Incruste el código para incluir la propiedad de etiquetas en las páginas del sitio web. A continuación, utilice elementos de datos, reglas, etc. para personalizar la implementación.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Código incrustado</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=es">Resumen de publicación</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Código incrustado</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=es">Resumen de publicación</a></td>
 </tr>
 
 </table>

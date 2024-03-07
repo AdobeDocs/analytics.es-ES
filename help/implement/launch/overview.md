@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo implementar Adobe Analytics usando
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 83%
@@ -65,7 +65,7 @@ Una información general de alto nivel de las tareas de implementación:
 <tr>
 <td>6</td> 
 <td><b>Validación y publicación para producción</b>. Incruste el código para incluir la propiedad de etiquetas en las páginas del sitio web. A continuación, utilice elementos de datos, reglas, etc. para personalizar la implementación.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Código incrustado</a><br/><a href="./validate-publish-prod.md">Validación de una implementación de desarrollo y publicación en producción</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Código incrustado</a><br/><a href="./validate-publish-prod.md">Validación de una implementación de desarrollo y publicación en producción</a></td>
 </tr>
 
 </table>
