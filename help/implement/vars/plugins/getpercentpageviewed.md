@@ -4,10 +4,10 @@ description: Recupere el porcentaje de la página que vio el visitante.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: d53a2aba80455c2d807bc47e579cad4483c99c3b
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 91%
+source-wordcount: '764'
+ht-degree: 85%
 
 ---
 
@@ -78,7 +78,11 @@ Llamar a esta función no devuelve nada; en su lugar, establece las siguientes v
 
 Asigne una o más de estas variables a las eVars para ver los datos de dimensión en los informes.
 
-Este complemento crea una cookie de origen llamada `s_ppv` que contiene los valores anteriores. Caduca al terminar la sesión del explorador.
+Este complemento crea tres cookies de origen que caducan al final de una sesión del explorador:
+
+* `s_ppv`: Almacena cada uno de los valores expuestos llamando a la función
+* `s_tp`: Almacena la altura total en píxeles de la página anterior.
+* `s_ips`: Almacena el porcentaje de desplazamiento inicial de la página anterior
 
 ## Ejemplos
 
