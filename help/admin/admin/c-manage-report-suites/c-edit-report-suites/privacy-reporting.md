@@ -3,16 +3,16 @@ description: Habilite las dimensiones de administración de consentimiento.
 title: Creación de informes de privacidad
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: 22cef24f344ac6f90059eac1e021b32c63dc4e7c
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 100%
+source-wordcount: '89'
+ht-degree: 77%
 
 ---
 
 # Creación de informes de privacidad
 
-La creación de informes de privacidad le permite habilitar las dimensiones [Inclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-in.md) y [Exclusión de la administración de consentimiento](/help/components/dimensions/cm-opt-out.md) para usarlas en ella.
+Los informes de privacidad permiten activar la variable [Inclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-in.md), [Exclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-out.md) y [Consentimiento de publicidad](/help/components//dimensions/ad-consent.md) dimensiones para usar en informes.
 
 Para acceder a esta página, haga lo siguiente:
 
