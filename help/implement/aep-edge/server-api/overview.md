@@ -4,10 +4,10 @@ description: Utilice la API del servidor de red perimetral de Adobe Experience P
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 2e5171842794d7acc7bb67048b734f47a438cf1c
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -53,7 +53,7 @@ Una información general de alto nivel de las tareas de implementación:
 
 <td>5</td>
 <td><b>Agregar un servicio de Adobe Analytics</b> a su secuencia de datos. Ese servicio controla si los datos se envían a Adobe Analytics y cómo se hacen.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.htmls">Interactuar con Adobe Analytics</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=es">Interactuar con Adobe Analytics</a></td>
 </tr>
 
 
