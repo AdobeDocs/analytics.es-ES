@@ -3,10 +3,10 @@ description: Habilite las dimensiones de administración de consentimiento.
 title: Creación de informes de privacidad
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 22cef24f344ac6f90059eac1e021b32c63dc4e7c
+source-git-commit: f3a37319811299dde255235b31e2874bc2681cfb
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 77%
+source-wordcount: '87'
+ht-degree: 71%
 
 ---
 
@@ -21,7 +21,7 @@ Para acceder a esta página, haga lo siguiente:
 
    ![Editar configuración](assets/rsm-privacy-select.png)
 
-1. Haga clic en el botón **[!UICONTROL Activar informes de privacidad de datos.]**
+1. Clic **[!UICONTROL Habilitar informes de privacidad de datos]**.
 
    >[!NOTE]
    >
