@@ -1,17 +1,17 @@
 ---
 description: Documentación que describe cómo filtrar y ordenar tablas en Analysis Workspace.
-title: Filtrar y ordenar tablas de forma libre
+title: Filtrado y ordenación de tablas de forma libre
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
+source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 68%
+source-wordcount: '878'
+ht-degree: 71%
 
 ---
 
-# Filtrar y ordenar tablas de forma libre
+# Filtrado y ordenación de tablas de forma libre
 
 Las tablas de forma libre en Analysis Workspace son la base del análisis interactivo de datos. Como tal, pueden contener miles de filas de información. Filtrar y ordenar los datos puede ser una parte fundamental para que la información más importante aparezca de forma eficaz.
 
@@ -48,12 +48,14 @@ Para excluir rápidamente filas específicas de una tabla de forma libre:
 
    Mantenga pulsada la tecla Mayús para seleccionar un rango de filas o la tecla Comando (en Mac) o Ctrl (en Windows) para seleccionar varias filas.
 
-### Haga clic con el botón derecho > Eliminar filas seleccionadas
+<!--### Right-click > Delete selected rows
 
-1. Seleccione una o más filas.
-1. Haga clic con el botón derecho y seleccione **[!UICONTROL Eliminar las filas seleccionadas]**.
+Note: this option does not seem to work. AN-338422
 
-   Esta acción quitará las filas de la tabla y aplicará un filtro de tabla.
+1. Select 1 or more rows. 
+1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
+
+   This action will remove the rows from the table and apply a table filter.-->
 
 ### Aplicar un filtro simple o avanzado a una tabla
 
