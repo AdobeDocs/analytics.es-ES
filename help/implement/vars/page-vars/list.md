@@ -4,10 +4,10 @@ description: Variables personalizadas que contienen varios valores en la misma v
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '482'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ Asegúrese de configurar cada variable de lista en la configuración del grupo d
 
 ## Variables de lista mediante el SDK web
 
-Las variables de lista se [asignan para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en los campos XDM `_experience.analytics.customDimensions.lists.list1.list[]` a `_experience.analytics.customDimensions.lists.list3.list[]`. Cada elemento de matriz contiene un objeto `"value"` que engloba cada cadena. No es necesario proporcionar un delimitador; se incluye automáticamente utilizando el valor especificado en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Por ejemplo, si una coma (“`,`”) está configurada como delimitador para la variable de lista 1, el siguiente objeto XDM rellena la variable `list1` con `"Example value 1,Example value 2,Example value 3"`.
+Si se usa la variable [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), las variables de lista utilizan los campos XDM `xdm._experience.analytics.customDimensions.lists.list1.list[]` hasta `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Cada elemento de matriz contiene un objeto `"value"` que engloba cada cadena. No es necesario proporcionar un delimitador; los servidores de recopilación de datos de Adobe detectan e incluyen automáticamente el delimitador correcto establecido en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {
@@ -58,6 +58,18 @@ Las variables de lista se [asignan para Adobe Analytics](https://experienceleagu
 >[!NOTE]
 >
 >El esquema XDM de Adobe contiene objetos `key`, además de objetos `value` en cada matriz `list[]`. Adobe no emplea estos objetos `key` al enviar datos a Adobe Analytics.
+
+Si se usa la variable [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), las variables de lista utilizan `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` siguiente sintaxis de AppMeasurement. Asegúrese de utilizar el delimitador correcto establecido en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "list1": "Example value 1,Example value 2,Example value 3"
+    }
+  }
+}
+```
 
 ## Variables de lista mediante la extensión de Adobe Analytics
 

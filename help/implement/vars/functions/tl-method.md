@@ -4,10 +4,10 @@ description: Envíe una llamada de seguimiento de vínculos a Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 80%
+source-wordcount: '749'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,13 @@ Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExterna
 
 ## Seguimiento de vínculos mediante el SDK web
 
-El SDK web no diferencia entre las llamadas de vista de página y las llamadas de seguimiento de vínculos; ambas utilizan el `sendEvent` comando. Si desea que Adobe Analytics cuente un evento XDM determinado como una llamada de seguimiento de vínculos, asegúrese de que los datos XDM incluyan o estén asignados a `web.webInteraction.name`, `web.webInteraction.URL`, y `web.webInteraction.type`.
+El SDK web no diferencia entre las llamadas de vista de página y las llamadas de seguimiento de vínculos; ambas utilizan el `sendEvent` comando.
 
-* El nombre del vínculo se asigna a `web.webInteraction.name`.
-* Vincular asignaciones de URL a `web.webInteraction.URL`.
-* El tipo de vínculo se asigna a `web.webInteraction.type`. Los valores válidos incluyen `other` (vínculos personalizados), `download` (vínculos de descarga) y `exit` (vínculos de salida).
+Si utiliza un objeto XDM y desea que Adobe Analytics cuente un evento determinado como una llamada de seguimiento de vínculos, asegúrese de que los datos XDM incluyan:
+
+* Nombre del vínculo: asignado a `xdm.web.webInteraction.name`.
+* URL del vínculo: asignado a `xdm.web.webInteraction.URL`.
+* Tipo de vínculo: asignado a `xdm.web.webInteraction.type`. Los valores válidos incluyen `other` (vínculos personalizados), `download` (vínculos de descarga) y `exit` (vínculos de salida).
 
 ```js
 alloy("sendEvent", {
@@ -33,6 +35,26 @@ alloy("sendEvent", {
         "name": "My Custom Link",
         "URL": "https://example.com",
         "type": "other"
+      }
+    }
+  }
+});
+```
+
+Si utiliza un objeto de datos y desea que Adobe Analytics cuente un evento determinado como una llamada de seguimiento de vínculos, asegúrese de que el objeto de datos incluya:
+
+* Nombre del vínculo: asignado a `data.__adobe.analytics.linkName`.
+* URL del vínculo: asignado a `data.__adobe.analytics.linkURL`.
+* Tipo de vínculo: asignado a `data.__adobe.analytics.linkType`. Los valores válidos incluyen `o` (vínculos personalizados), `d` (vínculos de descarga) y `e` (vínculos de salida).
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "linkName": "My custom link",
+        "linkURL": "https://example.com",
+        "linkType": "o"
       }
     }
   }

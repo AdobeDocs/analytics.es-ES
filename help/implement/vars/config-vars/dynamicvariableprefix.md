@@ -4,10 +4,10 @@ description: Permite personalizar la cadena que identifica las variables dinámi
 feature: Variables
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 76%
+source-wordcount: '275'
+ht-degree: 70%
 
 ---
 
@@ -20,6 +20,10 @@ De forma predeterminada, las variables dinámicas utilizan el prefijo `D=`. La v
 ## Prefijo de variable dinámica mediante el SDK web
 
 El SDK web no utiliza el formato de variable dinámica. En su lugar, puede utilizar la asignación de secuencia de datos para rellenar varios campos de destino con un único campo de origen. Consulte [Variables dinámicas que utilizan el SDK web](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) para obtener más información.
+
+Si envía datos directamente a Adobe Analytics sin ajustarse a un esquema, utiliza la variable siguiente:
+
+* [Objeto de datos](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
 
 ## Prefijo de variable dinámica con la extensión Adobe Analytics
 

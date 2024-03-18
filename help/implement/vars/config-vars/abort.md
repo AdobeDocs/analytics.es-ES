@@ -4,10 +4,10 @@ description: La variable abort es un booleano que evita que se envíe una visita
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 44%
+source-wordcount: '329'
+ht-degree: 39%
 
 ---
 
@@ -58,9 +58,9 @@ s.abort = true;
 
 >[!NOTE]
 >
->La variable `abort` se restablece como `false` después de cada llamada de seguimiento. Si necesita cancelar llamadas de seguimiento subsiguientes en la misma página, establezca `abort` nuevamente como `true`.
+>La variable `abort` se restablece como `false` después de cada llamada de seguimiento. Si desea cancelar llamadas de seguimiento subsiguientes en la misma página, establezca `abort` hasta `true` otra vez.
 
-Por ejemplo, la variable `abort` se puede configurar en la variable [`doPlugins()`](../functions/doplugins.md) función, que es la última función que se ejecuta antes de que se envíe una solicitud de imagen al Adobe. Este ejemplo funciona de manera similar a `onBeforeEventSend` devolución de llamada mediante el SDK web.
+El `abort` se puede configurar en la variable [`doPlugins()`](../functions/doplugins.md) función, que es la última función que se ejecuta antes de que se envíe una solicitud de imagen al Adobe. Este ejemplo funciona de manera similar a `onBeforeEventSend` devolución de llamada mediante el SDK web.
 
 ```js
 s.doPlugins = function(s) {

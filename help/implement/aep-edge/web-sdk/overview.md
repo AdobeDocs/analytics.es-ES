@@ -4,7 +4,7 @@ description: Utilice la extensión del SDK web en la recopilación de datos de A
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
+source-git-commit: 10ecae46424758fc5b19b58b733b49bb23cda222
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 72%
@@ -65,7 +65,7 @@ Una información general de alto nivel de las tareas de implementación:
 <tr>
 <td>7</td>
 <td><b>Configurar el SDK web</b>. Asegúrese de que la biblioteca que instaló en el paso 4 esté configurada correctamente con el ID de secuencia de datos (anteriormente conocido como ID de configuración de Edge ( ).<code>edgeConfigId</code>)), id de organización (<code>orgId</code>) y otras opciones disponibles. Asegúrese de que la asignación de variables sea correcta. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configuración del SDK web</a><br/><a href="../variable-mapping.md">Asignación de variables de objeto XDM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configuración del SDK web</a><br/><a href="../xdm-var-mapping.md">Asignación de variables de objeto XDM</a></td>
 </tr>
 
 <tr>

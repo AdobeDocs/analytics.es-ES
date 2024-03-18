@@ -4,9 +4,9 @@ description: Omisión del referente registrado automáticamente para una visita.
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 80%
 
 ---
@@ -17,9 +17,12 @@ La variable `referrer` omite el referente registrado automáticamente en los inf
 
 ## Referente que utiliza el SDK web
 
-El referente es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `web.webReferrer.URL`.
+El referente se asigna a las siguientes variables:
 
-El SDK web incluye esta dimensión en cada visita de evento.
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
+* [Objeto de datos](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
+
+El SDK web incluye automáticamente `web.webReferrer.URL` en cada evento enviado, si está disponible.
 
 ## Referente con la extensión de Adobe Analytics
 

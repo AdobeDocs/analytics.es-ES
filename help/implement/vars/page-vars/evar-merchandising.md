@@ -5,10 +5,10 @@ feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 90%
 
 ---
 
@@ -45,10 +45,10 @@ El valor de `eVar1` se asigna al producto. Todos los eventos de éxito subsiguie
 
 ### Sintaxis del producto mediante el SDK web
 
-Las variables de comercialización de sintaxis de producto se [asignan para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en varios campos XDM diferentes.
+Si se usa la variable [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), las variables de comercialización de sintaxis de producto utilizan los siguientes campos XDM:
 
-* Las eVars de comercialización de sintaxis de producto están asignados en `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` a `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
-* Los eventos de comercialización de sintaxis de producto están asignados en `productListItems[]._experience.analytics.event1to100.event1.value` a `productListItems[]._experience.analytics.event901to1000.event1000.value`. Los campos XDM de [serialización de eventos](events/event-serialization.md) están asignados en `productListItems[]._experience.analytics.event1to100.event1.id` a `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+* Las eVars de comercialización de sintaxis de producto están asignados en `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar1` a `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
+* Los eventos de comercialización de sintaxis de producto están asignados en `xdm.productListItems[]._experience.analytics.event1to100.event1.value` a `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value`. Los campos XDM de [serialización de eventos](events/event-serialization.md) están asignados en `xdm.productListItems[]._experience.analytics.event1to100.event1.id` a `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id`.
 
 >[!NOTE]
 >
@@ -56,36 +56,38 @@ Las variables de comercialización de sintaxis de producto se [asignan para Adob
 
 El siguiente ejemplo muestra un único [producto](products.md) que usa varias eVars y eventos de comercialización:
 
-```js
+```json
 "productListItems": [
-    {
-        "name": "Bahama Shirt",
-        "priceTotal": "12.99",
-        "quantity": 3,
-        "_experience": {
-            "analytics": {
-                "customDimensions" : {
-                    "eVars" : {
-                        "eVar10" : "green",
-                        "eVar33" : "large"
-                    }
-                },
-                "event1to100" : {
-                    "event4" : {
-                        "value" : 1
-                    },
-                    "event10" : {
-                        "value" : 2,
-                        "id" : "abcd"
-                    }
-                }
-            }
+  {
+    "name": "Bahama Shirt",
+    "priceTotal": "12.99",
+    "quantity": 3,
+    "_experience": {
+      "analytics": {
+        "customDimensions" : {
+          "eVars" : {
+            "eVar10" : "green",
+            "eVar33" : "large"
+          }
+        },
+        "event1to100" : {
+          "event4" : {
+            "value" : 1
+          },
+          "event10" : {
+            "value" : 2,
+            "id" : "abcd"
+          }
         }
+      }
     }
+  }
 ]
 ```
 
 El objeto del ejemplo anterior se enviaría a Adobe Analytics como `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
+
+Si se usa la variable [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), usos de comercialización de eVar `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` siguiente sintaxis de AppMeasurement.
 
 ## Implementación y uso de la sintaxis de la variable de conversión
 
@@ -109,33 +111,60 @@ El valor `"Aviary"` de `eVar1` se asigna al producto `"Canary"`. Todos los event
 
 ### Sintaxis de variables de conversión mediante el SDK web
 
-La sintaxis de variables de conversión mediante el SDK web funciona de forma similar a la implementación de otras [eVars](evar.md) y [eventos](events/events-overview.md). La duplicación XDM del ejemplo anterior tendría el siguiente aspecto:
+Si se usa la variable [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), la sintaxis funciona de forma similar a la implementación de otras [eVars](evar.md) y [eventos](events/events-overview.md). La duplicación XDM del ejemplo anterior tendría el siguiente aspecto:
 
 Establezca la eVar en la misma llamada de evento o en la anterior:
 
-```js
+```json
 "_experience": {
-    "analytics": {
-        "customDimensions": {
-            "eVars": {
-                "eVar1" : "Aviary"
-            }
-        }
+  "analytics": {
+    "customDimensions": {
+      "eVars": {
+        "eVar1" : "Aviary"
+      }
     }
+  }
 }
 ```
 
 Establezca el evento de enlace y los valores para la cadena de productos:
 
-```js
+```json
 "commerce": {
-    "productViews" : {
-        "value" : 1
-    }
+  "productViews" : {
+    "value" : 1
+  }
 },
 "productListItems": [
-    {
-        "name": "Canary"
-    }
+  {
+    "name": "Canary"
+  }
 ]
+```
+
+Si se usa la variable [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md) Sin embargo, los objetos de datos que reflejan el ejemplo anterior tendrían el siguiente aspecto:
+
+Establezca la eVar en la misma llamada de evento o en la anterior:
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "eVar1": "Aviary"
+    }
+  }
+}
+```
+
+Establezca el evento de enlace y los valores para la cadena de productos:
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "events": "prodView",
+      "products": ";Canary"
+    }
+  }
+}
 ```

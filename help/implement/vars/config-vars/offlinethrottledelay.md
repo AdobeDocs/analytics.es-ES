@@ -4,10 +4,10 @@ description: Establece la frecuencia de visitas cuando un dispositivo vuelve a c
 feature: Variables
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 90%
+source-wordcount: '195'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,11 @@ El seguimiento sin conexión es una forma opcional de recopilar datos en Adobe A
 
 Cuando un dispositivo vuelve a conectarse, todas las visitas almacenadas en el dispositivo se envían a los servidores de recopilación de datos de Adobe. Un gran número de visitas en cola puede afectar potencialmente al rendimiento en dispositivos más antiguos. Utilice la variable `offlineThrottleDelay` para establecer la frecuencia con la que las visitas en cola se envían a Adobe.
 
-## Retraso de aceleración sin conexión mediante la extensión de Adobe Analytics
+## Retraso del acelerador sin conexión mediante el SDK web
+
+El SDK web no admite el seguimiento sin conexión.
+
+## Retraso del acelerador sin conexión mediante la extensión de Adobe Analytics
 
 No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 

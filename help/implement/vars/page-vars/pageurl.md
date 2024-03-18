@@ -4,9 +4,9 @@ description: Omitir la dirección URL de la página registrada automáticamente 
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 79%
 
 ---
@@ -21,7 +21,10 @@ AppMeasurement registra automáticamente la dirección URL de la página en cada
 
 ## Dirección URL de la página mediante el SDK web
 
-La URL de la página es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `web.webPageDetails.URL`.
+La dirección URL de la página está asignada a las siguientes variables:
+
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.URL`
+* [Objeto de datos](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageURL` o `data.__adobe.analytics.g`
 
 ## Dirección URL de la página con la extensión Adobe Analytics
 

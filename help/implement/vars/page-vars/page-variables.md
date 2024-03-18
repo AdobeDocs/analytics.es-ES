@@ -4,14 +4,14 @@ description: Configure los valores en una página individual.
 feature: Variables
 exl-id: 321d0db2-61a3-478e-ab51-8e06c7b2bb7b
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '70'
 ht-degree: 100%
 
 ---
 
-# Variables de página
+# Información general sobre las variables de página
 
 Las variables de página determinan los valores de las dimensiones y métricas en el sistema de informes.
 

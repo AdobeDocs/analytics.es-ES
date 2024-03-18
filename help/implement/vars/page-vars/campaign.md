@@ -4,10 +4,10 @@ description: Rellene la dimensión “Código de seguimiento”.
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 68%
+source-wordcount: '240'
+ht-degree: 67%
 
 ---
 
@@ -19,7 +19,10 @@ Esta variable rellena el [Código de seguimiento](/help/components/dimensions/tr
 
 ## Campaña mediante el SDK web
 
-La campaña está [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `marketing.trackingCode`.
+Campaign se asigna a las siguientes variables:
+
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
+* [Objeto de datos](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign` o `data.__adobe.analytics.v0`
 
 ## Campaña con la extensión de Adobe Analytics
 

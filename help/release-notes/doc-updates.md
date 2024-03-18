@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
+source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
 workflow-type: tm+mt
 source-wordcount: '5243'
 ht-degree: 94%
@@ -141,7 +141,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Documentación de visualización de flujo actualizada | En función de la [nueva interfaz de usuario](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | Documentación sobre el uso compartido de anotaciones en informes de valoración móviles | Puede mostrar [anotaciones creadas en Analysis Workspace: en informes de valoración móviles](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **Mayo de 2022** | |
-| Rellenar dimensiones y métricas de Ciclo vital a través de la red perimetral | Los datos del Ciclo de vida móvil enviados a Edge Network ahora aparecen en los informes de Analytics. Consulte [Asignación de variables de Analytics](/help/implement/aep-edge/variable-mapping.md) para obtener detalles sobre qué campos XDM se asignan a la creación de informes de ciclo de vida móviles existentes. |
+| Rellenar dimensiones y métricas de Ciclo vital a través de la red perimetral | Los datos del Ciclo de vida móvil enviados a Edge Network ahora aparecen en los informes de Analytics. Consulte [Asignación de variables de Analytics](/help/implement/aep-edge/xdm-var-mapping.md) para obtener detalles sobre qué campos XDM se asignan a la creación de informes de ciclo de vida móviles existentes. |
 | **Abril de 2022** | |
 | Actualizaciones de la página de aterrizaje de Adobe Analytics | Actualizaciones de la [página de aterrizaje conjunta de Analysis Workspace/Reports &amp; Analytics](/help/analyze/landing.md) que mejora la facilidad de uso y navegación. |
 | Tema nuevo en el panel [!UICONTROL Resumen de página] | [Panel Resumen de página](/help/analyze/analysis-workspace/c-panels/page-summary.md) |

@@ -4,10 +4,10 @@ description: Descubra qué es una capa de datos en su implementación de Analyti
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ La implementación de Adobe Analytics mediante una capa de datos suele seguir es
 
 1. **Valide la capa de datos con una consola de explorador**: Una vez creada una capa de datos, puede validar que funcione con cualquier consola de desarrollador del explorador. Puede abrir la consola de desarrollador en la mayoría de los exploradores con la clave `F12`. Un valor de variable de ejemplo sería `adobeDataLayer.page.title`.
 1. **Uso de la recopilación de datos de Adobe Experience Platform para asignar objetos de capa de datos a elementos de datos**: este paso varía en función del método de implementación de su organización:
-   * **Si se utiliza el SDK web**: asigne los objetos de capa de datos deseados a los campos XDM deseados en Adobe Experience Platform Edge. Consulte [Asignación de variables de Analytics](../aep-edge/variable-mapping.md) para determinar la asignación de capa de datos que desee.
+   * **Si se utiliza el SDK web**: asigne los objetos de capa de datos deseados a los campos XDM deseados en Adobe Experience Platform Edge. Consulte [Asignación de variables XDM de Analytics](../aep-edge/xdm-var-mapping.md) para determinar la asignación de capa de datos que desee.
    * **Si se utiliza la extensión de Analytics**: cree elementos de datos en Etiquetas en la recopilación de datos de Adobe Experience Platform y asígnelos a los objetos de capa de datos que desee. A continuación, dentro de la extensión de Analytics, asigne cada elemento de datos a la variable de Analytics correspondiente.
 
 ## Especificaciones

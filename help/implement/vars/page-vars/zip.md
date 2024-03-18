@@ -4,10 +4,10 @@ description: Rellene manualmente la dimensión “Código postal” si la config
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 94%
+source-wordcount: '270'
+ht-degree: 75%
 
 ---
 
@@ -17,11 +17,18 @@ La variable `zip` permite rellenar manualmente la dimensión “Código postal�
 
 >[!IMPORTANT]
 >
->Asegúrese de que la [!UICONTROL opción Zip] de la configuración del grupo de informes está establecida con el valor deseado. No puede utilizar esta variable si siempre se utiliza [!UICONTROL geo zip]. Consulte [Configuración general de la cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) en la Guía de administración para obtener más información.
+>Asegúrese de que la [!UICONTROL opción Zip] de la configuración del grupo de informes está establecida con el valor deseado. No puede utilizar esta variable si [!UICONTROL Geo zip] siempre se utiliza. Consulte [Configuración general de la cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) en la Guía de administración para obtener más información.
 
-## Zip con la extensión de Adobe Analytics
+## Código postal con el SDK web
 
-Puede establecer el código postal al configurar la extensión Analytics (variables globales) o en reglas.
+El código postal está asignado a las siguientes variables:
+
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.placeContext.geo.postalCode`
+* [Objeto de datos](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.zip`
+
+## Código postal con la extensión Adobe Analytics
+
+Puede establecer el código postal al configurar la extensión de Analytics (variables globales) o en reglas.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.

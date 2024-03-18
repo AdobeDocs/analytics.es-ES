@@ -4,10 +4,10 @@ description: Establecer manualmente la marca de tiempo de la visita.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ La variable `timestamp` establece manualmente la marca de tiempo de la visita en
 
 ## Marca de tiempo mediante el SDK web
 
-La marca de tiempo es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=es) en el campo XDM `xdm.timestamp`. Este campo solo admite Tiempo Unix.
+La marca de tiempo es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) en el campo XDM `xdm.timestamp`. Este campo solo admite Tiempo Unix.
 
 ## Marca de tiempo con la extensión Adobe Analytics
 
@@ -33,7 +33,7 @@ La variable `s.timestamp` es una cadena que contiene la fecha y la hora de la vi
 
 ```js
 // Timestamp using ISO 8601
-s.timestamp = "2020-01-01T00:00:00Z";
+s.timestamp = "2024-01-01T00:00:00Z";
 
 // Timestamp using Unix timestamp
 s.timestamp = "1577836800";
@@ -52,19 +52,19 @@ Las fechas y horas expresadas de conformidad con la norma [ISO 8601](https://es.
 * La fecha y la hora deben proporcionarse separadas por una `T`.
 * Es obligatorio detallar las horas y los minutos; los segundos son opcionales pero se recomiendan.
 * Los días de la semana y las fechas con números ordinales no son compatibles.
-* La fecha puede tener un formato estándar o extendido. `2020-01-01T00:00:00Z` y `20200101T000000Z` son dos ejemplos válidos.
+* La fecha puede tener un formato estándar o extendido. `2024-01-01T00:00:00Z` y `20240101T000000Z` son dos ejemplos válidos.
 * Los minutos y segundos fraccionarios son técnicamente válidos, pero Adobe ignora las fracciones.
 * Los husos horarios se admiten en formatos estándar y extendidos.
 
 Estos son algunos ejemplos de valores ISO 8601 válidos para la variable `timestamp`:
 
 ```text
-2020-01-01T00:00:00+00:00
-2020-01-01T00:00:00Z
-2020-01-01T00:00:00
-2020-01-01T00:00
-20200101T000000+0000
-20200101T000000Z
-20200101T000000
-20200101T0000
+2024-01-01T00:00:00+00:00
+2024-01-01T00:00:00Z
+2024-01-01T00:00:00
+2024-01-01T00:00
+20240101T000000+0000
+20240101T000000Z
+20240101T000000
+20240101T0000
 ```
