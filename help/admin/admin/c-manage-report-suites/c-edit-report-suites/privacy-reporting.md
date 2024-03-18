@@ -3,7 +3,7 @@ description: Habilite las dimensiones de administración de consentimiento.
 title: Creación de informes de privacidad
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: a102242b98967d578918f358166e13d90f06e070
+source-git-commit: 90d9e2962307060ed95b0e8cf0c6fbce6d54edb1
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 55%
@@ -16,7 +16,7 @@ Los informes de privacidad permiten activar la variable [Inclusión en la admini
 
 >[!NOTE]
 >
->Recientemente hemos añadido una nueva marca de consentimiento de Ad Platform. Debe volver a habilitar los informes de privacidad de datos si desea que esta nueva variable surta efecto.
+>Se ha añadido una nueva marca de consentimiento de la plataforma de publicidad. Debe volver a habilitar los informes de privacidad de datos si desea que esta nueva variable surta efecto.
 
 Para acceder a esta página, haga lo siguiente:
 
