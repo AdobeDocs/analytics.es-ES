@@ -1,26 +1,26 @@
 ---
 description: Obtenga información acerca de los diferentes contenedores de segmentación y cómo utilizarlos
-keywords: segmentation;segments
+keywords: segmentación;segmentos
 title: Contenedores de segmentos
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
 source-git-commit: 5a9ba3f9749338c181fbcdc311bd08a92144e698
-workflow-type: tm+mt
-source-wordcount: '3469'
-ht-degree: 54%
+workflow-type: ht
+source-wordcount: '3529'
+ht-degree: 100%
 
 ---
 
 
 # Contenedores de segmentos
 
-Un segmento establece las condiciones necesarias para filtrar a un visitante en función de sus atributos o de las interacciones con su sitio. Para establecer las condiciones en un segmento, debe fijar las reglas que filtran a los visitantes según sus características de visitante y/o rasgos de navegación. Si desea desglosar todavía más los datos de los visitantes, puede filtrar basándose en las visitas específicas y/o las visitas individuales de cada visitante para ver una página. El Generador de segmentos proporciona una sencilla arquitectura para crear estos subconjuntos y aplicar reglas como contenedores anidados y jerárquicos de visitante, visita y visita individual.
+Un segmento establece las condiciones para filtrar un visitante en función de los atributos o de las interacciones con su sitio. Para establecer las condiciones en un segmento, debe fijar las reglas que filtran a los visitantes según sus características de visitante y/o rasgos de navegación. Si desea desglosar todavía más los datos de los visitantes, puede filtrar basándose en las visitas específicas y/o las visitas individuales de cada visitante para ver una página. El Generador de segmentos proporciona una sencilla arquitectura para crear estos subconjuntos y aplicar reglas como contenedores anidados y jerárquicos de visitante, visita y visita individual.
 
 La arquitectura de contenedor empleada en el Generador de segmentos define
 
-- ![Visitante](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) **[!UICONTROL Visitante]** como el contenedor exterior, que contiene datos globales específicos del visitante en las visitas y vistas de páginas.
-- ![Visita](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg) a anidado **[!UICONTROL Visita]** contenedor le permite establecer reglas para desglosar los datos del visitante en función de las visitas y
-- ![Evento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) a anidado **[!UICONTROL Visita]** El contenedor de permite desglosar la información del visitante en función de las vistas de página individuales.
+- ![Visitante](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) **[!UICONTROL Visitante]** como el contenedor situado más al exterior, que contiene datos generales específicos del visitante en las visitas y vistas de página.
+- ![Visita](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg) un contenedor **[!UICONTROL Visita]** anidado le permite establecer reglas para desglosar los datos del visitante en función de las visitas y
+- ![Evento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) un contenedor **[!UICONTROL Visita individual]** anidado le permite desglosar la información del visitante en función de las vistas de página individuales.
 
 Cada contenedor le permite realizar informes basados en el historial del visitante o en las interacciones detalladas por visitas, o bien desglosar las visitas individuales.
 
@@ -50,7 +50,7 @@ A continuación se muestra un vídeo introductorio de los contenedores de segmen
 
 ## Contenedor de visitante
 
-El contenedor de visitante incluye todas las visitas y vistas de página de los visitantes en un período de tiempo específico. Un segmento en el nivel de visitante devuelve la página que cumple la condición, además de todas las demás páginas visitadas por el visitante (restringidas únicamente por los intervalos de fechas definidos). Al ser el contenedor definido con mayor amplitud, los informes generados en el nivel del contenedor de visitante devuelven vistas de página de todas las visitas, lo que le permite generar análisis multivisitas. Por lo tanto, el contenedor de visitante es el más susceptible de cambiar en función de intervalos de fechas definidos.
+El contenedor de visitante incluye todas las visitas y vistas de página de los visitantes en un período de tiempo específico. Un segmento en el nivel de visitante devuelve la página que cumple la condición, además de todas las demás páginas visitadas por el visitante (restringidas únicamente por los intervalos de fechas definidos). Al ser el contenedor definido con mayor amplitud, los informes generados en el nivel del contenedor de visitante devuelven vistas de página de todas las visitas, lo que le permite generar análisis de múltiples visitas. Por tanto, el contenedor de visitante es el más susceptible de cambiar en función de intervalos de fechas definidos.
 
 Los contenedores de visitante pueden incluir valores basados en el historial general de un visitante:
 
@@ -60,7 +60,7 @@ Los contenedores de visitante pueden incluir valores basados en el historial gen
 
 ## Contenedor de visita
 
-El contenedor de visita le permite identificar interacciones de páginas, campañas o conversiones para una sesión web específica. Un segmento en el nivel de visita devuelve la página que cumple la condición, además de todas las demás páginas vistas como parte de la sesión de visita (restringidas únicamente por los intervalos de fechas definidos). El contenedor de visita es el contenedor más utilizado, ya que captura los comportamientos de la sesión de visita al completo cuando se cumple la regla. El contenedor de visita le permite definir qué visitas desea incluir o excluir al generar y aplicar un segmento. Asimismo, le ayuda a encontrar una respuesta a una pregunta como: ¿Cuántos visitantes vieron la sección de noticias y deportes en la misma visita? O: ¿Qué páginas se atribuyeron a una conversión satisfactoria en una venta?
+El contenedor de visita le permite identificar interacciones de páginas, campañas o conversiones para una sesión web específica. Un segmento en el nivel de Visita devuelve la página que cumple la condición, además de todas las demás páginas visualizadas como parte de la sesión de visita (restringidas únicamente por los intervalos de fechas definidos). El contenedor de visita es el contenedor más utilizado, ya que captura los comportamientos de la sesión de visita al completo cuando se ha cumplido la regla. El contenedor de visita le permite definir qué visitas desea incluir o excluir al generar y aplicar un segmento. Asimismo, le ayuda a encontrar una respuesta a una pregunta como: ¿Cuántos visitantes vieron la sección de noticias y deportes en la misma visita? O: ¿Qué páginas se atribuyeron a una conversión satisfactoria en una venta?
 
 Los contenedores de visita incluyen valores basados en la incidencia por visita:
 
@@ -81,13 +81,13 @@ Los contenedores de visitas individuales incluyen valores basados en el desglose
 - eVars de lista
 - eVars de comercialización (en el contexto de eventos)
 
-   >[!NOTE]
-   >
-   >Si utiliza este contenedor en un valor que persiste, como una eVar, extrae todas las visitas individuales en las que dicho valor persiste. Si hay un código de seguimiento que caduque después de una semana, ese valor podría persistir en varias visitas.
+  >[!NOTE]
+  >
+  >Si utiliza este contenedor en un valor que persiste, como una eVar, extraerá todas las visitas individuales en las que dicho valor persista. En el caso de un código de seguimiento que expire tras una semana, ese valor podría persistir en varias visitas.
 
-## contenedor de grupo lógico
+## Contenedor de grupo lógico
 
-El contenedor de grupo lógico le permite proporcionar un contenedor separado dentro de las reglas de segmento para filtrar entidades no basadas en jerarquía. Por ejemplo, es posible que necesite proporcionar un contenedor anidado dentro del segmento que filtra en función del visitante. Este tipo de lógica requiere romper la jerarquía (ya que ha utilizado un contenedor de visitante de nivel superior) para filtrar solo para visitantes seleccionados. Consulte [Ejemplos de grupos lógicos](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) para obtener más información.
+El contenedor de grupo lógico le permite proporcionar un contenedor separado dentro de las reglas de segmento para filtrar entidades no basadas en jerarquía. Por ejemplo, es posible que necesite proporcionar un contenedor anidado dentro del segmento que filtra en función del visitante. Este tipo de lógica requiere que rompa la jerarquía (puesto que usted ya ha usado un contenedor de visitante de nivel superior) para filtrar únicamente para visitantes seleccionados. Consulte [Ejemplos de grupos lógicos](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) para obtener más información.
 
 ## Anidado de contenedores {#nest-containers}
 
@@ -97,7 +97,7 @@ Al crear contenedores de segmentos dentro de otros contenedores, básicamente es
 1. Aplicar la regla anidada a los demás datos. La regla anidada no se aplica a ninguna visita individual que la primera regla haya rechazado.
 1. Repetir hasta que se hayan calculado todas las reglas de los contenedores anidados. Los datos restantes se incluyen entonces en el informe resultante.
 
-Puede utilizar el anidado entre contenedores y entre reglas dentro de un contenedor. A continuación se indica lo que puede anidar en cada contenedor:
+Puede utilizar el anidado entre contenedores, así como entre las reglas dentro de un contenedor. A continuación se indica lo que puede anidar en cada contenedor:
 
 | Nombre de contenedor | Qué puede anidar dentro |
 |---|---|
@@ -106,7 +106,7 @@ Puede utilizar el anidado entre contenedores y entre reglas dentro de un contene
 | Visitante | Contenedor de visita, contenedor de visita individual, eventos |
 | grupo lógico | Contenedor de visitante, contenedor de visita, contenedor de visita individual |
 
-### Incluir varios contenedores dentro de una sola definición
+### Inclusión de varios contenedores dentro de una sola definición
 
 Si incluye varios segmentos en un nuevo segmento compuesto puede refinar los datos todavía más. El hecho de arrastrar juntos dos segmentos existentes funciona como una instrucción “OR” al filtrar los visitantes. Todos los contenedores del lienzo se revisan comparándolos con todos los datos, y todos los datos que coincidan con alguno de los contenedores se incluirán en el informe.
 
@@ -116,10 +116,10 @@ Por ejemplo, si arrastra un contenedor de visita donde País = Estados Unidos co
 Country = United States + Order = True
 ```
 
-crea un segmento que se comporta en este orden:
+se generará un segmento que se comportará siguiendo este orden:
 
 1. El segmento buscará primero entre todos los datos e identificará a los visitantes de Estados Unidos.
-2. A continuación, el segmento volverá a buscar entre todos los datos para comprobar si algún visitante realizó un pedido.
+2. A continuación, el segmento volverá a examinar todos los datos para comprobar si algún visitante efectuó un pedido.
 3. Ambos conjuntos de datos se aplicarán entonces al informe.
 
 ## Contenedores para segmentos secuenciales {#containers-sequential}
@@ -148,7 +148,7 @@ La segmentación secuencial emplea los mismos contenedores básicos, incluidos e
 
 [!UICONTROL Visitantes] constituye el contenedor de orden superior en la segmentación secuencial, con [!UICONTROL visitas] contenidas dentro del contenedor de [!UICONTROL visitantes] y [!UICONTROL visitas individuales] contenidas dentro de los contenedores de [!UICONTROL visitantes] o [!UICONTROL visitas]. Esta [jerarquía de contenedores](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) debe mantenerse para generar segmentos secuenciales bien ordenados.
 
-**Para generar segmentos secuenciales**, los contenedores están anidados y la lógica secuencial unida mediante la variable [!UICONTROL THEN] operador que requiere que cada contenedor sea `true` en función de la secuencia del visitante.
+**Para generar segmentos secuenciales**, se anidan los contenedores y se une la lógica secuencial usando el operador [!UICONTROL THEN], que requiere que cada contenedor sea `true` en función de la secuencia del visitante.
 
 <table style="table-layout:fixed; border: none;">
 
@@ -169,7 +169,7 @@ La segmentación secuencial emplea los mismos contenedores básicos, incluidos e
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">ENTONCES</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">A CONTINUACIÓN</td></td>
 </tr>
 
 <tr>
@@ -186,7 +186,7 @@ La segmentación secuencial emplea los mismos contenedores básicos, incluidos e
 
 <!--![](assets/sequential_segmentation_nesting_3.png)-->
 
-La única excepción a esta jerarquía de contenedores es al usar el [contenedor de grupo lógico](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). El contenedor de [!UICONTROL grupo lógico] le permite anidar una visita individual dentro de un contenedor sin orden para capturar eventos y dimensiones pero fuera de un orden secuencial.
+La única excepción a esta jerarquía de contenedores es al usar el [Contenedor de grupo lógico](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). El contenedor de [!UICONTROL grupo lógico] le permite anidar una visita individual dentro de un contenedor sin orden para capturar eventos y dimensiones pero fuera de un orden secuencial.
 
 <table style="table-layout:fixed; border: none;">
 
@@ -206,7 +206,7 @@ La única excepción a esta jerarquía de contenedores es al usar el [contenedor
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">ENTONCES</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">A CONTINUACIÓN</td></td>
 </tr>
 
 <tr>
@@ -234,13 +234,13 @@ La única excepción a esta jerarquía de contenedores es al usar el [contenedor
 
 Los contenedores le permiten filtrar datos diferentes basados en valores de informes al desglosar los segmentos y aplicarlos a los informes.
 
-Los datos capturados en cada nivel de la jerarquía de contenedores visitante > visita > visita individual afectan a cómo genera sus segmentos. Si toma el mismo segmento aplicado al mismo informe utilizando el mismo conjunto de datos, obtendrá valores diferentes en función del contenedor a partir del cual genere el informe. Los factores como el nivel de informes de contenedor y la persistencia de los valores en las visitas individuales pueden significar cambios significativos en la precisión de sus informes.
+Los datos capturados en cada nivel de la jerarquía de contenedores visitante > visita > visita individual afectan a cómo genera sus segmentos. Si toma el mismo segmento aplicado al mismo informe utilizando el mismo conjunto de datos, obtiene valores diferentes en función del contenedor a partir del cual genere el informe. Los factores como el nivel al que se realiza el informe del contenedor y la persistencia de los valores en las visitas individuales pueden suponer grandes cambios en la precisión de sus informes. 
 
 ### Principios básicos de los datos de contenedor {#container-data}
 
 Por ejemplo, el visitante que se muestra a continuación visitó un sitio en la primera visita, aterrizó en la página de inicio y, a continuación, visitó otras tres páginas y convirtió la visita en una venta. En una visita aparte, el visitante llegó esta vez a través de la página del producto, se dirigió a la página de inicio, volvió atrás a la página del producto y, por último, cerró la sesión tras echar un vistazo a los gorros de invierno. En función de los datos capturados para cada contenedor del segmento, se muestran en el informe valores diferentes.
 
-El `Pages equals Winter Coat` el segmento siguiente se aplica al **Informe de páginas**.
+El segmento `Pages equals Winter Coat` siguiente se aplica al **Informe de páginas**.
 
 
 En función del contenedor seleccionado, el informe muestra resultados diferentes para las siguientes visitas y vistas de página de un visitante.
@@ -256,10 +256,10 @@ En función del contenedor seleccionado, el informe muestra resultados diferente
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Página principal</td>
+<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Inicio</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Ropa de invierno</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Abrigo de invierno</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Compra 100 $</td>
+<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Comprar 100 $</td>
 </tr>
 <tr>
 <td colspan="5">
@@ -277,14 +277,14 @@ En función del contenedor seleccionado, el informe muestra resultados diferente
 <td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Ropa de invierno</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Botas de invierno</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Ropa de invierno</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Sombreros de invierno</td>
+<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Gorros de invierno</td>
 
 </table>
 
 
 <!--![](assets/container_overview.png)-->
 
-### Informes desde el contenedor de visita individual
+### Creación de informes desde el contenedor de visita individual
 
 Cuando esta condición se encuentre dentro de un contenedor de visita individual, el informe solo enumerará páginas donde *Página = Abrigos de invierno* sea un valor verdadero. Dado que una sola página coincide con esta condición en un contenedor de una sola página, únicamente se muestra la página Abrigos de invierno.
 
@@ -294,73 +294,73 @@ Cuando esta condición se encuentre dentro de un contenedor de visita individual
 
 <!--![](assets/container_overview_PV.png)-->
 
-Al realizar informes desde el contenedor de visita individual, podrá ver cómo los informes de diferentes contenedores afectan a los valores generales de los informes. Cuando visualice el informe del segmento, fíjese en que las vistas de página equivalen aproximadamente a las visitas (cerca de 2000 visitantes vieron páginas duplicadas en una visita, lo que se suma al número total de vistas de página). Y los visitantes únicos son aproximadamente iguales al número de visitas (cerca de 2000 visitantes únicos visitados más de una vez).
+Al crear informes desde el contenedor de visita individual, podrá comprobar cómo la creación de informes desde diferentes contenedores afecta a los valores generales de la creación de informes. Cuando visualice el informe del segmento, fíjese en que las vistas de página equivalen aproximadamente a las visitas (cerca de 2000 visitantes vieron páginas duplicadas en una visita, lo que se suma al número total de vistas de página). Y los visitantes únicos son aproximadamente iguales al número de visitas (cerca de 2000 visitantes únicos visitaron más de una vez).
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
 |---|---|--:|--:|
-|  | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **69 252** de 351.292 <br/>**67 554** de 165.175 <br/>**63 541** de 113.169 | **19%**<br/>**40%**<br/>**56%** |
+| | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **69 252** de 351 292 <br/>**67 554** de 165 175 <br/>**63 541** de 113 169 | **19 %**<br/>**40 %**<br/>**56 %** |
 
 
 <!--![](assets/container_report_PV.png)-->
 
 >[!IMPORTANT]
 >
->Independientemente de cómo visualice los datos (desde los contenedores Visita individual, Visita o Visitante ), todos tienen el mismo número de visitantes, 63 541 en este ejemplo. Independientemente de cómo genere el informe, la condición de visitante inicial (Visitantes que vieron la página Abrigos de invierno) permanece intacta. Es el subconjunto de datos desde el que realiza el informe en los diferentes niveles.
+>Independientemente de cómo visualice los datos (desde el contenedor de visita individual, visita o visitante), todos tienen el mismo número de visitantes, 63 541 en este ejemplo. Independientemente de cómo genere el informe, la condición de visitante inicial (los visitantes que vieron la página Abrigos de invierno) permanece intacta. Es el subconjunto de datos desde el que crea el informe en los diferentes niveles.
 
-### Informes desde el contenedor de visita
+### Creación de informes del contenedor de visita
 
-Si esta misma condición se encuentra dentro de un contenedor de visita, entonces el informe enumera todas las páginas de la visita donde *Página es igual a Abrigos de invierno* sea un valor verdadero. Filtra la página Abrigos de invierno, pero también captura las demás páginas de la visita donde la condición sea verdadera. Dado que el visitante también visitó las páginas de inicio, del producto y de compra durante la visita, estas páginas adicionales se enumeran en el informe cuando este se realiza utilizando los datos del contenedor de visitante.
+Si esta misma condición se encuentra dentro de un contenedor de visita, entonces el informe enumera todas las páginas de la visita donde *Página es igual a Abrigos de invierno* sea un valor verdadero. Filtra la página Abrigos de invierno, pero también captura las demás páginas de la visita donde la condición sea verdadera. Dado que el visitante también visitó las páginas de Inicio, Producto y Compra dentro de la visita, estas páginas adicionales se enumeran en el informe cuando se notifican utilizando los datos del contenedor de visitante.
 
 | Página | Vistas de páginas |
 |---|--:|
-| Página principal | 1 |
+| Inicio | 1 |
 | Producto | 1 |
 | Abrigo de invierno | 1 |
 | Compra | 1 |
 
 <!--![](assets/container_overview_visit.png)-->
 
-Si muestra valores de segmento desde el contenedor de visita, comprobará que el número de vistas de página ha aumentado considerablemente. Este aumento se debe a que al realizar informes desde el contenedor de visita se identifican todas las páginas que cumplen las condiciones, además de todas las demás páginas visualizadas en la visita (con todas las vistas de página capturadas en cada contenedor de visita).
+Si muestra valores de segmento desde el contenedor de visita, comprobará que el número de vistas de página ha aumentado considerablemente. Esto se debe a que al crear informes desde el contenedor de visita se identifican todas las páginas que cumplen las condiciones, además de todas las demás páginas visualizadas de la visita (con todas las vistas de páginas capturadas en cada contenedor de visita).
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
 |---|---|--:|--:|
-|  | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **226 193** de 351.292 <br/>**67 554** de 165.175 <br/>**63 541** de 113.169 | **64%**<br/>**40%**<br/>**56%** |
+| | Vistas de página:<br/>Vistas:<br/>Visitantes únicos | **226.193** de 351.292 <br/>**67.554** de 165.175 <br/>**63.541** de 113.169 | **64 %**<br/>**40 %**<br/>**56 %** |
 
 <!--![](assets/container_report_Visit.png)-->
 
-### Informes desde el contenedor de visitante
+### Creación de informes desde el contenedor de visitante
 
-Si esta misma condición se encuentra dentro de un contenedor de visitante, entonces el informe enumera todas las páginas visualizadas por el visitante donde *Página es igual a Abrigos de invierno* sea un valor verdadero. Esta condición significa que si un visitante vio la página Abrigos de invierno, se enumerarán todas las páginas del contenedor de visitante (incluidas las vistas de página de otras visitas). Por lo tanto, las páginas que no cumplen la condición también se enumeran en el informe porque el visitante las vio anteriormente. En el informe se enumeran todas las páginas del contenedor de visitante, incluso si son anteriores y no cumplen estrictamente las condiciones.
+Si esta misma condición se encuentra dentro de un contenedor de visitante, entonces el informe enumera todas las páginas visualizadas por el visitante donde *Página es igual a Abrigos de invierno* sea un valor verdadero. Eso significa que si un visitante vio la página Abrigos de invierno, se enumerarán todas las páginas del contenedor Visitante (incluidas las vistas de página de otras visitas). Por consiguiente, las páginas que no cumplen la condición también se enumerarán en el informe porque el visitante las vio previamente. En el informe se enumerarán todas las páginas del contenedor de visitante, incluso si son anteriores y no cumplen estrictamente las condiciones.
 
-| Visita 1<br/>Página | <br/>Vistas de páginas |
+| Página<br/>Visita 1 | <br/>Vistas de página |
 |---|--:|
-| Página principal | 1 |
+| Inicio | 1 |
 | Ropa de invierno | 1 |
 | Abrigo de invierno | 1 |
 | Compra | 1 |
 
-| Visita 2<br/>Página | <br/>Vistas de páginas |
+| Página<br/>Visita 2 | <br/>Vistas de página |
 |---|--:|
 | Ropa de invierno | 2 |
 | Botas de invierno | 1 |
-| Sombreros de invierno | 1 |
+| Gorros de invierno | 1 |
 
-| Visita 1 + Visita 2<br/>Página | <br/>Vistas de páginas |
+| Página<br/>Visita 1 + Visita 2 | <br/>Vistas de página |
 |---|--:|
 | Ropa de invierno | 3 |
-| Página principal | 1 |
+| Inicio | 1 |
 | Abrigo de invierno | 1 |
 | Compra | 1 |
 | Botas de invierno | 1 |
-| Sombreros de invierno | 1 |
+| Gorros de invierno | 1 |
 
 <!--![](assets/container_overview_visitors.png)-->
 
-Si muestra los segmentos desde el contenedor de visitante, verá que las vistas de página y las visitas han aumentado. Este aumento se debe a que, a nivel de visitante, si este visitó la página Abrigos de invierno solo una vez (con lo que la condición es verdadera), entonces se capturaron todas las demás vistas de página y visitas de ese visitante.
+Si muestra los segmentos desde el contenedor de visitante, verá que las vistas de página y las visitas han aumentado. Este incremento se debe a que a nivel de visitante, si este visitó la página Abrigos de invierno solo una vez (con lo que la condición es verdadera), entonces se capturan todas las demás vistas de página y visitas de dicho visitante.
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
 |---|---|--:|--:|
-|  | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **240 094** de 351.292 <br/>**83 823** de 165.175 <br/>**63 541** de 113.169 | **68%**<br/>**50%**<br/>**56%** |
+| | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **240.094** de 351.292 <br/>**83.823** de 165.175 <br/>**63.541** de 113.169 | **68 %**<br/>**50 %**<br/>**56 %** |
 
 <!--![](assets/container_report_Visitor.png)-->
 
@@ -370,7 +370,7 @@ Resumiendo: es fundamental entender cómo funciona la segmentación en diferente
 
 Todos los desgloses de datos de segmentos tienen un alcance determinado al que estos se aplican. La mayoría de los desgloses de informes se basan en *vistas de página*. Sin embargo, muchos segmentos valiosos se basan en el contenedor de *visita* y, en menor medida, en el contenedor de *visitante*. Es importante entender los informes en función del alcance del contenedor.
 
-Uso del `Page equals Winter Coats` ejemplo de segmento, a continuación se muestran ejemplos de los resultados de este segmento en función de cómo se aplican los datos del contenedor y de cómo coincide el ámbito de los datos con el tipo de segmento.
+Utilizando el ejemplo del segmento `Page equals Winter Coats`, a continuación se muestran ejemplos de los resultados de este segmento basados en cómo se aplican los datos del contenedor y cómo el alcance de los datos coincide con el tipo de segmento.
 
 ### Contenedor de segmento basado en regla de segmento coincidente
 
@@ -382,32 +382,32 @@ Si se aplica el contenedor de segmento según el alcance natural de los datos, s
 
 ### Vistas de página a nivel de contenedor de visita
 
-Muchas reglas de segmentos identifican las vistas de página por visita. Cuando se produce esta identificación, se aplica todo el contenedor de visitante si una sola visita individual coincide con la regla. Este informe de segmento resulta especialmente valioso, ya que las vistas de página en función de las visitas proporcionan información basada en las vistas de página por visita.
+Muchas reglas de segmentos identifican las vistas de página por visita. Cuando se produce esta identificación, se aplica todo el contenedor de visitante si una sola visita única coincide con la regla. Este informe de segmento resulta especialmente valioso, ya que las vistas de página en función de las visitas proporcionan información basada en las vistas de página por visita.
 
 - **Contenedor de visita donde Página es igual a página &quot;Abrigo de invierno&quot;**: en un informe de página a nivel de contenedor de visitante se muestran todas las vistas de página de las visitas que incluyen una vista de la página &quot;Ropa de invierno&quot;. Si la página coincide con la regla del segmento, todas las vistas de página asociadas con esa visita se incluyen en el informe.
-- **Contenedor de visita donde Página es igual a página de &quot;Inicio&quot;**: En un informe de página con este segmento solo se muestran los datos de la primera visita, ya que en la segunda visita el visitante no vio una página de &quot;Inicio&quot;.
-- **Contenedor de visitante donde Página es igual a &quot;Ropa de invierno&quot;**: en un informe de página, este segmento recupera todos los datos de las dos visitas, ya que en ambas el visitante vio la página &quot;Ropa de invierno&quot;.
+- **Contenedor de visita donde página es igual a página “Inicio”**: en un informe de Página con este segmento solo se muestran los datos de la primera visita, porque en la segunda visita el visitante no ha visto una página de “Inicio”.
+- **Contenedor de visitante donde Página es igual a “Ropa de invierno”**: en un informe de página, este segmento recupera todos los datos de las dos visitas, ya que en ambas el visitante vio la página “Ropa de invierno”.
 
-### Contenedor de segmento que identifica Visitas individuales menores que vistas de página
+### Contenedor de segmento que identifica Visitas únicas menores que vistas de página
 
 El uso de un segmento con un contenedor menor que el alcance del desglose devuelve datos inesperados. El uso de un desglose menor sigue extrayendo todas las visitas individuales de ese alcance de datos.
 
-- **Contenedor de visita individual donde Página de entrada es igual a página de producto**: todas las páginas se asocian con la página de entrada de la visita, lo que acaba convirtiéndose en un desglose basado en la visita. El uso de este segmento no solo extrae la página de entrada &quot;Página de producto&quot;, sino también todas las visitas individuales de dicha visita.
+- **Contenedor de visita individual donde Página de entrada es igual a página de producto**: todas las páginas se asocian con la página de entrada de la visita, lo que acaba convirtiéndose en un desglose basado en la visita. El uso de este segmento no solo extrae la página de entrada “Página de producto”, sino también todas las visitas únicas de dicha visita.
 - **Contenedor de visita individual donde Var de lista 1 contiene ValorA**: si varios valores se definieron en la misma visita individual como variables de lista, todos los valores de las variables se incluyen en el segmento. No hay forma de separar los valores que se producen en la misma vista de página, ya que el contenedor de visita individual es el contenedor de segmento más pequeño para desglosar las visitas individuales.
 - **Contenedor de visita individual donde Página es igual a &quot;Compra&quot;**: si se usan las vistas de página como métrica, solo se mostrará la página de compra (tal y como cabría esperar). Si se usa un informe de participación en ingresos, todas las páginas de la primera visita recibirán 100 dólares, dado que la métrica de participación se basa en la visita.
 - **Contenedor de visita individual donde Página es igual a &quot;Abrigo de invierno&quot;**: si se usan las vistas de página como métrica, solo se mostrará la página de abrigo de invierno (tal y como cabría esperar). Si se usa un informe de participación en ingresos, ninguna página recibirá saldo, ya que esta dimensión requiere una dimensión persistente. La vista de página que realizó la compra (la página de compra) no se incluye en el contenedor de visita individual, por lo que ningún elemento recibe participación en los ingresos. Sin embargo, si se ejecuta un informe desde el contenedor de visita, se incluirán todas las vistas de página de esa visita y se distribuirá la participación en los ingresos (100 dólares) entre todas las páginas vistas en la sesión.
 
 ## Persistencia a través de los contenedores {#persistence}
 
-El hecho de filtrar por dimensiones que persisten en una serie de páginas, como el eVar de una campaña o una dimensión de referencia, afecta a los datos recopilados a nivel de contenedor, y debe entenderse bien para garantizar la precisión de los informes.
+El hecho de filtrar por las dimensiones que persisten en una serie de páginas, como una eVar de campaña o una dimensión de referencia, afecta a los datos recopilados a nivel de contenedor, y debe entenderse bien para garantizar la precisión de la creación de informes.
 
-Los datos de los segmentos pueden variar en función de la persistencia de una dimensión o de una variable aplicada en las páginas seleccionadas. Algunas dimensiones, como la de página, proporcionan valores únicos a nivel de página y se filtran basándose en los datos del contenedor de visita individual. (Consulte el [ejemplo de Informes basados en datos de contenedores](/help/components/segmentation/seg-overview.md)). Otras dimensiones, como la de dominio de referencia, persisten en varias páginas de una visita. Por ejemplo: `Referring Domain equals aol.com`. Algunas dimensiones o variables aplicadas, como la duración de la visita, permanecen en todo el historial del visitante.
+Los datos de los segmentos pueden variar en función de la persistencia de una dimensión o de una variable aplicada en las páginas seleccionadas. Algunas dimensiones, como la de página, proporcionan valores únicos a nivel de página y se filtran basándose en los datos del contenedor de visita individual. (Consulte el ejemplo [Informes basados en datos de contenedores](/help/components/segmentation/seg-overview.md)). Otras dimensiones, como la de dominio de referencia, persisten en varias páginas de una visita. Por ejemplo: `Referring Domain equals aol.com` Algunas dimensiones o variables aplicadas, como la duración de la visita, permanecen en todo el historial del visitante.
 
 <!--![](assets/RefDomain_aol.png)-->
 
-A diferencia de la dimensión de página, el valor del dominio de referencia se incluye en cada página de esta visita. Por ejemplo, el visitante mostrado más adelante llega a la página de inicio desde un sitio de referencia. Por lo tanto, todas las páginas de esa visita se asignan al mismo valor del dominio de referencia.
+A diferencia de la dimensión de página, el valor del dominio de referencia se incluye en cada página de esta visita. Por ejemplo, el visitante mostrado más adelante llega a la página de inicio desde un sitio de referencia. Por consiguiente, todas las páginas de esa visita se asignan al mismo valor del dominio de referencia.
 
-El `Referring Domain equals aol.com` el segmento siguiente se aplica al **Informe de páginas**.
+El segmento `Referring Domain equals aol.com` que figura a continuación se aplica al **Informe Páginas**.
 
 <table style="table-layout:fixed; border: 0;">
 
@@ -420,10 +420,10 @@ El `Referring Domain equals aol.com` el segmento siguiente se aplica al **Inform
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>aol.com
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Página principal</td>
+<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Inicio</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Ropa de invierno</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Abrigo de invierno</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Compra 100 $</td>
+<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Comprar 100 $</td>
 </tr>
 <tr>
 <td colspan="5">
@@ -441,21 +441,21 @@ El `Referring Domain equals aol.com` el segmento siguiente se aplica al **Inform
 <td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Ropa de invierno</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Botas de invierno</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Ropa de invierno</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Sombreros de invierno</td>
+<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Gorros de invierno</td>
 
 </table>
 
 <!--![](assets/container_overview_persist.png)-->
 
-En una visita nueva, el visitante es remitido desde otro sitio. Por lo tanto, a todas las páginas de la nueva visita se les asigna el nuevo valor del dominio de referencia para cada vista de página.
+En una visita nueva, el visitante es remitido desde otro sitio. Por consiguiente, a todas las páginas de la nueva visita se les asigna el nuevo valor del dominio de referencia para cada vista de página.
 
-### Informes desde el contenedor de visita individual
+### Creación de informes desde el contenedor de visita individual
 
-Dado que a todas las vistas de página dentro de la misma visita se les asigna el mismo valor del dominio de referencia, los informes realizados a nivel del contenedor de visita individual donde `Referring Domain equsls 'aol.com'` devuelve todas las páginas enumeradas en la tabla siguiente.
+Dado que a todas las vistas de página dentro de la misma visita se les asigna el mismo valor del dominio de referencia, los informes realizados a nivel del contenedor de visita única donde `Referring Domain equsls 'aol.com'` devuelve todas las páginas enumeradas en la siguiente tabla.
 
-| Dominio de referencia es igual a &quot;aol.com&quot; | Vistas de páginas |
+| Dominio de referencia igual a &#39;aol.com&#39; | Vistas de páginas |
 |----|---:|
-| Página principal | 1 |
+| Inicio | 1 |
 | Ropa de invierno | 1 |
 | Abrigo de invierno | 1 |
 | Compra | 1 |
@@ -466,73 +466,73 @@ Según los datos del contenedor de visita individual, se realizaron 92.000 vista
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
 |---|---|--:|--:|
-|  | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **98 234** de 351.165 <br/>**33 203** de 165.173 <br/>**32 269** de 113.110 | **27%**<br/>**20%**<br/>**28%** |
+| | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **98.234** de 351.165 <br/>**33.203** de 165.173 <br/>**32.269** de 113.110 | **27 %**<br/>**20 %**<br/>**28 %** |
 
 <!--![](assets/container_report_persist_PV.png)-->
 
-### Informes desde el contenedor de visita
+### Creación de informes del contenedor de visita
 
-Si esta misma condición se filtra en el contenedor de visita para un informe de páginas, entonces todas las páginas de la visita donde `Referring Domain equals 'aol.com'`es verdadero. Dado que el valor del dominio de referencia se establece a nivel de visita, los informes realizados a nivel de vista de página y de visita son iguales.
+Si esta misma condición se filtra en el contenedor de visita para un informe de páginas, entonces todas las páginas de la visita donde `Referring Domain equals 'aol.com'` es un valor verdadero. Dado que el valor del dominio de referencia se establece a nivel de visita, los informes realizados a nivel de vista de página y de visita son iguales.
 
-| Dominio de referencia es igual a &quot;aol.com&quot; | Vistas de páginas |
+| Dominio de referencia igual a &#39;aol.com&#39; | Vistas de páginas |
 |----|---:|
-| Página principal | 1 |
+| Inicio | 1 |
 | Ropa de invierno | 1 |
 | Abrigo de invierno | 1 |
 | Compra | 1 |
 
 <!--![](assets/container_overview_persist_Visit.png)-->
 
-Dado que todas las páginas tienen el mismo valor de dominio de referencia basado en la visita, el informe a nivel de contenedor de visita es (casi) igual al informe del contenedor de vista de página. Hay un ligero desplazamiento (98 234 frente a 98 248) debido a anomalías de los datos.
+Como todas las páginas tienen el mismo valor de dominio de referencia basado en la visita, el informe a nivel de contenedor de visita es (casi) igual al informe del contenedor de vista de página. Hay un ligero desfase (98 234 frente a 98 248) debido a anomalías en los datos.
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
 |---|---|--:|--:|
-|  | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **98 248** de 351.165 <br/>**33 203** de 165.173 <br/>**32 269** de 113.110 | **27%**<br/>**20%**<br/>**28%** |
+| | Vistas de la página:<br/>Vistas:<br/>Visitantes únicos: | **98 248** de 351 165 <br/>**33 203** de 165 173 <br/>**32 269** de 113 110 | **27 %**<br/>**20 %**<br/>**28 %** |
 
 <!--![](assets/container_report_persist_Visit.png)-->
 
-### Informes desde el contenedor de visitante
+### Creación de informes desde el contenedor de visitante
 
-Desde el contenedor de visitante, el informe de página enumera todas las páginas visitadas por un visitante donde `Referring Domain equals 'aol.com'` es verdadero. Por lo tanto, si un visitante *&#39;aol.com&#39;* como dominio de referencia en cualquier momento del historial (dentro del período de tiempo definido), se enumerarán todas las páginas del contenedor de visitante (incluidas las vistas de página de otras visitas). Incluso las páginas que no cumplen la condición principal se enumeran en el informe, ya que están incluidas en el contenedor de visitante. En el informe se enumeran todas las páginas del contenedor de visitante, incluso si son anteriores y no cumplen estrictamente las condiciones.
+Desde el contenedor de visitante, el informe de página enumera todas las páginas vistas por cualquier visitante donde `Referring Domain equals 'aol.com'` tiene un valor verdadero. Por consiguiente, si un visitante ha tenido *&quot;aol.com&quot;* como dominio de referencia en algún momento en el historial (dentro del período de tiempo definido), entonces se enumerarán todas las páginas del contenedor de visitante (incluidas las vistas de página de otras visitas). También se enumerarán en el informe las páginas que no cumplen la condición principal, ya que están incluidas en el contenedor de visitante. Todas las páginas del contenedor de visitas aparecen en el informe, aunque se hayan producido con anterioridad y no cumplan específicamente las condiciones.
 
-En un informe Dominio de referencia, `Referring Domain equals 'aol.com'` es verdadero en cuatro vistas de página, pero `Referring Domain equals "weather.com"` es verdadero en las demás páginas que visitó el visitante. Desde el contenedor de visitante, obtendrá una lista de visitantes donde &quot;aol.com&quot; es verdadero. Pero también le proporciona páginas donde el dominio de referencia es &quot;weather.com&quot;, no el valor que coincidió con su solicitud inicial en el segmento.
+En un informe de Dominio de referencia, `Referring Domain equals 'aol.com'` es verdadero en cuatro vistas de página, pero `Referring Domain equals "weather.com"` es verdadero en las demás páginas que visitó el visitante. Desde el contenedor de Visitantes, se obtiene una lista de Visitantes donde &quot;aol.com&quot; es verdadero. Pero también le da páginas en las que el dominio de referencia es &quot;weather.com&quot;, no el valor que coincidía con su solicitud inicial en el segmento.
 
-| Visita 1<br/>Dominio de referencia es igual a &quot;aol.com&quot; | <br/>Vistas de páginas |
+| Visita 1<br/>Dominio de referencia igual a &quot;aol.com&quot; | <br/>Vistas de página |
 |----|---:|
-| Página principal | 1 |
+| Inicio | 1 |
 | Ropa de invierno | 1 |
 | Abrigo de invierno | 1 |
 | Compra | 1 |
 
-| Visita 2<br/>Dominio de referencia = &#39;weather.com&#39; | <br/>Vistas de páginas |
+| Visita 2<br/>Dominio de referencia = &quot;weather.com&quot; | <br/>Vistas de página |
 |----|---:|
 | Ropa de invierno | 2 |
 | Abrigo de invierno | 1 |
 | Compra | 1 |
 
-| Contenedor de visitante<br/>Dominio de referencia es igual a &quot;aol.com&quot; | Vistas de páginas |
+| Contenedor de visitas<br/>Dominio de referencia igual a &quot;aol.com&quot; | Vistas de páginas |
 |----|---:|
-| Ropa de invierno<br/>Dominio de referencia: &#39;aol.com&#39; | 1 |
-| Ropa de invierno<br/>Dominio de referencia: &#39;weather.com&#39; | 1 |
-| Inicio <br/>Dominio de referencia: &#39;aol.com&#39; | 1 |
-| Abrigo de invierno <br/>Dominio de referencia: &#39;aol.com&#39; | 1 |
-| Comprar<br/>Dominio de referencia: &#39;aol.com&#39; | 1 |
-| Botas de invierno<br/>Dominio de referencia: &#39;weather.com&#39; | 1 |
-| Sombreros de invierno<br/>Dominio de referencia: &#39;weather.com&#39; | 1 |
+| Ropa de invierno<br/>Dominio de referencia: &quot;aol.com&quot; | 1 |
+| Ropa de invierno<br/>Dominio de referencia: &quot;weather.com&quot; | 1 |
+| Inicio <br/>Dominio de referencia: &quot;aol.com&quot; | 1 |
+| Abrigo de invierno <br/>Dominio de referencia: &quot;aol.com&quot; | 1 |
+| Comprar<br/>Dominio de referencia: &quot;aol.com&quot; | 1 |
+| Botas de invierno<br/>Dominio de referencia: &quot;weather.com&quot; | 1 |
+| Sombreros de invierno<br/>Dominio de referencia: &quot;weather.com&quot; | 1 |
 
 
 <!--![](assets/container_overview_persist_Visitor.png)-->
 
-Cuando vea datos desde el contenedor de visitante, fíjese en que las vistas de página han aumentado considerablemente (de 98.248 a 112.925). Este aumento se debe a que se han enumerado todas las vistas de página del visitante (incluidas las páginas con otros valores de dominio de referencia guardados a nivel de contenedor de visitante). Y las visitas adicionales de ese visitante, aumentando las visitas de 33.203 a 43.448.
+Cuando vea datos desde el contenedor de visitante, fíjese en que las vistas de página han aumentado considerablemente (de 98 248 a 112 925). Este aumento se debe a que se han enumerado todas las páginas vistas por el visitante (incluidas aquellas páginas con otros valores de dominio de referencia guardados en el nivel Contenedor de visitantes). Y las visitas adicionales de ese visitante, aumentando las visitas de 33 203 a 43 448.
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
 |---|---|--:|--:|
-|  | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **112 925** de 351.165 <br/>**43 448** de 165.173 <br/>**32 269** de 113.110 | **32%**<br/>**26%**<br/>**28%** |
+| | Vistas de la página:<br/>Vistas:<br/>Visitantes únicos: | **112 925** de 351 165 <br/>**43 448** de 165 173 <br/>**32 269** de 113 110 | **32 %**<br/>**26 %**<br/>**28 %** |
 
 <!--![](assets/container_report_persist_Visitor.png)-->
 
 ## Resumen
 
-- El contenedor de visitante devuelve todas las páginas vistas por un visitante donde al menos una página cumple los criterios. Por lo tanto, si una página se ve solo en la visita 1 del día 1, entonces se incluyen en los datos todas las páginas vistas por el visitante en varias visitas.
-- El contenedor de visita devuelve todas las páginas vistas en una visita para las que al menos una página cumple los criterios. Así pues, si una página se ve solo en la visita 1 del día 1, entonces se incluyen en los datos todas las páginas vistas en toda la visita.
-- Tenga cuidado de basar la condición que utiliza para la segmentación en un eVar u otro tipo de variable persistente. Por ejemplo, puede utilizar la condición &quot;donde Campaign contenga un correo electrónico&quot;, que caduca pasados siete días. Por lo tanto, si la campaña se establece en la primera visita, persiste durante siete días más. Cada visita se incluye aunque la campaña solo se estableciera en la primera visita. Las demás visitas también se incluyen (siempre y cuando se encuentren en el intervalo de fechas del informe). Si desea que los valores persistentes dejen de incluirse, utilice el evento “instancia de” o una variable Prop equivalente, si está disponible.
+- El contenedor de visitantes devuelve todas las páginas vistas por un visitante en las que al menos una página cumple los criterios. Así, si una página solo se ve en la visita 1 del día 1, se incluyen en los datos todas las páginas vistas por el visitante a lo largo de varias visitas.
+- El contenedor Visita devuelve todas las páginas vistas en una visita, para las que al menos una página cumple los criterios. Así pues, si una página se ve solo en la visita 1 del día 1, entonces se incluyen en los datos todas las páginas vistas en toda la visita.
+- Tenga cuidado de basar la condición que utilice para la segmentación en una eVar u otro tipo de variable persistente. Por ejemplo, podría utilizar la condición “donde Campaign contenga un correo electrónico”, que expira tras siete días. Si la campaña se establece en la primera visita, persiste durante siete días más. De este modo se incluye cada visita, incluso si la campaña solo estaba establecida en la primera visita. Las demás visitas también se incluyen (siempre y cuando se encuentren dentro del intervalo de fechas del informe). Si desea que los valores persistentes dejen de incluirse, utilice el evento “instancia de” o una variable Prop equivalente, si está disponible.

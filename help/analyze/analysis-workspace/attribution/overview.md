@@ -5,9 +5,9 @@ feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ La atribución permite a los analistas personalizar la forma en que los elemento
 1. Un visitante de su sitio hace clic en un vínculo de búsqueda de pago a una de las páginas de producto. Después, agrega el producto al carro de compras, pero no lo compra.
 2. Al día siguiente, ve una publicación en los medios sociales de uno de sus amigos, hace clic en el vínculo y completa la compra.
 
-En algunos informes, es posible que desee atribuir el pedido a la búsqueda de pago. En otros informes, es posible que desee atribuir el pedido a los medios sociales. La atribución permite controlar este aspecto del sistema de informes. Está disponible para todas las organizaciones en Adobe Analytics Ultimate, Prime, Select y Foundation. Si no está seguro de qué tipo de contrato tiene con Adobe, póngase en contacto con el equipo de cuenta de Adobe de su organización.
+En algunos informes, es posible que desee atribuir el pedido a la búsqueda de pago. En otros informes, es posible que desee atribuir el pedido a los medios sociales. La atribución permite controlar este aspecto del sistema de informes. Está disponible para todas las organizaciones en Adobe Analytics Ultimate, Prime, Select y Foundation. Si no está seguro de qué tipo de contrato tiene con Adobe, póngase en contacto con el equipo de cuentas de Adobe de su organización.
 
 ## Valor de atribución
 
@@ -48,7 +48,7 @@ Attribution incluye las siguientes funciones:
 
 ## Vídeos
 
-Attribution en tablas de forma libre:
+La atribución en tablas de forma libre:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
@@ -60,7 +60,7 @@ Uso del panel de Attribution:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Adición de comparaciones paralelas de modelos de Attribution 
+Adición de comparaciones paralelas de modelos de Attribution:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 

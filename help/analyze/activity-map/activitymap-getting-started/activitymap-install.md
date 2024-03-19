@@ -5,7 +5,7 @@ feature: Activity Map
 role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
 source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '303'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Los complementos del explorador de Activity Map:
 1. Vuelva a la barra de direcciones de Chrome y escriba `chrome://extensions`.
 1. Active la casilla Modo de desarrollador.
 1. Haga clic en el botón Cargar extensión descomprimida y seleccione la carpeta descomprimida en la ventana emergente.
-1. Si ve un icono de Adobe Analytics  nuevo en la barra de herramientas, significa que la descarga se ha realizado correctamente. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Ahora puede [iniciar Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-launch.md) desde la página.
+1. Si ve que se ha añadido un icono de Adobe Analytics a la barra de herramientas, significa que la descarga se ha realizado correctamente.<br/> <img src="./assets/an_icon.png" width="150px"/><br/>Ahora puede [iniciar Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-launch.md) desde su página.
 
 ## Instalación del complemento de Activity Map en Firefox {#firefox}
 
@@ -43,7 +43,7 @@ Los complementos del explorador de Activity Map:
 1. Haga clic en **[!UICONTROL Instalar el complemento de Activity Map]**.
 1. Haga clic en **[!UICONTROL Permitir]** cuando aparezca este mensaje: ![](assets/firefox_install2.png)
 1. Haga clic en **[!UICONTROL Instalar ahora]**.
-1. Haga clic en el icono **[!UICONTROL Abrir menú]** en la parte superior derecha y seleccione **[!UICONTROL Complementos]**. ![](assets/firefox_install3.png){width="250px"}
+1. Haga clic en el icono **[!UICONTROL Abrir menú]** en la parte superior derecha y seleccione **[!UICONTROL Complementos]**.![](assets/firefox_install3.png){width="250px"}
 1. Activity Map debe aparecer como uno de los complementos de Firefox.
-1. Si ve un icono de Adobe Analytics  nuevo en la barra de herramientas, significa que la descarga se ha realizado correctamente. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Ahora puede [iniciar Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-launch.md) desde la página.
+1. Si ve que se ha añadido un icono de Adobe Analytics a la barra de herramientas, significa que la descarga se ha realizado correctamente. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Ahora puede [iniciar Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-launch.md) desde su página.
 

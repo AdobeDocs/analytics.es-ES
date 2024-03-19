@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
-workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 79%
+workflow-type: ht
+source-wordcount: '1175'
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 79%
 
 Microsoft Power BI es un conjunto de tableros de análisis empresarial para analizar datos y compartir resultados. La integración de Adobe Analytics con Power BI le permite visualizar datos de Analytics de Report Builder dentro de Microsoft Power BI y compartirlos fácilmente dentro de su organización.
 
-Como analista, anteriormente programaba la distribución de libros de Report Builder mediante correo electrónico o ftp. Ahora puede proporcionar a las partes interesadas de su empresa acceso a los datos precisos y actualizados desde sus cuentas de Power BI en un entorno basado en web al que se puede acceder desde distintas plataformas y dispositivos.
+Como analista, antes podía programar la distribución de libros de Report Builder mediante correo electrónico o por ftp. Ahora, puede ofrecer a las personas interesadas de su empresa acceso, desde sus cuentas de Power BI, a datos precisos y actualizados en un entorno basado en la web, al que se puede acceder desde distintas plataformas y dispositivos.
 
-Al combinar las capacidades de generación de Report Builder con las características de visualización de Power BI, la información se hace más accesible para todos los miembros de la organización. Con Power BI, también puede integrar Adobe Analytics con otras fuentes de datos, por ejemplo, puntos de venta o fuentes CRM, para descubrir perspectivas, asociaciones y oportunidades de clientes únicos.
+Al combinar las capacidades de generación de Report Builder con las características de visualización de Power BI, la información se hace más accesible para todos los miembros de la organización. Power BI también le permite integrar Adobe Analytics con otras fuentes de datos, p. ej., puntos de venta o fuentes de CRM, para descubrir datos, asociaciones y oportunidades relativos a clientes únicos.
 
 ![Diagrama del icono de Microsoft Power BI más el icono de Adobe Analytics.](assets/aaplusbi.png)
 
@@ -28,7 +28,7 @@ Al combinar las capacidades de generación de Report Builder con las caracterís
 
 ## Publicar libro de trabajo en Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
 
-Los libros programados son hojas de cálculo de Excel con formato y rellenas con datos de Adobe Analytics que se distribuyen de forma regular y programada.
+Los libros programados son hojas de cálculo de Excel con formato, rellenadas con datos de Adobe Analytics y enviadas de forma regular y programada.
 
 **Publicar libro en Report Builder**
 
@@ -37,7 +37,7 @@ Los libros programados son hojas de cálculo de Excel con formato y rellenas con
 
 1. En el Asistente de programación básico, marque la casilla junto a **[!UICONTROL Publicar libro en Microsoft Power BI]**.
 
-   ![Captura de pantalla del Asistente de programación de Report Builder que muestra la opción de marcar la opción Publicar libro en Microsoft Power BI.](assets/simple-schedule-wizard.png)
+   ![Captura de pantalla del Asistente de programación de Report Builder que muestra la opción para marcar la opción Publicar libro en Microsoft Power BI.](assets/simple-schedule-wizard.png)
 
 1. Especifique su correo electrónico y envíe inmediatamente, o especifique la frecuencia de la programación (cada día, cada hora, etc.).
 1. Haga clic en **[!UICONTROL Aceptar]** para publicar.
@@ -52,7 +52,7 @@ Los libros programados son hojas de cálculo de Excel con formato y rellenas con
 
    ![Captura de pantalla de la vista Libros de Power BI.](assets/workbooks-power-bi.png)
 
-1. Ahora puede ver los datos del tablero del libro.  ![Los datos del tablero del libro.](assets/view-data-pbi.png)
+1. Ahora puede ver los datos del tablero del libro.  ![Datos del tablero del libro.](assets/view-data-pbi.png)
 
 1. También puede anclar un área de este libro para incluirla en cualquiera de sus tableros de Power BI.
 
@@ -112,7 +112,7 @@ Puede convertir todas las solicitudes en tablas de conjuntos de datos y crear vi
 1. En la barra de herramientas de Report Builder, haga clic en **[!UICONTROL Programar]** > **[!UICONTROL Nuevo]**.
 
 1. En el Asistente de programación básico, haga clic en **[!UICONTROL Opciones de programación avanzadas]**.
-1. En el [!UICONTROL Asistente de programación avanzado], en la ficha **[!UICONTROL Opciones de publicación]**, marque la casilla junto a **[!UICONTROL Publicar todas las solicitudes de Report Builder como tablas de conjunto de datos de Power BI]** ![Captura de pantalla que muestra el Asistente de programación que resalta la opción Publicar todas las solicitudes de Report Builder como tablas de conjuntos de datos de Power BI.](assets/advanced-schedule-wizard2.png)
+1. En el [!UICONTROL Asistente de programación: avanzado], en la pestaña **[!UICONTROL Opciones de publicación]**, marque la casilla junto a **[!UICONTROL Publicar todas las solicitudes de Report Builder como tablas de conjuntos de datos de Power BI]** ![Captura de pantalla que muestra el Asistente de programación que resalta la opción Publicar todas las solicitudes de Report Builder como tablas de conjuntos de datos de Power BI.](assets/advanced-schedule-wizard2.png)
 
 1. Haga clic en **[!UICONTROL Aceptar]**.
 

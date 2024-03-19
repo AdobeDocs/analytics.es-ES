@@ -4,9 +4,9 @@ description: Preguntas más frecuentes sobre el uso de las clasificaciones.
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
-workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '377'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Los archivos de clasificación cargados con un valor clave o un valor de clasifi
 
 * **Usar reglas de procesamiento**: Puede modificar los elementos de dimensión entre la recopilación de datos y su almacenamiento en un grupo de informes. Cree la siguiente regla de procesamiento:
 
-   *Si la [dimensión] es igual a `0`, sobrescriba el valor de la [dimensión] con el valor personalizado `Zero`.*
+  *Si la [dimensión] es igual a `0`, sobrescriba el valor de la [dimensión] con el valor personalizado `Zero`.*
 
-* **Solicitar una regla VISTA**: Un consultor de servicios de ingeniería configura una regla del lado del servidor para usted con un coste adicional. Póngase en contacto con el equipo de cuentas de Adobe para solicitar una regla de VISTA.
+* **Solicitar una regla VISTA**: Un consultor de servicios de ingeniería configura una regla del lado del servidor para usted con un coste adicional. Póngase en contacto con el equipo de cuentas de Adobe para solicitar una regla VISTA.
 
 ## ¿Puedo usar el importador de clasificaciones para clasificar los elementos de dimensión que aún no existen?
 

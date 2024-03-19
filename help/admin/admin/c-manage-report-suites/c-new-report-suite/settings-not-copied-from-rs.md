@@ -4,9 +4,9 @@ title: Configuración que no se copia desde un grupo de informes de origen
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
-workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '188'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Las siguientes configuraciones no se copian de la plantilla o los grupos de info
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reglas de VISTA </p> </td> 
-   <td colname="col2"> <p>Póngase en contacto con su equipo de cuentas de Adobe para ponerse en contacto con los servicios de ingeniería. </p> </td> 
+   <td colname="col2"> <p>Póngase en contacto con el equipo de cuentas de Adobe para contactar con los Servicios de ingeniería. </p> </td> 
   </tr> 
  </tbody> 
 </table>

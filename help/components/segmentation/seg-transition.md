@@ -4,15 +4,15 @@ title: Preguntas más frecuentes sobre los segmentos heredados
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Preguntas más frecuentes sobre los segmentos heredados
 
-Responde preguntas frecuentes sobre las prácticas recomendadas para administrar segmentos heredados: segmentos creados antes de 2014.
+Responde a preguntas frecuentes sobre las prácticas recomendadas para administrar segmentos heredados: segmentos creados antes de 2014.
 
 ## Administración de segmentos heredados {#legacy}
 
@@ -44,13 +44,13 @@ Tiene un marcador que hace referencia al segmento para el grupo de informes main
 
 +++ **¿Qué ha pasado con los segmentos de Data Warehouse?**
 
-Todos los segmentos del Data Warehouse seguirán funcionando en el Data Warehouse. La mayoría de los segmentos de Data Warehouse también seguirán funcionando en otros componentes, como Analysis Workspace.
+Todos los segmentos de Data Warehouse seguirán funcionando en Data Warehouse. La mayoría de los segmentos de Data Warehouse también seguirán funcionando en otros componentes, como Analysis Workspace.
 
 Puede crear o editar segmentos nuevos del Almacén de datos en el Generador/Data Warehouse. El mecanismo de compatibilidad del producto en el Generador de segmentos determina automáticamente si un segmento es compatible con el Data Warehouse.
 
 +++
 
-+++ **¿Qué ha pasado con los segmentos preconfigurados?**
++++ **¿Qué ha pasado con los segmentos configurados previamente?**
 
 * **Visitas a una sola página**
 * **Visitas desde dispositivos móviles**
@@ -62,7 +62,7 @@ Estos segmentos se migrarán como plantillas de segmentos al Generador de segmen
 
 +++
 
-+++ **Qué ha pasado con los segmentos de Experience Cloud (grupo):**
++++ **¿Qué ha pasado con los segmentos de Experience Cloud (Suite)?:**
 
 * No compradores
 * Compradores
@@ -72,13 +72,13 @@ Estos segmentos se migrarán como plantillas de segmentos al Generador de segmen
 * Visitas con más de 5 visitas previas*
 * Visitas provenientes de Facebook*
 
-La mayoría de estos segmentos (excepto los marcados con un asterisco *) se migraron como plantillas de segmento al Generador de segmentos. Además, se han agregado varias plantillas de segmentos nuevas.
+La mayoría de estos segmentos (excepto aquellos marcados con un asterisco *) se migraron como plantillas de segmento al Generador de segmentos. Además, se han añadido varias plantillas de segmentos nuevas.
 
-Los informes existentes que tienen estos segmentos aplicados siguen funcionando correctamente.
+Todos los informes a los que se hayan aplicado dichos segmentos funcionarán correctamente.
 
 +++
 
-+++ **¿Qué ha pasado con los segmentos de administración (también conocidos como segmentos &quot;globales&quot;)?**
++++ **¿Qué ha pasado con los segmentos de administración (conocidos también como segmentos &quot;Globales&quot;)?**
 
 Los segmentos de **Administrador** se migrarán en la nueva interfaz de segmentos y se mostrarán como segmentos compartidos para todos.
 
@@ -104,18 +104,18 @@ Ahora que los segmentos funcionan en múltiples grupos de informes, es posible q
 * Revise los segmentos que tiene.
 * Añádalos a la biblioteca de segmentos cuando sea pertinente.
 * Apruebe los segmentos canónicos.
-* Etiquete los segmentos según [prácticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Etiquete los segmentos según las [prácticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
 
-### Sugerencias de migración
+### Consejos para la migración
 
 Los siguientes consejos le ayudarán a migrar dimensiones comunes:
 
 * Ciudad/región/país geográfico: Busca y selecciona ciudades, regiones o países específicos, en lugar de utilizar una coincidencia parcial.
 * Exploradores: Utiliza la dimensión Tipos de exploradores para obtener todos los exploradores de un tipo, por ejemplo Google Chrome.
 * Sistemas operativos: Utiliza las dimensiones Tipos de sistemas operativos para obtener todos los sistemas operativos de un tipo, como Microsoft Windows.
-* Consulte &quot;Dimension nuevos y renombrados&quot; (ver a continuación)
+* Consulte “Dimensiones nuevas y renombradas” (véase a continuación)
 
 ## Dimensiones nuevas y renombradas {#renamed}
 
@@ -153,7 +153,7 @@ Las dimensiones basadas en cadenas que tienen un conjunto de valores conocidos s
 
 Las siguientes dimensiones se cambiaron a listas enumeradas:
 
-| nombre del Dimension | nombre del Dimension | nombre del Dimension |
+| Nombre de la dimensión | Nombre de la dimensión | Nombre de la dimensión |
 | --- | --- | --- |
 | fabricante de dispositivos móviles | longitud de correo electrónico móvil | profundidad de color |
 | tamaño de la pantalla del dispositivo móvil | número de dispositivo móvil | resolución del monitor |
@@ -172,7 +172,7 @@ Las siguientes dimensiones se cambiaron a listas enumeradas:
 
 ## Cambios en las dimensiones basadas en enteros que tienen valores conocidos {#integer-based-dims}
 
-Las dimensiones basadas en enteros (como el ancho del explorador) con un conjunto de valores conocidos se dividieron en varios intervalos para que pueda definir rápidamente segmentos para un intervalo específico. A estas listas enumeradas se les ha agregado &quot;- Agrupado&quot; tras el nombre de la dimensión. La siguiente pantalla muestra cómo se segmentan estas dimensiones utilizando las interfaces anteriores y nuevas del generador de segmentos:
+Las dimensiones basadas en enteros (como el ancho del explorador) con un conjunto de valores conocidos se dividieron en varios intervalos para que pueda definir rápidamente segmentos para un intervalo específico. A estas listas enumeradas se les ha agregado &quot;- Agrupado&quot; tras el nombre de la dimensión. La siguiente pantalla muestra cómo se segmentan estas dimensiones utilizando la interfaz antigua y nueva del generador de segmentos:
 
 ![](assets/seg_browser_dimension.png)
 

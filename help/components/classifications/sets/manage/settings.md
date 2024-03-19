@@ -1,28 +1,28 @@
 ---
-title: Configuración del conjunto de clasificaciones
-description: Cree o edite un conjunto de clasificaciones.
+title: Configuración del conjunto de clasificación
+description: Cree o edite un conjunto de clasificación.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
 source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '146'
+ht-degree: 100%
 
 ---
 
-# Configuración del conjunto de clasificaciones
+# Configuración del conjunto de clasificación
 
-Configure las opciones de un conjunto de clasificaciones.
+Configure los ajustes de un conjunto de clasificación.
 
-**[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificaciones]** > **[!UICONTROL Conjuntos]** > Haga clic en el nombre del conjunto de clasificaciones deseado > **[!UICONTROL Configuración]**
+**[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificación]** > **[!UICONTROL Conjuntos]** > Haga clic en el nombre del conjunto de clasificación que desee > **[!UICONTROL Configuración]**
 
-Los campos siguientes están disponibles en esta pestaña:
+En esta pestaña están disponibles los siguientes campos:
 
-* **[!UICONTROL Nombre]**: nombre del conjunto de clasificaciones.
-* **[!UICONTROL Descripción]**: Descripción del conjunto de clasificaciones.
+* **[!UICONTROL Nombre]**: El nombre del conjunto de clasificación.
+* **[!UICONTROL Descripción]**: La descripción del conjunto de clasificación.
 * **[!UICONTROL Nombre del propietario]**: El nombre del propietario.
 * **[!UICONTROL Correo electrónico del propietario]**: La dirección de correo electrónico del propietario.
-* **[!UICONTROL Notificar problemas]**: una lista delimitada por comas de direcciones de correo electrónico a las que se notifican los problemas con este conjunto de clasificaciones.
-* **[!UICONTROL Etiquetas]**: Añada una o más etiquetas al conjunto de clasificaciones seleccionado. Las etiquetas permiten organizar o agrupar conjuntos de clasificaciones para que sea más fácil localizarlos en el futuro.
-* **[!UICONTROL Tipo]**: El tipo de clasificación entre [!UICONTROL Principal] y [!UICONTROL Búsqueda]. Las clasificaciones principales generalmente se utilizan. No se puede modificar el tipo de un conjunto de clasificaciones una vez creado.
-* **[!UICONTROL Suscripciones]**: El grupo de informes y las combinaciones de dimensiones a las que se aplica el conjunto de clasificaciones.
+* **[!UICONTROL Notificar problemas]**: lista de direcciones de correo electrónico delimitada por comas a las que se notifican los problemas con este conjunto de clasificación.
+* **[!UICONTROL Etiquetas]**: añada una o más etiquetas al conjunto de clasificación seleccionado. Las etiquetas permiten organizar o agrupar conjuntos de clasificación para que sea más fácil localizarlos en el futuro.
+* **[!UICONTROL Tipo]**: el tipo de clasificación entre [!UICONTROL Principal] y [!UICONTROL Búsqueda]. Las clasificaciones principales generalmente se utilizan. No se puede modificar el tipo de un conjunto de clasificación una vez creado.
+* **[!UICONTROL Suscripciones]**: las combinaciones de grupo de informes y dimensión a los que se aplica este conjunto de clasificación.

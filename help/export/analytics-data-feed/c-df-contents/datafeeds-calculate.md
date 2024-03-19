@@ -5,8 +5,8 @@ title: Calcular métricas
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
-workflow-type: tm+mt
-source-wordcount: '457'
+workflow-type: ht
+source-wordcount: '458'
 ht-degree: 100%
 
 ---

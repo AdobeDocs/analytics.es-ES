@@ -4,15 +4,15 @@ description: La enésima visita del visitante.
 feature: Dimensions
 exl-id: daef34b3-c270-476d-a45c-a20be6138c6b
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '163'
+ht-degree: 100%
 
 ---
 
 # Número de visita
 
-El &quot;número de visita&quot; [dimensión](overview.md) informes en los que se encuentra actualmente el visitante. Cuando se inicia una nueva visita, este elemento de dimensión aumenta en 1. Esta dimensión es útil cuando desea comprender el nivel de participación de los visitantes al regresar al sitio. Es una dimensión basada en visitas, lo que significa que contiene el mismo valor para toda la visita y no puede cambiar. Se aplica a la duración del visitante, independientemente del intervalo de fechas del proyecto.
+Los informes de [dimensión](overview.md) “Número de visita” en los que se encuentra actualmente el visitante. Cuando se inicia una nueva visita, este elemento de dimensión aumenta en 1. Esta dimensión es útil cuando desea comprender el nivel de participación de los visitantes al regresar al sitio. Es una dimensión basada en visitas, lo que significa que contiene el mismo valor para toda la visita y no puede cambiar. Se aplica a la duración del visitante, independientemente del intervalo de fechas del proyecto.
 
 ## Rellene esta dimensión con datos
 

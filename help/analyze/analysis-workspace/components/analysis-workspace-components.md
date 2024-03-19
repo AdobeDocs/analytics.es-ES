@@ -5,8 +5,8 @@ feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
-workflow-type: tm+mt
-source-wordcount: '1190'
+workflow-type: ht
+source-wordcount: '1044'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ Puede administrar componentes directamente en el carril izquierdo.
 
 1. Haga clic con el botón derecho en un componente.
 
-   o
+   O
 
    Seleccione un componente y a continuación, seleccione el icono de **Acción** (tres puntos) en la parte superior de la lista de componentes.
 
@@ -107,7 +107,7 @@ Puede buscar, filtrar y ordenar la lista de componentes en el carril izquierdo d
 
 2. Seleccione el icono de **Filtro** ![icono de Filtro del diccionario de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
 
-   o
+   O
 
    Escriba el símbolo de almohadilla (#) en el campo de búsqueda.
 

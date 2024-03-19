@@ -5,8 +5,8 @@ feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
-workflow-type: tm+mt
-source-wordcount: '863'
+workflow-type: ht
+source-wordcount: '862'
 ht-degree: 100%
 
 ---

@@ -4,8 +4,8 @@ title: Crear un grupo de informes
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
-source-wordcount: '316'
+workflow-type: ht
+source-wordcount: '311'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Este artículo está diseñado para administradores de nivel de sistema o admini
 
    >[!NOTE]
    >
-   >Solo puede copiarse la configuración, no los datos. Si el Servicio de atención al cliente va a sobrescribir la configuración, deberá confirmar por escrito el descargo de responsabilidad con el que el Servicio de atención al cliente le informa de los riesgos. Consulte  [Configuración que no se copia desde un grupo de informes de origen](/help/admin/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md) para obtener más información.
+   >Solo puede copiarse la configuración, no los datos. Si el Servicio de atención al cliente va a sobrescribir la configuración, deberá confirmar por escrito el descargo de responsabilidad con el que el Servicio de atención al cliente le informa de los riesgos. Véase [Configuración que no se copia desde un grupo de informes de origen](/help/admin/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md) para obtener más información.
 
 1. Complete los campos descritos en [Nuevo grupo de informes](/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md).
 1. Haga clic en **[!UICONTROL Crear grupo de informes]**.

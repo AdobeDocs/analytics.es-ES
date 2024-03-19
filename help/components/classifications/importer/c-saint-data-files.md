@@ -4,9 +4,9 @@ title: Archivos de datos de clasificación
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1768'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Los archivos de datos deben cumplir las siguientes reglas estructurales:
 * Las clasificaciones no pueden tener un valor de 0 (cero).
 * Adobe recomienda limitar a 30 el número de columnas de importación y exportación.
 * Los archivos actualizados deben usar la codificación de caracteres UTF-8 sin BOM.
-* En una celda se pueden incrustar caracteres especiales, como tabulaciones, líneas nuevas y comillas, siempre que el formato de archivo especificado sea v2.1 y que la celda esté correctamente [escapado](/help/components/classifications/importer/t-classifications-escape-data.md). Los caracteres especiales incluyen:
+* En una celda se pueden incrustar caracteres especiales, como por ejemplo tabulaciones, líneas nuevas y comillas, siempre que el formato de archivo especificado sea v2.1 y que en la celda [se haya usado el carácter de escape](/help/components/classifications/importer/t-classifications-escape-data.md) correctamente.  Los caracteres especiales incluyen:
 
   ```text
   \t     tab character 
@@ -110,7 +110,7 @@ Cada valor debe ser único en todo el sistema. El valor de este campo correspond
 
 >[!NOTE]
 >
->Los valores del encabezado de la columna [!UICONTROL Clasificaciones] deben coincidir exactamente con la convención de nomenclatura de la clasificación; si no es así, la importación no se realizará correctamente. Por ejemplo, si el administrador cambia [!UICONTROL Campañas] hasta [!UICONTROL Nombres de campañas internas] en el [!UICONTROL Administrador de configuración de campañas], el encabezado de la columna del archivo debe cambiar para que coincida. &quot;Key&quot; es un valor de clasificación reservado (encabezado). No se admiten nuevas clasificaciones denominadas &quot;Clave&quot;.
+>Los valores del encabezado de la columna [!UICONTROL Clasificaciones] deben coincidir exactamente con la convención de nomenclatura de la clasificación; si no es así, la importación no se realizará correctamente. Por ejemplo, si el administrador cambia [!UICONTROL Campañas] por [!UICONTROL Nombres de campaña internos] en el [!UICONTROL Gestor de configuración de campañas], el encabezado de la columna del archivo debe cambiar también para que coincidan. &quot;Clave&quot; es un valor de clasificación reservado (encabezado). No se admiten nuevas clasificaciones denominadas &quot;Clave&quot;.
 
 Además, el archivo de datos admite las siguientes convenciones de encabezado adicionales, para identificar subclasificaciones y otras columnas de datos especializados:
 

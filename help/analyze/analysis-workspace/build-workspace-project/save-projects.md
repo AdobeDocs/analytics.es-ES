@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
-workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '724'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Para guardar manualmente un proyecto:
    | **[!UICONTROL Guardar]** | Guardar cambios en el proyecto. Si se comparte el proyecto, los destinatarios del proyecto también verán los cambios. Cuando guarde el proyecto por primera vez, se le pedirá que indique un nombre y una descripción (opcional), y que agregue etiquetas (opcional). |
    | **[!UICONTROL Guardar con notas]** | Antes de guardar el proyecto, agregue notas sobre los cambios realizados en el proyecto. Las notas se almacenan con la versión del proyecto y están disponibles para todos los editores en [!UICONTROL Proyecto] > [!UICONTROL Abrir versión anterior]. |
    | **[!UICONTROL Guardar como]** | Cree un duplicado del proyecto. El proyecto original no se verá afectado. |
-   | **[!UICONTROL Guardar como informe de la empresa]** | Guarde el proyecto como [informe de empresa](/help/analyze/analysis-workspace/reports/create-company-reports.md) que está disponible para su organización en **[!UICONTROL Proyecto > Nuevo]** |
+   | **[!UICONTROL Guardar como informe de compañía]** | Guarde el proyecto como un [informe de la compañía](/help/analyze/analysis-workspace/reports/create-company-reports.md) que está disponible para su organización en **[!UICONTROL Proyecto > Nuevo]** |
 
 ## Guardar automáticamente {#Autosave}
 

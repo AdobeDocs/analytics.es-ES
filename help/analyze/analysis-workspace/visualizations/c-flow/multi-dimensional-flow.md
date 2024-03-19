@@ -6,15 +6,15 @@ feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
-workflow-type: tm+mt
-source-wordcount: '317'
+workflow-type: ht
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
 
 # Flujos interdimensionales
 
-Un flujo interdimensional le permite examinar las rutas del usuario entre diversas dimensiones. Aquí tiene un vídeo sobre el ajuste de texto y el flujo multidimensional en Analysis Workspace:
+Un flujo interdimensional le permite examinar rutas de usuario entre varias dimensiones. Aquí tiene un vídeo sobre el ajuste de texto y el flujo multidimensional en Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -34,11 +34,11 @@ Para explorar la interacción entre pantallas/páginas y acciones en esta aplica
 
 * Arrástrela al final de la zona de colocación (dentro de la zona rectangular enmarcada en negro que aparece) para **sustituir** a los principales resultados en los extremos:
 
-   ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
+  ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
 
 * Arrástrela al espacio en blanco al final (observe el horquillado negro) para **añadir en** la visualización:
 
-   ![](assets/multi-dimensional-flow4.png)
+  ![](assets/multi-dimensional-flow4.png)
 
 Este es el resultado si decide sustituir el elemento ItemScaled de la columna derecha por la dimensión Página. El resultado principal ahora cambia por el resultado principal de la dimensión Página:
 
