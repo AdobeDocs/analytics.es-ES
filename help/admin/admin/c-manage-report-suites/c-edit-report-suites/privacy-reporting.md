@@ -3,16 +3,16 @@ description: Habilite las dimensiones de administración de consentimiento.
 title: Creación de informes de privacidad
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
+source-git-commit: d7e2667bc232435881107f31d25843ef224a96b2
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 45%
+source-wordcount: '113'
+ht-degree: 54%
 
 ---
 
 # Creación de informes de privacidad
 
-Los informes de privacidad permiten activar la variable [Inclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-in.md), [Exclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-out.md) y [Consentimiento de publicidad](/help/components//dimensions/ad-consent.md) dimensiones para usar en informes.
+Los informes de privacidad permiten activar la variable [Inclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-in.md), [Exclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-out.md) y [Consentimiento de plataforma de publicidad](/help/components//dimensions/ad-consent.md) dimensiones para usar en informes.
 
 >[!NOTE]
 >
@@ -36,7 +36,3 @@ Para acceder a esta página, haga lo siguiente:
 1. Una vez activadas, aparece un mensaje de confirmación. Las dimensiones están disponibles en los informes.
 
    ![Informe](assets/consent-management.png)
-
-## Dimensión Consentimiento de publicidad
-
-El [Dimensión Consentimiento de publicidad](/help/components/dimensions/ad-consent.md) muestra si se recopila el consentimiento para enviar datos a proveedores de publicidad de terceros, como Google, Meta y otros.

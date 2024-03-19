@@ -1,17 +1,17 @@
 ---
-title: Consentimiento de publicidad
+title: Consentimiento de la plataforma de publicidad
 description: Consulte la configuración de consentimiento publicitario para proveedores de publicidad de terceros.
 feature: Dimensions
-source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
+source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 1%
+source-wordcount: '329'
+ht-degree: 3%
 
 ---
 
-# Consentimiento de publicidad
+# Consentimiento de la plataforma de publicidad
 
-El &#39;consentimiento del anuncio&#39; [dimensión](overview.md) muestra si se recopila el consentimiento para enviar datos a proveedores de publicidad de terceros, como Google, Meta y otros.
+El &quot;consentimiento de la plataforma de publicidad&quot; [dimensión](overview.md) muestra si se recopila el consentimiento para enviar datos a proveedores de publicidad de terceros, como Google, Meta y otros.
 
 Actualmente, esta dimensión se utiliza solo para Google. Debido a las regulaciones de privacidad europeas, la Ley de Mercados Digitales (DMA) de Google requiere que los datos enviados a sus servidores y recopilados en Europa indiquen si se recopila el consentimiento. Algunos clientes de Analytics envían datos de evento mediante el Adobe Advertising como eventos de conversión a Google.
 
@@ -52,7 +52,6 @@ Puede utilizar los datos recopilados y de consentimiento:
 
 * Fuentes de datos: los datos de consentimiento del anuncio están disponibles mediante el `dataprivacydmaconsent` [columna](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 * informes de Data Warehouse: los datos de consentimiento del anuncio están disponibles mediante la variable **[!UICONTROL Consentimiento de plataforma de publicidad]** dimensión.
-
 
 Su organización determina la lógica para implementar esta variable de datos de contexto. El valor no persiste más allá de la visita en la que está establecido, por lo que debe establecer la variable de datos de contexto en cada página.
 
