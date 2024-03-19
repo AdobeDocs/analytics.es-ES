@@ -6,7 +6,7 @@ feature: Implementation Basics
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '2541'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Fuente de datos del flujo de navegación:** consulte Fuente de datos
 * **Cohorte:** grupo de personas que comparten características comunes durante un período de tiempo determinado. Consulte [¿Qué es el análisis de cohorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)en la guía de usuario sobre análisis.
 * **Servidor de recopilación:** Consulte Servidor de recopilación de datos.
-* **Componente:** Los componentes de Analysis Workspace están formados por dimensiones, métricas, segmentos e intervalos de fechas que puede arrastrar y soltar en un proyecto. Consulte [Resumen de componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) en la guía de usuario sobre análisis.
+* **Componente:** los componentes de Analysis Workspace están formados por métricas, dimensiones, segmentos y rangos de tiempo que puede arrastrar y soltar en un proyecto. Consulte [Información general sobre componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) en la Guía del usuario de Analysis.
 * **Variables de datos de contexto:** variables temporales utilizadas únicamente en las reglas de procesamiento. Los valores de las variables de datos de contexto se pierden de forma irreversible si una regla de procesamiento no los copia en una variable de conversión o de tráfico. Consulte [Variables de datos de contexto](../implement/vars/page-vars/contextdata.md) en la guía de usuario sobre implementación.
 * **Variable de conversión:** Conocidas de forma coloquial como eVars. Almacena un valor personalizado y conserva el valor de la variable hasta que caduque. Consulte la dimensión [eVar](/help/components/dimensions/evar.md) en la guía del usuario Componentes.
 * **Correlación:** ya no se utiliza como término; se ha sustituido por los desgloses de dimensión. En las versiones anteriores de Adobe Analytics, las correlaciones permitían desglosar variables de tráfico. Consulte [Desglosar dimensiones](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) en la guía del usuario sobre análisis.
@@ -74,7 +74,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Empresa de inicio de sesión:** una recopilación de los grupos de informes que utiliza su organización. Algunas organizaciones tienen varias empresas de inicio de sesión que se aplican a diferentes partes de la organización.
 * **Canal de marketing:** característica de Adobe Analytics que categoriza las visitas según la forma en que llegaron al sitio. La lógica utilizada para categorizar las visitas se puede personalizar mediante reglas de procesamiento del canal de marketing. Consulte [Introducción a los canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) en la guía de usuario sobre componentes.
 * **Métrica:** un tipo de componente que contiene datos cuantitativos. Los valores de las métricas generalmente contienen números, como Vistas de página, Visitas e Ingresos. Su homólogo suele ser una dimensión.
-* **Mobile Services:** Un producto de Adobe retirado que aúna las capacidades de marketing móvil para aplicaciones móviles desde Adobe Experience Cloud, lo que le permite comprender y mejorar la participación del usuario en sus aplicaciones.
+* **Mobile Services:** un producto retirado de Adobe que aúna las prestaciones de marketing móvil para aplicaciones móviles de Adobe Experience Cloud, lo que permite que entienda y mejore la participación del usuario con sus aplicaciones.
 * **Etiquetado de grupos múltiples:** la práctica de enviar la misma visita a varios grupos de informes. Con la introducción de los grupos de informes virtuales, esta práctica ya no es necesaria. La mayoría de los procesos de etiquetado de grupos múltiples se centran en un grupo de informes global.
 * **Normalización:** forma de organizar una visualización que recoge todas las métricas e iguala sus proporciones, lo que permite una comparación más sencilla de las tendencias.
 * **Ocurrencias:** un tipo de métrica que muestra el número de visitas para el que se configuró o durante el cual persistió un elemento de dimensión. Consulte la métrica [Ocurrencias](/help/components/metrics/occurrences.md) en la guía del usuario Componentes.
@@ -91,7 +91,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Tiempo real:** muestra con poca o ninguna latencia las variables configuradas en cuanto se recopilan. Consulte [Informes en tiempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) en la guía de usuario de administración.
 * **Report Builder:** Add-in de Microsoft Excel que permite crear solicitudes personalizadas a partir de los datos de Adobe Analytics.
 * **Grupo de informes:** contenedor general al que se envían datos. Todos los informes de Adobe Analytics pertenecen a un grupo de informes.
-* **Reports &amp; Analytics:** anteriormente conocido como SiteCatalyst. Solución de navegador para informes y análisis. Herramienta inicial en el paquete de Analytics. Esta herramienta se ha [fin de vida útil](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html).
+* **Reports &amp; Analytics:** anteriormente conocido como SiteCatalyst. Solución de explorador para creación de informes y análisis. Herramienta inicial en el paquete de Analytics. Esta herramienta ha llegado [al final de su vida útil](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html).
 * **Intervalo de fecha móvil:** un tipo de intervalo de fecha relativo que cambia a medida que pasa el tiempo. Por ejemplo, un informe que muestra los últimos 7 días puede considerarse un intervalo de fecha móvil. Consulte también intervalo de fecha estático.
 * **RSID:** sigla de “Report suite ID” (el ID del grupo de informes). Un grupo de informes tiene un nombre descriptivo y un ID del grupo de informes.
 * **s.t():** nombre de la función de una biblioteca de AppMeasurement que envía una solicitud de imagen de vista de página. Algunas bibliotecas de AppMeasurement utilizan `s.track()` en su lugar. Consulte [t](../implement/vars/functions/t-method.md) en la guía de usuario sobre implementación.

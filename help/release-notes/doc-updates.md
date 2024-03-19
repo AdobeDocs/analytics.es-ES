@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
 workflow-type: tm+mt
 source-wordcount: '5243'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -30,9 +30,9 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | La información de uso relativa a la columna &quot;Utilizado en&quot; solo está disponible a partir de septiembre de 2023. | Se ha aclarado que la información de uso relativa a **Utilizado en** en la columna [página de aterrizaje de proyectos](/help/analyze/landing.md) solo se remonta hasta septiembre de 2023. |
 | **Febrero de 2024** | |
 | Actualizaciones de información sobre la administración de solicitudes de Data Warehouse | Se ha aclarado que, de forma predeterminada, los usuarios solo pueden ver las solicitudes que crean cuando [administración de solicitudes de Data Warehouse](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
-| Actualizaciones de la documentación para compartir proyectos | Se ha añadido información acerca de cómo [ver proyectos compartidos](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>También se ofrece información optimizada sobre [compartir proyectos individuales o múltiples](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
-| Se han agregado requisitos de permiso para cargar archivos en Azure SAS y Azure RBAC en Datas Warehouse y fuentes de datos | Se agregaron requisitos de permiso exactos para cargar archivos en Azure SAS y Azure RBAC al [configuración de destinos para Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) y [al configurar destinos para fuentes de datos](/help/export/analytics-data-feed/create-feed.md). |
-| Se han añadido requisitos de permiso para cargar archivos en bloques de Amazon S3 y GCP en las fuentes de datos y Data Warehouse | Se han añadido requisitos de permiso exactos para cargar archivos en los bloques de Amazon S3 y Google Cloud Platform al [configuración de destinos para Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) y [al configurar destinos para fuentes de datos](/help/export/analytics-data-feed/create-feed.md). |
+| Actualizaciones de la documentación sobre proyectos compartidos | Se ha añadido información sobre cómo [ver proyectos compartidos](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>También se ha simplificado la información sobre [uso compartido de proyectos individuales o múltiples](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
+| Se han añadido requisitos de permisos para cargar archivos en Azure SAS y Azure RBAC en Data Warehouse y Fuente de datos | Se han añadido requisitos de permisos exactos para cargar archivos a Azure SAS y Azure RBAC al [configurar destinos para Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) y [al configurar destinos para Data Feeds](/help/export/analytics-data-feed/create-feed.md). |
+| Se han añadido requisitos de permisos para cargar archivos en bloques de Amazon S3 y GCP en Data Warehouse y Fuentes de datos. | Se han añadido requisitos de permisos exactos para cargar archivos en bloques de Amazon S3 y Google Cloud Platform [al configurar destinos para Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) y [al configurar destinos para Data Feeds](/help/export/analytics-data-feed/create-feed.md). |
 | **Enero de 2024** | |
 | La migración de componentes se aplica a organizaciones IMS individuales | Se ha aclarado que [migración de componentes](/help/admin/admin/component-migration/component-migration.md) no admite la migración de organización entre IMS. |
 | Se ha aclarado que cierta información solo está disponible para administradores | Se ha agregado información para indicar que las columnas “Último uso” y “Utilizado en” que se describen en [Administrador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) y [Administrador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md) solo están disponibles para los administradores del sistema. |
