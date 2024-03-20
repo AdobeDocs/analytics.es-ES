@@ -3,10 +3,10 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9636b8e4e8596449cb37bbab9bc46d660fac4a4b
+source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 40%
+source-wordcount: '1303'
+ht-degree: 37%
 
 ---
 
@@ -50,6 +50,7 @@ AN-312198; AN-338009; AN-339549; AN-333970; AN-334790; AN-336461; AN-336572; AN-
 
 | Aviso | Fecha de incorporación o actualización | Descripción |
 | ----------- | ---------- | ---------- |
+| **Caducidad de guardado en 13 meses`cust_visids`** | jueves, 20 de marzo de 2024 | Una próxima versión del motor de procesamiento de visitas de Analytics, prevista para abril o mayo, comenzará a aplicar una caducidad de guardado de 13 meses `cust_visids`. Si el grupo de informes tiene habilitada la opción &quot;Habilitar vinculación de visitantes&quot;, se usa esta opción para encontrar la variable `cust_visid` para un `visid_high/visid_low value` sin `cust_visid` en la visita. Actualmente, no hay caducidad para la asignación de un `cust_visid` para un `visid_high/visid_low`. Con esta versión, si han transcurrido 13 meses o más desde `visid_high/visid_low` ha tenido un `cust_visid` en caso de una visita, la asignación caducará. |
 | **Adiciones de miembros de objeto de API de Adobe** | 17 de enero de 2024 | Adobe puede añadir miembros de solicitud y respuesta opcionales (pares de nombre/valor) a objetos de API existentes sin previo aviso ni cambios en las versiones. Adobe le recomienda que consulte la documentación de la API de cualquier herramienta de terceros que integre con nuestras API para que dichas adiciones se ignoren en el procesamiento, si no se comprenden. Si se implementan correctamente, estas adiciones son cambios no rupturistas para su implementación. Adobe no quitará los parámetros ni añadirá los parámetros necesarios sin antes proporcionar una notificación estándar mediante las notas de la versión. |
 | **`getPageLoadTime`complemento obsoleto** | 10 de enero de 2024 | Este complemento ya no es compatible.  Su código utiliza el método performance.timing, que (según MDN) ha quedado [obsoleto](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming).  Se ha iniciado el trabajo en un complemento actualizado. |
 
