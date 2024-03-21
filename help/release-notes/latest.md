@@ -3,7 +3,7 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
+source-git-commit: b5d274b6b529737b2ad1d135599fe0b0dcf4bf2a
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 37%
@@ -12,7 +12,7 @@ ht-degree: 37%
 
 # Notas de la versión actuales de Adobe Analytics (marzo de 2024)
 
-**Última actualización**: jueves, 20 de marzo de 2024
+**Última actualización**: viernes, 21 de marzo de 2024
 
 Estas notas de la versión abarcan el periodo de lanzamiento del 12 de marzo de 2024 a abril de 2024. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -26,7 +26,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 12 de marzo de 
 | **Uso del Report Builder incluido en la columna &quot;Utilizado en&quot; del Administrador de métricas calculadas y del Administrador de segmentos** | Al ver el **Utilizado en** en el Administrador de métricas calculadas o en el Administrador de segmentos, los datos de uso ya están disponibles para el Report Builder.<p>Anteriormente, los datos de uso del Administrador de segmentos solo estaban disponibles para Alertas, Proyectos, Proyectos programados y Métricas calculadas; mientras que los datos de uso del Administrador de métricas calculadas solo estaban disponibles para Alertas, Proyectos y Proyectos programados.</p> |  | A finales de marzo o principios de abril |
 | **Utilice las mismas cuentas de nube para las fuentes de datos, la Data Warehouse y los conjuntos de clasificaciones** | Las cuentas y ubicaciones de nube que cree ahora se pueden usar para exportar datos (con Fuentes de datos e Data Warehouse) e importar datos (con conjuntos de clasificaciones).<p> **Cambios al configurar cuentas:** Los usuarios pueden Configurar cuentas de importación y exportación de la nube y Configurar ubicaciones de importación y exportación de la nube que se puedan utilizar para cualquiera de los siguientes fines:<ul><li>Importación de datos con conjuntos de clasificaciones</li><li>Exportación de datos con fuentes de datos</li><li>Exportación de datos con Data Warehouse.</li></ul><p>**Cambios al administrar cuentas**: los usuarios pueden utilizar la página Ubicaciones (en Componentes > Ubicaciones) para ver y administrar todas las cuentas y ubicaciones que crean, independientemente del lugar donde se crearon. <p>Anteriormente, la página Ubicaciones solo se aplicaba a las cuentas creadas para importar datos con conjuntos de clasificaciones.</p> | | Abril de 2024 |
 | **Los administradores pueden administrar todas las ubicaciones y cuentas de su organización** | Una nueva opción de la pestaña Ubicaciones (en la página Componentes > Ubicaciones) permite a los administradores ver y administrar todas las ubicaciones de la organización.<p>Una nueva opción de la pestaña Cuentas de ubicación (en la página Componentes > Ubicaciones) permite a los administradores ver y administrar todas las cuentas de la organización.</p> <p>Anteriormente, los administradores solo podían ver y administrar las ubicaciones y cuentas que habían creado.</p> |  | Abril de 2024 |
-| **El Activity Map de utiliza menos llamadas al servidor para el SDK web** | Actualmente, los eventos de vínculo de Activity Map se cuentan como eventos propios y conllevan un coste adicional. <p>Esta mejora toma algunos eventos de vínculo y los empaqueta en la siguiente visita, de forma similar a como se gestionan los eventos en AppMeasurement.</p> |  | jueves, 03 de abril de 2024 |
+| **El Activity Map de utiliza menos llamadas al servidor para el SDK web** | Actualmente, los eventos de vínculo de Activity Map se cuentan como eventos propios y conllevan un coste adicional. <p>Esta mejora toma algunos eventos de vínculo y los empaqueta en la siguiente visita, de forma similar a como se gestionan los eventos en AppMeasurement.</p> |  | miércoles, 30 de abril de 2024 |
 | **Aumento de los umbrales de bajo tráfico predeterminados** | A **mediados de abril de 2024**, Adobe empezará a aumentar los umbrales de bajo tráfico predeterminados del grupo de informes de la siguiente manera: ![umbrales de bajo tráfico](assets/thresholds.png) Esto afectará únicamente a las variables que actualmente están configuradas por debajo de los nuevos umbrales. Estos cambios se introducirán gradualmente y esperamos que el trabajo esté terminado a **finales de mayo**. A medida que se vayan aplicando estos incrementos, es posible que note cambios en las variables de alta cardinalidad:<ul><li>Puede haber más valores de dimensión disponibles para la creación de informes.</li><li>Los segmentos y las métricas calculadas pueden incluir más datos.</li><li>Los conjuntos de informes virtuales basados en segmentos pueden incluir más datos.</li><li>Las exportaciones de clasificación pueden incluir más datos.</li></ul> | | Mediados de abril de 2024 |
 
 {style="table-layout:auto"}
