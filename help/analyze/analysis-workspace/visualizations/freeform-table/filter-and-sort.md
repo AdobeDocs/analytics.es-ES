@@ -4,10 +4,10 @@ title: Filtrado y ordenación de tablas de forma libre
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
+source-git-commit: 398d4ae264ce108c16a03cef086ae2614b442a2b
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 71%
+source-wordcount: '874'
+ht-degree: 72%
 
 ---
 
@@ -28,7 +28,6 @@ Los filtros de Analysis Workspace le ayudan a mostrar la información más impor
 Puede utilizar varios métodos para filtrar filas de una tabla de forma libre. 
 
 - Haga clic en la &quot;X&quot; de la fila.
-- Haga clic con el botón derecho > Filas seleccionadas eliminadas
 - Filtros de tabla
 - Segmentación
 
