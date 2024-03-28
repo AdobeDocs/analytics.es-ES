@@ -5,9 +5,9 @@ feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
 source-git-commit: e033f32fb3394bb9e2a9ec47766febfbe8d5bfd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ El siguiente flujo de decisión puede ayudarle a seleccionar un método de imple
 
 Para implementar Adobe Analytics del lado del servidor, tiene las siguientes opciones:
 
-* **API del servidor perimetral**: El código se implementa en el servidor que utiliza la API del servidor perimetral de Adobe Experience Platform para comunicarse con Adobe Analytics a través de un conjunto de datos.
-  ![Implementación del lado del servidor](assets/edge-network-server-api.svg)
-Consulte [Implementar Adobe Analytics mediante la API del servidor de red perimetral de Adobe Experience Platform](/help/implement/aep-edge/server-api/overview.md) para obtener más información.
+* **API del servidor Edge**: El código se implementa en el servidor que utiliza la API del servidor Edge de Adobe Experience Platform para comunicarse con Adobe Analytics a través de una secuencia de datos.
+  ![Implantación del lado del servidor](assets/edge-network-server-api.svg)
+Consulte [Implementación de Adobe Analytics con la API de servidor de red Edge de Adobe Experience Platform](/help/implement/aep-edge/server-api/overview.md) para obtener más información.
 
-* **API de inserción de datos (masiva)**: Las API de inserción de datos de Adobe Analytics (masiva) se utilizan para recopilar datos del lado del servidor directamente en Adobe Analytics.
+* **API de inserción de datos (lote)**: las API de inserción de datos de Adobe Analytics (lote) se utilizan para recopilar datos del lado del servidor directamente en Adobe Analytics.
   ![API de inserción de datos](assets/analytics-apis.png)
 Consulte [API de inserción de datos](../import/c-data-insertion-api/c-data-insertion-api.md) para obtener más información.
 
@@ -77,7 +77,7 @@ Para su **aplicación móvil**, están disponibles los siguientes métodos de im
 
 >[!CAUTION]
 >
->Consulte para obtener compatibilidad con versiones anteriores de los SDK móviles de Adobe la [Anuncios de fin de compatibilidad de SDK](https://developer.adobe.com/client-sdks/resources/sdks-end-of-support/).
+>Consulte los [Anuncios de fin de compatibilidad de SDK](https://developer.adobe.com/client-sdks/resources/sdks-end-of-support/) para obtener compatibilidad con versiones anteriores de los SDK móviles de Adobe.
 
 ## Artículos de implementación de Analytics clave
 
@@ -85,13 +85,13 @@ Para su **aplicación móvil**, están disponibles los siguientes métodos de im
 * [Adobe Debugger](validate/debugger.md)
 * [Creación de una propiedad de etiquetas en Experience Platform](launch/create-analytics-property.md)
 * [Actualizaciones de AppMeasurement](appmeasurement-updates.md)
-* [Tutorial sobre la configuración de Adobe Analytics con el SDK web de Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
+* [Tutorial sobre la configuración de Adobe Analytics con el SDK web de Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=es)
 * [Tutorial de implementación de Adobe Experience Cloud en aplicaciones móviles](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=es)
 
 
 ## Recursos clave de Analytics
 
-* [Contactar con el servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=es#support)
+* [Contactar con el servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Analytics?lang=es#support)
 * [Foro de Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
 * [Recursos de Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=es)
 * [Últimas notas de la versión](../release-notes/latest.md)

@@ -5,17 +5,17 @@ exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
 source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
-# Implementación de Adobe Analytics con Adobe Experience Platform Edge Network
+# Implementación de Adobe Analytics con la red Edge de Adobe Experience Platform
 
-Adobe Experience Platform Edge Network le permite enviar datos destinados a varios productos a una ubicación centralizada. La red perimetral reenvía la información adecuada a los productos deseados. Este concepto le permite consolidar los esfuerzos de implementación, especialmente abarcando varias soluciones de datos.
+La red Edge de Adobe Experience Platform le permite enviar datos destinados a varios productos a una ubicación centralizada. La red Edge reenvía la información adecuada a los productos deseados. Este concepto le permite consolidar los esfuerzos de implementación, especialmente abarcando varias soluciones de datos.
 
-Adobe ofrece tres formas principales de enviar datos a la red perimetral:
+Adobe ofrece tres formas principales de enviar datos a la red Edge:
 
 * **[SDK web de Adobe Experience Platform](web-sdk/overview.md)**: Utilice la extensión del SDK web en la recopilación de datos de Adobe Experience Platform para enviar datos a Edge.
 * **[SDK de Adobe Experience Platform Mobile](mobile-sdk/overview.md)**: Utilice la extensión del SDK móvil en la recopilación de datos de Adobe Experience Platform para enviar datos a Edge.
@@ -23,15 +23,15 @@ Adobe ofrece tres formas principales de enviar datos a la red perimetral:
 
 
 
-## Cómo gestiona Adobe Analytics los datos de red perimetral
+## Cómo gestiona Adobe Analytics los datos de la red Edge
 
-Los datos enviados a Adobe Experience Platform Edge Network pueden seguir dos formatos:
+Los datos enviados a la red Edge de Adobe Experience Platform pueden seguir dos formatos:
 
-* Objeto XDM: conformar esquemas basados en [XDM (modelo de datos de experiencia)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es). XDM le proporciona flexibilidad en los campos que se definen como parte de los eventos. En el momento en que los eventos llegan a Adobe Analytics, se traducen a un formato que Adobe Analytics puede gestionar.
-* Objeto de datos: envíe datos a la red perimetral mediante campos específicos asignados a Adobe Analytics. La red perimetral detecta la presencia de estos campos y los reenvía a Adobe Analytics sin necesidad de ajustarse a un esquema.
+* Objeto XDM: conformar esquemas basados en [XDM (Modelo de datos de experiencia)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es). XDM le proporciona flexibilidad en los campos que se definen como parte de los eventos. En el momento en que los eventos llegan a Adobe Analytics, se traducen a un formato que Adobe Analytics puede gestionar.
+* Objeto de datos: envíe datos a la red Edge mediante campos específicos asignados a Adobe Analytics. La red Edge detecta la presencia de estos campos y los reenvía a Adobe Analytics sin necesidad de ajustarse a un esquema.
 
 
-Edge Network utiliza la siguiente lógica para determinar las vistas de página de Adobe Analytics y los eventos de vínculo
+La red Edge utiliza la siguiente lógica para determinar las vistas de página de Adobe Analytics y los eventos de vínculo
 
 | La carga útil XDM contiene... | Adobe Analytics... |
 |---|---|
@@ -42,4 +42,4 @@ Edge Network utiliza la siguiente lógica para determinar las vistas de página 
 
 {style="table-layout:auto"}
 
-Consulte la [Grupo de campos de esquema de extensión completa de Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html) para obtener más información.
+Consulte [Grupo de campos de esquema de extensión completa de Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=es) para obtener más información.

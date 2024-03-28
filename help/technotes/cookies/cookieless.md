@@ -5,9 +5,9 @@ feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Puede enviar datos del lado del servidor de Analytics mediante la [API de inserc
 
 ## ID de dispositivo de origen (FPID) con SDK web
 
-Con el SDK web de Adobe Experience Platform, puede optar por establecer y administrar sus propios identificadores de dispositivo en lugar de los Experience Cloud ID (ECID) generados por Adobe. Estos se denominan ID de dispositivos de origen (FPID). Obtenga más información [aquí](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html).
+Con el SDK web de Adobe Experience Platform, puede optar por establecer y administrar sus propios identificadores de dispositivo en lugar de los Experience Cloud ID (ECID) generados por Adobe. Estos se denominan ID de dispositivos de origen (FPID). Obtenga más información [aquí](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=es).
 
 ## Más información
 

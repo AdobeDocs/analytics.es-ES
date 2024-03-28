@@ -6,9 +6,9 @@ title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3928'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`clickmaplinkbyregion`** | Vínculo de Activity Map por región | varchar(255) |
 | **`clickmappage`** | Página de Activity Map | varchar(255) |
 | **`clickmapregion`** | Región de Activity Map | varchar(255) |
-| **`code_ver`** | Versión de API o SDK de cliente utilizada para compilar y enviar la solicitud de imagen. | char(16) |
+| **`code_ver`** | Versión de la API o del SDK cliente utilizado para compilar y enviar la solicitud de imagen. | char(16) |
 | **`color`** | ID de profundidad de color basada en el valor de la columna `c_color`. Se remite a la tabla de búsqueda `color_depth.tsv`. | smallint sin firmar |
 | **`connection_type`** | ID numérica que representa el tipo de conexión. Variable utilizada en la dimensión [Tipo de conexión](/help/components/dimensions/connection-type.md). Se remite a la tabla de búsqueda `connection_type.tsv`. | tinyint sin firmar |
 | **`cookies`** | Variable utilizada en la dimensión [Compatibilidad con cookies](/help/components/dimensions/cookie-support.md).<br>S: Habilitado<br>N: No habilitado<br>D: Desconocido | char(1) |

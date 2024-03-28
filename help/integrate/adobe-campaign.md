@@ -5,9 +5,9 @@ feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 Para obtener más información acerca de cómo configurar esta integración, vaya a la [documentación de Adobe Campaign](https://helpx.adobe.com/es/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
 >[!IMPORTANT]
->Este artículo se aplica solamente al sistema de informes de Adobe Campaign **Standard**. Consulte [aquí](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html) para añadir el sistema de informes de Adobe Campaign **Classic**.
+>Este artículo se aplica solamente al sistema de informes de Adobe Campaign **Standard**. Consulte [aquí](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=es) para añadir el sistema de informes de Adobe Campaign **Classic**.
 
 Esta integración entre Adobe Analytics y Adobe Campaign Standard:
 

@@ -5,9 +5,9 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1818'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ La página de aterrizaje de Adobe Analytics consta de las siguientes subpestaña
 
 **[!UICONTROL Informes]** hace referencia a todo lo que haya generado previamente Adobe, como las plantillas del Espacio de trabajo. 
 
-El **[!UICONTROL Aprendizaje]** Esta pestaña contiene tutoriales, vínculos a documentación y recorridos en vídeo prácticos.
+La pestaña **[!UICONTROL Aprendizaje]** contiene tutoriales y recorridos en vídeo prácticos, además de vínculos a documentación.
 
 ## Vaya a la pestaña [!UICONTROL Proyectos] {#navigate-projects}
 
-El [!UICONTROL Proyectos] La pestaña sirve como [!UICONTROL Workspace] página principal. Muestra la carpeta Compañía, las carpetas personales que haya creado, los proyectos y los cuadros de resultados móviles. Utilice esta página para ver, crear y modificar carpetas, proyectos e informes de valoración móviles. Para obtener más información, consulte [Acerca de las carpetas en Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+La pestaña [!UICONTROL Proyectos] sirve como página de inicio de [!UICONTROL Workspace]. Muestra la carpeta Compañía, las carpetas personales que ha creado, los proyectos y los informes de valoración móviles. Utilice esta página para ver, crear y modificar carpetas, proyectos e informes de valoración móviles. Para obtener más información, consulte [Acerca de las carpetas en Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
 ![Aterrizar todo](assets/landing-all2.png)
 
@@ -39,9 +39,9 @@ El [!UICONTROL Proyectos] La pestaña sirve como [!UICONTROL Workspace] página 
 
 Para personalizar los anchos de columna, arrastre la barra vertical que separa cada columna.
 
-Para agregar o quitar columnas de la lista de proyectos, haga clic en el icono de columna (![Aterrizar todo](/help/analyze/assets/select-column.png)) en la parte superior derecha y, a continuación, seleccione o anule la selección de los títulos de las columnas.
+Para añadir o quitar columnas de la lista de proyectos, haga clic en el icono de columna (![Aterrizar todo](/help/analyze/assets/select-column.png)) en la parte superior derecha y, a continuación, seleccione o anule la selección de los títulos de las columnas.
 
-Las columnas disponibles son:
+Las opciones disponibles son:
 
 | Nombre de la columna | Descripción |
 |---------|----------|
@@ -53,15 +53,15 @@ Las columnas disponibles son:
 | [!UICONTROL **Grupo de informes**] | Identifica los grupos de informes asociados al proyecto.<br>Las tablas y visualizaciones de un panel derivan datos del grupo de informes seleccionado en la parte superior derecha del panel. El grupo de informes también determina qué componentes están disponibles en el carril izquierdo. Dentro de un proyecto, puede utilizar uno o varios grupos de informes en función de los casos de uso del análisis. La lista de grupos de informes se ordena según la relevancia. Adobe define la relevancia en función del uso reciente y de la frecuencia con que el usuario actual ha utilizado el grupo, y en función de la frecuencia con la que el grupo se utiliza dentro de la organización. |
 | [!UICONTROL **Propietario**] | Identifica la persona que creó el proyecto. |
 | [!UICONTROL **Compartido con**] | Muestra con quién se comparte actualmente el proyecto. |
-| [!UICONTROL **Última modificación**] | Fecha y hora de la última modificación del proyecto. |
+| [!UICONTROL **Última modificación**] | Fecha y hora de última modificación del proyecto. |
 | [!UICONTROL **Última apertura**] | Identifica la fecha en la que el usuario que está viendo la página Proyectos abrió por última vez un proyecto. |
-| [!UICONTROL **Último uso**] | Ayuda a determinar si un proyecto es valioso para los usuarios de su organización, ya que muestra la fecha y la hora en que cualquier usuario de la organización abrió el proyecto por última vez.<p>Tenga en cuenta lo siguiente al ver esta columna:</p><ul><li>La información de uso está disponible a partir de septiembre de 2023.</li><li>Esta columna solo está disponible para administradores del sistema.</li></ul> |
-| [!UICONTROL **ID del proyecto**] | Se puede utilizar para depurar proyectos. |
+| [!UICONTROL **Último uso**] | Ayuda a determinar si un proyecto es valioso para los usuarios de su organización, ya que muestra la fecha y la hora en que cualquier usuario de la organización abrió el proyecto por última vez.<p>Tenga en cuenta lo siguiente cuando vea esta columna:</p><ul><li>La información de uso está disponible a partir de septiembre de 2023.</li><li>Esta columna solo está disponible para los administradores del sistema.</li></ul> |
+| [!UICONTROL **ID del proyecto**] | Puede utilizarse para depurar proyectos. |
 | [!UICONTROL **El intervalo de fecha más largo**] | Los intervalos de fechas más largos aumentan la complejidad del proyecto y pueden aumentar los tiempos de procesamiento y carga. |
 | [!UICONTROL **Cantidad de consultas**] | El número total de solicitudes realizadas a Analytics cuando se carga el proyecto. Un número mayor de consultas de proyectos aumenta la complejidad del proyecto y puede aumentar los tiempos de procesamiento y carga. Estos datos solo están disponibles después de que se haya cargado un proyecto o de que se haya enviado un proyecto programado. |
 | [!UICONTROL **Ubicación**] | Muestra la carpeta donde se encuentra el proyecto. |
 
-### Otros elementos de la interfaz de usuario en la página Proyectos
+### Otros elementos de la IU en la página Proyectos
 
 | Elemento de la IU | Definición |
 | --- | --- |
