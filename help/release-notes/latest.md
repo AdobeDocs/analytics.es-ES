@@ -3,16 +3,16 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b38cdaaf79e22902c4a0fa0e9b782baba9cf0b26
+source-git-commit: b3f2f503cabd45aebd3bc200c8f9abaeb033d419
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 100%
+source-wordcount: '1351'
+ht-degree: 96%
 
 ---
 
 # Notas de la versión actuales de Adobe Analytics (marzo de 2024)
 
-**Última actualización**: 21 de marzo de 2024
+**Última actualización**: jueves, 03 de abril de 2024
 
 Estas notas de la versión abarcan el periodo de lanzamiento del 12 de marzo de 2024 a abril de 2024. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,6 +20,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 12 de marzo de 
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Cambio en el protocolo de eliminación para proyectos de Workspace** | Anteriormente, los proyectos eliminados nunca se purgaban del sistema. Ahora empezaremos a purgar los proyectos eliminados pasados 180 días. Durante los 180 días posteriores a la eliminación, los usuarios aún pueden acceder a un proyecto a través de la interfaz web si tienen una URL al proyecto directo. | | 14 de marzo de 2024 |
 | **Actualización de AppMeasurement** | [La versión de AppMeasurement v2.26.0](/help/implement/appmeasurement-updates.md) está disponible. | | 4 de marzo de 2024 |
 | **Nueva columna disponible en la página de aterrizaje Proyectos** | La columna **[!UICONTROL Último uso]** ahora está disponible al ver la pestaña Proyectos en la [página de aterrizaje de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html?lang=es). <p>Esta información puede ayudarle a determinar si un proyecto es valioso para los usuarios de su organización, ya que muestra la fecha y la hora en que se abrió por última vez.</p> <p>Anteriormente, la columna **[!UICONTROL Último uso]** solo estaba disponible en el Administrador de métricas calculadas, el Administrador de segmentos y el Administrador de alertas.</p> |  | 13 de marzo de 2024 |
 | **Compatibilidad de Analytics con indicadores de consentimiento requeridos por Google para DMA** | Debido a la nueva normativa europea sobre privacidad, Google exige que los datos recogidos en Europa que le hayan sido enviados indiquen si se han otorgado dos tipos concretos de consentimiento. **A partir del 6 de marzo**, Google ya no aceptará datos de evento que no indiquen que se haya concedido el consentimiento correspondiente. Adobe Analytics ha lanzado la compatibilidad para capturar estos datos mediante una nueva variable adConsent. Puede ver la nueva variable enumerada en la [IU de creación de informes de privacidad](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md). Si desea activar esta opción y ya tiene la privacidad habilitada para las variables de consentimiento anteriores, deberá volver a habilitar la privacidad.<p>La [dimensión de consentimiento de la plataforma de publicidad](/help/components/dimensions/ad-consent.md) muestra si se recaba el consentimiento para enviar datos a proveedores de publicidad de terceros como Google. |  | 13 de marzo de 2024 |
