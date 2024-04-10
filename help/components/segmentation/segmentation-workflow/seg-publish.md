@@ -1,16 +1,16 @@
 ---
 description: Le permite utilizar el segmento para actividades de marketing en la biblioteca de audiencias, Target y Audience Manager.
-title: Publicación de segmentos en Experience Cloud
+title: Publicar segmentos en el Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 5ef087f1fa4f55b98e9160bc90b8d10c6709a425
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 88%
+source-wordcount: '1313'
+ht-degree: 74%
 
 ---
 
-# Publicación de segmentos en Experience Cloud
+# Publicación de segmentos en el Experience Cloud
 
 La publicación de un segmento de Adobe Analytics en Experience Cloud le permite utilizarlo para la actividad de marketing en [!DNL Audience Manager] y en otros canales de activación, incluidos los de Adobe [!DNL Advertising Cloud], [!DNL Target] y [!DNL Campaign]. Las actualizaciones recientes han optimizado significativamente el flujo de trabajo de publicación. Ahora puede publicar segmentos de Analytics en Experience Cloud en menos de 8 horas. Utilice estos segmentos para activar audiencias en el Audience Manager a todos los destinos de flujo descendente.
 
@@ -26,7 +26,7 @@ Vea este vídeo para obtener más información:
 
 ## Requisitos previos
 
-* Asegúrese de que el grupo de informes en el que está guardando este segmento está [habilitado para Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=es). De lo contrario, no podrá publicarlo en Experience Cloud.
+* Asegúrese de que el grupo de informes en el que está guardando este segmento es [habilitado para Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=es). De lo contrario, no podrá publicarlo en el Experience Cloud.
 * Asegúrese de que su organización utiliza Experience Cloud ID.
 * Para poder publicar segmentos, el administrador debe asignar el permiso [!UICONTROL Publicación de segmentos] a un perfil de producto en [Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=es) y agregarlo al perfil de producto.
 
@@ -64,15 +64,15 @@ Vea este vídeo para obtener más información:
 
 | Elemento | Descripción |
 |---|---|
-| **[!UICONTROL Publicar este segmento en Experience Cloud (para *`<report suite>`*)]** | Cuando esta opción está habilitada, el título y la definición del segmento (es decir, la audiencia del shell que se usa con frecuencia en las plataformas de publicidad) se comparten con Experience Cloud de forma instantánea, mientras que la pertenencia al segmento se evalúa y comparte cada 4 horas. <br> Cuando dicha audiencia está asociada a una actividad en [!DNL Target], por ejemplo, [!DNL Analytics] comienza a enviar ID para los visitantes que son aptos para esta audiencia de Experience Cloud y [!DNL Target]. En este punto, el nombre de audiencia y los datos correspondientes empiezan a mostrarse en la página de Audiencias de Experience Cloud. </br> |
+| **[!UICONTROL Publicar este segmento en el Experience Cloud (para *`<report suite>`*)]** | Cuando esta opción está habilitada, el título y la definición del segmento (es decir, la audiencia del shell que se usa con frecuencia en las plataformas de publicidad) se comparten con Experience Cloud de forma instantánea, mientras que la pertenencia al segmento se evalúa y comparte cada 4 horas. <br> Cuando dicha audiencia está asociada a una actividad en [!DNL Target], por ejemplo, [!DNL Analytics] comienza a enviar ID para los visitantes que son aptos para esta audiencia de Experience Cloud y [!DNL Target]. En este punto, el nombre de audiencia y los datos correspondientes empiezan a mostrarse en la [!DNL Audience Library] página en el Experience Cloud. </br> |
 | **[!UICONTROL Ventana de creación de audiencia]** | El lapso de tiempo seleccionado se utiliza para crear la audiencia en un calendario móvil. Por ejemplo, “Últimos 30 días” (predeterminado) incluye los visitantes que han cumplido los requisitos para la audiencia durante los últimos 30 días respecto a la fecha actual (NO desde la fecha original en que se creó el segmento). |
-| **[!UICONTROL Crear en la biblioteca de audiencias]** | Los segmentos que cree y publique pueden estar disponibles sin latencia en la biblioteca de audiencias de Experience Cloud. No dependen de las actualizaciones de Analytics. Estos segmentos no cuentan con el límite de 75 segmentos publicados. |
-| **[!UICONTROL x de 75 publicados]** | Muestra el número de segmentos que ha publicado en Experience Cloud. Haga clic en el vínculo para ver una lista de los segmentos publicados y su grupo de informes y propietario asociados. |
+| **[!UICONTROL Crear en la biblioteca de audiencias]** | Los segmentos que cree y publique pueden estar disponibles sin latencia en [!DNL Audience Library] página en el Experience Cloud. No dependen de las actualizaciones de Analytics. Estos segmentos no cuentan con el límite de 75 segmentos publicados. |
+| **[!UICONTROL x de 75 publicados]** | Muestra el número de segmentos que ha publicado en el Experience Cloud. Haga clic en el vínculo para ver una lista de los segmentos publicados y su grupo de informes y propietario asociados. |
 | **[!UICONTROL Guardar]** | Guarda este segmento. |
 
 ## Cancelar la publicación o eliminar segmentos
 
-Para eliminar un segmento publicado en Experience Cloud, tiene que cancelar la publicación primero. Para cancelar la publicación de un segmento, simplemente **demarque** la casilla que utilizó para publicarla.
+Para eliminar un segmento publicado en el Experience Cloud, tiene que cancelar la publicación primero. Para cancelar la publicación de un segmento, simplemente **demarque** la casilla que utilizó para publicarla.
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ Para eliminar un segmento publicado en Experience Cloud, tiene que cancelar la p
 ## Ver el estado de publicación de segmentos en el [!UICONTROL Administrador de segmentos]
 
 1. Vaya a [!UICONTROL Analytics > Componentes > Segmentos].
-1. Observe la nueva columna [!UICONTROL Publicado]. Sí/No hace referencia a si el segmento se ha publicado en Experience Cloud o no.
+1. Observe la nueva columna [!UICONTROL Publicado]. Sí/No hace referencia a si el segmento se ha publicado en el Experience Cloud.
 
 ![Publicar el estado](assets/publish-status.png)
 
