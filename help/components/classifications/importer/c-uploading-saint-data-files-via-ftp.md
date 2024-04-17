@@ -3,10 +3,10 @@ description: Cómo cargar archivos de datos a través de FTP.
 title: Importación de FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
+source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 81%
+source-wordcount: '724'
+ht-degree: 73%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 81%
 >
 >No se recomienda utilizar FTP porque es un método no cifrado para compartir archivos, lo que significa que cualquiera puede interceptar el contenido del archivo, así como el nombre de usuario y la contraseña utilizados para la cuenta.
 >
->En su lugar, configure una cuenta en la nube como se describe en [Configurar cuentas de importación en la nube](/help/components/locations/configure-import-accounts.md).
+>En su lugar, configure una cuenta en la nube como se describe en [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md).
 
 Instrucciones sobre cómo cargar archivos de datos a través de FTP.
 
@@ -28,7 +28,7 @@ Para cargar archivos de datos a través del FTP:
 
 1. **[!UICONTROL Administración]** > **[!UICONTROL Importador de clasificaciones]**.
 
-Es importante tener en cuenta los límites recomendados siguientes.
+Los siguientes límites recomendados son importantes.
 
 >[!IMPORTANT]
 >
@@ -63,9 +63,9 @@ Consulte [FTP y sFTP](/help/export/ftp-and-sftp/ftp-overview.md) para obtener m�
    | **Conjunto de datos a clasificar** | En la lista desplegable, seleccione el conjunto de datos (variable de informes de marketing) que desee clasificar. |
    | **Seleccionar grupos de informes** | Permite seleccionar los grupos de informes en los que se debe clasificar el conjunto de datos seleccionado. Para seleccionar varios grupos de informes, las clasificaciones de cada uno de los grupos de informes seleccionados deben ser idénticas. |
    | **Sobrescribir datos sobre conflictos** | Permite sobrescribir los datos duplicados. Esta opción resulta útil si está actualizando clasificaciones existentes. Si está en la [arquitectura de clasificación más reciente](../sets/overview.md), esta configuración siempre está habilitada. |
-   | **Una vez completada la importación** | Seleccione esta opción si desea exportar automáticamente el conjunto de datos actualizado a la misma cuenta de FTP, tras especificar la dirección de correo electrónico para recibir notificaciones sobre la cuenta de FTP una vez completada la importación. Si está en la [arquitectura de clasificación más reciente](../sets/overview.md), esta opción no está disponible. |
-   | **Destinatario de la notificación** | Especifica la dirección de correo electrónico donde se recibirán las notificaciones sobre esta cuenta de FTP. |
-   | **Autorización** | (Obligatorio) Autoriza a Adobe para que importe automáticamente todos los archivos de datos enviados a la nueva cuenta de FTP. |
+   | **Una vez completada la importación** | Seleccione esta opción para exportar automáticamente el conjunto de datos actualizado a la misma cuenta de FTP una vez. Especifique la dirección de correo electrónico para recibir notificaciones sobre esta cuenta de FTP una vez completada la importación. Si está en la [arquitectura de clasificación más reciente](../sets/overview.md), esta opción no está disponible. |
+   | **Destinatario de notificación** | Especifica la dirección de correo electrónico donde se recibirán las notificaciones sobre esta cuenta de FTP. |
+   | **Autorizar** | (Obligatorio) Autoriza a Adobe para que importe automáticamente todos los archivos de datos enviados a la nueva cuenta de FTP. |
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 

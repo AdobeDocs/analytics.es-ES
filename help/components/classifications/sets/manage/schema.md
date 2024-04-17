@@ -1,12 +1,12 @@
 ---
-title: Esquema del conjunto de clasificaciones
+title: Esquema del conjunto de clasificación
 description: Ver y editar el esquema de un conjunto de clasificaciones individual.
-exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
+exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
+source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 42%
+source-wordcount: '536'
+ht-degree: 43%
 
 ---
 
@@ -48,11 +48,11 @@ Están disponibles los siguientes botones:
 * **[!UICONTROL Automatizar]**: Introduzca automáticamente datos de ubicaciones de almacenamiento externas.
    * **[!UICONTROL Cuenta de ubicación]**: una lista desplegable que muestra las cuentas de ubicación existentes que su organización ha configurado. Si su organización aún no ha configurado una cuenta de ubicación, puede configurarla seleccionando [!UICONTROL **Crear una nueva cuenta**].
 
-     Para obtener información sobre cómo configurar la cuenta de ubicación, consulte [Configurar cuentas de importación en la nube](/help/components/locations/configure-import-accounts.md).
+     Para obtener información sobre cómo configurar la cuenta de ubicación, consulte [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md).
 
    * **[!UICONTROL Ubicación]**: una lista desplegable que muestra las ubicaciones existentes que su organización ha configurado. Si su organización aún no ha configurado una ubicación, puede configurarla seleccionando [!UICONTROL **Crear una nueva ubicación**].
 
-     Para obtener información sobre cómo configurar una ubicación, consulte [Configurar ubicaciones de importación en la nube](/help/components/locations/configure-import-locations.md).
+     Para obtener información sobre cómo configurar una ubicación, consulte [Configurar ubicaciones de importación y exportación de la nube](/help/components/locations/configure-import-locations.md).
 
    * **[!UICONTROL Delimitador]**: El delimitador de columna para los archivos cargados. Las opciones incluyen [!UICONTROL Coma], [!UICONTROL Punto y coma], [!UICONTROL Dos puntos], [!UICONTROL Barra vertical], [!UICONTROL Espacio], [!UICONTROL Barra oblicua], [!UICONTROL Barra invertida], [!UICONTROL Guión], o [!UICONTROL Subrayado].
 

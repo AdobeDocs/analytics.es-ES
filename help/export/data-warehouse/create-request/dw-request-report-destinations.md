@@ -3,10 +3,10 @@ description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración del destino de un informe para una solicitud de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
-workflow-type: ht
-source-wordcount: '2430'
-ht-degree: 100%
+source-git-commit: b960aaa60569d65cb8501cf041341a3a132929b1
+workflow-type: tm+mt
+source-wordcount: '2584'
+ht-degree: 85%
 
 ---
 
@@ -20,12 +20,19 @@ Para obtener información sobre cómo empezar a crear una solicitud, así como v
 >
 >Al configurar un destino de informe, tenga en cuenta lo siguiente:
 >
->* Recomendamos utilizar una cuenta en la nube o un correo electrónico para el destino del informe. Las cuentas heredadas de FTP y SFTP están disponibles, pero no se recomiendan.
+>* Recomendamos utilizar una cuenta en la nube o un correo electrónico para el destino del informe. [Cuentas heredadas de FTP y SFTP](#legacy-destinations) están disponibles, pero no se recomiendan.
 >
->* Cualquier cuenta en la nube que haya configurado anteriormente para [Fuentes de datos](/help/export/analytics-data-feed/create-feed.md) o para [importación de datos de clasificación de Adobe Analytics](/help/components/locations/locations-manager.md) está disponible para su uso en Data Warehouse. Sin embargo, no se puede utilizar ninguna ubicación configurada para importar datos de clasificación.
+>* Todas las cuentas de nube que configuró anteriormente están disponibles para su Data Warehouse. Puede configurar cuentas en la nube de cualquiera de estas formas:
+>
+>   * Al configurar [Fuentes de datos](/help/export/analytics-data-feed/create-feed.md)
+>   
+>   * Cuándo [importación de datos de clasificación de Adobe Analytics](/help/components/locations/locations-manager.md) (Las cuentas se pueden usar, pero no se pueden usar las ubicaciones configuradas en ellas).
+>   
+>   * Desde el administrador Ubicaciones, en [Componentes > Ubicaciones](/help/components/locations/configure-import-accounts.md).
 >
 >* Las cuentas en la nube están asociadas a su cuenta de usuario de Adobe Analytics. Otros usuarios no pueden usar ni ver las cuentas en la nube que configure.
 >
+>* Puede editar cualquier ubicación que cree desde el Administrador de ubicaciones en [Componentes > Ubicaciones](/help/components/locations/configure-import-accounts.md)
 
 Para configurar el destino al que se envían los informes de Data Warehouse:
 
@@ -37,17 +44,27 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
    ![Pestaña Destino del informe](assets/dw-report-destination.png)
 
-1. (Condicional) Si ya se ha configurado una cuenta (y un destino de esa cuenta) que quiere usar como destino del informe:
+1. (Condicional) Si ya se ha configurado una cuenta de nube (y un destino en esa cuenta) en Adobe Analytics, puede utilizarla como destino del informe:
 
-   1. (Opcional) Si es administrador del sistema, la opción [!UICONTROL **Mostrar todos los destinos**] está disponible. Active esta opción si quiere tener acceso a todas las cuentas y ubicaciones creadas por cualquier usuario de la organización.
+   >[!NOTE]
+   >
+   >Las cuentas solo están disponibles si las configuró o si se compartieron con una organización de la que forma parte.
+   >
+   >Si es administrador del sistema, la variable [!UICONTROL **Mostrar todos los destinos**] está disponible. Active esta opción si quiere tener acceso a todas las cuentas y ubicaciones creadas por cualquier usuario de la organización.
 
    1. Seleccione la cuenta del menú desplegable [!UICONTROL **Seleccionar cuenta**].
 
-      Cualquier cuenta en la nube que haya configurado para [importación de datos de clasificación de Adobe Analytics](/help/components/locations/locations-manager.md) desde un destino en la nube se muestran aquí y se puede utilizar. Sin embargo, no se puede utilizar ninguna ubicación configurada para importar datos de clasificación. En su lugar, añada un nuevo destino tal como se describe a continuación.
+      Cualquier cuenta de nube que haya configurado en cualquiera de las siguientes áreas de Adobe Analytics está disponible para usar:
+
+      * Al importar datos de clasificación de Adobe Analytics, como se describe en [Esquema](/help/components/classifications/sets/manage/schema.md).
+
+        Sin embargo, no se puede utilizar ninguna ubicación configurada para importar datos de clasificación. En su lugar, añada un nuevo destino tal como se describe a continuación.
+
+      * Al configurar cuentas y ubicaciones en el área Ubicaciones, tal como se describe en [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md) y [Configurar ubicaciones de importación y exportación de la nube](/help/components/locations/configure-import-locations.md).
 
    1. Seleccione el destino asociado a la cuenta en el menú desplegable [!UICONTROL **Seleccionar destino**]. <!-- Is this correct? -->
 
-1. (Condicional) Si no ha configurado una cuenta anteriormente:
+1. (Condicional) Si no tiene acceso a una cuenta de nube que ya esté configurada en Adobe Analytics, puede configurar una:
 
    1. Seleccione [!UICONTROL **Añadir cuenta**] y, a continuación, especifique la siguiente información:
 
@@ -63,7 +80,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       +++Amazon S3
 
-      Especifique la siguiente información para configurar una cuenta ARN de la función Amazon S3:
+      Para configurar una cuenta ARN de la función Amazon S3, especifique la siguiente información:
 
       | Campo | Función |
       |---------|----------|
@@ -72,11 +89,11 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
-      Especifique la siguiente información para configurar una cuenta de Google Cloud Platform:
+      Para configurar una cuenta de Google Cloud Platform, especifique la siguiente información:
 
       | Campo | Función |
       |---------|----------|
@@ -84,11 +101,11 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
-      Especifique la siguiente información para configurar una cuenta SAS de Azure:
+      Para configurar una cuenta SAS de Azure, especifique la siguiente información:
 
       | Campo | Función |
       |---------|----------|
@@ -100,11 +117,11 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
-      Especifique la siguiente información para configurar una cuenta RBAC de Azure:
+      Para configurar una cuenta RBAC de Azure, especifique la siguiente información:
 
       | Campo | Función |
       |---------|----------|
@@ -114,11 +131,11 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Correo electrónico
 
-      Especifique la siguiente información para configurar una cuenta de correo electrónico:
+      Para configurar una cuenta de correo electrónico, especifique la siguiente información:
 
       | Campo | Función |
       |---------|----------|
@@ -137,20 +154,20 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       +++Amazon S3
 
-      Especifique la siguiente información para configurar una ubicación de Amazon S3:
+      Para configurar una ubicación de Amazon S3, especifique la siguiente información:
 
       | Campo | Función |
       |---------|----------|
-      | [!UICONTROL **Nombre del bloque**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por Adobe tiene el permiso `S3:PutObject` para cargar archivos en este bloque. Este permiso permite al ARN del usuario cargar archivos iniciales y sobrescribir archivos para cargas posteriores.</p> |
+      | [!UICONTROL **Nombre del bloque**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por Adobe tiene el permiso `S3:PutObject` para cargar archivos en este bloque. Este permiso permite al ARN del usuario cargar archivos iniciales y sobrescribir archivos para cargas posteriores.</p><p>Los nombres de los contenedores deben cumplir reglas de nomenclatura específicas. Por ejemplo, deben tener entre 3 y 63 caracteres, solo pueden contener letras minúsculas, números, puntos (.) y guiones (-), y deben comenzar y terminar con una letra o un número. [En la documentación de AWS encontrará una lista completa de las reglas de nomenclatura](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
       | [!UICONTROL **Prefijo de clave**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
-      Especifique la siguiente información para configurar una ubicación de Google Cloud Platform:
+      Para configurar una ubicación de Google Cloud Platform, especifique la siguiente información:
 
       | Campo | Función |
       |---------|----------|
@@ -159,11 +176,11 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
-      Especifique la siguiente información para configurar una ubicación SAS de Azure:
+      Para configurar una ubicación SAS de Azure, especifique la siguiente información:
 
       | Campo | Función |
       |---------|----------|
@@ -172,11 +189,11 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
-      Especifique la siguiente información para configurar una ubicación RBAC de Azure:
+      Para configurar una ubicación RBAC de Azure, especifique la siguiente información:
 
       | Campo | Función |
       |---------|----------|
@@ -186,7 +203,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Siga configurando la solicitud de Data Warehouse en la pestaña [!UICONTROL **Opciones de informe**]. Para obtener más información, consulte [Configuración de las opciones de un informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 
