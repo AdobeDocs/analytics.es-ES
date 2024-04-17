@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: Aprenda formas de implementar Adobe Analytics. Personalice qué se recopila para aprovechar al máximo los datos de Analytics.
-source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
-workflow-type: ht
-source-wordcount: '408'
-ht-degree: 100%
+source-git-commit: 8727d6167a2c161ba646ae2217b0a6e7c4656dd1
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 94%
 
 ---
 
@@ -140,6 +140,10 @@ ht-degree: 100%
    + [Asignación de variables de objeto XDM](aep-edge/xdm-var-mapping.md)
    + SDK web {#web-sdk}
       + [Información general del SDK web](aep-edge/web-sdk/overview.md)
+      + [Migración al SDK web mediante etiquetas](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
+      + [Migración al SDK web mediante JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
+      + [Nueva implementación con etiquetas](aep-edge/web-sdk/web-sdk-tag-extension.md)
+      + [Nueva implementación con JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + SDK móvil {#mobile-sdk}
       + [Información general del SDK móvil](aep-edge/mobile-sdk/overview.md)
    + API de servidor {#server-api}
