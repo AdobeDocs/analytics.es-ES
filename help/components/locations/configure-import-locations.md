@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar ubicaciones de importación y exportación de la nube
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c81f0b8dffe07789fce1dda6efcb5ce17406be71
+source-git-commit: de1aaf1cc4f59567582c7802117226e859e52b08
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 40%
+source-wordcount: '1190'
+ht-degree: 38%
 
 ---
 
@@ -49,7 +49,7 @@ Se muestra el cuadro de diálogo Ubicación.
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Nombre del bloque**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. |
+   | [!UICONTROL **Nombre del bloque**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por el Adobe tiene el `S3:PutObject` para cargar archivos en este bloque. </p><p>Los nombres de los contenedores deben cumplir reglas de nomenclatura específicas. Por ejemplo, deben tener entre 3 y 63 caracteres, solo pueden contener letras minúsculas, números, puntos (.) y guiones (-), y deben comenzar y terminar con una letra o un número. [En la documentación de AWS encontrará una lista completa de las reglas de nomenclatura](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Prefijo de clave**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
 
    {style="table-layout:auto"}
