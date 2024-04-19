@@ -1,7 +1,8 @@
 ---
 title: Migración del AppMeasurement al SDK web
 description: Actualice la implementación de Adobe Analytics de la biblioteca JavaScript de AppMeasurement a la biblioteca JavaScript del SDK web.
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -46,7 +47,7 @@ Cree una secuencia de datos en la recopilación de datos de Adobe Experience Pla
 1. En el menú desplegable del servicio, seleccione **[!UICONTROL Adobe Analytics]**.
 1. Introduzca el mismo ID de grupo de informes que el sitio al que envía actualmente los datos de análisis. Haga clic en **[!UICONTROL Guardar]**.
 
-![Añadir servicio de Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Añadir servicio de Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 El conjunto de datos ya está listo para recibir y pasar datos a Adobe Analytics. Tenga en cuenta el ID de la secuencia de datos, ya que este ID es necesario al configurar el SDK web en código.
 

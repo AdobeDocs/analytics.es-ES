@@ -4,9 +4,9 @@ description: Enumera todos los parámetros de cadena de consulta utilizados en s
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
-workflow-type: ht
-source-wordcount: '722'
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+workflow-type: tm+mt
+source-wordcount: '721'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,7 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Se utiliza en la dimensión [Páginas no encontradas](/help/components/dimensions/pages-not-found.md). |
 | `pccr` | Ninguna | Solo se configura para visitantes nuevos y siempre se establece como `true`. Ayuda a evitar redirecciones infinitas si un visitante rechaza las cookies. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Determina el tipo de vínculo personalizado. Necesario para [Vínculos personalizados](/help/components/dimensions/custom-link.md), [Vínculos de descarga](/help/components/dimensions/download-link.md) y [Vínculos de salida](/help/components/dimensions/exit-link.md). |
-| `pev1` | Ninguna | Dirección URL en la que se produjo el vínculo personalizado. |
+| `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | Dirección URL en la que se produjo el vínculo personalizado. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Nombre reconocible del vínculo personalizado. |
 | `pev3` | Ninguna | Ya no se utiliza. Hitos rastreados en versiones anteriores de informes de vídeo. |
 | `pf` | Ninguna | Indicador de plataforma; solo para uso de Adobe. No se debe alterar. |

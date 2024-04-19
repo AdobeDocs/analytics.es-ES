@@ -4,16 +4,18 @@ description: Omitir la URL del vínculo generado automáticamente que AppMeasure
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 74%
+source-wordcount: '158'
+ht-degree: 65%
 
 ---
 
 # linkURL
 
 Cada vez que se envía una llamada de seguimiento de vínculos a Adobe, los servidores de recopilación de datos detectan automáticamente la dirección URL. Utilice la variable `linkURL` para anular la dirección URL detectada.
+
+No hay dimensiones en Analysis Workspace que informen sobre esta variable. Se rellena el `page_event_var1` columna en [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md).
 
 ## Vincular URL mediante el SDK web
 

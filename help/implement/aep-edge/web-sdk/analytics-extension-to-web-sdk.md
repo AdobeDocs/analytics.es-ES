@@ -1,9 +1,10 @@
 ---
 title: Migración de la extensión de etiqueta de Adobe Analytics a la extensión de etiqueta del SDK web
 description: Actualice la implementación de Analytics en las etiquetas de recopilación de datos de Adobe Experience Platform para utilizar la extensión del SDK web.
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1706'
 ht-degree: 1%
 
 ---
@@ -46,7 +47,7 @@ Cree una secuencia de datos en la recopilación de datos de Adobe Experience Pla
 1. En el menú desplegable del servicio, seleccione **[!UICONTROL Adobe Analytics]**.
 1. Introduzca el mismo ID de grupo de informes que el sitio al que envía actualmente los datos de análisis. Haga clic en **[!UICONTROL Guardar]**.
 
-![Añadir servicio de Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Añadir servicio de Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 El conjunto de datos ya está listo para recibir y pasar datos a Adobe Analytics.
 
@@ -62,11 +63,11 @@ Esta sección prepara la etiqueta para el grueso del esfuerzo de migración que 
 1. Seleccionar **[!UICONTROL Catálogo]** cerca de la parte superior para ver una lista de todas las extensiones disponibles.
 1. Busque y seleccione el **[!UICONTROL SDK web de Adobe Experience Platform]** y, a continuación, haga clic en **[!UICONTROL Instalar]** a la derecha.
 
-   ![Catálogo](assets/catalog.png) {style="border:1px solid gray"}
+   ![Catálogo](assets/catalog.png) {style="border:1px solid lightslategray"}
 
 1. Aparecerán los ajustes de configuración de la extensión. Busque la sección Flujos de datos y seleccione el flujo de datos que creó en el paso anterior.
 
-   ![Selección de flujo de datos](assets/datastream-select.png) {style="border:1px solid gray"}
+   ![Selección de flujo de datos](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. Seleccione **[!UICONTROL Guardar]**.
 
@@ -83,14 +84,14 @@ El elemento de datos del objeto de datos proporciona un marco de trabajo intuiti
 1. Asigne al elemento de datos la siguiente configuración:
    * [!UICONTROL Nombre]: cualquier cosa que desee, como &quot;Capa de datos&quot; u &quot;Objeto de datos&quot;
    * [!UICONTROL Extensión]: [!UICONTROL SDK web de Adobe Experience Platform]
-   * [!UICONTROL Variable]: [!UICONTROL Variable]
+   * [!UICONTROL Tipo de elemento de datos]: [!UICONTROL Variable]
    * Las casillas de verificación pueden permanecer tal cual
 1. A la derecha, seleccione la siguiente configuración:
    * Botón de opción Propiedad: [!UICONTROL Datos]
    * Solución: [!UICONTROL Adobe Analytics]
 1. Seleccione **[!UICONTROL Guardar]**.
 
-![Crear elemento de datos](assets/create-data-element.png) {style="border:1px solid gray"}
+![Crear elemento de datos](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 La propiedad de etiquetas ahora tiene todo lo necesario para actualizar cada regla.
 
@@ -103,7 +104,7 @@ Este paso supone la mayor parte del esfuerzo necesario para migrar al SDK web y 
 1. En la navegación izquierda de la interfaz de etiquetas, seleccione **[!UICONTROL Reglas]**.
 1. Seleccione una regla para editarla.
 1. Seleccione la acción **[!UICONTROL Adobe Analytics: Establecer variables]**
-1. Tenga en cuenta todas las variables de Analytics configuradas dentro de esta regla. Tenga en cuenta ambas variables configuradas en los menús desplegables y las variables configuradas en el código personalizado.
+1. Tenga en cuenta todas las variables de Analytics configuradas dentro de esta regla. Incluya ambas variables establecidas en los menús desplegables y las variables establecidas dentro del código personalizado.
 1. Cambie el [!UICONTROL Configuración de acción] a la siguiente configuración:
    * [!UICONTROL Extensión]: [!UICONTROL SDK web de Adobe Experience Platform]
    * [!UICONTROL Tipo de acción]: Actualizar variable
@@ -146,7 +147,7 @@ La publicación de reglas actualizadas sigue el mismo flujo de trabajo que cualq
 1. Pruebe los cambios en el entorno de desarrollo para asegurarse de que todas las reglas se activan correctamente y de que el objeto de datos se rellena con los valores esperados.
 1. Cuando esté listo, envíe la biblioteca para su aprobación, créela al entorno de ensayo y, finalmente, apruebe y publique en producción.
 
-![Flujo de publicación](assets/publishing-flow.png) {style="border:1px solid gray"}
+![Flujo de publicación](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 
