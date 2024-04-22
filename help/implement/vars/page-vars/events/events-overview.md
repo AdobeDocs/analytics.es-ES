@@ -4,7 +4,7 @@ description: Configure la variable “events” (eventos), que gobierna la mayor
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 7723e064a572b33d71cf298f87dca599f7cf9d14
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -27,7 +27,7 @@ Si se usa la variable [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.
 * Los pedidos se asignan a `xdm.commerce.purchases.value`.
 * Las unidades se asignan a la suma de todos los campos `productListItems[].quantity`.
 * Los ingresos se asignan a la suma de todos los campos `productListItems[].priceTotal`.
-* Las vistas del producto se asignan a `xdm.commerce.productListViews.value`.
+* Las vistas del producto se asignan a `xdm.commerce.productViews.value`.
 * Los carros de compras se asignan a `xdm.commerce.productListOpens.value`.
 * Las adiciones al carro de compras se asignan a `xdm.commerce.productListAdds.value`.
 * Las eliminaciones del carro de compras se asignan a `xdm.commerce.productListRemovals.value`.
