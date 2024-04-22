@@ -4,7 +4,7 @@ description: Configure la variable “events” (eventos), que gobierna la mayor
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 7723e064a572b33d71cf298f87dca599f7cf9d14
+source-git-commit: 3e72235ce1455177efeb21017f61af25d21bd500
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -19,7 +19,7 @@ Antes de implementar eventos, asegúrese de crearlos y configurarlos en [Eventos
 
 ## Eventos con el SDK web
 
-Si se usa la variable [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md) Sin embargo, los eventos personalizados utilizan los siguientes campos XDM:
+Si se usa la variable [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md)Sin embargo, los eventos personalizados utilizan los siguientes campos XDM:
 
 * Los eventos personalizados 1-100 se asignan a `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`.
 * Los eventos personalizados 101-200 se asignan a `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`.
