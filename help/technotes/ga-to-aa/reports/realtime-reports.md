@@ -3,10 +3,10 @@ title: Informes en tiempo real en Adobe Analytics
 description: Aprenda a extraer informes en tiempo real en Adobe Analytics, dirigidos a usuarios que están más familiarizados con Google Analytics.
 feature: Third-party Integration
 exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 8f08ff46d33d050d0bdb4e0555611ba37ccc8474
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 100%
+source-wordcount: '981'
+ht-degree: 94%
 
 ---
 
@@ -16,13 +16,14 @@ Los informes en tiempo real muestran lo que está sucediendo en el sitio en cada
 
 ![Informe en tiempo real](/help/technotes/ga-to-aa/assets/realtime.png)
 
-Los informes en tiempo real son una de las pocas características que aún no se han introducido en Analysis Workspace. Utilice Reports &amp; Analytics para obtener estos datos. Estos necesitan una sencilla configuración para empezar a recopilar datos.
+Los informes en tiempo real son una de las pocas características que aún no se han introducido en Analysis Workspace. Use Informes para obtener estos datos. Estos necesitan una sencilla configuración para empezar a recopilar datos.
 
 Para llegar a la página de configuración de informes en tiempo real (se requieren permisos de administración):
 
-1. Haga clic en [!UICONTROL Informes] en el encabezado de navegación de Adobe Analytics.
-2. En el menú de la izquierda, haga clic en *[!UICONTROL Métricas del sitio]* > *[!UICONTROL Tiempo real]*.
-3. Si el grupo de informes aún no está habilitado en tiempo real, se muestra un mensaje con un vínculo para configurar el grupo de informes. Si el grupo de informes tiene habilitada la actualización en tiempo real, haga clic en [!UICONTROL Configurar] cerca del título del informe en tiempo real.
+1. Clic **[!UICONTROL Workspace]** en la barra de navegación superior de Adobe Analytics.
+1. Seleccionar **[!UICONTROL Informes]** en la barra de navegación izquierda.
+1. Seleccionar **[!UICONTROL Participación]** ![cheurón](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Tiempo real]**. También puede ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) buscar en tiempo real.
+1. Si el grupo de informes aún no está habilitado en tiempo real, se muestra un mensaje con un vínculo para configurar el grupo de informes.
 
 Adobe permite que haya hasta tres informes en tiempo real recopilando datos simultáneamente. Cada uno debe configurarse antes de empezar a recopilar datos en tiempo real.
 
