@@ -4,10 +4,10 @@ description: Determinar la ubicación en la que se envían las solicitudes de im
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 72%
+source-wordcount: '702'
+ht-degree: 52%
 
 ---
 
@@ -59,9 +59,14 @@ Si este campo se deja en blanco, el valor predeterminado es `[rsid].data.adobedc
 
 La variable `s.trackingServer` es una cadena que contiene la ubicación para enviar datos.
 
-## Determinar el valor de `trackingServer`
+## Consideraciones para determinar el valor de `trackingServer`
 
-El valor de esta variable depende de si utiliza cookies de origen o cookies de terceros. Adobe recomienda usar cookies de origen en la implementación.
+Puede elegir utilizar los dominios del servidor de seguimiento de Adobe (por ejemplo, `adobedc.net`) o puede pasar por un proceso especial para configurar un servidor de seguimiento que coincida con el dominio de sus sitios (por ejemplo, `data.mydomain.com`), también conocida como implementación CNAME. Tener un servidor de seguimiento que coincida con el dominio del sitio puede tener algunas ventajas según otros aspectos de la implementación. Cuando el servidor de seguimiento no coincide con el dominio de la página actual, las cookies configuradas por el AppMeasurement deben configurarse como de terceros. Si el explorador no admite cookies de terceros, esta discrepancia puede interferir con ciertas funciones de Analytics:
+
+- Configuración de identificadores: Si utiliza el servicio de identidad de Experience Cloud, el servidor de seguimiento no afecta al modo en que se configuran las cookies. Sin embargo, si utiliza identificadores heredados de Analytics (también conocidos como `s_vi` cookie) y el servidor de recopilación no coincide con el dominio actual, por lo que las cookies deben configurarse como de terceros. En este caso, si el explorador bloquea las cookies de terceros, Analytics establece un identificador de reserva (`s_fid`) en lugar del estándar `s_vi` cookie.
+- El seguimiento de vínculos no funciona para vínculos internos.
+- El Activity Map no funciona para vínculos internos.
+- Comprobación de cookies.
 
 ### Cookies de origen
 
@@ -73,7 +78,7 @@ El usuario que configura inicialmente la implementación de cookies de origen ta
 s.trackingServer = "data.example.com";
 ```
 
-### Cookies de terceros
+### Servidor de seguimiento de terceros
 
 >[!TIP]
 >
