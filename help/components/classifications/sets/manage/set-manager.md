@@ -1,16 +1,16 @@
 ---
-title: Administrador de conjuntos de clasificaciones
+title: Administrador de conjuntos de clasificación
 description: Administrar conjuntos de clasificaciones en Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '344'
+ht-degree: 7%
 
 ---
 
-# Administrador de conjuntos de clasificaciones
+# Administrador de conjuntos de clasificación
 
 El Administrador de conjuntos de clasificaciones permite crear, editar o eliminar conjuntos de clasificaciones.
 
@@ -20,7 +20,7 @@ Los conjuntos de clasificaciones constan de **Suscripciones** (combinaciones de 
 
 ## Filtrar conjuntos de clasificaciones
 
-La parte izquierda del Administrador de conjuntos de clasificaciones proporciona una configuración de filtro para localizar el conjunto de clasificaciones deseado. Al hacer clic en el icono de filtro, se alterna la visibilidad de la configuración del filtro. Puede filtrar los conjuntos de clasificaciones por **[!UICONTROL Etiquetas]**, **[!UICONTROL Grupo de informes]**, o **[!UICONTROL Propietario]**.
+La parte izquierda del Administrador de conjuntos de clasificaciones proporciona una configuración de filtro para localizar el conjunto de clasificaciones deseado. Al hacer clic en el icono de filtro, se alterna la visibilidad de la configuración del filtro. Puede filtrar los conjuntos de clasificaciones por **[!UICONTROL Etiquetas]** o **[!UICONTROL Grupo de informes]**.
 
 ![Filtros del conjunto de clasificaciones](../../assets/classification-set-filters.png)
 
@@ -30,7 +30,6 @@ Las siguientes columnas están disponibles en el Administrador de conjuntos de c
 
 * **[!UICONTROL Conjunto de clasificaciones]**: nombre del conjunto de clasificaciones. Hacer clic en el nombre de un conjunto de clasificaciones [edita su configuración](settings.md).
 * **[!UICONTROL Suscripciones]**: El número de suscripciones a las que se aplica este conjunto de clasificación.
-* **[!UICONTROL Propietario]**: el propietario del conjunto de clasificaciones.
 * **[!UICONTROL Clasificaciones]**: el número de dimensiones de clasificación que contiene el conjunto de clasificaciones.
 * **[!UICONTROL Automatizado]**: Determina si el conjunto de clasificaciones está configurado para importar automáticamente datos desde una ubicación de la nube. La automatización se puede configurar en el conjunto de clasificaciones [esquema](schema.md).
 * **[!UICONTROL Última modificación]**: La fecha y la hora de la última modificación del conjunto de clasificaciones.
