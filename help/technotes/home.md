@@ -3,9 +3,9 @@ title: Notas técnicas de Analytics
 description: Esta guía proporciona información útil sobre temas que no pertenecen a una herramienta o componente de Analytics determinado.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '416'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,6 @@ A continuación, se muestra un vídeo introductorio de Adobe Analytics:
 ## Artículos clave de notas técnicas
 
 * [Transición de una plataforma de análisis de terceros a Adobe Analytics](ga-to-aa/home.md)
-* [Recopilación de datos regionales](/help/technotes/rdc/regional-data-collection.md)
 
 ## Más guías del usuario de Analytics
 

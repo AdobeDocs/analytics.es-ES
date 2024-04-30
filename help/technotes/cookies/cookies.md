@@ -4,10 +4,10 @@ description: Descubra cómo las medidas de prevención de seguimiento afectan a 
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
-source-wordcount: '1914'
-ht-degree: 97%
+source-wordcount: '1909'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Este documento explica cómo las medidas de prevención del seguimiento de los e
 ## ¿Cómo han limitado los exploradores el uso de cookies?
 
 >[!NOTE]
->[Análisis entre dispositivos](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=es#cda) y [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es#comparing-cja-to-traditional-adobe-analytics) puede unir las cookies mediante un ID de persona, como un id de inicio de sesión con hash, si hay uno disponible.
+>[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=es#cda) y [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es#comparing-cja-to-traditional-adobe-analytics) pueden unir las cookies mediante un ID de persona, como un ID de inicio de sesión con hash, si hay uno disponible.
 
 ### Limitaciones de cookies de terceros
 
@@ -75,7 +75,7 @@ Si estas limitaciones afectan a sus datos, verá esto:
 
 Los sitios web que visitan los usuarios no crean cookies de terceros.
 
-Aunque los exploradores tratan todas las cookies de terceros de la misma manera y las almacenan en consecuencia, las cookies de terceros pueden comportarse de manera diferente e importante. Con la implementación de cookies de terceros de Analytics de un cliente, los exploradores almacenan la Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es) ID como una cookie de terceros, pero el cliente solo realiza llamadas de Adobe y no a dominios de terceros desconocidos o sospechosos. Esta cookie proporciona identificadores persistentes entre dominios y permite el uso de contenido seguro (https). Para obtener más información, consulte [Cookies y el servicio de identidad de Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es).
+Aunque los exploradores tratan todas las cookies de terceros de la misma manera y las almacenan en consecuencia, las cookies de terceros pueden comportarse de manera diferente e importante. Con la implementación de cookies de terceros de Analytics de un cliente, los navegadores almacenan el ID de Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es) como una cookie de terceros, pero el cliente solo realiza llamadas de Adobe y no a dominios de terceros desconocidos o sospechosos. Esta cookie proporciona identificadores persistentes entre dominios y permite el uso de contenido seguro (https). Para obtener más información, consulte [Cookies y el servicio de identidad de Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es).
 
 Dentro de las implementaciones de Analytics, las cookies de terceros se utilizan para el seguimiento entre dominios y para casos de uso de publicidad, incluida la resegmentación de anuncios. Las cookies de terceros le permiten identificar a los visitantes a medida que visitan diferentes dominios de su propiedad o a medida que se muestran anuncios en sitios que no son de su propiedad.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -105,7 +105,7 @@ El comportamiento predeterminado en estas versiones del explorador es tratar las
 
 Para los clientes que utilizan el servicio de ID de visitante, las cookies tienen las propiedades `SameSite=None` y `secure` configuradas de forma predeterminada, lo que permite que estas cookies admitan casos de uso de terceros.
 
-Para los clientes que utilizan identificadores heredados de Analytics (&quot;s_vi&quot; y &quot;s_fid&quot; cookies), también se establecen cookies para habilitar casos de uso de terceros con dominios de recopilación estándar: adobedc.net, 2o7.net y omtrdc.net. Para los clientes que utilizan una implementación CNAME, Analytics establece `SameSite=Lax`.
+Para clientes que utilizan identificadores heredados de Analytics (`s_vi` y `s_fid` cookies), las cookies también se configuran para habilitar casos de uso de terceros con dominios de recopilación estándar: `adobedc.net`, `2o7.net`, y `omtrdc.net`. Para los clientes que utilizan una implementación CNAME, Analytics establece `SameSite=Lax`.
 
 >[!NOTE]
 >

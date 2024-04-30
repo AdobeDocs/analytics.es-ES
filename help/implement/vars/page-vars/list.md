@@ -4,10 +4,10 @@ description: Variables personalizadas que contienen varios valores en la misma v
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 87%
+source-wordcount: '500'
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ Asegúrese de registrar la forma en que utiliza cada variable de lista y su lóg
 
 >[!NOTE]
 >
->Las variables de lista almacenan los últimos 250 valores por visitante. Si hay más de 250 valores únicos para un visitante determinado, los valores más antiguos no se atribuyen a las métricas.
+>Las variables de lista almacenan los valores más recientes por visitante en función de su [!UICONTROL Valores máximos] configuración en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Se admiten hasta 250 valores. Si hay más valores únicos que lo que [!UICONTROL Valores máximos] La configuración de permite que los valores más antiguos no se atribuyan a las métricas.
 
 ## Configure variables de lista en la configuración del grupo de informes
 
@@ -77,7 +77,7 @@ No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar 
 
 ## s.list1 - s.list3 en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
-Cada variable de lista es una cadena que contiene valores personalizados específicos de su organización. No tienen un máximo de bytes; sin embargo, cada valor individual tiene un máximo de 255 bytes. El delimitador que utilice se determina al configurar la variable en la [configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). No utilice espacios al delimitar varios elementos.
+Cada variable de lista es una cadena que contiene valores personalizados específicos de su organización. Esta variable no tiene un número máximo de bytes; sin embargo, cada valor individual tiene un límite máximo de 255 bytes. El delimitador que utilice se determina al configurar la variable en la [configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). No utilice espacios al delimitar varios elementos.
 
 ```js
 // A list variable configured with a comma as a delimiter

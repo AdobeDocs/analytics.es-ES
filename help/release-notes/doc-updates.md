@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
 source-wordcount: '5315'
 ht-degree: 98%
@@ -150,7 +150,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Tema nuevo en el panel [!UICONTROL Resumen de página] | [Panel Resumen de página](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Tema nuevo en el panel [!UICONTROL Elemento siguiente/anterior] | [Panel Elemento de dimensión siguiente/anterior](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Marzo de 2022** | |
-| Tema nuevo sobre los algoritmos de cifrado HTTPS admitidos | [Algoritmos de cifrado HTTPS admitidos](/help/technotes/rdc/encryption-algos.md) para clientes con un nivel de seguridad de cifrado establecido en “Alto”. |
+| Tema nuevo sobre los algoritmos de cifrado HTTPS admitidos | Algoritmos de cifrado HTTPS admitidos para clientes con un nivel de seguridad cifrado establecido en &quot;Alto&quot;. |
 | Nueva documentación sobre anotaciones en Analysis Workspace | [Las anotaciones en Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. |
 | Actualizaciones de la página de aterrizaje de Adobe Analytics | [Actualizaciones](/help/analyze/landing.md) a la página de aterrizaje conjunta de Analysis Workspace/Reports &amp; Analytics que mejora la facilidad de uso y navegación. |
 | [!UICONTROL Elemento siguiente] o [!UICONTROL Elemento anterior] Panel de espacio de trabajo | Este panel le permite explorar elementos que siguen o preceden a un elemento de dimensión de su elección. |
@@ -296,7 +296,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 09 de mayo de 2019 | Se agregó una nueva configuración a la configuración de visualización de flujo: Incluir instancias de repetición. Consulte [Configuración de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 11 de abril de 2019 | Mejoras en las prácticas recomendadas de optimización del Espacio de trabajo: [Optimización del rendimiento](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 11 de abril de 2019 | Actualizaciones para [optimizar el rendimiento del Espacio de trabajo](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
-| 14 de marzo de 2019 | Actualización principal de la [recopilación de datos regionales](/help/technotes/rdc/regional-data-collection.md). |
+| 14 de marzo de 2019 | Actualización principal de la recopilación de datos regionales. |
 | 7 de febrero de 2019 | Pequeña actualización de los ajustes “Reemplazar el último octeto de direcciones IP por 0” y “Ofuscación IP” en [Configuración general de la cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | 1 de febrero de 2019 | Actualización importante del complemento de implementación [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17 de enero de 2019 | [Análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md): Las principales mejoras realizadas en Análisis de cohorte le permiten hacer lo siguiente:<ul><li>Aplicar una inclusión de segmento y devolver métricas por separado. </li><li>Mostrar la pérdida en lugar de la retención.</li><li>Mostrar tablas de latencia (tiempo transcurrido antes y después de un evento de inclusión).</li><li>Personalizar la dimensión de cohorte (para agrupar visitantes en función de una eVar, no solo el tiempo).</li><li>Cálculo de cohorte móvil: calcule la retención y la pérdida en función de un período de tiempo previo, no de la cohorte original. </li><li>Añada múltiples métricas en campos de inclusión y devolución, y aplique segmentos. (No se admiten las métricas calculadas)</li></ul> |

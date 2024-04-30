@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Notas técnicas de Analytics
 breadcrumb-title: Notas técnicas
 user-guide-description: Examine una base de conocimiento que contiene artículos útiles que no pertenecen a una herramienta o componente de Analytics específico.
-source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
+source-git-commit: f9d06b8222f557e40792e1fad4714ce97b9a02c9
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '190'
 ht-degree: 100%
 
 ---
@@ -52,10 +52,6 @@ ht-degree: 100%
 + [Orden de procesamiento](processing-order.md)
 + [Aplicaciones web progresivas](pwa.md)
 + [Redirecciones y alias](redirects.md)
-+ Recopilación de datos regionales {#rdc}
-   + [Ayuda de recopilación de datos regionales](rdc/regional-data-collection.md)
-   + [Licencias de certificación SSL](rdc/ssl-cert-licensing.md)
-   + [Algoritmos de cifrado HTTPS admitidos](rdc/encryption-algos.md)
 + [Recursos de seguridad](security.md)
 + [Términos utilizados (glosario)](terms.md)
 + [Marcas de hora opcionales](timestamps-optional.md)
