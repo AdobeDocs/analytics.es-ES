@@ -4,9 +4,9 @@ title: Configuración del destino de un informe para una solicitud de Data Wareh
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2584'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ Para obtener información sobre cómo empezar a crear una solicitud, así como v
 >
 >Al configurar un destino de informe, tenga en cuenta lo siguiente:
 >
->* Recomendamos utilizar una cuenta en la nube o un correo electrónico para el destino del informe. [Cuentas heredadas de FTP y SFTP](#legacy-destinations) están disponibles, pero no se recomiendan.
+>* Recomendamos utilizar una cuenta en la nube o un correo electrónico para el destino del informe. Las [cuentas heredadas de FTP y SFTP](#legacy-destinations) están disponibles, pero no se recomiendan.
 >
->* Todas las cuentas de nube que configuró anteriormente están disponibles para su Data Warehouse. Puede configurar cuentas en la nube de cualquiera de estas formas:
+>* Todas las cuentas en la nube que configuró anteriormente están disponibles para Data Warehouse. Puede configurar cuentas en la nube de cualquiera de estas formas:
 >
 >   * Al configurar [Fuentes de datos](/help/export/analytics-data-feed/create-feed.md)
 >   
->   * Cuándo [importación de datos de clasificación de Adobe Analytics](/help/components/locations/locations-manager.md) (Las cuentas se pueden usar, pero no se pueden usar las ubicaciones configuradas en ellas).
+>   * Al [importar datos de clasificación de Adobe Analytics](/help/components/locations/locations-manager.md) (Las cuentas se pueden usar, pero no se pueden usar las ubicaciones configuradas en ellas).
 >   
->   * Desde el administrador Ubicaciones, en [Componentes > Ubicaciones](/help/components/locations/configure-import-accounts.md).
+>   * Desde el administrador de Ubicaciones, en [Componentes > Ubicaciones](/help/components/locations/configure-import-accounts.md).
 >
 >* Las cuentas en la nube están asociadas a su cuenta de usuario de Adobe Analytics. Otros usuarios no pueden usar ni ver las cuentas en la nube que configure.
 >
@@ -44,27 +44,27 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
    ![Pestaña Destino del informe](assets/dw-report-destination.png)
 
-1. (Condicional) Si ya se ha configurado una cuenta de nube (y un destino en esa cuenta) en Adobe Analytics, puede utilizarla como destino del informe:
+1. (Condicional) Si ya se ha configurado una cuenta en la nube (y un destino en esa cuenta) en Adobe Analytics, puede utilizarla como destino del informe:
 
    >[!NOTE]
    >
    >Las cuentas solo están disponibles si las configuró o si se compartieron con una organización de la que forma parte.
    >
-   >Si es administrador del sistema, la variable [!UICONTROL **Mostrar todos los destinos**] está disponible. Active esta opción si quiere tener acceso a todas las cuentas y ubicaciones creadas por cualquier usuario de la organización.
+   >(Opcional) Si es administrador del sistema, la opción [!UICONTROL **Mostrar todos los destinos**] está disponible. Active esta opción si quiere tener acceso a todas las cuentas y ubicaciones creadas por cualquier usuario de la organización.
 
    1. Seleccione la cuenta del menú desplegable [!UICONTROL **Seleccionar cuenta**].
 
-      Cualquier cuenta de nube que haya configurado en cualquiera de las siguientes áreas de Adobe Analytics está disponible para usar:
+      Puede utilizar cualquier cuenta en la nube que haya configurado en cualquiera de las siguientes áreas de Adobe Analytics:
 
-      * Al importar datos de clasificación de Adobe Analytics, como se describe en [Esquema](/help/components/classifications/sets/manage/schema.md).
+      * Al importar datos de clasificación de Adobe Analytics, tal como se describe en [Esquema](/help/components/classifications/sets/manage/schema.md).
 
         Sin embargo, no se puede utilizar ninguna ubicación configurada para importar datos de clasificación. En su lugar, añada un nuevo destino tal como se describe a continuación.
 
-      * Al configurar cuentas y ubicaciones en el área Ubicaciones, tal como se describe en [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md) y [Configurar ubicaciones de importación y exportación de la nube](/help/components/locations/configure-import-locations.md).
+      * Al configurar cuentas y ubicaciones en el área Ubicaciones, tal como se describe en [Configuración de cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y [Configuración de ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md).
 
    1. Seleccione el destino asociado a la cuenta en el menú desplegable [!UICONTROL **Seleccionar destino**]. <!-- Is this correct? -->
 
-1. (Condicional) Si no tiene acceso a una cuenta de nube que ya esté configurada en Adobe Analytics, puede configurar una:
+1. (Condicional) Si no tiene acceso a una cuenta en la nube que ya esté configurada en Adobe Analytics, puede configurar una:
 
    1. Seleccione [!UICONTROL **Añadir cuenta**] y, a continuación, especifique la siguiente información:
 
@@ -111,7 +111,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
       |---------|----------|
       | [!UICONTROL **ID de aplicación**] | Copie este ID de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Información general** dentro de la aplicación. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
       | [!UICONTROL **ID de inquilino**] | Copie este ID de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Información general** dentro de la aplicación. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **URI de almacén de claves**] | <p>Ruta al URI de SAS en Azure Key Vault.  Para configurar Azure SAS, debe almacenar un URI de SAS como secreto mediante Azure Key Vault. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Una vez creado el URI del almacén de claves:<ul><li>Añada una directiva de acceso en el almacén de claves para poder conceder permiso a la aplicación de Azure que ha creado.</li><li>Asegúrese de que al ID de aplicación se le haya concedido la `Key Vault Certificate User` función integrada para acceder al URI de almacén de claves.</br><p>Para obtener más información, consulte [Funciones integradas de Azure](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo asignar una directiva de acceso de Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+      | [!UICONTROL **URI de almacén de claves**] | <p>La ruta al URI de SAS en Azure Key Vault.  Para configurar Azure SAS, debe almacenar un URI de SAS como un secreto mediante Azure Key Vault. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Una vez creado el URI del almacén de claves:<ul><li>Añada una directiva de acceso en el almacén de claves para poder conceder permiso a la aplicación de Azure que ha creado.</li><li>Asegúrese de que al ID de aplicación se le haya concedido la `Key Vault Certificate User` función integrada para acceder al URI de almacén de claves.</br><p>Para obtener más información, consulte [Funciones integradas de Azure](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo asignar una directiva de acceso de Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
       | [!UICONTROL **Nombre secreto del almacén de claves**] | El nombre secreto que creó al añadir el secreto a Azure Key Vault. En Microsoft Azure, esta información se encuentra en el almacén de claves que ha creado, en las páginas de configuración del **Almacén de claves**. Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
       | [!UICONTROL **Secreto**] | Copie el secreto de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Certificados y secretos** dentro de la aplicación. Para obtener más información, consulte la [Documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
@@ -158,7 +158,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       | Campo | Función |
       |---------|----------|
-      | [!UICONTROL **Nombre del bloque**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por Adobe tiene el permiso `S3:PutObject` para cargar archivos en este bloque. Este permiso permite al ARN del usuario cargar archivos iniciales y sobrescribir archivos para cargas posteriores.</p><p>Los nombres de los contenedores deben cumplir reglas de nomenclatura específicas. Por ejemplo, deben tener entre 3 y 63 caracteres, solo pueden contener letras minúsculas, números, puntos (.) y guiones (-), y deben comenzar y terminar con una letra o un número. [En la documentación de AWS encontrará una lista completa de las reglas de nomenclatura](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+      | [!UICONTROL **Nombre del bloque**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por Adobe tiene el permiso `S3:PutObject` para cargar archivos en este bloque. Este permiso permite al ARN del usuario cargar archivos iniciales y sobrescribir archivos para cargas posteriores.</p><p>Los nombres de bloques deben cumplir reglas de nomenclatura específicas. Los nombres bloques deben tener entre 3 y 63 caracteres de longitud, solo pueden constar de letras minúsculas, números, puntos (.) y guiones (-), y deben empezar y terminar con una letra o un número. [En la documentación de AWS encontrará una lista completa de las reglas de nomenclatura](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
       | [!UICONTROL **Prefijo de clave**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
 
       {style="table-layout:auto"}
@@ -185,7 +185,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
       | Campo | Función |
       |---------|----------|
       | [!UICONTROL **Nombre de contenedor**] | El contenedor de la cuenta que especificó dónde desea que se envíen los datos de Adobe Analytics. |
-      | [!UICONTROL **Prefijo clave**] | La carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/`<p>Asegúrese de que el almacén de URI de SAS especificado en el campo Nombre secreto de Key Vault al configurar la cuenta SAS de Azure tenga el valor `Write` permiso. Esto permite al URI de SAS crear archivos en el contenedor de Azure. <p>Si desea que el URI de SAS sobrescriba también los archivos, asegúrese de que el almacén de URI de SAS tiene el `Delete` permiso.</p><p>Para obtener más información, consulte [Recursos de almacenamiento de blob](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) en la documentación de almacenamiento de Azure Blob.</p> |
+      | [!UICONTROL **Prefijo clave**] | La carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/`<p>Asegúrese de que el almacén de URI de SAS que especificó en el campo de nombre secreto del almacén de claves al configurar la cuenta SAS de Azure tenga el permiso `Write`. Esto permite que el URI de SAS cree archivos en el contenedor de Azure. <p>Si desea que el URI de SAS sobrescriba también los archivos, asegúrese de que el almacén de URI de SAS tenga el permiso `Delete`.</p><p>Para obtener más información, consulte [Recursos de almacenamiento de blob](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) en la documentación de almacenamiento de Azure Blob.</p> |
 
       {style="table-layout:auto"}
 
