@@ -1,12 +1,12 @@
 ---
 title: Búsquedas dinámicas
 description: Obtenga información sobre qué son las búsquedas dinámicas y cómo habilitarlas. Incluye operadores, atributos móviles y tipos de sistemas operativos.
-exl-id: 644bf34b-312d-483a-a590-2dd8d6a773a5
+exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '266'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ Si desea recibir los archivos de búsqueda mencionados, debe cumplir todos los r
    * Para `carrier.tsv`, debe incluir `carrier`.
    * Para `mobile_attributes.tsv`, debe incluir `mobile_id`.
    * Para `operating_system_type.tsv`, debe incluir `os`.
-* Las siguientes columnas deben ser **excluido**. Si alguna de estas columnas se incluye en la fuente de datos, no se incluyen las tablas de búsqueda adicionales.
+* Las siguientes columnas deben ser **excluido**. Si alguna de estas columnas se incluye en la fuente de datos, la variable `mobile_attributes.tsv` no se incluye la búsqueda dinámica.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`

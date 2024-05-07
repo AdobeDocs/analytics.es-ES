@@ -3,10 +3,10 @@ title: Interfaz de usuario de fuentes de datos
 description: Obtenga información sobre cómo navegar por la interfaz de fuentes de datos.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 77%
+source-wordcount: '692'
+ht-degree: 68%
 
 ---
 
@@ -63,7 +63,7 @@ Cada fuente creada muestra varias columnas que proporcionan información al resp
 * **Columnas de datos**: qué columnas de datos están activas para la fuente. En la mayoría de los casos, hay demasiadas columnas para mostrar en este formato.
 * **Intervalo**: indicador de si la fuente es por hora o por día.
 * **Tipo de destino**: el tipo de destino de la fuente. Por ejemplo, Amazon S3, GCP o Azure.
-* **Host de destino**: ubicación en la que se coloca el archivo.
+* **Host de destino**: Ubicación en la que se coloca el archivo.
 * **Propietario**: cuenta de usuario que creó la fuente.
 * **Estado**: el estado de la fuente.
    * Activa: la fuente se está ejecutando.
@@ -71,7 +71,7 @@ Cada fuente creada muestra varias columnas que proporcionan información al resp
    * Eliminada: se elimina la fuente.
    * Completada: la fuente ha finalizado el procesamiento. Una fuente completada puede editarse, pausarse y cancelarse.
    * Pendiente: la fuente se crea pero aún no está activa. Las fuentes permanecen en este estado durante un corto periodo de transición.
-   * Inactiva: equivalente a un estado “pausado” o “en espera”. Cuando se reactiva la fuente, se reanuda la entrega de trabajos desde el momento en que se detuvo.
+   * Inactiva: equivalente a un estado “pausado” o “en espera”. Si se reactiva una fuente de relleno (una fuente que solo procesa datos históricos), se reanuda la entrega de trabajos desde el momento en que se detuvo. Si se reactiva una fuente activa, se reanuda la entrega de trabajos desde el momento en que se detuvo.
 * **Última modificación**: fecha en la que se modificó la fuente por última vez. La fecha y la hora se muestran en la zona horaria del grupo de informes con horario GMT.
 * **Fecha de inicio**: la fecha del primer trabajo de esta fuente. La fecha y la hora se muestran en la zona horaria del grupo de informes con horario GMT.
 * **Fecha de finalización**: la fecha del último trabajo de esta fuente. Las fuentes de datos en curso no tienen una fecha de finalización.
@@ -84,4 +84,4 @@ Haga clic en la casilla de verificación situada junto a una fuente de datos par
 * **Eliminar**: elimina la fuente de datos y establece su estado en [!UICONTROL Eliminada].
 * **Copiar**: conduce a [crear una fuente nueva](create-feed.md) con todos los ajustes de la fuente actual. No puede copiar una fuente de datos si hay más de una seleccionada.
 * **Pausar**: detiene el procesamiento de la fuente y establece su estado en [!UICONTROL Inactiva].
-* **Activar**: solo disponible para fuentes inactivas. Recopila datos de procesamiento justo donde los dejó y completa las fechas si es necesario.
+* **Activar**: solo disponible para fuentes inactivas. Las fuentes de relleno (fuentes que solo procesan datos históricos) reanudan el procesamiento de datos desde donde se detuvieron y rellenan las fechas si es necesario. Las fuentes activas reanudan el procesamiento de datos desde el momento actual.

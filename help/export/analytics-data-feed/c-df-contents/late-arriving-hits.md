@@ -3,10 +3,10 @@ title: Visitas que llegan tarde
 description: Descubra cómo las fuentes de datos tratan las visitas que llegan tarde.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe puede habilitar manualmente las visitas que llegan tarde en las fuentes de
 
 * Los datos de diferentes días aparecen con frecuencia en las fuentes de datos cuando las visitas que llegan tarde están habilitadas. Compruebe que la plataforma que utiliza para la ingesta de fuentes de datos puede admitir datos de diferentes días dentro del mismo archivo.
 * Las visitas que llegan tarde aumentan el tiempo de procesamiento. Normalmente, este retraso es inferior a una hora, pero puede ser de varias horas o más si el grupo de informes recibe un gran número de visitas que llegan tarde. Adobe recomienda que no se active esta configuración si la llegada oportuna de fuentes de datos es imprescindible para el flujo de trabajo de su organización.
-* Si se vuelve a procesar un archivo de fuente de datos, las visitas que llegan tarde y que se incluyeron en el archivo original no se incluirán en el archivo reprocesado.
+* Si se vuelve a procesar un archivo de fuente de datos, las visitas que llegan tarde y que se incluyeron en el archivo original se incluirán en el archivo reprocesado cuando el reprocesamiento se produzca en los primeros 5 días. Después de 5 días, las visitas que llegan tarde no se incluyen en el archivo reprocesado.
 
 Si desea habilitar las visitas que llegan tarde para una fuente de datos recurrente que ya existe, intente que un usuario de asistencia técnica contacte con el Servicio de atención al cliente e incluya lo siguiente:
 

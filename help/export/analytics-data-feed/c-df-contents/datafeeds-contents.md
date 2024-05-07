@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Resumen del contenido de la fuente de datos
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 77%
+source-wordcount: '1002'
+ht-degree: 69%
 
 ---
 
@@ -28,7 +28,7 @@ Para acceder al contenido de una fuente de datos:
 
 1. Descomprima el archivo comprimido con un programa que admita extensiones de archivo `.tar.gz`.
 
-1. Abra el archivo `hit_data.tsv` en la hoja de cálculo o la aplicación de base de datos que desee para ver los datos sin procesar de ese día. —>
+1. Abra el `hit_data.tsv` en la aplicación de hoja de cálculo o de base de datos que desee para ver los datos sin procesar de ese día. —>
 
 ## Archivo de manifiesto {#feed-manifest}
 
@@ -67,7 +67,7 @@ Datafeed-Manifest-Version: 1.0
 
 Cada archivo de manifiesto contiene un encabezado, que indica el número total de archivos de búsqueda, archivos de datos y el número total de registros incluidos en todos los archivos de datos. Este encabezado va seguido de varias secciones que contienen información para cada archivo incluido en la entrega de fuente de datos.
 
-Algunas fuentes están configuradas para recibir un archivo `.fin` en lugar de un manifiesto `.txt`. El sufijo `.fin` indica que la carga se ha completado pero que no contiene metadatos de la carga.
+Algunas fuentes están configuradas para recibir un archivo `.fin` en lugar de un manifiesto `.txt`. El `.fin` indica que la carga se ha completado, pero que los metadatos que contiene tienen un formato anterior.
 
 ## Archivos de búsqueda
 
@@ -107,6 +107,7 @@ Los archivos que Adobe entrega varían en función del tipo de fuente de datos q
 * `[YYYY-mm-dd]` hace referencia al día de inicio del origen de datos.
 * `[HHMMSS]` solo se utiliza en fuentes por hora y se refiere a la hora de inicio para la que está la fuente de datos.
 * `[compression_suffix]` hace referencia al tipo de compresión utilizado. Normalmente, las fuentes de datos se comprimen en `tar.gz` o `zip` archivos.
+* `[format_suffix]` hace referencia al tipo de formato de archivo. Normalmente, el formato del archivo de fuente de datos es `.tsv`.
 
 ### A diario, archivo único
 
@@ -122,7 +123,7 @@ Una vez recopilados los datos durante un día, recibirá uno o varios archivos d
 
 `[index]-[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-Cuando se extrae, cada archivo de datos contiene un único `hit_data.tsv` que contiene aproximadamente 2 GB de datos sin comprimir, así como archivos de búsqueda para cualquier columna requerida.
+Cuando se extrae, cada archivo de datos contiene un único `[index]-[rsid]_[YYYY-mm-dd].[format_suffix]` que contiene aproximadamente 2 GB de datos sin comprimir, así como archivos de búsqueda para cualquier columna requerida.
 
 ### Cada hora, un solo archivo
 
@@ -134,11 +135,11 @@ Cuando se extrae, el archivo de datos contiene un solo archivo `hit_data.tsv` co
 
 ### Por hora, varios archivos
 
-Una vez recopilados los datos durante una hora, recibirá uno o más archivos de datos comprimidos y un archivo de manifiesto. El nombre del archivo de datos es:
+Una vez recopilados los datos durante una hora, recibirá uno o más archivos de datos comprimidos y un archivo de manifiesto. Los archivos de datos se denominan:
 
-`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-Cuando se extrae, cada archivo de datos contiene un único `hit_data.tsv` que incluye aproximadamente 2 GB de datos sin comprimir, así como archivos de búsqueda para cualquier columna requerida.
+Cuando se extrae, cada archivo de datos contiene un único `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` que contiene aproximadamente 2 GB de datos sin comprimir, así como archivos de búsqueda para cualquier columna requerida.
 
 ## Tamaño del archivo de datos
 
