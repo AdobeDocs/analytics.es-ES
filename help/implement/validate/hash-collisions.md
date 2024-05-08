@@ -4,80 +4,44 @@ description: Describe lo que es un conflicto de hash y cómo se puede manifestar
 feature: Validation
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 06f61fa7b39faacea89149650e378c8b8863ac4f
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 6%
 
 ---
 
 # Conflictos de hash
 
-Adobe considera los valores de prop y de eVar como cadenas, incluso si el valor es un número. Algunas veces estas cadenas tienen cientos de caracteres, otras veces son cortas. Para ahorrar espacio, mejorar el rendimiento y hacer que todo tenga un tamaño uniforme, las cadenas no se usan directamente en el procesamiento. En cambio, se computa un hash de 32 bits o 64 bits para cada valor. Todos los informes se ejecutan en estos valores con hash, donde cada hash se reemplaza por el texto original. Los hash mejoran notablemente el rendimiento de los informes de Analytics.
+Los Dimension de Adobe Analytics recopilan valores de cadena. A veces estas cadenas tienen cientos de caracteres, mientras que otras veces son cortas. Para mejorar el rendimiento, estos valores de cadena no se utilizan directamente en el procesamiento. En su lugar, se calcula un hash para cada valor a fin de que todos los valores tengan un tamaño uniforme. Todos los informes se ejecutan en estos valores con hash, lo que aumenta drásticamente su rendimiento.
 
-Para la mayoría de los campos, la cadena primero se convierte a minúscula (reduciendo el número de valores únicos). Se colocan hashes en los valores todos los meses (la primera vez que son vistos cada mes). De un mes a otro, existe una pequeña posibilidad de que dos valores de variables únicos tengan hashes con el mismo valor. Esto se conoce como *conflicto de hash*.
+Para la mayoría de los campos, la cadena primero se convierte a minúsculas. La conversión a minúsculas reduce el número de valores únicos. Los valores se colocan en hash mensualmente: en el caso de un valor determinado se utiliza el primer valor que se ve cada mes. De un mes a otro, existe una pequeña posibilidad de que dos valores de variables únicos tengan hash con el mismo valor. Esto se conoce como *conflicto de hash*.
 
 Los conflictos de hash pueden manifestarse en los informes de la siguiente manera:
 
-* Si está viendo la tendencia de un valor y observa un pico durante un mes, posiblemente a otros valores para esa variable se les colocaron hash con el mismo valor que ve.
-* Lo mismo ocurre para segmentos para un valor específico.
+* Si ve un informe a lo largo del tiempo y observa un pico inesperado, es posible que varios valores únicos para esa variable utilicen el mismo hash.
+* Si utiliza un segmento y ve un valor inesperado, es posible que el elemento de dimensión inesperado utilice el mismo hash que otro elemento de dimensión que coincidió con el segmento.
 
-## Ejemplo de conflictos de hash
+## Probabilidades de un conflicto de hash
 
-La probabilidad de los conflictos de hash aumentan con la cantidad de valores únicos en una dimensión. Por ejemplo, uno de los valores que llega tarde en el mes podría obtener el mismo valor de hash que un valor más temprano en el mes. El siguiente ejemplo puede ayudar a explicar cómo esto puede hacer que los resultados de los segmentos cambien. Supongamos que eVar62 recibe &quot;valor 100&quot; el 18 de febrero. Analytics mantendrá una tabla similar a la siguiente:
+Adobe Analytics utiliza hashes de 32 bits para la mayoría de las dimensiones, lo que significa que hay 2<sup>32</sup> posibles combinaciones de hash (aproximadamente 4300 millones). Cada mes se crea una nueva tabla hash para cada dimensión. Las probabilidades aproximadas de encontrar un conflicto de hash basado en el número de valores únicos son las siguientes. Estas probabilidades se basan en una sola dimensión para un solo mes.
 
-<table id="table_6A49D1D5932E485DB2083154897E5074"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Valor de cadena eVar62 </th> 
-   <th colname="col2" class="entry"> Hash </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Valor 99 </p> </td> 
-   <td colname="col2"> <p> 111 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Valor 100</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Valor 101 </p> </td> 
-   <td colname="col2"> <p> 222 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valores únicos | Probabilidades |
+| --- | --- |
+| 1000 | 0,01 % |
+| 10.000 | 1 % |
+| 50 000 | 26% |
+| 100.000 | 71 % |
 
-Si genera un segmento que busca visitas donde eVar62=&quot;valor 500&quot;, Analytics determina si &quot;valor 500&quot; contiene un hash. Como &quot;valor 500&quot; no existe, Analytics devuelve cero visitas. Luego, el 23 de febrero, eVar62 recibe &quot;valor 500&quot;, y el hash correspondiente también es 123. La tabla será similar a la siguiente:
+{style="table-layout:auto"}
 
-<table id="table_5FCF0BCDA5E740CCA266A822D9084C49"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Valor de cadena eVar62 </th> 
-   <th colname="col2" class="entry"> Hash </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Valor 99 </p> </td> 
-   <td colname="col2"> <p> 111 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Valor 100</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Valor 101 </p> </td> 
-   <td colname="col2"> <p> 222 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Valor 500</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Similar a la [paradoja de cumpleaños](https://en.wikipedia.org/wiki/Birthday_problem), la probabilidad de los conflictos de hash aumentan drásticamente a medida que aumenta el número de valores únicos. Con un millón de valores únicos, es probable que haya al menos 100 conflictos de hash para esa dimensión.
 
-Cuando el mismo segmento se ejecuta nuevamente, busca el hash de &quot;valor 500&quot;, encuentra 123, y el informe devuelve todas las visitas que contienen hash 123. Ahora, las visitas que ocurrieron el 18 de febrero estarán incluidas en los resultados.
+## Mitigación de conflictos de hash
 
-Esta situación puede crear problemas al usar Analytics. Adobe continúa investigando maneras de reducir las posibilidades de que ocurran estos conflictos de hash en el futuro. Algunas sugerencias para evitar esta situación son: encontrar maneras de propagar los valores únicos entre variables, eliminar valores innecesarios con reglas de procesamiento o, por el contrario, reducir el número de valores por variable.
+La mayoría de los conflictos de hash se producen con dos valores poco comunes, que no tienen un impacto significativo en los informes. Incluso si un hash entra en conflicto con un valor común y poco común, el resultado es insignificante. Sin embargo, en casos excepcionales en los que dos valores populares experimentan un conflicto de hash, es posible ver su efecto con claridad. El Adobe recomienda lo siguiente para reducir su efecto en los informes:
+
+* **Cambio del intervalo de fecha**: Las tablas hash cambian cada mes. Si se cambia el intervalo de fechas para que abarque otro mes, se pueden dar a cada valor hashes diferentes que no entren en conflicto.
+* **Reducción de la cantidad de valores únicos**: Puede ajustar la implementación o utilizar [Reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) para reducir el número de valores únicos que recopila una dimensión. Por ejemplo, si la dimensión recopila una dirección URL, puede eliminar las cadenas de consulta o el protocolo.
+
+<!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->
