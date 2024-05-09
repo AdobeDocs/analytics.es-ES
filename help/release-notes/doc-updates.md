@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5315'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Abril de 2024** | |
-| Se ha eliminado la documentación relacionada con &quot;Propietario&quot; en los conjuntos de clasificaciones | El filtro &quot;Propietario&quot; y la columna se han eliminado del [Administrador de conjuntos de clasificaciones](/help/components/classifications/sets/manage/set-manager.md) y el campo &quot;Propietario&quot; se ha eliminado del [Configuración del conjunto de clasificaciones](/help/components/classifications/sets/manage/settings.md). <p>La documentación se ha actualizado para eliminar este filtro, columna y campo.</p> |
+| Se ha eliminado la documentación relacionada con “Propietario” en los conjuntos de clasificación | El filtro “Propietario” y la columna se han eliminado del [Administrador de conjuntos de clasificación](/help/components/classifications/sets/manage/set-manager.md) y el campo “Propietario” se ha eliminado de [Configuración del conjunto de clasificación](/help/components/classifications/sets/manage/settings.md). <p>La documentación se ha actualizado para quitar este filtro, columna y campo.</p> |
 | Se han eliminado las secciones comprimibles de la documentación sobre la configuración de ubicaciones de importación y exportación en la nube | Se han eliminado las secciones comprimibles en [Configuración de ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md) para obtener información que explique los tipos de cuenta en la nube. |
 | **Marzo de 2024** | |
 | Actualización de AppMeasurement | [Notas de versión](/help/implement/appmeasurement-updates.md) de la actualización de AppMeasurement v2.26.0.<br/>Incluye referencia y actualización de [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) documentación de la variable de configuración. |
@@ -150,7 +150,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Tema nuevo en el panel [!UICONTROL Resumen de página] | [Panel Resumen de página](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Tema nuevo en el panel [!UICONTROL Elemento siguiente/anterior] | [Panel Elemento de dimensión siguiente/anterior](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Marzo de 2022** | |
-| Tema nuevo sobre los algoritmos de cifrado HTTPS admitidos | Algoritmos de cifrado HTTPS admitidos para clientes con un nivel de seguridad cifrado establecido en &quot;Alto&quot;. |
+| Tema nuevo sobre los algoritmos de cifrado HTTPS admitidos | Algoritmos de cifrado HTTPS admitidos para clientes con un nivel de seguridad de cifrado establecido en “Alto”. |
 | Nueva documentación sobre anotaciones en Analysis Workspace | [Las anotaciones en Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. |
 | Actualizaciones de la página de aterrizaje de Adobe Analytics | [Actualizaciones](/help/analyze/landing.md) a la página de aterrizaje conjunta de Analysis Workspace/Reports &amp; Analytics que mejora la facilidad de uso y navegación. |
 | [!UICONTROL Elemento siguiente] o [!UICONTROL Elemento anterior] Panel de espacio de trabajo | Este panel le permite explorar elementos que siguen o preceden a un elemento de dimensión de su elección. |
