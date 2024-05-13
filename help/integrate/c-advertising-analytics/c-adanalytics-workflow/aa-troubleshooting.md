@@ -3,10 +3,10 @@ description: Solucione problemas y cuestiones relacionadas con Advertising Analy
 title: Solucionar problemas de Advertising Analytics
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 92%
+source-wordcount: '173'
+ht-degree: 50%
 
 ---
 
@@ -17,18 +17,18 @@ ht-degree: 92%
 
 ## No veo mi grupo de informes en la sección Asignación {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-Está intentando [configurar una cuenta publicitaria nueva](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) y no ve su grupo de informes en la lista desplegable **[!UICONTROL Seleccionar grupo de informes]**. Esto puede ocurrir por dos razones:
+Está intentando... [configurar una nueva cuenta publicitaria](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) y no ve su grupo de informes en la lista del **[!UICONTROL Grupos de informes asignados]** lista desplegable. Esto puede ocurrir por dos razones:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Motivo </th> 
+   <th colname="col1" class="entry"> Razón </th> 
    <th colname="col2" class="entry"> Solución </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. El grupo de informes no está asignado a la Experience Cloud Org ID del usuario que ha iniciado sesión. </p> </td> 
+   <td colname="col1"> <p>1. El grupo de informes no está asignado a la ID de organización de Experience Cloud del usuario que ha iniciado sesión. </p> </td> 
    <td colname="col2"> <p>Póngase en contacto con el Servicio de atención al cliente para asignar el grupo de informes a un ID de organización.</p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Está intentando [configurar una cuenta publicitaria nueva](/help/integrate/c-ad
 <table id="table_F1C1192BF40C43CE8600B1BB417A7269"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Motivo </th> 
+   <th colname="col1" class="entry"> Razón </th> 
    <th colname="col2" class="entry"> Solución </th> 
   </tr>
  </thead>

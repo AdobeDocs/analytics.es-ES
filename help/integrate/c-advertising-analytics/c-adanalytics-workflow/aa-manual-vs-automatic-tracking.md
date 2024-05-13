@@ -1,43 +1,47 @@
 ---
-description: Con el seguimiento se determina cómo la implementación de Adobe Analytics realiza un seguimiento de los datos del motor de búsqueda. Este paso es necesario para incrementar adecuadamente los datos de Adobe Analytics con los datos del motor de búsqueda.
-title: 'Seguimiento: Modo manual y modo automático'
+description: El tipo de seguimiento determina cómo la implementación de Adobe Analytics realiza un seguimiento de los datos del motor de búsqueda. Este tipo de seguimiento es un paso necesario para aumentar correctamente los datos de Adobe Analytics con los datos del motor de búsqueda.
+title: Tipo de seguimiento
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 243da53fda562c856d95db0f6d13b7ee1a9adae5
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 32%
 
 ---
 
-# Seguimiento: Modo manual y modo automático
+# Tipo de seguimiento
 
-Con el seguimiento se determina cómo la implementación de Adobe Analytics realiza un seguimiento de los datos del motor de búsqueda. Este paso es necesario para incrementar adecuadamente los datos de Adobe Analytics con los datos del motor de búsqueda.
+El tipo de seguimiento determina cómo la implementación de Adobe Analytics realiza un seguimiento de los datos del motor de búsqueda. Este tipo de seguimiento es un paso necesario para aumentar correctamente los datos de Adobe Analytics con los datos del motor de búsqueda.
 
-A continuación, se muestra un vídeo introductorio sobre cómo implementar la plantilla de seguimiento de Advertising Analytics:
+<!--
+
+Here is a video overview of how to implement the Advertising Analytics tracking template:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
-Se admiten dos modos de seguimiento: modo automático y modo manual.
+-->
 
-## Modo de seguimiento automático {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+Se admiten dos modos de seguimiento: [!UICONTROL Automático] y [!UICONTROL Manual].
 
-En el modo automático, el motor de Advertising Cloud decide cómo se gestionan los datos del motor de búsqueda. Este es el enfoque más sencillo, pero es posible que no genere el conjunto de datos mejor integrado.
+## [!UICONTROL Automático] Seguimiento {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-Como consecuencia, cuando seleccione el modo automático, antes de poder guardar la configuración de la cuenta deberá marcar una casilla de verificación para confirmar este hecho.
+[!UICONTROL Automático] el seguimiento permite que el motor de Advertising Cloud decida cómo se deben administrar los datos del motor de búsqueda. El seguimiento automático es el enfoque más sencillo, pero es posible que no genere el conjunto de datos mejor integrado.
 
-Tenga en cuenta que para configurar una cuenta de motor de búsqueda en “Modo automático”, debe llevar a cabo las siguientes acciones:
+Como consecuencia, cuando seleccione, deberá marcar una casilla de verificación para confirmar este hecho **[!UICONTROL Automático]** antes de guardar la configuración de la cuenta.
 
-* En la cuenta agregada se añadirá el parámetro y valor “`s_kwcid`” a las plantillas de seguimiento de la cuenta o a las URL de las páginas de aterrizaje. Se insertará al final de la URL. Es posible que deba llevar a cabo acciones adicionales si su servidor web requiere un determinado par clave-valor al final de la URL o bien una actualización que permita cualquier nuevo par clave-valor en la URL. **Usted es responsable de garantizar que los parámetros de URL añadidos se conserven correctamente en la página de destino final.**
-* Además, es posible insertar palabras clave en la URL de destino como parte del valor `s_kwcid` Si contienen caracteres especiales o símbolos, confirme que su servidor web los admite. Ejemplo: un carácter especial común es “+”, que se utiliza en las palabras clave “Broad Match Modified”.
+Tenga en cuenta que para configurar una cuenta de motor de búsqueda con **[!UICONTROL Automático]** Tipo, usted es responsable de realizar las siguientes acciones:
+
+* El `s_kwcid` parámetro y valor se añade a las plantillas de seguimiento de la cuenta o a las direcciones URL de la página de aterrizaje en la cuenta que se agrega. Este parámetro y valor se inserta al final de la dirección URL. Es posible que deba llevar a cabo acciones adicionales si su servidor web requiere una determinada `key=value` al final de la dirección URL. O una actualización para admitir cualquier nuevo `key=value` par en la dirección URL. Usted es responsable de garantizar que los parámetros de URL añadidos se conserven correctamente en la página de aterrizaje final.
+* Además, es posible insertar palabras clave en la URL de destino como parte del valor `s_kwcid` Si contienen caracteres especiales o símbolos, confirme que su servidor web los admite. Por ejemplo, un carácter especial común es `+`, que se utiliza en las palabras clave &quot;Broad Match Modified&quot;.
 
 >[!IMPORTANT]
 >
->Obtenga más información sobre si debe agregar el parámetro `s_kwcid` a la [directiva de seguridad de contenido](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html?lang=es).
+>Obtenga más información sobre si debe agregar el parámetro `s_kwcid` a la [directiva de seguridad de contenido](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
 
-## Modo de seguimiento manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
+## Seguimiento manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
-En el modo manual, debe especificar cómo el proceso de integración de datos de Advertising Analytics debe tratar los datos del motor de búsqueda.
+El seguimiento manual le permite especificar cómo debe tratar el proceso de integración de datos de Advertising Analytics los datos del motor de búsqueda.
 
 ### Añadir el seguimiento manual a la cuenta de Google {#section_41C1EB1AEB034544A5BC291F53C05C67}
 
@@ -45,7 +49,7 @@ A continuación, se muestra la cadena que debe añadirse a la cuenta de Google. 
 
 >[!IMPORTANT]
 >
->El valor `<Advertising Analytics ID>` (en **negrita** abajo) es genérico y **se debe sustituir por la cadena del identificador de la cuenta específica**. Puede obtener la cadena del identificador de la cuenta específica en la sección “Seguimiento” de la pantalla de configuración de la cuenta.
+>El valor *`<Advertising Analytics ID>`* (en **negrita** abajo) es genérico y **se debe sustituir por la cadena del identificador de la cuenta específica**. Puede obtener la cadena del identificador de la cuenta específica en la sección de la pantalla de la cuenta. [!UICONTROL Seguimiento] sección.
 
 **Cadena de seguimiento para campañas:**
 
@@ -54,7 +58,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![](assets/Google.png)
+![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
 
 Ejemplos de códigos de seguimiento en varios formatos de plantilla de seguimiento:
 
@@ -78,7 +82,11 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **Terceros (DoubleClick)`{lpurl}`**
 
-Si la dirección URL se redirecciona sin utilizar un valor “unescapedlpurl”, debe codificar la cadena suficientes veces para que se conserve a través del redireccionamiento hasta la dirección URL de la página de aterrizaje final.
+Para asegurarse de que la cadena se mantiene a través del redireccionamiento a la dirección URL de la página de aterrizaje final, debe codificar la cadena lo suficiente:
+
+* si la dirección URL se redirecciona, y
+* no utiliza un valor &quot;unescapedlpurl&quot;.
+
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
@@ -90,7 +98,7 @@ A continuación, se muestra la cadena que debe añadirse a la cuenta de Bing. De
 
 >[!IMPORTANT]
 >
->El valor `<Advertising Analytics ID>` (en **negrita** abajo) es genérico y **se debe sustituir por la cadena del identificador de la cuenta específica**. Puede obtener la cadena del identificador de la cuenta específica en la sección “Seguimiento” de la pantalla de configuración de la cuenta.
+>El valor _`<Advertising Analytics ID>`_(en **negrita**abajo) es genérico y **se debe sustituir por la cadena del identificador de la cuenta específica**. Puede obtener la cadena del ID de cuenta específica en la sección &quot;Seguimiento&quot; de la pantalla de la cuenta.
 
 **Cadena de seguimiento para campañas:**
 
@@ -98,7 +106,7 @@ A continuación, se muestra la cadena que debe añadirse a la cuenta de Bing. De
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![](assets/Bing.png)
+![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 Ejemplos de códigos de seguimiento en diversos formatos de sufijos finales de URL:
 
@@ -123,7 +131,10 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **Terceros (DoubleClick)`{lpurl}`**
 
-Si la dirección URL se redirecciona sin utilizar un valor “unescapedlpurl”, debe codificar la cadena suficientes veces para que se conserve a través del redireccionamiento hasta la dirección URL de la página de aterrizaje final.
+Para asegurarse de que la cadena se mantiene a través del redireccionamiento a la dirección URL de la página de aterrizaje final, debe codificar la cadena lo suficiente:
+
+* si la dirección URL se redirecciona, y
+* no utiliza un valor &quot;unescapedlpurl&quot;.
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}

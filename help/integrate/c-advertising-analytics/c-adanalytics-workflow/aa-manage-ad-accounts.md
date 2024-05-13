@@ -3,10 +3,10 @@ description: Administre cuentas en Advertising Analytics.
 title: Administrar las cuentas publicitarias
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Para acceder a la IU de administración, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Cuentas publicitarias]**.
 
-![](assets/manage_ad_accounts.png)
+![Cuentas publicitarias](assets/manage_ad_accounts.png)
 
 <table id="table_BE318026CF024E94A885EED86AA7077F"> 
  <thead> 
@@ -30,7 +30,7 @@ Para acceder a la IU de administración, vaya a **[!UICONTROL Administración]**
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Agregue </p> </td> 
-   <td colname="col2"> <p>Lo lleva a la IU <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >Configurar cuenta publicitaria</a>. </p> </td> 
+   <td colname="col2"> <p>Lo lleva a la IU <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >Configurar cuenta publicitaria</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cambiar nombre </p> </td> 
@@ -42,7 +42,7 @@ Para acceder a la IU de administración, vaya a **[!UICONTROL Administración]**
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pausa </p> </td> 
-   <td colname="col2"> <p>Desactiva la cuenta. Para volver a activarla, haga clic en <span class="uicontrol">Activar</span>. </p> </td> 
+   <td colname="col2"> <p>Desactiva la cuenta. Para volver a activarlo, seleccione <span class="uicontrol">Activar</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Encabezamientos de columna</b> </p> </td> 
@@ -58,7 +58,7 @@ Para acceder a la IU de administración, vaya a **[!UICONTROL Administración]**
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tipo </p> </td> 
-   <td colname="col2"> <p>En estos momentos, solo se admite un tipo: Búsqueda. </p> </td> 
+   <td colname="col2"> <p>Solo se admite un tipo: Buscar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cuenta </p> </td> 

@@ -3,28 +3,28 @@ description: Detalles sobre la plantilla de Analysis Workspace y creación de in
 title: Informar sobre datos publicitarios en Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 93%
+source-wordcount: '356'
+ht-degree: 49%
 
 ---
 
-# Informar sobre datos publicitarios en Adobe Analytics
+# Informar sobre datos publicitarios
 
-Detalles sobre la plantilla de Analysis Workspace y creación de informes en Report Builder.
-
->[!NOTE]
->
->Los datos del motor de búsqueda suelen tardar un mínimo de 24 horas en propagarse a los informes de Analytics. Tenga en cuenta también que los informes de Analytics no devolverán datos de la granularidad por hora, ya que los datos de AMO no admiten esta característica.
-
-## Analysis Workspace: Motores de búsqueda {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
-
-Esta plantilla permite a cualquier usuario que implemente esta integración del motor de búsqueda acceder a numerosos datos del motor de búsqueda en Analytics. Puede acceder a ella desde **[!UICONTROL Workspace]** > **[!UICONTROL Plantillas]** > **[!UICONTROL Publicidad]** > **[!UICONTROL Motores de búsqueda.]**
+Este artículo contiene detalles sobre el informe de Analysis Workspace y los informes de Report Builder.
 
 >[!NOTE]
 >
->La categoría de plantilla de publicidad es visible para todos los clientes, aunque no hayan implementado ninguna cuenta publicitaria. Sin embargo, si intenta abrir la plantilla Motores de búsqueda de pago para una empresa que no se ha proporcionado, aparecerá un mensaje de error en el que se explica que todavía no ha configurado ninguna cuenta de motor de búsqueda. En este caso, haga clic en **[!UICONTROL Configurar ahora]**, lo que lo llevará a la pantalla [Configuración de cuenta publicitaria](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
+>Los datos del motor de búsqueda suelen tardar un mínimo de 24 horas en propagarse a los informes de Analytics. Tenga en cuenta también que los informes de Analytics no devuelven datos sobre la granularidad horaria, ya que los datos de Advertising Cloud no admiten esta característica.
+
+## Informe de búsqueda de pago {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
+
+Este informe permite a cualquier usuario que implemente la integración del motor de búsqueda acceder a los datos del motor de búsqueda dentro de Analytics. Puede acceder a ella a través de **[!UICONTROL Workspace]** > **[!UICONTROL Informes]** > **[!UICONTROL Adquisición]** > **[!UICONTROL Advertising Analytics: búsqueda de pago]**
+
+>[!NOTE]
+>
+>El informe Búsqueda de pago es visible para todos los clientes, aunque no hayan implementado ninguna cuenta publicitaria. Si intenta abrir el informe Búsqueda de pago para una empresa que no está aprovisionada, aparecerá un mensaje de error en el que se explica que no ha configurado ninguna cuenta de motor de búsqueda. Seleccionar **[!UICONTROL Configurar ahora]**, que le lleva al [Configuración de cuenta publicitaria](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) pantalla.
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
