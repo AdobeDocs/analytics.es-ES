@@ -4,10 +4,10 @@ description: Las variables de datos de contexto permiten definir variables perso
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 831df50a9c73522493ed60ce5df51192b6933480
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 90%
+source-wordcount: '531'
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ Las variables de datos de contexto son útiles para que los equipos de desarroll
 
 ## Variables de datos de contexto que utilizan el SDK web
 
-Si se usa la variable [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md) Sin embargo, todos los campos que no se asignan a una variable de Adobe Analytics se incluyen automáticamente como variable de datos de contexto. A continuación, puede utilizar [reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) para asignar la variable de datos de contexto a la variable de Analytics deseada.
+Si se usa la variable [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md) Sin embargo, todos los campos que no se asignan a una variable de Adobe Analytics se incluyen automáticamente como variable de datos de contexto. También puede establecer explícitamente datos de contexto mediante el objeto XDM. A continuación, puede utilizar [Reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) para asignar la variable de datos de contexto a la variable de Analytics deseada.  Consulte [Asignación de otros campos XDM a variables de Analytics](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) para obtener más información.
 
 Si se usa la variable [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), todas las variables de datos de contexto residen en `data.__adobe.analytics.contextData` como pares clave-valor:
 
@@ -64,8 +64,8 @@ s.contextData["example_variable"] = "Example value";
 >Las variables de datos de contexto se descartan después de ejecutar las reglas de procesamiento. Si no tiene reglas de procesamiento activas que coloquen valores en variables, esos datos se pierden de forma permanente.
 
 1. Actualice la implementación para establecer los nombres y valores de las variables de datos de contexto.
-2. Inicie sesión en Adobe Analytics y vaya a Administración > Grupos de informes.
-3. Seleccione el grupo de informes correcto y, a continuación, vaya a Editar configuración > General > Reglas de procesamiento.
+2. Inicie sesión en Adobe Analytics y vaya a **[!UICONTROL Administrador]** > **[!UICONTROL Informe]** Suites.
+3. Seleccione el grupo de informes deseado y vaya a **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Reglas de procesamiento]**.
 4. Cree una regla de procesamiento que establezca una variable de Analytics en el valor de la variable de datos de contexto.
 5. Guarde los cambios.
 

@@ -4,16 +4,16 @@ description: Vea qué campos XDM de Edge se asignan automáticamente a variables
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
+source-git-commit: 95c79a3085f87cbc1e28f14993f56feb4582a081
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 68%
+source-wordcount: '1426'
+ht-degree: 71%
 
 ---
 
 # Asignación de variables de objeto XDM a Adobe Analytics
 
-La siguiente tabla muestra las variables XDM que Adobe Experience Platform Edge Network asigna automáticamente a Adobe Analytics. Si utiliza estas rutas de campo XDM, no es necesaria ninguna configuración adicional para enviar datos a Adobe Analytics. Estos campos se incluyen en la variable **[!UICONTROL Plantilla de Adobe Analytics ExperienceEvent]** grupo de campos. Se recomienda utilizar estos campos si tiene intención de enviar datos tanto a Adobe Analytics como a Adobe Experience Platform.
+La siguiente tabla muestra las variables XDM que el Edge Network de Adobe Experience Platform asigna automáticamente a Adobe Analytics. Si utiliza estas rutas de campo XDM, no es necesaria ninguna configuración adicional para enviar datos a Adobe Analytics. Estos campos se incluyen en la variable **[!UICONTROL Plantilla de Adobe Analytics ExperienceEvent]** grupo de campos. Se recomienda utilizar estos campos si tiene intención de enviar datos tanto a Adobe Analytics como a Adobe Experience Platform.
 
 Si su organización planea pasar a Customer Journey Analytics, Adobe recomienda usar en su lugar `data` para enviar datos directamente a Adobe Analytics sin ajustarse a un esquema. Esta estrategia permite a la organización utilizar su propio esquema, en lugar de utilizar el [!UICONTROL Plantilla de Adobe Analytics ExperienceEvent] (que es menos aplicable al Customer Journey Analytics). Consulte [Asignación de variables de objetos de datos a Adobe Analytics](data-var-mapping.md) para una tabla de asignación similar.
 
@@ -27,16 +27,16 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 
 | Ruta de campo XDM | Variable y descripción de Analytics |
 | --- | --- |
-| `xdm.application.isClose` | Ayuda a definir la métrica del ciclo vital móvil [Bloqueos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isInstall` | Ayuda a determinar cuándo aumentar la métrica del ciclo vital móvil [Primeros lanzamientos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isLaunch` | Ayuda a determinar cuándo aumentar la métrica del ciclo vital móvil [Primeros lanzamientos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.closeType` | Determina si un evento de cierre es un bloqueo o no. Los valores válidos incluyen `close` (finaliza la sesión del ciclo vital y se recibió un evento de pausa para la sesión anterior) y `unknown` (una sesión de ciclo vital termina sin un evento de pausa). Ayuda a establecer la métrica de ciclo vital móvil [Bloqueos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) métrica. |
-| `xdm.application.isInstall` | La métrica de ciclo vital móvil [Instala](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isLaunch` | La métrica de ciclo vital móvil [Lanzamientos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.name` | Ayuda a establecer la dimensión de ciclo vital móvil [ID de aplicación](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.isUpgrade` | La métrica de ciclo vital móvil [Actualizaciones](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.version` | Ayuda a establecer la dimensión de ciclo vital móvil [ID de aplicación](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.application.sessionLength` | La métrica de ciclo vital móvil [Duración de la sesión anterior](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.isClose` | Ayuda a definir la métrica del ciclo de vida móvil [Bloqueos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.isInstall` | Ayuda a determinar cuándo aumentar la métrica del ciclo de vida móvil [Primeros lanzamientos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.isLaunch` | Ayuda a determinar cuándo aumentar la métrica del ciclo de vida móvil [Primeros lanzamientos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.closeType` | Determina si un evento de cierre es un bloqueo o no. Los valores válidos incluyen `close` (finaliza la sesión del ciclo vital y se recibió un evento de pausa para la sesión anterior) y `unknown` (una sesión de ciclo vital termina sin un evento de pausa). Ayuda a establecer la métrica del ciclo de vida móvil [Bloqueos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.isInstall` | La métrica del ciclo de vida móvil [Instalaciones](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.isLaunch` | La métrica del ciclo de vida móvil [Lanzamientos](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.name` | Ayuda a establecer el [ID de la aplicación](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) de la dimensión del ciclo de vida móvil. |
+| `xdm.application.isUpgrade` | La métrica del ciclo de vida móvil [Actualizaciones](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.version` | Ayuda a establecer la dimensión del ciclo de vida móvil [ID de aplicación](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.application.sessionLength` | La métrica del ciclo de vida móvil [Duración anterior de la sesión](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.commerce.checkouts.id` | Aplica [serialización de eventos](../vars/page-vars/events/event-serialization.md) a la métrica [Cierres de compra](../../components/metrics/checkouts.md). |
 | `xdm.commerce.checkouts.value` | Aumenta el valor de la métrica [Cierres de compra](../../components/metrics/checkouts.md) por la cantidad deseada. |
 | `xdm.commerce.order.currencyCode` | Establece la variable de configuración [currencyCode](../vars/config-vars/currencycode.md). |
@@ -53,7 +53,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | `xdm.commerce.productViews.id` | Aplica [serialización de eventos](../vars/page-vars/events/event-serialization.md) a la métrica [Vistas del producto](../../components/metrics/product-views.md). |
 | `xdm.commerce.productViews.value` | Aumenta la métrica [Vistas del producto](../../components/metrics/product-views.md). |
 | `xdm.commerce.purchases.value` | Aumenta la métrica [Compras](../../components/metrics/orders.md). |
-| `xdm.device.model` | La dimensión ciclo vital móvil [Nombre del dispositivo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.device.model` | Dimensión del ciclo de vida móvil [Nombre del dispositivo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.device.colorDepth` | Ayuda a establecer la dimensión [Profundidad de color](../../components/dimensions/color-depth.md). |
 | `xdm.device.screenHeight` | Ayuda a establecer la dimensión [Resolución del monitor.](../../components/dimensions/monitor-resolution.md) |
 | `xdm.device.screenWidth` | Ayuda a establecer la dimensión [Resolución del monitor.](../../components/dimensions/monitor-resolution.md) |
@@ -64,20 +64,20 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | `xdm.environment.browserDetails.userAgent` | Se utiliza como método de identificación alternativo [visitante único](../../components/metrics/unique-visitors.md). Normalmente se rellena usando el encabezado de solicitud HTTP `User-Agent`. Puede asignar este campo a una eVar si desea utilizarlo en los informes. |
 | `xdm.environment.browserDetails.viewportHeight` | Establece la dimensión [Altura del explorador](../../components/dimensions/browser-height.md). |
 | `xdm.environment.browserDetails.viewportWidth` | Establece la dimensión [Anchura del explorador](../../components/dimensions/browser-width.md). |
-| `xdm.environment.carrier` | La dimensión ciclo vital móvil [Nombre del operador](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.environment.carrier` | La dimensión del ciclo de vida móvil [Nombre del operador](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.connectionType` | Ayuda a establecer la dimensión [Tipo de conexión](../../components/dimensions/connection-type.md). |
 | `xdm.environment.ipV4` | Se utiliza como método de identificación alternativo [visitante único](../../components/metrics/unique-visitors.md). Normalmente se rellena usando el encabezado HTTP `X-Forwarded-For`. |
 | `xdm.environment.language` | La configuración regional de la dimensión móvil. |
-| `xdm.environment.operatingSystem` | La dimensión ciclo vital móvil [Sistema operativo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `xdm.environment.operatingSystemVersion` | Ayuda a establecer la dimensión de ciclo vital móvil [Versión del sistema operativo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `xdm.environment.operatingSystem` | El [sistema operativo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) de la dimensión del ciclo de vida móvil. |
+| `xdm.environment.operatingSystemVersion` | Ayuda a establecer la dimensión del ciclo de vida móvil [Versión del sistema operativo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Establece la dimensión respectiva [eVar](../../components/dimensions/evar.md). |
 | `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | Establece las dimensiones respectivas [Jerarquía](/help/components/dimensions/hierarchy.md). |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Anulación del delimitador prop de lista. No se recomienda utilizar este campo, ya que el delimitador se recupera automáticamente de la [Administración de variables de tráfico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes. El uso de este campo puede crear una discrepancia entre el delimitador utilizado y el delimitador que Analytics espera. |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Una matriz de cadenas que contiene los valores respectivos [Prop de lista](../vars/page-vars/prop.md#list-props). |
 | `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatena todas las cadenas `value` en cada matriz `list[]` a su respectiva [Variable de lista](../vars/page-vars/list.md). El delimitador se elige automáticamente en función del valor establecido en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). |
 | `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | Establece las dimensiones respectivas [Prop](../../components/dimensions/prop.md). |
-| `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | Aplicable [Serialización de eventos](../vars/page-vars/events/event-serialization.md) a los respectivos [Eventos personalizados](../../components/metrics/custom-events.md) métrica. Cada ID de evento reside en su elemento principal de 100 grupos. Por ejemplo, para aplicar la serialización a `event678`, use `xdm._experience.analytics.event601to700.event678.id`. |
-| `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | Aumenta el respectivo [Eventos personalizados](../../components/metrics/custom-events.md) por la cantidad deseada. Cada evento reside en su elemento principal de 100 grupos. Por ejemplo, el campo de `event567` es `xdm._experience.analytics.event501to600.event567.value`. |
+| `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | Aplica la [serialización de eventos](../vars/page-vars/events/event-serialization.md) a la métrica respectiva [Eventos personalizados](../../components/metrics/custom-events.md). Cada ID de evento reside en su página principal de 100 grupos. Por ejemplo, para aplicar la serialización a `event678`, utilice `xdm._experience.analytics.event601to700.event678.id`. |
+| `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | Incrementa la métrica respectiva [Eventos personalizados](../../components/metrics/custom-events.md) por la cantidad deseada. Cada evento reside en su página principal de 100 grupos. Por ejemplo, el campo de `event567` es `xdm._experience.analytics.event501to600.event567.value`. |
 | `xdm.identityMap.ECID[0].id` | El [Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). |
 | `xdm.marketing.trackingCode` | Establece la dimensión [Código de seguimiento](../../components/dimensions/tracking-code.md). |
 | `xdm.media.mediaTimed.completes.value` | El [contenido completado](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=es#content-complete) de la métrica Media Analytics. |
@@ -143,7 +143,11 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 
 ## Asignación de otros campos XDM a variables de Analytics
 
-Si desea agregar dimensiones o métricas a Adobe Analytics, puede hacerlo mediante [Variables de datos de contexto](../vars/page-vars/contextdata.md). Los elementos de campo XDM que no se asignen automáticamente se envían a Adobe Analytics como datos de contexto con el prefijo a.x. A continuación, puede asignar esta variable de datos de contexto a la variable de Analytics deseada mediante [Reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=es). Por ejemplo, si envía el siguiente evento:
+Si desea agregar dimensiones o métricas a Adobe Analytics, puede hacerlo a través de [Variables de datos de contexto](../vars/page-vars/contextdata.md).
+
+### Asignación implícita
+
+Los elementos de campo XDM que no se asignen automáticamente se envían a Adobe Analytics como datos de contexto con el prefijo `a.x.` A continuación, puede asignar esta variable de datos de contexto a la variable de Analytics deseada mediante [Reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=es). Por ejemplo, si envía el siguiente evento:
 
 ```js
 alloy("event",{
@@ -157,6 +161,28 @@ alloy("event",{
 })
 ```
 
-El SDK web envía esos datos a Adobe Analytics como variable de datos de contexto `a.x._atag.search.term`. A continuación, puede utilizar una regla de procesamiento para asignar el valor de la variable de datos de contexto a la variable de Analytics que desee, como un eVar:
+El SDK web envía esos datos a Adobe Analytics como variable de datos de contexto `a.x._atag.search.term`. A continuación, puede utilizar una regla de procesamiento para asignar el valor de la variable de datos de contexto a la variable de Analytics que desee, como un `eVar`:
 
 ![Regla de procesamiento de términos de búsqueda](assets/examplerule.png)
+
+## Asignación explícita
+
+También puede asignar explícitamente elementos de campo XDM como datos de contexto. Cualquier elemento de campo XDM asignado explícitamente mediante el `contextData` se envía a Adobe Analytics como datos de contexto sin prefijo. A continuación, puede asignar esta variable de datos de contexto a la variable de Analytics deseada mediante [Reglas de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=es). Por ejemplo, si envía el siguiente evento:
+
+```js
+alloy("event",{
+    "xdm":{
+        "_atag":{
+            "analytics": {
+                "contextData" : {
+                    "someValue" : "1"
+                }
+            }
+        }
+    }
+})
+```
+
+El SDK web envía esos datos a Adobe Analytics como variable de datos de contexto `somevalue` con valor `1`.  A continuación, puede utilizar una regla de procesamiento para asignar el valor de la variable de datos de contexto a la variable de Analytics que desee, como un `eVar`:
+
+![Regla de procesamiento de términos de búsqueda](assets/examplerule-explicit.png)
