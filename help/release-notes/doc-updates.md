@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+source-git-commit: e33d5ed955109f01949d95d826d5f7d48b572131
 workflow-type: tm+mt
-source-wordcount: '5448'
+source-wordcount: '5471'
 ht-degree: 97%
 
 ---
@@ -21,11 +21,12 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 ## Detalles sobre las principales actualizaciones de la documentación
 
-### 2024 {#24}
+### 2024 {#year2024}
 
 | Función | Descripción |
 | --- | --- |
 | **Mayo de 2024** | |
+| Asignación explícita de variables de objeto XDM a variables de datos de contexto | Se ha documentado la capacidad en [establecer explícitamente variables de datos de contexto mediante la asignación de variables de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta en función de la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor lo siguiente:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles en función de la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Se ha actualizado la documentación sobre intervalos de fechas personalizados | Capturas de pantalla y procedimientos actualizados relacionados con [crear intervalos de fechas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) para que coincida con las características y el diseño actuales del producto. |
 | **Abril de 2024** | |
@@ -44,7 +45,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Se ha aclarado que cierta información solo está disponible para administradores | Se ha agregado información para indicar que las columnas “Último uso” y “Utilizado en” que se describen en [Administrador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) y [Administrador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md) solo están disponibles para los administradores del sistema. |
 | Actualizaciones en la documentación de público media por minuto de medios | Información actualizada en [Panel de público media por minuto de medios](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) para mejorar la claridad.<p>Las mejoras incluyen:</p> <ul><li>Mejor organización de la información</li><li>Se han añadido pasos para indicar información basada en tareas</li></ul> |
 
-### 2023 {#23}
+### 2023 {#year2023}
 
 | Función | Descripción |
 | --- | --- |
@@ -118,7 +119,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Guardado automático para proyectos | Contenido actualizado para incluir la funcionalidad de guardado automático en [Guardar proyectos](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
 | Página de aterrizaje | Nuevas [actualizaciones de la página de aterrizaje](/help/analyze/landing.md) |
 
-### 2022 {#22}
+### 2022 {#year22}
 
 | Función | Descripción |
 | --- | --- |
@@ -139,13 +140,13 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Sugerencias de cliente de alta entropía | Nuevo tema sobre cómo utiliza Adobe las [sugerencias del cliente](/help/technotes/client-hints.md) además del Agente de usuario para determinar la información sobre dispositivos. |
 | Orden de procesamiento | Se han añadido varias páginas de ayuda para proporcionar un solo tema de ayuda sobre el [Orden de procesamiento](/help/technotes/processing-order.md). |
 | **Agosto de 2022** | |
-| Compatibilidad con variables de lista en XDM para la recopilación de Edge | Permite a los clientes que recopilan datos mediante el SDK web utilizar XDM para especificar el contenido de la variable de lista. [Más información](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) | 18 de agosto de 2022 |
+| Compatibilidad con variables de lista en XDM para la recopilación de Edge | Permite a los clientes que recopilan datos mediante el SDK web utilizar XDM para especificar el contenido de la variable de lista. [Más información](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) |
 | Uso del campo SKU en XDM para la recopilación de Edge al configurar variables de cadena de producto | Permite a los clientes que recopilan datos mediante el SDK web utilizar el valor SKU para establecer el campo de producto en la variable de productos. [Más información](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **Junio de 2022** |  |
 | Variables de comercialización en XDM para la recopilación de Edge | Documentación sobre [Compatibilidad con variables de comercialización en XDM para la recopilación de Edge](/help/components/dimensions/evar-merchandising.md) |
 | Documentación de Experience Platform Edge | Nuevos artículos sobre la implementación de Adobe Analytics mediante [SDK web](/help/implement/aep-edge/web-sdk/overview.md), [SDK móvil](/help/implement/aep-edge/mobile-sdk/overview.md) y [API de Edge](/help/implement/aep-edge/server-api/overview.md). |
 | Documentación de visualización de flujo actualizada | En función de la [nueva interfaz de usuario](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
-| Documentación sobre el uso compartido de anotaciones en informes de valoración móviles | Puede mostrar [anotaciones creadas en Analysis Workspace: en informes de valoración móviles](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
+| Documentación sobre el uso compartido de anotaciones en informes de valoración móviles | Puede mostrar [anotaciones creadas en Workspace en cuadros de resultados móviles](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **Mayo de 2022** | |
 | Rellenado de dimensiones y métricas de Ciclo de vida mediante la red Edge | Los datos del Ciclo de vida móvil enviados mediante la red Edge ahora aparecen en la creación de informes de Analytics. Consulte [Asignación de variables de Analytics](/help/implement/aep-edge/xdm-var-mapping.md) para obtener detalles sobre qué campos XDM se asignan a la creación de informes de ciclo de vida móviles existentes. |
 | **Abril de 2022** | |
@@ -159,12 +160,12 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | [!UICONTROL Elemento siguiente] o [!UICONTROL Elemento anterior] Panel de espacio de trabajo | Este panel le permite explorar elementos que siguen o preceden a un elemento de dimensión de su elección. |
 | [!UICONTROL Resumen de página] Panel de espacio de trabajo | Este panel proporciona un análisis en profundidad para una página de su elección. |
 | Nuevo tema sobre la pausa de informes programados más antiguos | A partir del **15 de abril de 2022**, Adobe se propone poner en pausa todos los informes programados que tengan una fecha de creación mayor de dos años. |
-| **Febrero de 2022** |
+| **Febrero de 2022** | |
 | Modo de vista previa del proyecto del cuadro de resultados móvil | El [modo de vista previa](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=es#preview) permite obtener una vista previa de la experiencia antes de guardar y compartir un cuadro de resultados. |
 | Punto de conexión de proyectos de API | Agregue, edite o elimine proyectos de Analysis Workspace mediante la API. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | Se ha actualizado el tema sobre la pausa de tareas de Report Builder programadas más antiguas | **A partir del 15 de abril de 2022**, Adobe tiene la intención de [poner en pausa todas las tareas de Report Builder programadas que se crearon hace más de dos años](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 
-### 2021 {#21}
+### 2021 {#year2021}
 
 | Función | Descripción |
 | --- | --- |
@@ -200,7 +201,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 14 de enero de 2021 | Se ha añadido documentación sobre cómo puede añadir imágenes a proyectos del Espacio de trabajo haciendo referencia a una URL de imagen pública. |
 | 14 de enero de 2021 | Administrador de fuente y de configuración combinado para visualizaciones del Espacio de trabajo: El administrador de [!UICONTROL fuente de datos] (punto) y el de configuración (engranaje) para visualizaciones se han combinado en una sola ventana emergente, de modo que puede administrar fácilmente el origen y la configuración desde la misma ubicación. |
 
-### 2020 {#20}
+### 2020 {#year2020}
 
 | Función | Descripción |
 | --- | --- |
@@ -267,7 +268,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 13 de enero de 2020 | Se añadieron [Adobe Analytics y las cookies de explorador](/help/technotes/cookies/cookies.md). |
 | 13 de enero de 2020 | Se ha modificado la página [Qué herramienta de Adobe Analytics debo usar](/help/analyze/get-started/which-analytics-tool.md). |
 
-### 2019 {#19}
+### 2019 {#year2019}
 
 | Función | Descripción |
 | --- | --- |
@@ -287,7 +288,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 12 de septiembre de 2019 | Se ha actualizado el documento [Totales de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=es). |
 | 28 de agosto de 2019 | Nuevo artículo sobre [aplicaciones web progresivas (PWA) para Analytics](/help/technotes/pwa.md) |
 | 8 de agosto de 2019 | Nuevo artículo sobre [Totales de métricas calculadas](/help/components/c-calcmetrics/cm-totals.md). |
-| 8 de agosto de 2019 | Aclaración sobre [datos de sesión con marca de tiempo habilitada](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). | 8 de agosto de 2019 | En Workspace, Adobe ha aumentado el límite de elementos que se pueden colocar en un filtro desplegable de 50 a 200. Esta mejora admite una variedad de casos de uso, como agregar todos los países (195) a un filtro, o todos los estados y provincias de EE. UU. (52). |
+| 8 de agosto de 2019 | Aclaración sobre [datos de sesión con marca de tiempo habilitada](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). |
+| 8 de agosto de 2019 | En Workspace, Adobe ha aumentado el límite de elementos que se pueden colocar en un filtro desplegable de 50 a 200. Esta mejora admite una variedad de casos de uso, como agregar todos los países (195) a un filtro, o todos los estados y provincias de EE. UU. (52). |
 | 2 de agosto de 2019 | Actualización principal del [glosario de Analytics](/help/technotes/terms.md). |
 | 22 de julio de 2019 | Magento agregado: Documentación sobre las plantillas de marketing y comerciales para plantillas de [Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | 18 de julio de 2019 | Se ha actualizado la [configuración de las tablas de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |
