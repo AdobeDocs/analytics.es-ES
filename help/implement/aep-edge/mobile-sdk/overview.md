@@ -4,10 +4,10 @@ description: Utilice la extensión del SDK móvil en la recopilación de datos d
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 0121e2f36ea833cc2421c4699ab79e4b3e7a861a
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 97%
+source-wordcount: '487'
+ht-degree: 98%
 
 ---
 
@@ -106,30 +106,24 @@ Una información general de alto nivel de las tareas de implementación:
 
 <tr>
 <td>2</td>
-<td><b>Configuración de esquemas</b>. Para estandarizar la recopilación de datos para su uso en todas las aplicaciones que aprovechan Adobe Experience Platform, Adobe ha creado el estándar abierto y documentado públicamente, Experience Data Model (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es">Resumen de IU de esquemas</a></td>
-</tr>
-
-<tr>
-<td>3</td>
 <td><b>Instale la extensión de Adobe Analytics</b> en la propiedad de etiqueta móvil y configúrela para que apunte al grupo de informes.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/adobe-analytics/">Extensión de Adobe Analytics para la propiedad móvil</a>
 </tr>
 
 <tr>
-<td>4</td>
-<td><b>Use el código de la aplicación</b> para registrar las extensiones necesarias y cargar la configuración de etiquetas.</td>
+<td>3</td>
+<td><b>Use el código en la aplicación</b> para registrar las extensiones necesarias y cargar la configuración de la etiqueta.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Establecimiento de la configuración</a></td>
 </tr>
 
 <tr>
-<td>5</td>
+<td>4</td>
 <td><b>Implemente y pruebe la funcionalidad</b> mediante la combinación de elementos de datos de etiquetas, reglas, extensiones adicionales y llamadas a la API del SDK en su aplicación. Inspeccione, valide y depure la recopilación de datos y experiencias para su aplicación móvil.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Uso de la aplicación de muestra</a>
 </tr>
 
 <tr>
-<td>6</td>
+<td>5</td>
 <td><b>Amplíe y valide la implementación de su aplicación móvil</b> antes de pasarla a producción.</td>
 <td></td> 
 </tr>
