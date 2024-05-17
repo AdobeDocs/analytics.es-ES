@@ -3,7 +3,7 @@ title: Configuración de una cuenta de publicidad en Advertising Analytics
 description: Este artículo explica cómo crear nuevas cuentas publicitarias y asignar varias cuentas a varios grupos de informes.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 31%
@@ -23,7 +23,7 @@ Los administradores también pueden [conceder acceso a los usuarios que no son a
 1. En Adobe Analytics, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Cuentas publicitarias]**.
 1. (Solo la primera vez que se utilice) Acepte los términos del Contrato de licencia de usuario final.
 1. Seleccionar **[!UICONTROL + Agregar]**.
-1. El [!UICONTROL Nueva configuración del motor de búsqueda] El cuadro de diálogo muestra:
+1. El [!UICONTROL Nueva configuración del motor de búsqueda] se muestra.
 
    ![](assets/aa-new-se-account.png)
 
