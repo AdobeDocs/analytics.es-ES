@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Administrador de ubicaciones
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 7b293c962428c7b8fac62a9f70ce62a0fe8f0cea
+source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -73,13 +73,15 @@ Para obtener información sobre cómo editar una ubicación, consulte [Configura
 >
 >Si elimina una ubicación, debería [editar las fuentes de datos](/help/export/analytics-data-feed/create-feed.md), [informes de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), y [Esquemas de conjuntos de clasificaciones](/help/components/classifications/sets/manage/schema.md) para utilizar una ubicación en funcionamiento.
 
-Para eliminar una ubicación:
+Para eliminar una ubicación en el Administrador de ubicaciones en Adobe Analytics:
+
+1. Seleccionar **[!UICONTROL Componentes]** > **[!UICONTROL Ubicaciones]**, luego seleccione la [!UICONTROL **Ubicaciones**] pestaña.
 
 1. Seleccione el menú de 3 puntos en la [!UICONTROL **Nombre de ubicación**] para la ubicación que desea eliminar.
 
 1. Seleccione [!UICONTROL **Eliminar**].
 
-## Editar cuentas
+## Editar una cuenta
 
 1. Para editar cuentas en el Administrador de ubicaciones en Adobe Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Ubicaciones]**, luego seleccione la [!UICONTROL **Cuentas de ubicación**] pestaña.
 
@@ -100,7 +102,7 @@ Para ver las claves asociadas a una cuenta de exportación:
 
 1. Seleccione el icono de 3 puntos en la cuenta que desee editar y, a continuación, seleccione [!UICONTROL **Claves de cuenta**].
 
-## Eliminar cuentas
+## Eliminación de una cuenta
 
 1. En Adobe Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Ubicaciones]**, luego seleccione la [!UICONTROL **Cuentas de ubicación**] pestaña.
 
