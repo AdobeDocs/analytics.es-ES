@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configuración de cuentas de importación y exportación de nube
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 888f7bef389f113538f0e62ab0098d9e809a905e
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 56%
+source-wordcount: '1205'
+ht-degree: 61%
 
 ---
 
@@ -23,21 +23,15 @@ Puede configurar una cuenta de nube que se utilice para uno o todos los fines si
 
 Debe configurar Adobe Analytics con la información necesaria para acceder a su cuenta de la nube. Este proceso consiste en agregar y configurar la cuenta (como el ARN de la función de Amazon S3, Google Cloud Platform, etc.) tal como se describe en este artículo y, a continuación, agregar y configurar la ubicación dentro de esa cuenta (como una carpeta dentro de la cuenta) tal como se describe en [Configurar ubicaciones de importación y exportación de la nube](/help/components/locations/configure-import-locations.md).
 
+Para obtener información sobre cómo administrar cuentas existentes, como ver, editar y eliminar cuentas, consulte [Administrador de ubicaciones](/help/components/locations/locations-manager.md).
+
 Para configurar una cuenta de importación o exportación de nube:
 
 1. En Adobe Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Ubicaciones**].
 1. En el [!UICONTROL Ubicaciones] , seleccione la [!UICONTROL **Cuentas de ubicación**] pestaña.
-1. Para crear una nueva cuenta, seleccione [!UICONTROL **Añadir cuenta**].
+1. Seleccionar [!UICONTROL **Añadir cuenta**].
 
    Se muestra el cuadro de diálogo Agregar cuenta.
-
-   O
-
-   Para editar una cuenta existente, seleccione [!UICONTROL **Ver detalles**] en el mosaico que muestra la cuenta que desea editar.
-Se muestra el cuadro de diálogo Ubicación.
-
-   Se muestra el cuadro de diálogo Detalles de cuenta de ubicación
-
 
 1. Especifique la siguiente información: |Campo | Función | |---------|----------| | [!UICONTROL **Nombre de cuenta de ubicación**] | El nombre de la cuenta de ubicación. Este nombre aparece al crear una ubicación | | [!UICONTROL **Descripción de cuenta de ubicación**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. | | [!UICONTROL **Tipo de cuenta**] | Seleccione el tipo de cuenta en la nube. Recomendamos tener una sola cuenta para cada tipo de cuenta, con varias ubicaciones según sea necesario dentro de esa cuenta. |
 1. En el [!UICONTROL **Propiedades de cuenta**] , especifique la información específica del tipo de cuenta que ha seleccionado.

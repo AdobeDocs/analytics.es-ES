@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar ubicaciones de importación y exportación de la nube
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 5bf6ed9b71a87d79fec960b6618667238019ac7f
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 31%
+source-wordcount: '1450'
+ht-degree: 37%
 
 ---
 
@@ -23,16 +23,15 @@ Puede configurar una cuenta de la nube (y una ubicación en esa cuenta). Una sol
 
 Debe configurar Adobe Analytics con la información necesaria para acceder a su cuenta de Cloud. Este proceso consiste en añadir y configurar la cuenta (como ARN de la función de Amazon S3, Google Cloud Platform, etc.) tal como se describe en [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md)y, a continuación, agregue y configure la ubicación dentro de esa cuenta (tal como se describe en este artículo).
 
-## Empezar a crear o editar una ubicación de exportación de nube
+Para obtener información sobre cómo administrar ubicaciones existentes, incluida la visualización, edición y eliminación de ubicaciones, consulte [Administrador de ubicaciones](/help/components/locations/locations-manager.md).
+
+## Comience a crear una ubicación de exportación de nube
 
 1. En Adobe Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Ubicaciones**].
 1. En el [!UICONTROL Ubicaciones] , seleccione la [!UICONTROL **Ubicaciones**] pestaña.
-1. Para crear una nueva ubicación, seleccione [!UICONTROL **Añadir ubicación**]. (Si aún no ha agregado una cuenta, agréguela tal como se describe en [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md).)
+1. Seleccionar [!UICONTROL **Añadir ubicación**]. (Si aún no ha agregado una cuenta, agréguela tal como se describe en [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md).)
 
-   O
-
-   Para editar una ubicación existente, seleccione el menú de 3 puntos en la [!UICONTROL **Nombre de ubicación**] para la ubicación que desea editar, seleccione. [!UICONTROL **Editar**].
-Se muestra el cuadro de diálogo Ubicación.
+   Se muestra el cuadro de diálogo Ubicación.
 
 1. Especifique la siguiente información: |Campo | Función | |---------|----------| | [!UICONTROL **Nombre**] | El nombre de la ubicación.  |
 | [!UICONTROL **Descripción**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. | | [!UICONTROL **Uso con**] | Seleccione si desea utilizar esta ubicación con [!UICONTROL **Fuentes de datos**], [!UICONTROL **Data Warehouse**], o [!UICONTROL **Conjuntos de clasificaciones**]. <p>Tenga en cuenta lo siguiente al realizar una selección:</p><ul><li>Una sola ubicación no se puede usar con varios fines. Por ejemplo, una ubicación que se usa para fuentes de datos no se puede usar también para conjuntos de Datas Warehouse o clasificaciones.</li><li>Para evitar conflictos de archivos dentro de una ubicación, no cambie el valor del [!UICONTROL **Uso con**] después de utilizar la ubicación.</li></ul> | | [!UICONTROL **Cuenta de ubicación**] | Seleccione la cuenta de ubicación donde desea crear esta ubicación. Para obtener información sobre cómo crear una cuenta, consulte [Agregar una cuenta](#add-an-account). |
@@ -51,7 +50,7 @@ Para configurar una ubicación ARN de la función Amazon S3, especifique la sigu
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Nombre del bloque**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por el Adobe tiene el `S3:PutObject` para cargar archivos en este bloque. </p><p>Los nombres de los contenedores deben cumplir reglas de nomenclatura específicas. Por ejemplo, deben tener entre 3 y 63 caracteres, solo pueden contener letras minúsculas, números, puntos (.) y guiones (-), y deben comenzar y terminar con una letra o un número. [En la documentación de AWS encontrará una lista completa de las reglas de nomenclatura](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Nombre del bloque**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por el Adobe tiene el `S3:PutObject` para cargar archivos en este bloque. </p><p>Los nombres de bloques deben cumplir reglas de nomenclatura específicas. Los nombres bloques deben tener entre 3 y 63 caracteres de longitud, solo pueden constar de letras minúsculas, números, puntos (.) y guiones (-), y deben empezar y terminar con una letra o un número. [En la documentación de AWS encontrará una lista completa de las reglas de nomenclatura](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Prefijo de clave**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
 
    {style="table-layout:auto"}

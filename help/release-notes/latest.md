@@ -3,16 +3,16 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 97a63c42a121204e043d308525518d16e44b21f9
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 46%
+source-wordcount: '1139'
+ht-degree: 40%
 
 ---
 
 # Notas de la versión actuales de Adobe Analytics (mayo de 2024)
 
-**Última actualización:** jueves, 15 de mayo de 2024
+**Última actualización:** miércoles, 21 de mayo de 2024
 
 Estas notas de la versión abarcan el periodo de lanzamiento del 15 de mayo de 2024 a junio. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -25,6 +25,8 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 15 de mayo de 2
 | **API de Analytics Real-time Reporting 2.0** | La nueva API de informes en tiempo real 2.0 de Adobe Analytics mejora la integración de los clientes y proporciona resultados de informes rápidos. Estos resultados se pueden utilizar mediante programación para trabajar con informes básicos, de tendencias y de desglose. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/real-time/) | | viernes, 30 de mayo de 2024 |
 | **Medios de streaming: envíe datos web al Edge Network de Adobe Experience Platform con el SDK web** | Ahora puede utilizar el SDK web de Adobe Experience Platform para enviar datos web de medios de streaming a Adobe Experience Platform Edge Network. Esta mejora le permite crear campañas más personalizadas y proporcionar contenido más personalizado, lo que da como resultado más datos de seguimiento sobre los que informar.<p>Este cambio proporciona un método de recopilación unificado para implementaciones web en todas las soluciones de Platform, como Customer Journey Analytics, CDP en tiempo real de Adobe, Adobe Journey Optimizer y reenvío de eventos. Anteriormente, la única manera de enviar datos web de medios de streaming a Edge Network era mediante la API de Media Edge. [Más información próximamente] | | 31 de mayo de 2024 |
 | **Aumento de los umbrales de bajo tráfico predeterminados** | A **mediados de abril de 2024**, Adobe empezará a aumentar los umbrales de bajo tráfico predeterminados del grupo de informes de la siguiente manera: ![umbrales de bajo tráfico](assets/thresholds.png) Esto afectará únicamente a las variables que actualmente están configuradas por debajo de los nuevos umbrales. Estos cambios se introducirán gradualmente y esperamos que el trabajo esté terminado a **finales de mayo**. A medida que se vayan aplicando estos incrementos, es posible que note cambios en las variables de alta cardinalidad:<ul><li>Puede haber más valores de dimensión disponibles para la creación de informes.</li><li>Los segmentos y las métricas calculadas pueden incluir más datos.</li><li>Los conjuntos de informes virtuales basados en segmentos pueden incluir más datos.</li><li>Las exportaciones de clasificación pueden incluir más datos.</li></ul> | Mediados de abril de 2024 | 31 de mayo de 2024 |
+| **Configuración del administrador para controlar las cuentas y ubicaciones que se utilizan para la exportación e importación** | Una nueva pestaña &quot;Configuración de administración&quot; en el Administrador de ubicaciones permite a los administradores controlar si los usuarios pueden crear y editar cuentas y ubicaciones. Esta configuración se aplica cuando los usuarios configuran cuentas de importación y exportación de la nube y configuran ubicaciones de importación y exportación de la nube. <p>Los administradores también pueden limitar los tipos de cuentas (Google Cloud Platform, Azure RBAC, Amazon S3, etc.) que los usuarios pueden crear y utilizar.</p><p>Anteriormente, cualquier usuario podía crear, editar y utilizar cuentas y ubicaciones para cualquier tipo de cuenta.</p> | Junio de 2024 | Junio de 2024 |
+| **Compartir cuentas y ubicaciones que se utilizan para exportar e importar** | Los usuarios ahora pueden poner las cuentas y ubicaciones que crean a disposición de todos los usuarios de su organización. Solo los propietarios de cuentas y ubicaciones y los administradores del sistema pueden editar y eliminar cuentas y ubicaciones.<p>Anteriormente, las cuentas y ubicaciones solo las podía usar el usuario que las creaba.</p><p>Esta configuración está disponible cuando los usuarios [configuración de cuentas de importación y exportación de cloud](/help/components/locations/configure-import-accounts.md) y [configuración de ubicaciones de importación y exportación de cloud](/help/components/locations/configure-import-locations.md). </p> | Junio de 2024 | Junio de 2024 |
 | **Activity Map para utilizar menos llamadas al servidor para el SDK web** | Actualmente, los eventos de vínculo de Activity Map se cuentan como eventos propios e incurren en un coste adicional. Esta mejora toma algunos eventos de vínculo y los empaqueta en la siguiente visita, de forma similar a como el AppMeasurement gestiona los eventos. (Más documentación próximamente) | La versión beta comienza el 31 de mayo de 2024 | Por determinar |
 
 {style="table-layout:auto"}
