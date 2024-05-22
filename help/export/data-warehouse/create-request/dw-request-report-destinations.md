@@ -3,10 +3,10 @@ description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración del destino de un informe para una solicitud de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
-workflow-type: ht
-source-wordcount: '2584'
-ht-degree: 100%
+source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
+workflow-type: tm+mt
+source-wordcount: '2615'
+ht-degree: 97%
 
 ---
 
@@ -89,7 +89,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Correo electrónico
 
@@ -163,7 +163,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -171,12 +171,12 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       | Campo | Función |
       |---------|----------|
-      | [!UICONTROL **Nombre de bloque**] | El bloque de su cuenta de GCP al que desea enviar los datos de Adobe Analytics. <p>Asegúrese de que ha concedido cualquiera de los siguientes permisos al principal proporcionado por Adobe:<ul><li>`roles/storage.objectCreator`: utilice este permiso si desea limitar el principal para que solo cree archivos en la cuenta de GCP. </br>**Importante:** si utiliza este permiso con informes programados, debe utilizar un nombre de archivo único para cada nueva exportación programada. De lo contrario, la generación del informe no se realizará porque el principal no tiene acceso para sobrescribir los archivos existentes.</li><li>`roles/storage.objectUser`: utilice este permiso si desea que el principal tenga acceso para ver, enumerar, actualizar y eliminar archivos de su cuenta de GCP.</br>Este permiso permite al principal sobrescribir los archivos existentes para cargas posteriores, sin necesidad de generar automáticamente nombres de archivo únicos para cada nueva exportación programada.</li></ul><p>Para obtener información sobre la concesión de permisos, consulte [Adición de un principal a una política de nivel de bloque](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) en la documentación de Google Cloud.</p> |
-      | [!UICONTROL **Prefijo clave**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
+      | [!UICONTROL **Nombre de bloque**] | El bloque de su cuenta de GCP al que desea enviar los datos de Adobe Analytics. <p>Asegúrese de que ha concedido cualquiera de los siguientes permisos al principal proporcionado por el Adobe: (Para obtener información sobre la concesión de permisos, consulte [Añadir un principal a una política de nivel de bloque](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) en la documentación de Google Cloud).<ul><li>`roles/storage.objectCreator`: utilice este permiso si desea limitar el principal para que solo cree archivos en la cuenta de GCP. </br>**Importante:** si utiliza este permiso con informes programados, debe utilizar un nombre de archivo único para cada nueva exportación programada. De lo contrario, la generación del informe no se realizará porque el principal no tiene acceso para sobrescribir los archivos existentes.</li><li>`roles/storage.objectUser`: utilice este permiso si desea que el principal tenga acceso para ver, enumerar, actualizar y eliminar archivos de su cuenta de GCP.</br>Este permiso permite al principal sobrescribir los archivos existentes para cargas posteriores, sin necesidad de generar automáticamente nombres de archivo únicos para cada nueva exportación programada.</li></ul><p>Si su organización utiliza [Restricciones de política de organización](https://cloud.google.com/storage/docs/org-policy-constraints) para permitir solo la cuenta de Google Cloud Platform en la lista de permitidos, necesita el siguiente ID de organización de Google Cloud Platform, propiedad del Adobe: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
+      | [!UICONTROL **Prefijo de clave**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +189,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +203,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Siga configurando la solicitud de Data Warehouse en la pestaña [!UICONTROL **Opciones de informe**]. Para obtener más información, consulte [Configuración de las opciones de un informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 

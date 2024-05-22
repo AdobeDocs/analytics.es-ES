@@ -3,10 +3,10 @@ title: Crear una fuente de datos
 description: Obtenga información sobre cómo crear una fuente de datos.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
+source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
 workflow-type: tm+mt
-source-wordcount: '4043'
-ht-degree: 42%
+source-wordcount: '4074'
+ht-degree: 52%
 
 ---
 
@@ -95,11 +95,11 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
 
          Cualquier cuenta de nube que se haya configurado en cualquiera de las siguientes áreas de Adobe Analytics está disponible para usar:
 
-         * Al importar datos de clasificación de Adobe Analytics, como se describe en [Esquema](/help/components/classifications/sets/manage/schema.md).
+         * Al importar datos de clasificación de Adobe Analytics, tal como se describe en [Esquema](/help/components/classifications/sets/manage/schema.md).
 
            Sin embargo, no se puede utilizar ninguna ubicación configurada para importar datos de clasificación. En su lugar, añada un nuevo destino tal como se describe a continuación.
 
-         * Al configurar cuentas y ubicaciones en el área Ubicaciones, tal como se describe en [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md) y [Configurar ubicaciones de importación y exportación de la nube](/help/components/locations/configure-import-locations.md).
+         * Al configurar cuentas y ubicaciones en el área Ubicaciones, tal como se describe en [Configuración de cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y [Configuración de ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md).
 
       1. Seleccione la ubicación en la [!UICONTROL **Seleccionar ubicación**] menú desplegable.
 
@@ -126,7 +126,7 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
          |---------|----------|
          | [!UICONTROL **Nombre**] | Un nombre para la cuenta. |
          | [!UICONTROL **Descripción**] | Una descripción de la cuenta. |
-         | [!UICONTROL **Cubo**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por Adobe tiene el permiso `S3:PutObject` para cargar archivos en este bloque. Este permiso permite al ARN del usuario cargar archivos iniciales y sobrescribir archivos para cargas posteriores.</p><p>Los nombres de los contenedores deben cumplir reglas de nomenclatura específicas. Por ejemplo, deben tener entre 3 y 63 caracteres, solo pueden contener letras minúsculas, números, puntos (.) y guiones (-), y deben comenzar y terminar con una letra o un número. [En la documentación de AWS encontrará una lista completa de las reglas de nomenclatura](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+         | [!UICONTROL **Cubo**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por Adobe tiene el permiso `S3:PutObject` para cargar archivos en este bloque. Este permiso permite al ARN del usuario cargar archivos iniciales y sobrescribir archivos para cargas posteriores.</p><p>Los nombres de bloques deben cumplir reglas de nomenclatura específicas. Los nombres bloques deben tener entre 3 y 63 caracteres de longitud, solo pueden constar de letras minúsculas, números, puntos (.) y guiones (-), y deben empezar y terminar con una letra o un número. [En la documentación de AWS encontrará una lista completa de las reglas de nomenclatura](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
          | [!UICONTROL **Prefijo**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
 
          {style="table-layout:auto"}
@@ -165,13 +165,13 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
 
       1. Seleccione la cuenta del menú desplegable [!UICONTROL **Seleccionar cuenta**].
 
-      Cualquier cuenta de nube que haya configurado en cualquiera de las siguientes áreas de Adobe Analytics está disponible para usar:
+      Puede utilizar cualquier cuenta en la nube que haya configurado en cualquiera de las siguientes áreas de Adobe Analytics:
 
-      * Al importar datos de clasificación de Adobe Analytics, como se describe en [Esquema](/help/components/classifications/sets/manage/schema.md).
+      * Al importar datos de clasificación de Adobe Analytics, tal como se describe en [Esquema](/help/components/classifications/sets/manage/schema.md).
 
         Sin embargo, no se puede utilizar ninguna ubicación configurada para importar datos de clasificación. En su lugar, añada un nuevo destino tal como se describe a continuación.
 
-      * Al configurar cuentas y ubicaciones en el área Ubicaciones, tal como se describe en [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md) y [Configurar ubicaciones de importación y exportación de la nube](/help/components/locations/configure-import-locations.md).
+      * Al configurar cuentas y ubicaciones en el área Ubicaciones, tal como se describe en [Configuración de cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y [Configuración de ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md).
 
       1. Seleccione la ubicación en la [!UICONTROL **Seleccionar ubicación**] menú desplegable.
 
@@ -239,13 +239,13 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
 
       1. Seleccione la cuenta del menú desplegable [!UICONTROL **Seleccionar cuenta**].
 
-         Cualquier cuenta de nube que haya configurado en cualquiera de las siguientes áreas de Adobe Analytics está disponible para usar:
+         Puede utilizar cualquier cuenta en la nube que haya configurado en cualquiera de las siguientes áreas de Adobe Analytics:
 
-         * Al importar datos de clasificación de Adobe Analytics, como se describe en [Esquema](/help/components/classifications/sets/manage/schema.md).
+         * Al importar datos de clasificación de Adobe Analytics, tal como se describe en [Esquema](/help/components/classifications/sets/manage/schema.md).
 
            Sin embargo, no se puede utilizar ninguna ubicación configurada para importar datos de clasificación. En su lugar, añada un nuevo destino tal como se describe a continuación.
 
-         * Al configurar cuentas y ubicaciones en el área Ubicaciones, tal como se describe en [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md) y [Configurar ubicaciones de importación y exportación de la nube](/help/components/locations/configure-import-locations.md).
+         * Al configurar cuentas y ubicaciones en el área Ubicaciones, tal como se describe en [Configuración de cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y [Configuración de ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md).
 
       1. Seleccione la ubicación en la [!UICONTROL **Seleccionar ubicación**] menú desplegable.
 
@@ -263,7 +263,7 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
          | [!UICONTROL **Descripción de la cuenta**] | Descripción de la cuenta SAS de Azure. Esta descripción se muestra en la [!UICONTROL **Seleccionar cuenta**] y puede ser cualquier nombre que elija. |
          | [!UICONTROL **ID de aplicación**] | Copie este ID de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Información general** dentro de la aplicación. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **ID de inquilino**] | Copie este ID de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Información general** dentro de la aplicación. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **URI de almacén de claves**] | <p>Ruta al URI de SAS en Azure Key Vault.  Para configurar Azure SAS, debe almacenar un URI de SAS como secreto mediante Azure Key Vault. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Una vez creado el URI del almacén de claves:<ul><li>Añada una directiva de acceso en el almacén de claves para poder conceder permiso a la aplicación de Azure que ha creado.</li><li>Asegúrese de que al ID de aplicación se le haya concedido la `Key Vault Certificate User` función integrada para acceder al URI de almacén de claves.</br><p>Para obtener más información, consulte [Funciones integradas de Azure](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo asignar una directiva de acceso de Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+         | [!UICONTROL **URI de almacén de claves**] | <p>La ruta al URI de SAS en Azure Key Vault.  Para configurar Azure SAS, debe almacenar un URI de SAS como un secreto mediante Azure Key Vault. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Una vez creado el URI del almacén de claves:<ul><li>Añada una directiva de acceso en el almacén de claves para poder conceder permiso a la aplicación de Azure que ha creado.</li><li>Asegúrese de que al ID de aplicación se le haya concedido la `Key Vault Certificate User` función integrada para acceder al URI de almacén de claves.</br><p>Para obtener más información, consulte [Funciones integradas de Azure](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul><p>Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo asignar una directiva de acceso de Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
          | [!UICONTROL **Nombre secreto del almacén de claves**] | El nombre secreto que creó al añadir el secreto a Azure Key Vault. En Microsoft Azure, esta información se encuentra en el almacén de claves que ha creado, en las páginas de configuración del **Almacén de claves**. Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
          | [!UICONTROL **Secreto**] | Copie el secreto de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Certificados y secretos** dentro de la aplicación. Para obtener más información, consulte la [Documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
@@ -276,7 +276,7 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
          | [!UICONTROL **Nombre**] | Un nombre para la ubicación. Este nombre se muestra en la variable [!UICONTROL **Seleccionar ubicación**] y puede ser cualquier nombre que elija. |
          | [!UICONTROL **Descripción**] | Una descripción de la ubicación. Esta descripción se muestra en la [!UICONTROL **Seleccionar ubicación**] y puede ser cualquier nombre que elija. |
          | [!UICONTROL **Contenedor**] | El contenedor de la cuenta que especificó dónde desea que se envíen los datos de Adobe Analytics. |
-         | [!UICONTROL **Prefijo**] | La carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/`<p>Asegúrese de que el almacén de URI de SAS especificado en el campo Nombre secreto de Key Vault al configurar la cuenta SAS de Azure tenga el valor `Write` permiso. Esto permite al URI de SAS crear archivos en el contenedor de Azure. <p>Si desea que el URI de SAS sobrescriba también los archivos, asegúrese de que el almacén de URI de SAS tiene el `Delete` permiso.</p><p>Para obtener más información, consulte [Recursos de almacenamiento de blob](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) en la documentación de almacenamiento de Azure Blob.</p> |
+         | [!UICONTROL **Prefijo**] | La carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/`<p>Asegúrese de que el almacén de URI de SAS que especificó en el campo de nombre secreto del almacén de claves al configurar la cuenta SAS de Azure tenga el permiso `Write`. Esto permite que el URI de SAS cree archivos en el contenedor de Azure. <p>Si desea que el URI de SAS sobrescriba también los archivos, asegúrese de que el almacén de URI de SAS tenga el permiso `Delete`.</p><p>Para obtener más información, consulte [Recursos de almacenamiento de blob](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) en la documentación de almacenamiento de Azure Blob.</p> |
 
          {style="table-layout:auto"}
 
@@ -312,13 +312,13 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
 
       1. Seleccione la cuenta del menú desplegable [!UICONTROL **Seleccionar cuenta**].
 
-         Cualquier cuenta de nube que haya configurado en cualquiera de las siguientes áreas de Adobe Analytics está disponible para usar:
+         Puede utilizar cualquier cuenta en la nube que haya configurado en cualquiera de las siguientes áreas de Adobe Analytics:
 
-         * Al importar datos de clasificación de Adobe Analytics, como se describe en [Esquema](/help/components/classifications/sets/manage/schema.md).
+         * Al importar datos de clasificación de Adobe Analytics, tal como se describe en [Esquema](/help/components/classifications/sets/manage/schema.md).
 
            Sin embargo, no se puede utilizar ninguna ubicación configurada para importar datos de clasificación. En su lugar, añada un nuevo destino tal como se describe a continuación.
 
-         * Al configurar cuentas y ubicaciones en el área Ubicaciones, tal como se describe en [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md) y [Configurar ubicaciones de importación y exportación de la nube](/help/components/locations/configure-import-locations.md).
+         * Al configurar cuentas y ubicaciones en el área Ubicaciones, tal como se describe en [Configuración de cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y [Configuración de ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md).
 
       1. Seleccione la ubicación en la [!UICONTROL **Seleccionar ubicación**] menú desplegable.
 
@@ -345,7 +345,7 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
          | [!UICONTROL **Principal**] | El principal lo proporciona el Adobe. Debe conceder permiso para recibir fuentes a esta entidad de seguridad. |
          | [!UICONTROL **Nombre**] | Un nombre para la cuenta. |
          | [!UICONTROL **Descripción**] | Una descripción de la cuenta. |
-         | [!UICONTROL **Cubo**] | El bloque de su cuenta de GCP al que desea enviar los datos de Adobe Analytics. <p>Asegúrese de que ha concedido cualquiera de los siguientes permisos al principal proporcionado por Adobe:<ul><li>`roles/storage.objectCreator`: utilice este permiso si desea limitar el principal para que solo cree archivos en la cuenta de GCP. </br>**Importante:** si utiliza este permiso con informes programados, debe utilizar un nombre de archivo único para cada nueva exportación programada. De lo contrario, la generación del informe no se realizará porque el principal no tiene acceso para sobrescribir los archivos existentes.</li><li>(Recomendado) `roles/storage.objectUser`: utilice este permiso si desea que la entidad de seguridad tenga acceso para ver, enumerar, actualizar y eliminar archivos de su cuenta de GCP.</br>Este permiso permite al principal sobrescribir los archivos existentes para cargas posteriores, sin necesidad de generar automáticamente nombres de archivo únicos para cada nueva exportación programada.</li></ul><p>Para obtener información sobre la concesión de permisos, consulte [Adición de un principal a una política de nivel de bloque](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) en la documentación de Google Cloud.</p> |
+         | [!UICONTROL **Cubo**] | El bloque de su cuenta de GCP al que desea enviar los datos de Adobe Analytics. <p>Asegúrese de que ha concedido cualquiera de los siguientes permisos al principal proporcionado por el Adobe: (Para obtener información sobre la concesión de permisos, consulte [Añadir un principal a una política de nivel de bloque](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) en la documentación de Google Cloud).<ul><li>`roles/storage.objectCreator`: utilice este permiso si desea limitar el principal para que solo cree archivos en la cuenta de GCP. </br>**Importante:** si utiliza este permiso con informes programados, debe utilizar un nombre de archivo único para cada nueva exportación programada. De lo contrario, la generación del informe no se realizará porque el principal no tiene acceso para sobrescribir los archivos existentes.</li><li>(Recomendado) `roles/storage.objectUser`: utilice este permiso si desea que la entidad de seguridad tenga acceso para ver, enumerar, actualizar y eliminar archivos de su cuenta de GCP.</br>Este permiso permite al principal sobrescribir los archivos existentes para cargas posteriores, sin necesidad de generar automáticamente nombres de archivo únicos para cada nueva exportación programada.</li></ul><p>Si su organización utiliza [Restricciones de política de organización](https://cloud.google.com/storage/docs/org-policy-constraints) para permitir solo la cuenta de Google Cloud Platform en la lista de permitidos, necesita el siguiente ID de organización de Google Cloud Platform, propiedad del Adobe: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
          | [!UICONTROL **Prefijo**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
 
          {style="table-layout:auto"}
