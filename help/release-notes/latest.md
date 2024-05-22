@@ -3,16 +3,16 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9821150194e6bc89a5a2dec15a7957aaa177948e
+source-git-commit: 49e7e64254a6466af852ee6dd48c7b37a15c744c
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 41%
+source-wordcount: '1150'
+ht-degree: 39%
 
 ---
 
 # Notas de la versión actuales de Adobe Analytics (mayo de 2024)
 
-**Última actualización:** miércoles, 21 de mayo de 2024
+**Última actualización:** jueves, 22 de mayo de 2024
 
 Estas notas de la versión abarcan el periodo de lanzamiento del 15 de mayo de 2024 a junio. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -48,8 +48,8 @@ AN-327749; AN-332949; AN-342881; AN-343171; AN-343708; AN-344034; AN-345559; AN-
 
 | Aviso | Fecha de incorporación o actualización | Descripción |
 | ----------- | ---------- | ---------- |
+| **13 meses de caducidad de`cust_visids`** guardado | jueves, 22 de mayo de 2024 | Próxima versión del motor de procesamiento de visitas de Analytics, **previsto para julio de 2024**, empezará a aplicar una caducidad de guardado de 13 meses `cust_visids`. Si el conjunto de informes tiene activada la opción &quot;Habilitar identificación de visitantes entre dispositivos&quot;, este ajuste se utiliza para encontrar `cust_visid` para un `visid_high/visid_low value` sin ningún `cust_visid` en la visita. Actualmente, no hay caducidad de la asignación de un `cust_visid` para un `visid_high/visid_low`. Con esta versión, si han transcurrido 13 meses o más desde `visid_high/visid_low` ha tenido un `cust_visid` en una visita, la asignación caduca. |
 | **Actualizaciones de región ISO** | sábado, 10 de mayo de 2024 | Adobe realizará actualizaciones de la zona ISO 2024 el sábado, 07 de junio de 2024. Es de esperar que se produzcan pequeñas actualizaciones de la información geográfica (región) tras este lanzamiento. |
-| **13 meses de caducidad de`cust_visids`** guardado | 20 de marzo de 2024 | Una próxima versión del motor de procesamiento de la visita de análisis, prevista para abril o mayo, empezará a aplicar una caducidad de 13 meses de `cust_visids` guardado. Si el conjunto de informes tiene activada la opción &quot;Habilitar identificación de visitantes entre dispositivos&quot;, este ajuste se utiliza para encontrar `cust_visid` para un `visid_high/visid_low value` sin ningún `cust_visid` en la visita. Actualmente, no hay caducidad de la asignación de un `cust_visid` para un `visid_high/visid_low`. Con esta versión, si han transcurrido 13 meses o más desde `visid_high/visid_low` ha tenido un `cust_visid` en una visita, la asignación caduca. |
 
 {style="table-layout:auto"}
 
