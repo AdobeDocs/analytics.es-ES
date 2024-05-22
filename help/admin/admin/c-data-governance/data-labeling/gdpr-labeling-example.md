@@ -4,10 +4,10 @@ title: Ejemplos de etiquetado
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 99%
+source-wordcount: '932'
+ht-degree: 78%
 
 ---
 
@@ -35,12 +35,14 @@ Suponga que dispone de los siguientes datos de visita:
 
 ## Muestra de solicitud de acceso {#access}
 
-Si envío una solicitud de acceso, el archivo de resumen contiene los valores indicados en la tabla a continuación. Una solicitud puede contener únicamente un archivo de dispositivo, solo un archivo de persona o uno de cada. Solo se devuelven dos archivos de resumen si se utiliza un ID de persona y expandIDs es “true”.
+Si envía una solicitud de acceso, recibirá dos archivos que puede devolver al interesado. Un archivo CSV contiene una fila por cada visita recibida para el interesado y una columna para cada variable con la etiqueta de acceso adecuada. El otro archivo es un archivo de HTML de resumen que enumera cada variable, seguida de todos los valores únicos vistos para esa variable para el sujeto de los datos y el número de veces que se vio cada valor único.
+
+Para nuestro ejemplo, el archivo de resumen contiene los valores indicados en la tabla a continuación. Una solicitud puede contener únicamente un archivo de dispositivo, solo un archivo de persona o uno de cada. Solo se devuelven dos archivos de resumen si se utiliza un ID de persona y `expandIds` es verdadero.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">Valores de API</th>
-    <th rowspan="2">Tipo de archivo devuelto<br></th>
+    <th rowspan="2">Resumen<br/>tipo de archivo<br/>devuelto</th>
     <th colspan="5" style="text-align:center">Datos en el archivo de acceso de resumen</th>
   </tr>
   <tr>
@@ -140,7 +142,7 @@ Si envío una solicitud de acceso, el archivo de resumen contiene los valores in
   </tr>
 </table>
 
-Tenga en cuenta que la configuración para expandIDs no supone ninguna diferencia en cuanto al resultado cuando se utiliza un ID de cookie.
+Observe que la configuración de `expandIDs` no supone ninguna diferencia en la salida cuando se utiliza un ID de cookie.
 
 ## Muestras de solicitudes de eliminación {#delete}
 
@@ -217,7 +219,7 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 
 >[!NOTE]
 >
->Solo se ven afectadas las celdas de las filas que contienen AAID = 77 y una etiqueta DEL-DEVICE.
+>Solo las columnas de las filas que contienen `AAID=77` y una `DEL-DEVICE` etiquetas se ven afectadas.
 
 <table>
   <tr>
@@ -290,7 +292,7 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 
 >[!NOTE]
 >
->Solo se ven afectadas las celdas de las filas que contienen user=Mary y una etiqueta DEL-PERSON. Además, en la práctica, la variable que contiene A_ID probablemente sería una prop o una eVar. Su valor de reemplazo sería una cadena que empiece por “Privacy-”, seguida de un número aleatorio (GUID), en lugar de reemplazar el valor numérico con un valor numérico aleatorio diferente.
+>Solo las columnas de celdas de las filas que contienen `user=Mary` y una `DEL-PERSON` etiquetas se ven afectadas. Además, en la práctica, la variable que contiene `A_ID` probablemente sería un objeto o un eVar. Su valor de reemplazo sería una cadena que empiece por `Privacy-`, seguido de un número aleatorio (GUID), en lugar de reemplazar el valor numérico con un valor numérico aleatorio diferente.
 
 <table>
   <tr>

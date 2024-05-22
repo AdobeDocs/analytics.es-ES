@@ -4,10 +4,10 @@ title: Prácticas recomendadas de etiquetado
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 0fd0fad17cf6dcaa042e53d86dfabc5792a065b6
 workflow-type: tm+mt
-source-wordcount: '2676'
-ht-degree: 98%
+source-wordcount: '2692'
+ht-degree: 92%
 
 ---
 
@@ -103,15 +103,15 @@ Aunque muy pocos campos tendrán alguna de las otras etiquetas, será habitual q
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Solo ID de dispositivo </p> </td> 
-   <td colname="col2"> <p>Si los únicos ID que usa son ID de cookie o los que tienen una etiqueta ID-DEVICE, solo debe utilizar la etiqueta ACC-ALL. </p> <p>Obtendrá un par de archivos para cada solicitud de acceso, uno que contiene una fila por cada visita coincidente con todos los campos ACC-ALL especificados y otro con un resumen de estos datos. </p> </td> 
+   <td colname="col2"> <p>Si los únicos ID que usa son ID de cookie o los que tienen una etiqueta ID-DEVICE, solo debe utilizar la etiqueta ACC-ALL. </p> <p>Obtendrá un par de archivos para cada solicitud de acceso: un archivo que contiene una fila por cada visita coincidente con todos los campos ACC-ALL especificados y un archivo de resumen que contiene un resumen de estos datos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de persona sin expansión de ID </p> </td> 
-   <td colname="col2"> <p>Si solo usa ID personalizados que tengan la etiqueta ID-PERSON y no va a efectuar la expansión de ID, debe emplear etiquetas ACC-PERSON. Sin embargo, no hace falta que cambie las etiquetas ACC-ALL predeterminadas; estos campos se incluirán de forma automática en la solicitud de acceso. </p> <p>Obtendrá un par de archivos para cada solicitud de acceso, uno que contiene una fila por cada visita coincidente con todos los campos ACC-DEVICE y ACC-PERSON especificados y otro con un resumen de estos datos. </p> </td> 
+   <td colname="col2"> <p>Si solo usa ID personalizados que tengan la etiqueta ID-PERSON y no va a efectuar la expansión de ID, debe emplear etiquetas ACC-PERSON. Sin embargo, no hace falta que cambie las etiquetas ACC-ALL predeterminadas; estos campos se incluirán de forma automática en la solicitud de acceso. </p> <p>Obtendrá un par de archivos para cada solicitud de acceso: un archivo que contiene una fila por cada visita coincidente con todos los campos ACC-DEVICE y ACC-PERSON especificados y un archivo de resumen que contiene un resumen de estos datos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID combinados o expansión de ID </p> </td> 
-   <td colname="col2"> <p>Si incluye ID tanto de persona como de dispositivo en las solicitudes de privacidad de datos, o si emplea ID personalizados (ID de visitante personalizado o un ID en una prop o eVar), tendrá que prestar atención a las etiquetas ACC que utilice. Cada solicitud de acceso devolverá dos pares de archivos de datos, un par que contiene datos de las visitas que incluyeron un ID de persona coincidente y otro que contiene datos de visitas que no coincidieron con un ID de persona, pero sí con un ID de dispositivo. </p> <p>Los archivos de “ID de persona” contienen datos en todas las visitas que coinciden con los ID de persona, con todos los campos que tienen una etiqueta ACC-PERSON o ACC-ALL (un archivo con todas las visitas coincidentes y otro a modo de resumen). </p> <p>El par de archivos de ID de dispositivo solo contiene campos que presentan una etiqueta ACC-ALL e incluye únicamente visitas que no contuvieran ningún ID de persona coincidente. Estos archivos pueden contener datos generados por otros usuarios de un dispositivo compartido, por lo que se recomienda que piense detenidamente en el conjunto de campos que contienen la etiqueta ACC-ALL. El etiquetado predeterminado de Analytics solo aplica esta etiqueta a campos de información genérica relacionados con el dispositivo (tipo de dispositivo, sistema operativo, navegador, etc.), además de la fecha/hora de cada visita. </p> <p>Puede optar por recibir los conjuntos de archivos de persona y dispositivo de Adobe y, después, compartir solo los primeros, con el objetivo de no compartir datos que podrían haber generado otros usuarios de un dispositivo compartido. O puede que desee combinar los datos de uno de los pares o de ambos con otra información que conozca acerca del interesado y devolvérselos en su propio formato. </p> </td> 
+   <td colname="col2"> <p>Si incluye ID tanto de persona como de dispositivo en las solicitudes de privacidad de datos, o si emplea ID personalizados (ID de visitante personalizado o un ID en una prop o eVar), tendrá que prestar atención a las etiquetas ACC que utilice. Cada solicitud de acceso devolverá dos pares de archivos de datos. <p>Un par de archivos que contienen un archivo con datos de visitas que contienen un ID de persona coincidente y otro archivo que contiene datos de visitas que no coinciden con un ID de persona, pero sí con un ID de dispositivo. </p> <p>El otro par de archivos ("ID de persona") contiene datos en todas las visitas que coinciden con los ID de persona, con todos los campos que tienen una etiqueta ACC-PERSON o ACC-ALL. Un archivo con todas las visitas coincidentes y otro archivo de resumen que contiene un resumen de estos datos. </p> <p>El par de archivos de ID de dispositivo solo contiene campos que presentan una etiqueta ACC-ALL e incluye únicamente visitas que no contuvieran ningún ID de persona coincidente. Estos archivos pueden contener datos generados por otros usuarios de un dispositivo compartido, por lo que se recomienda que piense detenidamente en el conjunto de campos que contienen la etiqueta ACC-ALL. El etiquetado predeterminado de Analytics solo aplica esta etiqueta a campos de información genérica relacionados con el dispositivo (tipo de dispositivo, sistema operativo, navegador, etc.), además de la fecha/hora de cada visita. </p> <p>Puede optar por recibir los conjuntos de archivos de persona y dispositivo de Adobe y, después, compartir solo los primeros, con el objetivo de no compartir datos que podrían haber generado otros usuarios de un dispositivo compartido. O puede que desee combinar los datos de uno de los pares o de ambos con otra información que conozca acerca del interesado y devolvérselos en su propio formato. </p> </td> 
   </tr> 
  </tbody> 
 </table>
