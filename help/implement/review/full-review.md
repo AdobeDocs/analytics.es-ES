@@ -4,7 +4,7 @@ description: Revise la implementación cada 6 meses para garantizar una alineaci
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 4cbc654b6a17a84b373c254a0dd0e44a1740872d
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 80%
@@ -23,8 +23,8 @@ Reúnase con el propietario de la empresa y/o los analistas para revisar los cam
 
 Revise brevemente todas sus métricas y variables, en orden de importancia para la empresa, para asegurarse de que los datos se estén recopilando correctamente. Comience con las métricas y variables de mayor importancia: las asociadas con los [5 KPI principales](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=es#review). Para ello:
 
-* Cree paneles para ver las vistas de tendencias mensuales de sus métricas y variables (o configúrelas [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) para cada uno) para asegurarse de que obtiene los datos esperados y de que los datos son correctos. Si encuentra alguna discrepancia, examine la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar el motivo.
-* Vuelva a ejecutar el [Panel de mantenimiento de Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) para monitorizar las tendencias generales de las métricas y variables.
+* Cree paneles para ver las vistas de tendencias mensuales de sus métricas y variables (o configúrelas [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=es) para cada uno) para asegurarse de que obtiene los datos esperados y de que los datos son correctos. Si encuentra alguna discrepancia, examine la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar el motivo.
+* Vuelva a ejecutar el [Panel de mantenimiento de Analytics](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c) para monitorizar las tendencias generales de las métricas y variables.
 
 No permita que la implementación se llene de métricas y variables que no necesita. Deshabilite las métricas o variables que la empresa ya no necesite ni utilice. Puede que desee eliminarlas o volver a utilizarlas más adelante.
 
