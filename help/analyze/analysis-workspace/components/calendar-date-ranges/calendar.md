@@ -5,9 +5,9 @@ feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '862'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Tenga en cuenta las siguientes directrices cuando utilice intervalos de fechas r
 
 ### Fórmulas e intervalos de fechas relativos {#formula-relative-dates}
 
-Si tiene fechas relativas seleccionadas, todas las fórmulas de fecha utilizarán la fecha de inicio del panel como punto de partida.
+Si tiene seleccionadas fechas relativas, todas las fórmulas de fecha utilizarán la fecha de inicio del panel como punto de partida.
 
 ### Calendarios personalizados e intervalos de fechas relativos {#custom-calendar-formulas}
 
