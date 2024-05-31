@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
 source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Los [componentes](/help/analyze/analysis-workspace/components/analysis-workspace
 >
 >Para obtener información sobre cada componente, seleccione el icono de información junto al nombre de un componente en el carril izquierdo o consulte la [Guía de componentes de Analytics](/help/components/home.md).
 
-A continuación se proporciona información básica sobre cómo agregar un componente a un proyecto en Analysis Workspace. Para obtener información más detallada sobre cómo añadir los distintos tipos de componentes (dimensiones, métricas, segmentos e intervalos de fechas), consulte [Uso de componentes en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+A continuación encontrará información básica sobre cómo añadir un componente a un proyecto en Analysis Workspace. Para obtener información más detallada sobre cómo añadir distintos tipos de componentes (dimensiones, métricas, segmentos e intervalos de fechas), consulte [Uso de componentes en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 Para añadir un componente a un proyecto en Analysis Workspace:
 
@@ -106,13 +106,13 @@ Para añadir un componente a un proyecto en Analysis Workspace:
 
    ![](assets/build-components.png)
 
-1. Desplácese hasta el componente que desee añadir o búsquelo y arrástrelo a un panel o a una visualización dentro del proyecto.
+1. Desplácese hasta el componente que desee añadir o búsquelo y, a continuación, arrástrelo hasta un panel o visualización del proyecto.
 
-   Por ejemplo, puede arrastrar un segmento a la zona de colocación de segmentos en el encabezado de un panel.
+   Por ejemplo, puede arrastrar un segmento a la zona de colocación de segmentos en un encabezado de panel.
 
    ![colocar un segmento en la zona de colocación](assets/segment-dropzone.png)
 
-   Para obtener más información sobre cómo agregar componentes a proyectos, consulte [Uso de componentes en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+   Para obtener más información sobre cómo añadir componentes a los proyectos, consulte [Uso de componentes en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 1. (Opcional) Comparta el proyecto tal como se describe en [Guardar y compartir el proyecto](#save-and-share-the-project).
 
