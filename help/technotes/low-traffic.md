@@ -3,10 +3,10 @@ description: Cuando un informe tiene muchos valores únicos, Adobe utiliza el el
 title: Valor de poco tráfico en Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: fe6b1a2d503bbc423d3ebcacad2ce3c29e1ebbed
-workflow-type: ht
-source-wordcount: '864'
-ht-degree: 100%
+source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
+workflow-type: tm+mt
+source-wordcount: '769'
+ht-degree: 97%
 
 ---
 
@@ -17,10 +17,8 @@ Cuando un informe contiene varios valores únicos, una funcionalidad incluida en
 ## Funcionamiento de [!UICONTROL Poco tráfico]
 
 * Adobe Analytics utiliza dos umbrales para determinar qué valores únicos se muestran en los informes cada mes: un **[!UICONTROL umbral bajo]** y un **[!UICONTROL umbral alto]**. Adobe puede ajustar estos umbrales periódicamente. Los límites de umbral actuales son:
-   * **[!UICONTROL Umbral bajo]**: >500 000 valores únicos durante el mes.
-   * **[!UICONTROL Umbral alto]**: >1 000 000 de valores únicos durante el mes.
-* A **mediados de abril de 2024**, Adobe empezará a aumentar los umbrales de bajo tráfico predeterminados del grupo de informes de la siguiente manera: ![umbrales de bajo tráfico](assets/thresholds.png) 
-Esto afectará únicamente a las variables que actualmente están configuradas por debajo de los nuevos umbrales. Estos cambios se introducirán gradualmente y esperamos que el trabajo esté terminado a **finales de mayo**. A medida que se vayan aplicando estos incrementos, es posible que note cambios en las variables de alta cardinalidad:<ul><li>Puede haber más valores de dimensión disponibles para la creación de informes.</li><li>Los segmentos y las métricas calculadas pueden incluir más datos.</li><li>Los conjuntos de informes virtuales basados en segmentos pueden incluir más datos.</li><li>Las exportaciones de clasificación pueden incluir más datos.</li></ul>
+   * **[!UICONTROL Umbral bajo]**: >2 000 000 de valores únicos durante el mes.
+   * **[!UICONTROL Umbral alto]**: >2 100 000 valores únicos durante el mes.
 * La creación de informes no se ve afectada si la variable no alcanza el umbral bajo en un mes determinado.
 * Cuando una variable alcanza el umbral bajo, los datos comienzan a agruparse en bloques de [!UICONTROL poco tráfico]. Todos los valores que superan este umbral se rigen por la siguiente lógica:
    * Si un valor ya figura en los informes, añádalo como de costumbre.
