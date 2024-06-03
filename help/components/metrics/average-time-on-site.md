@@ -3,10 +3,10 @@ title: Promedio de tiempo en el sitio
 description: Cantidad promedio de tiempo que un elemento de dimensión en concreto existió entre visitas.
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 9e140a6be5ab151d7a4e88e317c59eafea4d6e1d
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 96%
+source-wordcount: '558'
+ht-degree: 92%
 
 ---
 
@@ -74,7 +74,7 @@ Para calcular el tiempo promedio en el sitio para el elemento de la dimensión `
 Si aplica un desglose utilizando la dimensión de [secciones del sitio](../dimensions/site-section.md), se utilizaría el siguiente cálculo:
 
 ```text
-(30 + 10) / 1 = 40 seconds average time on site
+(30 + 100 + 10) / 1 = 140 seconds (2 minutes 20 seconds) average time on site
 ```
 
 Dado que había una única secuencia en la dimensión de desglose, se utiliza un denominador diferente a su dimensión principal. Estas métricas generalmente proporcionan resultados similares a nivel de visita, pero pueden ser diferentes a nivel de visita individual.
