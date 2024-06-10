@@ -4,10 +4,10 @@ keywords: Fuente de datos;trabajo;métricas;columna previa;columna posterior;bot
 title: Calcular métricas
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -23,14 +23,18 @@ Se describe cómo calcular métricas habituales mediante fuentes de datos.
 
 1. Cuente el número de filas donde hay un valor en `post_pagename` o `post_page_url`.
 
+## Ocurrencias
+
+1. Contar el número total de filas.
+
 ## Visitas
 
 1. Concatenar `post_visid_high`, `post_visid_low`, `visit_num` y `visit_start_time_gmt`.
 1. Contar el número único de valores.
 
->[!NOTE]
+>[!TIP]
 >
->Las irregularidades de Internet, las irregularidades del sistema o el uso del ID de visitante personalizado no suelen utilizar los mismos valores `visit_num` para las distintas visitas. Se utiliza `visit_start_time_gmt` al contar las visitas para garantizar que el recuento es correcto.
+>Las irregularidades de Internet, las irregularidades del sistema o el uso del ID de visitante personalizado no suelen utilizar los mismos valores `visit_num` para las distintas visitas. Si bien es opcional, utilice `visit_start_time_gmt` al contar las visitas, para asegurarse de que se cuentan dichas visitas.
 
 ## Visitantes
 

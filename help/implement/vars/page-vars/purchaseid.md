@@ -4,10 +4,10 @@ description: Anule la duplicación de visitas en función de un identificador de
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 83%
+source-wordcount: '361'
+ht-degree: 73%
 
 ---
 
@@ -28,7 +28,16 @@ El ID de compra está asignado a las siguientes variables:
 
 ## ID de compra con la extensión Adobe Analytics
 
-No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+Puede establecer el ID de compra al configurar la extensión de Analytics (variables globales) o en reglas.
+
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+2. Haga clic en la propiedad de etiquetas deseada.
+3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
+4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
+5. Configure las variables [!UICONTROL Extensión] lista desplegable para Adobe Analytics y la variable [!UICONTROL Tipo de acción] hasta [!UICONTROL Establecer variables].
+6. Busque el [!UICONTROL ID de compra] sección.
+
+Puede establecer el ID de compra en un valor o elemento de datos. También puede copiar el valor de otra variable de Analytics.
 
 ## &quot;s.purchaseID&quot; en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
