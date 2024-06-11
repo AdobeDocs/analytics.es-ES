@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar ubicaciones de importación y exportación de la nube
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
+source-git-commit: 04d05fe10e46ca99dd1bd8019161143dab47e61d
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 37%
+source-wordcount: '1730'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,11 @@ ht-degree: 37%
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-Puede configurar una cuenta de la nube (y una ubicación en esa cuenta). Una sola ubicación se puede utilizar para cualquiera de los siguientes fines (una sola ubicación no se puede asociar con varios fines, como fuentes de datos y Data Warehouse, o conjuntos de Data Warehouse y clasificación):
+>[!NOTE]
+>
+>Tenga en cuenta lo siguiente al crear y editar ubicaciones:<ul><li>Los administradores del sistema pueden restringir la creación de ubicaciones por parte de los usuarios, tal como se describe en [Configurar si los usuarios pueden crear ubicaciones](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). Si no puede crear ubicaciones como se describe en esta sección, póngase en contacto con el administrador del sistema.</li><li>Una ubicación solo la puede editar el usuario que la creó o un administrador del sistema.</li></ul>
+
+Después de usted [configuración de una cuenta de cloud](/help/components/locations/configure-import-accounts.md), puede configurar una ubicación en esa cuenta. Una sola ubicación se puede utilizar para cualquiera de los siguientes fines (una sola ubicación no se puede asociar con varios fines):
 
 * Exportación de archivos mediante [Fuentes de datos](/help/export/analytics-data-feed/create-feed.md)
 * Exportación de informes mediante [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
@@ -23,35 +27,42 @@ Puede configurar una cuenta de la nube (y una ubicación en esa cuenta). Una sol
 
 Debe configurar Adobe Analytics con la información necesaria para acceder a su cuenta de Cloud. Este proceso consiste en añadir y configurar la cuenta (como ARN de la función de Amazon S3, Google Cloud Platform, etc.) tal como se describe en [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md)y, a continuación, agregue y configure la ubicación dentro de esa cuenta (tal como se describe en este artículo).
 
-Para obtener información sobre cómo administrar ubicaciones existentes, incluida la visualización, edición y eliminación de ubicaciones, consulte [Administrador de ubicaciones](/help/components/locations/locations-manager.md).
+Para obtener información sobre cómo ver y eliminar ubicaciones existentes, consulte [Administrador de ubicaciones](/help/components/locations/locations-manager.md).
 
-## Comience a crear una ubicación de exportación de nube
+## Empezar a crear o editar una ubicación
 
 1. En Adobe Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Ubicaciones**].
-1. En el [!UICONTROL Ubicaciones] , seleccione la [!UICONTROL **Ubicaciones**] pestaña.
-1. Seleccionar [!UICONTROL **Añadir ubicación**]. (Si aún no ha agregado una cuenta, agréguela tal como se describe en [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md).)
 
-   Se muestra el cuadro de diálogo Ubicación.
+1. En el [!UICONTROL Ubicaciones] , seleccione la [!UICONTROL **Ubicaciones**] pestaña.
+
+1. (Condicional) Si es administrador del sistema, puede habilitar la variable [!UICONTROL **Ver ubicaciones para todos los usuarios**] para ver las ubicaciones creadas por todos los usuarios de su organización.
+   ![ver ubicaciones de todos los usuarios](assets/locations-all-users.png)
+
+1. Para añadir una nueva ubicación, seleccione [!UICONTROL **Añadir ubicación**]. (Si aún no ha agregado una cuenta, agréguela tal como se describe en [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md).)
+
+   El [!UICONTROL **Añadir ubicación**] se muestra
+
+   O
+
+   Para editar una ubicación existente, seleccione el menú de 3 puntos junto al nombre de la ubicación y, a continuación, seleccione [!UICONTROL **Editar**].
+
+   El [!UICONTROL **Detalles de ubicación**] se muestra.
 
 1. Especifique la siguiente información: |Campo | Función | |---------|----------| | [!UICONTROL **Nombre**] | El nombre de la ubicación.  |
-| [!UICONTROL **Descripción**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. | | [!UICONTROL **Uso con**] | Seleccione si desea utilizar esta ubicación con [!UICONTROL **Fuentes de datos**], [!UICONTROL **Data Warehouse**], o [!UICONTROL **Conjuntos de clasificaciones**]. <p>Tenga en cuenta lo siguiente al realizar una selección:</p><ul><li>Una sola ubicación no se puede usar con varios fines. Por ejemplo, una ubicación que se usa para fuentes de datos no se puede usar también para conjuntos de Datas Warehouse o clasificaciones.</li><li>Para evitar conflictos de archivos dentro de una ubicación, no cambie el valor del [!UICONTROL **Uso con**] después de utilizar la ubicación.</li></ul> | | [!UICONTROL **Cuenta de ubicación**] | Seleccione la cuenta de ubicación donde desea crear esta ubicación. Para obtener información sobre cómo crear una cuenta, consulte [Agregar una cuenta](#add-an-account). |
+| [!UICONTROL **Descripción**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. | | [!UICONTROL **Uso con**] | Seleccione si desea utilizar esta ubicación con [!UICONTROL **Fuentes de datos**], [!UICONTROL **Data Warehouse**], o [!UICONTROL **Conjuntos de clasificaciones**]. <p>Tenga en cuenta lo siguiente al realizar una selección:</p><ul><li>Una sola ubicación no se puede usar con varios fines. Por ejemplo, una ubicación que se usa para fuentes de datos no se puede usar también para conjuntos de Datas Warehouse o clasificaciones.</li><li>Para evitar conflictos de archivos dentro de una ubicación, no cambie el valor del [!UICONTROL **Uso con**] después de utilizar la ubicación.</li><li>Si está creando una ubicación para una cuenta de correo electrónico, seleccione [!UICONTROL **Data Warehouse**] en este campo. Las ubicaciones de correo electrónico no son compatibles con las fuentes de datos y los conjuntos de clasificaciones.</li></ul> | | [!UICONTROL **Poner la ubicación a disposición de todos los usuarios de la organización.**] | **Nota:** Esta funcionalidad se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Analytics, consulte [Lanzamientos de funciones de Adobe Analytics](/help/release-notes/releases.md). <p>Active esta opción para permitir que otros usuarios de su organización utilicen la ubicación.</p> <p>Tenga en cuenta lo siguiente al compartir ubicaciones:</p><ul><li>Las ubicaciones que comparte no se pueden dejar de compartir.</li><li>Solo el propietario de la ubicación puede editar las ubicaciones compartidas.</li><li>Las ubicaciones solo se pueden compartir si también se comparte la cuenta a la que está asociada la ubicación.</li></ul> | | [!UICONTROL **Cuenta de ubicación**] | Seleccione la cuenta de ubicación donde desea crear esta ubicación. Para obtener información sobre cómo crear una cuenta, consulte [Configuración de cuentas de importación y exportación de nube](/help/components/locations/configure-import-accounts.md). |
 
-1. En la sección [!UICONTROL **Propiedades de ubicación**], especifique información específica para el tipo de cuenta de su cuenta de ubicación.
-
-   Continúe con la sección siguiente que corresponde al tipo de cuenta seleccionado en la [!UICONTROL **Cuentas de ubicación**] field. (También están disponibles otros tipos de cuentas heredadas, pero no se recomiendan).
-
-
+1. Para completar el formulario y configurar la ubicación, continúe con la sección que se muestra a continuación y que corresponde al tipo de cuenta seleccionado en la [!UICONTROL **Cuentas de ubicación**] field. (También están disponibles otros tipos de cuentas heredadas, pero no se recomiendan).
 
 ### Amazon S3 Role ARN
 
 Para configurar una ubicación ARN de la función Amazon S3, especifique la siguiente información:
 
-1. [Empezar a crear o editar una ubicación de exportación de nube](#begin-creating-or-editing-a-cloud-export-location), tal como se ha descrito anteriormente.
+1. [Empezar a crear o editar una ubicación](#begin-creating-or-editing-a-location), tal como se ha descrito anteriormente.
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Nombre del bloque**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por el Adobe tiene el `S3:PutObject` para cargar archivos en este bloque. </p><p>Los nombres de bloques deben cumplir reglas de nomenclatura específicas. Los nombres bloques deben tener entre 3 y 63 caracteres de longitud, solo pueden constar de letras minúsculas, números, puntos (.) y guiones (-), y deben empezar y terminar con una letra o un número. [En la documentación de AWS encontrará una lista completa de las reglas de nomenclatura](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
-   | [!UICONTROL **Prefijo de clave**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
+   | [!UICONTROL **Cubo**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por el Adobe tiene el `S3:PutObject` para cargar archivos en este bloque. </p><p>Los nombres de bloques deben cumplir reglas de nomenclatura específicas. Los nombres bloques deben tener entre 3 y 63 caracteres de longitud, solo pueden constar de letras minúsculas, números, puntos (.) y guiones (-), y deben empezar y terminar con una letra o un número. [En la documentación de AWS encontrará una lista completa de las reglas de nomenclatura](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Prefijo**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -70,12 +81,12 @@ Para configurar una ubicación ARN de la función Amazon S3, especifique la sigu
 
 Para configurar una ubicación de Google Cloud Platform, especifique la siguiente información:
 
-1. [Empezar a crear o editar una ubicación de exportación de nube](#begin-creating-or-editing-a-cloud-export-location), tal como se ha descrito anteriormente.
+1. [Empezar a crear o editar una ubicación](#begin-creating-or-editing-a-location), tal como se ha descrito anteriormente.
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Nombre del bloque**] | El bloque de su cuenta de GCP al que desea enviar los datos de Adobe Analytics. Asegúrese de haber concedido permiso al principal proporcionado por el Adobe para cargar archivos en este bloque. |
-   | [!UICONTROL **Prefijo de clave**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
+   | [!UICONTROL **Cubo**] | El bloque de su cuenta de GCP al que desea enviar los datos de Adobe Analytics. Asegúrese de haber concedido permiso al principal proporcionado por el Adobe para cargar archivos en este bloque. |
+   | [!UICONTROL **Prefijo**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
 
    {style="table-layout:auto"}
 
@@ -94,12 +105,12 @@ Para configurar una ubicación de Google Cloud Platform, especifique la siguient
 
 Para configurar una ubicación SAS de Azure, especifique la siguiente información:
 
-1. [Empezar a crear o editar una ubicación de exportación de nube](#begin-creating-or-editing-a-cloud-export-location), tal como se ha descrito anteriormente.
+1. [Empezar a crear o editar una ubicación](#begin-creating-or-editing-a-location), tal como se ha descrito anteriormente.
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Nombre de contenedor**] | El contenedor de la cuenta que especificó dónde desea que se envíen los datos de Adobe Analytics. |
-   | [!UICONTROL **Prefijo clave**] | La carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
+   | [!UICONTROL **Contenedor**] | El contenedor de la cuenta que especificó dónde desea que se envíen los datos de Adobe Analytics. |
+   | [!UICONTROL **Prefijo**] | La carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -118,13 +129,13 @@ Para configurar una ubicación SAS de Azure, especifique la siguiente informaci�
 
 Para configurar una ubicación RBAC de Azure, especifique la siguiente información:
 
-1. [Empezar a crear o editar una ubicación de exportación de nube](#begin-creating-or-editing-a-cloud-export-location), tal como se ha descrito anteriormente.
+1. [Empezar a crear o editar una ubicación](#begin-creating-or-editing-a-location), tal como se ha descrito anteriormente.
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Nombre de contenedor**] | El contenedor de la cuenta que especificó dónde desea que se envíen los datos de Adobe Analytics. Asegúrese de conceder permisos para cargar archivos en la aplicación de Azure que creó anteriormente. |
-   | [!UICONTROL **Prefijo clave**] | La carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
-   | [!UICONTROL **Nombre de la cuenta**] | La cuenta de almacenamiento de Azure. |
+   | [!UICONTROL **Cuenta**] | La cuenta de almacenamiento de Azure. |
+   | [!UICONTROL **Contenedor**] | El contenedor de la cuenta que especificó dónde desea que se envíen los datos de Adobe Analytics. Asegúrese de conceder permisos para cargar archivos en la aplicación de Azure que creó anteriormente. |
+   | [!UICONTROL **Prefijo**] | La carpeta dentro del contenedor en la que desea colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, `folder_name/` |
 
    {style="table-layout:auto"}
 
@@ -137,6 +148,23 @@ Para configurar una ubicación RBAC de Azure, especifique la siguiente informaci
    >[!NOTE]
    >
    >   Si ha utilizado anteriormente [FTP para importar clasificaciones](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) a Adobe Analytics, tenía que cargar un archivo FIN. Este archivo FIN no es necesario al importar desde cuentas en la nube.
+
+### Correo electrónico
+
+Para configurar una ubicación de correo electrónico, especifique la siguiente información:
+
+1. [Empezar a crear o editar una ubicación](#begin-creating-or-editing-a-location), tal como se ha descrito anteriormente.
+
+   | Campo | Función |
+   |---------|----------|
+   | [!UICONTROL **Asunto**] | Asunto del mensaje de correo electrónico. |
+   | [!UICONTROL **Notas**] | El contenido del mensaje de correo electrónico. |
+
+   {style="table-layout:auto"}
+
+1. Seleccione [!UICONTROL **Guardar**].
+
+   Ahora puede exportar datos a la cuenta y la ubicación configuradas al utilizar [Fuentes de datos](/help/export/analytics-data-feed/create-feed.md). (Las ubicaciones de correo electrónico no son compatibles con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o [Conjuntos de clasificaciones](/help/components/classifications/sets/overview.md)).
 
 ### Tipos de cuentas heredadas
 
