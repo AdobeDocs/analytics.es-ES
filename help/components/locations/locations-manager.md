@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Administrador de ubicaciones
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
+source-git-commit: c42ad8d3e0c21cc1fb13f9a8993aca4825286d4f
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1476'
 ht-degree: 1%
 
 ---
@@ -132,6 +132,8 @@ Para eliminar una cuenta:
 {{release-limited-testing-section}}
 
 Los administradores del sistema pueden restringir la creación de cuentas y ubicaciones por parte de los usuarios, o bien pueden limitar los tipos de cuentas que los usuarios pueden crear y utilizar.
+
+![Pestaña Configuración de administración](assets/locations-admin-settings.png)
 
 ### Configurar si los usuarios pueden crear y editar cuentas
 
