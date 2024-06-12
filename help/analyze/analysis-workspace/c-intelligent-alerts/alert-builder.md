@@ -4,99 +4,50 @@ title: Generador de alertas (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 99%
+source-wordcount: '569'
+ht-degree: 42%
 
 ---
 
-# Generador de alertas
+# Creación de alertas
 
 >[!NOTE]
 >
 >Las alertas inteligentes están disponibles solo para los clientes de Adobe Analytics Prime y Adobe Analytics Ultimate.
 
-## Acceso al Generador de alertas
+Las alertas inteligentes (o simplemente &quot;alertas&quot;) de Adobe Analytics le permiten recibir notificaciones inmediatamente cuando se producen eventos anómalos en sus datos.
 
-Acceda al Generador de alertas de una de las cuatro formas disponibles:
+Para obtener información general más detallada sobre las alertas inteligentes, consulte [Resumen de las alertas inteligentes](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
-* Mediante el acceso directo siguiente en Analysis Workspace:
+Para crear una alerta:
 
-  `ctrl (or cmd) + shift + a`
-* En **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alerta nueva]**.
-* Seleccione uno o más elementos de línea de la tabla de forma libre, haga clic con el botón secundario y elija **[!UICONTROL Crear alerta a partir de la selección]**.
+1. Comience a crear una alerta accediendo al generador de alertas. Puede acceder al Generador de alertas de cualquiera de estas formas:
 
-## Generar alertas
+   * Abra un proyecto en Analysis Workspace y seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Crear alerta]**.
+   * Abra un proyecto en Analysis Workspace y utilice el siguiente método abreviado:
 
-La interfaz del Generador de alertas resulta familiar a quienes hayan creado segmentos o calculado métricas en Analytics:
+     `ctrl (or cmd) + shift + a`
+   * Abra un proyecto en Analysis Workspace, seleccione uno o más elementos de línea en una tabla de forma libre, haga clic con el botón derecho y seleccione **[!UICONTROL Crear alerta a partir de selección]**.
 
-![](assets/alert_builder.png)
+     De este modo, se rellena instantáneamente el generador de alertas para crear una alerta con las métricas y los filtros correctos.
+   * En Adobe Analytics, seleccione **[!UICONTROL Componentes]** > [!UICONTROL **Alertas**] > **[!UICONTROL Crear nueva alerta]**.
 
-<!--Meike, I edited this table for validation -->
+   Aparece el Generador de alertas. Esta interfaz resulta familiar a quienes hayan creado segmentos o calculado métricas en Analytics:
 
-**Nombre de la alerta**
+   ![](assets/alert-builder.png)
 
-Especifique un nombre para la alerta. El nombre de la alerta puede contener el nombre del umbral de informe o de métricas.
+1. Especifique las siguientes opciones para configurar la alerta:
 
-**Granularidad de tiempo**
+   | Opción | Descripción |
+   |---------|----------|
+   | [!UICONTROL **Título**] | Especifique un nombre para la alerta. El nombre de la alerta puede contener el nombre del umbral de informe o de métricas. |
+   | [!UICONTROL **Descripción (opcional)**] | Especifique una descripción para la alerta. |
+   | [!UICONTROL **Granularidad de tiempo**] | Seleccione la frecuencia con la que desea que se compruebe la métrica: Diaria, Semanal o Mensual.<p><b>Nota:</b>La granularidad mensual no es compatible con las vistas de datos con un calendario personalizado en el Generador de alertas.<!--true?--></p> |
+   | [!UICONTROL **Destinatarios**] | Especifique hacia dónde se puede enviar la alerta. Se puede enviar una alerta a un usuario de Analytics, un grupo de Analytics o a una dirección de correo electrónico sin procesar o a un número de teléfono.<p><b>Importante:</b>El número de teléfono debe estar precedido por &quot;+&quot; y una [código de país](https://countrycode.org/).</p><p>El correo electrónico que el usuario recibe una vez que se activa una alerta tiene un aspecto similar al siguiente:</p><p>![](assets/alerts-email.PNG)</p> |
+   | [!UICONTROL **Fecha de caducidad**] | Establezca la fecha y la hora en que desea que la alerta caduque. |
+   | [!UICONTROL **Enviar una alerta cuando**] | [!UICONTROL **Déclencheur de cualquiera de estas métricas**]: arrastre y suelte las métricas (incluidas las métricas calculadas) aquí para crear déclencheur para la alerta.<p>Un **&quot;componentes incompatibles&quot;** aparece un mensaje si no todas las métricas, dimensiones o segmentos de la alerta son compatibles con la vista de datos seleccionada actualmente.</p><p>Determine el umbral que debe superar la métrica para que se establezca la alerta. Puede ajustar este valor a un umbral y, a continuación, a una de las condiciones siguientes:</p><ul><li>existe anomalía</li><li>anomalía por encima de lo esperado</li><li>anomalía por debajo de lo esperado</li><li>mayor o igual que</li><li>menor o igual que</li><li>cambia por un</li><li>Puede establecer el umbral en 90 %, 95 %, 99 %, 99,75 % y 99,9 %.</li></ul><p>[!UICONTROL **Con todos estos filtros**]: Arrastre y suelte segmentos o dimensiones para añadir filtros. Por ejemplo, si agrega un segmento &quot;Solo dispositivos móviles&quot; significará que la regla se aplica únicamente a los déclencheur móviles. Puede agregar filtros adicionales mediante una instrucción AND. Puede añadir las reglas AND u OR si hace clic en el icono de engranaje.</p><p>Consulte [Alertas inteligentes: Casos de uso](/help/analyze/analysis-workspace/c-intelligent-alerts/alerts-use-cases.md) por ejemplo, casos de uso.</p> |
+   | [!UICONTROL **Vista previa**] | La vista previa de alertas interactiva le muestra con qué frecuencia, aproximada, se activará una alerta en función de las experiencias pasadas.<p>Por ejemplo, si establece la granularidad de tiempo a diario, en la vista previa podrá ver cuántas veces se habrá activado una alerta para una métrica en particular durante los últimos 30 o 31 días.</p><p>Si observa que se habían activado demasiadas alertas, puede ajustar el umbral en el [Administrador de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).</p><p>![](assets/alert_preview.png)</p> |
 
-Especifique cuándo desea que se compruebe la métrica: cada hora, cada día, semanalmente o mensualmente.
-
->[!NOTE]
->
->La granularidad mensual no es compatible con los grupos de informes con un calendario personalizado en el Generador de alertas.
-
-**Destinatarios**
-
-Especifique hacia dónde se puede enviar la alerta. Se puede enviar una alerta a un usuario de Analytics, un grupo de Analytics o a una dirección de correo electrónico sin procesar o a un número de teléfono.
-
->[!IMPORTANT]
->
->El número de teléfono debe estar precedido por “+” y un [código de país](https://countrycode.org/).
-
-El correo electrónico que el usuario recibe una vez que se activa una alerta tiene un aspecto similar al siguiente:
-
-![](assets/alerts-email.PNG)
-
-**Fecha de caducidad**
-
-Establezca la fecha de caducidad de la alerta.
-
-**Enviar una alerta cuando...**
-
-*... se active cualquiera de estas métricas*
-
-* Arrastre y suelte las métricas en el lienzo para añadir activadores.
-
-  Si alguno de los componentes (métricas, dimensiones o segmentos) de la alerta no es compatible con el grupo de informes seleccionado, aparecerá un mensaje **“componentes no compatibles”**.
-* Determine el umbral que debe superar la métrica para que se establezca la alerta. Puede ajustar este valor a un umbral y, a continuación, a una de las condiciones siguientes:
-
-   * existe anomalía
-   * anomalía por encima de lo esperado
-   * anomalía por debajo de lo esperado
-   * mayor o igual que
-   * menor o igual que
-   * cambia por un
-   * Puede establecer el umbral en 90 %, 95 %, 99 %, 99,75 % y 99,9 %.
-
-  Tenga en cuenta que también puede utilizar las métricas calculadas.
-
-*... con estos filtros*
-
-* Arrastre y suelte los segmentos o dimensiones para añadir filtros. Por ejemplo, si añade un segmento “Solo dispositivos móviles” significará que la regla solamente se activará para los dispositivos móviles.
-* Se añadirán filtros adicionales mediante una declaración AND.
-
-**Agregar una regla**
-
-Puede añadir las reglas AND u OR si hace clic en el icono de engranaje.
-
-## Vista previa de alertas {#section_10D75BA7B77E4C5FAF58A719C082E070}
-
-La vista previa de alertas interactiva le muestra con qué frecuencia, aproximada, se activará una alerta en función de las experiencias pasadas.
-
-Por ejemplo, si establece la granularidad de tiempo a diario, en la vista previa podrá ver cuántas veces se habrá activado una alerta para una métrica en particular durante los últimos 30 o 31 días.
-
-Si observa que se habían activado demasiadas alertas, puede ajustar el umbral en el [Administrador de alertas](/help/components/c-alerts/alert-manager.md).
-
-![](assets/alert_preview.png)
+1. Seleccione [!UICONTROL **Guardar**].

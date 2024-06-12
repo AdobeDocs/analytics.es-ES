@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
-workflow-type: ht
-source-wordcount: '5562'
-ht-degree: 100%
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+workflow-type: tm+mt
+source-wordcount: '5586'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Función | Descripción |
 | --- | --- |
+| **Junio de 2024** | |
+| Documentación de alertas inteligentes mejorada | Se ha actualizado y mejorado la documentación sobre alertas. Estas actualizaciones incluyen información sobre [creación de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [administración de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), y [información general](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | **Mayo de 2024** | |
 | Información necesaria al utilizar restricciones de política de organización con Google Cloud Platform en fuentes de datos y Data Warehouse | Se ha añadido el ID de organización de Google Cloud Platform propiedad de Adobe a la documentación de [fuentes de datos](/help/export/analytics-data-feed/create-feed.md) y [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). <p>Esta información solo es necesaria para las organizaciones que utilizan [Restricciones de política de organización](https://cloud.google.com/storage/docs/org-policy-constraints) en Google Cloud Platform.</p> |
 | Documentación sobre la adición de componentes a proyectos | Se ha añadido información general sobre cómo [añadir distintos tipos de componentes a los proyectos en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |

@@ -3,10 +3,10 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6349edc65b953ce7f41d5a5990c8afd6efa20d8d
+source-git-commit: a85150e1299e0d5164c4eaa0fe9d5d6f67ef15b3
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 55%
+source-wordcount: '969'
+ht-degree: 56%
 
 ---
 
@@ -20,7 +20,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 12 de junio de 
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Seleccione varios filtros cuando estén disponibles en el menú desplegable de una tabla de forma libre** | Cuando se han agregado varios filtros a una tabla de forma libre como menú desplegable, los usuarios de la tabla de forma libre ahora pueden seleccionar más de un filtro a la vez. La tabla de forma libre se filtra para incluir cualquiera de los filtros seleccionados. Anteriormente, los usuarios solo podían seleccionar un filtro a la vez en un menú desplegable de filtros.<p>(A continuación encontrará un vínculo a la documentación). |  | jueves, 19 de junio de 2024 |
+| **Seleccionar varios campos en un filtro desplegable** | Cuando se agregan varios campos a un filtro desplegable, los usuarios ahora pueden seleccionar más de un campo a la vez. El panel se filtra para incluir cualquiera de los campos seleccionados. <p>Anteriormente, los usuarios solo podían seleccionar un campo a la vez en un filtro desplegable.</p><p>(A continuación encontrará un vínculo a la documentación).</p> |  | jueves, 19 de junio de 2024 |
 | **Tabla de contenido de los proyectos de Workspace** | Ya está disponible una nueva tabla de contenido para los proyectos. La tabla de contenido proporciona vínculos que permiten a los usuarios saltar rápidamente a paneles y visualizaciones dentro del proyecto. La tabla de contenido se puede habilitar para proyectos individuales o para todos los proyectos de un usuario determinado.<p>(A continuación encontrará un vínculo a la documentación). |  | jueves, 19 de junio de 2024 |
 | **Creación de hipervínculos para elementos de dimensión en una tabla de forma libre** | Puede crear hipervínculos para uno o varios elementos de dimensión a fin de que se pueda hacer clic en ellos dentro de una tabla de forma libre en Analysis Workspace. <p>Puede crear hipervínculos para elementos de dimensión que tengan valores de URL o puede crear direcciones URL personalizadas para elementos de dimensión que no tengan valores de URL.</p><p>Puede crear direcciones URL personalizadas dinámicas para varios elementos de dimensión mediante variables. Las variables pueden hacer referencia al valor de un elemento de dimensión o pueden hacer referencia a la dimensión de desglose.</p><p>(A continuación encontrará un vínculo a la documentación).<!--For more information, see "Add hyperlinks to dimensions in a freeform table."--></p> |  | jueves, 19 de junio de 2024 |
 | **Configuración del administrador para controlar las cuentas y ubicaciones que se utilizan para exportación e importación** | Un nuevo [Pestaña &quot;Configuración de administración&quot; en el Administrador de ubicaciones](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) proporciona a los administradores control sobre si los usuarios pueden crear y editar cuentas y ubicaciones. Esta configuración se aplica cuando los usuarios [configuración de cuentas de importación y exportación de cloud](/help/components/locations/configure-import-accounts.md) y [configuración de ubicaciones de importación y exportación de cloud](/help/components/locations/configure-import-locations.md). <p>Los administradores también pueden limitar los tipos de cuentas (Google Cloud Platform, Azure RBAC, Amazon S3, etc.) que pueden crear y utilizar los usuarios.</p><p>Anteriormente, cualquier usuario podía crear, editar y utilizar cuentas y ubicaciones para cualquier tipo de cuenta.</p> | 12 de junio de 2024 | 30 de junio de 2024 |

@@ -4,14 +4,18 @@ title: 'Alertas inteligentes: Casos de uso'
 feature: Alerts
 role: User, Admin
 exl-id: a03312ff-47df-451c-9dfa-0597b3a183cb
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 100%
+source-wordcount: '67'
+ht-degree: 65%
 
 ---
 
 # Alertas inteligentes: Casos de uso
+
+Puede crear alertas inteligentes como se describe en [Creación de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
+
+Las secciones siguientes ilustran ejemplos de casos de uso que se deben tener en cuenta al crear alertas.
 
 ## Crear una alerta simple filtrada mediante dos segmentos {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 
@@ -23,15 +27,7 @@ Update screenshots for better readability.
 
 ![](assets/alerts_example1.png)
 
-## Crear una alerta a partir de una selección de tabla {#section_AE6D42E1255D498D908A2FA60370A419}
 
-En las tablas improvisadas, ahora puede crear alertas en contexto si hace clic con el botón derecho en una fila de la tabla y selecciona **[!UICONTROL Crear alerta a partir de la selección]**.
-
-![](assets/alert_selection.png)
-
-De este modo, se rellena instantáneamente el Generador de alertas para crear una alerta con las métricas y los filtros correctos:
-
-![](assets/prepopulated_alert.png)
 
 ## Consolidar las alertas (apilar) en lugar de crear múltiples alertas {#section_B27B0856BA104B9FB6D0BBB317633F18}
 

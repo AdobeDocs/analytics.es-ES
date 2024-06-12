@@ -4,20 +4,18 @@ title: Resumen de las alertas inteligentes
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 88%
+source-wordcount: '279'
+ht-degree: 52%
 
 ---
 
 # Resumen de las alertas inteligentes
 
-El sistema Alertas inteligentes permite un control más granular sobre las alertas e integra la detección de anomalías en el sistema de alerta.
+Las alertas inteligentes (o simplemente &quot;alertas&quot;) de Adobe Analytics le permiten recibir notificaciones inmediatamente cuando se producen eventos anómalos en sus datos.
 
-Este es un tutorial en vídeo sobre [Alertas inteligentes](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=es) (5:34)
-
-## Información general
+Puede definir alertas para que se activen en función de umbrales de anomalías, porcentajes modificados o puntos de datos específicos. Las alertas proporcionan controles granulares que se integran con [Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), que se activa cuando más los necesita.
 
 Las alertas inteligentes le permiten:
 
@@ -26,19 +24,7 @@ Las alertas inteligentes le permiten:
 * Enviar alertas por correo electrónico o SMS con vínculos a proyectos de Analysis Workspace autogenerados
 * Crear alertas “apiladas” que capturan varias métricas en una sola alerta
 
-Existen tres formas de acceder al Generador de alertas:
-
-| Método | Detalles |
-| --- | --- |
-| Ir directamente al Generador de alertas | **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** |
-| Uso del atajo de teclado en Espacio de trabajo | `Ctrl + Shift + A` (Windows) o `Cmd + Shift + A` (Mac) |
-| Seleccione uno o más elementos de línea de la tabla de forma libre | Haga clic con el botón derecho y seleccione **[!UICONTROL Crear alerta a partir de la selección]**. Se abre el [!UICONTROL Generador de alertas] y se rellenan previamente las métricas y los filtros adecuados aplicados desde la tabla. A continuación, puede editar la alerta si fuera necesario. ![Crear alerta a partir de la selección](assets/create-alert-from-selection.png) |
-
-Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. En función de la granularidad de tiempo que elija, [diferentes modelos](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) se utilizan para calcular a qué distancia (cuántas desviaciones estándar tiene) está cada punto de datos con respecto a la norma. Si establece un umbral más bajo (por ejemplo, 90%), obtendrá más anomalías que con otro más alto (99,75%).
-
->[!IMPORTANT]
->
->El uso de datos con fecha y hora para crear alertas puede hacer que se activen incorrectamente. Adobe recomienda utilizar datos sin marca de hora para las alertas inteligentes.
+El siguiente tutorial de vídeo proporciona información general básica sobre las alertas: [Alertas inteligentes](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=es) (5:34)
 
 ## Retrospectiva de anomalías para alertas
 
@@ -49,4 +35,18 @@ Si una alerta utiliza la detección de anomalías, el periodo de prueba varía s
 * Granularidad diaria: 35 días + el mismo intervalo del año anterior
 * Granularidad horaria: 336 horas
 
-Consulte [Técnicas estadísticas utilizadas en la detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) para obtener más información.
+Para obtener más información, consulte [Técnicas estadísticas utilizadas en la detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+
+## Creación de alertas
+
+Para obtener información sobre cómo crear alertas en Adobe Analytics, consulte [Creación de alertas](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+
+>[!IMPORTANT]
+>
+>El uso de datos con fecha y hora para crear alertas puede hacer que se activen incorrectamente. Adobe recomienda utilizar datos sin marca de hora para las alertas inteligentes.
+
+## Administración de alertas
+
+Puede administrar las alertas existentes en el Administrador de alertas. Puede realizar varias tareas de administración en las alertas, como etiquetado, cambio de nombre, eliminación, etc.
+
+Para obtener más información sobre cómo administrar las alertas existentes en Adobe Analytics, consulte [Administración de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
