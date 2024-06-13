@@ -4,10 +4,10 @@ title: Generador de alertas (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 42%
+source-wordcount: '613'
+ht-degree: 39%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 42%
 >
 >Las alertas inteligentes están disponibles solo para los clientes de Adobe Analytics Prime y Adobe Analytics Ultimate.
 
-Las alertas inteligentes (o simplemente &quot;alertas&quot;) de Adobe Analytics le permiten recibir notificaciones inmediatamente cuando se producen eventos anómalos en sus datos.
+Las alertas inteligentes (o simplemente &quot;alertas&quot;) de Adobe Analytics le permiten recibir notificaciones inmediatamente cuando se producen eventos anómalos en sus datos. (Las alertas de uso de llamadas al servidor son un tipo diferente de alerta que solo están disponibles para los administradores de Analytics. Estas alertas le notifican del riesgo o de la aparición de un exceso en los datos de asignación y consumo de llamadas al servidor. Para obtener más información, consulte [Alertas de uso de llamadas al servidor](/help/admin/admin/c-server-call-usage/scu-alerts.md).)
 
 Para obtener información general más detallada sobre las alertas inteligentes, consulte [Resumen de las alertas inteligentes](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md).
 
-Para crear una alerta:
+Para crear una alerta inteligente:
 
 1. Comience a crear una alerta accediendo al generador de alertas. Puede acceder al Generador de alertas de cualquiera de estas formas:
 
@@ -32,7 +32,7 @@ Para crear una alerta:
    * Abra un proyecto en Analysis Workspace, seleccione uno o más elementos de línea en una tabla de forma libre, haga clic con el botón derecho y seleccione **[!UICONTROL Crear alerta a partir de selección]**.
 
      De este modo, se rellena instantáneamente el generador de alertas para crear una alerta con las métricas y los filtros correctos.
-   * En Adobe Analytics, seleccione **[!UICONTROL Componentes]** > [!UICONTROL **Alertas**] > **[!UICONTROL Crear nueva alerta]**.
+   * Crear una alerta [del administrador de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md#create-alerts).
 
    Aparece el Generador de alertas. Esta interfaz resulta familiar a quienes hayan creado segmentos o calculado métricas en Analytics:
 

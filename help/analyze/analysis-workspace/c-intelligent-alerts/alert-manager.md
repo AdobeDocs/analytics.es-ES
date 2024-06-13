@@ -4,10 +4,10 @@ title: Administrador de alertas (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-source-git-commit: d6d42b079a013eb5608ad85ae311d8bf0f7a5d21
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 7%
+source-wordcount: '327'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,22 @@ Para crear alertas desde el Administrador de alertas:
 
 1. Seleccionar [!UICONTROL **Añadir**] (o [!UICONTROL **Crear nueva alerta**] si no tiene ninguna alerta existente).
 
-1. Continuar con [Creación de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) para obtener más información sobre la creación de alertas.
+1. Seleccione el tipo de alerta que corresponde a la alerta que desea crear:
+
+   * [!UICONTROL **Alerta de datos de Analytics**]: una alerta para notificarle cuando se producen eventos anormales en los datos.
+
+     Si selecciona esta opción, continúe con [Creación de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) para obtener más información sobre la creación de alertas.
+
+   * [!UICONTROL **Alerta de uso de llamadas al servidor**]: una alerta para notificarle del riesgo o la incidencia de un exceso en los datos de asignación y consumo de llamadas al servidor.
+
+     Si selecciona esta opción, continúe con [Alertas de uso de llamadas al servidor](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+
+     >[!NOTE]
+     >
+     >Debe ser administrador de Analytics o usuario con el permiso Uso de llamadas al servidor para tener acceso a este.
+
+
+
 
 ## Administrar alertas existentes
 

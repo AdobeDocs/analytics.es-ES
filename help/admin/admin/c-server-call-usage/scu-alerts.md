@@ -4,18 +4,18 @@ title: Alertas sobre el uso de llamadas al servidor
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 96%
+source-wordcount: '513'
+ht-degree: 92%
 
 ---
 
-# Alertas sobre el uso de llamadas al servidor
+# Alertas de uso de llamadas al servidor
 
 Al configurar una alerta, se aplica a todos los grupos de informes en todas las empresas de inicio de sesión de una empresa de facturación.
 
-Se añade una nueva categoría de alertas denominada **[!UICONTROL Alerta de uso de llamadas al servidor]** a la interfaz de usuario de [Administración de alertas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=es).
+Las alertas de uso de llamadas al servidor forman parte de [Alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) interfaz de usuario.
 
 Está previamente completado con **1 alerta predeterminada** que aparece en cualquier empresa de inicio de sesión con acceso a la función Uso de llamadas al servidor. Esta alerta activa una notificación destinada a todos los administradores de la empresa de inicio de sesión si se cumple uno de los siguientes criterios:
 
