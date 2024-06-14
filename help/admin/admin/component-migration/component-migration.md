@@ -3,9 +3,9 @@ description: Explica cómo migrar componentes y proyectos de Adobe Analytics a C
 title: Migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: b8d47e8802198365b348f94efc3f71ff424e83d1
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1398'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Antes de migrar proyectos a Customer Journey Analytics, obtenga más informació
 >
 >Antes de migrar proyectos a Customer Journey Analytics como se describe en esta sección, obtenga más información sobre la migración de proyectos en la [Preparación para migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 >
->Cualquier dimensión o métrica que asigne es permanente, tanto para este proyecto como para todos los proyectos futuros que se migren en toda la organización de IMS. Las asignaciones que realice no se podrán modificar una vez completada la migración.
+>**Cualquier dimensión o métrica que asigne es permanente, tanto para este proyecto como para todos los proyectos futuros que se migren en toda la organización de IMS, independientemente de qué usuario realice la migración. Estas asignaciones no se pueden modificar ni deshacer excepto poniéndose en contacto con el Servicio de atención al cliente.**
 
 1. En Adobe Analytics, seleccione la pestaña [!UICONTROL **Administración**] y, a continuación, seleccione [!UICONTROL **Todos los administradores**].
 
