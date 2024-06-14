@@ -4,9 +4,9 @@ title: Valor de poco tráfico en Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ Cuando un informe contiene varios valores únicos, una funcionalidad incluida en
 ## Funcionamiento de [!UICONTROL Poco tráfico]
 
 * Adobe Analytics utiliza dos umbrales para determinar qué valores únicos se muestran en los informes cada mes: un **[!UICONTROL umbral bajo]** y un **[!UICONTROL umbral alto]**. Adobe puede ajustar estos umbrales periódicamente. Los límites de umbral actuales son:
-   * **[!UICONTROL Umbral bajo]**: >2 000 000 de valores únicos durante el mes.
-   * **[!UICONTROL Umbral alto]**: >2 100 000 valores únicos durante el mes.
+   *  **[!UICONTROL Umbral bajo]**: >2 000 000 valores únicos durante el mes.
+   * **[!UICONTROL Umbral alto]**: >2 100 000 de valores únicos durante el mes.
 * La creación de informes no se ve afectada si la variable no alcanza el umbral bajo en un mes determinado.
 * Cuando una variable alcanza el umbral bajo, los datos comienzan a agruparse en bloques de [!UICONTROL poco tráfico]. Todos los valores que superan este umbral se rigen por la siguiente lógica:
    * Si un valor ya figura en los informes, añádalo como de costumbre.
