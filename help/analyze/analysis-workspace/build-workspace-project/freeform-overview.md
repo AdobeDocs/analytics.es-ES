@@ -5,10 +5,10 @@ title: Información general sobre Proyectos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 08f3926bfa621ce3678da6db0f0a30ac5302b757
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 81%
+source-wordcount: '1392'
+ht-degree: 72%
 
 ---
 
@@ -52,8 +52,8 @@ La página Proyectos contiene la siguiente información:
 | Compartido con | Usuarios con los que se ha compartido el proyecto. |
 | Última modificación | Fecha y hora de última modificación del proyecto. |
 | Última apertura | Fecha y hora de última apertura del proyecto. |
-| ID del proyecto | El ID del proyecto. |
-| El intervalo de fecha más largo | Intervalo de fecha más largo del proyecto. |
+| Identificador de proyecto | El ID del proyecto. |
+| Intervalo de fecha más largo | Intervalo de fecha más largo del proyecto. |
 | Cantidad de consultas | Número total de consultas contenidas en el proyecto. |
 | Ubicación | Carpeta en la que reside el proyecto. |
 
@@ -75,7 +75,7 @@ En un proyecto, el menú proporciona opciones para administrar el proyecto, agre
 
 ### Info y configuración del proyecto {#info-settings}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]**  proporciona información a nivel de proyecto sobre el proyecto activo.
+**[!UICONTROL Workspace]** > **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]** proporciona información a nivel de proyecto sobre el proyecto activo.
 
 ![](assets/projectinfo.png)
 
@@ -83,7 +83,7 @@ La configuración incluye lo siguiente:
 
 | Configuración | Descripción |
 |---|---|
-| Proyecto  Nombre | Nombre proporcionado al proyecto. Puede hacer doble clic en el nombre para editarlo. |
+| Nombre del proyecto | Nombre proporcionado al proyecto. Puede hacer doble clic en el nombre para editarlo. |
 | Creado por | Nombre del propietario del proyecto. |
 | Última modificación | Fecha de la última modificación del proyecto. |
 | Etiquetas | Enumera cualquier etiqueta aplicada a un proyecto para una ordenación por categorías más sencilla. |
@@ -94,13 +94,23 @@ La configuración incluye lo siguiente:
 
 ## Carril izquierdo {#left-rail}
 
-En un proyecto, se accede a [paneles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es), tablas, [visualizaciones](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=es) y [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=es) desde el carril izquierdo. Estos son los componentes básicos del proyecto.
+Dentro de un proyecto, hay varios iconos disponibles en el carril izquierdo y cada uno representa partes importantes de un proyecto:
 
-También puede acceder a las visualizaciones y los paneles desde el [Panel en blanco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=es).
+* [Paneles](/help/analyze/analysis-workspace/c-panels/panels.md) ![icono de paneles](assets/panels-icon.png)
 
-Los componentes (dimensiones, métricas, segmentos e intervalos de fechas) del carril izquierdo están relacionados con el grupo de informes del panel activo. El panel principal tiene un borde azul alrededor y el grupo de informes activo se mostrará en la parte superior del carril del componente.
+* [Visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)![icono de visualizaciones](assets/visualizations-icon.png)
 
-![](assets/left-rail.png)
+* [Componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)![icono de componentes](assets/components-icon.png)
+
+* [Diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)![icono del diccionario de datos](assets/data-dictionary-icon.png)
+
+* [Tabla de contenido](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![icono de tabla de contenido](assets/toc-icon.png)
+
+Los componentes (dimensiones, métricas, filtros e intervalos de fechas) del carril izquierdo están relacionados con la vista de datos del panel activo. El panel activo se identifica con el borde azul que lo rodea y la vista de datos activa se muestra en la parte superior del carril del componente.
+
+![Los componentes relacionados con la vista de datos del panel activo para la vista de datos de demostración entre industrias.](assets/left-rail.png)
+
+
 
 ## Menú contextual
 

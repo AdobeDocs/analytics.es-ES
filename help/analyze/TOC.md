@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y Activity Map.
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 99%
+source-wordcount: '1017'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 99%
       + [Información general sobre Proyectos](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Crear proyectos](analysis-workspace/build-workspace-project/create-projects.md)
       + [Guardar proyectos](analysis-workspace/build-workspace-project/save-projects.md)
+      + [Tabla de contenido del proyecto](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Carpetas en Workspace {#workspace-folders}
          + [Acerca de las carpetas en Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creación de carpetas y subcarpetas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
@@ -78,6 +79,7 @@ ht-degree: 99%
       + [Administración de fuentes de datos](analysis-workspace/visualizations/t-sync-visualization.md)
       + Tabla de forma libre {#freeform-table}
          + [Tabla de forma libre](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [Creación de hipervínculos para dimensiones en una tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Configuración de columna y fila {#column-row-settings}
             + [Configuración de columna](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Configuración de filas](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)

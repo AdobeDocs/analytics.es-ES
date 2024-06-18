@@ -4,16 +4,16 @@ title: Resumen de paneles
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 57%
+source-wordcount: '1580'
+ht-degree: 53%
 
 ---
 
 # Resumen de paneles
 
-Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono de la parte superior izquierda de Workspace o desde una [panel en blanco](blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, grupos de informes o casos de uso de análisis.
+Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles en el icono de la parte superior izquierda de Workspace o desde un [panel en blanco](blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, grupos de informes o casos de uso de análisis.
 
 ## Tipos de panel
 
@@ -33,7 +33,7 @@ A continuación, se describen los tipos de paneles que están disponibles en Ana
 
 ![](assets/panel-overview.png)
 
-Los paneles [!UICONTROL Información rápida], [!UICONTROL En blanco] y [!UICONTROL Forma libre] son excelentes puntos de partida para sus análisis, mientras que los paneles [!UICONTROL Analytics for Target], [!UICONTROL Attribution ], [!UICONTROL Visualizadores simultáneos de medios] y [!UICONTROL Comparación de segmentos] están pensados para análisis más avanzados. Hay un botón `"+"` disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
+[!UICONTROL Información rápida], [!UICONTROL Vacío] y [!UICONTROL Improvisado] los paneles son lugares ideales para iniciar el análisis, mientras que [!UICONTROL Analytics for Target], [!UICONTROL Atribución], [!UICONTROL Espectadores simultáneos de medios] y [!UICONTROL Comparación de segmentos] se prestan a análisis más avanzados. Hay un botón `"+"` disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
 
 El panel inicial predeterminado es [!UICONTROL Forma libre], pero también puede convertir el [Panel en blanco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) en el panel predeterminado.
 
@@ -62,9 +62,9 @@ La zona de colocación del panel permite aplicar filtros de segmentos y desplega
 
 ### Filtros de segmentos
 
-Arrastre y suelte cualquier segmento del carril izquierdo en la zona desplegable del panel para empezar a filtrar el panel.
+Arrastre y suelte cualquier segmento del carril izquierdo en la zona desplegable del panel para empezar a filtrar el panel. Repita este proceso para agregar filtros adicionales al panel. Los filtros aparecen uno al lado del otro en la parte superior del panel.
 
-![Filtro](/help/admin/admin/assets/filter.png)
+![Filtro](assets/segment-filter.png)
 
 ### Filtros de segmentos ad hoc
 
@@ -74,45 +74,60 @@ Los segmentos ad hoc son un tipo de segmento rápido y son locales del proyecto.
 
 Para obtener más información, consulte [Segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
-### Filtros desplegables estáticos
+### Segmentos desplegables estáticos
 
-Los filtros desplegables permiten interactuar con los datos de forma controlada. Por ejemplo, puede añadir un filtro desplegable para tipos de dispositivos móviles para poder segmentar el panel por dispositivos de tableta, teléfonos móviles o equipos de escritorio.
+Los segmentos desplegables permiten interactuar con los datos de forma controlada. Por ejemplo, puede agregar un segmento desplegable para tipos de dispositivos móviles para poder segmentar el panel por dispositivos de tableta, teléfonos móviles o equipos de escritorio.
 
-Los filtros desplegables también se pueden utilizar para consolidar muchos proyectos en uno. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes segmentos de país aplicados, puede consolidar todas las versiones en un único proyecto y añadir un filtro desplegable de país.
+Los segmentos desplegables también se pueden utilizar para consolidar muchos proyectos en uno. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes segmentos de país aplicados, puede consolidar todas las versiones en un único proyecto y añadir un segmento desplegable de país.
 
 ![](assets/dropdown-filter-intro.png)
 
-Para crear un filtro desplegable estático:
+#### Creación de segmentos desplegables estáticos
 
-* Para filtros desplegables que utilizan elementos de dimensión, haga clic en el icono de flecha derecha junto a la dimensión deseada en el carril izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Seleccionar varios elementos de dimensión de esta lista utilizando `[Shift + Click]` o `[Ctrl + Click]`, luego suéltelos en la zona desplegable del panel **mientras sostiene`[Shift]`**.
-* Para filtros desplegables que utilizan otros componentes, como métricas, segmentos o intervalos de fechas, seleccione varios componentes mediante `[Shift + Click]` o `[Ctrl + Click]`. Coloque la selección en la zona desplegable del panel **mientras sostiene`[Shift]`**. Todos los tipos de componentes se tratan como segmentos en este contexto.
-* Un solo filtro desplegable solo puede contener un solo tipo de componente. Si incluye varios tipos de componentes en la selección, se crea un filtro desplegable independiente por tipo de componente. Por ejemplo, si incluye métricas y elementos de dimensión en la selección, se crean dos filtros desplegables independientes. Un filtro desplegable incluye elementos de dimensión y el otro incluye métricas.
+* Para segmentos desplegables que utilizan elementos de dimensión, seleccione una sola dimensión del carril izquierdo y suéltela en la zona desplegable del panel **mientras sostiene`[Shift]`**. Esto crea un segmento desplegable con todos los elementos de dimensión asociados a esa dimensión.
 
-Seleccione una de las opciones de la lista desplegable para cambiar los datos del panel. También puede optar por no filtrar ninguno de los datos del panel seleccionando **[!UICONTROL Sin filtro]**.
+  O bien, si desea que el segmento desplegable incluya solo elementos de dimensión específicos asociados a una dimensión, haga clic en el icono de flecha derecha situado junto a la dimensión deseada en el carril izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Seleccionar varios elementos de dimensión de esta lista utilizando `[Shift + Click]` o `[Ctrl + Click]`, luego suéltelos en la zona desplegable del panel mientras mantiene pulsado `[Shift]`.
 
-![](assets/create-dropdown.png)
+* Para segmentos desplegables que utilizan un solo tipo de componente (por ejemplo, solo dimensiones, o solo segmentos, o solo métricas), seleccione varios elementos del mismo tipo en el carril izquierdo mediante `[Shift + Click]` o `[Ctrl + Click]`, luego suéltelos en la zona desplegable del panel **mientras sostiene`[Shift]`**.
 
-Al hacer clic con el botón derecho en un filtro desplegable, se proporcionan las siguientes opciones:
+  Se crea un único segmento desplegable con los componentes seleccionados.
 
-* **[!UICONTROL Añadir etiqueta]**: Cuando se añade un filtro desplegable a un proyecto, se establece automáticamente una etiqueta en el nombre del componente. Si elimina la etiqueta, puede agregarla de nuevo con esta opción.
-* **[!UICONTROL Eliminar etiqueta]**: elimine el texto situado encima de un filtro desplegable.
-* **[!UICONTROL Eliminar filtro desplegable]**: elimina el filtro desplegable del panel.
+* Para segmentos desplegables que utilizan una combinación de tipos de componentes (como 2 métricas y 3 filtros), seleccione varios componentes mediante `[Shift + Click]` o `[Ctrl + Click]`. Coloque la selección en la zona desplegable del panel **mientras mantiene pulsado`[Shift]`**. Todos los tipos de componentes se tratan como segmentos desplegables independientes en este contexto. Por ejemplo, si incluye métricas y elementos de dimensión en la selección, se crean dos segmentos desplegables independientes: un segmento desplegable incluye elementos de dimensión y el otro métricas.
+
+  ![La ventana Panel con el campo de segmento Cliente móvil disponible para soltar un segmento desplegable estático. ](assets/create-dropdown.png)
+
+Al hacer clic con el botón derecho en un segmento desplegable, se proporcionan las siguientes opciones:
+
+* **[!UICONTROL Eliminar lista desplegable]**: elimina el segmento desplegable del panel.
+* **[!UICONTROL Eliminar etiqueta]**: elimine el texto situado encima de un segmento desplegable.
+* **[!UICONTROL Añadir etiqueta]**: Cuando se añade un segmento desplegable a un proyecto, se establece automáticamente una etiqueta al nombre del componente. Si elimina la etiqueta, puede añadirla de nuevo con esta opción.
+* **[!UICONTROL Requerir selección]**: Requiere que haya un segmento definido en el panel.
 
 [Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=es) para obtener más información sobre cómo añadir filtros desplegables al proyecto.
 
-### Filtros desplegables dinámicos
+#### Usar filtros desplegables estáticos
 
-Los filtros desplegables dinámicos le permiten determinar los valores disponibles en función de los datos dentro del intervalo de informes del panel y los valores de otros filtros desplegables. Por ejemplo, puede crear dos desplegables dinámicos utilizando [Países](/help/components/dimensions/countries.md) dimensión y [Ciudades](/help/components/dimensions/cities.md) dimensión. Cuando selecciona un país del [!UICONTROL Países] lista desplegable, la variable [!UICONTROL Ciudades] la lista desplegable se ajusta dinámicamente para mostrar solo las ciudades de ese país.
+Los usuarios pueden utilizar el menú desplegable de cualquiera de las siguientes maneras para filtrar el panel:
 
-Este mismo concepto se aplica a todas las dimensiones; solo son visibles los elementos de dimensión que aparecen dentro del intervalo de fechas y los filtros seleccionados del panel. Los elementos de Dimension seleccionados en los filtros desplegables estáticos afectan a los valores disponibles en los filtros desplegables dinámicos. Sin embargo, lo contrario no es verdadero; los elementos de Dimension seleccionados en los filtros desplegables dinámicos no afectan a los valores disponibles en los filtros desplegables estáticos.
+* Aplique un solo filtro al panel seleccionando el filtro en el menú desplegable.
 
-La selección manual de elementos de dimensión está disponible si prevé que se recopilará un determinado elemento de dimensión en el futuro. También puede borrar un filtro desplegable dinámico para que no contenga un valor, lo que permitirá que otros filtros desplegables dinámicos contengan más valores. Seleccionar **[!UICONTROL Restablecer todo]** para borrar la selección de todos los filtros desplegables de ese panel.
+* Aplique varios filtros al panel seleccionando más de un filtro en el menú desplegable. El panel se filtra para incluir cualquiera de los filtros seleccionados.
 
-Para crear un filtro desplegable dinámico:
+  ![Seleccionar varios filtros](assets/dropdown-filter-multiselect.png)
 
-* Arrastre y suelte una sola dimensión en la zona desplegable del panel **mientras sostiene`[Shift]`**.
-* Los filtros desplegables dinámicos no están disponibles para métricas, segmentos o intervalos de fechas.
-* Haga clic con el botón derecho en un filtro desplegable y seleccione **[!UICONTROL Eliminar filtro]** para eliminarlo.
+### Segmentos desplegables dinámicos
+
+Los segmentos desplegables dinámicos le permiten determinar los valores disponibles en función de los datos dentro del intervalo de informes del panel y los valores de otros segmentos desplegables. Por ejemplo, puede crear dos desplegables dinámicos utilizando [Países](/help/components/dimensions/countries.md) dimensión y [Ciudades](/help/components/dimensions/cities.md) dimensión. Cuando selecciona un país del [!UICONTROL Países] lista desplegable, la variable [!UICONTROL Ciudades] la lista desplegable se ajusta dinámicamente para mostrar solo las ciudades de ese país.
+
+Este mismo concepto se aplica a todas las dimensiones; solo son visibles los elementos de dimensión que aparecen dentro del intervalo de fechas y los segmentos seleccionados del panel. Los elementos de Dimension seleccionados en segmentos desplegables estáticos afectan a los valores disponibles en los segmentos desplegables dinámicos. Sin embargo, lo contrario no es verdadero; los elementos de Dimension seleccionados en los segmentos desplegables dinámicos no afectan a los valores disponibles en los segmentos desplegables estáticos.
+
+La selección manual de elementos de dimensión está disponible si prevé que se recopilará un determinado elemento de dimensión en el futuro. También puede borrar un segmento desplegable dinámico para que no contenga un valor, lo que permitirá que otros segmentos desplegables dinámicos contengan más valores. Seleccionar **[!UICONTROL Restablecer todo]** para borrar la selección de todos los segmentos desplegables de ese panel.
+
+Para crear un segmento desplegable dinámico:
+
+* Arrastre y suelte una sola dimensión en la zona desplegable del panel **mientras mantiene pulsado`[Shift]`**.
+* Los segmentos desplegables dinámicos no están disponibles para métricas, segmentos o intervalos de fechas.
+* Haga clic con el botón derecho en un segmento desplegable y seleccione **[!UICONTROL Lista desplegable Eliminar]** para eliminarlo.
 
 Al hacer clic con el botón derecho en un filtro desplegable dinámico, se proporcionan las mismas opciones que en los filtros desplegables estáticos.
 
@@ -120,14 +135,14 @@ Al hacer clic con el botón derecho en un filtro desplegable dinámico, se propo
 
 Para obtener más funcionalidades, haga clic con el botón derecho en el encabezado del panel.
 
-![Menú contextual](assets/right-click-menu.png)
+![Menú del botón derecho](assets/right-click-menu.png)
 
 Las configuraciones disponibles son las siguientes:
 
 | Configuración | Descripción |
 | --- | --- |
-| Insertar panel copiado/visualización | Permite pegar (&quot;insertar&quot;) un panel copiado o una visualización en otro lugar del proyecto, o en otro proyecto. |
-| Copiar panel | Permite hacer clic con el botón derecho y copiar un panel para poder insertarlo en otro lugar del proyecto o en un proyecto diferente. |
+| Insertar panel copiado/visualización | Permite pegar (“insertar”) un panel copiado o una visualización en otro lugar del proyecto, o en otro proyecto diferente. |
+| Copiar panel | Permite hacer clic con el botón derecho y copiar un panel para poder insertarlo en otro lugar del proyecto o en un proyecto completamente diferente. |
 | Aplicar grupo de informes a todos los paneles | Permite aplicar el grupo de informes del panel activo a todos los paneles del proyecto. |
 | Duplicar panel | Crea un duplicado exacto del panel actual que podrá modificar a continuación. |
 | Contraer/expandir todos los paneles | Contrae y expande todos los paneles del proyecto. |

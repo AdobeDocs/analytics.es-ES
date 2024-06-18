@@ -3,10 +3,11 @@ description: Obtenga información sobre cómo añadir componentes a un proyecto 
 title: Uso de componentes en Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
+exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 15%
+source-wordcount: '873'
+ht-degree: 16%
 
 ---
 
@@ -32,9 +33,13 @@ Para obtener información general sobre los tipos de componentes que puede agreg
 
    ![](assets/build-components.png)
 
-1. Desplácese hasta el componente que desee añadir o búsquelo y arrástrelo a un panel o a una visualización dentro del proyecto.
+1. Desplácese hasta el componente que desee añadir o búsquelo y, a continuación, arrástrelo hasta un panel o visualización del proyecto.
 
-   Por ejemplo, puede arrastrar un segmento a la zona de colocación de segmentos en el encabezado de un panel.
+1. (Opcional) Arrastre un componente a la zona de colocación de segmentos en el encabezado de un panel.
+
+   Los segmentos se aplican a todo el contenido del panel.
+
+   Para obtener información sobre cómo puede utilizar la zona de colocación de segmentos en un panel para filtrar el panel, consulte [Zona de colocación](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Información general de paneles](/help/analyze/analysis-workspace/c-panels/panels.md).
 
    ![colocar un segmento en la zona de colocación](assets/segment-dropzone.png)
 
@@ -64,6 +69,10 @@ Para obtener información general sobre los tipos de componentes que puede agreg
 
      ![colocar un segmento en la zona de colocación](assets/segment-dropzone.png)
 
+1. (Opcional) Puede desglosar dimensiones y elementos de dimensión en Analysis Workspace con otros componentes.
+
+   Para obtener más información, consulte [Desglose de dimensiones](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+
 Para obtener más información sobre el uso de dimensiones en Analysis Workspace, consulte [Previsualizar dimensiones](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Desglose de dimensiones](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), y [Dimensiones de partición de tiempo](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
 ## Agregar métricas a un proyecto
@@ -92,31 +101,23 @@ Para obtener más información sobre cómo utilizar las métricas en Analysis Wo
 
 [Segmentos](/help/components/segmentation/seg-overview.md) permiten identificar subconjuntos de visitantes en función de sus características o de interacciones específicas.
 
-Para añadir un segmento a un proyecto en Analysis Workspace:
+Puede utilizar segmentos en Analysis Workspace de cualquiera de las siguientes maneras:
 
-1. Comience a añadir un segmento al proyecto en Analysis Workspace, tal como se describe en [Empezar a añadir componentes a un proyecto](#begin-adding-components-to-a-project).
+### Adición de segmentos a un panel
 
-1. Elija uno de los siguientes métodos para empezar a filtrar el panel:
+Cuando agrega segmentos a un panel, los segmentos se aplican a todo el contenido del panel.
 
-   * Arrastre un segmento individual desde el carril izquierdo a la zona de colocación de segmentos.
+Para obtener información sobre cómo puede utilizar la zona de colocación de segmentos en un panel para filtrar el panel, consulte [Zona de colocación](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Información general de paneles](/help/analyze/analysis-workspace/c-panels/panels.md).
 
-     ![colocar un segmento en la zona de colocación](assets/segment-dropzone.png)
+### Añadir segmentos a una columna en una tabla de forma libre
 
-   * Mantenga pulsada la tecla Mayús o Ctrl para seleccionar varios segmentos en el carril izquierdo y, a continuación, mantenga pulsada la tecla Mayús mientras los suelta en la zona de colocación de segmentos.
+Cuando se añaden segmentos a una columna de una tabla de forma libre, los segmentos se aplican a todo el contenido de la columna de la tabla.
 
-     ![colocar varios segmentos en la zona de colocación](assets/segment-dropzoone-multiple.png)
+### Uso de segmentos al crear métricas calculadas
 
-     Esto crea un menú desplegable, que permite a los usuarios del panel elegir el filtro que desean aplicar. El menú desplegable contiene un [!UICONTROL **Sin filtro**] que los usuarios pueden seleccionar, lo que deja el panel sin filtrar.
+En el Creador de métricas calculadas, puede aplicar segmentos dentro de su definición de métrica.
 
-     Puede seleccionar la (x) para eliminar cualquier opción del menú desplegable. Si elimina el [!UICONTROL **Sin filtro**] , se requiere un filtro.
-
-   * Cree segmentos ad hoc arrastrando componentes que no sean segmentos a la zona de colocación. Esto puede ahorrarle el tiempo y el tener que utilizar el Generador de segmentos. Los segmentos creados de esta manera se definen automáticamente como segmentos de nivel de visita individual. Puede modificar esta definición haciendo clic en el icono de información (i) junto al segmento, seleccionando el icono de edición con forma de lápiz y editándola en el Generador de segmentos.
-
-     Los segmentos ad hoc son un tipo de segmento rápido y son locales del proyecto. No aparecen en el carril izquierdo a menos que las haga públicas.
-
-     Para obtener más información, consulte [Segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
-
-Para obtener más información sobre cómo puede utilizar la zona de colocación de segmentos en un panel para filtrar el panel, consulte [Zona de colocación](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Información general de paneles](/help/analyze/analysis-workspace/c-panels/panels.md).
+Para obtener más información, consulte [Métricas segmentadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Adición de intervalos de fechas a un proyecto
 
