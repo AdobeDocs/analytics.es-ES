@@ -4,10 +4,10 @@ title: Acerca del Administrador de tareas programadas
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 93%
+source-wordcount: '778'
+ht-degree: 86%
 
 ---
 
@@ -19,10 +19,10 @@ El [!UICONTROL Administrador de tareas programadas] le permite ver una lista de 
 
 El 21 de abril de 2022, implementamos cambios en las tareas programadas en Report Builder como parte de nuestros esfuerzos de optimización de rendimiento y entrega. Estos cambios incluían la eliminación de la capacidad de que los envíos programados “terminen después de x incidencias”. En respuesta a varias solicitudes de clientes que buscan más tiempo para explorar e implementar alternativas, hemos decidido restaurar esta opción de forma limitada hasta el **31 de enero de 2023**.
 
-Podrá programar tareas de Report Builder por hora y hacer que finalicen después de un máximo de 99 incidencias. Tenga en cuenta que la reversión solo se aplica a tareas por hora; el evento “terminen después de x incidencias” permanecerá no disponible para todos los demás intervalos de entrega (diario, semanal, mensual y anual).
+Podrá programar tareas de Report Builder por hora y hacer que finalicen después de un máximo de 99 incidencias. Tenga en cuenta que la reversión solo se aplica a tareas por hora; el evento &quot;terminar después de x incidencias&quot; permanecerá no disponible para todos los demás intervalos de entrega (diario, semanal, mensual y anual).
 
-Tenga en cuenta que esta opción quedará obsoleta el 31 de enero de 2023.
-Para obtener más información o ayuda, póngase en contacto con el Servicio de atención al cliente de Adobe.
+Tenga en cuenta que esta opción se retiró el 31 de enero de 2023.
+Para obtener más información o asistencia, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 Específicamente, esta pausa se aplica a **cualquier tarea creada antes del 31 de enero de 2020**. No se eliminarán tareas, libros ni datos. Las tareas que tengan más de dos años se pausarán y no se enviarán tareas programadas adicionales.
 

@@ -4,9 +4,9 @@ title: Migración de usuarios de Analytics a Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3084'
 ht-degree: 97%
 
 ---
@@ -269,7 +269,7 @@ Información importante sobre el proceso de migración y su impacto en la admini
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Iniciar sesión como </p> </td> 
-   <td colname="col2"> <p> Los administradores que realicen la migración a Adobe Admin Console ya no podrán utilizar la función “Iniciar sesión como” para acceder a cuentas de usuario que no son de administración migradas a Adobe Admin Console. Esta función se va a dejar de utilizar con Analytics. </p> </td> 
+   <td colname="col2"> <p> Los administradores que realicen la migración a Adobe Admin Console ya no podrán utilizar la función “Iniciar sesión como” para acceder a cuentas de usuario que no son de administración migradas a Adobe Admin Console. Esta función está retirada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caducidad de usuarios y transferencia de recursos </p> </td> 

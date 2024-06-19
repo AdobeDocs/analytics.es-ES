@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
-workflow-type: ht
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+workflow-type: tm+mt
 source-wordcount: '3928'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -161,7 +161,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`namespace`** | No se usa. Parte de una función limpiada. | varchar(50) |
 | **`new_visit`** | Un indicador que determina si la visita actual es una nueva visita. Los servidores de Adobe lo establecen después de 30 minutos de inactividad de la visita. | tinyint sin firmar |
 | **`os`** | ID numérica que representa el sistema operativo del visitante. Se basa en la columna`user_agent`. El valor clave de `operating_system.tsv` búsqueda estándar y `operating_system_type.tsv` [Búsqueda dinámica](dynamic-lookups.md). | int sin firmar |
-| **`p_plugins`** | Ya no se utiliza. Lista de plugins disponibles para el explorador. Utilizaba la función de JavaScript `navigator.plugins()`. | texto |
+| **`p_plugins`** | Ya no se utiliza. Lista de complementos disponibles para el explorador. Utilizaba la función de JavaScript `navigator.plugins()`. | texto |
 | **`page_event`** | El tipo de visita que se envía en la solicitud de imagen (visita estándar, vínculo de descarga, vínculo personalizado, vínculo de salida). Consulte [Búsqueda de evento de página](datafeeds-page-event.md). | tinyint sin firmar |
 | **`page_event_var1`** | Solo se utiliza en las solicitudes de imagen de seguimiento de vínculos. Es la URL del vínculo de descarga, el vínculo de salida o el vínculo personalizado en el que se ha hecho clic. | texto |
 | **`page_event_var2`** | Solo se utiliza en las solicitudes de imagen de seguimiento de vínculos. El nombre personalizado (si se especifica) del vínculo. | varchar(100) |
@@ -173,7 +173,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`paid_search`** | Un indicador que se establece si la visita coincide con la detección de búsquedas de pago. | tinyint sin firmar |
 | **`partner_plugins`** | No se usa. Parte de una función limpiada. | varchar(255) |
 | **`persistent_cookie`** | Se utiliza en la dimensión [Compatibilidad con cookies persistentes](/help/components/dimensions/persistent-cookie-support.md). Indica si el visitante admite las cookies que no se descartan después de cada visita. | char(1) |
-| **`plugins`** | Ya no se utiliza. Lista de ID numéricas que corresponden a los plugins disponibles dentro del explorador. Utiliza la búsqueda `plugins.tsv`. | varchar(180) |
+| **`plugins`** | Ya no se utiliza. Lista de ID numéricos que corresponden a los complementos disponibles en el explorador. Utiliza la búsqueda `plugins.tsv`. | varchar(180) |
 | **`pointofinterest`** | Nombre del punto de interés de Mobile Services | varchar(255) |
 | **`pointofinterestdistance`** | Distancia de Mobile Services al centro de puntos de interés | varchar(255) |
 | Columnas **`post_`** | Contiene el valor definitivo que se ha utilizado en los informes. Cada columna de publicación se completa después de la lógica del lado del servidor, las reglas de procesamiento y las reglas de VISTA. Adobe recomienda usar columnas de publicación en la mayoría de los casos. | Consulte la correspondiente columna de no publicación |

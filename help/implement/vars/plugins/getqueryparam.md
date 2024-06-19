@@ -4,10 +4,10 @@ description: Extraiga el valor de un parámetro de cadena de consulta de una dir
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 74%
+source-wordcount: '760'
+ht-degree: 73%
 
 ---
 
@@ -136,7 +136,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0 (19 de marzo de 2021)
 
 * Se ha añadido el número de versión como datos de contexto.
-* Se han eliminado las dependencias del plug-in pt.
+* Se han eliminado dependencias en `pt` plug-in.
 
 ### 3.3 (24 de septiembre de 2019)
 

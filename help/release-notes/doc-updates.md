@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '5586'
 ht-degree: 99%
@@ -140,7 +140,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | VISTA | Nueva página que explica los conceptos básicos de las [Reglas de VISTA](/help/technotes/vista.md). |
 | **Septiembre de 2022** | |
 | Gráficos combinados | Nuevo tema sobre visualización de [gráficos combinados](/help/analyze/analysis-workspace/visualizations/combo-charts.md). |
-| Complemento actualizado | Versión actualizada del complemento de implementación [getvalonce](/help/implement/vars/plugins/getvalonce.md). |
+| Complemento actualizado | Versión actualizada del [getvalonce](/help/implement/vars/plugins/getvalonce.md) complemento de implementación. |
 | Nueva variable de configuración | Documentación sobre [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
 | Sugerencias de cliente de alta entropía | Nuevo tema sobre cómo utiliza Adobe las [sugerencias del cliente](/help/technotes/client-hints.md) además del Agente de usuario para determinar la información sobre dispositivos. |
 | Orden de procesamiento | Se han añadido varias páginas de ayuda para proporcionar un solo tema de ayuda sobre el [Orden de procesamiento](/help/technotes/processing-order.md). |

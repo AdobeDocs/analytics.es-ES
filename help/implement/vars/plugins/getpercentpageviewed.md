@@ -4,10 +4,10 @@ description: Recupere el porcentaje de la página que vio el visitante.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: d53a2aba80455c2d807bc47e579cad4483c99c3b
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -117,7 +117,7 @@ if(_ppvPreviousPage)
 
 ### 5.0.1 (22 de junio de 2021)
 
-* Se ha corregido un problema por el cual algunos caracteres especiales provocaban que el plug-in se dañara
+* Se ha corregido un problema por el cual algunos caracteres especiales provocaban que el complemento se dañara
 
 ### 5.0 (19 de marzo de 2021)
 

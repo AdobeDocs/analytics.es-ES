@@ -4,10 +4,10 @@ description: Identifique de forma dinámica los bots moviendo el ratón.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement
 
 ## Uso del complemento
 
-El complemento `websiteBot` activa una llamada `s.tl` si se detecta tráfico que no sea de bots.
+El `websiteBot` el complemento activa una `s.tl` invoque si se detecta tráfico que no sea de bots.
 
 ## Ejemplos
 

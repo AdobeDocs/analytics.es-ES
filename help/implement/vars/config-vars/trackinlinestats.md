@@ -1,13 +1,13 @@
 ---
 title: trackInlineStats
-description: Habilite o deshabilite el ClickMap en la implementación.
+description: (Retirado) Habilite o deshabilite el ClickMap en la implementación.
 keywords: deshabilitar clickmap
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '192'
 ht-degree: 30%
 
 ---
