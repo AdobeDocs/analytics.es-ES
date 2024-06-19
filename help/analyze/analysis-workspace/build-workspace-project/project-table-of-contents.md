@@ -4,16 +4,17 @@ keywords: Analysis Workspace
 title: Tabla de contenido del proyecto
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
+exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
+source-git-commit: e0b3ebf03fb1c37835a5580a7277cb81d9e3138b
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '135'
 ht-degree: 1%
 
 ---
 
 # Tabla de contenido del proyecto
 
-Hay disponible una tabla de contenido dentro de cada proyecto. Esto le permite saltar rápidamente entre paneles y visualizaciones dentro del proyecto. Esto resulta especialmente útil cuando se visualizan proyectos de mayor tamaño que contienen muchos paneles y visualizaciones.
+Puede ver una tabla de contenido dentro de cada proyecto en Analysis Workspace, lo que le permite moverse rápidamente entre cualquier panel y visualización que exista en el proyecto. Esto resulta especialmente útil cuando se visualizan proyectos de mayor tamaño que contienen muchos paneles y visualizaciones.
 
 Para ver la tabla de contenido de un proyecto:
 
@@ -21,6 +22,8 @@ Para ver la tabla de contenido de un proyecto:
 
 1. En la navegación izquierda, seleccione el icono de tabla de contenido ![icono de tabla de contenido](assets/toc-icon.png).
 
-   La tabla de contenido del proyecto se muestra y se expande.
+   Se muestra la tabla de contenido del proyecto y cada panel se expande de forma predeterminada.
 
-1. Haga clic en una sección de la tabla de contenido para saltar a un panel o a una visualización dentro del proyecto.
+   ![TDC del proyecto expandido](assets/project-toc-expanded.png)
+
+1. En la tabla de contenido, seleccione una visualización para ir a ella dentro del proyecto.

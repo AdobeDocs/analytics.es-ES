@@ -4,10 +4,10 @@ title: Resumen de paneles
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
+source-git-commit: 77401e3e4f69c67d1010905be15bc9ccb4b73e90
 workflow-type: tm+mt
-source-wordcount: '1580'
-ht-degree: 53%
+source-wordcount: '1570'
+ht-degree: 51%
 
 ---
 
@@ -58,7 +58,7 @@ Puede aplicar un intervalo de fechas de nivel de minuto bajo la configuración a
 
 ## Zona de colocación {#dropzone}
 
-La zona de colocación del panel permite aplicar filtros de segmentos y desplegables a todas las tablas y visualizaciones dentro de un panel. Puede aplicar uno o varios filtros a un panel. El título sobre cada filtro se puede modificar haciendo clic en el lápiz de edición, o bien puede hacer clic con el botón derecho para eliminarlo por completo.
+La zona de colocación del panel permite aplicar filtros de segmentos y desplegables a todas las tablas y visualizaciones dentro de un panel. Puede aplicar uno o varios filtros a un panel.
 
 ### Filtros de segmentos
 
@@ -76,9 +76,9 @@ Para obtener más información, consulte [Segmentos rápidos](/help/analyze/anal
 
 ### Segmentos desplegables estáticos
 
-Los segmentos desplegables permiten interactuar con los datos de forma controlada. Por ejemplo, puede agregar un segmento desplegable para tipos de dispositivos móviles para poder segmentar el panel por dispositivos de tableta, teléfonos móviles o equipos de escritorio.
+Los segmentos desplegables estáticos permiten interactuar con los datos de forma controlada. Por ejemplo, puede agregar un segmento desplegable para tipos de dispositivos móviles para poder segmentar el panel por dispositivos de tableta, teléfonos móviles o equipos de escritorio.
 
-Los segmentos desplegables también se pueden utilizar para consolidar muchos proyectos en uno. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes segmentos de país aplicados, puede consolidar todas las versiones en un único proyecto y añadir un segmento desplegable de país.
+Los segmentos desplegables estáticos también se pueden utilizar para consolidar muchos proyectos en uno. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes segmentos de país aplicados, puede consolidar todas las versiones en un único proyecto y añadir un segmento desplegable de país.
 
 ![](assets/dropdown-filter-intro.png)
 
@@ -86,34 +86,34 @@ Los segmentos desplegables también se pueden utilizar para consolidar muchos pr
 
 * Para segmentos desplegables que utilizan elementos de dimensión, seleccione una sola dimensión del carril izquierdo y suéltela en la zona desplegable del panel **mientras sostiene`[Shift]`**. Esto crea un segmento desplegable con todos los elementos de dimensión asociados a esa dimensión.
 
-  O bien, si desea que el segmento desplegable incluya solo elementos de dimensión específicos asociados a una dimensión, haga clic en el icono de flecha derecha situado junto a la dimensión deseada en el carril izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Seleccionar varios elementos de dimensión de esta lista utilizando `[Shift + Click]` o `[Ctrl + Click]`, luego suéltelos en la zona desplegable del panel mientras mantiene pulsado `[Shift]`.
+  O bien, si desea que el segmento desplegable incluya solo elementos de dimensión específicos asociados a una dimensión, haga clic en el icono de flecha derecha situado junto a la dimensión deseada en el carril izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Seleccionar varios elementos de dimensión de esta lista utilizando `[Shift + Click]` o `[Ctrl + Click]`, luego suéltelos en la zona desplegable del panel **mientras sostiene** `[Shift]`.
 
 * Para segmentos desplegables que utilizan un solo tipo de componente (por ejemplo, solo dimensiones, o solo segmentos, o solo métricas), seleccione varios elementos del mismo tipo en el carril izquierdo mediante `[Shift + Click]` o `[Ctrl + Click]`, luego suéltelos en la zona desplegable del panel **mientras sostiene`[Shift]`**.
 
   Se crea un único segmento desplegable con los componentes seleccionados.
 
-* Para segmentos desplegables que utilizan una combinación de tipos de componentes (como 2 métricas y 3 filtros), seleccione varios componentes mediante `[Shift + Click]` o `[Ctrl + Click]`. Coloque la selección en la zona desplegable del panel **mientras mantiene pulsado`[Shift]`**. Todos los tipos de componentes se tratan como segmentos desplegables independientes en este contexto. Por ejemplo, si incluye métricas y elementos de dimensión en la selección, se crean dos segmentos desplegables independientes: un segmento desplegable incluye elementos de dimensión y el otro métricas.
+* Para segmentos desplegables que utilizan una combinación de tipos de componentes (como 2 métricas y 3 filtros), seleccione varios componentes mediante `[Shift + Click]` o `[Ctrl + Click]`. Coloque la selección en la zona desplegable del panel **mientras mantiene pulsado`[Shift]`**. En este contexto, todos los tipos de componentes se tratan como segmentos desplegables independientes. Por ejemplo, si incluye métricas y elementos de dimensión en la selección, se crean dos segmentos desplegables independientes: un segmento desplegable incluye elementos de dimensión y el otro métricas.
 
   ![La ventana Panel con el campo de segmento Cliente móvil disponible para soltar un segmento desplegable estático. ](assets/create-dropdown.png)
 
 Al hacer clic con el botón derecho en un segmento desplegable, se proporcionan las siguientes opciones:
 
 * **[!UICONTROL Eliminar lista desplegable]**: elimina el segmento desplegable del panel.
-* **[!UICONTROL Eliminar etiqueta]**: elimine el texto situado encima de un segmento desplegable.
+* **[!UICONTROL Eliminar etiqueta]**: elimine el texto situado encima de un segmento desplegable. Para modificar la etiqueta, seleccione el icono de lápiz.
 * **[!UICONTROL Añadir etiqueta]**: Cuando se añade un segmento desplegable a un proyecto, se establece automáticamente una etiqueta al nombre del componente. Si elimina la etiqueta, puede añadirla de nuevo con esta opción.
 * **[!UICONTROL Requerir selección]**: Requiere que haya un segmento definido en el panel.
 
 [Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=es) para obtener más información sobre cómo añadir filtros desplegables al proyecto.
 
-#### Usar filtros desplegables estáticos
+#### Uso de segmentos desplegables estáticos
 
-Los usuarios pueden utilizar el menú desplegable de cualquiera de las siguientes maneras para filtrar el panel:
+Los usuarios pueden utilizar el menú desplegable de segmentos de cualquiera de las siguientes maneras para filtrar el panel:
 
-* Aplique un solo filtro al panel seleccionando el filtro en el menú desplegable.
+* Aplique un solo segmento al panel seleccionando el segmento en el menú desplegable.
 
-* Aplique varios filtros al panel seleccionando más de un filtro en el menú desplegable. El panel se filtra para incluir cualquiera de los filtros seleccionados.
+* Aplique varios segmentos al panel seleccionando más de un segmento en el menú desplegable. El panel se filtra para incluir cualquiera de los segmentos seleccionados.
 
-  ![Seleccionar varios filtros](assets/dropdown-filter-multiselect.png)
+  ![Seleccionar varios segmentos](assets/dropdown-filter-multiselect.png)
 
 ### Segmentos desplegables dinámicos
 
