@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Administrador de ubicaciones
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: c42ad8d3e0c21cc1fb13f9a8993aca4825286d4f
+source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 1%
@@ -128,8 +128,6 @@ Para eliminar una cuenta:
 1. Seleccione el icono de 3 puntos en la cuenta que desee editar y, a continuación, seleccione [!UICONTROL **Eliminar cuenta**]
 
 ## Configuración en toda la empresa (solo administradores)
-
-{{release-limited-testing-section}}
 
 Los administradores del sistema pueden restringir la creación de cuentas y ubicaciones por parte de los usuarios, o bien pueden limitar los tipos de cuentas que los usuarios pueden crear y utilizar.
 
