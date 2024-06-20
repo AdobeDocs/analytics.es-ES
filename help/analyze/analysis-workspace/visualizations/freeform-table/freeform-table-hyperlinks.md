@@ -3,9 +3,10 @@ title: Creación de hipervínculos en una tabla de forma libre en Analysis Works
 description: Obtenga información sobre cómo crear hipervínculos para elementos de dimensión en una tabla de forma libre en Analysis Workspace
 feature: Freeform Tables
 role: User, Admin
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
+exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
+source-git-commit: 00a0288616401045585f70c768a20fc122e584c9
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -35,6 +36,8 @@ Tenga en cuenta lo siguiente al crear hipervínculos para elementos de dimensió
   Si crea un hipervínculo que tiene una dirección URL no válida o si crea un hipervínculo que hace referencia a un elemento de dimensión que no tiene un valor de dirección URL (ya sea haciendo referencia al elemento de dimensión directamente o utilizando `$value` o `$breakdown` ), los usuarios que hagan clic en el hipervínculo verán un mensaje de error que indica que la dirección URL no es válida.
 
 * Los hipervínculos creados para un solo elemento de dimensión anulan los hipervínculos creados en la dimensión.
+
+* Los hipervínculos no funcionan en [archivos de PDF descargados](/help/analyze/analysis-workspace/curate-share/download-send.md).
 
 Para crear hipervínculos para uno o varios elementos de dimensión:
 
@@ -130,4 +133,3 @@ Para eliminar hipervínculos de elementos de dimensión:
    El hipervínculo se quita del elemento de dimensión único (si ha seleccionado un elemento de dimensión único) o de todos los elementos de dimensión (si ha seleccionado el nombre de dimensión en el encabezado de columna de dimensión).
 
 1. [Guarde el proyecto](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) para guardar los cambios.
-
