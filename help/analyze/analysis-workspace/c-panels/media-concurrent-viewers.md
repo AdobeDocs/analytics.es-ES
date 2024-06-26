@@ -4,20 +4,20 @@ description: Cómo utilizar e interpretar el panel Visualizadores simultáneos d
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 100%
+source-wordcount: '1029'
+ht-degree: 91%
 
 ---
 
 # Panel de visualizadores simultáneos de medios
 
-Los clientes de Media Analytics pueden analizar los visualizadores simultáneos para comprender dónde se produjo el pico de concurrencia o dónde se produjeron los abandonos para proporcionar un valioso conocimiento de la calidad del contenido y la participación del visualizador, así como para ayudar a solucionar problemas o a planificar el volumen y la escala.
+Los clientes que hayan adquirido el complemento de recopilación de medios de streaming pueden analizar los visualizadores simultáneos para comprender dónde se produjo el pico de concurrencia o dónde se produjeron los descensos para proporcionar un valioso conocimiento de la calidad del contenido y la participación del visualizador, así como para ayudar a solucionar problemas o a planificar el volumen y la escala.
 
 En Analysis Workspace, los visualizadores simultáneos comprende la cantidad de visitantes únicos que visualizan sus flujos de medios en un momento específico, independientemente de la cantidad de sesiones.
 
-El panel Visualizadores simultáneos de medios permite el análisis de los visualizadores simultáneos a lo largo del tiempo, con detalles sobre la concurrencia máxima y la capacidad de desglosar y comparar.  Para acceder al panel Visualizadores simultáneos de medios, vaya a un grupo de informes con los componentes de Media Analytics habilitados. A continuación, haga clic en el icono del panel situado en el extremo izquierdo y arrastre el panel a su proyecto de Analysis Workspace.
+El panel Visualizadores simultáneos de medios permite el análisis de los visualizadores simultáneos a lo largo del tiempo, con detalles sobre la concurrencia máxima y la capacidad de desglosar y comparar.  Para acceder al panel Visualizadores simultáneos de medios, vaya a un grupo de informes con los componentes de medios de streaming habilitados. A continuación, haga clic en el icono del panel situado en el extremo izquierdo y arrastre el panel a su proyecto de Analysis Workspace.
 
 A continuación se muestra un vídeo introductorio de este panel:
 
@@ -59,7 +59,7 @@ La única métrica que se puede usar en este panel es Visualizadores simultáneo
 
 | Métrica | Descripción |
 |---|---|
-| Visualizadores simultáneos | Número de visitantes únicos que ven sus flujos de medios en un punto específico en el tiempo, independientemente del número de sesiones.<br><br>Esto es diferente a los informes de Visualizadores simultáneos de la sección Informes, que utiliza Sesiones activas concurrentes.  El uso de visitantes únicos permite eliminar los “picos” no deseados en los límites de los programas (donde las sesiones finalizan y comienzan al mismo tiempo). |
+| Visualizadores simultáneos | Número de visitantes únicos que ven sus flujos de medios en un punto específico en el tiempo, independientemente del número de sesiones.<br><br>Esto es diferente a los informes de Visualizadores simultáneos de la sección Informes, que utiliza Sesiones activas concurrentes.  El uso de visitantes únicos permite eliminar los &quot;picos&quot; no deseados en los límites de los programas (donde las sesiones finalizan y comienzan al mismo tiempo). |
 
 No hay ninguna tabla de forma libre disponible en esta vista.  Para ver la fuente de datos, puede hacer clic con el botón derecho en el gráfico de líneas y descargarlo como archivo .csv.  Se incluirán los desgloses de serie.
 

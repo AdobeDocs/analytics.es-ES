@@ -3,10 +3,10 @@ title: Compatibilidad de dimensiones de Analytics
 description: Referencia para dimensiones e informes de Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 97%
+source-wordcount: '890'
+ht-degree: 96%
 
 ---
 
@@ -157,7 +157,7 @@ Esta página enumera [dimensiones](overview.md) compatibles con sus respectivas 
 
 ## Dimensiones de reconocimiento de contenido compatibles con Analysis Workspace
 
-### Vídeo (análisis de medios)
+### Vídeo (complemento de recopilación de medios de streaming)
 
 | Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
@@ -280,7 +280,7 @@ Esta página enumera [dimensiones](overview.md) compatibles con sus respectivas 
 | Vínculo de Activity Map por región | `clickmaplinkbyregion` |
 | Región de Activity Map | `clickmapregion` |
 | Vínculo de Activity Map | `clickmaplink` |
-| Página del Activity Map | `clickmappage` |
+| Página de Activity Map | `clickmappage` |
 
 ### Integración de Nielsen
 

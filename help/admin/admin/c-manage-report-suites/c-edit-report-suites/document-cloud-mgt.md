@@ -2,13 +2,13 @@
 description: Puede ver datos del Document Cloud en Adobe Analytics
 title: Configuración de Document Cloud Analytics
 feature: Admin Tools
-source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
+exl-id: 4bcc5be7-cad1-4969-9d19-0db8f3f6a374
+source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 0%
+source-wordcount: '110'
+ht-degree: 5%
 
 ---
-
 
 # Configuración de Document Cloud con Adobe Analytics
 
@@ -20,8 +20,8 @@ Las siguientes opciones de administración de Document Cloud están disponibles 
 
 * [!UICONTROL **Informes de Document Cloud**]
 
-   Los informes específicos de medios de streaming están disponibles en la página Informes de medios. Para obtener más información sobre los informes de contenidos, consulte [Configuración de informes de Document Cloud](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
+  Los informes específicos del complemento de recopilación de medios de streaming están disponibles en la página Informes de medios. Para obtener más información sobre los informes de contenidos, consulte [Configuración de informes de Document Cloud](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
 
 * [!UICONTROL **Clasificaciones de Document Cloud**]
 
-   Las clasificaciones específicas del Document Cloud están disponibles en la página Clasificaciones del Document Cloud. Para obtener información sobre las clasificaciones, consulte [Clasificaciones de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+  Las clasificaciones específicas del Document Cloud están disponibles en la página Clasificaciones del Document Cloud. Para obtener información sobre las clasificaciones, consulte [Clasificaciones de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).

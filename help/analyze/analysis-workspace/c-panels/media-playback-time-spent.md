@@ -4,9 +4,9 @@ description: Cómo utilizar e interpretar el panel Tiempo invertido en la reprod
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '928'
 ht-degree: 73%
 
 ---
@@ -17,7 +17,7 @@ En Analysis Workspace, Tiempo invertido en la reproducción de contenido es la c
 
 El panel Tiempo invertido en la reproducción de contenido permite analizar la reproducción a lo largo del tiempo, con detalles sobre los picos de concurrencia y la capacidad de realizar desgloses y comparaciones.
 
-Los clientes de Media Analytics pueden analizar el tiempo invertido en la reproducción para obtener un valioso conocimiento de la calidad del contenido y la participación del visualizador, así como para ayudar a solucionar problemas o a planificar el volumen o la escala.
+Los clientes que hayan adquirido el complemento de recopilación de medios de streaming pueden analizar el tiempo invertido en la reproducción para obtener un valioso conocimiento de la calidad del contenido y la participación del visualizador, así como para ayudar a solucionar problemas o a planificar el volumen y la escala.
 
 El tiempo invertido en la reproducción puede ayudarle a comprender lo siguiente:
 
@@ -31,7 +31,7 @@ A continuación se muestra un vídeo introductorio de este panel:
 
 ## Uso del panel Tiempo invertido en la reproducción de medios
 
-1. Vaya a un grupo de informes con los componentes de Media Analytics habilitados.
+1. Vaya a un grupo de informes con los componentes de medios de streaming habilitados.
 1. Seleccione el icono del panel en el extremo izquierdo y, a continuación, arrastre el panel a su proyecto de Analysis Workspace.
 1. Continúe con las secciones siguientes para personalizar el panel Tiempo invertido en la reproducción de medios
 
