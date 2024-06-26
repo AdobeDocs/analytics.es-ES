@@ -4,10 +4,10 @@ description: Ayuda de administración para administradores de Adobe Analytics, i
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 91%
+source-wordcount: '311'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Esta guía no cubre muchas de las capacidades genéricas que ofrece Adobe Admin 
 
 ## Artículos clave
 
-* [Guía inicial de administración de Analytics](admin-console/first-admin-guide.md): Si su organización es nueva en Adobe Analytics, siga esta guía para comenzar a sacar el máximo partido a Adobe Analytics.
+* [Guía de administración inicial de Analytics](admin-console/first-admin-guide.md): si su empresa es nueva en Adobe Analytics, siga esta guía para comenzar a sacar el máximo partido a Adobe Analytics.
 * [Administrador de grupos de informes](admin/c-manage-report-suites/report-suites-admin.md): La herramienta de administración más utilizada en Analytics. El Administrador de grupos de informes contiene opciones para la administración de variables, administración de clasificación, zonas horarias y mucho más.
 
 ## Más guías del usuario de Analytics
@@ -44,7 +44,7 @@ Esta guía no cubre muchas de las capacidades genéricas que ofrece Adobe Admin 
 
 ## Recursos clave de Analytics
 
-* [Contactar con el servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=es#support)
-* [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Contactar con el servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Analytics?lang=es#support)
+* [Comunidad de Adobe Analytics en Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
 * [Recursos de Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=es)
 * [Experience League](https://experienceleague.adobe.com/?lang=es#home)
