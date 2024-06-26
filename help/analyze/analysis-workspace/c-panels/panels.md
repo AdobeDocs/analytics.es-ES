@@ -4,9 +4,9 @@ title: Resumen de paneles
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 77401e3e4f69c67d1010905be15bc9ccb4b73e90
+source-git-commit: aacba26d0eb612146a9e0bf6386f9e755a9e8f07
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1582'
 ht-degree: 51%
 
 ---
@@ -107,11 +107,13 @@ Al hacer clic con el botón derecho en un segmento desplegable, se proporcionan 
 
 #### Uso de segmentos desplegables estáticos
 
-Los usuarios pueden utilizar el menú desplegable de segmentos de cualquiera de las siguientes maneras para filtrar el panel:
+Utilice el menú desplegable de segmentos de cualquiera de las siguientes maneras para filtrar el panel:
 
 * Aplique un solo segmento al panel seleccionando el segmento en el menú desplegable.
 
 * Aplique varios segmentos al panel seleccionando más de un segmento en el menú desplegable. El panel se filtra para incluir cualquiera de los segmentos seleccionados.
+
+  Para quitar un segmento de la lista, selecciónelo de nuevo en el menú desplegable.
 
   ![Seleccionar varios segmentos](assets/dropdown-filter-multiselect.png)
 
