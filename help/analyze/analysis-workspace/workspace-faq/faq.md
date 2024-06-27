@@ -4,10 +4,10 @@ title: Preguntas frecuentes y resolución de problemas de Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 97%
+source-wordcount: '544'
+ht-degree: 91%
 
 ---
 
@@ -31,10 +31,6 @@ Ahora puede crear proyectos en Analysis Workspace con datos de [más de un grupo
 
 +++¿Cómo se implementa Analysis Workspace?
 No se requiere implementación especial. Analysis Workspace está disponible en todas las empresas con Analytics estándar o premium. Sin embargo, son aplicables los permisos estándares para el contenido (como los grupos de informes y los componentes de proyecto) y para la depurar y compartir proyectos. Consulte [Administración y requisitos de acceso](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
-+++
-
-+++¿Analysis Workspace cambia los informes preconfigurados en Adobe Analytics?
-No. Como es un entorno separado, no se producen cambios en sus informes existentes o preconfigurados en Adobe Analytics. Puede seguir utilizando informes de Report Builder estándar con Analysis Workspace.
 +++
 
 +++¿Puedo usar Analysis Workspace para Data Warehouse?
@@ -71,4 +67,8 @@ Si ha creado correctamente un informe de espacio de trabajo pero no hay datos, p
 * Si aplicó un segmento en el informe, es posible que los criterios del segmento no coincidan con ningún dato. Intente eliminar el segmento o ajustar la definición del mismo.
 * Compruebe el intervalo de fechas en la esquina superior derecha y compruebe que está establecido en un valor que esperaba.
 * Vaya al sitio web y utilice [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es) para validar que se están recopilando datos.
++++
+
++++Como usuario de solo lectura, ¿qué acciones puedo realizar en Analysis Workspace?
+Cuando un proyecto se comparte como de solo lectura, todas las funciones y características de edición se desactivan por completo y los destinatarios solo pueden cambiar la lista desplegable para aplicar un filtro al panel de forma predefinida.
 +++
