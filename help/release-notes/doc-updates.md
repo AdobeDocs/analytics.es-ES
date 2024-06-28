@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
 workflow-type: tm+mt
 source-wordcount: '5695'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Se ha actualizado el nombre del producto que hace referencia a las funciones de medios de streaming | Se han reemplazado las instancias de &quot;Media Analytics&quot; y &quot;Streaming Media&quot; con el nombre de &quot;Complemento de recopilación de medios de streaming&quot; al hacer referencia al conjunto de funciones de medios de streaming que recopilan datos de medios de streaming y los muestran en Analysis Workspace. <p>Estas actualizaciones están disponibles en toda la documentación de Adobe Analytics, así como en el [Documentación del complemento de recopilación de medios de streaming](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).</p> |
 | Documentación de alertas inteligentes mejorada | Se ha actualizado y mejorado la documentación sobre alertas. Estas actualizaciones incluyen información sobre la [creación de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), la [administración de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), e [información general](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | Obsoleto `cookieDomainPeriods` | Ahora que el AppMeasurement detecta automáticamente el dominio correcto en el que se configurarán las cookies, la variable [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) está obsoleta. |
-| Retirar documentación de Data Connectors | Se ha movido la página de finalización de la vida útil de Data Connectors a [Productos discontinuados](https://experienceleague.adobe.com/en/docs/discontinued/using/data-connectors). |
+| Retirar documentación de Data Connectors | Se ha movido la página de finalización de la vida útil de Data Connectors a [Productos discontinuados](https://experienceleague.adobe.com/es/docs/discontinued/using/data-connectors). |
 | **Mayo de 2024** | |
 | Información necesaria al utilizar restricciones de política de organización con Google Cloud Platform en fuentes de datos y Data Warehouse | Se ha añadido el ID de organización de Google Cloud Platform propiedad de Adobe a la documentación de [fuentes de datos](/help/export/analytics-data-feed/create-feed.md) y [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). <p>Esta información solo es necesaria para las organizaciones que utilizan [Restricciones de política de organización](https://cloud.google.com/storage/docs/org-policy-constraints) en Google Cloud Platform.</p> |
 | Documentación sobre la adición de componentes a proyectos | Se ha añadido información general sobre cómo [añadir distintos tipos de componentes a los proyectos en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
