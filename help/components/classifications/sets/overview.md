@@ -3,10 +3,10 @@ title: Información general sobre los conjuntos de clasificación
 description: Utilice los conjuntos de clasificaciones para administrar los datos de clasificación.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 84%
 
 ---
 
@@ -16,11 +16,15 @@ Los conjuntos de clasificaciones proporcionan una interfaz única para administr
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificaciones]**
 
+Debe ser administrador de productos o pertenecer a un perfil de productos que contenga el elemento de permiso [!UICONTROL Herramientas de grupos de informes] > [!UICONTROL Clasificaciones] para ver este elemento de menú. Tenga en cuenta que, mientras que las interfaces de administración de clasificaciones anteriores están en la [!UICONTROL Administrador] , los conjuntos de clasificaciones se encuentran en la sección [!UICONTROL Componentes] menú.
+
+## Mejoras
+
 La arquitectura back-end publicada con conjuntos de clasificación contiene varias mejoras notables:
 
 * Reducción del tiempo de procesamiento (72 horas → 24 horas)
-* La posibilidad de utilizar la IU de los conjuntos de clasificación
-* La opción de usar datos de clasificación en Adobe Experience Platform en el futuro mediante el [Conector de origen de Adobe Analytics para datos de clasificación](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=es)
+* Una IU rediseñada para administrar clasificaciones
+* La opción de usar datos de clasificación en Adobe Experience Platform en el futuro mediante el [Conector de origen de Adobe Analytics para datos de clasificación](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)
 
 La arquitectura back-end publicada con conjuntos de clasificación también contiene varios cambios importantes:
 
