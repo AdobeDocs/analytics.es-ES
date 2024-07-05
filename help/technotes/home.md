@@ -4,9 +4,9 @@ description: Esta guía proporciona información útil sobre temas que no perten
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
 source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,4 +51,4 @@ A continuación, se muestra un vídeo introductorio de Adobe Analytics:
 * [Contactar con el servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Analytics?lang=es#support)
 * [Comunidad de Adobe Analytics en Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
 * [Recursos de Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=es)
-* [Experience League](https://experienceleague.adobe.com/?lang=es#home)
+* [Experience League](https://landing.adobe.com/experience-league/)

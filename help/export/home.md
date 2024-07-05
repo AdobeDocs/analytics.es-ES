@@ -4,9 +4,9 @@ description: Esta guía describe las formas de obtener datos de Adobe Analytics 
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
 source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,4 +39,4 @@ A continuación, se muestra un vídeo introductorio de Adobe Analytics:
 * [Contactar con el servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Analytics?lang=es#support)
 * [Comunidad de Adobe Analytics en Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
 * [Recursos de Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=es)
-* [Experience League](https://experienceleague.adobe.com/?lang=es#home)
+* [Experience League](https://landing.adobe.com/experience-league/)

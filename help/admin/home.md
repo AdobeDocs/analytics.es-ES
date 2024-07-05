@@ -5,9 +5,9 @@ feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
 source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -47,4 +47,4 @@ Esta guía no cubre muchas de las capacidades genéricas que ofrece Adobe Admin 
 * [Contactar con el servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Analytics?lang=es#support)
 * [Comunidad de Adobe Analytics en Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
 * [Recursos de Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=es)
-* [Experience League](https://experienceleague.adobe.com/?lang=es#home)
+* [Experience League](https://landing.adobe.com/experience-league/)
