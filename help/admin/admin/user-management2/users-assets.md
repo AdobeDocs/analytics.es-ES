@@ -4,43 +4,44 @@ title: Administración de usuarios y recursos de Analytics
 feature: Admin Tools
 exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 0%
+source-wordcount: '407'
+ht-degree: 2%
 
 ---
 
-# Transferir recursos de usuario o establecer caducidades de cuenta
+# Administrar cuentas de usuario, recursos y caducidades heredados
 
-La mayoría de las funciones de administración de usuarios y productos de se han trasladado a [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). (Para empezar a administrar permisos de usuario para usuarios de Adobe Analytics, consulte [Analytics en Adobe Admin Console](/help/admin/admin-console/home.md).)
+Puede administrar cuentas de usuario heredadas, su estado de migración, los datos de caducidad, la transferencia de recursos a otros usuarios y mucho más mediante **[!UICONTROL Administrador] > [!UICONTROL Todos los administradores] >  [!UICONTROL Usuarios y administradores de Analytics]**.
 
-Aunque la mayoría de las funciones de administración de usuarios y productos ahora solo están disponibles en Adobe Admin Console, las funciones administrativas descritas en esta página solo están disponibles en el área de Administración de Adobe Analytics.
+La pantalla Usuarios muestra una lista de los usuarios actuales de Adobe Analytics, con las siguientes columnas:
 
-## Transferencia de recursos de un usuario de Analytics a otro {#transfer}
+| Columna | Descripción |
+|---|---|
+| [!UICONTROL ID de usuario] | El ID de usuario que utiliza el usuario para iniciar sesión en Adobe Analytics. |
+| [!UICONTROL Nombre] | El nombre del usuario. |
+| [!UICONTROL Estado de migración] | Estado de la migración de una cuenta de usuario heredada a un Enterprise ID o Adobe ID.  El estado puede ser No iniciado, En cola o Migrado. |
+| [!UICONTROL Correo electrónico] | El correo electrónico del usuario. |
+| [!UICONTROL Inicio de sesión heredado] | El estado del inicio de sesión heredado, que puede ser Enabled o Disabled. |
+| [!UICONTROL Fecha de creación] | Marca de tiempo del momento en el que se creó la cuenta de usuario en Adobe Analytics. |
+| [!UICONTROL Último acceso a Analytics] | Marca de tiempo del último acceso de la cuenta de usuario a Adobe Analytics, |
+| [!UICONTROL Caducidad] | Fecha de caducidad de la cuenta de usuario o Ninguno si la cuenta de usuario no caduca. |
 
-1. Ir a **Administrador** > [!UICONTROL **Usuarios y recursos de Analytics**].
-Se muestra la página Usuarios.
-1. (Opcional) Utilice cualquiera de las siguientes opciones para localizar más fácilmente a los usuarios que está buscando:
-   * En el campo de búsqueda, empiece a escribir el nombre del usuario para el que desea establecer una fecha de caducidad de la cuenta.
-   * Seleccione el **Filtrar** icono ![Icono de filtro](assets/filter-users-page.png) para mostrar u ocultar la configuración del filtro. Puede filtrar por estado de migración o por estado de inicio de sesión heredado.
-1. Seleccione el usuario cuyos recursos desea transferir.
-   ![Establecer caducidad para la cuenta de usuario](assets/manage-user-assets.png)
-1. Seleccionar [!UICONTROL **Transferir recursos**].
-1. En la página Transferir recursos, en [!UICONTROL **Transferir recursos a**] , empiece a escribir el nombre del usuario al que desea transferir los recursos y, a continuación, seleccione su nombre cuando aparezca en el menú desplegable.
-1. En el [!UICONTROL **Seleccionar elementos de cuenta para transferir**] , vaya a y seleccione los recursos que desea transferir y, a continuación, seleccione [!UICONTROL **Transferir**].
+![Usuarios](assets/users.png)
 
-   Todos los recursos que haya seleccionado se transfieren al usuario designado.
+- Para buscar un usuario específico, utilice el ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) *Buscar por título* field.
+- Para filtrar la lista según el estado de la migración, seleccione ![cheurón](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Estado de migración]**.
+- Para filtrar la lista según el estado de inicio de sesión heredado, seleccione ![cheurón](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Inicio de sesión heredado]**.
+- Para cambiar la visualización de las columnas, seleccione ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) y seleccione las columnas de la ventana emergente.
 
+Puede aplicar varias acciones al seleccionar uno o varios usuarios de la lista:
 
-## Establecer una fecha de caducidad para una cuenta de usuario {#expiration}
+| Acción | Descripción |
+|---|---|
+| ![Migrar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Briefcase_18_N.svg) **[!UICONTROL Migrar]** | Puede migrar uno o varios usuarios a Enterprise ID o a ID de Adobe. |
+| ![Calendario bloqueado](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CalendarLocked_18_N.svg) **[!UICONTROL Establecer caducidad]** | Puede establecer una fecha de caducidad para el uso del inicio de sesión heredado de Adobe Analytics para los usuarios seleccionados.  Seleccione la fecha para utilizar una ventana emergente de calendario para especificar la fecha. Seleccionar **[!UICONTROL Listo]** para confirmar la caducidad. |
+| ![Transferir recursos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Switch_18_N.svg) **[!UICONTROL Transferir recursos]** | Esta acción solo está disponible al seleccionar un usuario. Si el usuario tiene recursos que se pueden transferir, puede seleccionar los elementos de la cuenta (como marcadores, tableros, etc.). Seleccionar **[!UICONTROL Transferir]** para completar la transferencia.<br/>![Transfiere recursos](assets/transfer-assets.png) |
+| ![Eliminar cuentas](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Eliminar cuentas]** | Se muestra un cuadro de diálogo para confirmar la eliminación de las cuentas seleccionadas. Seleccionar **[!UICONTROL OK]** para eliminar las cuentas. Seleccionar **[!UICONTROL Cancelar]** para cancelar. |
+| ![Exportar a CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL Exportar a CSV]** | Esta acción descarga inmediatamente un archivo que contiene una lista de valores separados por comas de los usuarios seleccionados con sus detalles (nombre, estado de migración, correo electrónico, etc.). |
 
-1. Ir a **Administrador** > [!UICONTROL **Usuarios y recursos de Analytics**].
-Se muestra la página Usuarios.
-(Opcional) Utilice cualquiera de las siguientes opciones para localizar más fácilmente a los usuarios que está buscando:
-   * En el campo de búsqueda, empiece a escribir el nombre del usuario para el que desea establecer una fecha de caducidad de la cuenta.
-   * Seleccione el **Filtrar** icono ![Icono de filtro](assets/filter-users-page.png) para mostrar u ocultar la configuración del filtro. Puede filtrar por estado de migración o por estado de inicio de sesión heredado.
-1. Seleccione el usuario para el que desea establecer una fecha de caducidad de la cuenta.
-   ![Establecer caducidad para la cuenta de usuario](assets/manage-user-assets.png)
-1. Seleccionar [!UICONTROL **Establecer caducidad**].
-1. Elija la fecha de caducidad y, a continuación, seleccione [!UICONTROL **Listo**].
