@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de exportación de Analytics
 breadcrumb-title: Guía de exportación
 user-guide-description: Obtenga información acerca del uso de fuentes de datos para exportar datos sin procesar y Data Warehouse para recuperar el resultado de una hoja de cálculo de datos. Aprenda a utilizar FTP y SFTP para transferir archivos.
-source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+source-git-commit: 29f9ab575a5fcb09e64356bff0997fc8737b93cd
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 + [Notas de la versión de Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
 + Fuente de datos de Analytics {#analytics-data-feed}
    + [Resumen de la fuente de datos](analytics-data-feed/data-feed-overview.md)
-   + [Creación o edición de una fuente de datos](analytics-data-feed/create-feed.md)
+   + [Crear una fuente de datos](analytics-data-feed/create-feed.md)
    + [Administración de fuentes de datos](analytics-data-feed/df-manage-feeds.md)
    + [Administración de trabajos de fuentes de datos](analytics-data-feed/df-manage-jobs.md)
    + Contenido de la fuente de datos {#data-feed-contents}
