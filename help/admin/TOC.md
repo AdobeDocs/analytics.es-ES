@@ -5,9 +5,9 @@ user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
 source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -175,7 +175,7 @@ ht-degree: 98%
       + [Preguntas frecuentes sobre uso de llamadas al servidor](admin/c-server-call-usage/overage-faq.md)
    + Administración de usuarios y productos (heredados) {#user-product-management}
       + [Administración de usuarios y productos (heredados)](admin/user-management2/user-management.md)
-      + [Administración de cuentas de usuario, recursos y caducidades de heredados](admin/user-management2/users-assets.md)
+      + [Administración de cuentas de usuario, recursos y caducidades heredados](admin/user-management2/users-assets.md)
       + Migración de usuarios a Adobe Admin Console {#migrate-users}
          + [Migración de usuarios de Analytics a Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migración de cuentas de usuarios de Analytics para Adobe ID](admin/user-management2/user-migration/t-migrate-users.md)
