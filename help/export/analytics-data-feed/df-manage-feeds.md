@@ -3,10 +3,10 @@ title: Interfaz de usuario de fuentes de datos
 description: Obtenga información sobre cómo navegar por la interfaz de fuentes de datos.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
+source-git-commit: 3916115169f526bb91442d251e6159496efd547f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 29%
+source-wordcount: '1142'
+ht-degree: 28%
 
 ---
 
@@ -46,7 +46,9 @@ El botón [!UICONTROL Agregar] le permite crear una nueva fuente. Consulte [Crea
 
    Al actualizar la sección [!UICONTROL **Destino**] de una fuente de datos que está editando, puede elegir una cuenta y una ubicación diferentes para la nueva fuente de datos en los campos desplegables [!UICONTROL **Cuenta**] y [!UICONTROL **Ubicación**].
 
-   Si desea editar la cuenta y la ubicación de todas las fuentes de datos donde se utilizan, puede editar las cuentas y ubicaciones directamente, tal como se describe en [Configurar cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y [Configurar ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md). Las cuentas y ubicaciones que no sean de la nube no se pueden editar.
+   Las cuentas y ubicaciones se pueden editar tal como se describe en [Configurar cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y [Configurar ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md). La edición de una cuenta o ubicación afectará a todos los elementos asociados con esa cuenta o ubicación.
+
+   Las versiones anteriores del administrador de fuentes de datos le permitían crear destinos de FTP, SFTP, S3 y blob de Azure. Los destinos creados en estas versiones anteriores del administrador de fuentes de datos no se pueden editar ni copiar.
 
 1. Seleccione [!UICONTROL **Guardar**].
 
@@ -84,7 +86,9 @@ El botón [!UICONTROL Agregar] le permite crear una nueva fuente. Consulte [Crea
 
    Al actualizar la sección [!UICONTROL **Destino**] de una fuente de datos que está copiando, puede elegir una cuenta y una ubicación diferentes para la nueva fuente de datos en los campos desplegables [!UICONTROL **Cuenta**] y [!UICONTROL **Ubicación**].
 
-   Si desea editar la cuenta y la ubicación de todas las fuentes de datos donde se utilizan, puede editar las cuentas y ubicaciones directamente, tal como se describe en [Configurar cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y [Configurar ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md). Las cuentas y ubicaciones que no sean de la nube no se pueden editar.
+   Las cuentas y ubicaciones se pueden editar tal como se describe en [Configurar cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y [Configurar ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md). La edición de una cuenta o ubicación afectará a todos los elementos asociados con esa cuenta o ubicación.
+
+   Las versiones anteriores del administrador de fuentes de datos le permitían crear destinos de FTP, SFTP, S3 y blob de Azure. Los destinos creados en estas versiones anteriores del administrador de fuentes de datos no se pueden editar ni copiar.
 
 ## Pausar una fuente de datos
 
