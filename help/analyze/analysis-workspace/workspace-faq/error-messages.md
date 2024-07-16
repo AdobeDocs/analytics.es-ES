@@ -4,10 +4,10 @@ title: Mensajes de error comunes en Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
-source-git-commit: 6412fc0027c84df3b02ef2e7cbf35d24b4ee9319
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,7 @@ Puede encontrar errores al interactuar con Analysis Workspace que también afect
 
 | Mensaje de error | ¿Por qué ocurre esto? | Optimización |
 | --- | --- | --- |
-| [!UICONTROL El grupo de informes está experimentando una creación de informes inusualmente alta. Inténtelo nuevamente más tarde.] | Su organización está intentando ejecutar demasiadas solicitudes simultáneas en un grupo de informes específico. Los factores que contribuyen a este error son las solicitudes de API, los proyectos programados, los informes programados, las alertas programadas y los usuarios simultáneos que realizan solicitudes de informes. | Distribuya las solicitudes y programaciones del grupo de informes de forma más uniforme durante todo el día. |
+| [!UICONTROL El grupo de informes está experimentando una creación de informes inusualmente alta. Inténtelo nuevamente más tarde.] | Su organización está intentando ejecutar demasiadas solicitudes simultáneas en un grupo de informes específico. Los factores que contribuyen a este error son las solicitudes de API, los proyectos programados y los usuarios simultáneos que realizan solicitudes de informes. | Distribuya las solicitudes y programaciones del grupo de informes de forma más uniforme durante todo el día. <p>Los administradores pueden usar el Administrador de actividades de creación de informes [para identificar y cancelar las solicitudes](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) que consumen capacidad de creación de informes. |
 | [!UICONTROL El grupo de informes supera actualmente su capacidad de creación de informes. Simplifique la solicitud o vuelva a intentarlo más tarde.] | Su organización está intentando ejecutar demasiadas solicitudes simultáneas en un grupo de informes específico. Los factores que contribuyen a este error son las solicitudes de API, los proyectos programados, los informes programados, las alertas programadas y los usuarios simultáneos que realizan solicitudes de informes. | Distribuya las solicitudes y programaciones del grupo de informes de forma más uniforme durante todo el día. |
 | [!UICONTROL Se ha producido un error del sistema. Registre una solicitud del Servicio de atención al cliente en Ayuda > Enviar ticket de asistencia técnica e incluya su código de error.] | Adobe está experimentando un problema que debe resolverse. | Envíe el código de error al Servicio de atención al cliente. |
 | [!UICONTROL Se ha producido un error inesperado; intente actualizar el proyecto de nuevo. Si el problema persiste, envíe este ID de error al Servicio de atención al cliente de Adobe para un diagnóstico más exhaustivo.] | Adobe está experimentando un problema que debe resolverse. | Actualice el proyecto y, si el problema persiste, envíe el código de error al Servicio de atención al cliente. |

@@ -3,10 +3,10 @@ title: Interfaz de usuario de fuentes de datos
 description: Obtenga información sobre cómo navegar por la interfaz de fuentes de datos.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 3916115169f526bb91442d251e6159496efd547f
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 28%
+source-wordcount: '1160'
+ht-degree: 27%
 
 ---
 
@@ -122,7 +122,9 @@ Para activar una fuente de datos:
 
 ## Eliminar una fuente de datos
 
-Al eliminar una fuente de datos, su estado se establece en [!UICONTROL Eliminada].
+Al eliminar una fuente de datos, su estado se establece en [!UICONTROL Eliminada]. Las fuentes de datos deben tener el estado Activo para poder eliminarse.
+
+Para eliminar una fuente de datos:
 
 1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
 
