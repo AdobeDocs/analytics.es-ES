@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
 workflow-type: tm+mt
-source-wordcount: '5788'
+source-wordcount: '5811'
 ht-degree: 98%
 
 ---
@@ -26,6 +26,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Julio de 2024** | |
+| Se ha añadido threads.net a la dimensión &quot;Tipo de referente&quot; | Se agregó threads.net a la lista de redes sociales que se usan en la dimensión [&#39;Tipo de referente&#39;](/help/components/dimensions/referrer-type.md). |
 | Documentación actualizada para administrar fuentes de datos | Se ha actualizado la información en [Administrar fuentes de datos](/help/export/analytics-data-feed/df-manage-feeds.md) para mejorar la claridad. <p>Las actualizaciones incluyen:</p><ul><li>Se han creado secciones independientes para diversas tareas con el fin de facilitar el análisis y el consumo de la información.</li><li>Se ha añadido información acerca de los cambios en el comportamiento de las fuentes en directo que se reactivan. Estos cambios se encuentran actualmente en disponibilidad limitada y aún no están disponibles para todos los clientes.</li><li>Se ha agregado información para indicar que las fuentes de datos deben tener el estado Activo antes de poder eliminarse.</li> |
 | Mensajes de error comunes actualizados | Se han realizado actualizaciones menores de los [mensajes de error comunes](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Junio de 2024** | |
