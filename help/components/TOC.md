@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
-workflow-type: ht
-source-wordcount: '752'
+source-git-commit: 11e98d35ba52fb777a08f950725b0e8dbb99fa22
+workflow-type: tm+mt
+source-wordcount: '766'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 100%
 + Dimensiones {#dimensions}
    + [Información general de dimensiones](dimensions/overview.md)
    + [Compatibilidad de dimensiones](dimensions/compatibility.md)
+   + [Vínculo de Activity Map](dimensions/activity-map-link.md)
+   + [Vínculo de Activity Map por región](dimensions/activity-map-link-by-region.md)
+   + [Página de Activity Map](dimensions/activity-map-page.md)
+   + [Región de Activity Map](dimensions/activity-map-region.md)
    + [Consentimiento de la plataforma de publicidad](dimensions/ad-consent.md)
    + [Clasificación de todas las páginas de búsqueda](dimensions/all-search-page-rank.md)
    + [AM/PM](dimensions/am-pm.md)

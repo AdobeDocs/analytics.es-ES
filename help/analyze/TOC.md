@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y Activity Map.
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
-workflow-type: ht
-source-wordcount: '1017'
-ht-degree: 100%
+source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
+workflow-type: tm+mt
+source-wordcount: '930'
+ht-degree: 99%
 
 ---
 
@@ -278,34 +278,14 @@ ht-degree: 100%
    + [Solución de problemas del Report Builder](report-builder/troubleshoot.md)
    + [Preguntas frecuentes sobre Report Builder](report-builder/faq.md)
 + Activity Map {#activity-map}
-   + [Descripción general de Activity Map](activity-map/activity-map.md)
-   + Introducción {#getting-started}
-      + [Activación y habilitación de Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
-      + [Instalación de los complementos del explorador de Activity Map ](activity-map/activitymap-getting-started/activitymap-install.md)
-      + [Inicio de Activity Map](activity-map/activitymap-getting-started/activitymap-launch.md)
-   + [Potente seguimiento de vínculos](activity-map/lnk-tracking-overview.md)
-   + Seguimiento de vínculos {#link-tracking}
-      + [Método de seguimiento de vínculos](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-      + [Preguntas frecuentes sobre el seguimiento de vínculos](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-      + [Diferenciación entre varios vínculos que hacen referencia al mismo ID y la misma región de vínculo](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
-      + [Detener el seguimiento de vínculos](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
-      + [Utilizar la función s.tl()](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
-   + [Modo Estándar y modo Activo](activity-map/activitymap-standard-live.md)
-   + [Informe de vínculos](activity-map/activitymap-links-report.md)
-   + [Detalles de página](activity-map/activitymap-page-flow.md)
-   + [Completo conjunto de métricas](activity-map/activitymap-complete-metrics.md)
-   + [Análisis de páginas en tiempo real (activo)](activity-map/activitymap-realtime.md)
-   + [Segmentación de clientes](activity-map/activitymap-multiple-segments.md)
-   + [Superposiciones personalizables](activity-map/activitymap-gainerslosers.md)
-   + [Detalles de superposición](activity-map/activitymap-overlay-details.md)
-   + [Exportación a archivo CSV](activity-map/activitymap-csv.md)
-   + [Sistemas compatibles y requisitos](activity-map/activitymap-sysreqs.md)
-   + [Preguntas frecuentes sobre Activity Map](activity-map/activitymap-faq.md)
-   + [Definición de la configuración de Activity Map](activity-map/activitymap-overlay-settings.md)
-   + [Interfaz de usuario de Activity Map](activity-map/activitymap-user-interface.md)
-   + [Informes de Activity Map en Analytics](activity-map/activitymap-reporting-analytics.md)
-   + [Solución de problemas de la extensión del explorador](activity-map/troubleshooting-browser-extensions.md)
-   + [Solución de problemas de la recopilación de datos](activity-map/troubleshoot-data-collection.md)
+   + [Información general](activity-map/overview.md)
+   + [Introducción](activity-map/getting-started.md)
+   + Superposición {#overlay}
+      + [Resumen de extensión](activity-map/overlay/overview.md)
+      + [Extensión de Launch](activity-map/overlay/launch.md)
+      + [Configuración de extensión](activity-map/overlay/settings.md)
+   + [Resolución de problemas](activity-map/troubleshooting.md)
+   + [Preguntas más frecuentes](activity-map/faq.md)
 + Tableros de Adobe Analytics {#mobapp}
    + [Paneles de Adobe Analytics: Información general](mobile-app/home.md)
    + [Introducción para el gestor de datos](mobile-app/curator.md)

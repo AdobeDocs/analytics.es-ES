@@ -5,10 +5,10 @@ keywords: deshabilitar clickmap
 feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 1cdcc748e50c7eeffa98897006154aa0953ce7e3
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 30%
+source-wordcount: '191'
+ht-degree: 28%
 
 ---
 
@@ -16,28 +16,28 @@ ht-degree: 30%
 
 >[!IMPORTANT]
 >
->Esta variable está retirada. Consulte [Habilitar Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md) en su lugar.
+>Esta variable desaparece y ya no se utiliza.
 
-ClickMap es una función retirada de Adobe Analytics que recopila datos sobre dónde y en qué hacen clic los visitantes. La función se ha reemplazado por [Activity Map](/help/analyze/activity-map/activity-map.md).
+ClickMap es una función retirada de Adobe Analytics que recopila datos sobre dónde y en qué hacen clic los visitantes. La característica se reemplazó con [Activity Map](/help/analyze/activity-map/overview.md).
 
 Cuando se habilita, AppMeasurement recopila información sobre el vínculo y envía esos datos en la siguiente solicitud de imagen. La información de cada clic se almacena en una cookie denominada `s_sq`.
 
 ## Habilitar el ClickMap con la extensión de Adobe Analytics
 
-[!UICONTROL Habilitar ClickMap] es una casilla de verificación debajo de [!UICONTROL Seguimiento de vínculos] al configurar la extensión de Adobe Analytics.
+[!UICONTROL Habilitar ClickMap] es una casilla de verificación en el acordeón [!UICONTROL Seguimiento de vínculos] al configurar la extensión de Adobe Analytics.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
-4. Expanda el [!UICONTROL Seguimiento de vínculos] acordeón, que revela el [!UICONTROL Habilitar ClickMap] casilla de verificación
+4. Expanda el acordeón [!UICONTROL Seguimiento de vínculos], que muestra la casilla [!UICONTROL Habilitar ClickMap].
 
 >[!NOTE]
 >
->Esta casilla de verificación es diferente de la [!UICONTROL Usar Activity Map] , que se encuentra en la casilla de verificación [!UICONTROL Administración de biblioteca] acordeón.
+>Esta casilla de verificación es diferente de la casilla de verificación [!UICONTROL Usar Activity Map], que se encuentra en el acordeón [!UICONTROL Administración de biblioteca].
 
 ## s.trackInlineStats en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
-El `s.trackInlineStats` es un booleano que habilita o deshabilita el seguimiento de ClickMap. Dado que se ha eliminado la función, el Adobe no recomienda configurar esta variable. Su valor predeterminado es `false`.
+`s.trackInlineStats` es un booleano que habilita o deshabilita el seguimiento de ClickMap. Dado que se ha eliminado la función, el Adobe no recomienda configurar esta variable. Su valor predeterminado es `false`.
 
 ```js
 s.trackInlineStats = false;

@@ -4,10 +4,10 @@ description: Envíe una llamada de seguimiento de vínculos a Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 76%
+source-wordcount: '865'
+ht-degree: 62%
 
 ---
 
@@ -19,12 +19,12 @@ Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExterna
 
 ## Seguimiento de vínculos mediante el SDK web
 
-El SDK web no diferencia entre las llamadas de vista de página y las llamadas de seguimiento de vínculos; ambas utilizan el `sendEvent` comando.
+El SDK web no diferencia entre las llamadas de vista de página y las llamadas de seguimiento de vínculos; ambas utilizan el comando `sendEvent`.
 
 Si utiliza un objeto XDM y desea que Adobe Analytics cuente un evento determinado como una llamada de seguimiento de vínculos, asegúrese de que los datos XDM incluyan:
 
 * Nombre del vínculo: asignado a `xdm.web.webInteraction.name`.
-* URL del vínculo: asignado a `xdm.web.webInteraction.URL`.
+* URL de vínculo: asignado a `xdm.web.webInteraction.URL`.
 * Tipo de vínculo: asignado a `xdm.web.webInteraction.type`. Los valores válidos incluyen `other` (vínculos personalizados), `download` (vínculos de descarga) y `exit` (vínculos de salida).
 
 ```js
@@ -44,7 +44,7 @@ alloy("sendEvent", {
 Si utiliza un objeto de datos y desea que Adobe Analytics cuente un evento determinado como una llamada de seguimiento de vínculos, asegúrese de que el objeto de datos incluya:
 
 * Nombre del vínculo: asignado a `data.__adobe.analytics.linkName`.
-* URL del vínculo: asignado a `data.__adobe.analytics.linkURL`.
+* URL de vínculo: asignado a `data.__adobe.analytics.linkURL`.
 * Tipo de vínculo: asignado a `data.__adobe.analytics.linkType`. Los valores válidos incluyen `o` (vínculos personalizados), `d` (vínculos de descarga) y `e` (vínculos de salida).
 
 ```js
@@ -68,8 +68,8 @@ La extensión de Adobe Analytics tiene una ubicación específica para establece
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
 1. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
-1. En [!UICONTROL Acciones], haga clic en la acción deseada o en **&#39;+&#39;** para añadir una acción.
-1. Configure las variables [!UICONTROL Extensión] lista desplegable para **[!UICONTROL Adobe Analytics]**, y el [!UICONTROL Tipo de acción] hasta **[!UICONTROL Send Beacon]**.
+1. En [!UICONTROL Acciones], haga clic en la acción que desee o en el icono **&#39;+&#39;** para agregar una acción.
+1. Establezca la lista desplegable [!UICONTROL Extension] en **[!UICONTROL Adobe Analytics]** y [!UICONTROL Action Type] en **[!UICONTROL Send Beacon]**.
 1. Haga clic en el botón de opción `s.tl()`.
 
 No puede establecer ningún argumento opcional en la extensión de Analytics.
@@ -156,7 +156,7 @@ s.tl(true,"o","Example link");
 
 ### Realizar llamadas de seguimiento de vínculos dentro de una función personalizada
 
-Puede consolidar el código de seguimiento de vínculos en una función JavaScript independiente definida en la página o en un archivo JavaScript vinculado. Las llamadas se pueden realizar en la función onClick de cada vínculo. Establezca lo siguiente en un archivo JavaScript:
+Puede consolidar el código de seguimiento de vínculos en una función JavaScript independiente. Las llamadas se pueden realizar en la función `onClick` de cada vínculo. Establezca lo siguiente en un archivo JavaScript:
 
 ```JavaScript
 function trackClickInteraction(name){
@@ -173,6 +173,9 @@ A continuación, puede llamar a la función siempre que desee rastrear una vincu
 <!-- Use wherever you want to track links -->
 <a href="example.html" onClick="trackClickInteraction('Example link');">Click here</a>
 ```
+
+>[!NOTE]
+>Llamar indirectamente al método `tl()` puede hacer que los informes de superposición de Activity Map sean menos prácticos. Debe hacer clic en cada vínculo para registrar la función con el elemento de vínculo. Sin embargo, las dimensiones de Activity Map en Workspace se rastrean del mismo modo.
 
 ### Evitar el seguimiento de vínculos duplicados
 
@@ -195,4 +198,25 @@ function linkCode(obj) {
     s.tl(obj,"d","Example PDF download");
   }
 }
+```
+
+### Utilizar el método `tl()` con el Activity Map
+
+Puede usar el método `tl()` para hacer un seguimiento de elementos personalizados y configurar la representación de las superposiciones en el contenido dinámico. El parámetro `linkName` también se usa para establecer la dimensión [Vínculo de Activity Map](/help/components/dimensions/activity-map-link.md).
+
+Cuando se llama directamente al método `tl()` desde el evento en el que se hace clic del elemento HTML, el Activity Map puede mostrar una superposición para ese elemento al cargar la página web. Por ejemplo:
+
+```html
+<a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
+```
+
+Cuando no se llama directamente al método `tl()` desde el evento en el que se hace clic del elemento HTML, el Activity Map solo puede mostrar una superposición cuando se ha hecho clic en el elemento. Por ejemplo:
+
+```html
+<a href="index.html" onclick="someFn(event);">Example link text</a>
+<script>
+  function someFn (event) {
+    s.tl(event.srcElement,'o','Example custom link');
+  }
+</script>
 ```

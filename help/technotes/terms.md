@@ -3,7 +3,7 @@ title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
+source-git-commit: cf9290d0a55704015ba1a2b6fdbdde1a724276a1
 workflow-type: tm+mt
 source-wordcount: '2528'
 ht-degree: 98%
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Este glosario le ayudará a comprender el contexto de muchos de los términos que utiliza Adobe Analytics.
 
-* **Activity Map:** complemento para explorador que muestra en qué áreas del sitio se hizo clic con mayor frecuencia. Consulte [Activity Map](/help/analyze/activity-map/activity-map.md) en la guía de usuario sobre análisis.
+* **Activity Map:** complemento para explorador que muestra en qué áreas del sitio se hizo clic con mayor frecuencia. Consulte [Activity Map](/help/analyze/activity-map/overview.md) en la guía de usuario sobre análisis.
 * **Admin Console:** puede hacer referencia a:
    * Herramientas de administración heredadas en las se administra la configuración del grupo de informes en Adobe Analytics. En versiones anteriores de Adobe Analytics, los permisos de usuario también se gestionaban aquí. Consulte [Herramientas de administración](/help/admin/admin/c-admin-tools.md) en la guía de usuario de administración.
    * La Admin Console de Adobe, donde se proporciona acceso al producto y se administran los permisos de usuario. Consulte [Admin Console](/help/admin/admin-console/home.md) en la guía de usuario de administración.
