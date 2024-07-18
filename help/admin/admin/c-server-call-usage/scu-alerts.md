@@ -15,7 +15,7 @@ ht-degree: 92%
 
 Al configurar una alerta, se aplica a todos los grupos de informes en todas las empresas de inicio de sesión de una empresa de facturación.
 
-Las alertas de uso de llamadas al servidor forman parte de [Alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) interfaz de usuario.
+Las alertas de uso de llamadas al servidor forman parte de la interfaz de usuario [Alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
 
 Está previamente completado con **1 alerta predeterminada** que aparece en cualquier empresa de inicio de sesión con acceso a la función Uso de llamadas al servidor. Esta alerta activa una notificación destinada a todos los administradores de la empresa de inicio de sesión si se cumple uno de los siguientes criterios:
 
@@ -52,7 +52,8 @@ Para crear alertas adicionales,
 Añada el tipo de llamadas al servidor como métrica y especifique el umbral de alertas seleccionando el modificador y el umbral:
          * mayor o igual que
          * menor o igual que
-      * Con Especifique el umbral y la condición (mayor o igual que, menor o igual que) para el Periodo de uso empleado.
+      * Con
+Especifique el umbral y la condición (mayor o igual que, menor o igual que) para el Periodo de uso empleado.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 

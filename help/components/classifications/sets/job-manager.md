@@ -1,16 +1,16 @@
 ---
-title: Administrador de trabajos de conjuntos de clasificaciones
+title: Administrador de trabajos de conjuntos de clasificación
 description: Ver los trabajos de clasificación actuales y completados generados a partir de conjuntos de clasificaciones.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
 source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '417'
+ht-degree: 51%
 
 ---
 
-# Administrador de trabajos de conjuntos de clasificaciones
+# Administrador de trabajos de conjuntos de clasificación
 
 El Administrador de trabajos de conjuntos de clasificaciones permite ver los trabajos de clasificación actuales y completados que se generaron a partir de conjuntos de clasificaciones. También puede utilizar esta interfaz para descargar datos de clasificación o plantillas para un trabajo en particular, o cargar datos adicionales en un trabajo.
 
@@ -20,7 +20,7 @@ No puede crear trabajos desde esta interfaz. Cree trabajos cargando datos en un 
 
 ## Filtrar conjuntos de clasificaciones
 
-La parte izquierda del Administrador de trabajos de conjuntos de clasificaciones proporciona una configuración de filtro para localizar el trabajo deseado. Al hacer clic en el icono de filtro, se alterna la visibilidad de la configuración del filtro. Puede filtrar los conjuntos de clasificaciones por **[!UICONTROL Conjunto de clasificaciones]**, **[!UICONTROL Hora de finalización]**, **[!UICONTROL Estado]**, **[!UICONTROL Tipo de trabajo]**, o **[!UICONTROL Origen]**.
+La parte izquierda del Administrador de trabajos de conjuntos de clasificaciones proporciona una configuración de filtro para localizar el trabajo deseado. Al hacer clic en el icono de filtro, se alterna la visibilidad de la configuración del filtro. Puede filtrar los conjuntos de clasificaciones por **[!UICONTROL Conjunto de clasificaciones]**, **[!UICONTROL Hora de finalización]**, **[!UICONTROL Estado]**, **[!UICONTROL Tipo de trabajo]** o **[!UICONTROL Source]**.
 
 ![Filtros del trabajo del conjunto de clasificaciones](../assets/classification-set-job-filters.png)
 
@@ -35,7 +35,7 @@ Hay opciones de filtro adicionales disponibles encima de las columnas del admini
 Las siguientes columnas están disponibles en el administrador de trabajos del conjunto de clasificaciones:
 
 * **[!UICONTROL Nombre de archivo]**: Nombre del archivo de carga o descarga.
-* **[!UICONTROL Conjunto de clasificaciones]**: nombre del conjunto de clasificaciones al que se aplica el archivo. Puede hacer clic en el nombre del conjunto de clasificaciones para llegar al de [Configuración](manage/settings.md).
+* **[!UICONTROL Conjunto de clasificaciones]**: El nombre del conjunto de clasificaciones al que se aplica el archivo. Puede hacer clic en el nombre del conjunto de clasificaciones para llegar a [Configuración](manage/settings.md) del conjunto de clasificaciones.
 * **[!UICONTROL Tamaño]**: El tamaño del archivo.
 * **[!UICONTROL Estado]**: estado del trabajo que procesa el archivo.
    * **[!UICONTROL Creado]**: se envió el trabajo.
@@ -46,9 +46,9 @@ Las siguientes columnas están disponibles en el administrador de trabajos del c
    * **[!UICONTROL Error de procesamiento]**: error en el procesamiento del archivo.
    * **[!UICONTROL Completar]**: el procesamiento ha finalizado. Los datos de clasificación se pueden ver en los informes.
    * **[!UICONTROL Error]**: error genérico no relacionado con la validación o el procesamiento.
-* **[!UICONTROL Tipo de trabajo]**: el tipo de trabajo.
-* **[!UICONTROL Origen]**: el origen del trabajo.
+* **[!UICONTROL Tipo de trabajo]**: El tipo de trabajo.
+* **[!UICONTROL Source]**: El origen del trabajo.
 * **[!UICONTROL Descarga de archivos]**: solo se aplica a los trabajos de descarga, como descargar datos de clasificación o descargar plantillas. Cuando una descarga está lista, esta columna proporciona un vínculo de descarga.
-* **[!UICONTROL Líneas modificadas]**: el número de líneas modificadas.
-* **[!UICONTROL Líneas completadas]**: el número de líneas completadas.
+* **[!UICONTROL Líneas modificadas]**: El número de líneas modificadas.
+* **[!UICONTROL Líneas completadas]**: El número de líneas completadas.
 * **[!UICONTROL Hora de finalización]**: la fecha y hora en que se completó el trabajo (o falló).

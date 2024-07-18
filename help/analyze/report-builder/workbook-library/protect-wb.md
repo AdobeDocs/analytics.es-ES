@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 77%
+source-wordcount: '473'
+ht-degree: 69%
 
 ---
 
@@ -18,7 +18,7 @@ Puede proteger todas las solicitudes en un libro contra las solicitudes para añ
 
 Como analista, bloquear un libro le permite proteger sus solicitudes de libros contra la manipulación por parte de otros usuarios dentro de su organización. Al mismo tiempo, estos usuarios aún pueden actualizar las solicitudes del libro.
 
-Para proteger un libro contra la edición, haga clic en **[!UICONTROL Bloqueado]** en la barra de herramientas de Report Builder ( ![](assets/locked_icon.png)).
+Para proteger un libro contra la edición, haga clic en **[!UICONTROL Bloqueado]** en la barra de herramientas del Report Builder ( ![](assets/locked_icon.png)).
 
 Para desproteger un libro, haga clic en **[!UICONTROL Desbloqueado]** ( ![](assets/unlocked_icon.png)).
 
@@ -29,7 +29,7 @@ Puede desbloquear un libro bloqueado si cuenta con uno de los siguientes permiso
 
 >[!NOTE]
 >
->No puede añadir una solicitud a un libro protegido a menos que tenga los permisos para desbloquear el libro.
+>No puede agregar una solicitud a un libro protegido a menos que tenga los permisos para desbloquear el libro.
 
 Cuando un libro está bloqueado contra la edición de solicitudes,
 
@@ -40,7 +40,7 @@ Cuando un libro está bloqueado contra la edición de solicitudes,
 * Los usuarios pueden actualizar las solicitudes de forma individual o como parte de un grupo.
 * Si la solicitud utiliza valores de entrada de las celdas (intervalo de fechas, segmento, filtros), los usuarios pueden cambiar estos valores en las celdas y, por tanto, editar de forma indirecta las solicitudes actualizándolas.
 
-Si intenta editar un libro protegido a través del menú contextual, o **[!UICONTROL Administrador de solicitudes]**, o **[!UICONTROL Editar varias solicitudes]**, se le puede permitir o no hacerlo:
+Si intenta editar un libro protegido a través del menú contextual, o **[!UICONTROL Administrador de solicitudes]** o **[!UICONTROL Editar varias solicitudes]**, puede que tenga o no permiso para hacerlo:
 
 * Si no tiene permisos para desbloquear una solicitud, verá un mensaje que indica que no tiene derechos para desbloquear y editar el libro.
 

@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # AM/PM
 
-El &#39;AM/PM&#39; [dimensión](overview.md) proporciona una perspectiva sobre si la visita se produjo durante las horas AM o PM. La hora de la visita está basada en la [zona horaria del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
+La dimensión [a.m./p.m.](overview.md) proporciona una perspectiva sobre si la visita se produjo durante las horas AM o PM. La hora de la visita está basada en la [zona horaria del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
 
 ## Rellene esta dimensión con datos
 

@@ -38,7 +38,7 @@ Por ejemplo, los libros de trabajo se pueden programar para enviarse inmediatame
 1. En la barra de herramientas de Report Builder, haga clic en **[!UICONTROL Programar]**.
 
    La ficha [!UICONTROL Informes programados] resume todas las tareas que se han creado, así como el número de tareas restantes.
-1. En el **[!UICONTROL Informes programados]** pestaña, haga clic en **[!UICONTROL Nuevo]**. El Asistente de programación básico muestra las opciones utilizadas para definir el informe programado.
+1. En la ficha **[!UICONTROL Informes programados]**, haga clic en **[!UICONTROL Nuevo]**. El Asistente de programación básico muestra las opciones utilizadas para definir el informe programado.
 
    ![Captura de pantalla que muestra el Asistente de programación básico.](assets/simple-schedule-wizard.png)
 

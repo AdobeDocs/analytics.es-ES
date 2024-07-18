@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 82%
 
 ---
 
@@ -48,12 +48,12 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 
 1. En el [Generador de reglas de clasificación](/help/components/classifications/crb/classification-rule-builder.md), clasifique la clave de subclasificación del código de seguimiento original.
 
-   Para hacerlo, se usa una expresión regular. En este ejemplo, la regla para rellenar el *`Broad Campaign code`* utilizaría esta expresión regular:
+   Para hacerlo, se usa una expresión regular. En este ejemplo, la regla para rellenar *`Broad Campaign code`* utilizaría esta expresión regular:
 
    | `#` | Tipo de regla | Coincidencias | Configurar clasificación | Hasta |
    |---|---|---|---|---|
-   |  | Expresión regular | `[^\:]:([^\:]):([^\:]`) | código Campaña general | `$1` |
-   |  | Expresión regular | `[^\:]:([^\:]):([^\:]`) | código Creativo | `$2` |
+   |   | Expresión regular | `[^\:]:([^\:]):([^\:]`) | código Campaña general | `$1` |
+   |   | Expresión regular | `[^\:]:([^\:]):([^\:]`) | código Creativo | `$2` |
 
    >[!NOTE]
    >
@@ -72,6 +72,6 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 
 1. Para realizar el mantenimiento de las tablas de búsqueda, cargue un archivo pequeño (como se muestra arriba).
 
-   Por ejemplo, cargaría este archivo cuando se introdujera un nuevo *`Broad Campaign code`*. Este archivo se aplicaría a los valores clasificados previamente. Del mismo modo, si crea una nueva subclasificación (por ejemplo, *`Creative Theme`* como subclasificación de *`Creative code`*), solo se carga el archivo de subclasificación, en lugar de todo el archivo de clasificación.
+   Por ejemplo, cargaría este archivo cuando se introdujera un nuevo *`Broad Campaign code`*. Este archivo se aplicaría a los valores clasificados previamente. Del mismo modo, si crea una nueva subclasificación (por ejemplo, *`Creative Theme`* como subclasificación de *`Creative code`*), solo cargará el archivo de subclasificación, en lugar de todo el archivo de clasificación.
 
    Por lo que respecta a los informes, estas subclasificaciones funcionan exactamente igual que las clasificaciones de nivel superior. De este modo, se reduce la carga administrativa necesaria para usarlas.-->

@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 77%
+source-wordcount: '409'
+ht-degree: 76%
 
 ---
 
@@ -41,8 +41,8 @@ Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados
    >
    >Excel solo admite un filtro automático por hoja de cálculo. Si se crea un nuevo filtro automático en una hoja de cálculo donde ya existe otro, Excel no muestra una advertencia indicando que el filtro automático existente se va a reemplazar.
 
-   **Realizar contorno automático:** Transforma la fecha devuelta por el Report Builder de una vista de lista a una vista de árbol.
+   **Realizar contorno automático:** transforma la fecha devuelta por el Report Builder de una vista de lista a una vista de árbol.
 
-   **Asignar nombre a esta solicitud:** Permite escribir un nombre definido por el usuario para la solicitud, o usar el nombre predeterminado seleccionado en el Paso 1. Este nombre aparece como nombre de [!UICONTROL Informe] en el [!UICONTROL Administrador de solicitudes]. Consulte [Especificar el nombre de una solicitud](/help/analyze/report-builder/layout/name-a-request.md).
+   **Asignar nombre a esta solicitud:** Permite escribir un nombre definido por el usuario para la solicitud, o usar el nombre predeterminado seleccionado en el Paso 1. Este nombre aparece como nombre de [!UICONTROL Informe] en el [!UICONTROL Administrador de solicitudes]. Consulte [Nombrar una solicitud](/help/analyze/report-builder/layout/name-a-request.md).
 
 1. Haga clic en **[!UICONTROL Aceptar]**.

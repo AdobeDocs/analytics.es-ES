@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 81%
+source-wordcount: '325'
+ht-degree: 80%
 
 ---
 
 # Detalles de canal de último contacto
 
-El &quot;Detalle del canal de último contacto&quot; [dimensión](overview.md) informa sobre el canal de marketing más reciente con el que coincide un visitante durante el periodo de participación de ese visitante (de forma predeterminada, 30 días). Esta dimensión es valiosa para comprender qué contribuyó a que la visita coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.
+Los informes de &quot;Detalles de canal de último contacto&quot; [dimension](overview.md) detallan el canal de marketing más reciente con el que coincide un visitante durante el periodo de participación de ese visitante (de forma predeterminada, 30 días). Esta dimensión es valiosa para comprender qué contribuyó a que la visita coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.
 
 ## Rellene esta dimensión con datos
 

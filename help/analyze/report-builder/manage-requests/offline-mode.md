@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 42%
+source-wordcount: '200'
+ht-degree: 33%
 
 ---
 
@@ -18,18 +18,18 @@ El modo sin conexión devuelve datos de marcador de posición para acelerar el p
 
 Al crear o editar una nueva solicitud, se realizan llamadas a la API de informes para recuperar la respuesta. A veces, estas llamadas ralentizan el proceso de creación de solicitudes porque tiene que esperar a que se devuelvan los datos antes de pasar al siguiente paso. El modo sin conexión solo devuelve datos de marcador de posición y no se realizan API.
 
-Para activar el modo sin conexión
+Para habilitar el modo sin conexión
 
 1. Haga clic en **[!UICONTROL Opciones]** en el menú de Report Builder.
 
-   ![Captura de pantalla de la pantalla Opciones con el modo sin conexión seleccionado.](assets/offline_mode.png)
+   ![Captura de pantalla de la pantalla Opciones con el código sin conexión seleccionado.](assets/offline_mode.png)
 
 1. Active la casilla junto a **[!UICONTROL Activar el modo fuera de línea para la creación y edición de solicitudes]**.
 1. En el campo **[!UICONTROL Mostrar los datos de métrica como]**, introduzca los datos del marcador de posición que desee que se devuelvan en su solicitud. Por ejemplo, introduzca &quot;1&quot;.
 1. Haga clic en **[!UICONTROL Aceptar]**.
 1. Cree y ejecute la solicitud en modo sin conexión mediante el Asistente para solicitudes. La siguiente captura de pantalla muestra un ejemplo de una solicitud con &quot;1&quot; como datos de marcador de posición.
 
-   ![Captura de pantalla que muestra el ejemplo del modo sin conexión utilizando 1 como marcador de posición.](assets/offline_mode_example.png)
+   ![Captura de pantalla que muestra el ejemplo del modo sin conexión usando 1 como marcador de posición.](assets/offline_mode_example.png)
 
    >[!IMPORTANT]
    >

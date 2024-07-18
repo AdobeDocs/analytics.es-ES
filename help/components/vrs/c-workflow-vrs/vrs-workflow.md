@@ -7,7 +7,7 @@ exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 82%
+ht-degree: 74%
 
 ---
 
@@ -21,11 +21,11 @@ Familiarícese con las [Consideraciones del etiquetado global/de grupos múltipl
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) [Cree un grupo de informes virtuales](/help/components/vrs/c-workflow-vrs/vrs-create.md) aplicando uno o varios segmentos a un grupo de informes superior.
 
-Los grupos de informes virtuales se crean en el Administrador de grupos de informes virtuales, disponible a través de **[!UICONTROL Componentes]** > **[!UICONTROL Grupos de informes virtuales]**.
+Los grupos de informes virtuales se crean en el administrador de grupos de informes virtuales, disponible a través de **[!UICONTROL Componentes]** > **[!UICONTROL Grupos de informes virtuales]**.
 
 Una vez creado, el grupo de informes virtuales se trata como un grupo de informes base en toda la interfaz de usuario y, por lo general, lo admiten las funciones más habituales. Por ejemplo, los grupos de informes virtuales aparecen en los selectores de grupos de informes y se pueden seleccionar individualmente como cualquier otro grupo de informes.
 
-Haga clic en el icono de información junto al nombre del grupo de informes para [ver información sobre él](/help/components/vrs/c-workflow-vrs/vrs-view.md).
+Haga clic en el icono de información junto al nombre del grupo de informes para [ver información al respecto](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Abra un informe y seleccione un grupo de informes virtuales para proporcionar una vista segmentada de los datos.
 

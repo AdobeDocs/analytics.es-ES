@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Segundos totales empleados
 
-El &quot;Segundos totales empleados&quot; [métrica](overview.md) muestra la cantidad agregada de segundos que un visitante ha invertido en un elemento de dimensión determinado. Esta métrica es útil cuando desea la cantidad de tiempo sin procesar en un elemento de dimensión determinado y no los promedios como los que ofrecen otras métricas de tiempo empleado.
+La [métrica](overview.md) &quot;Segundos totales empleados&quot; muestra la cantidad agregada de segundos que un visitante ha invertido en un elemento de dimensión determinado. Esta métrica es útil cuando desea la cantidad de tiempo sin procesar en un elemento de dimensión determinado y no los promedios como los que ofrecen otras métricas de tiempo empleado.
 
 En Report Builder, esta métrica se denomina “Tiempo total empleado”.
 

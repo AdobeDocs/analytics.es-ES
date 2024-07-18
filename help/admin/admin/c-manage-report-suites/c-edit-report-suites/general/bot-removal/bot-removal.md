@@ -24,7 +24,7 @@ Los métodos de filtrado de bots estándar y personalizados se admiten en **[!UI
 | Reglas de bots estándar IAB | Al seleccionar **[!UICONTROL Activar las reglas de filtrado de bots de la IAB]**, se utiliza la Lista internacional de arañas web y bots de la [IAB](https://www.iab.com/) (International Advertising Bureau&#39;s) para eliminar el tráfico de bots. La mayoría de los clientes selecciona esta opción como mínimo. |
 | Reglas de bots personalizadas | Puede definir y agregar reglas de bots personalizadas basadas en agentes de usuario, direcciones IP o intervalos de IP. |
 
-Para obtener más información, consulte [Comprensión y configuración de reglas de bots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+Para obtener más información, consulte [Comprender y configurar las reglas de bots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 ## Utilice el plug-in [!UICONTROL websiteBot] para identificar bots
 
@@ -72,9 +72,9 @@ Recuerde usar el ID de visitante de Experience Cloud como dimensión y aplicar e
 Una vez que llegue el informe de Data Warehouse, tendrá una lista de los ECID que deben filtrarse a partir de los datos históricos. Copie y pegue estos ECID en un archivo .CSV en blanco con solo dos columnas, ECID e Indicador de bots.
 
 * **ECID**: Asegúrese de que el encabezado de esta columna coincide con el nombre que dio al nuevo ID declarado antes.
-* **Indicador de bots**: Agregue &quot;Indicador de bots&quot; como dimensión de esquema de atributos del cliente.
+* **Indicador de bots**: Agregue &quot;Indicador de bots&quot; como dimensión de esquema de atributo de cliente.
 
-Utilice este archivo .CSV como archivo de importación de atributos del cliente y, a continuación, suscriba los grupos de informes al atributo del cliente como se describe en esta sección [publicación de blog](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
+Use este archivo .CSV como archivo de importación de atributos del cliente y, a continuación, suscriba los grupos de informes al atributo del cliente como se describe en esta [publicación de blog](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
@@ -86,7 +86,7 @@ Una vez que el conjunto de datos se haya procesado e integrado en Analysis Works
 
 ### Paso 6: Utilice este segmento como filtro de grupo de informes virtuales
 
-Finalmente, cree un [Grupo de informes virtuales](/help/components/vrs/vrs-about.md) que utiliza este segmento para filtrar los bots identificados:
+Finalmente, cree un [grupo de informes virtuales](/help/components/vrs/vrs-about.md) que use este segmento para filtrar los bots identificados:
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 

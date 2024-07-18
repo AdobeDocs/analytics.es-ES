@@ -5,8 +5,8 @@ feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 86%
+source-wordcount: '285'
+ht-degree: 85%
 
 ---
 

@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Categoría
 
-La &quot;categoría&quot; [dimensión](overview.md) informa de la categoría del producto de la visita. Resulta útil para implementaciones que utilizan la variable `products` y desean ver métricas en torno a la categoría del producto, como los principales vendedores o los más visitados. Esta dimensión puede estar en blanco si no tiene ningún producto en el sitio.
+La &quot;Categoría&quot; [dimensión](overview.md) informa de la categoría del producto de la visita. Resulta útil para implementaciones que utilizan la variable `products` y desean ver métricas en torno a la categoría del producto, como los principales vendedores o los más visitados. Esta dimensión puede estar en blanco si no tiene ningún producto en el sitio.
 
 ## Rellene esta dimensión con datos
 

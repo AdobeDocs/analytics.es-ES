@@ -27,8 +27,8 @@ Si tiene un [documento de diseño de soluciones](/help/implement/prepare/solutio
 
 Las props se asignan a las siguientes variables:
 
-* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - las props de lista se especifican en un [separar conjunto de campos](#list-props-web-sdk).
-* [Objeto de datos](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; o `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` : las props de lista se incluyen en estos campos.
+* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - las props de lista se especifican en un [conjunto de campos independiente](#list-props-web-sdk).
+* [Objeto de datos](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; o `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - las props de lista se incluyen en estos campos.
 
 ## Props con la extensión de Adobe Analytics
 
@@ -38,7 +38,7 @@ Puede establecer propiedades durante la configuración de la extensión de Analy
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
-5. Configure las variables [!UICONTROL Extensión] lista desplegable para Adobe Analytics y la variable [!UICONTROL Tipo de acción] hasta [!UICONTROL Establecer variables].
+5. Establezca la lista desplegable [!UICONTROL Extension] en Adobe Analytics y [!UICONTROL Action Type] en [!UICONTROL Set Variables].
 6. Busque la sección [!UICONTROL Props].
 
 Puede establecer una propiedad a un valor o a un elemento de datos. También puede copiar el valor de otra variable de Analytics.
@@ -65,9 +65,9 @@ Habilitar props de lista en [Variables de tráfico](/help/admin/admin/c-manage-r
 
 ### Establecer las prop de lista mediante el SDK web {#list-props-web-sdk}
 
-Si se usa la variable [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), las props de lista se asignan a `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. El SDK web utiliza automáticamente el delimitador correcto que aparece en la configuración del grupo de informes. Si establece el delimitador en el campo XDM (por ejemplo, `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), eso anula el delimitador recuperado automáticamente de la configuración del grupo de informes y puede provocar un análisis incorrecto de la cadena prop de lista.
+Si se usa el [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), las props de lista se asignan a `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. El SDK web utiliza automáticamente el delimitador correcto que aparece en la configuración del grupo de informes. Si establece el delimitador en el campo XDM (por ejemplo, `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), eso anula el delimitador recuperado automáticamente de la configuración del grupo de informes y puede provocar un análisis incorrecto de la cadena prop de lista.
 
-Si se usa la variable [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), las props de lista utilizan los mismos campos que las props estándar y siguen la sintaxis de AppMeasurement.
+Si usa el [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), las props de lista usan los mismos campos que las props estándar y siguen la sintaxis de AppMeasurement.
 
 ### Configurar las prop de lista con la extensión Adobe Analytics y AppMeasurement
 

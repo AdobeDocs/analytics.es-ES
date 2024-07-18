@@ -7,8 +7,8 @@ feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
 source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 93%
+source-wordcount: '368'
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ Cuando las anotaciones están activadas, los iconos de anotación se pueden ver 
 
 ![](assets/view-annotations.png)
 
-Cuando los iconos de anotación están visibles, no se puede ver ni interactuar con las anotaciones en el lienzo del generador. Utilice el modo de vista previa para ver e interactuar con anotaciones tal y como aparecen en la aplicación ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **Previsualizar**.
+Cuando los iconos de anotación están visibles, no se puede ver ni interactuar con las anotaciones en el lienzo del generador. Utilice el modo de vista previa para ver e interactuar con anotaciones tal y como aparecen en la aplicación ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **Vista previa**.
 
 Los colores de anotación se seleccionan cuando la anotación se crea en el espacio de trabajo. Las anotaciones grises indicaban la presencia de más de una anotación.
 

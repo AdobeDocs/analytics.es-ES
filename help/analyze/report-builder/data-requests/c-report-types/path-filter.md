@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '426'
 ht-degree: 62%
 
 ---
@@ -62,7 +62,7 @@ Puede editar un patrón predefinido después de seleccionar un patrón.
 
 1. Para seleccionar entre un rango de celdas de una solicitud anterior, seleccione **[!UICONTROL Desde el rango de celdas]** y haga clic en el icono de selector de celdas. A continuación, seleccione las celdas de un informe.
 
-   ![Captura de pantalla que muestra las opciones para elegir entre un rango de celdas o de una lista.](assets/choose_site_section_paths.png)
+   ![Captura de pantalla que muestra las opciones para elegir de un rango de celdas o de una lista.](assets/choose_site_section_paths.png)
 
 1. Para seleccionar entre una lista de secciones de sitio, seleccione **[!UICONTROL Desde la lista]** y haga clic en **[!UICONTROL Añadir]**.
 
@@ -72,4 +72,4 @@ Puede editar un patrón predefinido después de seleccionar un patrón.
 
 1. Para guardar el patrón que acaba de establecer, haga clic en **[!UICONTROL Guardar]**.
 
-1. Clic **[!UICONTROL OK]** tres veces y luego haga clic en **[!UICONTROL Finalizar]** para generar la ruta filtrada.
+1. Haga clic en **[!UICONTROL Aceptar]** tres veces y, a continuación, haga clic en **[!UICONTROL Finalizar]** para generar la ruta filtrada.

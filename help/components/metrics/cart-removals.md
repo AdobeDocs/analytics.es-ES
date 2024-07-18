@@ -12,7 +12,7 @@ ht-degree: 78%
 
 # Eliminaciones del carro de compras
 
-Las &quot;eliminaciones del carro de compras&quot; [métrica](overview.md) muestra la cantidad de veces que un visitante ha eliminado algo del carro de compras. Esta métrica es útil cuando desea comprender la parte del canal de conversión en la que los clientes ya no están interesados en un producto.
+La [métrica](overview.md) &quot;Eliminaciones del carro de compras&quot; muestra la cantidad de veces que un visitante quitó algo de su carro de compras. Esta métrica es útil cuando desea comprender la parte del canal de conversión en la que los clientes ya no están interesados en un producto.
 
 ## Cálculo de esta métrica
 

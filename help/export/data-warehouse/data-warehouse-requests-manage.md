@@ -19,7 +19,7 @@ Las secciones siguientes describen las actividades que puede realizar al adminis
 
 ## Ver solicitudes
 
-De forma predeterminada, solo puede ver las solicitudes que cree, a menos que los usuarios hayan elegido hacer sus solicitudes visibles para otros miembros de la organización (como se describe en [Configuración general de solicitudes de Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md)). Los administradores del sistema pueden ver todas las solicitudes.
+De manera predeterminada, solo puede ver las solicitudes que cree, a menos que los usuarios hayan elegido hacer sus solicitudes visibles para otros miembros de la organización (como se describe en [configuración general de las solicitudes de Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md)). Los administradores del sistema pueden ver todas las solicitudes.
 
 Para ver solicitudes de Data Warehouse:
 
@@ -53,15 +53,15 @@ Para editar una solicitud programada:
 
 1. En la página Data Warehouse, seleccione la solicitud que desee editar.
 
-   ![Administración de una solicitud](assets/dw-manage-request.png)
+   ![Administrar una solicitud](assets/dw-manage-request.png)
 
 1. Seleccione [!UICONTROL **Editar**].
 
 1. Edite la solicitud según desee. Las opciones de configuración atenuadas no se pueden editar.
 
-   Para obtener información sobre cada opción de configuración, consulte [Creación de una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Para obtener información sobre cada opción de configuración, consulte [Crear una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Seleccionar [!UICONTROL **Guardar cambios**].
+1. Seleccione [!UICONTROL **Guardar cambios**].
 
 ## Ver el historial de una solicitud
 
@@ -71,15 +71,15 @@ Puede ver el historial de cualquier solicitud de Data Warehouse que haya realiza
 
 1. En la página Data Warehouse, seleccione la solicitud cuyo historial desee ver.
 
-   ![Administración de una solicitud](assets/dw-manage-request.png)
+   ![Administrar una solicitud](assets/dw-manage-request.png)
 
-1. Seleccionar [!UICONTROL **Ver historial**].
+1. Seleccione [!UICONTROL **Ver historial**].
 
-   El [!UICONTROL **Ver solicitud de Data Warehouse**] Esta página muestra una lista de los envíos de informes individuales asociados a la solicitud.
+   La página [!UICONTROL **Ver solicitud de Data Warehouse**] muestra una lista de envíos de informes individuales asociados a la solicitud.
 
-   Seleccione el **Configurar columna** icono ![Icono Configurar columna](assets/configure-column-icon.png) para ocultar columnas o mostrar columnas que no se muestran de forma predeterminada.
+   Seleccione el icono **Configurar columna** ![Configurar icono de columna](assets/configure-column-icon.png) para ocultar columnas o mostrar columnas que no se muestran de forma predeterminada.
 
-   ![Página historial de solicitudes](assets/dw-request-history.png)
+   ![Página de historial de solicitudes](assets/dw-request-history.png)
 
    Las columnas disponibles son las siguientes:
 
@@ -89,21 +89,21 @@ Puede ver el historial de cualquier solicitud de Data Warehouse que haya realiza
    | [!UICONTROL **Fecha de inicio**] | La fecha y la hora de inicio del informe.<p>Esto se muestra en la zona horaria del usuario que inició la solicitud.</p> |
    | [!UICONTROL **Fecha de finalización**] | La fecha y la hora en que se completó el informe.<p>Esto se muestra en la zona horaria del usuario que inició la solicitud.</p> |
    | [!UICONTROL **Fecha de actualización**] | La fecha y la hora de la última actualización del informe.<p>Esto se muestra en la zona horaria del usuario que inició la solicitud.</p> |
-   | [!UICONTROL **Estado**] | El estado del envío del informe. Los estados posibles son:<ul><li>[!UICONTROL **Creado**]: el informe se ha creado, pero aún no se ha procesado.</li><li>[!UICONTROL **Pendiente**]: el informe está esperando a procesarse.</li><li>[!UICONTROL **Procesando**]: el informe se está procesando en este momento.</li><li>[!UICONTROL **Completado**]: el informe se ha completado y ya está disponible.</li><li>[!UICONTROL **Programado**]: el informe está programado pero aún no ha comenzado.</li><li>[!UICONTROL **Cancelado**]: el usuario canceló el informe.</li><li>[!UICONTROL **Error - Procesando**:] El informe ha encontrado un error y no se ha podido procesar.</li><li>[!UICONTROL **Error: Error Al Enviar**]: el informe se ha generado correctamente pero no se ha podido entregar. Compruebe la [configuración del destino](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)y vuelva a enviar el informe.</li></ul>. |
+   | [!UICONTROL **Estado**] | El estado del envío del informe. Los estados posibles son:<ul><li>[!UICONTROL **Creado**]: el informe se creó, pero aún no se ha procesado.</li><li>[!UICONTROL **Pendiente**]: el informe está esperando a procesarse.</li><li>[!UICONTROL **Procesando**]: el informe se está procesando en este momento.</li><li>[!UICONTROL **Completado**]: el informe se completó y ya está disponible.</li><li>[!UICONTROL **Programado**]: el informe está programado pero aún no se ha iniciado.</li><li>[!UICONTROL **Cancelado**]: el usuario canceló el informe.</li><li>[!UICONTROL **Error - Procesando**:] El informe encontró un error y no se pudo procesar.</li><li>[!UICONTROL **Error - Error al enviar**]: el informe se generó correctamente pero no se pudo entregar. Comprueba la [configuración de tu destino](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) y vuelve a enviar el informe.</li></ul>. |
    | [!UICONTROL **De**] | La fecha de inicio del lapso de tiempo general incluido en el informe.<p>Esto se muestra en la zona horaria del grupo de informes.</p> |
    | [!UICONTROL **Hasta**] | La fecha de finalización del lapso de tiempo general incluido en el informe. <p>Esto se muestra en la zona horaria del grupo de informes.</p> |
    | [!UICONTROL **ID de solicitud heredada**] | El ID que se utiliza para identificar un informe en la interfaz de Data Warehouse heredada. Este ID puede ser necesario al ponerse en contacto con el Servicio de atención al cliente de Adobe. |
-   | [!UICONTROL **ID de informe**] | Identificador que se utiliza para identificar un informe en la interfaz de Data Warehouse actual. Este ID puede ser necesario al ponerse en contacto con el Servicio de atención al cliente de Adobe. |
+   | [!UICONTROL **Id. de informe**] | Identificador que se utiliza para identificar un informe en la interfaz de Data Warehouse actual. Este ID puede ser necesario al ponerse en contacto con el Servicio de atención al cliente de Adobe. |
 
 
 1. Seleccione una entrega de informes y, a continuación, seleccione cualquiera de las siguientes opciones:
 
    | Opción | Función |
    |---------|----------|
-   | [!UICONTROL **Detalles del destino**] | Muestra los detalles de cuenta y ubicación asociados con la solicitud. Esta es la cuenta y la ubicación configuradas anteriormente, tal como se describe en [Configuración del destino de un informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
-   | [!UICONTROL **Cancelar informe**] | Cancela el informe. No se pueden cancelar los informes cuyo estado sea [!UICONTROL **Completado**] o [!UICONTROL **Cancelado**]. |
-   | [!UICONTROL **Volver a ejecutar informe**] | Ejecuta de nuevo el informe con los datos tal como estaban cuando se envió originalmente. Puede volver a ejecutar un informe que tenga cualquiera de los siguientes estados: [!UICONTROL **Cancelado**], [!UICONTROL **Completado**], [!UICONTROL **Error - Procesando**], o [!UICONTROL **Error: Error Al Enviar**]. |
-   | [!UICONTROL **Reenviar informe**] | Reenvía el archivo de informe generado anteriormente. Puede reenviar un informe que tenga cualquiera de los siguientes estados: [!UICONTROL **Completado**] o [!UICONTROL **Error: Error Al Enviar**]. |
+   | [!UICONTROL **Detalles del destino**] | Muestra los detalles de cuenta y ubicación asociados con la solicitud. Ésta es la cuenta y la ubicación configuradas anteriormente, tal como se describe en [Configuración de un destino de informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **Cancelar informe**] | Cancela el informe. No puede cancelar informes que tengan un estado de [!UICONTROL **Completado**] o [!UICONTROL **Cancelado**]. |
+   | [!UICONTROL **Volver a ejecutar informe**] | Ejecuta de nuevo el informe con los datos tal como estaban cuando se envió originalmente. Puede volver a ejecutar un informe que tenga cualquiera de los siguientes estados: [!UICONTROL **Cancelado**], [!UICONTROL **Completado**], [!UICONTROL **Error al procesar**] o [!UICONTROL **Error al no enviar**]. |
+   | [!UICONTROL **Reenviar informe**] | Reenvía el archivo de informe generado anteriormente. Puede reenviar un informe que tenga cualquiera de los siguientes estados: [!UICONTROL **Completado**] o [!UICONTROL **Error - Error al enviar**]. |
 
 ## Copiar solicitudes
 
@@ -113,17 +113,17 @@ Al copiar una solicitud, todas las opciones de configuración se copian de la so
 
 1. En la página Data Warehouse, seleccione la solicitud que desee copiar.
 
-   ![Administración de una solicitud](assets/dw-manage-request.png)
+   ![Administrar una solicitud](assets/dw-manage-request.png)
 
-1. Seleccionar [!UICONTROL **Copiar**].
+1. Seleccione [!UICONTROL **Copiar**].
 
    Aparece la página Copiar solicitud de Data Warehouse. Todas las opciones de configuración se copian de la solicitud original.
 
 1. Actualice las opciones de configuración asociadas con la solicitud.
 
-   Para obtener información sobre cada opción de configuración, consulte [Creación de una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Para obtener información sobre cada opción de configuración, consulte [Crear una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Seleccionar [!UICONTROL **Guardar cambios**].
+1. Seleccione [!UICONTROL **Guardar cambios**].
 
 ## Cancelar solicitudes
 
@@ -135,9 +135,9 @@ Para cancelar una solicitud programada:
 
 1. En la página Data Warehouse, seleccione la solicitud que desee editar.
 
-   ![Administración de una solicitud](assets/dw-manage-request.png)
+   ![Administrar una solicitud](assets/dw-manage-request.png)
 
-1. Seleccionar [!UICONTROL **Cancelar**].
+1. Seleccione [!UICONTROL **Cancelar**].
 
    La solicitud ya no se ejecutará a la hora programada.
 
@@ -145,9 +145,9 @@ Para cancelar una solicitud programada:
 
 Puede configurar la información que se muestra para cada solicitud añadiendo o eliminando columnas.
 
-1. Seleccione el **Configuración de columnas** en la parte superior derecha de la página de Data Warehouse.
+1. Seleccione el icono **Configure columns** en la parte superior derecha de la página de Data Warehouse.
 
-   ![Configuración de columnas](assets/dw-configure-columns.png)
+   ![Configurar columnas](assets/dw-configure-columns.png)
 
    Las columnas disponibles son las siguientes:
 
@@ -157,7 +157,7 @@ Puede configurar la información que se muestra para cada solicitud añadiendo o
    | Grupo de informes | El grupo de informes asociado con la solicitud. |
    | Solicitado por | El usuario que creó la solicitud. |
    | Fecha de solicitud | La fecha en la que se realizó la solicitud. |
-   | Estado | Los siguientes estados están disponibles:<ul><li><p>**Completado**: la solicitud se ejecutó correctamente.</p></li><li><p>**Cancelado**: la solicitud fue cancelada por el usuario.</p></li><li><p>**Programado**: la solicitud está configurada para ejecutarse en una programación.</p></li><li><p>**Error**: no se pudo completar la solicitud. Si la solicitud continúa fallando, póngase en contacto con Atención al cliente.</p></li></ul> |
+   | Estado | Los siguientes estados están disponibles:<ul><li><p>**Completada**: la solicitud se ejecutó correctamente.</p></li><li><p>**Cancelada**: el usuario canceló la solicitud.</p></li><li><p>**Programada**: la solicitud está configurada para ejecutarse en una programación.</p></li><li><p>**Error**: no se pudo completar la solicitud. Si la solicitud continúa fallando, póngase en contacto con Atención al cliente.</p></li></ul> |
 
    {style="table-layout:auto"}
 
@@ -165,11 +165,11 @@ Puede configurar la información que se muestra para cada solicitud añadiendo o
 
 ## Filtrado y ordenación de solicitudes
 
-1. Seleccione el **Filtrar** en el carril izquierdo de la página de Data Warehouse.
+1. Seleccione el icono **Filter** en el carril izquierdo de la página de Data Warehouse.
 
    ![Filtrar solicitudes](assets/dw-filter.png)
 
-1. Expanda el [!UICONTROL **Grupos de informes**], [!UICONTROL **Propietario**], o [!UICONTROL **Estado**] , luego seleccione cómo desea filtrar las solicitudes.
+1. Expanda las secciones [!UICONTROL **Grupos de informes**], [!UICONTROL **Propietario**] o [!UICONTROL **Estado**] y, a continuación, seleccione cómo desea filtrar las solicitudes.
 
 ## Búsqueda de solicitudes
 

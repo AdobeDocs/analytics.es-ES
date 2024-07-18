@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Búsqueda de pago
 
-La &quot;Búsqueda de pago&quot; [dimensión](overview.md) le permite mirar cualquier métrica y compararla entre la búsqueda de pago y la búsqueda natural. Se omiten todas las demás visitas fuera de los motores de búsqueda. Esta dimensión es útil para comprender cómo se comparan los esfuerzos de búsqueda de pago con la búsqueda orgánica.
+La [dimensión](overview.md) &quot;Búsqueda de pago&quot; le permite ver cualquier métrica y compararla entre la búsqueda de pago y la búsqueda natural. Se omiten todas las demás visitas fuera de los motores de búsqueda. Esta dimensión es útil para comprender cómo se comparan los esfuerzos de búsqueda de pago con la búsqueda orgánica.
 
 ## Rellene esta dimensión con datos
 

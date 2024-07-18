@@ -8,7 +8,7 @@ exl-id: 09eccff0-64ab-432d-bbb1-6c9b83ecb170
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 55%
+ht-degree: 48%
 
 ---
 
@@ -18,4 +18,4 @@ Los mensajes de diagnóstico ofrecen información sobre el estado de la solicitu
 
 ![Icono de marca de verificación verde que indica que la solicitud se actualizó correctamente.](assets/icon_notice_success.gif) Indica que la solicitud se ha actualizado correctamente desde que se abrió este libro. La columna de diagnóstico proporciona otra información sobre la solicitud, incluyendo el tiempo utilizado por la solicitud, el tiempo para asignar la solicitud y si ésta utiliza información almacenada con anterioridad en la caché.
 
-![Icono de triángulo rojo con signo de exclamación que indica que la actualización de la solicitud ha fallado.](assets/icon_notice_warn.gif) Esta alerta se muestra cuando una solicitud no se actualiza correctamente. El error aparece en la columna de diagnóstico indicando la posible causa del fallo. Consulte la [sección sobre solución de errores](/help/analyze/report-builder/troubleshoot.md) para obtener ayuda con los mensajes de error seleccionados.
+![Icono de triángulo rojo con signo de exclamación que indica que la actualización de la solicitud falló.](assets/icon_notice_warn.gif) Esta alerta se muestra cuando una solicitud no se actualiza correctamente. El error aparece en la columna de diagnóstico indicando la posible causa del fallo. Consulte la [sección de solución de problemas](/help/analyze/report-builder/troubleshoot.md) para obtener ayuda con los mensajes de error seleccionados.

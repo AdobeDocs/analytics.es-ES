@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Trimestre del año
 
-El &#39;trimestre del año&#39; [dimensión](overview.md) registra el trimestre de cualquier año dado como un elemento de dimensión. Este informe es valioso si desea un informe desglosado por trimestre del año, pero no desea una fecha estática como elementos de dimensión. Puede acumular informes año tras año por trimestre, de modo que los datos del primer trimestre de este año se sumen con los datos del primer trimestre del año pasado en el mismo elemento de dimensión.
+La [dimensión](overview.md) &quot;Trimestre del año&quot; indica el trimestre de cualquier año dado como un elemento de dimensión. Este informe es valioso si desea un informe desglosado por trimestre del año, pero no desea una fecha estática como elementos de dimensión. Puede acumular informes año tras año por trimestre, de modo que los datos del primer trimestre de este año se sumen con los datos del primer trimestre del año pasado en el mismo elemento de dimensión.
 
 ## Rellene esta dimensión con datos
 

@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Motor de búsqueda
 
-El &quot;motor de búsqueda&quot; [dimensión](overview.md) informa de los motores de búsqueda que los visitantes utilizan para llegar al sitio. Un remitente del reenvío debe cumplir los dos requisitos siguientes para clasificarse como motor de búsqueda:
+El &quot;Motor de búsqueda&quot; [dimension](overview.md) indica los motores de búsqueda que los visitantes utilizan para llegar al sitio. Un remitente del reenvío debe cumplir los dos requisitos siguientes para clasificarse como motor de búsqueda:
 
 * Adobe reconoce el dominio de referencia como un motor de búsqueda válido.
 * Existe un parámetro de cadena de consulta de palabra clave en la dirección URL de referencia. El parámetro de cadena de consulta puede estar en blanco (como sucede con varios motores de búsqueda debido a políticas de privacidad).

@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 68%
+source-wordcount: '568'
+ht-degree: 100%
 
 ---
 
@@ -49,26 +49,26 @@ Para eliminar la depuración del proyecto y restaurar el conjunto completo de co
 1. Haga clic en **[!UICONTROL Eliminar depuración]**.
 1. Haga clic en **[!UICONTROL Finalizado]**.
 
-## Depuración de grupos de informes virtuales
+## Depuración del grupo de informes virtuales
 
 Para aplicar la depuración a nivel de grupo de informes, de modo que se aplique a muchos proyectos a la vez, puede [depurar componentes en un grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=es).
 
 >[!NOTE]
-> La depuración de grupos de informes virtuales siempre se aplica antes de la depuración de proyectos. Esto significa que, aunque el proyecto depurado incluya determinados componentes, estos se filtrarán si el grupo de informes virtuales depurado no los incluye.
+> La depuración de grupos de informes virtuales siempre se aplica antes de la depuración de proyectos. Esto significa que, aunque el proyecto depurado incluya determinados componentes, se filtrarán si los grupos de informes virtuales depurados no los incluyen.
 
 ## Opción Mostrar todos los componentes
 
-En un proyecto depurado o grupo de informes virtuales, el destinatario tendrá la opción de **[!UICONTROL Mostrar todo]** componentes en el carril izquierdo. [!UICONTROL Mostrar todo] revela diferentes conjuntos de componentes, según:
+En un proyecto depurado o grupo de informes virtual, el destinatario tendrá la opción de **[!UICONTROL Mostrar todos]** los componentes en el carril izquierdo. [!UICONTROL Mostrar todo] revela diferentes conjuntos de componentes, según:
 
-* El nivel de permiso del usuario (administrador o no administrador)
+* Nivel de permiso del usuario (administrador o no administrador)
 * Función del proyecto (propietario/editor o no)
-* Tipo de depuración aplicada (grupos de informes virtuales o proyecto)
+* Tipo de depuración aplicada (grupo de informes virtual o proyecto)
 * Componentes propiedad del usuario o que el usuario ha compartido. Entre los componentes propios o compartidos se incluyen los segmentos, las métricas calculadas y los intervalos de fechas. No incluyen componentes implementados como, por ejemplo, eVars, props y eventos personalizados.
 
 Nota: Las funciones de vista que no son de administración no tendrán acceso al carril izquierdo del proyecto, por lo que se han omitido de la tabla siguiente.
 
 | Tipo de depuración | Administradores | Propietario del proyecto no administrador o función de edición | Función duplicada no perteneciente a administración |
 |---|---|---|---|
-| Grupo de informes virtuales seleccionado | Todos los componentes no depurados del grupo de informes virtuales | Componentes de grupos de informes virtuales no depurados que pertenecen a esta función o que se compartieron con esta función | Componentes de grupos de informes virtuales no depurados que pertenecen a esta función o que se compartieron con esta función |
+| Grupo de informes virtuales depurado | Todos los componentes no depurados del grupo de informes virtuales | Componentes de grupo de informes virtuales no depurados que pertenecen a esta función o que se compartieron con esta función | Componentes de grupo de informes virtuales no depurados que pertenecen a esta función o que se compartieron con esta función |
 | Proyecto depurado | Todos los componentes de proyecto no depurados | Todos los componentes de proyecto no depurados | Componentes de proyecto no depurados que pertenecen a esta función o que se compartieron con esta función |
-| Proyecto depurado en un grupo de informes virtuales depurado | Todos los componentes no depurados, mostrados bajo **[!UICONTROL Componentes de proyecto no depurados]** y **[!UICONTROL Componentes de grupos de informes virtuales no depurados]** | Todos los componentes de proyecto no depurados Y los componentes de grupo de informes virtuales no depurados que pertenecen a esta función o que se compartieron con esta función | Componentes de proyecto y grupo de informes virtuales no depurados que pertenecen a esta función o que se compartieron con esta función |
+| Proyecto depurado en un grupo de informes virtuales depurado | Todos los componentes no depurados, mostrados bajo **[!UICONTROL Componentes de proyecto no depurados]** y **[!UICONTROL Componentes de grupos de informes virtuales no depurados]** | Todos los componentes no depurados del proyecto Y los componentes no depurados del grupo de informes virtuales que pertenezcan a esta función o que hayan sido compartidos con ellos | Grupo de informes virtuales y componentes de proyecto no depurados que pertenecen a esta función o que han sido compartidos con ellos |

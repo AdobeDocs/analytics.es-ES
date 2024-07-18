@@ -12,7 +12,7 @@ ht-degree: 70%
 
 # Usuarios no identificados
 
-Las &#39;personas no identificadas&#39; [métrica](overview.md) es un [Análisis entre dispositivos](../cda/overview.md) que cuenta el número de visitantes que CDA no pudo identificar.
+La métrica [Personas no identificadas](overview.md) es una métrica de [análisis entre dispositivos](../cda/overview.md) que cuenta el número de visitantes que CDA no pudo identificar.
 
 ## Cálculo de esta métrica
 

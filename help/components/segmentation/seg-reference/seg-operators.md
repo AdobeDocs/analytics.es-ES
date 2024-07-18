@@ -5,8 +5,8 @@ feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 96%
+source-wordcount: '1105'
+ht-degree: 95%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 96%
 
 El Generador de segmentos le permite comparar y restringir valores utilizando los operadores seleccionados. Existen tres categorías de operadores: Estándar, Data Warehouse y Recuento específico.
 
-El único carácter comodín admitido es el asterisco: &#42;. Si necesita buscar: &#42;, puede especificarlo con una barra invertida.
+El único carácter comodín admitido es el asterisco: &#42;. Si necesita buscar &#42;, puede especificarlo con una barra invertida.
 
-**Ejemplo**: Imaginemos que tiene una página denominada “Mi excelente producto”. La regla de segmento &quot;El nombre de página coincide con Mi&#42;&quot;product&quot; coincidirá con el nombre de página anterior. Sin embargo, la regla &quot;El nombre de página coincide con Mi\\&#42;product&quot; coincide únicamente con el nombre de página &quot;My&#42;Product&quot;.
+**Ejemplo**: Imaginemos que tiene una página denominada “Mi excelente producto”. La regla de segmento &quot;El nombre de página coincide con Mi&#42;producto&quot; coincidirá con el nombre de página anterior. Sin embargo, la regla &quot;El nombre de página coincide con Mi\\&#42;producto&quot; coincide únicamente con el nombre de página &quot;Mi&#42;producto&quot;.
 
 ## Operadores estándar
 

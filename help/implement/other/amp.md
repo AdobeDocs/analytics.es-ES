@@ -21,8 +21,8 @@ Dado que Adobe Analytics utiliza una biblioteca JavaScript para compilar y envia
 
 Adobe ha creado dos métodos para implementar Adobe Analytics en páginas que utilizan AMP. Ambos utilizan la etiqueta HTML `<amp-analytics>`. Consulte [amp-analytics](https://amp.dev/es/documentation/components/amp-analytics) en la documentación de AMP para obtener más información.
 
-* **Utilice el `"adobeanalytics"` plantilla**: Construya la solicitud de Analytics directamente en la página
-* **Utilice el `"analytics_nativeConfig"` plantilla**: utilice un iframe que contenga el mismo código de AppMeasurement que implementa en el sitio normal
+* **Usar la plantilla `"adobeanalytics"`**: construya la solicitud de Analytics directamente en la página
+* **Use la plantilla `"analytics_nativeConfig"`**: use un iframe que contenga el mismo código de AppMeasurement que implementa en el sitio normal
 
 La siguiente tabla compara estos dos métodos:
 
@@ -42,11 +42,11 @@ Valore los pros y los contras para poder elegir el mejor método de implementaci
 >
 >No utilice las plantillas `"adobeanalytics"` y `"adobeanalytics_nativeConfig"` en la misma página con AMP. Si intenta hacerlo, puede generar errores en la consola del explorador y contar dos veces los visitantes.
 
-## Método 1: Uso de `<amp-analytics>` etiqueta con el `"adobeanalytics"` plantilla
+## Método 1: usar la etiqueta `<amp-analytics>` con la plantilla `"adobeanalytics"`
 
 La plantilla de seguimiento de `"adobeanalytics"` utiliza la etiqueta HTML `<amp-analytics>` para construir una solicitud de seguimiento directamente. Puede especificar solicitudes de visita que se activen en eventos de página específicos, como la página que se hace visible o al hacer clic. Es posible personalizar los eventos de clic para aplicar a ciertos ID de elemento o ciertas clases al especificar un selector. La plantilla se puede cargar al añadir `type="adobeanalytics"` a la etiqueta amp-analytics.
 
-En el siguiente código de ejemplo, existen dos activadores definidos: `pageLoad` y `click`. El activador `pageLoad` se ejecuta cuando el documento se vuelve visible e incluye la variable `pageName` tal como se define en la sección `vars`. El segundo activador `click` se ejecuta al hacer clic en un botón. El `eVar1` se establece para este evento con el valor `button clicked`.
+En el siguiente código de ejemplo, existen dos activadores definidos: `pageLoad` y `click`. El activador `pageLoad` se ejecuta cuando el documento se vuelve visible e incluye la variable `pageName` tal como se define en la sección `vars`. El segundo activador `click` se ejecuta al hacer clic en un botón. La variable `eVar1` se ha establecido para este evento con el valor `button clicked`.
 
 ```html
 <amp-analytics type="adobeanalytics">
@@ -79,17 +79,17 @@ En el siguiente código de ejemplo, existen dos activadores definidos: `pageLoad
 </amp-analytics>
 ```
 
-El `<amp-analytics>` admite sustituciones de variables de modo que AMP pueda proporcionar valores de datos que tiene en cuenta. Consulte [variables admitidas en `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) en GitHub para obtener más información.
+La etiqueta `<amp-analytics>` admite sustituciones de variables para que AMP pueda proporcionar valores de datos que tiene en cuenta. Consulte [variables admitidas en `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) en GitHub para obtener más información.
 
 >[!NOTE]
 >
->Las solicitudes de imagen enviadas al Adobe mediante este método no incluyen datos para muchos informes predeterminados (por ejemplo, explorador, tamaño de pantalla o referente). Si desea incluir esta información en las visitas, asegúrese de que se incluya como parte de la cadena de consulta de solicitud de imagen. Consulte [Parámetros de consulta de recopilación de datos](../validate/query-parameters.md) para obtener una lista completa de las solicitudes de imagen, consulte los parámetros y sus variables asociadas.
+>Las solicitudes de imagen enviadas al Adobe mediante este método no incluyen datos para muchos informes predeterminados (por ejemplo, explorador, tamaño de pantalla o referente). Si desea incluir esta información en las visitas, asegúrese de que se incluya como parte de la cadena de consulta de solicitud de imagen. Consulte [Parámetros de consulta de recopilación de datos](../validate/query-parameters.md) para obtener una lista completa de los parámetros de consulta de solicitudes de imagen y sus variables asociadas.
 
 Adobe identifica a los visitantes mediante una función AMP integrada y establece la cookie `adobe_amp_id`. Este ID de visitante es único para cualquier otro ID establecido por Adobe Analytics. Se cuenta un visitante único diferente para cada CDN desde la que un visitante recupera contenido, lo que puede aumentar el recuento de visitantes únicos. Se recomienda encarecidamente utilizar un grupo de informes independiente para las páginas de AMP debido a la forma en que AMP identifica a los visitantes únicos. El servicio de Adobe Experience Cloud ID no es compatible.
 
 Esta solución necesita que el servidor de seguimiento especificado en la propiedad `host` coincida con el servidor de seguimiento en su sitio principal. De esta manera, se respetan los controles de políticas de privacidad existentes. De lo contrario, cree una política de privacidad independiente para las páginas que utilicen AMP.
 
-## Método 2: Uso de `<amp-analytics>` etiqueta con el `"adobeanalytics_nativeConfig"` plantilla
+## Método 2: usar la etiqueta `<amp-analytics>` con la plantilla `"adobeanalytics_nativeConfig"`
 
 La etiqueta `"adobeanalytics_nativeConfig"` es más fácil de implementar, ya que usa la misma metodología de etiquetado que usa en sus páginas web normales. Agregue lo siguiente a la etiqueta `amp-analytics`:
 
@@ -147,7 +147,7 @@ También se necesita una página HTML alojada en los servidores web:
 
 Este método envía datos a una página web de utilidades mediante parámetros de cadena de consulta que se agregan al parámetro de solicitud `iframeMessage` Se puede especificar cualquier nombre para estos parámetros de cadena de consulta, siempre y cuando la página `stats.html` esté configurada para recopilar los datos correspondientes de dichos parámetros.
 
-El `"adobeanalytics_nativeConfig"` La plantilla también agrega parámetros de cadena de consulta basados en las variables enumeradas en la `extraUrlParams` de la sección `<amp-analytics>` etiqueta. En el ejemplo anterior, se incluyen los parámetros `pageName` y `v1`.
+La plantilla `"adobeanalytics_nativeConfig"` también agrega parámetros de cadena de consulta basados en las variables enumeradas en la sección `extraUrlParams` de la etiqueta `<amp-analytics>`. En el ejemplo anterior, se incluyen los parámetros `pageName` y `v1`.
 
 >[!IMPORTANT]
 >

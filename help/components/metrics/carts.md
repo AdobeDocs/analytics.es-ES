@@ -12,7 +12,7 @@ ht-degree: 45%
 
 # Carros de compras
 
-Los &quot;carros de compras&quot; [métrica](overview.md) muestra el número de visitas en las que un visitante agregó su primer producto al carro de compras.
+La métrica [Carros de compras](overview.md) muestra el número de visitas en las que un visitante agregó su primer producto al carro de compras.
 
 ## Cálculo de esta métrica
 

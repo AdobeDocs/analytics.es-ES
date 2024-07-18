@@ -1,14 +1,14 @@
 ---
 description: Muestra el tráfico de la página web y clasifica las vistas de la página en tiempo real, de modo que puede comprender más rápidamente las tendencias de su sitio.
-title: Informes en tiempo real información general
+title: Resumen de informes en tiempo real
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 97%
+source-wordcount: '248'
+ht-degree: 87%
 
 ---
 
@@ -29,4 +29,4 @@ Permisos de respetos en tiempo real para usuarios y grupos Por ejemplo, si no di
 
 >[!NOTE]
 >
->[!UICONTROL Los informes en tiempo real] no son lo mismo que la función [Incluir datos actuales](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Actualización de los datos) lanzada previamente, la cual reducía la latencia de los informes estándar al mostrar los datos antes de que finalizara.
+>[!UICONTROL Informes en tiempo real] no son lo mismo que la función [Incluir datos actuales](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Actualización de los datos) lanzada anteriormente, que redujo la latencia de los informes estándar al mostrar los datos antes de que finalizara.

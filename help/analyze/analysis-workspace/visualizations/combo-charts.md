@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '760'
 ht-degree: 99%
 
 ---
@@ -90,13 +90,13 @@ Haga clic en el icono de engranaje en la parte superior derecha de un gráfico c
 | Configuración | Definición |
 | --- | --- |
 | **[!UICONTROL Tipo de visualización]** | Le permite cambiar a otro tipo de visualización. |
-| **[!UICONTROL Granularidad]** | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) en esta lista desplegable. |
+| **[!UICONTROL Granularidad]** | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) de esta lista desplegable. |
 | **[!UICONTROL General]** |  |
 | **[!UICONTROL Porcentajes]** | Muestra valores en porcentajes. |
 | **[!UICONTROL Leyenda visible]** | Permite ocultar el texto de leyenda detallado para la visualización de gráficos combinados. |
 | **[!UICONTROL Límite máximo de elementos]** | Reduce el número de elementos en el eje X. Si tiene un conjunto de datos grande, solo puede mostrar los primeros 10 elementos (o el valor que elija). |
 | **[!UICONTROL Superposiciones]** | Muestre u oculte los marcadores en las líneas. |
-| **[!UICONTROL Eje]** |  |
+| **[!UICONTROL Eje]** | |
 | **[!UICONTROL Mostrar eje doble]** | Solo es aplicable si cuenta con dos métricas: puede tener un eje Y a la izquierda (para una métrica) y a la derecha (para otra métrica). Esto resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. El color del eje doble coincide con el color de la tabla, a menos que haya varias comparaciones. En ese caso, el color de todas las comparaciones es gris. |
 | **[!UICONTROL Normalización]** | Fuerza métricas para igualar proporciones. Esto resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 | **[!UICONTROL Mostrar eje X]** | Muestra u oculta el eje X. |

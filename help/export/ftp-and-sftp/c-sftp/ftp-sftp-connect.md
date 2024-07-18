@@ -7,11 +7,11 @@ exl-id: 727d4f7a-d7d1-40cf-bdcd-c783ca47f51c
 source-git-commit: 62132284ca70f3bdb1a8896e4548b8b63a5c03c8
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 64%
+ht-degree: 58%
 
 ---
 
-# Conéctese a una cuenta de FTP de mediante un SFTP
+# Conectarse a una cuenta de FTP mediante un SFTP
 
 Para configurar una transferencia segura mediante FTP:
 

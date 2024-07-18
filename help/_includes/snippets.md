@@ -11,7 +11,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Efectivo **17 de enero de 2024**, el Adobe ha interrumpido Reports &amp; Analytics y los informes y funciones que los acompañaban. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejaron de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Para obtener información sobre el uso de los informes en Analysis Workspace, consulte [Uso de informes generados previamente](/help/analyze/analysis-workspace/reports/use-reports.md).
+>A partir del **17 de enero de 2024**, el Adobe dejó de usar Reports &amp; Analytics y los informes y funciones que lo acompañaban. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejaron de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Para obtener información sobre el uso de informes en Analysis Workspace, consulte [Usar informes pregenerados](/help/analyze/analysis-workspace/reports/use-reports.md).
 > 
 >Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de Reports &amp; Analytics se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. Este aviso explica el proceso de finalización de la vida útil.
 >
@@ -34,7 +34,7 @@ ht-degree: 96%
 | [!UICONTROL **Falta la descripción**] | Mostrar solo los componentes que aún no tienen descripción en el campo Descripción. Esta opción solo está disponible para administradores. |
 | [!UICONTROL **Mostrar duplicados**] | <p>Mostrar solo los componentes que tengan el mismo nombre o definición que otro componente en el grupo de informes seleccionado. Los nombres o definiciones deben coincidir de forma exacta para que se muestren como duplicados.</p><p>Esta opción solo está disponible para administradores.</p><p>**NOTA:** Para las definiciones, esto incluye los componentes que crea, así como los proporcionados por Adobe. En el caso de los nombres, en este momento solo se incluyen los componentes que crea y no los proporcionados por Adobe. En una futura versión se agregará la posibilidad de mostrar los nombres duplicados de los componentes proporcionados por Adobe.</p> |
 | [!UICONTROL **No hay datos recientes**] | Mostrar solo los componentes que no han recopilado ningún dato en los últimos 90 días. Esta opción solo está disponible para administradores. |
-| [!UICONTROL **Creado por Adobe**] <!-- I don't see this option--> | Mostrar solo los componentes creados por Adobe. No se muestran los componentes creados por un administrador u otro usuario de su organización. |
+| [!UICONTROL **Creado por el Adobe**] <!-- I don't see this option--> | Mostrar solo los componentes creados por Adobe. No se muestran los componentes creados por un administrador u otro usuario de su organización. |
 
 {style="table-layout:auto"}
 

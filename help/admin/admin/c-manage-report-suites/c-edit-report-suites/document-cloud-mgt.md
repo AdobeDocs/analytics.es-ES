@@ -14,13 +14,13 @@ ht-degree: 5%
 
 Puede habilitar Document Cloud Analytics para que las dimensiones y métricas específicas del PDF estén disponibles en el grupo de informes.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]** > **`<select report suite>`** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Gestión de Document Cloud]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]** > **`<select report suite>`** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Administración de Document Cloud]**
 
 Las siguientes opciones de administración de Document Cloud están disponibles al editar un grupo de informes:
 
 * [!UICONTROL **Informes de Document Cloud**]
 
-  Los informes específicos del complemento de recopilación de medios de streaming están disponibles en la página Informes de medios. Para obtener más información sobre los informes de contenidos, consulte [Configuración de informes de Document Cloud](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
+  Los informes específicos del complemento de recopilación de medios de streaming están disponibles en la página Informes de medios. Para obtener más información acerca de Informes de medios, consulte [Configuración de informes de Document Cloud](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
 
 * [!UICONTROL **Clasificaciones de Document Cloud**]
 

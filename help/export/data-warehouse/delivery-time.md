@@ -31,7 +31,7 @@ Para acelerar la entrega de una solicitud de Data Warehouse, puede modificarla d
 
 * **Utilice un segmento que contenga una muestra de datos más pequeña**: Cuanto menor sea la cantidad de datos con los que funciona una solicitud, más rápido devolverá un informe.
 * **Ejecutar solicitudes en incrementos de 14 días o menos**: Las solicitudes más pequeñas se procesan más rápido que las solicitudes grandes.
-* **Usar menos desgloses:** Muchos desgloses en una solicitud aumentan exponencialmente el tiempo que se tarda en procesar.
+* **Usar menos desgloses:** Muchos desgloses en una solicitud aumentan exponencialmente el tiempo que se tarda en procesarla.
 
 ## Utilizar un método alternativo
 

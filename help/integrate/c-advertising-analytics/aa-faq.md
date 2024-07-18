@@ -68,7 +68,7 @@ Las cuentas de motor de búsqueda incluyen Google AdWords y Microsoft Bing.
 
 +++ ¿Dónde debo ir para acceder a Advertising Analytics?
 
-Después de iniciar sesión en Adobe Analytics, vaya a [!UICONTROL Administrador]. A continuación seleccione [!UICONTROL Advertising Analytics] para agregar las cuentas de motor de búsqueda.
+Después de iniciar sesión en Adobe Analytics, vaya a [!UICONTROL Admin]. A continuación, seleccione [!UICONTROL Advertising Analytics] para agregar las cuentas de motor de búsqueda.
 
 +++
 
@@ -105,7 +105,7 @@ No, los datos de búsqueda sin procesar se incluirán como un conjunto de datos 
 
 +++ Estoy intentando asignar mis cuentas de Advertising Analytics a un grupo de informes específico, pero no está disponible en el modal del grupo de informes. ¿Por qué?
 
-Antes de poder asignar un grupo de informes a una cuenta de Advertising Analytics, el grupo de informes en cuestión debe estar [aprovisionado para informes de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+Para poder asignar un grupo de informes a una cuenta de Advertising Analytics, el grupo de informes deseado debe estar [aprovisionado para los informes de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 Esto se realiza a través de una página de Administración independiente a la que se puede acceder desde: Administración > Grupos de informes > `[select report suite]` > Editar configuración > Configuración de Advertising Analytics.
 
 +++
@@ -116,7 +116,7 @@ Los grupos de informes virtuales no recopilan datos, por lo que no puede asignar
 
 +++
 
-+++ ¿Se pueden registrar las métricas de Advertising Analytics en la *Canales de marketing* ¿reportar?
++++ ¿Se pueden incluir las métricas de Advertising Analytics en el informe *Canales de mercadotecnia*?
 
 No, no se incluyen en el informe Canales de marketing.
 
@@ -128,7 +128,7 @@ Los datos de búsqueda se obtienen de los motores de búsqueda alrededor de las 
 
 +++
 
-+++ Qué puede ser *capturado antes del clic*? ¿Obtenemos impresiones, costes, posiciones medias, etc. incluso sin el clic?
++++ ¿Qué se puede *capturar antes del clic*? ¿Obtenemos impresiones, costes, posiciones medias, etc. incluso sin el clic?
 
 El ID de AMO registrará las métricas del motor de búsqueda: impresiones, costes, clics, posición media y puntuación de calidad media. Si no hay clics, pero hay impresiones, los datos de impresión, posición y calidad se enviarán a Analytics. Normalmente, si no hay clics, tampoco hay costes.
 
@@ -154,7 +154,7 @@ La clasificación de la Plataforma de publicidad registra estos valores: &quot;G
 
 +++
 
-+++ ¿Hay planes para incluir otros canales publicitarios como *Mostrar* o *Social*?
++++ ¿Hay planes para incluir otros canales publicitarios como *Pantalla* o *Social*?
 
 No, actualmente no tenemos planes para estos otros canales en la hoja de ruta.
 
@@ -163,7 +163,7 @@ No, actualmente no tenemos planes para estos otros canales en la hoja de ruta.
 
 ## Seguimiento automático frente al manual {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ Al configurar mi cuenta publicitaria, se indica lo siguiente *Seguimiento automático* puede tener consecuencias no deseadas. ¿Qué tipos de consecuencias se pueden producir?
++++ Al configurar mi cuenta de Advertising, se indica que el *seguimiento automático* puede tener consecuencias no deseadas. ¿Qué tipos de consecuencias se pueden producir?
 
 El modo automático intenta anexar parámetros de URL al final de las plantillas de seguimiento/URL de destino en el formato correcto. Sin embargo, es su responsabilidad asegurarse de que los parámetros de URL añadidos se conserven correctamente en la página de aterrizaje final. El modo automático puede insertar palabras clave en la dirección URL de aterrizaje, pero es posible que el servidor web no admita palabras clave con caracteres especiales.
 

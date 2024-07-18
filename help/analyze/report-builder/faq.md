@@ -7,7 +7,7 @@ exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,4 +35,4 @@ Report Builder admite libros hasta los límites siguientes:
 
 ## ¿Cómo sé si tengo acceso a Report Builder? {#access}
 
-El administrador de Adobe Analytics debe concederle acceso de Report Builder. El administrador configura perfiles de producto en [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home). Solicite a su administrador que le conceda acceso.
+El administrador de Adobe Analytics debe concederle acceso a Report Builder. El administrador configura perfiles de producto en [Adobe Admin Console](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-console/home). Solicite a un administrador que le conceda acceso.

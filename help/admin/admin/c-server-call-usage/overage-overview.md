@@ -15,7 +15,7 @@ ht-degree: 80%
 
 El uso de llamadas al servidor de Adobe Analytics responde a sus solicitudes de transparencia tanto en los datos de uso de llamadas al explorador como al servidor móvil. Permite acceder a:
 
-* Un tablero de uso de llamadas al servidor que registra sus datos de consumo de llamadas al servidor y lo compara con su límite contractual. (En Adobe Analytics, seleccione > [!UICONTROL **Administrador**] > [!UICONTROL **Uso de llamadas al servidor**])
+* Un tablero de uso de llamadas al servidor que registra sus datos de consumo de llamadas al servidor y lo compara con su límite contractual. (En Adobe Analytics, seleccione > [!UICONTROL **Admin**] > [!UICONTROL **Uso de llamadas al servidor**])
 * Tipo de alerta de uso de llamadas al servidor en el generador de alertas que le permite configurar alertas para evitar sobrecargas (en Adobe Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Alertas**])
 
 Las principales ventajas del uso de llamadas al servidor son las siguientes:
@@ -25,8 +25,8 @@ Las principales ventajas del uso de llamadas al servidor son las siguientes:
 
 ## Requisitos previos {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Permisos:** Para acceder al panel de uso de llamadas al servidor y al generador o administrador de alertas, debe ser administrador de Adobe Analytics.
-* **Permisos:** Los administradores pueden conceder acceso a los no administradores: se llama al permiso **[!UICONTROL Uso de llamadas al servidor]**. Consulte [Permiso de uso de llamadas al servidor](#server-call-usage-permission).
+* **Permisos:** Para tener acceso al panel de uso de llamadas al servidor y al generador o administrador de alertas, debe ser administrador de Adobe Analytics.
+* **Permisos:** Los administradores pueden conceder acceso a los no administradores. El permiso se llama **[!UICONTROL Uso de llamadas al servidor]**. Consulte [Permiso de uso de llamadas al servidor](#server-call-usage-permission).
 
 ## Terminología importante {#terminology}
 
@@ -99,13 +99,13 @@ El permiso Uso de llamadas al servidor se concede automáticamente a los adminis
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Inicie sesión en Analytics a través de sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Vaya a <span class="ignoretag"> <span class="uicontrol"> Administrador </span>  &gt; <span class="uicontrol"> Todos los administradores </span>  &gt; <span class="uicontrol"> Administración de usuarios </span>  &gt; <span class="uicontrol"> Grupos </span>  &gt; <span class="uicontrol"> Editar acceso a todos los informes </span>  &gt; <span class="uicontrol"> Herramientas de Analytics </span>  &gt; <span class="uicontrol"> Personalizar </span>  &gt; <span class="uicontrol"> uso de llamadas al servidor </span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Vaya a <span class="ignoretag"> <span class="uicontrol"> Administración </span> &gt; <span class="uicontrol"> Toda la administración </span> &gt; <span class="uicontrol"> Administración de usuarios </span> &gt; <span class="uicontrol"> Grupos </span> &gt; <span class="uicontrol"> Editar acceso a todos los informes </span> &gt; <span class="uicontrol"> Herramientas de Analytics </span> &gt; <span class="uicontrol"> Personalizar </span> &gt; <span class="uicontrol"> Uso de llamadas al servidor </span> </span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">Inicie sesión en login.experiencecloud.adobe.com.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Haga clic en <span class="uicontrol">Analytics</span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Vaya a <span class="ignoretag"> <span class="uicontrol"> Productos </span>  &gt; <span class="uicontrol"> Perfil del producto </span>  &gt; <span class="uicontrol"> Permisos </span>  &gt; <span class="uicontrol"> Herramientas de Analytics </span>  &gt; <span class="uicontrol"> uso de llamadas al servidor </span> </span> </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Vaya a <span class="ignoretag"> <span class="uicontrol"> Productos </span> &gt; <span class="uicontrol"> Perfil de producto </span> &gt; <span class="uicontrol"> Permisos </span> &gt; <span class="uicontrol"> Herramientas de Analytics </span> &gt; <span class="uicontrol"> Uso de llamadas al servidor </span> </span> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 

@@ -5,8 +5,8 @@ feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ Quizá quiera saber cuál de sus canales de marketing es el más efectivo y con 
 
 | Dimensión/Métrica | Definición |
 | --- | --- |
-| Canal de marketing | Esta es la dimensión de Canales de marketing que se recomienda utilizar. Los modelos de Attribution se pueden aplicar en tiempo de ejecución. Esta dimensión se comporta de forma idéntica a la dimensión del canal de último contacto, pero tiene una etiqueta diferente para evitar confusiones al usarla con un modelo de atribución distinto. |
+| Canal de marketing | Esta es la dimensión de Canales de marketing que se recomienda utilizar. Los modelos de atribución se pueden aplicar en tiempo de ejecución. Esta dimensión se comporta de forma idéntica a la dimensión del canal de último contacto, pero tiene una etiqueta diferente para evitar confusiones al usarla con un modelo de atribución distinto. |
 | Canal de último contacto | Dimensión heredada, con modelo de atribución de último contacto preaplicado e inmodificable. |
 | Canal de primer contacto | Dimensión heredada, con modelo de atribución de primer contacto preaplicado e inmodificable. |
 | Instancias de Canal de marketing | Esta métrica mide el número de veces que se definió un canal de marketing en una solicitud de imagen, incluidas las vistas de página estándar y las llamadas de vínculo personalizado. No incluye valores persistentes. |
@@ -52,7 +52,7 @@ Los detalles de Canales de marketing se insertan más profundamente en cada cana
 
 ## Aplicar modelos de atribución
 
-Puede utilizar [Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) para aplicar distintos modelos de atribución de manera instantánea:
+Puede usar [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) para aplicar distintos modelos de atribución de forma instantánea:
 
 ![](assets/mc-viz5.png)
 

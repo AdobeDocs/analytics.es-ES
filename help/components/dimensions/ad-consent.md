@@ -2,7 +2,8 @@
 title: Consentimiento de la plataforma de publicidad
 description: Consulte la configuración de consentimiento publicitario para proveedores de publicidad de terceros.
 feature: Dimensions
-source-git-commit: ba892374710bc24c379e0c53e5fd00ff4c39d906
+exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
+source-git-commit: 5df5cffbb6abf712cb36fd807ef54b8ebaae1c73
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 3%
@@ -11,7 +12,7 @@ ht-degree: 3%
 
 # Consentimiento de la plataforma de publicidad
 
-El &quot;consentimiento de la plataforma de publicidad&quot; [dimensión](overview.md) muestra si se recopila el consentimiento para enviar datos a proveedores de publicidad de terceros, como Google, Meta y otros.
+La dimensión [Consentimiento de la plataforma de publicidad](overview.md) muestra si se recopila el consentimiento para enviar datos a proveedores de publicidad de terceros, como Google, Meta y otros.
 
 Actualmente, esta dimensión se utiliza solo para Google. Debido a las regulaciones de privacidad europeas, la Ley de Mercados Digitales (DMA) de Google requiere que los datos enviados a sus servidores y recopilados en Europa indiquen si se recopila el consentimiento. Algunos clientes de Analytics envían datos de evento mediante el Adobe Advertising como eventos de conversión a Google.
 
@@ -19,7 +20,7 @@ En el futuro, esta dimensión se puede utilizar para admitir la codificación de
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión recopila datos de los siguientes [Variables de datos de contexto](/help/implement/vars/page-vars/contextdata.md)
+Esta dimensión recopila datos de las [variables de datos de contexto](/help/implement/vars/page-vars/contextdata.md) siguientes
 
 * `contextData.['adConsent']`
 
@@ -28,7 +29,7 @@ La variable de datos de contexto se rellena con valores relevantes para los camp
 * `ad_user_data` (primer carácter) y
 * `ad_personalization` (segundo carácter).
 
-Consulte [Consentimiento en la referencia de la API de Google Ads.](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) para obtener más información.
+Consulte [Consentimiento en la referencia de la API de Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) para obtener más información.
 
 Los valores posibles para cada uno de estos campos pueden ser:
 
@@ -50,8 +51,8 @@ Los caracteres que se encuentran más allá del primer y segundo carácter se om
 
 Puede utilizar los datos recopilados y de consentimiento:
 
-* Fuentes de datos: los datos de consentimiento del anuncio están disponibles mediante el `dataprivacydmaconsent` [columna](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
-* informes de Data Warehouse: los datos de consentimiento del anuncio están disponibles mediante la variable **[!UICONTROL Consentimiento de plataforma de publicidad]** dimensión.
+* Fuentes de datos: los datos del consentimiento del anuncio están disponibles mediante la `dataprivacydmaconsent` [columna](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+* Informes de Data Warehouse: los datos del consentimiento del anuncio están disponibles mediante la dimensión **[!UICONTROL Consentimiento de la plataforma de publicidad]**.
 
 Su organización determina la lógica para implementar esta variable de datos de contexto. El valor no persiste más allá de la visita en la que está establecido, por lo que debe establecer la variable de datos de contexto en cada página.
 

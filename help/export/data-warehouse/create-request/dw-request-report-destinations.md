@@ -4,7 +4,7 @@ title: Configuración del destino de un informe para una solicitud de Data Wareh
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Correo electrónico
 
@@ -163,7 +163,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -176,7 +176,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +189,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +203,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Siga configurando la solicitud de Data Warehouse en la pestaña [!UICONTROL **Opciones de informe**]. Para obtener más información, consulte [Configuración de las opciones de un informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 

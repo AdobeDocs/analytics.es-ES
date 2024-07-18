@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 100%
+source-wordcount: '679'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ A continuación, se muestra un vídeo sobre este tema:
 ## Comparar periodos de tiempo {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
 >[!NOTE]
->[!UICONTROL Comparar periodos de tiempo] saca partido de las métricas calculadas avanzadas. Como resultado, solo está disponible para clientes con las SKU Select, Prime y Ultimate de Analytics.
+>[!UICONTROL Comparar periodos de tiempo] aprovecha las métricas calculadas avanzadas. Como resultado, solo está disponible para clientes con las SKU Select, Prime y Ultimate de Analytics.
 
 El análisis requiere contexto, y este lo proporciona a menudo un periodo de tiempo previo. Por ejemplo, la pregunta “¿En qué medida nos va mejor/peor que en este mismo momento del año pasado?” es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna “diferencia” que muestra el porcentaje de cambio en comparación con un periodo de tiempo concreto.
 

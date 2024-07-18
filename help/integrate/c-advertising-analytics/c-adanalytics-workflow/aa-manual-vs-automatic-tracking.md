@@ -24,15 +24,15 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 Se admiten dos modos de seguimiento: [!UICONTROL Automático] y [!UICONTROL Manual].
 
-## [!UICONTROL Automático] Seguimiento {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+## Seguimiento [!UICONTROL Automático] {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-[!UICONTROL Automático] el seguimiento permite que el motor de Advertising Cloud decida cómo se deben administrar los datos del motor de búsqueda. El seguimiento automático es el enfoque más sencillo, pero es posible que no genere el conjunto de datos mejor integrado.
+El seguimiento [!UICONTROL Automático] permite que el motor de Advertising Cloud decida cómo se deben administrar los datos del motor de búsqueda. El seguimiento automático es el enfoque más sencillo, pero es posible que no genere el conjunto de datos mejor integrado.
 
-Como consecuencia, cuando seleccione, deberá marcar una casilla de verificación para confirmar este hecho **[!UICONTROL Automático]** antes de guardar la configuración de la cuenta.
+Como consecuencia, debes marcar una casilla de verificación de confirmación cuando selecciones **[!UICONTROL Automático]** para poder guardar la configuración de la cuenta.
 
-Tenga en cuenta que para configurar una cuenta de motor de búsqueda con **[!UICONTROL Automático]** Tipo, usted es responsable de realizar las siguientes acciones:
+Tenga en cuenta que para configurar una cuenta de motor de búsqueda con tipo **[!UICONTROL Automático]**, debe llevar a cabo las siguientes acciones:
 
-* El `s_kwcid` parámetro y valor se añade a las plantillas de seguimiento de la cuenta o a las direcciones URL de la página de aterrizaje en la cuenta que se agrega. Este parámetro y valor se inserta al final de la dirección URL. Es posible que deba llevar a cabo acciones adicionales si su servidor web requiere una determinada `key=value` al final de la dirección URL. O una actualización para admitir cualquier nuevo `key=value` par en la dirección URL. Usted es responsable de garantizar que los parámetros de URL añadidos se conserven correctamente en la página de aterrizaje final.
+* El parámetro y valor `s_kwcid` se agrega a las plantillas de seguimiento de la cuenta o a las direcciones URL de las páginas de aterrizaje en la cuenta que se agrega. Este parámetro y valor se inserta al final de la dirección URL. Es posible que deba llevar a cabo acciones adicionales si su servidor web requiere un determinado par `key=value` al final de la dirección URL. O una actualización para admitir cualquier nuevo par `key=value` en la dirección URL. Usted es responsable de garantizar que los parámetros de URL añadidos se conserven correctamente en la página de aterrizaje final.
 * Además, es posible insertar palabras clave en la URL de destino como parte del valor `s_kwcid` Si contienen caracteres especiales o símbolos, confirme que su servidor web los admite. Por ejemplo, un carácter especial común es `+`, que se utiliza en las palabras clave &quot;Broad Match Modified&quot;.
 
 >[!IMPORTANT]
@@ -49,7 +49,7 @@ A continuación, se muestra la cadena que debe añadirse a la cuenta de Google. 
 
 >[!IMPORTANT]
 >
->El valor *`<Advertising Analytics ID>`* (en **negrita** abajo) es genérico y **se debe sustituir por la cadena del identificador de la cuenta específica**. Puede obtener la cadena del identificador de la cuenta específica en la sección de la pantalla de la cuenta. [!UICONTROL Seguimiento] sección.
+>El valor *`<Advertising Analytics ID>`* (en **negrita** abajo) es genérico y **se debe sustituir por la cadena del identificador de la cuenta específica**. Puede obtener la cadena del identificador de la cuenta específica en la sección [!UICONTROL Seguimiento] de la pantalla de la cuenta.
 
 **Cadena de seguimiento para campañas:**
 

@@ -15,17 +15,17 @@ ht-degree: 90%
 
 En el formulario Asistente para solicitudes: Paso 1, se selecciona el grupo y el tipo de informes, así como los segmentos, y se configuran las fechas.
 
-![Captura de pantalla que muestra el formulario Asistente para solicitudes: Paso 1.](assets/rw1_overview.png)
+![Captura de pantalla que muestra el formulario del Asistente para solicitudes: Paso 1.](assets/rw1_overview.png)
 
-1. **[!UICONTROL Grupo de informes:]** lista de los grupos de informes que están a su disposición en función de sus credenciales de inicio de sesión. Consulte [Seleccionar grupos de informes](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. **[!UICONTROL Grupo de informes:]** lista de los grupos de informes que están a su disposición en función de sus credenciales de inicio de sesión. Ver [Seleccionar grupos de informes](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Selector de rango:** permite seleccionar un ID de grupo de informes en una celda en Excel. Consulte [Seleccionar grupos de informes](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
+1. **Selector de rango:** permite seleccionar un ID de grupo de informes en una celda en Excel. Ver [Seleccionar grupos de informes](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
 1. **Segmento**: los segmentos son subconjuntos de datos o datos filtrados mediante reglas que se han creado. Los segmentos se basan en visitas individuales, visitas y visitantes. Consulte la [Guía de segmentación de Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=es) para obtener más información acerca de los segmentos.
 
    Por ejemplo, puede ejecutar un [!UICONTROL Informe de páginas] y, a continuación, aplicar el segmento Primeras visitas.
 
-1. **Permitir anulación de lista de publicación**: Las listas de publicación eran una función de Reports &amp; Analytics, que se ha [fin de vida útil](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?).
+1. **Permitir anulación de la lista de publicación**: las listas de publicación eran una característica de Reports &amp; Analytics, que ha llegado al [final de su vida útil](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?).
 
 1. **Tipo de informe**: especifica el informe base que se desea ejecutar en la solicitud de datos. Por cada solicitud se ejecuta un informe, y éste puede tener de una a varias dimensiones y métricas. La métrica y las dimensiones de un tipo de informe se muestran en la interfaz del [!UICONTROL Asistente para solicitudes: Paso 2]. Consulte [Seleccionar tipos de informes](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 

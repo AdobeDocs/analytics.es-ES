@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Tiempo empleado por visita
 
-*Esta página de ayuda describe cómo funciona &quot;Tiempo empleado por visita&quot; como sus respectivos [dimensiones](overview.md). Consulte la métrica [Tiempo empleado por visita](../metrics/time-spent-per-visit.md) para obtener más información.*
+*Esta página de ayuda describe cómo funciona &#39;Tiempo empleado por visita&#39; como sus [dimensiones](overview.md) respectivas. Consulte la métrica [Tiempo empleado por visita](../metrics/time-spent-per-visit.md) para obtener más información.*
 
 Las dimensiones “Tiempo empleado por visita” registran la cantidad de tiempo que un visitante ha invertido en toda la visita. Para medir el cálculo se utilizan los pasos siguientes:
 

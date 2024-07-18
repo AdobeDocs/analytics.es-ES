@@ -38,7 +38,7 @@ Los administradores con acceso para crear grupos de informes virtuales pueden cr
 
 1. Vaya a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) e inicie sesión con sus credenciales de Adobe ID.
 2. Haga clic en el icono de 9 cuadrículas en la parte superior y, a continuación, haga clic en Analytics.
-3. Pase el ratón sobre **[!UICONTROL Componentes]** en la parte superior y haga clic en **[!UICONTROL Grupos de informes virtuales]**.
+3. Pase el ratón sobre **[!UICONTROL Componentes]** en la parte superior y luego haga clic en **[!UICONTROL Grupos de informes virtuales]**.
 4. Haga clic en Agregar.
 5. Escriba un nombre para el grupo de informes virtuales y asegúrese de que está seleccionado el grupo de informes habilitado para CDA.
 6. (Opcional) Aplique un segmento al grupo de informes virtuales. Por ejemplo, puede aplicar un segmento que limite el grupo de informes virtuales a las fechas después de activar CDA y de iniciar la vinculación. Este segmento permite a los usuarios ver solo intervalos de fechas enlazados dentro del grupo de informes virtuales.

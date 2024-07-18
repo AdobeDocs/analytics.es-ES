@@ -12,17 +12,17 @@ ht-degree: 26%
 
 # Dimensiones del ciclo de vida móvil
 
-*Esta página hace referencia a datos que se rastrean comúnmente mediante el SDK para móviles de Adobe Experience Platform. Para obtener información de dispositivos móviles que utilizan el agente de usuario, consulte [Dimensiones de búsqueda móvil](mobile-dimensions.md). Para las métricas rastreadas con el SDK móvil, consulte [Métricas del ciclo vital móviles](../metrics/lifecycle-metrics.md).*
+*Esta página hace referencia a datos que se rastrean comúnmente a través del SDK para móviles de Adobe Experience Platform. Para obtener información de dispositivos móviles que usan el agente de usuario, consulte [Dimensiones de búsqueda móvil](mobile-dimensions.md). Para las métricas rastreadas mediante el SDK móvil, consulte [Métricas del ciclo vital móvil](../metrics/lifecycle-metrics.md).*
 
 | Nombre de dimensión de ciclo vital | Descripción | Variable de datos de contexto |
 | --- | --- | --- |
 | [!UICONTROL Fecha de primer inicio] | | Por determinar |
-| [!UICONTROL Nombre del dispositivo (SDK)] | | `a.DeviceName` |
+| [!UICONTROL Nombre de dispositivo (SDK)] | | `a.DeviceName` |
 | [!UICONTROL Versión del sistema operativo (SDK)] | | `a.OSVersion` |
 | [!UICONTROL Resolución (SDK)] | | `a.Resolution` |
-| [!UICONTROL Fuente de adquisición] | | `a.referrer.campaign.source` |
-| [!UICONTROL ID de aplicación] | | `a.AppID` |
-| [!UICONTROL Medio de adquisición] | | `a.referrer.campaign.medium` |
+| [!UICONTROL Source de adquisición] | | `a.referrer.campaign.source` |
+| [!UICONTROL Id. de aplicación] | | `a.AppID` |
+| [!UICONTROL Medium de adquisición] | | `a.referrer.campaign.medium` |
 | [!UICONTROL Término de adquisición] | | `a.referrer.campaign.term` |
 | [!UICONTROL Contenido de adquisición] | | `a.refferer.campaign.content` |
 | [!UICONTROL Nombre de adquisición] | | `a.referrer.campaign.name` |
@@ -37,12 +37,12 @@ ht-degree: 26%
 | [!UICONTROL Valor de duración (evar)] | | `a.ltv.amount` |
 | [!UICONTROL Beacon mayor] | | Por determinar |
 | [!UICONTROL Beacon menor] | | Por determinar |
-| [!UICONTROL UUID de Beacon] | | Por determinar |
+| [!UICONTROL UUID de señalización] | | Por determinar |
 | [!UICONTROL Proximidad del Beacon] | | Por determinar |
 | [!UICONTROL Días transcurridos desde el último uso] | | `a.DaysSinceFirstUse` |
 | [!UICONTROL Hora del día (SDK)] | | `a.HourOfDay` |
 | [!UICONTROL Día de la semana (SDK)] | | `a.DayOfWeek` |
-| [!UICONTROL ID del punto de interés] | | Por determinar |
+| [!UICONTROL Id. de punto de interés] | | Por determinar |
 
 {style="table-layout:auto"}
 

@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 96%
+source-wordcount: '492'
+ht-degree: 92%
 
 ---
 
@@ -78,4 +78,4 @@ Cree cohortes basadas en una dimensión seleccionada y no en el tiempo, que es e
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-Para obtener instrucciones sobre cómo se configura y ejecuta un informe de cohorte, visite [Configurar un informe de análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Para obtener instrucciones sobre cómo configurar y ejecutar un informe de cohorte, ve a [Configurar un informe de análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).

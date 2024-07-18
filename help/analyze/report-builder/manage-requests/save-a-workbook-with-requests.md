@@ -8,13 +8,13 @@ exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 80%
+ht-degree: 78%
 
 ---
 
 # Guardar un libro con solicitudes
 
-Cuando se crean informes con solicitudes incrustadas, se pueden guardar mediante **Archivo** > **Guardar** o **Archivo** > **Guardar como** en Excel. El Report Builder detecta si el informe contiene solicitudes. Cuando seleccione una de las opciones de guardado, complete el **Guardar libro como** formulario.
+Cuando crea informes con solicitudes incrustadas, puede guardarlos con **Archivo** > **Guardar** o **Archivo** > **Guardar como** en Excel. El Report Builder detecta si el informe contiene solicitudes. Cuando seleccione una de las opciones de guardado, complete el formulario **Guardar libro como**.
 
 * En cualquier trabajo extenso realizado con aplicaciones de Windows, Adobe recomienda guardar las solicitudes en la hoja de cálculo de forma regular y periódica para evitar perder inesperadamente las solicitudes de la hoja de datos.
 * En el nombre del libro puede incluir un número de versión para así mantener un historial de trabajo. Por ejemplo, asigne el siguiente nombre al primer libro [!DNL web_forecast_01_01.xlsx].

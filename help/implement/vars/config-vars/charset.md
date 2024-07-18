@@ -13,7 +13,7 @@ ht-degree: 65%
 
 # charSet
 
-El `charSet` El Adobe utiliza la variable para convertir datos entrantes a UTF-8 para almacenamiento y generación de informes de Analytics. La mayoría de los sitios no necesitan establecer esta variable.
+El Adobe utiliza la variable `charSet` para convertir datos entrantes a UTF-8 para almacenamiento y generación de informes de Analytics. La mayoría de los sitios no necesitan establecer esta variable.
 
 Establezca esta variable solo si observa valores ilegibles ([mojibake](https://es.wikipedia.org/wiki/Mojibake)) en los informes. Esta variable se puede configurar página por página si el sitio utiliza diferentes codificaciones en diferentes páginas.
 
@@ -23,7 +23,7 @@ Actualmente, el SDK web solo admite UTF-8 y no proporciona opciones para cambiar
 
 ## Conjunto de caracteres en la extensión de Adobe Analytics
 
-Conjunto de caracteres es un campo en la variable [!UICONTROL General] al configurar la extensión de Adobe Analytics en la recopilación de datos de Adobe Experience Platform.
+Conjunto de caracteres es un campo en el acordeón [!UICONTROL General] al configurar la extensión de Adobe Analytics en la recopilación de datos de Adobe Experience Platform.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.

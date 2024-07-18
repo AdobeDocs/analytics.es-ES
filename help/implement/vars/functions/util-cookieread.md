@@ -22,7 +22,7 @@ Puede leer las cookies configurando los valores en los elementos de datos.
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Elementos de datos] y, a continuación, haga clic en el elemento de datos deseado (o cree un elemento de datos).
-4. Configure las variables [!UICONTROL Extensión] lista desplegable para **[!UICONTROL Núcleo]**, y el [!UICONTROL Tipo de elemento de datos] hasta **[!UICONTROL Cookie]**.
+4. Establezca la lista desplegable [!UICONTROL Extension] en **[!UICONTROL Core]** y el [!UICONTROL Tipo de elemento de datos] en **[!UICONTROL Cookie]**.
 5. Escriba el nombre de la cookie en el campo de texto.
 
 El valor de la cookie se almacena en el elemento de datos. A continuación, puede hacer referencia al elemento de datos en las reglas para asignar las variables deseadas.

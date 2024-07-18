@@ -19,7 +19,7 @@ Respuestas a preguntas que podría tener al implementar Audience Analytics.
 
 +++ ¿Cómo sé si tengo información de identificación personal (PII) en mis datos de Analytics? Y si es así, ¿qué puedo hacer al respecto?
 
-Si tiene correos electrónicos, direcciones, etc. en una propiedad o eVar, considere crear valores hash de los datos durante la recopilación. Si su país considera que la dirección IP es PII, [activar la confusión de IP](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=es). Hable con su administrador de Analytics para ver lo que está recopilando. Hable con su departamento legal para ver qué consideran PII.
+Si tiene correos electrónicos, direcciones, etc. en una propiedad o eVar, considere crear valores hash de los datos durante la recopilación. Si su país considera que la dirección IP es PII, [active la confusión de IP](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=es). Hable con su administrador de Analytics para ver lo que está recopilando. Hable con su departamento legal para ver qué consideran PII.
 
 +++
 
@@ -37,7 +37,7 @@ Esto no se aplica al envío de datos de Adobe Analytics a Adobe Audience Manager
 
 +++ ¿Cómo se crea un destino de Analytics en Audience Manager?
 
-Consulte [Configuración de un destino de Analytics en Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=es)&quot;.
+Consulte [Configurar un destino de Analytics en Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=es)&quot;.
 
 +++
 
@@ -49,7 +49,7 @@ Los grupos de informes pueden tardar varias horas en rellenarse con datos nuevos
 
 +++ He creado un nuevo destino de Analytics, pero no lo veo en la sección Asignaciones de destino de mis segmentos disponibles. ¿Dónde está el destino o cómo puedo encontrarlo?
 
-Un destino de Analytics desaparece de la sección Asignaciones de destino de un segmento cuando selecciona el **[!UICONTROL Asignar automáticamente todos los segmentos actuales y futuros]** opción en **[!UICONTROL Asignaciones de segmentos]**. Para evitarlo, seleccione **[!UICONTROL Asignar segmentos manualmente]** en vez de la opción automática.
+Un destino de Analytics desaparece de la sección Asignaciones de destino de un segmento cuando selecciona la opción **[!UICONTROL Asignar automáticamente todos los segmentos actuales y futuros]** en **[!UICONTROL Asignaciones de segmentos]**. Para evitarlo, seleccione **[!UICONTROL Asignar segmentos manualmente]** en vez de la opción automática.
 
 +++
 
@@ -107,7 +107,7 @@ Es probable que tenga en Adobe Audience Manager un conflicto de controles de pri
 
 +++ ¿Por qué veo &quot;Se ha alcanzado el límite de audiencias&quot; en mi informe de Analytics? (Nota: Esto también se representará como ID de audiencia = -1 y `::max_audiences_exceeded::` en Data Warehouse)
 
-De forma predeterminada, la integración de Audience Analytics para Adobe Audience Manager envía a Analytics, para cada visita, todos los segmentos a los que el visitante pertenece. Si un visitante pertenece a más de 150 segmentos de Adobe Audience Manager en una sola visita, la variable **150 segmentos cualificados más recientemente** se envían a Analytics, mientras que la lista restante se trunca. Se envía a Analytics un marcador adicional que indica que la lista de segmentos se ha truncado y se muestra “Alcanzado límite de audiencias” en la dimensión Nombre de audiencia y “-1” en la dimensión ID de audiencia.
+De forma predeterminada, la integración de Audience Analytics para Adobe Audience Manager envía a Analytics, para cada visita, todos los segmentos a los que el visitante pertenece. Si un visitante pertenece a más de 150 segmentos de Adobe Audience Manager en una sola visita, se enviarán a Analytics los **150 segmentos para los que se ha obtenido cualificación más recientemente**, mientras que el resto se truncará. Se envía a Analytics un marcador adicional que indica que la lista de segmentos se ha truncado y se muestra “Alcanzado límite de audiencias” en la dimensión Nombre de audiencia y “-1” en la dimensión ID de audiencia.
 
 Aunque es poco probable que un visitante esté cualificado para pertenecer a más de 150 segmentos en una visita particular, puede suceder en un pequeño número de ocasiones. Si el mensaje “Alcanzado límite de audiencias” aparece en su informe, tiene dos opciones:
 
@@ -143,7 +143,7 @@ Para saber más sobre este tema, consulte [Preguntas frecuentes sobre el reenví
 
 +++ ¿Por qué el visitante del segmento tiene un recuento diferente entre Audience Manager y Analytics?
 
-Consulte [Diferencias de recuento de visitantes](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md).
+Ver [Diferencias de recuento de visitantes](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md).
 
 +++
 

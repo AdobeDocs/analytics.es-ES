@@ -23,7 +23,7 @@ Aquí puede encontrar unas instrucciones de ayuda para localizar los identificad
 >- Cuenta de MCC (My Client Center) y
 >- Cuenta estándar.
 >
->Para esta integración con Adobe Analytics, **debe iniciar sesión con una cuenta estándar**, no es un inicio de sesión con una cuenta MCC. El motivo es que una cuenta MCC actúa como un “paraguas” que puede acceder a diversas cuentas de AdWords con un solo inicio de sesión, mientras que al iniciar sesión con una cuenta Estándar solo se puede acceder a una cuenta de AdWords por cada inicio de sesión. Mientras que Google admite la vinculación de un correo electrónico para administrar 5 cuentas, Advertising Analytics aún no admite esta función. Un correo electrónico solo se puede vincular con una cuenta de AdWords.
+>Para esta integración con Adobe Analytics, **debe iniciar sesión con una cuenta Estándar**, no con una cuenta MCC. El motivo es que una cuenta MCC actúa como un “paraguas” que puede acceder a diversas cuentas de AdWords con un solo inicio de sesión, mientras que al iniciar sesión con una cuenta Estándar solo se puede acceder a una cuenta de AdWords por cada inicio de sesión. Mientras que Google admite la vinculación de un correo electrónico para administrar 5 cuentas, Advertising Analytics aún no admite esta función. Un correo electrónico solo se puede vincular con una cuenta de AdWords.
 
 En la parte superior, haga clic en el icono Cuenta para ver el número de cuenta de AdWords (identificador de cliente).
 

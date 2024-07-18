@@ -16,9 +16,9 @@ Adobe ofrece varios niveles de conversión de divisas para que su organización 
 
 ## Nivel de página
 
-Puede usar el complemento [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) para establecer la moneda deseada en cada página. Si la divisa de la página no coincide con la del grupo de informes de destino, Adobe realiza una conversión a la divisa del grupo de informes en función del tipo de cambio del día actual. Se registra la moneda convertida.
+Puede usar la variable [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) para establecer la moneda deseada en cada página. Si la divisa de la página no coincide con la del grupo de informes de destino, Adobe realiza una conversión a la divisa del grupo de informes en función del tipo de cambio del día actual. Se registra la moneda convertida.
 
 ## Nivel del grupo de informes
 
-Cada grupo de informes tiene un **divisa base**. Esta moneda dicta el contexto de todas las métricas de moneda (como [Ingresos](/help/components/metrics/revenue.md)). Todos los datos de moneda almacenados están en la moneda base del grupo de informes.
+Cada grupo de informes tiene una **moneda base**. Esta moneda dicta el contexto de todas las métricas de moneda (como [Ingresos](/help/components/metrics/revenue.md)). Todos los datos de moneda almacenados están en la moneda base del grupo de informes.
 

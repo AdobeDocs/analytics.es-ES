@@ -19,7 +19,7 @@ De forma predeterminada, las variables dinámicas utilizan el prefijo `D=`. La v
 
 ## Prefijo de variable dinámica mediante el SDK web
 
-El SDK web no utiliza el formato de variable dinámica. En su lugar, puede utilizar la asignación de secuencia de datos para rellenar varios campos de destino con un único campo de origen. Consulte [Variables dinámicas que utilizan el SDK web](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) para obtener más información.
+El SDK web no utiliza el formato de variable dinámica. En su lugar, puede utilizar la asignación de secuencia de datos para rellenar varios campos de destino con un único campo de Source. Consulte [Variables dinámicas que utilizan el SDK web](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) para obtener más información.
 
 Si envía datos directamente a Adobe Analytics sin ajustarse a un esquema, utiliza la variable siguiente:
 

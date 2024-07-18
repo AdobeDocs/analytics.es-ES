@@ -39,15 +39,15 @@ Utilice esta página para comprender cada elemento de permiso dentro de Herramie
 | [!UICONTROL Búsqueda de pago] | Otorga acceso a General > Detección de búsqueda de pago en el Administrador de grupos de informes. |
 | [!UICONTROL Reglas de procesamiento] | Otorga acceso a General > Reglas de procesamiento y General > Reglas de bots en el Administrador de grupos de informes. |
 | [!UICONTROL Configuración de informes en tiempo real] | Otorga acceso a Tiempo real en el Administrador de grupos de informes. Utilice el elemento de permiso &#39;Informe en tiempo real&#39; para conceder acceso al informe en sí. |
-| [!UICONTROL Informes de administradores de Activity Manager] | No se usa. |
-| [!UICONTROL Acceso al Administrador de actividades de creación de informes] | No se usa. |
+| [!UICONTROL Administrador de actividades de creación de informes] | No se usa. |
+| [!UICONTROL Acceso al Administrador de actividades de informes] | No se usa. |
 | [!UICONTROL Administración de grupos de informes] | Otorga acceso al Administrador de grupos de informes, pero no permite ningún cambio. |
 | [!UICONTROL Informe breve de imagen del panel de R&amp;A] | No se usa. |
-| [!UICONTROL Informe breve de medición del panel de R&amp;A] | No se usa. |
-| [!UICONTROL Informe breve de resumen del grupo de informes del panel R&amp;A] | No se usa. |
-| [!UICONTROL Informe breve de texto del panel de R&amp;A] | No se usa. |
-| [!UICONTROL Informe breve de resumen del grupo de informes del panel R&amp;A] | No se usa. |
-| [!UICONTROL Informe breve externo del panel de R&amp;A] | No se usa. |
+| [!UICONTROL Informe Breve De Medición De Métrica Del Panel De R&amp;A] | No se usa. |
+| [!UICONTROL Informe Breve Resumen Del Grupo De Informes Del Panel De R&amp;A] | No se usa. |
+| [!UICONTROL Informe breve DashboardText de R&amp;A] | No se usa. |
+| [!UICONTROL Informe Breve Resumen Del Grupo De Informes Del Panel De R&amp;A] | No se usa. |
+| [!UICONTROL Informe Breve Externo Del Panel De R&amp;A] | No se usa. |
 | [!UICONTROL Eventos de éxito] | Otorga acceso a Conversión > Eventos de éxito en el Administrador de grupos de informes. |
 | [!UICONTROL Administración del tráfico] | No se usa. |
 | [!UICONTROL Variables de tráfico] | Otorga acceso a Tráfico > Variables de tráfico en el Administrador de grupos de informes. |

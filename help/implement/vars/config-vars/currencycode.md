@@ -34,7 +34,7 @@ Es **obligatorio** usar un punto como separador decimal en moneda para todas las
 
 El código de moneda se asigna a las siguientes variables:
 
-* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
+* [objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
 * [Objeto de datos](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` o `data.__adobe.analytics.cc`
 
 ## Código de moneda con la extensión Adobe Analytics

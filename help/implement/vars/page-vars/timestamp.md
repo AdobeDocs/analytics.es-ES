@@ -21,7 +21,7 @@ La variable `timestamp` establece manualmente la marca de tiempo de la visita en
 
 ## Marca de tiempo mediante el SDK web
 
-La marca de tiempo es [asignado para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) en el campo XDM `xdm.timestamp`. Este campo solo admite Tiempo Unix.
+La marca de tiempo está [asignada para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) en el campo XDM `xdm.timestamp`. Este campo solo admite Tiempo Unix.
 
 ## Marca de tiempo con la extensión Adobe Analytics
 
@@ -29,7 +29,7 @@ No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar 
 
 ## s.timestamp en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
-La variable `s.timestamp` es una cadena que contiene la fecha y la hora de la visita. Los formatos válidos para la marca de tiempo incluyen [ISO 8601](https://es.wikipedia.org/wiki/ISO_8601) y [Tiempo de Unix](https://es.wikipedia.org/wiki/Tiempo_Unix) en segundos.
+La variable `s.timestamp` es una cadena que contiene la fecha y la hora de la visita. Los formatos válidos para la marca de tiempo son [ISO 8601](https://es.wikipedia.org/wiki/ISO_8601) y [Unix time](https://es.wikipedia.org/wiki/Tiempo_Unix) en segundos.
 
 ```js
 // Timestamp using ISO 8601

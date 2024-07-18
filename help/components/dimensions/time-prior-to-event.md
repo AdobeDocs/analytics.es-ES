@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 84%
 
 ---
 
 # Tiempo previo al evento
 
-El &quot;Tiempo previo al evento&quot; [dimensión](overview.md) indica la cantidad de tiempo que transcurrió entre la primera visita individual de la visita y la métrica deseada. Esta dimensión es útil para determinar la cantidad de tiempo que se tarda en alcanzar un evento de éxito, como un envío de formulario o una compra.
+La [dimensión](overview.md) &quot;Tiempo previo al evento&quot; indica la cantidad de tiempo que transcurrió entre la primera visita individual de la visita y la métrica deseada. Esta dimensión es útil para determinar la cantidad de tiempo que se tarda en alcanzar un evento de éxito, como un envío de formulario o una compra.
 
 ## Rellene esta dimensión con datos
 

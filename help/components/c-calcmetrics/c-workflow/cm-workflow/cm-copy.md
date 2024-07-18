@@ -2,10 +2,11 @@
 description: Describe cómo copiar una métrica calculada en el Administrador de métricas calculadas
 title: Copiar métricas calculadas
 feature: Calculated Metrics
-source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
+exl-id: ddc18c22-30b4-4ccb-ac6b-e74dfde98a27
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -15,10 +16,10 @@ Al crear una nueva métrica calculada, a veces es más fácil copiar una métric
 
 Para copiar una métrica calculada en el Administrador de métricas calculadas:
 
-1. En Adobe Analytics, seleccione la **[!UICONTROL Componentes]** pestaña, luego seleccione **[!UICONTROL Métricas calculadas]**.
+1. En Adobe Analytics, seleccione la ficha **[!UICONTROL Componentes]** y, a continuación, seleccione **[!UICONTROL Métricas calculadas]**.
 
 1. En el Administrador de métricas calculadas, seleccione la métrica calculada que desee copiar.
 
    Aparecerá la barra de herramientas de administración de métricas calculadas.
 
-1. Seleccionar **[!UICONTROL Copiar]**.
+1. Seleccione **[!UICONTROL Copiar]**.

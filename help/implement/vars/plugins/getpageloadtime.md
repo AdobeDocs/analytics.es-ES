@@ -7,7 +7,7 @@ role: Admin, Developer
 source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 6%
+ht-degree: 15%
 
 ---
 
@@ -15,6 +15,6 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Este complemento ya no es compatible. Su código utiliza el [`PerformanceTiming`](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming) , que queda obsoleta en la mayoría de los navegadores modernos.
+>Este complemento ya no es compatible. Su código utiliza la interfaz [`PerformanceTiming`](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming), que está obsoleta en la mayoría de los exploradores modernos.
 
-El `getPageLoadTime` El complemento utilizaba el objeto de rendimiento JavaScript para permitirle medir el tiempo que tarda una página en cargarse completamente. Dado que este complemento ya no es compatible, las instrucciones de instalación y el código del complemento ya no están disponibles.
+El complemento `getPageLoadTime` utilizó el objeto de rendimiento JavaScript para permitirle medir el tiempo que tarda una página en cargarse por completo. Dado que este complemento ya no es compatible, las instrucciones de instalación y el código del complemento ya no están disponibles.

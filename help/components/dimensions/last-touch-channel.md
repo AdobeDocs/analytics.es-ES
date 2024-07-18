@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 90%
 
 ---
 
 # Canal de último contacto
 
-El &quot;canal de último contacto&quot; [dimensión](overview.md) informa del canal de marketing más reciente con el que coincide un visitante durante el periodo de participación de ese visitante (de forma predeterminada, 30 días). Esta dimensión es valiosa para comprender qué canales de marketing conducen el tráfico al sitio y cuáles resultan en conversiones, lo que permite enfocar los esfuerzos de marketing en las áreas más efectivas.
+El &quot;Canal de último contacto&quot; [dimension](overview.md) informa del canal de marketing más reciente con el que coincide un visitante durante el periodo de participación de ese visitante (de forma predeterminada, 30 días). Esta dimensión es valiosa para comprender qué canales de marketing conducen el tráfico al sitio y cuáles resultan en conversiones, lo que permite enfocar los esfuerzos de marketing en las áreas más efectivas.
 
 ## Rellene esta dimensión con datos
 

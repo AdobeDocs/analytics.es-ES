@@ -15,12 +15,12 @@ ht-degree: 75%
 
 Las API de servicios web proporcionan acceso mediante programación a los informes de marketing y a otros servicios de Suite que permiten duplicar y aumentar la funcionalidad disponible a través de la interfaz de Analytics.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración de empresa]** > **[!UICONTROL Servicios web]** o **[!UICONTROL Acceso a API]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración de la empresa]** > **[!UICONTROL Servicios web]** o **[!UICONTROL Acceso a la API]**
 
 
 ## API de Analytics 2.0
 
-Para acceder a las API de Analytics 2.0, necesita el ID de compañía global de su compañía de Analytics. Puede encontrar el ID de empresa global en **negrita** en la parte superior del [!UICONTROL Acceso a API] sección. Este es un ejemplo: &quot;El ID de compañía global de la compañía de Analytics en la que está conectado actualmente es **adobe1234**.&quot;
+Para acceder a las API de Analytics 2.0, necesita el ID de compañía global de su compañía de Analytics. Puede encontrar el identificador de empresa global en **bold** en la parte superior de la sección [!UICONTROL Acceso a API]. Este es un ejemplo: &quot;El ID de empresa global de la empresa de Analytics en la que ha iniciado sesión actualmente es **adobe1234**&quot;.
 
 ## Administrar servicios web heredados (obsoleto)
 

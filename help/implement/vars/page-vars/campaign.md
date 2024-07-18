@@ -15,13 +15,13 @@ ht-degree: 67%
 
 La variable `campaign` está dedicada a recopilar códigos de seguimiento en el sitio. En versiones anteriores de Adobe Analytics, se le aplicaba un tratamiento especial en el que podía utilizarse como desglose de la mayoría de las dimensiones. En la versión actual de Adobe Analytics, actúa igual que una eVar.
 
-Esta variable rellena el [Código de seguimiento](/help/components/dimensions/tracking-code.md) dimensión. Normalmente obtiene su valor de una cadena de consulta utilizando [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) método de utilidad. Sin embargo, su organización determina exactamente cómo configurar esta variable.
+Esta variable rellena la dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md). Normalmente obtiene su valor de una cadena de consulta utilizando el método de utilidad [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md). Sin embargo, su organización determina exactamente cómo configurar esta variable.
 
 ## Campaña mediante el SDK web
 
 Campaign se asigna a las siguientes variables:
 
-* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
+* [objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
 * [Objeto de datos](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign` o `data.__adobe.analytics.v0`
 
 ## Campaña con la extensión de Adobe Analytics
@@ -32,7 +32,7 @@ Puede establecer la campaña durante la configuración de la extensión de Analy
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
-5. Configure las variables [!UICONTROL Extensión] lista desplegable para Adobe Analytics y la variable [!UICONTROL Tipo de acción] hasta [!UICONTROL Establecer variables].
+5. Establezca la lista desplegable [!UICONTROL Extension] en Adobe Analytics y [!UICONTROL Action Type] en [!UICONTROL Set Variables].
 6. Busque la sección [!UICONTROL Campaña].
 
 Puede establecer la campaña como un valor o un parámetro de cadena de consulta.

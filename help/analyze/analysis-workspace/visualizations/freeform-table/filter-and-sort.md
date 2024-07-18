@@ -31,7 +31,7 @@ Puede utilizar varios métodos para filtrar filas de una tabla de forma libre. 
 - Filtros de tabla
 - Segmentación
 
-Asegúrese de leer el impacto de cada método [Totales de tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
+Asegúrese de leer cómo afecta cada método a [Totales de tablas de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### Excluir rápidamente filas específicas de una tabla
 
@@ -39,7 +39,7 @@ Puede excluir rápidamente filas específicas de la tabla sin necesidad de abrir
 
 >[!NOTE]
 >
->Cuando excluya filas como se describe en esta sección, [!UICONTROL **Excluir elementos siempre**] La regla de se aplica automáticamente en el cuadro de diálogo filtro avanzado. (Puede ver la regla aplicada seleccionando el icono Filtrar y, a continuación, [**[!UICONTROL Mostrar avanzadas]**](#apply-a-simple-or-advanced-filter-to-a-table).)
+>Cuando excluye filas como se describe en esta sección, se aplica automáticamente una regla [!UICONTROL **Excluir elementos siempre**] en el cuadro de diálogo de filtro avanzado. (Puede ver la regla aplicada seleccionando el icono Filtro y luego [**[!UICONTROL Mostrar avanzadas]**](#apply-a-simple-or-advanced-filter-to-a-table)).
 
 Para excluir rápidamente filas específicas de una tabla de forma libre:
 
@@ -70,7 +70,7 @@ Para filtrar datos en tablas de forma libre:
 
    | Opción | Función |
    |---------|----------|
-   | [!UICONTROL **Buscar palabra o frase**] | Especifique una palabra o frase por la que desee filtrar. Solo se muestran las filas que contienen la palabra o la frase exacta especificada. |
+   | [!UICONTROL **Palabra o frase de búsqueda**] | Especifique una palabra o frase por la que desee filtrar. Solo se muestran las filas que contienen la palabra o la frase exacta especificada. |
    | [!UICONTROL **Incluir no especificado (ninguno)**] | Seleccione esta opción para mostrar los datos de la tabla que no estén dentro de ninguna de sus dimensiones. <!--what is this?--> |
 
 1. (Opcional) Para filtrar por diferentes criterios o por varios criterios, seleccione [!UICONTROL **Mostrar avanzadas**].
@@ -90,7 +90,7 @@ Para filtrar datos en tablas de forma libre:
 
 ### Segmentación
 
-Consulte nuestra [Documentación de segmentación](/help/components/segmentation/seg-home.md) para obtener más información.
+Consulte nuestra [documentación de segmentación](/help/components/segmentation/seg-home.md) para obtener más información.
 
 ## Orden de tablas
 

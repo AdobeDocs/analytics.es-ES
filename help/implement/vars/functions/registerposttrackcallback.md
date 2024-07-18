@@ -7,7 +7,7 @@ role: Admin, Developer
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -17,7 +17,7 @@ La variable `registerPostTrackCallback` permite a su organización conectar una 
 
 >[!WARNING]
 >
->No realice ninguna llamada de seguimiento como [`t()`](t-method.md) o [`tl()`](tl-method.md) dentro de `registerPostTrackCallback` variable. La configuración de llamadas de seguimiento en esta variable provoca un bucle infinito de solicitudes de imagen.
+>No realice llamadas de seguimiento como [`t()`](t-method.md) o [`tl()`](tl-method.md) dentro de la variable `registerPostTrackCallback`. La configuración de llamadas de seguimiento en esta variable provoca un bucle infinito de solicitudes de imagen.
 
 Cada vez que llama a la variable `registerPostTrackCallback`, vincula esa función para que se ejecute de forma inmediata después de que se envíe correctamente una solicitud de imagen. Evite registrar la misma función varias veces en la misma carga de página.
 

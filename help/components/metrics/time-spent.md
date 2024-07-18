@@ -12,19 +12,19 @@ ht-degree: 72%
 
 # Información general sobre el tiempo empleado
 
-Varios [!UICONTROL &#39;tiempo empleado&#39;] [métricas](overview.md) Las dimensiones y se ofrecen en todos los productos de Adobe Analytics.
+Los productos Adobe Analytics ofrecen varias [!UICONTROL &#39;tiempo empleado&#39;] [métricas](overview.md) y dimensiones.
 
 ## Métricas de “tiempo empleado”
 
 | Métrica | Definición | Disponible en |
 |---|---|---|
 | [!UICONTROL Segundos totales empleados] | Representa el tiempo total durante el cual los visitantes interactúan con un elemento de dimensión específico. Incluye la instancia de un valor y persistencia en todas las visitas individuales posteriores. En el caso de las props, el tiempo empleado también se cuenta en los eventos de vínculo siguientes. | Analysis Workspace, Report Builder (denominado &quot;tiempo total empleado&quot;), Data Warehouse |
-| [!UICONTROL Tiempo empleado por visita] (segundos) | Aproximadamente *Segundos totales empleados (devoluciones de visita)*<br> Representa el tiempo promedio durante el cual los visitantes interactúan con un elemento de dimensión específico durante cada visita. **Nota**: esta métrica no se puede calcular de forma independiente porque el denominador de esta función es una métrica interna. | Analysis Workspace |
-| [!UICONTROL Tiempo empleado por visitante] (segundos) | Aproximadamente *Segundos totales empleados (visitantes únicos)*<br> Representa el tiempo promedio durante el cual los visitantes interactúan con un elemento de dimensión específico a lo largo de la duración de la visita (la duración de su cookie). **Nota**: esta métrica no se puede calcular de forma independiente porque el denominador de esta función es una métrica interna. | Analysis Workspace |
-| [!UICONTROL Tiempo empleado/usuario (estado)] | Aproximadamente *Segundos totales empleados por la aplicación móvil/visitantes únicos de la aplicación móvil*<br> Representa el tiempo promedio durante el cual los visitantes de una aplicación móvil interactúan con un elemento de dimensión específico a lo largo de la duración de la visita (la duración de su cookie). **Nota**: esta métrica no se puede calcular de forma independiente porque el denominador de esta función es una métrica interna. | Analysis Workspace |
+| [!UICONTROL Tiempo empleado por visita] (segundos) | Aproximadamente *Segundos totales empleados (devoluciones)*<br> Representa el tiempo promedio durante el cual los visitantes interactúan con un elemento de dimensión específico durante cada visita. **Nota**: esta métrica no se puede calcular de forma independiente porque el denominador de esta función es una métrica interna. | Analysis Workspace |
+| [!UICONTROL Tiempo empleado por visitante] (segundos) | Aproximadamente *Segundos totales empleados/visitante único*<br> Representa el tiempo promedio durante el cual los visitantes interactúan con un elemento de dimensión específico a lo largo de la duración de la visita (la duración de su cookie). **Nota**: esta métrica no se puede calcular de forma independiente porque el denominador de esta función es una métrica interna. | Analysis Workspace |
+| [!UICONTROL Tiempo empleado/Usuario (estado)] | Aproximadamente *Segundos totales empleados por los visitantes únicos de aplicaciones móviles*<br> Representa el tiempo promedio durante el cual los visitantes de aplicaciones móviles interactúan con un elemento de dimensión específico a lo largo de la duración de la visita (la duración de su cookie). **Nota**: esta métrica no se puede calcular de forma independiente porque el denominador de esta función es una métrica interna. | Analysis Workspace |
 | [!UICONTROL Tiempo promedio empleado en el sitio] (segundos) | Representa el tiempo total durante el cual los visitantes interactúan con un elemento de dimensión específico, por secuencia con un elemento de dimensión. No se limita solo a los promedios del &quot;sitio&quot;, como su nombre sugiere. Consulte la sección “Cómo se calcula el tiempo empleado” para obtener más información sobre las secuencias.<br>**Nota:** Es muy probable que, en el nivel de elemento de dimensión, esta métrica difiera del “Tiempo empleado por visita” debido a diferencias en el denominador del cálculo. | Analysis Workspace, Report Builder (se muestra en minutos) |
 | [!UICONTROL Promedio de tiempo en el sitio] | Es la misma métrica que *Tiempo promedio empleado en el sitio (segundos)*, excepto con el formato Tiempo (`hh:mm:ss`) | Analysis Workspace |
-| [!UICONTROL Tiempo promedio empleado en la página] | Métrica obsoleta.<br> En su lugar, Adobe recomienda utilizar &quot;Tiempo promedio empleado en el sitio&quot; si se necesita el tiempo promedio para un elemento de dimensión. | Report Builder (cuando hay una dimensión en la solicitud) |
+| [!UICONTROL Tiempo promedio empleado en la página] | Métrica obsoleta.<br> En su lugar, Adobe recomienda usar &quot;Tiempo promedio empleado en el sitio&quot; si se necesita el tiempo promedio para un elemento de dimensión. | Report Builder (cuando hay una dimensión en la solicitud) |
 | [!UICONTROL Duración total de la sesión], también conocida como [!UICONTROL Duración de la sesión anterior] | Solo SDK de aplicaciones móviles. <br>Se determina para la sesión anterior la próxima vez que se inicia la aplicación. Esta métrica se calcula en segundos y no cuenta cuando la aplicación se encuentra en segundo plano, solo cuando está en uso. Es una métrica de nivel de sesión.<br>Por ejemplo: instalamos la aplicación ABC, la iniciamos, la utilizamos durante 2 minutos y la cerramos. No se envía ningún dato acerca de la duración de la sesión. La próxima vez que la iniciemos, el valor de [!UICONTROL Duración total de la sesión] se establecerá en 120. | Analysis Workspace, Report Builder, IU de Mobile Services |
 | [!UICONTROL Longitud promedio de la sesión] (móvil) | *Duración total de la sesión (inicios y primeros arranques)*<br> solo SDK de la aplicación móvil. Es una métrica de nivel de sesión. | Report Builder, IU de Mobile Services |
 
@@ -71,14 +71,14 @@ Las métricas de &quot;Tiempo empleado&quot; que se pueden aplicar a cualquier d
 
 +++¿Qué dimensión de tiempo empleado es más apropiada para su desglose con otras dimensiones?
 
-El [!UICONTROL Tiempo invertido en la página (pormenorizado)] dimensión es una dimensión de nivel de visita individual. Desglosarla mediante otra dimensión indicará los segundos que duró una visita individual en la que la dimensión de desglose también estaba presente.
+La dimensión [!UICONTROL Tiempo empleado en la página - granular] es una dimensión de nivel de visita individual. Desglosarla mediante otra dimensión indicará los segundos que duró una visita individual en la que la dimensión de desglose también estaba presente.
 En el ejemplo siguiente, el término de búsqueda &quot;classifieds&quot; se asocia a los tiempos de visita individual de 54 segundos, 59 segundos, etc., tal vez indicando que los visitantes pasan tiempo leyendo el contenido devuelto por el término de búsqueda.
 
 ![](assets/time-spent1.png)
 
 +++
 
-+++¿Qué métrica es apropiada para la dimensión de? [!UICONTROL Tiempo invertido en la página (pormenorizado)]?
++++¿Qué métrica es apropiada para la dimensión de [!UICONTROL Tiempo empleado en la página - granular]?
 
 Cualquiera. La dimensión muestra el tiempo empleado en la visita individual exacta en la que se produjo el evento. Un tiempo empleado mayor significa que un visitante pasó más tiempo en una página (visita individual) en la que se produjo el evento.
 
@@ -86,7 +86,7 @@ Cualquiera. La dimensión muestra el tiempo empleado en la visita individual exa
 
 +++
 
-+++¿Cómo? [!UICONTROL Tiempo promedio invertido en el sitio] diferir de [!UICONTROL Tiempo empleado por visita]?
++++¿En qué se diferencian [!UICONTROL Tiempo promedio empleado en el sitio] y [!UICONTROL Tiempo empleado por visita]?
 
 La diferencia es el denominador de la métrica:
 
@@ -98,9 +98,9 @@ Como resultado, ambas métricas pueden arrojar resultados similares en el nivel 
 
 +++
 
-+++¿Por qué el desglose de totales con [!UICONTROL Tiempo promedio invertido en el sitio] ¿no coincide con el elemento de línea principal?
++++¿Por qué el desglose de totales con [!UICONTROL Tiempo promedio invertido en el sitio] no coincide con el elemento de línea principal?
 
-Porque [!UICONTROL Tiempo promedio invertido en el sitio] depende de secuencias no interrumpidas de una dimensión y el informe interno no depende del informe externo al calcular estas ejecuciones.
+Debido a que [!UICONTROL Tiempo promedio invertido en el sitio] depende de secuencias no interrumpidas de una dimensión y el informe interno no depende del informe externo al calcular estas ejecuciones.
 
 Por ejemplo, usemos esta visita:
 

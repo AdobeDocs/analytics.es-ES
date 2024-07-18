@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Habilitado para Java
 
-El &#39;Java habilitado&#39; [dimensión](overview.md) determina si el explorador tiene Java habilitado en ese momento. Resulta útil en los casos en los que desea introducir la funcionalidad basada en Java en el sitio y desea saber cuántos visitantes ya tienen Java habilitado. Para aquellos que tienen Java deshabilitado, puede proporcionar una alternativa o instrucciones sobre cómo habilitarlo.
+La [dimensión](overview.md) &quot;Java habilitado&quot; determina si el explorador tiene Java habilitado en ese momento. Resulta útil en los casos en los que desea introducir la funcionalidad basada en Java en el sitio y desea saber cuántos visitantes ya tienen Java habilitado. Para aquellos que tienen Java deshabilitado, puede proporcionar una alternativa o instrucciones sobre cómo habilitarlo.
 
 ## Rellene esta dimensión con datos
 

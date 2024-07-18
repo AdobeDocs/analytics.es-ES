@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: d3388990-7919-461d-a96e-4c996b8bdb8b
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '471'
 ht-degree: 88%
 
 ---
@@ -16,12 +16,12 @@ ht-degree: 88%
 
 En el panel Opciones se puede especificar la configuración de fecha, la configuración de latencia (Datos actuales), el registro de información y configurar actualizaciones.
 
-1. En la barra de herramientas de Complementos, haga clic en **[!UICONTROL Opciones]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg):
+1. En la barra de herramientas Complementos, haga clic en **[!UICONTROL Opciones]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg):
 
 | Elemento | Descripción |
 |--- |--- |
 | [!UICONTROL Con fecha] |  |
-| Establecer en fecha actual | Permite especificar o restablecer el  [!UICONTROL A Fecha] para que el Report Builder utilice la fecha actual o le pregunte qué fecha utilizar tras la actualización. |
+| Establecer en fecha actual | Permite especificar o restablecer [!UICONTROL Con fecha] para que el Report Builder utilice la fecha actual o pregunte qué fecha utilizar tras la actualización. |
 | Solicitar establecer al actualizar | Permite establecer el valor [!UICONTROL Con fecha] cuando se actualiza una solicitud. |
 | [!UICONTROL Actualización de datos] |  |
 | [!UICONTROL Incluir datos actuales] | Permite ver la latencia de los datos (también conocida como [!UICONTROL Actualización de datos]) con una precisión de minutos en los informes, a veces incluso antes de que estos datos hayan sido procesados por Adobe Analytics.<br>Cuando no se utiliza esta opción, se utiliza el modo finalizado (procesado), que suele ser más [latente](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=es).<br>Esta configuración se aplica a todas las solicitudes del libro que sean datos actuales compatibles. Si la solicitud no es compatible, se aplica el modo finalizado.<br>Tenga en cuenta las siguientes situaciones para utilizar el modo [!UICONTROL Incluir datos actuales]: <br>**Opciones de formato**: Puede especificar si desea mostrar esta información ([!UICONTROL Actualización de los datos]) al [dar formato a los encabezados de visualización](/help/analyze/report-builder/layout/t-format-display-headers.md).<br>**Desgloses**: no compatibles. Si el modo [!UICONTROL Actualización de datos] está definido en Datos actuales y una de las solicitudes contiene un elemento de desglose, esta solicitud se convierte a modo de datos no actuales. No obstante, el resto de solicitudes seguirán usando el modo Datos actuales.<br>**Administrador de solicitudes**: es posible ver una columna de Datos actuales en el Administrador de solicitudes para así comprobar si la configuración se aplica a una solicitud programada.<br>**Libros programados**: este modo se almacena durante el proceso de programación en el nivel de libro. Si se abre un libro programado que use datos finalizados y se aplica [!UICONTROL Incluir datos actuales], a partir de ese momento se utilizará el modo actual.<br>**Permisos**: esta opción está oculta para los usuarios que no tengan acceso a los datos actuales.  Al habilitar esta opción, si una o varias solicitudes no se pueden aplicar, se genera una advertencia. |

@@ -6,7 +6,7 @@ exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 30%
+ht-degree: 32%
 
 ---
 
@@ -20,11 +20,11 @@ El Administrador de segmentos de Analytics le muestra todos los segmentos que po
 
 ## Acceso al Administrador de segmentos
 
-1. En Adobe Analytics, seleccione la **[!UICONTROL Componentes]** pestaña, luego seleccione **[!UICONTROL Segmentos]**.
+1. En Adobe Analytics, seleccione la ficha **[!UICONTROL Componentes]** y, a continuación, seleccione **[!UICONTROL Segmentos]**.
 
-   o
+   O
 
-   En un informe existente, seleccione el icono Segmentos ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) en el panel de navegación izquierdo, seleccione **[!UICONTROL Administrar]**.
+   En un informe existente, seleccione el icono Segmentos ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) en el panel de navegación izquierdo y, a continuación, seleccione **[!UICONTROL Administrar]**.
 
 ## Acciones disponibles en el Administrador de segmentos
 
@@ -52,9 +52,9 @@ Puede configurar la información mostrada para cada segmento en el Administrador
 
 Para configurar las columnas visibles en el Administrador de segmentos:
 
-1. En Adobe Analytics, seleccione la **[!UICONTROL Componentes]** pestaña, luego seleccione **[!UICONTROL Segmentos]**.
+1. En Adobe Analytics, seleccione la ficha **[!UICONTROL Componentes]** y, a continuación, seleccione **[!UICONTROL Segmentos]**.
 
-1. En el Administrador de segmentos, seleccione la **Personalizar columnas** icono ![Icono Personalizar columnas](assets/customize-columns-icon.png)A continuación, seleccione las columnas que desea mostrar en el Administrador de segmentos.
+1. En el Administrador de segmentos, seleccione el icono **Personalizar columnas** ![Personalizar icono de columnas](assets/customize-columns-icon.png) y, a continuación, seleccione las columnas que desee que se muestren en el Administrador de segmentos.
 
    Las columnas disponibles son las siguientes:
 
@@ -67,8 +67,8 @@ Para configurar las columnas visibles en el Administrador de segmentos:
    | Etiquetas (la columna no aparece porque no está marcada en el selector de columnas) | Etiquetas que se aplicaron al segmento, tanto por su parte como por parte de las personas que compartieron el segmento con usted. |
    | Compartido con | Enumera las personas o grupos (solo administrador) o todos (solo administrador) con los que compartió el segmento. <p>Cuando usted o con usted comparten un segmento, aparece un icono de uso compartido junto al nombre del segmento.</p> |
    | Fecha de modificación | Muestra la última fecha de modificación del segmento. |
-   | Utilizado en | Muestra cuántos componentes se están utilizando en ese momento en el segmento. <p>Por ejemplo, si el segmento se está utilizando en 40 proyectos y 2 alertas, el valor de esta columna se muestra como [!UICONTROL **42 componentes**].</p> <p>Seleccione el valor de esta columna para ver el desglose de dónde se está utilizando el segmento (por ejemplo, [!UICONTROL **Proyectos (40)**], [!UICONTROL **Alertas (2)**]).</p><p>Los segmentos se pueden utilizar en cualquiera de los siguientes tipos de componentes:</p> <ul><li>Alertas</li><li>Proyectos</li><li>Proyectos programados</li><li>Métricas calculadas </li></ul><p>Esta información puede ayudarle a determinar si un componente es valioso para los usuarios de su organización, dónde se utiliza y si debe eliminarse o modificarse.</p><p>Tenga en cuenta lo siguiente al ver esta columna:</p><ul><li>Esta información no incluye el uso de la API, el Report Builder o la Data Warehouse.</li><li>El [!UICONTROL **Utilizado en**] no se muestra de forma predeterminada. [Configuración de columnas](#configure-columns) para mostrarlo.</li><li>Si no hay datos en esta columna para un componente determinado pero tiene un [!UICONTROL **Último uso**] fecha, es posible que el componente se haya utilizado en un análisis sin guardarse.</li><li>Esta información solo está disponible para los administradores del sistema.</li></ul><p>Puede usar el complemento [Diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) junto con esta información, para ayudarle a realizar un seguimiento y comprender mejor cómo se utilizan los componentes en su organización.</p> |
-   | Último uso | Muestra la fecha en la que se utilizó por última vez el segmento en cualquiera de los siguientes tipos de componentes: <ul><li>Alertas</li><li>Métricas calculadas </li><li>Proyectos</li><li>Proyectos programados</li><li>Segmentos </li></ul> <p>Esta información puede ayudarle a determinar si un componente es valioso para los usuarios de su organización, dónde se utiliza y si debe eliminarse o modificarse.</p><p>Tenga en cuenta lo siguiente al ver esta columna:</p><ul><li>Esta información no incluye el uso de la API, el Report Builder o la Data Warehouse.</li><li>Para algunos componentes, es posible que esta columna no contenga datos si el componente se utilizó por última vez antes de septiembre de 2023.</li><li>Esta información solo está disponible para los administradores del sistema.</li></ul><p>Puede usar el complemento [Diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) junto con esta información, para ayudarle a realizar un seguimiento y comprender mejor cómo se utilizan los componentes en su organización. |
+   | Utilizado en | Muestra cuántos componentes se están utilizando en ese momento en el segmento. <p>Por ejemplo, si el segmento se está utilizando en 40 proyectos y 2 alertas, el valor de esta columna se muestra como [!UICONTROL **42 componentes**].</p> <p>Seleccione el valor de esta columna para ver el desglose de dónde se está utilizando el segmento (por ejemplo, [!UICONTROL **Proyectos (40)**], [!UICONTROL **Alertas (2)**]).</p><p>Los segmentos se pueden utilizar en cualquiera de los siguientes tipos de componentes:</p> <ul><li>Alertas</li><li>Proyectos</li><li>Proyectos programados</li><li>Métricas calculadas </li></ul><p>Esta información puede ayudarle a determinar si un componente es valioso para los usuarios de su organización, dónde se utiliza y si debe eliminarse o modificarse.</p><p>Tenga en cuenta lo siguiente cuando vea esta columna:</p><ul><li>Esta información no incluye el uso de la API, el Report Builder o la Data Warehouse.</li><li>La columna [!UICONTROL **Utilizada en**] no se muestra de manera predeterminada. [Configure columnas](#configure-columns) para mostrarlas.</li><li>Si no hay datos en esta columna para un componente determinado pero tiene una fecha de [!UICONTROL **Último uso**], es posible que el componente se haya utilizado en un análisis sin que se haya guardado.</li><li>Esta información solo está disponible para los administradores del sistema.</li></ul><p>Puede usar el [Diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) junto con esta información para ayudarle a realizar un seguimiento y comprender mejor cómo se utilizan los componentes en su organización.</p> |
+   | Último uso | Muestra la fecha en la que se utilizó por última vez el segmento en cualquiera de los siguientes tipos de componentes: <ul><li>Alertas</li><li>Métricas calculadas </li><li>Proyectos</li><li>Proyectos programados</li><li>Segmentos </li></ul> <p>Esta información puede ayudarle a determinar si un componente es valioso para los usuarios de su organización, dónde se utiliza y si debe eliminarse o modificarse.</p><p>Tenga en cuenta lo siguiente cuando vea esta columna:</p><ul><li>Esta información no incluye el uso de la API, el Report Builder o la Data Warehouse.</li><li>Para algunos componentes, es posible que esta columna no contenga datos si el componente se utilizó por última vez antes de septiembre de 2023.</li><li>Esta información solo está disponible para los administradores del sistema.</li></ul><p>Puede usar el [Diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) junto con esta información para ayudarle a realizar un seguimiento y comprender mejor cómo se utilizan los componentes en su organización. |
 
    {style="table-layout:auto"}
 

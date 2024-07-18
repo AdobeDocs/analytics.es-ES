@@ -12,7 +12,7 @@ ht-degree: 83%
 
 # Nuevos compromisos
 
-Los &#39;nuevos compromisos&#39; [métrica](overview.md) muestra el número de veces que un visitante coincide con un canal de marketing por primera vez en el periodo de participación de ese visitante. Esta métrica es útil cuando desea comparar cualquier dimensión con un visitante que coincida con una regla de procesamiento de canal de marketing por primera vez.
+La [métrica](overview.md) &quot;Nuevas participaciones&quot; muestra el número de veces que un visitante coincide con un canal de marketing por primera vez en el periodo de participación de ese visitante. Esta métrica es útil cuando desea comparar cualquier dimensión con un visitante que coincida con una regla de procesamiento de canal de marketing por primera vez.
 
 ## Cálculo de esta métrica
 

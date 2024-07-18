@@ -16,7 +16,7 @@ Puede apilar y reemplazar segmentos dentro del Creador de métricas calculadas.
 
 ## Apilar segmentos {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
 
-1. Comience a crear una métrica, tal como se describe en [Crear métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Comience a crear una métrica, tal como se describe en [Generar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 1. En el lienzo Definición, suelte el nuevo segmento junto al existente:
 
@@ -24,7 +24,7 @@ Puede apilar y reemplazar segmentos dentro del Creador de métricas calculadas.
 
 ## Reemplazo de un segmento por otro {#section_3DA899DF522A44D7A583C5DC8C0A033E}
 
-1. Comience a crear una métrica, tal como se describe en [Crear métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Comience a crear una métrica, tal como se describe en [Generar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 1. En el lienzo Definición, suelte el nuevo segmento encima del existente:
 

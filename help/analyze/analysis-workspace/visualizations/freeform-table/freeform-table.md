@@ -6,43 +6,43 @@ role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 69%
+source-wordcount: '558'
+ht-degree: 65%
 
 ---
 
 # Tabla de forma libre
 
-En Analysis Workspace, una tabla de forma libre es la base del análisis de datos interactivo. Puede arrastrar y soltar una combinación de [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=es) en filas y columnas para crear una tabla personalizada para su análisis. A medida que se suelta cada componente, la tabla se actualiza inmediatamente, para que pueda analizar y profundizar rápidamente.
+En Analysis Workspace, una tabla de forma libre es la base del análisis de datos interactivo. Puede arrastrar y soltar una combinación de [componentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=es) en filas y columnas para crear una tabla personalizada para su análisis. A medida que se suelta cada componente, la tabla se actualiza inmediatamente, para que pueda analizar rápidamente y explorar en mayor profundidad.
 
-## Crear una tabla improvisada sencilla
+## Crear una tabla de forma libre simple
 
-Comience con una tabla improvisada vacía.
+Empiece con una tabla de forma libre vacía.
 
-![Tabla improvisada vacía](assets/freeform-table-1.png)
+![Tabla de forma libre vacía](assets/freeform-table-1.png)
 
-Si suelta la variable **[!UICONTROL ** Visitas **]** en la **[!UICONTROL ** Coloque una métrica aquí (o cualquier otro componente)**]**, la tabla improvisada se rellena automáticamente con visitas por día durante el período de calendario seleccionado.
+Si suelta la métrica **[!UICONTROL ** Visitas **]** en **[!UICONTROL ** Colocar una métrica aquí (o cualquier otro componente)**]**, la tabla de forma libre se rellenará automáticamente con visitas por día durante el período de calendario que haya seleccionado.
 
-![Tabla improvisada de visitas](assets/freeform-table-2.png)
+![Visitas a la tabla de forma libre](assets/freeform-table-2.png)
 
-Si a continuación suelta el **[!UICONTROL ** Página **]** para reemplazar la dimensión **[!UICONTROL ** Día **]** , la tabla improvisada refleja automáticamente las visitas de cada página.
+Si después suelta la dimensión **[!UICONTROL ** Página **]** para reemplazar la columna de dimensión **[!UICONTROL ** Día **]**, la tabla de forma libre reflejará automáticamente las visitas de cada página.
 
-![Visitas por tabla improvisada de página](assets/freeform-table-3.png)
+![Visitas por tabla de forma libre de página](assets/freeform-table-3.png)
 
-A continuación, puede desglosar, por ejemplo, el **[!UICONTROL ** categoría:5 **]** soltando la página **[!UICONTROL ** Canal de marketing **]** en la dimensión **[!UICONTROL ** categoría:5 **]** fila.
+Entonces puede desglosar, por ejemplo, la página **[!UICONTROL ** category:5 **]** soltando la dimensión **[!UICONTROL ** Canal de marketing **]** en la fila **[!UICONTROL ** category:5 **]**.
 
-![Desglose de visitas por tabla improvisada de página](assets/freeform-table-4.png)
+![Desglose de visitas por tabla de forma libre de página](assets/freeform-table-4.png)
 
 
 ## Tablas automatizadas
 
-Como se ilustra más arriba, la forma más rápida de crear una tabla es soltar componentes directamente en un proyecto, panel o tabla improvisada en blanco. Se creará automáticamente una tabla de forma libre en un formato recomendado. [Vea el tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=es).
+Como se ilustra más arriba, la forma más rápida de crear una tabla es soltar componentes directamente en un proyecto, panel o tabla de forma libre en blanco. Se creará automáticamente una tabla de forma libre en un formato recomendado. [Vea el tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=es).
 
 ![](assets/automated-table.png)
 
 ## Generador de tablas de forma libre
 
-Si prefiere primero agregar varios componentes a la tabla y luego procesar los datos, puede habilitar el Generador de tablas de forma libre. Con el generador habilitado, puede arrastrar y soltar muchas dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas más complejas. Los datos no se actualizarán sobre la marcha, sino una vez que haga clic en **[!UICONTROL Generar]**.
+Si prefiere primero agregar varios componentes a la tabla y luego procesar los datos, puede habilitar el Generador de tablas de forma libre. Con el generador habilitado, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas más complejas. Los datos no se actualizarán sobre la marcha, sino una vez que hagas clic en **[!UICONTROL Generar]**.
 
 ![](assets/table-builder.png)
 
@@ -67,7 +67,7 @@ Obtenga más información sobre todas las [opciones de exportación](https://exp
 
 * Al hacer clic con el botón derecho en > **[!UICONTROL Copiar datos en el portapapeles]**, se exportan los datos de tabla mostrados. Si se realiza una selección de tabla, esta opción dirá **[!UICONTROL Copiar selección al portapapeles]**. La tecla de acceso directo **Ctrl + C** también copia los datos seleccionados.
 * Al hacer clic con el botón derecho en > **[!UICONTROL Descargar datos como CSV]**, se descargan los datos de tabla mostrados como CSV. Si se hace una selección de tabla, esta opción indicará **[!UICONTROL Descargar selección como CSV]**.
-* Haga clic con el botón derecho > **[!UICONTROL Proyecto > Descargar elementos como CSV]** exporta hasta 50 000 elementos de dimensión para la dimensión seleccionada.
+* Al hacer clic con el botón derecho en > **[!UICONTROL Proyecto > Descargar elementos como CSV]**, se exportan hasta 50 000 elementos de dimensión de la dimensión seleccionada.
 
 Obtenga más información sobre todas las [opciones de exportación](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es) de datos de Analysis Workspace.
 

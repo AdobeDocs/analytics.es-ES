@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ En la tabla se asume que la fecha de hoy es Lunes, 10 de noviembre de 2011, util
 
 | Ejemplo | Intervalo de fechas | Expresión personalizada | Intervalo de fechas del informe |
 |---|---|---|---|
-|  |  | **De** | **Hasta** |  |
+|  | | **De** | **Hasta** | |
 | 1 | Hace dos semanas | cw-2w | cw-1w-1d | 26 de octubre a 1 de noviembre |
 | 2 | Primeros 3 días del quinto mes del año pasado | cy-1y+4m | cy-1y+4m+2d | 1 a 3 de mayo de 2010 |
 | 3 | 1 semana completa, comenzando 4 semanas antes | cw-4w | cw-3w-1d | 12 a 18 de octubre |
@@ -38,7 +38,7 @@ Si hoy es lunes 10 de noviembre de 2011, considere la fecha actual y reste una s
 
 Añada cuatro meses al comienzo del año (el mes de enero) para obtener el mes de mayo; añada dos días al primer día del mes para obtener el tercer día del mes.
 
-## Notas sobre sintaxis {#section_555D6563B2D94FA3BDD801DC0B8C289D}
+## Notas de sintaxis {#section_555D6563B2D94FA3BDD801DC0B8C289D}
 
 Las expresiones personalizadas que abarcan la mayoría de intervalos de fechas se pueden crear vinculando dos términos con un operador. Un término es una combinación de un multiplicador entero y una abreviación de período. Un ejemplo de un término es 18d; un ejemplo de operador es +.
 

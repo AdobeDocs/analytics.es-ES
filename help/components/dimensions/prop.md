@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 95%
+source-wordcount: '471'
+ht-degree: 93%
 
 ---
 
 # Prop
 
-*[Esta página de ayuda describe cómo funcionan las propiedades (props) como una dimensión](overview.md). Para obtener información sobre cómo implementar props, consulte [props](/help/implement/vars/page-vars/prop.md) en la guía del usuario sobre implementación.*
+*Esta página de ayuda describe cómo funcionan las props como una [dimensión](overview.md). Para obtener información sobre cómo implementar props, consulte [props](/help/implement/vars/page-vars/prop.md) en la guía del usuario sobre implementación.*
 
 Las propiedades son variables personalizadas que se pueden utilizar como desee. No se mantienen más allá de la visita en la que están configuradas.
 
@@ -30,7 +30,7 @@ AppMeasurement, que compila variables JavaScript en una solicitud de imagen para
 
 ## Elementos de dimensión
 
-Dado que las props contienen cadenas personalizadas en la implementación, la organización determina los elementos de dimensión de cada propiedad. Asegúrese de registrar el propósito de cada propiedad y los elementos de dimensión típicos en una [documento de diseño de solución](/help/implement/prepare/solution-design.md).
+Dado que las props contienen cadenas personalizadas en la implementación, la organización determina los elementos de dimensión de cada propiedad. Asegúrese de registrar el propósito de cada propiedad y los elementos de dimensión típicos en un [documento de diseño de solución](/help/implement/prepare/solution-design.md).
 
 ## Distinción entre mayúsculas y minúsculas
 

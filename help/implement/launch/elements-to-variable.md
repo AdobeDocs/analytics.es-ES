@@ -43,7 +43,7 @@ Las variables configuradas en las reglas son ideales cuando no desea que se conf
 1. Haga clic en la propiedad de etiquetas deseada.
 1. Haga clic en la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla deseada (o cree una).
 1. Haga clic en el botón [!UICONTROL Añadir] en [!UICONTROL Acciones].
-1. Configure las variables [!UICONTROL Extensión] lista desplegable para Adobe Analytics y la variable [!UICONTROL Tipo de acción] para establecer variables.
+1. Establezca la lista desplegable [!UICONTROL Extension] en Adobe Analytics y [!UICONTROL Action Type] en Set Variables.
 1. Haga clic en el icono del ![elemento de datos](assets/data-element.png) a la derecha de la variable de Analytics deseada. El [documento de diseño de soluciones](../prepare/solution-design.md) de su organización dicta qué variable de Analytics usar.
 1. Seleccione el elemento de datos deseado en la ventana modal. Haga clic en [!UICONTROL Seleccionar].
 1. El nombre del elemento de datos se agrega al campo de texto rodeado de símbolos `%`. Por ejemplo, si le asignara al elemento de datos el nombre &quot;Nombre de página&quot;, vería la cadena `%Page name%` al asignar un elemento de datos a una variable.

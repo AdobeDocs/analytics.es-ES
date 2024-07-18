@@ -6,12 +6,12 @@ role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '733'
 ht-degree: 100%
 
 ---
 
-# Información general de Analysis Workspace
+# Información general sobre Analysis Workspace
 
 Analysis Workspace le permite crear análisis rápidamente para recopilar información y luego compartirlas con otros. Mediante la interfaz del explorador arrastrar y soltar, puede crear su análisis, añadir visualizaciones para que los datos cobren vida, depurar un conjunto de datos, compartir y programar proyectos con cualquier persona de su organización.
 

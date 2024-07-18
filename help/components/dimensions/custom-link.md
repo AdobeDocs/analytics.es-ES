@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Vínculo personalizado
 
-El &quot;vínculo personalizado&quot; [dimensión](overview.md) informa de los nombres de los vínculos personalizados implementados en el sitio. Esta dimensión es valiosa cuando desea comprender los tipos de vínculos en los que más hacen clic los visitantes.
+El &quot;Vínculo personalizado&quot; [dimension](overview.md) indica los nombres de los vínculos personalizados implementados en el sitio. Esta dimensión es valiosa cuando desea comprender los tipos de vínculos en los que más hacen clic los visitantes.
 
 ## Rellene esta dimensión con datos
 

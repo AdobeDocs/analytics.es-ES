@@ -14,9 +14,9 @@ ht-degree: 1%
 
 Las búsquedas dinámicas permiten recibir archivos de búsqueda adicionales en la fuente de datos; de lo contrario, no estarán disponibles. Esta configuración permite enviar las siguientes tablas de búsqueda con cada archivo de fuente de datos:
 
-* **Nombre del operador**: proporciona contexto adicional para `carrier` columna. El nombre de archivo incluido es `carrier.tsv`.
-* **Atributos móviles**: proporciona contexto adicional para `mobile_id` , incluidas todas las funciones rastreadas para cada dispositivo móvil. El nombre de archivo incluido es `mobile_attributes.tsv`.
-* **Tipo de sistema operativo**: proporciona un contexto alternativo para `os` columna. Ambos `operating_systems.tsv` y `operating_system_type.tsv` use el `os` como clave, aunque solo `operating_system_type.tsv` es una búsqueda dinámica.
+* **Nombre de operador**: proporciona contexto adicional para la columna `carrier`. El nombre de archivo incluido es `carrier.tsv`.
+* **Atributos móviles**: proporciona contexto adicional para la columna `mobile_id`, incluidas todas las características rastreadas para cada dispositivo móvil. El nombre de archivo incluido es `mobile_attributes.tsv`.
+* **Tipo de sistema operativo**: Proporciona un contexto alternativo para la columna `os`. Tanto `operating_systems.tsv` como `operating_system_type.tsv` utilizan la columna `os` como clave, pero solo `operating_system_type.tsv` es una búsqueda dinámica.
 
 ## Habilitar búsquedas dinámicas
 
@@ -26,7 +26,7 @@ Si desea recibir los archivos de búsqueda mencionados, debe cumplir todos los r
    * Para `carrier.tsv`, debe incluir `carrier`.
    * Para `mobile_attributes.tsv`, debe incluir `mobile_id`.
    * Para `operating_system_type.tsv`, debe incluir `os`.
-* Las siguientes columnas deben ser **excluido**. Si alguna de estas columnas se incluye en la fuente de datos, la variable `mobile_attributes.tsv` no se incluye la búsqueda dinámica.
+* Las siguientes columnas deben estar **excluidas**. Si alguna de estas columnas se incluye en la fuente de datos, la búsqueda dinámica `mobile_attributes.tsv` no se incluye.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`
@@ -35,17 +35,17 @@ Una vez que la fuente de datos cumpla los requisitos de inclusión y exclusión 
 
 ## Referencia del encabezado de búsqueda
 
-Los encabezados de columna de estos archivos de búsqueda no cambian con el tiempo, por lo que los encabezados no se incluyen en cada archivo de fuente de datos. Utilice estos encabezados de columna como referencia o descargue sus respectivos `.tsv` archivo.
+Los encabezados de columna de estos archivos de búsqueda no cambian con el tiempo, por lo que los encabezados no se incluyen en cada archivo de fuente de datos. Use estos encabezados de columna como referencia o descargue su archivo `.tsv` correspondiente.
 
-+++**Nombre del operador**
-Descargar [carrier_headers.tsv](assets/carrier_headers.tsv) o haga referencia a los encabezados siguientes.
++++**Nombre de operador**
+Descargue [carrier_headers.tsv](assets/carrier_headers.tsv) o haga referencia a los encabezados siguientes.
 
 `carrier`
 `Carrier Name`
 +++
 
 +++**Atributos móviles**
-Descargar [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) o haga referencia a los encabezados siguientes.
+Descargue [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) o haga referencia a los encabezados siguientes.
 
 `mobile_id`
 `Manufacturer`
@@ -100,7 +100,7 @@ Descargar [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) 
 +++
 
 +++**Tipo de sistema operativo**
-Descargar [operation_system_type_headers.tsv](assets/operating_system_type_headers.tsv) o haga referencia a los encabezados siguientes.
+Descargue [operation_system_type_headers.tsv](assets/operating_system_type_headers.tsv) o haga referencia a los encabezados siguientes.
 
 `os`
 `Operating System Type`

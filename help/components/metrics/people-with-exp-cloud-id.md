@@ -5,8 +5,8 @@ feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 100%
+source-wordcount: '119'
+ht-degree: 83%
 
 ---
 
@@ -16,7 +16,7 @@ Personas con Experience Cloud ID es una métrica de [Análisis entre dispositivo
 
 ## Cálculo de esta métrica
 
-Teniendo en cuenta cada [persona](people.md)[](overview.md) (identificada o no identificada), esta métrica aumenta si la visita contiene la `mid` cadena de consulta (basada en la cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=es)).
+Teniendo en cuenta cada [persona](people.md) (identificada o no identificada), esta [métrica](overview.md) aumenta si la visita contiene la cadena de consulta `mid` (basada en la cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=es)).
 
 Puede crear la métrica calculada `[People with ECID] ÷ [People]` para obtener el porcentaje de visitantes del sitio mediante el servicio de ID.
 

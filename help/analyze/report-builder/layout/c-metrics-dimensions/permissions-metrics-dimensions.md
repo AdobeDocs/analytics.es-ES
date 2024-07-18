@@ -8,7 +8,7 @@ exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 82%
+ht-degree: 71%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Report Builder presenta una configuración de permisos similar a la de las
 
 Es posible que haya creado libros anteriormente con solicitudes dirigidas a dimensiones y métricas a las que no tiene acceso al no ser administrador. Estos permisos ahora son obligatorios.
 
-Por ejemplo, si actualiza una solicitud que incluye dimensiones o métricas a las cuales no tiene acceso, obtendrá un error de permiso restringido. El mensaje de error indica que una solicitud no está disponible para su cuenta de usuario debido a permisos administrativos.
+Por ejemplo, si actualiza una solicitud que incluye dimensiones o métricas a las que no tiene acceso, obtendrá un error de permiso restringido. El mensaje de error indica que una solicitud no está disponible para su cuenta de usuario debido a permisos administrativos.
 
 ![Captura de pantalla que muestra el mensaje de error de permisos restringidos.](assets/arb_restrc_perm.png)
 

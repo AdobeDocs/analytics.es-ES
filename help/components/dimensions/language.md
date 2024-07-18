@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Idioma
 
-El &quot;idioma&quot; [dimensión](overview.md) muestra los idiomas principales en los que los visitantes prefieren ver el contenido. Esta dimensión es valiosa cuando desea comprender los idiomas preferidos más frecuentes de los visitantes para ayudar en las tareas de localización.
+La dimensión [Idioma](overview.md) muestra los idiomas principales en los que los visitantes prefieren ver el contenido. Esta dimensión es valiosa cuando desea comprender los idiomas preferidos más frecuentes de los visitantes para ayudar en las tareas de localización.
 
 >[!NOTE]
 >

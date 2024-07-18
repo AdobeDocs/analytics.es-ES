@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
 source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '200'
 ht-degree: 100%
 
 ---
@@ -24,6 +24,6 @@ Para obtener más información sobre [!UICONTROL paneles] de Adobe Analytics, co
    * Para ver un vídeo de información general sobre la experiencia de los gestores de datos, consulte [Generador del cuadro de resultados de paneles de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=es).
 
 
-* [Guía rápida del usuario ejecutivo](/help/analyze/mobile-app/executive.md): Esta guía está pensada para ayudar a los usuarios ejecutivos a leer e interpretar los informes de valoración sobre los [!UICONTROL paneles]. La aplicación permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes.
+* [Guía rápida del usuario ejecutivo](/help/analyze/mobile-app/executive.md): Esta guía está pensada para ayudar a los usuarios ejecutivos a leer e interpretar los informes de valoración sobre los [!UICONTROL paneles]. La aplicación permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivos móviles un amplio conjunto de datos de resumen importantes.
 
    * Para ver un vídeo que resalta esta información, consulte [Experiencia en la aplicación de paneles de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=es).

@@ -37,7 +37,7 @@ Suponga que dispone de los siguientes datos de visita:
 
 Si envía una solicitud de acceso, recibirá dos archivos que puede devolver al interesado. Un archivo CSV contiene una fila por cada visita recibida para el interesado y una columna para cada variable con la etiqueta de acceso adecuada. El otro archivo es un archivo de HTML de resumen que enumera cada variable, seguida de todos los valores únicos vistos para esa variable para el sujeto de los datos y el número de veces que se vio cada valor único.
 
-Para nuestro ejemplo, el archivo de resumen contiene los valores indicados en la tabla a continuación. Una solicitud puede contener únicamente un archivo de dispositivo, solo un archivo de persona o uno de cada. Solo se devuelven dos archivos de resumen si se utiliza un ID de persona y `expandIds` es verdadero.
+Para nuestro ejemplo, el archivo de resumen contiene los valores indicados en la tabla a continuación. Una solicitud puede contener únicamente un archivo de dispositivo, solo un archivo de persona o uno de cada. Se devuelven dos archivos de resumen solo si se usa un ID de persona y `expandIds` es verdadero.
 
 <table>
   <tr>
@@ -142,7 +142,7 @@ Para nuestro ejemplo, el archivo de resumen contiene los valores indicados en la
   </tr>
 </table>
 
-Observe que la configuración de `expandIDs` no supone ninguna diferencia en la salida cuando se utiliza un ID de cookie.
+Observe que la configuración de `expandIDs` no hace ninguna diferencia en la salida cuando se utiliza un id. de cookie.
 
 ## Muestras de solicitudes de eliminación {#delete}
 
@@ -219,7 +219,7 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 
 >[!NOTE]
 >
->Solo las columnas de las filas que contienen `AAID=77` y una `DEL-DEVICE` etiquetas se ven afectadas.
+>Solo se ven afectadas las columnas de las filas que contienen `AAID=77` y una etiqueta `DEL-DEVICE`.
 
 <table>
   <tr>
@@ -292,7 +292,7 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 
 >[!NOTE]
 >
->Solo las columnas de celdas de las filas que contienen `user=Mary` y una `DEL-PERSON` etiquetas se ven afectadas. Además, en la práctica, la variable que contiene `A_ID` probablemente sería un objeto o un eVar. Su valor de reemplazo sería una cadena que empiece por `Privacy-`, seguido de un número aleatorio (GUID), en lugar de reemplazar el valor numérico con un valor numérico aleatorio diferente.
+>Solo se ven afectadas las columnas de celdas de las filas que contienen `user=Mary` y una etiqueta `DEL-PERSON`. Además, en la práctica, la variable que contiene `A_ID` probablemente sería una prop o un eVar. Su valor de reemplazo sería una cadena que empiece por `Privacy-`, seguida de un número aleatorio (GUID), en lugar de reemplazar el valor numérico con un valor numérico aleatorio diferente.
 
 <table>
   <tr>

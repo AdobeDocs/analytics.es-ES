@@ -15,14 +15,14 @@ ht-degree: 75%
 
 *Esta página de ayuda describe cómo funcionan las entradas como una [dimensión](overview.md). Para obtener información sobre cómo funcionan las entradas como métricas, consulte la métrica [Entradas](../metrics/entries.md).*
 
-Las dimensiones de entrada son [basado en visitas](../metrics/visits.md). Registran el primer elemento de dimensión y lo mantienen durante toda la visita. Las dimensiones de entrada están disponibles para todas las variables con las rutas habilitadas en [Variables de tráfico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes.
+Las dimensiones de entrada están [basadas en visitas](../metrics/visits.md). Registran el primer elemento de dimensión y lo mantienen durante toda la visita. Las dimensiones de entrada están disponibles para todas las variables con las rutas habilitadas en [Variables de tráfico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes.
 
 >[!TIP]
->Si desea ver datos basados en la primera visita individual de una visita en lugar del primer valor visto en una visita individual, puede utilizar un [segmento](/help/components/segmentation/seg-overview.md). Utilice un contenedor de visita individual donde [Profundidad de visita](hit-depth.md) es igual a 1 y, a continuación, utilice ese segmento con la variable deseada.
+>Si desea ver datos basados en la primera visita individual de una visita en lugar del primer valor visto en una visita, puede usar un [segmento](/help/components/segmentation/seg-overview.md). Use un contenedor de visita individual en el que [Profundidad de visita](hit-depth.md) sea igual a 1 y luego use ese segmento con la variable deseada.
 
 ## Rellenar dimensiones de entrada con datos
 
-Una entrada determinada [dimensión](overview.md) se basa en la variable de tráfico asociada. Si la variable que no es de entrada tiene datos, su dimensión de entrada asociada también contendrá datos. No se requieren cambios de implementación para las dimensiones de entrada si las variables de tráfico contienen datos.
+Una entrada determinada [dimension](overview.md) se basa en su variable de tráfico asociada. Si la variable que no es de entrada tiene datos, su dimensión de entrada asociada también contendrá datos. No se requieren cambios de implementación para las dimensiones de entrada si las variables de tráfico contienen datos.
 
 ## Elementos de dimensión
 

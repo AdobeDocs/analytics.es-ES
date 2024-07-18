@@ -5,7 +5,7 @@ feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '687'
 ht-degree: 90%
 
 ---
@@ -77,4 +77,4 @@ Si utiliza Mobile Services para la funcionalidad de pago, no tiene una ruta de m
 
 * Para los vínculos de adquisición, podemos dirigirle a los socios de Adobe para satisfacer sus necesidades.
 * La mensajería push y en la aplicación están disponibles en Adobe Campaign Standard y Adobe Campaign Classic (solo push). Sin embargo, el conjunto de datos subyacente que se utiliza para la segmentación es diferente. Le sugerimos que contacte con su equipo de cuenta de Adobe para determinar las opciones de migración para los datos de mensajería.
-* Para la funcionalidad Ubicación, se le recomienda adoptar la nueva [Adobe Experience Platform Location Service](https://www.adobe.com/es/experience-platform/location-service.html), que es gratuito para todos los clientes de Adobe Experience Platform.
+* Para la funcionalidad Ubicación, se le recomienda adoptar el nuevo [Servicio de ubicación de Adobe Experience Platform](https://www.adobe.com/es/experience-platform/location-service.html), que es gratuito para todos los clientes de Adobe Experience Platform.

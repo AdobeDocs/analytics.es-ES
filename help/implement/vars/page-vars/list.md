@@ -19,7 +19,7 @@ Asegúrese de registrar la forma en que utiliza cada variable de lista y su lóg
 
 >[!NOTE]
 >
->Las variables de lista almacenan los valores más recientes por visitante en función de su [!UICONTROL Valores máximos] configuración en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Se admiten hasta 250 valores. Si hay más valores únicos que lo que [!UICONTROL Valores máximos] La configuración de permite que los valores más antiguos no se atribuyan a las métricas.
+>Las variables de lista almacenan los valores más recientes por visitante, según su configuración de [!UICONTROL Valores máximos] en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Se admiten hasta 250 valores. Si hay más valores únicos de los que permite la configuración [!UICONTROL Valores máximos], los valores más antiguos no se atribuyen a las métricas.
 
 ## Configure variables de lista en la configuración del grupo de informes
 
@@ -27,7 +27,7 @@ Asegúrese de configurar cada variable de lista en la configuración del grupo d
 
 ## Variables de lista mediante el SDK web
 
-Si se usa la variable [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), las variables de lista utilizan los campos XDM `xdm._experience.analytics.customDimensions.lists.list1.list[]` hasta `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Cada elemento de matriz contiene un objeto `"value"` que engloba cada cadena. No es necesario proporcionar un delimitador; los servidores de recopilación de datos de Adobe detectan e incluyen automáticamente el delimitador correcto establecido en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Si se usa el [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), las variables de lista usan los campos XDM `xdm._experience.analytics.customDimensions.lists.list1.list[]` a `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Cada elemento de matriz contiene un objeto `"value"` que engloba cada cadena. No es necesario proporcionar un delimitador; los servidores de recopilación de datos de Adobe detectan e incluyen automáticamente el delimitador correcto establecido en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {
@@ -59,7 +59,7 @@ Si se usa la variable [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.
 >
 >El esquema XDM de Adobe contiene objetos `key`, además de objetos `value` en cada matriz `list[]`. Adobe no emplea estos objetos `key` al enviar datos a Adobe Analytics.
 
-Si se usa la variable [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), las variables de lista utilizan `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` siguiente sintaxis de AppMeasurement. Asegúrese de utilizar el delimitador correcto establecido en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Si se usa el [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), las variables de lista usan de `data.__adobe.analytics.list1` a `data.adobe.analytics.list3` según la sintaxis del AppMeasurement. Asegúrese de usar el conjunto de delimitadores correcto en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "data": {

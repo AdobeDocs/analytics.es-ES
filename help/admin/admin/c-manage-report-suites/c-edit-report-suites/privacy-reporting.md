@@ -12,7 +12,7 @@ ht-degree: 54%
 
 # Creación de informes de privacidad
 
-Los informes de privacidad permiten activar la variable [Inclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-in.md), [Exclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-out.md) y [Consentimiento de plataforma de publicidad](/help/components//dimensions/ad-consent.md) dimensiones para usar en informes.
+Los informes de privacidad le permiten habilitar las dimensiones [Inclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-in.md), [Exclusión de la administración de consentimiento](/help/components/dimensions/cm-opt-out.md) y [Consentimiento de la plataforma de publicidad](/help/components//dimensions/ad-consent.md) para usarlas en los informes.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Para acceder a esta página, haga lo siguiente:
 
    ![Editar configuración](assets/rsm-privacy-select.png)
 
-1. Clic **[!UICONTROL Habilitar informes de privacidad de datos]**.
+1. Haga clic en **[!UICONTROL Habilitar informes de privacidad de datos]**.
 
    >[!NOTE]
    >

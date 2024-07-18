@@ -17,7 +17,7 @@ Históricamente, AppMeasurement para JavaScript ha sido un método común para i
 
 Una información general de alto nivel de las tareas de implementación:
 
-![Cómo implementar Adobe Analytics con AppMeasurement para Javascript, tal como se describe en esta sección.](../assets/appmeasurement-annotated.png)
+![Cómo implementar Adobe Analytics con AppMeasurement para JavaScript, tal como se describe en esta sección.](../assets/appmeasurement-annotated.png)
 
 <table>
 
@@ -26,15 +26,15 @@ Una información general de alto nivel de las tareas de implementación:
 </tr>
 
 <tr>
-<td>1</td><td>Asegúrese de que tiene <b>definición de un grupo de informes</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
+<td>1</td><td>Asegúrese de haber <b>definido un grupo de informes</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>Descargue el código JavaScript necesario para AppMeasurement</b> de Administrador de códigos. Descomprima el archivo.</td><td><a href="../../admin/admin/code-manager-admin.md">Administrador de códigos</a></td>
+<td>2</td><td><b>Descargue el código JavaScript necesario para el AppMeasurement</b> desde el Administrador de códigos. Descomprima el archivo.</td><td><a href="../../admin/admin/code-manager-admin.md">Administrador de códigos</a></td>
 </tr>
 
 <tr>
-<td>3</td><td><b>Añadir <code>AppMeasurement.js</code> al archivo de plantilla del sitio web</b>. El código contiene las bibliotecas necesarias para enviar datos al Adobe.
+<td>3</td><td><b>Agregue <code>AppMeasurement.js</code> al archivo de plantilla del sitio web</b>. El código contiene las bibliotecas necesarias para enviar datos al Adobe.
 
 ```html
 <head>
@@ -62,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>Defina las variables de nivel de página dentro del código de página del sitio</b>. Estas variables determinan la dimensión y las métricas específicas que se envían al Adobe.
+<td>5</td><td><b>Defina variables de nivel de página dentro del código de página del sitio</b>. Estas variables determinan la dimensión y las métricas específicas que se envían al Adobe.
 
 ```js
 s.pageName = "Example page";
@@ -74,7 +74,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>Envíe los datos al Adobe mediante la variable <code>t()</code> método</b>, cuando se definan todas las variables de página.
+<td>6</td><td><b>Envíe los datos al Adobe mediante el método <code>t()</code></b>, cuando se definan todas las variables de página.
 
 ```js
 s.t();

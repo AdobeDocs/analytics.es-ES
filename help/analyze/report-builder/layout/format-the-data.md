@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 80%
+source-wordcount: '261'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ En el menú **[!UICONTROL Formato]**, haga clic en **[!UICONTROL Formato persona
 
 En la siguiente tabla se describe cómo se pueden utilizar las abreviaciones de fecha en el campo [!UICONTROL Formato personalizado]:
 
-| Abreviación | Significado | Ejemplo con miércoles, 14 de marzo de 2012 |
+| Abreviación | Significado | Ejemplo   Se utiliza el miércoles, 14 de marzo de 2012. |
 |--- |--- |--- |
 | MM/dd/yyy | Fecha numérica completa | 03/14/2012 |
 | M | Número de mes | 3 |

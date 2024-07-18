@@ -14,7 +14,7 @@ ht-degree: 88%
 
 *Esta página de ayuda describe cómo funcionan las salidas como una métrica. Para obtener información sobre cómo funcionan las salidas como una dimensión, consulte [Dimensiones de salida](../dimensions/exit-dimensions.md).*
 
-Las &#39;salidas&#39; [métrica](overview.md) muestra el número de veces que un elemento determinado se captura como el último valor de una visita. Esta métrica es útil cuando desea conocer más sobre lo último que ven los visitantes antes de abandonar el sitio. Ver los últimos valores de una dimensión puede ayudarle a comprender y optimizar la experiencia que obtiene un visitante antes de que se vaya.
+La métrica [Salidas](overview.md) muestra el número de veces que un elemento determinado se captura como el último valor de una visita. Esta métrica es útil cuando desea conocer más sobre lo último que ven los visitantes antes de abandonar el sitio. Ver los últimos valores de una dimensión puede ayudarle a comprender y optimizar la experiencia que obtiene un visitante antes de que se vaya.
 
 ## Cálculo de esta métrica
 

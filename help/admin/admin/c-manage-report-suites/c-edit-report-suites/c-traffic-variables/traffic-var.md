@@ -23,10 +23,10 @@ Puede agregar y habilitar informes de variables de tráfico. También puede desh
 
 ## Agregar y habilitar informes de variables de tráfico
 
-1. Seleccionar **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]**, luego seleccione un grupo de informes.
-1. Seleccionar **[!UICONTROL Editar configuración]** > **[!UICONTROL Tráfico]** > **[!UICONTROL Variables de tráfico]**.
-1. Seleccionar **[!UICONTROL Añadir nuevo]**, asigne un nombre al informe.
-1. En el [!UICONTROL **Habilitado**] columna, seleccione [!UICONTROL **Habilitado**] en el menú desplegable.1. Seleccionar **[!UICONTROL Guardar]**.
+1. Seleccione **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Grupos de informes]** y, a continuación, seleccione un grupo de informes.
+1. Seleccione **[!UICONTROL Editar configuración]** > **[!UICONTROL Tráfico]** > **[!UICONTROL Variables de tráfico]**.
+1. Seleccione **[!UICONTROL Agregar nuevo]** y asigne un nombre al informe.
+1. En la columna [!UICONTROL **Habilitado**], seleccione [!UICONTROL **Habilitado**] del menú desplegable.1. Seleccione **[!UICONTROL Guardar]**.
 
 ## Deshabilitar informes de variables de tráfico
 
@@ -34,18 +34,18 @@ Cuando se deshabilita un informe de variables de tráfico, el informe no aparece
 
 Para deshabilitar un informe de variables de tráfico:
 
-1. Seleccionar **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]**, luego seleccione un grupo de informes.
-1. Seleccionar **[!UICONTROL Editar configuración]** > **[!UICONTROL Tráfico]** > **[!UICONTROL Variables de tráfico]**.
+1. Seleccione **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Grupos de informes]** y, a continuación, seleccione un grupo de informes.
+1. Seleccione **[!UICONTROL Editar configuración]** > **[!UICONTROL Tráfico]** > **[!UICONTROL Variables de tráfico]**.
 1. Seleccione el informe de variables de tráfico que desee deshabilitar.
-1. En el [!UICONTROL **Habilitado**] columna, seleccione [!UICONTROL **Desactivado**] en el menú desplegable.
+1. En la columna [!UICONTROL **Habilitado**], seleccione [!UICONTROL **Deshabilitado**] del menú desplegable.
 1. Seleccione [!UICONTROL **Guardar**].
 
 ## Cambiar nombre de informes de variables de tráfico
 
-1. Seleccionar **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]**, luego seleccione un grupo de informes.
-1. Seleccionar **[!UICONTROL Editar configuración]** > **[!UICONTROL Tráfico]** > **[!UICONTROL Variables de tráfico]**.
+1. Seleccione **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Grupos de informes]** y, a continuación, seleccione un grupo de informes.
+1. Seleccione **[!UICONTROL Editar configuración]** > **[!UICONTROL Tráfico]** > **[!UICONTROL Variables de tráfico]**.
 1. Seleccione el informe de variables de tráfico cuyo nombre desee cambiar.
-1. En el [!UICONTROL **Nombre**] , especifique un nuevo nombre para el informe.
+1. En la columna [!UICONTROL **Nombre**], especifique un nombre nuevo para el informe.
 1. Seleccione [!UICONTROL **Guardar**].
 
 Consulte también [prop](/help/implement/vars/page-vars/prop.md) en la guía de usuario sobre implementación.

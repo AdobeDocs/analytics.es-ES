@@ -8,7 +8,7 @@ exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 78%
+ht-degree: 74%
 
 ---
 
@@ -18,9 +18,9 @@ Vea los detalles del estado de una solicitud y utilice las descripciones de los 
 
 ## Información general {#section_75C288C945FA4781A4EDF806711A5660}
 
-El [!UICONTROL Administrador de solicitudes] proporciona una vista detallada del estado de todas las solicitudes generadas para todas las hojas o solo una hoja del libro activo. También puede agregar, editar, actualizar y eliminar una solicitud. Estas funciones suelen estar asociadas con la variable [!UICONTROL Asistente para solicitudes] y [!UICONTROL Administrador de solicitudes] al hacer clic con el botón derecho en una celda disponible en la hoja de cálculo de Excel que contiene solicitudes anteriores.
+El [!UICONTROL Administrador de solicitudes] proporciona una vista detallada del estado de todas las solicitudes creadas para todas las hojas o solo una hoja del libro activo. También puede agregar, editar, actualizar y eliminar una solicitud. Estas funciones suelen estar asociadas con el [!UICONTROL Asistente para solicitudes] y el [!UICONTROL Administrador de solicitudes] cuando se hace clic con el botón secundario en una celda disponible en la hoja de cálculo de Excel que contiene solicitudes anteriores.
 
-El [!UICONTROL Administrador de solicitudes] se muestra al hacer clic en **[!UICONTROL Administrar]**  ![](assets/edit_request.gif) en la barra de herramientas del Report Builder.
+Se muestra [!UICONTROL Administrador de solicitudes] al hacer clic en **[!UICONTROL Administrar]** ![](assets/edit_request.gif) en la barra de herramientas del Report Builder.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ El [!UICONTROL Administrador de solicitudes] se muestra al hacer clic en **[!UIC
   </tr> 
   <tr> 
    <td colname="col1"> <p>Agregar </p> </td> 
-   <td colname="col2"> <p>Muestra el cuadro de diálogo Asistente para solicitudes. Consulte <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   >Crear una solicitud de datos</a>. </p> </td> 
+   <td colname="col2"> <p>Muestra el cuadro de diálogo Asistente para solicitudes. Consulte <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Crear una solicitud de datos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Editar </p> </td> 
@@ -82,7 +82,7 @@ El [!UICONTROL Administrador de solicitudes] se muestra al hacer clic en **[!UIC
   </tr> 
   <tr> 
    <td colname="col1"> <p> Actualizar </p> </td> 
-   <td colname="col2"> <p>Actualiza una sola solicitud o una selección de ellas. (Consulte <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > Actualizar solicitudes</a>.) </p> </td> 
+   <td colname="col2"> <p>Actualiza una sola solicitud o una selección de ellas. (Consulte <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > Actualizar una solicitud</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Actualizar lista </p> </td> 

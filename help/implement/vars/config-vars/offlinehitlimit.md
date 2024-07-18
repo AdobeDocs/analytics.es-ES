@@ -27,7 +27,7 @@ No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar 
 
 ## s.offlineHitLimit en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
-El `s.offlineHitLimit` es un entero que representa el número máximo de visitas que un dispositivo almacena mientras están sin conexión. Si no se define esta variable, el valor predeterminado es `10`. Puede establecerlo en cualquier valor entero. Cuando establezca valores altos, tenga en cuenta los límites de almacenamiento local en el explorador de un visitante. Este límite suele ser de 5 a 10 MB.
+La variable `s.offlineHitLimit` es un número entero que representa el número máximo de visitas que un dispositivo almacena mientras están sin conexión. Si no se define esta variable, el valor predeterminado es `10`. Puede establecerlo en cualquier valor entero. Cuando establezca valores altos, tenga en cuenta los límites de almacenamiento local en el explorador de un visitante. Este límite suele ser de 5 a 10 MB.
 
 ```js
 s.offlineHitLimit = 100;

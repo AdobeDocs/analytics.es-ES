@@ -12,7 +12,7 @@ ht-degree: 97%
 
 # Dominio de referencia
 
-El &quot;dominio de referencia&quot; [dimensión](overview.md) informa de los dominios en los que los visitantes hacen clic para llegar al sitio. Esta dimensión es útil para comprender qué sitios de terceros generan la mayor cantidad de tráfico en el suyo. Debe existir un vínculo en el sitio externo y un visitante debe hacer clic en él para que se muestre el elemento de dimensión.
+El &quot;Dominio de referencia&quot; [dimension](overview.md) indica en qué dominios hacen clic los visitantes para llegar al sitio. Esta dimensión es útil para comprender qué sitios de terceros generan la mayor cantidad de tráfico en el suyo. Debe existir un vínculo en el sitio externo y un visitante debe hacer clic en él para que se muestre el elemento de dimensión.
 
 >[!IMPORTANT]
 >

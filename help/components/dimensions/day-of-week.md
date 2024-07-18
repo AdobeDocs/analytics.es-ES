@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Día de la semana
 
-El &#39;Día de la semana&#39; [dimensión](overview.md) informa del día de la semana en que se produjo la visita. Este informe es útil si desea un informe desglosado por semana, pero no desea días estáticos como elementos de dimensión. Es especialmente útil como dimensión en los informes programados, ya que esta dimensión funciona con cualquier intervalo de fechas.
+La dimensión [Día de la semana](overview.md) indica el día de la semana en que se produjo la visita. Este informe es útil si desea un informe desglosado por semana, pero no desea días estáticos como elementos de dimensión. Es especialmente útil como dimensión en los informes programados, ya que esta dimensión funciona con cualquier intervalo de fechas.
 
 ## Rellene esta dimensión con datos
 

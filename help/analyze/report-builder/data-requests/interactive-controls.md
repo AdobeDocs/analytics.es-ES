@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '599'
 ht-degree: 72%
 
 ---
@@ -36,7 +36,7 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
 1. En el paso 1 del Asistente para solicitudes, seleccione, por ejemplo, el informe **[!UICONTROL Página]**.
 1. Junto al menú desplegable de **[!UICONTROL Fechas más utilizadas]**, haga clic en el icono **[!UICONTROL Configuración de controles]**:
 
-   ![Captura de pantalla del Asistente para solicitudes: Paso 1, que resalta el icono Configuración de control. ](assets/date_range_control.png)
+   ![Captura de pantalla del Paso 1 del Asistente para solicitudes que resalta el icono Configuración de control. ](assets/date_range_control.png)
 
 1. En el cuadro de diálogo Configuración de controles, seleccione todos los elementos de intervalo de fechas que desee mostrar en el control interactivo. Además, especifique la ubicación de la celda superior izquierda del control.
 

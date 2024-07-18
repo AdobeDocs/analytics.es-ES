@@ -12,7 +12,7 @@ ht-degree: 83%
 
 # Días transcurridos desde la última visita
 
-Los &quot;Días transcurridos desde la última visita&quot; [dimensión](overview.md) mide la cantidad de tiempo transcurrido entre la visita actual del visitante y su visita anterior (si existe). Esta dimensión ayuda a comprender el comportamiento de los visitantes tras visitar el sitio. Algunos ejemplos son:
+La dimensión &quot;Días transcurridos desde la última visita&quot; [dimension](overview.md) mide la cantidad de tiempo transcurrido entre la visita actual del visitante y su visita anterior (si es que la hay). Esta dimensión ayuda a comprender el comportamiento de los visitantes tras visitar el sitio. Algunos ejemplos son:
 
 * ¿Con qué frecuencia regresan los usuarios al sitio?
 * ¿Cómo se correlaciona la frecuencia de retorno con la conversión? ¿Los compradores habituales realizan visitas frecuentemente o con poca frecuencia?

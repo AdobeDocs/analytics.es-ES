@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
 workflow-type: tm+mt
-source-wordcount: '2513'
+source-wordcount: '2500'
 ht-degree: 81%
 
 ---
@@ -37,7 +37,7 @@ Puede acceder a la plantilla del [!UICONTROL cuadro de resultados móvil en blan
 ### Creación de un nuevo proyecto {#create}
 
 1. Abra Adobe Analytics y haga clic en la ficha **[!UICONTROL Espacio de trabajo]**.
-1. Clic **[!UICONTROL Crear proyecto]** y seleccione la **[!UICONTROL informe de valoración móvil en blanco]** plantilla de proyecto.
+1. Haga clic en **[!UICONTROL Crear proyecto]** y seleccione la plantilla de proyecto **[!UICONTROL informe de valoración móvil en blanco]**.
 1. Haga clic en **[!UICONTROL Crear]**.
 
 ![Plantilla del informe de valoración](assets/new_template.png)
@@ -55,7 +55,7 @@ Para implementar la plantilla del informe de valoración:
 
    ![Selección del grupo de informes](assets/properties_save.png)
 
-1. Para agregar un nuevo mosaico al cuadro de resultados, arrastre una métrica desde el panel izquierdo y suéltela en el **[!UICONTROL Arrastre y suelte las métricas aquí]** zona. También puede insertar una métrica entre dos mosaicos del mismo modo.
+1. Para agregar un nuevo mosaico al cuadro de resultados, arrastre una métrica desde el panel izquierdo y suéltela en la zona **[!UICONTROL Arrastrar y soltar métricas aquí]**. También puede insertar una métrica entre dos mosaicos del mismo modo.
 
    ![Agregar mosaicos](assets/build_list.png)
 
@@ -74,7 +74,7 @@ Por ejemplo, puede añadir dimensiones adecuadas (como **[!DNL Marketing Channel
 
 Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico.
 
-Si desea aplicar el segmento a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar segmentos seleccionando segmentos en el menú de filtro debajo de los intervalos de fechas. Usted [configuración y aplicación de filtros para los cuadros de resultados](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) del mismo modo que en Adobe Analytics Workspace.
+Si desea aplicar el segmento a todos los mosaicos del cuadro de resultados, suelte el mosaico encima del cuadro de resultados. O bien, también puede aplicar segmentos seleccionando segmentos en el menú de filtro debajo de los intervalos de fechas. Usted [configura y aplica filtros para sus cuadros de resultados](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=es) de la misma manera que lo haría en Adobe Analytics Workspace.
 
 ![Generar segmentos para filtrar](assets/segment_ui.png)
 
@@ -212,7 +212,7 @@ Para agregar texto a una diapositiva de detalles, seleccione un diseño que mues
 
 ## Eliminación de componentes {#remove}
 
-Del mismo modo, para quitar un componente que se aplica a todo el cuadro de resultados, haga clic en cualquier lugar del cuadro de resultados de los mosaicos y, a continuación, quítelo haciendo clic en **x** que aparece al pasar el ratón por encima del componente, como se muestra a continuación para la variable **Visitas por primera vez** segmento:
+Del mismo modo, para quitar un componente que se aplica a todo el cuadro de resultados, haga clic en cualquier lugar del cuadro de resultados de los mosaicos y, a continuación, quítelo haciendo clic en el **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Visitas por primera vez**:
 
 ![Remove_components](assets/new_remove.png)
 
@@ -352,7 +352,7 @@ Para compartir un cuadro de resultados mediante un vínculo que se puede compart
 
 1. Copie el vínculo y péguelo en un correo electrónico, documento o aplicación de mensajería instantánea.
 
-   Cuando un destinatario utiliza una aplicación de escritorio o un explorador para abrir el vínculo, el proyecto de cuadro de resultados móvil se abrirá en Workspace.
+   Cuando un destinatario utiliza una aplicación de escritorio o un explorador para abrir el vínculo, el proyecto del cuadro de resultados móvil se abrirá en Workspace.
 
    Cuando un destinatario abre el vínculo en un dispositivo móvil, el cuadro de resultados se abre directamente en la aplicación de paneles de Analytics.
 

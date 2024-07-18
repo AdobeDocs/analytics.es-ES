@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Instrucciones avanzadas relacionadas con la implementación de reglas de clasifi
 | Paso 3: Configurar grupo de informes y variables. | [!UICONTROL Clasificación del Generador de reglas] >  &lt;su conjunto de reglas> | Permite aplicar el conjunto de reglas a grupos de informes y variables. |
 | Paso 4: [Agregar reglas de clasificación al conjunto](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL Clasificación del Generador de reglas] >  &lt;su conjunto de reglas> | Hacer coincidir una condición con una clasificación y especificar la acción que debe realizarse con la regla.  Familiarícese con la información en [Cómo procesarlas reglas](/help/components/classifications/crb/classification-quickstart-rules.md). |
 | Paso 5: [Probar un conjunto de reglas de clasificación](/help/components/classifications/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | Para probar las reglas antes de su validación, deben editarse en modo borrador. En este modo, las reglas no pueden ejecutarse.<br>Este paso es importante cuando se utilizan [expresiones regulares](/help/components/classifications/crb/classification-quickstart-rules.md). |
-| Paso 6: [Activar reglas válidas](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Cuando las reglas se definen como válidas se puede activar el conjunto de reglas.  Si se considera necesario, pueden sobrescribirse las claves existentes. Consulte [Cómo procesar las reglas](/help/components/classifications/crb/classification-quickstart-rules.md). |
+| Paso 6: [Activar reglas válidas](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Cuando las reglas se definen como válidas se puede activar el conjunto de reglas.  Si se considera necesario, pueden sobrescribirse las claves existentes. Ver [Cómo procesar las reglas](/help/components/classifications/crb/classification-quickstart-rules.md). |
 | Paso 7 (opcional): [Eliminar las reglas no deseadas](/help/components/classifications/crb/classification-rule-definitions.md). | [!DNL Rules Page] | Eliminar las reglas no deseadas de un conjunto.<br>Nota: Al eliminar las reglas, no se eliminan los datos clasificados que se han cargado.  Consulte [Eliminar datos de clasificación](/help/components/classifications/importer/t-delete-classification-data.md) para eliminar datos clasificados. |
 
 >[!NOTE]

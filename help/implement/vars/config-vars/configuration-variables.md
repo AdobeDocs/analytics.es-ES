@@ -21,10 +21,10 @@ En implementaciones que utilizan la extensión del SDK web o la extensión de An
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
-1. Haga clic en [!UICONTROL Extensiones] y haga clic en [!UICONTROL Configurar] en la extensión.
+1. Haga clic en la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Configurar] en la extensión.
 
 En implementaciones de JavaScript que utilizan `AppMeasurement.js`, las variables de configuración generalmente se establecen en la parte superior del archivo JS.
 
 >[!IMPORTANT]
 >
->Asegúrese de que todas las variables de configuración estén configuradas antes de llamar a un método de seguimiento ([`t()`](../functions/t-method.md) o [`tl()`](../functions/tl-method.md)). Evite establecer variables de configuración en la función [`doPlugins()`](../functions/doplugins.md).
+>Asegúrese de que todas las variables de configuración estén establecidas antes de llamar a un método de seguimiento ([`t()`](../functions/t-method.md) o [`tl()`](../functions/tl-method.md)). Evite establecer variables de configuración en la función [`doPlugins()`](../functions/doplugins.md).

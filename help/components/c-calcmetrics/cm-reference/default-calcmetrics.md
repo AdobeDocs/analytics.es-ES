@@ -21,7 +21,7 @@ A continuación se muestra una lista de cada métrica calculada proporcionada po
 >Además de las métricas calculadas predeterminadas que se describen en esta página, también puede agregar métricas calculadas adicionales a un grupo de informes.
 >
 >Puede realizar lo siguiente:
-> * Añada métricas calculadas predeterminadas para el complemento de recopilación de medios de streaming, tal como se describe en [Métricas calculadas](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
+> * Agregue métricas calculadas predeterminadas para el complemento de recopilación de medios de streaming, tal como se describe en [Métricas calculadas](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
 > * Cree métricas calculadas personalizadas a partir de métricas existentes, tal como se describe en [Métricas calculadas y calculadas avanzadas (derivadas)](/help/components/c-calcmetrics/cm-overview.md).
 
 

@@ -23,7 +23,7 @@ Una vez que la biblioteca de etiquetas se haya puesto en producción, su organiz
 
 El depurador de Experience Cloud es una extensión que muestra todas las etiquetas de Experience Cloud presentes en una página.
 
-1. Instale la extensión para lo siguiente [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) o Firefox.
+1. Instale la extensión para [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) o Firefox.
 2. Vaya al sitio web de desarrollo en el que haya implementado etiquetas.
 3. Haga clic en el icono de Adobe Experience Cloud Debugger en el navegador.
 4. Si todo está correctamente implementado, debe ver el contenido dentro de Adobe Analytics, etiquetas y el servicio de ID de visitante de Adobe Experience Cloud.
@@ -39,7 +39,7 @@ Una vez que haya validado que está viendo los datos, puede insertar la implemen
 1. Vuelva a hacer clic en la lista desplegable de la biblioteca (ahora en la columna Enviados) y seleccione **[!UICONTROL Generar para ensayo]**.
 1. Después de unos momentos, la luz amarilla de color de la biblioteca se vuelve verde, lo que indica que la compilación se ha realizado correctamente.
 1. Vuelva a hacer clic en la lista desplegable de la biblioteca y seleccione **[!UICONTROL Aprobar para publicación]**.
-1. Vuelva a hacer clic en la lista desplegable de la biblioteca (ahora en la variable [!UICONTROL Aprobado] columna ) y seleccione **[!UICONTROL Generar y publicar en producción]**.
+1. Vuelva a hacer clic en la lista desplegable de la biblioteca (ahora en la columna [!UICONTROL Aprobado]) y seleccione **[!UICONTROL Generar y Publish en producción]**.
 1. Vaya a la pestaña Entornos y haga clic en **[!UICONTROL Entorno de producción]**.
 1. Copie el código de instalación de producción y suministre este código a los propietarios del sitio web. Solicite la implementación de este código en el entorno de producción del sitio.
 

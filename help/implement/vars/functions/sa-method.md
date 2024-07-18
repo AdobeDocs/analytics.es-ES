@@ -20,11 +20,11 @@ El método `sa()` permite cambiar dinámicamente un grupo de informes en la pág
 El SDK web funciona enviando datos a un conjunto de datos específico, que reenvía datos a los grupos de informes de Analytics deseados. Un único conjunto de datos puede reenviar datos a varios grupos de informes. Esta sección se aplica tanto a la extensión del SDK web como a la implementación manual del SDK web.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Clic **[!UICONTROL Datastreams]** a la izquierda.
+1. Haga clic en **[!UICONTROL Datastreams]** a la izquierda.
 1. Haga clic en la secuencia de datos deseada o en **[!UICONTROL Nueva secuencia de datos]**.
-1. Clic **[!UICONTROL Añadir servicio]**, luego seleccione **[!UICONTROL Adobe Analytics]**.
+1. Haga clic en **[!UICONTROL Agregar servicio]** y, a continuación, seleccione **[!UICONTROL Adobe Analytics]**.
 1. Introduzca el ID del grupo de informes deseado. Si desea enviar los mismos datos a varios grupos de informes, haga clic en **[!UICONTROL Agregar grupo de informes]**.
-1. Una vez introducidos todos los grupos de informes deseados, haga clic en **[!UICONTROL Guardar]**.
+1. Una vez que se especifiquen todos los grupos de informes deseados, haga clic en **[!UICONTROL Guardar]**.
 
 ## Establezca la secuencia de datos deseada mediante la extensión del SDK web
 
@@ -32,13 +32,13 @@ La extensión del SDK web proporciona una lista desplegable de secuencia de dato
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
-1. Vaya a la [!UICONTROL Extensiones] y, a continuación, haga clic en **[!UICONTROL Configurar]** botón debajo de [!UICONTROL SDK web de Adobe Experience Platform].
-1. En [!UICONTROL Datastreams], elija la secuencia de datos deseada en la lista desplegable para cada entorno.
+1. Vaya a la pestaña [!UICONTROL Extensions] y, a continuación, haga clic en el botón **[!UICONTROL Configure]** en [!UICONTROL Adobe Experience Platform Web SDK].
+1. En [!UICONTROL Flujos de datos], elija el flujo de datos deseado en la lista desplegable de cada entorno.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Establezca el conjunto de datos deseado manualmente implementando el SDK web
 
-Configure las variables `edgeConfigId` a la ID de flujo de datos. El ID de flujo de datos se encuentra a la derecha al ver un flujo de datos en la recopilación de datos de Adobe Experience Platform.
+Establezca la variable de configuración `edgeConfigId` en el ID de flujo de datos. El ID de flujo de datos se encuentra a la derecha al ver un flujo de datos en la recopilación de datos de Adobe Experience Platform.
 
 ```js
 alloy("configure", {
@@ -46,7 +46,7 @@ alloy("configure", {
 });
 ```
 
-Consulte [Configuración del SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es) en la documentación del SDK web para obtener más información.
+Consulte [Configurar el SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es) en la documentación del SDK web para obtener más información.
 
 ## Cambiar el grupo de informes con la extensión Adobe Analytics
 

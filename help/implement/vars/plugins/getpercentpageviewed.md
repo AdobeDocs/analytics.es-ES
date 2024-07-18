@@ -80,9 +80,9 @@ Asigne una o más de estas variables a las eVars para ver los datos de dimensió
 
 Este complemento crea tres cookies de origen que caducan al final de una sesión del explorador:
 
-* `s_ppv`: Almacena cada uno de los valores expuestos llamando a la función
-* `s_tp`: Almacena la altura total en píxeles de la página anterior.
-* `s_ips`: Almacena el porcentaje de desplazamiento inicial de la página anterior
+* `s_ppv`: almacena cada uno de los valores expuestos al llamar a la función
+* `s_tp`: almacena la altura total en píxeles de la página anterior
+* `s_ips`: almacena el porcentaje inicial desplazado de la página anterior
 
 ## Ejemplos
 

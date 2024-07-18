@@ -5,12 +5,12 @@ feature: Calculated Metrics
 exl-id: bef185d6-72c0-4068-80f8-57261369573f
 source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 34%
+source-wordcount: '148'
+ht-degree: 37%
 
 ---
 
-# Crear una métrica de &quot;participación&quot;
+# Generar una métrica de “participación”
 
 La siguiente información explica cómo crear una métrica que muestre qué páginas contribuyeron a las visitas que contenían un pedido (o participaron en ellas).
 
@@ -20,7 +20,7 @@ Este tipo de información podría ser útil para cualquier propietario de conten
 >
 >Puede habilitar métricas de participación en las Herramientas de administración, pero solo para los eventos personalizados 1-100.
 
-1. Comience a crear una métrica calculada como se describe en [Crear métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Comience a crear una métrica calculada, tal como se describe en [Generar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 1. En el Creador de métricas calculadas, asigne a la métrica el nombre &quot;Participación&quot;.
 
@@ -30,7 +30,7 @@ Este tipo de información podría ser útil para cualquier propietario de conten
 
    ![](assets/participation.png)
 
-1. Seleccionar [!UICONTROL **Guardar**] para guardar la métrica.
+1. Seleccione [!UICONTROL **Guardar**] para guardar la métrica.
 
 1. Utilice la métrica calculada en un informe **[!UICONTROL Páginas]**.
 

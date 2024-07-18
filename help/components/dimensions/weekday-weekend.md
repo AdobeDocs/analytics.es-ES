@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # Día de la semana/Fin de semana
 
-El &quot;día de la semana/fin de semana&quot; [dimensión](overview.md) proporciona una perspectiva sobre si la visita se produjo durante un día entre semana (lunes a viernes) o un fin de semana (sábado a domingo). La hora de la visita está basada en la [zona horaria del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
+La dimensión &quot;Día de la semana/Fin de semana&quot; [dimension](overview.md) proporciona una perspectiva sobre si la visita se produjo durante un día entre semana (lunes a viernes) o un fin de semana (sábado a domingo). La hora de la visita está basada en la [zona horaria del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
 
 ## Rellene esta dimensión con datos
 

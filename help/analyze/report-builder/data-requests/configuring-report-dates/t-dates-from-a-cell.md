@@ -19,11 +19,11 @@ Es posible especificar un intervalo de fechas seleccionando celdas de una hoja d
 **Para configurar fechas de una celda**
 
 1. En el [!UICONTROL Asistente para solicitudes: Paso 1], seleccione **[!UICONTROL Fechas de celda]**.
-1. Introduzca referencias de celda en la **[!UICONTROL Desde]** y **[!UICONTROL Hasta]** o haga clic en el selector y seleccione las celdas que contengan las solicitudes con las fechas de inicio y finalización.
+1. Escriba referencias de celda en los campos **[!UICONTROL Desde]** y **[!UICONTROL Hasta]**, o bien haga clic en el selector y seleccione las celdas que contengan las solicitudes con las fechas de inicio y finalización.
 
    Por ejemplo, cree una solicitud de Report Builder con el intervalo de fechas establecido en “ayer” y el resultado de la fecha de solicitud en la misma celda en “hoy()-1”.
 
 Esta es una lista de formatos de fecha admitidos:
 
-![Captura de pantalla que muestra los formatos de fecha admitidos.](assets/date-formats.png)
+![Captura de pantalla que muestra los formatos de fecha compatibles.](assets/date-formats.png)
 

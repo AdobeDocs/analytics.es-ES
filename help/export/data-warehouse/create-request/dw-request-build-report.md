@@ -6,7 +6,7 @@ exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
 source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 39%
+ht-degree: 49%
 
 ---
 
@@ -18,17 +18,17 @@ Para obtener información sobre cómo empezar a crear una solicitud, así como v
 
 Para crear un informe para una solicitud de Data Warehouse:
 
-1. Si aún no lo ha hecho, comience a crear una solicitud en Adobe Analytics seleccionando **[!UICONTROL Herramientas]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Añadir**].
+1. Si aún no lo ha hecho, empiece a crear una solicitud en Adobe Analytics seleccionando **[!UICONTROL Herramientas]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Añadir**].
 
    Para obtener más información, consulte [Crear una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. En la página Nueva solicitud de Data Warehouse, seleccione [!UICONTROL **Genere su informe**] pestaña.
+1. En la página Nueva solicitud de Data Warehouse, seleccione la pestaña [!UICONTROL **Generar su informe**].
 
-   ![Pestaña Generar informe](assets/build-report.png)
+   ![Ficha Generar informe](assets/build-report.png)
 
 1. Arrastre cualquier segmento, métrica y dimensión al generador. El informe que genere determina qué datos se incluyen en la solicitud de Data Warehouse.
 
-1. Siga configurando la solicitud de Data Warehouse en [!UICONTROL **Destino del informe**] pestaña. Para obtener más información, consulte [Configuración del destino de un informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+1. Siga configurando la solicitud de Data Warehouse en la ficha [!UICONTROL **Destino del informe**]. Para obtener más información, consulte [Configuración del destino de un informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 
 <!--
 

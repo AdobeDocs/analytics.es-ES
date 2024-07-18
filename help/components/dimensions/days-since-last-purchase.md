@@ -12,7 +12,7 @@ ht-degree: 84%
 
 # Días desde la última compra
 
-Los &quot;Días transcurridos desde la última compra&quot; [dimensión](overview.md) mide la cantidad de tiempo transcurrido entre la visita actual del visitante y su compra más reciente en ese momento. Esta dimensión ayuda a comprender el comportamiento de los visitantes tras comprar algo en el sitio.
+La dimensión [Días transcurridos desde la última compra](overview.md) mide la cantidad de tiempo transcurrido entre la visita actual del visitante y su compra más reciente en ese momento. Esta dimensión ayuda a comprender el comportamiento de los visitantes tras comprar algo en el sitio.
 
 Los visitantes que nunca han comprado algo no se incluyen en esta dimensión. Además, tampoco se incluyen las visitas activadas antes de la primera compra de un visitante. Solo se incluyen las visitas después de la primera compra del visitante.
 

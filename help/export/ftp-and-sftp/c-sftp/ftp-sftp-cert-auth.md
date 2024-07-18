@@ -6,7 +6,7 @@ feature: FTP Export
 exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '605'
 ht-degree: 97%
 
 ---
@@ -25,7 +25,7 @@ Cuando se utiliza un SFTP, las claves privadas se pueden utilizar bajo ciertas c
 
 1. Creación de cuenta de FTP (Adobe).
 
-   Un representante de Adobe puede crear una cuenta de FTP si todavía no la tiene. Póngase en contacto con el equipo de cuentas de Adobe o con el servicio de atención al cliente de Adobe para obtener la cuenta creada.
+   Un representante de Adobe puede crear una cuenta de FTP si todavía no la tiene. Póngase en contacto con el equipo de cuenta de Adobe o con el Servicio de atención al cliente de Adobe para crear una cuenta.
 1. Creación de clave pública/privada (cliente).
 
    Cree una combinación de clave pública y privada. La clave privada es un archivo que pertenece a su equipo o servidor y solo existe aquí. El archivo de clave pública se debe cargar a la cuenta de Adobe. Cuando se usan de este modo, es posible conectarse sin autenticarse con la contraseña. El archivo de clave pública de Adobe se combina con el archivo de clave privada que está en el equipo o servidor y efectúa la autenticación de esta forma.

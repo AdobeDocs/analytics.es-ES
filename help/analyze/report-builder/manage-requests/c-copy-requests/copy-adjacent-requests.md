@@ -8,7 +8,7 @@ exl-id: 99476ec5-f1f0-49f5-a2d8-354cec63c6b1
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 64%
+ht-degree: 59%
 
 ---
 
@@ -24,4 +24,4 @@ Al cortar una solicitud, ésta se elimina de su ubicación original y se sitúa 
 
 No es obligatorio copiar y pegar en la misma hoja del libro. Puede copiar una solicitud en una hoja y pegarla en una ubicación de otra hoja del mismo libro.
 
-No es obligatorio copiar y pegar una solicitud a la vez. Se pueden seleccionar varias solicitudes en la hoja de cálculo y pegarlas en una zona vacía de la hoja. Al igual que sucede al copiar y pegar una solicitud, asegúrese de que la zona de pegado no contenga celdas con solicitudes, ya que se sustituirían con la operación de pegado. Si el sistema detecta que la zona de pegado de destino ya contiene solicitudes, el Report Builder no muestra el [!UICONTROL Pegar solicitudes] para cualquier solicitud copiada o cortada. Se debe seleccionar una celda distinta como destino de la operación de pegado para que las solicitudes no se superpongan.
+No es obligatorio copiar y pegar una solicitud a la vez. Se pueden seleccionar varias solicitudes en la hoja de cálculo y pegarlas en una zona vacía de la hoja. Al igual que sucede al copiar y pegar una solicitud, asegúrese de que la zona de pegado no contenga celdas con solicitudes, ya que se sustituirían con la operación de pegado. Si el sistema detecta que la zona de pegado de destino ya contiene solicitudes, el Report Builder no muestra el menú [!UICONTROL Pegar solicitudes] para ninguna solicitud copiada o cortada. Se debe seleccionar una celda distinta como destino de la operación de pegado para que las solicitudes no se superpongan.

@@ -5,8 +5,8 @@ feature: Metrics
 exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 60%
+source-wordcount: '365'
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ La &quot;Profundidad promedio de la página&quot; [métrica](overview.md) muestr
 
 ## Cálculo de esta métrica
 
-La primera página de una visita tiene una profundidad de página de `0`. La página siguiente tiene una profundidad de 1 y aumenta la vista de cada página hasta el final de la visita. Esta métrica solo aumenta con la vista de página ([`t()`](/help/implement/vars/functions/t-method.md)) llamadas, y no con el seguimiento de vínculos ([`tl()`](/help/implement/vars/functions/tl-method.md)) llamadas.
+La primera página de una visita tiene una profundidad de página de `0`. La página siguiente tiene una profundidad de 1 y aumenta la vista de cada página hasta el final de la visita. Esta métrica solo aumenta con las llamadas de vista de página ([`t()`](/help/implement/vars/functions/t-method.md)) y no con las llamadas de seguimiento de vínculos ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 Para un elemento de dimensión, agregue todas las profundidades de página para ese elemento de dimensión y divida el elemento por visitas. El número resultante es la profundidad de página promedio, redondeada al entero más cercano. Los elementos de dimensión con una profundidad de página promedio `0` significan que se encontraban con frecuencia en la primera página de la visita.
 

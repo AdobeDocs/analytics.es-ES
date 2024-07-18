@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Devoluciones
 
-Las &quot;Devoluciones&quot; [métrica](overview.md) muestra el número de visitas que contenían exactamente una visita. Puede utilizar esta métrica para comprender la proporción de tráfico de devolución a no devolución que obtiene, para ver las páginas de entrada principales que provocan que los visitantes se devuelvan o para ver la tendencia del número total de devoluciones con el paso del tiempo.
+La métrica [Devoluciones](overview.md) muestra el número de visitas que contiene exactamente una visita. Puede utilizar esta métrica para comprender la proporción de tráfico de devolución a no devolución que obtiene, para ver las páginas de entrada principales que provocan que los visitantes se devuelvan o para ver la tendencia del número total de devoluciones con el paso del tiempo.
 
 ## Cálculo de esta métrica
 

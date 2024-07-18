@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
 source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 69%
 
 ---
@@ -34,21 +34,21 @@ Cree y guarde una métrica llamada &quot;Visitantes alemanes&quot; y una métric
 
    >[!NOTE]
    >
-   >También puede hacer esto en la [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md), pero hemos simplificado el flujo de trabajo al establecer que las dimensiones estén disponibles en el Creador de métricas calculadas. La opción “ad hoc” implica que el segmento no esté visible en la lista **[!UICONTROL Segmentos]** del carril de la izquierda. Sin embargo, puede hacerlo público si pasa el ratón por el icono “i”, que se sitúa junto a ella, y hace clic en **[!UICONTROL Hacer público]**.
+   >También puede hacerlo en el [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md), pero hemos simplificado el flujo de trabajo al establecer que las dimensiones estén disponibles en el Creador de métricas calculadas. La opción “ad hoc” implica que el segmento no esté visible en la lista **[!UICONTROL Segmentos]** del carril de la izquierda. Sin embargo, puede hacerlo público si pasa el ratón por el icono “i”, que se sitúa junto a ella, y hace clic en **[!UICONTROL Hacer público]**.
 
 1. Arrastre el segmento Alemania al lienzo Definición y arrastre la métrica Visitantes únicos dentro de este:
 
    ![](assets/german-visitors.png)
 
-1. Seleccionar [!UICONTROL **Guardar**] para guardar la métrica calculada.
+1. Seleccione [!UICONTROL **Guardar**] para guardar la métrica calculada.
 
 1. Cree un segmento ad hoc en el Creador de métricas calculadas llamado &quot;Visitantes internacionales&quot;, donde &quot;Países&quot; no sea igual a &quot;Alemania&quot;.
 
-   Arrastre la dimensión Países al lienzo Definición y seleccione [!UICONTROL **Alemania**] como valor, luego seleccione [!UICONTROL **no es igual a**] como operador.
+   Arrastre la dimensión Países al lienzo Definición, seleccione [!UICONTROL **Alemania**] como valor y, a continuación, seleccione [!UICONTROL **no es igual que**] como operador.
 
 1. Arrastre la métrica Visitantes únicos dentro.
 
-1. Seleccionar [!UICONTROL **Guardar**] para guardar la métrica calculada.
+1. Seleccione [!UICONTROL **Guardar**] para guardar la métrica calculada.
 
 1. En Analysis Workspace, arrastre la dimensión **[!UICONTROL Página]** a una tabla de forma libre y, luego, las dos métricas calculadas nuevas en paralelo en la parte superior:
 

@@ -6,7 +6,7 @@ exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
 source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 20%
+ht-degree: 12%
 
 ---
 
@@ -20,10 +20,10 @@ Todos los usuarios pueden crear etiquetas para métricas calculadas y aplicar un
 >
 >Los tipos de etiquetas más útiles suelen ser las que se basan en los siguientes criterios:
 >
->* **Nombres del equipo**, como Marketing social o Marketing móvil.
->* **Proyectos** (etiquetas de análisis), como análisis de Páginas de entrada.
->* **Categorías**, como Mujeres o Geografía.
->* **Flujos de trabajo**, como Por aprobar o Depurar para (una unidad comercial específica)
+>* **Nombres de equipos**, como Marketing social o Marketing móvil.
+>* **Proyectos** (etiquetas de análisis), como análisis de páginas de entrada.
+>* **Categorías**, como de mujer o geografía.
+>* **Flujos de trabajo**, como Para aprobar o Depurar para (una unidad empresarial específica)
 
 ## Aplicación de etiquetas a una métrica calculada
 
@@ -33,23 +33,23 @@ Todos los usuarios pueden crear etiquetas para métricas calculadas y aplicar un
 
    ![](assets/cm_add_tags.png)
 
-1. En el **[!UICONTROL Etiquetar métrica calculada]** Cuadro de diálogo:
+1. En el cuadro de diálogo **[!UICONTROL Etiqueta Métrica calculada]**:
 
-   * Añada una etiqueta nueva. Escriba el nombre en la [!UICONTROL **Añadir etiquetas**] y, a continuación, pulse Intro.
+   * Añada una etiqueta nueva. Escriba el nombre en el campo [!UICONTROL **Agregar etiquetas**] y, a continuación, presione Entrar.
    * Seleccione una o varias etiquetas existentes para aplicarlas a las métricas seleccionadas.
 
-1. Seleccionar [!UICONTROL **Guardar**] para aplicar las etiquetas.
+1. Seleccione [!UICONTROL **Guardar**] para aplicar las etiquetas.
 
 ## Ver etiquetas aplicadas
 
 1. En Adobe Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para ir al Administrador de métricas calculadas.
 
-1. En el Administrador de métricas calculadas, las etiquetas aparecen en la variable [!UICONTROL **Etiquetas**] columna. (Haga clic en el icono de engranaje en la parte superior derecha para administrar las columnas.)
+1. En el Administrador de métricas calculadas, las etiquetas aparecen en la columna [!UICONTROL **Etiquetas**]. (Haga clic en el icono de engranaje en la parte superior derecha para administrar las columnas.)
 
 ## Filtrado de métricas por etiquetas
 
 1. En Adobe Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Métricas calculadas**] para ir al Administrador de métricas calculadas.
 
-1. En el Administrador de métricas calculadas, seleccione la **Filtrar** y, a continuación, seleccione las etiquetas por las que desee filtrar.
+1. En el Administrador de métricas calculadas, seleccione el icono **Filtro** y, a continuación, las etiquetas por las que desea filtrar.
 
    Solo se muestran las métricas que tienen el filtro seleccionado.

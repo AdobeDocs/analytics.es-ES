@@ -6,8 +6,8 @@ feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '479'
+ht-degree: 89%
 
 ---
 
@@ -25,7 +25,7 @@ Para obtener información sobre los límites de FTP y la retención de datos, co
 
 ## Acerca del archivo `.fin` para cargas de clasificaciones y fuentes de datos {#section_1484719F8A134EAE91212DBD8F15174F}
 
-Al cargar un archivo de clasificación o fuente de datos (`.tab` o `.txt`), también hay que cargar un archivo vacío que tenga el mismo nombre que el archivo de datos que se va a importar, pero con una extensión `.fin`. El archivo `.fin` es un archivo de finalización. La función de este archivo es informar al sistema de que el archivo de datos se ha cargado completamente en la cuenta de FTP. El archivo `.fin` permite a Adobe saber que la importación ha finalizado.
+Al cargar un archivo de Source de datos o clasificación (`.tab` o `.txt`), la carga también requiere que cargue un archivo vacío que tenga el mismo nombre que el archivo de datos que se va a importar, pero con un .Extensión `.fin`. El archivo `.fin` es un archivo de finalización. La función de este archivo es informar al sistema de que el archivo de datos se ha cargado completamente en la cuenta de FTP. El archivo `.fin` permite a Adobe saber que la importación ha finalizado.
 
 Después de enviar el archivo de origen y el archivo `.fin`, es importante cerrar la sesión en el sitio FTP. El motivo es que Adobe Analytics utiliza eventos de cierre de sesión como un activador de que los archivos están listos para procesarse. Una vez completada la importación, Adobe elimina ambos archivos de la ubicación FTP.
 

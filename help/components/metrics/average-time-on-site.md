@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Promedio de tiempo en el sitio
 
-El &quot;Promedio de tiempo en el sitio&quot; [métrica](overview.md) muestra la cantidad de tiempo que transcurrió entre visitas individuales para un elemento de dimensión determinado. Esta métrica es útil cuando desea ver el tiempo promedio empleado para elementos de dimensión específicos. También puede analizar la tendencia de esta métrica con el paso del tiempo para ver cómo cambia el tiempo empleado en general. Esta métrica se muestra con el formato `HH:MM:SS`.
+La [métrica](overview.md) &quot;Promedio de tiempo en el sitio&quot; muestra la cantidad de tiempo que transcurrió entre visitas individuales para un elemento de dimensión determinado. Esta métrica es útil cuando desea ver el tiempo promedio empleado para elementos de dimensión específicos. También puede analizar la tendencia de esta métrica con el paso del tiempo para ver cómo cambia el tiempo empleado en general. Esta métrica se muestra con el formato `HH:MM:SS`.
 
 Esta métrica está relacionada con la dimensión [Tiempo empleado por visita](../dimensions/time-spent-per-visit.md).
 

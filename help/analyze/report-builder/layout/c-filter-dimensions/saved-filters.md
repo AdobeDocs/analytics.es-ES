@@ -8,7 +8,7 @@ exl-id: 0986b6e3-8708-4513-af8d-523fe7e616a3
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 22%
+ht-degree: 14%
 
 ---
 
@@ -16,6 +16,6 @@ ht-degree: 22%
 
 Puede guardar filtros u otros parámetros en Report Builder y utilizarlos en otras hojas de cálculo o libros. Estos parámetros se guardan en Analytics para garantizar que estén disponibles para otros usuarios de Report Builder en otros equipos.
 
-Los filtros se guardan en el formulario [!UICONTROL Elegir página] conforme se crea el filtro. Para ver un ejemplo de este procedimiento, consulte [Filtros específicos](/help/analyze/report-builder/layout/c-filter-dimensions/t-specific-filters.md).
+Los filtros se guardan en el formulario [!UICONTROL Elegir página] conforme se crea el filtro. Para ver un ejemplo de este procedimiento, vea [Filtros específicos](/help/analyze/report-builder/layout/c-filter-dimensions/t-specific-filters.md).
 
 ![Captura de pantalla del formulario Elegir página y opciones para las páginas más populares, específicas y de filtros guardados.](assets/choose_page_saved.png)

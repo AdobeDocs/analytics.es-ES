@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 79a90e33-00ef-435e-8304-be0cf59ced78
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 60%
+source-wordcount: '86'
+ht-degree: 59%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 60%
 
 En las solicitudes de tabla dinámica y diseño personalizado, es posible anteponer y posponer cadenas o caracteres a las celdas que incluyan valores numéricos o de cadena.
 
-Esta opción está disponible en el [!UICONTROL Asistente para solicitudes: Paso 2] ventana.
+Esta opción está disponible en la ventana [!UICONTROL Asistente para solicitudes: Paso 2].
 
 **Anteponer texto:** añade un prefijo de valores de cadena o numéricos en la celda.
 

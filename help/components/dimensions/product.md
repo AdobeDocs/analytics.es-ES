@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Product
 
-El &quot;producto&quot; [dimensión](overview.md) informa del nombre del producto en la visita. Resulta útil para implementaciones que utilizan la variable `products` y desean ver métricas en torno a los productos, como los principales vendedores o los más visitados. Esta dimensión puede estar en blanco si no tiene ningún producto en el sitio.
+El &quot;producto&quot; [dimension](overview.md) indica el nombre del producto en la visita. Resulta útil para implementaciones que utilizan la variable `products` y desean ver métricas en torno a los productos, como los principales vendedores o los más visitados. Esta dimensión puede estar en blanco si no tiene ningún producto en el sitio.
 
 ## Rellene esta dimensión con datos
 

@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d4e36b69-b5aa-43e5-b394-3b6d93143f15
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 39%
+source-wordcount: '582'
+ht-degree: 38%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 39%
 
 Pasos para agregar métricas y dimensiones a una solicitud.
 
-1. Utilice el [!UICONTROL Asistente para solicitudes: Paso 1] de a [Creación de la solicitud de datos](/help/analyze/report-builder/data-requests/data-requests.md)  luego haga clic en **[!UICONTROL Siguiente]**.
-1. En el [!UICONTROL Asistente para solicitudes: Paso 2] formulario, haga doble clic en las métricas o arrástrelas a la posición deseada.
+1. Use el formulario [!UICONTROL Asistente para solicitudes: paso 1] para [crear la solicitud de datos](/help/analyze/report-builder/data-requests/data-requests.md) y luego haga clic en **[!UICONTROL Siguiente]**.
+1. En el formulario [!UICONTROL Asistente para solicitudes: Paso 2], haga doble clic en las métricas o arrástrelas a la posición que desee.
 
    ![Captura de pantalla que muestra el Asistente para solicitudes: Paso 2 con una flecha que señala desde la lista de métricas a la sección de vista de página deseada.](assets/adding_metrics.png)
 
@@ -34,10 +34,10 @@ Pasos para agregar métricas y dimensiones a una solicitud.
 Tenga en cuenta las siguientes directrices cuando añada métricas y dimensiones.
 
 * Al introducir un término de búsqueda, la lista se actualiza automáticamente para mostrar las métricas que tienen etiquetas que coinciden con el término de búsqueda.
-* La coincidencia distingue entre mayúsculas y minúsculas y es equivalente a *contains* buscar.
+* La coincidencia distingue entre mayúsculas y minúsculas y equivale a una búsqueda *contiene*.
 * Búsquedas de palabras completas y otros indicadores de búsqueda especial (comienza con, termina con, AND, OR, etc.) no son compatibles.
 
-El término de búsqueda se borra al salir del Asistente para solicitudes al hacer clic en [!UICONTROL Finalizar] o [!UICONTROL Cancelar], o vuelva al Asistente para solicitudes: Paso 1, o cambie la categoría Métrica.
+El término de búsqueda se borra al salir del Asistente para solicitudes al hacer clic en [!UICONTROL Finalizar] o [!UICONTROL Cancelar], al volver al Paso 1 del Asistente para solicitudes o al cambiar la categoría de Métrica.
 
 No se borra el término de búsqueda:
 
@@ -59,9 +59,9 @@ Si lo desea, puede ordenar una solicitud por métrica.
 Para ordenar una solicitud por métrica
 
 1. Haga clic en la etiqueta de métrica.
-1. Agregar dimensiones. Añada las dimensiones del mismo modo que agrega las métricas. Consulte los pasos 1 y 2 anteriores.
+1. Añada dimensiones. Añada las dimensiones del mismo modo que agrega las métricas. Consulte los pasos 1 y 2 anteriores.
 
-   En el [!UICONTROL Dimension] pestaña, el sistema muestra dimensiones que se desglosan en cualquier informe base en el que seleccione o que son una clasificación [!UICONTROL Asistente para solicitudes: Paso 1]y en la configuración del grupo de informes. Cuando se coloca una dimensión en las cuadrículas de diseño, esta se elimina de la vista de árbol y se vuelve a calcular la lista de dimensiones restantes disponibles.
+   En la ficha [!UICONTROL Dimension], el sistema muestra las dimensiones que se desglosan o son una clasificación de cualquier informe base seleccionado en el [!UICONTROL Asistente para solicitudes: Paso 1], y en la configuración del grupo de informes. Cuando se coloca una dimensión en las cuadrículas de diseño, esta se elimina de la vista de árbol y se vuelve a calcular la lista de dimensiones restantes disponibles.
 
    La dimensión [!UICONTROL Fecha] se añade automáticamente. Las dimensiones de fecha disponibles cambian según la granularidad seleccionada en el [!UICONTROL Asistente para solicitudes: paso 1]. Los valores válidos son:
 
@@ -74,6 +74,6 @@ Para ordenar una solicitud por métrica
 
 1. Modifique las métricas y las dimensiones configurando las [opciones y los filtros de formato](/help/analyze/report-builder/layout/t-format-display-headers.md).
 1. Haga clic en **[!UICONTROL Finalizar]**.
-En el ejemplo siguiente, las dimensiones están relacionadas con la métrica [!UICONTROL Página]. El [!UICONTROL Dominio de referencia] La dimensión crea un informe de desglose entre [!UICONTROL Página] y [!UICONTROL Dominio de referencia]. La ficha [!UICONTROL Dimensión] solo se actualiza con dimensiones que se pueden añadir a un informe de desglose.
+En el ejemplo siguiente, las dimensiones están relacionadas con la métrica [!UICONTROL Página]. La dimensión [!UICONTROL Dominio de referencia] crea un informe de desglose entre [!UICONTROL Página] y [!UICONTROL Dominio de referencia]. La ficha [!UICONTROL Dimensión] solo se actualiza con dimensiones que se pueden añadir a un informe de desglose.
 
    ![Captura de pantalla que muestra las dimensiones relacionadas con la métrica.](assets/page_pageview_02.png)

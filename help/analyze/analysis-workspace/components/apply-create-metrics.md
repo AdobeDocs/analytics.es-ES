@@ -33,7 +33,7 @@ Adobe ofrece varios tipos de métricas para usar en Analysis Workspace:
 
 ## Uso de métricas en Analysis Workspace
 
-Las métricas se pueden utilizar de varias formas dentro de Analysis Workspace. Para obtener información sobre cómo agregar métricas y otros tipos de componentes a Analysis Workspace, consulte [Uso de componentes en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+Las métricas se pueden utilizar de varias formas dentro de Analysis Workspace. Para obtener información acerca de cómo agregar métricas y otros tipos de componentes a Analysis Workspace, vea [Usar componentes en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 

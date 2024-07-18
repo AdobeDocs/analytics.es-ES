@@ -20,9 +20,9 @@ Las fuentes de datos del ID de transacción son una variación de las fuentes de
 
 >[!NOTE]
 >
->Antes de usar fuentes de datos de ID de transacción, primero debe habilitarlas en [Configuración general de la cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) para el grupo de informes deseado.
+>Antes de usar las fuentes de datos del ID de transacción, primero debe habilitarlo en [Configuración general de cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) para el grupo de informes deseado.
 
-Cuando envía una visita en línea que contiene una [`transactionID`](/help/implement/vars/page-vars/transactionid.md) , el Adobe toma una &quot;instantánea&quot; de todas las variables establecidas o persistentes en ese momento. Si se encuentra un ID de transacción coincidente cargado a través de fuentes de datos, los datos sin conexión y en línea se vinculan.
+Cuando envía una visita en línea que contiene un valor de [`transactionID`](/help/implement/vars/page-vars/transactionid.md), el Adobe toma una &quot;instantánea&quot; de todas las variables configuradas o persistentes en ese momento. Si se encuentra un ID de transacción coincidente cargado a través de fuentes de datos, los datos sin conexión y en línea se vinculan.
 
 Las fuentes de datos del ID de transacción tienen las siguientes propiedades:
 
@@ -37,19 +37,19 @@ Las fuentes de datos del ID de transacción tienen las siguientes propiedades:
 Por ejemplo:
 
 1. Envía una vista de página desde la AppMeasurement donde:
-   * `eVar1` igual a `blue`
-   * `eVar2` igual a `water`
-   * `events` igual a `event1`
-   * `transactionID` igual a `1256`
+   * `eVar1` es igual a `blue`
+   * `eVar2` es igual a `water`
+   * `events` es igual a `event1`
+   * `transactionID` es igual a `1256`
 2. Una vez que se recopila y procesa la visita, se carga una fuente de datos de ID de transacción donde:
-   * `eVar1` igual a `yellow`
-   * `eVar3` igual a `bird`
-   * `events` igual a `event2`
-   * `transactionID` igual a `1256`
+   * `eVar1` es igual a `yellow`
+   * `eVar3` es igual a `bird`
+   * `events` es igual a `event2`
+   * `transactionID` es igual a `1256`
 3. Una vez procesada la visita de las fuentes de datos, el informe se verá en el espacio de trabajo. Los datos mostrarían lo siguiente:
-   * `eVar1` igual a `yellow`
-   * `eVar2` igual a `water`
-   * `eVar3` igual a `bird`
-   * `events` igual a `event2`
+   * `eVar1` es igual a `yellow`
+   * `eVar2` es igual a `water`
+   * `eVar3` es igual a `bird`
+   * `events` es igual a `event2`
 
-El valor eVar 1 `blue` y el `event1` Las métricas de no están presentes en los informes de, ya que la visita del ID de transacción sobrescribió esos valores respectivos.
+El valor de eVar 1 `blue` y la métrica `event1` no están presentes en los informes, ya que la visita del ID de transacción sobrescribió esos valores respectivos.

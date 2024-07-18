@@ -21,7 +21,7 @@ Esto significa que los servidores de Adobe “insertan” el archivo en sus serv
 
 [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) y [la fuente de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=es) pueden insertar datos mediante un SFTP.
 
-Report Builder **no puede** insertar datos mediante SFTP.
+El Report Builder **no puede** insertar datos a través de SFTP.
 
 ## Entrega mediante extracción {#section_FA29FAEF02FE40B8B32452146A036F48}
 

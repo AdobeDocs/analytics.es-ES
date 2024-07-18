@@ -6,7 +6,7 @@ exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -16,9 +16,9 @@ Las claves no clasificadas se agrupan en informes de clasificación como un solo
 
 ## Claves no clasificadas {#concept_233E51DDF3084FF7B7EA89381C73C5FF}
 
-Claves no clasificadas se agrupan en informes de clasificación como un solo elemento de línea etiquetado como *`None`*. Puede resultar útil cambiar el nombre *`None`* por otro más descriptivo.
+Las claves no clasificadas se agrupan en informes de clasificación como un solo elemento de línea etiquetado como *`None`*. Puede resultar útil cambiar el nombre *`None`* por otro más descriptivo.
 
-Por ejemplo, imaginemos que los códigos de seguimiento contienen información que define el tipo de campaña móvil con el que se asocian. Se usa la clasificación (Tipo de campaña de móvil) para agrupar estos códigos de seguimiento en categorías (Web móvil, Aplicación iOS, Aplicación Android, etc.). Las campañas que no sean campañas móviles no se clasificarán con el tipo de campaña móvil. Todos los códigos de seguimiento no clasificados se agruparán como *`None`* en el informe [!UICONTROL Tipo de campaña móvil].
+Por ejemplo, imaginemos que los códigos de seguimiento contienen información que define el tipo de campaña móvil con el que se asocian. Se usa la clasificación (Tipo de campaña de móvil) para agrupar estos códigos de seguimiento en categorías (Web móvil, Aplicación iOS, Aplicación Android, etc.). Las campañas que no sean campañas móviles no se clasificarán con el tipo de campaña móvil. Todos los códigos de seguimiento no clasificados se agruparán en *`None`* en el informe [!UICONTROL Tipo de campaña móvil].
 
 ## Cambiar el nombre de la clave de clasificación Ninguno {#task_8CD595DA82AA44D08CEF002B588C3C30}
 

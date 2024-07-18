@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: e51eff7729f94e60239f34c43f77a533fa53910a
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1310'
 ht-degree: 85%
 
 ---
@@ -26,8 +26,8 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | [Barra](/help/analyze/analysis-workspace/visualizations/bar.md)<p>![Icono de barra](assets/Smock_GraphBarVertical_18_N.svg)</p> | Muestra las barras verticales que representan los distintos valores de una o varias métricas. |
 | [Gráfico de viñetas](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)<p>![Icono de viñeta](assets/Smock_GraphBullet_18_N.svg)</p> | Muestra cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos). |
 | [Tabla de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![Icono de tabla de cohorte](assets/Smock_TextNumbered_18_N.svg)</p> | Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte es útil para el análisis de retención, pérdida o latencia. |
-| [Anillo](/help/analyze/analysis-workspace/visualizations/donut.md)<p>![Icono Anillo](assets/Smock_GraphDonut_18_N.svg)</p> | Similar a un gráfico circular, esta visualización muestra los datos como partes o segmentos de un todo. |
-| [Abandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![Icono de visitas en orden previsto](assets/Smock_ConversionFunnel_18_N.svg)</p> | Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
+| [Anillo](/help/analyze/analysis-workspace/visualizations/donut.md)<p>![Icono de anillo](assets/Smock_GraphDonut_18_N.svg)</p> | Similar a un gráfico circular, esta visualización muestra los datos como partes o segmentos de un todo. |
+| [Abandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![Icono de visitas en el orden previsto](assets/Smock_ConversionFunnel_18_N.svg)</p> | Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas. Se puede establecer en secuencias posibles o exactas |
 | [Flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)<p>![Icono de flujo](assets/flow-icon.png)</p> | Muestra las rutas del cliente en sus sitios web y aplicaciones. |
 | [Tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![Icono de tabla de forma libre](assets/Smock_ViewTable_18_N.svg)</p> | Una tabla de forma libre no es solamente una tabla de datos, sino también una visualización interactiva. Es la base del análisis de datos en Workspace. |
 | [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![Icono de histograma](assets/Smock_GraphHistogram_18_N.svg)</p> | Un histograma agrupa a visitantes, visitas o visitas individuales en contenedores en función de un volumen de métrica. |
@@ -35,12 +35,12 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | [Resumen de métricas clave](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![Icono de métrica clave](assets/key-metric-icon.png)</p> | Muestra las tendencias de una métrica dentro de un solo periodo de tiempo o permite comparar el rendimiento de las métricas en dos periodos de tiempo. |
 | [Líneas](/help/analyze/analysis-workspace/visualizations/line.md)<p>![Icono de línea](assets/Smock_GraphTrend_18_N.svg)</p> | Representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas utiliza el tiempo a lo largo del eje x. |
 | [Mapa](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![Icono de mapa](assets/map-icon.png)</p> | Permite crear un mapa visual de cualquier métrica (incluidas las métricas calculadas). |
-| [Diagrama de dispersión](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![Icono Diagrama de puntos](assets/Smock_GraphScatter_18_N.svg)</p> | Muestra la relación entre los elementos de dimensión y hasta tres métricas. |
+| [Diagrama de dispersión](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![Icono de diagrama de dispersión](assets/Smock_GraphScatter_18_N.svg)</p> | Muestra la relación entre los elementos de dimensión y hasta tres métricas. |
 | [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![Icono de número de resumen](assets/summary-number-icon.png)</p> | Muestra la celda seleccionada como 1 número grande. |
 | [Cambio de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![Icono de cambio de resumen](assets/summary-change-icon.png)</p> | Muestra el cambio entre las celdas seleccionadas como 1 gran número/porcentaje. |
 | [Texto](/help/analyze/analysis-workspace/visualizations/text.md)<p>![Icono de texto](assets/Smock_Text_18_N.svg)</p> | Le permite agregar texto definido por el usuario a Workspace. Útil para añadir contexto adicional a los análisis y perspectivas, además de aprovechar las descripciones de paneles/visualizaciones |
 | [Gráfico de rectángulos](/help/analyze/analysis-workspace/visualizations/treemap.md)<p>![Icono de gráfico de rectángulos](assets/Smock_GraphTree_18_N.svg)</p> | Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados. |
-| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md)<p>![Icono de Venn](assets/venn-icon.png)</p> | Utiliza círculos para mostrar la superposición de métricas de hasta 3 segmentos. |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md)<p>![Icono Venn](assets/venn-icon.png)</p> | Utiliza círculos para mostrar la superposición de métricas de hasta 3 segmentos. |
 
 ## Adición de visualizaciones a un panel
 
@@ -48,19 +48,19 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 
 1. Utilice cualquiera de los siguientes métodos para añadir la visualización:
 
-   * En el carril izquierdo, seleccione **Visualizaciones** icono <!-- add icon -->A continuación, arrastre una visualización al panel donde desee agregarla.
+   * En el carril izquierdo, seleccione el icono **Visualizaciones** <!-- add icon --> y, a continuación, arrastre una visualización al panel donde desee agregarla.
 
      ![](assets/viz-rail.png)
 
-   * En el panel donde desee añadir la visualización, seleccione **Plus** y, a continuación, elija el icono que representa la visualización que desea añadir. Pase el ratón sobre el icono de cada visualización para ver su nombre.
+   * En el panel donde desea agregar la visualización, seleccione el icono **Más** y, a continuación, elija el icono que representa la visualización que desea agregar. Pase el ratón sobre el icono de cada visualización para ver su nombre.
 
-     ![Botón para añadir una visualización](assets/visualization-add-to-panel.png)
+     ![Botón para agregar una visualización](assets/visualization-add-to-panel.png)
 
-   * Añadir un [panel en blanco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=es)A continuación, elija la visualización que desee añadir.
+   * Agregue un [panel en blanco](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=es) y, a continuación, elija la visualización que desee agregar.
 
      ![Panel en blanco](assets/blank_panel.png)
 
-   * Haga clic con el botón derecho en un panel existente del proyecto de Analysis Workspace y seleccione [!UICONTROL **Duplicar visualización**] o [!UICONTROL **Copiar visualización**].
+   * Haga clic con el botón derecho en un panel existente del proyecto de Analysis Workspace y, a continuación, seleccione [!UICONTROL **Duplicar visualización**] o [!UICONTROL **Copiar visualización**].
 
 ## Personalización de la configuración de visualización
 

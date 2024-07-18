@@ -17,13 +17,13 @@ Para implementar Analytics para dispositivos móviles, utilice el SDK móvil de 
 
 ## SDK para móviles de Adobe Experience Platform
 
-* [Repositorio del SDK para iOS](https://github.com/adobe/aepsdk-analytics-ios)
-* [Repositorio del SDK para Android](https://github.com/adobe/aepsdk-analytics-android)
+* [Repositorio de SDK de iOS](https://github.com/adobe/aepsdk-analytics-ios)
+* [Repositorio de SDK de Android](https://github.com/adobe/aepsdk-analytics-android)
 * [Documentación](https://sdkdocs.com/)
 
 ## SDK para móviles versión 4
 
 >[!CAUTION]
 >
->La compatibilidad con los SDK Mobile de la versión 4 finalizó el 31 de agosto de 2021. Consulte [Preguntas frecuentes sobre el fin de vida útil de Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) para obtener más información.
+>La compatibilidad con los SDK Mobile de la versión 4 finalizó el 31 de agosto de 2021. Consulte las [Preguntas frecuentes sobre el fin de vida útil de Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) para obtener más información.
 

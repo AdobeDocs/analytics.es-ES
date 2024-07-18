@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Mes del año
 
-El &#39;Mes del año&#39; [dimensión](overview.md) registra el mes de cualquier año dado como un elemento de dimensión. Este informe es valioso si desea un informe desglosado por mes del año, pero no desea una fecha estática como elementos de dimensión. Puede acumular informes año tras año por mes, de modo que los datos de enero de este año se sumen con los datos de enero del año pasado en el mismo elemento de dimensión.
+La [dimensión](overview.md) &quot;Mes del año&quot; indica el mes de cualquier año dado como un elemento de dimensión. Este informe es valioso si desea un informe desglosado por mes del año, pero no desea una fecha estática como elementos de dimensión. Puede acumular informes año tras año por mes, de modo que los datos de enero de este año se sumen con los datos de enero del año pasado en el mismo elemento de dimensión.
 
 ## Rellene esta dimensión con datos
 

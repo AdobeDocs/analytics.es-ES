@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Referente
 
-El &#39;referente&#39; [dimensión](overview.md) informa de las direcciones URL en las que se encontraban los visitantes al hacer clic para llegar al sitio. Esta dimensión es útil para comprender qué direcciones URL específicas generan la mayor cantidad de tráfico en el sitio. Debe existir un vínculo en la dirección URL externa y un visitante debe hacer clic en él para que se muestre el elemento de dimensión.
+La [dimensión](overview.md) &quot;Remitente del reenvío&quot; indica en qué direcciones URL se encontraban los visitantes al hacer clic para llegar al sitio. Esta dimensión es útil para comprender qué direcciones URL específicas generan la mayor cantidad de tráfico en el sitio. Debe existir un vínculo en la dirección URL externa y un visitante debe hacer clic en él para que se muestre el elemento de dimensión.
 
 >[!IMPORTANT]
 >

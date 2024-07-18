@@ -25,13 +25,13 @@ En el paso 2 del Asistente de solicitudes, puede filtrar y aplicar métricas cal
 
 ## Filtrar métricas calculadas {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filtrar** métricas calculadas haciendo clic en el icono Filtro:  ![Captura de pantalla de las opciones de filtro que muestran los campos Aplicación, Usuario y Proyecto.](/help/admin/admin/assets/filter.png)
+**Filtrar** métricas calculadas haciendo clic en el icono Filtro: ![Captura de pantalla de las opciones de filtro que muestran los campos Aplicación, Usuario y Proyecto.](/help/admin/admin/assets/filter.png)
 
 El cuadro de diálogo Filtros avanzados se rellena con métricas calculadas y estándar.
 
 Los filtros disponibles incluyen:
 
-![Captura de pantalla que muestra las opciones de Filtros avanzados que se describen en la siguiente tabla.](assets/advanced_filters.png)
+![Captura de pantalla que muestra las opciones de filtros avanzados que se describen en la tabla siguiente.](assets/advanced_filters.png)
 
 | Nombre del filtro | Descripción |
 |---|---|

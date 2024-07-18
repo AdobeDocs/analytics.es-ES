@@ -15,7 +15,7 @@ ht-degree: 62%
 
 Describe cómo crear informes de ruta con filtros predefinidos.
 
-Report Builder no ofrece informes de ruta como informes independientes, pero puede crearlos a través de la variable **[!UICONTROL Añadir solicitud dependiente]** > **[!UICONTROL Ruta]** menús contextuales. Están disponibles los siguientes informes:
+El Report Builder no ofrece informes de rutas como informes independientes, pero puedes crearlos en los menús contextuales **[!UICONTROL Agregar solicitud dependiente]** > **[!UICONTROL Ruta]**. Están disponibles los siguientes informes:
 
 * Ruta > Página Visitas
 * Ruta > Ruta de entrada
@@ -27,9 +27,9 @@ Report Builder no ofrece informes de ruta como informes independientes, pero pue
 * Ruta > Ruta de entrada > Como página de entrada
 * Ruta > Ruta de salida > Como página de salida
 
-1. Seleccione varias filas de una solicitud existente y haga clic con el botón derecho del ratón **[!UICONTROL Añadir solicitud dependiente]** > **[!UICONTROL Ruta]**. Debe seleccionar al menos tres filas si desea ver la variable **[!UICONTROL Abandonos de página]** elemento de menú.
+1. Seleccione varias filas de una solicitud existente y, a continuación, haga clic con el botón derecho en **[!UICONTROL Agregar solicitud dependiente]** > **[!UICONTROL Ruta]**. Debe seleccionar al menos tres filas si desea ver el elemento de menú **[!UICONTROL Abandonos de página]**.
 
-   ![Captura de pantalla que muestra tres filas seleccionadas con la opción Añadir solicitud dependiente seleccionada.](assets/dependen_request.png)
+   ![Captura de pantalla que muestra tres filas seleccionadas con la opción Agregar solicitud dependiente seleccionada.](assets/dependen_request.png)
 
 2. Seleccione el filtro predefinido, por ejemplo **[!UICONTROL Página anterior]**.
 

@@ -71,7 +71,7 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
      <li>Jerarquía (todas las dimensiones que comienzan con Jerarquía) </li> 
      <li>Profundidad de la visita </li> 
      <li>Tipo de visita </li> 
-     <li>Hora Día </li> 
+     <li>Hora del día </li> 
      <li>Mes del año </li> 
      <li>Páginas no encontradas </li> 
      <li>Búsqueda de pago </li> 

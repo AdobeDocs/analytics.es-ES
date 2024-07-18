@@ -34,7 +34,7 @@ Se describe cómo calcular métricas habituales mediante fuentes de datos.
 
 >[!TIP]
 >
->Las irregularidades de Internet, las irregularidades del sistema o el uso del ID de visitante personalizado no suelen utilizar los mismos valores `visit_num` para las distintas visitas. Si bien es opcional, utilice `visit_start_time_gmt` al contar las visitas, para asegurarse de que se cuentan dichas visitas.
+>Las irregularidades de Internet, las irregularidades del sistema o el uso del ID de visitante personalizado no suelen utilizar los mismos valores `visit_num` para las distintas visitas. Si bien es opcional, use `visit_start_time_gmt` al contar las visitas para asegurarse de que el recuento es correcto.
 
 ## Visitantes
 

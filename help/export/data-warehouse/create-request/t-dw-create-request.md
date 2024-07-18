@@ -6,7 +6,7 @@ exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
 source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 25%
+ht-degree: 35%
 
 ---
 
@@ -18,13 +18,13 @@ Hay varias opciones de configuración disponibles al crear una solicitud de Data
 
 1. En Adobe Analytics, seleccione **[!UICONTROL Herramientas]** > **[!UICONTROL Data Warehouse]**.
 
-1. En el [!UICONTROL **Data Warehouse**] página, seleccione [!UICONTROL **Añadir**].
+1. En la página [!UICONTROL **Data Warehouse**], seleccione [!UICONTROL **Agregar**].
 
-   ![Botón para añadir una solicitud](assets/dw-add-request.png)
+   ![Botón para agregar una solicitud](assets/dw-add-request.png)
 
    Se muestra la página Nueva solicitud de Data Warehouse.
 
-   ![Pestaña Configuración general](assets/dw-general-settings.png)
+   ![Ficha de configuración general](assets/dw-general-settings.png)
 
 ## Completar la solicitud
 

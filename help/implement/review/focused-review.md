@@ -13,7 +13,7 @@ ht-degree: 74%
 
 # Revisión específica (después de cada lanzamiento de sitio web)
 
-¿Por qué debería revisar la implementación cada pocos meses? Para poder abordar cualquier problema con la calidad de los datos mientras sea pequeño. Si realiza esta revisión específica de forma consistente después de cada lanzamiento de sitio web, verá que su [Reseñas completas](/help/implement/review/full-review.md) son mucho más fáciles. También evitará que pequeños problemas se conviertan en grandes problemas de datos que podrían afectar negativamente a la confianza de las partes interesadas.
+¿Por qué debería revisar la implementación cada pocos meses? Para poder abordar cualquier problema con la calidad de los datos mientras sea pequeño. Si realiza esta revisión específica de manera consistente después de cada lanzamiento de sitio web, verá que sus [revisiones completas](/help/implement/review/full-review.md) bianuales le resultarán mucho más sencillas. También evitará que pequeños problemas se conviertan en grandes problemas de datos que podrían afectar negativamente a la confianza de las partes interesadas.
 
 ## 1. Comience con los 5 KPI principales
 
@@ -21,9 +21,9 @@ Conocer los 5 indicadores de rendimiento clave (KPI) más importantes le ayudar�
 
 ## 2. Asegúrese de que las métricas y las variables de KPI siguen funcionando correctamente
 
-Recuerde que las actualizaciones de código que se realizan con el tiempo pueden tener ramificaciones no deseadas. Debe asegurarse de que todas las métricas y dimensiones asociadas con los [5 KPI principales](/help/implement/review/define-kpis.md) siguen funcionando correctamente. Lo ideal es que esto se haga justo después de la publicación de un sitio web; si no lo ha hecho en los últimos meses, hágalo *now*. Para ello:
+Recuerde que las actualizaciones de código que se realizan con el tiempo pueden tener ramificaciones no deseadas. Debe asegurarse de que todas las métricas y dimensiones asociadas con los [5 KPI principales](/help/implement/review/define-kpis.md) siguen funcionando correctamente. Lo ideal es hacer esto justo después de la publicación de un sitio web; si no lo has hecho en los últimos meses, hazlo *ahora*. Para ello:
 
-* Cree paneles para ver las vistas de tendencias por hora de estas métricas y variables esenciales (o configure [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) para cada métrica). A continuación, monitorícelas durante uno o dos días para asegurarse de que obtiene los datos esperados y de que los datos son correctos. Busque puntos de inflexión. Prepárese para solucionar todos los posibles problemas críticos de inmediato. Si encuentra alguna discrepancia, consulte la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar el motivo.
+* Cree paneles para ver las vistas de tendencias por hora de estas métricas y variables esenciales (o configure [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=es) para cada métrica). A continuación, monitorícelas durante uno o dos días para asegurarse de que obtiene los datos esperados y de que los datos son correctos. Busque puntos de inflexión. Prepárese para solucionar todos los posibles problemas críticos de inmediato. Si encuentra alguna discrepancia, consulte la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar el motivo.
 * Vuelva a ejecutar el [panel de mantenimiento de Analytics](https://express.adobe.com/page/tnNQGNlfzta3b/) para monitorizar las tendencias generales de las métricas y variables de KPI.
 
 *Para obtener más información sobre cómo asegurarse de que las métricas y variables funcionan correctamente, [lea estas sugerencias](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) de la campeona de Adobe Analytics, Sarah Owen.*
@@ -36,7 +36,7 @@ Asegúrese de que la versión más reciente del sitio no haya repercutido en la 
 
 Si ha añadido o cambiado recientemente métricas o variables, deberá actualizar el Documento de requisitos de empresa (BRD) y la Referencia de diseño de soluciones (SDR).
 
-Si no dispone de documentación sobre la implementación, exporte una lista de variables y cree su BRD o SDR con [esta plantilla](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=es#implementation).
+Si no tiene documentación sobre la implementación, exporte una lista de variables y cree su BRD o SDR con [esta plantilla](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=es#implementation).
 
 ## 5. Aborde inmediatamente cualquier brecha que encuentre en la calidad de los datos
 

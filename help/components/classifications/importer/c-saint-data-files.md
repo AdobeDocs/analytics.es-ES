@@ -6,7 +6,7 @@ exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: eb6703dc4079678020954984905ee210cbcbbf8f
 workflow-type: tm+mt
 source-wordcount: '1787'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Los archivos de datos deben cumplir las siguientes reglas estructurales:
 
 * Las clasificaciones no pueden contener un acento circunflejo (^) porque este carácter se usa para denotar una subclasificación.
 * Utilice los guiones con cuidado. Por ejemplo, si se utiliza un guión (-) en un término de Social, Social interpretará el guión como un operador [!DNL Not] (el signo menos). Por ejemplo, si especifica *`fragrance-free`* como término al usar la importación, Social reconoce el término como sin fragancia *`minus`* y recopila publicaciones que mencionan *`fragrance`* pero no *`free`*.
-* Para clasificar los datos de los informes, se aplican límites de caracteres. Por ejemplo, si carga un archivo de texto de clasificaciones para productos ( *`s.products`*) con nombres de productos superiores a 100 caracteres (bytes), los productos no se mostrarán en los informes. Los códigos de seguimiento y todas las variables de conversión personalizadas (eVars) admiten un máximo de 255 bytes. Esta directiva también se extiende a los valores de columna de clasificación y subclasificación, que están sujetos al mismo límite de 255 bytes.
+* Para clasificar los datos de los informes, se aplican límites de caracteres. Por ejemplo, si carga un archivo de texto de clasificaciones para productos ( *`s.products`*) con nombres de productos superiores a 100 caracteres (bytes), los productos no se mostrarán en los informes. Los códigos de seguimiento y todas las variables de conversión personalizadas (eVars) admiten un máximo de 255 bytes. Esta directiva también se extiende a los valores de columna de clasificación y subclasificación, que están sujetos al mismo límite de 255 bytes.
 * Archivo de datos delimitado por tabuladores (crear el archivo de plantilla con un editor de texto o una aplicación de hoja de cálculo).
 * Extensión de archivo [!DNL .tab] o [!DNL .txt].
 * El signo de almohadilla (#) identifica la línea como comentario del usuario. Adobe ignora las líneas que comienzan por #.

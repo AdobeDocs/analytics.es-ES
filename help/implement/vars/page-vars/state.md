@@ -15,7 +15,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->Esta variable desaparece y no es una dimensión disponible en Analysis Workspace. Utilice el [Estados estadounidenses](/help/components/dimensions/us-states.md) en su lugar, qué AppMeasurement se recopila automáticamente en función de la ubicación del visitante.
+>Esta variable desaparece y no es una dimensión disponible en Analysis Workspace. En su lugar, utilice la dimensión [Estados de EE. UU.](/help/components/dimensions/us-states.md), que el AppMeasurement recopila automáticamente en función de la ubicación del visitante.
 
 En versiones anteriores de Adobe Analytics, la variable `state` se utilizaba cuando los visitantes rellenaban la información de envío en sitios de venta al por menor. Desde el punto de vista funcional, es idéntico a una prop, pero no está disponible en Analysis Workspace.
 
@@ -27,7 +27,7 @@ Puede establecer el estado al configurar la extensión de Analytics (variables g
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
-5. Configure las variables [!UICONTROL Extensión] lista desplegable para Adobe Analytics y la variable [!UICONTROL Tipo de acción] hasta [!UICONTROL Establecer variables].
+5. Establezca la lista desplegable [!UICONTROL Extension] en Adobe Analytics y [!UICONTROL Action Type] en [!UICONTROL Set Variables].
 6. Busque la sección [!UICONTROL Estado].
 
 Puede establecer el estado en cualquier valor de cadena o elemento de datos.

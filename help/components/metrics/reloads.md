@@ -12,7 +12,7 @@ ht-degree: 74%
 
 # Recargas
 
-Las &quot;Recargas&quot; [métrica](overview.md) muestra el número de veces que un elemento de dimensión estuvo presente durante una recarga. La forma más común de activar una recarga es a través de un visitante que actualiza su explorador.
+La [métrica](overview.md) &quot;Recargas&quot; muestra el número de veces que un elemento de dimensión estuvo presente durante una recarga. La forma más común de activar una recarga es a través de un visitante que actualiza su explorador.
 
 ## Cálculo de esta métrica
 

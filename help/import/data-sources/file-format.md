@@ -15,10 +15,10 @@ ht-degree: 5%
 
 Los archivos de fuente de datos tienen las siguientes propiedades:
 
-* El archivo se encuentra en `.txt` formato.
-* Las líneas comentadas comienzan con &#39;`#`&#39;, y son opcionales.
+* El archivo tiene el formato `.txt`.
+* Las líneas comentadas comienzan con &#39;`#`&#39; y son opcionales.
 * La primera línea sin comentarios contiene los encabezados del archivo.
-* El primer valor de cada fila es la fecha, que utiliza el formato `MM/DD/YYYY` o `MM/DD/YYYY/HH/mm/SS`.
+* El primer valor de cada fila es la fecha, que usa el formato `MM/DD/YYYY` o `MM/DD/YYYY/HH/mm/SS`.
 * Los valores de cada fila, incluidos los encabezados, están delimitados por tabuladores.
 * Cada fila debe tener al menos una dimensión y una métrica.
 
@@ -33,7 +33,7 @@ El Adobe ignora todas las filas de comentarios cuando se procesa el archivo, por
 
 ## Encabezados
 
-Al cargar archivos de fuente de datos, se requieren encabezados de columna. Estos encabezados de columna no distinguen entre mayúsculas y minúsculas, pero son necesarios espacios obligatorios (por ejemplo, `eVar1` es un encabezado no válido, mientras `EVAR 1` es válido). Los encabezados de columna se aplican a todos los grupos de informes. Utilice las siguientes tablas para asegurarse de que cada encabezado del archivo de fuente de datos está configurado correctamente.
+Al cargar archivos de fuente de datos, se requieren encabezados de columna. Estos encabezados de columna no distinguen entre mayúsculas y minúsculas, pero se necesitan espacios obligatorios (por ejemplo, `eVar1` es un encabezado no válido, mientras que `EVAR 1` es válido). Los encabezados de columna se aplican a todos los grupos de informes. Utilice las siguientes tablas para asegurarse de que cada encabezado del archivo de fuente de datos está configurado correctamente.
 
 >[!TIP]
 >
@@ -43,8 +43,8 @@ Al cargar archivos de fuente de datos, se requieren encabezados de columna. Esto
 | --- | --- |
 | [Categoría](/help/components/dimensions/category.md) | `Category` |
 | [eVar 1 - eVar 250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
-| [Canal de marketing](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
-| [Detalles de canal de marketing](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
+| [Canal de mercadotecnia](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
+| [Detalles de canal de mercadotecnia](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
 | [Producto](/help/components/dimensions/product.md) | `Product` |
 | [Código de seguimiento](/help/components/dimensions/tracking-code.md) | `Tracking Code` |
 | [ID de transacción](/help/implement/vars/page-vars/transactionid.md) | `transactionID` |
@@ -68,11 +68,11 @@ Los Dimension y las métricas van a la misma fila de encabezado.
 
 {style="table-layout:auto"}
 
-El Adobe no admite fuentes de datos para ninguna otra dimensión o métrica. Si se requieren variables que superen lo enumerado en las tablas anteriores, considere la posibilidad de utilizar la variable [API de inserción masiva de datos](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) en su lugar.
+El Adobe no admite fuentes de datos para ninguna otra dimensión o métrica. Si se requieren variables que vayan más allá de las enumeradas en las tablas anteriores, considere la posibilidad de usar la [API de inserción de datos en lotes](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) en su lugar.
 
 ## Fecha
 
-El primer valor de cada fila **debe** sea la fecha. El formato de fecha debe tener uno de los siguientes formatos:
+El primer valor de cada fila **debe** ser la fecha. El formato de fecha debe tener uno de los siguientes formatos:
 
 * **`MM/DD/YYYY/HH/mm/SS`**
 * **`MM/DD/YYYY`**

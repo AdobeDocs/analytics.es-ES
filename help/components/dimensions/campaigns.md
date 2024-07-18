@@ -12,7 +12,7 @@ ht-degree: 83%
 
 # Campañas
 
-Las &quot;Campañas&quot; [dimensión](overview.md) puede hacer referencia a:
+La dimensión [Campañas](overview.md) puede hacer referencia a:
 
 * Una [clasificación](../classifications/c-classifications.md) creada automáticamente en algunos grupos de informes. Se basa en la dimensión de [código de seguimiento](tracking-code.md).
 * La dimensión [código de seguimiento](tracking-code.md), que utiliza la variable de implementación de [campaña](/help/implement/vars/page-vars/campaign.md).

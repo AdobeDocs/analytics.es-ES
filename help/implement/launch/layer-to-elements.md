@@ -30,8 +30,8 @@ Los [elementos de datos](https://experienceleague.adobe.com/docs/experience-plat
    ![crear elemento de datos](assets/createelement.png)
 
 1. Escriba un nombre para el elemento de datos. Puede ser una etiqueta simple que corresponde a una variable de JavaScript en la capa de datos que desee rastrear.
-1. En el **[!UICONTROL Extensión]** , seleccione la opción **[!UICONTROL Núcleo]**.
-1. En el **[!UICONTROL Tipo de elemento de datos]** , seleccione la opción **[!UICONTROL Variable JavaScript]**. Aparece un campo de texto a la derecha que le permite introducir la variable JavaScript para asignarla a este elemento de datos.
+1. En la lista desplegable **[!UICONTROL Extensión]**, seleccione **[!UICONTROL Principal]**.
+1. En la lista desplegable **[!UICONTROL Tipo de elemento de datos]**, seleccione **[!UICONTROL Variable de JavaScript]**. Aparece un campo de texto a la derecha que le permite introducir la variable JavaScript para asignarla a este elemento de datos.
 1. Introduzca la variable de JavaScript que desee, normalmente dentro de la capa de datos. Por ejemplo, si la capa de datos de su organización coincide estrechamente con la práctica recomendada de Adobe, podría ser un valor de `digitalData.page.pageInfo.pageName`. Puede utilizar la consola del explorador para validar la sintaxis y los valores de las variables de JavaScript.
 1. Haga clic en **[!UICONTROL Guardar]**.
 

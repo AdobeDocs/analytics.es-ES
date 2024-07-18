@@ -15,13 +15,13 @@ ht-degree: 65%
 
 Cada vez que se envía una llamada de seguimiento de vínculos a Adobe, los servidores de recopilación de datos detectan automáticamente la dirección URL. Utilice la variable `linkURL` para anular la dirección URL detectada.
 
-No hay dimensiones en Analysis Workspace que informen sobre esta variable. Se rellena el `page_event_var1` columna en [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md).
+No hay dimensiones en Analysis Workspace que informen sobre esta variable. Rellena la columna `page_event_var1` en [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md).
 
 ## Vincular URL mediante el SDK web
 
 La dirección URL del vínculo está asignada a las siguientes variables:
 
-* [Objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
+* [objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `web.webInteraction.URL`
 * [Objeto de datos](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.linkURL` o `data.__adobe.analytics.pev1`
 
 ## URL de vínculo con la extensión Adobe Analytics

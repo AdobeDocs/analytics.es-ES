@@ -16,7 +16,7 @@ Los conjuntos de clasificaciones proporcionan una interfaz única para administr
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificaciones]**
 
-Debe ser administrador de productos o pertenecer a un perfil de productos que contenga el elemento de permiso [!UICONTROL Herramientas de grupos de informes] > [!UICONTROL Clasificaciones] para ver este elemento de menú. Tenga en cuenta que, mientras que las interfaces de administración de clasificaciones anteriores están en la [!UICONTROL Administrador] , los conjuntos de clasificaciones se encuentran en la sección [!UICONTROL Componentes] menú.
+Debe ser administrador de productos o pertenecer a un perfil de productos que contenga el elemento de permiso [!UICONTROL Herramientas de grupos de informes] > [!UICONTROL Clasificaciones] para ver este elemento de menú. Tenga en cuenta que mientras que las interfaces de administración de clasificaciones anteriores están en el menú [!UICONTROL Administrador], los conjuntos de clasificaciones están en el menú [!UICONTROL Componentes].
 
 ## Mejoras
 

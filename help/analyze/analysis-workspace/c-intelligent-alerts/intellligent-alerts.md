@@ -7,7 +7,7 @@ exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: a012aca08740428671f216793dbd12aa15f21448
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 Las alertas inteligentes (o simplemente &quot;alertas&quot;) de Adobe Analytics le permiten recibir notificaciones inmediatamente cuando se producen eventos anómalos en sus datos.
 
-Puede definir alertas para que se activen en función de umbrales de anomalías, porcentajes modificados o puntos de datos específicos. Las alertas proporcionan controles granulares que se integran con [Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), que se activa cuando más los necesita.
+Puede definir alertas para que se activen en función de umbrales de anomalías, porcentajes modificados o puntos de datos específicos. Las alertas proporcionan controles granulares que se integran con [Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) y se activan cuando más los necesita.
 
 Las alertas inteligentes le permiten:
 
@@ -39,7 +39,7 @@ Para obtener más información, consulte [Técnicas estadísticas utilizadas en 
 
 ## Creación de alertas
 
-Para obtener información sobre cómo crear alertas en Adobe Analytics, consulte [Creación de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
+Para obtener información sobre cómo crear alertas en Adobe Analytics, consulte [Crear alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
 
 >[!IMPORTANT]
 >
@@ -49,4 +49,4 @@ Para obtener información sobre cómo crear alertas en Adobe Analytics, consulte
 
 Puede administrar las alertas existentes en el Administrador de alertas. Puede realizar varias tareas de administración en las alertas, como etiquetado, cambio de nombre, eliminación, etc.
 
-Para obtener más información sobre cómo administrar las alertas existentes en Adobe Analytics, consulte [Administración de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
+Para obtener más información sobre cómo administrar las alertas existentes en Adobe Analytics, consulte [Administrar alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).

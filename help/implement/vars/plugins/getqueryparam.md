@@ -17,17 +17,17 @@ ht-degree: 73%
 
 El complemento `getQueryParam` le permite extraer el valor de cualquier parámetro de cadena de consulta contenido en una dirección URL. Resulta útil para extraer códigos de campaña, tanto internos como externos, de las direcciones URL de las páginas de aterrizaje. También resulta útil al extraer términos de búsqueda u otros parámetros de cadena de consulta.
 
-Este complemento proporciona funciones sólidas para analizar direcciones URL complejas, incluidos hashes y direcciones URL que contienen varios parámetros de cadena de consulta. Si solo necesita parámetros de cadena de consulta simples, Adobe recomienda utilizar las funciones de parámetro de URL mediante el SDK web, la extensión de Adobe Analytics o el [`Util.getQueryParam()`](../functions/util-getqueryparam.md) método incluido en el AppMeasurement.
+Este complemento proporciona funciones sólidas para analizar direcciones URL complejas, incluidos hashes y direcciones URL que contienen varios parámetros de cadena de consulta. Si solo necesita parámetros de cadena de consulta simples, Adobe recomienda utilizar las características de parámetro de URL mediante el SDK web, la extensión de Adobe Analytics o el método [`Util.getQueryParam()`](../functions/util-getqueryparam.md) incluido en el AppMeasurement.
 
 ## Instalación del complemento con la extensión del SDK web
 
 Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con el SDK web.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Clic **[!UICONTROL Etiquetas]** a la izquierda, haga clic en la propiedad de etiqueta que desee.
-1. Clic **[!UICONTROL Extensiones]** a la izquierda y, a continuación, haga clic en **[!UICONTROL Catálogo]** pestaña
-1. Busque e instale el **[!UICONTROL Complementos comunes del SDK web]** extensión.
-1. Clic **[!UICONTROL Elementos de datos]** a la izquierda, haga clic en el elemento de datos deseado.
+1. Haga clic en **[!UICONTROL Etiquetas]** a la izquierda y luego haga clic en la propiedad de etiquetas deseada.
+1. Haga clic en **[!UICONTROL Extensiones]** a la izquierda y, a continuación, haga clic en la ficha **[!UICONTROL Catálogo]**
+1. Busque e instale la extensión **[!UICONTROL Common Web SDK Plugins]**.
+1. Haga clic en **[!UICONTROL Elementos de datos]** a la izquierda y, a continuación, haga clic en el elemento de datos deseado.
 1. Establezca el nombre del elemento de datos deseado con la siguiente configuración:
    * Extensión: Common Web SDK Plugins
    * Elemento de datos: `getQueryParam`
@@ -136,7 +136,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0 (19 de marzo de 2021)
 
 * Se ha añadido el número de versión como datos de contexto.
-* Se han eliminado dependencias en `pt` plug-in.
+* Se eliminaron las dependencias del complemento `pt`.
 
 ### 3.3 (24 de septiembre de 2019)
 

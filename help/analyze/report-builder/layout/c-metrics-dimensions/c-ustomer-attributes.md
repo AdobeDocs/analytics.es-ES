@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '127'
 ht-degree: 83%
 
 ---
@@ -19,7 +19,7 @@ Para obtener más información sobre cómo cargar atributos de cliente, consulte
 
 * Si está configurado como métrica, VisAttr se expone como métrica y como &quot;dimensión&quot;.
 
-  ![Captura de pantalla que muestra los atributos del cliente de métricas y dimensiones.](assets/ca_metrics.png)  ![](assets/ca_dimension.png)
+  ![Captura de pantalla que muestra atributos del cliente de métricas y dimensiones.](assets/ca_metrics.png) ![](assets/ca_dimension.png)
 
 * Es compatible con el mismo desglose que un eVar (todo se puede desglosar).
 * VisAttr es compatible con todas las métricas eVar.

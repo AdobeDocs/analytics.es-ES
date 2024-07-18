@@ -30,10 +30,10 @@ Cuando Adobe reconoce un prefijo de variable dinámica, copia automáticamente l
 Utilice la asignación de secuencia de datos para enviar datos a varias variables de Analytics desde un único campo XDM.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Clic **[!UICONTROL Datastreams]** en el carril izquierdo.
+1. Haga clic en **[!UICONTROL Datastreams]** en el carril izquierdo.
 1. Haga clic en el conjunto de datos deseado.
-1. Clic **[!UICONTROL Editar asignación]** a la derecha.
-1. Asigne el [!UICONTROL Campo de origen] a lo deseado [!UICONTROL Campo de destino]. Un solo campo de origen puede asignarse a cualquier número de campos de destino.
+1. Haga clic en **[!UICONTROL Editar asignación]** a la derecha.
+1. Asigne el [!UICONTROL campo Source] deseado al [!UICONTROL campo Target] deseado. Un solo campo de origen puede asignarse a cualquier número de campos de destino.
 
 ## Variables dinámicas que utilizan la extensión de Adobe Analytics
 
@@ -43,7 +43,7 @@ Puede utilizar variables dinámicas en cualquier campo de dimensión que acepte 
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
-5. Configure las variables [!UICONTROL Extensión] lista desplegable para Adobe Analytics y la variable [!UICONTROL Tipo de acción] hasta [!UICONTROL Establecer variables].
+5. Establezca la lista desplegable [!UICONTROL Extension] en Adobe Analytics y [!UICONTROL Action Type] en [!UICONTROL Set Variables].
 6. Busque el elemento de dimensión deseado.
 
 Coloque el prefijo de variable dinámica en el campo de texto, seguido del parámetro de cadena de consulta o del encabezado HTTP al que desee hacer referencia. De forma predeterminada, el prefijo de la variable dinámica es `D=`.

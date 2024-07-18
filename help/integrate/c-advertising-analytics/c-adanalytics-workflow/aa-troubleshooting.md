@@ -17,7 +17,7 @@ ht-degree: 50%
 
 ## No veo mi grupo de informes en la sección Asignación {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-Está intentando... [configurar una nueva cuenta publicitaria](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) y no ve su grupo de informes en la lista del **[!UICONTROL Grupos de informes asignados]** lista desplegable. Esto puede ocurrir por dos razones:
+Está intentando [configurar una nueva cuenta de Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) y no ve su grupo de informes en la lista desplegable **[!UICONTROL Grupos de informes asignados]**. Esto puede ocurrir por dos razones:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 

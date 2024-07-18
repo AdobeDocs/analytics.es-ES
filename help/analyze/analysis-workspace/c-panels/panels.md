@@ -7,7 +7,7 @@ exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: aacba26d0eb612146a9e0bf6386f9e755a9e8f07
 workflow-type: tm+mt
 source-wordcount: '1582'
-ht-degree: 51%
+ht-degree: 54%
 
 ---
 
@@ -33,7 +33,7 @@ A continuación, se describen los tipos de paneles que están disponibles en Ana
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Información rápida], [!UICONTROL Vacío] y [!UICONTROL Improvisado] los paneles son lugares ideales para iniciar el análisis, mientras que [!UICONTROL Analytics for Target], [!UICONTROL Atribución], [!UICONTROL Espectadores simultáneos de medios] y [!UICONTROL Comparación de segmentos] se prestan a análisis más avanzados. Hay un botón `"+"` disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
+Los paneles [!UICONTROL Quick Insights], [!UICONTROL En blanco] y [!UICONTROL Forma libre] son excelentes puntos de partida para el análisis, mientras que [!UICONTROL Analytics for Target], [!UICONTROL Atribución], [!UICONTROL Visualizadores simultáneos de medios] y [!UICONTROL Comparación de segmentos] se prestan a análisis más avanzados. Hay un botón `"+"` disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
 
 El panel inicial predeterminado es [!UICONTROL Forma libre], pero también puede convertir el [Panel en blanco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) en el panel predeterminado.
 
@@ -58,7 +58,7 @@ Puede aplicar un intervalo de fechas de nivel de minuto bajo la configuración a
 
 ## Zona de colocación {#dropzone}
 
-La zona de colocación del panel permite aplicar filtros de segmentos y desplegables a todas las tablas y visualizaciones dentro de un panel. Puede aplicar uno o varios filtros a un panel.
+La zona de colocación del panel permite aplicar filtros de segmentos y desplegables a todas las tablas y visualizaciones dentro de un panel. Puede aplicar uno o varios filtros a un panel. 
 
 ### Filtros de segmentos
 
@@ -84,24 +84,24 @@ Los segmentos desplegables estáticos también se pueden utilizar para consolida
 
 #### Creación de segmentos desplegables estáticos
 
-* Para segmentos desplegables que utilizan elementos de dimensión, seleccione una sola dimensión del carril izquierdo y suéltela en la zona desplegable del panel **mientras sostiene`[Shift]`**. Esto crea un segmento desplegable con todos los elementos de dimensión asociados a esa dimensión.
+* Para los segmentos desplegables que utilizan elementos de dimensión, seleccione una sola dimensión del carril izquierdo y suéltela en la zona desplegable del panel **mientras mantiene presionada`[Shift]`**. Esto crea un segmento desplegable con todos los elementos de dimensión asociados a esa dimensión.
 
-  O bien, si desea que el segmento desplegable incluya solo elementos de dimensión específicos asociados a una dimensión, haga clic en el icono de flecha derecha situado junto a la dimensión deseada en el carril izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Seleccionar varios elementos de dimensión de esta lista utilizando `[Shift + Click]` o `[Ctrl + Click]`, luego suéltelos en la zona desplegable del panel **mientras sostiene** `[Shift]`.
+  O bien, si desea que el segmento desplegable incluya solo elementos de dimensión específicos asociados a una dimensión, haga clic en el icono de flecha derecha situado junto a la dimensión deseada en el carril izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Seleccione varios elementos de dimensión de esta lista utilizando `[Shift + Click]` o `[Ctrl + Click]`; a continuación, suéltelos en la zona desplegable del panel **mientras mantiene pulsado** `[Shift]`.
 
-* Para segmentos desplegables que utilizan un solo tipo de componente (por ejemplo, solo dimensiones, o solo segmentos, o solo métricas), seleccione varios elementos del mismo tipo en el carril izquierdo mediante `[Shift + Click]` o `[Ctrl + Click]`, luego suéltelos en la zona desplegable del panel **mientras sostiene`[Shift]`**.
+* Para los segmentos desplegables que utilizan un solo tipo de componente (por ejemplo, solo dimensiones, o solo segmentos o solo métricas), seleccione varios elementos del mismo tipo en el carril izquierdo con `[Shift + Click]` o `[Ctrl + Click]` y, a continuación, suéltelos en la zona desplegable del panel **mientras mantiene presionado`[Shift]`**.
 
   Se crea un único segmento desplegable con los componentes seleccionados.
 
-* Para segmentos desplegables que utilizan una combinación de tipos de componentes (como 2 métricas y 3 filtros), seleccione varios componentes mediante `[Shift + Click]` o `[Ctrl + Click]`. Coloque la selección en la zona desplegable del panel **mientras mantiene pulsado`[Shift]`**. En este contexto, todos los tipos de componentes se tratan como segmentos desplegables independientes. Por ejemplo, si incluye métricas y elementos de dimensión en la selección, se crean dos segmentos desplegables independientes: un segmento desplegable incluye elementos de dimensión y el otro métricas.
+* Para segmentos desplegables que utilizan una combinación de tipos de componentes (como 2 métricas y 3 filtros), seleccione varios componentes con `[Shift + Click]` o `[Ctrl + Click]`. Coloque la selección en la zona desplegable del panel **mientras mantiene pulsado`[Shift]`**. En este contexto, todos los tipos de componentes se tratan como segmentos desplegables independientes. Por ejemplo, si incluye métricas y elementos de dimensión en la selección, se crean dos segmentos desplegables independientes: un segmento desplegable incluye elementos de dimensión y el otro métricas.
 
-  ![La ventana Panel con el campo de segmento Cliente móvil disponible para soltar un segmento desplegable estático. ](assets/create-dropdown.png)
+  ![La ventana del panel con el campo de segmento Cliente móvil disponible para soltar un segmento desplegable estático. ](assets/create-dropdown.png)
 
 Al hacer clic con el botón derecho en un segmento desplegable, se proporcionan las siguientes opciones:
 
-* **[!UICONTROL Eliminar lista desplegable]**: elimina el segmento desplegable del panel.
+* **[!UICONTROL Eliminar lista desplegable]**: quita el segmento desplegable del panel.
 * **[!UICONTROL Eliminar etiqueta]**: elimine el texto situado encima de un segmento desplegable. Para modificar la etiqueta, seleccione el icono de lápiz.
-* **[!UICONTROL Añadir etiqueta]**: Cuando se añade un segmento desplegable a un proyecto, se establece automáticamente una etiqueta al nombre del componente. Si elimina la etiqueta, puede añadirla de nuevo con esta opción.
-* **[!UICONTROL Requerir selección]**: Requiere que haya un segmento definido en el panel.
+* **[!UICONTROL Agregar etiqueta]**: Cuando agrega un segmento desplegable a un proyecto, se establece automáticamente una etiqueta en el nombre del componente. Si elimina la etiqueta, puede añadirla de nuevo con esta opción.
+* **[!UICONTROL Requerir selección]**: Requiere que se establezca un segmento en el panel.
 
 [Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=es) para obtener más información sobre cómo añadir filtros desplegables al proyecto.
 
@@ -119,17 +119,17 @@ Utilice el menú desplegable de segmentos de cualquiera de las siguientes manera
 
 ### Segmentos desplegables dinámicos
 
-Los segmentos desplegables dinámicos le permiten determinar los valores disponibles en función de los datos dentro del intervalo de informes del panel y los valores de otros segmentos desplegables. Por ejemplo, puede crear dos desplegables dinámicos utilizando [Países](/help/components/dimensions/countries.md) dimensión y [Ciudades](/help/components/dimensions/cities.md) dimensión. Cuando selecciona un país del [!UICONTROL Países] lista desplegable, la variable [!UICONTROL Ciudades] la lista desplegable se ajusta dinámicamente para mostrar solo las ciudades de ese país.
+Los segmentos desplegables dinámicos le permiten determinar los valores disponibles en función de los datos dentro del intervalo de informes del panel y los valores de otros segmentos desplegables. Por ejemplo, puede crear dos desplegables dinámicos utilizando la dimensión [Países](/help/components/dimensions/countries.md) y la dimensión [Ciudades](/help/components/dimensions/cities.md). Al seleccionar un país de la lista desplegable [!UICONTROL Países], la lista desplegable [!UICONTROL Ciudades] se ajusta dinámicamente para mostrar solo las ciudades de ese país.
 
 Este mismo concepto se aplica a todas las dimensiones; solo son visibles los elementos de dimensión que aparecen dentro del intervalo de fechas y los segmentos seleccionados del panel. Los elementos de Dimension seleccionados en segmentos desplegables estáticos afectan a los valores disponibles en los segmentos desplegables dinámicos. Sin embargo, lo contrario no es verdadero; los elementos de Dimension seleccionados en los segmentos desplegables dinámicos no afectan a los valores disponibles en los segmentos desplegables estáticos.
 
-La selección manual de elementos de dimensión está disponible si prevé que se recopilará un determinado elemento de dimensión en el futuro. También puede borrar un segmento desplegable dinámico para que no contenga un valor, lo que permitirá que otros segmentos desplegables dinámicos contengan más valores. Seleccionar **[!UICONTROL Restablecer todo]** para borrar la selección de todos los segmentos desplegables de ese panel.
+La selección manual de elementos de dimensión está disponible si prevé que se recopilará un determinado elemento de dimensión en el futuro. También puede borrar un segmento desplegable dinámico para que no contenga un valor, lo que permitirá que otros segmentos desplegables dinámicos contengan más valores. Seleccione **[!UICONTROL Restablecer todo]** para borrar la selección de todos los segmentos desplegables de ese panel.
 
 Para crear un segmento desplegable dinámico:
 
 * Arrastre y suelte una sola dimensión en la zona desplegable del panel **mientras mantiene pulsado`[Shift]`**.
 * Los segmentos desplegables dinámicos no están disponibles para métricas, segmentos o intervalos de fechas.
-* Haga clic con el botón derecho en un segmento desplegable y seleccione **[!UICONTROL Lista desplegable Eliminar]** para eliminarlo.
+* Haga clic con el botón derecho en un segmento desplegable y seleccione **[!UICONTROL Eliminar lista desplegable]** para eliminarlo.
 
 Al hacer clic con el botón derecho en un filtro desplegable dinámico, se proporcionan las mismas opciones que en los filtros desplegables estáticos.
 
@@ -137,7 +137,7 @@ Al hacer clic con el botón derecho en un filtro desplegable dinámico, se propo
 
 Para obtener más funcionalidades, haga clic con el botón derecho en el encabezado del panel.
 
-![Menú del botón derecho](assets/right-click-menu.png)
+![Menú contextual](assets/right-click-menu.png)
 
 Las configuraciones disponibles son las siguientes:
 

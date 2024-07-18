@@ -21,10 +21,10 @@ Adobe ofrece muchas maneras de modificar o manipular los datos antes de que apar
 Antes de enviar los datos a Adobe, suelen compilarse en el lado del cliente mediante uno de los métodos siguientes:
 
 * **AppMeasurement**: un archivo JavaScript alojado en el sitio al que se hace referencia en cada página. Los datos se envían directamente a Adobe Analytics.
-* **SDK web de Adobe Experience Platform**: un archivo JavaScript alojado en el sitio al que se hace referencia en cada página. Los datos se envían a Adobe Experience Platform Edge Network.
+* **SDK web de Adobe Experience Platform**: un archivo JavaScript alojado en el sitio al que se hace referencia en cada página. Los datos se envían al Edge Network de Adobe Experience Platform.
 * **Etiquetas en la recopilación de datos de Adobe Experience Cloud**: un archivo JavaScript al que se hace referencia en cada página y que contiene reglas creadas dentro de la IU de recopilación de datos. La extensión de Adobe Analytics ofrece una forma más sencilla de implementar AppMeasurement. La extensión del SDK web ofrece una forma más sencilla de implementar el SDK web.
 
-Si envía datos a la red perimetral, puede configurarlos para que reenvíen datos a Adobe Analytics (así como a muchas otras soluciones de Adobe Experience Cloud). Independientemente del método de implementación, en última instancia se envía una solicitud de imagen con las variables deseadas a los servidores de recopilación de datos de Adobe.
+Si envía datos al Edge Network, puede configurarlos para que reenvíen datos a Adobe Analytics (así como a muchas otras soluciones de Adobe Experience Cloud). Independientemente del método de implementación, en última instancia se envía una solicitud de imagen con las variables deseadas a los servidores de recopilación de datos de Adobe.
 
 ## Datos a medida que llegan a los servidores de recopilación de datos de Adobe Analytics
 

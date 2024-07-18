@@ -21,14 +21,14 @@ La variable `products` rastrea productos y propiedades vinculados a ellos. Esta 
 
 ## Productos que utilizan el SDK web
 
-Si se usa la variable [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), los productos se asignan a las siguientes variables:
+Si se usa el [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), los productos se asignan a las siguientes variables:
 
-* Categoría asignada a `xdm.productListItems[].productCategories[].categoryID`. Utiliza el primer elemento de la `productCategories[]` matriz. `lineItemId` también se asigna correctamente, pero el Adobe recomienda `categoryID` ya que es XDM estándar. Si ambos campos XDM están presentes, `lineItemId` tiene prioridad.
-* El producto está asignado a `xdm.productListItems[].SKU` o `xdm.productListItems[].name`. Si ambos campos XDM están presentes, `xdm.productListItems[].SKU` se utiliza.
+* La categoría está asignada a `xdm.productListItems[].productCategories[].categoryID`. Utiliza el primer elemento de la matriz `productCategories[]`. `lineItemId` también se asigna correctamente, pero el Adobe recomienda `categoryID` ya que es un XDM estándar. Si ambos campos XDM están presentes, `lineItemId` tiene prioridad.
+* El producto está asignado a `xdm.productListItems[].SKU` o `xdm.productListItems[].name`. Si ambos campos XDM están presentes, se utiliza `xdm.productListItems[].SKU`.
 * La cantidad se ha asignado a `xdm.productListItems[].quantity`.
 * El precio está asignado a `xdm.productListItems[].priceTotal`.
-* Las eVars de comercialización se asignan a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` hasta `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, dependiendo del eVar al que desee enlazar un producto.
-* Los eventos de comercialización se asignan a `xdm.productListItems[]._experience.analytics.event1to100.event1.value` hasta `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, en función del evento que desee enlazar a un producto. Si establece un evento en uno de estos campos, se incluye automáticamente en la variable [evento](events/events-overview.md) cadena enviada a Adobe Analytics.
+* Las eVars de comercialización se han asignado a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` y a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, en función del eVar al que desee enlazar un producto.
+* Los eventos de comercialización están asignados a `xdm.productListItems[]._experience.analytics.event1to100.event1.value` a `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, según el evento que desee enlazar a un producto. Si establece un evento en uno de estos campos, se incluirá automáticamente en la cadena [event](events/events-overview.md) enviada a Adobe Analytics.
 
 ```json
 {
@@ -53,7 +53,7 @@ Si se usa la variable [**Objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.
 }
 ```
 
-Si se usa la variable [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), la variable products utiliza `data.__adobe.analytics.products` siguiente sintaxis de AppMeasurement. Si define este campo, todos los productos definidos en el objeto XDM se sobrescriben y no se envían a Adobe Analytics.
+Si se usa el [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), la variable de productos usa `data.__adobe.analytics.products` siguiendo la sintaxis de AppMeasurement. Si define este campo, todos los productos definidos en el objeto XDM se sobrescriben y no se envían a Adobe Analytics.
 
 ```json
 {
@@ -94,7 +94,7 @@ La variable `s.products` es una cadena que contiene varios campos delimitados po
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Esta variable admite varios productos en la misma visita. Es útil para un carro de compras y pedidos que incluyen múltiples productos. La longitud máxima de todo el `products` la cadena tiene 64 k bytes. Separe cada producto con una coma (`,`) en la cadena.
+Esta variable admite varios productos en la misma visita. Es útil para un carro de compras y pedidos que incluyen múltiples productos. La longitud máxima de toda la cadena `products` es de 64 k bytes. Separe cada producto con una coma (`,`) en la cadena.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart

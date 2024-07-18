@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Inclusión en la administración de consentimiento
 
-La &quot;Inclusión En La Administración De Consentimiento&quot; [dimensión](overview.md) muestra a qué configuración de privacidad se ha suscrito un visitante. Puede utilizar esta dimensión para filtrar los datos en función de la configuración de privacidad o ver los motivos de inclusión de privacidad más comunes.
+La dimensión [dimensión](overview.md) de &#39;Inclusión en la administración de consentimiento&#39; muestra a qué configuración de privacidad se ha suscrito un visitante. Puede utilizar esta dimensión para filtrar los datos en función de la configuración de privacidad o ver los motivos de inclusión de privacidad más comunes.
 
 ## Rellene esta dimensión con datos
 

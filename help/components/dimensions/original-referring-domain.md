@@ -12,7 +12,7 @@ ht-degree: 95%
 
 # Dominio de referencia original
 
-El &quot;dominio de referencia original&quot; [dimensión](overview.md) informa del primer dominio de referencia en el que un visitante hizo clic para llegar al sitio. Una vez configurado, contiene el mismo valor para toda la duración de ese ID de visitante. Esta dimensión es útil para comprender qué sitios de terceros generan tráfico al sitio originalmente.
+El &quot;Dominio de referencia original&quot; [dimension](overview.md) indica el primer dominio de referencia en el que un visitante hizo clic para llegar al sitio. Una vez configurado, contiene el mismo valor para toda la duración de ese ID de visitante. Esta dimensión es útil para comprender qué sitios de terceros generan tráfico al sitio originalmente.
 
 >[!IMPORTANT]
 >

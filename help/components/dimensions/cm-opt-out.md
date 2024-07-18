@@ -5,14 +5,14 @@ exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '247'
 ht-degree: 93%
 
 ---
 
 # Exclusión en la administración de consentimiento
 
-La &quot;Exclusión De La Administración De Consentimiento&quot; [dimensión](overview.md) muestra la configuración de privacidad que un visitante ha excluido explícitamente. Puede utilizar esta dimensión para filtrar los datos en función de la configuración de privacidad o ver los motivos de exclusión de privacidad más comunes.
+La dimensión [exclusión de administración de consentimiento](overview.md) muestra qué configuración de privacidad ha excluido explícitamente un visitante. Puede utilizar esta dimensión para filtrar los datos en función de la configuración de privacidad o ver los motivos de exclusión de privacidad más comunes.
 
 ## Rellene esta dimensión con datos
 

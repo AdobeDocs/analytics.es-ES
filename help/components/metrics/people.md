@@ -16,6 +16,6 @@ ht-degree: 45%
 >
 >La métrica Personas relacionada con Device Co-op ha quedado obsoleta el 8 de marzo de 2023. La métrica Personas relacionada con el análisis multidispositivo descrita en esta página sigue activa.
 
-El &#39;pueblo&#39; [métrica](overview.md) es específico de [Análisis entre dispositivos](../cda/overview.md) grupos de informes virtuales. Representa la suma de los individuos identificados en el informe, más el número de dispositivos que no se identifican como pertenecientes a una persona.
+La métrica [Personas](overview.md) es específica de los grupos de informes virtuales [Análisis entre dispositivos](../cda/overview.md). Representa la suma de los individuos identificados en el informe, más el número de dispositivos que no se identifican como pertenecientes a una persona.
 
 Si se identifica un visitante a mitad de la visita, ese visitante puede contar como dos personas (una persona no identificada y una identificada). [Reproducir](/help/components/cda/replay.md) mitiga este recuento doble en función de la ventana de informes, la frecuencia de reproducción y la tasa de éxito. Consulte [Dispositivos únicos](unique-devices.md) para obtener más información.

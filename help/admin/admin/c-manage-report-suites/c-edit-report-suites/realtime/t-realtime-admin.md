@@ -20,7 +20,7 @@ Configurar informes en tiempo real en Adobe Analytics consiste en seleccionar el
 
    Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración > Grupos de informes]**.
 
-1. Clic **[!UICONTROL Editar configuración]** > **[!UICONTROL Tiempo real]**.
+1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Tiempo real]**.
 
 1. Configure la recopilación de datos en tiempo real para hasta tres informes, con una métrica y tres dimensiones o clasificaciones por informe.
 

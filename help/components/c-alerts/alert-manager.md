@@ -5,14 +5,14 @@ feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 38%
+source-wordcount: '436'
+ht-degree: 31%
 
 ---
 
 # Administrador de alertas
 
-El Administrador de alertas está estructurado de la misma manera que [Administrador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=es) y el [Administrador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=es).
+El Administrador de alertas tiene una estructura muy similar al [Administrador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=es) y al [Administrador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=es).
 
 ![](assets/alert-manager.png)
 
@@ -46,9 +46,9 @@ Puede configurar la información mostrada para cada alerta en el Administrador d
 
 Para configurar las columnas visibles en el Administrador de alertas:
 
-1. En Adobe Analytics, seleccione la **[!UICONTROL Componentes]** pestaña, luego seleccione **[!UICONTROL Alertas]**.
+1. En Adobe Analytics, seleccione la ficha **[!UICONTROL Componentes]** y, a continuación, seleccione **[!UICONTROL Alertas]**.
 
-1. En el Administrador de alertas, seleccione **Personalizar columnas** icono ![Icono Personalizar columnas](assets/customize-columns-icon.png), luego seleccione las columnas que desea mostrar en el Administrador de alertas.
+1. En el Administrador de alertas, seleccione el icono **Personalizar columnas** ![Personalizar icono de columnas](assets/customize-columns-icon.png) y, a continuación, seleccione las columnas que desea que se muestren en el Administrador de alertas.
 
    Las columnas disponibles son las siguientes:
 
@@ -61,6 +61,6 @@ Para configurar las columnas visibles en el Administrador de alertas:
    | Etiquetas | Muestra las etiquetas aplicadas a la alerta, tanto por su parte como por parte de las personas que han compartido la alerta con usted. |
    | Compartido con | Enumera las personas o grupos (solo administrador) o todos (solo administrador) con los que compartió la alerta. |
    | Fecha de modificación | Indica la fecha de la última modificación de la alerta. |
-   | Último uso | Muestra la fecha en la que se utilizó la alerta por última vez. <p>Esta información puede ayudarle a determinar si un componente es valioso para los usuarios de su organización, dónde se utiliza y si debe eliminarse o modificarse.</p><p>Tenga en cuenta lo siguiente al ver esta columna:</p><ul><li>Esta información no incluye el uso de la API, el Report Builder o la Data Warehouse.</li><li>Para algunos componentes, es posible que esta columna no contenga datos si el componente se utilizó por última vez antes de septiembre de 2023.</li></ul> |
+   | Último uso | Muestra la fecha en la que se utilizó la alerta por última vez. <p>Esta información puede ayudarle a determinar si un componente es valioso para los usuarios de su organización, dónde se utiliza y si debe eliminarse o modificarse.</p><p>Tenga en cuenta lo siguiente cuando vea esta columna:</p><ul><li>Esta información no incluye el uso de la API, el Report Builder o la Data Warehouse.</li><li>Para algunos componentes, es posible que esta columna no contenga datos si el componente se utilizó por última vez antes de septiembre de 2023.</li></ul> |
 
    {style="table-layout:auto"}

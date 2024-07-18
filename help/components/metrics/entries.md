@@ -14,7 +14,7 @@ ht-degree: 89%
 
 *Esta página de ayuda describe cómo funcionan las entradas como una métrica. Para obtener información sobre cómo funcionan las entradas como dimensiones, consulte [Dimensiones de entrada](../dimensions/entry-dimensions.md).*
 
-Las &#39;entradas&#39; [métrica](overview.md) muestra el número de veces que un elemento determinado se captura como el primer valor de una visita. Esta métrica es útil cuando desea conocer mejor las primeras impresiones del sitio en los visitantes. Ver los primeros valores de una dimensión puede ayudarle a comprender y optimizar la experiencia que obtiene un nuevo visitante.
+La [métrica](overview.md) &quot;Entradas&quot; muestra el número de veces que un elemento determinado se captura como el primer valor de una visita. Esta métrica es útil cuando desea conocer mejor las primeras impresiones del sitio en los visitantes. Ver los primeros valores de una dimensión puede ayudarle a comprender y optimizar la experiencia que obtiene un nuevo visitante.
 
 ## Cálculo de esta métrica
 

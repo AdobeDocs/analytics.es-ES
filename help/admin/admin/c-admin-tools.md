@@ -27,7 +27,7 @@ Consulte la jerarquía de contenido en la parte izquierda de la página para ir 
 >
 >No abra varias fichas de Administración en el mismo explorador. Esto puede llevar a guardar de forma involuntaria ajustes en el grupo de informes incorrecto. Por ejemplo, si necesita comparar conjuntos de reglas y copiarlos en un nuevo grupo de informes, sugerimos abrir un nuevo explorador o tomar una captura de pantalla para comparar los conjuntos de reglas.
 
-Para acceder a las herramientas de administración, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]**.
+Para acceder a las herramientas de administración, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**.
 
 ## Adobe admin console
 

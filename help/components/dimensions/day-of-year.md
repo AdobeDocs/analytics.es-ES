@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 40a95926-3d1b-4e9c-a82a-6e23b711e6e7
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '110'
 ht-degree: 84%
 
 ---
 
 # Día del año
 
-El &#39;Día del año&#39; [dimensión](overview.md) registra el día numérico de cualquier año dado como un elemento de dimensión. Este informe es valioso si desea un informe desglosado por día del año, pero no desea una fecha estática como elementos de dimensión.
+El &quot;Día del año&quot; [dimension](overview.md) indica el día numérico de cualquier año dado como un elemento de dimensión. Este informe es valioso si desea un informe desglosado por día del año, pero no desea una fecha estática como elementos de dimensión.
 
 ## Rellene esta dimensión con datos
 

@@ -12,7 +12,7 @@ ht-degree: 89%
 
 # Estado identificado
 
-El &quot;estado identificado&quot; [dimensión](overview.md) es específico de [Análisis entre dispositivos](../cda/overview.md) grupos de informes virtuales. Notifica si el sistema identifica (vincula) las visitas o no en el momento en que se ejecuta el informe. Esta dimensión es útil para comprender cómo comprime datos o vincula datos CDA.
+El &quot;estado identificado&quot; [dimensión](overview.md) es específico de los grupos de informes virtuales de [Cross-Device Analytics](../cda/overview.md). Notifica si el sistema identifica (vincula) las visitas o no en el momento en que se ejecuta el informe. Esta dimensión es útil para comprender cómo comprime datos o vincula datos CDA.
 
 ## Rellene esta dimensión con datos
 

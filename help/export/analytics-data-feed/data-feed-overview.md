@@ -5,9 +5,9 @@ title: Resumen de la fuente de datos de Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Los siguientes recursos le ayudan a comprender el flujo de trabajo básico de la
 * [Prácticas recomendadas para fuentes de datos](/help/export/analytics-data-feed/data-feeds-best-practices.md): prácticas recomendadas para crear y administrar fuentes de datos.
 * [Crear una fuente de datos](create-feed.md): Detalles técnicos para crear una fuente de datos; explicación más detallada de los campos individuales
 * [Administrar fuentes de datos](df-manage-feeds.md): Más información sobre cómo navegar por la interfaz de la fuente de datos
-* [Contenido de la fuente de datos](c-df-contents/datafeeds-contents.md): Explicación sobre los elementos incluidos en un archivo comprimido <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [Contenido de fuentes de datos](c-df-contents/datafeeds-contents.md): comprenda qué hay dentro del archivo comprimido <!-- Is this still the output users can download from the destination? I aske Jun. -->
 * [Definiciones de columnas de datos](c-df-contents/datafeeds-reference.md): una lista completa de todas las columnas disponibles.
 * Navegación de vídeo en la interfaz de fuente de datos:
 

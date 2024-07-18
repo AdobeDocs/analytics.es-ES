@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 85%
 
 ---
 
 # Tiempo invertido en la página
 
-El tiempo empleado en la página [dimensión](overview.md) registra la cantidad de tiempo que un visitante ha invertido en la página. Para medir el cálculo se utilizan los pasos siguientes:
+La [dimensión](overview.md) &quot;Tiempo empleado en la página&quot; registra la cantidad de tiempo que un visitante ha invertido en la página. Para medir el cálculo se utilizan los pasos siguientes:
 
 1. Para una visita determinada, observe la marca de tiempo.
 2. Compare esta visita individual con la marca de tiempo de la siguiente en la visita general. Tanto las visitas individuales de seguimiento de vista de página como las de seguimiento de vínculos cuentan.

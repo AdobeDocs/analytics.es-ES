@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '188'
 ht-degree: 72%
 
 ---
@@ -29,7 +29,7 @@ Para crear una solicitud de detección de anomalías en Report Builder:
 
    En la métrica añadida, haga clic en el vínculo **[!UICONTROL Ninguno]**.
 
-   ![Captura de pantalla que muestra la Detección de anomalías y, a continuación, Insertar y luego insertar opciones para Límite inferior y Superior y esperado.](assets/anomaly_select.png)
+   ![Captura de pantalla que muestra la detección de anomalías y luego las opciones Insertar y luego insertar para los límites inferior y superior y esperado.](assets/anomaly_select.png)
 
 1. Seleccione **[!UICONTROL Detección de anomalías]** > **[!UICONTROL `<selection>`]**.
 

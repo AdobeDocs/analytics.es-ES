@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 88%
+source-wordcount: '627'
+ht-degree: 89%
 
 ---
 
@@ -43,11 +43,11 @@ Los filtros más utilizados son filtros de expresión que se configuran mediante
 1. En el formulario [!UICONTROL Definir filtro], configure las condiciones adecuadas para sus necesidades.
 
 
-   ![Captura de pantalla que muestra el diálogo Definir filtro.](assets/expressions_define_filter.png)
+   ![Captura de pantalla que muestra el cuadro de diálogo Definir filtro.](assets/expressions_define_filter.png)
 
-   El icono de selección de celda permite localizar una condición definida en el valor de una celda. ![El icono Seleccionar celda.](assets/select_cell_icon.png)
+   El icono de selección de celda permite localizar una condición definida en el valor de una celda. ![Icono de seleccionar celda.](assets/select_cell_icon.png)
 
-   El **Agregar condición** El enlace permite añadir una condición a la expresión. No existe límite en la cantidad de condiciones que se pueden añadir.
+   El vínculo **Agregar condición** le permite agregar una condición a la expresión. No existe límite en la cantidad de condiciones que se pueden añadir.
 
 1. Haga clic en **[!UICONTROL Aceptar]**.
 

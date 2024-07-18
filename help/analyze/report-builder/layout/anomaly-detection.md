@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 95%
+source-wordcount: '509'
+ht-degree: 91%
 
 ---
 
@@ -56,7 +56,7 @@ La detección de anomalías añade nuevos valores de métricas a cada métrica q
  </tbody> 
 </table>
 
-Report Builder aplica estos valores a las métricas seleccionadas. Por ejemplo, si selecciona la métrica de vistas de la página y aplica la detección de anomalías, *`Page Views Lower Bound`* límite inferior de vistas de la página.
+Report Builder aplica estos valores a las métricas seleccionadas. Por ejemplo, si selecciona la métrica Vistas de página y aplica la detección de anomalías, se utilizará la métrica *`Page Views Lower Bound`*.
 
 **Cómo se calcula la detección de anomalías**
 

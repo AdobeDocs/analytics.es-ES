@@ -50,6 +50,6 @@ La diferencia de esta nueva arquitectura con respecto a la anterior es que Analy
 * Puede agregar muchas visualizaciones cuyo origen sean diferentes celdas de una misma tabla, como se muestra aquí. Esta tabla es la misma que en el ejemplo anterior, pero la celda de origen (y la métrica) es diferente:
 
   ![](assets/data-source3.png)>
-* Puede ver si hay visualizaciones conectadas a una tabla improvisada o de cohorte haciendo clic en el punto superior izquierdo (Configuración de fuente de datos). Al pasar el ratón por encima, se resalta la visualización vinculada y, al hacer clic en ella, se abre.
+* Puede ver si hay visualizaciones conectadas a una tabla improvisada o de cohorte haciendo clic en el punto superior izquierdo (Configuración de Data Source). Al pasar el ratón por encima, se resalta la visualización vinculada y, al hacer clic en ella, se abre.
 
   ![](assets/linked-visualizations.png)>

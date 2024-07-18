@@ -6,7 +6,7 @@ exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Para acceder a un grupo de informes:
 
 >[!NOTE]
 >
->Los grupos de informes virtuales se administran mediante **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Grupos de informes virtuales]**. Consulte la [Documentación del grupo de informes virtuales](/help/components/vrs/vrs-about.md).
+>Los grupos de informes virtuales se gestionan a través de **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Grupos de informes virtuales]**. Consulte la [documentación del grupo de informes virtuales](/help/components/vrs/vrs-about.md).
 
 ## Descripciones del Administrador del grupo de informes {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -66,7 +66,7 @@ La tabla siguiente describe los elementos de la página [!UICONTROL Administrado
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Resúmenes</span> </td> 
-   <td colname="col2"> <p>Un resumen es un único grupo de informes que combina los datos de seguimiento de otros grupos de informes. </p> <p>Consulte <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Grupo de informes resumidos</a>. </p> </td> 
+   <td colname="col2"> <p>Un resumen es un único grupo de informes que combina los datos de seguimiento de otros grupos de informes. </p> <p>Consulte <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md">Grupos de informes resumidos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar configuración</span> </td> 

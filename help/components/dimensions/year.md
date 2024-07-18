@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # Año
 
-El &#39;año&#39; [dimensión](overview.md) indica el año en el que se produjo una métrica determinada. El primer elemento de dimensión es el primer año del intervalo de fechas y el último elemento de dimensión es el año más reciente del intervalo de fechas.
+La dimensión [Year](overview.md) indica el año en que se produjo una métrica determinada. El primer elemento de dimensión es el primer año del intervalo de fechas y el último elemento de dimensión es el año más reciente del intervalo de fechas.
 
 ## Rellene esta dimensión con datos
 

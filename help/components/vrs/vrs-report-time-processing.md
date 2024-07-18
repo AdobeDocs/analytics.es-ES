@@ -14,7 +14,7 @@ ht-degree: 69%
 
 # Procesamiento de tiempo de los informes
 
-[!UICONTROL Procesamiento de tiempo de informes] es una configuración de grupo de informes virtuales que permite procesar los datos en Analysis Workspace de forma retroactiva y no destructiva.
+[!UICONTROL Procesamiento de intervalo de tiempo] es una configuración de grupo de informes virtuales que permite procesar datos en Analysis Workspace de una manera retroactiva y no destructiva.
 
 El [!UICONTROL Procesamiento de intervalo de tiempo] solo afecta a los datos en el grupo de informes virtuales y no tiene efecto sobre ningún dato o recopilación de datos en el grupo de informes base. La diferencia entre el [!UICONTROL Procesamiento de intervalo de tiempo] y el procesamiento tradicional de Analytics se entiende mejor con el siguiente diagrama:
 
@@ -28,7 +28,7 @@ El [!UICONTROL Procesamiento de intervalo de tiempo] es un modo fundamentalmente
 
 Esta arquitectura de procesamiento ofrece opciones de realización de informes mucho más flexibles. Por ejemplo, puede cambiar el tiempo de espera de visita a cualquier periodo que desee de forma no destructiva, cambios que se reflejan en la persistencia de eVar y en los contenedores de segmentos durante el periodo completo del informe. Además, puede crear cualquier número de grupos de informes virtuales, cada uno con distintas opciones de Procesamiento de intervalo de tiempo y basados en el mismo grupo de informes base, sin alterar ninguno de los datos del grupo de informes base.
 
-[!UICONTROL Procesamiento de intervalo de tiempo] también permite a Analytics impedir que las visitas en segundo plano comiencen nuevas visitas y permite al [SDK de Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=es) para iniciar una nueva visita cada vez que se active un evento de inicio de aplicación.
+[!UICONTROL Procesamiento de intervalo de tiempo] también permite a Analytics impedir que las visitas en segundo plano comiencen nuevas visitas y permite que [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=es) inicie una nueva visita cada vez que se active un evento de inicio de aplicación.
 
 ## Opciones de configuración
 
@@ -53,7 +53,7 @@ Además, Procesamiento de intervalo de tiempo solo procesa los datos que se prod
 Las siguientes dimensiones y métricas no son compatibles con Procesamiento de intervalo de tiempo:
 
 * **Analytics for Target**
-* **Dimensiones/métricas de Analytics para Advertising Cloud**
+* **Métricas/dimensiones de Analytics for Advertising Cloud**
 * **eVars de contador**
 * [**Días antes de la primera compra**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Días desde la última compra**](/help/components/dimensions/days-since-last-purchase.md)
@@ -65,7 +65,7 @@ Las siguientes dimensiones y métricas no son compatibles con Procesamiento de i
 * [**Dominio de referencia original**](/help/components/dimensions/original-referring-domain.md)
 * [**Frecuencia de retorno**](/help/components/dimensions/return-frequency.md)
 * [**Acceso único**](/help/components/metrics/single-access.md)
-* **Fuentes de datos del ID de transacción**
+* **Fuentes de datos de ID de transacción**
 * [**Número de visita**](/help/components/dimensions/visit-number.md)
 
 ## Dimensiones y métricas afectadas
@@ -76,13 +76,13 @@ A continuación se ofrece una lista de dimensiones y métricas que pueden verse 
    * [**Devoluciones**](/help/components/metrics/bounces.md) / [**Tasa de devoluciones:**](/help/components/metrics/bounce-rate.md) Las visitas en segundo plano que no van seguidas de una visita en primer plano no se consideran una devolución y no contribuyen a la tasa de devoluciones.
    * [**Tiempo empleado en segundos por visita:**](/help/components/metrics/time-spent-per-visit.md) Solo las visitas que incluyen visitas individuales que se producen en primer plano contribuyen a esta métrica.
    * **Tiempo empleado por visita:** Solo las visitas que incluyen visitas individuales en primer plano contribuyen a esta métrica.
-   * [**Métrica de entrada**](/help/components/metrics/entries.md) / [**Métrica de salida:**](/help/components/metrics/exits.md) En esta dimensión solo aparecen las entradas y salidas de visitas con visitas individuales en primer plano.
-   * [**Dimensión de entrada**](/help/components/dimensions/entry-dimensions.md) / [**Dimensiones de salida:**](/help/components/dimensions/exit-dimensions.md) En esta dimensión solo aparecen las entradas y salidas de visitas con visitas individuales en primer plano.
+   * [**Métrica de entrada**](/help/components/metrics/entries.md) / [**Métrica de salida:**](/help/components/metrics/exits.md) En esta dimensión solo aparecen las entradas y salidas de visitas con visitas en primer plano.
+   * [**Dimensión de entrada**](/help/components/dimensions/entry-dimensions.md) / [**Dimensiones de salida:**](/help/components/dimensions/exit-dimensions.md) En esta dimensión solo aparecen las entradas y salidas de visitas con visitas en primer plano.
    * [**Métrica de visitantes únicos:**](/help/components/metrics/unique-visitors.md) En los visitantes únicos no se incluyen los visitantes que solo tuvieron visitas individuales en segundo plano en el intervalo de fechas del informe.
 * [**Visitas:**](/help/components/metrics/visits.md) Las visitas reflejan cualquier configuración del grupo de informes virtuales, que pueden diferir de las del grupo de informes base.
 * **Eventos serializados con ID de evento:** Los duplicados de los eventos que utilizan la serialización de eventos con un ID de evento solo se eliminan en el caso de los eventos que se producen dentro del intervalo de fechas del informe para un visitante. Los duplicados de estos eventos no se eliminan en todas las fechas o visitantes globalmente debido a la limitación de fechas del Procesamiento de intervalo de tiempo.
-* **Compras** / [**Ingresos**](/help/components/metrics/revenue.md) / [**Pedidos**](/help/components/metrics/orders.md) / [**Unidades:**](/help/components/metrics/units.md) Cuando se utiliza el ID de compra, la duplicación de estas métricas solo se anula en el caso de los ID de compra duplicados que se producen dentro del intervalo de fechas del sistema de informes para un visitante, y no en cualquier fecha o visitante de forma global, debido a la limitación de fechas del Procesamiento de intervalo de tiempo.
-* [**eVars que no sean de comercialización**](/help/components/dimensions/evar.md) / **eVars reservadas:** Los valores configurados en un eVar persisten únicamente si el valor se configuró dentro del intervalo de fechas del informe debido a la limitación de fechas del Procesamiento de intervalo de tiempo. Además, las caducidades basadas en la hora pueden producirse 60 minutos antes o después si la persistencia se ve afectada por un cambio de hora.
-* [**eVars de comercialización**](/help/components/dimensions/evar-merchandising.md) / **eVars reservadas:** Consulte lo anterior. Además, para la conversión de sintaxis, cuando el enlace está establecido en “cualquier evento”, se utiliza “cualquier visita”.
+* **Compras** / [**Ingresos**](/help/components/metrics/revenue.md) / [**Pedidos**](/help/components/metrics/orders.md) / [**Unidades:**](/help/components/metrics/units.md) Cuando se usa el ID de compra, estas métricas solo se deduplican para los ID de compra duplicados que se producen dentro del intervalo de fechas del informe para un visitante, en lugar de en todas las fechas o visitantes globalmente debido a la limitación de fechas del Procesamiento de intervalo de tiempo.
+* [**eVars que no son de comercialización**](/help/components/dimensions/evar.md) / **eVars reservadas:** Los valores establecidos en un eVar persisten solamente si el valor se estableció dentro del intervalo de fechas del informe debido a la limitación de fechas del Procesamiento de intervalo de tiempo. Además, las caducidades basadas en la hora pueden producirse 60 minutos antes o después si la persistencia se ve afectada por un cambio de hora.
+* [**eVars de comercialización**](/help/components/dimensions/evar-merchandising.md) / **eVars reservadas:** Ver arriba. Además, para la conversión de sintaxis, cuando el enlace está establecido en “cualquier evento”, se utiliza “cualquier visita”.
 * [**Tipo de visita individual:**](/help/components/dimensions/hit-type.md) Esta dimensión especifica si una visita individual es en primer o en segundo plano.
-* **Dimension con (poco tráfico) o &quot;excesos en la cantidad de valores exclusivos&quot;:** El elemento de línea (Poco tráfico) se determina de forma ligeramente diferente al usar Procesamiento de intervalo de tiempo y no se garantiza que coincida con lo que se observa al crear informes en el grupo de informes base. No se garantiza que los elementos de línea del Dimension que no forman parte de Poco tráfico representen el 100 % de los datos de ese elemento de línea. Estas diferencias pueden ser más pronunciadas cuanto mayor sea el número de valores únicos existentes en una dimensión.
+* **Dimension con (poco tráfico) o &quot;excesos en la cantidad de valores exclusivos&quot;:** El elemento de línea (poco tráfico) se determina de manera ligeramente diferente al usar Procesamiento de intervalo de tiempo y no se garantiza que coincida con lo que se observa al generar informes en el grupo de informes base. No se garantiza que los elementos de línea del Dimension que no forman parte de Poco tráfico representen el 100 % de los datos de ese elemento de línea. Estas diferencias pueden ser más pronunciadas cuanto mayor sea el número de valores únicos existentes en una dimensión.

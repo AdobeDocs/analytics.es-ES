@@ -1,6 +1,6 @@
 ---
-title: Implementar Adobe Analytics mediante la API del servidor de red perimetral de Adobe Experience Platform
-description: Utilice la API del servidor de red perimetral de Adobe Experience Platform para enviar datos a Adobe Analytics.
+title: Implementar Adobe Analytics mediante la API de Adobe Experience Platform Edge Network Server
+description: Utilice la API de Adobe Experience Platform Edge Network Server para enviar datos a Adobe Analytics.
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
@@ -11,11 +11,11 @@ ht-degree: 33%
 
 ---
 
-# Implementar Adobe Analytics mediante la API del servidor de red perimetral de Adobe Experience Platform
+# Implementar Adobe Analytics mediante la API de Adobe Experience Platform Edge Network Server
 
-Normalmente, se utiliza la API del servidor de red perimetral de Experience Platform para recopilar datos del lado del servidor en lugar de del lado del cliente, y también para recopilar datos de dispositivos como dispositivos de IoT, descodificadores y aplicaciones de escritorio. A continuación, envíe esos datos a la red de Edge y a servicios como Adobe Analytics.
+Normalmente, se utiliza la API de Experience Platform Edge Network Server para recopilar datos del lado del servidor en lugar de hacerlo del lado del cliente, y también para recopilar datos de dispositivos como dispositivos de IoT, descodificadores y aplicaciones de escritorio. A continuación, envía esos datos a la red de Edge y a servicios como Adobe Analytics.
 
-Tenga en cuenta también la API del servidor de red perimetral cuando necesite que los datos confidenciales se recopilen de forma segura y se autentiquen en la red. Consulte [Autenticación](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) para obtener más información.
+Tenga en cuenta también la API de servidor de Edge Network cuando necesite que los datos confidenciales se recopilen de forma segura y se autentiquen en la red. Consulte [Autenticación](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) para obtener más información.
 
 Una información general de alto nivel de las tareas de implementación:
 
@@ -35,19 +35,19 @@ Una información general de alto nivel de las tareas de implementación:
 
 <tr>
 <td>2</td>
-<td><b>Configuración de esquemas</b>. Para estandarizar la recopilación de datos para su uso en todas las aplicaciones que aprovechan Adobe Experience Platform, Adobe ha creado el estándar abierto y documentado públicamente, Experience Data Model (XDM).</td>
+<td><b>Configurar esquemas</b>. Para estandarizar la recopilación de datos para su uso en todas las aplicaciones que aprovechan Adobe Experience Platform, Adobe ha creado el estándar abierto y documentado públicamente, Experience Data Model (XDM).</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=es">Resumen de IU de esquemas</a></td>
 </tr>
 
 <tr>
 <td>3</td>
-<td><b>Configurar una secuencia de datos</b>. Un conjunto de datos representa la configuración del lado del servidor al utilizar la API de la API de Adobe Experience Platform Edge Network.</td>
+<td><b>Configurar una secuencia de datos</b>. Un conjunto de datos representa la configuración del lado del servidor al utilizar la API de la API de Edge Network de Adobe Experience Platform.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es">Configurar una secuencia de datos<a></td> 
 </tr>
 
 <tr>
 <td>4</td>
-<td><b>Implementación y prueba de la recopilación de datos</b> mediante las API de recopilación de datos de evento único y de evento por lotes.</td>
+<td><b>Implemente y pruebe la recopilación de datos</b> mediante las API de recopilación de datos de evento único y de evento por lotes.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html">Recopilación de datos de un solo evento</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Recopilación de datos de eventos por lotes</a>
 </tr>
 
@@ -59,5 +59,5 @@ Una información general de alto nivel de las tareas de implementación:
 
 </table>
 
-Consulte [Documentación de API del servidor de red perimetral](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=es)y un ejemplo [integración con Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=es) para obtener más información.
+Consulte [Documentación de la API de Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=es) y un ejemplo de [integración con Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=es) para obtener más información.
 

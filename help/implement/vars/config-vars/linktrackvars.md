@@ -19,7 +19,7 @@ Esta variable no se utiliza para las llamadas de vista de página (método [`t()
 
 ## Determine qué variables se incluirán en un evento XDM mediante el SDK web
 
-El SDK web no excluye ciertos campos para las llamadas de seguimiento de vínculos. Sin embargo, puede utilizar el complemento `onBeforeEventSend` devolución de llamada para borrar o establecer los campos deseados antes de enviar los datos al Adobe. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) en la documentación del SDK web para obtener más información.
+El SDK web no excluye ciertos campos para las llamadas de seguimiento de vínculos. Sin embargo, puede usar la llamada de retorno `onBeforeEventSend` para borrar o establecer los campos deseados antes de que los datos se envíen al Adobe. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) en la documentación del SDK web para obtener más información.
 
 ## Variables en llamadas de seguimiento de vínculos que utilizan la extensión de Adobe Analytics
 
@@ -27,7 +27,7 @@ Esta variable se rellena automáticamente en el servidor en función de las vari
 
 >[!IMPORTANT]
 >
->Si establece variables mediante el editor de código personalizado, debe incluir las variables en `linkTrackVars` también mediante código personalizado.
+>Si establece variables mediante el editor de código personalizado, debe incluir las variables de `linkTrackVars` mediante el uso del código personalizado.
 
 ## s.linkTrackVars en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 

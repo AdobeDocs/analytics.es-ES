@@ -5,8 +5,8 @@ feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 56%
+source-wordcount: '404'
+ht-degree: 59%
 
 ---
 
@@ -20,8 +20,8 @@ Algunas dimensiones y métricas que se pueden usar en Data Warehouse no están d
 
 ### Dimensiones admitidas exclusivamente
 
-* **ID de Experience Cloud**: Para implementaciones que utilizan el servicio de ID de Experience Cloud (ECID), un número de 128 bits que consta de dos números concatenados de 64 bits seguidos de 19 dígitos.
-* **URL de página**: Dirección URL de la página en la que se produjo la visita.
+* **ID de Experience Cloud**: Para implementaciones que usan el servicio de ID de Experience Cloud (ECID), un número de 128 bits que consta de dos números concatenados de 64 bits seguidos de 19 dígitos.
+* **Dirección URL de la página**: Dirección URL de la página en la que se produjo la visita.
 * **ID de compra**: Identificador único de una compra, establecido mediante la variable purchaseID.
 * **ID de visitante**: Proporciona el identificador único del visitante. Este valor es el mismo que el valor concatenado de las columnas `visid_high` y `visid_low` de las fuentes de datos. Consulte [Referencia de la columna de datos](../analytics-data-feed/c-df-contents/datafeeds-reference.md) en Fuentes de datos para obtener más información.
 
@@ -67,11 +67,11 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
    * Recargas
    * Acceso único
    * Métricas de “tiempo empleado”
-* Métricas de participación (como se describe en) [Crear una métrica de &quot;participación&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
+* Métricas de participación (como se describe en [Crear una métrica de &quot;participación&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
 ### Dimension admitidos de una manera diferente
 
-Se admiten las siguientes dimensiones basadas en el tiempo. Sin embargo, el resultado de las fechas no es estándar al utilizar estas dimensiones. En concreto, el año se compensa con 1900 y los meses se basan en cero.
+Se admiten las siguientes dimensiones basadas en el tiempo. Sin embargo, la salida de las fechas no es estándar al utilizar dichas dimensiones. En concreto, el año se compensa con 1900 y los meses se basan en cero.
 
 * Año
 * Trimestre

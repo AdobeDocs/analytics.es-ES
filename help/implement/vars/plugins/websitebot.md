@@ -94,7 +94,7 @@ Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement
 
 ## Uso del complemento
 
-El `websiteBot` el complemento activa una `s.tl` invoque si se detecta tráfico que no sea de bots.
+El complemento `websiteBot` activa una llamada a `s.tl` si se detecta tráfico que no sea de bots.
 
 ## Ejemplos
 

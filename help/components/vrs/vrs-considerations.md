@@ -49,7 +49,7 @@ Asegúrese de que el número de dimensiones y métricas únicas se pueda ajustar
 
 >[!TIP]
 >
->Con la introducción de [depuración](/help/analyze/analysis-workspace/curate-share/curate.md), puede cambiar el nombre de una dimensión o métrica determinada por grupo de informes virtuales.
+>Con la introducción de [revisión](/help/analyze/analysis-workspace/curate-share/curate.md), puede cambiar el nombre de una dimensión o métrica determinada por grupo de informes virtuales.
 
 ### Matices de segmentación
 

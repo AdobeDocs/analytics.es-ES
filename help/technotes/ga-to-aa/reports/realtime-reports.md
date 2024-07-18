@@ -20,9 +20,9 @@ Los informes en tiempo real son una de las pocas características que aún no se
 
 Para llegar a la página de configuración de informes en tiempo real (se requieren permisos de administración):
 
-1. Clic **[!UICONTROL Workspace]** en la barra de navegación superior de Adobe Analytics.
-1. Seleccionar **[!UICONTROL Informes]** en la barra de navegación izquierda.
-1. Seleccionar **[!UICONTROL Participación]** ![cheurón](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Tiempo real]**. También puede ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) buscar en tiempo real.
+1. Haz clic en **[!UICONTROL Workspace]** en la barra de navegación superior de Adobe Analytics.
+1. Seleccione **[!UICONTROL Informes]** en la barra de navegación izquierda.
+1. Seleccione **[!UICONTROL Participación]** ![Chevron](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Tiempo Real]**. También puedes ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) en tiempo real.
 1. Si el grupo de informes aún no está habilitado en tiempo real, se muestra un mensaje con un vínculo para configurar el grupo de informes.
 
 Adobe permite que haya hasta tres informes en tiempo real recopilando datos simultáneamente. Cada uno debe configurarse antes de empezar a recopilar datos en tiempo real.

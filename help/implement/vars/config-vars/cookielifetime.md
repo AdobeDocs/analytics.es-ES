@@ -25,19 +25,19 @@ El SDK web aún no ofrece personalización durante la duración de las cookies q
 
 ## Duración de la cookie mediante la extensión Adobe Analytics
 
-Duración de la cookie es una lista desplegable en [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
+Duración de la cookie es una lista desplegable en el acordeón [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
-1. Expanda el [!UICONTROL Cookies] acordeón, que revela el [!UICONTROL Duración de cookie] lista desplegable.
+1. Expanda el acordeón [!UICONTROL Cookies], que muestra la lista desplegable [!UICONTROL Duración de la cookie].
 
 Esta lista desplegable contiene los siguientes valores:
 
 * **Predeterminado**: La cookie caduca pasados 2 años.
 * **Ninguno**: AppMeasurement no establece cookies.
 * **Sesión**: La cookie caduca al final de la sesión del visitante.
-* **Segundos**: La cookie caduca después de que haya transcurrido el número de segundos especificado. Por ejemplo, si establece esta lista desplegable en [!UICONTROL Seconds] y colocando `86400` en el campo personalizado fuerza que las cookies caduquen exactamente después de 24 horas.
+* **Segundos**: La cookie caduca después de que haya transcurrido el número de segundos especificado. Por ejemplo, si establece esta lista desplegable en [!UICONTROL Segundos] y coloca `86400` en el campo personalizado, las cookies caducarán exactamente después de 24 horas.
 
 ## s.cookieLifetime en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
 

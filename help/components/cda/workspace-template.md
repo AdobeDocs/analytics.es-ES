@@ -33,5 +33,5 @@ Se crea un proyecto de Analysis Workspace que contiene varios paneles. En la par
    * Granularidad de informes: La compresión por día suele ser menor que la compresión por mes o año. Las posibilidades de que un individuo utilice varios dispositivos se reducen en un solo día en comparación con todo un mes. Segmentar, filtrar o utilizar dimensiones de desglose también puede mostrar una tasa de compresión más baja.
 * **Segmentos basados en personas**: contiene una lista desplegable de segmentos que le permite ver datos específicos del dispositivo. Este panel promueve la experimentación con segmentos para ver cómo la inclusión o la exclusión de tipos de dispositivos afectan los informes.
 * **Análisis del viaje entre dispositivos**: proporciona informes de flujo y visitas en el orden previsto en función del tipo de dispositivo.
-* **Atribución entre dispositivos**: Combine las características de Recorrido IQ y Attribution juntos.
+* **Atribución entre dispositivos**: combine las características de Recorrido IQ y Attribution.
 * **Otros consejos y trucos**: temas útiles en torno a CDA que le permite aprovecharlo al máximo.

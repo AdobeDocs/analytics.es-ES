@@ -20,11 +20,11 @@ Este artículo contiene detalles sobre el informe de Analysis Workspace y los in
 
 ## Informe de búsqueda de pago {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-Este informe permite a cualquier usuario que implemente la integración del motor de búsqueda acceder a los datos del motor de búsqueda dentro de Analytics. Puede acceder a ella a través de **[!UICONTROL Workspace]** > **[!UICONTROL Informes]** > **[!UICONTROL Adquisición]** > **[!UICONTROL Advertising Analytics: búsqueda de pago]**
+Este informe permite a cualquier usuario que implemente la integración del motor de búsqueda acceder a los datos del motor de búsqueda dentro de Analytics. Puede acceder a él a través de **[!UICONTROL Workspace]** > **[!UICONTROL Informes]** > **[!UICONTROL Adquisición]** > **[!UICONTROL Advertising Analytics: búsqueda de pago]**
 
 >[!NOTE]
 >
->El informe Búsqueda de pago es visible para todos los clientes, aunque no hayan implementado ninguna cuenta publicitaria. Si intenta abrir el informe Búsqueda de pago para una empresa que no está aprovisionada, aparecerá un mensaje de error en el que se explica que no ha configurado ninguna cuenta de motor de búsqueda. Seleccionar **[!UICONTROL Configurar ahora]**, que le lleva al [Configuración de cuenta publicitaria](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) pantalla.
+>El informe Búsqueda de pago es visible para todos los clientes, aunque no hayan implementado ninguna cuenta de Advertising. Si intenta abrir el informe Búsqueda de pago para una empresa que no está aprovisionada, aparecerá un mensaje de error en el que se explica que no ha configurado ninguna cuenta de motor de búsqueda. Seleccione **[!UICONTROL Configurar ahora]**, que lo lleva a la pantalla [Configuración de cuenta de Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 

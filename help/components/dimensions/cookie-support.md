@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Compatibilidad con cookies
 
-La &quot;Compatibilidad con cookies&quot; [dimensión](overview.md) informa de si el explorador admite cookies para una visita determinada. Es útil determinar la proporción de visitantes que utilizan exploradores que admiten cookies y los que las deshabilitan intencionalmente.
+El informe &quot;Compatibilidad con cookies&quot; [dimension](overview.md) indica si el explorador admite cookies para una visita determinada. Es útil determinar la proporción de visitantes que utilizan exploradores que admiten cookies y los que las deshabilitan intencionalmente.
 
 ## Rellene esta dimensión con datos
 

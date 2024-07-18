@@ -16,7 +16,7 @@ Esta guía presenta los tipos de informes más comunes y le ayuda a interiorizar
 
 Tanto Google Analytics como Adobe Analytics son plataformas potentes que permiten obtener datos valiosos sobre el rendimiento de su sitio web. Cada una de ellas tiene su propia arquitectura de procesamiento y su interfaz de usuario, lo que proporciona a cada plataforma ventajas únicas. Esta guía se ha diseñado para iniciar en Adobe Analytics a los usuarios experimentados de Google Analytics.
 
-En Adobe Analytics, la manera principal de extraer informes básicos después de iniciar sesión en Adobe Experience Cloud es utilizar **Analysis Workspace**. El menú de la izquierda permite al usuario arrastrar y soltar componentes para crear su propio informe. Permite una mayor libertad para satisfacer las necesidades exactas de creación de informes. Es posible que los usuarios con experiencia en la creación de tableros e informes personalizados de Google Analytics estén familiarizados con este diseño.
+En Adobe Analytics, la manera principal de extraer informes básicos después de iniciar sesión en Adobe Experience Cloud es usar **Analysis Workspace**. El menú de la izquierda permite al usuario arrastrar y soltar componentes para crear su propio informe. Permite una mayor libertad para satisfacer las necesidades exactas de creación de informes. Es posible que los usuarios con experiencia en la creación de tableros e informes personalizados de Google Analytics estén familiarizados con este diseño.
 
 ## Ruta de aprendizaje recomendada
 

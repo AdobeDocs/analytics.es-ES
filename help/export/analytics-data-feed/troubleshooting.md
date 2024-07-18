@@ -6,7 +6,7 @@ feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '466'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Si tiene una fuente de datos que funcionaba correctamente cada hora o cada día,
    2. Busque las fuentes de datos que desee y, a continuación, haga clic en la casilla de verificación situada junto a cada una de las fuentes que desee volver a ejecutar.
    3. Haga clic en **[!UICONTROL Volver a ejecutar]**.
 
-   ![Volver a ejecutar](assets/rerun.png)
+  ![Volver a ejecutar](assets/rerun.png)
 
 Si sigue sin recibir los archivos de fuente de datos después de volver a ejecutarlos, póngase en contacto con el Servicio de atención al cliente.
 

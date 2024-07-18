@@ -16,7 +16,7 @@ ht-degree: 32%
 
 Una solicitud dependiente es la que depende de otra solicitud existente.
 
-En el caso de los informes con los desgloses de correlación habilitados dentro de la tabla de informe, para ver de cerca un elemento, haga clic con el botón secundario en la celda y, a continuación, haga clic en **[!UICONTROL Añadir solicitud dependiente]** > **[!UICONTROL Desglose]**.
+Para los informes con los desgloses de correlación habilitados en la tabla de informe, para ver más de cerca un elemento, haga clic con el botón secundario en la celda y, a continuación, haga clic en **[!UICONTROL Agregar solicitud dependiente]** > **[!UICONTROL Desglose]**.
 
 >[!NOTE]
 >

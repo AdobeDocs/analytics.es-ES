@@ -6,8 +6,8 @@ feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 65%
+source-wordcount: '681'
+ht-degree: 64%
 
 ---
 
@@ -62,9 +62,9 @@ Este es un vídeo sobre cómo ajustar una definición de visita en un grupo de i
 ![](assets/components.png)
 
 1. En la pestaña [!UICONTROL Componentes], active la casilla de verificación para aplicar la depuración para incluir, excluir y cambiar el nombre de los componentes de este grupo de informes virtuales en Analysis Workspace.
-Para obtener más información sobre la depuración de grupos de informes virtuales, consulte [Revisión de componentes de grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=es#virtual-report-suites).
+Para obtener más información sobre la revisión de grupos de informes virtuales, consulte [Revisión de componentes de grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=es#virtual-report-suites).
 
-1. Arrastre los componentes (dimensiones, métricas, segmentos o intervalos de fechas) que desee incluir en el grupo de informes virtuales al [!UICONTROL Componentes incluidos] sección.
+1. Arrastre los componentes (dimensiones, métricas, segmentos o intervalos de fechas) que desee incluir en el grupo de informes virtuales a la sección [!UICONTROL Componentes incluidos].
 
 1. Cuando haya terminado, haga clic en **[!UICONTROL Guardar]**.
 

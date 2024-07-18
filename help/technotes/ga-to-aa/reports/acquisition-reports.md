@@ -141,4 +141,4 @@ El informe de palabras clave orgánicas muestra el rendimiento de cada palabra c
 
 ## Análisis de costes
 
-Este informe muestra los datos de rendimiento de visitas, costes e ingresos de los canales de marketing de pago. Adobe ofrece un producto específico para proporcionar información, denominado Adobe Advertising Cloud. Si su organización está interesada en utilizar este producto, póngase en contacto con su equipo de cuentas de Adobe.
+Este informe muestra los datos de rendimiento de visitas, costes e ingresos de los canales de marketing de pago. Adobe ofrece un producto específico para proporcionar información, denominado Adobe Advertising Cloud. Si su organización está interesada en utilizar este producto, póngase en contacto con el equipo de cuenta de Adobe.

@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # Palabra clave de búsqueda
 
-La &#39;Palabra clave de búsqueda&#39; [dimensión](overview.md) informa de las palabras clave de búsqueda que los visitantes utilizan para llegar al sitio.
+La &quot;Palabra clave de búsqueda&quot; [dimension](overview.md) indica las palabras clave de búsqueda que los visitantes utilizan para llegar al sitio.
 
 >[!IMPORTANT]
 >

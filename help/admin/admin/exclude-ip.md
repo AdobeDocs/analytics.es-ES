@@ -21,7 +21,7 @@ Se pueden excluir datos de las direcciones IP específicas, por ejemplo, las act
 >
 >Las visitas excluidas por dirección IP se facturan como [llamadas al servidor](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=es).
 
-Puede utilizar indicadores comodín (&#42;) para excluir un rango de direcciones. Por ejemplo, `[!DNL 0.0.*.0]` excluiría todas las direcciones IP entre `[!DNL 0.0.0.0]` y `[!DNL 0.0.255.0]`. Puede excluir hasta 50 direcciones IP diferentes.
+Puede usar indicadores comodín (&#42;) para excluir un rango de direcciones. Por ejemplo, `[!DNL 0.0.*.0]` excluiría todas las direcciones IP entre `[!DNL 0.0.0.0]` y `[!DNL 0.0.255.0]`. Puede excluir hasta 50 direcciones IP diferentes.
 
 >[!TIP]
 >

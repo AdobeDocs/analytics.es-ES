@@ -25,20 +25,20 @@ La variable `useBeacon` se omite cuando el visitante utiliza un explorador que n
 
 ## Utilice la API sendBeacon con la extensión del SDK web
 
-El **[!UICONTROL Se descargará el documento]** en una Configuración de acción determina si los datos enviados al Adobe utilizan la API sendBeacon.
+La casilla de verificación **[!UICONTROL Documento descargará]** dentro de una Configuración de acción determina si los datos enviados al Adobe utilizan la API sendBeacon.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
-1. Vaya a la [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee.
-1. En [!UICONTROL Acciones], haga clic en la acción deseada o en **&#39;+&#39;** para añadir una nueva acción.
-1. Configure las variables [!UICONTROL Extensión] lista desplegable para **[!UICONTROL SDK web de Adobe Experience Platform]** y el [!UICONTROL Tipo de acción] hasta **[!UICONTROL Enviar evento]**
-1. Haga clic en la casilla **[!UICONTROL Se descargará el documento]** a la derecha.
+1. Vaya a la ficha [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee.
+1. En [!UICONTROL Acciones], haga clic en la acción que desee o en el icono **&#39;+&#39;** para agregar una acción nueva.
+1. Establece la lista desplegable [!UICONTROL Extension] en **[!UICONTROL SDK web de Adobe Experience Platform]** y el [!UICONTROL tipo de acción] en **[!UICONTROL Enviar evento]**
+1. Haga clic en la casilla de verificación **[!UICONTROL El documento se descargará]** a la derecha.
 
 Si se marca esta casilla, los datos se envían al Adobe mediante la API sendBeacon. De forma predeterminada, está desactivada.
 
 ## Utilice la API sendBeacon para implementar manualmente el SDK web
 
-Establecer `documentUnloading` hasta `true` al enviar un evento. Si no se configura, su valor predeterminado es `false`.
+Establezca `documentUnloading` en `true` al enviar un evento. Si no se establece, su valor predeterminado es `false`.
 
 ```json
 alloy("sendEvent", {

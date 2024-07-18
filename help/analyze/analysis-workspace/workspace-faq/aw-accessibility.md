@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 99%
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ La accesibilidad se refiere a hacer que personas con discapacidades visuales, au
 
 La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a abajo e izquierda a derecha. Los siguientes elementos de navegación facilitan la accesibilidad:
 
-* La tecla `Tab` habilita los métodos abreviados de referencia, moviéndose entre secciones más grandes en Workspace. En el carril izquierdo, `Tab` también le permite pasar de una opción arrastrable a la siguiente.
+* La tecla `Tab` habilita los métodos abreviados de referencia, moviéndose entre secciones más grandes dentro del espacio de trabajo. En el carril izquierdo, `Tab` también le permite pasar de una opción arrastrable a la siguiente.
 * El movimiento `left/right arrows` entre elementos individuales después de que `Tab` lo haya resaltado.
 * El `F6` se desplaza al primer panel del proyecto y se mueve entre las visualizaciones de ese panel. A continuación, se desplaza al siguiente panel del proyecto y se repite.
 * Aplicamos indicadores de enfoque para que los usuarios de este tipo de teclados tengan una clara indicación de qué elemento de la interfaz de usuario está seleccionado actualmente. El indicador es un borde azul alrededor del elemento seleccionado.
 
-   ![Indicador de enfoque](assets/focus-indicator.png)
+  ![Indicador de enfoque](assets/focus-indicator.png)
 
 ### Navegación por teclado para la barra de menús
 
@@ -70,7 +70,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 | `[Ctrl + Shift + D]` | Nuevo intervalo de fechas |
 | `[Ctrl + Shift + E]` | Nuevo segmento |
 | `[Ctrl + Z]` | Deshacer |
-| `[Component drag + Shift]` | Creación de un filtro desplegable |
+| `[Component drag + Shift]` | Cree un filtro desplegable |
 
 #### Democratización
 
@@ -80,7 +80,7 @@ La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a aba
 | `[Ctrl + Shift + G]` | Depurar |
 | `[Ctrl + G]` | Compartir |
 | `[Alt + Shift + S]` | Programación |
-| `[Alt + L]` | Obtener vínculo al proyecto |
+| `[Alt + L]` | Obtener vínculo del proyecto |
 | `[Ctrl + Shift + B]` | Descargar PDF |
 
 ## Compatibilidad con lectores de pantalla y ampliadores de pantalla

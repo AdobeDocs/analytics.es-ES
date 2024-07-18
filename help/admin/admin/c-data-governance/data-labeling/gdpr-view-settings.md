@@ -22,7 +22,7 @@ El cuadro de diálogo **[!UICONTROL Etiquetado de privacidad para la administrac
 
    >[!NOTE]
    >
-   >Si no ve este elemento de menú, debe agregarlo a un [perfil de producto en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=es) con permisos para esta funcionalidad o se les ha proporcionado acceso a un grupo de informes dentro del Admin Console.
+   >Si no ve este elemento de menú, debe agregarlo a un [perfil de producto en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=es) con permisos para esta funcionalidad o se le ha proporcionado acceso a un grupo de informes dentro del Admin Console.
 
 3. En la parte superior derecha, seleccione un grupo de informes cuyas etiquetas de privacidad desee ver o administrar.
 

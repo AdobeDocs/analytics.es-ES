@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 88%
+source-wordcount: '1424'
+ht-degree: 84%
 
 ---
 
@@ -32,22 +32,22 @@ Experimentará el siguiente efecto secundario al abrir un libro ARB v5.1 con sol
 
 ## Problemas de autenticación en Report Builder {#section_FD79104DF1414FE2B36591606C963DE6}
 
-Report Builder requiere autenticación para crear solicitudes de datos a partir de grupos de informes. A veces hay problemas al iniciar sesión en el Report Builder, según la configuración de [!DNL Analytics] o su red.
+Report Builder requiere autenticación para crear solicitudes de datos a partir de grupos de informes. A veces hay problemas al iniciar sesión en el Report Builder, según la configuración en [!DNL Analytics] o la red.
 
-* **Empresa de inicio de sesión no válida**: Este error se produce normalmente si se escribe incorrectamente el nombre de la empresa de inicio de sesión o si hay problemas de actividad de red. Haga lo siguiente:
+* **Empresa de inicio de sesión no válida**: este error se produce normalmente si se escribe incorrectamente el nombre de la empresa de inicio de sesión o si hay problemas de actividad de red. Haga lo siguiente:
    * Revise el nombre de la compañía de inicio de sesión para asegurarse de que esté bien escrito y sin espacios innecesarios.
    * Inicie sesión en Analytics con la misma empresa de inicio de sesión para asegurarse de que sea correcta. Si no puede iniciar sesión con esas credenciales, póngase en contacto con los administradores de su organización para que le faciliten el nombre correcto de la empresa de inicio de sesión.
-* **Cortafuegos**: Report Builder usa los puertos 80 y 443. Asegúrese de que estos puertos tienen permiso de paso en el cortafuegos de su empresa. Consulte también las direcciones IP internas de Adobe para conocer otras exclusiones de cortafuegos.
+* **Firewall**: el Report Builder usa los puertos 80 y 443. Asegúrese de que estos puertos tienen permiso de paso en el cortafuegos de su empresa. Consulte también las direcciones IP internas de Adobe para conocer otras exclusiones de cortafuegos.
 
 ## Recomendaciones para optimizar solicitudes {#section_33EF919255BF46CD97105D8ACB43573F}
 
 Los siguientes factores pueden aumentar la complejidad de la solicitud y dar como resultado un procesamiento más lento.
 
 * **Factores que pueden ralentizar los envíos**: Se programaron demasiados marcadores, tableros y libros de Report Builder en un plazo de pocas horas. Se programaron demasiados libros de Report Builder con muy poca diferencia horaria. Si esto sucede, la cola API del informe se pone como pendiente.
-* **Factores que ralentizan el tiempo de ejecución del libro**: Aumento significativo de las clasificaciones o aumento del intervalo de fechas de solicitud a lo largo del tiempo.
+* **Factores que pueden ralentizar el tiempo de ejecución del libro**: Aumento significativo de las clasificaciones o aumento del intervalo de fechas de solicitud a lo largo del tiempo.
 * **Causas que producen un error en la entrega del libro**: Fórmulas complejas de Excel, especialmente aquellas que implican fecha y hora.
-* **Celdas que devuelven 0 (sin valores)**: Un apóstrofo o una comilla simple en el nombre de la hoja de Excel hará que el Report Builder no devuelva valores. (Se trata de una limitación de Microsoft Excel).
-* **Rendimiento de solicitud individual**: La velocidad de procesamiento puede verse afectada por las siguientes configuraciones:
+* **Celdas que devuelven 0 (sin valores)**: Un apóstrofo o una comilla simple en el nombre de la hoja de Excel provocará que el Report Builder no devuelva valores. (Se trata de una limitación de Microsoft Excel).
+* **Rendimiento de solicitud individual**: La velocidad de procesamiento puede verse afectada por la siguiente configuración:
 
   | Configuración | Rendimiento más rápido | Rendimiento más lento |
   |--- |--- |--- |
@@ -58,13 +58,13 @@ Los siguientes factores pueden aumentar la complejidad de la solicitud y dar com
   | Granularidad | Agregado | Por hora<ul><li>Diario</li><li>Semanal</li><li>Mensual</li><li>Trimestral</li><li>Anual</li></ul> |
   | Número de entradas | Conjunto de datos pequeño | Conjunto de datos grande |
 
-* **Horas de programación**: Escalonar la programación en un periodo de 24 horas (ver la siguiente tabla). Programar marcadores, tableros y libros de Report Builder existentes con muy poca diferencia horaria puede causar retrasos. Programar solicitudes más grandes y más complejas por la mañana temprano para permitir que las extracciones manuales y la actualización se produzcan a lo largo del día.
+* **Hora de programación**: Escalonar la programación en un período de 24 horas (ver la siguiente tabla). Programar marcadores, tableros y libros de Report Builder existentes con muy poca diferencia horaria puede causar retrasos. Programar solicitudes más grandes y más complejas por la mañana temprano para permitir que las extracciones manuales y la actualización se produzcan a lo largo del día.
 
   | Hora de programación | 1 a. m. - 2 a. m. | 2 a. m. - 7 a. m. | 7 a. m. - 6 p. m. | 6 p. m. - Medianoche |
   |--- |--- |--- |--- |--- |
   | Uso de Report Builder | Tranquilo | Muy ocupado | Uso por lado del cliente.<br>Volúmenes más altos de usuarios que actualizan localmente y solicitan &quot;Enviar inmediatamente&quot;.<br>Además, se verifica si la cola de API está borrada cuando los libros programados vencen. | Desocupado |
 
-* **Tiempos de espera**: Todos los informes programados tienen un tiempo de espera de cuatro horas. El sistema intenta programar tres veces más, pero posiblemente se producirá un fallo. (Generalmente, cuanto más grandes sean los conjuntos de datos más tardarán en ejecutarse). Esto puede comprobarse en los informes de [!DNL Analytics] y en Report Builder:
+* **Tiempos de espera**: Cualquier informe programado tiene un tiempo de espera de cuatro horas. El sistema intenta programar tres veces más, pero posiblemente se producirá un fallo. (Generalmente, cuanto más grandes sean los conjuntos de datos más tardarán en ejecutarse). Esto puede comprobarse en los informes de [!DNL Analytics] y en Report Builder:
 
 ## Descripciones de mensajes de error de muestra {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
@@ -74,7 +74,7 @@ Esta sección incluye una lista de ejemplo de los mensajes de error que pueden p
 >
 >Este es un ejemplo de mensajes de error y no una lista exhaustiva. Para obtener más información sobre la resolución de errores, póngase en contacto con su administrador.
 
-* **Esta función solo se puede aplicar en un libro abierto.**: Este mensaje aparece si no hay libros (documentos de hoja de cálculo) abiertos en Excel y se hace clic en uno de los iconos de la barra de herramientas del Report Builder. Asimismo, la barra de herramientas se deshabilitará hasta que se abra una hoja de cálculo. Sin embargo, se puede hacer clic en el icono de ayuda en línea mientras la barra de herramientas esté activada sin que se produzca este error.
+* **Esta función solo se puede aplicar en un libro abierto.**: este mensaje aparece si no hay libros (documentos de hoja de cálculo) abiertos en Excel y se hace clic en uno de los iconos de la barra de herramientas del Report Builder. Asimismo, la barra de herramientas se deshabilitará hasta que se abra una hoja de cálculo. Sin embargo, se puede hacer clic en el icono de ayuda en línea mientras la barra de herramientas esté activada sin que se produzca este error.
 * **En primer lugar, debe salir del [!UICONTROL Asistente para solicitudes] antes activar el [!UICONTROL Administrador de solicitudes].**: A pesar de que el [!UICONTROL Administrador de solicitudes] y el [!UICONTROL Asistente para solicitudes] están vinculados funcionalmente, no es posible comenzar a trabajar con el [!UICONTROL administrador] antes de completar o cancelar las operaciones llevadas a cabo en el [!UICONTROL asistente].
 * **No hay solicitudes asociadas a este rango.**: Este mensaje de error se produce si se hace clic en el botón [!UICONTROL Desde hoja] del [!UICONTROL Administrador de solicitudes] cuando una celda de la hoja de cálculo no contiene solicitudes. Para identificar qué celdas de la hoja de cálculo contienen solicitudes, haga clic en solicitudes individuales que estén incluidas en la tabla del [!UICONTROL Administrador de solicitudes]. Si una solicitud está asociada con celdas, las celdas aparecerán resaltadas cuando la solicitud se seleccione en la tabla.
 * **El rango seleccionado no es válido. Seleccione otro rango.**: Si una celda de la hoja de cálculo se selecciona y ya tiene una solicitud asignada, se producirá este error. Elimine la solicitud asignada a las celdas o seleccione otro intervalo de celdas para asignar. Si desea eliminar celdas, es importante localizar las que contengan solicitudes y eliminar la solicitud antes de eliminar las celdas (eliminando filas o columnas).

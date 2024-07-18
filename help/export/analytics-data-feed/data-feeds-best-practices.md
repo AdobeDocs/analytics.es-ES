@@ -6,7 +6,7 @@ feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 88%
 
 ---
@@ -27,4 +27,4 @@ A continuación se indican algunas de las prácticas recomendadas para el proces
 
 * Si utiliza un FTP (no recomendado), asegúrese de que dispone de suficiente espacio en su sitio FTP. Elimine los archivos del destino de forma regular para que no se quede sin espacio en disco.
 
-* Si utiliza SFTP (no recomendado), no lea ni elimine archivos con un `.part` sufijo. El sufijo `.part` indica que el archivo se transfiere parcialmente. Una vez transferido el archivo, desaparece el sufijo `.part`.
+* Si utiliza SFTP (no recomendado), no lea ni elimine archivos con un sufijo `.part`. El sufijo `.part` indica que el archivo se transfiere parcialmente. Una vez transferido el archivo, desaparece el sufijo `.part`.

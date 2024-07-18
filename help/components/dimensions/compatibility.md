@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Compatibilidad de dimensiones de Analytics
 
-Esta página enumera [dimensiones](overview.md) compatibles con sus respectivas funciones de Analytics.
+Esta página lista [dimensiones](overview.md) compatibles con sus respectivas capacidades de Analytics.
 
 >[!NOTE]
 >

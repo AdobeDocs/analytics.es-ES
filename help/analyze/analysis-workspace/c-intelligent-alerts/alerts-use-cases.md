@@ -13,7 +13,7 @@ ht-degree: 65%
 
 # Alertas inteligentes: Casos de uso
 
-Puede crear alertas inteligentes como se describe en [Creación de alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
+Puede crear alertas inteligentes como se describe en [Crear alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
 
 Las secciones siguientes ilustran ejemplos de casos de uso que se deben tener en cuenta al crear alertas.
 

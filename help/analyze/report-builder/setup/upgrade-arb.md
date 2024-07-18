@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 53%
+source-wordcount: '229'
+ht-degree: 51%
 
 ---
 
@@ -27,18 +27,18 @@ Para actualizar el Report Builder
 1. Inicie sesión en su versión actual de Report Builder.
 1. Vaya al menú **[!UICONTROL Opciones]** para actualizar a la versión más reciente. El número de versión actual se muestra hacia el final del cuadro de diálogo Opciones.
 
-   ![Captura de pantalla que muestra el diálogo Opciones y la versión actual y la nueva versión.](assets/upgrade.png)
+   ![Captura de pantalla que muestra el cuadro de diálogo Opciones y la versión actual y la nueva versión.](assets/upgrade.png)
 
-1. Si existe una versión nueva, haga clic en **[!UICONTROL Actualizar...]**. El botón muestra a qué versión se está actualizando, por ejemplo: *Actualización a la versión 5.0.50*
+1. Si existe una versión nueva, haga clic en **[!UICONTROL Actualizar...]**. El botón mostrará a qué versión está actualizando, por ejemplo: *Actualizar a la versión 5.0.50*
 
    >[!NOTE]
    >
    >Si este botón aparece en gris, significa que no hay una versión nueva de Report Builder disponible.
 
-1. (Opcional) Seleccione la **[!UICONTROL Actualizar cuando haya una nueva versión disponible]** casilla de verificación Más adelante, esto iniciará el proceso de actualización de forma automática cuando haya una versión nueva disponible.
+1. (Opcional) Seleccione la casilla de verificación **[!UICONTROL Actualizar cuando haya una nueva versión disponible]**. Más adelante, esto iniciará el proceso de actualización de forma automática cuando haya una versión nueva disponible.
 1. Cuando aparezca la pantalla de configuración, haga clic en **[!UICONTROL Siguiente >]**.
 
-   ![Captura de pantalla que muestra la pantalla Configuración del Report Builder.](assets/setup.png)
+   ![Captura de pantalla que muestra la pantalla de configuración del Report Builder.](assets/setup.png)
 
 1. Una vez completada la actualización, vuelva a iniciar sesión en Report Builder.
 

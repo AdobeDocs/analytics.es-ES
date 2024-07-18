@@ -27,7 +27,7 @@ La activación de `linkLeaveQueryString` se aplica a todas las dimensiones de se
 
 ## Administrar cadenas de consulta de vínculo mediante el SDK web
 
-Las cadenas de consulta no se eliminan del campo XDM `web.webInteraction.URL`. Si desea eliminar cadenas de consulta de este campo XDM, puede editarlo mediante `onBeforeEventSend`.
+Las cadenas de consulta no se eliminan del campo XDM `web.webInteraction.URL`. Si desea eliminar las cadenas de consulta de este campo XDM, puede editarlo mediante `onBeforeEventSend`.
 
 ## Mantener parámetros de URL con la extensión Adobe Analytics
 

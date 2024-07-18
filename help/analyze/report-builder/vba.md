@@ -7,7 +7,7 @@ exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ Debe ejecutar la última versión de Report Builder e iniciar sesión antes de e
 >
 >Por motivos de seguridad, no se puede programar un libro que contenga una macro.
 
-Adobe admite tres métodos de API de Report Builder.
+El Adobe admite tres métodos de API de Report Builder.
 
 ## `RefreshAllReportBuilderRequests()`
 

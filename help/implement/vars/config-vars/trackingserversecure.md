@@ -19,16 +19,16 @@ Adobe recopila datos en el sitio mediante la recepción de una solicitud de imag
 >
 >Si se cambia este valor, AppMeasurement buscará cookies en una ubicación diferente. La cantidad de visitantes únicos puede aumentar temporalmente en los informes a medida que las cookies de los visitantes se establecen en la nueva ubicación.
 
-## Dominio perimetral con la extensión del SDK web
+## Dominio de Edge que utiliza la extensión del SDK web
 
-El SDK web utiliza [!UICONTROL Dominio de Edge] para gestionar tanto el servidor de seguimiento como el servidor de seguimiento seguro. Puede establecer el [!UICONTROL Dominio de Edge] al configurar la extensión del SDK web.
+El SDK web usa [!UICONTROL dominio de Edge] para administrar tanto el servidor de seguimiento como el servidor de seguimiento seguro. Puede establecer el valor [!UICONTROL dominio de Edge] deseado al configurar la extensión del SDK web.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
-1. Vaya a la [!UICONTROL Extensiones] y, a continuación, haga clic en **[!UICONTROL Configurar]** botón debajo de [!UICONTROL SDK web de Adobe Experience Platform].
-1. Defina el **[!UICONTROL Dominio de Edge]** campo de texto.
+1. Vaya a la pestaña [!UICONTROL Extensions] y, a continuación, haga clic en el botón **[!UICONTROL Configure]** en [!UICONTROL Adobe Experience Platform Web SDK].
+1. Establezca el campo de texto **[!UICONTROL dominio de Edge]** deseado.
 
-Consulte [Configuración de la extensión SDK para web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=es) en la documentación del SDK web para obtener más información.
+Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=es) en la documentación del SDK web para obtener más información.
 
 >[!TIP]
 >
@@ -36,7 +36,7 @@ Consulte [Configuración de la extensión SDK para web de Adobe Experience Platf
 
 ## Dominio de Edge que implementa manualmente el SDK web
 
-Configuración del SDK mediante [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es). El campo es una cadena que determina el dominio al que se envían los datos.
+Configure el SDK con [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es). El campo es una cadena que determina el dominio al que se envían los datos.
 
 ```json
 alloy("configure", {

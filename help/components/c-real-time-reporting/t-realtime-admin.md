@@ -5,7 +5,7 @@ feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '291'
 ht-degree: 78%
 
 ---
@@ -18,7 +18,7 @@ Esto consiste en seleccionar el grupo de informes y configurar hasta 3 informes 
 
 1. Seleccione el grupo de informes para el que quiere habilitar los informes en tiempo real.
 
-   1. En Analysis Workspace, seleccione la [!UICONTROL **Workspace**] pestaña, luego seleccione [!UICONTROL **Informes**] > [!UICONTROL **Participación**] > **[!UICONTROL Tiempo real]**.
+   1. En Analysis Workspace, seleccione la ficha [!UICONTROL **Workspace**] y, a continuación, seleccione [!UICONTROL **Informes**] > [!UICONTROL **Participación**] > **[!UICONTROL Tiempo real]**.
 
    1. Seleccione el grupo de informes en la lista desplegable de la parte superior:
 
@@ -28,7 +28,7 @@ Esto consiste en seleccionar el grupo de informes y configurar hasta 3 informes 
 
       ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
 
-1. Seleccionar **[!UICONTROL Configurar]** para ejecutar el [!UICONTROL Administrador de grupos de informes].
+1. Seleccione **[!UICONTROL Configurar]** para ejecutar el [!UICONTROL Administrador del grupo de informes].
 
    (También disponible en **[!UICONTROL Analytics]** > **[!UICONTROL Administración > Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Tiempo real]**).
 
@@ -55,7 +55,7 @@ Esto consiste en seleccionar el grupo de informes y configurar hasta 3 informes 
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Seleccionar **[!UICONTROL Guardar]** o **[!UICONTROL Guardar y ver informe]**.
+1. Seleccione **[!UICONTROL Guardar]** o **[!UICONTROL Guardar y ver informe]**.
 
    Después de esta configuración inicial del informe los datos pueden tardar hasta 20 minutos en ser transferidos. A partir de ese momento los datos estarán disponibles inmediatamente. Para obtener más información sobre la visualización de informes en tiempo real, consulte [Ejecución de un informe en tiempo real](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=es).
 

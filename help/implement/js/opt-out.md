@@ -17,12 +17,12 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> Este artículo proporciona lo siguiente **Clientes de Adobe Analytics que (planean) implementar Adobe Analytics** en su sitio web con instrucciones sobre cómo proporcionar a los usuarios del sitio web vínculos de exclusión. <p><p>
-> Si es usted **visitar un sitio web que haya implementado Adobe Analytics**, y desea optar por no participar, **<span style="color:red">este artículo NO es para usted</span>**. Consulte lo siguiente [Opciones de privacidad de Adobe](https://www.adobe.com/es/privacy/opt-out.html) para controlar cómo utiliza el Adobe su información.
+> Este artículo proporciona a **clientes de Adobe Analytics que (están planeando) implementar Adobe Analytics** en su sitio web instrucciones sobre cómo proporcionar a los usuarios del sitio web vínculos de no participación. <p><p>
+> Si está **visitando un sitio web que ha implementado Adobe Analytics** y desea excluirse, **<span style="color:red">este artículo NO es para usted</span>**. Consulte [Opciones de privacidad de Adobe](https://www.adobe.com/es/privacy/opt-out.html) para controlar cómo usa el Adobe su información.
 
 Algunos visitantes del sitio Web prefieren no incluir su información de navegación en el conjunto de datos. El Adobe permite proporcionar a los visitantes de un sitio web un medio para evitar que se analice su información.
 
-Los vínculos de exclusión permiten a los visitantes del sitio web omitir sus datos en los informes de Analytics. Estos vínculos se limitan a implementaciones de AppMeasurement; Adobe recomienda utilizar la variable [Servicio de inclusión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) en su lugar. El servicio de inclusión (Opt-in) es más robusto y funciona con varios productos de Adobe Experience Cloud, incluidos Adobe Analytics y AppMeasurement.
+Los vínculos de exclusión permiten a los visitantes del sitio web omitir sus datos en los informes de Analytics. Estos vínculos se limitan a implementaciones de AppMeasurement; Adobe recomienda usar el servicio de inclusión de [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) en su lugar. El servicio de inclusión (Opt-in) es más robusto y funciona con varios productos de Adobe Experience Cloud, incluidos Adobe Analytics y AppMeasurement.
 
 Cuando un visitante llega a una URL de exclusión, se le solicita que instale una cookie de exclusión. Si un usuario decide no rastrearse y se establece una cookie de exclusión, el AppMeasurement continúa enviando datos al Adobe. Sin embargo, esos datos no se procesan ni se incluyen en los informes.
 
@@ -62,25 +62,25 @@ Hay opciones que se pueden cargar automáticamente en esta página mediante cade
 
 Cambiar automáticamente el idioma de la página de exclusión incluyendo el parámetro de cadena de consulta `locale`. Asigne este parámetro de cadena de consulta uno de los siguientes valores:
 
-* `en_US` (Inglés, predeterminado)
-* `bg_BG` (Búlgaro)
-* `zh_CN` (Chino simplificado)
-* `zh_TW` (Chino tradicional)
-* `cs_CZ` (Checo)
-* `da_NK` (Danés)
+* `en_US` (inglés, predeterminado)
+* `bg_BG` (búlgaro)
+* `zh_CN` (chino simplificado)
+* `zh_TW` (chino tradicional)
+* `cs_CZ` (checo)
+* `da_NK` (danés)
 * `nl_NL` (neerlandés)
-* `et_EE` (Estonio)
+* `et_EE` (estonio)
 * `fi_FI` (finés)
 * `fr_FR` (francés)
-* `de_DE` (Alemán)
-* `el_GR` (Griego)
-* `it_IT` (Italiano)
-* `jp_JP` (Japonés)
-* `ko_KR` (Coreano)
-* `lv_LV` (Letón)
+* `de_DE` (alemán)
+* `el_GR` (griego)
+* `it_IT` (italiano)
+* `jp_JP` (japonés)
+* `ko_KR` (coreano)
+* `lv_LV` (letón)
 * `lt_LT` (lituano)
-* `nb_NO` (Noruego)
-* `pl_PL` (Polaco)
+* `nb_NO` (noruego)
+* `pl_PL` (polaco)
 * `pt_BR` (portugués)
 * `sk_SK` (eslovaco)
 * `es_ES` (español)

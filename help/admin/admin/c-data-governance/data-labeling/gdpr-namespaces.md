@@ -21,7 +21,7 @@ La cadena del área de nombres se emplea para identificar los campos en los que 
 * Un campo “type” que, en la mayoría de las solicitudes de Adobe Analytics, contiene el valor “analytics”.
 * Un campo “value” que contiene el ID que Analytics debería buscar en las variables de área de nombres asociadas de cada uno de sus grupos de informes.
 
-Consulte la [Documentación de la API de privacidad de datos de Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=es) para obtener más información y una [lista de áreas de nombres de identidad estándar](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). Consulte [Creación de un trabajo de acceso o eliminación](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) para una solicitud de ejemplo.
+Consulte la [documentación de la API de privacidad de datos del Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=es) para obtener más información y una [lista de áreas de nombres de identidad estándar](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). Consulte [Crear un trabajo de acceso o eliminación](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) para una solicitud de ejemplo.
 
 ## ID de cookie
 
@@ -114,6 +114,6 @@ También puede ver los áreas de nombres que haya definido con anterioridad para
 
 >[!CAUTION]
 >
->Los espacios de nombres `visitorId` y `customVisitorId` se reservan para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de cliente de Analytics. No utilice estas áreas de nombres para variables de conversión o tráfico personalizado.
+>Las áreas de nombres `visitorId` y `customVisitorId` están reservadas para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de cliente de Analytics. No utilice estas áreas de nombres para variables de conversión o tráfico personalizado.
 
 Para obtener más información, consulte [Proporcionar un área de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON.](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)

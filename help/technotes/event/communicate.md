@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Comunicar el impacto del evento a los usuarios
 
-Si tiene datos [afectado por un evento](overview.md)Además, es importante comunicar ese evento a los usuarios de su organización.
+Si los datos [se han visto afectados por un evento](overview.md), es importante que comunique ese evento a los usuarios de su organización.
 
 * Desarrolle una exención de responsabilidad común que pueda utilizar en las comunicaciones para mantener la coherencia
 * Proporcionar una comunicación continua a los usuarios de Analytics y a las partes interesadas clave durante y después del evento
@@ -32,9 +32,9 @@ También puede comunicar el impacto de un evento a través de visualizaciones de
 
 ![Visualización de texto](assets/text_visualization.png)
 
-## Añadir eventos de calendario personalizados a las tendencias de Workspace
+## Añadir eventos de calendario personalizados a las tendencias en Workspace
 
-Para cualquier visualización de tendencias en Workspace, puede añadir una serie que represente el intervalo de fechas afectado.
+Para cualquier visualización de tendencias en Workspace, puede agregar una serie que represente el intervalo de fechas afectado.
 
 1. Cree una métrica calculada con el segmento &quot;Días afectados&quot; siguiendo [Excluir fechas específicas en el análisis](segments.md).
 1. Añada la métrica deseada al lienzo de la métrica calculada.
@@ -49,7 +49,7 @@ Para cualquier visualización de tendencias en Workspace, puede añadir una seri
 
    ![Tabla de forma libre](assets/calcmetric_freeform.png)
 
-1. Haga clic en el icono de engranaje de la configuración de columna de la métrica calculada y active **[!UICONTROL La interpretación de cero no tiene valor]**.
+1. Haga clic en el icono de engranaje de configuración de columna de la métrica calculada y habilite **[!UICONTROL Interpretar cero como sin valor]**.
 
    ![Configuración de métricas calculadas](assets/calcmetric_zero_no_value.png)
 

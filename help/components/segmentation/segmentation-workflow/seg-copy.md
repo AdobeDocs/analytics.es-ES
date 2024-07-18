@@ -2,10 +2,11 @@
 description: Describe cómo copiar un segmento en el Administrador de segmentos
 title: Copiar segmentos
 feature: Segmentation
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
+exl-id: a7e8fd95-bb22-4961-8aac-a898faca50cd
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
 workflow-type: tm+mt
 source-wordcount: '82'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
@@ -15,10 +16,10 @@ Al crear un segmento nuevo, a veces es más fácil copiar un segmento existente 
 
 Para copiar un segmento en el Administrador de segmentos:
 
-1. En Adobe Analytics, seleccione la **[!UICONTROL Componentes]** pestaña, luego seleccione **[!UICONTROL Segmentos]**.
+1. En Adobe Analytics, seleccione la ficha **[!UICONTROL Componentes]** y, a continuación, seleccione **[!UICONTROL Segmentos]**.
 
 1. En el Administrador de segmentos, seleccione el segmento que desee copiar.
 
    Aparecerá la barra de herramientas para la administración de segmentos.
 
-1. Seleccionar **[!UICONTROL Copiar]**.
+1. Seleccione **[!UICONTROL Copiar]**.

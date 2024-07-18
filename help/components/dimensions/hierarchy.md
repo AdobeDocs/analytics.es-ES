@@ -14,7 +14,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->Esta dimensión desaparece y no es un elemento disponible [dimensión](overview.md) en Analysis Workspace. Adobe recomienda usar [eVars](evar.md) y clasificaciones en su lugar.
+>Esta dimensión se ha retirado y no es una [dimensión](overview.md) disponible en Analysis Workspace. Adobe recomienda usar [eVars](evar.md) y clasificaciones en su lugar.
 
 Las jerarquías son variables personalizadas que se pueden utilizar como desee. No se mantienen más allá de la visita en la que están configuradas. Hay disponibles hasta 5 jerarquías si su contrato con Adobe lo permite.
 

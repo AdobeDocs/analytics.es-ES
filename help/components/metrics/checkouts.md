@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # Cierres de compra
 
-Los &quot;cierres de compra&quot; [métrica](overview.md) muestra la cantidad de veces que un visitante inició el proceso de cierre de compra. Esta métrica es útil cuando desea comprender la parte del canal de conversión en la que los clientes tienen un carro de productos y están listos para comprarlos.
+La métrica [Cierres de compra](overview.md) muestra la cantidad de veces que un visitante inició el proceso de cierre de compra. Esta métrica es útil cuando desea comprender la parte del canal de conversión en la que los clientes tienen un carro de productos y están listos para comprarlos.
 
 ## Cálculo de esta métrica
 

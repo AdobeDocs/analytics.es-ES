@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Vínculo de descarga
 
-El &quot;Vínculo de descarga&quot; [dimensión](overview.md) informa de los nombres de los vínculos de descarga implementados en el sitio. Esta dimensión es valiosa cuando desea obtener más información sobre el comportamiento del visitante en los vínculos de descarga como, por ejemplo:
+El &quot;Vínculo de descarga&quot; [dimension](overview.md) indica los nombres de los vínculos de descarga implementados en el sitio. Esta dimensión es valiosa cuando desea obtener más información sobre el comportamiento del visitante en los vínculos de descarga como, por ejemplo:
 
 * Determinar cuáles son los archivos que se descargan con mayor frecuencia desde el sitio.
 * Saber si algunos archivos se descargan con mayor frecuencia durante períodos de tiempo específicos.

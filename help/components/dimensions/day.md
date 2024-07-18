@@ -12,7 +12,7 @@ ht-degree: 89%
 
 # Día
 
-El &#39;día&#39; [dimensión](overview.md) indica el día en el que se produjo una métrica determinada. El primer elemento de dimensión es el primer día del intervalo de fechas y el último elemento de dimensión es el último día del intervalo de fechas. Esta dimensión es vital para los informes de tendencias, ya que le permite ver las métricas a lo largo del tiempo.
+La dimensión [Día](overview.md) indica el día en el que se produjo una métrica determinada. El primer elemento de dimensión es el primer día del intervalo de fechas y el último elemento de dimensión es el último día del intervalo de fechas. Esta dimensión es vital para los informes de tendencias, ya que le permite ver las métricas a lo largo del tiempo.
 
 ## Rellene esta dimensión con datos
 

@@ -5,16 +5,16 @@ feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 56%
+source-wordcount: '202'
+ht-degree: 59%
 
 ---
 
-# Crear una métrica de &quot;Asistencia para pedidos&quot;
+# Crear una métrica de &quot;Asistencias de pedidos&quot;
 
 La siguiente información explica cómo crear una métrica que muestre qué canales de marketing ayudan a dirigir las órdenes. Esto puede adaptarse a cualquier otro evento de éxito o dimensión que resulte de interés.
 
-1. Comience a crear una métrica calculada como se describe en [Crear métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Comience a crear una métrica calculada, tal como se describe en [Generar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 1. En el Creador de métricas calculadas, asigne a la métrica el nombre &quot;Pedidos asistidos&quot; o algo similar.
 
@@ -26,7 +26,7 @@ La siguiente información explica cómo crear una métrica que muestre qué cana
 
    ![](assets/custom-attr-model.png)
 
-1. Seleccionar [!UICONTROL **Aplicar**] > [!UICONTROL **Guardar**].
+1. Seleccione [!UICONTROL **Aplicar**] > [!UICONTROL **Guardar**].
 
 1. En Analysis Workspace, cree una tabla de forma libre con la dimensión Canal de marketing, Pedidos y la nueva métrica Pedidos asistidos.
 

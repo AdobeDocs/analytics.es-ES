@@ -38,7 +38,7 @@ A continuación se muestra una comparación de las métricas calculadas y las ca
 
 Puede
 
-* Crear métricas en [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Detección de anomalías], y [!UICONTROL Análisis de contribución].
+* Cree métricas en [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución].
 * Crear métricas segmentadas que se derivan del tiempo de ejecución de un informe, sin tener que cambiar la implementación. Éstas pueden verse en el historial, ya que se basan en segmentos.
 
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
@@ -62,11 +62,11 @@ Algunas funciones de [!DNL Analytics] permiten utilizar eventos, pero no métric
 
 ## Herramientas {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-A continuación se muestra una breve descripción general de la [!UICONTROL Métricas calculadas] herramientas:
+A continuación se ofrece una breve descripción general de las herramientas [!UICONTROL Métricas calculadas]:
 
 | Herramienta | Competencias |
 |--- |--- |
 | Creador de métricas calculadas | <ul><li>Cree métricas calculadas avanzadas con modelos de asignación avanzados.</li><li>Añadir segmentos en línea a fórmulas métricas</li><li>Comparar segmentos en el mismo informe. Por ejemplo, comparar los visitantes locales con los visitantes internacionales.</li><li>Uso de funciones estadísticas</li><li>Proporcionar descripciones de métricas detalladas (mostrar qué hace, dónde utilizarla y para qué NO utilizarla)</li><li>Copiar definiciones en métricas nuevas</li><li>Proporcionar una vista previa de métricas en línea</li><li>Establecer la polaridad de una métrica, lo cual indica si es bueno o malo que un evento personalizado determinado (métrica) aumente</li><li>Etiquetar métricas</li></ul> |
-| Administrador de métricas calculadas | <ul><li>Compartir métricas con otros usuarios&lt;/li><li>Aprobación y depuración de métricas</li><li>Organizar (etiquetar) sus métricas para que los demás puedan encontrarlas</li><li>Eliminar métricas</li><li>Cambiar nombre de métricas</li></ul> |
+| Administrador de métricas calculadas | <ul><li>Compartir métricas con otros&lt;/li><li>Aprobación y depuración de métricas</li><li>Organizar (etiquetar) sus métricas para que los demás puedan encontrarlas</li><li>Eliminar métricas</li><li>Cambiar nombre de métricas</li></ul> |
 | Carril del selector de métricas | Le permite buscar y agregar o aplicar métricas en el informe. También puede cambiar el orden (las opciones son: alfabético, recomendado, más utilizados, más recientes). Además, puede filtrar Grupos de informes para mostrar solo las métricas creadas en un grupo de informes específico.  Para acceder a este Selector de métricas, haga clic en el icono Métricas que encontrará en el lateral izquierdo de un informe. |
 | API para métricas calculadas | Parte del conjunto de API de Adobe Analytics 2.0. |

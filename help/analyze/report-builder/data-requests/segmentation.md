@@ -17,7 +17,7 @@ Cómo añadir, editar, aplicar y filtrar los segmentos de Adobe Analytics en Rep
 
 Report Builder incluye un panel de segmentación en el paso 1 del Asistente para solicitudes que le permite crear y administrar segmentos.
 
-![Captura de pantalla que muestra las opciones de Segmento para Agregar, Editar o Borrar segmentos y que resalta los iconos de Control, Filtro y Actualizar.](assets/seg_dialog.png)
+![Captura de pantalla que muestra las opciones de Segmento para Agregar, Editar o Borrar segmentos y resalta los iconos de Control, Filtro y Actualización.](assets/seg_dialog.png)
 
 ## Adición o edición de segmentos {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -68,7 +68,7 @@ Puede aplicar uno o varios segmentos a una solicitud determinada. Esto incluye s
 
 ## Filtrar segmentos. {#filter}
 
-**Filtrar** para crear segmentos haciendo clic en el icono Filtro:  ![Icono de filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+**Filtrar** segmentos haciendo clic en el icono Filtro: ![Icono de filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
 Los filtros disponibles incluyen:
 
@@ -76,7 +76,7 @@ Los filtros disponibles incluyen:
 |---|---|
 | Etiquetas | Le permite filtrar los segmentos con etiquetas específicas. Tenga en cuenta que los filtros de etiqueta utilizan el operador AND. Si marca dos etiquetas, el panel derecho muestra los segmentos etiquetados con **ambas** etiquetas. |
 | Propietarios | Le permite filtrar segmentos por propietario. Tenga en cuenta que los filtros de Propietario utilizan el operador OR. Si marca dos propietarios, el panel de la derecha muestra los segmentos que son propiedad de **uno** de los propietarios. |
-| Otros filtros > Solo el *nombre del grupo de informes* | Si aplica la variable &quot;Solo *nombre del grupo de informes*&quot; en el Generador de segmentos de Adobe Analytics y, a continuación, muestre el Filtro avanzado en [!DNL Report Builder], el filtro avanzado solo mostrará el segmento para el grupo de informes seleccionado. |
+| Otros filtros > Solo el *nombre del grupo de informes* | Si aplica el filtro &quot;Solo *nombre del grupo de informes*&quot; en el Generador de segmentos en Adobe Analytics y, a continuación, muestra el Filtro avanzado en [!DNL Report Builder], el Filtro avanzado solo mostrará el segmento para el grupo de informes seleccionado. |
 | Otros filtros > Míos | Muestra todos los segmentos de su propiedad. |
 | Otros filtros > Compartidos conmigo | Muestra todos los segmentos que otros comparten con usted. |
 | Otros filtros > Favoritos | Muestra todos los segmentos que haya marcado como Favoritos. |
@@ -86,7 +86,7 @@ Los filtros disponibles incluyen:
 
 Añadir un control de segmento le permite conmutar segmentos dentro de un libro en lugar de tener que ir al Asistente para solicitudes.
 
-1. Haga clic en el icono Control ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) junto a la lista desplegable de segmentos.
+1. Haga clic en el icono de control ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) que se encuentra junto a la lista desplegable de segmentos.
 
 1. Marque todos los segmentos que desee que aparezcan en el control de segmentos o marque **[!UICONTROL Seleccionar todo]**.
 
@@ -105,7 +105,7 @@ Añadir un control de segmento le permite conmutar segmentos dentro de un libro 
 
 ## Actualizar la lista de segmentos {#refresh}
 
-Siempre que añada un segmento nuevo o edite uno existente, debe hacer clic en el icono Actualizar ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) para actualizar la lista almacenada en caché de segmentos.
+Siempre que agregue un segmento nuevo o edite uno existente, debería hacer clic en el icono Actualizar ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) para actualizar la lista almacenada en caché de segmentos.
 
 ## Administración de segmentos entre solicitudes {#manage}
 
@@ -116,7 +116,7 @@ Report Builder 5.4 permite añadir, eliminar, reemplazar y reemplazar todos los 
 1. Seleccione varias solicitudes en un libro.
 1. Haga clic con el botón derecho y seleccione **[!UICONTROL Editar solicitudes]** > **[!UICONTROL Por segmento]**.
 
-   ![Captura de pantalla que muestra Editar solicitudes y Por segmento seleccionado.](assets/edit_by_segment.png)
+   ![Captura de pantalla que muestra las solicitudes de edición y por segmento seleccionado.](assets/edit_by_segment.png)
 
 1. En el cuadro de diálogo Editar grupo, seleccione una de las cuatro opciones:
 

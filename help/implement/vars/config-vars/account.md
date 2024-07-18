@@ -20,5 +20,5 @@ ht-degree: 38%
 En versiones anteriores de Adobe Analytics, la variable `account` determinaba el grupo de informes al que desee enviar los datos. Se requiere un ID de grupo de informes para enviar datos a Adobe Analytics.
 
 * Si utiliza el SDK web, los grupos de informes se encuentran en la configuración del servicio Adobe Analytics dentro del conjunto de datos al que el SDK web envía datos.
-* Si utiliza la extensión de Adobe Analytics, los grupos de informes residen en el [!UICONTROL Administración de biblioteca] al configurar la extensión de Adobe Analytics.
-* Si usa el [`s_gi()`](../functions/s-gi.md) para crear una instancia de un objeto de seguimiento de Analytics, los ID del grupo de informes ya existen como argumento requerido en la función.
+* Si usa la extensión de Adobe Analytics, los grupos de informes residen en el acordeón [!UICONTROL Administración de biblioteca] al configurar la extensión de Adobe Analytics.
+* Si usa la función [`s_gi()`](../functions/s-gi.md) para crear una instancia de un objeto de seguimiento de Analytics, los identificadores del grupo de informes ya existen como argumento requerido en la función.

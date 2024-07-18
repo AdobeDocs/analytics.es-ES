@@ -128,7 +128,7 @@ Si debe migrar cuentas de usuario de Adobe ID existentes a Enterprise ID o Feder
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio </p> </td> 
-   <td colname="col2"> <p>Asegúrese de que los dominios de <span class="term"> Dominio</span> y <span class="term"> Correo electrónico</span> coinciden con los dominios establecidos en los requisitos previos</a>. </p> </td> 
+   <td colname="col2"> <p>Asegúrese de que los dominios del dominio <span class="term"> </span> y de la columna <span class="term"> Email</span> coinciden con los dominios establecidos en los requisitos previos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código del país </p> </td> 

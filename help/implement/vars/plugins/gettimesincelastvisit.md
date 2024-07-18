@@ -22,10 +22,10 @@ El complemento `getTimeSinceLastVisit` le permite rastrear cuánto tiempo ha tar
 Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con el SDK web.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Clic **[!UICONTROL Etiquetas]** a la izquierda, haga clic en la propiedad de etiqueta que desee.
-1. Clic **[!UICONTROL Extensiones]** a la izquierda y, a continuación, haga clic en **[!UICONTROL Catálogo]** pestaña
-1. Busque e instale el **[!UICONTROL Complementos comunes del SDK web]** extensión.
-1. Clic **[!UICONTROL Elementos de datos]** a la izquierda, haga clic en el elemento de datos deseado.
+1. Haga clic en **[!UICONTROL Etiquetas]** a la izquierda y luego haga clic en la propiedad de etiquetas deseada.
+1. Haga clic en **[!UICONTROL Extensiones]** a la izquierda y, a continuación, haga clic en la ficha **[!UICONTROL Catálogo]**
+1. Busque e instale la extensión **[!UICONTROL Common Web SDK Plugins]**.
+1. Haga clic en **[!UICONTROL Elementos de datos]** a la izquierda y, a continuación, haga clic en el elemento de datos deseado.
 1. Establezca el nombre del elemento de datos deseado con la siguiente configuración:
    * Extensión: Common Web SDK Plugins
    * Elemento de datos: `getTimeSinceLastVisit`

@@ -30,7 +30,7 @@ Todos los usuarios pueden crear etiquetas para los segmentos y aplicar una o má
    * Seleccione una de las etiquetas existentes, o bien
    * Agregue una etiqueta nueva y presione **[!UICONTROL Entrar]**.
 
-      ![](assets/tagging_ui.png)
+     ![](assets/tagging_ui.png)
 
 1. Haga clic en **[!UICONTROL Etiqueta]** de nuevo para etiquetar el segmento.
 

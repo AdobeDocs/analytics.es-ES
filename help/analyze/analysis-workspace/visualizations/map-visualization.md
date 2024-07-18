@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '646'
 ht-degree: 100%
 
 ---
@@ -57,10 +57,10 @@ A continuación, se muestra un vídeo introductorio:
       * Mostrar números negativos: por ejemplo, si planea crear una métrica año tras año, el mapa puede mostrar -33 % en Nueva York.
       * En las métricas de tipo porcentual, la agrupación reúne los porcentajes según la media.
       * Esquema de colores verde/rojo: positivo/negativo
+
    * **Girar** el mapa en 2D o 3D manteniendo presionada la tecla [!UICONTROL Ctrl] y desplazando el mapa.
 
    * **Alternar** entre las distintas vistas, como el mapa de calor, empleando las [configuraciones](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) descritas más adelante. La visualización de burbujas es la configuración predeterminada.
-
 
 1. **Guardar** el proyecto para guardar la configuración completa del mapa (coordenadas, zoom, rotación).
 1. La tabla improvisada, bajo la visualización, puede rellenarse arrastrando a ella dimensiones de localización y métricas desde el carril izquierdo:

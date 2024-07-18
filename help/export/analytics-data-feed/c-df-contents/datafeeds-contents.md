@@ -28,7 +28,7 @@ Para acceder al contenido de una fuente de datos:
 
 1. Descomprima el archivo comprimido con un programa que admita extensiones de archivo `.tar.gz`.
 
-1. Abra el `hit_data.tsv` en la aplicación de hoja de cálculo o de base de datos que desee para ver los datos sin procesar de ese día. —>
+1. Abra el archivo `hit_data.tsv` en la hoja de cálculo o aplicación de base de datos que desee para ver los datos sin procesar de ese día. —>
 
 ## Archivo de manifiesto {#feed-manifest}
 
@@ -67,7 +67,7 @@ Datafeed-Manifest-Version: 1.0
 
 Cada archivo de manifiesto contiene un encabezado, que indica el número total de archivos de búsqueda, archivos de datos y el número total de registros incluidos en todos los archivos de datos. Este encabezado va seguido de varias secciones que contienen información para cada archivo incluido en la entrega de fuente de datos.
 
-Algunas fuentes están configuradas para recibir un archivo `.fin` en lugar de un manifiesto `.txt`. El `.fin` indica que la carga se ha completado, pero que los metadatos que contiene tienen un formato anterior.
+Algunas fuentes están configuradas para recibir un archivo `.fin` en lugar de un manifiesto `.txt`. `.fin` indica que la carga se ha completado, pero los metadatos que contiene tienen un formato anterior.
 
 ## Archivos de búsqueda
 
@@ -81,20 +81,20 @@ Los archivos de búsqueda se entregan juntos en un zip comprimido al que se le a
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* **`column_headers.tsv`**: una sola fila que contiene los encabezados de columna para `hit_data.tsv`.
-* **`browser.tsv`**: Asigna el ID del explorador (la variable `browser` fuente (columna ) con el nombre descriptivo del explorador.
-* **`browser_type.tsv`**: Asigna el ID del explorador (la variable `browser` fuente (columna) al tipo de explorador.
-* **`color_depth.tsv`**: asigna el ID de profundidad de color (el `color` fuente (columna) a la profundidad de color.
-* **`connection_type.tsv`**: Asigna el ID de tipo de conexión (el `connection_type` fuente (columna ) al tipo de conexión.
-* **`country.tsv`**: asigna el ID de país (el `country` fuente (columna) al nombre del país.
-* **`javascript_version.tsv`**: Asigna el ID de versión de JavaScript (el `javascript` fuente (columna ) a la versión de JavaScript.
-* **`languages.tsv`**: Asigna el ID de idioma (la variable `language` fuente (columna) al idioma.
-* **`operating_systems.tsv`**: asigna el ID del sistema operativo (el `os` fuente (columna ) al nombre del sistema operativo.
-* **`plugins.tsv`**: Asigna los ID del complemento (la variable `plugin` fuente (columna ) con cada nombre de complemento correspondiente.
-* **`resolution.tsv`**: Asigna el ID de resolución (la variable `resolution` fuente (columna) a la resolución del monitor.
-* **`referrer_type.tsv`**: Asigna el ID de tipo de referente (el `ref_type` fuente (columna) al tipo de referente.
-* **`search_engines.tsv`**: Asigna el ID del motor de búsqueda (la variable `search_engine` fuente (columna ) al nombre del motor de búsqueda.
-* **`event.tsv`**: asigna cada ID de evento (la variable `event_list` fuente (columna) a su nombre de evento respectivo.
+* **`column_headers.tsv`**: una sola fila que contiene los encabezados de columna de `hit_data.tsv`.
+* **`browser.tsv`**: asigna el identificador de explorador (la columna de fuente `browser`) al nombre descriptivo del explorador.
+* **`browser_type.tsv`**: asigna el identificador de explorador (la columna de fuente `browser`) al tipo de explorador.
+* **`color_depth.tsv`**: asigna el identificador de profundidad de color (la columna de fuente `color`) a la profundidad de color.
+* **`connection_type.tsv`**: asigna el identificador de tipo de conexión (la columna de fuente `connection_type`) al tipo de conexión.
+* **`country.tsv`**: asigna el identificador de país (la columna de fuente `country`) al nombre del país.
+* **`javascript_version.tsv`**: asigna el identificador de versión de JavaScript (la columna de fuente `javascript`) a la versión de JavaScript.
+* **`languages.tsv`**: asigna el identificador de idioma (la columna de fuente `language`) al idioma.
+* **`operating_systems.tsv`**: asigna el identificador del sistema operativo (la columna de fuente `os`) al nombre del sistema operativo.
+* **`plugins.tsv`**: asigna los ID de complemento (la columna de fuente `plugin`) a cada nombre de complemento correspondiente.
+* **`resolution.tsv`**: asigna el identificador de resolución (la columna de fuente `resolution`) a la resolución del monitor.
+* **`referrer_type.tsv`**: asigna el id. de tipo de referente (la columna de fuente `ref_type`) al tipo de referente.
+* **`search_engines.tsv`**: asigna el identificador de motor de búsqueda (la columna de fuente `search_engine`) al nombre del motor de búsqueda.
+* **`event.tsv`**: asigna cada ID de evento (la columna de fuente `event_list`) a su nombre de evento respectivo.
 
 ## Archivos de datos de visitas
 
@@ -139,7 +139,7 @@ Una vez recopilados los datos durante una hora, recibirá uno o más archivos de
 
 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-Cuando se extrae, cada archivo de datos contiene un único `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` que contiene aproximadamente 2 GB de datos sin comprimir, así como archivos de búsqueda para cualquier columna requerida.
+Cuando se extrae, cada archivo de datos contiene un único archivo de `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` que contiene aproximadamente 2 GB de datos sin comprimir, así como archivos de búsqueda para las columnas requeridas.
 
 ## Tamaño del archivo de datos
 

@@ -5,8 +5,8 @@ feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
 source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 94%
+source-wordcount: '279'
+ht-degree: 96%
 
 ---
 

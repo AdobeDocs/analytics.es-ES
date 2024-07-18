@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Vínculo de salida
 
-El &quot;vínculo de salida&quot; [dimensión](overview.md) informa de los nombres de los vínculos de salida implementados en el sitio. Esta dimensión es útil cuando desea comprender qué vínculos son los más populares y que apuntan a dominios fuera del sitio.
+El &quot;Vínculo de salida&quot; [dimension](overview.md) indica los nombres de los vínculos de salida implementados en el sitio. Esta dimensión es útil cuando desea comprender qué vínculos son los más populares y que apuntan a dominios fuera del sitio.
 
 ## Rellene esta dimensión con datos
 

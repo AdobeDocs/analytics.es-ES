@@ -12,7 +12,7 @@ ht-degree: 68%
 
 # Personas identificadas
 
-Las &#39;personas identificadas&#39; [métrica](overview.md) es un [Análisis entre dispositivos](../cda/overview.md) que cuenta el número de visitantes identificados por CDA.
+La métrica [Personas identificadas](overview.md) es una métrica de [análisis entre dispositivos](../cda/overview.md) que cuenta el número de visitantes identificados por CDA.
 
 ## Cálculo de esta métrica
 

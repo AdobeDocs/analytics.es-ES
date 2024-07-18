@@ -182,11 +182,11 @@ Las reglas de segmentos incluyen todos los datos a menos que se excluyan especí
 
 Por ejemplo:
 
-* **Exclusión de páginas**. Utilice una regla de segmento para eliminar una página específica (como *`Home Page`*) de un informe, cree una regla de visita individual en la que página sea igual a &quot;Página de inicio&quot; y luego exclúyala. Esta regla incluye automáticamente todos los valores excepto la página de inicio.
+* **Exclusión de páginas**. Use una regla de segmento para eliminar una página específica (como *`Home Page`*) de un informe, cree una regla de visita individual en la que la página sea igual a &quot;Página principal&quot; y luego exclúyala. Esta regla incluye automáticamente todos los valores excepto la página de inicio.
 * **Exclusión de dominios de referencia**. Use una regla que incluya solo los dominios de referencia de Google.com y excluya todos los demás.
 * **Identificación de los no compradores**. Identifique el momento en que los pedidos son superiores a cero y luego excluya al [!UICONTROL visitante].
 
-El operador [!UICONTROL Exclude] puede emplearse para identificar una secuencia en la que las visitas o visitas individuales específicas no son efectuadas por el visitante. [!UICONTROL Excluir puntos de comprobación] también se puede incluir dentro de un [Grupo de lógica](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+El operador [!UICONTROL Exclude] puede emplearse para identificar una secuencia en la que las visitas o visitas individuales específicas no son efectuadas por el visitante. [!UICONTROL Excluir puntos de comprobación] también se puede incluir dentro de un [grupo lógico](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
 ### Exclusión entre puntos de comprobación
 
@@ -347,13 +347,13 @@ Puede limitar las coincidencias a una duración de tiempo especificada usando lo
 
 >[!NOTE]
 >
->Existen diferencias en la evaluación entre elementos con nombres similares, como **Día(s)** o **Día**. Para definiciones basadas en el tiempo de En y Después, utilice las opciones que aparecen primero en la ventana emergente:
+>Hay diferencias en la evaluación entre elementos con nombres similares como **Day(s)** o **Day**. Para definiciones basadas en el tiempo de En y Después, utilice las opciones que aparecen primero en la ventana emergente:
 >
->![image](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>![imagen](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
 >
 >Para definiciones basadas en dimensiones de En y Después, utilice las opciones del submenú *Otros Dimension*:
 >
->![image](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
+>![imagen](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
 
 ### Operadores After y Within {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 

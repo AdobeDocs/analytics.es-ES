@@ -18,15 +18,15 @@ Los filtros de URL internos permiten identificar los referentes que se considera
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Filtros URL internos]**
 
-El referente, o la página referente, suele ser la página desde la que el visitante entró al sitio. Para evitar la distorsión de los datos, puede filtrar las páginas internas para que no se consideren referentes. Los Dimension que dependen de filtros de URL internos son [Referente](/help/components/dimensions/referrer.md), [Dominio de referencia](/help/components/dimensions/referring-domain.md), [Canales de marketing](/help/components/dimensions/marketing-channel.md)y otras dimensiones de fuentes de tráfico.
+El referente, o la página referente, suele ser la página desde la que el visitante entró al sitio. Para evitar la distorsión de los datos, puede filtrar las páginas internas para que no se consideren referentes. Los Dimension que dependen de los filtros de URL internos incluyen [Referente](/help/components/dimensions/referrer.md), [Dominio de referencia](/help/components/dimensions/referring-domain.md), [Canales de marketing](/help/components/dimensions/marketing-channel.md) y otras dimensiones de fuentes de tráfico.
 
-[Reglas de procesamiento de canal de marketing](../marketing-channels/c-rules.md) proporcionar &quot;[!UICONTROL Coincide con los filtros de URL internos]&quot; como posibles criterios de regla.
+[Las reglas de procesamiento del canal de marketing](../marketing-channels/c-rules.md) proporcionan &quot;[!UICONTROL coinciden con los filtros de URL internos]&quot; como posibles criterios de regla.
 
 >[!IMPORTANT]
 >
->Algunos grupos de informes tienen un filtro de URL interno de un punto (`.`) configurado de forma predeterminada. Cuando existe este filtro, todo el tráfico se clasifica como interno. Los informes de referentes no funcionarán hasta que se elimine este filtro y se sustituya por uno o varios dominios internos deseados.
+>Algunos grupos de informes tienen un filtro de dirección URL interno de un período (`.`) configurado de manera predeterminada. Cuando existe este filtro, todo el tráfico se clasifica como interno. Los informes de referentes no funcionarán hasta que se elimine este filtro y se sustituya por uno o varios dominios internos deseados.
 
-* Ver todos los filtros existentes en **[!UICONTROL Filtros actuales]** sección.
-* Añada un filtro utilizando el cuadro de texto debajo de **[!UICONTROL Añadir filtro]** y haga clic en **[!UICONTROL Añadir]**.
+* Ver todos los filtros existentes en la sección **[!UICONTROL Filtros actuales]**.
+* Agregue un filtro usando el cuadro de texto debajo de la sección **[!UICONTROL Agregar filtro]** y luego haga clic en **[!UICONTROL Agregar]**.
 
-Los filtros funcionan con **contains** lógica contra la dirección URL completa. El Adobe recomienda omitir el protocolo (`https://`) y subdominios al crear filtros, a menos que se desee el tráfico de subdominios independientes como tráfico externo.
+Los filtros funcionan usando la lógica **contains** en la dirección URL completa. El Adobe recomienda omitir el protocolo (`https://`) y los subdominios al crear los filtros, a menos que se desee el tráfico de subdominios independientes como tráfico externo.

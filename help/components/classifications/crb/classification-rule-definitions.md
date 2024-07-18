@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 98%
 
 ---
 
@@ -84,7 +84,7 @@ Esta página muestra las reglas de un conjunto de reglas.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>El número de la regla. </p> <p>Consulte <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Cómo procesar las reglas</a> para obtener más información. </p> </td> 
+   <td colname="col2"> <p>El número de la regla. </p> <p>Consulte <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Cómo se procesan las reglas</a> para obtener más información. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Seleccionar tipo de regla</span> </td> 

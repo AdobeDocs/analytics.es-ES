@@ -13,7 +13,7 @@ ht-degree: 55%
 
 # linkDownloadFileTypes
 
-Cuándo [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackdownloadlinks.md) (SDK web) está habilitado y un visitante hace clic en un vínculo, AppMeasurement comprueba la URL del vínculo para ver si hay extensiones de tipo de archivo. Si la dirección URL del vínculo contiene un tipo de archivo coincidente, se envía automáticamente una solicitud de imagen del vínculo de descarga.
+Cuando [`trackDownloadLinks`](trackdownloadlinks.md) (AppMeasurement) o [`clickCollectionEnabled`](trackdownloadlinks.md) (SDK web) están habilitados y un visitante hace clic en un vínculo, AppMeasurement comprueba la dirección URL del vínculo para ver si hay extensiones de tipo de archivo. Si la dirección URL del vínculo contiene un tipo de archivo coincidente, se envía automáticamente una solicitud de imagen del vínculo de descarga.
 
 Utilice `linkDownloadFileTypes` para personalizar las extensiones de archivo que desea contar como vínculos de descarga.
 
@@ -26,22 +26,22 @@ Utilice `linkDownloadFileTypes` para personalizar las extensiones de archivo que
 >* Haga clic con el botón derecho y seleccione “Guardar destino como...”
 >* Vínculos que utilizan JavaScript, como `javascript:openLink()`
 >
->Para estos tipos de descarga, puede enviar manualmente una [`link tracking`](../functions/tl-method.md) llamada.
+>Para estos tipos de descarga, puede enviar manualmente una llamada a [`link tracking`](../functions/tl-method.md).
 
 Si un vínculo en el que se hizo clic coincide con los criterios de vínculo de salida y de descarga, el tipo de vínculo de descarga tiene prioridad.
 
 ## Descargar calificador de vínculo con la extensión SDK para web
 
-El [!UICONTROL Descargar calificador de vínculo] El campo de texto utiliza la expresión regular para determinar si un vínculo en el que se hizo clic cumple los requisitos para ser un vínculo de descarga.
+El campo de texto [!UICONTROL Cualificador de vínculo de descarga] utiliza la expresión regular para determinar si un vínculo en el que se hizo clic cumple los requisitos para ser un vínculo de descarga.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
-1. Vaya a la [!UICONTROL Extensiones] y, a continuación, haga clic en **[!UICONTROL Configurar]** botón debajo de [!UICONTROL SDK web de Adobe Experience Platform].
-1. En [!UICONTROL Recopilación de datos], establezca el valor deseado en **[!UICONTROL Descargar calificador de vínculo]** campo de texto.
+1. Vaya a la pestaña [!UICONTROL Extensions] y, a continuación, haga clic en el botón **[!UICONTROL Configure]** en [!UICONTROL Adobe Experience Platform Web SDK].
+1. En [!UICONTROL Recopilación de datos], establezca el valor deseado en el campo de texto **[!UICONTROL Calificador de vínculos de descarga]**.
 
 ## Descargar calificador de vínculos manualmente implementando el SDK web
 
-[Configurar](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es) el SDK mediante [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=es#automaticLinkTracking). El campo utiliza la expresión regular de la dirección URL donde se hizo clic para determinar si es un vínculo de descarga válido. If `downloadLinkQualifier` no está definida, el valor predeterminado se establece en `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
+[Configurar](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es) el SDK mediante [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=es#automaticLinkTracking). El campo utiliza la expresión regular de la dirección URL donde se hizo clic para determinar si es un vínculo de descarga válido. Si `downloadLinkQualifier` no está definido, el valor predeterminado se establece en `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
 
 ```json
 alloy("configure", {
@@ -58,7 +58,7 @@ Extensiones de descarga es una lista de extensiones de archivo con un campo para
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón **[!UICONTROL Configurar]** en Adobe Analytics.
 4. Expanda el acordeón de [!UICONTROL Seguimiento de vínculos], que muestra el campo **[!UICONTROL Extensiones de descarga]**.
 
-Agregue extensiones de archivo a la lista introduciendo texto en el campo y haciendo clic en **[!UICONTROL Agregar]**. Elimine las extensiones de archivo de la lista haciendo clic en sus respectivas **&#39;X&#39;** icono.
+Agregue extensiones de archivo a la lista introduciendo texto en el campo y haciendo clic en **[!UICONTROL Agregar]**. Elimine las extensiones de archivo de la lista haciendo clic en su icono **&#39;X&#39;** correspondiente.
 
 ## s.linkDownloadFileTypes en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 

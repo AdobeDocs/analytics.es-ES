@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 90%
+source-wordcount: '404'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 ## Componentes > Segmentos
 
 * Ciertas métricas y dimensiones no se pueden segmentar, como [!UICONTROL Ocurrencias], [!UICONTROL Visitantes únicos], etc.
-* Segmentos ad hoc creados en [zona desplegable del panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es) son un tipo de filtro rápido. No aparecen en el carril izquierdo de Workspace ni en el administrador de componentes del segmento a menos que se hagan públicos. Para obtener más información, consulte [Segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+* Segmentos ad hoc creados en [zona desplegable del panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=es) son un tipo de filtro rápido. No aparecen en la barra izquierda de Workspace ni en el administrador de componentes del segmento, a menos que se hagan públicos. Para obtener más información, consulte [Segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## Componentes > Métricas calculadas
 
@@ -58,4 +58,4 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 
 ## Atribución
 
-* Un subconjunto de métricas no se admite en [!UICONTROL Attribution]. Para obtener una lista completa, consulte las [preguntas más frecuentes sobre Attribution ](/help/analyze/analysis-workspace/attribution/faq.md).
+* Un subconjunto de métricas no se admite en [!UICONTROL Atribución].  Para obtener una lista completa, consulte las [preguntas más frecuentes sobre Atribución](/help/analyze/analysis-workspace/attribution/faq.md).

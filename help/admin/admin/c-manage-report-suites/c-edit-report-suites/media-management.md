@@ -19,12 +19,12 @@ Puede habilitar los medios en Analytics para reservar un conjunto especial de va
 
 Las siguientes opciones de administración de medios están disponibles al editar un grupo de informes:
 
-* [!UICONTROL **Informes de contenidos**]
+* [!UICONTROL **Informes de medios**]
 
-  Los informes específicos del complemento de recopilación de medios de streaming están disponibles en la página Informes de medios. Para obtener más información sobre los informes de contenidos, consulte [Habilitación de informes de contenidos](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
+  Los informes específicos del complemento de recopilación de medios de streaming están disponibles en la página Informes de medios. Para obtener más información acerca de los informes multimedia, consulte [Habilitación de informes multimedia](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
 
 * [!UICONTROL **Clasificaciones de medios**]
 
   Las clasificaciones específicas del complemento de recopilación de medios de streaming están disponibles en la página Clasificaciones de medios. Para obtener información sobre las clasificaciones, consulte [Clasificaciones de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
 
-Para obtener información general sobre la incorporación de datos de medios de streaming en Adobe Analytics, consulte la [Guía de complementos de recopilación de medios de streaming](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
+Para obtener información general sobre cómo incorporar datos de medios de transmisión en Adobe Analytics, consulte la [Guía de complementos de recopilación de medios de transmisión](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).

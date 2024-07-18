@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 90%
+source-wordcount: '336'
+ht-degree: 91%
 
 ---
 
@@ -22,11 +22,11 @@ Se puede buscar en elementos de dimensión específicos mediante la creación de
 
 1. Cree o edite una solicitud y avance en el [!UICONTROL Asistente para solicitudes: Paso 2].
 
-   ![Captura de pantalla que muestra las opciones Filtrar por: Aplicación, Usuario y Proyecto.](/help/admin/admin/assets/filter.png)
+   ![Captura de pantalla que muestra el filtro por opciones: Aplicación, Usuario y Proyecto.](/help/admin/admin/assets/filter.png)
 
 1. En el [!UICONTROL Asistente para solicitudes: Paso 2], haga clic en el vínculo situado junto a la dimensión en la cuadrícula y, a continuación, seleccione **[!UICONTROL Filtro]**.
 
-1. Activar **[!UICONTROL Específico]**.
+1. Habilitar **[!UICONTROL específico]**.
 
    ![Captura de pantalla del cuadro de diálogo Elegir página con la opción Específica seleccionada.](assets/choose_page_specific01.png)
 

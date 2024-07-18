@@ -15,7 +15,7 @@ ht-degree: 96%
 
 El Data Warehouse ofrece una característica que permite extraer una lista de los ID de visitante. Estos ID no son ID de cookies, sino ID que se capturan en una de las variables de conversión. Aunque hay otros modos de obtener esta información, el ejemplo siguiente es un método abreviado para generar una solicitud del Data Warehouse.
 
-Pongamos por ejemplo que su empresa envía correos electrónicos comerciales a clientes y posibles clientes. Cada uno de estos destinatarios de correo electrónico tiene un ID único en su sistema de correo electrónico (como *`EMAIL Contact ID`*). Usted configura los correos electrónicos para que cuando los contactos reciban un correo y hagan clic en uno de sus vínculos, el visitante llegue al sitio web con un ID de campaña y un ID de contacto de correo electrónico única. Por ejemplo, el vínculo incluido en el correo electrónico puede tener como destino:
+Pongamos por ejemplo que su empresa envía correos electrónicos comerciales a clientes y posibles clientes. Cada destinatario de correo electrónico tiene un identificador único en el sistema de correo electrónico (como *`EMAIL Contact ID`*). Usted configura los correos electrónicos para que cuando los contactos reciban un correo y hagan clic en uno de sus vínculos, el visitante llegue al sitio web con un ID de campaña y un ID de contacto de correo electrónico única. Por ejemplo, el vínculo incluido en el correo electrónico puede tener como destino:
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158

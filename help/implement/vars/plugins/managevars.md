@@ -139,7 +139,7 @@ manageVars("cleanStr");
 
 * Elimina la codificación HTML
 * Elimina los espacios en blanco que se encuentran al principio y al final del valor
-* Reemplaza las comillas simples izquierda/derecha con una comilla simple recta (`'`)
+* Reemplaza comillas simples izquierda/derecha por una comilla simple recta (`'`)
 * Reemplaza caracteres de tabulación, caracteres de nueva línea y caracteres de retorno de carro por espacios
 * Reemplaza todos los espacios dobles (o triples, etc.) con espacios únicos
 

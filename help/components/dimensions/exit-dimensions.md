@@ -7,13 +7,13 @@ exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Dimensiones de salida
 
-*[Esta página de ayuda describe cómo funcionan las salidas como una dimensión](overview.md). Para obtener información sobre cómo funcionan las salidas como métricas, consulte la métrica [Salidas](../metrics/exits.md).*
+*Esta página de ayuda describe cómo funcionan las salidas como una [dimensión](overview.md). Para obtener información sobre cómo funcionan las salidas como métricas, consulte la métrica [Salidas](../metrics/exits.md).*
 
 Las dimensiones de salidas registran el último elemento de dimensión y lo aplican de forma retroactiva a todas las visitas individuales de la visita. Las dimensiones de salida están disponibles para todas las variables con las rutas habilitadas en [Variables de tráfico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes.
 

@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '628'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ Editar una solicitud de Report Builder tras su publicación en Power BI puede ca
 
 * **Caso 1**: publica un libro en Power BI y crea una visualización basada en estos datos. A continuación, realiza cambios en el libro que provocan que desaparezca una de las columnas del conjunto de datos al que se hace referencia. Después, vuelve a publicar. Esto provocará un error de visualización en Power BI.
 
-   **Este es un ejemplo de cómo se produce un error de visualización:**
+  **Este es un ejemplo de cómo se produce un error de visualización:**
 
    1. En Report Builder, cree un libro con una solicitud, empleando para ello la dimensión Página y la métrica Vistas de página.
    2. Programe esta solicitud para que se publique en Power BI.
@@ -46,7 +46,7 @@ Editar una solicitud de Report Builder tras su publicación en Power BI puede ca
       2. Compruebe que la tabla page_1 está adecuadamente actualizada con las columnas Página y Visitas.
       3. Compruebe que hay errores en visualización, ya que hace referencia a la columna Vistas de página que ya no está presente en la tabla page_1.
 
-   **Este es un ejemplo de cómo NO se produce un error de visualización**:
+  **Este es un ejemplo de cómo NO se produce un error de visualización**:
 
    1. En Report Builder, cree un libro con una solicitud, empleando para ello la dimensión Página y la métrica Vistas de página.
    2. Programe esta solicitud para que se publique en Power BI.
@@ -58,7 +58,6 @@ Editar una solicitud de Report Builder tras su publicación en Power BI puede ca
       1. Compruebe que se ha sobrescrito el conjunto de datos existentes, creado durante la primera publicación.
       2. Compruebe que la tabla page_1 está adecuadamente actualizada con las columnas Página, Vistas de página y Visitas.
       3. Compruebe que la visualización sigue funcionando correctamente, ya que hace referencia a dos columnas que siguen presentes en la tabla page_1.
-
 
 * **Caso 2**: ancla una sección de su libro a un tablero de Power BI y, más adelante, elimina del libro dicha sección (por ejemplo, un gráfico o una tabla). De este modo se produce un error de visualización.
 

@@ -4,7 +4,7 @@ description: Dimensión personalizada que se puede utilizar en la creación de i
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 100%
 

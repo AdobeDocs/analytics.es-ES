@@ -22,7 +22,7 @@ Las clasificaciones de tráfico permiten clasificar variables de tráfico (props
 
 La página Clasificaciones de tráfico permite crear clasificaciones de los grupos de informes seleccionados. Una vez clasificado, cualquier informe que se pueda generar con los datos clave también se puede generar con los atributos asociados.
 
-Después de activar las clasificaciones, utilice [Importador de clasificaciones](/help/components/classifications/importer/c-working-with-saint.md) para asignar valores específicos a la clasificación adecuada.
+Después de habilitar las clasificaciones, use [Importador de clasificaciones](/help/components/classifications/importer/c-working-with-saint.md) para asignar valores específicos a la clasificación adecuada.
 
 ## Agregar una clasificación de tráfico {#task_4DB49CCB1D764483907BC33A5CEB7315}
 

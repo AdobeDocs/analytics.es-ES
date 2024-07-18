@@ -16,7 +16,7 @@ ht-degree: 5%
 Preguntas más frecuentes sobre las fuentes de datos.
 
 +++¿Cuál es el coste de utilizar fuentes de datos?
-Las fuentes de datos no incurren en ningún cargo ni se contabilizan para el uso de llamadas al servidor. [Fuentes de datos de procesamiento completo](full-processing-eol.md) se contabilizan en las llamadas al servidor antes de su jubilación.
+Las fuentes de datos no incurren en ningún cargo ni se contabilizan para el uso de llamadas al servidor. [Las fuentes de datos de procesamiento completo](full-processing-eol.md) se contaron en las llamadas al servidor antes de su retiro.
 +++
 
 +++¿Cómo afectan las fuentes de datos a la atribución y caducidad de las eVars?
@@ -26,12 +26,12 @@ El resto de los datos cargados a través de fuentes de datos no tienen ningún t
 +++
 
 +++¿Cómo afectan las fuentes de datos a las métricas predeterminadas, como las vistas de página, las visitas o los visitantes únicos?
-Los datos cargados a través de fuentes de datos no afectan a [Page views](/help/components/metrics/page-views.md), [Visitas](/help/components/metrics/visits.md), o [Visitantes únicos](/help/components/metrics/unique-visitors.md) de cualquier manera. La única métrica predeterminada a la que afectan incluye [Ocurrencias](/help/components/metrics/occurrences.md).
+Los datos cargados a través de fuentes de datos no afectan las [vistas de página](/help/components/metrics/page-views.md), las [visitas](/help/components/metrics/visits.md) ni los [visitantes únicos](/help/components/metrics/unique-visitors.md) de ninguna manera. La única métrica predeterminada a la que afectan incluye [Ocurrencias](/help/components/metrics/occurrences.md).
 +++
 
 +++¿Se pueden eliminar los datos importados mediante fuentes de datos?
 
-Sí. Puede eliminar estos datos mediante el [API de reparación de datos](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Además, el Adobe recomienda encarecidamente cargar las fuentes de datos en un grupo de informes de prueba antes de cargarlos en un grupo de informes de producción.
+Sí. Puede eliminar estos datos mediante la [API de reparación de datos](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Además, el Adobe recomienda encarecidamente cargar las fuentes de datos en un grupo de informes de prueba antes de cargarlos en un grupo de informes de producción.
 +++
 
 +++¿Cuántos datos se pueden importar a la vez?
@@ -45,13 +45,13 @@ El valor disminuye en consecuencia. Algunas organizaciones utilizan valores de f
 +++
 
 +++¿Distinguen entre mayúsculas y minúsculas las extensiones de archivo?
-Sí. Archivos con la extensión `.TXT` o `.FIN` no se han procesado. Asegúrese de que todas las extensiones de archivo estén en minúsculas.
+Sí. No se procesarán los archivos con la extensión `.TXT` o `.FIN`. Asegúrese de que todas las extensiones de archivo estén en minúsculas.
 +++
 
 +++¿Cuántas columnas se pueden agregar a un archivo de fuente de datos?
-Si todas las columnas son válidas, puede incluir tantas columnas en un archivo de fuente de datos como desee. Consulte [Formato de archivo](file-format.md) para obtener una lista de nombres de variables/columnas válidos.
+Si todas las columnas son válidas, puede incluir tantas columnas en un archivo de fuente de datos como desee. Consulte [Formato de archivo](file-format.md) para obtener una lista de nombres válidos de variables/columnas.
 +++
 
 +++¿Puedo utilizar fuentes de datos sin utilizar la ubicación FTP proporcionada por el Adobe?
-Puede usar el complemento [API de fuentes de datos](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), que le permite enviar llamadas de API directamente al Adobe. Estas llamadas de API incluyen una `UploadData` , que le permite enviar datos mediante una carga útil de objeto JSON.
+Puede usar la [API de fuentes de datos](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), que le permite enviar llamadas de API directamente al Adobe. Estas llamadas a la API incluyen un método `UploadData`, que le permite enviar datos mediante una carga útil de objeto JSON.
 +++

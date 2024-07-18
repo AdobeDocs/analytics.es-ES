@@ -46,7 +46,7 @@ Existen tres formas de acceder al Generador de alertas:
 
 ## Preguntas más frecuentes: Cómo se calculan y activan las alertas {#trigger}
 
-Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. En función de la granularidad de tiempo que elija, [diferentes modelos](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) se utilizan para calcular a qué distancia (cuántas desviaciones estándar tiene) está cada punto de datos con respecto a la norma. Si establece un umbral más bajo (por ejemplo, 90 %), obtendrá más anomalías que con otro más alto (99 %). Los umbrales 99,75 % y 99,99 % se introdujeron específicamente para la granularidad horaria, de modo que no se activen tantas anomalías.
+Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. Según la granularidad de tiempo que elija, se usan [diferentes modelos](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) para calcular a qué distancia (cuántas desviaciones estándar tiene) cada punto de datos está respecto a la norma. Si establece un umbral más bajo (por ejemplo, 90 %), obtendrá más anomalías que con otro más alto (99 %). Los umbrales 99,75 % y 99,99 % se introdujeron específicamente para la granularidad horaria, de modo que no se activen tantas anomalías.
 
 +++ ¿Hasta dónde se remonta la detección de anomalías de la alerta para determinar anomalías de datos?
 
@@ -73,7 +73,7 @@ En estos momentos, no.
 
 +++ ¿Puedo obtener una tabla de los &quot;valores esperados&quot; que comprenden la línea de puntos, o algún tipo de resultado de cuáles son esos valores?
 
-No en Workspace, pero puede en Report Builder. Consulte [este vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=es) en Detección de anomalías en Report Builder.
+No en Workspace, pero puede en Report Builder. Vea [este vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=es) sobre la detección de anomalías en Report Builder.
 
 Tenga en cuenta que el Report Builder emplea métodos de detección de anomalías menos sofisticados. Utiliza un periodo de formación de 30 días fijo, con un intervalo fijo del 95 %.
 

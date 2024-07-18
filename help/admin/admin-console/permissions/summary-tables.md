@@ -84,7 +84,7 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 | Asistencia | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Configuraciones de la compañía > Información de asistencia. |
 | Administración del tráfico | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Administración del tráfico. |
 | Servicios Web | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Configuraciones de la compañía > Servicios web. |
-| Uso compartido de vínculos del proyecto con cualquier persona | x |  |  |  | Otorga acceso a los usuarios para compartir con cualquiera que se encuentre en un proyecto de Workspace -> Compartir -> Compartir con cualquier persona. |
+| Uso compartido de vínculos del proyecto con cualquier persona | x |  |  |  | Concede acceso a los usuarios para compartir con cualquiera que se encuentre en un proyecto de Workspace -> Compartir -> Compartir con cualquier persona. |
 | Activity Map |  | x |  |  | Otorga acceso a Herramientas > Activity Map. Permite al usuario utilizar la extensión Activity Map. |
 | Usuarios con licencias para Ad Hoc Analysis |  | x |  |  | Ad Hoc Analysis ha llegado al final de su vida útil. [Más información](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Acceso a Analysis Workspace |  | x |  |  | Otorga acceso a Analysis Workspace. |

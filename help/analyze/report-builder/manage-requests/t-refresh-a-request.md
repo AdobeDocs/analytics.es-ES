@@ -19,13 +19,13 @@ Actualice las solicitudes después de actualizarlas con ediciones, filtros o ten
 Si aumenta el intervalo de fechas de una solicitud y, a continuación, esta se actualiza, Report Builder agrega celdas para dar cabida al número añadido de períodos de tiempo.
 
 1. Cree y ejecute una solicitud.
-1. Después de cambiar la solicitud, haga clic con el botón derecho en la solicitud y, a continuación, elija **[!UICONTROL Actualizar solicitud]** en el menú contextual. (Como alternativa, haga clic en la solicitud y, a continuación, en **[!UICONTROL Actualizar]** en la barra de herramientas).
+1. Después de cambiar la solicitud, haga clic con el botón secundario en la solicitud y elija **[!UICONTROL Actualizar solicitud]** en el menú contextual. (Como alternativa, haga clic en la solicitud y, a continuación, en **[!UICONTROL Actualizar]** en la barra de herramientas).
 
    El sistema muestra el formulario [!UICONTROL Actualizar solicitudes]:
 
    **Fecha ahora:** fecha en la que se desea basar la actualización. También se denomina [!UICONTROL Con fecha].
 
-   **Definir como fecha actual en futuras acciones de actualización:** Al habilitar esta opción, el Report Builder siempre utilizará la fecha actual como [!UICONTROL Ahora] (o [!UICONTROL A Partir De]) fecha. Esta configuración se puede invertir haciendo clic en [!UICONTROL Opciones] en la barra de herramientas.
+   **Establecer en fecha actual en futuras acciones de actualización:** Al habilitar esta opción, se indica al Report Builder que siempre use la fecha actual como la fecha [!UICONTROL Ahora] (o [!UICONTROL Con fecha de]). Esta configuración se puede invertir haciendo clic en [!UICONTROL Opciones] en la barra de herramientas.
 1. Haga clic en **[!UICONTROL Aceptar]**.
 
    Cuando una actualización es correcta, el sistema lo indica con un icono verde en el [!UICONTROL Administrador de solicitudes].

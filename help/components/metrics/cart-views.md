@@ -12,10 +12,10 @@ ht-degree: 72%
 
 # Vistas del carro de compras
 
-Las &quot;vistas del carro de compras&quot; [métrica](overview.md) muestra la cantidad de veces que un visitante vio el carro de compras. Esta métrica es útil cuando desea comprender la parte del canal de conversión en la que los clientes ven el contenido del carro de compras.
+La [métrica](overview.md) &quot;Vistas del carro de compras&quot; muestra la cantidad de veces que un visitante vio el carro de compras. Esta métrica es útil cuando desea comprender la parte del canal de conversión en la que los clientes ven el contenido del carro de compras.
 
 ## Cálculo de esta métrica
 
 Esta métrica cuenta el número de visitas donde `scView` existe en la variable [`events`](/help/implement/vars/page-vars/events/events-overview.md).
 
-Consulte [Carritos](carts.md) para ver una comparación de métricas.
+Consulte [Carros de compras](carts.md) para ver una comparación de métricas.

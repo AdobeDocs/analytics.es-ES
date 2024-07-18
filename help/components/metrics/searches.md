@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Búsquedas
 
-Las &#39;Búsquedas&#39; [métrica](overview.md) muestra el número de visitas que coinciden con la detección de búsquedas externas de Adobe. Esta métrica es útil cuando desea ver los elementos de dimensión que no son de búsqueda y ver cómo han contribuido al tráfico del motor de búsqueda.
+La métrica [Búsquedas](overview.md) muestra el número de visitas que coinciden con la detección de búsquedas externas de Adobe. Esta métrica es útil cuando desea ver los elementos de dimensión que no son de búsqueda y ver cómo han contribuido al tráfico del motor de búsqueda.
 
 ## Cálculo de esta métrica
 

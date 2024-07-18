@@ -8,23 +8,23 @@ exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
 source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 # Programar proyectos
 
-Desde el espacio de trabajo **Menú Compartir**, puede enviar proyectos de Analysis Workspace por correo electrónico a destinatarios seleccionados. Los archivos se pueden enviar en formato CSV o PDF. Después de compartir proyectos programados, puede editar la configuración de programación para modificar la frecuencia, la lista de destinatarios o el tipo de archivo mediante el Administrador de proyectos programados.
+En el **menú Compartir** de Workspace, puede enviar proyectos de Analysis Workspace por correo electrónico a destinatarios seleccionados. Los archivos se pueden enviar en formato CSV o PDF. Después de compartir proyectos programados, puede editar la configuración de programación para modificar la frecuencia, la lista de destinatarios o el tipo de archivo mediante el Administrador de proyectos programados.
 
 ## Enviar archivo ahora
 
 Para enviar un archivo inmediatamente a los destinatarios por correo electrónico:
 
-1. Clic **[!UICONTROL Compartir] > [!UICONTROL Exportar archivo]**.
+1. Haga clic en **[!UICONTROL Compartir] > [!UICONTROL Exportar archivo]**.
 1. Especifique el tipo de archivo:
    * [!UICONTROL **CSV**]: elija esta opción si desea datos de texto sin formato.
    * [!UICONTROL **PDF**]: elija esta opción si desea que el archivo descargado contenga todas las tablas y visualizaciones mostradas (visibles) en el proyecto.
-1. (Opcional) Añada una descripción para incluirla en el correo electrónico y explicar el archivo que se va a recibir.
+1. (Opcional) Añada una descripción que se incluirá en el correo electrónico para explicar el archivo que se va a recibir.
 1. Añadir destinatarios o grupos. También se pueden introducir direcciones de correo electrónico.
 1. Haga clic en **[!UICONTROL Enviar ahora]**.
 1. (Opcional) Haga clic en **[!UICONTROL Mostrar opciones de programación]** para especificar una programación de entregas.
@@ -35,7 +35,7 @@ Para enviar un archivo inmediatamente a los destinatarios por correo electrónic
 
 Para enviar un archivo en una programación recurrente a los destinatarios por correo electrónico:
 
-1. Clic **[!UICONTROL Compartir] > [!UICONTROL Programar exportación de archivos]**.
+1. Haga clic en **[!UICONTROL Compartir] > [!UICONTROL Programar exportación de archivos]**.
 1. Especifique el tipo de archivo (CSV o PDF).
 1. (Opcional) Añada una descripción que se incluirá en el correo electrónico para explicar el archivo que se va a recibir.
 1. Añadir destinatarios o grupos. También se pueden introducir direcciones de correo electrónico.
@@ -47,11 +47,11 @@ Para enviar un archivo en una programación recurrente a los destinatarios por c
 
 ## Administrar proyectos programados
 
-Al administrar proyectos programados, puede editar y eliminar programaciones de proyectos recurrentes:
+Al administrar proyectos programados, puede editar y eliminar las programaciones recurrentes de proyectos.
 
 * Cambiar el tipo de archivo (.csv o PDF)
 * Actualizar la descripción del proyecto
-* Adición o eliminación de destinatarios
+* Añadir o quitar destinatarios
 * Cambiar la frecuencia
 
 

@@ -6,20 +6,20 @@ role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 90%
+source-wordcount: '503'
+ht-degree: 89%
 
 ---
 
 # Múltiples grupos de informes
 
-Puede crear proyectos en Analysis Workspace con datos de más de un grupo de informes. Los grupos de informes se eligen en el nivel de panel, por lo que puede elegir un grupo de informes diferente para cada panel dentro del mismo proyecto de Workspace.
+Puede crear proyectos en Analysis Workspace con datos de más de un grupo de informes. Los grupos de informes se eligen en el panel, por lo que puede elegir un grupo de informes diferente para cada panel dentro del mismo proyecto de Workspace.
 
 Esta capacidad es útil si desea, por ejemplo,
 
 * Comparar datos de dos regiones diferentes y los datos están en dos grupos de informes diferentes. Puede generar tablas y visualizaciones para comparar los datos en paralelo.
 
-* Cree un tablero de métricas y visualizaciones para informar a otras organizaciones. Puede extraer datos de varios grupos de informes a en el mismo proyecto.
+* Cree un tablero de métricas y visualizaciones para informar a otras organizaciones. Puede incluir datos de varios grupos de informes en el mismo proyecto.
 
 A continuación, se muestra un vídeo sobre este tema:
 

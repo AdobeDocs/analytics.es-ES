@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Sección del sitio
 
-La &quot;sección del sitio&quot; [dimensión](overview.md) muestra los nombres de las secciones del sitio. Para los sitios grandes, resulta útil agrupar las páginas en secciones. Esta dimensión es útil para ver las secciones del sitio más visitadas o de mayor rendimiento.
+La &quot;Sección del sitio&quot; [dimensión](overview.md) enumera los nombres de las secciones del sitio. Para los sitios grandes, resulta útil agrupar las páginas en secciones. Esta dimensión es útil para ver las secciones del sitio más visitadas o de mayor rendimiento.
 
 Esta dimensión está relacionada con las dimensiones [Página](page.md) y [Servidor](server.md). La página es más granular, el servidor es menos granular y la sección del sitio está entre los dos.
 

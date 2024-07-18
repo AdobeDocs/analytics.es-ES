@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Semana
 
-La &quot;semana&quot; [dimensión](overview.md) informa de la semana en que se produjo una métrica determinada. El primer elemento de dimensión es la primera semana del intervalo de fechas y el último elemento de dimensión es la última semana del intervalo de fechas. Esta dimensión es vital para los informes de tendencias, ya que le permite ver las métricas a lo largo del tiempo.
+La dimensión [Semana](overview.md) indica la semana en que se produjo una métrica determinada. El primer elemento de dimensión es la primera semana del intervalo de fechas y el último elemento de dimensión es la última semana del intervalo de fechas. Esta dimensión es vital para los informes de tendencias, ya que le permite ver las métricas a lo largo del tiempo.
 
 ## Rellene esta dimensión con datos
 

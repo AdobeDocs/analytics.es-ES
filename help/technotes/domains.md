@@ -2,7 +2,8 @@
 title: Dominios utilizados por Adobe Analytics
 description: Permita que estos dominios pasen a través del cortafuegos de su organización para disfrutar de una experiencia óptima con Adobe Analytics.
 feature: Data Configuration and Collection
-source-git-commit: 3653a4e71d96ae636205840e1b8b456162521401
+exl-id: 41f11b71-c97e-45e8-9ca5-7992f02579f5
+source-git-commit: c1d1693bef617e3ebd6bf4f007c2235b2098a016
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 13%
@@ -28,7 +29,7 @@ Algunas configuraciones de cortafuegos bloquean los dominios en los que Adobe An
 
 ## Dominios de Adobe Experience Cloud
 
-Además de los dominios anteriores, Adobe Experience Cloud se basa en varios dominios para recopilar datos y exportar informes. Consulte [Dominios utilizados por Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) para esta lista de dominios.
+Además de los dominios anteriores, Adobe Experience Cloud se basa en varios dominios para recopilar datos y exportar informes. Consulte [Dominios utilizados por Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) para obtener esta lista de dominios.
 
 >[!MORELIKETHIS]
 >

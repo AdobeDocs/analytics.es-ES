@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Compatibilidad con cookies persistentes
 
-La &quot;Compatibilidad con cookies persistentes&quot; [dimensión](overview.md) muestra si la visita utilizó un identificador de visitante originado en una fuente persistente. La fuente persistente más común es de una cookie, pero también puede utilizar encabezados móviles y otras fuentes.
+La &quot;Compatibilidad con cookies persistentes&quot; [dimension](overview.md) muestra si la visita utilizó un identificador de visitante originado en una fuente persistente. La fuente persistente más común es de una cookie, pero también puede utilizar encabezados móviles y otras fuentes.
 
 ## Rellene esta dimensión con datos
 

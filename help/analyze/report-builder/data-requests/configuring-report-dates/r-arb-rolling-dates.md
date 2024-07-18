@@ -8,7 +8,7 @@ exl-id: 31caee9b-3488-4dc7-b5b1-361b153c8b68
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 78%
+ht-degree: 73%
 
 ---
 
@@ -26,7 +26,7 @@ Definiciones de los campos de fechas móviles en Report Builder.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Expresión personalizada </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > Expresiones de fechas personalizadas</a>. </p> </td> 
+   <td colname="col2"> <p>Ver <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > expresiones de fecha personalizadas</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Con fecha </p> </td> 

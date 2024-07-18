@@ -5,14 +5,14 @@ feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 source-git-commit: b26da8f7e3aee3c3f3e68d24bd8b170e32759bbd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '123'
+ht-degree: 100%
 
 ---
 
 # Descargar la configuración de grupo de informes
 
-Para generar un archivo delimitado por tabuladores que contenga toda la configuración del grupo de informes seleccionado:
+Para generar un archivo delimitado por tabuladores con toda la configuración del grupo de informes seleccionado:
 
 1. Haga clic en **[!UICONTROL Admin]** > **[!UICONTROL Grupos de informes]**.
 
@@ -22,8 +22,8 @@ Para generar un archivo delimitado por tabuladores que contenga toda la configur
 
    Un archivo llamado `Report Suite Data.tab` se descarga en el equipo local.
 
-Puede abrir el archivo en cualquier editor de texto que pueda gestionar archivos delimitados por tabuladores.
+Puede abrir el archivo en cualquier editor de texto que pueda administrar archivos delimitados por tabuladores.
 
 >[!NOTE]
 >
->   Si desea abrir correctamente el archivo en un programa de hoja de cálculo como Excel, debe modificarlo antes de hacerlo. La primera fila no tiene un valor para la primera columna, lo que impide la importación adecuada del archivo en programas como Excel.
+>   Si desea abrir correctamente el archivo en un programa de hoja de cálculo como Excel, debe modificarlo antes de hacerlo. La primera fila no tiene un valor para la primera columna, lo que impide la correcta importación del archivo en programas como Excel.
