@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 00bc3e039957b0e7f9bc171d7075def3fc8fb838
 workflow-type: tm+mt
 source-wordcount: '5806'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | --- | --- |
 | **Julio de 2024** | |
 | Se ha añadido threads.net a la dimensión &quot;Tipo de referente&quot; | Se agregó threads.net a la lista de redes sociales que se usan en la dimensión [&#39;Tipo de referente&#39;](/help/components/dimensions/referrer-type.md). |
-| Documentación actualizada para administrar fuentes de datos | Se ha actualizado la información en [Administrar fuentes de datos](/help/export/analytics-data-feed/df-manage-feeds.md) para mejorar la claridad. <p>Las actualizaciones incluyen:</p><ul><li>Se han creado secciones independientes para diversas tareas con el fin de facilitar el análisis y el consumo de la información.</li><li>Se ha añadido información acerca de los cambios en el comportamiento de las fuentes en directo que se reactivan. Estos cambios se encuentran actualmente en disponibilidad limitada y aún no están disponibles para todos los clientes.</li><li>Se ha agregado información para indicar que las fuentes de datos deben tener el estado Activo antes de poder eliminarse.</li> |
+| Documentación actualizada para administrar fuentes de datos | Se ha actualizado la información en [Administración de fuentes de datos](/help/export/analytics-data-feed/df-manage-feeds.md) para mejorar la claridad. <p>Las actualizaciones incluyen:</p><ul><li>Se han creado secciones independientes para diversas tareas con el fin de facilitar el análisis y el consumo de la información.</li><li>Se ha añadido información acerca de los cambios en el comportamiento de las fuentes activas que se reactivan. Estos cambios se encuentran actualmente en disponibilidad limitada y aún no están disponibles para todos los clientes.</li><li>Se ha agregado información para indicar que las fuentes de datos deben tener el estado Activo antes de poder eliminarse.</li> |
 | Mensajes de error comunes actualizados | Se han realizado actualizaciones menores de los [mensajes de error comunes](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Junio de 2024** | |
 | Se ha actualizado el nombre del producto que hace referencia a las funciones de medios de streaming | Se han reemplazado las instancias de “Media Analytics” y “Streaming Media” por el nombre de “Complemento de colección Streaming Media” al hacer referencia al conjunto de funciones de medios de streaming que recopilan datos de medios de streaming y los muestran en Analysis Workspace. <p>Estas actualizaciones están disponibles en toda la documentación de Adobe Analytics, así como en la [Documentación del Complemento de colección Streaming Media](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).</p> |
