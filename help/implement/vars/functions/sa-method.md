@@ -4,7 +4,7 @@ description: Cambie el grupo de informes en cualquier momento de la implementaci
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 42%
@@ -38,11 +38,12 @@ La extensión del SDK web proporciona una lista desplegable de secuencia de dato
 
 ## Establezca el conjunto de datos deseado manualmente implementando el SDK web
 
-Establezca la variable de configuración `edgeConfigId` en el ID de flujo de datos. El ID de flujo de datos se encuentra a la derecha al ver un flujo de datos en la recopilación de datos de Adobe Experience Platform.
+Establezca la variable de configuración `datastreamId` en el ID de flujo de datos. El ID de flujo de datos se encuentra a la derecha al ver un flujo de datos en la recopilación de datos de Adobe Experience Platform.
 
 ```js
 alloy("configure", {
-  "edgeConfigId": "example-a01f-4458-8cec-ef61de241c93",
+  datastreamId: "example-a01f-4458-8cec-ef61de241c93",
+  orgId: "ADB3LETTERSANDNUMBERS@AdobeOrg"
 });
 ```
 

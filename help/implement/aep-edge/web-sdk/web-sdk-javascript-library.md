@@ -2,7 +2,7 @@
 title: Enviar datos a Adobe Analytics mediante la biblioteca JavaScript del SDK web
 description: Comience con una implementación limpia del SDK web para enviar datos a Adobe Analytics mediante la biblioteca JavaScript.
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
-source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 18%
@@ -82,7 +82,7 @@ Una información general de alto nivel de las tareas de implementación:
 
 <tr>
 <td>7</td>
-<td><b>Configurar el SDK web</b>. Asegúrese de que la biblioteca que instaló en el paso 4 esté configurada correctamente con el ID de secuencia de datos (anteriormente conocido como id. de configuración de Edge (<code>edgeConfigId</code>)), id. de organización (<code>orgId</code>) y otras opciones disponibles. Asegúrese de que la asignación de variables sea correcta. </td>
+<td><b>Configurar el SDK web</b>. Asegúrese de que la biblioteca que instaló en el paso 4 esté configurada correctamente con el ID de secuencia de datos (anteriormente conocido como id. de configuración de Edge (<code>datastreamId</code>)), id. de organización (<code>orgId</code>) y otras opciones disponibles. Asegúrese de que la asignación de variables sea correcta. </td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configurar el SDK web</a><br/><a href="../xdm-var-mapping.md">Asignación de variables de objetos XDM</a></td>
 </tr>
 
