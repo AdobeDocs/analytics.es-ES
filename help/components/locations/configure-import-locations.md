@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar ubicaciones de importación y exportación de la nube
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 9b263b0b2d41533630f225d4d4dcc9b1e0c4f1df
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
@@ -49,13 +49,14 @@ Para obtener información sobre cómo ver y eliminar ubicaciones existentes, con
    Se muestra el cuadro de diálogo [!UICONTROL **Detalles de ubicación**].
 
 1. Especifique la siguiente información:
-|Campo | Función |
-|---------|----------|
-| [!UICONTROL **Nombre**] | El nombre de la ubicación.  |
-| [!UICONTROL **Descripción**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. |
-| [!UICONTROL **Usar con**] | Seleccione si quiere usar esta ubicación con [!UICONTROL **Fuentes de datos**], [!UICONTROL **Data Warehouse**] o [!UICONTROL **Conjuntos de clasificaciones**]. <p>Tenga en cuenta lo siguiente al realizar una selección:</p><ul><li>Una sola ubicación no se puede usar con varios fines. Por ejemplo, una ubicación que se usa para fuentes de datos no se puede usar también para conjuntos de Datas Warehouse o clasificaciones.</li><li>Para evitar conflictos de archivos dentro de una ubicación, no cambie el valor del campo [!UICONTROL **Usar con**] después de usar la ubicación.</li><li>Si está creando una ubicación para una cuenta de correo electrónico, seleccione [!UICONTROL **Data Warehouse**] en este campo. Las ubicaciones de correo electrónico no son compatibles con las fuentes de datos y los conjuntos de clasificaciones.</li></ul> |
-| [!UICONTROL **Poner la ubicación a disposición de todos los usuarios de su organización**] | Active esta opción para permitir que otros usuarios de su organización utilicen la ubicación.<p>Tenga en cuenta lo siguiente al compartir ubicaciones:</p><ul><li>Las ubicaciones que comparte no se pueden dejar de compartir.</li><li>Solo el propietario de la ubicación puede editar las ubicaciones compartidas.</li><li>Las ubicaciones solo se pueden compartir si también se comparte la cuenta a la que está asociada la ubicación.</li></ul> |
-| [!UICONTROL **Cuenta de ubicación**] | Seleccione la cuenta de ubicación donde desea crear esta ubicación. Para obtener información sobre cómo crear una cuenta, consulte [Configurar cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md). |
+
+   | Campo | Función |
+   |---------|----------|
+   | [!UICONTROL **Nombre**] | El nombre de la ubicación. |
+   | [!UICONTROL **Descripción**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. |
+   | [!UICONTROL **Usar con**] | Seleccione si quiere usar esta ubicación con [!UICONTROL **Fuentes de datos**], [!UICONTROL **Data Warehouse**] o [!UICONTROL **Conjuntos de clasificaciones**]. <p>Tenga en cuenta lo siguiente al realizar una selección:</p><ul><li>Una sola ubicación no se puede usar con varios fines. Por ejemplo, una ubicación que se usa para fuentes de datos no se puede usar también para conjuntos de Datas Warehouse o clasificaciones.</li><li>Para evitar conflictos de archivos dentro de una ubicación, no cambie el valor del campo [!UICONTROL **Usar con**] después de usar la ubicación.</li><li>Si está creando una ubicación para una cuenta de correo electrónico, seleccione [!UICONTROL **Data Warehouse**] en este campo. Las ubicaciones de correo electrónico no son compatibles con las fuentes de datos y los conjuntos de clasificaciones.</li></ul> |
+   | [!UICONTROL **Poner la ubicación a disposición de todos los usuarios de su organización**] | Active esta opción para permitir que otros usuarios de su organización utilicen la ubicación.<p>Tenga en cuenta lo siguiente al compartir ubicaciones:</p><ul><li>Las ubicaciones que comparte no se pueden dejar de compartir.</li><li>Solo el propietario de la ubicación puede editar las ubicaciones compartidas.</li><li>Las ubicaciones solo se pueden compartir si también se comparte la cuenta a la que está asociada la ubicación.</li></ul> |
+   | [!UICONTROL **Cuenta de ubicación**] | Seleccione la cuenta de ubicación donde desea crear esta ubicación. Para obtener información sobre cómo crear una cuenta, consulte [Configurar cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md). |
 
 1. Para completar el formulario para configurar la ubicación, continúe con la sección siguiente que corresponde al tipo de cuenta que seleccionó en el campo [!UICONTROL **Cuentas de ubicación**]. (También están disponibles otros tipos de cuentas heredadas, pero no se recomiendan).
 

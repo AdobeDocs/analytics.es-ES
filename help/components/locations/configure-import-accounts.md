@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configuración de cuentas de importación y exportación de nube
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 6cf277667230a56da9793deb550df1980f1d33b0
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 54%
+ht-degree: 56%
 
 ---
 
@@ -46,12 +46,14 @@ Para configurar una cuenta de importación o exportación de nube:
    Se muestra el cuadro de diálogo [!UICONTROL **Agregar cuenta**].
 
 1. Especifique la siguiente información:
-|Campo | Función |
-|---------|----------|
-| [!UICONTROL **Nombre de cuenta de ubicación**] | El nombre de la cuenta de ubicación. Este nombre aparece al crear una ubicación |
-| [!UICONTROL **Descripción de cuenta de ubicación**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. |
-| [!UICONTROL **Poner la cuenta a disposición de todos los usuarios de su organización**] | Active esta opción para permitir que otros usuarios de su organización utilicen la cuenta.<p>Tenga en cuenta lo siguiente al compartir cuentas:</p><ul><li>Las cuentas que comparta no se pueden dejar de compartir.</li><li>Solo el propietario de la cuenta puede editar las cuentas compartidas.</li><li>Cualquiera puede crear una ubicación para la cuenta compartida.</li></ul> |
-| [!UICONTROL **Tipo de cuenta**] | Seleccione el tipo de cuenta en la nube. Le recomendamos que tenga una sola cuenta para cada tipo de cuenta, con varias ubicaciones según sea necesario dentro de esa cuenta.<p>Los administradores del sistema pueden limitar los tipos de cuentas que los usuarios pueden crear, tal como se describe en [Configurar si los usuarios pueden crear cuentas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Si no puede crear cuentas como se describe en esta sección, póngase en contacto con el administrador del sistema.</p> |
+
+   | Campo | Función |
+   |---------|----------|
+   | [!UICONTROL **Nombre de cuenta de ubicación**] | El nombre de la cuenta de ubicación. Este nombre aparece al crear una ubicación |
+   | [!UICONTROL **Descripción de cuenta de ubicación**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. |
+   | [!UICONTROL **Poner la cuenta a disposición de todos los usuarios de su organización**] | Active esta opción para permitir que otros usuarios de su organización utilicen la cuenta.<p>Tenga en cuenta lo siguiente al compartir cuentas:</p><ul><li>Las cuentas que comparta no se pueden dejar de compartir.</li><li>Solo el propietario de la cuenta puede editar las cuentas compartidas.</li><li>Cualquiera puede crear una ubicación para la cuenta compartida.</li></ul> |
+   | [!UICONTROL **Tipo de cuenta**] | Seleccione el tipo de cuenta en la nube. Le recomendamos que tenga una sola cuenta para cada tipo de cuenta, con varias ubicaciones según sea necesario dentro de esa cuenta.<p>Los administradores del sistema pueden limitar los tipos de cuentas que los usuarios pueden crear, tal como se describe en [Configurar si los usuarios pueden crear cuentas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Si no puede crear cuentas como se describe en esta sección, póngase en contacto con el administrador del sistema.</p> |
+
 1. En la sección [!UICONTROL **Propiedades de la cuenta**], especifique información específica para el tipo de cuenta que seleccionó.
 
    Para obtener instrucciones de configuración, expanda la sección siguiente que corresponde al [!UICONTROL **tipo de cuenta**] que seleccionó. (También están disponibles otros tipos de cuentas heredadas, pero no se recomiendan).
