@@ -4,10 +4,10 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: ec466d2a503278b05d19eda09e2a2244897ce1f3
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 100%
+source-wordcount: '1414'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ Las visualizaciones de flujos le permiten configurar el inicio o el final de la 
    >
    >Las métricas calculadas no se pueden usar con **[!UICONTROL Comienza con]** o **[!UICONTROL Finaliza con]**.
 
-1. Si elige una métrica, también debe proporcionar una [!UICONTROL **Dimensión de rutas**] para usar como ruta de acceso o de salida del componente seleccionado, como se muestra aquí. El valor predeterminado es [!UICONTROL **Página**].
+1. Si elige una métrica, también debe proporcionar un [!UICONTROL **Dimension de rutas**] que utilizará como ruta de acceso o de origen del componente seleccionado, como se muestra a continuación. El valor predeterminado es [!UICONTROL **Página**].
 
    ![dimensión de las rutas](assets/pathing-dim.png)
 
@@ -74,7 +74,7 @@ Las visualizaciones de flujos le permiten configurar el inicio o el final de la 
 > 
 >1. Empiece a crear una visualización de flujo tal como se ha descrito anteriormente.
 >1. Arrastre la dimensión [!UICONTROL **Página**] al campo **[!UICONTROL Contiene]** y, a continuación, seleccione [!UICONTROL **Generar**].
->1. La visualización de flujo se genera con la página más vista visible en el nodo de enfoque en el centro de la visualización. También verá las páginas principales que llevan a esa página (a la izquierda del nodo de enfoque), así como las páginas principales que salen de esa página de enfoque (a la derecha del nodo de enfoque).
+>1. La visualización de flujo se genera con la página más vista visible en el nodo de enfoque en el centro de la visualización. También verá las páginas principales que dirigen a esa página (a la izquierda del nodo de enfoque), así como las páginas principales que dirigen fuera de esa página (a la derecha del nodo de enfoque).
 >1. Analice los datos en el flujo, tal como se describe en [Ver y cambiar la salida del flujo](#view-and-change-the-flow-output).
 
 

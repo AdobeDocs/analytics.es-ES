@@ -4,10 +4,10 @@ title: Resumen de métricas clave
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 98%
 
 ---
 
@@ -51,6 +51,8 @@ Esta visualización aborda una variedad de casos de uso comunes, entre los que s
 1. Haga clic en **[!UICONTROL Generar]**.
 
 ## Visualización del resultado
+
+La visualización de exclusión debe tener un aspecto similar al siguiente:
 
 ![](assets/key-metric-output.png)
 

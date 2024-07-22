@@ -4,10 +4,10 @@ title: Comparación de fechas
 feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 98%
+source-wordcount: '746'
+ht-degree: 57%
 
 ---
 
@@ -24,10 +24,10 @@ A continuación, se muestra un vídeo sobre este tema:
 >[!NOTE]
 >[!UICONTROL Comparar periodos de tiempo] aprovecha las métricas calculadas avanzadas. Como resultado, solo está disponible para clientes con las SKU Select, Prime y Ultimate de Analytics.
 
-El análisis requiere contexto, y este lo proporciona a menudo un periodo de tiempo previo. Por ejemplo, la pregunta “¿En qué medida nos va mejor/peor que en este mismo momento del año pasado?” es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna “diferencia” que muestra el porcentaje de cambio en comparación con un periodo de tiempo concreto.
+El análisis requiere contexto, y este lo proporciona a menudo un periodo de tiempo previo. Por ejemplo, la pregunta &quot;¿Cuánto mejor o peor estamos haciendo que en esta época del año pasado?&quot; es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna “diferencia” que muestra el porcentaje de cambio en comparación con un periodo de tiempo concreto.
 
 1. Cree una tabla de forma libre con cualquier dimensión y métrica que quiera comprobar a lo largo de un periodo de tiempo.
-1. Haga clic con el botón secundario en una fila de la tabla y seleccione **[!UICONTROL Comparar periodos de tiempo]**.
+1. Haga clic con el botón derecho en una fila de la tabla y seleccione **[!UICONTROL Comparar periodos de tiempo]**.
 
    ![](assets/compare-time.png)
 
@@ -40,12 +40,12 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
    | Opción | Descripción |
    |---|---|
    | **[!UICONTROL Semana/mes/trimestre/año anterior a este intervalo de fechas]** | Compara la semana/mes/etc. inmediatamente anterior a este intervalo de fechas. |
-   | **[!UICONTROL Esta semana/mes/trimestre/año el año pasado]** | Lo compara con el mismo intervalo de fechas hace un año. |
-   | **[!UICONTROL Seleccionar intervalo]** | Le permite seleccionar un intervalo de fechas personalizado. |
+   | **[!UICONTROL Esta semana/mes/trimestre/año del año pasado hasta este intervalo de fechas]** | Lo compara con el mismo intervalo de fechas hace un año. |
+   | **[!UICONTROL Intervalo de fechas personalizado a este intervalo de fechas]** | Le permite seleccionar un intervalo de fechas personalizado. |
 
    >[!NOTE]
    >
-   >Cuando selecciona un número personalizado de días, por ejemplo 7 de octubre-20 de octubre (un intervalo de 14 días), solo dispone de dos opciones: **[!UICONTROL 14 días anteriores a este intervalo de fechas]** y **[!UICONTROL Seleccionar intervalo]**.
+   >Al seleccionar una cantidad personalizada de días, por ejemplo, del 7 de octubre al 20 de octubre (un intervalo de 14 días), solo obtendrá dos opciones: **[!UICONTROL 14 días anteriores a este intervalo de fechas]** e **[!UICONTROL Intervalo de fechas personalizado a este intervalo de fechas]**.
 
 1. La comparación resultante tiene este aspecto:
 
@@ -63,19 +63,21 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
 
 Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que permite agregar un periodo diferente al periodo en que está establecido el calendario. Esta es otra manera de comparar fechas.
 
-1. Haga clic con el botón secundario en una columna de la tabla y seleccione **[!UICONTROL Agregar columna de periodo de tiempo]** ![](assets/add-time-period-column.png)
+1. Haga clic con el botón derecho en una columna de la tabla y seleccione **[!UICONTROL Agregar columna de período de tiempo]**.
+
+   ![](assets/add-time-period-column.png)
 
 1. Dependiendo de cómo haya establecido el intervalo de fechas de la tabla, dispone de estas opciones para la comparación:
 
    | Opción | Descripción |
    |---|---|
    | **[!UICONTROL Semana/mes/trimestre/año anterior a este intervalo de fechas]** | Agrega una columna con la semana/mes/etc. inmediatamente anterior a este intervalo de fechas. |
-   | **[!UICONTROL Esta semana/mes/trimestre/año el año pasado]** | Agrega el mismo intervalo de fechas hace un año. |
-   | **[!UICONTROL Seleccionar intervalo]** | Le permite seleccionar un intervalo de fechas personalizado. |
+   | **[!UICONTROL Esta semana/mes/trimestre/año del año pasado hasta este intervalo de fechas]** | Agrega el mismo intervalo de fechas hace un año. |
+   | **[!UICONTROL Intervalo de fechas personalizado a este intervalo de fechas]** | Le permite seleccionar un intervalo de fechas personalizado. |
 
    >[!NOTE]
    >
-   >Cuando selecciona un número personalizado de días, por ejemplo 7 de octubre-20 de octubre (un intervalo de 14 días), solo dispone de dos opciones: **[!UICONTROL 14 días anteriores a este intervalo de fechas]** y **[!UICONTROL Seleccionar intervalo]**.
+   >Al seleccionar una cantidad personalizada de días, por ejemplo, del 7 de octubre al 20 de octubre (un intervalo de 14 días), solo obtendrá dos opciones: **[!UICONTROL 14 días anteriores a este intervalo de fechas]** e **[!UICONTROL Intervalo de fechas personalizado a este intervalo de fechas]**.
 
 1. El periodo de tiempo se insertará en la parte superior de la columna seleccionada:
 
@@ -89,20 +91,27 @@ Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que per
 
 ## Alinear fechas de columnas para que comiencen en la misma fila {#section_5085E200082048CB899C3F355062A733}
 
-Un nuevo ajuste para todas las tablas le permite **[!UICONTROL Alinear fechas de cada columna para que todas empiecen en la misma fila (se aplica a toda la tabla)]**. “Se aplica a toda la tabla” significa que si, por ejemplo, realiza un desglose en la tabla y cambia este ajuste para el desglose, cambiará el ajuste en la tabla entera.
+Puede alinear las fechas de cada columna con todas a partir de la misma fila.
 
-![](assets/date-comparison-setting.png)
-
->[!NOTE]
->
->Esta configuración está **deshabilitada** (desmarcada) para todos los proyectos existentes y **habilitada** (marcada) para todos los proyectos nuevos.
-
-Ejemplo: Cuando elija alinear las fechas, si realiza una comparación mes tras mes entre octubre y septiembre de 2016, la columna izquierda comenzará el 1 de octubre y la de la derecha comenzará el 1 de septiembre:
+Por ejemplo, cuando alinea las fechas, si realiza una comparación mes a mes entre octubre y septiembre de 2016, la columna de la izquierda comenzará el 1 de octubre y la de la derecha, el 1 de septiembre:
 
 ![](assets/add-time-period-column3.png)
 
-<!-- 
+>[!NOTE]
+>
+>Tenga en cuenta lo siguiente al utilizar esta opción:
+>
+>* Esta configuración está habilitada de forma predeterminada para todos los proyectos nuevos.
+>
+>* Esta configuración se aplica a toda la tabla. Por ejemplo, si cambia esta configuración para un desglose dentro de la tabla, cambiará la configuración de toda la tabla.
+>
 
-<p>See Jonny Moon's email from November 3. </p>
+Para habilitar esta configuración, si aún no está habilitada:
 
- -->
+1. En la tabla en la que desee alinear las fechas de la columna, seleccione el icono **Configuración** en el encabezado de la tabla.
+
+1. En la ficha [!UICONTROL **Configuración**], seleccione **[!UICONTROL Alinear fechas de cada columna para que todas empiecen en la misma fila (se aplica a toda la tabla)]**.
+
+![](assets/date-comparison-setting.png)
+
+
