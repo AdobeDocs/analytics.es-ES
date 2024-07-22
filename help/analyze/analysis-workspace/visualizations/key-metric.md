@@ -4,9 +4,9 @@ title: Resumen de métricas clave
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
+source-git-commit: 0bf1b06af8a89c47e74807d14c31075f181cb946
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 98%
 
 ---
@@ -52,7 +52,7 @@ Esta visualización aborda una variedad de casos de uso comunes, entre los que s
 
 ## Visualización del resultado
 
-La visualización de exclusión debe tener un aspecto similar al siguiente:
+El resultado debería tener un aspecto similar al siguiente:
 
 ![](assets/key-metric-output.png)
 
