@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 11e98d35ba52fb777a08f950725b0e8dbb99fa22
+source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 100%
+source-wordcount: '809'
+ht-degree: 94%
 
 ---
 
@@ -98,6 +98,12 @@ ht-degree: 100%
    + [Servidor](dimensions/server.md)
    + [Visitas de página única](dimensions/single-page-visits.md)
    + [Sección del sitio](dimensions/site-section.md)
+   + [Dimensiones principales de los medios de streaming](dimensions/sm-core.md)
+   + [Anuncios de medios de streaming](dimensions/sm-ads.md)
+   + [Capítulos de medios de streaming](dimensions/sm-chapters.md)
+   + [Calidad de medios de streaming](dimensions/sm-quality.md)
+   + [Metadatos de audio de medios de streaming](dimensions/sm-audio-metadata.md)
+   + [Metadatos de vídeo de medios de streaming](dimensions/sm-video-metadata.md)
    + [Tiempo previo al evento](dimensions/time-prior-to-event.md)
    + [Tiempo invertido en la página](dimensions/time-spent-on-page.md)
    + [Tiempo empleado por visita](dimensions/time-spent-per-visit.md)
@@ -151,6 +157,12 @@ ht-degree: 100%
    + [Búsquedas](metrics/searches.md)
    + [Acceso único](metrics/single-access.md)
    + [Visitas de página única](metrics/single-page-visits.md)
+   + [Métricas principales de medios de streaming](metrics/sm-core.md)
+   + [Anuncios de medios de streaming](metrics/sm-ads.md)
+   + [Capítulos de medios de streaming](metrics/sm-chapters.md)
+   + [Seguimiento del estado del reproductor de medios de streaming](metrics/sm-player-state.md)
+   + [Calidad de medios de streaming](metrics/sm-quality.md)
+   + [Metadatos de vídeo de medios de streaming](metrics/sm-video-metadata.md)
    + [Tiempo empleado por visita](metrics/time-spent-per-visit.md)
    + [Tiempo empleado por visitante](metrics/time-spent-per-visitor.md)
    + [Información general sobre el tiempo empleado](metrics/time-spent.md)
