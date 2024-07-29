@@ -5,7 +5,7 @@ user-guide-title: Guía de integración de Analytics
 breadcrumb-title: Guía de integración
 user-guide-description: Configure integraciones con otras soluciones de Adobe Experience Cloud, como Audience Manager y Advertising Cloud.
 source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '151'
 ht-degree: 100%
 
@@ -42,5 +42,5 @@ ht-degree: 100%
 + [Adobe Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es)
 + [Creación de informes de Adobe Campaign en Adobe Analytics](adobe-campaign.md)
 + [Integración de datos de Adobe Analytics con Adobe Campaign Classic](analytics-to-campaign-classic.md)
-+ [Informes de AEM Assets](aem-assets-reporting.md)
++ [Creación de informes de AEM Assets](aem-assets-reporting.md)
 + [Adobe Exchange](https://exchange.adobe.com)

@@ -5,9 +5,9 @@ user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y Activity Map.
 source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '930'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -143,7 +143,7 @@ ht-degree: 99%
       + [Modelos de atribución y ventanas retroactivas](analysis-workspace/attribution/models.md)
       + [Atribución algorítmica](analysis-workspace/attribution/algorithmic.md)
       + [Prácticas recomendadas de atribución](analysis-workspace/attribution/best-practices.md)
-      + [Preguntas más frecuentes](analysis-workspace/attribution/faq.md)
+      + [Preguntas frecuentes](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [IQ de segmento](analysis-workspace/segment-iq.md)
    + Detección de anomalías {#anomaly-detection}
@@ -281,11 +281,11 @@ ht-degree: 99%
    + [Información general](activity-map/overview.md)
    + [Introducción](activity-map/getting-started.md)
    + Superposición {#overlay}
-      + [Resumen de extensión](activity-map/overlay/overview.md)
+      + [Información general sobre la extensión](activity-map/overlay/overview.md)
       + [Extensión de Launch](activity-map/overlay/launch.md)
-      + [Configuración de extensión](activity-map/overlay/settings.md)
+      + [Configuración de la extensión](activity-map/overlay/settings.md)
    + [Resolución de problemas](activity-map/troubleshooting.md)
-   + [Preguntas más frecuentes](activity-map/faq.md)
+   + [Preguntas frecuentes](activity-map/faq.md)
 + Tableros de Adobe Analytics {#mobapp}
    + [Paneles de Adobe Analytics: Información general](mobile-app/home.md)
    + [Introducción para el gestor de datos](mobile-app/curator.md)
