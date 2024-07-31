@@ -3,7 +3,7 @@ description: El Generador de segmentos proporciona un lienzo al que arrastrar y 
 title: Generación de segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 97%
@@ -54,6 +54,7 @@ Puede agregar definiciones y contenedores de reglas para definir los segmentos.
    | Repetido | X | X | X | - | X | - |
    | Instancia | X | X | - | - | X | - |
    | Instancia no repetida | X | - | - | - | X | - |
+
 1. **[!UICONTROL And/Or/Then]**: Asigna los operadores [!UICONTROL AND/OR/THEN] entre contenedores o reglas. El operador THEN le permite [definir segmentos secuenciales](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL Métrica]**: Métrica arrastrada y soltada a partir de la lista Métricas.
 1. Operador de **[!UICONTROL comparación]**: Puede comparar y restringir valores utilizando una selección de operadores.

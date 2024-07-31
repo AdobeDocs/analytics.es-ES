@@ -3,10 +3,10 @@ description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración del destino de un informe para una solicitud de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '2615'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Correo electrónico
 
@@ -141,12 +141,13 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
       |---------|----------|
       | [!UICONTROL **Destinatarios**] | Se pueden enviar notificaciones por correo electrónico a personas específicas cuando se envía el informe. Especifique una única dirección de correo electrónico o una lista de direcciones de correo electrónico separadas por comas.<!-- How does this differ from the Notification email tab? --> |
 
-   1. Seleccione [!UICONTROL **Añadir ubicación**] y, a continuación, especifique la siguiente información: 
-|Campo | Función |
-|---------|----------|
-| [!UICONTROL **Nombre**] | el nombre de la ubicación.    |
-| [!UICONTROL **Descripción**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. |
-| [!UICONTROL **Cuenta de ubicación**] | Seleccione la cuenta de ubicación que ha creado en [Añadir una cuenta](#add-an-account). |
+   1. Seleccione [!UICONTROL **Agregar ubicación**] y, a continuación, especifique la siguiente información:
+
+      | Campo | Función |
+      |---------|----------|
+      | [!UICONTROL **Nombre**] | El nombre de la ubicación. |
+      | [!UICONTROL **Descripción**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. |
+      | [!UICONTROL **Cuenta de ubicación**] | Seleccione la cuenta de ubicación que creó en [Agregar una cuenta](#add-an-account). |
 
    1. En la sección [!UICONTROL **Propiedades de ubicación**], especifique información específica para el tipo de cuenta de su cuenta de ubicación.
 
@@ -163,7 +164,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -176,7 +177,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +190,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +204,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Siga configurando la solicitud de Data Warehouse en la pestaña [!UICONTROL **Opciones de informe**]. Para obtener más información, consulte [Configuración de las opciones de un informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 
