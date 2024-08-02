@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Administrador de ubicaciones
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -202,6 +202,8 @@ Para limitar los tipos de cuentas disponibles para los usuarios al crear y utili
 1. Busque la sección [!UICONTROL **Tipos de cuenta permitidos**].
 
    Los siguientes tipos de cuenta están disponibles para los usuarios de forma predeterminada. Anule la selección de cualquiera de estos tipos de cuenta para impedir que los usuarios los utilicen.
+
+   Se debe seleccionar al menos un tipo de cuenta.
 
    * [!UICONTROL **ARN de la función Amazon S3**]
 
