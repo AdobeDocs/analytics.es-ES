@@ -3,10 +3,10 @@ title: Importar métricas de búsqueda de pago
 description: Pasos para configurar Adobe Analytics para que realice un seguimiento de las métricas de búsqueda de pago (por ejemplo, Google AdWords, MSN, Yahoo, etc.) uso de fuentes de datos.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 98%
+source-wordcount: '1205'
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ El [!UICONTROL Asistente para la activación de la fuente de datos] muestra:
 1. Haga clic en **[!UICONTROL Siguiente]** y asigne un nombre a la fuente de datos. Este nombre aparecerá en el Administrador de la fuente de datos.
 1. Acepte el contrato de servicio y haga clic en **[!UICONTROL Siguiente]**.
 1. Seleccione las tres métricas estándar: [!UICONTROL Impresiones], [!UICONTROL Clics] y [!UICONTROL Coste total], y haga clic en **[!UICONTROL Siguiente]**.
-1. Ahora, “asigne” esta nueva fuente de datos a los eventos personalizados que hemos creado en [Configurar eventos de éxito](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
+1. Ahora, &quot;asigne&quot; esta nueva fuente de datos a los eventos personalizados que hemos creado en [Eventos de éxito](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md).
 
    ![Asignación](assets/data-source-mapping.png)
 
