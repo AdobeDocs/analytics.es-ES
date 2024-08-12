@@ -3,10 +3,10 @@ title: Dispositivos únicos
 description: Número de dispositivos únicos.
 feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 16a9c9a2b6692b9b1944cfdb9b5b0411d48db666
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 92%
+source-wordcount: '263'
+ht-degree: 73%
 
 ---
 
@@ -18,13 +18,13 @@ La métrica [Dispositivos únicos](overview.md) es una métrica de [Análisis en
 
 Para cada dispositivo, suma todas las personas distintas vinculadas a él (incluido el anónimo si el dispositivo contiene visitas no vinculadas).
 
-Tenga en cuenta que esta métrica no es igual a [Visitantes únicos](unique-visitors.md) en los grupos de informes que no son de CDA. Por ejemplo, un dispositivo se comparte con tres cuentas diferentes. Si las tres cuentas visitan el sitio en una ventana de informes, el informe resultante mostrará tres dispositivos únicos en CDA. Los mismos datos fuera de CDA mostrarían un visitante único.
+Tenga en cuenta que esta métrica no es igual a [Visitantes únicos](unique-visitors.md) en los grupos de informes que no son de CDA. Por ejemplo, un dispositivo se comparte con tres cuentas diferentes. Si las 3 cuentas visitan el sitio en una ventana de informes, el informe resultante mostrará 3 dispositivos únicos en CDA. Los mismos datos fuera de CDA mostrarían un visitante único.
 
 ## Ejemplo
 
-1. Sally llega al sitio en su teléfono a través de un anuncio, pero no ha iniciado sesión.
+1. Sally llega al sitio por teléfono a través de un anuncio, pero no ha iniciado sesión.
 1. Sally quiere hacer una compra, pero preferiría hacerlo en el ordenador de la familia porque ya ha iniciado sesión allí. En el ordenador de la familia, hace una compra.
-1. Al día siguiente, comprueba su pedido por teléfono y se autentica por ese medio.
+1. Al día siguiente, comprueba su pedido por teléfono y se autentica allí.
 1. La esposa de Bob, Alice, explora su sitio mientras inicia sesión en su cuenta en el ordenador familiar.
 1. El hermano de Bob, Charles, también explora su sitio mientras inicia sesión en su cuenta en el equipo familiar.
 
