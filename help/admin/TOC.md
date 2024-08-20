@@ -5,7 +5,7 @@ user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
 source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
 ht-degree: 100%
 
