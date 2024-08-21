@@ -4,10 +4,10 @@ title: Resumen de las alertas inteligentes
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: a012aca08740428671f216793dbd12aa15f21448
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 54%
+ht-degree: 60%
 
 ---
 
@@ -49,4 +49,4 @@ Para obtener información sobre cómo crear alertas en Adobe Analytics, consulte
 
 Puede administrar las alertas existentes en el Administrador de alertas. Puede realizar varias tareas de administración en las alertas, como etiquetado, cambio de nombre, eliminación, etc.
 
-Para obtener más información sobre cómo administrar las alertas existentes en Adobe Analytics, consulte [Administrar alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
+Para obtener más información sobre cómo administrar las alertas existentes en Adobe Analytics, consulte [Administrar alertas](/help/components/c-alerts/alert-manager.md).

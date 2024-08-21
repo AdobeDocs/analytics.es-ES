@@ -4,7 +4,7 @@ title: Alertas sobre el uso de llamadas al servidor
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 92%
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 Al configurar una alerta, se aplica a todos los grupos de informes en todas las empresas de inicio de sesión de una empresa de facturación.
 
-Las alertas de uso de llamadas al servidor forman parte de la interfaz de usuario [Alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
+Las alertas de uso de llamadas al servidor forman parte de la interfaz de usuario [Alertas](/help/components/c-alerts/alert-manager.md).
 
 Está previamente completado con **1 alerta predeterminada** que aparece en cualquier empresa de inicio de sesión con acceso a la función Uso de llamadas al servidor. Esta alerta activa una notificación destinada a todos los administradores de la empresa de inicio de sesión si se cumple uno de los siguientes criterios:
 

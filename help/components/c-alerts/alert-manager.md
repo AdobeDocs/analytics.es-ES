@@ -3,42 +3,93 @@ description: Gestionar alertas.
 title: Información general de Alert Manager
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 49324ef7fd45adeef2c31167d0444a7e67041d6d
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 34%
+source-wordcount: '631'
+ht-degree: 5%
 
 ---
 
 # Administrador de alertas
 
+Puede administrar las alertas existentes en el Administrador de alertas. Puede realizar varias tareas de administración en las alertas, como etiquetado, cambio de nombre, eliminación, etc.
+
 El Administrador de alertas tiene una estructura muy similar al [Administrador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=es) y al [Administrador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=es).
 
 ![](assets/alert-manager.png)
 
-## Acceso al Administrador de alertas
+## Creación de alertas
 
-1. En Adobe Analytics, seleccione [!UICONTROL **Componentes**] > [!UICONTROL **Alertas**].
+Para crear alertas desde el Administrador de alertas:
 
-## Acciones disponibles en el Administrador de alertas
+1. Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acceder al Administrador de alertas en Adobe Analytics.
 
-En el Administrador de alertas, puede:
+   ![](assets/alert-manager.png)
 
-* Acceda al Generador de alertas haciendo clic en **[!UICONTROL + Añadir]**.
-* Etiquetar alertas. Esto permite organizarlas para facilitar su uso.
-* Eliminar alertas.
-* Cambiar el nombre de alertas.
-* Aprobar alertas.
-* Copiar alertas.
-* Habilitar/deshabilitar alertas.
-* **Renovar** una fecha de caducidad para la alerta. Es posible renovar una o más alertas seleccionándolas y haciendo clic en **[!UICONTROL Renovar]**. Esto hace que su fecha de caducidad pase a ser 1 año desde el día en que se hace clic en **[!UICONTROL Renovar]**, fuera cual fuera la fecha de caducidad original.
-* Exportar una alerta a un archivo .CSV.
-* Editar alertas haciendo doble clic en su título.
-* Buscar alertas.
-* Añadir alertas a otros grupos de informes.
-* Especificar/cambiar el propietario de una alerta.
-* Añadir otros filtros.
-* Definir una **fecha de caducidad** para la alerta.
+1. Seleccione [!UICONTROL **Agregar**] (o [!UICONTROL **Crear nueva alerta**] si no tiene ninguna alerta existente).
+
+1. Seleccione el tipo de alerta que corresponde a la alerta que desea crear:
+
+   * [!UICONTROL **Alerta de datos de Analytics**]: una alerta para avisarle cuando se produzcan eventos anómalos en sus datos.
+
+     Si seleccionas esta opción, continúa con [Crear alertas](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) para obtener más detalles acerca de la creación de alertas.
+
+   * [!UICONTROL **Alerta de uso de llamadas al servidor**]: una alerta para notificarle el riesgo o la incidencia de un exceso en los datos de asignación y consumo de llamadas al servidor.
+
+     Si selecciona esta opción, continúe con [Alertas de uso de llamadas al servidor](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+
+     >[!NOTE]
+     >
+     >Debe ser administrador de Analytics o usuario con el permiso Uso de llamadas al servidor para tener acceso a este.
+
+## Administrar alertas existentes
+
+Puede realizar varias acciones en las alertas existentes, como etiquetado, cambio de nombre, eliminación, etc.
+
+Para administrar las alertas existentes en el Administrador de alertas:
+
+1. Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acceder al Administrador de alertas en Adobe Analytics.
+
+   ![](assets/alert-manager.png)
+
+1. Seleccione una o varias alertas que desee administrar.
+
+   ![](assets/alert-manager-tasks.png)
+
+1. En la barra de acciones, seleccione cualquiera de las siguientes opciones:
+
+   | Acción | Función |
+   |---------|----------|
+   | [!UICONTROL **Etiqueta**] | Aplicar una etiqueta a una alerta. Esto le ayuda a organizar las alertas para facilitar su uso. |
+   | [!UICONTROL **Eliminar**] | Elimina la alerta. |
+   | [!UICONTROL **Cambiar el nombre**] | Cambia el nombre de la alerta. |
+   | [!UICONTROL **Aprobar**] | Marcar la alerta como Aprobada. |
+   | [!UICONTROL **Copiar**] | Crea una copia (duplicado) de la alerta. |
+   | [!UICONTROL **Deshabilitar**] | Deshabilita una alerta que está habilitada actualmente. |
+   | [!UICONTROL **Activar**] | Habilita una alerta que está deshabilitada actualmente. |
+   | [!UICONTROL **Renovar**] | Renueva la fecha de caducidad de la alerta. Esto amplía la fecha de caducidad a 1 año a partir del día en que seleccionó esta opción, independientemente de la fecha de caducidad original. |
+   | [!UICONTROL **Exportar a CSV**] | Exporta la alerta a un archivo .CSV. |
+
+## Editar una alerta
+
+Para editar una alerta existente:
+
+1. Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acceder al Administrador de alertas en Adobe Analytics.
+
+   ![](assets/alert-manager.png)
+
+1. Seleccione el nombre de la alerta en la columna [!UICONTROL **Título y descripción**].
+
+1. Edite la alerta como desee.
+
+   A continuación se indican algunas de las acciones que puede realizar al editar una alerta:
+
+   * Agregar alertas a otros grupos de informes
+   * Cambiar el propietario
+   * Actualización de los filtros
+   * Actualizar la fecha de caducidad
+
+1. Edite la alerta y, a continuación, seleccione [!UICONTROL **Guardar**].
 
 ## Configuración de columnas
 
