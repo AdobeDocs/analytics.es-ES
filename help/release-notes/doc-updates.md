@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5972'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Agosto de 2024** | |
-| Administrador de alertas | Documentación optimizada sobre [Administrador de alertas](/help/components/c-alerts/alert-manager.md). Se ha actualizado para una mayor claridad y precisión. |
+| Administrador de alertas | Documentación optimizada sobre el [Administrador de alertas](/help/components/c-alerts/alert-manager.md). Se ha actualizado para una mayor claridad y precisión. |
 | **Julio de 2024** | |
 | Eventos de éxito | Documentación optimizada sobre [eventos de éxito](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md). Se ha actualizado para una mayor claridad y precisión. |
 | Se debe seleccionar al menos un tipo de cuenta al administrar las ubicaciones | Se ha aclarado que cuando los administradores están [limitando los tipos de cuenta que se usan para exportar e importar](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users), se debe seleccionar al menos un tipo de cuenta. |

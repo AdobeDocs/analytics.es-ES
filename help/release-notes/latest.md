@@ -4,15 +4,15 @@ description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Notas de la versión actuales de Adobe Analytics (agosto de 2024)
 
-**Última actualización**: miércoles, 20 de agosto de 2024
+**Última actualización**: 20 de agosto de 2024
 
 Estas notas de la versión cubren el periodo comprendido entre el 14 de agosto de 2024 y septiembre de 2024. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -37,7 +37,7 @@ AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-
 
 | Aviso | Fecha de incorporación o actualización | Descripción |
 | ----------- | ---------- | ---------- |
-| **13 meses de caducidad de`cust_visids`** guardado | 20 de agosto de 2024 | La versión del **20 de agosto de 2024** del motor de procesamiento de la visita de análisis aplica una caducidad de 13 meses de `cust_visids` guardado. Si el conjunto de informes tiene activada la opción &quot;Habilitar identificación de visitantes entre dispositivos&quot;, este ajuste se utiliza para encontrar `cust_visid` para un `visid_high/visid_low value` sin ningún `cust_visid` en la visita. Anteriormente, no había caducidad para la asignación de un(a) `cust_visid` para un(a) `visid_high/visid_low`. Con esta versión, si han pasado 13 meses o más desde que `visid_high/visid_low` tuvo un `cust_visid` en una visita, la asignación caduca. |
+| **13 meses de caducidad de`cust_visids`** guardado | 20 de agosto de 2024 | La versión del **20 de agosto de 2024** del motor de procesamiento de la visita de análisis aplica una caducidad de 13 meses de `cust_visids` guardado. Si el conjunto de informes tiene activada la opción &quot;Habilitar identificación de visitantes entre dispositivos&quot;, este ajuste se utiliza para encontrar `cust_visid` para un `visid_high/visid_low value` sin ningún `cust_visid` en la visita. Actualmente, no hay caducidad de la asignación de un `cust_visid` para un `visid_high/visid_low`. Con esta versión, si han pasado 13 meses o más desde que `visid_high/visid_low` tuvo un `cust_visid` en una visita, la asignación caduca. |
 
 {style="table-layout:auto"}
 
