@@ -4,14 +4,17 @@ description: Comprenda los requisitos previos y las limitaciones de la vinculaci
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 60%
 
 ---
 
+
 # Gráfico del dispositivo
+
+{{available-existing-customers}}
 
 Los análisis entre dispositivos pueden utilizar Private Graph para vincular los datos. Private Graph es un repositorio de ID de dispositivos con hash específicos de su organización. CDA se comunica regularmente con el gráfico del dispositivo para vincular dispositivos.
 
@@ -22,6 +25,7 @@ Si tiene intención de implementar el análisis entre dispositivos mediante el m
 >[!WARNING]
 >
 >Si no se cumplen todos los requisitos previos, es posible que no se pueda habilitar el análisis entre dispositivos o que se obtengan resultados deficientes al vincular datos.
+>
 
 * Todos los requisitos previos enumerados en la [página de información general](overview.md).
 * Su organización debe utilizar [Adobe Experience Platform Identity Service Private Graph](https://business.adobe.com/products/experience-platform/identity-service.html). Consulte también la [Página principal](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es) en la guía del usuario del servicio de identidad.

@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo limitar el intervalo de fechas de 
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 41%
@@ -12,6 +12,8 @@ ht-degree: 41%
 ---
 
 # Limitar un grupo de informes virtuales a determinadas fechas
+
+{{available-existing-customers}}
 
 Cuando activamos la vinculación, la vinculación comienza en una fecha específica. Supongamos que la fecha es el 1 de junio. El grupo de informes virtuales de CDA contendrá datos no enlazados antes del 1 de junio. Es posible que desee ocultar cualquier dato del grupo de informes virtuales anterior al 1 de junio para que el análisis pueda centrarse en los intervalos de fechas después de iniciar la vinculación.
 
