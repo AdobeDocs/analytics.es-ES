@@ -4,18 +4,18 @@ title: Prácticas recomendadas de etiquetado
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: 0fd0fad17cf6dcaa042e53d86dfabc5792a065b6
+source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
 workflow-type: tm+mt
-source-wordcount: '2692'
-ht-degree: 92%
+source-wordcount: '2830'
+ht-degree: 88%
 
 ---
 
 # Prácticas recomendadas de etiquetado
 
->[!NOTE]
->
->Recuerde que el etiquetado debe revisarse cada vez que se crea un nuevo grupo de informes o cuando se activa una nueva variable dentro de un grupo de informes existente. También es posible que necesite revisar el etiquetado cuando se activen nuevas integraciones de la solución, ya que pueden exponer nuevas variables que pueden requerir etiquetado. Una reimplementación de sus aplicaciones móviles o sitios web puede cambiar la forma en la que se utilizan las variables existentes, las cuales también pueden necesitar la actualización de las etiquetas.
+El etiquetado debe revisarse cada vez que se crea un nuevo grupo de informes o cuando se activa una nueva variable dentro de un grupo de informes existente. También es posible que necesite revisar el etiquetado cuando se activen nuevas integraciones de la solución, ya que pueden exponer nuevas variables que pueden requerir etiquetado. Una reimplementación de sus aplicaciones móviles o sitios web puede cambiar la forma en la que se utilizan las variables existentes, las cuales también pueden necesitar la actualización de las etiquetas.
+
+Las etiquetas I1, I2, S1 y S2 tienen el mismo significado que las etiquetas DULE con el nombre correspondiente en Adobe Experience Platform. Sin embargo, se utilizan para propósitos muy diferentes. En Adobe Analytics, estas etiquetas se utilizan para ayudar a identificar campos que deben convertirse en anónimos como resultado de una solicitud del Privacy Service. En Adobe Experience Platform, se utilizan para el control de acceso, la administración de consentimientos y para aplicar restricciones de marketing en campos etiquetados. Adobe Experience Platform admite muchas etiquetas adicionales que Adobe Analytics no utiliza. Si utiliza el conector de datos de Analytics para importar los datos de Adobe Analytics en Adobe Experience Platform, debe asegurarse de que todas las etiquetas I1, I2, S1 y S2 que haya aplicado en Adobe Analytics también se apliquen a los esquemas de Adobe Experience Platform que utilizan los grupos de informes importados.
 
 ## ID directamente e indirectamente identificables {#direct-vs-indirect}
 
@@ -24,7 +24,7 @@ Antes de poder determinar las etiquetas que se deben aplicar a cada variable o c
 * **Un ID directamente identificable (I1)**: especifica el nombre de la persona o proporciona un método directo de ponerse en contacto con ella. Como ejemplo podríamos mencionar el nombre de alguien (incluso uno común, como Juan Pérez, que podrían compartir cientos de personas), cualquiera de sus direcciones de correo electrónico o números de teléfono, etc. Una dirección de correo sin nombre podría considerarse como directamente identificable, aunque solo podría identificar un hogar o una empresa en lugar de una persona específica dentro de ese hogar o empresa.
 * **Un ID indirectamente identificable (I2)**: no permite que se determine de qué persona se trata por sí solo, pero podría combinarse con otra información (que podría tener o no en su poder) para identificar a alguien. Entre los ejemplos de ID identificables indirectamente se incluyen un número de lealtad del cliente o un ID empleado por el sistema de CRM de una compañía que es único para cada uno de sus clientes. De conformidad con la privacidad de datos, los ID anónimos almacenados en las cookies de seguimiento que utiliza Analytics se pueden considerar como de identificación indirecta, aunque solo pueden identificar un dispositivo, en lugar de a una persona; en un dispositivo compartido, estas cookies no pueden distinguir entre los distintos usuarios del sistema. Por ejemplo, aunque la cookie no se puede utilizar para encontrar un equipo que la contenga, si alguien tiene acceso al equipo y la localiza, entonces puede asociar los datos de la cookie de Analytics nuevamente al equipo.
 
-  Una dirección IP también se considera indirectamente identificable, porque en cualquier momento puntual solo se puede asignar a un único dispositivo. Sin embargo, los ISP pueden cambiar las direcciones IP de la mayoría de los usuarios con regularidad (y lo hacen a menudo), de modo que a lo largo de cierto tiempo cualquiera de sus usuarios puede haber usado una dirección IP determinada. Tampoco es inusual que muchos clientes de un ISP o varios empleados de una empresa en la misma intranet compartan la misma dirección IP externa. Por estos motivos, Adobe no admite el uso de una dirección IP como el ID de una solicitud de privacidad de datos. Sin embargo, cuando se emplee un ID que aceptemos como parte de una solicitud de eliminación, también borraremos las direcciones IP ligadas a dicho ID. Debe decidir si existen otros ID recogidos que puedan pertenecer a esta categoría, de I1 o I2, pero que no sean aptos para su uso como ID distintivo en solicitudes de privacidad de datos.
+Una dirección IP también se considera indirectamente identificable, porque en cualquier momento puntual solo se puede asignar a un único dispositivo. Sin embargo, los ISP pueden cambiar las direcciones IP de la mayoría de los usuarios con regularidad (y lo hacen a menudo), de modo que a lo largo de cierto tiempo cualquiera de sus usuarios puede haber usado una dirección IP determinada. Tampoco es inusual que muchos clientes de un ISP o varios empleados de una empresa en la misma intranet compartan la misma dirección IP externa. Por estos motivos, Adobe no admite el uso de una dirección IP como el ID de una solicitud de privacidad de datos. Sin embargo, cuando se emplee un ID que aceptemos como parte de una solicitud de eliminación, también borraremos las direcciones IP ligadas a dicho ID. Debe decidir si existen otros ID recogidos que puedan pertenecer a esta categoría, de I1 o I2, pero que no sean aptos para su uso como ID distintivo en solicitudes de privacidad de datos.
 
 Aunque su empresa recopile muchos ID distintos en sus datos de Analytics, puede optar por usar únicamente un subconjunto de dichos ID para las solicitudes de privacidad de datos. Estos son algunos de los motivos para tomar esa decisión:
 

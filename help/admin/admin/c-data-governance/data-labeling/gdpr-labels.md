@@ -4,24 +4,26 @@ title: Etiquetas de privacidad de datos para variables de Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
+source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
 workflow-type: tm+mt
-source-wordcount: '3569'
-ht-degree: 97%
+source-wordcount: '3790'
+ht-degree: 91%
 
 ---
 
 # Etiquetas de privacidad de datos para variables de Analytics
 
-## ¿Por qué debería etiquetar sus datos? {#why-label}
-
-Los clientes de Adobe, como responsables del tratamiento de datos, son responsables de cumplir las leyes aplicables sobre privacidad de datos, como el RGPD y la CCPA. Los clientes deben consultar con sus propios equipos jurídicos para determinar cómo se deben administrar sus datos para cumplir con las leyes de privacidad de datos. Adobe comprende que cada uno de sus clientes tiene necesidades específicas relacionadas con la privacidad, por lo que Adobe permite a sus clientes personalizar la configuración que deseen para el procesamiento de datos de privacidad de datos. De este modo, cada cliente único puede tratar las solicitudes de privacidad de datos de la manera que mejor se adapte a su marca y a su conjunto de datos único.
+Los clientes de Adobe, como responsables del tratamiento de datos, son responsables de cumplir con las leyes aplicables sobre privacidad de datos, como el Reglamento general de protección de datos (RGPD) y la Ley de Privacidad del Consumidor de California (CCPA). Los clientes deben consultar con sus propios equipos jurídicos para determinar cómo se deben administrar sus datos para cumplir con las leyes de privacidad de datos. Adobe comprende que cada uno de sus clientes tiene necesidades específicas relacionadas con la privacidad, por lo que Adobe permite a sus clientes personalizar la configuración que deseen para el procesamiento de datos de privacidad de datos. De este modo, cada cliente único puede tratar las solicitudes de privacidad de datos de la manera que mejor se adapte a su marca y a su conjunto de datos único.
 
 Adobe Analytics proporciona herramientas para etiquetar datos según su confidencialidad y las restricciones contractuales. Las etiquetas resultan importantes a la hora de: (1) identificar los datos de los sujetos, (2) determinar qué datos se han de devolver en una solicitud de acceso y (3) identificar campos de datos que se deban eliminar en una solicitud de eliminación.
 
 Antes de poder determinar las etiquetas que se deben aplicar a cada variable o campo, debe [comprender qué tipo de ID](/help/admin/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md) captura en sus datos de Analytics y decidir cuáles usará para las solicitudes de privacidad de datos.
 
 La implementación de privacidad de datos de Adobe Analytics admite las siguientes etiquetas para datos de identidad, datos confidenciales y la administración de datos.
+
+>[!NOTE]
+>
+>Las etiquetas I1, I2, S1 y S2 tienen el mismo significado que las etiquetas DULE con el nombre correspondiente en Adobe Experience Platform. Sin embargo, se utilizan para propósitos muy diferentes. En Adobe Analytics, estas etiquetas se utilizan para ayudar a identificar campos que deben convertirse en anónimos como resultado de una solicitud del Privacy Service. En Adobe Experience Platform, se utilizan para el control de acceso, la administración de consentimientos y para aplicar restricciones de marketing en los campos etiquetados. Adobe Experience Platform admite muchas etiquetas adicionales que Adobe Analytics no utiliza. Además, las etiquetas de Adobe Experience Platform se aplican a los esquemas. Si utiliza el conector de datos de Analytics para importar los datos de Adobe Analytics en Adobe Experience Platform, deberá asegurarse de que las etiquetas DULE adecuadas estén configuradas en Adobe Experience Platform para los esquemas utilizados por cada uno de los grupos de informes. Las etiquetas asignadas en Adobe Analytics no se aplican automáticamente a estos esquemas en Adobe Experience Platform, ya que solo representarían un subconjunto de las etiquetas DULE que puede que necesite aplicar. Además, los distintos grupos de informes pueden compartir un esquema, pero tienen diferentes etiquetas asignadas a props y evars con el mismo número y el esquema puede ser compartido por conjuntos de datos de otras fuentes de datos, lo que podría causar confusión sobre por qué ciertos campos recibieron estas etiquetas.
 
 ## Etiquetas de datos de identidad {#identity-data-labels}
 
@@ -49,7 +51,7 @@ Las etiquetas de datos confidenciales “S” se utilizan para categorizar datos
 
 Las etiquetas de control de datos confieren a los usuarios la capacidad de clasificar datos que reflejen consideraciones relacionadas con la privacidad y condiciones contractuales a fin de ayudar a los clientes de Adobe a cumplir las normativas y las políticas corporativas.
 
-### Etiquetas de acceso a la privacidad de datos
+### Etiquetas de acceso a la privacidad de datos {#access}
 
 | Etiqueta | Definición | Otros requisitos |
 | --- | --- | --- |
@@ -61,7 +63,7 @@ Las etiquetas de control de datos confieren a los usuarios la capacidad de clasi
 
 Mientras que algunas variables recibirán alguna de las otras etiquetas, se espera que el acceso a las etiquetas se aplique a muchas de sus variables. Sin embargo, está en su mano, con el asesoramiento de su equipo legal, decidir cuáles de los datos que ha recopilado deben compartirse con los interesados.
 
-### Etiquetas de eliminación de la privacidad de datos
+### Etiquetas de eliminación de la privacidad de datos {#delete}
 
 A diferencia de otras etiquetas, estas etiquetas de eliminación no son mutuamente exclusivas. Puede seleccionar una, ambas o ninguna. No es necesaria una etiqueta separada [!UICONTROL Ninguno], porque [!UICONTROL Ninguno] se indica simplemente no marcando ninguna opción Eliminar.
 
@@ -74,7 +76,7 @@ Se requiere una etiqueta de eliminación únicamente para los campos que contien
 
 {style="table-layout:auto"}
 
-### Etiquetas de identidad de la privacidad de datos
+### Etiquetas de identidad de la privacidad de datos {#identity}
 
 | Etiqueta | Definición | Otros requisitos |
 | --- | --- | --- |
@@ -88,7 +90,7 @@ Se requiere una etiqueta de eliminación únicamente para los campos que contien
 
 Cuando etiquete una variable como ID-DEVICE o ID-PERSON, se le solicitará que proporcione un área de nombres. Puede utilizar un área de nombres definida anteriormente o definir una nueva.
 
-### Utilizar un área de nombres definida anteriormente
+### Utilizar un área de nombres definida anteriormente {#previously-defined}
 
 Si ha asignado una etiqueta de ID anteriormente a otras variables de cualquier grupo de informes de su empresa de inicio de sesión, puede seleccionar una de estas áreas de nombres existentes. Debe volver a utilizar el área de nombres si esta variable contiene el mismo tipo de ID que otras variables que ya están etiquetadas con esta área de nombres y desea realizar búsquedas en todos ellos al enviar una solicitud.
 
@@ -97,7 +99,7 @@ Si ha asignado una etiqueta de ID anteriormente a otras variables de cualquier g
 1. Haga clic en **[!UICONTROL Aplicar]**.
 
 
-### Definir una nueva área de nombres
+### Definir una nueva área de nombres {#define}
 
 También puede definir una nueva área de nombres. Le recomendamos que las cadenas de área de nombres se limiten a caracteres alfanuméricos, además de los caracteres de guion bajo, guión y espacio. Se convertirán a todo en minúsculas.
 
