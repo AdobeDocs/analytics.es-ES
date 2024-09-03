@@ -1,19 +1,19 @@
 ---
-description: Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas personalizadas que puede crear a partir de métricas existentes.
-keywords: Métricas calculadas, métricas derivadas y métricas calculadas avanzadas
-title: Métricas calculadas y calculadas avanzadas (derivadas)
+description: Las métricas calculadas y calculadas avanzadas son métricas personalizadas que se pueden crear a partir de métricas existentes.
+keywords: Métricas calculadas;Métricas calculadas avanzadas
+title: Métricas calculadas y métricas calculadas avanzadas
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 59%
+source-wordcount: '533'
+ht-degree: 54%
 
 ---
 
-# Métricas calculadas y calculadas avanzadas (derivadas)
+# Métricas calculadas y métricas calculadas avanzadas
 
-Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas personalizadas que se pueden crear a partir de métricas existentes.
+Las métricas calculadas y las métricas calculadas avanzadas son métricas personalizadas que se pueden crear a partir de métricas existentes.
 
 Nuestras herramientas de métricas calculadas ofrecen una forma muy flexible de crear, administrar y ajustar métricas. Como expertos en marketing, gestores de productos y analistas, les permite plantear preguntas acerca de los datos sin tener que cambiar su implementación de [!DNL Analytics] En cada paquete de [!DNL Analytics] están disponibles las siguientes métricas personalizadas:
 
@@ -24,7 +24,7 @@ Nuestras herramientas de métricas calculadas ofrecen una forma muy flexible de 
 
 A continuación se muestra una comparación de las métricas calculadas y las capacidades avanzadas de las métricas calculadas:
 
-| Opciones del creador | Métricas calculadas  | Métricas calculadas avanzadas (derivadas) |
+| Opciones del creador | Métricas calculadas  | Métricas calculadas avanzadas |
 |---|---|---|
 | [Tipos de formato (decimal, tiempo, porcentaje, moneda)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Sí | Sí |
 | [Cambios de atribución (predeterminado, lineal, de participación, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sí | Sí |

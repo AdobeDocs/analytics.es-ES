@@ -3,10 +3,10 @@ description: Información general acerca de Adobe Analytics, incluida informaci�
 title: Explicación de la interfaz de Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 100%
+source-wordcount: '2065'
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ La pestaña [!UICONTROL Componentes] incluye características que le ayudan a af
    | Funcionalidad del producto | Función | Más información |
    |---------|----------|----------|
    | Segmentos  | Adobe Analytics le permite generar, administrar, compartir y aplicar a sus informes potentes segmentos centrados en la audiencia utilizando capacidades de Analytics, Adobe Experience Cloud, Adobe Target y otros productos integrados de Adobe. | [Segmentación de Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=es) |
-   | Métricas calculadas  | Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas personalizadas que se pueden crear a partir de métricas existentes. Permiten a especialistas en marketing, gestores de productos y analistas hacer preguntas sobre los datos sin tener que cambiar la implementación de Analytics. | [Métricas calculadas y calculadas avanzadas (derivadas)](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=es) |
+   | Métricas calculadas  | Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas personalizadas que se pueden crear a partir de métricas existentes. Permiten a especialistas en marketing, gestores de productos y analistas hacer preguntas sobre los datos sin tener que cambiar la implementación de Analytics. | [Métricas calculadas y calculadas avanzadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=es) |
    | Intervalos de fechas | Analysis Workspace incluye una lista de intervalos de fechas predeterminados que se pueden utilizar al crear análisis. Además, puede crear intervalos de fechas personalizados y difundirlos en Analysis Workspace. | [Crear intervalos de fechas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=es) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Grupos de informes virtuales | Los grupos de informes virtuales segmentan los datos de Adobe Analytics de modo que pueda controlar el acceso a cada segmento. | [Resumen de los grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=es) |
    | Alertas | Las alertas inteligentes permiten un control más granular sobre las alertas e integran la detección de anomalías en el sistema de alertas. | [Alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=es) |
@@ -120,7 +120,7 @@ La pestaña Administración incluye funciones y opciones de configuración para 
    | Servicios Web | Las API de servicios web proporcionan acceso mediante programación a los informes de marketing y a otros servicios de Suite que permiten duplicar y aumentar la funcionalidad disponible a través de la interfaz de Analytics. | [Servicios web](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html?lang=es) |
    | Informes de Report Builder | Administre la licencia asignada a los usuarios de Report Builder. | [Informes del Report Builder](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html?lang=es) |
    | Servicio de inicio de sesión único | El inicio de sesión único de Adobe Experience Cloud se implementa desde Admin Console. | [Analytics en Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=es) |
-   | Ocultamiento de grupos de informes | Le permite ocultar grupos de informes en la interfaz de usuario de Adobe Analytics si ya no desea que un grupo de informes esté disponible para usted y otras personas. | [Ocultar grupos de informes](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=es) |  |
+   | Ocultamiento de grupos de informes | Le permite ocultar grupos de informes en la interfaz de usuario de Adobe Analytics si ya no desea que un grupo de informes esté disponible para usted y otras personas. | [Ocultar grupos de informes](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=es) |
 
    {style="table-layout:auto"}
 
