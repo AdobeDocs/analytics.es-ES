@@ -3,16 +3,16 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: 0f05faf76c26000f714e95ed2469ff13b7e3b72e
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 85%
 
 ---
 
 # Notas de la versión actuales de Adobe Analytics (agosto de 2024)
 
-**Última actualización**: 20 de agosto de 2024
+**Última actualización**: martes, 09 de septiembre de 2024
 
 Estas notas de la versión cubren el periodo comprendido entre el 14 de agosto de 2024 y septiembre de 2024. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,6 +20,7 @@ Estas notas de la versión cubren el periodo comprendido entre el 14 de agosto d
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Información adicional en la columna &quot;Utilizado en&quot; del administrador de métricas calculadas y del administrador de segmentos** | La columna &quot;Utilizado en&quot; del administrador de métricas calculadas y del administrador de segmentos contiene las siguientes áreas nuevas de creación de informes:<ul><li>**Report Builder:** Muestra el número de métricas calculadas o segmentos que se están usando en el Report Builder.</li><li>**Componentes ad hoc:** Muestra el número de métricas calculadas ad hoc o segmentos ad hoc que se están usando en los proyectos. Estas métricas y segmentos calculados específicos (conocidos como &quot;métricas calculadas rápidas&quot; y &quot;segmentos rápidos&quot;) solo se pueden usar en el proyecto en el que se crearon, por lo que se notifican por separado desde el área de informes &quot;Proyecto&quot; en la columna &quot;Utilizado en&quot;.</li></ul><p>(Se han actualizado los siguientes vínculos de documentación).</p> | N/A | jueves, 11 de septiembre de 2024 |
 | **Mejoras en el SDK web para el seguimiento de vínculos** | Hay varias mejoras importantes disponibles en la última versión del SDK web en torno al seguimiento de vínculos, lo que beneficia directamente a Activity Map. Estas nuevas funciones están disponibles tanto en la biblioteca de JavaScript del SDK web como en su extensión de etiquetas.<ul><li>Agrupación de eventos: cuando un visitante hace clic en un vínculo interno, puede optar por agrupar los datos de evento en la página siguiente en lugar de activar una llamada de evento independiente para el seguimiento de vínculos. Esta mejora reduce el número de eventos que utiliza el SDK web en relación con el límite contractual.</li><li>Filtrado de propiedades de clic: una nueva llamada de retorno que reemplaza a `OnBeforeLinkClickSend`. Puede utilizar esta llamada de retorno para filtrar u ocultar datos relacionados con vínculos antes de enviarlos a Adobe.</li></ul><p>Consulte [clickCollection](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollection) en la guía del usuario del SDK web para obtener más información.</p> | La versión beta comenzó el 10 de julio de 2024 | 18 de julio de 2024 |
 
 {style="table-layout:auto"}
