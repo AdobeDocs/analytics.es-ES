@@ -3,42 +3,53 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 0f05faf76c26000f714e95ed2469ff13b7e3b72e
+source-git-commit: a74d47cf99545305c9b7d99d934dfedafdd9233b
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 85%
+source-wordcount: '738'
+ht-degree: 57%
 
 ---
 
-# Notas de la versión actuales de Adobe Analytics (agosto de 2024)
+# Notas de la versión actuales de Adobe Analytics (septiembre de 2024)
 
-**Última actualización**: martes, 09 de septiembre de 2024
 
-Estas notas de la versión cubren el periodo comprendido entre el 14 de agosto de 2024 y septiembre de 2024. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+**Última actualización**: jueves, 11 de septiembre de 2024
+
+Estas notas de la versión abarcan el periodo de lanzamiento del 11 de septiembre de 2024 a principios de octubre. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Nuevas funciones o mejoras {#features}
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
-| ----------- | ---------- | ------- | ---- |
-| **Información adicional en la columna &quot;Utilizado en&quot; del administrador de métricas calculadas y del administrador de segmentos** | La columna &quot;Utilizado en&quot; del administrador de métricas calculadas y del administrador de segmentos contiene las siguientes áreas nuevas de creación de informes:<ul><li>**Report Builder:** Muestra el número de métricas calculadas o segmentos que se están usando en el Report Builder.</li><li>**Componentes ad hoc:** Muestra el número de métricas calculadas ad hoc o segmentos ad hoc que se están usando en los proyectos. Estas métricas y segmentos calculados específicos (conocidos como &quot;métricas calculadas rápidas&quot; y &quot;segmentos rápidos&quot;) solo se pueden usar en el proyecto en el que se crearon, por lo que se notifican por separado desde el área de informes &quot;Proyecto&quot; en la columna &quot;Utilizado en&quot;.</li></ul><p>(Se han actualizado los siguientes vínculos de documentación).</p> | N/A | jueves, 11 de septiembre de 2024 |
-| **Mejoras en el SDK web para el seguimiento de vínculos** | Hay varias mejoras importantes disponibles en la última versión del SDK web en torno al seguimiento de vínculos, lo que beneficia directamente a Activity Map. Estas nuevas funciones están disponibles tanto en la biblioteca de JavaScript del SDK web como en su extensión de etiquetas.<ul><li>Agrupación de eventos: cuando un visitante hace clic en un vínculo interno, puede optar por agrupar los datos de evento en la página siguiente en lugar de activar una llamada de evento independiente para el seguimiento de vínculos. Esta mejora reduce el número de eventos que utiliza el SDK web en relación con el límite contractual.</li><li>Filtrado de propiedades de clic: una nueva llamada de retorno que reemplaza a `OnBeforeLinkClickSend`. Puede utilizar esta llamada de retorno para filtrar u ocultar datos relacionados con vínculos antes de enviarlos a Adobe.</li></ul><p>Consulte [clickCollection](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollection) en la guía del usuario del SDK web para obtener más información.</p> | La versión beta comenzó el 10 de julio de 2024 | 18 de julio de 2024 |
+|--- | --- | --- | --- |
+| **Información adicional en la columna &quot;Utilizado en&quot; del administrador de métricas calculadas y del administrador de segmentos** | La columna &quot;Utilizado en&quot; del administrador de métricas calculadas y del administrador de segmentos contiene las siguientes áreas nuevas de creación de informes:<ul><li>**Report Builder**: muestra el número de métricas calculadas o segmentos que se están usando en el Report Builder.</li><li>**Componentes ad hoc**: Muestra el número de métricas calculadas ad hoc o segmentos ad hoc que se están usando en los proyectos. Estas métricas y segmentos calculados específicos (conocidos como &quot;métricas calculadas rápidas&quot; y &quot;segmentos rápidos&quot;) solo se pueden usar en el proyecto en el que se crearon, por lo que se notifican por separado desde el área de informes &quot;Proyecto&quot; en la columna &quot;Utilizado en&quot;.</li></ul> |  | 11 de septiembre de 2024 |
+| **extensión de Activity Map v3** | Ya está disponible la extensión de Activity Map v3. Si tiene instalada la extensión v2, desinstálela antes de instalar la extensión v3. Vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Activity Map]** para obtener la versión más reciente de la extensión. |  | 3 de septiembre de 2024 |
 
-{style="table-layout:auto"}
 
 ## Correcciones en Adobe Analytics
 
-* Se ha corregido un problema por el que se mostraban varios valores desconocidos en Workspace (AN-353632)
-* Se ha corregido un problema por el que el correo electrónico de notificación no se enviaba después de añadir nuevos clientes o perfiles de producto de Analytics en Admin Console (AN-350930)
+A4T: AN-355736
+Activity Map: AN-353779
+Analysis Workspace: AN-348485; AN-349693; AN-357247
+Aplicación móvil de Analytics: AN-352645
+Clasificaciones: AN-355636; AN-355651; AN-355753; AN-356005; AN-356439; AN-356540; AN-356577; AN-356622
+Análisis entre dispositivos: AN-355138
+Fuentes de datos: AN-356258; AN-357133
+Data Warehouse: AN-339292; AN-353807
+Ubicaciones de exportación: AN-356912
+API de privacidad: AN-352420
+Report Builder: AN-352555; AN-354316
+Proyectos programados: AN-355971
+Segmentación: AN-352095;
+Informes de Target: AN-355748
 
-### Otras correcciones de Analytics
-
-AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-349808; AN-347831; AN-353777; AN-354092; AN-354064; AN-354202; AN-354006; AN-354097; AN-352548; AN-353819; AN-353818; AN-353628; AN-353747; AN-353527; AN-353490; AN-352647; AN-352656; AN-351274; AN-352135; AN-351519; AN-344906; AN-353697; AN-354499; AN-354402; AN-354062; AN-353905; AN-353932; AN-354142; AN-354194; AN-354182; AN-353758; AN-353039; AN-353612; AN-350799; AN-354414; AN-354636; AN-354249; AN-353637; AN-350949; AN-349402; AN-355103; AN-354174; AN-353823; AN-354819; AN-354215; AN-354219; AN-354040; AN-354763; AN-354597; AN-354478; AN-354528; AN-354335
+Otras correcciones: AN-349698; AN-349880; AN-354860; AN-355355; AN-356289;
 
 ## Avisos importantes para los administradores de Adobe Analytics {#admin}
 
 | Aviso | Fecha de incorporación o actualización | Descripción |
 | ----------- | ---------- | ---------- |
 | **13 meses de caducidad de`cust_visids`** guardado | 20 de agosto de 2024 | La versión del **20 de agosto de 2024** del motor de procesamiento de la visita de análisis aplica una caducidad de 13 meses de `cust_visids` guardado. Si el conjunto de informes tiene activada la opción &quot;Habilitar identificación de visitantes entre dispositivos&quot;, este ajuste se utiliza para encontrar `cust_visid` para un `visid_high/visid_low value` sin ningún `cust_visid` en la visita. Actualmente, no hay caducidad de la asignación de un `cust_visid` para un `visid_high/visid_low`. Con esta versión, si han pasado 13 meses o más desde que `visid_high/visid_low` tuvo un `cust_visid` en una visita, la asignación caduca. |
+| **Campos XDM de detalle de implementación adicionales asignados automáticamente** | jueves, 11 de septiembre de 2024 | Al utilizar el Edge Network de Adobe Experience Platform para enviar datos a Adobe Analytics, los campos XDM `xdm.implementationdetails.name` y `xdm.implementationdetails.environment` ahora siempre se asignan a las variables de datos de contexto `c.a.x.implementationdetails.name` y `c.a.x.implementationdetails.environment`. Anteriormente, algunos escenarios evitaban que estos valores se rellenaran. Ajuste las reglas de procesamiento relevantes para ajustarse a la disponibilidad de estos valores. |
 
 {style="table-layout:auto"}
 
