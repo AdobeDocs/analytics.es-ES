@@ -3,10 +3,10 @@ description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Creación de un informe para una solicitud de Data Warehouse
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: 6a7bbf5103eb6e7f8a3738d27d1fbb189d951a99
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 49%
+source-wordcount: '232'
+ht-degree: 42%
 
 ---
 
@@ -25,6 +25,12 @@ Para crear un informe para una solicitud de Data Warehouse:
 1. En la página Nueva solicitud de Data Warehouse, seleccione la pestaña [!UICONTROL **Generar su informe**].
 
    ![Ficha Generar informe](assets/build-report.png)
+
+1. En la esquina superior izquierda, elija el grupo de informes que desee utilizar al crear el informe de Data Warehouse.
+
+   No todos los segmentos creados en el Generador de segmentos son compatibles con el Data Warehouse. Se muestra un error si elige un grupo de informes virtuales que contenga segmentos incompatibles.
+
+   Para obtener una lista de las funciones admitidas dentro de un segmento, consulte [Compatibilidad de segmentos de Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md).
 
 1. Arrastre cualquier segmento, métrica y dimensión al generador. El informe que genere determina qué datos se incluyen en la solicitud de Data Warehouse.
 
