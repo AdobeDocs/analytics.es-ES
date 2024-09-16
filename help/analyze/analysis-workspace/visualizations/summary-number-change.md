@@ -5,10 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 8f63211c3fd9070b1ef47ad409364507b7a9c4b4
+source-git-commit: a4c976269456770f507bd4621bc704913358f8ff
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 99%
+source-wordcount: '394'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Haga clic en el icono de engranaje de **Configuración de la visualización** si
 
 ## Visualización [!UICONTROL Cambio de resumen] {#summary-change}
 
-Utilice la visualización [!UICONTROL Cambio de resumen] para mostrar el delta (cambio) entre dos números. El color verde y rojo del [!UICONTROL Cambio de resumen] se puede controlar mediante la [polaridad de evento personalizado](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) o mediante la opción [Mostrar tendencia ascendente como](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=es) de una métrica calculada.
+Utilice la visualización [!UICONTROL Cambio de resumen] para mostrar el delta (cambio) entre dos números. El color verde y rojo del [!UICONTROL Cambio de resumen] se puede controlar mediante la [polaridad de evento personalizado](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) o mediante la opción [Mostrar tendencia ascendente como](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=es) de una métrica calculada.
 
 Esta visualización se comporta de las siguientes maneras:
 
