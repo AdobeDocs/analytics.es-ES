@@ -5,7 +5,7 @@ title: Dimensiones disponibles para las reglas de procesamiento
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: d17067b3ab58612cdfc3ac640a7530b326260c89
+source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 13%
@@ -22,8 +22,6 @@ Las dimensiones y métricas disponibles que se pueden leer y escribir mediante r
 | --- | --- | --- |
 | Valor personalizado | Solo lectura | Texto o valores personalizados escritos directamente en la acción de una regla de procesamiento. |
 | Valor concatenado | Solo lectura | Valores que se crean combinando dos valores. Por ejemplo, se puede combinar canal y nombre de página para crear una subcategoría. |
-
-{style="table-layout:auto"}
 
 ## Atributos de visita
 
@@ -47,11 +45,9 @@ Las dimensiones y métricas disponibles que se pueden leer y escribir mediante r
 | Dominio raíz de página | Solo lectura | El dominio de página de la dirección URL actual, excluidos los subdominios. |
 | Perspectiva del cliente | Lectura y escritura | Un indicador que determina si la visita es una visita en segundo plano a un dispositivo móvil. |
 
-{style="table-layout:auto"}
-
 ## Variables de conversión
 
-| Variable | Estado de lectura y escritura Descripción |
+| Variable | Estado de lectura y escritura | Descripción |
 | --- | --- | --- |
 | eVar 1-250 | Lectura y escritura | [eVar](/help/components/dimensions/evar.md) dimensiones. |
 | Campaign | Lectura y escritura | La dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md). |
@@ -60,8 +56,6 @@ Las dimensiones y métricas disponibles que se pueden leer y escribir mediante r
 | Zip | Lectura y escritura | La dimensión [Código postal](/help/components/dimensions/zip-code.md). |
 | Código de divisa | Lectura y escritura | La variable de implementación [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANTE: Si establece esta variable en un valor no válido, la visita se descarta. |
 | ID de transacción | Lectura y escritura | La variable de implementación [`transactionID`](/help/import/data-sources/transactionid.md). |
-
-{style="table-layout:auto"}
 
 >[!NOTE]
 >El Adobe no admite la configuración de la variable de implementación [`products`](/help/implement/vars/page-vars/products.md) mediante reglas de procesamiento.
@@ -74,8 +68,6 @@ Las dimensiones y métricas disponibles que se pueden leer y escribir mediante r
 | Jerarquía 1-5 | Lectura y escritura | [Jerarquía](/help/components/dimensions/hierarchy.md) dimensiones. |
 | Servidor | Lectura y escritura | La dimensión [Servidor](/help/components/dimensions/server.md). |
 | Canal | Lectura y escritura | La dimensión [sección del sitio](/help/components/dimensions/site-section.md). |
-
-{style="table-layout:auto"}
 
 ## Variables de contexto
 
@@ -96,4 +88,3 @@ Las reglas de procesamiento pueden definir eventos, pero no pueden leerlos como 
 | Evento 1-1000 | Solo escritura | [Eventos personalizados](/help/components/metrics/custom-events.md). |
 | Vistas del producto | Solo escritura | La métrica [Vistas del producto](/help/components/metrics/product-views.md). |
 
-{style="table-layout:auto"}
