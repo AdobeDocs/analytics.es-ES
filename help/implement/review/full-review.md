@@ -4,9 +4,9 @@ description: Revise la implementación cada 6 meses para garantizar una alineaci
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
-source-git-commit: 4cbc654b6a17a84b373c254a0dd0e44a1740872d
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '384'
 ht-degree: 80%
 
 ---
@@ -23,7 +23,7 @@ Reúnase con el propietario de la empresa y/o los analistas para revisar los cam
 
 Revise brevemente todas sus métricas y variables, en orden de importancia para la empresa, para asegurarse de que los datos se estén recopilando correctamente. Comience con las métricas y variables de mayor importancia: las asociadas con los [5 KPI principales](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=es#review). Para ello:
 
-* Cree paneles para ver las vistas de tendencias mensuales de sus métricas y variables (o configure [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=es) para cada una ellas) para asegurarse de obtener los datos que espera y de que los datos sean correctos. Si encuentra alguna discrepancia, examine la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar el motivo.
+* Cree paneles para ver las vistas de tendencias mensuales de sus métricas y variables (o configure [alertas](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=es) para cada una) para asegurarse de obtener los datos que espera y de que los datos sean correctos. Si encuentra alguna discrepancia, examine la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar el motivo.
 * Vuelva a ejecutar el [Panel de mantenimiento de Analytics](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c) para monitorizar las tendencias generales de las métricas y variables.
 
 No permita que la implementación se llene de métricas y variables que no necesita. Deshabilite las métricas o variables que la empresa ya no necesite ni utilice. Puede que desee eliminarlas o volver a utilizarlas más adelante.

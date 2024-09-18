@@ -3,10 +3,10 @@ description: Información general acerca de Adobe Analytics, incluida informaci�
 title: Explicación de la interfaz de Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: ht
-source-wordcount: '2065'
-ht-degree: 100%
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+workflow-type: tm+mt
+source-wordcount: '2064'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ La pestaña [!UICONTROL Componentes] incluye características que le ayudan a af
    | Métricas calculadas  | Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas personalizadas que se pueden crear a partir de métricas existentes. Permiten a especialistas en marketing, gestores de productos y analistas hacer preguntas sobre los datos sin tener que cambiar la implementación de Analytics. | [Métricas calculadas y calculadas avanzadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=es) |
    | Intervalos de fechas | Analysis Workspace incluye una lista de intervalos de fechas predeterminados que se pueden utilizar al crear análisis. Además, puede crear intervalos de fechas personalizados y difundirlos en Analysis Workspace. | [Crear intervalos de fechas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=es) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Grupos de informes virtuales | Los grupos de informes virtuales segmentan los datos de Adobe Analytics de modo que pueda controlar el acceso a cada segmento. | [Resumen de los grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=es) |
-   | Alertas | Las alertas inteligentes permiten un control más granular sobre las alertas e integran la detección de anomalías en el sistema de alertas. | [Alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=es) |
+   | Alertas | Las alertas permiten un control más granular sobre las alertas e integra la detección de anomalías en el sistema de alerta. | [Resumen de alertas](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=es) |
    | Anotaciones | Las anotaciones en Workspace le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. Permiten enlazar los eventos de calendario con dimensiones y métricas específicas. | [Administración de anotaciones](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=es) |
    | Conjuntos de clasificación | Los conjuntos de clasificación proporcionan una interfaz única para administrar las clasificaciones y las reglas. <p>Las clasificaciones permiten aplicar categorías a los datos de variables de Analytics para mostrarlos de distintos modos cuando se generan los informes. Establece una relación entre un valor variable y los metadatos relacionados con ese valor. Las clasificaciones se pueden utilizar en la mayoría de las dimensiones personalizadas, como código de seguimiento, props y eVars.</p> | [Información general sobre los conjuntos de clasificación](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=es) |
    | Ubicaciones | Para importar datos de clasificación de Adobe Analytics desde un destino en la nube, primero debe añadir y configurar la ubicación en la que desea que se recopilen los datos de clasificación. Puede crear, editar o eliminar ubicaciones. | [Administrador de ubicaciones](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=es) |
