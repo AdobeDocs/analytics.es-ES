@@ -4,16 +4,16 @@ description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 # Notas de la versión actuales de Adobe Analytics (septiembre de 2024)
 
 
-**Última actualización**: jueves, 11 de septiembre de 2024
+**Última actualización**: 11 de septiembre de 2024
 
 Estas notas de la versión abarcan el periodo de lanzamiento del 11 de septiembre de 2024 a principios de octubre. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -21,8 +21,8 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 11 de septiembr
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 |--- | --- | --- | --- |
-| **Información adicional en la columna “Utilizado en” del Administrador de métricas calculadas y del Administrador de segmentos** | La columna “Utilizado en” del Administrador de métricas calculadas y del Administrador de segmentos contiene las siguientes áreas nuevas de creación de informes:<ul><li>**Report Builder**: muestra el número de métricas calculadas o segmentos que se están usando en el Report Builder.</li><li>**Componentes ad hoc**: Muestra el número de métricas calculadas ad hoc o segmentos ad hoc que se están usando en los proyectos. Estas métricas calculadas ad hoc y segmentos ad hoc (también conocidos como “métricas calculadas rápidas” y “segmentos rápidos”) solo se pueden usar en el proyecto en el que se crearon, por lo que se notifican por separado desde el área de creación de informes del “Proyecto” en la columna “Utilizado en”.</li></ul>Para obtener más información, consulte [Administrador de métricas calculadas](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) y [Administrador de segmentos](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage). |  | 11 de septiembre de 2024 |
-| **extensión de Activity Map v3** | Ya está disponible la extensión de Activity Map v3. Si tiene instalada la extensión v2, desinstálela antes de instalar la extensión v3. Vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Activity Map]** para obtener la versión más reciente de la extensión. |  | 3 de septiembre de 2024 |
+| **Información adicional en la columna “Utilizado en” del Administrador de métricas calculadas y del Administrador de segmentos** | La columna “Utilizado en” del Administrador de métricas calculadas y del Administrador de segmentos contiene las siguientes áreas nuevas de creación de informes:<ul><li>**Report Builder**: muestra el número de métricas calculadas o segmentos que se están usando en Report Builder.</li><li>**Componentes ad hoc**: muestra el número de métricas calculadas ad hoc o segmentos ad hoc que se están usando en los proyectos. Estas métricas calculadas ad hoc y segmentos ad hoc (también conocidos como “métricas calculadas rápidas” y “segmentos rápidos”) solo se pueden usar en el proyecto en el que se crearon, por lo que se notifican por separado desde el área de creación de informes del “Proyecto” en la columna “Utilizado en”.</li></ul>Para obtener más información, consulte [Administrador de métricas calculadas](https://experienceleague.adobe.com/es/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) y [Administrador de segmentos](https://experienceleague.adobe.com/es/docs/analytics/components/segmentation/segmentation-workflow/seg-manage). |  | 11 de septiembre de 2024 |
+| **Extensión v3 de Activity Map** | Ya está disponible la extensión v3 de Activity Map. Si tiene instalada la extensión v2, desinstálela antes de instalar la extensión v3. Vaya a **[!UICONTROL Herramientas]** > **[!UICONTROL Activity Map]** para obtener la versión más reciente de la extensión. |  | 3 de septiembre de 2024 |
 
 
 ## Correcciones en Adobe Analytics
@@ -40,7 +40,7 @@ API de privacidad: AN-352420
 Report Builder: AN-352555; AN-354316
 Proyectos programados: AN-355971
 Segmentación: AN-352095;
-Informes de Target: AN-355748
+Creación de informes de Target: AN-355748
 
 Otras correcciones: AN-349698; AN-349880; AN-354860; AN-355355; AN-356289;
 
@@ -49,7 +49,7 @@ Otras correcciones: AN-349698; AN-349880; AN-354860; AN-355355; AN-356289;
 | Aviso | Fecha de incorporación o actualización | Descripción |
 | ----------- | ---------- | ---------- |
 | **13 meses de caducidad de`cust_visids`** guardado | 20 de agosto de 2024 | La versión del **20 de agosto de 2024** del motor de procesamiento de la visita de análisis aplica una caducidad de 13 meses de `cust_visids` guardado. Si el conjunto de informes tiene activada la opción &quot;Habilitar identificación de visitantes entre dispositivos&quot;, este ajuste se utiliza para encontrar `cust_visid` para un `visid_high/visid_low value` sin ningún `cust_visid` en la visita. Actualmente, no hay caducidad de la asignación de un `cust_visid` para un `visid_high/visid_low`. Con esta versión, si han pasado 13 meses o más desde que `visid_high/visid_low` tuvo un `cust_visid` en una visita, la asignación caduca. |
-| **Campos XDM de detalle de implementación adicionales asignados automáticamente** | 11 de septiembre de 2024 | Al utilizar el Edge Network de Adobe Experience Platform para enviar datos a Adobe Analytics, los campos XDM `xdm.implementationdetails.name` y `xdm.implementationdetails.environment` ahora siempre se asignan a las variables de datos de contexto `c.a.x.implementationdetails.name` y `c.a.x.implementationdetails.environment`. Anteriormente, algunos escenarios evitaban que estos valores se rellenaran. Ajuste las reglas de procesamiento relevantes para ajustarse a la disponibilidad de estos valores. |
+| **Campos XDM de detalle de implementación adicionales asignados automáticamente** | 11 de septiembre de 2024 | Al utilizar Adobe Experience Platform Edge Network para enviar datos a Adobe Analytics, los campos XDM `xdm.implementationdetails.name` y `xdm.implementationdetails.environment` ahora siempre se asignan a las variables de datos de contexto `c.a.x.implementationdetails.name` y `c.a.x.implementationdetails.environment`. Anteriormente, algunos escenarios evitaban que estos valores se rellenaran. Ajuste las reglas de procesamiento relevantes para considerar la disponibilidad de estos valores. |
 
 {style="table-layout:auto"}
 
