@@ -3,18 +3,18 @@ description: Le permite utilizar el segmento para actividades de marketing en la
 title: Segmentos Publish a Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 5ef087f1fa4f55b98e9160bc90b8d10c6709a425
+source-git-commit: 605d99581a1d17aa716163308958a61b51f97d46
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 74%
+source-wordcount: '1306'
+ht-degree: 67%
 
 ---
 
 # Segmentos de Publish a Experience Cloud
 
-La publicación de un segmento de Adobe Analytics en Experience Cloud le permite utilizarlo para la actividad de marketing en [!DNL Audience Manager] y en otros canales de activación, incluidos los Adobes [!DNL Advertising Cloud], [!DNL Target] y [!DNL Campaign]. Las actualizaciones recientes han optimizado significativamente el flujo de trabajo de publicación. Ahora puede publicar segmentos de Analytics en Experience Cloud en menos de 8 horas. Utilice estos segmentos para activar audiencias en el Audience Manager a todos los destinos de flujo descendente.
+La publicación de un segmento de Adobe Analytics en Experience Cloud le permite utilizarlo para la actividad de marketing en [!DNL Audience Manager] y en otros canales de activación, incluidos los Adobes [!DNL Advertising Cloud], [!DNL Target] y [!DNL Campaign].
 
-También hemos aumentado el número máximo de segmentos de Adobe Analytics editables a 75 (de 20). Puede ver los segmentos publicados en [!UICONTROL Analytics > Componentes > Segmentos].
+Puede publicar segmentos de Analytics en el Experience Cloud en menos de 8 horas. Utilice estos segmentos para activar audiencias en el Audience Manager a todos los destinos de flujo descendente.
 
 Vea este vídeo para obtener más información:
 
@@ -50,12 +50,11 @@ Vea este vídeo para obtener más información:
 
 ## Publicación de segmentos en el [!UICONTROL Generador de segmentos]
 
-1. Vaya a **[!UICONTROL Analytics > Workspace > Componentes > Segmentos] > +**
-1. Cree un segmento en el [!UICONTROL Generador de segmentos].
-1. Proporcione un título y una descripción para el segmento; de lo contrario, no podrá guardarlo.
-1. Consulte **[!UICONTROL Publicar este segmento en Experience Cloud (para *grupo de informes*)]**.
-
-![Publicar Experience Cloud](assets/publish-ec.png)
+1. En Adobe Analytics, vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]**
+1. Seleccione **[!UICONTROL Agregar]** para crear un nuevo segmento.
+   ![Publicar Experience Cloud](assets/publish-ec.png)
+1. Proporcione un título y una descripción para el segmento. Estos campos son obligatorios antes de guardar.
+1. En la sección **[!UICONTROL Publicación de Experience Cloud]**, seleccione la opción **[!UICONTROL Publish envía este segmento al Experience Cloud (para *grupo de informes*)]**.
 
 >[!IMPORTANT]
 >Asegúrese de utilizar “Visitantes con Experience Cloud ID” al consultar las vistas previas de segmentos en Analytics en lugar de la vista previa de segmentos de “visitantes únicos” totales al comparar los números de Adobe Analytics con los de Audience Manager:
@@ -78,12 +77,17 @@ Para eliminar un segmento publicado en el Experience Cloud, tiene que cancelar l
 >
 >**No puede** cancelar la publicación de un segmento que esté actualmente en uso por ninguna de las siguientes soluciones de Adobe: [!DNL Analytics] (en [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (para clientes de [!DNL Core Service] y [!DNL Audience Manager]) y todos los demás socios externos (para clientes de [!DNL Audience Manager]). **Puede** cancelar la publicación de un segmento en uso por [!DNL Target].
 
-## Ver el estado de publicación de segmentos en el [!UICONTROL Administrador de segmentos]
+## Ver el estado de publicación de los segmentos
 
-1. Vaya a [!UICONTROL Analytics > Componentes > Segmentos].
-1. Observe la nueva columna [!UICONTROL Publicado]. Sí/No hace referencia a si el segmento se ha publicado en el Experience Cloud.
+El número máximo de segmentos de Adobe Analytics editables es de 75.
 
-![Publicar el estado](assets/publish-status.png)
+Para ver los segmentos publicados:
+
+1. En Adobe Analytics, vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]**.
+
+1. Ver la columna **[!UICONTROL Publicado]**. **[!UICONTROL Sí]** en esta columna indica que el segmento se ha publicado en el Experience Cloud. **[!UICONTROL No]** indica que no lo ha hecho.
+
+   ![Publicar el estado](assets/publish-status.png)
 
 ## Conseguir el UUID de [!DNL Audience Manager]
 
