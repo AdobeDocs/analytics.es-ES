@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6a534c13e1a3a54eba62733cf4802acc40f77f46
+source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
 workflow-type: tm+mt
-source-wordcount: '3578'
-ht-degree: 68%
+source-wordcount: '3580'
+ht-degree: 67%
 
 ---
 
@@ -52,7 +52,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`color`** | ID de profundidad de color basada en el valor de la columna `c_color`. Se remite a la tabla de búsqueda `color_depth.tsv`. | smallint sin firmar |
 | **`connection_type`** | ID numérico que representa el tipo de conexión. La dimensión [Tipo de conexión](/help/components/dimensions/connection-type.md). Se remite a la tabla de búsqueda `connection_type.tsv`. | tinyint sin firmar |
 | **`cookies`** | La dimensión [Compatibilidad con cookies](/help/components/dimensions/cookie-support.md).<br>S: Habilitado<br>N: No habilitado<br>D: Desconocido | char(1) |
-| **`country`** | Un ID de numérica que representa el país del visitante. Se remite a la tabla de búsqueda `country.tsv`. | smallint sin firmar |
+| **`country`** | ID numérica que representa el país del visitante. Se remite a la tabla de búsqueda `country.tsv`. | smallint sin firmar |
 | **`ct_connect_type`** | En relación con la columna `connection_type`. Los valores más comunes son LAN/Wi-Fi, Operador de telefonía móvil y Módem. | char(20) |
 | **`curr_factor`** | Determina el lugar decimal de la moneda y se utiliza para la conversión de monedas. Por ejemplo, USD utiliza dos decimales, por lo que el valor de esta columna sería `2`. | tinyint |
 | **`curr_rate`** | El tipo de cambio vigente cuando se produjo la transacción. Adobe se asocia con XE para determinar el tipo de cambio del día. | decimal(24,12) |
@@ -144,7 +144,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`mobileresolution`** | Resolución del dispositivo móvil. `[Width] x [Height]` en píxeles. | varchar(255) |
 | **`monthly_visitor`** | Un indicador que determina si el visitante es único en el mes actual. | tinyint sin firmar |
 | **`mvvar1`** - `mvvar3` | [Valores de variable de lista](/help/implement/vars/page-vars/list.md). Contiene una lista delimitada de valores personalizados en función de la implementación. Las columnas `post_mvvar1` - `post_mvvar3` reemplazan el delimitador original por `--**--`. | texto |
-| **`mvvar1_instances`** - `mvvar3_instances` | Los valores de variable de lista que se establecieron en la visita actual. Reemplaza el delimitador original por `--**--`. No tiene una columna `post`. | texto |
+| **`mvvar1_instances`** - `mvvar3_instances` | Los valores de variable de lista que se establecieron en la visita actual. Reemplaza el delimitador original por `--**--`. Las `post` columnas generalmente no contienen datos. | texto |
 | **`new_visit`** | Un indicador que determina si la visita actual es una visita nueva. Se establece por Adobe después de 30 minutos de inactividad de la visita. | tinyint sin firmar |
 | **`os`** | ID numérica que representa el sistema operativo del visitante. Se basa en la columna`user_agent`. El valor clave de `operating_system.tsv` búsqueda estándar y `operating_system_type.tsv` [Búsqueda dinámica](dynamic-lookups.md). | int sin firmar |
 | **`page_event`** | El tipo de visita que se envía en la solicitud de imagen (visita estándar, vínculo de descarga, vínculo personalizado, vínculo de salida). Consulte [Búsqueda de evento de página](datafeeds-page-event.md). | tinyint sin firmar |
