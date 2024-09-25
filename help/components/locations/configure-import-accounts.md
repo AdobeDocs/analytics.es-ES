@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Configuración de cuentas de importación y exportación de nube
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 07a252c9093d47173cc0fe6b1b42b2f14a63870c
+source-git-commit: 8a9c51d46195737b5321cc617913261c059f651d
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 56%
@@ -118,7 +118,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    >[!NOTE]
    >
-   >Las cuentas de correo electrónico solo se pueden usar con [Fuentes de datos](/help/export/analytics-data-feed/create-feed.md). (Las cuentas de correo electrónico no son compatibles con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o [conjuntos de clasificaciones](/help/components/classifications/sets/overview.md)).
+   >Las cuentas de correo electrónico solo se pueden usar con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). (Las cuentas de correo electrónico no son compatibles con [Fuentes de datos](/help/export/analytics-data-feed/create-feed.md) o [Conjuntos de clasificación](/help/components/classifications/sets/overview.md)).
 
    Para configurar una cuenta RBAC de Azure, especifique la siguiente información:
 
