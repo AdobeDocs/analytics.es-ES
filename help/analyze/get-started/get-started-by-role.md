@@ -4,9 +4,9 @@ title: Introducción para personas usuarias y personal de administración, anál
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -103,13 +103,13 @@ Aunque cualquier persona de una organización puede utilizar Adobe Analytics par
 
 A continuación se indican las tareas y características principales que debería conocer cada analista para aprovechar al máximo todo el potencial de Adobe Analytics y Analysis Workspace.
 
-| Funcionalidad | Uso previsto | Más información |
+| Función | Uso previsto | Más información |
 |---------|----------|---------|
 | Generar y compartir proyectos en Analysis Workspace | Analysis Workspace es una herramienta de navegador flexible que le permite crear análisis y compartir perspectivas rápidamente. Mediante la interfaz de arrastrar y soltar, puede crear su análisis, agregar visualizaciones para dar vida a los datos, depurar un conjunto de datos, compartir y programar proyectos con cualquier persona de su organización.<p>Quienes se dedican al análisis de datos suelen encargarse de crear proyectos en Analysis Workspace para las personas usuarias de la organización.</p><p>Una vez creados los proyectos, estos se comparten con las [personas usuarias finales](#end-users) (no analistas) de las organizaciones que solicitaron los datos, y se les ayuda a aprender a interpretarlos.</p> | <ul><li>[Crear proyectos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)</li><li>[Compartir proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md)</li></ul> |
 | Atribución | Cada analista puede personalizar la forma en que los elementos de dimensión se consideran responsables de los eventos de éxito empleando varios modelos de atribución y ventanas retrospectivas en Analysis Workspace.<p>Los modelos de atribución lineal otorgan el mismo mérito a todos los puntos de contacto que llevan a una conversión, mientras que el modelo de primer contacto otorga todo el mérito al primer punto de contacto. Existen muchos otros modelos de atribución, incluido el modelo algorítmico, que utiliza técnicas estadísticas para determinar de forma dinámica la asignación óptima del mérito. </p> | [Modelos de atribución y ventanas retroactivas](/help/analyze/analysis-workspace/attribution/models.md) |
 | Detección de anomalías | El modelado estadístico en Analysis Workspace encuentra automáticamente tendencias inesperadas en sus datos analizando métricas y determinando un límite inferior, un límite superior y un rango esperado de valores. Cuando hay un pico o una caída inesperados, el sistema le alerta en el informe. | [Resumen de la Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | Análisis de contribución | Utilice Analysis Workspace para descubrir patrones ocultos en sus datos con el fin de explicar anomalías estadísticas e identificar correlaciones entre acciones inesperadas de clientes, valores fuera de los límites y picos o caídas repentinos de las métricas en todos los segmentos de público. | [Análisis de contribución](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) en [Información general de la detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
-| Alertas | Cree y administre alertas basadas en anomalías de los datos y alertas &quot;apiladas&quot; que capturan múltiples métricas en una sola alerta. | [Resumen de alertas](/help/components/c-alerts/intellligent-alerts.md) |
+| Alertas | Cree y administre alertas basadas en anomalías de los datos y alertas “apiladas” que capturan múltiples métricas en una sola alerta. | [Información general sobre alertas](/help/components/c-alerts/intellligent-alerts.md) |
 | Exportación de datos | Las fuentes de datos y Data Warehouse le permiten exportar datos a varios destinos en la nube, como Google Cloud Platform, Azure RBAC, Azure SAS y Amazon S3. | [Guía de exportación de Analytics](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=es) |
 | Activity Map | Activity Map es una aplicación de Adobe Analytics diseñada para clasificar la actividad de los vínculos usando superposiciones visuales y que ofrece un tablero de análisis en tiempo real para supervisar la participación de la audiencia en las páginas web.<p>Activity Map permite configurar distintas vistas para identificar visualmente la aceleración de la actividad del cliente, cuantificar las iniciativas de marketing y responder a las necesidades y los comportamientos de la audiencia.</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=es) |
 | Report Builder | El Report Builder es un complemento para Microsoft Excel. Report Builder permite crear solicitudes personalizadas a partir de datos de Adobe Analytics que se insertan en hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que Report Builder presenta los datos. | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=es) |
