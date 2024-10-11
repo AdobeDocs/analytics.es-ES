@@ -3,10 +3,10 @@ title: Compatibilidad con componentes en Data Warehouse
 description: Descubra qué dimensiones y métricas adicionales están disponibles en Data Warehouse y qué otras no se admiten.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 59%
+source-wordcount: '444'
+ht-degree: 61%
 
 ---
 
@@ -80,3 +80,10 @@ Se admiten las siguientes dimensiones basadas en el tiempo. Sin embargo, la sali
 * Día
 * Hora
 * Minuto
+
+## Segmentos como dimensiones en la Data Warehouse
+
+Cuando se utiliza un segmento como dimensión en Data Warehouse, el informe devuelve una columna que contiene `"0"` o `"1"`:
+
+* **`"0"`**: El elemento de dimensión no cumplía los criterios del segmento.
+* **`"1"`**: El elemento de dimensión cumplía los criterios del segmento.
