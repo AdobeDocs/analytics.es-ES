@@ -3,10 +3,10 @@ title: Ingresos
 description: El importe monetario de los productos comprados dentro de todos los pedidos.
 feature: Metrics
 exl-id: a70e4d93-704b-46ac-9cec-31ea20d3dcb5
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a1fbd3f483d3a236fe5dc3246f5e90c1b3f51ba9
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 88%
+source-wordcount: '112'
+ht-degree: 74%
 
 ---
 
