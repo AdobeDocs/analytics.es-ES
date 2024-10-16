@@ -3,7 +3,7 @@ description: Requisitos del sistema y comparación de Analysis Workspace, Report
 title: Comparación de productos y requisitos de Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
@@ -16,9 +16,9 @@ Esta página contiene una comparación de varios productos de Adobe Analytics: A
 
 Para obtener información sobre qué producto de Adobe Analytics utilizar, consulte [¿Qué herramienta de Adobe Analytics debo usar?](/help/analyze/get-started/which-analytics-tool.md).
 
-| Nombre del producto y vínculo de ayuda | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Archivo de fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) | [API de Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| Nombre del producto y vínculo de ayuda | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/report-buider-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Archivo de fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) | [API de Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
-| **Método de acceso** | [Explorador](/help/analyze/get-started/sys-reqs.md) | [MS Excel para Windows](/help/analyze/report-builder/setup/system-requirements.md) | Realice la configuración a través del explorador. [Más información](/help/analyze/get-started/sys-reqs.md) | Realice la configuración a través del explorador. [Más información](/help/export/analytics-data-feed/data-feed-overview.md) | Herramientas de API de RESTful. Inicie sesión con las credenciales de Adobe Developer. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/) |
+| **Método de acceso** | [Explorador](/help/analyze/get-started/sys-reqs.md) | [MS Excel para Windows](/help/analyze/legacy-report-builder/setup/system-requirements.md) | Realice la configuración a través del explorador. [Más información](/help/analyze/get-started/sys-reqs.md) | Realice la configuración a través del explorador. [Más información](/help/export/analytics-data-feed/data-feed-overview.md) | Herramientas de API de RESTful. Inicie sesión con las credenciales de Adobe Developer. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Granularidad de los datos** | Agregado | Agregado | Agregado | Visita individual | Agregado |
 | **Experience Cloud ID (ECID) disponible** | No | No | Sí | Sí | No |
 | **Marca de tiempo disponible** | No | No | No | Sí | No |
@@ -36,5 +36,5 @@ Para obtener información sobre qué producto de Adobe Analytics utilizar, consu
 | **Revisión** <br> [Más información](/help/analyze/analysis-workspace/curate-share/curate.md) | Sí - Proyecto y grupo de informes virtuales | No | No | No | Sí. Solo grupo de informes virtuales |
 | **Uso compartido de proyectos** <br> [Más información](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Sí, con funciones de proyecto | Sí | No | No | No |
 | **Envío programado** | Sí | Sí | Sí | Sí | No |
-| **Destinos de envío** | Correo electrónico | Correo electrónico, FTP, SFTP, [publicación en Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC y correo electrónico | Amazon S3, Azure RBAC, Azure SAS y Google Cloud Platform | - |
+| **Destinos de envío** | Correo electrónico | Correo electrónico, FTP, SFTP, [publicación en Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC y correo electrónico | Amazon S3, Azure RBAC, Azure SAS y Google Cloud Platform | - |
 | **Procesamiento del tiempo en la creación de informes con grupos de informes virtuales** <br> [Más información](/help/components/vrs/vrs-report-time-processing.md) | Sí | No | No | No | Sí |

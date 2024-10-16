@@ -3,7 +3,7 @@ description: Explica cómo migrar componentes y proyectos de Adobe Analytics a C
 title: Migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: b8d47e8802198365b348f94efc3f71ff424e83d1
+source-git-commit: 03c8b0e08ac524216d7d9383fa12751e573601ee
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 5%
@@ -106,7 +106,7 @@ Antes de migrar proyectos al Customer Journey Analytics, obtenga más informaci�
 
    Repita este proceso para cada dimensión o métrica que contenga el icono de advertencia.
 
-   Una vez que todas las dimensiones y métricas del grupo de informes de Adobe Analytics se hayan asignado a una dimensión o métrica en la vista de datos del Customer Journey Analytics, aparecerá la marca de verificación verde ![check mark](assets/report-suite-check.png) junto al nombre del grupo de informes en la sección [!UICONTROL **Asignar esquema para grupos de informes**].
+   Una vez que todas las dimensiones y métricas del grupo de informes de Adobe Analytics se hayan asignado a una dimensión o métrica del grupo de informes del Customer Journey Analytics, aparecerá la marca de verificación verde ![check mark](assets/report-suite-check.png) junto al nombre del grupo de informes en la sección [!UICONTROL **Asignar esquema para grupos de informes**].
 
 1. (Condicional) Si el proyecto que está migrando contiene más de un grupo de informes, seleccione otro grupo de informes en la sección [!UICONTROL **Asignar esquema para grupos de informes**] y, a continuación, repita los pasos del 6 al 10. <!-- double-check that the step numbers are still correct -->
 
