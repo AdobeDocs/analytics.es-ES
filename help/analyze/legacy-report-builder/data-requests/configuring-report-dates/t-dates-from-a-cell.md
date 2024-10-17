@@ -5,7 +5,7 @@ uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 feature: Report Builder
 role: User, Admin
 exl-id: e10573cc-984e-4202-a797-c2c9bec2af96
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 78%
@@ -13,6 +13,8 @@ ht-degree: 78%
 ---
 
 # Fechas de una celda
+
+{{legacy-arb}}
 
 Es posible especificar un intervalo de fechas seleccionando celdas de una hoja de cálculo que contenga una solicitud. Report Builder utiliza la información del intervalo de fechas concretas en esas solicitudes. Si selecciona la fecha actual obtendrá datos parciales según la hora del día en que se ejecute la solicitud.
 

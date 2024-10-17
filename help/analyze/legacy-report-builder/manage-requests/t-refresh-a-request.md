@@ -5,7 +5,7 @@ uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 feature: Report Builder
 role: User, Admin
 exl-id: 319dc040-92cf-4289-9373-bc165e58c2db
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 37%
@@ -13,6 +13,8 @@ ht-degree: 37%
 ---
 
 # Actualizar solicitudes
+
+{{legacy-arb}}
 
 Actualice las solicitudes después de actualizarlas con ediciones, filtros o tendrá que ver datos más recientes. Puede seleccionar varias solicitudes en una hoja de cálculo y actualizarlas todas al mismo tiempo.
 

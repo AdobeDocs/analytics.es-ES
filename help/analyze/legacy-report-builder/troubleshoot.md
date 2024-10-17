@@ -5,7 +5,7 @@ uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 84%
@@ -13,6 +13,8 @@ ht-degree: 84%
 ---
 
 # Solución de problemas y prácticas recomendadas para Report Builder
+
+{{legacy-arb}}
 
 Este artículo describe la resolución de problemas y las prácticas recomendadas que puede utilizar para optimizar Report Builder. También incluye una lista de mensajes de error que pueden mostrarse.
 

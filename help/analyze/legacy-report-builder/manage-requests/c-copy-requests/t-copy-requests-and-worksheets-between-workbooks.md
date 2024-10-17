@@ -5,7 +5,7 @@ uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 54%
@@ -14,8 +14,12 @@ ht-degree: 54%
 
 # Copiar solicitudes y hojas de cálculo entre libros
 
+{{legacy-arb}}
+
 Copiar una hoja de cálculo completa de un libro de origen en una hoja de cálculo de uno o varios libros de destino. Para ello, debe tener al menos dos libros abiertos en la misma instancia de Excel:
+
 * El primer libro de origen contiene una hoja de cálculo (hoja de cálculo) con solicitudes asignadas a celdas.
+
 * Los libros de destino adicionales son los destinos. Para cada nuevo libro de destino, debe iniciar sesión en el mismo grupo de informes que el libro de origen antes de poder pegar hojas de cálculo que contengan solicitudes.
 
 >[!NOTE]

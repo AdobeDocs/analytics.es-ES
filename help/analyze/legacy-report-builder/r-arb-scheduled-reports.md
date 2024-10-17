@@ -4,7 +4,7 @@ title: Acerca del Administrador de tareas programadas
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 86%
@@ -12,6 +12,8 @@ ht-degree: 86%
 ---
 
 # Administrador de tareas programadas
+
+{{legacy-arb}}
 
 El [!UICONTROL Administrador de tareas programadas] le permite ver una lista de los informes programados existentes, así como sus destinatarios, detalles de la programación y formato de los archivos. También le permite reactivar libros programados que no se ejecutaron debido a algún error.
 

@@ -5,7 +5,7 @@ uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 feature: Report Builder
 role: User, Admin
 exl-id: b3bdc07e-5c2d-4be3-86c9-b4b7380be0f6
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 24%
@@ -13,6 +13,8 @@ ht-degree: 24%
 ---
 
 # Expresiones de fecha personalizadas
+
+{{legacy-arb}}
 
 Se puede especificar un intervalo de fechas complejo mediante la creación de una expresión personalizada.
 

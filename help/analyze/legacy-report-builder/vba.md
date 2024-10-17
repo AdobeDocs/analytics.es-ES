@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo expandir la funcionalidad de los l
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 64%
@@ -12,6 +12,8 @@ ht-degree: 64%
 ---
 
 # Macros de Visual Basic en Report Builder
+
+{{legacy-arb}}
 
 Las macros de Visual Basic (VBA) proporcionan características que ayudan a actualizar los libros de Excel. Visual Basic tiene acceso al libro, Excel y Windows.
 

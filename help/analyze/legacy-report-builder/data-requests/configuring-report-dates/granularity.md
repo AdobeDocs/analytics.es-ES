@@ -5,7 +5,7 @@ uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
 feature: Report Builder
 role: User, Admin
 exl-id: 96c3b93a-9adf-4993-b6fc-9146ee5be4bd
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 ---
 
 # Granularidad
+
+{{legacy-arb}}
 
 En el Asistente para solicitudes: Paso 1, es posible aplicar un nivel de granularidad a la solicitud de datos. La granularidad especifica el nivel de detalle basado en el tiempo que se incluye en el informe.
 

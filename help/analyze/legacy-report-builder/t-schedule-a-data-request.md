@@ -5,7 +5,7 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 96%
@@ -13,6 +13,8 @@ ht-degree: 96%
 ---
 
 # Programar libros de trabajo
+
+{{legacy-arb}}
 
 Puede programar libros de trabajo, especificar opciones de entrega avanzadas, definir destinatarios y ver el historial de programación. Las opciones de envío avanzadas permiten configurar los libros de trabajo que se desean enviar a una hora concreta o a intervalos. También se puede especificar el formato de archivo en el que se desea enviar el libro.
 

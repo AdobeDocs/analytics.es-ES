@@ -5,7 +5,7 @@ uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 81%
@@ -13,6 +13,8 @@ ht-degree: 81%
 ---
 
 # Dar formato a las fechas
+
+{{legacy-arb}}
 
 Además de las opciones de formato de celda estándar disponibles mediante la función de Excel Formato > Celdas (Ctrl+1), puede aplicar formato limitado a los rangos de celdas con Report Builder. Estas opciones de formato dependen de la métrica seleccionada.
 

@@ -5,7 +5,7 @@ uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 78%
@@ -13,6 +13,8 @@ ht-degree: 78%
 ---
 
 # Guardar un libro con solicitudes
+
+{{legacy-arb}}
 
 Cuando crea informes con solicitudes incrustadas, puede guardarlos con **Archivo** > **Guardar** o **Archivo** > **Guardar como** en Excel. El Report Builder detecta si el informe contiene solicitudes. Cuando seleccione una de las opciones de guardado, complete el formulario **Guardar libro como**.
 

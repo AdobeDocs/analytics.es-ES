@@ -4,7 +4,7 @@ title: Extraer activos publicados a Power BI Desktop
 feature: Report Builder
 role: User, Admin
 exl-id: ce6020df-caf4-4cd2-8086-4357309e5bbb
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # Extraer activos publicados a Power BI Desktop
+
+{{legacy-arb}}
 
 Explica cómo extraer activos publicados en Report Builder a Power BI Desktop
 

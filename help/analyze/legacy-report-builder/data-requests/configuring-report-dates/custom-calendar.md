@@ -4,7 +4,7 @@ title: Calendario personalizado
 feature: Report Builder
 role: User, Admin
 exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 95%
@@ -12,6 +12,8 @@ ht-degree: 95%
 ---
 
 # Calendario personalizado
+
+{{legacy-arb}}
 
 Report Builder utiliza el calendario personalizado de Analytics. El calendario se puede usar para definir el primer día de la semana y del año, y permite elegir un estilo de calendario comercial distinto. Los formatos de calendario se utilizan por distintos motivos, entre los que se incluyen la comparación de ventas y estandarización del pronóstico, el análisis del coste en plantilla o la regulación del recuento de inventario físico.
 

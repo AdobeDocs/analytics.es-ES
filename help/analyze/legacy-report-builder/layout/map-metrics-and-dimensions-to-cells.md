@@ -5,7 +5,7 @@ uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
 role: User, Admin
 exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 69%
@@ -13,6 +13,8 @@ ht-degree: 69%
 ---
 
 # Asignación de métricas y dimensiones a las celdas
+
+{{legacy-arb}}
 
 Antes de comenzar a asignar elementos a la hoja de cálculo, compruebe que la hoja no esté protegida. Si el esquema de protección de la hoja de cálculo evita todas las acciones del usuario, no se podrán seleccionar celdas en la hoja. En primer lugar, desproteja la hoja y después añada asignaciones de celda.
 

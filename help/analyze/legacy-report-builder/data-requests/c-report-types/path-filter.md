@@ -4,7 +4,7 @@ title: Filtrado de un informe de rutas mediante el Asistente para solicitudes
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 62%
@@ -12,6 +12,8 @@ ht-degree: 62%
 ---
 
 # Filtrado de un informe de rutas mediante el Asistente para solicitudes
+
+{{legacy-arb}}
 
 Describe los pasos involucrados en la aplicación de filtros a un informe de ruta.
 

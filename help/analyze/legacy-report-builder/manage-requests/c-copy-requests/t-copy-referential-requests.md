@@ -1,11 +1,10 @@
 ---
 description: Obtenga información sobre cómo copiar solicitudes de referencia.
 title: Cómo copiar solicitudes de referencia
-uuid: b6f64630-868f-455b-8682-471ff9fc596e
 feature: Report Builder
 role: User, Admin
 exl-id: 3cd77325-7461-4345-a672-64c03ea1ae5b
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 80%
@@ -13,6 +12,8 @@ ht-degree: 80%
 ---
 
 # Copiar solicitudes de referencia
+
+{{legacy-arb}}
 
 Una solicitud de referencia utiliza los valores de las celdas como entrada para parámetros como, por ejemplo, un filtro de datos o un filtro relacional.
 
