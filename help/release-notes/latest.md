@@ -3,16 +3,16 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 29b799eb778dda4d5c529249f1898e92607e51aa
+source-git-commit: 21cf08af6922aaaed2f0b3e4c0fcd701b54473ee
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 91%
+source-wordcount: '509'
+ht-degree: 92%
 
 ---
 
 # Notas de la versión actuales de Adobe Analytics (octubre de 2024)
 
-**Última actualización**: jueves, 16 de octubre de 2024
+**Última actualización**: viernes, 17 de octubre de 2024
 
 Estas notas de la versión abarcan el periodo de lanzamiento del 2 de octubre de 2024 al 22 de octubre de 2024. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
@@ -20,7 +20,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 2 de octubre de
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Nuevo Report Builder para Adobe Analytics | La nueva aplicación para Report Builder incorpora funciones actualizadas en Adobe Analytics, como un rendimiento mejorado, una interfaz de usuario optimizada, compatibilidad con la API 2.0 y con Microsoft Excel en Mac, Windows y exploradores web. [Vínculo de documentación a continuación] |  | jueves, 16 de octubre de 2024 |
+| Nuevo Report Builder para Adobe Analytics | La nueva aplicación para Report Builder incorpora funciones actualizadas en Adobe Analytics, como un rendimiento mejorado, una interfaz de usuario optimizada, compatibilidad con la API 2.0 y con Microsoft Excel en Mac, Windows y exploradores web. [Más información](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | jueves, 16 de octubre de 2024 |
 
 ## Correcciones en Adobe Analytics
 
