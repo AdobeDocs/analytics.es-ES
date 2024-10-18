@@ -5,7 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 60%
@@ -20,25 +20,25 @@ Un *bloque de datos* es la tabla de datos creada por una sola solicitud de datos
 
 Configure los parámetros iniciales del bloque de datos para la ubicación del bloque de datos, los grupos de informes y un intervalo de fechas.
 
-1. Haga clic en **Crear bloque de datos**.
+1. Haga clic en **[!UICONTROL Crear bloque de datos]**.
 
    ![Captura de pantalla que muestra la opción Crear bloque de datos.](./assets/create_db.png)
 
-1. Configure las variables **Ubicación del bloque de datos**.
+1. Configure las variables **[!UICONTROL Ubicación del bloque de datos]**.
 
    La opción de ubicación del bloque de datos define la ubicación de la hoja de cálculo donde Report Builder añade los datos a la hoja de cálculo.
 
    Para especificar la ubicación del bloque de datos, seleccione una sola celda en la hoja de cálculo o introduzca una dirección de celda como a3, \\\$a3, a\\\$3 o sheet1!a2. La celda especificada será la esquina superior izquierda del bloque de datos cuando se recuperen los datos.
 
-1. Elija **grupos de informes**.
+1. Elija un **grupo de informes**.
 
    La opción de grupos de informes permite elegir un grupo de informes en un menú desplegable o hacer referencia a un grupo de informes desde una ubicación de celda.
 
-1. Configure las variables **Intervalo de fechas**.
+1. Configure las variables **[!UICONTROL Intervalo de fechas]**.
 
    La opción Intervalo de fechas permite elegir un intervalo de fechas. Los intervalos de fechas pueden ser fijos o móviles. Para obtener información sobre las opciones de rango de datos, consulte [Seleccionar un intervalo de fecha](select-date-range.md).
 
-1. Haga clic en **Siguiente**.
+1. Haga clic en **[!UICONTROL Siguiente]**.
 
    ![Captura de pantalla que muestra la opción de intervalo de fechas y el botón Siguiente activo.](./assets/choose_date_data_view3.png)
 
