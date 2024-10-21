@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluido Analysis Workspace, paneles de Analytics, Report Builder y Report Builder heredados, y Activity Map.
-source-git-commit: 227a9d2b10db737ad255c2f9f65bab0ede691f20
+source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 96%
@@ -166,7 +166,7 @@ ht-degree: 96%
    + [Convertir solicitudes heredadas](report-builder/convert-workbooks.md)
    + [Creación de un bloque de datos](report-builder/create-a-data-block.md)
    + [Report Builder Hub](report-builder/report-builder-hub.md)
-   + [Seleccionar una vista de datos](report-builder/select-report-suite.md)
+   + [Seleccionar un grupo de informes](report-builder/select-report-suite.md)
    + [Selección de un intervalo de fechas](report-builder/select-date-range.md)
    + [Trabajo con segmentos](report-builder/work-with-segments.md)
    + [Filtrar dimensiones](report-builder/filter-dimensions.md)

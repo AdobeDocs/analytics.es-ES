@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
+source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 60%
+ht-degree: 59%
 
 ---
 
@@ -18,9 +18,9 @@ Un *bloque de datos* es la tabla de datos creada por una sola solicitud de datos
 
 ## Configuración del bloque de datos
 
-Configure los parámetros iniciales del bloque de datos para la ubicación del bloque de datos, los grupos de informes y un intervalo de fechas.
+Configure los parámetros iniciales del bloque de datos para la ubicación del bloque de datos, el grupo de informes y un intervalo de fechas.
 
-1. Haga clic en **[!UICONTROL Crear bloque de datos]**.
+1. Haga clic en **[!UICONTROL Crear bloque de datos]**.
 
    ![Captura de pantalla que muestra la opción Crear bloque de datos.](./assets/create_db.png)
 
