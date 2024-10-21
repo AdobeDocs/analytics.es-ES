@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
+source-git-commit: a8cb45c11089a0b69373ef3cf2a49687cd20da09
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 59%
+source-wordcount: '642'
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ Un *bloque de datos* es la tabla de datos creada por una sola solicitud de datos
 
 Configure los parámetros iniciales del bloque de datos para la ubicación del bloque de datos, el grupo de informes y un intervalo de fechas.
 
-1. Haga clic en **[!UICONTROL Crear bloque de datos]**.
+1. Haga clic en **[!UICONTROL Crear]**.
 
    ![Captura de pantalla que muestra la opción Crear bloque de datos.](./assets/create_db.png)
 
@@ -28,7 +28,7 @@ Configure los parámetros iniciales del bloque de datos para la ubicación del b
 
    La opción de ubicación del bloque de datos define la ubicación de la hoja de cálculo donde Report Builder añade los datos a la hoja de cálculo.
 
-   Para especificar la ubicación del bloque de datos, seleccione una sola celda en la hoja de cálculo o introduzca una dirección de celda como a3, \\\$a3, a\\\$3 o sheet1!a2. La celda especificada será la esquina superior izquierda del bloque de datos cuando se recuperen los datos.
+   Para especificar la ubicación del bloque de datos, seleccione una sola celda en la hoja de cálculo o introduzca una dirección de celda como a3, \\\$a3, a\\\$3 o sheet1!a2. La celda especificada marca la esquina superior izquierda del bloque de datos cuando se recuperan los datos.
 
 1. Elija un **grupo de informes**.
 
@@ -50,7 +50,7 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
 
 1. Añada dimensiones, métricas y filtros.
 
-   Desplácese por las listas de componentes o utilice el campo **búsqueda** para localizar componentes. Arrastre y suelte los componentes en el panel Tabla o haga doble clic en un nombre de componente de la lista para añadirlo automáticamente al panel Tabla.
+   Desplácese por las listas de componentes o utilice el campo **[!UICONTROL Buscar]** para localizar componentes. Arrastre y suelte los componentes en el panel Tabla o haga doble clic en un nombre de componente de la lista para añadirlo automáticamente al panel Tabla.
 
    Haga doble clic en un componente para añadirlo a una sección predeterminada de la tabla.
 
@@ -60,7 +60,7 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
 
    **Fecha de inicio como Dimension**
 
-   Establezca la Fecha de inicio como una dimensión para identificar claramente la fecha de inicio del bloque de datos. Esto resulta útil si tiene un informe programado regularmente que tiene un intervalo de fechas móvil o si tiene un intervalo de fechas no convencional y necesita no mencionar la fecha de inicio.
+   Establezca **[!UICONTROL Start date]** como una dimensión para identificar claramente la fecha de inicio del bloque de datos. Esto resulta útil si tiene un informe programado regularmente que tiene un intervalo de fechas móvil o si tiene un intervalo de fechas no convencional y necesita ser claro en la fecha de inicio.
 
    ![Captura de pantalla que muestra la fecha de inicio en la lista de dimensiones.](./assets/start-date-dimension.png){width="30%"}
 
@@ -74,7 +74,7 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
 
    **Mostrar u ocultar encabezados de fila y columna**
 
-1. Haga clic en el icono de configuración **Tabla**.
+1. Haga clic en el icono **[!UICONTROL Configuración de tabla]**.
 
    ![Captura de pantalla que muestra la opción de configuración de tabla.](./assets/table-settings.png){width="35%"}
 
@@ -88,7 +88,7 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
 
 1. Haga clic en Ocultar o Mostrar para alternar las etiquetas de dimensión o los encabezados de columna. Todas las etiquetas se muestran de forma predeterminada.
 
-1. Haga clic en **Finalizar**.
+1. Haga clic en **[!UICONTROL Finalizar]**.
 
    Se muestra un mensaje de procesamiento mientras se recuperan los datos de los análisis.
 
