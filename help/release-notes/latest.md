@@ -3,7 +3,7 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
+source-git-commit: b8eec77d1ff626306573f91efa8b3a747ca102f1
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 51%
@@ -21,7 +21,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 16 de octubre d
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Nuevo Report Builder para Adobe Analytics** | La nueva aplicación para Report Builder aporta una actualización importante a Adobe Analytics, que incluye un rendimiento mejorado, una interfaz de usuario optimizada, compatibilidad con la API 2.0 y con Microsoft Excel en Mac, Windows y exploradores web. Esta aplicación se puede utilizar junto con la aplicación heredada, pero no en el mismo archivo. Se proporciona una característica de actualización para actualizar libros heredados a la nueva aplicación. [Más información](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 16 de octubre de 2024 |
-| Exportación **JSON para migrar la implementación de etiquetas a etiquetas de SDK web** | Esta actualización de la extensión de etiquetas de Analytics está relacionada con la migración al SDK web. Puede utilizar esta actualización de la extensión de Adobe Analytics como parte del flujo de trabajo para volver a crear las configuraciones de extensión con la extensión del SDK web. En la extensión de Adobe Analytics tags, puede ver la configuración de eVars, props y eventos como JSON, que se puede exportar para editarlas e incluirlas en la extensión del SDK web. |  | jueves, 23 de octubre de 2024 |
+| Exportación **JSON para migrar la implementación de etiquetas a etiquetas de SDK web** | Esta actualización de la extensión de etiquetas de Analytics está relacionada con la migración al SDK web. Puede utilizar esta actualización de la extensión de Adobe Analytics como parte del flujo de trabajo para volver a crear las configuraciones de extensión con la extensión del SDK web. En la extensión de Adobe Analytics tags, puede ver la configuración de eVars, props y eventos como JSON, que se puede exportar para editarlas e incluirlas en la extensión del SDK web. |  | 31 de octubre de 2024 |
 
 ## Correcciones en Adobe Analytics
 
