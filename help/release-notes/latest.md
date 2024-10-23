@@ -3,15 +3,14 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2d42a824510fa03825a10da3837801ee662f687c
+source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 51%
 
 ---
 
 # Notas de la versión actuales de Adobe Analytics (versión del 23 de octubre de 2024)
-
 
 **Última actualización**: jueves, 23 de octubre de 2024
 
@@ -38,12 +37,11 @@ Fuentes de datos: AN-359290
 Data Warehouse: AN-359820
 Alertas de sobrecarga: AN-358132
 
-
 ## Avisos importantes para los administradores de Adobe Analytics {#admin}
 
 | Aviso | Fecha de incorporación o actualización | Descripción |
 | ----------- | ---------- | ---------- |
-| **Los clientes que no sean de Campaign perderán acceso a Déclencheur** | 16 de octubre de 2024 | El 30 de enero de 2025, los clientes de Adobe Analytics que no tengan una licencia de Adobe Campaign perderán acceso a la capacidad de configurar y consumir [Déclencheur](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers). Los clientes deben adquirir Campaign o planear dejar de utilizar Déclencheur, o buscar otras herramientas de Adobe que ofrezcan funcionalidades de Déclencheur. |
+| **Los clientes que no sean de Campaign perderán acceso a Déclencheur** | 16 de octubre de 2023 | El 30 de enero de 2025, los clientes de Adobe Analytics que no tengan una licencia de Adobe Campaign perderán acceso a la capacidad de configurar y consumir Déclencheur. Los clientes deben adquirir Campaign o planear dejar de utilizar Déclencheur, o buscar otras herramientas de Adobe que ofrezcan funcionalidades de Déclencheur. |
 | **Campos XDM de detalle de implementación adicionales asignados automáticamente** | 11 de septiembre de 2024 | Al utilizar Adobe Experience Platform Edge Network para enviar datos a Adobe Analytics, los campos XDM `xdm.implementationdetails.name` y `xdm.implementationdetails.environment` ahora siempre se asignan a las variables de datos de contexto `c.a.x.implementationdetails.name` y `c.a.x.implementationdetails.environment`. Anteriormente, algunos escenarios evitaban que estos valores se rellenaran. Ajuste las reglas de procesamiento relevantes para considerar la disponibilidad de estos valores. |
 
 ## Avisos de final de la vida útil {#eol}
