@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
-user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluido Analysis Workspace, paneles de Analytics, Report Builder y Report Builder heredados, y Activity Map.
+user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y su versión heredada, y Activity Map.
 source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -168,14 +168,14 @@ ht-degree: 96%
    + [Report Builder Hub](report-builder/report-builder-hub.md)
    + [Seleccionar un grupo de informes](report-builder/select-report-suite.md)
    + [Selección de un intervalo de fechas](report-builder/select-date-range.md)
-   + [Trabajo con segmentos](report-builder/work-with-segments.md)
+   + [Trabajar con segmentos](report-builder/work-with-segments.md)
    + [Filtrar dimensiones](report-builder/filter-dimensions.md)
    + [Administrar bloques de datos](report-builder/manage-reportbuilder.md)
    + [Programar libros de trabajo](report-builder/schedule-reportbuilder.md)
    + [Etiquetas restringidas](report-builder/restricted-labels.md)
    + [Configuración de Report Builder](report-builder/report-builder-settings.md)
 + Report Builder heredado {#legacy-report-builder}
-   + [Ayuda de Adobe Report Builder heredado](legacy-report-builder/home.md)
+   + [Ayuda de Report Builder de Adobe heredado](legacy-report-builder/home.md)
    + Configuración de Report Builder heredado {#legacy-report-builder-setup}
       + [Requisitos del sistema](legacy-report-builder/setup/system-requirements.md)
       + [Instalación de Report Builder](legacy-report-builder/setup/t-install-arb.md)
