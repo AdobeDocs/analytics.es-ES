@@ -3,10 +3,10 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b8eec77d1ff626306573f91efa8b3a747ca102f1
+source-git-commit: 04a6b5ac6e60f1cc2d1579306581a1025eb83230
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 55%
+source-wordcount: '767'
+ht-degree: 52%
 
 ---
 
@@ -22,6 +22,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 16 de octubre d
 | ----------- | ---------- | ------- | ---- |
 | **Nuevo Report Builder para Adobe Analytics** | La nueva aplicación para Report Builder aporta una actualización importante a Adobe Analytics, que incluye un rendimiento mejorado, una interfaz de usuario optimizada, compatibilidad con la API 2.0 y con Microsoft Excel en Mac, Windows y exploradores web. Esta aplicación se puede utilizar junto con la aplicación heredada, pero no en el mismo archivo. Se proporciona una característica de actualización para actualizar libros heredados a la nueva aplicación. [Más información](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 16 de octubre de 2024 |
 | Exportación **JSON para migrar la implementación de etiquetas a etiquetas de SDK web** | Esta actualización de la extensión de etiquetas de Analytics está relacionada con la migración al SDK web. Puede utilizar esta actualización de la extensión de Adobe Analytics como parte del flujo de trabajo para volver a crear las configuraciones de extensión con la extensión del SDK web. En la extensión de Adobe Analytics tags, puede ver la configuración de eVars, props y eventos como JSON, que se puede exportar para editarlas e incluirlas en la extensión del SDK web. |  | 31 de octubre de 2024 |
+| **Nueva información sobre los factores de solicitud en el rendimiento de Analysis Workspace** | Ahora hay disponible una nueva sección &quot;Factores de solicitud&quot; al analizar el rendimiento en Analysis Workspace. Para obtener más información sobre cómo se procesan las solicitudes y los diversos factores que influyen en los tiempos de procesamiento, consulte &quot;Factores de solicitud&quot; en [Optimizar el rendimiento de Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance). |  | miércoles, 01 de octubre de 2024 |
 
 ## Correcciones en Adobe Analytics
 
