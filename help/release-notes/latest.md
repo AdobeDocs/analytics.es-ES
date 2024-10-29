@@ -6,22 +6,22 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 04a6b5ac6e60f1cc2d1579306581a1025eb83230
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 52%
+ht-degree: 93%
 
 ---
 
-# Notas de la versión actuales de Adobe Analytics (versión del 23 de octubre de 2024)
+# Notas de la versión actuales de Adobe Analytics (versión de 23 de octubre de 2024)
 
-**Última actualización**: jueves, 23 de octubre de 2024
+**Última actualización**: 23 de octubre de 2024
 
-Estas notas de la versión abarcan el periodo de lanzamiento del 16 de octubre de 2024 a finales del año 2024. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+Estas notas de la versión abarcan el periodo comprendido desde el 16 de octubre de 2024 hasta finales del año 2024. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Nuevas funciones o mejoras {#features}
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Nuevo Report Builder para Adobe Analytics** | La nueva aplicación para Report Builder aporta una actualización importante a Adobe Analytics, que incluye un rendimiento mejorado, una interfaz de usuario optimizada, compatibilidad con la API 2.0 y con Microsoft Excel en Mac, Windows y exploradores web. Esta aplicación se puede utilizar junto con la aplicación heredada, pero no en el mismo archivo. Se proporciona una característica de actualización para actualizar libros heredados a la nueva aplicación. [Más información](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 16 de octubre de 2024 |
-| Exportación **JSON para migrar la implementación de etiquetas a etiquetas de SDK web** | Esta actualización de la extensión de etiquetas de Analytics está relacionada con la migración al SDK web. Puede utilizar esta actualización de la extensión de Adobe Analytics como parte del flujo de trabajo para volver a crear las configuraciones de extensión con la extensión del SDK web. En la extensión de Adobe Analytics tags, puede ver la configuración de eVars, props y eventos como JSON, que se puede exportar para editarlas e incluirlas en la extensión del SDK web. |  | 31 de octubre de 2024 |
+| **Nuevo Report Builder para Adobe Analytics** | La nueva aplicación Report Builder supone una actualización importante para Adobe Analytics, pues incluye rendimiento mejorado, interfaz de usuario optimizada, compatibilidad con la API 2.0 y con Microsoft Excel en Mac, Windows y exploradores web. Esta aplicación se puede utilizar junto con la aplicación heredada, pero no en el mismo archivo. Se proporciona una función de actualización para actualizar los libros heredados a la nueva aplicación. [Más información](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 16 de octubre de 2024 |
+| **Exportación de JSON para migrar la implementación de etiquetas a las etiquetas de SDK web** | Esta actualización de la extensión de etiquetas de Analytics está relacionada con la migración a SDK web. Puede utilizar esta actualización de la extensión de Adobe Analytics como parte del flujo de trabajo para volver a crear las configuraciones de extensión con la extensión de SDK web. En la extensión de etiquetas de Adobe Analytics, puede ver la configuración de variables eVar, props y eventos como JSON, que se puede exportar para su edición e inclusión en la extensión de SDK web. |  | 31 de octubre de 2024 |
 | **Nueva información sobre los factores de solicitud en el rendimiento de Analysis Workspace** | Ahora hay disponible una nueva sección &quot;Factores de solicitud&quot; al analizar el rendimiento en Analysis Workspace. Para obtener más información sobre cómo se procesan las solicitudes y los diversos factores que influyen en los tiempos de procesamiento, consulte &quot;Factores de solicitud&quot; en [Optimizar el rendimiento de Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance). |  | miércoles, 01 de octubre de 2024 |
 
 ## Correcciones en Adobe Analytics
@@ -29,7 +29,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 16 de octubre d
 Analysis Workspace: AN-356287; AN-358435; AN-359456; AN-359826; AN-360215
 Herramientas de administración: AN-342485; AN-347931; AN-348704; AN-357723; AN-358453; AN-358717; AN-359548; AN-360136
 Clasificaciones: AN-359025; AN-359283; AN-359368; AN-359710; AN-359752; AN-359759; AN-359799; AN-359887; AN-360543; AN-360566; AN-360612; AN-360741; AN-360942; AN-360952
-Análisis entre dispositivos: AN-359210
+Analytics entre dispositivos: AN-359210
 Atributos del cliente: AN-357897
 Recopilación de datos: AN-351131; AN-351309; AN-355678; AN-359856
 Fuentes de datos: AN-359699
@@ -42,7 +42,7 @@ Alertas de sobrecarga: AN-358132
 
 | Aviso | Fecha de incorporación o actualización | Descripción |
 | ----------- | ---------- | ---------- |
-| **Los clientes que no sean de Campaign perderán acceso a Déclencheur** | 16 de octubre de 2023 | El 30 de enero de 2025, los clientes de Adobe Analytics que no tengan una licencia de Adobe Campaign perderán acceso a la capacidad de configurar y consumir Déclencheur. Los clientes deben adquirir Campaign o planear dejar de utilizar Déclencheur, o buscar otras herramientas de Adobe que ofrezcan funcionalidades de Déclencheur. |
+| **Los clientes que no sean de Campaign perderán acceso a Triggers** | 16 de octubre de 2023 | El 30 de enero de 2025, los clientes de Adobe Analytics que no tengan una licencia de Adobe Campaign perderán acceso a la capacidad de configurar y consumir Triggers. Los clientes deben adquirir Campaign o planear dejar de utilizar Triggers, o buscar otras herramientas de Adobe que ofrezcan las funcionalidades de Triggers. |
 | **Campos XDM de detalle de implementación adicionales asignados automáticamente** | 11 de septiembre de 2024 | Al utilizar Adobe Experience Platform Edge Network para enviar datos a Adobe Analytics, los campos XDM `xdm.implementationdetails.name` y `xdm.implementationdetails.environment` ahora siempre se asignan a las variables de datos de contexto `c.a.x.implementationdetails.name` y `c.a.x.implementationdetails.environment`. Anteriormente, algunos escenarios evitaban que estos valores se rellenaran. Ajuste las reglas de procesamiento relevantes para considerar la disponibilidad de estos valores. |
 
 ## Avisos de final de la vida útil {#eol}
