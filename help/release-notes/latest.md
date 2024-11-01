@@ -4,9 +4,9 @@ description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 04a6b5ac6e60f1cc2d1579306581a1025eb83230
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Estas notas de la versión abarcan el periodo comprendido desde el 16 de octubre
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Nuevo Report Builder para Adobe Analytics** | La nueva aplicación Report Builder supone una actualización importante para Adobe Analytics, pues incluye rendimiento mejorado, interfaz de usuario optimizada, compatibilidad con la API 2.0 y con Microsoft Excel en Mac, Windows y exploradores web. Esta aplicación se puede utilizar junto con la aplicación heredada, pero no en el mismo archivo. Se proporciona una función de actualización para actualizar los libros heredados a la nueva aplicación. [Más información](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 16 de octubre de 2024 |
+| **Nuevo Report Builder para Adobe Analytics** | La nueva aplicación Report Builder supone una actualización importante para Adobe Analytics, pues incluye rendimiento mejorado, interfaz de usuario optimizada, compatibilidad con la API 2.0 y con Microsoft Excel en Mac, Windows y exploradores web. Esta aplicación se puede utilizar junto con la aplicación heredada, pero no en el mismo archivo. Se proporciona una función de actualización para actualizar los libros heredados a la nueva aplicación. [Más información](https://experienceleague.adobe.com/es/docs/analytics/analyze/report-builder/report-buider-overview) |  | 16 de octubre de 2024 |
 | **Exportación de JSON para migrar la implementación de etiquetas a las etiquetas de SDK web** | Esta actualización de la extensión de etiquetas de Analytics está relacionada con la migración a SDK web. Puede utilizar esta actualización de la extensión de Adobe Analytics como parte del flujo de trabajo para volver a crear las configuraciones de extensión con la extensión de SDK web. En la extensión de etiquetas de Adobe Analytics, puede ver la configuración de variables eVar, props y eventos como JSON, que se puede exportar para su edición e inclusión en la extensión de SDK web. |  | 31 de octubre de 2024 |
-| **Nueva información sobre los factores de solicitud en el rendimiento de Analysis Workspace** | Ahora hay disponible una nueva sección &quot;Factores de solicitud&quot; al analizar el rendimiento en Analysis Workspace. Para obtener más información sobre cómo se procesan las solicitudes y los diversos factores que influyen en los tiempos de procesamiento, consulte &quot;Factores de solicitud&quot; en [Optimizar el rendimiento de Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance). |  | miércoles, 01 de octubre de 2024 |
+| **Nueva información sobre Factores de solicitud en el rendimiento de Analysis Workspace** | Ahora hay disponible una nueva sección “Factores de solicitud” cuando se analiza el rendimiento de Analysis Workspace. Para obtener más información sobre cómo se procesan las solicitudes y los diversos factores que influyen en los tiempos de procesamiento, consulte “Factores de solicitud” en [Optimización del rendimiento de Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance). |  | 1 de octubre de 2024 |
 
 ## Correcciones en Adobe Analytics
 
