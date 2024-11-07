@@ -4,10 +4,10 @@ title: Migración de usuarios de Analytics a Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '3084'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -76,7 +76,7 @@ Respuestas a las preguntas que le puedan surgir antes de la migración.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Actualizar el Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>Importante: Actualice la instalación del <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html?lang=es">Report Builder</a> a la versión más reciente. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Importante: Actualice la instalación del <a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-builder-setup">Report Builder</a> a la versión más reciente. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>¿Cuándo empieza la migración? </p> </td> 
@@ -248,7 +248,7 @@ Información importante sobre el proceso de migración y su impacto en la admini
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caducidades de cuenta </p> </td> 
-   <td colname="col2"> <p> Puede establecer manualmente una fecha de caducidad de cuenta en Analytics con Herramientas de administración. Una vez cumplida la fecha de caducidad, el usuario no podrá acceder a Analytics, pero su cuenta de usuario de Experience Cloud (por ejemplo, Adobe ID, Enterprise ID, Federated ID, etc.) no caducará. El usuario podrá iniciar sesión en Experience Cloud, pero no podrá hacer clic en Analytics. </p> </td> 
+   <td colname="col2"> <p> Puede establecer manualmente una fecha de caducidad de cuenta en Analytics con Herramientas de administración. Una vez cumplida la fecha de caducidad, el usuario no podrá acceder a Analytics, pero su cuenta de usuario de Experience Cloud real (por ejemplo, Adobe ID, Enterprise ID, Federated ID, etc.) no caduca. El usuario podrá iniciar sesión en Experience Cloud, pero no podrá hacer clic en Analytics. </p> </td> 
   </tr> 
  </tbody> 
 </table>

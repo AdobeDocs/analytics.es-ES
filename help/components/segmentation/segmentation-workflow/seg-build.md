@@ -3,10 +3,10 @@ description: El Generador de segmentos proporciona un lienzo al que arrastrar y 
 title: Generación de segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '1974'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ Existen varias formas de acceder al Generador de segmentos:
 
 * **Navegación superior de Analytics**: Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]**.
 * **[!UICONTROL Analysis Workspace]**: Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, abra un proyecto y haga clic en **[!UICONTROL + Nuevo]** > **[!UICONTROL Crear segmento]**.
-* **[!UICONTROL Report Builder]**: [Añadir o editar segmentos en Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=es).
+* **[!UICONTROL Report Builder]**: [Añadir o editar segmentos en Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Criterios del Creador {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -30,7 +30,7 @@ Puede agregar definiciones y contenedores de reglas para definir los segmentos.
 1. **[!UICONTROL Descripción]**: Proporcione una descripción para el segmento.
 1. **[!UICONTROL Etiquetas]**: [Etiquete el segmento](/help/components/segmentation/segmentation-workflow/seg-workflow.md) que va a generar seleccionando las etiquetas existentes en una lista o creando una etiqueta nueva.
 1. **[!UICONTROL Definiciones]**: Esta es la zona de trabajo donde [se generan y configuran segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md), se agregan reglas y se anidan y secuencian contenedores.
-1. **[!UICONTROL Mostrar]**: (Selector de contenedor superior). Le permite seleccionar el nivel de [contenedor](/help/components/segmentation/seg-overview.md) superior ([!UICONTROL visitante], [!UICONTROL visita] o [!UICONTROL visita individual]). El contenedor de nivel superior predeterminado es el contenedor de visita individual.
+1. **[!UICONTROL Mostrar]**: (Selector de contenedor superior). Le permite seleccionar el [contenedor](/help/components/segmentation/seg-overview.md) de nivel superior ([!UICONTROL Visitante], [!UICONTROL Visita], [!UICONTROL Visita]). El contenedor de nivel superior predeterminado es el contenedor de visita individual.
 1. Icono de **[!UICONTROL opciones]** (engranaje)
 
    * **[!UICONTROL + Agregar contenedor]**: le permite agregar un contenedor nuevo (bajo el contenedor de nivel superior) a la definición del segmento.
