@@ -3,7 +3,7 @@ title: Visitas
 description: Secuencia de visitas de la página efectuadas en una sesión.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: 59582c9fa910c789b44798eae21566aa6fd99124
+source-git-commit: fb25807a0f34409bb3a27f344ff7508a9dd414a4
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 88%
@@ -46,7 +46,7 @@ Si un visitante realiza cualquiera de estas acciones, una nueva visita **no se i
 Puede cambiar el tiempo necesario para la definición de una visita a un intervalo de tiempo diferente a 30 minutos.
 
 * Para [grupos de informes virtuales](../vrs/vrs-about.md), puede cambiar el tiempo de espera de visita (tiempo entre visitas que provoca que comience una nueva visita) usando la lista desplegable [!UICONTROL Tiempo de espera de visita]. Puede cambiar el tiempo de espera de visita a cualquier valor razonable.
-* Para los grupos de informes estándar, póngase en contacto con el Servicio de atención al cliente para solicitar que el tiempo de espera de visita (tiempo entre visitas que provoca que se inicie una nueva visita) se acorte para un grupo de informes determinado. El tiempo de espera de visita para los grupos de informes estándar no puede superar los 30 minutos, por lo que solo puede abreviarse.
+* Para los grupos de informes estándar, póngase en contacto con el Servicio de atención al cliente para solicitar que se acorte el tiempo de espera de visita (tiempo entre visitas que provoca que se inicie una nueva visita) para un grupo de informes determinado. El tiempo de espera de visita para los grupos de informes estándar no puede superar los 30 minutos, por lo que solo puede abreviarse.
 
 ## Visitas que abarcan un límite de fecha
 
