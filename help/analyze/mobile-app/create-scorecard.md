@@ -4,7 +4,7 @@ title: Crear y compartir cuadros de resultados móviles
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
+source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
 workflow-type: tm+mt
 source-wordcount: '2500'
 ht-degree: 81%
@@ -291,7 +291,6 @@ Para moverse entre los mosaicos y las diapositivas, pulse la barra de navegació
 ![Creación de una historia basada en datos](assets/data-story-nav.png){width="25%"}
 
 También puede navegar hacia atrás y hacia adelante utilizando las flechas del teclado o seleccionando un componente y manteniéndolo a la izquierda o a la derecha de la pantalla para desplazarse.
-
 
 ## Vista previa del cuadro de resultados {#preview}
 
