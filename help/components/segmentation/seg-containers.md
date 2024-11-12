@@ -4,10 +4,10 @@ keywords: segmentación;segmentos
 title: Contenedores de segmentos
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 5a9ba3f9749338c181fbcdc311bd08a92144e698
+source-git-commit: 6a36155dcd1fd06ea052783a8fd5714cd10e16ec
 workflow-type: tm+mt
-source-wordcount: '3529'
-ht-degree: 100%
+source-wordcount: '3566'
+ht-degree: 98%
 
 ---
 
@@ -96,6 +96,10 @@ Al crear contenedores de segmentos dentro de otros contenedores, básicamente es
 1. Determinar qué datos se incluyen utilizando el contenedor exterior. Los datos que no coincidan con esta regla exterior se descartarán en el informe segmentado.
 1. Aplicar la regla anidada a los demás datos. La regla anidada no se aplica a ninguna visita individual que la primera regla haya rechazado.
 1. Repetir hasta que se hayan calculado todas las reglas de los contenedores anidados. Los datos restantes se incluyen entonces en el informe resultante.
+
+>[!NOTE]
+>
+>Cuando anida un segmento dentro de otro (por ejemplo, arrastra un segmento desde el panel Componentes a la definición del segmento), se crea un contenedor con una copia (no una referencia) de la regla de segmento arrastrada.
 
 Puede utilizar el anidado entre contenedores, así como entre las reglas dentro de un contenedor. A continuación se indica lo que puede anidar en cada contenedor:
 
