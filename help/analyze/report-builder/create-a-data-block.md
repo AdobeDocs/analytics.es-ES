@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: a8cb45c11089a0b69373ef3cf2a49687cd20da09
+exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
+source-git-commit: c35d5bdc29ce80f0c9357339b04fd2d656cfbe52
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 55%
+source-wordcount: '650'
+ht-degree: 49%
 
 ---
 
@@ -28,7 +29,9 @@ Configure los parámetros iniciales del bloque de datos para la ubicación del b
 
    La opción de ubicación del bloque de datos define la ubicación de la hoja de cálculo donde Report Builder añade los datos a la hoja de cálculo.
 
-   Para especificar la ubicación del bloque de datos, seleccione una sola celda en la hoja de cálculo o introduzca una dirección de celda como a3, \\\$a3, a\\\$3 o sheet1!a2. La celda especificada marca la esquina superior izquierda del bloque de datos cuando se recuperan los datos.
+   Para especificar la ubicación del bloque de datos, seleccione una sola celda en la hoja de cálculo y haga clic en el icono situado junto a **[!UICONTROL Ubicación del bloque de datos]**:
+
+   También puede introducir una dirección de celda como a3, \\\$a3, a\\\$3 o sheet1!a2. La celda especificada marca la esquina superior izquierda del bloque de datos cuando se recuperan los datos.
 
 1. Elija un **grupo de informes**.
 
@@ -40,7 +43,7 @@ Configure los parámetros iniciales del bloque de datos para la ubicación del b
 
 1. Haga clic en **[!UICONTROL Siguiente]**.
 
-   ![Captura de pantalla que muestra la opción de intervalo de fechas y el botón Siguiente activo.](./assets/choose_date_data_view3.png)
+   ![Captura de pantalla que muestra la opción de intervalo de fechas y el botón Siguiente activo.](./assets/choose_date_report_suite.png)
 
    Después de configurar el bloque de datos, puede seleccionar dimensiones, métricas y segmentos para crear el bloque de datos. Las pestañas Dimensión, Métricas y Filtros se muestran encima del panel Generador de tablas.
 
@@ -48,7 +51,7 @@ Configure los parámetros iniciales del bloque de datos para la ubicación del b
 
 Para generar el bloque de datos, seleccione los componentes del informe y, a continuación, personalice el diseño.
 
-1. Añada dimensiones, métricas y filtros.
+1. Añada Dimension, métricas y segmentos.
 
    Desplácese por las listas de componentes o utilice el campo **[!UICONTROL Buscar]** para localizar componentes. Arrastre y suelte los componentes en el panel Tabla o haga doble clic en un nombre de componente de la lista para añadirlo automáticamente al panel Tabla.
 
@@ -56,7 +59,7 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
 
    - Los componentes de Dimensión se añaden a la sección Fila o a la sección Columna si ya tiene una dimensión en las columnas.
    - Los componentes de fecha se añaden a la sección Columna.
-   - Los componentes de filtro se añaden a la sección Filtros.
+   - Los componentes del segmento se añaden a la sección Segmentos.
 
    **Fecha de inicio como Dimension**
 
@@ -91,8 +94,6 @@ Para generar el bloque de datos, seleccione los componentes del informe y, a con
 1. Haga clic en **[!UICONTROL Finalizar]**.
 
    Se muestra un mensaje de procesamiento mientras se recuperan los datos de los análisis.
-
-   ![El mensaje de procesamiento.](./assets/image11.png)
 
    Report Builder recupera los datos y muestra el bloque de datos completado en la hoja de cálculo.
 
