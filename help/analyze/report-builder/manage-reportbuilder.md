@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
-source-git-commit: 0e275dafb9d6562bf10fba1e0ecd9930e0e97f48
+source-git-commit: 3d1a26b960988020391e75b3d01af0f9b806d33b
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 59%
@@ -22,7 +22,6 @@ Puede ver y administrar todos los bloques de datos de un libro mediante el Admin
 ## Ver bloques de datos
 
 Haga clic en **Administrar** para ver una lista de todos los bloques de datos de un libro.
-
 
 ![Opción Administrar para ver una lista de todos los bloques de datos.](./assets/image53.png)
 
