@@ -5,7 +5,7 @@ user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y su versión heredada, y Activity Map.
 source-git-commit: 551fe910eab986a628885a4b12fa47b961ee4ba6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
 ht-degree: 100%
 
@@ -191,7 +191,7 @@ ht-degree: 100%
       + [Solicitudes de datos: Paso 1 del Asistente para solicitudes](legacy-report-builder/data-requests/data-requests.md)
       + [Crear una solicitud de datos](legacy-report-builder/data-requests/t-create-a-data-request.md)
       + Grupos de informes {#report-suites}
-         + [Selección de un grupo de informes ](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [Seleccionar un grupo de informes](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
          + [Selección de un grupo de informes de una solicitud existente en Excel](legacy-report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Uso de Excel para localizar un ID de grupo de informes](legacy-report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Administración de segmentos](legacy-report-builder/data-requests/segmentation.md)
