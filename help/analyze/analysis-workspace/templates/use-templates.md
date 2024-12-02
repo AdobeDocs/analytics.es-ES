@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
+source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
 workflow-type: tm+mt
-source-wordcount: '18050'
+source-wordcount: '18051'
 ht-degree: 61%
 
 ---
@@ -45,7 +45,11 @@ En la siguiente información se describe cómo tener acceso a las plantillas de 
 
      Solo un administrador puede crear plantillas de empresa. Para obtener más información sobre cómo crear una plantilla de empresa, consulte [Crear y administrar plantillas](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
-1. Elija si desea ver las plantillas en una vista de columna o en una vista de tarjeta seleccionando la vista de columna ![icono de vista de columna](assets/column-view-icon.png) o el icono de vista de tarjeta ![icono de vista de tarjeta](assets/card-view-icon.png).
+1. Utilice cualquiera de las siguientes opciones para cambiar la forma en que ve las plantillas disponibles:
+
+   * Elija si desea ver las plantillas en una vista de columna o en una vista de tarjeta seleccionando la vista de columna ![icono de vista de columna](assets/column-view-icon.png) o el icono de vista de tarjeta ![icono de vista de tarjeta](assets/card-view-icon.png).
+
+   * Al usar la vista de tarjeta ![icono de vista de tarjeta](assets/card-view-icon.png), elija entre los siguientes órdenes de clasificación: **[!UICONTROL Utilizado más recientemente]**, **[!UICONTROL Más popular]**, **[!UICONTROL Alfabético]**, **[!UICONTROL Categórico]**.
 
 1. En el campo de búsqueda, empiece a escribir el nombre de la plantilla que desea buscar y, a continuación, selecciónela en la lista de plantillas. También puede buscar en la lista de plantillas por propiedad, eVar y número de evento. <!-- still true? -->
 
@@ -58,8 +62,6 @@ En la siguiente información se describe cómo tener acceso a las plantillas de 
    >Para desplazarse por el menú con las teclas de dirección, presione la tecla de barra diagonal (/) y, a continuación, presione la tecla de flecha hacia abajo.  Pulse Intro para cargar la plantilla seleccionada.
 
    Para obtener una lista de las plantillas disponibles, consulte la sección [Plantillas disponibles](#available-reports) más abajo.
-
-1. (Opcional) Vea y utilice plantillas que contienen componentes que no están disponibles en el grupo de informes. (De manera predeterminada, las únicas plantillas que se muestran son las que utilizan componentes disponibles en el grupo de informes). <!--does this apply to AA? -->
 
 ## Creación de un proyecto basado en una plantilla {#use-reports}
 
