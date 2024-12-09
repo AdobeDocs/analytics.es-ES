@@ -1,13 +1,13 @@
 ---
-description: El Data Warehouse hace referencia a la copia de datos de Analytics para almacenarlos y elaborar informes personalizados, que se pueden ejecutar filtrando los datos. Puede solicitar informes para mostrar las relaciones de datos avanzadas que hay entre los datos sin procesar en función de sus propias preguntas. Los informes de Data Warehouse se envían por correo electrónico o mediante un proveedor de almacenamiento en la nube y pueden tardar hasta 72 horas en procesarse. El tiempo de procesamiento dependerá de la complejidad de la consulta y de la cantidad de datos solicitados.
-title: Resumen de Data Warehouse
+description: Obtenga información sobre la Data Warehouse y cómo filtrar los datos, lo que le permite crear y ejecutar informes personalizados.
+title: Información general de Data Warehouse
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 79%
 
 ---
 
@@ -35,7 +35,7 @@ El Data Warehouse comprime automáticamente cualquier archivo que supere 1 MB de
 
 ## Acceso
 
-Adobe permite el Data Warehouse para los usuarios de nivel de administrador para grupos de informes específicos. (Se puede activar para los grupos de informes globales y secundarios, pero no para los resumidos). El administrador puede crear un grupo que tenga acceso al Data Warehouse y, luego, asociar a los usuarios que no tengan nivel de administrador a dicho grupo.
+Adobe permite el Data Warehouse para los usuarios de nivel de administrador para grupos de informes específicos. (Se puede habilitar para grupos de informes globales y secundarios, pero no para grupos de informes resumidos). El administrador puede crear un grupo que tenga acceso a la Data Warehouse y, a continuación, asociar a los usuarios que no tengan nivel de administrador a dicho grupo.
 
 Consulte [Administración de permisos de Data Warehouse](/help/export/data-warehouse/t-dw-group.md).
 

@@ -1,11 +1,11 @@
 ---
-title: Creación de una fuente de datos
-description: Obtenga información sobre cómo crear una fuente de datos.
+title: Crear una fuente de datos
+description: Obtenga información sobre cómo crear una fuente de datos y sobre la información de archivo que se va a proporcionar al Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 8e8f59f747ddacc5462cbc177d199a5e0e91908a
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '4119'
+source-wordcount: '4128'
 ht-degree: 53%
 
 ---
@@ -27,7 +27,7 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 1. Seleccione el icono de 9 cuadrados en la esquina superior derecha, luego seleccione [!UICONTROL **Analytics**].
 1. En la barra de navegación superior, ve a [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
-1. Seleccione [!UICONTROL **Agregar**].
+1. Seleccione [!UICONTROL **Añadir**].
 
    ![Agregar fuente de datos](assets/datafeed-add.png)
 
@@ -364,7 +364,7 @@ Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
    |---------|----------|
    | [!UICONTROL **Quitar caracteres de escape**] | Al recopilar datos, algunos caracteres (como las líneas nuevas) pueden causar problemas. Marque esta casilla si desea eliminar estos caracteres de los archivos de fuente. |
    | [!UICONTROL **Formato de compresión**] | Tipo de compresión utilizado. **Gzip** genera archivos en formato `.tar.gz`. **Zip** genera archivos en formato `.zip`. |
-   | [!UICONTROL **Tipo de paquete**] | Seleccione [!UICONTROL **Varios archivos**] para la mayoría de las fuentes de datos. Esta opción pagina los datos en fragmentos de 2 GB sin comprimir. (Si se selecciona la opción [!UICONTROL **Varios archivos**] y los datos sin comprimir de la ventana de informes ocupan menos de 2 GB, se envía un solo archivo). Si se selecciona **Un solo archivo**, se genera el archivo `hit_data.tsv` en un único archivo potencialmente masivo. |
+   | [!UICONTROL **Tipo de paquete**] | Seleccione [!UICONTROL **Varios archivos**] para la mayoría de las fuentes de datos. Esta opción pagina los datos en fragmentos de 2 GB sin comprimir. (Si se selecciona la opción [!UICONTROL **Varios archivos**] y los datos sin comprimir de la ventana de informes ocupan menos de 2 GB, se envía un solo archivo). Seleccionar **Un solo archivo** genera el archivo `hit_data.tsv` en un único archivo potencialmente masivo. |
    | [!UICONTROL **Manifiesto**] | Determina si el Adobe debe enviar un [archivo de manifiesto](c-df-contents/datafeeds-contents.md#feed-manifest) al destino cuando no se recopilen datos para un intervalo de fuente. Si selecciona **Archivo de manifiesto**, recibirá un archivo de manifiesto similar al siguiente cuando no se recopilen datos:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **Plantillas de columna**] | Al crear muchas fuentes de datos, Adobe recomienda crear una plantilla de columna. La selección de una plantilla de columna incluye automáticamente las columnas especificadas en la plantilla. Adobe también proporciona varias plantillas de forma predeterminada. |
    | [!UICONTROL **Columnas disponibles**] | Todas las columnas de datos disponibles en Adobe Analytics. Haga clic en [!UICONTROL Agregar todo] para incluir todas las columnas en una fuente de datos. |

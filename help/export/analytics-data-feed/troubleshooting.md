@@ -1,13 +1,12 @@
 ---
-title: Solución de problemas de las fuentes de datos
-description: Descubra cómo puede determinar y resolver problemas con las fuentes de datos.
-keywords: trabajo;resolución de problemas;error;ftp;chdir;conexión;inicio de sesión;put
+title: Solución de problemas de fuentes de datos
+description: Obtenga información sobre los motivos por los que un trabajo de fuente de datos puede fallar al procesar o entregar datos. Resuelva los posibles problemas con las fuentes de datos.
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 95%
 
 ---
 
