@@ -3,10 +3,10 @@ description: Varios informes de Adobe Analytics pueden mostrar No especificado, 
 title: No especificado, Ninguno, Otro y Desconocido en los informes
 feature: Analytics Basics
 exl-id: 35451239-91f3-400a-981e-8c3fbc0e4185
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 0f5890679ea73c1bbea9f5d2939e89c6775c85da
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Varios informes de Adobe Analytics pueden mostrar “No especificado”, “Otro
 “No especificado” es un elemento de línea bastante común en los informes. También se refiere a él con frecuencia como “Ninguno”.
 
 * **Un evento se activa sin una variable de conversión:** por ejemplo, un usuario visita su sitio y realiza un compra sin ningún valor eVar1. Si ve los pedidos mediante la dimensión eVar1, comprobará que no hay ningún valor al que atribuir este pedido. Por lo tanto, se atribuye automáticamente al estado “No especificado”.
-* **Datos no clasificados en los informes de clasificación:** cuando se ven los datos de clasificación, cualquier valor que no tenga datos asociados con esa clasificación en concreto vuelve al estado “No especificado”. Para resolver este problema, clasifique el valor de la variable principal.
+* **Datos no clasificados en los informes de clasificación:** cuando se ven los datos de clasificación, cualquier valor que no tenga datos asociados con esa clasificación en concreto vuelve al estado “No especificado”. Para resolver este problema, asegúrese de que haya un valor de clasificación asociado a cada elemento de dimensión principal.
 * **Informes de desglose en los que solo se activó una variable:** cuando se aplica un desglose a una variable, se debe contabilizar cada instancia de dicha variable. Si no se vio la segunda variable o si persistió desde una visita anterior, el elemento de la dimensión será “No especificado”.
 * **Visitas que no son de móviles en los informes de dispositivos móviles:** todas las visitas que no sean de dispositivos móviles se muestran en los informes móviles como “No especificado” (“No móvil” en Reports &amp; Analytics).
 
