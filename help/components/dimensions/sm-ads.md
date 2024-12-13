@@ -2,9 +2,10 @@
 title: Dimensiones de anuncios de medios de streaming
 description: Dimensiones disponibles al habilitar [!UICONTROL Anuncios multimedia] para un grupo de informes.
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 15%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 15%
 
 *Esta página describe las dimensiones disponibles cuando se habilita [!UICONTROL Anuncios multimedia] para un grupo de informes. Consulte [Métricas de anuncios de medios de streaming](../metrics/sm-ads.md) para ver las métricas disponibles*.
 
-Las dimensiones de anuncios de medios de streaming proporcionan una funcionalidad de creación de informes suplementaria para la recopilación de datos mediante bibliotecas de recopilación de medios de streaming. El uso de estas dimensiones requiere el **[!UICONTROL complemento de recopilación de medios de streaming de Adobe]**. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
+Las dimensiones de anuncios de medios de streaming proporcionan una funcionalidad de creación de informes suplementaria para la recopilación de datos mediante bibliotecas de recopilación de medios de streaming. El uso de estas dimensiones requiere la **[!UICONTROL recopilación de medios de streaming de Adobe]**. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
 
 Cuando habilita **[!UICONTROL Anuncios multimedia]** en [Informes multimedia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), están disponibles las siguientes dimensiones:
 

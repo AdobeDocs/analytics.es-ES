@@ -2,16 +2,17 @@
 title: Dimensiones de metadatos de audio de medios de streaming
 description: Dimensiones disponibles al habilitar [!UICONTROL Metadatos de audio] para un grupo de informes.
 feature: Dimensions
-source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
+exl-id: 2e4dc1e9-267b-47a2-b791-23d1e754a2c1
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '143'
 ht-degree: 8%
 
 ---
 
 # Dimensiones de metadatos de audio de medios de streaming
 
-Las dimensiones de anuncios de medios de streaming proporcionan una funcionalidad de creación de informes suplementaria para la recopilación de datos mediante bibliotecas de recopilación de medios de streaming. El uso de estas dimensiones requiere el **[!UICONTROL complemento de recopilación de medios de streaming de Adobe]**. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
+Las dimensiones de anuncios de medios de streaming proporcionan una funcionalidad de creación de informes suplementaria para la recopilación de datos mediante bibliotecas de recopilación de medios de streaming. El uso de estas dimensiones requiere la **[!UICONTROL recopilación de medios de streaming de Adobe]**. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
 
 Cuando habilita **[!UICONTROL Metadatos de audio]** en [Informes de medios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), están disponibles las siguientes dimensiones:
 

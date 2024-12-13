@@ -2,9 +2,10 @@
 title: Dimensiones del capítulo de medios de streaming
 description: Dimensiones disponibles al habilitar [!UICONTROL Capítulos multimedia] para un grupo de informes.
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '188'
 ht-degree: 14%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 14%
 
 *Esta página describe las dimensiones disponibles cuando se habilitan [!UICONTROL Capítulos multimedia] para un grupo de informes. Consulte [Métricas del capítulo de medios de streaming](../metrics/sm-chapters.md) para ver las métricas disponibles*.
 
-Las dimensiones del capítulo medios de streaming proporcionan una funcionalidad de creación de informes suplementaria para la recopilación de datos a través de las bibliotecas de recopilación de medios de streaming. El uso de estas dimensiones requiere el **[!UICONTROL complemento de recopilación de medios de streaming de Adobe]**. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
+Las dimensiones del capítulo medios de streaming proporcionan una funcionalidad de creación de informes suplementaria para la recopilación de datos a través de las bibliotecas de recopilación de medios de streaming. El uso de estas dimensiones requiere la **[!UICONTROL recopilación de medios de streaming de Adobe]**. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
 
 Cuando habilita **[!UICONTROL Capítulos multimedia]** en [Informes multimedia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), está disponible la siguiente dimensión:
 

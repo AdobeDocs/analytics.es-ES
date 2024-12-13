@@ -3,9 +3,9 @@ description: Puede ver datos del Document Cloud en Adobe Analytics
 title: Configuración de Document Cloud Analytics
 feature: Admin Tools
 exl-id: 4bcc5be7-cad1-4969-9d19-0db8f3f6a374
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '109'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ Las siguientes opciones de administración de Document Cloud están disponibles 
 
 * [!UICONTROL **Informes de Document Cloud**]
 
-  Los informes específicos del complemento de recopilación de medios de streaming están disponibles en la página Informes de medios. Para obtener más información acerca de Informes de medios, consulte [Configuración de informes de Document Cloud](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
+  Los informes específicos de la recopilación de medios de streaming están disponibles en la página Informes de medios. Para obtener más información acerca de Informes de medios, consulte [Configuración de informes de Document Cloud](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
 
 * [!UICONTROL **Clasificaciones de Document Cloud**]
 

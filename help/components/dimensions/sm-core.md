@@ -2,10 +2,11 @@
 title: Dimensiones principales de medios de streaming
 description: Dimensiones disponibles al habilitar [!UICONTROL Media Core] para un grupo de informes.
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 9%
+source-wordcount: '410'
+ht-degree: 10%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 9%
 
 *Esta página describe las dimensiones disponibles cuando se habilita [!UICONTROL Media Core] para un grupo de informes. Consulte [Métricas principales de medios de streaming](../metrics/sm-core.md) para ver las métricas disponibles*.
 
-Las dimensiones principales de los medios de streaming proporcionan funcionalidad básica de creación de informes a los datos recopilados mediante bibliotecas de recopilación de medios de streaming. El uso de estas dimensiones requiere el **[!UICONTROL complemento de recopilación de medios de streaming de Adobe]**. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
+Las dimensiones principales de los medios de streaming proporcionan funcionalidad básica de creación de informes a los datos recopilados mediante bibliotecas de recopilación de medios de streaming. El uso de estas dimensiones requiere la **[!UICONTROL recopilación de medios de streaming de Adobe]**. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
 
 Cuando habilita **[!UICONTROL Componentes básicos de medios]** en [Informes de medios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), están disponibles las siguientes dimensiones:
 
