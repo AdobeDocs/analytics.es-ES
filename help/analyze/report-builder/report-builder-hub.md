@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
+source-git-commit: c6b753b887b369fbbae2f9bb5d45cef92bffb3d0
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 61%
+source-wordcount: '519'
+ht-degree: 50%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 61%
 
 Utilice Report Builder Hub para crear, actualizar, eliminar y administrar bloques de datos.
 
-El concentrador de Report Builder contiene los botones Crear y Administrar, la lista de COMANDOS y los paneles de EDICIÓN RÁPIDA.
+Report Builder hub contiene los botones Crear, Administrar y Programar, el panel COMANDOS y el panel EDICIÓN RÁPIDA.
 
 <img src="./assets/hub51.png" alt="Report Builder Hub"/>
 
@@ -24,6 +25,10 @@ El concentrador de Report Builder contiene los botones Crear y Administrar, la l
 ## Botones Crear, Administrar y Programar
 
 Utilice los botones Crear, Administrar y Programar para crear nuevos bloques de datos, administrar los existentes o programar bloques de datos.
+
+>[!NOTE]
+>
+>La programación de libros para esta versión de Report Builder en Adobe Analytics aún no se ha publicado, pero estará disponible a principios de 2025. Ahora puede empezar a trabajar con libros que no requieran programación.
 
 ## Panel COMANDOS
 
@@ -33,12 +38,12 @@ Utilice el panel COMANDOS para acceder a comandos compatibles con las celdas sel
 
 | Comandos mostrados | Disponible cuando... | Finalidad |
 |------|------------------|--------|
-| Creación del bloque de datos | Se seleccionan una o más celdas en el libro. | Se utiliza para crear un bloque de datos |
 | Edición del bloque de datos | El rango de celdas o celdas seleccionados forman parte de un solo bloque de datos. | Se utiliza para editar un bloque de datos. |
-| Actualización del bloque de datos | La selección contiene al menos un bloque de datos. El comando solo actualizará los bloques de datos de la selección. | Se utiliza para actualizar uno o más bloques de datos. |
+| Actualización del bloque de datos | La selección contiene al menos un bloque de datos. El comando actualiza solo los bloques de datos de la selección. | Se utiliza para actualizar uno o más bloques de datos. |
 | Actualización de todos los bloques de datos | El libro contiene uno o más bloques de datos. | Se utiliza para actualizar TODOS los bloques de datos del libro |
 | Enviar libro |   | Envíe un libro según una programación. |
 | Copia del bloque de datos | La celda o el rango de celdas seleccionado forma parte de uno o más bloques de datos. | Se utiliza para copiar un bloque de datos. |
+| Cortar bloque de datos |   | Se utiliza para cortar un bloque de datos. |
 | Eliminación del bloque de datos | El rango de celdas o celdas seleccionados forman parte de un solo bloque de datos. | Se utiliza para eliminar un bloque de datos. |
 
 ## Panel EDICIÓN RÁPIDA
@@ -63,6 +68,6 @@ Para cambiar el grupo de informes, seleccione un nuevo grupo de informes en el m
 
 **[!UICONTROL Intervalo de fechas]** muestra el intervalo de fechas para los bloques de datos seleccionados. Si se seleccionan varios bloques de datos con varios intervalos de fechas, el vínculo **[!UICONTROL Intervalo de fechas]** muestra *Múltiple*.
 
-### Filtros
+### Segmentos 
 
-El vínculo **Filtros** muestra una lista resumida de los filtros utilizados por los bloques de datos seleccionados. Si se seleccionan varios bloques de datos con varios filtros aplicados, el vínculo **Filtros** muestra *Varios*.
+El vínculo **Segmentos** muestra una lista resumida de los segmentos utilizados por los bloques de datos seleccionados. Si se seleccionan varios bloques de datos con varios segmentos aplicados, el vínculo **Segmentos** muestra *Varios*.
