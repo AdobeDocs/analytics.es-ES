@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: c6b753b887b369fbbae2f9bb5d45cef92bffb3d0
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 50%
+source-wordcount: '523'
+ht-degree: 51%
 
 ---
 
@@ -66,8 +66,8 @@ Para cambiar el grupo de informes, seleccione un nuevo grupo de informes en el m
 
 ### Intervalo de fechas
 
-**[!UICONTROL Intervalo de fechas]** muestra el intervalo de fechas para los bloques de datos seleccionados. Si se seleccionan varios bloques de datos con varios intervalos de fechas, el vínculo **[!UICONTROL Intervalo de fechas]** muestra *Múltiple*.
+**[!UICONTROL Intervalo de fechas]** muestra el intervalo de fechas para los bloques de datos seleccionados. Si se seleccionan varios bloques de datos con varios intervalos de fechas, el vínculo **[!UICONTROL Intervalo de fechas]** muestra *Múltiple*. [Más información](/help/analyze/report-builder/select-date-range.md)
 
 ### Segmentos 
 
-El vínculo **Segmentos** muestra una lista resumida de los segmentos utilizados por los bloques de datos seleccionados. Si se seleccionan varios bloques de datos con varios segmentos aplicados, el vínculo **Segmentos** muestra *Varios*.
+El vínculo **Segmentos** muestra una lista resumida de los segmentos utilizados por los bloques de datos seleccionados. Si se seleccionan varios bloques de datos con varios segmentos aplicados, el vínculo **Segmentos** muestra *Varios*. [Más información](/help/analyze/report-builder/work-with-segments.md)

@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +32,7 @@ El calendario le permite crear fechas estáticas o móviles mediante las siguien
 
 **Desde celda**
 
-La opción Desde celda permite hacer referencia a las fechas introducidas en las celdas de la hoja de cálculo.
+La opción **[!UICONTROL Desde celda]** permite hacer referencia a las fechas introducidas en las celdas de la hoja de cálculo.
 
 Tiene la opción de excluir hoy en cualquier intervalo de fechas seleccionado.
 
