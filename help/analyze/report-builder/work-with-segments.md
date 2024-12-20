@@ -5,9 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '848'
 ht-degree: 4%
 
 ---
@@ -22,7 +23,7 @@ Para aplicar un segmento a todo el bloque de datos, haga doble clic en un segmen
 
 ## Aplicación de segmentos a métricas individuales
 
-Para aplicar segmentos a métricas individuales, arrastre y suelte un segmento en una métrica de la tabla. También puede hacer clic en el icono **...** a la derecha de una métrica en el panel Tabla y, a continuación, seleccionar **Métrica del segmento**. Para ver los segmentos aplicados, pase el ratón sobre una métrica o selecciónela en el panel Tabla. Las métricas con segmentos aplicados muestran un icono de filtro.
+Para aplicar segmentos a métricas individuales, arrastre y suelte un segmento en una métrica de la tabla. También puede hacer clic en el icono **...** a la derecha de una métrica en el panel Tabla y, a continuación, seleccionar **[!UICONTROL Métrica del segmento]**. Para ver los segmentos aplicados, pase el ratón sobre una métrica o selecciónela en el panel Tabla. Las métricas con segmentos aplicados muestran un icono de filtro.
 
 ![La pestaña Segmentos muestra las métricas.](./assets/filter_by.png)
 
@@ -30,7 +31,7 @@ Para aplicar segmentos a métricas individuales, arrastre y suelte un segmento e
 
 Puede utilizar el panel de edición rápida para añadir, quitar o reemplazar segmentos para bloques de datos existentes.
 
-Cuando se selecciona un rango de celdas en la hoja de cálculo, el vínculo **Segmentos** del panel Edición rápida muestra una lista resumida de los segmentos utilizados por los bloques de datos de esa selección.
+Cuando se selecciona un rango de celdas en la hoja de cálculo, el vínculo **[!UICONTROL Segmentos]** del panel Edición rápida muestra una lista resumida de los segmentos utilizados por los bloques de datos de esa selección.
 
 Para editar segmentos con el panel Edición rápida
 
@@ -38,7 +39,7 @@ Para editar segmentos con el panel Edición rápida
 
    ![Panel de segmentos de edición rápida que muestra las opciones de segmentos para los grupos de informes, el intervalo de fechas y los segmentos.](./assets/select_multiple_dbs.png)
 
-1. Haga clic en el vínculo Segmentos para iniciar el panel Edición rápida - Filtros.
+1. Haga clic en el vínculo debajo de **[!UICONTROL Segmentos]** para iniciar el panel Edición rápida - Filtros.
 
    ![el panel Segmentos muestra el campo Agregar segmentos y las listas de Segmentos aplicados.](./assets/quick_edit_filters.png)
 
@@ -46,23 +47,23 @@ Para editar segmentos con el panel Edición rápida
 
 Puede añadir o quitar segmentos mediante las opciones Añadir/Quitar.
 
-1. Seleccione la ficha **Agregar/Quitar** en el panel Edición rápida - Segmentos.
+1. Seleccione la ficha **[!UICONTROL Agregar/Quitar]** en el panel Edición rápida - Segmentos.
 
-   Todos los segmentos aplicados a los bloques de datos seleccionados se enumeran en el panel Edición rápida - Segmentos. Los segmentos aplicados a todos los bloques de datos de la selección se enumeran en el encabezado **Aplicado a todos los bloques de datos seleccionados**. Los segmentos aplicados a algunos bloques de datos, pero no a todos, se enumeran en el encabezado **Aplicado a uno o más bloques de datos seleccionados**.
+   Todos los segmentos aplicados a los bloques de datos seleccionados se enumeran en el panel Edición rápida - Segmentos. Los segmentos aplicados a todos los bloques de datos de la selección se enumeran en el encabezado **[!UICONTROL Aplicado a todos los bloques de datos seleccionados]**. Los segmentos aplicados a algunos bloques de datos, pero no a todos, se enumeran en el encabezado **[!UICONTROL Aplicado a uno o más bloques de datos seleccionados]**.
 
-   Cuando hay varios segmentos presentes en los bloques de datos seleccionados, puede buscar segmentos específicos mediante el campo de búsqueda **Agregar filtro**.
+   Cuando hay varios segmentos presentes en los bloques de datos seleccionados, puede buscar segmentos específicos mediante el campo de búsqueda **[!UICONTROL Agregar filtro]**.
 
    ![Campo Agregar segmentos.](./assets/add_filter.png)
 
-1. Para agregar segmentos, selecciónelos en el menú desplegable **Agregar segmento**.
+1. Para agregar segmentos, selecciónelos en el menú desplegable **[!UICONTROL Agregar segmento]**.
 
    La lista de segmentos en los que se puede buscar incluye todos los segmentos accesibles para los grupos de informes que están presentes en uno o más de los bloques de datos seleccionados, así como todos los segmentos disponibles globalmente en la organización.
 
    Al añadir un segmento, se aplica el segmento a todos los bloques de datos de la selección.
 
-1. Para quitar segmentos, haga clic en el icono de eliminación **x** a la derecha de los segmentos en la lista **Segmentos aplicados**.
+1. Para quitar segmentos, haga clic en el icono de eliminación **x** a la derecha de los segmentos en la lista **[!UICONTROL Segmentos aplicados]**.
 
-1. Haga clic en **Aplicar** para guardar los cambios y volver al panel central.
+1. Haga clic en **[!UICONTROL Aplicar]** para guardar los cambios y volver al panel central.
 
    El Report Builder muestra un mensaje para confirmar los cambios aplicados en el segmento.
 
@@ -70,21 +71,21 @@ Puede añadir o quitar segmentos mediante las opciones Añadir/Quitar.
 
 Puede reemplazar un segmento existente por otro para cambiar la forma en que se segmentan los datos.
 
-1. Seleccione la ficha **Reemplazar** en el panel Edición rápida - Segmento.
+1. Seleccione la ficha **[!UICONTROL Reemplazar]** en el panel Edición rápida - Segmento.
 
    ![Seleccione la ficha Reemplazar.](./assets/replace_filter.png)
 
-1. Utilice el campo de búsqueda **Lista de búsqueda** para localizar segmentos específicos.
+1. Utilice el campo de búsqueda **[!UICONTROL Lista de búsqueda]** para localizar segmentos específicos.
 
 1. Elija uno o varios segmentos que desee reemplazar.
 
 1. Busque uno o más segmentos en el campo Reemplazar con.
 
-   Al seleccionar un filtro, se añade a la lista **Reemplazar con**...
+   Al seleccionar un filtro, se añade a la lista **[!UICONTROL Reemplazar con]**...
 
    ![La ficha Reemplazar con el bloque de datos Personas en la aplicación seleccionado y la lista Reemplazar con actualizada muestran Personas en la aplicación revisada.](./assets/replace_screen_new.png)
 
-1. Haga clic en **Aplicar**.
+1. Haga clic en **[!UICONTROL Aplicar]**.
 
    El Report Builder actualiza la lista de segmentos para reflejar el reemplazo.
 
@@ -95,8 +96,8 @@ Los bloques de datos pueden hacer referencia a segmentos desde una celda. Varios
 Para aplicar segmentos desde una celda
 
 1. Vaya al paso 2 en el proceso de creación o edición del bloque de datos. Ver [Crear un bloque de datos](./create-a-data-block.md).
-1. Haga clic en la ficha **Segmentos** para definir los filtros.
-1. Haga clic en **Crear segmento desde celda**.
+1. Haga clic en la ficha **[!UICONTROL Segmentos]** para definir los filtros.
+1. Haga clic en **[!UICONTROL Crear segmento desde celda]**.
 
    ![Crear segmento a partir del icono de celda.](./assets/create-filter-from-cell.png)
 
@@ -108,13 +109,13 @@ Para aplicar segmentos desde una celda
 
    ![El segmento Agregar de la ventana de celda que muestra los filtros incluidos.](./assets/select-filters.png)
 
-1. Haga clic en **Aplicar** para crear la celda de referencia.
+1. Haga clic en **[!UICONTROL Aplicar]** para crear la celda de referencia.
 
-1. En la pestaña **Segmentos**, agregue los segmentos de celda de referencia recién creados al bloque de datos.
+1. En la pestaña **[!UICONTROL Segmentos]**, agregue los segmentos de celda de referencia recién creados al bloque de datos.
 
    ![Ficha Segmentos que muestra el segmento Hoja1!J1(Todos los datos) agregado a la tabla.](./assets/reference-cell-filter.png)
 
-1. Haga clic en **Finalizar**.
+1. Haga clic en **[!UICONTROL Finalizar]**.
 
    Ahora otros bloques de datos pueden hacer referencia a esta celda en sus segmentos. Para aplicar la celda de referencia como un segmento a otros bloques de datos, simplemente añada la referencia de celda a sus segmentos desde la pestaña Segments.
 
@@ -122,7 +123,7 @@ Para aplicar segmentos desde una celda
 
 1. Seleccione la celda de referencia en la hoja de cálculo.
 
-1. Haga clic en el vínculo bajo **Segmentos de celda** en el menú Edición rápida.
+1. Haga clic en el vínculo bajo **[!UICONTROL Segmentos de celda]** en el menú Edición rápida.
 
    ![Segmentos del vínculo de celda que muestra Sheet1!J1 (Todos los datos)](./assets/filters-from-cell-link.png)
 
@@ -130,4 +131,4 @@ Para aplicar segmentos desde una celda
 
    ![Menú desplegable de segmentos](./assets/filter-drop-down.png)
 
-1. Haga clic en **Aplicar**.
+1. Haga clic en **[!UICONTROL Aplicar]**.

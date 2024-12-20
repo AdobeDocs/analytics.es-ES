@@ -5,10 +5,11 @@ role: Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: d158ad45-d467-4355-b091-f015bde7a243
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 88%
+source-wordcount: '274'
+ht-degree: 83%
 
 ---
 
@@ -24,7 +25,7 @@ Para cambiar la configuración de Report Builder
 
 1. Haga clic en **Aplicar**.
 
-   ![Panel de intervalo de fechas del Report Builder que muestra el botón Cancelar y aplicar.](./assets/image38.png)
+   ![configuración del Report Builder.](./assets/image38.png)
 
 ## Modo sin conexión
 
@@ -32,13 +33,13 @@ Al crear y editar un bloque de datos en modo sin conexión, no se recuperan los 
 
 Para activar el modo sin conexión
 
-1. Haga clic en el icono **Configuración**.
+1. Haga clic en el icono **[!UICONTROL Configuración]**.
 
-1. Seleccione **Habilitar el modo sin conexión**.
+1. Seleccione **[!UICONTROL Habilitar el modo sin conexión]e**.
 
-1. Introduzca un entero positivo en el campo **Mostrar datos de métricas como**.
+1. Introduzca un entero positivo en el campo **[!UICONTROL Mostrar datos de métricas como]**.
 
-1. Haga clic en **Aplicar**.
+1. Haga clic en **[!UICONTROL Aplicar]**.
 
 ## Idioma
 
@@ -48,14 +49,14 @@ Para seleccionar el idioma utilizado en la IU de Report Builder
 
 1. Haga clic en Configuración.
 
-1. Seleccione un idioma en el menú desplegable **Idioma**.
+1. Seleccione un idioma en el menú desplegable **[!UICONTROL Idioma]**.
 
    ![Panel de intervalo de fechas del Report Builder que muestra la lista Idioma con el inglés seleccionado.](./assets/image39.png)
 
-1. Haga clic en **Aplicar.**
+1. Haga clic en **[!UICONTROL Aplicar].**
 
 ## Resolución de problemas
 
 Utilice la configuración Resolución de problemas para registrar todos los datos de cliente/servidor en un archivo local. Utilice esta opción para resolver los tickets de asistencia.
 
-Para activar la opción Resolución de problemas, seleccione **Registrar la solicitud del Report Builder en un archivo local**.
+Para habilitar la opción Resolución de problemas, seleccione **[!UICONTROL Registrar el bloque de datos de Report Builder en la consola web]**.

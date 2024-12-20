@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
 source-wordcount: '1012'
-ht-degree: 77%
+ht-degree: 76%
 
 ---
 
@@ -95,7 +96,7 @@ Definición de criterios de filtrado
 
 1. Escriba un valor en el campo de búsqueda.
 
-1. Haga clic en Agregar fila para confirmar la selección y añadir otro elemento de criterio.
+1. Haga clic en **[!UICONTROL Agregar fila]** para confirmar la selección y agregar otro elemento de criterio.
 
 1. Haga clic en el icono Eliminar para quitar un elemento de criterio.
 
@@ -118,15 +119,15 @@ Para cambiar la métrica utilizada para filtrar y ordenar el bloque de datos,
 
 ## Filtro específico
 
-La opción Específico permite crear una lista fija de elementos de dimensión para cada dimensión. Utilice el tipo de filtro **Específico** para especificar los elementos de dimensión exactos que se incluirán en el filtro. Puede seleccionar elementos de una lista o de un rango de celdas.
+La opción Específico permite crear una lista fija de elementos de dimensión para cada dimensión. Utilice el tipo de filtro **[!UICONTROL Específico]** para especificar los elementos de dimensión exactos que se incluirán en el filtro. Puede seleccionar elementos de una lista o de un rango de celdas.
 
 ![Opciones específicas y elementos seleccionados.](./assets/image32.png)
 
 ### De la lista
 
-1. Seleccione la opción **De la lista** para buscar y seleccionar elementos de dimensión.
+1. Seleccione la opción **[!UICONTROL De la lista]** para buscar y seleccionar elementos de dimensión.
 
-   Al seleccionar la variable **De la lista**, la lista se rellena con elementos de dimensión con la mayoría de eventos primero.
+   Al seleccionar la variable **[!UICONTROL De la lista]**, la lista se rellena con elementos de dimensión con la mayoría de eventos primero.
 
    ![La opción De la lista y los elementos disponibles.](./assets/image33.png)
 
@@ -142,7 +143,7 @@ La opción Específico permite crear una lista fija de elementos de dimensión p
 
 1. Seleccionar un elemento de dimensión.
 
-   Los elementos de dimensión seleccionados se añaden automáticamente a la lista **Elementos seleccionados**.
+   Los elementos de dimensión seleccionados se añaden automáticamente a la lista **[!UICONTROL Elementos seleccionados]**.
 
    ![](./assets/image35.png)
 
@@ -176,4 +177,4 @@ En la pestaña **[!UICONTROL Dimensiones]**, haga clic en el icono de cheurón s
 
 ![La ficha Dimension y la lista de dimensiones.](./assets/dimensions_chevron.png)
 
-Puede arrastrar y soltar elementos en la **Tabla** o hacer doble clic en un nombre de elemento para añadirlo al Generador de **tablas**.
+Puede arrastrar y soltar elementos en la **[!UICONTROL Tabla]** o hacer doble clic en un nombre de elemento para añadirlo al Generador de **[!UICONTROL tablas]**.
