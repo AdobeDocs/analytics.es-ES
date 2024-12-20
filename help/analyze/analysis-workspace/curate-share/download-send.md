@@ -4,10 +4,10 @@ title: Descarga de archivos PDF o CSV
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 830d9cd13db1a0767cce4e3d2574a120d00a9ac8
+source-git-commit: 04c588cbe8cd4cc9b8d6fe162e3623c2be076325
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 90%
+source-wordcount: '1044'
+ht-degree: 89%
 
 ---
 
@@ -44,6 +44,7 @@ Para descargar un proyecto como archivo CSV o de PDF:
    ![](assets/download-project.png)
 
 1. (Condicional) Si elige descargar un PDF, se muestra un mensaje después de que el proyecto esté listo para descargarse. Haga clic en [!UICONTROL **Descargar**].
+1. Haga clic en el icono **[!UICONTROL Descargar este archivo]** y guarde el archivo en una carpeta de su elección.
 
 ## Copiado de datos en el portapapeles (tecla de acceso directo: Ctrl + C) {#copy-data}
 
