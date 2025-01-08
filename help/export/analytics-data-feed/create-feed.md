@@ -3,7 +3,7 @@ title: Crear una fuente de datos
 description: Obtenga información sobre cómo crear una fuente de datos y sobre la información de archivo que se va a proporcionar al Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
 workflow-type: tm+mt
 source-wordcount: '4128'
 ht-degree: 53%
@@ -15,12 +15,9 @@ ht-degree: 53%
 Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
 
 * La información sobre el destino al que desea enviar los archivos de datos sin procesar
-
 * Los datos que desea incluir en cada archivo
 
->[!NOTE]
->
->Antes de crear una fuente de datos, es importante tener una comprensión básica de las fuentes de datos y asegurarse de que cumple todos los requisitos previos. Para obtener más información, consulte [Resumen de fuentes de datos](data-feed-overview.md).
+Antes de crear una fuente de datos, es importante tener una comprensión básica de las fuentes de datos y asegurarse de que cumple todos los requisitos previos. Para obtener más información, consulte [Resumen de fuentes de datos](data-feed-overview.md).
 
 ## Creación y configuración de una fuente de datos
 

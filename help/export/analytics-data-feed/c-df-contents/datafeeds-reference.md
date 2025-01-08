@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
+source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
 workflow-type: tm+mt
-source-wordcount: '3580'
+source-wordcount: '3617'
 ht-degree: 67%
 
 ---
@@ -259,7 +259,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 
 ## Columnas no utilizadas o retiradas
 
-La siguiente lista de columnas no se utiliza y no suele contener datos. Las bibliotecas de recopilación de datos actuales no admiten columnas que contengan datos, y no son dimensiones disponibles en Analysis Workspace.
+La siguiente lista de columnas no se utiliza, se retira o no contiene valor en los informes. Algunas de estas columnas están vinculadas a características que se han puesto de sol, mientras que otras ya no son necesarias debido a características nuevas y más sólidas. La mayoría de estas columnas no contienen datos; las columnas que podrían contener datos no son compatibles con las bibliotecas de recopilación de datos actuales y no son dimensiones disponibles en Analysis Workspace.
 
 * `adclassificationcreative`
 * `click_action`
@@ -338,6 +338,7 @@ La siguiente lista de columnas no se utiliza y no suele contener datos. Las bibl
 * `plugins`
 * `prev_page`
 * `product_merchandising`
+* `sampled_hit`
 * `service`
 * `socialaccountandappids`
 * `socialassettrackingcode`
