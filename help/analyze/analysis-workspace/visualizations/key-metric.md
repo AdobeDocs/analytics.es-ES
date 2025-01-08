@@ -4,10 +4,10 @@ title: Resumen de métricas clave
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 0bf1b06af8a89c47e74807d14c31075f181cb946
+source-git-commit: 00276353ef5555955d9dc178c692da0dbfb7eac2
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 98%
+source-wordcount: '780'
+ht-degree: 56%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 La visualización [!UICONTROL Resumen de métricas clave] permite ver las tendencias de una métrica importante dentro de un solo periodo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo. Proporciona las ventajas de varias visualizaciones combinadas en una sola:
 
-* Visualizaciones de **[!UICONTROL Línea]** que muestran la tendencia de la métrica para los intervalos de fechas principales y de comparación
+* **[!UICONTROL Visualizaciones de línea]** que muestran la tendencia de la métrica para los intervalos de fechas principales y de comparación
 
 * **[!UICONTROL Cambio de porcentaje de resumen]** que muestra el aumento o la disminución de la métrica entre los intervalos de fechas principal y de comparación
 
@@ -23,7 +23,7 @@ La visualización [!UICONTROL Resumen de métricas clave] permite ver las tenden
 
 ## Casos prácticos
 
-Esta visualización aborda una variedad de casos de uso comunes, entre los que se incluyen:
+Esta visualización aborda varios casos de uso comunes, incluidos los siguientes:
 
 * Un analista que trata de entender qué aspecto tenía la creación de oportunidades este mes en comparación con el mismo periodo de tiempo del año pasado.
 
@@ -35,20 +35,27 @@ Esta visualización aborda una variedad de casos de uso comunes, entre los que s
 
 1. Arrastre la visualización **[!UICONTROL Resumen de métricas clave]** desde el menú **[!UICONTROL Visualizaciones]** del carril izquierdo a un panel.
 
-1. Configure la visualización seleccionando una métrica, un intervalo de fechas principal, un intervalo de fechas de comparación y un segmento (si lo desea):
-
    ![](assets/key-metric-config.png)
+
+1. Configure la visualización con las siguientes opciones:
 
    | Ajuste de configuración | Definición |
    | --- | --- |
    | **[!UICONTROL Métrica]** | Seleccione la métrica que desea examinar. Todas las métricas son compatibles. |
-   | **[!UICONTROL Intervalo de fechas principal]** | El intervalo de fechas actual para la tabla de forma libre. |
-   | **[!UICONTROL Intervalo de fechas de comparación]** | El intervalo de fechas con el que se desea comparar el intervalo de fechas principal. |
-   | **[!UICONTROL Segmento (opcional)]** | Cualquier segmento que le interese específicamente para este resumen. |
+   | **[!UICONTROL Intervalo de fechas principal]** | El intervalo de fechas actual para la tabla de forma libre.<p>Elija entre cualquier intervalo de fechas disponible en el grupo de informes.</p> <p>Elija [!UICONTROL **Intervalo de fechas del panel**] si desea utilizar el mismo intervalo de fechas que se está utilizando en el panel en el que se encuentra la visualización.</p> |
+   | **[!UICONTROL Intervalo de fechas de comparación]** | El intervalo de fechas que desea comparar con el intervalo de fechas principal. |
+   | **[!UICONTROL Segmento (opcional)]** | Cualquier segmento que le interese para este resumen. |
 
    {style="table-layout:auto"}
 
-1. Haga clic en **[!UICONTROL Generar]**.
+   >[!NOTE]
+   >
+   >Cuando el campo [!UICONTROL **Intervalo de fechas principal**] se establece en [!UICONTROL **Intervalo de fechas del panel**], el **[!UICONTROL Intervalo de fechas de comparación]** se puede actualizar automáticamente, dependiendo de si la opción **[!UICONTROL Intervalo de fechas de comparación]** que elija es relativa al intervalo de fechas principal o fija.
+   >
+   >* **Relativo:** Si el campo **[!UICONTROL Intervalo de fechas de comparación]** se establece en una opción relativa al intervalo de fechas principal (como [!UICONTROL **Día anterior**], [!UICONTROL **Mismo día la semana pasada**], [!UICONTROL **Mismo día cuatro semanas antes**], etc.), cualquier actualización del campo [!UICONTROL **Intervalo de fechas principal**] hará que el **[!UICONTROL Intervalo de fechas de comparación]** se actualice automáticamente al período que sigue inmediatamente al intervalo de fechas del panel.
+   >* **Fijo:** Si el campo [!UICONTROL **Intervalo de fechas de comparación**] está establecido en un intervalo de fechas fijo (como **3 de febrero de 2023**), los cambios realizados en el campo [!UICONTROL **Intervalo de fechas principal**] o en el intervalo de fechas del panel no tendrán ningún efecto en el [!UICONTROL **Intervalo de fechas de comparación**]. Sin embargo, cualquier actualización del intervalo de fechas del panel hace que [!UICONTROL **Intervalo de fechas principal**] se actualice automáticamente.
+
+1. Seleccione **[!UICONTROL Generar]**.
 
 ## Visualización del resultado
 
@@ -56,11 +63,11 @@ El resultado debería tener un aspecto similar al siguiente:
 
 ![](assets/key-metric-output.png)
 
-Tenga en cuenta:
+Tenga en cuenta lo siguiente al ver el resultado:
 
-* El gráfico de líneas **[!UICONTROL Período anterior]** (siempre mostrado en gris) corresponde al **[!UICONTROL Intervalo de fechas de comparación]** en el paso de configuración.
+* El gráfico de líneas **[!UICONTROL Periodo anterior]** (siempre mostrado en gris) corresponde al **[!UICONTROL Intervalo de fechas de comparación]** en el paso de configuración.
 
-* Si no se especifica un intervalo de fechas de comparación durante la configuración o está oculto en los ajustes de visualización, solo se muestra el gráfico de líneas del intervalo de fechas principal. El cambio de resumen estará oculto.
+* Si no se especifica un intervalo de fechas de comparación durante la configuración o está oculto en los ajustes de visualización, solo se muestra el gráfico de líneas del intervalo de fechas principal. El cambio de resumen está oculto.
 
 * Desde aquí, puede pasar el ratón por encima de los gráficos de líneas para ver las estadísticas de los días individuales:
 
@@ -78,12 +85,12 @@ El resumen de métricas clave ofrece varias configuraciones flexibles para mejor
 | **[!UICONTROL Enfatización del valor numérico]** | Mostrar el número de resumen en negrita destacado en el centro de la visualización |
 | **[!UICONTROL Leyenda visible]** | Mostrar u ocultar la leyenda en la parte inferior de la visualización |
 | **[!UICONTROL Mostrar anotaciones]** | Mostrar u ocultar anotaciones añadidas por un administrador |
-| **[!UICONTROL Mostrar minigráficos]** | Muestre u oculte gráficos de líneas en la parte inferior del gráfico. Cuando esté oculta, la leyenda cambiará para no hacer referencia visual a las líneas |
+| **[!UICONTROL Mostrar minigráficos]** | Muestre u oculte gráficos de líneas en la parte inferior del gráfico. Cuando está oculta, la leyenda cambia para no hacer referencia visual a las líneas |
 | **[!UICONTROL Mostrar mínimo y máximo en reflectores]** | Mostrar u ocultar valores mínimos y máximos en gráficos de líneas principales y de comparación |
 | **[!UICONTROL Mostrar comparación]** | Muestre u oculte los datos de comparación. Cuando están ocultos, el gráfico de líneas de comparación y los objetos de cambio de resumen no se ven. |
 | **[!UICONTROL Mostrar número total]** | Mostrar u ocultar el número de resumen |
 | **[!UICONTROL Mostrar diferencia en bruto]** | Mostrar u ocultar la diferencia en bruto entre el valor total de la métrica en el intervalo de fechas principal y el secundario |
-| **[!UICONTROL Valor abreviado]** | Abreviar los valores numéricos para simplificar las perspectivas comunicadas (por ejemplo, 20 000 -> 20K) |
+| **[!UICONTROL Valor abreviado]** | Abreviar los valores numéricos para simplificar las perspectivas comunicadas (por ejemplo, 20 000 -> 20K) |
 
 ## Edición de la visualización
 
