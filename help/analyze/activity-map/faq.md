@@ -4,9 +4,9 @@ description: Preguntas frecuentes relacionadas con el Activity Map.
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 64964972410911c2bea1460039def39b7c6dfa38
+source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1112'
 ht-degree: 15%
 
 ---
@@ -63,7 +63,7 @@ Activity Map es compatible con la última versión de la mayoría de los explora
 
 +++¿El Activity Map aumenta las llamadas al servidor?
 
-Activity Map no envía llamadas al servidor por sí solo. En su lugar, las variables de datos de contexto del Activity Map se incluyen con las llamadas de vista de páginas de Analytics en la página siguiente. Sin embargo, algunas versiones anteriores de Activity Map en el SDK web envían una llamada independiente para los datos del Activity Map. Si su versión del SDK web es la más reciente, los datos del Activity Map se combinan con el siguiente evento.
+Activity Map no envía llamadas al servidor por sí solo. En su lugar, las variables de datos de contexto del Activity Map se incluyen con las llamadas de vista de páginas de Analytics en la página siguiente. Sin embargo, algunas versiones anteriores de Activity Map en Web SDK envían una llamada independiente para los datos del Activity Map. Si su versión de Web SDK es la más reciente, los datos del Activity Map se combinan con el siguiente evento.
 
 +++
 
@@ -137,8 +137,8 @@ Sí. Sin embargo, debido a las limitaciones de los grupos de informes virtuales,
 
 El método para deshabilitar el Activity Map depende del tipo de implementación:
 
-* **Extensión del SDK web**: en las opciones de configuración de la extensión, desactive las casillas **[!UICONTROL Recopilar clics en vínculos internos]**, **[!UICONTROL Recopilar clics en vínculos externos]** y **[!UICONTROL Recopilar clics en vínculos de descarga]**.
-* **Biblioteca JavaScript de SDK web**: establezca [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) en `false`.
+* **Extensión de Web SDK**: en las opciones de configuración de la extensión, desactive las casillas **[!UICONTROL Recopilar clics en vínculos internos]**, **[!UICONTROL Recopilar clics en vínculos externos]** y **[!UICONTROL Recopilar clics en vínculos de descarga]**.
+* **Biblioteca JavaScript de Web SDK**: establezca [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) en `false`.
 * **Extensión de Analytics**: en las opciones de configuración de la extensión, anule la selección de la casilla **[!UICONTROL Usar Activity Map]**.
 * **AppMeasurement**: quite o comente el módulo del Activity Map en `AppMeasurement.js`, o sobrescriba la llamada a la función del módulo con un cuerpo vacío:
 
@@ -203,7 +203,11 @@ A continuación se muestran algunos ejemplos en los que Activity Map tiene toda 
 
 +++¿Cuáles son algunos ejemplos de vínculos que Activity Map NO rastrea automáticamente?
 
-Los siguientes son algunos ejemplos en los que Activity Map no realiza un seguimiento de los clics.
+* La etiqueta de anclaje no tiene un `href` válido
+* No están presentes los métodos [`s_objectID`](/help/implement/vars/page-vars/s-objectid.md) o [`tl()`](/help/implement/vars/functions/tl-method.md)
+* Falta la propiedad `src` en un elemento de entrada de formulario
+
+Los siguientes son algunos ejemplos en los que Activity Map no realiza un seguimiento de los clics:
 
 ```html
 <!-- Anchor tag does not have a valid href -->

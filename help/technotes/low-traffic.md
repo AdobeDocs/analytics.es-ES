@@ -3,10 +3,10 @@ description: Cuando un informe tiene muchos valores únicos, Adobe utiliza el el
 title: Valor de poco tráfico en Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
+source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
@@ -16,14 +16,14 @@ Cuando un informe contiene varios valores únicos, una funcionalidad incluida en
 
 ## Funcionamiento de [!UICONTROL Poco tráfico]
 
-* Adobe Analytics utiliza dos umbrales para determinar qué valores únicos se muestran en los informes cada mes: un **[!UICONTROL umbral bajo]** y un **[!UICONTROL umbral alto]**. Adobe puede ajustar estos umbrales periódicamente. Los límites de umbral actuales son:
-   *  **[!UICONTROL Umbral bajo]**: >2 000 000 valores únicos durante el mes.
-   * **[!UICONTROL Umbral alto]**: >2 100 000 de valores únicos durante el mes.
-* La creación de informes no se ve afectada si la variable no alcanza el umbral bajo en un mes determinado.
-* Cuando una variable alcanza el umbral bajo, los datos comienzan a agruparse en bloques de [!UICONTROL poco tráfico]. Todos los valores que superan este umbral se rigen por la siguiente lógica:
+* Adobe Analytics utiliza dos umbrales para determinar qué valores únicos se muestran en los informes cada mes: un **[!UICONTROL umbral bajo]** y un **[!UICONTROL umbral alto]**. Estos umbrales se pueden ajustar por Adobe de vez en cuando. Los límites de umbral actuales son:
+   * **[!UICONTROL Umbral bajo]**: 2 000 000 de valores únicos durante el mes.
+   * **[!UICONTROL Umbral alto]**: 2 100 000 valores únicos durante el mes.
+* La creación de informes no se ve afectada si una variable no alcanza el umbral bajo en un mes determinado.
+* Cuando una variable alcanza el umbral bajo, los datos comienzan a agruparse en bloques en un elemento de dimensión etiquetado como [!UICONTROL Poco tráfico]. Todos los valores que superan este umbral se rigen por la siguiente lógica:
    * Si un valor ya figura en los informes, añádalo como de costumbre.
-   * Si un valor aún no aparece en los informes, inicialmente se agrupará en el elemento de dimensión [!UICONTROL Poco tráfico]. 
-   * Si un valor que está agrupado en [!UICONTROL Poco tráfico] recibe una afluencia de tráfico (normalmente instancias de dos dígitos en un solo día), comienza a reconocerse como su propio elemento de dimensión. Las instancias recopiladas antes de alcanzar el umbral permanecen como [!UICONTROL Poco tráfico]. El punto exacto en el que el elemento de dimensión empieza a mostrarse en los informes tiene muchas dependencias, como el número de servidores que procesan datos para el grupo de informes y la cantidad de tiempo entre cada instancia de elemento de dimensión.
+   * Si un valor aún no aparece en los informes, agréguelo inicialmente al elemento de dimensión [!UICONTROL Poco tráfico].
+   * Si un valor agrupado en [!UICONTROL Poco tráfico] recibe un flujo de tráfico (normalmente instancias de dígitos dobles en un solo día), reconózcalo como su propio elemento de dimensión. Las instancias recopiladas antes de la entrada de tráfico permanecen en [!UICONTROL Poco tráfico]. El punto exacto en el que el elemento de dimensión empieza a mostrarse en los informes tiene muchas dependencias, como el número de servidores que procesan datos para el grupo de informes y la cantidad de tiempo entre cada instancia de elemento de dimensión.
 * Si una variable alcanza el umbral alto, se aplica un filtrado más agresivo. Los valores únicos requieren instancias de tres dígitos en un solo día antes de reconocerse como su propio elemento de dimensión.
 
 Esta lógica permite a Adobe optimizar las capacidades de creación de informes al tiempo que permite a la organización crear informes sobre los elementos de dimensión cruciales recopilados más adelante en el mes. Por ejemplo, si su organización ejecuta un sitio con millones de artículos y un nuevo artículo se vuelve popular hacia el final del mes (después de superar ambos umbrales únicos), aún puede analizar el rendimiento de ese artículo sin que se agrupe bajo [!UICONTROL Poco tráfico]. La lógica no pretende desagrupar todo lo que recibe un determinado número de visitas de página al día o al mes.
@@ -31,7 +31,7 @@ Esta lógica permite a Adobe optimizar las capacidades de creación de informes 
 >[!NOTE]
 >La dimensión [Página](../components/dimensions/page.md) utiliza varias columnas de back-end, y todas cuentan hacia umbrales únicos, como `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`, y `click_context`. Estas columnas back-end pueden causar que la lógica [!UICONTROL Poco tráfico] se aplique mucho antes de que el número de elementos de dimensión de página únicos en Workspace alcance el umbral bajo.
 
-Tenga en cuenta que la lógica de poco tráfico descrita anteriormente funciona mejor con variables que tienen elementos de dimensión que se repiten muchas veces durante el mes. Si los elementos de dimensión de una variable son casi o totalmente únicos en cada visita, la variable alcanzará el umbral bajo rápidamente y todos los nuevos elementos de dimensión del mes terminarán en el bloque de poco tráfico.
+Tenga en cuenta que la lógica de poco tráfico funciona mejor con variables que tienen elementos de dimensión que se repiten muchas veces durante el mes. Si los elementos de dimensión de una variable son casi o totalmente únicos en cada visita, el número de valores únicos de la variable alcanza ambos umbrales rápidamente y todos los elementos de dimensión subsiguientes del mes terminan en el bloque de poco tráfico.
 
 ## Cambio de los umbrales de límite único
 

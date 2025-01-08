@@ -4,10 +4,10 @@ description: Cómo los diferentes tipos de atribución dividen el crédito entre
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: e18fde22f4ec60b292f47112e51fad8a0d78acb2
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 100%
+source-wordcount: '1602'
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 
 * **Ventana retrospectiva de visitantes:** Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Las ventanas retrospectivas de visitantes son amplias, ya que pueden abarcar muchas visitas. La ventana retrospectiva de visitantes tiene en cuenta todos los valores desde el comienzo del mes del intervalo de fechas del informe. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de visitante sería del 1 de septiembre al 30 de septiembre.
 
-* **Ventana retrospectiva personalizada:** Permite expandir la ventana de atribución más allá del intervalo de fechas de la creación de informes hasta un máximo de 90 días. Las ventanas retrospectivas personalizadas se evalúan en cada conversión del periodo del sistema de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de la dimensión del 10 al 20 de febrero en el modelo de atribución.
+* **Ventana retrospectiva personalizada:** Permite expandir la ventana de atribución más allá del intervalo de fechas de la creación de informes hasta un máximo de 90 días. Las ventanas retrospectivas personalizadas se evalúan en cada conversión del periodo del sistema de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de la dimensión del 10 de febrero al 20 de febrero en el modelo de atribución.
 
   Este es un vídeo sobre ventanas retrospectivas personalizadas:
 
@@ -76,6 +76,7 @@ Según la ventana retrospectiva y el modelo de atribución, los canales reciben 
       * Correo electrónico: 33,8 % 16,88 dólares
       * Medio social: 18,6 %, 9,32 dólares
       * Búsqueda de pago: 13,8 %, 6,92 dólares
+* Con **participación** y una **ventana retrospectiva de visitantes**, los $50 completos se atribuyen a la búsqueda de pago, el medio social, el correo electrónico y la visualización. Si ve los ingresos como un informe de tendencias en lugar de como un informe de clasificación, verá 50 $ cada día que el visitante toque un canal de marketing determinado.
 
 >[!TIP]
 >
