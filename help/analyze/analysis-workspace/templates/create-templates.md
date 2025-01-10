@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
+source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 6%
+source-wordcount: '691'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,6 @@ Para crear una nueva plantilla que puedan utilizar los usuarios de su empresa de
    | **[!UICONTROL Nombre]** | Proporcione un nombre descriptivo para la plantilla. |
    | **[!UICONTROL Descripción]** | Proporcione una breve descripción para la plantilla que describa sus usos previstos. |
    | **[!UICONTROL Por qué usar esta plantilla]** | Proporcione una breve explicación para informar a los miembros de la organización sobre cómo se puede utilizar esta plantilla. Esta explicación se muestra en la página Vista previa de la plantilla. |
-   | **[!UICONTROL Canales]** | Elija cualquier canal aplicable que se aplique a esta plantilla. Puede seleccionar varios canales: **[!UICONTROL web]**, **[!UICONTROL móvil]**, **[!UICONTROL canal cruzado]**, **[!UICONTROL centro de llamadas]** y **[!UICONTROL en tienda]**.<p>Las selecciones que elija determinan dónde se muestra la plantilla y qué filtros se aplican a los usuarios que acceden a ella desde la página Plantillas de Organización.</p> |
    | **[!UICONTROL Casos de uso]** | Elija cualquier caso de uso que se aplique a esta plantilla. Puede seleccionar varios casos de uso: **[!UICONTROL participación]**, **[!UICONTROL conversión]**, **[!UICONTROL audiencia]** y **[!UICONTROL adquisición]**. <p>Las selecciones que elija determinan dónde se muestra la plantilla y qué filtros se aplican a los usuarios que acceden a ella desde la página Plantillas de Organización.</p> |
    | **[!UICONTROL Etiquetas]** | Especifique las etiquetas que desee aplicar a la plantilla. Las personas pueden filtrar la lista de plantillas según las etiquetas que agregue. |
 
@@ -44,7 +43,7 @@ Para crear una nueva plantilla que puedan utilizar los usuarios de su empresa de
 
 Para obtener información sobre cómo los usuarios pueden crear un proyecto basado en una plantilla, consulte [Crear un proyecto basado en una plantilla](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) en [Usar plantillas](/help/analyze/analysis-workspace/templates/use-templates.md).
 
-## Editar o eliminar plantillas
+## Editar o eliminar una plantilla
 
 Los administradores pueden editar o eliminar las plantillas de empresa.
 
@@ -71,6 +70,22 @@ Los administradores pueden editar o eliminar las plantillas de empresa.
    1. Seleccione el icono Más y luego seleccione **[!UICONTROL Editar]** o **[!UICONTROL Eliminar]**.
 
       ![Editar o eliminar tarjeta de plantilla de compañía](assets/company-template-card-edit-delete.png)
+
+1. Si está editando una plantilla, realice las modificaciones que desee y luego seleccione [!UICONTROL **Proyecto**] > **[!UICONTROL Guardar como plantilla...]**.
+
+   ![Plantilla de la compañía](assets/company-template-save.png)
+
+1. Especifique la siguiente información en el cuadro de diálogo [!UICONTROL Guardar como plantilla]:
+
+   | Campo | Descripción |
+   |---------|----------|
+   | **[!UICONTROL Nombre]** | Proporcione un nombre descriptivo para la plantilla. |
+   | **[!UICONTROL Descripción]** | Proporcione una breve descripción para la plantilla que describa sus usos previstos. |
+   | **[!UICONTROL Por qué usar esta plantilla]** | Proporcione una breve explicación para informar a los miembros de la organización sobre cómo se puede utilizar esta plantilla. Esta explicación se muestra en la página Vista previa de la plantilla. |
+   | **[!UICONTROL Casos de uso]** | Elija cualquier caso de uso que se aplique a esta plantilla. Puede seleccionar varios casos de uso: **[!UICONTROL participación]**, **[!UICONTROL conversión]**, **[!UICONTROL audiencia]** y **[!UICONTROL adquisición]**. <p>Las selecciones que elija determinan dónde se muestra la plantilla y qué filtros se aplican a los usuarios que acceden a ella desde la página Plantillas de Organización.</p> |
+   | **[!UICONTROL Etiquetas]** | Especifique las etiquetas que desee aplicar a la plantilla. Las personas pueden filtrar la lista de plantillas según las etiquetas que agregue. |
+
+1. Seleccione [!UICONTROL **Guardar como plantilla**].
 
 ## Cambiar nombre, etiquetar o aprobar plantillas
 
