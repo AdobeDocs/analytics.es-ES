@@ -4,14 +4,32 @@ title: Gráfico de viñetas
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 4e230320dbda7bc626a04a9f9ec9cac438c8dba7
+source-git-commit: 7f84679a0d1c9cf1609bf8e01e0209936215d7ff
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '159'
 ht-degree: 100%
 
 ---
 
-# Gráfico de viñetas
+# Gráfico de viñetas {#bullet-graph}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bullet_goalvalue"
+>title="Valor de meta"
+>abstract="**[!UICONTROL Meta alta]** es el objetivo principal que busca. **[!UICONTROL Meta baja]** y **[!UICONTROL Meta media]** crean intervalos por debajo de la [!UICONTROL Meta alta]. Nota: Cuando la opción **[!UICONTROL Porcentajes]** esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bullet_button"
+>title="Viñeta"
+>abstract="Cree una visualización de gráfico de viñetas para mostrar cómo se compara una métrica con intervalos de rendimiento (objetivos) o se compara con ellos."
+
+<!-- markdownlint-enable MD034 -->
 
 Le permite ver cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos).
 
