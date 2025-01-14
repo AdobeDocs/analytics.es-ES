@@ -3,13 +3,11 @@ description: Información general sobre el uso de los informes predeterminados e
 title: Uso de informes
 feature: Analysis Workspace
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 5%
+source-wordcount: '720'
+ht-degree: 6%
 
 ---
 
@@ -118,3 +116,10 @@ Los administradores pueden cambiar el nombre, etiquetar y aprobar plantillas de 
 Al igual que con las plantillas que proporciona el Adobe, los usuarios de la organización pueden acceder a las plantillas que crean los administradores.
 
 Para obtener información sobre cómo obtener acceso a una plantilla de empresa, vea [Obtener acceso y ejecutar una plantilla](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) en [Usar plantillas](/help/analyze/analysis-workspace/templates/use-templates.md).
+
+## Ocultar la pestaña Plantillas {#hide-reports}
+
+Los administradores pueden ocultar la pestaña Plantillas para todos los usuarios de su organización.
+
+1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Preferencias]** > **[!UICONTROL Compañía]**.
+1. Seleccione la opción para **[!UICONTROL Ocultar ficha de plantillas]**.

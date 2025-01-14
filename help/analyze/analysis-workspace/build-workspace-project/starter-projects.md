@@ -4,22 +4,19 @@ title: Plantillas
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: '42'
+ht-degree: 33%
 
 ---
 
-# Plantillas (*ahora llamadas Informes*)
+# Plantillas
 
-Las plantillas ya no se usan como término para los proyectos de Workspace generados previamente. Los informes hacen referencia a todo lo que haya generado previamente Adobe, como los informes de Reports &amp; Analytics (que han llegado al final de su vida útil) y los informes generados previamente en Workspace. Sin embargo, el término *plantillas* se utiliza a veces para referirse a plantillas o informes creados por su compañía. Las plantillas personalizadas se conocen como *informes de compañía personalizados*.
+Las plantillas (o plantillas de empresa) de Analysis Workspace proporcionan una visión rápida de los escenarios más comunes de creación de informes.
 
-Para obtener información sobre la creación de informes de Workspace y la creación de informes de compañía personalizados, consulte la siguiente documentación:
+Para obtener información sobre el uso de plantillas en Adobe Analytics, consulte los siguientes recursos:
 
-| Tarea | Vínculo |
-|---|---| 
-| Obtener más información sobre la página de inicio del gestor de proyectos y el menú Informes actualizado | [Página de aterrizaje de Adobe Analytics](/help/analyze/landing.md) |
-| Creación de un informe de la compañía personalizado | [Creación y administración de informes de compañía](/help/analyze/analysis-workspace/reports/create-company-reports.md) |
-| Ver una lista de informes generados previamente o encontrar la ubicación de las plantillas (ahora denominados *Informes*) | [Uso de informes generados previamente](/help/analyze/analysis-workspace/reports/use-reports.md) |
-| Aprender a navegar por la pestaña Informes | [Ir a la pestaña Informes](/help/analyze/landing.md#navigate-reports) |
+* [Uso de plantillas](/help/analyze/analysis-workspace/templates/use-templates.md)
+
+* [Creación y administración de plantillas](/help/analyze/analysis-workspace/templates/create-templates.md)
