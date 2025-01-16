@@ -4,122 +4,204 @@ title: Resumen de paneles
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: aacba26d0eb612146a9e0bf6386f9e755a9e8f07
+source-git-commit: 90516181b5d5dd8aa3a8c01515ffa05f43b081f2
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 54%
+source-wordcount: '2156'
+ht-degree: 57%
 
 ---
 
 # Resumen de paneles
 
-Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles en el icono de la parte superior izquierda de Workspace o desde un [panel en blanco](blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, grupos de informes o casos de uso de análisis.
+Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acceder a los paneles en el icono de la parte superior izquierda de Workspace o desde un [panel en blanco](/help/analyze/analysis-workspace/c-panels/blank-panel.md). Los paneles son útiles cuando desea organizar sus proyectos según períodos de tiempo, grupos de informes o casos de uso de análisis.
 
 ## Tipos de panel
 
-A continuación, se describen los tipos de paneles que están disponibles en Analysis Workspace:
+Los siguientes tipos de panel están disponibles en Analysis Workspace para [!UICONTROL Customer Journey Analytics]:
 
 | Nombre del panel | Descripción |
 | --- | --- |
-| [Panel en blanco](blank-panel.md) | Elija entre los paneles y las visualizaciones disponibles para iniciar el análisis. |
-| [Panel de información rápida](quickinsight.md) | Cree rápidamente una tabla de forma libre y una visualización complementaria para analizar y descubrir información de manera más rápida. |
-| [Panel de Analytics for Target](a4t-panel.md) | Analizar actividades y experiencias de Target en Analysis Workspace. |
-| [Panel de Attribution](attribution.md) | Compare y visualice rápidamente los modelos de atribución utilizando cualquier dimensión y métrica de conversión. |
-| [Panel de forma libre](freeform-panel.md) | Realice comparaciones y desgloses ilimitados y, a continuación, añada visualizaciones para contar una historia de datos enriquecida. |
-| [Panel de Audiencia promedio por minuto de medios](average-minute-audience-panel.md) | Analice la audiencia promedio por minuto a lo largo del tiempo, con detalles sobre los picos de visualizaciones y la capacidad de desglosar datos y compararlos. |
-| [Panel de visualizadores simultáneos de medios](media-concurrent-viewers.md) | Analice los visualizadores simultáneos a lo largo del tiempo, con detalles sobre la frecuencia máxima de acceso y la capacidad de desglosar datos y compararlos. |
-| [Panel Tiempo invertido en la reproducción de medios](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analice los visualizadores simultáneos a lo largo del tiempo, con detalles sobre la frecuencia máxima de acceso y la capacidad de desglosar datos y compararlos. |
-| [panel de comparación de segmentos](c-segment-comparison/segment-comparison.md) | Compare rápidamente dos segmentos en todos los puntos de datos para encontrar automáticamente diferencias relevantes. |
+| [Panel en blanco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) | Elija entre los paneles y las visualizaciones disponibles para iniciar el análisis. |
+| [Atribución](attribution.md) | Compare y visualice rápidamente los modelos de atribución utilizando cualquier dimensión y métrica de conversión. |
+| [Analytics for Target](a4t-panel.md) | Analizar actividades y experiencias de Target en Analysis Workspace. |
+| [Freeform](freeform-panel.md) | Realice comparaciones y desgloses ilimitados y, a continuación, añada visualizaciones para contar una historia de datos enriquecida. |
+| [Audiencia media por minuto de medios](average-minute-audience-panel.md) | Analizar audiencia media por minuto para un fragmento de contenido específico o durante un período de tiempo personalizado. |
+| [Espectadores simultáneos de medios ](media-concurrent-viewers.md) | Analice los visualizadores simultáneos a lo largo del tiempo, con detalles sobre la frecuencia máxima de acceso y la capacidad de desglosar datos y compararlos. |
+| [Tiempo invertido en la reproducción de contenido](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analiza el tiempo invertido en la reproducción para comprender dónde se produjo el pico de concurrencia o dónde se produjeron los descensos. |
+| [Elemento siguiente o anterior](next-previous.md) | Mostrar las páginas siguientes o anteriores a las que se dirigen los usuarios. |
+| [Información rápida](quickinsight.md) | Crea rápidamente una tabla de forma libre y una visualización complementaria para analizar y descubrir información de manera más rápida. |
+| [Comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) | Compare rápidamente dos segmentos en todos los puntos de datos para encontrar automáticamente diferencias relevantes. |
 
-![](assets/panel-overview.png)
 
-Los paneles [!UICONTROL Quick Insights], [!UICONTROL En blanco] y [!UICONTROL Forma libre] son excelentes puntos de partida para el análisis, mientras que [!UICONTROL Analytics for Target], [!UICONTROL Atribución], [!UICONTROL Visualizadores simultáneos de medios] y [!UICONTROL Comparación de segmentos] se prestan a análisis más avanzados. Hay un botón `"+"` disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
+Los paneles [!UICONTROL Información rápida], [!UICONTROL En blanco] y [!UICONTROL Forma libre] son buenos lugares para iniciar el análisis, mientras que[!UICONTROL Atribución] se presta para análisis más avanzados. Hay un ![AddCircle](/help/assets/icons/AddCircle.svg) disponible en la parte inferior del lienzo, para que puedas agregar paneles en blanco en cualquier momento.
 
-El panel inicial predeterminado es [!UICONTROL Forma libre], pero también puede convertir el [Panel en blanco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) en el panel predeterminado.
+El panel inicial predeterminado es [!UICONTROL Forma libre], pero también puede convertir el [Panel en blanco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) o en [Información rápida](/help/analyze/analysis-workspace/c-panels/quickinsight.md) predeterminado. Ver [preferencias de proyectos y análisis](/help/analyze/analysis-workspace/user-preferences.md#projects--analyses-preferences).
 
-## Grupo de informes {#report-suite}
 
-Las tablas y visualizaciones de un panel derivan datos del [!UICONTROL grupo de informes] seleccionado en la parte superior derecha del panel. El grupo de informes también determina qué componentes están disponibles en el carril izquierdo. Dentro de un proyecto, puede utilizar uno o [varios grupos de informes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=es) en función de los casos de uso del análisis. Para aplicar un solo grupo de informes a todos los paneles de un proyecto, **haga clic con el botón derecho en el encabezado del panel > Aplicar grupo de informes a todos los paneles**.
+## Crear un panel
+
+Para crear un panel:
+
+* Arrastra y suelta un panel del panel izquierdo **[!UICONTROL Paneles]** al lienzo.
+* Selecciona un panel del [panel en blanco](blank-panel.md).
+* Usa el menú **[!UICONTROL Insertar]** en Workspace y selecciona el panel. También puedes usar cualquiera de los [métodos abreviados](../build-workspace-project/fa-shortcut-keys.md) para insertar un panel.
+
+  ![Crear un panel](assets/create-panel.png)
+
+Puedes realizar lo siguiente:
+
+* Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) **en** cualquier panel para agregar otra visualización. Aparece una ventana emergente que te permite seleccionar una visualización.
+
+  ![Imagen emergente que muestra posibles visualizaciones](assets/blank-panel.png)
+
+  | Seleccionar… | Para crear un filtro: |
+  |---|---|
+  | ![Tabla](/help/assets/icons/Table.svg) | [Tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
+  | ![Líneas](/help/assets/icons/GraphTrend.svg) | [Líneas](/help/analyze/analysis-workspace/visualizations/line.md) |
+  | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barra](/help//analyze/analysis-workspace/visualizations/bar.md) |
+  | ![123](/help/assets/icons/123.svg) | [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![Texto](/help/assets/icons/Text.svg) | [Texto](/help/analyze/analysis-workspace/visualizations/text.md) |
+  | ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg) | [Visita en orden previsto](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) |
+  | ![Flujo de trabajo](/help/assets/icons/GraphPathing.svg) | [Flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
+  | ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) | [Area stacked](/help/analyze/analysis-workspace/visualizations/area.md) |
+  | ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [Tabla de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
+  | ![GraphBullet](/help/assets/icons/GraphBullet.svg) | [Bullet](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) |
+  | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [Anillo](/help/analyze/analysis-workspace/visualizations/donut.md) |
+  | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [Cambio de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![Histograma](/help/assets/icons/Histogram.svg) | [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md) |
+  | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [Dispersión](/help/analyze/analysis-workspace/visualizations/scatterplot.md) |
+  | ![Tipo](/help/assets/icons/TwoDots.svg) | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) |
+  | ![GraphTree](/help/assets/icons/GraphTree.svg) | [Gráfico de rectángulos](/help/analyze/analysis-workspace/visualizations/treemap.md) |
+
+* Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) **fuera** del último panel del área de trabajo para agregar otro [panel en blanco](blank-panel.md).
+
+
+## Grupo de informes
+
+Cada panel está asociado con un [grupo de informes](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificado por ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL *nombre del grupo de informes *]**en el menú desplegable de la parte superior derecha del panel.
+
+Al crear un panel nuevo, el grupo de informes predeterminado se basa en el grupo de informes del panel en el que trabajó por última vez en el proyecto de Analysis Workspace.
+
+Dentro de un proyecto, puede usar uno o [muchos grupos de informes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=es) según los casos de uso del análisis.
 
 La lista de los grupos de informes se ordena según la relevancia que Adobe define en función de la frecuencia y la antigüedad de utilización del grupo por parte del usuario, así como de la frecuencia con que se usa en la organización.
 
 ![](assets/panel-report-suite.png)
 
-## Calendario {#calendar}
+>[!IMPORTANT]
+>
+>El grupo de informes seleccionado determina qué dimensiones, métricas y segmentos están disponibles para crear visualizaciones en un panel.
+>
+>
+>Al cambiar un grupo de informes por un panel, es posible que algunos de los componentes no estén disponibles en ese nuevo grupo de informes. Este cambio puede provocar que la visualización no se represente correctamente. Puedes ver advertencias como las siguientes:
+>
+>* Este panel contiene componentes que no están habilitados en el grupo de informes seleccionado. Cambie el grupo de informes o active los componentes necesarios.
+>* No se puede procesar la visualización: comprueba las columnas y filas para asegurarte de que contienen componentes válidos.
+>
+
+## Calendario
 
 El calendario del panel controla el intervalo de la creación de informes de las tablas y visualizaciones de un panel.
 
 >[!NOTE]
->Si se utiliza un componente de intervalo de fecha (púrpura) en una tabla, una visualización o en la zona de colocación del panel, se anula el calendario del panel.
+>
+>Si se usa un componente de intervalo de fechas ![Calendario](/help/assets/icons/Calendar.svg) en una visualización o panel (por ejemplo, como segmento), el componente de intervalo de fechas anula el calendario del panel.
+>
 
-![](assets/panel-calendar.png)
 
-Puede aplicar un intervalo de fechas de nivel de minuto bajo la configuración avanzada del calendario del panel. Si realiza informes en un intervalo de fechas que abarca muchos días, la hora de inicio se aplica al primer día y la hora de finalización se aplica al último día del intervalo.
+![La ventana del calendario que muestra el intervalo de fechas seleccionado.](assets/panel-calendar.png)
+
+1. Selecciona un intervalo de fechas seleccionando primero la fecha de inicio y, a continuación, la fecha de finalización.
+También puedes seleccionar un **[!UICONTROL ajuste preestablecido]** en el menú desplegable [!UICONTROL *Seleccionar un ajuste preestablecido*].
+
+1. De manera opcional, selecciona **[!UICONTROL Mostrar configuración avanzada]** para:
+
+   * Especifica **[!UICONTROL Hora de inicio]** y **[!UICONTROL Hora de finalización]** distintas de las `12:00 AM` (`0:00`) y `11:59 PM` (`23:59`) predeterminadas. Los tiempos de finalización siempre incluyen 59 segundos. Para un intervalo de fechas que abarca muchos días, la hora de inicio se aplica al primer día del intervalo de fechas y la hora de finalización se aplica al último día del intervalo de fechas. Usa **[!UICONTROL (Restablecer valores de tiempo)]** para restablecer los valores predeterminados de las horas de inicio y finalización.
+   * **[!UICONTROL Hacer que los componentes del intervalo de fecha sean relativos al calendario del panel]**. Si está desactivado, los componentes de intervalo de fechas utilizados en el panel son relativos a la hora actual. Si está habilitado, los componentes de intervalo de fechas utilizados en el panel están relacionados con el calendario del panel.
+   * **[!UICONTROL Usar fechas móviles]**. Si se habilita, los intervalos de fechas preestablecidos como **[!UICONTROL últimos 7 días completos]** se actualizarán dinámicamente como progreso de fecha y hora actual. Si está desactivado, estos ajustes preestablecidos no se actualizan una vez aplicados.
+
+     ![Fechas móviles](assets/calendar-rolling.png)
+
+     Puedes seleccionar el texto entre corchetes (por ejemplo **[!UICONTROL inicio fijo - desplazamiento diario]**) para ampliar el panel y especificar detalles para **[!UICONTROL Inicio]** y **[!UICONTROL Fin]**.
+
+      1. Selecciona **[!UICONTROL Inicio de]**, **[!UICONTROL Fin de]** o **[!UICONTROL Día fijo]**.
+      1. Cuando hayas seleccionado **[!UICONTROL Inicio de]** o **[!UICONTROL Final de]**, puedes generar una expresión completa. Por ejemplo: **[!UICONTROL Fin de]** **[!UICONTROL año actual]** **[!UICONTROL más]** `1` **[!UICONTROL día]**. Elige el valor apropiado para cada parte individual de la expresión.
+         * Selecciona valor para actual. Por ejemplo, **[!UICONTROL año actual]**.
+         * Selecciona un valor para realizar cálculos adicionales. Por ejemplo, **[!UICONTROL plus]**.
+         * Cuando hayas especificado un cálculo adicional, especifica un valor. Por ejemplo `1`.
+         * Cuando hayas especificado un cálculo adicional, selecciona el período de tiempo que deseas utilizar para el cálculo. Por ejemplo, **[!UICONTROL día]**.
+
+     Selecciona **[!UICONTROL Ocultar detalles]** para ocultar los detalles del cálculo de fechas móviles.
+
+1. Selecciona **[!UICONTROL Aplicar]** para aplicar el intervalo de fechas al panel desde el que se invocó el calendario.
+Selecciona **[!UICONTROL Aplicar a todos los paneles]** para aplicar el intervalo de fechas a todos los paneles del proyecto de Workspace.
+
 
 ## Zona de colocación {#dropzone}
 
-La zona de colocación del panel permite aplicar filtros de segmentos y desplegables a todas las tablas y visualizaciones dentro de un panel. Puede aplicar uno o varios filtros a un panel. 
+La zona de colocación del panel permite aplicar segmentos y segmentos desplegables a todas las tablas y visualizaciones dentro de un panel. Puede aplicar uno o varios segmentos a un panel.
 
-### Filtros de segmentos
+### Segmentos 
 
-Arrastre y suelte cualquier segmento del carril izquierdo en la zona desplegable del panel para empezar a filtrar el panel. Repita este proceso para agregar filtros adicionales al panel. Los filtros aparecen uno al lado del otro en la parte superior del panel.
+Arrastre y suelte cualquier segmento del panel izquierdo en la zona desplegable del panel para empezar a segmentar el panel. Repita este proceso para agregar segmentos adicionales al panel. Los segmentos aparecen uno al lado del otro en la parte superior del panel.
 
-![Filtro](assets/segment-filter.png)
+![El panel izquierdo muestra las métricas disponibles y la métrica Cliente móvil arrastrada a la zona de colocación del panel.](assets/segment-filter.png)
 
-### Filtros de segmentos ad hoc
+#### Segmentos rápidos
 
-Los componentes que no son segmentos también se pueden arrastrar directamente a la zona de colocación para crear segmentos específicos, lo que le ahorrará el tiempo y el tener que utilizar el Generador de segmentos. Los segmentos creados de esta manera se definen automáticamente como segmentos de nivel de visita individual. Puede modificar esta definición haciendo clic en el icono de información (i) junto al segmento, seleccionando el icono de edición con forma de lápiz y editándola en el Generador de segmentos.
+Los componentes que no son segmentos también se pueden arrastrar directamente a la zona de colocación para crear segmentos rápidos, lo que le ahorrará el tiempo y el tener que utilizar el [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md). Los segmentos creados de esta manera se definen automáticamente como segmentos de nivel de evento. Esta definición se puede modificar rápidamente seleccionando ![Editar](/help/assets/icons/Edit.svg) junto al nombre del segmento.
 
-Los segmentos ad hoc son un tipo de segmento rápido y son locales del proyecto. No aparecen en el carril izquierdo a menos que las haga públicas.
+<!-- For more information, see [Quick segments](/help/components/segmentation/). -->
 
-Para obtener más información, consulte [Segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+![Segmentos ad hoc que se hacen públicos y se colocan en la zona de colocación.](assets/adhoc-segment-filter.png)
 
-### Segmentos desplegables estáticos
+### Segmentos desplegables
+
++++ Vea un vídeo que explica los segmentos desplegables.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23877?format=jpeg)
+
++++
+
+#### Segmentos desplegables estáticos
 
 Los segmentos desplegables estáticos permiten interactuar con los datos de forma controlada. Por ejemplo, puede agregar un segmento desplegable para tipos de dispositivos móviles para poder segmentar el panel por dispositivos de tableta, teléfonos móviles o equipos de escritorio.
 
 Los segmentos desplegables estáticos también se pueden utilizar para consolidar muchos proyectos en uno. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes segmentos de país aplicados, puede consolidar todas las versiones en un único proyecto y añadir un segmento desplegable de país.
 
-![](assets/dropdown-filter-intro.png)
+![Segmentos desplegables estáticos que muestran el filtro &quot;Directo&quot; de Market Channel resaltado. ](assets/dropdown-filter-intro.png)
 
-#### Creación de segmentos desplegables estáticos
+##### Creación de segmentos desplegables estáticos
 
-* Para los segmentos desplegables que utilizan elementos de dimensión, seleccione una sola dimensión del carril izquierdo y suéltela en la zona desplegable del panel **mientras mantiene presionada`[Shift]`**. Esto crea un segmento desplegable con todos los elementos de dimensión asociados a esa dimensión.
+* Para segmentos desplegables que utilizan elementos de dimensión, seleccione una sola dimensión del panel izquierdo y suelte la dimensión en la zona de colocación del panel mientras mantiene ⇧ (*shift*). Esta acción crea un segmento desplegable con todos los elementos de dimensión asociados a esa dimensión.
 
-  O bien, si desea que el segmento desplegable incluya solo elementos de dimensión específicos asociados a una dimensión, haga clic en el icono de flecha derecha situado junto a la dimensión deseada en el carril izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Seleccione varios elementos de dimensión de esta lista utilizando `[Shift + Click]` o `[Ctrl + Click]`; a continuación, suéltelos en la zona desplegable del panel **mientras mantiene pulsado** `[Shift]`.
+  O bien, si desea que el segmento desplegable incluya solo elementos de dimensión específicos asociados a una dimensión, seleccione el icono de flecha derecha junto a la dimensión deseada en el panel izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Selecciona varios elementos de dimensión de esta lista usando ⇧+![Select](/help/assets/icons/Select.svg) (*shift* + *select*) o ^+![Select](/help/assets/icons/Select.svg) (*control* + *select*) y, a continuación, suéltalos en la zona de colocación del panel **mientras mantienes presionado** ⇧.
 
-* Para los segmentos desplegables que utilizan un solo tipo de componente (por ejemplo, solo dimensiones, o solo segmentos o solo métricas), seleccione varios elementos del mismo tipo en el carril izquierdo con `[Shift + Click]` o `[Ctrl + Click]` y, a continuación, suéltelos en la zona desplegable del panel **mientras mantiene presionado`[Shift]`**.
+* Para segmentos desplegables que utilizan un solo tipo de componente (por ejemplo, solo dimensiones, o solo segmentos o solo métricas), seleccione varios elementos del mismo tipo en el panel izquierdo con ⇧+![Select](/help/assets/icons/Select.svg) o ^+![Select](/help/assets/icons/Select.svg). A continuación, suelta los elementos en la zona de colocación del panel **mientras mantienes** ⇧.
 
   Se crea un único segmento desplegable con los componentes seleccionados.
 
-* Para segmentos desplegables que utilizan una combinación de tipos de componentes (como 2 métricas y 3 filtros), seleccione varios componentes con `[Shift + Click]` o `[Ctrl + Click]`. Coloque la selección en la zona desplegable del panel **mientras mantiene pulsado`[Shift]`**. En este contexto, todos los tipos de componentes se tratan como segmentos desplegables independientes. Por ejemplo, si incluye métricas y elementos de dimensión en la selección, se crean dos segmentos desplegables independientes: un segmento desplegable incluye elementos de dimensión y el otro métricas.
+* Para segmentos desplegables que usan una combinación de tipos de componentes (como 2 métricas y 3 segmentos), seleccione varios componentes con ⇧+![Select](/help/assets/icons/Select.svg) o ^+![Select](/help/assets/icons/Select.svg). Coloca la selección en la zona desplegable del panel **mientras mantienes pulsado** ⇧. En este contexto, todos los tipos de componentes se tratan como segmentos desplegables independientes. Por ejemplo, si incluye métricas y elementos de dimensión en la selección, se crean dos segmentos desplegables independientes: un segmento desplegable incluye elementos de dimensión y el otro métricas.
 
-  ![La ventana del panel con el campo de segmento Cliente móvil disponible para soltar un segmento desplegable estático. ](assets/create-dropdown.png)
-
-Al hacer clic con el botón derecho en un segmento desplegable, se proporcionan las siguientes opciones:
+Un segmento desplegable proporciona las siguientes opciones de menú contextual:
 
 * **[!UICONTROL Eliminar lista desplegable]**: quita el segmento desplegable del panel.
-* **[!UICONTROL Eliminar etiqueta]**: elimine el texto situado encima de un segmento desplegable. Para modificar la etiqueta, seleccione el icono de lápiz.
+* **[!UICONTROL Eliminar etiqueta]**: elimine el texto mostrado encima de un segmento desplegable. Para modificar la etiqueta, pase el ratón sobre la etiqueta y seleccione ![Editar etiqueta del segmento desplegable](/help/assets/icons/Edit.svg).
 * **[!UICONTROL Agregar etiqueta]**: Cuando agrega un segmento desplegable a un proyecto, se establece automáticamente una etiqueta en el nombre del componente. Si elimina la etiqueta, puede añadirla de nuevo con esta opción.
 * **[!UICONTROL Requerir selección]**: Requiere que se establezca un segmento en el panel.
 
-[Vea el vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=es) para obtener más información sobre cómo añadir filtros desplegables al proyecto.
+##### Uso de segmentos desplegables estáticos
 
-#### Uso de segmentos desplegables estáticos
+Los usuarios pueden utilizar el menú desplegable de segmentos de cualquiera de las siguientes maneras de segmentar el panel:
 
-Utilice el menú desplegable de segmentos de cualquiera de las siguientes maneras para filtrar el panel:
+* Aplique un solo segmento al panel seleccionando el segmento en el segmento desplegable.
 
-* Aplique un solo segmento al panel seleccionando el segmento en el menú desplegable.
+* Aplique varios segmentos al panel seleccionando más de un segmento en el segmento desplegable. El panel se segmenta para incluir cualquiera de los segmentos seleccionados.
 
-* Aplique varios segmentos al panel seleccionando más de un segmento en el menú desplegable. El panel se filtra para incluir cualquiera de los segmentos seleccionados.
 
-  Para quitar un segmento de la lista, selecciónelo de nuevo en el menú desplegable.
+#### Segmentos desplegables dinámicos
 
-  ![Seleccionar varios segmentos](assets/dropdown-filter-multiselect.png)
-
-### Segmentos desplegables dinámicos
-
-Los segmentos desplegables dinámicos le permiten determinar los valores disponibles en función de los datos dentro del intervalo de informes del panel y los valores de otros segmentos desplegables. Por ejemplo, puede crear dos desplegables dinámicos utilizando la dimensión [Países](/help/components/dimensions/countries.md) y la dimensión [Ciudades](/help/components/dimensions/cities.md). Al seleccionar un país de la lista desplegable [!UICONTROL Países], la lista desplegable [!UICONTROL Ciudades] se ajusta dinámicamente para mostrar solo las ciudades de ese país.
+Los segmentos desplegables dinámicos le permiten determinar los valores disponibles en función de los datos dentro del intervalo de informes del panel y los valores de otros segmentos desplegables. Por ejemplo, puede crear dos desplegables dinámicos utilizando las dimensiones Países y Ciudades. Al seleccionar un país en la lista desplegable **[!UICONTROL Países]**, la lista desplegable **[!UICONTROL Ciudades]** se ajusta dinámicamente para mostrar solo las ciudades de ese país.
 
 Este mismo concepto se aplica a todas las dimensiones; solo son visibles los elementos de dimensión que aparecen dentro del intervalo de fechas y los segmentos seleccionados del panel. Los elementos de Dimension seleccionados en segmentos desplegables estáticos afectan a los valores disponibles en los segmentos desplegables dinámicos. Sin embargo, lo contrario no es verdadero; los elementos de Dimension seleccionados en los segmentos desplegables dinámicos no afectan a los valores disponibles en los segmentos desplegables estáticos.
 
@@ -127,27 +209,177 @@ La selección manual de elementos de dimensión está disponible si prevé que s
 
 Para crear un segmento desplegable dinámico:
 
-* Arrastre y suelte una sola dimensión en la zona desplegable del panel **mientras mantiene pulsado`[Shift]`**.
-* Los segmentos desplegables dinámicos no están disponibles para métricas, segmentos o intervalos de fechas.
-* Haga clic con el botón derecho en un segmento desplegable y seleccione **[!UICONTROL Eliminar lista desplegable]** para eliminarlo.
+* Arrastra y suelta una sola dimensión en la zona desplegable del panel **mientras mantienes pulsado** ⇧.
 
-Al hacer clic con el botón derecho en un filtro desplegable dinámico, se proporcionan las mismas opciones que en los filtros desplegables estáticos.
+Tenga en cuenta que los segmentos desplegables dinámicos no están disponibles para métricas, segmentos o intervalos de fechas.
 
-## Menú contextual {#right-click}
+Un segmento desplegable dinámico proporciona las mismas opciones de menú contextual que los segmentos desplegables estáticos.
 
-Para obtener más funcionalidades, haga clic con el botón derecho en el encabezado del panel.
 
-![Menú contextual](assets/right-click-menu.png)
+## Menú contextual
 
-Las configuraciones disponibles son las siguientes:
+Para obtener más funcionalidades, haz clic con el botón derecho en el encabezado del panel.
 
-| Configuración | Descripción |
+![Las opciones del botón derecho para un encabezado de panel.](assets/right-click-menu.png)
+
+Las opciones disponibles son las siguientes:
+
+| Opción | Descripción |
 | --- | --- |
-| Insertar panel copiado/visualización | Permite pegar (“insertar”) un panel copiado o una visualización en otro lugar del proyecto, o en otro proyecto diferente. |
-| Copiar panel | Permite hacer clic con el botón derecho y copiar un panel para poder insertarlo en otro lugar del proyecto o en un proyecto completamente diferente. |
-| Aplicar grupo de informes a todos los paneles | Permite aplicar el grupo de informes del panel activo a todos los paneles del proyecto. |
-| Duplicar panel | Crea un duplicado exacto del panel actual que podrá modificar a continuación. |
-| Contraer/expandir todos los paneles | Contrae y expande todos los paneles del proyecto. |
-| Contraer/expandir todas las visualizaciones del panel | Contrae y expande todas las visualizaciones del panel actual. |
-| Editar descripción | Añade (o edita) una descripción de texto para el panel. |
-| Obtener vínculo del panel | Le permite dirigir a los usuarios a un panel concreto de un proyecto. Al hacer clic en el vínculo, el destinatario deberá iniciar sesión antes de que se le dirija al panel exacto al que está vinculado. |
+| **[!UICONTROL Insertar panel copiado]** | Permite pegar un panel copiado en otro lugar del proyecto o en otro proyecto. |
+| **[!UICONTROL Insertar visualización copiada]** | Pega una visualización copiada en otro lugar dentro del panel, proyecto o en un proyecto diferente. |
+| **[!UICONTROL Aplicar grupo de informes a todos los paneles]** | Aplique el grupo de informes para este panel a todos los demás paneles del proyecto. |
+| **[!UICONTROL Copiar panel]** | Copia un panel para poder insertarlo en otro lugar del proyecto o en un proyecto completamente diferente. |
+| **[!UICONTROL Duplicar panel]** | Crea un duplicado exacto del panel actual que podrá modificar a continuación. |
+| **[!UICONTROL Contraer todos los paneles]** | Contraer todos los paneles del proyecto. |
+| **[!UICONTROL Ampliar todos los paneles]** | Ampliar todos los paneles del proyecto. |
+| **[!UICONTROL Contraer todas las visualizaciones del panel]** | Contraer todas las visualizaciones del panel actual. |
+| **[!UICONTROL Ampliar todas las visualizaciones del panel]** | Ampliar todas las visualizaciones del panel actual. |
+| **[!UICONTROL Editar descripción]** | Añade (o edita) una descripción de texto para el panel. |
+| **[!UICONTROL Obtener vínculo del panel]** | Dirigir a los usuarios a un panel concreto de un proyecto. Al hacer clic en el vínculo, el destinatario deberá iniciar sesión antes de que se le dirija al panel exacto al que está vinculado. |
+
+## Configuración
+
+Algunos paneles (como [!UICONTROL Atribución], [!UICONTROL Experimentación], [!UICONTROL Audiencia media por minuto de medios] y otros) tienen un cuadro de diálogo de configuración para ayudarte a crear la visualización. Usa ![Editar](/help/assets/icons/Edit.svg) en la parte superior del panel para acceder y cambiar la configuración.
+
+![Configurar un panel](/help/analyze/analysis-workspace/c-panels/assets/configure-panel.png)
+
+<!--
+## Panel types
+
+The following panel types are available in Analysis Workspace:
+
+| Panel name | Description |
+| --- | --- |
+| [Blank panel](blank-panel.md) | Choose from available panels and visualizations to start your analysis. |
+| [Quick Insights panel](quickinsight.md) | Quickly build a freeform table and an accompanying visualization in order to analyze and uncover insights faster. |
+| [Analytics for Target panel](a4t-panel.md) | Analyze Target activities and experiences in Analysis Workspace. |
+| [Attribution panel](attribution.md) | Quickly compare and visualize any number of attribution models using any dimension and conversion metric. |
+| [Freeform panel](freeform-panel.md) | Perform unlimited comparisons and breakdowns, then add visualizations to tell a rich data story. |
+| [Media Average Minute Audience panel](average-minute-audience-panel.md) | Analyze average minute audience over time, with details on peak views and the ability to break down and compare. |
+| [Media Concurrent Viewers panel](media-concurrent-viewers.md) | Analyze concurrent viewers over time, with details on peak concurrency and the ability to break down and compare. |
+| [Media Playback Timespent panel](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analyze concurrent viewers over time, with details on peak concurrency and the ability to break down and compare. |
+| [Segment Comparison panel](c-segment-comparison/segment-comparison.md) | Quickly compare two segments across all data points to automatically find relevant differences. |
+
+![](assets/panel-overview.png)
+
+[!UICONTROL Quick Insights], [!UICONTROL Blank] and [!UICONTROL Freeform] panels are great places to start your analysis, while [!UICONTROL Analytics for Target], [!UICONTROL Attribution], [!UICONTROL Media Concurrent Viewers] and [!UICONTROL Segment Comparison] lend themselves to more advanced analyses. A `"+"` button is available in projects so you can add blank panels at any time.
+
+The default starting panel is the [!UICONTROL Freeform] panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+
+## Report suite {#report-suite}
+
+Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
+
+The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
+
+![](assets/panel-report-suite.png)
+
+## Calendar {#calendar}
+
+The panel calendar controls the reporting range for tables and visualizations within a panel.
+
+>[!NOTE]
+>If a (purple) date range component is used within a table, visualization or panel drop zone, it overrides the panel calendar.
+
+![](assets/panel-calendar.png)
+
+You can apply a minute-level date range under the advanced settings of your panel calendar. If you are reporting on a date range that spans many days, start time applies to the first day and end time applies to the last day in your range.
+
+## Drop zone {#dropzone}
+
+The panel drop zone enables you to apply segment and drop-down filters to all tables and visualizations within a panel. You can apply one or many filters to a panel. 
+
+### Segment filters
+
+Drag and drop any segments from the left rail into the panel drop zone to begin filtering your panel. Repeat this process to add additional filters to the panel. Filters appear side by side at the top of the panel.
+
+![Filter](assets/segment-filter.png)
+
+### Ad hoc segment filters
+
+Non-segment components can also be dragged directly into the drop zone to create ad hoc segments, saving you the time and effort of going to the Segment Builder. Segments created in this way are automatically defined as hit-level segments. This definition can be modified by clicking the information icon (i) next to the segment, then the pencil-shaped edit icon and editing it in the Segment Builder.
+
+Ad hoc segments are a type of quick segment, and are local to the project. They do not show up in the left rail unless you make them public.
+
+For more information, see [Quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+
+### Static drop-down segments
+
+Static drop-down segments enable you to interact with the data in a controlled way. For example, you can add a drop-down segment for Mobile Device Types so that you can segment the panel by Tablet, Mobile Phone, or Desktop.
+
+Static drop-down segments can also be used to consolidate many projects into one. For example, if you have many versions of the same project with different Country segments applied, you can consolidate all versions into a single project and add a Country drop-down segment.
+
+![](assets/dropdown-filter-intro.png)
+
+#### Create static drop-down segments
+
+* For drop-down segments using dimension items, select a single dimension from the left rail and drop it into the panel dropzone **while holding `[Shift]`**. This creates a drop-down segment with all the dimension items that are associated with that dimension. 
+
+  Or, if you want the drop-down segment to include only specific dimension items that are associated with a dimension, click the right arrow icon next to the desired dimension in the left rail. This action exposes all available dimension items. Select multiple dimension items from this list using `[Shift + Click]` or `[Ctrl + Click]`, then drop them into the panel dropzone **while holding** `[Shift]`.
+
+* For drop-down segments using a single component type (for example, only dimensions, or only segments, or only metrics), select multiple items of the same type in the left rail using `[Shift + Click]` or `[Ctrl + Click]`, then drop them into the panel dropzone **while holding `[Shift]`**.
+
+  A single drop-down segment is created with components that you selected.
+
+* For drop-down segments using a mix of component types (such as 2 metrics and 3 filters), select multiple components using `[Shift + Click]` or `[Ctrl + Click]`. Drop the selection into the panel dropzone **while holding `[Shift]`**. In this context, all component types are treated as separate drop-down segments. For example, if you include both metrics and dimension items in your selection, two separate drop-down segments are created: one drop-down segments includes dimension items, and the other includes metrics.
+
+  ![The Panel window with the Mobile Customer segment field available to drop a static drop-down segment. ](assets/create-dropdown.png)
+
+Right-clicking a drop-down segment provides the following options:
+
+* **[!UICONTROL Delete drop-down]**: Removes the drop-down segment from the panel. 
+* **[!UICONTROL Delete label]**: Remove the text above a drop-down segment. To modify the label, select the pencil icon.
+* **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
+* **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
+
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
+
+#### Use static drop-down segments
+
+Use the drop-down segments menu in any of the following ways in order to filter the panel:
+     
+* Apply a single segment to the panel by selecting the segment from the drop-down menu.
+
+* Apply multiple segments to the panel by selecting more than one segment from the drop-down menu. The panel is filtered to include any of the selected segments. 
+
+  To remove a segment from the list, select it again in the drop-down menu.
+
+  ![Select multiple segments](assets/dropdown-filter-multiselect.png)
+
+### Dynamic drop-down segments
+
+Dynamic drop-down segments allow you to determine available values based on data within the panel's reporting range and values in other drop-down segments. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
+
+This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected segments are visible. Dimension items selected in static drop-down segments affect available values in dynamic drop-down segments. However, the inverse is not true; Dimension items selected in dynamic drop-down segments do not affect available values in static drop-down segments.
+
+Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down segment so that it does not contain a value, allowing other dynamic drop-down segments to contain more values. Select **[!UICONTROL Reset all]** to clear the selection from all drop-down segments for that panel.
+
+To create a dynamic drop-down segment:
+
+* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
+* Dynamic drop-down segments are not available for metrics, segments, or date ranges.
+* Right-click a drop-down segment and select **[!UICONTROL Delete dropdown]** to delete it.
+
+Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.
+
+## Right-click menu {#right-click}
+
+Additional functionality for a panel is available by right-clicking on the panel header.
+
+![Right-click menu](assets/right-click-menu.png)
+
+The following settings are available:
+
+| Setting | Description |
+| --- | --- |
+| Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a different project.|
+| Copy Panel | Lets you right-click and copy a panel, so that you can insert it to another place within the project, or into a different project.|
+| Apply Report Suite to all panels | Lets you apply the active panel report suite to all panels in the project.|
+| Duplicate Panel | Makes an exact duplicate of the current panel, which you can then modify. |
+| Collapse/Expand all Panels | Collapses and expands all project panels. |
+| Collapse/Expand all Visualizations in Panel | Collapses and expands all visualizations in the current panel. |
+| Edit Description | Add (or edit) a text description for the panel. |
+| Get Panel Link | Lets you direct someone to a specific panel within a project. When the link is clicked, the recipient will be required to login before being directed to the exact panel linked to. |
+
+-->
