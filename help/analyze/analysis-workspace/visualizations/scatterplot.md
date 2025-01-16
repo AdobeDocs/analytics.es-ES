@@ -4,14 +4,30 @@ description: Una visualización que muestra la relación entre hasta tres métri
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '156'
+ht-degree: 86%
 
 ---
 
-# Diagrama de dispersión
+# Diagrama de dispersión {#scatter}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_scatter_button"
+>title="Dispersión"
+>abstract="Cree una visualización de dispersión que muestre la relación entre los elementos de dimensión y hasta tres métricas."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artículo documenta la visualización de dispersión en **Adobe Analytics**.<br/>Ver [Dispersión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) para la versión de **Customer Journey Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
 
 La visualización del diagrama de dispersión muestra la relación entre los elementos de dimensión y hasta tres métricas. Requiere tres componentes y admite la visualización de hasta cuatro componentes.
 

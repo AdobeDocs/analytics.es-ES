@@ -4,14 +4,30 @@ title: Resumen de abandonos
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 92%
 
 ---
 
-# Resumen de abandonos
+# Resumen de abandonos {#fallout-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_fallout_button"
+>title="Visita en orden previsto"
+>abstract="Crea una visualización para ver cómo se accede de forma correcta a los puntos de comprobación deseados."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artículo documenta la visualización de abandonos en **Adobe Analytics**.<br/>Ver [Visita en orden previsto](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) para la versión de **Customer Journey Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
 
 Las visualizaciones de visitas en el orden previsto ofrecen más opciones para crear sus informes de visitas en el orden previsto. Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas.
 

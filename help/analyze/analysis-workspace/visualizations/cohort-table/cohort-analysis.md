@@ -4,14 +4,40 @@ description: Explore en detalle los datos de su audiencia y desglóselos en grup
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 92%
+source-wordcount: '576'
+ht-degree: 89%
 
 ---
 
-# Obtenga información acerca de los [!UICONTROL análisis de cohortes] en Adobe Analytics
+# Configuración de la tabla de cohortes {#cohort-table-overview}
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_cohorttable_button"
+>title="Tabla de cohortes"
+>abstract="Cree una visualización de cohorte para agrupar usuarios en función de la finalización de un evento y analice la participación en curso y las cancelaciones a lo largo del tiempo."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_cohorttable_panel"
+>title="Tabla de cohortes"
+>abstract="Agrupe a los usuarios en función de la finalización de un evento y, a continuación, analice su participación actual y las cancelaciones a lo largo del tiempo.<br/><br/>**Parámetros **<br/>**Criterios de inclusión**: los componentes utilizados para definir las cohortes de visitantes iniciales.<br/>**Criterios de retorno**: los componentes utilizados para determinar si un visitante ha regresado."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artículo documenta la tabla de cohorte en **Adobe Analytics**.<br/>Consulte [Tabla de cohortes](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) para la versión de **Customer Journey Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
 
 Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El [!UICONTROL análisis de cohorte] es útil, por ejemplo, cuando desea saber cómo se involucra una cohorte con una marca. Puede identificar fácilmente los cambios en tendencias y responder en consecuencia. (Las explicaciones de [!UICONTROL análisis de cohorte] se encuentran disponibles en la web, como en la [Guía básica de análisis de cohorte](https://es.wikipedia.org/wiki/Cohort_analysis)).
 

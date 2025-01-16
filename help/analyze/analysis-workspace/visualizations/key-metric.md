@@ -4,14 +4,30 @@ title: Resumen de métricas clave
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 00276353ef5555955d9dc178c692da0dbfb7eac2
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '839'
 ht-degree: 56%
 
 ---
 
-# Resumen de métricas clave
+# Resumen de métricas clave {#key-metric-summary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_keymetricsummary_button"
+>title="Resumen de métricas clave"
+>abstract="Cree una visualización que sea una combinación de los gráficos de líneas, resumen de cambios y resumen de números. Utilice esta visualización para comparar la tendencia de las métricas importantes entre dos períodos de tiempo."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artículo describe la visualización Resumen de métricas clave en **Adobe Analytics**.<br/>Consulte [Resumen de métricas clave](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) para la versión de **Customer Journey Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
 
 La visualización [!UICONTROL Resumen de métricas clave] permite ver las tendencias de una métrica importante dentro de un solo periodo de tiempo. También le permite comparar el rendimiento de las métricas en dos intervalos de tiempo. Proporciona las ventajas de varias visualizaciones combinadas en una sola:
 

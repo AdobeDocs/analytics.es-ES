@@ -5,14 +5,31 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 100%
+source-wordcount: '438'
+ht-degree: 90%
 
 ---
 
-# Histograma
+# Histograma {#histogram}
+
+arkdownlint-disable MD034 —>
+
+>[!CONTEXTUALHELP]
+>id="workspace_histogram_button"
+>title="Histograma"
+>abstract="Cree una visualización de histograma para representar la distribución de datos numéricos en grupos de intervalos."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artículo documenta la visualización del histograma en **Adobe Analytics**.<br/>Ver [Histograma](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/histogram) para la versión de **Customer Journey Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
+
 
 Un histograma es similar a un gráfico de barras, pero agrupa números en rangos (contenedores). Analytics automatiza la creación de contenedores de números en rangos, pero puede modificar la configuración en [Configuración avanzada](#section_09D774C584864D4CA6B5672DC2927477).
 
@@ -45,7 +62,7 @@ Para ajustar la configuración de su histograma, haga clic en el icono de Config
 | Configuración de histograma | Qué hace |
 |---|---|
 | Iniciando el depósito | Determina por qué contenedor empieza el histograma. La opción predeterminada es “1”. Puede ajustar los números iniciales de 0 hasta el infinito (sin números negativos). |
-| Contenedor de métricas | Le permite aumentar/disminuir el número de rangos de fecha (contenedores). El número máximo de contenedores es 50. |
+| Contenedor de métricas | Le permite aumentar/disminuir el número de rangos de datos (contenedores). El número máximo de contenedores es 50. |
 | Tamaño del contenedor de métricas | Le permite establecer el tamaño de cada contenedor. Por ejemplo, puede cambiar el tamaño del contenedor de 1 vista de página a 2 vistas de página. |
 | Método de recuento | Permite seleccionar entre [Visitante](/help/components/metrics/unique-visitors.md), [Visita](/help/components/metrics/visits.md) o [Tipo de visita](/help/components/dimensions/hit-type.md). Por ejemplo, vistas de página por visita o visitas de página por visitante o visitas de página por cada acierto. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre. |
 

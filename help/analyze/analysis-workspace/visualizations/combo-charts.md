@@ -4,14 +4,30 @@ title: Visualización de gráficos combinados
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 99%
+source-wordcount: '797'
+ht-degree: 95%
 
 ---
 
-# Gráfico combinado
+# Gráfico combinado {#combo}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_combo_button"
+>title="Combo"
+>abstract="Cree una visualización de gráfico combinado rápido, sin necesidad de crear primero una tabla de forma libre."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artículo documenta la visualización combinada en **Adobe Analytics**.<br/>Vea [Combo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) para la versión de **Customer Journey Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
 
 La visualización de [!UICONTROL gráficos combinados] facilita la creación rápida de una visualización de comparación sin tener que generar una tabla primero. Puede ver fácilmente las tendencias en sus datos en una combinación de líneas/barras.
 
@@ -90,7 +106,7 @@ Haga clic en el icono de engranaje en la parte superior derecha de un gráfico c
 | Configuración | Definición |
 | --- | --- |
 | **[!UICONTROL Tipo de visualización]** | Le permite cambiar a otro tipo de visualización. |
-| **[!UICONTROL Granularidad]** | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) de esta lista desplegable. |
+| **[!UICONTROL Granularidad]** | En las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) desde esta lista desplegable. |
 | **[!UICONTROL General]** |  |
 | **[!UICONTROL Porcentajes]** | Muestra valores en porcentajes. |
 | **[!UICONTROL Leyenda visible]** | Permite ocultar el texto de leyenda detallado para la visualización de gráficos combinados. |

@@ -4,14 +4,24 @@ title: Resumen de calendario e intervalos de fechas
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '944'
 ht-degree: 91%
 
 ---
 
-# Resumen de calendario e intervalos de fechas
+# Resumen de calendario e intervalos de fechas {#date-range}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_dateranges_endtime"
+>title="Hora de finalización"
+>abstract="Las horas de finalización siempre incluyen 59 segundos."
+
+<!-- markdownlint-enable MD034 -->
+
 
 En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos.
 

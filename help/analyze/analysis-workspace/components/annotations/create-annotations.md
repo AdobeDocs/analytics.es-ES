@@ -4,14 +4,32 @@ description: Cómo crear anotaciones en Espacio de trabajo.
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '704'
 ht-degree: 100%
 
 ---
 
-# Creación de anotaciones
+# Creación de anotaciones {#create-annotations}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_annotations_details"
+>title="Detalles de anotación"
+>abstract="Las anotaciones le permiten comunicar de forma eficaz los matices y perspectivas de datos contextuales a su organización. Permiten enlazar eventos de calendario con dimensiones/métricas específicas. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_annotations_scope"
+>title="Ámbito"
+>abstract="El ámbito te permite personalizar qué datos se van a anotar. Las métricas y los segmentos calculados no heredarán automáticamente las anotaciones aplicadas a los componentes utilizados en sus definiciones. Puedes agregar nuevas métricas calculadas a la sección de ámbito de una anotación existente. Los nuevos segmentos requieren una nueva anotación."
+
+<!-- markdownlint-enable MD034 -->
 
 De forma predeterminada, solo los administradores pueden crear anotaciones. Los usuarios tienen derechos para ver las anotaciones como lo hacen con otros componentes de Analytics (como segmentos, métricas calculadas, etc.).
 

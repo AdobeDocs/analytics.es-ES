@@ -4,10 +4,10 @@ title: Administrador de actividades de creación de informes
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 11%
+source-wordcount: '1989'
+ht-degree: 14%
 
 ---
 
@@ -18,6 +18,24 @@ El [!UICONTROL Administrador de actividades de creación de informes] permite a 
 Para obtener más información sobre el Administrador de actividades de creación de informes, incluidas las ventajas clave y los requisitos de permisos, consulte [Información general sobre el Administrador de actividades de creación de informes](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
 
 ## Ver la actividad de informes de todos los grupos de informes {#view-all-report-suites}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_reportingactivitymanager_connections"
+>title="Conexiones"
+>abstract="Esta tabla muestra las conexiones para las que tiene derechos para administrar la actividad de creación de informes. La información sobre cada conexión está disponible en cada columna de la tabla."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="tools_reportingactivitymanager_connections"
+>title="Conexiones"
+>abstract="Esta tabla muestra las conexiones para las que tiene derechos para administrar la actividad de creación de informes. La información sobre cada conexión está disponible en cada columna de la tabla."
+
+<!-- markdownlint-enable MD034 -->
 
 1. En Adobe Analytics, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Administrador de actividades de creación de informes]**.
 

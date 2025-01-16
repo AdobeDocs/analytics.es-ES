@@ -4,15 +4,82 @@ title: Panel en blanco
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 8ed3572767e586580872c5d2150ed75e42793fe6
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 90%
 
 ---
 
-# Panel en blanco
+# Panel en blanco {#blank-panel}
 
-Un panel en blanco resalta todas las visualizaciones que puede crear desde dentro de un panel, incluidas Improvisado, Mapa, Visitas en el orden previsto, Flujo, Histograma, Cohorte y Venn. También puede elegir que Panel en blanco sea el estado inicial predeterminado de sus proyectos, en vez de usar un panel improvisado.
+<!-- markdownlint-disable MD034 -->
 
-![](assets/blank_panel.png)
+>[!CONTEXTUALHELP]
+>id="workspace_blankpanel_button"
+>title="Panel en blanco"
+>abstract="Muestra una selección de paneles o visualizaciones que puedes crear para generar un análisis completamente personalizado."
+>additional-url="https://www.youtube.com/watch?v=SYaioiwBTrk" text="Paneles en Analysis Workspace"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Este artículo documenta el panel en blanco en ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Vea [Panel en blanco](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) para la versión de ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**de este artículo.*
+
+>[!ENDSHADEBOX]
+
+
+Un **[!UICONTROL panel en blanco]** muestra una selección de paneles (indicados por ![WebPage](/help/assets/icons/WebPage.svg)) o visualizaciones que puede crear para generar un análisis completamente personalizado.
+
+## Utiliza
+
+Para usar un **[!UICONTROL panel en blanco]**:
+
+1. Creación de un **[!UICONTROL panel en blanco]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
+
+   ![Crear un panel](assets/create-panel.png)
+
+
+
+1. Selecciona una visualización o un panel de las opciones disponibles.
+
+
+   * Al seleccionar un panel, el panel en blanco cambia al panel seleccionado.
+   * Al seleccionar una visualización, esta se agrega al panel en blanco.
+
+   Por ejemplo, selecciona una visualización (como ![ViewList](/help/assets/icons/ViewList.svg) **[!UICONTROL Tabla de cohortes]**) para agregarla al panel o selecciona un panel (como ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Atribución]**) para modificarlo y convertirlo en un panel de atribución.
+
+
+
+Puedes realizar lo siguiente:
+
+* Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) **en** un panel para agregar otra visualización. Aparece una ventana emergente que te permite seleccionar una visualización.
+
+  | Seleccionar… | Para crear un filtro: |
+  |---|---|
+  | ![Tabla](/help/assets/icons/Table.svg) | [Tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
+  | ![Líneas](/help/assets/icons/GraphTrend.svg) | [Líneas](/help/analyze/analysis-workspace/visualizations/line.md) |
+  | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barra](/help/analyze/analysis-workspace/visualizations/bar.md) |
+  | ![123](/help/assets/icons/123.svg) | [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![Texto](/help/assets/icons/Text.svg) | [Texto](/help/analyze/analysis-workspace/visualizations/text.md) |
+  | ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg) | [Visita en orden previsto](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) |
+  | ![Flujo de trabajo](/help/assets/icons/GraphPathing.svg) | [Flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
+  | ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) | [Area stacked](/help/analyze/analysis-workspace/visualizations/area.md) |
+  | ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [Tabla de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) |
+  | ![GraphBullet](/help/assets/icons/GraphBullet.svg) | [Bullet](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) |
+  | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [Anillo](/help/analyze/analysis-workspace/visualizations/donut.md) |
+  | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [Cambio de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
+  | ![Histograma](/help/assets/icons/Histogram.svg) | [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md) |
+  | ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [Dispersión](/help/analyze/analysis-workspace/visualizations/scatterplot.md) |
+  | ![Tipo](/help/assets/icons/TwoDots.svg) | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) |
+  | ![GraphTree](/help/assets/icons/GraphTree.svg) | [Gráfico de rectángulos](/help/analyze/analysis-workspace/visualizations/treemap.md) |
+
+* Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) **fuera** de un panel para agregar otro panel en blanco.
+
+
+>[!MORELIKETHIS]
+>
+>[Crear un panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
+>

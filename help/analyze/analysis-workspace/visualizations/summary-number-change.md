@@ -5,20 +5,31 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: a4c976269456770f507bd4621bc704913358f8ff
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 93%
 
 ---
 
 # [!UICONTROL Número de resumen] y [!UICONTROL Cambio de resumen]
+
+*Este artículo documenta la visualización de número de resumen y cambio de resumen en **Adobe Analytics**.<br/>Ver [Número de resumen y cambio de resumen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) para la versión de **Customer Journey Analytics**de este artículo.*
 
 Aquí tiene un vídeo sobre estas dos visualizaciones:
 
 >[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
 
 ## Visualización [!UICONTROL Número de resumen] {#summary-number}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarynumber_button"
+>title="Número de resumen"
+>abstract="Cree una visualización que muestre los totales y subtotales."
+
+<!-- markdownlint-enable MD034 -->
 
 Utilice la visualización [!UICONTROL Número de resumen] para resaltar un número elevado que sea importante en un proyecto. Esta visualización se comporta de las siguientes maneras:
 
@@ -37,6 +48,15 @@ Haga clic en el icono de engranaje de **Configuración de la visualización** si
 | [!UICONTROL Valor de resumen por] | Elija mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
 
 ## Visualización [!UICONTROL Cambio de resumen] {#summary-change}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarychange_button"
+>title="Cambio de resumen"
+>abstract="Cree una visualización que muestre el delta (cambio) entre dos números"
+
+<!-- markdownlint-enable MD034 -->
 
 Utilice la visualización [!UICONTROL Cambio de resumen] para mostrar el delta (cambio) entre dos números. El color verde y rojo del [!UICONTROL Cambio de resumen] se puede controlar mediante la [polaridad de evento personalizado](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) o mediante la opción [Mostrar tendencia ascendente como](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=es) de una métrica calculada.
 

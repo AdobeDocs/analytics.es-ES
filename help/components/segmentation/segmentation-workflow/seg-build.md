@@ -1,16 +1,64 @@
 ---
 description: El Generador de segmentos proporciona un lienzo al que arrastrar y en el que soltar las dimensiones de métricas, los segmentos y los eventos para segmentar a los visitantes en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Esta herramienta de desarrollo integrado le permite generar y guardar segmentos simples o complejos que identifican atributos y acciones de visitantes en visitas y visitas individuales de páginas.
-title: Generación de segmentos
+title: ' Generación de segmentos'
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 96%
+source-wordcount: '2063'
+ht-degree: 95%
 
 ---
 
-# Generador de segmentos
+# Generador de segmentos {#segment-builder}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_createaudience"
+>title="Creación de públicos"
+>abstract="Los públicos se pueden crear a partir de un filtro y compartirse con Adobe Experience Platform para su activación."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_datapreview"
+>title="Previsualización de datos"
+>abstract="Compara los datos de este filtro con los datos de la vista de datos. El porcentaje de vista previa se basa en el número total de la vista de datos de **últimos 90 días**.<br><br/>Si la vista previa no se carga, es posible que la conexión aún esté reponiendo los datos."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_repeating"
+>title="Repetido"
+>abstract="Incluye instancias y valores persistentes para la dimensión."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_instance"
+>title="Instancia"
+>abstract="Incluye instancias y valores persistentes para la dimensión."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_filters_attribution_nonrepeatinginstance"
+>title="Instancia no repetida"
+>abstract="Incluye instancias únicas (no repetitivas) para la dimensión."
+
+<!-- markdownlint-enable MD034 -->
+
+
+
 
 El [!UICONTROL Generador de segmentos] le permite generar segmentos simples o complejos que identifican atributos y acciones de visitantes en visitas y visitas individuales de páginas. Proporciona un lienzo al que arrastrar y en el que soltar las dimensiones de métricas, eventos u otros segmentos para segmentar a visitantes en función de la lógica, las reglas y los operadores de la jerarquía.
 

@@ -4,14 +4,21 @@ title: Crear y compartir cuadros de resultados móviles
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2515'
 ht-degree: 81%
 
 ---
 
-# Creación de un cuadro de resultados móvil
+# Creación de un cuadro de resultados móvil {#create-a-mobile-scorecard}
+
+>[!CONTEXTUALHELP]
+>id="mobilescorecard_annotations"
+>title="Anotaciones"
+>abstract="Las anotaciones se pueden crear en el administrador de componentes de dentro de un proyecto de espacio de trabajo."
+
+<!-- markdownlint-enable MD034 -->
 
 La siguiente información enseña a los depuradores de datos de Adobe Analytics cómo configurar y presentar cuadros de resultados móviles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del generador del cuadro de resultados de los paneles de Adobe Analytics:
 
