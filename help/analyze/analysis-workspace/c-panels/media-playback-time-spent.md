@@ -4,9 +4,9 @@ description: Cómo utilizar e interpretar el panel Tiempo invertido en la reprod
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 9a29057e71627d4c77a1d039d7fd5b0ec9c0f447
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1154'
 ht-degree: 56%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 56%
 
 >[!BEGINSHADEBOX]
 
-*Este artículo documenta el panel Tiempo invertido en la reproducción de contenido en ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Consulte el panel [Tiempo invertido en la reproducción de contenido](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) para la versión de ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**de este artículo.*
+*Este artículo documenta el panel Tiempo invertido en la reproducción de contenido en **Adobe Analytics**.<br/>Vea el panel [Tiempo invertido en la reproducción de medios](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent) para la versión de **Customer Journey Analytics**de este artículo.*
 
 >[!ENDSHADEBOX]
 

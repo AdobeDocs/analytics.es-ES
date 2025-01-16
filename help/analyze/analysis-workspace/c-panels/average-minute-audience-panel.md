@@ -4,9 +4,9 @@ description: Cómo utilizar e interpretar el panel Audiencia media por minuto de
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 9a29057e71627d4c77a1d039d7fd5b0ec9c0f447
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1814'
 ht-degree: 30%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 30%
 
 >[!BEGINSHADEBOX]
 
-*Este artículo documenta el panel Audiencia media por minuto de medios en ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**.<br/>Consulte [Panel de audiencia media por minuto de medios](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) para la versión de ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**de este artículo.*
+*Este artículo documenta el panel Audiencia media por minuto de medios en **Customer Journey Analytics**.<br/>Consulte [Panel de audiencia media por minuto de medios](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel) para la versión de **Adobe Analytics**de este artículo.*
 
 >[!ENDSHADEBOX]
 
