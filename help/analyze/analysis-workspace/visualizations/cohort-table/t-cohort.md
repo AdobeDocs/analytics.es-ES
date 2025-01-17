@@ -5,7 +5,7 @@ title: Ejecutar un informe de análisis de cohorte
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 95%
@@ -33,9 +33,10 @@ Cree una cohorte y ejecute un informe de [!UICONTROL análisis de cohorte] en An
 1. (Opcional) Ajuste la **[!UICONTROL Configuración de tabla de cohorte]** haciendo clic en el icono de engranaje.
 
    | Configuración | Descripción |
-| Solo mostrar porcentaje | Elimina el valor numérico y solo muestra el porcentaje. |
-| Porcentaje de redondeo al total más cercano | Redondea el valor porcentual al total más cercano en lugar de mostrar el valor decimal. |
-| Mostrar fila de porcentaje promedio | Inserta una nueva fila en la parte superior de la tabla y, a continuación, agrega el promedio de los valores dentro de cada columna. |
+   |--- |--- |
+   | Mostrar sólo porcentaje | Elimina el valor numérico y solo muestra el porcentaje. |
+   | Redondear el porcentaje al entero más cercano | Redondea el valor porcentual al total más cercano en lugar de mostrar el valor decimal. |
+   | Mostrar fila de porcentaje promedio | Inserta una nueva fila en la parte superior de la tabla y, a continuación, agrega el promedio de los valores dentro de cada columna. |
 
 ## Generar el informe de [!UICONTROL Análisis de cohorte]
 

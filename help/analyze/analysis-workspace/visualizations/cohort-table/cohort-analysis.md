@@ -4,10 +4,10 @@ description: Explore en detalle los datos de su audiencia y desglóselos en grup
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 89%
+source-wordcount: '582'
+ht-degree: 86%
 
 ---
 
@@ -64,7 +64,9 @@ Vídeo sobre tablas de cohorte en Analysis Workspace:
 
 ## Capacidades del análisis de cohorte
 
-Las siguientes funciones permiten un control preciso de las cohortes que está creando:
+Las secciones siguientes describen las funciones de análisis de cohorte que permiten un control preciso de las cohortes que está creando.
+
+Para obtener información más detallada sobre cómo crear una cohorte y ejecutar un informe de [!UICONTROL Análisis de cohorte], consulte [Configurar un informe de análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
 ### Tabla de [!UICONTROL retención]
 
@@ -103,5 +105,3 @@ Mide el tiempo transcurrido antes y después de ocurrir el evento de inclusión.
 Cree cohortes basadas en una dimensión seleccionada y no en el tiempo, que es el comportamiento predeterminado. Utilice dimensiones como [!UICONTROL canal de marketing], [!UICONTROL campaña], [!UICONTROL producto], [!UICONTROL página], [!UICONTROL región] o cualquier otra dimensión de Adobe Analytics para mostrar cómo cambia la retención en función de los distintos valores que adoptan.
 
 ![](assets/cohort-customizable-cohort-row.png)
-
-Para obtener instrucciones sobre cómo configurar y ejecutar un informe de cohorte, ve a [Configurar un informe de análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
