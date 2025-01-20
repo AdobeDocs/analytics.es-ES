@@ -4,9 +4,9 @@ description: Cómo utilizar e interpretar el panel Visualizadores simultáneos d
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1234'
 ht-degree: 47%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 47%
 
 >[!BEGINSHADEBOX]
 
-*Este artículo describe el panel Visualizadores simultáneos de medios en **Adobe Analytics Analytics**.<br/>Vea [Panel de visualizadores simultáneos de medios](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) para la versión de **Customer Journey Analytics**de este artículo.*
+_Este artículo describe el panel Visualizadores simultáneos de medios en **Adobe Analytics Analytics**.<br/>Consulte [Panel de visualizadores simultáneos de medios](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers)) para la_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versión del Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 

@@ -5,16 +5,16 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 93%
 
 ---
 
 # [!UICONTROL Número de resumen] y [!UICONTROL Cambio de resumen]
 
-*Este artículo documenta la visualización de número de resumen y cambio de resumen en **Adobe Analytics**.<br/>Ver [Número de resumen y cambio de resumen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) para la versión de **Customer Journey Analytics**de este artículo.*
+_Este artículo documenta las visualizaciones Número de resumen y Cambio de resumen en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Ver [Número de resumen y cambio de resumen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) para la_ versión de ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 Aquí tiene un vídeo sobre estas dos visualizaciones:
 

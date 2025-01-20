@@ -5,10 +5,10 @@ uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 feature: Visualizations
 role: User, Admin
 exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 71%
+source-wordcount: '148'
+ht-degree: 70%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-*Este artículo describe las visualizaciones de barras horizontales y barras horizontales apiladas en **Adobe Analytics**.<br/>Ver [barras horizontales y barras horizontales apiladas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) para la versión de **Customer Journey Analytics**de este artículo.*
+_Este artículo documenta las visualizaciones de barras horizontales y barras horizontales apiladas en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Ver [barras horizontales y barras horizontales apiladas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versión del Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
