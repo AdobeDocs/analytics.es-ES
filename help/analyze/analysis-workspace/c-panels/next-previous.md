@@ -4,7 +4,7 @@ title: Panel de elemento siguiente o anterior
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 36%
@@ -69,7 +69,6 @@ Seleccione **[!UICONTROL Generar]** para generar el panel.
 ### Salida de panel
 
 El panel [!UICONTROL Elemento siguiente o anterior] devuelve un conjunto completo de datos y visualizaciones para ayudarle a comprender mejor qué ocurrencias siguen o preceden a elementos de dimensión específicos.
-
 
 ![Salida de panel siguiente/anterior](assets/next-or-previous-item-output.png)
 

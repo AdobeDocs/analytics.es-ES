@@ -5,10 +5,10 @@ keywords: Analysis Workspace;IQ de segmento
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 92%
+source-wordcount: '592'
+ht-degree: 27%
 
 ---
 
@@ -59,103 +59,105 @@ Para usar un panel **[!UICONTROL Atribución]**:
 
 ### Entrada de panel
 
-![Comparar panel](assets/seg-compare-panel.png)
+Puede configurar el panel [!UICONTROL Comparación de segmentos] con esta configuración de entrada:
 
-1. Seleccione segmentos para comparar y suéltelos en el panel.
+![Panel de entrada de comparación de segmentos](assets/segment-comparison-input.png)
 
-   ![Comparar audiencias](assets/compare-audiences.png)
+| Entrada | Descripción |
+| --- | --- |
+| **[!UICONTROL Agregar un segmento]** | Seleccione la dimensión con la que desee comparar. |
+| **[!UICONTROL Comparar con]** | Seleccione la dimensión que desee utilizar para comparar el segmento seleccionado inicialmente. Si no selecciona un segmento específico, se usará el segmento predeterminado **[!UICONTROL Todos los demás]**. |
+| **[!UICONTROL Mostrar u ocultar configuración avanzada]** | Seleccione **[!UICONTROL Mostrar configuración avanzada]** para configurar **[!UICONTROL Componentes excluidos]**, seleccione **[!UICONTROL Ocultar configuración avanzada]** para ocultar **[!UICONTROL Componentes excluidos]**. |
+| **[!UICONTROL Componentes excluidos]** | Componentes que puede especificar, como **[!UICONTROL Dimension]**, **[!UICONTROL Métricas]** o **[!UICONTROL Segmentos]** para la exclusión.<br><ul><li>Arrastre y suelte una o más dimensiones, métricas o segmentos de los contenedores en el contenedor de **[!UICONTROL componentes excluidos]**.</li><li>Para quitar un componente, seleccione el tipo (**[!UICONTROL Dimension]** **[!UICONTROL Métricas]** o **[!UICONTROL Segmentos]**) y seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar un componente. Para quitar todos los componentes, seleccione **[!UICONTROL Borrar todo]**.</li><li>Para establecer la selección actual de dimensiones, métricas y segmentos como predeterminada, seleccione **[!UICONTROL Establecer como predeterminado]**.</li></ul> |
 
-   Después de arrastrar un segmento al panel, Analytics crea automáticamente un segmento [!UICONTROL “Todos los demás”] que incluye a todos los que NO están en el segmento que ha elegido. Se trata de un segmento que se utiliza con frecuencia en el panel de comparación, pero puede eliminarlo y comparar otro segmento de su elección.
-
-   ![Todos los demás](assets/everyone-else.png)
-
-1. Una vez que haya determinado qué dos segmentos comparar, haga clic en [!UICONTROL Generar].
-
-   Esta acción inicia un proceso backend que busca diferencias estadísticas entre los dos segmentos seleccionados y todas las dimensiones, métricas y otros segmentos. Una barra de progreso en la parte superior del panel indica el tiempo restante hasta que se analizan todas las métricas y dimensiones. Las métricas, dimensiones y segmentos utilizados con más frecuencia tienen prioridad para ejecutarse primero, de modo que los resultados más relevantes se devuelvan de manera oportuna.
-
-## Excluir componentes de comparación
-
-A veces se desea excluir algunas dimensiones, métricas o segmentos de las comparaciones de segmentos. Por ejemplo, desea comparar el segmento “Usuarios móviles de EE. UU.” con “Usuarios móviles alemanes”. Incluir dimensiones relacionadas con la geografía no tendría sentido, ya que estos segmentos ya implican esas diferencias.
-
-1. Una vez que los dos segmentos deseados estén en el panel, haga clic en [!UICONTROL “Mostrar opciones avanzadas”].
-1. Arrastre y suelte los componentes que desea excluir en cualquier sitio del panel [!UICONTROL Componentes excluidos].
-
-   ![Componentes excluidos](assets/excluded-components.png)
-
-Haga clic en [!UICONTROL Establecer como predeterminado] para excluir automáticamente los componentes actuales en todas las comparaciones de segmentos futuras. Si desea editar componentes excluidos, haga clic en un tipo de componente y, a continuación, haga clic en la “X” situada junto a un componente para volver a incluirlos en el análisis. Haga clic en “Borrar todo” para volver a incluir todos los componentes en la comparación de segmentos.
-
-![Dimensiones excluidas](assets/excluded-dimensions.png)
+Seleccione **[!UICONTROL Generar]** para generar el panel.
 
 ### Salida de panel
 
-Una vez que Adobe termina de analizar los dos segmentos deseados, muestra sus resultados a través de varias visualizaciones:
+Una vez que Adobe Analytics termina de analizar los dos segmentos deseados, el panel Salida muestra los resultados a través de varias visualizaciones:
 
-![Visualizaciones 1](assets/new-viz.png)
+![Comparación de segmentos de salida de panel](assets/segment-comparison-output.png)
 
-![Visualizaciones 2](assets/new-viz2.png)
+| Visualización | Descripción |
+|---|---|
+| **[!UICONTROL Tamaño y superposición]** | Ilustra con una visualización [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) los tamaños comparativos de cada segmento seleccionado y cuánto se superponen entre sí. |
+| **[!UICONTROL Visitantes únicos para el primer segmento]** | Una visualización [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que muestra los visitantes únicos del primer segmento (en el ejemplo Visitas a una sola página) |
+| **[!UICONTROL Visitantes únicos para el segundo segmento]** | Una visualización [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que muestra los visitantes únicos del segundo segmento (en el ejemplo Visitas por primera vez) |
+| **[!UICONTROL Métricas principales con segmentos]** | Una [tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra las principales métricas de los segmentos seleccionados. |
+| **[!UICONTROL Métrica en el tiempo por segmento]** | Una visualización de [Línea](/help/analyze/analysis-workspace/visualizations/line.md) que muestra las métricas a lo largo del tiempo de los segmentos seleccionados. |
+| **[!UICONTROL Elementos de dimensión principales con segmentos]** | Una [tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra los elementos de dimensión mixtos de los segmentos seleccionados. |
+| **[!UICONTROL elementos de Dimension por segmentos]** | Una visualización de [barras horizontales](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) que muestra los elementos de dimensión por segmento. |
+| **[!UICONTROL Segmentos principales con respecto a los segmentos]** | [Tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra los segmentos principales con respecto a los segmentos. |
+| **[!UICONTROL Superposición de segmentos]** | Una visualización [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) que muestra la superposición de segmentos. |
 
-#### Tamaño y superposición
+Use ![Editar](/help/assets/icons/Edit.svg) para reconfigurar y reconstruir el panel.
 
-Ilustra los tamaños comparativos de cada segmento seleccionado y cuánto se superponen entre sí mediante un diagrama de Venn. Puede situarse sobre la imagen para ver cuántos visitantes estaban en cada sección superpuesta o no superpuesta. También puede hacer clic en la superposición para crear un segmento totalmente nuevo si desea hacer un análisis en mayor profundidad. Si los dos segmentos son mutuamente excluyentes, no se muestra ninguna superposición entre los dos círculos (normalmente se ve con segmentos que utilizan un contenedor de visita individual).
 
-![Tamaño y superposición](assets/size-overlap.png)
+<!--
+#### Size and overlap
 
-#### Resúmenes de población
+Illustrates the comparative sizes of each selected segment and how much they overlap with each other using a venn diagram. You can hover over the visual to see how many visitors were in each overlapping or non-overlapping section. You can also right click on the overlap to create a brand new segment for further analysis. If the two segments are mutually exclusive, no overlap is shown between the two circles (typically seen with segments using a hit container).
 
-A la derecha de la visualización Tamaño y superposición, se muestra la cantidad de visitantes únicos total en cada segmento y superposición.
+![Size and overlap](assets/size-overlap.png)
 
-![Resúmenes de población](assets/population_summaries.png)
+#### Population summaries
 
-#### Métricas principales
+To the right of the Size and Overlap visualization, the total unique visitor count in each segment and overlap is shown.
 
-Muestra las métricas más significativas estadísticamente entre los dos segmentos. Cada fila de dicha tabla representa una métrica diferenciadora, ordenada según lo diferente que sea de cada segmento. Una puntuación de diferencia de 1 significa que tiene relevancia estadística, mientras que una puntuación de diferencia de 0 significa que no tiene relevancia estadística.
+![Population summaries](assets/population_summaries.png)
 
-Esta visualización es similar a las tablas improvisada en Analysis Workspace. Si desea realizar un análisis más profundo de una métrica específica, pase el ratón sobre un elemento de línea y haga clic en “Crear imagen”. Se crea una nueva tabla para analizar esa métrica específica. Si una métrica no es relevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarla.
+#### Top metrics
 
->[!NOTE]
->
->Las métricas que se agreguen a esta tabla una vez finalizada la comparación de segmentos no reciben una puntuación de diferencia.
+Displays the most statistically significant metrics between the two segments. Each row in this table represents a differentiating metric, ranked by how different it is between each segment. A difference score of 1 means it is statistically significant, while a difference score of 0 means there is no statistical significance.
 
-![Métricas principales](assets/top-metrics.png)
-
-#### Métrica a lo largo del tiempo por segmento
-
-A la derecha de la tabla de métricas se encuentra la visualización vinculada. Puede hacer clic en un elemento de línea en la tabla de la izquierda y esta visualización se actualiza para mostrar esa métrica con las tendencias históricas.
-
-![Línea de métricas principales](assets/linked-viz.png)
-
-#### Dimensiones principales
-
-Muestra los elementos de dimensión más significativos estadísticamente en todas las dimensiones. Cada fila muestra el porcentaje de cada segmento con este elemento de dimensión. Por ejemplo, esta tabla podría revelar que el 100% de los visitantes del segmento A tenían el elemento de dimensión “Tipo de explorador: Google”, mientras que solo el 19,6% del “segmento B” tenía este elemento de dimensión. Una puntuación de diferencia de 1 significa que tiene relevancia estadística, mientras que una puntuación de diferencia de 0 significa que no tiene relevancia estadística.
-
-Esta visualización es similar a las tablas improvisada en Analysis Workspace. Si desea realizar un análisis más profundo de un elemento de dimensión específico, pase el ratón sobre un elemento de línea y haga clic en “Crear elemento visual”. Se crea una nueva tabla para analizar ese elemento de dimensión específico. Si un elemento de dimensión es irrelevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarlo.
+This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific metric is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific metric. If a metric is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
 
 >[!NOTE]
 >
->Los elementos de dimensión que se agreguen a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
+>Metrics added to this table after the segment comparison has finished do not receive a Difference Score.
 
-![Dimensiones principales](assets/top-dimension-item1.png)
+![Top metrics](assets/top-metrics.png)
 
-#### Elementos de dimensión por segmento
+#### Metric over time by segment
 
-A la derecha de la tabla de dimensiones se encuentra la visualización de gráfico de barras vinculada. En ella aparecen todos los elementos de dimensión en un gráfico de barras. Al hacer clic en un elemento de línea en la tabla de la izquierda, se actualiza la visualización de la derecha.
+To the right of the metrics table is a linked visualization. You can click a line item in the table on the left, and this visualization updates to show that metric trended over time.
 
-![Gráfico de barras de dimensiones principales](assets/top-dimension-item.png)
+![Top metrics line](assets/linked-viz.png)
 
-#### Segmentos principales
+#### Top dimensions
 
-Muestra qué otros segmentos (que no sean los dos seleccionados para la comparación) tienen una superposición estadísticamente significativa. Por ejemplo: esta tabla puede mostrar que un tercer segmento, “Visitantes repetidos”, se superpone con el segmento A pero no con el segmento B. Una puntuación de diferencia de 1 significa que tiene relevancia estadística, mientras que una puntuación de diferencia de 0 significa que no tiene relevancia estadística.
+Shows the most statistically significant dimension items across all of your dimensions. Each row shows the percentage of each segment exhibiting this dimension item. For example, this table might reveal that 100% of visitors in 'Segment A' had the dimension item 'Browser Type: Google', whereas only 19.6% of 'Segment B' had this dimension item. A difference score of 1 means it is statistically significant, while a difference score of 0 means there is no statistical significance.
 
-Esta visualización es similar a las tablas improvisada en Analysis Workspace. Si desea realizar un análisis más profundo de un segmento específico, pase el ratón sobre un elemento de línea y haga clic en “Crear elemento visual”. Se crea una nueva tabla para analizar ese segmento específico. Si un segmento no es relevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarlo.
+This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific dimension item is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific dimension item. If a dimension item is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
 
 >[!NOTE]
 >
->Los segmentos que se agreguen a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
+>Dimension items added to this table after the segment comparison has finished do not receive a Difference Score.
 
-![Segmentos principales](assets/top-segments.png)
+![Top dimensions](assets/top-dimension-item1.png)
 
-#### Superposición de segmentos
+#### Dimension items by segment
 
-A la derecha de la tabla de segmentos se encuentra la visualización de diagrama de Venn vinculada. Muestra el segmento más significativo estadísticamente aplicado a los segmentos comparados. Por ejemplo, “Segmento A” + “Segmento estadísticamente significativo” vs. “Segmento B” + “Segmento estadísticamente significativo”. Al hacer clic en un elemento de línea de segmento en la tabla de la izquierda, se actualiza el diagrama de Venn de la derecha.
+To the right of the dimensions table is a linked bar chart visualization. It shows all displayed dimension items in a bar chart. Clicking a line item in the table on the left updates the visualization on the right.
 
-![Diagrama de Venn de segmentos principales](assets/segment-overlap.png)
+![Top dimensions bar chart](assets/top-dimension-item.png)
+
+#### Top segments
+
+Shows which other segments (other than the two segments selected for comparison) have statistically significant overlap. For example, this table can show that a third segment, 'Repeat Visitors', overlaps highly with 'Segment A' but does not overlap with 'Segment B'. A difference score of 1 means it is statistically significant, while a difference score of 0 means there is no statistical significance.
+
+This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific segment is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific segment. If a segment is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
+
+>[!NOTE]
+>
+>Segments added to this table after the segment comparison has finished do not receive a Difference Score.
+
+![Top segments](assets/top-segments.png)
+
+#### Segment overlap
+
+To the right of the segments table is a linked venn diagram visualization. It shows the most statistically significant segment applied to your compared segments. For example, 'Segment A' + 'Statistically significant segment' vs. 'Segment B' + 'Statistically significant segment'. Clicking a segment line item in the table on the left updates the venn diagram on the right.
+
+![Top segments venn diagram](assets/segment-overlap.png)
+
+-->

@@ -4,10 +4,10 @@ title: Panel Resumen de página
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 8%
+source-wordcount: '611'
+ht-degree: 12%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Panel Resumen de página"
->abstract="Revise rápidamente algunas de las métricas de alto nivel, así como el movimiento desde y hacia una página específica.<br/><br/>**Parámetros **<br/>**Agregar un elemento de dimensión de página**: abra el carril del componente, busque la dimensión Página y expanda la dimensión haciendo clic en la zanahoria para ver los elementos de dimensión. A continuación, arrastre y suelte la página específica sobre la que desee obtener información en el generador. Una vez que haya arrastrado y soltado el elemento de dimensión, el informe se rellenará automáticamente con información clave sobre la página."
+>abstract="Revise rápidamente algunas de las métricas de alto nivel, así como el movimiento desde y hacia una página específica.<br/><br/>**Parámetros **<br/>**Agregar un elemento de dimensión de página**: abra el carril del componente, busque la dimensión Página y expanda la dimensión haciendo clic en la zanahoria para ver los elementos de dimensión. A continuación, arrastre y suelte la página específica sobre la que desee obtener información en el generador. Una vez que haya arrastrado y soltado el elemento de dimensión, el informe se rellena automáticamente con información clave sobre la página."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,50 +38,62 @@ _Este artículo documenta el panel Resumen de página en_ ![Adobe Analytics](/he
 
 >[!ENDSHADEBOX]
 
-Este panel le permite explorar fácilmente las estadísticas clave sobre páginas específicas.
+Un panel **[!UICONTROL Resumen de página]** le permite explorar estadísticas clave sobre páginas específicas.
 
-## Acceso al panel
+## Utiliza
+
+Para usar un panel **[!UICONTROL Resumen de página]**:
+
+1. Crear un panel de **[!UICONTROL resumen de página]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
+
+1. Especifica la [entrada](#panel-input) para el panel.
+
+1. Observa la [salida](#panel-output) del panel.
+
+
 
 Puede acceder al panel desde [!UICONTROL Informes] o desde [!UICONTROL Workspace].
 
 | Punto de acceso | Descripción |
 | --- | --- |
-| [!UICONTROL Informes] | <ul><li>El panel ya se ha colocado en un proyecto.</li><li>El carril izquierdo está contraído.</li><li>Solo se admite la dimensión Página.</li><li>Ya se ha aplicado una configuración predeterminada, en este caso la página más visitada para la dimensión [!UICONTROL Página]. Puede modificar esta configuración.</li></ul> |
+| [!UICONTROL Informes] | <ul><li>El panel ya se ha colocado en un proyecto.</li><li>El carril izquierdo está contraído.</li><li>Solo se admite la dimensión Página.</li><li>Ya se ha aplicado una configuración predeterminada, en este caso, la página más visitada para la dimensión [!UICONTROL Página]. Puede modificar esta configuración.</li></ul> |
 | Workspace | Cree un nuevo proyecto y seleccione el icono Panel en el carril izquierdo. Arrastre el panel [!UICONTROL Resumen de página] sobre la tabla de forma libre. Observe que el campo Página [!UICONTROL Elemento de Dimension] se deja en blanco. Seleccione un elemento de dimensión en la lista desplegable. |
 
-## Entradas de panel {#Input}
+### Entrada de panel {#panel-input}
 
 Puede configurar el panel [!UICONTROL Resumen de página] con esta configuración de entrada:
 
-| Configuración | Descripción |
+![Resumen de entrada de página](assets/page-summary-input.png)
+
+| Entrada | Descripción |
 | --- | --- |
-| Zona de colocación de segmentos (u otro componente) | Puede arrastrar y soltar segmentos u otros componentes para filtrar aún más los resultados del panel. |
-| Elemento de dimensión de página | En la lista desplegable, seleccione el elemento de dimensión Página cuyas estadísticas clave desee explorar. |
+| **[!UICONTROL Activity Map]** | Seleccione una dimensión de página para la que desee explorar estadísticas clave. |
 
 {style="table-layout:auto"}
 
-Haga clic en **[!UICONTROL Generar]** para generar el panel.
 
-## Salida de panel {#output}
+Seleccione **[!UICONTROL Generar]** para generar el panel.
+
+### Salida de panel {#panel-output}
 
 El panel [!UICONTROL Resumen de página] devuelve un completo conjunto de datos de métricas y visualizaciones para ayudarle a comprender mejor las estadísticas sobre páginas específicas.
 
-| Métrica/Visualización | Descripción |
+![Panel Resumen de página](assets/page-summary-output.png)
+
+| Visualización | Descripción |
 | --- | --- |
-| [!UICONTROL Vistas de página] - Mes actual, hasta el momento | Número de vistas de página de esta página en el mes actual. |
-| [!UICONTROL Vistas de página] - 4 semanas antes | Número de vistas de página de esta página durante el último mes. |
-| [!UICONTROL Vistas de página] - 52 semanas antes | Número de vistas de página de esta página durante el último año. |
-| [!UICONTROL Tendencia] | Gráfico de vista de página de tendencias de este mes, 4 semanas antes y 52 semanas antes. |
-| [!UICONTROL Porcentaje de todas las vistas de página] | Un número de resumen para el porcentaje de todas las vistas de página que fueron a esta página. |
-| [!UICONTROL Tiempo invertido en la página] | Gráfico de barras horizontales que enumera el tiempo empleado en esta página. |
-| [!UICONTROL Visitas de página única] | Un número de resumen que enumera el número de vistas de página donde esta fue la única página visitada. |
-| [!UICONTROL Recargas] | La métrica [!UICONTROL Recargas] muestra el número de veces que un elemento de dimensión estuvo presente durante una recarga. La forma más común de activar una recarga es a través de un visitante que actualiza su explorador. |
-| [!UICONTROL Entradas] | La métrica [!UICONTROL Entradas] muestra el número de veces que un elemento determinado se captura como el primer valor de una visita. |
-| [!UICONTROL Salidas] | La métrica [!UICONTROL Salidas] muestra el número de veces que un elemento determinado se captura como el último valor de una visita. |
-| [!UICONTROL Flujo] | Diagrama de flujo con la página seleccionada como punto focal. Puede explorar en profundidad los datos como en cualquier [diagrama de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
+| **[!UICONTROL Vistas de página] - Mes actual (hasta ahora)** | Una visualización [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que muestra el número de vistas de página para esta página en el mes actual. |
+| **[!UICONTROL Vistas de página] - 4 semanas antes** | Una visualización [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que muestra el número de vistas de página para esta página durante el último mes. |
+| **[!UICONTROL Vistas de página] - 52 semanas antes** | Una visualización [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que muestra el número de vistas de página para esta página durante el último año. |
+| **[!UICONTROL Tendencia]** | Una visualización de tendencias [Línea](/help/analyze/analysis-workspace/visualizations/line.md) para las vistas de página de este mes, cuatro semanas antes y cincuenta y dos semanas antes. |
+| **[!UICONTROL Porcentaje de todas las vistas de página]** | Un número de resumen para el porcentaje de todas las vistas de página que fueron a esta página. |
+| **[!UICONTROL Tiempo invertido en la página]** | Una visualización de [barras horizontales](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) que muestra el tiempo empleado en esta página. |
+| **[!UICONTROL Visitas de página única]** | [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que muestra el número de vistas de página donde esta página fue la única página visitada. |
+| **[!UICONTROL Recargas]** | [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que muestra el número de veces que un elemento de dimensión estuvo presente durante una recarga. La forma más común de activar una recarga es a través de un visitante que actualiza su explorador. |
+| **[!UICONTROL Entradas]** | [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que muestra el número de veces que un elemento determinado se captura como el primer valor de una visita. |
+| **[!UICONTROL Salidas]** | [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que muestra el número de veces que un elemento determinado se captura como el último valor de una visita. |
+| **[!UICONTROL Flujo]** | Una visualización [Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) con la página seleccionada como punto focal. Puede explorar en profundidad los datos como en cualquier visualización de [Flujo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
 {style="table-layout:auto"}
 
-![Panel Resumen de página](assets/page-sum1.png)
-
-![Métricas y flujo](assets/page-sum2.png)
+Use ![Editar](/help/assets/icons/Edit.svg) para reconfigurar y reconstruir el panel.
