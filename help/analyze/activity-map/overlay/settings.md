@@ -1,53 +1,56 @@
 ---
-description: En el panel Configuración de Activity Map se pueden modificar la configuración y las propiedades de todos los tipos de visualizaciones de superposición.
+description: Modifique la configuración y las propiedades de todos los tipos de visualizaciones de superposición en Activity Map.
 title: Definición de la configuración de Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-source-git-commit: ba10ceb73d953ff495613d02dd1ff825b6e518df
+source-git-commit: 13ad9d40ad74a8dffe05d899db54f4d77cbcc34c
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 48%
+source-wordcount: '562'
+ht-degree: 4%
 
 ---
 
 # Definición de la configuración de Activity Map
 
-En el panel Configuración de Activity Map se pueden modificar la configuración y las propiedades de todos los tipos de visualizaciones de superposición.
+El panel Configuración del Activity Map permite modificar la configuración y las propiedades de todos los tipos de visualizaciones de superposición.
 
-Para acceder al panel Configuración de Activity Map, haga clic en el icono del engranaje que hay en la barra de herramientas de Activity Map.
+**[!UICONTROL Superposición de Activity Map]** > **Mostrar configuración (icono de engranaje)** > **[!UICONTROL Configuración]**
 
-## Configuración general {#section_697A12F099494D699A4BF498598178C5}
+## Configuración general
 
-| Configuración | Descripción |
-| --- | --- |
-| **[!UICONTROL Compañías]** | Seleccione la empresa de inicio de sesión aplicable. |
-| **[!UICONTROL Grupo de informes]** | Ahora, la lista de los grupos de informes a la que puede acceder no solo incluye los grupos que aparecen en la etiqueta Sitio web. Ahora puede sustituir el grupo de informes seleccionado (correspondiente a una de las etiquetas de la página) por otro grupo de informes. No hace falta que este nuevo grupo de informes esté vinculado a una etiqueta de la página. Si cambia el grupo de informes seleccionado en Configuración del Activity Map, el proceso de guardado hace que todos los informes afectados de Analytics se actualicen.<br>**Importante**: [!UICONTROL Los grupos de informes virtuales] no son compatibles con [!UICONTROL Modo Activo], solo con [!UICONTROL Modo Estándar]. Si está en [!UICONTROL Modo Activo] para un grupo de informes estándar, pero selecciona un [!UICONTROL grupo de informes virtuales] en este cuadro de diálogo, una vez que haga clic en **[!UICONTROL Aceptar]** aquí, se mostrará el modo Estándar. Además, el control Calendar se reinicia para que coincida con el tipo de calendario del grupo de informes (gregoriano, comercial, personalizado...). |
-| **[!UICONTROL Nombre de la página]** | La página a la que se aplica esta configuración. |
-| **[!UICONTROL Idioma]** | La selección corresponde a los idiomas ofrecidos en Adobe Analytics. |
-| **[!UICONTROL La etiqueta se superpone con]** | <ul><li>**[!UICONTROL Sin etiquetas]**: solo aplicable para la superposición de degradado. En este caso, el color de la superposición transmite una sensación de clasificación del vínculo</li><li>**[!UICONTROL Valor]**: el total bruto de la métrica que corresponde a ese vínculo</li><li>**[!UICONTROL Porcentaje]**: porcentaje de la métrica para este vínculo en la métrica total de la página.</li><li>**[!UICONTROL Rango]**: clasificación de este vínculo en relación con todos los vínculos que hay en la página representada.</li></ul> |
-| **[!UICONTROL Tamaño de fuente de la etiqueta]** | Permite aumentar o reducir el tamaño de la fuente de la etiqueta de la superposición con un regulador para mejorar la legibilidad. |
-| **[!UICONTROL Color de degradado/burbuja]** | Para mostrar las clasificaciones de vínculos de superposición para las visualizaciones de superposición Degradación o Burbujas, seleccione entre una gama de colores |
-| **[!UICONTROL Degradación de color según]** | <ul><li>**[!UICONTROL Principales 30 rangos]**: la intensidad del color se normaliza para los 30 primeros valores.</li><li>**[!UICONTROL Valor métrico absoluto]**: la intensidad del color es una función del valor absoluto de la métrica.</li></ul> |
-| **[!UICONTROL Transparencia de degradación]** | Seleccione el nivel de transparencia de las superposiciones de degradado. Esta configuración no afecta las superposiciones [!UICONTROL Burbujas]. |
+Cambie la configuración general de la extensión y las superposiciones.
 
-## Configuración estándar {#section_24DB95376E1A448494ECF3F57743FC19}
+* **[!UICONTROL Compañías]**: muestra la organización actual de Analytics en la que inició sesión.
+* **[!UICONTROL Nombre de página]**: muestra el nombre de la página actual.
+* **[!UICONTROL Idioma]**: cambia el idioma de las etiquetas de extensión del Activity Map. Esta configuración no cambia el contenido del sitio web ni los nombres de los vínculos en los informes. Los idiomas admitidos son inglés, francés, chino (simplificado), chino (tradicional), alemán, japonés, coreano, español y portugués.
+* **[!UICONTROL Superposiciones de etiquetas con]**: Determina qué es el texto de degradado o burbuja. La configuración predeterminada es [!UICONTROL Rango]. Las opciones incluyen: 
+   * **[!UICONTROL Sin etiqueta]**: no hay texto dentro de las etiquetas, lo que las convierte en cuadros de color
+   * **[!UICONTROL Valor]**: muestra el número de clics en vínculos ([Ocurrencias](/help/components/metrics/occurrences.md))
+   * **[!UICONTROL Porcentaje]**: muestra la proporción de clics en vínculos en comparación con el número total de clics en vínculos en la página
+   * **[!UICONTROL Rango]**: La clasificación numérica del vínculo según el número de clics en el mismo.
+* **[!UICONTROL Tamaño de fuente de etiqueta]**: Determina el tamaño del texto dentro de la burbuja o degradado.
+* **[!UICONTROL Color de degradado]**: permite cambiar el color de degradado cuando el tipo de visualización es [!UICONTROL Degradado].
+* **[!UICONTROL Color de burbuja]**: permite cambiar el color de la burbuja cuando el tipo de visualización es [!UICONTROL Burbuja].
+* **[!UICONTROL Degradado de color basado en]**: Determina en qué métrica se basa la intensidad de color de un vínculo cuando el tipo de visualización es [!UICONTROL Degradado].
+   * **[!UICONTROL Principales 30 rangos]**: La intensidad del color se normaliza para los 30 vínculos principales.
+   * **[!UICONTROL Valor absoluto de métrica]**: la intensidad del color es una función del valor absoluto de la métrica.
+* **[!UICONTROL Transparencia de degradado]**: Determina la transparencia de las superposiciones de degradado cuando el tipo de visualización es [!UICONTROL Degradado]. Este control deslizante le permite hacer que la superposición de color sea completamente transparente, completamente opaca o en cualquier lugar intermedio.
 
-Esta configuración se aplica a la superposición del modo estándar.
+## Configuración estándar
 
-| Configuración | Descripción |
-| --- | --- |
-| **[!UICONTROL Filtrado dinámico de datos]** | Esta lista desplegable permite mostrar las superposiciones de<ul><li>(predeterminado) Todos los vínculos de la página</li><li>El número superior (más alto) o inferior (más bajo) de vínculos clasificados en la página, donde # puede ser una opción de 1, 10, 50 o 100.</li></ul> |
-| **[!UICONTROL Ocultar superposiciones de vínculos que no recibieron ninguna visita]**. | Casilla de verificación que activa o desactiva la visibilidad de las superposiciones en el caso de los vínculos que no contienen datos.<ul><li>(predeterminado) Si la casilla de verificación está marcada, no se muestra ninguna superposición cuando un vínculo no tiene datos de vínculo de Activity Map.</li><li>Si la casilla de verificación está desmarcada, si un vínculo no tiene datos de vínculo de Activity Map, se muestra una superposición y tiene una etiqueta de &quot;-&quot;, lo que significa N/A (no aplicable). |
+Ajuste la configuración de la vista estándar.
 
-## Configuración de Live {#section_D30F6E62FB5D404090B588F396A460AF}
+* **[!UICONTROL Filtrado dinámico de datos]**: Permite cambiar los vínculos que se muestran.
+   * **[!UICONTROL Principales]**: Muestra los vínculos más populares. Utilice la lista desplegable numérica de la derecha para determinar el número de vínculos principales que se mostrarán. Las opciones incluyen 1, 10, 50 y 100.
+   * **[!UICONTROL Inferior]**: muestra los vínculos menos populares en función de la lista desplegable de números. Utilice la lista desplegable numérica de la derecha para determinar el número de vínculos inferiores que se mostrarán. Las opciones incluyen 1, 10, 50 y 100.
+   * **[!UICONTROL Todos los vínculos]**: no aplique el filtrado dinámico de datos. La lista desplegable numérica no se aplica cuando se selecciona esta opción.
+* **[!UICONTROL Ocultar superposiciones de vínculos que no recibieron ninguna visita]**: Los vínculos de la página sin ningún clic en vínculo no muestran ninguna superposición. Estos vínculos se excluyen del filtrado dinámico de datos.
 
-Esta configuración se aplica a la superposición del modo Activo.
+## Configuración de Live
 
-| Configuración | Descripción |
-|---|---|
-| **[!UICONTROL Mostrar los primeros]** | Para mostrar **[!UICONTROL Ganadores]** o **[!UICONTROL Perdedores]** (o ambos) como superposiciones, seleccione el número de vínculos. |
-| **[!UICONTROL Excluir inferior (%)]** | Seleccione esta opción para eliminar los vínculos ganadores y perdedores con datos dispersos. Filtre el porcentaje inferior de cambios de vínculo para ver solo los vínculos que tengan datos suficientes para mostrar ganancias o pérdidas significativas. El porcentaje se calcula basándose en el número de vínculos que haya en la página. Por ejemplo, si se filtra el 10 % inferior de una lista de 200 vínculos, se filtran los 20 vínculos inferiores. |
-| **[!UICONTROL Actualizar datos automáticamente]** | Permite decidir si los datos de Analytics que se muestran en la interfaz se actualizan automáticamente o no cuando se calcula un periodo nuevo. |
-| **[!UICONTROL Período de actualización automática]** | Cuando se activa esta opción, la página web se actualiza con cada recuperación de datos nuevos para que los vínculos de la página se puedan sincronizar mejor con los datos recopilados. |
+* **[!UICONTROL Mostrar arriba]**: muestra el número superior de ganadores o perdedores en función de la lista desplegable numérica de la izquierda.
+* **[!UICONTROL Excluir inferior (%)]**: filtre el porcentaje inferior de cambios de vínculos para ver solamente los vínculos con datos suficientes para mostrar las pérdidas o ganancias relevantes. El porcentaje se calcula basándose en el número de vínculos que haya en la página. Por ejemplo, si se filtra el 10 % inferior de una lista de 200 vínculos, se filtran los 20 vínculos inferiores.
+* **[!UICONTROL Actualizar datos automáticamente]**: Determina si los datos de Analytics que se muestran en la superposición se actualizan automáticamente cuando se calcula un nuevo período.
+* **[!UICONTROL Período de actualización automática]**: cuando está activada, actualiza la página con cada recuperación de datos nuevos para que los vínculos de la página estén más estrechamente sincronizados con los datos recopilados.
