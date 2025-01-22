@@ -3,55 +3,63 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '806'
-ht-degree: 100%
+source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
+workflow-type: tm+mt
+source-wordcount: '870'
+ht-degree: 45%
 
 ---
 
-# Notas de la versión actuales de Adobe Analytics (versión de 23 de octubre de 2024)
+# Notas de la versión actuales de Adobe Analytics (versión de enero de 2025)
 
-**Última actualización**: 9 de diciembre de 2024
+**Última actualización**: martes, 22 de enero de 2024
 
-Estas notas de la versión abarcan el periodo comprendido desde el 16 de octubre de 2024 hasta finales del año 2024. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+Estas notas de la versión abarcan el periodo de lanzamiento del 15 de enero a mediados de febrero de 2025. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Nuevas funciones o mejoras {#features}
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Nuevo Report Builder para Adobe Analytics** | La nueva aplicación Report Builder supone una actualización importante para Adobe Analytics, pues incluye rendimiento mejorado, interfaz de usuario optimizada, compatibilidad con la API 2.0 y con Microsoft Excel en Mac, Windows y exploradores web. Esta aplicación se puede utilizar junto con la aplicación heredada, pero no en el mismo archivo. Se proporciona una función de actualización para actualizar los libros heredados a la nueva aplicación. [Más información](https://experienceleague.adobe.com/es/docs/analytics/analyze/report-builder/report-buider-overview) |  | 16 de octubre de 2024 |
-| **Exportación de JSON para migrar la implementación de etiquetas a las etiquetas de SDK web** | Esta actualización de la extensión de etiquetas de Analytics está relacionada con la migración a SDK web. Puede utilizar esta actualización de la extensión de Adobe Analytics como parte del flujo de trabajo para volver a crear las configuraciones de extensión con la extensión de SDK web. En la extensión de etiquetas de Adobe Analytics, puede ver la configuración de variables eVar, props y eventos como JSON, que se puede exportar para su edición e inclusión en la extensión de SDK web. |  | 31 de octubre de 2024 |
-| **Nueva información sobre Factores de solicitud en el rendimiento de Analysis Workspace** | Ahora hay disponible una nueva sección “Factores de solicitud” cuando se analiza el rendimiento de Analysis Workspace. Para obtener más información sobre cómo se procesan las solicitudes y los diversos factores que influyen en los tiempos de procesamiento, consulte “Factores de solicitud” en [Optimización del rendimiento de Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance). |  | 1 de octubre de 2024 |
-| **Período de retención del ID de transacción** | El periodo de retención del ID de transacción de 90 días se ampliará a 25 meses en enero de 2025. La variable `transactionID` identifica de forma exclusiva una transacción para que la visita se pueda vincular a los datos cargados a través de las fuentes de datos.  |  | 22 de enero de 2025 |
+| **Programación en el nuevo Report Builder** | La programación no solo le permite programar los nuevos libros de trabajo del Report Builder. Además, permite recuperar los metadatos de tareas programadas antiguas al convertir libros heredados. De este modo, al convertir los libros heredados en libros nuevos y programarlos, se envían a los mismos correos electrónicos y en la misma cadencia que los libros heredados. [Más información](/help/analyze/report-builder/schedule-reportbuilder.md) |  | 22 de enero de 2025 |
+| **Mejoras en los informes (también conocidos como plantillas) en Analysis Workspace** | Ya hay varias mejoras disponibles para los informes (también conocidas como plantillas):<ul><li>Ahora se denomina [!UICONTROL Plantillas] (ya no se denomina [!UICONTROL Informes]).</li><li>Se ha mejorado la experiencia del usuario para ver y buscar plantillas, incluida la opción de ver plantillas en una vista de columna o en una vista de tarjeta.</li><li>Ubicación nueva y más intuitiva para las plantillas de empresa (ubicadas en **[!UICONTROL Workspace]** > **[!UICONTROL Plantillas]**).</li><li>Anteriormente, se tenía acceso a las plantillas de empresa desde el cuadro de diálogo al crear un proyecto.</li><li>Hay disponibles más plantillas creadas previamente.</li></ul>[Más información](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/use-templates).<p>Los administradores pueden crear plantillas y guardarlas para que las utilicen otros usuarios de su empresa de inicio de sesión. [Más información](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/create-templates) | jueves, 15 de enero de 2025 | viernes, 30 de enero de 2025 |
+| **Período de retención del ID de transacción** | El período de retención del ID de transacción de 90 días se ampliará a 25 meses en febrero de 2025. La variable `transactionID` identifica de forma exclusiva una transacción para que la visita se pueda enlazar a los datos cargados a través de las fuentes de datos. (A continuación se muestran los vínculos de documentación) |  | miércoles, 11 de febrero de 2025 |
 
 ## Correcciones en Adobe Analytics
 
-Analysis Workspace: AN-356287; AN-358435; AN-359456; AN-359826; AN-360215
-Herramientas de administración: AN-342485; AN-347931; AN-348704; AN-357723; AN-358453; AN-358717; AN-359548; AN-360136
-Clasificaciones: AN-359025; AN-359283; AN-359368; AN-359710; AN-359752; AN-359759; AN-359799; AN-359887; AN-360543; AN-360566; AN-360612; AN-360741; AN-360942; AN-360952
-Analytics entre dispositivos: AN-359210
-Atributos del cliente: AN-357897
-Recopilación de datos: AN-351131; AN-351309; AN-355678; AN-359856
-Fuentes de datos: AN-359699
-API de reparación de datos: AN-360256
-Fuentes de datos: AN-359290
-Data Warehouse: AN-359820
-Alertas de sobrecarga: AN-358132
+A4T: AN-355602; AN-365988
+Activity Map: AN-365320
+Admin Console: AN-363884
+Herramientas de administración: AN-356747; AN-358776
+Advertising Analytics: AN-355488
+Analysis Workspace: AN-345318; AN-354801; AN-357052; AN-358975; AN-362886; AN-363831; AN-364124; AN-365257; AN-365319; AN-365462
+API de Analytics 1.4: AN-358059
+AN-360049; AN-360424; AN-362208; AN-362345; AN-362560; AN-362576; AN-362633; AN-362653; AN-362762; AN-362815 AN-AN-362885 AN-AN; AN-AN-AN; AN-AN; AN-AN; AN-AN; AN-364239; AN-AN; AN-362881; AN-AN; AN-AN; AN-362973; AN-363343; AN-363558; AN-363860; AN-364480 364451 364528 364548 364552 364585 364598 364715 364912 364997 365189 365197 365203 365431 365647 365794;
+Migración de componentes: AN-362236; AN-365429
+Análisis de contribución: AN-360146
+Fuentes de datos: AN-356997; AN-362470; AN-362498; AN-362775; AN-363323; AN-363413; AN-363569; AN-364063; AN-364142; AN-364294; AN-364298; AN-364325; AN-364367; AN-364594; AN-364995; AN-365272; AN-365519; AN-365760; AN-366152;
+API de reparación de datos: AN-362773; AN-362874
+Fuentes de datos: AN-360745; AN-362202; AN-364566
+Data Warehouse: AN-361447; AN-362616; AN-364524; AN-365108
+Aplicación móvil: AN-362856; AN-365270
+Alertas de sobrecarga: AN-355594; AN-364547
+Plataforma: AN-358914; AN-360205; AN-362990; AN-364550; AN-365454; AN-365485
+Report Builder: AN-363478; AN-364433; AN-365610
+Administrador de actividades de creación de informes: AN-362440
+Segmentación: AN-359921
+Reglas de VISTA: AN-362927
 
 ## Avisos importantes para los administradores de Adobe Analytics {#admin}
 
 | Aviso | Fecha de incorporación o actualización | Descripción |
 | ----------- | ---------- | ---------- |
-| **Los clientes que no sean de Campaign perderán acceso a Triggers** | 16 de octubre de 2023 | El 30 de enero de 2025, los clientes de Adobe Analytics que no tengan una licencia de Adobe Campaign perderán acceso a la capacidad de configurar y consumir Triggers. Los clientes deben adquirir Campaign o planear dejar de utilizar Triggers, o buscar otras herramientas de Adobe que ofrezcan las funcionalidades de Triggers. |
-| **Campos XDM de detalle de implementación adicionales asignados automáticamente** | 11 de septiembre de 2024 | Al utilizar Adobe Experience Platform Edge Network para enviar datos a Adobe Analytics, los campos XDM `xdm.implementationdetails.name` y `xdm.implementationdetails.environment` ahora siempre se asignan a las variables de datos de contexto `c.a.x.implementationdetails.name` y `c.a.x.implementationdetails.environment`. Anteriormente, algunos escenarios evitaban que estos valores se rellenaran. Ajuste las reglas de procesamiento relevantes para considerar la disponibilidad de estos valores. |
+| **Los clientes que no sean de Campaign perderán acceso a Triggers** | 16 de octubre de 2023 | El 30 de enero de 2025, los clientes de Adobe Analytics que no tengan una licencia de Adobe Campaign perderán acceso a la capacidad de configurar y consumir [Déclencheur](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers). Los clientes deben adquirir Campaign o planear dejar de utilizar Triggers, o buscar otras herramientas de Adobe que ofrezcan las funcionalidades de Triggers. |
 
 ## Avisos de final de la vida útil {#eol}
 
 | Final de la vida útil de producto o función | Fecha de incorporación o actualización | Descripción |
 | --- | --- | --- |
+| **Migración a las credenciales de servidor a servidor de Adobe I/O OAuth** | sábado, 17 de enero de 2025 | Los clientes de la API de Adobe Analytics y Livestream que utilizan las credenciales de JWT de Adobe I/O deben migrar a las credenciales de servidor a servidor de Adobe I/O OAuth de forma predeterminada el **martes, 30 de junio de 2025**. Adobe I/O no permitirá que se creen nuevas credenciales de JWT a partir del 1 de mayo de 2024. Los clientes que utilizan JWT deben crear una nueva credencial de servidor a servidor OAuth o migrar su credencial JWT existente a una credencial de servidor a servidor OAuth. Los clientes también deben actualizar sus aplicaciones cliente para utilizar las nuevas credenciales de servidor a servidor de OAuth. <ul><li>[Migración de credenciales de cuenta de servicio (JWT)](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[Guía de implementación para aplicaciones nuevas y antiguas con OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[Uso de las nuevas credenciales de servidor a servidor de OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[Preguntas frecuentes](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 | **Final de la vida útil de la API de Adobe Analytics (versión 1.4)** | 17 de julio de 2024 | El **12 de agosto de 2026**, los siguientes servicios de la API heredada de Analytics llegarán al final de su vida útil y se cerrarán, y las integraciones actuales creadas con estos servicios dejarán de funcionar:<ul><li>API de Adobe Analytics (versión 1.4)</li><li>Autenticación WSSE de Adobe Analytics</li></ul><p>Las integraciones que usan la API de Adobe Analytics (versión 1.4) deben migrarse a la [API de Adobe Analytics 2.0](https://developer.adobe.com/analytics-apis/docs/2.0/), mientras que las integraciones de WSSE deben migrarse a un protocolo de autenticación basado en OAuth en [Adobe Developer Console](https://developer.adobe.com/console).</p><p>Consulte las [preguntas frecuentes sobre el final de la vida útil de la API de Adobe Analytics 1.4](/help/admin/c-admin-api/c-admin-14-api-eol.md) para obtener respuestas a dudas comunes y más indicaciones.</p> |
-| **Migración a las credenciales de servidor a servidor de Adobe I/O OAuth** | 11 de mayo de 2023 | Los clientes de la API de Adobe Analytics y Livestream que utilizan las credenciales de JWT de Adobe I/O deben migrar a las credenciales de servidor a servidor de Adobe I/O OAuth de forma predeterminada el **1 de enero de 2025**. Adobe I/O no permitirá que se creen nuevas credenciales de JWT a partir del 1 de mayo de 2024. Los clientes que utilizan JWT deben crear una nueva credencial de servidor a servidor OAuth o migrar su credencial JWT existente a una credencial de servidor a servidor OAuth. Los clientes también deben actualizar sus aplicaciones cliente para utilizar las nuevas credenciales de servidor a servidor de OAuth. <ul><li>[Migración de credenciales de cuenta de servicio (JWT)](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[Guía de implementación para aplicaciones nuevas y antiguas con OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[Uso de las nuevas credenciales de servidor a servidor de OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[Preguntas frecuentes](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
 
 ## AppMeasurement

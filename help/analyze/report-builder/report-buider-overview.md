@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 7e8a25381f2eadafc5dc22a0991060ea475b5d43
+exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
+source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 27%
+source-wordcount: '527'
+ht-degree: 29%
 
 ---
 
@@ -20,10 +21,6 @@ El nuevo complemento Report Builder de JavaScript que inicialmente solo estaba d
 - Cross-platform: no más inicio de sesión en su VM para utilizar Report Builder, ya que ahora se admiten PC, Mac y Excel Online
 - Menos tiempo de espera para que se devuelvan los bloques de datos, gracias a la actualización a la API 2.0
 - Se ha mejorado la velocidad.
-
->[!NOTE]
->
->La programación de libros para esta versión de Report Builder en Adobe Analytics aún no se ha publicado, pero estará disponible a principios de 2025. Ahora puede empezar a trabajar con libros que no requieran programación.
 
 Los usuarios de la herramienta Report Builder heredado pueden [convertir libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
 

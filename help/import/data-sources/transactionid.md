@@ -4,9 +4,9 @@ description: Obtenga información sobre el flujo de trabajo general del uso de f
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '413'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ Cuando envía una visita en línea que contiene un valor de [`transactionID`](/h
 Las fuentes de datos del ID de transacción tienen las siguientes propiedades:
 
 * Los datos en línea deben ser recopilados y procesados primero. Si se carga una fuente de datos de ID de transacción antes de que un grupo de informes procese una visita que coincida con ese ID de transacción, los datos no se vinculan.
-* Los ID de transacción recopilados mediante AppMeasurement caducan después de aproximadamente 90 días. Si su organización necesita una ventana de ID de transacción más larga, póngase en contacto con el Servicio de atención al cliente de Adobe.
+* Los ID de transacción recopilados mediante AppMeasurement caducan pasados 25 meses.
 * Las fuentes de datos cargadas con un ID de transacción caducado se tratan de manera similar a los datos cargados sin un ID de transacción.
 * Si la misma variable se incluye en la fuente de datos de visitas en línea y en la fuente de datos del ID de transacción, se utiliza el valor de la fuente de datos del ID de transacción.
 * Si una variable se incluye en una visita en línea pero no en una visita de origen de datos de ID de transacción coincidente, se conserva la variable de visita en línea.
