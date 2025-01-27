@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 81%
+source-wordcount: '1238'
+ht-degree: 76%
 
 ---
 
@@ -75,6 +75,19 @@ Utilice el botón Programar del centro de Report Builder para crear rápidamente
 
    ![Mensaje de confirmación](./assets/confirmation-toast.png){width="55%"}
 
+## Programar un libro convertido {#converted}
+
+1. Programar un libro heredado [convertido](/help/analyze/report-builder/convert-workbooks.md).
+
+   Aparece una ventana emergente que le pregunta si desea utilizar la métrica de programación del libro de trabajo heredado para crear una nueva tarea programada.
+
+1. Si selecciona **[!UICONTROL Usar]**, Report Builder rellena automáticamente la información de programación heredada.
+
+1. Asegúrese de que esta información es correcta y programe.
+
+1. Si desea enviar el libro en una programación diferente, programe una tarea programada completamente nueva.
+
+
 ## Enviar el libro solo una vez
 
 También puede enviar el libro solo una vez.
@@ -85,7 +98,7 @@ También puede enviar el libro solo una vez.
 
 1. Haga clic en **Enviar ahora**.
 
-## Ver y editar libros programados
+## Ver y editar libros programados {#view-edit}
 
 Puede ver y administrar todos los libros programados en un mismo lugar en la pestaña Libros.
 
@@ -107,7 +120,7 @@ Puede ver y administrar todos los libros programados en un mismo lugar en la pes
 
   ![Captura de pantalla que muestra la lista de tareas programadas.](./assets/selected-workbook.png){width="40%"}
 
-## Revisar el estado de las tareas programadas
+## Revisar el estado de las tareas programadas {#status}
 
 La vista de historial permite revisar el estado de cada tarea programada. Hay una fila independiente que documenta el cambio de estado para cada tarea programada. En el ejemplo que se muestra a continuación, *Nuevo programa por hora* se inició el 5 de enero a las 15:04. A las 15:05 se actualizó correctamente y se envió a los destinatarios. Con el libro siguiente, *Libro incorrecto*, se ha generado un error durante el proceso de actualización. Si un libro no se ha podido enviar, la pestaña del historial le ayuda a solucionar problemas al mostrar en qué parte del proceso se produjo el error. En este caso, es probable que se deba a algún error de bloque de datos, tal vez a un componente que falta, que evitó que el libro se actualizara correctamente.
 

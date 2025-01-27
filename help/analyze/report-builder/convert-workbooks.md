@@ -5,13 +5,13 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
-
 
 # Convertir libros de Report Builder heredados en bloques de datos
 
@@ -19,7 +19,7 @@ Como parte del cambio a una nueva tecnología de Report Builder, puede convertir
 
 >[!IMPORTANT]
 >
->Duplique cada libro y cambie el nombre de una versión antes de convertirlo. De este modo, seguirá teniendo una copia del libro original en caso de que lo necesite.
+>Duplique cada libro y cambie el nombre de una versión antes de convertirlo. De este modo, aún tendrá una copia del libro original, en caso de que lo necesite.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
 
@@ -55,7 +55,7 @@ Como parte del cambio a una nueva tecnología de Report Builder, puede convertir
 Ahora puede [administrar el bloque de datos](/help/analyze/report-builder/manage-reportbuilder.md).
 
 
-## Funciones de Report Builder heredadas no admitidas en el nuevo Report Builder
+## Funciones de Report Builder heredadas no admitidas en el nuevo Report Builder {#unsupported}
 
 Al comparar la funcionalidad de un Report Builder heredado con la del nuevo complemento Report Builder, algunas funciones heredadas ya no están disponibles:
 
@@ -66,3 +66,7 @@ Al comparar la funcionalidad de un Report Builder heredado con la del nuevo comp
 - Opción de FTP para informes programados
 
 - Métricas de visitantes. Las siguientes métricas se convertirán en &quot;visitantes únicos&quot;, aunque el resultado del informe puede no ser una coincidencia exacta: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` y `visitorsyearly`. Esto también se aplica a `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` y `mobilevisitorsyearly`.
+
+## Programar un libro convertido {#schedule}
+
+Ver [Programar un libro convertido](/help/analyze/report-builder/schedule-reportbuilder.md) en el artículo de programación.
