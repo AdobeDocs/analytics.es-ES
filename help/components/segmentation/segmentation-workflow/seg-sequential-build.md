@@ -3,7 +3,7 @@ description: Los segmentos secuenciales se crean mediante el operador THEN, en l
 title: Generar segmentos secuenciales
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 564b5fd305f1c8c4e16a92d3b2094ba73ba91c4c
+source-git-commit: c1a72e57d4dfdaae1f90e69fd940137af9dab1a8
 workflow-type: tm+mt
 source-wordcount: '3931'
 ht-degree: 96%
@@ -27,7 +27,7 @@ Este es un vídeo sobre la segmentación secuencial:
 Al crear un segmento en el cual se ha definido “Incluir a todos”, el segmento identifica las rutas de acceso que coinciden con el patrón determinado como conjunto. Este es un ejemplo de segmento de secuencia básica que busca una visita individual (Página A) seguida de otra (Página B) según la visita del mismo visitante. Este segmento está definido en Incluir a todos.
 
 ![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](assets/terrible-link-1.png)
+![70a875e2-0ef9-4459-8648-77c60081d64d](assets/copied-link-1.png)
 
 | Si el resultado... | Secuencia |
 |--- |--- |
@@ -293,7 +293,7 @@ Las páginas B y C están anidadas en un contenedor de [!UICONTROL grupo lógico
 
 ![](assets/logic_group_any_order3.png)
 
-El segmento debe coincidir al menos con uno de los puntos de comprobación del grupo lógico (B o C). Además, las condiciones de grupo lógico pueden cumplirse en la misma visita o en varias visitas individuales. &#x200B;
+El segmento debe coincidir al menos con uno de los puntos de comprobación del grupo lógico (B o C). Además, las condiciones de grupo lógico pueden cumplirse en la misma visita o en varias visitas individuales.
 
 ### Primera coincidencia del grupo lógico
 
@@ -349,11 +349,11 @@ Puede limitar las coincidencias a una duración de tiempo especificada usando lo
 >
 >Hay diferencias en la evaluación entre elementos con nombres similares como **Day(s)** o **Day**. Para definiciones basadas en el tiempo de En y Después, utilice las opciones que aparecen primero en la ventana emergente:
 >
->![imagen](assets/terrible-link-2.png)
+>![imagen](assets/copied-link-2.png)
 >
 >Para definiciones basadas en dimensiones de En y Después, utilice las opciones del submenú *Otros Dimension*:
 >
->![imagen](assets/terrible-link-3.png)
+>![imagen](assets/copied-link-3.png)
 
 ### Operadores After y Within {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
