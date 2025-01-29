@@ -4,9 +4,9 @@ title: Uso de plantillas
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 16fa1836053e3b1b4935882234993709ac63c410
+source-git-commit: dc1744cf4816971d52364a3131a12601787d9819
 workflow-type: tm+mt
-source-wordcount: '18092'
+source-wordcount: '18673'
 ht-degree: 71%
 
 ---
@@ -1225,3 +1225,50 @@ Las plantillas disponibles son las siguientes:
 | **Dominios de referencia originales** | Ver el primer dominio de referencia en el que los visitantes hicieron clic para llegar a su sitio. (Una vez configurado, contiene el mismo valor para toda la duración de ese ID de visitante).<p>**Esto puede ayudarle a comprender** qué sitios de terceros originalmente generan tráfico a su sitio.</p><p>**En función de lo que sepa, podría** hacer muchas cosas, como crear o ajustar contenido para que se ajuste más a los intereses de los visitantes que provienen de los principales dominios de referencia originales. </p><p>Esta plantilla utiliza la dimensión Dominio de referencia original. </p> |
 | **Referentes** | Ver en qué direcciones URL se encontraban los visitantes al hacer clic para llegar al sitio. (Debe existir un vínculo en la dirección URL externa y un visitante debe hacer clic en él para que se muestre el elemento de dimensión).  <p>**Esto puede ayudarle** a comprender qué direcciones URL específicas generan la mayor cantidad de tráfico en el sitio. </p><p>**En función de lo que sepa, podría** hacer muchas cosas, como crear o ajustar contenido para que se ajuste más a los intereses de los visitantes que provienen de las principales direcciones URL. </p><p>Esta plantilla utiliza la dimensión Dominio de referencia </p><p>Esta plantilla utiliza la dimensión Referente. </p> |
 | **Tipos de referente** | Ver en qué canales genéricos hicieron clic los visitantes para llegar al sitio. Adobe mantiene las reglas para cada canal. Los posibles canales incluyen motores de búsqueda, redes sociales, otros sitios web, discos duros o correo electrónico.<p>**Esto puede ayudarle** a comprender mejor qué tipo de referentes generan la mayor cantidad de tráfico en el sitio.</p><p>**En función de lo que aprendas, puedes** hacer muchas cosas, como crear o ajustar contenido para que se ajuste más a los intereses de los visitantes que vienen de un determinado canal.</p><p>Esta plantilla utiliza la dimensión Tipo de referente.</p> |
+
+## Plantillas móviles
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="template--mobileCarrierRankedReport"
+>title="Ver la compañía de telecomunicaciones que proporciona conectividad de red celular a los dispositivos móviles que los usuarios utilizan para acceder al sitio."
+>abstract="**Esto puede ayudarle** a comprender mejor qué operadores de telefonía móvil son los más populares entre su base de usuarios.<br/>**En función de lo que aprenda, podría** hacer cualquier cosa, como adaptar la entrega de contenido en función de las capacidades de red de diferentes operadores para garantizar una experiencia de usuario sin problemas.<br/>Esta plantilla usa la dimensión Operador de telefonía móvil."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="template--mobileDeviceNameRankedReport"
+>title="Ver la marca y el modelo de dispositivos móviles que los usuarios utilizan para acceder al sitio."
+>abstract="**Esto puede ayudarle** a comprender mejor qué dispositivos móviles son los más populares entre su base de usuarios.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar la representación del sitio para los dispositivos móviles más comunes.<br/>Esta plantilla usa la dimensión Nombre del dispositivo móvil."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="template--mobileDeviceTypeRankedReport"
+>title="Ver los tipos de dispositivos móviles que usan los usuarios para acceder al sitio, como teléfonos y tabletas."
+>abstract="**Esto puede ayudarle** a comprender mejor los distintos tipos de dispositivos móviles que se usan para acceder al sitio.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar el sitio para los tipos de dispositivos móviles que más se usan.<br/>Esta plantilla utiliza la dimensión Tipo de dispositivo móvil."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="template--mobileManufacturerRankedReport"
+>title="Ver qué fabricantes producen los dispositivos móviles que usan los usuarios para acceder al sitio, como Apple y Samsung."
+>abstract="**Esto puede ayudarle** a entender mejor qué fabricantes son los más populares entre su base de usuarios.<br/>**En función de lo que aprenda, puede** hacer cualquier cosa, como adaptar su entrega de contenido en función de las capacidades de diferentes fabricantes para garantizar una experiencia de usuario sin problemas.<br/>Esta plantilla usa la dimensión Fabricante del móvil."
+
+<!-- markdownlint-enable MD034 -->
+
+Las plantillas disponibles son las siguientes:
+
+| Nombre de plantilla | Por qué usar esta plantilla <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| --- | --- | 
+| [!UICONTROL **Operador de telefonía móvil**] | Ver la compañía de telecomunicaciones que proporciona conectividad de red celular a los dispositivos móviles que los usuarios utilizan para acceder al sitio.<p>**Esto puede ayudarle** a comprender mejor qué operadores de telefonía móvil son los más populares entre su base de usuarios.</p><p>**En función de lo que aprenda, podría** hacer cualquier cosa, como adaptar la entrega de contenido en función de las capacidades de red de diferentes operadores para garantizar una experiencia de usuario sin problemas.</p><p>Esta plantilla utiliza la dimensión Operador de telefonía móvil.</p> |
+| **Dispositivos** | Ver la marca y el modelo de dispositivos móviles que los usuarios utilizan para acceder al sitio.<p>**Esto puede ayudarle** a comprender mejor qué dispositivos móviles son los más populares entre su base de usuarios.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar la representación del sitio para los dispositivos móviles más comunes.</p><p>Esta plantilla utiliza la dimensión Nombre del dispositivo móvil.</p> |
+| **Tipo de dispositivo** | Ver los tipos de dispositivos móviles que usan los usuarios para acceder al sitio, como teléfonos y tabletas.<p>**Esto puede ayudarle** a comprender mejor los distintos tipos de dispositivos móviles que se usan para acceder al sitio.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar el sitio para los tipos de dispositivos móviles que más se usan.</p><p>Esta plantilla utiliza la dimensión Tipo de dispositivo móvil.</p> |
+| **Fabricante** | Ver qué fabricantes producen los dispositivos móviles que usan los usuarios para acceder al sitio, como Apple y Samsung.<p>**Esto puede ayudarle** a entender mejor qué fabricantes son los más populares entre su base de usuarios.</p><p>**En función de lo que aprenda, puede** hacer cualquier cosa, como adaptar su entrega de contenido en función de las capacidades de diferentes fabricantes para garantizar una experiencia de usuario sin problemas.</p><p>Esta plantilla utiliza la dimensión Fabricante móvil.</p> |
