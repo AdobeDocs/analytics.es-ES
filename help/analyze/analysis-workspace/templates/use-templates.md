@@ -4,9 +4,9 @@ title: Uso de plantillas
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: dc1744cf4816971d52364a3131a12601787d9819
+source-git-commit: f39ca03cd87ff5584348c526646f3eb39dfa75fd
 workflow-type: tm+mt
-source-wordcount: '18673'
+source-wordcount: '18672'
 ht-degree: 71%
 
 ---
@@ -1226,7 +1226,7 @@ Las plantillas disponibles son las siguientes:
 | **Referentes** | Ver en qué direcciones URL se encontraban los visitantes al hacer clic para llegar al sitio. (Debe existir un vínculo en la dirección URL externa y un visitante debe hacer clic en él para que se muestre el elemento de dimensión).  <p>**Esto puede ayudarle** a comprender qué direcciones URL específicas generan la mayor cantidad de tráfico en el sitio. </p><p>**En función de lo que sepa, podría** hacer muchas cosas, como crear o ajustar contenido para que se ajuste más a los intereses de los visitantes que provienen de las principales direcciones URL. </p><p>Esta plantilla utiliza la dimensión Dominio de referencia </p><p>Esta plantilla utiliza la dimensión Referente. </p> |
 | **Tipos de referente** | Ver en qué canales genéricos hicieron clic los visitantes para llegar al sitio. Adobe mantiene las reglas para cada canal. Los posibles canales incluyen motores de búsqueda, redes sociales, otros sitios web, discos duros o correo electrónico.<p>**Esto puede ayudarle** a comprender mejor qué tipo de referentes generan la mayor cantidad de tráfico en el sitio.</p><p>**En función de lo que aprendas, puedes** hacer muchas cosas, como crear o ajustar contenido para que se ajuste más a los intereses de los visitantes que vienen de un determinado canal.</p><p>Esta plantilla utiliza la dimensión Tipo de referente.</p> |
 
-## Plantillas móviles
+### Móvil {#mobile-not-ready-for-use}
 
 <!-- markdownlint-disable MD034 -->
 
