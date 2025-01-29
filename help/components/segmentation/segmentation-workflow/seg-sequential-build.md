@@ -3,9 +3,9 @@ description: Los segmentos secuenciales se crean mediante el operador THEN, en l
 title: Generar segmentos secuenciales
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 0fd1f7a9dd876eef02dd6dbf9e40426b0acdbc17
+source-git-commit: 564b5fd305f1c8c4e16a92d3b2094ba73ba91c4c
 workflow-type: tm+mt
-source-wordcount: '3934'
+source-wordcount: '3931'
 ht-degree: 96%
 
 ---
@@ -27,7 +27,7 @@ Este es un vídeo sobre la segmentación secuencial:
 Al crear un segmento en el cual se ha definido “Incluir a todos”, el segmento identifica las rutas de acceso que coinciden con el patrón determinado como conjunto. Este es un ejemplo de segmento de secuencia básica que busca una visita individual (Página A) seguida de otra (Página B) según la visita del mismo visitante. Este segmento está definido en Incluir a todos.
 
 ![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](https://git.corp.adobe.com/storage/user/5902/files/d55be11f-4c4c-4198-bba5-ecad27ebcabf)
+![70a875e2-0ef9-4459-8648-77c60081d64d](assets/terrible-link-1.png)
 
 | Si el resultado... | Secuencia |
 |--- |--- |
@@ -349,11 +349,11 @@ Puede limitar las coincidencias a una duración de tiempo especificada usando lo
 >
 >Hay diferencias en la evaluación entre elementos con nombres similares como **Day(s)** o **Day**. Para definiciones basadas en el tiempo de En y Después, utilice las opciones que aparecen primero en la ventana emergente:
 >
->![imagen](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>![imagen](assets/terrible-link-2.png)
 >
 >Para definiciones basadas en dimensiones de En y Después, utilice las opciones del submenú *Otros Dimension*:
 >
->![imagen](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
+>![imagen](assets/terrible-link-3.png)
 
 ### Operadores After y Within {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
