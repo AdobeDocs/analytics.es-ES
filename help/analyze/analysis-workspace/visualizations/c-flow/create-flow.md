@@ -4,10 +4,10 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
+source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 95%
+source-wordcount: '1415'
+ht-degree: 43%
 
 ---
 
@@ -19,13 +19,9 @@ Las visualizaciones de flujos le permiten configurar el inicio o el final de la 
 
 ![nueva interfaz de usuario de flujo](assets/new-flow.png)
 
-## Crear una visualización de flujo {#configure}
+## Utiliza
 
-1. Añada un panel en blanco al proyecto y haga clic en el icono de visualizaciones del carril izquierdo. 
-
-   O
-
-   Añada una visualización de cualquiera de las formas descritas en la sección “Añadir visualizaciones a un panel” de [Información general sobre visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+1. Agregue una visualización ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flow]**. Consulte [Agregar una visualización a un panel](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
 1. Ancle la visualización de flujo mediante una de las opciones siguientes:
 
@@ -33,136 +29,276 @@ Las visualizaciones de flujos le permiten configurar el inicio o el final de la 
    * [!UICONTROL **Contiene**] (dimensiones o elementos), o
    * [!UICONTROL **Finaliza con**] (métricas, dimensiones o elementos)
 
-   Cada una de estas categorías se muestra como “zona de colocación”. Puede rellenar la zona de colocación de tres formas:
+   Cada una de estas categorías se muestra en pantalla como una *zona de colocación*. Puede rellenar la zona de colocación de tres formas:
 
    * Utilice el menú desplegable para seleccionar métricas o dimensiones.
-   * Arrastre las dimensiones o métricas en el carril izquierdo.
+   * Arrastre dimensiones o métricas desde el panel izquierdo.
    * Empiece a escribir el nombre de una dimensión o métrica y, a continuación, selecciónela cuando aparezca en la lista desplegable.
 
    >[!IMPORTANT]
    >
-   >Las métricas calculadas no se pueden usar con **[!UICONTROL Comienza con]** o **[!UICONTROL Finaliza con]**.
+   >No se pueden usar las métricas calculadas en los campos **[!UICONTROL Comienza con]** o **[!UICONTROL Finaliza con]**.
 
 1. Si elige una métrica, también debe proporcionar un [!UICONTROL **Dimension de rutas**] que utilizará como ruta de acceso o de origen del componente seleccionado, como se muestra a continuación. El valor predeterminado es [!UICONTROL **Página**].
 
-   ![dimensión de las rutas](assets/pathing-dim.png)
+   ![Configuración de flujo](assets/flow-configure.png)
 
 1. (Opcional) Seleccione **[!UICONTROL Mostrar configuración avanzada]** para configurar cualquiera de las siguientes opciones:
 
-   ![configuración avanzada](assets/adv-settings.png)
 
    | Configuración | Descripción |
    | --- | --- |
    | **[!UICONTROL Etiquetas de ajustes]** | Normalmente, las etiquetas de los elementos de flujo se truncan para ahorrar espacio en la pantalla, pero puede hacer la etiqueta entera visible al marcar esta casilla.  Valor predeterminado = sin marcar. |
    | **[!UICONTROL Incluir instancias de repetición]** | Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo, recargas de página. Sin embargo, las repeticiones no se pueden eliminar de las visualizaciones de flujo que incluyen dimensiones multivalor, como listVars, listProps, s.product, eVars de comercialización, etc. <p>Esta opción está desactivada de forma predeterminada.</p> |
-   | **[!UICONTROL Limitar a la primera/última ocurrencia]** | Limite las rutas a aquellas que comienzan/finalizan con la primera/última ocurrencia de una dimensión, un elemento o una métrica. Consulte la sección siguiente [Ejemplo de escenario para “limitar a la primera/última incidencia”](#example-scenario-for-limit-to-firstlast-occurrence) para obtener una explicación más detallada. |
+   | **[!UICONTROL Limitar a la primera/última ocurrencia]** | Limite las rutas a las rutas que comienzan o finalizan con la primera o la última aparición de una dimensión, un elemento o una métrica. Consulte [Limitar a la primera/última ocurrencia](#example-scenario-for-limit-to-firstlast-occurrence) para obtener una explicación más detallada. |
    | **[!UICONTROL Número de columnas]** | El número de columnas que quiere incluir en el diagrama de flujo. Puede especificar hasta un máximo de 5 columnas. |
    | **[!UICONTROL Elementos expandidos por columna]** | Cuántos elementos desea incluir en cada columna. Puede especificar un máximo de 10 elementos expandidos por columna. |
-   | **[!UICONTROL Contenedor de flujo]** | <ul><li>Visita</li><li>Visitante.</li></ul> Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. Estos ajustes le permiten comprender el compromiso del visitante a nivel de visitante (a lo largo de visitas) o restringir el análisis a una única visita. |
+   | **[!UICONTROL Contenedor de flujo]** | Puede cambiar entre **[!UICONTROL Sesiones]** y **[!UICONTROL Persona]** para analizar las rutas. Esta configuración le ayuda a comprender la participación de una persona en el nivel de persona (entre sesiones) o a restringir el análisis a una sola sesión. |
 
    >[!IMPORTANT]
    >
    >La combinación de **[!UICONTROL Número de columnas]** y **[!UICONTROL Elementos expandidos por columna]** determina el número de solicitudes subyacentes necesarias para crear la visualización del flujo. Cuanto más altos sean esos números, más tiempo se tarda en procesar una visualización.
 
+
 1. Seleccione **[!UICONTROL Generar]**.
 
->[!INFO]
->
->**Ejemplo:** suponga que desea rastrear la ruta que siguieron los usuarios tanto hacia como desde las páginas más populares de su sitio.
->
->Para ello, haría lo siguiente:
-> 
->1. Empiece a crear una visualización de flujo tal como se ha descrito anteriormente.
->1. Arrastre la dimensión [!UICONTROL **Página**] al campo **[!UICONTROL Contiene]** y, a continuación, seleccione [!UICONTROL **Generar**].
->1. La visualización de flujo se genera con la página más vista visible en el nodo de enfoque en el centro de la visualización. También verá las páginas principales que dirigen a esa página (a la izquierda del nodo de enfoque), así como las páginas principales que dirigen fuera de esa página (a la derecha del nodo de enfoque).
->1. Analice los datos en el flujo, tal como se describe en [Ver y cambiar la salida del flujo](#view-and-change-the-flow-output).
+
+### Ejemplo
+
+Supongamos que desea rastrear la ruta que tomaron los usuarios tanto hacia como desde las páginas más populares del sitio.
+
+1. Cree una visualización de flujo como se ha descrito anteriormente.
+1. Arrastre la dimensión [!UICONTROL **Página**] al campo **[!UICONTROL Contiene]** y, a continuación, seleccione [!UICONTROL **Generar**].
+1. Se genera la visualización de flujo, con la página más vista visible en el nodo de enfoque, en el centro de la visualización. También verá las páginas principales que dirigen a esa página (a la izquierda del nodo de enfoque), así como las páginas principales que dirigen fuera de esa página (a la derecha del nodo de enfoque).
+1. Analice los datos en el flujo, tal como se describe en [Configurar](#configure).
 
 
-## Ver y cambiar la salida del flujo {#output}
+## Configuración
 
-![salida del flujo](assets/flow-output.png)
+En la parte superior de las visualizaciones aparece un resumen de la configuración de flujo. Las rutas del diagrama son proporcionales. Las rutas con más actividad se muestran más gruesas.
 
-En la parte superior del diagrama aparece un resumen de la configuración de flujo. El grosor de un trazado en el diagrama es proporcional a su actividad y los trazados con más actividad parecen más gruesos que los que tienen menos actividad.
+![Ejemplo de salida de flujo que muestra Ends with Visits, dimensión Pathing: Page y contenedor de flujo: Visitors.](assets/flow-output.png)
 
 Para explorar en profundidad los datos, tiene varias opciones:
 
 * El diagrama de flujo es interactivo. Pase el ratón por encima del diagrama para cambiar los detalles que se muestran.
 
-* Al seleccionar en un nodo del diagrama, aparecen los detalles de dicho nodo. Seleccione de nuevo el nodo para contraerlo.
+* Al seleccionar en un nodo del diagrama, aparecen los detalles de dicho nodo. Vuelva a seleccionar el nodo para contraerlo.
 
-  ![detalles del nodo](assets/node-details.png)
+  ![Ejemplo de diagrama de flujo interactivo que muestra detalles de nodo.](assets/node-details.png)
 
 * Puede filtrar una columna para mostrar solo ciertos resultados, como incluir y excluir, especificar criterios, etc.
 
-* Seleccione el signo más (+) de la izquierda para expandir una columna.
+* Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) en el lado izquierdo o derecho para expandir una columna.
 
-* Utilice las opciones del botón derecho que se explican a continuación para personalizar aún más la salida.
+* Para personalizar la salida, use las opciones del [menú contextual](#context-menu).
 
-* Seleccione el icono de lápiz situado junto al resumen de la configuración para editar el flujo o volver a crearlo con diferentes opciones.
-
-* También puede exportar y seguir analizando el diagrama de flujo como parte del archivo .CSV de un proyecto. Para ello, vaya a **[!UICONTROL Proyecto]** > **[!UICONTROL Descargar CSV]**.
+* Para editar el flujo o reconstruirlo con diferentes opciones, seleccione ![Editar](/help/assets/icons/Edit.svg) junto al resumen de la configuración.
 
 ## Filtro
 
-Por encima de cada columna aparece un filtro cuando pasa el ratón por encima. Al hacer clic en el filtro, obtiene el mismo cuadro de diálogo de filtro que existe en la tabla de forma libre de hoy. Este filtro funciona igual que en la tabla de forma libre.
+Encima de cada columna aparece un filtro ![Filter](/help/assets/icons/Filter.svg) al pasar el ratón por encima. Al seleccionar el filtro, obtiene el mismo cuadro de diálogo de filtro que existe en la tabla de forma libre. Ver [Filtrar y ordenar](freeform-table/../../freeform-table/filter-and-sort.md).
 
-* Utilice la configuración avanzada para incluir o excluir determinados criterios con nuestra lista de operadores.
-* Una vez que haya filtrado un elemento de la lista, esa columna específica reflejará el filtrado. (El filtro lo reduce para mostrar solo el elemento permitido en el filtro o elimina todos los elementos excepto el elemento que desee en el filtro.
-* Todas las columnas descendentes y ascendentes deben persistir, siempre y cuando haya datos que fluyen a los nodos restantes.
-* Una vez aplicado, el icono de filtro aparece en azul encima de la columna que está filtrando.
-* Para quitar un filtro, seleccione el icono de filtro para abrir el menú de filtro. Quite los filtros aplicados y, a continuación, seleccione **[!UICONTROL Guardar]**. El flujo volverá a su estado anterior sin filtrar.
+* Use **[!UICONTROL Mostrar avanzado]** para configurar las opciones avanzadas con el fin de incluir o excluir ciertos criterios con una lista de operadores. Consulte [Filtros y ordenación](../freeform-table/filter-and-sort.md) para obtener más información.
+* Una vez filtrada una columna, esa columna específica refleja el filtrado. Un ![filtro](/help/assets/icons/FilterColored.svg) azul indica que la columna está filtrada.  El filtro reduce la columna para mostrar solo el elemento permitido en el filtro. También elimina todos los elementos, excepto el elemento que desee en el filtro.
+* Todas las columnas descendentes y ascendentes persisten, siempre y cuando haya datos que fluyen a los nodos restantes.
+* Para quitar un filtro, selecciona ![Filtro](/help/assets/icons/Filter.svg) para abrir el menú de filtros. Quite los filtros aplicados y, a continuación, seleccione **[!UICONTROL Guardar]**. El flujo volverá a su estado anterior sin filtrar.
 
-## Opciones con el botón derecho del ratón {#right-click}
+## Menú contextual
+
+Utilice un menú contextual en cualquier nodo de la visualización de flujo con las siguientes opciones:
 
 | Opción | Descripción |
 |--- |--- |
-| [!UICONTROL Volver a empezar] | Le hace regresar al generador de diagramas improvisados, donde puede crear un nuevo diagrama de flujo. |
-| [!UICONTROL Crear segmento para esta ruta] | Creación de segmentos. Esto le lleva al Generador de segmentos, donde puede configurar el nuevo segmento. |
-| [!UICONTROL Desglose] | Desglosa el nodo mediante las dimensiones, métricas o tiempo disponibles. |
-| [!UICONTROL Tendencia] | Crea un diagrama de tendencia para el nodo. |
-| Mostrar columna siguiente / Mostrar columna anterior | Muestra la columna siguiente (derecha) o anterior (izquierda) de la visualización. |
-| Ocultar columna | Oculta la columna seleccionada de la visualización. |
-| [!UICONTROL Expandir toda la columna] | Expande una columna para mostrar todos los nodos. De forma predeterminada, únicamente se muestran los cinco nodos principales. |
+| **[!UICONTROL Centrarse en este nodo]** | Cambia el interés al nodo seleccionado. El nodo de interés aparece en el centro del diagrama de flujo. |
+| **[!UICONTROL Volver a empezar]** | Vuelva al generador de diagramas improvisados, donde puede crear un nuevo diagrama de flujo. |
+| **[!UICONTROL Crear un filtro para esta ruta]** | Crear un filtro. Esta selección le lleva al Generador de filtros, donde puede configurar el nuevo filtro. |
+| **[!UICONTROL Desglose]** | Desglosa el nodo mediante las dimensiones, métricas o tiempo disponibles. |
+| **[!UICONTROL Columna de filtro]** | Aparecerán las mismas opciones de filtro que están disponibles en la tabla de forma libre. Para obtener más información acerca de las opciones disponibles, vea la sección &quot;Aplicar un filtro simple o avanzado a una tabla&quot; en [Filtrar y ordenar tablas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| **[!UICONTROL Excluir elemento]** o **[!UICONTROL Restaurar elementos excluidos]** | Quita un nodo específico de la columna y lo crea automáticamente como filtro en la parte superior de la columna. Para restaurar el elemento excluido, en el menú contextual, seleccione **[!UICONTROL Restaurar elemento excluido]**. También puede abrir el filtro en la parte superior de la columna y quitar el recuadro con el elemento que acaba de excluir. |
+| **[!UICONTROL Tendencia]** | Crea un diagrama de tendencia para el nodo. |
+| **[!UICONTROL Mostrar columna siguiente]** / **[!UICONTROL Mostrar columna anterior]** | Muestra la columna siguiente (derecha) o anterior (izquierda) de la visualización. |
+| **[!UICONTROL Ocultar columna]**n | Oculta la columna seleccionada de la visualización. |
+| **[!UICONTROL Expandir toda la columna]** | Expande una columna para mostrar todos los nodos. De forma predeterminada, únicamente se muestran los cinco nodos principales. |
+| **[!UICONTROL Crear audiencia a partir de la selección]** | Crea una audiencia basada en la columna seleccionada. |
+| **[!UICONTROL Contraer toda la columna]** | Oculta todos los nodos de una columna. |
 
-## Ejemplo de escenario para «limitar a la primera/última incidencia»
+## Limitar a la primera/última ocurrencia
 
 Al utilizar esta opción, tenga en cuenta que:
 
 * **[!UICONTROL Limitar a primera/última incidencia]** solo cuenta la primera/última incidencia de la serie. Todas las demás ocurrencias de los criterios **[!UICONTROL Comienza con]** o **[!UICONTROL Finaliza con]** se descartan.
-* Si se usa con un flujo de **[!UICONTROL Comienza con]**, solo se incluye la primera incidencia que coincida con los criterios de inicio.
-* Si se usa con un flujo de **[!UICONTROL Finaliza con]**, solo se incluirá la última incidencia que coincida con los criterios finales.
-* La serie utilizada difiere según el contenedor. Si se usa el contenedor **[!UICONTROL Visita]**, la serie de visitas será la sesión. Si se usa el contenedor **[!UICONTROL Visitante]**, la serie de visitas será todas las visitas de un usuario determinado en el intervalo de fechas proporcionado.
-* La opción **[!UICONTROL Limitar a primera/última incidencia]** se puede configurar en la configuración avanzada cuando se utiliza un elemento de Métrica o Dimensión en los campos «Comienza con» o «Finaliza con».
+* Si se usa con un flujo de **[!UICONTROL Comienza con]**, solo se incluirá la primera incidencia que coincida con los criterios de inicio.
+En el ejemplo siguiente, se incluyen **todas** las ocurrencias de *Agregar al carro de compras* y *Categoría principal del producto* en cada paso del flujo.
+  ![Sin límite, primero](assets/limitofffirst.png)
 
-Ejemplo de serie de visitas:
+  En el ejemplo siguiente, solo se incluyen las **primeras** ocurrencias de *Agregar al carro de compras* y *Categoría principal del producto* en cada paso del flujo.
+  ![Lint, inicio](assets/limitonfirst.png)
+* Si se usa con un flujo **[!UICONTROL Finaliza con]**, solo se incluirá la última incidencia que coincida con los criterios finales.
+En el ejemplo siguiente, se incluyen **todas** las ocurrencias de *categoría principal del producto* y *Agregar al carro de compras* en cada paso del flujo.
+  ![Sin límite, primero](assets/limitofflast.png)
 
-Inicio > Productos > Agregar al carro > Productos > Agregar al carro > Facturación > Confirmación del pedido
+  En el ejemplo siguiente, solo se incluyen las **últimas** ocurrencias de *categoría principal del producto* y *Agregar al carro de compras* en cada paso del flujo.
+  ![Lint, inicio](assets/limitonlast.png)
+* La serie utilizada difiere según el contenedor. Si se usa el contenedor **[!UICONTROL Persona]**, la serie de eventos es la sesión. Si se usa el contenedor **[!UICONTROL Session]**, la serie de eventos son todos los eventos de un usuario determinado en el intervalo de fechas proporcionado.
+* La opción **[!UICONTROL Limitar a primera/última incidencia]** se puede configurar en la configuración avanzada cuando se usa un elemento de métrica o Dimension en los campos **[!UICONTROL Comienza con]** o **[!UICONTROL Finaliza con]**.
 
-### Considere un análisis de flujo con la siguiente configuración:
 
-* Comience por[!UICONTROL  Agregar al carro] (Artículo Dimension)
-* [!UICONTROL Página] dimensión de las rutas
-* Contenedor de [!UICONTROL visita]
+>[!MORELIKETHIS]
+>
+>[Agregar una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menú contextual de visualización ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
 
-Si **[!UICONTROL Limitar a primera/última ocurrencia]** está *deshabilitado*, esta única serie de visitas contaría 2 ocurrencias de «Agregar al carro de compras».
-Salida de flujo esperada:
-«Agregar al carro de compras» (2) —> «Productos» (1)
--> «Facturación» (1)
 
-Sin embargo, si **[!UICONTROL «Limitar a la primera/última ocurrencia»]** está *habilitado*, solo se incluirá en el análisis la primera ocurrencia de «Agregar al carro de compras».
-Salida de flujo esperada:
-«Agregar al carro de compras» (1) —> «Productos» (1)
+<!--
+## Create a flow visualization {#configure}
 
-### Considere la misma serie de visitas pero utilice la siguiente configuración:
+1. Add a blank panel to your project and click the visualizations icon in the left rail. 
 
-* Finaliza con [!UICONTROL Agregar al carrito] (Artículo Dimension)
-* [!UICONTROL Página] dimensión de las rutas
-* Contenedor de [!UICONTROL visita]
+   Or
+   
+   Add a visualization in any of the ways described in the "Add visualizations to a panel" section in [Visualizations overview](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 
-Si **[!UICONTROL Limitar a primera/última ocurrencia]** está *deshabilitado*, esta única serie de visitas contaría 2 ocurrencias de «Agregar al carro de compras».
-Salida de flujo esperada:
-«Productos» (2) &lt;— «Agregar al carro de compras» (2)
+1. Anchor your Flow visualization using one of the following options:
 
-Sin embargo, si **[!UICONTROL Limitar a primera/última ocurrencia]** está *habilitado*, solo la última ocurrencia de [!UICONTROL Agregar al carro de compras] se incluiría en el análisis.
-Salida de flujo esperada:
-«Productos» (1) &lt;— «Agregar al carro de compras» (1)
+   * [!UICONTROL **Starts with**] (metrics, dimensions, or items), or
+   * [!UICONTROL **Contains**] (dimensions, or items), or
+   * [!UICONTROL **Ends with**] (metrics, dimensions, or items)
+
+   Each of these categories is shown onscreen as a "drop zone." You can populate the drop zone in 3 ways:
+
+   * Use the drop-down menu to select metrics or dimensions.
+   * Drag dimensions or metrics from the left rail.
+   * Begin typing the name of a dimension or metric, then select it when it appears in the drop-down list.
+
+   >[!IMPORTANT]
+   >
+   >Calculated metrics cannot be used in the  **[!UICONTROL Starts with]** or **[!UICONTROL Ends with]** fields.
+
+1. If you choose a metric, you also need to provide a [!UICONTROL **Pathing Dimension**] to use as your path leading to or coming from your selected component, as shown here. The default is [!UICONTROL **Page**].
+
+   ![pathing dimension](assets/pathing-dim.png)
+
+1. (Optional) Select **[!UICONTROL Show advanced settings]** to configure any of the following options:
+
+   ![advanced settings](assets/adv-settings.png)
+
+   | Setting | Description |
+   | --- | --- |
+   | **[!UICONTROL Wrap labels]** | Normally, the labels on the Flow elements are truncated to save screen real estate, but you can make the entire label visible by checking this box.  Default = unchecked. |
+   | **[!UICONTROL Include repeat instances]** | Flow visualizations are based on instances of a dimension. This setting gives you the option to include or exclude repeated instances, e.g. Page reloads. However, repeats cannot be removed from Flow visualizations that include multi-valued dimensions, such as listVars, listProps, s.product, merchandising eVars, etc. <p>This option is disabled by default.</p> |
+   | **[!UICONTROL Limit to first/last occurrence]** | Limit paths to those that start/end with the first/last occurrence of a dimension/item/metric. See the section below, [Example scenario for 'limit to first/last occurrence'](#example-scenario-for-limit-to-firstlast-occurrence), for a more detailed explanation. |
+   | **[!UICONTROL Number of columns]** | The number of columns you want in your Flow diagram. You can specify a maximum of 5 columns. |
+   | **[!UICONTROL Items expanded per column]** | The number of items you want in each column. You can specify a maximum of 10 items expanded per column.  |
+   | **[!UICONTROL Flow container]** | <ul><li>Visit</li><li>Visitor</li></ul> Lets you switch between Visit and Visitor to analyze visitor pathing. These settings help you understand visitor engagement at the visitor level (across visits), or constrain the analysis to a single visit.|
+
+   >[!IMPORTANT]
+   >
+   >The combination of **[!UICONTROL Number of columns]** and **[!UICONTROL Items expanded per column]** determine the number of underlying requests required to create the flow visualization. The higher those numbers, the longer it takes to render a visualization.
+
+1. Select **[!UICONTROL Build]**.
+
+>[!INFO]
+>
+>**Example:** Suppose that you want to trace the path that users took both to and from the most popular pages on your site.
+>
+>To do this, you would
+> 
+>1. Begin creating a flow visualization as described above.
+>1. Drag the [!UICONTROL **Page**] dimension into the **[!UICONTROL Contains]** field, then select [!UICONTROL **Build**].
+>1. The Flow visualization builds with the most-viewed page visible in the focus node in the center of the visualization. You also see the top pages leading into that page (to the left of the focus node) as well as the top pages leading out of that page (to the right of the focus node).
+>1. Analyze data in the flow, as described in [View and change the Flow output](#view-and-change-the-flow-output).
+
+
+## View and change the Flow output {#output}
+
+![flow output](assets/flow-output.png)
+
+A summary of the Flow configuration appears at the top of the diagram. The thickness of a path in the diagram is proportional to its activity, with paths with more activity appearing thicker than those with less activity.
+
+To drill down further into the data, you have several options:
+
+* The flow diagram is interactive. Mouse over the diagram to change the details that are shown.
+
+* When you select on a node in the diagram, the details for that node appear. Select on the node again to collapse it.
+
+   ![node-details](assets/node-details.png)
+
+* You can filter a column to display only certain results, such as including and excluding, specifying criteria, and so forth.
+
+* Select the plus sign (+) on the left to expand a column.
+
+* Use the right-click options explained below to further customize the output.
+
+* Select the pencil icon next to the configuration summary to further edit the flow or rebuild it with different options.
+
+* You can also export and further analyze your Flow diagram as part of a project's .CSV file by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.
+
+## Filtering
+
+Above each column, a filter appears when you hover over it. By selecting the filter, you get the same filter dialog that exists in the Freeform table today. This filter works the same as it does in the Freeform table.
+
+* Use advanced settings to include or exclude certain criteria with our list of operators.
+* Once you have filtered an item from the list, that specific column will reflect the filtering. (The filter either reduces it to only show the item allowed in the filter, or it removes all items except for the one item you want in the filter.
+* All downstream and upstream columns should persist, as long as there is data flowing into the remaining nodes.
+* Once applied, the filter icon appears in blue above the column it is filtering.
+* To remove a filter, select the filter icon to open the filter menu. Remove any filters applied and then select **[!UICONTROL Save]**. The flow should return to its previous, unfiltered state.
+
+## Right-click options {#right-click}
+
+| Option | Description |
+|--- |--- |
+| [!UICONTROL Start over] | Returns you to the Freeform diagram builder, where you can build a new Flow diagram. |
+| [!UICONTROL Create segment for this path] | Create a segment. This takes you into the Segment Builder, where you can configure the new segment. |
+| [!UICONTROL Breakdown] | Break the node down by available Dimensions, Metrics, or Time. |
+| [!UICONTROL Trend] | Create a trended diagram for the node. |
+| Show next column / Show previous column | Reveals the next (right) or previous (left) column of the visualization. |
+| Hide column | Hides the selected column from the visualization. | 
+| [!UICONTROL Expand entire column] | Expand a column to show all nodes. By default, only the top five nodes display. |
+
+## Example scenario for 'limit to first/last occurrence'
+
+When using this option, keep in mind that:
+
+* **[!UICONTROL Limit to first/last occurrence]** counts only the first/last occurrence in the series. All other occurrences of the **[!UICONTROL Starts with]** or **[!UICONTROL Ends with]** criteria are discarded.
+* If used with a **[!UICONTROL Starts with]** flow, only the first occurrence that matches the start criteria is included.
+* If used with an **[!UICONTROL Ends with]** flow, only the last occurrence that matches the end criteria will be included.
+* The series used differs based on the container. If using the **[!UICONTROL Visit]** container, the series of hits will be the session. If using the **[!UICONTROL Visitor]** container, the series of hits will be all the hits for a given user in the provided date range.
+* The **[!UICONTROL Limit to first/last occurrence]** option can be configured in the advanced settings when using a Metric or Dimension Item in the "Starts with" or "Ends with" fields.
+
+Example series of hits:
+
+Home > Products > Add to cart > Products > Add to Cart > Billing > Order Confirmation
+
+### Consider a flow analysis using the following settings:
+
+* Start with[!UICONTROL  Add to cart] (Dimension Item)
+* [!UICONTROL Page] pathing dimension
+* [!UICONTROL Visit] container
+
+If **[!UICONTROL Limit to first/last occurrence]** is *disabled*, then this single series of hits counts 2 occurrences of "Add to Cart".
+Expected Flow Output:
+"Add to Cart" (2) —> "Products" (1)
+                  -> "Billing" (1)
+
+However, if **[!UICONTROL Limit to first/last occurrence]** is *enabled*, only the first occurrence of "Add to cart" is included in the analysis.
+Expected Flow Output:
+"Add to Cart" (1) —> "Products" (1)
+
+### Consider the same series of hits but using the following settings:
+
+* Ends with [!UICONTROL Add to cart] (Dimension Item)
+* [!UICONTROL Page] pathing dimension
+* [!UICONTROL Visit] container
+
+If **[!UICONTROL Limit to first/last occurrence]** is *disabled*, then this single series of hits would count 2 occurrences of "Add to Cart".
+Expected Flow Output:
+"Products" (2) <— "Add to cart" (2)
+
+However, if **[!UICONTROL Limit to first/last occurrence]** is *enabled*, only the last occurrence of [!UICONTROL Add to cart] would be included in the analysis.
+Expected Flow Output:
+"Products" (1) <— "Add to cart" (1)
+
+-->

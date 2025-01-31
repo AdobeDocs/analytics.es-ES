@@ -3,7 +3,7 @@ description: Los segmentos le permiten identificar subconjuntos de visitantes ba
 title: Acerca de los segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 97%
@@ -242,7 +242,7 @@ Este vídeo ofrece una breve descripción sobre qué son los contenedores de seg
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenedores de segmento](https://video.tv.adobe.com/v/ident25401ifier?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenedores de segmento](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
