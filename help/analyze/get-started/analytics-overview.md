@@ -4,10 +4,10 @@ short-description: Conozca las funciones clave, los casos de uso comunes y los p
 title: Información general sobre Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,13 @@ Utilice los siguientes recursos para conocer los conceptos básicos de Adobe Ana
 
 Para obtener más información acerca de los conceptos básicos de Adobe Analytics, consulte el vídeo *Introducción a Adobe Analytics: seminario web del generador de habilidades*. El vídeo le explica cómo se capturan los datos, cómo se envían a Adobe Analytics y qué capacidades de visualización puede utilizar en Adobe Analytics. El vídeo le proporciona una base para generar, implementar, recopilar e interpretar datos, permitiéndole así ofrecer información procesable y recomendaciones basadas en los datos recopilados.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introducción a Adobe Analytics - Generador de habilidades](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} para ver el vídeo del seminario web.
+
+>[!ENDSHADEBOX]
+
 
 Si tiene preguntas acerca de qué herramienta utilizar, consulte [¿Qué herramienta de Adobe Analytics debo usar?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=es).
 

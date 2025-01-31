@@ -3,10 +3,10 @@ description: En lugar de mantener y cargar clasificaciones cada vez que cambien 
 title: Flujo de trabajo del generador de reglas de clasificación
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 99%
+source-wordcount: '573'
+ht-degree: 97%
 
 ---
 
@@ -14,9 +14,13 @@ ht-degree: 99%
 
 En lugar de mantener y cargar clasificaciones cada vez que cambien sus códigos de seguimiento, puede crear clasificaciones automáticas basadas en reglas y aplicarlas en varios grupos de informes. Las reglas se procesan a intervalos frecuentes, según el volumen de tráfico relacionado con la clasificación.
 
-A continuación se muestra un vídeo introductorio del generador de reglas de clasificación:
 
->[!VIDEO](https://video.tv.adobe.com/v/25884/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generador de reglas de clasificación](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Aviso importante antes de comenzar
 

@@ -5,10 +5,10 @@ title: Proyectos de solo de vista
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 0885ff8e13675a986f5c40396a14f9edecaa753d
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -20,9 +20,13 @@ Tenga en cuenta que puede editar el intervalo de fechas del calendario del panel
 
 ![](assets/view-only-project.png)
 
-A continuación se muestra un vídeo introductorio de los proyectos de solo vista:
 
->[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Proyectos de solo vista](https://video.tv.adobe.com/v/36206?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Interacciones desactivadas
 

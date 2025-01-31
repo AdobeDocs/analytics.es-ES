@@ -5,10 +5,10 @@ title: Tabla de contenido del proyecto
 feature: Workspace Basics
 role: User, Admin
 exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
-source-git-commit: b440fd6a0cd04b411489e6b7346be6b1b0a9f4f8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 7%
+source-wordcount: '144'
+ht-degree: 6%
 
 ---
 
@@ -16,11 +16,13 @@ ht-degree: 7%
 
 Puede ver una tabla de contenido dentro de cada proyecto en Analysis Workspace, lo que le permite moverse rápidamente entre cualquier panel y visualización que exista en el proyecto. Esto resulta especialmente útil cuando se visualizan proyectos de mayor tamaño que contienen muchos paneles y visualizaciones.
 
-+++Vea un vídeo de demostración de esta función.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/26990/?learn=on)
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tabla de contenido](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
-+++
+>[!ENDSHADEBOX]
+
+
 
 Para ver la tabla de contenido de un proyecto:
 

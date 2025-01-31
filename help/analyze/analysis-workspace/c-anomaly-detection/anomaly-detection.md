@@ -4,10 +4,10 @@ title: Resumen de la Detección de anomalías
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 100%
+source-wordcount: '1291'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,12 @@ ht-degree: 100%
 
 Puede ver y analizar las anomalías de datos en contexto, dentro de Analysis Workspace. El análisis de contribución funciona junto con la detección de anomalías para ayudar a identificar qué ha contribuido a la anomalía.
 
->[!VIDEO](https://video.tv.adobe.com/v/25444/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Detección de anomalías](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -45,9 +50,15 @@ El algoritmo de Detección de anomalías de Analysis Workspace incluye:
 
 ## Análisis de contribución
 
-Análisis de contribución descubre patrones ocultos en sus datos para explicar las anomalías estadísticas e identificar correlaciones tras acciones de cliente inesperadas, valores que sobrepasan el límite y picos o caídas repentinos de métricas seleccionadas en segmentos de audiencia convergentes.
+Análisis de contribución descubre patrones ocultos en sus datos para explicar las anomalías estadísticas e identificar correlaciones tras acciones de cliente inesperadas, valores que sobrepasan el límite y picos o caídas repentinos de métricas seleccionadas en segmentos de público convergentes.
 
->[!VIDEO](https://video.tv.adobe.com/v/25443/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de contribución](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 Ha ocurrido algo. ¿Por qué? Su informe Detección de anomalías muestra un pico inusual en los pedidos y desea saber por qué. ¿Qué ha pasado fuera de lo normal? ¿Quién está respondiendo a qué campaña o referencia? ¿Algo se ha hecho viral? ¿Qué factores específicos han contribuido a esta anomalía? Y quizá lo más importante: ¿cómo puedo capturar información importante acerca de mi cliente y repetir este comportamiento? (O, si hay una caída en una métrica o una subida en una métrica negativa, ¿cómo puedo evitarla en el futuro?)
 

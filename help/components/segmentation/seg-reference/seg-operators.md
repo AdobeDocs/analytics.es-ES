@@ -3,10 +3,10 @@ description: El Generador de segmentos le permite comparar y restringir valores 
 title: Operadores de comparación para segmentos
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 95%
+source-wordcount: '1104'
+ht-degree: 94%
 
 ---
 
@@ -63,6 +63,9 @@ Puede segmentar un recuento distinto de elementos dentro de una dimensión. Por 
 | es mayor o igual que | Devuelve elementos de dimensión cuya cantidad única sea mayor o igual que el valor introducido. |
 | es menor o igual que | Devuelve elementos de dimensión cuya cantidad única sea menor o igual que el valor introducido. |
 
-Aquí tiene un vídeo sobre la segmentación en diferentes recuentos de dimensiones:
 
->[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Recuentos distintos de dimensiones](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]

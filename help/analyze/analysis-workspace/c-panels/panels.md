@@ -4,9 +4,9 @@ title: Resumen de paneles
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 515517eb708b8c8e1210f82a325e46cbf308c5e6
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2157'
 ht-degree: 57%
 
 ---
@@ -157,11 +157,13 @@ Los componentes que no son segmentos también se pueden arrastrar directamente a
 
 ### Segmentos desplegables
 
-+++ Vea un vídeo que explica los segmentos desplegables.
 
->[!VIDEO](https://video.tv.adobe.com/v/23877?format=jpeg)
+>[!BEGINSHADEBOX]
 
-+++
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [segmentos desplegables](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 #### Segmentos desplegables estáticos
 

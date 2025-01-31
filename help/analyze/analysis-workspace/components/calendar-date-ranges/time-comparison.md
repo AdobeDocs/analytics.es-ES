@@ -4,10 +4,10 @@ title: Comparación de fechas
 feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 57%
+source-wordcount: '747'
+ht-degree: 56%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 57%
 
 La comparación de fechas de Analysis Workspace le permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas comunes, por ejemplo, año tras año, trimestre tras trimestre, mes tras mes, etc.
 
-A continuación, se muestra un vídeo sobre este tema:
 
->[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparación de fechas](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Comparar periodos de tiempo {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 

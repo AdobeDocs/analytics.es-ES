@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 69%
+source-wordcount: '1319'
+ht-degree: 68%
 
 ---
 
@@ -40,9 +40,14 @@ Los grupos de informes virtuales con Procesamiento de intervalo de tiempo habili
 * **[!UICONTROL Iniciar una nueva visita cada vez que se inicie la aplicación]:** además del tiempo de espera de visita, es posible forzar el comienzo de una visita cada vez que se registra un evento de inicio de aplicación procedente de los SDK para móviles, independientemente del tiempo de inactividad. Esta configuración afecta a la métrica de visitas y al contenedor de segmentos de visita, así como a la lógica de caducidad de visitas de las eVars.
 * **[!UICONTROL Iniciar una nueva visita con el evento]:** una nueva sesión se inicia cuando se activa un evento, independientemente de si se ha superado o no el tiempo de espera de la sesión. La sesión recién creada incluye el evento que la ha iniciado. Además, es posible utilizar varios eventos para iniciar una sesión, y se activa una nueva si se observa cualquiera de esos eventos en los datos. Este ajuste afecta al recuento de visitas, al contenedor de segmentación de visitas y a la lógica de caducidad de las visitas en eVars.
 
-Este es un vídeo sobre el inicio de una nueva visita con un evento:
 
->[!VIDEO](https://video.tv.adobe.com/v/23129/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inicio de una nueva visita con evento](https://video.tv.adobe.com/v/23129?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Limitaciones del Procesamiento de intervalo de tiempo
 

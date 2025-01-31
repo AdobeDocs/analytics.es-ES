@@ -3,10 +3,10 @@ description: Utilice el importador para cargar clasificaciones en Adobe Analytic
 title: Resumen del importador de clasificaciones
 feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: 0f5890679ea73c1bbea9f5d2939e89c6775c85da
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 100%
+source-wordcount: '146'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,13 @@ Utilice el importador para cargar clasificaciones en Adobe Analytics. También p
 
 **[!UICONTROL Administración]** > **[!UICONTROL Importador de clasificaciones]**
 
->[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Importador de clasificaciones](https://video.tv.adobe.com/v/16853?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 Los datos que se importan con la herramienta correspondiente deben tener un formato específico. Adobe permite descargar una plantilla de datos con todos los detalles de encabezado correctos en un archivo de datos delimitado por tabuladores. Los datos nuevos pueden agregarse a esta plantilla para seguidamente importar el archivo de datos en el explorador a través del FTP.
 

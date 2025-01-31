@@ -4,10 +4,10 @@ title: Segmentos
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 91%
+source-wordcount: '488'
+ht-degree: 81%
 
 ---
 
@@ -25,17 +25,26 @@ Puede crear distintos tipos de segmentos en Workspace, en función de su complej
 
 ## Vídeos
 
-Uso de segmentos en Analysis Workspace:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de segmentos en Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
-Búsqueda y creación de segmentos:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
-Intervalos de fechas móviles en segmentos:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Búsqueda y creación de segmentos](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de fechas móviles en el segmento](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Crear segmentos {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -47,10 +56,10 @@ Puede crear diferentes tipos de segmentos en Analysis Workspace:
 ### Creación de segmentos de la lista de componentes {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 El carril del segmento en el menú Componentes muestra
-* Segmentos que usted o su compañía han creado
-* Plantillas de segmentos, tal como lo indica el icono de Adobe:
 
-![](assets/segment_icons.png)
+* Segmentos que usted o su compañía han creado
+* Plantillas de segmentos, tal como lo indica el Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg):
+
 
 Para crear un segmento de este tipo, tiene dos opciones. Ambos le llevan al [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) en Adobe Analytics, donde puede encontrar más instrucciones.
 
@@ -65,7 +74,12 @@ o
 
 ### Otros métodos para la aplicación de segmentos {#section_10FF2E309BA84618990EA5B473015894}
 
->[!VIDEO](https://video.tv.adobe.com/v/30994/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Otros métodos para aplicar segmentos](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
 
 Existen varios métodos más para aplicar segmentos a un proyecto improvisado.
 

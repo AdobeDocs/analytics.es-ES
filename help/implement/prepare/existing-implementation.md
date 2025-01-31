@@ -4,10 +4,10 @@ description: Instrucciones para administradores que son nuevos en una implementa
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 71%
+source-wordcount: '172'
+ht-degree: 66%
 
 ---
 
@@ -21,7 +21,13 @@ ht-degree: 71%
 
 Consulte estas sugerencias de su compañera propietaria técnica, Sarah Owen. Sarah es Campeona de Adobe Analytics y comparte ideas sobre cómo usar el libro de estrategias de implementación heredada para hacerse cargo de una implementación existente:
 
->[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use el libro de estrategias de implementación heredada](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 Consulte también:
 

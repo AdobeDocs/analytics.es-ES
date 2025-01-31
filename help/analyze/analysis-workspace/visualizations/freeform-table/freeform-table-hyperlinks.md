@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear hipervínculos para elemento
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: b440fd6a0cd04b411489e6b7346be6b1b0a9f4f8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1739'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,16 @@ Esta funcionalidad es especialmente útil al crear hipervínculos para los sigui
 
 * Elementos de Dimension o desgloses que tienen valores que forman parte de una dirección URL a la que desea vincular (por ejemplo, una dimensión Nombre de página que forma parte de una dirección URL)
 
-+++ Vea un vídeo de demostración de esta función.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+>[!BEGINSHADEBOX]
 
-+++
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hipervínculos para la dimensión](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
+
+
 
 ## Creación de hipervínculos para uno o varios elementos de dimensión
 

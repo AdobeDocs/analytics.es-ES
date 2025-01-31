@@ -4,18 +4,24 @@ title: Página de aterrizaje de Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
-workflow-type: ht
-source-wordcount: '1653'
-ht-degree: 100%
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+workflow-type: tm+mt
+source-wordcount: '1658'
+ht-degree: 98%
 
 ---
 
 # Página de aterrizaje de Adobe Analytics
 
-La página de aterrizaje de Adobe Analytics reúne a [!DNL Analysis Workspace] y [!DNL Reports & Analytics] (final de su vida útil) en una sola interfaz y punto de acceso bajo el paraguas [!DNL Workspace]. Incluye una página de inicio del administrador de proyectos, una sección de plantillas, así como una sección de aprendizaje que le ayudará a iniciarse de forma más eficaz. A continuación, se muestra un vídeo introductorio:
+La página de aterrizaje de Adobe Analytics reúne a [!DNL Analysis Workspace] y [!DNL Reports & Analytics] (final de su vida útil) en una sola interfaz y punto de acceso bajo el paraguas [!DNL Workspace]. Incluye una página de inicio del administrador de proyectos, una sección de plantillas y una sección de aprendizaje para ayudarle a empezar de forma más eficaz.
 
->[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de aterrizaje de Adobe Analytics](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
 
 La página de aterrizaje de Adobe Analytics consta de las siguientes subpestañas: Proyectos, Informes y Aprendizaje.
 

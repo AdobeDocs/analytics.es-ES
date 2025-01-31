@@ -3,9 +3,9 @@ title: Administrar fuentes de datos
 description: Obtenga información sobre cómo navegar por la interfaz de fuentes de datos. Descubra cómo crear, editar y ver una fuente de datos.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1173'
 ht-degree: 26%
 
 ---
@@ -14,11 +14,13 @@ ht-degree: 26%
 
 El administrador de fuentes de datos le permite crear, editar y eliminar fuentes de datos para su organización. Si tiene permisos para acceder al administrador de fuentes de datos, puede administrar las fuentes de datos de todos los grupos de informes visibles para usted.
 
-+++Vea un vídeo sobre la administración de fuentes de datos.
 
->[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administración de fuentes de datos](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Ver fuentes de datos
 

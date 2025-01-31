@@ -4,10 +4,10 @@ keywords: Métricas calculadas;Métricas calculadas avanzadas
 title: Métricas calculadas y métricas calculadas avanzadas
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 54%
+source-wordcount: '552'
+ht-degree: 53%
 
 ---
 
@@ -41,14 +41,25 @@ Puede
 * Cree métricas en [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución].
 * Crear métricas segmentadas que se derivan del tiempo de ejecución de un informe, sin tener que cambiar la implementación. Éstas pueden verse en el historial, ya que se basan en segmentos.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
 
 * Compartir métricas entre grupos de informes. Esto significa que todas las métricas de reciente creación se aplican a todos los grupos de informes en la misma empresa de inicio de sesión.
 * (Solo métricas calculadas avanzadas) Segmentar métricas. Por ejemplo, puede crear una métrica para “Visitantes nuevos”, con un recuento de personas de las cuales sea la primera sesión.
 
 * (Solo métricas calculadas avanzadas) Incorporar funciones estadísticas para ayudarle a describir mejor los datos. Por ejemplo, puede contar el número de elementos de un informe o agregar el número de desviaciones estándar para cada elemento.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas segmentadas en segmentos](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Limitaciones {#section_CB878B02451541D68A68B508D4DBD19A}
 

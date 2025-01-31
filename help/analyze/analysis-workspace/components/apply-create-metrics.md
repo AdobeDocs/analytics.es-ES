@@ -4,10 +4,10 @@ title: Métricas en Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 51%
+source-wordcount: '521'
+ht-degree: 50%
 
 ---
 
@@ -35,9 +35,16 @@ Adobe ofrece varios tipos de métricas para usar en Analysis Workspace:
 
 Las métricas se pueden utilizar de varias formas dentro de Analysis Workspace. Para obtener información acerca de cómo agregar métricas y otros tipos de componentes a Analysis Workspace, vea [Usar componentes en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
-## Creación de métricas calculadas
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usar métricas](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
+
+## Crear métricas calculadas
 
 Las métricas calculadas permiten ver fácilmente cómo se relacionan entre sí las métricas mediante operadores simples o funciones estadísticas.
 
@@ -87,4 +94,10 @@ Este método abreviado permite comparar rápida y fácilmente un modelo de atrib
 
 A continuación, se muestra un vídeo sobre este tema:
 
->[!VIDEO](https://video.tv.adobe.com/v/27068/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Promedio acumulado](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+

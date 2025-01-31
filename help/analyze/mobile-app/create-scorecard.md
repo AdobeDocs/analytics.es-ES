@@ -4,10 +4,10 @@ title: Crear y compartir cuadros de resultados móviles
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 81%
+source-wordcount: '2524'
+ht-degree: 80%
 
 ---
 
@@ -22,7 +22,13 @@ ht-degree: 81%
 
 La siguiente información enseña a los depuradores de datos de Adobe Analytics cómo configurar y presentar cuadros de resultados móviles para los usuarios ejecutivos. Para empezar, puede ver el vídeo del generador del cuadro de resultados de los paneles de Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generador de cuadros de resultados móviles](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 Un cuadro de resultados de Adobe Analytics muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, tal y como se muestra a continuación:
 
@@ -121,11 +127,15 @@ La configuración está *activada* de forma predeterminada. Anule la selección 
 
 ## Aplicación de visualizaciones {#viz}
 
-Vea un vídeo sobre visualizaciones para cuadros de resultados móviles:
 
->[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
 
-Los paneles de Analytics ofrecen cuatro visualizaciones que le proporcionan interesantes conocimientos de los elementos y las métricas de dimensión. Cambie a una visualización diferente al variar el [!UICONTROL tipo de gráfico] de las [!UICONTROL propiedades] de un mosaico. Seleccione el mosaico derecho y cambie el tipo de gráfico.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizaciones](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
+Los paneles de Analytics ofrecen cuatro visualizaciones que le proporcionan buenos conocimientos de los elementos y las métricas de dimensión. Cambie a una visualización diferente al variar el [!UICONTROL tipo de gráfico] de las [!UICONTROL propiedades] de un mosaico. Seleccione el mosaico derecho y cambie el tipo de gráfico.
 
 ![Propiedades del mosaico](assets/properties.png)
 
@@ -193,7 +203,13 @@ Cada dimensión agregada a la diapositiva de detalle se mostrará en una lista d
 
 Las diapositivas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [vistas de detalles personalizadas](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 Puede modificar el diseño de cada diapositiva de detalle y añadir texto para explicar mejor lo que el usuario final puede ver en los datos. También puede cambiar el tipo de gráfico mediante el menú desplegable.
 
@@ -229,9 +245,12 @@ Una historia basada en datos es una colección de puntos de datos de apoyo, cont
 
 Por ejemplo, si se centra en el tráfico web, la métrica más importante puede ser las visitas, pero también es posible que le interesen los visitantes nuevos y los únicos, o que desee ver los datos desglosados por página web o por el tipo de dispositivo desde el que proviene el tráfico. Las historias basadas en datos en proyectos de cuadros de resultados móviles le permiten poner sus métricas más importantes en primer plano y, al mismo tiempo, contar toda la historia que hay detrás con múltiples diapositivas detalladas.
 
-Vea el vídeo para obtener más información acerca de la creación de historias basadas en datos en los proyectos de cuadro de resultados móviles en Analysis Workspace.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear historias de datos](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
 
 **Para crear una historia basada en datos**
 

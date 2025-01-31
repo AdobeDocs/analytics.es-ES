@@ -5,10 +5,10 @@ title: Resumen de las reglas de procesamiento
 feature: Processing Rules
 role: Admin
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '385'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,14 @@ Las reglas de procesamiento simplifican la recopilación de datos y administran 
 * Corregir las secciones de sitios mal escritas
 * Obtener términos de búsqueda interna o un ID de campaña de la cadena de consulta para una eVar
 
->[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
+
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general sobre las reglas de procesamiento](https://video.tv.adobe.com/v/26124/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Permisos de reglas de procesamiento {#section_8A4846688050453784DAE4D89355169A}
 

@@ -5,10 +5,10 @@ keywords: Analysis Workspace;IQ de segmento
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 27%
+source-wordcount: '593'
+ht-degree: 26%
 
 ---
 
@@ -39,11 +39,14 @@ _Este artículo documenta el panel Comparación de segmentos en_ ![Adobe Analyti
 
 El panel Comparación de segmentos es una parte de la herramienta de [IQ de segmento](../../segment-iq.md) que detecta las diferencias estadísticamente más significativas entre un número ilimitado de segmentos. La función se repite mediante un análisis automatizado de todas las dimensiones y métricas a las que tiene acceso. De forma automática, muestra las características clave de los segmentos de audiencia que dirigen el KPI de su empresa y le permite observar cuánto se superponen los segmentos.
 
-+++ Este es un vídeo sobre la comparación de segmentos:
 
->[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparación de segmentos](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Utiliza
 

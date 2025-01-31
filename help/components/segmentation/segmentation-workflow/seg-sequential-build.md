@@ -3,10 +3,10 @@ description: Los segmentos secuenciales se crean mediante el operador THEN, en l
 title: Generar segmentos secuenciales
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c1a72e57d4dfdaae1f90e69fd940137af9dab1a8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '3931'
-ht-degree: 96%
+source-wordcount: '3932'
+ht-degree: 95%
 
 ---
 
@@ -18,9 +18,13 @@ Los segmentos secuenciales se crean mediante el operador THEN, en lugar de AND u
 
 Además, puede restringir los segmentos secuenciales a una duración, granularidad y recuentos entre puntos de comprobación específicos mediante los [operadores After y Within](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
-Este es un vídeo sobre la segmentación secuencial:
 
->[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Incluir a todos {#section_75ADDD5D41F04800A09E592BB2940B35}
 

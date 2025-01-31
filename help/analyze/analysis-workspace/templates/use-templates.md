@@ -4,9 +4,9 @@ title: Uso de plantillas
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: f39ca03cd87ff5584348c526646f3eb39dfa75fd
+source-git-commit: 32a7a3d696fe0d39e2d8e50370b9072b49ef3a21
 workflow-type: tm+mt
-source-wordcount: '18672'
+source-wordcount: '18666'
 ht-degree: 71%
 
 ---
@@ -33,7 +33,7 @@ En la siguiente información se describe cómo tener acceso a las plantillas de 
 
    <!--update screenshot -->
 
-   ![Pestaña de informes](assets/view-prebuilt-templates.png)
+   ![Pestaña de informes](assets/view-prebuilt-templates-full.png)
 
 1. En la sección [!UICONTROL **Plantillas**], seleccione cualquiera de las siguientes fichas:
 
@@ -45,9 +45,9 @@ En la siguiente información se describe cómo tener acceso a las plantillas de 
 
 1. Utilice cualquiera de las siguientes opciones para cambiar la forma en que ve las plantillas disponibles:
 
-   * Elija si desea ver las plantillas en una vista de columna o en una vista de tarjeta seleccionando la vista de columna ![icono de vista de columna](assets/column-view-icon.png) o el icono de vista de tarjeta ![icono de vista de tarjeta](assets/card-view-icon.png).
+   * Elija si desea ver las plantillas en una vista de columna o de tarjeta seleccionando la vista de columna ![ViewColumn](/help/assets/icons/ViewColumn.svg) o el icono de vista de tarjeta ![Tarjeta](/help/assets/icons/Card.svg).
 
-   * Al usar la vista de tarjeta ![icono de vista de tarjeta](assets/card-view-icon.png), elija entre los siguientes órdenes de clasificación: **[!UICONTROL Utilizado más recientemente]**, **[!UICONTROL Más popular]**, **[!UICONTROL Alfabético]**, **[!UICONTROL Categórico]**.
+   * Al usar la vista de tarjeta ![Tarjeta](/help/assets/icons/Card.svg), elija entre los siguientes órdenes de clasificación: **[!UICONTROL Utilizada más recientemente]**, **[!UICONTROL Más popular]**, **[!UICONTROL Alfabética]**, **[!UICONTROL Categórica]**.
 
 1. En el campo de búsqueda, empiece a escribir el nombre de la plantilla que desea buscar y, a continuación, selecciónela en la lista de plantillas. También puede buscar en la lista de plantillas por propiedad, eVar y número de evento. <!-- still true? -->
 
@@ -1272,3 +1272,5 @@ Las plantillas disponibles son las siguientes:
 | **Dispositivos** | Ver la marca y el modelo de dispositivos móviles que los usuarios utilizan para acceder al sitio.<p>**Esto puede ayudarle** a comprender mejor qué dispositivos móviles son los más populares entre su base de usuarios.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar la representación del sitio para los dispositivos móviles más comunes.</p><p>Esta plantilla utiliza la dimensión Nombre del dispositivo móvil.</p> |
 | **Tipo de dispositivo** | Ver los tipos de dispositivos móviles que usan los usuarios para acceder al sitio, como teléfonos y tabletas.<p>**Esto puede ayudarle** a comprender mejor los distintos tipos de dispositivos móviles que se usan para acceder al sitio.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar el sitio para los tipos de dispositivos móviles que más se usan.</p><p>Esta plantilla utiliza la dimensión Tipo de dispositivo móvil.</p> |
 | **Fabricante** | Ver qué fabricantes producen los dispositivos móviles que usan los usuarios para acceder al sitio, como Apple y Samsung.<p>**Esto puede ayudarle** a entender mejor qué fabricantes son los más populares entre su base de usuarios.</p><p>**En función de lo que aprenda, puede** hacer cualquier cosa, como adaptar su entrega de contenido en función de las capacidades de diferentes fabricantes para garantizar una experiencia de usuario sin problemas.</p><p>Esta plantilla utiliza la dimensión Fabricante móvil.</p> |
+
+

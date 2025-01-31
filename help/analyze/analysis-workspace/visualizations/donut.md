@@ -4,10 +4,10 @@ title: Anillo
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 75%
+source-wordcount: '119'
+ht-degree: 23%
 
 ---
 
@@ -29,10 +29,23 @@ _Este artículo documenta la visualización Anillo en_ ![Adobe Analytics](/help/
 
 >[!ENDSHADEBOX]
 
-Similar a un gráfico circular, esta visualización muestra los datos como partes o segmentos de un todo. Utilice un gráfico de [!UICONTROL anillo] para comparar porcentajes de un total, normalmente con un número reducido de elementos.
 
-![](assets/donut.png)
+Similar a un gráfico circular, la visualización ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]** muestra los datos como partes o filtros de un todo. Utilice una visualización de anillo para comparar porcentajes de un total, normalmente con un número reducido de elementos.
 
-Este es un vídeo sobre el uso de la visualización [!UICONTROL Anillo]:
+![Gráfico de anillo que muestra los datos como partes o filtros de un todo.](assets/donut.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/334309/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar una visualización de anillo](https://video.tv.adobe.com/v/334309/?quality=12){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[Agregar una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menú contextual de visualización ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

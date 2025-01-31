@@ -4,10 +4,10 @@ title: Comprensión y configuración de reglas de bots
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '1668'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -31,9 +31,13 @@ Los datos del tráfico de bots se almacenan en un repositorio independiente para
 >
 >Antes de eliminar el tráfico de bots, es necesario ponerse en contacto con los interesados para asegurarse de que realicen los ajustes necesarios en los indicadores de rendimiento clave con relación a este cambio. Si es posible, recomendamos eliminar primero el tráfico de bots de un grupo de informes pequeño para así realizar una estimación del impacto potencial.
 
-El siguiente vídeo muestra cómo configurar reglas de bots:
 
->[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurar reglas de bots](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 Para actualizar o cargar reglas de bots:
 
@@ -91,7 +95,7 @@ Una condición de agente de usuario comprueba el valor de agente de usuario para
 
 Se pueden incluir valores opcionales en la lista **[!UICONTROL no contiene]** para definir valores que el agente de usuario no debe contener para que la coincidencia tenga éxito. Se pueden especificar varios valores incluyendo un valor por línea. Si el agente de usuario cumple con los criterios especificados en la cadena de coincidencia, pero además contiene una cadena en la lista “no contiene”, no se considerará una coincidencia.
 
-El campo **[!UICONTROL contiene]** está limitado a 100 caracteres. La lista no contiene está limitada a 255 caracteres menos un carácter separador para cada línea nueva. (Esto es igual al número de cadenas - 1. Para especificar 4 cadenas *no contiene* se necesitan 3 caracteres separador). Todas las coincidencias de cadena distinguen entre mayúsculas y minúsculas.
+El campo **[!UICONTROL contiene]** está limitado a 100 caracteres. La lista no contiene está limitada a 255 caracteres menos un carácter separador para cada línea nueva. (Esto es igual al número de cadenas - 1. Si especifica 4 *no contiene* cadenas, se requieren 3 caracteres separadores.) Todas las coincidencias de cadena no distinguen entre mayúsculas y minúsculas.
 
 ### Dirección IP (incluyendo coincidencias de comodín)
 

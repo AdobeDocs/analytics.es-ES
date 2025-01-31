@@ -3,9 +3,9 @@ description: Las sesiones según el contexto en los grupos de informes virtuales
 title: Sesiones según el contexto
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1577'
 ht-degree: 97%
 
 ---
@@ -16,9 +16,13 @@ Las sesiones según el contexto en los grupos de informes virtuales cambian el m
 
 Puede definir una visita del modo que desee sin alterar los datos subyacentes para adaptarse al modo en que sus visitantes interactúan con las experiencias digitales.
 
-Este es un vídeo sobre las sesiones según el contexto:
 
->[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sesiones según el contexto](https://video.tv.adobe.com/v/iden23545tifier?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Parámetro URL de perspectiva de cliente
 

@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 93%
+source-wordcount: '348'
+ht-degree: 87%
 
 ---
 
@@ -43,9 +43,13 @@ Le permite:
 * Analizar a qué lugares van los clientes antes y después de los puntos de comprobación especificados, como la entrada, una dimensión específica o la salida
 * Crear segmentos mediante la designación de un punto específico en una ruta elegida
 
-Este es un tutorial en vídeo de visualización de flujo:
 
->[!VIDEO](https://video.tv.adobe.com/v/344222/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de flujo](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Flujos interdimensionales {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -61,6 +65,13 @@ Para obtener información sobre cómo configurar una visualización de flujo, co
 
 Los diagramas de flujo son parte del archivo .CSV de un proyecto que puede crear en **[!UICONTROL Proyecto]** > **[!UICONTROL Descargar CSV]**. Esto le permite analizar los resultados del flujo en Microsoft Excel (visualizados como una tabla) o en otra herramienta.
 
-## Ampliación de la visualización de flujo
 
->[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)
+## Funcionalidad adicional
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funcionalidad adicional en la visualización de flujo](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+

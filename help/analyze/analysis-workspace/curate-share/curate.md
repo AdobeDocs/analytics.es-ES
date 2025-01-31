@@ -5,10 +5,10 @@ title: Depurar proyectos de
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 98%
 
 ---
 
@@ -19,9 +19,13 @@ La depuración permite limitar los componentes (dimensiones, métricas, segmento
 >[!NOTE]
 > Los perfiles de productos son el mecanismo principal que controla los componentes que puede ver un usuario. Se administran a través de Admin Console en Adobe Experience Cloud. La depuración es un filtro secundario.
 
-Aquí tiene un vídeo sobre la depuración y el uso compartido del proyecto:
 
->[!VIDEO](https://video.tv.adobe.com/v/24711/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Depurar proyectos](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Aplicar depuración de proyecto
 

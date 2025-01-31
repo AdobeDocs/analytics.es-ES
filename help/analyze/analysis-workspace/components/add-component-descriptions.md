@@ -4,10 +4,10 @@ title: Adición de descripciones de componentes
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,14 @@ Los administradores de Analytics pueden añadir descripciones a los componentes 
 
 ## Adición de descripciones a componentes de un grupo de informes
 
-En el siguiente vídeo se describe cómo agregar descripciones de dimensiones y métricas en un grupo de informes:
 
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar descripciones de componentes](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Adición de descripciones a componentes en Analysis Workspace (mediante el diccionario de datos) {#add-descriptions}
 

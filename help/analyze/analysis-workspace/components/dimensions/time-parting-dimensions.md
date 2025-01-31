@@ -4,10 +4,10 @@ title: Dimensiones de partición de tiempo
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 96%
 
 ---
 
@@ -15,9 +15,13 @@ ht-degree: 100%
 
 La partición de tiempo toma la marca de hora de los aciertos recogidos y lo divide en dimensiones más significativas, como “Hora del día” o “Día de la semana”.
 
-Aquí tiene un vídeo sobre las dimensiones de partición de tiempo:
 
->[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time=parting dimensions](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 Las dimensiones de partición de tiempo se basan en el huso horario del grupo de informes o del grupo de informes virtuales. Estas dimensiones están disponibles en Analysis Workspace y pueden ayudar a responder a las siguientes preguntas:
 

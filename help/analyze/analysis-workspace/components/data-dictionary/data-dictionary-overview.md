@@ -4,10 +4,10 @@ title: Información general del diccionario de datos
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: 48e75fc4e9cc60bfd6865f7e80060c07ecf25ad8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 100%
+source-wordcount: '534'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,13 @@ El diccionario de datos de Analysis Workspace ayuda a los usuarios y administrad
 
 Los administradores de Analytics son responsables de seleccionar la información sobre cada componente en el Diccionario de datos para ponerla a disposición de los usuarios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Diccionario de datos](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Ventajas para los usuarios
 

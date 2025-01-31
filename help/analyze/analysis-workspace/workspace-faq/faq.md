@@ -4,10 +4,10 @@ title: Preguntas frecuentes y resolución de problemas de Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 91%
+source-wordcount: '549'
+ht-degree: 81%
 
 ---
 
@@ -38,35 +38,51 @@ No se recomienda Analysis Workspace para exportación masiva de datos. Es un esp
 +++
 
 +++¿Cómo puedo optimizar el rendimiento de Analysis Workspace?
+
 Consulte [Optimización del rendimiento](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).
+
 +++
 
 +++¿Cómo llegan los datos a su proyecto de Analysis Workspace?
-Vea este vídeo:
 
->[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Datos en Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 +++
 
-+++ ¿Cómo puedo hacer un seguimiento del uso de Workspace?
++++¿Cómo puedo hacer un seguimiento del uso de Workspace?
 
-Vea este vídeo sobre el seguimiento del uso para Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Seguimiento del registro](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 +++
 
 +++Cuando arrastro una métrica, dice “Datos no válidos”. ¿Cómo puedo resolver este problema?
+
 Datos no válidos significa que Adobe no puede devolver datos mediante la combinación de dimensiones y métricas utilizadas en el informe. Por ejemplo: dos métricas apiladas una encima de la otra no se pueden devolver como datos, ya que no hay forma de mostrar dos métricas de esa manera. En su lugar, coloque las métricas una al lado de la otra.
+
 +++
 
 +++Cuando arrastro una métrica, no veo ningún dato real, solo ceros. ¿Cómo puedo solucionar este problema?
+
 Si ha creado correctamente un informe de espacio de trabajo pero no hay datos, puede comprobar algunas cosas:
 
 * Compruebe el grupo de informes y asegúrese de que se rellena con datos.
 * Si aplicó un segmento en el informe, es posible que los criterios del segmento no coincidan con ningún dato. Intente eliminar el segmento o ajustar la definición del mismo.
 * Compruebe el intervalo de fechas en la esquina superior derecha y compruebe que está establecido en un valor que esperaba.
 * Vaya al sitio web y utilice [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es) para validar que se están recopilando datos.
+
+
 +++
 
 +++Como usuario de solo lectura, ¿qué acciones puedo realizar en Analysis Workspace?

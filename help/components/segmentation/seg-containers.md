@@ -4,7 +4,7 @@ keywords: segmentación;segmentos
 title: Contenedores de segmentos
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 6a36155dcd1fd06ea052783a8fd5714cd10e16ec
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '3566'
 ht-degree: 98%
@@ -44,9 +44,13 @@ Cada contenedor le permite realizar informes basados en el historial del visitan
 
 <!--![](assets/sequential_segmentation_container_hierarchy.png)-->
 
-A continuación se muestra un vídeo introductorio de los contenedores de segmentos:
 
->[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenedores de segmento](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Contenedor de visitante
 

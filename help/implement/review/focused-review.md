@@ -4,10 +4,10 @@ description: Siga estos pasos para asegurarse de que la implementación no conte
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 70%
+source-wordcount: '499'
+ht-degree: 68%
 
 ---
 
@@ -44,4 +44,11 @@ Evalúe la situación y trace un plan para solucionar los problemas de los datos
 
 *Vea este vídeo de 2 minutos de la campeona de Adobe Analytics, Sarah Owen, acerca de cuándo puede encajar las revisiones de su implementación en su ocupada agenda:*
 
->[!VIDEO](https://video.tv.adobe.com/v/328340/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Revisión de la implementación](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+

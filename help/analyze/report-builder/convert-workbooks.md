@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,14 @@ Como parte del cambio a una nueva tecnología de Report Builder, puede convertir
 >
 >Duplique cada libro y cambie el nombre de una versión antes de convertirlo. De este modo, aún tendrá una copia del libro original, en caso de que lo necesite.
 
->[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convertir libros](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
 
 1. Configurar el nuevo Report Builder por [siguiendo estas instrucciones](/help/analyze/report-builder/report-builder-setup.md).
 

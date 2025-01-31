@@ -3,10 +3,10 @@ title: Analizar datos afectados por eventos
 description: Comprender cómo los datos afectados por un evento contribuyen a la calidad general de los datos.
 exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
 feature: Event
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 96%
 
 ---
 
@@ -42,11 +42,15 @@ Una vez que esté preparado para gestionar un evento, puede [comunicarse con los
 
 ## Vídeo
 
-Este vídeo muestra cada uno de los pasos anteriores.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analice y comunique las variaciones de sus datos](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 * **0:27**: Excluir datos mediante la segmentación
 * **2:55**: Comparar un evento con intervalos anteriores
 * **8:42**: Obtener datos mediante métricas calculadas
 * **11:46**: Comunicar el impacto a los usuarios
+
+>[!ENDSHADEBOX]
+
+

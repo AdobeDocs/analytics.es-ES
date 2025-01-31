@@ -4,10 +4,10 @@ keywords: flujo de navegación;fuente de datos;fuente de datos;Fuente de datos
 title: Información general de fuente de datos de Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 86%
+source-wordcount: '306'
+ht-degree: 79%
 
 ---
 
@@ -33,10 +33,17 @@ Los siguientes recursos le ayudan a comprender el flujo de trabajo básico de la
 * [Administrar fuentes de datos](df-manage-feeds.md): Más información sobre cómo navegar por la interfaz de la fuente de datos
 * [Contenido de fuentes de datos](c-df-contents/datafeeds-contents.md): comprenda qué hay dentro del archivo comprimido <!-- Is this still the output users can download from the destination? I aske Jun. -->
 * [Definiciones de columnas de datos](c-df-contents/datafeeds-reference.md): una lista completa de todas las columnas disponibles.
-* Navegación de vídeo en la interfaz de fuente de datos:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-* Vídeo sobre cómo encontrar su ID de fuente de datos:
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegue por la interfaz de la fuente de datos](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+>[!ENDSHADEBOX]
+
+
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Busque su ID de fuente de datos](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]

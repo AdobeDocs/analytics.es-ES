@@ -4,10 +4,10 @@ title: Gráfico de viñetas
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 87%
+source-wordcount: '266'
+ht-degree: 56%
 
 ---
 
@@ -37,12 +37,31 @@ _Este artículo documenta la visualización de viñetas en_ ![Adobe Analytics](/
 
 >[!ENDSHADEBOX]
 
-Le permite ver cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos).
+La visualización ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** muestra cómo una métrica se compara con, o mide en, rangos de rendimiento (objetivos).
 
-![](assets/bullet-image.png)
+![Visualización de gráfico de viñetas](assets/bullet.png)
 
-El gráfico de bala presenta una única medida principal (por ejemplo, los ingresos anuales actuales hasta la fecha) y permite introducir intervalos cualitativos de rendimiento (por ejemplo, en comparación con los ingresos objetivo). Puede especificar alto, medio y bajo. Puede especificar intervalos objetivo en [!UICONTROL Configuración de visualización].
+El gráfico de bala presenta una única medida principal (por ejemplo, los ingresos anuales actuales hasta la fecha) y permite introducir intervalos cualitativos de rendimiento (por ejemplo, en comparación con los ingresos objetivo). Puede especificar intervalos de objetivos altos, medios y bajos. Puede especificar intervalos objetivo en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]**.
 
-Aquí tiene un vídeo sobre la visualización del gráfico de viñetas:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23989/?quality=12)
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de gráfico de viñetas](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
+## Configuración
+
+Puede definir una configuración específica para una visualización de [!UICONTROL viñeta].
+
+| Configuración | Descripción |
+|---|---|
+| **[!UICONTROL Opciones de viñeta]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta media]** y **[!UICONTROL Meta baja]** en la visualización de [!UICONTROL Viñeta]. <br/>**[!UICONTROL Meta alta ]**es el objetivo principal que busca.**[!UICONTROL  Meta baja ]**y**[!UICONTROL  Meta media ]**crean intervalos por debajo de la Meta alta. Nota: Cuando la opción**[!UICONTROL  Porcentajes ]**esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento. |
+
+>[!MORELIKETHIS]
+>
+>[Agregar una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menú contextual de visualización ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

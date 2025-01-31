@@ -4,10 +4,10 @@ description: Cómo los diferentes tipos de atribución dividen el crédito entre
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: e18fde22f4ec60b292f47112e51fad8a0d78acb2
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 95%
+source-wordcount: '1603'
+ht-degree: 94%
 
 ---
 
@@ -44,9 +44,12 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 
 * **Ventana retrospectiva personalizada:** Permite expandir la ventana de atribución más allá del intervalo de fechas de la creación de informes hasta un máximo de 90 días. Las ventanas retrospectivas personalizadas se evalúan en cada conversión del periodo del sistema de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de la dimensión del 10 de febrero al 20 de febrero en el modelo de atribución.
 
-  Este es un vídeo sobre ventanas retrospectivas personalizadas:
+>[!BEGINSHADEBOX]
 
-  >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ventana retrospectiva personalizada](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Ejemplo
 

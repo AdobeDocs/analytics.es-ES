@@ -4,10 +4,10 @@ description: Las tablas de forma libre son la base del análisis de datos en Wor
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 64%
+source-wordcount: '637'
+ht-degree: 61%
 
 ---
 
@@ -93,13 +93,23 @@ Obtenga más información sobre todas las [opciones de exportación](https://exp
 ## Vídeos
 
 Descripción general del generador de tablas de forma libre:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Descripción general del generador de tablas de forma libre](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
-Filtros de tablas de forma libre:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
+>[!BEGINSHADEBOX]
 
-Totales de tabla de forma libre:
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtros de tabla de forma libre](https://video.tv.adobe.com/v/23232?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
->[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Totales de tabla de forma libre](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
+

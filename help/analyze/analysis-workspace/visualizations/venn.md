@@ -5,10 +5,10 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 86%
+source-wordcount: '167'
+ht-degree: 24%
 
 ---
 
@@ -30,26 +30,33 @@ _Este artículo documenta la visualización Venn en_ ![Adobe Analytics](/help/as
 
 >[!ENDSHADEBOX]
 
-La visualización [!UICONTROL Venn] le permite arrastrar hasta tres segmentos (de [!UICONTROL Componentes]) y una métrica para generar un diagrama de [!UICONTROL Venn].
+La visualización ![Type](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** le permite arrastrar hasta tres filtros y una métrica (del panel Componentes) para generar un diagrama de Venn.
 
-![](assets/venn.png)
+![Visualización Venn que incluye tres filtros.](assets/venn.png)
 
-Así pues, puede situarse encima de los segmentos para conocer mejor los porcentajes, etc.
+Puede pasar el ratón sobre los filtros para obtener más información sobre los porcentajes y más.
 
-![](assets/venn_hover.png)
+Para generar una [!UICONTROL tabla de forma libre] a partir de la visualización [!UICONTROL Venn], seleccione el ![StatusOrange](/help/assets/icons/StatusOrange.svg) de color junto al encabezado **[!UICONTROL Venn]** y seleccione **[!UICONTROL Mostrar fuente de datos]**. Verá una tabla de forma libre con **[!UICONTROL datos Venn]** y los datos usados para crear la visualización [!UICONTROL Venn].
 
-## Conversión del diagrama de [!UICONTROL Venn] en una tabla de [!UICONTROL Forma libre]
+<!--
+To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
 
-Para transformar un diagrama de Venn en una tabla de forma libre, haga clic en el punto de color al lado del encabezado de **[!UICONTROL Venn]** y seleccione **[!UICONTROL Administrar fuentes de datos]** > **[!UICONTROL Fuentes de datos disponibles]** > **[!UICONTROL Tabla de forma libre]**.
+![Visualization Settings option for Visualization type: Venn diagram.](assets/normalization.png)
 
-## Normalización de un diagrama de [!UICONTROL Venn]
+-->
 
-Para normalizar el diagrama de [!UICONTROL Venn] (obtener su tamaño), vaya al icono de su Configuración de visualización y seleccione **[!UICONTROL Normalización]**.
 
-![](assets/normalization.png)
+>[!BEGINSHADEBOX]
 
-## Vídeo
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización Venn](https://video.tv.adobe.com/v/335798/?quality=12){target="_blank"} para ver un vídeo de demostración.
 
-Aquí tiene un vídeo sobre el diagrama de [!UICONTROL Venn]:
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/335798/?quality=12)
+
+>[!MORELIKETHIS]
+>
+>[Agregar una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menú contextual de visualización ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

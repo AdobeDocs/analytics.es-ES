@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Resumen de Audience Analytics
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '478'
 ht-degree: 42%
 
 ---
@@ -17,7 +17,13 @@ Adobe Audience Manager (Adobe Audience Manager) es una potente plataforma de adm
 
 Una vez que el Audience Analytics se haya integrado, podrá incorporar datos de audiencia de Adobe Audience Manager, como información demográfica (p. ej., sexo o nivel de ingresos), información psicográfica (p. ej., intereses y aficiones), datos CRM y datos de impresión publicitaria a cualquier flujo de trabajo de Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/25450?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Ventajas principales {#benefits}
 

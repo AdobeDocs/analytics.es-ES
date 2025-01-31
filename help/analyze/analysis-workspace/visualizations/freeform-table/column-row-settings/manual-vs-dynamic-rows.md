@@ -4,10 +4,10 @@ description: Interacción con elementos de dimensión dinámicos y estáticos en
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 90%
+source-wordcount: '520'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ Los elementos de dimensión dinámicos cambian con el tiempo y dependen de la m�
 
 Cuando se coloca una dimensión en una tabla de forma libre, se devuelven filas dinámicas. Representan los elementos principales que corresponden a la dimensión de una métrica y un período de tiempo determinados. También puede colocar una dimensión en columnas de tabla de forma libre y esta se expande automáticamente a los 5 elementos de dimensión principales.
 
-Por ejemplo, cuando arrastra la dimensión Tipo de explorador a la tabla, los elementos de dimensión Tipo de explorador principales (por ejemplo, Microsoft, Apple, Google, etc.) se devuelven de forma dinámica a las filas de la tabla. Si se sueltan en una columna, los 5 elementos de dimensión Tipo de explorador principales se devuelven de forma dinámica.
+Por ejemplo, cuando arrastra la dimensión Tipo de explorador a la tabla, los elementos de dimensión Tipo de explorador principales (por ejemplo, Microsoft, Apple, Google, etc.) vuelven dinámicamente a las filas de la tabla. Si se sueltan en una columna, los 5 elementos de dimensión Tipo de explorador principales se devuelven de forma dinámica.
 
 Los elementos de dimensión dinámicos tienen la opción de filtro de fila y los iconos X, y **no** tienen presente el icono de bloqueo. <!--do they have the lock icon? --> Al hacer clic en la x junto a un elemento de dimensión dinámica, se aplica automáticamente un filtro. Para obtener más información sobre cómo aplicar filtros a las tablas, vea [Filtrar y ordenar tablas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
@@ -57,6 +57,11 @@ Las filas dinámicas y estáticas se comportan de forma diferente en la fila tot
 
 ## Reordenamiento de las filas estáticas
 
-A continuación, se muestra un vídeo sobre este tema:
 
->[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Reordenar filas estáticas](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+

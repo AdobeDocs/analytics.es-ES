@@ -4,10 +4,10 @@ description: Puede establecer preferencias generales y de proyecto para los usua
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '3123'
-ht-degree: 100%
+source-wordcount: '3122'
+ht-degree: 99%
 
 ---
 
@@ -15,9 +15,13 @@ ht-degree: 100%
 
 Puede administrar la configuración de Analysis Workspace y sus componentes relacionados para todos los proyectos o paneles nuevos que cree. Los proyectos y paneles existentes no se ven afectados.
 
-Vea este vídeo para obtener una breve descripción general de las preferencias:
 
->[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administrar preferencias](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Actualizar preferencias
 
@@ -94,7 +98,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | Sección | Preferencia | Opciones |
 | --- | --- | --- |
 | **Tabla** | | |
-| | Tipo de tabla | <ul><li>de forma libre</li><li>Generador de tablas</li></ul> |
+| | Tipo de tabla | <ul><li>De forma libre</li><li>Generador de tablas</li></ul> |
 | | Métrica predeterminada de tabla | <ul><li>Ocurrencias</li><li>Visitantes únicos</li><li>Visitas</li></ul> |
 | | Dimensión predeterminada de tabla | Elija entre Minuto, Hora, Día, Semana, Mes, Trimestre o Año. |
 | | Alinear fechas | Seleccione esta opción para alinear fechas de cada columna con todas a partir de la misma fila. |

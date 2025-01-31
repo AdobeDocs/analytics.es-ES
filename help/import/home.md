@@ -3,16 +3,16 @@ title: Guía de importación de Analytics
 description: En esta guía se explica cómo obtener datos en Analytics a través de fuentes de datos y API de inserción.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Guía de importación de Analytics
 
-![Banner](../../assets/doc_banner_import.png)
+
 
 Esta guía explica cómo obtener datos en Analytics. Incluye:
 
@@ -21,9 +21,14 @@ Esta guía explica cómo obtener datos en Analytics. Incluye:
 * **[API de inserción de datos](c-data-insertion-api/c-data-insertion-api.md)**: envíe datos directamente a la recopilación de datos de Adobe a través de una API.
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**: encuentre las integraciones actuales disponibles para enriquecer el grupo de informes de Adobe Analytics.
 
-A continuación, se muestra un vídeo introductorio de Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [descripción general de Adobe Analytics](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Más guías del usuario de Analytics
 

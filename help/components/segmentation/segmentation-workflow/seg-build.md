@@ -3,10 +3,10 @@ description: El Generador de segmentos proporciona un lienzo al que arrastrar y 
 title: ' Generación de segmentos'
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -167,9 +167,13 @@ Usted crea un contenedor de visita y, dentro del mismo, agrega el intervalo temp
 
 ![](assets/date-ranges.png)
 
-Aquí tiene un vídeo sobre el uso de intervalos de fechas móviles en los segmentos:
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de fechas móviles en segmentos](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Apilar segmentos {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 

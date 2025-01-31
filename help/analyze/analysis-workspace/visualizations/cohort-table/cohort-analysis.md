@@ -4,10 +4,10 @@ description: Explore en detalle los datos de su audiencia y desglóselos en grup
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 86%
+source-wordcount: '590'
+ht-degree: 81%
 
 ---
 
@@ -52,9 +52,12 @@ Ejemplos de lo que puede hacer con el [!UICONTROL análisis de cohorte]:
 
 El [!UICONTROL análisis de cohorte] está disponible para todos los clientes de Adobe Analytics con derechos de acceso a [!UICONTROL Analysis Workspace].
 
-Vídeo sobre tablas de cohorte en Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de cohorte en Analysis Workspace](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -74,9 +77,14 @@ Un informe de cohorte de [!UICONTROL retención] devuelve la información de vis
 
 ![](assets/retention-report.png)
 
-Este es un vídeo sobre el cálculo de la retención móvil:
 
->[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calcular la retención móvil](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
 
 ### [!UICONTROL Tabla de pérdida]
 
@@ -84,9 +92,12 @@ Una cohorte de [!UICONTROL pérdida] es la inversa de una tabla de retención y 
 
 ![](assets/churn-report.png)
 
-Aquí hay un vídeo sobre el análisis de pérdida:
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de pérdida](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ### [!UICONTROL Cálculo móvil]
 

@@ -3,10 +3,10 @@ description: Le permite utilizar el segmento para actividades de marketing en la
 title: Segmentos Publish a Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 605d99581a1d17aa716163308958a61b51f97d46
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 67%
+source-wordcount: '1308'
+ht-degree: 66%
 
 ---
 
@@ -16,9 +16,13 @@ La publicación de un segmento de Adobe Analytics en Experience Cloud le permite
 
 Puede publicar segmentos de Analytics en el Experience Cloud en menos de 8 horas. Utilice estos segmentos para activar audiencias en el Audience Manager a todos los destinos de flujo descendente.
 
-Vea este vídeo para obtener más información:
 
->[!VIDEO](https://video.tv.adobe.com/v/32842/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [segmentos de Publish](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >

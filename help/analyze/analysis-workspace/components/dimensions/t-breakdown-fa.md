@@ -5,10 +5,10 @@ title: Desglose de dimensiones
 feature: Dimensions
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 89%
 
 ---
 
@@ -45,14 +45,25 @@ Este es el comportamiento esperado al aplicar modelos de atribución a desgloses
 
 ## Vídeos
 
-Adición de dimensiones y métricas al proyecto en Analysis Workspace:
 
->[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
+>[!BEGINSHADEBOX]
 
-Trabajo con dimensiones en una tabla de forma libre:
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar dimensiones y métricas al proyecto en Analysis Workspace](https://video.tv.adobe.com/v/30606?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
->[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
+>[!ENDSHADEBOX]
 
-Este es un vídeo sobre los desgloses de dimensión por posición:
 
->[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trabajo con dimensiones en una tabla de forma libre](https://video.tv.adobe.com/v/40179?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [desgloses de dimensión por posición](https://video.tv.adobe.com/v/24033?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+

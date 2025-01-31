@@ -4,10 +4,10 @@ title: Resumen de abandonos
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -31,9 +31,13 @@ _Este artículo documenta la visualización de abandonos en_ ![Adobe Analytics](
 
 Las visualizaciones de visitas en el orden previsto ofrecen más opciones para crear sus informes de visitas en el orden previsto. Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas.
 
-A continuación, se muestra un vídeo sobre la visualización Visita en orden previsto:
 
->[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de visitas en el orden previsto](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 Las visualizaciones de visitas en el orden previsto le permiten:
 

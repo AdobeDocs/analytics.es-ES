@@ -5,10 +5,10 @@ title: Compartir proyectos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1929'
-ht-degree: 100%
+source-wordcount: '1937'
+ht-degree: 97%
 
 ---
 
@@ -30,9 +30,13 @@ Puede compartir un proyecto de Analysis Workspace con los siguientes tipos de pe
 
 Cualquier [depuración](curate.md) que haya aplicado antes del uso compartido se verá reflejada cuando los destinatarios abran el proyecto.
 
-A continuación se muestra un vídeo introductorio del uso compartido de proyectos:
 
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir proyectos](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
 
 
 ## Comparta contenido con usuarios y grupos de Analysis Workspace de su organización {#Add}
@@ -96,7 +100,7 @@ Si hay cambios sin guardar, se le pedirá que guarde primero el proyecto.
 
    O
 
-   Seleccione **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. Si el proyecto ya se ha compartido, seleccione **[!UICONTROL Depurar y actualizar]**.) Obtenga más información sobre la [depuración del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=es).
+   Seleccione **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. (Si el proyecto ya se ha compartido, seleccione **[!UICONTROL Depurar y actualizar]**.) Obtenga más información acerca de la [depuración del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=es).
 
 ## Compartir un vínculo a un proyecto
 
@@ -138,9 +142,13 @@ Puede conceder [acceso de solo lectura](/help/analyze/analysis-workspace/curate-
 >
 >* Un proyecto podría resultar inaccesible si muchos usuarios intentan acceder a un vínculo determinado al mismo tiempo. De forma predeterminada, más de 190 personas pueden acceder a un solo vínculo cada 5 minutos. Si su organización alcanza este límite, espere 5 minutos e intente acceder al vínculo de nuevo.
 
-La siguiente demostración en vídeo y la documentación adjunta describen las opciones asociadas con el uso compartido de un vínculo con cualquier persona:
 
->[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir un vínculo con alguien](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 Para compartir un proyecto de Analysis Workspace con personas que no tienen acceso a Adobe Analytics:
 
@@ -188,9 +196,14 @@ Cuando alguien comparte un proyecto con usted compartiendo un vínculo (ya sea d
 
 ## Uso compartido de componentes incrustados
 
-A continuación se muestra un vídeo sobre este tema:
+Puede compartir los componentes incrustados que forman parte del proyecto.
 
->[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
+>[!BEGINSHADEBOX]
+
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
 
 ## Preguntas frecuentes {#FAQs}
 

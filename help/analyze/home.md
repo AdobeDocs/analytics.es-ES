@@ -4,10 +4,10 @@ description: Documentación del producto e instrucciones para Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
-source-wordcount: '523'
-ht-degree: 100%
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,12 @@ La Guía de herramientas de Analytics incluye información acerca de caracterís
 
 Para obtener más información acerca de los conceptos básicos de Adobe Analytics, consulte la *Introducción a Adobe Analytics: seminario web de Experience Builder* a continuación. El vídeo le explica cómo se capturan los datos, cómo se envían a Adobe Analytics y qué capacidades de visualización puede utilizar en Adobe Analytics. El vídeo proporciona una base para generar, implementar, recopilar e interpretar datos... le permite proporcionar perspectivas y recomendaciones procesables basadas en los datos recopilados.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introducción al seminario web de Adobe Analytics - Generador de habilidades](https://video.tv.adobe.com/v/27429/?quality=12&learn=on){target="_blank"} para ver el seminario web.
+
+>[!ENDSHADEBOX]
 
 Si tiene preguntas acerca de qué herramienta utilizar, consulte [¿Qué herramienta de Adobe Analytics debo usar?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=es).
 
