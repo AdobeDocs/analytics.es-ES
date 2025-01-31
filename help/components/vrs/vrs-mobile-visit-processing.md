@@ -3,7 +3,7 @@ description: Las sesiones según el contexto en los grupos de informes virtuales
 title: Sesiones según el contexto
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: b9919c43b0232de1f8cb473d760bc013f4bc01f8
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 97%
@@ -19,7 +19,7 @@ Puede definir una visita del modo que desee sin alterar los datos subyacentes pa
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sesiones según el contexto](https://video.tv.adobe.com/v/iden23545tifier?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sesiones según el contexto](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
