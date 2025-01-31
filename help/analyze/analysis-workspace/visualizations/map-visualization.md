@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 92%
+source-wordcount: '692'
+ht-degree: 58%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="Mapa"
->abstract="Esta visualización representa las métricas superponiéndolas en un mapa. Esto resulta útil para identificar datos en diferentes regiones geográficas."
+>abstract="Esta visualización representa las métricas superponiéndolas en un mapa. Esta visualización es útil para identificar datos en diferentes regiones geográficas."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -50,48 +50,52 @@ _Este artículo documenta la visualización de mapas en_ ![Adobe Analytics](/hel
 
 >[!ENDSHADEBOX]
 
-## Información general {#section_19F740FAF08D47B1AF1EF239A74FC75C}
 
-La visualización de mapas en Analysis Workspace
 
-* Permite crear un mapa visual de cualquier métrica (incluidas las métricas calculadas).
-* Resulta útil para identificar y comparar datos de métricas entre distintas regiones geográficas.
-* Admite dos fuentes de datos: latitud/longitud para el uso desde dispositivos móviles o dimensión geográfica para el uso en web.
-* Admite exportación de PDF.
-* Aprovecha WebGL para la visualización de gráficos. Si sus controladores gráficos no admiten la representación WebGL, es posible que deba actualizarlos.
+La visualización ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** en Analysis Workspace
 
-A continuación, se muestra un vídeo introductorio:
+* le permite crear un mapa visual de cualquier métrica (incluidas las métricas calculadas),
+* es útil para identificar y comparar datos de métricas en diferentes regiones geográficas,
+* puede admitir 2 fuentes de datos: latitud/longitud desde uso móvil o dimensión geográfica para uso web,
+* admite la exportación del PDF, y
+* aprovecha WebGL para la visualización de gráficos. Si sus controladores gráficos no admiten la representación WebGL, es posible que deba actualizarlos.
 
->[!VIDEO](https://video.tv.adobe.com/v/23559/?quality=12)
 
-## Creación de una visualización de mapas {#section_61BBFA3A7BFD48DA8D305A69D9416299}
+>[!BEGINSHADEBOX]
 
-1. En la lista de visualizaciones, arrastre **[!UICONTROL Mapa]** a un panel de forma libre:
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de mapas en Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"} para ver un vídeo de demostración.
 
-   ![](assets/map-viz1.png)
+>[!ENDSHADEBOX]
 
-1. Arrastre una métrica desde la lista de métricas (incluidas métricas calculadas).
-1. Especifique la fuente de datos que desea utilizar. (Este cuadro de diálogo aparece únicamente si tiene habilitado el seguimiento de la ubicación para datos de aplicaciones móviles).
 
-| Configuración | Descripción |
-| --- | --- |
-| [!UICONTROL Latitud/Longitud móvil] | Esta opción representa los datos de las aplicaciones móviles. Solo verá esta opción si la ha habilitado para su conjunto de informes en [!UICONTROL Analytics] > [!UICONTROL Administración] > [!UICONTROL Grupos de informes] > (seleccione el grupo de informes)> [!UICONTROL Editar configuración] >  [!UICONTROL Administración móvil] > [!UICONTROL Activar el seguimiento de ubicación]. Esta es la configuración predeterminada (si el seguimiento de la ubicación está habilitado). |
-| [!UICONTROL Dimensión geográfica] | Esta opción representa los datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. Estos datos se transforman en [!UICONTROL País], [!UICONTROL Región] y [!UICONTROL Ciudad]. Tenga en cuenta que no se desciende al nivel del código postal ni DMA. Casi todos los grupos de informes tienen habilitada esta dimensión. Si no es así en su caso, póngase en contacto con el Servicio de atención al cliente de Adobe para habilitar los informes geográficos. |
+## Utiliza
 
-1. Haga clic en **[!UICONTROL Generar]**.
+1. Agregue una visualización ![Map](/help/assets/icons/Globe.svg) [!UICONTROL Map]. Consulte [Agregar una visualización a un panel](freeform-analysis-visualizations.md#add-visualizations-to-a-panel). Solo puede arrastrar una visualización de mapa sobre una tabla de forma libre.
 
-   Lo recibirá la vista Mundo, con un mapa de burbujas similar a este.
+   ![Configuración de mapa](assets/map-configuration.png){width="50%"}
+
+1. En las listas desplegables, seleccione una métrica. O bien, arrastre una métrica desde la lista de métricas (incluidas las métricas calculadas).
+1. Especifique el origen de datos desde el que desea dibujar. Este cuadro de diálogo solo aparece si tiene habilitado el seguimiento de ubicación para los datos de aplicaciones móviles.
+
+   | Fuente | Descripción |
+   | --- | --- |
+   | **[!UICONTROL Latitud/Longitud móvil]** | Esta opción representa los datos de las aplicaciones móviles. Solo verá esta opción si la ha habilitado para su conjunto de informes en [!UICONTROL Analytics] > [!UICONTROL Administración] > [!UICONTROL Grupos de informes] > (seleccione el grupo de informes)> [!UICONTROL Editar configuración] >  [!UICONTROL Administración móvil] > [!UICONTROL Activar el seguimiento de ubicación]. Esta configuración es la predeterminada (si el seguimiento de la ubicación está habilitado). |
+   | **[!UICONTROL Dimensión geográfica]** | Esta opción representa los datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. Estos datos se transforman en [!UICONTROL País], [!UICONTROL Región] y [!UICONTROL Ciudad]. Tenga en cuenta que no se desciende al nivel del código postal ni DMA. Casi todos los grupos de informes tienen habilitada esta dimensión. Si no es así en su caso, póngase en contacto con el Servicio de atención al cliente de Adobe para habilitar los informes geográficos. |
+
+1. Seleccione **[!UICONTROL Generar]**.
+
+   Se genera una visualización de mapa del mundo con burbujas.
 
    ![](assets/bubble-world-view.png)
 
-1. Ahora puede
+1. Ahora puede:
 
    * **Hacer zoom** en este mapa para ampliar determinadas áreas haciendo doble clic en el mapa o utilizando la rueda de desplazamiento. El mapa se amplía o se reduce según dónde haya colocado el cursor. La dimensión requerida (país > estado > ciudad) se actualiza automáticamente según la interacción con el nivel de zoom.
    * **Comparar** dos o más visualizaciones de mapas en el mismo proyecto colocándolas una al lado de la otra.
    * **Mostrar comparaciones entre períodos (por ejemplo, año tras año)**:
 
       * Mostrar números negativos: por ejemplo, si planea crear una métrica año tras año, el mapa puede mostrar -33 % en Nueva York.
-      * En las métricas de tipo porcentual, la agrupación reúne los porcentajes según la media.
+      * Con métricas del tipo *percent*, la agrupación reúne los porcentajes según la media.
       * Esquema de colores verde/rojo: positivo/negativo
 
    * **Girar** el mapa en 2D o 3D manteniendo presionada la tecla [!UICONTROL Ctrl] y desplazando el mapa.
@@ -99,31 +103,36 @@ A continuación, se muestra un vídeo introductorio:
    * **Alternar** entre las distintas vistas, como el mapa de calor, empleando las [configuraciones](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) descritas más adelante. La visualización de burbujas es la configuración predeterminada.
 
 1. **Guardar** el proyecto para guardar la configuración completa del mapa (coordenadas, zoom, rotación).
-1. La tabla improvisada, bajo la visualización, puede rellenarse arrastrando a ella dimensiones de localización y métricas desde el carril izquierdo:
+1. La tabla de forma libre, debajo de la visualización, se puede rellenar arrastrando dimensiones de ubicación y métricas desde el carril izquierdo.
 
-   ![](assets/location-dimensions.png)
 
-## Configuración de visualización de mapas {#section_5F89C620A6AA42BC8E0955478B3A427E}
 
-Hay 2 conjuntos de configuraciones para el mapa:
+## Configuración
 
-El **icono de llave inglesa** en la parte superior recupera el cuadro de diálogo inicial, donde puede cambiar la métrica y la fuente de datos:
+Para reconfigurar la visualización Mapa, seleccione ![Editar](/help/assets/icons/Edit.svg).
 
-![](assets/map-wrench.png)
 
-Al hacer clic en el **icono de engranaje**, se muestra esta configuración de visualización:
+## Configuración
+
+Para definir la configuración de la visualización, seleccione ![Configuración](/help/assets/icons/Setting.svg).
 
 | Configuración | Descripción |
 |--- |--- |
-| Burbujas | Representa los eventos mediante burbujas. Un gráfico de burbujas es un gráfico multivariable a medio camino entre un diagrama de dispersión y un gráfico de superficie proporcional. Esta es la vista predeterminada. |
+| **[!UICONTROL Tipo de mapa]** | |
+| [!UICONTROL Burbujas] | Representa los eventos mediante burbujas. Un gráfico de burbujas es un gráfico multivariable a medio camino entre un diagrama de dispersión y un gráfico de superficie proporcional. Esta vista es la predeterminada. |
 | Mapa de calor | Representa los eventos mediante un mapa de calor. Se trata de una representación gráfica de datos que muestra como colores los valores individuales contenidos en una matriz. |
-| Estilos: tema de color | Muestra el esquema de colores para el mapa de calor y las burbujas. Puede elegir entre Coral, Rojos, Verdes o Azules. El valor predeterminado es Coral. |
-| Estilos: estilo de mapa | Puede elegir entre Básico, Calles, Brillante, Claro, Oscuro y Satélite. |
-| Radio de clúster | Agrupa los puntos de datos que se hallan dentro de un radio de píxeles definido. El valor predeterminado es 50. |
-| Valor máximo personalizado | Le permite alterar el umbral para el valor máximo del mapa. Al ajustar este valor, se ajusta la escala de los valores (color y tamaño) de las burbujas/mapa de calor en relación con el valor máximo personalizado establecido. |
+| **[!UICONTROL Estilos]** | |
+| [!UICONTROL Tema de color] | Muestra el esquema de colores para el mapa de calor y las burbujas. Puede elegir entre Coral, Rojos, Verdes o Azules. El valor predeterminado es Coral. |
+| [!UICONTROL Estilo de mapa] | Puede elegir entre Básico, Calles, Brillante, Claro, Oscuro y Satélite. |
+| **[!UICONTROL Radio de clúster]** | Agrupa los puntos de datos que se hallan dentro de un radio de píxeles definido. El valor predeterminado es 50. |
+| **[!UICONTROL Valor máximo personalizado]** | Le permite alterar el umbral para el valor máximo del mapa. Al ajustar este valor, se ajusta la escala de los valores (color y tamaño) de las burbujas/mapa de calor en relación con el valor máximo personalizado establecido. |
 
-## Creación de un mapa de calor de partición de tiempo
+<!--
+## Build a time-parting heatmap
 
-A continuación, se muestra un vídeo sobre este tema:
+Here is a video on the topic:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
+
+-->
+
