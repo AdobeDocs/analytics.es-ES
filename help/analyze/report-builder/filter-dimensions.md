@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 06d762614969f3557c8ccf310af266742cde9738
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 76%
+source-wordcount: '1021'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,11 @@ De forma predeterminada, cada elemento de dimensión de la tabla devuelve los 10
 
 Para cambiar los elementos de dimensión devueltos para cada dimensión
 
-1. Seleccione un bloque de datos y haga clic en **[!UICONTROL Editar bloque de datos]** en el panel COMANDOS.
+1. Haga clic en **[!UICONTROL Administrar]** y seleccione un bloque de datos de la lista.
+
+   ![Administrar > Editar bloque de datos](./assets/manage-edit.png)
+
+1. Haga clic en **[!UICONTROL Editar bloque de datos]** en el panel COMANDOS.
 
 1. Haga clic en **[!UICONTROL Siguiente]** para mostrar la ficha Dimension.
 
