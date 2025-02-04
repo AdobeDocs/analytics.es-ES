@@ -17,7 +17,7 @@ El [!UICONTROL Administrador de actividades de creación de informes] permite a 
 
 Para obtener más información sobre el Administrador de actividades de creación de informes, incluidas las ventajas clave y los requisitos de permisos, consulte [Información general sobre el Administrador de actividades de creación de informes](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
 
-## Ver la actividad de informes de todos los grupos de informes {#view-all-report-suites}
+## Vista de las actividades de creación de informes de todos los grupos de informes {#view-all-report-suites}
 
 <!-- markdownlint-disable MD034 -->
 

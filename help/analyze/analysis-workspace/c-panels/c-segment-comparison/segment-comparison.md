@@ -8,7 +8,7 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '593'
-ht-degree: 26%
+ht-degree: 37%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_button"
->title="Comparación de segmentos"
+>title="Comparación de segmentos "
 >abstract="Compare rápidamente dos segmentos en todos los puntos de datos para encontrar automáticamente diferencias relevantes."
 
 <!-- markdownlint-enable MD034 -->
@@ -27,8 +27,8 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
->title="Panel de comparación de segmentos"
->abstract="Compare rápidamente dos segmentos en todos los puntos de datos para encontrar automáticamente diferencias relevantes.<br/><br/>**Parámetros **<br/>**Agregar un segmento**: El primer segmento que desea analizar.<br/>**Comparar con**: El segundo segmento con el que desea comparar. Esto se rellenará automáticamente con *Todos los demás*, que es lo contrario de su primer segmento. Si lo desea, puede reemplazarlo por un segmento diferente.<br/>**Configuración avanzada**: La capacidad para excluir componentes del análisis en la comparación de segmentos."
+>title="Panel de comparación de segmentos "
+>abstract="Compare rápidamente dos segmentos en todos los puntos de datos para encontrar automáticamente diferencias relevantes.<br/><br/>**Parámetros **<br/>**Añadir un segmento**: el primer segmento que desea analizar.<br/>**Comparar con**: el segundo segmento con el que desea comparar. Se cumplimentará automáticamente con *Todos los demás*, que es lo contrario de su primer segmento. Si lo desea, puede reemplazarlo por un segmento diferente.<br/>**Configuración avanzada**: la posibilidad de excluir componentes del análisis en la comparación de segmentos."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]

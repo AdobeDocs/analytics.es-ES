@@ -8,7 +8,7 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 58%
+ht-degree: 60%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="workspace_map_bubbles"
 >title="Burbujas"
->abstract="Trazar eventos con burbujas."
+>abstract="Trace eventos con burbujas."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -38,8 +38,8 @@ ht-degree: 58%
 
 >[!CONTEXTUALHELP]
 >id="workspace_map_heatmap"
->title="Mapa de calor"
->abstract="Trazar eventos con un mapa de calor."
+>title="Mapa térmico"
+>abstract="Trace eventos con un mapa térmico."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -120,7 +120,7 @@ Para definir la configuración de la visualización, seleccione ![Configuración
 |--- |--- |
 | **[!UICONTROL Tipo de mapa]** | |
 | [!UICONTROL Burbujas] | Representa los eventos mediante burbujas. Un gráfico de burbujas es un gráfico multivariable a medio camino entre un diagrama de dispersión y un gráfico de superficie proporcional. Esta vista es la predeterminada. |
-| Mapa de calor | Representa los eventos mediante un mapa de calor. Se trata de una representación gráfica de datos que muestra como colores los valores individuales contenidos en una matriz. |
+| Mapa térmico | Representa los eventos mediante un mapa de calor. Se trata de una representación gráfica de datos que muestra como colores los valores individuales contenidos en una matriz. |
 | **[!UICONTROL Estilos]** | |
 | [!UICONTROL Tema de color] | Muestra el esquema de colores para el mapa de calor y las burbujas. Puede elegir entre Coral, Rojos, Verdes o Azules. El valor predeterminado es Coral. |
 | [!UICONTROL Estilo de mapa] | Puede elegir entre Básico, Calles, Brillante, Claro, Oscuro y Satélite. |
