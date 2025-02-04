@@ -3,20 +3,18 @@ description: Los segmentos secuenciales se crean mediante el operador THEN, en l
 title: Generar segmentos secuenciales
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1b9341efbde5698b73581f50c4ab851434e7e323
 workflow-type: tm+mt
-source-wordcount: '3932'
-ht-degree: 95%
+source-wordcount: '2410'
+ht-degree: 6%
 
 ---
 
-# Generar segmentos secuenciales
+# Segmentos secuenciales
 
-Los segmentos secuenciales se crean mediante el operador THEN, en lugar de AND u OR. THEN implica que se produce un criterio de segmento, seguido por otro. De forma predeterminada, un segmento secuencial identifica a todos los datos coincidentes y muestra el filtro “Incluir a todos”. Los segmentos secuenciales pueden filtrarse adicionalmente a un subconjunto de visitas coincidentes mediante las opciones “Solo antes de la secuencia” y “Solo después de la secuencia”.
+Puede crear segmentos secuenciales utilizando el operador lógico [!UICONTROL Then] entre componentes, contenedores y componentes o contenedores. El operador lógico [!UICONTROL Then] implica que se produce una condición de segmento, seguida de otra.
 
-![](assets/before-after-sequence.png)
-
-Además, puede restringir los segmentos secuenciales a una duración, granularidad y recuentos entre puntos de comprobación específicos mediante los [operadores After y Within](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+Además, puede restringir los segmentos secuenciales a una duración, granularidad y recuentos entre puntos de comprobación específicos mediante los operadores **[!UICONTROL After]** y **[!UICONTROL Within]**.
 
 
 >[!BEGINSHADEBOX]
@@ -25,415 +23,279 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentaci�
 
 >[!ENDSHADEBOX]
 
+Un segmento secuencial tiene [funcionalidad básica](#basics) y opciones adicionales que puede configurar para agregar más complejidad al segmento secuencial:
 
-## Incluir a todos {#section_75ADDD5D41F04800A09E592BB2940B35}
+![Segmento secuencial](assets/sequential-segment.gif)
 
-Al crear un segmento en el cual se ha definido “Incluir a todos”, el segmento identifica las rutas de acceso que coinciden con el patrón determinado como conjunto. Este es un ejemplo de segmento de secuencia básica que busca una visita individual (Página A) seguida de otra (Página B) según la visita del mismo visitante. Este segmento está definido en Incluir a todos.
 
-![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](assets/copied-link-1.png)
+## Conceptos básicos
 
-| Si el resultado... | Secuencia |
-|--- |--- |
-| Coincide | A entonces B<br>A entonces (en una visita diferente) B<br>A entonces D, que entonces B |
-| No coincide | B entonces A |
+Los conceptos básicos para crear un segmento secuencial no son diferentes a crear un segmento normal con el [Generador de segmentos](seg-build.md). Un segmento normal se convierte automáticamente en un segmento secuencial en cuanto se selecciona el operador **[!UICONTROL Then]** en la definición principal o en cualquiera de los contenedores que se usen en [Generador de segmentación](seg-build.md).
 
-## Solo Antes de la Secuencia y Solo Después de la Secuencia {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+### Ejemplos
 
-Las opciones **[!UICONTROL Solo Antes de la Secuencia]** y **[!UICONTROL Solo Después de la Secuencia]** filtran el segmento a un subconjunto de datos anterior o posterior a la secuencia especificada.
+Los ejemplos siguientes ilustran cómo utilizar segmentos secuenciales en varios casos de uso.
 
-* **Solo Antes de la Secuencia**: incluye todas las visitas anteriores a la secuencia + la primera visita de la propia secuencia (consulte los ejemplos 1 y 3). Si la secuencia aparece varias veces en una ruta, “Solo antes de la secuencia” incluye la primera visita de la última aparición de la secuencia y todas las visitas anteriores (consulte el ejemplo 2).
-* **Solo Después de la Secuencia**: incluye todas las visitas posteriores a la secuencia + la última visita de la propia secuencia (consulte los ejemplos 1 y 3). Si la secuencia aparece varias veces en una ruta, “Solo después de la secuencia” incluye la última visita de la primera aparición de la secuencia y todas las visitas posteriores (consulte el ejemplo 2).
+#### Secuencia simple
 
-Por ejemplo, si tenemos una secuencia de B -> D, los tres filtros identificarán las visitas del modo siguiente:
+Identifique a los visitantes que vieron una página y luego vieron otra página. Los datos en el nivel de visita individual se segmentan mediante esta secuencia. Independientemente de las visitas de visitantes anteriores, pasadas o intermedias, o el tiempo o el número de vistas de página que se producen entre las visitas.
 
-**Ejemplo 1: B entonces D aparece una vez**
+![El segmento secuencial incluye a todos](assets/sequence-include-everyone.png)
 
-| Ejemplo | A | B | C | D | E | F |
-|---|---|---|---|---|---|---|
-| Incluir a todos | A | B | C | D | E | F |
-| Solo Antes de la Secuencia | A | B |  |  |  |  |
-| Solo Después de la Secuencia |  |  |  | D | E | F |
+#### Secuencia entre visitas
 
-**Ejemplo 2: B entonces D aparece varias veces**
+Identifique a los visitantes que vieron una página en una visita y luego vieron otra página en otra visita. Para diferenciar entre visitas, usa contenedores para crear la secuencia y definir el nivel de ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Visita]** para cada contenedor.
 
-| Ejemplo | A | B | C | D | B | C | D | E |
-|---|---|---|---|---|---|---|---|---|
-| Incluir a todos | A | B | C | D | B | C | D | E |
-| Solo Antes de la Secuencia | A | B | C | D | B |  |  |  |
-| Solo Después de la Secuencia |  |  |  | D | B | C | D | E |
+![Segmento de secuencia en varias visitas](assets/sequence-filter-session.png)
 
-Vamos a enmarcar también este concepto con la dimensión Profundidad de visita.
+#### Secuencia de nivel mixto
 
-**Ejemplo 3: Profundidad de visita 3 entonces 5**
+Identifique a los visitantes que ven dos páginas en un número indeterminado de visitas y luego ven una tercera página en una visita separada. De nuevo, use contenedores para generar la secuencia y definir el nivel de ![Visit](/help/assets/icons/Visit.svg) **[!UICONTROL Visit]** en el contenedor que define la visita separada.
 
-![](assets/hit-depth.png)
+![Segmento de secuencia con visita final separada](assets/sequence-filter-final-session.png)
 
-## Restricciones de dimensión {#section_EAFD755F8E674F32BCE9B642F7F909DB}
+#### Secuencia agregada
 
-En una cláusula “En”, entre instrucciones THEN, se puede agregar, por ejemplo, “En 1 instancia de palabra clave de búsqueda”, “En 1 instancia de eVar 47”. Esto restringe el segmento a una instancia de una dimensión.
+Identificar a los visitantes que en su primera visita visitaron una página específica y luego visitaron otras páginas. Para diferenciar entre la secuencia de visitas, use contenedores para separar la lógica en un nivel de contenedor de ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Visit]**.
 
-La configuración de una cláusula “En dimensión” entre reglas permite a un segmento restringir datos a secuencias en las cuales se cumpla la cláusula. Vea el ejemplo siguiente, en el cual la restricción se define en “En 1 página”:
+![contenedores agregados de visitas](assets/session-aggregate-containers.png)
 
-![](assets/sequence-filter4.png)
 
-| Si el resultado... | Secuencia |
-|--- |--- |
-| Coincide | A entonces B |
-| No coincide | A then C then B (porque B no estaba dentro de 1 página de A)<br>**Nota:** Si se elimina la restricción de dimensión, tanto “A then B” como “A then C then B” coincidirán. |
+#### Anidar una secuencia
 
-## Secuencia de vista de página simple
+Identifique todas las visitas en las que un visitante visita una página antes de otra y luego realiza visitas de seguimiento que incluyen otras dos páginas. Por ejemplo, identifique todas las visitas en las que un visitante visita por primera vez la página de inicio, luego una página de categoría 1 y luego tenga otras visitas en las que, en cada visita, se visitan las páginas de categoría 2 y categoría 3.
 
-Identifique a los visitantes que vieron una página y luego vieron otra página. Los datos en el nivel de visita individual filtrarán esta secuencia independientemente de las sesiones de visita anteriores, pasadas o intermedias, o el tiempo o el número de vistas de página que se sucedan entre ellas.
+![Secuencia anidada](assets/sequence-nested.png)
 
-**Ejemplo**: Visitante que vio la página A y luego la página B en la misma visita o en otra.
+## [!UICONTROL Después] y [!UICONTROL Dentro]
 
-**Casos de uso**
+Puede usar el operador ![Reloj](/help/assets/icons/Clock.svg) **[!UICONTROL Después]** y ![Reloj](/help/assets/icons/Clock.svg) **[!UICONTROL En]** el operador **[!UICONTROL Entonces]** para definir [restricciones de tiempo](#time-constraints) o [restricciones adicionales para visitas, visitas o Dimension](#event-session-and-dimension-constraints).
 
-A continuación encontrará una serie de ejemplos de cómo se puede utilizar este segmento:
+### Restricciones de tiempo
 
-1. Los visitantes de un sitio de deportes ven la página de aterrizaje de fútbol y luego ven la página de aterrizaje de baloncesto en orden secuencial, pero no necesariamente en la misma visita. Esto da lugar a una campaña para ofrecer contenido de baloncesto a los espectadores de fútbol durante la temporada de fútbol.
-1. El dueño de un concesionario de automóviles ve una relación entre aquellos que aterrizan en la página de fidelidad del cliente y luego van a la página de vídeos en cualquier momento durante la visita o en otra visita.
+Para aplicar restricciones de tiempo al operador **[!UICONTROL Then]**:
 
-**Crear este segmento**
+1. Seleccione ![Reloj](/help/assets/icons/Clock.svg).
+1. Seleccione **[!UICONTROL En]** o **[!UICONTROL Después]** del menú contextual.
+1. Especifique un período de tiempo (**[!UICONTROL Minuto]**, **[!UICONTROL Hora]**, hasta **[!UICONTROL Años]**).
+1. Seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**para abrir una ventana emergente que le permita escribir o especificar un número con**[!UICONTROL -]**o**[!UICONTROL +]**.
 
-Anide dos reglas de página dentro de un contenedor de [!UICONTROL visitante] de nivel superior y secuencie las visitas individuales de página utilizando el operador [!UICONTROL THEN].
+Para quitar una restricción de tiempo, use ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
-![](assets/segment_sequential_1.png)
-
-## Secuencia de visitante en varias visitas
-
-Identifique a aquellos visitantes que no siguieron una campaña pero que luego volvieron a la secuencia de vistas de página en otra sesión.
-
-**Ejemplo**: Visitante que vio la página A en una visita y luego vio la página B en otra visita.
-
-**Casos de uso**
-
-A continuación encontrará una serie de ejemplos de cómo se puede utilizar este tipo de segmento:
-
-* Los visitantes ven la página de deportes de un sitio de noticias y vuelven a visitar la página de deportes en otra sesión.
-* Un comerciante de ropa ve una relación entre los visitantes que aterrizan en una página de aterrizaje en una sesión y luego van directamente a la página de pago en otra sesión.
-
-**Crear este segmento**
-
-Este ejemplo anida dos contenedores de **[!UICONTROL visita]** dentro del contenedor de **[!UICONTROL visitante]** de nivel superior y secuencia el segmento utilizando el operador [!UICONTROL THEN].
-
-![](assets/visitor_seq_across_visits.png)
-
-## Secuencia de nivel mixto
-
-Identifique a los visitantes que ven dos páginas en un número indeterminado de visitas, pero luego ven una tercera página en una visita separada.
-
-**Ejemplo**: Visitantes que ven la página A y luego la página B en una o más visitas, seguido de una visita separada a la página C.
-
-**Casos de uso**
-
-A continuación encontrará una serie de ejemplos de cómo se puede utilizar este tipo de segmento:
-
-* Los visitantes ven primero un sitio de noticias y luego la página de deportes en la misma visita. En otra visita, el visitante ve la página del tiempo.
-* Un comerciante define a los visitantes que acceden a la página principal y luego a la página Mi cuenta. En otra visita, acceden a la página Ver carro.
-
-**Crear este segmento**
-
-1. Suelte dos dimensiones de página desde los paneles izquierdos dentro de un contenedor de [!UICONTROL visitante] de nivel superior.
-1. Agregue entre ellos el operador THEN.
-1. Haga clic en **[!UICONTROL Opciones]** > **[!UICONTROL Agregar contenedor]** y agregue un contenedor de [!UICONTROL visita] bajo el nivel de [!UICONTROL visitante] y secuenciado utilizando el operador [!UICONTROL THEN].
-
-![](assets/mixed_level_checkpoints.png)
-
-## Contenedores agregados
-
-Si agrega múltiples contenedores de [!UICONTROL visita individual] dentro de un contenedor de [!UICONTROL visitante], puede emplear los operadores adecuados entre el mismo tipo de contenedores, y usar reglas y dimensiones tales como página y número de visita para definir la vista de página y proporcionar una dimensión de secuencia dentro del contenedor de [!UICONTROL visita individual]. Si aplica lógica al nivel de visita individual, puede restringir y combinar coincidencias de visitas individuales del mismo nivel dentro del contenedor de [!UICONTROL visitante] y así generar una variedad de tipos de segmento.
-
-**Ejemplo**: visitantes que visitaron la página A después de la primera visita individual en la secuencia de vistas de página (página D en el ejemplo) y luego visitaron la página B o la página C independientemente del número de visitas.
-
-**Casos de uso**
-
-A continuación encontrará una serie de ejemplos de cómo se puede utilizar este tipo de segmento:
-
-* Identificar a los visitantes que acceden a la página de aterrizaje principal en una visita, después ven la página de ropa masculina en otra visita, y después ven la página de aterrizaje de ropa femenina o infantil en otra visita.
-* Una revista electrónica captura a los visitantes que acceden a la página de inicio en una visita, a la página de deportes en otra visita y a la página de opinión en otra visita.
-
-**Crear este segmento**
-
-1. Seleccione el contenedor de [!UICONTROL visitante] como contenedor de nivel superior.
-1. Agregue dos contenedores de nivel de [!UICONTROL visita individual] (una dimensión con una dimensión numérica adecuada unida en el mismo nivel de [!UICONTROL visita individual] por el operador [!UICONTROL AND] y [!UICONTROL OR]).
-1. Dentro del contenedor de [!UICONTROL visita], agregue otro contenedor de [!UICONTROL visita individual] y anide dos contenedores de [!UICONTROL visita individual] adicionales unidos con un operador [!UICONTROL OR] o [!UICONTROL AND].
-
-   Secuencie estos contenedores de [!UICONTROL visita individual] anidados con el operador [!UICONTROL THEN].
-
-![](assets/aggregate_checkpoints2.png)
-
-## “Anidado” en segmentos secuenciales
-
-Al colocar los puntos de comprobación tanto en el nivel de [!UICONTROL visita] como de [!UICONTROL visita individual], puede restringir el segmento para satisfacer los requisitos dentro de una visita específica, así como una visita individual específica.
-
-**Ejemplo**: Visitante que visitó la página A y luego la página B en la misma visita. En una nueva visita, el visitante fue después a la página C.
-
-**Crear este segmento**
-
-1. Bajo el contenedor de [!UICONTROL visita] de nivel superior, arrastre dos dimensiones de página.
-1. Haga una selección múltiple de ambas reglas, haga clic en **[!UICONTROL Opciones]** > **[!UICONTROL Agregar contenedor de selección]** y cambie a un contenedor de [!UICONTROL visita].
-1. Únalas con un operador [!UICONTROL THEN].
-1. Cree un contenedor de visita individual como homólogo del contenedor de [!UICONTROL visita] y arrastre una dimensión de página.
-1. Una la secuencia anidada en el contenedor de [!UICONTROL visita] con el contenedor de [!UICONTROL visita individual] usando otro operador [!UICONTROL THEN].
-
-![](assets/nesting_sequential_seg.png)
-
-## Excluir visitas
-
-Las reglas de segmentos incluyen todos los datos a menos que se excluyan específicamente los datos de [!UICONTROL visitantes], [!UICONTROL visitas] o [!UICONTROL visitas individuales] usando la regla [!UICONTROL Excluir]. Esta regla permite rechazar datos comunes y crear segmentos más concretos. También permite crear segmentos que excluyan los grupos que se hayan descubierto a fin de identificar el conjunto de datos restante, tal como crear una regla que incluya a los visitantes que hayan hecho un pedido y luego excluirlos para identificar a los &quot;no compradores&quot;. Sin embargo, en la mayoría de casos, es mejor crear reglas que excluyan valores amplios en vez de intentar usar la regla [!UICONTROL Excluir] para dirigirse a valores de inclusión específicos.
-
-Por ejemplo:
-
-* **Exclusión de páginas**. Use una regla de segmento para eliminar una página específica (como *`Home Page`*) de un informe, cree una regla de visita individual en la que la página sea igual a &quot;Página principal&quot; y luego exclúyala. Esta regla incluye automáticamente todos los valores excepto la página de inicio.
-* **Exclusión de dominios de referencia**. Use una regla que incluya solo los dominios de referencia de Google.com y excluya todos los demás.
-* **Identificación de los no compradores**. Identifique el momento en que los pedidos son superiores a cero y luego excluya al [!UICONTROL visitante].
-
-El operador [!UICONTROL Exclude] puede emplearse para identificar una secuencia en la que las visitas o visitas individuales específicas no son efectuadas por el visitante. [!UICONTROL Excluir puntos de comprobación] también se puede incluir dentro de un [grupo lógico](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-
-### Exclusión entre puntos de comprobación
-
-Aplique lógica a los visitantes de un segmento en el caso de que no se haya producido un punto de comprobación explícitamente entre otros dos puntos de comprobación.
-
-**Ejemplo**: Visitantes que visitaron la página A y luego la página C, pero que no visitaron la página B.
-
-**Casos de uso**
-
-A continuación encontrará una serie de ejemplos de cómo se puede utilizar este tipo de segmento:
-
-* Los visitantes que accedieron a la página de estilo de vida y luego a la sección de teatro sin visitar la página de arte.
-* El dueño de un concesionario de automóviles ve una relación entre las personas que visitan la página de aterrizaje principal y luego acceden directamente a la campaña &quot;Sin intereses&quot; sin visitar la página del vehículo.
-
-**Crear este segmento**
-
-Cree un segmento como lo haría para un segmento secuencial simple, de nivel mixto o anidado y luego establezca el operador [!UICONTROL EXCLUDE] para el elemento contenedor. El ejemplo siguiente es un segmento agregado en el que los tres contenedores de [!UICONTROL visita individual] se arrastran al lienzo, el operador [!UICONTROL THEN] se asigna para unir la lógica del contenedor y luego se excluye el contenedor de vista de página central para incluir solo visitantes que fueron de la página A a C en la secuencia.
-
-![](assets/exclude_between_checkpoints.png)
-
-### Exclusión al inicio de la secuencia
-
-Si el punto de comprobación de exclusión se encuentra al inicio de un segmento secuencial, se garantiza que no se ha producido una vista de página excluida antes de la primera visita individual no excluida.
-
-Por ejemplo, un restaurante quiere ver los usuarios que tienden a evitar la página de aterrizaje principal y acceden directamente a la página de pedidos. Para ver estos datos, excluya las visitas a la página de aterrizaje e incluya las visitas a la página de orden de salida en un segmento secuencial.
-
-**Crear este segmento**
-
-Cree dos contenedores de visita individual separados dentro de un contenedor de visitante de nivel superior. Luego establezca el operador [!UICONTROL EXCLUDE] para el primer contenedor.
-
-![](assets/exclude_beginning_sequence.png)
-
-### Exclusión al final de la secuencia
-
-Si el punto de comprobación de exclusión está al final de la secuencia, se garantiza que el punto de comprobación no se produjo entre el último punto de comprobación no excluido y el final de la secuencia del visitante.
-
-Por ejemplo, una tienda de ropa quiere conocer todos los visitantes que vieron una página de producto, pero que no visitaron más tarde su carro de compras. Este ejemplo se puede simplificar con que un visitante va a la página A y nunca a la B en visitas actuales o posteriores.
-
-**Crear este segmento**
-
-Cree un segmento de secuencia simple arrastrando dos contenedores de [!UICONTROL visita individual] al lienzo y conectándolos con el operador [!UICONTROL THEN]. Luego asigne el operador [!UICONTROL EXCLUDE] al segundo contenedor de [!UICONTROL visita individual] de la secuencia.
-
-![](assets/exclude_end_sequence.png)
-
-## Contenedores de grupo lógico
-
-Los contenedores de grupo lógico son necesarios para agrupar condiciones en un único punto de comprobación secuencial de segmento. El contenedor de grupo lógico especial solo está disponible en la segmentación secuencial, para garantizar que sus condiciones se cumplen después de cualquier punto de comprobación secuencial anterior y antes de cualquier punto de comprobación secuencial siguiente. Las condiciones dentro del propio punto de comprobación del grupo lógico pueden cumplirse en cualquier orden. Por otro lado, los contenedores no secuenciales (visita individual, visita, visitante) no requieren que se cumplan sus condiciones dentro de la secuencia global, lo que produce resultados poco intuitivos si se utilizan con un operador THEN.
-El contenedor de [!UICONTROL grupo lógico] fue diseñado para tratar *varios puntos de comprobación como un grupo*, *sin ningún orden* entre los puntos de comprobación agrupados. En otras palabras, no nos importa el orden de los puntos de comprobación dentro de ese grupo. Por ejemplo, no puede anidar un contenedor de [!UICONTROL visitante] dentro de un contenedor de [!UICONTROL visitante]. Sin embargo, puede anidar un contenedor de [!UICONTROL grupo lógico] dentro de un contenedor de [!UICONTROL visitante] con puntos de comprobación de niveles de [!UICONTROL visita] y [!UICONTROL visita individual] específicos.
-
->[!NOTE]
->
->Un [!UICONTROL grupo lógico] solo puede definirse en un segmento secuencial, lo cual significa que el operador [!UICONTROL THEN] se utiliza dentro de la expresión.
-
-| Jerarquía de contenedores | Ilustración | Definición |
-|---|---|---|
-| Jerarquía de contenedor estándar | ![](assets/nesting_container.png) | Dentro del contenedor de [!UICONTROL visitante], los contenedores de [!UICONTROL visita] y [!UICONTROL visita individual] están anidados en secuencia para extraer segmentos en función de las visitas individuales, el número de visitas y el visitante. |
-| Jerarquía de contenedor lógico | ![](assets/logic_group_hierarchy.png) | La jerarquía de contenedor estándar también se requiere fuera del contenedor de [!UICONTROL grupo lógico]. No obstante, dentro del contenedor de [!UICONTROL grupo lógico], los puntos de comprobación no requieren un orden o jerarquía establecidos; dichos puntos de comprobación solo tienen que ser satisfechos por parte del visitante en cualquier orden. |
-
-Los grupos lógicos pueden resultar intimidantes. Aquí tiene algunas prácticas recomendadas sobre cómo utilizarlos:
-
-**¿Grupo lógico o contenedor de visita/visita individual?**
-Si desea agrupar puntos de comprobación secuenciales, su “contenedor” es un grupo lógico. Sin embargo, si estos puntos de comprobación secuenciales deben producirse en el ámbito de una sola visita o visita individual, se requiere un contenedor de visita individual o de visita. (Por supuesto, &#39;visita individual&#39; no tiene sentido para un grupo de puntos de comprobación secuenciales, cuando una visita no puede acreditar más de un punto de comprobación).
-
-**¿Simplifican los grupos lógicos la creación de segmentos secuenciales?**
-Sí. Supongamos que intenta identificar este segmento de visitantes: **Visitantes que vieron la página A y luego vieron cada una de las páginas de B, C y D**
-
-Puede generar este segmento sin un contenedor de grupo lógico, pero es complejo y laborioso. Debe especificar cada secuencia de páginas que el visitante podría ver:
-* `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
-* `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
-* `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
-* `Visitor Container [Page A THEN Page C THEN Page D THEN Page B] or`
-* `Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or`
-* `Visitor Container [Page A THEN Page D THEN Page C THEN Page B]`
-
-Un contenedor de grupo lógico simplifica considerablemente la creación de este segmento, como se muestra aquí:
-
-![](assets/logic-grp-example.png)
-
-
-### Generar un segmento de grupo lógico {#section_A5DDC96E72194668AA91BBD89E575D2E}
-
-Al igual que otros contenedores, los de [!UICONTROL grupo lógico] se pueden crear de varias formas dentro del [!UICONTROL Generador de segmentos]. A continuación se indica una de las mejores formas de anidar contenedores de [!UICONTROL grupo lógico]:
-
-1. Arrastre dimensiones, eventos o segmentos desde los paneles izquierdos.
-1. Cambie el contenedor superior por un contenedor de [!UICONTROL visitante].
-1. Cambie el operador [!UICONTROL AND] u [!UICONTROL OR] insertado de forma predeterminada al operador THEN.
-1. Seleccione los contenedores de [!UICONTROL visita individual] (la dimensión, evento o elemento) y haga clic en **[!UICONTROL Opciones]** > **[!UICONTROL Agregar contenedor de selección]**.
-1. Haga clic en el icono de contenedor y seleccione **[!UICONTROL grupo lógico]**.  ![](assets/logic_group_checkpoints.png)
-1. Ahora puede establecer la [!UICONTROL visita individual] dentro del contenedor de [!UICONTROL grupo lógico] independientemente de la jerarquía.
-
-### Puntos de comprobación de grupo lógico en cualquier orden
-
-Usar el [!UICONTROL grupo lógico] le permite satisfacer las condiciones dentro de ese grupo que residen fuera de la secuencia. Esto le permite generar segmentos en los que un contenedor de [!UICONTROL visita] o [!UICONTROL visita individual] existe sin tener en cuenta la jerarquía normal.
-
-**Ejemplo**: Los visitantes que visitaron la página A y luego visitaron la página B y C en cualquier orden.
-
-**Crear este segmento**
-
-Las páginas B y C están anidadas en un contenedor de [!UICONTROL grupo lógico] dentro del contenedor exterior de [!UICONTROL visitante]. Al contenedor de [!UICONTROL visita individual] para A lo sigue luego el contenedor de [!UICONTROL grupo lógico] con B y C identificadas usando el operador [!UICONTROL AND]. Como está en el [!UICONTROL grupo lógico], la secuencia no se define y visitar la página B o C hace que el argumento sea verdadero.
-
-![](assets/logic_group_any_order2.png)
-
-**Otro ejemplo**: Los visitantes que visitaron la página B o la página C y luego visitaron la página A.
-
-![](assets/logic_group_any_order3.png)
-
-El segmento debe coincidir al menos con uno de los puntos de comprobación del grupo lógico (B o C). Además, las condiciones de grupo lógico pueden cumplirse en la misma visita o en varias visitas individuales.
-
-### Primera coincidencia del grupo lógico
-
-Usar el [!UICONTROL grupo lógico] le permite satisfacer las condiciones dentro de ese grupo que residen fuera de la secuencia. En este segmento de primera coincidencia sin ordenar, las reglas del [!UICONTROL grupo lógico] se identifican primero como una vista de página de la página B o C, y luego la vista requerida de la página A.
-
-**Ejemplo**: Los visitantes que visitaron la página B o la página C y luego visitaron la página A.
-
-**Crear este segmento**
-
-Las dimensiones de la página B y la página C se agrupan dentro de un contenedor de [!UICONTROL grupo lógico] con el operador [!UICONTROL OR] seleccionado, luego el contenedor de [!UICONTROL visita individual] que identifica una vista de página de la página A como valor.
-
-![](assets/logic_group_1st_match.png)
-
-### Grupo lógico excluir AND
-
-Genere segmentos usando el [!UICONTROL grupo lógico] en el que se agregan múltiples vistas de página para definir qué páginas fue necesario visitar mientras que otras páginas se omitieron específicamente. ****
-
-**Ejemplo**: El visitante que visitó la página A y luego no visitó expresamente la página B ni C, pero sí la página D.
-
-**Crear este segmento**
-
-Genere este segmento arrastrando dimensiones, eventos y segmentos pregenerados desde los paneles de la izquierda. Consulte [Generación de un segmento de grupo lógico](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-
-Después de anidar los valores dentro del [!UICONTROL grupo lógico], haga clic en el botón **[!UICONTROL Excluir]** dentro del contenedor de [!UICONTROL grupo lógico].
-
-![](assets/logic_exclude_and.png)
-
-### Grupo lógico excluir OR
-
-Genere segmentos usando el [!UICONTROL grupo lógico] en el que se agregan múltiples vistas de página para definir qué páginas fue necesario visitar mientras que otras páginas se omitieron específicamente.
-
-**Ejemplo**: Los visitantes que visitaron la página A pero que no visitaron ni la página B ni C antes de la página A.
-
-**Crear este segmento**
-
-Las páginas B y C iniciales se identifican en un contenedor de [!UICONTROL grupo lógico] que se excluye y luego son seguidas por una visita a la página A por parte del visitante.
-
-Genere este segmento arrastrando dimensiones, eventos y segmentos pregenerados desde los paneles de la izquierda.
-
-Después de anidar los valores dentro del [!UICONTROL grupo lógico], haga clic en el botón **[!UICONTROL Excluir]** dentro del contenedor de [!UICONTROL grupo lógico].
-
-![](assets/logic_exclude_or.png)
-
-## Generar segmentos temporales En y Después
-
-Use los operadores [!UICONTROL Within] y [!UICONTROL After] incorporados en el encabezado de cada contenedor para definir el tiempo, los eventos y recuentos.
-
-![](assets/then_within_operators.png)
-
-Puede limitar las coincidencias a una duración de tiempo especificada usando los contenedores [!UICONTROL En] y [!UICONTROL Después] y especificando la granularidad y el recuento. El operador [!UICONTROL Within] se usa para especificar un límite máximo de tiempo entre dos puntos de comprobación. El operador [!UICONTROL After] se usa para especificar un límite mínimo de tiempo entre dos puntos de comprobación.
-
->[!NOTE]
->
->Hay diferencias en la evaluación entre elementos con nombres similares como **Day(s)** o **Day**. Para definiciones basadas en el tiempo de En y Después, utilice las opciones que aparecen primero en la ventana emergente:
->
->![imagen](assets/copied-link-2.png)
->
->Para definiciones basadas en dimensiones de En y Después, utilice las opciones del submenú *Otros Dimension*:
->
->![imagen](assets/copied-link-3.png)
-
-### Operadores After y Within {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
-
-La duración está especificada por una sola letra en mayúsculas que representa la granularidad seguida de un número que representa el recuento de repetición de la granularidad.
-
-**[!UICONTROL En]** incluye el punto final (menor o igual que).
-
-**[!UICONTROL Después]** no incluye el punto final (mayor que).
+La tabla siguiente explica con más detalle los operadores de restricción de tiempo.
 
 | Operadores | Descripción |
 |--- |--- |
-| AFTER | El operador After se usa para especificar un límite mínimo de tiempo entre dos puntos de comprobación. Al establecer los valores de Después, el límite de tiempo empezará cuando se aplique el segmento. Por ejemplo, si el operador After se configura en un contenedor para identificar a los visitantes que visitan la página A pero no regresan a la página B hasta después de un día, ese día empezará cuando el visitante abandone la página A. Para que el visitante se incluya en el segmento, debe transcurrir un mínimo de 1440 minutos (un día) desde que salió de la página A hasta que visitó la página B. |
-| WITHIN | El operador Within se usa para especificar un límite máximo de tiempo entre dos puntos de comprobación. Por ejemplo, si el operador Within se configura en un contenedor para identificar a los visitantes que visitan la página A y luego regresan para visitar la página B en un día, ese día comenzará cuando el visitante abandone la página A. Para incluirse en el segmento, el visitante tendrá un tiempo máximo de un día antes de abrir la página B. Para que el visitante se incluya en el segmento, la visita a la página B debe realizarse en un máximo de 1440 minutos (un día) desde que salió de la página A hasta que visitó la página B. |
-| AFTER/WITHIN | Al usar los operadores After y Within, es importante entender que ambos operadores empezarán y finalizarán en paralelo, no en secuencia.   Por ejemplo, si genera un segmento con el contenedor establecido en:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>, las condiciones para identificar a los visitantes en el segmento solo se satisfacen entre 1 y 2 semanas. Ambas condiciones se aplican desde el momento de la primera visita individual a la página. |
+| **[!UICONTROL Después]** | El operador [!UICONTROL After] se usa para especificar un límite mínimo de tiempo entre dos puntos de comprobación. Al establecer los valores de Después, el límite de tiempo comienza cuando se aplica el segmento. Por ejemplo, si el operador [!UICONTROL After] se configura en un contenedor para identificar a los visitantes que visitan la página A pero no regresan a la página B hasta después de un día, ese día empezará cuando el visitante abandone la página A.  Para que el visitante se incluya en el segmento, debe transcurrir un mínimo de 1440 minutos (un día) desde que se salió de la página A para ver la página B. |
+| **[!UICONTROL En]** | El operador [!UICONTROL En] se usa para especificar un límite máximo de tiempo entre dos puntos de comprobación. Por ejemplo, si el operador [!UICONTROL Within] se configura en un contenedor para identificar a los visitantes que visitan la página A y luego regresan para visitar la página B en un día, ese día comienza cuando el visitante abandona la página A. Para que se incluya en el segmento, el visitante tiene un tiempo máximo de un día antes de abrir la página B. Para que el visitante se incluya en el segmento, la apertura de la página B debe realizarse en un máximo de 1440 minutos (un día) después de salir de la página A para ver la página B. |
+| **[!UICONTROL Después pero dentro de]** | Al usar los operadores [!UICONTROL After] y [!UICONTROL Within], ambos operadores comienzan y finalizan en paralelo, no en secuencia. <br/>Por ejemplo, genera un segmento con el contenedor establecido en: `After = 1 Week(s) and Within = 2 Week(s)`.<br/>Las condiciones para identificar a los visitantes en este segmento solamente se cumplen entre una y dos semanas. Ambas condiciones se aplican desde el momento de la primera vista de página. |
 
-### Usar el operador After
 
-* Después de tiempo le permite rastrear por año, mes, día, hora y minuto para hacer coincidir visitas.
-* Después de tiempo solo puede aplicarse a un contenedor de [!UICONTROL visita individual] porque es el único nivel para el cual se define una granularidad tan fina.
+#### Ejemplos
 
-**Ejemplo**: Los visitantes que visitaron la página A y luego visitaron la página B solo después de 2 semanas.****
+Algunos ejemplos de uso de las restricciones de tiempo.
 
-![](assets/time_between_after_operator.png)
+##### Operador [!UICONTROL After]
 
-**Creación del segmento**: Este segmento se crea mediante la adición de un contenedor de [!UICONTROL visitante] con dos contenedores de [!UICONTROL visita individual]. Luego puede establecer el operador [!UICONTROL THEN] y abrir la lista desplegable del operador [!UICONTROL AFTER] y establecer el número de semanas.
+Identifique a los visitantes que visitaron una página y luego otra página solo después de dos semanas. Por ejemplo, los visitantes que visitaron la página de inicio, pero el | La página de zapatos solo después de dos semanas.
 
-![](assets/after_operator.png)
+![Secuencia posterior](assets/sequence-after.png)
 
-**Coincidencias**
+Si se produce una vista de página para la página de inicio el 1 de junio de 2024 a las 00:01 horas, se generará una vista de página para la página Mujeres | Los zapatos coincidirán siempre que la vista de esa página se produzca después del 15 de junio de 2024 a las 00:01.
 
-En el caso de &quot;Después de 2 semanas&quot;, si una visita individual a una página A se produce el 1 de junio de 2019 a las 00:01 horas, entonces la siguiente visita individual a la página B coincidirá siempre y cuando se produzca antes del 15 de junio de 2019 a las 00:01 horas (14 días después).
+##### Operador [!UICONTROL Within]
 
-| Visita individual A | Visita individual B | Coincidencia |
-|--- |--- |--- |
-| Visita individual **A**: 1 de junio de 2019, 00:01 | Visita individual **B**: 15 de junio de 2019, 00:01 | **Coincide**: Esta restricción temporal coincide porque es después del 1 de junio de 2019 (dos semanas). |
-| Visita individual **A**: 1 de junio de 2019, 00:01 | Visita individual **B**: Visita individual B del 8 de junio de 2019 a las 00:01 Visita individual B del 15 de junio de 2019 a las 00:01 | **No coincide**: La primera visita individual a la página B no coincide porque está en conflicto con la restricción que requiere que sea después de dos semanas. |
+Identificar a los visitantes que visitaron una página y luego otra en un plazo de cinco minutos. Por ejemplo, los visitantes que visitaron la página de inicio y luego la página de | Zapatos de la página en 5 minutos.
 
-### Usar el operador Within
+![Secuencia en](assets/sequence-within.png)
 
-* [!UICONTROL En] le permite rastrear por año, mes, día, hora y minuto para hacer coincidir visitas.
-* [!UICONTROL En] solo puede aplicarse a un contenedor de [!UICONTROL visita individual] porque es el único nivel para el cual se define una granularidad tan fina.
+Si se produce una vista de página para la página de inicio el 1 de junio de 2024 a las 12:01, se generará una vista de página para la página Mujeres | Los zapatos coincidirán siempre que la vista de esa página se produzca antes del 15 de junio de 2024 a las 12:16.
 
->[!TIP]
+##### [!UICONTROL Después de] pero [!UICONTROL Dentro de] operador
+
+Identifique a los visitantes que visitaron una página y luego visitaron otra después de dos semanas pero dentro del plazo de un mes. Por ejemplo, los visitantes que visitaron la página de inicio y luego, después de dos semanas y dentro del plazo de un mes, las mujeres | Página de zapatos.
+
+![Secuencia posterior a pero dentro de](assets/sequence-afterbutwithin.png)
+
+Cualquier visitante que visite la página principal el 1 de junio de 2024 y que vuelva a visitar a las mujeres | La página de zapatos después del 15 de junio de 2019 a las 00:01 horas, pero antes del 1 de julio de 2019, cumple los requisitos para el segmento.
+
+
+### Restricciones de [!UICONTROL visita individual], [!UICONTROL visita] y [!UICONTROL Dimension]
+
+Las restricciones ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** y ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** le permiten no solo especificar una restricción de tiempo, sino también una restricción de visita individual, visita o dimensión. Seleccione **[!UICONTROL visitas]**, **[!UICONTROL visitas]** o **[!UICONTROL otras dimensiones]** ![ChevronRight](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *nombre del Dimension *]**. Puede usar el campo [!UICONTROL *Buscar*] para buscar una dimensión.
+
+#### Ejemplo
+
+A continuación se muestra un ejemplo de un segmento secuencial que busca visitantes que visitaron una página de categoría de producto (mujeres) | Zapatos), seguido de una página de pago (Checkout) | Gracias) en una página.
+
+![Segmento de secuencia dentro de](assets/sequence-filter-within.png)
+
+Las siguientes secuencias de ejemplo coinciden o no coinciden:
+
+| Secuencia | ![AprobarRechazar](/help/assets/icons/ApproveReject.svg) |
+|--- | :---: |
+| Página `Women \| Shoes` seguida de página `Checkout \| Thank You` | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) |
+| Página `Women \| Shoes` seguida de página `Women \| Tops` seguida de página `Checkout \| Thank You` | ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) |
+
+## [!UICONTROL Inclusión]
+
+Puede especificar qué datos desea incluir en el segmento secuencial o en un contenedor secuencial que forme parte del segmento secuencial.
+
+### [!UICONTROL Todos] {#include_everyone}
+
+Para crear un segmento secuencial que incluya a todos, seleccione la opción ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Incluir a todos]**.
+
+El segmento secuencial identifica los datos que coinciden con el patrón determinado en su conjunto.  A continuación se muestra un ejemplo de un segmento de secuencia básica que busca visitantes que visitaron una página de categoría de producto (Mujer) | Zapatos), seguido de una página de pago (Checkout) | Gracias). El segmento está establecido en ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Incluir a todos]**.
+
+![El segmento secuencial incluye a todos](assets/sequence-include-everyone.png)
+
+Las siguientes secuencias de ejemplo coinciden o no coinciden:
+
+| | Secuencia | ![AprobarRechazar](/help/assets/icons/ApproveReject.svg) |
+|---:|--- | --- |
+| 1 | `Women \| Shoes` y después `Checkout \| Thank You` en la misma visita | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) |
+| 2 | `Women \| Shoes` entonces `Men \| Shoes` entonces `Checkout \| Thank You` (en diferentes visitas) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) |
+| 3 | `Checkout \| Thank You` entonces `Women \| Shoes` | ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) |
+
+### [!UICONTROL Solo antes de la secuencia] y [!UICONTROL Solo después de la secuencia]
+
+Las opciones ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** y ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]** segmentan los datos en un subconjunto antes o después de la secuencia especificada.
+
+* ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **Only Before Sequence**: Incluye todos los datos anteriores a una secuencia y los primeros datos de la propia secuencia. Si la secuencia aparece varias veces como parte de los datos, [!UICONTROL Solo antes de la secuencia] incluye la primera visita de la última aparición de la secuencia y todas las visitas anteriores.
+* ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **Only After Sequence**: incluye todas las visitas posteriores a una secuencia y los últimos datos de la propia secuencia. Si la secuencia aparece varias veces como parte de los datos, [!UICONTROL Solo después de la secuencia] incluye la última visita de la primera aparición de la secuencia y todas las visitas posteriores.
+
+Considere una definición que especifique la secuencia de un componente con criterios identificados por B, seguidos (Then) por un componente con criterios identificados por D. Las tres opciones identificarían los datos de la siguiente manera:
+
+
+| B Entonces D | A | B | C | D | E | F |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Incluir a todos | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) |
+| Solo Antes de la Secuencia | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
+| Solo Después de la Secuencia |  |  |  | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) |
+
+
+
+| B Entonces D (ocurre varias veces) | A | B | C | D | B | C | D | E |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Incluir a todos | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) |
+| Solo Antes de la Secuencia | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
+| Solo Después de la Secuencia |  |  |  | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) |
+
+#### Ejemplo
+
+Ha definido tres versiones de un segmento secuencial para las secciones del sitio. Uno con la opción ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Incluir a todos]**, otro con la opción ![SequenceBefore](/help/assets/icons/SequenceBefore.svg) **[!UICONTROL Only Before Sequence]** y otro con la opción ![SequenceAfter](/help/assets/icons/SequenceAfter.svg) **[!UICONTROL Only After Sequence]**. Asignó a los tres segmentos el nombre correspondiente.
+
+![Segmento de secuencia](assets/site-section-filters.png)
+
+Al crear informes en secciones del sitio que utilizan estos tres segmentos, el ejemplo que se muestra en una tabla de forma libre es el siguiente:
+
+![Informe de segmento secuencial](assets/sequential-filter-freeform-table.png)
+
+## [!UICONTROL Exclusión]
+
+Las definiciones de segmentos incluyen todos los datos a menos que excluya específicamente los datos de ![Usuario](/help/assets/icons/User.svg) [!UICONTROL Persona], ![Visita](/help/assets/icons/Visit.svg) [!UICONTROL Visita] o ![Página web](/help/assets/icons/WebPage.svg) [!UICONTROL Visita] con **[!UICONTROL Excluir]**.
+
+[!UICONTROL Excluir] le permite descartar datos comunes y crear segmentos más concretos. Excluir también le permite crear segmentos excluyendo grupos específicos de visitantes. Por ejemplo, para definir un segmento que especifique los visitantes que realizaron pedidos y luego excluir ese grupo de visitantes para identificar a *no compradores*. Una práctica recomendada es crear reglas que utilicen una definición amplia en lugar de intentar usar [!UICONTROL Excluir] para segmentar visitantes específicos que coincidan con valores de inclusión específicos.
+
+Ejemplo de definiciones de exclusión:
+
+* **Exclusión de páginas**. Use una definición de segmento para eliminar una página específica (como *Página principal*) de un informe, cree una regla de visita individual en la que la página sea igual a `Home Page` y luego excluya la regla. Esta definición incluye automáticamente todas las páginas excepto la *Página principal*.
+* **Exclusión de dominios de referencia**. Utilice una definición que incluya solo los dominios de referencia de Google.com y excluya todos los demás.
+* **Identificación de los no compradores**. Identifique cuándo los pedidos son superiores a cero y luego excluya a [!UICONTROL Persona].
+
+[!UICONTROL Excluir] se puede usar para identificar una secuencia en la que los visitantes no forman parte de visitas específicas o realizan visitas individuales específicas. [!UICONTROL Excluir] también se puede incluir dentro de un [!UICONTROL grupo lógico] (ver a continuación).
+
+Puede excluir contenedores, no componentes.
+
+### Ejemplos
+
+Vea a continuación algunos ejemplos del uso de [!UICONTROL Excluir].
+
+#### [!UICONTROL Excluir] dentro de
+
+Identifique a los visitantes que visitaron una página, no visitaron otra página y luego visitaron otra página. Excluye el contenedor mediante ![Setting](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. Un contenedor excluido se identifica con una fina barra roja a la izquierda.
+
+![Excluir secuencia](assets/sequence-exclude.png)
+
+
+#### [!UICONTROL Excluir] al inicio
+
+Identificar a los visitantes que visitaron una página sin ir nunca a otra. Por ejemplo, las personas que comprobaron una compra sin haber visitado nunca la página principal.
+
+![Inicio de exclusión de secuencia](assets/sequence-exclude-start.png)
+
+
+#### [!UICONTROL Excluir] al final
+
+Identificar a los visitantes que visitaron una página pero nunca visitaron otras. Por ejemplo, los visitantes que visitaron su página de inicio pero nunca ninguna de las páginas de cierre de compra.
+
+![Fin de exclusión de secuencia](assets/sequence-exclude-end.png)
+
+
+## [!UICONTROL Grupo lógico]
+
+>[!NOTE]
 >
->En una cláusula “En”, entre instrucciones THEN, se puede agregar, por ejemplo, “En 1 instancia de palabra clave de búsqueda”, “En 1 instancia de eVar 47”. Esto restringe el segmento a una instancia de una dimensión.
+>Un [!UICONTROL grupo lógico] solo se puede definir en un segmento secuencial, lo que significa que el operador [!UICONTROL Then] se usa dentro del contenedor.
 
-**Ejemplo**: Los visitantes que visitaron la página A y luego la página B en un plazo de 5 minutos.
+Grupo lógico le permite agrupar condiciones en un único punto de comprobación secuencial de segmento. Como parte de la secuencia, la lógica definida en el contenedor identificado como grupo lógico se evalúa después de cualquier punto de comprobación secuencial anterior y antes de cualquier punto de comprobación secuencial siguiente.
 
-![](assets/time_between_within_operator.png)
+Las condiciones dentro del propio grupo lógico pueden cumplirse en cualquier orden. Por el contrario, los contenedores no secuenciales (visita individual, visita, visitante) no requieren que se cumplan sus condiciones dentro de la secuencia general, lo que produce posibles resultados poco intuitivos si se utilizan con un operador **[!UICONTROL Then]**.
 
-**Creación del segmento**: Este segmento se crea mediante la adición de un contenedor de [!UICONTROL visitante] y luego arrastrando dos contenedores de [!UICONTROL visita individual]. A continuación, puede establecer el operador [!UICONTROL THEN] y abrir la lista desplegable del operador [!UICONTROL AFTER] para establecer el intervalo: visitas individuales, vistas de página, visitas, minutos, horas, días, semanas, meses, trimestres o años.
+[!UICONTROL Logic Group] se diseñó para tratar *varias condiciones como un grupo, sin ningún orden* entre las condiciones agrupadas. De lo contrario, el orden de las condiciones dentro de un grupo lógico es irrelevante.
 
-![](assets/within_operator.png)
+Algunas prácticas recomendadas para utilizar el grupo lógico son las siguientes:
 
-**Coincidencias**
+* Para agrupar puntos de comprobación secuenciales.
+* Para simplificar la construcción de segmentos secuenciales.
 
-Las coincidencias deben producirse dentro del límite temporal. Para la expresión, si una visita individual a la página A se produce a las 00:01 horas, una visita posterior a la página B producirá una coincidencia siempre que se produzca a las 00:06 o antes (cinco minutos después, incluido el mismo minuto). Las visitas individuales dentro del mismo minuto también serán una coincidencia.
+### Ejemplos
 
-### Los operadores Within y After
+A continuación se muestran ejemplos de cómo utilizar el contenedor de grupo lógico.
 
-Use [!UICONTROL En] y [!UICONTROL Después] para proporcionar un punto final máximo y mínimo en ambos extremos de un segmento.
+#### Cualquier pedido
 
-**Ejemplos**: Los visitantes que visitaron la página A y luego la página B después de 2 semanas pero dentro del plazo de un mes.
+Identifique a los visitantes que visitaron una página y luego vieron cada página de otro conjunto de páginas en cualquier orden. Por ejemplo, los visitantes que visitaron la página de inicio y luego visitaron cada una de las páginas Hombres, Mujeres y Niños, independientemente del orden.
 
-![](assets/time_between_using_both_operators.png)
+Puede generar este segmento sin un [!UICONTROL grupo lógico], pero la construcción será compleja y laboriosa. Especifique cada secuencia de páginas que el visitante podría ver. Para mayor claridad, solo el primer contenedor se abre ![ChevronDown](/help/assets/icons/ChevronDown.svg) y los demás contenedores se cierran ![ChevronRight](/help/assets/icons/ChevronRight.svg). Puede derivar el contenido de los demás contenedores por los títulos.
 
-**Creación del segmento**: Cree el segmento secuenciando dos contenedores de [!UICONTROL visita individual] dentro de un contenedor de [!UICONTROL visitante]. Luego establezca los operadores [!UICONTROL After] y [!UICONTROL Within].
+![Ejemplo que no usa un grupo lógico](assets/logicgroup-example-notusing.png)
 
-![](assets/within_after_together.png)
+Puede usar [!UICONTROL grupo lógico] para simplificar la creación de este segmento, como se muestra a continuación. Asegúrese de seleccionar ![Grupo](/help/assets/icons/Group.svg) **[!UICONTROL Grupo lógico]** para el contenedor.
 
-**Coincidencias**
+![Ejemplo que no usa un grupo lógico](assets/logicgroup-example-using.png)
 
-Los visitantes que visiten la página A el 1 de junio de 2019 y vuelvan después del 15 de junio de 2019 a las 00:01 horas, pero *antes* del 1 de julio de 2019, se incluyen en el segmento. Compárese con [Tiempo entre exclusiones](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+#### Primera coincidencia
 
-Los operadores [!UICONTROL After] y [!UICONTROL Within] pueden usarse juntos para definir un segmento secuencial.
+Identifique a los visitantes que visitaron una página u otra y luego visitaron otra página. Por ejemplo, los visitantes que visitaron la página Mujeres o la página Hombres y luego visitaron el cierre de compra | Página de agradecimiento.
 
-![](assets/time_between_within_after.png)
+![Ejemplo de uso de la primera coincidencia con el grupo lógico](assets/logicgroup-example-firstmatch.png)
 
-Este ejemplo muestra una segunda visita a la página B después de dos semanas pero dentro del plazo de 1 mes.
+#### [!UICONTROL Excluir] [!UICONTROL Y]
+
+Identifique a los visitantes que visitaron una página y luego no visitaron explícitamente un conjunto de otras páginas, pero sí visitaron otra página. Por ejemplo, los visitantes que visitaron la página de inicio no visitaron la página para hombres ni para mujeres, pero sí la página para niños.
+
+![Excluir grupo lógico y](assets/logicgroup-exclude-and.png)
+
+#### [!UICONTROL Excluir] [!UICONTROL O]
+
+Identifique a los visitantes que visitaron una página y luego no visitaron explícitamente ninguna página de un conjunto de páginas, pero sí visitaron otra página. Por ejemplo, los visitantes que visitaron la página de inicio, no visitaron la página para hombres y mujeres, pero sí la página para niños.
+
+![Excluir grupo lógico y](assets/logicgroup-exclude-or.png)
+
+
+<!--
+An example of a complex sequential segment if you want to find the visitors that 
+
+| visit One | visit Two | visit Three |
+| --- | --- | --- |
+| The visitor went to the main landing page A, excluded the campaign page B, and then viewed the Product page C.| The visitor again went to the main landing page A, excluded the campaign page B, and went again to the Product page C, and then to a new page D. | The visitor entered and followed that same path as in the first and second visits, then excluded page F to go directly to a targeted product on page G. |
+-->
+
+
+## Un ejemplo final
+
+Por último, quiere identificar a los visitantes que han aprendido acerca de una página de producto específica, sin que estos visitantes hayan sufrido por la campaña Empower Your Move. Y en su primera visita a su tienda en línea vio la página de inicio, pero no miró más lejos en cualquier fitness (engranaje) productos de la categoría Hombres. Sin embargo, en la siguiente visita que realizaron inmediatamente después, accedieron a una página de producto y realizaron un pedido en línea sin pasar primero por la página de inicio.
+
+
+![Ejemplo de segmento secuencial complejo](assets/sequential-complex.png)
