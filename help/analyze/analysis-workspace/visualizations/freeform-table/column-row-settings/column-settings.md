@@ -5,86 +5,117 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 99%
+source-wordcount: '860'
+ht-degree: 23%
 
 ---
 
+
 # [!UICONTROL Configuración de columna]
 
-[!UICONTROL La configuración de columna] le permite configurar el formato de la columna, aunque algunas opciones de formato pueden ser condicionales.
+[!UICONTROL Configuración de columna] le permite configurar el formato de columna, aunque algunas opciones de formato pueden ser condicionales.
 
-## Editar [!UICONTROL configuración de columna] {#edit-column-settings}
 
-Puede editar la configuración de columna de una columna individual o de varias columnas simultáneamente.
+>[!BEGINSHADEBOX]
 
-1. En Analysis Workspace, arrastre una tabla de forma libre al proyecto.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
-1. (Condicional) Para editar varias columnas simultáneamente, seleccione cada columna que desee editar mientras pulsa la tecla Mayús.
+>[!ENDSHADEBOX]
 
-1. Pase el ratón sobre la columna que quiera editar y, a continuación, seleccione el icono de engranaje.
 
-   Si ha seleccionado varias columnas, haga clic en el icono de engranaje de cualquiera de las columnas seleccionadas. Los cambios que realice se aplicarán a todas las columnas seleccionadas.
+Para obtener acceso a [!UICONTROL Configuración de columna], seleccione ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) en el encabezado de la columna.
 
-   ![](assets/column_settings.png)
+![Configuración de columna](assets/column-settings.png)
 
-1. Continúe con [Configuración de columna](#column-settings).
 
-## Configuración de columna
+Puede editar la configuración de varias columnas a la vez. Seleccione varias columnas y seleccione ![Setting](/help/assets/icons/Setting.svg) en cualquiera de las columnas seleccionadas. Cualquier cambio que realice se aplicará a todas las columnas que tengan celdas seleccionadas.
 
-Puede actualizar la siguiente configuración de columna para tablas individuales en Analysis Workspace, tal como se describe en [Editar configuración de columna](#edit-uicontrol-column-settings).
-
-Algunas de estas mismas configuraciones también se pueden administrar para todos los proyectos nuevos que cree en Analysis Workspace, tal como se describe en [Preferencias de usuario](/help/analyze/analysis-workspace/user-preferences.md).
-
-| Elemento | Descripción |
+| Opción | Descripción |
 | --- | --- |
-| **Celdas con totales** |  |
-| Mostrar totales | Este total suele ser igual o un subconjunto del [!UICONTROL Total general]. Refleja cualquier filtro de tabla aplicado en la tabla de forma libre, incluida la opción [!UICONTROL Incluir ninguno]. |
-| Mostrar el total | Este total representa todas las visitas recopiladas, a veces denominadas “total del grupo de informes”. Cuando se aplica un segmento en el nivel de panel o en la tabla de forma libre, este total se ajusta para reflejar todas las visitas que coinciden con los criterios del segmento. El total general no es compatible con tablas o desgloses con [filas estáticas](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
-| **Celdas de la tabla** |   |
-| Número | Determina si una celda muestra u oculta el valor numérico de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor numérico es el número de visualizaciones de la página para el elemento de fila. |
-| Porcentaje | Determina si una celda muestra u oculta el valor porcentual de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor porcentual es el número de visualizaciones de la página para el elemento de fila dividido por el total de visualizaciones de la página para la columna. Nota: Se pueden mostrar porcentajes superiores al 100 % para mejorar la precisión. También se ha he incrementado el límite superior hasta el 1000 % para garantizar que la anchura de las columnas se pueda ampliar. |
-| Anomalías | Determina si se ha ejecutado una detección de anomalías en los valores de esta columna. Para obtener más información, consulte [Visualización de anomalías en Analysis Workspace](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md). |
-| Justificar el texto del encabezado | Permite justificar el texto del encabezado en las tablas de forma libre para que los encabezados sean más legibles y las tablas se puedan compartir con mayor facilidad. Esto resulta útil en el procesamiento de archivos .pdf y en las métricas con nombres largos. Está activada de forma predeterminada. |
-| La interpretación de cero no tiene valor | Para las celdas con un valor de 0, determina si se va a mostrar un 0 o una celda en blanco. Esto es útil si desea analizar los datos de todos los días de un mes y todavía faltan algunos días.  En vez de mostrar 0 para las fechas futuras, se pueden mostrar celdas en blanco. Los gráficos también respetan estas opciones de configuración (por ejemplo, si esta opción de configuración está marcada, no muestran ninguna línea ni ninguna barra con el valor 0). |
-| Contexto | Determina si una celda muestra u oculta todo el formato de la celda, que incluye la gráfico de barras y el formato condicional. |
-| Gráfico de barras | Muestra un gráfico de barras horizontal que representa el valor de la celda con relación al total de la columna. |
-| Formato condicional | Consulte la siguiente sección. |
-| Vista previa de celdas de tabla | Muestra una vista previa del aspecto de cada una de las celdas con las opciones de formato seleccionadas actualmente aplicadas. |
+| **[!UICONTROL Mostrar total]** | Mostrar una suma de la columna del lado del cliente. Este total **no** anula la duplicación de métricas como sesiones o personas. |
+| **[!UICONTROL Mostrar total general]** | Mostrar una suma de la columna del lado del servidor. El total general anula la duplicación de métricas como sesiones o personas. |
+| **[!UICONTROL Mostrar minigráfico]** | Mostrar un gráfico de líneas en el encabezado de la columna. |
+| **[!UICONTROL Número]** | Determine si una celda muestra u oculta el valor numérico de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor numérico es el número de visualizaciones de la página para el elemento de fila. |
+| **[!UICONTROL Porcentaje]** | Determine si una celda muestra u oculta el valor porcentual de la métrica. Por ejemplo, si la métrica es Vistas de página, el valor porcentual es el número de vistas de página para el elemento de fila, dividido por el total de vistas de página para la columna.  Nota: Es posible garantizar que los porcentajes superiores al 100 % sean precisos. El límite superior puede moverse al 1000 % para evitar que el ancho de las columnas sea demasiado grande. |
+| **[!UICONTROL Mostrar anomalías]** | Determine si la detección de anomalías se ejecuta en los valores de esta columna. |
+| **[!UICONTROL Mostrar previsión]** | Determine si los valores de previsión se muestran en esta columna. |
+| **[!UICONTROL Justificar el texto del encabezado]** | Ajuste el texto del encabezado en las tablas improvisadas para que los encabezados sean más legibles y las tablas se puedan compartir con mayor facilidad. El ajuste es útil para el procesamiento de PDF y para las métricas con nombres largos. Está activada de forma predeterminada. |
+| **[!UICONTROL La interpretación de cero no tiene valor]** | Determine, para las celdas con un valor 0, si desea mostrar un 0 o una celda en blanco. Esta interpretación es útil cuando se ven los datos de cada día de un mes y algunos días están en el futuro.  En lugar de mostrar 0 para las fechas futuras, se muestran celdas en blanco. Los gráficos también respetan esta configuración (es decir, los gráficos no muestran una línea o barra con valores 0). |
+| **[!UICONTROL Contexto]** | Determine si una celda muestra u oculta todo el formato de la celda, incluidos el gráfico de barras y el formato condicional. |
+| **[!UICONTROL Gráfico de barras]** | Muestra un gráfico de barras horizontal que representa el valor de la celda en relación con el total de la columna. |
+| **[!UICONTROL Formato condicional]** | Utilice un formato condicional. Consulte la [sección](#conditional-formatting) a continuación. |
+| **[!UICONTROL Vista previa de celdas de tabla]** | Vista previa de cómo aparece cada celda con las opciones de formato seleccionadas actualmente aplicadas. |
+| **[!UICONTROL Uso de modelos de atribución no predeterminados]** | Utilice un modelo de atribución no predeterminado. Consulte la [sección](#use-non-default-attribution-model) a continuación. |
 
 ## Formato condicional {#conditional-formatting}
 
-El formato condicional aplica formato que puede definir a los límites superior, medio e inferior. La aplicación de formato condicional (por ejemplo, colores) en tablas de forma libre también está activada automáticamente en los desgloses, a menos que los límites “Personalizados” estén seleccionados.
+El formato condicional aplica formato que puede definir a los límites superior, medio e inferior. La aplicación de formato condicional en tablas improvisadas también está habilitada automáticamente en los desgloses, a menos que los límites [!UICONTROL Personalizados] estén seleccionados.
 
-![](assets/conditional-formatting.png)
+![Formato condicional](./assets/conditional-formatting.png)
 
-| Elemento | Descripción |
+| Opciones de formato condicional | Descripción |
 | --- | --- |
-| Formato condicional | Aplica a las celdas el conjunto de colores preconfigurado que desee. Dependiendo de cuál de los 4 esquemas de color disponibles seleccione, se asignan diferentes colores a valores altos, valores medios y valores bajos. <br> Sustituir una dimensión en la tabla restablece los límites de formato condicional. Cuando se sustituye una métrica se vuelven a calcular los límites de dicha columna (donde las métricas se encuentran en el eje X y las dimensiones se encuentran en el eje Y). |
-| Usar límites porcentuales | Cambie el rango de límite en función de los porcentajes, no en función de los valores absolutos. Esto sirve para métricas que solo se basan en porcentajes (como el porcentaje de rebote), así como para métricas que tienen un recuento y un porcentaje (como las vistas de la página). |
-| Generación automática | Calcule automáticamente los límites superior/medio/inferior en función de los datos. El límite superior es el valor máximo de esta columna. El límite inferior es el valor más bajo y el punto medio es la media entre los límites superior e inferior. |
-| Personalizado | Asigne los límites superior/medio/inferior en forma manual. Esto le proporciona la flexibilidad para determinar si el valor de una columna es bueno, medio o malo. |
-| Paleta de formato condicional | Elija cuál de los 4 esquemas de color disponibles va a utilizar para el formato condicional. |
+| **[!UICONTROL límites porcentuales de uso]** | Cambie el rango de límite en función de los porcentajes, no en función de los valores absolutos. El rango de límite de porcentaje funciona para métricas que solo están basadas en porcentajes (como la Tasa de salida hacia otro sitio) y para métricas que tienen un recuento y un porcentaje (como las Vistas de la página). |
+| **[!UICONTROL Generado automáticamente]** | Calcule automáticamente los límites superior/medio/inferior en función de los datos. El límite superior es el valor máximo de esta columna. El límite inferior es el valor más bajo y el punto medio es la media entre los límites superior e inferior. |
+| **[!UICONTROL Personalizado]** | Asigne manualmente **[!UICONTROL límite superior]**, **[!UICONTROL punto medio]** y **[!UICONTROL límite inferior]**. Los límites proporcionan la flexibilidad para determinar si el valor de una columna es bueno, medio o malo. |
+| **[!UICONTROL Paleta de formato condicional]** | Aplique un conjunto de colores preconfigurado a las celdas. En función de cuál de los cuatro esquemas de color disponibles seleccione, se asignan distintos colores a valores altos, valores medios y valores bajos. <br> Sustituir una dimensión en la tabla restablece los límites de formato condicional. Cuando se sustituye una métrica se vuelven a calcular los límites de dicha columna (donde las métricas se encuentran en el eje X y las dimensiones se encuentran en el eje Y). |
 
-## Uso de modelos de atribución no predeterminados {#attribution}
+## Uso de modelos de atribución no predeterminados {#use-non-default-attribution-model}
 
-Analysis Workspace admite la [atribución](/help/analyze/analysis-workspace/attribution/overview.md) en casi cualquier métrica.
+<!-- markdownlint-disable MD034 -->
 
-1. Haga clic en el icono Configuración (engranaje) en una columna de Tabla de forma libre.
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_column_usenondefaultattributionmodel"
+>title="Uso de modelos de atribución no predeterminados"
+>abstract="Habilite un modelo de atribución no predeterminado para las columnas seleccionadas."
 
-   ![Casilla de verificación de atribución](assets/attribution-checkbox.png)
+<!-- markdownlint-enable MD034 -->
 
-1. En **[!UICONTROL Configuración de datos]**, active **[!UICONTROL Utilizar modelo de atribución no predeterminado]**. Para obtener más información sobre los diferentes modelos de atribución, consulte [Modelos de atribución](/help/analyze/analysis-workspace/attribution/models.md).
+<!-- markdownlint-disable MD034 -->
 
-   ![Seleccionar modelo de atribución](assets/attribution-select.png)
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_column_usenondefaultattributionmodel_disabled"
+>title="Uso de modelos de atribución no predeterminados"
+>abstract="El modo de atribución no predeterminado no está disponible para esta métrica."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!NOTE]
+>
+>Tenga en cuenta lo siguiente al actualizar la atribución de un componente a un modelo de atribución no predeterminado:
+>
+>* **Al usar el componente en un informe con *una sola dimensión*:** La atribución del componente ignora el modelo de asignación cuando se usa un modelo de atribución no predeterminado.
+>
+>* **Al usar el componente en un informe con *varias dimensiones*:** La atribución del componente retiene el modelo de asignación cuando se usa un modelo de atribución no predeterminado.
+>
+>
+
+Para utilizar un modelo de atribución no predeterminado para una métrica en Analysis Workspace:
+
+1. Seleccione **[!UICONTROL Usar modelo de atribución no predeterminado]**. Cuando ya esté seleccionado, use **[!UICONTROL Editar]** para editar el modelo de atribución. O bien, anule la selección para volver al modelo de atribución predeterminado.
+
+   ![Las opciones de Configuración de columna que resaltan la opción Configuración de datos: utilice un modo de atribución no predeterminado.](assets/attribution-checkbox.png)
+
+2. En **[!UICONTROL Modelo de atribución de columna]**, seleccione un **[!UICONTROL Modelo]** y una **[!UICONTROL ventana retrospectiva]**. La ventana retrospectiva determina la ventana de atribución de datos que se aplica a cada conversión.
+
+   ![Las opciones del modelo de atribución de columnas que muestran Lineal seleccionado.](assets/attribution-select.png)
+
+
+### Modelos de atribución
+
+{{attribution-models-details}}
+
+### Ventana retroactiva
+
+{{attribution-lookback-window}}
+
 
 >[!MORELIKETHIS]
 >
 >* [Administración de fuentes de datos](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
-
-## Columnas dinámicas
 
 
 >[!BEGINSHADEBOX]

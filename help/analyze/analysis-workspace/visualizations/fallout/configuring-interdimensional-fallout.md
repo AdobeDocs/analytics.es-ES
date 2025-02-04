@@ -4,17 +4,17 @@ title: Visita en orden previsto multidimensional
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 95%
+source-wordcount: '229'
+ht-degree: 21%
 
 ---
 
-# Visita en orden previsto multidimensional
+# Visita en orden previsto entre dimensiones
 
-Las visitas en el orden previsto en Analysis Workspace le permiten mezclar dimensiones y métricas como puntos de contacto en embudos y flujos de trabajo. Esto le proporciona una mayor flexibilidad para definir los pasos del usuario que desea investigar.
 
+Las visitas en el orden previsto en Analysis Workspace le permiten mezclar y hacer coincidir dimensiones y métricas como puntos de contacto en embudos y flujos de trabajo. Las visitas en el orden previsto le proporcionan más flexibilidad para definir los pasos del usuario que desea investigar.
 
 >[!BEGINSHADEBOX]
 
@@ -22,17 +22,16 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abandonos multid
 
 >[!ENDSHADEBOX]
 
+Por ejemplo, además de una dimensión Página, puede agregar otros elementos de dimensión (como un nombre de dispositivo específico de la dimensión Nombre del dispositivo) a una visualización de visitas en el orden previsto. La combinación de dimensiones permite visualizar cómo las páginas y ciertas acciones interactúan en las rutas de los clientes.
 
-**Ejemplo**: además de, por ejemplo, una dimensión Página, puede añadir elementos de dimensión basados en una acción a la visualización Visita en el orden previsto. Esto le permite visualizar cómo interactúan las páginas y ciertas acciones en las rutas de los clientes.
-
-![](assets/interdimensional-fallout1.png)
+![La vista Todas las visitas muestra varias dimensiones como puntos de contacto.](assets/fallout-otherdimension.png)
 
 Las visitas en el orden previsto se actualizan de forma dinámica y le permiten ver las visitas en el orden previsto de múltiples dimensiones.
 
-También puede añadir métricas a este conjunto. En este ejemplo, hemos añadido la métrica “Fotografía compartida” para complementar la ruta que han seguido los clientes:
+También puede agregar métricas. Por ejemplo, puede agregar la métrica Llamada para mostrar solo las rutas de los usuarios para los que existen llamadas y que han contactado con el centro de llamadas:
 
-![](assets/interdimensional-fallout2.png)
+![Vista Todas las visitas que muestra la métrica agregada: &quot;Foto compartida&quot;.](assets/fallout-metrics.png)
 
-Además, puede combinar distintas dimensiones y métricas en puntos de comprobación AND. Simplemente, arrastre otra dimensión o métrica sobre una existente:
+Puede combinar dimensiones y métricas. Arrastre otra dimensión o métrica sobre una existente. Por ejemplo, para comprender las consecuencias de las personas que tienen una iPhone y se han puesto en contacto con el centro de llamadas.
 
-![](assets/interdimensional-fallout3.png)
+![Vista Todas las visitas que muestra el nombre de la acción agregado: métrica de fotos compartidas Y compartidas.](assets/fallout-combined.png)
