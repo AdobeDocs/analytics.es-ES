@@ -4,9 +4,9 @@ description: Obtenga información sobre los diferentes componentes que ofrece Ad
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Los componentes de Analytics le ayudan a ajustar y potenciar su análisis de dat
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [descripción general de Adobe Analytics](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Adobe Analytics](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

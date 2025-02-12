@@ -4,9 +4,9 @@ description: Descubra cómo puede integrar datos de otras ubicaciones en Adobe A
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
 source-git-commit: 0eccf49810786aea385600d2ab21331f30da227c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Esta guía se centra en la integración de varias soluciones de Adobe Experience
 
 * **Audience Analytics:** Integre Adobe Audience Manager con Adobe Analytics.
 * **Advertising Analytics:** Consulte los datos de búsqueda de pago en paralelo con los datos de Adobe Analytics.
-* **Analytics para Advertising Cloud DSP:** integra Adobe Analytics y Adobe Advertising Cloud para ampliar y mejorar las capacidades de cada producto.
+* **Analytics para Advertising Cloud DSP:** integra Adobe Analytics y Adobe Advertising Cloud para ampliar y mejorar las funcionalidades de cada producto. 
 
 
 >[!BEGINSHADEBOX]
@@ -33,7 +33,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics p
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [descripción general de Adobe Analytics](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Adobe Analytics](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

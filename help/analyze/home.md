@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Para obtener más información acerca de los conceptos básicos de Adobe Analyti
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introducción al seminario web de Adobe Analytics - Generador de habilidades](https://video.tv.adobe.com/v/27429/?quality=12&learn=on){target="_blank"} para ver el seminario web.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introducción a Adobe Analytics - Generador de habilidades](https://video.tv.adobe.com/v/27429/?quality=12&learn=on){target="_blank"} para ver el seminario web.
 
 >[!ENDSHADEBOX]
 

@@ -5,9 +5,9 @@ title: Información general sobre Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Para obtener más información acerca de los conceptos básicos de Adobe Analyti
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introducción a Adobe Analytics - Generador de habilidades](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} para ver el vídeo del seminario web.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introducción a Adobe Analytics - Generador de habilidades](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} para ver el vídeo del seminario web.
 
 >[!ENDSHADEBOX]
 
