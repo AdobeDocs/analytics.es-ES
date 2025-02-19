@@ -8,7 +8,7 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 60%
+ht-degree: 62%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="Mapa"
->abstract="Esta visualización representa las métricas superponiéndolas en un mapa. Esta visualización es útil para identificar datos en diferentes regiones geográficas."
+>abstract="Esta visualización representa las métricas superponiéndolas en un mapa. Resulta útil para identificar datos en diferentes regiones geográficas."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -57,7 +57,7 @@ La visualización ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** en
 * le permite crear un mapa visual de cualquier métrica (incluidas las métricas calculadas),
 * es útil para identificar y comparar datos de métricas en diferentes regiones geográficas,
 * puede admitir 2 fuentes de datos: latitud/longitud desde uso móvil o dimensión geográfica para uso web,
-* admite la exportación del PDF, y
+* admite la exportación de PDF, y
 * aprovecha WebGL para la visualización de gráficos. Si sus controladores gráficos no admiten la representación WebGL, es posible que deba actualizarlos.
 
 
