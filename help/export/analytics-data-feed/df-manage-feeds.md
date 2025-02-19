@@ -3,10 +3,10 @@ title: Administrar fuentes de datos
 description: Obtenga información sobre cómo navegar por la interfaz de fuentes de datos. Descubra cómo crear, editar y ver una fuente de datos.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 26%
+source-wordcount: '1229'
+ht-degree: 21%
 
 ---
 
@@ -48,7 +48,7 @@ El botón [!UICONTROL Agregar] le permite crear una nueva fuente. Consulte [Crea
 
    Al actualizar la sección [!UICONTROL **Destino**] de una fuente de datos que está editando, puede elegir una cuenta y una ubicación diferentes para la nueva fuente de datos en los campos desplegables [!UICONTROL **Cuenta**] y [!UICONTROL **Ubicación**].
 
-   Las cuentas y ubicaciones se pueden editar tal como se describe en [Configurar cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y [Configurar ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md). La edición de una cuenta o ubicación afectará a todos los elementos asociados con esa cuenta o ubicación.
+   Las cuentas y ubicaciones se pueden editar tal como se describe en [Configurar cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y [Configurar ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md). La edición de una cuenta o ubicación afecta a todos los elementos asociados con esa cuenta o ubicación.
 
    Las versiones anteriores del administrador de fuentes de datos le permitían crear destinos de FTP, SFTP, S3 y blob de Azure. Los destinos creados en estas versiones anteriores del administrador de fuentes de datos no se pueden editar ni copiar.
 
@@ -84,17 +84,21 @@ El botón [!UICONTROL Agregar] le permite crear una nueva fuente. Consulte [Crea
 
 1. Seleccione la casilla que está junto a la fuente de datos que desea copiar y, a continuación, seleccione [!UICONTROL **Copiar**].
 
-   Le lleva a [crear una nueva fuente](create-feed.md) con todos los ajustes de la fuente actual. Esta opción no está visible si se selecciona más de una fuente de datos.
+   Esto le llevará a [crear una nueva fuente](create-feed.md) con toda la configuración de la fuente actual. Esta opción no está visible si se selecciona más de una fuente de datos.
 
    Al actualizar la sección [!UICONTROL **Destino**] de una fuente de datos que está copiando, puede elegir una cuenta y una ubicación diferentes para la nueva fuente de datos en los campos desplegables [!UICONTROL **Cuenta**] y [!UICONTROL **Ubicación**].
 
-   Las cuentas y ubicaciones se pueden editar tal como se describe en [Configurar cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y [Configurar ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md). La edición de una cuenta o ubicación afectará a todos los elementos asociados con esa cuenta o ubicación.
+   Las cuentas y ubicaciones se pueden editar tal como se describe en [Configurar cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y [Configurar ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md). La edición de una cuenta o ubicación afecta a todos los elementos asociados con esa cuenta o ubicación.
 
    Las versiones anteriores del administrador de fuentes de datos le permitían crear destinos de FTP, SFTP, S3 y blob de Azure. Los destinos creados en estas versiones anteriores del administrador de fuentes de datos no se pueden editar ni copiar.
 
 ## Pausar una fuente de datos
 
-Puede detener el procesamiento de la fuente y establecer su estado en [!UICONTROL Inactiva].
+Al pausar una fuente de datos, esta deja de procesarla y establece su estado en [!UICONTROL Inactiva].
+
+Cuando reactiva la fuente después de pausarla, los datos durante el tiempo que la fuente estuvo en pausa se procesan para fuentes de relleno, pero no para fuentes activas. Para obtener más información, consulte [Activar una fuente de datos](#activate-a-data-feed).
+
+Para pausar una fuente de datos:
 
 1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
 
@@ -104,17 +108,11 @@ Puede detener el procesamiento de la fuente y establecer su estado en [!UICONTRO
 
 Puede activar fuentes inactivas.
 
-Las fuentes de relleno (fuentes que solo procesan datos históricos) reanudan el procesamiento de datos desde donde se detuvieron y rellenan las fechas si es necesario. Las fuentes en directo también reanudan el procesamiento de datos desde donde se detuvieron.
+Cuando se reactiva una fuente, es posible que los datos no se procesen automáticamente durante el tiempo en que la fuente esté inactiva. El procesamiento de los datos depende de si son fuentes de relleno o activas:
 
->[!AVAILABILITY]
->
->El siguiente cambio en la forma en que las fuentes en directo reanudan el procesamiento de datos se encuentra en la fase de prueba limitada de la versión:
-> 
->**Las fuentes en directo reanudan el procesamiento de datos desde el momento actual.**
->
->Es posible que este cambio aún no esté disponible en su entorno.
->
->Esta nota se eliminará cuando este cambio esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Analytics, consulte [Lanzamientos de funciones de Adobe Analytics](/help/release-notes/releases.md).
+* **Las fuentes de relleno** (fuentes que solo procesan datos históricos) reanudan el procesamiento de datos desde donde se detuvieron y rellenan las fechas si es necesario.
+
+* **Las fuentes en directo** reanudan el procesamiento de datos desde el momento en que se activan. Esto significa que los datos no se procesan durante el tiempo en que la fuente se pausó en el momento en que se activó. Si necesita los datos durante este período de tiempo, debe configurar un relleno.
 
 Para activar una fuente de datos:
 

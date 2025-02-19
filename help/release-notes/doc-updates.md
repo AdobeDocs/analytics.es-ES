@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '6026'
-ht-degree: 100%
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
+workflow-type: tm+mt
+source-wordcount: '6071'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,13 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 * Para obtener información sobre la colección de medios de streaming, consulte [Medición de audio y vídeo en Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
 
 ## Detalles sobre las principales actualizaciones de la documentación
+
+### 2025 {#year2025}
+
+| Función | Descripción |
+| --- | --- |
+| **Febrero de 2025** |  |
+| Se ha actualizado la información sobre la pausa y reactivación de una fuente de datos | Al [pausar y reactivar una fuente de datos](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), se aclaró el comportamiento de las fuentes activas. El procesamiento de datos no se produce desde el momento en que la fuente se pone en pausa hasta el momento en que se reactiva. |
 
 ### 2024 {#year2024}
 
