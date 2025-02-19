@@ -3,56 +3,47 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d7beee25af3551426eb905f0e727545de068b2d9
-workflow-type: ht
-source-wordcount: '882'
-ht-degree: 100%
+source-git-commit: b65da2936efc499df2afbe7c6195f3989ea1a832
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 66%
 
 ---
 
-# Notas de la versión actual de Adobe Analytics (versión de enero de 2025)
+# Notas de la versión actuales de Adobe Analytics (versión de febrero de 2025)
 
-**Última actualización**: 22 de enero de 2024
+**Última actualización**: martes, 19 de febrero de 2024
 
-Estas notas de la versión abarcan el periodo de lanzamiento de 15 de enero a mitad de febrero de 2025.  Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+Estas notas de la versión abarcan el periodo de lanzamiento del 11 de febrero a mediados de marzo de 2025. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Nuevas funciones o mejoras {#features}
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Programación en el nuevo Report Builder** | La programación no solo le permite programar los nuevos libros de Report Builder. También le permite recuperar los metadatos de tareas programadas antiguas al convertir libros heredados. De este modo, cuando convierte libros heredados en libros nuevos y los programa, los enviará a los mismos correos electrónicos y con la misma regularidad que los libros heredados. [Más información](/help/analyze/report-builder/schedule-reportbuilder.md) |  | 22 de enero de 2025 |
-| **Mejoras en los informes (también conocidos como plantillas) en Analysis Workspace** | Ya hay varias mejoras disponibles para los informes (también conocidos como plantillas):<ul><li>Ahora se denominan [!UICONTROL Plantillas] (no [!UICONTROL Informes]).</li><li>Se ha mejorado la experiencia del usuario para ver y buscar plantillas, incluida la opción de ver plantillas en vista de columna o en vista de tarjeta.</li><li>Ubicación nueva y más intuitiva para las plantillas de compañía (ubicadas en **[!UICONTROL Espacio de trabajo]** > **[!UICONTROL Plantillas]**).</li><li>Anteriormente, se tenía acceso a las plantillas de compañía al crear un proyecto desde el cuadro de diálogo.</li><li>Hay más plantillas generadas previamente disponibles.</li></ul>[Más información](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/templates/use-templates).<p>Los administradores pueden crear plantillas personalizadas y guardarlas para que otros usuarios de su compañía las utilicen en la misma sesión. [Más información](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/templates/create-templates) | 15 de enero de 2025 | 30 de enero de 2025 |
-| **Período de retención del ID de transacción** | El periodo de retención del ID de transacción de 90 días se ampliará a 25 meses en febrero de 2025. La variable `transactionID` identifica de forma exclusiva una transacción para que la visita se pueda enlazar a los datos cargados a través de las fuentes de datos. (Vínculos a la documentación próximamente) |  | 11 de febrero de 2025 |
+| **Período de retención del ID de transacción** | El período de retención del ID de transacción de 90 días se ampliará a 25 meses. La variable `transactionID` identifica de forma exclusiva una transacción para que la visita se pueda enlazar a los datos cargados a través de las fuentes de datos. Más información [aquí](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid) y [aquí](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid). |  | viernes, 20 de febrero de 2025 |
+| **Referencia de API de fuentes de datos** | La [referencia](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) de la API de fuentes de datos ya está disponible. |  | 30 de enero de 2025 |
+| **API de Livestream: implementación de cliente** | Utilice la implementación del cliente Livestream para consumir datos de Livestream. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | miércoles, 18 de febrero de 2025 |
+| **Actualización a la API de clasificaciones** | Ahora puede quitar campos de clasificación o claves individuales del servidor. Esto proporciona una alternativa a eliminar un conjunto de datos de clasificación completo con el método DELETE. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | miércoles, 18 de febrero de 2025 |
+
 
 ## Correcciones en Adobe Analytics
 
-**A4T**: AN-355602; AN-365988
-**Activity Map**: AN-365320
-**Admin Console**: AN-363884
-**Herramientas de administración**: AN-356747; AN-358776
-**Advertising Analytics**: AN-355488
-**Analysis Workspace**: AN-345318; AN-354801; AN-357052; AN-358975; AN-362886; AN-363831; AN-364124; AN-365257; AN-365319; AN-365462; AN-366194
-**API de Analytics 1.4**: AN-358059
-**Clasificaciones**: : AN-360049; AN-360424; AN-360745; AN-362208; AN-362345; AN-362560; AN-362576; AN-362633; AN-362653; AN-362762; AN-362815; AN-362881; AN-362885; AN-362973; AN-363343; AN-363558; AN-363860; AN-364239; AN-364480; AN-364451; AN-364528; AN-364548; AN-364552; AN-364585; AN-364598; AN-364643; AN-364715; AN-364912; AN-364997; AN-365081; AN-365189; AN-365197; AN-365203; AN-365431; AN-365647; AN-365794; AN-366546-
-**Migración de componentes**: AN-362236; AN-365429
-**Análisis de contribución**: AN-360146
-**Fuentes de datos**: AN-356997; AN-362470; AN-362498; AN-362775; AN-363323; AN-363413; AN-363569; AN-364063; AN-364142; AN-364294; AN-364298; AN-364325; AN-364367; AN-364594; AN-364995; AN-365127; AN-365272; AN-365519; AN-365760; AN-366152;
-**API de reparación de datos**: AN-362773; AN-362874
-**Fuentes de datos**: AN-360745; AN-362202; AN-364566
-**Data Warehouse**: AN-361447; AN-362616; AN-364524; AN-365108
-**Aplicación móvil**: AN-362856; AN-365270
-**Alertas de sobrecarga**: AN-355594; AN-364547
-**Plataforma**: AN-358914; AN-360205; AN-362990; AN-364550; AN-365454; AN-365485
-**Report Builder**: AN-363478; AN-364433; AN-365610
-**Administrador de actividades de creación de informes**: AN-362440
-**Segmentación**: AN-359921
-**Reglas de VISTA**: AN-362927
+**Analysis Workspace**: AN-359974; AN-366212; AN-368460
+**Clasificaciones**: AN-367186; AN-367328; AN-368548
+**Migración de componentes**: AN-364529; AN-366398; AN-367509;
+**Fuentes de datos**: AN-365685; AN-366745; AN-367256; AN-367349; AN-368363
+**Data Warehouse**: AN-368178; AN-368331;
+**Aplicación móvil**: AN-367137
+**Plataforma**: AN-351924; AN-365540; AN-365866; AN-366898; AN-367856; AN-367933
+**Report Builder**: AN-366456; AN-366655;
+**Grupos de informes virtuales**: AN-367411
+**Reglas de VISTA**: AN-365331
 
 ## Avisos importantes para los administradores de Adobe Analytics {#admin}
 
 | Aviso | Fecha de incorporación o actualización | Descripción |
 | ----------- | ---------- | ---------- |
-| **Los clientes que no sean de Campaign perderán acceso a Triggers** | 16 de octubre de 2023 | El 30 de enero de 2025, los clientes de Adobe Analytics que no tengan una licencia de Adobe Campaign perderán acceso a la capacidad de configurar y utilizar [Triggers](https://experienceleague.adobe.com/es/docs/core-services/interface/services/triggers). Los clientes deben adquirir Campaign o planear dejar de utilizar Triggers, o buscar otras herramientas de Adobe que ofrezcan las funcionalidades de Triggers. |
+| **Los clientes que no sean de Campaign perderán acceso a Triggers** | 16 de octubre de 2023 | El 30 de enero de 2025, los clientes de Adobe Analytics que no tengan una licencia de Adobe Campaign perdieron el acceso a la capacidad de configurar y consumir [Déclencheur](https://experienceleague.adobe.com/es/docs/core-services/interface/services/triggers). Los clientes deben adquirir Campaign o planear dejar de utilizar Triggers, o buscar otras herramientas de Adobe que ofrezcan las funcionalidades de Triggers. |
 
 ## Avisos de final de la vida útil {#eol}
 
