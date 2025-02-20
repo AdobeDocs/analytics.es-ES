@@ -4,10 +4,10 @@ description: Comprenda los requisitos previos y las limitaciones de la vinculaci
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: de8977e7ed7bf6bf93f75f608db34a7a3520ada7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 90%
+source-wordcount: '562'
+ht-degree: 80%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 {{available-existing-customers}}
 
-Cross-Device Analytics proporciona dos métodos distintos para unir datos. Este método depende de una variable de Analytics, como una [propiedad](/help/implement/vars/page-vars/prop.md) o un [eVar](/help/implement/vars/page-vars/evar.md), para contener un identificador de persona. Utiliza esa variable como base para vincular dispositivos. El Adobe recomienda esta opción de vinculación para lograr una mayor transparencia y predictibilidad en el seguimiento de visitantes.
+Cross-Device Analytics proporciona dos métodos distintos para unir datos. Este método depende de una variable de Analytics, como una [propiedad](/help/implement/vars/page-vars/prop.md) o un [eVar](/help/implement/vars/page-vars/evar.md), para contener un identificador de persona. Utiliza esa variable como base para vincular dispositivos. Adobe recomienda esta opción de vinculación para lograr una mayor transparencia y previsibilidad en el seguimiento de visitantes.
 
 ## Requisitos previos específicos de la vinculación basada en el campo
 
@@ -26,7 +26,7 @@ Si tiene intención de implementar el análisis entre dispositivos mediante la v
 >Si no se cumplen todos los requisitos previos, es posible que no se pueda habilitar el análisis entre dispositivos o que se obtengan resultados deficientes al vincular datos.
 
 * Todos los requisitos previos enumerados en la [página de información general](overview.md).
-* La implementación debe establecer una propiedad o una eVar que identifique de forma exclusiva a un individuo siempre que sea posible, como cuando un usuario inicia sesión o abre un correo electrónico. Este requisito se aplica a todas las plataformas, incluidas las aplicaciones móviles, si se utilizan. Evite asignar un valor predeterminado a la prop o al eVar.
+* La implementación debe establecer una propiedad o una eVar que identifique de forma exclusiva a un individuo siempre que sea posible, como cuando un usuario inicia sesión o abre un correo electrónico. Este requisito se aplica a todas las plataformas, incluidas las aplicaciones móviles, si se utilizan.<br/>Evite asignar un valor predeterminado a esta propiedad o eVar. Cuando se asignan el mismo valor predeterminado a 2000 dispositivos o más diferentes, la persona se agrega a una lista de &quot;personas malas&quot; y estos eventos se eliminan del grupo de informes virtuales habilitado para CDA, lo que da como resultado un análisis erróneo.
 * Comunique la variable de identificación que desee al equipo de cuenta de Adobe cuando se aprovisione para la vinculación basada en el campo.
 
 ## Limitaciones específicas de la vinculación basada en el campo
