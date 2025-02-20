@@ -4,7 +4,7 @@ description: Comprenda los requisitos previos y las limitaciones de la vinculaci
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: de8977e7ed7bf6bf93f75f608db34a7a3520ada7
+source-git-commit: 5faf1631a52594591a74a93868198da8bc0f9cff
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 80%
@@ -43,3 +43,4 @@ Si tiene intención de implementar el análisis entre dispositivos mediante la v
 ## Pasos siguientes
 
 Una vez que su organización haya cumplido todos los requisitos y haya comprendido las limitaciones, puede empezar a [configurar Cross-Device Analytics](setup.md).
+
