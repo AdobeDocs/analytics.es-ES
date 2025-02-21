@@ -4,10 +4,10 @@ title: Métricas en Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 34c88ddd5537d9265c20b0dc6f3aff801fcedcbf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 50%
+source-wordcount: '728'
+ht-degree: 36%
 
 ---
 
@@ -42,11 +42,9 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usar métricas](
 
 >[!ENDSHADEBOX]
 
-
-
 ## Crear métricas calculadas
 
-Las métricas calculadas permiten ver fácilmente cómo se relacionan entre sí las métricas mediante operadores simples o funciones estadísticas.
+Las métricas calculadas permiten ver fácilmente cómo se relacionan entre sí las métricas, mediante operadores simples o funciones estadísticas.
 
 Existen varias formas de crear métricas calculadas. El método que elija determina si la métrica calculada está disponible en la lista de componentes de todos los proyectos o solo en el proyecto en el que se creó.
 
@@ -64,21 +62,41 @@ Para crear una métrica calculada para un solo proyecto:
 
 1. En Analysis Workspace, abra el proyecto en el que desea crear la métrica calculada.
 
-1. En una tabla de forma libre, haga clic con el botón secundario en una o más celdas de columna de encabezado y seleccione **[!UICONTROL Crear métrica a partir de la selección]**
+1. En una tabla de forma libre, haga clic con el botón secundario en el encabezado de columna de una sola columna.
+
+   O
+
+   Seleccione dos columnas mientras mantiene pulsada la tecla Mayús y, a continuación, haga clic con el botón derecho en una de las columnas seleccionadas.
+
+1. Seleccionar **[!UICONTROL Crear métrica a partir de la selección]**
 
    ![Panel de Workspace resaltando Crear a partir de la selección](assets/create-metric-from-selection.png)
 
-1. Para crear una métrica calculada solo para este proyecto, elija entre las siguientes opciones:
+1. Para crear una métrica calculada solo para este proyecto, elija entre las opciones disponibles.
 
-   * [!UICONTROL **Dividir**]
+   Cuando se selecciona una sola columna, están disponibles las siguientes opciones:
 
-   * [!UICONTROL **Restar**]
+   * [!UICONTROL **Media**]: crea una nueva columna que muestra el valor medio en el conjunto de elementos de dimensión de la columna. Utiliza la función [Mean](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean).
 
-   * [!UICONTROL **Agregue**]
+   * [!UICONTROL **Mediana**]: crea una nueva columna que muestra el valor de mediana en el conjunto de elementos de dimensión de la columna. Utiliza la función [Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median).
 
-   * [!UICONTROL **Multiplicar**]
+   * [!UICONTROL **Máximo de columna**]: Crea una nueva columna que muestra el valor más alto del conjunto de elementos de dimensión de la columna. Utiliza la función [Máximo de columna](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum).
 
-   O bien, para abrir el creador de métricas calculadas y crear la métrica calculada para todos los proyectos, seleccione [!UICONTROL **Abrir en el creador de métricas calculadas**] y luego continúe con [Generar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+   * [!UICONTROL **Columna mín.**]: crea una nueva columna que muestra el valor más pequeño del conjunto de elementos de dimensión para la columna. Utiliza la función [Mínimo de columna](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum).
+
+   * [!UICONTROL **Suma de columna**]: Crea una nueva columna que agrega todos los valores numéricos de una métrica dentro de una columna (en los elementos de una dimensión). Utiliza la función [Suma de columna](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum).
+
+   Cuando se seleccionan dos columnas, están disponibles las siguientes opciones:
+
+   * [!UICONTROL **Dividir**]: crea una nueva columna que divide los valores de las dos columnas seleccionadas.
+
+   * [!UICONTROL **Restar**]: crea una nueva columna que resta los valores de las dos columnas seleccionadas.
+
+   * [!UICONTROL **Agregar**]: crea una nueva columna que agrega los valores de las dos columnas seleccionadas.
+
+   * [!UICONTROL **Multiplicar**]: crea una nueva columna que multiplica los valores de las dos columnas seleccionadas.
+
+   * [!UICONTROL **Cambio porcentual**]: crea una nueva columna que muestra el cambio porcentual de las dos columnas seleccionadas.
 
 [Métricas calculadas: métricas sin implementación](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=es) (3:42)
 
