@@ -3,9 +3,9 @@ description: El Creador de métricas calculadas proporciona un lienzo en el que 
 title: Generar métricas
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
+source-git-commit: a1567366c9fad42b3836f43c681d5380e97b09f3
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1150'
 ht-degree: 43%
 
 ---
@@ -35,7 +35,7 @@ Adobe Analytics proporciona un lienzo en el que arrastrar y soltar dimensiones, 
 
 ## Comenzar a crear una métrica calculada
 
-Puede usar el creador de métricas calculadas para crear o editar métricas calculadas. Cuando se crean de esta manera, las métricas calculadas están disponibles en la lista de componentes y, a continuación, se pueden utilizar en proyectos de toda la organización. También puede crear una métrica calculada rápida, tal como se describe en [Crear métricas calculadas para un solo proyecto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) en [Métricas](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Puede usar el creador de métricas calculadas para crear o editar métricas calculadas. Cuando se crean de esta manera, las métricas calculadas están disponibles en la lista de componentes y, a continuación, se pueden utilizar en proyectos de toda la organización. También puede crear rápidamente una métrica calculada que esté disponible solamente para el proyecto en el que se creó, tal como se describe en [Crear métricas calculadas para un solo proyecto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) en [Métricas](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
 
 Acceda al creador de métricas calculadas para empezar a crear una métrica calculada que esté disponible en la lista de componentes.
 
