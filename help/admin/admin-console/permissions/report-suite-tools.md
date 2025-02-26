@@ -4,9 +4,9 @@ description: Comprenda cada elemento de permiso en Herramientas de grupos de inf
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '526'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,6 @@ Utilice esta página para comprender cada elemento de permiso dentro de Herramie
 | [!UICONTROL Variables de conversión] | Otorga acceso a Conversión > Variables de conversión en el Administrador de grupos de informes. |
 | [!UICONTROL Calendario personalizado] | Otorga acceso a General > Personalizar calendario en el Administrador de grupos de informes. |
 | [!UICONTROL Informe del Data Warehouse personalizado] | Otorga acceso a Herramientas > Data Warehouse en la navegación superior de Analytics. |
-| [!UICONTROL Visitas de retorno diario] | Otorga acceso a Retención de visitantes > Visitas de retorno diario en Reports &amp; Analytics. |
 | [!UICONTROL Administrador de fuentes de datos] | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. |
 | [!UICONTROL Administrador de fuentes de datos] | Otorga acceso a Administración > Todos los admin > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
 | [!UICONTROL API de reparación de datos] | Otorga acceso a la API de reparación de datos |

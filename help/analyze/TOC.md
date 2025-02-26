@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y su versión heredada, y Activity Map.
-source-git-commit: b1c16319c8ec7e84e4d9ff173a4919d18da5f010
-workflow-type: ht
-source-wordcount: '973'
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+workflow-type: tm+mt
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
@@ -197,7 +197,6 @@ ht-degree: 100%
       + [Administración de segmentos](legacy-report-builder/data-requests/segmentation.md)
       + Tipos de informes {#report-types}
          + [Información general sobre tipos de informes](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
-         + [Informes de ruta y de abandonos de ruta en Report Builder](legacy-report-builder/data-requests/c-report-types/report-path-fallout.md)
          + [Filtrado de un informe de rutas mediante el Asistente para solicitudes](legacy-report-builder/data-requests/c-report-types/path-filter.md)
          + [Filtrado de un informe de abandonos mediante el Asistente para solicitudes](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
          + [Filtrado de informes de ruta añadiendo solicitudes dependientes](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)

@@ -1,13 +1,13 @@
 ---
 title: Guía de herramientas de Analytics
-description: Documentación del producto e instrucciones para Analysis Workspace, paneles de Analytics (aplicación móvil), Activity Map, Report Builder, API de informes y Reports & Analytics.
+description: Documentación del producto e instrucciones para Analysis Workspace, paneles de Analytics (aplicación móvil), Activity Map y Report Builder.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '535'
-ht-degree: 100%
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+workflow-type: tm+mt
+source-wordcount: '531'
+ht-degree: 96%
 
 ---
 

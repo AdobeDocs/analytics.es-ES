@@ -3,9 +3,9 @@ title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 9f7fe19c4d9dd9f3940a64c1e20e897ac6febe52
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2580'
 ht-degree: 89%
 
 ---
@@ -51,7 +51,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Fuentes de datos:** permiten a un usuario cargar los datos de un archivo a Adobe Analytics. Normalmente, el archivo se extrae de un sitio FTP. Consulte [Fuentes de datos](/help/import/data-sources/overview.md) en la guía de usuario sobre importación.
 * **Data Warehouse:** característica de Adobe Analytics que permite solicitar informes de mayor tamaño. Consulte [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) en la guía de usuario sobre exportación.
 * **Data Workbench:** Una herramienta de análisis [retirada](https://experienceleague.adobe.com/es/docs/discontinued/using/data-workbench) diseñada para recopilar, procesar, analizar y visualizar datos de interacciones de clientes en línea y sin conexión en varios canales.
-* **Dimension:** los Dimension son fechas y valores no numéricos como sexo, mes, edad, lealtad, resolución del monitor, etc. Otros ejemplos son Nombre de página, Código de seguimiento o Dominio de referencia. Su homólogo suele ser una métrica.
+* **Dimension:** Las dimensiones son fechas y valores no numéricos como sexo, mes, edad, lealtad, resolución del monitor, etc. Otros ejemplos son Nombre de página, Código de seguimiento o Dominio de referencia. Su homólogo suele ser una métrica.
 * **Desglose de Dimension:** Cada dimensión se puede desglosar en niveles de detalle más precisos. Por ejemplo, la dimensión &quot;mes&quot; se puede desglosar en enero, febrero, marzo, etc.
 * **Serialización de eventos:** un proceso de aplicación de medidas para evitar la recopilación de eventos duplicados. Consulte [Serialización de eventos](../implement/vars/page-vars/events/event-serialization.md) en la guía de usuario sobre implementación.
 * **eVar:** Consulte Variable de conversión.
@@ -91,7 +91,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Tiempo real:** muestra con poca o ninguna latencia las variables configuradas en cuanto se recopilan. Consulte [Informes en tiempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) en la guía de usuario de administración.
 * **Report Builder:** El complemento Javascript [Report Builder](/help/analyze/report-builder/report-buider-overview.md) le permite generar solicitudes personalizadas a partir de datos de Adobe Analytics.
 * **Grupo de informes:** contenedor general al que se envían datos. Todos los informes de Adobe Analytics pertenecen a un grupo de informes.
-* **Reports &amp; Analytics:** Se ha retirado la solución de explorador para informes y análisis. Esta herramienta ha llegado [al final de su vida útil](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=es).
+* **Reports &amp; Analytics:** Esta herramienta ha llegado al [final de su vida útil](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=es).
 * **Intervalo de fecha móvil:** un tipo de intervalo de fecha relativo que cambia a medida que pasa el tiempo. Por ejemplo, un informe que muestra los últimos 7 días puede considerarse un intervalo de fecha móvil. Consulte también intervalo de fecha estático.
 * **RSID:** sigla de “Report suite ID” (el ID del grupo de informes). Un grupo de informes tiene un nombre descriptivo y un ID del grupo de informes.
 * **s.t():** nombre de la función de una biblioteca de AppMeasurement que envía una solicitud de imagen de vista de página. Algunas bibliotecas de AppMeasurement utilizan `s.track()` en su lugar. Consulte [t](../implement/vars/functions/t-method.md) en la guía de usuario sobre implementación.
