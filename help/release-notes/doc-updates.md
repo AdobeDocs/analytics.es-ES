@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6237'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,14 +26,14 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Febrero de 2025** |  |
-| Se ha actualizado la información sobre la pausa y reactivación de una fuente de datos | Al [pausar y reactivar una fuente de datos](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), se aclaró el comportamiento de las fuentes activas. El procesamiento de datos no se produce desde el momento en que la fuente se pone en pausa hasta el momento en que se reactiva. |
-| Período de retención del ID de transacción modificado | El período de retención del ID de transacción de 90 días se amplió a 25 meses. La variable transactionID identifica de forma exclusiva una transacción para que la visita se pueda enlazar a los datos cargados a través de las fuentes de datos. Más información [aquí](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) y [aquí](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en). |
-| API de Livestream: Implementación de cliente | Use la [implementación de cliente de Livestream](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) para consumir datos de Livestream. |
-| Actualización de la API de clasificaciones | Ahora puede [quitar campos o claves de clasificación individuales del servidor](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/). Esto proporciona una alternativa a eliminar un conjunto de datos de clasificación completo con el método DELETE. |
+| Se ha actualizado la información sobre la pausa y reactivación de un feed de datos | Al [pausar y reactivar un feed de datos](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), se ha aclarado el comportamiento de los feeds activos. El procesamiento de datos no se produce desde el momento en que el feed se pone en pausa hasta el momento en que se reactiva. |
+| Período de retención del ID de transacción cambiado | El período de retención del ID de transacción de 90 días se ha ampliado a 25 meses. La variable transactionID identifica de forma exclusiva una transacción para que la visita se pueda enlazar a los datos cargados a través de las fuentes de datos. Más información [aquí](https://experienceleague.adobe.com/es/docs/analytics/implementation/vars/page-vars/transactionid?lang=es) y [aquí](https://experienceleague.adobe.com/es/docs/analytics/import/data-sources/transactionid?lang=es). |
+| API de Livestream: implementación de cliente | Utilice la [implementación de cliente de Livestream](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) para utilizar datos de Livestream. |
+| Actualización de la API de clasificaciones | Ahora puede [quitar campos de clasificación o claves individuales del servidor](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values). Esto proporciona una alternativa a eliminar un conjunto de datos de clasificación completo con el método DELETE. |
 | **Enero de 2025** |  |
-| Referencia de API de fuentes de datos | Ya está disponible la referencia [de la API de fuentes de datos](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs). |
-| Nueva documentación sobre Programación en el nuevo Report Builder | [Programar](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/schedule-reportbuilder) no solo le permite programar sus nuevos libros de Report Builder. Además, permite recuperar los metadatos de tareas programadas antiguas al convertir libros heredados. |
-| Mejoras en los informes (también conocidos como plantillas) de Analysis Workspace | Ya hay varias mejoras disponibles para los informes (también conocidas como [Plantillas](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/use-templates?lang=en)) |
+| Referencia de API de feeds de datos | Ya está disponible la [referencia de la API de feeds de datos](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs). |
+| Nueva documentación sobre programación en el nuevo Report Builder | La [programación](https://experienceleague.adobe.com/es/docs/analytics/analyze/report-builder/schedule-reportbuilder) no solo le permite programar los nuevos libros de Report Builder. También le permite recuperar los metadatos de tareas programadas antiguas al convertir libros heredados.  |
+| Mejoras en los informes (también conocidos como plantillas) en Analysis Workspace | Ya hay varias mejoras disponibles para los informes (también conocidos como [Plantillas](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/templates/use-templates?lang=es)) |
 
 
 ### 2024 {#year2024}
