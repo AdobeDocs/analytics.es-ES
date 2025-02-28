@@ -4,10 +4,10 @@ description: Eliminación de bots en Adobe Analytics
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 50c2881aa61097c14057dd4fd4654c832f20b26f
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 81%
+source-wordcount: '791'
+ht-degree: 78%
 
 ---
 
@@ -39,7 +39,7 @@ Para obtener más información, consulte la [Guía de implementación de Adobe A
 
 ## Uso de una combinación de Herramientas de Adobe
 
-Además, como los bots cambian rápidamente, Adobe ofrece otras funciones útiles que, combinadas correctamente y de forma regular, pueden ayudar a eliminar estos enemigos de la calidad de los datos. Estas funciones son: servicio de ID de Experience Cloud, segmentación, Data Warehouse, atributos del cliente y grupos de informes virtuales. A continuación, se muestra una descripción general de cómo puede aprovechar estas herramientas.
+Además, como los bots cambian rápidamente, Adobe ofrece otras funciones útiles que, combinadas correctamente y de forma regular, pueden ayudar a eliminar estos enemigos de la calidad de los datos. Estas funciones son: servicio de Experience Cloud ID, segmentación, Data Warehouse, atributos del cliente y grupos de informes virtuales. A continuación, se muestra una descripción general de cómo puede aprovechar estas herramientas.
 
 ### Paso 1: Pase el Experience Cloud ID de sus visitantes a un ID declarado nuevo
 
@@ -67,7 +67,7 @@ Ahora que ha identificado los bots mediante segmentos, el paso siguiente es apro
 
 Recuerde usar el ID de visitante de Experience Cloud como dimensión y aplicar el segmento Bots.
 
-### Paso 4: Devuelva esta lista al Adobe como atributo de cliente
+### Paso 4: Devuelva esta lista a Adobe como atributo de cliente
 
 Una vez que llegue el informe de Data Warehouse, tendrá una lista de los ECID que deben filtrarse a partir de los datos históricos. Copie y pegue estos ECID en un archivo .CSV en blanco con solo dos columnas, ECID e Indicador de bots.
 
@@ -95,3 +95,10 @@ Este grupo de informes virtuales recién segmentado ahora generará un conjunto 
 ### Paso 7: Repita los pasos 2, 3 y 4 con regularidad
 
 Configure, por lo menos, un recordatorio mensual para identificar y filtrar nuevos bots, tal vez antes del análisis programado de forma regular.
+
+>[!MORELIKETHIS]
+>
+>* [Mejor bloqueo de bots (Parte 1): Conceptos básicos](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [Mejor bloqueo de bots (Parte 2): Identificar bots y aprovechar CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [Mejor Bloqueo De Bots (Parte 3): The Hit Governor](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
+
