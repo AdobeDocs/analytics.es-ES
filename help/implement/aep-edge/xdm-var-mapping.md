@@ -4,16 +4,16 @@ description: Vea qué campos XDM de Edge se asignan automáticamente a variables
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 5e97c9a4a3c7368cefb3cc6a7bc89a450e6e3f4a
+source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1418'
 ht-degree: 56%
 
 ---
 
 # Asignación de variables de objeto XDM a Adobe Analytics
 
-La siguiente tabla muestra las variables XDM que el Edge Network de Adobe Experience Platform asigna automáticamente a Adobe Analytics. Si utiliza estas rutas de campo XDM, no es necesaria ninguna configuración adicional para enviar datos a Adobe Analytics. Estos campos se incluyen en el grupo de campos **[!UICONTROL Plantilla de Adobe Analytics ExperienceEvent]**. Se recomienda utilizar estos campos si tiene intención de enviar datos tanto a Adobe Analytics como a Adobe Experience Platform.
+La siguiente tabla muestra las variables XDM que Adobe Experience Platform Edge Network asigna automáticamente a Adobe Analytics. Si utiliza estas rutas de campo XDM, no es necesaria ninguna configuración adicional para enviar datos a Adobe Analytics. Estos campos se incluyen en el grupo de campos **[!UICONTROL Plantilla de Adobe Analytics ExperienceEvent]**. Se recomienda utilizar estos campos si tiene intención de enviar datos tanto a Adobe Analytics como a Adobe Experience Platform.
 
 Si su organización planea pasar a Customer Journey Analytics, Adobe recomienda usar el objeto `data` para enviar datos directamente a Adobe Analytics sin ajustarse a un esquema. Esta estrategia permite que su organización use su propio esquema, en lugar de usar la [!UICONTROL Plantilla de Adobe Analytics ExperienceEvent] (que es menos aplicable a Customer Journey Analytics). Consulte [Asignación de variables de objetos de datos a Adobe Analytics](data-var-mapping.md) para obtener una tabla de asignación similar.
 
@@ -66,6 +66,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | `xdm.environment.carrier` | La dimensión del ciclo de vida móvil [Nombre del operador](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.connectionType` | Ayuda a establecer la dimensión [Tipo de conexión](../../components/dimensions/connection-type.md). |
 | `xdm.environment.ipV4` | Se utiliza como método de identificación alternativo [visitante único](../../components/metrics/unique-visitors.md). Normalmente se rellena usando el encabezado HTTP `X-Forwarded-For`. |
+| `xdm.environment._dc.language` | La configuración regional de la dimensión móvil. |
 | `xdm.environment.language` | La configuración regional de la dimensión móvil. |
 | `xdm.environment.operatingSystem` | El [sistema operativo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) de la dimensión del ciclo de vida móvil. |
 | `xdm.environment.operatingSystemVersion` | Ayuda a establecer la dimensión del ciclo de vida móvil [Versión del sistema operativo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
