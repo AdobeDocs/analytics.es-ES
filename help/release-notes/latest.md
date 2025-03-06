@@ -3,8 +3,8 @@ title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d8a715444a3f6876c4ed9e08e3dcbd6a02d96d9d
-workflow-type: ht
+source-git-commit: ace906a4b5acf1ab667529af33dd5be1618863f2
+workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento del 11 de febrero a
 
 ## AppMeasurement
 
-Para obtener las últimas actualizaciones de las versiones de AppMeasurement (2.26.0), consulte las [notas de la versión de AppMeasurement para JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=es).
+Para obtener las últimas actualizaciones de las versiones de AppMeasurement (2.27.0), consulte las [notas de la versión de AppMeasurement para JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=es).
 
 
 ## Recursos relacionados
