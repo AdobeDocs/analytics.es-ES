@@ -4,10 +4,10 @@ description: Vea qué campos XDM de Edge se asignan automáticamente a variables
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
+source-git-commit: 41395781f34d395954a1fc9de0351e4c63c1d6f8
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 56%
+source-wordcount: '1425'
+ht-degree: 55%
 
 ---
 
@@ -66,7 +66,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | `xdm.environment.carrier` | La dimensión del ciclo de vida móvil [Nombre del operador](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.connectionType` | Ayuda a establecer la dimensión [Tipo de conexión](../../components/dimensions/connection-type.md). |
 | `xdm.environment.ipV4` | Se utiliza como método de identificación alternativo [visitante único](../../components/metrics/unique-visitors.md). Normalmente se rellena usando el encabezado HTTP `X-Forwarded-For`. |
-| `xdm.environment._dc.language` | La configuración regional de la dimensión móvil. |
+| `xdm.environment._dc.language` | La configuración regional de la dimensión móvil. Solo se utiliza si no se ha definido xdm.environment.language. |
 | `xdm.environment.language` | La configuración regional de la dimensión móvil. |
 | `xdm.environment.operatingSystem` | El [sistema operativo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) de la dimensión del ciclo de vida móvil. |
 | `xdm.environment.operatingSystemVersion` | Ayuda a establecer la dimensión del ciclo de vida móvil [Versión del sistema operativo](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
