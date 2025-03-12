@@ -4,10 +4,10 @@ title: Etiquetas de privacidad de datos para variables de Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '3790'
-ht-degree: 91%
+source-wordcount: '3760'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ La implementación de privacidad de datos de Adobe Analytics admite las siguient
 
 >[!NOTE]
 >
->Las etiquetas I1, I2, S1 y S2 tienen el mismo significado que las etiquetas DULE con el nombre correspondiente en Adobe Experience Platform. Sin embargo, se utilizan para propósitos muy diferentes. En Adobe Analytics, estas etiquetas se utilizan para ayudar a identificar campos que deben convertirse en anónimos como resultado de una solicitud del Privacy Service. En Adobe Experience Platform, se utilizan para el control de acceso, la administración de consentimientos y para aplicar restricciones de marketing en los campos etiquetados. Adobe Experience Platform admite muchas etiquetas adicionales que Adobe Analytics no utiliza. Además, las etiquetas de Adobe Experience Platform se aplican a los esquemas. Si utiliza el conector de datos de Analytics para importar los datos de Adobe Analytics en Adobe Experience Platform, deberá asegurarse de que las etiquetas DULE adecuadas estén configuradas en Adobe Experience Platform para los esquemas utilizados por cada uno de los grupos de informes. Las etiquetas asignadas en Adobe Analytics no se aplican automáticamente a estos esquemas en Adobe Experience Platform, ya que solo representarían un subconjunto de las etiquetas DULE que puede que necesite aplicar. Además, los distintos grupos de informes pueden compartir un esquema, pero tienen diferentes etiquetas asignadas a props y evars con el mismo número y el esquema puede ser compartido por conjuntos de datos de otras fuentes de datos, lo que podría causar confusión sobre por qué ciertos campos recibieron estas etiquetas.
+>Las etiquetas I1, I2, S1 y S2 tienen el mismo significado que las etiquetas DULE con el nombre correspondiente en Adobe Experience Platform. Sin embargo, se utilizan para propósitos muy diferentes. En Adobe Analytics, estas etiquetas se utilizan para ayudar a identificar campos que deben convertirse en anónimos como resultado de una solicitud de Privacy Service. En Adobe Experience Platform, se utilizan para el control de acceso, la administración de consentimientos y para aplicar restricciones de marketing en los campos etiquetados. Adobe Experience Platform admite muchas etiquetas adicionales que Adobe Analytics no utiliza. Además, las etiquetas de Adobe Experience Platform se aplican a los esquemas. Si utiliza el conector de datos de Analytics para importar los datos de Adobe Analytics en Adobe Experience Platform, deberá asegurarse de que las etiquetas DULE adecuadas estén configuradas en Adobe Experience Platform para los esquemas utilizados por cada uno de los grupos de informes. Las etiquetas asignadas en Adobe Analytics no se aplican automáticamente a estos esquemas en Adobe Experience Platform, ya que solo representarían un subconjunto de las etiquetas DULE que puede que necesite aplicar. Además, los distintos grupos de informes pueden compartir un esquema, pero tienen diferentes etiquetas asignadas a props y evars con el mismo número y el esquema puede ser compartido por conjuntos de datos de otras fuentes de datos, lo que podría causar confusión sobre por qué ciertos campos recibieron estas etiquetas.
 
 ## Etiquetas de datos de identidad {#identity-data-labels}
 
@@ -67,7 +67,7 @@ Mientras que algunas variables recibirán alguna de las otras etiquetas, se espe
 
 A diferencia de otras etiquetas, estas etiquetas de eliminación no son mutuamente exclusivas. Puede seleccionar una, ambas o ninguna. No es necesaria una etiqueta separada [!UICONTROL Ninguno], porque [!UICONTROL Ninguno] se indica simplemente no marcando ninguna opción Eliminar.
 
-Se requiere una etiqueta de eliminación únicamente para los campos que contienen un valor que pueda permitir la visita con los datos del sujeto (por ejemplo, que permita la identificación del sujeto). Otra información personal (favoritos, historial de navegación/compras, estado de salud, etc.) no requiere de la eliminación, ya que la asociación con el interesado queda truncada.
+Se requiere una etiqueta de eliminación únicamente para los campos que contienen un valor que pueda permitir la visita con los datos del sujeto (por ejemplo, que permita la identificación del sujeto). No es necesario eliminar otra información personal (favoritos, historial de navegación/compras, condiciones de salud, etc.), ya que la asociación con el sujeto de datos se verá dañada.
 
 | Etiqueta | Definición | Otros requisitos |
 | --- | --- | --- |
@@ -243,7 +243,7 @@ Es importante comprender qué tipo de datos contiene cada variable antes de toma
 | [!UICONTROL Agente de usuario] | El agente de usuario identifica la versión del explorador que se ha utilizado. |
 | [!UICONTROL ID de usuario] | Especifica el grupo de informes de Analytics (como un número) que contiene los datos. |
 | [!UICONTROL ID del grupo de informes ] | Especifica el nombre del grupo de informes de Analytics que contiene los datos. |
-| [!UICONTROL ID de visitante]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Estas etiquetas tienen una etiqueta DEL-DEVICE, pero no se puede agregar la etiqueta DEL-PERSON. Si especifica [!UICONTROL Ampliación de ID] con cada solicitud, estos ID se eliminarán automáticamente para todas las solicitudes de eliminación, incluso las que utilicen un ID-PERSON.<p>Si no utiliza la expansión de ID, pero desea que estos ID de cookie se anonimicen en las visitas que contengan un ID coincidente en una prop o eVar, puede solucionar esta limitación de etiquetado mediante el etiquetado de la prop o eVar con una etiqueta ID-DEVICE, incluso si realmente identifica a una persona (todas las etiquetas DEL-PERSON también necesitarán cambiarse a etiquetas DEL-DEVICE). En este caso, dado que solo algunas instancias del ID del visitante o del ECID se están anonimizando, las cantidades de visitantes únicos cambiarán en los informes del historial. |
+| [!UICONTROL ID de visitante]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Estas etiquetas tienen una etiqueta DEL-DEVICE, pero no se puede agregar la etiqueta DEL-PERSON. Si desea que estos ID de cookie se anonimicen en las visitas que contengan un ID coincidente en una propiedad o eVar, puede solucionar esta limitación de etiquetado mediante el etiquetado de la propiedad o eVar con una etiqueta ID-DEVICE, incluso si realmente identifica a una persona (todas las etiquetas DEL-PERSON también necesitarían cambiarse a etiquetas DEL-DEVICE). En este caso, dado que solo algunas instancias del ID del visitante o del ECID se están anonimizando, las cantidades de visitantes únicos cambiarán en los informes del historial. |
 | [!UICONTROL ID de AMO] | El ID de Adobe Advertising Cloud es una variable de solución que tiene una etiqueta no modificable [!UICONTROL DEL-DEVICE]. Se rellena a partir de una cookie, del mismo modo que el ID del visitante y el MCID. Debe eliminarse de las visitas siempre que se eliminen esos otros ID. Consulte la descripción de dichas variables para obtener más información. |
 
 {style="table-layout:auto"}
@@ -264,4 +264,4 @@ Hay cinco variables estándar que contienen marcadores de tiempo:
 
 El código para generar los archivos devueltos por las solicitudes de acceso amparadas en la privacidad de datos requiere que al menos una de las tres primeras variables de marcador de tiempo se incluya en la solicitud de acceso (que tenga una etiqueta ACC que se aplique al tipo de solicitud). Si no se incluye ninguna de estas marcas, Custom Hit Time UTC se trata como si tuviera una etiqueta ACC-ALL.
 
-El archivo CSV del nivel de visita que devuelven las solicitudes de acceso amparadas en la privacidad de datos convierte los valores de estos campos de marcador de tiempo Unix en campos de fecha y hora con el formato `YYYY-MM-DD HH:MM:SS` (por ejemplo, `2018-05-01 13:49:22`). En el archivo del HTML de resumen, estos valores de marca de tiempo se truncarán para incluir únicamente la fecha `YYYY-MM-DD`, a fin de reducir el número de valores únicos en estos campos.
+El archivo CSV del nivel de visita que devuelven las solicitudes de acceso amparadas en la privacidad de datos convierte los valores de estos campos de marcador de tiempo Unix en campos de fecha y hora con el formato `YYYY-MM-DD HH:MM:SS` (por ejemplo, `2018-05-01 13:49:22`). En el archivo HTML de resumen, estos valores de marca de tiempo se truncarán para incluir únicamente la fecha `YYYY-MM-DD`, con el fin de reducir el número de valores únicos en estos campos.

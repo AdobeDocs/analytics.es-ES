@@ -4,10 +4,10 @@ title: Ejemplos de etiquetado
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 78%
+source-wordcount: '723'
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ Suponga que dispone de los siguientes datos de visita:
 
 ## Muestra de solicitud de acceso {#access}
 
-Si envía una solicitud de acceso, recibirá dos archivos que puede devolver al interesado. Un archivo CSV contiene una fila por cada visita recibida para el interesado y una columna para cada variable con la etiqueta de acceso adecuada. El otro archivo es un archivo de HTML de resumen que enumera cada variable, seguida de todos los valores únicos vistos para esa variable para el sujeto de los datos y el número de veces que se vio cada valor único.
+Si envía una solicitud de acceso, recibirá dos archivos que puede devolver al interesado. Un archivo CSV contiene una fila por cada visita recibida para el interesado y una columna para cada variable con la etiqueta de acceso adecuada. El otro archivo es un archivo HTML de resumen que enumera cada variable, seguida de todos los valores únicos vistos para esa variable para el sujeto de los datos y el número de veces que se vio cada valor único.
 
 Para nuestro ejemplo, el archivo de resumen contiene los valores indicados en la tabla a continuación. Una solicitud puede contener únicamente un archivo de dispositivo, solo un archivo de persona o uno de cada. Se devuelven dos archivos de resumen solo si se usa un ID de persona y `expandIds` es verdadero.
 
@@ -292,7 +292,7 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 
 >[!NOTE]
 >
->Solo se ven afectadas las columnas de celdas de las filas que contienen `user=Mary` y una etiqueta `DEL-PERSON`. Además, en la práctica, la variable que contiene `A_ID` probablemente sería una prop o un eVar. Su valor de reemplazo sería una cadena que empiece por `Privacy-`, seguida de un número aleatorio (GUID), en lugar de reemplazar el valor numérico con un valor numérico aleatorio diferente.
+>Solo se ven afectadas las columnas de celdas de las filas que contienen `user=Mary` y una etiqueta `DEL-PERSON`. Además, en la práctica, la variable que contiene `A_ID` probablemente sería una prop o una eVar. Su valor de reemplazo sería una cadena que empiece por `Privacy-`, seguida de un número aleatorio (GUID), en lugar de reemplazar el valor numérico con un valor numérico aleatorio diferente.
 
 <table>
   <tr>
@@ -366,8 +366,4 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 Recuerde lo siguiente:
 
 * Solo se ven afectadas las celdas de las filas que contienen `user=Mary` y una etiqueta `DEL-PERSON`.
-* Debido a la expansión del ID, las celdas de las filas que contienen `AAID=77`, `AAID=88` o `AAID=99` (que son los valores AAID de las filas que contienen `user=Mary`) y una etiqueta `DEL-DEVICE` se ven afectadas. Esto incluye celdas con una etiqueta `DEL-DEVICE` en filas donde `user=Mary`. Esto provoca que las celdas de las filas 4 y 5 (así como las filas 1-3) con etiquetas `DEL-DEVICE` (AAID, MyEvar2 y MyEvar3) se deban ocultar.
-* La configuración expandIDs no se expande a la llamada para incluir los valores presentes en MyEvar3 (`X`, `Y` y `Z`), que tiene una etiqueta ID-DEVICE, cuando `user=Mary`. ExpandIDs solo se expande para incluir los ID de visitante (AAID en este ejemplo, pero también el ECID) en filas donde `user=Mary`. Por lo tanto, las dos últimas filas, que contienen los valores MyEvar3 de `X` y `Z`, no se ven afectadas.
-* `MyEvar2` en las filas cuarta y quinta se actualiza, ya que estas filas contienen los mismos valores de ID de visitante (`77` y `88`) que los de las filas primera y segunda. Como resultado, la expansión de ID los incluye para eliminaciones en el nivel de dispositivo.
-* Los valores de `MyEvar2` en las filas segunda y quinta coinciden tanto antes como después de la eliminación. Sin embargo, después de la eliminación, ya no coinciden con el valor `N` que se produce en la última fila, ya que esa fila no se actualizó como parte de la solicitud de eliminación.
-* `MyEvar3` se comporta de forma muy distinta a como lo hacía sin expansión de ID porque, sin esta, ningún coincidía.`ID-DEVICES` Ahora, `AAID` coincide en las primeras cinco filas.
+
