@@ -4,28 +4,28 @@ description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 2b13f649d286e9eb707f2dd22c068b9742c51c70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '730'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
-# Notas de la versión actuales de Adobe Analytics (versión de marzo de 2025)
+# Notas de la versión actual de Adobe Analytics (versión de marzo de 2025)
 
-**Última actualización**: jueves, 12 de marzo de 2025
+**Última actualización**: 12 de marzo de 2025
 
-Estas notas de la versión abarcan el periodo de lanzamiento del 5 de marzo al mayo de 2025. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+Estas notas de la versión cubren el período comprendido entre el 5 de marzo de 2025 y mayo de 2025. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Nuevas funciones o mejoras {#features}
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Actualizar al campo de datos de contexto de Analytics`a.locale`** | Esta actualización cambia la forma en que se establece el campo de datos de contexto `a.locale` de Analytics al recopilar datos mediante Experience Edge. Cuando se envían datos a Adobe Analytics mediante Experience Edge, los campos de Analytics se rellenan en función de una asignación de campos XDM. La asignación de `c.a.locale` hace referencia a un campo XDM no estándar, `xdm.environment.language`. Este campo se actualizará para hacer referencia al campo correcto, `xdm.environment._dc.language`.<p>La asignación seguirá haciendo referencia a `xdm.environment.language` de cara a la compatibilidad con versiones anteriores. Para mantener la continuidad, si se establecen ambos campos, `xdm.environment.language` tiene prioridad. Puede ver la lista completa de asignaciones de XDM a campos estándar de Analytics [aquí](https://experienceleague.adobe.com/es/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | 5 de marzo de 2025 |
-| **Guía de actualización de Customer Journey Analytics** | Le permite generar una guía paso a paso para actualizar de Adobe Analytics a Customer Journey Analytics. Esta guía está adaptada a su organización y tiene en cuenta su entorno de Adobe Analytics actual, los usos previstos para Customer Journey Analytics y cualquier compensación que le ahorre tiempo que su organización desee realizar.<p>Para empezar a generar tu guía personalizada, inicia sesión en [!DNL Customer Journey Analytics] y, a continuación, selecciona **[!UICONTROL Actualizar a Customer Journey Analytics]** en la pestaña **[!UICONTROL Workspace]**.<p>[Más información](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | miércoles, 11 de marzo de 2025 |
-| **Dimensiones solo de Data Warehouse** | A partir de mayo de 2025, Adobe empezará a establecer dimensiones (variables personalizadas como eVars y props) que muestran una cardinalidad extremadamente alta en &quot;Solo Data Warehouse&quot;. Las variables de alta cardinalidad tienen muchos valores distintos; por ejemplo, las marcas de tiempo o los UUID. Estas dimensiones ya no estarán disponibles para la creación de informes en Analysis Workspace.<p>Los candidatos a este cambio son dimensiones que exceden los límites de poco tráfico muy pronto en el mes. Con estos tipos de dimensiones, los informes de Analysis Workspace basados en esa dimensión no son útiles porque los datos notificables representan solo una pequeña fracción de los valores iniciales recopilados.<p>Dado que Data Warehouse no impone límites de poco tráfico, aún puede generar informes o segmentos útiles basados en estos tipos de dimensiones. | | Mayo de 2025 |
+| **Actualizar al campo de datos de contexto de Analytics`a.locale`** | Esta actualización cambia la forma en que se establece el campo de datos de contexto de Analytics `a.locale` al recopilar datos mediante Experience Edge. Cuando se envían datos a Adobe Analytics mediante Experience Edge, los campos de Analytics se rellenan en función de una asignación de campos XDM. La asignación de `c.a.locale` hace referencia a un campo XDM no estándar, `xdm.environment.language`. Este campo se actualizará para hacer referencia al campo correcto, `xdm.environment._dc.language`.<p>La asignación seguirá haciendo referencia a `xdm.environment.language` de cara a la compatibilidad con versiones anteriores. Para mantener la continuidad, si se establecen ambos campos, `xdm.environment.language` tendrá prioridad. Puede ver la lista completa de asignaciones de XDM a campos estándar de Analytics [aquí](https://experienceleague.adobe.com/es/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | 5 de marzo de 2025 |
+| **Guía de actualización de Customer Journey Analytics** | Le permite generar una guía paso a paso para actualizar de Adobe Analytics a Customer Journey Analytics. Esta guía está adaptada a su organización y tiene en cuenta su entorno Adobe Analytics actual, los usos previstos para Customer Journey Analytics y cualquier cambio que su organización desee hacer para ahorrar tiempo.<p>Para empezar a generar su guía personalizada, inicie sesión en [!DNL Customer Journey Analytics] y, a continuación, seleccione **[!UICONTROL Actualizar a Customer Journey Analytics]** en la pestaña **[!UICONTROL Workspace]**.<p>[Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 11 de marzo de 2025 |
+| **Dimensiones de Data Warehouse solamente** | A partir de mayo de 2025, Adobe empezará a establecer dimensiones (variables personalizadas como eVars y props) que muestran una cardinalidad extremadamente alta en &quot;Data Warehouse solamente&quot;. Las variables de alta cardinalidad tienen muchos valores distintos; por ejemplo, marcas de tiempo o UUID. Estas dimensiones ya no estarán disponibles para la creación de informes en Analysis Workspace.<p>Los candidatos a este cambio son dimensiones que exceden los límites de poco tráfico muy pronto en el mes. Con estos tipos de dimensiones, los informes de Analysis Workspace basados en esa dimensión no son útiles porque los datos notificables representan solo una pequeña fracción de los valores iniciales recopilados.<p>Dado que Data Warehouse no impone límites de poco tráfico, aún puede generar informes o segmentos útiles basados en estos tipos de dimensiones. | | Mayo de 2025 |
 
 
-## Correcciones en Adobe Analytics
+## Correcciones de Adobe Analytics
 
 **Activity Map**: AN-361038
 **Herramientas de administración**: AN-362178; AN-369483
@@ -62,4 +62,4 @@ Para obtener las últimas actualizaciones de las versiones de AppMeasurement (2.
 * [Notas de la versión anteriores de 2025](/help/release-notes/2025.md)
 * [Notas de la versión de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=es)
 * [Notas de la versión de la colección de medios de streaming](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=es)
-* Las últimas actualizaciones de la versión para los [productos de Adobe Experience Cloud](https://business.adobe.com/es/products/adobe-experience-cloud-products.html?lang=es)
+* Las últimas actualizaciones de la versión para los [productos de Adobe Experience Cloud](https://business.adobe.com/products/adobe-experience-cloud-products.html?lang=es)
