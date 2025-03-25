@@ -4,10 +4,10 @@ title: Resumen de informes en tiempo real
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 93%
+source-wordcount: '602'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,9 @@ Los informes en tiempo real muestran tráfico de páginas web y clasifican las v
 
 1. En Analysis Workspace, seleccione la pestaña [!UICONTROL **Espacio de trabajo**].
 
-1. Seleccione [!UICONTROL **Informes**] > [!UICONTROL **Participación**] > **[!UICONTROL Tiempo real]**.
+1. En la parte izquierda de la página, en **[!UICONTROL Plantillas]**, seleccione [!UICONTROL **Plantillas de Adobe**].
+
+1. Seleccione [!UICONTROL **Participación**] > **[!UICONTROL Tiempo real]**.
 
 ## Comprender los informes en tiempo real
 

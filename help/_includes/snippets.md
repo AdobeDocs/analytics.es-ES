@@ -1,7 +1,7 @@
 ---
-source-git-commit: ca1e86606454c2f906cef0cc1d1a9d1c67cedf0e
+source-git-commit: ec42c462ac98a49b89f0fae29b3b561a6afe7820
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2353'
 ht-degree: 36%
 
 ---
@@ -11,14 +11,14 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->El 16 de octubre de 2024 se publicó un [Report Builder](https://experienceleague.adobe.com/es/docs/analytics/analyze/report-builder/report-buider-overview) nuevo y optimizado. Es compatible con Mac, Windows y navegadores web.
->Esta versión del complemento Report Builder heredado sigue funcionando. Puede [convertir sus libros heredados](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) al nuevo Report Builder.
+>[Report Builder](https://experienceleague.adobe.com/es/docs/analytics/analyze/report-builder/report-buider-overview) nuevo y optimizado se publicó el 16 de octubre de 2024. Es compatible con Mac, Windows y navegadores web.
+>Esta versión de complemento heredado de Report Builder sigue funcionando. Puede [convertir sus libros heredados](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) al nuevo Report Builder.
 
 ## Anuncio del final de la vida útil de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
->A partir del **17 de enero de 2024**, el Adobe dejó de usar Reports &amp; Analytics y los informes y funciones que lo acompañaban. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejaron de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Para obtener información sobre el uso de informes en Analysis Workspace, consulte [Usar informes pregenerados](/help/analyze/analysis-workspace/reports/use-reports.md).
+>A partir del **17 de enero de 2024**, Adobe dejará de usar Reports &amp; Analytics y los informes y funciones que los acompañan. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejaron de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Para obtener más información, consulte [Usar plantillas](/help/analyze/analysis-workspace/templates/use-templates.md).
 > 
 >Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de Reports &amp; Analytics se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. Este aviso explica el proceso de finalización de la vida útil.
 >
@@ -139,7 +139,7 @@ Varias visualizaciones en Customer Recorrido Analytics están diseñadas para an
 
 Utilice la siguiente información para elegir la visualización que mejor se adapte a sus necesidades.
 
-| Función | Lienzo de recorrido | Visita en orden previsto | Flujo |
+| Función | Lienzo del recorrido  | Visita en orden previsto | Flujo |
 |---------|----------|---------|---------|
 | **Secuencia predefinida de páginas** | Sí</br>Combina análisis exploratorios y predefinidos. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando pasen de un nodo predefinido al otro). También se pueden mostrar los siguientes nodos inmediatos (no posibles). | Sí</br>La ruta puede ser una ruta final o puede restringirse al siguiente punto de contacto | No |
 | **Secuencia exploratoria de páginas (Ad Hoc Analysis)** | Sí</br>Combina análisis exploratorios y predefinidos. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando pasen de un nodo predefinido al otro). También se pueden mostrar los siguientes nodos inmediatos (no posibles). | Limitado</br>Permite hacer clic con el botón secundario y ver los abandonos inmediatos en una tabla de forma libre. | Sí</br>Sólo análisis exploratorio. Siempre dentro de una instancia de dimensión entre nodos. Esto significa que cada nodo muestra el siguiente punto de contacto inmediato (no eventual) a lo largo de la ruta. |

@@ -4,7 +4,7 @@ title: Uso de plantillas
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 32a7a3d696fe0d39e2d8e50370b9072b49ef3a21
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
 source-wordcount: '18666'
 ht-degree: 83%
@@ -37,11 +37,11 @@ En la siguiente información se describe cómo tener acceso a las plantillas de 
 
 1. En la sección [!UICONTROL **Plantillas**], seleccione cualquiera de las siguientes fichas:
 
-   * **[!UICONTROL plantillas de Adobe]**: muestra todas las plantillas proporcionadas por Adobe.
+   * **[!UICONTROL Plantillas de Adobe]**: Muestra todas las plantillas proporcionadas por Adobe.
 
    * **[!UICONTROL _login_company_name _templates]**: Muestra todas las plantillas de empresa que se han creado para su organización.
 
-     Los administradores son los únicos que pueden crear plantillas de empresa. Para obtener más información sobre cómo crear una plantilla de empresa, consulte [Crear y administrar plantillas](/help/analyze/analysis-workspace/reports/create-company-reports.md).
+     Los administradores son los únicos que pueden crear plantillas de empresa. Para obtener más información sobre cómo crear una plantilla de empresa, consulte [Crear y administrar plantillas](/help/analyze/analysis-workspace/templates/create-templates.md).
 
 1. Utilice cualquiera de las siguientes opciones para cambiar la forma en que ve las plantillas disponibles:
 
@@ -510,8 +510,8 @@ Las plantillas disponibles son las siguientes:
 | **[!UICONTROL Entradas y salidas]** > [!UICONTROL **Páginas de entrada originales**] | Ver las páginas principales a las que acceden las personas al visitar el sitio durante la vida útil de un visitante. <p>**Esto puede ayudarle** a comprender mejor qué páginas dirigen la mayor cantidad de tráfico al sitio o a comprender mejor las primeras impresiones que los visitantes tienen en el sitio.</p><p>**Según lo que aprenda, podría** hacer muchas cosas, como optimizar la experiencia inicial que obtienen los usuarios en el sitio o asegurarse de que las páginas que ven los usuarios por primera vez al entrar en el sitio sean acogedoras y proporcionen los vínculos necesarios a otras áreas del sitio.</p><p>Esta plantilla utiliza la métrica Sesiones. También utiliza la visualización de barras y de tabla de forma libre.</p> |
 | **[!UICONTROL Entradas y salidas]** > [!UICONTROL **Visitas de página única**] | Ver el número de visitas que consistían en una sola página única. <p>**Esto puede ayudarle** a comprender mejor los niveles de participación de los visitantes y cuánto tiempo pasan en el sitio.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como evaluar si los cambios en su sitio hacen que los visitantes pasen más tiempo en él.</p><p>Esta plantilla usa la [dimensión de visitas a una sola página](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/single-page-visits).</p> |
 | **[!UICONTROL Entradas y salidas]** > [!UICONTROL **Páginas de salida**] | Ver las páginas principales a las que los usuarios acceden inmediatamente antes de abandonar el sitio.<p>**Esto puede ayudarte** a comprender mejor qué páginas están alejando a la gente del sitio. </p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como actualizar las páginas de salida comunes para optimizar la experiencia que obtienen las personas antes de irse, o incluir contenido o vínculos para animar a las personas a que permanezcan en su sitio.</p><p>Esta plantilla utiliza la métrica Sesiones. También utiliza la visualización de barras y de tabla de forma libre.</p> |
-| [!UICONTROL **Adobe Experience Manager AEM**] > [!UICONTROL **Resumen del rendimiento del sitio**] > [!UICONTROL **Rendimiento del sitio**] | Ver los datos de rendimiento del sitio de Adobe Experience Manager.  <p>**Esto puede ayudarle** a comprender mejor la obtención de valor de Adobe Experience Manager.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar la configuración de Experience Manager.</p> |
-| [!UICONTROL **Adobe Experience Manager AEM**] > [!UICONTROL **Información general sobre el rendimiento de los formularios**] > [!UICONTROL **Rendimiento de los formularios**] de la | Ver los datos de rendimiento de Adobe Experience Manager Forms.  <p>**Esto puede ayudarle** a comprender mejor la obtención de valor de Adobe Experience Manager.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar la configuración de Experience Manager.</p> |
+| [!UICONTROL **Adobe Experience Manager**] > [!UICONTROL **Resumen del rendimiento del sitio**] > [!UICONTROL **Rendimiento del sitio AEM**] | Ver los datos de rendimiento del sitio de Adobe Experience Manager.  <p>**Esto puede ayudarle** a comprender mejor la obtención de valor de Adobe Experience Manager.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar la configuración de Experience Manager.</p> |
+| [!UICONTROL **Adobe Experience Manager**] > [!UICONTROL **Resumen del rendimiento del formulario**] > [!UICONTROL **Rendimiento del formulario de AEM**] | Ver los datos de rendimiento de Adobe Experience Manager Forms.  <p>**Esto puede ayudarle** a comprender mejor la obtención de valor de Adobe Experience Manager.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar la configuración de Experience Manager.</p> |
 | [!UICONTROL **Impacto de ITP**] | Ver y analizar los efectos de la prevención inteligente del seguimiento (ITP) en la recopilación de datos y la creación de informes. <p>**Esto puede ayudarle** a comprender mejor la posible pérdida de datos debido a las restricciones de cookies impuestas por ITP.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como adaptar la configuración del análisis para minimizar el impacto de ITP.</p> |
 
 ### Conversión {#web-conversion}
