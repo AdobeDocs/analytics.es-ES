@@ -4,20 +4,19 @@ description: Recopilación de notas de versiones de AppMeasurement para JavaScri
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: e403ed5ff1a1b6aa56d4f4112bbd7a7c072cc844
+source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 87%
+source-wordcount: '2730'
+ht-degree: 86%
 
 ---
 
 # Notas de la versión de AppMeasurement para JavaScript
 
-Recopilación de notas de versiones de AppMeasurement para JavaScript.
+>[!IMPORTANT]
+>
+>A partir de marzo de 2025, este artículo ya no se actualizará. Puede ver las notas de la versión y descargar la versión más reciente de AppMeasurement desde [GitHub](https://github.com/adobe/appmeasurement/releases).
 
-<!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
-
-Puedes descargar la última versión del AppMeasurement desde [GitHub](https://github.com/adobe/appmeasurement/releases).
 
 ## Versión 2.27.0
 
@@ -32,8 +31,8 @@ Fecha de versión: **martes, 12 de agosto de 2024**
 
 Fecha de versión: **martes, 04 de marzo de 2024**
 
-* El AppMeasurement reconoce y utiliza automáticamente el dominio raíz de los dominios de nivel superior de código de país, que anteriormente requerían configuraciones de dominio de cookies específicas. La actualización puede tener implicaciones debido a este reconocimiento automático. Consulte [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) para obtener más información.
-* La distribución incluye la Biblioteca del servicio de identidad 5.5.0 y la Data Integration Library 9.6.
+* AppMeasurement reconoce y utiliza automáticamente el dominio raíz de los dominios de nivel superior de código de país, que anteriormente requerían configuraciones de dominio de cookies específicas. La actualización puede tener implicaciones debido a este reconocimiento automático. Consulte [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) para obtener más información.
+* La distribución incluye Identity Service Library 5.5.0 y Data Integration Library 9.6.
 
 ## Versión 2.25.0
 
@@ -48,7 +47,7 @@ Fecha de versión: **miércoles, 18 de julio de 2023**
 
 * Se ha agregado la variable de configuración opcional [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) para descodificar las direcciones URL de los vínculos que incluyen caracteres codificados en bytes dobles.
 * Se ha añadido la administración de errores adicional para exploradores con API de sugerencias de cliente de agente de usuario de alta entropía defectuosas.
-* Se ha cambiado el encabezado Content-Type del POST para que utilice `x-www-form-urlencoded` de forma predeterminada.
+* Se ha cambiado el encabezado de tipo de contenido de POST para que utilice `x-www-form-urlencoded` de forma predeterminada.
 
 ## Versión 2.23.0
 
@@ -356,7 +355,7 @@ Fecha de versión: **5 de noviembre de 2015**
 Fecha de versión: **17 de septiembre de 2015**
 
 * Inclusión de la API de visitante 1.5.2
-* Se ha actualizado el módulo [!DNL Audience Manager] para que utilice el DIL de Adobe Audience Manager 6.2 y los ID getCustomer desde VisitorAPI.js y los pase en la llamada de evento de o a Adobe Audience Manager. (AN-104978)
+* Se ha actualizado el módulo [!DNL Audience Manager] para que utilice Adobe Audience Manager DIL 6.2 y los ID getCustomer desde VisitorAPI.js y los pase en la llamada de evento de o a Adobe Audience Manager. (AN-104978)
 
 ## Versión 1.5
 
@@ -371,7 +370,7 @@ Fecha de versión: **18 de junio de 2015**
 Fecha de versión: **21 de mayo de 2015**
 
 * A partir de iOS SDK versión 4.5, una nueva extensión de iOS le permite recopilar el uso de los datos de sus aplicaciones de Apple Watch, utilidades de Today, utilidades de edición fotográfica y todas las demás aplicaciones de extensión de iOS.
-* A partir de la versión 4.5 del SDK para Android, una nueva extensión de Android le permitirá recopilar datos de su aplicación Android Wearable.
+* A partir de la versión 4.5 de Android SDK, una nueva extensión de Android le permitirá recopilar datos de su aplicación Android Wearable.
 * Inclusión de la API de visitante 1.4.
 * Se ha actualizado el módulo AudienceManagement para que utilice DIL versión 6.0.
 
