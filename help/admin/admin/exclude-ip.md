@@ -4,30 +4,42 @@ description: Impida que los datos generados por ciertas direcciones IP aparezcan
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: d642bf8703d7c4c1545bfd9763c70ed8b1237eac
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 94%
+source-wordcount: '300'
+ht-degree: 62%
 
 ---
 
 # Excluir por dirección IP
 
-Se pueden excluir datos de las direcciones IP específicas, por ejemplo, las actividades de sitio web internas, las pruebas del sitio y el uso por parte de los empleados, de los informes. La exclusión de datos elimina los datos de las direcciones IP para conseguir mayor precisión en los informes. También es posible eliminar datos de ataques de negación de servicio u otros eventos dañinos que pueden distorsionar los datos de los informes. Puede configurar la exclusión o utilizar el cortafuegos.
+Se pueden excluir datos de las direcciones IP específicas, por ejemplo, las actividades de sitio web internas, las pruebas del sitio y el uso por parte de los empleados, de los informes. La exclusión de datos elimina los datos de las direcciones IP para conseguir mayor precisión en los informes. Además, se pueden eliminar datos de ataques de negación de servicio u otros eventos dañinos que puedan distorsionar los datos de los informes.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Toda la administración]** > **[!UICONTROL Excluir por dirección IP]**
+Para excluir datos por dirección IP, puedes configurar las exclusiones como se describe a continuación, o puedes [configurar tu firewall](/help/technotes/ip-addresses.md).
+
+## Configuración de exclusiones por dirección IP
 
 >[!NOTE]
 >
->Las visitas excluidas por dirección IP se facturan como [llamadas al servidor](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=es).
-
-Puede usar indicadores comodín (&#42;) para excluir un rango de direcciones. Por ejemplo, `[!DNL 0.0.*.0]` excluiría todas las direcciones IP entre `[!DNL 0.0.0.0]` y `[!DNL 0.0.255.0]`. Puede excluir hasta 50 direcciones IP diferentes.
-
->[!TIP]
+>Al configurar exclusiones por dirección IP, tenga en cuenta lo siguiente:
 >
->No es necesario excluir las direcciones IP privadas. Solo las direcciones IP externas llegan a los servidores de recopilación de datos de Adobe. Las direcciones privadas incluyen `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` y `169.254.*.*`.
+>* Las visitas excluidas por dirección IP se facturan como [llamadas al servidor](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=es).
+>* No es necesario excluir las direcciones IP privadas. Solo las direcciones IP externas llegan a los servidores de recopilación de datos de Adobe. Las direcciones privadas incluyen `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` y `169.254.*.*`.
+>* Puede usar indicadores comodín (&#42;) para excluir un rango de direcciones. Por ejemplo, `[!DNL 0.0.*.0]` excluiría todas las direcciones IP entre `[!DNL 0.0.0.0]` y `[!DNL 0.0.255.0]`. Puede excluir hasta 50 direcciones IP diferentes.
+* Los datos de una dirección IP excluida se excluyen para cualquier nueva visita que llegue al sistema en los 5 minutos siguientes a la exclusión establecida.
+* Los datos de las visitas capturadas antes del momento en que se realizaron cambios en la dirección IP no se ven afectados.
+>
 
-## Impacto de la confusión de IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
+Para configurar exclusiones por dirección IP:
+
+1. En Adobe Analytics, seleccione **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]**.
+
+1. En la página Administración, seleccione **[!UICONTROL Excluir por dirección IP]**.
+
+
+
+
+## Influencia de la confusión de IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
 Si la confusión de la IP está habilitada, la exclusión de la IP se produce antes de que la dirección IP se confunda, por lo que los clientes no necesitan cambiar nada cuando habilitan la confusión de la IP.
 

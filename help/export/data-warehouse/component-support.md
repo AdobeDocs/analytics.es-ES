@@ -3,10 +3,10 @@ title: Compatibilidad con componentes en Data Warehouse
 description: Descubra qué dimensiones y métricas adicionales están disponibles en Data Warehouse y qué otras no se admiten.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
+source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 60%
+source-wordcount: '570'
+ht-degree: 45%
 
 ---
 
@@ -20,15 +20,15 @@ Algunas dimensiones y métricas que se pueden usar en Data Warehouse no están d
 
 ### Dimensiones admitidas exclusivamente
 
-* **ID de Experience Cloud**: Para implementaciones que usan el servicio de ID de Experience Cloud (ECID), un número de 128 bits que consta de dos números concatenados de 64 bits seguidos de 19 dígitos.
+* **Experience Cloud ID**: Para implementaciones que usan el servicio Experience Cloud ID (ECID), un número de 128 bits que consta de dos números concatenados de 64 bits seguidos de 19 dígitos.
 * **Dirección URL de la página**: Dirección URL de la página en la que se produjo la visita.
 * **ID de compra**: Identificador único de una compra, establecido mediante la variable purchaseID.
 * **ID de visitante**: Proporciona el identificador único del visitante. Este valor es el mismo que el valor concatenado de las columnas `visid_high` y `visid_low` de las fuentes de datos. Consulte [Referencia de la columna de datos](../analytics-data-feed/c-df-contents/datafeeds-reference.md) en Fuentes de datos para obtener más información.
 
 ### Métricas admitidas de forma exclusiva
 
-* **Visitas**: Esta métrica en el contexto de la Data Warehouse excluye las visitas de cookies no persistentes.
-* **Visitas - Todos los visitantes**: Esta métrica en el contexto de la Data Warehouse se parece más a la métrica de visitas en otras herramientas de Adobe Analytics.
+* **Visitas**: Esta métrica en el contexto de Data Warehouse excluye las visitas de cookies no persistentes.
+* **Visitas - Todos los visitantes**: Esta métrica en el contexto de Data Warehouse se parece más a la métrica de visitas en otras herramientas de Adobe Analytics.
 
 ## Componentes no admitidos en Data Warehouse
 
@@ -69,9 +69,9 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
    * Métricas de “tiempo empleado”
 * Métricas de participación (como se describe en [Crear una métrica de &quot;participación&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
-### Dimension admitidos de una manera diferente
+### Dimensiones compatibles de una manera diferente (formato de fecha no estándar)
 
-Se admiten las siguientes dimensiones basadas en el tiempo. Sin embargo, la salida de las fechas no es estándar al utilizar dichas dimensiones. En concreto, el año se compensa con 1900 y los meses se basan en cero.
+Se admiten las siguientes dimensiones basadas en el tiempo:
 
 * Año
 * Trimestre
@@ -81,7 +81,37 @@ Se admiten las siguientes dimensiones basadas en el tiempo. Sin embargo, la sali
 * Hora
 * Minuto
 
-## Segmentos como dimensiones en la Data Warehouse
+Sin embargo, el resultado de las fechas no es estándar al utilizar estas dimensiones.
+
+Tenga en cuenta lo siguiente al calcular el resultado de las fechas en Data Warehouse:
+
+* Las dimensiones de fecha se muestran en el siguiente formato: `1YYMMDDHHMM`
+
+* El año (AA) está compensado por 1900. Esto significa que usted agrega `1900` a los primeros 3 valores del campo de fecha.
+
+  Por ejemplo, si el valor del campo Intervalo de fechas de la semana en Data Warehouse es `1250901`, debe agregar 1900 a 125, lo que resulta en el año 2025.
+
+* Todos los meses tienen una base cero, con enero representado por 00, febrero por 01, y así sucesivamente, de la siguiente manera:
+
+   * 00: enero
+   * 1 de febrero
+   * 02: marzo
+   * 3 de abril
+   * 04: mayo
+   * 05: junio
+   * 06: julio
+   * 07: agosto
+   * 08: septiembre
+   * 09: octubre
+   * 10 de noviembre
+   * 11 de diciembre
+
+  Por ejemplo, si el valor del campo Intervalo de fechas por semana en Data Warehouse es `1250901`, el mes se representa como 09, lo que indica octubre.
+
+
+
+
+## Segmentos como dimensiones en Data Warehouse
 
 Cuando se utiliza un segmento como dimensión en Data Warehouse, el informe devuelve una columna que contiene `"0"` o `"1"`:
 

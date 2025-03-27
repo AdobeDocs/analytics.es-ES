@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
+source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
 workflow-type: tm+mt
-source-wordcount: '6234'
-ht-degree: 99%
+source-wordcount: '6331'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,9 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Función | Descripción |
 | --- | --- |
+| **Marzo de 2025** |  |
+| Formato de fecha aclarado en las exportaciones de Data Warehouse | Los valores de dimensión basados en el tiempo en las exportaciones de Data Warehouse tienen un formato de fecha no estándar. Se ha añadido información que explica cómo interpretar los valores de fecha de las exportaciones de Data Warehouse. <p>Ver [Dimensiones admitidas de forma diferente (formato de fecha no estándar)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) en [Compatibilidad con componentes en Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
+| Se ha actualizado la información sobre exclusiones de IP | Se agregó información que explica que [las exclusiones de IP](/help/admin/admin/exclude-ip.md) pueden tardar hasta 5 minutos en surtir efecto y que los cambios se aplican solamente a las nuevas visitas (los datos capturados antes de que se establezca la exclusión no se ven afectados). <p>También se ha actualizado el diseño del contenido para mejorar la legibilidad.</p> |
 | **Febrero de 2025** |  |
 | Se ha actualizado la información sobre la pausa y reactivación de un feed de datos | Al [pausar y reactivar un feed de datos](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), se ha aclarado el comportamiento de los feeds activos. El procesamiento de datos no se produce desde el momento en que el feed se pone en pausa hasta el momento en que se reactiva. |
 | Período de retención del ID de transacción cambiado | El período de retención del ID de transacción de 90 días se ha ampliado a 25 meses. La variable transactionID identifica de forma exclusiva una transacción para que la visita se pueda enlazar a los datos cargados a través de las fuentes de datos. Más información [aquí](https://experienceleague.adobe.com/es/docs/analytics/implementation/vars/page-vars/transactionid?lang=es) y [aquí](https://experienceleague.adobe.com/es/docs/analytics/import/data-sources/transactionid?lang=es). |
