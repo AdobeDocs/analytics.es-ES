@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 81131600bdd3233f9a50af6d1c5c45ccf7f3d37a
+source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 82%
+source-wordcount: '279'
+ht-degree: 48%
 
 ---
 
@@ -25,6 +25,27 @@ ht-degree: 82%
 <!-- markdownlint-enable MD034 -->
 
 El inventario de Analytics proporciona una visión general del entorno de Adobe Analytics, incluido el número de proyectos y componentes, grupos de informes, usuarios, etc. Esta información es especialmente valiosa a medida que inicia los preparativos para actualizar a Customer Journey Analytics.
+
+El objetivo de esta aplicación es ayudarle a responder a las siguientes preguntas:
+
+* Para su organización, ¿qué recursos (como grupos de informes, segmentos, usuarios, proyectos de Workspace, fuentes de datos, etc.) necesita actualizar y qué recursos puede dejar?
+
+* Una vez que haya determinado qué recurso debe migrar:
+
+   * ¿Debe realizar alguna limpieza de recursos antes de esta actualización?
+
+   * ¿Debe llevar a cabo alguna consolidación de activos como parte del proceso?
+
+   * ¿Cuál debe ser la secuencia de actualización de los recursos?
+
+   * ¿Qué grupo de grupos de informes debe actualizar primero? último?
+
+## Acceder al inventario de Analytics
+
+El inventario de Analytics está disponible en el menú **[!UICONTROL Administrador]** y en el elemento de menú **[!UICONTROL Todos los administradores]**.
+
+¡    ![Menú Inventario de Analytics](assets/an-inventory-menu.png)
+
 
 ## Componentes {#components}
 
