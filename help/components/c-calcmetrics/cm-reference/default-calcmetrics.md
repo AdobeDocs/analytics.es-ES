@@ -1,12 +1,12 @@
 ---
-description: Adobe proporciona varias métricas calculadas que puede utilizar. Esta página enumera dichas métricas y los usos a los que están destinadas.
+description: Adobe proporciona varias métricas calculadas que puede utilizar. En esta página se enumeran dichas métricas y los usos previstos.
 title: Métricas calculadas predeterminadas
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
 source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -18,23 +18,23 @@ A continuación se muestra una lista de cada métrica calculada proporcionada po
 
 >[!NOTE]
 >
->Además de las métricas calculadas predeterminadas que se describen en esta página, también puede agregar métricas calculadas adicionales a un grupo de informes.
+>Además de las métricas calculadas predeterminadas que se describen en esta página, también puede añadir métricas calculadas adicionales a un grupo de informes.
 >
->Puedes realizar lo siguiente:
+>Puede realizar lo siguiente:
 >
-> * Agregue métricas calculadas predeterminadas para la recopilación de medios de streaming, tal como se describe en [Métricas calculadas](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
-> * Cree métricas calculadas personalizadas a partir de métricas existentes, tal como se describe en [Métricas calculadas y métricas calculadas avanzadas](/help/components/c-calcmetrics/cm-overview.md).
+> * Añadir métricas calculadas predeterminadas para la recopilación de medios de streaming, tal como se describe en [Métricas calculadas](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
+> * Crear métricas calculadas personalizadas a partir de métricas existentes, tal como se describe en [Métricas calculadas y métricas calculadas avanzadas](/help/components/c-calcmetrics/cm-overview.md).
 
 
 | Nombre de métrica calculada | Función | Fórmula |
 | --- | --- | --- |
-| Clics en vínculos de adquisición | Número de veces que las personas hacen clic en un vínculo diseñado para conducir el tráfico al sitio. | `[Campaign Click-throughs]` |
-| Acciones | Número total de acciones realizadas en la aplicación | `[Has an Action] (segment)`<br>`[Custom Link Instances] (metric)` |
-| Usuarios de aplicación | Número total de usuarios de una aplicación móvil | `[Mobile App Users] (segment)`<br>`[Unique Visitors] (metric)` |
-| Longitud promedio de la sesión (móvil) | Promedio de tiempo que los visitantes pasan en el sitio durante una sola sesión. | En blanco |
+| Clics en enlaces de adquisición | Número de veces que las personas hacen clic en un vínculo diseñado para conducir el tráfico al sitio. | `[Campaign Click-throughs]` |
+| Acciones | Número total de acciones que se llevan a cabo en la aplicación | `[Has an Action] (segment)`<br>`[Custom Link Instances] (metric)` |
+| Usuarios de la aplicación | Número total de usuarios de una aplicación móvil | `[Mobile App Users] (segment)`<br>`[Unique Visitors] (metric)` |
+| Longitud promedio de sesión (móvil) | Promedio de tiempo que los visitantes pasan en el sitio durante una sola sesión. | En blanco |
 | Promedio de tiempo en el sitio | Cantidad promedio de tiempo que un visitante pasa en el sitio antes de salir o navegar. | `[Average Time Spent on Site (Seconds)]` |
-| Tasa de devoluciones | La proporción de visitas que contenían exactamente una visita en comparación con el número de visitas en esa página. Esta métrica puede ayudarle a comprender qué elementos de dimensión tienen la tasa de salida hacia otro sitio más alta o a ver una tasa de salida hacia otro sitio total agregada a lo largo del tiempo. | `[Bounces] / [Entries]` |
-| Proporción de vistas de páginas de bots | La proporción de vistas de página de bots comparada con la cantidad total de vistas de página. | `[Bot Page Views] / [Page Views]` |
+| Tasa de salida hacia otro sitio | La proporción de visitas que contenían exactamente una visita en comparación con el número de visitas en esa página. Esta métrica puede ayudar a comprender qué elementos de dimensión tienen la tasa de salida hacia otro sitio más alta o para ver una tasa de salida hacia otro sitio total agregada a lo largo del tiempo. | `[Bounces] / [Entries]` |
+| Proporción de vistas de página de bots | La proporción de vistas de página de bots comparada con la cantidad total de vistas de página. | `[Bot Page Views] / [Page Views]` |
 | Velocidad del contenido | La velocidad a la que se crea y publica nuevo contenido en el sitio y la velocidad con la que genera la participación del usuario. | `[Page Views] / [Visits]` |
 | Tasa de conversión | Porcentaje de visitantes que realizaron una acción deseada, como una compra. | `[Orders] / [Visits]` |
 | Tasa de entrada | Porcentaje de visitantes que entraron al sitio en una página determinada, comparado con el número total de sesiones en el sitio. | `[Entries] / [Visits]` |
@@ -42,22 +42,22 @@ A continuación se muestra una lista de cada métrica calculada proporcionada po
 | Alcance del ID de Experience Cloud | Porcentaje de visitantes que tienen un ID de Experience Cloud. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | Tasa de salida | Porcentaje de visitantes que abandonan el sitio después de ver una página en particular. | `[Exits] / [Visits]` |
 | Visitantes únicos/Visitantes únicos de ITP 2.1 | El porcentaje de visitantes únicos que utilizan un explorador afectado por las limitaciones de cookies de ITP 2.1. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
-| Asistencia para pedidos | Número de veces que un canal o fuente contribuyó al recorrido de un cliente hacia la realización de una compra, pero no resultó en la compra final. | `[Orders (Visit Participation)] - [Orders]` |
+| Asistencias de pedidos | Número de veces que un canal o fuente contribuyó al recorrido de un cliente hacia la realización de una compra, pero no resultó en la compra final. | `[Orders (Visit Participation)] - [Orders]` |
 | Pedidos / Visitas | El porcentaje de visitas al sitio que genera una transacción completada. | `[Orders] / [Visits]` |
-| Pedidos / Visitante | Número promedio de pedidos o transacciones generados por cada visitante individual del sitio | `[Orders] / [Unique Visitors]` |
+| Pedidos / Visitante | El número promedio de pedidos o transacciones generados por cada visitante individual del sitio | `[Orders] / [Unique Visitors]` |
 | Vistas de página/Visitantes únicos estimados (ITP 2.1) | Número promedio de páginas vistas para Visitantes únicos estimados (ITP 2.1). | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors (metric) with Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
-| Vistas de página/Visitante único | Promedio de páginas vistas por cada visitante único del sitio. | `[Page Views] / [Unique Visitors]` |
-| Vistas de página/Visitas | Promedio de páginas que ve un usuario durante una sola visita al sitio. | `[Page Views] / [Visits]` |
+| Vistas de página / Visitante único | El promedio de páginas vistas por cada visitante único del sitio. | `[Page Views] / [Unique Visitors]` |
+| Vistas de página / Visitas | El promedio de páginas que ve un usuario durante una sola visita al sitio. | `[Page Views] / [Visits]` |
 | Velocidad de página | Número de vistas de página adicionales que genera un fragmento de contenido. Esta métrica puede ayudarle a determinar qué contenido genera participación adicional. | `[Page Views] / [Visits]` |
-| Recargas / Vistas de página | Porcentaje de vistas de página que resultaron en una recarga o actualización de la página. | `[Reloads] / [Page Views]` |
-| Ingresos / Pedido | Cantidad media de ingresos generados por cada transacción o pedido completado en el sitio. | `[Revenue] / [Orders]` |
+| Recargas / Vistas de página | El porcentaje de vistas de página que resultaron en una recarga o actualización de la página. | `[Reloads] / [Page Views]` |
+| Ingresos / Pedido | Cantidad promedio de ingresos generados por cada transacción o pedido completado en el sitio. | `[Revenue] / [Orders]` |
 | Ingresos / Visitas | Cantidad promedio de ingresos generados por una sola visita al sitio. | `[Revenue] / [Visits]` |
-| Ingresos/Visitante | Cantidad promedio de ingresos generados por cada visitante individual del sitio. | `[Revenue] / [Unique Visitors]` |
-| Vistas de estado | Número de vistas a los diferentes estados o pantallas de la aplicación | `[Mobile App Users] (segment)`<br>`[Page Views] (metric)` |
-| Tiempo empleado/usuario (estado) | Período de tiempo que el visitante promedio pasa en un estado determinado mientras está en el sitio | `[Mobile App Users] (segment)`<br>`[Time Spent per Visitor (Seconds)] (metric)` |
-| Visitantes únicos/Visitantes únicos que regresan después de 7 días | Porcentaje de visitantes únicos que regresan después de un período de 7 días o más. | `[Unique Visitors metric with Users returning after 7 days segment] / [Unique Visitors]` |
+| Ingresos / Visitante | Cantidad promedio de ingresos generados por cada visitante individual del sitio. | `[Revenue] / [Unique Visitors]` |
+| Vistas de estado | Número de visualizaciones de los distintos estados o pantallas de la aplicación | `[Mobile App Users] (segment)`<br>`[Page Views] (metric)` |
+| Tiempo empleado/usuario (estado) | Cantidad de tiempo que el visitante promedio pasa en un estado determinado mientras está en el sitio | `[Mobile App Users] (segment)`<br>`[Time Spent per Visitor (Seconds)] (metric)` |
+| Visitantes únicos / Visitantes únicos que regresan después de 7 días | Porcentaje de visitantes únicos que regresan después de un período de 7 días o más. | `[Unique Visitors metric with Users returning after 7 days segment] / [Unique Visitors]` |
 | Usuarios (móvil) | Número total de usuarios de una aplicación móvil | `[Mobile App Users] (segment)`<br>`[Unique Visitors] (metric)` |
-| Visitas/Visitante | Media de visitas que realiza un visitante único al sitio. | `[Visits] / [Unique Visitors]` |
+| Visitas / Visitante | El promedio de visitas que realiza un visitante único al sitio. | `[Visits] / [Unique Visitors]` |
 | Tasa de salida hacia otro sitio ponderada | Función | `IF([Visits] > PERCENTILE([Visits]), [Bounce Rate], 0)` |
 
 {style="table-layout:auto"}

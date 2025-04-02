@@ -1,17 +1,17 @@
 ---
-title: Panel de Attribution
+title: Panel Atribución
 description: Utilizar e interpretar el panel de atribución en Analysis Workspace.
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
-# Panel de Attribution {#attribution-panel}
+# Panel Atribución {#attribution-panel}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -23,7 +23,7 @@ ht-degree: 47%
 
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
->title="Panel de Attribution"
+>title="Panel Atribución"
 >abstract="Compare y visualice rápidamente los modelos de atribución utilizando cualquier dimensión y métrica de conversión.<br/><br/>**Parámetros **<br/>**Canal**<br/> Dimensión con la que se va a atribuir. Esta dimensión puede consistir en canales de marketing, campañas o cualquier otra dimensión.<br/>**Modelos**<br/> El modelo determina cómo se asigna crédito a puntos de contacto.<br/>**Ventana retroactiva**<br/> Este ajuste determina la ventana de atribución de datos que se aplica a cada conversión."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Panel de Attribution IQ"
 
@@ -31,7 +31,7 @@ ht-degree: 47%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Atribución en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Panel de atribución](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) para la_ versión de ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel Atribución en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Panel Atribución](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/panels/attribution) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -39,20 +39,20 @@ El panel **[!UICONTROL Atribución]** es una forma sencilla de generar un análi
 
 Adobe Analytics mejora la atribución al permitir lo siguiente:
 
-* Defina la atribución más allá de los medios de pago: Cualquier dimensión, métrica, canal o evento se puede aplicar a modelos (por ejemplo, búsqueda interna), no solo a campañas de marketing.
-* Utilice la comparación de modelos de atribución ilimitada: compare dinámicamente todos los modelos que desee.
-* Evitar cambios de implementación: con el procesamiento de tiempo de informes y las sesiones con reconocimiento de contexto, el contexto de recorrido del cliente se puede generar y aplicar en el tiempo de ejecución.
+* Definir la atribución más allá del contenido multimedia de pago: cualquier dimensión, métrica, canal o evento puede aplicarse a modelos (por ejemplo, búsqueda interna), no solo campañas de marketing.
+* Usar la comparación de modelos de atribución sin límites: compare dinámicamente todos los modelos que desee.
+* Evitar cambios de implementación: con el procesamiento de tiempo de informes y las sesiones con reconocimiento de contexto, el contexto del viaje del cliente puede generarse y aplicarse en el tiempo de ejecución.
 * Construir la sesión más adecuada para su escenario de atribución.
-* Desglose la atribución por segmentos: Compare fácilmente el rendimiento de sus canales de marketing en cualquier segmento importante (por ejemplo, clientes nuevos frente a repetidos, producto X frente a producto Y, nivel de fidelidad o CLV).
+* Desglosar la atribución por segmentos: compare fácilmente el rendimiento de sus canales de marketing en cualquier segmento importante (por ejemplo, clientes nuevos frente a repetidos, producto X frente a producto Y, nivel de fidelidad o CLV).
 * Inspeccionar análisis de canales cruzados y de múltiples contactos mediante Diagramas de Venn e Histogramas, y resultados de atribución de tendencias.
 * Analizar visualmente secuencias de marketing clave: explore las rutas que generaron una conversión visualmente con las visualizaciones de visitas en el orden previsto y flujo de varios nodos.
 * Generar métricas calculadas: Utilice todos los métodos de asignación de atribuciones que desee.
 
-## Utiliza
+## Usar
 
 Para usar un panel **[!UICONTROL Atribución]**:
 
-1. Cree un panel de **[!UICONTROL Atribución]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
+1. Cree un panel **[!UICONTROL Atribución]**. Para obtener información sobre cómo crear un panel, consulte [Crear un panel](panels.md#create-a-panel).
 
 1. Especifica la [entrada](#panel-input) para el panel.
 
@@ -62,7 +62,7 @@ Para usar un panel **[!UICONTROL Atribución]**:
 
 Puede configurar el panel Atribución con esta configuración de entrada:
 
-1. Agregue una **[!UICONTROL métrica de éxito]** y una dimensión del **[!UICONTROL canal]** al que desee atribuir. Algunos ejemplos son Canales de marketing o dimensiones personalizadas, como las promociones internas.
+1. Añade una **[!UICONTROL Métrica de éxito]** y una dimensión del **[!UICONTROL Canal]** al que desee atribuir. Algunos ejemplos son Canales de marketing o dimensiones personalizadas, como las promociones internas.
 
    ![Ventana del panel Atribución que muestra varias dimensiones y métricas seleccionadas.](assets/attribution-panel.png)
 
@@ -74,19 +74,19 @@ Puede configurar el panel Atribución con esta configuración de entrada:
 
 El panel **[!UICONTROL Atribución]** devuelve un conjunto completo de datos y visualizaciones que comparan la atribución para la dimensión y métrica seleccionadas.
 
-![Visualizaciones del panel Atribución que comparan métricas y dimensiones seleccionadas.](assets/attr_panel_vizs.png)
+![Visualizaciones del panel Atribución que comparan las métricas y dimensiones seleccionadas.](assets/attr_panel_vizs.png)
 
 ### Visualizaciones de atribución
 
 La siguiente visualización forma parte de la salida del panel.
 
-* **Métrica total**: El número total de conversiones que ocurrieron durante la ventana de tiempo de generación de informes y que se atribuyen a la dimensión seleccionada.
+* **Métrica total**: El número total de conversiones que ocurrieron durante la ventana de tiempo de creación de informes y que se atribuyen a la dimensión seleccionada.
 * **Barra comparativa de la atribución**: Compara visualmente las conversiones atribuidas en cada uno de los elementos de dimensión de la dimensión seleccionada. Cada color de barra representa un modelo de atribución distinto.
-* **Tabla comparativa de la atribución**: Muestra los mismos datos que el gráfico de barras, representados como una tabla. Al seleccionar distintas columnas o filas en esta tabla, se filtra el gráfico de barras, así como varias de las demás visualizaciones del panel. Esta tabla actúa de manera similar a cualquier otra tabla de forma libre en Workspace, lo que le permite agregar componentes como métricas, segmentos o desgloses.
-* **Diagrama de superposición**: una visualización de Venn que muestra los tres elementos de dimensión principales y la frecuencia con la que participan conjuntamente en una conversión. Por ejemplo, el tamaño de la superposición de burbujas indica con qué frecuencia ocurrieron las conversiones cuando una persona estuvo expuesta a ambos elementos de dimensión. Si se seleccionan otras filas en la Tabla de forma libre, se actualizará la visualización para reflejar su selección.
+* **Tabla comparativa de la atribución**: Muestra los mismos datos que el gráfico de barras, representados como una tabla. Al seleccionar distintas columnas o filas en esta tabla, se filtra el gráfico de barras, así como varias de las demás visualizaciones del panel. Esta tabla actúa de manera similar a cualquier otra tabla de forma libre en Workspace, lo que le permite añadir componentes como métricas, segmentos o desgloses.
+* **Diagrama de superposición**: Un diagrama de Venn que muestra los tres elementos de dimensión principales y la frecuencia con la que participan conjuntamente en una conversión. Por ejemplo, el tamaño de la superposición de burbujas indica con qué frecuencia ocurrieron las conversiones cuando una persona estuvo expuesto a ambos elementos de dimensión. Si se seleccionan otras filas en la Tabla de forma libre, se actualizará la visualización para reflejar su selección.
 * **Detalles de rendimiento**: una visualización de dispersión para comparar visualmente hasta tres modelos de atribución.
 * **Rendimiento de tendencias**: Muestra la tendencia de las conversiones atribuidas para el elemento de dimensión principal. Si se seleccionan otras filas en la Tabla de forma libre, se actualizará la visualización para reflejar su selección.
-* **Flujo**: Permite ver en qué canales hay interacción con más frecuencia y en qué orden a través del recorrido de una persona.
+* **Flujo**: Permite ver en qué canales hay interacción con más frecuencia y en qué orden a lo largo del recorrido de una persona.
 
 ## Modelos de atribución
 

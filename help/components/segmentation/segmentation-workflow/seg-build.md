@@ -4,9 +4,9 @@ title: ' Generación de segmentos'
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2063'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
->title="Repetido"
+>title="Repetida"
 >abstract="Incluye instancias y valores persistentes para la dimensión."
 
 <!-- markdownlint-enable MD034 -->
@@ -66,7 +66,7 @@ Existen varias formas de acceder al Generador de segmentos:
 
 * **Navegación superior de Analytics**: Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]**.
 * **[!UICONTROL Analysis Workspace]**: Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, abra un proyecto y haga clic en **[!UICONTROL + Nuevo]** > **[!UICONTROL Crear segmento]**.
-* **[!UICONTROL Report Builder]**: [Añadir o editar segmentos en Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [añadir o editar segmentos en Report Builder](https://experienceleague.adobe.com/es/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Criterios del Creador {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -78,7 +78,7 @@ Puede agregar definiciones y contenedores de reglas para definir los segmentos.
 1. **[!UICONTROL Descripción]**: Proporcione una descripción para el segmento.
 1. **[!UICONTROL Etiquetas]**: [Etiquete el segmento](/help/components/segmentation/segmentation-workflow/seg-workflow.md) que va a generar seleccionando las etiquetas existentes en una lista o creando una etiqueta nueva.
 1. **[!UICONTROL Definiciones]**: Esta es la zona de trabajo donde [se generan y configuran segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md), se agregan reglas y se anidan y secuencian contenedores.
-1. **[!UICONTROL Mostrar]**: (Selector de contenedor superior). Le permite seleccionar el [contenedor](/help/components/segmentation/seg-overview.md) de nivel superior ([!UICONTROL Visitante], [!UICONTROL Visita], [!UICONTROL Visita]). El contenedor de nivel superior predeterminado es el contenedor de visita individual.
+1. **[!UICONTROL Mostrar]**: (Selector de contenedor superior). Le permite seleccionar el [contenedor](/help/components/segmentation/seg-overview.md) de nivel superior ([!UICONTROL Visitante], [!UICONTROL Visita], [!UICONTROL Visita individual]). El contenedor de nivel superior predeterminado es el contenedor de visita individual.
 1. Icono de **[!UICONTROL opciones]** (engranaje)
 
    * **[!UICONTROL + Agregar contenedor]**: le permite agregar un contenedor nuevo (bajo el contenedor de nivel superior) a la definición del segmento.
@@ -99,7 +99,7 @@ Puede agregar definiciones y contenedores de reglas para definir los segmentos.
 
    | Ejemplo | A | A | A (persistió) | B | A | C |
    |---|---|---|---|---|---|---|
-   | Repetido | X | X | X | - | X | - |
+   | Repetida | X | X | X | - | X | - |
    | Instancia | X | X | - | - | X | - |
    | Instancia no repetida | X | - | - | - | X | - |
 
@@ -116,7 +116,7 @@ Puede agregar definiciones y contenedores de reglas para definir los segmentos.
 1. **[!UICONTROL Segmentos]**: Haga clic en el encabezado para ampliarlo.
 1. **[!UICONTROL Selector de grupo de informes]**: Le permite seleccionar el grupo de informes en el que se guardará este segmento. Puede seguir utilizando el segmento en todos los grupos de informes.
 1. **[!UICONTROL Previsualización de segmento]**: Le permite previsualizar las métricas clave para comprobar si tiene un segmento válido y ver su amplitud. Representa el desglose del conjunto de datos que verá si aplica este segmento. Muestra tres círculos concéntricos y una lista para indicar el número y el porcentaje de coincidencias de [!UICONTROL visitas individuales], [!UICONTROL visitas] y [!UICONTROL visitantes] de un segmento comparado con un conjunto de datos. Esta tabla se actualiza inmediatamente después de crear o cambiar la definición del segmento.
-1. **[!UICONTROL Compatibilidad del producto]**: Proporciona una lista de los productos de Adobe Analytics (Analysis Workspace, Data Warehouse) con los que es compatible el segmento que ha creado. La mayoría de los segmentos son compatibles con todos los productos. Sin embargo, no todos los operadores y dimensiones son compatibles con todos los productos de Analytics, especialmente con [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). Esta tabla se actualiza inmediatamente después de cambiar la definición del segmento.
+1. **[!UICONTROL Compatibilidad de producto]**: proporciona una lista de los productos de Adobe Analytics (Analysis Workspace, Data Warehouse) con los que es compatible el segmento que ha creado. La mayoría de los segmentos son compatibles con todos los productos. Sin embargo, no todos los operadores y dimensiones son compatibles con todos los productos Analytics, especialmente con el [Almacén de datos](/help/components/segmentation/seg-reference/seg-compatibility.md). Esta tabla se actualiza inmediatamente después de cambiar la definición del segmento.
 1. **[!UICONTROL Guardar]** o **[!UICONTROL Cancelar]**: Guarda o cancela el segmento. Después de hacer clic en **[!UICONTROL Guardar]**, se le redirigirá al Administrador de segmentos, donde podrá administrar el segmento en cuestión.
 
 
@@ -132,7 +132,7 @@ Puede agregar definiciones y contenedores de reglas para definir los segmentos.
 1. Introduzca o seleccione un valor para el elemento seleccionado.
 1. Agregue contenedores adicionales si es necesario, utilizando las reglas **[!UICONTROL AND]**, **[!UICONTROL OR]** o **[!UICONTROL THEN]**.
 1. Después de colocar los contenedores y configurar las reglas, consulte los resultados del segmento en la tabla de validación, en la parte superior derecha. El validador indica el porcentaje y el número absoluto de vistas de la página, visitas y visitantes únicos que coinciden con el segmento que ha creado.
-1. En **[!UICONTROL Etiquetas]**, [etiqueta](/help/components/segmentation/segmentation-workflow/seg-tag.md) el contenedor seleccionando una etiqueta existente o creando una nueva.
+1. En **[!UICONTROL Etiquetas]**, [etiquete](/help/components/segmentation/segmentation-workflow/seg-tag.md) el contenedor seleccionando una etiqueta existente o creando una nueva.
 1. Haga clic en **[!UICONTROL Guardar]** para guardar el segmento.
 
 Ahora se le redirige al [Administrador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md), donde puede etiquetar, compartir y administrar el segmento de varias formas.
@@ -170,7 +170,7 @@ Usted crea un contenedor de visita y, dentro del mismo, agrega el intervalo temp
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de fechas móviles en segmentos](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de fechas móviles en segmentos](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -273,7 +273,7 @@ Las plantillas se identifican con el logotipo “A” de Adobe. A continuación 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas desde un dispositivo no móvil </td> 
-   <td colname="col2">Ver datos de visitantes que no utilizan dispositivos móviles. En la definición de segmento, el contenedor es Visita. Este segmento utiliza la lógica Excluir. La regla es: <p>El tipo de dispositivo móvil es igual a teléfono móvil </p> <p>o </p> <p>El tipo de dispositivo móvil es igual a tableta. </p> </td> 
+   <td colname="col2">Ver datos de visitantes que no utilizan dispositivos móviles. En la definición de segmento, el contenedor es Visita. Este segmento utiliza la lógica Excluir. La regla es: <p>El tipo de dispositivo móvil es igual a teléfono móvil </p> <p>O </p> <p>El tipo de dispositivo móvil es igual a tableta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas desde teléfonos </td> 

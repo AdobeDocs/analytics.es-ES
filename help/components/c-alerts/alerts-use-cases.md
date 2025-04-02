@@ -1,16 +1,16 @@
 ---
 description: Casos de uso para crear y administrar alertas.
-title: 'Alertas: Casos de uso'
+title: 'Alertas: casos de uso'
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '66'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
-# Alertas: Casos de uso
+# Alertas: casos de uso
 
 Puede crear alertas tal como se describe en [Crear alertas](/help/components/c-alerts/alert-builder.md).
 

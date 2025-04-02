@@ -5,13 +5,13 @@ feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Panel Información rápida {#quick-insights-panel}
+# Panel de información rápida {#quick-insights-panel}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Quick Insights en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Panel de información rápida](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)) para la_ versión de CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._![
+_Este artículo documenta el panel Información rápida en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Panel de información rápida](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ La primera vez que empieces a usar este [!UICONTROL Analysis Workspace], es posi
 * dónde crear un filtro,
 * y más
 
-Para ayudarte con estas preguntas,[!UICONTROL Quick Insights] aprovecha un algoritmo que te presenta las dimensiones, métricas, segmentos e intervalos de fechas más populares que usa tu compañía. Este algoritmo se basa en el uso que hace tu propia compañía de los componentes de datos en [!UICONTROL Analysis Workspace]. De hecho, verá dimensiones, métricas y segmentos etiquetados con [!UICONTROL POPULAR] en la lista desplegable, como se muestra a continuación:
+Para ayudarlo con estas preguntas,[!UICONTROL Información rápida] aprovecha un algoritmo que le presenta las dimensiones, métricas, segmentos e intervalos de fechas más populares que usa su compañía. Este algoritmo se basa en el uso que hace su propia compañía de los componentes de datos en [!UICONTROL Analysis Workspace]. De hecho, verá dimensiones, métricas y filtros etiquetados como [!UICONTROL POPULAR] en la lista desplegable, como se muestra a continuación:
 
 ![Panel de información rápida.](assets/popular-tag.png)
 
@@ -62,9 +62,9 @@ A continuación se incluyen algunos de los términos básicos que debes conocer.
 | **[!UICONTROL Métrica]** | Las métricas constituyen información cuantitativa sobre la actividad de la persona, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc. |
 | **[!UICONTROL Visualización]** | Workspace ofrece [varias visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para generar representaciones visuales de tus datos. Como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. |
 | **[!UICONTROL Desglose de dimensiones]** | Un desglose de dimensión es una forma de desglosar literalmente una dimensión por otras dimensiones. Por ejemplo, puedes desglosar los estados de EE. UU. por dispositivos móviles para obtener las visitas de los dispositivos móviles por estado. O puedes desglosar Dispositivos móviles por Tipos de dispositivos móviles, por Regiones, por Campañas internas y más. |
-| **[!UICONTROL Segmentos]** | Los segmentos le permiten identificar subconjuntos de personas en función de sus características o de las interacciones con el sitio web. Por ejemplo, puede generar [!UICONTROL Visitante] segmentos basados en <li>atributos: tipo de explorador, dispositivo, número de visitas, país, sexo o</li><li>interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o</li><li>salidas y entradas: visitantes de Facebook, una página de aterrizaje definida, un dominio de referencia o</li><li> variables personalizadas: campo de formulario, categorías definidas o ID de cliente. |
+| **[!UICONTROL Segmentos]** | Los segmentos permiten identificar subconjuntos de personas basándose en sus características o en las interacciones con el sitio web. Por ejemplo, puede generar segmentos de [!UICONTROL Visitantes] basados en <li>atributos: tipo de explorador, dispositivo, número de visitas, país, sexo o</li><li>interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o</li><li>salidas y entradas: visitantes de Facebook, una página de aterrizaje definida, un dominio de referencia o</li><li> variables personalizadas: campo de formulario, categorías definidas o ID de cliente. |
 
-## Utiliza
+## Usar
 
 Para usar un panel de **[!UICONTROL Información rápida]**:
 
@@ -121,7 +121,7 @@ En [!UICONTROL Quick Insights Builder], aparecerán otras sugerencias útiles, a
 
   ![La notificación del panel Quick Insights se muestra después de hacer clic en el icono Ayuda.](assets/qibuilder4.png)
 
-* Puede analizar varias dimensiones y métricas, combinar o comparar segmentos, y especificar un intervalo de fechas:
+* Puede analizar varias dimensiones y métricas, combinar o comparar segmentos y especificar un intervalo de fechas:
 
   ![Generador de perspectivas rápidas](assets/qibuilder-result.png)
 
@@ -129,7 +129,7 @@ En [!UICONTROL Quick Insights Builder], aparecerán otras sugerencias útiles, a
 
    * Agregar más métricas **[!UICONTROL por]**: puedes agregar hasta dos métricas más. Consulta ➍ y ➎.
 
-   * **[!UICONTROL filtrar por]**: Puede agregar hasta dos segmentos más. Por ejemplo, agregue Reservas como un segmento y combínelo con los segmentos de Reservas frecuentes y Ofertas por primera vez que compare. Consulta ➏, ➐ y ➑.
+   * **[!UICONTROL filtrar por]**: puede añadir hasta 2 segmentos más. Por ejemplo, añada Reservas como segmento y combine ese segmento con los segmentos de Viajeros frecuentes y Viajeros por primera vez que compare. Consulta ➏, ➐ y ➑.
 
    * activado: puede especificar el rango de fechas. Consulta ➒.
 

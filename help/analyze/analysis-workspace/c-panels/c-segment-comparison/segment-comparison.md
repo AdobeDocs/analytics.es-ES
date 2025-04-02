@@ -6,9 +6,9 @@ feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
@@ -48,11 +48,11 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparació
 
 
 
-## Utiliza
+## Usar
 
 Para usar un panel **[!UICONTROL Atribución]**:
 
-1. Cree un panel de **[!UICONTROL Atribución]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](../panels.md#create-a-panel).
+1. Cree un panel **[!UICONTROL Atribución]**. Para obtener información sobre cómo crear un panel, consulte [Crear un panel](../panels.md#create-a-panel).
 
 1. Especifica la [entrada](#panel-input) para el panel.
 
@@ -62,38 +62,38 @@ Para usar un panel **[!UICONTROL Atribución]**:
 
 ### Entrada de panel
 
-Puede configurar el panel [!UICONTROL Comparación de segmentos] con esta configuración de entrada:
+Puede configurar el panel [!UICONTROL Comparación de segmentos] utilizando estos ajustes de entrada:
 
 ![Panel de entrada de comparación de segmentos](assets/segment-comparison-input.png)
 
 | Entrada | Descripción |
 | --- | --- |
-| **[!UICONTROL Agregar un segmento]** | Seleccione la dimensión con la que desee comparar. |
+| **[!UICONTROL Añadir un segmento]** | Seleccione la dimensión con la que desee comparar. |
 | **[!UICONTROL Comparar con]** | Seleccione la dimensión que desee utilizar para comparar el segmento seleccionado inicialmente. Si no selecciona un segmento específico, se usará el segmento predeterminado **[!UICONTROL Todos los demás]**. |
-| **[!UICONTROL Mostrar u ocultar configuración avanzada]** | Seleccione **[!UICONTROL Mostrar configuración avanzada]** para configurar **[!UICONTROL Componentes excluidos]**, seleccione **[!UICONTROL Ocultar configuración avanzada]** para ocultar **[!UICONTROL Componentes excluidos]**. |
-| **[!UICONTROL Componentes excluidos]** | Componentes que puede especificar, como **[!UICONTROL Dimension]**, **[!UICONTROL Métricas]** o **[!UICONTROL Segmentos]** para la exclusión.<br><ul><li>Arrastre y suelte una o más dimensiones, métricas o segmentos de los contenedores en el contenedor de **[!UICONTROL componentes excluidos]**.</li><li>Para quitar un componente, seleccione el tipo (**[!UICONTROL Dimension]** **[!UICONTROL Métricas]** o **[!UICONTROL Segmentos]**) y seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar un componente. Para quitar todos los componentes, seleccione **[!UICONTROL Borrar todo]**.</li><li>Para establecer la selección actual de dimensiones, métricas y segmentos como predeterminada, seleccione **[!UICONTROL Establecer como predeterminado]**.</li></ul> |
+| **[!UICONTROL Mostrar u ocultar ajustes avanzados]** | Seleccione **[!UICONTROL Mostrar ajustes avanzados]** para configurar **[!UICONTROL Componentes excluidos]**, seleccione **[!UICONTROL Ocultar ajustes avanzados]** para ocultar **[!UICONTROL Componentes excluidos]**. |
+| **[!UICONTROL Componentes excluidos]** | Componentes que puede especificar, como **[!UICONTROL Dimensiones]**, **[!UICONTROL Métricas]** o **[!UICONTROL Segmentos]** para la exclusión.<br><ul><li>Arrastre y suelte una o más dimensiones, métricas o segmentos de los contenedores en el contenedor de **[!UICONTROL Componentes excluidos]**.</li><li>Para quitar un componente, seleccione el tipo (**[!UICONTROL Dimensión]** **[!UICONTROL Métricas]** o **[!UICONTROL Segmentos]**) y seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitarlo. Para quitar todos los componentes, seleccione **[!UICONTROL Borrar todo]**.</li><li>Para establecer la selección actual de dimensiones, métricas y segmentos como predeterminada, seleccione **[!UICONTROL Establecer como predeterminado]**.</li></ul> |
 
 Seleccione **[!UICONTROL Generar]** para generar el panel.
 
 ### Salida de panel
 
-Una vez que Adobe Analytics termina de analizar los dos segmentos deseados, el panel Salida muestra los resultados a través de varias visualizaciones:
+Una vez que Adobe termina de analizar los dos segmentos deseados, el panel de resultado muestra los resultados a través de varias visualizaciones:
 
-![Comparación de segmentos de salida de panel](assets/segment-comparison-output.png)
+![Comparación de segmentos de resultado del panel](assets/segment-comparison-output.png)
 
 | Visualización | Descripción |
 |---|---|
-| **[!UICONTROL Tamaño y superposición]** | Ilustra con una visualización [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) los tamaños comparativos de cada segmento seleccionado y cuánto se superponen entre sí. |
+| **[!UICONTROL Tamaño y superposición]** | Ilustra con una visualización [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) los tamaños comparativos de cada segmento seleccionado y cuánto se solapan entre sí. |
 | **[!UICONTROL Visitantes únicos para el primer segmento]** | Una visualización [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que muestra los visitantes únicos del primer segmento (en el ejemplo Visitas a una sola página) |
 | **[!UICONTROL Visitantes únicos para el segundo segmento]** | Una visualización [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) que muestra los visitantes únicos del segundo segmento (en el ejemplo Visitas por primera vez) |
-| **[!UICONTROL Métricas principales con segmentos]** | Una [tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra las principales métricas de los segmentos seleccionados. |
-| **[!UICONTROL Métrica en el tiempo por segmento]** | Una visualización de [Línea](/help/analyze/analysis-workspace/visualizations/line.md) que muestra las métricas a lo largo del tiempo de los segmentos seleccionados. |
-| **[!UICONTROL Elementos de dimensión principales con segmentos]** | Una [tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra los elementos de dimensión mixtos de los segmentos seleccionados. |
-| **[!UICONTROL elementos de Dimension por segmentos]** | Una visualización de [barras horizontales](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) que muestra los elementos de dimensión por segmento. |
-| **[!UICONTROL Segmentos principales con respecto a los segmentos]** | [Tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra los segmentos principales con respecto a los segmentos. |
+| **[!UICONTROL Métricas principales con respecto a Segmentos]** | Una [tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra las principales métricas de los segmentos seleccionados. |
+| **[!UICONTROL Métrica a lo largo del tiempo por segmento]** | Una visualización de [Línea](/help/analyze/analysis-workspace/visualizations/line.md) que muestra las métricas a lo largo del tiempo de los segmentos seleccionados. |
+| **[!UICONTROL Elementos de dimensión principales con respecto a Segmentos]** | Una [tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra los elementos de dimensión mixtos de los segmentos seleccionados. |
+| **[!UICONTROL Elementos de dimensión por segmentos]** | Una visualización de [barras horizontales](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) que muestra los elementos de dimensión por segmento. |
+| **[!UICONTROL Segmentos principales con respecto a Segmentos]** | Una [Tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) que muestra los segmentos principales con respecto a los Segmentos. |
 | **[!UICONTROL Superposición de segmentos]** | Una visualización [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) que muestra la superposición de segmentos. |
 
-Use ![Editar](/help/assets/icons/Edit.svg) para reconfigurar y reconstruir el panel.
+Use ![Editar](/help/assets/icons/Edit.svg) para reconfigurar y regenerar el panel.
 
 
 <!--

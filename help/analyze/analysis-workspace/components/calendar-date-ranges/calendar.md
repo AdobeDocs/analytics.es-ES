@@ -5,9 +5,9 @@ feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar 
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendario e intervalos de fechas información general](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de calendario e intervalos de fechas](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ También puede arrastrar fechas (y dimensiones temporales) a un proyecto de Work
 | Configuración | Descripción |
 |--- |--- |
 | Días seleccionados | Días/semanas/meses/años seleccionados. |
-| Hacer que los componentes del intervalo de fecha sean relativos al calendario del panel | Si está desactivado, cualquier componente de intervalo de fechas utilizado en una tabla, una visualización o en la zona de colocación del panel anula el calendario del panel. <p>Si está habilitado, cualquier componente de intervalo de fechas utilizado en una tabla, visualización o zona de colocación del panel estará en relación con el intervalo de fechas del panel. Por ejemplo, si el intervalo de fechas del panel está establecido entre el 1 y el 30 de noviembre y se utiliza un componente Intervalo de fechas de la última semana en una tabla de forma libre, la información de la tabla de forma libre se refiere a la última semana de octubre. |
+| Hacer que los componentes del intervalo de fecha sean relativos al calendario del panel | Si está deshabilitado, cualquier componente de intervalo de fechas utilizado dentro de una tabla, visualización o zona de colocación de paneles anula el calendario del panel. <p>Si está habilitado, cualquier componente de intervalo de fechas utilizado en una tabla, visualización o zona de colocación del panel estará en relación con el intervalo de fechas del panel. Por ejemplo, si el intervalo de fechas del panel está establecido entre el 1 y el 30 de noviembre y se utiliza un componente Intervalo de fechas de la última semana en una tabla de forma libre, la información de la tabla de forma libre se refiere a la última semana de octubre. |
 | Usar fechas móviles | Las fechas móviles le permiten generar un informe dinámico que observa un periodo de tiempo anterior o posterior basándose en el momento en el que ejecuta el informe. Por ejemplo, si desea un informe sobre todos los pedidos realizados el “último mes” (basándose en el campo Fecha de creación) y se ejecuta dicho informe en diciembre, verá los pedidos realizados en noviembre. Si ejecutara ese mismo informe en enero, vería los pedidos realizados en diciembre.<ul><li>**[!UICONTROL Vista previa de fecha]**: indica qué periodo de tiempo incluye el calendario móvil.</li><li>**[!UICONTROL Inicio]**: puede elegir entre el día, la semana, el mes, el trimestre o el año actuales.</li><li>**[!UICONTROL Fin]**: puede elegir entre el día, la semana, el mes, el trimestre o el año actuales.</li></ul>Para ver un ejemplo, consulte [Intervalos de fechas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Seleccionado de forma predeterminada. |
 | Intervalo de fechas | Le permite seleccionar un rango de fechas preestablecido. La opción predeterminada es los últimos 30 días. **[!UICONTROL Esta semana, mes, trimestre o año (excluido hoy)]** le permite elegir entre intervalos de fechas que no incluyen datos de día parcial de hoy. |
 | Aplicar a todos los paneles | No solo le permite cambiar el intervalo de fechas seleccionado para el panel actual, sino también para todos los demás paneles dentro del proyecto. |

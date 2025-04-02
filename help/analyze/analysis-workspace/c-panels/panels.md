@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2157'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Un [!UICONTROL panel] es una colección de tablas y visualizaciones. Puede acced
 
 ## Tipos de panel
 
-Los siguientes tipos de panel están disponibles en Analysis Workspace para [!UICONTROL Adobe Analytics]:
+Los siguientes tipos de paneles están disponibles en Analysis Workspace para [!UICONTROL Adobe Analytics]:
 
 | Nombre del panel | Descripción |
 | --- | --- |
@@ -48,7 +48,7 @@ Para crear un panel:
 
   ![Crear un panel](assets/create-panel.png)
 
-Puedes realizar lo siguiente:
+Puede realizar lo siguiente:
 
 * Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) **en** cualquier panel para agregar otra visualización. Aparece una ventana emergente que te permite seleccionar una visualización.
 
@@ -78,11 +78,11 @@ Puedes realizar lo siguiente:
 
 ## Grupo de informes
 
-Cada panel está asociado con un [grupo de informes](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificado por ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL *nombre del grupo de informes *]**en el menú desplegable de la parte superior derecha del panel.
+Cada panel está asociado a un [grupo de informes](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificado por ![Datos](/help/assets/icons/Data.svg), **[!UICONTROL *nombre del grupo de informes *]**en el menú desplegable situado en la parte superior derecha del panel.
 
-Al crear un panel nuevo, el grupo de informes predeterminado se basa en el grupo de informes del panel en el que trabajó por última vez en el proyecto de Analysis Workspace.
+Al crear un panel nuevo, el grupo de informes predeterminado se basa en el grupo de informes del último panel en el que trabajó en el proyecto Analysis Workspace.
 
-Dentro de un proyecto, puede usar uno o [muchos grupos de informes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=es) según los casos de uso del análisis.
+Dentro de un proyecto, puede utilizar uno o [múltiples grupos de informes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=es) en función de los casos de uso de sus análisis.
 
 La lista de los grupos de informes se ordena según la relevancia que Adobe define en función de la frecuencia y la antigüedad de utilización del grupo por parte del usuario, así como de la frecuencia con que se usa en la organización.
 
@@ -90,12 +90,12 @@ La lista de los grupos de informes se ordena según la relevancia que Adobe defi
 
 >[!IMPORTANT]
 >
->El grupo de informes seleccionado determina qué dimensiones, métricas y segmentos están disponibles para crear visualizaciones en un panel.
+>El grupo de informes seleccionado determina qué dimensiones, métricas y segmentos están disponibles para construir visualizaciones en un panel.
 >
 >
->Al cambiar un grupo de informes por un panel, es posible que algunos de los componentes no estén disponibles en ese nuevo grupo de informes. Este cambio puede provocar que la visualización no se represente correctamente. Puedes ver advertencias como las siguientes:
+>Cuando cambie el grupo de informes de un panel, es posible que algunos de los componentes no estén disponibles en el nuevo grupo de informes. Este cambio puede provocar que la visualización no se represente correctamente. Puedes ver advertencias como las siguientes:
 >
->* Este panel contiene componentes que no están habilitados en el grupo de informes seleccionado. Cambie el grupo de informes o active los componentes necesarios.
+>* Este panel contiene componentes que no están habilitados en el grupo de informes seleccionado. Cambie el grupo de informes o habilite los componentes necesarios en el grupo de informes.
 >* No se puede procesar la visualización: comprueba las columnas y filas para asegurarte de que contienen componentes válidos.
 >
 
@@ -105,7 +105,7 @@ El calendario del panel controla el intervalo de la creación de informes de las
 
 >[!NOTE]
 >
->Si se usa un componente de intervalo de fechas ![Calendario](/help/assets/icons/Calendar.svg) en una visualización o panel (por ejemplo, como segmento), el componente de intervalo de fechas anula el calendario del panel.
+>Si se utiliza un componente de intervalo de fechas ![Calendario](/help/assets/icons/Calendar.svg) dentro de una visualización o panel (por ejemplo, como segmento), el componente de intervalo de fechas anula el calendario del panel.
 >
 
 
@@ -139,83 +139,83 @@ Selecciona **[!UICONTROL Aplicar a todos los paneles]** para aplicar el interval
 
 ## Zona de colocación {#dropzone}
 
-La zona de colocación del panel permite aplicar segmentos y segmentos desplegables a todas las tablas y visualizaciones dentro de un panel. Puede aplicar uno o varios segmentos a un panel.
+La zona de colocación del panel permite aplicar segmentos y segmentos desplegables a todas las tablas y visualizaciones de un panel. Puede aplicar uno o varios segmentos a un panel.
 
 ### Segmentos 
 
-Arrastre y suelte cualquier segmento del panel izquierdo en la zona desplegable del panel para empezar a segmentar el panel. Repita este proceso para agregar segmentos adicionales al panel. Los segmentos aparecen uno al lado del otro en la parte superior del panel.
+Arrastre y suelte cualquier segmento del panel izquierdo en la zona de colocación del panel para empezar a segmentar el panel. Repita este proceso para añadir segmentos adicionales al panel. Los segmentos aparecen uno al lado del otro en la parte superior del panel.
 
 ![El panel izquierdo muestra las métricas disponibles y la métrica Cliente móvil arrastrada a la zona de colocación del panel.](assets/segment-filter.png)
 
 #### Segmentos rápidos
 
-Los componentes que no son segmentos también se pueden arrastrar directamente a la zona de colocación para crear segmentos rápidos, lo que le ahorrará el tiempo y el tener que utilizar el [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md). Los segmentos creados de esta manera se definen automáticamente como segmentos de nivel de evento. Esta definición se puede modificar rápidamente seleccionando ![Editar](/help/assets/icons/Edit.svg) junto al nombre del segmento.
+Los componentes que no son segmentos también pueden arrastrarse directamente a la zona de colocación para crear segmentos rápidos, lo que le ahorrará el tiempo y el esfuerzo de ir al [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md). Los segmentos creados de este modo se definen automáticamente como segmentos de nivel de evento. Esta definición puede modificarse rápidamente seleccionando ![Editar](/help/assets/icons/Edit.svg) junto al nombre del segmento.
 
 <!-- For more information, see [Quick segments](/help/components/segmentation/). -->
 
-![Segmentos ad hoc que se hacen públicos y se colocan en la zona de colocación.](assets/adhoc-segment-filter.png)
+![Segmentos ad hoc que se hacen públicos y se sueltan en la zona de colocación.](assets/adhoc-segment-filter.png)
 
 ### Segmentos desplegables
 
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [segmentos desplegables](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos desplegables](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 #### Segmentos desplegables estáticos
 
-Los segmentos desplegables estáticos permiten interactuar con los datos de forma controlada. Por ejemplo, puede agregar un segmento desplegable para tipos de dispositivos móviles para poder segmentar el panel por dispositivos de tableta, teléfonos móviles o equipos de escritorio.
+Los segmentos desplegables estáticos permiten interactuar con los datos de forma controlada. Por ejemplo, puede añadir un segmento desplegable para Tipos de dispositivos móviles, de modo que pueda segmentar el panel por tabletas, teléfonos móviles o equipos de escritorio.
 
-Los segmentos desplegables estáticos también se pueden utilizar para consolidar muchos proyectos en uno. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes segmentos de país aplicados, puede consolidar todas las versiones en un único proyecto y añadir un segmento desplegable de país.
+Los segmentos desplegables estáticos también pueden utilizarse para consolidar muchos proyectos en uno solo. Por ejemplo, si tiene muchas versiones del mismo proyecto con diferentes segmentos de país aplicados, puede consolidar todas las versiones en un único proyecto y añadir un segmento desplegable de país.
 
-![Segmentos desplegables estáticos que muestran el filtro &quot;Directo&quot; de Market Channel resaltado. ](assets/dropdown-filter-intro.png)
+![Segmentos desplegables estáticos que muestran el filtro &quot;Directo&quot; del canal de mercado resaltado. ](assets/dropdown-filter-intro.png)
 
-##### Creación de segmentos desplegables estáticos
+##### Creación de segmentos desplegables dinámicos
 
-* Para segmentos desplegables que utilizan elementos de dimensión, seleccione una sola dimensión del panel izquierdo y suelte la dimensión en la zona de colocación del panel mientras mantiene ⇧ (*shift*). Esta acción crea un segmento desplegable con todos los elementos de dimensión asociados a esa dimensión.
+* Para los segmentos desplegables que utilizan elementos de dimensión, selecciona una sola dimensión del panel izquierdo y suéltala en la zona desplegable del panel mientras mantiene pulsado ⇧ (*mayús*).  Esta acción crea un segmento desplegable con todos los elementos de dimensión que están asociados con esa dimensión.
 
-  O bien, si desea que el segmento desplegable incluya solo elementos de dimensión específicos asociados a una dimensión, seleccione el icono de flecha derecha junto a la dimensión deseada en el panel izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Selecciona varios elementos de dimensión de esta lista usando ⇧+![Select](/help/assets/icons/Select.svg) (*shift* + *select*) o ^+![Select](/help/assets/icons/Select.svg) (*control* + *select*) y, a continuación, suéltalos en la zona de colocación del panel **mientras mantienes presionado** ⇧.
+  O bien, si desea que el segmento desplegable incluya solo elementos de dimensión específicos asociados a una dimensión, haga clic en el icono de flecha derecha situado junto a la dimensión deseada en el panel izquierdo. Esta acción expone todos los elementos de dimensión disponibles. Selecciona varios elementos de dimensión de esta lista usando ⇧+![Select](/help/assets/icons/Select.svg) (*shift* + *select*) o ^+![Select](/help/assets/icons/Select.svg) (*control* + *select*) y, a continuación, suéltalos en la zona de colocación del panel **mientras mantienes presionado** ⇧.
 
-* Para segmentos desplegables que utilizan un solo tipo de componente (por ejemplo, solo dimensiones, o solo segmentos o solo métricas), seleccione varios elementos del mismo tipo en el panel izquierdo con ⇧+![Select](/help/assets/icons/Select.svg) o ^+![Select](/help/assets/icons/Select.svg). A continuación, suelta los elementos en la zona de colocación del panel **mientras mantienes** ⇧.
+* Para los segmentos desplegables que utilizan un único tipo de componente (por ejemplo, solo dimensiones, o solo segmentos, o solo métricas), seleccione varios elementos del mismo tipo en el panel izquierdo mediante ⇧+![Seleccionar](/help/assets/icons/Select.svg) o ^+![Seleccionar](/help/assets/icons/Select.svg). A continuación, suelte los elementos en la zona de colocación del panel **mientras mantiene** ⇧.
 
   Se crea un único segmento desplegable con los componentes seleccionados.
 
-* Para segmentos desplegables que usan una combinación de tipos de componentes (como 2 métricas y 3 segmentos), seleccione varios componentes con ⇧+![Select](/help/assets/icons/Select.svg) o ^+![Select](/help/assets/icons/Select.svg). Coloca la selección en la zona desplegable del panel **mientras mantienes pulsado** ⇧. En este contexto, todos los tipos de componentes se tratan como segmentos desplegables independientes. Por ejemplo, si incluye métricas y elementos de dimensión en la selección, se crean dos segmentos desplegables independientes: un segmento desplegable incluye elementos de dimensión y el otro métricas.
+* Para los segmentos desplegables que utilizan una mezcla de tipos de componentes (como 2 métricas y 3 segmentos), seleccione varios componentes utilizando ⇧+![Seleccionar](/help/assets/icons/Select.svg) o ^+![Seleccionar](/help/assets/icons/Select.svg). Coloque la selección en la zona desplegable del panel **mientras mantiene pulsado** ⇧. En este contexto, todos los tipos de componentes se tratan como segmentos desplegables independientes. Por ejemplo, si incluye tanto elementos de métrica como de dimensión en su selección, se crearán dos segmentos desplegables separados: un segmento desplegable incluirá elementos de dimensión y el otro incluirá métricas.
 
 Un segmento desplegable proporciona las siguientes opciones de menú contextual:
 
-* **[!UICONTROL Eliminar lista desplegable]**: quita el segmento desplegable del panel.
-* **[!UICONTROL Eliminar etiqueta]**: elimine el texto mostrado encima de un segmento desplegable. Para modificar la etiqueta, pase el ratón sobre la etiqueta y seleccione ![Editar etiqueta del segmento desplegable](/help/assets/icons/Edit.svg).
-* **[!UICONTROL Agregar etiqueta]**: Cuando agrega un segmento desplegable a un proyecto, se establece automáticamente una etiqueta en el nombre del componente. Si elimina la etiqueta, puede añadirla de nuevo con esta opción.
-* **[!UICONTROL Requerir selección]**: Requiere que se establezca un segmento en el panel.
+* **[!UICONTROL Eliminar desplegable]**: Elimina el segmento desplegable del panel.
+* **[!UICONTROL Eliminar etiqueta]**: Elimina el texto que aparece sobre un segmento desplegable. Para modificar la etiqueta, desplácese sobre ella y seleccione ![Editar etiqueta del segmento desplegable](/help/assets/icons/Edit.svg).
+* **[!UICONTROL Añadir etiqueta]**: Cuando añade un segmento desplegable a un proyecto, se establece automáticamente una etiqueta con el nombre del componente. Si elimina la etiqueta, puede añadirla de nuevo con esta opción.
+* **[!UICONTROL Requiere selección]**: Requiere que se fije un segmento en el panel.
 
-##### Uso de segmentos desplegables estáticos
+##### Utilizar segmentos desplegables estáticos
 
-Los usuarios pueden utilizar el menú desplegable de segmentos de cualquiera de las siguientes maneras de segmentar el panel:
+Los usuarios pueden utilizar el menú desplegable de segmentos de cualquiera de las siguientes formas para segmentar el panel:
 
-* Aplique un solo segmento al panel seleccionando el segmento en el segmento desplegable.
+* Aplique un único segmento al panel seleccionando el segmento en el segmento desplegable.
 
-* Aplique varios segmentos al panel seleccionando más de un segmento en el segmento desplegable. El panel se segmenta para incluir cualquiera de los segmentos seleccionados.
+* Aplique varios segmentos al panel seleccionando más de uno en el segmento desplegable. El panel se segmenta para incluir cualquiera de los segmentos seleccionados.
 
 
 #### Segmentos desplegables dinámicos
 
 Los segmentos desplegables dinámicos le permiten determinar los valores disponibles en función de los datos dentro del intervalo de informes del panel y los valores de otros segmentos desplegables. Por ejemplo, puede crear dos desplegables dinámicos utilizando las dimensiones Países y Ciudades. Al seleccionar un país en la lista desplegable **[!UICONTROL Países]**, la lista desplegable **[!UICONTROL Ciudades]** se ajusta dinámicamente para mostrar solo las ciudades de ese país.
 
-Este mismo concepto se aplica a todas las dimensiones; solo son visibles los elementos de dimensión que aparecen dentro del intervalo de fechas y los segmentos seleccionados del panel. Los elementos de Dimension seleccionados en segmentos desplegables estáticos afectan a los valores disponibles en los segmentos desplegables dinámicos. Sin embargo, lo contrario no es verdadero; los elementos de Dimension seleccionados en los segmentos desplegables dinámicos no afectan a los valores disponibles en los segmentos desplegables estáticos.
+Este mismo concepto se aplica a todas las dimensiones; solo son visibles los elementos de dimensión que aparecen dentro del intervalo de fechas y los segmentos seleccionados del panel. Los elementos de dimensión seleccionados en los segmentos desplegables estáticos afectan a los valores disponibles en los segmentos desplegables dinámicos. Sin embargo, lo contrario no es verdadero; los elementos de dimensión seleccionados en los segmentos desplegables dinámicos no afectan a los valores disponibles en los segmentos desplegables estáticos.
 
 La selección manual de elementos de dimensión está disponible si prevé que se recopilará un determinado elemento de dimensión en el futuro. También puede borrar un segmento desplegable dinámico para que no contenga un valor, lo que permitirá que otros segmentos desplegables dinámicos contengan más valores. Seleccione **[!UICONTROL Restablecer todo]** para borrar la selección de todos los segmentos desplegables de ese panel.
 
-Para crear un segmento desplegable dinámico:
+Para crear un segmento desplegable dinámico, haga lo siguiente:
 
-* Arrastra y suelta una sola dimensión en la zona desplegable del panel **mientras mantienes pulsado** ⇧.
+* Arrastre y suelte una sola dimensión en la zona desplegable del panel **mientras mantiene pulsado** ⇧.
 
 Tenga en cuenta que los segmentos desplegables dinámicos no están disponibles para métricas, segmentos o intervalos de fechas.
 
-Un segmento desplegable dinámico proporciona las mismas opciones de menú contextual que los segmentos desplegables estáticos.
+Al hacer clic con el botón derecho en un segmento desplegable dinámico, se proporcionan las mismas opciones que en los segmentos desplegables estáticos.
 
 
 ## Menú contextual
@@ -230,7 +230,7 @@ Las opciones disponibles son las siguientes:
 | --- | --- |
 | **[!UICONTROL Insertar panel copiado]** | Permite pegar un panel copiado en otro lugar del proyecto o en otro proyecto. |
 | **[!UICONTROL Insertar visualización copiada]** | Pega una visualización copiada en otro lugar dentro del panel, proyecto o en un proyecto diferente. |
-| **[!UICONTROL Aplicar grupo de informes a todos los paneles]** | Aplique el grupo de informes para este panel a todos los demás paneles del proyecto. |
+| **[!UICONTROL Aplicar el grupo de informes a todos los paneles]** | Aplica el grupo de informes de este panel a todos los demás paneles del proyecto. |
 | **[!UICONTROL Copiar panel]** | Copia un panel para poder insertarlo en otro lugar del proyecto o en un proyecto completamente diferente. |
 | **[!UICONTROL Duplicar panel]** | Crea un duplicado exacto del panel actual que podrá modificar a continuación. |
 | **[!UICONTROL Contraer todos los paneles]** | Contraer todos los paneles del proyecto. |

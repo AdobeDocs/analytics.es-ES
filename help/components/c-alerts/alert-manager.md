@@ -1,18 +1,18 @@
 ---
-description: Gestionar alertas.
-title: Información general de Alert Manager
+description: Administrar alertas.
+title: Información general sobre el Administrador de alertas
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 source-git-commit: 86580b3c149c0feb1d70d9ba197cf0810e472586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 # Administrador de alertas
 
-Puede administrar las alertas existentes en el Administrador de alertas. Puede realizar varias tareas de administración en las alertas, como etiquetado, cambio de nombre, eliminación, etc.
+Puede administrar las alertas existentes en el Administrador de alertas. Puede realizar varias tareas de administración de las alertas, como etiquetado, cambio de nombre, eliminación, etc.
 
 El Administrador de alertas tiene una estructura muy similar al [Administrador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=es) y al [Administrador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=es).
 
@@ -26,13 +26,13 @@ Para crear alertas desde el Administrador de alertas:
 
    ![](assets/alert-manager.png)
 
-1. Seleccione [!UICONTROL **Agregar**] (o [!UICONTROL **Crear nueva alerta**] si no tiene ninguna alerta existente).
+1. Seleccione [!UICONTROL **Añadir**] (o [!UICONTROL **Crear nueva alerta**] si no tiene ninguna alerta existente).
 
 1. Seleccione el tipo de alerta que corresponde a la alerta que desea crear:
 
    * [!UICONTROL **Alerta de datos de Analytics**]: una alerta para avisarle cuando se produzcan eventos anómalos en sus datos.
 
-     Si seleccionas esta opción, continúa con [Crear alertas](/help/components/c-alerts/alert-builder.md) para obtener más detalles acerca de la creación de alertas.
+     Si selecciona esta opción, continúa con [Crear alertas](/help/components/c-alerts/alert-builder.md) para obtener más detalles acerca de la creación de alertas.
 
    * [!UICONTROL **Alerta de uso de llamadas al servidor**]: una alerta para notificarle el riesgo o la incidencia de un exceso en los datos de asignación y consumo de llamadas al servidor.
 
@@ -60,15 +60,15 @@ Para administrar las alertas existentes en el Administrador de alertas:
 
    | Acción | Función |
    |---------|----------|
-   | [!UICONTROL **Etiqueta**] | Aplicar una etiqueta a una alerta. Esto le ayuda a organizar las alertas para facilitar su uso. |
+   | [!UICONTROL **Etiqueta**] | Aplicar una etiqueta a una alerta. Esto permite organizarlas para facilitar su uso. |
    | [!UICONTROL **Eliminar**] | Elimina la alerta. |
    | [!UICONTROL **Cambiar el nombre**] | Cambia el nombre de la alerta. |
    | [!UICONTROL **Aprobar**] | Marcar la alerta como Aprobada. |
    | [!UICONTROL **Copiar**] | Crea una copia (duplicado) de la alerta. |
    | [!UICONTROL **Deshabilitar**] | Deshabilita una alerta que está habilitada actualmente. |
    | [!UICONTROL **Activar**] | Habilita una alerta que está deshabilitada actualmente. |
-   | [!UICONTROL **Renovar**] | Renueva la fecha de caducidad de la alerta. Esto amplía la fecha de caducidad a 1 año a partir del día en que seleccionó esta opción, independientemente de la fecha de caducidad original. |
-   | [!UICONTROL **Exportar a CSV**] | Exporta la alerta a un archivo .CSV. |
+   | [!UICONTROL **Renovar**] | Renueva la fecha de caducidad de la alerta. Esto amplía la fecha de vencimiento a 1 año a partir del día en que seleccionó esta opción, independientemente de la fecha de vencimiento original. |
+   | [!UICONTROL **Exportar a CSV**] | Exportar una alerta a un archivo .CSV. |
 
 ## Editar una alerta
 
@@ -84,11 +84,11 @@ Para editar una alerta existente:
 
    A continuación se indican algunas de las acciones que puede realizar al editar una alerta:
 
-   * Agregar alertas a otros grupos de informes
-   * Agregar o modificar la descripción
-   * Modificación de la granularidad de tiempo
+   * Añadir alertas a otros grupos de informes
+   * Añadir o modificar la descripción
+   * Modificar la granularidad temporal
    * Modificación de los destinatarios
-   * Modificación de la fecha de caducidad
+   * Modificación de la fecha de vencimiento
    * Modificación de métricas y filtros
 
 1. Seleccione [!UICONTROL **Guardar**].
@@ -99,7 +99,7 @@ Puede configurar la información mostrada para cada alerta en el Administrador d
 
 Para configurar las columnas visibles en el Administrador de alertas:
 
-1. En Adobe Analytics, seleccione la ficha **[!UICONTROL Componentes]** y, a continuación, seleccione **[!UICONTROL Alertas]**.
+1. En Adobe Analytics, seleccione la pestaña **[!UICONTROL Componentes]** y, a continuación, **[!UICONTROL Alertas]**.
 
 1. En el Administrador de alertas, seleccione el icono **Personalizar columnas** ![Personalizar icono de columnas](assets/customize-columns-icon.png) y, a continuación, seleccione las columnas que desea que se muestren en el Administrador de alertas.
 
@@ -107,15 +107,15 @@ Para configurar las columnas visibles en el Administrador de alertas:
 
    | Título de columna | Descripción |
    |---|---|
-   | Título y descripción | Estos valores se proporcionan en el Generador de alertas. Para editar el título y la descripción, seleccione el vínculo del título para abrir el Generador de alertas. |
+   | Título y descripción | Estos valores se proporcionan en el Generador de alertas. Para editar el título y la descripción, seleccione el vínculo del título para abrir el generador de alertas. |
    | Favoritos | Muestra iconos de estrella junto a cada alerta, lo que permite marcar las alertas como favoritas. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
    | Tipo | Muestra si la alerta es una alerta de datos de Analytics o una alerta de uso de llamadas al servidor. |
    | Habilitado | Muestra si la alerta está habilitada o deshabilitada actualmente. |
-   | Grupo de informes | Indica en qué grupo de informes se guardó por última vez la alerta. |
-   | Propietario | Indica a quién pertenece la alerta. Si no es el administrador, solo podrá ver las alertas que le pertenecen o que compartieron con usted. |
-   | Etiquetas | Muestra las etiquetas aplicadas a la alerta, tanto por su parte como por parte de las personas que han compartido la alerta con usted. |
-   | Fecha de caducidad | Muestra la fecha y la hora en que la alerta está configurada para caducar. |
-   | Fecha de modificación | Indica la fecha de la última modificación de la alerta. |
+   | Grupo de informes | Indica en qué grupo de informes se guardó la alerta por última vez. |
+   | Propietario | Indica a quién pertenece la alerta. Como no administrador, solo puede ver las alertas que le pertenecen o las que se compartieron con usted. |
+   | Etiquetas | Muestra las etiquetas que se aplicaron a la alerta, tanto por su parte como por parte de las personas que compartieron la alerta con usted. |
+   | Fecha de caducidad | Muestra la fecha y la hora en que la alerta está configurada para vencer. |
+   | Fecha de modificación | Indica la fecha en la que se modificó la alerta por última vez. |
 
    {style="table-layout:auto"}
 

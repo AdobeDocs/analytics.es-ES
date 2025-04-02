@@ -4,9 +4,9 @@ title: Tipo de métrica y atribución
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -153,7 +153,7 @@ Para especificar el tipo de métrica al crear una métrica calculada:
    | Tipo de métrica | Definición |
    |---|---|
    | Estándar | Estas métricas son las mismas métricas utilizadas en los informes de [!DNL Analytics] estándares. Si una fórmula consiste en una única métrica estándar, muestra datos idénticos a los de su métrica no calculada homóloga. Las métricas estándar son útiles para crear métricas calculadas específicas para cada elemento de línea individual. Por ejemplo, [Pedidos] / [Visitas] toma pedidos de ese elemento de línea en concreto y lo divide por el número de visitas de ese elemento de línea específico. |
-   | Total general | Utilice el total general para el período de informe de cada elemento de línea. Si una fórmula consiste en una única métrica de total general, muestra el mismo número total en cada elemento de línea. Las métricas de total general son útiles para crear métricas calculadas que se comparan con los datos totales del sitio. Por ejemplo, [Pedidos] / [Visitas totales] muestra la proporción de pedidos en comparación con TODAS las visitas de su sitio, no solo las visitas de una línea en concreto. |
+   | Total general | Utilice el total general para el período de generación de informes de cada elemento de línea. Si una fórmula consiste en una única métrica total general, muestra el mismo número total en cada elemento de línea. Las métricas totales generales son útiles para crear métricas calculadas que se comparan con los datos totales del sitio. Por ejemplo, [Pedidos] / [Visitas totales] muestra la proporción de pedidos en comparación con TODAS las visitas de su sitio, no solo las visitas de una línea en concreto. |
 
 ## Funcionamiento de la asignación lineal
 
@@ -161,7 +161,7 @@ Para especificar el tipo de métrica al crear una métrica calculada:
 
 Para obtener una lista completa de los modelos de atribución no predeterminados y de las ventanas retroactivas, consulte [Modelos de atribución y ventanas retroactivas](/help/analyze/analysis-workspace/attribution/models.md).
 
-El siguiente ejemplo ilustra cómo funcionan las métricas calculadas con asignaciones lineales en los informes:
+El ejemplo siguiente ilustra cómo funcionan las métricas calculadas con la asignación lineal en los informes:
 
 | | Visita 1 | Visita 2 | Visita 3 | Visita 4 | Visita 5 | Visita 6 | Visita 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |

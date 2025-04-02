@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
@@ -33,17 +33,17 @@ ht-degree: 36%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Elemento siguiente o anterior en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Ver [panel de elemento siguiente o anterior](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous)) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versión de Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel Elemento siguiente o anterior en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Vea el [panel de elemento siguiente o anterior](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/next-previous)) para la versión de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
 El panel **[!UICONTROL Elemento siguiente o anterior]** contiene varias tablas y visualizaciones para identificar el elemento de dimensión siguiente o anterior de una dimensión específica. Por ejemplo, es posible que desee explorar a qué páginas fueron más a menudo los clientes después de visitar la página de inicio.
 
-## Utiliza
+## Usar
 
 Para usar un panel **[!UICONTROL Elemento siguiente o anterior]**:
 
-1. Crear un panel de **[!UICONTROL elemento siguiente o anterior]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
+1. Cree un panel de **[!UICONTROL elemento siguiente o anterior]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
 
 1. Especifica la [entrada](#panel-input) para el panel.
 
@@ -51,7 +51,7 @@ Para usar un panel **[!UICONTROL Elemento siguiente o anterior]**:
 
 ### Entrada de panel
 
-Puede configurar el panel [!UICONTROL Elemento siguiente o anterior] con esta configuración de entrada:
+Puede configurar el panel [!UICONTROL Elemento siguiente o anterior] utilizando estos ajustes de entrada:
 
 ![Panel de elemento siguiente o anterior](assets/next-or-previous-item.png)
 
@@ -75,7 +75,7 @@ El panel [!UICONTROL Elemento siguiente o anterior] devuelve un conjunto complet
 
 | Visualización | Descripción |
 | --- | --- |
-| **[!UICONTROL Barra horizontal]** | Enumera los elementos siguientes (o anteriores) en función del elemento de dimensión seleccionado. Al pasar el ratón por encima de una barra individual, se resalta el elemento correspondiente de la tabla de forma libre. |
+| **[!UICONTROL Barra horizontal]** | Enumera los elementos siguientes (o anteriores) en función del elemento de dimensión seleccionado. Al pasar el cursor sobre una barra individual, se resalta el elemento correspondiente en la tabla de forma libre. |
 | **[!UICONTROL Número de resumen]** | Número de resumen de alto nivel de todas las ocurrencias de elementos de dimensión siguientes o anteriores para el mes actual (hasta ahora). |
 | **[!UICONTROL Tabla de forma libre]** | Enumera los elementos siguientes (o anteriores) en función del elemento de dimensión seleccionado, en formato de tabla. Por ejemplo, cuáles eran las páginas más populares (por ocurrencias) a las que se dirigían los visitantes después (o antes) de la página principal o de la página de Workspace. |
 

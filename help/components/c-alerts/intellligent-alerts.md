@@ -1,20 +1,20 @@
 ---
 description: Las alertas permiten un control granular sobre las notificaciones y la integración con la detección de anomalías.
-title: Resumen de alertas
+title: Información general sobre alertas
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 32%
+ht-degree: 100%
 
 ---
 
-# Resumen de alertas
+# Información general sobre alertas
 
 Las alertas de Adobe Analytics permiten recibir notificaciones basadas en porcentajes modificados o puntos de datos específicos.
 
-Según el paquete de Adobe Analytics, también puede utilizar alertas para activarlas en función de los umbrales de anomalías. Estas alertas (también conocidas como &quot;Alertas inteligentes&quot;) proporcionan controles granulares que se integran con [Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) y se activan cuando más las necesita.
+Según el paquete de Adobe Analytics, también puede utilizar alertas para activarlas en función de los umbrales de anomalías. Estas alertas (también conocidas como “Alertas inteligentes”) proporcionan controles granulares que se integran con [Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) y se activan cuando más las necesita.
 
 Las alertas le permiten:
 
@@ -29,7 +29,7 @@ El siguiente tutorial de vídeo proporciona información general básica sobre l
 
 >[!NOTE]
 >
->El uso de alertas con detección de anomalías (también conocido como _alertas inteligentes_) solo está disponible para organizaciones con un paquete Adobe Analytics Prime o Ultimate.
+>El uso de alertas con detección de anomalías (también conocido como _alertas inteligentes_) solo está disponible para organizaciones con un paquete de Adobe Analytics Prime o Ultimate.
 
 Si una alerta utiliza la detección de anomalías, el periodo de prueba varía según la granularidad seleccionada para la alerta.
 
@@ -38,7 +38,7 @@ Si una alerta utiliza la detección de anomalías, el periodo de prueba varía s
 * Granularidad diaria: 35 días + el mismo intervalo del año anterior
 * Granularidad horaria: 336 horas
 
-Para obtener más información, consulte [Técnicas estadísticas utilizadas en la detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+Consulte [Técnicas estadísticas utilizadas en la detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) para obtener más información.
 
 ## Creación de alertas
 
@@ -46,10 +46,10 @@ Para obtener información sobre cómo crear alertas en Adobe Analytics, consulte
 
 >[!IMPORTANT]
 >
->El uso de datos con fecha y hora para crear alertas puede hacer que se activen incorrectamente. El Adobe recomienda utilizar datos sin marca de hora para las alertas.
+>El uso de datos con fecha y hora para crear alertas puede hacer que se activen incorrectamente. Adobe recomienda utilizar datos sin marca de hora para las alertas.
 
 ## Administración de alertas
 
-Puede administrar las alertas existentes en el Administrador de alertas. Puede realizar varias tareas de administración en las alertas, como etiquetado, cambio de nombre, eliminación, etc.
+Puede administrar las alertas existentes en el Administrador de alertas. Puede realizar varias tareas de administración de las alertas, como etiquetado, cambio de nombre, eliminación, etc.
 
 Para obtener más información sobre cómo administrar las alertas existentes en Adobe Analytics, consulte [Administrar alertas](/help/components/c-alerts/alert-manager.md).

@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Un flujo interdimensional le permite examinar las rutas del usuario entre divers
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flujos interdimensionales](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flujos interdimensionales](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -28,32 +28,32 @@ Este artículo muestra cómo utilizar este flujo para dos casos de uso: interacc
 
 La dimensión [!UICONTROL Nombre de pantalla] se usa en este flujo de ejemplo para ver cómo utilizan los usuarios las distintas pantallas (escenas) de la aplicación. La pantalla principal devuelta es **[!UICONTROL luma: content: ios: en: home]**, que es la página principal de la aplicación:
 
-![Flujo que muestra el elemento agregado.](assets/flowapp.png)
+![Un flujo que muestra el elemento añadido.](assets/flowapp.png)
 
-Para explorar la interacción entre pantallas y tipos de eventos (como agregar al carro de compras, compras, etc.) en esta aplicación, arrastre y suelte la dimensión **[!UICONTROL Tipos de eventos]**:
+Para explorar la interacción entre pantallas y tipos de eventos (como añadir al carro de compras, compras, etc.) en esta aplicación, arrastre y suelte la dimensión **[!UICONTROL Tipos de eventos]**:
 
 * Sobre cualquier paso disponible en el flujo, para reemplazar esa dimensión:
 
-  ![Flujo que muestra la dimensión Página arrastrada a varias áreas.](assets/flowapp-replace.png)
+  ![Un flujo que muestra la dimensión Página arrastrada a varias áreas.](assets/flowapp-replace.png)
 
 * Fuera de la visualización de flujo actual, para añadir la dimensión:
 
-  ![Flujo que muestra la dimensión Página arrastrada al espacio en blanco al final.](assets/flowapp-add.png)
+  ![Un flujo que muestra la dimensión Página arrastrada al espacio en blanco al final.](assets/flowapp-add.png)
 
-La siguiente visualización de flujo muestra el resultado de agregar la dimensión **[!UICONTROL Tipos de eventos]**. La visualización proporciona perspectivas sobre cómo los usuarios de aplicaciones móviles se mueven por varias pantallas de la aplicación antes de añadir productos al carro de compras, cerrar la aplicación, presentar una oferta y mucho más.
+La siguiente visualización de flujo muestra el resultado de añadir la dimensión **[!UICONTROL Tipos de eventos]**. La visualización proporciona perspectivas sobre cómo los usuarios de aplicaciones móviles se mueven por varias pantallas de la aplicación antes de añadir productos al carro de compras, cerrar la aplicación, que se les presente una oferta y mucho más.
 
-![Un valor fLow que muestra los resultados de la dimensión Página en la parte superior de la lista.](assets/flowapp-result.png)
+![Un valor de flujo que muestra los resultados de la dimensión Página en la parte superior de la lista.](assets/flowapp-result.png)
 
-## Cómo impulsan las campañas las visitas web
+## Cómo impulsan las campañas las visitas a la web
 
-Desea analizar qué campañas generan visitas al sitio web. Crea una visualización de flujo con **[!UICONTROL Campaign Name]** como dimensión
+Desea analizar qué campañas generan visitas al sitio web. Crea una visualización de flujo con **[!UICONTROL Nombre de campaña]** como dimensión
 
 ![Dimensión de nombre de campaña web de flujo](assets/flowweb.png)
 
-Reemplace la última dimensión **[!UICONTROL Nombre de campaña]** por la dimensión **[!UICONTROL Nombre de página con formato]** y agregue otra dimensión **[!UICONTROL Nombre de página con formato]** al final de la visualización del flujo.
+Reemplace la última dimensión **[!UICONTROL Nombre de campaña]** por la dimensión **[!UICONTROL Nombre de página con formato]** y añada otra dimensión **[!UICONTROL Nombre de página con formato]** al final de la visualización del flujo.
 
 ![Nombre de campaña web de flujo y dimensión de página web](assets/flowweb-replace.png)
 
 Puede pasar el ratón sobre cualquiera de los flujos para ver más detalles. Por ejemplo, qué campañas han resultado en un cierre de compra del carro de compras.
 
-![Desplazamiento de nombre de campaña web de flujo y dimensión de página web](assets/flowweb-hover.png)
+![Desplazamiento sobre nombre de campaña web de flujo y dimensión de página web](assets/flowweb-hover.png)
