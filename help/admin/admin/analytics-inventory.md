@@ -4,10 +4,10 @@ title: Inventario de Analytics
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: bab2bf61a2cf03f3e2b809d6383503b0c9bd5a36
+source-git-commit: 1a6f086105c76cbfcf361ddc54d71a7e7c4921d5
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 19%
+source-wordcount: '1183'
+ht-degree: 21%
 
 ---
 
@@ -157,7 +157,7 @@ Esta pantalla proporciona una vista detallada de todas las métricas definidas p
 
 1. Determine qué métricas tienen sentido para migrar a CJA.
 
-#### Exportar a CSV
+### Exportar a CSV
 
 1. Para exportar la lista de grupos de informes, dimensiones o métricas a un archivo .csv, haga clic en **[!UICONTROL Exportar a CSV]**.
 
@@ -170,7 +170,7 @@ Esta pantalla proporciona una vista detallada de todas las métricas definidas p
 >Los elementos y las columnas que se filtran no se exportan al archivo .csv.
 
 
-#### Filtrar, buscar, ordenar y navegar
+### Filtrar, buscar, ordenar y navegar
 
 * Puede buscar en la tabla.
 * En el carril izquierdo, haga clic en el icono Filtro para filtrar por &quot;Tipo&quot;. O haga clic en **[!UICONTROL Ocultar filtro]**.
@@ -189,3 +189,13 @@ Esta pantalla proporciona una vista detallada de todas las métricas definidas p
 <!-- markdownlint-enable MD034 -->
 
 La administración de usuarios estará disponible en una versión posterior del inventario de Analytics.
+
+## Migración de componentes
+
+Con [Migración de componentes](/help/admin/admin/component-migration/component-migration.md), los administradores de Adobe Analytics pueden migrar proyectos de Analytics y sus componentes asociados a Customer Journey Analytics.
+
+El proceso de migración incluye:
+
+* Creación de nuevo de los proyectos de Adobe Analytics en Customer Journey Analytics.
+
+* Asignación de dimensiones y métricas de grupos de informes de Adobe Analytics a dimensiones y métricas en vistas de datos de Customer Journey Analytics.
