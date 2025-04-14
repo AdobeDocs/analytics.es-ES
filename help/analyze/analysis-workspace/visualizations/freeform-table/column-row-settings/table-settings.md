@@ -5,10 +5,10 @@ uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: 6d6a7587fc4a41be1e7ad33d3ed0280b0d82d47c
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
+workflow-type: tm+mt
+source-wordcount: '1045'
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,7 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 | **[!UICONTROL Crear anotación a partir de la selección]** | Abra **[!UICONTROL Detalles de anotación]** para añadir una anotación. |
 | **[!UICONTROL Crear filtro a partir de la selección]** | Abra **[!UICONTROL Generador de filtros]** para generar un filtro a partir de la selección. |
 | **[!UICONTROL Crear audiencia a partir de la selección]** | Abra el cuadro de diálogo **[!UICONTROL Crear audiencia]** para generar una audiencia a partir de la selección. |
+
+## Cambiar alto de fila
+
+Puede establecer la densidad de visualización de un proyecto en **[!UICONTROL Compacto]**, **[!UICONTROL Cómodo]** y **[!UICONTROL Expandido]**. [Más información](/help/analyze/analysis-workspace/build-workspace-project/view-density.md).
