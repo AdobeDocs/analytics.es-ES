@@ -5,8 +5,8 @@ feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: d81412790f5658d90890c48eca50548cd57b4b48
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Estas notas de la versión cubren el período comprendido entre el 5 de marzo de
 
 | Función | Descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Inventario de Analytics** | El inventario de Analytics proporciona una visión general del entorno de Adobe Analytics, incluido el número de proyectos y componentes, grupos de informes, usuarios y mucho más. Al automatizar el proceso de inventario, puede comprender rápidamente el esfuerzo necesario para cambiar de Adobe Analytics a Customer Journey Analytics. Esto hará que la transición sea más fácil y rápida. [Más información](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |  | 26 de marzo de 2025 |
+| **Inventario de Analytics** | En esta página se ofrece información general completa sobre el entorno de Adobe Analytics, incluido el número de proyectos y componentes, grupos de informes, usuarios, etc. Al automatizar el proceso de inventario, puede comprender rápidamente el esfuerzo necesario para cambiar de Adobe Analytics a Customer Journey Analytics. Esto hará que la transición sea más fácil y rápida. [Más información](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/analytics-inventory) |  | 26 de marzo de 2025 |
 | **Actualizar al campo de datos de contexto de Analytics`a.locale`** | Esta actualización cambia la forma en que se establece el campo de datos de contexto de Analytics `a.locale` al recopilar datos mediante Experience Edge. Cuando se envían datos a Adobe Analytics mediante Experience Edge, los campos de Analytics se rellenan en función de una asignación de campos XDM. La asignación de `c.a.locale` hace referencia a un campo XDM no estándar, `xdm.environment.language`. Este campo se actualizará para hacer referencia al campo correcto, `xdm.environment._dc.language`.<p>La asignación seguirá haciendo referencia a `xdm.environment.language` de cara a la compatibilidad con versiones anteriores. Para mantener la continuidad, si se establecen ambos campos, `xdm.environment.language` tendrá prioridad. Puede ver la lista completa de asignaciones de XDM a campos estándar de Analytics [aquí](https://experienceleague.adobe.com/es/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | 5 de marzo de 2025 |
 | **Guía de actualización de Customer Journey Analytics** | Le permite generar una guía paso a paso para actualizar de Adobe Analytics a Customer Journey Analytics. Esta guía está adaptada a su organización y tiene en cuenta su entorno Adobe Analytics actual, los usos previstos para Customer Journey Analytics y cualquier cambio que su organización desee hacer para ahorrar tiempo.<p>Para empezar a generar su guía personalizada, inicie sesión en [!DNL Customer Journey Analytics] y, a continuación, seleccione **[!UICONTROL Actualizar a Customer Journey Analytics]** en la pestaña **[!UICONTROL Workspace]**.<p>[Más información](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 11 de marzo de 2025 |
 | **Dimensiones de Data Warehouse solamente** | En función de los comentarios de los clientes, hemos decidido volver a evaluar. No lanzaremos la función automática solo para Data Warehouse como se anunció anteriormente. | | Por determinar |
