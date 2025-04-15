@@ -3,7 +3,7 @@ title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+source-git-commit: 3eb140c729d2c0e9f880a6fada8377639f7c4a9c
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -89,7 +89,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Prop:** Consulte Variable de tráfico.
 * **Informe de clasificación:** formato de informe que suele mostrar métricas para las dimensiones. Este tipo de informe permite ver los elementos principales, como las páginas más vistas del sitio. Consulte también Informe de tendencias.
 * **Tiempo real:** muestra con poca o ninguna latencia las variables configuradas en cuanto se recopilan. Consulte [Informes en tiempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) en la guía de usuario de administración.
-* **Report Builder:** El complemento Javascript [Report Builder](/help/analyze/report-builder/report-buider-overview.md) le permite generar solicitudes personalizadas a partir de datos de Adobe Analytics.
+* **Report Builder:** El complemento Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md) le permite generar solicitudes personalizadas a partir de datos de Adobe Analytics.
 * **Grupo de informes:** contenedor general al que se envían datos. Todos los informes de Adobe Analytics pertenecen a un grupo de informes.
 * **Reports &amp; Analytics:** Esta herramienta ha llegado al [final de su vida útil](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=es).
 * **Intervalo de fecha móvil:** un tipo de intervalo de fecha relativo que cambia a medida que pasa el tiempo. Por ejemplo, un informe que muestra los últimos 7 días puede considerarse un intervalo de fecha móvil. Consulte también intervalo de fecha estático.
