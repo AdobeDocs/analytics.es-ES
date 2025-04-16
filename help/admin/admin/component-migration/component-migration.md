@@ -1,16 +1,16 @@
 ---
 description: Explica cómo migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics.
-title: Migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics
+title: Migración de componentes y proyectos de Adobe Analytics a Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 96c202870a4e584cf3625d6e4d40024b787c2f0e
+source-git-commit: 657f1417185a2eabb496e0e7207520211f652794
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1515'
 ht-degree: 5%
 
 ---
 
-# Migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics
+# Migración de componentes y proyectos de Adobe Analytics a Customer Journey Analytics
 
 Los administradores de Adobe Analytics pueden migrar los proyectos de Adobe Analytics y sus componentes asociados a Customer Journey Analytics.
 
@@ -33,13 +33,15 @@ El proceso de migración incluye:
 
 ## Preparación para una migración
 
-Antes de migrar proyectos al Customer Journey Analytics, obtenga más información sobre la migración de proyectos en [Prepararse para migrar componentes y proyectos de Adobe Analytics al Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
+Antes de migrar proyectos a Customer Journey Analytics, obtenga más información sobre la migración de proyectos en [Prepararse para migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 
-## Migrar proyectos de Adobe Analytics a Customer Journey Analytics
+Además, haga un [inventario de Adobe Analytics](/help/admin/admin/analytics-inventory.md) con la herramienta disponible para los administradores de Analytics.
+
+## Migración de proyectos de Adobe Analytics a Customer Journey Analytics
 
 >[!IMPORTANT]
 >
->Antes de migrar proyectos al Customer Journey Analytics como se describe en esta sección, obtenga más información sobre la migración de proyectos en [Prepararse para migrar componentes y proyectos de Adobe Analytics al Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
+>Antes de migrar proyectos a Customer Journey Analytics como se describe en esta sección, obtenga más información sobre la migración de proyectos en [Prepararse para migrar componentes y proyectos de Adobe Analytics a Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 >
 >**Todas las dimensiones o métricas que asigne son permanentes, tanto para este proyecto como para todos los proyectos futuros que se migren en toda la organización de IMS, independientemente del usuario que realice la migración. Estas asignaciones no se pueden modificar ni deshacer excepto poniéndose en contacto con el Servicio de atención al cliente.**
 
@@ -55,7 +57,7 @@ Antes de migrar proyectos al Customer Journey Analytics, obtenga más informaci�
 
    O
 
-   Seleccione el proyecto que desea migrar y, a continuación, seleccione [!UICONTROL **Migrar a Customer Journey Analytics**].
+   Seleccione el proyecto que desea migrar y después seleccione [!UICONTROL **Migrar a Customer Journey Analytics**].
 
    Solo puede seleccionar un proyecto a la vez para migrar.
 
@@ -69,11 +71,11 @@ Antes de migrar proyectos al Customer Journey Analytics, obtenga más informaci�
 
 1. En la sección [!UICONTROL **Asignar esquema a grupos de informes**], seleccione un grupo de informes.
 
-1. En el menú desplegable [!UICONTROL **Vista de datos**], seleccione la vista de datos del Customer Journey Analytics donde desee migrar el proyecto y los componentes.
+1. En el menú desplegable [!UICONTROL **Vista de datos**], seleccione la vista de datos de Customer Journey Analytics donde desee migrar el proyecto y los componentes.
 
 1. Seleccione [!UICONTROL **Asignar esquema**].
 
-1. En la sección [!UICONTROL **Asignar esquema**], expanda las secciones [!UICONTROL **Dimension**] y [!UICONTROL **Métricas**].
+1. En la sección [!UICONTROL **Asignar esquema**], expanda las secciones [!UICONTROL **Dimensiones**] y [!UICONTROL **Métricas**].
 
    Algunas dimensiones y métricas en Adobe Analytics se asignan automáticamente a una dimensión o métrica en Customer Journey Analytics. Otros deben asignarse manualmente.
 
@@ -95,9 +97,9 @@ Antes de migrar proyectos al Customer Journey Analytics, obtenga más informaci�
 
    **Asignar dimensiones y métricas manualmente**
 
-   Algunas dimensiones y métricas en Adobe Analytics no se pueden asignar automáticamente a una dimensión o métrica en Customer Journey Analytics.
+   Algunas dimensiones y métricas de Adobe Analytics no se pueden asignar automáticamente a una dimensión o métrica en Customer Journey Analytics.
 
-   Cuando una dimensión o métrica no se puede asignar automáticamente, aparece un contador naranja junto al encabezado de sección [!UICONTROL **Dimension**] o [!UICONTROL **Métricas**], que indica el número de dimensiones o métricas que deben asignarse manualmente. En la tabla, aparece un icono de advertencia ![icono de advertencia](assets/schema-warning.png) junto a cada dimensión o métrica que debe asignarse manualmente.
+   Cuando una dimensión o métrica no se puede asignar automáticamente, aparece un contador naranja junto al encabezado de sección [!UICONTROL **Dimensiones**] o [!UICONTROL **Métricas**], que indica el número de dimensiones o métricas que deben asignarse manualmente. En la tabla, aparece un icono de advertencia ![icono de advertencia](assets/schema-warning.png) junto a cada dimensión o métrica que debe asignarse manualmente.
 
    Además, la columna [!UICONTROL **Estado**] indica [!UICONTROL **No asignado**].
 
@@ -105,7 +107,7 @@ Antes de migrar proyectos al Customer Journey Analytics, obtenga más informaci�
 
    ![Asignación manual del esquema de migración](assets/schema-manual-map.png)
 
-1. Para asignar manualmente dimensiones y métricas, seleccione una dimensión o métrica que contenga un icono de advertencia ![icono de advertencia](assets/schema-warning.png) y, a continuación, en el campo [!UICONTROL **Métrica de Customer Journey Analytics asignada**] (o en el campo [!UICONTROL **Dimensión de Customer Journey Analytics asignada**] si asigna una dimensión), seleccione la dimensión o métrica en el Customer Journey Analytics que desee asignar a la dimensión o métrica que haya seleccionado.
+1. Para asignar manualmente dimensiones y métricas, seleccione una dimensión o métrica que contenga un icono de advertencia ![icono de advertencia](assets/schema-warning.png) y, a continuación, en el campo [!UICONTROL **Métrica de Customer Journey Analytics asignada**] (o en el campo [!UICONTROL **Dimensión de Customer Journey Analytics asignada**] si asigna una dimensión), seleccione la dimensión o métrica en Customer Journey Analytics que desee asignar a la dimensión o métrica que haya seleccionado.
 
    ![asignar dimensiones y métricas](assets/schema-manual-map-drop-down.png)
 
@@ -113,7 +115,7 @@ Antes de migrar proyectos al Customer Journey Analytics, obtenga más informaci�
 
    Repita este proceso para cada dimensión o métrica que contenga el icono de advertencia.
 
-   Una vez que todas las dimensiones y métricas del grupo de informes de Adobe Analytics se hayan asignado a una dimensión o métrica del grupo de informes del Customer Journey Analytics, aparecerá la marca de verificación verde ![check mark](assets/report-suite-check.png) junto al nombre del grupo de informes en la sección [!UICONTROL **Asignar esquema para grupos de informes**].
+   Una vez que todas las dimensiones y métricas del grupo de informes de Adobe Analytics se hayan asignado a una dimensión o métrica del grupo de informes de Customer Journey Analytics, aparecerá la marca de verificación verde ![check mark](assets/report-suite-check.png) junto al nombre del grupo de informes en la sección [!UICONTROL **Asignar esquema para grupos de informes**].
 
 1. (Condicional) Si el proyecto que está migrando contiene más de un grupo de informes, seleccione otro grupo de informes en la sección [!UICONTROL **Asignar esquema para grupos de informes**] y, a continuación, repita los pasos del 6 al 10. <!-- double-check that the step numbers are still correct -->
 
@@ -127,7 +129,7 @@ Antes de migrar proyectos al Customer Journey Analytics, obtenga más informaci�
 
    Si la migración falla, consulte la sección [Reintentar una migración fallida](#retry-a-failed-migration) a continuación para obtener más información.
 
-1. (Opcional) Una vez migrado un proyecto, puede transferir la propiedad del proyecto a cualquier usuario de Customer Journey Analytics. Para obtener más información, consulte [Transferir recursos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) en la Guía del Customer Journey Analytics.
+1. (Opcional) Una vez migrado un proyecto, puede transferir la propiedad del proyecto a cualquier usuario de Customer Journey Analytics. Para obtener más información, consulte [Transferir recursos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/tools/asset-transfer/transfer-assets) en la Guía de Customer Journey Analytics.
 
 ## Reintento de una migración fallida
 
@@ -151,7 +153,7 @@ Para reintentar una migración fallida:
 
    Se muestra la página [!UICONTROL **Estado de la migración**].
 
-   Esta página también se muestra inmediatamente después de completar los pasos de migración descritos en la sección [Migrar proyectos de Adobe Analytics al Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics) anterior.
+   Esta página también se muestra inmediatamente después de completar los pasos de migración descritos en la sección [Migrar proyectos de Adobe Analytics a Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics) anterior.
 
 1. Seleccione [!UICONTROL **Reintentar migración**].
 
