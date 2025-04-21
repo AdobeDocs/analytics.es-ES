@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '6380'
+ht-degree: 99%
 
 ---
 
@@ -227,12 +227,12 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 15 de junio de 2021 | Se han actualizado las [prácticas recomendadas de los canales de marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=es) |
 | 3 de junio de 2021 | Se ha actualizado la documentación para explicar mejor la [Implementación de fuentes de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=es) y [aquí](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=es#BucketOwnerFullControl). |
 | 25 de mayo de 2021 | Se ha actualizado la documentación sobre la [Distinción entre mayúsculas y minúsculas del eVar en los informes](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=es). |
-| 13 de mayo de 2021 | Actualizaciones en [solicitudes de API de Data Warehouse](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Ahora admiten “Horas”. |
+| 13 de mayo de 2021 | Actualizaciones en [solicitudes de API de Data Warehouse](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/). Ahora admiten “Horas”. |
 | **Marzo de 2021** | |
 | Marzo, abril de 2021 | Actualizaciones en la [Guía del usuario ejecutivo](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html?lang=es) y [Guía del gestor de datos](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=es) de los paneles de Adobe Analytics |
 | 25 de marzo de 2021 | Nueva documentación en la página [!UICONTROL Componentes] > [!UICONTROL Preferencias de usuario]. Permite administrar la configuración de [!UICONTROL Analysis Workspace] y sus componentes relacionados para el usuario. Las [!UICONTROL Preferencias de usuario] se aplican a todos los proyectos y paneles nuevos. <br>**Nota:** Los siguientes ajustes de configuración se han trasladado a la página [!UICONTROL Preferencias de usuario]:<ul><li>Configuración de informes: Separador de miles (ahora llamado _Formato de número_)</li><li>Configuración de informes: Separador CSV</li><li>Proyectos del Espacio de trabajo: Ayuda > Habilitar sugerencias</li><li>Proyectos del Espacio de trabajo: Panel en blanco _Iniciar nuevos proyectos con esta opción de panel_</li></ul> |
 | 25 de marzo de 2021 | [!UICONTROL La predicción del contenedor inteligente del histograma] ayuda con los histogramas de métricas de alta cardinalidad al identificar automáticamente la anchura y el número adecuado de bloques para la propagación de los datos. Para las métricas de baja cardinalidad, la visualización se comporta del mismo modo que antes. |
-| 25 de marzo de 2021 | Actualizaciones de la [API de reparación de datos](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) (filtrado para direcciones URL, cadenas de consulta, signos de arroba, etc.) |
+| 25 de marzo de 2021 | Actualizaciones de la [API de reparación de datos](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) (filtrado para direcciones URL, cadenas de consulta, signos de arroba, etc.) |
 | 25 de marzo de 2021 | Nueva documentación la [API de registro de uso](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) |
 | **Febrero de 2021** | |
 | 4 de febrero de 2021 | Selección de componentes: El componente de la zona desplegable/de colocación que se encuentra en [!UICONTROL Quick Insights] se ha añadido a todas las zonas de colocación en el [!UICONTROL Espacio de trabajo]. Esta mejora le permite elegir de una lista desplegable de componentes compatibles o continuar utilizando el espacio como zona de colocación. |

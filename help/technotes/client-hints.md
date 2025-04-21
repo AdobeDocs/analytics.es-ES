@@ -4,7 +4,7 @@ description: Obtenga información acerca de cómo las sugerencias del cliente re
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 84%
@@ -47,7 +47,7 @@ El explorador proporciona automáticamente sugerencias de baja entropía, ingeri
 
 Para ambas bibliotecas, la colección de sugerencias de alta entropía está **desactivada de forma predeterminada**.
 
-Para los datos enviados mediante API, como [API de inserción de datos](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) o [API de inserción de datos en lotes](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html), las sugerencias deben incluirse explícitamente en la carga útil. Consulte la documentación correspondiente para obtener más detalles.
+Para los datos enviados mediante API, como [API de inserción de datos](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) o [API de inserción de datos en lotes](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), las sugerencias deben incluirse explícitamente en la carga útil. Consulte la documentación correspondiente para obtener más detalles.
 
 +++
 
@@ -145,7 +145,7 @@ Consulte la documentación para incluirlas mediante la [API de inserción de dat
 
 +++
 
-+++**¿Estarán disponibles las sugerencias del cliente en los datos enviados a Adobe Experience Platform y al Customer Journey Analytics a través del conector Source de Adobe?**
++++**¿Estarán disponibles las sugerencias del cliente en los datos enviados a Adobe Experience Platform y Customer Journey Analytics a través del conector de Source de Adobe?**
 
 Adobe tiene previsto incluir sugerencias del cliente en los datos a través del conector de origen de Adobe en el primer semestre de 2023.
 

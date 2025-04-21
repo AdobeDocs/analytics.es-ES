@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo mitigar el efecto de las limitacio
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Estas limitaciones del explorador reflejan un paso más amplio desde el seguimie
 
 La recopilación del lado del servidor proporciona la flexibilidad para proporcionar su propio identificador en lugar de depender de los mecanismos del explorador para configurar las cookies.
 
-Puede enviar datos del lado del servidor de Analytics mediante la [API de inserción de datos](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) o la [API de inserción de datos por lotes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). La API de inserción de datos por lotes se recomienda para las nuevas implementaciones del lado del servidor. Para ver una comparación de las dos API, consulte “[Qué herramienta de Adobe Analytics debo usar](/help/analyze/get-started/which-analytics-tool.md)”.
+Puede enviar datos del lado del servidor de Analytics mediante la [API de inserción de datos](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) o la [API de inserción de datos por lotes](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/). La API de inserción de datos por lotes se recomienda para las nuevas implementaciones del lado del servidor. Para ver una comparación de las dos API, consulte “[Qué herramienta de Adobe Analytics debo usar](/help/analyze/get-started/which-analytics-tool.md)”.
 
 ## ID de dispositivo de origen (FPID) con SDK web
 

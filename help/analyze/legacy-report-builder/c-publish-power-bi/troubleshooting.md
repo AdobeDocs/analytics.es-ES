@@ -4,10 +4,10 @@ title: Solución de problemas de integración de Power BI
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 64%
+source-wordcount: '320'
+ht-degree: 66%
 
 ---
 
@@ -42,10 +42,10 @@ Estas son las principales razones que pueden provocar errores en las visualizaci
 >Report Builder requiere un administrador para autorizar el acceso a los recursos de su organización. Si necesita acceso, pida a un administrador que le conceda permiso.
 > Un administrador de Microsoft puede revisar la configuración *Los usuarios pueden registrar la aplicación* que se encuentra en: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL Configuración de usuario permite opciones]**. Si esta opción se establece en **No**, el administrador puede registrar este tipo de aplicaciones.
 
-Los usuarios pueden conceder acceso iniciando sesión en su [cuenta de Power BI de Microsoft](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+Los usuarios pueden conceder acceso iniciando sesión en su [cuenta de Microsoft Power BI](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
-Los administradores pueden conceder acceso a cada uno de ellos iniciando sesión en su [cuenta de Microsoft Power BI del administrador](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+Los administradores pueden conceder acceso a cada uno iniciando sesión en su [cuenta de Microsoft Power BI del administrador](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
 
 ## Alcanzar el límite de API
 
-Power BI La creación de informes en funciona con la API de informes de Analytics, por lo que se aplican límites de umbral de API. Para obtener más información, vea [Códigos de error de servicios web](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).
+La creación de informes en Power BI funciona con la API de informes de Analytics, por lo que se aplican límites de umbral de API.
