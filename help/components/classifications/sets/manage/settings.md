@@ -3,10 +3,10 @@ title: Configuración del conjunto de clasificación
 description: Cree o edite un conjunto de clasificación.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 100%
+source-wordcount: '138'
+ht-degree: 97%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 Configure los ajustes de un conjunto de clasificación.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificación]** > **[!UICONTROL Conjuntos]** > Haga clic en el nombre del conjunto de clasificación que desee > **[!UICONTROL Configuración]**
+
+![configuración del conjunto de clasificaciones](../../assets/classification-set-settings.png)
 
 En esta pestaña están disponibles los siguientes campos:
 

@@ -3,9 +3,9 @@ title: Esquema del conjunto de clasificación
 description: Ver y editar el esquema de un conjunto de clasificaciones individual.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '540'
 ht-degree: 43%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 43%
 Ver las dimensiones de clasificación configuradas actualmente para este conjunto de clasificaciones.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificación]** > **[!UICONTROL Conjuntos]** > Haga clic en el nombre del conjunto de clasificación deseado > **[!UICONTROL Esquema]**
+
+![IU del esquema del conjunto de clasificaciones](../../assets/classification-set-schema.png)
 
 Están disponibles los siguientes botones:
 

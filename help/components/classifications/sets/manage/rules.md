@@ -3,9 +3,9 @@ title: Reglas del conjunto de clasificación
 description: Ver y editar las reglas de un conjunto de clasificaciones individual.
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 1%
 Las reglas de conjuntos de clasificaciones permiten clasificar automáticamente los valores según el valor en el que esté configurada la variable. Estas reglas se aplican a todos los valores de variables entrantes de todas las suscripciones del conjunto de clasificaciones.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificación]** > **[!UICONTROL Conjuntos]** > Haga clic en el nombre del conjunto de clasificación deseado > **[!UICONTROL Reglas]**
+
+![IU de reglas de conjunto de clasificación](../../assets/csets-rules.png)
 
 ## Configuración de reglas
 
