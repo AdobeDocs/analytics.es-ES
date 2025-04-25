@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
+source-git-commit: 336347d3302ff8d78ee6ce87f3fa3acad5742dd9
 workflow-type: tm+mt
-source-wordcount: '6380'
+source-wordcount: '6378'
 ht-degree: 99%
 
 ---
@@ -26,7 +26,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Marzo de 2025** |  |
-| | **Inventario de Analytics** | En esta página se ofrece información general completa sobre el entorno de Adobe Analytics, incluido el número de proyectos y componentes, grupos de informes, usuarios, etc. [Más información](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/analytics-inventory) |
+| Inventario de Analytics | [Inventario de Analytics](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/analytics-inventory) proporciona una descripción general completa de su entorno de Adobe Analytics, que incluye el número de proyectos y componentes, grupos de informes, usuarios y más. |
 | Guía de actualización de Customer Journey Analytics | Le permite generar una [guía paso a paso](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) para actualizar de Adobe Analytics a Customer Journey Analytics.  |
 | Se ha aclarado el formato de fecha en las exportaciones de Data Warehouse | Los valores de dimensión basados en el tiempo en las exportaciones de Data Warehouse tienen un formato de fecha no estándar. Se ha añadido información que explica cómo interpretar los valores de fecha de las exportaciones de Data Warehouse. <p>Véase [Dimensiones admitidas de forma diferente (formato de fecha no estándar)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) en [Compatibilidad de los componentes de Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
 | Información actualizada sobre exclusiones de IP | Se ha añadido información que explica que [las exclusiones de IP](/help/admin/admin/exclude-ip.md) pueden tardar hasta 5 minutos en surtir efecto y que los cambios se aplican solamente a las nuevas visitas (los datos capturados antes de que se establezca la exclusión no se verán afectados). <p>También se ha actualizado el diseño del contenido para mejorar la legibilidad.</p> |
