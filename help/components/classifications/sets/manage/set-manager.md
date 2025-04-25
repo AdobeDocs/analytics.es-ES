@@ -3,9 +3,9 @@ title: Administrador de conjuntos de clasificación
 description: Administrar conjuntos de clasificaciones en Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '370'
 ht-degree: 7%
 
 ---
@@ -23,6 +23,8 @@ Los conjuntos de clasificaciones constan de **Suscripciones** (grupos de informe
 La parte izquierda del Administrador de conjuntos de clasificaciones proporciona una configuración de filtro para localizar el conjunto de clasificaciones deseado. Al hacer clic en el icono de filtro, se alterna la visibilidad de la configuración del filtro. Puede filtrar conjuntos de clasificaciones por **[!UICONTROL Etiquetas]** o **[!UICONTROL Grupo de informes]**.
 
 ![Filtros del conjunto de clasificaciones](../../assets/classification-set-filters.png)
+
+Tenga en cuenta que se precargan 1000 conjuntos de clasificaciones a la vez. Los filtros que se muestran en el carril izquierdo reflejan las opciones de los conjuntos precargados.
 
 ## Columnas del Administrador de conjuntos de clasificaciones
 

@@ -3,10 +3,10 @@ title: Esquema del conjunto de clasificación
 description: Ver y editar el esquema de un conjunto de clasificaciones individual.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 43%
+source-wordcount: '616'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ Ver las dimensiones de clasificación configuradas actualmente para este conjunt
 Están disponibles los siguientes botones:
 
 <!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
-* **[!UICONTROL Cargar]**: Cargue manualmente los datos de clasificación de una o varias dimensiones de clasificación. Se admiten los archivos `JSON`, `CSV`, `TSV` y `TAB`. Al cargar un archivo válido, se muestra una previsualización de tabla de los datos que se van a clasificar.
+* **[!UICONTROL Cargar]**: Cargue manualmente los datos de clasificación de dimensiones de clasificación. Se admiten los archivos `JSON`, `CSV`, `TSV` y `TAB`. Al cargar un archivo válido, se muestra una previsualización de tabla de los datos que se van a clasificar.
    * **[!UICONTROL Codificación de archivos]**: seleccione la codificación de archivo correcta mediante esta lista desplegable. Las opciones válidas incluyen [!UICONTROL UTF-8] y [!UICONTROL Latin1].
    * **[!UICONTROL Delimitador de lista]**: Seleccione el delimitador de lista correcto. Si utiliza un archivo de plantilla o archivo descargado, asegúrese de que el [!UICONTROL Delimitador de lista] aquí coincide el [!UICONTROL Delimitador de lista] cuando se descargó el archivo.
    * **[!UICONTROL Aplicar]**: guarde los datos de clasificación cargados en el conjunto de clasificaciones.
@@ -59,3 +59,13 @@ Están disponibles los siguientes botones:
    * **[!UICONTROL Delimitador]**: El delimitador de columna para los archivos cargados. Las opciones incluyen [!UICONTROL Coma], [!UICONTROL Punto y coma], [!UICONTROL Dos puntos], [!UICONTROL Barra vertical], [!UICONTROL Espacio], [!UICONTROL Barra diagonal], [!UICONTROL Barra diagonal], [!UICONTROL Guión] o [!UICONTROL Guión bajo].
 
    * **[!UICONTROL Codificación]**: Una lista desplegable que determina la codificación del archivo. Las opciones incluyen [!UICONTROL UTF-8] y [!UICONTROL Latin1]. Se recomienda UTF-8.
+
+Las siguientes acciones solo están disponibles después de seleccionar una clasificación.
+
+* **Agregar búsqueda**: una tabla de búsqueda es una clasificación de una clasificación. Se trata de metadatos sobre un valor de clasificación, en lugar de la variable en sí. Por ejemplo, la variable Product puede tener una clasificación de &quot;código de color&quot;. Se puede adjuntar una tabla de búsqueda de &quot;nombre de color&quot; al &quot;código de color&quot; para explicar cuáles son los colores.
+
+  ![Adjuntar tabla de búsqueda](../../assets/lookup.png)
+
+* **Cambiar nombre**: permite cambiar el nombre de la clasificación.
+
+* **Eliminar**: permite eliminar la clasificación.
