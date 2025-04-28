@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: Aprenda formas de implementar Adobe Analytics. Personalice qué se recopila para aprovechar al máximo los datos de Analytics.
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 90%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 100%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Complementos {#plugins}
+   + Complementos  {#plugins}
       + [Información general de complementos](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -130,9 +130,8 @@ ht-degree: 100%
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
-      + [websiteBot](vars/plugins/websitebot.md)
    + [Integrar módulo](vars/integrate.md)
-+ Preparar la implementación de Adobe Analytics {#prepare}
++ Preparación para implementar Adobe Analytics {#prepare}
    + [Creación de una capa de datos](prepare/data-layer.md)
    + [Comparación de los métodos de implementación](prepare/comparison.md)
    + [Consideraciones sobre el grupo de informes globales](prepare/global-rs.md)
@@ -173,13 +172,13 @@ ht-degree: 100%
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [Resolución de problemas del código H](js/h-code/troubleshooting.md)
-   + Identificación entre dispositivos heredada {#xdevice-visid}
+   + Identificación heredada entre dispositivos {#xdevice-visid}
       + [Información general de conexión de usuarios entre dispositivos](js/xdevice-visid/xdevice-connecting.md)
       + [Persistencia de la variable](js/xdevice-visid/variable-persistence.md)
       + [Ejemplo de visita](js/xdevice-visid/visit-example.md)
       + [Preguntas frecuentes sobre dispositivos cruzados heredados](js/xdevice-visid/xdevice-faq.md)
    + [Solución de problemas de AppMeasurement](js/troubleshooting.md)
-+ Implementar Analytics en otras plataformas {#other}
++ Implementación de Analytics en otras plataformas {#other}
    + [Implementación de Analytics mediante solicitudes de imagen codificadas](other/hardcoded.md)
    + [Implementación de Analytics en Ajax](other/ajax.md)
    + [Implementación de Analytics en AMP](other/amp.md)
@@ -190,7 +189,7 @@ ht-degree: 100%
    + [Uso de AppMeasurement con iFrames](use-cases/iframe.md)
    + [Seguimiento en diferentes tipos de implementación](use-cases/cross-type-implementation.md)
    + [Flujo de trabajo de seguimiento de campaña](use-cases/campaign-tracking.md)
-+ Validación de la implementación {#validate}
++ Valide la implementación {#validate}
    + [Adobe Experience Cloud Debugger antiguo](validate/debugger.md)
    + [Parámetros de consulta de recopilación de datos](validate/query-parameters.md)
    + [Monitores de paquetes](validate/packet-monitor.md)
