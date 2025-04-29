@@ -3,16 +3,16 @@ title: Proceso de consolidación del conjunto de clasificaciones
 description: Proceso completo de consolidación de conjuntos de clasificaciones.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: 828f41bf45c1954c3b68ad71a7746e24626b9eed
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
 # Proceso de consolidación del conjunto de clasificaciones
 
-Utilice esta interfaz para crear una consolidación de juego de clasificaciones de principio a fin.
+Las consolidaciones de clasificación le permiten tomar clasificaciones de varios conjuntos de datos y combinarlas en uno solo. Utilice esta interfaz para crear una consolidación de juego de clasificaciones de principio a fin. Esta interfaz es muy valiosa para las organizaciones que pasan de una arquitectura de clasificación heredada a una arquitectura de conjunto de clasificaciones. La mayoría de las organizaciones que ya están en la arquitectura del conjunto de clasificaciones no suelen necesitar utilizar este flujo de trabajo de consolidación.
 
 ## Creación
 
@@ -45,6 +45,6 @@ Una vez validada una consolidación, puede ejecutarla. La ejecución de una cons
 
 ## Aprobar
 
-Actúa como una última llamada antes de eliminar los conjuntos de clasificaciones individuales y crear uno consolidado. Asegúrese de que todo es correcto y haga clic en **[!UICONTROL Aprobar]**.
+Realice la última llamada antes de eliminar conjuntos de clasificaciones individuales y reemplazarlos por un conjunto de clasificaciones consolidado. Valide que todo sea correcto y, a continuación, seleccione **[!UICONTROL Aprobar]**.
 
 Una vez aprobado, se crea el conjunto de clasificaciones consolidado. El estado se establece en [!UICONTROL Completo] y no se requiere ninguna otra acción para la consolidación.

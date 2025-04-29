@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3625'
 ht-degree: 67%
 
 ---
@@ -62,7 +62,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`daily_visitor`** | Un indicador que determina si la visita es un visitante nuevo diario. | tinyint sin firmar |
 | **`dataprivacyconsentoptin`** | Dimensión [Inclusión en la administración de consentimiento](/help/components/dimensions/cm-opt-in.md). Puede haber varios valores por visita, separados por una barra vertical (`\|`). Los valores válidos incluyen `DMP` y `SELL`. | varchar(100) |
 | **`dataprivacyconsentoptout`** | Dimensión [Exclusión de la administración de consentimiento](/help/components/dimensions/cm-opt-out.md). Puede haber varios valores por visita, separados por una barra vertical (`\|`). Los valores válidos incluyen `SSF`, `DMP` y `SELL`. | varchar(100) |
-| **`dataprivacydmaconsent`** | Valor que identifica si se adquiere el consentimiento para enviar datos de Adobe Analytics a través del Adobe Advertising a proveedores de publicidad de terceros (como Google). Consulte [Consentimiento de publicidad](/help/components/dimensions/ad-consent.md) para obtener más información. | varchar(100) |
+| **`dataprivacydmaconsent`** | Valor que identifica si se adquiere el consentimiento para enviar datos de Adobe Analytics a través de Adobe Advertising a proveedores de publicidad de terceros (como Google). Consulte [Consentimiento de publicidad](/help/components/dimensions/ad-consent.md) para obtener más información. | varchar(100) |
 | **`date_time`** | La hora de la visita en un formato legible, basada en la zona horaria del grupo de informes. | datetime |
 | **`domain`** | El [dominio](/help/components/dimensions/domain.md) dimensión. Se basa en el punto de acceso a Internet del visitante. | varchar(100) |
 | **`duplicate_events`** | Muestra cada evento que se contó como duplicado. | varchar(255) |
@@ -145,7 +145,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`monthly_visitor`** | Un indicador que determina si el visitante es único en el mes actual. | tinyint sin firmar |
 | **`mvvar1`** - `mvvar3` | [Valores de variable de lista](/help/implement/vars/page-vars/list.md). Contiene una lista delimitada de valores personalizados en función de la implementación. Las columnas `post_mvvar1` - `post_mvvar3` reemplazan el delimitador original por `--**--`. | texto |
 | **`mvvar1_instances`** - `mvvar3_instances` | Los valores de variable de lista que se establecieron en la visita actual. Reemplaza el delimitador original por `--**--`. Las `post` columnas generalmente no contienen datos. | texto |
-| **`new_visit`** | Un indicador que determina si la visita actual es una visita nueva. Se establece por Adobe después de 30 minutos de inactividad de la visita. | tinyint sin firmar |
+| **`new_visit`** | Un indicador que determina si la visita actual es una visita nueva. Configurado por Adobe tras 30 minutos de inactividad de la visita. | tinyint sin firmar |
 | **`os`** | ID numérica que representa el sistema operativo del visitante. Se basa en la columna`user_agent`. El valor clave de `operating_system.tsv` búsqueda estándar y `operating_system_type.tsv` [Búsqueda dinámica](dynamic-lookups.md). | int sin firmar |
 | **`page_event`** | El tipo de visita que se envía en la solicitud de imagen (visita estándar, vínculo de descarga, vínculo personalizado, vínculo de salida). Consulte [Búsqueda de evento de página](datafeeds-page-event.md). | tinyint sin firmar |
 | **`page_event_var1`** | Solo se utiliza en las solicitudes de imagen de seguimiento de vínculos. Es la URL del vínculo de descarga, el vínculo de salida o el vínculo personalizado en el que se ha hecho clic. | texto |
@@ -405,3 +405,8 @@ La siguiente lista de columnas no se utiliza, se retira o no contiene valor en l
 * `videoresume`
 * `videototaltime`
 * `videouniquetimeplayed`
+
+>[!MORELIKETHIS]
+>
+>[Asignación de variables de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md)
+>[Asignación de variables de objeto de datos ](/help/implement/aep-edge/data-var-mapping.md)

@@ -3,10 +3,10 @@ title: Vínculo de descarga
 description: Nombre del vínculo de descarga.
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: 33d837cfa7909bd93d5a4f675aa0d8894a403266
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 87%
+source-wordcount: '193'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ El &quot;Vínculo de descarga&quot; [dimension](overview.md) indica los nombres 
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión recopila datos de la [`pev2` cadena de consulta ](/help/implement/validate/query-parameters.md) en solicitudes de imagen para visitas individuales que también tienen la cadena de consulta `pe` con el valor de `lnk_d`. Si la cadena de consulta `pe` tiene un valor diferente en la visita, esta dimensión no recopila datos.
+Esta dimensión recopila datos de la [`pev2` cadena de consulta ](/help/implement/validate/query-parameters.md) en solicitudes de imagen para visitas individuales que también tienen la cadena de consulta `pe` con el valor de `lnk_d`. Si la cadena de consulta `pe` tiene un valor diferente en la visita, esta dimensión no recopila datos. La longitud máxima de esta dimensión es de 100 bytes.
 
 Si desea enviar datos a esta dimensión mediante AppMeasurement, envíe una solicitud de imagen [`tl()`](/help/implement/vars/functions/tl-method.md) con un argumento de tipo de vínculo de `"d"`. Rellene el argumento del nombre del vínculo con el valor deseado:
 
