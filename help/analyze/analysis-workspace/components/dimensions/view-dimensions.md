@@ -4,10 +4,10 @@ title: Vista preliminar de dimensiones
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 9f040971d1198fe7774bc04f6c42cc4e2145b197
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 90%
 
 ---
 
@@ -29,4 +29,4 @@ Ahora, y de forma predeterminada, se mostrarán valores dinámicos en lugar de v
 
 Al pasar el ratón por encima de una dimensión y hacer clic en la flecha derecha gris que se muestra al lado, aparece una lista de los elementos de su dimensión. Normalmente, en cualquier lista de elementos de dimensión se muestran los elementos principales de los últimos 30 días.
 
-Si se desplaza hacia abajo hasta la parte final de la lista, verá **[!UICONTROL Mostrar los elementos principales de los últimos 6 meses]**. Haga clic en esta opción para ver los elementos principales de la dimensión durante los últimos 180 días.
+Si se desplaza hacia abajo hasta la parte inferior de la lista, verá **[!UICONTROL Mostrar los elementos principales de los últimos 18 meses]**. Haga clic en esta opción para ver los elementos principales de la dimensión durante los últimos 547 días.
