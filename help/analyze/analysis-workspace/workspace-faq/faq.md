@@ -4,9 +4,9 @@ title: Preguntas frecuentes y resolución de problemas de Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 49dd8080f74811b7618a8bd4ad278b35e8c02641
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 81%
 
 ---
@@ -74,5 +74,5 @@ Si ha creado correctamente un informe de espacio de trabajo pero no hay datos, p
 +++
 
 +++Como usuario de solo lectura, ¿qué acciones puedo realizar en Analysis Workspace?
-Cuando un proyecto se comparte como de solo lectura, todas las funciones y características de edición se desactivan por completo y los destinatarios solo pueden cambiar la lista desplegable para aplicar un filtro al panel de forma predefinida.
+Cuando un proyecto se comparte como de solo lectura, todas las funciones y características de edición se desactivan por completo y los destinatarios solo pueden cambiar el menú desplegable para aplicar un filtro al panel de forma predefinida.
 +++

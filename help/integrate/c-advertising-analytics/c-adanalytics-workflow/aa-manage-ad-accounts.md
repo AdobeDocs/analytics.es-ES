@@ -3,10 +3,10 @@ description: Administre cuentas en Advertising Analytics.
 title: Administrar las cuentas publicitarias
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 6%
+source-wordcount: '460'
+ht-degree: 7%
 
 ---
 
@@ -62,7 +62,7 @@ Para asignar una o varias cuentas publicitarias a grupos de informes:
 1. (opcional) Seleccione más de una cuenta publicitaria.
 1. Seleccione ![Más](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) para una cuenta publicitaria específica.
 1. Seleccione ![Actualizar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Asignar grupos de informes]** del menú contextual.
-1. En el cuadro de diálogo Asignar grupos de informes, seleccione uno o varios grupos de informes en la lista desplegable. Puede eliminar grupos de informes de la asignación mediante ![Cross](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg).
+1. En el cuadro de diálogo Asignar grupos de informes, seleccione uno o varios grupos de informes en el menú desplegable. Puede eliminar grupos de informes de la asignación mediante ![Cross](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg).
 1. Seleccione **[!UICONTROL Guardar]** para guardar la asignación.
 
 

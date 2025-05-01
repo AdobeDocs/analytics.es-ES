@@ -5,14 +5,14 @@ title: Dimensiones disponibles para las reglas de procesamiento
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 13%
 
 ---
 
-# Dimension y métricas disponibles para las reglas de procesamiento
+# Dimensiones y métricas disponibles para las reglas de procesamiento
 
 Las dimensiones y métricas disponibles que se pueden leer y escribir mediante reglas de procesamiento.
 
@@ -27,10 +27,10 @@ Las dimensiones y métricas disponibles que se pueden leer y escribir mediante r
 
 | Atributo | Estado de lectura y escritura | Descripción |
 | --- | --- | --- |
-| URL de la página | Lectura y escritura | La dimensión [URL de la página](/help/components/dimensions/page-url.md). Las visitas de seguimiento de vínculos eliminan esta dimensión antes de alcanzar las reglas de procesamiento. Si vuelve a insertar un valor de dirección URL de página mediante reglas de procesamiento, la visita se considera una [vista de página](/help/components/metrics/page-views.md) en lugar de un [evento de página](/help/components/metrics/page-events.md). El Adobe recomienda comprobar un valor en la dimensión de página antes de modificarlo. |
-| Nombre de página | Lectura y escritura | La dimensión [Página](/help/components/dimensions/page.md). Las visitas de seguimiento de vínculos eliminan esta dimensión antes de alcanzar las reglas de procesamiento. Si vuelve a insertar un valor de página mediante reglas de procesamiento, la visita se considera una [vista de página](/help/components/metrics/page-views.md) en lugar de un [evento de página](/help/components/metrics/page-events.md). El Adobe recomienda comprobar un valor en la dimensión de página antes de modificarlo. |
-| ID del grupo de informes | Solo lectura | Grupo de informes en el que se ejecuta la regla de procesamiento. Este grupo de informes puede ser diferente al grupo de informes enviado originalmente a través del AppMeasurement, como cuando se utilizan reglas de VISTA. |
-| Versión del código de AppMeasurement | Solo lectura | Versión de la biblioteca de AppMeasurement utilizada para generar la solicitud de imagen. |
+| URL de la página | Lectura y escritura | La dimensión [URL de la página](/help/components/dimensions/page-url.md). Las visitas de seguimiento de vínculos eliminan esta dimensión antes de alcanzar las reglas de procesamiento. Si vuelve a insertar un valor de dirección URL de página mediante reglas de procesamiento, la visita se considera una [vista de página](/help/components/metrics/page-views.md) en lugar de un [evento de página](/help/components/metrics/page-events.md). Adobe recomienda comprobar un valor en la dimensión de página antes de modificarla. |
+| Nombre de página | Lectura y escritura | La dimensión [Página](/help/components/dimensions/page.md). Las visitas de seguimiento de vínculos eliminan esta dimensión antes de alcanzar las reglas de procesamiento. Si vuelve a insertar un valor de página mediante reglas de procesamiento, la visita se considera una [vista de página](/help/components/metrics/page-views.md) en lugar de un [evento de página](/help/components/metrics/page-events.md). Adobe recomienda comprobar un valor en la dimensión de página antes de modificarla. |
+| ID del grupo de informes | Solo lectura | Grupo de informes en el que se ejecuta la regla de procesamiento. Este grupo de informes puede ser diferente al grupo de informes enviado originalmente a través de AppMeasurement, como cuando se utilizan reglas de VISTA. |
+| Versión de código AppMeasurement | Solo lectura | Versión de la biblioteca AppMeasurement utilizada para generar la solicitud de imagen. |
 | Dirección IP | Solo lectura | La dirección IP del visitante. |
 | Agente de usuario | Solo lectura | El agente de usuario del visitante. |
 | Remitente del reenvío | Solo lectura | La dimensión [Referente](/help/components/dimensions/referrer.md). |
@@ -58,7 +58,7 @@ Las dimensiones y métricas disponibles que se pueden leer y escribir mediante r
 | ID de transacción | Lectura y escritura | La variable de implementación [`transactionID`](/help/import/data-sources/transactionid.md). |
 
 >[!NOTE]
->El Adobe no admite la configuración de la variable de implementación [`products`](/help/implement/vars/page-vars/products.md) mediante reglas de procesamiento.
+>Adobe no admite la configuración de la variable de implementación [`products`](/help/implement/vars/page-vars/products.md) mediante reglas de procesamiento.
 
 ## Variables de tráfico
 
@@ -75,7 +75,7 @@ Todas las [variables de datos de contexto](/help/implement/vars/page-vars/contex
 
 ## Eventos de éxito
 
-Las reglas de procesamiento pueden definir eventos, pero no pueden leerlos como condiciones. Defina el menú desplegable de acciones de regla en **[!UICONTROL Definir evento]** para ver las métricas disponibles que se incrementarán.
+Las reglas de procesamiento pueden definir eventos, pero no pueden leerlos como condiciones. Establezca el menú desplegable de acciones de regla en **[!UICONTROL Definir evento]** para ver las métricas disponibles que se incrementarán.
 
 | Variable | Estado de lectura y escritura | Descripción |
 | --- | --- | --- |

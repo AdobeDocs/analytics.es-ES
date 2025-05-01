@@ -4,10 +4,10 @@ title: Resumen de paneles
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '2157'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -57,7 +57,7 @@ Puede realizar lo siguiente:
   | Seleccionar… | Para crear un filtro: |
   |---|---|
   | ![Tabla](/help/assets/icons/Table.svg) | [Tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
-  | ![Líneas](/help/assets/icons/GraphTrend.svg) | [Líneas](/help/analyze/analysis-workspace/visualizations/line.md) |
+  | ![Líneas](/help/assets/icons/GraphTrend.svg) | [Línea](/help/analyze/analysis-workspace/visualizations/line.md) |
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barra](/help//analyze/analysis-workspace/visualizations/bar.md) |
   | ![123](/help/assets/icons/123.svg) | [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Texto](/help/assets/icons/Text.svg) | [Texto](/help/analyze/analysis-workspace/visualizations/text.md) |
@@ -78,7 +78,7 @@ Puede realizar lo siguiente:
 
 ## Grupo de informes
 
-Cada panel está asociado a un [grupo de informes](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificado por ![Datos](/help/assets/icons/Data.svg), **[!UICONTROL *nombre del grupo de informes *]**en el menú desplegable situado en la parte superior derecha del panel.
+Cada panel está asociado con un [grupo de informes](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificado por ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL *nombre del grupo de informes *]**en el menú desplegable de la parte superior derecha del panel.
 
 Al crear un panel nuevo, el grupo de informes predeterminado se basa en el grupo de informes del último panel en el que trabajó en el proyecto Analysis Workspace.
 
@@ -112,7 +112,7 @@ El calendario del panel controla el intervalo de la creación de informes de las
 ![La ventana del calendario que muestra el intervalo de fechas seleccionado.](assets/panel-calendar.png)
 
 1. Selecciona un intervalo de fechas seleccionando primero la fecha de inicio y, a continuación, la fecha de finalización.
-También puedes seleccionar un **[!UICONTROL ajuste preestablecido]** en el menú desplegable [!UICONTROL *Seleccionar un ajuste preestablecido*].
+También puede seleccionar un **[!UICONTROL ajuste preestablecido]** en el menú desplegable [!UICONTROL *Seleccionar un ajuste preestablecido*].
 
 1. De manera opcional, selecciona **[!UICONTROL Mostrar configuración avanzada]** para:
 

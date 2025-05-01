@@ -1,18 +1,18 @@
 ---
 title: Crear una fuente de datos
-description: Obtenga información sobre cómo crear una fuente de datos y sobre la información de archivo que se va a proporcionar al Adobe.
+description: Obtenga información sobre cómo crear una fuente de datos y sobre la información de archivo que se va a proporcionar a Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4129'
 ht-degree: 53%
 
 ---
 
 # Creación de una fuente de datos
 
-Al crear una fuente de datos, debe dar su Adobe con lo siguiente:
+Al crear una fuente de datos, debe proporcionar a Adobe lo siguiente:
 
 * La información sobre el destino al que desea enviar los archivos de datos sin procesar
 * Los datos que desea incluir en cada archivo
@@ -117,7 +117,7 @@ Antes de crear una fuente de datos, es importante tener una comprensión básica
 
          {style="table-layout:auto"}
 
-      1. Seleccione [!UICONTROL **Agregar ubicación**] y, a continuación, especifique la siguiente información:
+      1. Seleccione [!UICONTROL **Añadir ubicación**] y, a continuación, especifique la siguiente información:
 
          | Campo | Función |
          |---------|----------|
@@ -190,7 +190,7 @@ Antes de crear una fuente de datos, es importante tener una comprensión básica
 
          {style="table-layout:auto"}
 
-      1. Seleccione [!UICONTROL **Agregar ubicación**] y, a continuación, especifique la siguiente información:
+      1. Seleccione [!UICONTROL **Añadir ubicación**] y, a continuación, especifique la siguiente información:
 
          | Campo | Función |
          |---------|----------|
@@ -260,13 +260,13 @@ Antes de crear una fuente de datos, es importante tener una comprensión básica
          | [!UICONTROL **Descripción de la cuenta**] | Descripción de la cuenta SAS de Azure. Esta descripción se muestra en el campo desplegable [!UICONTROL **Seleccionar cuenta**] y puede ser cualquier nombre que elija. |
          | [!UICONTROL **ID de aplicación**] | Copie este ID de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Información general** dentro de la aplicación. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **ID de inquilino**] | Copie este ID de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Información general** dentro de la aplicación. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **URI de almacén de claves**] | <p>Ruta al URI de SAS en Azure Key Vault. Para configurar Azure SAS, debe almacenar un URI de SAS como un secreto mediante Azure Key Vault. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Una vez creado el URI del almacén de claves:<ul><li>Añada una directiva de acceso en el almacén de claves para poder conceder permiso a la aplicación de Azure que ha creado.<p>Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo asignar una directiva de acceso de Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p><p>O</p><p>Si desea conceder un rol de acceso directamente sin crear una directiva de acceso, consulte la [documentación de Microsoft Azure sobre cómo asignar roles de Azure mediante Azure Portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal). Esto agrega la asignación de funciones para que el ID de aplicación acceda al URI del almacén de claves. </p></li><li>Asegúrese de que al ID de aplicación se le haya concedido la `Key Vault Certificate User` función integrada para acceder al URI de almacén de claves.</br><p>Para obtener más información, consulte [Funciones integradas de Azure](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul> |
+         | [!UICONTROL **URI de almacén de claves**] | <p>Ruta al URI de SAS en Azure Key Vault. Para configurar Azure SAS, debe almacenar un URI de SAS como un secreto mediante Azure Key Vault. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Una vez creado el URI del almacén de claves:<ul><li>Añada una directiva de acceso en el almacén de claves para poder conceder permiso a la aplicación de Azure que ha creado.<p>Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo asignar una directiva de acceso de almacén de claves](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p><p>O bien</p><p>Si desea conceder un rol de acceso directamente sin crear una directiva de acceso, consulte la [documentación de Microsoft Azure sobre cómo asignar roles de Azure mediante Azure Portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal). Esto agrega la asignación de funciones para que el ID de aplicación acceda al URI del almacén de claves. </p></li><li>Asegúrese de que al ID de aplicación se le haya concedido la `Key Vault Certificate User` función integrada para acceder al URI de almacén de claves.</br><p>Para obtener más información, consulte [Funciones integradas de Azure](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul> |
          | [!UICONTROL **Nombre secreto del almacén de claves**] | El nombre secreto que creó al añadir el secreto a Azure Key Vault. En Microsoft Azure, esta información se encuentra en el almacén de claves que ha creado, en las páginas de configuración del **Almacén de claves**. Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
          | [!UICONTROL **Secreto**] | Copie el secreto de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Certificados y secretos** dentro de la aplicación. Para obtener más información, consulte la [Documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
-      1. Seleccione [!UICONTROL **Agregar ubicación**] y, a continuación, especifique la siguiente información:
+      1. Seleccione [!UICONTROL **Añadir ubicación**] y, a continuación, especifique la siguiente información:
 
          | Campo | Función |
          |---------|----------|
@@ -335,11 +335,11 @@ Antes de crear una fuente de datos, es importante tener una comprensión básica
 
          {style="table-layout:auto"}
 
-      1. Seleccione [!UICONTROL **Agregar ubicación**] y, a continuación, especifique la siguiente información:
+      1. Seleccione [!UICONTROL **Añadir ubicación**] y, a continuación, especifique la siguiente información:
 
          | Campo | Función |
          |---------|----------|
-         | [!UICONTROL **Principal**] | El principal lo proporciona el Adobe. Debe conceder permiso para recibir fuentes a esta entidad de seguridad. |
+         | [!UICONTROL **Principal**] | Adobe proporciona la entidad de seguridad. Debe conceder permiso para recibir fuentes a esta entidad de seguridad. |
          | [!UICONTROL **Nombre**] | Un nombre para la cuenta. |
          | [!UICONTROL **Descripción**] | Una descripción de la cuenta. |
          | [!UICONTROL **Cubo**] | El bloque de su cuenta de GCP al que desea enviar los datos de Adobe Analytics. <p>Asegúrese de que ha concedido alguno de los siguientes permisos al principal proporcionado por Adobe: (Para obtener información sobre la concesión de permisos, consulte [Adición de un principal a una política de nivel de bloque](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) en la documentación de Google Cloud).<ul><li>`roles/storage.objectCreator`: utilice este permiso si desea limitar el principal para que solo cree archivos en la cuenta de GCP. </br>**Importante:** si utiliza este permiso con informes programados, debe utilizar un nombre de archivo único para cada nueva exportación programada. De lo contrario, la generación del informe no se realizará porque el principal no tiene acceso para sobrescribir los archivos existentes.</li><li>(Recomendado) `roles/storage.objectUser`: Use este permiso si desea que la entidad de seguridad tenga acceso para ver, enumerar, actualizar y eliminar archivos en su cuenta de GCP.</br>Este permiso permite al principal sobrescribir los archivos existentes para cargas posteriores, sin necesidad de generar automáticamente nombres de archivo únicos para cada nueva exportación programada.</li></ul><p>Si su organización utiliza [Restricciones de política de organización](https://cloud.google.com/storage/docs/org-policy-constraints) para permitir únicamente la cuenta de Google Cloud Platform en su lista de permitidos, necesita el siguiente ID de organización de Google Cloud Platform propiedad de Adobe: <ul><li>`DISPLAY_NAME`: `adobe.com`</li><li>`ID`: `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`: `C02jo8puj`</li></ul> </p> |
@@ -355,14 +355,14 @@ Antes de crear una fuente de datos, es importante tener una comprensión básica
 
 +++
 
-1. En la sección [!UICONTROL **Definiciones de columnas de datos**], seleccione la última plantilla de [!UICONTROL **Todos los Adobe Columns**] en el menú desplegable y, a continuación, rellene los campos siguientes:
+1. En la sección [!UICONTROL **Definiciones de columnas de datos**], seleccione la última plantilla de [!UICONTROL **Todas las columnas de Adobe**] en el menú desplegable y, a continuación, complete los campos siguientes:
 
    | Campo | Función |
    |---------|----------|
    | [!UICONTROL **Quitar caracteres de escape**] | Al recopilar datos, algunos caracteres (como las líneas nuevas) pueden causar problemas. Marque esta casilla si desea eliminar estos caracteres de los archivos de fuente. |
    | [!UICONTROL **Formato de compresión**] | Tipo de compresión utilizado. **Gzip** genera archivos en formato `.tar.gz`. **Zip** genera archivos en formato `.zip`. |
    | [!UICONTROL **Tipo de paquete**] | Seleccione [!UICONTROL **Varios archivos**] para la mayoría de las fuentes de datos. Esta opción pagina los datos en fragmentos de 2 GB sin comprimir. (Si se selecciona la opción [!UICONTROL **Varios archivos**] y los datos sin comprimir de la ventana de informes ocupan menos de 2 GB, se envía un solo archivo). Seleccionar **Un solo archivo** genera el archivo `hit_data.tsv` en un único archivo potencialmente masivo. |
-   | [!UICONTROL **Manifiesto**] | Determina si el Adobe debe enviar un [archivo de manifiesto](c-df-contents/datafeeds-contents.md#feed-manifest) al destino cuando no se recopilen datos para un intervalo de fuente. Si selecciona **Archivo de manifiesto**, recibirá un archivo de manifiesto similar al siguiente cuando no se recopilen datos:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **Manifiesto**] | Determina si Adobe debe entregar un [archivo de manifiesto](c-df-contents/datafeeds-contents.md#feed-manifest) al destino cuando no se recopilen datos para un intervalo de fuente. Si selecciona **Archivo de manifiesto**, recibirá un archivo de manifiesto similar al siguiente cuando no se recopilen datos:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **Plantillas de columna**] | Al crear muchas fuentes de datos, Adobe recomienda crear una plantilla de columna. La selección de una plantilla de columna incluye automáticamente las columnas especificadas en la plantilla. Adobe también proporciona varias plantillas de forma predeterminada. |
    | [!UICONTROL **Columnas disponibles**] | Todas las columnas de datos disponibles en Adobe Analytics. Haga clic en [!UICONTROL Agregar todo] para incluir todas las columnas en una fuente de datos. |
    | [!UICONTROL **Columnas incluidas**] | Columnas que se incluyen en una fuente de datos. Haga clic en [!UICONTROL Eliminar todo] para eliminar todas las columnas de una fuente de datos. |
@@ -385,7 +385,7 @@ La siguiente información proporciona información de configuración para cada u
 
 ### FTP
 
-Los datos de las fuentes de datos se pueden entregar en un Adobe o en una ubicación FTP alojada por el cliente. Se necesita un host FTP, un nombre de usuario y una contraseña. Utilice el campo de ruta para colocar los archivos de fuente en una carpeta. Las carpetas ya deben existir, las fuentes generan un error si la ruta de acceso especificada no existe.
+Los datos de las fuentes de datos se pueden entregar en una ubicación de Adobe o de FTP alojado por el cliente. Se necesita un host FTP, un nombre de usuario y una contraseña. Utilice el campo de ruta para colocar los archivos de fuente en una carpeta. Las carpetas ya deben existir, las fuentes generan un error si la ruta de acceso especificada no existe.
 
 Utilice la siguiente información al completar los campos disponibles:
 

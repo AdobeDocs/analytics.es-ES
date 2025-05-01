@@ -4,10 +4,10 @@ title: Configurar una visualización de abandonos
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Puede realizar rutas en dimensiones, métricas y segmentos. Por ejemplo, suponga
 ## Usar
 
 1. Añada una visualización de ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Abandonos]**. Consulte [Añadir una visualización a un panel](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
-1. Arrastre una página, por ejemplo, inicio, desde la dimensión Página al menú desplegable *Añadir punto de contacto*.
+1. Arrastre una página, por ejemplo inicio, desde la dimensión Página al menú desplegable *Agregar punto de contacto*.
 
    ![La página de inicio de la dimensión Página de inicio se arrastró al campo Añadir punto de contacto.](assets/fallout-drag.png)
 
