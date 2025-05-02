@@ -4,10 +4,10 @@ description: Descubra cómo se pueden utilizar los perfiles de producto como aju
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: ed7b25491de5c1238e846997ec903df4fd4ee18c
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 93%
+source-wordcount: '669'
+ht-degree: 65%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 Los perfiles de producto son ajustes preestablecidos de permisos que los administradores de productos pueden asignar a los usuarios de una organización. Si crea un perfil de producto y asigna un usuario de Experience Cloud a ese perfil de producto, heredarán los elementos de permiso contenidos en el perfil de producto.
 
-Para obtener información general sobre los perfiles de producto, incluida la creación de perfiles de producto y la asignación de usuarios, consulte [Administrar perfiles de producto para usuarios empresariales](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) en la guía de usuario de empresa.
+Para obtener información general sobre los perfiles de producto, incluida la creación de perfiles de producto y la asignación de usuarios, consulte [Administrar perfiles de producto para usuarios empresariales](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) en la guía de usuario de Enterprise.
 
 ## Administradores de perfil de producto
 
@@ -30,7 +30,7 @@ Para obtener información sobre cómo asignar administradores de perfil de produ
 
 ## Elementos de permiso de Adobe Analytics
 
-Los permisos mínimos requeridos en un perfil de producto para acceder a Adobe Analytics son los siguientes:
+Los permisos mínimos requeridos en un único perfil de producto para acceder a Adobe Analytics son los siguientes:
 
 * El perfil de producto debe tener acceso al menos a un grupo de informes
 * El perfil de producto debe pertenecer al elemento de permiso Herramientas de Analytics **Acceso a Analysis Workspace**.
@@ -47,7 +47,7 @@ Las métricas personalizadas están etiquetadas como &#39;Evento personalizado 1
 
 ### Dimensiones
 
-Otorga acceso a las dimensiones del grupo de informes. Los Dimension se enumeran como sus respectivos componentes en Analysis Workspace.
+Otorga acceso a las dimensiones del grupo de informes. Las dimensiones se muestran como sus respectivos componentes en Analysis Workspace.
 
 Las variables personalizadas, como las eVars, están etiquetadas como &#39;Conversión personalizada 1-250&#39; para mantenerlas independientes de los grupos de informes. Si &#39;Conversión personalizada 1&#39; es un elemento de permiso habilitado, ese usuario tiene acceso a eVar1 en todos los grupos de informes del perfil de producto.
 
@@ -61,6 +61,6 @@ Los elementos de permiso de las herramientas de Analytics conceden acceso a func
 
 ## Desarrolladores de perfil de producto
 
-Los desarrolladores son similares a los usuarios, pero se les concede la capacidad de usar la API de Experience Cloud en Adobe Developers. Consulte [Administrar desarrolladores](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) en la guía de usuario de empresa para obtener más información. Si se concede a un usuario acceso de desarrollador para cualquier perfil, puede acceder a la consola de desarrollador (console.adobe.io) y editar las integraciones de Adobe Analytics. Las llamadas y respuestas de la API de Analytics autorizadas para el usuario dependerán de los permisos de red de todos los perfiles en los que dicho usuario tenga acceso de desarrollador.
+Los desarrolladores son similares a los usuarios, pero se les concede la capacidad de utilizar la API de Experience Cloud en Adobe Developer. Consulte [Administrar desarrolladores](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) en la guía de usuario de empresa para obtener más información. Si se concede a un usuario acceso de desarrollador para cualquier perfil, puede acceder a la consola de desarrollador (console.adobe.io) y editar las integraciones de Adobe Analytics. Las llamadas y respuestas de la API de Analytics autorizadas para el usuario dependen de los permisos de red de todos los perfiles a los que el usuario tiene acceso de desarrollador.
 
-Por ejemplo, con permisos de perfil que incluyen todas las métricas, todas las dimensiones y un grupo de informes, un miembro del perfil con acceso de desarrollador puede hacer llamadas de API pertinentes a cualquier componente dentro del grupo relevante. Con la detección de anomalías agregada, los informes podrían incluir respuestas más completas, lo que agregaría datos con anomalías. Como regla general, si un perfil concede acceso a un escenario dentro de la interfaz de Adobe Analytics, el acceso de desarrollador en un perfil definido de forma similar habilitaría las llamadas y respuestas de API correspondientes.
+Por ejemplo, con permisos de perfil que incluyen todas las métricas, todas las dimensiones y un grupo de informes, un desarrollador puede hacer llamadas de API relevantes para cualquier componente dentro de ese grupo de informes. Si se añade el elemento de permiso Detección de anomalías, las respuestas de la API pueden incluir datos de anomalías. Como regla general, si un perfil concede acceso a un escenario dentro de la interfaz de Adobe Analytics, el acceso de desarrollador a un perfil definido de forma similar habilitaría las llamadas y respuestas de API correspondientes.
