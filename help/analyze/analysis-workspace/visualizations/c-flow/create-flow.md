@@ -4,14 +4,66 @@ title: Configuración de una visualización de flujo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
-workflow-type: ht
-source-wordcount: '1415'
-ht-degree: 100%
+source-git-commit: c9994a81df411f20a3b146f39f16a90e863373c1
+workflow-type: tm+mt
+source-wordcount: '1628'
+ht-degree: 91%
 
 ---
 
-# Configuración de una visualización de flujo
+# Configuración de una visualización de flujo {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_startswith"
+>title="Comienza con"
+>abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_contains"
+>title="Contiene"
+>abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_endswith"
+>title="Finaliza con"
+>abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_pathingdimension"
+>title="Dimensión de las rutas"
+>abstract="Seleccione una dimensión para utilizarla como ruta de acceso o de salida del componente seleccionado."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_container"
+>title="Contenedor de flujo"
+>abstract="Seleccione el contenedor que desea utilizar para mostrar (números para) las rutas."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_disabled"
+>title="Incluir repeticiones (deshabilitado)"
+>abstract="Las repeticiones no se pueden eliminar de las visualizaciones de flujo que incluyen dimensiones de varios valores."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_default"
+>title="Incluir repeticiones"
+>abstract="Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo: recargas de página."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_limit_occurrence"
+>title="Limitar a la primera/última ocurrencia"
+>abstract="Los resultados se limitan a rutas cuando el primer/último punto de contacto es una entrada/salida."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_numberofcolumns"
+>title="Número de columnas"
+>abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_itemsexpandedpercolumn"
+>title="Elementos expandidos por columna"
+>abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+
+
 
 Las visualizaciones de flujos le permiten comprender los recorridos que se derivan de un evento de conversión específico en el sitio web o la aplicación, o que conducen a él. Traza una ruta a través de las dimensiones (y elementos de dimensión) o las métricas. 
 
