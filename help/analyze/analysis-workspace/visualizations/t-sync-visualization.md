@@ -1,18 +1,23 @@
 ---
-description: La sincronización de visualizaciones le permite controlar qué tabla de datos o fuente de datos corresponde con una visualización.
+description: La sincronización de visualizaciones le permite controlar qué tabla de datos o fuente de datos corresponde a una visualización.
 keywords: Analysis Workspace;Sincronizar visualización con fuente de datos
 title: Administración de las fuentes de datos de visualización
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 96%
 
 ---
 
-# Administración de las fuentes de datos de visualización
+# Administración de las fuentes de datos de visualización {#manage-visualization-data-sources}
+
+>[!CONTEXTUALHELP]
+>id="workspace_datasource_lock_selection"
+>title="Bloquear selección"
+>abstract="Active esta configuración para bloquear la visualización en las posiciones de tabla o en los elementos exactos seleccionados en la fuente de datos."
 
 La sincronización de visualizaciones le permite controlar qué tabla de datos o fuente de datos corresponde con una visualización.
 
@@ -29,6 +34,8 @@ Al administrar una fuente de datos, puede mostrar la fuente de datos o bloquear 
    Al sincronizar una visualización con una celda de tabla, se crea una nueva tabla (oculta) y se codifica con colores la visualización sincronizada con esa tabla.
 
 ## Configuración de la fuente de datos
+
+
 
 
 >[!BEGINSHADEBOX]
