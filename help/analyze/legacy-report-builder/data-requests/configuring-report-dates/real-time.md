@@ -31,4 +31,4 @@ Permisos de respetos en tiempo real para usuarios y grupos Por ejemplo, si no di
 
 >[!NOTE]
 >
->[!UICONTROL Informes en tiempo real] no son lo mismo que la función [Incluir datos actuales](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html) (Actualización de los datos) lanzada anteriormente, que redujo la latencia de los informes estándar al mostrar los datos antes de que finalizara.
+>[!UICONTROL Informes en tiempo real] no son lo mismo que la función [Incluir datos actuales](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html?lang=es) (Actualización de los datos) lanzada anteriormente, que redujo la latencia de los informes estándar al mostrar los datos antes de que finalizara.

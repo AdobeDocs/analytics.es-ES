@@ -135,7 +135,7 @@ Además, haga un [inventario de Adobe Analytics](/help/admin/admin/analytics-inv
 
 Si falla una migración, puede volver a intentar la migración.
 
-Antes de reintentar una migración fallida, asegúrese de eliminar [elementos no compatibles](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors) del proyecto.
+Antes de reintentar una migración fallida, asegúrese de eliminar [elementos no compatibles](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=es#understand-unsupported-elements-that-cause-errors) del proyecto.
 
 >[!NOTE]
 >

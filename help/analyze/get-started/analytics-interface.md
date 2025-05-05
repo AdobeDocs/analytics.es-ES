@@ -79,7 +79,7 @@ La pestaña [!UICONTROL Componentes] incluye características que le ayudan a af
    | Search&amp;Promote | Esta funcionalidad ya no es compatible. |  |
    | Mobile Services | Esta funcionalidad ya no es compatible. |  |
    | Paneles de Analytics (aplicación móvil) | La aplicación de paneles de Adobe Analytics ofrece información de Adobe Analytics en cualquier momento y lugar. En la aplicación, se pueden ver Cuadros de resultados intuitivos creados con la IU de escritorio de Adobe Analytics. | La aplicación de paneles de Adobe Analytics en la tienda de aplicaciones iOS o en la tienda Google Play |
-   | Report Builder | El Report Builder de Adobe es un complemento para Microsoft Excel. Le permite generar solicitudes personalizadas a partir de datos de Adobe Analytics, que se pueden insertar en sus hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que Report Builder presenta los datos. | [¿Qué es Report Builder?](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
+   | Report Builder | El Report Builder de Adobe es un complemento para Microsoft Excel. Le permite generar solicitudes personalizadas a partir de datos de Adobe Analytics, que se pueden insertar en sus hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que Report Builder presenta los datos. | [¿Qué es Report Builder?](https://experienceleague.adobe.com/es/docs/analytics/analyze/report-builder/rb-overview) |
 
    {style="table-layout:auto"}
 

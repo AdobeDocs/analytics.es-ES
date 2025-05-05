@@ -37,7 +37,7 @@ El SDK web no puede conectar una función después de compilar los datos pero an
 
 ## Realizar un seguimiento previo de las llamadas de retorno implementando manualmente el SDK web
 
-El SDK web no puede conectar una función después de compilar los datos pero antes de enviarlos al Adobe. Sin embargo, puede usar `onBeforeEventSend` para registrar una función que se va a ejecutar justo antes de enviar los datos, de forma similar a `doPlugins`. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) en la documentación del SDK web para obtener más información.
+El SDK web no puede conectar una función después de compilar los datos pero antes de enviarlos al Adobe. Sin embargo, puede usar `onBeforeEventSend` para registrar una función que se va a ejecutar justo antes de enviar los datos, de forma similar a `doPlugins`. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=es#modifying-events-globally) en la documentación del SDK web para obtener más información.
 
 ```js
 // Set the trackingCode XDM field to "New value"

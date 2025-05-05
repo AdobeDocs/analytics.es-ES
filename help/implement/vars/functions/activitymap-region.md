@@ -19,7 +19,7 @@ La variable `ActivityMap.region` le permite invalidar la lógica que utiliza el 
 
 ## Omisión de los valores de región mediante el SDK web
 
-Puede usar la llamada de retorno [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) para alterar la carga útil del SDK web o anular el envío de datos.
+Puede usar la llamada de retorno [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) para alterar la carga útil del SDK web o anular el envío de datos.
 
 ## Anulación de región mediante la extensión de Adobe Analytics
 

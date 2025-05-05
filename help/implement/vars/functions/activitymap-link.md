@@ -19,7 +19,7 @@ La variable `ActivityMap.link` le permite anular la lógica que utiliza el Activ
 
 ## Anular los valores de los vínculos mediante el SDK web
 
-Puede usar la llamada de retorno [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) para alterar la carga útil del SDK web o anular el envío de datos.
+Puede usar la llamada de retorno [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) para alterar la carga útil del SDK web o anular el envío de datos.
 
 ## Anulación de vínculos con la extensión de Adobe Analytics
 

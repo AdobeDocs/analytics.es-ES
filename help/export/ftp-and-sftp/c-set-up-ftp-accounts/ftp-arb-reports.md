@@ -15,6 +15,6 @@ ht-degree: 76%
 
 Utilice el complemento Report Builder de Adobe para Microsoft Excel para crear solicitudes personalizadas a partir de datos de análisis web que se pueden insertar en las hojas de cálculo de Excel.
 
-Las solicitudes pueden hacer referencia, de forma dinámica, a las celdas que hay en la hoja de cálculo y la presentación de los datos se puede actualizar y personalizar. Para los datos de FTP, debe comprobar que el host se encuentra disponible de forma externa. Para obtener más información sobre los informes que entrega [!UICONTROL Report Builder], consulte la [Ayuda de Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview).
+Las solicitudes pueden hacer referencia, de forma dinámica, a las celdas que hay en la hoja de cálculo y la presentación de los datos se puede actualizar y personalizar. Para los datos de FTP, debe comprobar que el host se encuentra disponible de forma externa. Para obtener más información sobre los informes que entrega [!UICONTROL Report Builder], consulte la [Ayuda de Report Builder](https://experienceleague.adobe.com/es/docs/analytics/analyze/report-builder/rb-overview).
 
 Para obtener información sobre los límites de FTP y la retención de datos, consulte [Límites de FTP y retención de datos](/help/export/ftp-and-sftp/ftp-limits.md).

@@ -17,7 +17,7 @@ Si `usePlugins` está habilitada, la función [`doPlugins()`](../functions/doplu
 
 ## Usar la llamada de retorno `onBeforeEventSend` mediante el SDK web
 
-Aunque el SDK web no tiene un valor booleano para controlar la ejecución de lógica adicional antes de que los datos se envíen al Adobe, puede registrar la llamada de retorno `onBeforeEventSend` para modificar los datos. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) en la documentación del SDK web para obtener más información.
+Aunque el SDK web no tiene un valor booleano para controlar la ejecución de lógica adicional antes de que los datos se envíen al Adobe, puede registrar la llamada de retorno `onBeforeEventSend` para modificar los datos. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=es#modifying-events-globally) en la documentación del SDK web para obtener más información.
 
 ## Uso de complementos con la extensión de Adobe Analytics
 

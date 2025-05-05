@@ -15,7 +15,7 @@ ht-degree: 33%
 
 Normalmente, se utiliza la API de Experience Platform Edge Network Server para recopilar datos del lado del servidor en lugar de hacerlo del lado del cliente, y también para recopilar datos de dispositivos como dispositivos de IoT, descodificadores y aplicaciones de escritorio. A continuación, envía esos datos a la red de Edge y a servicios como Adobe Analytics.
 
-Tenga en cuenta también la API de servidor de Edge Network cuando necesite que los datos confidenciales se recopilen de forma segura y se autentiquen en la red. Consulte [Autenticación](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) para obtener más información.
+Tenga en cuenta también la API de servidor de Edge Network cuando necesite que los datos confidenciales se recopilen de forma segura y se autentiquen en la red. Consulte [Autenticación](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=es) para obtener más información.
 
 Una información general de alto nivel de las tareas de implementación:
 
@@ -48,7 +48,7 @@ Una información general de alto nivel de las tareas de implementación:
 <tr>
 <td>4</td>
 <td><b>Implemente y pruebe la recopilación de datos</b> mediante las API de recopilación de datos de evento único y de evento por lotes.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html">Recopilación de datos de un solo evento</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Recopilación de datos de eventos por lotes</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es">Recopilación de datos de un solo evento</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=es">Recopilación de datos de eventos por lotes</a>
 </tr>
 
 <td>5</td>
