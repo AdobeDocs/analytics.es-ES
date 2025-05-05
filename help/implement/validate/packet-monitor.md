@@ -5,7 +5,7 @@ keywords: detector de paquetes, estado http, 200, 302, charles
 feature: Validation
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 role: Admin, Developer, Leader
-source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
+source-git-commit: d952d199c3c02ee8d0a223569f58d56027809cfb
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 99%
@@ -34,7 +34,7 @@ Aunque Adobe no proporciona un monitor de paquetes oficial, hay una amplia varie
 | Firefox | Internet Explorer | Chrome | Programas independientes |
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin) (visor de etiquetas) | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin) (visor de etiquetas) | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Herramientas para desarrolladores Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Herramientas para desarrolladores Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.telerik.com/fiddler) |
 | [Tamper Data](https://addons.mozilla.org/es-ES/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chromewebstore.google.com/detail/firebug-lite-for-google-c/ehemiojjcpldeipjhjkepfdaohajpbdo) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
