@@ -68,7 +68,7 @@ alloy("configure", {
 
 +++
 
-Extensión de etiqueta +++Adobe Analytics
++++Extensión de etiqueta Adobe Analytics
 
 El parámetro de configuración **[!UICONTROL Usar Activity Map]** administra la recopilación de datos del Activity Map y suele estar habilitado de forma predeterminada. Está disponible para todas las extensiones de etiquetas v1.9.0 o posteriores. Puede comprobar que está activado en los ajustes de configuración de la extensión:
 

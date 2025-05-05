@@ -26,8 +26,8 @@ Para excluir datos por dirección IP, puedes configurar las exclusiones como se 
 >* Las visitas excluidas por dirección IP se facturan como [llamadas al servidor](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=es).
 >* No es necesario excluir las direcciones IP privadas. Solo las direcciones IP externas llegan a los servidores de recopilación de datos de Adobe. Las direcciones privadas incluyen `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` y `169.254.*.*`.
 >* Puede usar indicadores comodín (&#42;) para excluir un rango de direcciones. Por ejemplo, `[!DNL 0.0.*.0]` excluiría todas las direcciones IP entre `[!DNL 0.0.0.0]` y `[!DNL 0.0.255.0]`. Puede excluir hasta 50 direcciones IP diferentes.
-* Los datos de una dirección IP excluida se excluyen para cualquier nueva visita que llegue al sistema en los 5 minutos siguientes a la exclusión establecida.
-* Los datos de las visitas capturadas antes del momento en que se realizaron cambios en la dirección IP no se ven afectados.
+>* Los datos de una dirección IP excluida se excluyen para cualquier nueva visita que llegue al sistema en los 5 minutos siguientes a la exclusión establecida.
+>* Los datos de las visitas capturadas antes del momento en que se realizaron cambios en la dirección IP no se ven afectados.
 >
 
 Para configurar exclusiones por dirección IP:

@@ -83,7 +83,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       **Tipos de cuenta**
 
-      ARN de la función +++Amazon S3
+      +++ARN de la función Amazon S3
 
       Para configurar una cuenta ARN de la función Amazon S3, especifique la siguiente información:
 
@@ -93,7 +93,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -105,7 +105,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -121,7 +121,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -135,7 +135,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Correo electrónico
 
@@ -151,7 +151,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
 1. Siga configurando la solicitud de Data Warehouse en la pestaña [!UICONTROL **Opciones de informe**]. Para obtener más información, consulte [Configuración de las opciones de un informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 

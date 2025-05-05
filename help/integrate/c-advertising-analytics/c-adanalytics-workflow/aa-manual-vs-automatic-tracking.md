@@ -98,7 +98,7 @@ A continuación, se muestra la cadena que debe añadirse a la cuenta de Bing. De
 
 >[!IMPORTANT]
 >
->El valor _`<Advertising Analytics ID>`_(en **negrita**abajo) es genérico y **se debe sustituir por la cadena del identificador de la cuenta específica**. Puede obtener la cadena del ID de cuenta específica en la sección &quot;Seguimiento&quot; de la pantalla de la cuenta.
+>El valor _`<Advertising Analytics ID>`_(en **negrita**&#x200B;abajo) es genérico y **se debe sustituir por la cadena del identificador de la cuenta específica**. Puede obtener la cadena del ID de cuenta específica en la sección &quot;Seguimiento&quot; de la pantalla de la cuenta.
 
 **Cadena de seguimiento para campañas:**
 

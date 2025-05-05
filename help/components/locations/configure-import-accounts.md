@@ -60,7 +60,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    **Tipos de cuenta**
 
-   ARN de la función +++Amazon S3
+   +++ARN de la función Amazon S3
 
    Para configurar una cuenta ARN de la función Amazon S3, especifique la siguiente información:
 
@@ -70,7 +70,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -82,7 +82,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -98,7 +98,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -112,7 +112,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Correo electrónico
 
@@ -128,7 +128,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    **Tipos de cuentas heredadas**
 
@@ -147,13 +147,13 @@ Para configurar una cuenta de importación o exportación de nube:
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++SFTP
 
    La compatibilidad con SFTP para fuentes de datos está disponible. Se necesita un host SFTP, un nombre de usuario y el sitio de destino para contener una clave pública RSA o DSA válida. Puede descargar la clave pública adecuada al crear la fuente.
 
-+++
+   +++
 
    +++S3
 
@@ -188,7 +188,7 @@ Para configurar una cuenta de importación o exportación de nube:
    >
    >No se admite la región cn-north-1.
 
-+++
+   +++
 
    +++blob de Azure
 
@@ -198,7 +198,7 @@ Para configurar una cuenta de importación o exportación de nube:
    >
    >Debe implementar su propio proceso para administrar el espacio en disco en el destino del almacén de datos. Adobe no elimina ningún dato del servidor.
 
-+++
+   +++
 
 1. Seleccione [!UICONTROL **Guardar**].
 

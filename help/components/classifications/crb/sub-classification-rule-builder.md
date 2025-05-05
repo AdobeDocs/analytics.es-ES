@@ -65,7 +65,7 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 
    Ejemplo:
 
-   | Clave | Canal | código Campaña general | Campaña amplia, código&amp;Hat;Tipo de campaña | Campaña amplia de código&amp;Hat;Director de campaña | ... |
+   | Clave | Canal | código Campaña general | Campaña amplia, código&Hat;Tipo de campaña | Campaña amplia de código&Hat;Director de campaña | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Marca | Suzanne |  |
    | &#42; |  | 222 | Marca | Frank |  |

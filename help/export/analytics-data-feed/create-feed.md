@@ -134,7 +134,7 @@ Antes de crear una fuente de datos, es importante tener una comprensión básica
 
       1. (Condicional) Si necesita administrar el destino (cuenta y ubicación) que acaba de crear, está disponible en el [administrador de ubicaciones](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -208,7 +208,7 @@ Antes de crear una fuente de datos, es importante tener una comprensión básica
 
       1. (Condicional) Si necesita administrar el destino (cuenta y ubicación) que acaba de crear, está disponible en el [administrador de ubicaciones](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -283,7 +283,7 @@ Antes de crear una fuente de datos, es importante tener una comprensión básica
 
       1. (Condicional) Si necesita administrar el destino (cuenta y ubicación) que acaba de crear, está disponible en el [administrador de ubicaciones](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -353,7 +353,7 @@ Antes de crear una fuente de datos, es importante tener una comprensión básica
 
       1. (Condicional) Si necesita administrar el destino (cuenta y ubicación) que acaba de crear, está disponible en el [administrador de ubicaciones](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
 1. En la sección [!UICONTROL **Definiciones de columnas de datos**], seleccione la última plantilla de [!UICONTROL **Todas las columnas de Adobe**] en el menú desplegable y, a continuación, complete los campos siguientes:
 

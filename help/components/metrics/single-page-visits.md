@@ -14,7 +14,7 @@ ht-degree: 84%
 
 *En esta página de ayuda se describe cómo funciona “Visitas de página única” como métrica. Consulte la dimensión [Visitas de página única](../dimensions/single-page-visits.md) para obtener más información.*
 
-La [!UICONTROL métrica](overview.md) [visitas de página única] muestra el número de visitas donde el elemento de dimensión [Página](../dimensions/page.md) solo contenía un valor único para toda la visita. Esta métrica es útil en el contexto de dimensiones en las que desea ver visitas cortas, pero no tiene reglas tan estrictas como [[!UICONTROL Devoluciones]](bounces.md).
+La [[!UICONTROL métrica]](overview.md) [visitas de página única] muestra el número de visitas donde el elemento de dimensión [Página](../dimensions/page.md) solo contenía un valor único para toda la visita. Esta métrica es útil en el contexto de dimensiones en las que desea ver visitas cortas, pero no tiene reglas tan estrictas como [[!UICONTROL Devoluciones]](bounces.md).
 
 ## Cálculo de esta métrica
 

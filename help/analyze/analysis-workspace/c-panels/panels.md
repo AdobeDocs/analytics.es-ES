@@ -78,7 +78,7 @@ Puede realizar lo siguiente:
 
 ## Grupo de informes
 
-Cada panel está asociado con un [grupo de informes](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificado por ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL *nombre del grupo de informes *]**en el menú desplegable de la parte superior derecha del panel.
+Cada panel está asociado con un [grupo de informes](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identificado por ![Datos](/help/assets/icons/Data.svg) **[!UICONTROL *nombre del grupo de informes *]**&#x200B;en el menú desplegable de la parte superior derecha del panel.
 
 Al crear un panel nuevo, el grupo de informes predeterminado se basa en el grupo de informes del último panel en el que trabajó en el proyecto Analysis Workspace.
 

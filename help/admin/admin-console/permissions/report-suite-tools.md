@@ -33,7 +33,7 @@ Utilice esta página para comprender cada elemento de permiso dentro de Herramie
 | [!UICONTROL Medidas predeterminadas] | Otorga acceso a Configuración de grupos de informes individuales > Métricas predeterminadas en el Administrador de grupos de informes. |
 | [!UICONTROL Excluir por dirección IP] | Otorga acceso a Administración > Excluir por dirección IP en la navegación superior de Analytics. |
 | [!UICONTROL Métodos de búsqueda] | Otorga acceso a Conversión > Métodos de búsqueda en el Administrador de grupos de informes. |
-| [!UICONTROL Variables de lista ] | Otorga acceso a Conversión > Variables de lista en el Administrador de grupos de informes. |
+| [!UICONTROL Variables de lista &#x200B;] | Otorga acceso a Conversión > Variables de lista en el Administrador de grupos de informes. |
 | [!UICONTROL Personalización de menús] | Otorga acceso a General > Personalizar menús en el Administrador de grupos de informes. |
 | [!UICONTROL Búsqueda de pago] | Otorga acceso a General > Detección de búsqueda de pago en el Administrador de grupos de informes. |
 | [!UICONTROL Reglas de procesamiento] | Otorga acceso a General > Reglas de procesamiento y General > Reglas de bots en el Administrador de grupos de informes. |
