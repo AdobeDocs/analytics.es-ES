@@ -27,7 +27,7 @@ Las reglas de procesamiento simplifican la recopilación de datos y administran 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general sobre las reglas de procesamiento](https://video.tv.adobe.com/v/26124/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general sobre las reglas de procesamiento](https://video.tv.adobe.com/v/327638/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

@@ -18,7 +18,7 @@ El tipo de seguimiento determina cómo la implementación de Adobe Analytics rea
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/38628/?quality=12&captions=spa)
 
 -->
 

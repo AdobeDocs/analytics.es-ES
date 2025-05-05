@@ -18,7 +18,7 @@ Puede ver una tabla de contenido dentro de cada proyecto en Analysis Workspace, 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tabla de contenido](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tabla de contenido](https://video.tv.adobe.com/v/35187?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

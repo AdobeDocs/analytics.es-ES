@@ -24,7 +24,7 @@ Esta capacidad es útil si desea, por ejemplo,
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Varios grupos de informes](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Varios grupos de informes](https://video.tv.adobe.com/v/36836?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

@@ -53,7 +53,7 @@ Puede comparar una cantidad ilimitada de segmentos en la visualización de visit
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparar segmentos en una visualización de visitas en el orden previsto](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparar segmentos en una visualización de visitas en el orden previsto](https://video.tv.adobe.com/v/328099?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

@@ -63,7 +63,7 @@ La visualización ![Globo](/help/assets/icons/Globe.svg) **[!UICONTROL Mapa]** e
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de mapa en Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de mapa en Analysis Workspace](https://video.tv.adobe.com/v/41506/?quality=12&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +132,7 @@ Para definir la configuración de la visualización, seleccione ![Configuración
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35172/?quality=12&captions=spa)
 
 -->
 

@@ -40,7 +40,7 @@ Al administrar una fuente de datos, puede mostrar la fuente de datos o bloquear 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de la fuente de datos](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de la fuente de datos](https://video.tv.adobe.com/v/328097?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
