@@ -4,10 +4,10 @@ description: Información general sobre el uso de datos XDM de Experience Platfo
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: c7fd66e99fd7d6c474682621a3c18bf41d541a96
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 77%
+source-wordcount: '395'
+ht-degree: 73%
 
 ---
 
@@ -19,9 +19,7 @@ Adobe ofrece tres formas principales de enviar datos a la red Edge:
 
 * **[SDK web de Adobe Experience Platform](web-sdk/overview.md)**: Utilice la extensión del SDK web en la recopilación de datos de Adobe Experience Platform para enviar datos a Edge.
 * **[SDK de Adobe Experience Platform Mobile](mobile-sdk/overview.md)**: Utilice la extensión del SDK móvil en la recopilación de datos de Adobe Experience Platform para enviar datos a Edge.
-* **[API de servidor de red de Adobe Experience Platform Edge](server-api/overview.md)**: envíe datos directamente a Edge mediante una API.
-
-
+* **[API de Adobe Experience Platform Edge Network](api/overview.md)**: envíe datos directamente a Edge Network mediante una API.
 
 ## Cómo gestiona Adobe Analytics los datos de la red Edge
 
@@ -30,7 +28,7 @@ Los datos enviados a la red Edge de Adobe Experience Platform pueden seguir dos 
 * Objeto XDM: conformar esquemas basados en [XDM (Modelo de datos de experiencia)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=es). XDM le proporciona flexibilidad en los campos que se definen como parte de los eventos. En el momento en que los eventos llegan a Adobe Analytics, se traducen a un formato que Adobe Analytics puede gestionar.
 * Objeto de datos: envíe datos a la red Edge mediante campos específicos asignados a Adobe Analytics. La red Edge detecta la presencia de estos campos y los reenvía a Adobe Analytics sin necesidad de ajustarse a un esquema.
 
-El Edge Network utiliza la siguiente lógica para determinar las vistas de página de Adobe Analytics y los eventos de vínculo:
+Edge Network utiliza la siguiente lógica para determinar las vistas de página de Adobe Analytics y los eventos de vínculo:
 
 | La carga útil XDM contiene... | Adobe Analytics... |
 |---|---|

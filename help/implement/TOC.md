@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: Aprenda formas de implementar Adobe Analytics. Personalice qué se recopila para aprovechar al máximo los datos de Analytics.
-source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 90%
+source-wordcount: '436'
+ht-degree: 88%
 
 ---
 
@@ -150,8 +150,8 @@ ht-degree: 90%
       + [Nueva implementación mediante JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + SDK móvil {#mobile-sdk}
       + [Información general del SDK móvil](aep-edge/mobile-sdk/overview.md)
-   + API de servidor {#server-api}
-      + [Información general de la API de servidor](aep-edge/server-api/overview.md)
+   + API de Edge Network {#api}
+      + [Información general de API de Edge Network](aep-edge/api/overview.md)
 + Implementar Analytics con la extensión de Adobe Analytics {#launch}
    + [Información general sobre las etiquetas](launch/overview.md)
    + [Creación de una propiedad de etiquetas de Adobe Analytics](launch/create-analytics-property.md)
