@@ -4,10 +4,10 @@ title: Administrador de preferencias
 feature: Admin Tools
 uuid: 46488e24-57a5-4f99-997c-0cfb61625008
 exl-id: 9ead47e3-ab43-4789-ba8e-a6b7be7f750e
-source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 100%
+source-wordcount: '64'
+ht-degree: 70%
 
 ---
 
@@ -17,5 +17,5 @@ La página Administrador de preferencias le permite configurar la forma en que s
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Toda la administración]** > **[!UICONTROL Configuración de la compañía]** > **[!UICONTROL Preferencias]**
 
-* Usar formato de fecha en desuso para CSV (ago 30, 2013)
-* Usar formato de fecha de la ISO 8601 para CSV (2013-08-30)
+* Utilice un formato de fecha obsoleto para el CSV (30 de agosto de 20XX)
+* Utilice el formato de fecha ISO 8601 para el CSV (20XX-08-30)

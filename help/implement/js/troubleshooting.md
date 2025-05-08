@@ -4,7 +4,7 @@ description: Obtenga más información sobre problemas comunes y prácticas reco
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 97%
@@ -110,4 +110,4 @@ Sobrescribir el valor de prop2 con eVar1<br>
   s.prop2 = "D=v1";
   ```
 
-* **Use clasificaciones**: Si los nombres de producto o de página son inusualmente largos, puede utilizar un código o valor de identificación y, a continuación, utilizar las [clasificaciones](/help/components/classifications/c-classifications.md) para mostrar un nombre más descriptivo.
+* **Use clasificaciones**: Si los nombres de producto o de página son inusualmente largos, puede utilizar un código o valor de identificación y, a continuación, utilizar las [clasificaciones](/help/components/classifications/classifications-overview.md) para mostrar un nombre más descriptivo.

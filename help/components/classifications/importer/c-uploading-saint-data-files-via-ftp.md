@@ -3,18 +3,18 @@ description: Cómo cargar archivos de datos a través de FTP.
 title: Importación de FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 73%
+source-wordcount: '725'
+ht-degree: 72%
 
 ---
 
-# Importación de FTP
+# Importación de FTP (heredada)
 
 >[!IMPORTANT]
 >
->Ya no se recomienda utilizar FTP para la importación, tal como se describe en esta página.
+>Adobe ya no recomienda utilizar FTP para las importaciones, tal como se describe en esta página.
 >
 >No se recomienda utilizar FTP porque es un método no cifrado para compartir archivos, lo que significa que cualquiera puede interceptar el contenido del archivo, así como el nombre de usuario y la contraseña utilizados para la cuenta.
 >

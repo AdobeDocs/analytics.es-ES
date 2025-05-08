@@ -3,10 +3,10 @@ description: Esta página de ayuda contiene casos de uso recomendados para cada 
 title: ¿Qué herramienta de Adobe Analytics debo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+workflow-type: tm+mt
+source-wordcount: '1122'
+ht-degree: 89%
 
 ---
 
@@ -19,12 +19,12 @@ Para obtener más información sobre comparaciones de productos de Adobe Analyti
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparación de herramientas](https://video.tv.adobe.com/v/30136?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparación de herramientas](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
-## Interfaz de usuario de informes de Adobe Analytics {#user-interfaces}
+## Interfaces de usuario de informes de Adobe Analytics {#user-interfaces}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** debe ser la interfaz de usuario de referencia para todas sus necesidades de informe y análisis. Adobe continúa invirtiendo en el lanzamiento de actualizaciones mensuales de este producto. Si hay una tarea que no puede realizar en Analysis Workspace, evalúe las otras interfaces que aparecen a continuación.**
 
@@ -38,34 +38,28 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparació
 
 ## Importación de datos en Adobe Analytics {#import}
 
-**[Las clasificaciones](/help/components/classifications/c-classifications.md)** deben usarse:
+**[Las clasificaciones](/help/components/classifications/classifications-overview.md)** deben usarse:
 
-* Cuando hay metadatos que desea asociar a un valor recopilado (eVar, prop, canal de marketing).
-* Opciones:
-
-   * Generador de reglas: úselo cuando tenga valores de formato predecibles que se recopilen para una variable (por ejemplo, valores delimitados). Este enfoque le permite configurar reglas una vez y, en gran medida, no tendrá que volver a modificarlas.
-   * Importación del explorador: Úsela cuando no tenga valores predecibles o cuando tenga una lista de valores limitada que requiera una actualización única. Para este enfoque es necesario supervisar de forma continuada las clasificaciones para identificar nuevos valores.
+* Cuando hay metadatos que desea asociar a un valor recopilado (eVar, prop, canal de marketing). Adobe recomienda usar [conjuntos de clasificaciones](/help/components/classifications/sets/overview.md). El generador de reglas de clasificación y el importador de clasificaciones son métodos heredados para introducir datos de clasificación en Adobe Analytics.
 
 Las **[Fuentes de datos](/help/import/data-sources/overview.md)** deben usarse:
 
 * Cuando hay datos sin conexión que desea escribir de forma permanente en Adobe Analytics.
 * Opciones:
-
    * Resumen: cargas de datos sencillas, por día o de dimensiones limitadas.
    * ID de transacción: cargas de datos que conectan un extremo en línea a datos sin conexión y que asocian por completo los datos importados a una instantánea de visitante capturada en línea (por ejemplo, pedidos completados en línea y devueltos sin conexión).
-   * Procesamiento completo: fuentes de datos con marca de tiempo, procesadas como si fueran visitas recopiladas por servidores de Adobe (es decir, los datos se insertan directamente en el recorrido del visitante).
 
 **[Integraciones de Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)** debe usarse:
 
 * Al interactuar con un proveedor ajeno que dispone de una conexión compatible con Adobe Analytics. Las aplicaciones de integración suelen incorporar en Adobe Analytics datos en el nivel de resumen de manera permanente, automática y recurrente.
 
-La **[API de inserción de datos](/help/import/c-data-insertion-api/c-data-insertion-api.md)** debe usarse:
-
-* Cuando sea necesario cargar datos en Adobe Analytics y no sea posible utilizar Adobe AppMeasurement o el código del SDK móvil. Se recomienda utilizar la API de inserción masiva de datos (consulte a continuación).
-
 **[API de inserción de datos en lotes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* Tanto la API de inserción de datos como la API de inserción masiva de datos son métodos para enviar datos de colección del lado del servidor a Adobe Analytics. Las llamadas a la API de inserción de datos se realizan a razón de un evento a la vez. La API de inserción masiva de datos acepta archivos con formato CSV que contienen datos de evento, un evento por fila. Si está trabajando en una nueva implementación de la colección del lado del servidor, le recomendamos utilizar la API de inserción masiva de datos.
+* La API de inserción masiva de datos acepta archivos con formato CSV que contienen datos de evento, un evento por fila. Adobe recomienda utilizar la API de inserción masiva para cualquier implementación que requiera código del lado del servidor o que no pueda utilizar AppMeasurement o Web SDK para la recopilación de datos.
+
+**[Se debe usar la API de inserción de datos (heredada)](/help/import/c-data-insertion-api/c-data-insertion-api.md)**:
+
+* Cuando necesite introducir datos en Adobe Analytics y no pueda utilizar AppMeasurement, Web SDK o la API de inserción masiva de datos.
 
 Deben usarse **[atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es)**:
 
@@ -74,7 +68,7 @@ Deben usarse **[atributos del cliente](https://experienceleague.adobe.com/docs/c
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** debe usarse:
 
-* Si quiere incorporar datos de público de Adobe Audience Manager, como la información demográfica (p. ej., sexo o nivel de ingresos), la información psicográfica (p. ej., intereses y aficiones), los datos CRM o los datos de impresión publicitaria a cualquier flujo de trabajo de Analytics.
+* Si quiere incorporar datos de público de Adobe Audience Manager, como la información demográfica (p. ej., género o nivel de ingresos), la información psicográfica (p. ej., intereses y aficiones), los datos CRM o los datos de impresión publicitaria a cualquier flujo de trabajo de Analytics.
 * Si desea que los datos CRM cargados estén basados en el tiempo, ya que esta integración envía nueva información a Analytics visita tras visita.
 
 ## Exportación de datos desde Adobe Analytics {#export}

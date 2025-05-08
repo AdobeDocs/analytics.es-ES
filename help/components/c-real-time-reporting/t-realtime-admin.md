@@ -3,10 +3,10 @@ description: Pasos administrativos para configurar informes en tiempo real.
 title: Configurar informes en tiempo real
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 78%
+source-wordcount: '283'
+ht-degree: 77%
 
 ---
 
@@ -46,8 +46,6 @@ Esto consiste en seleccionar el grupo de informes y configurar hasta 3 informes 
    >[!NOTE]
    >
    >Actualmente no se pueden duplicar dimensiones para un solo informe en tiempo real, aunque se seleccione una clasificación distinta para cada dimensión.
-
-   Para obtener más información sobre las clasificaciones, consulte [Acerca de las clasificaciones](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >

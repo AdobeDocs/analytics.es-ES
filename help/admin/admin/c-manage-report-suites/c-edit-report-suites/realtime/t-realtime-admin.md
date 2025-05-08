@@ -3,10 +3,10 @@ description: Pasos administrativos para configurar informes en tiempo real.
 title: Configuración de informes en tiempo real
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: f1dde3a475fe1276fd9abbe1bdafd6723701f2cb
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 77%
+source-wordcount: '211'
+ht-degree: 76%
 
 ---
 
@@ -35,8 +35,6 @@ Configurar informes en tiempo real en Adobe Analytics consiste en seleccionar el
    >[!NOTE]
    >
    >Actualmente no se pueden duplicar dimensiones para un solo informe en tiempo real, aunque se seleccione una clasificación distinta para cada dimensión.
-
-   Para obtener más información sobre las clasificaciones, consulte [Acerca de las clasificaciones](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >

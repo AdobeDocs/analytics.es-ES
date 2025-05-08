@@ -3,14 +3,16 @@ description: Un conjunto de reglas es un grupo de reglas de clasificación para 
 title: Conjuntos de reglas de clasificación
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 96%
+source-wordcount: '406'
+ht-degree: 89%
 
 ---
 
-# Conjuntos de reglas de clasificación
+# Conjuntos de reglas de clasificación (heredados)
+
+*Esta página explica los conjuntos de reglas de clasificación como parte del [Generador de reglas de clasificación](classification-rule-builder.md). Consulte [Conjuntos de clasificaciones](../sets/overview.md) para ver el método actual de clasificación de datos en Adobe Analytics.*
 
 Un conjunto de reglas es un grupo de reglas de clasificación para una variable específica. La variable se aplica al conjunto de reglas. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes.
 
@@ -56,8 +58,6 @@ Los campos y las opciones disponibles en el [!UICONTROL Clasificación del Gener
 Nombre el conjunto de reglas de clasificación, aplique la variable y especifique la configuración de sobrescritura.
 
 1. (Requisito previo) Defina la estructura de clasificación en **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
-
-   (Consulte [Clasificaciones](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es) en la ayuda de las herramientas de administración, donde se trata la adición de clasificaciones).
 
    Las variables se mostrarán en el panel [!UICONTROL Nuevo conjunto de reglas] solo después de haber definido como mínimo una clasificación para la variable.
 

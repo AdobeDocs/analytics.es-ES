@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 95%
 
 ---
 
@@ -201,7 +201,7 @@ ht-degree: 100%
       + [Resolución de problemas](segmentation/seg-reference/c-troubleshooting.md)
    + [Preguntas frecuentes sobre la administración de segmentos heredados](segmentation/seg-transition.md)
    + [Prácticas recomendadas](segmentation/best-practices.md)
-+ Métricas calculadas {#calculated-metrics}
++ Métricas calculadas  {#calculated-metrics}
    + [Métricas calculadas y calculadas avanzadas](c-calcmetrics/cm-overview.md)
    + [Vídeotutoriales](c-calcmetrics/cm-videos.md)
    + Flujo de trabajo de las métricas calculadas {#calcmetric-workflow}
@@ -258,48 +258,45 @@ ht-degree: 100%
    + [Administrar](c-alerts/alert-manager.md)
    + [Casos prácticos](c-alerts/alerts-use-cases.md)
 + Clasificaciones {#classifications}
-   + [Resumen general de las clasificaciones](classifications/c-classifications.md)
+   + [Resumen general de las clasificaciones](classifications/classifications-overview.md)
    + Conjuntos de clasificación {#sets}
-      + [Información general sobre los conjuntos de clasificación](classifications/sets/overview.md)
-      + Administrar conjuntos de clasificación {#manage}
+      + [Información general](classifications/sets/overview.md)
+      + Administrar conjuntos de clasificaciones {#manage}
          + [Administrador de conjuntos de clasificación](classifications/sets/manage/set-manager.md)
          + [Crear un conjunto de clasificación](classifications/sets/manage/create.md)
          + [Configuración del conjunto de clasificación](classifications/sets/manage/settings.md)
          + [Esquema del conjunto de clasificación](classifications/sets/manage/schema.md)
          + [Reglas del conjunto de clasificación](classifications/sets/manage/rules.md)
       + [Administrador de trabajos de conjuntos de clasificación](classifications/sets/job-manager.md)
-      + Consolidación de conjuntos de clasificación {#consolidations}
-         + [Administrador de consolidaciones de conjuntos de clasificación](classifications/sets/consolidations/manage.md)
-         + [Proceso de consolidaciones del conjunto de clasificación](classifications/sets/consolidations/process.md)
-   + Clasificación del Generador de reglas {#classifications-rulebuilder}
-      + [Flujo de trabajo del generador de reglas de clasificación](classifications/crb/classification-rule-builder.md)
+      + Consolidación de conjuntos de clasificaciones {#consolidations}
+         + [Administrador de consolidación](classifications/sets/consolidations/manage.md)
+         + [Proceso de consolidación](classifications/sets/consolidations/process.md)
+   + Generador de reglas de clasificación (heredado){#classifications-rulebuilder}
+      + [Información general](classifications/crb/classification-rule-builder.md)
       + [Conjuntos de reglas de clasificación](classifications/crb/classification-rule-set.md)
       + [Reglas de clasificación](classifications/crb/classification-quickstart-rules.md)
       + [Definiciones de reglas de clasificación](classifications/crb/classification-rule-definitions.md)
-      + [Subclasificaciones y el Generador de reglas](classifications/crb/sub-classification-rule-builder.md)
-   + Importador de clasificaciones {#classifications-importer}
+      + [Subclasificaciones y el generador de reglas](classifications/crb/subclassification-rule-builder.md)
+   + Importador de clasificaciones (heredado){#classifications-importer}
       + [Resumen del importador de clasificaciones](classifications/importer/c-working-with-saint.md)
       + [Archivos de datos de clasificación](classifications/importer/c-saint-data-files.md)
       + [Eliminar datos de clasificación](classifications/importer/t-delete-classification-data.md)
-      + [Aplicar secuencias de escape a los datos de clasificación](classifications/importer/t-classifications-escape-data.md)
-      + [Claves no clasificadas](classifications/importer/nonclassified-keys.md)
       + [Plantilla de clasificación](classifications/importer/c-download-saint-data.md)
-      + [Importación del explorador y FTP](classifications/importer/import-file.md)
       + [Importación del explorador](classifications/importer/browser-import.md)
       + [Exportación del explorador](classifications/importer/browser-export.md)
       + [Importación de FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [Exportación de FTP](classifications/importer/ftp-export.md)
       + [Tiempo de procesamiento](classifications/importer/processing-time.md)
+      + [Subclasificaciones](classifications/importer/subclassifications.md)
       + [Resolución de problemas](classifications/importer/troubleshooting.md)
-   + [Subclasificaciones](classifications/c-sub-classifications.md)
-   + [Preguntas más frecuentes sobre las clasificaciones](classifications/faq.md)
+      + [Preguntas frecuentes](classifications/importer/importer-faq.md)
 + Ubicaciones {#locations}
    + [Administrador de ubicaciones](/help/components/locations/locations-manager.md)
    + [Cuentas de importación en la nube](/help/components/locations/configure-import-accounts.md)
    + [Ubicaciones de importación en la nube](/help/components/locations/configure-import-locations.md)
 + [Proyectos programados](scheduled-projects-manager.md)
 + [Cola de informes programados](scheduled-reports-admin.md)
-+ Informes en tiempo real {#real-time-reporting}
++ Creación de informes en tiempo real {#real-time-reporting}
    + [Resumen de informes en tiempo real](c-real-time-reporting/realtime.md)
    + [Configurar informes en tiempo real](c-real-time-reporting/t-realtime-admin.md)
    + [Métricas y dimensiones en tiempo real compatibles](c-real-time-reporting/realtime-metrics.md)

@@ -3,14 +3,14 @@ description: Opcional. Antes de importar las clasificaciones a informes de marke
 title: Plantilla de clasificación
 feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 99%
 
 ---
 
-# Plantilla de clasificación
+# Plantilla de clasificación (heredada)
 
 Opcional. Antes de importar las clasificaciones a informes y proyectos, existe la posibilidad de descargar una plantilla para facilitar la creación del archivo de datos de clasificación. El archivo de datos utiliza las clasificaciones especificadas como encabezados de columna y, a continuación, organiza el conjunto de datos de informes con los encabezados de clasificación adecuados.
 

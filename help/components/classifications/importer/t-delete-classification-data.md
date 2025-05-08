@@ -3,10 +3,10 @@ description: Instrucciones sobre cómo eliminar o quitar datos de clasificación
 title: Eliminar datos de clasificación
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 96%
 
 ---
 
@@ -55,5 +55,5 @@ El uso de `~deletekey~` en la clasificación “Categoría de inventario” elim
 * Si utiliza `~deletekey~`, solo necesita 1 por fila en un archivo de clasificación.
 * `~empty~` y `~deletekey~` deben coincidir de manera *exacta*. No se permiten espacios ni mayúsculas.
 * No puede eliminar valores dentro de la columna clave. Estos valores se pasan directamente a la variable y son permanentes.
-* Si se quita un valor de clasificación que contiene subclasificaciones, estas también se eliminan. Las clasificaciones no pueden existir sin los valores clave, que constituyen las clasificaciones principales de las subclasificaciones.
+* Si se quita un valor de clasificación que tiene subclasificaciones, estas también se eliminan. Las clasificaciones no pueden existir sin los valores clave, que constituyen las clasificaciones principales de las subclasificaciones.
 * Se pueden eliminar los datos de subclasificación sin modificar las clasificaciones principales.

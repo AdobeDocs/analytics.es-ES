@@ -4,9 +4,9 @@ description: Las clasificaciones sirven para categorizar los valores en grupos r
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '310'
 ht-degree: 100%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 100%
 Las clasificaciones sirven para categorizar los valores en grupos relacionados y para crear informes del nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede crear informes sobre los resultados de esa categoría en relación con métricas como Instancias (o pulsaciones).
 
 Las clasificaciones que agregue a este procedimiento se muestran en el informe [!UICONTROL Resumen de canal de marketing] como [!UICONTROL Valores de canal]. Los valores de canal son valores no clasificados en los detalles del canal.
-
->[!NOTE]
->
->Asegúrese de estar familiarizado con la creación de clasificaciones en [Clasificaciones](/help/components/classifications/c-classifications.md).
 
 >[!IMPORTANT]
 >

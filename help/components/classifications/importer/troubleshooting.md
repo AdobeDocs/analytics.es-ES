@@ -3,10 +3,10 @@ title: Solución de problemas del importador de clasificaciones
 description: Problemas comunes de carga al usar el importador de clasificaciones.
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 100%
+source-wordcount: '875'
+ht-degree: 96%
 
 ---
 
@@ -31,8 +31,8 @@ Si carga un archivo con un formato incorrecto, el cargador intentará importar t
 
 * **Filas que ya se han clasificado**: al intentar cargar filas que ya se hayan clasificado con el mismo valor, el importador devolverá filas sin aplicar ningún cambio. Este resultado es de esperar, ya que las clasificaciones no reclasifican un valor de clave con la misma clasificación. Se trata de una notificación en lugar de un error. Si no modifica todas las filas de un archivo de exportación, no debe preocuparse. Adobe solo recomienda cargar las filas cambiadas.
 * **El encabezado no coincide con la variable que se carga**: si descarga una plantilla de clasificación para la dimensión Código de seguimiento y trata de cargarla en una clasificación eVar, se producirá un error. Utilice solo archivos de exportación para las variables específicas desde las que se haya realizado la exportación.
-* **Un valor de clave o clasificación contiene el valor 0**: las clasificaciones no son capaces de diferenciar el valor 0 de una celda en blanco, de modo que no pueden clasificar este valor. Consulte [Preguntas más frecuentes sobre clasificaciones](../faq.md).
-* **El archivo de clasificación contiene comas o caracteres especiales**: Consulte [Preguntas más frecuentes sobre clasificaciones](../faq.md).
+* **Un valor de clave o clasificación contiene el valor 0**: las clasificaciones no son capaces de diferenciar el valor 0 de una celda en blanco, de modo que no pueden clasificar este valor. Consulte las [Preguntas frecuentes sobre el importador de clasificaciones](importer-faq.md) para obtener más información.
+* **El archivo de clasificación contiene comas o caracteres especiales**: Consulte las [Preguntas frecuentes sobre el importador de clasificaciones](importer-faq.md) para obtener información sobre cómo aplicar secuencias de escape a los valores.
 * **Tabulaciones adicionales en el archivo cargado**: en ocasiones, al editar archivos de clasificación, se puede colar por accidente una tabulación extra. Cada fila requiere un número idéntico de tabulaciones para que se pueda procesar correctamente. Para buscar tabulaciones adicionales dentro del archivo, resalte todo el texto en un editor de texto sin formato y asegúrese de que ninguna fila tenga un espacio adicional al final.
 * **Valores de clave duplicados en el archivo**: cada valor de clave solo puede tener una clasificación por columna. Si intenta clasificar el mismo valor varias veces, el importador genera un error.
 * **Hay subclasificaciones que están configuradas incorrectamente**: si hay subclasificaciones, compruebe lo siguiente:

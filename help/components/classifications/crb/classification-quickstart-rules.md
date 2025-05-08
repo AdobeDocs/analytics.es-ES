@@ -3,14 +3,14 @@ description: Las reglas de clasificación buscan términos no clasificados de fo
 title: Reglas de clasificación
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '2001'
-ht-degree: 92%
+source-wordcount: '1979'
+ht-degree: 89%
 
 ---
 
-# Reglas de clasificación
+# Reglas de clasificación (heredadas)
 
 Las reglas de clasificación buscan términos no clasificados de forma periódica. Cuando se encuentra una coincidencia de regla, las reglas agregan los términos automáticamente a las tablas de datos de clasificación. Las reglas de clasificación también permiten sobrescribir las claves existentes.
 
@@ -27,7 +27,7 @@ Las reglas de clasificación resultan adecuadas para:
 
 Por ejemplo, imaginemos el código de seguimiento siguiente para un ID de campaña de correo electrónico:
 
-`em:Summer:2013:Sale`.
+`em:Summer:20XX:Sale`.
 
 Pueden definirse un máximo de tres reglas en un conjunto de reglas para identificar los elementos de la cadena y, a continuación, clasificar los valores:
 
@@ -35,7 +35,7 @@ Pueden definirse un máximo de tres reglas en un conjunto de reglas para identif
 |---|---|---|---|
 | Comienza con | em: | Canal | Correo electrónico |
 | Finaliza con | Venta | Tipo | Venta |
-| Contiene | 2013 | Año | 2013 |
+| Contiene | 20XX | Año | 20XX |
 
 ## Cómo se procesan las reglas {#how-rules-are-processed}
 
@@ -95,18 +95,6 @@ Cuando se activan las reglas, pueden sobrescribirse las clasificaciones existent
 
 Las expresiones regulares sirven para hacer coincidir los valores de cadena que tienen un mismo formato con una clasificación. Por ejemplo, puede crear una clasificación a partir de caracteres específicos de un código de seguimiento. Según se considere conveniente, pueden hacerse coincidir patrones de caracteres, palabras o caracteres determinados.
 
-<!-- 
-
-regex_classification_rules.xml
-
- -->
-
-* [Expresión regular: ejemplo de código de seguimiento](/help/components/classifications/crb/classification-quickstart-rules.md#section_2EF7951398EB4C2F8E52CEFAB4032669)
-* [Expresión regular: clasificación de un carácter específico ](/help/components/classifications/crb/classification-quickstart-rules.md#section_5D300C03FA484BADACBFCA983E738ACF)
-* [Expresiones regulares: hacer coincidir códigos de seguimiento de distinta longitud](/help/components/classifications/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2)
-* [Expresiones regulares: ejemplo de &quot;No contiene&quot; ](/help/components/classifications/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
-* [Expresiones regulares: tabla de referencia](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
-
 >[!NOTE]
 >
 >Como práctica recomendada, las expresiones regulares funcionan mejor con los códigos de seguimiento con delimitadores.
@@ -115,29 +103,29 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
->Si el código de seguimiento tiene codificación URL, el Generador de reglas **no** lo clasificará.
+>Si el código de seguimiento tiene codificación URL, el Generador de reglas clasificará **not**.
 
 En este ejemplo, imaginemos que debe clasificarse el ID de campaña siguiente:
 
-[!UICONTROL Sample Key]: `em:JuneSale:20130601`
+Clave de muestra: `em:JuneSale:20XX0601`
 
 Los elementos del código de seguimiento que deben clasificarse son:
 
 * `em` = email
 * `JuneSale` = Nombre de la campaña
-* `20130601` = date
+* `20XX0601` = date
 
-[!UICONTROL Regular Expression]: `^(.+)\:(.+)\:(.+)$`
+Expresión regular: `^(.+)\:(.+)\:(.+)$`
 
 Correlación entre la expresión regular y el ID de campaña:
 
 ![](assets/regex.png)
 
-[!UICONTROL Grupos de coincidencias]: muestra la correspondencia entre la expresión regular y los caracteres del ID de campaña para poder clasificar una posición en este ID.
+Grupos de coincidencias: muestra la correspondencia entre la expresión regular y los caracteres del ID de campaña para poder clasificar una posición en este ID.
 
 ![](assets/regex_tracking_code.png)
 
-Este ejemplo indica a la regla que la fecha de la campaña `20140601` se encuentra en el tercer grupo `(.+)`, identificado por `$3`.
+Este ejemplo indica a la regla que la fecha de la campaña `20XX0601` se encuentra en el tercer grupo `(.+)`, identificado por `$3`.
 
 **[!UICONTROL Generador de reglas]**
 
@@ -145,22 +133,22 @@ En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muest
 
 | Seleccionar tipo de regla | Introducir criterios de coincidencia | Configurar clasificación | Hasta |
 |---|---|---|---|
-| Expresión regular | &Hat;(.+)\:(.+)\:(.+)$ | Fecha de campaña | $3 |
+| Expresión regular | &amp;Hat;(.+)\:(.+)\:(.+)$ | Fecha de campaña | $3 |
 
 **Sintaxis**
 
 | Expresión regular | Cadena o resultados de coincidencias | Grupos de coincidencias correspondientes |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601` `$1`: em `$2`: JuneSale `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`: `em:JuneSale:20XX0601` `$1`: em `$2`: JuneSale `$3`: 20XX0601 |
 | Creación de la sintaxis | `^` = comienza la línea  () = agrupa los caracteres y permite extraer los coincidentes entre paréntesis.  `(.+)` = captura uno ( . ) carácter y ( + ) más  \ = inicio de una cadena.  `$` = indica que el carácter (o grupo de caracteres) precedente es el último de la línea. |
 
-Consulte [Expresiones regulares: tabla de referencia](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) para obtener más información sobre el significado de los caracteres de las expresiones regulares.
+Consulte [Expresiones regulares: tabla de referencia](/help/components/classifications/crb/classification-quickstart-rules.md) para obtener más información sobre el significado de los caracteres de las expresiones regulares.
 
 ## Expresión regular: clasificación de un carácter específico {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 Una de las utilidades de las expresiones regulares es clasificar un carácter específico de una cadena de caracteres. Por ejemplo, imaginemos que el código de seguimiento siguiente contiene dos caracteres importantes:
 
-[!UICONTROL Sample Key]: `4s3234`
+Clave de muestra: `4s3234`
 
 * `4` = nombre de la marca.
 * `s` = identifica un motor de búsqueda (por ejemplo, Google)
@@ -308,7 +296,7 @@ Para agregar nuevas reglas, debe establecerse la coincidencia entre una condici�
 
 >[!NOTE]
 >
->En este procedimiento deben aplicarse reglas a uno o varios grupos de informes. El número recomendado de reglas por conjunto de reglas está entre 500 y 1000, aunque no hay límites. Si tiene más de 100 reglas, considere la posibilidad de simplificar el conjunto de reglas mediante [subclasificaciones](/help/components/classifications/c-sub-classifications.md).
+>En este procedimiento deben aplicarse reglas a uno o varios grupos de informes. El número recomendado de reglas por conjunto de reglas está entre 500 y 1000, aunque no hay límites. Si tiene más de 100 reglas, considere la posibilidad de simplificar el conjunto de reglas mediante [subclasificaciones](/help/components/classifications/importer/subclassifications.md).
 
 Para agregar o editar una regla de clasificación:
 

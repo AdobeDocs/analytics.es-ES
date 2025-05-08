@@ -5,10 +5,10 @@ title: Clasificaciones de tráfico
 feature: Admin Tools
 role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,21 +16,13 @@ ht-degree: 92%
 
 Las clasificaciones de tráfico permiten clasificar variables de tráfico (props). Las clasificaciones de tráfico solo pueden usar clasificaciones de texto.
 
-## Clasificaciones de tráfico {#concept_028079B29A9C412AA68910A87E11176F}
+## Clasificaciones de tráfico
 
 Las clasificaciones de tráfico permiten clasificar variables de tráfico (props). Las clasificaciones de tráfico solo pueden usar clasificaciones de texto.
 
 La página Clasificaciones de tráfico permite crear clasificaciones de los grupos de informes seleccionados. Una vez clasificado, cualquier informe que se pueda generar con los datos clave también se puede generar con los atributos asociados.
 
-Después de habilitar las clasificaciones, use [Importador de clasificaciones](/help/components/classifications/importer/c-working-with-saint.md) para asignar valores específicos a la clasificación adecuada.
-
-## Agregar una clasificación de tráfico {#task_4DB49CCB1D764483907BC33A5CEB7315}
-
-<!-- 
-
-t_classification_add_traffic.xml
-
- -->
+## Agregar una clasificación de tráfico
 
 Para agregar o editar clasificaciones para los grupos de informes seleccionados:
 
