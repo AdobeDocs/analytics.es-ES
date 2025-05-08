@@ -4,14 +4,19 @@ title: Guardar proyectos
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: c368ff6c4ac1636a4d1d910b9f1738ff8208fe0a
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '749'
 ht-degree: 97%
 
 ---
 
-# Guardar proyectos
+# Guardar proyectos {#save-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_addnotes"
+>title="Adición de notas"
+>abstract="Añada notas sobre la versión del proyecto que guarda. Estas notas se almacenarán con la versión y se podrá acceder a ellas desde el menú **[!UICONTROL Proyecto]** > **[!UICONTROL Abrir versión anterior]**."
 
 Los proyectos de Analysis Workspace se guardan automáticamente cada 2 minutos.
 

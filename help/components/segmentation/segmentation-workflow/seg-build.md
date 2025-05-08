@@ -3,10 +3,10 @@ description: El Generador de segmentos proporciona un lienzo al que arrastrar y 
 title: ' Generación de segmentos'
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
+source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
+workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
 >title="Creación de públicos"
->abstract="Los públicos se pueden crear a partir de un filtro y compartirse con Adobe Experience Platform para su activación."
+>abstract="Las audiencias se pueden crear a partir de un segmento y compartir con Adobe Experience Platform para su activación."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Previsualización de datos"
->abstract="Compara los datos de este filtro con los datos de la vista de datos. El porcentaje de vista previa se basa en el número total de la vista de datos de los **últimos 90 días**.<br><br/>Si la vista previa no se carga, es posible que la conexión aún esté reponiendo los datos."
+>abstract="Compara los datos de este segmento con los datos de la vista de datos. El porcentaje de vista previa se basa en el número total de la vista de datos de los **últimos 90 días**.<br><br/>Si la vista previa no se carga, es posible que la conexión aún esté reponiendo los datos."
 
 <!-- markdownlint-enable MD034 -->
 

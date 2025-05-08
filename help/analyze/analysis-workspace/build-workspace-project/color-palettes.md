@@ -4,14 +4,19 @@ title: ¿Qué son las paletas de colores de visualización y cómo funcionan?
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 434b296825806616288127bb2d3e73e1f9531f95
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '238'
 ht-degree: 88%
 
 ---
 
-# Paletas de colores de visualización
+# Paletas de colores de visualización {#visualization-color-palettes}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_colorpalette"
+>title="Paleta de colores del proyecto"
+>abstract="Cambie la paleta de colores utilizada en este proyecto."
 
 Puede cambiar la paleta de colores de visualización que se emplea en Espacio de trabajo eligiendo una de color diferente o creando una propia que corresponda a los colores de marca de su compañía. Esta característica afecta a la mayoría de las visualizaciones de Espacio de trabajo, pero **no** afecta al [!UICONTROL Cambio de resumen], al formato condicional en tablas de [!UICONTROL forma libre] ni a la visualización de [!UICONTROL mapas].
 
@@ -32,7 +37,7 @@ Recuerde:
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de una paleta de colores personalizada](https://video.tv.adobe.com/v/328103?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de una paleta de colores personalizada](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

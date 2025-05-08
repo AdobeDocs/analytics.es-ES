@@ -5,14 +5,21 @@ title: Compartir proyectos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8ce8d6fefdd2e3d4b11d527cc31f8a2fdf768e79
 workflow-type: tm+mt
-source-wordcount: '1937'
-ht-degree: 97%
+source-wordcount: '1953'
+ht-degree: 98%
 
 ---
 
-# Compartir proyectos
+# Compartir proyectos {#share-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_shareprojects"
+>title="Compartir proyectos"
+>abstract="Puede compartir cualquiera de estas funciones de proyecto con otros usuarios de su organización."
+
+
 
 Puede compartir un proyecto de Analysis Workspace con los siguientes tipos de personas:
 
@@ -34,7 +41,7 @@ Cualquier [depuración](curate.md) que haya aplicado antes del uso compartido se
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir proyectos](https://video.tv.adobe.com/v/40033?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir proyectos](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -73,7 +80,7 @@ Para compartir una función de proyecto específica con usuarios o grupos de su 
 
 1. Marque la casilla situada junto a uno o varios proyectos que desee compartir y, a continuación, seleccione [!UICONTROL **Compartir**].
 
-   O
+   O bien
 
    Para compartir solo un proyecto individual, puede abrir el proyecto que desee compartir y, a continuación, seleccionar **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios del espacio de trabajo]**.
 Si hay cambios sin guardar, se le pedirá que guarde primero el proyecto.
@@ -98,9 +105,9 @@ Si hay cambios sin guardar, se le pedirá que guarde primero el proyecto.
 
 1. Seleccione **[!UICONTROL Compartir]**. (Si el proyecto ya se ha compartido, haga clic en [!UICONTROL **Actualizar**].)
 
-   O
+   O bien
 
-   Seleccione **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. (Si el proyecto ya se ha compartido, seleccione **[!UICONTROL Depurar y actualizar]**.) Obtenga más información acerca de la [depuración del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=es).
+   Seleccione **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. (Si el proyecto ya se ha compartido, seleccione **[!UICONTROL Depurar y actualizar]**). Obtenga más información sobre la [depuración del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=es).
 
 ## Compartir un vínculo a un proyecto
 
@@ -145,7 +152,7 @@ Puede conceder [acceso de solo lectura](/help/analyze/analysis-workspace/curate-
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir un vínculo con alguien](https://video.tv.adobe.com/v/3452454?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir un vínculo con alguien](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -200,7 +207,7 @@ Puede compartir los componentes incrustados que forman parte del proyecto.
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados](https://video.tv.adobe.com/v/327499?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

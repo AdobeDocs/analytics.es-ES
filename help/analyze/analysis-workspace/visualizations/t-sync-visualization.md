@@ -5,21 +5,32 @@ title: Administración de las fuentes de datos de visualización
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
+source-git-commit: 41ac4a97019e8192c96f3cdb141dad3d5db18d12
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 96%
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
 # Administración de las fuentes de datos de visualización {#manage-visualization-data-sources}
 
 >[!CONTEXTUALHELP]
->id="workspace_datasource_lock_selection"
+>id="workspace_freeformtable_lockselection"
 >title="Bloquear selección"
->abstract="Active esta configuración para bloquear la visualización en las posiciones de tabla o en los elementos exactos seleccionados en la fuente de datos."
+>abstract="Active esta configuración para bloquear la visualización en las posiciones o en los elementos seleccionados de la fuente de datos."
 
-La sincronización de visualizaciones le permite controlar qué tabla de datos o fuente de datos corresponde con una visualización.
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_lockselection_showtable"
+>title="Mostrar tabla"
+>abstract="Si se selecciona **[!UICONTROL Mostrar tabla]**, se generará un nuevo origen de datos para la visualización actual, independiente del origen de datos original."
+
+<!-- markdownlint-enable MD034 -->
+
+La sincronización de visualizaciones le permite controlar qué tabla de datos o fuente de datos corresponde a una visualización.
 
 **Sugerencia:** puede saber qué visualizaciones están relacionadas por el color del punto al lado del título. La coincidencia de colores significa que las visualizaciones están basadas en la misma fuente de datos.
 
@@ -40,7 +51,7 @@ Al administrar una fuente de datos, puede mostrar la fuente de datos o bloquear 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de la fuente de datos](https://video.tv.adobe.com/v/328097?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de la fuente de datos](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
