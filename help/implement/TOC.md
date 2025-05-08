@@ -7,7 +7,7 @@ user-guide-description: Aprenda formas de implementar Adobe Analytics. Personali
 source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 88%
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [Integrar módulo](vars/integrate.md)
-+ Preparación para implementar Adobe Analytics {#prepare}
++ Preparar la implementación de Adobe Analytics {#prepare}
    + [Creación de una capa de datos](prepare/data-layer.md)
    + [Comparación de los métodos de implementación](prepare/comparison.md)
    + [Consideraciones sobre el grupo de informes globales](prepare/global-rs.md)
@@ -165,20 +165,20 @@ ht-degree: 88%
    + [Anulaciones de variables](js/overrides.md)
    + [Migrar desde código H](js/migrate-from-hcode.md)
    + Código H {#h-code}
-      + [Introducción al código H](js/h-code/overview.md)
+      + [Información general del código H](js/h-code/overview.md)
       + Cuentas dinámicas {#dynamicaccount}
          + [Información general sobre cuentas dinámicas](js/h-code/dynamicaccount/overview.md)
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [Resolución de problemas del código H](js/h-code/troubleshooting.md)
-   + Identificación heredada entre dispositivos {#xdevice-visid}
+   + Identificación multidispositivo heredada {#xdevice-visid}
       + [Información general de conexión de usuarios entre dispositivos](js/xdevice-visid/xdevice-connecting.md)
       + [Persistencia de la variable](js/xdevice-visid/variable-persistence.md)
       + [Ejemplo de visita](js/xdevice-visid/visit-example.md)
       + [Preguntas frecuentes sobre dispositivos cruzados heredados](js/xdevice-visid/xdevice-faq.md)
    + [Solución de problemas de AppMeasurement](js/troubleshooting.md)
-+ Implementación de Analytics en otras plataformas {#other}
++ Implementar Analytics en otras plataformas {#other}
    + [Implementación de Analytics mediante solicitudes de imagen codificadas](other/hardcoded.md)
    + [Implementación de Analytics en Ajax](other/ajax.md)
    + [Implementación de Analytics en AMP](other/amp.md)
@@ -189,13 +189,13 @@ ht-degree: 88%
    + [Uso de AppMeasurement con iFrames](use-cases/iframe.md)
    + [Seguimiento en diferentes tipos de implementación](use-cases/cross-type-implementation.md)
    + [Flujo de trabajo de seguimiento de campaña](use-cases/campaign-tracking.md)
-+ Valide la implementación {#validate}
++ Validar la implementación {#validate}
    + [Adobe Experience Cloud Debugger antiguo](validate/debugger.md)
    + [Parámetros de consulta de recopilación de datos](validate/query-parameters.md)
    + [Monitores de paquetes](validate/packet-monitor.md)
    + [Conflictos de hash](validate/hash-collisions.md)
 + [Preguntas frecuentes](faq.md)
-+ Revisión de la implementación {#review}
++ Revisar la implementación {#review}
    + [Revisión específica (después de cada lanzamiento de sitio web)](review/focused-review.md)
    + [Revisión completa (cada 6 meses)](review/full-review.md)
    + [Definición de los 5 KPI principales](review/define-kpis.md)
