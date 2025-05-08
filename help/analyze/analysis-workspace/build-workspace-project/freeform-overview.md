@@ -21,7 +21,7 @@ Aquí tiene un vídeo sobre cómo crear un proyecto de Workspace:
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generar un proyecto de Workspace](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generar un proyecto de Workspace](https://video.tv.adobe.com/v/3415637?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -158,7 +158,7 @@ Aquí tiene un vídeo sobre el uso del menú de botón derecho en Analysis Works
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usando el menú contextual](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usando el menú contextual](https://video.tv.adobe.com/v/327458?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
