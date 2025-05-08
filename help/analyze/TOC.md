@@ -5,7 +5,7 @@ user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y su versión heredada, y Activity Map.
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
    + [Requisitos del sistema](get-started/sys-reqs.md)
 + [Página de aterrizaje](landing.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Información general de Analysis Workspace](analysis-workspace/home.md)
+   + [Información general sobre Analysis Workspace](analysis-workspace/home.md)
    + Proyectos {#build-workspace-project}
       + [Información general sobre Proyectos](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Crear proyectos](analysis-workspace/build-workspace-project/create-projects.md)
@@ -47,7 +47,7 @@ ht-degree: 100%
       + [Uso de plantillas](analysis-workspace/templates/use-templates.md)
       + [Crear plantillas](analysis-workspace/templates/create-templates.md)
    + Componentes {#components}
-      + [Resumen de componentes](analysis-workspace/components/analysis-workspace-components.md)
+      + [Información general de componentes](analysis-workspace/components/analysis-workspace-components.md)
       + [Uso de componentes en Workspace](analysis-workspace/components/use-components-in-workspace.md)
       + [Adición de descripciones de componentes](analysis-workspace/components/add-component-descriptions.md)
       + Anotaciones {#annotations}
@@ -85,11 +85,11 @@ ht-degree: 100%
             + [Elementos dinámicos vs. estáticos](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Filtrado y ordenación de tablas de forma libre](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Totales de Workspace](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
-      + Tabla de cohorte {#cohort-table}
+      + Tabla de cohortes {#cohort-table}
          + [¿Qué es el análisis de cohorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar un informe de análisis de cohorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Casos de uso de análisis de cohorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
-      + Abandono {#fallout}
+      + Visita en orden previsto {#fallout}
          + [Resumen de visita en orden previsto](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurar una visualización de visita en orden previsto](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Visita en orden previsto multidimensional](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
@@ -126,11 +126,11 @@ ht-degree: 100%
       + [Panel de elemento siguiente o anterior](analysis-workspace/c-panels/next-previous.md)
       + [Panel Resumen de página](analysis-workspace/c-panels/page-summary.md)
       + [Panel de información rápida](analysis-workspace/c-panels/quickinsight.md)
-      + Panel de comparación de segmentos {#segment-comparison}
+      + Panel de comparación de segmentos  {#segment-comparison}
          + [Información general del de comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casos de uso de comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Pruebas estadísticas utilizadas en la comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Depurar, compartir y programar proyectos {#curate-share}
+   + Depuración, uso compartido y programación de proyectos {#curate-share}
       + [Menú Compartir](analysis-workspace/curate-share/send-schedule-files.md)
       + [Depurar proyectos de](analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos](analysis-workspace/curate-share/share-projects.md)
@@ -153,7 +153,7 @@ ht-degree: 100%
       + [Ejecutar análisis de contribución](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [Técnicas estadísticas utilizadas en la detección de anomalías](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [Preferencias de usuario](analysis-workspace/user-preferences.md)
-   + Preguntas frecuentes sobre de Workspace {#workspace-faq}
+   + Preguntas frecuentes sobre Workspace {#workspace-faq}
       + [Preguntas frecuentes](analysis-workspace/workspace-faq/faq.md)
       + [Optimizar rendimiento de Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Mensajes de error](analysis-workspace/workspace-faq/error-messages.md)
@@ -274,7 +274,7 @@ ht-degree: 100%
       + [Descargar un libro](legacy-report-builder/workbook-library/t-download-a-workbook.md)
       + [Bloquear/desbloquear libros](legacy-report-builder/workbook-library/protect-wb.md)
       + [Programar libros con las macros habilitadas](legacy-report-builder/workbook-library/schedule-macro-wb.md)
-   + Publicación en Power BI con el Report Builder 5.5 {#publish-powerbi}
+   + Publicación en Power BI con Report Builder 5.5 {#publish-powerbi}
       + [Resumen de publicación en Power BI](legacy-report-builder/c-publish-power-bi/power-bi.md)
       + [Limitaciones y especificaciones](legacy-report-builder/c-publish-power-bi/specifications-limits.md)
       + [Importar manualmente datos en Power BI](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)
@@ -295,7 +295,7 @@ ht-degree: 100%
       + [Configuración de la extensión](activity-map/overlay/settings.md)
    + [Resolución de problemas](activity-map/troubleshooting.md)
    + [Preguntas frecuentes](activity-map/faq.md)
-+ Tableros de Adobe Analytics {#mobapp}
++ Paneles de Adobe Analytics {#mobapp}
    + [Paneles de Adobe Analytics: Información general](mobile-app/home.md)
    + [Introducción para el gestor de datos](mobile-app/curator.md)
    + [Creación de un cuadro de resultados móvil](mobile-app/create-scorecard.md)

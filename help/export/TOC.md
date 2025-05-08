@@ -5,9 +5,9 @@ user-guide-title: Guía de exportación de Analytics
 breadcrumb-title: Guía de exportación
 user-guide-description: Obtenga información acerca del uso de fuentes de datos para exportar datos sin procesar y Data Warehouse para recuperar el resultado de una hoja de cálculo de datos. Aprenda a utilizar FTP y SFTP para transferir archivos.
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 99%
 
 + [Guía de exportación de Analytics](home.md)
 + [Notas de la versión de Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
-+ Fuente de datos de Analytics {#analytics-data-feed}
-   + [Resumen de la fuente de datos](analytics-data-feed/data-feed-overview.md)
++ Feed de datos de Analytics {#analytics-data-feed}
+   + [Resumen del feed de datos](analytics-data-feed/data-feed-overview.md)
    + [Creación de una fuente de datos](analytics-data-feed/create-feed.md)
    + [Administración de fuentes de datos](analytics-data-feed/df-manage-feeds.md)
    + [Administración de trabajos de fuentes de datos](analytics-data-feed/df-manage-jobs.md)
-   + Contenido de la fuente de datos {#data-feed-contents}
+   + Contenido de feed de datos {#data-feed-contents}
       + [Resumen del contenido de la fuente de datos](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Calcular métricas](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Referencia de columnas de datos](analytics-data-feed/c-df-contents/datafeeds-reference.md)
@@ -52,7 +52,7 @@ ht-degree: 99%
    + [Prácticas recomendadas de Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP y SFTP {#ftp-and-sftp}
    + [Utilizar FTP y SFTP con Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)
-   + Configuración de cuentas FTP alojadas en Adobe {#set-up-ftp-accounts}
+   + Configurar cuentas FTP alojadas en Adobe {#set-up-ftp-accounts}
       + [Resumen de configuración de cuentas de FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [Clasificaciones](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [Fuentes de datos](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
@@ -66,7 +66,7 @@ ht-degree: 99%
    + [Actualización de servidores FTP de Adobe](ftp-and-sftp/ftp-upgrade.md)
    + [Uso del modo FTP pasivo](ftp-and-sftp/ftp-passive.md)
    + [Tiempos de procesamiento de FTP](ftp-and-sftp/ftp-processing.md)
-   + Protocolo seguro de transferencia de archivos {#secure-file-transfer-protocol}
+   + Protocolo seguro de transferencias de archivos {#secure-file-transfer-protocol}
       + [Actualización de servicios SFTP: preguntas frecuentes](ftp-and-sftp/c-sftp/sftp-upgrade.md)
       + [Resumen del Protocolo seguro de transferencia de archivos (SFTP)](ftp-and-sftp/c-sftp/ftp-sftp.md)
       + [Conéctese a una cuenta de FTP de Adobe mediante un SFTP](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)

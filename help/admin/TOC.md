@@ -5,7 +5,7 @@ user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
 source-git-commit: 5b4017bf7ce3f61b365829d058f820b48622d482
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
 ht-degree: 100%
 
@@ -126,13 +126,13 @@ ht-degree: 100%
       + [Administrar grupos de informes](admin/c-manage-report-suites/report-suites-admin.md)
       + [Grupos de informes globales](admin/c-manage-report-suites/rollup-report-suite.md)
       + [Guardar una búsqueda de grupos de informes](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [Descargar la configuración de grupo de informes](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + [Descargar la configuración del grupo de informes](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Nuevo grupo de informes {#c-new-report-suite}
          + [Crear un grupo de informes](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
          + [Crear un grupo de grupos de informes](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [Descargar la configuración del grupo de informes](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [Configuración que no se copia desde un grupo de informes de origen](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-      + Plantillas de grupos de informes {#report-suite-templates}
+      + Plantillas del grupo de informes {#report-suite-templates}
          + [Resumen de las plantillas de grupos de informes](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
          + [Portal de agregadores](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
          + [Comercio](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
@@ -142,8 +142,8 @@ ht-degree: 100%
          + [Portal de trabajo](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
          + [Generación de posibles clientes](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
          + [Medios de soporte técnico](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
-   + Configuración de la empresa {#company-settings}
-      + [Resumen de la configuración de la empresa](admin/company/c-company-settings.md)
+   + Configuración de la compañía {#company-settings}
+      + [Información general de la configuración de la compañía](admin/company/c-company-settings.md)
       + [Administrador de seguridad](admin/company/security-manager.md)
       + [Servicios Web](admin/company/web-services-admin.md)
       + [Informes de Report Builder](admin/company/report-builder-reports-admin.md)
@@ -152,7 +152,7 @@ ht-degree: 100%
       + [Administrador de preferencias](admin/company/preferences-manager.md)
       + [Acciones pendientes](admin/company/pending-actions-admin.md)
       + [Niveles de acceso de las funcionalidades](admin/company/feature-access-levels.md)
-   + Etiquetado de privacidad de administración de datos {#data-governance}
+   + Etiquetado de privacidad de gobernanza de datos {#data-governance}
       + [Flujo de trabajo de privacidad de datos de Adobe Analytics](admin/c-data-governance/an-gdpr-workflow.md)
       + [Preguntas frecuentes](admin/c-data-governance/gdpr-faq.md)
       + Etiquetado de datos {#data-labels}
@@ -163,7 +163,7 @@ ht-degree: 100%
          + [Ejemplo de etiquetado](admin/c-data-governance/data-labeling/gdpr-labeling-example.md)
          + [Espacios de nombres](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
       + [Exención de consentimiento de CNIL](admin/c-data-governance/cnil-consent-exemption.md)
-   + Uso de llamadas al servidor {#server-call-usage}
+   + Uso de llamada al servidor {#server-call-usage}
       + [Resumen del uso de llamadas al servidor](admin/c-server-call-usage/overage-overview.md)
       + [Ver uso de llamadas al servidor actual](admin/c-server-call-usage/server-call-usage-dashboard.md)
       + [Ver uso del grupo de informes](admin/c-server-call-usage/report-suite-usage.md)

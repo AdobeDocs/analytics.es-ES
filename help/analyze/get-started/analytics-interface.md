@@ -4,9 +4,9 @@ title: Explicación de la interfaz de Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2064'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ La pestaña Administración incluye funciones y opciones de configuración para 
    | Fuentes de datos | Las fuentes de datos son una forma eficaz de obtener datos sin procesar de Adobe Analytics. Estos datos sin procesar se pueden utilizar en otras plataformas fuera de Adobe para su uso según convenga a su organización. | [Resumen de la fuente de datos de Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=es) |
    | Excluir por dirección IP | Se pueden excluir datos de las direcciones IP específicas, por ejemplo, las actividades de sitio web internas, las pruebas del sitio y el uso por parte de los empleados, de los informes. La exclusión de datos elimina los datos de las direcciones IP para conseguir mayor precisión en los informes. También es posible eliminar datos de ataques de negación de servicio u otros eventos dañinos que pueden distorsionar los datos de los informes. Puede configurar la exclusión o utilizar el cortafuegos. | [Excluir por dirección IP](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=es) |
    | Administrador de actividades de creación de informes | El Administrador de actividades de creación de informes le permite ver la capacidad de creación de informes de cada grupo de informes de su organización. Proporciona una visibilidad detallada del consumo de creación de informes y le ayuda a diagnosticar y corregir fácilmente los problemas de capacidad durante las horas de mayor actividad de creación de informes. | [Administrador de actividades de creación de informes](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=es) |
-   | Etiquetado de privacidad de administración de datos | Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identidad, confidencialidad y administración de datos a cada variable de un grupo de informes determinado. | [Etiquetado de datos de grupos de informes](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=es) |
+   | Etiquetado de privacidad de gobernanza de datos | Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identidad, confidencialidad y administración de datos a cada variable de un grupo de informes determinado. | [Etiquetado de datos de grupos de informes](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=es) |
    | Inicio de configuración de la compañía | La página Configuración de la empresa permite configurar opciones que se aplican a todos los grupos de informes que gestiona la organización. | [Información general de configuración de la compañía](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=es) |
    | Administrador de seguridad | El Administrador de seguridad permite controlar el acceso a los datos de informes. Las opciones incluyen contraseñas seguras, caducidad de las contraseñas, restricciones de inicio de sesión de direcciones IP y restricciones de dominio de correo electrónico. | [Administrador de seguridad](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html?lang=es) |
    | Servicios Web | Las API de servicios web proporcionan acceso mediante programación a los informes de marketing y a otros servicios de Suite que permiten duplicar y aumentar la funcionalidad disponible a través de la interfaz de Analytics. | [Servicios web](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html?lang=es) |
