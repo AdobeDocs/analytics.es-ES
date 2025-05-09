@@ -1,25 +1,46 @@
 ---
-description: La tabla de búsqueda para determinar el tipo de visita basándose en el valor de page_event.
-keywords: Fuente de datos;página;evento;page_event;post_page_event
+description: La tabla de búsqueda para determinar el tipo de visita en función del evento de la página.
+keywords: página;evento;page_event;post_page_event
 title: Búsqueda de eventos de página
 feature: Data Feeds
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '226'
+ht-degree: 4%
 
 ---
 
 # Búsqueda de eventos de página
 
-La tabla de búsqueda para determinar el tipo de visita basándose en el valor de page_event.
+Tabla de búsqueda para determinar el tipo de visita basándose en el valor `page_event`. Como se menciona en la [referencia de columna de datos](datafeeds-reference.md), las columnas `page_event` y `post_page_event` son tinyint sin firmar.
 
-| Tipo de visita | `page_event` valor | `post_page_event` valor |
+* Consulte [`t()`](/help/implement/vars/functions/t-method.md) para comprender la implementación de las llamadas de vista de página para AppMeasurement y Web SDK.
+* Consulte [`tl()`](/help/implement/vars/functions/tl-method.md) para comprender la implementación de las llamadas de seguimiento de vínculos para AppMeasurement y Web SDK.
+* Consulte [Implementar Adobe Analytics con Adobe Experience Platform Edge Network](/help/implement/aep-edge/overview.md) para comprender cómo Adobe Analytics traduce las cargas XDM a tipos de eventos de página.
+
+| `page_event` valor | `post_page_event` valor | Descripción |
 | --- | --- | --- |
-| Vistas de páginas | 0: Todas las llamadas de vista de páginas y las llamadas `trackState` del SDK móvil | El mismo valor que `page_event` |
-| Seguimiento de vínculos | 10: Vínculos personalizados y llamadas `trackAction` del SDK móvil<br>11: Vínculos de descarga<br>12: Vínculos de salida | 100: Vínculos personalizados y `trackAction` llamadas del SDK móvil<br>101: Vínculos de descarga <br>102: Vínculos de salida |
-| Vídeo de Milestone | 31: Inicio de los medios<br>32: Actualizaciones de medios (sin otro procesamiento de variables)<br>33: Actualizaciones de medios (con otras variables) | 76: Inicio de los medios<br>77: Actualizaciones de medios (sin otro procesamiento de variables)<br>78: Actualizaciones de medios (con otras variables) |
-| Vídeo de Heartbeat | 50: Inicio del flujo de medios (que no sea Primetime)<br>51: Cierre del flujo de medios (que no sea Primetime)<br>52: Eliminación de flujo de medios (que no sea Primetime)<br>53: El flujo de medios se mantiene vivo (no Primetime)<br>54: Inicio de anuncio de flujo de medios (que no sea Primetime)<br>55: Cierre de anuncio de flujo de medios (que no sea Primetime)<br>56: Depuración de anuncios de flujo de medios (que no sea Primetime)<br>60: Inicio del flujo de medios Primetime<br>61: Cierre del flujo de medios Primetime<br>62: Limpieza del flujo de medios Primetime<br>63: El flujo de medios Primetime se mantiene vivo<br>64: Inicio del anuncio del flujo de medios Primetime<br>65: Cierre del anuncio del flujo de medios Primetime<br>66: Limpieza del anuncio de flujo de medios Primetime | El mismo valor que `page_event` |
-| Encuesta | 40: Cualquier llamada generada desde Survey | 80: Cualquier llamada generada desde Survey |
-| Analytics for Target | 70: La visita incluye datos de actividad de Target | El mismo valor que `page_event` |
+| `0` | `0` | Todas las llamadas de vista de página estándar. Es el valor predeterminado para la mayoría de las visitas. |
+| `10` | `100` | Vínculos personalizados. Establezca el tipo de vínculo en `o` (AppMeasurement) o `xdm.web.webInteraction.type` en `other` (Web SDK o Mobile SDK). |
+| `11` | `101` | Vínculos de descarga. Establezca el tipo de vínculo en `d` (AppMeasurement) o `xdm.web.webInteraction.type` en `download` (Web SDK o Mobile SDK). |
+| `12` | `102` | Vínculos de salida. Establezca el tipo de vínculo en `e` (AppMeasurement) o `xdm.web.webInteraction.type` en `exit` (Web SDK o Mobile SDK). |
+| `31` | `76` | Inicio de contenidos |
+| `32` | `77` | Actualizaciones de medios (sin otro procesamiento de variables) |
+| `33` | `78` | Actualizaciones de medios (con otro procesamiento de variables) |
+| `40` | `80` | Encuesta |
+| `50` | `50` | Inicio de medios de streaming |
+| `51` | `51` | Cierre de medios de streaming |
+| `52` | `52` | Eliminación de medios de streaming |
+| `53` | `53` | Los medios de streaming se mantienen activos |
+| `54` | `54` | Inicio del anuncio de medios de streaming |
+| `55` | `55` | Cierre de anuncio de medios de streaming |
+| `56` | `56` | Medios de streaming y eliminación |
+| `60` | `60` | Inicio de medios de Primetime |
+| `61` | `61` | Cierre de medios de Primetime |
+| `62` | `62` | Eliminación de medios de Primetime |
+| `63` | `63` | Mantener activos los medios de Primetime |
+| `64` | `64` | Inicio del anuncio multimedia de Primetime |
+| `65` | `65` | Cierre de anuncio multimedia de Primetime |
+| `66` | `66` | Eliminación de medios y publicidad de Primetime |
+| `70` | `70` | Incluye datos de actividad de Target |

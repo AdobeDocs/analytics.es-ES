@@ -4,9 +4,9 @@ description: Envíe una llamada de seguimiento de vista de página a Adobe.
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: e47bee837faf9b8cf080d878da860795ced014d5
+source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 56%
 
 ---
@@ -37,19 +37,19 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20item
 
 Adobe recibe la solicitud de imagen y, a continuación, analiza los parámetros de encabezado, dirección URL y cadena de consulta de la solicitud. Los servidores de recopilación de datos devuelven una imagen transparente de 1x1 píxeles, que se muestra de forma invisible en el sitio.
 
-## Envío de eventos mediante la extensión del SDK web
+## Envío de eventos con la extensión Web SDK
 
-Utilice una acción para configurar el envío de datos de evento XDM al Adobe. La secuencia de datos recibe estos datos, aplica todas las asignaciones configuradas y reenvía esos datos a Adobe Analytics si es un servicio agregado a esa secuencia de datos.
+Utilice una acción para configurar el envío de datos de evento XDM a Adobe. La secuencia de datos recibe estos datos, aplica todas las asignaciones configuradas y reenvía esos datos a Adobe Analytics si es un servicio agregado a esa secuencia de datos.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
 1. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 1. En [!UICONTROL Acciones], haga clic en la acción que desee o en el icono **&#39;+&#39;** para agregar una acción.
-1. Establece la lista desplegable [!UICONTROL Extension] en **[!UICONTROL SDK web de Adobe Experience Platform]** y el [!UICONTROL tipo de acción] en **[!UICONTROL Enviar evento]**.
+1. Establezca la lista desplegable [!UICONTROL Extension] en **[!UICONTROL Adobe Experience Platform Web SDK]** y el [!UICONTROL Tipo de acción] en **[!UICONTROL Enviar evento]**.
 
-## Enviar evento manualmente implementando el SDK web
+## Enviar evento manualmente implementando Web SDK
 
-Utilice el comando `sendEvent` para enviar datos al Adobe. La secuencia de datos recibe estos datos, aplica todas las asignaciones configuradas y reenvía esos datos a Adobe Analytics si es un servicio agregado a esa secuencia de datos.
+Utilice el comando `sendEvent` para enviar datos a Adobe. La secuencia de datos recibe estos datos, aplica todas las asignaciones configuradas y reenvía esos datos a Adobe Analytics si es un servicio agregado a esa secuencia de datos.
 
 ```js
 alloy("sendEvent", {
@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Consulte [Seguimiento de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=es) en la documentación del SDK web para obtener más información.
+Consulte [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) en la documentación de Web SDK para obtener más información.
 
 ## Llamada de seguimiento de vista de página mediante la extensión Adobe Analytics
 
