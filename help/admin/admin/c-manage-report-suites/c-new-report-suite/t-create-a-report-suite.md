@@ -3,10 +3,10 @@ description: Cree un contenedor básico para la recopilación de datos en Adobe 
 title: Crear un grupo de informes
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 8c0e88a22928d79599ab0a0ad3efc8159712d739
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Este artículo está diseñado para administradores de nivel de sistema o admini
 ## Crear un grupo de informes {#create-report-suite}
 
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
-1. Haga clic en **[!UICONTROL Crear nuevo]** > **[!UICONTROL Grupo de informes]**.
+1. Haga clic en **[!UICONTROL Agregar grupo de informes]**.
 1. Seleccione una plantilla predefinida o un grupo de informes existente para usar como [plantilla](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md).
 
    >[!NOTE]

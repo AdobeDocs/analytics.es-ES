@@ -4,10 +4,10 @@ title: Descargar la configuración del grupo de informes
 feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 8c0e88a22928d79599ab0a0ad3efc8159712d739
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +31,7 @@ Descripción de los elementos utilizados al [crear un grupo de informes](/help/a
 | Fecha de lanzamiento | Informa a Adobe de la fecha en la que se espera que se active este grupo de informes. Si su programa de implementación cambia, indique el cálculo de tráfico actualizado mediante la herramienta Tráfico previsto permanente en  Administración del tráfico. |
 | Vistas de la página estimadas por día | Indica la cantidad estimada de vistas de página que se espera que admita este grupo de informes cada día. Los volúmenes grandes de tráfico requieren un proceso de aprobación más largo. Para evitar que se retrase el procesamiento, indique una estimación lo más precisa que sea posible. |
 | Moneda base | Especifica la divisa predeterminada que se usará para almacenar todos los datos monetarios. Analytics convierte las transacciones en otras monedas a la moneda base mediante la tasa de conversión vigente en el momento de recibir los datos. La creación de informes de análisis utiliza la variable de JavaScript currencyCode para identificar la moneda de una transacción determinada. |
-| Deshabilitar compatibilidad con caracteres de byte múltiple | Desactiva la compatibilidad con caracteres multibyte en el grupo de informes. Si se desactiva la compatibilidad con caracteres multibyte, el sistema supondrá que los datos están en formato `ISO-8859-1` Las páginas Web deben especificar su conjunto de caracteres en la variable de JavaScript charSet. <p>La compatibilidad con caracteres multibyte almacena los caracteres del grupo de informes en UTF-8. El sistema, al recibir los datos del conjunto de caracteres de la página web, los convierte al conjunto de caracteres UTF-8, para que pueda utilizar cualquier idioma en los informes de marketing.  Para cambiar la compatibilidad de caracteres multibyte en un grupo de informes existente, póngase en contacto con el equipo de cuentas de Adobe o el Servicio de atención al cliente. |
+| Habilitar procesamiento de palabras clave en japonés | Habilita la compatibilidad con caracteres multibyte en el grupo de informes. Si se desactiva la compatibilidad con caracteres multibyte, el sistema supondrá que los datos están en formato `ISO-8859-1` Las páginas Web deben especificar su conjunto de caracteres en la variable de JavaScript charSet. <p>La compatibilidad con caracteres multibyte almacena los caracteres del grupo de informes en UTF-8. El sistema, al recibir los datos del conjunto de caracteres de la página web, los convierte al conjunto de caracteres UTF-8, para que pueda utilizar cualquier idioma en los informes de marketing.  Para cambiar la compatibilidad de caracteres multibyte en un grupo de informes existente, póngase en contacto con el equipo de cuentas de Adobe o el Servicio de atención al cliente. |
+| Utilizar menú de navegación simplificado | Esta característica era parte de [Reports &amp; Analytics](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?), que ya no es compatible. |
 
 {style="table-layout:auto"}
