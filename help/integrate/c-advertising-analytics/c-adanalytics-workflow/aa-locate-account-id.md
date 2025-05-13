@@ -3,10 +3,10 @@ description: Aquí puede encontrar unas instrucciones de ayuda para localizar lo
 title: Localización de los ID de su cuenta
 feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 0453f374e9027d1c539682212e880c4ebc81152f
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 67%
+source-wordcount: '247'
+ht-degree: 55%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 67%
 
 Aquí puede encontrar unas instrucciones de ayuda para localizar los identificadores de las cuentas de Google y Bing.
 
-## Google AdWords {#section_2A62AD448BD949889DB77C2AF3E04C33}
+## Google Ads (AdWords) {#section_2A62AD448BD949889DB77C2AF3E04C33}
 
 >[!IMPORTANT]
 >
@@ -27,18 +27,18 @@ Aquí puede encontrar unas instrucciones de ayuda para localizar los identificad
 
 En la parte superior, haga clic en el icono Cuenta para ver el número de cuenta de AdWords (identificador de cliente).
 
-![](assets/google_account.png)
+![Cuenta de administrador de Google Ads](assets/google-account.png)
 
-## Bing {#section_F1B9C7E997444746936599732CD62665}
+## Microsoft Advertising (Bing) {#section_F1B9C7E997444746936599732CD62665}
 
 >[!NOTE]
 >
->Si su cuenta de Bing utiliza la función de importación de Google, asegúrese de actualizar la cadena de seguimiento correcta. La cadena de seguimiento no se actualiza automáticamente de la versión de Google a la cadena de seguimiento correcta de Bing y puede dar como resultado datos no especificados. Puede encontrar más detalles sobre la función [aquí](https://help.ads.microsoft.com/apex/index/3/en/50851/).
+>Si su cuenta de Microsoft Advertising (anteriormente conocida como Bing) utiliza la función de importación de Google, asegúrese de actualizar la cadena de seguimiento correcta. La cadena de seguimiento no se actualiza automáticamente de la versión de Google a la cadena de seguimiento correcta de Bing y puede dar como resultado datos no especificados. Puede encontrar más detalles sobre la función [aquí](https://help.ads.microsoft.com/apex/index/3/en/50851/).
 
-El identificador de cuenta y el identificador de cliente son necesarios. Se indican en la pestaña Cuentas.
+Se requieren **[!UICONTROL Account ID]** y **[!UICONTROL Account Number]**. Aparecen en la ficha **[!UICONTROL Configuración de cuentas]** dentro de **[!UICONTROL Configuración]**.
 
 >[!NOTE]
 >
 >El número de cuenta no es lo mismo que el identificador de cuenta.
 
-![](assets/bing_id.png)
+![Microsoft Advertising](assets/bing-id.png)
