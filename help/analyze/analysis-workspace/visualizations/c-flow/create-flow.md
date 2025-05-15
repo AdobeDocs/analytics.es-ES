@@ -7,7 +7,7 @@ exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_startswith"
 >title="Comienza con"
->abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+>abstract="Este campo solo puede establecer en la versión inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_contains"
 >title="Contiene"
->abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+>abstract="Este campo solo puede establecer en la versión inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_endswith"
 >title="Finaliza con"
->abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+>abstract="Este campo solo puede establecer en la versión inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_pathingdimension"
 >title="Dimensión de las rutas"
->abstract="Seleccione una dimensión para utilizarla como ruta de acceso o de salida del componente seleccionado."
+>abstract="Seleccione una dimensión para usarla como ruta de acceso al componente seleccionado o desde este."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_container"
@@ -46,27 +46,27 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_default"
 >title="Incluir repeticiones"
->abstract="Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo: recargas de página."
+>abstract="Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo, recargas de página. "
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_limit_occurrence"
 >title="Limitar a la primera/última ocurrencia"
->abstract="Los resultados se limitan a rutas cuando el primer/último punto de contacto es una entrada/salida."
+>abstract="Los resultados se limitan a las rutas en las que el primer/último punto de contacto es una entrada/salida."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_numberofcolumns"
 >title="Número de columnas"
->abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+>abstract="Este campo solo puede establecer en la versión inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_itemsexpandedpercolumn"
 >title="Elementos expandidos por columna"
->abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+>abstract="Este campo solo puede establecer en la versión inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_resettoupdate"
 >title="Restablecer para actualizar"
->abstract="Este campo solo se puede establecer en la compilación inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
+>abstract="Este campo solo puede establecer en la versión inicial. Para actualizar este campo, seleccione **[!UICONTROL Restablecer]** para generar una nueva visualización de flujo."
 
 
 
@@ -154,7 +154,7 @@ Para explorar en profundidad los datos, tiene varias opciones:
 
 ## Filtro
 
-Por encima de cada columna aparece un ![Filtro](/help/assets/icons/Filter.svg) cuando pasa el ratón por encima. Al hacer clic en el filtro, obtiene el mismo cuadro de diálogo de filtro que existe en la tabla de forma libre. Consulte [Filtrar y ordenar](freeform-table/../../freeform-table/filter-and-sort.md).
+Por encima de cada columna aparece un ![Filtro](/help/assets/icons/Filter.svg) cuando pasa el puntero por encima. Al hacer clic en el filtro, obtiene el mismo cuadro de diálogo de filtro que existe en la tabla de forma libre. Consulte [Filtrar y ordenar](freeform-table/../../freeform-table/filter-and-sort.md).
 
 * Utilice **[!UICONTROL Mostrar configuración avanzada]** para configurar los ajustes avanzados para incluir o excluir determinados criterios con una lista de operadores. Consulte [Filtros y ordenación](../freeform-table/filter-and-sort.md) para obtener más información.
 * Una vez filtrada una columna, esa columna específica refleja el filtrado. Un ![filtro](/help/assets/icons/FilterColored.svg) azul indica que la columna está filtrada.  El filtro reduce la columna para mostrar solo el elemento permitido en el filtro. También elimina todos los elementos, excepto el elemento que desee en el filtro.
@@ -175,7 +175,7 @@ Utilice un menú contextual en cualquier nodo de la visualización de flujo con 
 | **[!UICONTROL Excluir elemento]** o **[!UICONTROL Restaurar elementos excluidos]** | Quita un nodo específico de la columna y lo crea automáticamente como filtro en la parte superior de la columna. Para restaurar el elemento excluido, seleccione en el menú contextual **[!UICONTROL Restaurar elemento excluido]**. También puede abrir el filtro en la parte superior de la columna y quitar el recuadro con el elemento que acaba de excluir. |
 | **[!UICONTROL Tendencia]** | Crea un diagrama de tendencia para el nodo. |
 | **[!UICONTROL Mostrar columna siguiente]** / **[!UICONTROL Mostrar columna anterior]** | Muestra la columna siguiente (derecha) o anterior (izquierda) de la visualización. |
-| **[!UICONTROL Ocultar columna]**&#x200B;n | Oculta la columna seleccionada de la visualización. |
+| **[!UICONTROL Ocultar columna]**n | Oculta la columna seleccionada de la visualización. |
 | **[!UICONTROL Expandir toda la columna]** | Expande una columna para mostrar todos los nodos. De forma predeterminada, únicamente se muestran los cinco nodos principales. |
 | **[!UICONTROL Crear audiencia a partir de la selección]** | Crea una audiencia basada en la columna seleccionada. |
 | **[!UICONTROL Contraer toda la columna]** | Oculta todos los nodos de una columna. |
