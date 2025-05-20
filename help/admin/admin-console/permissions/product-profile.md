@@ -4,7 +4,7 @@ description: Descubra cómo se pueden utilizar los perfiles de producto como aju
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
-source-git-commit: ed7b25491de5c1238e846997ec903df4fd4ee18c
+source-git-commit: 8f1a17d2b07d5b37ef6d3d3f426234b29be61319
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 65%
@@ -33,7 +33,7 @@ Para obtener información sobre cómo asignar administradores de perfil de produ
 Los permisos mínimos requeridos en un único perfil de producto para acceder a Adobe Analytics son los siguientes:
 
 * El perfil de producto debe tener acceso al menos a un grupo de informes
-* El perfil de producto debe pertenecer al elemento de permiso Herramientas de Analytics **Acceso a Analysis Workspace**.
+* El perfil de producto debe pertenecer al elemento de permiso Herramientas de Analytics **Acceso a proyectos de Workspace**.
 
 ### Grupos de informes
 
