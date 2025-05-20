@@ -5,17 +5,17 @@ feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2287'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Prácticas recomendadas de etiquetado
 
-El etiquetado debe revisarse cada vez que se crea un nuevo grupo de informes o cuando se activa una nueva variable dentro de un grupo de informes existente. También es posible que necesite revisar el etiquetado cuando se activen nuevas integraciones de la solución, ya que pueden exponer nuevas variables que pueden requerir etiquetado. Una reimplementación de sus aplicaciones móviles o sitios web puede cambiar la forma en la que se utilizan las variables existentes, las cuales también pueden necesitar la actualización de las etiquetas.
+Recuerde que el etiquetado debe revisarse cada vez que se cree un nuevo grupo de informes o cuando se active una nueva variable dentro de un grupo de informes existente. También es posible que necesite revisar el etiquetado cuando se activen nuevas integraciones de la solución, ya que pueden exponer nuevas variables que pueden requerir etiquetado. Una reimplementación de sus aplicaciones móviles o sitios web puede cambiar la forma en la que se utilizan las variables existentes, las cuales también pueden necesitar la actualización de las etiquetas.
 
-Las etiquetas I1, I2, S1 y S2 tienen el mismo significado que las etiquetas DULE con el nombre correspondiente en Adobe Experience Platform. Sin embargo, se utilizan para propósitos muy diferentes. En Adobe Analytics, estas etiquetas se utilizan para ayudar a identificar campos que deben convertirse en anónimos como resultado de una solicitud de Privacy Service. En Adobe Experience Platform, se utilizan para el control de acceso, la administración de consentimientos y para aplicar restricciones de marketing en campos etiquetados. Adobe Experience Platform admite muchas etiquetas adicionales que Adobe Analytics no utiliza. Si utiliza el conector de datos de Analytics para importar los datos de Adobe Analytics en Adobe Experience Platform, debe asegurarse de que todas las etiquetas I1, I2, S1 y S2 que haya aplicado en Adobe Analytics también se apliquen a los esquemas de Adobe Experience Platform que utilizan los grupos de informes importados.
+Las etiquetas I1, I2, S1 y S2 tienen el mismo significado que las etiquetas DULE con el nombre correspondiente en Adobe Experience Platform. Sin embargo, se utilizan para finalidades muy diferentes. En Adobe Analytics, estas etiquetas se utilizan para ayudar a identificar campos que deben convertirse en anónimos como resultado de una solicitud de Privacy Service. En Adobe Experience Platform, se utilizan para el control de acceso, la gestión del consentimiento y para aplicar restricciones de marketing en los campos etiquetados. Adobe Experience Platform admite muchas etiquetas adicionales que Adobe Analytics no utiliza. Si usa el conector de datos de Analytics para importar los datos de Adobe Analytics a Adobe Experience Platform, asegúrese de que las etiquetas I1, I2, S1 y S2 que haya usado en Adobe Analytics también se apliquen a los esquemas de Adobe Experience Platform que se utilizan en los grupos de informes importados.
 
 ## ID directamente e indirectamente identificables {#direct-vs-indirect}
 
@@ -101,7 +101,7 @@ Aunque muy pocos campos tendrán alguna de las otras etiquetas, será habitual q
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Solo ID de dispositivo </p> </td> 
-   <td colname="col2"> <p>Si los únicos ID que usa son ID de cookie o los que tienen una etiqueta ID-DEVICE, solo debe utilizar la etiqueta ACC-ALL. </p> <p>Obtendrá un par de archivos para cada solicitud de acceso: un archivo que contiene una fila por cada visita coincidente con todos los campos ACC-ALL especificados y un archivo de resumen que contiene un resumen de estos datos. </p> </td> 
+   <td colname="col2"> <p>Si los únicos ID que usa son ID de cookie o los que tienen una etiqueta ID-DEVICE, solo debe utilizar la etiqueta ACC-ALL. </p> <p>Obtendrá un par de archivos para cada solicitud de acceso, uno que contiene una fila por cada visita coincidente con todos los campos ACC-ALL especificados y otro que contiene un resumen de estos datos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

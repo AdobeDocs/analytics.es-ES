@@ -1,13 +1,13 @@
 ---
-description: Preguntas frecuentes sobre la administración de datos de Adobe Analytics
+description: Preguntas frecuentes sobre la gobernanza de datos de Adobe Analytics
 title: Preguntas frecuentes sobre la gobernanza de datos
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2042'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,11 +37,11 @@ Si un interesado envía una solicitud junto con un identificador (variable perso
 
 +++
 
-+++ **¿Cómo puede ayudar la herramienta Administración de datos de Adobe Analytics con el procesamiento de solicitudes de privacidad de datos?**
++++ **¿Cómo puede ayudar la herramienta gobernanza de datos de Adobe Analytics con el procesamiento de solicitudes de privacidad de datos?**
 
-Gobernanza de datos es una nueva herramienta dentro de Adobe Analytics que proporciona la capacidad de aplicar clasificaciones y controles de datos a los responsables del tratamiento de datos en sus datos de Analytics. Esta nueva herramienta permite que los clientes de Adobe personalicen el procesamiento de sus solicitudes de acceso y eliminación de datos de privacidad de datos. En la consola de Control de datos, los administradores pueden definir la configuración deseada que debe aplicarse a varias columnas de datos que residen en Adobe Analytics. Una vez que se han definido estas etiquetas, Adobe acepta y procesa cualquier solicitud de acceso de bajada o eliminación según la configuración de etiquetas que desee el cliente. El responsable del tratamiento de datos tiene la obligación de revisar esta configuración de etiquetas y buscar el asesoramiento de sus representantes legales con respecto a ella.
+Gobernanza de datos es una nueva herramienta dentro de Adobe Analytics que proporciona la capacidad de aplicar clasificaciones y controles de datos a los responsables del tratamiento de datos en sus datos de Analytics. Esta nueva herramienta permite que los clientes de Adobe personalicen el procesamiento de sus solicitudes de acceso y eliminación de datos de privacidad de datos. En la consola de Gobernanza de datos, los administradores pueden definir la configuración deseada que debe aplicarse a varias columnas de datos que residen en Adobe Analytics. Una vez que se han definido estas etiquetas, Adobe acepta y procesa cualquier solicitud de acceso de bajada o eliminación según la configuración de etiquetas que desee el cliente. El responsable del tratamiento de datos tiene la obligación de revisar esta configuración de etiquetas y buscar el asesoramiento de sus representantes legales con respecto a ella.
 
-La herramienta Control de datos contiene las siguientes etiquetas de datos:
+La herramienta gobernanza de datos contiene las siguientes etiquetas de datos:
 
 * **Etiquetas de datos de identidad**: se utilizan para clasificar los datos que pueden identificar a un individuo tanto de forma directa como en combinación con otros datos. (Ninguna, I1, I2)
 
@@ -49,7 +49,7 @@ La herramienta Control de datos contiene las siguientes etiquetas de datos:
 
 * **Etiquetas de datos de privacidad de datos**: se utilizan para definir los campos que pueden contener identificadores personales para su uso en solicitudes de privacidad de datos o que deberán eliminarse como parte de una solicitud de eliminación de privacidad de datos. Estas etiquetas pueden superponerse a las etiquetas de Identidad y Datos confidenciales, en algunos casos.
 
-Para obtener más información sobre las etiquetas de Administración de datos, consulte [Etiquetas de privacidad de datos para variables de Analytics](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md).
+Para obtener más información sobre las etiquetas de gobernanza de datos, consulte [Etiquetas de privacidad de datos para variables de Analytics](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md).
 
 +++
 
@@ -85,7 +85,7 @@ Usted, como responsable del tratamiento de datos, es el responsable de obtener u
 
 En general, los datos personales no se deben conservar más tiempo del que sea necesario para lograr el propósito para el que se han recopilado. Las condiciones generales de Adobe aplican un plan de retención de datos predeterminado de 25 meses, a menos que se acuerde contractualmente un plazo distinto. Es necesario que los clientes establezcan su política de retención de datos para que Adobe pueda procesar las solicitudes de privacidad de datos.
 
-La política de retención de datos actual de cada grupo de informes se muestra en la nueva interfaz de usuario de la administración del control de datos. Los clientes que necesiten modificar su política de retención de datos deberán ponerse en contacto con su representante de Adobe. Consulte el artículo [Preguntas frecuentes de retención de datos de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=es).
+La política de retención de datos actual de cada grupo de informes se muestra en la nueva interfaz de usuario de la administración de la gobernanza de datos. Los clientes que necesiten modificar su política de retención de datos deberán ponerse en contacto con su representante de Adobe. Consulte el artículo [Preguntas frecuentes de retención de datos de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=es).
 
 +++
 
@@ -109,7 +109,7 @@ La [API de Privacy Service de datos](https://developer.adobe.com/experience-plat
 
 Le rogamos que no use la API de privacidad de datos para otros fines, por ejemplo, para borrar datos que se hayan enviado por error a grupos de visitantes grandes. También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que los detalles relativos al número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API de privacidad de datos no es apropiada para este uso.
 
-Póngase en contacto con el equipo de cuenta de Adobe para coordinarse con nuestro equipo de consultoría de arquitectos de ingeniería y revisar y proporcionar nivel de esfuerzo para eliminar cualquier PII o problema de datos.
+Póngase en contacto con el equipo de cuentas de Adobe para que el equipo de consultoría de arquitectura de ingeniería realice una revisión más exhaustiva para eliminar cualquier problema con la información o los datos personales.
 
 +++
 
@@ -119,7 +119,7 @@ La [API de Privacy Service de datos](https://developer.adobe.com/experience-plat
 
 También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que los detalles relativos al número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API de privacidad de datos no es apropiada para este uso.
 
-Póngase en contacto con el equipo de cuenta de Adobe para coordinarse con nuestro equipo de consultoría de arquitectos de ingeniería y revisar y proporcionar nivel de esfuerzo para eliminar cualquier PII o problema de datos.
+Póngase en contacto con su equipo de cuentas de Adobe para que se coordine con nuestro equipo de consultoría encargado de la arquitectura de ingeniería para revisar más a fondo y proporcionar el nivel de esfuerzo necesario para eliminar cualquier problema relacionado con la información de identificación personal o los datos.
 
 +++
 

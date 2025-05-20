@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
 source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -29,16 +29,16 @@ Como responsable del tratamiento de datos, determinará qué datos personales Ad
 
 ## Cómo administra Adobe los datos de la CCPA
 
-Adobe Experience Cloud proporciona una solución integrada que conecta la infraestructura de control de datos de su marca con las herramientas de Adobe que utiliza para crear y administrar las experiencias de los consumidores. Las funciones de control de datos de Adobe Experience Cloud permiten vincular de forma directa las políticas de control al uso de los datos.
+Adobe Experience Cloud ofrece una solución integrada que conecta la infraestructura de gobernanza de datos de su marca con las herramientas de Adobe que utiliza para crear y administrar las experiencias de los consumidores. Las funciones de gobernanza de datos de Adobe Experience Cloud vinculan de forma directa las políticas de gobernanza de datos al uso de datos.
 
 Familiarícese con [cómo administra Adobe Analytics el RGPD](https://www.adobe.com/es/data-analytics-cloud/analytics/general-data-protection-regulation.html), donde se tratan los pasos de preparación para la privacidad y cómo llevar a cabo la integración con la API del servicio de privacidad de Adobe Experience Cloud.
 
 ## Preparación para la CCPA y sus datos de Adobe Analytics
 
-En Adobe somos conscientes de que usted es quien más familiarizado está con los datos personalizados de sus grupos de informes y, por ello, le damos la oportunidad de definir su configuración y preferencias de control de datos.
-Para ello, Adobe Analytics proporciona una interfaz de usuario de control de datos que le permite, como responsable del tratamiento de datos, establecer [etiquetas de privacidad](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels) en sus grupos de informes de Analytics y en todas las dimensiones de métricas de dichos grupos. Puede identificar las columnas de su conjunto de datos que contengan datos directamente o indirectamente identificables, con lo que podrá presentar sus solicitudes de acceso y eliminación con respecto a esos datos. Para cada solicitud, se respetarán las etiquetas definidas en la interfaz de usuario de control de datos de Analytics del identificador específico con el que se corresponda dicha solicitud.
+En Adobe somos conscientes de que usted es quien más familiarizado está con los datos personalizados de sus grupos de informes y, por ello, le damos la oportunidad de definir su configuración y preferencias de gobernanza de datos.
+Para ello, Adobe Analytics proporciona una interfaz de usuario de gobernanza de datos que le permite, como responsable del tratamiento de datos, establecer [etiquetas de privacidad](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels) en sus grupos de informes de Analytics y en todas las dimensiones de métricas de dichos grupos. Puede identificar las columnas de su conjunto de datos que contengan datos directamente o indirectamente identificables, con lo que podrá presentar sus solicitudes de acceso y eliminación con respecto a esos datos. Para cada solicitud, se respetarán las etiquetas definidas en la interfaz de usuario de gobernanza de datos de Analytics del identificador específico con el que se corresponda dicha solicitud.
 
-Consulte [Etiquetar datos de grupos de informes](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) para obtener más información sobre cómo configurar las etiquetas.
+Consulte [Etiquetado de datos de grupos de informes](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) para obtener más información sobre cómo establecer las etiquetas.
 
 ## Requisitos previos
 
@@ -46,7 +46,7 @@ Consulte [Etiquetar datos de grupos de informes](/help/admin/admin/c-data-govern
 * Vincule su empresa de inicio de sesión a una organización de Experience Cloud, si no lo ha hecho ya. Póngase en contacto con el servicio de atención al cliente de Adobe y consulte [Organizaciones y vinculación de cuentas.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es)
 * Establezca una política de retención de datos para cada grupo de informes a fin de poder satisfacer las solicitudes de acceso y eliminación de la CCPA.
 
-  Adobe Analytics no puede ayudarle con el tratamiento de solicitudes en la API de los servicios de privacidad (es decir, el tratamiento de las solicitudes de acceso o eliminación que reciba de sus usuarios finales) si no se ha establecido el periodo de retención de datos en Adobe Analytics. Póngase en contacto con el equipo de su cuenta de Adobe para establecer el período de retención de datos.
+  Adobe Analytics no puede ayudarle con el tratamiento de solicitudes en la API de los servicios de privacidad (es decir, el tratamiento de las solicitudes de acceso o eliminación que reciba de sus usuarios finales) si no se ha establecido el periodo de retención de datos en Adobe Analytics. Póngase en contacto con su equipo de cuentas de Adobe para poder establecer el periodo de retención de datos.
 
-* Compruebe sus permisos: para utilizar la interfaz de gestión del control de datos en Adobe Analytics, debe ser administrador de Adobe Analytics.
+* Compruebe sus permisos: para utilizar la interfaz de gestión de gobernanza de datos en Adobe Analytics, debe ser administrador de Adobe Analytics.
 * Considere implementar las [Variables de administración de consentimiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) para rastrear el estado de consentimiento en un nivel de visita individual.

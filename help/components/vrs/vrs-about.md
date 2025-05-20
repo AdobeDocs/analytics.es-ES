@@ -4,9 +4,9 @@ title: Resumen de los grupos de informes virtuales
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Muchos clientes mantienen un flujo de datos hacia un grupo de informes global, p
 
 Por ejemplo, todos los datos podrían recopilarse en un grupo de informes, pero luego puede establecer grupos de informes secundarios para que los empleados de la empresa tengan acceso a parte de estos datos, pero no a todos. Los datos podrían dividirse por regiones. Podrían tenerse distintos sitios web para distintos países. Otro ejemplo puede ser un grupo de marcas específicas que pertenecen a una misma empresa superior, aunque cada una con sus propios equipos de marketing.
 
-Un *grupo de informes virtuales* le permite reproducir este concepto de ramificación mediante segmentos en lugar de varios grupos de informes. Los datos se envían a un grupo de informes y luego se dividen en segmentos. Siguiendo el ejemplo de las distintas marcas, podría establecerse un prop para la marca a la que pertenece un artículo. Mediante segmentos, se podría realizar un informe con los artículos asignados a cada prop. Cada uno de estos segmentos se convierte en su propia visualización, lo que crea un nuevo grupo de informes. No se envían datos específicamente a los segmentos, sino al grupo de informes global, pero en los informes funciona como si fuera un grupo de informes diferente.
+Un *grupo de informes virtuales* le permite reproducir este concepto de ramificación, empleando segmentos en lugar de múltiples grupos de informes. Los datos se envían a un solo grupo de informes que luego se dividen en segmentos. Siguiendo el ejemplo de las distintas marcas, podría establecerse un prop para la marca a la que pertenece un artículo. Mediante segmentos, se podría realizar un informe con los artículos asignados a cada prop. Cada uno de estos segmentos se convierte en su propia visualización, lo que crea un nuevo grupo de informes. No se envían datos específicamente a los segmentos, sino al grupo de informes global, pero en los informes funciona como si fuera un grupo de informes diferente.
 
 Un grupo de informes virtuales hereda la mayoría de los niveles de servicio del grupo de informes base, como la configuración de eVar, las reglas de procesamiento, las clasificaciones, etc. NO se heredan las siguientes opciones de configuración:
 
@@ -39,7 +39,7 @@ Los grupos de informes virtuales ayudan a:
 * Una visualización de datos de un solo cliente (en el futuro)
 * La capacidad para crear grupos de informes virtuales ilimitados con los que segmentar datos
 
-## Limitaciones de los grupos de informes virtuales {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
+## Limitaciones de los grupos de informes virtuales  {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
 
 Los grupos de informes virtuales tienen las siguientes limitaciones :
 
@@ -51,10 +51,10 @@ Los grupos de informes virtuales tienen las siguientes limitaciones :
 
 ## Grupos de informes virtuales frente al etiquetado de grupos múltiples {#section_317E4D21CCD74BC38166D2F57D214F78}
 
-| Función | Grupo de informes virtuales | Etiquetado de grupos múltiples |
+| Compatibilidad | Grupo de informes virtuales | Etiquetado de grupos múltiples |
 |--- |--- |--- |
 | Ofrece informe en tiempo real o de datos actuales | No | Sí |
-| Funciona en todas las herramientas de Analytics (Analysis Workspace, Report Builder, etc.) | Sí. **Nota:** Solo puede editar e identificar los grupos de informes virtuales en [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Grupos de informes virtuales]. Sin embargo, puede seleccionarlos en los menús desplegables del propio grupo de informes en las otras herramientas.<p>**Importante**: Los grupos de informes virtuales con procesamiento de tiempo de informes y personalización de variables no son compatibles actualmente con Adobe Report Builder. | Sí |
+| Funciona en todas las herramientas de Analytics (Analysis Workspace, Report Builder, etc.) | Sí. **Nota:** Solo puede editarlos e identificarlos como grupos de informes virtuales en [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Grupos de informes virtuales]. Sin embargo, puede seleccionarlos en los menús desplegables del propio grupo de informes en las otras herramientas.<p>**Importante**: Los grupos de informes virtuales con procesamiento en tiempo de informe y personalización de variables no son compatibles actualmente con Adobe Report Builder. | Sí |
 | Puede cargar datos en él (a través de clasificaciones, fuente de datos, etc.) | No | Sí |
 | Admite la creación de informes DL, marcadores, tableros, objetivos, alertas, segmentos, métricas calculadas... | Sí | Sí |
 | Se puede añadir individualmente a los grupos de permisos | Sí | Sí |

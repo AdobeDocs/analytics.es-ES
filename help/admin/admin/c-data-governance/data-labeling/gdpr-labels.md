@@ -5,25 +5,25 @@ feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3760'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Etiquetas de privacidad de datos para variables de Analytics
 
-Los clientes de Adobe, como responsables del tratamiento de datos, son responsables de cumplir con las leyes aplicables sobre privacidad de datos, como el Reglamento general de protección de datos (RGPD) y la Ley de Privacidad del Consumidor de California (CCPA). Los clientes deben consultar con sus propios equipos jurídicos para determinar cómo se deben administrar sus datos para cumplir con las leyes de privacidad de datos. Adobe comprende que cada uno de sus clientes tiene necesidades específicas relacionadas con la privacidad, por lo que Adobe permite a sus clientes personalizar la configuración que deseen para el procesamiento de datos de privacidad de datos. De este modo, cada cliente único puede tratar las solicitudes de privacidad de datos de la manera que mejor se adapte a su marca y a su conjunto de datos único.
+Los clientes de Adobe, como responsables del tratamiento de datos, son responsables de cumplir las leyes aplicables sobre privacidad de datos, como el reglamento general de protección de datos (RGPD) y la ley californiana sobre la protección de la vida privada de los consumidores (CCPA). Los clientes deben consultar con sus propios equipos jurídicos para determinar cómo se deben administrar sus datos para cumplir con las leyes de privacidad de datos. Adobe comprende que cada uno de sus clientes tiene necesidades específicas relacionadas con la privacidad, por lo que Adobe permite a sus clientes personalizar la configuración que deseen para el procesamiento de datos de privacidad de datos. De este modo, cada cliente único puede tratar las solicitudes de privacidad de datos de la manera que mejor se adapte a su marca y a su conjunto de datos único.
 
 Adobe Analytics proporciona herramientas para etiquetar datos según su confidencialidad y las restricciones contractuales. Las etiquetas resultan importantes a la hora de: (1) identificar los datos de los sujetos, (2) determinar qué datos se han de devolver en una solicitud de acceso y (3) identificar campos de datos que se deban eliminar en una solicitud de eliminación.
 
 Antes de poder determinar las etiquetas que se deben aplicar a cada variable o campo, debe [comprender qué tipo de ID](/help/admin/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md) captura en sus datos de Analytics y decidir cuáles usará para las solicitudes de privacidad de datos.
 
-La implementación de privacidad de datos de Adobe Analytics admite las siguientes etiquetas para datos de identidad, datos confidenciales y la administración de datos.
+La implementación de privacidad de datos de Adobe Analytics admite las siguientes etiquetas para datos de identidad, datos confidenciales y la gobernanza de datos.
 
 >[!NOTE]
 >
->Las etiquetas I1, I2, S1 y S2 tienen el mismo significado que las etiquetas DULE con el nombre correspondiente en Adobe Experience Platform. Sin embargo, se utilizan para propósitos muy diferentes. En Adobe Analytics, estas etiquetas se utilizan para ayudar a identificar campos que deben convertirse en anónimos como resultado de una solicitud de Privacy Service. En Adobe Experience Platform, se utilizan para el control de acceso, la administración de consentimientos y para aplicar restricciones de marketing en los campos etiquetados. Adobe Experience Platform admite muchas etiquetas adicionales que Adobe Analytics no utiliza. Además, las etiquetas de Adobe Experience Platform se aplican a los esquemas. Si utiliza el conector de datos de Analytics para importar los datos de Adobe Analytics en Adobe Experience Platform, deberá asegurarse de que las etiquetas DULE adecuadas estén configuradas en Adobe Experience Platform para los esquemas utilizados por cada uno de los grupos de informes. Las etiquetas asignadas en Adobe Analytics no se aplican automáticamente a estos esquemas en Adobe Experience Platform, ya que solo representarían un subconjunto de las etiquetas DULE que puede que necesite aplicar. Además, los distintos grupos de informes pueden compartir un esquema, pero tienen diferentes etiquetas asignadas a props y evars con el mismo número y el esquema puede ser compartido por conjuntos de datos de otras fuentes de datos, lo que podría causar confusión sobre por qué ciertos campos recibieron estas etiquetas.
+>Las etiquetas I1, I2, S1 y S2 tienen el mismo significado que las etiquetas DULE con el nombre correspondiente en Adobe Experience Platform. Sin embargo, se utilizan para finalidades muy diferentes. En Adobe Analytics, estas etiquetas se utilizan para ayudar a identificar campos que deben convertirse en anónimos como resultado de una solicitud de Privacy Service. En Adobe Experience Platform se utilizan para el control de acceso, la gestión del consentimiento y la aplicación de restricciones de marketing en los campos etiquetados. Adobe Experience Platform admite muchas etiquetas adicionales que Adobe Analytics no utiliza. Además, las etiquetas de Adobe Experience Platform se aplican a los esquemas. Si utiliza el conector de datos de Analytics para importar los datos de Adobe Analytics a Adobe Experience Platform, deberá asegurarse de que estén configuradas las etiquetas DULE adecuadas en Adobe Experience Platform para los esquemas de cada uno de los grupos de informes. Las etiquetas asignadas en Adobe Analytics no se aplican automáticamente a estos esquemas en Adobe Experience Platform, ya que solo representarían un subconjunto de las etiquetas DULE que puede que necesite aplicar. Además, los distintos grupos de informes pueden compartir un esquema, pero tienen diferentes etiquetas asignadas a props y evars con el mismo número y el esquema puede ser compartido por conjuntos de datos de otras fuentes de datos, lo que podría causar confusión sobre por qué determinados campos recibieron estas etiquetas.
 
 ## Etiquetas de datos de identidad {#identity-data-labels}
 
@@ -47,9 +47,9 @@ Las etiquetas de datos confidenciales “S” se utilizan para categorizar datos
 
 {style="table-layout:auto"}
 
-## Etiquetas de administración de datos (privacidad de datos) {#data-governance-labels}
+## Etiquetas de gobernanza de datos (privacidad de datos) {#data-governance-labels}
 
-Las etiquetas de control de datos confieren a los usuarios la capacidad de clasificar datos que reflejen consideraciones relacionadas con la privacidad y condiciones contractuales a fin de ayudar a los clientes de Adobe a cumplir las normativas y las políticas corporativas.
+Las etiquetas de gobernanza de datos confieren a los usuarios la capacidad de clasificar datos que reflejen consideraciones relacionadas con la privacidad y condiciones contractuales a fin de ayudar a los clientes de Adobe a cumplir las normativas y las políticas corporativas.
 
 ### Etiquetas de acceso a la privacidad de datos {#access}
 
@@ -67,7 +67,7 @@ Mientras que algunas variables recibirán alguna de las otras etiquetas, se espe
 
 A diferencia de otras etiquetas, estas etiquetas de eliminación no son mutuamente exclusivas. Puede seleccionar una, ambas o ninguna. No es necesaria una etiqueta separada [!UICONTROL Ninguno], porque [!UICONTROL Ninguno] se indica simplemente no marcando ninguna opción Eliminar.
 
-Se requiere una etiqueta de eliminación únicamente para los campos que contienen un valor que pueda permitir la visita con los datos del sujeto (por ejemplo, que permita la identificación del sujeto). No es necesario eliminar otra información personal (favoritos, historial de navegación/compras, condiciones de salud, etc.), ya que la asociación con el sujeto de datos se verá dañada.
+Se requiere una etiqueta de eliminación únicamente para los campos que contienen un valor que pueda permitir la visita con los datos del sujeto (por ejemplo, que permita la identificación del sujeto). No es necesario eliminar otra información personal (favoritos, historial de navegación/compras, condiciones de salud, etc.), ya que la asociación con el interesado se verá dañada.
 
 | Etiqueta | Definición | Otros requisitos |
 | --- | --- | --- |
@@ -139,7 +139,7 @@ El etiquetado de privacidad de datos afecta a cuatro clases amplias de variables
 | <ul><li>Eventos de éxito personalizados</li><li>eVars de comercialización</li><li>Variables multivalor (mvVars)</li><li>Variables de jerarquía</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | Clasificaciones | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>Variables de tráfico (props)</li><li>Variables de comercio (eVars no relacionadas con el marketing)</li></ul> | Todas las etiquetas | - |
-| La mayoría de las demás variables (*Vea la tabla siguiente para ver las excepciones*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
+| La mayoría de las demás variables (*Vea la tabla siguiente para ver las excepciones*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -167,19 +167,19 @@ El etiquetado de privacidad de datos afecta a cuatro clases amplias de variables
   </tr>
   <tr> 
    <td colname="col1"> <p>Variables de tráfico </p> </td> 
-   <td colname="col2"> <p>props de lista </p> </td> 
-   <td colname="col3"> <p>None/S1/S2 </p> </td> 
+   <td colname="col2"> <p>Variables props de lista </p> </td> 
+   <td colname="col3"> <p>Ninguna /S1/S2 </p> </td> 
    <td colname="col4"> <p>Las props de lista pueden contener varios valores y no se permiten como identificadores de privacidad.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Clasificaciones </p> </td> 
-   <td colname="col3"> <p>None/I1/I2 </p> <p>None/S1/S2 </p> </td> 
+   <td colname="col3"> <p>None/I1/I2 </p> <p>Ninguna /S1/S2 </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eventos de conversión </p> </td> 
    <td colname="col2"> <p>Todas </p> </td> 
-   <td colname="col3"> <p>None/S1/S2 </p> </td> 
+   <td colname="col3"> <p>Ninguna /S1/S2 </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
@@ -242,8 +242,8 @@ Es importante comprender qué tipo de datos contiene cada variable antes de toma
 | [!UICONTROL Latitud geográfica]<p>[!UICONTROL Longitud geográfica] | Proporcionan una ubicación aproximada derivada de la dirección IP. La precisión es generalmente similar a la de un código postal, con un radio de unas decenas de kilómetros de la ubicación real. |
 | [!UICONTROL Agente de usuario] | El agente de usuario identifica la versión del explorador que se ha utilizado. |
 | [!UICONTROL ID de usuario] | Especifica el grupo de informes de Analytics (como un número) que contiene los datos. |
-| [!UICONTROL ID del grupo de informes &#x200B;] | Especifica el nombre del grupo de informes de Analytics que contiene los datos. |
-| [!UICONTROL ID de visitante]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Estas etiquetas tienen una etiqueta DEL-DEVICE, pero no se puede agregar la etiqueta DEL-PERSON. Si desea que estos ID de cookie se anonimicen en las visitas que contengan un ID coincidente en una propiedad o eVar, puede solucionar esta limitación de etiquetado mediante el etiquetado de la propiedad o eVar con una etiqueta ID-DEVICE, incluso si realmente identifica a una persona (todas las etiquetas DEL-PERSON también necesitarían cambiarse a etiquetas DEL-DEVICE). En este caso, dado que solo algunas instancias del ID del visitante o del ECID se están anonimizando, las cantidades de visitantes únicos cambiarán en los informes del historial. |
+| [!UICONTROL ID del grupo de informes ] | Especifica el nombre del grupo de informes de Analytics que contiene los datos. |
+| [!UICONTROL ID de visitante]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Estos ID tienen la etiqueta DEL-DEVICE, pero no se puede agregar la etiqueta DEL-PERSON. Si desea que estos ID de cookie se anonimicen en las visitas que contengan un ID coincidente en una prop o eVar, puede solucionar esta limitación de etiquetado mediante el etiquetado de la prop o eVar con una etiqueta ID-DEVICE, incluso si realmente identifica a una persona (todas las etiquetas DEL-PERSON también necesitarán cambiarse a etiquetas DEL-DEVICE). En este caso, dado que solo algunas instancias del ID del visitante o del ECID se están anonimizando, las cantidades de visitantes únicos cambiarán en los informes del historial. |
 | [!UICONTROL ID de AMO] | El ID de Adobe Advertising Cloud es una variable de solución que tiene una etiqueta no modificable [!UICONTROL DEL-DEVICE]. Se rellena a partir de una cookie, del mismo modo que el ID del visitante y el MCID. Debe eliminarse de las visitas siempre que se eliminen esos otros ID. Consulte la descripción de dichas variables para obtener más información. |
 
 {style="table-layout:auto"}
@@ -264,4 +264,4 @@ Hay cinco variables estándar que contienen marcadores de tiempo:
 
 El código para generar los archivos devueltos por las solicitudes de acceso amparadas en la privacidad de datos requiere que al menos una de las tres primeras variables de marcador de tiempo se incluya en la solicitud de acceso (que tenga una etiqueta ACC que se aplique al tipo de solicitud). Si no se incluye ninguna de estas marcas, Custom Hit Time UTC se trata como si tuviera una etiqueta ACC-ALL.
 
-El archivo CSV del nivel de visita que devuelven las solicitudes de acceso amparadas en la privacidad de datos convierte los valores de estos campos de marcador de tiempo Unix en campos de fecha y hora con el formato `YYYY-MM-DD HH:MM:SS` (por ejemplo, `2018-05-01 13:49:22`). En el archivo HTML de resumen, estos valores de marca de tiempo se truncarán para incluir únicamente la fecha `YYYY-MM-DD`, con el fin de reducir el número de valores únicos en estos campos.
+El archivo CSV del nivel de visita que devuelven las solicitudes de acceso bajo la privacidad de datos convertirá los valores de estos campos de marca de tiempo Unix en campos de fecha y hora con el formato `YYYY-MM-DD HH:MM:SS` (por ejemplo, `2018-05-01 13:49:22`). En el archivo HTML de resumen, estos valores de marca de tiempo se truncarán para incluir únicamente la fecha, `YYYY-MM-DD`, con el fin de reducir el número de valores únicos que se producen en estos campos.

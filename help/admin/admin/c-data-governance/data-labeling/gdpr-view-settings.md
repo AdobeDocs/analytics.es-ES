@@ -1,28 +1,28 @@
 ---
-description: El cuadro de diálogo Etiquetado de privacidad para la administración de datos proporciona información general sobre las etiquetas de privacidad y las áreas de nombres de un grupo de informes. También puede exportar la configuración a un archivo .csv desde aquí.
-title: Ver/administrar el etiquetado de privacidad para la administración de datos
+description: El cuadro de diálogo Etiquetado de privacidad para la gobernanza de datos proporciona información general sobre las etiquetas de privacidad y las áreas de nombres de un grupo de informes. También puede exportar la configuración a un archivo .csv desde aquí.
+title: Ver/administrar el etiquetado de privacidad para la gobernanza de datos
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Ver/administrar el etiquetado de privacidad para la administración de datos
+# Ver/administrar el etiquetado de privacidad para la gobernanza de datos
 
-El cuadro de diálogo **[!UICONTROL Etiquetado de privacidad para la administración de datos]** proporciona información general sobre las etiquetas de privacidad y las áreas de nombres de un grupo de informes. También puede exportar la configuración a un archivo .csv desde aquí.
+El cuadro de diálogo **[!UICONTROL Etiquetado de privacidad para la gobernanza de datos]** proporciona información general sobre las etiquetas de privacidad y las áreas de nombres de un grupo de informes. También puede exportar la configuración a un archivo .csv desde aquí.
 
 ## Ver etiquetas de privacidad {#view-privacy}
 
 1. Inicie sesión en Adobe Experience Cloud.
-2. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración y recopilación de datos]** > **[!UICONTROL Administración de datos]**.
+2. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración y recopilación de datos]** > **[!UICONTROL Gobernanza de datos]**.
 
    >[!NOTE]
    >
-   >Si no ve este elemento de menú, debe agregarlo a un [perfil de producto en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=es) con permisos para esta funcionalidad o se le ha proporcionado acceso a un grupo de informes dentro del Admin Console.
+   >Si no visualiza este elemento de menú, debe añadirlo a un [perfil de producto en Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=es) con permisos para esta funcionalidad o se le debe haber proporcionado acceso a un grupo de informes dentro de Admin Console.
 
 3. En la parte superior derecha, seleccione un grupo de informes cuyas etiquetas de privacidad desee ver o administrar.
 
@@ -33,19 +33,19 @@ El cuadro de diálogo **[!UICONTROL Etiquetado de privacidad para la administrac
 | **[!UICONTROL Nombre del componente]** | Esta columna enumera todos los componentes (dimensiones, métricas) que forman parte de este grupo de informes. |
 | **[!UICONTROL Identidad]** | Las etiquetas “I” de datos de identidad se utilizan para categorizar los datos que podrían usarse para identificar a una persona específica o ponerse en contacto con ella. [Más información](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=es#data-privacy-identity-labels) |
 | **[!UICONTROL Confidencialidad]** | Las etiquetas de datos confidenciales “S” se utilizan para categorizar datos confidenciales, como datos geográficos. En el futuro, se presentarán etiquetas de datos confidenciales adicionales para identificar otros tipos de información confidencial. [Más información](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=es#sensitive-data-labels) |
-| **[!UICONTROL Acceso a RGPD]** | Las etiquetas de administración de datos confieren a los usuarios la capacidad de clasificar datos que reflejen consideraciones relacionadas con la privacidad y condiciones contractuales a fin de cumplir las normativas y las políticas corporativas. [Más información](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=es#data-privacy-access-labels) |
+| **[!UICONTROL Acceso a RGPD]** | Las etiquetas de gobernanza de datos confieren a los usuarios la capacidad de clasificar datos que reflejen consideraciones relacionadas con la privacidad y condiciones contractuales a fin de cumplir las normativas y las políticas corporativas. [Más información](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=es#data-privacy-access-labels) |
 | **[!UICONTROL Eliminación de RGPD]** | Se requiere una etiqueta de eliminación únicamente para los campos que contienen un valor que pueda permitir la visita con los datos del sujeto (por ejemplo, que permita la identificación del sujeto). [Más información](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=es#data-privacy-delete-labels) |
 | **[!UICONTROL Área de nombres]** | Cuando etiquete una variable como ID-DEVICE o ID-PERSON, se le solicitará que proporcione un área de nombres. Puede utilizar un área de nombres definida anteriormente o definir una nueva. [Más información](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=es#provide-namespace) |
 | **[!UICONTROL Categoría]** | Hace referencia al tipo de componente, como componente estándar, variable de conversión, etc. |
 
 {style="table-layout:auto"}
 
-## Copiar etiquetas de privacidad en un grupo de informes  {#copy-to-rs}
+## Copiado de etiquetas de privacidad a un grupo de informes  {#copy-to-rs}
 
 Si desea aplicar la misma configuración de privacidad de datos a más de un grupo de informes, siga estos pasos:
 
 1. Seleccione la variable que desea copiar. Tenga en cuenta que solo puede copiar las etiquetas para una variable a la vez.
-1. Haga clic en **[!UICONTROL Copiar en los grupos de informes]** en la parte inferior del cuadro de diálogo Administración de datos.
+1. Haga clic en **[!UICONTROL Copiar en los grupos de informes]** en la parte inferior del cuadro de diálogo gobernanza de datos.
 
    ![Copiar en el grupo de informes](assets/copy_to_reportsuite.png)
 
@@ -74,13 +74,13 @@ Si desea aplicar la misma configuración de privacidad de datos a más de un gru
 
 ## Exportación a archivo .csv {#export-csv}
 
-Puede descargar un archivo CSV que contenga todas las definiciones de etiqueta actuales de todas las variables del grupo de informes seleccionado. Le recomendamos que su equipo legal revise sus opciones de etiquetado y esta opción facilita esta revisión. En lugar de tener que realizar la revisión con una sesión iniciada en la interfaz de usuario de administración de datos, puede compartir el archivo .CSV con ellos.
+Puede descargar un archivo CSV que contenga todas las definiciones de etiqueta actuales de todas las variables del grupo de informes seleccionado. Le recomendamos que su equipo legal revise sus opciones de etiquetado y esta opción facilita esta revisión. En lugar de tener que realizar la revisión con una sesión iniciada en la interfaz de usuario de gobernanza de datos, puede compartir el archivo .CSV con ellos.
 
 1. Haga clic en **[!UICONTROL Exportar CSV]** en la parte superior derecha y se muestra este cuadro de diálogo:
 
    ![](assets/export_csv.png)
 
-1. Seleccione uno o varios grupos de informes para los que desea exportar toda la configuración de la administración de datos.
+1. Seleccione uno o varios grupos de informes para los que desea exportar toda la configuración de la gobernanza de datos.
 
 ## Editar etiquetas de privacidad {#edit}
 
