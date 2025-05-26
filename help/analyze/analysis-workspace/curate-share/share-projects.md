@@ -8,7 +8,7 @@ exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 440cc4c977aae97e3fc3c97f3998c5d542cd88c3
 workflow-type: tm+mt
 source-wordcount: '1974'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ Cualquier [depuración](curate.md) que haya aplicado antes del uso compartido se
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir proyectos](https://video.tv.adobe.com/v/40033?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir proyectos](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +132,7 @@ Para compartir el vínculo del proyecto con los usuarios de su organización, ha
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
 >title="Requiere autenticación de Experience Cloud"
->abstract="Su organización requiere que los usuarios inicien sesión en Experience Cloud para utilizar este vínculo."
+>abstract="Su organización requiere que los usuarios inicien sesión en Experience Cloud para poder usar este vínculo."
 
 Puede conceder [acceso de solo lectura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) a proyectos de Analysis Workspace a personas que no tienen acceso a Adobe Analytics. Esto puede incluir:
 
@@ -157,7 +157,7 @@ Puede conceder [acceso de solo lectura](/help/analyze/analysis-workspace/curate-
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir un vínculo con alguien](https://video.tv.adobe.com/v/3452454?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir un vínculo con alguien](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,7 @@ Puede compartir los componentes incrustados que forman parte del proyecto.
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados](https://video.tv.adobe.com/v/327499?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
