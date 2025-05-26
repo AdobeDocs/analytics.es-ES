@@ -3,33 +3,20 @@ description: El Creador de métricas calculadas proporciona un lienzo en el que 
 title: Crear métricas
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: a1567366c9fad42b3836f43c681d5380e97b09f3
-workflow-type: ht
-source-wordcount: '1150'
+source-git-commit: d9f95b12a43305cecff1190e6544334f3b48835d
+workflow-type: tm+mt
+source-wordcount: '1112'
 ht-degree: 100%
 
 ---
 
 # Crear métricas {#build-metrics}
 
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="components_calculatedmetrics_productcompatibility"
->title="Compatibilidad del producto"
->abstract="Indica en qué parte de Customer Journey Analytics se puede utilizar esta métrica calculada, por ejemplo, en Analysis Workspace, Report Builder, etc. Algunas métricas calculadas no se pueden usar con la experimentación."
->additional-url="https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Uso de métricas calculadas en experimentación"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_externalid"
 >title="ID externo"
 >abstract="Cambiar el ID externo puede afectar al modo en que la métrica calculada aparece en las fuentes externas, como las herramientas de inteligencia empresarial"
 
-<!-- markdownlint-enable MD034 -->
 
 Adobe Analytics proporciona un lienzo para arrastrar y soltar dimensiones, métricas, segmentos y funciones para crear métricas personalizadas basadas en lógica de jerarquía de contenedores, reglas y operadores. Esta herramienta de desarrollo integrada le permite crear y guardar métricas calculadas simples o complejas.
 
@@ -61,7 +48,7 @@ La siguiente imagen y la tabla adjunta explican algunas de las áreas y caracter
 | 4 | **Cifras decimales:** Muestra cuántas cifras decimales se mostrarán en el informe. El número máximo de lugares decimales que puede especificar es 10. |
 | 5 | **Mostrar tendencia al alza Como:** Esta configuración de polaridad de métrica muestra si Analytics debe considerar una tendencia ascendente en la métrica como buena (verde) o mala (rojo). Como resultado, el gráfico del informe se mostrará en rojo o en verde cuando vaya hacia arriba. |
 | 6 | **Etiquetas:** Etiquetar es una buena forma de organizar las métricas. Todos los usuarios pueden crear etiquetas y aplicar una o más a una métrica. Sin embargo, solo verá las etiquetas de los segmentos que sean suyos o que se hayan compartido con usted. ¿Qué tipo de etiquetas debería crear? A continuación encontrará una serie de sugerencias para crear etiquetas útiles:<ul><li>**Nombres de equipos**, como Marketing social, Marketing móvil.</li><li>**Proyectos** (etiquetas de análisis), como Análisis de la páginas de entrada.</li><li>**Categorías**, como Mujer; Geografía.</li><li>**Flujos de trabajo**, como Pendiente de aprobación; Depurado para (una unidad empresarial específica)</li></ul> |
-| 7 | **Resumen:** <p>La fórmula de Resumen se actualiza cada vez que realice cambios en la definición de la métrica. Esta fórmula también se muestra en el carril de métrica a la izquierda, al pasar el ratón por encima de una métrica y hacer clic en el icono <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" />. </p> |
+| 7 | **Resumen:** <p>La fórmula de Resumen se actualiza cada vez que realice cambios en la definición de la métrica. Esta fórmula también se muestra en el carril de métrica a la izquierda, al pasar el puntero por encima de una métrica y hacer clic en el icono <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" />. </p> |
 | 8 | **Definición:** Aquí es donde arrastra las métricas/métricas calculadas, segmentos o funciones para crear la métrica calculada. <ul><li>Si arrastra una métrica calculada, ampliará su definición de métrica automáticamente. </li> <li>Puede anidar definiciones en contenedores. Sin embargo, a diferencia de los contenedores de segmento, estos contenedores funcionan como una expresión matemática y determinan el orden de las operaciones. </li> </ul> |
 | 9 | **Operador:** dividido por ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) es el operador predeterminado, además de los operadores +, -, y x. |
 | 10 | **Vista previa:** Proporciona una lectura rápida de cualquier posible error. La vista previa abarca los últimos 90 días. Esta es una forma de calibrar inicialmente si ha seleccionado los componentes adecuados para su métrica. Un resultado inesperado significaría que debe volver a revisar la definición de la métrica. |
@@ -71,7 +58,7 @@ La siguiente imagen y la tabla adjunta explican algunas de las áreas y caracter
 | 14 | **Nuevo:** Le permite crear un nuevo componente, como un nuevo segmento (que le lleva al <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Generador de segmentos </a>). |
 | 15 | **Buscar componentes:** En esta barra de búsqueda puede buscar dimensiones, métricas, segmentos (solo métricas calculadas avanzadas) y funciones (solo métricas calculadas avanzadas). |
 | 16 | **Lista de dimensiones:** en lugar de salir del Creador de métricas calculadas para generar un segmento simple (en el Generador de segmentos), como “Página = Página principal”, puede arrastrar Página y seleccionar Página principal directamente en el Creador de métricas calculadas.<p>Esto conlleva un flujo de trabajo mucho más simplificado en lo relativo a la creación de métricas calculadas segmentadas.</p> |
-| 17 | **Lista de métricas:** Las métricas se dividen en 3 categorías: <ul> <li>Métricas estándar (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>Métricas calculadas ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">Plantillas de métricas ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) - al final de la lista. </li> </ul> <p>Cuando pasa el ratón por encima de una métrica, puede ver el icono de información a su derecha: <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Si hace clic en este icono, le proporcionará la siguiente información: </p><ul> <li>La fórmula de cómo se calcula. </li><li>Una vista previa de la tendencia de la métrica. </li><li>Un icono de edición (lápiz) <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> en la parte superior derecha que le conducirá al Generador de métricas calculadas donde puede editar esta métrica calculada. </li></ul> |
+| 17 | **Lista de métricas:** Las métricas se dividen en 3 categorías: <ul> <li>Métricas estándar (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>Métricas calculadas ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">Plantillas de métricas ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) - al final de la lista. </li> </ul> <p>Cuando pasa el puntero por encima de una métrica, puede ver el icono de información a su derecha: <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Si hace clic en este icono, le proporcionará la siguiente información: </p><ul> <li>La fórmula de cómo se calcula. </li><li>Una vista previa de la tendencia de la métrica. </li><li>Un icono de edición (lápiz) <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> en la parte superior derecha que le conducirá al Generador de métricas calculadas donde puede editar esta métrica calculada. </li></ul> |
 | 18 | **Lista de segmentos:** (Solo métricas calculadas avanzadas) Como administrador, en esta lista se muestran todos los segmentos creados en su empresa de inicio de sesión. Si es un usuario no administrador, en esta lista se muestran los segmentos que le pertenecen y los que han compartido con usted. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=es"  > Más... </a> |
 | 19 | **Lista de funciones:** (solo métricas calculadas avanzadas) Las funciones se dividen en dos listas: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Básicas </a> (utilizadas con más frecuencia) y <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Avanzadas </a>. |
 | 20 | **Selector de grupo de informes:** Le permite cambiar a un grupo de informes distinto. |

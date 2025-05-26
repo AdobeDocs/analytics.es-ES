@@ -3,14 +3,19 @@ description: El Generador de segmentos proporciona un lienzo al que arrastrar y 
 title: ' Generación de segmentos'
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
-workflow-type: ht
-source-wordcount: '2063'
-ht-degree: 100%
+source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
+workflow-type: tm+mt
+source-wordcount: '2102'
+ht-degree: 97%
 
 ---
 
 # Generador de segmentos {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="components_segments_productcompatibility"
+>title="Compatibilidad del producto"
+>abstract="Un pequeño número de criterios de segmento disponibles no es compatible con todas las herramientas de Adobe Analytics. Las herramientas compatibles con el segmento se indican en esta lista. Para que un segmento sea compatible con todas las herramientas de Adobe Analytics, edite los criterios."
 
 <!-- markdownlint-disable MD034 -->
 
@@ -44,7 +49,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Instancia"
->abstract="Incluye instancias y valores persistentes para la dimensión."
+>abstract="Incluye instancias para la dimensión."
 
 <!-- markdownlint-enable MD034 -->
 
