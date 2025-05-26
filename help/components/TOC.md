@@ -5,9 +5,9 @@ user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -251,7 +251,7 @@ ht-degree: 95%
    + [Cómo funcionan las reproducciones](cda/replay.md)
    + [Plantilla de CDA Workspace](cda/workspace-template.md)
    + [Limitar un grupo de informes virtuales a determinadas fechas](cda/limit-vrs-date.md)
-   + [Preguntas más frecuentes sobre análisis entre dispositivos](cda/faq.md)
+   + [Preguntas más frecuentes sobre el análisis entre dispositivos](cda/faq.md)
 + Alertas {#alerts}
    + [Información general](c-alerts/intellligent-alerts.md)
    + [Crear](c-alerts/alert-builder.md)
@@ -261,24 +261,24 @@ ht-degree: 95%
    + [Resumen general de las clasificaciones](classifications/classifications-overview.md)
    + Conjuntos de clasificación {#sets}
       + [Información general](classifications/sets/overview.md)
-      + Administrar conjuntos de clasificaciones {#manage}
+      + Administrar conjuntos de clasificación {#manage}
          + [Administrador de conjuntos de clasificación](classifications/sets/manage/set-manager.md)
          + [Crear un conjunto de clasificación](classifications/sets/manage/create.md)
          + [Configuración del conjunto de clasificación](classifications/sets/manage/settings.md)
          + [Esquema del conjunto de clasificación](classifications/sets/manage/schema.md)
          + [Reglas del conjunto de clasificación](classifications/sets/manage/rules.md)
       + [Administrador de trabajos de conjuntos de clasificación](classifications/sets/job-manager.md)
-      + Consolidación de conjuntos de clasificaciones {#consolidations}
-         + [Administrador de consolidación](classifications/sets/consolidations/manage.md)
-         + [Proceso de consolidación](classifications/sets/consolidations/process.md)
-   + Generador de reglas de clasificación (heredado){#classifications-rulebuilder}
+      + Consolidaciones de los conjuntos de clasificación {#consolidations}
+         + [Administrador de consolidaciones](classifications/sets/consolidations/manage.md)
+         + [Proceso de consolidaciones](classifications/sets/consolidations/process.md)
+   + Clasificación del generador de reglas (heredado){#classifications-rulebuilder}
       + [Información general](classifications/crb/classification-rule-builder.md)
       + [Conjuntos de reglas de clasificación](classifications/crb/classification-rule-set.md)
       + [Reglas de clasificación](classifications/crb/classification-quickstart-rules.md)
       + [Definiciones de reglas de clasificación](classifications/crb/classification-rule-definitions.md)
-      + [Subclasificaciones y el generador de reglas](classifications/crb/subclassification-rule-builder.md)
+      + [Subclasificaciones y generador de reglas](classifications/crb/subclassification-rule-builder.md)
    + Importador de clasificaciones (heredado){#classifications-importer}
-      + [Resumen del importador de clasificaciones](classifications/importer/c-working-with-saint.md)
+      + [Información general del importador de clasificaciones](classifications/importer/c-working-with-saint.md)
       + [Archivos de datos de clasificación](classifications/importer/c-saint-data-files.md)
       + [Eliminar datos de clasificación](classifications/importer/t-delete-classification-data.md)
       + [Plantilla de clasificación](classifications/importer/c-download-saint-data.md)

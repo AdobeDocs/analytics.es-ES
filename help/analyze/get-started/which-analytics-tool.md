@@ -4,9 +4,9 @@ title: ¿Qué herramienta de Adobe Analytics debo usar?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1122'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ Para obtener más información sobre comparaciones de productos de Adobe Analyti
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparación de herramientas](https://video.tv.adobe.com/v/30136?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparación de herramientas](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
-## Interfaces de usuario de informes de Adobe Analytics {#user-interfaces}
+## Interfaces de usuario de creación de informes de Adobe Analytics {#user-interfaces}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** debe ser la interfaz de usuario de referencia para todas sus necesidades de informe y análisis. Adobe continúa invirtiendo en el lanzamiento de actualizaciones mensuales de este producto. Si hay una tarea que no puede realizar en Analysis Workspace, evalúe las otras interfaces que aparecen a continuación.**
 
@@ -38,9 +38,9 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparació
 
 ## Importación de datos en Adobe Analytics {#import}
 
-**[Las clasificaciones](/help/components/classifications/classifications-overview.md)** deben usarse:
+**[Las clasificaciones](/help/components/classifications/classifications-overview.md)** deben usarse con lo siguiente:
 
-* Cuando hay metadatos que desea asociar a un valor recopilado (eVar, prop, canal de marketing). Adobe recomienda usar [conjuntos de clasificaciones](/help/components/classifications/sets/overview.md). El generador de reglas de clasificación y el importador de clasificaciones son métodos heredados para introducir datos de clasificación en Adobe Analytics.
+* Cuando hay metadatos que desea asociar a un valor recopilado (eVar, prop, canal de marketing). Adobe recomienda utilizar [Conjuntos de clasificación](/help/components/classifications/sets/overview.md). La clasificación del generador de reglas y el importador de clasificaciones son métodos heredados para introducir los datos de clasificación en Adobe Analytics.
 
 Las **[Fuentes de datos](/help/import/data-sources/overview.md)** deben usarse:
 
@@ -55,11 +55,11 @@ Las **[Fuentes de datos](/help/import/data-sources/overview.md)** deben usarse:
 
 **[API de inserción de datos en lotes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* La API de inserción masiva de datos acepta archivos con formato CSV que contienen datos de evento, un evento por fila. Adobe recomienda utilizar la API de inserción masiva para cualquier implementación que requiera código del lado del servidor o que no pueda utilizar AppMeasurement o Web SDK para la recopilación de datos.
+* La API de inserción de datos en lotes acepta archivos con formato CSV que contienen datos de evento, un evento por fila. Adobe recomienda utilizar la API de inserción de datos en lotes para cualquier implementación que requiera código del lado del servidor o que no pueda utilizar AppMeasurement o SDK web para la recopilación de datos.
 
-**[Se debe usar la API de inserción de datos (heredada)](/help/import/c-data-insertion-api/c-data-insertion-api.md)**:
+La **[API de inserción de datos (heredada)](/help/import/c-data-insertion-api/c-data-insertion-api.md)** debe usarse:
 
-* Cuando necesite introducir datos en Adobe Analytics y no pueda utilizar AppMeasurement, Web SDK o la API de inserción masiva de datos.
+* Cuando necesite introducir datos en Adobe Analytics y no pueda utilizar AppMeasurement, SDK web o la API de inserción de datos en lotes.
 
 Deben usarse **[atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es)**:
 
