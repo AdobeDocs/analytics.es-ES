@@ -3,17 +3,17 @@ description: Solucione problemas y cuestiones relacionadas con Advertising Analy
 title: Solucionar problemas de Advertising Analytics
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 50%
+source-wordcount: '175'
+ht-degree: 18%
 
 ---
 
 # Solucionar problemas de Advertising Analytics
 
 * [No veo mi grupo de informes en la sección Asignación](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
-* [Se produce un error al autenticarme en la cuenta de Google AdWords...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
+* [Error al autenticarme en la cuenta de Google Ads...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## No veo mi grupo de informes en la sección Asignación {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
@@ -28,7 +28,7 @@ Está intentando [configurar una nueva cuenta de Advertising](/help/integrate/c-
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. El grupo de informes no está asignado a la ID de organización de Experience Cloud del usuario que ha iniciado sesión. </p> </td> 
+   <td colname="col1"> <p>1. El grupo de informes no está asignado a la Experience Cloud Org ID del usuario que ha iniciado sesión. </p> </td> 
    <td colname="col2"> <p>Póngase en contacto con el Servicio de atención al cliente para asignar el grupo de informes a un ID de organización.</p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ Está intentando [configurar una nueva cuenta de Advertising](/help/integrate/c-
  </tbody> 
 </table>
 
-## Se produce un error al autenticarme en la cuenta de Google AdWords {#section_C99EA9A1946E4908B36778A331142B84}
+## Se produce un error al autenticarme en la cuenta de Google Ads {#section_C99EA9A1946E4908B36778A331142B84}
 
 <table id="table_F1C1192BF40C43CE8600B1BB417A7269"> 
  <thead> 
@@ -49,8 +49,8 @@ Está intentando [configurar una nueva cuenta de Advertising](/help/integrate/c-
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Autenticarse en Google AdWords con una cuenta de correo electrónico que también está vinculada a la cuenta de administrador de AdWords no dará ningún resultado. </p> </td> 
-   <td colname="col2"> <p>Para autenticarse, utilice un correo electrónico diferente que esté vinculado a la misma cuenta de AdWords. </p> </td> 
+   <td colname="col1"> <p>La autenticación en Google Ads con una cuenta de correo electrónico que también está vinculada a una cuenta de Google Ads Manager no funciona. </p> </td> 
+   <td colname="col2"> <p>Utilice otro correo electrónico vinculado a la misma cuenta de Google Ads para autenticarse. </p> </td> 
   </tr> 
  </tbody> 
 </table>

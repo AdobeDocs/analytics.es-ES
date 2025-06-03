@@ -1,12 +1,12 @@
 ---
-description: Detalles sobre la plantilla de Analysis Workspace y creación de informes en Report Builder.
+description: Detalles sobre la plantilla de Analysis Workspace y los informes en Report Builder.
 title: Informar sobre datos publicitarios en Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 49%
+source-wordcount: '358'
+ht-degree: 46%
 
 ---
 
@@ -16,7 +16,7 @@ Este artículo contiene detalles sobre el informe de Analysis Workspace y los in
 
 >[!NOTE]
 >
->Los datos del motor de búsqueda suelen tardar un mínimo de 24 horas en propagarse a los informes de Analytics. Tenga en cuenta también que los informes de Analytics no devuelven datos sobre la granularidad horaria, ya que los datos de Advertising Cloud no admiten esta característica.
+>Los datos del motor de búsqueda suelen tardar un mínimo de 24 horas en propagarse a los informes de Analytics. Tenga en cuenta también que los informes de Analytics no devuelven datos sobre la granularidad por hora, ya que los datos de Advertising Cloud no admiten esta característica.
 
 ## Informe de búsqueda de pago {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
@@ -31,7 +31,7 @@ Este informe permite a cualquier usuario que implemente la integración del moto
 | Tabla/visualización | Descripción |
 |--- |--- |
 | Tendencias publicitarias | Información general de tendencias diarias para Impresiones de AMO, Clics de AMO y Coste de AMO. |
-| Plataformas de publicidad | Gráfico de aros del coste de las dos plataformas principales (Google, Bing). |
+| Plataformas de publicidad | Gráfico de aros del coste de las dos plataformas principales (Google Ads, Microsoft Advertising). |
 | Totales de las plataformas de publicidad | Tabla de forma libre de las plataformas principales desglosada por Impresiones de AMO, Clics de AMO, Costes de AMO, Posición media de AMO y Posición media de AMO Puntuación de calidad |
 | Cuentas | Área apilada de costes. |
 | Totales de cuenta | Tabla de forma libre de las cuentas principales desglosada por las métricas asociadas. |

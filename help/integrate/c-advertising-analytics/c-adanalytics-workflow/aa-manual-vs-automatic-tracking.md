@@ -3,10 +3,10 @@ description: El tipo de seguimiento determina cómo la implementación de Adobe 
 title: Tipo de seguimiento
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 243da53fda562c856d95db0f6d13b7ee1a9adae5
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 32%
+source-wordcount: '572'
+ht-degree: 29%
 
 ---
 
@@ -18,7 +18,7 @@ El tipo de seguimiento determina cómo la implementación de Adobe Analytics rea
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/38628/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 -->
 
@@ -26,7 +26,7 @@ Se admiten dos modos de seguimiento: [!UICONTROL Automático] y [!UICONTROL Manu
 
 ## Seguimiento [!UICONTROL Automático] {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-El seguimiento [!UICONTROL Automático] permite que el motor de Advertising Cloud decida cómo se deben administrar los datos del motor de búsqueda. El seguimiento automático es el enfoque más sencillo, pero es posible que no genere el conjunto de datos mejor integrado.
+El seguimiento [!UICONTROL automático] permite que el motor de Advertising Cloud decida cómo se deben administrar los datos del motor de búsqueda. El seguimiento automático es el enfoque más sencillo, pero es posible que no genere el conjunto de datos mejor integrado.
 
 Como consecuencia, debes marcar una casilla de verificación de confirmación cuando selecciones **[!UICONTROL Automático]** para poder guardar la configuración de la cuenta.
 
@@ -37,7 +37,7 @@ Tenga en cuenta que para configurar una cuenta de motor de búsqueda con tipo **
 
 >[!IMPORTANT]
 >
->Obtenga más información sobre si debe agregar el parámetro `s_kwcid` a la [directiva de seguridad de contenido](https://experienceleague.adobe.com/es/docs/id-service/using/reference/csp).
+>Obtenga más información sobre si debe agregar el parámetro `s_kwcid` a la [directiva de seguridad de contenido](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
 
 ## Seguimiento manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -92,13 +92,13 @@ Para asegurarse de que la cadena se mantiene a través del redireccionamiento a 
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-### Añadir el seguimiento manual a la cuenta de Bing {#section_094F8ACA493C4D65B1F54A695558EBF2}
+### Añadir el seguimiento manual a la cuenta de Microsoft Advertising {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
-A continuación, se muestra la cadena que debe añadirse a la cuenta de Bing. Debe añadir la cadena a todos los sufijos finales de las URL utilizadas en la cuenta.
+A continuación, se muestra la cadena que debe añadirse a la cuenta de Microsoft Advertising. Debe añadir la cadena a todos los sufijos finales de las URL utilizadas en la cuenta.
 
 >[!IMPORTANT]
 >
->El valor _`<Advertising Analytics ID>`_(en **negrita**&#x200B;abajo) es genérico y **se debe sustituir por la cadena del identificador de la cuenta específica**. Puede obtener la cadena del ID de cuenta específica en la sección &quot;Seguimiento&quot; de la pantalla de la cuenta.
+>El valor _`<Advertising Analytics ID>`_(en **negrita**abajo) es genérico y **se debe sustituir por la cadena del identificador de la cuenta específica**. Puede obtener la cadena del ID de cuenta específica en la sección &quot;Seguimiento&quot; de la pantalla de la cuenta.
 
 **Cadena de seguimiento para campañas:**
 
@@ -106,7 +106,7 @@ A continuación, se muestra la cadena que debe añadirse a la cuenta de Bing. De
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
+![Agregar parámetros de código de seguimiento](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 Ejemplos de códigos de seguimiento en diversos formatos de sufijos finales de URL:
 

@@ -1,44 +1,53 @@
 ---
-description: Aquí puede encontrar unas instrucciones de ayuda para localizar los identificadores de las cuentas de Google y Bing.
+description: Instrucciones para localizar los ID de cuenta de Google Ads y Microsoft Advertising.
 title: Localización de los ID de su cuenta
 feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
-source-git-commit: 0453f374e9027d1c539682212e880c4ebc81152f
+source-git-commit: 586459d99674f01a3b18f84f975a3365ddf2fcd9
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 55%
+source-wordcount: '338'
+ht-degree: 3%
 
 ---
 
-# Localización de los ID de su cuenta
+# Localización de los ID de su cuenta {#locate-your-account-ids}
 
-Aquí puede encontrar unas instrucciones de ayuda para localizar los identificadores de las cuentas de Google y Bing.
+Obtenga información sobre cómo localizar los ID de cuenta para Google Ads y Microsoft Advertising.
 
-## Google Ads (AdWords) {#section_2A62AD448BD949889DB77C2AF3E04C33}
+## Google Ads (AdWords) {#google}
 
 >[!IMPORTANT]
 >
->Google AdWords utiliza dos tipos de cuentas:
+>Google Ads utiliza dos tipos de cuentas:
 >
 >- Cuenta de MCC (My Client Center) y
 >- Cuenta estándar.
 >
->Para esta integración con Adobe Analytics, **debe iniciar sesión con una cuenta Estándar**, no con una cuenta MCC. El motivo es que una cuenta MCC actúa como un “paraguas” que puede acceder a diversas cuentas de AdWords con un solo inicio de sesión, mientras que al iniciar sesión con una cuenta Estándar solo se puede acceder a una cuenta de AdWords por cada inicio de sesión. Mientras que Google admite la vinculación de un correo electrónico para administrar 5 cuentas, Advertising Analytics aún no admite esta función. Un correo electrónico solo se puede vincular con una cuenta de AdWords.
+>Para esta integración con Adobe Analytics, **debe iniciar sesión con una cuenta Estándar**, no con una cuenta MCC. El motivo es que una cuenta MCC actúa como un &quot;paraguas&quot; que puede acceder a varias cuentas de Google Ads con un solo inicio de sesión, mientras que el inicio de sesión con una cuenta Estándar solo puede acceder a una cuenta por cada inicio de sesión. Aunque Google admite la vinculación de un correo electrónico para administrar 5 cuentas, Advertising Analytics aún no admite esta función. Un correo electrónico solo se puede vincular con una cuenta de Google Ads.
 
-En la parte superior, haga clic en el icono Cuenta para ver el número de cuenta de AdWords (identificador de cliente).
+Haga clic en el icono Cuenta en la parte superior derecha para ver el número de cuenta de Google Ads (ID de cliente).
 
 ![Cuenta de administrador de Google Ads](assets/google-account.png)
 
-## Microsoft Advertising (Bing) {#section_F1B9C7E997444746936599732CD62665}
+## Microsoft Advertising (Bing) {#microsoft}
 
 >[!NOTE]
 >
->Si su cuenta de Microsoft Advertising (anteriormente conocida como Bing) utiliza la función de importación de Google, asegúrese de actualizar la cadena de seguimiento correcta. La cadena de seguimiento no se actualiza automáticamente de la versión de Google a la cadena de seguimiento correcta de Bing y puede dar como resultado datos no especificados. Puede encontrar más detalles sobre la función [aquí](https://help.ads.microsoft.com/apex/index/3/en/50851/).
+>Si su cuenta de Microsoft Advertising (anteriormente conocida como Bing) utiliza la función de importación de Google, asegúrese de actualizar la cadena de seguimiento correcta. La cadena de seguimiento no se actualiza automáticamente de la versión de Google a la cadena de seguimiento correcta de Microsoft Advertising y puede generar datos no especificados. Consulte [Qué se importa desde Google Ads](https://help.ads.microsoft.com/apex/index/3/en/50851/) en la ayuda de Microsoft Advertising para obtener más información.
 
-Se requieren **[!UICONTROL Account ID]** y **[!UICONTROL Account Number]**. Aparecen en la ficha **[!UICONTROL Configuración de cuentas]** dentro de **[!UICONTROL Configuración]**.
+Se requieren **[!UICONTROL Account ID]** y **[!UICONTROL Manager account ID]**.
 
->[!NOTE]
->
->El número de cuenta no es lo mismo que el identificador de cuenta.
+- La **[!UICONTROL ID de cuenta]** se encuentra en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de cuenta]** > **[!UICONTROL ID de cuenta]**. Asegúrese de usar [!UICONTROL ID de cuenta] y NO [!UICONTROL número de cuenta].
+- El **[!UICONTROL Id. de cuenta de administrador]** se encuentra en **[!UICONTROL Configuración]** > **[!UICONTROL Configuración de cuenta de administrador]** > **[!UICONTROL Id. de cuenta de administrador]**. Asegúrese de usar [!UICONTROL Id. de cuenta de responsable] y NO [!UICONTROL Número de cuenta de responsable].
 
-![Microsoft Advertising](assets/bing-id.png)
+![Navegación de Microsoft Advertising](assets/bing-id.png)
+
+>[!CONTEXTUALHELP]
+>id="adanalytics_ma_account_id"
+>title="ID de cuenta"
+>abstract="El &quot;ID de cuenta&quot; es un valor numérico ubicado en la interfaz de Advertising de Microsoft. Para localizarla, vaya a Configuración > Configuración de la cuenta > ID de cuenta."
+
+>[!CONTEXTUALHELP]
+>id="adanalytics_ma_manager_account_id"
+>title="ID de cuenta del responsable"
+>abstract="El &quot;ID de cuenta del responsable&quot; es un valor numérico ubicado en la interfaz de Advertising de Microsoft. Para localizarla, vaya a Configuración > Configuración de la cuenta del administrador > ID de cuenta del administrador."
