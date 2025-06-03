@@ -4,9 +4,9 @@ title: ' Generación de segmentos'
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2102'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Compatibilidad del producto"
->abstract="Un pequeño número de criterios de segmento disponibles no es compatible con todas las herramientas de Adobe Analytics. Las herramientas compatibles con el segmento se indican en esta lista. Para que un segmento sea compatible con todas las herramientas de Adobe Analytics, edite los criterios."
+>abstract="Un pequeño número de criterios de segmento disponibles no son compatibles con todas las herramientas de Adobe Analytics. Las herramientas que son compatibles con el segmento se indican en esta lista. Para que un segmento sea compatible con todas las herramientas de Adobe Analytics, edite los criterios."
 
 <!-- markdownlint-disable MD034 -->
 
