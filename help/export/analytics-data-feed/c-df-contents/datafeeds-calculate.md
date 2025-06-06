@@ -4,10 +4,10 @@ keywords: Fuente de datos;trabajo;métricas;columna previa;columna posterior;bot
 title: Calcular métricas
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 95%
+source-wordcount: '499'
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,11 @@ Se describe cómo calcular métricas habituales mediante fuentes de datos.
 
 >[!NOTE]
 >
->Las visitas normalmente excluidas de Adobe Analytics se incluyen en las fuentes de datos. Se utiliza `exclude_hit = 0` para eliminar visitas excluidas de consultas sobre datos sin procesar. La información con origen de datos también se incluye en las fuentes de datos. Si desea excluir los orígenes de datos, excluya todas las filas con `hit_source = 5,7,8,9`.
+>Las visitas normalmente excluidas de Analysis Workspace se incluyen en las fuentes de datos. Considere la posibilidad de añadir las siguientes condiciones a las consultas si son relevantes:
+>
+>* **`exclude_hit`**: Analysis Workspace solo incluye datos donde `exclude_hit = 0`.
+>* **`customer_perspective`**: Analysis Workspace solo incluye datos donde `customer_perspective = 0`, a menos que use un grupo de informes virtuales que incluya visitas en segundo plano móviles.
+>* **`hit_source`**: los datos de los orígenes de datos pueden contener diferencias entre los datos sin procesar y Analysis Workspace. Si desea excluir las visitas de orígenes de datos, excluya todas las filas donde `hit_source = 5,7,8,9`.
 
 ## Vistas de páginas
 
