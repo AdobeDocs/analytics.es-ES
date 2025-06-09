@@ -6,7 +6,7 @@ exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 source-git-commit: 586459d99674f01a3b18f84f975a3365ddf2fcd9
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
@@ -45,9 +45,9 @@ Se requieren **[!UICONTROL Account ID]** y **[!UICONTROL Manager account ID]**.
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"
 >title="ID de cuenta"
->abstract="El &quot;ID de cuenta&quot; es un valor numérico ubicado en la interfaz de Advertising de Microsoft. Para localizarla, vaya a Configuración > Configuración de la cuenta > ID de cuenta."
+>abstract="El “ID de cuenta” es un valor numérico ubicado en la interfaz de Microsoft Advertising. Para localizarlo, vaya a Configuración > Configuración de la cuenta > ID de cuenta."
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_manager_account_id"
->title="ID de cuenta del responsable"
->abstract="El &quot;ID de cuenta del responsable&quot; es un valor numérico ubicado en la interfaz de Advertising de Microsoft. Para localizarla, vaya a Configuración > Configuración de la cuenta del administrador > ID de cuenta del administrador."
+>title="ID de cuenta del administrador"
+>abstract="El “ID de cuenta del administrador” es un valor numérico ubicado en la interfaz de Microsoft Advertising. Para localizarlo, vaya a Configuración > Configuración de la cuenta del administrador > ID de cuenta del administrador."

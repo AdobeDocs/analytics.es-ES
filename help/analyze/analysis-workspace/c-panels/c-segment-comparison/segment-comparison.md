@@ -6,7 +6,7 @@ feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ El panel Comparación de segmentos es una parte de la herramienta de [IQ de segm
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparación de segmentos](https://video.tv.adobe.com/v/37551?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparación de segmentos](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +52,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparació
 
 Para usar un panel **[!UICONTROL Atribución]**:
 
-1. Cree un panel **[!UICONTROL Atribución]**. Para obtener información sobre cómo crear un panel, consulte [Crear un panel](../panels.md#create-a-panel).
+1. Cree un panel **[!UICONTROL Atribución]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](../panels.md#create-a-panel).
 
 1. Especifica la [entrada](#panel-input) para el panel.
 
