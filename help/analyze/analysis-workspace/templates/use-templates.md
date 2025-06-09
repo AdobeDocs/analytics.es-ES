@@ -5,9 +5,9 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '18671'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1039,7 +1039,7 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--advertisingAnalyticsPaidSearch"
->title="Vea todos sus datos de búsqueda de pago de Google Ads y Microsoft Advertising juntos."
+>title="Ver todos los datos de búsqueda de pago de Google Ads y Microsoft Advertising, uno al lado del otro. "
 >abstract="**Esto puede ayudarle** a comprender mejor la cantidad de tráfico que se envía a su sitio y si los clientes están realizando conversiones.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como calcular la rentabilidad de una campaña de publicidad."
 
 <!-- markdownlint-enable MD034 -->
@@ -1213,7 +1213,7 @@ Las plantillas disponibles son las siguientes:
 | [!UICONTROL **Campañas**] > [!UICONTROL **Código de seguimiento**] | Ver los nombres de los códigos de seguimiento en su sitio. Puede colocar vínculos con diferentes valores de parámetro de cadena de consulta en diferentes lugares de Internet. <p>**Estoi puede ayudarle** a conocer mejor qué vínculos fueron los más exitosos a la hora de impulsar el tráfico al sitio. Añadir cadenas de consulta de código de seguimiento es habitual en los correos electrónicos, anuncios de medios sociales y otros esfuerzos de marketing que utiliza su organización</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como centrar los esfuerzos de marketing en las campañas que generan la mayor cantidad de ingresos.</p><p>Esta plantilla utiliza la dimensión Código de seguimiento. </p> |
 | **Adquisición web** | Ver cómo su sitio web obtiene visitantes.<p>**Esto puede ayudarle** a comprender mejor los distintos factores que llevan a la adquisición, como palabras clave de búsqueda, dominio de referencia, etc.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en los canales más efectivos.</p><p>Esta plantilla usa las métricas de Tasa de salida hacia otro sitio y Rechazos. También utiliza las dimensiones Motor de búsqueda, Palabra clave de búsqueda, Página de entrada, Dominio de referencia, Código de seguimiento y Referente.  </p> |
 | **Adquisición móvil** | Vea cómo el sitio obtiene visitantes en dispositivos móviles.<p>**Esto puede ayudarle** a comprender mejor los distintos factores que llevan a la adquisición, como palabras clave de búsqueda, dominio de referencia, etc.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en los canales más efectivos.</p><p>Esta plantilla usa las métricas de Tasa de salida hacia otro sitio y Rechazos. También utiliza las dimensiones Motor de búsqueda, Palabra clave de búsqueda, Página de entrada, Dominio de referencia, Código de seguimiento y Referente.  </p> |
-| **Advertising Analytics: búsqueda de pago** | Vea todos sus datos de búsqueda de pago de Google Ads y Microsoft Advertising juntos. <p>**Esto puede ayudarle** a comprender mejor la cantidad de tráfico que se envía a su sitio y si los clientes están realizando conversiones.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como calcular la rentabilidad de una campaña de publicidad.</p> |
+| **Advertising Analytics: búsqueda de pago** | Ver todos los datos de búsqueda de pago de Google Ads y Microsoft Advertising, uno al lado del otro.  <p>**Esto puede ayudarle** a comprender mejor la cantidad de tráfico que se envía a su sitio y si los clientes están realizando conversiones.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como calcular la rentabilidad de una campaña de publicidad.</p> |
 | **Palabras clave de búsqueda - Todo** | Ver las palabras clave de búsqueda que los visitantes utilizan para llegar al sitio, independientemente de si son de pago o no. <p>**Esto puede ayudarle** a comprender mejor las palabras clave que usan los visitantes en las búsquedas que generan tráfico en el sitio. </p><p>**En función de lo que aprenda, podría** hacer cualquier cosa, como identificar y rellenar las lagunas de optimización de los motores de búsqueda entre las palabras clave que se usan y las que impulsan el tráfico del sitio.</p><p>Esta plantilla usa la dimensión Palabra clave de búsqueda. </p> |
 | **Palabras clave de búsqueda: de pago** | Ver las palabras clave de búsqueda que los visitantes utilizan para llegar al sitio, que coincidieron con la detección de búsquedas de pago.<p>**Esto puede ayudarle** a comprender mejor las palabras clave que usan los visitantes en las búsquedas que generan tráfico en el sitio.</p><p>**En función de lo que aprenda, podría** hacer cualquier cosa, como identificar y rellenar las lagunas de optimización de los motores de búsqueda entre las palabras clave que se usan y las que impulsan el tráfico del sitio. </p><p>Esta plantilla usa la dimensión Palabra clave de búsqueda: de pago. </p> |
 | **Palabras clave de búsqueda: natural** | Ver las palabras clave de búsqueda que los visitantes utilizan para llegar al sitio, que no coinciden con la detección de búsquedas de pago.<p>**Esto puede ayudarle** a comprender mejor las palabras clave que usan los visitantes en las búsquedas que generan tráfico en el sitio.</p><p>**En función de lo que aprenda, podría** hacer cualquier cosa, como identificar y rellenar las lagunas de optimización de los motores de búsqueda entre las palabras clave que se usan y las que impulsan el tráfico del sitio.</p><p>Esta plantilla usa la dimensión Palabra clave de búsqueda: natural. </p> |
