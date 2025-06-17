@@ -4,7 +4,7 @@ description: Las reglas de procesamiento de canales de marketing averiguan si el
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: 09c1484f3f1f1a7f5e25aa24a333dbaabb4dc9d0
+source-git-commit: fc8882a33227b1f1ed22cab95b5df3ea51e62d43
 workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 91%
@@ -73,7 +73,7 @@ Esta tabla de referencia define los campos, opciones y atributos de visita que p
 | Todos | Activa este canal solamente cuando todos los criterios de la regla son verdaderos. |
 | Cualquiera | Activa este canal cuando alguno o algunos de los criterios de la regla son verdaderos. Esta opción solo está disponible si existe más de un criterio en la regla. |
 | ID de AMO | El código de seguimiento principal utilizado por las integraciones de Adobe Advertising y Advertising Analytics. Cuando se habilita una de estas integraciones, se puede usar el prefijo del código de seguimiento para identificar canales específicos de Advertising. Utilice un &quot;AMO ID&quot; que comience por &quot;AL&quot; para la búsqueda y Social o &quot;AC&quot; para la visualización. Cuando se utiliza el ID de AMO en los canales de marketing, las métricas de clics, costes e impresiones se pueden atribuir al canal correcto. Cuando el ID de AMO no está configurado, estas métricas se dirigen a Directo o a Ninguno. |
-| AMO EF ID | El código de seguimiento secundario utilizado por el Adobe Advertising. El propósito principal de este código de seguimiento es servir como clave para enviar datos de vuelta a Advertising. Sin embargo, también se puede utilizar para identificar Mostrar clics y Mostrar vistas como dos canales de marketing independientes. Para ello, establezca que la lógica del canal de marketing para &quot;AMO EF ID&quot; termine con `:d` para los clics en pantalla o que &quot;AMO EF ID&quot; termine con `:i` para Mostrar vistas. Si no desea dividir Mostrar en dos canales, utilice la dimensión de ID de AMO en su lugar. |
+| AMO EF ID | El código de seguimiento secundario utilizado por Adobe Advertising. El propósito principal de este código de seguimiento es servir como clave para enviar datos de vuelta a Advertising. Sin embargo, también se puede utilizar para identificar Mostrar clics y Mostrar vistas como dos canales de marketing independientes. Para ello, establezca que la lógica del canal de marketing para &quot;AMO EF ID&quot; termine con `:d` para los clics en pantalla o que &quot;AMO EF ID&quot; termine con `:i` para Mostrar vistas. Si no desea dividir Mostrar en dos canales, utilice la dimensión de ID de AMO en su lugar. |
 | Variables de conversión | Contiene eVars que se han habilitado para este grupo de informes y se aplica solamente cuando las variables se definen mediante el código de Adobe en la página. |
 | Existe | Se ofrecen varias opciones, entre ellas:<ul><li>**No existe**: indica que el atributo de visita no existe en la solicitud. Por ejemplo, en un dominio referente, si el usuario escribe una dirección URL o hace clic en un marcador, el atributo de dominio referente no existe.</li><li>**Está vacío**: indica que existe un atributo de visita que, generalmente, es un parámetro de eVar o de cadena de consulta, pero que no hay ningún valor asociado al atributo de visita.</li><li>**No contiene**: permite especificar, por ejemplo, que un dominio de referencia no contiene un valor específico (a diferencia de usar la selección “Contiene”).</li></ul> |
 | Identificar el canal como | Asocia la regla con un canal de marketing que haya añadido a la página  Administrador de canales de marketing. |
@@ -82,7 +82,7 @@ Esta tabla de referencia define los campos, opciones y atributos de visita que p
 | El referente concuerda con los filtros de dirección URL internos | Visita cuya dirección URL de página coincide con un filtro de dirección de URL interno, tal como se define en el grupo de informes de las Herramientas de administración. |
 | El referente no concuerda con los filtros de dirección URL internos | La dirección URL de referencia no coincide con un filtro de dirección de URL interno, tal como se define en el grupo de informes de las Herramientas de administración. Puede usar esta configuración con URL de página y  Existe para definir una regla de captador global y evitar que las visitas se dirijan a la sección del informe No se ha identificado el canal. |
 | Hacer caso omiso de visitas que coincidan con los filtros de direcciones de URL internas | (Para los referentes) Realiza un seguimiento, solamente, de las visitas que provienen de sitios de referencia externos. Por lo general, se deja sin activar, salvo que desee incluir el tráfico interno. |
-| Es la primera página de la visita | Primera página de una visita detectada por los informes de Adobe. |
+| Es la primera visita | Primera visita detectada por los informes de Adobe. |
 | Página | La dimensión [Página](/help/components/dimensions/page.md). |
 | Dominio de página | El dominio de la página a la que llega el visitante, por ejemplo, `products.example.com`. |
 | Dominio y ruta de página | Dominio y ruta, como `products.example.com/mens/pants/overview.html`. |
