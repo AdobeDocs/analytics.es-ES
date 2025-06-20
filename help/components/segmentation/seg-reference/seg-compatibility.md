@@ -3,14 +3,14 @@ description: No todos los segmentos creados en el Generador de segmentos son com
 title: Compatibilidad del segmento con el Data Warehouse
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# Compatibilidad del segmento con el Data Warehouse
+# Compatibilidad de segmentos de Data Warehouse
 
 No todos los segmentos creados en el Generador de segmentos son compatibles con [!DNL Data Warehouse]. Esta tabla enumera las funciones compatibles.
 

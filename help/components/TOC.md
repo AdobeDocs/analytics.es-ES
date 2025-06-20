@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: ht
-source-wordcount: '786'
-ht-degree: 100%
+source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 96%
 
 ---
 
@@ -180,24 +180,26 @@ ht-degree: 100%
    + [Acerca de los contenedores de segmentos](segmentation/seg-containers.md)
    + [Funciones de segmentación en Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Flujo de trabajo de segmentación {#segmentation-workflow}
-      + [Resumen del flujo de trabajo de segmentación](segmentation/segmentation-workflow/seg-workflow.md)
+      + [Información general](segmentation/segmentation-workflow/seg-workflow.md)
       + [Planificar segmentos](segmentation/segmentation-workflow/seg-plan.md)
-      + [Generar segmentos](segmentation/segmentation-workflow/seg-build.md)
-      + [Generar segmentos secuenciales](segmentation/segmentation-workflow/seg-sequential-build.md)
-      + [Etiquetar segmentos](segmentation/segmentation-workflow/seg-tag.md)
-      + [Aprobar segmentos](segmentation/segmentation-workflow/seg-approve.md)
+      + [Creación de segmentos](segmentation/segmentation-workflow/seg-create.md)
+      + [ Generación de segmentos](segmentation/segmentation-workflow/seg-build.md)
+      + [Segmentos rápidos](segmentation/segmentation-workflow/seg-quick.md)
+      + [Segmentos secuenciales](segmentation/segmentation-workflow/seg-sequential-build.md)
       + [Compartir segmentos](segmentation/segmentation-workflow/t-seg-share.md)
-      + [Publicación de segmentos en Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
-      + [Seleccionar y aplicar segmentos](segmentation/segmentation-workflow/t-seg-apply.md)
-      + [Filtrar segmentos](segmentation/segmentation-workflow/t-seg-filter.md)
+      + [Etiquetar segmentos](segmentation/segmentation-workflow/seg-tag.md)
+      + [Filtrado de la lista de segmentos](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Marcar segmentos como favoritos](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [Aprobar segmentos](segmentation/segmentation-workflow/seg-approve.md)
       + [Eliminar segmentos](segmentation/segmentation-workflow/seg-delete.md)
       + [Copiar segmentos](segmentation/segmentation-workflow/seg-copy.md)
       + [Administración de segmentos](segmentation/segmentation-workflow/seg-manage.md)
+      + [Publicación de segmentos en Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [Seleccionar y aplicar segmentos](segmentation/segmentation-workflow/t-seg-apply.md)
    + Referencia de segmentos {#segment-reference}
-      + [Operadores de comparación para segmentos](segmentation/seg-reference/seg-operators.md)
-      + [Compatibilidad del segmento con el Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
-      + [Derechos de segmentos por función](segmentation/seg-reference/seg-rights.md)
+      + [Operadores](segmentation/seg-reference/seg-operators.md)
+      + [Compatibilidad de segmentos de Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
+      + [Segmentación de derechos por función](segmentation/seg-reference/seg-rights.md)
       + [Resolución de problemas](segmentation/seg-reference/c-troubleshooting.md)
    + [Preguntas frecuentes sobre la administración de segmentos heredados](segmentation/seg-transition.md)
    + [Prácticas recomendadas](segmentation/best-practices.md)
@@ -208,9 +210,9 @@ ht-degree: 100%
       + [Flujo de trabajo de las métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Buscar métricas](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Generar métricas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Generar una métrica “Vistas de página por visitas” ](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Crear una métrica de &quot;Asistencias de pedidos&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Generar una métrica de “participación”](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Creación de una métrica simple](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Crear una métrica más compleja](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Generar una métrica de participación](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Tipo de métrica y atribución](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Métricas segmentadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Apilar y sustituir segmentos](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)

@@ -3,31 +3,26 @@ description: En el Administrador de segmentos, puede establecer un flujo de trab
 title: Aprobar segmentos
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 53%
+source-wordcount: '135'
+ht-degree: 24%
 
 ---
 
 # Aprobar segmentos
 
-En el Administrador de segmentos, puede configurar un flujo de trabajo que incluya la aprobación de segmentos para varios niveles de aplicación, para departamentos específicos o para grupos, y coherente con las políticas de creación de informes.
+En [Administrador de segmentos](seg-manage.md), puede aprobar y desaprobar segmentos. Solo los administradores pueden aprobar segmentos.
 
->[!NOTE]
->
->Los administradores también pueden aprobar segmentos (y otros componentes) del diccionario de datos, tal como se describe en [Editar entradas de componente en el diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
->
->Cualquier segmento aprobado en el diccionario de datos se reflejará en el Administrador de segmentos. Del mismo modo, las métricas aprobadas en el Administrador de segmentos se reflejan en el diccionario de datos.
+Para aprobar segmentos:
 
-Así es como se marca un segmento como aprobado:
+1. En [Administrador de segmentos](seg-manage.md), seleccione uno o varios de los segmentos que desee aprobar.
+1. En la barra de acciones, seleccione ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]**. Los segmentos aprobados se indican con ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)
 
-1. En el Administrador de segmentos, marque la casilla a la izquierda del título del segmento.
-1. Haga clic en **[!UICONTROL Aprobar]** en la barra de tareas de administración del segmento.
-1. Considere la posibilidad de compartir el segmento o segmentos aprobados con su organización.
-1. Haga clic en **[!UICONTROL Aceptar]**.
-1. Fíjese en el icono de aprobación que aparece junto al segmento en la lista.
+Para desaprobar segmentos:
 
-   ![](assets/seg_approved.png)
+1. En el [Administrador de segmentos](seg-manage.md), seleccione uno o varios de los segmentos que desee desaprobar.
+1. En la barra de acciones, seleccione ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Desaprobar]**.
 
-1. También puede desaprobar un segmento aprobado haciendo clic en **[!UICONTROL Desaprobar]**.
+
+Puede segmentar la lista de segmentos por segmentos aprobados. Seleccione **[!UICONTROL Otros segmentos]** del panel ![Segmento](/help/assets/icons/Filter.svg) **[!UICONTROL Segmento]** y seleccione **[!UICONTROL Aprobado]**. Consulte [Segmentar la lista de segmentos](t-seg-filter.md) para obtener más información.

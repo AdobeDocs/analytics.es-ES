@@ -3,74 +3,86 @@ description: La segmentación de una métrica individual le permite realizar com
 title: Métricas segmentadas
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 68%
+source-wordcount: '458'
+ht-degree: 4%
 
 ---
 
 # Métricas segmentadas
 
-En el Creador de métricas calculadas, puede aplicar segmentos dentro de su definición de métrica. Esto es útil si desea derivar nuevas métricas para usarlas en el análisis. Tenga en cuenta que las definiciones de segmentos se pueden actualizar a través del Generador de segmentos. Si se realizan cambios, el segmento se actualizará automáticamente en cualquier lugar donde se aplique, incluso si forma parte de una definición de métrica calculada.
+En el [Creador de métricas calculadas](cm-build-metrics.md#definition-builder), puede aplicar segmentos dentro de su definición de métrica. La aplicación de segmentos resulta útil si desea utilizar métricas para un subconjunto de los datos en el análisis.
 
-![](assets/german-visitors.png)
+>[!NOTE]
+>
+>Las definiciones de segmentos se actualizan a través de [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md). Si realiza un cambio en un segmento, este se actualiza automáticamente en cualquier lugar donde se utilice, incluso si forma parte de una definición de métrica calculada.
+>
 
-## Creación de una métrica segmentada {#create}
+Desea comparar las métricas de los alemanes que interactúan con su marca con las de otros fuera de Alemania. Por lo tanto, puede responder preguntas como:
 
-Digamos que desea comparar distintos aspectos de los segmentos de “Visitantes alemanes” para aquellos de un segmento en “Visitantes internacionales”. Puede crear métricas que le proporcionarán información como:
+1. ¿Cuántas personas alemanas o internacionales están visitando tus [páginas más populares](#popular-pages)?
+1. ¿Cuántas personas alemanas versus internacionales en [total](#totals) han interactuado en línea con su marca este mes?
+1. ¿Cuáles son los [porcentajes](#percentages) de alemanes y personas internacionales que han visitado tus páginas populares?
 
-* ¿De qué forma se compara el contenido de navegación ente los dos grupos? (Otro ejemplo sería: ¿De qué forma se compara la tasa de conversión entre los dos segmentos?)
-* Como un porcentaje de visitantes totales, ¿cuántos visitantes alemanes navegan por ciertas páginas en comparación con los visitantes internacionales?
-* ¿Cuáles son las principales diferencias en términos de a qué contenido se accede desde estos segmentos diferentes?
+Consulte las secciones siguientes para ilustrar cómo las métricas segmentadas pueden ayudarle a responder a estas preguntas. Si procede, se hace referencia a documentación más detallada.
 
-Cree y guarde una métrica llamada &quot;Visitantes alemanes&quot; y una métrica llamada &quot;Visitantes internacionales&quot;:
+## Páginas populares
 
-1. Cree un segmento ad hoc en el Creador de métricas calculadas que se llame &quot;Visitantes alemanes&quot;, en el que la opción &quot;Países&quot; sea &quot;Alemania&quot;.
+1. [Cree una métrica calculada](../cm-workflow.md) a partir de un proyecto de Workspace, denominado `Germany`.
+1. Desde el [Creador de métricas calculadas](cm-build-metrics.md), [cree un segmento](/help/components/segmentation/segmentation-workflow/seg-build.md), con el título `Germany`, que esté usando el campo Países.
 
-   Arrastre la dimensión Países al lienzo Definición y seleccione [!UICONTROL **Alemania**] como valor:
-
-   ![](assets/segment-from-dimension.png)
-
-   >[!NOTE]
+   >[!TIP]
    >
-   >También puede hacerlo en el [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md), pero hemos simplificado el flujo de trabajo al establecer que las dimensiones estén disponibles en el Creador de métricas calculadas. La opción “ad hoc” implica que el segmento no esté visible en la lista **[!UICONTROL Segmentos]** del carril de la izquierda. Sin embargo, puede hacerlo público si pasa el ratón por el icono “i”, que se sitúa junto a ella, y hace clic en **[!UICONTROL Hacer público]**.
+   >En el Creador de métricas calculadas, puede crear un segmento directamente mediante el panel Componentes.
+   >   
 
-1. Arrastre el segmento Alemania al lienzo Definición y arrastre la métrica Visitantes únicos dentro de este:
+   El segmento podría tener el aspecto siguiente:.
 
-   ![](assets/german-visitors.png)
+   ![Segmento Alemania](assets/segment-germany.png)
 
-1. Seleccione [!UICONTROL **Guardar**] para guardar la métrica calculada.
+1. En el Creador de métricas calculadas, utilice el segmento para actualizar la métrica calculada.
 
-1. Cree un segmento ad hoc en el Creador de métricas calculadas llamado &quot;Visitantes internacionales&quot;, donde &quot;Países&quot; no sea igual a &quot;Alemania&quot;.
+   ![Métrica calculada Alemania](assets/germany-visits.png)
 
-   Arrastre la dimensión Países al lienzo Definición, seleccione [!UICONTROL **Alemania**] como valor y, a continuación, seleccione [!UICONTROL **no es igual que**] como operador.
+Repita los pasos anteriores para la versión internacional de la métrica calculada.
 
-1. Arrastre la métrica Visitantes únicos dentro.
+1. Cree una métrica calculada a partir del proyecto de Workspace, con el título `Non Germany visits`.
+1. Desde el Creador de métricas calculadas, cree un segmento con el título `Not Germany` que esté usando el campo País de CRM a partir de los datos de CRM para determinar de dónde proviene una persona.
 
-1. Seleccione [!UICONTROL **Guardar**] para guardar la métrica calculada.
+   El segmento debería tener el aspecto siguiente:.
 
-1. En Analysis Workspace, arrastre la dimensión **[!UICONTROL Página]** a una tabla de forma libre y, luego, las dos métricas calculadas nuevas en paralelo en la parte superior:
+   ![Segmento Alemania](assets/segment-not-germany.png)
 
-   ![](assets/workspace-pages.png)
+1. En el Creador de métricas calculadas, utilice el segmento para actualizar la métrica calculada.
 
-
->[!BEGINSHADEBOX]
-
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas segmentadas](https://video.tv.adobe.com/v/37935?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
-
->[!ENDSHADEBOX]
+   ![Métrica calculada Alemania](assets/non-germany-visits.png)
 
 
-## Porcentaje del total de métricas {#percent-total}
+1. Cree un proyecto en Analysis Workspace, donde verá las páginas visitadas por visitantes alemanes y no alemanes.
 
-Puede llevar el ejemplo anterior un paso más allá comparando el segmento con una población total. Para ello, cree dos métricas: “% de visitantes alemanes totales” y “% de visitantes internacionales totales”.
+   ![Visualización de tabla de forma libre de Workspace que muestra personas alemanas frente a internacionales](assets/workspace-german-vs-international.png)
 
-1. Coloque el segmento de Visitantes de Alemania (o internacionales) en el lienzo.
-1. Coloque otro segmento de Visitantes de Alemania (o internacionales) a continuación. Sin embargo, en esta ocasión, haga clic en el icono de configuración (el engranaje) para seleccionar “Total” como Tipo de métrica. El formato debe ser “Porcentaje”. El operador debe ser “dividido por”. Al final, tendrá esta definición de métrica:
 
-   ![](assets/cm_metric_total.png)
+## Totales
 
-1. Aplique esta métrica a su proyecto:
+1. Cree dos nuevas métricas calculadas basadas en el Total general. Abra cada uno de los segmentos creados anteriormente, cambie el nombre del segmento, establezca el **[!UICONTROL Tipo de métrica]** para **[!UICONTROL Personas]** en **[!UICONTROL Total general]** y use **[!UICONTROL Guardar como]** para guardar el segmento con el nuevo nombre. Por ejemplo:
 
-   ![](assets/cm_percent_total.png)
+   ![Métrica total para Alemania](assets/calculated-metric-germany-total.png)
+
+1. Agregue una nueva visualización de tabla de forma libre a su proyecto de Workspace, que mostrará las páginas totales de este año.
+
+   ![Visualización de tabla de forma libre de Workspace que muestra personas en alemán frente a personas en total internacionales](assets/workspace-german-vs-international-totals.png)
+
+
+## Porcentajes
+
+1. Cree dos nuevas métricas calculadas que calculen un porcentaje a partir de las métricas calculadas creadas anteriormente.
+
+   ![Visualización de tabla de forma libre de Workspace que muestra el porcentaje de personas en alemán frente al total internacional](assets/calculated-metric-germany-total-percentage.png)
+
+
+1. Actualice el proyecto de Workspace.
+
+   ![Visualización de tabla de forma libre de Workspace que muestra personas en alemán frente a personas en total internacionales](assets/workspace-german-vs-international-totals-percentage.png)
+

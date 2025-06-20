@@ -3,33 +3,52 @@ description: Filtre por etiquetas, propietarios y otros filtros (Mostrar todo, M
 title: Filtrar segmentos
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 74%
+source-wordcount: '173'
+ht-degree: 36%
 
 ---
 
-# Filtrar segmentos
+# Filtrado de la lista de segmentos
 
-Filtre por etiquetas, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados).
+Puede filtrar la lista de segmentos. El uso de un filtro en los segmentos facilita la búsqueda de los segmentos que están disponibles para usted y la administración de segmentos desde el [Administrador de segmentos](seg-manage.md).
 
-El uso de filtros hace mucho más sencilla la búsqueda de segmentos en el carril del segmento.
+>[!NOTE]
+>
+>La lista de segmentos hace referencia a la [lista de segmentos](seg-manage.md#filters-list) como parte de [Administrador de segmentos](seg-manage.md). Puede filtrar esa lista usando el ![Panel de filtro](/help/assets/icons/Filter.svg) [y parte de ese mismo [Administrador de segmentos](seg-manage.md).](seg-manage.md#filter-panel)
+>
 
-1. En el Administrador de segmentos, haga clic en el icono **[!UICONTROL Filtros]**: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![](assets/filtering.png)
+Para filtrar la lista de segmentos:
 
-2. Los filtros disponibles son los siguientes:
+1. Selecciona ![Filtro](/help/assets/icons/Filter.svg) para abrir el panel Filtros. Si necesitas más espacio para la lista Filtros, puedes seleccionar ![Filtro](/help/assets/icons/Filter.svg) una vez más para cerrar el panel.
+1. Seleccione filtros de cualquiera de las [secciones de filtros](#filter-sections) disponibles.
 
-   | Nombre del filtro | Descripción |
-   |---|---|
-   | Etiquetas | Le permite filtrar segmentos con [etiquetas](/help/components/segmentation/segmentation-workflow/seg-tag.md) específicas. La columna Etiquetas se muestra de manera predeterminada. |
-   | Propietarios | Le permite filtrar segmentos por propietario. |
-   | Grupo de informes | Le permite filtrar por grupo de informes. |
-   | Otros filtros > Mostrar todo | **(Solo administrador)** Muestra todos los segmentos, su propietario y la última fecha de modificación. |
-   | Otros filtros > Míos | Muestra todos los segmentos de su propiedad. |
-   | Otros filtros > Compartidos conmigo | Muestra todos los segmentos que otros [compartieron](/help/components/segmentation/segmentation-workflow/t-seg-share.md) con usted. |
-   | Otros filtros > Favoritos | Muestra todos los segmentos que ha marcado como [Favoritos](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
-   | Otros filtros > Aprobados | Muestra todos los [segmentos aprobados](/help/components/segmentation/segmentation-workflow/seg-approve.md) oficialmente. |
-   | Buscar segmentos | Le permite buscar segmentos por nombre. |
+   >[!INFO]
+   >
+   >*Elementos* hacen referencia a los elementos de filtro mostrados en la [lista de filtros](seg-manage.md#segment-list).
+   > 
+
+## Filtrar secciones
+
+Las secciones de filtro disponibles son las siguientes:
+
+### Etiquetas
+
+{{tagfiltersection}}
+
+### Grupo de informes
+
+{{reportsuitefiltersection}}
+
+### Propietario
+
+{{ownerfiltersection}}
+
+### Otros filtros
+
+{{otherfiltersfiltersection}}
+
+
+La [lista de filtros](seg-manage.md#segment-list) se actualiza automáticamente según la configuración del filtro. Puedes ver los filtros configurados en la [barra de filtros activa](seg-manage.md#active-filter-bar).

@@ -5,9 +5,9 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: ht
-source-wordcount: '860'
+source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
+workflow-type: tm+mt
+source-wordcount: '862'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://video.tv.adobe.com/v/328505/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -108,10 +108,20 @@ Para utilizar un modelo de atribución no predeterminado para una métrica en An
 
 {{attribution-models-details}}
 
-### Ventana retroactiva
+
+### Contenedor
+
+{{attribution-container}}
+
+
+### Ventana de retroactividad
 
 {{attribution-lookback-window}}
 
+
+### Ejemplo
+
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >
@@ -120,7 +130,7 @@ Para utilizar un modelo de atribución no predeterminado para una métrica en An
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Columnas dinámicas](https://video.tv.adobe.com/v/39095?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Columnas dinámicas](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

@@ -3,37 +3,63 @@ description: Gracias al Creador de métricas calculadas, todo el mundo puede cre
 title: Métrica de participación
 feature: Calculated Metrics
 exl-id: bef185d6-72c0-4068-80f8-57261369573f
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 183f6e39fb1d14b7b29817e76da0302ba23cd5d6
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 37%
+source-wordcount: '189'
+ht-degree: 6%
 
 ---
 
-# Generar una métrica de “participación”
+# Métricas de participación
 
-La siguiente información explica cómo crear una métrica que muestre qué páginas contribuyeron a las visitas que contenían un pedido (o participaron en ellas).
 
-Este tipo de información podría ser útil para cualquier propietario de contenido.
+Las métricas de participación se utilizan para cuantificar cómo los valores individuales de una dimensión (como Vistas de página) contribuyen a las visitas que contienen una métrica específica (como Pedidos), o participan en ellas.
+
+Los pasos siguientes muestran cómo crear una métrica de participación.
+
+1. [Cree una métrica calculada](../cm-workflow.md) y, en el [creador de métricas calculadas](cm-build-metrics.md), asigne un nombre a la métrica `Orders (Visit Participation)` o similar.
+1. Arrastre una métrica que contenga un evento de éxito, por ejemplo [!DNL Online Orders], al área [!UICONTROL **[!UICONTROL Definición]**].
+1. Seleccione ![engranaje](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) para la métrica.
+1. En la ventana emergente que aparece, seleccione **[!UICONTROL Usar un modelo de atribución no predeterminado]** para definir el [modelo de atribución](m-metric-type-alloc.md#attribution-models) de ese evento para **[!UICONTROL Participación]** y seleccione **[!UICONTROL Visitas]** para el [!UICONTROL Contenedor]. Seleccione **[!UICONTROL Aplicar]** para confirmar.
+
+
+   ![Ventana emergente del modelo de atribución de columna que muestra la participación seleccionada como modelo y las visitas seleccionadas para el contenedor.](assets/participation-setup.png)
+
+   **(Partición|Visitas|30 días)** se agrega al nombre del componente de métrica.
+
+
+
+1. Seleccione [!UICONTROL **Guardar**] para guardar la métrica.
+1. Utilice la métrica calculada en el informe. Por ejemplo, use la métrica [!DNL Orders (Session Participation)] calculada en un informe para mostrar qué nivel de cliente contribuyó a sesiones que contenían un pedido o participó en ellas.
+
+   ![Tabla de forma libre que muestra el nivel de cliente y los pedidos.](assets/participation-pages-customer-tier.png)
+
+
+<!--
+
+The following information explains how to create a metric that shows which pages contributed to (or participated in) visits that contained an order.
+
+This type of information could be useful for any content owner.
 
 >[!NOTE]
 >
->Puede habilitar métricas de participación en las Herramientas de administración, pero solo para los eventos personalizados 1-100.
+>You can enable participation metrics in the Admin Tools, but only for custom events 1 - 100.
 
-1. Comience a crear una métrica calculada, tal como se describe en [Generar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Begin creating a calculated metric, as described in [Build metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. En el Creador de métricas calculadas, asigne a la métrica el nombre &quot;Participación&quot;.
+1. In the Calculated metrics builder, name the metric "Participation".
 
-1. Arrastre el evento de éxito “Pedidos” al lienzo Definición.
+1. Drag the success event "Orders" into the Definition canvas.
 
-1. Cambie el [modelo de atribución](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) de ese evento a **[!UICONTROL Participación]** en el icono de engranajes de **[!UICONTROL Configuración]**. Seleccione **[!UICONTROL Visita]** retrospectiva. La definición debería tener un aspecto parecido al siguiente:
+1. Change the [attribution model](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) of that event to **[!UICONTROL Participation]** under the **[!UICONTROL Settings]** gear. Select **[!UICONTROL Visit]** lookback. The definition should look similar to this:
 
    ![](assets/participation.png)
 
-1. Seleccione [!UICONTROL **Guardar**] para guardar la métrica.
+1. Select [!UICONTROL **Save**] to save the metric.
 
-1. Utilice la métrica calculada en un informe **[!UICONTROL Páginas]**.
+1. Use the calculated metric in a **[!UICONTROL Pages]** report.
 
-   ![](assets/participation-pages.png)
+    ![](assets/participation-pages.png)
 
-1. (Opcional) Comparta la métrica con otros usuarios de su organización, tal como se describe en [Compartir métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
+1. (Optional) Share the metric with other users in your organization, as described in [Share calculated metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
+-->

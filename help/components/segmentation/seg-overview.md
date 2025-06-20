@@ -3,10 +3,10 @@ description: Los segmentos le permiten identificar subconjuntos de visitantes ba
 title: Acerca de los segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: d17fbcca39e0529a01aeb2a87d0d1390c449eb8d
-workflow-type: ht
-source-wordcount: '1156'
-ht-degree: 100%
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+workflow-type: tm+mt
+source-wordcount: '1159'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Los segmentos pueden basarse en los siguientes valores:
 
 - Visitantes en función de sus atributos: tipo de navegador, dispositivo, número de visitas, país, género.
 - Visitantes en función de interacciones: campañas, búsqueda de palabras clave o motor de búsqueda.
-- Visitantes en función de salidas y entradas: visitantes de Facebook, una página de aterrizaje definida o un dominio de referencia.
+- Visitantes en función de salidas y entradas: visitantes de Facebook, una página de destino definida o un dominio de referencia.
 - Visitantes en función de variables personalizadas: campo de formulario, categorías definidas o ID de cliente.
 
 Cuando genera segmentos de audiencia en el Generador de segmentos, define condiciones utilizando los operadores [!UICONTROL AND] y [!UICONTROL OR] entre los contenedores.
@@ -136,7 +136,7 @@ Los segmentos secuenciales le permiten identificar a los visitantes en función 
 
 | Visita uno | Visita dos | Visita tres |
 |---|---|---|
-| En la primera visita, el visitante accedió a la página de aterrizaje principal A, excluyó la página de campaña B y después vio la página del producto C. | En la segunda visita, el visitante volvió a acceder a la página de aterrizaje principal A, excluyó la página de campaña B y vio de nuevo la página del producto C, para acceder a continuación a una nueva página D. | En la tercera visita, el visitante accedió y siguió la misma ruta que en la primera y la segunda visita, y después excluyó la página F para ir directamente a una página de producto dirigida G. |
+| En la primera visita, el visitante accedió a la página de destino principal A, excluyó la página de campaña B y después vio la página del producto C. | En la segunda visita, el visitante volvió a acceder a la página de destino principal A, excluyó la página de campaña B y vio de nuevo la página del producto C, para acceder a continuación a una nueva página D. | En la tercera visita, el visitante accedió y siguió la misma ruta que en la primera y la segunda visita, y después excluyó la página F para ir directamente a una página de producto dirigida G. |
 
 Los segmentos secuenciales pueden basarse en los siguientes valores de visitas individuales:
 
@@ -242,7 +242,7 @@ En este vídeo se proporciona una breve descripción sobre qué son los contened
 
 >[!BEGINSHADEBOX]
 
-Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/3429101?quality=12&learn=on&captions=spa){target="_blank"}.
+Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -281,7 +281,7 @@ Acceda al Administrador de segmentos de una de las siguientes maneras:
 
 De forma predeterminada, todos los usuarios pueden crear y editar segmentos personales. Sin embargo, los administradores pueden decidir quién cuenta con los [permisos para crear segmentos](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=es) y pueden asignarlos a grupos específicos. Estos segmentos se pueden compartir directamente con cualquier otro usuario de Analytics.
 
-Los administradores pueden editar cualquier segmento, así como compartir segmentos con grupos y con cualquier persona de la organización. [Más...](/help/components/segmentation/seg-reference/seg-rights.md)
+Los administradores pueden editar cualquier segmento, así como compartir segmentos con grupos y con cualquier persona de la organización. [Derechos de segmento por rol](/help/components/segmentation/seg-reference/seg-rights.md)
 
 +++
 

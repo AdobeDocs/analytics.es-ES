@@ -4,10 +4,10 @@ title: Métricas en Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
+source-git-commit: 69e67ca6bdd074a982b70e040b37b26434d216af
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 30%
+source-wordcount: '739'
+ht-degree: 25%
 
 ---
 
@@ -21,15 +21,12 @@ Adobe ofrece varios tipos de métricas para usar en Analysis Workspace:
 
 * **Métricas estándar**: la mayoría de las métricas que se utilizan en los proyectos son estándar. Algunos ejemplos son [Vistas de páginas](/help/components/metrics/page-views.md), [Ingresos](/help/components/metrics/revenue.md) o [Eventos personalizados](/help/components/metrics/custom-events.md). Consulte la [Información general sobre las métricas](/help/components/metrics/overview.md) en la guía del usuario Componentes para obtener más información.
 
-  ![Métricas estándar](assets/standard-metric.png)
+* **Métricas calculadas** ![Calculadora](/help/assets/icons/Calculator.svg): Métricas definidas por el usuario que se basan en métricas estándar, números estáticos o funciones algorítmicas. Las métricas calculadas definidas por el usuario muestran un icono de calculadora en la lista de componentes disponibles. Consulte [Información general sobre las métricas](/help/components/c-calcmetrics/cm-overview.md) en la guía del usuario Componentes para obtener más información.
 
-* **Métricas calculadas**: métricas definidas por el usuario que se basan en métricas estándar, números estáticos o funciones algorítmicas. Las métricas calculadas definidas por el usuario muestran un icono de calculadora en la lista de componentes disponibles. Consulte [Información general sobre las métricas](/help/components/c-calcmetrics/cm-overview.md) en la guía del usuario Componentes para obtener más información.
+* **Plantillas de métricas calculadas** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg): Métricas definidas por Adobe que se comportan de manera similar a las métricas calculadas. Puede utilizarlas tal cual en los proyectos de Workspace o guardar una copia para personalizar su lógica. Las plantillas de métricas calculadas muestran un icono de Adobe en la lista de componentes disponibles.
 
-  ![Métrica calculada](assets/calculated-metric.png)
+Puede ver si una métrica está aprobada ![Icono aprobado](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) o no. Si desea obtener más detalles sobre una métrica, pase el ratón sobre ella y seleccione ![Icono de información](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). Consulte [Información del componente](use-components-in-workspace.md#component-info) para obtener más información.
 
-* **Plantillas de métricas calculadas**: métricas definidas por Adobe que se comportan de manera similar a las calculadas. Puede utilizarlas tal cual en los proyectos de Workspace o guardar una copia para personalizar su lógica. Las plantillas de métricas calculadas muestran un icono de Adobe en la lista de componentes disponibles.
-
-  ![Plantilla de métricas calculadas](assets/calculated-metric-template.png)
 
 ## Uso de métricas en Analysis Workspace
 
@@ -38,7 +35,7 @@ Las métricas se pueden utilizar de varias formas dentro de Analysis Workspace. 
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usar métricas](https://video.tv.adobe.com/v/328571?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usar métricas](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +43,13 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usar métricas](
 
 Las métricas calculadas permiten ver fácilmente cómo se relacionan entre sí las métricas, mediante operadores simples o funciones estadísticas.
 
+
 Existen varias formas de crear métricas calculadas. El método que elija determina si la métrica calculada está disponible en la lista de componentes de todos los proyectos o solo en el proyecto en el que se creó.
 
 ### Crear métricas calculadas para todos los proyectos
 
-Puede usar el creador de métricas calculadas para crear métricas calculadas. Cuando se crean de esta manera, las métricas calculadas están disponibles en la lista de componentes y, a continuación, se pueden utilizar en proyectos de toda la organización.
+Puede usar el [generador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) para [crear métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md). Cuando se crean de esta manera, las métricas calculadas están disponibles en la lista de componentes y se pueden utilizar en proyectos de toda la organización.
 
-Para obtener información sobre cómo acceder al creador de métricas calculadas, consulte [Generar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 ### Crear métricas calculadas para un solo proyecto
 
@@ -64,7 +61,7 @@ Para crear una métrica calculada para un solo proyecto:
 
 1. En una tabla de forma libre, haga clic con el botón secundario en el encabezado de columna de una sola columna.
 
-   O
+   O bien
 
    Seleccione dos columnas mientras mantiene pulsada la tecla Mayús y, a continuación, haga clic con el botón derecho en una de las columnas seleccionadas.
 
@@ -100,6 +97,7 @@ Para crear una métrica calculada para un solo proyecto:
 
 [Métricas calculadas: métricas sin implementación](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=es) (3:42)
 
+
 ## Comparar métricas con diferentes modelos de atribución
 
 Para comparar rápidamente un modelo de atribución con otro, haga clic con el botón derecho en una métrica y seleccione **[!UICONTROL Comparar modelos de atribución]**:
@@ -115,7 +113,7 @@ A continuación, se muestra un vídeo sobre este tema:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Promedio acumulado](https://video.tv.adobe.com/v/35008?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Promedio acumulado](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

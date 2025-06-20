@@ -4,9 +4,9 @@ keywords: Métricas calculadas; métricas calculadas avanzadas
 title: Métricas calculadas y calculadas avanzadas
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '552'
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+workflow-type: tm+mt
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
@@ -41,10 +41,9 @@ Puede
 * Cree métricas entre [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución].
 * Crear métricas segmentadas que deriven del tiempo de ejecución de un informe, sin tener que cambiar la implementación. Ya que se basan en segmentos, pueden encontrarse en el historial.
 
-
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://video.tv.adobe.com/v/37936?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -54,14 +53,7 @@ Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Métrica
 * (Solo métricas calculadas avanzadas) Incorpore funciones estadísticas que le ayuden a describir mejor los datos. Por ejemplo, haga recuentos del número de elementos de un informe o agregue el número de desviaciones estándar para cada elemento.
 
 
->[!BEGINSHADEBOX]
-
-Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas segmentadas en segmentos](https://video.tv.adobe.com/v/37935?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
-
->[!ENDSHADEBOX]
-
-
-## Limitaciones {#section_CB878B02451541D68A68B508D4DBD19A}
+## Limitaciones
 
 Algunas de las funciones de [!DNL Analytics] permiten utilizar los eventos, pero no las métricas calculadas:
 
@@ -71,13 +63,28 @@ Algunas de las funciones de [!DNL Analytics] permiten utilizar los eventos, pero
 * [!UICONTROL Segmentos]
 * [!DNL Analytics] para [!DNL Target]
 
-## Herramientas {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-A continuación se describen brevemente las herramientas de [!UICONTROL Métricas calculadas]:
+>[!BEGINSHADEBOX]
 
-| Herramienta | Competencias |
+Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas segmentadas en segmentos](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+
+>[!ENDSHADEBOX]
+
+<!--
+
+Here is a short overview of the [!UICONTROL Calculated metrics] tools: 
+
+|Tool|Capabilities|
 |--- |--- |
-| Creador de métricas calculadas | <ul><li>Cree métricas calculadas avanzadas con modelos de asignación avanzados.</li><li>Añadir segmentos en línea a fórmulas de métricas</li><li>Comparar segmentos en el mismo informe. Por ejemplo, comparar los visitantes locales con los visitantes internacionales.</li><li>Utilizar funciones estadísticas</li><li>Proporcionar descripciones detalladas de las métricas (mostrar qué hacen, dónde utilizarlas y dónde NO se deben utilizar).</li><li>Copiar definiciones en métricas nuevas</li><li>Proporcionar una vista previa de métricas en línea</li><li>Establecer la polaridad de una métrica, lo cual indica si es bueno o malo que un evento personalizado determinado (métrica) vaya al alza.</li><li>Etiquetar métricas</li></ul> |
-| Administrador de métricas calculadas | <ul><li>Compartir métricas con otros&lt;/li<li>Aprobar y depurar métricas</li><li>Organizar (etiquetar) sus métricas para que los demás puedan encontrarlas</li><li>Eliminar métricas</li><li>Cambiar el nombre de las métricas</li></ul> |
-| Carril del selector de métricas | Le permite buscar y añadir o aplicar métricas al informe. También puede cambiar el orden de clasificación con las opciones Alfabético, Recomendado, Más usados y Usado recientemente. Además, le permite filtrar por grupos de informes para mostrar solo las métricas creadas en un grupo de informes específico. Para acceder a este Selector de métricas, haga clic en el icono Métricas a la izquierda de un informe.  |
-| API para métricas calculadas | Parte del conjunto de API de Adobe Analytics 2.0. |
+| [Calculated metric builder](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)| The capabilities are: <ul><li>Create calculated and advanced calculated metrics using advancmd allocation models.</li><li>Add segments inline to metric formulas</li><li>Compare segments in the same report. For example, compare local visitors vs. international visitors.</li><li>Use statistical functions</li><li>Provide detailed metric descriptions (show what it does, where to use it, where NOT to use it)</li><li>Copy definitions into new metrics</li><li>Provide an inline metric preview</li><li>Set metric polarity, which indicates whether it's good or bad if a given custom event (metric) goes up</li><li>Tag metrics</li></ul>|
+|Calculated Metric Manager|<ul><li>Share metrics with others</li<li>Approve and curate metrics</li><li>Organize (tag) your metrics so people can find them</li><li>Delete metrics</li><li>Rename metrics</li></ul>|
+|Metric Selector rail|Lets you search for and add/apply metrics to the report. You can also change the  sort order (options are: alphabetical, recommended, frequently used, recently used.) In addition, you can filter on Report Suites to show only metrics created in a specific report suite.  To access this Metric Selector, click the Metrics icon  to the left of a report. |
+|API for Calculated Metrics|Part of the Adobe Analytics 2.0 API set.|
+
+-->
