@@ -16,7 +16,7 @@ Los segmentos le permiten identificar subconjuntos de visitantes basándose en s
 
 Los segmentos se basan en una jerarquía de niveles de [!UICONTROL Visitante], [!UICONTROL Visita] y [!UICONTROL Visita individual] usando un modelo de contenedor anidado. Los contenedores anidados le permiten definir los atributos y las acciones del visitante basándose en las reglas entre los contenedores y dentro de ellos. Los segmentos de Analytics pueden generarse, aprobarse, compartirse, guardarse y ejecutarse en varios productos y capacidades en [!DNL Adobe Experience Cloud]. Los segmentos pueden generarse a partir de un informe, integrarse en un informe de panel o marcarse como favoritos para acceder rápidamente a ellos.
 
-Puede generar y guardar segmentos en el Generador de segmentos, o bien generarlos a partir de un informe de visitas en el orden previsto (en [!UICONTROL  Analysis Workspace)]). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos se pueden usar juntos como [segmentos apilados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Puede generar y guardar segmentos en el Generador de segmentos, o bien generarlos a partir de un informe de visitas en el orden previsto (en [!UICONTROL &#x200B; Analysis Workspace)]). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos se pueden usar juntos como [segmentos apilados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 Los segmentos identifican
 
