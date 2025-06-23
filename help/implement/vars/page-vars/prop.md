@@ -1,10 +1,10 @@
 ---
 title: prop
 description: Variables personalizadas que puede utilizar en su implementación.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 85%
@@ -19,7 +19,7 @@ Las propiedades son variables personalizadas que se pueden utilizar como desee. 
 
 >[!TIP]
 >
->Adobe recomienda utilizar [eVars](evar.md) en la mayoría de los casos. En versiones anteriores de Adobe Analytics, las props y las eVars tenían ventajas y desventajas entre sí. Sin embargo, el Adobe ha mejorado las eVars hasta el punto de que ahora cumplen casi todos los casos de uso de las props.
+>Adobe recomienda utilizar [eVars](evar.md) en la mayoría de los casos. En versiones anteriores de Adobe Analytics, las props y las eVars tenían ventajas y desventajas entre sí. Sin embargo, Adobe ha mejorado las eVars hasta el punto de que ahora cumplen casi todos los casos de uso de las props.
 
 Si tiene un [documento de diseño de soluciones](/help/implement/prepare/solution-design.md), puede asignar estas dimensiones personalizadas a valores específicos de su organización. El número de propiedades disponibles depende del contrato con Adobe. Hay disponibles hasta 75 props si su contrato con Adobe lo admite.
 
@@ -67,7 +67,7 @@ Habilitar props de lista en [Variables de tráfico](/help/admin/admin/c-manage-r
 
 Si se usa el [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), las props de lista se asignan a `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. El SDK web utiliza automáticamente el delimitador correcto que aparece en la configuración del grupo de informes. Si establece el delimitador en el campo XDM (por ejemplo, `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), eso anula el delimitador recuperado automáticamente de la configuración del grupo de informes y puede provocar un análisis incorrecto de la cadena prop de lista.
 
-Si usa el [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), las props de lista usan los mismos campos que las props estándar y siguen la sintaxis de AppMeasurement.
+Si se usa el [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), las props de lista usan los mismos campos que las props estándar y siguen la sintaxis de AppMeasurement.
 
 ### Configurar las prop de lista con la extensión Adobe Analytics y AppMeasurement
 

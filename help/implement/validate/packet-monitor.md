@@ -2,10 +2,10 @@
 title: Analizadores de paquetes
 description: Los analizadores de paquetes permiten ver los datos que se envían desde la implementación a los servidores de recopilación de datos de Adobe.
 keywords: detector de paquetes, estado http, 200, 302, charles
-feature: Validation
+feature: Implementation Basics
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 role: Admin, Developer, Leader
-source-git-commit: d952d199c3c02ee8d0a223569f58d56027809cfb
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 99%

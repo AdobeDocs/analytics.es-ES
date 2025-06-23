@@ -1,10 +1,10 @@
 ---
 title: getPreviousValue
 description: Obtenga el último valor que se haya pasado a una variable.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 77%
@@ -17,9 +17,9 @@ ht-degree: 77%
 
 El complemento `getPreviousValue` le permite establecer una variable en un valor establecido en una visita anterior. Este complemento no es necesario si la implementación contiene todos los valores deseados en la visita actual.
 
-## Instalación del complemento con la extensión del SDK web
+## Instalación del complemento con la extensión Web SDK
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con el SDK web.
+Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con Web SDK.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en **[!UICONTROL Etiquetas]** a la izquierda y luego haga clic en la propiedad de etiquetas deseada.
@@ -32,9 +32,9 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 1. Configure los parámetros deseados a la derecha.
 1. Guarde y publique los cambios en el elemento de datos.
 
-## Instalación manual del complemento mediante la implementación del SDK web
+## Instalación manual del complemento que implementa Web SDK
 
-Este complemento aún no es compatible con una implementación manual del SDK web.
+Este complemento aún no es compatible con una implementación manual de Web SDK.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 

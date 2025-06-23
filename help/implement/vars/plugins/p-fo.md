@@ -1,10 +1,10 @@
 ---
 title: p_fo (Page First Only)
 description: Asegure que determinadas rutinas se activen solo una vez por página.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 77%
@@ -17,9 +17,9 @@ ht-degree: 77%
 
 El complemento `p_fo` es una utilidad que comprueba la existencia de un objeto JavaScript específico. Si el objeto no existe, el complemento crea el objeto y lo devuelve `true`. Si el objeto JavaScript ya existe en la página, devuelve `false`. Este complemento es útil para ejecutar código solo una vez en una página. Otros complementos dependen de este código para funcionar. Este complemento no es necesario si no le preocupa la cantidad de veces que se ejecuta el código en una página o si no utiliza ningún complemento dependiente.
 
-## Instalación del complemento con la extensión del SDK web
+## Instalación del complemento con la extensión Web SDK
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con el SDK web.
+Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con Web SDK.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en **[!UICONTROL Etiquetas]** a la izquierda y luego haga clic en la propiedad de etiquetas deseada.
@@ -31,9 +31,9 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
    * Elemento de datos: `p_fo`
 1. Guarde y publique los cambios en el elemento de datos.
 
-## Instalación manual del complemento mediante la implementación del SDK web
+## Instalación manual del complemento que implementa Web SDK
 
-Este complemento aún no es compatible con una implementación manual del SDK web.
+Este complemento aún no es compatible con una implementación manual de Web SDK.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 

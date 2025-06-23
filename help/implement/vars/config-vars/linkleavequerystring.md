@@ -1,10 +1,10 @@
 ---
 title: linkLeaveQueryString
 description: Permite la conservación de cadenas de consulta en dimensiones de seguimiento de vínculos.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 84%
@@ -25,7 +25,7 @@ La activación de `linkLeaveQueryString` se aplica a todas las dimensiones de se
 >
 >Esta variable no afecta a las dimensiones fuera del seguimiento de vínculos. Solo afecta a los vínculos personalizados, de salida y de descarga.
 
-## Administrar cadenas de consulta de vínculo mediante el SDK web
+## Administrar cadenas de consulta de vínculos mediante Web SDK
 
 Las cadenas de consulta no se eliminan del campo XDM `web.webInteraction.URL`. Si desea eliminar las cadenas de consulta de este campo XDM, puede editarlo mediante `onBeforeEventSend`.
 
@@ -40,7 +40,7 @@ Las cadenas de consulta no se eliminan del campo XDM `web.webInteraction.URL`. S
 
 Marque esta casilla si desea incluir cadenas de consulta en dimensiones de seguimiento de vínculos.
 
-## s.linkLeaveQueryString en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.linkLeaveQueryString en el editor de código personalizado de la extensión de AppMeasurement
 
 La variable `s.linkLeaveQueryString` es booleana. Su valor predeterminado es `false`.
 

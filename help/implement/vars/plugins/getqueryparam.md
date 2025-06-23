@@ -1,10 +1,10 @@
 ---
 title: getQueryParam
 description: Extraiga el valor de un parámetro de cadena de consulta de una dirección URL.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 73%
@@ -15,13 +15,13 @@ ht-degree: 73%
 
 {{plug-in}}
 
-El complemento `getQueryParam` le permite extraer el valor de cualquier parámetro de cadena de consulta contenido en una dirección URL. Resulta útil para extraer códigos de campaña, tanto internos como externos, de las direcciones URL de las páginas de aterrizaje. También resulta útil al extraer términos de búsqueda u otros parámetros de cadena de consulta.
+El complemento `getQueryParam` le permite extraer el valor de cualquier parámetro de cadena de consulta contenido en una dirección URL. Resulta útil para extraer códigos de campaña, tanto internos como externos, de las direcciones URL de las páginas de destino. También resulta útil al extraer términos de búsqueda u otros parámetros de cadena de consulta.
 
-Este complemento proporciona funciones sólidas para analizar direcciones URL complejas, incluidos hashes y direcciones URL que contienen varios parámetros de cadena de consulta. Si solo necesita parámetros de cadena de consulta simples, Adobe recomienda utilizar las características de parámetro de URL mediante el SDK web, la extensión de Adobe Analytics o el método [`Util.getQueryParam()`](../functions/util-getqueryparam.md) incluido en el AppMeasurement.
+Este complemento proporciona funciones sólidas para analizar direcciones URL complejas, incluidos hashes y direcciones URL que contienen varios parámetros de cadena de consulta. Si solo necesita parámetros de cadena de consulta simples, Adobe recomienda utilizar las funciones de parámetro de URL con la extensión Web SDK o Adobe Analytics o el método [`Util.getQueryParam()`](../functions/util-getqueryparam.md) incluido en AppMeasurement.
 
-## Instalación del complemento con la extensión del SDK web
+## Instalación del complemento con la extensión Web SDK
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con el SDK web.
+Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con Web SDK.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en **[!UICONTROL Etiquetas]** a la izquierda y luego haga clic en la propiedad de etiquetas deseada.
@@ -34,9 +34,9 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 1. Configure los parámetros deseados a la derecha.
 1. Guarde y publique los cambios en el elemento de datos.
 
-## Instalación manual del complemento mediante la implementación del SDK web
+## Instalación manual del complemento que implementa Web SDK
 
-Este complemento aún no es compatible con una implementación manual del SDK web.
+Este complemento aún no es compatible con una implementación manual de Web SDK.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 

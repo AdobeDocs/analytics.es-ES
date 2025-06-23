@@ -1,10 +1,10 @@
 ---
 title: rfl
 description: Elimine un valor específico de una cadena delimitada por caracteres.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 93%
@@ -22,9 +22,9 @@ El complemento utiliza la lógica siguiente:
 * Si el valor que desea eliminar existe, el complemento guarda todo en la variable excepto el valor que se va a eliminar.
 * Si el valor que desea eliminar no existe, el complemento mantiene la cadena original tal cual.
 
-## Instalación del complemento con el SDK web o la extensión del SDK web
+## Instalación del complemento con la extensión Web SDK o Web SDK
 
-Este complemento aún no es compatible con el SDK web.
+Este complemento aún no es compatible con el uso en Web SDK.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 

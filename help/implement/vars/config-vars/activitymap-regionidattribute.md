@@ -1,26 +1,27 @@
 ---
 title: ActivityMap.regionIDAttribute
-description: Cambie el atributo que el Activity Map busca para determinar la región.
-feature: Variables
+description: Cambie el atributo que Activity Map busca para determinar la región.
+feature: Appmeasurement Implementation
 role: Admin, Developer
-source-git-commit: 05010d58ba2a3376473097e9d4543ee4415e83e1
+exl-id: 4aec045e-1a86-412f-bd37-777ac49ccc7d
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
 # ActivityMap.regionIDAttribute
 
-La variable `ActivityMap.regionIDAttribute` le permite cambiar el atributo que el Activity Map busca al determinar la dimensión [Región del Activity Map](/help/components/dimensions/activity-map-region.md). Si el sitio está estructurado de manera que el atributo `id` sea menos útil para la región del Activity Map, puede configurar esta variable para que observe un atributo diferente.
+La variable `ActivityMap.regionIDAttribute` le permite cambiar el atributo que Activity Map busca al determinar la dimensión [Región de Activity Map](/help/components/dimensions/activity-map-region.md). Si el sitio está estructurado de manera que el atributo `id` sea menos útil para la región de Activity Map, puede configurar esta variable para que observe un atributo diferente.
 
-## Atributo de ID de región en la extensión del SDK web
+## Atributo ID de región en la extensión Web SDK
 
 Cuando **[!UICONTROL Habilitar la recopilación de datos de clics]** esté habilitada, use el bloque de código de devolución de llamada **[!UICONTROL Propiedades de clic en filtros]**. Dentro de este bloque de código, puede comprobar el valor de `content.clickedElement` y cambiar el valor o abandonar la recopilación de datos de seguimiento de vínculos.
 
-## Atributo de ID de región en la biblioteca JavaScript del SDK web
+## Atributo de ID de región en la biblioteca JavaScript de Web SDK
 
-Cuando [`clickCollectionEnabled`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) esté habilitado, usar la devolución de llamada `filterClickDetails` en el objeto `clickCollection`. Dentro de esta llamada de retorno, puede comprobar el valor de `clickedElement` y personalizar la lógica de la región recopilada.
+Cuando [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) esté habilitado, usar la devolución de llamada `filterClickDetails` en el objeto `clickCollection`. Dentro de esta llamada de retorno, puede comprobar el valor de `clickedElement` y personalizar la lógica de la región recopilada.
 
 ```js
 alloy("configure", {
@@ -41,7 +42,7 @@ No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar 
 
 ## s.ActivityMap.regionIDAttribute mediante AppMeasurement
 
-La variable `s.ActivityMap.regionIDAttribute` es una cadena que representa el atributo para determinar la dimensión [Región del Activity Map](/help/components/dimensions/activity-map-region.md). Esta variable está configurada como `id` de manera predeterminada. Si cambia esta variable, Activity Map ya no busca el atributo `id`, pero sigue buscando otros criterios para determinar la región (como elementos semánticos).
+La variable `s.ActivityMap.regionIDAttribute` es una cadena que representa el atributo para determinar la dimensión [Región de Activity Map](/help/components/dimensions/activity-map-region.md). Esta variable está configurada como `id` de manera predeterminada. Si cambia esta variable, Activity Map ya no busca el atributo `id`, pero sigue buscando otros criterios para determinar la región (como elementos semánticos).
 
 ```html
 <script>

@@ -1,10 +1,10 @@
 ---
 title: tl
 description: Envíe una llamada de seguimiento de vínculos a Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 62%
@@ -17,9 +17,9 @@ El método `tl()` es un componente principal importante de Adobe Analytics. Toma
 
 Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExternalLinks`](../config-vars/trackexternallinks.md) están activados, AppMeasurement llama automáticamente al método `tl()` para enviar datos de seguimiento de vínculos de descarga y de salida. Si su organización prefiere tener más control sobre los vínculos que quiere rastrear y su comportamiento, puede llamar al método `tl()` manualmente. Los vínculos personalizados solo se pueden rastrear manualmente.
 
-## Seguimiento de vínculos mediante el SDK web
+## Seguimiento de vínculos mediante Web SDK
 
-El SDK web no diferencia entre las llamadas de vista de página y las llamadas de seguimiento de vínculos; ambas utilizan el comando `sendEvent`.
+Web SDK no diferencia entre las llamadas de vista de página y las llamadas de seguimiento de vínculos; ambas utilizan el comando `sendEvent`.
 
 Si utiliza un objeto XDM y desea que Adobe Analytics cuente un evento determinado como una llamada de seguimiento de vínculos, asegúrese de que los datos XDM incluyan:
 
@@ -175,7 +175,7 @@ A continuación, puede llamar a la función siempre que desee rastrear una vincu
 ```
 
 >[!NOTE]
->Llamar indirectamente al método `tl()` puede hacer que los informes de superposición de Activity Map sean menos prácticos. Debe hacer clic en cada vínculo para registrar la función con el elemento de vínculo. Sin embargo, las dimensiones de Activity Map en Workspace se rastrean del mismo modo.
+>Llamar al método `tl()` indirectamente puede hacer que los informes de superposiciones de Activity Map sean menos prácticos. Debe hacer clic en cada vínculo para registrar la función con el elemento de vínculo. Sin embargo, las dimensiones de Activity Map en Workspace se rastrean del mismo modo.
 
 ### Evitar el seguimiento de vínculos duplicados
 
@@ -200,17 +200,17 @@ function linkCode(obj) {
 }
 ```
 
-### Utilizar el método `tl()` con el Activity Map
+### Usar el método `tl()` con Activity Map
 
-Puede usar el método `tl()` para hacer un seguimiento de elementos personalizados y configurar la representación de las superposiciones en el contenido dinámico. El parámetro `linkName` también se usa para establecer la dimensión [Vínculo de Activity Map](/help/components/dimensions/activity-map-link.md).
+Puede usar el método `tl()` para hacer un seguimiento de elementos personalizados y configurar la representación de las superposiciones en el contenido dinámico. El parámetro `linkName` también se usa para establecer la dimensión [Activity Map Link](/help/components/dimensions/activity-map-link.md).
 
-Cuando se llama directamente al método `tl()` desde el evento en el que se hace clic del elemento HTML, el Activity Map puede mostrar una superposición para ese elemento al cargar la página web. Por ejemplo:
+Cuando se llama directamente al método `tl()` desde el evento en el que se hace clic del elemento HTML, Activity Map puede mostrar una superposición para ese elemento al cargar la página web. Por ejemplo:
 
 ```html
 <a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
 ```
 
-Cuando no se llama directamente al método `tl()` desde el evento en el que se hace clic del elemento HTML, el Activity Map solo puede mostrar una superposición cuando se ha hecho clic en el elemento. Por ejemplo:
+Cuando no se llama directamente al método `tl()` desde el evento en el que se hace clic del elemento HTML, Activity Map solo puede mostrar una superposición cuando se ha hecho clic en el elemento. Por ejemplo:
 
 ```html
 <a href="index.html" onclick="someFn(event);">Example link text</a>

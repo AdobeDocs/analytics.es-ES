@@ -1,10 +1,10 @@
 ---
 title: cleanStr
 description: Eliminación o sustitución de todos los caracteres innecesarios de una cadena.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 68%
@@ -15,11 +15,11 @@ ht-degree: 68%
 
 {{plug-in}}
 
-El complemento `cleanStr` elimina o reemplaza todos los caracteres innecesarios de una cadena, incluidos los caracteres de etiqueta HTML, espacios en blanco adicionales, pestañas y retornos de línea/carro nuevos. También reemplaza las comillas simples izquierda/derecha con las rectas (`'`). El Adobe recomienda utilizar este complemento si desea eliminar caracteres innecesarios de los valores de las variables y la función Limpiar texto de la recopilación de datos de Adobe Experience Platform no satisface sus necesidades de implementación. Este complemento no es necesario si los datos recopilados no contienen caracteres innecesarios o si la función Limpiar texto de la recopilación de datos de Adobe Experience Platform es suficiente.
+El complemento `cleanStr` elimina o reemplaza todos los caracteres innecesarios de una cadena, incluidos los caracteres de etiqueta HTML, espacios en blanco adicionales, pestañas y retornos de línea/carro nuevos. También reemplaza las comillas simples izquierda/derecha con las rectas (`'`). Adobe recomienda utilizar este complemento si desea eliminar caracteres innecesarios de los valores de las variables y la función Limpiar texto de la recopilación de datos de Adobe Experience Platform no satisface sus necesidades de implementación. Este complemento no es necesario si los datos recopilados no contienen caracteres innecesarios o si la función Limpiar texto de la recopilación de datos de Adobe Experience Platform es suficiente.
 
-## Instalación del complemento con el SDK web o la extensión del SDK web
+## Instalación del complemento con la extensión Web SDK o Web SDK
 
-Este complemento aún no es compatible con el SDK web.
+Este complemento aún no es compatible con el uso en Web SDK.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 

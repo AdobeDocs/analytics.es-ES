@@ -1,10 +1,10 @@
 ---
 title: abort
 description: La variable abort es un booleano que evita que se envíe una visita a los servidores de recopilación de datos de Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
-source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 39%
@@ -13,9 +13,9 @@ ht-degree: 39%
 
 # abort
 
-La variable `abort` es un booleano que puede evitar que la siguiente llamada de seguimiento se envíe al Adobe. Existe una funcionalidad similar en el SDK web que le permite devolver `false` antes de enviar un evento XDM.
+La variable `abort` es un booleano que puede evitar que la siguiente llamada de seguimiento se envíe a Adobe. Existe una funcionalidad similar en Web SDK que le permite devolver `false` antes de enviar un evento XDM.
 
-## Cancelación del envío de un evento mediante la extensión del SDK web
+## Cancelación del envío de un evento con la extensión Web SDK
 
 Use el editor de código [!UICONTROL Activado antes de la devolución de llamada al evento] y devuelva `false`.
 
@@ -29,9 +29,9 @@ Use el editor de código [!UICONTROL Activado antes de la devolución de llamada
 return false;
 ```
 
-## Cancelación del envío de un evento manualmente mediante la implementación del SDK web
+## Cancelar el envío de un evento manualmente al implementar Web SDK
 
-Use la llamada de retorno `onBeforeEventSend` y devuelva `false`. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=es#modifying-events-globally) en la documentación del SDK web para obtener más información.
+Use la llamada de retorno `onBeforeEventSend` y devuelva `false`. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) en la documentación de Web SDK para obtener más información.
 
 ```js
 alloy("configure"), {
@@ -45,7 +45,7 @@ alloy("configure"), {
 
 No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.abort en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.abort en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.abort` es booleana. Su valor predeterminado es `false`.
 
@@ -60,7 +60,7 @@ s.abort = true;
 >
 >La variable `abort` se restablece como `false` después de cada llamada de seguimiento. Si desea cancelar llamadas de seguimiento subsiguientes en la misma página, vuelva a establecer `abort` en `true`.
 
-La variable `abort` se puede establecer en la función [`doPlugins()`](../functions/doplugins.md), que es la última función que se ejecuta antes de que se envíe una solicitud de imagen al Adobe. Este ejemplo funciona de manera similar a la llamada de retorno `onBeforeEventSend` mediante el SDK web.
+La variable `abort` se puede establecer en la función [`doPlugins()`](../functions/doplugins.md), que es la última función que se ejecuta antes de que se envíe una solicitud de imagen a Adobe. Este ejemplo funciona de manera similar a la llamada de retorno `onBeforeEventSend` mediante Web SDK.
 
 ```js
 s.doPlugins = function(s) {

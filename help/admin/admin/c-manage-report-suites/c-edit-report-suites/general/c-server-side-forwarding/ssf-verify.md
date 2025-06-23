@@ -2,10 +2,10 @@
 description: Para comprobar que el reenvío del lado del servidor esté correctamente habilitado, debe inspeccionar la respuesta HTTP a la solicitud de seguimiento de Analytics. Estas instrucciones ilustran qué indicadores deben estar presentes para garantizar que el reenvío del lado del servidor esté habilitado correctamente.
 solution: Analytics
 title: Comprobar la implementación del reenvío del lado del servidor
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 86%

@@ -1,10 +1,10 @@
 ---
 title: getAndPersistValue
 description: Almacene un valor que pueda utilizarse posteriormente en cualquier momento.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 70%
@@ -17,9 +17,9 @@ ht-degree: 70%
 
 El complemento `getAndPersistValue` le permite almacenar un valor en una cookie que se puede utilizar más adelante durante una visita. Cumple una función similar a la de la característica [!UICONTROL Duración del almacenamiento] de la extensión de Adobe Analytics en la recopilación de datos de Adobe Experience Platform. Adobe recomienda utilizar este complemento si desea mantener automáticamente una variable de Analytics con el mismo valor en las visitas posteriores después de configurar la variable. Este complemento no es necesario si la característica [!UICONTROL Duración del almacenamiento] de la extensión de Analytics es suficiente. Tampoco es necesario utilizar este complemento si no requiere establecer y mantener variables con el mismo valor en las visitas posteriores. La persistencia integrada de eVars no requiere el uso de este complemento, ya que Adobe mantiene eVars en el lado del servidor.
 
-## Instalación del complemento con la extensión del SDK web
+## Instalación del complemento con la extensión Web SDK
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con el SDK web.
+Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con Web SDK.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en **[!UICONTROL Etiquetas]** a la izquierda y luego haga clic en la propiedad de etiquetas deseada.
@@ -32,9 +32,9 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 1. Configure los parámetros deseados a la derecha.
 1. Guarde y publique los cambios en el elemento de datos.
 
-## Instalación manual del complemento mediante la implementación del SDK web
+## Instalación manual del complemento que implementa Web SDK
 
-Este complemento aún no es compatible con una implementación manual del SDK web.
+Este complemento aún no es compatible con una implementación manual de Web SDK.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 

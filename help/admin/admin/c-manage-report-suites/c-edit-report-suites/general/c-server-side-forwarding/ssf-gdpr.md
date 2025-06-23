@@ -1,10 +1,10 @@
 ---
 description: Explica las mejoras en el reenvío del lado del servidor que se han debido a la normativa de cumplimiento de cookies de la UE.
 title: Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 55%
@@ -21,7 +21,7 @@ Anteriormente, el reenvío del lado del servidor no tenía una forma de delinear
 
 Cuando esta nueva variable contextual, `cm.ssf=1`, existe en una visita, esta se marca y no se reenvía del lado del servidor a Adobe Audience Manager. Por el contrario, si esta cadena no aparece en una visita, la visita se reenvía a Adobe Audience Manager.
 
-El reenvío del lado del servidor es bidireccional, lo que significa que cuando se aplica a una visita y esa visita se reenvía a Adobe Audience Manager, el Audience Analytics recibe información del segmento para esa visita de Adobe Audience Manager y la envía de vuelta a Analytics. Como resultado, las visitas que no se reenvíen del lado del servidor de Analytics a Adobe Audience Manager no se ampliarán con la lista de ID de segmento de Adobe Audience Manager. Por lo tanto, habrá un subconjunto de tráfico/visitas que no obtendrá información de ID de segmento de Adobe Audience Manager.
+El reenvío del lado del servidor es bidireccional, lo que significa que cuando se aplica a una visita y esa visita se reenvía a Adobe Audience Manager, Audience Analytics recibe información del segmento para esa visita de Adobe Audience Manager y la envía de vuelta a Analytics. Como resultado, las visitas que no se reenvíen del lado del servidor de Analytics a Adobe Audience Manager no se ampliarán con la lista de ID de segmento de Adobe Audience Manager. Por lo tanto, habrá un subconjunto de tráfico/visitas que no obtendrá información de ID de segmento de Adobe Audience Manager.
 
 ## Detalles de implementación {#section_FFA8B66085BF469FAB5365C944FE38F7}
 

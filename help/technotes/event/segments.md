@@ -2,8 +2,8 @@
 title: Excluir fechas específicas en el análisis
 description: Sugerencias para excluir fechas o intervalos de fechas si no desea incluirlas en los informes.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
-feature: Event, Segmentation
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+feature: Curate and Share, Segmentation
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Cree un segmento que aísle el día o el intervalo de fechas afectado. Este segm
 >
 >Para cambiar la instrucción OR a una instrucción AND, haga clic en la flecha hacia abajo situada junto a OR y seleccione AND.
 
-Adobe recomienda utilizar los componentes de dimensión naranjas y no los componentes morados del intervalo de fechas. Si utiliza componentes de intervalo de fecha morados, anulan el intervalo de calendario del proyecto:
+Adobe recomienda utilizar los componentes de dimensión naranjas y no los componentes de intervalo de fechas morados. Si utiliza componentes de intervalo de fecha morados, anulan el intervalo de calendario del proyecto:
 
 ![Excluir tipo de día de segmento](assets/exclude_segment_day_type.jpg)
 

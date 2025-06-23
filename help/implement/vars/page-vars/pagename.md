@@ -1,10 +1,10 @@
 ---
 title: pageName
 description: El nombre de la página del sitio.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 80%
@@ -21,7 +21,7 @@ Si esta variable no está definida en una llamada de seguimiento de página dete
 >
 >Los servidores de recopilación de datos de Adobe eliminan esta dimensión de todas las solicitudes de imagen de [seguimiento de vínculos](/help/implement/vars/functions/tl-method.md). Si desea que esta dimensión aparezca en las visitas de seguimiento de vínculos, considere la posibilidad de copiar esta dimensión en una [eVar](evar.md).
 
-## Nombre de página mediante el SDK web
+## Nombre de página con Web SDK
 
 El nombre de página está asignado a las siguientes variables:
 
@@ -41,7 +41,7 @@ Puede definir el nombre de la página al configurar la extensión de Analytics (
 
 Puede establecer el nombre de la página en cualquier valor de cadena, incluidos los elementos de datos.
 
-## s.pageName en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.pageName en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.pageName` es una cadena que generalmente contiene el nombre de la página. Tiene un valor máximo de 100 bytes. Los valores más largos se truncan. Este truncamiento incluye instancias a las que se recupera `pageURL` si esta variable está en blanco.
 

@@ -1,22 +1,22 @@
 ---
-description: Los eventos de éxito son acciones de las que se puede llevar un seguimiento. Usted determina lo que es un evento de éxito. Por ejemplo, si un visitante compra un artículo, el evento de compra puede considerarse un evento de éxito.
+description: Los eventos de éxito son acciones de las que se puede llevar un seguimiento. Usted determina lo que es un evento de éxito. Por ejemplo, si un visitante compra un artículo, el evento de compra podría considerarse un evento de éxito.
 keywords: evento
 title: Resumen de los eventos de éxito
-feature: Event
+feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 51%
+ht-degree: 54%
 
 ---
 
 # Eventos de éxito
 
-Los eventos de éxito (también conocidos como eventos de conversión o eventos personalizados) son acciones de las que se puede realizar un seguimiento. Usted determina lo que es un evento de éxito. Por ejemplo, si un visitante compra un artículo, el evento de compra puede considerarse un evento de éxito.
+Los eventos de éxito (también conocidos como eventos de conversión o eventos personalizados) son acciones de las que se puede realizar un seguimiento. Usted determina lo que es un evento de éxito. Por ejemplo, si un visitante compra un artículo, el evento de compra podría considerarse un evento de éxito.
 
-Para ver un vídeo de información general sobre los eventos de éxito, consulte [Introducción a los eventos de conversión](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) en la guía de tutoriales de Analytics.
+Para ver un vídeo de información general sobre los eventos de éxito, consulte [Introducción a los eventos de conversión](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) en la guía de tutoriales de Analytics.
 
 ## Ejemplos de eventos de éxito
 

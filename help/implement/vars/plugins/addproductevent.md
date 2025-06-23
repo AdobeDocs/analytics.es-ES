@@ -1,10 +1,10 @@
 ---
 title: addProductEvent
 description: Agrega eventos personalizados a la variable products y events.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 86%
@@ -17,9 +17,9 @@ ht-degree: 86%
 
 El complemento `addProductEvent` agrega un evento numérico o de divisa a la variable [`products`](../page-vars/products.md). Adobe recomienda utilizar este complemento si desea agregar un evento numérico o de divisa a la variable `products` sin tener que preocuparse por el formato de la cadena de producto. Este complemento no es necesario si no se utilizan eventos numéricos o de divisa en la variable `products`.
 
-## Instalación del complemento con el SDK web o la extensión del SDK web
+## Instalación del complemento con la extensión Web SDK o Web SDK
 
-Este complemento aún no es compatible con el SDK web.
+Este complemento aún no es compatible con el uso en Web SDK.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 

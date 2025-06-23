@@ -1,10 +1,10 @@
 ---
 title: getVisitNum
 description: Rastree el número de la visita actual de un visitante.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 78%
@@ -17,9 +17,9 @@ ht-degree: 78%
 
 El complemento `getVisitNum` devuelve el número de la visita de todos los visitantes que acceden al sitio dentro del número de días deseado. Analysis Workspace ofrece una dimensión “Número de visita” que proporciona una funcionalidad similar. Adobe recomienda utilizar este complemento si desea controlar mejor cómo se incrementa el número de visitas. Este complemento no es necesario si la dimensión “Número de visita” integrada en Analysis Workspace resulta suficiente para los informes que necesita.
 
-## Instalación del complemento con la extensión del SDK web
+## Instalación del complemento con la extensión Web SDK
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con el SDK web.
+Adobe ofrece una extensión que le permite utilizar los complementos más utilizados con Web SDK.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en **[!UICONTROL Etiquetas]** a la izquierda y luego haga clic en la propiedad de etiquetas deseada.
@@ -32,9 +32,9 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 1. Configure los parámetros deseados a la derecha.
 1. Guarde y publique los cambios en el elemento de datos.
 
-## Instalación manual del complemento mediante la implementación del SDK web
+## Instalación manual del complemento que implementa Web SDK
 
-Este complemento aún no es compatible con una implementación manual del SDK web.
+Este complemento aún no es compatible con una implementación manual de Web SDK.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 

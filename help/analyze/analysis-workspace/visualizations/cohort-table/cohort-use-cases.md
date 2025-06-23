@@ -2,11 +2,11 @@
 description: Ejemplos de casos de uso para análisis de cohorte.
 keywords: Analysis Workspace
 title: Casos de uso de análisis de cohorte
-feature: Cohort Analysis
+feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 100%
 

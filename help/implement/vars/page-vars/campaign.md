@@ -1,10 +1,10 @@
 ---
 title: campaign
 description: Rellene la dimensión “Código de seguimiento”.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 67%
@@ -17,7 +17,7 @@ La variable `campaign` está dedicada a recopilar códigos de seguimiento en el 
 
 Esta variable rellena la dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md). Normalmente obtiene su valor de una cadena de consulta utilizando el método de utilidad [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md). Sin embargo, su organización determina exactamente cómo configurar esta variable.
 
-## Campaña mediante el SDK web
+## Campaña mediante Web SDK
 
 Campaign se asigna a las siguientes variables:
 
@@ -37,7 +37,7 @@ Puede establecer la campaña durante la configuración de la extensión de Analy
 
 Puede establecer la campaña como un valor o un parámetro de cadena de consulta.
 
-## s.campaign en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.campaign en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.campaign` es una cadena que generalmente contiene un código de seguimiento utilizado en los esfuerzos de marketing. Su longitud máxima es de 255 bytes; los valores superiores a 255 bytes se truncan automáticamente cuando se envían a Adobe.
 

@@ -1,10 +1,10 @@
 ---
 title: registerPreTrackCallback
 description: Cree funciones de devolución de llamada antes de enviar una visita a Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 55%
@@ -25,9 +25,9 @@ Cada vez que llama a la variable `registerPreTrackCallback`, vincula esa funció
 >
 >No se garantiza el tiempo y el orden de las funciones activadas entre `registerPreTrackCallback` y `registerPostTrackCallback`. Evite las dependencias entre estas dos funciones.
 
-## Realizar un seguimiento previo de las llamadas de retorno mediante la extensión SDK web
+## Llamada de retorno de seguimiento previa con la extensión Web SDK
 
-El SDK web no puede conectar una función después de compilar los datos pero antes de enviarlos al Adobe. Sin embargo, puede usar `onBeforeEventSend` para registrar una función para que se ejecute justo antes de que se envíen los datos.
+Web SDK no puede conectar una función después de compilar los datos pero antes de enviarlos a Adobe. Sin embargo, puede usar `onBeforeEventSend` para registrar una función para que se ejecute justo antes de que se envíen los datos.
 
 1. Inicie sesión en la interfaz de usuario de [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
@@ -35,9 +35,9 @@ El SDK web no puede conectar una función después de compilar los datos pero an
 1. En [!UICONTROL Recopilación de datos], haga clic en el botón **[!UICONTROL Editar en antes del código de devolución de llamada de envío de evento]**.
 1. Coloque el código deseado en el editor.
 
-## Realizar un seguimiento previo de las llamadas de retorno implementando manualmente el SDK web
+## Realizar un seguimiento previo de las llamadas de retorno implementando manualmente Web SDK
 
-El SDK web no puede conectar una función después de compilar los datos pero antes de enviarlos al Adobe. Sin embargo, puede usar `onBeforeEventSend` para registrar una función que se va a ejecutar justo antes de enviar los datos, de forma similar a `doPlugins`. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=es#modifying-events-globally) en la documentación del SDK web para obtener más información.
+Web SDK no puede conectar una función después de compilar los datos pero antes de enviarlos a Adobe. Sin embargo, puede usar `onBeforeEventSend` para registrar una función que se va a ejecutar justo antes de enviar los datos, de forma similar a `doPlugins`. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) en la documentación de Web SDK para obtener más información.
 
 ```js
 // Set the trackingCode XDM field to "New value"
@@ -52,7 +52,7 @@ alloy("configure", {
 
 No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.registerPreTrackCallback en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.registerPreTrackCallback en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 `s.registerPreTrackCallback` es una función que toma una función como su único argumento. La función anidada se ejecuta justo antes de que se envíe una solicitud de imagen.
 

@@ -1,10 +1,10 @@
 ---
 title: registerPostTrackCallback
 description: Cree funciones de llamada de retorno después de enviar una visita a Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 73%
@@ -25,13 +25,13 @@ Cada vez que llama a la variable `registerPostTrackCallback`, vincula esa funci�
 >
 >No se garantiza el tiempo y el orden de las funciones activadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) y `registerPostTrackCallback`. Evite las dependencias entre estas dos funciones.
 
-## Llamada de retorno posterior al seguimiento con la extensión del SDK web
+## Llamada de retorno posterior al seguimiento con la extensión Web SDK
 
 ¡Muy pronto!
 
-## Llamada de retorno posterior al seguimiento implementando manualmente el SDK web
+## Llamada de retorno posterior al seguimiento implementando manualmente Web SDK
 
-Puede utilizar una promesa de JavaScript al enviar un evento para registrar una función después de que los datos se envíen correctamente al Adobe.
+Puede utilizar una promesa de JavaScript al enviar un evento para registrar una función después de que los datos se envíen correctamente a Adobe.
 
 ```js
 alloy("sendEvent",{
@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-Consulte [Gestión de respuestas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=es#handling-responses-from-events) en la documentación del SDK web para obtener más información.
+Consulte [Gestión de respuestas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) en la documentación de Web SDK para obtener más información.
 
 ## Registro de devoluciones de llamada posterior al seguimiento con la extensión Adobe Analytics
 

@@ -1,10 +1,10 @@
 ---
 title: cookieLifetime
 description: Anule la caducidad de las cookies que crea AppMeasurement.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 64%
@@ -19,9 +19,9 @@ Las cookies configuradas por AppMeasurement suelen tener una caducidad de 2 año
 >
 >Esta variable afecta a los recuentos y la atribución de visitantes únicos. Tenga cuidado al configurar esta variable.
 
-## Duración de la cookie mediante el SDK web
+## Duración de la cookie mediante Web SDK
 
-El SDK web aún no ofrece personalización durante la duración de las cookies que establece.
+Web SDK aún no ofrece personalización a la duración de las cookies que establece.
 
 ## Duración de la cookie mediante la extensión Adobe Analytics
 
@@ -39,7 +39,7 @@ Esta lista desplegable contiene los siguientes valores:
 * **Sesión**: La cookie caduca al final de la sesión del visitante.
 * **Segundos**: La cookie caduca después de que haya transcurrido el número de segundos especificado. Por ejemplo, si establece esta lista desplegable en [!UICONTROL Segundos] y coloca `86400` en el campo personalizado, las cookies caducarán exactamente después de 24 horas.
 
-## s.cookieLifetime en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.cookieLifetime en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.cookieLifetime` es una cadena que determina la fecha de caducidad de las cookies establecidas por AppMeasurement.
 

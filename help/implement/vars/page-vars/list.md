@@ -1,10 +1,10 @@
 ---
 title: list
 description: Variables personalizadas que contienen varios valores en la misma visita.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 74%
@@ -59,7 +59,7 @@ Si se usa el [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), las 
 >
 >El esquema XDM de Adobe contiene objetos `key`, además de objetos `value` en cada matriz `list[]`. Adobe no emplea estos objetos `key` al enviar datos a Adobe Analytics.
 
-Si se usa el [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), las variables de lista usan de `data.__adobe.analytics.list1` a `data.adobe.analytics.list3` según la sintaxis del AppMeasurement. Asegúrese de usar el conjunto de delimitadores correcto en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Si se usa el [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), las variables de lista usan de `data.__adobe.analytics.list1` a `data.adobe.analytics.list3` según la sintaxis de AppMeasurement. Asegúrese de usar el conjunto de delimitadores correcto en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "data": {

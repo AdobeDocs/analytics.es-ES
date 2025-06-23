@@ -1,10 +1,10 @@
 ---
 title: getTimeSinceLastVisit
 description: Mida el tiempo transcurrido entre dos visitas.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
 role: Admin, Developer
-source-git-commit: 2b48ea372a5e0d8589f09d2209373bd4c47be578
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 72%

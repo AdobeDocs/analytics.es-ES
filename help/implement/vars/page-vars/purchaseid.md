@@ -1,10 +1,10 @@
 ---
 title: purchaseID
 description: Anule la duplicación de visitas en función de un identificador de compra único.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 73%
@@ -19,7 +19,7 @@ Cuando Adobe reconoce una visita como una compra duplicada, todos los datos de c
 
 Los ID de compra se aplican a todos los visitantes y caducan pasados 37 meses. Si un visitante establece un ID de compra determinado y un visitante diferente lo establece un año después, se anula la duplicación de la segunda compra.
 
-## ID de compra mediante el SDK web
+## ID de compra mediante Web SDK
 
 El ID de compra está asignado a las siguientes variables:
 
@@ -39,7 +39,7 @@ Puede establecer el ID de compra al configurar la extensión de Analytics (varia
 
 Puede establecer el ID de compra en un valor o elemento de datos. También puede copiar el valor de otra variable de Analytics.
 
-## &quot;s.purchaseID&quot; en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.purchaseID en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.purchaseID` es una cadena que contiene un identificador único para una compra. Se configura en la misma visita que un evento de compra. Utilice únicamente caracteres alfanuméricos para rellenar esta variable.
 

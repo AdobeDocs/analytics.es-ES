@@ -1,10 +1,10 @@
 ---
 title: clearVars
 description: Borre los valores del objeto de instancia.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 67%
@@ -30,9 +30,9 @@ Este método no toma ningún argumento y no devuelve ningún valor. Su único pr
 * `zip`
 * `campaign`
 
-## Borrado de variables mediante el SDK web
+## Borrado de variables mediante Web SDK
 
-Al enviar datos al Adobe mediante el SDK web, todos los datos XDM se borran automáticamente.
+Al enviar datos a Adobe mediante Web SDK, todos los datos XDM se borran automáticamente.
 
 ## Borrado de variables con la extensión Adobe Analytics
 

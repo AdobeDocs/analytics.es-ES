@@ -1,10 +1,10 @@
 ---
 title: referrer
 description: Omisión del referente registrado automáticamente para una visita.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 80%
@@ -15,14 +15,14 @@ ht-degree: 80%
 
 La variable `referrer` omite el referente registrado automáticamente en los informes. Esta variable es útil en situaciones en las que el referente podría perderse, como, por ejemplo, durante redirecciones o reenvíos temporales del visitante a un procesador de pagos. Esta variable ayuda a rellenar las dimensiones “Referente” y “Dominio de referencia”.
 
-## Referente que utiliza el SDK web
+## Referente mediante Web SDK
 
 El referente se asigna a las siguientes variables:
 
 * [objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webReferrer.URL`
 * [Objeto de datos](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.referrer`
 
-El SDK web incluye automáticamente `web.webReferrer.URL` en cada evento enviado, si está disponible.
+Web SDK incluye automáticamente `web.webReferrer.URL` en cada evento enviado, si está disponible.
 
 ## Referente con la extensión de Adobe Analytics
 

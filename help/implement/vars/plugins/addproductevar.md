@@ -1,10 +1,10 @@
 ---
 title: addProductEvar
 description: Agrega eVars de comercialización a la variable products.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 87%
@@ -21,9 +21,9 @@ El complemento `addProductEvar` le permite agregar fácilmente a la variable pro
 >
 >Este complemento no reemplaza a las eVars que ya existen en una entrada de producto. Solo anexa los valores que ha configurado con este complemento. Tenga cuidado al anexar eVars que ya existen para ese producto.
 
-## Instalación del complemento con el SDK web o la extensión del SDK web
+## Instalación del complemento con la extensión Web SDK o Web SDK
 
-Este complemento aún no es compatible con el SDK web.
+Este complemento aún no es compatible con el uso en Web SDK.
 
 ## Instalación del complemento con la extensión de Adobe Analytics
 

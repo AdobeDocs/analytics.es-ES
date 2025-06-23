@@ -1,10 +1,10 @@
 ---
 title: events
 description: Configure la variable “events” (eventos), que gobierna la mayoría de las métricas del sitio.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 3e72235ce1455177efeb21017f61af25d21bd500
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -38,7 +38,7 @@ Si se usa el [objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md), los even
 >
 >Si se establece un evento en `productListItems` (por ejemplo, `productListItems._experience.analytics.event1.value`) y aún no está en este campo, se agregará automáticamente a dicho campo.
 
-Si se usa el [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), todos los eventos utilizarán `data.__adobe.analytics.events`, siguiendo la sintaxis de la cadena de AppMeasurement. Si establece este campo, los eventos establecidos en el objeto XDM se sobrescriben y no se envían a Adobe Analytics.
+Si se usa el [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), todos los eventos utilizarán `data.__adobe.analytics.events`, siguiendo la sintaxis de cadena de AppMeasurement. Si establece este campo, los eventos establecidos en el objeto XDM se sobrescriben y no se envían a Adobe Analytics.
 
 ## Eventos con la extensión de Adobe Analytics
 
@@ -62,7 +62,7 @@ Hay varias funciones disponibles:
 
 La variable `s.events` es una cadena que contiene una lista de eventos delimitada por comas que se pueden incluir en la visita. La variable permite hasta 64.000 bytes, lo que permite de hecho tantos eventos como necesite una visita. Los valores válidos son los siguientes:
 
-* `event1` - `event1000`: Eventos personalizados, establezca lo que desee. Registre cómo se utiliza cada evento en el [documento de diseño de soluciones](../../../prepare/solution-design.md) de su organización. El número de eventos disponibles depende del contrato de Analytics de su organización. La mayoría de las organizaciones con contratos no incluidos tienen disponibles 1000 eventos personalizados. Póngase en contacto con el equipo de cuenta de Adobe si no está seguro de cuántos eventos personalizados tiene a su disposición.
+* `event1` - `event1000`: Eventos personalizados, establezca lo que desee. Registre cómo se utiliza cada evento en el [documento de diseño de soluciones](../../../prepare/solution-design.md) de su organización. El número de eventos disponibles depende del contrato de Analytics de su organización. La mayoría de las organizaciones con contratos no incluidos tienen disponibles 1000 eventos personalizados. Póngase en contacto con el equipo de su cuenta de Adobe si no está seguro de cuántos eventos personalizados tiene a su disposición.
 * `purchase`: Aumenta la métrica [“Pedidos”](/help/components/metrics/orders.md) en 1, y toma los valores establecidos en la variable `products` para calcular [“Unidades”](/help/components/metrics/units.md) e [“Ingresos”](/help/components/metrics/revenue.md). Consulte [Evento de compra](event-purchase.md) para obtener más información.
 * `prodView`: Aumenta la métrica [“Vistas del producto”](/help/components/metrics/product-views.md).
 * `scOpen`: Aumenta la métrica [“Carros de compras”](/help/components/metrics/carts.md).

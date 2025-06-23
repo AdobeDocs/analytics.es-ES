@@ -1,10 +1,10 @@
 ---
 title: linkURL
 description: Omitir la URL del vínculo generado automáticamente que AppMeasurement utiliza en las llamadas de seguimiento de vínculos.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 65%
@@ -17,7 +17,7 @@ Cada vez que se envía una llamada de seguimiento de vínculos a Adobe, los serv
 
 No hay dimensiones en Analysis Workspace que informen sobre esta variable. Rellena la columna `page_event_var1` en [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md).
 
-## Vincular URL mediante el SDK web
+## Vincular URL mediante Web SDK
 
 La dirección URL del vínculo está asignada a las siguientes variables:
 
@@ -28,7 +28,7 @@ La dirección URL del vínculo está asignada a las siguientes variables:
 
 No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.linkURL en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.linkURL en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.linkURL` es una cadena que contiene la dirección URL del explorador cuando se hizo clic en el vínculo. Esta variable no rellena ninguna dimensión disponible en los informes.
 

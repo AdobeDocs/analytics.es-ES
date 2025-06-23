@@ -1,10 +1,10 @@
 ---
 title: forceOffline
 description: Establezca manualmente el estado en línea de AppMeasurement.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 80%
@@ -21,15 +21,15 @@ El método `forceOffline()` permite anular el estado detectado automáticamente 
 
 AppMeasurement detecta automáticamente el estado en línea del dispositivo. Puede utilizar el método `forceOffline()` para obligar a AppMeasurement a tratar las visitas como si el dispositivo estuviera sin conexión. Este método no toma ningún argumento y no devuelve ningún valor. Su único propósito es sobrescribir el estado en línea en AppMeasurement.
 
-## Forzar desconexión mediante el SDK web
+## Forzar desconexión mediante Web SDK
 
-El SDK web no admite el seguimiento sin conexión.
+Web SDK no admite el seguimiento sin conexión.
 
 ## Forzado de la desconexión mediante la extensión Adobe Analytics
 
 No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.forceOffline() en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.forceOffline() en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 Puede llamar al método `s.forceOffline()` desde cualquier lugar de la implementación después de crear una instancia del objeto de Analytics.
 

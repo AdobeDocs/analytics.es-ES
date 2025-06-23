@@ -1,10 +1,10 @@
 ---
 title: productos
 description: Enviar datos sobre qué productos se muestran o están en el carro de compras.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 67%
@@ -19,15 +19,15 @@ La variable `products` rastrea productos y propiedades vinculados a ellos. Esta 
 >
 >Si esta variable se configura en una visita individual sin la variable [`events`](events/events-overview.md), la métrica [Vistas del producto](/help/components/metrics/product-views.md) se incrementa en 1. Asegúrese de establecer los eventos correspondientes en cada visita con la variable `products`.
 
-## Productos que utilizan el SDK web
+## Productos que utilizan Web SDK
 
 Si se usa el [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), los productos se asignan a las siguientes variables:
 
-* La categoría está asignada a `xdm.productListItems[].productCategories[].categoryID`. Utiliza el primer elemento de la matriz `productCategories[]`. `lineItemId` también se asigna correctamente, pero el Adobe recomienda `categoryID` ya que es un XDM estándar. Si ambos campos XDM están presentes, `lineItemId` tiene prioridad.
+* La categoría está asignada a `xdm.productListItems[].productCategories[].categoryID`. Utiliza el primer elemento de la matriz `productCategories[]`. `lineItemId` también se asigna correctamente, pero Adobe recomienda `categoryID` ya que es un XDM estándar. Si ambos campos XDM están presentes, `lineItemId` tiene prioridad.
 * El producto está asignado a `xdm.productListItems[].SKU` o `xdm.productListItems[].name`. Si ambos campos XDM están presentes, se utiliza `xdm.productListItems[].SKU`.
 * La cantidad se ha asignado a `xdm.productListItems[].quantity`.
 * El precio está asignado a `xdm.productListItems[].priceTotal`.
-* Las eVars de comercialización se han asignado a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` y a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, en función del eVar al que desee enlazar un producto.
+* Las eVars de comercialización se han asignado a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` y a `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, en función de qué eVar desee enlazar a un producto.
 * Los eventos de comercialización están asignados a `xdm.productListItems[]._experience.analytics.event1to100.event1.value` a `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, según el evento que desee enlazar a un producto. Si establece un evento en uno de estos campos, se incluirá automáticamente en la cadena [event](events/events-overview.md) enviada a Adobe Analytics.
 
 ```json

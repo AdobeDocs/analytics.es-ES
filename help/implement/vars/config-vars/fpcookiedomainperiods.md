@@ -1,10 +1,10 @@
 ---
 title: fpcookieDomainPeriods
 description: Ayudar a AppMeasurement a comprender qué dominio almacenará cookies si su dominio tiene un punto en su sufijo.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 86%
@@ -22,9 +22,9 @@ La variable `fpCookieDomainPeriods` ayuda a AppMeasurement a determinar dónde s
 >
 >No tenga en cuenta los subdominios para esta variable. Por ejemplo, no configure `fpCookieDomainPeriods` en la URL de ejemplo `store.toys.example.com`. AppMeasurement reconoce de forma predeterminada que las cookies deben almacenarse en `example.com`, incluso en direcciones URL con muchos subdominios.
 
-## Puntos de dominio de origen mediante el SDK web
+## Puntos de dominio de origen mediante Web SDK
 
-El SDK web puede determinar el dominio de almacenamiento de cookies correcto sin esta variable.
+Web SDK puede determinar el dominio de almacenamiento de cookies correcto sin esta variable.
 
 ## Puntos de dominio de origen mediante la extensión de Adobe Analytics
 

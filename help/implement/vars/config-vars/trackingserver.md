@@ -1,10 +1,10 @@
 ---
 title: trackingServer
 description: Determinar la ubicación en la que se envían las solicitudes de imagen.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 52%
@@ -19,24 +19,24 @@ Adobe recopila datos en el sitio mediante la recepción de una solicitud de imag
 >
 >Si se cambia este valor, AppMeasurement buscará cookies en una ubicación diferente. La cantidad de visitantes únicos puede aumentar temporalmente en los informes a medida que las cookies de los visitantes se establecen en la nueva ubicación.
 
-## Dominio de Edge que utiliza la extensión del SDK web
+## Dominio de Edge que utiliza la extensión de Web SDK
 
-El SDK web usa [!UICONTROL dominio de Edge] para administrar tanto el servidor de seguimiento como el servidor de seguimiento seguro. Puede establecer el valor [!UICONTROL dominio de Edge] deseado al configurar la extensión del SDK web.
+Web SDK usa [!UICONTROL dominio de Edge] para administrar tanto el servidor de seguimiento como el servidor de seguimiento seguro. Puede establecer el valor [!UICONTROL dominio de Edge] deseado al configurar la extensión de Web SDK.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad de etiquetas deseada.
 1. Vaya a la pestaña [!UICONTROL Extensions] y, a continuación, haga clic en el botón **[!UICONTROL Configure]** en [!UICONTROL Adobe Experience Platform Web SDK].
 1. Establezca el campo de texto **[!UICONTROL dominio de Edge]** deseado.
 
-Consulte [Configurar la extensión del SDK web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=es) en la documentación del SDK web para obtener más información.
+Consulte [Configurar la extensión de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=es) en la documentación de Web SDK para obtener más información.
 
 >[!TIP]
 >
->Si su organización cambia al SDK web desde una implementación de extensión de AppMeasurement o Analytics, este campo puede utilizar el mismo valor contenido en `trackingServerSecure` (o `trackingServer`).
+>Si su organización se desplaza a Web SDK desde una implementación de extensión de AppMeasurement o Analytics, este campo puede utilizar el mismo valor contenido en `trackingServerSecure` (o `trackingServer`).
 
-## Dominio de Edge que implementa manualmente el SDK web
+## Dominio de Edge que implementa manualmente Web SDK
 
-Configure el SDK con [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es). El campo es una cadena que determina el dominio al que se envían los datos.
+Configure SDK usando [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es). El campo es una cadena que determina el dominio al que se envían los datos.
 
 ```json
 alloy("configure", {
@@ -55,17 +55,17 @@ Servidor de seguimiento es un campo del acordeón [!UICONTROL General] al config
 
 Si este campo se deja en blanco, el valor predeterminado es `[rsid].data.adobedc.net`.
 
-## s.trackingServer en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.trackingServer en el editor de código personalizado de la extensión de AppMeasurement
 
 La variable `s.trackingServer` es una cadena que contiene la ubicación para enviar datos.
 
 ## Consideraciones para determinar el valor de `trackingServer`
 
-Puede elegir utilizar los dominios del servidor de seguimiento de Adobe (por ejemplo, `adobedc.net`) o puede pasar por un proceso especial para configurar un servidor de seguimiento que coincida con el dominio de sus sitios (por ejemplo, `data.mydomain.com`), también conocido como implementación CNAME. Tener un servidor de seguimiento que coincida con el dominio del sitio puede tener algunas ventajas según otros aspectos de la implementación. Cuando el servidor de seguimiento no coincide con el dominio de la página actual, las cookies configuradas por el AppMeasurement deben configurarse como de terceros. Si el explorador no admite cookies de terceros, esta discrepancia puede interferir con ciertas funciones de Analytics:
+Puede elegir utilizar los dominios del servidor de seguimiento de Adobe (por ejemplo, `adobedc.net`) o puede pasar por un proceso especial para configurar un servidor de seguimiento que coincida con el dominio de sus sitios (por ejemplo, `data.mydomain.com`), también conocido como implementación CNAME. Tener un servidor de seguimiento que coincida con el dominio del sitio puede tener algunas ventajas según otros aspectos de la implementación. Cuando el servidor de seguimiento no coincide con el dominio de la página actual, las cookies configuradas por AppMeasurement deben configurarse como de terceros. Si el explorador no admite cookies de terceros, esta discrepancia puede interferir con ciertas funciones de Analytics:
 
-- Configuración de identificadores: Si utiliza el servicio de identidad de Experience Cloud, el servidor de seguimiento no afecta al modo en que se configuran las cookies. Sin embargo, si utiliza identificadores heredados de Analytics (también conocidos como cookie `s_vi`) y el servidor de recopilación no coincide con el dominio actual, las cookies deben configurarse como de terceros. En este caso, si el explorador bloquea las cookies de terceros, Analytics establece un identificador de reserva (`s_fid`) de origen en lugar de la cookie estándar `s_vi`.
+- Configuración de identificadores: Si utiliza el servicio de identidad de Experience Cloud, el servidor de seguimiento no afecta a la forma en que se configuran las cookies. Sin embargo, si utiliza identificadores heredados de Analytics (también conocidos como cookie `s_vi`) y el servidor de recopilación no coincide con el dominio actual, las cookies deben configurarse como de terceros. En este caso, si el explorador bloquea las cookies de terceros, Analytics establece un identificador de reserva (`s_fid`) de origen en lugar de la cookie estándar `s_vi`.
 - El seguimiento de vínculos no funciona para vínculos internos.
-- El Activity Map no funciona para vínculos internos.
+- Activity Map no funciona para vínculos internos.
 - Comprobación de cookies.
 
 ### Cookies de origen

@@ -1,25 +1,26 @@
 ---
 title: ActivityMap.region
-description: Personalice el modo en que el Activity Map recopila la región en la que se hizo clic.
-feature: Variables
+description: Personalice la forma en que Activity Map recopila la región en la que se hizo clic.
+feature: Appmeasurement Implementation
 role: Admin, Developer
-source-git-commit: 1fb57590714ad2412323416289dee967eef07fad
+exl-id: 9bbdb124-b865-4431-8a98-9814c3f2e65c
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # ActivityMap.region
 
-La variable `ActivityMap.region` le permite invalidar la lógica que utiliza el Activity Map para establecer los valores de región. Esta variable es útil en áreas donde desea tener más control del que proporciona [`ActivityMap.regionExclusions`](../config-vars/activitymap-regionexclusions.md).
+La variable `ActivityMap.region` le permite invalidar la lógica que utiliza Activity Map para establecer los valores de región. Esta variable es útil en áreas donde desea tener más control del que proporciona [`ActivityMap.regionExclusions`](../config-vars/activitymap-regionexclusions.md).
 
 >[!CAUTION]
->Esta variable anula completamente la lógica del Activity Map. Si configura una función de anulación aquí que devuelva valores incorrectos, pueden producirse problemas de recopilación de datos con dimensiones de Activity Map y superposición de Activity Map.
+>Esta variable anula completamente la lógica de Activity Map. La configuración de una función de anulación aquí que devuelva valores incorrectos puede causar problemas de recopilación de datos con dimensiones de Activity Map y la superposición de Activity Map.
 
-## Omisión de los valores de región mediante el SDK web
+## Omisión de los valores de región mediante Web SDK
 
-Puede usar la llamada de retorno [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) para alterar la carga útil del SDK web o anular el envío de datos.
+Puede usar la llamada de retorno [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) para alterar la carga útil de Web SDK o anular el envío de datos.
 
 ## Anulación de región mediante la extensión de Adobe Analytics
 
@@ -30,9 +31,9 @@ No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar 
 Asigne esta variable a una función que:
 
 * Recibe el elemento HTML donde se hizo clic; y
-* Devuelve un valor de cadena. Este valor de cadena es el valor final utilizado para la dimensión [Región del Activity Map](/help/components/dimensions/activity-map-region.md).
+* Devuelve un valor de cadena. Este valor de cadena es el valor final usado para la dimensión [Región de Activity Map](/help/components/dimensions/activity-map-region.md).
 
-Si el valor devuelto es [falsy](https://developer.mozilla.org/es-ES/docs/Glossary/Falsy), todas las variables de datos de contexto del Activity Map se borran y no se realiza un seguimiento de los datos del vínculo.
+Si el valor devuelto es [falsy](https://developer.mozilla.org/es-ES/docs/Glossary/Falsy), todas las variables de datos de contexto de Activity Map se borran y no se realiza un seguimiento de los datos del vínculo.
 
 ## Ejemplos
 

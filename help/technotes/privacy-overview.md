@@ -2,12 +2,12 @@
 description: Información general sobre los datos que recopila Adobe Analytics y otras consideraciones de privacidad.
 keywords: privacidad
 title: Resumen de privacidad
-feature: Privacy
+feature: Data Governance
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '978'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -53,4 +53,4 @@ Consulte el menú de navegación debajo de [Información general sobre dimension
 
 ## Ubicaciones de procesamiento de datos
 
-Adobe mantiene tres ubicaciones de procesamiento de datos para Adobe Analytics. Estos sitios reciben datos sin procesar y los procesan en un grupo de informes, que está optimizado para el almacenamiento de datos y la recuperación de informes. Estas ubicaciones de procesamiento de datos residen actualmente en Estados Unidos (Oregón), Reino Unido (Londres) y Singapur. Consulte [Información general de seguridad de Adobe Analytics](https://www.adobe.com/content/dam/cc/es/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} para obtener más información.
+Adobe mantiene tres ubicaciones de procesamiento de datos para Adobe Analytics. Estos sitios reciben datos sin procesar y los procesan en un grupo de informes, que está optimizado para el almacenamiento de datos y la recuperación de informes. Estas ubicaciones de procesamiento de datos residen actualmente en Estados Unidos (Oregón), Reino Unido (Londres) y Singapur. Consulte [Información general sobre la seguridad de Adobe Analytics](https://www.adobe.com/content/dam/cc/es/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} para obtener más información.

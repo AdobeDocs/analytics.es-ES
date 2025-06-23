@@ -1,10 +1,10 @@
 ---
 title: linkExternalFilters
 description: Utilice la variable linkExternalFilters para ayudar al seguimiento automático de vínculos de salida.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 91%
@@ -40,7 +40,7 @@ El campo Rastrear es una lista de filtros separados por comas (generalmente domi
 
 Coloque los filtros que desee considerar siempre externos en este campo. Separe varios dominios con una coma sin espacios.
 
-## s.linkExternalFilters en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.linkExternalFilters en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.linkExternalFilters` es una cadena que contiene filtros (como dominios) que se consideran vínculos de salida. Separe varios dominios con una coma sin espacios.
 

@@ -1,10 +1,10 @@
 ---
 title: pageURL
 description: Omitir la dirección URL de la página registrada automáticamente en el sitio.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 79%
@@ -19,7 +19,7 @@ AppMeasurement registra automáticamente la dirección URL de la página en cada
 >
 >Esta variable no es una dimensión disponible en Analysis Workspace. Solo está disponible en Data Warehouse y en Data Feeds. Además, los servidores de recopilación de datos de Adobe eliminan esta dimensión de todas las solicitudes de imagen de [seguimiento de vínculos](/help/implement/vars/functions/tl-method.md). Si desea utilizar la dirección URL de la página como dimensión en Analysis Workspace o desea tener esta dimensión en las visitas de seguimiento de vínculos, considere pasar la variable `pageURL` a una [eVar](evar.md) en cada visita.
 
-## Dirección URL de la página mediante el SDK web
+## Dirección URL de la página mediante Web SDK
 
 La dirección URL de la página está asignada a las siguientes variables:
 
@@ -39,7 +39,7 @@ La extensión de Analytics en la recopilación de datos de Adobe Experience Plat
 
 Puede establecer la dirección URL de la página en cualquier valor de cadena.
 
-## s.pageURL en el AppMeasurement y el editor de código personalizado de la extensión de Analytics
+## s.pageURL en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 La variable `s.pageURL` es una cadena que contiene la dirección URL de la página. AppMeasurement registra automáticamente esta variable, aunque puede anular su valor si lo desea.
 

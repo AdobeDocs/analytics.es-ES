@@ -1,10 +1,10 @@
 ---
 title: Evento de compra
 description: Utilice el evento de compra para recopilar datos de las métricas “Pedidos”, “Unidades” e “Ingresos”.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 70%
@@ -25,7 +25,7 @@ Al configurar un evento de compra, este afecta a las siguientes métricas:
 >
 >Los ingresos no se multiplican por el campo de cantidad. Por ejemplo, `s.products="Womens;Socks;5;4.50"` no pasa 22,50 $ a los ingresos, sino que pasa 4,50 $. Asegúrese de que la implementación pasa los ingresos totales en relación con la cantidad enumerada. Por ejemplo, `s.products="Womens;Socks;5;22.50"`.
 
-## Configuración del evento de compra mediante el SDK web
+## Configuración del evento de compra mediante Web SDK
 
 Si se usa el [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), el evento de compra utilizará los siguientes campos XDM:
 
@@ -45,7 +45,7 @@ Si se usa el [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), el e
 }
 ```
 
-Si se usa el [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), el evento de compra usa `data.__adobe.analytics.events`, siguiendo la sintaxis de la cadena de AppMeasurement.
+Si se usa el [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), el evento de compra usa `data.__adobe.analytics.events`, siguiendo la sintaxis de cadena de AppMeasurement.
 
 ```json
 {
@@ -70,7 +70,7 @@ Si se usa el [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md)
 
 Otras variables dependientes como `products` y `purchaseID` no tienen campos dedicados en la extensión de Analytics en la recopilación de datos de Adobe Experience Platform. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement para estas variables.
 
-## Configure el evento de compra en AppMeasurement y el editor de código personalizado de la extensión de Analytics.
+## Configure el evento de compra en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
 El evento de compra es una cadena que se establece como parte de la variable de eventos.
 

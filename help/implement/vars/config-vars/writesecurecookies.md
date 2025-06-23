@@ -1,10 +1,10 @@
 ---
 title: writeSecureCookies
 description: Permite a AppMeasurement establecer cookies con el atributo Secure.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 76%
@@ -23,9 +23,9 @@ Obtenga más información acerca de las cookies de Analytics [aquí](https://exp
 >
 >Si habilita la variable `writeSecureCookies`, asegúrese de que todo el contenido del sitio se suministre de forma segura a través de HTTPS. La recopilación de datos no funciona correctamente si esta variable está habilitada y tiene contenido no seguro en la página.
 
-## Uso de cookies seguras con el SDK web
+## Uso de cookies seguras con Web SDK
 
-Si su sitio utiliza el protocolo HTTPS, el atributo Secure se establece para todas las cookies que establece el SDK web.
+Si su sitio utiliza el protocolo HTTPS, el atributo Secure se establece para todas las cookies que establece Web SDK.
 
 ## Escribir cookies seguras mediante la extensión de Adobe Analytics
 
