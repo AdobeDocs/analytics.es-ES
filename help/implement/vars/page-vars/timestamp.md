@@ -21,7 +21,7 @@ La variable `timestamp` establece manualmente la marca de tiempo de la visita en
 
 ## Marca de tiempo mediante Web SDK
 
-La marca de tiempo está [asignada para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) en el campo XDM `xdm.timestamp`. Este campo solo admite Tiempo Unix.
+La marca de tiempo está [asignada para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=es) en el campo XDM `xdm.timestamp`. Este campo solo admite Tiempo Unix.
 
 ## Marca de tiempo con la extensión Adobe Analytics
 
