@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y su versión heredada, y Activity Map.
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
-source-wordcount: '956'
-ht-degree: 100%
+source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
+workflow-type: tm+mt
+source-wordcount: '966'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
    + [¿Qué herramienta de Adobe Analytics debo usar?](get-started/which-analytics-tool.md)
    + [Comparación de productos y requisitos de Analytics](get-started/analytics-product-comparison.md)
    + [Requisitos del sistema](get-started/sys-reqs.md)
-+ [Página de aterrizaje](landing.md)
++ [Página de destino](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Información general sobre Analysis Workspace](analysis-workspace/home.md)
    + Proyectos {#build-workspace-project}
@@ -171,7 +171,9 @@ ht-degree: 100%
    + [Trabajar con segmentos](report-builder/work-with-segments.md)
    + [Filtrar dimensiones](report-builder/filter-dimensions.md)
    + [Administrar bloques de datos](report-builder/manage-reportbuilder.md)
-   + [Programar libros de trabajo](report-builder/schedule-reportbuilder.md)
+   + [Programar libros para correo electrónico](report-builder/schedule-reportbuilder.md)
+   + [Programar libros para exportaciones en la nube](/help/analyze/report-builder/report-builder-export.md)
+   + [Administrar libros programados](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Etiquetas restringidas](report-builder/restricted-labels.md)
    + [Configuración de Report Builder](report-builder/report-builder-settings.md)
 + Report Builder heredado {#legacy-report-builder}

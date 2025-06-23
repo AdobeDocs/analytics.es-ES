@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Administrador de ubicaciones
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1490'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,7 @@ El Administrador de ubicaciones le permite ver, crear, editar o eliminar cuentas
 
 * Exportando archivos mediante [fuentes de datos](/help/export/analytics-data-feed/create-feed.md)
 * Exportando informes con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exportando archivos al usar [Report Builder](/help/analyze/report-builder/report-builder-export.md)
 * Importando esquemas utilizando [conjuntos de clasificaciones](/help/components/classifications/sets/overview.md)
 
 ## Ver, filtrar y buscar ubicaciones
@@ -46,7 +47,7 @@ Las siguientes columnas están disponibles en el administrador Ubicaciones. Para
 * **[!UICONTROL Nombre de ubicación]**: El nombre de ubicación. Seleccione el menú de 3 puntos junto al nombre de una ubicación para [editar la ubicación](/help/components/locations/configure-import-locations.md) o eliminarla.
 * **[!UICONTROL Tipo de ubicación]**: Tipo de cuenta asociada con la ubicación.
 * **[!UICONTROL Cuenta]**: La cuenta específica asociada con la ubicación.
-* **Aplicación**: El tipo de aplicación con la que se puede usar la ubicación (como Fuentes de datos, Data Warehouse o conjuntos de clasificaciones).
+* **Aplicación**: El tipo de aplicación con la que se puede usar la ubicación (como Fuentes de datos, Data Warehouse o Conjuntos de clasificaciones).
 * **[!UICONTROL Último uso]**: La fecha en la que se usó la ubicación por última vez.
 * **[!UICONTROL Creado por]**: El usuario que creó la ubicación.
 * **[!UICONTROL Fecha de creación]**: La fecha en que se creó la ubicación.
@@ -171,7 +172,7 @@ Puede limitar los tipos de cuenta que ven los usuarios en las siguientes circuns
 
 * Al [crear nuevas cuentas](/help/components/locations/configure-import-accounts.md).
 
-* Al elegir qué cuentas usar al exportar archivos con [Fuentes de datos](/help/export/analytics-data-feed/create-feed.md), exportar informes con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o importar esquemas con [Conjuntos de clasificaciones](/help/components/classifications/sets/overview.md).
+* Al elegir qué cuentas usar al exportar archivos usando [Fuentes de datos](/help/export/analytics-data-feed/create-feed.md), exportar informes usando [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o importar esquemas usando [Conjuntos de clasificación](/help/components/classifications/sets/overview.md).
 
 Al limitar los tipos de cuenta como se describe en esta sección, los usuarios ya no podrán ver las cuentas del tipo que limite. Esto significa que no se pueden crear nuevas cuentas de ese tipo y que no se pueden usar las cuentas existentes de ese tipo al crear fuentes de datos, Data Warehouse o conjuntos de clasificaciones.
 
@@ -207,9 +208,9 @@ Para limitar los tipos de cuentas disponibles para los usuarios al crear y utili
 
    * [!UICONTROL **ARN de la función Amazon S3**]
 
-   * [!UICONTROL **Plataforma de Google Cloud**]
+   * [!UICONTROL **Google Cloud Platform**]
 
-   * [!UICONTROL **SAS de Azure**]
+   * [!UICONTROL **Azure SAS**]
 
    * [!UICONTROL **Azure RBAC**]
 

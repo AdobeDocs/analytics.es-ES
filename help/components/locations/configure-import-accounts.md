@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configuración de cuentas de importación y exportación de nube
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 8a9c51d46195737b5321cc617913261c059f651d
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1476'
 ht-degree: 56%
 
 ---
@@ -23,6 +23,7 @@ Puede configurar una cuenta de nube que se utilice para uno o todos los fines si
 
 * Exportando archivos mediante [fuentes de datos](/help/export/analytics-data-feed/create-feed.md)
 * Exportando informes con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exportando archivos al usar [Report Builder](/help/analyze/report-builder/report-builder-export.md)
 * Importando esquemas utilizando [conjuntos de clasificaciones](/help/components/classifications/sets/overview.md)
 
 Debe configurar Adobe Analytics con la información necesaria para acceder a su cuenta de la nube. Este proceso consiste en agregar y configurar la cuenta (como el ARN de la función de Amazon S3, Google Cloud Platform, etc.) tal como se describe en este artículo y, a continuación, agregar y configurar la ubicación dentro de esa cuenta (como una carpeta dentro de la cuenta) tal como se describe en [Configurar ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md).
@@ -39,7 +40,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    Se muestra el cuadro de diálogo [!UICONTROL **Detalles de cuenta de ubicación**].
 
-   O
+   O bien
 
    Para editar una cuenta existente, localice la cuenta que desee editar y luego seleccione el botón [!UICONTROL **Editar detalles**].
 
@@ -49,7 +50,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Nombre de cuenta de ubicación**] | El nombre de la cuenta de ubicación. Este nombre aparece al crear una ubicación |
+   | [!UICONTROL **Nombre de cuenta de ubicación**] | El nombre de la cuenta de ubicación. Este nombre aparece al crear una ubicación  |
    | [!UICONTROL **Descripción de cuenta de ubicación**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. |
    | [!UICONTROL **Poner la cuenta a disposición de todos los usuarios de su organización**] | Active esta opción para permitir que otros usuarios de su organización utilicen la cuenta.<p>Tenga en cuenta lo siguiente al compartir cuentas:</p><ul><li>Las cuentas que comparta no se pueden dejar de compartir.</li><li>Solo el propietario de la cuenta puede editar las cuentas compartidas.</li><li>Cualquiera puede crear una ubicación para la cuenta compartida.</li></ul> |
    | [!UICONTROL **Tipo de cuenta**] | Seleccione el tipo de cuenta en la nube. Le recomendamos que tenga una sola cuenta para cada tipo de cuenta, con varias ubicaciones según sea necesario dentro de esa cuenta.<p>Los administradores del sistema pueden limitar los tipos de cuentas que los usuarios pueden crear, tal como se describe en [Configurar si los usuarios pueden crear cuentas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Si no puede crear cuentas como se describe en esta sección, póngase en contacto con el administrador del sistema.</p> |
@@ -60,7 +61,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    **Tipos de cuenta**
 
-   +++ARN de la función Amazon S3
+   ARN de la función +++Amazon S3
 
    Para configurar una cuenta ARN de la función Amazon S3, especifique la siguiente información:
 
@@ -70,7 +71,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Google Cloud Platform
 
@@ -82,7 +83,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Azure SAS
 
@@ -92,13 +93,13 @@ Para configurar una cuenta de importación o exportación de nube:
    |---------|----------|
    | [!UICONTROL **ID de aplicación**] | Copie este ID de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Información general** dentro de la aplicación. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
    | [!UICONTROL **ID de inquilino**] | Copie este ID de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Información general** dentro de la aplicación. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **URI de almacén de claves**] | <p>Ruta al token SAS en Azure Key Vault.  Para configurar Azure SAS, debe almacenar un token SAS como secreto mediante Azure Key Vault. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Una vez creado el URI del almacén de claves, agregue una directiva de acceso en el almacén de claves para conceder permiso a la aplicación de Azure que ha creado. Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo asignar una directiva de acceso de Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+   | [!UICONTROL **URI de almacén de claves**] | <p>Ruta al token SAS en Azure Key Vault.  Para configurar Azure SAS, debe almacenar un token SAS como secreto mediante Azure Key Vault. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Una vez creado el URI del almacén de claves, agregue una directiva de acceso en el almacén de claves para conceder permiso a la aplicación de Azure que ha creado. Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo asignar una directiva de acceso de almacén de claves](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
    | [!UICONTROL **Nombre secreto del almacén de claves**] | El nombre secreto que creó al agregar el secreto a Azure Key Vault. En Microsoft Azure, esta información se encuentra en el almacén de claves que creó, en la página de configuración de **almacén de claves**. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
    | [!UICONTROL **Secreto de cuenta de ubicación**] | Copie el secreto de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Certificados y secretos** dentro de la aplicación. Para obtener más información, consulte la [Documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Azure RBAC
 
@@ -112,7 +113,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++Correo electrónico
 
@@ -128,7 +129,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    **Tipos de cuentas heredadas**
 
@@ -136,7 +137,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    +++FTP
 
-   Los datos de las fuentes de datos se pueden entregar en un Adobe o en una ubicación FTP alojada por el cliente. Se necesita un host FTP, un nombre de usuario y una contraseña. Utilice el campo de ruta para colocar los archivos de fuente en una carpeta. Las carpetas ya deben existir, las fuentes generan un error si la ruta de acceso especificada no existe.
+   Los datos de las fuentes de datos se pueden entregar en una ubicación de Adobe o de FTP alojado por el cliente. Se necesita un host FTP, un nombre de usuario y una contraseña. Utilice el campo de ruta para colocar los archivos de fuente en una carpeta. Las carpetas ya deben existir, las fuentes generan un error si la ruta de acceso especificada no existe.
 
    | Campo | Función |
    |---------|----------|
@@ -147,13 +148,13 @@ Para configurar una cuenta de importación o exportación de nube:
 
    {style="table-layout:auto"}
 
-   +++
++++
 
    +++SFTP
 
    La compatibilidad con SFTP para fuentes de datos está disponible. Se necesita un host SFTP, un nombre de usuario y el sitio de destino para contener una clave pública RSA o DSA válida. Puede descargar la clave pública adecuada al crear la fuente.
 
-   +++
++++
 
    +++S3
 
@@ -188,7 +189,7 @@ Para configurar una cuenta de importación o exportación de nube:
    >
    >No se admite la región cn-north-1.
 
-   +++
++++
 
    +++blob de Azure
 
@@ -198,7 +199,7 @@ Para configurar una cuenta de importación o exportación de nube:
    >
    >Debe implementar su propio proceso para administrar el espacio en disco en el destino del almacén de datos. Adobe no elimina ningún dato del servidor.
 
-   +++
++++
 
 1. Seleccione [!UICONTROL **Guardar**].
 

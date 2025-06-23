@@ -6,14 +6,18 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 9ece9f6fcebdf308b6218aa50ab78af4f75ee8e7
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 76%
+source-wordcount: '858'
+ht-degree: 69%
 
 ---
 
-# Programar libros de trabajo
+# Programar libros compartiéndolos por correo electrónico
+
+>[!NOTE]
+>
+>Además de programar libros para compartirlos por correo electrónico, como se describe en esta sección, puede programar libros para que se exporten a destinos en la nube, como se describe en [Programar libros para exportarlos a destinos en la nube](/help/analyze/report-builder/report-builder-export.md).
 
 Después de guardar un libro y completar el análisis, puede compartir fácilmente el libro con otros integrantes del equipo mediante la función de programación. La función Programación permite crear una programación que actualice automáticamente los datos del libro y envíe el archivo .xlsx del libro de Excel como datos adjuntos a la audiencia especificada en una fecha y hora específicas. La configuración de una programación proporciona a los destinatarios actualizaciones regulares de forma automática. También puede utilizar la función de programación para enviar el libro una vez sin programar actualizaciones automáticas.
 
@@ -24,14 +28,14 @@ La función Programación también permite configurar la protección con contras
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Programar libros](https://video.tv.adobe.com/v/3417503?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Programar libros](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 ## Programar un libro
 
-Utilice el botón Programar del centro de Report Builder para crear rápidamente una programación de modo que pueda distribuir automáticamente un archivo de Excel de libro (.xlsx) a un individuo o grupo.
+Utilice el botón Programar del concentrador de Report Builder para crear rápidamente una programación de modo que pueda distribuir automáticamente un archivo de Excel de libro (.xlsx) a un individuo o grupo.
 
 1. Haga clic en el botón Programar en el centro del Report Builder.
 
@@ -77,7 +81,7 @@ Utilice el botón Programar del centro de Report Builder para crear rápidamente
 
    ![Haga clic en Enviar según lo programado.](./assets/send-on-schedule.png){width="55%"}
 
-   Verá una notificación de confirmación en la parte inferior del centro de Report Builder y el libro programado se mostrará en la pestaña Libros.
+   Verá un mensaje de confirmación en la parte inferior de Report Builder hub y el libro programado se mostrará en la pestaña Libros.
 
    ![Mensaje de confirmación](./assets/confirmation-toast.png){width="55%"}
 
@@ -104,44 +108,6 @@ También puede enviar el libro solo una vez.
 
 1. Haga clic en **Enviar ahora**.
 
-## Ver y editar libros programados {#view-edit}
+## Administrar libros programados
 
-Puede ver y administrar todos los libros programados en un mismo lugar en la pestaña Libros.
-
-1. En la sección Programación del centro de Report Builder, haga clic en la pestaña Libros. Utilice esta vista para ver una lista de todos los libros programados.
-
-1. Seleccione un libro. Se muestran varias herramientas que le permiten editar el libro, editar la tarea de programación, pausar y reiniciar la tarea de programación, descargar un informe de tarea programada o eliminar la tarea de programación.
-
-   ![Captura de pantalla que muestra los iconos de programación del libro.](./assets/schedule-icons.png){width="20%"}
-
-* (Opcional) Haga clic en el icono de lápiz para editar la tarea de programación del libro.
-
-* (Opcional) Haga clic en el icono de reloj para ver el historial de cada tarea programada.
-
-* (Opcional) Haga clic en el icono de pausa para pausar y reiniciar la tarea de programación de distribución. Esto resulta útil si necesita modificar el libro antes de enviarlo. Vuelva a hacer clic en el icono de pausa cuando desee reiniciar la distribución.
-
-* (Opcional) Haga clic en el icono de descarga para descargar una copia de la tarea de programación del libro.
-
-* (Opcional) Haga clic en la papelera para eliminar la tarea programada.
-
-  ![Captura de pantalla que muestra la lista de tareas programadas.](./assets/selected-workbook.png){width="40%"}
-
-## Revisar el estado de las tareas programadas {#status}
-
-La vista de historial permite revisar el estado de cada tarea programada. Hay una fila independiente que documenta el cambio de estado para cada tarea programada. En el ejemplo que se muestra a continuación, *Nuevo programa por hora* se inició el 5 de enero a las 15:04. A las 15:05 se actualizó correctamente y se envió a los destinatarios. Con el libro siguiente, *Libro incorrecto*, se ha generado un error durante el proceso de actualización. Si un libro no se ha podido enviar, la pestaña del historial le ayuda a solucionar problemas al mostrar en qué parte del proceso se produjo el error. En este caso, es probable que se deba a algún error de bloque de datos, tal vez a un componente que falta, que evitó que el libro se actualizara correctamente.
-
-Una marca de verificación verde indica que el libro se envió correctamente. Un signo de exclamación en un triángulo rojo indica que se ha producido un error.
-
-Puede elegir las columnas que quiere mostrar en la pestaña historial haciendo clic en el icono de configuración de columnas, a la derecha de la barra de búsqueda.
-
-![Haga clic en el icono de columna para mostrar u ocultar columnas específicas.](./assets/history.png){width="55%"}
-
-Puede filtrar el historial para ver solo el de un único libro programado. Para ello, vaya a la pestaña Libros, seleccione el libro y haga clic en el icono de historial.
-
-También puede ver el historial de un libro específico desde la pestaña Libros. En la pestaña Libros, seleccione el libro y haga clic en el icono de historial.
-
-![Icono del historial de libros](./assets/history2.png){width="55%"}
-
-El filtro de libro aparece en la parte superior del historial. Para volver a ver el historial de todas las tareas programadas, haga clic en la X junto al filtro.
-
-![El filtro del libro.](./assets/history3.png){width="55%"}
+Para obtener información acerca de la administración de libros que ya están programados, vea [Administrar libros programados](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
