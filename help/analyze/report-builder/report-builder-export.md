@@ -5,13 +5,13 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
+exl-id: 5829482b-3a5e-416b-9c82-404face30b29
+source-git-commit: ecb08c3d9dfe7394ecff5415c08be7a38b0cba6a
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 29%
 
 ---
-
 
 # Programar libros exportándolos a destinos en la nube
 
@@ -33,15 +33,7 @@ Utilice el siguiente proceso al exportar libros de Report Builder a la nube:
 
 1. [Exportación de un informe desde Report Builder](#export-a-report-from-report-builder)
 
-<!--
-
-1. Access data in your cloud account and [Manage exports in Adobe](/help/components/exports/manage-exports.md)
-
-![The export process described in steps 1 through 4.](assets/report-builder-export-process.png)
-
--->
-
-## Exportación de un informe desde Report Builder {#export-from-report-builder}
+## Exportación de un informe desde Report Builder
 
 >[!NOTE]
 >
@@ -92,7 +84,7 @@ Para exportar informes desde Report Builder:
 
    Verá un mensaje de confirmación en la parte inferior de Report Builder hub y el libro programado se mostrará en la pestaña Libros.
 
-## Ventajas de exportar a la nube {#advantages}
+## Ventajas de exportar a la nube
 
 Exportar los datos de Adobe Analytics a la nube le permite:
 
@@ -133,4 +125,3 @@ After data is exported from Analysis Workspace, you can edit, re-export, duplica
 ## Administrar libros programados
 
 Para obtener información acerca de la administración de libros que ya están programados, vea [Administrar libros programados](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
-
