@@ -46,7 +46,7 @@ Le permite:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de flujo](https://video.tv.adobe.com/v/3410740?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de flujo](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ Cada columna puede mostrar una dimensión distinta. Arrastre una dimensión y su
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funcionalidad adicional en la visualización de flujo](https://video.tv.adobe.com/v/328102?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funcionalidad adicional en la visualización de flujo](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
