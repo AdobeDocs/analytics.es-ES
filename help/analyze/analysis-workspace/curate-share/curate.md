@@ -5,16 +5,16 @@ title: Depurar proyectos de
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 98%
+source-wordcount: '560'
+ht-degree: 65%
 
 ---
 
 # Depurar proyectos de
 
-La depuración permite limitar los componentes (dimensiones, métricas, segmentos e intervalos de fechas) antes de compartir un proyecto. Cuando un destinatario abre el proyecto, verá un conjunto limitado de componentes que ha seleccionado para ellos. La depuración es un paso opcional pero recomendado antes de compartir un proyecto.
+La depuración permite limitar los componentes (dimensiones, métricas, segmentos e intervalos de fechas) antes de compartir un proyecto. Cuando un destinatario abre el proyecto, ve un conjunto limitado de componentes que ha seleccionado para ellos. La depuración es un paso opcional pero recomendado antes de compartir un proyecto.
 
 >[!NOTE]
 > Los perfiles de productos son el mecanismo principal que controla los componentes que puede ver un usuario. Se administran a través de Admin Console en Adobe Experience Cloud. La depuración es un filtro secundario.
@@ -22,52 +22,51 @@ La depuración permite limitar los componentes (dimensiones, métricas, segmento
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Depurar proyectos](https://video.tv.adobe.com/v/328104?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Depurar proyectos](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 ## Aplicar depuración de proyecto
 
-1. Haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos del proyecto]**.
-Los componentes que se utilizan en el proyecto se añadirán automáticamente.
-   **Nota**: Si un proyecto tiene varios grupos de informes, verá un campo de selección para cada grupo de informes en el proyecto.
-1. (Opcional) Para agregar más componentes, arrastre los componentes que desee compartir desde el carril izquierdo al campo [!UICONTROL Depurar componentes].
-1. Haga clic en **[!UICONTROL Finalizado]**.
+1. Seleccione **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos de proyectos]**.
+Los componentes que se utilizan en el proyecto se añaden automáticamente.
+Si un proyecto tiene varios grupos de informes, verá un destino de colocación depurada para cada grupo de informes en el proyecto.
+1. (Opcional) Para agregar más componentes, arrastre los componentes que desee compartir desde el panel izquierdo a la zona de colocación de **[!UICONTROL Depurar componentes]** para la vista de datos.
+1. Seleccione **[!UICONTROL Listo]**.
 
-La depuración también se puede aplicar desde el menú [!UICONTROL Compartir] haciendo clic en **[!UICONTROL Depurar y Compartir]**. Esta opción depura automáticamente el proyecto en los componentes que se utilizan en el proyecto. Puede agregar componentes adicionales siguiendo los pasos anteriores.
+La depuración también se puede aplicar desde el menú [!UICONTROL Compartir] seleccionando **[!UICONTROL Depurar y compartir]**. Esta opción depura automáticamente el proyecto en los componentes que se utilizan en el proyecto. Puede agregar componentes adicionales siguiendo los pasos anteriores.
 
 ![](assets/curation-field.png)
 
-## Vista de un proyecto depurado
+Cuando un destinatario abre un proyecto depurado, solo ve el conjunto depurado de componentes que ha definido:
 
-Cuando un destinatario abre un proyecto depurado, solo verá el conjunto depurado de componentes que haya definido:
-
-![](assets/curate-project.png)
 
 ## Eliminar depuración del proyecto
 
 Para eliminar la depuración del proyecto y restaurar el conjunto completo de componentes en el carril izquierdo:
 
-1. Haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos del proyecto]**.
-1. Haga clic en **[!UICONTROL Eliminar depuración]**.
-1. Haga clic en **[!UICONTROL Finalizado]**.
+1. Seleccione **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos de proyectos]**.
+1. Seleccione **[!UICONTROL Quitar revisión]**.
+1. Seleccione **[!UICONTROL Listo]**.
 
 ## Depuración del grupo de informes virtuales
 
-Para aplicar la depuración a nivel de grupo de informes, de modo que se aplique a muchos proyectos a la vez, puede [depurar componentes en un grupo de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=es).
+Para aplicar la depuración a nivel de grupo de informes, de modo que se aplique a muchos proyectos a la vez, puede [depurar componentes en un grupo de informes virtuales](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components).
 
 >[!NOTE]
-> La depuración de grupos de informes virtuales siempre se aplica antes de la depuración de proyectos. Esto significa que, aunque el proyecto depurado incluya determinados componentes, se filtrarán si los grupos de informes virtuales depurados no los incluyen.
+>
+> La depuración de grupos de informes virtuales siempre se aplica antes de la depuración de proyectos. Aunque el proyecto depurado incluya determinados componentes, se filtrarán si el grupo de informes virtuales depurado no incluye estos componentes.
+> 
 
-## Opción Mostrar todos los componentes
+## Opciones de depuración de componentes
 
-En un proyecto depurado o grupo de informes virtual, el destinatario tendrá la opción de **[!UICONTROL Mostrar todos]** los componentes en el carril izquierdo. [!UICONTROL Mostrar todo] revela diferentes conjuntos de componentes, según:
+En un proyecto depurado o grupo de informes virtuales, el destinatario tiene la opción de **[!UICONTROL Mostrar todos]** los componentes en el carril izquierdo. [!UICONTROL Mostrar todo] revela diferentes conjuntos de componentes, según:
 
 * Nivel de permiso del usuario (administrador o no administrador)
 * Función del proyecto (propietario/editor o no)
 * Tipo de depuración aplicada (grupo de informes virtual o proyecto)
-* Componentes propiedad del usuario o que el usuario ha compartido. Entre los componentes propios o compartidos se incluyen los segmentos, las métricas calculadas y los intervalos de fechas. No incluyen componentes implementados como, por ejemplo, eVars, props y eventos personalizados.
+* Componentes propiedad del usuario o que el usuario ha compartido. Entre los componentes propios o compartidos se incluyen los segmentos, las métricas calculadas y los intervalos de fechas. No incluyen componentes implementados, como eVars, props y eventos personalizados.
 
 Nota: Las funciones de vista que no son de administración no tendrán acceso al carril izquierdo del proyecto, por lo que se han omitido de la tabla siguiente.
 

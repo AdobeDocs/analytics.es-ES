@@ -4,58 +4,51 @@ keywords: Métricas calculadas; métricas calculadas avanzadas
 title: Métricas calculadas y calculadas avanzadas
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 36%
 
 ---
 
-# Métricas calculadas y calculadas avanzadas
+# Información general sobre las métricas calculadas
 
-Las métricas calculadas y las calculadas avanzadas se pueden personalizar a partir de las métricas existentes.
+Métricas calculadas y personalizadas que se pueden crear a partir de métricas existentes.
 
-Nuestras herramientas de métricas calculadas ofrecen una forma muy flexible de crear, administrar y ajustar métricas. Como expertos en marketing, gestores de productos y analistas, les permite plantear preguntas acerca de los datos sin tener que cambiar su implementación de [!DNL Analytics] En cada paquete de [!DNL Analytics] están disponibles las siguientes métricas personalizadas:
+Las métricas calculadas ofrecen una forma muy flexible de crear, administrar y ajustar métricas. Las métricas calculadas le permiten, como expertos en marketing, gestores de productos y analistas, plantear preguntas acerca de los datos sin tener que cambiar su implementación de [!DNL Analytics].
 
-* Adobe [!DNL Analytics] Foundation: calculadas
-* [Adobe Analytics Select](https://www.adobe.com/es/data-analytics-cloud/analytics/select.html): calculadas + calculadas avanzadas
-* [Adobe Analytics Prime](https://www.adobe.com/es/data-analytics-cloud/analytics/prime.html): calculadas + calculadas avanzadas
-* [Adobe Analytics Ultimate](https://www.adobe.com/es/data-analytics-cloud/analytics/ultimate.html): calculadas + calculadas avanzadas
+Las métricas calculadas están disponibles en cada paquete [!DNL Analytics], pero el paquete de Adobe Analytics Foundation para Experience Cloud se limita a métricas calculadas básicas que incluyen [tipos de formato (decimal, tiempo, porcentaje, moneda)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), [cambios de asignación (predeterminada, lineal, de participación, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [tipos de métrica (estándar, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) y [operadores básicos](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (sumar, restar, multiplicar y dividir).
 
-A continuación se muestra una comparación entre las competencias de las métricas calculadas y las métricas calculadas avanzadas:
 
-| Opciones de Builder | Métricas calculadas  | Métricas calculadas avanzadas |
-|---|---|---|
-| [Tipos de formato (decimal, tiempo, porcentaje, moneda)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Sí | Sí |
-| [Cambios de atribución (predeterminado, lineal, de participación, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sí | Sí |
-| [Tipos de métrica (estándar, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Sí | Sí |
-| Operadores básicos (sumar, restar, multiplicar, dividir) | Sí | Sí |
-| [Aplicar segmentos](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | No | Sí |
-| [Funciones básicas (recuento, valor absoluto, media, etc.)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | No | Sí |
-| [Funciones avanzadas (regresión, si/entonces, unidad tipificada, etc.)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | No | Sí |
+Consulte la [Descripción de producto de Adobe Analytics](https://helpx.adobe.com/es/legal/product-descriptions/adobe-analytics.html) para obtener más información.
+
+<!--
+Here is a comparison of calculated metrics and advanced calculated metrics capabilities: 
+
+| [Format types (decimal, time, percent, currency)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Attribution changes (default, linear, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Metric types (standard, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+|  Basic operators (add, subtract, multiply, divide)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Apply segments](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)  | ![StopCircle](/help/assets/icons/StopCircle.svg)  | Yes  |
+| [Basic functions (count, abs value, mean, etc)](/help/components/c-calcmetrics/cm-reference/cm-functions.md)  | No  | Yes  |
+| [Advanced functions (regression, if/then, t-score, etc)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)  | No  | Yes  |
+
+-->
 
 ## Competencias {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 Puede
 
-* Cree métricas entre [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución].
-* Crear métricas segmentadas que deriven del tiempo de ejecución de un informe, sin tener que cambiar la implementación. Ya que se basan en segmentos, pueden encontrarse en el historial.
+* [Crear métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md) en [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución].
+* [Crear métricas segmentadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) que se derivan del tiempo de ejecución de un informe, sin tener que cambiar la implementación. Por ejemplo, puede crear una métrica para *Nuevos visitantes*, con un recuento de personas de las cuales sea la primera sesión.
 
->[!BEGINSHADEBOX]
+* [Compartir métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) entre grupos de informes. Esto significa que todas las métricas de reciente creación se aplican a todos los grupos de informes en la misma empresa de inicio de sesión.
 
-Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://video.tv.adobe.com/v/37936?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
-
->[!ENDSHADEBOX]
-
-* Compartir métricas entre grupos de informes. Esto significa que todas las métricas de reciente creación se aplican a todos los grupos de informes en la misma empresa de inicio de sesión.
-* (Solo métricas calculadas avanzadas) Segmente por métricas. Por ejemplo, puede crear la métrica “Visitantes nuevos” para contar las primeras sesiones de una persona.
-
-* (Solo métricas calculadas avanzadas) Incorpore funciones estadísticas que le ayuden a describir mejor los datos. Por ejemplo, haga recuentos del número de elementos de un informe o agregue el número de desviaciones estándar para cada elemento.
-
+* [Incorporar funciones estadísticas](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) para ayudar a describir mejor sus datos. Por ejemplo, haga recuentos del número de elementos de un informe o agregue el número de desviaciones estándar para cada elemento.
 
 ## Limitaciones
 
-Algunas de las funciones de [!DNL Analytics] permiten utilizar los eventos, pero no las métricas calculadas:
+Algunas características de [!DNL Analytics] no permiten el uso de métricas calculadas:
 
 * [!UICONTROL Secuelas] en [!UICONTROL Analysis Workspace]
 * [!UICONTROL Análisis de cohortes] en Analysis Workspace
@@ -66,13 +59,13 @@ Algunas de las funciones de [!DNL Analytics] permiten utilizar los eventos, pero
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://video.tv.adobe.com/v/37936?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas segmentadas en segmentos](https://video.tv.adobe.com/v/37935?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas segmentadas en segmentos](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -88,3 +81,10 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 |API for Calculated Metrics|Part of the Adobe Analytics 2.0 API set.|
 
 -->
+
+>[!MORELIKETHIS]
+>
+>[Crear métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+>>[Generar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>>[Usar funciones](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>

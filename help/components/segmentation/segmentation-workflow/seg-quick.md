@@ -3,10 +3,11 @@ description: Uso de segmentos rápidos en Analysis Workspace para Adobe Analytic
 title: Segmentos rápidos
 feature: Segmentation
 role: User
-source-git-commit: 5819026bd3798cd936094f138cd236b1cb4b278e
+exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 23%
+source-wordcount: '1177'
+ht-degree: 21%
 
 ---
 
@@ -19,7 +20,7 @@ Los segmentos rápidos le permiten explorar datos dentro de un proyecto de Works
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos en Analysis Workspace](https://video.tv.adobe.com/v/345336/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos en Analysis Workspace](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -43,9 +44,9 @@ Para crear un segmento rápido haga lo siguiente:
 Cuando cree un segmento rápido arrastrando y soltando, tenga en cuenta lo siguiente:
 
 * No se admiten todos los tipos de componentes. Las métricas calculadas no son compatibles, y solo son compatibles las dimensiones y métricas desde las que se pueden crear segmentos.
-* Para los componentes de dimensiones y métricas, el [Generador de segmentos rápidos](#quick-segment-builder) crea automáticamente una condición `exists`. Por ejemplo, si arrastra y suelta `City`, se creará la condición `City exists`.
-* Para los valores de dimensión, el [Generador de segmentos rápidos](#quick-segment-builder) crea automáticamente una condición `equals`. Por ejemplo, si arrastra y suelta `amsterdam` desde la dimensión `City`, se creará la condición `City equals amsterdam`.
-* Si arrastra y suelta `unspecified` o `none`, el [Generador de segmentos rápidos](#quick-segment-builder) crea automáticamente una condición `does not exist`.
+* Para los componentes de dimensiones y métricas, el [Generador de segmentos rápidos](#quick-segment-builder) crea automáticamente una condición **[!UICONTROL exists]**. Por ejemplo, si arrastra y suelta **[!UICONTROL Ciudad]**, se creará la condición **[!UICONTROL Ciudad]** **[!UICONTROL existe]**.
+* Para los valores de dimensión, el [Generador de segmentos rápidos](#quick-segment-builder) crea automáticamente una condición **[!UICONTROL igual a]**. Por ejemplo, si arrastra y suelta **[!UICONTROL ámsterdam]** desde los elementos de dimensión **[!UICONTROL Ciudad]**, se creará la condición **[!UICONTROL Ciudad]** **[!UICONTROL igual a]** `Amsterdam`.
+* Si arrastra y suelta **[!UICONTROL sin especificar]** o **[!UICONTROL ninguno]**, el [Generador de segmentos rápidos](#quick-segment-builder) crea automáticamente una condición **[!UICONTROL no existe]**.
 
 Los segmentos rápidos que cree aparecerán en la parte superior del panel. Los segmentos rápidos tienen una barra izquierda fina de color azul claro. Cuando un segmento rápido se encuentra en modo de edición con el [Generador de segmentos rápidos](#quick-segment-builder), el fondo del segmento rápido es de color azul claro.
 
@@ -61,7 +62,7 @@ Para administrar un segmento rápido, pasa el ratón sobre el **[!UICONTROL segm
 
 ## Generador de segmentos rápidos
 
-Consulte a continuación un ejemplo del Generador de segmentos rápidos. En el ejemplo, el generador se abre para un segmento rápido denominado `Interaction Channel equals Website AND Online Orders is greater than 1`. El segmento rápido de la parte superior no se aplica al panel [!UICONTROL Tablero de valor de pedido promedio] y a todas las visualizaciones de.
+Consulte a continuación un ejemplo del Generador de segmentos rápidos. En el ejemplo, el generador se abre para un segmento rápido denominado `Interaction Channel = Website  AND Online Orders is greater than 1`. El segmento rápido de la parte superior no se aplica al panel **[!UICONTROL Tablero de valor de pedido promedio]** y a todas las visualizaciones de.
 
 ![Generador de segmentos rápidos](assets/quick-segment-builder.png)
 
@@ -74,7 +75,7 @@ El área de encabezado determina el nombre, tipo y ámbito del segmento rápido.
 | Elemento | Descripción |
 |---|---|
 | **[!UICONTROL Nombre]** | El nombre se deriva automáticamente de la definición del segmento rápido. |
-| **[!UICONTROL Personas]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alerta](/help/assets/icons/Alert.svg) | Vista previa de los datos resultantes del segmento rápido. Una barra y un porcentaje proporcionan a insight la cantidad de datos generales que forman parte del resultado del segmento rápido. Una ![alerta](/help/assets/icons/Alert.svg) roja indica que el segmento rápido no devuelve datos. |
+| **[!UICONTROL Personas]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alerta](/help/assets/icons/Alert.svg) | Vista previa de los datos resultantes del segmento rápido. Una barra y un porcentaje proporcionan a insight la cantidad de datos generales que forman parte del resultado del segmento rápido. Una ![alerta](/help/assets/icons/AlertRed.svg) indica que el segmento rápido no devuelve datos. |
 | **[!UICONTROL Incluir]**<br/>**[!UICONTROL Excluir]** | Seleccione en la lista desplegable ![ChevronDown](/help/assets/icons/ChevronDown.svg) si desea incluir o excluir los resultados del segmento rápido de los datos en el panel. |
 | **[!UICONTROL Evento]**<br/>**[!UICONTROL Sesión]**<br/>**[!UICONTROL Persona]** | Seleccione en el menú desplegable ![ChevronDown](/help/assets/icons/ChevronDown.svg) el ámbito del segmento rápido. |
 
@@ -108,5 +109,3 @@ Los segmentos tienen las siguientes ventajas en comparación con los segmentos r
 
 * Los segmentos pueden estar disponibles en todos sus proyectos de Workspace
 * Los segmentos admiten una mayor complejidad al usar [contenedores](../seg-containers.md) y secuencias anidados y jerárquicos (con [segmentos secuenciales](seg-sequential-build.md)).
-
-

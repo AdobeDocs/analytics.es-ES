@@ -3,7 +3,7 @@ title: Preguntas más frecuentes sobre los canales de marketing
 description: Preguntas más frecuentes sobre los canales de marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Preguntas más frecuentes sobre los canales de marketing.
 ## Mis códigos de seguimiento no se rigen por ningún patrón y tengo que especificar miles de ellos para el canal Afiliados.
 
 * Utilice el proceso de eliminación. Si los canales Correo electrónico y Afiliados utilizan el mismo parámetro de cadena de consulta pero solamente tiene unos cuantos códigos de seguimiento de correo electrónico, puede especificar los códigos de seguimiento de correo electrónico en un conjunto de reglas que definan el correo electrónico. A continuación, clasifique todos los demás códigos de seguimiento con *`affiliates.`*
-* En su sistema de correo electrónico, agregue un parámetro de cadena de consulta a todas las direcciones URL de páginas de aterrizaje, como *`&ch=eml`*. Cree un conjunto de reglas que detecte si el parámetro de consulta ch es igual a *`eml`*. Si no contiene *`eml`*, entonces es un afiliado.
+* En su sistema de correo electrónico, agregue un parámetro de cadena de consulta a todas las direcciones URL de páginas de destino, como *`&ch=eml`*. Cree un conjunto de reglas que detecte si el parámetro de consulta ch es igual a *`eml`*. Si no contiene *`eml`*, entonces es un afiliado.
 
 ## Los dominios de referencia contienen más datos de lo que tenía previsto.
 
@@ -118,7 +118,7 @@ La mejor manera de solucionar estas discrepancias es hacer una o ambas de las si
 
 * **Caducar manualmente todos los períodos de participación de los visitantes**: Esta configuración caduca instantáneamente todos los canales de primer y último contacto en todos los visitantes:
    1. Vaya a Herramientas de administración > Grupos de informes.
-   2. Pase el ratón sobre la imagen Editar configuración > Canales de marketing > Caducidad de la participación del visitante
+   2. Pase el puntero por encima de la imagen Editar configuración > Canales de marketing > Caducidad de la participación del visitante
    3. Haga clic en Caducar todo.
    4. Haga clic en Aceptar en la ventana emergente de advertencia, lo cual reconoce que comprende lo que va a hacer.
 

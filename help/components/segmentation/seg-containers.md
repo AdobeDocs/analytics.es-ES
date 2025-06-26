@@ -4,23 +4,23 @@ keywords: segmentación;segmentos
 title: Contenedores de segmentos
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '3566'
-ht-degree: 98%
+source-wordcount: '3563'
+ht-degree: 97%
 
 ---
 
 
 # Contenedores de segmentos
 
-Un segmento establece las condiciones para filtrar un visitante en función de los atributos o de las interacciones con su sitio. Para establecer las condiciones en un segmento, debe fijar las reglas que filtran a los visitantes según sus características de visitante y/o rasgos de navegación. Si desea desglosar todavía más los datos de los visitantes, puede filtrar basándose en las visitas específicas y/o las visitas individuales de cada visitante para ver una página. El Generador de segmentos proporciona una sencilla arquitectura para crear estos subconjuntos y aplicar reglas como contenedores anidados y jerárquicos de visitante, visita y visita individual.
+Un segmento establece las condiciones para filtrar un visitante en función de los atributos o de las interacciones con su sitio. Para establecer las condiciones en un segmento, debe fijar las reglas que filtran a los visitantes según sus características de visitante y/o rasgos de navegación. Si desea desglosar todavía más los datos de los visitantes, puede filtrar basándose en las visitas específicas y/o las visitas individuales de cada visitante para ver una página. El Generador de segmentos proporciona una arquitectura sencilla para crear estos subconjuntos y aplicar reglas como contenedores anidados y jerárquicos de visitante, visita o visita individual.
 
-La arquitectura de contenedor empleada en el Generador de segmentos define
+La arquitectura de contenedor empleada en el [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) define:
 
-- ![Visitante](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) **[!UICONTROL Visitante]** como el contenedor situado más al exterior, que contiene datos generales específicos del visitante en las visitas y vistas de página.
-- ![Visita](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg) un contenedor **[!UICONTROL Visita]** anidado le permite establecer reglas para desglosar los datos del visitante en función de las visitas y
-- ![Evento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg) un contenedor **[!UICONTROL Visita individual]** anidado le permite desglosar la información del visitante en función de las vistas de página individuales.
+- ![Usuario](/help/assets/icons/User.svg) **[!UICONTROL Visitante]** como contenedor exterior, que contiene datos globales específicos del visitante en las visitas y vistas de páginas.
+- ![Visita](/help/assets/icons/Visit.svg) un contenedor **[!UICONTROL Visita]** anidado le permite establecer reglas para desglosar los datos del visitante en función de las visitas y
+- ![WebPage](/help/assets/icons/WebPage.svg): un contenedor de **[!UICONTROL visita individual]** anidado le permite desglosar la información del visitante según las vistas de página individuales.
 
 Cada contenedor le permite realizar informes basados en el historial del visitante o en las interacciones detalladas por visitas, o bien desglosar las visitas individuales.
 
@@ -38,7 +38,7 @@ Cada contenedor le permite realizar informes basados en el historial del visitan
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Visitas únicas</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Visitas únicas</td>
 </tr>
 </table>
 
@@ -47,7 +47,7 @@ Cada contenedor le permite realizar informes basados en el historial del visitan
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenedores de segmento](https://video.tv.adobe.com/v/3429101?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -148,7 +148,7 @@ La segmentación secuencial emplea los mismos contenedores básicos, incluidos e
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Visitas únicas</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Visitas únicas</td>
 </tr>
 </table>
 
@@ -173,7 +173,7 @@ La segmentación secuencial emplea los mismos contenedores básicos, incluidos e
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Visitas únicas</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Visitas únicas</td>
 </tr>
 
 <tr>
@@ -188,7 +188,7 @@ La segmentación secuencial emplea los mismos contenedores básicos, incluidos e
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Visitas únicas</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Visitas únicas</td>
 </tr>
 </table>
 
@@ -210,7 +210,7 @@ La única excepción a esta jerarquía de contenedores es al usar el [Contenedor
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Visitas únicas</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Visitas únicas</td>
 </tr>
 
 <tr>
@@ -225,7 +225,7 @@ La única excepción a esta jerarquía de contenedores es al usar el [Contenedor
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Visitas únicas</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Visitas únicas</td>
 </tr>
 
 <tr>

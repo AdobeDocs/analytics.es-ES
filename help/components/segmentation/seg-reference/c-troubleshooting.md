@@ -3,27 +3,31 @@ description: Solucione problemas y cuestiones relacionados con segmentos.
 title: Solución de problemas de segmentación
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 99%
+source-wordcount: '166'
+ht-degree: 50%
 
 ---
 
 # Solución de problemas de segmentación
 
-## Error: &quot;Elementos incompatibles en este segmento&quot; {#incompatible}
+<!-- Looks like this is not part anymore of the current UI.
 
-Este error se produce cuando intenta guardar un segmento en la carpeta del Almacén de datos donde el segmento contiene elementos no compatibles con el Data Warehouse. Para corregir este error, puede hacer una de estas dos acciones:
+## Error: "Incompatible elements in this segment" {#incompatible}
 
-* Guardar el segmento en una carpeta distinta.
-* Eliminar o cambiar las partes incompatibles del segmento.
+This error occurs when you try to save a segment in the Data Warehouse folder where the segment contains elements not compatible with Data Warehouse. To resolve this error, do one of two things:
+
+* Save the segment in a different folder 
+* Remove or change the incompatible portions of the segment.
+
+-->
 
 ## ¿Por qué no devuelve ningún dato mi segmento? {#no-data}
 
 Motivos posibles:
 
-* Anidación inversa: por ejemplo, anidar un contenedor de Visitante en un contenedor de Visita.
+* Anidado inverso: por ejemplo, anidar un contenedor de ![Usuario](/help/assets/icons/User.svg) **[!UICONTROL Visitante]** bajo un contenedor de ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Visita]**.
 * El informe no admite la segmentación.
 * No hay datos que coincidan con los criterios de segmentación.
 
@@ -31,17 +35,17 @@ Motivos posibles:
 
 Motivos posibles:
 
-* Algunas dimensiones están disponibles únicamente en el Almacén de datos y no en el Data Warehouse.
+* Algunas dimensiones solo están disponibles en Data Warehouse y no en el Administrador de segmentos.
 * El segmento únicamente se comprueba para un grupo de informes específico.
 * Es posible que otro usuario haya eliminado un segmento compartido.
-* Los segmentos no se han podido cargar debido a un problema de caché del navegador o del centro de datos.
+* No se han podido cargar los segmentos debido a un problema con el centro de datos o la caché del explorador.
 * El segmento no se ha guardado.
 * La dirección IP puede haber sido bloqueada en el terminal del usuario.
 
-## ¿Por qué los datos de página mostrados tras aplicar un segmento parecen incorrectos? {#page-data}
+## ¿Por qué los datos mostrados después de aplicar un segmento parecen incorrectos? {#page-data}
 
 Motivos posibles:
 
-* Las reglas o los operadores son incorrectos para el resultado necesario.
-* Aplicación incorrecta de contenedores al segmento.
+* Las reglas u operadores son incorrectos para el resultado requerido.
+* Uso incorrecto de contenedores en el segmento.
 * Las variables de tráfico utilizadas en el segmento no se han configurado correctamente o han caducado.

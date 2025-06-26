@@ -1,13 +1,13 @@
 ---
 title: Preguntas más frecuentes sobre Attribution
-description: Obtenga respuestas a preguntas más frecuentes sobre Attribution.
+description: Obtenga respuestas a las preguntas más frecuentes sobre atribución.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 100%
+source-wordcount: '1238'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 +++## ¿Cuál es el elemento de línea “Ninguno” al utilizar Attribution?
 
-El elemento de línea “Ninguno” es un captador global que representa todas las conversiones que se produjeron sin ningún punto de contacto dentro de la ventana retrospectiva. Para reducir el número de conversiones atribuidas al elemento de línea “Ninguno”, intente utilizar una ventana retrospectiva personalizada con un periodo de retrospectividad más largo.
+El elemento de línea “Ninguno” es un captador global que representa todas las conversiones que se produjeron sin ningún punto de contacto dentro de la ventana retrospectiva. Para reducir el número de conversiones atribuidas al elemento de línea &quot;Ninguno&quot;, intente utilizar una ventana retrospectiva personalizada con un período de retrospectividad más largo.
 
 +++
 
@@ -106,11 +106,11 @@ Sí, las clasificaciones son compatibles.
 
 Sí, la mayoría de las fuentes de datos son compatibles. Attribution no es compatible con fuentes de datos de resumen porque estas fuentes de datos no están vinculadas a un identificador de visitante de Analytics. 
 
-Las fuentes de datos del ID de transacción se tratan como cualquier otra visita. Las fuentes de datos del ID de transacción no utilizan el procesamiento especial que se suele emplear en los informes tradicionales. En otras palabras, al utilizar el procesamiento del tiempo de los informes, las visitas del ID de transacción tendrán valores eVar propagados desde visitas que se produzcan cerca de la marca de tiempo de la visita del ID de transacción. Los valores no se propagarán desde visitas que se hayan producido cerca del momento de la transacción original.
+Las fuentes de datos del ID de transacción se tratan como cualquier otra visita. Las fuentes de datos del ID de transacción no utilizan el procesamiento especial que se suele emplear en los informes tradicionales. En otras palabras, al utilizar el procesamiento del tiempo de los informes, las visitas del ID de transacción tienen valores de eVar propagados desde visitas que se producen cerca de la marca de tiempo de la visita del ID de transacción. Los valores no se propagan desde visitas que se produjeron cerca del momento de la transacción original.
 
-Cuando es posible, la atribución se basa en el valor de columna MID enviado dentro de un evento en la fuente de datos, en lugar de en un valor persistente. El modelo de atribución se aplica a los valores de columna MID en la fuente de datos sobre la marcha. Por ejemplo, cuando se utiliza la atribución &quot;Último contacto&quot;, el modelo empieza desde cada instancia de una métrica y retrocede secuencialmente en las visitas hasta que el modelo alcanza el último valor observado en la columna MID.
+Cuando es posible, la atribución se basa en el valor de columna MID que se envía dentro de un evento en la fuente de datos, en lugar de en un valor persistente. El modelo de atribución se aplica a los valores de columna MID en la fuente de datos sobre la marcha. Por ejemplo, cuando se usa la atribución de [último contacto](models.md), el modelo se inicia a partir de cada instancia de una métrica. Y retrocede secuencialmente en las visitas individuales hasta que el modelo alcanza el último valor observado en la columna MID.
 
-Cuando no sea posible, la atribución utilizará el valor MID en el “registro anterior” de la fuente de datos para la evaluación. Es posible que este registro anterior no se ordene secuencialmente por marca de tiempo, dado que AA no admite datos desordenados.
+Cuando no es posible, la atribución utiliza el valor MID en el *registro anterior* del origen de datos para la evaluación. Es posible que este registro anterior no se ordene secuencialmente por marca de tiempo, dado que AA no admite datos desordenados.
 
 Debido a que los registros no se ordenan secuencialmente, los valores esperados de aplicar persistencia pueden afectar a la cantidad de tiempo que existe entre la marca de tiempo del ID de transacción proporcionada y la transacción original.
 

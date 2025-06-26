@@ -4,10 +4,10 @@ description: Descubra cómo y por qué crear proyectos en Workspace con varios g
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 87%
+source-wordcount: '440'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 Puede crear proyectos en Analysis Workspace con datos de más de un grupo de informes. Los grupos de informes se eligen en el panel, por lo que puede elegir un grupo de informes diferente para cada panel dentro del mismo proyecto de Workspace.
 
-Esta capacidad es útil si desea, por ejemplo,
+Esta capacidad es útil si desea:
 
 * Comparar datos de dos regiones diferentes y los datos están en dos grupos de informes diferentes. Puede generar tablas y visualizaciones para comparar los datos en paralelo.
 
@@ -24,7 +24,7 @@ Esta capacidad es útil si desea, por ejemplo,
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Varios grupos de informes](https://video.tv.adobe.com/v/36836?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Varios grupos de informes](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -37,16 +37,12 @@ Puede aplicar un grupo de informes a todos los paneles a la vez haciendo clic co
 
 ## Panel activo
 
-Con esta función, presentamos el concepto de &quot;panel activo&quot; frente a &quot;panel inactivo&quot;. Puede reconocer el panel activo por el borde celeste que lo rodea. Al hacer clic dentro de un panel, este se convierte en el panel activo.
+Puede reconocer el panel activo por el borde celeste que lo rodea. Simplemente, seleccione dentro de un panel para convertir ese panel en el panel activo.
 
 >[!TIP]
+>
 >Puede arrastrar y soltar en cualquier panel que esté en el mismo grupo de informes del panel activo. Al arrastrarlo a un panel inactivo del mismo grupo de informes, el panel se activará.
-
-| Tarea | Panel activo | Panel inactivo |
-| --- | --- | --- |
-| Cambiar grupo de informes | Sí | No |
-| Arrastrar y soltar componentes | Sí | Sí, para cualquier panel que esté en el mismo grupo de informes que el panel activo. |
-| Arrastrar y soltar visualizaciones | Sí | Sí, para cualquier panel que esté en el mismo grupo de informes que el panel activo. |
+>
 
 ## Trabajar con varios grupos de informes
 
@@ -58,7 +54,9 @@ Con esta función, presentamos el concepto de &quot;panel activo&quot; frente a 
 
 
    >[!NOTE]
+   >
    >En ocasiones, aparece un banner al cargar un proyecto (o al cambiar a un grupo de informes) en el que no todos los componentes del proyecto están incluidos en el grupo de informes. Se enumerarán los componentes que faltan. Siga [estas instrucciones](/help/admin/admin-console/permissions/product-profile.md) y establezca permisos para las métricas y dimensiones requeridas.
+   >
 
    ![](assets/incompat-rs.png)
 

@@ -1,24 +1,24 @@
 ---
 description: Preguntas frecuentes sobre la administración de segmentos heredados.
-title: Preguntas más frecuentes sobre los segmentos heredados
+title: Preguntas frecuentes sobre segmentos heredados
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 100%
+source-wordcount: '1441'
+ht-degree: 91%
 
 ---
 
-# Preguntas más frecuentes sobre los segmentos heredados
+# Preguntas frecuentes sobre segmentos heredados
 
-Responde a preguntas frecuentes sobre las prácticas recomendadas para administrar segmentos heredados: segmentos creados antes de 2014.
+Este artículo responde a las preguntas más frecuentes sobre las prácticas recomendadas para administrar segmentos heredados (segmentos creados antes de 2014).
 
 ## Administración de segmentos heredados {#legacy}
 
 +++ **¿Qué ha pasado con mis segmentos existentes?**
 
-Sus segmentos existentes seguirán funcionando como siempre. Todos los informes a los que se hayan aplicado dichos segmentos funcionarán correctamente. [Más...](/help/components/segmentation/seg-transition.md)
+Sus segmentos existentes seguirán funcionando como siempre. Todos los informes a los que se hayan aplicado dichos segmentos funcionarán correctamente.
 
 La mayoría de los anteriores segmentos predefinidos y de grupo se migrarán como plantillas de segmento al Generador de segmentos. Las plantillas de segmentos se utilizan para generar rápidamente segmentos personalizados con audiencias comunes. Las plantillas de segmentos no pueden aplicarse a un informe directamente, pero pueden guardarse de manera muy sencilla en un segmento personalizado.
 
@@ -46,7 +46,7 @@ Tiene un marcador que hace referencia al segmento para el grupo de informes main
 
 Todos los segmentos de Data Warehouse seguirán funcionando en Data Warehouse. La mayoría de los segmentos de Data Warehouse también seguirán funcionando en otros componentes, como Analysis Workspace.
 
-Puede crear o editar segmentos nuevos del Almacén de datos en el Generador/Data Warehouse. El mecanismo de compatibilidad del producto en el Generador de segmentos determina automáticamente si un segmento es compatible con el Data Warehouse.
+Puede crear o editar segmentos nuevos del Almacén de datos en el Generador/Data Warehouse. El mecanismo de compatibilidad del producto en el Generador de segmentos determina automáticamente si un segmento es compatible con Data Warehouse.
 
 +++
 
@@ -58,7 +58,7 @@ Puede crear o editar segmentos nuevos del Almacén de datos en el Generador/Data
 * **Visitas de búsqueda de pago**
 * **Visitas con cookie de ID de visitante**
 
-Estos segmentos se migrarán como plantillas de segmentos al Generador de segmentos. Los informes existentes que tengan estos segmentos aplicados seguirán funcionando correctamente.
+Estos segmentos se migrarán como plantillas de segmento en el Generador de segmentos. Los informes existentes que tengan estos segmentos aplicados seguirán funcionando correctamente.
 
 +++
 
@@ -170,7 +170,7 @@ Las siguientes dimensiones se cambiaron a listas enumeradas:
 | longitud del marcador móvil | Habilitado para Java | búsqueda de pago |
 | longitud de dirección URL móvil | idioma |  |
 
-## Cambios en las dimensiones basadas en enteros que tienen valores conocidos {#integer-based-dims}
+## Cambios en dimensiones basadas en enteros que tienen valores conocidos {#integer-based-dims}
 
 Las dimensiones basadas en enteros (como el ancho del explorador) con un conjunto de valores conocidos se dividieron en varios intervalos para que pueda definir rápidamente segmentos para un intervalo específico. A estas listas enumeradas se les ha agregado &quot;- Agrupado&quot; tras el nombre de la dimensión. La siguiente pantalla muestra cómo se segmentan estas dimensiones utilizando la interfaz antigua y nueva del generador de segmentos:
 

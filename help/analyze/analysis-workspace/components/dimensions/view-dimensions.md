@@ -4,29 +4,57 @@ title: Vista preliminar de dimensiones
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: 9f040971d1198fe7774bc04f6c42cc4e2145b197
+source-git-commit: a629b2be66d9458bf10872a95aaec739aed9d791
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 90%
+source-wordcount: '106'
+ht-degree: 21%
 
 ---
 
-# Vista preliminar de dimensiones
+# Previsualización de dimensiones en Analysis Workspace
 
-Sitúe el ratón encima del icono de información (i) que encontrará junto a una dimensión. Se mostrarán los cinco valores principales correspondientes a las dimensiones que no sean temporales. En el caso de las dimensiones temporales, se mostrarán los 15 valores principales. Anteriormente estos valores solían ser estáticos, es decir, los cinco valores seleccionados no cambiaban nunca.
+Puede usar la [información de componente](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) de un componente para mostrar los elementos principales de una dimensión.
 
-![](assets/dimension-preview.png)
+![Información de componente](assets/component-info.png)
 
-Ahora, y de forma predeterminada, se mostrarán valores dinámicos en lugar de valores estáticos, con la opción de convertirlos en estáticos. Otros aspectos que considerar:
+<!--
+Now, by default, we show dynamic values instead of static ones, with the option to turn them into static values. Other things to note:
 
-* A medida que los datos se actualicen, las columnas de dimensión dinámica se actualizarán para mostrar cinco de los quince elementos de dimensión actuales.
-* Las columnas de dimensión dinámica que se copien o se muevan pasarán a ser de dimensión estática.
-* Al pasar el ratón por encima de una columna de dimensión estática, verá un icono de bloqueo que indicará que la dimensión es estática.
+* As your data updates, the dynamic dimension columns will update to show the current 5/15 dimension items.
+* A dynamic dimension column that is copied or moved will become static.
+* When hovering a static dimension column you will see a lock icon, indicating that the dimension is static.
 
-![](assets/dimension_static.png)
+![Dimension column popup highlighting the lock icon.](assets/dimension_static.png)
+
+-->
+
 
 ## Mostrar los elementos de la dimensión
 
-Al pasar el ratón por encima de una dimensión y hacer clic en la flecha derecha gris que se muestra al lado, aparece una lista de los elementos de su dimensión. Normalmente, en cualquier lista de elementos de dimensión se muestran los elementos principales de los últimos 30 días.
+Cuando selecciona ![ChevronRight](/help/assets/icons/ChevronRight.svg) para una dimensión en el panel Componentes, aparece una lista de sus elementos de dimensión. La lista de elementos de dimensión generalmente muestra los elementos principales de los últimos 30 días. Cuando haya más elementos disponibles, fuera del intervalo de fechas seleccionado para el panel, seleccione el vínculo para mostrar más elementos. Por ejemplo, **[!UICONTROL mostrar elementos del mes pasado]**.
 
-Si se desplaza hacia abajo hasta la parte inferior de la lista, verá **[!UICONTROL Mostrar los elementos principales de los últimos 18 meses]**. Haga clic en esta opción para ver los elementos principales de la dimensión durante los últimos 547 días.
+![Mostrar elementos de dimensión](assets/dimension-items.png)
+
+
+<!--
+# Preview dimensions
+
+Hover over the information (i) icon next to a dimension. This shows the top 5 values for non-time dimensions (and 15 for time dimensions). We used to keep those values static (i.e., the 5 values picked never changed).
+
+![](assets/dimension-preview.png)
+
+Now, by default, we show dynamic values instead of static ones, with the option to turn them into static values. Other things to note:
+
+* As your data updates, the dynamic dimension columns will update to show the current 5/15 dimension items.
+* A dynamic dimension column that is copied or moved will become static.
+* When hovering a static dimension column you will see a lock icon, indicating that the dimension is static.
+
+![](assets/dimension_static.png)
+
+## Show dimension items
+
+When you hover over a dimension and click the grey right-arrow next to it, a list of its dimension items appears. Any list of dimension items usually shows the top items for the last 30 days.
+
+If you scroll down to the bottom of the list, you see **[!UICONTROL Show Top Items From Last 18 Months]**. Click this option to see top dimension items from the last 547 days.
+
+-->

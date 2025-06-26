@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y su versión heredada, y Activity Map.
-source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
+source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '960'
 ht-degree: 98%
 
 ---
@@ -27,17 +27,16 @@ ht-degree: 98%
 + Analysis Workspace {#analysis-workspace}
    + [Información general sobre Analysis Workspace](analysis-workspace/home.md)
    + Proyectos {#build-workspace-project}
-      + [Información general sobre Proyectos](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Información general](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Crear proyectos](analysis-workspace/build-workspace-project/create-projects.md)
+      + [Abrir proyectos](analysis-workspace/build-workspace-project/open-projects.md)
       + [Guardar proyectos](analysis-workspace/build-workspace-project/save-projects.md)
       + [Tabla de contenido del proyecto](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Carpetas en Workspace {#workspace-folders}
-         + [Acerca de las carpetas en Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Información general de carpetas](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creación de carpetas y subcarpetas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Eliminar carpetas](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
-         + [Agregar proyectos](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-         + [Quitar un proyecto](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
-         + [Guardar un nuevo proyecto](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
+         + [Administración de carpetas](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
+         + [Agregar o mover proyectos a carpetas](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [Plantillas](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Múltiples grupos de informes](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Teclas de acceso directo (métodos abreviados)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
@@ -65,9 +64,11 @@ ht-degree: 98%
          + [Crear segmentos](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Segmentos rápidos](analysis-workspace/components/segments/quick-segments.md)
       + Calendario e intervalos de fechas {#calendar-date-ranges}
-         + [Resumen de calendario e intervalos de fechas](analysis-workspace/components/calendar-date-ranges/calendar.md)
-         + [Crear intervalos de fechas](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
+         + [Información general](analysis-workspace/components/calendar-date-ranges/calendar.md)
+         + [Crear intervalos de fechas](analysis-workspace/components/calendar-date-ranges/create.md)
+         + [Administrar intervalos de datos](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [Comparación de fechas](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+         + [Ejemplos](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + Diccionario de datos {#data-dictionary}
          + [Información general del diccionario de datos](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
          + [Visualización de información de componentes en el diccionario de datos](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
@@ -131,11 +132,11 @@ ht-degree: 98%
          + [Casos de uso de comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Pruebas estadísticas utilizadas en la comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Depuración, uso compartido y programación de proyectos {#curate-share}
-      + [Menú Compartir](analysis-workspace/curate-share/send-schedule-files.md)
+      + [Información general](analysis-workspace/curate-share/send-schedule-files.md)
       + [Depurar proyectos de](analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos](analysis-workspace/curate-share/share-projects.md)
       + [Crear vínculos que se pueden compartir](analysis-workspace/curate-share/shareable-links.md)
-      + [Proyectos de solo de vista](analysis-workspace/curate-share/view-only-projects.md)
+      + [Proyectos de solo lectura](analysis-workspace/curate-share/view-only-projects.md)
       + [Descarga de archivos PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Programar proyectos](analysis-workspace/curate-share/t-schedule-report.md)
    + Atribución {#attribution}

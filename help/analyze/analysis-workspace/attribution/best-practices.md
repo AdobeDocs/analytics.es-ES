@@ -3,23 +3,27 @@ title: Prácticas recomendadas de atribución
 description: ¿Cuáles son las mejores prácticas para decidir un modelo de atribución?
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 75%
 
 ---
 
 # Prácticas recomendadas de atribución
 
-Elegir el modelo de atribución correcto para su organización depende de una serie de consideraciones. Este artículo explora una metodología y algunas prácticas recomendadas generales.
+Elegir el modelo de atribución correcto para su organización depende de una serie de consideraciones. Este artículo explora una metodología y algunas prácticas recomendadas generales:
 
-## Paso 1: análisis exploratorio
+* [Análisis exploratorio](#exploratory-analysis)
+* [Atribuciones basadas en reglas](#rule-base-attribution)
+* [Uso de atribución algorítmica](#use-algorithmic-attribution)
+
+## Análisis de exploración
 
 >[!NOTE]
 >Este análisis debe realizarse antes de elegir un modelo de atribución.
 
-Esta fase consiste inicialmente en comprender el comportamiento del cliente y definir las métricas de conversión. En función de las métricas de conversión, herramientas como [Fuentes de datos](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=es) (para datos sin procesar) o Analysis Workspace le facilitan la comprensión de
+Esta fase consiste inicialmente en comprender el comportamiento del cliente y definir las métricas de conversión. En función de las métricas de conversión, herramientas como [Fuentes de datos](https://experienceleague.adobe.com/es/docs/analytics/export/analytics-data-feed/data-feed-overview) (para datos sin procesar) o Analysis Workspace le facilitan la comprensión de
 
 * El número de clientes que están tocando diferentes canales de marketing antes de convertir
 * La proporción/distribución de estos comportamientos
@@ -35,23 +39,23 @@ Los canales de análisis del canal superior se utilizan para concienciar sobre l
 
 En el análisis de canal inferior, la suposición es que las personas ya conocen su marca y usted quiere que se conviertan. Utilice correos electrónicos, notificaciones push o anuncios de Facebook.
 
-## Paso 2: atribución basada en reglas
+## Atribución basada en reglas
 
 El propósito de este paso es validar las hipótesis.
 
 **Ejemplo 1**
 
-Supongamos que su hipótesis es esta: “Mi canal de primer contacto tiene más impacto en la conversión que mi canal del último contacto”.
+Supongamos que su hipótesis es: &quot;*Mi canal de primer contacto tiene más impacto en la conversión que mi canal de último contacto.*&quot;
 
-En este caso, se usaría el [modelo de atribución “Forma de J invertida”](/help/analyze/analysis-workspace/attribution/models.md) para probar esta hipótesis. Este modelo proporciona el 60 % del crédito al primer punto de contacto.
+En este caso, debe usar el modelo de atribución [Inverse J-shape&quot;](/help/analyze/analysis-workspace/attribution/models.md) para probar esta hipótesis. Este modelo proporciona el 60 % del crédito al primer punto de contacto.
 
 **Ejemplo 2**
 
-Imaginemos que su hipótesis es esta: “En nuestro sector (como el de los viajes), la ventana de atribución es de 60 o 90 días, no de 30, porque los clientes hacen mucha investigación antes de comprar un producto”.
+Supongamos que su hipótesis es: *&quot;En un sector específico (como el de los viajes), la ventana de atribución es de 60 o 90 días, no de 30, porque los clientes investigan mucho antes de comprar un producto.*&quot;
 
-En este caso, cambiaría su [ventana retrospectiva](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=es#lookback-windows) a 90 días.
+En este caso, cambiaría su [ventana retrospectiva](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models) a 90 días.
 
-## Paso 3: utilizar atribución algorítmica
+## Uso de atribución algorítmica
 
 Si todavía no tiene un modelo de atribución que proporcione respuestas satisfactorias a todas las preguntas, puede emplear [atribución algorítmica](/help/analyze/analysis-workspace/attribution/algorithmic.md). Como es muy difícil validar un gran número de hipótesis y combinaciones posibles, la atribución algorítmica recurre a algoritmos integrados para asignar crédito entre elementos de dimensión.
 
@@ -59,4 +63,4 @@ Si todavía no tiene un modelo de atribución que proporcione respuestas satisfa
 
 * Es posible que necesite utilizar los servicios de un científico de datos en lugar de depender solo de Analysis Workspace.
 * Puede confiar en los datos sin procesar, como en las fuentes de datos de Adobe.
-* Considere utilizar [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es), por ejemplo, si desea tener en cuenta los datos de Impresiones.
+* Considere utilizar [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), por ejemplo, si desea tener en cuenta los datos de Impresiones.

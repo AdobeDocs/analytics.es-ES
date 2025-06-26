@@ -4,59 +4,85 @@ keywords: Analysis Workspace
 title: Creación de carpetas
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
-source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '113'
 ht-degree: 100%
 
 ---
 
 # Creación de carpetas
 
-Puede agregar una carpeta nueva o una subcarpeta a la lista de proyectos y carpetas de la página de aterrizaje de Workspace.
+Puede agregar una carpeta nueva o una subcarpeta a la lista de proyectos y carpetas de la página de destino de Workspace.
 
-## Crear una nueva carpeta {#create-new-folder}
+## Crear una nueva carpeta
 
 Para crear una nueva carpeta,
 
-1. Haga clic en **Crear nuevo**.
+1. Asegúrate de haber seleccionado [Mostrar carpetas y proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#show-selector).
 
-1. Introduzca un Nombre para la nueva carpeta.
+1. Asegúrate de que el [área de título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area) y la [lista de proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) muestren la carpeta en la que deseas crear una carpeta nueva.
 
-1. Seleccione etiquetas en el menú desplegable o agregue nuevas etiquetas.
+1. Haz clic en **Crear carpeta**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-tags.png)
+1. En el cuadro de diálogo **[!UICONTROL Crear nueva carpeta]**, indica un nombre para la carpeta nueva. Por ejemplo: `Second Week Reports`.
 
-1. Haga clic en **Crear**.
+1. Selecciona etiquetas o escribe nuevas etiquetas en la lista desplegable **[!UICONTROL Etiquetas]**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create.png)
+   ![Crear nueva carpeta](../assets/create-new-folder.png)
 
-   La nueva carpeta se añade en la lista principal de proyectos y carpetas.
+1. Haz clic en **Crear**.
+La nueva carpeta se agrega a la carpeta actual.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
+<!--
+# Create folders
 
-## Creación de una subcarpeta {#create-subfolder}
+You can add a new folder or a subfolder to the list of projects and folders on your Workspace landing page.
 
-Las subcarpetas permiten proporcionar niveles adicionales de organización y administración de proyectos.
+## Create a new folder {#create-new-folder}
 
-Para crear una subcarpeta cuando tenga una carpeta existente abierta,
+To create a new folder,
 
-1. Haga clic en **Crear una nueva carpeta**.
+1.  Click **Create new**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
+1.  Enter a Name for the new folder.
 
-1. Introduzca un nombre de subcarpeta y agregue las etiquetas necesarias.
+1.  Select tags from the drop-down menu or add net-new tags.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
-1. Haga clic en **Crear**.
+1.  Click **Create**.
 
-   La nueva subcarpeta se agrega a la lista de proyectos y subcarpetas.
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create.png)
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
+    The new folder is added in the main list of projects and folders.
 
-   >[!NOTE]
-   >
-   >Puede crear hasta 10 niveles de subcarpetas en una sola carpeta.
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)
+## Create a subfolder {#create-subfolder}
+
+Subfolders allow you to provide additional levels of project management and organization.
+
+To create a subfolder when you have an existing folder open,
+
+1.  Click **Create a new folder**.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
+
+1.  Enter a subfolder name and add any necessary tags.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
+
+1.  Click **Create**.
+
+    The new subfolder is added to the list of projects and subfolders.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-added.png)
+
+    >[!NOTE]
+    >
+    >You can create up to 10-levels of subfolders in a single folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-limit.png)
+
+-->

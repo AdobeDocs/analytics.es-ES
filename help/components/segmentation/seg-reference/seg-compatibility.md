@@ -1,12 +1,12 @@
 ---
-description: No todos los segmentos creados en el Generador de segmentos son compatibles con el Data Warehouse. Esta tabla enumera las funciones compatibles.
+description: No todos los segmentos creados en el Generador de segmentos son compatibles con Data Warehouse. Esta tabla enumera las funciones compatibles.
 title: Compatibilidad del segmento con el Data Warehouse
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 95%
+ht-degree: 81%
 
 ---
 
@@ -45,14 +45,14 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
   </tr> 
   <tr> 
    <td> <b>Dimensiones</b> </td> 
-   <td>Arrastre y suelte una dimensión en las <span class="uicontrol">Definiciones</span> del Generador de segmentos para conocer la compatibilidad del producto. Por ejemplo, estas dimensiones solo son compatibles con Analysis Workspace, Reports &amp; Analytics: 
+   <td>Arrastre y suelte una dimensión en el campo <span class="uicontrol"> definiciones</span> del Generador de segmentos para conocer la compatibilidad del producto. Por ejemplo, estas dimensiones solo son compatibles con Analysis Workspace, Reports &amp; Analytics: 
     <ul> 
      <li>Servidor de entrada </li> 
      <li>Categoría de entrada </li> 
      <li>Fecha de entrada </li> 
      <li>Clasificación de todas las páginas de búsqueda </li> 
     </ul> </td> 
-   <td> Arrastre y suelte una dimensión en las <span class="uicontrol">Definiciones</span> del Generador de segmentos para conocer la compatibilidad del producto. Por ejemplo, estas dimensiones solo se admiten en el Data Warehouse: 
+   <td> Arrastre y suelte una dimensión en el campo <span class="uicontrol"> definiciones</span> del Generador de segmentos para conocer la compatibilidad del producto. Por ejemplo, estas dimensiones solo se admiten en el Data Warehouse: 
     <ul> 
      <li>Dirección IP </li> 
      <li>URL de la página </li> 
