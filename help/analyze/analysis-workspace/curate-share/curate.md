@@ -52,7 +52,7 @@ Para eliminar la depuración del proyecto y restaurar el conjunto completo de co
 
 ## Depuración del grupo de informes virtuales
 
-Para aplicar la depuración a nivel de grupo de informes, de modo que se aplique a muchos proyectos a la vez, puede [depurar componentes en un grupo de informes virtuales](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components).
+Para aplicar la depuración a nivel de grupo de informes, de modo que se aplique a muchos proyectos a la vez, puede [depurar componentes en un grupo de informes virtuales](https://experienceleague.adobe.com/es/docs/analytics/components/virtual-report-suites/vrs-components).
 
 >[!NOTE]
 >
