@@ -37,7 +37,7 @@ Similar a un gráfico circular, esta visualización de ![GraphDonut](/help/asset
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Añadir una visualización de anillo](https://video.tv.adobe.com/v/334309/?quality=12){target=&#34;_blank&#34;} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Añadir una visualización de anillo](https://video.tv.adobe.com/v/3416623/?quality=12&captions=spa){target=&#34;_blank&#34;} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

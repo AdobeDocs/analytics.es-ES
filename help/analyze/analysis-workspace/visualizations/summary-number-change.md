@@ -19,7 +19,7 @@ _Este artículo documenta las visualizaciones Número de resumen y Cambio de res
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de Número de resumen y Cambio de resumen](https://video.tv.adobe.com/v/335564/?quality=12){target=&#34;_blank&#34;} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de Número de resumen y Cambio de resumen](https://video.tv.adobe.com/v/3416887/?quality=12&captions=spa){target=&#34;_blank&#34;} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
