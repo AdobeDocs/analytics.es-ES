@@ -1,13 +1,13 @@
 ---
-description: Las visitas en el orden previsto en Analysis Workspace le permiten mezclar dimensiones y métricas como puntos de contacto en embudos y flujos de trabajo. Esto le proporciona una mayor flexibilidad para definir los pasos del usuario que desea investigar.
-title: Visita en orden previsto multidimensional
+description: Descubra cómo la visualización de visitas en el orden previsto en Analysis Workspace le permite mezclar y hacer coincidir dimensiones y métricas como puntos de contacto en embudos y flujos de trabajo. Descubra cómo esto proporciona más flexibilidad para definir los pasos del usuario que desea investigar.
+title: Visitas en el orden previsto entre dimensiones
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 21%
+source-wordcount: '276'
+ht-degree: 6%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 21%
 
 Las visitas en el orden previsto en Analysis Workspace le permiten mezclar y hacer coincidir dimensiones y métricas como puntos de contacto en embudos y flujos de trabajo. Las visitas en el orden previsto le proporcionan más flexibilidad para definir los pasos del usuario que desea investigar.
 
+Por ejemplo, además de una dimensión Página, puede agregar otros elementos de dimensión (como un nombre de dispositivo específico de la dimensión Nombre del dispositivo) a una visualización de visitas en el orden previsto. La combinación de dimensiones permite visualizar cómo las páginas y ciertas acciones interactúan en las rutas de los clientes.
+
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abandonos multidimensional](https://video.tv.adobe.com/v/327468?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abandonos multidimensional](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

@@ -1,19 +1,19 @@
 ---
-description: Obtén información acerca de cómo eliminar carpetas en Workspace
+description: Obtenga información sobre cómo administrar carpetas en Analysis Workspace.
 keywords: Analysis Workspace
-title: Administración de carpetas
+title: Administrar carpetas
 feature: Workspace Basics
 exl-id: af3248eb-7b75-49cd-9dea-bf621d06677b
-source-git-commit: 83345d6fa51253e7c316cd1b2ebee2f4f82e9d00
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 91%
+source-wordcount: '428'
+ht-degree: 86%
 
 ---
 
 # Administración de carpetas
 
-Puedes administrar carpetas en Workspace de dos formas. Desde la carpeta o desde una o varias carpetas seleccionadas en la lista de proyectos. Las carpetas administradas incluyen cambiar el nombre, mover o eliminar carpetas.
+Puedes administrar carpetas en Workspace de dos formas. Desde la carpeta o desde una o varias carpetas seleccionadas en la lista de proyectos. Las carpetas de administración incluyen opciones para cambiar el nombre, mover o eliminar carpetas.
 
 ## Cambiar el nombre de la carpeta
 
@@ -24,13 +24,13 @@ Eliminar carpetas en Workspace
 * Selecciona una carpeta cuyo nombre desees cambiar en la [lista de proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
    1. Selecciona **[!UICONTROL Cambiar nombre]** de las [acciones](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles en el menú contextual ![Más](/help/assets/icons/More.svg) de la carpeta seleccionada o en la barra de acciones azul.
-   1. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de carpeta *]**, escribe un nombre nuevo y selecciona&#x200B;**[!UICONTROL Guardar &#x200B;]**.
+   1. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de carpeta *]**, escribe un nombre nuevo y selecciona**[!UICONTROL Guardar ]**.
 
 * Dentro de la carpeta cuyo nombre deseas cambiar.
 
    1. Selecciona **[!UICONTROL Cambiar nombre de carpeta]** de ![Más](/help/assets/icons/More.svg) en el [área de título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de carpeta *]**, escribe un nombre nuevo y selecciona&#x200B;**[!UICONTROL Guardar &#x200B;]**.
+   1. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de carpeta *]**, escribe un nombre nuevo y selecciona**[!UICONTROL Guardar ]**.
 
 
 ## Mover carpetas

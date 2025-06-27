@@ -1,13 +1,13 @@
 ---
-description: Obtenga información sobre cómo crear carpetas y subcarpetas en Workspace
+description: Obtenga información sobre cómo crear carpetas y subcarpetas en Analysis Workspace.
 keywords: Analysis Workspace
 title: Creación de carpetas
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 100%
+source-wordcount: '115'
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,7 @@ Para crear una nueva carpeta,
 
 1. En el cuadro de diálogo **[!UICONTROL Crear nueva carpeta]**, indica un nombre para la carpeta nueva. Por ejemplo: `Second Week Reports`.
 
-1. Selecciona etiquetas o escribe nuevas etiquetas en la lista desplegable **[!UICONTROL Etiquetas]**.
+1. Seleccione etiquetas o escriba nuevas etiquetas en el menú desplegable **[!UICONTROL Etiquetas]**.
 
    ![Crear nueva carpeta](../assets/create-new-folder.png)
 

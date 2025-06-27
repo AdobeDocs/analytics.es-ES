@@ -1,26 +1,26 @@
 ---
-description: Ejemplos de casos de uso para análisis de cohorte.
+description: Obtenga información acerca de algunos ejemplos de casos de uso para análisis de cohorte.
 keywords: Analysis Workspace
 title: Casos de uso de análisis de cohorte
 feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 99%
 
 ---
 
-# Casos de uso de [!UICONTROL análisis de cohorte]
+# Casos de uso de análisis de cohorte
 
 Ejemplos de casos de uso para [!UICONTROL Análisis de cohortes].
 
-## Caso de uso de interacción con aplicaciones {#section_ADEC6EE79F1846319B2E0D9544CC5E40}
+## Caso de uso de interacción con aplicaciones
 
 Imagine que desea analizar de qué manera los usuarios que instalan su aplicación interactúan con ella con el transcurso del tiempo. ¿La instalan y nunca la usan? ¿La usan por un tiempo y luego dejan de hacerlo? ¿O siguen interactuando con la aplicación a lo largo del tiempo?
 
-Puede crear un [!UICONTROL análisis de cohorte] de seis meses:
+Puede crear un análisis de cohorte de seis meses.
 
 **Granularidad**: mensual, de enero de 2015 a junio de 2015
 
@@ -30,7 +30,7 @@ Puede crear un [!UICONTROL análisis de cohorte] de seis meses:
 
 Los visitantes no cuentan como *`engaged`* en los meses siguientes a menos que estén en una sesión o al menos inicien la aplicación. El [!UICONTROL análisis de cohorte] entonces le mostraría patrones de uso donde *`App Install`* siempre ocurre en el Mes 0. Podría observar que el uso cae en el Mes 2, independientemente de cuándo instalaron la aplicación los usuarios (para quienes instalaron la aplicación en enero de 2015, el Mes 2 es marzo de 2015; Para quienes instalaron la aplicación en febrero de 2015, el mes 2 es abril de 2015, y así sucesivamente). Este análisis le permite enviar un correo electrónico o un mensaje push a todos los usuarios durante el segundo mes después de que instalan la aplicación para recordarles que usen la aplicación.
 
-## Caso de uso de suscripción {#section_FDECB16766CF415BB84AE46BA491FB5F}
+## Caso de uso de suscripción
 
 Trabaja en Adobe.com y ofrece una suscripción gratuita a Creative Cloud. El objetivo es que los usuarios actualicen de la versión gratuita a la versión de prueba por 30 días o, en definitiva, la versión paga.
 

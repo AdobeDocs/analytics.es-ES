@@ -1,13 +1,13 @@
 ---
-description: Obtenga información sobre las distintas opciones de guardado, como guardar automáticamente, guardar como, guardar como plantilla y abrir versiones anteriores.
+description: Obtenga información sobre las distintas opciones para guardar sus proyectos en Analysis Workspace.
 title: Guardar proyectos
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 97%
+source-wordcount: '846'
+ht-degree: 95%
 
 ---
 
@@ -89,7 +89,7 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
 
 
 <!-- Cannot find this option in CJA 
-| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es) that becomes available to your organization under **[!UICONTROL Project > New]** | 
+| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** | 
 -->
 
 ## Guardar automáticamente
@@ -140,7 +140,7 @@ Las opciones disponibles son las siguientes:
 
 #### Salir o cerrar una pestaña
 
-Si sale de la página o cierra la pestaña del explorador mientras visualiza un proyecto con cambios que aún no se han guardado automáticamente, el explorador le advertirá de que se perderán los cambios sin guardar. Puede elegir entre salir o cancelar. El modo en que el explorador le advierte depende del explorador que utilice.
+Si sale de la página o cierra la pestaña del explorador mientras visualiza un proyecto con cambios que aún no se han guardado automáticamente, el explorador le advertirá de que se perderán los cambios no guardados. Puede elegir entre salir o cancelar. El modo en que el explorador le advierte depende del explorador que utilice.
 
 
 ### El explorador se bloquea o se agota el tiempo de espera de la sesión
@@ -155,7 +155,7 @@ Si el explorador se bloquea o si se agota el tiempo de espera de la sesión, la 
 
 
 
-Para **nuevos** proyectos que nunca se han guardado, los cambios sin guardar no se pueden recuperar.
+Para **nuevos** proyectos que nunca se han guardado, los cambios no guardados no se pueden recuperar.
 
 
 <!-- Shouldn't this belong to another page?  Moved it to a new open projects page

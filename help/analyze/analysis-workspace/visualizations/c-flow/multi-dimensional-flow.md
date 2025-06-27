@@ -1,14 +1,14 @@
 ---
-description: Un flujo interdimensional le permite examinar las rutas del usuario entre diversas dimensiones.
+description: Descubra cómo un flujo interdimensional le permite examinar las rutas del usuario entre diversas dimensiones.
 title: Flujos interdimensionales
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
-workflow-type: ht
-source-wordcount: '340'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ Un flujo interdimensional le permite examinar las rutas del usuario entre divers
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flujos interdimensionales](https://video.tv.adobe.com/v/327473?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flujos interdimensionales](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -54,6 +54,6 @@ Reemplace la última dimensión **[!UICONTROL Nombre de campaña]** por la dimen
 
 ![Nombre de campaña web de flujo y dimensión de página web](assets/flowweb-replace.png)
 
-Puede pasar el ratón sobre cualquiera de los flujos para ver más detalles. Por ejemplo, qué campañas han resultado en un cierre de compra del carro de compras.
+Puede pasar el puntero por encima de cualquiera de los flujos para ver más detalles. Por ejemplo, qué campañas han resultado en un cierre de compra del carro de compras.
 
 ![Desplazamiento sobre nombre de campaña web de flujo y dimensión de página web](assets/flowweb-hover.png)

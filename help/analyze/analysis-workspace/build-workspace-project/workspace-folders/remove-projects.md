@@ -1,52 +1,64 @@
 ---
-description: Obtenga información acerca de cómo quitar proyectos de carpetas
+description: Obtenga información sobre cómo quitar proyectos de Analysis Workspace.
 keywords: Analysis Workspace
-title: Quitar proyectos de carpetas
+title: Eliminar proyectos
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 6fad2afb2b5792b6d6fbf8d94fff37b92cc18bda
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
 # Eliminar proyectos
 
-Para quitar un proyecto de una carpeta, puede moverlo a otra ubicación o eliminarlo.
+
+Ver [Acciones en Administrar proyectos](../freeform-overview.md#actions) sobre cómo quitar proyectos de Analysis Workspace.
+
+
+
+<!-- Is this article still needed; not in the TOC anymore
+
+
+# Delete projects
+
+To remove a project from a folder, you can move the project to another location or delete the project.
 
 >[!NOTE]
 >
->Cuando un administrador mueve un proyecto a la carpeta Compañía, esta se comparte con todos aunque los privilegios compartidos originales estén restringidos. Cuando un administrador mueve un proyecto fuera de la carpeta Compañía, se respetan los privilegios de uso compartido originales o anteriores.
+>When an Admin moves a project to the Company Folder, the folder is shared with everyone even if the original shared privileges were restricted. When an Admin moves a project out of the Company Folder, the original or previous sharing privileges are respected.
 
-## Traslado de un proyecto {#move-project-in-folder}
+## Move a project {#move-project-in-folder}
 
-Puede mover proyectos de una carpeta a otra que haya creado.
+You can move projects from one folder to another folder that you created.
 
-1. En una carpeta de proyecto, seleccione los puntos suspensivos **…** junto al nombre del proyecto.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. Seleccione **Mover a** y, a continuación, una carpeta a la que mover el proyecto.
+1. Select **Move to** and then select a folder to move the project to.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
-1. Haga clic en **Mover**.
+1. Click **Move**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
-   Un mensaje confirma que el proyecto se ha movido.
+    A toast confirms that the project was moved.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-## Eliminación de un proyecto de una carpeta de proyecto {#delete-project-in-folder}
+## Delete a project from a project folder {#delete-project-in-folder}
 
-Cuando se elimina un proyecto de una carpeta, se elimina del sistema pasados 180 días. Durante los 180 días posteriores a la eliminación, los usuarios aún pueden acceder a un proyecto eliminado a través de la interfaz web si tienen una URL al proyecto.
+When you delete a project from a folder, it gets purged from the system after 180 days. During the 180 days after deletion, users can still access a deleted project via the Web interface if they have a URL to the project.
 
-1. En una carpeta de proyecto, seleccione los puntos suspensivos **...** junto al nombre del proyecto.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. Seleccione **Eliminar**.
+1. Select **Delete**.
 
-1. Una ventana de confirmación le pedirá que confirme la eliminación.
+1. A confirmation window asks you to confirm the deletion.
+
+-->

@@ -1,14 +1,14 @@
 ---
-description: Utilice la visualización de mapas en un proyecto de Workspace.
+description: Utilice la visualización de mapas para trazar datos en una visualización de mapa geográfico
 title: Mapa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '696'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ La visualización ![Globo](/help/assets/icons/Globe.svg) **[!UICONTROL Mapa]** e
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de mapa en Analysis Workspace](https://video.tv.adobe.com/v/41506/?quality=12&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de mapa en Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target=&#34;_blank&#34;} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -119,8 +119,8 @@ Para definir la configuración de la visualización, seleccione ![Configuración
 | Configuración | Descripción |
 |--- |--- |
 | **[!UICONTROL Tipo de mapa]** | |
-| [!UICONTROL Burbujas] | Representa los eventos mediante burbujas. Un gráfico de burbujas es un gráfico multivariable a medio camino entre un diagrama de dispersión y un gráfico de superficie proporcional. Esta es la vista predeterminada. |
-| Mapa térmico | Representa los eventos mediante un mapa de calor. Se trata de una representación gráfica de datos que muestra como colores los valores individuales contenidos en una matriz. |
+| **[!UICONTROL Burbujas] | Representa los eventos mediante burbujas. Un gráfico de burbujas es un gráfico multivariable a medio camino entre un diagrama de dispersión y un gráfico de superficie proporcional. Esta es la vista predeterminada. |
+| [!UICONTROL Mapa de calor] | Representa los eventos mediante un mapa de calor. Se trata de una representación gráfica de datos que muestra como colores los valores individuales contenidos en una matriz. |
 | **[!UICONTROL Estilos]** | |
 | [!UICONTROL Tema de color] | Muestra el esquema de colores para el mapa de calor y las burbujas. Puede elegir entre Coral, Rojos, Verdes o Azules. El color predeterminado es Coral. |
 | [!UICONTROL Estilo de mapa] | Puede elegir entre Básico, Calles, Brillante, Claro, Oscuro y Satélite. |
@@ -132,7 +132,7 @@ Para definir la configuración de la visualización, seleccione ![Configuración
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/35172/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
 
 -->
 

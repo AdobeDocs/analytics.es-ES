@@ -1,13 +1,13 @@
 ---
-description: El panel Analytics for Target (A4T) le permite analizar las actividades y experiencias de Adobe Target en Analysis Workspace.
-title: Panel de Analytics for Target (A4T)
+description: Aprenda a utilizar el panel de Analytics for Target para analizar las actividades y experiencias de Adobe Target en Analysis Workspace.
+title: Panel De Analytics For Target
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 100%
+source-wordcount: '1132'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ El panel Analytics for Target le permite analizar las actividades y experiencias
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de Analytics for Target](https://video.tv.adobe.com/v/326711?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de Analytics for Target](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -85,10 +85,10 @@ Cada tabla de forma libre muestra las siguientes columnas de métricas:
 | **[!UICONTROL Métrica de éxito]** | La métrica de éxito seleccionada en el panel de entrada. |
 | **[!UICONTROL Tasa de conversión]** | Métrica de éxito/métrica de normalización. |
 | **[!UICONTROL Alza]** | Compara la tasa de conversión de cada experiencia con la experiencia de control. Nota: El alza es una *métrica bloqueada* de las experiencias de Target, no se puede desglosar ni utilizar con otras dimensiones. |
-| **[!UICONTROL Alza (inferior)]** | Este valor representa la peor elevación que una experiencia de variante podría tener sobre el control con un intervalo de confianza del 95 %.<br>Consulte [Cálculos estadísticos](https://experienceleague.adobe.com/es/docs/target/using/reports/statistical-methodology/statistical-calculations) y el archivo de Excel [Calculadora de confianza completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=es) para obtener más información. |
-| **[!UICONTROL Alza (media)]** | Este valor representa el alza del punto medio que una experiencia de variante podría tener sobre el control, con un intervalo de confianza del 95 %. <br>Consulte [Cálculos estadísticos](https://experienceleague.adobe.com/es/docs/target/using/reports/statistical-methodology/statistical-calculations) y el archivo de Excel [Calculadora de confianza completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=es) para obtener más información. |
-| **[!UICONTROL Alza (superior)]** | Este valor representa la mejor alza que una experiencia de variante podría tener sobre el control con un intervalo de confianza del 95 %.<br>Consulte [Cálculos estadísticos](https://experienceleague.adobe.com/es/docs/target/using/reports/statistical-methodology/statistical-calculations) y el archivo de Excel [Calculadora de confianza completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=es) para obtener más información. |
-| **[!UICONTROL Confianza]** | La prueba T-test para estudiantes calcula el nivel de confianza, que indica la probabilidad de que los resultados se dupliquen si se vuelve a ejecutar la prueba. Se ha aplicado a la métrica un rango de formato condicional fijo del 75%/85%/95%. Este formato se puede personalizar, si es necesario, desde Configuración de columna. Nota: La confianza es una “métrica bloqueada” para las experiencias de Target; no se puede desglosar ni utilizar con otras dimensiones.<br>Consulte [Cálculos estadísticos](https://experienceleague.adobe.com/es/docs/target/using/reports/statistical-methodology/statistical-calculations) y el archivo de Excel [Calculadora de confianza completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=es) para obtener más información. |
+| **[!UICONTROL Alza (inferior)]** | Este valor representa la peor elevación que una experiencia de variante podría tener sobre el control con un intervalo de confianza del 95 %.<br>Consulte [Cálculos estadísticos](https://experienceleague.adobe.com/es/docs/target/using/reports/statistical-methodology/statistical-calculations) y el archivo de Excel [Calculadora de confianza completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) para obtener más información. |
+| **[!UICONTROL Alza (media)]** | Este valor representa el alza del punto medio que una experiencia de variante podría tener sobre el control, con un intervalo de confianza del 95 %. <br>Consulte [Cálculos estadísticos](https://experienceleague.adobe.com/es/docs/target/using/reports/statistical-methodology/statistical-calculations) y el archivo de Excel [Calculadora de confianza completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) para obtener más información. |
+| **[!UICONTROL Alza (superior)]** | Este valor representa la mejor alza que una experiencia de variante podría tener sobre el control con un intervalo de confianza del 95 %.<br>Consulte [Cálculos estadísticos](https://experienceleague.adobe.com/es/docs/target/using/reports/statistical-methodology/statistical-calculations) y el archivo de Excel [Calculadora de confianza completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) para obtener más información. |
+| **[!UICONTROL Confianza]** | La prueba T-test para estudiantes calcula el nivel de confianza, que indica la probabilidad de que los resultados se dupliquen si se vuelve a ejecutar la prueba. Se ha aplicado a la métrica un rango de formato condicional fijo del 75%/85%/95%. Este formato se puede personalizar, si es necesario, desde Configuración de columna. Nota: La confianza es una “métrica bloqueada” para las experiencias de Target; no se puede desglosar ni utilizar con otras dimensiones.<br>Consulte [Cálculos estadísticos](https://experienceleague.adobe.com/es/docs/target/using/reports/statistical-methodology/statistical-calculations) y el archivo de Excel [Calculadora de confianza completa](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) para obtener más información. |
 
 Como con cualquier panel de Analysis Workspace, puede continuar con el análisis añadiendo tablas y [visualizaciones](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations) adicionales que le ayudarán a analizar sus actividades de Adobe Target. También puede aplicar un segmento en el nivel de panel o en la tabla de forma libre. Tenga en cuenta que si lo agrega dentro de la tabla de forma libre, debe superponerlo en toda la tabla para conservar los cálculos de elevación y confianza. Los segmentos de nivel de columna no son compatibles en este momento.
 

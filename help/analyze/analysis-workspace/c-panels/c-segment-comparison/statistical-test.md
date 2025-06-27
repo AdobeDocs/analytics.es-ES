@@ -1,14 +1,14 @@
 ---
-description: Cada una de las tablas de comparación principales muestra una puntuación diferente que se calcula mediante varias pruebas estadísticas, dependiendo de la comparación que se realice; no obstante, independientemente de la prueba que se utilice, la puntuación de diferencia se muestra como un valor entre 0 y 1.
+description: Descubra cómo se utilizan las pruebas estadísticas en la comparación de segmentos.
 keywords: Analysis Workspace;IQ de segmento
-title: Pruebas estadísticas utilizadas en la comparación de segmentos
+title: Pruebas Estadísticas Utilizadas En La Comparación De Segmentos
 feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '477'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 95%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
-title: Panel de audiencia media por minuto de medios
-description: Cómo utilizar e interpretar el panel Audiencia media por minuto de medios en Analysis Workspace.
+title: Panel Audiencia media por minuto de medios
+description: Aprenda a utilizar e interpretar el panel Audiencia media por minuto de medios en Analysis Workspace.
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 100%
+source-wordcount: '1815'
+ht-degree: 98%
 
 ---
 
@@ -117,7 +117,7 @@ Utilice la configuración de entrada que se describe en esta sección para confi
 
    | Opciones | Descripción |
    |---------|------------|
-   | **[!UICONTROL Granularidad]** | La granularidad predeterminada es de [!UICONTROL **5 minutos**], pero puede elegir cualquiera de las granularidades que se utilizan como denominador para la serie temporal dentro del período de tiempo seleccionado. Por ejemplo, si selecciona 12:00 a 12:30 horas de la noche con una granularidad de 5 minutos, obtendrá la audiencia media por minuto durante la media hora completa, así como seis filas con la audiencia media por minuto para cada período de 5 minutos. Estas filas se utilizan como puntos de datos para el gráfico de series temporales. |
+   | **[!UICONTROL Granularidad]** | La granularidad predeterminada es de [!UICONTROL **5 minutos**], pero puede elegir cualquiera de las granularidades que se utilizan como denominador para la serie temporal dentro del período de tiempo seleccionado. Por ejemplo, si selecciona 12:00 a 12:30 horas de la noche con una granularidad de 5 minutos, obtendrá la audiencia media por minuto durante la media hora completa, así como seis filas con la audiencia media por minuto para cada período de 5 minutos. Estas filas se utilizan como puntos de datos para el gráfico de serie temporal. |
    | [!UICONTROL **Filtrar contenido por (opcional)**] | Puede filtrar el contenido específico según la vista que desee o la forma en que se estructuran los datos. <ul>[!UICONTROL **Mostrar temporada, episodio**]: muestra los programas disponibles en la lista desplegable, que puede filtrar mediante una búsqueda (o arrastrando y soltando el nombre del programa desde la columna izquierda). Puede terminar su selección allí para ver todas las temporadas del programa, o puede filtrar por temporadas individuales y luego por episodios individuales. Esta configuración muestra los datos de los programas, las temporadas o los episodios del período de tiempo seleccionado.</li><li>[!UICONTROL **Dimensión personalizada**]: si el nombre del programa se encuentra en una dimensión personalizada, puede encontrarla buscando en la lista desplegable de dimensiones (opcional) o utilizando la búsqueda de la columna izquierda. El elemento de dimensión se rellena automáticamente en función de esa selección y se trata como un episodio.</li><li>[!UICONTROL **Ninguno**]: muestra todos los nombres de vídeo que tengan datos de audiencia media por minuto para la selección que haya elegido. (Esta opción está seleccionada de manera predeterminada).</li></ul> |
 
 1. Continúe con [Configuración avanzada del período de tiempo personalizado](#custom-time-period-advanced-settings) para establecer la configuración avanzada.

@@ -1,17 +1,17 @@
 ---
-description: Utilice la visualización de visitas en orden previsto de un proyecto de Workspace.
-title: Resumen de abandonos
+description: Aprenda a utilizar la visualización de abandonos en Analysis Workspace.
+title: Información general de visitas en orden previsto
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '265'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 95%
 
 ---
 
-# Resumen de abandonos {#fallout-overview}
+# Resumen de visita en orden previsto {#fallout-overview}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -29,7 +29,7 @@ _Este artículo documenta la visualización de Visitas en el orden previsto en_ 
 
 >[!ENDSHADEBOX]
 
-Las visualizaciones de visitas en el orden previsto ofrecen más opciones para crear sus informes de visitas en el orden previsto. Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas.
+Una visualización ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Visita en orden previsto]** muestra dónde los visitantes se fueron (abandonaron) y continuaron (fracasaron) en una secuencia de páginas predefinidas.
 
 
 >[!BEGINSHADEBOX]
@@ -37,6 +37,8 @@ Las visualizaciones de visitas en el orden previsto ofrecen más opciones para c
 Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de Visitas en el orden previsto](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
+
+
 
 
 Las visualizaciones de visitas en el orden previsto le permiten:

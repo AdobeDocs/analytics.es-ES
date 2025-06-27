@@ -1,14 +1,14 @@
 ---
-description: La configuración de filas varía en función del componente que haya arrastrado a la tabla.
+description: Aprenda a utilizar la configuración de fila y a variar la configuración de fila en función del componente que haya arrastrado a una tabla de forma libre en Analysis Workspace.
 title: Configuración de filas
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
-workflow-type: ht
-source-wordcount: '1045'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '1055'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://video.tv.adobe.com/v/328505/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -49,8 +49,8 @@ Las siguientes opciones de menú contextual están disponibles al seleccionar el
 
 | Opción | Descripción |
 | --- | --- |
-| **[!UICONTROL Copiar selección al portapapeles]** | Copie la selección de la visualización en el portapapeles. |
-| **[!UICONTROL Descargar elementos como CSV (*nombre de dimensión*)]** | Descargue inmediatamente los elementos de dimensión (hasta un máximo de 50 000) de la visualización en su dispositivo local. Un máximo de 50 000 elementos de dimensión para la dimensión seleccionada. |
+| **[!UICONTROL Copiar selección al portapapeles]** | Copia la selección de la visualización en el portapapeles. |
+| **[!UICONTROL Descargar elementos como CSV (*nombre de dimensión*)]** | Descarga inmediatamente los elementos de dimensión (hasta un máximo de 50 000) de la visualización en su dispositivo local. Un máximo de 50 000 elementos de dimensión para la dimensión seleccionada. |
 | **[!UICONTROL Descargar selección como CSV]** | Descargue inmediatamente los elementos de dimensión de la visualización en su dispositivo local. |
 | **[!UICONTROL Crear hipervínculos para todos los elementos de dimensión]** | Cree hipervínculos para todos los elementos de dimensión. Consulte [Hipervínculos para dimensiones en una tabla de forma libre](../freeform-table-hyperlinks.md) |
 | **[!UICONTROL Editar hipervínculos para todos los elementos de dimensión]** | Editar hipervínculos para todos los elementos de dimensión. Consulte [Hipervínculos para dimensiones en una tabla de forma libre](../freeform-table-hyperlinks.md) |
@@ -92,4 +92,4 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 
 ## Cambiar altura de fila
 
-Puede establecer la densidad de la vista de un proyecto en **[!UICONTROL Compacta]**, **[!UICONTROL Cómoda]** y **[!UICONTROL Ampliada]**. [Más información](/help/analyze/analysis-workspace/build-workspace-project/view-density.md).
+Puede establecer la [densidad de visualización](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) de un proyecto en **[!UICONTROL Compacto]**, **[!UICONTROL Cómodo]** y **[!UICONTROL Expandido]**.

@@ -1,13 +1,13 @@
 ---
-description: Le permite ver cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos).
-title: Gráfico de viñetas
+description: Aprenda a utilizar la visualización de viñetas en Analysis Workspace. La visualización de viñetas le permite comparar u comparar medidas con otros rangos de rendimiento (objetivos).
+title: Viñeta
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '266'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 90%
 
 ---
 
@@ -41,27 +41,27 @@ La visualización ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTR
 
 ![Visualización de gráfico de viñetas](assets/bullet.png)
 
-El gráfico de bala presenta una única medida principal (por ejemplo, los ingresos anuales actuales hasta la fecha) y permite introducir intervalos cualitativos de rendimiento (por ejemplo, en comparación con los ingresos objetivo). Puede especificar rangos de objetivo alto, medio y bajo. Puede especificar rangos de objetivos en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]**.
+El gráfico de bala presenta una única medida principal (por ejemplo, los ingresos anuales actuales hasta la fecha) y permite introducir intervalos cualitativos de rendimiento (por ejemplo, en comparación con los ingresos objetivo). Puede especificar rangos altos, medios y bajos. Puede especificar rangos de metas en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]**.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización del gráfico de viñetas](https://video.tv.adobe.com/v/41511/?quality=12/?quality=12&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización del gráfico de viñetas](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target=&#34;_blank&#34;} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 ## Configuración
 
-Puede definir una configuración específica para una visualización de [!UICONTROL viñetas].
+Puede definir una configuración específica para una visualización de [!UICONTROL viñeta].
 
 | Configuración | Descripción |
 |---|---|
-| **[!UICONTROL Opciones de viñeta]** | Especifique los valores para **[!UICONTROL Objetivo alto]**, **[!UICONTROL Objetivo medio]** y **[!UICONTROL Objetivo bajo]** en la visualización [!UICONTROL Viñeta]. <br/>**[!UICONTROL Objetivo alto ]**es el objetivo principal que busca.**[!UICONTROL  Objetivo bajo ]**y**[!UICONTROL  Objetivo medio ]**crean rangos por debajo del objetivo Alto. Nota: Cuando la opción**[!UICONTROL  Porcentajes ]**esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento. |
+| **[!UICONTROL Opciones de viñeta]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta media]** y **[!UICONTROL Meta baja]** en la visualización de [!UICONTROL Viñeta]. <br/>**[!UICONTROL Meta alta ]**es el objetivo principal que busca.**[!UICONTROL  Meta baja ]**y**[!UICONTROL  Meta media ]**crean intervalos por debajo de la Meta alta. Nota: Cuando la opción**[!UICONTROL  Porcentajes ]**esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento. |
 
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menú contextual de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menú contextual de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

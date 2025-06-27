@@ -1,13 +1,13 @@
 ---
-description: Información rápida es una herramienta para nuevos usuarios de Workspace que les guía en la creación de tablas de datos y visualizaciones
+description: Aprenda a utilizar el panel Quick insights como guía para crear tablas de datos y visualizaciones en Analysis Workspace.
 title: Panel de información rápida
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ La primera vez que empieces a usar este [!UICONTROL Analysis Workspace], es posi
 * qué dimensiones y métricas pueden facilitar las perspectivas,
 * dónde arrastrar y soltar elementos,
 * dónde crear un filtro,
-* y más
+* y más.
 
 Para ayudarlo con estas preguntas,[!UICONTROL Información rápida] aprovecha un algoritmo que le presenta las dimensiones, métricas, segmentos e intervalos de fechas más populares que usa su compañía. Este algoritmo se basa en el uso que hace su propia compañía de los componentes de datos en [!UICONTROL Analysis Workspace]. De hecho, verá dimensiones, métricas y filtros etiquetados como [!UICONTROL POPULAR] en la lista desplegable, como se muestra a continuación:
 
@@ -62,7 +62,7 @@ A continuación se incluyen algunos de los términos básicos que debes conocer.
 | **[!UICONTROL Métrica]** | Las métricas constituyen información cuantitativa sobre la actividad de la persona, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc. |
 | **[!UICONTROL Visualización]** | Workspace ofrece [varias visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para generar representaciones visuales de tus datos. Como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. |
 | **[!UICONTROL Desglose de dimensiones]** | Un desglose de dimensión es una forma de desglosar literalmente una dimensión por otras dimensiones. Por ejemplo, puedes desglosar los estados de EE. UU. por dispositivos móviles para obtener las visitas de los dispositivos móviles por estado. O puedes desglosar Dispositivos móviles por Tipos de dispositivos móviles, por Regiones, por Campañas internas y más. |
-| **[!UICONTROL Segmentos]** | Los segmentos permiten identificar subconjuntos de personas basándose en sus características o en las interacciones con el sitio web. Por ejemplo, puede generar segmentos de [!UICONTROL Visitantes] basados en <li>atributos: tipo de explorador, dispositivo, número de visitas, país, sexo o</li><li>interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o</li><li>salidas y entradas: visitantes de Facebook, una página de aterrizaje definida, un dominio de referencia o</li><li> variables personalizadas: campo de formulario, categorías definidas o ID de cliente. |
+| **[!UICONTROL Segmentos]** | Los segmentos permiten identificar subconjuntos de personas basándose en sus características o en las interacciones con el sitio web. Por ejemplo, puede generar segmentos de [!UICONTROL Visitantes] basados en <li>atributos: tipo de explorador, dispositivo, número de visitas, país, género o</li><li>interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o</li><li>salidas y entradas: visitantes de Facebook, una página de destino definida, un dominio de referencia o</li><li> variables personalizadas: campo de formulario, categorías definidas o ID de cliente. |
 
 ## Usar
 
@@ -125,13 +125,13 @@ En [!UICONTROL Quick Insights Builder], aparecerán otras sugerencias útiles, a
 
   ![Generador de perspectivas rápidas](assets/qibuilder-result.png)
 
-   * **[!UICONTROL Analizar]** dimensión **[!UICONTROL Desglosar por]**: puedes utilizar hasta tres niveles de desgloses en las dimensiones para profundizar en los datos que realmente necesita. Consulta ➊, ➋ y ➌.
+   * **[!UICONTROL Analizar]** dimensión **[!UICONTROL Desglosar por]**: puedes utilizar hasta tres niveles de desgloses en las dimensiones para profundizar en los datos que realmente necesita. Ver ➊, ➋ y ➌.
 
-   * Agregar más métricas **[!UICONTROL por]**: puedes agregar hasta dos métricas más. Consulta ➍ y ➎.
+   * Agregar más métricas **[!UICONTROL por]**: puedes agregar hasta dos métricas más. Ver ➍ y ➎.
 
-   * **[!UICONTROL filtrar por]**: puede añadir hasta 2 segmentos más. Por ejemplo, añada Reservas como segmento y combine ese segmento con los segmentos de Viajeros frecuentes y Viajeros por primera vez que compare. Consulta ➏, ➐ y ➑.
+   * **[!UICONTROL filtrar por]**: puede añadir hasta 2 segmentos más. Por ejemplo, añada Reservas como segmento y combine ese segmento con los segmentos de Viajeros frecuentes y Viajeros por primera vez que compare. Ver ➏, ➐ y ➑.
 
-   * activado: puede especificar el rango de fechas. Consulta ➒.
+   * activado: puede especificar el rango de fechas. Ver ➒.
 
 ## Limitaciones conocidas
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326700/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 

@@ -1,21 +1,21 @@
 ---
-description: Información acerca de las carpetas en Workspace
+description: Aprenda a organizar sus proyectos en carpetas en Analysis Workspace.
 keywords: Analysis Workspace
-title: Información general de carpetas
+title: Información general sobre carpetas
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
 # Información general de carpetas
 
-Las carpetas de Adobe Analytics están disponibles en la página de aterrizaje de Workspace cuando ha seleccionado [Mostrar carpetas y proyectos](../freeform-overview.md#show-selector).
-
 Las carpetas de Workspace ayudan a organizar y clasificar sus proyectos. Con la funcionalidad de carpetas, puedes crear carpetas y subcarpetas para administrar tus proyectos.
+
+Las carpetas de Adobe Analytics están disponibles en la página de aterrizaje de Workspace cuando ha seleccionado [Mostrar carpetas y proyectos](../freeform-overview.md#show-selector).
 
 Existen dos tipos de carpetas en Workspace: la carpeta de compañía y las carpetas personales. Además, una carpeta Compañía compartida permite a los administradores crear y compartir contenido fácilmente con todos los usuarios del Espacio de trabajo.
 

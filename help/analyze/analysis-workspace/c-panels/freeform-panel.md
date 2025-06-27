@@ -1,13 +1,13 @@
 ---
-description: Obtenga información sobre los paneles de forma libre
-title: Panel de forma libre
+description: Aprenda a utilizar paneles de forma libre con una tabla de forma libre como estado de partida para su proyecto de Analysis Workspace.
+title: Panel improvisado
 feature: Panels
 role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
-source-git-commit: fe1d4a87157a125f6065a6d827e4266d4ddefd4e
-workflow-type: ht
-source-wordcount: '109'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 84%
 
 ---
 
@@ -22,11 +22,11 @@ _Este artículo documenta el panel de forma libre en_ ![Adobe Analytics](/help/a
 
 Un **[!UICONTROL panel de forma libre]** es un panel en blanco con una visualización de [tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) como estado inicial por defecto.
 
-## Usar
+## Utiliza
 
 Para usar un **[!UICONTROL panel de forma libre]**:
 
-1. Cree un **[!UICONTROL panel de forma libre]**. Para obtener información sobre cómo crear un panel, consulte [Crear un panel](panels.md#create-a-panel).
+1. Cree un **[!UICONTROL panel de forma libre]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
 
    ![Panel de forma libre predeterminado que muestra un panel en blanco con una tabla de forma libre.](assets/freeform-panel.png)
 
@@ -36,6 +36,6 @@ Para usar un **[!UICONTROL panel de forma libre]**:
 >[!MORELIKETHIS]
 >
 >[Crear un panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Guía de componentes de Analytics](/help/components/home.md)
->[Visualización de tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>>[Guía de componentes de Analytics](/help/components/home.md)
+>>[Visualización de tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

@@ -1,26 +1,28 @@
 ---
-description: Interacciones de teclado estándar, teclas de acceso directo y comportamientos de apuntar y hacer clic disponibles en Analysis Workspace.
+description: Aprenda a utilizar las interacciones de teclado, las teclas de método abreviado y los comportamientos de apuntar y hacer clic disponibles en Analysis Workspace.
 keywords: Analysis Workspace
-title: Teclas de acceso directo (métodos abreviados)
+title: Teclas de acceso directo
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 92%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
-# Teclas de acceso directo (métodos abreviados)
+# Teclas de acceso directo
+
+Las teclas de acceso directo (métodos abreviados de teclado) están disponibles en Analysis Workspace para una navegación, análisis y democratización sin problemas.
 
 Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 
-- **⇧** para **[!UICONTROL **&#x200B; shift &#x200B;**]**.
-- **⌘** para **[!UICONTROL **&#x200B; cmd &#x200B;**]** (comando).
-- **⌃** para **[!UICONTROL **&#x200B; ctrl &#x200B;**]** (control).
-- **⌥** para **[!UICONTROL **&#x200B; opt &#x200B;**]** (opción).
-- **⎇** para **[!UICONTROL **&#x200B; alt &#x200B;**]** (alternativo).
+- **⇧** para **[!UICONTROL ** shift **]**.
+- **⌘** para **[!UICONTROL ** cmd **]** (comando).
+- **⌃** para **[!UICONTROL ** ctrl **]** (control).
+- **⌥** para **[!UICONTROL ** opt **]** (opción).
+- **⎇** para **[!UICONTROL ** alt **]** (alternativo).
 
 ## Acciones de navegación
 

@@ -5,14 +5,14 @@ keywords: IQ de segmento
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
-# Casos de uso de IQ de segmentos
+# Casos de uso de comparación de segmentos
 
 El panel de comparación de segmentos es una función muy utilizada en Analysis Workspace. Los clientes descubren con frecuencia nuevas formas de generar perspectivas. Los siguientes son varios casos de éxito.
 
@@ -60,7 +60,7 @@ Una gran empresa de servicios B2B quería entender el tipo de tráfico que llega
 
 > *“Descubrimos que las personas que compraban productos Fitbit tenían 6 veces más probabilidad de recibir un mensaje “sin existencias” sobre ellos que todos los demás, por lo que encargamos rápidamente más productos Fitbit para evitar quedarnos sin stock”.*
 
-**Situación:** un importante minorista que vende en línea estaba interesado en saber qué tal se vendía uno de los productos estrella de las fiestas, Fitbit, y en qué se diferenciaban sus compradores de los demás clientes. El equipo de marketing solo tuvo que hacer clic derecho en el elemento “Fitbit” del informe de productos y ejecutar un rápido análisis con IQ de segmento. Lo que descubrieron fue que los usuarios que compraban Fitbits tenían 6 veces más probabilidad de encontrarse el mensaje “sin existencias” que cualquier otro cliente. Tras nuevos análisis, pudieron dirigir a estos visitantes a las tiendas físicas mientras ellos esperaban a que el departamento de compras realizara nuevos pedidos de Fitbits. Como resultado, el minorista evitó nuevos mensajes de falta de existencias y pudo satisfacer mejor la demanda de las fiestas.
+**Situación:** un importante minorista que vende en línea estaba interesado en saber qué tal se vendía uno de los productos estrella de las fiestas, Fitbit, y en qué se diferenciaban sus compradores de los demás clientes. El equipo de marketing pudo simplemente hacer clic con el botón derecho en el elemento de línea &quot;Fitbit&quot; de su informe de productos y ejecutar rápidamente un análisis de IQ de segmento. Descubrieron que los usuarios que compraban productos Fitbit tenían 6 veces más probabilidad de encontrarse el mensaje &quot;sin existencias&quot; que cualquier otro cliente. Tras nuevos análisis, pudieron dirigir a estos visitantes a las tiendas físicas mientras ellos esperaban a que el departamento de compras realizara nuevos pedidos de Fitbits. Como resultado, el minorista evitó nuevos mensajes de falta de existencias y pudo satisfacer mejor la demanda de las fiestas.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |

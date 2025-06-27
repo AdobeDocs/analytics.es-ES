@@ -1,13 +1,13 @@
 ---
-title: Elementos de dimensión dinámicos o estáticos en tablas improvisadas
-description: Interacción con elementos de dimensión dinámicos y estáticos en tablas.
+title: Elementos De Dimension Dinámicos Y Estáticos
+description: Aprenda a utilizar elementos de dimensión dinámicos frente a estáticos en tablas de forma libre en Analysis Workspace.
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '553'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +58,7 @@ Las filas dinámicas y estáticas se comportan de forma diferente en la fila tot
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Reordenar filas estáticas](https://video.tv.adobe.com/v/33797?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Reordenar filas estáticas](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

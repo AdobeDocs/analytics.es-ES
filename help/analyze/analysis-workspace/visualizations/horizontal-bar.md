@@ -1,14 +1,14 @@
 ---
-description: Esta visualización muestra las barras horizontales que representan los distintos valores de una o varias métricas.
-title: Barras horizontales y barras horizontales apiladas
+description: Aprenda a utilizar barras horizontales para representar varios valores en una o varias métricas.
+title: Barra Horizontal Y Barra Horizontal Apiladas
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 feature: Visualizations
 role: User, Admin
 exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '193'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 89%
 
 ---
 
@@ -33,7 +33,7 @@ La visualización de barras horizontales tiene una opción estándar y apilada.
 
 <!-- markdownlint-enable MD034 -->
 
-La visualización ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Barra horizontal]** muestra barras horizontales que representan diversos valores en una o varias métricas.
+Esta visualización ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Barra horizontal]** muestra las barras horizontales que representan varios valores en una o varias métricas.
 
 ![Barra horizontal que muestra métricas como Vistas de página, Velocidad de página, Visitas, Entradas y Salidas.](assets/horizontal-bar.png)
 
@@ -54,7 +54,7 @@ La visualización ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizo
 
 ![Barra horizontal apilada que muestra vistas de página, visitas, entradas y salidas.](assets/horizontal-bar-stacked.png)
 
-Use la opción **[!UICONTROL 100% apilada]** en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** para convertir el gráfico en una visualización apilada al 100%.
+Utilice la opción **[!UICONTROL Apilada al 100 %]** en ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración]** para convertir el gráfico en una visualización apilada al 100 %.
 
 ![Barra horizontal apilada al 100 %](assets/horizontal-bar-stacked100.png)
 
@@ -62,7 +62,7 @@ Use la opción **[!UICONTROL 100% apilada]** en ![Configuración](/help/assets/i
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menú contextual de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menú contextual de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

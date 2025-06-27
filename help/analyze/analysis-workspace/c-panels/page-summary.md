@@ -1,13 +1,13 @@
 ---
-description: El panel de resumen de página muestra información resumida de una página de su elección.
-title: Panel Resumen de página
+description: Aprenda a utilizar el panel de resumen de página para mostrar la información de resumen de una página seleccionada.
+title: Panel de resumen de página
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 100%
+source-wordcount: '614'
+ht-degree: 96%
 
 ---
 
