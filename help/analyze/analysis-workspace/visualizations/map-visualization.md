@@ -46,7 +46,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de mapas en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Actualmente no hay ninguna visualización de mapas disponible en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_Este artículo documenta la visualización de mapas en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Actualmente no hay ninguna visualización de mapas disponible en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 

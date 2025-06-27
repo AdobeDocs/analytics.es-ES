@@ -27,14 +27,14 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Panel Resumen de página"
->abstract="Revise rápidamente algunas de las métricas de alto nivel, así como el movimiento desde y hacia una página específica.<br/><br/>**Parámetros **<br/>**Añadir un elemento de dimensión de página**: abra el carril del componente, busque la dimensión Página y expándala haciendo clic en la zanahoria para ver los elementos de dimensión. A continuación, arrastre y suelte la página específica sobre la que desee obtener información en el generador. Una vez que haya arrastrado y soltado el elemento de dimensión, el informe se rellenará automáticamente con información clave sobre la página."
+>abstract="Revise rápidamente algunas de las métricas de alto nivel, así como el movimiento desde y hacia una página específica.<br/><br/>**Parámetros &#x200B;**<br/>**Añadir un elemento de dimensión de página**: abra el carril del componente, busque la dimensión Página y expándala haciendo clic en la zanahoria para ver los elementos de dimensión. A continuación, arrastre y suelte la página específica sobre la que desee obtener información en el generador. Una vez que haya arrastrado y soltado el elemento de dimensión, el informe se rellenará automáticamente con información clave sobre la página."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Resumen de página en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_No hay un panel equivalente en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_Este artículo documenta el panel Resumen de página en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_No hay un panel equivalente en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
