@@ -1,116 +1,233 @@
 ---
-description: Puede descargar datos de Analysis Workspace copiándolos, o en los formatos PDF y CSV.
-title: Descarga de archivos PDF o CSV
+description: Obtenga información sobre las distintas posibilidades para descargar datos de su proyecto de Analysis Workspace.
+title: Descargar Proyectos Y Datos De Analysis Workspace
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 04c588cbe8cd4cc9b8d6fe162e3623c2be076325
+source-git-commit: 599fbea7cb22e9cd0193b56fc2fb3c506bc62949
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 89%
+source-wordcount: '1066'
+ht-degree: 27%
 
 ---
 
-# Descarga de archivos PDF o CSV
 
-Existen varias formas de exportar datos desde Analysis Workspace. El método que elija dependerá del conjunto de datos que desee analizar y de quién deba acceder a ellos.
+# Descargar proyectos y datos
 
-Los datos exportados pueden estar en forma de datos copiados, CSV o PDF. Normalmente, se prefiere un PDF si desea que las visualizaciones se incluyan en el archivo. Se prefieren los datos CSV y copiados si simplemente desea datos de texto sin formato.
+Puede descargar proyectos y datos de Analysis Workspace en su dispositivo local. Esta descarga puede copiarse en datos, en un archivo CSV (datos de valores separados por comas) o en un documento PDF (formato de documento portátil).
 
-## Descarga de un proyecto como CSV o PDF {#download-project}
+* Seleccione la opción PDF si desea que las visualizaciones se incluyan en el archivo descargado.
+* Seleccione las opciones CSV y datos copiados si solo necesita datos de texto sin formato.
 
-Tenga en cuenta lo siguiente al descargar proyectos:
+En la [Guía de exportación](/help/export/home.md) se describen métodos adicionales para exportar datos de Adobe Analytics.
 
-* Al descargar proyectos como CSV o PDF, el proyecto se puede guardar o no guardar cuando se solicita una descarga de proyecto. Sin embargo, solo los proyectos guardados pueden [programarse](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md).
+## Descargar como CSV o PDF {#download-project}
 
-* Al descargar proyectos como PDF:
-   * Las descargas pueden tardar varios minutos en exportarse, ya que el proyecto se vuelve a ejecutar en los servidores de Adobe antes de procesarse en formato de PDF. Se recomienda no abandonar el proyecto hasta que el PDF se descargue en el explorador. Sin embargo, puede seguir realizando cambios en el proyecto mientras espera. Si un PDF tarda más de 5 minutos en procesarse, se le pedirá que lo envíe por correo electrónico.
-   * Las descargas se representan como una sola página sin paginación aplicada.
-   * Las representaciones de PDF contienen lo que hay en la página en Workspace. Si un proyecto tiene paneles y visualizaciones de tamaño personalizado, deberá cambiarlos a tamaño automático (mediante el botón que hay en la esquina superior derecha) para que no se trunque el contenido.
-   * Los [hipervínculos](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) que existen en las tablas de forma libre no funcionan en el PDF descargado.
+![Menú desplegable Proyecto con las opciones Descargar CSV y Descargar PDF resaltadas.](assets/download-project.png)
 
-Para descargar un proyecto como archivo CSV o de PDF:
+Tenga en cuenta lo siguiente al descargar un proyecto como PDF:
 
-1. Realice una de las siguientes acciones, en función del formato en el que desee descargar el proyecto:
+* La descarga puede tardar varios minutos, a medida que el proyecto se vuelve a ejecutar en los servidores de Adobe, en procesarse en formato PDF. No abandone el proyecto hasta que el proyecto se descargue en el explorador.  Puede seguir realizando cambios en el proyecto mientras se procesa la descarga. Si un PDF tarda más de 5 minutos en procesarse, se le pedirá que [envíe por correo electrónico el PDF](../curate-share/send-schedule-files.md).
+* Las descargas se representan como una sola página sin paginación.
+* PDF contiene lo que es visible en la página del explorador en Analysis Workspace. Es necesario ajustar automáticamente el tamaño de las visualizaciones y los paneles a medida para evitar que el contenido se trunque. Seleccione ![Cambiar tamaño](/help/assets/icons/Resize.svg) para cambiar automáticamente el tamaño de una visualización o panel a medida.
+* [Hipervínculos](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) en tablas improvisadas como hipervínculos en el PDF descargado.
 
-   * **PDF:** Seleccione **[!UICONTROL Proyecto]** > **[!UICONTROL Descargar PDF]**.
 
-     Elija esta opción si desea que el archivo descargado contenga todas las tablas y visualizaciones mostradas (visibles) en el proyecto.
 
-   * **CSV:** Seleccione **[!UICONTROL Proyecto]** > **[!UICONTROL Descargar CSV]**.
+Para descargar un proyecto como archivo de PDF:
 
-     Elija esta opción si desea datos de texto sin formato.
+1. Seleccione **[!UICONTROL Proyecto]** > **[!UICONTROL Descargar PDF]**.
+Una barra verde con el mensaje ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Se ha solicitado su descarga. Espere un momento.]** se muestra.
 
-   ![](assets/download-project.png)
+1. En cuanto la descarga esté lista, aparecerá una barra verde con el mensaje ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *Nombre del proyecto *PDF.]**aparece.
+Seleccione**[!UICONTROL Descargar]**para descargar PDF. La forma exacta en que se presenta o descarga PDF depende de la configuración del explorador para gestionar los documentos de PDF.
 
-1. (Condicional) Si elige descargar un PDF, se muestra un mensaje después de que el proyecto esté listo para descargarse. Haga clic en [!UICONTROL **Descargar**].
-1. Haga clic en el icono **[!UICONTROL Descargar este archivo]** y guarde el archivo en una carpeta de su elección.
 
-## Copiado de datos en el portapapeles (tecla de acceso directo: Ctrl + C) {#copy-data}
+Para descargar un proyecto como archivo CSV:
 
-La opción **[!UICONTROL Copiar al portapapeles]**, que aparece al hacer clic con el botón derecho, permite copiar datos rápidamente desde Workspace y pegarlos en una herramienta de terceros.
+* Seleccione **[!UICONTROL Proyecto]** > **[!UICONTROL Descargar CSV]**. El proyecto se descarga directamente en la carpeta de descarga configurada como parte de la configuración del explorador. El nombre de archivo está compuesto por *nombre de proyecto* - *nombre del grupo de informes* - *fecha*, por ejemplo `Example Project - Omni-Channel - Luma - Jun 30, 2025.csv`.
 
-* Si desea que se copie la tabla mostrada, haga clic con el botón derecho en el encabezado de la tabla y seleccione **Copiar datos al portapapeles**.
-* Si desea que se copie un subconjunto de datos, realice una selección en la tabla y, a continuación, haga clic con el botón derecho > **Copiar selección al portapapeles**.
+## Copiar en el portapapeles {#copy-data}
+
+La opción **[!UICONTROL Copiar al portapapeles]** del menú contextual le permite copiar rápidamente datos de Analysis Workspace y pegarlos en una herramienta de terceros.
+
+* Si desea que se copien los datos de tabla mostrados, seleccione el encabezado de tabla y seleccione **Copiar datos al portapapeles** en el menú contextual.
+* Si desea que se copie un subconjunto de los datos, realice una selección en la tabla y seleccione **Copiar selección al portapapeles** en el menú contextual.
 
 >[!TIP]
 >
->Puede utilizar la tecla de acceso directo `Ctrl+C` para copiar la selección en el portapapeles, después utilice `Ctrl+V` para pegarla en una herramienta de terceros.
+>Puede usar la tecla de acceso directo **_cmd + c_** (macOS) o **_ctrl + c_** (Windows) para copiar la selección en el portapapeles. A continuación, use **_cmd + v_** (macOS) o **_ctrl + v_** (Windows) para pegar los datos.
 
-![](assets/copy-selection.png)
 
-## Descargue los datos como CSV {#download-data}
+![Opción Copiar selección al portapapeles. ](assets/copy-clipboard.png){zoomable="yes"}
 
-La opción **[!UICONTROL Descargar datos como CSV]** del botón secundario le permite descargar una tabla de datos o la fuente de datos de cualquier visualización como CSV.
+## Descargar como CSV {#download-data}
 
-* Desde el encabezado de cualquier tabla o visualización, haga clic con el botón derecho y seleccione **[!UICONTROL Descargar datos como CSV]**. Esto descarga los datos mostrados en la tabla o la fuente de datos subyacente para una visualización como CSV. 
+Las opciones Descargar como CSV del menú contextual le permiten descargar una tabla de datos o la fuente de datos de cualquier visualización como CSV.
 
+Para ello, haga lo siguiente:
+
+* En el encabezado de cualquier tabla o visualización, seleccione **[!UICONTROL Descargar datos como CSV]** en el menú contextual. Esto descarga los datos mostrados en la tabla o la fuente de datos subyacente para una visualización como CSV. 
+
+<!-- Only relevant as soon as CJA supports Map visualization 
   >[!NOTE]
   >
-  >  Nota: la visualización Mapa no admite esta opción.
+  >  Note: the Map visualization does not support this option.
+-->
 
-* Dentro de una tabla, haga clic con el botón derecho y seleccione **[!UICONTROL Descargar selección como CSV]**. Solo la selección se descarga con esta opción, a diferencia de la tabla mostrada completa.
+* En una tabla, seleccione **[!UICONTROL Descargar selección como CSV]** en el menú contextual. Solo la selección se descarga con esta opción, a diferencia de la tabla mostrada completa.
 
-![](assets/download-data-viz.png)
+![Opción Descargar datos como CSV.](assets/download-data-as-csv.png)
 
 ## Descargar elementos como CSV {#download-items}
 
-Si desea analizar más de las 400 filas de datos visibles en una tabla, haga clic con el botón derecho en cualquier encabezado de tabla o fila y seleccione **Descargar elementos como CSV (_Nombre de la dimensión_)**.  Esta opción exporta hasta 50 000 elementos de dimensión (según el orden de tabla) para la dimensión seleccionada, con filtros y segmentos aplicados. Si elige esta opción en la parte superior de la tabla, se exporta la primera dimensión de la tabla. Aunque no se aplican límites en la tabla de forma libre, se recomienda utilizar la opción Descargar elementos en tablas con menos de 20 columnas para garantizar un rendimiento óptimo.
+Si desea analizar más de las 400 filas de datos visibles en una tabla, seleccione **Descargar elementos como CSV (_Dimension name_)** en el menú contextual del encabezado de tabla o de cualquier fila. Esta opción exporta hasta 50 000 elementos de dimensión (según la clasificación de la tabla) para la dimensión seleccionada, con opciones de clasificación y filtros aplicados. Si selecciona esta opción en la parte superior de la tabla, se exporta la primera dimensión de la tabla.
+
+![Opción Descargar elementos como CSV (página).](assets/download-items-as-csv.png)
+
+No se aplican límites en la tabla de forma libre. Para garantizar un rendimiento óptimo, se recomienda utilizar esta opción en tablas con menos de 20 columnas.
 
 >[!TIP]
 >
-> Si la dimensión supera los 50 000 elementos, descargue el archivo con diferentes métricas de ordenación aplicadas o aplique un filtro. Por ejemplo, ordenar de forma descendente por Visitas en una descarga y, a continuación, ascendente por Visitas en una segunda descarga. Esta sugerencia puede ayudarle a recuperar elementos de mayor longitud.
+> Si la dimensión supera los 50 000 elementos, descargue el archivo con diferentes métricas de ordenación aplicadas o aplique un segmento. Por ejemplo, ordenar de forma descendente por Visitas en una descarga y, a continuación, ascendente por Visitas en una segunda descarga. Esta sugerencia puede ayudarle a recuperar elementos de mayor longitud.
 
 Puede realizar varias tareas dentro del proyecto e incluso desplazarse a un nuevo proyecto de Workspace en la misma pestaña mientras la descarga está en curso. La descarga se detendrá si abre una nueva pestaña del explorador. La descarga se cancelará si deja Workspace por completo o si cierra la pestaña del explorador.
 
-![](assets/download-items.png)
 
-### Archivo de elementos descargados
+### Archivo de elementos descargados {#items-file}
 
-Las funciones de la tabla se aplicarán al archivo descargado de la siguiente manera:
+Las siguientes funciones de una tabla de forma libre se aplican al archivo descargado:
 
 * Todos los segmentos del panel se aplican como filtros.
 * Los desgloses **superiores** a la dimensión seleccionada en la tabla se aplican como filtros encima de cada columna.
 * Los desgloses **inferiores** a las dimensiones seleccionadas en la tabla se eliminan.
 
-En el ejemplo anterior, los elementos de página se descargan con el segmento de panel (Clientes de nuevos visitantes) y los componentes anteriores (Canal de marketing = Correo electrónico) aplicados como filtros, y los componentes siguientes (Tipo de dispositivo móvil) se eliminan del CSV descargado.
+![El archivo .csv descargado se ha abierto en Excel.](assets/download-items-file.png)
 
-![](assets/downloaded-file.png)
+### Descarga de notificaciones {#notifications}
 
-### Descarga de notificaciones
+A medida que el archivo se descarga, verá las siguientes notificaciones:
 
-A medida que el archivo se descarga, verá una notificación informativa con el progreso. En cualquier momento, puede cancelar la descarga haciendo clic en **[!UICONTROL Cancelar descarga]**. Al cerrar el mensaje **no se** cancelará la descarga.
+* Se ha solicitado un **[!UICONTROL _nombre de tabla _-_Dimension _.csv azul._x _% completado]**que indica el progreso. Para cancelar la descarga en cualquier momento, selecciona **[!UICONTROL Cancelar descarga]**. Seleccione ![CrossSize100](/help/assets/icons/CrossSize100.svg) si desea cerrar el mensaje, lo que no cancela la descarga.
+* Se ha descargado una notificación de finalización verde **[!UICONTROL _Table name _-_Dimension _.csv]**una vez que se haya completado la descarga del archivo. El archivo se descarga en la carpeta de descargas configurada para su explorador.
 
-Una vez que el archivo se complete, verá una notificación de finalización y el archivo se descargará en el explorador.
+Si solicita más de una descarga a la vez, recibirá una notificación avisando que cada descarga adicional se pone en cola hasta que finalice la descarga anterior.
 
-Si solicita más de una descarga a la vez, recibirá una notificación avisando que cada descarga adicional se colocará en cola hasta que finalice la descarga anterior.
 
-![](assets/toast.png)
-
-## Preguntas más frecuentes {#faq}
+## Preguntas frecuentes {#faq}
 
 | Pregunta | Respuesta |
 | --- | --- |
-| ¿Por qué el PDF descargado es una página? | Workspace no pagina los PDF descargados en este momento. |
-| ¿Puedo exportar más de 50 000 elementos con la opción “Descargar elementos como CSV”? | Aunque cada descarga puede contener hasta 50 000 elementos de dimensión, puede cambiar el tipo de tabla para recuperar elementos de cola más largos o aplicar un filtro para descargar elementos más específicos. |
-| ¿Qué hace **[!UICONTROL Copiar visualización]**? | A diferencia de [!UICONTROL **Copiar datos al portapapeles**] o [!UICONTROL **Copiar selección al portapapeles**], la opción **[!UICONTROL Copiar visualización]** del botón derecho del ratón no es una opción de exportación. Permite copiar una visualización o un panel de un lugar de Workspace a otro. Por ejemplo, de un panel a otro en el mismo proyecto o de un proyecto a otro. [Intravínculos de vídeo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=es) |
+| ¿Por qué mi PDF descargado consiste en una sola página? | La funcionalidad [Descargar PDF](#download-as-csv-or-pdf) no pagina los archivos PDF descargados. |
+| ¿Puedo exportar más de 50 000 elementos con la opción **[!UICONTROL Descargar elementos como CSV]**? | Aunque cada descarga puede contener hasta 50 000 elementos de dimensión, puede cambiar el tipo de tabla para recuperar elementos de cola más largos o aplicar un filtro para descargar elementos más específicos. |
+| ¿Qué hace **[!UICONTROL Copiar visualización]**? | A diferencia de [!UICONTROL **Copiar datos al portapapeles**] o [!UICONTROL **Copiar selección al portapapeles**], la opción de menú contextual **[!UICONTROL Copiar visualización]** no es una opción de exportación. Esta opción le permite [copiar una visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) o [copiar un panel](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu) de un lugar de Workspace a otro. Por ejemplo, de un panel a otro en el mismo proyecto o de un proyecto a otro. |
+
+
+
+<!--
+
+# Download 
+
+There are several ways to export data from Analysis Workspace. The method you choose depends on what set of data you want to analyze and who needs to access it.
+
+Exported data can be in the form of copied data, CSV, or PDF. A PDF is typically preferred if you want visualizations included in the file. CSV and copied data is preferred if you simply want plain-text data.
+
+## Download a project as CSV or PDF {#download-project}
+
+Consider the following when downloading projects:
+
+* When downloading projects as a CSV or PDF, the project can be saved or unsaved when you request a project download. However, only saved projects can be [scheduled](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). 
+
+* When downloading projects as a PDF:
+  * Downloads can take several minutes to export because the project is re-run on Adobe servers before rendering in PDF format. We recommend not leaving the project until the PDF downloads in your browser. However, you can continue to make changes to the project while you wait. If a PDF takes longer than 5 minutes to render, you will be prompted to email it instead.
+  * Downloads are rendered as a single page with no pagination applied.
+  * PDF renderings contain what is on the page in Workspace. If a project has custom-sized visualizations and panels, you need to change them to be auto-sized (button in top-right corner) so that there will be no truncated content.
+  * Any [hyperlinks](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) that exist within freeform tables are not functional in the downloaded PDF. 
+
+To download a project as a CSV or PDF file:
+
+1. Do either of the following, depending on what format you want to download the project in:
+
+   * **PDF:** Select **[!UICONTROL Project]** > **[!UICONTROL Download PDF]**.
+
+     Choose this option if you want the downloaded file to contain all the displayed (visible) tables and visualizations in the project.
+
+   * **CSV:** Select **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. 
+
+     Choose this option if you want plain-text data.
+
+   ![](assets/download-project.png)
+
+1. (Conditional) If you chose to download a PDF, a message is shown after the project is ready to be downloaded. Click [!UICONTROL **Download**].
+1. Click the **[!UICONTROL Download this file]** icon and save the file to a folder of your choice.
+
+## Copy data to clipboard (hotkey: cmd + c) {#copy-data}
+
+The right-click option **[!UICONTROL Copy to clipboard]** lets you quickly copy data from Workspace and paste it in a third-party tool. 
+
+* If you want the displayed table copied, right-click the table header and choose **Copy data to clipboard**. 
+* If you want a subset of data copied, make a selection in the table and then right-click > **Copy selection to clipboard**.
+
+>[!TIP]
+>
+>You can use the hotkey `Ctrl+C` to copy your selection to the clipboard, then use `Ctrl+V` to paste it into a third-party tool.
+
+![](assets/copy-selection.png)
+
+## Download data as CSV {#download-data}
+
+The right-click option **[!UICONTROL Download data as CSV]** allows you to download a table of data or the data source of any visualization as a CSV.
+
+* From the header of any table or visualization, right-click and choose **[!UICONTROL Download data as CSV]**. This downloads the displayed data in the table or the underlying data source for a visualization as a CSV. 
+
+  >[!NOTE]
+  >
+  >  Note: the Map visualization does not support this option.
+
+* Within a table, right-click and choose **[!UICONTROL Download selection as CSV]**. Only the selection is downloaded with this option, as opposed to the full, displayed table.
+
+![](assets/download-data-viz.png)
+
+## Download items as CSV {#download-items}
+
+If you want to analyze more than the visible 400 rows of data in a table, right-click the table header or any row and select **Download items as CSV (_Dimension name_)**. This option exports up to 50,000 dimension items (based on the table sort) for the selected dimension, with filters and segments applied. If you chose this option from the top of the table, the first dimension in the table will be exported. While no limits are enforced in the freeform table, it is recommended that the Download items option be used in tables with less than 20 columns to ensure optimal performance.
+
+>[!TIP]
+>
+> If your dimension exceeds 50,000 items, download the file with different sort metrics applied or apply a filter. For example, sort descending by Visits in one download and then ascending by Visits in a second download. This tip can help you retrieve longer-tail items.
+
+You can multi-task within the project and even navigate to a new Workspace project in the same tab while the download is in progress. The download pauses if you open a new browser tab. The download is canceled if you leave Workspace completely or close the browser tab.
+
+![](assets/download-items.png)
+
+### Downloaded items file 
+
+Features of the table will be applied to the downloaded file as follows:
+
+* All panel segments are applied as filters.
+* Breakdowns **above** the selected dimension in the table are applied as filters above each column. 
+* Breakdowns **below** the selected dimension in the table are removed.
+
+In the example above, Page items are downloaded with the panel segment (New Visitors Customers) and components above (Marketing Channel = Email) applied as filters, and the components below (Mobile Device Type) removed from the downloaded CSV.
+
+![](assets/downloaded-file.png)
+
+### Download notifications
+
+As the file downloads, you will see an informational notification with the progress. At any time, you can cancel the download by clicking **[!UICONTROL Cancel download]**. Closing the toast **will not** cancel the download. 
+
+Once the file completes, you will see a completion notification and the file will download to your browser.
+
+If you request more than one download at a time, you will receive a notification that each additional download will be queued until the prior download completes.
+
+![](assets/toast.png)
+
+## FAQ {#faq}
+
+| Question | Answer |
+| --- | --- |
+| Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
+| Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
+
+-->

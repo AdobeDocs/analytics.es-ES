@@ -1,14 +1,14 @@
 ---
-description: Aprenda a crear vínculos que se pueden compartir a proyectos o visualizaciones
+description: Aprenda a crear vínculos que se pueden compartir a proyectos o visualizaciones.
 keywords: Uso compartido en Analysis Workspace
-title: Crear vínculos que se pueden compartir
+title: Crear vínculos compartibles
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 64%
+ht-degree: 59%
 
 ---
 
@@ -57,7 +57,7 @@ Analysis Workspace offers many ways to share a project to your users, including 
 
 To share a link to a project, go to the project you want to share, then select go to [!UICONTROL **Share**] > [!UICONTROL **Share with Workspace users**] > [!UICONTROL **Share by link**]. Users you share the link with are required to log in. 
 
-If the recipient of the link has not been assigned a [project role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es), admins receive **[!UICONTROL Edit original]** and non-admins receive **[!UICONTROL Edit copy]** experiences.
+If the recipient of the link has not been assigned a [project role](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html), admins receive **[!UICONTROL Edit original]** and non-admins receive **[!UICONTROL Edit copy]** experiences.
 
 ## Get a read-only link to share with anyone
 
@@ -72,7 +72,7 @@ You can also share a link to a specific part of a project, such as a panel or in
 * From any panel header, right-click **[!UICONTROL Get panel link]** 
 * From any table or visualization header, right-click **[!UICONTROL Get visualization link]** 
 
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=es) on how to create links and use them to drive recipients to specific parts of your project. 
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) on how to create links and use them to drive recipients to specific parts of your project. 
 
 ![](assets/get-viz-link.png)
 -->

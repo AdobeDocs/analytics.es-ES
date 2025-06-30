@@ -1,14 +1,14 @@
 ---
-description: Uso compartido de proyectos y funciones de proyectos en Workspace
+description: Obtenga información sobre cómo compartir funciones de proyecto y proyecto en Workspace
 keywords: Uso compartido en Analysis Workspace
-title: Compartir proyectos
+title: Proyectos compartidos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 97%
+source-wordcount: '1976'
+ht-degree: 96%
 
 ---
 
@@ -41,12 +41,12 @@ Cualquier [depuración](curate.md) que haya aplicado antes del uso compartido se
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir proyectos](https://video.tv.adobe.com/v/40033?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir proyectos](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
-## Comparta contenido con usuarios y grupos de Analysis Workspace de su organización {#Add}
+## Compartir con usuarios y grupos de su organización {#Add}
 
 Puede compartir un proyecto con usuarios o grupos existentes de Analysis Workspace de su organización. Cuando comparta un proyecto, como se describe en esta sección, los usuarios con los que lo comparta deben tener acceso a Adobe Analytics.
 
@@ -83,7 +83,7 @@ Para compartir una función de proyecto específica con usuarios o grupos de su 
    O bien
 
    Para compartir solo un proyecto individual, puede abrir el proyecto que desee compartir y, a continuación, seleccionar **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios del espacio de trabajo]**.
-Si hay cambios sin guardar, se le pedirá que guarde primero el proyecto.
+Si hay cambios no guardados, se le pedirá que guarde primero el proyecto.
 
    Se muestra el cuadro de diálogo Compartir proyecto. Las secciones [!UICONTROL **Compartir por vínculo**] y [!UICONTROL **Configuración**] del cuadro de diálogo solo son visibles cuando se comparte un único proyecto.
 
@@ -119,7 +119,7 @@ Cuando comparta un vínculo como se describe en esta sección, tenga en cuenta l
 
 Para compartir el vínculo del proyecto con los usuarios de su organización, haga lo siguiente:
 
-1. Guarde el proyecto. Si hay cambios sin guardar, se le pedirá que guarde el proyecto antes de compartir un vínculo.
+1. Guarde el proyecto. Si hay cambios no guardados, se le pedirá que guarde el proyecto antes de compartir un vínculo.
 
 1. Seleccione **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con usuarios de Workspace]**, y, a continuación, seleccione **[!UICONTROL Copiar]** junto al campo **[!UICONTROL Compartir mediante vínculo]**.
 
@@ -157,7 +157,7 @@ Puede conceder [acceso de solo lectura](/help/analyze/analysis-workspace/curate-
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir un vínculo con alguien](https://video.tv.adobe.com/v/3452454?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir un vínculo con alguien](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -168,7 +168,7 @@ Para compartir un proyecto de Analysis Workspace con personas que no tienen acce
 
 1. Haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquiera]**.
 
-   Si hay cambios sin guardar, se le pedirá que guarde primero el proyecto.
+   Si hay cambios no guardados, se le pedirá que guarde primero el proyecto.
 
    <!-- Add screen shot of new modal -->
 
@@ -212,7 +212,7 @@ Puede compartir los componentes incrustados que forman parte del proyecto.
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados](https://video.tv.adobe.com/v/327499?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

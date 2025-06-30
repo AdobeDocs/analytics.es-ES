@@ -1,19 +1,19 @@
 ---
-description: Aprenda a crear rápidamente un proyecto basado en escenarios comunes de creación de informes utilizando plantillas en Analysis Workspace.
-title: Plantillas
+description: Obtenga información sobre cómo iniciar rápidamente un proyecto en función de escenarios comunes de creación de informes mediante plantillas en Analysis Workspace.
+title: Proyectos de inicio rápido
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 37%
+source-wordcount: '75'
+ht-degree: 24%
 
 ---
 
-# Plantillas
+# Inicio rápido de un proyecto
 
-Las plantillas (o plantillas de empresa) de Analysis Workspace proporcionan una visión rápida de los escenarios más comunes de creación de informes.
+Puede iniciar rápidamente un proyecto con paneles y visualizaciones relevantes. Para ello, utilice plantillas (o plantillas de empresa) en Analysis Workspace. Las plantillas proporcionan una visión rápida de los escenarios más comunes de creación de informes.
 
 Para obtener información sobre el uso de plantillas en Adobe Analytics, consulte los siguientes recursos:
 
