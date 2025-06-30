@@ -240,7 +240,7 @@ En este vídeo se proporciona una breve descripción sobre qué son los contened
 
 >[!BEGINSHADEBOX]
 
-Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/3429101?quality=12&learn=on&captions=spa){target="_blank"}.
+Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -251,7 +251,7 @@ Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/Video
 
 De forma predeterminada, todos los usuarios pueden crear y editar segmentos personales. Sin embargo, los administradores pueden decidir quién cuenta con los [permisos para crear segmentos](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=es) y pueden asignarlos a grupos específicos. Estos segmentos se pueden compartir directamente con cualquier otro usuario de Analytics.
 
-Los administradores pueden editar cualquier segmento, así como compartir segmentos con grupos y con cualquier persona de la organización. [Derechos de segmento por rol](/help/components/segmentation/seg-reference/seg-rights.md)
+Los administradores pueden editar cualquier segmento, así como compartir segmentos con grupos y con cualquier persona de la organización. [Derechos de segmentos por función](/help/components/segmentation/seg-reference/seg-rights.md)
 
 +++
 

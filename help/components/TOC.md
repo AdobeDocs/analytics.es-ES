@@ -7,7 +7,7 @@ user-guide-description: Administre datos con componentes como Segmentos, Métric
 source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -181,14 +181,14 @@ ht-degree: 96%
    + [Funciones de segmentación en Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Flujo de trabajo de segmentación {#segmentation-workflow}
       + [Información general](segmentation/segmentation-workflow/seg-workflow.md)
-      + [Planificación de los segmentos](segmentation/segmentation-workflow/seg-plan.md)
-      + [Creación de segmentos](segmentation/segmentation-workflow/seg-create.md)
-      + [Generación de segmentos](segmentation/segmentation-workflow/seg-build.md)
+      + [Planificar segmentos](segmentation/segmentation-workflow/seg-plan.md)
+      + [Crear segmentos](segmentation/segmentation-workflow/seg-create.md)
+      + [Generar segmentos](segmentation/segmentation-workflow/seg-build.md)
       + [Segmentos rápidos](segmentation/segmentation-workflow/seg-quick.md)
       + [Segmentos secuenciales](segmentation/segmentation-workflow/seg-sequential-build.md)
       + [Compartir segmentos](segmentation/segmentation-workflow/t-seg-share.md)
       + [Etiquetar segmentos](segmentation/segmentation-workflow/seg-tag.md)
-      + [Filtrado de la lista de segmentos](segmentation/segmentation-workflow/t-seg-filter.md)
+      + [Filtrar la lista de segmentos](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Marcar segmentos como favoritos](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [Aprobar segmentos](segmentation/segmentation-workflow/seg-approve.md)
       + [Eliminar segmentos](segmentation/segmentation-workflow/seg-delete.md)
@@ -198,9 +198,9 @@ ht-degree: 96%
       + [Uso de segmentos](segmentation/segmentation-workflow/t-seg-apply.md)
    + Referencia de segmentos {#segment-reference}
       + [Operadores](segmentation/seg-reference/seg-operators.md)
-      + [Compatibilidad de segmentos de Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
-      + [Segmentación de derechos por función](segmentation/seg-reference/seg-rights.md)
-      + [Solución de problemas](segmentation/seg-reference/c-troubleshooting.md)
+      + [Compatibilidad del segmento con el Almacén de datos](segmentation/seg-reference/seg-compatibility.md)
+      + [Derechos de segmentos por función](segmentation/seg-reference/seg-rights.md)
+      + [Resolución de problemas](segmentation/seg-reference/c-troubleshooting.md)
    + [Preguntas frecuentes sobre segmentos heredados](segmentation/seg-transition.md)
    + [Prácticas recomendadas](segmentation/best-practices.md)
 + Métricas calculadas  {#calculated-metrics}
