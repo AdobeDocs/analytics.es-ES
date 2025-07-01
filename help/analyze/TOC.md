@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y su versión heredada, y Activity Map.
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '892'
 ht-degree: 96%
 
 ---
@@ -131,14 +131,14 @@ ht-degree: 96%
          + [Información general](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casos prácticos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Pruebas estadísticas utilizadas](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Depure y comparta proyectos {#curate-share}
+   + Depurar y compartir {#curate-share}
       + [Información general](analysis-workspace/curate-share/send-schedule-files.md)
       + [Depurar proyectos de](analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos](analysis-workspace/curate-share/share-projects.md)
-      + [Crear vínculos que se pueden compartir](analysis-workspace/curate-share/shareable-links.md)
+      + [Vínculos compartidos](analysis-workspace/curate-share/shareable-links.md)
       + [Proyectos de solo lectura](analysis-workspace/curate-share/view-only-projects.md)
-      + [Descargar proyectos](analysis-workspace/curate-share/download-send.md)
-      + [Envío y programación de proyectos](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Descargar](analysis-workspace/curate-share/download-send.md)
+      + [Envío y programación](analysis-workspace/curate-share/t-schedule-report.md)
    + Atribución {#attribution}
       + [Información general de Attribution](analysis-workspace/attribution/overview.md)
       + [Modelos de atribución y ventanas retroactivas](analysis-workspace/attribution/models.md)
