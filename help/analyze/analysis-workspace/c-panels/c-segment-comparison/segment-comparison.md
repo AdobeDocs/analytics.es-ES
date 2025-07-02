@@ -28,12 +28,12 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Panel de comparación de segmentos "
->abstract="Compare rápidamente dos segmentos en todos los puntos de datos para encontrar automáticamente diferencias relevantes.<br/><br/>**Parámetros &#x200B;**<br/>**Agregar un segmento**: El primer segmento que desea analizar.<br/>**Comparar con**: El segundo segmento con el que desea comparar, que se rellena automáticamente con *Todos los demás* (lo contrario de su primer segmento). Si lo desea, puede reemplazar a *Todos los demás* con un segmento diferente.<br/>**Configuración avanzada**: la posibilidad de excluir componentes del análisis en la comparación de segmentos."
+>abstract="Compare rápidamente dos segmentos en todos los puntos de datos para encontrar automáticamente diferencias relevantes.<br/><br/>**Parámetros **<br/>**Agregar un segmento**: El primer segmento que desea analizar.<br/>**Comparar con**: El segundo segmento con el que desea comparar, que se rellena automáticamente con *Todos los demás* (lo contrario de su primer segmento). Si lo desea, puede reemplazar a *Todos los demás* con un segmento diferente.<br/>**Configuración avanzada**: la posibilidad de excluir componentes del análisis en la comparación de segmentos."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Comparación de segmentos en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_No hay un panel equivalente en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Este artículo documenta el panel Comparación de segmentos en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_No hay un panel equivalente en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ El panel Comparación de segmentos detecta las diferencias estadísticamente má
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparación de segmentos](https://video.tv.adobe.com/v/37551?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparación de segmentos](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
