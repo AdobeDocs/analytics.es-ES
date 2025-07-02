@@ -22,11 +22,11 @@ Como compañía de viajes, puede superponer rápidamente las preferencias de des
 
 ## Modelado similar {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-Como editor de medios, puede comparar sus audiencias de terceros usando [Comparación de segmentos](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison) para comprender características clave de diferenciación. Esta comparación le ayuda a generar segmentos de origen de alto valor para su uso en la segmentación.
+Como editor de medios, puede comparar sus audiencias de terceros usando [Comparación de segmentos](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison) para comprender características clave de diferenciación. Esta comparación le ayuda a generar segmentos de origen de alto valor para su uso en la segmentación.
 
 ## Análisis de perspectivas {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-Como minorista, ahora puede analizar en profundidad el comportamiento de la audiencia potencial justo antes de que compren gracias a la [segmentación secuencial](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build), que le ayuda a comprender qué acciones provocan la conversión.
+Como minorista, ahora puede analizar en profundidad el comportamiento de la audiencia potencial justo antes de que compren gracias a la [segmentación secuencial](https://experienceleague.adobe.com/es/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build), que le ayuda a comprender qué acciones provocan la conversión.
 
 ## Orientación demográfica {#section_F034DB721A06419283DBD29D4A1B444B}
 
