@@ -18,7 +18,7 @@ Puede ver y analizar las anomalías de datos en contexto, dentro de Analysis Wor
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Detección de anomalías](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Detección de anomalías](https://video.tv.adobe.com/v/40729?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ para métricas seleccionadas en segmentos de audiencia convergentes.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de contribución](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Análisis de contribución](https://video.tv.adobe.com/v/40761?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
