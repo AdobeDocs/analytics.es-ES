@@ -4,16 +4,16 @@ title: Visualización de anomalías en Analysis Workspace
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 57%
+source-wordcount: '447'
+ht-degree: 52%
 
 ---
 
-# Visualización de anomalías en Analysis Workspace
+# Ver anomalías
 
-Puede ver anomalías en una tabla o un gráfico de líneas.
+Puede ver anomalías en Analysis Workspace en una tabla o en un gráfico de líneas.
 
 ## Ver las anomalías en una tabla {#section_869A87B92B574A38B017A980ED8A29C5}
 
@@ -30,6 +30,7 @@ Puede ver anomalías en una tabla de forma libre de serie temporal.
    La **línea vertical de color** en cada fila ➋ indica el valor esperado. El **área sombreada de color** en cada fila ➊ indica el valor real. El modo en que la línea (valor esperado) se compara con el área sombreada (valor real) determina si hay una anomalía. (Una observación se considera anómala según las técnicas estadísticas avanzadas descritas en [Técnicas estadísticas utilizadas en la detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)).
 
 1. Seleccione ◥ en la esquina superior derecha de una fila para ver detalles sobre la anomalía. Esto muestra el grado (como porcentaje) en que el valor real difiere por encima o por debajo del valor esperado.
+1. Seleccione [Abrir análisis de contribución](run-contribution-analysis.md) para iniciar el análisis de contribución.
 
 ## Ver anomalías en un gráfico de líneas
 

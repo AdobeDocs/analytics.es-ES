@@ -1,19 +1,19 @@
 ---
-title: Anotaciones de cuadros de resultados móviles
-description: Aprenda a mostrar anotaciones en cuadros de resultados móviles.
+title: Anotaciones móviles
+description: Aprende a mostrar anotaciones en cuadros de resultados móviles.
 role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 94%
+source-wordcount: '305'
+ht-degree: 93%
 
 ---
 
 
-# Compartir anotaciones en cuadros de resultados móviles
+# Anotaciones del cuadro de resultados móvil
 
 Puedes mostrar anotaciones creadas en Workspace en los cuadros de resultados móviles. Las anotaciones en los cuadros de resultados móviles permiten compartir matices de datos contextuales y perspectivas sobre su organización y campañas.
 

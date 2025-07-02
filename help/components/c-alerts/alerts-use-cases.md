@@ -1,35 +1,32 @@
 ---
-description: Casos de uso para crear y administrar alertas.
-title: 'Alertas: casos de uso'
+description: Revise algunos casos de uso para crear y administrar alertas.
+title: Casos de uso de alertas
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
-source-wordcount: '66'
-ht-degree: 100%
+source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 20%
 
 ---
 
-# Alertas: casos de uso
+# Casos de uso de alerta
 
-Puede crear alertas tal como se describe en [Crear alertas](/help/components/c-alerts/alert-builder.md).
+Puede crear alertas tal como se describe en [Crear alertas](alert-builder.md).
 
 Las secciones siguientes ilustran ejemplos de casos de uso que se deben tener en cuenta al crear alertas.
 
-## Crear una alerta simple filtrada mediante dos segmentos {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## Filtrar alertas
 
-<!-- 
+Puede crear alertas simples mediante segmentos. Por ejemplo, defina una alerta sobre el número de sesiones para las personas que visitan la página de inicio a través de una sesión de aplicación móvil.
 
-Update screenshots for better readability.
 
- -->
-
-![](assets/alerts_example1.png)
+![](assets/alerts-example1.png)
 
 
 
-## Consolidar las alertas (apilar) en lugar de crear múltiples alertas {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Apilar alertas
 
-El apilado de alertas garantiza que las alertas se combinen y que no obtenga diversas alertas independientes.
+Puede consolidar (apilar) alertas en lugar de crear múltiples alertas. El apilado de alertas garantiza que las alertas se combinen y que no obtenga varias alertas independientes. En el ejemplo siguiente, se envía una alerta cuando se activa cualquiera de los umbrales de métrica.
 
-![](assets/alerts_example2.png)
+![](assets/alerts-example2.png)

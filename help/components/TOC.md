@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 97%
+source-wordcount: '767'
+ht-degree: 98%
 
 ---
 
@@ -179,7 +179,7 @@ ht-degree: 97%
    + [Acerca de los segmentos](segmentation/seg-overview.md)
    + [Acerca de los contenedores de segmentos](segmentation/seg-containers.md)
    + [Funciones de segmentación en Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
-   + Flujo de trabajo de segmentación {#segmentation-workflow}
+   + Flujo de trabajo {#segmentation-workflow}
       + [Información general](segmentation/segmentation-workflow/seg-workflow.md)
       + [Planificar segmentos](segmentation/segmentation-workflow/seg-plan.md)
       + [Crear segmentos](segmentation/segmentation-workflow/seg-create.md)
@@ -196,7 +196,7 @@ ht-degree: 97%
       + [Administración de segmentos](segmentation/segmentation-workflow/seg-manage.md)
       + [Publicación de segmentos en Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
       + [Uso de segmentos](segmentation/segmentation-workflow/t-seg-apply.md)
-   + Referencia de segmentos {#segment-reference}
+   + Referencia {#segment-reference}
       + [Operadores](segmentation/seg-reference/seg-operators.md)
       + [Compatibilidad del segmento con el Almacén de datos](segmentation/seg-reference/seg-compatibility.md)
       + [Derechos de segmentos por función](segmentation/seg-reference/seg-rights.md)
@@ -206,7 +206,7 @@ ht-degree: 97%
 + Métricas calculadas  {#calculated-metrics}
    + [Información general](c-calcmetrics/cm-overview.md)
    + [Vídeotutoriales](c-calcmetrics/cm-videos.md)
-   + Flujo de trabajo de las métricas calculadas {#calcmetric-workflow}
+   + Flujo de trabajo {#calcmetric-workflow}
       + [Crear métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Buscar métricas](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Crear métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
@@ -225,7 +225,7 @@ ht-degree: 97%
       + [Compartir métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Copiar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [Administrar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + Referencia de métricas {#calcmetrics-reference}
+   + Referencia {#calcmetrics-reference}
       + [Funciones básicas](c-calcmetrics/cm-reference/cm-functions.md)
       + [Funciones avanzadas](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Compatibilidad de métricas](c-calcmetrics/cm-compatibility.md)
@@ -240,7 +240,7 @@ ht-degree: 97%
    + [Consideraciones de A4T](vrs/vrs-a4t.md)
    + [Preguntas frecuentes de los grupos de informes virtuales](vrs/vrs-faq.md)
    + [Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples o globales](vrs/vrs-considerations.md)
-   + Flujo de trabajo del grupo de informes virtuales {#vrs-workflow}
+   + Flujo de trabajo {#vrs-workflow}
       + [Flujo de trabajo del grupo de informes virtuales](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Crear un grupo de informes virtuales](vrs/c-workflow-vrs/vrs-create.md)
       + [Administrar grupos de informes virtuales](vrs/c-workflow-vrs/vrs-manage.md)
@@ -256,8 +256,8 @@ ht-degree: 97%
    + [Preguntas más frecuentes sobre el análisis entre dispositivos](cda/faq.md)
 + Alertas {#alerts}
    + [Información general](c-alerts/intellligent-alerts.md)
-   + [Crear](c-alerts/alert-builder.md)
-   + [Administrar](c-alerts/alert-manager.md)
+   + [Creación de alertas](c-alerts/alert-builder.md)
+   + [Administración de alertas](c-alerts/alert-manager.md)
    + [Casos prácticos](c-alerts/alerts-use-cases.md)
 + Clasificaciones {#classifications}
    + [Resumen general de las clasificaciones](classifications/classifications-overview.md)

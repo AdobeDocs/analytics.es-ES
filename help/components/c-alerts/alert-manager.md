@@ -1,124 +1,246 @@
 ---
-description: Administrar alertas.
-title: Información general sobre el Administrador de alertas
+description: Obtenga información sobre cómo administrar alertas.
+title: Administrar alertas
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 86580b3c149c0feb1d70d9ba197cf0810e472586
-workflow-type: ht
-source-wordcount: '638'
-ht-degree: 100%
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 22%
 
 ---
 
-# Administrador de alertas
 
-Puede administrar las alertas existentes en el Administrador de alertas. Puede realizar varias tareas de administración de las alertas, como etiquetado, cambio de nombre, eliminación, etc.
+# Administración de alertas
 
-El Administrador de alertas tiene una estructura muy similar al [Administrador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=es) y al [Administrador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=es).
 
-![](assets/alert-manager.png)
+Puede filtrar, etiquetar, eliminar, cambiar el nombre, copiar, habilitar, deshabilitar, renovar y exportar alertas desde una interfaz de administración central de [!UICONTROL Alerts]. Para administrar alertas:
 
-## Creación de alertas
+* Seleccione **[!UICONTROL Componentes]** en la interfaz principal y luego seleccione **[!UICONTROL Alertas]**.
 
-Para crear alertas desde el Administrador de alertas:
+El Administrador de alertas está estructurado como [Administrador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md) y [Administrador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md).
 
-1. Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acceder al Administrador de alertas en Adobe Analytics.
+
+## Administrador de alertas
+
+El Administrador de alertas tiene los siguientes elementos de interfaz:
+
+![Interfaz de filtros](assets/alerts-manager.png)
+
+### Lista de alertas
+
+La lista de alertas ➊ muestra todas las alertas que posee, las alertas cuyo ámbito se ha asignado a todos sus proyectos y las alertas que se han compartido con usted. La lista tiene las siguientes columnas:
+
+| Columna | Descripción |
+|---|---|
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleccione para favorecer a ![Star](/help/assets/icons/Star.svg) o para anular la preferencia de ![StarOutline](/help/assets/icons/StarOutline.svg) sobre una alerta. |
+| **[!UICONTROL Título y descripción]** | Para editar la alerta, seleccione el vínculo del título, que abre el [Generador de alertas](alert-builder.md#alert-builder). |
+| **[!UICONTROL Tipo]** | El tipo de alerta: una alerta de datos de Adobe Analytics o una alerta de uso de llamadas al servidor. |
+| **[!UICONTROL Habilitado]** | La alerta está habilitada o deshabilitada. |
+| **[!UICONTROL Grupo de informes]** | Los grupos de informes a los que se aplica esta alerta. |
+| **[!UICONTROL Propietario]** | El propietario de la alerta. Si no es el administrador, solo verá las alertas que le pertenecen o las que se han compartido con usted. |
+| **[!UICONTROL Etiquetas]** | Las etiquetas de esta alerta. |
+| **[!UICONTROL Fecha de caducidad]** | La fecha y hora en que la alerta está configurada para caducar. |
+| **[!UICONTROL Fecha de modificación]** | La fecha y la hora de la última modificación de la alerta. |
+
+<!-- 
+
+When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul>
+
+-->
+
+Usa ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para especificar qué columnas deseas mostrar.
+
+### Barra de acciones
+
+Puede realizar acciones con las alertas mediante la barra de acciones ➋. La barra de acciones contiene las siguientes acciones:
+
+| Icono | Acción | Descripción |
+|:---:|---|---|
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Agregue]** | Agregue otra alerta con el [Generador de alertas](alert-builder.md#alert-builder). |
+| ![Buscar](/help/assets/icons/Search.svg) | [!UICONTROL *Buscar por título*] | Cuando no se selecciona ninguna alerta en la lista, buscar alertas mediante este campo de búsqueda. |
+| ![Etiqueta](/help/assets/icons/Label.svg) | **[!UICONTROL Etiqueta]** | Etiquetar las alertas seleccionadas. En el cuadro de diálogo **[!UICONTROL Alerta de etiqueta]**, seleccione o anule la selección de las etiquetas de las alertas seleccionadas. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de las alertas seleccionadas. |
+| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar las alertas seleccionadas. Se te pedirá una confirmación. |
+| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar el nombre de una alerta seleccionada. Cuando se selecciona, puede cambiar el nombre de la alerta en línea. |
+| ![Copiar](/help/assets/icons/Copy.svg) | **[!UICONTROL Copiar]** | Copiar la alerta seleccionada. Las nuevas alertas se crean con el mismo nombre y sufijo `(Copy)`. |
+| ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Habilitar]** o **[!UICONTROL Deshabilitar]** | Activar o desactivar las alertas seleccionadas. |
+| ![Actualizar](/help/assets/icons/Refresh.svg) | **[!UICONTROL Renovar]** | Renueva la fecha de caducidad de la alerta. La fecha de caducidad se extiende 1 año a partir del día en que seleccione esta opción, independientemente de la fecha de caducidad original. |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar a CSV]** | Exportar las alertas a un archivo de `Alerts List.csv`. |
+
+
+### Barra de filtro activa
+
+La barra de filtros ➌ muestra los filtros activos aplicados desde el panel de filtros a la lista de alertas (si existe). Puedes quitar rápidamente un filtro con ![CrossSize75](/help/assets/icons/CrossSize75.svg). Si se especifica más de un filtro, puedes quitar todos los filtros usando **[!UICONTROL Quitar todos]**.
+
+
+### Panel Filtro
+
+Puede filtrar la lista de alertas con el panel izquierdo ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Filtro]** ➍. El panel Filtro muestra el tipo de filtro y el número de alertas que respetan el filtro específico.
+
+
+1. Selecciona ![Filtro](/help/assets/icons/Filter.svg) para abrir el panel Filtros. Si necesita más espacio para la lista Alertas, puede seleccionar ![Filtro](/help/assets/icons/Filter.svg) una vez más para cerrar el panel.
+1. Seleccione filtros de cualquiera de las secciones de filtros disponibles.
+
+
+#### Sección de filtro de etiquetas
+
+{{tagfiltersection}}
+
+
+#### Sección de filtro del grupo de informes
+
+{{reportsuitefiltersection}}
+
+
+#### Sección de filtro Propietarios
+
+{{ownerfiltersection}}
+
+
+#### Sección de filtro Estado habilitado
+
+{{enabledstatusfiltersection}}
+
+
+#### Sección de filtro Tipo
+
+{{typefiltersection}}
+
+
+#### Sección de filtro Otros filtros
+
+{{otherfiltersfiltersection}}
+
+
+
+## Editar alertas
+
+Puede editar una alerta
+
+* En la lista [[!UICONTROL Alerta]](#alerts-list), seleccione el título de la alerta.
+
+Utiliza el [Generador de alertas](alert-builder.md#alert-builder) para editar la alerta.
+
+## Solución de problemas de una alerta
+
+Cuando solucione un problema con una alerta, proporcione el número JID (ID de instancia de trabajo) al Soporte de Adobe. El número JID se encuentra en la parte inferior de la notificación de alerta por correo electrónico que recibe.
+
+![Correo electrónico de alerta](assets/alerts-email.PNG)
+
+
+<!--
+
+# Manage alerts
+
+You can manage existing alerts in the Alerts manager. You can perform various management tasks on alerts, such as tagging, renaming, deleting, and more.
+
+The Alerts manager is structured very much like the [Segment Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html).
+
+ ![](assets/alert-manager.png)
+
+## Create alerts
+
+To create alerts from the Alerts manager:
+
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Alerts]** to access the Alerts manager in Adobe Analytics.
 
    ![](assets/alert-manager.png)
 
-1. Seleccione [!UICONTROL **Añadir**] (o [!UICONTROL **Crear nueva alerta**] si no tiene ninguna alerta existente).
+1. Select [!UICONTROL **Add**] (or [!UICONTROL **Create new alert**] if you don't have any existing alerts).
 
-1. Seleccione el tipo de alerta que corresponde a la alerta que desea crear:
+1. Select the alert type that corresponds to the alert that you want to create:
 
-   * [!UICONTROL **Alerta de datos de Analytics**]: una alerta para avisarle cuando se produzcan eventos anómalos en sus datos.
+   * [!UICONTROL **Analytics data alert**]: An alert to notify you when abnormal events occur in your data. 
 
-     Si selecciona esta opción, continúa con [Crear alertas](/help/components/c-alerts/alert-builder.md) para obtener más detalles acerca de la creación de alertas.
+     If you select this option, continue with [Create alerts](/help/components/c-alerts/alert-builder.md) for more details about creating alerts.
 
-   * [!UICONTROL **Alerta de uso de llamadas al servidor**]: una alerta para notificarle el riesgo o la incidencia de un exceso en los datos de asignación y consumo de llamadas al servidor.
+   * [!UICONTROL **Server call usage alert**]: An alert to notify you of the risk or occurrence of an overage in your server call consumption and commitment data. 
 
-     Si selecciona esta opción, continúe con [Alertas de uso de llamadas al servidor](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+     If you select this option, continue with [Server call usage alerts](/help/admin/admin/c-server-call-usage/scu-alerts.md).
 
      >[!NOTE]
      >
-     >Debe ser administrador de Analytics o usuario con el permiso Uso de llamadas al servidor para tener acceso a este.
+     >You must be an Analytics administrator or a user with the Server call usage permission in order to have access to server call usage. 
 
-## Administrar alertas existentes
+## Manage existing alerts
 
-Puede realizar varias acciones en las alertas existentes, como etiquetado, cambio de nombre, eliminación, etc.
+You can perform various actions on existing alerts, such as tagging, renaming, deleting, and so forth.
 
-Para administrar las alertas existentes en el Administrador de alertas:
+To manage existing alerts in the Alerts manager:
 
-1. Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acceder al Administrador de alertas en Adobe Analytics.
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Alerts]** to access the Alerts manager in Adobe Analytics.
 
    ![](assets/alert-manager.png)
 
-1. Seleccione una o varias alertas que desee administrar.
+1. Select one or more alerts that you want to manage.
 
    ![](assets/alert-manager-tasks.png)
 
-1. En la barra de acciones, seleccione cualquiera de las siguientes opciones:
+1. In the action bar, select any of the following options:
 
-   | Acción | Función |
+   | Action | Function | 
    |---------|----------|
-   | [!UICONTROL **Etiqueta**] | Aplicar una etiqueta a una alerta. Esto permite organizarlas para facilitar su uso. |
-   | [!UICONTROL **Eliminar**] | Elimina la alerta. |
-   | [!UICONTROL **Cambiar el nombre**] | Cambia el nombre de la alerta. |
-   | [!UICONTROL **Aprobar**] | Marcar la alerta como Aprobada. |
-   | [!UICONTROL **Copiar**] | Crea una copia (duplicado) de la alerta. |
-   | [!UICONTROL **Deshabilitar**] | Deshabilita una alerta que está habilitada actualmente. |
-   | [!UICONTROL **Activar**] | Habilita una alerta que está deshabilitada actualmente. |
-   | [!UICONTROL **Renovar**] | Renueva la fecha de caducidad de la alerta. Esto amplía la fecha de vencimiento a 1 año a partir del día en que seleccionó esta opción, independientemente de la fecha de vencimiento original. |
-   | [!UICONTROL **Exportar a CSV**] | Exportar una alerta a un archivo .CSV. |
+   | [!UICONTROL **Tag**] | Apply a tag to an alert. This helps you to organize alerts for ease of use. | 
+   | [!UICONTROL **Delete**] | Deletes the alert. | 
+   | [!UICONTROL **Rename**] | Renames the alert. |
+   | [!UICONTROL **Approve**] | Mark the alert as Approved. |
+   | [!UICONTROL **Copy**] | Creates a copy (duplicate) of the alert. |
+   | [!UICONTROL **Disable**] | Disables an alert that is currently enabled. |
+   | [!UICONTROL **Enable**] | Enables an alert that is currently disabled. |
+   | [!UICONTROL **Renew**] | Renews the alert expiration date. This extends the  expiration date to be 1 year from the day you selected this option, regardless of the original expiration date. |
+   | [!UICONTROL **Export to CSV**] | Exports the alert to a .CSV file. |
 
-## Editar una alerta
+## Edit an alert
 
-Para editar una alerta existente:
+To edit an existing alert:
 
-1. Seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** para acceder al Administrador de alertas en Adobe Analytics.
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Alerts]** to access the Alerts manager in Adobe Analytics.
 
    ![](assets/alert-manager.png)
 
-1. Seleccione el nombre de la alerta en la columna [!UICONTROL **Título y descripción**].
+1. Select the alert name in the [!UICONTROL **Title and description**] column.
 
-1. Edite la alerta como desee.
+1. Edit the alert as desired. 
 
-   A continuación se indican algunas de las acciones que puede realizar al editar una alerta:
+   Following are some of the things you can do when editing an alert:
 
-   * Añadir alertas a otros grupos de informes
-   * Añadir o modificar la descripción
-   * Modificar la granularidad temporal
-   * Modificación de los destinatarios
-   * Modificación de la fecha de vencimiento
-   * Modificación de métricas y filtros
+   * Add alerts to other report suites
+   * Add or modify the description
+   * Modify the time granularity
+   * Modify the recipients 
+   * Modify the expiration date
+   * Modify the metrics and filters
 
-1. Seleccione [!UICONTROL **Guardar**].
+1. Select [!UICONTROL **Save**].
 
-## Configuración de columnas
+## Configure columns 
 
-Puede configurar la información mostrada para cada alerta en el Administrador de alertas configurando las columnas que se muestran.
+You can configure the information displayed for each alert in the Alerts manager by configuring the columns that are displayed.
 
-Para configurar las columnas visibles en el Administrador de alertas:
+To configure the visible columns in the Alerts manager:
 
-1. En Adobe Analytics, seleccione la pestaña **[!UICONTROL Componentes]** y, a continuación, **[!UICONTROL Alertas]**.
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Alerts]**. 
 
-1. En el Administrador de alertas, seleccione el icono **Personalizar columnas** ![Personalizar icono de columnas](assets/customize-columns-icon.png) y, a continuación, seleccione las columnas que desea que se muestren en el Administrador de alertas.
+1. In the Alert manager, select the **Customize columns** icon ![Customize columns icon](assets/customize-columns-icon.png), then select the columns that you want to be displayed in the Alerts manager.
 
-   Las columnas disponibles son las siguientes:
+   The following columns are available:
 
-   | Título de columna | Descripción |
+   | Column title  | Description |
    |---|---|
-   | Título y descripción | Estos valores se proporcionan en el Generador de alertas. Para editar el título y la descripción, seleccione el vínculo del título para abrir el generador de alertas. |
-   | Favoritos | Muestra iconos de estrella junto a cada alerta, lo que permite marcar las alertas como favoritas. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
-   | Tipo | Muestra si la alerta es una alerta de datos de Analytics o una alerta de uso de llamadas al servidor. |
-   | Habilitado | Muestra si la alerta está habilitada o deshabilitada actualmente. |
-   | Grupo de informes | Indica en qué grupo de informes se guardó la alerta por última vez. |
-   | Propietario | Indica a quién pertenece la alerta. Como no administrador, solo puede ver las alertas que le pertenecen o las que se compartieron con usted. |
-   | Etiquetas | Muestra las etiquetas que se aplicaron a la alerta, tanto por su parte como por parte de las personas que compartieron la alerta con usted. |
-   | Fecha de caducidad | Muestra la fecha y la hora en que la alerta está configurada para vencer. |
-   | Fecha de modificación | Indica la fecha en la que se modificó la alerta por última vez. |
+   | Title and description | These values are provided in the Alert builder. To edit the title and description, select the title link to open the Alert builder.  |
+   | Favorites  | Displays star icons next to each alert, allowing you to mark alerts as favorites. |
+   | Type | Shows whether the alert is an Analytics data alert or a Server call usage alert. |
+   | Enabled | Shows whether the alert is currently enabled or disabled. | 
+   | Report suite | Indicates in which report suite the alert was last saved.  |
+   | Owner | Indicates who owns the alert. As a non-admin, you can see only alerts you own or those that were shared with you.  |
+   | Tags | Shows tags that were applied to the alert, either by you or by people who shared the alert with you.  |
+   | Expiration date | Shows the date and time when the alert is set to expire. |
+   | Date modified | Indicates the date when the alert was last modified.  |
 
    {style="table-layout:auto"}
-
-   <!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
-
+   
+   
+    When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> 
+   
+-->
 

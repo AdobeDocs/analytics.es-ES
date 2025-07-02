@@ -1,12 +1,12 @@
 ---
-description: Las alertas permiten un control granular sobre las notificaciones y la integración con la detección de anomalías.
-title: Información general sobre alertas
+description: Obtenga información sobre cómo utilizar las alertas para permitir un control granular sobre las notificaciones y la integración con la detección de anomalías.
+title: Resumen de alertas
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 93%
 
 ---
 

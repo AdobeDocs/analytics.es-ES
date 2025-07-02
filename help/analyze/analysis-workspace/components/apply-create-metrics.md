@@ -1,19 +1,25 @@
 ---
-description: Hay dos modos de utilizar métricas en Analysis Workspace.
-title: Métricas en Analysis Workspace
+description: Comprenda cuáles son las métricas y cómo utilizarlas en Adobe Analytics.
+title: Métricas
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 69e67ca6bdd074a982b70e040b37b26434d216af
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 25%
+source-wordcount: '847'
+ht-degree: 21%
 
 ---
 
 # Métricas
 
 Las métricas permiten cuantificar los puntos de datos en Analysis Workspace. Normalmente se utilizan como columnas en una visualización y están vinculadas a las dimensiones.
+
+## Uso de métricas en Analysis Workspace
+
+Las métricas son flexibles en su uso dentro de Analysis Workspace. Arrastre una métrica a una tabla de forma libre vacía para ver las tendencias de esa métrica durante el período de fecha del proyecto. También puede arrastrar una métrica cuando una dimensión esté presente para ver cómo se compara esa métrica con cada elemento de dimensión. Al arrastrar una métrica sobre un encabezado de métrica existente, se reemplaza y al arrastrar una métrica junto a un encabezado, puede ver ambas métricas en paralelo.
+
+Para obtener información acerca de cómo agregar métricas y otros tipos de componentes a Analysis Workspace, vea [Usar componentes en Analysis Workspace](use-components-in-workspace.md).
 
 ## Tipos de métricas
 
@@ -35,13 +41,13 @@ Las métricas se pueden utilizar de varias formas dentro de Analysis Workspace. 
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usar métricas](https://video.tv.adobe.com/v/328571?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usar métricas](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 ## Crear métricas calculadas
 
-Las métricas calculadas permiten ver fácilmente cómo se relacionan entre sí las métricas, mediante operadores simples o funciones estadísticas.
+Las métricas calculadas permiten ver cómo se relacionan entre sí las métricas, mediante operadores simples o funciones estadísticas.
 
 
 Existen varias formas de crear métricas calculadas. El método que elija determina si la métrica calculada está disponible en la lista de componentes de todos los proyectos o solo en el proyecto en el que se creó.
@@ -73,15 +79,15 @@ Para crear una métrica calculada para un solo proyecto:
 
    Cuando se selecciona una sola columna, están disponibles las siguientes opciones:
 
-   * [!UICONTROL **Media**]: crea una nueva columna que muestra el valor medio en el conjunto de elementos de dimensión de la columna. Utiliza la función [Mean](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean).
+   * [!UICONTROL **Media**]: crea una nueva columna que muestra el valor medio en el conjunto de elementos de dimensión de la columna. Los valores de columna utilizan la función [Mean](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean).
 
-   * [!UICONTROL **Mediana**]: crea una nueva columna que muestra el valor de mediana en el conjunto de elementos de dimensión de la columna. Utiliza la función [Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median).
+   * [!UICONTROL **Mediana**]: crea una nueva columna que muestra el valor de mediana en el conjunto de elementos de dimensión de la columna. Los valores de columna utilizan la función [Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median).
 
-   * [!UICONTROL **Máximo de columna**]: Crea una nueva columna que muestra el valor más alto del conjunto de elementos de dimensión de la columna. Utiliza la función [Máximo de columna](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum).
+   * [!UICONTROL **Máximo de columna**]: Crea una nueva columna que muestra el valor más alto del conjunto de elementos de dimensión de la columna. Los valores de columna utilizan la función [Máximo de columna](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum).
 
-   * [!UICONTROL **Columna mín.**]: crea una nueva columna que muestra el valor más pequeño del conjunto de elementos de dimensión para la columna. Utiliza la función [Mínimo de columna](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum).
+   * [!UICONTROL **Columna mín.**]: crea una nueva columna que muestra el valor más pequeño del conjunto de elementos de dimensión para la columna. Los valores de columna utilizan la función [Mínimo de columna](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum).
 
-   * [!UICONTROL **Suma de columna**]: Crea una nueva columna que agrega todos los valores numéricos de una métrica dentro de una columna (en los elementos de una dimensión). Utiliza la función [Suma de columna](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum).
+   * [!UICONTROL **Suma de columna**]: Crea una nueva columna que agrega todos los valores numéricos de una métrica dentro de una columna (en los elementos de una dimensión). Los valores de columna utilizan la función [Suma de columna](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum).
 
    Cuando se seleccionan dos columnas, están disponibles las siguientes opciones:
 
@@ -95,7 +101,7 @@ Para crear una métrica calculada para un solo proyecto:
 
    * [!UICONTROL **Cambio porcentual**]: crea una nueva columna que muestra el cambio porcentual entre las dos columnas seleccionadas.
 
-[Métricas calculadas: métricas sin implementación](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=es) (3:42)
+[Métricas calculadas: métricas sin implementación](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## Comparar métricas con diferentes modelos de atribución
@@ -113,7 +119,7 @@ A continuación, se muestra un vídeo sobre este tema:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Promedio acumulado](https://video.tv.adobe.com/v/35008?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Promedio acumulado](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

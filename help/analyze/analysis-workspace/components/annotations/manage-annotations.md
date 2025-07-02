@@ -1,13 +1,13 @@
 ---
-title: Administración de anotaciones
-description: Cómo administrar anotaciones en Espacio de trabajo.
+title: Administrar anotaciones
+description: Cómo administrar anotaciones en Analysis Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 922aa7744abc6d7e24d272738375ceea940b3177
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 89%
+source-wordcount: '761'
+ht-degree: 88%
 
 ---
 

@@ -1,17 +1,17 @@
 ---
-description: Vea los valores principales de una dimensión antes de utilizarla en un proyecto.
-title: Vista preliminar de dimensiones
+description: Obtenga información sobre cómo ver los detalles y los valores principales de una dimensión en Analysis Workspace.
+title: Previsualizar dimensiones
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: a629b2be66d9458bf10872a95aaec739aed9d791
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 21%
+source-wordcount: '105'
+ht-degree: 4%
 
 ---
 
-# Previsualización de dimensiones en Analysis Workspace
+# Vista preliminar de dimensiones
 
 Puede usar la [información de componente](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) de un componente para mostrar los elementos principales de una dimensión.
 

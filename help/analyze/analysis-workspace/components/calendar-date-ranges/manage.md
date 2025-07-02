@@ -1,12 +1,13 @@
 ---
-title: Administración de intervalos de fechas
-description: Comparta, cambie el nombre o elimine intervalos de fechas en Analysis Workspace.
+title: Administrar intervalos de fechas
+description: Obtenga información sobre cómo administrar intervalos de fechas en Analysis Workspace.
 feature: Date Ranges
 role: User
-source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
+exl-id: 48cda13f-ec4d-43fa-be24-51e2ab6044dd
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -47,7 +48,7 @@ Puede realizar acciones en intervalos de fechas utilizando la barra de acciones 
 
 | Icono | Acción | Descripción |
 |:---:|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Agregue]** | Agregue otro intervalo de fechas utilizando el generador de intervalos de fechas [1&rbrace;.](create.md#date-range-builder) |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Agregue]** | Agregue otro intervalo de fechas utilizando el generador de intervalos de fechas [1}.](create.md#date-range-builder) |
 | ![Buscar](/help/assets/icons/Search.svg) | [!UICONTROL *Buscar por título*] | Cuando no se selecciona ningún intervalo de fechas en la lista, busque intervalos de fechas utilizando este campo de búsqueda. |
 | ![Etiqueta](/help/assets/icons/Label.svg) | **[!UICONTROL Etiqueta]** | Etiquete los intervalos de fechas seleccionados. En el cuadro de diálogo **[!UICONTROL Intervalo de fecha de etiqueta]**, seleccione o anule la selección de las etiquetas para los intervalos de fecha seleccionados. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de los intervalos de fechas seleccionados. |
 | ![Compartir](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Compartir]** | Compartir los intervalos de fechas seleccionados. En el cuadro de diálogo **[!UICONTROL Compartir intervalo de fechas]**, puede ![Buscar](/help/assets/icons/Search.svg) *Buscar individuos o grupos* o puede seleccionar **[!UICONTROL Organización]** o **[!UICONTROL Grupos]**. Seleccione **[!UICONTROL Guardar]** para guardar los detalles de uso compartido de los intervalos de fechas seleccionados. |
