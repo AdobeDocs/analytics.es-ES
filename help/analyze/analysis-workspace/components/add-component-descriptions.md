@@ -47,5 +47,5 @@ Para obtener información general sobre el diccionario de datos, consulte [Infor
 >[!MORELIKETHIS]
 >
 >[Configuración del componente de informe](/help/components/vrs/vrs-components.md)
->>[Entradas del componente del diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>&#x200B;>[Entradas del componente del diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >
