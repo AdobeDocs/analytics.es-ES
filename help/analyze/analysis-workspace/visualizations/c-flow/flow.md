@@ -5,9 +5,9 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '295'
 ht-degree: 95%
 
 ---
@@ -24,14 +24,14 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="Flujo"
->abstract="Analice el flujo de visitas o visitantes de un punto de contacto al siguiente.<br/><br/>**Parámetros &#x200B;**<br/>**Comienza por**: añada una dimensión, un elemento de dimensión o una métrica para ver los puntos de contacto principales después de la ocurrencia del componente seleccionado.<br/>**Contiene**: añada una dimensión o elemento de dimensión para ver los puntos de contacto principales antes y después de la ocurrencia del componente seleccionado.<br/>**Acaba por**: añada una dimensión, un elemento de dimensión o una métrica para ver los puntos de contacto principales antes de la ocurrencia del componente seleccionado.<br/>**Dimensión de las rutas**: añada una dimensión para usarla como ruta de acceso o de salida del componente seleccionado."
+>abstract="Analice el flujo de visitas o visitantes de un punto de contacto al siguiente.<br/><br/>**Parámetros **<br/>**Comienza por**: añada una dimensión, un elemento de dimensión o una métrica para ver los puntos de contacto principales después de la ocurrencia del componente seleccionado.<br/>**Contiene**: añada una dimensión o elemento de dimensión para ver los puntos de contacto principales antes y después de la ocurrencia del componente seleccionado.<br/>**Acaba por**: añada una dimensión, un elemento de dimensión o una métrica para ver los puntos de contacto principales antes de la ocurrencia del componente seleccionado.<br/>**Dimensión de las rutas**: añada una dimensión para usarla como ruta de acceso o de salida del componente seleccionado."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de flujo en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Flujo](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)  para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta la visualización de flujo en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Flujo](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)  para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ Con la visualización puede:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de flujo](https://video.tv.adobe.com/v/3410740?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de flujo](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Cada columna puede mostrar una dimensión distinta. Arrastre una dimensión y su
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funcionalidad adicional en la visualización de flujo](https://video.tv.adobe.com/v/328102?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funcionalidad adicional en la visualización de flujo](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

@@ -4,10 +4,10 @@ title: Resumen de métricas clave
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 100%
+source-wordcount: '948'
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ Esta visualización aborda una variedad de casos de uso comunes, entre los que s
    | **[!UICONTROL Métrica]** | Seleccione la métrica que desea examinar. Todas las métricas son compatibles. |
    | **[!UICONTROL Intervalo de fechas principal]** | El intervalo de fechas actual para la tabla de forma libre.<p>Elija entre cualquier intervalo de fechas disponible en la vista de datos.</p> <p>Elija [!UICONTROL **Intervalo de fechas del panel**] si desea utilizar el mismo intervalo de fechas que se está utilizando en el panel en el que se encuentra la visualización.</p> |
    | **[!UICONTROL Intervalo de fechas de comparación]** | El intervalo de fechas con el que se desea comparar el intervalo de fechas principal. |
-   | **[!UICONTROL Filtro (opcional)]** | Cualquier filtro que le interese específicamente para este resumen. |
+   | **[!UICONTROL Segmento (opcional)]** | Cualquier segmento que le interese específicamente para este resumen. |
 
    {style="table-layout:auto"}
 
@@ -114,15 +114,14 @@ Como parte de la configuración de visualización, hay disponibles opciones espe
 
 ## Edición de la visualización
 
-Después de crear la visualización, aún puede editar la configuración original.
+Después de crear la visualización, puede editar la configuración original.
 
-1. Haga clic en el icono de lápiz en la esquina superior derecha de la visualización (junto al icono de engranaje de configuración).
+1. Seleccione ![Editar](/help/assets/icons/Edit.svg) en la esquina superior derecha de la visualización.
 
-   ![Icono de edición de visualización](assets/edit-icon.png)
 
-   Ahora volverá a la vista de configuración original.
+   Ahora volverá a la [vista de configuración](#configure) original.
 
-1. Cambie la métrica, el intervalo de fechas principal, el intervalo de fechas de comparación o el segmento de acuerdo con sus preferencias.
+1. Cambie la métrica, el intervalo de fechas principal, el intervalo de fechas de comparación o el segmento como prefiera.
 
 >[!MORELIKETHIS]
 >

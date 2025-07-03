@@ -1,12 +1,12 @@
 ---
-description: Aprenda a crear y utilizar segmentos en Analysis Workspace.
+description: Aprenda a crear y utilizar segmentos en Analysis Workspace y Adobe Analytics.
 title: Resumen de segmentos
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '306'
 ht-degree: 34%
 
 ---
@@ -27,14 +27,14 @@ Puede crear y utilizar segmentos en Analysis Workspace y Customer Journey Analyt
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de segmentos en Analysis Workspace](https://video.tv.adobe.com/v/41394?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de segmentos en Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Búsqueda y creación de segmentos](https://video.tv.adobe.com/v/3415642?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Búsqueda y creación de segmentos](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Puede crear diferentes tipos de segmentos en Analysis Workspace:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Otros métodos para aplicar segmentos](https://video.tv.adobe.com/v/33832?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Otros métodos para aplicar segmentos](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

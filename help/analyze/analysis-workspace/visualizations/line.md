@@ -1,11 +1,11 @@
 ---
-description: Utilice la visualización de líneas para representar conjuntos de datos de tendencias (basados en el tiempo).
+description: Utilice la visualización de líneas para visualizar conjuntos de datos de tendencias (basados en el tiempo).
 title: Líneas
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 98%
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de Línea en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Línea](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/line) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta la visualización de Línea en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Línea](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/line) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ Como parte de [configuración de visualización](freeform-analysis-visualization
 | Configuración | Descripción |
 |---|---|
 | **[!UICONTROL Granularidad]** | Seleccione en la lista desplegable de granularidad para cambiar una visualización de tendencias de diaria a semanal, mensual, etc. La granularidad también se actualiza en la tabla del origen de datos. |
-| **[!UICONTROL Mostrar mínimo]** <br/>**[!UICONTROL Mostrar máximo &#x200B;]** | Puede superponer una etiqueta de valor mínimo y máximo para resaltar los valores mínimo y máximo de una métrica. Los valores mínimo/máximo se derivan de los puntos de datos visibles en la visualización, no del conjunto completo de valores dentro de una dimensión.<br/>![Una superposición con la etiqueta de valor mínimo y máximo.](assets/min-max-labels.png) |
+| **[!UICONTROL Mostrar mínimo]** <br/>**[!UICONTROL Mostrar máximo ]** | Puede superponer una etiqueta de valor mínimo y máximo para resaltar los valores mínimo y máximo de una métrica. Los valores mínimo/máximo se derivan de los puntos de datos visibles en la visualización, no del conjunto completo de valores dentro de una dimensión.<br/>![Una superposición con la etiqueta de valor mínimo y máximo.](assets/min-max-labels.png) |
 | **[!UICONTROL Mostrar línea de tendencia]** | Puede añadir una regresión o una línea de tendencia de promedio móvil a la serie de líneas. Las líneas de tendencia ayudan a mostrar un patrón más claro en los datos. Cuando esté seleccionado, elija un modelo de la lista. Consulte [Modelos](#models) para obtener información general y detallada de los modelos disponibles.<br/>![Línea de tendencia lineal](assets/show-linear-trendline.png). |
 
 >[!TIP]
@@ -67,7 +67,7 @@ Todas las líneas de tendencia del modelo de regresión se ajustan con los míni
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menú contextual de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menú contextual de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

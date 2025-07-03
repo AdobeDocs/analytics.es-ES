@@ -4,9 +4,9 @@ title: Visitas en el orden previsto entre dimensiones
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ Por ejemplo, además de una dimensión Página, puede agregar otros elementos de
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abandonos multidimensional](https://video.tv.adobe.com/v/327468?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abandonos multidimensional](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

@@ -5,10 +5,10 @@ title: Aplicación De Segmentos En El Análisis De Abandonos
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 71%
+source-wordcount: '448'
+ht-degree: 42%
 
 ---
 
@@ -25,47 +25,45 @@ Puede crear segmentos a partir de un punto de contacto, añadir segmentos como p
 >* Cuando se usa un segmento basado en visitas como punto de contacto dentro de una visualización de abandonos de visitas.
 >
 
-## Creación de segmentos a partir de un punto de contacto {#section_915E8FBF35CD4F34828F860C1CCC2272}
+## Creación de segmentos a partir de un punto de contacto
 
 1. Cree un segmento a partir de un punto de contacto específico en el que esté especialmente interesado y que pueda ser útil para su aplicación en otros informes. Para ello, haga clic con el botón derecho en el punto de contacto y seleccione **[!UICONTROL Crear segmento a partir de punto de contacto]**.
 
-   ![](assets/segment-from-touchpoint.png)
+   ![](assets/fallout-createsegment.png)
 
    Cuando el Generador de segmentos se abre, ya contiene el segmento secuencial creado previamente que concuerda con el punto de contacto seleccionado:
 
-   ![](assets/segment-builder.png)
+   ![](assets/fallout-definesegment.png)
 
 1. Ponga un título y una descripción al segmento y guárdelo.
 
-   Ahora puede utilizar este segmento en cualquier informe que desee.
+   Ahora puede utilizar este segmento en cualquier proyecto que desee.
 
-## Añadir un segmento como punto de contacto {#section_17611C1A07444BE891DC21EE8FC03EFC}
+## Añadir un segmento como punto de contacto
 
-Si desea ver, por ejemplo, la tendencia de los usuarios de Estados Unidos y cómo afectan a las visitas en el orden previsto, solo tiene que arrastrar el segmento correspondiente a la visita en el orden previsto:
+Si desea ver, por ejemplo, la tendencia de las visitas de aplicaciones móviles y cómo afectan a las visitas en el orden previsto, solo tiene que arrastrar el segmento de visitas de aplicaciones móviles a las visitas en el orden previsto:
 
 ![](assets/segment-touchpoint.png)
 
-O puede crear un punto de contacto AND arrastrando el segmento de usuarios de Estados Unidos a otro punto de comprobación.
+O puede crear un punto de contacto AND arrastrando el segmento Visitas de aplicación móvil a otro punto de comprobación.
 
-## Comparar segmentos en abandonos {#section_E0B761A69B1545908B52E05379277B56}
+## Comparar segmentos en abandonos
 
 Puede comparar una cantidad ilimitada de segmentos en la visualización de visitas en el orden previsto. (Tenga en cuenta que el siguiente vídeo indica que puede comparar hasta 3 segmentos, lo que es incorrecto).
 
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparar segmentos en una visualización de visitas en el orden previsto](https://video.tv.adobe.com/v/328099?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparar segmentos en una visualización de visitas en el orden previsto](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
-1. Seleccione los segmentos que quiera comparar en el carril [!UICONTROL Segmentos] de la izquierda. En nuestro ejemplo, hemos seleccionado 2 segmentos: usuarios de EE. UU. y usuarios fuera de EE. UU.
-1. Arrástrelos a la zona de colocación de Segmento en la parte superior.
+1. Seleccione los segmentos que quiera comparar en el panel [!UICONTROL Segmento] de la izquierda. En el ejemplo En el ejemplo, se seleccionan dos segmentos: **[!UICONTROL iOS]** y **[!UICONTROL Android]**.
+1. Puede arrastrar los tres segmentos a la zona de colocación de Segmento en la parte superior de la visualización.
 
-   ![](assets/segment-drop.png)
+   ![](assets/segment-compare.png)
 
-1. Opcional: puede mantener “Todas las visitas” como el contenedor predeterminado o eliminarlo.
+1. Opcional: puede mantener *Todas las personas* como el contenedor predeterminado o eliminar el contenedor.
 
-   ![](assets/seg-compare.png)
-
-1. Ahora puede comparar las visitas en el orden previsto de los dos segmentos como, por ejemplo, cuando un segmento supera a otro u otra información.
+1. Ahora puede comparar las visitas en el orden previsto de los tres segmentos como, por ejemplo, cuando un segmento supera a otro u otra información.

@@ -4,10 +4,10 @@ title: Configuración De Una Visualización De Flujo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '1658'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -108,7 +108,7 @@ Puede configurar el inicio o el final de la ruta que le interese. O bien, analic
    | **[!UICONTROL Limitar a la primera/última ocurrencia]** | Limite las rutas a aquellas que comienzan/terminan con la primera/última ocurrencia de una dimensión, un elemento o una métrica. Consulte [Limitar a la primera/última ocurrencia](#example-scenario-for-limit-to-firstlast-occurrence) para obtener una explicación más detallada. |
    | **[!UICONTROL Número de columnas]** | El número de columnas que quiere incluir en el diagrama de flujo. Puede especificar hasta un máximo de 5 columnas. |
    | **[!UICONTROL Elementos expandidos por columna]** | Cuántos elementos desea incluir en cada columna. Puede especificar un máximo de 10 elementos expandidos por columna. |
-   | **[!UICONTROL Contenedor de flujo]** | Se permite alternar entre **[!UICONTROL Sesiones]** y **[!UICONTROL Persona]** para analizar las rutas seguidas. Esta configuración le permite comprender el compromiso de la persona a nivel de persona (a lo largo de las sesiones) o restringir el análisis a una única sesión. |
+   | **[!UICONTROL Contenedor de flujo]** | Puede cambiar entre **[!UICONTROL Visita]** y **[!UICONTROL Visitante]** para analizar las rutas. Esta configuración le ayuda a comprender el compromiso de un visitante a nivel de visitante (a lo largo de visitas) o a restringir el análisis a una sola visita. |
 
    >[!IMPORTANT]
    >
@@ -173,7 +173,7 @@ Utilice un menú contextual en cualquier nodo de la visualización de flujo con 
 | **[!UICONTROL Excluir elemento]** o **[!UICONTROL Restaurar elementos excluidos]** | Quita un nodo específico de la columna y lo crea automáticamente como filtro en la parte superior de la columna. Para restaurar el elemento excluido, seleccione en el menú contextual **[!UICONTROL Restaurar elemento excluido]**. También puede abrir el filtro en la parte superior de la columna y quitar el recuadro con el elemento que acaba de excluir. |
 | **[!UICONTROL Tendencia]** | Crea un diagrama de tendencia para el nodo. |
 | **[!UICONTROL Mostrar columna siguiente]** / **[!UICONTROL Mostrar columna anterior]** | Muestra la columna siguiente (derecha) o anterior (izquierda) de la visualización. |
-| **[!UICONTROL Ocultar columna]**&#x200B;n | Oculta la columna seleccionada de la visualización. |
+| **[!UICONTROL Ocultar columna]**n | Oculta la columna seleccionada de la visualización. |
 | **[!UICONTROL Expandir toda la columna]** | Expande una columna para mostrar todos los nodos. De forma predeterminada, únicamente se muestran los cinco nodos principales. |
 | **[!UICONTROL Crear audiencia a partir de la selección]** | Crea una audiencia basada en la columna seleccionada. |
 | **[!UICONTROL Contraer toda la columna]** | Oculta todos los nodos de una columna. |
@@ -195,15 +195,15 @@ En el ejemplo siguiente, se incluyen **todas** las ocurrencias de *Categoría pr
 
   En el ejemplo siguiente, solo se incluyen las **últimas** ocurrencias de *Categoría principal del producto* y *Añadir al carro de compras* en cada paso del flujo.
   ![Lint, inicio](assets/limitonlast.png)
-* La serie utilizada difiere según el contenedor. Si se usa el contenedor **[!UICONTROL Persona]**, la serie de eventos es la sesión. Si se usa el contenedor **[!UICONTROL Sesión]**, la serie de eventos son todos los eventos de un usuario determinado en el intervalo de fechas proporcionado.
+* La serie utilizada difiere según el contenedor. Si se usa el contenedor **[!UICONTROL Visitante]**, la serie de eventos son las visitas. Si se usa el contenedor **[!UICONTROL Visitante]**, la serie de eventos son todas las visitas de un usuario determinado en el intervalo de fechas proporcionado.
 * La opción **[!UICONTROL Limitar a la primera/última ocurrencia]** puede configurarse en los ajustes avanzados cuando se utiliza un elemento de métrica o dimensión en los campos **[!UICONTROL Comienza con]** o **[!UICONTROL Termina con]**.
 
 
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menú contextual de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menú contextual de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

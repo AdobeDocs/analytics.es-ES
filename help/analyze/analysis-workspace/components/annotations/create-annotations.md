@@ -1,12 +1,12 @@
 ---
 title: Crear anotaciones
-description: Cómo crear anotaciones en Analysis Workspace.
+description: Obtenga información sobre cómo crear anotaciones en Analysis Workspace.
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '862'
 ht-degree: 93%
 
 ---
@@ -22,7 +22,7 @@ Puedes crear una anotación de las siguientes maneras:
 
 ![Crear una anotación](assets/create-annotation.png)
 
-* **A**. En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Anotaciones]**. Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Añadir]**] desde el administrador de[[!UICONTROL &#x200B; Anotaciones]](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md).
+* **A**. En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Anotaciones]**. Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Añadir]**] desde el administrador de[[!UICONTROL  Anotaciones]](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md).
 * **B**. En un proyecto de Workspace, en el menú contextual de una visualización, seleccione **[!UICONTROL Crear anotación a partir de la selección]**.
 * **C**. En un proyecto de Workspace, en el menú contextual de un gráfico de líneas, seleccione **[!UICONTROL Anotar selección]**.
 * **D**. En un proyecto de Workspace, seleccione **[!UICONTROL Componentes]** en el menú, y **[!UICONTROL Crear anotación]**.
