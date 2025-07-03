@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: Depurador de proyectos
 role: User
-source-git-commit: e7aaafc95f60c71744cfeb3c59310d8ba2ea2576
+exl-id: 7a3a195e-d4f3-4fc8-90f9-507964052c9b
+source-git-commit: b6509693440f00a0c93668109daa7e7f3786f39c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '465'
 ht-degree: 3%
 
 ---
@@ -54,7 +55,7 @@ Para utilizar el depurador para una visualización específica:
 
    * **[!UICONTROL Solicitar marca de tiempo]**
    * **[!UICONTROL Marca de tiempo de respuesta]**
-   * **[!UICONTROL tiempo de solicitud]**
+   * **[!UICONTROL Tiempo de solicitud]**
    * **[!UICONTROL Tiempo de cola]**
    * **[!UICONTROL Tiempo de procesamiento del servidor]**
    * **[!UICONTROL Tiempo de búsqueda]**
@@ -74,7 +75,7 @@ Para utilizar el depurador para una visualización específica:
    * JSON (respuesta)
    * Solicitud cURL
 
-1. Use ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar al portapapeles]**&#x200B;d debajo de **[!UICONTROL Solicitud cURL]** para copiar la solicitud en el portapapeles.
+1. Use ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar al portapapeles]** debajo de **[!UICONTROL Solicitud cURL]** para copiar la solicitud en el portapapeles.
 1. Pase el ratón sobre cualquiera de las áreas de texto de **[!UICONTROL Solicitud]** o **[!UICONTROL Respuesta]** para mostrar y seleccionar ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar al portapapeles]** para copiar el contenido de ese área de texto (XML o JSON) en el portapapeles.
 
 1. Intercambie cualquier información que haya copiado y que el Soporte de Adobe haya solicitado para solucionar los problemas de las visualizaciones en su proyecto de Analysis Workspace.
@@ -95,6 +96,3 @@ Para deshabilitar el depurador:
 1. Seleccione **[!UICONTROL Ayuda]** > **[!UICONTROL Deshabilitar depurador]** en el menú del proyecto de Analysis Workspace.
 1. Seleccione **[!UICONTROL Aceptar]** en el diálogo **[!UICONTROL Deshabilitar depurador]**.
 1. Confirme cuando el explorador le pida que vuelva a cargar la página o el sitio.
-
-
-
