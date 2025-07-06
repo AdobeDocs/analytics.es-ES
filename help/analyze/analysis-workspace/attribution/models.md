@@ -1,31 +1,31 @@
 ---
-title: Modelos De Atribución, Contenedores Y Ventanas Retroactivas
-description: Cómo los diferentes tipos de atribución dividen el crédito entre los valores de dimensión.
+title: Componentes de atribución
+description: Obtenga información acerca de los componentes que definen la atribución.
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 40%
+source-wordcount: '84'
+ht-degree: 15%
 
 ---
 
-# Modelos de atribución, contenedores y ventanas retroactivas
+# Componentes de atribución
 
 El concepto de atribución en Adobe Analytics implica tres componentes:
 
-* **Modelo de atribución:** El modelo describe la distribución de conversiones a las visitas en un grupo. Por ejemplo, primer contacto o último contacto.
-* **Contenedor**: El contenedor define el ámbito de la atribución o cómo agrupar las visitas para cada modelo.
-* **Ventana retrospectiva de atribución:** La ventana retrospectiva describe el número de días para retrospectiva del modelo elegido.
+* **Modelo de atribución:** El [modelo](#attribution-model) describe la distribución de conversiones a las visitas en un grupo. Por ejemplo, primer contacto o último contacto.
+* **Contenedor**: El [contenedor](#container) define el ámbito de la atribución o cómo agrupar las visitas para cada modelo.
+* **Ventana retrospectiva de atribución:** La [ventana retrospectiva](#lookback-window) describe el número de días de retrospectiva para el modelo elegido.
 
 
-## Modelos de atribución
+## Modelo de atribución
 
 {{attribution-models-details}}
 
 
-## Contenedores
+## Contenedor
 
 {{attribution-container}}
 
@@ -69,7 +69,7 @@ A lookback window is the amount of time a conversion should look back to include
 
 >[!BEGINSHADEBOX]
   
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/40041?quality=12&learn=on&captions=spa){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} for a demo video.
   
 >[!ENDSHADEBOX]
 

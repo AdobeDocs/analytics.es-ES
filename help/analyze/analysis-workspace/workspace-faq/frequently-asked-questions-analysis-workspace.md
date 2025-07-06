@@ -1,20 +1,20 @@
 ---
-description: Obtenga información acerca de los requisitos del sistema para Analysis Workspace.
+description: Obtenga información acerca de los requisitos para Analysis Workspace.
 keywords: Analysis Workspace
-title: Requisitos de administración
+title: Requisitos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 89737128-8a99-4f63-8409-9b97af723bce
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 100%
+source-wordcount: '128'
+ht-degree: 89%
 
 ---
 
-# Requisitos de administración
+# Requisitos
 
-Requisitos del sistema para Analysis Workspace.
+Los requisitos para ejecutar Analysis Workspace son:
 
 | Requisito | Descripción |
 |--- |--- |

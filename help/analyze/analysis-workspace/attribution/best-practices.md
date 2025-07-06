@@ -3,10 +3,10 @@ title: Prácticas recomendadas de atribución
 description: Comprenda las prácticas recomendadas para decidir qué modelo de atribución utilizar.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 74%
+ht-degree: 66%
 
 ---
 
@@ -33,7 +33,7 @@ A continuación puede realizar análisis de canal superior e inferior para ampli
 
 ### Análisis del canal superior
 
-Los canales de análisis del canal superior se utilizan para concienciar sobre la marca o el producto. Por ejemplo, el objetivo de la mayoría de los anuncios de TV es la imagen de marca. Puede utilizar el modelo de atribución [&quot;Time decay&quot;](/help/analyze/analysis-workspace/attribution/models.md), ya que las personas se olvidarán de su anuncio de TV a lo largo del tiempo.
+Los canales de análisis del canal superior se utilizan para concienciar sobre la marca o el producto. Por ejemplo, el objetivo de la mayoría de los anuncios de TV es la imagen de marca. Puede usar el [modelo de atribución Time Decay](/help/analyze/analysis-workspace/attribution/models.md), ya que las personas se olvidarán de su anuncio de TV con el tiempo.
 
 ### Análisis de canal inferior
 
@@ -47,13 +47,13 @@ El propósito de este paso es validar las hipótesis.
 
 Supongamos que su hipótesis es: &quot;*Mi canal de primer contacto tiene más impacto en la conversión que mi canal de último contacto.*&quot;
 
-En este caso, debe usar el modelo de atribución [Inverse J-shape&quot;](/help/analyze/analysis-workspace/attribution/models.md) para probar esta hipótesis. Este modelo proporciona el 60 % del crédito al primer punto de contacto.
+En este caso, debe usar el [modelo de atribución en forma de J invertida](/help/analyze/analysis-workspace/attribution/models.md) para probar esta hipótesis. Este modelo proporciona el 60 % del crédito al primer punto de contacto.
 
 **Ejemplo 2**
 
 Supongamos que su hipótesis es: *&quot;En un sector específico (como el de los viajes), la ventana de atribución es de 60 o 90 días, no de 30, porque los clientes investigan mucho antes de comprar un producto.*&quot;
 
-En este caso, cambiaría su [ventana retrospectiva](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/attribution/models) a 90 días.
+En este caso, cambiaría su [ventana retrospectiva](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models) a 90 días.
 
 ## Uso de atribución algorítmica
 
@@ -63,4 +63,4 @@ Si todavía no tiene un modelo de atribución que proporcione respuestas satisfa
 
 * Es posible que necesite utilizar los servicios de un científico de datos en lugar de depender solo de Analysis Workspace.
 * Puede confiar en los datos sin procesar, como en las fuentes de datos de Adobe.
-* Considere utilizar [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), por ejemplo, si desea tener en cuenta los datos de Impresiones.
+* Considere utilizar [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), por ejemplo, si quiere tener en cuenta los datos de sus impresiones.

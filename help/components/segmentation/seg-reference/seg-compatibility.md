@@ -1,16 +1,16 @@
 ---
-description: No todos los segmentos creados en el Generador de segmentos son compatibles con Data Warehouse. Esta tabla enumera las funciones compatibles.
+description: Comprenda por qué no todos los segmentos creados en el Generador de segmentos son compatibles con Data Warehouse. Descubra qué funciones son compatibles.
 title: Compatibilidad del segmento con el Data Warehouse
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 81%
+source-wordcount: '343'
+ht-degree: 80%
 
 ---
 
-# Compatibilidad de segmentos de Data Warehouse
+# Compatibilidad del segmento con el Almacén de datos
 
 No todos los segmentos creados en el Generador de segmentos son compatibles con [!DNL Data Warehouse]. Esta tabla enumera las funciones compatibles.
 

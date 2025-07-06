@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 98%
+source-wordcount: '759'
+ht-degree: 96%
 
 ---
 
@@ -194,7 +194,7 @@ ht-degree: 98%
       + [Eliminar segmentos](segmentation/segmentation-workflow/seg-delete.md)
       + [Copiar segmentos](segmentation/segmentation-workflow/seg-copy.md)
       + [Administración de segmentos](segmentation/segmentation-workflow/seg-manage.md)
-      + [Publicación de segmentos en Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [Publicar segmentos](segmentation/segmentation-workflow/seg-publish.md)
       + [Uso de segmentos](segmentation/segmentation-workflow/t-seg-apply.md)
    + Referencia {#segment-reference}
       + [Operadores](segmentation/seg-reference/seg-operators.md)
@@ -210,17 +210,17 @@ ht-degree: 98%
       + [Crear métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Buscar métricas](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Crear métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Una métrica calculada simple](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Una métrica calculada más compleja](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Generar una métrica de participación](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Un ejemplo sencillo](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Un ejemplo más complejo](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Tipo de métrica y atribución](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [Métricas de participación](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Métricas segmentadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Apilar y sustituir segmentos](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Métricas filtradas y ponderadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [Uso de funciones](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [Etiquetar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Filtrar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [Marcar una métrica calculada como favorita](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
+      + [Marcar métricas calculadas como favoritas](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [Aprobar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Compartir métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Copiar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)

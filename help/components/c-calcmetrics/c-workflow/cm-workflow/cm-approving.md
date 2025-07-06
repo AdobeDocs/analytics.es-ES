@@ -1,12 +1,12 @@
 ---
-description: En el Administrador de métricas calculadas, puede configurar un flujo de trabajo que incluya la aprobación de métricas en diversos niveles de aplicación y para departamentos o grupos específicos.
+description: Obtenga información sobre cómo aprobar métricas calculadas.
 title: Aprobar métricas calculadas
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 21%
+source-wordcount: '127'
+ht-degree: 4%
 
 ---
 

@@ -1,22 +1,22 @@
 ---
-description: Filtre por etiquetas, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados).
+description: Obtenga información sobre cómo filtrar segmentos por etiquetas, propietarios y otros filtros.
 title: Filtrar segmentos
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 36%
+source-wordcount: '168'
+ht-degree: 29%
 
 ---
 
-# Filtrado de la lista de segmentos
+# Filtrar la lista de segmentos
 
 Puede filtrar la lista de segmentos. El uso de un filtro en los segmentos facilita la búsqueda de los segmentos que están disponibles para usted y la administración de segmentos desde el [Administrador de segmentos](seg-manage.md).
 
 >[!NOTE]
 >
->La lista de segmentos hace referencia a la [lista de segmentos](seg-manage.md#filters-list) como parte de [Administrador de segmentos](seg-manage.md). Puede filtrar esa lista usando el ![Panel de filtro](/help/assets/icons/Filter.svg) [&#128279;](seg-manage.md#filter-panel)y parte de ese mismo [Administrador de segmentos](seg-manage.md).
+>La lista de segmentos hace referencia a la [lista de segmentos](seg-manage.md#filters-list) como parte de [Administrador de segmentos](seg-manage.md). Puede filtrar esa lista usando el ![Panel de filtro](/help/assets/icons/Filter.svg) [y parte de ese mismo ](seg-manage.md#filter-panel)Administrador de segmentos[.](seg-manage.md)
 >
 
 

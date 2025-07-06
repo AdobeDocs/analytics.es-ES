@@ -1,12 +1,12 @@
 ---
-description: Obtenga más información sobre
-title: Tipo de métrica y atribución
+description: Obtenga información sobre el tipo de métrica y la atribución.
+title: Tipo De Métrica Y Atribución
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 98%
 
 ---
 
@@ -113,7 +113,7 @@ Consulte [Ejemplo](#example) para ver un ejemplo del uso de un modelo de atribuc
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
->title="Deterioro de tiempo"
+>title="Declive temporal"
 >abstract="Los valores de dimensión más cercanos en el tiempo a una conversión obtienen la mayor cantidad de crédito."
 
 >[!CONTEXTUALHELP]

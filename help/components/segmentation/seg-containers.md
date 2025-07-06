@@ -1,20 +1,20 @@
 ---
 description: Obtenga información acerca de los diferentes contenedores de segmentación y cómo utilizarlos
 keywords: segmentación;segmentos
-title: Contenedores de segmentos
+title: Contenedores de segmento
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '3563'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
 
 # Contenedores de segmentos
 
-Un segmento establece las condiciones para filtrar un visitante en función de los atributos o de las interacciones con su sitio. Para establecer las condiciones en un segmento, debe fijar las reglas que filtran a los visitantes según sus características de visitante y/o rasgos de navegación. Si desea desglosar todavía más los datos de los visitantes, puede filtrar basándose en las visitas específicas y/o las visitas individuales de cada visitante para ver una página. El Generador de segmentos proporciona una arquitectura sencilla para crear estos subconjuntos y aplicar reglas como contenedores anidados y jerárquicos de visitante, visita o visita individual.
+Un segmento establece las condiciones necesarias para filtrar a un visitante en función de sus atributos o de las interacciones con su sitio. Para establecer las condiciones en un segmento, debe fijar las reglas que filtran a los visitantes según sus características de visitante y/o rasgos de navegación. Si desea desglosar todavía más los datos de los visitantes, puede filtrar basándose en las visitas específicas y/o las visitas individuales de cada visitante para ver una página. El Generador de segmentos proporciona una arquitectura sencilla para crear estos subconjuntos y aplicar reglas como contenedores anidados y jerárquicos de visitante, visita o visita individual.
 
 La arquitectura de contenedor empleada en el [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) define:
 
@@ -47,7 +47,7 @@ Cada contenedor le permite realizar informes basados en el historial del visitan
 
 >[!BEGINSHADEBOX]
 
-Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/3429101?quality=12&learn=on&captions=spa){target="_blank"}.
+Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

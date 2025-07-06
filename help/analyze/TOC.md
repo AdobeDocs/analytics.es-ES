@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y su versión heredada, y Activity Map.
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 95%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 95%
       + [Venn](analysis-workspace/visualizations/venn.md)
    + Paneles {#panels}
       + [Información general](analysis-workspace/c-panels/panels.md)
-      + [En blanco](analysis-workspace/c-panels/blank-panel.md)
+      + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
       + [Analytics para Target](analysis-workspace/c-panels/a4t-panel.md)
       + [Atribución](analysis-workspace/c-panels/attribution.md)
       + [De forma libre](analysis-workspace/c-panels/freeform-panel.md)
@@ -136,7 +136,7 @@ ht-degree: 95%
       + [Información general](analysis-workspace/curate-share/send-schedule-files.md)
       + [Depurar proyectos de](analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos](analysis-workspace/curate-share/share-projects.md)
-      + [Vínculos compartidos](analysis-workspace/curate-share/shareable-links.md)
+      + [Crear vínculos que se pueden compartir](analysis-workspace/curate-share/shareable-links.md)
       + [Proyectos de solo lectura](analysis-workspace/curate-share/view-only-projects.md)
       + [Descargar](analysis-workspace/curate-share/download-send.md)
       + [Envío y programación](analysis-workspace/curate-share/t-schedule-report.md)
@@ -151,7 +151,6 @@ ht-degree: 95%
    + Detección de anomalías {#anomaly-detection}
       + [Información general](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [Ver anomalías](analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [Desactivación de la detección de anomalías](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [Ejecutar análisis de contribución](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [Técnicas estadísticas](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [Preferencias de usuario](analysis-workspace/user-preferences.md)
@@ -160,7 +159,7 @@ ht-degree: 95%
       + [Optimización del rendimiento](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Errores y solución de problemas](analysis-workspace/workspace-faq/error-messages.md)
       + [Limitaciones](analysis-workspace/workspace-faq/aw-limitations.md)
-      + [Requisitos de administración](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [Requisitos](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accesibilidad](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Información general de Report Builder](report-builder/rb-overview.md)

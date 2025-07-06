@@ -1,12 +1,12 @@
 ---
-description: Gracias al Creador de métricas calculadas, todo el mundo puede crear una métrica de participación.
+description: Obtenga información sobre cómo crear una métrica de participación.
 title: Métrica de participación
 feature: Calculated Metrics
 exl-id: bef185d6-72c0-4068-80f8-57261369573f
-source-git-commit: 183f6e39fb1d14b7b29817e76da0302ba23cd5d6
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 6%
+source-wordcount: '185'
+ht-degree: 1%
 
 ---
 

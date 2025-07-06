@@ -1,13 +1,13 @@
 ---
-description: Puede ver anomalías en una tabla o un gráfico de líneas.
-title: Visualización de anomalías en Analysis Workspace
+description: Obtenga información sobre cómo ver y analizar anomalías de datos en Analysis Workspace.
+title: Ver anomalías
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 52%
+source-wordcount: '444'
+ht-degree: 49%
 
 ---
 

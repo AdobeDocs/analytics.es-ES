@@ -1,21 +1,21 @@
 ---
-description: Las métricas calculadas y las calculadas avanzadas se pueden personalizar a partir de las métricas existentes.
-keywords: Métricas calculadas; métricas calculadas avanzadas
-title: Métricas calculadas y calculadas avanzadas
+description: Obtenga información acerca de las métricas calculadas que puede crear a partir de métricas existentes.
+keywords: 'Métricas calculadas '
+title: Resumen de métricas calculadas
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 36%
+source-wordcount: '283'
+ht-degree: 42%
 
 ---
 
 # Información general sobre las métricas calculadas
 
-Métricas calculadas y personalizadas que se pueden crear a partir de métricas existentes.
+Las métricas calculadas son métricas personalizadas que se pueden crear a partir de métricas existentes.
 
-Las métricas calculadas ofrecen una forma muy flexible de crear, administrar y ajustar métricas. Las métricas calculadas le permiten, como expertos en marketing, gestores de productos y analistas, plantear preguntas acerca de los datos sin tener que cambiar su implementación de [!DNL Analytics].
+Las métricas calculadas son personalizadas y se pueden crear a partir de métricas existentes. Las métricas calculadas ofrecen una forma flexible de crear, administrar y depurar métricas personalizadas que te permiten analizar los datos sin tener que cambiar la implementación.
 
 Las métricas calculadas están disponibles en cada paquete [!DNL Analytics], pero el paquete de Adobe Analytics Foundation para Experience Cloud se limita a métricas calculadas básicas que incluyen [tipos de formato (decimal, tiempo, porcentaje, moneda)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), [cambios de asignación (predeterminada, lineal, de participación, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [tipos de métrica (estándar, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) y [operadores básicos](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (sumar, restar, multiplicar y dividir).
 
@@ -59,13 +59,13 @@ Algunas características de [!DNL Analytics] no permiten el uso de métricas cal
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://video.tv.adobe.com/v/37936?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas segmentadas en segmentos](https://video.tv.adobe.com/v/37935?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas segmentadas en segmentos](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -85,6 +85,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[Crear métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
->&#x200B;>[Generar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
->&#x200B;>[Usar funciones](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>>[Generar métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>>[Usar funciones](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
 >

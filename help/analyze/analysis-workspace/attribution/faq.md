@@ -1,20 +1,21 @@
 ---
-title: Preguntas más frecuentes sobre Attribution
+title: Pregunta Más Frecuente Sobre Atribución
 description: Obtenga respuestas a las preguntas más frecuentes sobre atribución.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 87%
+source-wordcount: '1188'
+ht-degree: 85%
 
 ---
 
-# Preguntas más frecuentes sobre Attribution
+# Preguntas frecuentes
 
+Aquí encontrará respuestas a las preguntas más frecuentes acerca de la atribución.
 
-+++## ¿Cuál es el elemento de línea “Ninguno” al utilizar Attribution?
++++##¿Cuál es el elemento de línea **[!UICONTROL None]** al utilizar la atribución?
 
 El elemento de línea “Ninguno” es un captador global que representa todas las conversiones que se produjeron sin ningún punto de contacto dentro de la ventana retrospectiva. Para reducir el número de conversiones atribuidas al elemento de línea &quot;Ninguno&quot;, intente utilizar una ventana retrospectiva personalizada con un período de retrospectividad más largo.
 
@@ -44,12 +45,13 @@ En este ejemplo, las entradas y la tasa de salida hacia otro sitio no mostraban 
 +++
 
 
-+++## ¿Cuándo debo usar una retrospectiva de atribución de visita, de visitante o personalizada?
+<!-- not relevant anymore due to introduction of separation of container and lookback window 
++++## When should I use a visit, visitor, or custom attribution lookback?
 
-La elección de la retrospectiva de atribución depende de su caso de uso. Si las conversiones suelen tardar más de una sola visita, se recomienda una retrospectiva del visitante o personalizada. Para ciclos de conversión más largos, las ventanas de retrospectiva personalizadas son mejores, ya que son el único tipo que puede insertar datos anteriores en la ventana de creación de informes.
+The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window.
 
 +++
-
+-->
 
 +++## ¿Cómo se comparan las props y las eVars cuando se utiliza Attribution?
 

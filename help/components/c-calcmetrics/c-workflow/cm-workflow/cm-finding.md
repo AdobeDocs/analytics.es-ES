@@ -1,12 +1,12 @@
 ---
-description: 'Describe las dos formas principales de encontrar sus métricas: clasificación y filtrado.'
+description: Aprenda a encontrar métricas.
 title: Buscar métricas
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 30%
+source-wordcount: '46'
+ht-degree: 8%
 
 ---
 

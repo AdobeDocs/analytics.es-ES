@@ -2,7 +2,8 @@
 description: Explicación de la interfaz de usuario para la creación de segmentos.
 title: Crear segmentos
 feature: Segmentation
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+exl-id: 0cec43bd-c2cc-4c8a-ae16-e8b5ad61f281
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 3%

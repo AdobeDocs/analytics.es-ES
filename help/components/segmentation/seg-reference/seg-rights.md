@@ -1,16 +1,16 @@
 ---
-description: Gráfico de comparación que utiliza segmentos entre administradores y no administradores.
-title: Segmentación de derechos por función
+description: Conozca las diferencias entre administradores y no administradores para utilizar y administrar segmentos.
+title: Derechos de segmentos por función
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 1%
+source-wordcount: '113'
+ht-degree: 5%
 
 ---
 
-# Segmentación de derechos por función
+# Derechos de segmentos por función
 
 La funcionalidad de los segmentos difiere principalmente entre los usuarios de nivel de administrador y los usuarios que no son administradores.
 

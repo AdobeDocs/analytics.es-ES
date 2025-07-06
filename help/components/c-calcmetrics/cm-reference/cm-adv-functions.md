@@ -1,13 +1,13 @@
 ---
 title: Funciones avanzadas
-description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
+description: Obtenga información acerca de las funciones avanzadas de métricas calculadas.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 73b54193f1c0f2548ef31bac0f36ff890494c24e
-workflow-type: ht
-source-wordcount: '5026'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '5020'
+ht-degree: 99%
 
 ---
 

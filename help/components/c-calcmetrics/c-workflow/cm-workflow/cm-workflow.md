@@ -1,12 +1,12 @@
 ---
-description: Obtenga información sobre los pasos a seguir para crear métricas calculadas.
-title: Flujo de trabajo de las métricas calculadas
+description: Aprenda a crear métricas calculadas.
+title: Crear métricas calculadas
 feature: Calculated Metrics
 exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
-source-git-commit: 183f6e39fb1d14b7b29817e76da0302ba23cd5d6
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 31%
+source-wordcount: '366'
+ht-degree: 21%
 
 ---
 
@@ -33,7 +33,7 @@ Antes de crear métricas calculadas, tenga en cuenta cuidadosamente el siguiente
 
 | Tarea del flujo de trabajo | Descripción |
 | --- | --- |
-| Planificar métricas calculadas | Especialmente en el caso de las métricas que se “aprobarán” oficialmente, tiene sentido detallar qué métricas calculadas se utilizarán de forma generalizada y cómo se definirán. |
+| Planificar métricas calculadas | Especialmente para las métricas que se van a aprobar oficialmente, la planificación tiene sentido para delinear qué métricas calculadas se utilizarán ampliamente y cómo se definirán. |
 | [Generar](c-build-metrics/cm-build-metrics.md) métricas calculadas | Cree y edite métricas calculadas y métricas calculadas avanzadas para utilizarlas en componentes de [!DNL Analytics].  Consulte [ejemplos](c-build-metrics/cm-build-metrics.md) de cómo crear métricas calculadas. |
 | [Etiquetar](cm-tagging.md) métricas calculadas | Etiquete métricas calculadas para que sea más fácil organizar y compartir. Consulte cómo planificar y asignar etiquetas para la organización y las búsquedas simples y avanzadas. |
 | [Aprobar](cm-approving.md) métricas calculadas | Apruebe métricas calculadas para hacerlas canónicas. |

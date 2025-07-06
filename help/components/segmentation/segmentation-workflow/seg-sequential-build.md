@@ -1,12 +1,12 @@
 ---
-description: Los segmentos secuenciales se crean mediante el operador THEN, en lugar de AND u OR. THEN implica que se produce un criterio de segmento, seguido por otro. De forma predeterminada, un segmento secuencial identifica a todos los datos coincidentes y muestra el filtro “Incluir a todos”. Los segmentos secuenciales pueden filtrarse adicionalmente a un subconjunto de visitas coincidentes mediante las opciones “Solo antes de la secuencia” y “Solo después de la secuencia”.
-title: Generar segmentos secuenciales
+description: Obtenga información acerca de los segmentos secuenciales que utilizan el operador THEN para definir una secuencia de condiciones de segmento.
+title: SequentialSegments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
+source-git-commit: acc32dc1589a08c20eaf414cd6f1a760ec8e2a56
 workflow-type: tm+mt
-source-wordcount: '2420'
-ht-degree: 6%
+source-wordcount: '2375'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ Además, puede restringir los segmentos secuenciales a una duración, granularid
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://video.tv.adobe.com/v/37430?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +78,7 @@ Para aplicar restricciones de tiempo al operador **[!UICONTROL Then]**:
 1. Seleccione ![Reloj](/help/assets/icons/Clock.svg).
 1. Seleccione **[!UICONTROL En]** o **[!UICONTROL Después]** del menú contextual.
 1. Especifique un período de tiempo (**[!UICONTROL Minuto]**, **[!UICONTROL Hora]**, hasta **[!UICONTROL Años]**).
-1. Seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;para abrir una ventana emergente que le permita escribir o especificar un número con&#x200B;**[!UICONTROL -]**&#x200B;o&#x200B;**[!UICONTROL +]**.
+1. Seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**para abrir una ventana emergente que le permita escribir o especificar un número con**[!UICONTROL -]**o**[!UICONTROL +]**.
 
 Para quitar una restricción de tiempo, use ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -97,7 +97,7 @@ Algunos ejemplos de uso de las restricciones de tiempo.
 
 ##### Operador [!UICONTROL After]
 
-Identifique a los visitantes que visitaron una página y luego otra página solo después de dos semanas. Por ejemplo, los visitantes que visitaron la página de inicio, pero el | La página de zapatos solo después de dos semanas.
+Identifique a los visitantes que visitaron una página y luego otra página solo después de dos semanas. Por ejemplo, los visitantes que han visitado la página de inicio, pero el | La página de zapatos solo después de dos semanas.
 
 ![Secuencia posterior](assets/sequence-after.png)
 
@@ -145,7 +145,7 @@ Puede especificar qué datos desea incluir en el segmento secuencial o en un con
 
 Para crear un segmento secuencial que incluya a todos, seleccione la opción ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Incluir a todos]**.
 
-El segmento secuencial identifica los datos que coinciden con el patrón determinado en su conjunto.  A continuación se muestra un ejemplo de un segmento de secuencia básica que busca visitantes que visitaron una página de categoría de producto (Mujer) | Zapatos), seguido de una página de pago (Checkout) | Gracias). El segmento está establecido en ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Incluir a todos]**.
+El segmento secuencial identifica los datos que coinciden con el patrón dado en su conjunto.  A continuación se muestra un ejemplo de segmento de secuencia básica que busca visitantes que visitaron una página de categoría de producto (Mujer) | Zapatos), seguido de una página de pago (Checkout) | Gracias). El segmento está establecido en ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Incluir a todos]**.
 
 ![El segmento secuencial incluye a todos](assets/sequence-include-everyone.png)
 
@@ -213,7 +213,7 @@ Vea a continuación algunos ejemplos del uso de [!UICONTROL Excluir].
 
 #### [!UICONTROL Excluir] dentro de
 
-Identifique a los visitantes que visitaron una página, no visitaron otra página y luego visitaron otra página. Excluye el contenedor mediante ![Setting](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. Un contenedor excluido se identifica con una fina barra roja a la izquierda.
+Identifique a los visitantes que visitaron una página, no visitaron otra página y luego visitaron otra página. Excluye el contenedor mediante ![Setting](/help/assets/icons/Setting.svg) [!UICONTROL Exclude]. Una delgada barra roja a la izquierda identifica un contenedor excluido.
 
 ![Excluir secuencia](assets/sequence-exclude.png)
 
@@ -238,7 +238,7 @@ Identificar a los visitantes que visitaron una página pero nunca visitaron otra
 >
 >Un [!UICONTROL grupo lógico] solo se puede definir en un segmento secuencial, lo que significa que el operador [!UICONTROL Then] se usa dentro del contenedor.
 
-Grupo lógico le permite agrupar condiciones en un único punto de comprobación secuencial de segmento. Como parte de la secuencia, la lógica definida en el contenedor identificado como grupo lógico se evalúa después de cualquier punto de comprobación secuencial anterior y antes de cualquier punto de comprobación secuencial siguiente.
+El grupo lógico permite agrupar condiciones en un único punto de comprobación de segmento secuencial. Como parte de la secuencia, la lógica definida en el contenedor identificado como grupo lógico se evalúa después de cualquier punto de comprobación secuencial anterior y antes de cualquier punto de comprobación secuencial siguiente.
 
 Las condiciones dentro del propio grupo lógico pueden cumplirse en cualquier orden. Por el contrario, los contenedores no secuenciales (visita individual, visita, visitante) no requieren que se cumplan sus condiciones dentro de la secuencia general, lo que produce posibles resultados poco intuitivos si se utilizan con un operador **[!UICONTROL Then]**.
 
@@ -273,13 +273,13 @@ Identifique a los visitantes que visitaron una página u otra y luego visitaron 
 
 #### [!UICONTROL Excluir] [!UICONTROL Y]
 
-Identifique a los visitantes que visitaron una página y luego no visitaron explícitamente un conjunto de otras páginas, pero sí visitaron otra página. Por ejemplo, los visitantes que visitaron la página de inicio no visitaron la página para hombres ni para mujeres, pero sí la página para niños.
+Identifique a los visitantes que visitaron una página y luego no visitaron explícitamente un conjunto de otras páginas, pero sí visitaron otra página. Por ejemplo, los visitantes que visitaron la página de inicio y no visitaron la página para hombres o para mujeres, pero sí la página para niños.
 
 ![Excluir grupo lógico y](assets/logicgroup-exclude-and.png)
 
 #### [!UICONTROL Excluir] [!UICONTROL O]
 
-Identifique a los visitantes que visitaron una página y luego no visitaron explícitamente ninguna página de un conjunto de páginas, pero sí visitaron otra página. Por ejemplo, los visitantes que visitaron la página de inicio, no visitaron la página para hombres y mujeres, pero sí la página para niños.
+Identifique a los visitantes que visitaron una página y luego no visitaron explícitamente ninguna página de un conjunto de páginas, pero sí visitaron otra página. Por ejemplo, los visitantes que visitaron la página principal y no la página para hombres y mujeres, pero sí la página para niños.
 
 ![Excluir grupo lógico y](assets/logicgroup-exclude-or.png)
 
@@ -295,11 +295,11 @@ An example of a complex sequential segment if you want to find the visitors that
 
 ## Un ejemplo final
 
-Por último, quiere identificar a los visitantes que han aprendido acerca de una página de producto específica, sin que estos visitantes hayan sufrido por la campaña Empower Your Move. Y en su primera visita a su tienda en línea vio la página de inicio, pero no miró más lejos en cualquier fitness (engranaje) productos de la categoría Hombres. Sin embargo, en la siguiente visita que realizaron inmediatamente después, accedieron a una página de producto y realizaron un pedido en línea sin pasar primero por la página de inicio.
+Por último, quiere identificar a los visitantes que han aprendido acerca de una página de producto específica, sin que estos visitantes hayan sufrido por la campaña Empower Your Move. Y en su primera visita a su tienda en línea vio la página de inicio, pero no miró más lejos en cualquier fitness (engranaje) productos de la categoría Hombres. Sin embargo, en la siguiente visita, justo después de eso, accedieron a una página de producto y realizaron un pedido en línea sin pasar primero por la página de inicio.
 
 
 ![Ejemplo de segmento secuencial complejo](assets/sequential-complex.png)
 
 >[!MORELIKETHIS]
 >
-> * [Dominio de la lógica secuencial en AA y CJA: Introducción a THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=es)
+> * [Dominio de la lógica secuencial en AA y CJA: Introducción a THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

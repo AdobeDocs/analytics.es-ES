@@ -4,7 +4,7 @@ description: Aprenda a utilizar e interpretar el panel Tiempo invertido en la re
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 98%
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Tiempo invertido en la reproducción de contenido en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Panel de tiempo invertido en la reproducción de contenido](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)) para la versión de_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel Tiempo invertido en la reproducción de contenido en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Panel de tiempo invertido en la reproducción de contenido](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)) para la versión de_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _Este artículo documenta el panel Tiempo invertido en la reproducción de conte
 >[!NOTE]
 >
 >El panel Audiencia media por minuto de medios solo está disponible para los clientes que han adquirido el complemento Recopilación de medios de streaming para Adobe Analytics.
->&#x200B;>Póngase en contacto con el representante de ventas de Adobe o con el equipo de cuentas de Adobe para obtener más información.
+>>Póngase en contacto con el representante de ventas de Adobe o con el equipo de cuentas de Adobe para obtener más información.
 >
 
 El panel **[!UICONTROL Tiempo invertido en la reproducción de medios]** permite analizar la reproducción a lo largo del tiempo, con detalles sobre los picos de simultaneidad y la posibilidad de realizar desgloses y comparaciones. 
@@ -125,8 +125,8 @@ La única métrica que se puede usar en este panel es Tiempo invertido en la rep
 >[!MORELIKETHIS]
 >
 >[Crear un panel](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Panel Audiencia media por minuto de medios](average-minute-audience-panel.md)
->&#x200B;>[Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
+>>[Panel Audiencia media por minuto de medios](average-minute-audience-panel.md)
+>>[Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
 >
 
 <!--

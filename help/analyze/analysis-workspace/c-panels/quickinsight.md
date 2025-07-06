@@ -1,13 +1,13 @@
 ---
-description: Aprenda a utilizar el panel Quick insights como guía para crear tablas de datos y visualizaciones en Analysis Workspace.
+description: Aprenda a utilizar el panel Quick insights como guía para crear tablas improvisadas y visualizaciones en Analysis Workspace.
 title: Panel de información rápida
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 97%
+source-wordcount: '1149'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Información rápida en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Panel de información rápida](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel Información rápida en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Panel de información rápida](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -38,9 +38,9 @@ La primera vez que empieces a usar este [!UICONTROL Analysis Workspace], es posi
 * qué dimensiones y métricas pueden facilitar las perspectivas,
 * dónde arrastrar y soltar elementos,
 * dónde crear un filtro,
-* y más.
+* y más
 
-Para ayudarlo con estas preguntas,[!UICONTROL Información rápida] aprovecha un algoritmo que le presenta las dimensiones, métricas, segmentos e intervalos de fechas más populares que usa su compañía. Este algoritmo se basa en el uso que hace su propia compañía de los componentes de datos en [!UICONTROL Analysis Workspace]. De hecho, verá dimensiones, métricas y filtros etiquetados como [!UICONTROL POPULAR] en la lista desplegable, como se muestra a continuación:
+Para ayudarte con estas preguntas, [!UICONTROL Quick Insights] aprovecha un algoritmo que te presenta las dimensiones, métricas, segmentos e intervalos de fechas más populares que usa tu compañía. Este algoritmo se basa en el uso que hace su propia compañía de los componentes de datos en [!UICONTROL Analysis Workspace]. De hecho, verá dimensiones, métricas y filtros etiquetados como [!UICONTROL POPULAR] en la lista desplegable, como se muestra a continuación:
 
 ![Panel de información rápida.](assets/popular-tag.png)
 
@@ -59,10 +59,10 @@ A continuación se incluyen algunos de los términos básicos que debes conocer.
 |---|---|
 | **[!UICONTROL Dimensión]** | Las dimensiones son descripciones o características de datos de métricas que se pueden visualizar, desglosar y comparar en un proyecto. Son valores no numéricos y fechas que se desglosan en elementos de dimensión. Por ejemplo, *explorador* o *página* es una dimensión. |
 | **[!UICONTROL Elemento de dimensión]** | Los elementos de dimensión son valores individuales para una dimensión. Por ejemplo, los elementos de dimensión para la dimensión del navegador serían *Chrome*, *Firefox*, *Edge*, u otros. |
-| **[!UICONTROL Métrica]** | Las métricas constituyen información cuantitativa sobre la actividad de la persona, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc. |
+| **[!UICONTROL Métrica]** | Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc. |
 | **[!UICONTROL Visualización]** | Workspace ofrece [varias visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para generar representaciones visuales de tus datos. Como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. |
 | **[!UICONTROL Desglose de dimensiones]** | Un desglose de dimensión es una forma de desglosar literalmente una dimensión por otras dimensiones. Por ejemplo, puedes desglosar los estados de EE. UU. por dispositivos móviles para obtener las visitas de los dispositivos móviles por estado. O puedes desglosar Dispositivos móviles por Tipos de dispositivos móviles, por Regiones, por Campañas internas y más. |
-| **[!UICONTROL Segmentos]** | Los segmentos permiten identificar subconjuntos de personas basándose en sus características o en las interacciones con el sitio web. Por ejemplo, puede generar segmentos de [!UICONTROL Visitantes] basados en <li>atributos: tipo de explorador, dispositivo, número de visitas, país, género o</li><li>interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o</li><li>salidas y entradas: visitantes de Facebook, una página de destino definida, un dominio de referencia o</li><li> variables personalizadas: campo de formulario, categorías definidas o ID de cliente. |
+| **[!UICONTROL Segmentos]** | Los segmentos permiten identificar subconjuntos de visitantes basándose en sus características o en las interacciones con el sitio web. Por ejemplo, puede generar segmentos de [!UICONTROL Visitantes] basados en <li>atributos: tipo de explorador, dispositivo, número de visitas, país, género o</li><li>interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o</li><li>salidas y entradas: visitantes de Facebook, una página de destino definida, un dominio de referencia o</li><li> variables personalizadas: campo de formulario, categorías definidas o ID de cliente. |
 
 ## Usar
 
@@ -94,7 +94,7 @@ Puedes especificar los bloques de creación de tres formas:
 
 * Arrastra y suelta los componentes desde el panel izquierdo.
 * Empieza a escribir en uno de los campos de bloque de creación. Cuando se encuentra la entrada, el campo de bloque de creación se rellena automáticamente con los valores posibles.
-* Especifica una lista desplegable de bloque de creación (por ejemplo, `Country` en **[!UICONTROL Analizar]**) y busca el valor que deseas usar en la lista de valores posibles (con ![ChevronRight](/help/assets/icons/ChevronRight.svg)) (por ejemplo, **[!UICONTROL Código de país]**).
+* Especifique una lista desplegable de bloque de creación (por ejemplo **[!UICONTROL País]** en **[!UICONTROL Analizar]**) y busque el valor que desee usar en la lista de posibles valores (con ![ChevronRight](/help/assets/icons/ChevronRight.svg)) (por ejemplo, **[!UICONTROL Código de país]**).
 
 Selecciona **[!UICONTROL Borrar]** para borrar todos los campos de entrada.
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326700/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 

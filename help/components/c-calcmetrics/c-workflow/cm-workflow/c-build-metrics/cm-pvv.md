@@ -1,12 +1,12 @@
 ---
-description: Le muestra cómo crear una métrica "Vistas de página por visitas" simple.
-title: Crear una métrica "Vistas de página por visitas" simple
+description: Aprenda a crear una métrica calculada simple.
+title: Crear Una Métrica Calculada Simple
 feature: Calculated Metrics
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 25%
+source-wordcount: '225'
+ht-degree: 17%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 25%
 La siguiente información explica cómo crear una métrica *Vistas de página por visitas* simple.
 
 1. Comience a crear una métrica, como se describe en [Crear métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
-1. Asigne a la métrica el nombre `Page Views per Visits` o algo similar.
+1. Asigne a la métrica el nombre `Page Views per Visit` o algo similar.
 1. Asigne a la métrica una **[!UICONTROL descripción]** fácil de usar para mostrar para qué se utiliza la métrica.
 1. Seleccione el **[!UICONTROL formato]** correcto. Para este ejemplo, elija **[!UICONTROL Decimal]**.
 1. Decida cuántos lugares decimales desea que muestre su informe.
 1. En el menú desplegable **[!UICONTROL Mostrar tendencia ascendente como]**, seleccione ▲ **[!UICONTROL Bueno (verde)]**.
 1. Agregue una **[!UICONTROL Etiqueta]** para organizar sus métricas.
-1. Para esta métrica calculada, primero arrastre **[!UICONTROL Vistas de página]** desde los componentes de **[!UICONTROL Dimensiones]** a la sección **[!UICONTROL Definición]** del lienzo.
+1. Para esta métrica calculada, primero arrastre **[!UICONTROL Vistas de página]** desde los componentes de **[!UICONTROL Métricas]** a la sección **[!UICONTROL Definición]** del lienzo.
 1. A continuación, arrastre **[!UICONTROL Visitas]** desde los componentes de **[!UICONTROL Métricas]** y suelte la métrica debajo de **[!UICONTROL Vistas de página]** (espere hasta que aparezca la línea azul antes de soltar la métrica).
 1. Seleccione el operador dividir ![Dividir](/help/assets/icons/Divide.svg). (Dividir es el operador predeterminado).
 1. Puede ver una **[!UICONTROL vista previa]** de la métrica mientras la está generando.

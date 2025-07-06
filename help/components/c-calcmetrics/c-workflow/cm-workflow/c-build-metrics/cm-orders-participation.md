@@ -1,12 +1,12 @@
 ---
-description: Explica cómo crear una métrica que muestre los canales de marketing asistidos al realizar pedidos. Esto puede adaptarse a cualquier otro evento de éxito o dimensión que resulte de interés.
-title: Métrica Asistencia para pedidos
+description: Explica cómo crear una métrica que muestre qué canales de marketing ayudan a controlar las órdenes.
+title: Crear Una Métrica Calculada Más Compleja
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 25%
+source-wordcount: '239'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ Este artículo explica un ejemplo más complejo de una métrica calculada. Estas
 
 1. Comience a crear una métrica calculada, tal como se describe en [Crear métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. En el Creador de métricas calculadas, asigne un nombre a la métrica `Assisted Orders` o similar.
+1. En el Creador de métricas calculadas, asigne un nombre a la métrica `Assisted Online Orders` o similar.
 
 1. Seleccione la métrica **[!UICONTROL Pedidos en línea]** de los componentes **[!UICONTROL Métricas]** y arrastre la métrica al área **[!UICONTROL Definición]**.
 
@@ -41,4 +41,4 @@ Para utilizar la métrica calculada:
 
 1. (Opcional) Comparta la métrica con otros usuarios de su organización, tal como se describe en [Compartir métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
 
-Esta es una forma sencilla de indicar los canales de marketing asistidos al realizar pedidos. Como alternativa, desde una tabla de forma libre, puede hacer clic con el botón derecho en cualquier métrica y ajustar el modelo de atribución directamente desde la tabla.
+Esta es una forma sencilla de indicar los canales de marketing asistidos al realizar pedidos. Como alternativa, en una tabla de forma libre, puede seleccionar cualquier métrica y, en el menú contextual, ajustar el modelo de atribución directamente desde la tabla.

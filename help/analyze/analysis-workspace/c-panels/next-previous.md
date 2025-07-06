@@ -1,13 +1,13 @@
 ---
-description: Obtenga información sobre cómo utilizar el panel Elemento siguiente o anterior que muestra los elementos de dimensión siguientes o anteriores para una dimensión específica.
+description: Obtenga información sobre cómo utilizar el panel Elemento siguiente o anterior que muestra los elementos siguientes o anteriores de una dimensión específica.
 title: Panel Elemento Siguiente O Anterior
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 94%
+source-wordcount: '476'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Elemento siguiente o anterior en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vea el [panel de elemento siguiente o anterior](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/next-previous)) para la versión de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel Elemento siguiente o anterior en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Vea el [panel de elemento siguiente o anterior](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/next-previous)) para la versión de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +52,7 @@ Puede configurar el panel [!UICONTROL Elemento siguiente anterior] utilizando la
 | **[!UICONTROL Dimensión]** | Seleccione la dimensión para la que desea explorar los elementos siguientes o anteriores. |
 | **[!UICONTROL Elemento de dimensión]** | Seleccione el elemento de dimensión específico en el centro de la consulta siguiente/anterior. |
 | **[!UICONTROL Dirección]** | Especifique si está buscando el elemento de dimensión [!UICONTROL Siguiente] o el [!UICONTROL Anterior]. |
-| **[!UICONTROL Contenedor]** | Seleccione el contenedor [!UICONTROL Sesión] o [!UICONTROL Persona] (valor predeterminado) para determinar el ámbito de la consulta. |
+| **[!UICONTROL Contenedor]** | Seleccione el contenedor **[!UICONTROL Visita]** o **[!UICONTROL Visitante]** (predeterminado) para determinar el ámbito de su consulta. |
 
 {style="table-layout:auto"}
 

@@ -1,13 +1,13 @@
 ---
 title: Funciones básicas
-description: El Creador de métricas calculadas permite aplicar funciones estadísticas y matemáticas para generar métricas calculadas avanzadas.
+description: Obtenga información acerca de las funciones básicas de las métricas calculadas.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 93%
+source-wordcount: '1868'
+ht-degree: 92%
 
 ---
 

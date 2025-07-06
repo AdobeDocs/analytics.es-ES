@@ -1,16 +1,16 @@
 ---
-description: Marcar las métricas calculadas como favoritas es otra manera de organizarlas para que su uso sea más sencillo.
-title: Marcar una métrica calculada como favorita
+description: Organice las métricas calculadas marcando las métricas calculadas como favoritas.
+title: Marcar Métricas Calculadas Como Favoritas
 feature: Calculated Metrics
 exl-id: 978e1af7-dde7-45e6-875a-54dee9251b8c
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 9%
+source-wordcount: '102'
+ht-degree: 0%
 
 ---
 
-# Marcar una métrica calculada como favorita
+# Marcar métricas calculadas como favoritas
 
 Puede marcar una métrica calculada como favorita. Marcar las métricas calculadas como favoritas le ayuda a organizar la métrica calculada. Todos los usuarios pueden favorecer las métricas calculadas.
 

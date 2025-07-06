@@ -5,16 +5,16 @@ keywords: IQ de segmento
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 18%
+source-wordcount: '853'
+ht-degree: 15%
 
 ---
 
 # Casos de uso de comparación de segmentos
 
-El panel de comparación de segmentos es una función muy utilizada en Analysis Workspace. Los clientes descubren con frecuencia nuevas formas de generar perspectivas. Los siguientes son varios casos de éxito.
+El panel de comparación de segmentos es una función muy utilizada en Analysis Workspace. Los clientes descubren con frecuencia nuevas formas de generar perspectivas con al utilizar el panel. Descubra a continuación algunos casos de uso típicos
 
 ## Caso de uso 1: Comparar implementaciones móviles y de escritorio
 
@@ -26,6 +26,9 @@ Usted está a cargo de un sitio web móvil y un sitio web de escritorio, y tiene
 |--- |--- |
 | Contenedor de visita individual en el que Tipo de dispositivo móvil es igual a Teléfono móvil o Tablet | Todos los demás |
 
+{style="table-layout:fixed"}
+
+
 ## Caso de uso 2: Comparar a los clientes que usan una determinada función con los clientes que no lo hacen
 
 > *&quot;Descubrió que los clientes que usaron su característica de comparación de productos tenían una probabilidad un 10% mayor de realizar una conversión. ¡Ha movido la comparación de productos al principio de la página y ha aumentado los pedidos en un 4%!&quot;*
@@ -35,6 +38,9 @@ El equipo de optimización de un sitio de venta minorista desea comprender mejor
 | Segmento 1 | Segmento 2 |
 |--- |--- |
 | Contenedor de visitante en el que se produce un evento personalizado (herramienta de comparación de precios) | Todos los demás |
+
+{style="table-layout:fixed"}
+
 
 ## Caso de uso 3: Comparar los visitantes a un sitio de noticias con los de otras secciones
 
@@ -46,6 +52,9 @@ Una gran empresa de publicación multimedia busca formas de mejorar la participa
 |--- |--- |
 | Contenedor de visitante donde Sección del sitio es igual a “Noticias” | Todos los demás |
 
+{style="table-layout:fixed"}
+
+
 ## Caso de uso 4: Comparar los visitantes de búsquedas pagadas con todos los demás
 
 > *&quot;Los visitantes que llegaban a su sitio desde motores de búsqueda tenían tres veces más probabilidades de mejorar una compra que todos los demás. Como resultado, aumentaste el gasto en palabras clave específicas y lograste un aumento del 56 % en la mejora de ventas.&quot;*
@@ -56,6 +65,9 @@ Una gran empresa de servicios B2B quiere comprender el tipo de tráfico que gene
 |--- |--- |
 | Contenedor de visitante donde Tipo de referente es igual a Búsqueda de pago | Todos los demás |
 
+{style="table-layout:fixed"}
+
+
 ## Caso de uso 5: Comparar a los compradores de Fitbit con todos los demás
 
 > *&quot;Comprobó que las personas que compraban productos Fitbit tenían 6 veces más probabilidad de recibir un mensaje &quot;sin existencias&quot; que todos los demás. Por lo tanto, ¡encargó rápidamente más Fitbits y evitó quedarse sin stock!&quot;*
@@ -65,3 +77,5 @@ Una gran empresa de servicios B2B quiere comprender el tipo de tráfico que gene
 | Segmento 1 | Segmento 2 |
 |--- |--- |
 | Contenedor de visitante con pedidos realizados y una dimensión personalizada de Marca (FitBit) | Todos los demás |
+
+{style="table-layout:fixed"}
