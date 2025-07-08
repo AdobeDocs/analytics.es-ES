@@ -7,7 +7,7 @@ user-guide-description: Administre datos con componentes como Segmentos, Métric
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '759'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -229,7 +229,7 @@ ht-degree: 96%
       + [Funciones básicas](c-calcmetrics/cm-reference/cm-functions.md)
       + [Funciones avanzadas](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Compatibilidad de métricas](c-calcmetrics/cm-compatibility.md)
-      + [Derechos basados en roles](c-calcmetrics/cm-role-based-rights.md)
+      + [Derechos basados en funciones](c-calcmetrics/cm-role-based-rights.md)
       + [Totales de métricas calculadas](c-calcmetrics/cm-totals.md)
       + [Métricas calculadas predeterminadas](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Grupos de informes virtuales {#virtual-report-suites}
@@ -258,7 +258,7 @@ ht-degree: 96%
    + [Información general](c-alerts/intellligent-alerts.md)
    + [Creación de alertas](c-alerts/alert-builder.md)
    + [Administración de alertas](c-alerts/alert-manager.md)
-   + [Casos prácticos](c-alerts/alerts-use-cases.md)
+   + [Casos de uso](c-alerts/alerts-use-cases.md)
 + Clasificaciones {#classifications}
    + [Resumen general de las clasificaciones](classifications/classifications-overview.md)
    + Conjuntos de clasificación {#sets}

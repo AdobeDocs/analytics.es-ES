@@ -1,6 +1,6 @@
 ---
 description: Obtenga información sobre las plantillas predeterminadas en Analysis Workspace y cómo utilizarlas.
-title: Usar plantillas
+title: Uso de plantillas
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc

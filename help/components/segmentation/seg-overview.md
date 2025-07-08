@@ -6,7 +6,7 @@ exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '988'
-ht-degree: 76%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ Los segmentos le permiten identificar subconjuntos de visitantes basándose en s
 
 Los segmentos se basan en una jerarquía de niveles de [!UICONTROL Visitante], [!UICONTROL Visita] y [!UICONTROL Visita individual] usando un modelo de contenedor anidado. Los contenedores anidados le permiten definir los atributos y las acciones del visitante basándose en las reglas entre los contenedores y dentro de ellos. Los segmentos de Analytics pueden generarse, aprobarse, compartirse, guardarse y ejecutarse en varios productos y capacidades en [!DNL Adobe Experience Cloud]. Los segmentos pueden generarse a partir de un informe, integrarse en un informe de panel o marcarse como favoritos para acceder rápidamente a ellos.
 
-Puede generar y guardar segmentos en el Generador de segmentos, o bien crearlos a partir de un informe de abandonos (en [!UICONTROL Analysis Workspace]). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos se pueden usar juntos como [segmentos apilados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Puede generar y guardar segmentos en el Generador de segmentos, o bien generarlos a partir de un informe de visitas en el orden previsto (en [!UICONTROL Analysis Workspace]). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos se pueden usar juntos como [segmentos apilados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 Los segmentos identifican
 
@@ -34,7 +34,7 @@ Los segmentos pueden basarse en los siguientes valores:
 - Visitantes en función de salidas y entradas: visitantes de Facebook, una página de destino definida o un dominio de referencia.
 - Visitantes en función de variables personalizadas: campo de formulario, categorías definidas o ID de cliente.
 
-Al generar segmentos de audiencia en el Generador de segmentos, define condiciones utilizando los operadores [!UICONTROL AND] y [!UICONTROL OR] entre contenedores.
+Cuando genera segmentos de audiencia en el Generador de segmentos, define condiciones utilizando los operadores [!UICONTROL AND] y [!UICONTROL OR] entre los contenedores.
 
 <table style="table-layout:fixed; border: none;">
 
@@ -111,10 +111,10 @@ Este tipo de segmentos filtra conjuntos de datos en función de características
 - Puede aplicar [varios segmentos a un informe o un proyecto](/help/components/segmentation/segmentation-workflow/t-seg-apply.md).
 - Los segmentos son universales para todos los grupos de informes.
 - El [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) simplifica la creación de segmentos.
-- El [Administrador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md) le permite configurar [flujos de trabajo](/help/components/segmentation/segmentation-workflow/seg-workflow.md) con funciones de uso compartido, etiquetado, verificación y aprobación de segmentos.
+- El nuevo [Administrador de segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md) le permite configurar [flujos de trabajo](/help/components/segmentation/segmentation-workflow/seg-workflow.md) con funciones de uso compartido, etiquetado, verificación y aprobación de segmentos.
 - Ahora puede [etiquetar segmentos](/help/components/segmentation/segmentation-workflow/seg-tag.md) para organizar y buscar más tarde en lugar de utilizar carpetas.
 - Puede crear [segmentos secuenciales](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-- El contenedor de [!UICONTROL Vista de página] es ahora el contenedor de [!UICONTROL Visita individual] para indicar que este contenedor segmenta todos los tipos de datos, no solo vistas de página. Por ejemplo, si vincula las llamadas de seguimiento, el contenedor de visitas incluirá o excluirá las llamadas de acción de seguimiento de los SDK móviles.
+- El contenedor de [!UICONTROL Vista de página] es ahora el contenedor de [!UICONTROL Visita individual] para indicar que este contenedor segmenta todos los tipos de datos, no solo vistas de página. Por ejemplo, las llamadas de seguimiento de vínculos y las llamadas de seguimiento de acciones desde los SDK móviles están todas incluidas o excluidas mediante el contenedor de visitas.
 
 ## Segmentación en Analysis Workspace
 
@@ -126,7 +126,7 @@ Analysis Workspace contiene estas funciones adicionales:
 
 ## Segmentos proporcionados por Adobe
 
-El carril izquierdo del componente muestra los segmentos creados por usted y su empresa, así como los segmentos de Adobe que se proporcionan de forma predeterminada. Al hacer clic en **[!UICONTROL Mostrar todos]**, estos segmentos suelen aparecer en la parte inferior de la lista y se identifican con ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg).
+La barra Componente del carril izquierdo de la pantalla muestra los segmentos creados por usted y su compañía, así como los segmentos de Adobe listos para usar. Al hacer clic en **[!UICONTROL Mostrar todo]**, estos segmentos suelen aparecer al final de la lista y se identifican mediante ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg).
 
 ## Segmentos secuenciales {#sequential}
 
@@ -240,7 +240,7 @@ En este vídeo se proporciona una breve descripción sobre qué son los contened
 
 >[!BEGINSHADEBOX]
 
-Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/3429101?quality=12&learn=on&captions=spa){target="_blank"}.
+Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -265,7 +265,7 @@ Report Builder muestra sus propios segmentos y los que se han compartido con ust
 
 +++ **¿Puedo administrar todos los segmentos de Analytics en el Administrador de segmentos?**
 
-Sí, todos los segmentos se pueden administrar en el Administrador de segmentos. El Administrador de segmentos muestra los segmentos que son visibles para el propietario (el usuario que creó el segmento), para usuarios compartidos y para los administradores. El selector de segmentos muestra los segmentos que son propiedad del usuario y que se comparten con él.
+Sí, todos los segmentos se pueden administrar en el Administrador de segmentos. El Administrador de segmentos muestra los segmentos que son visibles para el propietario (el usuario que creó el segmento), para los usuarios compartidos y para los administradores. El selector de segmentos muestra los segmentos que son propiedad del usuario y que se comparten con él.
 
 Los administradores pueden ver todos los segmentos incluidos en la interfaz de usuario de Analysis Workspace.
 
@@ -275,6 +275,6 @@ Report Builder solo muestra los segmentos que ha creado usted o los segmentos qu
 
 +++ **¿Por qué no puedo eliminar un segmento?**
 
-Si el segmento se [publicó en Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md), no puede eliminarlo ni editarlo. Sin embargo, puede copiar el segmento y editar la versión copiada.
+Si el segmento se [publicó en Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md), no puede ni eliminarlo ni editarlo. No obstante, puede copiar el segmento y editar la versión copiada.
 
 +++

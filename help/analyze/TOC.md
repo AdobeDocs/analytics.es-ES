@@ -7,7 +7,7 @@ user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluy
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 95%
    + [Información general de Analytics](get-started/analytics-overview.md)
    + [Introducción (por función)](get-started/get-started-by-role.md)
    + [Explicación de la interfaz de Analytics](get-started/analytics-interface.md)
-   + [Casos prácticos](get-started/use-cases.md)
+   + [Casos de uso](get-started/use-cases.md)
    + [¿Qué herramienta de Adobe Analytics debo usar?](get-started/which-analytics-tool.md)
    + [Comparación de productos y requisitos de Analytics](get-started/analytics-product-comparison.md)
    + [Requisitos del sistema](get-started/sys-reqs.md)
 + [Página de destino](landing.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Información general sobre Analysis Workspace](analysis-workspace/home.md)
+   + [Información general de Analysis Workspace](analysis-workspace/home.md)
    + Proyectos {#build-workspace-project}
       + [Información general](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Iniciar proyectos rápidamente](analysis-workspace/build-workspace-project/starter-projects.md)
@@ -37,7 +37,7 @@ ht-degree: 95%
          + [Información general](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Creación de carpetas](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Administración de carpetas](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
-         + [Agregar o mover proyectos](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [Añadir o mover proyectos](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [Múltiples grupos de informes](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Teclas de acceso directo](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Paletas de color](analysis-workspace/build-workspace-project/color-palettes.md)
@@ -67,7 +67,7 @@ ht-degree: 95%
       + Intervalos de fechas {#calendar-date-ranges}
          + [Información general](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Crear intervalos de fechas](analysis-workspace/components/calendar-date-ranges/create.md)
-         + [Administrar intervalos de datos](analysis-workspace/components/calendar-date-ranges/manage.md)
+         + [Administrar intervalos de fechas](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [Comparación de fechas](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
          + [Ejemplos](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + Diccionario de datos {#data-dictionary}
@@ -90,7 +90,7 @@ ht-degree: 95%
       + Tabla de cohorte {#cohort-table}
          + [Información general](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configuración](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Casos prácticos](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + [Casos de uso](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Visita en orden previsto {#fallout}
          + [Información general](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configuración](analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -130,7 +130,7 @@ ht-degree: 95%
       + [Acceso rápido a información](analysis-workspace/c-panels/quickinsight.md)
       + Comparación de segmentos  {#segment-comparison}
          + [Información general](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [Casos prácticos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
+         + [Casos de uso](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Pruebas estadísticas utilizadas](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Depurar y compartir {#curate-share}
       + [Información general](analysis-workspace/curate-share/send-schedule-files.md)
@@ -139,7 +139,7 @@ ht-degree: 95%
       + [Crear vínculos que se pueden compartir](analysis-workspace/curate-share/shareable-links.md)
       + [Proyectos de solo lectura](analysis-workspace/curate-share/view-only-projects.md)
       + [Descargar](analysis-workspace/curate-share/download-send.md)
-      + [Envío y programación](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Enviar y programar](analysis-workspace/curate-share/t-schedule-report.md)
    + Atribución {#attribution}
       + [Información general de Attribution](analysis-workspace/attribution/overview.md)
       + [Modelo, contenedor y ventana retrospectiva](analysis-workspace/attribution/models.md)
@@ -172,9 +172,9 @@ ht-degree: 95%
    + [Trabajar con segmentos](report-builder/work-with-segments.md)
    + [Filtrar dimensiones](report-builder/filter-dimensions.md)
    + [Administrar bloques de datos](report-builder/manage-reportbuilder.md)
-   + [Programar libros para correo electrónico](report-builder/schedule-reportbuilder.md)
+   + [Programar libros de trabajo para el correo electrónico](report-builder/schedule-reportbuilder.md)
    + [Programar libros para exportaciones en la nube](/help/analyze/report-builder/report-builder-export.md)
-   + [Administrar libros programados](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
+   + [Administrar libros de trabajo programados](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Etiquetas restringidas](report-builder/restricted-labels.md)
    + [Configuración de Report Builder](report-builder/report-builder-settings.md)
 + Report Builder heredado {#legacy-report-builder}
