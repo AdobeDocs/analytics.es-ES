@@ -1,13 +1,13 @@
 ---
-description: El diccionario de datos de Analysis Workspace permite a los usuarios catalogar y realizar un seguimiento de los distintos componentes de Analysis Workspace, incluido su uso previsto, que se aprueba, que son duplicados, etc.
+description: El diccionario de datos de Analysis Workspace permite a los usuarios catalogar y realizar un seguimiento de los distintos componentes de Analysis Workspace, incluido su uso previsto, cuáles están aprobados, cuáles son duplicados, etc.
 title: Información general del diccionario de datos
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="Diccionario de datos"
->abstract="El diccionario de datos ayuda tanto a los usuarios como a los administradores a realizar un seguimiento de los componentes de su entorno de Analytics y a comprenderlos mejor. <br/>Los administradores de Analytics son responsables de revisar la información sobre cada componente del diccionario de datos."
+>abstract="El Diccionario de datos ayuda tanto a los usuarios como a los administradores a realizar un seguimiento y comprender mejor los componentes de su entorno de Analytics. <br/>Los administradores de Analytics son responsables de revisar la información sobre cada componente del diccionario de datos."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,7 +31,7 @@ Los administradores de Analytics son responsables de seleccionar la información
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Diccionario de datos para Analysis Workspace](https://video.tv.adobe.com/v/3422281/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Diccionario de datos para Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -43,13 +43,13 @@ El diccionario de datos ayuda a los usuarios a comprender mejor cada componente 
 
 La información disponible en el diccionario de datos incluye la siguiente:
 
-* Función y uso previsto de un componente.
+* La función de un componente y el uso previsto.
 
-* Componentes que se utilizan normalmente con el que está viendo.
+* Los componentes que se utilizan normalmente con el que está viendo.
 
-* Componentes que son similares al que está viendo.
+* Componentes similares al que está viendo.
 
-* Indica si el administrador del sistema ha aprobado un componente.
+* Si el administrador del sistema ha aprobado un componente.
 
 Para obtener información sobre cómo acceder al diccionario de datos y para obtener detalles sobre la información que contiene, consulte [Ver información del componente en el diccionario de datos](view-data-dictionary.md).
 
@@ -88,9 +88,9 @@ Para obtener información detallada sobre las distintas opciones disponibles en 
 
 ## Actualizar y depurar el diccionario de datos
 
-Los administradores de Adobe Analytics son responsables de mantener un diccionario de datos correcto para su organización, tal como se describe en [Monitorizar el estado del diccionario de datos](monitor-data-dictionary-health.md).
+Los administradores de Analytics son responsables de mantener un diccionario de datos en buen estado para su organización, tal como se describe en [Monitorización del estado del diccionario de datos](monitor-data-dictionary-health.md).
 
-Como parte de este proceso, los administradores de Adobe Analytics pueden editar la información sobre cada componente del diccionario de datos, tal como se describe en [Editar entradas de componente en el diccionario de datos](edit-entries-data-dictionary.md).
+Como parte de este proceso, los administradores de Analytics pueden editar información sobre cada componente del diccionario de datos, tal y como se describe en [Edición de entradas de componentes en el diccionario de datos](edit-entries-data-dictionary.md).
 
 ## Movimiento, minimización o cierre del diccionario de datos
 
@@ -102,13 +102,13 @@ Puede manipular la ventana Diccionario de datos de cualquiera de estas formas:
 
   Si cierra y vuelve a abrir Analysis Workspace, la ventana Diccionario de datos permanece en la ubicación donde la movió por última vez. <!--True?-->
 
-* Minimice la ventana.
+* Minimizar la ventana.
 
   Cuando se minimiza, el diccionario de datos aparece como una pestaña azul en la esquina inferior derecha de Analysis Workspace.
 
   Al seleccionar la pestaña azul, el diccionario de datos se abre con el componente que estaba viendo más recientemente.
 
-* Cierre la ventana.
+* Cerrar la ventana.
 
 
 <!--
@@ -121,7 +121,7 @@ Analytics administrators are responsible for curating information about each com
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3422281?quality=12&learn=on&captions=spa){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

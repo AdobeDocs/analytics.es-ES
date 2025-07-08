@@ -1,13 +1,13 @@
 ---
-description: Obtenga información sobre cómo crear y administrar plantillas en Analysis Workspace.
-title: Creación Y Administración De Plantillas
+description: Aprenda a crear y administrar plantillas en Analysis Workspace.
+title: Creación y administración de plantillas
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
 source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
