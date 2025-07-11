@@ -3,7 +3,7 @@ title: Tipo de referente
 description: El tipo de remitente del reenvío, según la procedencia del visitante.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: f95e436566766d525858df0e707cfc36fd4f5ac4
+source-git-commit: 825cded49c0ff456925e522ae2d0660b09ea6edd
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Tipo de referente
 
-El &quot;Tipo de referente&quot; [dimensión](overview.md) informa de los canales genéricos por los que hicieron clic los visitantes para llegar al sitio. Adobe mantiene las reglas para cada elemento de dimensión, a diferencia de los [canales de marketing](marketing-channel.md), donde su organización mantiene reglas para cada canal.
+El &quot;tipo de referente&quot; [dimension](overview.md) indica en qué canales genéricos hicieron clic los visitantes para llegar a su sitio. Adobe mantiene las reglas para cada elemento de dimensión, a diferencia de los [canales de marketing](marketing-channel.md), donde su organización mantiene reglas para cada canal.
 
 ## Rellene esta dimensión con datos
 
@@ -170,6 +170,7 @@ La siguiente lista hace referencia a la tabla de búsqueda “Redes sociales” 
 * `tagged.com`
 * `taringa.net`
 * `thefancy.com`
+* `threads.com`
 * `threads.net`
 * `tiktok.com`
 * `toutiao.com`
