@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: d3d74042f6c282db490483393f4b58cddd6b1525
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 51%
+source-wordcount: '489'
+ht-degree: 54%
 
 ---
 
@@ -25,10 +25,6 @@ Report Builder hub contiene los botones Crear, Administrar y Programar, el panel
 ## Botones Crear, Administrar y Programar
 
 Utilice los botones Crear, Administrar y Programar para crear nuevos bloques de datos, administrar los existentes o programar bloques de datos.
-
->[!NOTE]
->
->La programación de libros para esta versión de Report Builder en Adobe Analytics aún no se ha publicado, pero estará disponible a principios de 2025. Ahora puede empezar a trabajar con libros que no requieran programación.
 
 ## Panel COMANDOS
 
@@ -50,7 +46,7 @@ Utilice el panel COMANDOS para acceder a comandos compatibles con las celdas sel
 
 Cuando se seleccionan uno o varios bloques de datos en una hoja de cálculo, Report Builder muestra el panel EDICIÓN RÁPIDA. Puede utilizar el panel EDICIÓN RÁPIDA para cambiar parámetros en un solo bloque de datos o para cambiar parámetros en varios bloques de datos al mismo tiempo.
 
-![Panel de edición rápida del Report Builder](./assets/hub2.png)
+![Panel de edición rápida de Report Builder](./assets/hub2.png)
 
 Los cambios realizados con las secciones Edición rápida se aplican a todos los bloques de datos seleccionados.
 
@@ -62,12 +58,12 @@ Al cambiar el grupo de informes, todos los bloques de datos de la selección ado
 
 Para cambiar el grupo de informes, seleccione un nuevo grupo de informes en el menú desplegable.
 
-![Centro de Report Builder que muestra el menú desplegable del grupo de informes.](./assets/image16.png)
+![El concentrador de Report Builder que muestra el menú desplegable del grupo de informes.](./assets/image16.png)
 
 ### Intervalo de fechas
 
 **[!UICONTROL Intervalo de fechas]** muestra el intervalo de fechas para los bloques de datos seleccionados. Si se seleccionan varios bloques de datos con varios intervalos de fechas, el vínculo **[!UICONTROL Intervalo de fechas]** muestra *Múltiple*. [Más información](/help/analyze/report-builder/select-date-range.md)
 
-### Segmentos 
+### Segmentos
 
 El vínculo **Segmentos** muestra una lista resumida de los segmentos utilizados por los bloques de datos seleccionados. Si se seleccionan varios bloques de datos con varios segmentos aplicados, el vínculo **Segmentos** muestra *Varios*. [Más información](/help/analyze/report-builder/work-with-segments.md)
