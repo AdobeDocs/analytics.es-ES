@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 5b4017bf7ce3f61b365829d058f820b48622d482
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+source-git-commit: 0bed2622f54bf2f46aa57dbfad7bd55a61d6c7d0
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 98%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 100%
    + [Registros](admin/logs.md)
    + Administrador de actividades de creación de informes {#reporting-activity-manager}
       + [Información general](admin/reporting-activity-manager/reporting-activity-overview.md)
-      + [Ver actividad de creación de informes](admin//reporting-activity-manager/reporting-activity.md)
-      + [Cancelar solicitudes de creación de informes](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
+      + [Visualización de la actividad de creación de informes](admin//reporting-activity-manager/reporting-activity.md)
+      + [Cancelación de solicitudes de creación de informes](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
    + Migración de componentes {#component-migration}
       + [Preparación para la migración](admin/component-migration/prepare-component-migration.md)
       + [Flujo de trabajo de migración](admin/component-migration/component-migration.md)
@@ -47,27 +47,13 @@ ht-degree: 100%
             + Detección de búsqueda de pago {#paid-search-detection}
                + [Resumen de detección de búsqueda de pago](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Configurar la detección de búsqueda pagada](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + Reglas de procesamiento {#c-processing-rules}
-               + [Información general de las reglas de procesamiento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-               + Reglas de procesamiento {#c-processing-rules-configuration}
-                  + [Funcionamiento de las reglas de procesamiento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-                  + [Crear reglas de procesamiento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
-                  + [Ver las reglas de procesamiento activas](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
-                  + [Ver el historial de reglas de procesamiento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
-                  + [Restaurar reglas de procesamiento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-                  + [Copiar reglas de procesamiento en otro grupo de informes](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
-                  + [Dimensiones disponibles para las reglas de procesamiento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
-               + Ejemplos de reglas de procesamiento {#processing-rules-examples}
-                  + [Ejemplos de reglas de procesamiento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-                  + [Rellenar un ID de campaña desde un parámetro de cadena de consulta](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-                  + [Definir el evento de vistas de producto desde la página de información general del producto](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-                  + [Agregar una subcategoría concatenando la categoría y el nombre de página](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-                  + [Limpiar los valores de un informe](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-                  + [Rellenar términos de búsqueda internos utilizando un parámetro de cadena de consulta](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-                  + [Copiar una variable de datos de contexto en una eVar](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
-                  + [Definir un evento con una variable de datos de contexto](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-                  + [Eliminar un evento de una visita](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
-               + [Consejos y sugerencias de reglas de procesamiento](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+            + Reglas de procesamiento {#processing-rules}
+               + [Información general](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
+               + [Interfaz](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-interface.md)
+               + [Ver historial](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-view-history.md)
+               + [Copiar reglas](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-copy.md)
+               + [Dimensiones y métricas disponibles](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-variables.md)
+               + [Casos de uso](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-use-cases.md)
             + Reglas de bots {#bot-removal}
                + [Eliminación de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
                + [Comprensión y configuración de reglas de bots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
@@ -90,8 +76,8 @@ ht-degree: 100%
             + [Variables de conversión](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [Métodos de búsqueda](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
             + [Clasificaciones de conversión](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
-            + Variable única de visitante {#unique-visitor-variable}
-               + [Especificar la variable única de visitante](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
+            + Variable de visitante único {#unique-visitor-variable}
+               + [Especificar la variable de visitante único](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
                + [Caso de uso: Extracción de ID de visitantes](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
             + [Eventos de éxito](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
             + [Jerarquías de clasificación](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)

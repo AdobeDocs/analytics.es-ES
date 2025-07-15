@@ -4,7 +4,7 @@ description: Obtenga más información sobre problemas comunes y prácticas reco
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 97%
@@ -88,7 +88,7 @@ Estos dos valores de variable se consideran independientes en Adobe Analytics. S
 Las implementaciones que rellenan muchas variables con valores largos a veces se pueden ejecutar en solicitudes de imagen truncadas. Algunos exploradores más antiguos, como Internet Explorer, imponen un límite de 2083 caracteres en las direcciones URL de solicitudes de imágenes. Si su organización se enfrenta a solicitudes de imagen muy largas, intente lo siguiente:
 
 * **Utilice el servicio de Experience Cloud ID**: Las bibliotecas de AppMeasurement 1.4.1 y posteriores envían automáticamente solicitudes de imagen mediante el POST HTTP si son demasiado largas. Los datos enviados mediante este método no se truncan independientemente de la longitud. Consulte [Servicio de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) para obtener más información.
-* **Usar reglas de procesamiento**: Las [reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pueden copiar valores de una variable a otra. Este método evita que se establezca el mismo valor en varias variables. Por ejemplo:
+* **Usar reglas de procesamiento**: Las [reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) pueden copiar valores de una variable a otra. Este método evita que se establezca el mismo valor en varias variables. Por ejemplo:
 
   Ejecute siempre:<br>
 Sobrescribir el valor de prop1 con eVar1<br>

@@ -3,7 +3,7 @@ title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -45,7 +45,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Vínculo personalizado:** tipo de visita que contiene datos de vista que no son de página. Consulte la [función s.tl()](../implement/vars/functions/tl-method.md) en la guía de usuario sobre implementación. Consulte también Visita.
 * **Atributos del cliente:** una función de Experience Cloud que permite cargar los datos de atributos. Consulte [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es) en la guía de usuario de los servicios principales.
 * **Servidor de recopilación de datos:** servidores que pertenecen a Adobe y que reciben y procesan datos. Las solicitudes de imagen se envían a los servidores de recopilación de datos de Adobe para su uso en los informes.
-* **Conectores de datos:** Una solución de desarrollo retirada que permite a terceros automatizar la carga de datos en Adobe Analytics. Los clientes de estos terceros pueden utilizar un conector de datos para enriquecer sus datos en Adobe Analytics. Se reemplazó con [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&amp;partnerLevel=All&amp;sort=RELEVANCE).
+* **Conectores de datos:** Una solución de desarrollo retirada que permite a terceros automatizar la carga de datos en Adobe Analytics. Los clientes de estos terceros pueden utilizar un conector de datos para enriquecer sus datos en Adobe Analytics. Se reemplazó con [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE).
 * **Fuente de datos:** exportación de datos sin procesar que enumera cada visita en una fila y muestra las variables como columnas independientes. Normalmente se utiliza para exportar datos de Adobe Analytics a una base de datos de terceros. Consulte [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) en la guía de usuario sobre exportación.
 * **Capa de datos:** Una [capa de datos](/help/implement/prepare/data-layer.md) es un marco de objetos JavaScript en su sitio que contiene los valores de variables utilizados en su implementación de Analytics. Permite un mayor control y un mantenimiento más sencillo al asignar valores a variables de Analytics.
 * **Fuentes de datos:** permiten a un usuario cargar los datos de un archivo a Adobe Analytics. Normalmente, el archivo se extrae de un sitio FTP. Consulte [Fuentes de datos](/help/import/data-sources/overview.md) en la guía de usuario sobre importación.
@@ -84,7 +84,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Persistencia:** concepto abstracto de las variables de conversión que permite la vinculación de un valor de variable con un evento que se produzca en visitas independientes. Consulte también Caducidad.
 * **Llamada primaria al servidor:** nombre alternativo para las solicitudes de imagen o las visitas que se utiliza principalmente en el contexto del etiquetado y de la facturación de grupos múltiples. Cuando se envía la misma visita a varios grupos de informes, el primer grupo de informes es una llamada primaria al servidor, mientras que el resto son llamadas secundarias al servidor. Esta regla se aplica a todos los tipos de visitas, lo cual incluye la vista de página y el seguimiento de vínculos. Consulte también Llamadas secundarias al servidor.
 * **Reglas de procesamiento:** puede hacer referencia a:
-   * Reglas de procesamiento, una forma de modificar la recopilación de datos mediante ciertas reglas de Admin Console. Consulte [Reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) en la guía de usuario de administración.
+   * Reglas de procesamiento, una forma de modificar la recopilación de datos mediante ciertas reglas de Admin Console. Consulte [Reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) en la guía de usuario de administración.
    * Reglas de procesamiento del canal de marketing, un conjunto de reglas que determina a qué canal de marketing pertenece una visita. Consulte [Reglas de procesamiento del canal de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) en la guía de usuario de administración.
 * **Prop:** Consulte Variable de tráfico.
 * **Informe de clasificación:** formato de informe que suele mostrar métricas para las dimensiones. Este tipo de informe permite ver los elementos principales, como las páginas más vistas del sitio. Consulte también Informe de tendencias.

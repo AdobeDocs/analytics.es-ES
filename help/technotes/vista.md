@@ -3,7 +3,7 @@ title: Reglas VISTA en Adobe Analytics
 description: Más información sobre las reglas VISTA y sus funcionalidades.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 81%
@@ -22,7 +22,7 @@ Algunos casos de uso comunes de las reglas VISTA son:
 * Duplicar valores de variables a otras variables
 * Cargar archivos a un sitio FTP de Adobe que pueda afectar a los valores de las variables
 
-Muchos casos de uso para las reglas VISTA ya los ofrece [Reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md), [Reglas de bots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md), [Grupos de informes virtuales](/help/components/vrs/vrs-about.md) o simplemente actualizando su implementación de Adobe Analytics. Adobe recomienda las reglas VISTA solo como último recurso.
+Muchos casos de uso para las reglas VISTA ya los ofrece [Reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md), [Reglas de bots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md), [Grupos de informes virtuales](/help/components/vrs/vrs-about.md) o simplemente actualizando su implementación de Adobe Analytics. Adobe recomienda las reglas VISTA solo como último recurso.
 
 >[!IMPORTANT]
 >

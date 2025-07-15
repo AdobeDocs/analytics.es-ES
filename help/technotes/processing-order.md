@@ -3,7 +3,7 @@ title: Orden de procesamiento de los datos en Adobe Analytics
 description: Conozca el orden de los componentes y servicios que procesan los datos en Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 91%
@@ -33,9 +33,9 @@ Una vez que los datos llegan a Adobe Analytics, las siguientes funciones ajustan
 1. **Tablas de búsqueda**: dimensiones que dependen de tablas de búsqueda internas de Adobe (por ejemplo, [Explorador](/help/components/dimensions/browser.md)) emparejadas con su valor correspondiente.
 2. [**Variables dinámicas**](/help/implement/vars/page-vars/dynamic-variables.md): si se ve una variable dinámica en cualquier parte de una solicitud de imagen, el valor se copia y se trata como un valor independiente en adelante.
 3. [**Reglas de bots**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md): aplique un filtro de bots estándar o personalizado para excluir esos datos de la creación de informes.
-4. [**Reglas de procesamiento**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md): reglas personalizadas aplicadas a los datos por su organización. Incluye la asignación de [Variables de datos de contexto](/help/implement/vars/page-vars/contextdata.md) a su variable respectiva.
+4. [**Reglas de procesamiento**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md): reglas personalizadas aplicadas a los datos por su organización. Incluye la asignación de [Variables de datos de contexto](/help/implement/vars/page-vars/contextdata.md) a su variable respectiva.
 5. **Reglas VISTA**: reglas flexibles personalizadas aplicadas a los datos por un consultor de Adobe. Las reglas VISTA pueden ejecutarse antes o después de las reglas de procesamiento, según las necesidades de su organización. La mayoría de las reglas VISTA suelen ejecutarse después de las de procesamiento, pero cada organización está configurada de forma diferente. Póngase en contacto con su equipo de cuenta de Adobe para obtener más información sobre las reglas VISTA existentes.
-6. [**Reglas de procesamiento de canal de marketing**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md): puede usar [Reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) para preparar los datos y usarlos en las reglas de procesamiento del canal de marketing.
+6. [**Reglas de procesamiento de canal de marketing**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md): puede usar [Reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) para preparar los datos y usarlos en las reglas de procesamiento del canal de marketing.
 7. **Datos de geolocalización**: se rellenan dimensiones que dependen de la búsqueda de direcciones IP (por ejemplo, [Países](/help/components/dimensions/countries.md)).
 8. [**Confusión de IP**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md): si su organización ha optado por proteger las direcciones IP de los datos sin procesar, se realiza después de que se hayan completado todas las demás funciones de procesamiento.
 
