@@ -38,7 +38,7 @@ El siguiente ejemplo rellena varias variables con variables de datos de contexto
 
 | Conjunto de reglas | Valor |
 | Acción | [!UICONTROL Sobrescribir el valor de] eVar55 con `spa.billing_customer_name` (datos de contexto) |
-| Acción | [!UICONTROL Sobrescribir el valor de ] Prop7 con `testhierarchy` (datos de contexto), si se ha establecido `testhierarchy` (datos de contexto) |
+| Acción | [!UICONTROL Sobrescribir el valor de &#x200B;] Prop7 con `testhierarchy` (datos de contexto), si se ha establecido `testhierarchy` (datos de contexto) |
 | Acción | [!UICONTROL Sobrescribir el valor de] eVar8 con `spa.ims_org` (datos de contexto) |
 
 ![Captura de pantalla de la interfaz de reglas de procesamiento que muestra cómo establecer condicionalmente un valor](assets/add-conditional.png)
@@ -79,7 +79,7 @@ Compruebe siempre si un valor está vacío o si contiene el valor esperado antes
 
 | Conjunto de reglas | Valor |
 | --- | --- |
-| Condición | [!UICONTROL Se Ha Establecido El Parámetro De Cadena De Consulta] `q` [!UICONTROL 4}] |
+| Condición | [!UICONTROL Se Ha Establecido El Parámetro De Cadena De Consulta] `q` [!UICONTROL 4&rbrace;] |
 | Acción | [!UICONTROL Sobrescribir el valor de] términos de búsqueda interna con [!UICONTROL Parámetro de cadena de consulta] `q` |
 
 ![Captura de pantalla de la interfaz de reglas de procesamiento que muestra la lógica de término de búsqueda interna](assets/populate-internal-search-terms.png)
