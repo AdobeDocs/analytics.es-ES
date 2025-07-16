@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a0b2fba6696b7caec510be30909cfbb4b5618521
+source-git-commit: f7a433e996b234fa46556f4bd40584b474d568c3
 workflow-type: tm+mt
-source-wordcount: '6443'
+source-wordcount: '6466'
 ht-degree: 99%
 
 ---
@@ -27,7 +27,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | --- | --- |
 | **Julio de 2025** | |
 | Depurador | Nuevo artículo sobre cómo habilitar, utilizar y deshabilitar el depurador de proyectos en Analysis Workspace. |
-| Revisión y actualizaciones | Revisión y actualización de la documentación de Analysis Workspace. Cuando corresponde, la documentación de está ahora sincronizada con la documentación de Customer Journey Analytics en Analysis Workspace. |
+| Recomendación de rendimiento de visualización de flujo | Se ha añadido información para indicar que dejar más de 10 nodos expandidos en una sola visualización de flujo puede afectar al tiempo de creación de informes. |
+| Revisión y actualizaciones | Revisión y actualización de la documentación de Analysis Workspace. Cuando corresponda, la documentación está ahora sincronizada con la documentación de Customer Journey Analytics en Analysis Workspace. |
 | **Junio de 2025** | |
 | Nuevas acciones de método abreviado | Los nuevos métodos abreviados de teclado en Analysis Workspace ahora le permiten [mover paneles de Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) hacia arriba y hacia abajo en un proyecto. |
 | **Marzo de 2025** |  |
@@ -72,7 +73,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Documentación sobre la adición de componentes a proyectos | Se ha añadido información general sobre cómo [añadir distintos tipos de componentes a los proyectos en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Documentación actualizada de Advertising Analytics | Documentación actualizada en línea con las actualizaciones realizadas en la interfaz de usuario de [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md). |
 | Asignación explícita de variables de objeto XDM a variables de datos de contexto | Se ha documentado la capacidad en [establecer explícitamente variables de datos de contexto mediante la asignación de variables de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
-| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Se ha actualizado la documentación sobre intervalos de fechas personalizados | Capturas de pantalla y procedimientos actualizados relacionados con la [creación de intervalos de fechas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) para que coincida con las características y el diseño actuales del producto. |
 | **Abril de 2024** | |
 | Se ha eliminado la documentación relacionada con “Propietario” en los conjuntos de clasificación | El filtro “Propietario” y la columna se han eliminado del [Administrador de conjuntos de clasificación](/help/components/classifications/sets/manage/set-manager.md) y el campo “Propietario” se ha eliminado de [Configuración del conjunto de clasificación](/help/components/classifications/sets/manage/settings.md). <p>La documentación se ha actualizado para quitar este filtro, columna y campo.</p> |
@@ -98,7 +99,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Documentación de reglas de bots mejorada | Información actualizada en [Comprensión y configuración de reglas de bots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) para mejorar la claridad.<p>Las mejoras incluyen:</p> <ul><li>Se ha actualizado el título del artículo para que sea más descriptivo</li><li>Mejor organización de la información</li><li>Se han añadido pasos para indicar información basada en tareas</li><li>Se han añadido más detalles acerca de los requisitos de archivos CSV al cargar reglas de bots</li></ul> |
 | Nueva sección de informes | Se ha añadido una nueva sección Informes que incluye información sobre el [uso de plantillas](/help/analyze/analysis-workspace/templates/use-templates.md) y la [creación de plantillas de la compañía](/help/analyze/analysis-workspace/templates/create-templates.md). |
 | Actualizaciones en la documentación de Detección de anomalías y Análisis de contribución | Anteriormente, la documentación de Detección de anomalías y Análisis de contribución se encontraba en una sección sobre Analista virtual.  Se han realizado los siguientes cambios: <ul><li>El término Analista virtual se ha eliminado de la documentación.</li><li>La sección sobre [Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) se ha movido directamente debajo de la sección Analysis Workspace.</li><li>La documentación de Análisis de contribución se ha combinado con la documentación de Detección de anomalías.</li></ul> |
-| &quot;Attribution IQ&quot; se cambió a &quot;Atribución&quot; | Se han cambiado todas las instancias de “Attribution IQ” a “[Atribución](/help/analyze/analysis-workspace/attribution/overview.md)” en toda la documentación. |
+| “Attribution IQ” se ha cambiado a “Atribución” | Se han cambiado todas las instancias de “Attribution IQ” a “[Atribución](/help/analyze/analysis-workspace/attribution/overview.md)” en toda la documentación. |
 | **Noviembre de 2023** | |
 | Actualizaciones del tema Activación/habilitación de Activity Map | Se ha añadido el contenido [SDK web](/help/analyze/activity-map/getting-started.md) (manual y a través de la extensión de etiquetas de Adobe Experience Platform). |
 | **Octubre de 2023** | |
@@ -329,7 +330,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 1 de octubre de 2019 | Nuevo artículo sobre [Totales del Espacio de trabajo](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=es#cja-workspace). |
 | 28 de septiembre de 2019 | Nuevos artículos sobre [variables de configuración para la implementación de Javascript](/help/implement/vars/config-vars/configuration-variables.md). |
 | 19 de septiembre de 2019 | Se ha revisado la documentación de segmentación para explicar los [contenedores de grupo lógico](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=es#logic-group-containers). |
-| 12 de septiembre de 2019 | Nueva documentación para [Análisis entre dispositivos](/help/components/cda/overview.md) |
+| 12 de septiembre de 2019 | Nueva documentación para el [análisis multidispositivo](/help/components/cda/overview.md) |
 | 12 de septiembre de 2019 | Se ha actualizado el documento [Totales de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=es). |
 | 28 de agosto de 2019 | Nuevo artículo sobre [aplicaciones web progresivas (PWA) para Analytics](/help/technotes/pwa.md) |
 | 8 de agosto de 2019 | Nuevo artículo sobre [Totales de métricas calculadas](/help/components/c-calcmetrics/cm-totals.md). |
