@@ -1,13 +1,13 @@
 ---
-description: Obtenga información acerca de la extensión de Activity Map y cómo navegar por su interfaz.
+description: Obtenga información sobre la extensión de Activity Map y cómo navegar por su interfaz.
 title: Interfaz de extensión de Activity Map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 13ad9d40ad74a8dffe05d899db54f4d77cbcc34c
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '639'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ La interfaz de extensión de Activity Map consta de dos partes:
 
 ## Panel superior
 
-El panel superior contiene los controles básicos de la superposición del Activity Map.
+El panel superior contiene los controles básicos de la superposición de Activity Map.
 
 ![Superposición](../assets/overlay.png)
 
@@ -30,7 +30,7 @@ Ofrece la siguiente configuración:
 
 * **Vista estándar/en vivo**: Alterna entre la vista estándar y la vista en vivo.
    * Vista estándar: muestra la superposición en función de los datos históricos.
-   * Vista en vivo: Muestra la superposición en función de los datos activos. El selector de fecha cambia a una lista desplegable que permite cambiar la granularidad de los datos activos.
+   * Vista en vivo: Muestra la superposición en función de los datos activos. El selector de fecha cambia a un menú desplegable que permite cambiar la granularidad de los datos activos.
 * **Selector de métrica**: permite cambiar la métrica de la que informa la superposición. Solo están disponibles [!UICONTROL Clics en vínculos] si ha seleccionado Vista en vivo.
 * **Selector de segmento**: le permite seleccionar un [segmento](/help/components/segmentation/seg-overview.md) y ver un subconjunto de datos dentro de la superposición. Los segmentos no están disponibles en la vista en vivo.
 * **Tipo de visualización de superposición**: permite cambiar la forma en que la superposición visualiza la clasificación de los vínculos.
@@ -45,11 +45,11 @@ El encabezado de este panel contiene la siguiente configuración:
 * **[!UICONTROL Alternar detalles de página]**: muestra u oculta el panel inferior (icono en forma de ojo).
 * **[!UICONTROL Mostrar configuración]**: abre un menú para opciones que puedes cambiar (icono de engranaje):
    * **[!UICONTROL Configuración]**: abre [Configuración](settings.md) de la extensión.
-   * **[!UICONTROL Ayuda]**: Abre la documentación en el Experience League (esta página).
-   * **[!UICONTROL comunidad de Adobe]**: Abre la [comunidad de Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=es).
+   * **[!UICONTROL Ayuda]**: Abre la documentación en Experience League (esta página).
+   * **[!UICONTROL Comunidad de Adobe]**: Abre la [comunidad de Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=es).
    * **[!UICONTROL Acerca de]**: muestra la versión de la extensión.
    * **[!UICONTROL Cerrar sesión]**: cierra la sesión de la extensión y requiere que vuelva a iniciar sesión.
-* **[!UICONTROL Salir del Activity Map]**: Cierra todas las superposiciones de la extensión (icono X).
+* **[!UICONTROL Salir de Activity Map]**: Cierra todas las superposiciones de la extensión (icono X).
 
 ## Superposición de página
 
