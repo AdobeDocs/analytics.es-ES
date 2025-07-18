@@ -1,70 +1,101 @@
 ---
-description: Cree intervalos de fechas personalizados en Analysis Workspace y guárdelos como componentes de tiempo.
+description: Obtenga información sobre cómo definir intervalos de fechas personalizados en Analysis Workspace.
 keywords: Analysis Workspace
-title: Crear intervalos de fechas
+title: Ejemplo de intervalos de fechas personalizados
 feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
-workflow-type: ht
-source-wordcount: '438'
-ht-degree: 100%
+source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 4%
 
 ---
 
-# Crear intervalos de fechas
+# Ejemplo de intervalos de fechas personalizados
 
-Puede crear intervalos de fechas personalizados en Analysis Workspace y guardarlos como componentes de tiempo.
+Este artículo muestra más ejemplos de intervalos de fechas personalizados.
 
-Para obtener información acerca de cómo añadir intervalos de fechas existentes a un proyecto, vea [Información general sobre calendario e intervalos de fechas](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
 
-Para crear un intervalo de fechas personalizado:
 
-1. En Adobe Analytics, seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Intervalos de fechas]**.
+## Últimos dos meses
 
-   ![página de intervalo de fechas](assets/date-ranges.png)
++++ Detalles
 
-1. Seleccione [!UICONTROL **Crear nuevo intervalo de fechas**].
+Desea definir un intervalo de fechas personalizado que defina hace dos meses. Utilice uno de los ajustes preestablecidos.
 
-1. En el Generador de intervalos de fechas, especifique la siguiente información:
+![Últimos 2 meses](assets/date-range-example-simple.png)
 
-   | Opción | Descripción |
-   |---------|----------|
-   | [!UICONTROL **Título**] | El título del intervalo de fechas aparecerá como tal cuando los usuarios lo seleccionen en Analysis Workspace. |
-   | [!UICONTROL **Descripción**] | Una descripción del intervalo de fechas. |
-   | [!UICONTROL **Etiquetas**] | Las etiquetas que desee aplicar al intervalo de fechas. |
-   | [!UICONTROL **Intervalo de fecha**] | Le permite seleccionar un intervalo de fechas preestablecido. De forma predeterminada, se seleccionan los últimos 30 días. |
-   | [!UICONTROL **Preestablecido**] | Elija de una lista de intervalos de fechas preestablecidos, como [!UICONTROL **Ayer**], [!UICONTROL **Últimos 7 días**], [!UICONTROL **Últimos 30 días**], etc. |
-   | [!UICONTROL **Hora de inicio**] | Hora del día a la que comienza el intervalo de fechas. |
-   | [!UICONTROL **Hora de finalización**] | Hora del día a la que finaliza el intervalo de fechas. |
-   | [!UICONTROL **Usar fechas móviles**] | Las fechas móviles le permiten generar un informe dinámico que observa un periodo de tiempo anterior o posterior basándose en el momento en el que ejecuta el informe. Por ejemplo, si desea un informe sobre todos los pedidos realizados el “último mes” (basándose en el campo Fecha de creación) y se ejecuta dicho informe en diciembre, verá los pedidos realizados en noviembre. Si ejecutara ese mismo informe en enero, vería los pedidos realizados en diciembre.<ul><li>**[!UICONTROL Vista previa de fecha]**: indica qué periodo de tiempo incluye el calendario móvil.</li><li>**[!UICONTROL Inicio]**: puede elegir entre el día, la semana, el mes, el trimestre o el año actuales.</li><li>**[!UICONTROL Fin]**: puede elegir entre el día, la semana, el mes, el trimestre o el año actuales.</li></ul><br>Seleccionado de forma predeterminada. |
++++
 
-1. Seleccione [!UICONTROL **Guardar**].
 
-## Ejemplo: Intervalo de fechas de &quot;hace dos meses&quot; {#section_C4109C57CB444BB2A79CC8082BD67294}
+## Móvil hasta el final de la semana pasada
 
-El siguiente intervalo de fechas personalizado muestra un intervalo de fechas para “dos meses atrás”, con una visualización de cambio de resumen que muestra el cambio direccional.
++++ Detalles
+
+Desea definir un intervalo de fechas que define el período entre el día actual hace una semana y el final de esa misma semana pasada. Por ejemplo, si hoy es miércoles, 11 de septiembre de 2024. Desea un intervalo de fechas del miércoles 4 de septiembre de 2024 al sábado 7 de septiembre de 2024. Septiembre
+
+![Ejemplo de intervalo de fechas](assets/date-range-example.png)
+
++++
+
+<!--
+
+# Create custom date ranges
+
+You can create custom date ranges in Analysis Workspace and save them as Time components. 
+
+For information about adding existing date ranges to a project, see [Calendar and date ranges overview](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
+
+To create a custom date range:
+
+ 1. In Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Date ranges]**.
+
+    ![date range page](assets/date-ranges.png)
+ 
+ 1. Select [!UICONTROL **Create new date range**].
+
+ 1. In the Date range builder, specify the following information:
+    
+    |Option | Description | 
+    |---------|----------|
+    | [!UICONTROL **Title**] | The title of the date range as it will appear when users select it in Analysis Workspace. |
+    | [!UICONTROL **Description**] | A description for the date range. | 
+    | [!UICONTROL **Tags**] | Any tags you want to apply to the date range. | 
+    | [!UICONTROL **Date Range**] | Lets you pick a custom date range. By default, the last 30 days are selected. | 
+    | [!UICONTROL **Preset**] | Choose from a list of preset date ranges, such as [!UICONTROL **Yesterday**], [!UICONTROL **Last 7 days**], [!UICONTROL **Last 30 days**], and so forth. | 
+    | [!UICONTROL **Start time**] | The time of day that the date range begins. | 
+    | [!UICONTROL **End time**] | The time of day that the date range ends. | 
+    | [!UICONTROL **Use rolling dates**] | Rolling dates allow you to generate a dynamic report that looks forward or backward for a set period of time based on when you ran the report. For example, if you want to report on all Orders placed "Last Month" (based on the Created Date field) and ran that report in December, you'd see orders placed in November. If you ran that same report in January, you'd see orders placed in December.<ul><li>**[!UICONTROL Date Preview]**: Indicates what time period the rolling calendar encompasses.</li><li>**[!UICONTROL Start]**: You can choose among current day, current week, current month, current quarter, current year.</li><li>**[!UICONTROL End]**: You can choose among current day, current week, current month, current quarter, current year.</li></ul><br>Selected by default. | 
+
+ 1. Select [!UICONTROL **Save**]. 
+
+## Example: Date range for "two months ago" {#section_C4109C57CB444BB2A79CC8082BD67294}
+
+The following custom date range shows a date range for "two months ago," with a Summary Change visualization showing directional change.
 
 ![](assets/date-range-two-months-ago.png)
 
-El intervalo de fechas personalizado se muestra en la parte superior del panel de componente [!UICONTROL Intervalo de fechas] del proyecto:
+The custom date range is displayed at the top of the [!UICONTROL Date Range] component panel in your project:
 
 ![](assets/date-range-panel-two-months-ago.png)
 
-Puede arrastrar este intervalo de fechas personalizado en un columna a lo largo de un intervalo de fechas móvil mensual mediante el valor preestablecido Último mes para ver una comparación. Agregue una visualización de cambio de resumen y seleccione los totales de cada columna para mostrar un cambio direccional:
+You can drag this custom date range into a column alongside a custom, monthly rolling date range using the Last Month preset for a comparison. Add a Summary Change visualization and select the totals from each column to show directional change:
 
 ![](assets/date-range-two-months-table.png)
 
-## Ejemplo: Usar un intervalo de fechas móvil de 7 días {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## Example: Use a 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
-Puede crear un intervalo de fechas que especifica una ventana móvil de 7 días y que termina hace una semana:
+You can create a date range that specifies a 7-day rolling window that ends one week ago:
 
 ![](assets/create_date_range.png)
 
-Utilice *`rolling daily`*.
+Use *`rolling daily`*.
 
-* La configuración de inicio sería *`current day minus 6 days`*.
+* The Start settings would be *`current day minus 6 days`*.
 
-* La configuración de fin sería *`current day minus 7 days`*.
+* The End settings would be *`current day minus 7 days`*.
 
-Este intervalo de fechas puede ser un componente que arrastre en cualquier tabla de forma libre.
+This date range can be a component that you drag onto any freeform table.
+
+-->
