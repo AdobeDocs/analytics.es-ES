@@ -33,7 +33,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Audiencia media por minuto de medios en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_.<br/>_Consulte el panel [Audiencia media por minuto de medios](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel) para la_ versión de ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel Audiencia media por minuto de medios en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_.<br/>_Consulte el panel [Audiencia media por minuto de medios](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel) para la_ versión de ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
