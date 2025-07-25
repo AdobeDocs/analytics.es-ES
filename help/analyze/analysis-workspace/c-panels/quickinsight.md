@@ -25,7 +25,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Información rápida en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Vea el [panel de Quick Insights](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para la_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versión de Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel Información rápida en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vea el [panel de Quick Insights](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/quickinsight) para la_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versión de Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
