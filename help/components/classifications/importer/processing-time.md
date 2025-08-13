@@ -3,7 +3,7 @@ title: Tiempo de procesamiento del importador de clasificaciones
 description: Comprenda el lapso de tiempo en que Adobe procesa los archivos de clasificación y cómo minimizar el tiempo de procesamiento.
 feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
-source-git-commit: a83195c7805ff1bfb854b3c2714857f437cf8955
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 100%
@@ -11,6 +11,8 @@ ht-degree: 100%
 ---
 
 # Tiempo de procesamiento del importador de clasificaciones
+
+{{classification-importer-deprecation}}
 
 El tiempo de procesamiento de un archivo de clasificación varía según el tamaño del archivo y la cantidad total de archivos que procesa Adobe. Las clasificaciones no suelen tardar más de 24 horas. Sin embargo, los períodos de uso intensivo de las clasificaciones en las organizaciones que utilizan Adobe Analytics pueden hacer que los archivos tarden más de 24 horas. Adobe ve un uso de clasificación muy importante en los meses previos a la temporada de vacaciones.
 

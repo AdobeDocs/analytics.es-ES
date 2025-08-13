@@ -3,7 +3,7 @@ description: Un conjunto de reglas es un grupo de reglas de clasificación para 
 title: Conjuntos de reglas de clasificación
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 89%
@@ -11,6 +11,8 @@ ht-degree: 89%
 ---
 
 # Conjuntos de reglas de clasificación (heredados)
+
+{{classification-rulebuilder-deprecation}}
 
 *Esta página explica los conjuntos de reglas de clasificación como parte del [Generador de reglas de clasificación](classification-rule-builder.md). Consulte [Conjuntos de clasificaciones](../sets/overview.md) para ver el método actual de clasificación de datos en Adobe Analytics.*
 

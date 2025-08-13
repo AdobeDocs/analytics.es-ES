@@ -3,7 +3,7 @@ description: Instrucciones sobre cómo eliminar o quitar datos de clasificación
 title: Eliminar datos de clasificación
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 96%
@@ -11,6 +11,8 @@ ht-degree: 96%
 ---
 
 # Eliminar datos de clasificación
+
+{{classification-importer-deprecation}}
 
 A veces es necesario eliminar los datos de clasificación después de cargarlos. Utilice `~empty~` o `~deletekey~`, según lo que desee eliminar.
 

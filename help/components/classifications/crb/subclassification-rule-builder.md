@@ -3,7 +3,7 @@ description: Utilice subclasificaciones con el generador de reglas de clasificac
 title: Subclasificaciones y el Generador de reglas
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 66%
@@ -11,6 +11,8 @@ ht-degree: 66%
 ---
 
 # Subclasificaciones y el generador de reglas (heredado)
+
+{{classification-rulebuilder-deprecation}}
 
 Puede combinar el Generador de reglas de clasificación con subclasificaciones si se asegura de que cada subclasificación tiene un valor principal.
 
@@ -61,7 +63,7 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 
    Ejemplo:
 
-   | Clave | Canal | código Campaña general | Campaña amplia, código&Hat;Tipo de campaña | Campaña amplia de código&Hat;Director de campaña | ... |
+   | Clave | Canal | código Campaña general | Campaña amplia, código&amp;Hat;Tipo de campaña | Campaña amplia de código&amp;Hat;Director de campaña | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Marca | Suzanne |  |
    | &#42; |  | 222 | Marca | Frank |  |

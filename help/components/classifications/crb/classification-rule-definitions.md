@@ -3,7 +3,7 @@ description: Definiciones de los elementos de la interfaz en las páginas del Ge
 title: Definiciones de reglas de clasificación
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 94%
@@ -11,6 +11,8 @@ ht-degree: 94%
 ---
 
 # Definiciones de reglas de clasificación (heredadas)
+
+{{classification-rulebuilder-deprecation}}
 
 Definiciones de los elementos de la interfaz en las páginas del Generador de reglas de clasificación.
 
