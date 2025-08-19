@@ -40,7 +40,7 @@ El objetivo del inventario de Analytics es ayudarle a responder a las siguientes
 
 ## Permisos
 
-El inventario de Analytics está disponible para los usuarios con privilegios de administrador de productos de Adobe Analytics en [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics).
+El inventario de Analytics está disponible para los usuarios con privilegios de administrador de productos de Adobe Analytics en [Adobe Admin Console](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-console/admin-roles-in-analytics).
 
 ## Acceder al inventario de Analytics
 
@@ -112,10 +112,10 @@ Las respuestas a estas preguntas le darán una buena idea de qué grupos de info
    | Ocurrencias (últimos 90 días) | La métrica “Ocurrencias” muestra el número de visitas configurado o en las que persiste una variable. ¿Cuántas visitas recibió este grupo de informes en los últimos 90 días? |
    | Métricas | ¿Cuántas métricas se definen en este grupo de informes? |
    | Dimensiones | ¿Cuántas dimensiones se definen en este grupo de informes? |
-   | Analytics for Target (A4T) habilitado | [Oculto de forma predeterminada] ¿Está habilitado este grupo de informes para [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
+   | Analytics for Target (A4T) habilitado | [Oculto de forma predeterminada] ¿Está habilitado este grupo de informes para [Analytics for Target](https://experienceleague.adobe.com/es/docs/target/using/integrate/a4t/a4t)? |
    | Canales de marketing habilitados | [Oculto de forma predeterminada] ¿Está habilitado este grupo de informes para [Canales de marketing](https://experienceleague.adobe.com/es/docs/analytics/components/marketing-channels/c-getting-started-mchannel)? |
    | Conector de origen habilitado | ¿Está habilitado este grupo de informes para [Adobe Analytics Source Connector para los datos del grupo de informes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/analytics) en Adobe Experience Platform? En otras palabras, ¿se puede migrar este grupo de informes a Customer Journey Analytics mediante el conector de Source de Analytics? |
-   | Tipo de calendario | [Oculto de forma predeterminada] Para obtener más información, consulte [Calendarios personalizados](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+   | Tipo de calendario | [Oculto de forma predeterminada] Para obtener más información, consulte [Calendarios personalizados](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 #### Analizar dimensiones
 
