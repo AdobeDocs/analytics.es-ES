@@ -3,9 +3,9 @@ title: Compatibilidad de dimensiones de Analytics
 description: Referencia para dimensiones e informes de Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: fd26afc166ada6b1bc1890cbcf1406345c275765
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '896'
 ht-degree: 60%
 
 ---
@@ -18,7 +18,7 @@ Esta página lista [dimensiones](overview.md) compatibles con sus respectivas ca
 >
 >En esta lista se omiten los nombres de las variables personalizadas, clasificaciones y atributos de visitantes. Estos elementos de dimensión son específicos de cada grupo de informes.
 
-## Dimension admitidos en Analysis Workspace
+## Dimensiones admitidas en Analysis Workspace
 
 | Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |---|---|
@@ -69,7 +69,7 @@ Esta página lista [dimensiones](overview.md) compatibles con sus respectivas ca
 | [Resolución del monitor](monitor-resolution.md) | `monitorresolution` |
 | [Sistema operativo](operating-systems.md) | `operatingsystem` |
 | [Dominio de referencia original](original-referring-domain.md) | `referringdomainoriginal` |
-| [Activity Map](page.md) | `page` |
+| [Página](page.md) | `page` |
 | [Páginas no encontradas](pages-not-found.md) | `pagesnotfound` |
 | [Producto](product.md) | `product` |
 | [Referente](referrer.md) | `referrer` |
@@ -157,7 +157,7 @@ Esta página lista [dimensiones](overview.md) compatibles con sus respectivas ca
 
 ## Dimensiones de reconocimiento de contenido compatibles con Analysis Workspace
 
-### Vídeo (recopilación de medios de streaming)
+### Vídeo (servicios de medios de streaming)
 
 | Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
@@ -280,13 +280,13 @@ Adobe Social está retirado.
 | Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
 | [Vínculo De Activity Map Por Región](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
-| [Región Activity Map](activity-map-region.md) | `clickmapregion` |
+| [Región de Activity Map](activity-map-region.md) | `clickmapregion` |
 | [Vínculo de Activity Map](activity-map-link.md) | `clickmaplink` |
 | [Página de Activity Map](activity-map-page.md) | `clickmappage` |
 
 ### Integración de Nielsen
 
-Para obtener más información sobre cómo implementar esta integración, consulte la [extensión de Nielsen](https://exchange.adobe.com/apps/ec/101361) en el Adobe Exchange.
+Para obtener más información sobre cómo implementar esta integración, consulte la [extensión de Nielsen](https://exchange.adobe.com/apps/ec/101361) en Adobe Exchange.
 
 | Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |

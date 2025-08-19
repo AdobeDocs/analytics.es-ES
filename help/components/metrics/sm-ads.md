@@ -1,20 +1,20 @@
 ---
-title: Métricas de publicidad de medios de streaming
+title: Métricas y servicios de medios de streaming
 description: Métricas disponibles cuando se habilita [!UICONTROL Anuncios multimedia] para un grupo de informes.
 feature: Metrics
 exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '158'
 ht-degree: 5%
 
 ---
 
-# Métricas de publicidad de medios de streaming
+# Métricas y servicios de medios de streaming
 
-*Esta página describe las métricas disponibles al habilitar [!UICONTROL Anuncios multimedia] para un grupo de informes. Consulte [Dimensiones de anuncios de medios de streaming](../dimensions/sm-ads.md) para ver las dimensiones disponibles.*
+*Esta página describe las métricas disponibles al habilitar [!UICONTROL Anuncios multimedia] para un grupo de informes. Consulte [Servicios y dimensiones de medios de streaming](../dimensions/sm-ads.md) para ver las dimensiones disponibles.*
 
-Las métricas de anuncios de medios de streaming proporcionan una funcionalidad de creación de informes suplementaria para la recopilación de datos mediante bibliotecas de recopilación de medios de streaming. El uso de estas métricas requiere la **[!UICONTROL recopilación de medios de streaming de Adobe]**. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
+Las métricas y los servicios de medios de streaming proporcionan una funcionalidad adicional de creación de informes para la recopilación de datos a través de las bibliotecas de los servicios de medios de streaming. El uso de estas métricas requiere el **[!UICONTROL complemento de Adobe Analytics para medios de streaming]**. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
 
 Cuando habilita **[!UICONTROL Anuncios multimedia]** en [Informes multimedia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), están disponibles las siguientes métricas:
 

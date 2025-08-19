@@ -4,10 +4,10 @@ description: Aprenda a utilizar e interpretar el panel Visualizadores simultáne
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 98%
+source-wordcount: '1241'
+ht-degree: 95%
 
 ---
 
@@ -35,16 +35,16 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel de visualizadores simultáneos de medios en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics Analytics**._<br/>_Consulte el [Panel de visualizadores simultáneos de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel de visualizadores simultáneos de medios en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics**._<br/>_Consulte el [Panel de visualizadores simultáneos de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->El panel Audiencia media por minuto de medios solo está disponible para los clientes que han adquirido el complemento Recopilación de medios de streaming para Adobe Analytics.
+>El panel Audiencia media por minuto de medios solo está disponible para los clientes que han adquirido el complemento de Adobe Analytics para medios de streaming.
 >
->Póngase en contacto con el representante de ventas de Adobe o con el equipo de cuentas de Adobe para obtener más información.
+>Póngase en contacto con su representante de ventas de Adobe o con el equipo de cuentas de Adobe para obtener más información.
 >
 
 El panel **[!UICONTROL Visualizadores simultáneos de medios]** permite el análisis de los visualizadores simultáneos a lo largo del tiempo, con detalles sobre los picos de simultaneidad y la posibilidad de desglosar y comparar.  
@@ -56,7 +56,7 @@ En Analysis Workspace, la métrica Visualizadores simultáneos comprende la cant
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://video.tv.adobe.com/v/342835?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Para usar un panel **[!UICONTROL Visualizadores simultáneos de medios]**:
 
 1. Cree un panel **[!UICONTROL Visualizadores simultáneos de medios]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
 
-1. Asegúrese de seleccionar una vista de datos para el panel que tenga componentes configurados de la colección de medios de streaming.
+1. Asegúrese de seleccionar una vista de datos para el panel que tenga componentes configurados del complemento de Adobe Analytics para medios de streaming.
 
 1. Especifica la [entrada](#panel-input) para el panel.
 
@@ -131,8 +131,8 @@ No hay ninguna tabla de forma libre disponible en esta vista.  Para ver la fuent
 >[!MORELIKETHIS]
 >
 >[Crear un panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
->&#x200B;>[Panel Audiencia media por minuto de medios](average-minute-audience-panel.md)
+>>[Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
+>>[Panel Audiencia media por minuto de medios](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342835/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 

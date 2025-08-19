@@ -1,18 +1,18 @@
 ---
-title: Métricas de seguimiento del estado del reproductor de Streaming Media
+title: Métricas de seguimiento del estado del reproductor de servicios de medios de streaming
 description: Métricas disponibles cuando habilitas [!UICONTROL Seguimiento de estado del reproductor] para un grupo de informes.
 feature: Metrics
 exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
 
-# Métricas de seguimiento del estado del reproductor de Streaming Media
+# Métricas de seguimiento del estado del reproductor de servicios de medios de streaming
 
-Las métricas de seguimiento de estado del reproductor de medios de streaming proporcionan una funcionalidad de sistema de informes suplementaria para la recopilación de datos a través de bibliotecas de recopilación de medios de streaming. El uso de estas métricas requiere la **[!UICONTROL recopilación de medios de streaming de Adobe]**. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
+Las métricas de seguimiento de estado del reproductor de servicios de streaming de medios proporcionan una funcionalidad de sistema de informes suplementaria para la recopilación de datos a través de las bibliotecas de los servicios de streaming de medios. El uso de estas métricas requiere el **[!UICONTROL complemento de Adobe Analytics para medios de streaming]**. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
 
 Cuando habilita **[!UICONTROL Seguimiento de estado del reproductor]** en [Informes de medios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), están disponibles las siguientes métricas:
 

@@ -1,20 +1,20 @@
 ---
-title: Dimensiones principales de medios de streaming
+title: Dimensiones principales de los servicios de medios de streaming
 description: Dimensiones disponibles al habilitar [!UICONTROL Media Core] para un grupo de informes.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 10%
+source-wordcount: '416'
+ht-degree: 9%
 
 ---
 
-# Dimensiones principales de medios de streaming
+# Dimensiones principales de los servicios de medios de streaming
 
-*Esta página describe las dimensiones disponibles cuando se habilita [!UICONTROL Media Core] para un grupo de informes. Consulte [Métricas principales de medios de streaming](../metrics/sm-core.md) para ver las métricas disponibles*.
+*Esta página describe las dimensiones disponibles cuando se habilita [!UICONTROL Media Core] para un grupo de informes. Consulte [Métricas principales de servicios de medios de streaming](../metrics/sm-core.md) para ver las métricas disponibles*.
 
-Las dimensiones principales de los medios de streaming proporcionan funcionalidad básica de creación de informes a los datos recopilados mediante bibliotecas de recopilación de medios de streaming. El uso de estas dimensiones requiere la **[!UICONTROL recopilación de medios de streaming de Adobe]**. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
+Las dimensiones principales de los servicios de medios de streaming proporcionan una funcionalidad básica de creación de informes a los datos recopilados a través de las bibliotecas de los servicios de medios de streaming. El uso de estas dimensiones requiere el **[!UICONTROL complemento de Adobe Analytics para medios de streaming]**. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
 
 Cuando habilita **[!UICONTROL Componentes básicos de medios]** en [Informes de medios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), están disponibles las siguientes dimensiones:
 

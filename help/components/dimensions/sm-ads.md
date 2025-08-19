@@ -1,20 +1,20 @@
 ---
-title: Dimensiones de anuncios de medios de streaming
+title: Dimensiones y servicios de medios de streaming
 description: Dimensiones disponibles al habilitar [!UICONTROL Anuncios multimedia] para un grupo de informes.
 feature: Dimensions
 exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '464'
 ht-degree: 15%
 
 ---
 
-# Dimensiones de anuncios de medios de streaming
+# Dimensiones y servicios de medios de streaming
 
 *Esta página describe las dimensiones disponibles cuando se habilita [!UICONTROL Anuncios multimedia] para un grupo de informes. Consulte [Métricas de anuncios de medios de streaming](../metrics/sm-ads.md) para ver las métricas disponibles*.
 
-Las dimensiones de anuncios de medios de streaming proporcionan una funcionalidad de creación de informes suplementaria para la recopilación de datos mediante bibliotecas de recopilación de medios de streaming. El uso de estas dimensiones requiere la **[!UICONTROL recopilación de medios de streaming de Adobe]**. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
+Las dimensiones y los servicios de medios de streaming proporcionan una funcionalidad de creación de informes suplementaria para la recopilación de datos a través de las bibliotecas de los servicios de medios de streaming. El uso de estas dimensiones requiere el **[!UICONTROL complemento de Adobe Analytics para medios de streaming]**. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
 
 Cuando habilita **[!UICONTROL Anuncios multimedia]** en [Informes multimedia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), están disponibles las siguientes dimensiones:
 
@@ -37,8 +37,8 @@ Además de las dimensiones anteriores, Adobe crea automáticamente las siguiente
 | --- | --- | --- |
 | ID del recurso | [Contenido](sm-core.md) | El identificador único del contenido del recurso de medios. Algunos ejemplos son el identificador de episodio de series de TV, el identificador de recursos de una película o el identificador de eventos en directo. Estos ID generalmente se derivan de autoridades de metadatos como EIDR, TMS/Gracenote, Rovi o de otros sistemas propietarios o internos. |
 | Calificación de contenido | [Contenido](sm-core.md) | La calificación definida por las pautas parentales de TV. |
-| Fecha de la primera emisión | [Contenido](sm-core.md) | La fecha en la que se emitió por primera vez el contenido en televisión. Dado que esta dimensión de clasificación es una cadena, se permite cualquier formato de fecha. El Adobe recomienda usar un formato de fecha consistente, como `YYYY-MM-DD`. |
-| Fecha de la primera emisión digital | [Contenido](sm-core.md) | La fecha en la que se emitió por primera vez el contenido en cualquier canal o plataforma digital. Dado que esta dimensión de clasificación es una cadena, se permite cualquier formato de fecha. El Adobe recomienda usar un formato de fecha consistente, como `YYYY-MM-DD`. |
+| Fecha de la primera emisión | [Contenido](sm-core.md) | La fecha en la que se emitió por primera vez el contenido en televisión. Dado que esta dimensión de clasificación es una cadena, se permite cualquier formato de fecha. Adobe recomienda usar un formato de fecha coherente, como `YYYY-MM-DD`. |
+| Fecha de la primera emisión digital | [Contenido](sm-core.md) | La fecha en la que se emitió por primera vez el contenido en cualquier canal o plataforma digital. Dado que esta dimensión de clasificación es una cadena, se permite cualquier formato de fecha. Adobe recomienda usar un formato de fecha coherente, como `YYYY-MM-DD`. |
 | Duración del anuncio | Publicidad | Duración del anuncio de vídeo, en segundos. |
 | Nombre del anuncio | Publicidad | Nombre descriptivo del anuncio. Es el equivalente de clasificación de &quot;Nombre del anuncio (variable)&quot;. |
 | ID del creativo | Publicidad | El ID del creador de la publicidad. |

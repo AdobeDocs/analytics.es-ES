@@ -4,7 +4,7 @@ title: Administración de medios
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 23%
@@ -21,7 +21,7 @@ Las siguientes opciones de administración de medios están disponibles al edita
 
 * [!UICONTROL **Informes de medios**]
 
-  Utilice estas casillas de verificación para habilitar dimensiones y métricas específicas de la recopilación de medios de streaming.
+  Utilice estas casillas para habilitar dimensiones y métricas específicas de los servicios de medios de streaming.
 
    * [Dimensiones principales de medios](/help/components/dimensions/sm-core.md)
    * [Métricas principales de medios](/help/components/metrics/sm-core.md)
@@ -38,6 +38,6 @@ Las siguientes opciones de administración de medios están disponibles al edita
 
 * [!UICONTROL **Clasificaciones de medios**]
 
-  Las clasificaciones específicas de las dimensiones de recopilación de medios de streaming están disponibles en la página [!UICONTROL Clasificaciones de medios]. Funcionan de manera similar a [Clasificaciones de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) disponibles para variables de conversión. Al habilitar ciertos componentes en [!UICONTROL Informes de medios], se crean automáticamente dimensiones de clasificación. Puede utilizar esta interfaz para crear sus propias dimensiones de clasificación o cargar datos de clasificación.
+  Las clasificaciones específicas de las dimensiones de los servicios de medios de streaming están disponibles en la página [!UICONTROL Clasificaciones de medios]. Funcionan de manera similar a [Clasificaciones de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) disponibles para variables de conversión. Al habilitar ciertos componentes en [!UICONTROL Informes de medios], se crean automáticamente dimensiones de clasificación. Puede utilizar esta interfaz para crear sus propias dimensiones de clasificación o cargar datos de clasificación.
 
-Para obtener información general sobre cómo incorporar datos de medios de transmisión en Adobe Analytics, consulte la [Guía de recopilación de medios de transmisión](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).
+Para obtener información general sobre cómo incorporar datos de medios de transmisión en Adobe Analytics, consulte [Introducción a los servicios de medios de transmisión de Adobe](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).

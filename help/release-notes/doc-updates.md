@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
-workflow-type: ht
-source-wordcount: '6505'
-ht-degree: 100%
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+workflow-type: tm+mt
+source-wordcount: '6506'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 Actualizaciones de contenido para la documentación de Adobe Analytics establecidas desde enero de 2019.
 
 * Para obtener información sobre [!UICONTROL Customer Journey Analytics], haga clic [aquí](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=es).
-* Para obtener información sobre la colección de medios de streaming, consulte [Medición de audio y vídeo en Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
+* Para obtener información acerca de los servicios multimedia de streaming de Adobe, consulte [Medición de audio y vídeo en Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=es).
 
 ## Detalles sobre las principales actualizaciones de la documentación
 
@@ -67,7 +67,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Documentación actualizada para administrar fuentes de datos | Se ha actualizado la información en [Administración de fuentes de datos](/help/export/analytics-data-feed/df-manage-feeds.md) para mejorar la claridad. <p>Las actualizaciones incluyen:</p><ul><li>Se han creado secciones independientes para diversas tareas con el fin de facilitar el análisis y el consumo de la información.</li><li>Se ha añadido información acerca de los cambios en el comportamiento de las fuentes activas que se reactivan. Estos cambios se encuentran actualmente en disponibilidad limitada y aún no están disponibles para todos los clientes.</li><li>Se añadió información para indicar que las fuentes de datos deben tener el estado Activo antes de poder eliminarse.</li> |
 | Mensajes de error comunes actualizados | Se han realizado actualizaciones menores de los [mensajes de error comunes](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Junio de 2024** | |
-| Se ha actualizado el nombre del producto que hace referencia a las funciones de medios de streaming | Se han reemplazado las instancias de “Media Analytics” y “Medios de streaming” por el nombre de “Colección de medios de streaming” al hacer referencia al conjunto de funciones de medios de streaming que recopilan datos de medios de streaming y los muestran en Analysis Workspace. <p>Estas actualizaciones están disponibles en toda la documentación de Adobe Analytics, así como en la [Documentación de la colección de medios de streaming](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).</p> |
+| Se ha actualizado el nombre del producto que hace referencia a las funciones de servicios de medios de streaming | Se han reemplazado las instancias de “Media Analytics” y “Medios de streaming” por el nombre de “Colección de medios de streaming” al hacer referencia al conjunto de funciones de medios de streaming que recopilan datos de medios de streaming y los muestran en Analysis Workspace. <p>Estas actualizaciones están disponibles en toda la documentación de Adobe Analytics, así como en la [Documentación de la colección de medios de streaming](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).</p> |
 | Documentación sobre alertas mejorada | Se ha actualizado y mejorado la documentación sobre alertas. Estas actualizaciones incluyen información sobre la [creación de alertas](/help/components/c-alerts/alert-builder.md), la [administración de alertas](/help/components/c-alerts/alert-manager.md), e [información general](/help/components/c-alerts/intellligent-alerts.md). |
 | Obsoleto `cookieDomainPeriods` | Ahora que el AppMeasurement detecta automáticamente el dominio correcto en el que se configurarán las cookies, la variable [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) está obsoleta. |
 | Retirar documentación de Data Connectors | Se ha movido la página de finalización de la vida útil de Data Connectors a [Productos discontinuados](https://experienceleague.adobe.com/es/docs/discontinued/using/data-connectors). |
@@ -76,7 +76,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Documentación sobre la adición de componentes a proyectos | Se ha añadido información general sobre cómo [añadir distintos tipos de componentes a los proyectos en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Documentación actualizada de Advertising Analytics | Documentación actualizada en línea con las actualizaciones realizadas en la interfaz de usuario de [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md). |
 | Asignación explícita de variables de objeto XDM a variables de datos de contexto | Se ha documentado la capacidad en [establecer explícitamente variables de datos de contexto mediante la asignación de variables de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
-| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Se ha actualizado la documentación sobre intervalos de fechas personalizados | Capturas de pantalla y procedimientos actualizados relacionados con la [creación de intervalos de fechas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) para que coincida con las características y el diseño actuales del producto. |
 | **Abril de 2024** | |
 | Se ha eliminado la documentación relacionada con “Propietario” en los conjuntos de clasificación | El filtro “Propietario” y la columna se han eliminado del [Administrador de conjuntos de clasificación](/help/components/classifications/sets/manage/set-manager.md) y el campo “Propietario” se ha eliminado de [Configuración del conjunto de clasificación](/help/components/classifications/sets/manage/settings.md). <p>La documentación se ha actualizado para quitar este filtro, columna y campo.</p> |

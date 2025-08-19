@@ -3,18 +3,18 @@ title: Dimensiones del capítulo de medios de streaming
 description: Dimensiones disponibles al habilitar [!UICONTROL Capítulos multimedia] para un grupo de informes.
 feature: Dimensions
 exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 14%
+source-wordcount: '193'
+ht-degree: 13%
 
 ---
 
-# Dimensiones del capítulo de medios de streaming
+# Dimensiones del capítulo de servicios de medios de streaming
 
-*Esta página describe las dimensiones disponibles cuando se habilitan [!UICONTROL Capítulos multimedia] para un grupo de informes. Consulte [Métricas del capítulo de medios de streaming](../metrics/sm-chapters.md) para ver las métricas disponibles*.
+*Esta página describe las dimensiones disponibles cuando se habilitan [!UICONTROL Capítulos multimedia] para un grupo de informes. Consulte [Métricas del capítulo de servicios de medios de streaming](../metrics/sm-chapters.md) para ver las métricas disponibles.*
 
-Las dimensiones del capítulo medios de streaming proporcionan una funcionalidad de creación de informes suplementaria para la recopilación de datos a través de las bibliotecas de recopilación de medios de streaming. El uso de estas dimensiones requiere la **[!UICONTROL recopilación de medios de streaming de Adobe]**. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
+Las dimensiones del capítulo de los servicios de medios de streaming proporcionan una funcionalidad de creación de informes suplementaria para la recopilación de datos a través de las bibliotecas de los servicios de medios de streaming. El uso de estas dimensiones requiere el **[!UICONTROL complemento de Adobe Analytics para medios de streaming]**. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
 
 Cuando habilita **[!UICONTROL Capítulos multimedia]** en [Informes multimedia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), está disponible la siguiente dimensión:
 

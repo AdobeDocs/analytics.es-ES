@@ -4,10 +4,10 @@ description: Aprenda a utilizar e interpretar el panel Tiempo invertido en la re
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 98%
+source-wordcount: '1167'
+ht-degree: 90%
 
 ---
 
@@ -34,22 +34,23 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Tiempo invertido en la reproducción de contenido en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Panel de tiempo invertido en la reproducción de contenido](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)) para la versión de_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel Tiempo invertido en la reproducción de contenido en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Panel de tiempo invertido en la reproducción de contenido](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)) para la versión de_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->El panel Audiencia media por minuto de medios solo está disponible para los clientes que han adquirido el complemento Recopilación de medios de streaming para Adobe Analytics.
->&#x200B;>Póngase en contacto con el representante de ventas de Adobe o con el equipo de cuentas de Adobe para obtener más información.
+>El panel Audiencia media por minuto de medios solo está disponible para los clientes que han adquirido el complemento de Adobe Analytics para medios de streaming.
+>
+>Póngase en contacto con su representante de ventas de Adobe o con el equipo de cuentas de Adobe para obtener más información.
 >
 
 El panel **[!UICONTROL Tiempo invertido en la reproducción de medios]** permite analizar la reproducción a lo largo del tiempo, con detalles sobre los picos de simultaneidad y la posibilidad de realizar desgloses y comparaciones. 
 
 En Analysis Workspace, el tiempo invertido en la reproducción es la cantidad de tiempo empleado en visualizar las transmisiones de medios en un momento determinado. Incluye pausa, búfer y el tiempo para el inicio.
 
-Los clientes que hayan adquirido el complemento de recopilación de medios de streaming pueden analizar el tiempo invertido en la reproducción para obtener un valioso conocimiento de la calidad del contenido y la participación del visualizador. Y para ayudar a solucionar problemas o a planificar el volumen o la escala.
+Los clientes que hayan adquirido el complemento de Adobe Analytics para medios de streaming pueden analizar el tiempo invertido en la reproducción para obtener un valioso insight en la calidad del contenido y en la participación del visualizador. Y para ayudar a solucionar problemas o a planificar el volumen o la escala.
 
 El tiempo invertido en la reproducción puede ayudarle a conocer lo siguiente:
 
@@ -69,7 +70,7 @@ Para usar un panel **[!UICONTROL Tiempo invertido en la reproducción de medios]
 
 1. Cree un panel **[!UICONTROL Tiempo invertido en la reproducción de medios]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
 
-1. Asegúrese de seleccionar una vista de datos para el panel que tenga componentes configurados de la colección de medios de streaming.
+1. Asegúrese de seleccionar una vista de datos para el panel que tenga componentes configurados del complemento de Adobe Analytics para medios de streaming.
 
 1. Especifica la [entrada](#panel-input) para el panel.
 
@@ -87,7 +88,7 @@ Puede configurar el panel Tiempo invertido en la reproducción de contenido con 
 | Números de resumen del panel | Para ver los detalles de fecha y hora del tiempo invertido en la reproducción, hay disponible un número de resumen. El Máximo muestra detalles para la concurrencia máxima. El Mínimo muestra los detalles de la emisión. Suma recoge el tiempo total de reproducción invertido para la selección. El panel predeterminado muestra Máximo solamente, pero puede cambiarlo para mostrar Mínimo, Suma o cualquier combinación de los tres.<br>Si utiliza desgloses, se muestra un número de resumen para cada uno. |
 | Desglose de serie | De forma opcional, puede desglosar la visualización por filtros, dimensiones, elementos de dimensión o intervalos de fechas.<p>: Puede ver hasta 10 líneas a la vez. Los desgloses se limitan a un solo nivel.</p><p>- Al arrastrar una dimensión, los elementos de dimensión principales se seleccionarán automáticamente en función del intervalo de fechas del panel seleccionado.</p>: Para comparar intervalos de fechas, arrastre 2 o más intervalos de fechas al filtro de desglose de series. |
 | Formato de hora | Puede ver el tiempo de reproducción transcurrido en `Hours:Minutes:Seconds` (valor predeterminado) o en `Minutes` (que se muestra en números enteros redondeados a 0,5). |
-| Visualización de la secuencia de fechas | Si ha colocado al menos dos filtros de intervalo de fechas como desgloses de serie, aparecerá la opción para seleccionar la superposición (predeterminada) o secuencial. La superposición mostrará las líneas con un inicio común del eje x para que se ejecuten en paralelo, mientras que la secuencial mostrará las líneas con su inicio específico del eje x. Si los datos se alinean (por ejemplo, el segmento 1 termina a las 20:44 horas y el segmento 2 comienza a las 20:45 horas), las líneas se mostrarán en secuencia. |
+| Visualización de la secuencia de fechas | Si ha colocado al menos dos filtros de intervalo de fechas como desgloses de serie, aparecerá la opción para seleccionar la superposición (predeterminada) o secuencial. La superposición mostrará las líneas con un inicio común del eje x para que se ejecuten en paralelo, mientras que la secuencial mostrará las líneas con su inicio específico del eje x. Si los datos se alinean (por ejemplo, el filtro 1 termina a las 8:44 pm y el filtro 2 comienza a las 8:45 pm), las líneas se mostrarán en secuencia. |
 
 
 ![Vista predeterminada del tiempo invertido en el manual de tácticas de medios.](assets/mpts_default_view.png)
@@ -125,8 +126,8 @@ La única métrica que se puede usar en este panel es Tiempo invertido en la rep
 >[!MORELIKETHIS]
 >
 >[Crear un panel](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Panel Audiencia media por minuto de medios](average-minute-audience-panel.md)
->&#x200B;>[Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
+>>[Panel Audiencia media por minuto de medios](average-minute-audience-panel.md)
+>>[Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
 >
 
 <!--
