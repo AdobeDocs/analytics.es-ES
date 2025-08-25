@@ -4,10 +4,10 @@ title: Totales
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 81%
+source-wordcount: '496'
+ht-degree: 78%
 
 ---
 
@@ -33,7 +33,7 @@ En las tablas de forma libre, aparece una fila total en cada nivel de desglose y
 En ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración de columna]** hay opciones para **[!UICONTROL Mostrar totales]** y **[!UICONTROL Mostrar total general]**. Si esta configuración no está activada, los totales se eliminarán de la tabla, lo que puede ser útil en los casos en los que los totales no tengan sentido.
 
 
-Los totales de [Filas estáticas](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) se comportan de forma diferente y se controlan mediante ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración de la fila]**.
+En una tabla de forma libre que contiene [filas estáticas](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md), los totales se comportan de manera diferente. Y se controlan usando ![Setting](/help/assets/icons/Setting.svg) **[!UICONTROL Configuración de fila]**.
 
 | Opción | Descripción |
 |---|---|
