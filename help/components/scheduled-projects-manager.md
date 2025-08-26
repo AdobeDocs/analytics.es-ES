@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo administrar proyectos programados.
 title: Proyectos programados
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '795'
 ht-degree: 41%
 
 ---
@@ -59,7 +59,7 @@ Las siguientes son acciones comunes en el administrador de proyectos programados
 | Icono | Acción | Descripción |
 |:---:|---|---|
 | ![Cerrar](/help/assets/icons/Close.svg) | **[!UICONTROL *x *seleccionada]** | Seleccione para anular la selección de los proyectos programados seleccionados. |
-| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar los proyectos programados seleccionados para el proyecto; los proyectos no se eliminan. |
+| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar los proyectos programados seleccionados para el proyecto; los proyectos no se eliminan. <p>Para obtener información sobre cómo eliminar un proyecto, consulte [Resumen de proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).</p> |
 | ![Etiquetas](/help/assets/icons/Labels.svg) | **[!UICONTROL Etiqueta]** | Etiquete los proyectos programados seleccionados. En **[!UICONTROL Etiquetar proyectos programados]**, seleccione las etiquetas y seleccione **[!UICONTROL Guardar]** para guardar. |
 | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Aprobar]** | Apruebe los proyectos programados seleccionados. |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar a CSV]** | Exportar los proyectos programados seleccionados a un archivo denominado `Export Scheduled Projects List.csv`. |
