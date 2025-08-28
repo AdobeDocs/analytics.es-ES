@@ -4,14 +4,14 @@ description: Habilite o deshabilite el seguimiento automático de vínculos para
 feature: Appmeasurement Implementation
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 59%
+source-wordcount: '336'
+ht-degree: 50%
 
 ---
 
-# trackDownLoadLinks
+# trackDownloadLinks
 
 Adobe ofrece la posibilidad de rastrear los vínculos de descarga sin configurar manualmente el método [`tl()`](../functions/tl-method.md) para cada vínculo de descarga. Active esta variable si desea utilizar el seguimiento automático de vínculos para los vínculos de descarga.
 
@@ -28,7 +28,7 @@ Utilice la casilla de verificación [!UICONTROL Habilitar la recopilación de da
 
 ## Habilitar o deshabilitar la recopilación de clics manualmente al implementar Web SDK
 
-Configure SDK usando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=es#clickCollectionEnabled). El campo es un booleano que determina si los datos asociados con los clics en vínculos se recopilan automáticamente. Su valor predeterminado es `true`. Establezca este valor en `false` si desea deshabilitar el seguimiento automático de vínculos. Esta configuración administra el seguimiento automático de vínculos tanto para los vínculos de descarga como de salida.
+Configure SDK usando [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). El campo es un booleano que determina si los datos asociados con los clics en vínculos se recopilan automáticamente. Su valor predeterminado es `true`. Establezca este valor en `false` si desea deshabilitar el seguimiento automático de vínculos. Esta configuración administra el seguimiento automático de vínculos tanto para los vínculos de descarga como de salida.
 
 ```json
 alloy("configure", {
@@ -49,7 +49,7 @@ Haga clic en la casilla de verificación para habilitar el seguimiento automáti
 
 ## s.trackDownloadLinks en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
-El `s.trackDownloadLinks` es un booleano que habilita o deshabilita el seguimiento automático de vínculos de descarga. Si no desea rastrear los vínculos de descarga o prefiere llamar manualmente al método `tl()` para rastrear las descargas, establezca esta variable como `false`.
+El `s.trackDownloadLinks` es un booleano que habilita o deshabilita el seguimiento automático de vínculos de descarga. Si no desea rastrear los vínculos de descarga o prefiere llamar manualmente al método `tl()` para realizar el seguimiento de las descargas, establezca esta variable como `false`. La variable [linkDownloadFileTypes](linkdownloadfiletypes.md) también debe estar configurada para que funcione el seguimiento automático de vínculos de descarga.
 
 ```js
 s.trackDownloadLinks = true;
