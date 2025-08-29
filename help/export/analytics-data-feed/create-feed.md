@@ -3,9 +3,9 @@ title: Crear una fuente de datos
 description: Obtenga información sobre cómo crear una fuente de datos y sobre la información de archivo que se va a proporcionar a Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '4129'
+source-wordcount: '4128'
 ht-degree: 53%
 
 ---
@@ -33,7 +33,7 @@ Antes de crear una fuente de datos, es importante tener una comprensión básica
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Nombre**] | Nombre de la fuente de datos. Debe ser único dentro del grupo de informes seleccionado y puede tener hasta 255 caracteres de longitud. |
+   | [!UICONTROL **Nombre**] | Nombre de la fuente de datos. Debe ser único dentro del grupo de informes seleccionado y puede tener hasta 255 caracteres de longitud. [Más información](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
    | [!UICONTROL **Grupo de informes**] | Grupo de informes en el que se basa la fuente de datos. Si se crean varias fuentes de datos para el mismo grupo de informes, deben tener definiciones de columnas diferentes. Solo los grupos de informes de origen admiten fuentes de datos, no se admiten los grupos de informes virtuales. |
    | [!UICONTROL **Enviar correo electrónico al finalizar**] | La dirección de correo electrónico que se notificará cuando una fuente termine de procesarse. La dirección de correo electrónico debe tener el formato correcto. |
    | [!UICONTROL **Intervalo de fuente**] | Seleccione **Diario** para datos históricos o de relleno. Las fuentes diarias contienen datos de un día completo, de medianoche a medianoche en el huso horario del grupo de informes. Seleccione **Cada hora** para continuar los datos (Diariamente también está disponible para continuar las fuentes, si lo prefiere). Las fuentes por hora contienen datos de una sola hora. |

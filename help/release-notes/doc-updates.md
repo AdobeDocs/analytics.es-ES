@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
-workflow-type: ht
-source-wordcount: '6506'
-ht-degree: 100%
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+workflow-type: tm+mt
+source-wordcount: '6520'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Agosto de 2025** | |
+| Los nombres de las fuentes de datos deben ser únicos | Se ha aclarado por qué [los nombres de las fuentes de datos deben ser únicos](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique). |
 | Advertencias de caducidad | Se han agregado advertencias de caducidad a los artículos de las secciones [Clasificación del generador de reglas](/help/components/classifications/crb/classification-rule-builder.md) e [Importador de clasificaciones](/help/components/classifications/importer/c-working-with-saint.md). |
 | **Julio de 2025** | |
 | Reglas de procesamiento | La documentación de las reglas de procesamiento se ha rehecho completamente, proporcionando más detalles sobre la interfaz y los casos de uso actuales. |
@@ -76,7 +77,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Documentación sobre la adición de componentes a proyectos | Se ha añadido información general sobre cómo [añadir distintos tipos de componentes a los proyectos en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Documentación actualizada de Advertising Analytics | Documentación actualizada en línea con las actualizaciones realizadas en la interfaz de usuario de [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md). |
 | Asignación explícita de variables de objeto XDM a variables de datos de contexto | Se ha documentado la capacidad en [establecer explícitamente variables de datos de contexto mediante la asignación de variables de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
-| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Se ha actualizado la documentación sobre intervalos de fechas personalizados | Capturas de pantalla y procedimientos actualizados relacionados con la [creación de intervalos de fechas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) para que coincida con las características y el diseño actuales del producto. |
 | **Abril de 2024** | |
 | Se ha eliminado la documentación relacionada con “Propietario” en los conjuntos de clasificación | El filtro “Propietario” y la columna se han eliminado del [Administrador de conjuntos de clasificación](/help/components/classifications/sets/manage/set-manager.md) y el campo “Propietario” se ha eliminado de [Configuración del conjunto de clasificación](/help/components/classifications/sets/manage/settings.md). <p>La documentación se ha actualizado para quitar este filtro, columna y campo.</p> |

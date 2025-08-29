@@ -4,10 +4,10 @@ keywords: Fuente de datos, trabajo, columna previa, columna posterior, distinci�
 title: Preguntas frecuentes sobre fuentes de datos
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 98%
+source-wordcount: '1463'
+ht-degree: 84%
 
 ---
 
@@ -17,9 +17,19 @@ Preguntas frecuentes sobre las fuentes de datos.
 
 ## ¿Deben ser únicos los nombres de las fuentes? {#unique}
 
-Los nombres de los archivos de fuente de datos se componen del ID del grupo de informes y de la fecha. Si dos fuentes están configuradas para el mismo RSID y la misma fecha, tendrán el mismo nombre de archivo. Si esas fuentes se entregan en la misma ubicación, los archivos se sobrescribirán entre sí. Para impedirlo, evite crear fuentes que puedan sobrescribir otras que ya existan en la misma ubicación.
+Adobe Analytics no evita que se sobrescriban los archivos de fuente de datos.
 
-Cuando intente crear una fuente con el mismo nombre de archivo que otra, recibirá un mensaje de error. Considere las siguientes soluciones:
+Para evitar que se sobrescriban los archivos de fuente de datos, se recomienda que todos los archivos de fuente de datos que se envíen a la misma ubicación tengan nombres de archivo únicos.
+
+Los nombres de los archivos de fuentes de datos están formados por las siguientes características de fuentes de datos:
+
+* ID de grupo de informes (RSID)
+
+* Fecha de exportación
+
+Si dos fuentes están configuradas para el mismo ID de grupo de informes y la misma fecha, tendrán el mismo nombre de archivo. Si esas fuentes se entregan en la misma ubicación, los archivos se sobrescriben entre sí.
+
+Para evitar la sobrescritura de un archivo, considere las siguientes soluciones:
 
 * Cambiar la ruta de entrega
 * Cambiar las fechas si es posible
@@ -67,11 +77,11 @@ Ejemplo: Se crea una nueva fuente de datos el 9 de marzo de 2021 y los datos del
 
 ## ¿Cuál es el impacto del horario de verano en las fuentes de datos por hora? {#dst}
 
-En determinadas zonas horarias, la hora cambia dos veces al año debido a las definiciones del horario de verano (DST). Las fuentes de datos respetan la zona horaria que se ha tomado como referencia para configurar el grupo de informes. Si la zona horaria del grupo de informes no utiliza DST, la entrega de archivos seguirá su curso como cualquier otro día. Si la zona horaria del grupo de informes sí utiliza DST, la entrega de archivos se verá modificada en la hora en la que se produzca el cambio de horario (normalmente a las 2 de la madrugada).
+En determinadas zonas horarias, la hora cambia dos veces al año debido a las definiciones del horario de verano (DST). Las fuentes de datos respetan la zona horaria que se ha tomado como referencia para configurar el grupo de informes. Si la zona horaria del grupo de informes no utiliza DST, la entrega de archivos seguirá su curso como cualquier otro día. Si la zona horaria del grupo de informes sí utiliza DST, la entrega de archivos se verá modificada en la hora en la que se produzca el cambio de horario (normalmente a las 2:00 de la mañana).
 
-Cuando se realice la transición de STD a DST (cambio de hora estacional), el cliente solo recibirá 23 archivos. La hora que se salta en la transición a DST se omite sin más. Por ejemplo, si la transición se produce a las 2 de la madrugada, el cliente recibirá un archivo correspondiente a la 1 y un archivo correspondiente a las 3. No habrá archivo para las 2, porque las 2 STD se convierten en las 3 DST.
+Cuando se realice la transición de STD a DST (cambio de hora estacional), el cliente solo recibirá 23 archivos. La hora que se salta en la transición a DST se omite sin más. Por ejemplo, si la transición se produce a las 2 de la madrugada, recibirá un archivo correspondiente a la hora 1:00 y un archivo correspondiente a la hora 3:00. No hay ningún archivo de 2:00 porque, en 2:00 STD, se convierte en 3:00 DST.
 
-Cuando se realice la transición de DST a STD, el cliente recibirá 24 archivos. Sin embargo, la hora de transición en realidad incluirá datos correspondientes a dos horas. Por ejemplo, si la transición se produce a las 2 de la madrugada, el archivo de la 1 se retrasará una hora, pero incluirá datos de dos horas. Incluirá datos entre la 1 DST y las 2 STD (que habrían sido las 3 DST). El siguiente archivo comienza a las 2 STD.
+Cuando se realice la transición de DST a STD, el cliente recibirá 24 archivos. Sin embargo, la hora de transición en realidad incluirá datos correspondientes a dos horas. Por ejemplo, si la transición se produce a las 2:00 a. m., el archivo de 1:00 se retrasará una hora, pero incluirá datos de dos horas. Contiene datos de 1:00 DST a 2:00 STD (que habrían sido 3:00 DST). El siguiente archivo comienza en 2:00 STD.
 
 ## ¿Cómo gestiona Analytics los errores de transferencia de FTP? {#ftp-failure}
 
