@@ -4,10 +4,10 @@ title: Descripción general de Activity Map
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: dee8f0a13a159f4c7902d2ccddd8848c4016b471
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 5%
+source-wordcount: '605'
+ht-degree: 4%
 
 ---
 
@@ -15,15 +15,16 @@ ht-degree: 5%
 
 Activity Map es una funcionalidad de Adobe Analytics que proporciona una representación visual de la participación del usuario en páginas web y aplicaciones móviles. Permite a los especialistas en marketing y a los analistas realizar un seguimiento y analizar las interacciones del usuario, como los clics y el comportamiento de desplazamiento. Activity Map genera mapas de calor e informes de superposición que muestran los elementos más populares de una página web, lo que le ayuda a optimizar sus experiencias digitales.
 
-Esta sección de la documentación de se centra en la superposición de Activity Map. Sin embargo, el uso de Activity Map tiene otras partes importantes:
+Activity Map como concepto consta de varios componentes importantes:
 
-* **Configuración del grupo de informes**: un grupo de informes debe tener Activity Map habilitado. Consulte [Informes de Activity Map](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md) en la configuración del grupo de informes.
+* **Configuración del grupo de informes**: un grupo de informes debe tener Activity Map habilitado para que pueda empezar a utilizarlo. Consulte [Informes de Activity Map](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md) en la configuración del grupo de informes.
 * **Implementación**: La mayoría de los informes de Activity Map están disponibles de forma predeterminada. Sin embargo, algunos sitios web pueden requerir una implementación adicional para aprovechar al máximo el seguimiento de vínculos. Las siguientes variables de implementación están disponibles:
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md): filtrar datos de clics por nombre de vínculo.
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md): filtrar datos de clics por nombre de región.
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): cambie el atributo que rellena la dimensión Región de Activity Map.
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): personalice la lógica que utiliza Activity Map para rellenar la dimensión Vínculo de Activity Map.
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): personalice la lógica que utiliza Activity Map para rellenar la dimensión Región de Activity Map.
+* **Superposición**: Una extensión del explorador que le permite ver datos de clics superpuestos en el sitio web. Consulte [Interfaz de extensión de Activity Map](overlay/overview.md) para obtener más información.
 * **Dimensiones**: Además de la extensión de superposición, Activity Map proporciona varias dimensiones que puede usar en Analysis Workspace.
    * [Vínculo de Activity Map](/help/components/dimensions/activity-map-link.md): El nombre del vínculo donde se hizo clic.
    * [Región de Activity Map](/help/components/dimensions/activity-map-region.md): El nombre de región donde se hizo clic.

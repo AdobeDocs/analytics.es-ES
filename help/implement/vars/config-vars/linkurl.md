@@ -4,10 +4,10 @@ description: Omitir la URL del vínculo generado automáticamente que AppMeasure
 feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 37%
+source-wordcount: '204'
+ht-degree: 34%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 37%
 
 Cada vez que se envía una llamada de seguimiento de vínculos a Adobe, AppMeasurement detecta la dirección URL en la que se hizo clic. Esta dirección URL ayuda a determinar el tipo de vínculo, como los vínculos de descarga y de salida. Utilice la variable `linkURL` para anular la dirección URL detectada.
 
-No hay dimensiones en Analysis Workspace que informen sobre esta variable. Rellena la columna `page_event_var1` en [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md). Si desea rastrear la dirección URL de un vínculo en el que se hizo clic, Adobe recomienda usar una variable personalizada, como [Prop](../page-vars/prop.md).
+No hay dimensiones en Analysis Workspace que informen sobre esta variable. Rellena la columna `page_event_var1` en [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md). Si desea rastrear la dirección URL de un vínculo en el que se hizo clic, Adobe recomienda usar una variable personalizada, como [Prop](../page-vars/prop.md). El uso de [Activity Map](/help/analyze/activity-map/overview.md) puede ayudar a optimizar la recopilación de datos para los vínculos en los que se hizo clic.
 
 ## Vincular URL mediante Web SDK
 
