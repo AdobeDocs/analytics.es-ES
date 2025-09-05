@@ -63,4 +63,4 @@ Si todavía no tiene un modelo de atribución que proporcione respuestas satisfa
 
 * Es posible que necesite utilizar los servicios de un científico de datos en lugar de depender solo de Analysis Workspace.
 * Puede confiar en los datos sin procesar, como en las fuentes de datos de Adobe.
-* Considere utilizar [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), por ejemplo, si quiere tener en cuenta los datos de sus impresiones.
+* Considere utilizar [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), por ejemplo, si quiere tener en cuenta los datos de sus impresiones.

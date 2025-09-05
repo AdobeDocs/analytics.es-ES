@@ -16,7 +16,7 @@ ht-degree: 54%
 
 Los eventos de éxito (también conocidos como eventos de conversión o eventos personalizados) son acciones de las que se puede realizar un seguimiento. Usted determina lo que es un evento de éxito. Por ejemplo, si un visitante compra un artículo, el evento de compra podría considerarse un evento de éxito.
 
-Para ver un vídeo de información general sobre los eventos de éxito, consulte [Introducción a los eventos de conversión](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) en la guía de tutoriales de Analytics.
+Para ver un vídeo de información general sobre los eventos de éxito, consulte [Introducción a los eventos de conversión](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) en la guía de tutoriales de Analytics.
 
 ## Ejemplos de eventos de éxito
 
