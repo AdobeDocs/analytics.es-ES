@@ -4,9 +4,9 @@ description: Revise la implementación cada 6 meses para garantizar una alineaci
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '382'
 ht-degree: 80%
 
 ---
@@ -15,19 +15,19 @@ ht-degree: 80%
 
 ¿Por qué debería revisar su implementación cada 6 meses? Porque debe asegurarse de que la implementación está siempre alineada con las necesidades de su empresa. También le interesa abordar los problemas relacionados con la calidad de los datos mientras son pequeños y antes de que se conviertan en problemas de datos importantes que podrían afectar negativamente a la confianza de las partes interesadas. Además de estas revisiones completas cada 6 meses, también debe realizar [revisiones específicas](/help/implement/review/focused-review.md) después de cada lanzamiento de sitio web.
 
-## 1. Asegúrese de que su implementación sigue estando totalmente alineada con nuestras necesidades empresariales
+## &#x200B;1. Asegúrese de que su implementación sigue estando totalmente alineada con nuestras necesidades empresariales
 
 Reúnase con el propietario de la empresa y/o los analistas para revisar los cambios en las necesidades empresariales. Averigüe cómo actualizar los KPI y los planes de medición en caso de que su implementación no satisfaga alguna necesidad u oportunidad de medición. Recuerde registrar los cambios en su [BRD y SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=es#implementation).
 
-## 2. Asegúrese de que sus métricas y variables siguen funcionando correctamente
+## &#x200B;2. Asegúrese de que sus métricas y variables siguen funcionando correctamente
 
-Revise brevemente todas sus métricas y variables, en orden de importancia para la empresa, para asegurarse de que los datos se estén recopilando correctamente. Comience con las métricas y variables de mayor importancia: las asociadas con los [5 KPI principales](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=es#review). Para ello:
+Revise brevemente todas sus métricas y variables, en orden de importancia para la empresa, para asegurarse de que los datos se estén recopilando correctamente. Comience con las métricas y variables de mayor importancia: las asociadas con los [5 KPI principales](/help/implement/review/define-kpis.md#review). Para ello:
 
-* Cree paneles para ver las vistas de tendencias mensuales de sus métricas y variables (o configure [alertas](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=es) para cada una) para asegurarse de obtener los datos que espera y de que los datos sean correctos. Si encuentra alguna discrepancia, examine la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar el motivo.
-* Vuelva a ejecutar el [Panel de mantenimiento de Analytics](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c) para monitorizar las tendencias generales de las métricas y variables.
+* Cree paneles para ver las vistas de tendencias mensuales de sus métricas y variables (o configure [alertas](/help/components/alerts/alerts-overview.md) para cada una) para asegurarse de obtener los datos que espera y de que los datos sean correctos. Si encuentra alguna discrepancia, examine la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar el motivo.
+* Vuelva a ejecutar el [Panel de control de mantenimiento de Analytics](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c) para monitorizar las tendencias generales de las métricas y variables.
 
 No permita que la implementación se llene de métricas y variables que no necesita. Deshabilite las métricas o variables que la empresa ya no necesite ni utilice. Puede que desee eliminarlas o volver a utilizarlas más adelante.
 
-## 3. Actualice los KPI
+## &#x200B;3. Actualice los KPI
 
 Ahora que tiene una vista actualizada de los objetivos empresariales, vuelva a comprobar si realmente ha elegido los 5 indicadores clave de rendimiento (KPI) *más* importantes. Solo puede tener 5. Estos KPI pueden ser métricas como, por ejemplo, ingresos, o métricas calculadas, como, por ejemplo, ingresos por visita, y las métricas también pueden tener variables. Consulte [Definición de los 5 KPI principales](/help/implement/review/define-kpis.md) para obtener más información.

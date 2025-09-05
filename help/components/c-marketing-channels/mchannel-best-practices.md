@@ -3,9 +3,9 @@ title: Prácticas recomendadas para implementar canales de marketing de Adobe An
 description: Prácticas recomendadas actualizadas para usar los canales de marketing con Attribution y Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '587'
 ht-degree: 97%
 
 ---
@@ -28,13 +28,13 @@ Recomendamos utilizar [Attribution](/help/analyze/analysis-workspace/attribution
 
 * La configuración de las dimensiones de canal de marketing y detalle del canal de marketing establece puntos de contacto que se deben evaluar, correspondientes a cada instancia del canal de marketing.
 * Para el análisis de métricas, su organización debe alinearse en uno o más modelos de atribución. Guarde las métricas personalizadas con este modelo para facilitar su reutilización.
-* De forma predeterminada, los datos se asignan mediante el último contacto y la configuración del período de participación del visitante. Los modelos de métricas de Attribution ofrecen un buen control sobre las ventanas de retrospectiva y más variedad, incluida la [atribución algorítmica](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=es#analysis-workspace).
+* De forma predeterminada, los datos se asignan mediante el último contacto y la configuración del período de participación del visitante. Los modelos de métricas de Attribution ofrecen un buen control sobre las ventanas de retrospectiva y más variedad, incluida la [atribución algorítmica](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace).
 
 ## Práctica recomendada n.º 2: Sin definiciones de canal de actualización directa y de sesión
 
 No se recomiendan los canales de actualización directa e interna/de sesión para su uso con modelos de atribución personalizados.
 
-¿Qué sucede si su organización ya tiene configurada la actualización directa y de sesión? En este caso, le recomendamos que [cree una clasificación](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md) para el primer contacto/último contacto y deje los canales de actualización directa y de sesión sin clasificar. La dimensión clasificada arrojará los mismos resultados de Attribution que si esos canales nunca se hubieran configurado.
+¿Qué sucede si su organización ya tiene configurada la actualización directa y de sesión? En este caso, le recomendamos que [cree una clasificación](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) para el primer contacto/último contacto y deje los canales de actualización directa y de sesión sin clasificar. La dimensión clasificada arrojará los mismos resultados de Attribution que si esos canales nunca se hubieran configurado.
 
 ![](assets/direct-session-refresh.png)
 

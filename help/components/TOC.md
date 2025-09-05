@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: edc64aeef6eb987c5533f6a14d95aca6ff29a467
 workflow-type: tm+mt
 source-wordcount: '759'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # [!DNL Adobe Analytics] Guía de componentes {#components}
 
 + [Guía de componentes de Analytics](home.md)
-+ [Notas de la versión de Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
++ [Notas de la versión de Analytics](https://experienceleague.adobe.com/es/docs/analytics/release-notes/latest)
 + Dimensiones {#dimensions}
    + [Información general sobre las dimensiones](dimensions/overview.md)
    + [Compatibilidad de dimensiones](dimensions/compatibility.md)
@@ -204,34 +204,34 @@ ht-degree: 97%
    + [Preguntas frecuentes sobre segmentos heredados](segmentation/seg-transition.md)
    + [Prácticas recomendadas](segmentation/best-practices.md)
 + Métricas calculadas  {#calculated-metrics}
-   + [Información general](c-calcmetrics/cm-overview.md)
-   + [Vídeotutoriales](c-calcmetrics/cm-videos.md)
+   + [Información general](calculated-metrics/cm-overview.md)
+   + [Vídeotutoriales](calculated-metrics/cm-videos.md)
    + Flujo de trabajo {#calcmetric-workflow}
-      + [Crear métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
-      + [Buscar métricas](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [Crear métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Un ejemplo sencillo](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Un ejemplo más complejo](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Tipo de métrica y atribución](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [Métricas de participación](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [Métricas segmentadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
-      + [Apilar y sustituir segmentos](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
-      + [Métricas filtradas y ponderadas](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [Uso de funciones](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [Etiquetar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
-      + [Filtrar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [Marcar métricas calculadas como favoritas](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
-      + [Aprobar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
-      + [Compartir métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [Copiar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
-      + [Administrar métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [Crear métricas calculadas](calculated-metrics/workflow/cm-workflow.md)
+      + [Buscar métricas](calculated-metrics/workflow/cm-finding.md)
+      + [Crear métricas calculadas](calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+      + [Un ejemplo sencillo](calculated-metrics/workflow/c-build-metrics/cm-pvv.md)
+      + [Un ejemplo más complejo](calculated-metrics/workflow/c-build-metrics/cm-orders-participation.md)
+      + [Tipo de métrica y atribución](calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [Métricas de participación](calculated-metrics/workflow/c-build-metrics/participation-metric.md)
+      + [Métricas segmentadas](calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)
+      + [Apilar y sustituir segmentos](calculated-metrics/workflow/c-build-metrics/cm-stack-seg.md)
+      + [Métricas filtradas y ponderadas](calculated-metrics/workflow/c-build-metrics/cm-weighted-metric.md)
+      + [Uso de funciones](calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
+      + [Etiquetar métricas calculadas](calculated-metrics/workflow/cm-tagging.md)
+      + [Filtrar métricas calculadas](calculated-metrics/workflow/cm-filter.md)
+      + [Marcar métricas calculadas como favoritas](calculated-metrics/workflow/cm-favorite.md)
+      + [Aprobar métricas calculadas](calculated-metrics/workflow/cm-approving.md)
+      + [Compartir métricas calculadas](calculated-metrics/workflow/cm-sharing.md)
+      + [Copiar métricas calculadas](calculated-metrics/workflow/cm-copy.md)
+      + [Administrar métricas calculadas](calculated-metrics/workflow/cm-manager.md)
    + Referencia {#calcmetrics-reference}
-      + [Funciones básicas](c-calcmetrics/cm-reference/cm-functions.md)
-      + [Funciones avanzadas](c-calcmetrics/cm-reference/cm-adv-functions.md)
-      + [Compatibilidad de métricas](c-calcmetrics/cm-compatibility.md)
-      + [Derechos basados en funciones](c-calcmetrics/cm-role-based-rights.md)
-      + [Totales de métricas calculadas](c-calcmetrics/cm-totals.md)
-      + [Métricas calculadas predeterminadas](c-calcmetrics/cm-reference/default-calcmetrics.md)
+      + [Funciones básicas](calculated-metrics/cm-reference/cm-functions.md)
+      + [Funciones avanzadas](calculated-metrics/cm-reference/cm-adv-functions.md)
+      + [Compatibilidad de métricas](calculated-metrics/cm-compatibility.md)
+      + [Derechos basados en funciones](calculated-metrics/cm-role-based-rights.md)
+      + [Totales de métricas calculadas](calculated-metrics/cm-totals.md)
+      + [Métricas calculadas predeterminadas](calculated-metrics/cm-reference/default-calcmetrics.md)
 + Grupos de informes virtuales {#virtual-report-suites}
    + [Resumen de los grupos de informes virtuales](vrs/vrs-about.md)
    + [Revisión de componentes de grupo de informes virtuales](vrs/vrs-components.md)
@@ -255,10 +255,10 @@ ht-degree: 97%
    + [Limitar un grupo de informes virtuales a determinadas fechas](cda/limit-vrs-date.md)
    + [Preguntas más frecuentes sobre el análisis entre dispositivos](cda/faq.md)
 + Alertas {#alerts}
-   + [Información general](c-alerts/intellligent-alerts.md)
-   + [Creación de alertas](c-alerts/alert-builder.md)
-   + [Administración de alertas](c-alerts/alert-manager.md)
-   + [Casos de uso](c-alerts/alerts-use-cases.md)
+   + [Información general](alerts/alerts-overview.md)
+   + [Creación de alertas](alerts/alert-builder.md)
+   + [Administración de alertas](alerts/alert-manager.md)
+   + [Casos de uso](alerts/alerts-use-cases.md)
 + Clasificaciones {#classifications}
    + [Resumen general de las clasificaciones](classifications/classifications-overview.md)
    + Conjuntos de clasificación {#sets}

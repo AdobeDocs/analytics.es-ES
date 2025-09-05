@@ -3,7 +3,7 @@ title: Compatibilidad con componentes en Data Warehouse
 description: Descubra qué dimensiones y métricas adicionales están disponibles en Data Warehouse y qué otras no se admiten.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 45%
@@ -67,7 +67,7 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
    * Recargas
    * Acceso único
    * Métricas de “tiempo empleado”
-* Métricas de participación (como se describe en [Crear una métrica de &quot;participación&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
+* Métricas de participación (como se describe en [Crear una métrica de &quot;participación&quot;](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md))
 
 ### Dimensiones compatibles de una manera diferente (formato de fecha no estándar)
 

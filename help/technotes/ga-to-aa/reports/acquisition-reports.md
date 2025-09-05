@@ -3,7 +3,7 @@ title: Informes de adquisición en Adobe Analytics
 description: Información sobre la creación de informes basados en adquisiciones, usando Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 99%
@@ -63,7 +63,7 @@ Consulte las siguientes páginas en la Guía del usuario de componentes para obt
 ## Todo el tráfico: referencias
 
 * La dimensión principal **Origen** está disponible en Analysis Workspace como dimensión **Dominio de referencia**.
-* La dimensión principal de la **Página de aterrizaje** está disponible en Analysis Workspace como dimensión de **Página de entrada**.
+* La dimensión principal de la **Página de destino** está disponible en Analysis Workspace como dimensión de **Página de entrada**.
 
 1. En el menú Componentes, localice la dimensión **Dominio de referencia** o **Página de entrada** y arrástrela al área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
@@ -127,7 +127,7 @@ Es posible recopilar parámetros de UTM en Adobe Analytics mediante variables pe
 
 ## Campañas: palabras clave de pago
 
-El informe Palabras clave de pago muestra el rendimiento de cada palabra clave después de que un visitante haga clic desde un motor de búsqueda en un vínculo de búsqueda de pago. La dimensión **Palabras clave de búsqueda de pago** está disponible en Analysis Workspace, pero requiere una configuración única de detección de búsqueda de pago para recopilar datos. Consulte [Detección de búsqueda de pago](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) en la guía de usuario del administrador para obtener más información sobre la configuración.
+El informe Palabras clave de pago muestra el rendimiento de cada palabra clave después de que un visitante haga clic desde un motor de búsqueda en un vínculo de búsqueda de pago. La dimensión **Palabras clave de búsqueda de pago** está disponible en Analysis Workspace, pero requiere una configuración única de detección de búsqueda de pago para recopilar datos. Consulte [Detección de búsqueda de pago](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md) en la guía de usuario del administrador para obtener más información sobre la configuración.
 
 1. En el menú Componentes, localice la dimensión **Palabra clave de búsqueda de pago** y arrástrela al área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.

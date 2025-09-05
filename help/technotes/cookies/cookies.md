@@ -4,9 +4,9 @@ description: Descubra cómo las medidas de prevención de seguimiento afectan a 
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1909'
+source-wordcount: '1908'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Este documento explica cómo las medidas de prevención del seguimiento de los e
 ## ¿Cómo han limitado los exploradores el uso de cookies?
 
 >[!NOTE]
->[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=es#cda) y [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es#comparing-cja-to-traditional-adobe-analytics) pueden unir las cookies mediante un ID de persona, como un ID de inicio de sesión con hash, si hay uno disponible.
+>[Cross-Device Analytics](/help/components/cda/overview.md#cda) y [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es#comparing-cja-to-traditional-adobe-analytics) pueden unir las cookies mediante un ID de persona, como un ID de inicio de sesión con hash, si hay uno disponible.
 
 ### Limitaciones de cookies de terceros
 
@@ -36,7 +36,7 @@ En los exploradores en los que están bloqueadas las cookies de terceros, el seg
 
 Las cookies de origen están permitidas en todos los exploradores principales. Sin embargo, Apple limita la duración de las cookies de origen configuradas por Adobe a través de su Intelligent Tracking Program (ITP). Esto afecta a Safari, así como a todos los exploradores de iOS y iPadOS.
 
-Las cookies de origen de Adobe están limitadas a una caducidad de 7 días o, para las pulsaciones que Apple determina que provienen de rastreadores, a una caducidad de 24 horas. Con una caducidad de 7 días, si un usuario visita su sitio y regresa en un plazo de siete días, la fecha de caducidad de la cookie se amplía otros siete días. Sin embargo, si un usuario visita su sitio y regresa en ocho días, se trata como un nuevo usuario en la segunda visita.
+Las cookies de origen de Adobe están limitadas a una caducidad de 7 días o, para los clics que Apple determina que provienen de rastreadores, a una caducidad de 24 horas. Con una caducidad de 7 días, si un usuario visita su sitio y regresa en un plazo de siete días, la fecha de caducidad de la cookie se amplía otros siete días. Sin embargo, si un usuario visita su sitio y regresa en ocho días, se trata como un nuevo usuario en la segunda visita.
 
 Actualmente, las políticas de ITP se aplican a todas las cookies de origen configuradas por Adobe, tanto si utiliza el servicio de ID de visitante como el ID de Analytics heredado (cookie &quot;s_vi&quot;). En un momento dado, estas políticas se aplicaban únicamente a las cookies configuradas del lado del cliente y no a las cookies configuradas del lado del servidor mediante una implementación CNAME. Sin embargo, en noviembre de 2020, ITP se actualizó para aplicarse también a implementaciones CNAME.
 
@@ -178,4 +178,4 @@ Si su empresa se ve afectada por la prevención del seguimiento de ITP, puede co
 >[!MORELIKETHIS]
 >
 >[Opciones para mitigar el efecto de las limitaciones de cookies del explorador](cookieless.md)
->[El impacto del nuevo marco de trabajo de transparencia de seguimiento de aplicaciones de Apple en Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=es)
+>>[El impacto del nuevo marco de trabajo de transparencia de seguimiento de aplicaciones de Apple en Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=es)

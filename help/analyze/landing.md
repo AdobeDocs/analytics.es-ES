@@ -1,29 +1,29 @@
 ---
-description: Explica cómo la nueva página de aterrizaje reúne tanto Analysis Workspace como Reports & Analytics en una sola interfaz y punto de acceso bajo el paraguas del Espacio de trabajo.
-title: Página de aterrizaje de Adobe Analytics
+description: Explica cómo la nueva página de destino reúne tanto Analysis Workspace como Reports & Analytics en una sola interfaz y punto de acceso bajo el paraguas del Espacio de trabajo.
+title: Página de destino de Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
-workflow-type: ht
-source-wordcount: '1463'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '1460'
 ht-degree: 100%
 
 ---
 
-# Página de aterrizaje de Adobe Analytics
+# Página de destino de Adobe Analytics
 
-La página de aterrizaje de Adobe Analytics reúne a [!DNL Analysis Workspace] y [!DNL Reports & Analytics] (final de su vida útil) en una sola interfaz y punto de acceso bajo el paraguas [!DNL Workspace]. Incluye una página de inicio del administrador de proyectos, una sección de plantillas, así como una sección de aprendizaje que le ayudará a empezar de forma más eficaz.
+La página de destino de Adobe Analytics reúne a [!DNL Analysis Workspace] y [!DNL Reports & Analytics] (final de su vida útil) en una sola interfaz y punto de acceso bajo el paraguas [!DNL Workspace]. Incluye una página de inicio del administrador de proyectos, una sección de plantillas, así como una sección de aprendizaje que le ayudará a empezar de forma más eficaz.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de aterrizaje de Adobe Analytics](https://video.tv.adobe.com/v/346462/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de aterrizaje de Adobe Analytics](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 
-La página de aterrizaje de Adobe Analytics consta de las siguientes subpestañas: Proyectos, Informes y Aprendizaje.
+La página de destino de Adobe Analytics consta de las siguientes subpestañas: Proyectos, Informes y Aprendizaje.
 
 **[!UICONTROL Proyectos]** son diseños personalizados que combinan componentes de datos, tablas y visualizaciones que ha creado o que alguien más ha creado y compartido con usted. [!UICONTROL Proyectos] también hace referencia a proyectos y cuadros de resultados móviles en blanco.
 
@@ -74,8 +74,8 @@ Las opciones disponibles son:
 | Editar preferencias | Le permite [!UICONTROL Ver tutoriales] y [Editar preferencias de usuario](/help/analyze/analysis-workspace/user-preferences.md). |
 | [!UICONTROL Crear nuevo] | Abre el modal del proyecto, donde puede crear un proyecto del Espacio de trabajo o un informe de valoración móvil o abrir una plantilla de empresa. |
 | [!UICONTROL Mostrar menos<br> Mostrar más] | Alterna entre no mostrar y mostrar el titular: ![titular superior](assets/top-banner.png) |
-| [!UICONTROL Proyecto del Espacio de trabajo] | Crea un [proyecto del Espacio de trabajo](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=es) en blanco para que pueda diseñarlo y elaborarlo. |
-| [!UICONTROL Informe de valoración móvil] | Crea un [informe de valoración móvil](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=es) en blanco para que pueda diseñarlo y elaborarlo. |
+| [!UICONTROL Proyecto del Espacio de trabajo] | Crea un [proyecto del Espacio de trabajo](/help/analyze/analysis-workspace/home.md) en blanco para que pueda diseñarlo y elaborarlo. |
+| [!UICONTROL Informe de valoración móvil] | Crea un [informe de valoración móvil](/help/analyze/mobile-app/curator.md) en blanco para que pueda diseñarlo y elaborarlo. |
 | [!UICONTROL Abrir tutorial de formación] | Abre el tutorial de formación del Espacio de trabajo que le guía a través del proceso de creación de un nuevo proyecto de inicio en un tutorial paso a paso. |
 | [!UICONTROL Abrir notas de la versión] | Abre la sección Adobe Analytics de las últimas notas de la versión de Adobe Experience Cloud. |
 | Icono de filtro | Filtre por etiquetas, grupos de informes, propietarios, tipos y otros filtros (Míos, Compartidos conmigo, Favoritos y Aprobados) |
@@ -84,10 +84,10 @@ Las opciones disponibles son:
 | [!UICONTROL Favoritos] | Agrega una estrella junto a un proyecto o una carpeta favoritos que se puede usar como filtro. |
 | [!UICONTROL Nombre] | Identifica el nombre del proyecto. |
 | Icono de anclaje | Ancla elementos para que siempre aparezcan en la parte superior de la lista, pero puede volver a ajustar el orden moviéndolos hacia arriba o hacia abajo en el orden. Utilice el menú de opciones de puntos suspensivos y seleccione **Subir** o **Bajar** en la lista. |
-| Icono de información (i) | Muestra la siguiente información sobre un proyecto: Escribir, Función del proyecto, Propietario, Descripción y con quién se comparte. También indica quién puede [editar o duplicar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es) este proyecto. |
+| Icono de información (i) | Muestra la siguiente información sobre un proyecto: Escribir, Función del proyecto, Propietario, Descripción y con quién se comparte. También indica quién puede [editar o duplicar](/help/analyze/analysis-workspace/curate-share/share-projects.md) este proyecto. |
 | Puntos suspensivos (...) | Muestra las acciones de administración de proyectos que puede realizar: **Eliminar**, **Compartir**, **Cambiar nombre**, **Copiar**, **Desanclar**, **Subir**, **Bajar**, **Etiqueta**, **Aprobar**, **Exportar CSV** y **Mover a**. Es posible que no tenga permisos para realizar todas estas acciones. |
 | MOSTRAR: Carpetas y proyectos o Todos los proyectos | Cambia la configuración de vista de la tabla para mostrar carpetas y proyectos según la organización de carpetas **o** mostrar todos los proyectos en una lista desorganizada. |
-| &lt; (Botón Atrás) | Le devuelve a la configuración de página de aterrizaje más reciente de un proyecto o un informe del Espacio de trabajo. La configuración de la página que tenía cuando abandonó la página de aterrizaje se mantendrá cuando regrese. |
+| &lt; (Botón Atrás) | Le devuelve a la configuración de página de destino más reciente de un proyecto o un informe del Espacio de trabajo. La configuración de la página que tenía cuando abandonó la página de destino se mantendrá cuando regrese. |
 
 ## Vaya a la pestaña [!UICONTROL Plantillas]  {#navigate-reports}
 
@@ -116,16 +116,16 @@ Utilice la página Aprendizaje en Adobe Analytics para aprender las funciones y 
    * [!UICONTROL **Visitar Experience League**]: vea el conjunto completo de documentación de Adobe Analytics sobre Experience League.
 * **Elementos fundamentales para nuevos usuarios:** se recomienda a los nuevos usuarios la visita guiada [!UICONTROL Elementos fundamentales de Workspace]. Este recorrido le lleva directamente a Workspace y le explica las acciones más comunes. También se puede reiniciar en cualquier momento directamente en Workspace en la ventana emergente de información del panel del encabezado.
 
-## Establecer una página de aterrizaje {#set-landing}
+## Establecer una página de destino {#set-landing}
 
-Los usuarios pueden establecer su página de aterrizaje preferida.
+Los usuarios pueden establecer su página de destino preferida.
 
 1. Vaya a Analytics > [!UICONTROL Componentes] > [!UICONTROL Preferencias] > [!UICONTROL General].
-1. Compruebe qué página de aterrizaje preferiría:
+1. Compruebe qué página de destino preferiría:
 
-   ![Establecer página de aterrizaje](assets/landing-pref.png)
+   ![Establecer página de destino](assets/landing-pref.png)
 
-## Preguntas frecuentes sobre la página de aterrizaje {#landing-faq}
+## Preguntas frecuentes sobre la página de destino {#landing-faq}
 
 | Pregunta | Respuesta |
 | --- | --- |
@@ -133,4 +133,4 @@ Los usuarios pueden establecer su página de aterrizaje preferida.
 | ¿El trabajo realizado en la IU del programa beta se transfiere a la experiencia de producción de [!UICONTROL Workspace]? | Sí, cualquier trabajo realizado en la versión beta se transfiere a la experiencia antigua/actual de [!UICONTROL Workspace]. |
 | ¿Se transfieren mis favoritos actuales de Reports &amp; Analytics? | No, NO se transfieren. Sin embargo, todos los favoritos del proyecto del [!UICONTROL Espacio de trabajo] sí se transfieren. |
 | ¿Hay un número máximo de proyectos que pueda fijar? | No, no hay límite en el número de proyectos que puede fijar. |
-| ¿Pueden los administradores designar esta página de aterrizaje para sus usuarios? | No, los administradores no pueden designar la página de aterrizaje en nombre de los usuarios. Los usuarios individuales deben activar la opción ellos mismos. |
+| ¿Pueden los administradores designar esta página de destino para sus usuarios? | No, los administradores no pueden designar la página de destino en nombre de los usuarios. Los usuarios individuales deben activar la opción ellos mismos. |

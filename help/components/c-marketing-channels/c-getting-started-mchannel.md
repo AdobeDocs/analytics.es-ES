@@ -3,10 +3,10 @@ title: Introducción a los canales de marketing
 description: Obtenga información sobre el flujo de trabajo de Canales de marketing, la configuración automática y cómo aplicar la configuración del grupo de informes de plantilla a varios grupos de informes.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >Para maximizar la eficacia de los canales de marketing para Attribution y Customer Journey Analytics, hemos publicado algunas [prácticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
->Los administradores de Analytics pueden administrar canales de marketing para sus organizaciones, tal como se describe en [Administrar canales de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Los administradores de Analytics pueden administrar canales de marketing para sus organizaciones, tal como se describe en [Administrar canales de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
 Los canales de marketing se utilizan habitualmente para saber cómo llegan los visitantes al sitio. Se pueden personalizar reglas de procesamiento de canal de marketing en función de los canales que quiera rastrear y de cómo desea hacerlo.
 
@@ -35,15 +35,15 @@ La definición de los canales utilizados es una de las partes más importantes d
 * ¿Desea sumar todos los sitios de redes sociales o hay alguno que le gustaría seguir de forma individual?
 * ¿Existen otros canales que podrían afectar a la conversión y que quiera rastrear?
 
-Encontrará una lista de canales recomendados en [Preguntas frecuentes y ejemplos](/help/components/c-marketing-channels/c-faq.md). Cree una lista con los canales que desee usar. De este modo, será más fácil activar y definir los canales a la hora de crearlos.
+Encontrará una lista de canales recomendados en [Preguntas frecuentes y ejemplos](/help/components/c-marketing-channels/c-faq.md). Cree una lista con los canales que desee usar. De este modo, será más fácil habilitar y definir los canales a la hora de crearlos.
 
 ![](assets/step2_icon.png) Añada canales de marketing en la página del [!UICONTROL Administrador de canales de marketing].
 
 Después de definir los canales para seguir, los habilita en **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
 
-Consulte [Acerca de los canales y las reglas](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) para obtener información importante sobre requisitos previos y conceptos.
+Consulte [Acerca de los canales y las reglas](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) para obtener información importante sobre requisitos previos y conceptos.
 
-Consulte [Agregar canales](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) de marketing para ver el procedimiento.
+Consulte [Agregar canales](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md) de marketing para ver el procedimiento.
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ Consulte [Agregar canales](/help/admin/admin/c-manage-report-suites/c-edit-repor
 
 ![](assets/step3_icon.png) Configure o pula las reglas de cada canal en la página [!UICONTROL Reglas de procesamiento de canal de marketing].
 
-Después de crear los canales en la página [!UICONTROL Administrador de canales de marketing], configure las reglas para que esos canales puedan obtener datos y crear informes.
+Después de crear los canales en la página [!UICONTROL Administrador de canales de marketing], configure las reglas para que esos canales puedan recuperar datos y crear informes.
 
-Consulte [Reglas de procesamiento para los canales de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+Consulte [Reglas de procesamiento para los canales de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
 
 Si los canales se han creado en la configuración automática, las reglas de los canales ya estarán definidas. Puede modificarlas para adaptarlas a sus necesidades.
 
@@ -71,7 +71,7 @@ Cómo se ejecuta la configuración automática para los canales de marketing.
 
    >[!NOTE]
    >
-   >La página [!UICONTROL Canales de marketing: configuración automática] se abre automáticamente al acceder a las aplicaciones de configuración de canal en las Herramientas de administración. (Consulte el [administrador de Canales de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).) Esta página no indica si el grupo de informes contiene uno o más canales de marketing. Solo podrá volver a acceder a esta página si selecciona otro grupo de informes que no contenga canales de marketing.
+   >La página [!UICONTROL Canales de marketing: configuración automática] se abre automáticamente al acceder a las aplicaciones de configuración de canal en las Herramientas de administración. (Consulte [Administrador de canales de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).) Esta página no muestra si el grupo de informes contiene uno o más canales de marketing. Solo podrá volver a acceder a esta página si selecciona otro grupo de informes que no contenga canales de marketing.
 
 1. Asegúrese de que los canales que desee crear estén seleccionados.
 

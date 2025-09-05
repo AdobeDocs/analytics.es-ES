@@ -3,7 +3,7 @@ description: Aprenda a utilizar segmentos en Analysis Workspace.
 title: Usar segmentos
 role: User
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Para usar segmentos en Analysis Workspace, simplemente arrastre uno o más segme
 * Una columna en una [tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) en Analysis Workspace para agregar o reemplazar una columna o para iniciar un filtro.
 * Paneles de configuración para visualización o paneles que permiten soltar segmentos. Por ejemplo, en un panel [Comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) o en una visualización de resumen de [métricas clave](/help/analyze/analysis-workspace/visualizations/key-metric.md)
 * Generador de definiciones de [para un segmento](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder), por lo que incluye un segmento en su definición de segmento.
-* Generador de definiciones [para una métrica calculada](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#definition-builder), por lo que incluye un segmento en su definición de métrica calculada.
+* Generador de definiciones [para una métrica calculada](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#definition-builder), por lo que incluye un segmento en su definición de métrica calculada.
 
 <!--
 How to apply one or more segments to a report from the segment rail.

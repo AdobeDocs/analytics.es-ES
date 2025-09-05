@@ -3,7 +3,7 @@ title: Consentimiento de la plataforma de publicidad
 description: Consulte la configuración de consentimiento publicitario para proveedores de publicidad de terceros.
 feature: Dimensions
 exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
-source-git-commit: 5df5cffbb6abf712cb36fd807ef54b8ebaae1c73
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 La dimensión [Consentimiento de la plataforma de publicidad](overview.md) muestra si se recopila el consentimiento para enviar datos a proveedores de publicidad de terceros, como Google, Meta y otros.
 
-Actualmente, esta dimensión se utiliza solo para Google. Debido a las regulaciones de privacidad europeas, la Ley de Mercados Digitales (DMA) de Google requiere que los datos enviados a sus servidores y recopilados en Europa indiquen si se recopila el consentimiento. Algunos clientes de Analytics envían datos de evento mediante el Adobe Advertising como eventos de conversión a Google.
+Actualmente, esta dimensión se utiliza solo para Google. Debido a las regulaciones de privacidad europeas, la Ley de Mercados Digitales (DMA) de Google requiere que los datos enviados a sus servidores y recopilados en Europa indiquen si se recopila el consentimiento. Algunos clientes de Analytics envían datos de evento a través de Adobe Advertising como eventos de conversión a Google.
 
 En el futuro, esta dimensión se puede utilizar para admitir la codificación de información de consentimiento adicional para otros proveedores de publicidad de terceros.
 
@@ -56,6 +56,6 @@ Puede utilizar los datos recopilados y de consentimiento:
 
 Su organización determina la lógica para implementar esta variable de datos de contexto. El valor no persiste más allá de la visita en la que está establecido, por lo que debe establecer la variable de datos de contexto en cada página.
 
-Cuando envíe datos publicitarios desde Adobe Analytics a través de Adobes Advertising como eventos de conversión a Google, consulte con el equipo de Adobe Advertising para que le ayuden con la integración.
+Cuando envíe datos publicitarios desde Adobe Analytics a través de Adobe Advertising como eventos de conversión a Google, póngase en contacto con el equipo de Adobe Advertising para que le ayuden con la integración.
 
-Para obtener más información, consulte [Informes de privacidad](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md).
+Para obtener más información, consulte [Informes de privacidad](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md).

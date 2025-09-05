@@ -4,7 +4,7 @@ description: Cree un espacio para personalizar cómo se recopilan los datos medi
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 97%
@@ -17,7 +17,7 @@ Las etiquetas en Adobe Experience Platform le permiten integrar soluciones de Ex
 
 ## Requisitos previos
 
-[Crear un grupo de informes](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): cree un silo para los datos de Analytics que se van a recopilar.
+[Crear un grupo de informes](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md): cree un silo para los datos de Analytics que se van a recopilar.
 
 ## Creación de una propiedad de etiquetas e instalación de extensiones vitales
 

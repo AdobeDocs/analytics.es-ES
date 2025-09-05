@@ -4,7 +4,7 @@ description: Comprender las ventajas y los requisitos para utilizar un grupo de 
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
@@ -22,8 +22,8 @@ Adobe recomienda implementar un grupo de informes globales en la mayoría de los
 * **Datos agregados:** los grupos de informes globales le permiten ver los KPI y los eventos de éxito en los sitios que posee. Los grupos de informes virtuales y de segmentación se pueden utilizar para ver datos específicos del sitio.
 * **Compatibilidad con Cross-Device Analytics:** CDA necesita un grupo de informes que recopile datos de varios lugares, como su sitio web y su aplicación móvil. Los dispositivos independientes pueden unir los datos si se implementan correctamente. Consulte [Cross-Device Analytics](../../components/cda/overview.md) en la guía del usuario de componentes para obtener más información.
 * **No se necesita más de un grupo de informes:** todos los datos se pueden recopilar en un solo grupo de informes, por lo que es menos probable que un programador envíe datos por error al grupo de informes equivocado.
-* **No es necesario realizar resúmenes:** los resúmenes son una característica bastante antigua que agrega datos de grupos de informes individuales diariamente. Los resúmenes no anulan la duplicación de datos de visitas o visitantes, lo que puede provocar un aumento de las cifras. Consulte [Resúmenes](../../admin/admin/c-manage-report-suites/rollup-report-suite.md) en la guía del usuario de administración para obtener más información.
-* **Ahorre tiempo:** los proyectos, las clasificaciones, los segmentos y las métricas calculadas de Workspace están vinculados al mismo grupo de informes globales. Los administradores invierten menos tiempo en administrar estos componentes y el control de datos.
+* **No es necesario realizar resúmenes:** los resúmenes son una característica bastante antigua que agrega datos de grupos de informes individuales diariamente. Los resúmenes no anulan la duplicación de datos de visitas o visitantes, lo que puede provocar un aumento de las cifras. Consulte [Resúmenes](../../admin/tools/manage-rs/rollup-report-suite.md) en la guía del usuario de administración para obtener más información.
+* **Ahorre tiempo:** los proyectos, las clasificaciones, los segmentos y las métricas calculadas de Workspace están vinculados al mismo grupo de informes globales. Los administradores invierten menos tiempo en administrar estos componentes y la gobernanza de datos.
 * **Atribución más precisa entre marcas:** si una visita comienza en un sitio y luego hace clic en otro antes de activar un evento de éxito, la atribución se recopila con precisión. Por ejemplo: un visitante hace clic en un vínculo de búsqueda pagada y accede al sitio A. Luego hace clic en un vínculo al sitio B, para después realizar una compra. Un grupo de informes globales atribuye correctamente la compra a la búsqueda pagada.
 * **Implementación simplificada:** dado que todas las marcas y sitios envían datos al mismo grupo de informes, las implementaciones de cada sitio se alinean. Este control obligatorio garantiza que una dimensión o métrica específica se guarde en la misma eVar o en el mismo evento. Esta simplificación beneficia a administradores, probadores, propietarios de administración de etiquetas y analistas.
 
@@ -35,7 +35,7 @@ Adobe recomienda implementar un grupo de informes globales en la mayoría de los
 
 Utilice las siguientes directrices generales para comprender el proceso de implementación de un grupo de informes globales.
 
-1. Cree el grupo de informes globales en Adobe Analytics. Consulte [Creación de un grupo de informes](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) en la guía del usuario de administración para obtener más información.
+1. Cree el grupo de informes globales en Adobe Analytics. Consulte [Creación de un grupo de informes](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md) en la guía del usuario de administración para obtener más información.
 1. Trabaje con los equipos de su organización responsables de cada dominio. Muchos equipos incluyen requisitos de informes específicos de su área de negocio.
 1. Registre y agregue todos estos requisitos en un [documento de diseño de solución](solution-design.md). Si los equipos tienen requisitos similares para una dimensión, pueden utilizar la misma variable personalizada. Por ejemplo: si el sitio A y el sitio B exigen una dimensión de ruta de exploración, las implementaciones para ambos sitios pueden enviar esos datos a través de eVar1.
 
@@ -58,4 +58,4 @@ El proceso de mover una implementación existente en varios sitios a un único g
 ## Páginas relacionadas
 
 [Cambio del etiquetado de grupos múltiples a un grupo de informes globales y grupos de informes virtuales](../../components/vrs/vrs-considerations.md)
-[Comparación de resúmenes y grupos de informes globales](../../admin/admin/c-manage-report-suites/rollup-report-suite.md)
+[Comparación de resúmenes y grupos de informes globales](../../admin/tools/manage-rs/rollup-report-suite.md)

@@ -3,7 +3,7 @@ title: Tipo de referente
 description: El tipo de remitente del reenvío, según la procedencia del visitante.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 825cded49c0ff456925e522ae2d0660b09ea6edd
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -16,7 +16,7 @@ El &quot;tipo de referente&quot; [dimension](overview.md) indica en qué canales
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia a varias tablas de búsqueda internas de Adobe. Cada valor se basa en el [remitente del reenvío](referrer.md) de la visita, que depende de los [filtros de URL internos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Asegúrese de que la dimensión de remitente del reenvío y los filtros de URL internos están correctamente configurados.
+Esta dimensión hace referencia a varias tablas de búsqueda internas de Adobe. Cada valor se basa en el [remitente del reenvío](referrer.md) de la visita, que depende de los [filtros de URL internos](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md). Asegúrese de que la dimensión de remitente del reenvío y los filtros de URL internos están correctamente configurados.
 
 ## Elementos de dimensión
 
@@ -35,7 +35,7 @@ La siguiente lista hace referencia a la tabla de búsqueda “Redes sociales” 
 
 >[!NOTE]
 >
->Esta lista es diferente a la lista predeterminada de las redes sociales en las [reglas de procesamiento de canal de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+>Esta lista es diferente a la lista predeterminada de las redes sociales en las [reglas de procesamiento de canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`

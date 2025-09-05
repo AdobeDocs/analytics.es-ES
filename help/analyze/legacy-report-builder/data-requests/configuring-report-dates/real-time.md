@@ -5,10 +5,10 @@ uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 87%
+source-wordcount: '246'
+ht-degree: 88%
 
 ---
 
@@ -27,8 +27,8 @@ Puede:
 * Utilice cualquier evento personalizado, evento del carro de compras o instancia.
 * Vea hasta 20 horas de datos en tiempo real históricos.
 
-Permisos de respetos en tiempo real para usuarios y grupos Por ejemplo, si no dispone de os derechos para ver los ingresos, no podrá ver el informe en tiempo real que incluye los datos de ingresos. No compatible con eVars (métricas de conversión). Los permisos en tiempo real se activan en [Herramientas de administración](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=es).
+Permisos de respetos en tiempo real para usuarios y grupos Por ejemplo, si no dispone de os derechos para ver los ingresos, no podrá ver el informe en tiempo real que incluye los datos de ingresos. No compatible con eVars (métricas de conversión). Los permisos en tiempo real se activan en [Herramientas de administración](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md).
 
 >[!NOTE]
 >
->[!UICONTROL Informes en tiempo real] no son lo mismo que la función [Incluir datos actuales](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html?lang=es) (Actualización de los datos) lanzada anteriormente, que redujo la latencia de los informes estándar al mostrar los datos antes de que finalizara.
+>[!UICONTROL Informes en tiempo real] no son lo mismo que la función [Incluir datos actuales](/help/analyze/legacy-report-builder/options.md) (Actualización de los datos) lanzada anteriormente, que redujo la latencia de los informes estándar al mostrar los datos antes de que finalizara.

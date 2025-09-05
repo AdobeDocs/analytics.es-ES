@@ -4,7 +4,7 @@ description: Incluye las dimensiones de entrada y su uso.
 keywords: página de entrada, sección de entrada al sitio, servidor de entrada, conocimiento personalizado de entrada
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 75%
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 *Esta página de ayuda describe cómo funcionan las entradas como una [dimensión](overview.md). Para obtener información sobre cómo funcionan las entradas como métricas, consulte la métrica [Entradas](../metrics/entries.md).*
 
-Las dimensiones de entrada están [basadas en visitas](../metrics/visits.md). Registran el primer elemento de dimensión y lo mantienen durante toda la visita. Las dimensiones de entrada están disponibles para todas las variables con las rutas habilitadas en [Variables de tráfico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes.
+Las dimensiones de entrada están [basadas en visitas](../metrics/visits.md). Registran el primer elemento de dimensión y lo mantienen durante toda la visita. Las dimensiones de entrada están disponibles para todas las variables con las rutas habilitadas en [Variables de tráfico](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes.
 
 >[!TIP]
 >Si desea ver datos basados en la primera visita individual de una visita en lugar del primer valor visto en una visita, puede usar un [segmento](/help/components/segmentation/seg-overview.md). Use un contenedor de visita individual en el que [Profundidad de visita](hit-depth.md) sea igual a 1 y luego use ese segmento con la variable deseada.

@@ -6,7 +6,7 @@ exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 hidefromtoc: true
 role: Developer
-source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%
@@ -18,17 +18,17 @@ ht-degree: 67%
 >[!IMPORTANT]
 >
 > Este artículo proporciona a **clientes de Adobe Analytics que (están planeando) implementar Adobe Analytics** en su sitio web instrucciones sobre cómo proporcionar a los usuarios del sitio web vínculos de no participación. <p><p>
-> Si está **visitando un sitio web que ha implementado Adobe Analytics** y desea excluirse, **<span style="color:red">este artículo NO es para usted</span>**. Consulte [Opciones de privacidad de Adobe](https://www.adobe.com/es/privacy/opt-out.html) para controlar cómo usa el Adobe su información.
+<p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Si está **visitando un sitio web que ha implementado Adobe Analytics** y desea excluirse, **<span style="color:red">este artículo NO es para usted</span>**. Consulta [Opciones de privacidad de Adobe](https://www.adobe.com/es/privacy/opt-out.html) para controlar cómo usa Adobe tu información.
 
-Algunos visitantes del sitio Web prefieren no incluir su información de navegación en el conjunto de datos. El Adobe permite proporcionar a los visitantes de un sitio web un medio para evitar que se analice su información.
+Algunos visitantes del sitio Web prefieren no incluir su información de navegación en el conjunto de datos. Adobe permite excluir a los visitantes de un sitio web del análisis de su información.
 
-Los vínculos de exclusión permiten a los visitantes del sitio web omitir sus datos en los informes de Analytics. Estos vínculos se limitan a implementaciones de AppMeasurement; Adobe recomienda usar el servicio de inclusión de [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) en su lugar. El servicio de inclusión (Opt-in) es más robusto y funciona con varios productos de Adobe Experience Cloud, incluidos Adobe Analytics y AppMeasurement.
+Los vínculos de exclusión permiten a los visitantes del sitio web omitir sus datos en los informes de Analytics. Estos vínculos se limitan a implementaciones de AppMeasurement; Adobe recomienda usar el [servicio de inclusión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) en su lugar. El servicio de inclusión (Opt-in) es más robusto y funciona con varios productos de Adobe Experience Cloud, incluidos Adobe Analytics y AppMeasurement.
 
-Cuando un visitante llega a una URL de exclusión, se le solicita que instale una cookie de exclusión. Si un usuario decide no rastrearse y se establece una cookie de exclusión, el AppMeasurement continúa enviando datos al Adobe. Sin embargo, esos datos no se procesan ni se incluyen en los informes.
+Cuando un visitante llega a una URL de exclusión, se le solicita que instale una cookie de exclusión. Si un usuario decide no rastrearse y se establece una cookie de exclusión, AppMeasurement continúa enviando datos a Adobe. Sin embargo, esos datos no se procesan ni se incluyen en los informes.
 
 >[!TIP]
 >
->Adobe también ofrece la configuración de privacidad por grupo de informes. Consulte [Configuración de privacidad](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md) en la guía del usuario del administrador.
+>Adobe también ofrece la configuración de privacidad por grupo de informes. Consulte [Configuración de privacidad](/help/admin/tools/manage-rs/edit-settings/general/privacy-settings.md) en la guía del usuario del administrador.
 
 ## URL de exclusión
 
@@ -44,7 +44,7 @@ La página de exclusión de su organización depende del valor de la variable [`
    1. En el servidor web, abra el archivo AppMeasurement.js que se utiliza en el sitio en un editor de código o texto.
    1. Tenga en cuenta el valor de la variable `trackingServer`.
 
-* Use [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=es):
+* Use [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Vaya a su sitio mediante el explorador Chrome.
    1. Abra Experience Cloud Debugger y vaya a la pestaña [!UICONTROL Red].
    1. Tenga en cuenta el valor de [!UICONTROL Solicitar URL: Nombre de host].

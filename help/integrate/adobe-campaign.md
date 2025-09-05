@@ -4,9 +4,9 @@ title: ¿Cómo se integra la creación de informes de Adobe Campaign Standard en
 feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: a1eea822b197c830abf524555b0dc2746f67c53a
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '511'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 Para obtener más información acerca de cómo configurar esta integración, vaya a la [documentación de Adobe Campaign](https://helpx.adobe.com/es/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
 >[!IMPORTANT]
->Este artículo se aplica solamente al sistema de informes de Adobe Campaign **Standard**. Consulte [aquí](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=es) para añadir el sistema de informes de Adobe Campaign **Classic**.
+>Este artículo se aplica solamente al sistema de informes de Adobe Campaign **Standard**. Consulte [aquí](/help/integrate/analytics-to-campaign-classic.md) para añadir el sistema de informes de Adobe Campaign **Classic**.
 
 Esta integración entre Adobe Analytics y Adobe Campaign Standard:
 

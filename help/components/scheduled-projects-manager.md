@@ -3,7 +3,7 @@ description: Obtenga información sobre cómo administrar proyectos programados.
 title: Proyectos programados
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 41%
@@ -35,8 +35,8 @@ La lista Proyectos programados ➊ muestra columnas para:
 | **[!UICONTROL Frecuencia]** | La frecuencia con la que desea que este proyecto programado se envíe a uno o varios destinatarios. |
 | **[!UICONTROL Hora de ejecución]** | A qué hora del día se envía este proyecto programado. |
 | **[!UICONTROL Cantidad de consultas]** | Número de consultas de este proyecto. |
-| **[!UICONTROL El intervalo de fecha más largo]** | Intervalo de fecha más largo definido para el proyecto programado. Este valor puede ser relevante para investigar los problemas de rendimiento. Consulte [Administrador de actividades de creación de informes](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) para obtener más información. |
-| **[!UICONTROL Cantidad de consultas]** | Número de consultas ejecutadas para el proyecto programado. Este valor puede ser relevante para investigar los problemas de rendimiento. Consulte [Administrador de actividades de creación de informes](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) para obtener más información. |
+| **[!UICONTROL El intervalo de fecha más largo]** | Intervalo de fecha más largo definido para el proyecto programado. Este valor puede ser relevante para investigar los problemas de rendimiento. Consulte [Administrador de actividades de creación de informes](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) para obtener más información. |
+| **[!UICONTROL Cantidad de consultas]** | Número de consultas ejecutadas para el proyecto programado. Este valor puede ser relevante para investigar los problemas de rendimiento. Consulte [Administrador de actividades de creación de informes](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) para obtener más información. |
 
 
 Puede usar ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para configurar qué columnas mostrar.

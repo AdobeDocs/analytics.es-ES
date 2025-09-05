@@ -3,7 +3,7 @@ title: Reglas VISTA en Adobe Analytics
 description: Más información sobre las reglas VISTA y sus funcionalidades.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 81%
@@ -17,12 +17,12 @@ Las reglas VISTA son una forma alternativa de modificación de datos personaliza
 Algunos casos de uso comunes de las reglas VISTA son:
 
 * Copiar una visita de Analytics de un grupo de informes a otro, si lo desea, modificar los datos del grupo de informes copiado
-* Exclusión de IP personalizada que supera los casos de uso ofrecidos por [Excluir por dirección IP](/help/admin/admin/exclude-ip.md)
+* Exclusión de IP personalizada que supera los casos de uso ofrecidos por [Excluir por dirección IP](/help/admin/tools/exclude-ip.md)
 * Modificar condicional o globalmente cualquier valor de variable
 * Duplicar valores de variables a otras variables
 * Cargar archivos a un sitio FTP de Adobe que pueda afectar a los valores de las variables
 
-Muchos casos de uso para las reglas VISTA ya los ofrece [Reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md), [Reglas de bots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md), [Grupos de informes virtuales](/help/components/vrs/vrs-about.md) o simplemente actualizando su implementación de Adobe Analytics. Adobe recomienda las reglas VISTA solo como último recurso.
+Muchos casos de uso para las reglas VISTA ya los ofrece [Reglas de procesamiento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md), [Reglas de bots](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md), [Grupos de informes virtuales](/help/components/vrs/vrs-about.md) o simplemente actualizando su implementación de Adobe Analytics. Adobe recomienda las reglas VISTA solo como último recurso.
 
 >[!IMPORTANT]
 >

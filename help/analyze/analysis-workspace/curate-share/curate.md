@@ -1,20 +1,20 @@
 ---
-description: Obtenga información sobre cómo depurar proyectos en Analysis Workspace. La depuración limita el acceso a los componentes antes de compartir un proyecto.
+description: Aprenda a depurar proyectos en Analysis Workspace. La depuración limita el acceso a los componentes antes de compartir un proyecto.
 keywords: Revisión de Analysis Workspace
 title: Depurar proyectos
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 60%
+source-wordcount: '531'
+ht-degree: 80%
 
 ---
 
 # Depurar proyectos de
 
-La depuración permite limitar los componentes (dimensiones, métricas, segmentos e intervalos de fechas) antes de compartir un proyecto. Cuando un destinatario abre el proyecto, ve un conjunto limitado de componentes que ha seleccionado para ellos. La depuración es un paso opcional pero recomendado antes de compartir un proyecto.
+La depuración permite limitar los componentes (dimensiones, métricas, segmentos e intervalos de fechas) antes de compartir un proyecto. Cuando un destinatario abre el proyecto, verá un conjunto limitado de componentes que ha seleccionado para ellos. La depuración es un paso opcional pero recomendado antes de compartir un proyecto.
 
 >[!NOTE]
 > Los perfiles de productos son el mecanismo principal que controla los componentes que puede ver un usuario. Se administran a través de Admin Console en Adobe Experience Cloud. La depuración es un filtro secundario.
@@ -22,36 +22,36 @@ La depuración permite limitar los componentes (dimensiones, métricas, segmento
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Depurar proyectos](https://video.tv.adobe.com/v/328104?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Depurar proyectos](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 ## Aplicar depuración de proyecto
 
-1. Seleccione **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos de proyectos]**.
-Los componentes que se utilizan en el proyecto se añaden automáticamente.
+1. Haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos del proyecto]**.
+Los componentes que se utilizan en el proyecto se añadirán automáticamente.
 Si un proyecto tiene varios grupos de informes, verá un destino de colocación depurada para cada grupo de informes en el proyecto.
-1. (Opcional) Para agregar más componentes, arrastre los componentes que desee compartir desde el panel izquierdo a la zona de colocación de **[!UICONTROL Depurar componentes]** para la vista de datos.
+1. (Opcional) Para añadir más componentes, arrastre los componentes que desea compartir del panel izquierdo a la zona de colocación **[!UICONTROL Depurar componentes]** para la vista de datos.
 1. Seleccione **[!UICONTROL Listo]**.
 
 
 ![](assets/curation-field.png)
 
-Cuando un destinatario abre un proyecto depurado, solo ve el conjunto depurado de componentes que ha definido:
+Cuando un destinatario abre un proyecto depurado, solo verá el conjunto depurado de componentes que haya definido:
 
 
 ## Eliminar depuración del proyecto
 
 Para eliminar la depuración del proyecto y restaurar el conjunto completo de componentes en el carril izquierdo:
 
-1. Seleccione **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos de proyectos]**.
-1. Seleccione **[!UICONTROL Quitar revisión]**.
+1. Haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos del proyecto]**.
+1. Haga clic en **[!UICONTROL Eliminar depuración]**.
 1. Seleccione **[!UICONTROL Listo]**.
 
 ## Depuración del grupo de informes virtuales
 
-Para aplicar la depuración a nivel de grupo de informes, de modo que se aplique a muchos proyectos a la vez, puede [depurar componentes en un grupo de informes virtuales](https://experienceleague.adobe.com/es/docs/analytics/components/virtual-report-suites/vrs-components).
+Para aplicar la depuración a nivel de grupo de informes, de modo que se aplique a muchos proyectos a la vez, puede [depurar componentes en un grupo de informes virtuales](/help/components/vrs/vrs-components.md).
 
 >[!NOTE]
 >

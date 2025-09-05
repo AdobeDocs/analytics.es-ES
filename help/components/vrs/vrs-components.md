@@ -3,9 +3,9 @@ description: Los grupos de informes virtuales se pueden revisar para que incluya
 title: Revisión de componentes de grupo de informes virtuales
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 92%
 
 ---
@@ -17,7 +17,7 @@ Los grupos de informes virtuales se pueden revisar para que incluyan y excluyan 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Revisión de componentes](https://video.tv.adobe.com/v/3425525?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Revisión de componentes](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ Para habilitar la revisión de componentes,
 
 ## Cambiar el nombre de los componentes {#section_0F7CD9F684FE4765BC00A2AFED56550E}
 
-Puede cambiar el nombre de los componentes incluidos específicos del grupo de informes virtuales. Por ejemplo, si quiere incluir Nombre de página en el grupo de informes virtuales, pero quiere cambiarle el nombre a otro más apropiado para el contexto móvil, puede cambiarlo a App Screens. El nuevo nombre se muestra en Analysis Workspace cada vez que se utiliza este grupo de informes virtuales.
+Puede cambiar los nombres para mostrar de los componentes incluidos específicos del grupo de informes virtuales. Por ejemplo, si quiere incluir Nombre de página en el grupo de informes virtuales, pero quiere cambiarle el nombre a otro más apropiado para el contexto móvil, puede cambiarlo a App Screens. El nuevo nombre se muestra en Analysis Workspace cada vez que se utiliza este grupo de informes virtuales.
 
 ![](assets/vrs-rename-component.png)
 
@@ -77,4 +77,4 @@ Use grupos de componentes para realizar agregaciones masivas de componentes a su
 
 ## Comportamiento de Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Para obtener más información sobre la organización en Analysis Workspace, consulte [Organizar y compartir un proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=es).
+Para obtener más información sobre la organización en Analysis Workspace, consulte [Organizar y compartir un proyecto](/help/analyze/analysis-workspace/curate-share/curate.md).

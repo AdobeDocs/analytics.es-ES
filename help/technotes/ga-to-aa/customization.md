@@ -3,7 +3,7 @@ title: Personalización de informes en Adobe Analytics
 description: Descubra cómo personalizar informes en Adobe Analytics
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 94%
@@ -16,7 +16,7 @@ En plataformas de terceros, como Google Analytics, hay disponibles varias opcion
 
 En esta página se da por hecho que el usuario tiene conocimientos básicos sobre el uso de [!UICONTROL Analysis Workspace]. Consulte [Creación de un informe básico en Analysis Workspace para usuarios de Google Analytics](reports/create-report.md) si todavía no está familiarizado con la herramienta en Adobe Analytics.
 
-## Tableros
+## Paneles de control
 
 La arquitectura de [!UICONTROL Analysis Workspace] está diseñada de manera similar al concepto de widgets de tablero. Los proyectos de [!UICONTROL Analysis Workspace] son el equivalente de los tableros de Google Analytics. Las visualizaciones en [!UICONTROL Analysis Workspace] son el equivalente aproximado de los widgets de Google Analytics.
 
@@ -68,8 +68,8 @@ Para crear una medida calculada:
 4. Una vez que la métrica calculada contenga la fórmula deseada, haga clic en Guardar para volver al espacio de trabajo.
 5. Arrastre la métrica calculada recién definida al espacio de trabajo.
 
-   Obtenga más información sobre las [métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) en la Guía del usuario de componentes.
+   Obtenga más información sobre las [métricas calculadas](/help/components/calculated-metrics/cm-overview.md) en la Guía del usuario de componentes.
 
 ## Alertas personalizadas
 
-Las alertas están disponibles en ambas plataformas. En Adobe Analytics, utilice el menú de navegación de encabezado y vaya a *[!UICONTROL Componentes]* > *[!UICONTROL Alertas]*. Consulte [Resumen de alertas](/help/components/c-alerts/intellligent-alerts.md) en la Guía del usuario de componentes para obtener más información.
+Las alertas están disponibles en ambas plataformas. En Adobe Analytics, utilice el menú de navegación de encabezado y vaya a *[!UICONTROL Componentes]* > *[!UICONTROL Alertas]*. Consulte [Resumen de alertas](/help/components/alerts/alerts-overview.md) en la Guía del usuario de componentes para obtener más información.

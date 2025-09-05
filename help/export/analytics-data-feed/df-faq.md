@@ -4,9 +4,9 @@ keywords: Fuente de datos, trabajo, columna previa, columna posterior, distinci�
 title: Preguntas frecuentes sobre fuentes de datos
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 84%
 
 ---
@@ -53,7 +53,7 @@ Si ve diferentes variaciones de mayúsculas y minúsculas del mismo valor entre 
 
 ## ¿Las reglas de bots de la Admin Console filtran bots incluidos en las fuentes de datos? {#bots}
 
-Las fuentes de datos no incluyen bots filtrados por las [reglas de bots de la Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=es).
+Las fuentes de datos no incluyen bots filtrados por las [reglas de bots de la Admin Console](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md).
 
 ## ¿Por qué veo varios valores `000` en la columna de fuente de datos `event_list` o `post_event_list`? {#values}
 

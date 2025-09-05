@@ -3,7 +3,7 @@ title: Dimensiones de metadatos de vídeo de los servicios de medios de streamin
 description: Dimensiones disponibles al habilitar [!UICONTROL Metadatos de vídeo] para un grupo de informes.
 feature: Dimensions
 exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 6%
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Las dimensiones y los servicios de medios de streaming proporcionan una funcionalidad adicional de creación de informes para la recopilación de datos a través de las bibliotecas de recopilación de servicios de medios de streaming. El uso de estas dimensiones requiere el **[!UICONTROL complemento de Adobe Analytics para medios de streaming]**. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
 
-Cuando habilita **[!UICONTROL Metadatos de vídeo]** en [Informes de contenidos](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), están disponibles las siguientes dimensiones:
+Cuando habilita **[!UICONTROL Metadatos de vídeo]** en [Informes de contenidos](/help/admin/tools/manage-rs/edit-settings/media-management.md), están disponibles las siguientes dimensiones:
 
 | Nombre de la dimensión | Descripción | Enviado con | Variable de datos de contexto |
 | --- | --- | --- | --- |

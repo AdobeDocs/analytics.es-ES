@@ -3,7 +3,7 @@ title: Métricas de calidad de servicios de medios de streaming
 description: Métricas disponibles cuando se habilita [!UICONTROL Calidad de los medios] para un grupo de informes.
 feature: Metrics
 exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Las métricas de calidad de los servicios de medios de streaming proporcionan una funcionalidad de sistema de informes suplementaria a la recopilación de datos a través de las bibliotecas de los servicios de medios de streaming. El uso de estas métricas requiere el **[!UICONTROL complemento de Adobe Analytics para medios de streaming]**. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
 
-Cuando habilita **[!UICONTROL Calidad multimedia]** en [Informes multimedia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), están disponibles las siguientes métricas:
+Cuando habilita **[!UICONTROL Calidad multimedia]** en [Informes multimedia](/help/admin/tools/manage-rs/edit-settings/media-management.md), están disponibles las siguientes métricas:
 
 | Nombre de la métrica | Descripción | Enviado con | Variable de datos de contexto |
 | --- | --- | --- | --- |

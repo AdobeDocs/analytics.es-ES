@@ -3,7 +3,7 @@ title: Canal de primer contacto
 description: El primer canal de marketing en el período de caducidad de la participación del visitante.
 feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 91%
@@ -16,7 +16,7 @@ El &quot;Canal de primer contacto&quot; [dimension](overview.md) informa del pri
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia directamente a los nombres de canales que ha definido en el [administrador de canales de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+Esta dimensión hace referencia directamente a los nombres de canales que ha definido en el [administrador de canales de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
 Cada visita enviada a los servidores de recopilación de datos de Adobe se ejecuta a través de las reglas de procesamiento del canal de marketing del grupo de informes. Se repite por cada regla en orden numérico hasta que encuentra una coincidencia, en la que ese canal de marketing se vincula con la visita. El canal de primer contacto persiste con el visitante hasta que no visita el sitio durante más tiempo que el periodo de participación de visitante (de forma predeterminada, 30 días).
 

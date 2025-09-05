@@ -4,7 +4,7 @@ description: Utilice los valores almacenados de una visita en línea para enriqu
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 0a65114d598b7c6d2871a2446ad4d574b9ca44bb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 8%
@@ -17,7 +17,7 @@ Las fuentes de datos del ID de transacción son una variación de las fuentes de
 
 >[!NOTE]
 >
->Antes de usar las fuentes de datos del ID de transacción, primero debe habilitarlo en [Configuración general de cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) para el grupo de informes deseado.
+>Antes de usar las fuentes de datos del ID de transacción, primero debe habilitarlo en [Configuración general de cuenta](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) para el grupo de informes deseado.
 
 ## Funcionamiento
 
@@ -32,7 +32,7 @@ Cuando envía una visita en línea que contiene la variable de implementación `
 * [Días antes de la primera compra](/help/components/dimensions/days-before-first-purchase.md)
 * [Días desde la última compra](/help/components/dimensions/days-since-last-purchase.md)
 * [eVars 1-250](/help/components/dimensions/evar.md)
-* Dimensiones específicas de características habilitadas en [Configuración del grupo de informes](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) que se comportan de manera similar a las eVars. No se incluyen las dimensiones específicas de funciones que se comportan de manera similar a las props.
+* Dimensiones específicas de características habilitadas en [Configuración del grupo de informes](/help/admin/tools/manage-rs/report-suites-admin.md) que se comportan de manera similar a las eVars. No se incluyen las dimensiones específicas de funciones que se comportan de manera similar a las props.
 * [Variables de lista](/help/implement/vars/page-vars/list.md)
 * [Canal de marketing](/help/components/dimensions/marketing-channel.md)
 * [Detalles del canal de marketing](/help/components/dimensions/marketing-detail.md)

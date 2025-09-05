@@ -4,7 +4,7 @@ description: Información general sobre el uso de datos XDM de Experience Platfo
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0ea86e7628e3cebe6f5fe1c4f584da1186b8cb83
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 16%
@@ -23,13 +23,13 @@ Los datos enviados a Adobe Experience Platform Edge Network pueden tener tres fo
 
 ## `xdm` objeto
 
-Se ajustan a los esquemas que cree en función de [XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) (modelo de datos de experiencia). XDM le proporciona flexibilidad en los campos que se definen como parte de los eventos. Si desea utilizar un esquema predefinido específico de Adobe Analytics, puede agregar el [grupo de campos de esquema Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) a su esquema. Una vez agregado, puede rellenar este esquema con el objeto `xdm` en Web SDK para enviar datos a un grupo de informes. Cuando los datos llegan a Edge Network, traducen el objeto XDM a un formato que Adobe Analytics comprende.
+Se ajustan a los esquemas que cree en función de [XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) (modelo de datos de experiencia). XDM le proporciona flexibilidad en los campos que se definen como parte de los eventos. Si desea utilizar un esquema predefinido específico de Adobe Analytics, puede agregar el [grupo de campos de esquema Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) a su esquema. Una vez agregado, puede rellenar este esquema con el objeto `xdm` en Web SDK para enviar datos a un grupo de informes. Cuando los datos llegan a Edge Network, traducen el objeto XDM a un formato que Adobe Analytics comprende.
 
 Consulte [Asignación de variables de objeto XDM a Adobe Analytics](xdm-var-mapping.md) para obtener una referencia completa de los campos XDM y cómo se asignan a las variables de Analytics.
 
 >[!TIP]
 >
->Si planea pasar a [Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-landing) en el futuro, Adobe aconseja no usar el grupo de campos de esquema de Adobe Analytics. En su lugar, Adobe recomienda [crear su propio esquema](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) y usar la asignación de secuencia de datos para rellenar las variables de Analytics que desee. Esta estrategia no le bloquea en un esquema de props y eVars cuando está listo para realizar el movimiento a Customer Journey Analytics.
+>Si planea pasar a [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) en el futuro, Adobe aconseja no usar el grupo de campos de esquema de Adobe Analytics. En su lugar, Adobe recomienda [crear su propio esquema](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) y usar la asignación de secuencia de datos para rellenar las variables de Analytics que desee. Esta estrategia no le bloquea en un esquema de props y eVars cuando está listo para realizar el movimiento a Customer Journey Analytics.
 
 ## `data` objeto
 
@@ -39,7 +39,7 @@ Consulte [Asignación de variables de objetos de datos a Adobe Analytics](data-v
 
 ## Variables de datos de contexto
 
-Envíe datos a Edge Network en el formato que desee. Los campos que no se asignen automáticamente a los campos de objeto `xdm` o `data` se incluyen como [variables de datos de contexto](/help/implement/vars/page-vars/contextdata.md) cuando se reenvían a Adobe Analytics. Debe usar [Reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) para asignar los campos deseados a sus respectivas variables de Analytics.
+Envíe datos a Edge Network en el formato que desee. Los campos que no se asignen automáticamente a los campos de objeto `xdm` o `data` se incluyen como [variables de datos de contexto](/help/implement/vars/page-vars/contextdata.md) cuando se reenvían a Adobe Analytics. Debe usar [Reglas de procesamiento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) para asignar los campos deseados a sus respectivas variables de Analytics.
 
 Por ejemplo, si tuviera un esquema XDM personalizado con el siguiente aspecto:
 

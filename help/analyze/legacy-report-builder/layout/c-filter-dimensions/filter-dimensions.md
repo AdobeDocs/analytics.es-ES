@@ -5,7 +5,7 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 73%
@@ -18,13 +18,13 @@ ht-degree: 73%
 
 Es posible filtrar las dimensiones que se añadan a la cuadrícula Rótulos de fila. Los filtros limitan los datos devueltos por las solicitudes y se pueden aplicar desde los diseños personalizados y de tabla dinámica. Cuando se configura el filtro de dimensiones desde el diseño de tabla dinámica, se puede especificar además el número de entradas de la celda.
 
-El formulario de filtro seleccionado se rellena en función del elemento y la métrica que estén seleccionados en la solicitud del Report Builder.
+El formulario de filtro seleccionado se rellena en función del elemento y la métrica que estén seleccionados en la solicitud de Report Builder.
 
 ## Definir filtro: valores y caracteres especiales {#section_15840216A4044C40974945FAA435AD93}
 
 Información sobre filtros en el panel **[!UICONTROL Filtros más populares]** > **[!UICONTROL Definir filtro]**.
 
-![Captura de pantalla que muestra el cuadro de diálogo Definir filtro con opciones para filtrar por aplicación, usuario y proyecto.](/help/admin/admin/assets/filter.png)
+![Captura de pantalla que muestra el cuadro de diálogo Definir filtro con opciones para filtrar por aplicación, usuario y proyecto.](/help/admin/tools/assets/filter.png)
 
 Las tablas que aparecen a continuación contienen ejemplos e información sobre filtros:
 

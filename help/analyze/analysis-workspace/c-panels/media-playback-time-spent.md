@@ -4,9 +4,9 @@ description: Aprenda a utilizar e interpretar el panel Tiempo invertido en la re
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1166'
 ht-degree: 90%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Tiempo invertido en la reproducción de contenido en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Panel de tiempo invertido en la reproducción de contenido](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)) para la versión de_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel Tiempo invertido en la reproducción de contenido en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Panel de tiempo invertido en la reproducción de contenido](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) para la versión de_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -126,8 +126,8 @@ La única métrica que se puede usar en este panel es Tiempo invertido en la rep
 >[!MORELIKETHIS]
 >
 >[Crear un panel](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Panel Audiencia media por minuto de medios](average-minute-audience-panel.md)
->&#x200B;>[Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
+>>[Panel Público medio por minuto de medios](average-minute-audience-panel.md)
+>>[Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
 >
 
 <!--

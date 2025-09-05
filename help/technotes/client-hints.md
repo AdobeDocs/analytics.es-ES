@@ -4,9 +4,9 @@ description: Obtenga información acerca de cómo las sugerencias del cliente re
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1174'
 ht-degree: 84%
 
 ---
@@ -25,13 +25,13 @@ Google divide las sugerencias del cliente agente de usuario en dos categorías: 
 
 A partir de octubre de 2022, las nuevas versiones de los exploradores Chromium empezaron a “bloquear” la versión del sistema operativo representada en la cadena del agente de usuario. La versión del sistema operativo es una sugerencia de alta entropía, por lo que para mantener su precisión en la creación de informes es necesario configurar la biblioteca de colección para recopilar estas sugerencias de alta entropía. Con el tiempo, se bloqueará otra información del dispositivo del agente de usuario, lo que requiere sugerencias del cliente para mantener la precisión de la creación de informes de dispositivos.
 
-Las sugerencias del cliente se incorporarán al proceso de búsqueda de dispositivos de Analytics a partir del 27 de febrero de 2023 y hasta el 2 de marzo de 2023. AppMeasurement y el SDK web admiten actualmente la recopilación de datos de sugerencias, pero no se emplearán en la búsqueda de dispositivos hasta mediados de febrero. Como se indica a continuación, la versión del sistema operativo se bloqueó a partir de octubre, pero debido a un despliegue gradual y al hecho de que muchos agentes de usuario ya proporcionan una versión del sistema operativo bloqueada (ver más [aquí](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es)), estimamos que esto afectará a menos del 3 % de los visitantes de Chrome.
+Las sugerencias del cliente se incorporarán al proceso de búsqueda de dispositivos de Analytics a partir del 27 de febrero de 2023 y hasta el 2 de marzo de 2023. AppMeasurement y el SDK web admiten actualmente la recopilación de datos de sugerencias, pero no se emplearán en la búsqueda de dispositivos hasta mediados de febrero. Como se indica a continuación, la versión del sistema operativo se bloqueó a partir de octubre, pero debido a un despliegue gradual y al hecho de que muchos agentes de usuario ya proporcionan una versión del sistema operativo bloqueada (ver más [aquí](/help/components/dimensions/operating-systems.md)), estimamos que esto afectará a menos del 3 % de los visitantes de Chrome.
 
 >[!NOTE]
 >
-> A partir de enero de 2023, algunas versiones de los sistemas operativos Mac y Windows se representan incorrectamente en el agente de usuario, pero correctamente en las sugerencias de cliente de alta entropía. Consulte [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es) para obtener más información.
+> A partir de enero de 2023, algunas versiones de los sistemas operativos Mac y Windows se representan incorrectamente en el agente de usuario, pero correctamente en las sugerencias de cliente de alta entropía. Consulte [Sistema operativo](/help/components/dimensions/operating-systems.md) para obtener más información.
 
-Adobe Audience Manager requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está usando el reenvío del lado del servidor a Adobe Audience Manager[&#128279;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=es), es posible que desee habilitar la recopilación de sugerencias de alta entropía.
+Adobe Audience Manager requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está usando el reenvío del lado del servidor a Adobe Audience Manager[, es posible que desee habilitar la recopilación de sugerencias de alta entropía.](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)
 
 ## Preguntas frecuentes
 
@@ -43,7 +43,7 @@ Esta [publicación de blog de Google](https://web.dev/user-agent-client-hints/) 
 
 +++**¿Cómo habilito la colección de sugerencias del cliente?**
 
-El explorador proporciona automáticamente sugerencias de baja entropía, ingeridas para derivar la información del dispositivo y del explorador. Se pueden configurar versiones más recientes del SDK web (a partir de 2.12.0) y AppMeasurement (a partir de 2.23.0) para recopilar sugerencias de alta entropía mediante sus respectivas extensiones de etiquetas o directamente mediante una opción de configuración. Consulte las instrucciones para [SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=es#enabling-high-entropy-client-hints) y [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=es).
+El explorador proporciona automáticamente sugerencias de baja entropía, ingeridas para derivar la información del dispositivo y del explorador. Se pueden configurar versiones más recientes del SDK web (a partir de 2.12.0) y AppMeasurement (a partir de 2.23.0) para recopilar sugerencias de alta entropía mediante sus respectivas extensiones de etiquetas o directamente mediante una opción de configuración. Consulte las instrucciones para [SDK web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=es#enabling-high-entropy-client-hints) y [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md).
 
 Para ambas bibliotecas, la colección de sugerencias de alta entropía está **desactivada de forma predeterminada**.
 
@@ -91,15 +91,15 @@ Los campos de dispositivo disponibles para la creación de informes no cambiará
 
 Estos campos derivan directamente del agente de usuario, pero este se puede utilizar para derivar valores para otros campos relacionados con el dispositivo, según sus detalles.
 
-* [Explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=es)
-* [Tipo de explorador](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=es)
-* [Sistema operativo](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=es)
-* [Tipos de sistemas operativos](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=es)
-* [Tipo de dispositivo móvil y dispositivo móvil](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=es)
+* [Explorador](/help/components/dimensions/browser.md)
+* [Tipo de explorador](/help/components/dimensions/browser-type.md)
+* [Sistema operativo](/help/components/dimensions/operating-systems.md)
+* [Tipos de sistemas operativos](/help/components/dimensions/operating-system-types.md)
+* [Tipo de dispositivo móvil y dispositivo móvil](/help/components/dimensions/mobile-dimensions.md)
 
 +++
 
-+++**¿Qué partes del Agente-Usuario se están &quot;congelando&quot; y cuándo?**
++++**¿Qué partes del Agente-Usuario se están &quot;congelando&quot; y cuándo?** 
 
 Consulte la [cronología publicada por Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Esto puede estar sujeto a cambios.
 
@@ -157,8 +157,8 @@ Consulte la [documentación del esquema](https://github.com/adobe/xdm/blob/maste
 
 +++
 
-+++**¿Admitirá el reenvío del lado del servidor Adobe Audience Manager las sugerencias del cliente?**
++++**¿Admitirá el reenvío del lado del servidor Adobe Audience Manager las sugerencias del cliente?** 
 
-Sí. Las sugerencias del cliente se incluirán en los datos reenviados a Adobe Audience Manager. Tenga en cuenta que Adobe Audience Manager requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está usando el reenvío del lado del servidor a Adobe Audience Manager[&#128279;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=es), es posible que desee habilitar la recopilación de sugerencias de alta entropía.
+Sí. Las sugerencias del cliente se incluirán en los datos reenviados a Adobe Audience Manager. Tenga en cuenta que Adobe Audience Manager requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está usando el reenvío del lado del servidor a Adobe Audience Manager[, es posible que desee habilitar la recopilación de sugerencias de alta entropía.](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)
 
 +++

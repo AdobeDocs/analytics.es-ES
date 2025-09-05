@@ -4,16 +4,16 @@ description: Obtenga información sobre cómo implementar Adobe Analytics usando
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 83%
+ht-degree: 79%
 
 ---
 
 # Implementar Adobe Analytics usando la extensión de Analytics
 
-Durante toda la vida útil de Adobe Analytics, Adobe ha ofrecido varios métodos diferentes para implementar código en su sitio para la recopilación de datos. El método que recomienda actualmente Adobe es a través de [Etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) en Adobe Experience Platform.
+Durante toda la vida útil de Adobe Analytics, Adobe ha ofrecido varios métodos diferentes para implementar código en su sitio para la recopilación de datos. El método recomendado actualmente por Adobe es a través de [Etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) en Adobe Experience Platform.
 
 Las etiquetas en Adobe Experience Platform son una solución de administración de etiquetas que le permite implementar código de Analytics junto con otros requisitos de etiquetado. Adobe ofrece integraciones con otras soluciones y productos, y le permite implementar código personalizado. Todas estas tareas se pueden realizar sin depender de ningún equipo de desarrollo de la organización para actualizar el código del sitio.
 
@@ -34,7 +34,7 @@ Una información general de alto nivel de las tareas de implementación:
 <tr>
 <td> 1</td>
 <td>Asegúrese de haber <b>definido un grupo de informes</b>.</td>
-<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Administrador del grupo de informes</a></td>
+<td><a href="../../admin/tools/manage-rs/report-suites-admin.md">Administrador del grupo de informes</a></td>
 </tr>
 
 <tr>
@@ -47,7 +47,7 @@ Una información general de alto nivel de las tareas de implementación:
 
 <tr>
 <td>3</td>
-<td><b><b>Crear una propiedad de etiquetas</b>. Las propiedades son contenedores generales que se utilizan para hacer referencia a los datos de administración de etiquetas.</td>
+<td><b><b>Crear una propiedad de etiqueta</b>. Las propiedades son contenedores generales que se utilizan para hacer referencia a los datos de administración de etiquetas.</td>
 <td><a href="../launch/create-analytics-property.md">Creación de una propiedad de etiquetas de Adobe Analytics</a></td>
 </tr>
 
@@ -65,7 +65,7 @@ Una información general de alto nivel de las tareas de implementación:
 <tr>
 <td>6</td> 
 <td><b>Validación y publicación para producción</b>. Incruste el código para incluir la propiedad de etiquetas en las páginas del sitio web. A continuación, utilice elementos de datos, reglas, etc. para personalizar la implementación.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=es#embed-code">Código incrustado</a><br/><a href="./validate-publish-prod.md">Validar una implementación de desarrollo y publicar en producción</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Código incrustado</a><br/><a href="./validate-publish-prod.md">Validar una implementación de desarrollo y publicar en producción</a></td>
 </tr>
 
 </table>

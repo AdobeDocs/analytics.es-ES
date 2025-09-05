@@ -4,7 +4,7 @@ keywords: Grupo de informes virtuales
 title: Flujo de trabajo del grupo de informes virtuales
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 74%
@@ -15,11 +15,11 @@ ht-degree: 74%
 
 Información general sobre los pasos necesarios para planificar la implementación de grupos de informes virtuales.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) Planee su estrategia de grupo de informes virtuales.
+![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Planee su estrategia de grupo de informes virtuales.
 
 Familiarícese con las [Consideraciones del etiquetado global/de grupos múltiples](/help/components/vrs/vrs-considerations.md) y con las preguntas frecuentes conforme decide su estrategia.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) [Cree un grupo de informes virtuales](/help/components/vrs/c-workflow-vrs/vrs-create.md) aplicando uno o varios segmentos a un grupo de informes superior.
+![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) [Cree un grupo de informes virtuales](/help/components/vrs/c-workflow-vrs/vrs-create.md) aplicando uno o varios segmentos a un grupo de informes superior.
 
 Los grupos de informes virtuales se crean en el administrador de grupos de informes virtuales, disponible a través de **[!UICONTROL Componentes]** > **[!UICONTROL Grupos de informes virtuales]**.
 
@@ -27,7 +27,7 @@ Una vez creado, el grupo de informes virtuales se trata como un grupo de informe
 
 Haga clic en el icono de información junto al nombre del grupo de informes para [ver información al respecto](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Abra un informe y seleccione un grupo de informes virtuales para proporcionar una vista segmentada de los datos.
+![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) Abra un informe y seleccione un grupo de informes virtuales para proporcionar una vista segmentada de los datos.
 
 ![](assets/step4_icon.png) [Administre](/help/components/vrs/c-workflow-vrs/vrs-manage.md) el grupo de informes virtuales.
 

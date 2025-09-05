@@ -4,7 +4,7 @@ description: Rellene manualmente la dimensión “Código postal” si la config
 feature: Appmeasurement Implementation
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 75%
@@ -17,7 +17,7 @@ La variable `zip` permite rellenar manualmente la dimensión “Código postal�
 
 >[!IMPORTANT]
 >
->Asegúrese de que la [!UICONTROL opción Zip] de la configuración del grupo de informes está establecida con el valor deseado. No puede usar esta variable si [!UICONTROL Geo zip] siempre se usa. Consulte [Configuración general de la cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) en la Guía de administración para obtener más información.
+>Asegúrese de que la [!UICONTROL opción Zip] de la configuración del grupo de informes está establecida con el valor deseado. No puede usar esta variable si [!UICONTROL Geo zip] siempre se usa. Consulte [Configuración general de la cuenta](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) en la Guía de administración para obtener más información.
 
 ## Código postal con Web SDK
 

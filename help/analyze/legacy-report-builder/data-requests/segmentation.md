@@ -4,9 +4,9 @@ title: Administración de segmentos (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '957'
 ht-degree: 74%
 
 ---
@@ -25,10 +25,10 @@ Report Builder incluye un panel de segmentación en el paso 1 del Asistente para
 
 >[!NOTE]
 >
->Para añadir o editar segmentos, la interfaz de segmentos de Report Builder inicia el Creación de segmentos de Analytics en una ventana de Microsoft Internet Explorer. Su sesión de Report Builder permanecerá activa. Otros exploradores que no sean Internet Explorer no son compatibles con esta operación.
+>Para añadir o editar segmentos, la interfaz de segmentos de Report Builder inicia el Generador de segmentos de Analytics en una ventana de Microsoft Internet Explorer. La sesión de Report Builder permanecerá activa. Otros exploradores que no sean Internet Explorer no son compatibles con esta operación.
 
 1. En el panel de segmento del paso 1 del Asistente para solicitudes, haga clic en **[!UICONTROL Añadir]**.
-1. Se inicia una ventana de Internet Explorer que abre la interfaz del Creador de segmentos de Analytics. Para obtener información sobre cómo crear segmentos, consulte la [segmentación de Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=es).
+1. Se inicia una ventana de Internet Explorer que abre la interfaz del Generador de segmentos de Analytics. Para obtener información sobre cómo crear segmentos, consulte la [segmentación de Analytics](/help/components/segmentation/seg-home.md).
 1. Una vez que haya definido y guardado el segmento, vuelva al Asistente para solicitudes.
 1. Haga clic en el icono de actualizar para actualizar la lista de segmentos.
 
@@ -45,11 +45,11 @@ Es posible que tenga combinaciones específicas de dimensiones de informe que de
 
    ![Captura de pantalla que muestra Crear segmento en contexto en las opciones de contenedor seleccionadas y disponibles.](assets/seg_in_context.png)
 
-   Si desea información acerca de los contenedores, consulte la [Guía de segmentación](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=es).
+   Si desea información acerca de los contenedores, consulte la [Guía de segmentación](/help/components/segmentation/seg-home.md).
 
-1. Se iniciará la interfaz de usuario del creador de segmentos en Internet Explorer. La interfaz de usuario del creador de segmentos se iniciará con el contenedor y el filtro que haya especificado.
+1. Se iniciará la interfaz de usuario del Generador de segmentos en Internet Explorer. La interfaz de usuario del Generador de segmentos se iniciará con el contenedor y el filtro que haya especificado.
 1. Añada un nombre y una descripción al segmento y, a continuación, guárdelo.
-1. Vuelva al Report Builder y haga clic en el botón Actualizar para actualizar la lista de segmentos.
+1. Vuelva a Report Builder y haga clic en el botón Actualizar para actualizar la lista de segmentos.
 1. Ahora está listo para aplicar este segmento.
 
 ## Buscar y aplicar segmentos {#search}

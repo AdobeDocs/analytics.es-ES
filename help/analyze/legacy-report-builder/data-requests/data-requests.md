@@ -4,9 +4,9 @@ title: 'Solicitudes de datos: Paso 1 del Asistente para solicitudes'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 90%
 
 ---
@@ -23,7 +23,7 @@ En el formulario Asistente para solicitudes: Paso 1, se selecciona el grupo y el
 
 1. **Selector de rango:** permite seleccionar un ID de grupo de informes en una celda en Excel. Ver [Seleccionar grupos de informes](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Segmento**: los segmentos son subconjuntos de datos o datos filtrados mediante reglas que se han creado. Los segmentos se basan en visitas individuales, visitas y visitantes. Consulte la [Guía de segmentación de Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=es) para obtener más información acerca de los segmentos.
+1. **Segmento**: los segmentos son subconjuntos de datos o datos filtrados mediante reglas que se han creado. Los segmentos se basan en visitas individuales, visitas y visitantes. Consulte la [Guía de segmentación de Analytics](/help/components/segmentation/seg-home.md) para obtener más información acerca de los segmentos.
 
    Por ejemplo, puede ejecutar un [!UICONTROL Informe de páginas] y, a continuación, aplicar el segmento Primeras visitas.
 

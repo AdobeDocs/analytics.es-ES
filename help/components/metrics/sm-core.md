@@ -3,7 +3,7 @@ title: Métricas principales de los servicios de medios de streaming
 description: Métricas disponibles cuando habilitas [!UICONTROL Media Core] para un grupo de informes.
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 1%
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 Las métricas principales de los servicios de medios de streaming proporcionan una funcionalidad básica de creación de informes a los datos recopilados a través de las bibliotecas de recopilación de servicios de medios de streaming. El uso de estas métricas requiere el **[!UICONTROL complemento de Adobe Analytics para medios de streaming]**. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
 
-Cuando habilita **[!UICONTROL Componentes básicos de medios]** en [Informes de medios](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), están disponibles las siguientes métricas:
+Cuando habilita **[!UICONTROL Componentes básicos de medios]** en [Informes de medios](/help/admin/tools/manage-rs/edit-settings/media-management.md), están disponibles las siguientes métricas:
 
 | Nombre de la métrica | Descripción | Enviado con | Variable de datos de contexto |
 | --- | --- | --- | --- |
-| Audiencia media por minuto | Cantidad total de tiempo invertido en un contenido determinado, dividido por su duración para todas las sesiones de reproducción.<br>`[Time spent] / [Media length]` | Cierre de medios | `a.media.averageMinuteAudience` |
+| Público medio por minuto | Cantidad total de tiempo invertido en un contenido determinado, dividido por su duración para todas las sesiones de reproducción.<br>`[Time spent] / [Media length]` | Cierre de medios | `a.media.averageMinuteAudience` |
 | El contenido finaliza | Déclencheur cuando se completa un fragmento de contenido. Esta métrica no significa necesariamente que hayan visto todo el contenido; podrían haberse saltado partes. Solo significa que han llegado al final del contenido. | `a.media.complete` |
 | Flujos afectados por la pausa | Un booleano que indica en déclencheur si se produjeron una o más pausas durante la reproducción del contenido. | Cierre de medios | `a.media.pause` |
 | Pausar eventos | El recuento de pausas que se produjeron durante una sesión de reproducción. | Cierre de medios | `a.media.pauseCount` |

@@ -3,8 +3,8 @@ description: Explica la estrategia de lanzamiento continuo de funcionalidades pa
 title: Versiones de funcionalidades de Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
-workflow-type: ht
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Las versiones de Adobe Analytics funcionan con un modelo de entrega continuo que
 
 ## Estrategia de lanzamiento
 
-[!UICONTROL Analysis Workspace] utiliza indicadores de funcionalidades (también conocidos como “alternadores”) para controlar la visibilidad de las nuevas funcionalidades, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
+[!UICONTROL Analysis Workspace] utiliza indicadores de funcionalidades (también conocidos como “conmutadores”) para controlar la visibilidad de las nuevas funcionalidades, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
 
 * **Prueba limitada**: una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. A continuación, se pone a disposición de un pequeño grupo de cuentas del cliente para garantizar que la funcionalidad satisfaga sus necesidades y expectativas.
 
@@ -41,4 +41,4 @@ Las versiones por fases permiten a Adobe escalar mejor el proceso de implementac
 | Pregunta | Respuesta |
 | --- | --- |
 | ¿Puedo solicitar acceso anticipado a una funcionalidad? | No. No se puede solicitar el acceso anticipado.<br>Si desea probar las versiones iniciales de Analytics, le recomendamos que pruebe [Adobe Analytics Labs](/help/analyze/labs.md) para proporcionar comentarios sobre las innovaciones líderes del sector. |
-| ¿Esta estrategia de lanzamiento afecta mi acceso a las funcionalidades? | No. Una vez que una funcionalidad haya llegado a su fase de disponibilidad general, tendrá acceso a ella si está incluida en su paquete de Analytics.<br>Puede ver los detalles del paquete de Analytics en [Niveles de acceso de las funciones](/help/admin/admin/company/feature-access-levels.md). |
+| ¿Esta estrategia de lanzamiento afecta mi acceso a las funcionalidades? | No. Una vez que una funcionalidad haya llegado a su fase de disponibilidad general, tendrá acceso a ella si está incluida en su paquete de Analytics.<br>Puede ver los detalles del paquete de Analytics en [Niveles de acceso de las funciones](/help/admin/tools/company/feature-access-levels.md). |

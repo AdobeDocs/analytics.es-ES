@@ -4,7 +4,7 @@ title: Ejecutar análisis de contribución
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 14%
@@ -59,7 +59,7 @@ Los pasos para ejecutar el análisis de contribución son los siguientes:
    * [Desglose cada elemento de dimensión por otra dimensión](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
    * [Realizar la tendencia de una o más filas](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [Agregar nuevas visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-   * [Crear alertas](/help/components/c-alerts/intellligent-alerts.md)
+   * [Crear alertas](/help/components/alerts/alerts-overview.md)
    * [Crear o comparar segmentos.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 >[!NOTE]

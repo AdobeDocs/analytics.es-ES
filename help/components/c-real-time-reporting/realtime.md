@@ -4,7 +4,7 @@ title: Resumen de informes en tiempo real
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 91%
@@ -17,7 +17,7 @@ Los informes en tiempo real muestran tráfico de páginas web y clasifican las v
 
 >[!NOTE]
 >
->El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte [Configuración de informes en tiempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+>El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte [Configuración de informes en tiempo real](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md).
 
 ## Acceso a informes en tiempo real
 
@@ -31,7 +31,7 @@ Los informes en tiempo real muestran tráfico de páginas web y clasifican las v
 
 Los informes en tiempo real responden a las preguntas siguientes: ¿Cuáles son las tendencias en mi sitio y por qué? Le permite, como especialista en marketing, responder rápidamente y administrar de forma activa el rendimiento de sus campañas de marketing y de su contenido. Los datos en tiempo real recibidos tienen una latencia inferior a dos minutos y se actualizan automáticamente cada minuto.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report-realtime.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/report-realtime.png)
 
 El tablero incluye métricas de alta frecuencia de Adobe Analytics y análisis de sitio para informar de forma visual sobre el tráfico y las tendencias de vistas de páginas de noticias dinámicas y sitios web comerciales. El informe en tiempo real comprende las tendencias minuto a minuto, pocos segundos después de haber recopilado los datos. Recopila y transmite datos en una interfaz que se actualiza automáticamente, con correlación en tiempo real, seguimiento de contenido y conversión.
 
@@ -57,7 +57,7 @@ La configuración y visualización de informes en tiempo real está restringida 
 
 ## Latencia de datos como resultado de la configuración de A4T {#latency-a4t}
 
-Tras activar la integración de A4T en Adobe [!DNL Target], experimentará otros 5-10 minutos de latencia en Adobe Analytics. Este aumento de la latencia permite almacenar los datos de Analytics y [!DNL Target] en la misma visita, lo que le permite desplegar las pruebas por página y por sección de sitio.
+Tras habilitar la integración de A4T en Adobe [!DNL Target], experimentará otros 5-10 minutos de latencia en Adobe Analytics. Este aumento de la latencia permite almacenar los datos de Analytics y [!DNL Target] en la misma visita, lo que le permite desplegar las pruebas por página y por sección de sitio.
 
 Este aumento se ve reflejado en todos los servicios y herramientas de Adobe Analytics, incluido el flujo en directo y los informes en tiempo real, y se aplica a estos escenarios:
 

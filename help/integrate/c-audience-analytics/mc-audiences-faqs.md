@@ -1,12 +1,12 @@
 ---
 description: Respuestas a preguntas que podría tener al implementar Audience Analytics.
 solution: Experience Cloud
-title: Preguntas más frecuentes para el Audience Analytics
+title: Preguntas más frecuentes sobre Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1090'
 ht-degree: 30%
 
 ---
@@ -19,7 +19,7 @@ Respuestas a preguntas que podría tener al implementar Audience Analytics.
 
 +++ ¿Cómo sé si tengo información de identificación personal (PII) en mis datos de Analytics? Y si es así, ¿qué puedo hacer al respecto?
 
-Si tiene correos electrónicos, direcciones, etc. en una propiedad o eVar, considere crear valores hash de los datos durante la recopilación. Si su país considera que la dirección IP es PII, [active la confusión de IP](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=es). Hable con su administrador de Analytics para ver lo que está recopilando. Hable con su departamento legal para ver qué consideran PII.
+Si tiene correos electrónicos, direcciones, etc. en una prop o eVar, considere crear valores hash de los datos durante la recopilación. Si su país considera que la dirección IP es PII, [active la confusión de IP](/help/admin/tools/exclude-ip.md). Hable con su administrador de Analytics para ver lo que está recopilando. Hable con su departamento legal para ver qué consideran PII.
 
 +++
 
@@ -27,7 +27,7 @@ Si tiene correos electrónicos, direcciones, etc. en una propiedad o eVar, consi
 
 Esto no se aplica al envío de datos de Adobe Analytics a Adobe Audience Manager. Pregúntese a usted mismo:
 
-* ¿Volverá a compartir un segmento compartido de Analytics con una dimensión MCA con el Experience Cloud?
+* ¿Volverá a compartir un segmento compartido de Analytics con una dimensión MCA en Experience Cloud?
 
 * ¿Va a realizar la exportación (por ejemplo, a través de fuentes de datos) a un sistema de inteligencia empresarial (BI) que se use para este propósito?
 
@@ -107,9 +107,9 @@ Es probable que tenga en Adobe Audience Manager un conflicto de controles de pri
 
 +++ ¿Por qué veo &quot;Se ha alcanzado el límite de audiencias&quot; en mi informe de Analytics? (Nota: Esto también se representará como ID de audiencia = -1 y `::max_audiences_exceeded::` en Data Warehouse)
 
-De forma predeterminada, la integración de Audience Analytics para Adobe Audience Manager envía a Analytics, para cada visita, todos los segmentos a los que el visitante pertenece. Si un visitante pertenece a más de 150 segmentos de Adobe Audience Manager en una sola visita, se enviarán a Analytics los **150 segmentos para los que se ha obtenido cualificación más recientemente**, mientras que el resto se truncará. Se envía a Analytics un marcador adicional que indica que la lista de segmentos se ha truncado y se muestra “Alcanzado límite de audiencias” en la dimensión Nombre de audiencia y “-1” en la dimensión ID de audiencia.
+De forma predeterminada, la integración de Audience Analytics para Adobe Audience Manager envía a Analytics, para cada visita, todos los segmentos a los que el visitante pertenece. Si un visitante pertenece a más de 150 segmentos de Adobe Audience Manager en una sola visita, se enviarán a Analytics los **150 segmentos para los que se ha obtenido cualificación más recientemente**, mientras que el resto se truncará. Se envía a Analytics un marcador adicional que indica que la lista de segmentos se ha truncado y se muestra “Alcanzado límite de públicos” en la dimensión Nombre de público y “-1” en la dimensión ID de público.
 
-Aunque es poco probable que un visitante esté cualificado para pertenecer a más de 150 segmentos en una visita particular, puede suceder en un pequeño número de ocasiones. Si el mensaje “Alcanzado límite de audiencias” aparece en su informe, tiene dos opciones:
+Aunque es poco probable que un visitante esté cualificado para pertenecer a más de 150 segmentos en una visita particular, puede suceder en un pequeño número de ocasiones. Si el mensaje “Alcanzado límite de públicos” aparece en su informe, tiene dos opciones:
 
 * Opción 1: permita que la integración siga funcionando del modo predeterminado, con el envío de los 150 segmentos para los que un visitante particular ha obtenido cualificación más recientemente.
 
@@ -135,13 +135,13 @@ Sí. En la configuración de destino de Adobe Audience Manager solo verá los gr
 
 Solo pueden habilitarse los grupos asignados a su organización de Experience Cloud.
 
-Para saber más sobre este tema, consulte [Preguntas frecuentes sobre el reenvío de lado del servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md).
+Para saber más sobre este tema, consulte [Preguntas frecuentes sobre el reenvío de lado del servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 
 +++
 
 ## Preguntas más frecuentes generales {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
-+++ ¿Por qué el visitante del segmento tiene un recuento diferente entre Audience Manager y Analytics?
++++ ¿Por qué el visitante del segmento tiene un recuento diferente en Audience Manager y Analytics?
 
 Ver [Diferencias de recuento de visitantes](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md).
 

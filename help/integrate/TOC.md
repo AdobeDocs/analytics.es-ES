@@ -4,24 +4,24 @@ audience: end-user
 user-guide-title: Guía de integración de Analytics
 breadcrumb-title: Guía de integración
 user-guide-description: Configure integraciones con otras soluciones de Adobe Experience Cloud, como Audience Manager y Advertising Cloud.
-source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
-workflow-type: ht
-source-wordcount: '151'
-ht-degree: 100%
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 96%
 
 ---
 
 
 # Guía de integración de Adobe Analytics {#integration}
 
-+ [Integración de Analytics](home.md)
-+ [Notas de la versión de Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
++ [Guía de integración de Analytics](home.md)
++ [Notas de la versión de Analytics](https://experienceleague.adobe.com/es/docs/analytics/release-notes/latest)
 + Audience Analytics {#audience-analytics}
    + [Resumen de Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
    + Flujo de trabajo de Audience Analytics {#audience-analytics-workflow}
       + [Resumen del flujo de trabajo](c-audience-analytics/c-workflow/audiences-workflow.md)
       + [Crear destino de Analytics: guía de Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=es)
-      + [Utilización de los datos de audiencias en Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
+      + [Utilización de los datos de públicos en Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Casos de uso de Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
       + [Preguntas frecuentes](c-audience-analytics/mc-audiences-faqs.md)
       + [Diferencias en la contabilización de visitantes](c-audience-analytics/visitor-count-reconciliation.md)
@@ -30,7 +30,7 @@ ht-degree: 100%
    + [Resumen de Advertising Analytics](c-advertising-analytics/overview.md)
    + Flujo de trabajo de configuración de Advertising Analytics {#advertising-analytics-workflow}
       + [Resumen del flujo de trabajo](c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md)
-      + [Activación de un grupo de informes para Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+      + [Habilitación de un grupo de informes para Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
       + [Configurar una cuenta publicitaria](c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
       + [Localización de los ID de su cuenta](c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)
       + [Seguimiento: Modo manual y modo automático](c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)

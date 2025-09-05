@@ -1,12 +1,12 @@
 ---
-description: Obtenga información sobre cómo generar segmentos arrastrando y soltando métricas, dimensiones, segmentos y eventos. Descubra cómo puede generar y guardar segmentos simples o complejos que identifican atributos y acciones de visitantes en visitas y visitas individuales de páginas.
+description: Obtenga información sobre cómo generar segmentos arrastrando y soltando métricas, dimensiones, segmentos y eventos. Descubra cómo puede generar y guardar segmentos simples o complejos que identifican atributos y acciones de los visitantes a lo largo de las visitas y las visitas individuales a la página.
 title: Generar segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '1847'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Previsualización de los datos"
->abstract="Compara los datos de este segmento con los datos del grupo de informes. El porcentaje de vista previa se basa en el número total de los **últimos 90 días**.<br><br/>Si la vista previa no se carga, es posible que la conexión aún esté reponiendo los datos."
+>abstract="Compara los datos de este segmento con los del grupo de informes. El porcentaje de vista previa se basa en el número total de los **últimos 90 días**.<br><br/>Si la vista previa no se carga, es posible que la conexión aún esté reponiendo los datos."
 
 
 El cuadro de diálogo **[!UICONTROL Generador de segmentos]** se usa para crear segmentos nuevos o editar los existentes. El cuadro de diálogo se titula **[!UICONTROL Nuevo segmento]** o **[!UICONTROL Editar segmento]** para los segmentos que se creen o administren desde el administrador de [[!UICONTROL Segmentos]](/help/components/segmentation/segmentation-workflow/seg-manage.md).
@@ -170,7 +170,7 @@ O bien, puede definir 55 segmentos: 50 segmentos para los estados de EE. UU. y 5
 
 
 
-Cuando se utiliza una dimensión en el Generador de segmentos, se tienen las opciones para especificar el modelo de atribución para esa dimensión. El modelo de atribución que seleccione determina si los datos cumplen los requisitos para la condición especificada para el componente de dimensión.
+Cuando se utiliza una dimensión en el Generador de segmentos, se tienen las opciones para especificar el modelo de atribución para esa dimensión. El modelo de atribución que seleccione determina si los datos cumplen los requisitos de la condición que ha especificado para el componente de dimensión.
 
 Seleccione ![Configuración](/help/assets/icons/Setting.svg) dentro del componente de dimensión y seleccione uno de los modelos de atribución en la ventana emergente:
 
@@ -215,7 +215,7 @@ There are several ways to access the Segment builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/es/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](/help/analyze/report-builder/work-with-segments.md).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -362,9 +362,9 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## Plantillas de segmentos {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-Se proporcionan plantillas de segmentos para casos de uso de segmentación comunes, como **[!UICONTROL Visitas por primera vez]** o **[!UICONTROL Visitas desde dispositivos móviles]**. Están disponibles en proyectos de Workspace y en el generador de segmentos como componentes básicos para nuevos segmentos.
+Las plantillas de segmentos se proporcionan para casos de uso de segmentación comunes, como **[!UICONTROL Visitas por primera vez]** o **[!UICONTROL Visitas desde dispositivos móviles]**. Están disponibles en proyectos de Workspace y en el generador de segmentos como componentes básicos para nuevos segmentos.
 
-Un logotipo de Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifica las plantillas. A continuación, se muestra un ejemplo de las plantillas disponibles:
+Un logotipo de Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifica las plantillas. A continuación se ofrece una muestra de las plantillas disponibles:
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -376,75 +376,75 @@ Un logotipo de Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) id
  <tbody> 
   <tr> 
    <td colname="col1"> Abandonar carro </td> 
-   <td colname="col2">Ver datos de visitantes que agregaron elementos al carro pero no realizaron ningún pedido. En la definición del segmento, el contenedor es Visita. </td> 
+   <td colname="col2">Ver datos de visitantes que agregaron elementos al carro pero no realizaron ningún pedido. En la definición de segmento, el contenedor es Visita. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas por primera vez </td> 
-   <td colname="col2">Ver datos de visitantes que han visitado el sitio como máximo una [1] vez. En la definición del segmento, el contenedor es Visita. </p> </td> 
+   <td colname="col2">Ver datos de visitantes que han visitado el sitio como máximo una [1] vez. En la definición de segmento, el contenedor es Visita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> No compradores </td> 
-   <td colname="col2">Ver datos de visitantes que no han participado en un evento de pedido. </td> 
+   <td colname="col2">Ver datos de los visitantes que no han participado en un evento de pedido. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visitas a una página no únicas (no devoluciones) </td> 
-   <td colname="col2">Ver datos de visitantes que realizaron una visita más de una vez.</p> </td> 
+   <td colname="col1"> Visitas que no son de una sola página (no salidas hacia otro sitio) </td> 
+   <td colname="col2">Ver datos de los visitantes que han realizado más de una visita.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Búsqueda de pago </td> 
-   <td colname="col2">Ver datos de visitantes procedentes de una búsqueda de pago.  </td> 
+   <td colname="col2">Ver datos de los visitantes procedentes de una búsqueda de pago.   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Compradores </td> 
-   <td colname="col2">Ver datos de visitantes que han participado en un evento de pedido.  </td> 
+   <td colname="col2">Ver datos de los visitantes que han participado en un evento de pedido.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas de retorno </td> 
-   <td colname="col2">Ver datos de visitantes que han visitado al menos una vez.  </td> 
+   <td colname="col2">Ver datos de los visitantes que han realizado al menos una visita.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas de página única </td> 
-   <td colname="col2"> Ver datos de las visitas en las que se ve el valor de una sola página, aunque se envíen varias vistas de página durante esa visita. Las visitas a una sola página con eventos de vínculo de salida se incluyen en el segmento.  </td> 
+   <td colname="col2"> Ver datos de las visitas en las que se ve el valor de una sola página, aunque se envíen varias vistas de página durante esa visita. En el segmento se incluyen las visitas a una sola página con eventos de vínculo de salida.  </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Producto visto no se agregó al carro </td> 
-   <td colname="col2">Ver datos de visitantes que vieron productos pero no tuvieron adiciones al carro de compras.  </td> 
+   <td colname="col1"> Producto visto que no se agregó al carro de compras </td> 
+   <td colname="col2">Ver datos de los visitantes que vieron productos, pero no han añadido nada al carro de compras.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas desde campaña </td> 
-   <td colname="col2">Ver datos de visitantes referidos por campañas. </td> 
+   <td colname="col2">Ver datos de los visitantes remitidos por campañas. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas desde dispositivos móviles </td> 
-   <td colname="col2">Vista de datos de visitantes con dispositivos móviles. </td> 
+   <td colname="col2">Ver datos de los visitantes que utilizan dispositivos móviles. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas de búsqueda natural </td> 
-   <td colname="col2">Ver datos de visitantes que no proceden de una búsqueda de pago.  </td> 
+   <td colname="col2">Ver datos de los visitantes que no proceden de una búsqueda de pago.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas desde un dispositivo no móvil </td> 
-   <td colname="col2">Vista de datos de visitantes que no utilizan dispositivos móviles. </td> 
+   <td colname="col2">Ver datos de los visitantes que no utilizan dispositivos móviles. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas desde teléfonos </td> 
-   <td colname="col2">Ver datos de visitantes a través de teléfonos.  </td> 
+   <td colname="col2">Ver datos de los visitantes que utilizan teléfonos.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas desde motores de búsqueda </td> 
-   <td colname="col2">Ver datos de visitantes referidos por motores de búsqueda.</td> 
+   <td colname="col2">Ver datos de los visitantes remitidos por los motores de búsqueda.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas provenientes de sitios sociales </td> 
-   <td colname="col2">Ver datos de visitantes referidos por sitios sociales.</td> 
+   <td colname="col2">Ver datos de los visitantes remitidos desde sitios sociales.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas desde tabletas </td> 
-   <td colname="col2">Vista de datos de visitantes con tabletas.</td> 
+   <td colname="col2">Ver datos de los visitantes que utilizan tabletas.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas con cookie de ID de visitante </td> 
-   <td colname="col2">Ver datos de los visitantes del sitio donde se requiere una cookie persistente.</td> 
+   <td colname="col2">Ver datos de los visitantes de su sitio, donde se requiere una cookie persistente.</td> 
   </tr> 
  </tbody> 
 </table>

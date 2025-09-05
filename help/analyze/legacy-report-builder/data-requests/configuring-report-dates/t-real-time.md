@@ -4,9 +4,9 @@ title: Configuración de una solicitud en tiempo real
 feature: Report Builder
 role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 80%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 80%
 
 Para configurar las fechas de solicitud en tiempo real:
 
-1. Asegúrese de que los informes en tiempo real estén habilitados en [Herramientas de administración](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=es).
+1. Asegúrese de que los informes en tiempo real estén habilitados en [Herramientas de administración](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md).
 1. En el [!UICONTROL Asistente para solicitudes: paso 1], haga clic en **[!UICONTROL Informe en tiempo real]** > **[!UICONTROL `<report type>`]**
 
    Por ejemplo, si selecciona un informe de tráfico. Cuando selecciona el tipo de informe en tiempo real, se muestran las opciones de [!UICONTROL Seleccionar intervalo de tiempo].

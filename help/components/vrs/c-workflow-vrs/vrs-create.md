@@ -4,9 +4,9 @@ keywords: Grupo de informes virtuales
 title: Crear un grupo de informes virtuales
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '674'
 ht-degree: 62%
 
 ---
@@ -35,7 +35,7 @@ En la pestaña [!UICONTROL Configuración], defina esta configuración y haga cl
 | Etiquetas | Puede agregar etiquetas para organizar los grupos de informes. |
 | Fuente | El grupo de informes del que surge este grupo de informes virtuales hereda la siguiente configuración. La mayoría de los niveles y funciones de servicio (por ejemplo, la configuración eVar, las reglas de procesamiento, las Clasificaciones, etc.) se heredan. Para realizar cambios en esta configuración heredada en un grupo de informes virtuales, debe editar el grupo de informes superior (Administración > Grupos de informes). |
 | Zona horaria | Elegir una zona horaria es opcional. Si elige una zona horaria, esta se guarda junto con el grupo de informes virtuales. En caso contrario, se usará la zona horaria del grupo de informes superior.  Al editar un grupo de informes virtual, la zona horaria guardada con el grupo de informes virtual aparece en el selector desplegable. Si el grupo de informes virtuales se creó antes de que se añadiera la opción de la zona horaria, en el selector desplegable se muestra la zona horaria del grupo de informes principal. |
-| Segmentos  | Solo tiene que añadir un segmento o apilar otros.   Nota: Al apilar dos segmentos, se unen de manera predeterminada con una instrucción AND. No es posible cambiarlo a una instrucción OR. Si intenta eliminar o modificar un segmento que se utilice en un grupo de informes virtuales, se muestra un error. |
+| Segmentos | Solo tiene que añadir un segmento o apilar otros.   Nota: Al apilar dos segmentos, se unen de manera predeterminada con una instrucción AND. No es posible cambiarlo a una instrucción OR. Si intenta eliminar o modificar un segmento que se utilice en un grupo de informes virtuales, se muestra un error. |
 
 ## Definir la descripción de la visita
 
@@ -46,7 +46,7 @@ En la pestaña [!UICONTROL Descripción de la visita], defina esta configuració
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajustar una definición de visita](https://video.tv.adobe.com/v/3428472?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajustar una definición de visita](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajustar una defi
 ![](assets/components.png)
 
 1. En la pestaña [!UICONTROL Componentes], active la casilla de verificación para aplicar la depuración para incluir, excluir y cambiar el nombre de los componentes de este grupo de informes virtuales en Analysis Workspace.
-Para obtener más información sobre la revisión de grupos de informes virtuales, consulte [Revisión de componentes de grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=es#virtual-report-suites).
+Para obtener más información sobre la revisión de grupos de informes virtuales, consulte [Revisión de componentes de grupos de informes virtuales](/help/components/vrs/vrs-components.md).
 
 1. Arrastre los componentes (dimensiones, métricas, segmentos o intervalos de fechas) que desee incluir en el grupo de informes virtuales a la sección [!UICONTROL Componentes incluidos].
 

@@ -4,9 +4,9 @@ title: Dimensiones de partición de tiempo
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 74%
 
 ---
@@ -18,7 +18,7 @@ La partición de tiempo toma la marca de tiempo de las visitas recogidas y la di
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones de partición de tiempo](https://video.tv.adobe.com/v/41459?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensiones de partición de tiempo](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +32,7 @@ Las dimensiones de partición de tiempo se basan en el huso horario del grupo de
 
 >[!NOTE]
 >
->Las dimensiones de partición de tiempo solo están disponibles en Analysis Workspace. Para utilizar dimensiones de partición de tiempo en otras soluciones de Analytics, puede implementar el [complemento getTimeParting](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html?lang=es).
+>Las dimensiones de partición de tiempo solo están disponibles en Analysis Workspace. Para utilizar dimensiones de partición de tiempo en otras soluciones de Analytics, puede implementar el [complemento getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
 
 Las dimensiones de partición de tiempo en Analysis Workspace incluyen:
 

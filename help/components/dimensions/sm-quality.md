@@ -3,7 +3,7 @@ title: Dimensiones de calidad de servicios de medios de streaming
 description: Dimensiones disponibles al habilitar [!UICONTROL Calidad de los medios] para un grupo de informes.
 feature: Dimensions
 exl-id: e3794d8c-3c03-425d-850c-a735b579324b
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Las dimensiones de calidad de los servicios de medios de streaming proporcionan informes relacionados con la calidad del contenido que consume el visitante. El uso de estas dimensiones requiere el [!UICONTROL complemento de Adobe Analytics para medios de streaming]. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
 
-Cuando habilita **[!UICONTROL Calidad multimedia]** en [Informes multimedia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), están disponibles las siguientes dimensiones:
+Cuando habilita **[!UICONTROL Calidad multimedia]** en [Informes multimedia](/help/admin/tools/manage-rs/edit-settings/media-management.md), están disponibles las siguientes dimensiones:
 
 | Nombre de dimensiones | Descripción | Enviado con | Variable de datos de contexto |
 | --- | --- | --- | --- |

@@ -5,9 +5,9 @@ title: Marcas de hora opcionales
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 96%
 
 ---
@@ -20,7 +20,7 @@ Conozca las ventajas y limitaciones de utilizar la opción Marcas de hora opcion
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/3418612?quality=12&learn=on&captions=spa){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 -->
@@ -36,7 +36,7 @@ Marcas de hora opcionales es la configuración predeterminada para todos los gru
 >
 >Marcas de hora opcionales es la configuración predeterminada para todos los nuevos grupos de informes generados a partir de una plantilla. Los nuevos grupos de informes copiados de un grupo de informes existente heredarán la configuración del original.
 
-Consulte [Marcas de hora opcionales](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=es) para obtener información adicional sobre configuración.
+Consulte [Marcas de hora opcionales](/help/technotes/timestamps-optional.md) para obtener información adicional sobre configuración.
 
 ## Marcas de hora opcionales: integrar datos con y sin marca de tiempo {#integrate}
 

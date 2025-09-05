@@ -4,7 +4,7 @@ description: Preguntas frecuentes sobre las fuentes de datos.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 667870f9575bbc03a72738771f34bf1718725d6c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 7%
@@ -30,8 +30,8 @@ Los datos cargados a través de fuentes de datos no afectan las [vistas de pági
 +++¿Los datos cargados a través de fuentes de datos se procesan mediante reglas adicionales, como las reglas de procesamiento?
 No. Datos cargados mediante fuentes de datos:
 
-* No pasa por [Reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
-* No pasa por [reglas de procesamiento de canal de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+* No pasa por [Reglas de procesamiento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
+* No pasa por [reglas de procesamiento de canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
 * No pasa por [reglas VISTA](/help/technotes/vista.md)
 +++
 

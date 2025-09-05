@@ -5,7 +5,7 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 89%
@@ -18,7 +18,7 @@ ht-degree: 89%
 
 Filtros condicionales y de clasificación que se configuran mediante la lógica booleana con las expresiones de búsqueda Y/O.
 
-Los filtros más utilizados son filtros de expresión que se configuran mediante la lógica booleana con las condiciones AND/OR como, por ejemplo, [!UICONTROL La página no contiene &#x200B;]*`<product name>`* con condiciones o grupos de condiciones como [!UICONTROL Incluye todo], [!UICONTROL Incluye cualquiera] o [!UICONTROL Excluye todo]. Puede [guardar](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md) estas expresiones para otra solicitud de este libro u otros libros de trabajo.
+Los filtros más utilizados son filtros de expresión que se configuran mediante la lógica booleana con las condiciones AND/OR como, por ejemplo, [!UICONTROL La página no contiene ]*`<product name>`* con condiciones o grupos de condiciones como [!UICONTROL Incluye todo], [!UICONTROL Incluye cualquiera] o [!UICONTROL Excluye todo]. Puede [guardar](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md) estas expresiones para otra solicitud de este libro u otros libros de trabajo.
 
 **Para crear un filtro de este tipo**
 
@@ -26,9 +26,9 @@ Los filtros más utilizados son filtros de expresión que se configuran mediante
 
 1. En el [!UICONTROL Asistente para solicitudes: Paso 2], haga clic en el vínculo situado junto a la dimensión en la cuadrícula y, a continuación, seleccione **[!UICONTROL Filtro]**.
 
-   ![Captura de pantalla que muestra el cuadro de diálogo Definir filtro con opciones para filtrar por aplicación, usuario y proyecto.](/help/admin/admin/assets/filter.png)
+   ![Captura de pantalla que muestra el cuadro de diálogo Definir filtro con opciones para filtrar por aplicación, usuario y proyecto.](/help/admin/tools/assets/filter.png)
 
-1. En el formulario [!UICONTROL Elegir página], active **[!UICONTROL Más populares]** y después configure las siguientes opciones:
+1. En el formulario [!UICONTROL Elegir página], habilite **[!UICONTROL Más populares]** y después configure las siguientes opciones:
 
    **Clasificación de inicio:** La clasificación de inicio de una dimensión. La clasificación predeterminada de 1 indica el elemento principal de la lista de datos obtenidos. Por ejemplo, para la dimensión [!UICONTROL Página], una marca de inicio de 1 indica la única página más solicitada de su sitio. Se puede especificar 10 u otro valor como celda de clasificación de inicio, lo que genera un informe que comienza con 10 como valor más alto. La métrica se organiza en orden descendente, por lo que los elementos de línea con la mayor actividad aparecen primero en la lista. Si se requieren más de 50 000 nombres de página en una solicitud, pero se dispone de miles de páginas en las que informar, se puede copiar la solicitud y cambiar la clasificación de inicio para recuperar los datos adecuados en bloques de 50 000.
 

@@ -4,9 +4,9 @@ description: Aprenda a utilizar e interpretar el panel Visualizadores simultáne
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1240'
 ht-degree: 95%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel de visualizadores simultáneos de medios en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics Analytics**._<br/>_Consulte el [Panel de visualizadores simultáneos de medios](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel de visualizadores simultáneos de medios en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics**._<br/>_Consulte el [Panel de visualizadores simultáneos de medios](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ En Analysis Workspace, la métrica Visualizadores simultáneos comprende la cant
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://video.tv.adobe.com/v/342835?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -87,7 +87,7 @@ Puede configurar el panel Visualizadores simultáneos de medios con esta configu
 
 A continuación se muestra un ejemplo del panel configurado para la granularidad por **[!UICONTROL Minuto]**, con los números de resumen **[!UICONTROL Máximo solamente]**. Y desglosado por **[!UICONTROL Otros]**, **[!UICONTROL Tabla]**, **[!UICONTROL Teléfono Móvil]**, **[!UICONTROL Consola de juegos]**, **[!UICONTROL Reproductor de medios]**, **[!UICONTROL Decodificador]**, **[!UICONTROL Televisión]**.
 
-![La vista detallada de la serie de visualizadores simultáneos de medios muestra 7 de 10 dimensiones, segmentos o intervalos de fechas.](assets/concurrent-viewers-series-breakdown.png)
+![El desglose de la serie de visualizadores simultáneos de medios muestra 7 de 10 dimensiones, segmentos o intervalos de fechas.](assets/concurrent-viewers-series-breakdown.png)
 
 ### Salida del panel
 
@@ -131,8 +131,8 @@ No hay ninguna tabla de forma libre disponible en esta vista.  Para ver la fuent
 >[!MORELIKETHIS]
 >
 >[Crear un panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
->&#x200B;>[Panel Audiencia media por minuto de medios](average-minute-audience-panel.md)
+>>[Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
+>>[Panel Público medio por minuto de medios](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342835/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 

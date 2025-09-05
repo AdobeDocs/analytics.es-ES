@@ -3,10 +3,10 @@ title: Política de retención de datos
 description: Una política de retención de datos determina el tiempo que Adobe almacena los datos.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '616'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ Los datos retenidos se basan en la fecha actual y en la fecha y hora de los dato
 Si desea reducir o ampliar el período de retención de datos predeterminado, póngase en contacto con el equipo de cuentas de Adobe.
 
 * Reducir el período de retención de datos predeterminado no entraña coste alguno.
-* Para prolongar la retención de datos más allá del período de retención predeterminado de 25 meses se deben adquirir extensiones (cada una de ellas aumenta el período en un año). Se pueden adquirir hasta ocho extensiones, lo que equivale a un total de 10 años y 1 mes (2 años y 1 mes de la retención por defecto, más los 8 años adquiridos).
+* Para prolongar la retención de datos más allá del período de retención predeterminado de 25 meses se deben comprar extensiones (cada una de ellas aumenta el período en un año). Se pueden adquirir hasta ocho extensiones, lo que equivale a un total de 10 años y 1 mes (2 años y 1 mes de la retención por defecto, más los 8 años adquiridos).
 
 ## Retención de datos y privacidad de datos
 
@@ -35,7 +35,7 @@ Una vez que los datos hayan superado el límite temporal de la política de rete
 
 ## Ver/administrar la directiva de retención de datos actual
 
-El cuadro de diálogo Gobernanza de datos en las herramientas del [!UICONTROL Administrador] proporciona información general sobre los grupos de informes que se han configurado para la gobernanza de datos. También indica si se han asignado a una organización con Experience Cloud y si se ha implementado una directiva de retención de datos para este grupo de informes. [Más información](/help/admin/admin/c-data-governance/an-gdpr-workflow.md)
+El cuadro de diálogo Gobernanza de datos en las herramientas del [!UICONTROL Administrador] proporciona información general sobre los grupos de informes que se han configurado para la gobernanza de datos. También indica si se han asignado a una organización de Experience Cloud y si se ha implementado una directiva de retención de datos para este grupo de informes.
 
 ## Preguntas frecuentes
 

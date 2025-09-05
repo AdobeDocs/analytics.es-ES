@@ -3,9 +3,9 @@ description: Describe cómo ejecutar el informe Canal de marketing, y conceder d
 title: Permisos de canales de marketing
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: c5573b7252a4113355cc4b96d467fde2c86ba28f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '230'
 ht-degree: 91%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 91%
 >
 >Para maximizar la eficacia de los canales de marketing para Attribution y Customer Journey Analytics, hemos publicado algunas [prácticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
->Los administradores de Analytics pueden administrar canales de marketing para sus organizaciones, tal como se describe en [Administrar canales de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Los administradores de Analytics pueden administrar canales de marketing para sus organizaciones, tal como se describe en [Administrar canales de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
-Estos son los permisos de las Herramientas de grupos de informes necesarios en [Admin Console](https://adminconsole.adobe.com/) para poder trabajar con varios aspectos de los canales de marketing.
+Estos son los permisos de las Herramientas de grupos de informes necesarios en [Admin Console](https://adminconsole.adobe.com/es) para poder trabajar con varios aspectos de los canales de marketing.
 
 | Tipo de permiso | Nombre del permiso | Descripción |
 |---|---|---|
@@ -28,5 +28,5 @@ Estos son los permisos de las Herramientas de grupos de informes necesarios en [
 | Herramientas de Analytics | Acceso a Analysis Workspace | Disponen de acceso a Analysis Workspace. Los usuarios deben pertenecer a este grupo (opción preferida) o a Reports &amp; Analytics de acceso para utilizar las dimensiones de Canales de marketing en Workspace. |
 | Herramientas de Analytics | Acceso a Reports and Analytics | Concede acceso a Reports and Analytics. Los usuarios deben pertenecer a este grupo o a Acceso a Analysis Workspace (opción preferida) para utilizar Adobe Analytics. |
 
-Para obtener más información sobre los perfiles de producto y los permisos de Adobe Analytics en Admin Console, consulte [Perfiles de producto para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=es).
+Para obtener más información sobre los perfiles de producto y los permisos de Adobe Analytics en Admin Console, consulte [Perfiles de producto para Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md).
 

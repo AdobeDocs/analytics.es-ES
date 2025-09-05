@@ -4,7 +4,7 @@ description: Utilice esta variable para vincular datos en línea y sin conexión
 feature: Appmeasurement Implementation
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: fc52bfaa13f7fc93ef53aa49746d432676b3d55f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 75%
@@ -17,7 +17,7 @@ La variable `transactionID` identifica de forma exclusiva una transacción para 
 
 >[!NOTE]
 >
->Asegúrese de que el [!UICONTROL Almacenamiento de ID de transacción] esté habilitado en un grupo de informes antes de utilizar esta variable. Consulte [Configuración general de la cuenta](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) en la Guía de administración para obtener más información.
+>Asegúrese de que el [!UICONTROL Almacenamiento de ID de transacción] esté habilitado en un grupo de informes antes de utilizar esta variable. Consulte [Configuración general de la cuenta](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) en la Guía de administración para obtener más información.
 
 Cuando se configura `transactionID` en caso de una visita, Adobe toma una “instantánea” de todas las variables de Analytics que estaban establecidas o que persistían en ese momento. Consulte [Fuentes de datos del ID de transacción](/help/import/data-sources/transactionid.md) para ver la lista de dimensiones incluidas en la instantánea. Adobe registra todos los valores de ID de transacción (vinculados y desvinculados) durante un máximo de 25 meses.
 

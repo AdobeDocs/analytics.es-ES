@@ -3,7 +3,7 @@ title: Solución de problemas de picos y caídas de datos
 description: Conocer las posibles razones por las que puede ver incrementos o disminuciones drásticos en los informes de tendencias.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Curate and Share, Data Configuration and Collection
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -46,7 +46,7 @@ Los picos de tráfico se clasifican en dos secciones: cerca de los datos dobles 
 
 ### Otras causas potenciales del aumento del tráfico
 
-* **Arañas o bots**: Si observa un gran aumento repentino del tráfico, lo primero que hay que buscar es la posibilidad de una araña o un bot. La identificación de bots puede ser a veces complicada, ya que cada uno tiene su propia forma de ejecutar el código en el sitio. Cree un informe del Data Warehouse usando la IP como dimensión para ver qué direcciones provocan la mayor cantidad de tráfico. A continuación, puede utilizar las [reglas de BOT](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) o una regla VISTA para eliminar el tráfico de bots de la futura creación de informes.
+* **Arañas o bots**: Si observa un gran aumento repentino del tráfico, lo primero que hay que buscar es la posibilidad de una araña o un bot. La identificación de bots puede ser a veces complicada, ya que cada uno tiene su propia forma de ejecutar el código en el sitio. Cree un informe del Data Warehouse usando la IP como dimensión para ver qué direcciones provocan la mayor cantidad de tráfico. A continuación, puede utilizar las [reglas de BOT](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) o una regla VISTA para eliminar el tráfico de bots de la futura creación de informes.
 * **Campañas iniciadas**: Los esfuerzos de marketing, como las campañas por correo electrónico o la optimización de los motores de búsqueda, pueden causar potencialmente un pico de tráfico en el sitio. Haga un seguimiento de la dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md) para buscar más información. También puede ayudar ponerse en contacto con el equipo de marketing para asegurarse de que el pico fue intencional.
 * **Causas del entorno o circunstanciales**: Si hay un día festivo o un evento circunstancial (un evento significativo donde el sitio es un recurso conocido, o los esfuerzos de marketing residuales de otras organizaciones), el tráfico puede aumentar. Dar con la causa exacta es difícil, ya que hay un número casi ilimitado de razones circunstanciales por las que el tráfico puede aumentar. Estas causas, sin embargo, son algunas de las más importantes de determinar para que su organización pueda aprovecharlas y tomar las decisiones comerciales correspondientes. La tendencia de la dimensión [Página](/help/components/dimensions/page.md) o [Remitente del reenvío](/help/components/dimensions/referrer.md) es probablemente el mejor lugar para empezar a determinar el origen del tráfico.
 

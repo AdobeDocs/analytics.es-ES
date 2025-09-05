@@ -3,7 +3,7 @@ title: Día de la semana/Fin de semana
 description: Determina si la visita se produjo durante un día entre semana o un fin de semana.
 feature: Dimensions
 exl-id: c3111cdc-a5f9-4244-a725-b1bb1e72fcff
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 80%
@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # Día de la semana/Fin de semana
 
-La dimensión &quot;Día de la semana/Fin de semana&quot; [dimension](overview.md) proporciona una perspectiva sobre si la visita se produjo durante un día entre semana (lunes a viernes) o un fin de semana (sábado a domingo). La hora de la visita está basada en la [zona horaria del grupo de informes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
+La dimensión [Día de la semana/Fin de semana](overview.md) proporciona insight en caso de que la visita se produzca durante un día entre semana (lunes a viernes) o un fin de semana (sábado a domingo). La hora de la visita está basada en la [zona horaria del grupo de informes](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).
 
 ## Rellene esta dimensión con datos
 

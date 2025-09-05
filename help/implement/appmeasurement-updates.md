@@ -4,9 +4,9 @@ description: Recopilación de notas de versiones de AppMeasurement para JavaScri
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '2730'
+source-wordcount: '2729'
 ht-degree: 86%
 
 ---
@@ -71,7 +71,7 @@ Fecha de versión: **11 de octubre de 2021**
 
 Fecha de versión: **7 de septiembre de 2021**
 
-* Esta actualización hace que `opt.dmp` y `opt.sell` siempre se incluyan al rastrear vínculos. Consulte [Informes de privacidad](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) en la guía del usuario de administración para obtener más información.
+* Esta actualización hace que `opt.dmp` y `opt.sell` siempre se incluyan al rastrear vínculos. Consulte [Informes de privacidad](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) en la guía del usuario de administración para obtener más información.
 
 ## Versión 2.22.1
 
@@ -301,7 +301,7 @@ Actualizado: **18 de agosto de 2016**
 
 Actualizado: **4 de agosto de 2016**
 
-* Se ha corregido un problema en el que [!DNL AppMeasurement] finalizaba de forma prematura las conexiones de solicitud. (AN-126448)
+* Se ha corregido un problema en el que [!DNL AppMeasurement] terminaba de forma prematura las conexiones de solicitud. (AN-126448)
 
 >[!IMPORTANT]
 >
@@ -313,7 +313,7 @@ Fecha de versión: **21 de julio de 2016**
 
 * Inclusión de la API de visitante 1.6.0.
 * Se ha corregido un problema que hacía que [!DNL AppMeasurement] llamara al método ofuscado incorrecto en la API de visitante. (AN-126006)
-* Se ha corregido un problema que daba lugar al error de [!DNL JavaScript]: “Attribute only valid on v:image”. (AN-124009)
+* Se ha corregido un problema que daba lugar al error [!DNL JavaScript]: &quot;El atributo solo es válido en la versión :image&quot;. (AN-124009)
 
 ## Versión 1.6.1
 
@@ -362,7 +362,7 @@ Fecha de versión: **17 de septiembre de 2015**
 Fecha de versión: **18 de junio de 2015**
 
 * Compatibilidad con la API de visitante 1.5, que utiliza el método *`getCustomerIDs`* para recopilar ID de cliente y estados autenticados, y envía los ID con solicitudes de recopilación de datos.
-* Se ha corregido la creación de iFrames de destino duplicados en el módulo **[!UICONTROL AudienceManagement]** (DIL 6.1)
+* Se ha corregido la creación de iFrames objetivo duplicados en el módulo **[!UICONTROL AudienceManagement]** (DIL 6.1)
 * Se ha solucionado el error conocido descrito en la versión 1.4.5.
 
 ## Versión 1.4.5

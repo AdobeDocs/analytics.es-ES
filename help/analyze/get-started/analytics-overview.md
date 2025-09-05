@@ -4,9 +4,9 @@ short-description: Conozca las funciones clave, los casos de uso comunes y los p
 title: Información general sobre Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '459'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introducci�
 >[!ENDSHADEBOX]
 
 
-Si tiene preguntas acerca de qué herramienta utilizar, consulte [¿Qué herramienta de Adobe Analytics debo usar?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=es).
+Si tiene preguntas acerca de qué herramienta utilizar, consulte [¿Qué herramienta de Adobe Analytics debo usar?](/help/analyze/get-started/which-analytics-tool.md).
 
 ## Vaya más allá con Customer Journey Analytics
 

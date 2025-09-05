@@ -4,9 +4,9 @@ description: Aprenda a trabajar con varios grupos de informes en un proyecto de 
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 71%
 
 ---
@@ -24,7 +24,7 @@ Esta capacidad es útil si desea:
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Varios grupos de informes](https://video.tv.adobe.com/v/36836?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Varios grupos de informes](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -71,6 +71,6 @@ Puede reconocer el panel activo por el borde celeste que lo rodea. Simplemente, 
 
 1. (Opcional) También puede dirigirse a otros creadores de componentes de Analytics y comprobar que ahora muestren una etiqueta de grupo de informes que indique
 
-   * Dónde se creará un segmento: [Generador de segmentos](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es).
-   * Dónde se creará una métrica calculada: [Creador de métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=es).
-   * Dónde se generará una alerta: [Generador de alertas](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=es).
+   * Dónde se creará un segmento: [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md).
+   * Dónde se creará una métrica calculada: [Creador de métricas calculadas](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md).
+   * Dónde se generará una alerta: [Generador de alertas](/help/components/alerts/alert-builder.md).

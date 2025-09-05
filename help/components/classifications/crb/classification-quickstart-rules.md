@@ -3,10 +3,10 @@ description: Las reglas de clasificación buscan términos no clasificados de fo
 title: Reglas de clasificación
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 89%
+source-wordcount: '1970'
+ht-degree: 90%
 
 ---
 
@@ -58,8 +58,6 @@ about_classification_rules.xml
 >El [!UICONTROL Generador de reglas] no admite las clasificaciones numéricas 2.
 
 ## Información relevante sobre las reglas
-
-* Especifique [permisos de grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=es) para clasificaciones en [!UICONTROL Herramientas de administración].
 
 * **Expresiones regulares**: La ayuda está disponible en [Expresiones regulares en Reglas de clasificación](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -135,7 +133,7 @@ En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muest
 
 | Seleccionar tipo de regla | Introducir criterios de coincidencia | Configurar clasificación | Hasta |
 |---|---|---|---|
-| Expresión regular | &Hat;(.+)\:(.+)\:(.+)$ | Fecha de campaña | $3 |
+| Expresión regular | &amp;Hat;(.+)\:(.+)\:(.+)$ | Fecha de campaña | $3 |
 
 **Sintaxis**
 
@@ -393,7 +391,7 @@ Validar y activar reglas de clasificación:
 
    ![](assets/overwrite_keys.png)
 
-1. (Opcional) Para sobrescribir clasificaciones, active **[!UICONTROL Sobrescribir clasificaciones de]** &lt;*selección*>.
+1. (Opcional) Para sobrescribir clasificaciones, habilite **[!UICONTROL Sobrescribir clasificaciones de]** &lt;*selección*>.
 
    Esta opción permite sobrescribir las clasificaciones existentes de las claves afectadas.
 

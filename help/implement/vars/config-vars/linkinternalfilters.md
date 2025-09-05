@@ -4,7 +4,7 @@ description: Utilice la variable linkInternalFilters para ayudar al seguimiento 
 feature: Appmeasurement Implementation
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Activity Map utiliza esta variable para determinar qué vínculos son internos d
 
 >[!NOTE]
 >
->`linkInternalFilters` y los [filtros de URL](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) internos son funciones independientes que cumplen distintos propósitos. La variable `linkInternalFilters` funciona específicamente para el seguimiento de vínculos de salida. Los filtros URL internos son una configuración de administración que ayuda con las dimensiones de fuentes de tráfico como Dominio de referencia.
+>`linkInternalFilters` y los [filtros de URL](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) internos son funciones independientes que cumplen distintos propósitos. La variable `linkInternalFilters` funciona específicamente para el seguimiento de vínculos de salida. Los filtros URL internos son una configuración de administración que ayuda con las dimensiones de fuentes de tráfico como Dominio de referencia.
 
 ## Vínculos de salida en el SDK web
 

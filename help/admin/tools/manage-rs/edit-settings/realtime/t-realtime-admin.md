@@ -1,0 +1,52 @@
+---
+description: Pasos administrativos para configurar informes en tiempo real.
+title: Configuración de informes en tiempo real
+feature: Real-time
+exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 76%
+
+---
+
+# Configuración de informes en tiempo real
+
+Pasos administrativos para configurar informes en tiempo real.
+
+Configurar informes en tiempo real en Adobe Analytics consiste en seleccionar el grupo de informes y configurar hasta 3 informes para este. De manera predeterminada todos los usuarios tienen acceso a los informes en tiempo real.
+
+1. Seleccione el grupo de informes para el que quiere habilitar los informes en tiempo real.
+
+   Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración > Grupos de informes]**.
+
+1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Tiempo real]**.
+
+1. Configure la recopilación de datos en tiempo real para hasta tres informes, con una métrica y tres dimensiones o clasificaciones por informe.
+
+   ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/real_time_admin.png)
+
+   Para obtener información sobre las métricas y dimensiones compatibles en tiempo real, consulte [Métricas y dimensiones compatibles](/help/admin/tools/manage-rs/edit-settings/realtime/realtime-metrics.md).
+
+   Si ha creado clasificaciones, estas aparecerán con sangría debajo de las dimensiones para las que se hayan definido:
+
+   ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/classifications.png)
+
+   >[!NOTE]
+   >
+   >Actualmente no se pueden duplicar dimensiones para un solo informe en tiempo real, aunque se seleccione una clasificación distinta para cada dimensión.
+
+   >[!NOTE]
+   >
+   >Algunas dimensiones, como “Buscar palabra clave” o “Producto”, no persisten en tiempo real como lo hacen en el resto de Adobe Analytics. Al seleccionar una métrica no persistente se mostrará la siguiente advertencia:
+
+   ![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/warning_dimensions.png)
+
+1. Haga clic en **[!UICONTROL Guardar]**.
+
+   Después de esta configuración inicial del informe los datos pueden tardar hasta 20 minutos en ser transferidos. A partir de ese momento, los datos estarán disponibles inmediatamente.
+
+1. Para ver el informe en tiempo real, vaya a:
+
+   **[!UICONTROL Workspace]** > **[!UICONTROL Informes]** > **[!UICONTROL Participación]** > **[!UICONTROL Tiempo real]**.
+

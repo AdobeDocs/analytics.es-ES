@@ -3,7 +3,7 @@ title: Detalles de canal de último contacto
 description: Detalles del canal de marketing más reciente dentro de la caducidad de la participación del visitante.
 feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 80%
@@ -16,7 +16,7 @@ Los informes de &quot;Detalles de canal de último contacto&quot; [dimension](ov
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión copia valores de otras variables. La variable utilizada hace referencia al valor de canal dentro de cada [regla de procesamiento del canal de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md). Cuando una visita individual coincide con una regla de procesamiento de canal de marketing, la dimensión de [canal de último contacto](last-touch-channel.md) se establece en el nombre del canal y esta dimensión se establece en el valor de canal establecido en la regla.
+Esta dimensión copia valores de otras variables. La variable utilizada hace referencia al valor de canal dentro de cada [regla de procesamiento del canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md). Cuando una visita individual coincide con una regla de procesamiento de canal de marketing, la dimensión de [canal de último contacto](last-touch-channel.md) se establece en el nombre del canal y esta dimensión se establece en el valor de canal establecido en la regla.
 
 Si desea establecer esta dimensión en un valor específico, se requieren los siguientes pasos:
 

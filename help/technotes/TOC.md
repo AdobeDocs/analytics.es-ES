@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Notas técnicas de Analytics
 breadcrumb-title: Notas técnicas
 user-guide-description: Examine una base de conocimiento que contiene artículos útiles que no pertenecen a una herramienta o componente de Analytics específico.
-source-git-commit: 5ac6da2eb53d2748e8838ef2c6334a771abc26c9
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 90%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 100%
 # Notas técnicas de Analytics {#technotes}
 
 + [Notas técnicas de Analytics](home.md)
++ [Notas de la versión de Analytics](https://experienceleague.adobe.com/es/docs/analytics/release-notes/latest)
 + Adobe Analytics para usuarios de Google Analytics {#ga-to-aa}
    + [Ayuda de Adobe Analytics para usuarios de Google Analytics](ga-to-aa/home.md)
    + [Cuentas y grupos de informes](ga-to-aa/accounts.md)
@@ -23,7 +24,7 @@ ht-degree: 100%
       + [Crear un informe básico en Analysis Workspace para usuarios de GA](ga-to-aa/reports/create-report.md)
       + [Métricas comunes utilizadas en otras plataformas de Analytics](ga-to-aa/reports/common-metrics.md)
       + [Tiempo real](ga-to-aa/reports/realtime-reports.md)
-      + [Audiencia](ga-to-aa/reports/audience-reports.md)
+      + [Público](ga-to-aa/reports/audience-reports.md)
       + [Adquisición](ga-to-aa/reports/acquisition-reports.md)
       + [Comportamiento](ga-to-aa/reports/behavior-reports.md)
       + [Conversiones](ga-to-aa/reports/conversions-reports.md)
@@ -49,7 +50,13 @@ ht-degree: 100%
 + [Valor de poco tráfico](low-traffic.md)
 + [Migración de las reglas de procesamiento de Mobile Services a Adobe Analytics](migrate-mobile.md)
 + [Compatibilidad con múltiples monedas](multicurrency.md)
-+ [Resumen de privacidad](privacy-overview.md)
++ Privacidad {#privacy}
+   + [Resumen de privacidad](privacy/privacy-overview.md)
+   + [Flujo de trabajo de privacidad](privacy/privacy-workflow.md)
+   + [Analytics y RGPD](privacy/gdpr.md)
+   + [Analytics y CCPA](privacy/ccpa.md)
+   + [Exención de consentimiento de Analytics y CNIL](privacy/cnil-consent-exemption.md)
+   + [Preguntas frecuentes sobre privacidad](privacy/faq.md)
 + [Orden de procesamiento](processing-order.md)
 + [Aplicaciones web progresivas](pwa.md)
 + [Redirecciones y alias](redirects.md)

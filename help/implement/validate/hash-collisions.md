@@ -4,7 +4,7 @@ description: Describe lo que es un conflicto de hash y cómo se puede manifestar
 feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 6%
@@ -42,6 +42,6 @@ Similar a la [paradoja del cumpleaños](https://en.wikipedia.org/wiki/Birthday_p
 La mayoría de los conflictos de hash se producen con dos valores poco comunes, que no tienen un impacto significativo en los informes. Incluso si un hash entra en conflicto con un valor común y poco común, el resultado es insignificante. Sin embargo, en casos excepcionales en los que dos valores populares experimentan un conflicto de hash, es posible ver su efecto con claridad. Adobe recomienda lo siguiente para reducir su efecto en los informes:
 
 * **Cambiar el intervalo de fechas**: Las tablas hash cambian cada mes. Si se cambia el intervalo de fechas para que abarque otro mes, se pueden dar a cada valor hashes diferentes que no entren en conflicto.
-* **Reduzca la cantidad de valores únicos**: Puede ajustar la implementación o usar [Reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) para ayudar a reducir la cantidad de valores únicos que recopila una dimensión. Por ejemplo, si la dimensión recopila una dirección URL, puede eliminar las cadenas de consulta o el protocolo.
+* **Reduzca la cantidad de valores únicos**: Puede ajustar la implementación o usar [Reglas de procesamiento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) para ayudar a reducir la cantidad de valores únicos que recopila una dimensión. Por ejemplo, si la dimensión recopila una dirección URL, puede eliminar las cadenas de consulta o el protocolo.
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

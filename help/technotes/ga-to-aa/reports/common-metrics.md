@@ -3,7 +3,7 @@ title: Guía de traducción de métricas comúnmente empleadas en otras platafor
 description: Obtenga información sobre la extracción de datos de métricas en muchos informes comunes utilizando una terminología más habitual para los usuarios de Google Analytics.
 feature: Third-party Integration
 exl-id: e95b0530-8099-4a08-9e2b-75174546277d
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
@@ -51,7 +51,7 @@ La **Tasa de devoluciones** se puede utilizar fácilmente como métrica en Analy
 7. Haga clic en Guardar para volver al espacio de trabajo.
 8. Arrastre la métrica calculada recién definida al espacio de trabajo.
 
-   Obtenga más información sobre las [métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) en la Guía del usuario de componentes.
+   Obtenga más información sobre las [métricas calculadas](/help/components/calculated-metrics/cm-overview.md) en la Guía del usuario de componentes.
 
 El **Promedio de duración de la sesión** es aproximadamente igual al **Tiempo empleado por visita (segundos)**. En la Guía del usuario de componentes, hay más información acerca de las métricas de [Tiempo empleado por visita](/help/components/metrics/time-spent-per-visit.md).
 

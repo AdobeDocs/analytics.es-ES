@@ -1,17 +1,17 @@
 ---
-description: Aprenda a utilizar componentes en un proyecto en Analysis Workspace
-title: Uso De Componentes En Un Proyecto
+description: Aprenda a usar componentes en un proyecto en Analysis Workspace
+title: Usar componentes en un proyecto
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
-# Uso de componentes en un proyecto
+# Usar componentes en un proyecto
 
 Los componentes constituyen los datos reales de cualquier proyecto en Analysis Workspace. Los componentes están formados por dimensiones, métricas, segmentos e intervalos de fechas. Puede añadir componentes a un proyecto arrastrándolos a visualizaciones o paneles.
 
@@ -46,7 +46,7 @@ Para obtener información sobre cómo usar la zona de colocación de segmentos e
 
 ### Adición de dimensiones a un proyecto
 
-[Las dimensiones](/help/components/dimensions/overview.md) son variables en Adobe Analytics que generalmente contienen valores de cadena. Por el contrario, las [métricas](/help/components/c-calcmetrics/cm-overview.md) contienen valores numéricos que se vinculan a una dimensión. Un informe básico muestra filas de valores de cadena (dimensión) frente a una columna de valores numéricos (métrica).
+[Las dimensiones](/help/components/dimensions/overview.md) son variables en Adobe Analytics que generalmente contienen valores de cadena. Por el contrario, las [métricas](/help/components/calculated-metrics/cm-overview.md) contienen valores numéricos que se vinculan a una dimensión. Un informe básico muestra filas de valores de cadena (dimensión) frente a una columna de valores numéricos (métrica).
 
 1. Empiece a añadir una dimensión a su proyecto en Analysis Workspace, tal como se describe en [Adición de componentes a un proyecto](#add-components-to-a-project).
 
@@ -103,7 +103,7 @@ Para obtener información sobre cómo usar la zona de colocación de segmentos e
 Cuando añade segmentos a una columna de una tabla de forma libre, los segmentos se aplican a todo el contenido de la columna de la tabla. También puede añadir segmentos como parte de una visualización de visitas en el orden previsto.
 
 * Uso de segmentos en componentes
-Cuando define componentes como [métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md), [anotaciones](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) o incluso [segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md), puede usar segmentos como parte de la definición.
+Cuando define componentes como [métricas calculadas](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md), [anotaciones](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) o incluso [segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md), puede usar segmentos como parte de la definición.
 
 
 ### Adición de intervalos de fechas a un proyecto
@@ -245,7 +245,7 @@ When you add segments to a column in a freeform table, the segments apply to all
 
 In the Calculated metric builder, you can apply segments within your metric definition. 
 
-For more information, see [Segmented metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
+For more information, see [Segmented metrics](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Add date ranges to a project
 

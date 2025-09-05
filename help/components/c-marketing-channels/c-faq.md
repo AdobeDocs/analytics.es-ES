@@ -3,7 +3,7 @@ title: Preguntas más frecuentes sobre los canales de marketing
 description: Preguntas más frecuentes sobre los canales de marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >Para maximizar la eficacia de los canales de marketing para Attribution y Customer Journey Analytics, hemos publicado algunas [prácticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
->Los administradores de Analytics pueden administrar canales de marketing para sus organizaciones, tal como se describe en [Administrar canales de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Los administradores de Analytics pueden administrar canales de marketing para sus organizaciones, tal como se describe en [Administrar canales de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
 Preguntas más frecuentes sobre los canales de marketing.
 

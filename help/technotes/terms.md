@@ -3,7 +3,7 @@ title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -16,16 +16,16 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 
 * **Activity Map:** complemento para explorador que muestra en qué áreas del sitio se hizo clic con mayor frecuencia. Consulte [Activity Map](/help/analyze/activity-map/overview.md) en la guía de usuario sobre análisis.
 * **Admin Console:** puede hacer referencia a:
-   * Herramientas de administración heredadas en las se administra la configuración del grupo de informes en Adobe Analytics. En versiones anteriores de Adobe Analytics, los permisos de usuario también se gestionaban aquí. Consulte [Herramientas de administración](/help/admin/admin/c-admin-tools.md) en la guía de usuario de administración.
+   * Herramientas de administración heredadas en las se administra la configuración del grupo de informes en Adobe Analytics. En versiones anteriores de Adobe Analytics, los permisos de usuario también se gestionaban aquí. Consulte [Herramientas de administración](/help/admin/tools/c-admin-tools.md) en la guía de usuario de administración.
    * La Admin Console de Adobe, donde se proporciona acceso al producto y se administran los permisos de usuario. Consulte [Admin Console](/help/admin/admin-console/home.md) en la guía de usuario de administración.
-* **Asignación:** si una variable de conversión encuentra más de un valor durante una visita, la configuración de asignación de la variable determina qué valor se guarda. Consulte [Variables de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) en la guía de usuario de administración.
+* **Asignación:** si una variable de conversión encuentra más de un valor durante una visita, la configuración de asignación de la variable determina qué valor se guarda. Consulte [Variables de conversión](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) en la guía de usuario de administración.
 * **Analysis Workspace:** solución de explorador para crear proyectos de análisis sólidos y personalizados y democratizar las perspectivas. Consulte [Información general de Analysis Workspace](/help/analyze/analysis-workspace/home.md) en la Guía de herramientas de Analytics.
 * **Anomalía:** las anomalías se detectan usando un modelado estadístico para encontrar automáticamente tendencias inesperadas en los datos. El modelo analiza las métricas y determina un límite inferior, límite superior y rango esperado de valores. Consulte [Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) en la Guía de herramientas de Analytics.
 * **AppMeasurement:** biblioteca de códigos utilizada para recopilar datos y enviarlos a Adobe. Consulte la [Página de inicio](/help/implement/home.md) de la guía de usuario sobre implementación.
 * **Ranura ASI:** ya no existe. En versiones anteriores de Adobe Analytics, las ranuras ASI proporcionaban un contenedor temporal de grupos de informes que permitía ver los datos segmentados. En la versión actual de Adobe Analytics, los segmentos se pueden aplicar instantáneamente a cualquier informe.
 * **Desglose:** permite ver una dimensión dentro del contexto de otra dimensión. Consulte [Desglosar dimensiones](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) en la Guía de herramientas de Analytics.
 * **Devolución:** una visita individual que consiste en una sola visita. Consulte [Devoluciones](/help/components/metrics/bounces.md) en la guía de usuario sobre componentes. Consulte también Acceso único.
-* **Métrica calculada:** permite combinar las métricas, las funciones estadísticas y las fórmulas existentes para su uso en la creación de informes. Consulte [Métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) en la guía de usuario sobre componentes.
+* **Métrica calculada:** permite combinar las métricas, las funciones estadísticas y las fórmulas existentes para su uso en la creación de informes. Consulte [Métricas calculadas](/help/components/calculated-metrics/cm-overview.md) en la guía de usuario sobre componentes.
 * **Campaign o Campaña:** puede hacer referencia a:
    * La variable de campaña, que rellena la dimensión Código de seguimiento. Consulte [campaña](../implement/vars/page-vars/campaign.md) en la guía de usuario sobre implementación.
    * Una clasificación predeterminada de la dimensión Código de seguimiento, creada automáticamente para todos los grupos de informes.
@@ -56,7 +56,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Serialización de eventos:** un proceso de aplicación de medidas para evitar la recopilación de eventos duplicados. Consulte [Serialización de eventos](../implement/vars/page-vars/events/event-serialization.md) en la guía de usuario sobre implementación.
 * **eVar:** Consulte Variable de conversión.
 * **Evento:** Consulte Evento de éxito.
-* **Caducidad:** define, en el contexto de una variable de conversión, cuánto tiempo persiste el valor en el backend. Esta persistencia permite que los eventos se asocien con valores de variables antes de la visita del evento. Consulte [Variables de conversión](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) en la guía de usuario de administración.
+* **Caducidad:** define, en el contexto de una variable de conversión, cuánto tiempo persiste el valor en el backend. Esta persistencia permite que los eventos se asocien con valores de variables antes de la visita del evento. Consulte [Variables de conversión](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) en la guía de usuario de administración.
 * **Flujo:** tipo de visualización en Analysis Workspace que muestra las rutas de los usuarios por el sitio. Consulte [Visualización de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) en la Guía de herramientas de Analytics.
 * **Grupo de informes globales:** término que designa un grupo de informes que recopila visitas de varios sitios.
 * **Código H:** el predecesor de AppMeasurement. En versiones anteriores de Adobe Analytics, se hablaba de “versiones H” del código, como H.27.5, H.26, etc.
@@ -84,11 +84,11 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Persistencia:** concepto abstracto de las variables de conversión que permite la vinculación de un valor de variable con un evento que se produzca en visitas independientes. Consulte también Caducidad.
 * **Llamada primaria al servidor:** nombre alternativo para las solicitudes de imagen o las visitas que se utiliza principalmente en el contexto del etiquetado y de la facturación de grupos múltiples. Cuando se envía la misma visita a varios grupos de informes, el primer grupo de informes es una llamada primaria al servidor, mientras que el resto son llamadas secundarias al servidor. Esta regla se aplica a todos los tipos de visitas, lo cual incluye la vista de página y el seguimiento de vínculos. Consulte también Llamadas secundarias al servidor.
 * **Reglas de procesamiento:** puede hacer referencia a:
-   * Reglas de procesamiento, una forma de modificar la recopilación de datos mediante ciertas reglas de Admin Console. Consulte [Reglas de procesamiento](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) en la guía de usuario de administración.
-   * Reglas de procesamiento del canal de marketing, un conjunto de reglas que determina a qué canal de marketing pertenece una visita. Consulte [Reglas de procesamiento del canal de marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) en la guía de usuario de administración.
+   * Reglas de procesamiento, una forma de modificar la recopilación de datos mediante ciertas reglas de Admin Console. Consulte [Reglas de procesamiento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) en la guía de usuario de administración.
+   * Reglas de procesamiento del canal de marketing, un conjunto de reglas que determina a qué canal de marketing pertenece una visita. Consulte [Reglas de procesamiento del canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) en la guía de usuario de administración.
 * **Prop:** Consulte Variable de tráfico.
 * **Informe de clasificación:** formato de informe que suele mostrar métricas para las dimensiones. Este tipo de informe permite ver los elementos principales, como las páginas más vistas del sitio. Consulte también Informe de tendencias.
-* **Tiempo real:** muestra con poca o ninguna latencia las variables configuradas en cuanto se recopilan. Consulte [Informes en tiempo real](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) en la guía de usuario de administración.
+* **Tiempo real:** muestra con poca o ninguna latencia las variables configuradas en cuanto se recopilan. Consulte [Informes en tiempo real](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) en la guía de usuario de administración.
 * **Report Builder:** El complemento Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md) le permite generar solicitudes personalizadas a partir de datos de Adobe Analytics.
 * **Grupo de informes:** contenedor general al que se envían datos. Todos los informes de Adobe Analytics pertenecen a un grupo de informes.
 * **Reports &amp; Analytics:** Esta herramienta ha llegado al [final de su vida útil](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=es).

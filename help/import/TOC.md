@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de importación de Analytics
 breadcrumb-title: Guía de importación
 user-guide-description: Incluya datos en Adobe Analytics desde fuentes externas, ya sea de forma masiva o en tiempo real.
-source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Guía de importación de Adobe Analytics {#import}
 
 + [Guía de importación de Analytics](home.md)
-+ [Notas de la versión de Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
++ [Notas de la versión de Analytics](https://experienceleague.adobe.com/es/docs/analytics/release-notes/latest)
 + Fuentes de datos {#data-sources}
    + [Información general](data-sources/overview.md)
    + [Introducción](data-sources/getting-started.md)
@@ -27,5 +27,5 @@ ht-degree: 100%
    + [Preguntas más frecuentes](data-sources/faq.md)
 + [API de inserción de datos en lotes](bulk-data-insertion-api/bulk-data-insert.md)
 + [API de inserción de datos](c-data-insertion-api/c-data-insertion-api.md)
-+ Importación de casos de uso {#use-cases}
++ Importación de casos prácticos {#use-cases}
    + [Importación de métricas de búsqueda de pago mediante fuentes de datos](use-cases/paid-search-metrics.md)

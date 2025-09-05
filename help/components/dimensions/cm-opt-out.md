@@ -3,7 +3,7 @@ title: Exclusión en la administración de consentimiento
 description: Ver qué configuración de privacidad excluyó un visitante.
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 93%
@@ -28,6 +28,6 @@ Su organización determina la lógica para implementar estas variables de datos 
 
 Los elementos de dimensión incluyen los tres valores siguientes:
 
-* **`SSF`**: el visitante no optó por el [Reenvío del lado del servidor](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md). Este elemento de dimensión está presente cuando la variable de datos de contexto `cm.ssf` es igual a `1`. Consulte [Información general sobre la privacidad de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=es) en la guía del usuario de Audience Manager para obtener más información. La visita no se reenvía a Adobe Audience Manager.
+* **`SSF`**: el visitante no optó por el [Reenvío del lado del servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md). Este elemento de dimensión está presente cuando la variable de datos de contexto `cm.ssf` es igual a `1`. Consulte [Información general sobre la privacidad de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=es) en la guía del usuario de Audience Manager para obtener más información. La visita no se reenvía a Adobe Audience Manager.
 * **`DMP`**: el visitante no optó por compartir en plataformas de administración de datos. Este elemento de dimensión está presente cuando la variable de datos de contexto `opt.dmp` es igual a `N`. Similar a `SSF`, la visita no se reenvía a Adobe Audience Manager.
 * **`SELL`**: el visitante no optó por el uso compartido o la venta de los datos a terceros. Esta dimensión está presente cuando la variable de datos de contexto `opt.sell` es igual a `N`.

@@ -4,7 +4,7 @@ keywords: faltan datos;lento
 title: Disponibilidad y latencia de los datos
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 100%
@@ -36,21 +36,21 @@ La latencia está causada por una de las siguientes categorías generales:
 Algunas funciones de Adobe Experience Cloud tienen una cantidad innata de latencia además del tiempo de procesamiento estándar.
 
 * Analytics for Target (A4T) requiere de cinco a diez minutos adicionales de latencia para que los datos recopilados de ambas plataformas se almacenen en la misma visita.
-* En el caso de los datos con marca de tiempo la duración es mayor debido a que estos datos se procesan en diferentes servidores. Las visitas con marca de tiempo recibidas en tiempo real o casi en tiempo real pueden tardar hasta quince minutos. Las visitas recibidas con una marca de tiempo del día anterior pueden tardar hasta dos horas. Las visitas antiguas pueden tardar más tiempo, aumentando cada día hasta un máximo de aproximadamente veinticuatro horas.
+* En el caso de los datos con marca de tiempo la duración es mayor debido a que estos datos se procesan en diferentes servidores. Las visitas con marca de tiempo recibidas en tiempo real o casi en tiempo real pueden tardar hasta quince minutos. Las visitas recibidas con una marca de tiempo del día anterior pueden tardar hasta dos horas. Las visitas antiguas pueden tardar más tiempo, aumentando cada día hasta un límite de aproximadamente veinticuatro horas.
 
 ## Modos de mitigar o evitar la latencia
 
 Existen varias estrategias para evitar la latencia o reducir el tiempo de recuperación cuando se produce:
 
-* **Informar a Adobe de los picos de tráfico esperados:** Aunque es imposible anticipar todos los picos de tráfico en el sitio, puede haber casos en los que se espere un aumento significativo de tráfico. Por ejemplo, en un periodo festivo muy rentable o poco después de una gran campaña. En estos casos, Adobe proporciona un método para que su organización nos informe de los incrementos de tráfico esperados. De este modo podremos asignar recursos de procesamiento adicionales a su grupo de informes. Consulte [Programar un pico de tráfico](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) en la guía del usuario de administración para obtener información sobre las notificaciones a Adobe relativas al aumento de tráfico.
-* **Tenga en cuenta la carga de procesamiento al activar nuevas características:** Algunas necesitan más procesamiento que otras. Cuantas más características haya habilitadas en un grupo de informes, más difícil será recuperarse de la latencia. Cuando active características en un grupo de informes, tenga en cuenta que las siguientes características incrementan la cantidad de datos que se deben procesar:
+* **Informar a Adobe de los picos de tráfico esperados:** Aunque es imposible anticipar todos los picos de tráfico en el sitio, puede haber casos en los que se espere un aumento significativo de tráfico. Por ejemplo, en un periodo festivo muy rentable o poco después de una gran campaña. En estos casos, Adobe proporciona un método para que su organización nos informe de los incrementos de tráfico esperados. De este modo podremos asignar recursos de procesamiento adicionales a su grupo de informes. Consulte [Programar un pico de tráfico](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) en la guía del usuario de administración para obtener información sobre las notificaciones a Adobe relativas al aumento de tráfico.
+* **Tenga en cuenta la carga de procesamiento al activar nuevas características:** Algunas necesitan más procesamiento que otras. Cuantas más características haya habilitadas en un grupo de informes, más difícil será recuperarse de la latencia. Cuando habilite características en un grupo de informes, tenga en cuenta que las siguientes características incrementan la cantidad de datos que se deben procesar:
 
    * Implementación de más de veinte eventos en la misma página
    * Reglas de VISTA complejas
    * Más de veinte valores en la variable de productos
    * Serialización de eventos
 
-* Activar el filtrado para bots de la IAB: [el filtrado para bots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) puede reducir en gran medida la latencia si el grupo de informes se ve frecuentado por bots o rastreadores. Se recomienda utilizar la lista de bots de la IAB, actualizada y mantenida por la asociación [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un usuario puede personalizar sus propias reglas de bots para complementar las de la IAB.
+* Habilitar el filtrado para bots de la IAB: [el filtrado para bots](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) puede reducir en gran medida la latencia si el grupo de informes se ve frecuentado por bots o rastreadores. Se recomienda utilizar la lista de bots de la IAB, actualizada y mantenida por la asociación [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un usuario puede personalizar sus propias reglas de bots para complementar las de la IAB.
 
 ## Indicaciones sobre la latencia
 

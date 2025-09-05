@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y su versión heredada, y Activity Map.
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 # Guía de herramientas de Adobe Analytics {#analyze}
 
 + [Guía de herramientas de Analytics](home.md)
-+ [Notas de la versión de Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=es)
++ [Notas de la versión de Analytics](https://experienceleague.adobe.com/es/docs/analytics/release-notes/latest)
 + Introducción a Adobe Analytics {#admin-overview}
    + [Información general de Analytics](get-started/analytics-overview.md)
    + [Introducción (por función)](get-started/get-started-by-role.md)
@@ -55,7 +55,7 @@ ht-degree: 98%
          + [Creación de anotaciones](analysis-workspace/components/annotations/create-annotations.md)
          + [Administración de anotaciones](analysis-workspace/components/annotations/manage-annotations.md)
          + [Visualización de anotaciones](analysis-workspace/components/annotations/view-annotations.md)
-         + [Anotaciones del cuadro de resultados móvil](analysis-workspace/components/annotations/mobile-annotations.md)
+         + [Anotaciones de cuadros de resultados móviles](analysis-workspace/components/annotations/mobile-annotations.md)
       + Dimensiones {#dimensions}
          + [Vista preliminar de dimensiones](analysis-workspace/components/dimensions/view-dimensions.md)
          + [Desglose de dimensiones](analysis-workspace/components/dimensions/t-breakdown-fa.md)
@@ -122,13 +122,13 @@ ht-degree: 98%
       + [Analytics para Target](analysis-workspace/c-panels/a4t-panel.md)
       + [Atribución](analysis-workspace/c-panels/attribution.md)
       + [De forma libre](analysis-workspace/c-panels/freeform-panel.md)
-      + [Audiencia media por minuto de medios](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [Público medio por minuto de medios](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Visualizadores simultáneos de medios](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [Tiempo invertido en la reproducción de medios](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Elemento siguiente o anterior](analysis-workspace/c-panels/next-previous.md)
       + [Resumen de página](analysis-workspace/c-panels/page-summary.md)
       + [Acceso rápido a información](analysis-workspace/c-panels/quickinsight.md)
-      + Comparación de segmentos  {#segment-comparison}
+      + Comparación de segmentos {#segment-comparison}
          + [Información general](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casos de uso](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Pruebas estadísticas utilizadas](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -146,8 +146,8 @@ ht-degree: 98%
       + [Atribución algorítmica](analysis-workspace/attribution/algorithmic.md)
       + [Prácticas recomendadas](analysis-workspace/attribution/best-practices.md)
       + [Preguntas frecuentes](analysis-workspace/attribution/faq.md)
-   + [administración de recorrido](analysis-workspace/journey-iq.md)
-   + [Comparación de segmentos ](analysis-workspace/segment-iq.md)
+   + [Administración de recorrido](analysis-workspace/journey-iq.md)
+   + [Comparación de segmentos](analysis-workspace/segment-iq.md)
    + Detección de anomalías {#anomaly-detection}
       + [Información general](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [Ver anomalías](analysis-workspace/c-anomaly-detection/view-anomalies.md)
@@ -201,7 +201,7 @@ ht-degree: 98%
          + [Filtrado de un informe de abandonos mediante el Asistente para solicitudes](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
          + [Filtrado de informes de ruta añadiendo solicitudes dependientes](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)
          + [Selección de un tipo de informe](legacy-report-builder/data-requests/c-report-types/t-select-report-type.md)
-      + [Importación de informes marcados e informes del panel](legacy-report-builder/data-requests/import-bookmarked.md)
+      + [Importación de informes marcados e informes del panel de control](legacy-report-builder/data-requests/import-bookmarked.md)
       + Intervalos de fechas {#date-ranges}
          + [Definiciones del Asistente para solicitudes: Fechas preestablecidas](legacy-report-builder/data-requests/configuring-report-dates/r-arb-preset-dates.md)
          + [Fechas fijas e intervalos de fechas guardados](legacy-report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)
@@ -302,6 +302,6 @@ ht-degree: 98%
    + [Paneles de Adobe Analytics: Información general](mobile-app/home.md)
    + [Introducción para el gestor de datos](mobile-app/curator.md)
    + [Creación de un cuadro de resultados móvil](mobile-app/create-scorecard.md)
-   + [Configuración de ejecutivos para que utilicen paneles](mobile-app/set-up-execs.md)
+   + [Configuración de ejecutivos para que utilicen paneles de control](mobile-app/set-up-execs.md)
    + [Guía de inicio rápida para el usuario ejecutivo](mobile-app/executive.md)
 + [Labs](labs.md)

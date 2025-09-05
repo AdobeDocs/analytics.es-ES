@@ -3,9 +3,9 @@ title: Importar métricas de búsqueda de pago
 description: Pasos para configurar Adobe Analytics para que realice un seguimiento de las métricas de búsqueda de pago (por ejemplo, Google Ads, Microsoft Advertising, etc.) mediante fuentes de datos.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1204'
 ht-degree: 90%
 
 ---
@@ -66,7 +66,7 @@ El [!UICONTROL Asistente para la activación de la fuente de datos] muestra:
 1. Haga clic en **[!UICONTROL Siguiente]** y asigne un nombre a la fuente de datos. Este nombre aparecerá en el Administrador de la fuente de datos.
 1. Acepte el contrato de servicio y haga clic en **[!UICONTROL Siguiente]**.
 1. Seleccione las tres métricas estándar: [!UICONTROL Impresiones], [!UICONTROL Clics] y [!UICONTROL Coste total], y haga clic en **[!UICONTROL Siguiente]**.
-1. Ahora, &quot;asigne&quot; esta nueva fuente de datos a los eventos personalizados que hemos creado en [Eventos de éxito](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md).
+1. Ahora, &quot;asigne&quot; esta nueva fuente de datos a los eventos personalizados que hemos creado en [Eventos de éxito](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md).
 
    ![Asignación](assets/data-source-mapping.png)
 
@@ -90,7 +90,7 @@ Pasos similares a estos funcionan para Google Ads, Microsoft Advertising y otras
 ### Exportar datos
 
 1. Inicie sesión en su cuenta de PPC y cree un nuevo informe o exportación.
-Asegúrese de que la exportación incluye los campos siguientes: fecha, dirección URL de destino (página de aterrizaje), impresiones, clics y coste. La exportación puede incluir otros campos, pero se eliminarán los pasos siguientes.
+Asegúrese de que la exportación incluye los campos siguientes: fecha, dirección URL de destino (página de destino), impresiones, clics y coste. La exportación puede incluir otros campos, pero se eliminarán los pasos siguientes.
 1. Si es posible, guarde el informe como `.csv` o archivo delimitado por tabuladores. Esto facilitará el trabajo en los pasos siguientes.
 1. Abra el archivo en Microsoft Excel.
 
@@ -118,7 +118,7 @@ Vuelva al asistente de fuentes de datos para obtener instrucciones y cargue el a
 
 Agregar métricas calculadas será útil cuando tome decisiones de pago por clic.
 
-Por ejemplo, puede agregar estas [métricas calculadas](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=es#calculated-metrics):
+Por ejemplo, puede agregar estas [métricas calculadas](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#calculated-metrics):
 
 | Nombre | Fórmula | Tipo de métrica | Descripción |
 | --- | --- | --- | --- |

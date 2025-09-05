@@ -3,7 +3,7 @@ title: Dimensiones y servicios de medios de streaming
 description: Dimensiones disponibles al habilitar [!UICONTROL Anuncios multimedia] para un grupo de informes.
 feature: Dimensions
 exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 15%
@@ -16,7 +16,7 @@ ht-degree: 15%
 
 Las dimensiones y los servicios de medios de streaming proporcionan una funcionalidad de creación de informes suplementaria para la recopilación de datos a través de las bibliotecas de los servicios de medios de streaming. El uso de estas dimensiones requiere el **[!UICONTROL complemento de Adobe Analytics para medios de streaming]**. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
 
-Cuando habilita **[!UICONTROL Anuncios multimedia]** en [Informes multimedia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), están disponibles las siguientes dimensiones:
+Cuando habilita **[!UICONTROL Anuncios multimedia]** en [Informes multimedia](/help/admin/tools/manage-rs/edit-settings/media-management.md), están disponibles las siguientes dimensiones:
 
 | Nombre de la dimensión | Descripción | Enviado con | Variable de datos de contexto |
 | --- | --- | --- | --- |

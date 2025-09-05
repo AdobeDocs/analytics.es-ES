@@ -1,13 +1,13 @@
 ---
 description: Obtenga información sobre cómo compartir funciones de proyecto y proyecto en Workspace
 keywords: Uso compartido en Analysis Workspace
-title: Proyectos compartidos
+title: Compartir proyectos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1974'
 ht-degree: 96%
 
 ---
@@ -41,12 +41,12 @@ Cualquier [depuración](curate.md) que haya aplicado antes del uso compartido se
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir proyectos](https://video.tv.adobe.com/v/40033?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir proyectos](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
-## Compartir con usuarios y grupos de su organización {#Add}
+## Comparta contenido con usuarios y grupos de su organización {#Add}
 
 Puede compartir un proyecto con usuarios o grupos existentes de Analysis Workspace de su organización. Cuando comparta un proyecto, como se describe en esta sección, los usuarios con los que lo comparta deben tener acceso a Adobe Analytics.
 
@@ -97,7 +97,7 @@ Si hay cambios no guardados, se le pedirá que guarde primero el proyecto.
 
    **Solo lectura:** los destinatarios no pueden **[!UICONTROL Guardar]** o **[!UICONTROL Guardar como]** y no tienen acceso al carril izquierdo. Las interacciones del proyecto también están limitadas. Esta función resulta útil si desea compartir un proyecto con usuarios menos familiarizados con la estructura de datos de su organización, con Analysis Workspace o con Adobe Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro. Obtenga más información sobre la [la experiencia de proyecto Solo lectura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).
 
-1. (Condicional) Si comparte un único proyecto, elija si desea activar las siguientes opciones al compartir el proyecto:
+1. (Condicional) Si comparte un único proyecto, elija si desea habilitar las siguientes opciones al compartir el proyecto:
 
    * **Compartir componentes del proyecto incrustados:** comparta segmentos, métricas calculadas e intervalos de fechas con todos los destinatarios. Después de compartirlos, estos componentes aparecerán en el menú desplegable de componentes del espacio de trabajo del destinatario. Esta configuración no se mantiene, se trata de una acción concreta usada al momento de compartir.
 
@@ -107,7 +107,7 @@ Si hay cambios no guardados, se le pedirá que guarde primero el proyecto.
 
    O bien
 
-   Seleccione **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. (Si el proyecto ya se ha compartido, seleccione **[!UICONTROL Depurar y actualizar]**). Obtenga más información sobre la [depuración del proyecto](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=es).
+   Seleccione **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. (Si el proyecto ya se ha compartido, seleccione **[!UICONTROL Depurar y actualizar]**). Obtenga más información sobre la [depuración del proyecto](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 ## Compartir un vínculo a un proyecto
 
@@ -115,7 +115,7 @@ Cuando comparta un vínculo como se describe en esta sección, tenga en cuenta l
 
 * Los destinatarios que utilicen el vínculo deben iniciar sesión en Adobe Analytics antes de obtener acceso al proyecto.
 
-* Si a un destinatario no se le asigna una función y recibe un [vínculo que se puede compartir](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=es) con el proyecto, se le asignará una función de forma predeterminada. Los administradores reciben **[!UICONTROL Editar original]** y los usuarios que no son administradores reciben **[!UICONTROL Editar copia]**.
+* Si a un destinatario no se le asigna una función y recibe un [vínculo que se puede compartir](/help/analyze/analysis-workspace/curate-share/shareable-links.md) con el proyecto, se le asignará una función de forma predeterminada. Los administradores reciben **[!UICONTROL Editar original]** y los usuarios que no son administradores reciben **[!UICONTROL Editar copia]**.
 
 Para compartir el vínculo del proyecto con los usuarios de su organización, haga lo siguiente:
 
@@ -157,7 +157,7 @@ Puede conceder [acceso de solo lectura](/help/analyze/analysis-workspace/curate-
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir un vínculo con alguien](https://video.tv.adobe.com/v/3452454?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir un vínculo con alguien](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -176,9 +176,9 @@ Para compartir un proyecto de Analysis Workspace con personas que no tienen acce
 
    Al seleccionar esta opción, se crea un vínculo al proyecto que se puede compartir con cualquier persona. Puede deshabilitar el acceso al proyecto en cualquier momento desactivando esta opción.
 
-   El propietario del proyecto también es el propietario de este vínculo. La propiedad de los vínculos solo se puede transferir a otro usuario cuando se transfiere la propiedad del proyecto, tal como se describe en [Transferir recursos de usuario o establecer caducidades de cuenta](/help/admin/admin/user-management2/users-assets.md) en la guía de administración de Analytics.
+   El propietario del proyecto también es el propietario de este vínculo. La propiedad de los vínculos solo se puede transferir a otro usuario cuando se transfiere la propiedad del proyecto, tal como se describe en [Transferir recursos de usuario o establecer caducidades de cuenta](/help/admin/tools/user-management/users-assets.md) en la guía de administración de Analytics.
 
-1. Elija si desea activar la siguiente opción de seguridad (esta opción puede controlarla el administrador de Analytics):
+1. Elija si desea habilitar la siguiente opción de seguridad (esta opción puede controlarla el administrador de Analytics):
 
    * **[!UICONTROL Requiere autenticación de Experience Cloud]:**
 
@@ -188,7 +188,7 @@ Para compartir un proyecto de Analysis Workspace con personas que no tienen acce
 
       * Si esta opción no está visible, su administrador de Analytics no ha habilitado esta función.
 
-      * Si esta opción está activada y atenuada, el administrador de Analytics exigirá la autenticación de Experience Cloud a cualquier persona que acceda a los proyectos de Analysis Workspace.
+      * Si esta opción está habilitada y atenuada, el administrador de Analytics exigirá la autenticación de Experience Cloud a cualquier persona que acceda a los proyectos de Analysis Workspace.
 
 1. Junto al campo **[!UICONTROL Compartir con cualquiera (no es necesario iniciar sesión)]**, haga clic en el icono **Copiar enlace** ![icono Copiar enlace](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) para copiar el enlace en el portapapeles del sistema.
 
@@ -212,7 +212,7 @@ Puede compartir los componentes incrustados que forman parte del proyecto.
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados](https://video.tv.adobe.com/v/327499?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

@@ -1,12 +1,12 @@
 ---
-description: Descubra cómo los segmentos le permiten identificar subconjuntos de visitantes en función de sus características o de las interacciones con el sitio web.
+description: Descubra cómo los segmentos le permiten identificar subconjuntos de visitantes basándose en sus características o en las interacciones con el sitio web.
 title: Acerca de los segmentos
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 98%
+source-wordcount: '987'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Los segmentos le permiten identificar subconjuntos de visitantes basándose en sus características o en las interacciones con el sitio web. Los segmentos están diseñados como datos del público que usted puede crear según sus necesidades específicas y a continuación, verificar, editar y compartir con otros integrantes del equipo o usar en otros productos de Adobe o funcionalidades de Analytics.
 
-Los segmentos se basan en una jerarquía de niveles de [!UICONTROL Visitante], [!UICONTROL Visita] y [!UICONTROL Visita individual] usando un modelo de contenedor anidado. Los contenedores anidados le permiten definir los atributos y las acciones del visitante basándose en las reglas entre los contenedores y dentro de ellos. Los segmentos de Analytics pueden generarse, aprobarse, compartirse, guardarse y ejecutarse en varios productos y capacidades en [!DNL Adobe Experience Cloud]. Los segmentos pueden generarse a partir de un informe, integrarse en un informe de panel o marcarse como favoritos para acceder rápidamente a ellos.
+Los segmentos se basan en una jerarquía de niveles de [!UICONTROL Visitante], [!UICONTROL Visita] y [!UICONTROL Visita individual] usando un modelo de contenedor anidado. Los contenedores anidados le permiten definir los atributos y las acciones del visitante basándose en las reglas entre los contenedores y dentro de ellos. Los segmentos de Analytics pueden generarse, aprobarse, compartirse, guardarse y ejecutarse en varios productos y capacidades en [!DNL Adobe Experience Cloud]. Los segmentos pueden generarse a partir de un informe, integrarse en un informe de panel de control o marcarse como favoritos para acceder rápidamente a ellos.
 
 Puede generar y guardar segmentos en el Generador de segmentos, o bien generarlos a partir de un informe de visitas en el orden previsto (en [!UICONTROL Analysis Workspace]). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos se pueden usar juntos como [segmentos apilados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
@@ -34,7 +34,7 @@ Los segmentos pueden basarse en los siguientes valores:
 - Visitantes en función de salidas y entradas: visitantes de Facebook, una página de destino definida o un dominio de referencia.
 - Visitantes en función de variables personalizadas: campo de formulario, categorías definidas o ID de cliente.
 
-Cuando genera segmentos de audiencia en el Generador de segmentos, define condiciones utilizando los operadores [!UICONTROL AND] y [!UICONTROL OR] entre los contenedores.
+Cuando genera segmentos de público en el Generador de segmentos, define condiciones utilizando los operadores [!UICONTROL AND] y [!UICONTROL OR] entre los contenedores.
 
 <table style="table-layout:fixed; border: none;">
 
@@ -134,7 +134,7 @@ Los segmentos secuenciales le permiten identificar a los visitantes en función 
 
 | Visita uno | Visita dos | Visita tres |
 |---|---|---|
-| En la primera visita, el visitante accedió a la página de destino principal A, excluyó la página de campaña B y después vio la página del producto C. | En la segunda visita, el visitante volvió a acceder a la página de destino principal A, excluyó la página de campaña B y vio de nuevo la página del producto C, para acceder a continuación a una nueva página D. | En la tercera visita, el visitante accedió y siguió la misma ruta que en la primera y la segunda visita, y después excluyó la página F para ir directamente a una página de producto dirigida G. |
+| En la primera visita, el visitante accedió a la página de destino principal A, excluyó la página de campaña B y después vio la página de producto C. | En la segunda visita, el visitante volvió a acceder a la página de destino principal A, excluyó la página de campaña B y vio de nuevo la página de producto C, para acceder a continuación a una nueva página D. | En la tercera visita, el visitante accedió y siguió la misma ruta que en la primera y la segunda visita, y después excluyó la página F para ir directamente a una página de producto dirigida G. |
 
 Los segmentos secuenciales pueden basarse en los siguientes valores de visitas individuales:
 
@@ -240,7 +240,7 @@ En este vídeo se proporciona una breve descripción sobre qué son los contened
 
 >[!BEGINSHADEBOX]
 
-Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/3429101?quality=12&learn=on&captions=spa){target="_blank"}.
+Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -249,7 +249,7 @@ Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/Video
 
 +++ **¿Qué derechos y privilegios necesito para utilizar, crear y administrar segmentos?**
 
-De forma predeterminada, todos los usuarios pueden crear y editar segmentos personales. Sin embargo, los administradores pueden decidir quién cuenta con los [permisos para crear segmentos](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=es) y pueden asignarlos a grupos específicos. Estos segmentos se pueden compartir directamente con cualquier otro usuario de Analytics.
+De forma predeterminada, todos los usuarios pueden crear y editar segmentos personales. Sin embargo, los administradores pueden decidir quién cuenta con los [permisos para crear segmentos](/help/admin/admin-console/home.md) y pueden asignarlos a grupos específicos. Estos segmentos se pueden compartir directamente con cualquier otro usuario de Analytics.
 
 Los administradores pueden editar cualquier segmento, así como compartir segmentos con grupos y con cualquier persona de la organización. [Derechos de segmentos por función](/help/components/segmentation/seg-reference/seg-rights.md)
 

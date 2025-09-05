@@ -4,7 +4,7 @@ keywords: Implementación de Analytics
 title: Redirecciones y alias
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 99%
@@ -41,8 +41,8 @@ Imagine la siguiente situación hipotética en la que el usuario no se topa con 
 Las redirecciones pueden hacer que el navegador borre la verdadera dirección URL de referencia. Imagine la siguiente situación:
 
 1. El usuario dirige el navegador a `https://www.google.com`, y luego escribe *billetes avión descuento* en el campo de búsqueda y hace clic en el botón **[!UICONTROL Buscar]**.
-1. La barra de direcciones de la ventana del explorador muestra los términos de búsqueda que el usuario escribió en el campo de búsqueda `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Observe que los términos de búsqueda se incluyen en los parámetros de la cadena de consulta de la dirección URL que están después de `https://www.google.com/search?`. El navegador también muestra una página que contiene los resultados de la búsqueda, entre los que se incluye un vínculo a uno de sus nombres de dominio: [!DNL https://www.flytohawaiiforfree.com/]. Este dominio *mnemónico* está configurado para redireccionar al usuario a `https://www.example.com/`.
-1. El usuario hace clic en el vínculo `https://www.flytohawaiiforfree.com/` y el servidor lo redirecciona a su sitio principal, `https://www.example.com`. Cuando se produce la redirección, se pierden datos importantes para la recopilación de datos de [!DNL Analytics] porque el explorador borra la dirección URL de referencia. Por ello, se pierde la información de la búsqueda original que se usa en los informes de [!DNL Analytics] (por ejemplo: [!UICONTROL Dominios de referencia], [!UICONTROL Motores de búsqueda] y [!UICONTROL Palabras clave de búsqueda]).
+1. La barra de direcciones de la ventana del explorador muestra los términos de búsqueda que el usuario escribió en el campo de búsqueda `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Observe que los términos de búsqueda se incluyen en los parámetros de la cadena de consulta de la dirección URL que están después de `https://www.google.com/search?`. El navegador también muestra una página que contiene los resultados de la búsqueda, entre los que se incluye un vínculo a uno de sus nombres de dominio: [!DNL https://www.flytohawaii.example/]. Este dominio *mnemónico* está configurado para redireccionar al usuario a `https://www.example.com/`.
+1. El usuario hace clic en el vínculo `https://www.flytohawaii.example/` y el servidor lo redirecciona a su sitio principal, `https://www.example.com`. Cuando se produce la redirección, se pierden datos importantes para la recopilación de datos de [!DNL Analytics] porque el explorador borra la dirección URL de referencia. Por ello, se pierde la información de la búsqueda original que se usa en los informes de [!DNL Analytics] (por ejemplo: [!UICONTROL Dominios de referencia], [!UICONTROL Motores de búsqueda] y [!UICONTROL Palabras clave de búsqueda]).
 
 ## Implementar redirecciones {#implement}
 
@@ -52,7 +52,7 @@ Al llevar a cabo los siguientes pasos, se conservará la información que transf
 
 ## Configuración del código de JavaScript para ignorar el referente {#override}
 
-El siguiente fragmento de código muestra dos variables de JavaScript, *`s_referrer`* y *`s_pageURL`*. El código se sitúa en la página de aterrizaje definitiva de la redirección.
+El siguiente fragmento de código muestra dos variables de JavaScript, `s.referrer` y `s.pageURL`. El código se sitúa en la página de destino definitiva de la redirección.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -90,7 +90,7 @@ if(tempVar)
 
 ## Modificación del mecanismo de redirección {#modify}
 
-Puesto que el explorador elimina la dirección URL de referencia, se debe configurar el mecanismo que se ocupa de la redirección (por ejemplo: servidor web, código del lado del servidor, código del lado del cliente) de modo que transmita la información del referente original. Si, además, desea registrar la dirección URL del vínculo de alias, esta también se debe transferir a la página de aterrizaje definitiva. Utilice la variable *`s_pageURL`* para anular la dirección URL actual.
+Puesto que el explorador elimina la dirección URL de referencia, se debe configurar el mecanismo que se ocupa de la redirección (por ejemplo: servidor web, código del lado del servidor, código del lado del cliente) de modo que transmita la información del referente original. Si, además, desea registrar la dirección URL del vínculo de alias, esta también se debe transferir a la página de destino definitiva. Utilice la variable *`s_pageURL`* para anular la dirección URL actual.
 
 Dado que existen varias formas de implementar una redirección, es posible que tenga que consultar al grupo de operaciones web o a su socio de publicidad en línea cuáles son los mecanismos concretos que ejecutan las redirecciones en su sitio web.
 
@@ -98,10 +98,10 @@ Dado que existen varias formas de implementar una redirección, es posible que t
 
 En general, [!DNL Analytics] obtiene la dirección URL de referencia de la propiedad [!UICONTROL document.referrer] del explorador, y la dirección URL actual de la propiedad [!UICONTROL document.location]. Al pasar valores a las variables *`referrer`* y *`pageURL`*, puede anular el procesamiento predeterminado. Al transferir un valor a la variable referrer, [!DNL Analytics] interpreta que debe ignorar la información del referente que se encuentra en la propiedad [!UICONTROL document.referrer] y utilizar un valor alternativo que usted defina.
 
-Por lo tanto, la versión final de la página de aterrizaje debería contener el siguiente código para corregir los problemas introducidos en la situación de “billetes de avión con descuento”.
+Por lo tanto, la versión final de la página de destino debería contener el siguiente código para corregir los problemas introducidos en la situación de “billetes de avión con descuento”.
 
 ```js
-<script language="JavaScript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
+<script language="JavaScript" src="AppMeasurement.js"></script> 
 <script language="JavaScript"><!-- 
 /* You may give each page an identifying name, server, and channel on 
 the next lines. */ 
@@ -110,7 +110,7 @@ s.server=""
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
 // Setting the s.pageURL variable is optional.
-s.pageURL="https://www.flytohawaiiforfree.com"
+s.pageURL="https://www.flytohawaii.example"
 ```
 
 ## Comprobación del referente con Adobe Debugger {#verify}
@@ -135,11 +135,11 @@ Estas variables se representarán como los siguientes parámetros en [Experience
   </tr> 
   <tr> 
    <td> <p>URL de la página </p> </td> 
-   <td> <p> <span class="filepath">https://www.flytohawaiiforfree.com</span> </p> </td> 
-   <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p>Este valor aparecerá en DigitalPulse Debugger si se utiliza la variable <span class="varname">pageURL</span>. </p> </td> 
+   <td> <p> <span class="filepath"> https://www.flytohawaii.example </span> </p> </td> 
+   <td> <p> <span class="filepath"> g=https://www.flytohawaii.example </span> </p> <p>Este valor aparecerá en DigitalPulse Debugger si se utiliza la variable <span class="varname">pageURL</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>URL de la página de aterrizaje definitiva </p> </td> 
+   <td> <p>URL de la página de destino definitiva </p> </td> 
    <td> <p> <span class="filepath">https://www.example.com</span> </p> </td> 
    <td> <p>Este valor NO aparecerá en DigitalPulse Debugger si se utiliza la variable <span class="varname">pageURL</span>. </p> </td> 
   </tr> 
@@ -157,7 +157,7 @@ t=4/8/20XX 13:34:28 4 360
 pageName=Welcome to example.com 
 r=https://ref=www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets 
 cc=USD 
-g=https://www.flytohawaiiforfree.com 
+g=https://www.flytohawaii.example 
 s=1280x1024 
 c=32 
 j=1.3 

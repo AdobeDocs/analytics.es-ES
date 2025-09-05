@@ -4,7 +4,7 @@ title: Implementación del etiquetado de grupos múltiples
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 93%
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 # Implementación del etiquetado de grupos múltiples
 
-[El etiquetado de grupos múltiples](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md) le permite enviar solicitudes de imagen no solo a un grupo de informes globales, sino también a grupos de informes secundarios individuales, de modo que pueda proporcionar subconjuntos de los datos del grupo de informes globales de su empresa a distintos usuarios finales.
+[El etiquetado de grupos múltiples](/help/admin/tools/manage-rs/rollup-report-suite.md) le permite enviar solicitudes de imagen no solo a un grupo de informes globales, sino también a grupos de informes secundarios individuales, de modo que pueda proporcionar subconjuntos de los datos del grupo de informes globales de su empresa a distintos usuarios finales.
 
 Para implementar el etiquetado de grupos múltiples, debe incluir el ID del grupo de informes (RSID) para el grupo de informes globales y también los RSID para los grupos de informes secundarios aplicables en el código de seguimiento de sus páginas web y aplicaciones.
 
