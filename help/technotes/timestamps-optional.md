@@ -20,7 +20,7 @@ Conozca las ventajas y limitaciones de utilizar la opción Marcas de hora opcion
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/3418612?quality=12&learn=on&captions=spa){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 -->
