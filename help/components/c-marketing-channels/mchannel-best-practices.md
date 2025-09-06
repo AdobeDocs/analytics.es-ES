@@ -3,10 +3,10 @@ title: Prácticas recomendadas para implementar canales de marketing de Adobe An
 description: Prácticas recomendadas actualizadas para usar los canales de marketing con Attribution y Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: ac1f85ade5b47a95329e23c740c4794a9406de02
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 97%
+source-wordcount: '653'
+ht-degree: 81%
 
 ---
 
@@ -34,9 +34,13 @@ Recomendamos utilizar [Attribution](/help/analyze/analysis-workspace/attribution
 
 No se recomiendan los canales de actualización directa e interna/de sesión para su uso con modelos de atribución personalizados.
 
-¿Qué sucede si su organización ya tiene configurada la actualización directa y de sesión? En este caso, le recomendamos que [cree una clasificación](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) para el primer contacto/último contacto y deje los canales de actualización directa y de sesión sin clasificar. La dimensión clasificada arrojará los mismos resultados de Attribution que si esos canales nunca se hubieran configurado.
+¿Qué sucede si su organización ya tiene configurada la actualización directa y de sesión? En este caso, Adobe recomienda [crear una clasificación](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) para el primer contacto/último contacto y dejar los canales de actualización directa y de sesión sin clasificar. La dimensión clasificada arroja resultados de Atribución similares al caso en el que esos canales nunca se configuraron.
 
 ![](assets/direct-session-refresh.png)
+
+Si desactiva estos canales y elimina sus reglas de procesamiento de canal de marketing, los resultados difieren ligeramente del enfoque de clasificación. El valor `None` representa las visitas que no coinciden con ninguna regla de procesamiento de canal de marketing. Pueden aparecer diferencias cuando una visita que coincide con un canal no sigue a una visita que coincide con un canal.
+
+Puede seguir utilizando modelos de atribución personalizados para aplicar ventanas retrospectivas y modelos de atribución en cualquier caso.
 
 ## Práctica recomendada n.º 3: Habilitar el canal de último contacto de anulación para todos los canales
 
