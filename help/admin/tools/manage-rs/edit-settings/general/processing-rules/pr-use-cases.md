@@ -5,10 +5,10 @@ title: Casos de uso de reglas de procesamiento
 feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 0616f35599fd40ee8b88f7809f943bb11a84429b
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -27,6 +27,7 @@ La lista [!UICONTROL Variables de contexto] contiene todas las variables que se 
 El ejemplo siguiente toma la variable de datos de contexto `search_term` e introduce su valor en eVar3:
 
 | Conjunto de reglas | Valor |
+| --- | --- |
 | Condición | `search_term` (datos de contexto) está establecido |
 | Acción | [!UICONTROL Sobrescribir el valor de] eVar3 con `search_term` (datos de contexto) |
 
@@ -37,8 +38,9 @@ El ejemplo anterior funciona bien cuando solo hay unas pocas eVars que rellenar.
 El siguiente ejemplo rellena varias variables con variables de datos de contexto variables. Una acción también contiene una afirmación condicional:
 
 | Conjunto de reglas | Valor |
+| --- | --- |
 | Acción | [!UICONTROL Sobrescribir el valor de] eVar55 con `spa.billing_customer_name` (datos de contexto) |
-| Acción | [!UICONTROL Sobrescribir el valor de &#x200B;] Prop7 con `testhierarchy` (datos de contexto), si se ha establecido `testhierarchy` (datos de contexto) |
+| Acción | [!UICONTROL Sobrescribir el valor de] Prop7 con `testhierarchy` (datos de contexto), si se ha establecido `testhierarchy` (datos de contexto) |
 | Acción | [!UICONTROL Sobrescribir el valor de] eVar8 con `spa.ims_org` (datos de contexto) |
 
 ![Captura de pantalla de la interfaz de reglas de procesamiento que muestra cómo establecer condicionalmente un valor](assets/add-conditional.png)
@@ -79,7 +81,7 @@ Compruebe siempre si un valor está vacío o si contiene el valor esperado antes
 
 | Conjunto de reglas | Valor |
 | --- | --- |
-| Condición | [!UICONTROL Se Ha Establecido El Parámetro De Cadena De Consulta] `q` [!UICONTROL 4&rbrace;] |
+| Condición | [!UICONTROL Se Ha Establecido El Parámetro De Cadena De Consulta] `q` [!UICONTROL 4}] |
 | Acción | [!UICONTROL Sobrescribir el valor de] términos de búsqueda interna con [!UICONTROL Parámetro de cadena de consulta] `q` |
 
 ![Captura de pantalla de la interfaz de reglas de procesamiento que muestra la lógica de término de búsqueda interna](assets/populate-internal-search-terms.png)
