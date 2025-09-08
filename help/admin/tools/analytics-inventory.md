@@ -7,7 +7,7 @@ exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -81,7 +81,7 @@ En esta versión inicial, puede ver los números de inventario resumidos de los 
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-data-config"
 >title="Configuración y recopilación de datos"
->abstract="Esta sección muestra el número de grupos de informes en su entorno de Adobe Analytics, así como su acceso a los servicios de medios de streaming."
+>abstract="En esta sección se muestra el número de grupos de informes en su entorno de Adobe Analytics, así como su acceso a los servicios de medios de streaming."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -112,7 +112,7 @@ Las respuestas a estas preguntas le darán una buena idea de qué grupos de info
    | Ocurrencias (últimos 90 días) | La métrica “Ocurrencias” muestra el número de visitas configurado o en las que persiste una variable. ¿Cuántas visitas recibió este grupo de informes en los últimos 90 días? |
    | Métricas | ¿Cuántas métricas se definen en este grupo de informes? |
    | Dimensiones | ¿Cuántas dimensiones se definen en este grupo de informes? |
-   | Analytics for Target (A4T) habilitado | [Oculto de forma predeterminada] ¿Está habilitado este grupo de informes para [Analytics for Target](https://experienceleague.adobe.com/es/docs/target/using/integrate/a4t/a4t)? |
+   | Analytics for Target (A4T) habilitado | [Oculto de forma predeterminada] ¿Está habilitado este grupo de informes para [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
    | Canales de marketing habilitados | [Oculto de forma predeterminada] ¿Está habilitado este grupo de informes para [Canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md)? |
    | Conector de origen habilitado | ¿Está habilitado este grupo de informes para [Adobe Analytics Source Connector para los datos del grupo de informes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/analytics) en Adobe Experience Platform? En otras palabras, ¿se puede migrar este grupo de informes a Customer Journey Analytics mediante el conector de Source de Analytics? |
    | Tipo de calendario | [Oculto de forma predeterminada] Para obtener más información, consulte [Calendarios personalizados](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) |

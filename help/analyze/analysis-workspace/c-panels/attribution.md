@@ -24,14 +24,14 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="Panel de atribución"
->abstract="Compare y visualice rápidamente los modelos de atribución utilizando cualquier dimensión y métrica de conversión.<br/><br/>**Parámetros &#x200B;**<br/>**Canal**<br/> Dimensión con la que se va a atribuir. Esta dimensión puede consistir en canales de marketing, campañas o cualquier otra dimensión.<br/>**Modelos**<br/> El modelo determina cómo se asigna crédito a puntos de contacto.<br/>**Ventana retroactiva**<br/> Este ajuste determina la ventana de atribución de datos que se aplica a cada conversión."
+>abstract="Compare y visualice rápidamente los modelos de atribución utilizando cualquier dimensión y métrica de conversión.<br/><br/>**Parámetros **<br/>**Canal**<br/> Dimensión con la que se va a atribuir. Esta dimensión puede consistir en canales de marketing, campañas o cualquier otra dimensión.<br/>**Modelos**<br/> El modelo determina cómo se asigna crédito a puntos de contacto.<br/>**Ventana retroactiva**<br/> Este ajuste determina la ventana de atribución de datos que se aplica a cada conversión."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Panel de Attribution IQ"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Atribución en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Panel Atribución](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/panels/attribution) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel Atribución en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Panel Atribución](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/panels/attribution) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +43,7 @@ Adobe Analytics mejora la atribución al permitir lo siguiente:
 * Utilizar la comparación de modelos de atribución sin límites: compare dinámicamente todos los modelos que desee.
 * Evitar cambios de implementación: con el procesamiento de tiempo de los informes y las sesiones según el contexto, el contexto del recorrido del cliente puede incorporarse y aplicarse en tiempo de ejecución.
 * Construir la sesión más adecuada para su escenario de atribución.
-* Desglosar la atribución por segmentos: compare fácilmente el rendimiento de sus canales de marketing en cualquier segmento importante (por ejemplo, clientes nuevos frente a repetidos, producto X frente a producto Y, nivel de fidelidad o CLV).
+* Desglosar la atribución por segmentos: compare fácilmente el rendimiento de sus canales de marketing en cualquier segmento importante (por ejemplo, clientes nuevos frente a repetidos, producto X frente a producto Y, nivel de lealtad o CLV).
 * Inspeccionar análisis de canales cruzados y de múltiples contactos mediante Diagramas de Venn e Histogramas, y resultados de atribución de tendencias.
 * Analizar visualmente secuencias de marketing clave: explore las rutas que generaron una conversión visualmente con las visualizaciones de visitas en el orden previsto y flujo de varios nodos.
 * Generar métricas calculadas: Utilice todos los métodos de asignación de atribuciones que desee.
@@ -114,7 +114,7 @@ La siguiente visualización forma parte de la salida del panel.
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://video.tv.adobe.com/v/38642/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
 ## Create an attribution panel
 
