@@ -81,7 +81,7 @@ Compruebe siempre si un valor está vacío o si contiene el valor esperado antes
 
 | Conjunto de reglas | Valor |
 | --- | --- |
-| Condición | [!UICONTROL Se Ha Establecido El Parámetro De Cadena De Consulta] `q` [!UICONTROL 4}] |
+| Condición | [!UICONTROL Se Ha Establecido El Parámetro De Cadena De Consulta] `q` [!UICONTROL 4&rbrace;] |
 | Acción | [!UICONTROL Sobrescribir el valor de] términos de búsqueda interna con [!UICONTROL Parámetro de cadena de consulta] `q` |
 
 ![Captura de pantalla de la interfaz de reglas de procesamiento que muestra la lógica de término de búsqueda interna](assets/populate-internal-search-terms.png)
