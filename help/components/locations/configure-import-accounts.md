@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configuración de cuentas de importación y exportación de nube
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1489'
 ht-degree: 56%
 
 ---
@@ -61,7 +61,9 @@ Para configurar una cuenta de importación o exportación de nube:
 
    **Tipos de cuenta**
 
-   +++ARN de la función Amazon S3
+   +++Amazon S3 Role ARN
+
+   **NOTA:** Al usar Amazon S3 con fuentes de datos y Data Warehouse, solo se admite el cifrado SSE-S3.
 
    Para configurar una cuenta ARN de la función Amazon S3, especifique la siguiente información:
 
@@ -99,7 +101,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    {style="table-layout:auto"}
 
-   +++
+   +++   
 
    +++Azure RBAC
 
@@ -191,7 +193,7 @@ Para configurar una cuenta de importación o exportación de nube:
 
    +++
 
-   +++blob de Azure
+   +++Azure Blob
 
    Data Warehouse admite destinos de Azure Blob. Se necesita un contenedor, una cuenta y una clave. Amazon cifra automáticamente los datos en reposo. Cuando se descarguen los datos, estos se descifrarán automáticamente. Consulte [Creación de una cuenta de almacenamiento](https://docs.microsoft.com/es-es/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) en los documentos de Microsoft Azure para obtener más información.
 

@@ -3,9 +3,9 @@ title: Crear una fuente de datos
 description: Obtenga información sobre cómo crear una fuente de datos y sobre la información de archivo que se va a proporcionar a Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4140'
 ht-degree: 53%
 
 ---
@@ -69,6 +69,8 @@ Antes de crear una fuente de datos, es importante tener una comprensión básica
    Puede enviar fuentes directamente a los bloques de Amazon S3. Este tipo de destino solo requiere su cuenta de Amazon S3 y la ubicación (bloque).
 
    Adobe Analytics utiliza la autenticación entre cuentas para cargar archivos desde Adobe Analytics a la ubicación especificada en la instancia de Amazon S3.
+
+   Al utilizar Amazon S3 con fuentes de datos, solo se admite el cifrado SSE-S3.
 
    Para configurar un contenedor de Amazon S3 como destino de una fuente de datos:
 
