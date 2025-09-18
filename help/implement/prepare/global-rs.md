@@ -4,10 +4,10 @@ description: Comprender las ventajas y los requisitos para utilizar un grupo de 
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ Utilice las siguientes directrices generales para comprender el proceso de imple
    >Asegúrese de que cualquier variable personalizada dada se utilice de manera similar en los distintos dominios. No utilice la misma eVar o evento para distintos fines en cada sitio.
 1. Asegúrese de que cada dominio tenga una capa de datos para simplificar la recopilación de datos. Los datos se pueden recopilar sin una capa de datos, pero la fiabilidad y la longevidad de la implementación disminuyen, especialmente a medida que el sitio se rediseña con el tiempo.
 1. Uso de etiquetas en Adobe Experience Platform para implementar Analytics. Es probable que distintos sitios requieran diferentes elementos de datos. Utilice reglas específicas de cada dominio para asegurarse de que cada elemento de datos se rellena correctamente y, a continuación, asigne esos elementos de datos a sus eVars y eventos respectivos. Consulte [información general sobre las etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
-1. Incluya el [servicio de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) y utilice la función [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=es). Esta función combina datos de visitantes cuando los usuarios hacen clic de un dominio a otro.
+1. Incluya el [servicio de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) y use la función [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=es). Esta función combina datos de visitantes cuando los usuarios hacen clic de un dominio a otro.
 
 ## Modificación de una implementación existente con un grupo de informes global
 
@@ -55,7 +55,7 @@ El proceso de mover una implementación existente en varios sitios a un único g
 3. Siga los pasos anteriores (cree un grupo de informes, recopile los requisitos de informes en un documento de diseño de solución y establezca una capa de datos en cada sitio). Al implementar etiquetas en Adobe Experience Platform, valide la implementación con una versión de desarrollo del sitio web.
 4. Una vez que haya confirmado que la implementación funciona en el desarrollo, publique la implementación de etiquetas en la fecha de migración.
 
-## Páginas relacionadas
-
-[Cambio del etiquetado de grupos múltiples a un grupo de informes globales y grupos de informes virtuales](../../components/vrs/vrs-considerations.md)
-[Comparación de resúmenes y grupos de informes globales](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[!MORELIKETHIS]
+>
+>[Cambio del etiquetado de grupos múltiples a un grupo de informes globales y grupos de informes virtuales](../../components/vrs/vrs-considerations.md)
+>>[Comparando resúmenes y grupos de informes globales](../../admin/tools/manage-rs/rollup-report-suite.md)

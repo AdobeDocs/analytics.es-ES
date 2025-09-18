@@ -4,9 +4,9 @@ title: Preguntas frecuentes sobre la gobernanza de datos
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '2042'
+source-wordcount: '2040'
 ht-degree: 99%
 
 ---
@@ -63,7 +63,7 @@ Con todo, hay varias maneras de probar el procesamiento de privacidad de datos a
 
 * Una opción consiste en configurar una organización de Experience Cloud independiente que solo contenga grupos de informes de prueba. A continuación, utilice esta organización de Experience Cloud para sus pruebas de privacidad de datos y su organización normal de Experience Cloud para el procesamiento real de la privacidad de datos.
 
-* Otra opción consiste en asignar diferentes áreas de nombres a los ID en los grupos de informes de prueba, frente a los de los grupos de informes de producción. Por ejemplo, puede utilizar el prefijo “qa-” en cada área de nombres en los grupos de informes de prueba. Al enviar solicitudes de privacidad de datos con solo áreas de nombres con el prefijo qa, estas solicitudes se ejecutarán únicamente en los grupos de informes de prueba. Más adelante, cuando envíe solicitudes sin el prefijo qa, se aplicarán a los grupos de informes de producción. **Este es el método recomendado, a menos que utilice las áreas de nombres visitorId, AAID, ECID o customVisitorId. Estas áreas de nombres están codificadas y no se pueden especificar nombres alternativos en los grupos de informes de prueba.**
+* Otra opción consiste en asignar diferentes áreas de nombres a los ID en los grupos de informes de prueba, frente a los de los grupos de informes de producción. Por ejemplo, puede utilizar el prefijo “qa-” en cada área de nombres en los grupos de informes de prueba. Al enviar solicitudes de privacidad de datos con solo áreas de nombres con el prefijo qa, estas solicitudes se ejecutarán únicamente en los grupos de informes de prueba. Más adelante, cuando envíe solicitudes sin el prefijo qa, se aplicarán a los grupos de informes de producción. **Este es el método recomendado, a menos que utilice los espacios de nombres `visitorId`, AAID, ECID o `customVisitorId`. Estas áreas de nombres están codificadas y no se pueden especificar nombres alternativos en los grupos de informes de prueba.**
 
 +++
 

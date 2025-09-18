@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
-workflow-type: ht
-source-wordcount: '6461'
-ht-degree: 100%
+source-git-commit: 0193dea6870266a2fe8b557cb8ee6b9907c1bd71
+workflow-type: tm+mt
+source-wordcount: '6482'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Función | Descripción |
 | --- | --- |
+| **Septiembre de 2025** | |
+| Mejoras en la identificación del visitante | Se han aclarado las prácticas recomendadas sobre la identificación de visitantes, centrándose en el propósito de las variables [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) y [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) en AppMeasurement. |
 | **Agosto de 2025** | |
 | Los nombres del feed de datos deben ser únicos | Se ha aclarado por qué [los nombres del feed de datos deben ser únicos](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique). |
 | Advertencias de caducidad | Se han agregado advertencias de caducidad a los artículos de las secciones [Clasificación del generador de reglas](/help/components/classifications/crb/classification-rule-builder.md) e [Importador de clasificaciones](/help/components/classifications/importer/c-working-with-saint.md). |
@@ -77,7 +79,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Documentación sobre la adición de componentes a proyectos | Se ha añadido información general sobre cómo [añadir distintos tipos de componentes a los proyectos en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Documentación actualizada de Advertising Analytics | Documentación actualizada en línea con las actualizaciones realizadas en la interfaz de usuario de [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md). |
 | Asignación explícita de variables de objeto XDM a variables de datos de contexto | Se ha documentado la capacidad en [establecer explícitamente variables de datos de contexto mediante la asignación de variables de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
-| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Se ha actualizado la documentación sobre intervalos de fechas personalizados | Capturas de pantalla y procedimientos actualizados relacionados con la [creación de intervalos de fechas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) para que coincida con las características y el diseño actuales del producto. |
 | **Abril de 2024** | |
 | Se ha eliminado la documentación relacionada con “Propietario” en los conjuntos de clasificación | El filtro “Propietario” y la columna se han eliminado del [Administrador de conjuntos de clasificación](/help/components/classifications/sets/manage/set-manager.md) y el campo “Propietario” se ha eliminado de [Configuración del conjunto de clasificación](/help/components/classifications/sets/manage/settings.md). <p>La documentación se ha actualizado para quitar este filtro, columna y campo.</p> |
@@ -338,7 +340,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 12 de septiembre de 2019 | Se ha actualizado el documento [Totales de métricas calculadas](/help/components/calculated-metrics/cm-totals.md). |
 | 28 de agosto de 2019 | Nuevo artículo sobre [aplicaciones web progresivas (PWA) para Analytics](/help/technotes/pwa.md) |
 | 8 de agosto de 2019 | Nuevo artículo sobre [Totales de métricas calculadas](/help/components/calculated-metrics/cm-totals.md). |
-| 8 de agosto de 2019 | Aclaración sobre [datos de sesión con marca de tiempo habilitada](/help/admin/tools/manage-rs/edit-settings/general/timestamp-optional.md). |
+| 8 de agosto de 2019 | Aclaración sobre [datos de sesión con marca de tiempo habilitada](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md). |
 | 8 de agosto de 2019 | En Workspace, Adobe ha aumentado el límite de elementos que se pueden colocar en un filtro desplegable de 50 a 200. Esta mejora admite una variedad de casos de uso, como agregar todos los países (195) a un filtro, o todos los estados y provincias de EE. UU. (52). |
 | 2 de agosto de 2019 | Actualización principal del [glosario de Analytics](/help/technotes/terms.md). |
 | 22 de julio de 2019 | Magento agregado: Documentación sobre las plantillas de marketing y comerciales para plantillas de [Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |

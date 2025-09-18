@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
-workflow-type: ht
+source-git-commit: 35675c2e65456a175d1516dd421b80d2af809286
+workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 100%
                + [Firmas comunes de bots](tools/manage-rs/edit-settings/general/bot-removal/bot-signatures.md)
                + [Métodos de exclusión de bots](tools/manage-rs/edit-settings/general/bot-removal/bot-exclusion-methods.md)
             + [Configuración de privacidad](tools/manage-rs/edit-settings/general/privacy-settings.md)
-            + [Configuración de marcas de hora](tools/manage-rs/edit-settings/general/timestamp-optional.md)
+            + [Configuración de marcas de hora](tools/manage-rs/edit-settings/general/timestamp-configuration.md)
             + Reenvío del lado del servidor {#server-side-forwarding}
                + [Resumen del reenvío del lado del servidor](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)
                + [Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md)

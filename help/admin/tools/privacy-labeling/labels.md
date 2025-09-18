@@ -4,9 +4,9 @@ title: Etiquetas de privacidad de datos para variables de Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '3760'
+source-wordcount: '3758'
 ht-degree: 100%
 
 ---
@@ -128,7 +128,7 @@ Otro ejemplo: puede tener un CRM ID que en ocasiones se envía a través de eVar
 
 >[!CAUTION]
 >
->Las áreas de nombres “visitorId” y “customVisitorId” están reservadas para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de cliente de Analytics. No utilice estas áreas de nombres para variables de conversión o tráfico personalizado.
+>Las áreas de nombres `visitorId` y `customVisitorId` están reservadas para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante del cliente de Analytics. No utilice estas áreas de nombres para variables de conversión o tráfico personalizado.
 
 ## Tipos de variables y las etiquetas de privacidad de datos que admiten {#variable-types}
 

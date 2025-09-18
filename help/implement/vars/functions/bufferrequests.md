@@ -4,7 +4,7 @@ description: Aumente la fiabilidad de la captura de solicitudes de seguimiento d
 feature: Appmeasurement Implementation
 exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 325c035c0b5a9cc828be22ef7781d3b67f104476
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -19,7 +19,7 @@ Cuando llama a [`t()`](t-method.md) o [`tl()`](tl-method.md) en una página post
 
 >[!TIP]
 >
->La marca de tiempo de las solicitudes almacenadas en el búfer se comparte con la página a la que se envían los datos. Si desea obtener más precisión en el segundo exacto en que se registra una solicitud almacenada en búfer, puede establecer la variable de página [`timestamp`](../page-vars/timestamp.md) antes de almacenar en búfer la solicitud. Si usa esta variable, asegúrese de que [Marcas de hora opcionales](/help/technotes/timestamps-optional.md) esté habilitado; si no lo está, todas las visitas con marca de hora se perderán de forma permanente.
+>La marca de tiempo de las solicitudes almacenadas en el búfer se comparte con la página a la que se envían los datos. Si desea obtener más precisión en el segundo exacto en que se registra una solicitud almacenada en búfer, puede establecer la variable de página [`timestamp`](../page-vars/timestamp.md) antes de almacenar en búfer la solicitud. Si usa esta variable, asegúrese de que [Marcas de hora opcionales](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) esté habilitado; si no lo está, todas las visitas con marca de hora se perderán de forma permanente.
 
 ## Limitaciones
 

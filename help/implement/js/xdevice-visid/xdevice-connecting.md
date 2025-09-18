@@ -1,14 +1,14 @@
 ---
-description: La identificación de visitantes entre dispositivos ayuda a conectar los visitantes a varios dispositivos. La identificación de visitantes entre dispositivos utiliza la variable de ID de visitante, s.visitorID, para asociar un visitante a varios dispositivos.
+description: La identificación de visitantes entre dispositivos ayuda a conectar los visitantes a varios dispositivos.
 keywords: Implementación de Analytics
 subtopic: Visitors
 title: Conectar usuarios entre dispositivos
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '383'
 ht-degree: 95%
 
 ---
