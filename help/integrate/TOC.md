@@ -5,9 +5,9 @@ user-guide-title: Guía de integración de Analytics
 breadcrumb-title: Guía de integración
 user-guide-description: Configure integraciones con otras soluciones de Adobe Experience Cloud, como Audience Manager y Advertising Cloud.
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 + Audience Analytics {#audience-analytics}
    + [Resumen de Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
    + Flujo de trabajo de Audience Analytics {#audience-analytics-workflow}
-      + [Resumen del flujo de trabajo](c-audience-analytics/c-workflow/audiences-workflow.md)
+      + [Información general del flujo de trabajo](c-audience-analytics/c-workflow/audiences-workflow.md)
       + [Crear destino de Analytics: guía de Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=es)
       + [Utilización de los datos de públicos en Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Casos de uso de Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
@@ -29,7 +29,7 @@ ht-degree: 96%
 + Advertising Analytics {#advertising-analytics}
    + [Resumen de Advertising Analytics](c-advertising-analytics/overview.md)
    + Flujo de trabajo de configuración de Advertising Analytics {#advertising-analytics-workflow}
-      + [Resumen del flujo de trabajo](c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md)
+      + [Información general del flujo de trabajo](c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md)
       + [Habilitación de un grupo de informes para Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
       + [Configurar una cuenta publicitaria](c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
       + [Localización de los ID de su cuenta](c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)

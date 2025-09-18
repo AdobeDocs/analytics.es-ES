@@ -5,7 +5,7 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2228'
 ht-degree: 100%
 
@@ -77,11 +77,11 @@ Puede realizar lo siguiente:
 * Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) **fuera** del último panel del área de trabajo para agregar otro [panel en blanco](blank-panel.md).
 
 
-## Administrar un panel
+## Administración de un panel
 
-Puede administrar un panel del modo siguiente:
+Se administra un panel de las siguientes formas:
 
-![Administrar panel](assets/manage-panel.png)
+![Administrar un panel](assets/manage-panel.png)
 
 * Para contraer un panel, seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg).
 * Para mostrar un panel contraído, seleccione ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).

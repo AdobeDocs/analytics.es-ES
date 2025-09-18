@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6461'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -328,7 +328,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 21 de noviembre de 2019 | Nuevo conjunto de documentación para [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=es). |
 | 21 de noviembre de 2019 | Se han actualizado las [preguntas frecuentes sobre el flujo de trabajo de Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-faqs.md) para indicar la disponibilidad en LiveStream. |
 | 25 de octubre de 2019 | Se ha actualizado la página [Conceptos clave de Adobe Analytics](/help/technotes/terms.md). |
-| 10 de octubre de 2019 | Actualizar a totales de tabla de forma libre: ahora incluyen dos totales, un **[!UICONTROL Total de tabla]** y un **[!UICONTROL Total general]**. La fila Total de la tabla cuenta los [filtros de informe](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) aplicados. Anteriormente, solo la segmentación afectaba a los totales. [Más información](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)<br/>Además, se han agregado las opciones **[!UICONTROL Mostrar totales]** y **[!UICONTROL Mostrar total general]** a **[!UICONTROL Configuración de columna]**.<br/>Con este cambio a los totales de forma libre, se actualizarán las visualizaciones dependientes (por ejemplo, las visualizaciones de **[!UICONTROL Número de resumen]** vinculadas), así como los datos CSV y PDF exportados. |
+| 10 de octubre de 2019 | Actualizar a totales de tabla de forma libre: ahora incluyen dos totales, un **[!UICONTROL Total de tabla]** y un **[!UICONTROL Total general]**. La fila Total de la tabla cuenta los [filtros de informe](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) aplicados. Anteriormente, solo la segmentación afectaba a los totales. [Más información](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)<br/>Además, se han añadido las opciones **[!UICONTROL Mostrar totales]** y **[!UICONTROL Mostrar total general]** a **[!UICONTROL Configuración de columna]**.<br/>Con este cambio a los totales de forma libre, se actualizarán las visualizaciones dependientes (por ejemplo, las visualizaciones de **[!UICONTROL Número de resumen]** vinculadas), así como los datos CSV y PDF exportados. |
 | 10 de octubre de 2019 | En Espacio de trabajo, se ha añadido la posibilidad de quitar No especificado (Ninguno) con facilidad a los filtros de informe. |
 | 10 de octubre de 2019 | En el Espacio de trabajo, los componentes de granularidad morados (Minuto, Hora, Día, Semana, Mes, Trimestre, Año) han quedado obsoletos. No es necesario realizar **ninguna acción** si ha utilizado uno de los componentes de tiempo morados en el pasado.<br/>Con este cambio, se ha cambiado de nombre la sección morada **[!UICONTROL Hora]** a **[!UICONTROL Intervalos de fecha]**. |
 | 1 de octubre de 2019 | Nuevo artículo sobre [Totales del Espacio de trabajo](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=es#cja-workspace). |

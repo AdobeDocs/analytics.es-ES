@@ -5,9 +5,9 @@ user-guide-title: Notas técnicas de Analytics
 breadcrumb-title: Notas técnicas
 user-guide-description: Examine una base de conocimiento que contiene artículos útiles que no pertenecen a una herramienta o componente de Analytics específico.
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 90%
    + [Resumen de privacidad](privacy/privacy-overview.md)
    + [Flujo de trabajo de privacidad](privacy/privacy-workflow.md)
    + [Analytics y RGPD](privacy/gdpr.md)
-   + [Analytics y CCPA](privacy/ccpa.md)
+   + [Analytics y la CCPA](privacy/ccpa.md)
    + [Exención de consentimiento de Analytics y CNIL](privacy/cnil-consent-exemption.md)
    + [Preguntas frecuentes sobre privacidad](privacy/faq.md)
 + [Orden de procesamiento](processing-order.md)
