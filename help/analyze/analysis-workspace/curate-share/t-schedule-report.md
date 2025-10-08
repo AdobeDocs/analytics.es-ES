@@ -5,18 +5,22 @@ title: Envío Y Programación De Proyectos
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
+source-git-commit: 61fcafa0e2e6cb71d9b594984e9a0c71a76c13e4
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 28%
+source-wordcount: '498'
+ht-degree: 25%
 
 ---
 
 # Envío y programación de proyectos
 
-Puede enviar proyectos de Adobe Analytics como archivos a usuarios seleccionados por correo electrónico. Puede enviar archivos ad hoc o configurar los archivos para que se envíen según una programación. Los archivos se pueden enviar en formato CSV o PDF.
+Puede enviar proyectos de Adobe Analytics como archivos a usuarios seleccionados por correo electrónico. Puede enviar archivos ad hoc o configurar los archivos para que se envíen según una programación.
 
-Todas las etiquetas aplicadas al proyecto se aplicarán automáticamente a la exportación.
+Tenga en cuenta lo siguiente al enviar archivos:
+
+* Los archivos se pueden enviar en formato CSV o PDF.
+
+* Todas las etiquetas aplicadas al proyecto se aplicarán automáticamente a la exportación.
 
 También hay disponibles otros métodos para exportar datos de Adobe Analytics, como se describe en [Descripción general de la exportación](/help/export/home.md).
 
@@ -38,7 +42,7 @@ Para enviar un archivo ad-hoc a los destinatarios por correo electrónico:
 
 ## Programar la exportación del archivo {#schedule}
 
-Para enviar un archivo según una programación a los destinatarios por correo electrónico
+Para enviar un archivo según una programación a los destinatarios por correo electrónico:
 
 1. Seleccione **[!UICONTROL Compartir] > [!UICONTROL Programar exportación de archivos]**.
 1. Especifique el tipo de archivo:
