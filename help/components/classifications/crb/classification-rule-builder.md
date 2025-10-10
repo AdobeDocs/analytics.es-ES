@@ -18,7 +18,7 @@ En lugar de mantener y cargar clasificaciones cada vez que cambien sus códigos 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generador de reglas de clasificación](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generador de reglas de clasificación](https://video.tv.adobe.com/v/3434377?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

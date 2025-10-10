@@ -15,7 +15,7 @@ ht-degree: 41%
 El flujo de trabajo de configuración de Advertising Analytics consta de los siguientes pasos:
 
 <!--
->[!VIDEO](https://video.tv.adobe.com/v/23119/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/39099/?quality=12&captions=spa)
 -->
 
 1. [Habilitación de los informes de Advertising Analytics por grupo de informes](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Habilita los informes de [!UICONTROL Advertising Analytics] para grupos de informes habilitados por Experience Cloud.

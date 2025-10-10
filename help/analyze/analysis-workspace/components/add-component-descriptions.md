@@ -31,7 +31,7 @@ Puede agregar descripciones a los componentes de un grupo de informes.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar descripciones de componentes](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar descripciones de componentes](https://video.tv.adobe.com/v/39721?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
