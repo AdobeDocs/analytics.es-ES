@@ -7,7 +7,7 @@ type: Documentation
 solution: Analytics
 exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Al comparar la funcionalidad del Report Builder heredado con el nuevo complement
 
 - **Ad Hoc Analysis**: los usuarios pueden generar rápidamente informes ad-hoc para responder preguntas específicas o explorar tendencias de datos sin tener que pasar por un largo proceso de creación de informes.
 
-- **Tablero**: los datos extraídos de CJA se pueden utilizar para crear paneles y visualizaciones basados en Excel para obtener una visión general de alto nivel de los indicadores clave de rendimiento (KPI).
+- **Panel de control**: los datos extraídos de CJA se pueden utilizar para crear paneles de control y visualizaciones basados en Excel para obtener una visión general de alto nivel de los indicadores clave de rendimiento (KPI).
 
 - **Compartir perspectivas**: puede compartir informes y perspectivas de Excel con integrantes del equipo o partes interesadas que pueden no tener acceso directo a CJA.
 
@@ -73,7 +73,7 @@ Al comparar la funcionalidad del Report Builder heredado con el nuevo complement
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Información general de Report Builder](https://video.tv.adobe.com/v/3452583?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Información general de Report Builder](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

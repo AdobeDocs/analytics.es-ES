@@ -34,7 +34,7 @@ Los datos del tráfico de bots se almacenan en un repositorio independiente para
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurar reglas de bots](https://video.tv.adobe.com/v/3418507/?quality=12&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurar reglas de bots](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

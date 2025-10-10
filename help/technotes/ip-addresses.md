@@ -14,15 +14,15 @@ ht-degree: 35%
 
 La configuración de algunos cortafuegos bloquea las direcciones IP que se originan de los servidores de recopilación de datos de Adobe o de los servidores responsables de acceder a datos. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización.
 
-Todas las direcciones IP que usa Adobe Analytics forman parte de [las direcciones IP que usa Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/ip-addresses), excepto el paquete de complementos de optimización del rendimiento de China.
+Todas las direcciones IP que usa Adobe Analytics forman parte de [las direcciones IP que usa Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses), excepto el paquete de complementos de optimización del rendimiento de China.
 
 ## Direcciones IP de optimización de rendimiento de China
 
-El paquete de complementos para la optimización del rendimiento de China es un servicio de pago adicional que mejora el rendimiento de la recopilación de datos de AppMeasurement para los visitantes de China. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información sobre el uso de esta función.
+El paquete de complementos de optimización del rendimiento de China es un servicio de pago adicional que mejora el rendimiento de la recopilación de datos de AppMeasurement para los visitantes dentro de China. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información sobre el uso de esta función.
 
 >[!IMPORTANT]
 >
->La RDC de China no está disponible para la recopilación de datos del SDK web. Estos servidores solo se aplican a bibliotecas de AppMeasurement.
+>La recopilación de datos regionales de China no está disponible para la recopilación de datos de Web SDK. Estos servidores solo se aplican a bibliotecas de AppMeasurement.
 
 Los servidores de recopilación de datos regionales de China utilizan las siguientes direcciones IP:
 
@@ -36,6 +36,6 @@ Los servidores de recopilación de datos regionales de China utilizan las siguie
 
 >[!MORELIKETHIS]
 >
->[Direcciones IP utilizadas por Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/ip-addresses)
+>[Direcciones IP utilizadas por Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
 >
 >[Dominios utilizados por Adobe Analytics](domains.md)

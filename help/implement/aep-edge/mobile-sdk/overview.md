@@ -45,7 +45,7 @@ Una información general de alto nivel de las tareas de implementación:
 
 <td>3</td>
 <td><b>Agregar un servicio de Adobe Analytics</b> a su secuencia de datos. Ese servicio controla si los datos se envían a Adobe Analytics y cómo se hacen.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=es#analytics">Agregar el servicio Adobe Analytics a una secuencia de datos</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Agregar el servicio Adobe Analytics a una secuencia de datos</a></td>
 </tr>
 
 <tr>

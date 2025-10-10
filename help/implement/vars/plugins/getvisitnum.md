@@ -6,8 +6,8 @@ exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 role: Admin, Developer
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 78%
+source-wordcount: '777'
+ht-degree: 76%
 
 ---
 
@@ -79,7 +79,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 La función `getVisitNum` utiliza los argumentos siguientes:
 
 * **`rp`** (opcional, entero O cadena): El número de días antes de que se restablezca el contador de números de visitas.  Si no se configura de forma distinta, el valor predeterminado es `365`.
-   * Cuando este argumento es `"w"`, el contador se restablece al final de la semana (este sábado a las 23:59 h)
+   * Cuando este argumento es `"w"`, el contador se restablece al final de la semana (este sábado a las 11:59 PM)
    * Cuando este argumento es `"m"`, el contador se restablece al final del mes (el último día del mes en curso)
    * Cuando este argumento es `"y"`, el contador se restablece al final del año (31 de diciembre)
 * **`erp`** (opcional, booleano): Cuando el argumento `rp` es un número, este argumento determina si se debe ampliar la caducidad del número de visita. Si se establece en `true`, las posteriores visitas al sitio restablecerán el contador de número de visitas. Si se establece en `false`, las posteriores visitas al sitio no se amplían cuando se restablece el contador de número de visitas. El valor predeterminado es `true`. Este argumento no es válido cuando el argumento `rp` es una cadena.

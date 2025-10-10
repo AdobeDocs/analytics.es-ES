@@ -47,7 +47,7 @@ Cada contenedor le permite realizar informes basados en el historial del visitan
 
 >[!BEGINSHADEBOX]
 
-Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/3429101?quality=12&learn=on&captions=spa){target="_blank"}.
+Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -246,7 +246,7 @@ Los datos capturados en cada nivel de la jerarquía de contenedores visitante > 
 
 ### Principios básicos de los datos de contenedor {#container-data}
 
-Por ejemplo, el visitante que se muestra a continuación visitó un sitio en la primera visita, aterrizó en la página de inicio y, a continuación, visitó otras tres páginas y convirtió la visita en una venta. En una visita aparte, el visitante llegó esta vez a través de la página del producto, se dirigió a la página de inicio, volvió atrás a la página del producto y, por último, cerró la sesión tras echar un vistazo a los gorros de invierno. En función de los datos capturados para cada contenedor del segmento, se muestran en el informe valores diferentes.
+Por ejemplo, el visitante que se muestra a continuación visitó un sitio en la primera visita, aterrizó en la página de inicio y, a continuación, visitó otras tres páginas y convirtió la visita en una venta. En una visita aparte, el visitante llegó esta vez a través de la página de producto, se dirigió a la página de inicio, volvió atrás a la página de producto y, por último, cerró la sesión tras echar un vistazo a los gorros de invierno. En función de los datos capturados para cada contenedor del segmento, se muestran en el informe valores diferentes.
 
 El segmento `Pages equals Winter Coat` siguiente se aplica al **Informe de páginas**.
 

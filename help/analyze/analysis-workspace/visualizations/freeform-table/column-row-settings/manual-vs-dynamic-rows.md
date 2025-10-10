@@ -58,7 +58,7 @@ Las filas dinámicas y estáticas se comportan de forma diferente en la fila tot
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Reordenar filas estáticas](https://video.tv.adobe.com/v/33797?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Reordenar filas estáticas](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

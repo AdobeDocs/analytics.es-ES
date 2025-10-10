@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 68%
@@ -43,7 +44,7 @@ Report Builder para Adobe Analytics es compatible con los siguientes sistemas op
 
 ## Complemento de Excel de Report Builder
 
-Debe instalar el complemento de Excel de Report Builder para utilizar Report Builder para Adobe Analytics. Una vez instalado el complemento de Excel de Report Builder, puede acceder a Report Builder desde un libro de Excel abierto.
+Debe instalar el complemento de Report Builder Excel para utilizar Report Builder para Adobe Analytics. Una vez instalado el complemento de Excel de Report Builder, puede acceder a Report Builder desde un libro de Excel abierto.
 
 ### Descarga e instalación del complemento de Report Builder
 
@@ -75,7 +76,7 @@ Póngase en contacto con su equipo de TI o de seguridad para solicitar la aproba
 
 Después de instalar el complemento de Report Builder, el icono de Report Builder se muestra en la cinta de Excel debajo de la pestaña Inicio.
 
-![El Report Builder de Excel](./assets/rb_app_icon.png)
+![Icono de Report Builder en Excel](./assets/rb_app_icon.png)
 
 ## Inicio de sesión en Report Builder
 
@@ -87,7 +88,7 @@ Después de instalar el complemento de Report Builder for Excel para su platafor
 
 1. En la barra de herramientas de Adobe Report Builder, haga clic en **[!UICONTROL Iniciar sesión]**.
 
-   ![Haga clic en el botón de inicio de sesión del Report Builder.](./assets/rb_login.png)
+   ![Haga clic en el botón de inicio de sesión de Report Builder.](./assets/rb_login.png)
 
 1. Introduzca la información de la cuenta de Adobe Experience ID. La información de la cuenta debe coincidir con las credenciales de Adobe Analytics.
 

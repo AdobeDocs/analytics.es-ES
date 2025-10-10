@@ -7,7 +7,7 @@ exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 72%
+ht-degree: 71%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 72%
 
 Los controles interactivos le permiten editar segmentos e intervalos de fechas de una o más solicitudes directamente desde la hoja de cálculo. Esto le proporciona una mayor flexibilidad al actualizar solicitudes de Report Builder.
 
-Los controles interactivos se crearon en respuesta al flujo de trabajo común donde los analistas crean los libros y comparten estos libros con la organización de marketing. Los controles interactivos proporcionan a los especialistas en marketing la capacidad de modificar y actualizar las solicitudes sin tener que contar con conocimientos en profundidad de cómo funciona Report Builder. (Tenga en cuenta que para actualizar una solicitud, el destinatario del libro debe ser un usuario Report Builder). Estos controles funcionan en libros programados. Hay dos tipos de controles interactivos disponibles actualmente:
+Los controles interactivos se crearon en respuesta al flujo de trabajo común donde los analistas crean los libros y comparten estos libros con la organización de marketing. Los controles interactivos proporcionan a los especialistas en marketing la capacidad de modificar y actualizar las solicitudes sin tener que tener conocimientos en profundidad de cómo funciona Report Builder. (Tenga en cuenta que para actualizar una solicitud, el destinatario del libro debe ser un usuario de Report Builder). Estos controles funcionan en libros programados. Hay dos tipos de controles interactivos disponibles actualmente:
 
 * Intervalo de fechas móvil
 * Segmentos
@@ -25,7 +25,7 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
 >[!IMPORTANT]
 >
 >Debe tener Report Builder 5.0 instalado para que funcionen los controles interactivos. >
->* Si ejecuta Microsoft Excel en Windows pero ejecuta una versión anterior de Report Builder o si no tiene instalado Report Builder: puede cambiar el valor en el control interactivo, pero no se actualizará la solicitud asociada, ni se actualizarán los parámetros asociados a la solicitud.
+>* Si ejecuta Microsoft Excel en Windows pero ejecuta una versión anterior de Report Builder o si no tiene Report Builder instalado: puede cambiar el valor en el control interactivo, pero no actualizará la solicitud asociada, ni actualizará los parámetros asociados a la solicitud.
 >* Si ejecuta Excel en Mac y cambia el valor en el control provocará que se muestre el siguiente mensaje: “No se encuentra la macro &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event’”.
 >
 

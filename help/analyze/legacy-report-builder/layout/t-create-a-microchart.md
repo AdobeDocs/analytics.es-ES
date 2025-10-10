@@ -22,4 +22,4 @@ En el diseño personalizado, una columna de métrica se puede transformar en un 
 1. Haga clic con el botón derecho en la columna del valor de métrica.
 1. Seleccione **[!UICONTROL Cambiar presentación de salida]** y después el tipo de micrográfico y presentación de porcentaje que desee ver.
 
-   El Report Builder cambia la visualización de la columna para que coincida con la selección.
+   Report Builder cambia la visualización de la columna para que coincida con su selección.

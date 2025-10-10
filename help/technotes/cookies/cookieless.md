@@ -23,7 +23,7 @@ Estas limitaciones del explorador reflejan un paso más amplio desde el seguimie
 
 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=es) y [Cross-Device Analytics](/help/components/cda/overview.md) permiten a los usuarios incluir identificadores duraderos, como los inicios de sesión con hash, además de las cookies. Esto le permite comprender el recorrido del cliente entre dispositivos y, en el caso de Customer Journey Analytics, entre canales en línea y sin conexión:
 
-* **Customer Journey Analytics** se basa en Adobe Experience Platform y proporciona la flexibilidad para combinar datos en línea y sin conexión en Analysis Workspace, en función de cualquier ID de cliente común. Puede especificar qué ID desea utilizar para un análisis determinado y explorar los datos en Analysis Workspace. Los clientes de Analytics Select, Prime y Ultimate pueden adquirir este producto adicional.
+* **Customer Journey Analytics** se basa en Adobe Experience Platform y proporciona la flexibilidad para combinar datos en línea y sin conexión en Analysis Workspace, en función de cualquier ID de cliente común. Puede especificar qué ID desea utilizar para un análisis determinado y explorar los datos en Analysis Workspace. Los clientes de Analytics Select, Prime y Ultimate pueden comprar este producto adicional.
 
 * **Cross-Device Analytics** ofrece una mejora de la versión tradicional de Adobe Analytics que permite a los clientes utilizar identificadores alternativos para los visitantes. Esta funcionalidad le permite pasar de una vista centrada en el dispositivo a una vista centrada en la persona. Cross-Device Analytics está disponible para los clientes de Analytics Ultimate.
 

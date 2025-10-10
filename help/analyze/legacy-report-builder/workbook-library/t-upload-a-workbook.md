@@ -22,7 +22,7 @@ La [!UICONTROL biblioteca de libros] permite cargar un libro de Excel de Report 
 
 >[!NOTE]
 >
->Solo se pueden cargar libros con solicitudes de Report Builder. Además, puede distribuir informes de Report Builder a usuarios que no lo utilicen. (No es necesario que los usuarios inicien sesión para ver los datos.)
+>Solo se pueden cargar libros con solicitudes Report Builder. Además, puede distribuir informes de Report Builder a usuarios que no lo utilicen. (No es necesario que los usuarios inicien sesión para ver los datos.)
 
 1. Cree y ejecute una solicitud.
 1. Una vez guardado el informe, haga clic en **[!UICONTROL Compartir]**.

@@ -25,7 +25,7 @@ Las cuentas dinámicas son una función de implementación que permite determina
 
 3 variables se utilizan para seleccionar dinámicamente un grupo de informes.
 
-* [`dynamicAccountSelection`](dynamicaccountselection.md): Activar o desactivar la selección dinámica de cuentas.
+* [`dynamicAccountSelection`](dynamicaccountselection.md): Habilitar o deshabilitar la selección dinámica de cuentas.
 * [`dynamicAccountMatch`](dynamicaccountmatch.md): Determina qué valor se debe observar. Por ejemplo, la dirección URL o una cadena de consulta.
 * [`dynamicAccountList`](dynamicaccountlist.md): Compara los valores con `dynamicAccountMatch`y, si se encuentra una coincidencia, rellena la variable `account`.
 

@@ -22,7 +22,7 @@ Vea los detalles del estado de una solicitud y utilice las descripciones de los 
 
 El [!UICONTROL Administrador de solicitudes] proporciona una vista detallada del estado de todas las solicitudes creadas para todas las hojas o solo una hoja del libro activo. También puede agregar, editar, actualizar y eliminar una solicitud. Estas funciones suelen estar asociadas con el [!UICONTROL Asistente para solicitudes] y el [!UICONTROL Administrador de solicitudes] cuando se hace clic con el botón secundario en una celda disponible en la hoja de cálculo de Excel que contiene solicitudes anteriores.
 
-Se muestra [!UICONTROL Administrador de solicitudes] al hacer clic en **[!UICONTROL Administrar]** ![](assets/edit_request.gif) en la barra de herramientas del Report Builder.
+Se muestra [!UICONTROL Administrador de solicitudes] al hacer clic en **[!UICONTROL Administrar]** ![](assets/edit_request.gif) en la barra de herramientas de Report Builder.
 
 >[!NOTE]
 >

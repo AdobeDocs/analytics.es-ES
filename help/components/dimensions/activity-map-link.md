@@ -20,7 +20,7 @@ El &quot;vínculo de Activity Map&quot; [dimension](overview.md) muestra los ví
 
 Esta dimensión recupera datos de la [variable de datos de contexto](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`. Si su implementación utiliza [Activity Map](/help/analyze/activity-map/overview.md), esta variable de datos de contexto recopila datos automáticamente cuando se hace clic en los vínculos.
 
-Para un vínculo determinado en el que se hizo clic, el Activity Map busca lo siguiente (en orden):
+Para un vínculo determinado en el que se hizo clic, Activity Map busca lo siguiente (en orden):
 
 1. La variable `s_objectID`
 1. El texto interno del vínculo
@@ -33,4 +33,4 @@ Si el elemento en el que se hizo clic no contiene ninguno de los criterios anter
 
 ## Elementos de dimensión
 
-Los elementos del Dimension incluyen el texto del vínculo u otros atributos del vínculo en los que hacen clic los visitantes. La estructura y la implementación del sitio de su organización determinan los valores exactos recopilados.
+Los elementos de Dimension incluyen el texto del vínculo u otros atributos del vínculo en los que hacen clic los visitantes. La estructura y la implementación del sitio de su organización determinan los valores exactos recopilados.

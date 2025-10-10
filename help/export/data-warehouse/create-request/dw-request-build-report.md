@@ -30,9 +30,9 @@ Para crear un informe para una solicitud de Data Warehouse:
 
    No todos los segmentos creados en el Generador de segmentos son compatibles con el Data Warehouse. Se muestra un error si elige un grupo de informes virtuales que contenga segmentos incompatibles.
 
-   Para obtener una lista de las funciones admitidas dentro de un segmento, consulte [Compatibilidad de segmentos de Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md).
+   Para obtener una lista de las funciones admitidas en un segmento, consulte [Compatibilidad de segmentos de Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md).
 
-1. Arrastre cualquier segmento, métrica y dimensión al generador. El informe que genere determina qué datos se incluyen en la solicitud de Data Warehouse.
+1. Arrastre cualquier segmento, métrica y dimensión al generador. El informe que genere determinará qué datos se incluyen en la solicitud de Data Warehouse.
 
 1. Siga configurando la solicitud de Data Warehouse en la ficha [!UICONTROL **Destino del informe**]. Para obtener más información, consulte [Configuración del destino de un informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 

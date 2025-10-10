@@ -27,7 +27,7 @@ Por ejemplo, los libros de trabajo se pueden programar para enviarse inmediatame
 >[!NOTE]
 >
 >La “Hora de envío”/“Hora del día” introducida por el usuario especifica la hora en que el libro debe comenzar a procesarse, no la hora en que se enviará. El momento real en el que se enviará el libro se basa principalmente en el tiempo que tarda en procesarse (los libros de trabajo grandes y complejos tardan más en procesarse que los libros más simples). Por ejemplo, si un libro tarda 15 minutos en procesarse, la hora de entrega real será al menos 15 minutos después de la hora de entrega u hora del día especificadas originalmente.
->Además, hay otros factores que pueden aumentar aún más el retraso antes de que se envíe el libro de trabajo:
+>>Además, hay otros factores que pueden aumentar aún más el retraso antes de que se envíe el libro de trabajo:
 >
 > * **La ejecución de muchas programaciones diferentes del mismo tipo al mismo tiempo** puede sobrecargar el sistema. El sistema de programación solo permite que se ejecuten simultáneamente algunos libros de trabajo (5-10) de cualquier tipo, por lo que cuando se programen más de 5-10 a la vez, algunos tendrán que esperar en la línea para que otros libros terminen antes de que puedan empezar a procesarse. Este problema se puede mitigar programando los libros de trabajo de una empresa en horas escalonadas durante el día o la hora, en lugar de hacerlo simultáneamente.
 > * Además del tipo de libro específico, los libros también esperarán en línea si la empresa tiene **más de 15-20 libros de trabajo programados a la vez (en todos los tipos de libro)**. Esto se puede mitigar escalonando los tiempos de programación en lugar de tener varios ejecutándose al mismo tiempo.

@@ -28,7 +28,7 @@ Varios informes de Adobe Analytics pueden mostrar “No especificado”, “Otro
 A pesar de que no sea muy frecuente en los informes, el estado “Otro” se puede producir en determinadas circunstancias:
 
 * **Las páginas se activan fuera de los filtros de URL internos:** este valor se establece como barrera de protección contra el robo de datos. Un ejemplo de dicha práctica sería si otra organización robase el código fuente y lo implementase en su propio sitio. Para corregir este problema, asegúrese de que todas las URL en las que está implementado su código coinciden con los filtros de URL internos en la configuración del grupo de informes.
-* **Visitantes con un navegador utilizado con poca frecuencia:** en el informe Tipos de explorador, aparece el estado “Otro” si los visitantes utilizan un navegador que no sea muy frecuente. Muchas organizaciones cuentan con uno propio. Todos los exploradores que no hayan creado las organizaciones más grandes se agrupan en “Otro” para evitar el desorden de los informes.
+* **Visitantes con un navegador utilizado con poca frecuencia:** en el informe Tipos de explorador, aparece el estado “Otro” como desglose si los visitantes utilizan un navegador que no sea muy frecuente. Muchas organizaciones cuentan con uno propio. Todos los exploradores que no hayan creado las organizaciones más grandes se agrupan en “Otro” para evitar el desorden de los informes.
 
 ## “Desconocido” en un informe {#unknown}
 

@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Tiempo invertido en la reproducción de contenido en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Panel de tiempo invertido en la reproducción de contenido](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) para la versión de_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel Tiempo invertido en la reproducción de contenido en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Panel de tiempo invertido en la reproducción de contenido](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) para la versión de_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -126,8 +126,8 @@ La única métrica que se puede usar en este panel es Tiempo invertido en la rep
 >[!MORELIKETHIS]
 >
 >[Crear un panel](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Panel Público medio por minuto de medios](average-minute-audience-panel.md)
->&#x200B;>[Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
+>>[Panel Público medio por minuto de medios](average-minute-audience-panel.md)
+>>[Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
 >
 
 <!--

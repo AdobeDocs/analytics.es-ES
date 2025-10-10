@@ -31,7 +31,7 @@ Consulte cómo se compara cada método de implementación de Adobe Analytics ent
 
 >[!CAUTION]
 >
->La compatibilidad con los SDK Mobile de la versión 4 finalizó el 31 de agosto de 2021. Consulte [Preguntas frecuentes sobre el fin de vida útil de Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=es) para obtener más información.
+>La compatibilidad con los SDK Mobile de la versión 4 finalizó el 31 de agosto de 2021. Consulte [Preguntas frecuentes sobre el fin de vida útil de Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) para obtener más información.
 
 
 | | [SDK móvil](/help/implement/aep-edge/mobile-sdk/overview.md) | [API de Edge Network](/help/implement/aep-edge/api/overview.md) |

@@ -27,13 +27,13 @@ La pestaña **[!UICONTROL Administrar]** administra todas las fuentes de datos q
 
 ![Administrar](assets/manage.png)
 
-El origen de datos superior siempre es [!UICONTROL Web Beacon]. Esta fuente de datos es lo que se usa para la recopilación de datos típica mediante el AppMeasurement. No se puede editar ni desactivar.
+El origen de datos superior siempre es [!UICONTROL Web Beacon]. Esta fuente de datos es lo que se usa para la recopilación de datos típica a través de AppMeasurement. No se puede editar ni desactivar.
 
 Cada fuente de datos tiene las siguientes opciones:
 
 * **[!UICONTROL Reiniciar procesamiento]**: reinicia el procesamiento de la fuente de datos cuando antes se detuvo debido a errores. El procesamiento continúa hasta que se encuentre el siguiente error. El procesamiento de un archivo de fuente de datos solamente se detiene si selecciona **[!UICONTROL Detener procesamiento si hay errores]**.
 * **[!UICONTROL Procesamiento completo]**: ya no se usa. Este botón se usó solamente para [Procesamiento completo de fuentes de datos](full-processing-eol.md).
-* **[!UICONTROL Detener procesamiento si hay errores]**: Casilla de verificación que indica al servidor de procesamiento que se detenga cuando encuentre un error. El procesamiento del origen de datos no se reanudará hasta que seleccione **[!UICONTROL Reiniciar procesamiento]**. Cuando una fuente de datos encuentra un error de archivo, se lo notifica. El Adobe mueve el archivo con el error a una carpeta llamada `files_with_errors` en el servidor FTP. Una vez resuelto el problema, vuelva a enviar el archivo para su procesamiento.
+* **[!UICONTROL Detener procesamiento si hay errores]**: Casilla de verificación que indica al servidor de procesamiento que se detenga cuando encuentre un error. El procesamiento del origen de datos no se reanudará hasta que seleccione **[!UICONTROL Reiniciar procesamiento]**. Cuando una fuente de datos encuentra un error de archivo, se lo notifica. Adobe mueve el archivo con el error a una carpeta llamada `files_with_errors` en el servidor FTP. Una vez resuelto el problema, vuelva a enviar el archivo para su procesamiento.
 * **[!UICONTROL Configurar]**: vínculo que lo lleva a través del asistente para la creación de orígenes de datos para este origen de datos. Este asistente le permite cambiar el nombre del origen de datos o volver a configurar las variables incluidas automáticamente al descargar un archivo de plantilla.
 * **[!UICONTROL Información de FTP]**: vínculo que le lleva al último paso del asistente para la creación de orígenes de datos donde se muestran las credenciales de FTP.
 
@@ -75,5 +75,5 @@ Hay disponible una barra de búsqueda que le ayuda a localizar una fuente de dat
 * **[!UICONTROL Filas]**: El número total de filas del archivo.
 * **[!UICONTROL Errores]**: El número de filas que contenían errores.
 * **[!UICONTROL Advertencias]**: ya no se usa. El número de filas que contenían advertencias.
-* **[!UICONTROL Recibido]**: La fecha y hora en que el Adobe comenzó a procesar el archivo.
+* **[!UICONTROL Recibido]**: La fecha y hora en que Adobe comenzó a procesar el archivo.
 * **[!UICONTROL Estado]**: El estado del archivo (`Success` o `Failed`).

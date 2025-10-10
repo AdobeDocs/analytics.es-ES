@@ -6,7 +6,7 @@ feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
 source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1694'
 ht-degree: 31%
 
 ---
@@ -237,7 +237,7 @@ Se admiten las 16 regiones de AWS estándar siguientes (utilizando el algoritmo 
 
 +++
 
-+++blob de Azure
++++Azure Blob
 
 El almacén de datos admite destinos de Azure Blob. Se necesita un contenedor, una cuenta y una clave. Amazon cifra automáticamente los datos en reposo. Cuando se descarguen los datos, estos se descifrarán automáticamente. Consulte [Creación de una cuenta de almacenamiento](https://docs.microsoft.com/es-es/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) en los documentos de Microsoft Azure para obtener más información.
 

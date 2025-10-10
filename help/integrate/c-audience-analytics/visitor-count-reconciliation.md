@@ -43,7 +43,7 @@ Las métricas de visitante son:
  </tbody> 
 </table>
 
-Los visitantes de Analytics y Propagación de segmentos en tiempo real de Adobe Audience Manager con ID de Experience Cloud utilizado en los informes de Audience Analytics serán los más similares. No obstante, y debido a diversos factores, habrá pequeñas discrepancias entre ellos. Entre estos factores se cuentan los siguientes:
+Los visitantes de Adobe Audience Manager Real-time Segment Population y Analytics con Experience Cloud ID utilizados en los informes de Audience Analytics serán los más similares. No obstante, y debido a diversos factores, habrá pequeñas discrepancias entre ellos. Entre estos factores se cuentan los siguientes:
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
@@ -67,7 +67,7 @@ Los visitantes de Analytics y Propagación de segmentos en tiempo real de Adobe 
   <tr> 
    <td colname="col1"> <p>Límite de 150 segmentos </p> </td> 
    <td colname="col2"> <p>No </p> </td> 
-   <td colname="col3"> <p>Sí: los recuentos de Analytics pueden variar hasta un 5 % debido al límite de integración de 150 segmentos. El mensaje “Alcanzado límite de audiencias” aparecerá en la dimensión Nombre de audiencia si se ha truncado. </p> </td> 
+   <td colname="col3"> <p>Sí: los recuentos de Analytics pueden variar hasta un 5 % debido al límite de integración de 150 segmentos. El mensaje “Alcanzado límite de públicos” aparecerá en la dimensión Nombre de público si se ha truncado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

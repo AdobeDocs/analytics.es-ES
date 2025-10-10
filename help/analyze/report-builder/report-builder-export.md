@@ -9,7 +9,7 @@ exl-id: 5829482b-3a5e-416b-9c82-404face30b29
 source-git-commit: ecb08c3d9dfe7394ecff5415c08be7a38b0cba6a
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -122,6 +122,6 @@ After data is exported from Analysis Workspace, you can edit, re-export, duplica
 
 -->
 
-## Administrar libros programados
+## Administrar libros de trabajo programados
 
 Para obtener información acerca de la administración de libros que ya están programados, vea [Administrar libros programados](/help/analyze/report-builder/manage-schedules-reportbuilder.md).

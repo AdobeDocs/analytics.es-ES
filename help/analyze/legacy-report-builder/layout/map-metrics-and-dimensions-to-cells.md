@@ -30,12 +30,12 @@ Para obtener más información, consulte las secciones siguientes:
 
 ## Seleccionar un rango de celdas {#section_1E37FB46DA194FB7A1050B8833A48AC6}
 
-En el [!UICONTROL Asistente para solicitudes: Paso 2], cuando se activa [!UICONTROL Diseño personalizado] para una solicitud de tendencias, la solicitud se puede asignar a un rango de celdas.
+En el [!UICONTROL Asistente para solicitudes: Paso 2], cuando se habilita [!UICONTROL Diseño personalizado] para una solicitud de tendencias, la solicitud se puede asignar a un rango de celdas.
 
 Haga clic en **[!UICONTROL Selector de rango]** ![select_cell_icon.png](assets/select_cell_icon.png) junto al elemento que desee asignar.
 
 * **Todas las celdas del rango:** requiere que seleccione un grupo de celdas para una solicitud de estilo de [!UICONTROL diseño personalizado].
-* **Primera celda del rango:** permite seleccionar la celda superior izquierda del rango y muestra la orientación del [!UICONTROL rango] para especificar la orientación horizontal o vertical de las celdas de entrada y salida (columna o fila). Utilice esta opción para que el Report Builder seleccione las celdas por usted.
+* **Primera celda del rango:** permite seleccionar la celda superior izquierda del rango y muestra la orientación del [!UICONTROL rango] para especificar la orientación horizontal o vertical de las celdas de entrada y salida (columna o fila). Utilice esta opción para que Report Builder seleccione las celdas por usted.
 * **Orientación de rango:** permite orientar los rangos de celdas como columnas o filas.
 * **Seleccionar ubicación de celda superior del rango:** muestra las referencias de celdas.
 
@@ -59,7 +59,7 @@ Una vez seleccionadas las celdas, haga clic de nuevo en el **[!UICONTROL selecto
 
 ## Solución de problemas de asignación{#section_CC1BCF841291447EB3A994EB08F3A099}
 
-Si elige asignar por error a una celda que ya tiene una asignación activa, no aparecerá ninguna referencia de celda en el cuadro de texto situado junto al icono de selección de rango. Al hacer clic en [!UICONTROL Aceptar], el Report Builder muestra el error *El rango seleccionado se cruza con el rango de otra solicitud. Cambie su selección.*
+Si elige asignar por error a una celda que ya tiene una asignación activa, no aparecerá ninguna referencia de celda en el cuadro de texto situado junto al icono de selección de rango. Al hacer clic en [!UICONTROL Aceptar], Report Builder muestra el error *El rango seleccionado se cruza con el rango de otra solicitud. Cambie su selección.*
 
 * Si aún necesita utilizar la celda, haga clic con el botón derecho en la celda o celdas deseadas y seleccione **[!UICONTROL Eliminar solicitud]**.
 

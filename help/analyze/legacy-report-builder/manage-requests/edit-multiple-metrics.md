@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '591'
 ht-degree: 28%
 
 ---
@@ -22,7 +22,7 @@ Agregar, quitar o reemplazar métricas en una solicitud preexistente o en un gru
 Cuando agregue métricas, tenga en cuenta las siguientes directrices:
 
 * Las métricas solo se pueden agregar a solicitudes de diseño de tabla dinámica.
-Si alguna de las solicitudes seleccionadas es un diseño personalizado, no es posible agregar métricas. Si el diseño es personalizado, el Report Builder no sabe en qué parte de la hoja de cálculo colocar la nueva métrica.
+Si alguna de las solicitudes seleccionadas es un diseño personalizado, no es posible agregar métricas. Si el diseño es personalizado, Report Builder no sabe en qué parte de la hoja de cálculo colocar la nueva métrica.
 * Si selecciona solamente solicitudes de diseño personalizado, la opción **[!UICONTROL Agregar métricas]** no estará disponible.
 * Añadir métricas aumenta el tamaño de una solicitud y puede hacer que se superponga con otra solicitud. Asegúrese de que su solicitud tenga espacio suficiente alrededor para permitir la agregación de métricas.
 * Si la métrica agregada ya está presente en una de las solicitudes seleccionadas, no se agregará a esa solicitud.
@@ -40,7 +40,7 @@ Para agregar una o más métricas
 
 Cuando reemplace métricas, tenga en cuenta las siguientes directrices:
 
-* Solo se permiten sustituciones 1:1. 1:muchos o muchos:1 no están permitidos.
+* Solo se permiten 1:1 sustituciones. No se permiten 1:many o varios:1.
 * Si la métrica seleccionada no está presente en una de las solicitudes seleccionadas, la solicitud se deja sin cambios.
 * La nueva métrica se coloca en la misma ubicación que la métrica sustituida.
 

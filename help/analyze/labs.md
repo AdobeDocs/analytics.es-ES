@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Requisitos
 
-[!UICONTROL Labs] se activa automáticamente para todos los administradores. Los demás integrantes del equipo deben ponerse en contacto con los administradores de sus productos y solicitar acceso.
+[!UICONTROL Labs] se habilita automáticamente para todos los administradores. Los demás integrantes del equipo deben ponerse en contacto con los administradores de sus productos y solicitar acceso.
 
 Si aún no lo ha hecho, lea y firme los formularios correspondientes del Acuerdo de no divulgación y los Términos y condiciones.
 
@@ -61,7 +61,7 @@ Para iniciar y evaluar un prototipo:
 
 1. Para probar un prototipo diferente o salir del entorno de prototipo, haga clic en **[!UICONTROL Dejar prototipo]** en la parte superior derecha de la pantalla y complete la encuesta breve del prototipo. Cualquier cambio realizado en un proyecto prototipo se pierde al salir del entorno de prototipos.
 
-   ![new feedback box](assets/short-survey.png)
+   ![nuevo buzón de comentarios](assets/short-survey.png)
 
 1. Haga clic en **[!UICONTROL Enviar]** para volver al portal principal de vistas previas.
 

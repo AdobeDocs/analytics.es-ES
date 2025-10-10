@@ -27,21 +27,21 @@ Antes de que tus proyectos y sus componentes asociados estén listos para migrar
 
    * Para utilizar el conector de origen de Adobe Analytics, debe:
 
-      1. [Configurar grupos de informes para su ingesta en Adobe Experience Platform y Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=es#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Configurar grupos de informes para su ingesta en Adobe Experience Platform y Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
       1. [Ingresar y usar los datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=es)
 
    * Para utilizar el SDK web, debe:
 
-      1. [Configurar grupos de informes para su ingesta en Adobe Experience Platform y Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=es#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [Configurar grupos de informes para su ingesta en Adobe Experience Platform y Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [Ingesta de datos mediante Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=es)
+      1. [Ingesta de datos mediante Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. Cree una [conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=es) y [vista de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es) con los datos ingeridos.
+1. Cree una [conexión](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) y [vista de datos](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=es) con los datos ingeridos.
 
 1. Asegúrese de que los usuarios de Customer Journey Analytics estén aprovisionados en las vistas de datos donde se asignan los datos.
 
-   Para obtener más información, consulte [Permisos de Customer Journey Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=es#customer-journey-analytics-permissions-in-admin-console) en [Control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=es).
+   Para obtener más información, consulte [Permisos de Customer Journey Analytics en Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) en [Control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
    La pestaña Permisos forma parte de cada perfil de producto en Admin Console. Puede añadir usuarios a perfiles de producto específicos. A continuación, asigne derechos a vistas de datos específicas y especifique los permisos que tienen los usuarios en un perfil de producto.
 

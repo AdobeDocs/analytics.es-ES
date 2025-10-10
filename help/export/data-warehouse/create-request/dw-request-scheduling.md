@@ -16,7 +16,7 @@ Hay varias opciones de configuración disponibles al crear una solicitud de Data
 
 Para obtener información sobre cómo empezar a crear una solicitud, así como vínculos a otras opciones de configuración importantes, consulte [Crear una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-Para configurar las opciones de programación de una solicitud de Data Warehouse:
+Para configurar las opciones de programación de una petición Data Warehouse:
 
 1. Si aún no lo ha hecho, empiece a crear una solicitud en Adobe Analytics seleccionando **[!UICONTROL Herramientas]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Añadir**].
 
@@ -39,4 +39,4 @@ Para configurar las opciones de programación de una solicitud de Data Warehouse
 
    {style="table-layout:auto"}
 
-1. Siga configurando la solicitud de Data Warehouse en la ficha [!UICONTROL **Correo electrónico de notificación**]. Para obtener más información, consulte [Configuración de un correo electrónico de notificación para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-email.md).
+1. Continúe configurando la solicitud de Data Warehouse en la ficha [!UICONTROL **Correo electrónico de notificación**]. Para obtener más información, consulte [Configuración de un correo electrónico de notificación para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-email.md).

@@ -22,7 +22,7 @@ A continuación se muestra una lista de cada métrica calculada proporcionada po
 >
 >Puede realizar lo siguiente:
 >
-> * Añadir métricas calculadas de forma predeterminada para servicios de medios de streaming, tal como se describe en [Métricas calculadas](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html?lang=es)
+> * Añadir métricas calculadas de forma predeterminada para servicios de medios de streaming, tal como se describe en [Métricas calculadas](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
 > * Crear métricas calculadas personalizadas a partir de métricas existentes, tal como se describe en [Métricas calculadas y métricas calculadas avanzadas](/help/components/calculated-metrics/cm-overview.md).
 >
 

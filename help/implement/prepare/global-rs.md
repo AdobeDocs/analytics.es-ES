@@ -58,4 +58,4 @@ El proceso de mover una implementación existente en varios sitios a un único g
 >[!MORELIKETHIS]
 >
 >[Cambio del etiquetado de grupos múltiples a un grupo de informes globales y grupos de informes virtuales](../../components/vrs/vrs-considerations.md)
->&#x200B;>[Comparando resúmenes y grupos de informes globales](../../admin/tools/manage-rs/rollup-report-suite.md)
+>>[Comparando resúmenes y grupos de informes globales](../../admin/tools/manage-rs/rollup-report-suite.md)

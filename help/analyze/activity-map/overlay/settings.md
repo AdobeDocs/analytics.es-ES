@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Definición de la configuración de Activity Map
 
-El panel Configuración del Activity Map permite modificar la configuración y las propiedades de todos los tipos de visualizaciones de superposición.
+El panel Configuración de Activity Map le permite modificar la configuración y las propiedades de todos los tipos de visualizaciones de superposición.
 
 **[!UICONTROL Superposición de Activity Map]** > **Mostrar configuración (icono de engranaje)** > **[!UICONTROL Configuración]**
 
@@ -24,7 +24,7 @@ Cambie la configuración general de la extensión y las superposiciones.
 
 * **[!UICONTROL Compañías]**: muestra la organización actual de Analytics en la que inició sesión.
 * **[!UICONTROL Nombre de página]**: muestra el nombre de la página actual.
-* **[!UICONTROL Idioma]**: cambia el idioma de las etiquetas de extensión del Activity Map. Esta configuración no cambia el contenido del sitio web ni los nombres de los vínculos en los informes. Los idiomas admitidos son inglés, francés, chino (simplificado), chino (tradicional), alemán, japonés, coreano, español y portugués.
+* **[!UICONTROL Idioma]**: cambia el idioma de las etiquetas de extensión de Activity Map. Esta configuración no cambia el contenido del sitio web ni los nombres de los vínculos en los informes. Los idiomas admitidos son inglés, francés, chino (simplificado), chino (tradicional), alemán, japonés, coreano, español y portugués.
 * **[!UICONTROL Superposiciones de etiquetas con]**: Determina qué es el texto de degradado o burbuja. La configuración predeterminada es [!UICONTROL Rango]. Las opciones incluyen: 
    * **[!UICONTROL Sin etiqueta]**: no hay texto dentro de las etiquetas, lo que las convierte en cuadros de color
    * **[!UICONTROL Valor]**: muestra el número de clics en vínculos ([Ocurrencias](/help/components/metrics/occurrences.md))

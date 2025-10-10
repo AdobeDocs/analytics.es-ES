@@ -8,7 +8,7 @@ exl-id: 914a0d31-d256-456e-a44a-008490e86a23
 source-git-commit: 0616f35599fd40ee8b88f7809f943bb11a84429b
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
@@ -81,7 +81,7 @@ Compruebe siempre si un valor está vacío o si contiene el valor esperado antes
 
 | Conjunto de reglas | Valor |
 | --- | --- |
-| Condición | [!UICONTROL Se Ha Establecido El Parámetro De Cadena De Consulta] `q` [!UICONTROL 4&rbrace;] |
+| Condición | [!UICONTROL Se Ha Establecido El Parámetro De Cadena De Consulta] `q` [!UICONTROL 4}] |
 | Acción | [!UICONTROL Sobrescribir el valor de] términos de búsqueda interna con [!UICONTROL Parámetro de cadena de consulta] `q` |
 
 ![Captura de pantalla de la interfaz de reglas de procesamiento que muestra la lógica de término de búsqueda interna](assets/populate-internal-search-terms.png)

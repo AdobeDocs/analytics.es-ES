@@ -29,7 +29,7 @@ Puede seguir estos pasos para cargar fácilmente datos de ejemplo en un grupo de
    1. Paso 2: Este paso tenía más uso en versiones anteriores de Adobe Analytics. Haga clic en una casilla de verificación y, a continuación, escriba cualquier valor en el campo de texto situado junto a ella.
    1. Paso 3: Elija la métrica que desea incluir en el archivo de plantilla de fuente de datos. Seleccione &quot;Evento 1&quot; de la lista desplegable.
    1. Paso 4: Este paso tenía más uso en versiones anteriores de Adobe Analytics. Haga clic en una casilla de verificación y, a continuación, escriba cualquier valor en el campo de texto situado junto a ella.
-   1. Paso 5: Elija la dimensión que desea incluir en el archivo de plantilla de fuente de datos. Seleccione &quot;eVar 1&quot; en la lista desplegable.
+   1. Paso 5: Elija la dimensión que desea incluir en el archivo de plantilla de fuente de datos. Seleccione &quot;eVar1&quot; en la lista desplegable.
    1. Paso 6: Revise el resumen que muestra las dimensiones y métricas que se incluyen en el archivo de plantilla.
    1. Paso 7: Haga clic en el botón **[!UICONTROL Descargar]** para descargar el archivo de plantilla de fuentes de datos. Tenga en cuenta también las credenciales de inicio de sesión en el sitio FTP, ya que se utilizan en breve.
 1. La fuente de datos ya está creada; el siguiente paso es proporcionarle los datos que desea procesar. Abra el archivo descargado en el editor de texto deseado.
@@ -59,11 +59,11 @@ Puede seguir estos pasos para cargar fácilmente datos de ejemplo en un grupo de
 1. Cuando se le soliciten credenciales de inicio de sesión, utilice el nombre de usuario y la contraseña proporcionados en el último paso del asistente para la creación de fuentes de datos. Para volver a hacer referencia a él, vaya a [!UICONTROL Fuentes de datos] y haga clic en **[!UICONTROL Información de FTP]** junto al origen de datos que creó.
 1. Una vez autenticado, arrastre el archivo editado a la ventana FTP autenticado.
 1. Cree un archivo de texto vacío en cualquier ubicación fuera de la ventana de FTP. Asigne el mismo nombre de archivo que el archivo de fuente de datos que ha cargado en el sitio FTP, con una excepción. En lugar de un tipo de archivo de `.txt`, asígnele un tipo de archivo de `.fin`. Asegúrese de que la configuración del sistema operativo permite ver y cambiar los tipos de archivos.
-1. Arrastre el archivo `.fin` vacío a la misma ubicación FTP que el archivo de origen de datos. La presencia del archivo `.fin` indica al Adobe que el archivo de origen de datos está completamente cargado y listo para ser ingerido.
+1. Arrastre el archivo `.fin` vacío a la misma ubicación FTP que el archivo de origen de datos. La presencia del archivo `.fin` indica a Adobe que el archivo de origen de datos está completamente cargado y listo para ser ingerido.
 1. Después de varios minutos, el archivo desaparece de la ubicación FTP y se puede ver en los informes.
 1. Actualice la página Fuentes de datos y compruebe que el archivo se ha introducido correctamente.
 1. Vaya a Analysis Workspace y cree un proyecto.
-1. Arrastre eVar 1 como dimensión al lienzo del espacio de trabajo y evento 1 como métrica. Asegúrese de que el intervalo de fechas de Workspace incluye las fechas proporcionadas en la fuente de datos.
+1. Arrastre eVar1 como dimensión al lienzo del espacio de trabajo y evento 1 como métrica. Asegúrese de que el intervalo de fechas de Workspace incluye las fechas proporcionadas en la fuente de datos.
 
    ![Informe de ejemplo](assets/success-report.png)
 

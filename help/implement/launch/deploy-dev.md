@@ -30,8 +30,8 @@ Las etiquetas adaptan muchos flujos de trabajo de la organización en la impleme
 5. Vaya a **[!UICONTROL Entornos]** y haga clic en **[!UICONTROL Agregar entorno]**.
 6. Seleccione **[!UICONTROL Desarrollo]**, asígnele el nombre `"Dev Environment"` y, a continuación, seleccione el host administrado por Adobe en la lista desplegable. Haga clic en **[!UICONTROL Guardar]**.
 7. Aparece una ventana modal que muestra las instrucciones de instalación web. Volveremos a esta ventana más adelante; por ahora, haz clic en **[!UICONTROL Cerrar]**.
-8. Haga clic en **[!UICONTROL Agregar entorno]**, seleccione **[!UICONTROL Ensayo]**, asígnele el nombre `"Staging Environment"` y, a continuación, seleccione el host administrado por el Adobe. Haga clic en **[!UICONTROL Crear]** y cierre la ventana modal de instrucciones de instalación.
-9. Vuelva a hacer clic en **[!UICONTROL Agregar entorno]**, seleccione **[!UICONTROL Producción]**, asígnele el nombre `"Production Environment"` y, a continuación, seleccione el host administrado por el Adobe. Haga clic en **[!UICONTROL Crear]** y cierre la ventana modal de instrucciones de instalación.
+8. Haga clic en **[!UICONTROL Agregar entorno]**, seleccione **[!UICONTROL Ensayo]**, asígnele el nombre `"Staging Environment"` y, a continuación, seleccione el host administrado por Adobe. Haga clic en **[!UICONTROL Crear]** y cierre la ventana modal de instrucciones de instalación.
+9. Vuelva a hacer clic en **[!UICONTROL Agregar entorno]**, seleccione **[!UICONTROL Producción]**, asígnele el nombre `"Production Environment"` y, a continuación, seleccione el host administrado por Adobe. Haga clic en **[!UICONTROL Crear]** y cierre la ventana modal de instrucciones de instalación.
 
 ## Creación de una biblioteca de desarrollo
 

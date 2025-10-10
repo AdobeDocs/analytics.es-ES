@@ -16,7 +16,7 @@ La &quot;Profundidad promedio de la página&quot; [métrica](overview.md) muestr
 
 >[!TIP]
 >
->Utilice esta métrica junto con otra métrica, como [Visitas](visits.md), para obtener mejores datos. Si utiliza esta métrica de forma independiente, podría obtener elementos de dimensión que contengan profundidades de página anómalas, lo que generalmente no es una perspectiva valiosa.
+>Utilice esta métrica junto con otra métrica, como [Visitas](visits.md), para obtener mejores datos. Si utiliza esta métrica de forma independiente, podría obtener elementos de dimensión que contengan profundidades de página anómalas, lo que generalmente no es un insight valioso.
 
 ## Cálculo de esta métrica
 

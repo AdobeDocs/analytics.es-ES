@@ -1,6 +1,6 @@
 ---
 title: Acerca de Report Builder heredado para Adobe Analytics
-description: Utilice Report Builder para incorporar datos de Adobe Analytics directamente en Microsoft Excel.
+description: 'Utilice Report Builder para incorporar datos de Adobe Analytics directamente en Microsoft Excel. '
 feature: Workspace Basics
 role: User, Admin
 exl-id: a3d3fcdb-c526-42eb-8ac7-260946305760

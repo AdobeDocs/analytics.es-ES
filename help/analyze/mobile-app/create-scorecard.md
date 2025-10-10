@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2524'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ La siguiente información enseña a los depuradores de datos de Adobe Analytics 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creador de cuadros de resultados móviles](https://video.tv.adobe.com/v/38114?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Creador de cuadros de resultados móviles](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -130,7 +130,7 @@ La configuración está *activada* de forma predeterminada. Anule la selección 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizaciones](https://video.tv.adobe.com/v/3445769?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizaciones](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -201,12 +201,12 @@ Cada dimensión agregada a la diapositiva de detalle se mostrará en una lista d
 
 ## Personalización de diapositivas de detalle {#customize-detail-slide}
 
-Las diapositivas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su audiencia.
+Las diapositivas de detalles personalizadas le permiten centrarse aún más en la información que comparte con su público.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vistas detalladas personalizadas](https://video.tv.adobe.com/v/3413786?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vistas detalladas personalizadas](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Por ejemplo, si se centra en el tráfico web, la métrica más importante puede 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear historias de datos](https://video.tv.adobe.com/v/3420559?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Crear historias de datos](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -265,7 +265,7 @@ Cree su historia basada en datos al agregar varias diapositivas de detalles a un
 
 1. Agregue diapositivas para generar la historia basada en datos. La primera diapositiva se genera de forma predeterminada.
 
-   Para agregar nuevas diapositivas, pase el ratón sobre una o haga clic en ella y, a continuación, seleccione una de las opciones disponibles:
+   Para agregar nuevas diapositivas, pase el puntero por encima de una o haga clic en ella y, a continuación, seleccione una de las opciones disponibles:
 
    * Pulse el signo [!UICONTROL +] para crear una nueva diapositiva.
 
@@ -296,7 +296,7 @@ Las historias basadas en datos le permiten personalizar todos los elementos para
    ![Creación de una historia basada en datos](assets/data-story4.png)
 
 >[!NOTE]
->Las diapositivas heredan los componentes del mosaico, pero los mosaicos no heredan los componentes de las diapositivas.
+>Las diapositivas heredan componentes del mosaico, pero los mosaicos no heredan componentes de las diapositivas.
 
 **Para personalizar las diapositivas individuales**
 
@@ -361,13 +361,13 @@ Para compartir el cuadro de resultados con un usuario ejecutivo:
 
 ![Share_Scorecards](assets/new_share.png)
 
-Una vez que haya compartido un cuadro de resultados, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el cuadro de resultados mediante el Creador de cuadros de resultados, estos se aplicarán automáticamente al cuadro de resultados compartido. Los usuarios ejecutivos verán los cambios después de actualizar el cuadro de resultados en su aplicación.
+Una vez que haya compartido un cuadro de resultados, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el cuadro de resultados del creador de cuadros de resultados, se actualizarán automáticamente en el cuadro de resultados compartido. Los usuarios ejecutivos verán los cambios después de actualizar el cuadro de resultados en su aplicación.
 
 Si actualiza el cuadro de resultados con nuevos componentes, es posible que desee volver a compartirlo (marque la opción **[!UICONTROL Compartir componentes incrustados]**) para asegurarse de que los usuarios ejecutivos tengan acceso a estos cambios.
 
-### Compartir cuadros de resultados mediante un vínculo que se puede compartir {#shareable-link}
+### Uso compartido de cuadros de resultados mediante un vínculo que se puede compartir {#shareable-link}
 
-El uso de un vínculo que se puede compartir facilita el uso de un cuadro de resultados en una aplicación de correo electrónico, documento o mensaje de texto. El vínculo que se puede compartir permite a los destinatarios abrir el cuadro de resultados en su escritorio o en la aplicación móvil de los paneles. La vinculación profunda compartible facilita aún más el uso compartido de proyectos y la participación con las partes interesadas.
+El uso de un vínculo que se puede compartir facilita el uso compartido de un cuadro de resultados en una aplicación de correo electrónico, documento o mensaje de texto. El vínculo que se puede compartir permite a los destinatarios abrir el cuadro de resultados en su escritorio o en la aplicación móvil de los paneles de control. Los vínculos profundos compartibles facilitan aún más el uso compartido de proyectos y aumentan participación con las partes interesadas.
 
 Para compartir un cuadro de resultados mediante un vínculo que se puede compartir
 

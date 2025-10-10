@@ -1,6 +1,6 @@
 ---
 description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
-title: Configuración de las opciones de informes de una solicitud de Data Warehouse
+title: Configuración de opciones de informes para una solicitud de Data Warehouse
 feature: Data Warehouse
 exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
 source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
@@ -16,7 +16,7 @@ Hay varias opciones de configuración disponibles al crear una solicitud de Data
 
 Para obtener información sobre cómo empezar a crear una solicitud, así como vínculos a otras opciones de configuración importantes, consulte [Crear una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-Para configurar un mensaje de correo electrónico de notificación para una solicitud de Data Warehouse:
+Para configurar un mensaje de correo electrónico de notificación para una petición Data Warehouse:
 
 1. Si aún no lo ha hecho, empiece a crear una solicitud en Adobe Analytics seleccionando **[!UICONTROL Herramientas]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Añadir**].
 
@@ -35,6 +35,6 @@ Para configurar un mensaje de correo electrónico de notificación para una soli
 
    {style="table-layout:auto"}
 
-1. Seleccione [!UICONTROL **Guardar solicitud**] para guardar la solicitud del informe de Data Warehouse.
+1. Seleccione [!UICONTROL **Guardar solicitud**] para guardar la solicitud de informe de Data Warehouse.
 
    Ahora puede exportar datos a la cuenta y la ubicación configuradas.

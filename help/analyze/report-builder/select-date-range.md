@@ -36,7 +36,7 @@ La opción **[!UICONTROL Desde celda]** permite hacer referencia a las fechas in
 
 Tiene la opción de excluir hoy en cualquier intervalo de fechas seleccionado.
 
-![Panel de edición rápida del Report Builder con el calendario seleccionado y Excluir hoy seleccionado.](./assets/image17.png)
+![Panel de edición rápida de Report Builder con el calendario seleccionado y Excluir hoy seleccionado.](./assets/image17.png)
 
 ## Usar el calendario
 
@@ -62,7 +62,7 @@ Para seleccionar fechas utilizando el calendario
 
 Para definir un intervalo de fechas al revés, haga clic primero en la fecha de finalización y, a continuación, haga clic en la fecha de inicio.
 
-![panel de intervalo de fechas del Report Builder que muestra el calendario, la fecha de finalización y la fecha de inicio seleccionada.](./assets/image18.png)
+![Panel de intervalo de fechas de Report Builder que muestra el calendario, la fecha de finalización y la fecha de inicio seleccionada.](./assets/image18.png)
 
 ### Menú desplegable de ajustes preestablecidos
 
@@ -76,7 +76,7 @@ La opción fechas móviles permite seleccionar un intervalo de fechas mediante f
 
 1. Seleccione una expresión móvil para la fecha de inicio o de finalización.
 
-   ![Panel de intervalo de fechas del Report Builder que muestra Usar fechas móviles seleccionadas y la expresión móvil.](./assets/image19.png)
+   ![Panel de intervalo de fechas de Report Builder que muestra Usar fechas móviles seleccionadas y la expresión móvil.](./assets/image19.png)
 
    **Inicio de**: permite seleccionar el comienzo de un día, una semana, un mes, un trimestre o un año.
 
@@ -86,11 +86,11 @@ La opción fechas móviles permite seleccionar un intervalo de fechas mediante f
 
 1. Elija día, semana, mes, trimestre o año como período móvil.
 
-   ![panel de intervalo de fechas del Report Builder que muestra el día actual seleccionado.](./assets/image20.png)
+   ![Panel de intervalo de fechas de Report Builder que muestra el día actual seleccionado.](./assets/image20.png)
 
 1. Añada o reste días, semanas, meses, trimestres o años a partir de la fecha móvil.
 
-   ![panel de intervalo de fechas del Report Builder que muestra el día actual más 14 días seleccionados.](./assets/image21.png)
+   ![Panel de intervalo de fechas de Report Builder que muestra el día actual más 14 días seleccionados.](./assets/image21.png)
 
 1. Haga clic en Siguiente para definir el intervalo de datos.
 

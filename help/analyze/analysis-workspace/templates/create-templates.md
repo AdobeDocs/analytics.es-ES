@@ -5,7 +5,7 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
 source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Para crear una nueva plantilla que pueden utilizar las personas de su compañía
    | **[!UICONTROL Nombre]** | Escriba un nombre descriptivo para la plantilla. |
    | **[!UICONTROL Descripción]** | Suministre una breve descripción de la plantilla que describa los usos previstos. |
    | **[!UICONTROL Por qué utilizar esta plantilla]** | Ofrezca una breve explicación para informar a los miembros de la organización sobre cómo se podría utilizar esta plantilla. Esta explicación se muestra en la página Vista previa de la plantilla. |
-   | **[!UICONTROL Casos de uso]** | Seleccione los casos de uso aplicables a esta plantilla. Puede seleccionar varios casos de uso: **[!UICONTROL participación]**, **[!UICONTROL conversión]**, **[!UICONTROL audiencia]** y **[!UICONTROL adquisición]**. <p>Las selecciones que realice determinarán dónde se mostrará la plantilla y qué filtros se aplicarán a los usuarios que acceden a ella desde la página Plantillas de la organización.</p> |
+   | **[!UICONTROL Casos de uso]** | Seleccione los casos de uso aplicables a esta plantilla. Puede seleccionar varios casos de uso: **[!UICONTROL participación]**, **[!UICONTROL conversión]**, **[!UICONTROL público]** y **[!UICONTROL adquisición]**. <p>Las selecciones que realice determinarán dónde se mostrará la plantilla y qué filtros se aplicarán a los usuarios que acceden a ella desde la página Plantillas de la organización.</p> |
    | **[!UICONTROL Etiquetas]** | Especifique las etiquetas que desea aplicar a la plantilla. Las personas pueden filtrar la lista de plantillas por las etiquetas que añada. |
 
 1. Seleccione [!UICONTROL **Guardar como plantilla**]
@@ -80,7 +80,7 @@ Los administradores pueden editar o eliminar las plantillas de la compañía.
    | **[!UICONTROL Nombre]** | Escriba un nombre descriptivo para la plantilla. |
    | **[!UICONTROL Descripción]** | Suministre una breve descripción de la plantilla que describa los usos previstos. |
    | **[!UICONTROL Por qué utilizar esta plantilla]** | Ofrezca una breve explicación para informar a los miembros de la organización sobre cómo se podría utilizar esta plantilla. Esta explicación se muestra en la página Vista previa de la plantilla. |
-   | **[!UICONTROL Casos de uso]** | Seleccione los casos de uso aplicables a esta plantilla. Puede seleccionar varios casos de uso: **[!UICONTROL participación]**, **[!UICONTROL conversión]**, **[!UICONTROL audiencia]** y **[!UICONTROL adquisición]**. <p>Las selecciones que realice determinarán dónde se mostrará la plantilla y qué filtros se aplicarán a los usuarios que acceden a ella desde la página Plantillas de la organización.</p> |
+   | **[!UICONTROL Casos de uso]** | Seleccione los casos de uso aplicables a esta plantilla. Puede seleccionar varios casos de uso: **[!UICONTROL participación]**, **[!UICONTROL conversión]**, **[!UICONTROL público]** y **[!UICONTROL adquisición]**. <p>Las selecciones que realice determinarán dónde se mostrará la plantilla y qué filtros se aplicarán a los usuarios que acceden a ella desde la página Plantillas de la organización.</p> |
    | **[!UICONTROL Etiquetas]** | Especifique las etiquetas que desea aplicar a la plantilla. Las personas pueden filtrar la lista de plantillas por las etiquetas que añada. |
 
 1. Seleccione [!UICONTROL **Guardar como plantilla**].

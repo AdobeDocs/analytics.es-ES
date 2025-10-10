@@ -5,14 +5,15 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 9ece9f6fcebdf308b6218aa50ab78af4f75ee8e7
+exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
+source-git-commit: 6ec04fcc250b2858987ac7d70255310be910386f
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 3%
 
 ---
 
-# Administrar libros programados
+# Administrar libros de trabajo programados
 
 Puede programar un libro para compartirlo por correo electrónico o exportarlo a un destino de nube, tal como se describe en los siguientes artículos:
 
@@ -72,5 +73,3 @@ Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir qué col
    * Un ![AlertRed](/help/assets/icons/AlertRed.svg) indica que se produjo un error.
 
 También puede seleccionar ![Historial](/help/assets/icons/History.svg) para uno o más libros seleccionados en la ficha **[!UICONTROL Libros]**. Esta acción muestra la ficha **[!UICONTROL Historial]** con una lista filtrada por su selección. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar un filtro.
-
-

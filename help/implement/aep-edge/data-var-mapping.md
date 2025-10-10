@@ -1,6 +1,6 @@
 ---
 title: Asignación de variables de objetos de datos a Adobe Analytics
-description: Vea qué campos de objetos de datos asigna automáticamente el Experience Platform Edge a las variables de Analytics.
+description: Vea qué campos de objeto de datos Experience Platform Edge asigna automáticamente a las variables de Analytics.
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
@@ -13,15 +13,15 @@ ht-degree: 2%
 
 # Asignación de variables de objetos de datos a Adobe Analytics
 
-En la tabla siguiente se muestran las variables de objetos de datos que el Edge Network de Adobe Experience Platform asigna automáticamente a Adobe Analytics. Si utiliza estas rutas de campo de objeto de datos, no es necesaria ninguna configuración adicional para enviar datos a Adobe Analytics.
+En la tabla siguiente se muestran las variables de objetos de datos que Adobe Experience Platform Edge Network asigna automáticamente a Adobe Analytics. Si utiliza estas rutas de campo de objeto de datos, no es necesaria ninguna configuración adicional para enviar datos a Adobe Analytics.
 
-Se recomienda utilizar estos campos si tiene intención de utilizar Customer Journey Analytics en el futuro. Este método de implementación permite a su organización enviar datos al Adobe mediante el SDK web sin ajustarse a un esquema XDM. Cuando su organización esté lista para enviar datos a Adobe Experience Platform, puede usar [Asignación de secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/data-prep#mapping) para apuntar los campos de objeto de datos a sus respectivos campos XDM.
+Se recomienda utilizar estos campos si tiene intención de utilizar Customer Journey Analytics en el futuro. Este método de implementación permite a su organización enviar datos a Adobe mediante Web SDK sin ajustarse a un esquema XDM. Cuando su organización esté lista para enviar datos a Adobe Experience Platform, puede usar [Asignación de secuencia de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) para apuntar los campos de objeto de datos a sus respectivos campos XDM.
 
 ## Prioridades de valor
 
 La mayoría de los campos de objeto de datos de esta tabla coinciden con un [campo XDM asignado](xdm-var-mapping.md). Si establece un campo de objeto de datos determinado y su campo XDM respectivo, el campo de objeto de datos tiene prioridad. Por ejemplo, si el campo `data.__adobe.analytics.events` está presente, sobrescribe todos los campos de objeto XDM relacionados con el evento.
 
-Algunos campos de objetos de datos también admiten su [valor de parámetro de consulta](../validate/query-parameters.md) respectivo como valores abreviados. Puede utilizar de forma intercambiable campos de objeto de datos estándar y campos de objeto de datos abreviados, siempre y cuando cada uno de ellos sea para variables únicas. Evite establecer un campo de objeto de datos estándar y su campo de objeto de datos abreviado respectivo al mismo tiempo. El Adobe no puede garantizar qué campo tiene prioridad.
+Algunos campos de objetos de datos también admiten su [valor de parámetro de consulta](../validate/query-parameters.md) respectivo como valores abreviados. Puede utilizar de forma intercambiable campos de objeto de datos estándar y campos de objeto de datos abreviados, siempre y cuando cada uno de ellos sea para variables únicas. Evite establecer un campo de objeto de datos estándar y su campo de objeto de datos abreviado respectivo al mismo tiempo. Adobe no puede garantizar qué campo tiene prioridad.
 
 ## Asignación de campos de objeto de datos
 

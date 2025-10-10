@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ---
 
-# Trabajo con segmentos en el Report Builder
+# Trabajo con segmentos en Report Builder
 
 Puede aplicar segmentos cuando cree un nuevo bloque de datos o cuando seleccione la opción **Editar bloque de datos** en el panel COMANDOS.
 
@@ -65,7 +65,7 @@ Puede añadir o quitar segmentos mediante las opciones Añadir/Quitar.
 
 1. Haga clic en **[!UICONTROL Aplicar]** para guardar los cambios y volver al panel central.
 
-   El Report Builder muestra un mensaje para confirmar los cambios aplicados en el segmento.
+   Report Builder muestra un mensaje para confirmar los cambios del segmento aplicado.
 
 ### Reemplazo de segmentos
 
@@ -85,7 +85,7 @@ Puede reemplazar un segmento existente por otro para cambiar la forma en que se 
 
 1. Haga clic en **[!UICONTROL Aplicar]**.
 
-   El Report Builder actualiza la lista de segmentos para reflejar el reemplazo.
+   Report Builder actualiza la lista de segmentos para reflejar el reemplazo.
 
 ### Definir segmentos de bloque de datos de la celda
 

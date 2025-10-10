@@ -23,7 +23,7 @@ Esta página lista [dimensiones](overview.md) compatibles con sus respectivas ca
 | Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |---|---|
 | Analytics for Target | `targetraw` |
-| ID de audiencias | `mcaudiences` |
+| ID de públicos | `mcaudiences` |
 | [Explorador](browser.md) | `browser` |
 | [Tipo de explorador](browser-type.md) | `browsertype` |
 | [Categoría](category.md) | `category` |

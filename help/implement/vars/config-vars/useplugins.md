@@ -13,11 +13,11 @@ ht-degree: 34%
 
 # usePlugins
 
-Si `usePlugins` está habilitada, la función [`doPlugins()`](../functions/doplugins.md) se ejecuta justo antes de que AppMeasurement compile y envíe una visita a Adobe. Active esta variable si utiliza la función `doPlugins()`.
+Si `usePlugins` está habilitada, la función [`doPlugins()`](../functions/doplugins.md) se ejecuta justo antes de que AppMeasurement compile y envíe una visita a Adobe. Habilite esta variable si utiliza la función `doPlugins()`.
 
 ## Usar la llamada de retorno `onBeforeEventSend` mediante Web SDK
 
-Aunque Web SDK no tiene un valor booleano para controlar la ejecución de lógica adicional antes de enviar los datos a Adobe, puede registrar la devolución de llamada `onBeforeEventSend` para modificar los datos. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=es#modifying-events-globally) en la documentación de Web SDK para obtener más información.
+Aunque Web SDK no tiene un valor booleano para controlar la ejecución de lógica adicional antes de enviar los datos a Adobe, puede registrar la devolución de llamada `onBeforeEventSend` para modificar los datos. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) en la documentación de Web SDK para obtener más información.
 
 ## Uso de complementos con la extensión de Adobe Analytics
 

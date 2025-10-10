@@ -14,7 +14,7 @@ ht-degree: 33%
 
 La [métrica](overview.md) &quot;Eventos de página&quot; muestra la cantidad de veces que se realizó una llamada de seguimiento de vínculo. Esta métrica es útil cuando desea comprender qué páginas tienen el contenido más atractivo. La medición para esta métrica es muy valiosa cuando un visitante puede realizar una acción en la página sin navegar a una nueva página.
 
-Por ejemplo, en un recorrido típico de un sitio de comercio electrónico, un visitante puede tener varias interacciones en una sola página. Una implementación típica de Analytics tiene estas interacciones configuradas como una llamada de seguimiento de vínculos ([`tl()`](/help/implement/vars/functions/tl-method.md)), mientras que una llamada de vista de páginas ([`t()`](/help/implement/vars/functions/t-method.md)) se reserva para la carga inicial de la página. Este método de implementación proporciona un seguimiento de eventos enriquecido que proporciona una perspectiva sobre las interacciones que se producen antes de que un visitante continúe con su recorrido.
+Por ejemplo, en un recorrido típico de un sitio de comercio electrónico, un visitante puede tener varias interacciones en una sola página. Una implementación típica de Analytics tiene estas interacciones configuradas como una llamada de seguimiento de vínculos ([`tl()`](/help/implement/vars/functions/tl-method.md)), mientras que una llamada de vista de páginas ([`t()`](/help/implement/vars/functions/t-method.md)) se reserva para la carga inicial de la página. Este método de implementación proporciona un seguimiento de eventos enriquecido que proporciona a insight información sobre las interacciones que se producen antes de que un visitante continúe con su recorrido.
 
 ## Cálculo de esta métrica
 

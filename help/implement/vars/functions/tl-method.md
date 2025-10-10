@@ -15,7 +15,7 @@ ht-degree: 62%
 
 El método `tl()` es un componente principal importante de Adobe Analytics. Toma todas las variables de Analytics definidas en la página, las compila en una solicitud de imagen y envía esos datos a los servidores de recopilación de datos de Adobe. Funciona de manera similar al método [`t()`](t-method.md), pero este no incrementa las vistas de página. Es útil para rastrear vínculos y otros elementos que no se considerarían una carga de página completa.
 
-Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExternalLinks`](../config-vars/trackexternallinks.md) están activados, AppMeasurement llama automáticamente al método `tl()` para enviar datos de seguimiento de vínculos de descarga y de salida. Si su organización prefiere tener más control sobre los vínculos que quiere rastrear y su comportamiento, puede llamar al método `tl()` manualmente. Los vínculos personalizados solo se pueden rastrear manualmente.
+Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) o [`trackExternalLinks`](../config-vars/trackexternallinks.md) están habilitados, AppMeasurement llama automáticamente al método `tl()` para enviar datos de seguimiento de vínculos de descarga y de salida. Si su organización prefiere tener más control sobre los vínculos que quiere rastrear y su comportamiento, puede llamar al método `tl()` manualmente. Los vínculos personalizados solo se pueden rastrear manualmente.
 
 ## Seguimiento de vínculos mediante Web SDK
 
@@ -179,7 +179,7 @@ A continuación, puede llamar a la función siempre que desee rastrear una vincu
 
 ### Evitar el seguimiento de vínculos duplicados
 
-Si `trackDownloadLinks` o `trackExternalLinks` están activados, AppMeasurement realiza automáticamente una llamada de seguimiento de vínculos si coinciden los filtros correctos. Si también llama manualmente a `s.tl()` para estos clics en vínculos, puede enviar datos duplicados a Adobe. La duplicación de datos infla los números del informe y los hace menos precisos.
+Si `trackDownloadLinks` o `trackExternalLinks` están habilitados, AppMeasurement realiza automáticamente una llamada de seguimiento de vínculos si coinciden los filtros correctos. Si también llama manualmente a `s.tl()` para estos clics en vínculos, puede enviar datos duplicados a Adobe. La duplicación de datos infla los números del informe y los hace menos precisos.
 
 Por ejemplo: la siguiente función enviaría dos llamadas de seguimiento de vínculos para el mismo clic en vínculo (vínculos de descarga manuales y automáticos):
 

@@ -1,6 +1,6 @@
 ---
 description: Obtenga información acerca de las recomendaciones del sistema y los requisitos previos de Report Builder.
-title: Acerca de los requisitos del sistema para el Report Builder
+title: Acerca de los requisitos del sistema para Report Builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder
 role: User, Admin

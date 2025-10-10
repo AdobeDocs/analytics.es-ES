@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://video.tv.adobe.com/v/328505/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración de fila y columna en una tabla de forma libre](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -74,7 +74,7 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 | **[!UICONTROL Mostrar solamente las filas seleccionadas]** | Mostrar solo las filas seleccionadas en la visualización. |
 | **[!UICONTROL Mostrar todas las filas]** | Mostrar todas las filas de la visualización. |
 | **[!UICONTROL Crear filtro a partir de la selección]** | Abra **[!UICONTROL Generador de filtros]** para generar un filtro a partir de la selección. |
-| **[!UICONTROL Crear audiencia a partir de la selección]** | Abra el cuadro de diálogo **[!UICONTROL Crear audiencia]** para generar una audiencia a partir de la selección. |
+| **[!UICONTROL Crear público a partir de la selección]** | Abra el cuadro de diálogo **[!UICONTROL Crear público]** para generar un público a partir de la selección. |
 
 Las siguientes opciones de menú contextual adicionales están disponibles al seleccionar un encabezado de columna de métrica.
 
@@ -88,7 +88,7 @@ Las siguientes opciones de menú contextual adicionales están disponibles al se
 | **[!UICONTROL Restablecer anchos de columna]** | Restablezca el ancho de columna predeterminado. |
 | **[!UICONTROL Crear anotación a partir de la selección]** | Abra **[!UICONTROL Detalles de anotación]** para añadir una anotación. |
 | **[!UICONTROL Crear filtro a partir de la selección]** | Abra **[!UICONTROL Generador de filtros]** para generar un filtro a partir de la selección. |
-| **[!UICONTROL Crear audiencia a partir de la selección]** | Abra el cuadro de diálogo **[!UICONTROL Crear audiencia]** para generar una audiencia a partir de la selección. |
+| **[!UICONTROL Crear público a partir de la selección]** | Abra el cuadro de diálogo **[!UICONTROL Crear público]** para generar un público a partir de la selección. |
 
 ## Cambiar altura de fila
 

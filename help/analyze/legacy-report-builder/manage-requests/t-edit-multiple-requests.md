@@ -49,4 +49,4 @@ Puede cambiar varias solicitudes al mismo tiempo, en función del grupo de infor
 
 Este es un vídeo que muestra el proceso:
 
-https://video.tv.adobe.com/v/40100/?quality=12&captions=spa
+https://video.tv.adobe.com/v/25445/?quality=12

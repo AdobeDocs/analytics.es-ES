@@ -6,7 +6,7 @@ feature: Curate and Share, Calculated Metrics
 source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 

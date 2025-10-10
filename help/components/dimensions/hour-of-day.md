@@ -5,8 +5,8 @@ feature: Dimensions
 exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 95%
+source-wordcount: '360'
+ht-degree: 82%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 La &quot;Hora del día&quot; [dimension](overview.md) indica la hora numérica de cualquier día dado como un elemento de dimensión. Por ejemplo, si tiene un informe que abarca del 1 de enero al 7 de enero, la primera hora de cada día se agrupa en el mismo elemento de dimensión. Este informe es útil si desea un informe desglosado por hora del día relativa, pero no desea una hora estática como elementos de dimensión. Es especialmente útil como dimensión en los informes programados, ya que esta dimensión se desplaza con el intervalo de fechas seleccionado.
 
-Esta dimensión se basa en la zona horaria del grupo de informes y no en la del visitante. Por ejemplo, si el grupo de informes se encuentra en la zona Pacífico y un visitante de California visita el sitio a las 10:00 a.m., hora del Pacífico, los grupos de visitas se agrupan debajo del elemento de dimensión `11:00 AM`. Si desea una dimensión que registre la hora del visitante local, Adobe recomienda utilizar el complemento [getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
+Esta dimensión se basa en la zona horaria del grupo de informes y no en la del visitante. Por ejemplo, si el grupo de informes se encuentra en la zona Pacífico y un visitante de California visita el sitio a las 10:00 a. m., hora del Pacífico, los grupos de visitas se agrupan bajo el elemento de dimensión `11:00 AM`. Si desea una dimensión que registre la hora del visitante local, Adobe recomienda utilizar el complemento [getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
 
 ## Rellene esta dimensión con datos
 
@@ -22,7 +22,7 @@ Esta dimensión funciona de forma predeterminada para todas las implementaciones
 
 ## Elementos de dimensión
 
-Los elementos de dimensión incluyen `12:00 AM` - `11:00 PM`, que representan la hora del día en la que se produjo la visita (redondeada hacia abajo). Por ejemplo, si se generó una visita a las 3:58 p.m., se agrupa bajo el elemento de dimensión de `3:00 PM`.
+Los elementos de dimensión incluyen `12:00 AM` - `11:00 PM`, que representan la hora del día en la que se produjo la visita (redondeada hacia abajo). Por ejemplo, si se generó una visita a las 3:58 p.m., se agrupa bajo el elemento de dimensión de `3:00 PM`.
 
 ## Horario de verano
 

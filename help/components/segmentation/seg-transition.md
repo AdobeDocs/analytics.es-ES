@@ -32,7 +32,7 @@ Las plantillas de segmentos están marcadas con un icono especial ![AdobeLogoSma
 
 Los informes programados siguen ejecutándose correctamente con los segmentos que haya definido.
 
-Si elimina un segmento, los informes programados y los paneles a los que se haya aplicado siguen funcionando normalmente, es decir, el informe o panel siguen utilizando el segmento eliminado.
+Si elimina un segmento, los informes programados y los paneles de control a los que se haya aplicado siguen funcionando normalmente, es decir, el informe o panel de control siguen utilizando el segmento eliminado.
 
 Los informes programados no se actualizan cuando edita un segmento con el mismo nombre. Por ejemplo, suponga que tiene dos segmentos con el mismo nombre en diferentes grupos de informes:
 
@@ -90,7 +90,7 @@ Los segmentos existentes que utilizan la lógica que se ha modificado según se 
 
 +++
 
-+++ **¿Qué debería hacer con los segmentos duplicados que tienen el mismo nombre pero que pueden tener definiciones distintas?**
++++ **¿Qué debería hacer con los segmentos duplicados que tienen el mismo nombre pero que pueden tener definiciones distintas?** 
 Ahora que los segmentos funcionan en múltiples grupos de informes, es posible que descubra que tiene múltiples segmentos con el mismo nombre. Recomendaciones:
 
 * Cambie el nombre de los segmentos que tienen el mismo nombre pero tienen definiciones distintas, o

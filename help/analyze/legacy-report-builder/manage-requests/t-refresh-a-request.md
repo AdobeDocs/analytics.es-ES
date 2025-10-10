@@ -27,7 +27,7 @@ Si aumenta el intervalo de fechas de una solicitud y, a continuación, esta se a
 
    **Fecha ahora:** fecha en la que se desea basar la actualización. También se denomina [!UICONTROL Con fecha].
 
-   **Establecer en fecha actual en futuras acciones de actualización:** Al habilitar esta opción, se indica al Report Builder que siempre use la fecha actual como la fecha [!UICONTROL Ahora] (o [!UICONTROL Con fecha de]). Esta configuración se puede invertir haciendo clic en [!UICONTROL Opciones] en la barra de herramientas.
+   **Establecer en fecha actual en futuras acciones de actualización:** Al habilitar esta opción, Report Builder usará siempre la fecha actual como la fecha [!UICONTROL Ahora] (o [!UICONTROL Con fecha de]). Esta configuración se puede invertir haciendo clic en [!UICONTROL Opciones] en la barra de herramientas.
 1. Haga clic en **[!UICONTROL Aceptar]**.
 
    Cuando una actualización es correcta, el sistema lo indica con un icono verde en el [!UICONTROL Administrador de solicitudes].

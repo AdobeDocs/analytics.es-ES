@@ -30,7 +30,7 @@ Puede publicar segmentos de Analytics en Experience Cloud en menos de 8 horas. U
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar segmentos](https://video.tv.adobe.com/v/36895?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar segmentos](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -127,14 +127,14 @@ Las siguientes capturas de pantalla muestran cómo recuperar el UUID de Adobe Au
 
 1. Iniciar Herramientas para desarrolladores Chrome antes de cargar una página
 1. Cargue la página y seleccione Aplicaciones > Cookies. El UUID de Adobe Audience Manager debe configurarse en el
-Cookie Demdex ([adobe.demdex.net](https://experienceleague.adobe.com/es/docs/audience-manager/user-guide/reference/demdex-calls) en el ejemplo siguiente). El parámetro de campo es el conjunto UUID de Adobe Audience Manager
+Cookie Demdex ([adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) en el ejemplo siguiente). El parámetro de campo es el conjunto UUID de Adobe Audience Manager
 en el explorador (`35721780439475290181087231320657663953` en el ejemplo siguiente).
 
    ![Herramientas para desarrolladores Chrome](assets/devtools.png)
 
 ## Uso del [!UICONTROL Visor de perfiles de visitantes] de Audience Manager
 
-El UUID de Adobe Audience Manager en el explorador se encuentra de forma predeterminada cuando se carga el [!UICONTROL Visor de perfiles de visitante]. Si verifica la realización de características para otros usuarios, escriba un UUID en el campo UUID y haga clic en [!UICONTROL Actualizar]. Consulte [Visor de perfiles de visitantes](https://experienceleague.adobe.com/es/docs/audience-manager/user-guide/features/visitor-profile-viewer) para obtener más información.
+El UUID de Adobe Audience Manager en el explorador se encuentra de forma predeterminada cuando se carga el [!UICONTROL Visor de perfiles de visitante]. Si verifica la realización de características para otros usuarios, escriba un UUID en el campo UUID y haga clic en [!UICONTROL Actualizar]. Consulte [Visor de perfiles de visitantes](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) para obtener más información.
 
 ## Vea las características del segmento en [!DNL Audience Manager]
 

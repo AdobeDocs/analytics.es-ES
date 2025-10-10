@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: aa2182f9-a140-4239-b2fb-f723e2767260
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 49%
@@ -26,12 +27,12 @@ Para obtener más información, consulte [Adobe Analytics y control de datos](ht
 
 ## Visualización de datos restringidos en Report Builder
 
-En Adobe Analytics aparecen dos políticas definidas por el Adobe que afectan a la creación de informes, a la descarga y al uso compartido:
+En Adobe Analytics aparecen dos políticas definidas por Adobe que afectan a la creación de informes, a la descarga y al uso compartido:
 
 * Aplicación de la directiva de Analytics
 * Aplicación de la directiva de descarga
 
-Los componentes afectados por estas directivas aparecen atenuados. Cuando pasa el ratón sobre un componente que tiene una directiva aplicada, se muestra una nota para indicar lo siguiente: **Se han aplicado directivas a este campo que prohíben el uso de estos datos.** Para obtener más información, consulte [Etiquetas y directivas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-governance.html?lang=es).
+Los componentes afectados por estas directivas aparecen atenuados. Cuando pasa el puntero por encima de un componente que tiene una directiva aplicada, se muestra una nota para indicar lo siguiente: **Se han aplicado directivas a este campo que prohíben el uso de estos datos.** Para obtener más información, consulte [Etiquetas y directivas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-governance.html?lang=es).
 
 ![La nota de directiva que indica el uso prohibido de los datos.](assets/rb-restricted-label.png)
 

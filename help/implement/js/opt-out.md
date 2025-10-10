@@ -18,7 +18,7 @@ ht-degree: 67%
 >[!IMPORTANT]
 >
 > Este artículo proporciona a **clientes de Adobe Analytics que (están planeando) implementar Adobe Analytics** en su sitio web instrucciones sobre cómo proporcionar a los usuarios del sitio web vínculos de no participación. <p><p>
-><p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Si está **visitando un sitio web que ha implementado Adobe Analytics** y desea excluirse, **<span style="color:red">este artículo NO es para usted</span>**. Consulta [Opciones de privacidad de Adobe](https://www.adobe.com/es/privacy/opt-out.html) para controlar cómo usa Adobe tu información.
+<p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Si está **visitando un sitio web que ha implementado Adobe Analytics** y desea excluirse, **<span style="color:red">este artículo NO es para usted</span>**. Consulta [Opciones de privacidad de Adobe](https://www.adobe.com/es/privacy/opt-out.html) para controlar cómo usa Adobe tu información.
 
 Algunos visitantes del sitio Web prefieren no incluir su información de navegación en el conjunto de datos. Adobe permite excluir a los visitantes de un sitio web del análisis de su información.
 
@@ -44,7 +44,7 @@ La página de exclusión de su organización depende del valor de la variable [`
    1. En el servidor web, abra el archivo AppMeasurement.js que se utiliza en el sitio en un editor de código o texto.
    1. Tenga en cuenta el valor de la variable `trackingServer`.
 
-* Use [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=es):
+* Use [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Vaya a su sitio mediante el explorador Chrome.
    1. Abra Experience Cloud Debugger y vaya a la pestaña [!UICONTROL Red].
    1. Tenga en cuenta el valor de [!UICONTROL Solicitar URL: Nombre de host].

@@ -18,7 +18,7 @@ El tipo de seguimiento determina cómo la implementación de Adobe Analytics rea
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/38628/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 -->
 
@@ -37,7 +37,7 @@ Tenga en cuenta que para configurar una cuenta de motor de búsqueda con tipo **
 
 >[!IMPORTANT]
 >
->Obtenga más información sobre si debe agregar el parámetro `s_kwcid` a la [directiva de seguridad de contenido](https://experienceleague.adobe.com/es/docs/id-service/using/reference/csp).
+>Obtenga más información sobre si debe agregar el parámetro `s_kwcid` a la [directiva de seguridad de contenido](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
 
 ## Seguimiento manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -98,7 +98,7 @@ A continuación, se muestra la cadena que debe añadirse a la cuenta de Microsof
 
 >[!IMPORTANT]
 >
->El valor _`<Advertising Analytics ID>`_(en **negrita**&#x200B;abajo) es genérico y **se debe sustituir por la cadena del identificador de la cuenta específica**. Puede obtener la cadena del ID de cuenta específica en la sección &quot;Seguimiento&quot; de la pantalla de la cuenta.
+>El valor _`<Advertising Analytics ID>`_(en **negrita**abajo) es genérico y **se debe sustituir por la cadena del identificador de la cuenta específica**. Puede obtener la cadena del ID de cuenta específica en la sección &quot;Seguimiento&quot; de la pantalla de la cuenta.
 
 **Cadena de seguimiento para campañas:**
 

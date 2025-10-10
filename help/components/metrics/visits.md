@@ -5,8 +5,8 @@ feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: 5f80d1f56fb8a95780ff2daf18644ac5ffb548d6
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 85%
+source-wordcount: '712'
+ht-degree: 80%
 
 ---
 
@@ -50,7 +50,7 @@ Puede cambiar el tiempo necesario para la definición de una visita a un interva
 
 ## Visitas que abarcan un límite de fecha
 
-Una visita se contabiliza por cada periodo de tiempo involucrado. Por ejemplo, si tiene un visitante que empieza a navegar por el sitio el lunes a las 23:45 y envía su última solicitud de imagen el martes a las 00:10, en el informe aparecerá una visita atribuida tanto al lunes como al martes. Sin embargo, se deduplica la métrica de visitas totales y se muestra una sola visita para el intervalo de fechas del proyecto.
+Una visita se contabiliza por cada periodo de tiempo involucrado. Por ejemplo, si tiene un visitante que empieza a navegar por el sitio el lunes a las 23:00 y envía su última solicitud de imagen el martes a las 00:12, en el informe aparecerá una visita atribuida tanto al lunes como al martes. :45:10 Sin embargo, se deduplica la métrica de visitas totales y se muestra una sola visita para el intervalo de fechas del proyecto.
 
 ## Visitas en una dimensión o visitas totales
 

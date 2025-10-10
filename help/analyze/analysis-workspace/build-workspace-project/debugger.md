@@ -8,7 +8,7 @@ exl-id: 7a3a195e-d4f3-4fc8-90f9-507964052c9b
 source-git-commit: b6509693440f00a0c93668109daa7e7f3786f39c
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ El depurador de proyectos ayuda al usuario y al Soporte técnico de Adobe a solu
 >Para usar el depurador, debes tener acceso de **Editar** o **Copiar** al proyecto.
 >
 
-## Habilitar depurador
+## Habilitar Debugger
 
 >[!IMPORTANT]
 >

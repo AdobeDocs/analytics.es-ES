@@ -12,7 +12,7 @@ ht-degree: 29%
 
 # Longitud promedio de la sesión (móvil)
 
-La &quot;Longitud promedio de sesión (móvil)&quot; [métrica](overview.md) muestra la cantidad promedio de tiempo que un elemento de dimensión dado está presente por elemento de dimensión. Es similar a la métrica [[!UICONTROL Tiempo empleado por visita (segundos)]](time-spent-per-visit.md), excepto que esta métrica utiliza componentes específicos del SDK móvil como parte de su cálculo.
+La &quot;Longitud promedio de sesión (móvil)&quot; [métrica](overview.md) muestra la cantidad promedio de tiempo que un elemento de dimensión dado está presente por elemento de dimensión. Es similar a la métrica [[!UICONTROL Tiempo empleado por visita (segundos)]](time-spent-per-visit.md), excepto que esta métrica utiliza componentes específicos de SDK móvil como parte de su cálculo.
 
 ## Cómo se calcula esta métrica
 

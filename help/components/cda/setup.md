@@ -21,20 +21,20 @@ Una vez cumplidos todos los requisitos previos, siga los pasos siguientes para h
 >
 >Todos los requisitos previos deben cumplirse antes de seguir estos pasos. Si no se cumplen todos los requisitos previos, la función no estará disponible o no funcionará. Consulte la [página de información general](overview.md) y el método de vinculación deseado ([vinculación basada en el campo](field-based-stitching.md) o [gráfico del dispositivo](device-graph.md), respectivamente) para conocer los requisitos previos y las limitaciones.
 
-## 1. Abra un ticket con el Servicio de atención al cliente para que CDA abastezca a su grupo de informes entre dispositivos
+## &#x200B;1. Abra un ticket con el Servicio de atención al cliente para que CDA abastezca a su grupo de informes entre dispositivos
 
 El departamento de ingeniería de Adobe ofrece las analíticas de varios dispositivos en el grupo de informes entre dispositivos. Para iniciar este proceso, póngase en contacto con el Servicio de atención al cliente y asegúrese de proporcionar la siguiente información:
 
 * Su ID de organización de Adobe Experience Cloud (la cadena alfanumérica que termina con @AdobeOrg)
 * El ID del grupo de informes perteneciente al grupo de informes entre dispositivos que desea habilitar con analíticas de varios dispositivos
-* Qué método de análisis multidispositivo desea utilizar (vinculación basada en el campo o gráfico de dispositivos de Adobe)
+* Qué método de análisis multidispositivo desea utilizar (vinculación basada en campos o gráfico de dispositivos Adobe)
 * Si desea utilizar la vinculación basada en campos, el prop o eVar que contiene el ID de usuario
 * Su preferencia de frecuencia de repetición y longitud de retrospectiva. Las opciones incluyen una reproducción una vez a la semana con una ventana retrospectiva de 7 días o una reproducción cada día con una ventana retrospectiva de 1 día.
 El valor predeterminado es la reproducción semanal con una ventana retrospectiva de 7 días. En este caso, los datos de la última semana están sujetos a cambios (ya que se identifican y se actualizan progresivamente).
 
 Una vez que haya proporcionado esta información al Servicio de atención al cliente, estos se pondrán en contacto con el departamento de ingeniería de Adobe para habilitar el grupo de informes elegido para el procesamiento de analíticas de varios dispositivos.
 
-## 2. Cree un grupo de informes virtuales entre dispositivos para ver la vista entre dispositivos
+## &#x200B;2. Cree un grupo de informes virtuales entre dispositivos para ver la vista entre dispositivos
 
 Los administradores con acceso para crear grupos de informes virtuales pueden crear grupos de informes virtuales CDA de la siguiente manera:
 

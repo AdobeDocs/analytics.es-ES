@@ -17,7 +17,7 @@ El administrador de fuentes de datos le permite crear, editar y eliminar fuentes
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administración de fuentes de datos](https://video.tv.adobe.com/v/3428561?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administración de fuentes de datos](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -72,7 +72,7 @@ El botón [!UICONTROL Agregar] le permite crear una nueva fuente. Consulte [Crea
 
 1. Seleccione la ficha [!UICONTROL **Trabajos**] para ver los trabajos individuales que cada una de las fuentes crea.
 
-   O
+   O bien
 
    Para ver los trabajos de fuentes de datos específicas, active la casilla que hay junto a una o varias fuentes de datos y, a continuación, seleccione [!UICONTROL **Historial de trabajos**].
 

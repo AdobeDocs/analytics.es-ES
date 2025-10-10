@@ -1,6 +1,6 @@
 ---
 title: Vistas del producto
-description: Número de vistas a páginas de productos.
+description: Número de vistas a páginas de producto.
 feature: Metrics
 exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f

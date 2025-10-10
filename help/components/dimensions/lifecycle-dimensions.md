@@ -1,6 +1,6 @@
 ---
 title: Dimensiones del ciclo de vida móvil
-description: Dimension en función de los datos recopilados mediante el SDK para móviles.
+description: Dimensiones basadas en los datos recopilados con Mobile SDK.
 feature: Dimensions
 exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
 source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
@@ -12,7 +12,7 @@ ht-degree: 26%
 
 # Dimensiones del ciclo de vida móvil
 
-*Esta página hace referencia a datos que se rastrean comúnmente a través del SDK para móviles de Adobe Experience Platform. Para obtener información de dispositivos móviles que usan el agente de usuario, consulte [Dimensiones de búsqueda móvil](mobile-dimensions.md). Para las métricas rastreadas mediante el SDK móvil, consulte [Métricas del ciclo vital móvil](../metrics/lifecycle-metrics.md).*
+*Esta página hace referencia a datos que se rastrean comúnmente a través de Adobe Experience Platform Mobile SDK. Para obtener información de dispositivos móviles que usan el agente de usuario, consulte [Dimensiones de búsqueda móvil](mobile-dimensions.md). Para las métricas rastreadas con el SDK móvil, consulte [Métricas del ciclo vital móvil](../metrics/lifecycle-metrics.md).*
 
 | Nombre de dimensión de ciclo vital | Descripción | Variable de datos de contexto |
 | --- | --- | --- |

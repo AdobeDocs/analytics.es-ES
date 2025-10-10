@@ -12,8 +12,8 @@ ht-degree: 21%
 
 # Recursos de seguridad de Adobe Analytics
 
-El Adobe sigue los procesos y controles de seguridad establecidos para cumplir con las normas, regulaciones y certificaciones aceptadas por el sector. Consulte [Seguridad del Adobe](https://www.adobe.com/trust/security.html) para obtener más información sobre las prácticas de seguridad de toda la compañía de Adobe.
+Adobe sigue los procesos y controles de seguridad establecidos para cumplir con las normas, regulaciones y certificaciones aceptadas por el sector. Consulte [Seguridad de Adobe](https://www.adobe.com/trust/security.html) para obtener más información sobre las prácticas de seguridad en toda la compañía de Adobe.
 
 Encontrará información sobre prácticas específicas de Adobe Analytics en [Información general sobre la seguridad de Adobe Analytics](https://www.adobe.com/content/dam/cc/es/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf). Describe los procesos seguidos sobre la arquitectura, la autenticación, los centros de datos, la red y el personal.
 
-Consulte el programa de revelación de vulnerabilidades de servicios web de [Adobe](https://hackerone.com/adobe) en HackerOne si encuentra una vulnerabilidad para informar sobre cualquiera de los productos de Adobe, incluido Adobe Analytics.
+Consulte el [programa de revelación de vulnerabilidades de servicios web de Adobe](https://hackerone.com/adobe) en HackerOne si encuentra una vulnerabilidad para informar sobre cualquiera de los productos de Adobe, incluido Adobe Analytics.

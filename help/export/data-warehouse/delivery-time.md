@@ -1,5 +1,5 @@
 ---
-title: Solucionar problemas de tiempos de entrega de solicitudes de Data Warehouse
+title: Solucionar problemas de tiempos de envío de solicitudes Data Warehouse
 description: Determinar posibles problemas con una solicitud del Data Warehouse que puede prolongar las horas de envío.
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
@@ -39,4 +39,4 @@ Si necesita estos tipos de informes de forma más oportuna, considere las siguie
 
 * **Analysis Workspace**: Aunque no hay elementos de dimensión ilimitados disponibles, incluye casi todos los demás casos de uso que ofrece el Data Warehouse.
 * **Fuente de datos**: Toma todos los datos sin procesar de un grupo de informes diariamente y los envía a un destino de nube. A continuación, puede importar los datos en su propia base de datos y ejecutar consultas para obtener los datos que necesite.
-* **Solución de servicios de ingeniería personalizados**: Los Servicios de ingeniería de Adobe pueden proporcionar una solución personalizada para su organización a un coste adicional. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
+* **Solución de servicios de ingeniería personalizados**: Los Servicios de ingeniería de Adobe pueden proporcionar una solución personalizada para su organización a un coste adicional. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.

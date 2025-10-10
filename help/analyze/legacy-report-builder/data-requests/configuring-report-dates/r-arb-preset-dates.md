@@ -32,7 +32,7 @@ Las fechas preestablecidas permiten seleccionar fechas guardadas o utilizadas co
   </tr> 
   <tr> 
    <td colname="col1"> <p> Plantillas de fecha guardadas </p> </td> 
-   <td colname="col2"> <p>Muestra las plantillas de intervalo de fechas que ha creado el usuario actual. Las fechas se pueden guardar en el formulario <span class="wintitle">Fechas fijas</span>. Si se ha guardado una plantilla para usarla con todos los grupos de informes, se debe activar la opción <span class="wintitle">Mostrar plantillas de fecha guardadas para todos los grupos de informes</span> para poder seleccionarla. </p> <p>Consulte <a href="/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Fechas fijas e intervalos de fechas guardados. </a> </p> </td> 
+   <td colname="col2"> <p>Muestra las plantillas de intervalo de fechas que ha creado el usuario actual. Las fechas se pueden guardar en el formulario <span class="wintitle">Fechas fijas</span>. Si se ha guardado una plantilla para usarla con todos los grupos de informes, se debe habilitar la opción <span class="wintitle">Mostrar plantillas de fecha guardadas para todos los grupos de informes</span> para poder seleccionarla. </p> <p>Consulte <a href="/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   > Fechas fijas e intervalos de fechas guardados. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mostrar rangos de fecha guardados para todos los grupos de informes </p> </td> 

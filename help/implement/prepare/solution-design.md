@@ -42,7 +42,7 @@ Al determinar qué datos recopilar, es fácil decir “todo”; sin embargo, est
 
 ## Recursos adicionales
 
-La definición de un documento de diseño de solución es un proyecto bastante complejo, especialmente para las organizaciones que no lo han creado anteriormente. Si necesita asistencia adicional, Adobe proporciona asesoramiento especializado para ayudarle a poner en marcha su organización con Adobe Analytics. Póngase en contacto con el equipo de cuenta de Adobe si desea obtener los servicios profesionales de Adobe. Se puede rellenar un [cuestionario técnico previo a la implementación](assets/technical-pre-implementation-questionnaire.pdf) para que Adobe sepa exactamente cómo ayudarle en función de las necesidades de su organización.
+La definición de un documento de diseño de solución es un proyecto bastante complejo, especialmente para las organizaciones que no lo han creado anteriormente. Si necesita asistencia adicional, Adobe proporciona asesoramiento especializado para ayudarle a poner en marcha su organización con Adobe Analytics. Póngase en contacto con el equipo de su cuenta de Adobe si desea obtener los servicios profesionales de Adobe. Se puede rellenar un [cuestionario técnico previo a la implementación](assets/technical-pre-implementation-questionnaire.pdf) para que Adobe sepa exactamente cómo ayudarle en función de las necesidades de su organización.
 
 También hay varios socios de Adobe que se especializan en ayudar a crear un documento de diseño de solución, así como en implementar Adobe Analytics en su sitio.
 

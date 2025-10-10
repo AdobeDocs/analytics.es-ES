@@ -83,7 +83,7 @@ Advertising Analytics agrega las siguientes dimensiones y métricas a Analysis W
 >
 >Estas métricas son datos que se obtienen a diario, de manera que no tendrán datos correspondientes al día en curso. Tampoco se deben hacer informes de ellas con una granularidad inferior a diario.
 >
->Existe una métrica denominada Instancias de ID de AMO que se define cuando el ID de AMO se establece en una página de aterrizaje (es decir, un clic). Esta métrica se captura en tiempo real junto con el acceso a la página de aterrizaje y está disponible para el desglose con otras dimensiones establecidas también en la página de aterrizaje.
+>Existe una métrica denominada Instancias de ID de AMO que se define cuando el ID de AMO se establece en una página de destino (es decir, un clic). Esta métrica se captura en tiempo real junto con el acceso a la página de destino y está disponible para el desglose con otras dimensiones establecidas también en la página de destino.
 
 | Nombre de la métrica | Definición |
 | --- | --- |

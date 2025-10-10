@@ -21,7 +21,7 @@ Cuando **[!UICONTROL Habilitar la recopilación de datos de clics]** esté habil
 
 ## Exclusiones de vínculos en la biblioteca JavaScript de Web SDK
 
-Cuando [`clickCollectionEnabled`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) esté habilitado, usar la devolución de llamada `filterClickDetails` en el objeto `clickCollection`. Dentro de esta llamada de retorno, puede comprobar el valor de `linkName` y cambiar el valor o abandonar la recopilación de datos de seguimiento de vínculos.
+Cuando [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) esté habilitado, usar la devolución de llamada `filterClickDetails` en el objeto `clickCollection`. Dentro de esta llamada de retorno, puede comprobar el valor de `linkName` y cambiar el valor o abandonar la recopilación de datos de seguimiento de vínculos.
 
 ```js
 alloy("configure", {

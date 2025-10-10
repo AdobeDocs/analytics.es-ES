@@ -39,6 +39,6 @@ Estas dimensiones funcionan de forma predeterminada para todas las implementacio
 Hay varias dimensiones para el tiempo invertido por visita:
 
 * **Tiempo empleado por visita (agrupado)**: La cantidad de tiempo se agrupa. Los elementos de dimensión varían de `"Less than 1 minute"` a `"More than 15 hours"`. Las visitas no suelen durar más de 12 horas; sin embargo, las visitas pueden superar las 12 horas si se utilizan visitas con marca de tiempo o fuentes de datos.
-* **Tiempo empleado por visita (granular)**: Cada número de segundos es un elemento de dimensión único. Esta dimensión no está disponible en la Data Warehouse.
+* **Tiempo empleado por visita (granular)**: Cada número de segundos es un elemento de dimensión único. Esta dimensión no está disponible en Data Warehouse.
 
 Consulte [Información general sobre el tiempo empleado](../metrics/time-spent.md) para saber más detalles sobre el tiempo invertido.

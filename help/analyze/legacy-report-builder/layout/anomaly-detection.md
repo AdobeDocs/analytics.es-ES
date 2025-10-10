@@ -23,7 +23,7 @@ Algunos ejemplos de anomalías que puede investigar son:
 * Caídas drásticas en un valor de pedido promedio
 * Picos en pedidos con ingresos bajos
 * Picos o caídas en registros de prueba
-* Caídas en vistas de páginas de aterrizaje
+* Caídas en vistas de páginas de destino
 * Picos en los eventos de almacenamiento de vídeo
 * Picos en tasas de bits de vídeo bajas
 

@@ -4,7 +4,7 @@ description: Vista de cantidades de datos o elementos de dimensión a lo largo d
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 325a42c080290509309e90c9127138800d5ac496
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 

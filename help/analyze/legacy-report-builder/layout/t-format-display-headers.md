@@ -37,13 +37,13 @@ Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados
 
    En la versión 3.11, es posible mostrar un encabezado para cada elemento. La versión 4 muestra todos estos elementos o ninguno de ellos. Si ha creado una solicitud en la versión 3.11 y la abre en la versión 4.x, Report Builder le indicará en el paso 2 que actualice el rango en una celda para los elementos que no tengan encabezado.
 
-   **Cambiar encabezados a filtros automáticos de Excel:** solo está disponible si se muestran los encabezados de fila y columna. Esta configuración crea un filtro automático de Excel y lo anexa a los datos que devuelve el Report Builder para esta solicitud.
+   **Cambiar encabezados a filtros automáticos de Excel:** solo está disponible si se muestran los encabezados de fila y columna. Esta configuración crea un filtro automático de Excel y lo anexa a los datos que devuelve Report Builder para esta solicitud.
 
    >[!NOTE]
    >
    >Excel solo admite un filtro automático por hoja de cálculo. Si se crea un nuevo filtro automático en una hoja de cálculo donde ya existe otro, Excel no muestra una advertencia indicando que el filtro automático existente se va a reemplazar.
 
-   **Realizar contorno automático:** transforma la fecha devuelta por el Report Builder de una vista de lista a una vista de árbol.
+   **Realizar contorno automático:** transforma la fecha devuelta por Report Builder de una vista de lista a una vista de árbol.
 
    **Asignar nombre a esta solicitud:** Permite escribir un nombre definido por el usuario para la solicitud, o usar el nombre predeterminado seleccionado en el Paso 1. Este nombre aparece como nombre de [!UICONTROL Informe] en el [!UICONTROL Administrador de solicitudes]. Consulte [Nombrar una solicitud](/help/analyze/legacy-report-builder/layout/name-a-request.md).
 

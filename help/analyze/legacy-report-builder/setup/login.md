@@ -1,6 +1,6 @@
 ---
 description: Obtenga información sobre cómo iniciar sesión en Report Builder con su cuenta de inicio de sesión de Experience Cloud.
-title: Cómo iniciar sesión en Report Builder
+title: Inicio de sesión en Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
 role: User, Admin
@@ -18,7 +18,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->La versión 5.6.47 y posteriores de Report Builder solo admiten el inicio de sesión de Experience Cloud y no admiten los inicios de sesión heredados, como el inicio de sesión único de Site Catalyst o el inicio de sesión estándar. **Para el 22 de julio de 2021, todos los usuarios de Report Builder deben actualizar el complemento de Report Builder a la versión 5.6.47 o posterior, que incluye una actualización esencial del proceso de inicio de sesión.**
+>La versión 5.6.47 y posteriores de Report Builder solo admiten el inicio de sesión de Experience Cloud y no admiten inicios de sesión heredados, como el inicio de sesión único de Site Catalyst o el inicio de sesión estándar. **Para el 22 de julio de 2021, todos los usuarios de Report Builder deben actualizar el complemento de Report Builder a la versión 5.6.47 o posterior, que incluye una actualización esencial del proceso de inicio de sesión.**
 
 Para iniciar sesión en Report Builder, utilice su cuenta de inicio de sesión de Experience Cloud.
 
@@ -26,13 +26,13 @@ Para iniciar sesión en Report Builder, utilice su cuenta de inicio de sesión d
 
 El inicio de sesión de Experience Cloud le permite utilizar su Enterprise ID (correo electrónico y contraseña) para iniciar sesión en Adobe Experience Cloud.
 
-Haga clic en **[!UICONTROL Iniciar sesión]** > **[!UICONTROL Iniciar sesión con un Enterprise ID]** para redirigirse a la página de inicio de sesión único de su empresa. Para obtener más información sobre el Enterprise ID, consulta [Inicia sesión en tu cuenta de empresa o escuela](https://helpx.adobe.com/es/enterprise/kb/enterprise-id-faq.html#whatis).
+Haga clic en **[!UICONTROL Iniciar sesión]** > **[!UICONTROL Iniciar sesión con un Enterprise ID]** para redirigirse a la página de inicio de sesión único de su empresa. Para obtener más información sobre Enterprise ID, consulta [Inicia sesión en tu cuenta de empresa o escuela](https://helpx.adobe.com/es/enterprise/kb/enterprise-id-faq.html#whatis).
 
 ![Captura de pantalla que muestra la ventana de inicio de sesión de Adobe Experience Cloud con las opciones para iniciar sesión con o sin tu Adobe ID](assets/adobe_id_login.png)
 
 >[!NOTE]
 >
->El inicio de sesión del Experience Cloud se basa en una sesión y un token, que caduca a los 30 días.
+>El inicio de sesión de Experience Cloud se basa en una sesión y un token, que caduca a los 30 días.
 
 ## Inicio de sesión en Report Builder
 

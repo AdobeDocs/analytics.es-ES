@@ -1,5 +1,5 @@
 ---
-description: Descubra cómo la ordenación por métrica facilita la interpretación y comparación de los informes de Data Warehouse con otras vistas de informes de desgloses de Analytics.
+description: Descubra cómo ordenar por métrica facilita la interpretación y comparación de los informes de Data Warehouse con otras vistas de informes de desgloses de Analytics.
 title: Ordenar por métrica
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b

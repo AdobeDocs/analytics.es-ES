@@ -8,7 +8,7 @@ exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
 source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -38,6 +38,6 @@ Para copiar una solicitud simple
    >
    >Solo se copian las solicitudes, no el contenido de las celdas. Si dispone de otra información que no se base en las solicitudes, pero que resulte relevante para comprender los datos mostrados en las celdas (por ejemplo, encabezados de columna de tabla o identificadores de fila), utilice los comandos estándar Copiar y Pegar de Excel.
 
-   Debido a que Excel utiliza diferentes portapapeles para copiar el contenido de celdas y el contenido de solicitudes, puede copiar el contenido de celdas que no sean de solicitudes y posteriormente las solicitudes utilizando consecutivamente copiar/pegar y copiar solicitudes/pegar solicitudes. Sin embargo, si aplica formato a las solicitudes de la hoja de cálculo y después copia y pega, Report Builder reproduce el formato original (por ejemplo, bordes, fuentes, etc.) en la zona de pegado.
+   Debido a que Excel utiliza diferentes portapapeles para copiar el contenido de celdas y el contenido de solicitudes, puede copiar el contenido de celdas que no sean de solicitudes y posteriormente las solicitudes utilizando consecutivamente copiar/pegar y copiar solicitudes/pegar solicitudes. Sin embargo, si aplica formato a las solicitudes de la hoja de cálculo y después copia y pega, Report Builder reproduce el formato original (p. ej., bordes, fuentes, etc.) en el área de pegado.
 
    Si se modifica una solicitud copiada o cortada en el portapapeles antes de pegar la solicitud, la solicitud se elimina del portapapeles. Por lo tanto, para conservar la solicitud en su estado original, no la modifique entre el momento en que la copie y la pegue.

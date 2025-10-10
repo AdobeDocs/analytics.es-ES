@@ -37,7 +37,7 @@ Tenga en cuenta las siguientes directrices cuando añada métricas y dimensiones
 
 * Al introducir un término de búsqueda, la lista se actualiza automáticamente para mostrar las métricas que tienen etiquetas que coinciden con el término de búsqueda.
 * La coincidencia distingue entre mayúsculas y minúsculas y equivale a una búsqueda *contiene*.
-* Búsquedas de palabras completas y otros indicadores de búsqueda especial (comienza con, termina con, AND, OR, etc.) no son compatibles.
+* No se admiten búsquedas de palabras completas ni otros indicadores de búsqueda especiales (empieza por, termina por, AND, OR, etc.).
 
 El término de búsqueda se borra al salir del Asistente para solicitudes al hacer clic en [!UICONTROL Finalizar] o [!UICONTROL Cancelar], al volver al Paso 1 del Asistente para solicitudes o al cambiar la categoría de Métrica.
 
@@ -63,7 +63,7 @@ Para ordenar una solicitud por métrica
 1. Haga clic en la etiqueta de métrica.
 1. Añada dimensiones. Añada las dimensiones del mismo modo que agrega las métricas. Consulte los pasos 1 y 2 anteriores.
 
-   En la ficha [!UICONTROL Dimension], el sistema muestra las dimensiones que se desglosan o son una clasificación de cualquier informe base seleccionado en el [!UICONTROL Asistente para solicitudes: Paso 1], y en la configuración del grupo de informes. Cuando se coloca una dimensión en las cuadrículas de diseño, esta se elimina de la vista de árbol y se vuelve a calcular la lista de dimensiones restantes disponibles.
+   En la ficha [!UICONTROL Dimensiones], el sistema muestra las dimensiones que se desglosan o son una clasificación de cualquier informe base seleccionado en el [!UICONTROL Asistente para solicitudes: Paso 1], y en la configuración del grupo de informes. Cuando se coloca una dimensión en las cuadrículas de diseño, esta se elimina de la vista de árbol y se vuelve a calcular la lista de dimensiones restantes disponibles.
 
    La dimensión [!UICONTROL Fecha] se añade automáticamente. Las dimensiones de fecha disponibles cambian según la granularidad seleccionada en el [!UICONTROL Asistente para solicitudes: paso 1]. Los valores válidos son:
 

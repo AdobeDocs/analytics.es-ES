@@ -1,5 +1,5 @@
 ---
-title: Cómo filtrar dimensiones en Report Builder
+title: Filtrado de dimensiones en Report Builder
 description: Describe cómo filtrar dimensiones en Report Builder
 role: User
 feature: Report Builder
@@ -25,7 +25,7 @@ Para cambiar los elementos de dimensión devueltos para cada dimensión
 
 1. Haga clic en **[!UICONTROL Editar bloque de datos]** en el panel COMANDOS.
 
-1. Haga clic en **[!UICONTROL Siguiente]** para mostrar la ficha Dimension.
+1. Haga clic en **[!UICONTROL Siguiente]** para mostrar la ficha Dimensiones.
 
 1. Haga clic en el icono **...** junto al nombre de un componente en la tabla.
 
@@ -43,7 +43,7 @@ Para cambiar los elementos de dimensión devueltos para cada dimensión
 
    Report Builder muestra una notificación para confirmar el filtro añadido.
 
-Para mostrar los filtros aplicados, pase el ratón sobre una dimensión. Las dimensiones con filtros aplicados muestran un icono de filtro a la derecha del nombre de la dimensión.
+Para mostrar los filtros aplicados, pase el puntero por encima de una dimensión. Las dimensiones con filtros aplicados muestran un icono de filtro a la derecha del nombre de la dimensión.
 
 ## Tipo de filtro
 
@@ -114,7 +114,7 @@ Para cambiar la dirección del orden, haga clic en la flecha situada junto a la 
 
 Para cambiar la métrica utilizada para filtrar y ordenar el bloque de datos,
 
-1. Pase el ratón sobre el componente de métrica deseado en el Generador de tablas para ver las opciones adicionales.
+1. Pase el puntero por encima del componente de métrica deseado en el Generador de tablas para ver las opciones adicionales.
 
 2. Haga clic en la flecha de la métrica preferida.
 
@@ -143,7 +143,7 @@ La opción Específico permite crear una lista fija de elementos de dimensión p
 
    ![La lista Mostrar elementos de los últimos 6 meses.](./assets/image34.png)
 
-   Después de cargar los datos de los últimos 6 meses, el Report Builder actualiza el vínculo a **[!UICONTROL Mostrar elementos de los últimos 18 meses]**.
+   Después de cargar los datos de los últimos 6 meses, Report Builder actualiza el vínculo a **[!UICONTROL Mostrar elementos de los últimos 18 meses]**.
 
 1. Seleccionar un elemento de dimensión.
 
@@ -179,6 +179,6 @@ La selección puede contener celdas vacías o con valores que no coinciden con u
 
 En la pestaña **[!UICONTROL Dimensiones]**, haga clic en el icono de cheurón situado junto al nombre de una dimensión para ver la lista de elementos que contiene.
 
-![La ficha Dimension y la lista de dimensiones.](./assets/dimensions_chevron.png)
+![La ficha Dimensiones y la lista de dimensiones.](./assets/dimensions_chevron.png)
 
 Puede arrastrar y soltar elementos en la **[!UICONTROL Tabla]** o hacer doble clic en un nombre de elemento para añadirlo al Generador de **[!UICONTROL tablas]**.

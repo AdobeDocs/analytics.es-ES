@@ -51,7 +51,7 @@ Configure los parámetros iniciales del bloque de datos para la ubicación del b
 
 Para generar el bloque de datos, seleccione los componentes del informe y, a continuación, personalice el diseño.
 
-1. Añada Dimension, métricas y segmentos.
+1. Añada dimensiones, métricas y segmentos.
 
    Desplácese por las listas de componentes o utilice el campo **[!UICONTROL Buscar]** para localizar componentes. Arrastre y suelte los componentes en el panel Tabla o haga doble clic en un nombre de componente de la lista para añadirlo automáticamente al panel Tabla.
 

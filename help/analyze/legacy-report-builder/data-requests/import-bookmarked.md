@@ -1,6 +1,6 @@
 ---
-description: Todos los informes marcados y los informes del tablero ahora se muestran como dimensiones en el paso 1 del Asistente para solicitudes y se pueden importar como solicitudes de Report Builder.
-title: Importación de informes marcados e informes del panel
+description: Todos los informes marcados y los informes del tablero ahora se enumeran como dimensiones en el paso 1 del Asistente para solicitudes y se pueden importar como solicitudes de Report Builder.
+title: Importación de informes marcados e informes del panel de control
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
@@ -11,11 +11,11 @@ ht-degree: 65%
 
 ---
 
-# Importación de informes marcados e informes del panel
+# Importación de informes marcados e informes del panel de control
 
 {{legacy-arb}}
 
-Todos los informes marcados y los informes del tablero ahora se muestran como dimensiones en el paso 1 del Asistente para solicitudes y se pueden importar como solicitudes de Report Builder.
+Todos los informes marcados y los informes del tablero ahora se enumeran como dimensiones en el paso 1 del Asistente para solicitudes y se pueden importar como solicitudes de Report Builder.
 
 Cuando selecciona un informe marcado, el Asistente para solicitudes rellena todas las dimensiones y métricas que definen este informe marcado. El intervalo de fechas, la granularidad y el segmento seleccionado también se actualizan en función del marcador seleccionado.
 

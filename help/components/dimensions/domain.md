@@ -19,7 +19,7 @@ La dimensión [Dominio](overview.md) indica los puntos de acceso que los visitan
 Adobe está asociado con [Digital Element](https://www.digitalelement.com/es/) para determinar el dominio del punto de acceso. Para determinar el dominio del punto de acceso se utilizan varios métodos, incluida la búsqueda inversa de DNS. No requiere ninguna configuración y no tiene una variable que rellenar.
 
 * Para implementaciones de AppMeasurement, esta dimensión funciona de forma predeterminada.
-* Para implementaciones de SDK web, habilita [!UICONTROL Búsqueda de red] al [configurar una secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es).
+* Para implementaciones de Web SDK, habilita [!UICONTROL Búsqueda de red] al [configurar una secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es).
 
 ## Elementos de dimensión
 

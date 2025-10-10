@@ -40,11 +40,11 @@ Estas son las principales razones que pueden provocar errores en las visualizaci
 >[!IMPORTANT]
 >
 >Report Builder requiere un administrador para autorizar el acceso a los recursos de su organización. Si necesita acceso, pida a un administrador que le conceda permiso.
-> Un administrador de Microsoft puede revisar la configuración *Los usuarios pueden registrar la aplicación* que se encuentra en: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL Configuración de usuario permite opciones]**. Si esta opción se establece en **No**, el administrador puede registrar este tipo de aplicaciones.
+>> Un administrador de Microsoft puede revisar la configuración *Los usuarios pueden registrar la aplicación* que se encuentra en: **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL Configuración de usuario permite opciones]**. Si esta opción se establece en **No**, el administrador puede registrar este tipo de aplicaciones.
 
-Los usuarios pueden conceder acceso iniciando sesión en su [cuenta de Microsoft Power BI](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+Los usuarios pueden conceder acceso iniciando sesión en su [cuenta de Microsoft Power BI](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=logint&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US).
 
-Los administradores pueden conceder acceso a cada uno iniciando sesión en su [cuenta de Microsoft Power BI del administrador](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US).
+Los administradores pueden conceder acceso a cada uno iniciando sesión en su [cuenta de Microsoft Power BI del administrador](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=admin_consent&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US).
 
 ## Alcanzar el límite de API
 

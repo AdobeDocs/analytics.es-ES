@@ -83,7 +83,7 @@ La etiqueta `<amp-analytics>` admite sustituciones de variables para que AMP pue
 
 >[!NOTE]
 >
->Las solicitudes de imagen enviadas al Adobe mediante este método no incluyen datos para muchos informes predeterminados (por ejemplo, explorador, tamaño de pantalla o referente). Si desea incluir esta información en las visitas, asegúrese de que se incluya como parte de la cadena de consulta de solicitud de imagen. Consulte [Parámetros de consulta de recopilación de datos](../validate/query-parameters.md) para obtener una lista completa de los parámetros de consulta de solicitudes de imagen y sus variables asociadas.
+>Las solicitudes de imagen enviadas a Adobe mediante este método no incluyen datos para muchos informes predeterminados (por ejemplo, explorador, tamaño de pantalla o referente). Si desea incluir esta información en las visitas, asegúrese de que se incluya como parte de la cadena de consulta de solicitud de imagen. Consulte [Parámetros de consulta de recopilación de datos](../validate/query-parameters.md) para obtener una lista completa de los parámetros de consulta de solicitudes de imagen y sus variables asociadas.
 
 Adobe identifica a los visitantes mediante una función AMP integrada y establece la cookie `adobe_amp_id`. Este ID de visitante es único para cualquier otro ID establecido por Adobe Analytics. Se cuenta un visitante único diferente para cada CDN desde la que un visitante recupera contenido, lo que puede aumentar el recuento de visitantes únicos. Se recomienda encarecidamente utilizar un grupo de informes independiente para las páginas de AMP debido a la forma en que AMP identifica a los visitantes únicos. El servicio de Adobe Experience Cloud ID no es compatible.
 

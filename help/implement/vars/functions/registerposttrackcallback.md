@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-Consulte [Gestión de respuestas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=es#handling-responses-from-events) en la documentación de Web SDK para obtener más información.
+Consulte [Gestión de respuestas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) en la documentación de Web SDK para obtener más información.
 
 ## Registro de devoluciones de llamada posterior al seguimiento con la extensión Adobe Analytics
 

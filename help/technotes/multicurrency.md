@@ -12,11 +12,11 @@ ht-degree: 16%
 
 # Compatibilidad con múltiples monedas
 
-Adobe ofrece varios niveles de conversión de divisas para que su organización pueda conseguir la divisa deseada en muchos informes. La conversión se produce en tres niveles:
+Adobe ofrece varios niveles de conversión de moneda para que su organización pueda lograr la moneda deseada en muchos informes. La conversión se produce en tres niveles:
 
 ## Nivel de página
 
-Puede usar la variable [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) para establecer la moneda deseada en cada página. Si la divisa de la página no coincide con la del grupo de informes de destino, Adobe realiza una conversión a la divisa del grupo de informes en función del tipo de cambio del día actual. Se registra la moneda convertida.
+Puede usar la variable [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) para establecer la moneda deseada en cada página. Si la moneda de la página no coincide con la del grupo de informes de destino, Adobe realiza una conversión de moneda a la del grupo de informes en función del tipo de cambio del día actual. Se registra la moneda convertida.
 
 ## Nivel del grupo de informes
 

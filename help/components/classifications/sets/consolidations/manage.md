@@ -12,7 +12,7 @@ ht-degree: 6%
 
 # Administrador de consolidaciones de conjuntos de clasificación
 
-Si tiene varios conjuntos de clasificaciones que contienen datos similares, puede consolidarlos en uno solo. Cuando se consolidan dos o más conjuntos de clasificaciones, Adobe genera un nuevo conjunto de clasificaciones que contiene todos los datos de clasificación de cada uno de ellos. Las consolidaciones son útiles cuando se han cargado datos en muchos grupos de informes o dimensiones que contienen los mismos datos de clasificación y se desea combinarlos en un solo flujo de trabajo. Debe tener acceso de administrador de productos para Adobe Analytics para ver el Administrador de consolidación de conjuntos de clasificaciones.
+Si tiene varios conjuntos de clasificaciones que contienen datos similares, puede consolidarlos en uno solo. Al consolidar dos o más conjuntos de clasificaciones, Adobe genera un nuevo conjunto de clasificaciones que contiene todos los datos de clasificación de cada conjunto de clasificaciones individual. Las consolidaciones son útiles cuando se han cargado datos en muchos grupos de informes o dimensiones que contienen los mismos datos de clasificación y se desea combinarlos en un solo flujo de trabajo. Debe tener acceso de administrador de productos para Adobe Analytics para ver el Administrador de consolidación de conjuntos de clasificaciones.
 
 **[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificación]** > **[!UICONTROL Consolidaciones]**
 

@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
 source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 41%
+source-wordcount: '500'
+ht-degree: 35%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 41%
 
 {{legacy-arb}}
 
-Puede utilizar funciones de Report Builder para acceder a la funcionalidad sin acceder a la interfaz de usuario del Report Builder.
+Puede utilizar funciones de Report Builder para acceder a la funcionalidad sin acceder a la interfaz de usuario de Report Builder.
 
-Por ejemplo, para actualizar automáticamente las solicitudes de Report Builder con filtros de entrada basados en datos recuperados en Excel desde otros orígenes, utilice la cadena RefreshRequestsInCellsRange(..) . Todas las llamadas son asíncronas y se devuelven inmediatamente y no esperan a ejecutarse por completo.
+Por ejemplo, para actualizar automáticamente las solicitudes de Report Builder con filtros de entrada basados en datos recuperados en Excel desde otros orígenes, utilice la función RefreshRequestsInCellsRange(..) de cadena. Todas las llamadas son asíncronas y se devuelven inmediatamente y no esperan a ejecutarse por completo.
 
 **Requisitos**
 
@@ -54,7 +54,7 @@ Puede asignar una macro a un control que haya creado y ese control puede ser una
 
 1. Establezca el parámetro de macro.
 1. Haga clic con el botón derecho en el control y seleccione **[!UICONTROL Asignar macro]**.
-1. Introduzca el nombre de la función del Report Builder (sin parámetros ni paréntesis).
+1. Introduzca el nombre de la función de Report Builder (sin parámetros ni paréntesis).
 
 ![Captura de pantalla que muestra la ventana Asignar macro.](assets/assign_macro.png)
 

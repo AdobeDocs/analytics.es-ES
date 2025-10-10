@@ -27,7 +27,7 @@ Adobe recomienda empezar con los conceptos más básicos sobre la obtención de 
 Una vez que conozca los componentes de [!UICONTROL Analysis Workspace], puede aprender a recrear la mayoría de los informes con los componentes adecuados.
 
 * [Creación de informes en tiempo real en Adobe Analytics](reports/realtime-reports.md)
-* [Creación de informes de audiencia en Adobe Analytics](reports/audience-reports.md)
+* [Creación de informes de público en Adobe Analytics](reports/audience-reports.md)
 * [Creación de informes de adquisición en Adobe Analytics](reports/acquisition-reports.md)
 * [Creación de informes de comportamiento en Adobe Analytics](reports/behavior-reports.md)
 * [Creación de informes de conversiones en Adobe Analytics](reports/conversions-reports.md)

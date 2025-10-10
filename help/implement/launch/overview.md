@@ -65,7 +65,7 @@ Una información general de alto nivel de las tareas de implementación:
 <tr>
 <td>6</td> 
 <td><b>Validación y publicación para producción</b>. Incruste el código para incluir la propiedad de etiquetas en las páginas del sitio web. A continuación, utilice elementos de datos, reglas, etc. para personalizar la implementación.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=es#embed-code">Código incrustado</a><br/><a href="./validate-publish-prod.md">Validar una implementación de desarrollo y publicar en producción</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Código incrustado</a><br/><a href="./validate-publish-prod.md">Validar una implementación de desarrollo y publicar en producción</a></td>
 </tr>
 
 </table>

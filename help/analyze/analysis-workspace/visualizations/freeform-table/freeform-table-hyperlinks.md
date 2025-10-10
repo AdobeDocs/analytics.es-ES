@@ -27,7 +27,7 @@ Esta funcionalidad es especialmente útil al crear hipervínculos para los sigui
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hipervínculos para la dimensión](https://video.tv.adobe.com/v/3445784?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hipervínculos para la dimensión](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

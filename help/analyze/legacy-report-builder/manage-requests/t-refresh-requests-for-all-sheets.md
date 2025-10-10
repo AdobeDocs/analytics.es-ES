@@ -25,6 +25,6 @@ Cuando se actualizan varias solicitudes, el sistema recopila y prioriza las soli
 Para actualizar las solicitudes de todas las hojas
 
 1. Haga clic en **[!UICONTROL Administrar]**.
-1. Active **[!UICONTROL Todas las hojas]**.
+1. Habilite **[!UICONTROL Todas las hojas]**.
 1. Haga clic en **[!UICONTROL Actualizar]**.
 1. Especifique un intervalo de fechas y luego haga clic en **[!UICONTROL Aceptar]**.

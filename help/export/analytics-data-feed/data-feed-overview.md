@@ -36,7 +36,7 @@ Los siguientes recursos le ayudan a comprender el flujo de trabajo básico de la
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegue por la interfaz de la fuente de datos](https://video.tv.adobe.com/v/3428561?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegue por la interfaz de la fuente de datos](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegue por la i
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Busque su ID de fuente de datos](https://video.tv.adobe.com/v/3418479?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Busque su ID de fuente de datos](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]

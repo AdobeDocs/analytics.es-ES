@@ -32,7 +32,7 @@ Cuando estos valores reservados van precedidos de una barra invertida, se envía
 | `\\n` | El valor “`\n`” se envió durante la recopilación de datos, omitido por Adobe. |
 | `\\` | El valor “`\`” se envió durante la recopilación de datos, omitido por Adobe. |
 
-Por ejemplo, un visitante del sitio usa la búsqueda interna y busca `"search\nstring"`. Rellene eVar 1 con `"search\nstring"` y envíe ese valor al Adobe. Adobe recibe esta visita y omite la nueva línea incluida en la cadena. El valor real colocado en los datos sin procesar es `"search\\nstring"`.
+Por ejemplo, un visitante del sitio usa la búsqueda interna y busca `"search\nstring"`. Rellene eVar1 con `"search\nstring"` y envíe ese valor a Adobe. Adobe recibe esta visita y omite la nueva línea incluida en la cadena. El valor real colocado en los datos sin procesar es `"search\\nstring"`.
 
 ## Caracteres especiales de las variables multivalor (events_list, products_list, mvvars)
 

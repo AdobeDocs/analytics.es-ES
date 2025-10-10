@@ -25,7 +25,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de Visitas en el orden previsto en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Visitas en el orden previsto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) para la versión de_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta la visualización de Visitas en el orden previsto en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Visitas en el orden previsto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) para la versión de_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 

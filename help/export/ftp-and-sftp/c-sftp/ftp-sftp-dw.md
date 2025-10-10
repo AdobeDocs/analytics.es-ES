@@ -13,7 +13,7 @@ ht-degree: 52%
 
 # Envío de solicitudes de Data Warehouse a los servidores SFTP
 
-El Adobe admite la exportación de solicitudes de Data Warehouse a servidores SFTP, tal como se describe en [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) en el artículo [Configuración de un destino de informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+Adobe admite la exportación de solicitudes de Data Warehouse a servidores SFTP, tal como se describe en [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) en el artículo [Configurar un destino de informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 
 Asegúrese de que las tareas siguientes se hayan completado:
 
@@ -25,7 +25,7 @@ Asegúrese de que las tareas siguientes se hayan completado:
 
 Para enviar satisfactoriamente una solicitud de Data Warehouse a través de SFTP:
 
-1. Complete los pasos que se describen en [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) en el artículo [Configuración del destino de un informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), incluida la descarga de la clave pública.
+1. Complete los pasos que se describen en [SFTP](/help/export/data-warehouse/create-request/dw-request-report-destinations.md#sftp) en el artículo [Configurar un destino de informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), incluida la descarga de la clave pública.
 1. Inicie sesión en el sitio SFTP con las mismas credenciales que se usan en la solicitud de Data Warehouse.
 1. En el directorio raíz, vaya a la carpeta denominada `.ssh` (si todavía no existe, créela) y coloque en ella el archivo `authorized_keys`.
 

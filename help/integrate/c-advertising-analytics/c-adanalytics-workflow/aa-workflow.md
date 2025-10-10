@@ -15,10 +15,10 @@ ht-degree: 41%
 El flujo de trabajo de configuración de Advertising Analytics consta de los siguientes pasos:
 
 <!--
->[!VIDEO](https://video.tv.adobe.com/v/39099/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23119/?quality=12)
 -->
 
-1. [Activación de los informes de Advertising Analytics por grupo de informes](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Activa los informes de [!UICONTROL Advertising Analytics] para grupos de informes activados por Experience Cloud.
+1. [Habilitación de los informes de Advertising Analytics por grupo de informes](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Habilita los informes de [!UICONTROL Advertising Analytics] para grupos de informes habilitados por Experience Cloud.
 2. [Configurar una cuenta de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Configúrela en Herramientas administrativas de Analytics.
-3. [Informar sobre los datos publicitarios en Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md). Los datos de búsqueda se obtienen de los motores de búsqueda alrededor de las 6:00 a. m. en la zona horaria del centro de datos de Adobe Analytics. Los datos del Adobe Advertising se recopilan y se insertan en el grupo de informes. A continuación, se convierten a la zona horaria del grupo de informes como parte del proceso de inserción de los datos en Analytics. Los informes están disponibles en Analysis Workspace (plantilla Rendimiento de búsqueda de pago), Report Builder y la API de informes de Analytics.
+3. [Informar sobre los datos publicitarios en Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md). Los datos de búsqueda se obtienen de los motores de búsqueda alrededor de las 6 a. m. (06:00) en la zona horaria del centro de datos de Adobe Analytics. Los datos de Adobe Advertising se recopilan y se insertan en el grupo de informes. A continuación, se convierten a la zona horaria del grupo de informes como parte del proceso de inserción de los datos en Analytics. Los informes están disponibles en Analysis Workspace (plantilla Rendimiento de búsqueda de pago), Report Builder y la API de informes de Analytics.
 4. [Administrar las cuentas publicitarias](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md). Puede comprobar el estado de la cuenta y editar / poner en pausa cuentas.

@@ -15,7 +15,7 @@ ht-degree: 43%
 
 Antes de poder asignar funciones en Adobe Analytics a cualquier usuario, este debe asignarse como primer administrador en Experience Cloud. El primer administrador puede aprovisionar a los usuarios de la organización con otras funciones clave.
 
-Un primer administrador es el punto de partida para permitir que el resto de la organización utilice cada solución de Experience Cloud, incluido Adobe Analytics.
+Un primer administrador es el punto de partida para permitir que el resto de la organización utilice cada solución de Experience Cloud, incluida Adobe Analytics.
 
 ## Proceso de aprovisionamiento para un primer administrador
 

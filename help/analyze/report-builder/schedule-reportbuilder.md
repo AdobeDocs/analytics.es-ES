@@ -19,7 +19,7 @@ ht-degree: 69%
 >
 >Además de programar libros para compartirlos por correo electrónico, como se describe en esta sección, puede programar libros para que se exporten a destinos en la nube, como se describe en [Programar libros para exportarlos a destinos en la nube](/help/analyze/report-builder/report-builder-export.md).
 
-Después de guardar un libro y completar el análisis, puede compartir fácilmente el libro con otros integrantes del equipo mediante la función de programación. La función Programación permite crear una programación que actualice automáticamente los datos del libro y envíe el archivo .xlsx del libro de Excel como datos adjuntos a la audiencia especificada en una fecha y hora específicas. La configuración de una programación proporciona a los destinatarios actualizaciones regulares de forma automática. También puede utilizar la función de programación para enviar el libro una vez sin programar actualizaciones automáticas.
+Después de guardar un libro y completar el análisis, puede compartir fácilmente el libro con otros integrantes del equipo mediante la función de programación. La función Programación permite crear una programación que actualice automáticamente los datos del libro y envíe el archivo .xlsx del libro de Excel como datos adjuntos al público especificado en una fecha y hora específicas. La configuración de una programación proporciona a los destinatarios actualizaciones regulares de forma automática. También puede utilizar la función de programación para enviar el libro una vez sin programar actualizaciones automáticas.
 
 Puede crear varias programaciones para un solo libro. Por ejemplo, puede enviar un libro a su equipo diariamente y enviarlo al administrador una vez a la semana creando dos programaciones diferentes.
 
@@ -28,7 +28,7 @@ La función Programación también permite configurar la protección con contras
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Programar libros](https://video.tv.adobe.com/v/3417503?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Programar libros](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,7 @@ Utilice el botón Programar del concentrador de Report Builder para crear rápid
 
 1. (Opcional) Introduzca un nombre de archivo.
 
-   El nombre de archivo del libro es el nombre predeterminado del libro, pero puede cambiarlo, si quiere. Si envía el mismo libro a varias audiencias y desea ponerle un nombre un poco más descriptivo para una audiencia determinada, puede cambiar el nombre.
+   El nombre de archivo del libro es el nombre predeterminado del libro, pero puede cambiarlo, si quiere. Si envía el mismo libro a varios públicos y desea ponerle un nombre un poco más descriptivo para un público determinado, puede cambiar el nombre.
 
 1. (Opcional) Seleccione **Adjuntar marca temporal al nombre del archivo**.
 
@@ -71,7 +71,7 @@ Utilice el botón Programar del concentrador de Report Builder para crear rápid
 
 1. Configure las opciones de programación para establecer la fecha y la hora en que desea que el libro se envíe por correo electrónico a los destinatarios.
 
-   Elija los intervalos de fecha y hora de inicio y fin. Puede ser la fecha de hoy o una fecha futura.
+   Elija los intervalos de fecha y hora de inicio y finalización. Puede ser la fecha de hoy o una fecha futura.
 
    Elija la **Frecuencia** en el menú desplegable. Puede establecer que la frecuencia sea horaria, diaria, semanal, mensual o anual en un día específico. Por ejemplo, puede configurar una programación para enviar el libro el primer domingo por la noche del mes de modo que los destinatarios tengan el correo electrónico en su bandeja de entrada el lunes por la mañana.
 
@@ -108,6 +108,6 @@ También puede enviar el libro solo una vez.
 
 1. Haga clic en **Enviar ahora**.
 
-## Administrar libros programados
+## Administrar libros de trabajo programados
 
 Para obtener información acerca de la administración de libros que ya están programados, vea [Administrar libros programados](/help/analyze/report-builder/manage-schedules-reportbuilder.md).

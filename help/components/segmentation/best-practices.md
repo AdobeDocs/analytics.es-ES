@@ -16,7 +16,7 @@ Los segmentos complejos suelen ser necesarios para obtener los datos deseados. S
 
 ## Usar solamente el operador `Contains` como último recurso
 
-El operador [**[!UICONTROL Contains &#x200B;]**](/help/components/segmentation/seg-reference/seg-operators.md) es una de las características de segmentación que requiere más procesamiento, ya que el operador debe analizar todo el contenido de cada valor. Considere la posibilidad de utilizar otros operadores, como&#x200B;**[!UICONTROL &#x200B; Comienza con &#x200B;]**&#x200B;o&#x200B;**[!UICONTROL &#x200B; Finaliza con &#x200B;]**, si los valores deseados se encuentran al principio o al final de una cadena.
+El operador [**[!UICONTROL Contains ]**](/help/components/segmentation/seg-reference/seg-operators.md) es una de las características de segmentación que requiere más procesamiento, ya que el operador debe analizar todo el contenido de cada valor. Considere la posibilidad de utilizar otros operadores, como**[!UICONTROL  Comienza con ]**o**[!UICONTROL  Finaliza con ]**, si los valores deseados se encuentran al principio o al final de una cadena.
 
 Si el operador **[!UICONTROL Contains]** de un segmento devuelve un gran número de resultados, el informe suele agotar el tiempo de espera. Por ejemplo, si creó un segmento donde **[!UICONTROL Referente]** **[!UICONTROL es igual a]** `"."`, el segmento busca a través del contenido de cada valor. Considere utilizar el operador **[!UICONTROL Exists]** en su lugar.
 

@@ -24,7 +24,7 @@ La arquitectura back-end publicada con conjuntos de clasificación contiene vari
 
 * Reducción del tiempo de procesamiento (72 horas → 24 horas)
 * Una IU rediseñada para administrar clasificaciones
-* La opción de usar datos de clasificación en Adobe Experience Platform en el futuro mediante el [Conector de origen de Adobe Analytics para datos de clasificación](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/classifications)
+* La opción de usar datos de clasificación en Adobe Experience Platform en el futuro mediante el [Conector de origen de Adobe Analytics para datos de clasificación](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)
 
 La arquitectura back-end publicada con conjuntos de clasificación también contiene varios cambios importantes:
 

@@ -37,7 +37,7 @@ Esta tabla enumera todos los elementos de permisos en Herramientas de grupos de 
 | [!UICONTROL Medidas predeterminadas] | Otorga acceso a Configuración de grupos de informes individuales > Métricas predeterminadas en el Administrador de grupos de informes. |
 | [!UICONTROL Excluir por dirección IP] | Otorga acceso a Administración > Excluir por dirección IP en la navegación superior de Analytics. |
 | [!UICONTROL Métodos de búsqueda] | Otorga acceso a Conversión > Métodos de búsqueda en el Administrador de grupos de informes. |
-| [!UICONTROL Variables de lista &#x200B;] | Otorga acceso a Conversión > Variables de lista en el Administrador de grupos de informes. |
+| [!UICONTROL Variables de lista ] | Otorga acceso a Conversión > Variables de lista en el Administrador de grupos de informes. |
 | [!UICONTROL Personalización de menús] | Otorga acceso a General > Personalizar menús en el Administrador de grupos de informes. |
 | [!UICONTROL Mis informes recomendados] | No se usa. |
 | [!UICONTROL Búsqueda de pago] | Otorga acceso a General > Detección de búsqueda de pago en el Administrador de grupos de informes. |
@@ -58,7 +58,7 @@ Esta tabla enumera todos los elementos de permisos en Herramientas de grupos de 
 | [!UICONTROL Eventos de éxito] | Otorga acceso a Conversión > Eventos de éxito en el Administrador de grupos de informes. |
 | [!UICONTROL Administración del tráfico] | No se usa. |
 | [!UICONTROL Variables de tráfico] | Otorga acceso a Tráfico > Variables de tráfico en el Administrador de grupos de informes. |
-| [!UICONTROL Visitante único] | Otorga acceso a Conversión > Variable única de visitante. No suele usarse en implementaciones modernas. |
+| [!UICONTROL Visitante único] | Otorga acceso a Conversión > Variable de visitante único. No suele usarse en implementaciones modernas. |
 | [!UICONTROL Filtros de dirección URL] | Otorga acceso a General > Filtros URL internos en el Administrador de grupos de informes. |
 
 {style="table-layout:auto"}

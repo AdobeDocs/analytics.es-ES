@@ -23,7 +23,7 @@ En este artículo se describe un flujo de trabajo sugerido para crear segmentos 
 | 4 | [Etiquetar segmentos](/help/components/segmentation/segmentation-workflow/seg-tag.md) | Etiquete segmentos para que sea más fácil organizar y compartir. Consulte cómo planificar y asignar etiquetas para la organización y las búsquedas simples y avanzadas. |
 | 5 | [Aprobar segmentos](/help/components/segmentation/segmentation-workflow/seg-approve.md) | Apruebe segmentos para convertirlos en canónicos. |
 | 6 | [Usar segmentos](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | Puede aplicar segmentos de los componentes de segmentos directamente a un informe. |
-| 7 | [Compartir segmentos](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Comparta sus segmentos con la audiencia deseada en otras herramientas de Analytics, así como en Adobe Target y Adobe Experience Cloud. |
+| 7 | [Compartir segmentos](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Comparta sus segmentos con el público deseado en otras herramientas de Analytics, así como en Adobe Target y Adobe Experience Cloud. |
 | 8 | [Filtrar segmentos](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | Filtre por etiquetas, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados). |
 | 9 | [Marcar segmento como favorito](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | Marcar los segmentos como favoritos es otra manera de organizarlos para que su uso sea más sencillo. |
 

@@ -1,19 +1,19 @@
 ---
-description: Pasos administrativos para activar Informes de AEM Assets en Analytics.
+description: Pasos administrativos para habilitar Informes de AEM Assets en Analytics.
 title: Creación de informes sobre AEM Assets en Adobe Analytics
 feature: Report Suite Settings
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
 role: Admin
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '108'
+ht-degree: 100%
 
 ---
 
 # Informes de AEM Assets
 
-Pasos administrativos para activar Informes de AEM Assets en Analytics.
+Pasos administrativos para habilitar Informes de AEM Assets en Analytics.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **`<select report suite>`** > **[!UICONTROL Editar configuración]** > **[!UICONTROL AEM]** > **[!UICONTROL Informes de AEM Assets]**
 

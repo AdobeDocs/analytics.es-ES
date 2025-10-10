@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre la Data Warehouse y cómo filtrar los datos, lo que le permite crear y ejecutar informes personalizados.
+description: Obtenga información sobre Data Warehouse y cómo filtrar los datos, lo que le permite crear y ejecutar informes personalizados.
 title: Información general de Data Warehouse
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
@@ -35,7 +35,7 @@ El Data Warehouse comprime automáticamente cualquier archivo que supere 1 MB de
 
 ## Acceso
 
-Adobe permite el Data Warehouse para los usuarios de nivel de administrador para grupos de informes específicos. (Se puede habilitar para grupos de informes globales y secundarios, pero no para grupos de informes resumidos). El administrador puede crear un grupo que tenga acceso a la Data Warehouse y, a continuación, asociar a los usuarios que no tengan nivel de administrador a dicho grupo.
+Adobe permite el Data Warehouse para los usuarios de nivel de administrador para grupos de informes específicos. (Se puede habilitar para grupos de informes globales y secundarios, pero no para grupos de informes resumidos). El administrador puede crear un grupo que tenga acceso a Data Warehouse y, a continuación, asociar a los usuarios que no tengan nivel de administrador a dicho grupo.
 
 Consulte [Administración de permisos de Data Warehouse](/help/export/data-warehouse/t-dw-group.md).
 

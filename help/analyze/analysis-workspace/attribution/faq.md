@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 85%
+source-wordcount: '1192'
+ht-degree: 72%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 85%
 
 Aquí encontrará respuestas a las preguntas más frecuentes acerca de la atribución.
 
-+++##¿Cuál es el elemento de línea **[!UICONTROL None]** al utilizar la atribución?
++++## ¿Cuál es el elemento de línea **[!UICONTROL None]** al utilizar la atribución?
 
 El elemento de línea “Ninguno” es un captador global que representa todas las conversiones que se produjeron sin ningún punto de contacto dentro de la ventana retrospectiva. Para reducir el número de conversiones atribuidas al elemento de línea &quot;Ninguno&quot;, intente utilizar una ventana retrospectiva personalizada con un período de retrospectividad más largo.
 
 +++
 
 
-+++## ¿Por qué a veces veo fechas fuera de la ventana de creación de informes al utilizar modelos de atribución?
++++## ¿Por qué a veces veo fechas fuera de la ventana de informes al utilizar modelos de atribución?
 
 Algunas métricas basadas en visitas, como [Entradas](/help/components/metrics/entries.md) o [Tasa de salida hacia otro sitio](/help/components/metrics/bounce-rate.md), pueden atribuir datos a un período antes del intervalo de fechas de inicio de la ventana de creación de informes. Esta situación se debe a que los modelos de atribución utilizan una ventana retrospectiva, que determina hasta qué punto la atribución retroactiva debería dar crédito por las métricas. El escenario más común es cuando las visitas se extienden más allá de la medianoche. Por ejemplo:
 
@@ -37,7 +37,7 @@ La tasa de salida hacia otro sitio siempre muestra 0% el 7 de septiembre en este
 Veamos otro ejemplo similar. La única diferencia entre el ejemplo siguiente y el ejemplo anterior son las fechas:
 
 1. Un usuario visita su página principal a las 11:55 p.m. del 31 de agosto.
-1. Visitan varias páginas, la última de las cuales ocurrió a las 12:05 a.m. del 1 de septiembre.
+1. Visitan varias páginas, la última de las cuales ocurrió a las 12:05 a. m. del 1 de septiembre.
 1. Una semana después, se ejecuta un informe de tendencias diario con el intervalo de fechas del 1 de septiembre al 7 de septiembre.
 
 En este ejemplo, las entradas y la tasa de salida hacia otro sitio no mostraban datos del 31 de agosto. Tanto la ventana retroactiva como la ventana de creación de informes comienzan el 1 de septiembre, por lo que los datos no se pueden atribuir a partir del 31 de agosto.
@@ -53,7 +53,7 @@ The choice of attribution lookback depends on your use case. If conversions typi
 +++
 -->
 
-+++## ¿Cómo se comparan las props y las eVars cuando se utiliza Attribution?
++++## ¿Cómo se comparan las props y las eVars al utilizar la atribución?
 
 La atribución se vuelve a calcular durante el tiempo de ejecución del informe, por lo que no hay diferencia entre una prop o eVar (o cualquier otra dimensión) en cuanto al modelado de atribución. Las props pueden persistir con cualquier ventana retrospectiva o modelo de atribución y se omiten las opciones de asignación/caducidad de eVar.
 
@@ -97,14 +97,14 @@ El panel de atribución admite todas las dimensiones. Las métricas no admitidas
 +++
 
 
-+++## ¿Funciona la atribución con clasificaciones?
++++## ¿Funciona la atribución con las clasificaciones?
 
 Sí, las clasificaciones son compatibles.
 
 +++
 
 
-+++## ¿Funciona la atribución con fuentes de datos?
++++## ¿La atribución funciona con fuentes de datos?
 
 Sí, la mayoría de las fuentes de datos son compatibles. Attribution no es compatible con fuentes de datos de resumen porque estas fuentes de datos no están vinculadas a un identificador de visitante de Analytics. 
 
@@ -119,7 +119,7 @@ Debido a que los registros no se ordenan secuencialmente, los valores esperados 
 +++
 
 
-+++## ¿Se puede usar la atribución con la integración de Advertising Analytics?
++++## ¿Funciona la atribución con la integración de Advertising Analytics?
 
 Las dimensiones de metadatos, como el tipo de coincidencia y la palabra clave, se pueden usar con la atribución. Sin embargo, las métricas (como impresiones, coste, clics, posición promedio y puntuación de calidad promedio) utilizan fuentes de datos de resumen y, por lo tanto, son incompatibles.
 

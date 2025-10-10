@@ -18,7 +18,7 @@ Un flujo interdimensional le permite examinar las rutas del usuario entre divers
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flujos interdimensionales](https://video.tv.adobe.com/v/327473?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flujos interdimensionales](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

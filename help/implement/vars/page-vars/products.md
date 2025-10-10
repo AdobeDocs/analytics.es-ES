@@ -13,7 +13,7 @@ ht-degree: 67%
 
 # productos
 
-La variable `products` rastrea productos y propiedades vinculados a ellos. Esta variable se configura generalmente en páginas de productos individuales, páginas del carro de compras y páginas de confirmación de compra. Es una variable de varios valores, lo que significa que puede enviar varios productos en la misma visita y Adobe analiza el valor en elementos de dimensión independientes.
+La variable `products` rastrea productos y propiedades vinculados a ellos. Esta variable se configura generalmente en páginas individuales de producto, páginas del carro de compras y páginas de confirmación de compra. Es una variable de varios valores, lo que significa que puede enviar varios productos en la misma visita y Adobe analiza el valor en elementos de dimensión independientes.
 
 >[!NOTE]
 >

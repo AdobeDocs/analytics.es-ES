@@ -2,7 +2,8 @@
 description: Formatos de archivo admitidos por los conjuntos de clasificaciones
 title: Formatos de archivo del conjunto de clasificaciones
 feature: Classifications
-source-git-commit: 2d9eb9179ace40a8d333883cea78dd67329078ab
+exl-id: f3d429be-99d5-449e-952e-56043b109411
+source-git-commit: c642664ecca24d9fc555944fb2b449f30eac879d
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 1%

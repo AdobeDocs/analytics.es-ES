@@ -45,7 +45,7 @@ El informe de desglose de contenido permite observar el tráfico de la página s
 
 ## Contenido del sitio: Páginas de destino
 
-El informe de páginas de aterrizaje muestra las páginas de aterrizaje más visitadas del sitio. Las páginas de aterrizaje están disponibles en Analysis Workspace como dimensión de **Página de entrada**.
+El informe de páginas de destino muestra las páginas de destino más visitadas del sitio. Las páginas de destino están disponibles en Analysis Workspace como dimensión de **Página de entrada**.
 
 1. En el menú Componentes, localice la dimensión **Página de entrada** y arrástrela hasta el área “Colocar una dimensión aquí” de la tabla de forma libre.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.

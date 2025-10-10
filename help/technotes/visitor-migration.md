@@ -16,7 +16,7 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->Si ya ha implementado el Servicio de ID de visitante de Experience Cloud, el Período de gracia no es aplicable en su caso y no debe habilitarse.
+>Si ya ha implementado el Servicio de ID de visitante de Experience Cloud, el periodo de gracia no es aplicable en su caso y no debe habilitarse.
 
 La migración de visitantes es un proceso en el que las cookies de ID de visitante se migran de un dominio a otro.
 

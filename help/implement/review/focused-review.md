@@ -26,7 +26,7 @@ Recuerde que las actualizaciones de código que se realizan con el tiempo pueden
 * Cree paneles para ver las vistas de tendencias por hora de estas métricas y variables esenciales (o configure [alertas](/help/components/alerts/alerts-overview.md) para cada métrica). A continuación, monitorícelas durante uno o dos días para asegurarse de que obtiene los datos esperados y de que los datos son correctos. Busque puntos de inflexión. Prepárese para solucionar todos los posibles problemas críticos de inmediato. Si encuentra alguna discrepancia, consulte la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar el motivo.
 * Vuelva a ejecutar el [panel de control de mantenimiento de Analytics](https://express.adobe.com/page/tnNQGNlfzta3b/) para monitorizar las tendencias generales de las métricas y variables de KPI.
 
-*Para obtener más información sobre cómo asegurarse de que las métricas y variables funcionan correctamente, [lea estas sugerencias](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608?profile.language=es) de la campeona de Adobe Analytics, Sarah Owen.*
+*Para obtener más información sobre cómo asegurarse de que las métricas y variables funcionan correctamente, [lea estas sugerencias](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) de la campeona de Adobe Analytics, Sarah Owen.*
 
 ## &#x200B;3. Examine a fondo los datos de la sección actualizada del sitio
 
@@ -47,7 +47,7 @@ Evalúe la situación y trace un plan para solucionar los problemas de los datos
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Revisión de la implementación](https://video.tv.adobe.com/v/3440172?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Revisión de la implementación](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

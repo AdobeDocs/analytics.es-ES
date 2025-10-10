@@ -15,4 +15,4 @@ ht-degree: 63%
 
 Adobe no puede restaurar ningún dato que se haya eliminado de una cuenta de FTP.
 
-Si se ha deshabilitado una cuenta de FTP que pretendía usar, póngase en contacto con el equipo de cuenta de Adobe, que puede discutir otras opciones con usted.
+Si se ha deshabilitado una cuenta de FTP que tenía intención de usar, póngase en contacto con el equipo de cuenta de Adobe, que puede discutir otras opciones con usted.

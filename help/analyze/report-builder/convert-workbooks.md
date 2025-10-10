@@ -1,5 +1,5 @@
 ---
-title: Cómo convertir los libros de Report Builder heredados en bloques de datos
+title: Cómo convertir los libros heredados de Report Builder en bloques de datos
 description: Describe cómo convertir las solicitudes heredadas en bloques de datos
 role: User
 feature: Report Builder
@@ -9,11 +9,11 @@ exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# Convertir libros de Report Builder heredados en bloques de datos
+# Conversión de libros Report Builder heredados en bloques de datos
 
 Como parte del cambio a una nueva tecnología de Report Builder, puede convertir rápidamente sus libros heredados actuales en libros basados en Javascript.
 
@@ -24,19 +24,19 @@ Como parte del cambio a una nueva tecnología de Report Builder, puede convertir
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convertir libros](https://video.tv.adobe.com/v/3446185?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convertir libros](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 
-1. Configurar el nuevo Report Builder por [siguiendo estas instrucciones](/help/analyze/report-builder/report-builder-setup.md).
+1. Configure el nuevo Report Builder al [siguiendo estas instrucciones](/help/analyze/report-builder/report-builder-setup.md).
 
 1. Abra Excel y haga clic en el icono Adobe Report Builder en la parte superior derecha.
 
-1. Haga clic en **[!UICONTROL Iniciar sesión]** e inicie sesión en el Report Builder.
+1. Haga clic en **[!UICONTROL Iniciar sesión]** e inicie sesión en Report Builder.
 
-1. El complemento Report Builder detecta si este libro contiene [solicitudes de Report Builder heredadas](/help/analyze/legacy-report-builder/home.md).
+1. El complemento de Report Builder detecta si este libro contiene [solicitudes heredadas de Report Builder](/help/analyze/legacy-report-builder/home.md).
 
    ![solicitud de actualización del libro](assets/upgrade_workbook.png)
 
@@ -62,17 +62,17 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convertir libros
 Ahora puede [administrar el bloque de datos](/help/analyze/report-builder/manage-reportbuilder.md).
 
 
-## Funciones de Report Builder heredadas no admitidas en el nuevo Report Builder {#unsupported}
+## Las funciones heredadas de Report Builder no son compatibles con el nuevo Report Builder {#unsupported}
 
-Al comparar la funcionalidad de un Report Builder heredado con la del nuevo complemento Report Builder, algunas funciones heredadas ya no están disponibles:
+Al comparar la funcionalidad del Report Builder heredado con el nuevo complemento de Report Builder, algunas de las funcionalidades heredadas ya no están disponibles:
 
 - Solicitudes en tiempo real
 
-- Informes de ruta/abandonos
+- Informes de rutas/visitas en el orden previsto
 
 - Opción de FTP para informes programados
 
-- Métricas de visitantes. Las siguientes métricas se convertirán en &quot;visitantes únicos&quot;, aunque el resultado del informe puede no ser una coincidencia exacta: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` y `visitorsyearly`. Esto también se aplica a `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` y `mobilevisitorsyearly`.
+- Métricas de visitantes. Las siguientes métricas se convierten en “visitantes únicos”, aunque el resultado del sistema de informe puede no generar una coincidencia exacta: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` y `visitorsyearly`. Esto también se aplica a `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` y `mobilevisitorsyearly`.
 
 ## Programar un libro convertido {#schedule}
 

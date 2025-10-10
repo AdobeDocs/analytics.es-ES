@@ -5,8 +5,8 @@ feature: Dimensions
 exl-id: 63f13083-321f-4fd8-9352-e413e1ebf168
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 91%
+source-wordcount: '146'
+ht-degree: 76%
 
 ---
 
@@ -20,4 +20,4 @@ Esta dimensión funciona de forma predeterminada para todas las implementaciones
 
 ## Elementos de dimensión
 
-Los elementos de dimensión incluyen un minuto determinado dentro del intervalo de fechas de un informe junto con su fecha. Tiene el formato `HH:MM YYYY-MM-DD`. Los elementos de dimensión que comienzan por `00:00` equivalen a medianoche de ese día, mientras que los valores que comienzan por `23:59` equivalen a las 11:59 PM de ese día.
+Los elementos de dimensión incluyen un minuto determinado dentro del intervalo de fechas de un informe junto con su fecha. Tiene el formato `HH:MM YYYY-MM-DD`. Los elementos de Dimension que comienzan por `00:00` equivalen a medianoche de ese día, mientras que los valores que comienzan por `23:59` equivalen a las 11:59 PM de ese día.

@@ -68,7 +68,7 @@ Adobe incluye muchas funciones en Analysis Workspace, en el menú contextual que
 Si se maneja bien con Analysis Workspace y desea volver a crear un informe específico que normalmente se ve en Google Analytics, ubique el informe en su página correspondiente:
 
 * [Informes en tiempo real](realtime-reports.md)
-* [Informes de audiencia](audience-reports.md)
+* [Informes de público](audience-reports.md)
 * [Informes de adquisición](acquisition-reports.md)
 * [Informes de comportamiento](behavior-reports.md)
 * [Informes de conversión](conversions-reports.md)

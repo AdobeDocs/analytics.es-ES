@@ -7,7 +7,7 @@ exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
 source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ Las secciones siguientes describen las actividades que puede realizar al adminis
 
 ## Ver solicitudes
 
-De manera predeterminada, solo puede ver las solicitudes que cree, a menos que los usuarios hayan elegido hacer sus solicitudes visibles para otros miembros de la organización (como se describe en [configuración general de las solicitudes de Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md)). Los administradores del sistema pueden ver todas las solicitudes.
+De manera predeterminada, solo puede ver las solicitudes que cree, a menos que los usuarios hayan elegido hacer sus solicitudes visibles para otros miembros de la organización (como se describe en [Configuración general de las solicitudes de Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md)). Los administradores del sistema pueden ver todas las solicitudes.
 
 Para ver solicitudes de Data Warehouse:
 
@@ -92,7 +92,7 @@ Puede ver el historial de cualquier solicitud de Data Warehouse que haya realiza
    | [!UICONTROL **Estado**] | El estado del envío del informe. Los estados posibles son:<ul><li>[!UICONTROL **Creado**]: el informe se creó, pero aún no se ha procesado.</li><li>[!UICONTROL **Pendiente**]: el informe está esperando a procesarse.</li><li>[!UICONTROL **Procesando**]: el informe se está procesando en este momento.</li><li>[!UICONTROL **Completado**]: el informe se completó y ya está disponible.</li><li>[!UICONTROL **Programado**]: el informe está programado pero aún no se ha iniciado.</li><li>[!UICONTROL **Cancelado**]: el usuario canceló el informe.</li><li>[!UICONTROL **Error - Procesando**:] El informe encontró un error y no se pudo procesar.</li><li>[!UICONTROL **Error - Error al enviar**]: el informe se generó correctamente pero no se pudo entregar. Comprueba la [configuración de tu destino](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) y vuelve a enviar el informe.</li></ul>. |
    | [!UICONTROL **De**] | La fecha de inicio del lapso de tiempo general incluido en el informe.<p>Esto se muestra en la zona horaria del grupo de informes.</p> |
    | [!UICONTROL **Hasta**] | La fecha de finalización del lapso de tiempo general incluido en el informe. <p>Esto se muestra en la zona horaria del grupo de informes.</p> |
-   | [!UICONTROL **ID de solicitud heredada**] | El ID que se utiliza para identificar un informe en la interfaz de Data Warehouse heredada. Este ID puede ser necesario al ponerse en contacto con el Servicio de atención al cliente de Adobe. |
+   | [!UICONTROL **ID de solicitud heredada**] | El ID que se utiliza para identificar un informe en la interfaz heredada de Data Warehouse. Este ID puede ser necesario al ponerse en contacto con el Servicio de atención al cliente de Adobe. |
    | [!UICONTROL **Id. de informe**] | Identificador que se utiliza para identificar un informe en la interfaz de Data Warehouse actual. Este ID puede ser necesario al ponerse en contacto con el Servicio de atención al cliente de Adobe. |
 
 
@@ -117,7 +117,7 @@ Al copiar una solicitud, todas las opciones de configuración se copian de la so
 
 1. Seleccione [!UICONTROL **Copiar**].
 
-   Aparece la página Copiar solicitud de Data Warehouse. Todas las opciones de configuración se copian de la solicitud original.
+   Se muestra la página Copiar solicitud de Data Warehouse. Todas las opciones de configuración se copian de la solicitud original.
 
 1. Actualice las opciones de configuración asociadas con la solicitud.
 
@@ -145,7 +145,7 @@ Para cancelar una solicitud programada:
 
 Puede configurar la información que se muestra para cada solicitud añadiendo o eliminando columnas.
 
-1. Seleccione el icono **Configure columns** en la parte superior derecha de la página de Data Warehouse.
+1. Seleccione el icono **Configure columns** en la esquina superior derecha de la página de Data Warehouse.
 
    ![Configurar columnas](assets/dw-configure-columns.png)
 
@@ -173,6 +173,6 @@ Puede configurar la información que se muestra para cada solicitud añadiendo o
 
 ## Búsqueda de solicitudes
 
-1. En el campo de búsqueda situado en la parte superior de la página de Data Warehouse, especifique el nombre de la solicitud que desea ver.
+1. En el campo de búsqueda que hay en la parte superior de la página de Data Warehouse, especifique el nombre de la solicitud que desea ver.
 
    Las solicitudes se filtran a medida que escribe.

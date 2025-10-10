@@ -37,7 +37,7 @@ En este ejemplo se muestra el informe de visitas en el orden previsto de página
 1. Decida si desea seleccionar de un rango de celdas o de una lista.
 1. Si selecciona de una lista, haga clic en **[!UICONTROL Añadir]** para seleccionar los puntos de comprobación que desea añadir en la ruta de visitas en el orden previsto. Puede definir entre 3 y 8 puntos de comprobación. (Busque los elementos disponibles haciendo clic en **[!UICONTROL Más]**).
 
-   Para obtener más información sobre cómo perfeccionar el filtro, consulte [Dimension de filtros](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md).
+   Para obtener más información sobre cómo perfeccionar el filtro, vea [Dimensiones de filtro](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md).
 
 1. Mueva **[!UICONTROL Elementos disponibles]** de la columna izquierda a la derecha, para ello selecciónelos y haga clic en la flecha naranja.
 1. Haga clic en **[!UICONTROL Aceptar]** tres veces y, a continuación, haga clic en **[!UICONTROL Finalizar]**.

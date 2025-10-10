@@ -8,11 +8,11 @@ exl-id: b3bdc07e-5c2d-4be3-86c9-b4b7380be0f6
 source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
-# Expresiones de fecha personalizadas
+# Expresiones de fechas personalizadas
 
 {{legacy-arb}}
 
@@ -20,7 +20,7 @@ Se puede especificar un intervalo de fechas complejo mediante la creación de un
 
 Cuando genere expresiones, consulte un calendario para especificar correctamente el número de semanas y días. Excel cuenta con distintas funciones incorporadas que permiten calcular el número de días, días laborables, meses y años entre fechas. Estas funciones se pueden utilizar en fórmulas para calcular otros intervalos como, por ejemplo, semanas y trimestres.
 
-**Para activar expresiones personalizadas**
+**Para habilitar expresiones personalizadas**
 
 El siguiente ejemplo muestra cómo habilitar una expresión personalizada para **[!UICONTROL Fechas móviles]**.
 

@@ -1,18 +1,18 @@
 ---
-title: Informes de audiencia en Adobe Analytics
-description: Obtenga información sobre cómo crear informes basados en audiencias mediante Analysis Workspace.
+title: Informes de público en Adobe Analytics
+description: Obtenga información sobre cómo crear informes basados en públicos mediante Analysis Workspace.
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1720'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
-# Informes de audiencia
+# Informes de público
 
-Los informes de audiencia muestran información sobre los tipos de usuarios que visitan el sitio.
+Los informes de público muestran información sobre los tipos de usuarios que visitan el sitio.
 
 En esta página se da por hecho que el usuario tiene conocimientos básicos sobre el uso de Analysis Workspace. Consulte [Creación de un informe básico en Analysis Workspace para usuarios de Google Analytics](create-report.md) si todavía no está familiarizado con la herramienta en Adobe Analytics.
 
@@ -44,9 +44,9 @@ Para crear una tabla de cohorte:
 
 Consulte [Análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) en la guía del usuario de Analysis Workspace para obtener más información sobre las personalizaciones adicionales de la visualización de cohorte.
 
-## Audiencias
+## Públicos
 
-El informe Audiencias en Google Analytics necesita la configuración de audiencias. Las audiencias también se deben configurar en Adobe a través de Adobe Audience Manager. Consulte la guía del usuario de Adobe Audience Manager para obtener más información.
+El informe Públicos en Google Analytics necesita la configuración de públicos. Las audiencias también se deben configurar en Adobe a través de Adobe Audience Manager. Consulte la guía del usuario de Adobe Audience Manager para obtener más información.
 
 ## Explorador de usuarios
 
@@ -57,7 +57,7 @@ El informe Explorador de usuarios permite a un analista ver visitas individuales
 
 ## Informes demográficos y de intereses
 
-Los datos demográficos y de intereses proporcionan información sobre la edad, el sexo y los intereses de los usuarios del sitio. Google recopila esos datos mediante sus capacidades de seguimiento entre sitios.
+Los datos demográficos y de intereses proporcionan información sobre la edad, el género y los intereses de los usuarios del sitio. Google recopila esos datos mediante sus capacidades de seguimiento entre sitios.
 
 Adobe no recopila automáticamente los datos demográficos y de intereses. Sin embargo, si su organización obtiene estos datos, puede utilizar atributos del cliente, una función de Adobe Experience Cloud Platform. Permite controlar la organización de los datos por atributos, y no se limita solo a la demografía o a los intereses.
 

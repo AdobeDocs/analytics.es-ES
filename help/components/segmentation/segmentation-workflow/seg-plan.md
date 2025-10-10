@@ -16,7 +16,7 @@ Describe los pasos y las prácticas recomendadas que deben seguirse para planifi
 
 El hecho de dedicar un cierto tiempo a la planificación de los segmentos aumenta las probabilidades de que sean útiles para su organización y de que se mantenga bajo control el número de segmentos.
 
-1. Tome en consideración la **audiencia**: ¿quién lo consumirá? ¿Con quién lo compartirá? ¿Qué grupos de personas utilizarán este segmento y, por lo tanto, cómo debe etiquetarlo? Esto también conlleva la necesidad de describir adecuadamente el segmento. Como mínimo, la descripción debe responder a las siguientes preguntas:
+1. Tome en consideración el **público**: ¿quién lo consumirá? ¿Con quién lo compartirá? ¿Qué grupos de personas utilizarán este segmento y, por lo tanto, cómo debe etiquetarlo? Esto también conlleva la necesidad de describir adecuadamente el segmento. Como mínimo, la descripción debe responder a las siguientes preguntas:
 
    * ¿Para qué sirve este segmento?
    * ¿Cuándo debo utilizar este segmento?

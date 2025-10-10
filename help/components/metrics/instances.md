@@ -18,9 +18,9 @@ La métrica [Instancias](overview.md) muestra el número de veces que una dimens
 
 De todas las visitas individuales de un grupo de informes, solo incluye las visitas que establecen explícitamente un elemento de dimensión en la solicitud de imagen. Algunas dimensiones, como las [eVars](../dimensions/evar.md), persisten más allá de la visita en la que están configuradas. Las métricas como [Vistas de página](page-views.md) y [Ocurrencias](occurrences.md) cuentan tanto los valores iniciales como los persistentes. Esta métrica no cuenta los valores persistentes.
 
-Por ejemplo, un visitante llega a su sitio y utiliza la búsqueda interna. Rastrea la búsqueda interna en eVar1. Después de usar la búsqueda interna una vez, visitan cinco páginas más antes de irse.
+Por ejemplo, un visitante llega a su sitio y utiliza la búsqueda interna. La búsqueda interna se rastrea en eVar1. Después de usar la búsqueda interna una vez, visitan cinco páginas más antes de irse.
 
-Si viera un informe en Workspace, vería una instancia de eVar1 y seis repeticiones. Una instancia cuenta en la página de resultados de búsqueda, mientras que la métrica ocurrencias cuenta el valor inicial y los valores persistentes posteriores.
+Si viera un informe en Workspace, vería una instancia de eVar1 y seis ocurrencias. Una instancia cuenta en la página de resultados de búsqueda, mientras que la métrica ocurrencias cuenta el valor inicial y los valores persistentes posteriores.
 
 ## Comparar con métricas similares
 

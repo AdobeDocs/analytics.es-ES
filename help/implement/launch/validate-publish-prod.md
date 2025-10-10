@@ -21,7 +21,7 @@ Una vez que la biblioteca de etiquetas se haya puesto en producción, su organiz
 
 ## Valide la implementación de desarrollo con Experience Cloud Debugger
 
-El depurador de Experience Cloud es una extensión que muestra todas las etiquetas de Experience Cloud presentes en una página.
+Experience Cloud Debugger es una extensión que muestra todas las etiquetas de Experience Cloud presentes en una página.
 
 1. Instale la extensión para [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) o Firefox.
 2. Vaya al sitio web de desarrollo en el que haya implementado etiquetas.
@@ -39,7 +39,7 @@ Una vez que haya validado que está viendo los datos, puede insertar la implemen
 1. Vuelva a hacer clic en la lista desplegable de la biblioteca (ahora en la columna Enviados) y seleccione **[!UICONTROL Generar para ensayo]**.
 1. Después de unos momentos, la luz amarilla de color de la biblioteca se vuelve verde, lo que indica que la compilación se ha realizado correctamente.
 1. Vuelva a hacer clic en la lista desplegable de la biblioteca y seleccione **[!UICONTROL Aprobar para publicación]**.
-1. Vuelva a hacer clic en la lista desplegable de la biblioteca (ahora en la columna [!UICONTROL Aprobado]) y seleccione **[!UICONTROL Generar y Publish en producción]**.
+1. Vuelva a hacer clic en la lista desplegable de la biblioteca (ahora en la columna [!UICONTROL Aprobado]) y seleccione **[!UICONTROL Generar y publicar en producción]**.
 1. Vaya a la pestaña Entornos y haga clic en **[!UICONTROL Entorno de producción]**.
 1. Copie el código de instalación de producción y suministre este código a los propietarios del sitio web. Solicite la implementación de este código en el entorno de producción del sitio.
 
@@ -59,7 +59,7 @@ En el sitio, abra la consola del desarrollador del explorador (normalmente F12).
 * No hay errores de JavaScript en la consola. Póngase en contacto con los propietarios del sitio web de su organización para asegurarse de que se han resuelto todos los errores de JS.
 * El código de encabezado está correctamente implementado: Asegúrese de que el código de encabezado se encuentra dentro de la etiqueta `<head>` y de que el archivo existe.
 * La biblioteca AppMeasurement existe: Navegue directamente al origen de JS para asegurarse de que el archivo JS contiene código. Si no es así, asegúrese de que se crea cada entorno y de que la biblioteca se publica en el entorno correspondiente.
-* Interferir extensiones: Algunas extensiones, como los bloqueadores de anuncios, pueden evitar que se activen solicitudes de imagen. Deshabilite las extensiones que puedan impedir el envío de datos al Adobe.
+* Interferir extensiones: Algunas extensiones, como los bloqueadores de anuncios, pueden evitar que se activen solicitudes de imagen. Deshabilite las extensiones que puedan impedir el envío de datos a Adobe.
 
 ## Pasos siguientes
 
