@@ -15,7 +15,7 @@ ht-degree: 2%
 
 En la tabla siguiente se muestran las variables de objetos de datos que Adobe Experience Platform Edge Network asigna automáticamente a Adobe Analytics. Si utiliza estas rutas de campo de objeto de datos, no es necesaria ninguna configuración adicional para enviar datos a Adobe Analytics.
 
-Se recomienda utilizar estos campos si tiene intención de utilizar Customer Journey Analytics en el futuro. Este método de implementación permite a su organización enviar datos a Adobe mediante Web SDK sin ajustarse a un esquema XDM. Cuando su organización esté lista para enviar datos a Adobe Experience Platform, puede usar [Asignación de secuencia de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) para apuntar los campos de objeto de datos a sus respectivos campos XDM.
+Se recomienda utilizar estos campos si tiene intención de utilizar Customer Journey Analytics en el futuro. Este método de implementación permite a su organización enviar datos a Adobe mediante Web SDK sin ajustarse a un esquema XDM. Cuando su organización esté lista para enviar datos a Adobe Experience Platform, puede usar [Asignación de secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/data-prep#mapping) para apuntar los campos de objeto de datos a sus respectivos campos XDM.
 
 ## Prioridades de valor
 

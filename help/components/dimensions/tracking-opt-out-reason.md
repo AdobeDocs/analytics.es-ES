@@ -14,13 +14,13 @@ ht-degree: 7%
 
 *Esta página hace referencia a la [dimensión](overview.md) que le permite ver el posible impacto de los datos al habilitar ciertas opciones de configuración del grupo de informes. No está relacionado con el [servicio de inclusión de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es).*
 
-La dimensión &quot;Razón de exclusión de seguimiento&quot; actúa como una previsualización de los datos que se excluirían si se habilita la Configuración de privacidad. Esta dimensión se usa principalmente para determinar si su implementación se vería afectada negativamente si habilitó [Configuración de privacidad](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) en Configuración del grupo de informes.
+La dimensión &quot;Razón de exclusión de seguimiento&quot; actúa como una previsualización de los datos que se excluirían si se habilita la Configuración de privacidad. Esta dimensión se usa principalmente para determinar si su implementación se vería afectada negativamente si habilitó [Configuración de privacidad](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=es) en Configuración del grupo de informes.
 
 Las implementaciones típicas ven un 1% o menos del tráfico total del grupo de informes en esta dimensión si la configuración de privacidad aún no se ha habilitado. Los porcentajes superiores al 1 % de todo el tráfico sugieren un posible problema de implementación que impide que AppMeasurement establezca cookies de origen.
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión funciona de forma predeterminada para todas las implementaciones que aún no han habilitado [Configuración de privacidad](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html). Si su organización ya ha habilitado la configuración **[!UICONTROL Eliminar usuarios que bloquearon todas las cookies]** tanto para el escritorio como para los exploradores móviles, esta dimensión no contiene datos.
+Esta dimensión funciona de forma predeterminada para todas las implementaciones que aún no han habilitado [Configuración de privacidad](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=es). Si su organización ya ha habilitado la configuración **[!UICONTROL Eliminar usuarios que bloquearon todas las cookies]** tanto para el escritorio como para los exploradores móviles, esta dimensión no contiene datos.
 
 ## Elementos de dimensión
 

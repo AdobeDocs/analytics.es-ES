@@ -48,7 +48,7 @@ Una información general de alto nivel de las tareas de implementación:
 <tr>
 <td>4</td>
 <td><b>Implemente y pruebe la recopilación de datos</b> mediante las API de recopilación de datos de evento único y de evento por lotes.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es">Recopilación de datos de un solo evento</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Recopilación de datos de eventos por lotes</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=es">Recopilación de datos de un solo evento</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=es">Recopilación de datos de eventos por lotes</a>
 </tr>
 
 <td>5</td>

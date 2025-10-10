@@ -61,9 +61,9 @@ Hacer referencia a la última versión de `alloy.js` para que se puedan usar sus
 
 +++**3. Configurar Web SDK**
 
-Configure la implementación para que apunte a la secuencia de datos creada en el paso anterior mediante el comando Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview). El comando `configure` debe estar establecido en todas las páginas para que pueda incluirlo junto con el código de instalación de la biblioteca.
+Configure la implementación para que apunte a la secuencia de datos creada en el paso anterior mediante el comando Web SDK [`configure`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/overview). El comando `configure` debe estar establecido en todas las páginas para que pueda incluirlo junto con el código de instalación de la biblioteca.
 
-Use las propiedades [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) y [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) en el comando `configure` de Web SDK:
+Use las propiedades [`datastreamId`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/datastreamid) y [`orgId`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/orgid) en el comando `configure` de Web SDK:
 
 * Establezca `datastreamId` en el ID de secuencia de datos recuperado del paso anterior.
 * Establezca `orgId` en la organización de IMS de su organización.
@@ -75,7 +75,7 @@ alloy("configure", {
 });
 ```
 
-Opcionalmente, puede establecer otras propiedades en el comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) en función de los requisitos de implementación de su organización.
+Opcionalmente, puede establecer otras propiedades en el comando [`configure`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/overview) en función de los requisitos de implementación de su organización.
 
 +++
 
@@ -116,7 +116,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. Actualizar las llamadas de método para utilizar Web SDK**
 
-Actualice todas las instancias en las que llame a [`s.t()`](../../vars/functions/t-method.md) y a [`s.tl()`](../../vars/functions/tl-method.md), reemplazándolas por el comando [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview). Hay tres escenarios a considerar:
+Actualice todas las instancias en las que llame a [`s.t()`](../../vars/functions/t-method.md) y a [`s.tl()`](../../vars/functions/tl-method.md), reemplazándolas por el comando [`sendEvent`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/sendevent/overview). Hay tres escenarios a considerar:
 
 * **Seguimiento de vista de página**: reemplace la llamada de seguimiento de vista de página con el comando `sendEvent` de Web SDK:
 
@@ -128,7 +128,7 @@ Actualice todas las instancias en las que llame a [`s.t()`](../../vars/functions
   alloy("sendEvent", dataObj);
   ```
 
-* **Seguimiento automático de vínculos**: La propiedad de configuración [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) está habilitada de manera predeterminada. Establece automáticamente las variables de seguimiento de vínculos correctas para enviar datos a Adobe Analytics. Si desea deshabilitar el seguimiento automático de vínculos, establezca esta propiedad en `false` dentro del comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
+* **Seguimiento automático de vínculos**: La propiedad de configuración [`clickCollectionEnabled`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) está habilitada de manera predeterminada. Establece automáticamente las variables de seguimiento de vínculos correctas para enviar datos a Adobe Analytics. Si desea deshabilitar el seguimiento automático de vínculos, establezca esta propiedad en `false` dentro del comando [`configure`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/overview).
 
 * **Seguimiento manual de vínculos**: Web SDK no tiene comandos independientes entre las llamadas pageview y no pageview. Proporcione esa distinción dentro del objeto de carga útil.
 

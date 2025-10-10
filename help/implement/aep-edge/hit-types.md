@@ -43,4 +43,4 @@ Además de diferenciar las vistas de página y los clics en vínculos, se ha imp
 | `xdm.eventType = click` o `xdm.eventType = decisioning.propositionInteract` y `xdm._experience.decisioning` y no `web.webInteraction.type` | considera la carga útil una llamada a **A4T**. |
 | `xdm.eventType = click` o `xdm.eventType = decisioning.propositionInteract` y no `xdm._experience.decisioning` y no `web.webInteraction.type` | borra la carga útil e ignora los datos. |
 
-Consulte [Grupo de campos de esquema de extensión completa de Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) para obtener más información.
+Consulte [Grupo de campos de esquema de extensión completa de Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) para obtener más información.
