@@ -24,8 +24,8 @@ Si se asignan por error ubicaciones incompatibles en la hoja de cálculo, Report
 
 Para obtener más información, consulte las secciones siguientes:
 
-* [Seleccionar un rango de celdas ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
-* [Técnicas para la selección de celdas ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
+* [Seleccionar un rango de celdas &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [Técnicas para la selección de celdas &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
 * [Problemas en la asignación](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
 ## Seleccionar un rango de celdas {#section_1E37FB46DA194FB7A1050B8833A48AC6}

@@ -66,7 +66,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Otros méto
 La comparación de segmentos incluye las siguientes funciones:
 
 * [Panel de comparación de segmentos:](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) le permite arrastrar dos segmentos al panel y ver un informe completo que muestre las diferencias estadísticamente significativas y la superposición entre los dos públicos.
-* [Comparación de segmentos en abandonos: ](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)Ver cómo se comparan los distintos públicos en el contexto de una visualización de abandonos.
+* [Comparación de segmentos en abandonos: &#x200B;](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)Ver cómo se comparan los distintos públicos en el contexto de una visualización de abandonos.
 
 
 

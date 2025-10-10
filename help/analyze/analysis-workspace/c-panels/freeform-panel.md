@@ -15,7 +15,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel de forma libre en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Panel de forma libre](/help/analyze/analysis-workspace/c-panels/freeform-panel.md) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel de forma libre en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Panel de forma libre](/help/analyze/analysis-workspace/c-panels/freeform-panel.md) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -36,6 +36,6 @@ Para usar un **[!UICONTROL panel de forma libre]**:
 >[!MORELIKETHIS]
 >
 >[Crear un panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->>[Guía de componentes de Analytics](/help/components/home.md)
->>[Visualización de tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>&#x200B;>[Guía de componentes de Analytics](/help/components/home.md)
+>&#x200B;>[Visualización de tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

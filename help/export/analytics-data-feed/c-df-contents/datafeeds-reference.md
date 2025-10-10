@@ -410,4 +410,4 @@ La siguiente lista de columnas no se utiliza, se retira o no contiene valor en l
 >[!MORELIKETHIS]
 >
 >[Asignación de variables de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md)
->>[Asignación de variables de objeto de datos ](/help/implement/aep-edge/data-var-mapping.md)
+>&#x200B;>[Asignación de variables de objeto de datos &#x200B;](/help/implement/aep-edge/data-var-mapping.md)

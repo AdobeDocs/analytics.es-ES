@@ -16,7 +16,7 @@ El &quot;Vínculo personalizado&quot; [dimension](overview.md) indica los nombre
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión recopila datos de la [`pev2` cadena de consulta ](/help/implement/validate/query-parameters.md) en solicitudes de imagen para visitas individuales que también tienen la cadena de consulta `pe` con el valor de `lnk_o`. Si la cadena de consulta `pe` tiene un valor diferente en la visita, esta dimensión no recopila datos. La longitud máxima de esta dimensión es de 100 bytes.
+Esta dimensión recopila datos de la [`pev2` cadena de consulta &#x200B;](/help/implement/validate/query-parameters.md) en solicitudes de imagen para visitas individuales que también tienen la cadena de consulta `pe` con el valor de `lnk_o`. Si la cadena de consulta `pe` tiene un valor diferente en la visita, esta dimensión no recopila datos. La longitud máxima de esta dimensión es de 100 bytes.
 
 Si desea enviar datos a esta dimensión mediante AppMeasurement, envíe una solicitud de imagen [`tl()`](/help/implement/vars/functions/tl-method.md) con un argumento de tipo de vínculo de `"o"`. Rellene el argumento del nombre del vínculo con el valor deseado.
 

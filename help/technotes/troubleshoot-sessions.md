@@ -35,4 +35,4 @@ Para resolver este problema, Adobe recomienda pedir ayuda al equipo informático
 Encontrará información sobre los proxies de y sobre los encabezados de autenticación aquí:
 
 * [Configure la autenticación de proxy ascendente en una implementación de cadena de proxy en un dispositivo ProxySG o ASG](https://techdocs.broadcom.com/us/en/symantec-security-software/web-and-network-security/edge-swg/7-3/authentication_co.html)
-* [Cómo reenviar las credenciales de usuario a un servidor detrás del dispositivo ProxySG ](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
+* [Cómo reenviar las credenciales de usuario a un servidor detrás del dispositivo ProxySG &#x200B;](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)

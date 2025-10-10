@@ -20,7 +20,7 @@ Las jerarquías son variables personalizadas que se pueden utilizar como desee. 
 
 ## Rellenar jerarquías con datos
 
-Cada jerarquía recopila datos de las cadenas de consulta [`h1` - `h5` ](/help/implement/validate/query-parameters.md) en solicitudes de imagen. Por ejemplo, el parámetro de cadena de consulta `h1` recopila datos para la jerarquía 1, mientras que el parámetro de cadena de consulta `h4` recopila datos para la jerarquía 4.
+Cada jerarquía recopila datos de las cadenas de consulta [`h1` - `h5` &#x200B;](/help/implement/validate/query-parameters.md) en solicitudes de imagen. Por ejemplo, el parámetro de cadena de consulta `h1` recopila datos para la jerarquía 1, mientras que el parámetro de cadena de consulta `h4` recopila datos para la jerarquía 4.
 
 AppMeasurement, que compila variables JavaScript en una solicitud de imagen para la recopilación de datos, utiliza las variables `hier1` - `hier5`. Consulte [hier](/help/implement/vars/page-vars/hier.md) en la Guía del usuario sobre implementación para ver las directrices de implementación.
 

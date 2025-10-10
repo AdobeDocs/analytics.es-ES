@@ -24,7 +24,7 @@ Si tiene un [documento de diseño de soluciones](/help/implement/prepare/solutio
 
 ## Rellenar props con datos
 
-Cada propiedad recopila datos de las cadenas de consulta [`c1` - `c75` ](/help/implement/validate/query-parameters.md) en solicitudes de imagen. Por ejemplo, el parámetro de cadena de consulta `c1` recopila datos para prop1, mientras que el parámetro de cadena de consulta `c68` recopila datos para prop68.
+Cada propiedad recopila datos de las cadenas de consulta [`c1` - `c75` &#x200B;](/help/implement/validate/query-parameters.md) en solicitudes de imagen. Por ejemplo, el parámetro de cadena de consulta `c1` recopila datos para prop1, mientras que el parámetro de cadena de consulta `c68` recopila datos para prop68.
 
 AppMeasurement, que compila variables JavaScript en una solicitud de imagen para la recopilación de datos, utiliza las variables `prop1` - `prop75`. Consulte [prop](/help/implement/vars/page-vars/prop.md) en la Guía del usuario sobre implementación para ver las directrices de implementación.
 

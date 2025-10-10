@@ -21,4 +21,4 @@ Para obtener más información, consulte:
 
 * [Métricas en Analysis Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md)
 
-* [Métricas calculadas ](/help/components/calculated-metrics/cm-overview.md)
+* [Métricas calculadas &#x200B;](/help/components/calculated-metrics/cm-overview.md)

@@ -13,7 +13,7 @@ ht-degree: 77%
 
 # Segmentos rápidos
 
-Los segmentos rápidos permiten explorar fácilmente los datos de un proyecto determinado, sin necesidad de crear un segmento de lista de componentes más complejo en el [generador de segmentos ](/help/components/segmentation/segmentation-workflow/seg-build.md).
+Los segmentos rápidos permiten explorar fácilmente los datos de un proyecto determinado, sin necesidad de crear un segmento de lista de componentes más complejo en el [generador de segmentos &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md).
 
 Tenga en cuenta lo siguiente al crear segmentos rápidos:
 

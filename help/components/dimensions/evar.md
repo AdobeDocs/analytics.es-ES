@@ -26,7 +26,7 @@ Las mayúsculas y minúsculas utilizadas en los informes se basan en el primer v
 
 ## Propagar eVars con datos
 
-Cada eVar recopila datos de la cadena de consulta [`v1` - `v250` ](/help/implement/validate/query-parameters.md) en solicitudes de imagen. Por ejemplo, el parámetro de cadena de consulta `v1` recopila datos para eVar1, mientras que el parámetro de cadena de consulta `v222` recopila datos para eVar222.
+Cada eVar recopila datos de la cadena de consulta [`v1` - `v250` &#x200B;](/help/implement/validate/query-parameters.md) en solicitudes de imagen. Por ejemplo, el parámetro de cadena de consulta `v1` recopila datos para eVar1, mientras que el parámetro de cadena de consulta `v222` recopila datos para eVar222.
 
 AppMeasurement, que compila variables JavaScript en una solicitud de imagen para la recopilación de datos, utiliza las variables `eVar1` - `eVar250`. Consulte [eVar](/help/implement/vars/page-vars/evar.md) en la Guía del usuario de implementación para ver las directrices de implementación.
 
