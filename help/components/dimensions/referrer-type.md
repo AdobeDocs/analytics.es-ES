@@ -3,10 +3,10 @@ title: Tipo de referente
 description: El tipo de remitente del reenvío, según la procedencia del visitante.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 400f0170f13e95c401f3c4c329d23d63dcd70443
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 96%
+source-wordcount: '500'
+ht-degree: 88%
 
 ---
 
@@ -24,10 +24,34 @@ Los elementos de dimensión incluyen el tipo de remitente del reenvío de la vis
 
 * **Escritos o marcados**: No existen datos de remitente del reenvío para la visita.
 * **Motores de búsqueda**: El remitente del reenvío proviene de un motor de búsqueda reconocido que incluye una cadena de consulta de palabra clave.
+* **Herramientas de inteligencia artificial aplicada a la conversación**: el referente proviene de una herramienta de inteligencia artificial aplicada a la conversación reconocida.
 * **Redes sociales:** Los datos de Remitente del reenvío pertenecían a una red social reconocida por Adobe.
 * **Otros sitios web**: Los datos del Remitente del reenvío no pertenecían a un motor de búsqueda o a una red social que Adobe reconozca.
+* **Sin JavaScript**: el referente venía de un explorador que no tenía JavaScript habilitado.
 * **Disco duro**: El Remitente del reenvío se originó a partir de una copia local de una página web en el disco duro del visitante.
 * **Correo electrónico**: Remitente del reenvío originado desde una dirección URL con un protocolo de `imap://` o `mail://`. No incluye los servicios de correo electrónico en línea, ya que suelen utilizar el protocolo `https://`.
+
+### Herramientas de inteligencia artificial conversacional
+
+La siguiente lista hace referencia a la tabla de búsqueda &quot;Herramientas de IA conversacional&quot; que utiliza Adobe. Adobe proporciona esta lista como cortesía a los clientes de Adobe Analytics. Si desea recomendar que Adobe agregue un dominio a esta lista, pida a un delegado de asistencia técnica de su organización que se ponga en contacto con el Servicio de atención al cliente.
+
+* `https://chatgpt.com`
+* `https://chat.com`
+* `https://chat.openai.com`
+* `https://gemini.google.com`
+* `https://copilot.microsoft.com`
+* `https://m365.cloud.microsoft`
+* `https://perplexity.ai`
+* `https://labs.perplexity.ai`
+* `https://playground.perplexity.ai`
+* `https://claude.ai`
+* `https://grok.com`
+* `https://komo.ai`
+* `https://phind.com`
+* `https://poe.com`
+* `https://blackbox.ai`
+* `https://chat.mistral.ai`
+* `https://meta.ai`
 
 ### Redes sociales
 
