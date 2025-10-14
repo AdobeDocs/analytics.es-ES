@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y su versión heredada, y Activity Map.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 100%
+source-wordcount: '870'
+ht-degree: 99%
 
 ---
 
@@ -81,12 +81,13 @@ ht-degree: 100%
       + Tabla de forma libre {#freeform-table}
          + [Información general](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Crear hipervínculos](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [Ver datos de tendencias](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [Filtrar y ordenar](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [Totales](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + Configuración de columna y fila {#column-row-settings}
             + [Configuración de columna](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Configuración de filas](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Elementos dinámicos y estáticos](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Filtrar y ordenar](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Totales](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tabla de cohorte {#cohort-table}
          + [Información general](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configuración](analysis-workspace/visualizations/cohort-table/t-cohort.md)
