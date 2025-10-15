@@ -20,7 +20,7 @@ Si su organización desea rastrear el rendimiento y la tasa de clics de los esfu
 1. [Configure o ajuste la implementación de Adobe Analytics para incluir los datos del código de seguimiento](#include-campaign-variables-in-your-implementation)
 1. [Ver los informes en Analysis Workspace](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html) puede ayudar a simplificar cada uno de estos pasos para obtener el máximo valor de sus esfuerzos de marketing. Para obtener más información, póngase en contacto con el representante de ventas de Adobe.
+[Adobe Campaign](https://business.adobe.com/es/products/campaign/adobe-campaign.html) puede ayudar a simplificar cada uno de estos pasos para obtener el máximo valor de sus esfuerzos de marketing. Para obtener más información, póngase en contacto con el representante de ventas de Adobe.
 
 ## Establezca un proceso de generación de código de seguimiento
 
