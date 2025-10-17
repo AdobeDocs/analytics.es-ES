@@ -3,7 +3,7 @@ description: Las reglas de clasificación buscan términos no clasificados de fo
 title: Reglas de clasificación
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 39e4575fe059621c56d6531ab7d26898913188b8
 workflow-type: tm+mt
 source-wordcount: '1970'
 ht-degree: 90%
@@ -133,14 +133,14 @@ En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muest
 
 | Seleccionar tipo de regla | Introducir criterios de coincidencia | Configurar clasificación | Hasta |
 |---|---|---|---|
-| Expresión regular | &Hat;(.+)\:(.+)\:(.+)$ | Fecha de campaña | $3 |
+| Expresión regular | &amp;Hat;(.+)\:(.+)\:(.+)$ | Fecha de campaña | $3 |
 
 **Sintaxis**
 
 | Expresión regular | Cadena o resultados de coincidencias | Grupos de coincidencias correspondientes |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`: `em:JuneSale:20XX0601` `$1`: em `$2`: JuneSale `$3`: 20XX0601 |
-| Creación de la sintaxis | `^` = comienza la línea  () = agrupa los caracteres y permite extraer los coincidentes entre paréntesis.  `(.+)` = captura uno ( . ) carácter y ( + ) más  \ = inicio de una cadena.  `$` = indica que el carácter (o grupo de caracteres) precedente es el último de la línea. |
+| Creación de la sintaxis | `^` = comienza la línea  () = agrupa los caracteres y permite extraer los coincidentes entre paréntesis.  `(.+)` = captura uno ( . ) carácter y ( + ) más  \ = inicio de una cadena.  `$` = indica que el carácter (o grupo de caracteres) precedente es el último de la línea. | |
 
 Consulte [Expresiones regulares: tabla de referencia](/help/components/classifications/crb/classification-quickstart-rules.md) para obtener más información sobre el significado de los caracteres de las expresiones regulares.
 
