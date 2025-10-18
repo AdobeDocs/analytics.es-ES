@@ -40,7 +40,7 @@ Los identificadores de visitante únicos generalmente se almacenan en una cookie
 * Visita el sitio en diferentes dispositivos. Se cuenta un visitante único por dispositivo.
 * Visita el sitio después de más de 13 meses de inactividad.
 
-Considere la posibilidad de usar [costura](https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview) en Customer Journey Analytics para identificar a la misma persona mediante varios navegadores o dispositivos.
+Considere la posibilidad de usar [costura](https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview) en Customer Journey Analytics para identificar a la misma persona mediante varios navegadores o dispositivos.
 
 ## Comportamiento que no afecta a la cantidad de visitantes únicos
 
