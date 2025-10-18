@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: Aprenda formas de implementar Adobe Analytics. Personalice qué se recopila para aprovechar al máximo los datos de Analytics.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 94%
 
 ---
 
@@ -131,6 +131,14 @@ ht-degree: 100%
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [Integración de módulos](vars/integrate.md)
++ Identificación de visitante {#id}
+   + [Información general](id/overview.md)
+   + [Uso de AppMeasurement](id/appmeasurement.md)
+   + [Uso de la extensión de Analytics](id/analytics-extension.md)
+   + [Uso de Web SDK (Alloy)](id/alloy.md)
+   + [Uso de la extensión Web SDK](id/web-sdk-extension.md)
+   + [Migración al servicio de ID de visitante](id/migration.md)
+   + [Seguimiento entre tipos de implementación](id/cross-type-implementation.md)
 + Preparar la implementación de Adobe Analytics {#prepare}
    + [Creación de una capa de datos](prepare/data-layer.md)
    + [Comparación de los métodos de implementación](prepare/comparison.md)
@@ -188,7 +196,6 @@ ht-degree: 100%
 + [Implementación de Analytics para dispositivos móviles](mobile-device-sdk.md)
 + Casos de uso de implementación {#use-cases}
    + [Uso de AppMeasurement con iFrames](use-cases/iframe.md)
-   + [Seguimiento en diferentes tipos de implementación](use-cases/cross-type-implementation.md)
    + [Flujo de trabajo de seguimiento de campaña](use-cases/campaign-tracking.md)
 + Validar la implementación {#validate}
    + [Adobe Experience Cloud Debugger antiguo](validate/debugger.md)
