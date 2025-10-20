@@ -24,9 +24,9 @@ Cuando Adobe recibe una visita, se realizan las siguientes comprobaciones en ord
 | Pedido utilizado | Parámetros de consulta | Presente cuando |
 |---|---|---|
 | **1<sup>st</sup>** | `vid` | Se establece la variable [`visitorID`](/help/implement/vars/config-vars/visitorid.md). |
-| **2<sup>nd</sup>** | `aid` | El visitante ya tiene una cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Se configura en implementaciones sin implementar el servicio de ID de visitante o antes de hacerlo. |
-| **3<sup>rd</sup>** | `mid` | El visitante ya tiene una cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Configurado en implementaciones que utilizan el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). Adobe recomienda utilizar el servicio de ID en todas las implementaciones, siempre que sea posible. |
-| **4<sup>th</sup>** | `fid` | El visitante tiene una cookie [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) existente, o si `aid` y `mid` no se pudieron establecer por algún motivo. |
+| **2<sup>nd</sup>** | `aid` | El visitante ya tiene una cookie [`s_vi`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics). Se configura en implementaciones sin implementar el servicio de ID de visitante o antes de hacerlo. |
+| **3<sup>rd</sup>** | `mid` | El visitante ya tiene una cookie [`s_ecid`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics). Configurado en implementaciones que utilizan el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). Adobe recomienda utilizar el servicio de ID en todas las implementaciones, siempre que sea posible. |
+| **4<sup>th</sup>** | `fid` | El visitante tiene una cookie [`s_fid`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics) existente, o si `aid` y `mid` no se pudieron establecer por algún motivo. |
 | **5<sup>th</sup>** | Dirección IP, agente de usuario y dirección IP de puerta de enlace | Se utiliza como último recurso para identificar un visitante único si el explorador del visitante no acepta cookies. |
 
 ## Comportamiento que afecta a la cantidad de visitantes únicos
@@ -40,7 +40,7 @@ Los identificadores de visitante únicos generalmente se almacenan en una cookie
 * Visita el sitio en diferentes dispositivos. Se cuenta un visitante único por dispositivo.
 * Visita el sitio después de más de 13 meses de inactividad.
 
-Considere la posibilidad de usar [costura](https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview) en Customer Journey Analytics para identificar a la misma persona mediante varios navegadores o dispositivos.
+Considere la posibilidad de usar [costura](https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview) en Customer Journey Analytics para identificar a la misma persona mediante varios navegadores o dispositivos.
 
 ## Comportamiento que no afecta a la cantidad de visitantes únicos
 
