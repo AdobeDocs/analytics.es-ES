@@ -1,9 +1,9 @@
 ---
 title: Identificación de visitantes con la extensión de etiquetas Web SDK
 description: Identifique correctamente a los visitantes al implementar la extensión de etiquetas Web SDK.
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -11,6 +11,8 @@ ht-degree: 0%
 # Identificación de visitantes con la extensión de etiquetas Web SDK
 
 La extensión de etiquetas Web SDK de la recopilación de datos de Adobe Experience Platform permite a las organizaciones implementar Web SDK mediante una interfaz de administración de etiquetas. Los escenarios avanzados, como el uso compartido de ID entre dominios y la migración de perfiles de visitantes, se configuran fácilmente mediante reglas y acciones de extensión. El uso de Web SDK afianza la implementación y permite una actualización perfecta a Customer Journey Analytics.
+
+Los datos de identidad se pueden ampliar para admitir ID personalizados y varias áreas de nombres con `identityMap` de XDM. Adobe recomienda usar el servicio de Adobe Experience Cloud ID como identificador principal para Analytics mediante otras opciones de administración de identidades en escenarios avanzados.
 
 Dado que el servicio de ID de visitante se copia de forma nativa en la extensión de etiqueta, solo requiere que establezca **[!UICONTROL Dominio de Edge]** en el valor deseado. Si este campo está configurado correctamente, la identificación del visitante funciona sin ninguna configuración adicional.
 

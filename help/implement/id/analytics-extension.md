@@ -1,9 +1,9 @@
 ---
 title: Identificación de visitantes con la extensión de etiquetas de Adobe Analytics
 description: Identifique correctamente a los visitantes al implementar la extensión de etiquetas de Adobe Analytics.
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ La extensión de etiqueta obtiene automáticamente el ID de organización de IMS
 >
 >Adobe recomienda evitar este método para identificar a los visitantes.
 
-Si su organización no utiliza la extensión de etiqueta del servicio de ID de visitante, la extensión de etiqueta de Adobe Analytics utilizará su propia forma de identificación del visitante. Cuando un visitante llega a su sitio por primera vez, la extensión comprueba la existencia de una cookie [`s_vi`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics). Esta cookie se establece en el dominio que coincide con **[!UICONTROL SSL Tracking Server]** (para HTTPS) o **[!UICONTROL Tracking Server]** (para HTTP) al [configurar la extensión de etiqueta](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/analytics/overview).
+Si su organización no utiliza la extensión de etiqueta del servicio de ID de visitante, la extensión de etiqueta de Adobe Analytics utilizará su propia forma de identificación del visitante. Cuando un visitante llega a su sitio por primera vez, la extensión comprueba la existencia de una cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Esta cookie se establece en el dominio que coincide con **[!UICONTROL SSL Tracking Server]** (para HTTPS) o **[!UICONTROL Tracking Server]** (para HTTP) al [configurar la extensión de etiqueta](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview).
 
-* Si participa en el [programa de certificados administrados](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/adobe-managed-cert), su servidor de seguimiento sería normalmente un dominio de origen, por lo que las cookies de `s_vi` serían de origen.
+* Si participa en el [programa de certificados administrados](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), su servidor de seguimiento sería normalmente un dominio de origen, por lo que las cookies de `s_vi` serían de origen.
 * Si no participa en el programa de certificados administrados, el servidor de seguimiento suele ser un subdominio de `adobedc.net`, `omtrdc.net` o `2o7.net`, por lo que la cookie `s_vi` se convierte en una cookie de terceros. Debido a los estándares modernos de privacidad del explorador, la mayoría de los exploradores rechazan las cookies de terceros. Una vez rechazado, AppMeasurement intenta establecer una cookie de reserva (`fid`) de origen en su lugar.
 
 Si establece correctamente [!UICONTROL Servidor de seguimiento SSL], no se requieren más medidas de identificación de visitantes.
@@ -48,7 +48,7 @@ El uso de la variable **[!UICONTROL ID de visitante]** permite que su organizaci
 * Cada visita debe contener el mismo valor de [!UICONTROL ID de visitante] que se contará como un visitante individual.
    * Cualquier visita que omita el elemento de datos [!UICONTROL ID de visitante] intenta usar automáticamente otro método de identificación de visitante, tratándolo como un visitante separado.
    * Cualquier visita que contenga un valor de [!UICONTROL ID de visitante] diferente al de una visita anterior se tratará como un visitante independiente.
-   * Adobe no ofrece ninguna forma de unir las visitas con distintos ID de visitante.
+   * Adobe no ofrece una forma de unir las visitas con distintos ID de visitante en Adobe Analytics.
 * Las audiencias compartidas, Analytics para Target y los atributos del cliente no son compatibles con los visitantes identificados con [!UICONTROL ID de visitante].
 
 Consulte [`visitorID`](/help/implement/vars/config-vars/visitorid.md) para obtener instrucciones de implementación mediante esta variable.

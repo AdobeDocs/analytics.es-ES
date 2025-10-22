@@ -1,16 +1,20 @@
 ---
 title: Consideraciones sobre la migración del servicio de ID de visitante para Adobe Analytics
 description: Una visión general de cómo Adobe Analytics interactúa con el servicio de ID de visitante.
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: f682f9c8533536e9b33f320f2a420055c6f4e397
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
 # Consideraciones sobre la migración del servicio de ID de visitante para Adobe Analytics
 
-Si su organización planea pasar al servicio de ID de visitante con una implementación de Analytics existente, hay que tener en cuenta algunos temas importantes. Estas consideraciones son importantes para conservar la integridad de identificación del visitante y comprender cómo funciona el servicio de ID en presencia de una implementación de Analytics existente.
+Si su organización planea pasar al servicio de ID de visitante con una implementación de Analytics existente, hay que tener en cuenta algunos temas importantes. Estas consideraciones le permiten conservar la integridad de identificación del visitante y comprender cómo funciona el servicio de ID en presencia de una implementación de Analytics existente.
+
+>[!TIP]
+>
+>Esta página solo se aplica a las implementaciones de extensión de AppMeasurement o Analytics existentes y agrega el servicio de ID de visitante o actualiza a una implementación de Web SDK. En otras palabras, su implementación utiliza un ID de Analytics heredado (`aid`) y se está acercando al uso de un ID de Experience Cloud (`mid`). Todas las implementaciones de Web SDK ya usan un Experience Cloud ID (`mid`) de forma predeterminada.
 
 ## Interacción del servicio de ID de visitante con cookies de visitante de Analytics heredadas
 
@@ -24,14 +28,14 @@ Dado que AppMeasurement tiene su propio método para identificar a los visitante
 
 Si tiene varias implementaciones que envían datos al mismo grupo de informes y solo puede implementar el servicio de ID de visitante en algunas implementaciones, Adobe recomienda configurar un periodo de gracia. Por ejemplo: Si la sección de asistencia técnica de su sitio se administra mediante una solución de etiquetado independiente, es posible que tenga el servicio de ID de visitante implementado en el resto del sitio antes de la sección de asistencia técnica. Sin un período de gracia, los nuevos visitantes que vean la sección de asistencia reciben un ID de visitante de Analytics heredado, lo que provoca que se cuenten dos visitantes independientes. Con un período de gracia, el servicio de ID de visitante emite un Experience Cloud ID (`mid`) y un ID de visitante de Analytics heredado (`aid`) para que las áreas del sitio sin el servicio de ID sigan identificando a los visitantes de forma coherente.
 
-Si coordina la implementación del servicio de ID de visitante en todas las áreas del sitio, no necesita ningún periodo de gracia. Para configurar un período de gracia, comuníquese con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/marketing-cloud/contact-support.html).
+Si coordina la implementación del servicio de ID de visitante en todas las áreas del sitio, no necesita ningún periodo de gracia. Para configurar un período de gracia, comuníquese con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/marketing-cloud/contact-support.html). Los periodos de gracia se pueden configurar hasta un máximo de 180 días y se pueden renovar. Adobe recomienda interrumpir el periodo de gracia una vez que toda la propiedad esté configurada para utilizar el servicio de ID.
 
 ## Seguimiento entre dominios
 
 Algunas implementaciones de ID de visitante de Analytics heredadas pueden utilizar &quot;cookies de terceros descriptivas&quot;, en las que dos dominios comparten la misma cookie de visitante en un dominio común como `data.example.com`. Dado que las cookies de terceros sencillas siguen siendo cookies de terceros, muchos exploradores modernos las rechazan, lo que provoca que Analytics dependa de un ID de reserva (`fid`) para la identificación del visitante. El traslado al servicio de ID permite a todos los dominios establecer la cookie `AMCV` en un contexto de origen, lo que aumenta su viabilidad para conservar un ID de visitante.
 
-Aunque el servicio de ID de visitante intenta establecer una cookie de terceros para el seguimiento entre dominios (la cookie [`demdex` &#x200B;](https://experienceleague.adobe.com/es/docs/id-service/using/intro/cookies)), los exploradores modernos suelen rechazarla. Considere utilizar el método [`appendVisitorIDsTo`](https://experienceleague.adobe.com/es/docs/id-service/using/id-service-api/methods/appendvisitorid) para pasar el Experience Cloud ID (`mid`) de un visitante entre los dominios de su propiedad.
+Aunque el servicio de ID de visitante intenta establecer una cookie de terceros para el seguimiento entre dominios (la cookie [`demdex` ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies)), los exploradores modernos suelen rechazarla. Considere utilizar el método [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) para pasar el Experience Cloud ID (`mid`) de un visitante entre los dominios de su propiedad.
 
 ## Seguimiento del lado del servidor
 
-Puede llamar a [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/es/docs/id-service/using/id-service-api/methods/getmcvid) para obtener el Experience Cloud ID (`mid`) y a [`getAnalyticsVisitorID`](https://experienceleague.adobe.com/es/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid) para obtener el ID de Analytics heredado (`aid`). Adobe recomienda comprobar ambos para conservar la lógica de identificación del visitante.
+Puede llamar a [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid) para obtener el Experience Cloud ID (`mid`) y a [`getAnalyticsVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid) para obtener el ID de Analytics heredado (`aid`). Adobe recomienda comprobar ambos para conservar la lógica de identificación del visitante.

@@ -1,10 +1,10 @@
 ---
 title: Identificación de visitantes en Adobe Analytics
 description: Obtenga información sobre cómo identificar visitantes en Adobe Analytics mediante las prácticas recomendadas más recientes.
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 12%
+source-wordcount: '572'
+ht-degree: 10%
 
 ---
 
@@ -19,15 +19,17 @@ La identificación de visitantes en Adobe Analytics consta de los siguientes com
 
 ## Orden de identificación de las operaciones de Adobe Analytics
 
-Cuando Adobe recibe una visita, se realizan las siguientes comprobaciones en orden. Si una propiedad determinada está presente, Adobe utiliza ese identificador para la visita. Si hay varios identificadores presentes en una visita, solo se utiliza el primer método.
+Cuando Adobe recibe una visita, se realizan las siguientes comprobaciones en orden. Si una propiedad determinada está presente, Adobe utiliza ese identificador para la visita. Si hay varios identificadores presentes en una visita, solo se utiliza el primer método. Tenga en cuenta que el orden de las operaciones no refleja el orden en que Adobe recomienda identificar a los visitantes.
 
 | Pedido utilizado | Parámetros de consulta | Presente cuando |
 |---|---|---|
 | **1<sup>st</sup>** | `vid` | Se establece la variable [`visitorID`](/help/implement/vars/config-vars/visitorid.md). |
-| **2<sup>nd</sup>** | `aid` | El visitante ya tiene una cookie [`s_vi`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics). Se configura en implementaciones sin implementar el servicio de ID de visitante o antes de hacerlo. |
-| **3<sup>rd</sup>** | `mid` | El visitante ya tiene una cookie [`s_ecid`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics). Configurado en implementaciones que utilizan el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). Adobe recomienda utilizar el servicio de ID en todas las implementaciones, siempre que sea posible. |
-| **4<sup>th</sup>** | `fid` | El visitante tiene una cookie [`s_fid`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics) existente, o si `aid` y `mid` no se pudieron establecer por algún motivo. |
-| **5<sup>th</sup>** | Dirección IP, agente de usuario y dirección IP de puerta de enlace | Se utiliza como último recurso para identificar un visitante único si el explorador del visitante no acepta cookies. |
+| **2<sup>nd</sup>** | `aid` | El visitante ya tiene una cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Se configura en implementaciones sin implementar el servicio de ID de visitante o antes de hacerlo. |
+| **3<sup>rd</sup>** | `mid` | El visitante ya tiene una cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Configurado en implementaciones que utilizan el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). Adobe recomienda utilizar el servicio de ID en todas las implementaciones, siempre que sea posible. |
+| **4<sup>th</sup>** | `fid` | El visitante ya tiene una cookie [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). AppMeasurement genera automáticamente un identificador de reserva si `aid` y `mid` no se pueden establecer por algún motivo. |
+| **5<sup>th</sup>** | Dirección IP + agente de usuario | Se utiliza como último recurso para identificar un visitante único si el explorador del visitante no acepta cookies. Se ha generado un ID de visitante con hash antes de la [confusión de IP](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). Si la dirección IP no está disponible, se utilizarán otros detalles de IP (como la IP de la puerta de enlace). |
+
+A continuación, el ID de visitante seleccionado tiene un hash y se convierte en su identificador del lado del servidor. Este identificador de servidor está disponible como `visid_high` + `visid_low` en [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md).
 
 ## Comportamiento que afecta a la cantidad de visitantes únicos
 
@@ -40,7 +42,7 @@ Los identificadores de visitante únicos generalmente se almacenan en una cookie
 * Visita el sitio en diferentes dispositivos. Se cuenta un visitante único por dispositivo.
 * Visita el sitio después de más de 13 meses de inactividad.
 
-Considere la posibilidad de usar [costura](https://experienceleague.adobe.com/es/docs/analytics-platform/using/stitching/overview) en Customer Journey Analytics para identificar a la misma persona mediante varios navegadores o dispositivos.
+Considere la posibilidad de usar [costura](https://experienceleague.adobe.com/en/docs/analytics-platform/using/stitching/overview) en Customer Journey Analytics para identificar a la misma persona mediante varios navegadores o dispositivos.
 
 ## Comportamiento que no afecta a la cantidad de visitantes únicos
 
