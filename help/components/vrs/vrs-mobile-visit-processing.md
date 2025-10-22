@@ -3,10 +3,10 @@ description: Las sesiones según el contexto en los grupos de informes virtuales
 title: Sesiones según el contexto
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: b9919c43b0232de1f8cb473d760bc013f4bc01f8
+source-git-commit: 50f04ed366bf973fac43a29d6291afb017eb1f85
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Puede definir una visita del modo que desee sin alterar los datos subyacentes pa
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sesiones según el contexto](https://video.tv.adobe.com/v/3428472?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sesiones según el contexto](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Sin embargo, si *t1* y *t2* son mayores que el tiempo de espera configurado, las
 
 ![](assets/nogoodexample3-2.jpg)
 
-Del mismo modo (como en los ejemplos previos), si *t1* y *t2* son menores que el tiempo de espera, la visita en segundo plano se incluiría en la primera visita:
+Del mismo modo (como en nuestros ejemplos anteriores), si *t1* es menor que el tiempo de espera y *t2* es mayor que este, la visita en segundo plano se incluiría en la primera visita:
 
 ![](assets/nogoodexample3-3.jpg)
 
