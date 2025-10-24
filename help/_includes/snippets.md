@@ -1,5 +1,5 @@
 ---
-source-git-commit: 399902152f4882e3953dbb67dd51fd12f46ef773
+source-git-commit: d6e51ae2668bc25edea76640cdd97abef184fa3e
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 87%
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >[Report Builder](/help/analyze/report-builder/rb-overview.md) nuevo y optimizado se publicó el 16 de octubre de 2024. Es compatible con Mac, Windows y navegadores web.
->&#x200B;>Esta versión de complemento heredado de Report Builder sigue funcionando. Puede [convertir sus libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
+>>Esta versión de complemento heredado de Report Builder sigue funcionando. Puede [convertir sus libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
 
-## Anuncio del final de la vida útil de Reports & Analytics {#ra-eol}
+## Anuncio del final de la vida útil de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -113,9 +113,9 @@ Según el modelo de atribución, el contenedor y los canales reciben un crédito
 
 | Modelo | Contenedor | Período de retroactividad | Explicación |
 |---|---|---|---|
-| Primer contacto | Visita | 30 días | La atribución solo examina la tercera visita. Entre el correo electrónico y la visualización, el correo electrónico fue lo primero, por lo que este recibe el 100 % del crédito por la compra de 50 USD. |
+| Primer contacto | Visita | Ventana de creación de informes | La atribución solo examina la tercera visita. Entre el correo electrónico y la visualización, el correo electrónico fue lo primero, por lo que este recibe el 100 % del crédito por la compra de 50 USD. |
 | Primer contacto | Visitante | 30 días | La atribución examina las tres visitas. La búsqueda de pago fue la primera, así que recibe el 100 % del crédito por la compra de 50 USD. |
-| Lineal | Visita | 30 días | El crédito se divide entre el correo electrónico y la visualización. Cada uno de estos canales recibe un crédito de 25 USD. |
+| Lineal | Visita | Ventana de creación de informes | El crédito se divide entre el correo electrónico y la visualización. Cada uno de estos canales recibe un crédito de 25 USD. |
 | Lineal | Visitante | 30 días | El crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización. Cada canal recibe un crédito de 12,50 USD por esta compra. |
 | Con forma de J | Visitante | 30 días | El crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización.<ul><li>Se otorga un crédito del 60 % a la visualización, es decir, 30 dólares.</li><li>El 20 % de crédito se asigna a la búsqueda de pago, 10 dólares en este caso.</li><li>El 20% restante se divide entre el medio social y el correo electrónico, lo que otorga 5 dólares a cada uno.</li></ul> |
 | Declive temporal | Visitante | 30 días | <ul><li>Diferencia de 0 días entre el punto de contacto de visualización y la conversión. `2^(-0/7) = 1`</li><li>Diferencia de 0 días entre el punto de contacto del correo electrónico y la conversión. `2^(-0/7) = 1`</li><li>Diferencia de 6 días entre el punto de contacto social y la conversión. `2^(-6/7) = 0.552`</li><li>Diferencia de 9 días entre el punto de contacto de búsqueda de pago y la conversión. `2^(-9/7) = 0.41`</li>La normalización de estos valores resulta en lo siguiente:<ul><li>Visualización: 33,8 %, 16,88 dólares</li><li>Correo electrónico: 33,8 % 16,88 dólares</li><li>Medio social: 18,6 %, 9,32 dólares</li><li>Búsqueda de pago: 13,8 %, 6,92 dólares</li></ul></li></ul> |
