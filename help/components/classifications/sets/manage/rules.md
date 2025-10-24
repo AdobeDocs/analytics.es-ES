@@ -15,7 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >Los conjuntos de clasificaciones aún no admiten reglas. La funcionalidad de reglas se agregará a la interfaz de conjuntos de clasificaciones antes de que la funcionalidad heredada del generador de reglas no esté disponible.
->>Si necesita reglas para las clasificaciones, siga usando el [Generador de reglas de clasificaciones](/help/components/classifications/crb/classification-rule-builder.md).
+>&#x200B;>Si necesita reglas para las clasificaciones, siga usando el [Generador de reglas de clasificaciones](/help/components/classifications/crb/classification-rule-builder.md).
 
 
 <!--
