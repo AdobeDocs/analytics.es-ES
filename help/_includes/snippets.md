@@ -1,8 +1,8 @@
 ---
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 399902152f4882e3953dbb67dd51fd12f46ef773
 workflow-type: tm+mt
-source-wordcount: '2962'
-ht-degree: 88%
+source-wordcount: '2997'
+ht-degree: 87%
 
 ---
 # Fragmentos
@@ -12,9 +12,9 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >[Report Builder](/help/analyze/report-builder/rb-overview.md) nuevo y optimizado se publicó el 16 de octubre de 2024. Es compatible con Mac, Windows y navegadores web.
->&#x200B;>Esta versión de complemento heredado de Report Builder sigue funcionando. Puede [convertir sus libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
+>>Esta versión de complemento heredado de Report Builder sigue funcionando. Puede [convertir sus libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
 
-## Anuncio del final de la vida útil de Reports & Analytics {#ra-eol}
+## Anuncio del final de la vida útil de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -87,13 +87,14 @@ Un modelo de atribución determina qué elementos de dimensión obtienen crédit
 
 Un contenedor de atribución define el ámbito deseado para la atribución. Las opciones posibles son las siguientes:
 
-* **Visita**: busca conversiones desde el ámbito del contenedor de visita.
+* **Visita**: busca conversiones desde el ámbito del contenedor de visita. Cuando se selecciona **[!UICONTROL Visita]**, la [ventana retrospectiva de atribución](#atribution-lookback-window) se establece automáticamente en **[!UICONTROL ventana de informes]** y no se puede cambiar.
 * **Visitante**: busca conversiones desde el ámbito del contenedor de visitante.
 
 ## Ventana de retrospección de atribución {#attribution-lookback-window}
 
 Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devolverse en el tiempo para incluir los puntos de contacto. Si un elemento de dimensión se establece fuera de la ventana de retrospección, el valor no se incluye en ningún cálculo de atribución.
 
+* **[!UICONTROL Ventana de informes]**: Busca hasta el inicio de la ventana de informes desde el momento en que se produjo la conversión.
 * **14 días**: se remonta hasta 14 días desde que se realizó la conversión.
 * **30 días**: se remonta hasta 30 días desde que se realizó la conversión.
 * **60 días**: se remonta hasta 60 días desde que se realizó la conversión.
