@@ -3,10 +3,10 @@ title: Resumen general de las clasificaciones
 description: Personalice la agrupación de los elementos de dimensión.
 feature: Classifications
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 3701aa7a2a1528cd735c70fc7b061755a15b34a6
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 39%
+source-wordcount: '274'
+ht-degree: 36%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 39%
 
 Las clasificaciones permiten aplicar categorías a los datos de variables de Analytics para mostrarlos de distintos modos cuando se generan los informes. Establece una relación entre un valor variable y los metadatos relacionados con ese valor. Las clasificaciones se pueden usar en la mayoría de las dimensiones personalizadas, como [código de seguimiento](/help/components/dimensions/tracking-code.md), [props](/help/components/dimensions/prop.md) y [eVars](/help/components/dimensions/evar.md).
 
-**Los conjuntos de clasificaciones** son la forma principal de clasificar los datos. **Reglas de clasificación** y **Importador de clasificaciones** son métodos heredados para clasificar datos. En última instancia, todos los datos de clasificación funcionan igual en los informes; puede combinar cualquiera de estos métodos para adaptarse mejor al flujo de trabajo de su organización.
+**Los conjuntos de clasificaciones** son la forma principal de clasificar los datos. **Reglas de clasificación** y **Importador de clasificaciones** son métodos heredados para clasificar datos. Estos métodos están obsoletos y ya no estarán accesibles a partir del 31 de agosto de 2026.
 
-* **Conjuntos de clasificación**: cree y gestione clasificaciones y sus reglas en una interfaz única y simplificada.
+* **Conjuntos de clasificaciones**: cree y administre clasificaciones en una sola interfaz simplificada.
 * **Reglas de clasificación** (heredadas): cree reglas que asignen un elemento de dimensión determinado a un elemento de dimensión de clasificación. Este método de clasificación de datos es mejor cuando una dimensión encuentra con frecuencia nuevos valores únicos o cuando las clasificaciones manuales serían frecuentes y engorrosas.
 * **Importador de clasificaciones** (heredado): exporte una hoja de cálculo de plantilla con elementos de dimensión en cada fila. Las columnas representan cada clasificación de una dimensión. Este método para clasificar los datos es mejor cuando se conocen todos los elementos de la dimensión y no requiere una actualización frecuente.
 

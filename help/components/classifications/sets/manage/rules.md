@@ -1,51 +1,60 @@
 ---
-title: Reglas del conjunto de clasificación
-description: Ver y editar las reglas de un conjunto de clasificaciones individual.
+title: Reglas del conjunto de clasificaciones
+description: Obtenga información sobre cómo ver y editar reglas para un conjunto de clasificaciones.
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 1%
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
 # Reglas del conjunto de clasificación
 
-Las reglas de conjuntos de clasificaciones permiten clasificar automáticamente los valores según el valor en el que esté configurada la variable. Estas reglas se aplican a todos los valores de variables entrantes de todas las suscripciones del conjunto de clasificaciones.
+>[!IMPORTANT]
+>
+>Los conjuntos de clasificaciones aún no admiten reglas. La funcionalidad de reglas se agregará a la interfaz de conjuntos de clasificaciones antes de que la funcionalidad heredada del generador de reglas no esté disponible.
+>>Si necesita reglas para las clasificaciones, siga usando el [Generador de reglas de clasificaciones](/help/components/classifications/crb/classification-rule-builder.md).
 
-**[!UICONTROL Componentes]** > **[!UICONTROL Conjuntos de clasificación]** > **[!UICONTROL Conjuntos]** > Haga clic en el nombre del conjunto de clasificación deseado > **[!UICONTROL Reglas]**
 
-![IU de reglas de conjunto de clasificación](../../assets/csets-rules.png)
+<!--
+Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
 
-## Configuración de reglas
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Rules]**
 
-Configuración que se aplica a todo el conjunto de reglas.
+![classification set rules UI](../../assets/csets-rules.png)
 
-* **[!UICONTROL Sobrescritura de reglas]**: Determina el comportamiento de todas las reglas en los casos en que existe un valor de clasificación.
-   * **[!UICONTROL Aplicar a todos los valores]**: Si una regla coincide, sobrescriba siempre el valor de clasificación.
-   * **[!UICONTROL Aplicar solo a valores no establecidos]**: Si una regla coincide, escriba únicamente el valor de clasificación si está en blanco. Si existe un valor de clasificación, no haga nada.
-* **[!UICONTROL Ventana retrospectiva]**: Cuando se activa esta regla, todas las reglas se ejecutan con todos los valores únicos vistos dentro de la ventana retrospectiva establecida aquí.
+## Rule settings
 
-## Reglas
+Settings that apply to the entire set of rules.
 
-Una lista de reglas que se ejecutan para cada valor único.
+* **[!UICONTROL Rules overwrite]**: Determines the behavior of all rules in cases where a classification value exists.
+  * **[!UICONTROL Apply to all values]**: If a rule matches, always overwrite the classification value.
+  * **[!UICONTROL Apply only to unset values]**: If a rule matches, only write the classification value if it is blank. If a classification value exists, do nothing.
+* **[!UICONTROL Lookback window]**: When this rule is activated, all rules run against all unique values seen within the lookback window set here.
 
-* **[!UICONTROL Buscar]**: Cuadro de búsqueda que le permite filtrar reglas por criterios de coincidencia.
-* **[!UICONTROL Agregar regla]**: Agrega una fila en blanco a la tabla de reglas.
-* **[!UICONTROL Conjunto de reglas de prueba]**: Muestra una interfaz de usuario de prueba que le permite validar las reglas. A la izquierda, puede escribir manualmente los valores clave, o bien puede arrastrar y soltar un archivo de clasificación para importar muchos valores con los que probar. A la derecha se muestra una tabla que muestra los resultados preliminares del aspecto que tendrían los valores clasificados si se activara el conjunto de reglas. Dado que esta interfaz solo es para validación, no se clasifica ningún valor.
+## Rules
 
-Seleccione una o varias reglas haciendo clic en la casilla de verificación situada junto a la regla que desee. Al seleccionar una regla, se muestran las siguientes opciones:
+A list of rules that run for each unique value.
 
-* **[!UICONTROL Eliminar]**: elimina la fila de la tabla de reglas.
-* **[!UICONTROL Duplicate]**: copia las filas seleccionadas en las filas nuevas de la tabla de reglas.
+* **[!UICONTROL Search]**: A search box that allows you to filter rules by match criteria.
+* **[!UICONTROL Add rule]**: Adds a blank row to the rule table.
+* **[!UICONTROL Test rule set]**: Brings up a test UI that allows you to validate your rules. On the left, you can manually type key values, or you can drag and drop a classification file to import many values to test against. On the right is a table that shows preliminary results of what classified values would look like if the rule set was activated. Since this interface is only for validation, no values are classified.
 
-## Tabla de reglas
+Select one or more rules by clicking the checkbox next to the desired rule. Selecting a rule reveals the following options:
 
-La tabla de reglas se separa verticalmente en dos partes principales: condición coincidente y acción de clasificación. Cada fila (una regla individual) contiene una condición coincidente y una acción de clasificación.
+* **[!UICONTROL Delete]**: Deletes the row from the rule table.
+* **[!UICONTROL Duplicate]**: Copies the selected rows to new rows in the rule table.
 
-* **Número de regla**: Las reglas se ejecutan en el mismo orden en que se configura la tabla de reglas. Si [!UICONTROL Las reglas se sobrescriben] se establece en [!UICONTROL Aplicar a todos los valores], la última regla que coincida sobrescribirá cualquier regla anterior para la misma dimensión de clasificación. Si [!UICONTROL Las reglas se sobrescriben] se establece en [!UICONTROL Aplicar solo a los valores no establecidos], se aplica la primera regla que establece un valor de clasificación.
-* **[!UICONTROL Seleccionar tipo de regla]**: Los criterios de regla. Las opciones incluyen [!UICONTROL Contiene], [!UICONTROL Termina con], [!UICONTROL Expresión regular], [!UICONTROL Expresión regular] y [!UICONTROL Comienza con].
-* **[!UICONTROL Escriba los criterios de coincidencia]**: La cadena de texto que debe coincidir. Si selecciona [!UICONTROL Expresión regular] como tipo de regla, aparecerá una superposición que le permitirá introducir el valor, probar la expresión regular y proporcionar sintaxis de ejemplo.
-* **[!UICONTROL Establecer clasificación]**: Una lista desplegable que establece la dimensión de clasificación a la que desea asignar un valor. Las opciones válidas incluyen elementos en su [esquema](schema.md).
-* **[!UICONTROL Para]**: La cadena de texto en la que se debe establecer el valor clasificado. Si el tipo de regla es [!UICONTROL Expresión regular], puede incluir una combinación de texto y grupos de coincidencias.
+## Rule table
+
+The rule table is separated vertically into two main parts: matching condition and classification action. Each row (an individual rule) contains a matching condition and a classification action.
+
+* **Rule number**: Rules run in the same order that you configure the rule table. If [!UICONTROL Rules overwrite] is set to [!UICONTROL Apply to all values], the last matching rule overwrites any previous rules for the same classification dimension. If [!UICONTROL Rules overwrite] is set to [!UICONTROL Apply to only unset values], the first rule that sets a classification value applies.
+* **[!UICONTROL Select rule type]**: The rule criteria. Options include [!UICONTROL Contains], [!UICONTROL Ends with], [!UICONTROL Regular expression], [!UICONTROL Regular expression], and [!UICONTROL Starts with].
+* **[!UICONTROL Enter match criteria]**: The text string to match. If you select [!UICONTROL Regular expression] as the rule type, an overlay appears that lets you enter the value, test the regular expression, and provides sample syntax.
+* **[!UICONTROL Set classification]**: A drop-down list that sets the classification dimension that you want to assign a value to. Valid options include elements in your [schema](schema.md).
+* **[!UICONTROL To]**: The text string to set the classified value to. If the rule type is [!UICONTROL Regular expression], you can include a combination of text and match groups.
+
+-->

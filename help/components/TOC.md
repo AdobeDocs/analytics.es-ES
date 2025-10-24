@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
+source-git-commit: ab38a77ab496efb40a304ec7e5561009aa07946a
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 98%
 
 ---
 
@@ -203,7 +203,7 @@ ht-degree: 100%
       + [Resolución de problemas](segmentation/seg-reference/c-troubleshooting.md)
    + [Preguntas frecuentes sobre segmentos heredados](segmentation/seg-transition.md)
    + [Prácticas recomendadas](segmentation/best-practices.md)
-+ Métricas calculadas  {#calculated-metrics}
++ Métricas calculadas {#calculated-metrics}
    + [Información general](calculated-metrics/cm-overview.md)
    + [Vídeotutoriales](calculated-metrics/cm-videos.md)
    + Flujo de trabajo {#calcmetric-workflow}
@@ -264,16 +264,16 @@ ht-degree: 100%
    + Conjuntos de clasificación {#sets}
       + [Información general](classifications/sets/overview.md)
       + [Archivos de datos](classifications/sets/data-files.md)
-      + Administrar conjuntos de clasificación {#manage}
-         + [Administrador de conjuntos de clasificación](classifications/sets/manage/set-manager.md)
-         + [Crear un conjunto de clasificación](classifications/sets/manage/create.md)
-         + [Configuración del conjunto de clasificación](classifications/sets/manage/settings.md)
-         + [Esquema del conjunto de clasificación](classifications/sets/manage/schema.md)
-         + [Reglas del conjunto de clasificación](classifications/sets/manage/rules.md)
-      + [Administrador de trabajos de conjuntos de clasificación](classifications/sets/job-manager.md)
-      + Consolidaciones de los conjuntos de clasificación {#consolidations}
-         + [Administrador de consolidaciones](classifications/sets/consolidations/manage.md)
-         + [Proceso de consolidaciones](classifications/sets/consolidations/process.md)
+      + Conjuntos de clasificación {#manage}
+         + [Administrar](classifications/sets/manage/set-manager.md)
+         + [Crear y editar](classifications/sets/manage/create.md)
+         + [Configuración](classifications/sets/manage/settings.md)
+         + [Esquema](classifications/sets/manage/schema.md)
+         + [Reglas](classifications/sets/manage/rules.md)
+      + [Trabajos de clasificación](classifications/sets/job-manager.md)
+      + Consolidaciones de clasificación {#consolidations}
+         + [Administrar](classifications/sets/consolidations/manage.md)
+         + [Crear y editar](classifications/sets/consolidations/process.md)
    + Clasificación del generador de reglas (heredado){#classifications-rulebuilder}
       + [Información general](classifications/crb/classification-rule-builder.md)
       + [Conjuntos de reglas de clasificación](classifications/crb/classification-rule-set.md)

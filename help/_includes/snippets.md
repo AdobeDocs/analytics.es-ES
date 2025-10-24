@@ -1,7 +1,7 @@
 ---
-source-git-commit: d6e51ae2668bc25edea76640cdd97abef184fa3e
+source-git-commit: e1feb14b72956133f3d04a514a3446733e7a2af5
 workflow-type: tm+mt
-source-wordcount: '2997'
+source-wordcount: '2999'
 ht-degree: 87%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >[Report Builder](/help/analyze/report-builder/rb-overview.md) nuevo y optimizado se publicó el 16 de octubre de 2024. Es compatible con Mac, Windows y navegadores web.
->&#x200B;>Esta versión de complemento heredado de Report Builder sigue funcionando. Puede [convertir sus libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
+>>Esta versión de complemento heredado de Report Builder sigue funcionando. Puede [convertir sus libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
 
-## Anuncio del final de la vida útil de Reports & Analytics {#ra-eol}
+## Anuncio del final de la vida útil de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -203,6 +203,6 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 
 >[!WARNING]
 >
->El generador de reglas de clasificación está obsoleto y ya no se podrá acceder a él después del **31 de agosto de 2026**. Cambie a la experiencia [Conjuntos de clasificaciones](/help/components/classifications/sets/overview.md) para garantizar la funcionalidad continua.
+>El generador de reglas de clasificación está obsoleto y ya no se podrá acceder a él después del **31 de agosto de 2026**. Cambie a la experiencia [Conjuntos de clasificaciones](/help/components/classifications/sets/overview.md), una vez disponible, para garantizar la funcionalidad continua.
 >
 
