@@ -3,10 +3,10 @@ title: Configuración del conjunto de clasificaciones
 description: Obtenga información sobre cómo crear o editar un conjunto de clasificaciones.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 2%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
@@ -14,19 +14,26 @@ ht-degree: 2%
 
 Puede editar la configuración inicial de un conjunto de clasificaciones.
 
-En el administrador **[!UICONTROL Conjuntos de clasificaciones]**, seleccione el conjunto de clasificaciones para el que desea editar la configuración.
+Para editar la configuración de un conjunto de clasificaciones:
 
-En la ficha **[!UICONTROL Configuración]** del cuadro de diálogo **[!UICONTROL Conjunto de clasificaciones: _título del conjunto de clasificaciones_]**, donde corresponda:
+1. En el administrador **[!UICONTROL Conjuntos de clasificaciones]**, seleccione el conjunto de clasificaciones para el que desea editar el esquema.
+1. En el cuadro de diálogo **[!UICONTROL Conjunto de clasificaciones: _conjunto de clasificaciones_]**, seleccione la pestaña **[!UICONTROL Configuración]**.
 
-![Conjuntos de clasificaciones: configuración](assets/classification-sets-settings.png)
+1. En el cuadro de diálogo **[!UICONTROL Conjunto de clasificaciones: _conjunto de clasificaciones_]**, donde corresponda:
 
-1. Edite **[!UICONTROL Name]**.
-1. Editar una **[!UICONTROL descripción (opcional)]**.
-1. Editar la lista de direcciones de correo electrónico (separador de comas) en **[!UICONTROL Notificar problemas]**. Se notifica a estos usuarios por correo electrónico de cualquier problema.
-1. Agregue una o más **[!UICONTROL etiquetas (opcionales)]** al conjunto de clasificaciones. Seleccione una etiqueta existente del menú desplegable **[!UICONTROL Etiquetas]** o escriba una etiqueta nueva. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) para quitar una etiqueta.
-1. Editar las **[!UICONTROL suscripciones]**.
-   * Puede definir varias combinaciones de **[!UICONTROL Grupo de informes]** y **[!UICONTROL Dimension]** en un conjunto de clasificaciones.
-   * Seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para eliminar una combinación de **[!UICONTROL Grupo de informes]** y **[!UICONTROL Dimension clave]**.
+   ![Conjuntos de clasificaciones: configuración](assets/classification-sets-settings.png)
+
+   1. Edite **[!UICONTROL Name]**.
+   1. Editar una **[!UICONTROL descripción (opcional)]**.
+   1. Editar la lista de direcciones de correo electrónico (separador de comas) en **[!UICONTROL Notificar problemas]**. Se notifica a estos usuarios por correo electrónico de cualquier problema.
+   1. Agregue una o más **[!UICONTROL etiquetas (opcionales)]** al conjunto de clasificaciones. Seleccione una etiqueta existente del menú desplegable **[!UICONTROL Etiquetas]** o escriba una etiqueta nueva. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) para quitar una etiqueta.
+   1. Editar las **[!UICONTROL suscripciones]**.
+      * Puede definir varias combinaciones de **[!UICONTROL Grupo de informes]** y **[!UICONTROL Dimension]** en un conjunto de clasificaciones.
+      * Seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para eliminar una combinación de **[!UICONTROL Grupo de informes]** y **[!UICONTROL Dimension clave]**.
+
+      Consulte [Crear un conjunto de clasificaciones](create.md) para obtener más información.
+
+   1. Seleccione **[!UICONTROL Guardar]** para guardar la configuración. Seleccione **[!UICONTROL Cancelar]** para cancelar.
 
 
 <!--

@@ -3,7 +3,7 @@ title: Esquema del conjunto de clasificaciones
 description: Obtenga información sobre cómo ver y editar el esquema de un conjunto de clasificaciones individual.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 4%
@@ -14,10 +14,10 @@ ht-degree: 4%
 
 El esquema es la lista de clasificaciones que desea aplicar a las dimensiones clave definidas para el conjunto de clasificaciones. Por ejemplo, si ha definido el producto como la dimensión clave y este campo contiene un SKU de producto, utilice el esquema para agregar clasificaciones como el nombre del producto, el color del producto, el tamaño del producto, etc.
 
-Para definir el esquema de un conjunto de clasificaciones:
+Para editar el esquema de un conjunto de clasificaciones:
 
 1. En el administrador **[!UICONTROL Conjuntos de clasificaciones]**, seleccione el conjunto de clasificaciones para el que desea editar el esquema.
-1. En el cuadro de diálogo **[!UICONTROL Conjunto de clasificaciones: _conjunto de clasificaciones_]**, seleccione la pestaña Esquema. Esa pestaña consta de los siguientes elementos de interfaz:
+1. En el cuadro de diálogo **[!UICONTROL Conjunto de clasificaciones: _conjunto de clasificaciones_]**, seleccione la pestaña **[!UICONTROL Esquema]**. Esa pestaña consta de los siguientes elementos de interfaz:
 
    ![Conjuntos de clasificaciones: esquema](assets/classification-sets-schema.png)
 
@@ -61,7 +61,7 @@ Para agregar una nueva clasificación, seleccione ![Agregar](/help/assets/icons/
 
 ![Conjuntos de clasificaciones: agregar clasificación al esquema](assets/classification-sets-schema-add-classification.png)
 
-En el cuadro de diálogo **[!UICONTROL Agregar una nueva clasificación para _conjunto de clasificaciones_]**, escriba el **[!UICONTROL Nombre de clasificación]**&#x200B;y seleccione **[!UICONTROL Agregar]**. La clasificación se añade a la lista.
+En el cuadro de diálogo **[!UICONTROL Agregar una nueva clasificación para _conjunto de clasificaciones_]**, escriba el **[!UICONTROL Nombre de clasificación]**y seleccione **[!UICONTROL Agregar]**. La clasificación se añade a la lista.
 
 
 
@@ -170,7 +170,7 @@ En el cuadro de diálogo **[!UICONTROL Asociar/actualizar ubicación de ingesta 
 
 1. Para notificar a los usuarios la finalización de los trabajos de ingesta, escriba las direcciones de correo electrónico, separadas por comas, de **[!UICONTROL Correo electrónico para notificar cuando se completen los trabajos de ingesta (separados por comas)]**.
 1. Seleccione **[!UICONTROL Validar]**. Se valida la conexión con la ubicación de nube.
-1. Si la validación se realiza correctamente, verá un mensaje de mensaje que muestra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validación de ubicación correcta. Conexión al almacenamiento en la nube verificada.]**<br/>Seleccione&#x200B;**[!UICONTROL &#x200B; Guardar &#x200B;]**&#x200B;si ha creado la conexión con la conexión en la nube. De lo contrario, seleccione&#x200B;**[!UICONTROL &#x200B; Actualizar &#x200B;]**. O bien, seleccione&#x200B;**[!UICONTROL &#x200B; Cancelar &#x200B;]**&#x200B;para cancelar la configuración de la ubicación de la nube.
+1. Si la validación se realiza correctamente, verá un mensaje de mensaje que muestra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validación de ubicación correcta. Conexión al almacenamiento en la nube verificada.]**<br/>Seleccione**[!UICONTROL  Guardar ]**si ha creado la conexión con la conexión en la nube. De lo contrario, seleccione**[!UICONTROL  Actualizar ]**. O bien, seleccione**[!UICONTROL  Cancelar ]**para cancelar la configuración de la ubicación de la nube.
 
 
 ## Barra de acciones
@@ -182,7 +182,7 @@ La barra de acciones muestra las acciones disponibles para el conjunto de clasif
 | ![Examinar](/help/assets/icons/Browse.svg) | **[!UICONTROL Agregar búsqueda]** | Agregue un conjunto de clasificaciones como búsqueda (subclasificación).<br/>En la tabla **[!UICONTROL Adjuntar búsqueda]**: <ol><li>Seleccione una clasificación de búsqueda en el menú desplegable **[!UICONTROL Nombre de clasificación]**.</li><li>Seleccione **[!UICONTROL Añadir]**.</li></ol>La clasificación de búsqueda se agrega a la clasificación y se enumera en la columna **[!UICONTROL Clasificado por]** mediante el identificador interno. |
 | ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Quitar búsqueda]** | Elimine un conjunto de clasificaciones como una búsqueda. Para eliminar la búsqueda permanentemente de la clasificación, en el cuadro de diálogo de confirmación **[!UICONTROL Quitar _conjunto de clasificación_ de _clasificación_]**, seleccione **[!UICONTROL Eliminar]**. |
 | ![Cambiar el nombre](/help/assets/icons/Rename.svg) | **[!UICONTROL Cambiar el nombre]** | Cambie el nombre de una clasificación. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: _clasificación_]**, escriba un nombre nuevo y seleccione **[!UICONTROL Cambiar nombre]**. |
-| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar un conjunto de clasificaciones. Aparecerá el cuadro de diálogo **[!UICONTROL Eliminar _clasificación_]**. Seleccione **[!UICONTROL Eliminar]**&#x200B;para eliminar el conjunto de clasificaciones. |
+| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar un conjunto de clasificaciones. Aparecerá el cuadro de diálogo **[!UICONTROL Eliminar _clasificación_]**. Seleccione **[!UICONTROL Eliminar]**para eliminar el conjunto de clasificaciones. |
 
 
 <!--
