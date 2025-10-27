@@ -3,9 +3,9 @@ title: Crear Y Editar Consolidaciones De Clasificación
 description: Explica cómo crear, validar, ejecutar, aprobar y cancelar consolidaciones de clasificación.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ Para editar una consolidación de clasificación, en la interfaz principal de Ad
 1. Seleccione **[!UICONTROL Conjuntos de clasificaciones]** en el menú **[!UICONTROL Componentes]**.
 1. En el administrador de **[!UICONTROL Conjuntos de clasificaciones]**, seleccione la pestaña **[!UICONTROL Consolidaciones]**.
 1. En el administrador de **[!UICONTROL consolidaciones de conjuntos de clasificaciones]**:
-   1. Seleccione el título de la consolidación de clasificación. Aparecerá el cuadro de diálogo Consolidación: consolidación de clasificación. El aspecto y las acciones disponibles dependen del estado actual de la consolidación y de si todavía tiene la opción de modificar la consolidación de clasificación.
+   1. Seleccione el nombre de la consolidación de clasificación. Aparecerá el cuadro de diálogo **[!UICONTROL Consolidación: _nombre de consolidación de clasificación_]**. El aspecto y las acciones disponibles dependen del estado actual de la consolidación y de si todavía tiene la opción de modificar la consolidación de clasificación.
 
       | Acciones disponibles | Descripción |
       |---|---|

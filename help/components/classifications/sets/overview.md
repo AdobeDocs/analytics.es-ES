@@ -3,9 +3,9 @@ title: Información general sobre los conjuntos de clasificaciones
 description: Aprenda a utilizar los conjuntos de clasificaciones para administrar los datos de clasificación. Comprenda cómo los conjuntos de clasificaciones difieren de las clasificaciones heredadas.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '800'
 ht-degree: 11%
 
 ---
@@ -23,7 +23,7 @@ En las clasificaciones heredadas, cada clasificación está directamente vincula
 
 ![Clasificación heredada](manage/assets/classifications-legacy.svg)
 
-En los conjuntos de clasificaciones, puede definir suscripciones de grupos de informes y combinaciones de dimensiones clave. Por ejemplo, una clasificación de catálogo de productos aplicable a varios grupos de informes solo tiene que definirla una vez como conjunto de clasificaciones. Y dentro de ese conjunto de clasificaciones, puede configurar varios grupos de informes y combinaciones de dimensiones clave para suscribirse a ese conjunto de clasificaciones.
+En los conjuntos de clasificaciones, puede definir suscripciones de grupos de informes y combinaciones de dimensiones clave. Por ejemplo, una clasificación de catálogo de productos que sea aplicable a varios grupos de informes y que esté basada en una dimensión de producto (SKU), solo deberá definirla una vez como conjunto de clasificación. Y dentro de ese conjunto de clasificaciones, puede configurar varios grupos de informes y combinaciones de dimensiones clave para suscribirse a ese conjunto de clasificaciones.
 
 ![Conjuntos de clasificaciones](manage/assets/classifications-sets.svg)
 
@@ -42,7 +42,7 @@ Los conjuntos de clasificaciones constan de tres áreas funcionales:
 El flujo de trabajo para los conjuntos de clasificaciones suele incluir los siguientes pasos:
 
 1. Piense en las combinaciones de grupo de informes y dimensión para las que desea crear un conjunto de clasificaciones. Un ejemplo es definir un conjunto de clasificación de productos que cree para cualquier grupo de informes en el que desee clasificar productos con más detalles. Por ejemplo, detalles como categoría y color.
-1. [Cree un conjunto de clasificaciones](/help/components/classifications/sets/manage/create.md) con suscripciones para uno o más grupos de informes y combinaciones de dimensiones que identifiquen productos. Por ejemplo:
+1. [Cree un conjunto de clasificaciones](/help/components/classifications/sets/manage/create.md) con suscripciones para uno o más grupos de informes y combinaciones de dimensiones clave que identifiquen productos. Por ejemplo:
 
    | Grupo de informes | Dimensión clave |
    |---|---|
@@ -77,13 +77,15 @@ El flujo de trabajo para los conjuntos de clasificaciones suele incluir los sigu
    Adobe and MGM Tee - Charcoal,Women,Charcoal
    ```
 
+En el archivo de datos de clasificación, hace referencia a la dimensión clave de cada grupo de informes (por ejemplo: **[!UICONTROL ID del producto]** y **[!UICONTROL SKU del producto]**) con `Key`. Y hace referencia a cada clasificación con el **[!UICONTROL Nombre de clasificación]** (por ejemplo `Category` o `Color`).
+
 1. [Cargue](/help/components/classifications/sets/manage/schema.md#upload) el archivo que contiene los datos de clasificación en el esquema del conjunto de clasificaciones.
 
 1. [Automatice](/help/components/classifications/sets/manage/schema.md#automate) el proceso de actualizaciones de su catálogo de productos que desea ver reflejado en los datos de clasificación mediante el uso de una ubicación en la nube.
 
 1. [Descargue](/help/components/classifications/sets/manage/schema.md#download) los datos de clasificación para validar el contenido.
 
-1. [Inspeccione el historial de trabajos](/help/components/classifications/sets/job-manager.md) para ver sus acciones (importar, exportar, etc.) en las clasificaciones.
+1. [Inspeccione el historial de trabajos](/help/components/classifications/sets/job-manager.md) para ver los resultados de sus acciones (carga, descarga, plantilla y mucho más) en las clasificaciones.
 1. Si tiene varios conjuntos de clasificaciones similares como resultado de una migración desde la funcionalidad de clasificación heredada, [consolide](consolidations/manage.md) estos conjuntos de clasificaciones.
 
 
@@ -94,7 +96,7 @@ La arquitectura back-end lanzada con conjuntos de clasificaciones contiene varia
 
 * Reducción del tiempo de procesamiento (de 72 a 24 horas).
 * Una interfaz de usuario rediseñada para administrar clasificaciones.
-* Opción para usar datos de clasificación en Adobe Experience Platform a través del [conector de origen de Adobe Analytics para los datos de clasificación](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* Opción para usar datos de clasificación en Adobe Experience Platform a través del [conector de origen de Adobe Analytics para los datos de clasificación](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 La arquitectura back-end lanzada con conjuntos de clasificaciones también contiene varios cambios:
 
