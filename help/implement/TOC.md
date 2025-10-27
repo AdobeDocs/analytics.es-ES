@@ -7,7 +7,7 @@ user-guide-description: Aprenda formas de implementar Adobe Analytics. Personali
 source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -131,14 +131,14 @@ ht-degree: 94%
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [Integración de módulos](vars/integrate.md)
-+ Identificación de visitante {#id}
++ Identificación de visitantes {#id}
    + [Información general](id/overview.md)
-   + [Uso de la extensión Web SDK](id/web-sdk-extension.md)
-   + [Uso de Web SDK (Alloy)](id/alloy.md)
+   + [Uso de la extensión del SDK web](id/web-sdk-extension.md)
+   + [Uso del SDK web (Alloy)](id/alloy.md)
    + [Uso de la extensión de Analytics](id/analytics-extension.md)
    + [Uso de AppMeasurement](id/appmeasurement.md)
    + [Migración al servicio de ID de visitante](id/migration.md)
-   + [Seguimiento entre tipos de implementación](id/cross-type-implementation.md)
+   + [Seguimiento en tipos de implementación](id/cross-type-implementation.md)
 + Preparar la implementación de Adobe Analytics {#prepare}
    + [Creación de una capa de datos](prepare/data-layer.md)
    + [Comparación de los métodos de implementación](prepare/comparison.md)
