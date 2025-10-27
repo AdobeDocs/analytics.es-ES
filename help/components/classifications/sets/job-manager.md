@@ -3,9 +3,9 @@ title: Administrador de trabajos de clasificación
 description: Obtenga información sobre cómo ver los trabajos de clasificación actuales y completados que se generan a partir de conjuntos de clasificaciones.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,8 @@ El Administrador de trabajos de clasificación muestra los trabajos de clasifica
 
 Para ver y actuar sobre los trabajos de clasificación:
 
-1. Seleccione **[!UICONTROL Componentes]** en la interfaz principal y luego seleccione **[!UICONTROL Conjuntos de clasificaciones]**.
+
+1. Seleccione **[!UICONTROL Componentes]** en la barra de menús superior de Adobe Analytics y, a continuación, seleccione **[!UICONTROL Conjuntos de clasificaciones]**.
 1. En **[!UICONTROL Conjuntos de clasificaciones]**, seleccione la ficha **[!UICONTROL Trabajos]**.
 
 ## Administrador de trabajos de clasificación
@@ -36,7 +37,7 @@ La lista **[!UICONTROL Trabajos de clasificación]** ➊ muestra los trabajos de
 | **[!UICONTROL Id. de trabajo]** | El identificador del trabajo de clasificación. |
 | **[!UICONTROL Conjunto de clasificaciones]** | El conjunto de clasificaciones asociado con el trabajo de clasificación. |
 | **[!UICONTROL Tamaño]** | El tamaño del archivo que se exportó o importó como parte del trabajo de clasificación. |
-| **[!UICONTROL Estado]** | El estado del trabajo de clasificación. Los valores posibles son: **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]**, **[!UICONTROL Completed]** o **[!UICONTROL Progress]**. |
+| **[!UICONTROL Estado]** | El estado del trabajo de clasificación. Los valores posibles son: **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]**, **[!UICONTROL Completed]** o **[!UICONTROL Progress]**. Si se muestra, pase el ratón sobre la alerta ![Alerta](/help/assets/icons/Alert.svg) para ver información adicional. |
 | **[!UICONTROL Nombre del archivo]** | Identifica el nombre o la funcionalidad utilizados para importar o exportar el archivo como parte del trabajo de clasificación. Entre los posibles valores están: <ul><li>*sin valor*</li><li>El nombre del archivo que se procesa como parte del trabajo de clasificación.</li><li>**[!UICONTROL Exportación de SAINT]**: el trabajo es una exportación desde la [interfaz de clasificaciones heredadas](/help/components/classifications/importer/c-working-with-saint.md).</li><li>**[!UICONTROL exportación para _conjunto de clasificación_ en _marca de tiempo_]**: el trabajo es una descarga desde la interfaz de [esquema](manage/schema.md#download).</li></ul> |
 | **[!UICONTROL Tipo de trabajo]** | El tipo de trabajo de clasificación. Los valores posibles son: **[!UICONTROL Importar]** o **[!UICONTROL Exportar]**. |
 | **[!UICONTROL Fuente]** | Origen del trabajo de clasificación. Los valores posibles son: **[!UICONTROL API web]**, **[!UICONTROL Carga directa de API]**, **[!UICONTROL Adobe]**, **[!UICONTROL SAINT]** o **[!UICONTROL Desconocido]**. |

@@ -3,9 +3,9 @@ title: Crear conjuntos de clasificaciones
 description: Obtenga información sobre los campos disponibles y las descripciones al crear un conjunto de clasificaciones.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ Usted [crea](#create-a-classification-set) y [edita](#edit-a-classification-set)
 
 ## Crear un conjunto de clasificación
 
-Para crear un conjunto de clasificaciones, en la interfaz principal:
+Para crear un conjunto de clasificaciones:
 
-1. Seleccione **[!UICONTROL Componentes]** en la interfaz principal y luego seleccione **[!UICONTROL Conjuntos de clasificaciones]**.
+1. Seleccione **[!UICONTROL Componentes]** en la barra de menús superior de Adobe Analytics y, a continuación, seleccione **[!UICONTROL Conjuntos de clasificaciones]**.
 1. En **[!UICONTROL Conjuntos de clasificaciones]**, seleccione la pestaña **[!UICONTROL Conjuntos de clasificaciones]**.
 1. Seleccione ![AgregarCírculo](/help/assets/icons/AddCircle.svg) **[!UICONTROL Nuevo]**.
 1. En el diálogo **[!UICONTROL Agregar nuevo conjunto de clasificaciones]**:
@@ -42,9 +42,9 @@ Para crear un conjunto de clasificaciones, en la interfaz principal:
 
 ## Editar un conjunto de clasificaciones
 
-Para editar un conjunto de clasificaciones, en la interfaz principal:
+Para editar un conjunto de clasificaciones:
 
-1. Seleccione **[!UICONTROL Componentes]** en la interfaz principal y luego seleccione **[!UICONTROL Conjuntos de clasificaciones]**.
+1. Seleccione **[!UICONTROL Componentes]** en la barra de menús superior de Adobe Analytics y, a continuación, seleccione **[!UICONTROL Conjuntos de clasificaciones]**.
 1. En **[!UICONTROL Conjuntos de clasificaciones]**, seleccione la pestaña **[!UICONTROL Conjuntos de clasificaciones]**.
 1. Seleccione el título del conjunto de clasificaciones.
 1. En el cuadro de diálogo **[!UICONTROL Conjunto de clasificaciones: _título del conjunto de clasificaciones_]**, puede definir la [configuración](settings.md) y el [esquema](schema.md) para el conjunto de clasificaciones.

@@ -3,9 +3,9 @@ title: Administrar consolidaciones de conjuntos de clasificaciones
 description: Obtenga información sobre cómo consolidar uno o más conjuntos de clasificaciones en un único conjunto.
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '597'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Debe tener acceso de administrador de productos para Adobe Analytics para ver el
 
 Para administrar consolidaciones de clasificación:
 
-1. Seleccione **[!UICONTROL Componentes]** en la interfaz principal y luego seleccione **[!UICONTROL Conjuntos de clasificaciones]**.
+1. Seleccione **[!UICONTROL Componentes]** en la barra de menús superior de Adobe Analytics y, a continuación, seleccione **[!UICONTROL Conjuntos de clasificaciones]**.
 1. En **[!UICONTROL Conjuntos de clasificaciones]**, seleccione la pestaña **[!UICONTROL Consolidaciones]**.
 
 
