@@ -4,10 +4,10 @@ title: Comparación de fechas
 feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+source-git-commit: 27ec105290ea4d093251fc6cf537d57a94015403
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 86%
 
 ---
 
@@ -20,6 +20,11 @@ La comparación de fechas de Analysis Workspace le permite tomar cualquier colum
 El análisis requiere contexto, y este lo proporciona a menudo un período de tiempo previo. Por ejemplo, la pregunta *¿Cuánto más favorable o peor le va ahora en comparación con el año pasado por estas fechas?* es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna *diferencia* que muestra el cambio porcentual en comparación con un período de tiempo concreto.
 
 1. Cree una [tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) con cualquier dimensión y métrica que quiera comparar a lo largo de un período de tiempo.
+1. Establezca el período de tiempo en el panel o la columna para determinar el lapso de tiempo de comparación, y si es una comparación de tiempo móvil o fijo.
+
+   Para crear una comparación de tiempo móvil, establezca el intervalo de fechas del panel o la columna en un intervalo de fechas móvil (por ejemplo, **[!UICONTROL últimos 7 días]**, **[!UICONTROL últimos 30 días]**, etc.).
+
+   Para crear una comparación de tiempo fijo, establezca el intervalo de fechas del panel o la columna en un intervalo de fechas personalizado.
 1. Abra el menú contextual de una fila de la tabla y seleccione **[!UICONTROL Comparar períodos de tiempo]**.
 
    ![Fila de tabla con períodos de tiempo de comparación seleccionados](assets/compare-time.png)
@@ -28,7 +33,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un período de ti
    >
    >Esta opción del botón secundario está deshabilitada para filas de métricas, filas de intervalos de fechas y filas de dimensiones de tiempo.
 
-1. Dependiendo de cómo haya establecido el intervalo de fechas de la tabla, dispone de estas opciones para la comparación:
+1. Según cómo haya configurado el intervalo de fechas de la tabla, tiene estas opciones para comparar:
 
    | Opción | Descripción |
    |---|---|
@@ -54,7 +59,7 @@ Ahora puede añadir un período de tiempo a cada columna en una tabla, lo que pe
 
    ![](assets/add-time-period-column.png)
 
-1. Dependiendo de cómo haya establecido el intervalo de fechas de la tabla, dispone de estas opciones para la comparación:
+1. Según cómo haya configurado el intervalo de fechas de la tabla, tiene estas opciones para comparar:
 
    | Opción | Descripción |
    |---|---|
@@ -101,7 +106,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://video.tv.adobe.com/v/33836?quality=12&learn=on&captions=spa){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
