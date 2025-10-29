@@ -3,7 +3,7 @@ title: Introducción a los canales de marketing
 description: Obtenga información sobre el flujo de trabajo de Canales de marketing, la configuración automática y cómo aplicar la configuración del grupo de informes de plantilla a varios grupos de informes.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 97%
@@ -53,7 +53,7 @@ Consulte [Agregar canales](/help/admin/tools/manage-rs/edit-settings/marketing-c
 
 Después de crear los canales en la página [!UICONTROL Administrador de canales de marketing], configure las reglas para que esos canales puedan recuperar datos y crear informes.
 
-Consulte [Reglas de procesamiento para los canales de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
+Consulte [Reglas de procesamiento para los canales de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md).
 
 Si los canales se han creado en la configuración automática, las reglas de los canales ya estarán definidas. Puede modificarlas para adaptarlas a sus necesidades.
 

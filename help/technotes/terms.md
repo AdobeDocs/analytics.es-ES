@@ -3,7 +3,7 @@ title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -85,7 +85,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Llamada primaria al servidor:** nombre alternativo para las solicitudes de imagen o las visitas que se utiliza principalmente en el contexto del etiquetado y de la facturación de grupos múltiples. Cuando se envía la misma visita a varios grupos de informes, el primer grupo de informes es una llamada primaria al servidor, mientras que el resto son llamadas secundarias al servidor. Esta regla se aplica a todos los tipos de visitas, lo cual incluye la vista de página y el seguimiento de vínculos. Consulte también Llamadas secundarias al servidor.
 * **Reglas de procesamiento:** puede hacer referencia a:
    * Reglas de procesamiento, una forma de modificar la recopilación de datos mediante ciertas reglas de Admin Console. Consulte [Reglas de procesamiento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) en la guía de usuario de administración.
-   * Reglas de procesamiento del canal de marketing, un conjunto de reglas que determina a qué canal de marketing pertenece una visita. Consulte [Reglas de procesamiento del canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) en la guía de usuario de administración.
+   * Reglas de procesamiento del canal de marketing, un conjunto de reglas que determina a qué canal de marketing pertenece una visita. Consulte [Reglas de procesamiento del canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) en la guía de usuario de administración.
 * **Prop:** Consulte Variable de tráfico.
 * **Informe de clasificación:** formato de informe que suele mostrar métricas para las dimensiones. Este tipo de informe permite ver los elementos principales, como las páginas más vistas del sitio. Consulte también Informe de tendencias.
 * **Tiempo real:** muestra con poca o ninguna latencia las variables configuradas en cuanto se recopilan. Consulte [Informes en tiempo real](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) en la guía de usuario de administración.
