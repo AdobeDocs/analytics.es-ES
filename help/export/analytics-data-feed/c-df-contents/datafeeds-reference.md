@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 8866608bc6d4e31c876c08894a90bfb982a7d19e
+source-git-commit: 25a50bafe355443e52969f24922ce4a40742e338
 workflow-type: tm+mt
-source-wordcount: '3680'
+source-wordcount: '3690'
 ht-degree: 58%
 
 ---
@@ -26,7 +26,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 >
 >La mayoría de las columnas contienen una columna similar con el prefijo `post_`. Las columnas de publicación muestran valores después de la lógica del lado del servidor, las reglas de procesamiento y las reglas de VISTA. Adobe recomienda usar columnas de publicación en la mayoría de los casos. Consulte [Preguntas frecuentes sobre fuentes de datos](../df-faq.md) para obtener más información.
 
-Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones en GitHub](https://github.com/AdobeDocs/analytics.es-ES/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones en GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 
 | Nombre de la columna | Descripción de columna | Tipo de datos |
 | --- | --- | --- |
@@ -165,7 +165,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`purchaseid`** | Identificador único de una compra, tal y como se establece mediante la variable [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Lo utiliza la columna `duplicate_purchase`. | char(20) |
 | **`quarterly_visitor`** | Un indicador que determina si la visita es un visitante nuevo trimestral. | tinyint sin firmar |
 | **`ref_domain`** | La dimensión [Dominio de referencia](/help/components/dimensions/referring-domain.md). Basado en la columna `referrer`. | varchar(100) |
-| **`ref_type`** | ID numérico que representa el tipo de referente de la visita. Se utiliza en la dimensión [Tipo de referente](/help/components/dimensions/referrer-type.md). <ul><li>Dentro del sitio</li><li>Otros sitios web</li> <li>Motores de búsqueda</li> <li> Herramientas de inteligencia artificial conversacional</li><li>Disco duro</li> <li>USENET</li> <li>Escritos o marcados (sin referente)</li> <li>Correo electrónico</li> <li>No hay JavaScript</li> <li>Redes sociales</li></ul> | tinyint sin firmar |
+| **`ref_type`** | ID numérico que representa el tipo de referente de la visita. Se utiliza en la dimensión [Tipo de referente](/help/components/dimensions/referrer-type.md). <p>1: Dentro del sitio</p><p>2: Otros sitios web</p> <p>3: Motores de búsqueda</p> <p>4: Disco duro</p> <p>5: USENET</p> <p>6: Escrito o añadido como marcador (sin referente)</p> <p>7: Correo electrónico</p> <p>8: Sin JavaScript</p> <p>9: Redes sociales</p><p>10: Herramientas de IA conversacional</p> | tinyint sin firmar |
 | **`referrer`** | La dimensión [Referente](/help/components/dimensions/referrer.md). Tenga en cuenta que mientras `referrer` utiliza un tipo de datos de varchar(255), `post_referrer` emplea un tipo de datos de varchar(244). | varchar(255) |
 | **`resolution`** | ID numérico que representa la resolución del monitor. Se utiliza en la dimensión [Resolución del monitor](/help/components/dimensions/monitor-resolution.md). Utiliza la tabla de búsqueda `resolution.tsv`. | smallint sin firmar |
 | **`s_kwcid`** | ID de palabra clave utilizado en las integraciones de Adobe Advertising. | varchar(255) |
@@ -410,4 +410,4 @@ La siguiente lista de columnas no se utiliza, se retira o no contiene valor en l
 >[!MORELIKETHIS]
 >
 >[Asignación de variables de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md)
->[Asignación de variables de objeto de datos &#x200B;](/help/implement/aep-edge/data-var-mapping.md)
+>[Asignación de variables de objeto de datos ](/help/implement/aep-edge/data-var-mapping.md)
