@@ -23,7 +23,7 @@ La mayoría de los campos de objeto XDM de esta tabla coinciden con un [campo de
 
 ## Asignación de campo de objeto XDM
 
-Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones en GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md).
+Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones en GitHub](https://github.com/AdobeDocs/analytics.es-ES/commits/main/help/implement/aep-edge/xdm-var-mapping.md).
 
 | Ruta de campo XDM | Variable y descripción de Analytics |
 | --- | --- |

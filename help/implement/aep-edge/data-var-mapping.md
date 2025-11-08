@@ -25,7 +25,7 @@ Algunos campos de objetos de datos también admiten su [valor de parámetro de c
 
 ## Asignación de campos de objeto de datos
 
-Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones de esta página en GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Al igual que las variables de AppMeasurement, todos los campos de objetos de datos distinguen entre mayúsculas y minúsculas.
+Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones de esta página en GitHub](https://github.com/AdobeDocs/analytics.es-ES/commits/main/help/implement/aep-edge/data-var-mapping.md). Al igual que las variables de AppMeasurement, todos los campos de objetos de datos distinguen entre mayúsculas y minúsculas.
 
 | Ruta del campo del objeto de datos | Variable y descripción de Analytics |
 | --- | --- |
