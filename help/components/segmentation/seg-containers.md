@@ -47,7 +47,7 @@ Cada contenedor le permite realizar informes basados en el historial del visitan
 
 >[!BEGINSHADEBOX]
 
-Consulte el vídeo de demostración ![VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}.
+Consulte el vídeo de demostración ![VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://video.tv.adobe.com/v/3429101?captions=spa&quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
