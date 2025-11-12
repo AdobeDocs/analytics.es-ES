@@ -3,10 +3,10 @@ title: Dimensiones del ciclo de vida móvil
 description: Dimensiones basadas en los datos recopilados con Mobile SDK.
 feature: Dimensions
 exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
-source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 26%
+source-wordcount: '177'
+ht-degree: 23%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 26%
 
 | Nombre de dimensión de ciclo vital | Descripción | Variable de datos de contexto |
 | --- | --- | --- |
-| [!UICONTROL Fecha de primer inicio] | | Por determinar |
+| [!UICONTROL Fecha de primer inicio] | | |
 | [!UICONTROL Nombre de dispositivo (SDK)] | | `a.DeviceName` |
 | [!UICONTROL Versión del sistema operativo (SDK)] | | `a.OSVersion` |
 | [!UICONTROL Resolución (SDK)] | | `a.Resolution` |
@@ -33,16 +33,16 @@ ht-degree: 26%
 | [!UICONTROL Distancia hasta el centro del punto de interés] | | `a.loc.dist` |
 | [!UICONTROL Número de inicios] | | `a.Launches` |
 | [!UICONTROL Días transcurridos desde el primer uso] | | `a.DaysSinceFirstUse` |
-| [!UICONTROL Nombre de acción] | | Por determinar |
+| [!UICONTROL Nombre de acción] | | |
 | [!UICONTROL Valor de duración (evar)] | | `a.ltv.amount` |
-| [!UICONTROL Beacon mayor] | | Por determinar |
-| [!UICONTROL Beacon menor] | | Por determinar |
-| [!UICONTROL UUID de señalización] | | Por determinar |
-| [!UICONTROL Proximidad del Beacon] | | Por determinar |
+| [!UICONTROL Beacon mayor] | | |
+| [!UICONTROL Beacon menor] | | |
+| [!UICONTROL UUID de señalización] | | |
+| [!UICONTROL Proximidad del Beacon] | | |
 | [!UICONTROL Días transcurridos desde el último uso] | | `a.DaysSinceFirstUse` |
 | [!UICONTROL Hora del día (SDK)] | | `a.HourOfDay` |
 | [!UICONTROL Día de la semana (SDK)] | | `a.DayOfWeek` |
-| [!UICONTROL Id. de punto de interés] | | Por determinar |
+| [!UICONTROL Id. de punto de interés] | | |
 
 {style="table-layout:auto"}
 

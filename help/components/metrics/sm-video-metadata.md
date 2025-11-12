@@ -3,10 +3,10 @@ title: Métricas de metadatos de vídeo de los servicios de medios de streaming
 description: Métricas disponibles cuando se habilita [!UICONTROL Metadatos de vídeo] para un grupo de informes.
 feature: Metrics
 exl-id: b2f60a34-e139-4498-bf71-74d291759ef2
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 5%
+source-wordcount: '125'
+ht-degree: 4%
 
 ---
 
@@ -18,8 +18,6 @@ Las métricas de metadatos de vídeo de los servicios de medios de streaming pro
 
 Cuando habilita **[!UICONTROL Metadatos de vídeo]** en [Informes de contenidos](/help/admin/tools/manage-rs/edit-settings/media-management.md), está disponible la siguiente métrica:
 
-| Nombre de la métrica | Descripción | Enviado con | Variable de datos de contexto |
-| --- | --- | --- | --- |
-| Con autorización | Un booleano que establece un déclencheur cuando el usuario está autorizado a través de la autenticación de Adobe. | Inicio de contenidos, Cierre de contenidos | `a.media.pass.auth` |
-
-{style="table-layout:auto"}
+| Nombre de la métrica | Descripción | Enviado con | Variable de datos de contexto | Campo XDM |
+| --- | --- | --- | --- | --- |
+| **[!UICONTROL Autorizado]** | Un booleano que establece un déclencheur cuando el usuario está autorizado a través de la autenticación de Adobe. | Inicio de contenidos, Cierre de contenidos | `a.media.pass.auth` | `xdm.mediaCollection.`<br>`sessionDetails.authorized`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.authorized` |

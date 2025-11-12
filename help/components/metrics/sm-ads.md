@@ -3,9 +3,9 @@ title: Métricas y servicios de medios de streaming
 description: Métricas disponibles cuando se habilita [!UICONTROL Anuncios multimedia] para un grupo de informes.
 feature: Metrics
 exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '160'
 ht-degree: 5%
 
 ---
@@ -18,11 +18,9 @@ Las métricas y los servicios de medios de streaming proporcionan una funcionali
 
 Cuando habilita **[!UICONTROL Anuncios multimedia]** en [Informes multimedia](/help/admin/tools/manage-rs/edit-settings/media-management.md), están disponibles las siguientes métricas:
 
-| Nombre de la métrica | Descripción | Enviado con | Variable de datos de contexto |
-| --- | --- | --- | --- |
-| El anuncio finaliza | Se activa cuando se completa un anuncio de vídeo. | Cierre de publicidad | `a.media.ad.complete` |
-| El anuncio comienza | Se activa cuando se inicia un anuncio de vídeo. | Inicio del anuncio | `a.media.ad.view` |
-| Tiempo invertido en publicidad | Cantidad total de tiempo invertido en ver el anuncio, en segundos. | Cierre de publicidad | `a.media.ad.timePlayed` |
-| Tiempo invertido en contenido | Suma la duración del evento para todos los eventos de REPRODUCCIÓN (contenido principal y de publicidad), en segundos. | Cierre de medios | `a.media.totalTimePlayed` |
-
-{style="table-layout:auto"}
+| Nombre de la métrica | Descripción | Enviado con | Variable de datos de contexto | Campo XDM |
+| --- | --- | --- | --- | --- |
+| **[!UICONTROL Finalización del anuncio]** | Se activa cuando se completa un anuncio de vídeo. | Cierre de publicidad | `a.media.ad.complete` | `xdm.mediaReporting.`<br>`advertisingDetails.isCompleted` |
+| **[!UICONTROL El anuncio comienza]** | Se activa cuando se inicia un anuncio de vídeo. | Inicio del anuncio | `a.media.ad.view` | `xdm.mediaReporting.`<br>`advertisingDetails.isStarted` |
+| **[!UICONTROL Tiempo invertido en publicidad]** | Cantidad total de tiempo invertido en ver el anuncio, en segundos. | Cierre de publicidad | `a.media.ad.timePlayed` | `xdm.mediaReporting.`<br>`advertisingDetails.timePlayed` |
+| **[!UICONTROL Tiempo invertido en contenido]** | Suma la duración del evento para todos los eventos &#39;[!UICONTROL Reproducir]&#39; (contenido principal y de anuncio) en segundos. | Cierre de medios | `a.media.totalTimePlayed` | `xdm.mediaReporting.`<br>`sessionDetails.totalTimePlayed` |

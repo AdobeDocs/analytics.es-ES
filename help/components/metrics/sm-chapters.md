@@ -3,9 +3,9 @@ title: Métricas del capítulo de servicios de medios de streaming
 description: Métricas disponibles cuando habilitas [!UICONTROL Capítulos multimedia] para un grupo de informes.
 feature: Metrics
 exl-id: bef379d5-9dc9-404f-8197-1ba66d11299d
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '144'
 ht-degree: 5%
 
 ---
@@ -18,10 +18,8 @@ Las métricas de capítulo de los servicios de medios de streaming proporcionan 
 
 Cuando habilita **[!UICONTROL Capítulos multimedia]** en [Informes multimedia](/help/admin/tools/manage-rs/edit-settings/media-management.md), están disponibles las siguientes métricas:
 
-| Nombre de la métrica | Descripción | Enviado con | Variable de datos de contexto |
-| --- | --- | --- | --- |
-| El capítulo finaliza | Un booleano que entra en déclencheur cuando se completa un capítulo. | Cierre de capítulo | `a.media.chapter.complete` |
-| El capítulo comienza | Un booleano que entra en déclencheur cuando comienza un capítulo. | Inicio del capítulo. | `a.media.chapter.view` |
-| Tiempo dedicado al capítulo | Cantidad de tiempo empleado en el capítulo, en segundos. | Cierre de capítulo | `a.media.chapter.timePlayed` |
-
-{style="table-layout:auto"}
+| Nombre de la métrica | Descripción | Enviado con | Variable de datos de contexto | Campo XDM |
+| --- | --- | --- | --- | --- |
+| **[!UICONTROL El capítulo finaliza]** | Un booleano que entra en déclencheur cuando se completa un capítulo. | Cierre de capítulo | `a.media.chapter.complete` | `xdm.mediaReporting.`<br>`chapterDetails.isCompleted` |
+| **[!UICONTROL El capítulo comienza]** | Un booleano que entra en déclencheur cuando comienza un capítulo. | Inicio del capítulo. | `a.media.chapter.view` | `xdm.mediaReporting.`<br>`chapterDetails.isStarted` |
+| **[!UICONTROL Tiempo invertido en el capítulo]** | Cantidad de tiempo empleado en el capítulo, en segundos. | Cierre de capítulo | `a.media.chapter.timePlayed` | `xdm.mediaReporting.`<br>`chapterDetails.timePlayed` |

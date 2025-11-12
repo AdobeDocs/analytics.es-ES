@@ -4,10 +4,10 @@ title: Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado de
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 55%
+ht-degree: 47%
 
 ---
 
@@ -25,22 +25,22 @@ El reenvío del lado del servidor es bidireccional, lo que significa que cuando 
 
 ## Detalles de implementación {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
-Siga los pasos indicados en función del método de implementación.
+Según el método de implementación, siga estos pasos.
 
 | Método de implementación | Pasos |
 |--- |--- |
-| Etiquetas en Adobe Experience Platform | Si tiene instalada la extensión de Adobe Analytics, agregue la siguiente definición de variable de datos de contexto al editor de código personalizado dentro de la configuración de acción de una regla: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota: Defina la variable de datos contextuales y establézcala en 1 si un cliente no da su consentimiento para el marketing segmentado. Establezca la variable `contextdata` en *0* para los clientes que consientan el marketing dirigido. |
-| AppMeasurement | Agregue la definición de la variable de datos contextuales al archivo AppMeasurement.js: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota: Defina la variable de datos contextuales y establézcala en 1 si un cliente no da su consentimiento para el marketing dirigido. Establezca la variable de datos contextuales en 0 para los clientes que sí consientan el marketing dirigido. |
+| Etiquetas en Adobe Experience Platform | Si tiene instalada la extensión de Adobe Analytics, agregue la siguiente definición de variable de datos de contexto al editor de código personalizado dentro de la configuración de acción de una regla: <br/>`s.contextData['cm.ssf'] = '1'` <br/>Nota: Defina la variable de datos contextuales y establézcala en 1 si un cliente no da su consentimiento para el marketing segmentado. Establezca la variable `contextdata` en *0* para los clientes que consientan el marketing dirigido. |
+| AppMeasurement | Agregue la definición de la variable de datos contextuales al archivo AppMeasurement.js: <br/>`s.contextData['cm.ssf'] = '1'` <br/>Nota: Defina la variable de datos contextuales y establézcala en 1 si un cliente no da su consentimiento para el marketing dirigido. Establezca la variable de datos contextuales en 0 para los clientes que sí consientan el marketing dirigido. |
 
 ## Creación de informes (opcional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
 Puede utilizar Adobe Analytics para generar informes sobre el volumen de su tráfico consentido y que, como resultado, se ha reenviado del lado del servidor. De este modo, puede compararlo con el volumen de su tráfico no consentido y que, de igual manera, no se ha reenviado a Adobe Audience Manager.
 
-Para configurar este tipo de informes, asigne la nueva variable contextual a una variable de tráfico personalizado (prop) mediante reglas de procesamiento. Para ello, haga lo siguiente:
+Para configurar este tipo de informes, asigne la nueva variable de contexto a una variable de tráfico personalizada (prop) mediante reglas de procesamiento. Para ello
 
 1. Implemente la variable “cm.ssf” tal como se ha indicado anteriormente.
-1. [Habilite el elemento prop.](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
-1. Utilice reglas de procesamiento para asignar la variable contextual al elemento prop.
+1. [Habilitar la propiedad.](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
+1. Utilice reglas de procesamiento para asignar la variable de contexto a la prop.
 
    1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** y seleccione un grupo de informes.
    1. Haga clic en **[!UICONTROL Editar grupo de informes]** > **[!UICONTROL General]** > **[!UICONTROL Reglas de procesamiento]**.

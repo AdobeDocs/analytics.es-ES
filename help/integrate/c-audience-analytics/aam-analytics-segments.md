@@ -3,10 +3,10 @@ description: Tanto Analytics como Audience Manager emplean segmentos. Sin embarg
 title: Explicación de los segmentos en Analytics y Audience Manager
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ Un segmento de Audience Manager es un grupo de visitantes (ID de usuario) que cu
 * Intervalos de tiempo de vida (TTL). El abono a un segmento puede caducar pasado un tiempo establecido o continuar indefinidamente.
 * Momento de actualización y frecuencia. Definir cuándo y con qué frecuencia los usuarios tienen una interacción (realización de características) puede ayudar a crear segmentos basados en el nivel de interés real (o percibido) en un sitio, una sección o un creativo particular.
 
-El abono al segmento es fluido en Audience Manager. Los usuarios pueden entrar o salir de un segmento dependiendo de si cumplen o no los criterios del mismo en un momento dado. Esto significa que la población de un segmento de Audience Manager puede aumentar o reducirse con el tiempo.
+El abono al segmento es fluido en Audience Manager. Los usuarios pueden entrar o salir de un segmento dependiendo de si cumplen o no los criterios del mismo en un momento dado. Esto significa que la población de un segmento de Audience Manager puede aumentar o reducirse con el tiempo.
 
 Un segmento de Audience Manager aparece como una audiencia en Analytics.
 

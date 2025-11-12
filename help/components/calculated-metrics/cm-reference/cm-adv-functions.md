@@ -4,10 +4,10 @@ description: Obtenga información sobre las funciones avanzadas de métricas cal
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '5020'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Para obtener acceso a estas funciones, seleccione **[!UICONTROL Mostrar todo]** 
 
 ## Funciones de tabla en comparación con funciones de fila
 
-Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
+Una función de tabla es aquella en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es aquella en la que el resultado es diferente para cada fila de la tabla.
 
 Cuando sea aplicable y relevante, una función se anota con el tipo de función: [!BADGE Tabla]{type="Neutral"} o [!BADGE Fila]{type="Neutral"}
 
@@ -1474,9 +1474,9 @@ Devuelve la tangente del ángulo determinado. Si el ángulo se expresa en grados
 | métrica | La métrica para la que desea la puntuación Z |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos |
 
-Una puntuación Z de 0 (cero) significa que la puntuación es la misma que la media. Una variable estandarizada puede ser positiva o negativa, lo cual indica si está por encima o por debajo de la media y a cuantas desviaciones estándar.
+Una puntuación Z de 0 (cero) significa que la puntuación es la misma que la media. Una puntuación Z puede ser positiva o negativa, lo que indica si está por encima o por debajo de la media y por cuántas desviaciones estándar.
 
-La ecuación de variable estandarizada es:
+La ecuación para la puntuación Z es:
 
 ![](assets/z_score.png)
 
@@ -1538,7 +1538,7 @@ AND(logical_test1,[logical_test2],...)
 
 ## Approximate Count Distinct (dimension)
 
-Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts.&nbsp; It is configured to guarantee the value is within 5% of the actual value 95% of the time.
+Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts. It is configured to guarantee the value is within 5% of the actual value 95% of the time.
 
 ```
 Approximate Count Distinct (dimension)
