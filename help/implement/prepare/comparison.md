@@ -17,7 +17,7 @@ Consulte cómo se compara cada método de implementación de Adobe Analytics ent
 
 ## Web
 
-| | [AppMeasurement](/help/implement/js/overview.md) | [Extensión de Adobe Analytics](/help/implement/launch/overview.md) | [SDK web ](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [Extensión de Web SDK](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
+| | [AppMeasurement](/help/implement/js/overview.md) | [Extensión de Adobe Analytics](/help/implement/launch/overview.md) | [SDK web &#x200B;](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [Extensión de Web SDK](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
 | --- | --- | --- | --- | --- |
 | Requisitos de implementación | Hacer referencia a `AppMeasurement.js` en cada página, definir variables y enviar datos mediante `s.t()` a Adobe Analytics | Haga referencia al cargador de etiquetas en cada página y utilice la IU de recopilación de datos para definir variables y enviar datos a Adobe Analytics | Haga referencia a `Alloy.js` en cada página, utilice `alloy("sendEvent",{})` para componer objetos XDM y enviar los datos deseados mediante Edge Network a Adobe Analytics | Cargador de etiquetas de referencia en cada página, utilice la IU de recopilación de datos para componer objetos XDM y enviar los datos deseados mediante Edge Network a Adobe Analytics |
 | Destino de los datos | Enviado directamente a Adobe Analytics | Enviado directamente a Adobe Analytics | Enviado a Adobe Experience Platform Edge, que reenvía datos a Adobe Analytics | Enviado a Adobe Experience Platform Edge, que reenvía datos a Adobe Analytics |
