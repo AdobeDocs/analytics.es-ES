@@ -4,10 +4,10 @@ description: Obtenga información acerca de cómo las sugerencias del cliente re
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -64,7 +64,7 @@ Tenga en cuenta que fullVersionList no se recopila actualmente porque la versió
 En la tabla siguiente se describen las sugerencias del cliente a partir de octubre de 2022.
 
 | Sugerencia | Descripción | Entropía alta o baja | Ejemplo |
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | Sec-CH-UA | Explorador y versión significativa | Bajo | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | Dispositivo móvil (verdadero o falso) | Bajo | `true` |
 | Sec-CH-UA-Platform | Sistema operativo/Plataforma | Bajo | `"Android"` |

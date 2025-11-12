@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo administrar intervalos de fechas e
 feature: Date Ranges
 role: User
 exl-id: 48cda13f-ec4d-43fa-be24-51e2ab6044dd
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 30%
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ El administrador de intervalos de fechas tiene los siguientes elementos de inter
 La lista de intervalos de fechas ➊ muestra todos los intervalos de fechas. La lista tiene las siguientes columnas:
 
 | Columna | Descripción |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleccione para favorecer a ![Estrella](/help/assets/icons/Star.svg) o para anular la preferencia de ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) en un intervalo de fechas. |
 | **[!UICONTROL Título y descripción]** | Para editar el título y la descripción, seleccione el vínculo del título, que abre el [Generador de intervalos de fechas](create.md#date-range-builder). |
 | **[!UICONTROL Propietario]** | El propietario del intervalo de fecha. |
@@ -48,7 +48,7 @@ Puede realizar acciones en intervalos de fechas utilizando la barra de acciones 
 
 | Icono | Acción | Descripción |
 |:---:|---|---|
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Agregue]** | Agregue otro intervalo de fechas utilizando el generador de intervalos de fechas [1&rbrace;.](create.md#date-range-builder) |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Agregue]** | Agregue otro intervalo de fechas utilizando el generador de intervalos de fechas [1}.](create.md#date-range-builder) |
 | ![Buscar](/help/assets/icons/Search.svg) | [!UICONTROL *Buscar por título*] | Cuando no se selecciona ningún intervalo de fechas en la lista, busque intervalos de fechas utilizando este campo de búsqueda. |
 | ![Etiqueta](/help/assets/icons/Label.svg) | **[!UICONTROL Etiqueta]** | Etiquete los intervalos de fechas seleccionados. En el cuadro de diálogo **[!UICONTROL Intervalo de fecha de etiqueta]**, seleccione o anule la selección de las etiquetas para los intervalos de fecha seleccionados. Seleccione **[!UICONTROL Guardar]** para guardar las etiquetas de los intervalos de fechas seleccionados. |
 | ![Compartir](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Compartir]** | Compartir los intervalos de fechas seleccionados. En el cuadro de diálogo **[!UICONTROL Compartir intervalo de fechas]**, puede ![Buscar](/help/assets/icons/Search.svg) *Buscar individuos o grupos* o puede seleccionar **[!UICONTROL Organización]** o **[!UICONTROL Grupos]**. Seleccione **[!UICONTROL Guardar]** para guardar los detalles de uso compartido de los intervalos de fechas seleccionados. |

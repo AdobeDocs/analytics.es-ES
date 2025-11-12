@@ -4,10 +4,10 @@ title: Administración de segmentos (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '957'
-ht-degree: 74%
+ht-degree: 71%
 
 ---
 
@@ -52,7 +52,7 @@ Es posible que tenga combinaciones específicas de dimensiones de informe que de
 1. Vuelva a Report Builder y haga clic en el botón Actualizar para actualizar la lista de segmentos.
 1. Ahora está listo para aplicar este segmento.
 
-## Buscar y aplicar segmentos {#search}
+## Buscar y aplicar segmentos
 
 Cualquier segmento que se haya creado en Reports &amp; Analytics (ahora al final de su vida útil), Report Builder o Data Warehouse aparecerá en esta lista de segmentos. Para actualizar la lista, haga clic en el icono Actualizar ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
@@ -76,12 +76,12 @@ Los filtros disponibles incluyen:
 
 | Nombre del filtro | Descripción |
 |---|---|
-| Etiquetas | Le permite filtrar los segmentos con etiquetas específicas. Tenga en cuenta que los filtros de etiqueta utilizan el operador AND. Si marca dos etiquetas, el panel derecho muestra los segmentos etiquetados con **ambas** etiquetas. |
+| Etiquetas | Le permite filtrar segmentos con etiquetas específicas. Tenga en cuenta que los filtros de etiqueta utilizan el operador AND. Si marca dos etiquetas, el panel derecho muestra los segmentos etiquetados con **ambas** etiquetas. |
 | Propietarios | Le permite filtrar segmentos por propietario. Tenga en cuenta que los filtros de Propietario utilizan el operador OR. Si marca dos propietarios, el panel de la derecha muestra los segmentos que son propiedad de **uno** de los propietarios. |
 | Otros filtros > Solo el *nombre del grupo de informes* | Si aplica el filtro &quot;Solo *nombre del grupo de informes*&quot; en el Generador de segmentos en Adobe Analytics y, a continuación, muestra el Filtro avanzado en [!DNL Report Builder], el Filtro avanzado solo mostrará el segmento para el grupo de informes seleccionado. |
 | Otros filtros > Míos | Muestra todos los segmentos de su propiedad. |
-| Otros filtros > Compartidos conmigo | Muestra todos los segmentos que otros comparten con usted. |
-| Otros filtros > Favoritos | Muestra todos los segmentos que haya marcado como Favoritos. |
+| Otros filtros > Compartidos conmigo | Muestra todos los segmentos que otros han compartido con usted. |
+| Otros filtros > Favoritos | Muestra todos los segmentos que ha marcado como Favoritos. |
 | Otros filtros > Aprobados | Muestra todos los segmentos aprobados oficialmente. |
 
 ## Adición de un control de segmento a un libro {#segment-control}

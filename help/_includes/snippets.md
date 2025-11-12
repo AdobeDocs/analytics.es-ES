@@ -1,5 +1,5 @@
 ---
-source-git-commit: e1feb14b72956133f3d04a514a3446733e7a2af5
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '2999'
 ht-degree: 87%
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >[Report Builder](/help/analyze/report-builder/rb-overview.md) nuevo y optimizado se publicó el 16 de octubre de 2024. Es compatible con Mac, Windows y navegadores web.
->&#x200B;>Esta versión de complemento heredado de Report Builder sigue funcionando. Puede [convertir sus libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
+>Esta versión de complemento heredado de Report Builder sigue funcionando. Puede [convertir sus libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
 
-## Anuncio del final de la vida útil de Reports & Analytics {#ra-eol}
+## Anuncio del final de la vida útil de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ Un contenedor de atribución define el ámbito deseado para la atribución. Las 
 
 Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devolverse en el tiempo para incluir los puntos de contacto. Si un elemento de dimensión se establece fuera de la ventana de retrospección, el valor no se incluye en ningún cálculo de atribución.
 
-* **[!UICONTROL Ventana de informes]**: Busca hasta el inicio de la ventana de informes desde el momento en que se produjo la conversión.
+* **[!UICONTROL Ventana de creación de informes]**: busca hasta el inicio de la ventana de creación de informes desde el momento en que se produjo la conversión.
 * **14 días**: se remonta hasta 14 días desde que se realizó la conversión.
 * **30 días**: se remonta hasta 30 días desde que se realizó la conversión.
 * **60 días**: se remonta hasta 60 días desde que se realizó la conversión.

@@ -5,7 +5,7 @@ uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 82%
@@ -54,7 +54,7 @@ Los siguientes factores pueden aumentar la complejidad de la solicitud y dar com
   | Configuración | Rendimiento más rápido | Rendimiento más lento |
   |--- |--- |--- |
   | Desgloses y el orden del desglose | Pocas | Muchas |
-  |  | Ejemplo: si se desglosa de A a Z, el número de elementos para A debería ser siempre inferior al número de elementos para Z. Si es al contrario, el tiempo de solicitud puede aumentar significativamente. |
+  |  | Ejemplo: si se desglosa de A a Z, el número de elementos para A debería ser siempre inferior al número de elementos para Z. Si es al contrario, el tiempo de solicitud puede aumentar significativamente. |  |
   | Intervalo de fechas | Intervalo pequeño | Intervalo grande |
   | Filtro | Filtro específico | Filtros más utilizados |
   | Granularidad | Agregado | Por hora<ul><li>Diario</li><li>Semanal</li><li>Mensual</li><li>Trimestral</li><li>Anual</li></ul> |

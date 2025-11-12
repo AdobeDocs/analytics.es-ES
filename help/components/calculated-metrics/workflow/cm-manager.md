@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo compartir, filtrar, etiquetar, apr
 title: Administrar métricas calculadas
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -32,7 +32,7 @@ La lista de métricas calculadas ➊ muestra todas las métricas calculadas que 
 <!-- I think this table incorrectly talks about quick calculated metrics -->
 
 | Columna | Descripción |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleccione para favorecer a ![Estrella](/help/assets/icons/Star.svg) o dejar de favorecer a ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) en una métrica calculada. Ver [Marcar métrica calculada como favorita](cm-favorite.md) |
 | **[!UICONTROL Título y descripción]** | Para editar la métrica calculada, seleccione el vínculo del título, que abre el [Creador de métricas calculadas](c-build-metrics/cm-build-metrics.md). Se indica una métrica calculada compartida con ![Compartir](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Grupo de informes]** | Los grupos de informes a los que se aplica esta métrica calculada. |

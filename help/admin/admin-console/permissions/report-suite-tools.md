@@ -4,7 +4,7 @@ description: Comprenda cada elemento de permiso en Herramientas de grupos de inf
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 1dba07de2836699ceaad31b4bd3149c169c51211
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 78%
@@ -37,7 +37,7 @@ Esta tabla enumera todos los elementos de permisos en Herramientas de grupos de 
 | [!UICONTROL Medidas predeterminadas] | Otorga acceso a Configuración de grupos de informes individuales > Métricas predeterminadas en el Administrador de grupos de informes. |
 | [!UICONTROL Excluir por dirección IP] | Otorga acceso a Administración > Excluir por dirección IP en la navegación superior de Analytics. |
 | [!UICONTROL Métodos de búsqueda] | Otorga acceso a Conversión > Métodos de búsqueda en el Administrador de grupos de informes. |
-| [!UICONTROL Variables de lista &#x200B;] | Otorga acceso a Conversión > Variables de lista en el Administrador de grupos de informes. |
+| [!UICONTROL Variables de lista ] | Otorga acceso a Conversión > Variables de lista en el Administrador de grupos de informes. |
 | [!UICONTROL Personalización de menús] | Otorga acceso a General > Personalizar menús en el Administrador de grupos de informes. |
 | [!UICONTROL Mis informes recomendados] | No se usa. |
 | [!UICONTROL Búsqueda de pago] | Otorga acceso a General > Detección de búsqueda de pago en el Administrador de grupos de informes. |

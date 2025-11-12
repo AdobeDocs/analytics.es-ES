@@ -4,10 +4,10 @@ title: Ejemplos de etiquetado
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 100%
 
 ## Ejemplo de datos de visita {#hit}
 
-Suponga que dispone de los siguientes datos de visita:
+Supongamos que tiene los siguientes datos de visitas:
 
 * La primera fila contiene las etiquetas de cada variable.
 * La segunda fila es el nombre de la variable. Si tiene una etiqueta de ID, contiene el área de nombres asignado entre paréntesis.
-* Los datos de visita empiezan en la tercera fila.
+* Los datos de visitas comienzan en la tercera fila.
 
 | Etiquetas | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
 | **Nombre de variable** <br> **(Área de nombres)** | **MyProp1** <br> **(usuario)** | **ID de visitante** <br> **(AAID)** | **MyEvar1**  | **MyEvar2**  | **MyEvar3** <br>  **(xyz)** |
-| Datos de visita | Mary | 77 | A | M | X |
+| Datos de visitas | Mary | 77 | A | M | X |
 | | Mary | 88 | B | N | Y |
 | | Mary | 99 | C | O | Z |
 | | John | 77 | D | P | W |
@@ -42,12 +42,13 @@ Para nuestro ejemplo, el archivo de resumen contiene los valores indicados en la
 <table>
   <tr>
     <th colspan="2" style="text-align:center">Valores de la API</th>
-    <th rowspan="2">Tipo de archivo<br/>de resumen<br/>devuelto</th>
+    <th>Tipo de archivo<br/>de resumen<br/>devuelto</th>
     <th colspan="5" style="text-align:center">Datos en el archivo de acceso de resumen</th>
   </tr>
   <tr>
     <th>Espacio de nombres/ ID</th>
     <th>expandIDs</th>
+    <th></th>
     <th>MyProp1</th>
     <th>ID de visitante</th>
     <th>MyEvar1</th>
@@ -77,7 +78,7 @@ Para nuestro ejemplo, el archivo de resumen contiene los valores indicados en la
   <tr>
     <td>user=Mary</td>
     <td>false</td>
-    <td>contenedor</td>
+    <td>persona</td>
     <td>Mary</td>
     <td>77, 88, 99</td>
     <td>A,B,C</td>
@@ -87,7 +88,7 @@ Para nuestro ejemplo, el archivo de resumen contiene los valores indicados en la
   <tr>
     <td rowspan="2">user=Mary</td>
     <td rowspan="2">true</td>
-    <td>contenedor</td>
+    <td>persona</td>
     <td>Mary</td>
     <td>77, 88, 99</td>
     <td>A,B,C</td>
@@ -105,7 +106,7 @@ Para nuestro ejemplo, el archivo de resumen contiene los valores indicados en la
   <tr>
     <td rowspan="2">user=Mary<br>AAID=66</td>
     <td rowspan="2">true</td>
-    <td>contenedor</td>
+    <td>persona</td>
     <td>Mary</td>
     <td>77, 88, 99</td>
     <td>A,B,C</td>
@@ -125,7 +126,7 @@ Para nuestro ejemplo, el archivo de resumen contiene los valores indicados en la
     <td>false</td>
     <td>dispositivo</td>
     <td>no presente</td>
-    <td>55, 77</td>
+    <td>57, 77</td>
     <td>no presente</td>
     <td>M, R</td>
     <td>X</td>
@@ -135,7 +136,7 @@ Para nuestro ejemplo, el archivo de resumen contiene los valores indicados en la
     <td>true</td>
     <td>dispositivo</td>
     <td>no presente</td>
-    <td>55, 77</td>
+    <td>57, 77</td>
     <td>no presente</td>
     <td>M, P, R</td>
     <td>W, X</td>

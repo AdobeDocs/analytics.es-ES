@@ -4,10 +4,10 @@ description: Consulte las ventajas de cada método para enviar datos a Adobe Ana
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 39%
+ht-degree: 38%
 
 ---
 
@@ -17,7 +17,7 @@ Consulte cómo se compara cada método de implementación de Adobe Analytics ent
 
 ## Web
 
-| | [AppMeasurement](/help/implement/js/overview.md) | [Extensión de Adobe Analytics](/help/implement/launch/overview.md) | [SDK web &#x200B;](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [Extensión de Web SDK](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
+| | [AppMeasurement](/help/implement/js/overview.md) | [Extensión de Adobe Analytics](/help/implement/launch/overview.md) | [SDK web ](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [Extensión de Web SDK](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
 | --- | --- | --- | --- | --- |
 | Requisitos de implementación | Hacer referencia a `AppMeasurement.js` en cada página, definir variables y enviar datos mediante `s.t()` a Adobe Analytics | Haga referencia al cargador de etiquetas en cada página y utilice la IU de recopilación de datos para definir variables y enviar datos a Adobe Analytics | Haga referencia a `Alloy.js` en cada página, utilice `alloy("sendEvent",{})` para componer objetos XDM y enviar los datos deseados mediante Edge Network a Adobe Analytics | Cargador de etiquetas de referencia en cada página, utilice la IU de recopilación de datos para componer objetos XDM y enviar los datos deseados mediante Edge Network a Adobe Analytics |
 | Destino de los datos | Enviado directamente a Adobe Analytics | Enviado directamente a Adobe Analytics | Enviado a Adobe Experience Platform Edge, que reenvía datos a Adobe Analytics | Enviado a Adobe Experience Platform Edge, que reenvía datos a Adobe Analytics |
@@ -31,7 +31,7 @@ Consulte cómo se compara cada método de implementación de Adobe Analytics ent
 
 >[!CAUTION]
 >
->La compatibilidad con los SDK Mobile de la versión 4 finalizó el 31 de agosto de 2021. Consulte [Preguntas frecuentes sobre el fin de vida útil de Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=es) para obtener más información.
+>La compatibilidad con los SDK Mobile de la versión 4 finalizó el 31 de agosto de 2021. Consulte [Preguntas frecuentes sobre el fin de vida útil de Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) para obtener más información.
 
 
 | | [SDK móvil](/help/implement/aep-edge/mobile-sdk/overview.md) | [API de Edge Network](/help/implement/aep-edge/api/overview.md) |

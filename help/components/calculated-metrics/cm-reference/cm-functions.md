@@ -4,10 +4,10 @@ description: Obtenga información sobre las funciones básicas de las métricas 
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1868'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ El [Creador de métricas calculadas](/help/components/calculated-metrics/workflo
 
 ## Funciones de tabla en comparación con funciones de fila
 
-Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
+Una función de tabla es aquella en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es aquella en la que el resultado es diferente para cada fila de la tabla.
 
 Cuando sea aplicable y relevante, una función se anota con el tipo de función: [!BADGE Tabla]{type="Neutral"} o [!BADGE Fila]{type="Neutral"}
 
@@ -499,7 +499,7 @@ Para calcular una varianza, se considera una columna entera de números. A parti
 
 1. Súmelo al total.
 
-Cuando repita la operación sobre toda la columna, obtendrá un total único. A continuación, divida el total entre el número de elementos de la columna. El número resultante es la varianza de la columna. Esta es un número único, aunque aparece como una columna de números.
+Cuando repita la operación sobre toda la columna, obtendrá un total único. A continuación, divida ese total por el número de elementos de la columna. Ese número es la variación de la columna. Es un solo número. Sin embargo, se muestra como una columna de números.
 
 En el ejemplo de la siguiente columna de tres elementos:
 

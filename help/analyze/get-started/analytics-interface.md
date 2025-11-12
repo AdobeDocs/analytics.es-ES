@@ -3,10 +3,10 @@ description: Información general acerca de Adobe Analytics, incluida informaci�
 title: Explicación de la interfaz de Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1973'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -106,7 +106,7 @@ La pestaña Administración incluye funciones y opciones de configuración para 
    | Generador de reglas de clasificación | En lugar de mantener y cargar clasificaciones cada vez que cambien sus códigos de seguimiento, puede crear clasificaciones automáticas basadas en reglas y aplicarlas en varios grupos de informes. | [Flujo de trabajo del generador de reglas de clasificación](/help/components/classifications/crb/classification-rule-builder.md) |
    | Fuentes de datos | Utilice el administrador de fuente de datos para crear, editar o desactivar fuentes de datos. También puede utilizar esta interfaz para realizar un seguimiento del estado de los archivos cargados en las ubicaciones FTP de las fuentes de datos. | [Administración de fuentes de datos](/help/import/data-sources/manage.md) |
    | Administrador de códigos | El administrador de códigos le permite descargar códigos de recopilación de datos para plataformas web y móviles | [Administrador de códigos](/help/admin/tools/code-manager-admin.md) |
-   | Administración del tráfico | La página Administración del tráfico permite especificar los cambios esperados en el volumen del tráfico. Esta configuración permite a Adobe asignar los recursos adecuados para garantizar un seguimiento y procesamiento adecuados del tráfico. | [Información general de administración de tráfico](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
+   | Administración del tráfico | La página Administración de tráfico permite especificar los cambios esperados en el volumen de tráfico. Esta configuración permite que Adobe asigne los recursos adecuados para garantizar que el tráfico se pueda rastrear y procesar de manera oportuna. | [Información general de administración de tráfico](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
    | Uso de llamadas al servidor | Una llamada al servidor, también conocida como “visita individual” o “solicitud de imagen”, es una instancia en la que se envían datos a servidores de Adobe para su procesamiento. Dispone de un panel de control de uso de llamadas al servidor que realiza un seguimiento de los datos de consumo de llamadas al servidor y los compara con su límite contractual. Puede configurar alertas para evitar exceder el límite. | [Información general sobre Uso de llamadas al servidor](/help/admin/tools/server-call-usage/overage-overview.md) |
    | Registros | Los archivos de registro le permiten ver cuándo la gente inicia sesión, su uso, los accesos, los grupos de informes y los cambios de administración. | [Registros](/help/admin/tools/logs.md) |
    | Advertising Analytics | Configure Adobe Analytics para mostrar todos los datos de búsqueda de pago de Google Ads y Microsoft Advertising juntos. | [Configuración de Advertising Analytics](/help/admin/tools/manage-rs/edit-settings/advertising-analytics-config.md) |

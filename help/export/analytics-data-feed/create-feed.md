@@ -3,10 +3,10 @@ title: Crear una fuente de datos
 description: Obtenga información sobre cómo crear una fuente de datos y sobre la información de archivo que se va a proporcionar a Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
-source-wordcount: '4140'
-ht-degree: 53%
+source-wordcount: '4227'
+ht-degree: 52%
 
 ---
 
@@ -19,7 +19,25 @@ Al crear una fuente de datos, debe proporcionar a Adobe lo siguiente:
 
 Antes de crear una fuente de datos, es importante tener una comprensión básica de las fuentes de datos y asegurarse de que cumple todos los requisitos previos. Para obtener más información, consulte [Resumen de fuentes de datos](data-feed-overview.md).
 
-## Creación y configuración de una fuente de datos
+## Creación y configuración de una fuente de datos {#create-and-configure-data-feed}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_os_strings"
+>title="Reemplazar cadenas del sistema operativo"
+>abstract="Esta opción limpia el resultado de los datos detectando las siguientes secuencias de cadenas incrustadas en los datos del cliente y reemplazándolas por un espacio: <br/>Windows: CRLF, CR o TAB<br/>Mac y Linux: \n, \r o \t"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_export_file"
+>title="Manifiesto"
+>abstract="Elija si desea incluir un archivo de manifiesto con cada entrega de fuente de datos. Los archivos de manifiesto contienen información para cada archivo incluido en la fuente de datos. Al enviar datos de fuentes de datos en un solo paquete, también puede optar por incluir un archivo de finalización, pero se recomiendan los archivos de manifiesto. "
+
+<!-- markdownlint-enable MD034 -->
 
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 1. Seleccione el icono de 9 cuadrados en la esquina superior derecha, luego seleccione [!UICONTROL **Analytics**].

@@ -5,10 +5,10 @@ title: Resumen de los eventos de éxito
 feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 54%
+ht-degree: 51%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 54%
 
 Los eventos de éxito (también conocidos como eventos de conversión o eventos personalizados) son acciones de las que se puede realizar un seguimiento. Usted determina lo que es un evento de éxito. Por ejemplo, si un visitante compra un artículo, el evento de compra podría considerarse un evento de éxito.
 
-Para ver un vídeo de información general sobre los eventos de éxito, consulte [Introducción a los eventos de conversión](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) en la guía de tutoriales de Analytics.
+Para ver un vídeo de información general sobre los eventos de éxito, consulte [Introducción a los eventos de conversión](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) en la guía de tutoriales de Analytics.
 
 ## Ejemplos de eventos de éxito
 
@@ -56,7 +56,7 @@ Para configurar eventos de éxito:
    >
    >Tenga en cuenta lo siguiente al cambiar el tipo de evento:<ul><li>Puede cambiar el tipo de evento entre contador y numérico sin perder el acceso a los datos capturados anteriormente.</li><li>Al cambiar los tipos de eventos a o desde un evento de moneda, se muestra un mensaje que indica que los datos históricos no están disponibles en los informes. Los distintos tipos de eventos utilizan tablas de datos independientes y no pueden utilizarse de forma simultánea. Algunos datos históricos pueden restaurarse si el usuario revierte el tipo de evento. Sin embargo, no estarán disponibles los datos recopilados tras el cambio inicial.</li></ul>
 
-   El tipo que seleccione determina si el evento es de contador (estándar), numérico o de moneda. <p>Los eventos de contador se utilizan para registrar un evento a tiempo.</p><p>Los eventos numéricos se utilizan para generar informes sobre números que no representan monedas, como los números de cupones que se utilizan en los pedidos.</p> <p>Los eventos monetarios registran un número decimal, como impuestos o envíos. Tras su recepción, el valor que se pasa a los eventos de moneda se convierte de la moneda específica de la página a la moneda básica del grupo de informes. Los eventos de moneda se utilizan para llevar a cabo el seguimiento de los cobros de impuestos y de envío. Para obtener más detalles sobre el cómo utilizar los eventos de moneda, el usuario debe ponerse en contacto con un representante de Adobe.<p>Los eventos numéricos y de moneda permiten incrementar las métricas en más de uno.</p><p>Los eventos que se utilicen en el tipo estándar de las Fuentes de datos deben ser eventos numéricos o de moneda.</p>
+   El tipo que seleccione determina si el evento es de contador (estándar), numérico o de moneda. <p>Los eventos de contador se utilizan para registrar un evento a tiempo.</p><p>Los eventos numéricos se utilizan para generar informes sobre números que no representan monedas, como los números de cupones que se utilizan en los pedidos.</p> <p>Los eventos monetarios registran un número decimal, como impuestos o envíos. Tras su recepción, el valor que se pasa a los eventos de moneda se convierte de la moneda específica de la página a la moneda básica del grupo de informes. Los eventos de moneda se utilizan para llevar a cabo el seguimiento de los cobros de impuestos y de envío. Para obtener más información sobre el uso de eventos monetarios, póngase en contacto con un representante de Adobe.<p>Los eventos numéricos y de moneda le permiten incrementar las métricas en más de uno.</p><p>Los eventos que se utilicen en el tipo estándar de las Fuentes de datos deben ser eventos numéricos o de moneda.</p>
 
 1. En la columna **[!UICONTROL Polaridad]**, seleccione la casilla de verificación y, a continuación, elija en el menú desplegable si una tendencia al alza para esta métrica es positiva o negativa.
 
@@ -71,7 +71,7 @@ Para configurar eventos de éxito:
    | Configuración | Visible en | No visible en |
    |---------|----------|---------|
    | [!UICONTROL **Visible en todas partes**] | <ul><li>Analysis Workspace</li><li>Generador de segmentos</li><li>Creador de métricas calculadas</li></ul> | N/A |
-   | [!UICONTROL **Generadores**] | <ul><li>Generador de segmentos</li><li>Creador de métricas calculadas</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Generadores**] | <ul><li>Generador de segmentos</li><li>Creador de métricas calculadas</li><li>Analysis Workspace</li></ul> |  |
    | [!UICONTROL **Oculto en todas partes**] | N/A | <ul><li>Analysis Workspace</li><li>Generador de segmentos</li><li>Creador de métricas calculadas</li></ul> |
 
 1. En la columna [!UICONTROL **Descripción**], active la casilla de verificación y, a continuación, proporcione una descripción.

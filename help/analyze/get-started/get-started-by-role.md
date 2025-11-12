@@ -3,7 +3,7 @@ description: Información general acerca de Adobe Analytics, incluida informaci�
 title: Introducción para personas usuarias y personal de administración, análisis y desarrollo
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1672'
 ht-degree: 99%

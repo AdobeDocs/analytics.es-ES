@@ -5,7 +5,7 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 25a50bafe355443e52969f24922ce4a40742e338
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '3690'
 ht-degree: 58%
@@ -26,7 +26,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 >
 >La mayoría de las columnas contienen una columna similar con el prefijo `post_`. Las columnas de publicación muestran valores después de la lógica del lado del servidor, las reglas de procesamiento y las reglas de VISTA. Adobe recomienda usar columnas de publicación en la mayoría de los casos. Consulte [Preguntas frecuentes sobre fuentes de datos](../df-faq.md) para obtener más información.
 
-Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones en GitHub](https://github.com/AdobeDocs/analytics.es-ES/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones en GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 
 | Nombre de la columna | Descripción de columna | Tipo de datos |
 | --- | --- | --- |
@@ -410,4 +410,4 @@ La siguiente lista de columnas no se utiliza, se retira o no contiene valor en l
 >[!MORELIKETHIS]
 >
 >[Asignación de variables de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md)
->[Asignación de variables de objeto de datos &#x200B;](/help/implement/aep-edge/data-var-mapping.md)
+>[Asignación de variables de objeto de datos ](/help/implement/aep-edge/data-var-mapping.md)

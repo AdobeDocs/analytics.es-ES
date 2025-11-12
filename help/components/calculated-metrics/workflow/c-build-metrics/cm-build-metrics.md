@@ -3,7 +3,7 @@ description: Obtenga información sobre el generador de métricas calculadas que
 title: Generar métricas
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 100%
@@ -186,7 +186,7 @@ Para eliminar un contenedor, seleccione ![Cerrar](/help/assets/icons/Close.svg) 
 >[!MORELIKETHIS]
 >
 >[Uso de funciones](cm-using-functions.md)
->>[Segmentos](/help/components/segmentation/seg-overview.md)
+>[Segmentos](/help/components/segmentation/seg-overview.md)
 >
 
 

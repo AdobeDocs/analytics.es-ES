@@ -3,7 +3,7 @@ description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Configuración de opciones de informes para una solicitud de Data Warehouse
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 22%
@@ -30,7 +30,7 @@ Para configurar las opciones de informes de una petición Data Warehouse:
 
    | Opción | Función |
    |---------|----------|
-   | [!UICONTROL **Nombre de archivo**] | Identifica el informe. <p>Si se usa alguno de los siguientes caracteres especiales en el nombre de archivo, la solicitud no se puede guardar: <code>. &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ &grave; { } \| ~</code> </p><p>El carácter % solo se puede usar si va seguido de &quot;R&quot;, &quot;rsid&quot; o &quot;id&quot;, como se indica a continuación: <code>%R</code>, <code>%rsid</code>y <code>%id</code>.</p> |
+   | [!UICONTROL **Nombre de archivo**] | Identifica el informe. <p>Si se usa alguno de los siguientes caracteres especiales en el nombre de archivo, la solicitud no se puede guardar: <code>. &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` { } \| ~</code> </p><p>El carácter % solo se puede usar si va seguido de &quot;R&quot;, &quot;rsid&quot; o &quot;id&quot;, como se indica a continuación: <code>%R</code>, <code>%rsid</code>y <code>%id</code>.</p> |
    | [!UICONTROL **Anexar intervalo de fechas del informe al nombre de archivo**] | Agrega el intervalo de fechas al nombre del archivo de informe. <p>Por ejemplo, si solicita datos del 1 al 7 de mayo de 2024, el nombre de archivo incluye el intervalo de fechas 20240501 - 20240507.</p> |
    | [!UICONTROL **CSV**] | Ofrece informes en formato de archivo CSV para ver los datos en una hoja de cálculo. |
    | [!UICONTROL **Tableau (TDE)**] | Presenta informes en formato de archivo Tableau Data Extract (TDE), que se puede utilizar para visualizar datos y capas en datos adicionales dentro de Tableau. |
