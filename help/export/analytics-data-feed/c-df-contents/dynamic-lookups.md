@@ -3,9 +3,9 @@ title: Búsquedas dinámicas
 description: Obtenga información sobre qué son las búsquedas dinámicas y cómo habilitarlas. Incluye operadores, atributos móviles y tipos de sistemas operativos.
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
+source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '306'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,16 @@ Las búsquedas dinámicas permiten recibir archivos de búsqueda adicionales en 
 * **Atributos móviles**: proporciona contexto adicional para la columna `mobile_id`, incluidas todas las características rastreadas para cada dispositivo móvil. El nombre de archivo incluido es `mobile_attributes.tsv`.
 * **Tipo de sistema operativo**: Proporciona un contexto alternativo para la columna `os`. Tanto `operating_systems.tsv` como `operating_system_type.tsv` utilizan la columna `os` como clave, pero solo `operating_system_type.tsv` es una búsqueda dinámica.
 
-## Habilitar búsquedas dinámicas
+## Habilitar búsquedas dinámicas {#enable-dynamic-lookups}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_dynamic_lookups"
+>title="Habilitar búsquedas dinámicas"
+>abstract="Seleccione esta opción para recibir archivos de búsqueda adicionales en la fuente de datos; de lo contrario, no estarán disponibles. Esta configuración permite enviar las siguientes tablas de búsqueda con cada archivo de fuente de datos:<ul><li>Nombre del operador</li><li>Atributos móviles</li><li>Tipo de sistema operativo</li></ul>"
+
+<!-- markdownlint-enable MD034 -->
 
 Si desea recibir los archivos de búsqueda mencionados, debe cumplir todos los requisitos previos siguientes:
 
