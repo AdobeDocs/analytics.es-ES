@@ -7,7 +7,7 @@ user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluy
 source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
