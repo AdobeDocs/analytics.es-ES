@@ -3,18 +3,25 @@ title: Crear Y Editar Consolidaciones De Clasificación
 description: Explica cómo crear, validar, ejecutar, aprobar y cancelar consolidaciones de clasificación.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: cabddc619e0d2ddaba6b232eb4d72c60301f76bb
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 2%
+source-wordcount: '982'
+ht-degree: 1%
 
 ---
 
 # Crear y editar consolidaciones de clasificación
 
-Las consolidaciones de conjuntos de clasificaciones permiten tomar clasificaciones de varios conjuntos de datos y combinarlas en uno solo. Utilice esta interfaz para crear una consolidación de juego de clasificaciones de principio a fin. Esta interfaz es muy valiosa para las organizaciones que pasan de clasificaciones heredadas a conjuntos de clasificaciones. Es muy probable que la mayoría de las organizaciones que utilizan conjuntos de clasificaciones no necesiten utilizar este flujo de trabajo de consolidación.
+La consolidación de conjuntos de clasificaciones permite tomar clasificaciones de varios conjuntos y combinarlas en uno solo. Utilice esta interfaz para crear una consolidación de juego de clasificaciones de principio a fin. Esta interfaz es muy valiosa para las organizaciones que pasan de clasificaciones heredadas a conjuntos de clasificaciones. Las organizaciones que utilizan conjuntos de clasificaciones ya no necesitan utilizar este flujo de trabajo de consolidación.
 
-## Creación de una consolidación
+## Creación de una consolidación {#create-a-consolidation}
+
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidation_setpriority"
+>title="Prioridad del conjunto de clasificaciones"
+>abstract="La clave ![Key](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *conjunto de clasificación* es el conjunto de clasificación base y define el esquema general y tiene prioridad en cualquier conflicto de combinación. Los demás conjuntos de clasificaciones se aplican en orden de arriba a abajo."
+
 
 Para crear una consolidación de clasificación, en la interfaz principal de Adobe Analytics:
 
@@ -29,11 +36,13 @@ Para crear una consolidación de clasificación, en la interfaz principal de Ado
    1. Escriba una o más direcciones de correo electrónico (separadas por comas) en **[!UICONTROL Notificar problemas]**. Se envían notificaciones por correo electrónico a estos usuarios sobre problemas.
    1. Seleccione un conjunto de clasificaciones en el menú desplegable **[!UICONTROL Conjunto de clasificaciones que coincida]**.
 
-      La lista **[!UICONTROL Source Classification Set]** que queda se rellena con conjuntos de clasificaciones similares a la lista de clasificaciones seleccionada y disponibles para la consolidación.
+      La lista **[!UICONTROL Source Classification Set]** que queda se rellena con conjuntos de clasificaciones similares a la lista de clasificaciones seleccionada y disponibles para la consolidación. La lista derecha se rellena automáticamente con el conjunto de clasificaciones ![Key](/help/assets/icons/Key.svg) seleccionado. Ese conjunto base definió el esquema general y siempre tiene prioridad en cualquier conflicto de combinación.
 
-   1. Seleccione los conjuntos de clasificación que desee consolidar en la lista de la izquierda y suelte los conjuntos seleccionados en la lista de la derecha debajo del ![conjunto de clasificación](/help/assets/icons/Key.svg) **[!UICONTROL _seleccionado_]**.
+   1. Seleccione los conjuntos de clasificación que desee consolidar en la lista izquierda y suelte los conjuntos seleccionados en la lista derecha debajo del ![conjunto de clasificación](/help/assets/icons/Key.svg) base **[!UICONTROL _clave_]** seleccionado.
 
-      Puede mover los conjuntos de clasificaciones individuales y seleccionados a la lista. También puede reemplazar la ![clave](/help/assets/icons/Key.svg) **[!UICONTROL _conjunto de clasificación_]** con un conjunto de clasificación seleccionado arrastrando y soltando.
+      Los conjuntos de clasificaciones adicionales se consolidan en orden ascendente al ejecutar la consolidación. Si una clave existe en varios conjuntos adicionales, se toma el valor de la clave del conjunto de clasificación de clasificación superior. Si existe una clave tanto en el conjunto base ![Key](/help/assets/icons/Key.svg) como en cualquier conjunto adicional, se utilizará el valor del conjunto base.
+
+      Para administrar los valores de las claves que se utilizan, arrastre y suelte los conjuntos de clasificaciones individuales y seleccionados en la lista. También puede reemplazar la ![clave](/help/assets/icons/Key.svg) **[!UICONTROL _conjunto de clasificación_]** con un conjunto de clasificación seleccionado arrastrando y soltando.
 
    1. Seleccione **[!UICONTROL Guardar]** para guardar la consolidación de clasificación. Seleccione **[!UICONTROL Cancelar]** para cancelar.
 
@@ -96,7 +105,7 @@ Para volver a validar la consolidación de clasificación:
 
 1. Vuelva a configurar la consolidación con la misma interfaz de arrastrar y soltar que utilizó para crearla.
 1. Seleccione ![Marca De Verificación](/help/assets/icons/Checkmark.svg) **[!UICONTROL Volver A Validar]**. La validación garantiza que cada conjunto de clasificaciones individual sea válido para esta consolidación. Si se realiza correctamente, se muestra un mensaje de notificación: ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL La consolidación se envió correctamente para su validación.]**
-1. Seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para cerrar el cuadro de diálogo. O bien, seleccione ![Reproducir](/help/assets/icons/Play.svg) Ejecutar para ejecutar la consolidación o ![Cancelar](/help/assets/icons/Cancel.svg) Cancelar para cancelar la clasificación.
+1. Seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para cerrar el cuadro de diálogo. O bien, selecciona ![Reproducir](/help/assets/icons/Play.svg) **[!UICONTROL Ejecutar]** para ejecutar la consolidación o ![Cancelar](/help/assets/icons/Cancel.svg) **[!UICONTROL Cancelar]** para cancelar la clasificación.
 
 
 
@@ -115,9 +124,20 @@ Para ejecutar una consolidación de clasificación:
 1. Seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para cerrar el cuadro de diálogo.
 
 
-### Aprobar
+### Aprobar {#approve}
 
-Una vez que se ha ejecutado correctamente una consolidación de clasificación, el estado de la consolidación es **[!UICONTROL Esperando aprobación]**. La aprobación de una consolidación de clasificación reemplaza los conjuntos de clasificaciones individuales por el conjunto de clasificaciones consolidado y se eliminan los conjuntos de clasificaciones individuales.
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="Desajuste"
+>abstract="El porcentaje de clave no coincide cuando el valor del conjunto de clasificación consolidado no coincide con el conjunto de clasificación de origen."
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="Ausente"
+>abstract="Porcentaje de claves en el conjunto de clasificaciones consolidado, pero no en el conjunto de clasificaciones de origen."
+
+Una vez que se ha ejecutado correctamente una consolidación de clasificación, el estado de la consolidación es ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Esperando aprobación]**. La aprobación de una consolidación de clasificación reemplaza los conjuntos de clasificaciones individuales por el conjunto de clasificaciones consolidado y se eliminan los conjuntos de clasificaciones individuales.
 
 ![Conjuntos de clasificaciones: consolidación esperando aprobación](assets/classifications-sets-consolidations-waitingforapproval.png)
 
