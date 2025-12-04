@@ -3,14 +3,23 @@ title: Visitas que llegan tarde
 description: Descubra cómo las fuentes de datos tratan las visitas que llegan tarde.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 81cbb115d50e1f55a67aac8b107749d0a5a5928b
+source-git-commit: 5816868d3899d2938330471d1e59757141b16c69
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 85%
+source-wordcount: '363'
+ht-degree: 70%
 
 ---
 
-# Visitas que llegan tarde
+# Visitas que llegan tarde {#late-arriving-hits}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_late_hits"
+>title="Permitir visitas que llegan tarde"
+>abstract="Seleccione esta opción para incluir los datos que llegaron después de que el trabajo de fuente de datos terminara de procesar los datos dentro de la frecuencia de sistema de informes establecida (diariamente, cada hora o cada 15 minutos). Con esta opción habilitada, cada vez que una fuente de datos procesa la información, observa las visitas que llegan tarde y las procesa por lotes con el siguiente archivo de fuente de datos que se envía."
+
+<!-- markdownlint-enable MD034 -->
 
 Los datos históricos pueden llegar después de que un trabajo de fuente de datos termine de procesarse durante una hora o un día determinados, por ejemplo, mediante visitas con marca de tiempo u origen de datos. Las visitas que llegan tarde son una configuración de personalización backend proporcionada por Adobe para ayudar a incluir estos datos en las fuentes de datos.
 
