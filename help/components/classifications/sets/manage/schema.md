@@ -156,14 +156,14 @@ En el cuadro de diálogo **[!UICONTROL Descargar plantilla para _nombre del conj
 >id="classificationsets_schema_automate_locationaccount"
 >title="Cuenta de ubicación"
 >abstract="Lista de cuentas de ubicación de tipos de cuenta que admiten la importación de datos de clasificación. Seleccione **[!UICONTROL Nueva cuenta]** para crear una nueva cuenta de ubicación."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Configuración de cuentas de importación y exportación de nube"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=es" text="Configuración de cuentas de importación y exportación de nube"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Ubicación"
 >abstract="Lista de ubicaciones en la cuenta de ubicación seleccionada que admiten la importación de datos de clasificación. Seleccione **[!UICONTROL Nueva ubicación]** para crear una nueva ubicación."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configurar ubicaciones de importación y exportación de la nube"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=es" text="Configurar ubicaciones de importación y exportación de la nube"
 
 
 Para automatizar la ingesta de clasificación, seleccione ![Engranaje](/help/assets/icons/Gear.svg) **[!UICONTROL Automatizar]**.
