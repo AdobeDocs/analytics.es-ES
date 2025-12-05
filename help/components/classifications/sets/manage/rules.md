@@ -3,7 +3,7 @@ title: Reglas del conjunto de clasificaciones
 description: Obtenga información sobre cómo ver y editar reglas para un conjunto de clasificaciones.
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 70865a487e4442db0eececd33e3d84afc18dc878
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 5%
@@ -15,8 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >Los conjuntos de clasificaciones aún no admiten reglas. La funcionalidad de reglas se agregará a la interfaz de conjuntos de clasificaciones antes de que la funcionalidad heredada del generador de reglas no esté disponible.
->&#x200B;>Si necesita reglas para las clasificaciones, siga usando el [Generador de reglas de clasificaciones](/help/components/classifications/crb/classification-rule-builder.md).
-
+>Si necesita reglas para las clasificaciones, siga usando el [Generador de reglas de clasificaciones](/help/components/classifications/crb/classification-rule-builder.md).
 
 <!--
 Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
