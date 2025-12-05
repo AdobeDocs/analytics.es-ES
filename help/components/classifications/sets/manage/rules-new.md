@@ -4,10 +4,10 @@ description: Aprenda a utilizar las reglas de conjuntos de clasificaciones para 
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: bccb3409875336a092ab641ad69b866b43621984
+source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 13%
+source-wordcount: '1578'
+ht-degree: 12%
 
 ---
 
@@ -96,7 +96,17 @@ Escriba un valor para **[!UICONTROL Comienza con]**. Por ejemplo: `em`.
 
 Desea definir una regla para asignar automáticamente `Email` como un valor a la clasificación **[!UICONTROL Channel]** cuando el valor de la dimensión clave Internal Campaign comience por `em` (por ejemplo: `em:FY2025:Summer Sale`).
 
+>[!BEGINTABS]
+
+>[!TAB Regla]
+
 ![Regla - Comienza Con](assets/rule-startswith.png)
+
+>[!TAB Resultados de pruebas]
+
+![Regla - Comienza Con Los Resultados De La Prueba](assets/rule-startswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -110,13 +120,23 @@ Establece una clasificación basada en un valor específico con el que termina l
 
 #### Entrada requerida
 
-Escriba un valor para **[!UICONTROL Finaliza con]**. Por ejemplo: `Sale`.
+Escriba un valor para **[!UICONTROL Finaliza con]**. Por ejemplo: `2025`.
 
 #### Caso de uso
 
-Desea definir una regla para asignar automáticamente `Sale` como un valor a la clasificación **[!UICONTROL Type]** cuando el valor de la dimensión clave Internal Campaign contenga `Sale` (por ejemplo: `em:FY2025:Summer Sale`).
+Desea definir una regla para asignar automáticamente `2025` como un valor a la clasificación **[!UICONTROL Year]** cuando el valor de la dimensión clave Internal Campaign contenga `2025` (por ejemplo: `em:Summer Sale:FY2025`).
+
+>[!BEGINTABS]
+
+>[!TAB Regla]
 
 ![Regla - Finaliza Con](assets/rule-endswith.png)
+
+>[!TAB Resultados de pruebas]
+
+![Regla - Termina Con Resultados De Prueba](assets/rule-endswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -129,13 +149,24 @@ Establece una clasificación basada en un valor específico que contiene la dime
 
 #### Entrada requerida
 
-Escriba un valor para **[!UICONTROL Contiene]**. Por ejemplo: `2025`.
+Escriba un valor para **[!UICONTROL Contiene]**. Por ejemplo: `Winter`.
 
 #### Caso de uso
 
-Desea definir una regla para asignar automáticamente `2025` como un valor a la clasificación **[!UICONTROL Year]** cuando el valor de la dimensión clave Campaña interna termine con `2025` (por ejemplo: `em:FY2025:Summer Sale`).
+Desea definir una regla para asignar automáticamente `Winter Sale` como un valor a la clasificación **[!UICONTROL Type]** cuando el valor de la dimensión clave Internal Campaign contenga `Winter` (por ejemplo: `fb:Winter:FY2024`).
+
+
+>[!BEGINTABS]
+
+>[!TAB Regla]
 
 ![Regla - Contiene](assets/rule-contains.png)
+
+>[!TAB Resultados de pruebas]
+
+![Regla: contiene resultados](assets/rule-contains-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -152,9 +183,20 @@ Escriba un valor para **[!UICONTROL Match]**. Por ejemplo: `em:FY2025:Summer`.
 
 #### Caso de uso
 
-Desea definir una regla para asignar automáticamente `2025 Summer Email` como un valor a la clasificación **[!UICONTROL Type]** cuando el valor de la dimensión clave Campaña interna coincida con `em:FY2025:Summer`.
+Desea definir una regla para asignar automáticamente `Email` como valor a la clasificación **[!UICONTROL Channel]**, `Summer Sale`como valor a la clasificación **[!UICONTROL Type]** y `2025` a la clasificación **[!UICONTROL Year]** cuando el valor de la dimensión clave Internal Campaign coincida con `em:FY2025:Summer`.
+
+
+>[!BEGINTABS]
+
+>[!TAB Regla]
 
 ![Regla - Coincide](assets/rule-match.png)
+
+>[!TAB Resultados de pruebas]
+
+![Regla - Coincide](assets/rule-match.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -167,13 +209,23 @@ Establece una o varias clasificaciones en función de una expresión regular apl
 
 #### Entrada requerida
 
-Escriba un valor para **[!UICONTROL Expresión regular]**. Por ejemplo: `^(.+)\:(.+)\:(.+)$`.
+Escriba un valor para **[!UICONTROL Expresión regular]**. Por ejemplo: `^(.+)\:(.+)\:FY(.+)$`.
 
 #### Caso de uso
 
-Desea definir una regla para asignar automáticamente valores a las clasificaciones **[!UICONTROL Channel]**, **[!UICONTROL Type]** y **[!UICONTROL Year]** aplicando la expresión regular `^(.+)\:(.+)\:(.+)$` y utilizando grupos de coincidencia (`$1`, `$2` y `$3`) a los valores de la dimensión clave Campaña interna.
+Desea definir una regla para asignar automáticamente valores a las clasificaciones **[!UICONTROL Channel]**, **[!UICONTROL Type]** y **[!UICONTROL Year]** aplicando la expresión regular `^(.+)\:(.+)\:FY(.+)$` y utilizando grupos de coincidencia (`$1`, `$2` y `$3`) a los valores de la dimensión clave Campaña interna.
+
+>[!BEGINTABS]
+
+>[!TAB Regla]
 
 ![Regla - Expresión regular](assets/rule-regex.png)
+
+>[!TAB Resultados de pruebas]
+
+![Regla - Resultados de prueba de expresión regular](assets/rule-regex-test.png)
+
+>[!ENDTABS]
 
 
 #### Tabla de referencia {#section_0211DCB1760042099CCD3ED7A665D716}
