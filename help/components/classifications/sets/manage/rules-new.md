@@ -4,9 +4,9 @@ description: Aprenda a utilizar las reglas de conjuntos de clasificaciones para 
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: badd606b708778f7f839756c6de7b6118d366a67
+source-git-commit: 6ae2bbd1ea268524f852fecda88e9d2e237d496a
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1673'
 ht-degree: 10%
 
 ---
@@ -233,10 +233,14 @@ Desea definir una regla para asignar valores a las clasificaciones **[!UICONTROL
 
 >[!ENDTABS]
 
++++
+
 
 ### División
 
 Divide el valor de dimensión clave, en función de un token, en una o varias clasificaciones.
+
++++ Detalles
 
 #### Entrada requerida
 
@@ -257,6 +261,8 @@ Desea definir una regla que divida los valores de la dimensión clave Campaña i
 ![Regla - Dividir resultados de prueba](assets/rule-split-test.png)
 
 >[!ENDTABS]
+
++++
 
 
 #### Tabla de referencia {#section_0211DCB1760042099CCD3ED7A665D716}
