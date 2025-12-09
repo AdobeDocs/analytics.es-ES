@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
+source-git-commit: 4b39947796d09a58089c846c21b26201a891f1c2
 workflow-type: tm+mt
-source-wordcount: '2991'
+source-wordcount: '2992'
 ht-degree: 87%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 87%
 >[Report Builder](/help/analyze/report-builder/rb-overview.md) nuevo y optimizado se publicó el 16 de octubre de 2024. Es compatible con Mac, Windows y navegadores web.
 >Esta versión de complemento heredado de Report Builder sigue funcionando. Puede [convertir sus libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
 
-## Anuncio del final de la vida útil de Reports & Analytics {#ra-eol}
+## Anuncio del final de la vida útil de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
