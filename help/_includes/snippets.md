@@ -14,7 +14,7 @@ ht-degree: 87%
 >[Report Builder](/help/analyze/report-builder/rb-overview.md) nuevo y optimizado se publicó el 16 de octubre de 2024. Es compatible con Mac, Windows y navegadores web.
 >Esta versión de complemento heredado de Report Builder sigue funcionando. Puede [convertir sus libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
 
-## Anuncio del final de la vida útil de Reports &amp; Analytics {#ra-eol}
+## Anuncio del final de la vida útil de Reports & Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
