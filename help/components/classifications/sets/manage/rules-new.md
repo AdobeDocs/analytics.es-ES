@@ -4,9 +4,9 @@ description: Aprenda a utilizar las reglas de conjuntos de clasificaciones para 
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 6ae2bbd1ea268524f852fecda88e9d2e237d496a
+source-git-commit: 5976beb63d84bf35c998e04df6884fa78dff7c6a
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1661'
 ht-degree: 10%
 
 ---
@@ -296,7 +296,6 @@ Desea definir una regla que divida los valores de la dimensión clave Campaña i
 | `a{3,}` | 3 o más de a. |
 | `a{3,6}` | Entre 3 y 6 de a. |
 
-+++
 
 
 ## Prioridad de reglas
@@ -313,11 +312,22 @@ Si crea varias reglas que no comparten la misma operación de **[!UICONTROL Esta
 
 ### Ejemplo
 
-Desea clasificar con la clasificación **[!UICONTROL Escriba]** cómo buscan los usuarios un atleta usando la cadena de búsqueda como dimensión clave. Por ejemplo, con este conjunto de reglas:
+Desea clasificar con la clasificación **[!UICONTROL Type]** cómo buscan los usuarios un equipo, un tipo genérico o un reproductor utilizando la cadena de búsqueda como dimensión clave. Por ejemplo, mediante el uso de este conjunto de reglas:
 
-![Prioridad de reglas](assets/rule-priority.png)
++++ Detalles
 
-* Cuando un usuario busca `Cowboys Fantasy Tony Romo`, `Romo` se clasifica como **[!UICONTROL Tipo]**.
-* Cuando un usuario busca `Cowboys Fantasy Tony Romeo`, `Fantasy`se clasifica como **[!UICONTROL Tipo]**.
-* Cuando un usuario busca `Cowboys vs. Broncos`, `Team`se clasifica como **[!UICONTROL Tipo]**.
+
+>[!BEGINTABS]
+
+>[!TAB Regla]
+
+![Regla - Prioridad](assets/rule-priority.png)
+
+>[!TAB Resultados de pruebas]
+
+![Regla - Resultados de prueba de prioridad](assets/rule-priority-test.png)
+
+>[!ENDTABS]
+
++++ 
 
