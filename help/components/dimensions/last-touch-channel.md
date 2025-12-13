@@ -3,10 +3,10 @@ title: Canal de último contacto
 description: El canal de marketing más reciente dentro de la caducidad de la participación del visitante.
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 31c3f83f1142a4ba92a390e35ca8dcae66dfa660
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 90%
+source-wordcount: '336'
+ht-degree: 67%
 
 ---
 
@@ -25,6 +25,10 @@ Si desea establecer esta dimensión en un valor específico, se requieren los si
 * Establezca el elemento de dimensión deseado como un canal en el administrador de canales de marketing en la configuración del grupo de informes.
 * Establezca una regla de procesamiento de canal de marketing que contenga los criterios deseados para la visita.
 * La visita del visitante al sitio debe coincidir con los criterios descritos en la regla de procesamiento del canal de marketing.
+
+>[!TIP]
+>
+>Si se usa esta dimensión con métricas que usan [atribución de participación](/help/analyze/analysis-workspace/attribution/models.md), se puede atribuir crédito a `None` cuando otros modelos de atribución no lo hacen. Las métricas de participación requieren un canal de marketing [instance](../metrics/instances.md) dentro de la ventana de informes para recibir crédito. Si el canal de marketing se estableció inicialmente fuera de la ventana de informes y solo el valor persistente existe dentro de la ventana de informes, las métricas de participación atribuyen el crédito a `None`. Otros modelos de atribución atribuyen crédito al valor persistente. Si desea evitar la atribución a `None` en este escenario, considere la posibilidad de utilizar un modelo de atribución que no sea de participación.
 
 ## Elementos de dimensión
 
