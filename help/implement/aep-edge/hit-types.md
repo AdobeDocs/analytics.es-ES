@@ -13,7 +13,7 @@ ht-degree: 20%
 
 # Tipos de eventos de Edge Network en Adobe Analytics
 
-Adobe Analytics trata las visitas de forma diferente en función de las funciones que llame en AppMeasurement. Por ejemplo, [`s.t`](/help/implement/vars/functions/t-method.md) y [`s.tl`](/help/implement/vars/functions/tl-method.md) incluyen u omiten ciertas dimensiones e incrementan [las vistas de página](/help/components/metrics/page-views.md) de manera diferente. Adobe Experience Platform solo contiene el comando [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/overview). Las propiedades específicas dentro de la carga útil [`xdm`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/xdm) o [`data`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/data) determinan cómo se interpretan esos datos en Adobe Analytics.
+Adobe Analytics trata las visitas de forma diferente en función de las funciones que llame en AppMeasurement. Por ejemplo, [`s.t`](/help/implement/vars/functions/t-method.md) y [`s.tl`](/help/implement/vars/functions/tl-method.md) incluyen u omiten ciertas dimensiones e incrementan [las vistas de página](/help/components/metrics/page-views.md) de manera diferente. Adobe Experience Platform solo contiene el comando [`sendEvent`](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/sendevent/overview). Las propiedades específicas dentro de la carga útil [`xdm`](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/sendevent/xdm) o [`data`](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/sendevent/data) determinan cómo se interpretan esos datos en Adobe Analytics.
 
 Edge Network usa la siguiente lógica para determinar las [vistas de página](/help/components/metrics/page-views.md) y los [eventos de vínculo](/help/components/metrics/page-events.md) de Adobe Analytics:
 
@@ -29,7 +29,7 @@ Edge Network usa la siguiente lógica para determinar las [vistas de página](/h
 
 >[!TIP]
 >
->Los nombres de campo XDM de la carga útil distinguen entre mayúsculas y minúsculas (por ejemplo, `webPageDetails.URL`). El campo `xdm.eventType` es un valor de cadena con su propio conjunto de valores aceptados, y es posible que el uso de mayúsculas y minúsculas en esos valores no coincida con los nombres de campo XDM. Para ver los valores aceptados, consulte el campo `eventType` en la clase [XDM ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType).
+>Los nombres de campo XDM de la carga útil distinguen entre mayúsculas y minúsculas (por ejemplo, `webPageDetails.URL`). El campo `xdm.eventType` es un valor de cadena con su propio conjunto de valores aceptados, y es posible que el uso de mayúsculas y minúsculas en esos valores no coincida con los nombres de campo XDM. Para ver los valores aceptados, consulte el campo `eventType` en la clase [XDM ExperienceEvent](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/classes/experienceevent#eventType).
 
 +++Vista de página mínima con `xdm` campos
 
@@ -193,4 +193,4 @@ Además de diferenciar las vistas de página y los eventos de vínculo, la sigui
 
 +++
 
-Consulte [Grupo de campos de esquema de extensión completa de Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) para obtener más información.
+Consulte [Grupo de campos de esquema de extensión completa de Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) para obtener más información.
