@@ -3,9 +3,9 @@ title: Crear Y Editar Consolidaciones De Clasificación
 description: Explica cómo crear, validar, ejecutar, aprobar y cancelar consolidaciones de clasificación.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: cabddc619e0d2ddaba6b232eb4d72c60301f76bb
+source-git-commit: d71a381039011039318e1dca86a1ec4634b79720
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '983'
 ht-degree: 1%
 
 ---
@@ -143,7 +143,7 @@ Una vez que se ha ejecutado correctamente una consolidación de clasificación, 
 
 Para aprobar una consolidación de juego de clasificaciones:
 
-1. Use **[!UICONTROL Informes de similitud]** para revisar la consolidación. Este informe muestra una tabla con las siguientes columnas:
+1. Use el informe **[!UICONTROL Informes de similitud]** para revisar la consolidación. Este informe muestra una tabla con las siguientes columnas:
 
    * **[!UICONTROL Nombre del conjunto de clasificaciones]**: El nombre del conjunto de clasificaciones.
    * **[!UICONTROL Discordancia]**: Porcentaje de filas donde los valores clave no coinciden con el conjunto de clasificación de origen. Si el porcentaje de discrepancia es alto, la discrepancia puede ser una indicación de que los datos de clasificación son demasiado diferentes. Compruebe y asegúrese de que los conjuntos de clasificaciones seleccionados tienen datos de clasificación similares.

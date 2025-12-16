@@ -4,9 +4,9 @@ description: Aprenda a utilizar las reglas de conjuntos de clasificaciones para 
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 5976beb63d84bf35c998e04df6884fa78dff7c6a
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1662'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,11 @@ Para definir un conjunto de reglas para un conjunto de clasificaciones:
 1. En el administrador **[!UICONTROL Conjuntos de clasificaciones]**, seleccione el conjunto de clasificaciones para el que desea definir las reglas.
 1. En el cuadro de diálogo **[!UICONTROL Conjunto de clasificaciones: _nombre del conjunto de clasificaciones_]**, seleccione la pestaña **[!UICONTROL Reglas]**.
 
-   * Si accede a la interfaz **[!UICONTROL Rules]** por primera vez para un conjunto de clasificaciones, o ha decidido hasta ahora seguir utilizando la interfaz heredada del generador de reglas, se le mostrará un cuadro de diálogo que le permitirá seleccionar cómo empezar. Las opciones son:
+   * Si accede a la interfaz **[!UICONTROL Rules]** por primera vez para un conjunto de clasificaciones, o ha decidido hasta ahora seguir utilizando la interfaz heredada del generador de reglas, se le mostrará un cuadro de diálogo que le permitirá seleccionar cómo empezar.
+
+     ![Migración de reglas](assets/rules-migration.png)
+
+     Las opciones son:
 
       * **Migrar reglas existentes**. Importe las reglas de clasificación actuales y continúe trabajando con ellas en la nueva interfaz. Las reglas existentes se conservan y se convierten al nuevo formato.
          * Seleccione **[!UICONTROL Migrar reglas]** para continuar.
