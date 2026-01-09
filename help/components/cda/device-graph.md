@@ -4,45 +4,17 @@ description: Comprenda los requisitos previos y las limitaciones de la vinculaci
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
 role: Admin
-source-git-commit: 6c74f4d4c14765742a2aafdfff2a083c6b0a7183
+source-git-commit: 3716f39ac89a9b922b4f43121ecadab82b571f9b
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 55%
+source-wordcount: '45'
+ht-degree: 35%
 
 ---
 
 
 # Gráfico del dispositivo
 
-{{available-existing-customers}}
-
 >[!WARNING]
 >
->El gráfico de dispositivos de Cross-Device Analytics no estará disponible el **31 de diciembre de 2025**. Cambie cualquier grupo de informes virtuales habilitado para gráficos de dispositivos actuales al [método basado en campos](/help/components/cda/field-based-stitching.md).
+>El gráfico de dispositivos de Cross-Device Analytics está [descontinuado](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) y ya no estará disponible a partir del **31 de diciembre de 2025**. Cambie cualquier grupo de informes virtuales habilitado para gráficos de dispositivos actuales al [método basado en campos](/help/components/cda/field-based-stitching.md).
 >
-
-Los análisis entre dispositivos pueden utilizar Private Graph para vincular los datos. Private Graph es un repositorio de ID de dispositivos con hash específicos de su organización. CDA se comunica regularmente con el gráfico del dispositivo para vincular dispositivos.
-
-## Requisitos previos específicos del gráfico del dispositivo
-
-Si tiene intención de implementar el análisis entre dispositivos mediante el método del gráfico del dispositivo, es necesario lo siguiente. Trabaje con equipos de su organización y con el equipo de cuenta de Adobe para asegurarse de que cumple todos los requisitos siguientes.
-
->[!WARNING]
->
->Si no se cumplen todos los requisitos previos, es posible que no se pueda habilitar el análisis entre dispositivos o que se obtengan resultados deficientes al vincular datos.
->
-
-* Todos los requisitos previos enumerados en la [página de información general](overview.md).
-* Su organización debe utilizar [Adobe Experience Platform Identity Service Private Graph](https://business.adobe.com/es/products/experience-platform/identity-service.html). Consulte también la [Página principal](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=es) en la guía del usuario del servicio de identidad.
-* La implementación debe utilizar la versión más reciente del servicio Experience Cloud ID (ECID). Consulte la [Página de inicio](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) en la guía del usuario del servicio de ID. Es probable que la mayoría de las implementaciones que usan [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) en Adobe Experience Platform ya hayan implementado el servicio de ID.
-* Su implementación debe llamar a la función `setCustomerIDs` (o SDK equivalente) cada vez que se pueda identificar a un individuo, como cuando un usuario inicia sesión o abre un correo electrónico. Este requisito se aplica a todas las plataformas, incluidas las aplicaciones móviles, si se utilizan. Consulte [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=es) en la guía de usuario del servicio de ID.
-
-## Limitaciones específicas del gráfico del dispositivo
-
-* Los ID de Analytics heredados no son compatibles. Solo se vinculan los visitantes con Experience Cloud ID.
-* Si su organización utiliza un gráfico privado, los nuevos dispositivos tardan hasta 24 horas en vincularse.
-* Los gráficos de dispositivos de terceros no son compatibles.
-
-## Pasos siguientes
-
-Una vez que su organización haya cumplido todos los requisitos y haya comprendido las limitaciones, puede empezar a [configurar análisis cruzados de dispositivos](setup.md).
