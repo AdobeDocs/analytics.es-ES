@@ -4,10 +4,10 @@ title: Información general del diccionario de datos
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ Los administradores de Analytics son responsables de seleccionar la información
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Diccionario de datos para Analysis Workspace](https://video.tv.adobe.com/v/3422281/?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Diccionario de datos para Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -65,11 +65,11 @@ Los administradores de Analytics pueden utilizar el diccionario de datos para lo
 
 * Identificar los componentes que aún no se han aprobado.
 
-* Actualizar las descripciones de los componentes directamente en Analysis Workspace. Las actualizaciones realizadas en las descripciones de los componentes del diccionario de datos se reflejan en la vista de datos.
+* Actualizar las descripciones de los componentes directamente en Analysis Workspace. Cualquier actualización realizada en las descripciones de los componentes del diccionario de datos se reflejará en el grupo de informes.
 
-  Del mismo modo, cualquier actualización realizada en las descripciones de los componentes de la vista de datos se reflejan en Analysis Workspace.
+  Del mismo modo, cualquier actualización realizada en las descripciones de los componentes en el grupo de informes se reflejará en Analysis Workspace.
 
-  Para obtener más información sobre la adición de descripciones de componentes en Analysis Workspace o en una vista de datos, consulte [Adición de descripciones de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+  Para obtener más información sobre cómo agregar descripciones de componentes en Analysis Workspace o en un grupo de informes, consulte [Agregar descripciones de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
 
 ## Acceso al diccionario de datos
 
@@ -121,7 +121,7 @@ Analytics administrators are responsible for curating information about each com
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3422281?quality=12&learn=on&captions=spa){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

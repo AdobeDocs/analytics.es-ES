@@ -5,10 +5,10 @@ title: Depurar proyectos
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 80%
+ht-degree: 76%
 
 ---
 
@@ -22,7 +22,7 @@ La depuración permite limitar los componentes (dimensiones, métricas, segmento
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Depurar proyectos](https://video.tv.adobe.com/v/328104?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Depurar proyectos](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +32,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Depurar proyecto
 1. Haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos del proyecto]**.
 Los componentes que se utilizan en el proyecto se añadirán automáticamente.
 Si un proyecto tiene varios grupos de informes, verá un destino de colocación depurada para cada grupo de informes en el proyecto.
-1. (Opcional) Para añadir más componentes, arrastre los componentes que desea compartir del panel izquierdo a la zona de colocación **[!UICONTROL Depurar componentes]** para la vista de datos.
+1. (Opcional) Para agregar más componentes, arrastre los componentes que desee compartir desde el panel izquierdo a la zona de colocación **[!UICONTROL Depurar componentes]** para el grupo de informes.
 1. Seleccione **[!UICONTROL Listo]**.
 
 

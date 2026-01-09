@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo crear hipervínculos para elemento
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1596'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ Esta funcionalidad es especialmente útil al crear hipervínculos para los sigui
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hipervínculos para la dimensión](https://video.tv.adobe.com/v/3445784?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hipervínculos para la dimensión](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Tenga en cuenta lo siguiente al crear hipervínculos para uno o varios elementos
 
 * Los hipervínculos que cree se almacenarán en la tabla de forma libre del proyecto de Analysis Workspace. Los hipervínculos no persisten cuando se utilizan los mismos elementos de dimensión o dimensión en otra tabla o proyecto.
 
-* Si cambia la vista de datos de la tabla de forma libre, cualquier hipervínculo que se haya creado para dimensiones o elementos de dimensión en la tabla seguirá disponible. Esta funcionalidad supone que la dimensión sigue existiendo en la vista de datos.
+* Si cambia el grupo de informes de la tabla de forma libre, cualquier hipervínculo que se haya creado para dimensiones o elementos de dimensión en la tabla seguirá disponible. Esta funcionalidad supone que la dimensión sigue existiendo en el grupo de informes.
 
 * No se comprueba la validez de las direcciones URL al crear el hipervínculo. Si
 

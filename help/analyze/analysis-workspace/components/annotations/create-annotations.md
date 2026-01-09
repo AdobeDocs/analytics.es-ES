@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear anotaciones en Analysis Work
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 93%
@@ -22,7 +22,7 @@ Puedes crear una anotación de las siguientes maneras:
 
 ![Crear una anotación](assets/create-annotation.png)
 
-* **A**. En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Anotaciones]**. Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Añadir]**] desde el administrador de[[!UICONTROL &#x200B; Anotaciones]](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md).
+* **A**. En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Anotaciones]**. Selecciona ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Añadir]**] desde el administrador de[[!UICONTROL  Anotaciones]](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md).
 * **B**. En un proyecto de Workspace, en el menú contextual de una visualización, seleccione **[!UICONTROL Crear anotación a partir de la selección]**.
 * **C**. En un proyecto de Workspace, en el menú contextual de un gráfico de líneas, seleccione **[!UICONTROL Anotar selección]**.
 * **D**. En un proyecto de Workspace, seleccione **[!UICONTROL Componentes]** en el menú, y **[!UICONTROL Crear anotación]**.
@@ -73,7 +73,7 @@ El cuadro de diálogo **[!UICONTROL Generador de anotaciones]** se usa para crea
    | **[!UICONTROL Fecha de aplicación]** ![Requerida](/help/assets/icons/Required.svg) | Selecciona la fecha o el intervalo de fechas que debe estar presente para que la anotación sea visible. Cuando se crea una anotación mediante el acceso directo, la anotación toma el valor predeterminado de un intervalo de datos solo para el día. Cuando se crea una anotación utilizando una selección en una visualización, la anotación toma el valor predeterminado del intervalo de datos en función del intervalo de fechas del panel al que pertenece la visualización. |
    | **[!UICONTROL Color]** | Aplique un color a la anotación. La anotación aparece en el proyecto con el color seleccionado. El color se puede utilizar para categorizar anotaciones, como festivos, eventos externos, problemas de seguimiento, etc. |
    | **[!UICONTROL Ámbito]** | Arrastra y suelta las métricas del panel de componentes que activan la anotación. Por ejemplo, Personas, Sesiones y Eventos. A continuación, arrastre y suelte las dimensiones o segmentos del panel de componentes que actúan como segmentos para determinar si desea mostrar o no la anotación. Si no especificas un ámbito, la anotación se aplicará a todos los datos. <br/>Existen dos opciones:<ul><li>**[!UICONTROL Cualquiera de estas métricas está presente]**: arrastra y suelta hasta 10 métricas que activarán la anotación para mostrar.<br/>Por ejemplo, la métrica Ingresos ha dejado de recopilar datos para un intervalo de fechas específico. Arrastra la métrica Ingresos a este cuadro.</li><li>**[!UICONTROL Con todos estos segmentos]**: Arrastre y suelte hasta 10 dimensiones o segmentos que segmentan si se muestra la anotación.</li></ul><p><p>**Nota:** Cualquier anotación aplicada a un componente que luego se utiliza como parte de una métrica calculada o definición de segmento NO hereda automáticamente la anotación. La métrica calculada deseada también debe agregarse a la sección de ámbito para mostrar la anotación. Sin embargo, se debe crear una nueva anotación para cualquier segmento que desee anotar con la misma información. Ejemplo: aplica una anotación a [!UICONTROL Pedidos] en un día específico. A continuación, utilice [!UICONTROL Pedidos] en una métrica calculada para el mismo intervalo de fechas. La nueva métrica calculada no muestra automáticamente la anotación de los pedidos. Agrega también la métrica calculada a la sección ámbito para que se muestre la anotación. |
-   | **[!UICONTROL Aplicar a todas las vistas de datos]** | De forma predeterminada, la anotación se aplica al grupo de informes de origen. Al marcar esta casilla, puede hacer que la anotación se aplique a todos los grupos de informes de la compañía. |
+   | **[!UICONTROL Aplicar a todos los conjuntos de informes]** | De forma predeterminada, la anotación se aplica al grupo de informes de origen. Al marcar esta casilla, puede hacer que la anotación se aplique a todos los grupos de informes de la compañía. |
 
    {style="table-layout:auto"}
 

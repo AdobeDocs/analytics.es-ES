@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -66,7 +66,7 @@ Para definir un intervalo de fechas al revés, haga clic primero en la fecha de 
 
 ### Menú desplegable de ajustes preestablecidos
 
-El menú desplegable de ajustes preestablecidos incluye un conjunto estándar de intervalos de fechas preestablecidos y componentes de intervalo de fechas para una vista de datos que haya guardado o una vista de datos que se haya compartido con usted.
+El menú desplegable de ajustes preestablecidos incluye un conjunto estándar de intervalos de fechas preestablecidos y componentes de intervalo de fechas para un grupo de informes que haya guardado o un grupo de informes que se haya compartido con usted.
 
 ### Fechas móviles
 

@@ -3,10 +3,10 @@ description: Conozca cómo usar alertas para permitir un control granular sobre 
 title: Información general sobre alertas
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 96%
+source-wordcount: '422'
+ht-degree: 54%
 
 ---
 
@@ -14,16 +14,22 @@ ht-degree: 96%
 
 Las alertas de Adobe Analytics permiten recibir notificaciones basadas en porcentajes modificados o puntos de datos específicos.
 
-Según el paquete de Adobe Analytics, también puede utilizar alertas para activarlas en función de los umbrales de anomalías. Estas alertas (también conocidas como “Alertas inteligentes”) proporcionan controles granulares que se integran con [Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) y se activan cuando más las necesita.
+Según el paquete de Adobe Analytics, también puede utilizar alertas para activarlas en función de los umbrales de anomalías. Estas alertas (también conocidas como *Alertas inteligentes*) proporcionan controles granulares que se integran con la [Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) y se activan cuando más las necesita.
 
 Las alertas le permiten:
 
-* Obtener una vista previa de la frecuencia con la que se activará una alerta
-* Enviar alertas por correo electrónico o SMS con vínculos a proyectos de Analysis Workspace autogenerados
-* Crear alertas “apiladas” que capturan varias métricas en una sola alerta
-* Generar alertas en función de anomalías (umbrales del 90 %, 95 %, 99 %, 99,75 % y 99,9 %; cambio de %; por encima/por debajo) (disponible solo para clientes de Adobe Analytics con un paquete Select, Prime o Ultimate)
+* Vista previa de la frecuencia con la que déclencheur una alerta.
+* Enviar alertas por correo electrónico o SMS con vínculos a proyectos de Analysis Workspace autogenerados.
+* Crear *alertas apiladas* que capturan varias métricas en una sola alerta.
+* Generar alertas basadas en:
+   * Anomalías en métricas que existen, que están por encima o por debajo de los valores de umbral esperados.
 
-El siguiente tutorial de vídeo proporciona información general básica sobre las alertas: [Alertas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=es) (5:34)
+     [Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) crea un valor esperado más un límite superior e inferior usando datos históricos. Si el valor real de la métrica va por encima o por debajo del límite inferior definido como valor de umbral, ese evento se considera una anomalía en el nivel de confianza de umbral y no almacena en déclencheur la alerta. Un umbral más alto (por ejemplo, 99 % o 99,9 %) implica una banda más ancha, lo que resulta en menos alertas causadas por anomalías más extremas. Un umbral más bajo (por ejemplo, 90 %) implica una banda más estrecha, lo que da como resultado más alertas causadas por anomalías menos extremas.
+   * Cambios en las métricas según un porcentaje específico.
+   * Métricas que están por encima, por debajo o iguales a un valor específico. (disponible solo para clientes de Adobe Analytics con un paquete Select, Prime o Ultimate)
+
+Este [tutorial en vídeo](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts) proporciona información general básica sobre las alertas.
+
 
 ## Retrospectiva de anomalías para alertas
 

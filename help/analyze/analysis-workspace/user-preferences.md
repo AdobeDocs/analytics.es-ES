@@ -4,10 +4,10 @@ description: Aprenda a establecer preferencias generales y de proyecto para los 
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '3456'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Puede administrar la configuración de Analysis Workspace y sus componentes rela
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Administrar preferencias](https://video.tv.adobe.com/v/3429991/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Administrar preferencias](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -128,12 +128,12 @@ Haga clic en los títulos de las preferencias vinculadas para obtener más infor
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="Métrica predeterminada de la tabla"
->abstract="Seleccione la métrica predeterminada que se utilizará para las tablas de forma libre. Si la vista de datos seleccionada no contiene la métrica predeterminada seleccionada, la tabla cambia automáticamente a otra métrica principal."
+>abstract="Seleccione la métrica predeterminada que se utilizará para las tablas de forma libre. Si el grupo de informes seleccionado no contiene la métrica predeterminada seleccionada, la tabla cambia automáticamente a otra métrica principal."
 
 
 Puede personalizar las preferencias de tabla de forma libre para todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
 
-Algunas de estas mismas preferencias también se pueden personalizar para proyectos individuales.
+Algunas de estas mismas preferencias también se pueden personalizar para tablas individuales.
 
 Haga clic en los títulos de las secciones vinculadas para obtener más información y contexto sobre las preferencias disponibles.
 
