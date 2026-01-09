@@ -4,10 +4,10 @@ description: Preguntas frecuentes sobre la identificación de visitantes entre d
 feature: Implementation Basics
 exl-id: da972fee-fe6e-45b2-af01-50674989c375
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 90%
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ Preguntas frecuentes sobre la identificación de visitantes entre dispositivos.
 +++¿Cuál es la diferencia entre la identificación de visitantes entre dispositivos y Cross-Device Analytics?
 La identificación de visitantes entre dispositivos utiliza la variable `visitorID` para unir dispositivos, con varias limitaciones importantes. Una de las mayores limitaciones de este método de identificación es que las visitas no autenticadas están aisladas a menos que el dispositivo ya se haya reconocido. Estas visitas no autenticadas pueden aumentar las cantidades de visitantes únicos.
 
-Cross-Device Analytics es el método más innovador de identificación de visitantes entre dispositivos de Adobe. Utiliza el servicio de Experience Cloud ID y el gráfico de dispositivos para unir en forma retroactiva las visitas desde distintos dispositivos. CDA necesita el uso de la función `setCustomerIDs` para determinar qué dispositivos utiliza el mismo visitante.
+Cross-Device Analytics es el método más innovador de identificación de visitantes entre dispositivos de Adobe. Utiliza el servicio de Experience Cloud ID y la vinculación basada en el campo para unir de forma retroactiva las visitas desde distintos dispositivos. CDA necesita el uso de la función `setCustomerIDs` para determinar qué dispositivos utiliza el mismo visitante.
 +++
 
 +++¿Cómo gestiona la identificación de visitantes entre dispositivos los segmentos?

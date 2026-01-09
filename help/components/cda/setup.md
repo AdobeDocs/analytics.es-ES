@@ -4,10 +4,10 @@ description: Configure un grupo de informes virtuales para habilitar CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 87%
+source-wordcount: '525'
+ht-degree: 84%
 
 ---
 
@@ -19,7 +19,7 @@ Una vez cumplidos todos los requisitos previos, siga los pasos siguientes para h
 
 >[!IMPORTANT]
 >
->Todos los requisitos previos deben cumplirse antes de seguir estos pasos. Si no se cumplen todos los requisitos previos, la función no estará disponible o no funcionará. Consulte la [página de información general](overview.md) y el método de vinculación deseado ([vinculación basada en el campo](field-based-stitching.md) o [gráfico del dispositivo](device-graph.md), respectivamente) para conocer los requisitos previos y las limitaciones.
+>Todos los requisitos previos deben cumplirse antes de seguir estos pasos. Si no se cumplen todos los requisitos previos, la función no estará disponible o no funcionará. Consulte la [página de información general](overview.md) y el método de vinculación deseado ([Vinculación basada en el campo](field-based-stitching.md)) para conocer los requisitos previos y las limitaciones.
 
 ## &#x200B;1. Abra un ticket con el Servicio de atención al cliente para que CDA abastezca a su grupo de informes entre dispositivos
 
@@ -27,7 +27,7 @@ El departamento de ingeniería de Adobe ofrece las analíticas de varios disposi
 
 * Su ID de organización de Adobe Experience Cloud (la cadena alfanumérica que termina con @AdobeOrg)
 * El ID del grupo de informes perteneciente al grupo de informes entre dispositivos que desea habilitar con analíticas de varios dispositivos
-* Qué método de análisis multidispositivo desea utilizar (vinculación basada en campos o gráfico de dispositivos Adobe)
+* Qué método de análisis multidispositivo desea utilizar (vinculación basada en el campo)
 * Si desea utilizar la vinculación basada en campos, el prop o eVar que contiene el ID de usuario
 * Su preferencia de frecuencia de repetición y longitud de retrospectiva. Las opciones incluyen una reproducción una vez a la semana con una ventana retrospectiva de 7 días o una reproducción cada día con una ventana retrospectiva de 1 día.
 El valor predeterminado es la reproducción semanal con una ventana retrospectiva de 7 días. En este caso, los datos de la última semana están sujetos a cambios (ya que se identifican y se actualizan progresivamente).

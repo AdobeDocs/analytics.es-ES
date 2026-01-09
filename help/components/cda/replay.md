@@ -4,10 +4,10 @@ description: Comprensión del concepto "reproducción" en Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '491'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ Cross-Device Analytics realiza dos pasadas de datos en un grupo de informes virt
 
 ## Tabla de ejemplo
 
-Las siguientes tablas ilustran cómo los métodos de CDA ([vinculación basada en campos](field-based-stitching.md) y [gráfico de dispositivos](device-graph.md)) calculan la cantidad de personas únicas:
+Las siguientes tablas ilustran cómo ([Vinculación basada en el campo](field-based-stitching.md) calcula el número de personas únicas:
 
 ### Vinculación en directo
 
@@ -30,27 +30,19 @@ Tan pronto como se recopila una visita, CDA intenta vincularla a dispositivos co
 
 *Datos tal como aparecen el día en que se recopilan:*
 
-| Marca de tiempo | ECID | eVar1 o CustomerID | Explicación de la visita | Métrica de personas (acumulativa) mediante el gráfico de dispositivo | Métrica de personas (acumulativa) mediante vinculación basada en campos |
-| --- | --- | --- | --- | --- | --- |
-| `1` | `246` | - | Bob con su equipo de escritorio, sin autenticar | `1` (246) | `1` (246) |
-| `2` | `246` | `Bob` | Bob inicia sesión en su equipo de escritorio | `1` (246) | `2` (246 y Bob) |
+| Marca de tiempo | ECID | eVar1 o CustomerID | Explicación de la visita | Métrica de personas (acumulativa) mediante vinculación basada en el campo |
+| --- | --- | --- | --- | --- | 
+| `1` | `246` | - | Bob con su equipo de escritorio, sin autenticar | `1` (246) |
+| `2` | `246` | `Bob` | Bob inicia sesión en su equipo de escritorio | `2` (246 y Bob) |
 | `3` | `3579` | - | Bob con su dispositivo móvil, sin autenticar | `2` (246 y 3579) | `3` (246, Bob y 3579) |
-| `4` | `3579` | `Bob` | Bob inicia sesión en su dispositivo móvil | `2` (246 y 3579) | `3` (246, Bob y 3579) |
-| `5` | `246` | - | Bob vuelve a visitar el sitio con su equipo de escritorio, sin autenticarse | `2` (246 y 3579) | `3` (246, Bob y 3579) |
-| `6` | `246` | `Bob` | Bob inicia sesión de nuevo con su equipo de escritorio | `2` (246 y 3579) | `3` (246, Bob y 3579) |
-| `7` | `3579` | - | Bob vuelve a acceder al sitio con su dispositivo móvil | `2` (246 y 3579) | `3` (246, Bob y 3579) |
-| `8` | `3579` | `Bob` | Bob inicia sesión a través de un dispositivo móvil | `2` (246 y 3579) | `3` (246, Bob y 3579) |
+| `4` | `3579` | `Bob` | Bob inicia sesión en su dispositivo móvil | `3` (246, Bob y 3579) |
+| `5` | `246` | - | Bob vuelve a visitar el sitio con su equipo de escritorio, sin autenticarse | | `3` (246, Bob y 3579) |
+| `6` | `246` | `Bob` | Bob inicia sesión de nuevo con su equipo de escritorio | `3` (246, Bob y 3579) |
+| `7` | `3579` | - | Bob vuelve a acceder al sitio con su dispositivo móvil | `3` (246, Bob y 3579) |
+| `8` | `3579` | `Bob` | Bob inicia sesión a través de un dispositivo móvil | `3` (246, Bob y 3579) |
 
-Tanto las visitas no autenticadas como las autenticadas en los nuevos dispositivos se cuentan como personas independientes (temporalmente).
-
-* **Si se utiliza el gráfico de dispositivo**, las visitas no autenticadas en dispositivos reconocidos se vinculan en directo una vez que el gráfico del dispositivo publica un grupo. La publicación de grupos tarda entre tres horas y dos semanas.
-
-  También se agrega una tercera persona acumulativa cuando se publica un grupo. Esta tercera persona representa el propio grupo, además de los dispositivos individuales. Esta tercera &quot;persona&quot; permanece hasta que se reproduzcan los datos.
-
-  La atribución no funciona en todos los dispositivos hasta que se publica un grupo e incluso entonces solo se vinculan en directo a partir de ese momento. En el ejemplo anterior, ninguna de las visitas se ha vinculado aún entre dispositivos. La atribución entre dispositivos en relación con las visitas individuales existentes no funciona hasta después de la reproducción de la vinculación.
-* **Si se utiliza la vinculación basada en campos,** las visitas no autenticadas en dispositivos reconocidos se vinculan en directo a partir de ese momento.
-
-  La atribución funciona tan pronto como la variable personalizada de identificación se vincula a un dispositivo. En el ejemplo anterior, todas las visitas, excepto la 1 y la 3, están vinculadas en tiempo real (todas utilizan el identificador `Bob`). La atribución funciona en las visitas 1 y 3 tras la reproducción de la vinculación.
+Las visitas no autenticadas y autenticadas en los nuevos dispositivos se cuentan como personas independientes (temporalmente).
+Las visitas no autenticadas en dispositivos reconocidos se vinculan en directo a partir de ese momento. La atribución funciona tan pronto como la variable personalizada de identificación se vincula a un dispositivo. En el ejemplo anterior, todas las visitas, excepto la 1 y la 3, están vinculadas en tiempo real (todas utilizan el identificador `Bob`). La atribución funciona en las visitas 1 y 3 tras la reproducción de la vinculación.
 
 >[!NOTE]
 >
@@ -67,13 +59,13 @@ Si un dispositivo envía inicialmente datos sin autenticarse y, luego, inicia se
 
 *Los mismos datos después de la reproducción:*
 
-| Marca de tiempo | ECID | eVar1 o CustomerID | Explicación de la visita | Métrica de personas (acumulativa) mediante el gráfico de dispositivo | Métrica de personas (acumulativa) mediante vinculación basada en campos |
-| --- | --- | --- | --- | --- | --- |
-| `1` | `246` | - | Bob con su equipo de escritorio, sin autenticar | `1` (Cluster1) | `1` (Bob) |
-| `2` | `246` | `Bob` | Bob inicia sesión en su equipo de escritorio | `1` (Cluster1) | `1` (Bob) |
-| `3` | `3579` | - | Bob con su dispositivo móvil, sin autenticar | `1` (Cluster1) | `1` (Bob) |
-| `4` | `3579` | `Bob` | Bob inicia sesión en su dispositivo móvil | `1` (Cluster1) | `1` (Bob) |
-| `5` | `246` | - | Bob vuelve a visitar el sitio con su equipo de escritorio, sin autenticarse | `1` (Cluster1) | `1` (Bob) |
-| `6` | `246` | `Bob` | Bob inicia sesión de nuevo con su equipo de escritorio | `1` (Cluster1) | `1` (Bob) |
-| `7` | `3579` | - | Bob vuelve a acceder al sitio con su dispositivo móvil | `1` (Cluster1) | `1` (Bob) |
-| `8` | `3579` | `Bob` | Bob inicia sesión a través de un dispositivo móvil | `1` (Cluster1) | `1` (Bob) |
+| Marca de tiempo | ECID | eVar1 o CustomerID | Explicación de la visita | Métrica de personas (acumulativa) mediante vinculación basada en el campo |
+| --- | --- | --- | --- | --- |
+| `1` | `246` | - | Bob con su equipo de escritorio, sin autenticar | `1` (Bob) |
+| `2` | `246` | `Bob` | Bob inicia sesión en su equipo de escritorio | `1` (Bob) |
+| `3` | `3579` | - | Bob con su dispositivo móvil, sin autenticar | `1` (Bob) |
+| `4` | `3579` | `Bob` | Bob inicia sesión en su dispositivo móvil | `1` (Bob) |
+| `5` | `246` | - | Bob vuelve a visitar el sitio con su equipo de escritorio, sin autenticarse | `1` (Bob) |
+| `6` | `246` | `Bob` | Bob inicia sesión de nuevo con su equipo de escritorio | `1` (Bob) |
+| `7` | `3579` | - | Bob vuelve a acceder al sitio con su dispositivo móvil | `1` (Bob) |
+| `8` | `3579` | `Bob` | Bob inicia sesión a través de un dispositivo móvil | `1` (Bob) |

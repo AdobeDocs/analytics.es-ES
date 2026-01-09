@@ -4,10 +4,10 @@ description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '1953'
-ht-degree: 98%
+source-wordcount: '1699'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,6 @@ La vinculación entre dispositivos de CDA se produce en dos procesos simultáneo
 
 * El segundo proceso se llama “repetición”. Durante la reproducción, CDA retrocede en el tiempo y reitera los datos históricos, cuando es posible, en un período de tiempo retrospectivo especificado. Este periodo oscila de 1 a 7 días, según cómo haya solicitado que se configure CDA. Durante la reproducción, CDA intenta reiterar las visitas en las que la persona era anteriormente desconocida.
 
-* **Si se utiliza un gráfico de dispositivos**, Adobe mantiene las asignaciones de Gráfico de dispositivos durante aproximadamente 6 meses. Un ECID que no tenga actividad durante más de seis meses se elimina del gráfico. Los datos ya enlazados en CDA no se ven afectados, las visitas posteriores para ese ECID se tratan como una persona nueva.
 
 +++
 
@@ -65,20 +64,12 @@ Los clientes que ya utilizan el ID de visitante personalizado pueden actualizar 
 
 +++
 
-+++ ¿Cómo gestiona el gráfico del dispositivo los dispositivos compartidos?
 
-En algunas situaciones es posible que varias personas inicien sesión desde el mismo dispositivo. Algunos ejemplos son un dispositivo compartido en casa, un equipo compartido en una biblioteca o un quiosco en un punto de venta minorista.
-
-* **Si se utiliza un gráfico del dispositivo**, la capacidad de gestionar dispositivos compartidos es limitada. El gráfico del dispositivo utiliza un algoritmo para determinar la propiedad de un “clúster” y puede cambiar cada vez que se publica este clúster. Los usuarios del dispositivo compartido están sujetos al clúster al cual pertenecen.
-* **Si utiliza la vinculación basada en el campo**, la prop o eVar que elija para identificar a los usuarios que iniciaron sesión sobrescribirá otros identificadores. Los dispositivos compartidos se consideran personas independientes, incluso si se originan en el mismo dispositivo.
-
-+++
 
 +++ ¿Cómo gestiona el CDA las situaciones en las que una sola persona tiene MUCHOS dispositivos/ECID?
 
 En algunas situaciones, un usuario individual puede asociarse con un gran número de ECID. Esto puede ocurrir si el usuario utiliza muchos navegadores o aplicaciones, y puede exacerbarse si borra las cookies con frecuencia o utiliza el modo de exploración privado o indirecto del explorador.
 
-* **Si se utiliza un gráfico del dispositivo**, CDA limita el número de ECID que se asocia a un ID de usuario determinado a 50. Si un ID de usuario se asocia con demasiados ECID, el gráfico del dispositivo supone que el ID de usuario no es válido y elimina el clúster asociado a dicho ID de usuario. A continuación, se agrega el ID de usuario a una lista de bloqueados para evitar que se añada a otro clúster en el futuro. El resultado en los informes es que el ID de usuario no se vincula entre dispositivos.
 * **Si utiliza la vinculación basada en el campo**, el número de dispositivos es irrelevante en favor de la propiedad o el eVar que elija para ayudar a identificar a los usuarios que iniciaron sesión. Un solo usuario puede pertenecer a cualquier número de dispositivos sin afectar a la capacidad de CDA para vincular entre los dispositivos.
 
 +++
