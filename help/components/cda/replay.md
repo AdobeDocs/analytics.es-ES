@@ -4,9 +4,9 @@ description: Comprensión del concepto "reproducción" en Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 89%
 
 ---
@@ -34,9 +34,9 @@ Tan pronto como se recopila una visita, CDA intenta vincularla a dispositivos co
 | --- | --- | --- | --- | --- | 
 | `1` | `246` | - | Bob con su equipo de escritorio, sin autenticar | `1` (246) |
 | `2` | `246` | `Bob` | Bob inicia sesión en su equipo de escritorio | `2` (246 y Bob) |
-| `3` | `3579` | - | Bob con su dispositivo móvil, sin autenticar | `2` (246 y 3579) | `3` (246, Bob y 3579) |
+| `3` | `3579` | - | Bob con su dispositivo móvil, sin autenticar | `3` (246, Bob y 3579) |
 | `4` | `3579` | `Bob` | Bob inicia sesión en su dispositivo móvil | `3` (246, Bob y 3579) |
-| `5` | `246` | - | Bob vuelve a visitar el sitio con su equipo de escritorio, sin autenticarse | | `3` (246, Bob y 3579) |
+| `5` | `246` | - | Bob vuelve a visitar el sitio con su equipo de escritorio, sin autenticarse | `3` (246, Bob y 3579) |
 | `6` | `246` | `Bob` | Bob inicia sesión de nuevo con su equipo de escritorio | `3` (246, Bob y 3579) |
 | `7` | `3579` | - | Bob vuelve a acceder al sitio con su dispositivo móvil | `3` (246, Bob y 3579) |
 | `8` | `3579` | `Bob` | Bob inicia sesión a través de un dispositivo móvil | `3` (246, Bob y 3579) |
