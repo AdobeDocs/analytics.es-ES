@@ -56,7 +56,7 @@ En Analysis Workspace, la métrica Visualizadores simultáneos comprende la cant
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de visualizadores simultáneos de medios](https://video.tv.adobe.com/v/342835?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342835/?captions=spa&quality=12)
 
 ## Panel Inputs {#Input}
 
