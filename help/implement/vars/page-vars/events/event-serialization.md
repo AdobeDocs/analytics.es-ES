@@ -4,7 +4,7 @@ description: Ayuda a deduplicar métricas en el sitio.
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 7cd930ac63e0c02dbc7df2b6114d523f5ac91064
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 83%
@@ -37,7 +37,7 @@ Al utilizar ID de evento, la deduplicación se produce en los siguientes niveles
 
 Si se usa el [**objeto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), la serialización de eventos usa el campo XDM `id` del evento deseado. La ruta completa de XDM depende del evento que se desea serializar.
 
-Por ejemplo, si desea serializar la métrica Adiciones al carro de compras, establezca `xdm.commerce.productListAdds.id` en el valor de serialización deseado. Si desea serializar el evento personalizado 20, establezca `xdm._experience.analytics.event1to100.event20` en el valor de serialización deseado.
+Por ejemplo, si desea serializar la métrica Adiciones al carro de compras, establezca `xdm.commerce.productListAdds.id` en el valor de serialización deseado. Si desea serializar el evento personalizado 20, establezca `xdm._experience.analytics.event1to100.event20.id` en el valor de serialización deseado.
 
 Si se usa el [**objeto de datos**](/help/implement/aep-edge/data-var-mapping.md), la serialización de eventos usa `data.__adobe.analytics.events`, siguiendo la sintaxis de cadena de AppMeasurement.
 
