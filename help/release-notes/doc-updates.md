@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: d9fbc4a69030f9633046920f023473261cea6f28
+source-git-commit: af4a592d4c73d000d1fede72148dc1617de52fec
 workflow-type: tm+mt
-source-wordcount: '6626'
+source-wordcount: '6624'
 ht-degree: 98%
 
 ---
@@ -26,14 +26,13 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Enero de 2026** | |
+| Preferencias de usuario: formato de número | Ya no puede definir el formato de número en la sección **[!UICONTROL Proyecto y análisis]** > **[!UICONTROL Datos]** de **[!UICONTROL preferencias de usuario]**. El formato de número se determina automáticamente según el [idioma predeterminado configurado](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) para el usuario que ha iniciado sesión. |
 | Gráfico del dispositivo | Se eliminaron las referencias a la [funcionalidad de gráficos de dispositivos interrumpida](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
 
 ### 2025 {#year2025}
 
 | Función | Descripción |
 | --- | --- |
-| **Enero de 2026** | |
-| Preferencias de usuario: formato de número | Ya no puede definir el formato de número en la sección **[!UICONTROL Proyecto y análisis]** > **[!UICONTROL Datos]** de **[!UICONTROL preferencias de usuario]**. El formato de número se determina automáticamente según el [idioma predeterminado configurado](https://experienceleague.adobe.com/es/docs/core-services/interface/features/browser-language) para el usuario que ha iniciado sesión. |
 | **Noviembre de 2025** | |
 | Consideraciones importantes sobre las reglas de VISTA | Se han actualizado las consideraciones importantes sobre las [reglas de Vista](/help/technotes/vista.md). |
 | Se ha agregado un ID de columna de datos para las herramientas de inteligencia artificial conversacional | Se ha agregado la [ID de referencia de columna de datos](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) para las herramientas de inteligencia artificial aplicada a la conversación en la columna ref_type. |
@@ -95,7 +94,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Documentación sobre la adición de componentes a proyectos | Se ha añadido información general sobre cómo [añadir distintos tipos de componentes a los proyectos en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Documentación actualizada de Advertising Analytics | Documentación actualizada en línea con las actualizaciones realizadas en la interfaz de usuario de [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md). |
 | Asignación explícita de variables de objeto XDM a variables de datos de contexto | Se ha documentado la capacidad en [establecer explícitamente variables de datos de contexto mediante la asignación de variables de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
-| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Se ha actualizado la documentación sobre intervalos de fechas personalizados | Capturas de pantalla y procedimientos actualizados relacionados con la [creación de intervalos de fechas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) para que coincida con las características y el diseño actuales del producto. |
 | **Abril de 2024** | |
 | Se ha eliminado la documentación relacionada con “Propietario” en los conjuntos de clasificación | El filtro “Propietario” y la columna se han eliminado del [Administrador de conjuntos de clasificación](/help/components/classifications/sets/manage/set-manager.md) y el campo “Propietario” se ha eliminado de [Configuración del conjunto de clasificación](/help/components/classifications/sets/manage/settings.md). <p>La documentación se ha actualizado para quitar este filtro, columna y campo.</p> |
