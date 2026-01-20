@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
+source-git-commit: d9fbc4a69030f9633046920f023473261cea6f28
 workflow-type: tm+mt
-source-wordcount: '6584'
-ht-degree: 99%
+source-wordcount: '6626'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Función | Descripción |
 | --- | --- |
+| **Enero de 2026** | |
+| Preferencias de usuario: formato de número | Ya no puede definir el formato de número en la sección **[!UICONTROL Proyecto y análisis]** > **[!UICONTROL Datos]** de **[!UICONTROL preferencias de usuario]**. El formato de número se determina automáticamente según el [idioma predeterminado configurado](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) para el usuario que ha iniciado sesión. |
 | **Noviembre de 2025** | |
 | Consideraciones importantes sobre las reglas de VISTA | Se han actualizado las consideraciones importantes sobre las [reglas de Vista](/help/technotes/vista.md). |
 | Se ha agregado un ID de columna de datos para las herramientas de inteligencia artificial conversacional | Se ha agregado la [ID de referencia de columna de datos](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) para las herramientas de inteligencia artificial aplicada a la conversación en la columna ref_type. |
@@ -93,7 +95,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Documentación sobre la adición de componentes a proyectos | Se ha añadido información general sobre cómo [añadir distintos tipos de componentes a los proyectos en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Documentación actualizada de Advertising Analytics | Documentación actualizada en línea con las actualizaciones realizadas en la interfaz de usuario de [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md). |
 | Asignación explícita de variables de objeto XDM a variables de datos de contexto | Se ha documentado la capacidad en [establecer explícitamente variables de datos de contexto mediante la asignación de variables de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
-| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Se ha actualizado la documentación sobre intervalos de fechas personalizados | Capturas de pantalla y procedimientos actualizados relacionados con la [creación de intervalos de fechas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) para que coincida con las características y el diseño actuales del producto. |
 | **Abril de 2024** | |
 | Se ha eliminado la documentación relacionada con “Propietario” en los conjuntos de clasificación | El filtro “Propietario” y la columna se han eliminado del [Administrador de conjuntos de clasificación](/help/components/classifications/sets/manage/set-manager.md) y el campo “Propietario” se ha eliminado de [Configuración del conjunto de clasificación](/help/components/classifications/sets/manage/settings.md). <p>La documentación se ha actualizado para quitar este filtro, columna y campo.</p> |
@@ -154,7 +156,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Documentación sobre la actualización de la pantalla de inicio de la aplicación de paneles de Analytics (aplicación móvil) | La nueva pantalla de inicio actualizada le permite ver todos los cuadros de resultados en una lista consolidada de cuadros de resultados. [Más información](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Iconos de espectro | Se han reemplazado, cuando corresponde, las capturas de pantalla de los iconos de la interfaz de usuario en la documentación con referencias a los iconos equivalentes en [Sistema de diseño de espectro de Adobe](https://spectrum.adobe.com/page/icons/). |
 | Administrador de actividades de creación de informes | Se ha actualizado esta documentación beta, específicamente la sección sobre [Visualización de la actividad de creación de informes para grupos de informes individuales](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md). |
-| Información general de Analysis Workspace | Se ha actualizado la [información general de Analysis Workspace](/help/analyze/analysis-workspace/home.md) para incluir información más general y vínculos a contenido relevante. |
+| Información general sobre Analysis Workspace | Se ha actualizado la [información general de Analysis Workspace](/help/analyze/analysis-workspace/home.md) para incluir información más general y vínculos a contenido relevante. |
 | Crear proyectos | Se ha creado un nuevo artículo que explica en detalle cómo [Crear proyectos](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) en Analysis Workspace. |
 | Ordenar componentes en el carril izquierdo | Se ha añadido información acerca de la ordenación de la lista de componentes en el carril izquierdo. Consulte Búsqueda, Filtrar y ordene la sección &quot;lista de componentes&quot; en [Información general sobre componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
 | Eliminación de filas que contienen dimensiones dinámicas de una tabla de forma libre | Se ha añadido información acerca de cómo eliminar rápidamente filas específicas que contienen dimensiones dinámicas mediante el icono x. Consulte la sección &quot;Excluir rápidamente filas específicas de una tabla&quot; en [Filtrado y ordenación de tablas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
