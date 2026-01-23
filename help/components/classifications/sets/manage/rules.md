@@ -2,7 +2,7 @@
 title: Reglas de conjuntos de clasificaciones
 description: Aprenda a utilizar las reglas de conjuntos de clasificaciones para definir reglas para los datos de clasificación.
 feature: Classifications
-source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
+source-git-commit: 685110ea30be8b87f63a8d944902669544516667
 workflow-type: tm+mt
 source-wordcount: '1682'
 ht-degree: 13%
@@ -316,6 +316,6 @@ Desea clasificar con la clasificación **[!UICONTROL Escriba]** cómo buscan los
 ![Prioridad de reglas](assets/rule-priority.png)
 
 * Cuando un usuario busca `Cowboys Fantasy Tony Romo`, `Romo` se clasifica como **[!UICONTROL Tipo]**.
-* Cuando un usuario busca `Cowboys Fantasy Tony Romeo`, `Fantasy`se clasifica como **[!UICONTROL Tipo]**.
-* Cuando un usuario busca `Cowboys vs. Broncos`, `Team`se clasifica como **[!UICONTROL Tipo]**.
+* Cuando un usuario busca `Cowboys Fantasy Tony Romeo`, `Fantasy` se clasifica como **[!UICONTROL Tipo]**.
+* Cuando un usuario busca `Cowboys vs. Broncos`, `Team` se clasifica como **[!UICONTROL Tipo]**.
 
