@@ -3,7 +3,7 @@ title: Información general sobre los conjuntos de clasificaciones
 description: Aprenda a utilizar los conjuntos de clasificaciones para administrar los datos de clasificación. Comprenda cómo los conjuntos de clasificaciones difieren de las clasificaciones heredadas.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
+source-git-commit: d5e1432569516d13d2de30a2cb30cebb067ab783
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 9%
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # Información general sobre los conjuntos de clasificación
 
-Los conjuntos de clasificaciones proporcionan una interfaz única para administrar las clasificaciones y las reglas. Este flujo de trabajo combina la creación de clasificaciones en [configuración del grupo de informes](/help/admin/tools/manage-rs/report-suites-admin.md) con el [importador de clasificaciones](/help/components/classifications/sets/manage/set-manager.md). El resultado es una interfaz única e intuitiva para crear y administrar datos de clasificación.
+Los conjuntos de clasificaciones proporcionan una interfaz única para administrar las clasificaciones y las reglas. Este flujo de trabajo combina la creación de clasificaciones en [configuración del grupo de informes](/help/admin/tools/manage-rs/report-suites-admin.md) con el [importador de clasificaciones](/help/components/classifications/sets/set-manager.md). El resultado es una interfaz única e intuitiva para crear y administrar datos de clasificación.
 
 
 ## Conjuntos de clasificaciones en comparación con clasificaciones heredadas
@@ -46,7 +46,7 @@ Para obtener acceso a **[!UICONTROL Conjuntos de clasificaciones]** desde el men
 
 Los conjuntos de clasificaciones constan de tres áreas funcionales:
 
-* [**[!UICONTROL Conjuntos de clasificaciones]**](manage/set-manager.md): cree, edite y elimine conjuntos de clasificaciones.
+* [**[!UICONTROL Conjuntos de clasificaciones]**](set-manager.md): cree, edite y elimine conjuntos de clasificaciones.
 * [**[!UICONTROL Trabajos]**](job-manager.md): vea el estado de los trabajos de conjuntos de clasificaciones.
 * [**[!UICONTROL Consolidaciones]**](consolidations/manage.md): Combine varios conjuntos de clasificaciones en uno solo.
 
@@ -56,7 +56,7 @@ Los conjuntos de clasificaciones constan de tres áreas funcionales:
 El flujo de trabajo para los conjuntos de clasificaciones suele incluir los siguientes pasos:
 
 1. Piense en las combinaciones de grupo de informes y dimensión para las que desea crear un conjunto de clasificaciones. Un ejemplo es definir un conjunto de clasificación de productos que cree para cualquier grupo de informes en el que desee clasificar productos con más detalles. Por ejemplo, detalles como categoría y color.
-1. [Cree un conjunto de clasificaciones](/help/components/classifications/sets/manage/create.md) con suscripciones para uno o más grupos de informes y combinaciones de dimensiones clave que identifiquen productos. Por ejemplo:
+1. [Cree un conjunto de clasificaciones](/help/components/classifications/sets/create.md) con suscripciones para uno o más grupos de informes y combinaciones de dimensiones clave que identifiquen productos. Por ejemplo:
 
    | Grupo de informes | Dimensión clave |
    |---|---|
@@ -112,7 +112,7 @@ La arquitectura back-end lanzada con conjuntos de clasificaciones contiene varia
 
 * Reducción del tiempo de procesamiento (de 72 a 24 horas).
 * Una interfaz de usuario rediseñada para administrar clasificaciones.
-* Opción para usar datos de clasificación en Adobe Experience Platform a través del [conector de origen de Adobe Analytics para los datos de clasificación](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* Opción para usar datos de clasificación en Adobe Experience Platform a través del [conector de origen de Adobe Analytics para los datos de clasificación](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 La arquitectura back-end lanzada con conjuntos de clasificaciones también contiene varios cambios:
 
