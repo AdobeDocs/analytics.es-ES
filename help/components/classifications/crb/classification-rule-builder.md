@@ -3,7 +3,7 @@ description: En lugar de mantener y cargar clasificaciones cada vez que cambien 
 title: Flujo de trabajo del generador de reglas de clasificación
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: 1f97365ada0a182f743b6d920b0605232e030aec
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 86%
@@ -18,7 +18,7 @@ En lugar de mantener y cargar clasificaciones cada vez que cambien sus códigos 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generador de reglas de clasificación](https://video.tv.adobe.com/v/3434377?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generador de reglas de clasificación](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -57,3 +57,4 @@ Instrucciones avanzadas relacionadas con la implementación de reglas de clasifi
 **Blog**: Para obtener más información sobre esta característica, consulte el Blog de Digital Marketing - [Clasificaciones basadas en reglas](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
 **Vídeo**: Vea el vídeo [Descripción general de las clasificaciones](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html?lang=es).
+
