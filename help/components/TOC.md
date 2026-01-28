@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '737'
 ht-degree: 99%
 
 ---
@@ -277,15 +277,15 @@ ht-degree: 99%
    + Clasificaciones heredadas {#legacy-classifications}
       + Generador de reglas de clasificación {#classifications-rulebuilder}
          + [Información general](classifications/crb/classification-rule-builder.md)
-         + [Conjuntos de reglas de clasificación](classifications/crb/classification-rule-set.md)
-         + [Reglas de clasificación](classifications/crb/classification-quickstart-rules.md)
-         + [Definiciones de reglas de clasificación](classifications/crb/classification-rule-definitions.md)
-         + [Subclasificaciones y generador de reglas](classifications/crb/subclassification-rule-builder.md)
+         + [Conjuntos de reglas](classifications/crb/classification-rule-set.md)
+         + [Reglas](classifications/crb/classification-quickstart-rules.md)
+         + [Definiciones de reglas](classifications/crb/classification-rule-definitions.md)
+         + [Subclasificaciones](classifications/crb/subclassification-rule-builder.md)
       + Importador de clasificaciones {#classifications-importer}
-         + [Información general del importador de clasificaciones](classifications/importer/c-working-with-saint.md)
-         + [Archivos de datos de clasificación](classifications/importer/c-saint-data-files.md)
+         + [Información general](classifications/importer/c-working-with-saint.md)
+         + [Archivos de datos](classifications/importer/c-saint-data-files.md)
          + [Eliminar datos de clasificación](classifications/importer/t-delete-classification-data.md)
-         + [Plantilla de clasificación](classifications/importer/c-download-saint-data.md)
+         + [Plantilla](classifications/importer/c-download-saint-data.md)
          + [Importación del explorador](classifications/importer/browser-import.md)
          + [Exportación del explorador](classifications/importer/browser-export.md)
          + [Importación de FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
@@ -310,3 +310,4 @@ ht-degree: 99%
    + [Analizar Canales de marketing](c-marketing-channels/analyze-mc.md)
    + [Permisos de canales de marketing](c-marketing-channels/c-channel-report-access.md)
    + [Preguntas más frecuentes y ejemplos de canales de marketing](c-marketing-channels/c-faq.md)
+
