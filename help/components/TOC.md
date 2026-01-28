@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: bc07745771f6e1b1228f4d77ff8e89130b90ebef
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 99%
+source-wordcount: '736'
+ht-degree: 98%
 
 ---
 
@@ -284,7 +284,7 @@ ht-degree: 99%
       + Importador de clasificaciones {#classifications-importer}
          + [Información general](classifications/importer/c-working-with-saint.md)
          + [Archivos de datos](classifications/importer/c-saint-data-files.md)
-         + [Eliminar datos de clasificación](classifications/importer/t-delete-classification-data.md)
+         + [Eliminación de datos](classifications/importer/t-delete-classification-data.md)
          + [Plantilla](classifications/importer/c-download-saint-data.md)
          + [Importación del explorador](classifications/importer/browser-import.md)
          + [Exportación del explorador](classifications/importer/browser-export.md)
