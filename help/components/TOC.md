@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 50700a4ee1d836516a96be3816d4c777c4172ce5
+source-git-commit: ea8122bbaaea841d70ddabe677de5eaa78a10ad1
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 99%
@@ -310,4 +310,3 @@ ht-degree: 99%
    + [Analizar Canales de marketing](c-marketing-channels/analyze-mc.md)
    + [Permisos de canales de marketing](c-marketing-channels/c-channel-report-access.md)
    + [Preguntas más frecuentes y ejemplos de canales de marketing](c-marketing-channels/c-faq.md)
-
