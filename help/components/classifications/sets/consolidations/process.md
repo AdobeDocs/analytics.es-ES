@@ -3,7 +3,7 @@ title: Crear Y Editar Consolidaciones De Clasificación
 description: Explica cómo crear, validar, ejecutar, aprobar y cancelar consolidaciones de clasificación.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: d71a381039011039318e1dca86a1ec4634b79720
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 1%
@@ -77,7 +77,17 @@ Drag the desired classification sets from the available column on the left to th
 
 -->
 
-## Edición de una consolidación
+## Edición de una consolidación {#edit-a-classification}
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="Desajuste"
+>abstract="El porcentaje de clave no coincide cuando el valor del conjunto de clasificación consolidado no coincide con el conjunto de clasificación de origen."
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="Ausente"
+>abstract="Porcentaje de claves en el conjunto de clasificaciones consolidado, pero no en el conjunto de clasificaciones de origen."
 
 Para editar una consolidación de clasificación, en la interfaz principal de Adobe Analytics:
 
@@ -124,18 +134,7 @@ Para ejecutar una consolidación de clasificación:
 1. Seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para cerrar el cuadro de diálogo.
 
 
-### Aprobar {#approve}
-
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_mismatch"
->title="Desajuste"
->abstract="El porcentaje de clave no coincide cuando el valor del conjunto de clasificación consolidado no coincide con el conjunto de clasificación de origen."
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_absent"
->title="Ausente"
->abstract="Porcentaje de claves en el conjunto de clasificaciones consolidado, pero no en el conjunto de clasificaciones de origen."
+### Aprobar
 
 Una vez que se ha ejecutado correctamente una consolidación de clasificación, el estado de la consolidación es ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Esperando aprobación]**. La aprobación de una consolidación de clasificación reemplaza los conjuntos de clasificaciones individuales por el conjunto de clasificaciones consolidado y se eliminan los conjuntos de clasificaciones individuales.
 
