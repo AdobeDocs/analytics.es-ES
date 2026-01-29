@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 5109dc297f1b930258e4cffa8ca4325cf369ca6e
+source-git-commit: 993bef6137bbcda98cb6f09f9e8644db44e7d8cb
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -261,11 +261,11 @@ ht-degree: 98%
    + [Casos de uso](alerts/alerts-use-cases.md)
 + Clasificaciones {#classifications}
    + [Resumen general de las clasificaciones](classifications/classifications-overview.md)
-   + Conjuntos de clasificación {#sets}
+   + Conjuntos de clasificaciones {#sets}
       + [Información general](classifications/sets/overview.md)
       + [Archivos de datos](classifications/sets/data-files.md)
-      + [Crear y editar](/help/components/classifications/sets/create.md)
-      + [Administrar](/help/components/classifications/sets/set-manager.md)
+      + [Crear y editar](/help/components/classifications/sets/create-set.md)
+      + [Administrar](/help/components/classifications/sets/manage-sets.md)
       + Conjunto de clasificaciones {#set}
          + [Configuración](classifications/sets/manage/settings.md)
          + [Esquema](classifications/sets/manage/schema.md)
