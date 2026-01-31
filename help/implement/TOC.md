@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: Aprenda formas de implementar Adobe Analytics. Personalice qué se recopila para aprovechar al máximo los datos de Analytics.
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+source-git-commit: ae4c68f29e878101ae0b2f863823ebf20b6095cd
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
@@ -148,8 +148,8 @@ ht-degree: 100%
    + [Ocuparse de una implementación de Adobe Analytics existente](prepare/existing-implementation.md)
 + Implementar Analytics con Experience Platform Edge {#aep-edge}
    + [Información general de Experience Edge](aep-edge/overview.md)
-   + [Asignación de variables de objeto de datos](aep-edge/data-var-mapping.md)
-   + [Asignación de variables de objeto XDM](aep-edge/xdm-var-mapping.md)
+   + [Asignación de campo de objeto de datos](aep-edge/data-var-mapping.md)
+   + [Asignación de campo de objeto XDM](aep-edge/xdm-var-mapping.md)
    + [Tipos de eventos de Edge Network](aep-edge/hit-types.md)
    + SDK web {#web-sdk}
       + [Información general del SDK web](aep-edge/web-sdk/overview.md)
