@@ -4,10 +4,10 @@ description: Aprenda a establecer preferencias generales y de proyecto para los 
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: d9fbc4a69030f9633046920f023473261cea6f28
+source-git-commit: 3d786731c959da9a5eb02572394aced6ffd0deb1
 workflow-type: tm+mt
-source-wordcount: '3485'
-ht-degree: 98%
+source-wordcount: '3456'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Puede administrar la configuración de Analysis Workspace y sus componentes rela
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [Administrar preferencias](https://video.tv.adobe.com/v/3429991/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Administrar preferencias](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -98,10 +98,12 @@ Algunas de estas mismas preferencias también se pueden personalizar para proyec
 
 Haga clic en los títulos de las preferencias vinculadas para obtener más información y contexto sobre cada preferencia.
 
+<!--
 >[!IMPORTANT]
 >
->Ya no puede definir el formato de número en la sección **[!UICONTROL Proyecto y análisis]** > **[!UICONTROL Datos]** de **[!UICONTROL preferencias de usuario]**. El formato de número se determina automáticamente según el [idioma predeterminado configurado](https://experienceleague.adobe.com/es/docs/core-services/interface/features/browser-language) para el usuario que ha iniciado sesión.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
+-->
 
 | Sección | Preferencia | Opciones |
 | --- | --- | --- |
@@ -112,6 +114,7 @@ Haga clic en los títulos de las preferencias vinculadas para obtener más infor
 |  | [Grupo de informes](/help/analyze/analysis-workspace/c-panels/panels.md) | Elija desde dónde las tablas y las visualizaciones obtienen sus datos. <ul><li>Más reciente (predeterminado)</li><li>Grupo de informes específico seleccionado de una lista</li></ul> |
 |  | [Calendario](/help/analyze/analysis-workspace/c-panels/panels.md) | Seleccione de una lista de: <ul><li>Intervalos proporcionados por Adobe (el valor predeterminado es Este mes)</li><li>Intervalos definidos a medida</li></ul> |
 |  | [Tipo de panel](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>Improvisado (predeterminado)</li><li>En blanco</li><li>Acceso rápido a información</li></ul> |
+|  | Formato de número | <ul><li>1000,00 (predeterminado)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Contar instancias repetidas | Especifica si las instancias repetidas se cuentan en los informes. Por ejemplo, esta configuración (cuando está activada) trata varias vistas de página consecutivas a la misma página como varias vistas de página. Si está desactivada, se cuentan como una sola vista de página. <p>**Nota:** esta configuración solo afecta a determinadas métricas (como las Visitas a una sola página) y no se aplica a las visualizaciones de Flujo o Visita en orden previsto.</p> |
 |  | Carácter separador de CSV | <ul><li>Coma (predeterminado)</li><li>Punto y coma</li><li>Dos puntos</li><li>Barra vertical</li><li>Periodo</li><li>Espacio</li><li>Tabulación</li></ul> |
 |  | Mostrar anotaciones | Elija si las anotaciones estarán visibles en los proyectos. Para obtener más información sobre las anotaciones, consulte la [Información general sobre anotaciones](/help/analyze/analysis-workspace/components/annotations/overview.md). |
