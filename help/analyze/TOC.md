@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y su versión heredada, y Activity Map.
-source-git-commit: 340baffc3c870ffec136a0800f71a293099e4d9f
+source-git-commit: 288ca753157a6ed388a37a1ef01481cd83191b85
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '869'
 ht-degree: 100%
 
 ---
@@ -177,7 +177,6 @@ ht-degree: 100%
    + [Programar libros de trabajo para el correo electrónico](report-builder/schedule-reportbuilder.md)
    + [Programar libros para exportaciones en la nube](/help/analyze/report-builder/report-builder-export.md)
    + [Administrar libros de trabajo programados](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
-   + [Etiquetas restringidas](report-builder/restricted-labels.md)
    + [Configuración de Report Builder](report-builder/report-builder-settings.md)
 + Report Builder heredado {#legacy-report-builder}
    + [Ayuda de Report Builder de Adobe heredado](legacy-report-builder/home.md)

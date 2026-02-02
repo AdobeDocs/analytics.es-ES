@@ -1,21 +1,38 @@
 ---
 title: Información general de Report Builder
-description: Describe la funcionalidad de Report Builder
+description: Obtenga información acerca de la funcionalidad de Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: 10deaf5370661bbe5058b65e4f6b6339e54d878c
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 100%
+source-wordcount: '496'
+ht-degree: 72%
 
 ---
 
 # Información general de Report Builder
 
-El nuevo complemento Report Builder de JavaScript, inicialmente solo disponible en Customer Journey Analytics, ahora también está en Adobe Analytics. Esta nueva versión presenta varias ventajas:
+Report Builder le permite crear, editar y actualizar fácilmente informes personalizados utilizando datos de Adobe Analytics. Con la sencilla y flexible IU de tipo &quot;arrastrar y soltar&quot; de Report Builder, puede crear consultas de datos complejas e informes personalizados a partir de datos de Adobe Analytics, todo ello dentro de Excel.
+
+Con Report Builder para Adobe Analytics, puede:
+
+- Haga referencia a celdas de la hoja de cálculo existentes para obtener el orden de filas, el intervalo de fecha o el segmento perfecto.
+- Cree fechas personalizadas con el calendario, las referencias a celdas o la matemática de fechas.
+- Diseñe sus tablas y visualizaciones con las conocidas herramientas de formato de Excel.
+
+Report Builder para Adobe Analytics es un complemento de Microsoft Excel. El complemento está disponible en las plataformas siguientes:
+
+- macOS
+- Windows
+- Navegadores web
+
+
+## Report Builder heredado
+
+Este Report Builder reemplaza el [complemento heredado de Report Builder](/help/analyze/legacy-report-builder/home.md) y ofrece varias ventajas:
 
 - Encuentre información útil Excel de forma más rápida y sencilla con flujos de trabajo mejorados para la creación y administración de bloques de datos, incluida una mayor flexibilidad de bloques de datos
 - Plataformas múltiples: ya no es necesario iniciar sesión en la VM, puesto que puede utilizar Report Builder en Excel en línea en ordenadores de escritorio y Mac.
@@ -24,15 +41,8 @@ El nuevo complemento Report Builder de JavaScript, inicialmente solo disponible 
 
 Los usuarios de la herramienta Report Builder heredada pueden [convertir los libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
 
-Report Builder le permite crear, editar y actualizar fácilmente informes personalizados utilizando datos de Adobe Analytics. Con la sencilla y flexible IU de tipo &quot;arrastrar y soltar&quot; de Report Builder, puede crear consultas de datos complejas e informes personalizados a partir de datos de Adobe Analytics, todo ello dentro de Excel.
 
-Con Report Builder, puede:
-
-- Hacer referencia a celdas de la hoja de trabajo existente para obtener el orden de fila, el intervalo de fecha o el filtro perfecto
-- Crear fechas personalizadas con el calendario, referencias a celdas o aritmética de fechas
-- Diseñar tablas y visualizaciones con herramientas habituales para dar formato de Excel
-
-## Uso simultáneo del Report Builder heredado y del nuevo Report Builder
+### Uso simultáneo de ambas versiones
 
 Puede seguir utilizando ambas versiones de Report Builder, con las siguientes salvedades:
 
@@ -40,17 +50,10 @@ Puede seguir utilizando ambas versiones de Report Builder, con las siguientes sa
 - Puede seguir utilizando el Report Builder heredado en los libros heredados y el Report Builder nuevo en los libros nuevos.
 - Además, puede [convertir automáticamente los libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo formato de Report Builder. Antes de hacerlo, duplique y cambie el nombre del archivo.
 
-## Las funciones heredadas de Report Builder no son compatibles con el nuevo Report Builder
+### No se admiten las funciones heredadas de Report Builder
 
-Al comparar la funcionalidad del Report Builder heredado con el nuevo complemento de Report Builder, algunas de las funcionalidades heredadas ya no están disponibles:
+Algunas [características del Report Builder heredado no son compatibles](convert-workbooks.md#legacy-report-builder-features-not-supported) en este Report Builder.
 
-- Solicitudes en tiempo real
-
-- Informes de rutas/visitas en el orden previsto
-
-- Opción de FTP para informes programados
-
-- Métricas de visitantes. Las siguientes métricas se convierten en “visitantes únicos”, aunque el resultado del sistema de informe puede no generar una coincidencia exacta: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` y `visitorsyearly`. Esto también se aplica a `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` y `mobilevisitorsyearly`.
 
 ## Casos de uso comunes
 
@@ -68,13 +71,13 @@ Al comparar la funcionalidad del Report Builder heredado con el nuevo complement
 
 >[!IMPORTANT]
 >
->En este vídeo de información general se muestra la interfaz de usuario de Report Builder en Customer Journey Analytics. Algunos de los términos y la interfaz de usuario son diferentes. De lo contrario, la experiencia del usuario es idéntica.
+>En este vídeo de información general se muestra la interfaz de usuario de Report Builder en Customer Journey Analytics. Algunos términos y la interfaz de usuario difieren cuando se utiliza Report Builder en Adobe Analytics. De lo contrario, la experiencia del usuario es idéntica.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Información general de Report Builder](https://video.tv.adobe.com/v/3452583?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Información general de Report Builder](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
-Puede descargar Report Builder desde [Microsoft Store](https://appsource.microsoft.com/es-es/product/office/WA200003101?tab=Overview).
+Puede descargar Report Builder desde Adobe Analytics desde [Microsoft Store](https://appsource.microsoft.com/es-es/product/office/WA200003101?tab=Overview).

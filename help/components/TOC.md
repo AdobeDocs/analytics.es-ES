@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 993bef6137bbcda98cb6f09f9e8644db44e7d8cb
+source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -296,8 +296,8 @@ ht-degree: 99%
          + [Preguntas frecuentes](classifications/importer/importer-faq.md)
 + Ubicaciones {#locations}
    + [Administrador de ubicaciones](/help/components/locations/locations-manager.md)
-   + [Cuentas de importación en la nube](/help/components/locations/configure-import-accounts.md)
-   + [Ubicaciones de importación en la nube](/help/components/locations/configure-import-locations.md)
+   + [Configurar cuentas en la nube](/help/components/locations/configure-import-accounts.md)
+   + [Configurar ubicaciones de nube](/help/components/locations/configure-import-locations.md)
 + [Proyectos programados](scheduled-projects-manager.md)
 + [Cola de informes programados](scheduled-reports-admin.md)
 + Creación de informes en tiempo real {#real-time-reporting}
