@@ -3,9 +3,9 @@ title: Información general sobre los conjuntos de clasificaciones
 description: Aprenda a utilizar los conjuntos de clasificaciones para administrar los datos de clasificación. Comprenda cómo los conjuntos de clasificaciones difieren de las clasificaciones heredadas.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 8a7dd06a26e6a4ad06c224543bc7fdda33ba7aaa
+source-git-commit: e1ccd006336f10b8f843d59cfdcd220064524349
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '895'
 ht-degree: 100%
 
 ---
@@ -123,8 +123,3 @@ La arquitectura de servidor lanzada con conjuntos de clasificaciones también co
 >[!IMPORTANT]
 >
 >El rendimiento de los conjuntos de clasificaciones depende principalmente del número de valores de clave única que contienen datos. Tenga cuidado cuando tenga variables que contengan una gran cantidad de valores únicos. En especial cuando se combinan estas variables de varios grupos de informes y dimensiones en un único conjunto de clasificaciones.
-
-## Limitaciones
-
-* Los conjuntos de clasificaciones aún no admiten reglas. La funcionalidad de reglas se añade a la interfaz de conjuntos de clasificaciones antes de que la funcionalidad del [generador de reglas heredadas](/help/components/classifications/crb/classification-rule-builder.md) deje de estar disponible.
-* No se realizan migraciones de reglas y configuraciones de clasificación heredadas a conjuntos de clasificaciones. Se añade una utilidad de migración a la interfaz de conjuntos de clasificaciones antes de que la funcionalidad de clasificación heredada deje de estar disponible.
