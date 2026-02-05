@@ -6,13 +6,13 @@ title: Resumen del contenido de la fuente de datos
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1002'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# Resumen del contenido de las fuentes de datos
+# Contenido de la fuente de datos: Información general
 
 Las secciones siguientes describen cómo acceder y comprender los archivos que se encuentran en una entrega de fuentes de datos.
 
@@ -22,13 +22,13 @@ Para acceder al contenido de una fuente de datos:
 
 1. Inicie sesión en el sitio de destino de la fuente de datos.
 
-   Este es el sitio de destino que configura al crear la fuente de datos, como un bloque de Amazon S3 o Google Cloud Platform.
+   Este es el sitio de destino que configuró al crear el feed de datos, como bloque de Amazon S3 o Google Cloud Platform.
 
 1. Descargue el archivo de fuente de datos comprimido en el equipo local.
 
 1. Descomprima el archivo comprimido con un programa que admita extensiones de archivo `.tar.gz`.
 
-1. Abra el archivo `hit_data.tsv` en la hoja de cálculo o aplicación de base de datos que desee para ver los datos sin procesar de ese día. —>
+1. Abra el archivo `hit_data.tsv` en la hoja de cálculo o la aplicación de base de datos que desee para ver los datos sin procesar de ese día. -->
 
 ## Archivo de manifiesto {#feed-manifest}
 
@@ -81,20 +81,20 @@ Los archivos de búsqueda se entregan juntos en un zip comprimido al que se le a
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* **`column_headers.tsv`**: una sola fila que contiene los encabezados de columna de `hit_data.tsv`.
-* **`browser.tsv`**: asigna el identificador de explorador (la columna de fuente `browser`) al nombre descriptivo del explorador.
-* **`browser_type.tsv`**: asigna el identificador de explorador (la columna de fuente `browser`) al tipo de explorador.
-* **`color_depth.tsv`**: asigna el identificador de profundidad de color (la columna de fuente `color`) a la profundidad de color.
-* **`connection_type.tsv`**: asigna el identificador de tipo de conexión (la columna de fuente `connection_type`) al tipo de conexión.
-* **`country.tsv`**: asigna el identificador de país (la columna de fuente `country`) al nombre del país.
-* **`javascript_version.tsv`**: asigna el identificador de versión de JavaScript (la columna de fuente `javascript`) a la versión de JavaScript.
-* **`languages.tsv`**: asigna el identificador de idioma (la columna de fuente `language`) al idioma.
-* **`operating_systems.tsv`**: asigna el identificador del sistema operativo (la columna de fuente `os`) al nombre del sistema operativo.
-* **`plugins.tsv`**: asigna los ID de complemento (la columna de fuente `plugin`) a cada nombre de complemento correspondiente.
-* **`resolution.tsv`**: asigna el identificador de resolución (la columna de fuente `resolution`) a la resolución del monitor.
-* **`referrer_type.tsv`**: asigna el id. de tipo de referente (la columna de fuente `ref_type`) al tipo de referente.
-* **`search_engines.tsv`**: asigna el identificador de motor de búsqueda (la columna de fuente `search_engine`) al nombre del motor de búsqueda.
-* **`event.tsv`**: asigna cada ID de evento (la columna de fuente `event_list`) a su nombre de evento respectivo.
+* **`column_headers.tsv`**: Una sola fila que contiene los encabezados de columna de `hit_data.tsv`.
+* **`browser.tsv`**: Asigna el ID del explorador (la columna de fuente `browser`) al nombre descriptivo del explorador.
+* **`browser_type.tsv`**: Asigna el ID del explorador (la columna de fuente `browser`) al tipo de explorador.
+* **`color_depth.tsv`**: Asigna el ID de profundidad de color (la columna de fuente `color`) a la profundidad de color.
+* **`connection_type.tsv`**: Asigna el ID del tipo de conexión (la columna de fuente `connection_type`) al tipo de conexión.
+* **`country.tsv`**: Asigna el ID del país (la columna de fuente `country`) al nombre del país.
+* **`javascript_version.tsv`**: Asigna el ID de versión de JavaScript (la columna de fuente `javascript`) a la versión de JavaScript.
+* **`languages.tsv`**: Asigna el ID del idioma (la columna de fuente `language`) al idioma.
+* **`operating_systems.tsv`**: Asigna el ID del sistema operativo (la columna de fuente `os`) al nombre del sistema operativo.
+* **`plugins.tsv`**: Asigna los ID de complemento (la columna de fuente `plugin`) a cada nombre de complemento correspondiente.
+* **`resolution.tsv`**: Asigna el ID de resolución (la columna de fuente `resolution`) a la resolución del monitor.
+* **`referrer_type.tsv`**: Asigna el ID de tipo de referente (la columna de fuente `ref_type`) al tipo de referente.
+* **`search_engines.tsv`**: Asigna el ID del motor de búsqueda (la columna de fuente `search_engine`) al nombre del motor de búsqueda.
+* **`event.tsv`**: Asigna cada ID de evento (la columna de fuente `event_list`) a su nombre de evento correspondiente.
 
 ## Archivos de datos de visitas
 
@@ -107,7 +107,7 @@ Los archivos que Adobe entrega varían en función del tipo de fuente de datos q
 * `[YYYY-mm-dd]` hace referencia al día de inicio del origen de datos.
 * `[HHMMSS]` solo se utiliza en fuentes por hora y se refiere a la hora de inicio para la que está la fuente de datos.
 * `[compression_suffix]` hace referencia al tipo de compresión utilizado. Normalmente, las fuentes de datos se comprimen en `tar.gz` o `zip` archivos.
-* `[format_suffix]` hace referencia al tipo de formato de archivo. Normalmente, el formato del archivo de fuente de datos es `.tsv`.
+* `[format_suffix]` hace referencia al tipo de formato de archivo. Normalmente, el formato del archivo de la fuente de datos es `.tsv`.
 
 ### A diario, archivo único
 
@@ -135,11 +135,11 @@ Cuando se extrae, el archivo de datos contiene un solo archivo `hit_data.tsv` co
 
 ### Por hora, varios archivos
 
-Una vez recopilados los datos durante una hora, recibirá uno o más archivos de datos comprimidos y un archivo de manifiesto. Los archivos de datos se denominan:
+Una vez recopilados los datos durante una hora, recibirá uno o más archivos de datos comprimidos y un archivo de manifiesto. El nombre de los archivos de datos es:
 
 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-Cuando se extrae, cada archivo de datos contiene un único archivo de `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` que contiene aproximadamente 2 GB de datos sin comprimir, así como archivos de búsqueda para las columnas requeridas.
+Cuando se extrae, cada archivo de datos contiene un único archivo `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` que contiene aproximadamente 2 GB de datos sin comprimir, así como archivos de búsqueda para cualquier columna requerida.
 
 ## Tamaño del archivo de datos
 

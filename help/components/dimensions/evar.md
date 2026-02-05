@@ -4,9 +4,9 @@ description: Dimensión personalizada que se puede utilizar en la creación de i
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 77%
 
 *Esta página de ayuda describe cómo funcionan las eVars como una [dimensión](overview.md). Para obtener información sobre cómo implementar eVars, consulte [eVars](/help/implement/vars/page-vars/evar.md) en la guía de implementación de usuario.*
 
-Las eVars son [dimensiones](overview.md) personalizadas que puedes usar como quieras. Si tiene un [documento de diseño de solución](/help/implement/prepare/solution-design.md), la mayoría de las dimensiones específicas de su organización terminan como [!UICONTROL eVars].
+Las eVars son [dimensiones](overview.md) personalizadas que puede utilizar como quiera. Si dispone de un [documento de diseño de solución](/help/implement/prepare/solution-design.md), la mayoría de las dimensiones específicas de su organización terminan como [!UICONTROL eVars].
 
-De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. Consulte las secciones [Cómo funcionan las eVars](#how-evars-work) y [Cómo se vinculan las eVars a las métricas](#how-evars-tie-to-metrics) más abajo para obtener detalles sobre cómo funciona la persistencia de eVar en la arquitectura de Adobe. Puede habilitar, deshabilitar o personalizar su caducidad y asignación en [Variables de conversión](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) en [!UICONTROL Configuración del grupo de informes]. La siguiente imagen muestra un ejemplo de definiciones de eVar en la interfaz de variables de conversión:
+De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. Consulte las secciones [Cómo funcionan las eVars](#how-evars-work) y [Cómo se vinculan las eVars a las métricas](#how-evars-tie-to-metrics) más abajo para obtener detalles sobre cómo funciona la persistencia de eVar en la arquitectura de Adobe. Puede habilitar, deshabilitar o personalizar su caducidad y asignación en [Variables de conversión](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) en la [!UICONTROL Configuración del grupo de informes]. La siguiente imagen muestra un ejemplo de definiciones de eVar en la interfaz de variables de conversión:
 
 ![Ejemplos de Evar](assets/evars-sample.png)
 
 El número de eVars disponibles depende del contrato con Adobe. Hay disponibles hasta 250 eVars si su contrato con Adobe lo permite.
 
-Las mayúsculas y minúsculas utilizadas en los informes se basan en el primer valor que envía en un mes natural determinado. Las mayúsculas y minúsculas pueden cambiar según la ventana de creación de informes y el caso de un valor de eVar que se haya recopilado primero durante ese tiempo.
+Las mayúsculas y minúsculas utilizadas en los informes se basan en el primer valor que usted envía en un mes natural determinado. Las mayúsculas y minúsculas pueden cambiar según la ventana de creación de informes y el caso de un valor de eVar que se haya recopilado primero durante ese tiempo.
 
 ## Propagar eVars con datos
 
-Cada eVar recopila datos de la cadena de consulta [`v1` - `v250` &#x200B;](/help/implement/validate/query-parameters.md) en solicitudes de imagen. Por ejemplo, el parámetro de cadena de consulta `v1` recopila datos para eVar1, mientras que el parámetro de cadena de consulta `v222` recopila datos para eVar222.
+Cada eVar recopila datos de la cadena de consulta [`v1` - `v250` ](/help/implement/validate/query-parameters.md) en solicitudes de imagen. Por ejemplo, el parámetro de cadena de consulta `v1` recopila datos para eVar1, mientras que el parámetro de cadena de consulta `v222` recopila datos para eVar222.
 
 AppMeasurement, que compila variables JavaScript en una solicitud de imagen para la recopilación de datos, utiliza las variables `eVar1` - `eVar250`. Consulte [eVar](/help/implement/vars/page-vars/evar.md) en la Guía del usuario de implementación para ver las directrices de implementación.
 
@@ -45,7 +45,7 @@ En casi todas las circunstancias, la columna `post_evar` se utiliza en los infor
 
 ### Cómo se vinculan las eVars con las métricas
 
-Los eventos de éxito y las eVars se definen con frecuencia en momentos diferentes. La columna `post_evar` permite que los valores de eVar se vinculen a eventos, mostrando los datos en sistema de informes. Examine la siguiente visita, por ejemplo:
+Los eventos de éxito y las eVars se suelen definir en momentos diferentes. La columna `post_evar` permite que los valores de eVar se vinculen a eventos, mostrando los datos en sistema de informes. Examine la siguiente visita, por ejemplo:
 
 1. Un visitante llega a su sitio en la página de inicio.
 2. Buscan &quot;gatos&quot; usando la búsqueda interna del sitio. La implementación utiliza eVar1 para la búsqueda interna.
@@ -78,10 +78,10 @@ Las herramientas de Adobe Analytics, como Analysis Workspace, funcionan con esto
 
 Analysis Workspace extrae este informe con la siguiente lógica:
 
-* Busque todos los valores de `event_list` y elija todas las filas que contengan `purchase`.
-* De esas filas, muestre el valor `post_evar1`.
+* Busque todos los valores de `event_list` y seleccione todas las filas con `purchase` que contengan.
+* De estas filas, muestre el valor de `post_evar1`.
 
-El informe resultante muestra cada valor diferente contenido en `post_evar1` a la izquierda, y cuántos pedidos se atribuyeron a ese valor a la derecha.
+El informe resultante muestra cada valor diferente incluidos en `post_evar1` a la izquierda, y cuántos pedidos se atribuyeron a ese valor a la derecha.
 
 ### La importancia de la asignación y la caducidad
 

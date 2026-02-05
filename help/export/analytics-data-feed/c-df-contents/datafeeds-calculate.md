@@ -5,9 +5,9 @@ title: Calcular métricas
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ Se describe cómo calcular métricas habituales mediante fuentes de datos.
 
 >[!NOTE]
 >
->Las visitas normalmente excluidas de Analysis Workspace se incluyen en las fuentes de datos. Considere la posibilidad de añadir las siguientes condiciones a las consultas si son relevantes:
+>Las visitas excluidas normalmente de Adobe Analytics se incluyen en las fuentes de datos. Considere la posibilidad de añadir las siguientes condiciones a las consultas si son relevantes:
 >
 >* **`exclude_hit`**: Analysis Workspace solo incluye datos donde `exclude_hit = 0`.
->* **`customer_perspective`**: Analysis Workspace solo incluye datos donde `customer_perspective = 0`, a menos que use un grupo de informes virtuales que incluya visitas en segundo plano móviles.
->* **`hit_source`**: los datos de los orígenes de datos pueden contener diferencias entre los datos sin procesar y Analysis Workspace. Si desea excluir las visitas de orígenes de datos, excluya todas las filas donde `hit_source = 5,7,8,9`.
+>* **`customer_perspective`**: Analysis Workspace solo incluye datos donde `customer_perspective = 0`, a menos que use un grupo de informes virtuales que incluya visitas móviles en segundo plano.
+>* **`hit_source`**: Los datos de los orígenes de datos pueden contener diferencias entre los datos sin procesar y Analysis Workspace. Si desea excluir visitas de los orígenes de datos, excluya todas las filas donde `hit_source = 5,7,8,9`.
 
 ## Vistas de páginas
 
@@ -38,7 +38,7 @@ Se describe cómo calcular métricas habituales mediante fuentes de datos.
 
 >[!TIP]
 >
->Las irregularidades de Internet, las irregularidades del sistema o el uso del ID de visitante personalizado no suelen utilizar los mismos valores `visit_num` para las distintas visitas. Si bien es opcional, use `visit_start_time_gmt` al contar las visitas para asegurarse de que el recuento es correcto.
+>Las irregularidades de Internet, las irregularidades del sistema o el uso del ID de visitante personalizado no suelen utilizar los mismos valores `visit_num` para las distintas visitas. Aunque sea opcional, utilice `visit_start_time_gmt` al contar las visitas para garantizar que esas se hayan contado.
 
 ## Visitantes
 

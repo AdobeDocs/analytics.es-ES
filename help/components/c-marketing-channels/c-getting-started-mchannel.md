@@ -4,9 +4,9 @@ description: Obtenga información sobre el flujo de trabajo de Canales de market
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Cómo se ejecuta la configuración automática para los canales de marketing.
 
    >[!NOTE]
    >
-   >La página [!UICONTROL Canales de marketing: configuración automática] se abre automáticamente al acceder a las aplicaciones de configuración de canal en las Herramientas de administración. (Consulte [Administrador de canales de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).) Esta página no muestra si el grupo de informes contiene uno o más canales de marketing. Solo podrá volver a acceder a esta página si selecciona otro grupo de informes que no contenga canales de marketing.
+   >La página [!UICONTROL Canales de marketing: configuración automática] se abre automáticamente al acceder a las aplicaciones de configuración de canal en las Herramientas de administración. (Consulte [Administrador de canales de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)). Esta página no se muestra si el grupo de informes contiene uno o más canales de marketing. Solo podrá volver a acceder a esta página si selecciona otro grupo de informes que no contenga canales de marketing.
 
 1. Asegúrese de que los canales que desee crear estén seleccionados.
 

@@ -5,13 +5,13 @@ feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
 source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# Resumen de Data Warehouse
+# Información general de Data Warehouse
 
 Data Warehouse le permite copiar datos de Adobe Analytics para almacenarlos y elaborar informes personalizados, que se pueden ejecutar filtrando los datos.
 
@@ -35,7 +35,7 @@ El Data Warehouse comprime automáticamente cualquier archivo que supere 1 MB de
 
 ## Acceso
 
-Adobe permite el Data Warehouse para los usuarios de nivel de administrador para grupos de informes específicos. (Se puede habilitar para grupos de informes globales y secundarios, pero no para grupos de informes resumidos). El administrador puede crear un grupo que tenga acceso a Data Warehouse y, a continuación, asociar a los usuarios que no tengan nivel de administrador a dicho grupo.
+Adobe habilita Data Warehouse solo para usuarios con privilegios de administrador, para conjuntos de informes específicos. (Se puede habilitar para grupos de informes globales y secundarios, pero no para grupos de informes resumidos). El administrador puede crear un grupo que tenga acceso a Data Warehouse y, a continuación, asociar a los usuarios que no tengan nivel de administrador a dicho grupo.
 
 Consulte [Administración de permisos de Data Warehouse](/help/export/data-warehouse/t-dw-group.md).
 

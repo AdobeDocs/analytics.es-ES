@@ -1,13 +1,13 @@
 ---
 description: Aprenda a utilizar las fuentes de datos para obtener datos sin procesar de Adobe Analytics. Descubra los requisitos previos para utilizar fuentes de datos y qué hacer a continuación.
 keywords: flujo de navegación;fuente de datos;fuente de datos;Fuente de datos
-title: Información general de fuente de datos de Analytics
+title: Información general sobre las fuentes de datos de Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ Los siguientes recursos le ayudan a comprender el flujo de trabajo básico de la
 * [Prácticas recomendadas para fuentes de datos](/help/export/analytics-data-feed/data-feeds-best-practices.md): prácticas recomendadas para crear y administrar fuentes de datos.
 * [Crear una fuente de datos](create-feed.md): Detalles técnicos para crear una fuente de datos; explicación más detallada de los campos individuales
 * [Administrar fuentes de datos](df-manage-feeds.md): Más información sobre cómo navegar por la interfaz de la fuente de datos
-* [Contenido de fuentes de datos](c-df-contents/datafeeds-contents.md): comprenda qué hay dentro del archivo comprimido <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [Contenido de la fuente de datos](c-df-contents/datafeeds-contents.md): Comprender los elementos incluidos en un archivo <!-- Is this still the output users can download from the destination? I aske Jun. --> comprimido
 * [Definiciones de columnas de datos](c-df-contents/datafeeds-reference.md): una lista completa de todas las columnas disponibles.
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegue por la interfaz de la fuente de datos](https://video.tv.adobe.com/v/3428561?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegar por la interfaz de la fuente de datos](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegue por la i
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Busque su ID de fuente de datos](https://video.tv.adobe.com/v/3418479?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Buscar su ID de fuente de datos](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]

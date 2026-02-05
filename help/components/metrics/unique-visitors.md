@@ -4,9 +4,9 @@ description: Número de ID de visitante único.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: f26f406848ab26092738089aac64ed9b4fc08019
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -22,4 +22,4 @@ Analysis Workspace trata los visitantes únicos en función de la granularidad d
 
 ## Cálculo de esta métrica
 
-Esta métrica cuenta el número de ID de visitante único para un elemento de dimensión determinado. Consulte [Resumen de identificación de visitantes](/help/implement/id/overview.md) para obtener más información sobre cómo Adobe Analytics identifica a los visitantes únicos.
+Esta métrica cuenta el número de ID de visitante único para un elemento de dimensión determinado. Consulte [Información general de identificación de visitantes](/help/implement/id/overview.md) para obtener más información sobre cómo Adobe Analytics identifica a los visitantes únicos.

@@ -4,9 +4,9 @@ title: Configuración del destino de un informe para una solicitud de Data Wareh
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1980'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Para obtener información sobre cómo empezar a crear una solicitud, así como v
 
 >[!NOTE]
 >
->Al configurar un destino de informe, tenga en cuenta lo siguiente:
+>Al configurar el destino de un informe, tenga en cuenta lo siguiente:
 >
 >* Recomendamos utilizar una cuenta en la nube o un correo electrónico para el destino del informe. Las [cuentas heredadas de FTP y SFTP](#legacy-destinations) están disponibles, pero no se recomiendan.
 >
@@ -66,20 +66,20 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
 1. (Condicional) Si no tiene acceso a una cuenta en la nube que ya esté configurada en Adobe Analytics, puede configurar una:
 
-   1. Seleccione el menú desplegable [!UICONTROL **Cuenta**] y luego seleccione [!UICONTROL **Agregar cuenta**].
+   1. Seleccione el menú desplegable [!UICONTROL **Cuenta**] y luego seleccione [!UICONTROL **Añadir cuenta**].
 
-   1. En el cuadro de diálogo Agregar cuenta, especifique la siguiente información:
+   1. En el cuadro de diálogo Añadir cuenta, especifique la siguiente información:
 
       | Campo | Función |
       |---------|----------|
-      | [!UICONTROL **Nombre de cuenta de ubicación**] | El nombre de la cuenta de ubicación. Este nombre aparece al crear una ubicación  |
-      | [!UICONTROL **Descripción de cuenta de ubicación**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. |
-      | [!UICONTROL **Poner la cuenta a disposición de todos los usuarios de su organización**] | Active esta opción para permitir que otros usuarios de su organización utilicen la cuenta.<p>Tenga en cuenta lo siguiente al compartir cuentas:</p><ul><li>Las cuentas que comparta no se pueden dejar de compartir.</li><li>Solo el propietario de la cuenta puede editar las cuentas compartidas.</li><li>Cualquiera puede crear una ubicación para la cuenta compartida.</li></ul> |
+      | [!UICONTROL **Nombre de la cuenta de la ubicación**] | El nombre de la cuenta de ubicación. Este nombre aparece al crear una ubicación |
+      | [!UICONTROL **Descripción de la cuenta de ubicación**] | Proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta. |
+      | [!UICONTROL **Poner la cuenta a disposición de todos los usuarios de su organización**] | Active esta opción para permitir que otros usuarios de su organización utilicen la cuenta.<p>Tenga en cuenta lo siguiente a la hora de compartir cuentas:</p><ul><li>Las cuentas que comparta no se pueden dejar de compartir.</li><li>Solo el propietario de la cuenta puede editar las cuentas compartidas.</li><li>Cualquiera puede crear una ubicación para la cuenta compartida.</li></ul> |
       | [!UICONTROL **Tipo de cuenta**] | Seleccione el tipo de cuenta en la nube. Le recomendamos que tenga una sola cuenta para cada tipo de cuenta, con varias ubicaciones según sea necesario dentro de esa cuenta.<p>Los administradores del sistema pueden limitar los tipos de cuentas que los usuarios pueden crear, tal como se describe en [Configurar si los usuarios pueden crear cuentas](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Si no puede crear cuentas como se describe en esta sección, póngase en contacto con el administrador del sistema.</p> |
 
-   1. En la sección [!UICONTROL **Propiedades de la cuenta**], especifique información específica para el tipo de cuenta que seleccionó.
+   1. En la sección [!UICONTROL **Propiedades de cuenta**], especifique información específica para el tipo de cuenta que ha seleccionado.
 
-      Para obtener instrucciones de configuración, expanda la sección siguiente que corresponde al [!UICONTROL **tipo de cuenta**] que seleccionó. (También están disponibles otros tipos de cuentas heredadas, pero no se recomiendan).
+      Para obtener instrucciones de configuración, expanda la sección siguiente que corresponde al [!UICONTROL **Tipo de cuenta**] que ha seleccionado. (También están disponibles otras cuentas heredadas, pero no se recomiendan).
 
       **Tipos de cuenta**
 
@@ -91,7 +91,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       | Campo | Función |
       |---------|----------|
-      | [!UICONTROL **ARN de función**] | Debe proporcionar un ARN de función (nombre de recurso de Amazon) que Adobe pueda utilizar para obtener acceso a la cuenta de Amazon S3. Para ello, se crea una directiva de permisos de IAM para la cuenta de origen, se adjunta la directiva a un usuario y, a continuación, se crea una función para la cuenta de destino. Para obtener información específica, consulte [esta documentación de AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+      | [!UICONTROL **ARN de función**] | Debe proporcionar un ARN de función (nombre de recurso de Amazon) que Adobe pueda utilizar para obtener acceso a la cuenta de Amazon S3. Para ello, se crea una directiva de permisos de IAM para la cuenta de origen, se adjunta la directiva a un usuario y, a continuación, se crea una función para la cuenta de destino. Para obtener información específica, consulte [esta documentación de AWS](https://repost.aws/es/knowledge-center/cross-account-access-iam). |
 
       {style="table-layout:auto"}
 
@@ -103,7 +103,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       | Campo | Función |
       |---------|----------|
-      | [!UICONTROL **ID del proyecto**] | Su ID del proyecto de Google Cloud. Consulte la [documentación de Google Cloud sobre cómo obtener un ID de proyecto](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
+      | [!UICONTROL **ID del proyecto**] | Su ID del proyecto de Google Cloud. Consulte la [documentación de Google Cloud sobre cómo obtener un ID de proyecto](https://docs.cloud.google.com/resource-manager/docs/creating-managing-projects?hl=es#identifying_projects). |
 
       {style="table-layout:auto"}
 
@@ -117,8 +117,8 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
       |---------|----------|
       | [!UICONTROL **ID de aplicación**] | Copie este ID de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Información general** dentro de la aplicación. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
       | [!UICONTROL **ID de inquilino**] | Copie este ID de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Información general** dentro de la aplicación. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-      | [!UICONTROL **URI de almacén de claves**] | <p>Ruta al token SAS en Azure Key Vault.  Para configurar Azure SAS, debe almacenar un token SAS como secreto mediante Azure Key Vault. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Una vez creado el URI del almacén de claves, agregue una directiva de acceso en el almacén de claves para conceder permiso a la aplicación de Azure que ha creado. Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo asignar una directiva de acceso de almacén de claves](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p><p>O bien</p><p>Si desea conceder un rol de acceso directamente sin crear una directiva de acceso, consulte la [documentación de Microsoft Azure sobre cómo asignar roles de Azure mediante Azure Portal](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal). Esto agrega la asignación de funciones para que el ID de aplicación acceda al URI del almacén de claves. </p> |
-      | [!UICONTROL **Nombre secreto del almacén de claves**] | El nombre secreto que creó al agregar el secreto a Azure Key Vault. En Microsoft Azure, esta información se encuentra en el almacén de claves que creó, en la página de configuración de **almacén de claves**. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+      | [!UICONTROL **URI de almacén de claves**] | <p>Ruta al token SAS en Azure Key Vault.  Para configurar Azure SAS, debe almacenar un token SAS como un secreto mediante Azure Key Vault. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Una vez creado el URI del almacén de claves, añada una directiva de acceso en el almacén de claves para conceder permiso a la aplicación de Azure que ha creado. Para obtener más información, consulte [Documentación de Microsoft Azure sobre cómo asignar una directiva de acceso de almacén de claves](https://learn.microsoft.com/es-es/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p><p>O bien</p><p>Si desea conceder una función de acceso directamente sin crear una directiva de acceso, consulte la [documentación de Microsoft Azure sobre cómo asignar funciones de Azure mediante Azure Portal](https://learn.microsoft.com/es-es/azure/role-based-access-control/role-assignments-portal). Esto añade la asignación de funciones para que el ID de aplicación acceda al URI del almacén de claves. </p> |
+      | [!UICONTROL **Nombre secreto del almacén de claves**] | El nombre secreto que ha creado al añadir el secreto a Azure Key Vault. En Microsoft Azure, esta información se encuentra en el almacén de claves que ha creado, en las páginas de configuración del **Almacén de claves**. Para obtener más información, consulte la [documentación de Microsoft Azure sobre cómo establecer y recuperar un secreto de Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
       | [!UICONTROL **Secreto de cuenta de ubicación**] | Copie el secreto de la aplicación de Azure que ha creado. En Microsoft Azure, esta información se encuentra en la pestaña **Certificados y secretos** dentro de la aplicación. Para obtener más información, consulte la [Documentación de Microsoft Azure sobre cómo registrar una aplicación con la plataforma de identidad de Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
       {style="table-layout:auto"}
@@ -157,7 +157,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
 1. Siga configurando la solicitud de Data Warehouse en la pestaña [!UICONTROL **Opciones de informe**]. Para obtener más información, consulte [Configuración de las opciones de un informe para una solicitud de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 
-## Tipos de cuentas heredadas
+## Tipos de cuenta heredada
 
 >[!IMPORTANT]
 >

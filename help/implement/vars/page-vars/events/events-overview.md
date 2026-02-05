@@ -5,9 +5,9 @@ feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -48,21 +48,21 @@ Puede establecer eventos al configurar la extensión de Analytics (variables glo
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
-5. Establezca la lista desplegable [!UICONTROL Extension] en Adobe Analytics y [!UICONTROL Action Type] en [!UICONTROL Set Variables].
+5. Establezca la lista desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Establecer variables].
 6. Busque la sección [!UICONTROL Eventos].
 
 Hay varias funciones disponibles:
 
-* Una lista desplegable que le permite seleccionar el evento que desea incluir
+* Una lista desplegable que le permite seleccionar el evento que se va a incluir
 * Un campo de texto opcional permite la serialización. Consulte [Serialización de eventos](event-serialization.md) para obtener más información.
-* Campo de texto opcional para un valor de evento. Puede incluir moneda para eventos de moneda o un entero para eventos que no sean de moneda para incrementar la cifra varias veces. Por ejemplo, si se selecciona `event1` en la lista desplegable y se incluye `10` en este campo, se incrementa `event1` por 10 en los informes.
-* Botón para agregar otro evento. Puede agregar tantos eventos como desee a una única regla dentro de lo razonable.
+* Campo de texto opcional para un valor de evento. Puede incluir moneda para eventos de moneda o un entero para eventos que no sean de moneda para incrementar la cifra varias veces. Por ejemplo, seleccionando `event1` en la lista desplegable e incluyendo `10` en este campo, la creación de informes se incrementa `event1` en 10.
+* Botón para añadir otro evento. Puede agregar tantos eventos como desee a una única regla dentro de lo razonable.
 
 ## s.events en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
-La variable `s.events` es una cadena que contiene una lista de eventos delimitada por comas que se pueden incluir en la visita. La variable permite hasta 64.000 bytes, lo que permite de hecho tantos eventos como necesite una visita. Los valores válidos son los siguientes:
+La variable `s.events` es una cadena que contiene una lista de eventos delimitada por comas que se pueden incluir en la visita. La variable permite hasta 64 kB, lo que efectivamente permite tantos eventos como necesite una visita. Los valores válidos son los siguientes:
 
-* `event1` - `event1000`: Eventos personalizados, establezca lo que desee. Registre cómo se utiliza cada evento en el [documento de diseño de soluciones](../../../prepare/solution-design.md) de su organización. El número de eventos disponibles depende del contrato de Analytics de su organización. La mayoría de las organizaciones con contratos no incluidos tienen disponibles 1000 eventos personalizados. Póngase en contacto con el equipo de su cuenta de Adobe si no está seguro de cuántos eventos personalizados tiene a su disposición.
+* `event1` - `event1000`: Eventos personalizados, establezca lo que desee. Registre cómo se utiliza cada evento en el [documento de diseño de soluciones](../../../prepare/solution-design.md) de su organización. El número de eventos disponibles depende del contrato de Analytics de su organización. La mayoría de las organizaciones con contratos no incluidos tienen disponibles 1000 eventos personalizados. Contacte con el equipo de cuentas de Adobe si no está seguro de cuántos eventos personalizados tiene a su disposición.
 * `purchase`: Aumenta la métrica [“Pedidos”](/help/components/metrics/orders.md) en 1, y toma los valores establecidos en la variable `products` para calcular [“Unidades”](/help/components/metrics/units.md) e [“Ingresos”](/help/components/metrics/revenue.md). Consulte [Evento de compra](event-purchase.md) para obtener más información.
 * `prodView`: Aumenta la métrica [“Vistas del producto”](/help/components/metrics/product-views.md).
 * `scOpen`: Aumenta la métrica [“Carros de compras”](/help/components/metrics/carts.md).

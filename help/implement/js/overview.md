@@ -1,17 +1,17 @@
 ---
-title: Implementar Adobe Analytics con AppMeasurement para JavaScript
+title: Implemente Adobe Analytics con AppMeasurement para JavaScript
 description: Obtenga información sobre cómo implementar Adobe Analytics mediante JavaScript sin un sistema de administración de etiquetas.
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 role: Developer
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
-# Implementar Adobe Analytics con AppMeasurement para JavaScript
+# Implemente Adobe Analytics con AppMeasurement para JavaScript
 
 Históricamente, AppMeasurement para JavaScript ha sido un método común para implementar Adobe Analytics. Sin embargo, con la creciente popularidad de los sistemas de Tag Management, se recomienda utilizar [etiquetas en Adobe Experience Platform](../launch/overview.md).
 
@@ -34,7 +34,7 @@ Una información general de alto nivel de las tareas de implementación:
 </tr>
 
 <tr>
-<td>3</td><td><b>Agregue <code>AppMeasurement.js</code> al archivo de plantilla del sitio web</b>. El código contiene las bibliotecas necesarias para enviar datos a Adobe.
+<td>3</td><td><b>Añada <code>AppMeasurement.js</code> al archivo de plantilla del sitio web</b>. Este código contiene las bibliotecas necesarias para enviar datos a Adobe.
 
 ```html
 <head>
@@ -47,7 +47,7 @@ Una información general de alto nivel de las tareas de implementación:
 </tr>
 
 <tr>
-<td>4</td><td><b>Defina las variables de configuración dentro de <code>AppMeasurement.js</code></b>. Cuando se crea una instancia del objeto de Analytics, estas variables garantizan que la configuración de recopilación de datos sea correcta.
+<td>4</td><td><b>Defina las variables de configuración en <code>AppMeasurement.js</code></b>. Cuando se cita el objeto de Analytics, estas variables garantizan que la configuración de recopilación de datos sea correcta.
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -62,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>Defina variables de nivel de página dentro del código de página del sitio</b>. Estas variables determinan la dimensión y las métricas específicas que se envían a Adobe.
+<td>5</td><td><b>Defina las variables a nivel de página dentro del código de página del sitio</b>. Estas variables determinan la dimensión y las métricas específicas que se envían a Adobe.
 
 ```js
 s.pageName = "Example page";

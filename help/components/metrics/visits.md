@@ -1,12 +1,12 @@
 ---
 title: Visitas
-description: Obtenga información acerca de la métrica Visitas en Analytics. Vea cómo se calcula, los comportamientos que le afectan, cómo cambiar su definición, etc.
+description: Obtenga información sobre la métrica Visitas en Analytics. Vea cómo se calcula, los comportamientos que le afectan, cómo cambiar su definición, etc.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: 5f80d1f56fb8a95780ff2daf18644ac5ffb548d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Una visita no necesariamente coincide con una sesión del explorador debido a lo
 
 Si un visitante realiza cualquiera de estas acciones, se da comienzo a una nueva visita:
 
-* Elimina las cookies a mitad de la sesión y continúa explorando el sitio
+* Borra las cookies a mitad de la sesión y continúa navegando por el sitio
 * Deja el sitio abierto en una pestaña durante más de 30 minutos y, a continuación, continúa explorando
 * Abre un explorador diferente y navega al sitio en el mismo equipo
 * La misma persona que explora el sitio en diferentes dispositivos
@@ -46,11 +46,11 @@ Si un visitante realiza cualquiera de estas acciones, una nueva visita **no se i
 Puede cambiar el tiempo necesario para la definición de una visita a un intervalo de tiempo diferente a 30 minutos.
 
 * Para [grupos de informes virtuales](../vrs/vrs-about.md), puede cambiar el tiempo de espera de visita (tiempo entre visitas que provoca que comience una nueva visita) usando la lista desplegable [!UICONTROL Tiempo de espera de visita]. Puede cambiar el tiempo de espera de visita a cualquier valor razonable.
-* Para los grupos de informes estándar, póngase en contacto con el Servicio de atención al cliente para solicitar que se acorte el tiempo de espera de visita (tiempo entre visitas que provoca que se inicie una nueva visita) para un grupo de informes determinado. El tiempo de espera de visita para los grupos de informes estándar no puede superar los 30 minutos, por lo que solo puede abreviarse.
+* Para los grupos de informes estándar, póngase en contacto con el Servicio de atención al cliente para solicitar que se acorte el tiempo de espera de visita (tiempo entre visitas que provoca que comience una nueva visita) para un grupo de informes determinado. El tiempo de espera de la visita para los grupos de informes estándar no puede exceder los 30 minutos, por lo que solo puede abreviarse.
 
 ## Visitas que abarcan un límite de fecha
 
-Una visita se contabiliza por cada periodo de tiempo involucrado. Por ejemplo, si tiene un visitante que empieza a navegar por el sitio el lunes a las 23:00 y envía su última solicitud de imagen el martes a las 00:12, en el informe aparecerá una visita atribuida tanto al lunes como al martes. :45:10 Sin embargo, se deduplica la métrica de visitas totales y se muestra una sola visita para el intervalo de fechas del proyecto.
+Una visita se contabiliza por cada periodo de tiempo involucrado. Por ejemplo, si tiene un visitante que empieza a navegar por el sitio el lunes a las 23:00 y envía su última solicitud de imagen el martes a las 00:00, en el informe aparecerá una visita atribuida tanto al lunes como al martes.:45:10 Sin embargo, se deduplica la métrica de visitas totales y se muestra una sola visita para el intervalo de fechas del proyecto.
 
 ## Visitas en una dimensión o visitas totales
 

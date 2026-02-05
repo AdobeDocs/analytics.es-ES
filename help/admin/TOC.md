@@ -5,7 +5,7 @@ user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información acerca de las tareas de administración de Analytics, como la gestión de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
 source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
             + [Personalizar calendario](tools/manage-rs/edit-settings/general/custom-calendar.md)
             + Detección de búsqueda de pago {#paid-search-detection}
                + [Resumen de detección de búsqueda de pago](tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md)
-               + [Configurar la detección de búsqueda pagada](tools/manage-rs/edit-settings/general/paid-search-detection/t-paid-search-detection.md)
+               + [Configurar la detección de búsqueda de pago](tools/manage-rs/edit-settings/general/paid-search-detection/t-paid-search-detection.md)
             + Reglas de procesamiento {#processing-rules}
                + [Información general](tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
                + [Interfaz](tools/manage-rs/edit-settings/general/processing-rules/pr-interface.md)

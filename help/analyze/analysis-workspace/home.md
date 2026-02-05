@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1383'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Analysis Workspace te permite crear análisis rápidamente para recopilar inform
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Analysis Workspace](https://video.tv.adobe.com/v/35552/?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Analysis Workspace](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
