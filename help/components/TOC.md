@@ -7,7 +7,7 @@ user-guide-description: Administre datos con componentes como Segmentos, Métric
 source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -266,7 +266,7 @@ ht-degree: 98%
       + [Archivos de datos](classifications/sets/data-files.md)
       + [Crear y editar](/help/components/classifications/sets/create-set.md)
       + [Administrar](/help/components/classifications/sets/manage-sets.md)
-      + Conjunto de clasificaciones {#set}
+      + Conjunto de clasificación {#set}
          + [Configuración](classifications/sets/manage/settings.md)
          + [Esquema](classifications/sets/manage/schema.md)
          + [Reglas](classifications/sets/manage/rules.md)
@@ -284,7 +284,7 @@ ht-degree: 98%
       + Importador de clasificaciones {#classifications-importer}
          + [Información general](classifications/importer/c-working-with-saint.md)
          + [Archivos de datos](classifications/importer/c-saint-data-files.md)
-         + [Eliminación de datos](classifications/importer/t-delete-classification-data.md)
+         + [Eliminar datos](classifications/importer/t-delete-classification-data.md)
          + [Plantilla](classifications/importer/c-download-saint-data.md)
          + [Importación del explorador](classifications/importer/browser-import.md)
          + [Exportación del explorador](classifications/importer/browser-export.md)
