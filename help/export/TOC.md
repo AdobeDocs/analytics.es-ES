@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de exportación de Analytics
 breadcrumb-title: Guía de exportación
 user-guide-description: Obtenga información sobre el uso de feeds de datos y Data Warehouse para recuperar un extracto de datos.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 99%
 
 ---
 

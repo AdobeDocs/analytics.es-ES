@@ -3,10 +3,10 @@ title: Administrar fuentes de datos
 description: Obtenga información sobre cómo navegar por la interfaz de fuentes de datos. Descubra cómo crear, editar y ver una fuente de datos.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 21%
+source-wordcount: '1257'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ El administrador de fuentes de datos le permite crear, editar y eliminar fuentes
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administración de fuentes de datos](https://video.tv.adobe.com/v/3428561?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administración de fuentes de datos](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -26,15 +26,15 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administrac
 
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 1. Seleccione el icono de 9 cuadrados en la esquina superior derecha, luego seleccione [!UICONTROL **Analytics**].
-1. En la barra de navegación superior, ve a [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
+1. En la barra de navegación superior, vaya a [!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**].
 
    Se muestran las fuentes de datos de todos los grupos de informes a los que tiene acceso. O bien, si no se han configurado fuentes, la página mostrará el botón [!UICONTROL Crear nueva fuente de datos].
 
-   ![Fuentes de datos](assets/feeds.png)
+   ![Administrador de fuentes de datos](assets/data-feed-manager.png)
 
 ## Creación de una fuente de datos
 
-El botón [!UICONTROL Agregar] le permite crear una nueva fuente. Consulte [Crear una fuente de datos](create-feed.md) para obtener más información.
+El botón **[!UICONTROL Crear fuente de datos]** le permite crear una nueva fuente. Consulte [Crear una fuente de datos](create-feed.md) para obtener más información.
 
 ## Edición de una fuente de datos
 
@@ -45,6 +45,8 @@ El botón [!UICONTROL Agregar] le permite crear una nueva fuente. Consulte [Crea
 1. Seleccione la fuente de datos en la columna [!UICONTROL **Nombre de fuente**].
 
 1. Realice los cambios que desee en la fuente de datos.
+
+   Para obtener información acerca de las opciones de fuentes de datos, consulte [Crear y configurar una fuente de datos](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed) en [Crear una fuente de datos](/help/export/analytics-data-feed/create-feed.md).
 
    Al actualizar la sección [!UICONTROL **Destino**] de una fuente de datos que está editando, puede elegir una cuenta y una ubicación diferentes para la nueva fuente de datos en los campos desplegables [!UICONTROL **Cuenta**] y [!UICONTROL **Ubicación**].
 
@@ -62,9 +64,9 @@ El botón [!UICONTROL Agregar] le permite crear una nueva fuente. Consulte [Crea
 
    * En el campo de búsqueda, empiece a escribir el nombre de una fuente. En la lista de fuentes disponibles solo se muestran las fuentes que coinciden con.
 
-   * En el extremo izquierdo, haga clic en el icono de filtro para mostrar u ocultar las opciones de filtrado. Los filtros están organizados por categoría. Puede contraer o expandir las categorías de filtrado. Seleccione la casilla de verificación situada junto a cualquier filtro que desee aplicar.
+   * En el extremo izquierdo, seleccione el icono de filtro para mostrar u ocultar las opciones de filtrado. Los filtros están organizados por categoría, incluidos **[!UICONTROL Grupos de informes]**, **[!UICONTROL Propietario]**, **[!UICONTROL Estado]** y **[!UICONTROL Etiquetas]**. Puede contraer o expandir las categorías de filtrado. Seleccione la casilla de verificación situada junto a cualquier filtro que desee aplicar.
 
-![Filtro](assets/filters.png)
+     ![Filtro](assets/filters.png)
 
 ## Ver trabajos de fuentes de datos
 

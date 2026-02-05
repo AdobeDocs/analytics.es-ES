@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurar ubicaciones de importación y exportación de la nube
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 235974d1c7cbf819f846d1af887e3157d462177d
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 31%
+source-wordcount: '1703'
+ht-degree: 33%
 
 ---
 
@@ -59,7 +59,9 @@ Para obtener información sobre cómo ver y eliminar ubicaciones existentes, con
    | [!UICONTROL **Poner la ubicación a disposición de todos los usuarios de su organización**] | Active esta opción para permitir que otros usuarios de su organización utilicen la ubicación.<p>Tenga en cuenta lo siguiente al compartir ubicaciones:</p><ul><li>Las ubicaciones que comparte no se pueden dejar de compartir.</li><li>Solo el propietario de la ubicación puede editar las ubicaciones compartidas.</li><li>Las ubicaciones solo se pueden compartir si también se comparte la cuenta a la que está asociada la ubicación.</li></ul> |
    | [!UICONTROL **Cuenta de ubicación**] | Seleccione la cuenta de ubicación donde desea crear esta ubicación. Para obtener información sobre cómo crear una cuenta, consulte [Configurar cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md). |
 
-1. Para completar el formulario para configurar la ubicación, continúe con la sección siguiente que corresponde al tipo de cuenta que seleccionó en el campo [!UICONTROL **Cuentas de ubicación**]. (También están disponibles otros tipos de cuentas heredadas, pero no se recomiendan).
+1. Para completar el formulario para configurar la ubicación, continúa con [Configurar una ubicación](#configure-a-location). Utilice la información de la sección que corresponde al tipo de cuenta que seleccionó en el campo [!UICONTROL **Cuentas de ubicación**]. (También están disponibles otras cuentas heredadas, pero no se recomiendan).
+
+## Configurar una ubicación
 
 ### Amazon S3 Role ARN
 
@@ -69,7 +71,7 @@ Para configurar una ubicación ARN de la función Amazon S3, especifique la sigu
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Cubo**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por Adobe tiene el permiso `S3:PutObject` para cargar archivos en este bloque. </p><p>Los nombres de bloques deben cumplir reglas de nomenclatura específicas. Los nombres bloques deben tener entre 3 y 63 caracteres de longitud, solo pueden constar de letras minúsculas, números, puntos (.) y guiones (-), y deben empezar y terminar con una letra o un número. [En la documentación de AWS encontrará una lista completa de las reglas de nomenclatura](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Despósito**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por Adobe tiene el permiso `S3:PutObject` para cargar archivos en este bloque. </p><p>Los nombres de bloques deben cumplir reglas de nomenclatura específicas. Los nombres bloques deben tener entre 3 y 63 caracteres de longitud, solo pueden constar de letras minúsculas, números, puntos (.) y guiones (-), y deben empezar y terminar con una letra o un número. [En la documentación de AWS encontrará una lista completa de las reglas de nomenclatura](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Prefijo**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
 
    {style="table-layout:auto"}
@@ -93,7 +95,7 @@ Para configurar una ubicación de Google Cloud Platform, especifique la siguient
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Cubo**] | El bloque de su cuenta de GCP al que desea enviar los datos de Adobe Analytics. Asegúrese de haber concedido permiso al principal proporcionado por Adobe para cargar archivos en este bloque. |
+   | [!UICONTROL **Despósito**] | El bloque de su cuenta de GCP al que desea enviar los datos de Adobe Analytics. Asegúrese de haber concedido permiso al principal proporcionado por Adobe para cargar archivos en este bloque. |
    | [!UICONTROL **Prefijo**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
 
    {style="table-layout:auto"}
@@ -174,13 +176,13 @@ Para configurar una ubicación de correo electrónico, especifique la siguiente 
 
    Ahora puede exportar datos a la cuenta y la ubicación que configuró al usar [Fuentes de datos](/help/export/analytics-data-feed/create-feed.md). (Las ubicaciones de correo electrónico no son compatibles con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), [Report Builder](/help/analyze/report-builder/report-builder-export.md) o [conjuntos de clasificaciones](/help/components/classifications/sets/overview.md)).
 
-### Tipos de cuentas heredadas
+### Tipos de cuenta heredada
 
 Estos tipos de cuentas heredadas solo están disponibles al exportar datos con [Fuentes de datos](/help/export/analytics-data-feed/create-feed.md) y [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Estas opciones no están disponibles al importar datos con [conjuntos de clasificaciones](/help/components/classifications/sets/manage/schema.md).
 
 +++FTP
 
-Los datos de las fuentes de datos se pueden entregar en una ubicación de Adobe o de FTP alojado por el cliente. Especifique el directorio Utilice el campo de ruta para colocar los archivos de fuente en una carpeta.
+Los datos de la fuente de datos se pueden entregar a una ubicación de Adobe o de FTP alojada por el cliente. Especifique el directorio Utilice el campo de ruta para colocar los archivos de fuente en una carpeta.
 
 | Campo | Función |
 |---------|----------|
