@@ -2,13 +2,13 @@
 title: Reglas de conjuntos de clasificaciones
 description: Aprenda a utilizar las reglas de conjuntos de clasificaciones para definir reglas para los datos de clasificación.
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '1683'
 ht-degree: 13%
 
 ---
-
 
 # La clasificación establece reglas
 
@@ -16,7 +16,7 @@ Las reglas se utilizan para admitir clasificaciones automáticas en escenarios e
 
 La dimensión debe contener valores que le permitan aplicar una o más reglas para poder derivar datos de clasificación de los valores de dimensión.
 
-Las reglas se definen en el contexto de un conjunto de clasificaciones. Este contexto implica que las reglas se aplican (cuando se activan) a todos los grupos de informes y combinaciones de dimensiones clave suscritas al conjunto de clasificaciones. Esta implementación es diferente al funcionamiento del generador de reglas de clasificación heredado. En el Generador de reglas de clasificación, defina una o más reglas como parte de un conjunto de reglas por separado y, a continuación, asocie el conjunto de reglas a uno o más grupos de informes. En la nueva interfaz, las reglas dentro del conjunto de clasificaciones también se denominan conjunto de reglas. Sin embargo, los conjuntos de reglas se definen en la misma interfaz en la que se configuran otros atributos de conjuntos de clasificaciones.
+Usted define las reglas en el contexto de un conjunto de clasificación. Este contexto implica que las reglas se aplican (cuando se activan) a todos los grupos de informes y combinaciones de dimensiones clave suscritas al conjunto de clasificaciones. Esta implementación es diferente al funcionamiento del generador de reglas de clasificación heredado. En el Generador de reglas de clasificación, defina una o más reglas como parte de un conjunto de reglas por separado y, a continuación, asocie el conjunto de reglas a uno o más grupos de informes. En la nueva interfaz, las reglas dentro del conjunto de clasificaciones también se denominan conjunto de reglas. Sin embargo, los conjuntos de reglas se definen en la misma interfaz en la que se configuran otros atributos de conjuntos de clasificaciones.
 
 
 Para definir un conjunto de reglas para un conjunto de clasificaciones:

@@ -3,10 +3,10 @@ description: Preguntas frecuentes sobre Advertising Analytics.
 title: Preguntas más frecuentes sobre análisis de publicidad
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 35%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 35%
 
 No, esta funcionalidad está disponible para clientes que no sean de Advertising Cloud ni de AMO.
 
-Los clientes de AMO pueden aprovechar la integración Analytics-AMO existente; no podrán utilizar Ad Analytics.
+Los clientes de AMO pueden aprovechar la integración existente entre Analytics y AMO; no podrán utilizar Ad Analytics.
 
 +++
 
@@ -48,13 +48,13 @@ No, Advertising Analytics utiliza un tipo de fuente de datos especial que no inc
 
 +++ Si ya utilizo Advertising Cloud/AMO, ¿puedo seguir utilizando la funcionalidad de Advertising Analytics?
 
-Cualquier cuenta de motor de búsqueda compatible pasará a Advertising Analytics y se mostrará como de solo lectura. Todas las modificaciones o actualizaciones deben controlarse en Advertising Cloud/AMO.
+Cualquier cuenta de motor de búsqueda compatible pasará a Advertising Analytics y se mostrará como de solo lectura. Todas las ediciones o actualizaciones deben gestionarse en Advertising Cloud/AMO.
 
 +++
 
 +++ Tengo el SKU correcto, pero no puedo acceder a Advertising Analytics, ¿por qué? 
 
-Advertising Analytics solo está disponible para administradores de Adobe Analytics; sin embargo, los administradores pueden otorgar acceso a los usuarios que no sean administradores. Póngase en contacto con su administrador para obtener información sobre los derechos de acceso.
+Advertising Analytics solo está disponible para administradores de Adobe Analytics; sin embargo, los administradores pueden otorgar acceso a los usuarios que no sean administradores. Póngase en contacto con el administrador para obtener derechos de acceso.
 
 +++
 
@@ -93,13 +93,15 @@ Obtendrá lo siguiente
 
 +++ ¿Puedo desglosar mis datos de Advertising Analytics con otros datos de Analytics (métricas/dimensiones)? 
 
-No, los datos de búsqueda sin procesar se incluirán como un conjunto de datos independiente. Sin embargo, hay una versión de Instancias de los datos de clics que se puede desglosar en otros datos de Analytics.
+No, los datos de búsqueda sin procesar se incluirán como un conjunto de datos independiente. Sin embargo, existe una versión de instancias de los datos de clics que puede desglosarse con otros datos de Analytics.
+
++++
 
 +++ ¿Cuál es la definición de los distintos indicadores de estado de mis cuentas (pendiente, activo, en pausa, etc.)? Cada uno de estos indicadores de estado identifica la fase del ciclo vital de la cuenta de cada motor de búsqueda. 
 
 * [!UICONTROL Pendiente]
-* [!UICONTROL En pausa] significa que la cuenta se ha configurado anteriormente, pero se ha puesto en un estado inactivo.
-* [!UICONTROL Activa] significa que la cuenta se ha configurado completamente y se utiliza para obtener datos de búsqueda.
+* [!UICONTROL En pausa] significa que la cuenta se configuró anteriormente pero que se puso en un estado inactivo.
+* [!UICONTROL Activo] significa que la cuenta se ha configurado completamente y está extrayendo datos de búsqueda.
 
 +++
 
@@ -122,23 +124,23 @@ No, no se incluyen en el informe Canales de marketing.
 
 +++
 
-+++ ¿Cuándo obtiene Analytics los datos de búsqueda? 
++++ ¿Cuándo se incorporan los datos de búsqueda a Analytics? 
 
 Los datos de búsqueda se obtienen de los motores de búsqueda alrededor de las 6 a. m. (06:00) en la zona horaria del centro de datos de Analytics. Este es el momento en que los datos de AMO se recopilan y se insertan en el grupo de informes. A continuación, se convierten a la zona horaria del grupo de informes como parte del proceso de inserción de los datos en Analytics.
 
 +++
 
-+++ ¿Qué se puede *capturar antes del clic*? ¿Obtenemos impresiones, costes, posiciones medias, etc. incluso sin el clic?
++++ ¿Qué se puede *capturar antes del clic*? ¿Traemos impresiones, costo, posición promedio, etc.? ¿incluso sin el clic?
 
-El ID de AMO registrará las métricas del motor de búsqueda: impresiones, costes, clics, posición media y puntuación de calidad media. Si no hay clics, pero hay impresiones, los datos de impresión, posición y calidad se enviarán a Analytics. Normalmente, si no hay clics, tampoco hay costes.
+El ID de AMO registrará las métricas del motor de búsqueda: impresiones, costes, clics, posición media y puntuación de calidad media. Si no hay clics pero hay impresiones, los datos de puntuación de impresión/posición/calidad se enviarán a Analytics. Normalmente, si no hay clics, también no hay coste.
 
 +++
 
 +++ ¿A qué nivel se capturan estos datos? *¿Una visita? Visita individual?* 
 
-Las métricas del motor de búsqueda se capturan en el nivel de la visita y se conectan al ID de AMO (y a sus clasificaciones). Son datos del nivel de resumen, y no están relacionados con los visitantes ni sus sesiones. Por este motivo, las métricas del motor de búsqueda solo se pueden usar en segmentos que estén dentro del ámbito del nivel de visita y se basan en el ID de AMO, o sus clasificaciones.
+Las métricas del motor de búsqueda se capturan en el nivel de la visita y se conectan al ID de AMO (y a sus clasificaciones). Son datos de resumen y no están conectados a visitas/visitantes. De este modo, las métricas del motor de búsqueda solo se pueden utilizar en segmentos que sean de ámbito de nivel de visita y que se basen en el ID de AMO (o en sus clasificaciones).
 
-El ID de AMO también se captura en la página de aterrizaje, en la visita de la página (que lo conecta al visitante y a su sesión), y se conserva en el sitio web para obtener crédito para otras métricas de Analytics hasta que caduque o un nuevo ID de AMO lo sobrescriba. Está totalmente incorporado al conjunto de datos como cualquier otro elemento eVar.
+El ID de AMO también se captura en la página de aterrizaje de la visita para esa página (que la conecta con la visita/visitante) y persistirá en la fase posterior para obtener crédito por otras métricas de Analytics (hasta que caduque o se sobrescriba con un nuevo ID de AMO). Se incorpora completamente al conjunto de datos como cualquier otro eVar.
 
 +++
 
@@ -148,9 +150,9 @@ La clasificación de la Plataforma de publicidad registra estos valores: &quot;G
 
 +++
 
-+++ La métrica &quot;Coste de AMO&quot; es el coste pagado por cada palabra clave o anuncio según la información del motor de búsqueda. ¿Es el coste neto o el bruto? 
++++ La métrica &quot;Coste de AMO&quot; es el coste pagado por cada palabra clave o anuncio según la información del motor de búsqueda. ¿Es coste neto o coste bruto? 
 
-&quot;Coste de AMO&quot; es solo el coste pagado a los motores de búsqueda. No incluye ninguna tasa de agencia, optimización de búsqueda ni plataforma de gestión.
+&quot;Coste de AMO&quot; es solo el coste pagado a los motores de búsqueda. No incluye tarifas de agencia ni de plataforma de optimización/gestión de búsquedas.
 
 +++
 
@@ -163,18 +165,18 @@ No, actualmente no tenemos planes para estos otros canales en la hoja de ruta.
 
 ## Seguimiento automático frente al manual {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ Al configurar mi cuenta de Advertising, se indica que el *seguimiento automático* puede tener consecuencias no deseadas. ¿Qué tipos de consecuencias se pueden producir? 
++++ Al configurar mi cuenta de Advertising, se indica que el *seguimiento automático* puede tener consecuencias no deseadas. ¿Qué tipo de consecuencias pueden ocurrir? 
 
-El modo automático intenta anexar parámetros de URL al final de las plantillas de seguimiento/URL de destino en el formato correcto. Sin embargo, es su responsabilidad asegurarse de que los parámetros de URL añadidos se conserven correctamente en la página de aterrizaje final. El modo automático puede insertar palabras clave en la dirección URL de aterrizaje, pero es posible que el servidor web no admita palabras clave con caracteres especiales.
+El modo automático intenta anexar parámetros de URL al final de las plantillas de seguimiento/URL de destino en el formato correcto. Sin embargo, es su responsabilidad asegurarse de que los parámetros de URL añadidos se conserven correctamente en la página de aterrizaje final. El modo automático puede insertar palabras clave en la dirección URL de aterrizaje y es posible que el servidor web no admita palabras clave con caracteres especiales.
 
 +++
 
-+++ Si configuro el seguimiento manual o automático inicialmente, ¿puedo cambiar al otro modo de seguimiento más adelante? ¿Qué implicaciones hay? 
++++ Si configuro el seguimiento manual o automático inicialmente, ¿puedo cambiar al otro modo de seguimiento más adelante? ¿Cuáles son las implicaciones? 
 
-Sí, puede cambiar los modos de seguimiento, pero debe eliminar la lógica de seguimiento antigua antes de realizar el cambio. El resultado puede ser que se ralentice el seguimiento el día en que se realice el cambio (especialmente si se pasa de manual a automático). Como tal, recomendamos no cambiar a menos que sea absolutamente necesario.
+Sí, puede cambiar los modos de seguimiento, pero debe eliminar la lógica de seguimiento antigua antes de realizar el cambio. Esto puede provocar cierto tiempo de inactividad en el seguimiento el día en que se realiza el cambio (especialmente si se cambia de manual a automático). Como tal, recomendamos no cambiar a menos que sea absolutamente necesario.
 
 * Cambio de manual a automático: elimine las adiciones manuales a las plantillas de seguimiento y, a continuación, cambie el conmutador de la IU de Advertising Analytics de manual a automático y guarde la configuración. Tenga en cuenta que el sistema puede tardar varias horas en rellenar los códigos de seguimiento automáticos.
 
-* Cambio de automático a manual: actualice el cambio de manual a automático en la interfaz de usuario de configuración de Advertising Analytics y, a continuación, implemente los códigos de seguimiento manuales lo antes posible. Si mientras implementa los códigos de seguimiento manual ve los códigos de seguimiento automático en las plantillas de seguimiento del motor de búsqueda, elimínelos.
+* Cambio de automático a manual: actualice el cambio de manual a automático en la interfaz de usuario de configuración de Advertising Analytics y, a continuación, implemente los códigos de seguimiento manuales lo antes posible. Al implementar los códigos de seguimiento manuales, si ve los códigos de seguimiento automáticos en las plantillas de seguimiento del motor de búsqueda, elimínelos.
 
 +++

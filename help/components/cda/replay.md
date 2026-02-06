@@ -4,7 +4,7 @@ description: Comprensión del concepto "reproducción" en Cross-Device Analytics
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 89%
@@ -31,7 +31,7 @@ Tan pronto como se recopila una visita, CDA intenta vincularla a dispositivos co
 *Datos tal como aparecen el día en que se recopilan:*
 
 | Marca de tiempo | ECID | eVar1 o CustomerID | Explicación de la visita | Métrica de personas (acumulativa) mediante vinculación basada en el campo |
-| --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob con su equipo de escritorio, sin autenticar | `1` (246) |
 | `2` | `246` | `Bob` | Bob inicia sesión en su equipo de escritorio | `2` (246 y Bob) |
 | `3` | `3579` | - | Bob con su dispositivo móvil, sin autenticar | `3` (246, Bob y 3579) |
