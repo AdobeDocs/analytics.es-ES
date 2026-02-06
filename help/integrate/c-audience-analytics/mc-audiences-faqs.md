@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Preguntas más frecuentes sobre Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 3aa8ce6af928693fd08d42be6e7dd2b939566804
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 29%
@@ -50,6 +50,8 @@ Los grupos de informes pueden tardar varias horas en rellenarse con datos nuevos
 +++ He creado un nuevo destino de Analytics, pero no lo veo en la sección Asignaciones de destino de mis segmentos disponibles. ¿Dónde está el destino o cómo puedo encontrarlo?
 
 Un destino de Analytics desaparece de la sección Asignaciones de destino de un segmento cuando selecciona la opción **[!UICONTROL Asignar automáticamente todos los segmentos actuales y futuros]** en **[!UICONTROL Asignaciones de segmentos]**. Para evitarlo, seleccione **[!UICONTROL Asignar segmentos manualmente]** en lugar de la opción automática.
+
++++
 
 +++ ¿Esto me proporcionará toda la información de Adobe Audience Manager en Analytics?
 
