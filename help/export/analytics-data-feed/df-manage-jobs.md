@@ -3,10 +3,10 @@ title: Administrar trabajos de fuentes de datos
 description: Obtenga información sobre cómo administrar trabajos individuales en fuentes de datos. Navegue por la interfaz, utilice filtros y búsquedas, y busque definiciones de columnas.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 728e807764901ad2bd6834339e5e75348dd5a988
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 90%
+source-wordcount: '822'
+ht-degree: 30%
 
 ---
 
@@ -14,49 +14,60 @@ ht-degree: 90%
 
 Los trabajos son tareas individuales que generan un archivo comprimido. Se crean y se rigen por fuentes.
 
-Para acceder a la administración de trabajos de fuentes de datos, siga estos pasos:
+Para administrar los trabajos de fuentes de datos:
 
-1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
-2. Haga clic en el menú de 9 cuadrículas en la parte superior derecha y, a continuación, haga clic en [!UICONTROL Analytics].
-3. En el menú superior, haga clic en [!UICONTROL Administración] > [!UICONTROL Fuentes de datos].
-4. Haga clic en la pestaña Trabajos cerca de la parte superior.
+1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 
-![Menú de fuente de datos](assets/AdminMenu.png)
+1. Seleccione el icono de 9 cuadrados en la esquina superior derecha, luego seleccione [!UICONTROL **Analytics**].
 
-## Navegación por la interfaz
+1. En la barra de navegación superior, vaya a [!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**].
 
-Un trabajo de fuentes de datos es una instancia única en la que Adobe procesa y genera un archivo comprimido para una ventana de informes determinada. El administrador de trabajos proporciona una vista refinada para ver el estado de los trabajos individuales.
+   Se muestran las fuentes de datos de todos los grupos de informes a los que tiene acceso. O bien, si no se han configurado fuentes, la página mostrará el botón [!UICONTROL Crear nueva fuente de datos].
 
-![Trabajos](assets/jobs.jpg)
+   ![Administrador de fuentes de datos](assets/data-feed-manager.png)
 
-### Filtros y búsqueda
+1. (Opcional) Seleccione la casilla de verificación situada junto a la fuente de datos que contiene los trabajos que desea ver y, a continuación, seleccione [!UICONTROL **Historial de trabajos**].
 
-Utilice filtros y busque el trabajo exacto que necesite.
+   Para obtener más información, consulte [Ver el historial de trabajos de una fuente de datos](#view-job-history-for-a-data-feed).
 
-En el extremo izquierdo, haga clic en el icono de filtro para mostrar u ocultar las opciones de filtrado. Los filtros están organizados por categoría. Haga clic en el botón de contenido adicional para contraer o expandir las categorías de filtrado. Haga clic en la casilla de verificación para aplicar el filtro.
+## Filtrar y buscar
 
-![Filtro](assets/jobs-filter.jpg)
+Puede filtrar y buscar para localizar el trabajo exacto que está buscando.
+
+En el extremo izquierdo, haga clic en el icono de filtro para mostrar u ocultar las opciones de filtrado. Los filtros están organizados por categoría. Haga clic en el botón de contenido adicional para contraer o expandir las categorías de filtrado. Haga clic en la casilla de verificación para aplicar un filtro.
+
+![Filtro](assets/jobs-filter.png)
 
 Utilice la búsqueda para encontrar un trabajo por su nombre.
 
-![Buscar](assets/search.jpg)
+![Buscar](assets/search.png)
 
-### Fuentes y trabajos
+## Ordenar y personalizar columnas
 
-Haga clic en la pestaña Fuentes para ver las fuentes globales que crean estos trabajos. Consulte [Administración de fuentes de datos](df-manage-feeds.md).
+Cada trabajo muestra varias columnas que proporcionan información sobre el trabajo. Puede ordenar la información de cada columna y personalizar las columnas que se muestran.
 
-### Columnas
+### Ordenar columnas
 
-Cada trabajo muestra varias columnas que proporcionan información al respecto. Haga clic en el encabezado de una columna para ordenarla en orden ascendente. Vuelva a hacer clic en el encabezado de una columna para ordenarla en orden descendente. Si no puede ver una columna específica, haga clic en el icono de columna en la parte superior derecha.
+Seleccione un encabezado de columna para ordenarlo en orden ascendente. Vuelva a seleccionar un encabezado de columna para ordenarlo en orden descendente.
 
-![Icono de columna](assets/job-cols.jpg)
+### Personalizar columnas
 
+Para ajustar las columnas visibles en la tabla:
+
+1. Seleccione el icono de columna ![Icono de columna](assets/customize-columns-icon.png) en la parte superior derecha.
+
+1. En el cuadro de diálogo Personalizar tabla, seleccione cada columna que desee ver y anule la selección de cada columna que desee ocultar.
+
+   Las columnas disponibles son las siguientes:
+
+* **Nombre de fuente**: Columna requerida. Muestra el nombre de la fuente. Los trabajos creados por la misma fuente tienen el mismo nombre de fuente.
 * **ID de fuente**: muestra el ID de fuente, un identificador único. Los trabajos creados por la misma fuente tienen el mismo ID de fuente.
-* **ID de trabajo**: identificador único del trabajo. Todos los trabajos tienen un ID de trabajo diferente.
-* **Nombre de fuente**: columna requerida. Muestra el nombre de la fuente. Los trabajos creados por la misma fuente tienen el mismo nombre de fuente.
-* **Grupo de informes**: grupo de informes desde el que el trabajo hace referencia a los datos.
-* **ID del grupo de informes**: el identificador único del grupo de informes.
-* **Hora de inicio**: hora a la que comenzó el trabajo. La fecha y la hora se muestran en la zona horaria del grupo de informes con horario GMT. Las fuentes diarias suelen comenzar cerca de la medianoche en el huso horario del grupo de informes.
+* **Grupo de informes**: Grupo de informes desde el que el trabajo hace referencia a los datos.
+* **ID del grupo de informes**: El identificador único del grupo de informes.
+* **Intervalo**: El intervalo de la fuente.
+* **Tipo de destino**: El tipo de destino de la fuente.
+* **Destino**: El destino de la fuente.
+* **Propietario**: El propietario de la fuente.
 * **Estado**: el estado de la fuente.
    * Esperando datos: el trabajo está en funcionamiento y se están recopilando datos para la ventana de informes.
    * Procesando: el trabajo está creando los archivos de datos y preparándolos para su envío.
@@ -64,5 +75,66 @@ Cada trabajo muestra varias columnas que proporcionan información al respecto. 
    * Error: el trabajo no se completó. Consulte [Solución de problemas de fuentes de datos](troubleshooting.md) para determinar la causa del error.
    * Esperando exportación: los datos de la ventana de informes aún no se han procesado por completo.
    * Sin datos: no hay datos en el grupo de informes para la ventana de informes solicitada.
-* **Hora de finalización**: la hora en que finalizó el trabajo. La fecha y la hora se muestran en la zona horaria del grupo de informes con horario GMT.
-* **Fecha solicitada**: ventana de informes del archivo. Las fuentes diarias suelen mostrar 00:00 - 23:59 con un horario GMT, lo que indica un día completo según la zona horaria del grupo de informes. Las fuentes por hora muestran la hora individual para la que se prepara el trabajo.
+* **Última modificación**: Hora a la que se modificó la fuente por última vez.
+* **Fecha de inicio**: Hora a la que comenzó el trabajo. La fecha y la hora se muestran en la zona horaria del grupo de informes con horario GMT. Las fuentes diarias suelen comenzar cerca de la medianoche en el huso horario del grupo de informes.
+* **Fecha de finalización**: La hora en que finalizó el trabajo. La fecha y la hora se muestran en la zona horaria del grupo de informes con horario GMT.
+
+## Ver el historial de trabajos de una fuente de datos
+
+Puede ver una lista de los trabajos de fuentes de datos anteriores de una fuente de datos determinada, junto con información sobre cada trabajo.
+
+Para ver el historial de trabajos de una fuente de datos:
+
+1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
+
+   ![Administrador de fuentes de datos](assets/data-feed-manager.png)
+
+1. Seleccione la casilla que está junto a la fuente de datos cuyo historial de trabajos desea ver y, a continuación, seleccione [!UICONTROL **Historial de trabajos**].
+
+   Se muestra el historial del trabajo de fuentes de datos con la siguiente información disponible sobre cada trabajo (seleccione el icono de columna para agregar columnas que no estén visibles de forma predeterminada):
+
+   * **[!UICONTROL Comienzo del período de solicitud]**
+
+   * **[!UICONTROL Fin de período de solicitud]**
+
+   * **[!UICONTROL Programado]**
+
+   * **[!UICONTROL Iniciado]**
+
+   * **[!UICONTROL Finalizado]**
+
+   * **[!UICONTROL Ejecutar #]**
+
+   * **[!UICONTROL Estado]**
+
+   * **[!UICONTROL Código de error]**
+
+   * **[!UICONTROL Mensaje de error]**
+
+## Reenviar trabajos de fuentes de datos
+
+Puede volver a enviar un trabajo de fuente de datos si desea volver a enviar el archivo de fuente de datos con los mismos datos y el mismo procesamiento que cuando se envió originalmente. También puede [volver a procesar un trabajo de fuente de datos](#reprocess-data-feed-jobs).
+
+Para reenviar uno o varios trabajos de fuentes de datos:
+
+1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
+
+1. Seleccione la casilla que está junto a la fuente de datos que contiene los trabajos que desea reenviar y, a continuación, seleccione [!UICONTROL **Historial de trabajos**].
+
+1. Seleccione la casilla de verificación que está junto a uno o más trabajos de fuente de datos y, a continuación, seleccione **[!UICONTROL Reenviar]**. <!-- What does the status need to be? Error, ... -->
+
+   ![Volver a procesar trabajo de fuente de datos](assets/data-feed-job-resend.png)
+
+## Volver a procesar trabajos de fuentes de datos
+
+Puede volver a procesar los datos de origen de un trabajo de fuente de datos y enviarlos de nuevo con los datos procesados de nuevo. También puede [reenviar un trabajo de fuente de datos](#resend-data-feed-jobs).
+
+Para volver a procesar uno o varios trabajos de fuentes de datos:
+
+1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
+
+1. Seleccione la casilla que está junto a la fuente de datos que contiene los trabajos que desea volver a procesar y, a continuación, seleccione [!UICONTROL **Historial de trabajos**].
+
+1. Seleccione la casilla de verificación que está junto a uno o más trabajos de fuente de datos y, a continuación, seleccione **[!UICONTROL Volver a procesar]**. <!-- What does the status need to be? Error, ... -->
+
+   ![Volver a procesar trabajo de fuente de datos](assets/data-feed-job-reprocess.png)

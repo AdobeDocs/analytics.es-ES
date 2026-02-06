@@ -3,7 +3,7 @@ title: Administrar fuentes de datos
 description: Obtenga información sobre cómo navegar por la interfaz de fuentes de datos. Descubra cómo crear, editar y ver una fuente de datos.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+source-git-commit: 728e807764901ad2bd6834339e5e75348dd5a988
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 20%
@@ -17,7 +17,7 @@ El administrador de fuentes de datos le permite crear, editar y eliminar fuentes
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administración de fuentes de datos](https://video.tv.adobe.com/v/3428561?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administración de fuentes de datos](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ El botón **[!UICONTROL Crear fuente de datos]** le permite crear una nueva fuen
 
    O bien
 
-   Para ver los trabajos de fuentes de datos específicas, active la casilla que hay junto a una o varias fuentes de datos y, a continuación, seleccione [!UICONTROL **Historial de trabajos**].
+   Para ver el historial de trabajos de fuentes de datos específicas, seleccione la casilla que hay junto a una fuente de datos y, a continuación, seleccione [!UICONTROL **Historial de trabajos**].
 
    Para obtener más información, consulte [Administrar trabajos de fuentes de datos](df-manage-jobs.md).
 
