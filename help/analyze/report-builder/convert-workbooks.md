@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: d7832dc56eb680f57a6875cf32e29fd5a8858098
+source-git-commit: 504cce24babdd8aefa5f819433139671904f2e1e
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 1%
+source-wordcount: '722'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Como parte del cambio a una nueva funcionalidad de Report Builder, puede convert
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convertir libros](https://video.tv.adobe.com/v/3446185?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convertir libros](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -38,13 +38,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convertir libros
 
 Para abrir un libro de trabajo heredado, puede:
 
-* Abra un libro heredado directamente desde el equipo local o la red. Cuando el libro heredado está abierto en Excel:
-
-   1. Seleccione ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** en la barra de cinta de Excel.
-   1. Seleccione **[!UICONTROL Login]** e inicie sesión en Report Builder.
-   1. A continuación [convierta el libro heredado](#convert-a-workbook).
-
-* Abra un libro preexistente programado desde la ficha **[!UICONTROL Programar]** en [Report Builder hub](report-builder-hub.md). Para ello, haga lo siguiente:
+* Abra un libro preexistente programado desde la ficha **[!UICONTROL Programar]** en [Report Builder hub](report-builder-hub.md). Este es el método preferido para libros heredados programados. Tiene la opción de usar la programación asociada con el libro heredado en cuanto [programe el libro heredado convertido](#schedule-a-converted-legacy-workbook).
 
    1. Abra Excel y seleccione ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** en la barra de cinta de Excel.
 
@@ -56,6 +50,13 @@ Para abrir un libro de trabajo heredado, puede:
       ![Libros de trabajo heredados](assets/upgrade-legacy-schedule.png)
 
    1. Seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) el libro programado que desea convertir de la lista y seleccione ![Descargar](/help/assets/icons/Download.svg). El libro se descarga y se abre en una nueva ventana en Excel. Ahora puede [convertir el libro Report Builder heredado](#convert-a--workbook).
+
+
+* Abra un libro heredado directamente desde el equipo local o la red. Cuando se utiliza este método, no se ofrece el uso de la programación que podría estar asociada con el libro de trabajo heredado. <br/>Cuando el libro heredado está abierto en Excel:
+
+   1. Seleccione ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** en la barra de cinta de Excel.
+   1. Seleccione **[!UICONTROL Login]** e inicie sesión en Report Builder.
+   1. A continuación [convierta el libro heredado](#convert-a-workbook).
 
 
 ## Conversión de un libro heredado
@@ -89,14 +90,14 @@ Para convertir el libro heredado:
 
      ![Libro de informes de actualización de Excel Report Builder](assets/upgrade-report.png)
 
-Ahora puede [administrar el bloque de datos](/help/analyze/report-builder/manage-reportbuilder.md).
+Ahora puede [administrar los bloques de datos](/help/analyze/report-builder/manage-reportbuilder.md) del libro. Estos bloques de datos son el resultado de la actualización y reemplazan las solicitudes de Report Builder heredadas.
 
 
 ## Programar un libro heredado convertido
 
 Tiene la opción de usar los detalles de programación del libro heredado que descargó y abrió desde la pestaña **[!UICONTROL Schedule]** en Report Builder hub. Esta opción no está disponible para libros heredados con detalles de programación que se abren desde el equipo local o la red.
 
-1. Programar un libro. Para programar un libro heredado convertido con una programación heredada:
+1. Para programar un libro heredado convertido con una programación heredada:
 
    * Seleccione **[!UICONTROL Enviar libro]** desde Report Builder hub o
    * Seleccione **[!UICONTROL Programar libro]** de la ficha **[!UICONTROL Libros]** disponible en la ficha **[!UICONTROL Programaciones]** de Report Builder.
