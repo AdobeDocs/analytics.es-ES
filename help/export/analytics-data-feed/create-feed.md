@@ -3,9 +3,9 @@ title: Crear un feed de datos
 description: Aprenda a crear una fuente de datos y conozca la información del archivo que debe proporcionar a Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 9935b7ea08f5451d04431ae638ae0d24af32c07c
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2137'
 ht-degree: 26%
 
 ---
@@ -15,7 +15,10 @@ ht-degree: 26%
 Al crear un feed de datos, debe proporcionar a Adobe lo siguiente:
 
 * La información sobre el destino al que desea enviar los archivos de datos sin procesar
+
 * Los datos que desea incluir en cada archivo
+
+* La frecuencia con la que se debe enviar la fuente de datos (incluida la ventana retrospectiva si elige incluir las visitas que llegan tarde)
 
 Antes de crear un feed de datos, es importante tener una comprensión básica de las fuentes de datos y asegurarse de que cumple todos los requisitos previos. Para obtener más información, consulte [Información general sobre feeds de datos](data-feed-overview.md).
 
@@ -81,7 +84,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    | [!UICONTROL **Reemplazar cadenas del sistema operativo**] | Al recopilar datos, algunos caracteres (como las líneas nuevas) pueden causar problemas. Seleccione esta opción para eliminar estos caracteres de los archivos de fuente.<p>Esta opción detecta las siguientes secuencias de cadenas incrustadas en los datos del cliente y las reemplaza por un espacio:</p> <ul><li>**Windows:** CRLF, CR o TAB</li><li>**Mac y Linux:** \n, \r o \t</li></ul> |
    | [!UICONTROL **Habilitar búsquedas dinámicas**] | Las búsquedas dinámicas permiten recibir archivos de búsqueda adicionales en la fuente de datos que, de lo contrario, no estarán disponibles. Esta configuración permite enviar las siguientes tablas de búsqueda con cada archivo de fuente de datos:<ul><li> **Nombre de operador**</li><li>**Atributos móviles**</li><li>**Tipo de sistema operativo**</li></ul><p>Para obtener más información, consulte [búsquedas dinámicas](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
    | **Permitir visitas que llegan tarde** | Los datos históricos pueden llegar después de que un trabajo de fuente de datos termine de procesarse durante una hora o un día determinados, por ejemplo, mediante visitas con marca de tiempo o fuentes de datos.<p>Seleccione esta opción para incluir los datos que llegaron después de que el trabajo de fuente de datos terminara de procesar los datos dentro de la frecuencia de sistema de informes establecida (normalmente a diario o por hora). Con esta opción habilitada, cada vez que una fuente de datos procesa la información, observa las visitas que llegan tarde y las procesa por lotes con el siguiente archivo de fuente de datos que se envía.</p><p>Para obtener más información, vea [Visitas que llegan tarde](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
-   | **Ventana retrospectiva** (para visitas que llegan tarde) | Esta opción se muestra cuando la opción **[!UICONTROL Permitir visitas con retraso]** está habilitada. Seleccione la ventana retrospectiva para limitar el lapso de tiempo de las visitas tardías que se incluyen. Seleccione **[!UICONTROL Ilimitado]** si desea permitir todas las visitas que llegan tarde, independientemente de la demora. Puede elegir un intervalo preestablecido, como **[!UICONTROL 1 hora]**, **[!UICONTROL 2 horas]**, **[!UICONTROL 1 semana]**, **[!UICONTROL 2 semanas]**, etc. O bien, seleccione **[!UICONTROL Ventana retrospectiva personalizada]** y, a continuación, en el campo **[!UICONTROL Retrospectiva personalizada]** especifique una ventana retrospectiva de hasta 26.280 horas. |
+   | **Ventana retrospectiva** (para visitas que llegan tarde) | Esta opción se muestra cuando la opción **[!UICONTROL Permitir visitas que llegan tarde]** está habilitada. Seleccione la ventana retrospectiva para limitar el lapso de tiempo de las visitas tardías que se incluyen. Seleccione **[!UICONTROL Ilimitado]** si desea permitir todas las visitas que llegan tarde, independientemente de la demora. Puede elegir un intervalo preestablecido, como **[!UICONTROL 1 hora]**, **[!UICONTROL 2 horas]**, **[!UICONTROL 1 semana]**, **[!UICONTROL 2 semanas]**, etc. O bien, seleccione **[!UICONTROL Ventana retrospectiva personalizada]** y, a continuación, en el campo **[!UICONTROL Retrospectiva personalizada]** especifique una ventana retrospectiva de hasta 26.280 horas. |
 
 1. En la sección [!UICONTROL **Estructura de datos**], en el campo **[!UICONTROL Grupo de informes]**, seleccione el grupo de informes de origen que contiene los datos que desea exportar. <p>Tenga en cuenta lo siguiente al seleccionar un grupo de informes:</p> <ul><li>Si se crean varias fuentes de datos para el mismo grupo de informes, cada fuente de datos debe tener definiciones de columnas diferentes.</li><li>Solo los grupos de informes de origen admiten fuentes de datos, no se admiten los grupos de informes virtuales.</li><li>La lista de columnas disponibles depende de la empresa de inicio de sesión a la que pertenezca el grupo de informes seleccionado. Si cambia el grupo de informes, puede cambiar la lista de columnas disponibles. </li></ul>
 
@@ -135,7 +138,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    | Campo | Función |
    |---------|----------|
    | [!UICONTROL **Cuenta**] | Realice cualquiera de los siguientes pasos:<ul><li>**Usar una cuenta existente:** Seleccione el menú desplegable situado junto al campo **[!UICONTROL Cuenta]**. O bien, empiece a escribir el nombre de la cuenta y, a continuación, selecciónela en el menú desplegable. <p>Las cuentas solo están disponibles si las ha configurado o si se comparten con una organización de la que forma parte.</p></li><li>**Crear una nueva cuenta:** Seleccione **[!UICONTROL Agregar nuevo]** debajo del campo **[!UICONTROL Cuenta]**. Para obtener información acerca de cómo configurar la cuenta, consulte [Configurar una cuenta de ubicación](/help/components/locations/configure-import-accounts.md#configure-a-location-account) en [Configurar cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md).</li></ul> |
-   | [!UICONTROL **Ubicación**] | Realice cualquiera de los siguientes pasos:<ul><li>**Usar una ubicación existente:** Seleccione el menú desplegable situado junto al campo **[!UICONTROL Ubicación]**. O bien, empiece a escribir el nombre de la ubicación y, a continuación, selecciónela en el menú desplegable.</li><li>**Crear una nueva ubicación:** Seleccione **[!UICONTROL Agregar nuevo]** debajo del campo **[!UICONTROL Ubicación]**. Para obtener información sobre cómo configurar la ubicación, consulte [Configurar una ubicación](/help/components/locations/configure-import-locations.md#configure-a-location) en [Configurar ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md). |
+   | [!UICONTROL **Ubicación**] | Realice cualquiera de los siguientes pasos:<ul><li>**Usar una ubicación existente:** Seleccione el menú desplegable situado junto al campo **[!UICONTROL Ubicación]**. O bien, empiece a escribir el nombre de la ubicación y, a continuación, selecciónela en el menú desplegable.</li><li>**Crear una nueva ubicación:** Seleccione **[!UICONTROL Agregar nuevo]** debajo del campo **[!UICONTROL Ubicación]**. Para obtener información sobre cómo configurar la ubicación, consulte [Configurar una ubicación](/help/components/locations/configure-import-locations.md#configure-a-location) en [Configurar ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md).</li></ul> |
    | [!UICONTROL **Notificar cuando se complete**] | Especifique una o varias direcciones de correo electrónico a las que se debe enviar una notificación después de que la fuente de datos se haya enviado correctamente o no se haya enviado. Las direcciones de correo electrónico múltiples deben separarse con una coma. |
 
 1. Seleccione **[!UICONTROL Guardar]**.
@@ -146,13 +149,13 @@ Las plantillas le permiten reutilizar las mismas columnas para futuras fuentes d
 
 Al administrar plantillas, puede crear nuevas plantillas, utilizar plantillas que ya se han creado, copiar plantillas, editar plantillas y eliminar plantillas.
 
-[!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**] > **[!UICONTROL Administrar plantillas]**
+**[!UICONTROL Administrador]** > **[!UICONTROL Fuentes de datos]** > **[!UICONTROL Administrar plantillas]**
 
 ![Administrar plantillas de columna](assets/data-feed-template-manage.png)
 
 ### Creación de una plantilla de columna
 
-Al crear varias fuentes de datos que utilicen las mismas columnas, Adobe recomienda crear plantillas de columna. Cualquier persona de su organización puede utilizar cualquier plantilla de columna que cree.
+Al crear varias fuentes de datos que utilicen las mismas columnas, Adobe recomienda crear plantillas de columna. Cualquier plantilla de columna que cree estará disponible para su uso por parte de cualquier persona de su organización.
 
 Para crear una plantilla de columna:
 
