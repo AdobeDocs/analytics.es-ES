@@ -4,10 +4,10 @@ keywords: Fuente de datos, trabajo, columna previa, columna posterior, distinci�
 title: Preguntas frecuentes sobre fuentes de datos
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 470ab0dfa76681d73f847ba9c2aecaf64804540c
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 84%
+source-wordcount: '1488'
+ht-degree: 73%
 
 ---
 
@@ -23,7 +23,7 @@ Para evitar que se sobrescriban los archivos de fuente de datos, se recomienda q
 
 Los nombres de los archivos de fuentes de datos están formados por las siguientes características de fuentes de datos:
 
-* ID de grupo de informes (RSID)
+* ID del grupo de informes (RSID)
 
 * Fecha de exportación
 
@@ -69,19 +69,19 @@ En casi todos los casos, la concatenación de `hitid_high` y `hitid_low` identif
 
 Algunos operadores de telefonía móvil (como T-Mobile y O1) ya no proporcionan información de dominio cuando se realiza una búsqueda de DNS inversa. Por lo tanto, los datos no se muestran en los informes de dominio.
 
-## ¿Por qué no puedo extraer archivos por hora de datos que tengan más de 7 días? {#hourly}
+## ¿Por qué no puedo extraer de forma fiable archivos por hora para fechas más antiguas? {#hourly}
 
-Para los datos con más de 7 días de antigüedad, los archivos por hora de un día se combinan en un solo archivo diario.
+Para optimizar el almacenamiento y el procesamiento, Adobe consolida regularmente las exportaciones por hora en archivos diarios. Debido a cómo y cuándo se ejecutan estas consolidaciones, la salida por hora para fechas anteriores a 10 días no es predecible. Para una fecha determinada, es posible ver una combinación de archivos por hora durante algunas horas y un archivo diario consolidado para otros. Los datos consolidados en un archivo diario se asignan normalmente a la hora `00`, lo que puede dejar otras horas en blanco cuando esas horas se solicitan directamente.
 
-Ejemplo: Se crea una nueva fuente de datos el 9 de marzo de 2021 y los datos del 1 de enero de 2021 al 9 de marzo se entregan como “Por hora”. Sin embargo, los archivos por hora de antes del 2 de marzo de 2021 se combinan en un solo archivo diario. Puede extraer archivos por hora solo de datos que tengan menos de 7 días desde la fecha de creación. En este caso, del 2 al 9 de marzo.
+Para los rellenos de más de 10 días, Adobe recomienda encarecidamente utilizar la granularidad diaria para garantizar resultados completos y predecibles. Si debe solicitar la granularidad horaria en días anteriores, incluya siempre la hora `00` en la solicitud para evitar que falten datos consolidados por hora.
 
 ## ¿Cuál es el impacto del horario de verano en las fuentes de datos por hora? {#dst}
 
-En determinadas zonas horarias, la hora cambia dos veces al año debido a las definiciones del horario de verano (DST). Las fuentes de datos respetan la zona horaria que se ha tomado como referencia para configurar el grupo de informes. Si la zona horaria del grupo de informes no utiliza DST, la entrega de archivos seguirá su curso como cualquier otro día. Si la zona horaria del grupo de informes sí utiliza DST, la entrega de archivos se verá modificada en la hora en la que se produzca el cambio de horario (normalmente a las 2:00 de la mañana).
+En determinadas zonas horarias, la hora cambia dos veces al año debido a las definiciones del horario de verano (DST). Las fuentes de datos respetan la zona horaria que se ha tomado como referencia para configurar el grupo de informes. Si la zona horaria del grupo de informes no utiliza DST, la entrega de archivos seguirá su curso como cualquier otro día. Si la zona horaria del grupo de informes sí utiliza DST, la entrega de archivos se verá modificada en la hora en la que se produzca el cambio de horario (normalmente a las 2:00 AM).
 
-Cuando se realice la transición de STD a DST (cambio de hora estacional), el cliente solo recibirá 23 archivos. La hora que se salta en la transición a DST se omite sin más. Por ejemplo, si la transición se produce a las 2 de la madrugada, recibirá un archivo correspondiente a la hora 1:00 y un archivo correspondiente a la hora 3:00. No hay ningún archivo de 2:00 porque, en 2:00 STD, se convierte en 3:00 DST.
+Cuando realice las transiciones de tiempo STD -> DST (primavera hacia adelante), recibirá 23 archivos. La hora que se salta en la transición a DST se omite sin más. Por ejemplo, si la transición se produce a las 2 de la madrugada, recibirá un archivo correspondiente a la hora 1:00 y un archivo correspondiente a la hora 3:00. No hay ningún archivo de 2:00 porque, en 2:00 STD, se convierte en 3:00 DST.
 
-Cuando se realice la transición de DST a STD, el cliente recibirá 24 archivos. Sin embargo, la hora de transición en realidad incluirá datos correspondientes a dos horas. Por ejemplo, si la transición se produce a las 2:00 a. m., el archivo de 1:00 se retrasará una hora, pero incluirá datos de dos horas. Contiene datos de 1:00 DST a 2:00 STD (que habrían sido 3:00 DST). El siguiente archivo comienza en 2:00 STD.
+Cuando realice transiciones de DST a STD (alternativa), recibirá 24 archivos. Sin embargo, la hora de transición en realidad incluirá datos correspondientes a dos horas. Por ejemplo, si la transición se produce a las 2:00 a. m., el archivo de 1:00 se retrasará una hora, pero contendrá datos durante dos horas. Contiene datos de 1:00 DST a 2:00 STD (que habrían sido 3:00 DST). El siguiente archivo comienza en 2:00 STD.
 
 ## ¿Cómo gestiona Analytics los errores de transferencia de FTP? {#ftp-failure}
 
