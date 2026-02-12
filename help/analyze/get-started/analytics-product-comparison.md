@@ -3,10 +3,10 @@ description: Requisitos del sistema y comparación de Analysis Workspace, Report
 title: Comparación de productos y requisitos de Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: c4cd152d021615e32a690f0591575639c3939dbc
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '502'
+ht-degree: 68%
 
 ---
 
@@ -38,3 +38,4 @@ Para obtener información sobre qué producto de Adobe Analytics utilizar, consu
 | **Envío programado** | Sí | Sí | Sí | Sí | No |
 | **Destinos de envío** | Correo electrónico | Correo electrónico, FTP, SFTP, [publicación en Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC y correo electrónico | Amazon S3, Azure RBAC, Azure SAS y Google Cloud Platform | - |
 | **Procesamiento del tiempo en la creación de informes con grupos de informes virtuales** <br> [Más información](/help/components/vrs/vrs-report-time-processing.md) | Sí | No | No | No | Sí |
+| **Informes geográficos y tecnológicos** | Sí <p>Utiliza valores medios en lugar de campos posteriores. La lógica de primera visita se basa en `post_cust_hit_time_gmt` en lugar de en `visit_page_num=1`. Los resultados pueden diferir de otras herramientas si la IP cambia a mitad de la visita, las visitas llegan sin orden o las visitas cruzan los límites del mes.</p> | Sí <p>Utiliza valores medios en lugar de campos posteriores. La lógica de primera visita se basa en `post_cust_hit_time_gmt` en lugar de en `visit_page_num=1`. Los resultados pueden diferir de otras herramientas si la IP cambia a mitad de la visita, las visitas llegan sin orden o las visitas cruzan los límites del mes.</p> | Sí <p>Utiliza valores post y `visit_page_num=1` para determinar la primera visita. Aplica el valor de la primera visita a todas las visitas individuales de la visita para estas dimensiones.</p> | Sí <p>Utiliza valores post y `visit_page_num=1` para determinar la primera visita. Aplica el valor de la primera visita a todas las visitas individuales de la visita para estas dimensiones.</p> | Sí <p>Utiliza valores medios en lugar de campos posteriores. La lógica de primera visita se basa en `post_cust_hit_time_gmt` en lugar de en `visit_page_num=1`. Los resultados pueden diferir de otras herramientas si la IP cambia a mitad de la visita, las visitas llegan sin orden o las visitas cruzan los límites del mes.</p> |
