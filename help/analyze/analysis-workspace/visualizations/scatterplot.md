@@ -3,10 +3,10 @@ title: Disperso
 description: Aprenda a crear e interpretar visualizaciones de dispersión en Analysis Workspace para analizar las relaciones entre los elementos de dimensión y hasta tres métricas.
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 48c7fb29424948ee8142a2ce32d95cd9b52d7b85
+source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 63%
+source-wordcount: '231'
+ht-degree: 65%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 63%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de dispersión en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Dispersión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)  para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta la visualización de dispersión en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Dispersión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)  para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -37,19 +37,19 @@ La visualización ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICON
 * La tercera columna determina el radio del punto.
 * La visualización del diagrama de dispersión ignora todas las columnas subsiguientes de una tabla de forma libre.
 
-![Ejemplo de diagrama de puntos que muestra varios elementos de dimensión &#x200B;](assets/scatter.png)
+![Ejemplo de diagrama de puntos que muestra varios elementos de dimensión ](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de diagrama de puntos](https://video.tv.adobe.com/v/3416859/?captions=spa&quality=12){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de diagrama de puntos](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->Al [configurar la leyenda para que sea visible]&#x200B;(/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings en el dispersión, la leyenda solo se muestra cuando el origen de datos contiene un número limitado de elementos de dimensión (seleccionados).
+>Cuando [configura la leyenda para que sea visible](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings) en el dispersión, la leyenda solo se muestra cuando el origen de datos contiene un número limitado de elementos de dimensión (seleccionados).
 
 
 >[!MORELIKETHIS]
