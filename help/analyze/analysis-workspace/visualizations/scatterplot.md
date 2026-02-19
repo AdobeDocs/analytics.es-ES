@@ -24,7 +24,7 @@ ht-degree: 63%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de dispersión en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Dispersión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)  para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
+_Este artículo documenta la visualización de dispersión en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Dispersión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)  para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ La visualización ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICON
 * La tercera columna determina el radio del punto.
 * La visualización del diagrama de dispersión ignora todas las columnas subsiguientes de una tabla de forma libre.
 
-![Ejemplo de diagrama de puntos que muestra varios elementos de dimensión ](assets/scatter.png)
+![Ejemplo de diagrama de puntos que muestra varios elementos de dimensión &#x200B;](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
