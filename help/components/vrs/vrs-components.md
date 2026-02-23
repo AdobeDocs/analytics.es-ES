@@ -17,7 +17,7 @@ Los grupos de informes virtuales se pueden revisar para que incluyan y excluyan 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Revisión de componentes](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Revisión de componentes](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

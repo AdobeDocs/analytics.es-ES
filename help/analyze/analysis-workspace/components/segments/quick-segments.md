@@ -24,7 +24,7 @@ Tenga en cuenta lo siguiente al crear segmentos rápidos:
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

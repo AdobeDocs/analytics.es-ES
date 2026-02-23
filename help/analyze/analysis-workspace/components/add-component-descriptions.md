@@ -31,7 +31,7 @@ Puede agregar descripciones a los componentes de un grupo de informes.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar descripciones de componentes](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar descripciones de componentes](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

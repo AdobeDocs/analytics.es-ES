@@ -19,7 +19,7 @@ Además, puede restringir los segmentos secuenciales a una duración, granularid
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -302,4 +302,4 @@ Por último, quiere identificar a los visitantes que han aprendido acerca de una
 
 >[!MORELIKETHIS]
 >
-> * [Dominio de la lógica secuencial en AA y CJA: Introducción a THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
+> * [Dominio de la lógica secuencial en AA y CJA: Introducción a THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=es)

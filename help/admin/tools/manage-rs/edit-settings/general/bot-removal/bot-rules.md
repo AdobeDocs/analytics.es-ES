@@ -34,7 +34,7 @@ Los datos del tráfico de bots se almacenan en un repositorio independiente para
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurar reglas de bots](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurar reglas de bots](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

@@ -17,7 +17,7 @@ La página de destino de Adobe Analytics reúne a [!DNL Analysis Workspace] y 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de aterrizaje de Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Página de aterrizaje de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

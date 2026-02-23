@@ -46,7 +46,7 @@ Para ver la tabla de contenido de un proyecto:
 
 >[!MORELIKETHIS]
 >
->* [Simplificar la navegación del panel de control con la nueva función de tabla de contenido en Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)
+>* [Simplificar la navegación del panel de control con la nueva función de tabla de contenido en Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284?profile.language=es)
 
 
 
@@ -57,7 +57,7 @@ You can view a table of contents within each project in Analysis Workspace, allo
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

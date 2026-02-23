@@ -49,4 +49,4 @@ Puede cambiar varias solicitudes al mismo tiempo en función del grupo de inform
 
 Este es un vídeo que muestra el proceso:
 
-https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder
+https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder

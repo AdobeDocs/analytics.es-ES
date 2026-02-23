@@ -19,7 +19,7 @@ Puede definir una visita del modo que desee sin alterar los datos subyacentes pa
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sesiones según el contexto](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sesiones según el contexto](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

@@ -81,6 +81,6 @@ Puede segmentar un recuento distinto de elementos dentro de una dimensión. Ejem
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Recuentos distintos de dimensiones](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segmentation-on-distinct-dimension-counts){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Recuentos distintos de dimensiones](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/segmentation/segmentation-on-distinct-dimension-counts){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
