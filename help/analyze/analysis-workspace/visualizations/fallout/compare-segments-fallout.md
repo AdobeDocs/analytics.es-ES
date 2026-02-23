@@ -5,10 +5,10 @@ title: Aplicación De Segmentos En El Análisis De Abandonos
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 42%
+source-wordcount: '436'
+ht-degree: 43%
 
 ---
 
@@ -51,12 +51,6 @@ O puede crear un punto de contacto AND arrastrando el segmento Visitas de aplica
 
 Puede comparar una cantidad ilimitada de segmentos en la visualización de visitas en el orden previsto. (Tenga en cuenta que el siguiente vídeo indica que puede comparar hasta 3 segmentos, lo que es incorrecto).
 
-
->[!BEGINSHADEBOX]
-
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparar segmentos en una visualización de visitas en el orden previsto](https://video.tv.adobe.com/v/328099?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
-
->[!ENDSHADEBOX]
 
 
 1. Seleccione los segmentos que quiera comparar en el panel [!UICONTROL Segmento] de la izquierda. En el ejemplo En el ejemplo, se seleccionan dos segmentos: **[!UICONTROL iOS]** y **[!UICONTROL Android]**.

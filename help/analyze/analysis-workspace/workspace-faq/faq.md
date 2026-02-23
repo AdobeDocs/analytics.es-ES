@@ -4,10 +4,10 @@ title: 'Preguntas frecuentes '
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '554'
+ht-degree: 88%
 
 ---
 
@@ -30,11 +30,11 @@ Ahora puede crear proyectos en Analysis Workspace con datos de [más de un grupo
 +++
 
 +++¿Cómo se implementa Analysis Workspace?
-No se requiere implementación especial. Analysis Workspace está disponible en todas las empresas con Analytics estándar o premium. Sin embargo, son aplicables los permisos estándares para el contenido (como los grupos de informes y los componentes de proyecto) y para la depurar y compartir proyectos. Consulte [Administración y requisitos de acceso](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
+No se requiere implementación especial. Analysis Workspace está disponible para todas las empresas con Analytics Standard o Premium. Sin embargo, son aplicables los permisos estándar para el contenido (como los grupos de informes y los componentes de proyecto) y para depurar y compartir proyectos. Consulte [Administración y requisitos de acceso](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
 +++
 
-+++¿Puedo usar Analysis Workspace para el Data Warehouse?
-No se recomienda Analysis Workspace para exportación masiva de datos. Es un espacio de trabajo de visualización que crea proyectos de análisis con estilo de tablero.
++++¿Puedo usar Analysis Workspace para Data Warehouse?
+No se recomienda Analysis Workspace para la exportación de datos en lote. Es un espacio de trabajo de visualización que crea proyectos de análisis similares a paneles.
 +++
 
 +++¿Cómo puedo optimizar el rendimiento de Analysis Workspace?
@@ -45,13 +45,13 @@ Consulte [Optimización del rendimiento](/help/analyze/analysis-workspace/worksp
 
 +++¿Cómo llegan los datos a su proyecto de Analysis Workspace?
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Datos en Analysis Workspace](https://video.tv.adobe.com/v/33827?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Datos en Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"} para ver un vídeo de demostración.
 
 +++
 
 +++¿Cómo puedo hacer un seguimiento del uso de Workspace?
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Seguimiento del registro](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Seguimiento del registro](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
 
 +++
 

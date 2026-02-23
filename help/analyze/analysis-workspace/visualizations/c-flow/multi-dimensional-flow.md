@@ -5,9 +5,9 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '334'
 ht-degree: 96%
 
 ---
@@ -16,11 +16,15 @@ ht-degree: 96%
 
 Un flujo interdimensional le permite examinar las rutas del usuario entre diversas dimensiones.
 
+<!-- 
+
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flujos interdimensionales](https://video.tv.adobe.com/v/327473?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inter-dimensional flows](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/text-wrapping-and-multi-dimensional-flow){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
+
+-->
 
 Este artículo muestra cómo utilizar este flujo para dos casos de uso: interacciones y eventos de aplicaciones móviles y cómo las campañas impulsan las visitas web.
 

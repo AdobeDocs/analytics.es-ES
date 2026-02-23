@@ -3,10 +3,10 @@ description: Aprenda a utilizar los operadores del generador de segmentos para c
 title: Operadores
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 45%
+source-wordcount: '1192'
+ht-degree: 38%
 
 ---
 
@@ -37,16 +37,16 @@ Por ejemplo, tiene un nombre de página denominado *Mi excelente producto*.
 
 | Operador | La dimensión, segmento o evento de métrica seleccionado... |
 |--- |--- |
-| **[!UICONTROL es igual a]** | Devuelve elementos que coinciden exactamente con un valor numérico o de cadena. Nota: Si usa caracteres comodín, use el operador **[!UICONTROL matches]**. |
+| **[!UICONTROL es igual que]** | Devuelve elementos que coinciden exactamente con un valor numérico o de cadena. Nota: Si usa caracteres comodín, use el operador **[!UICONTROL matches]**. |
 | **[!UICONTROL no es igual a]** | Devuelve todos los elementos que no contienen la coincidencia exacta del valor introducido.  Nota: Si usa caracteres comodín, use el operador **[!UICONTROL no coincide con]**. |
 | **[!UICONTROL es igual a cualquiera de]** | Devuelve elementos que coinciden exactamente con cualquier valor del campo de entrada (hasta 500 elementos). Por ejemplo, si se introduce `Search Results, Homepage` para la dimensión **[!UICONTROL Nombre de página]** con este operador, coincidirá con *Resultados de búsqueda* y *Página principal*, y se contará como 2 elementos. El campo de entrada para este operador está delimitado por comas. |
-| **[!UICONTROL no es igual a ninguno de]** | Identifica los elementos que coinciden exactamente con cualquier valor del campo de entrada (hasta 500 elementos) y, a continuación, solo devuelve elementos sin estos valores. Por ejemplo, si se introduce `Search Results, Homepage` con este operador para la dimensión **[!UICONTROL Nombre de página]**, se identificarán *Resultados de búsqueda* y *Página principal* y, a continuación, se excluirán **8&rbrace; de los elementos devueltos.** Este ejemplo contaría como 2 elementos. El campo de entrada para este operador está delimitado por comas. |
+| **[!UICONTROL no es igual a ninguno de]** | Identifica los elementos que coinciden exactamente con cualquier valor del campo de entrada (hasta 500 elementos) y, a continuación, solo devuelve elementos sin estos valores. Por ejemplo, si se introduce `Search Results, Homepage` con este operador para la dimensión **[!UICONTROL Nombre de página]**, se identificarán *Resultados de búsqueda* y *Página principal* y, a continuación, se excluirán **8} de los elementos devueltos.** Este ejemplo contaría como 2 elementos. El campo de entrada para este operador está delimitado por comas. |
 | **[!UICONTROL contiene]** | Devuelve elementos que se comparan con las subcadenas de los valores introducidos. Por ejemplo, si la regla es **[!UICONTROL Nombre de página]** **[!UICONTROL contiene]** `Search`, entonces esta regla coincidirá con cualquier página que contenga la subcadena `Search`, incluidos *Resultados de búsqueda*, *Búsqueda* y *Búsquedas*. La cláusula “contiene” no distingue entre mayúsculas y minúsculas en Adobe Analytics, pero en Customer Journey Analytics sí. |
 | **[!UICONTROL no contiene]** | Devuelve lo contrario a la regla **[!UICONTROL contains]**. En concreto, todos los elementos que coincidan con el valor introducido se excluirán de los valores introducidos. Por ejemplo, si la regla es **[!UICONTROL Nombre de página]** **[!UICONTROL no contiene]** `Search`, no coincidirá con ninguna página que contenga la subcadena `Search`, incluidos *Resultados de búsqueda*, *Búsqueda* y *Búsquedas*. Estos valores se excluirán de los resultados. |
-| **[!UICONTROL contiene todo]** | Devuelve elementos comparados con las subcadenas, incluidos valores múltiples unidos. Por ejemplo, si se escribe `Search Results` con este operador para la dimensión **[!UICONTROL Nombre de página]**, coincidirá con *Resultados de búsqueda* y *Resultados de la búsqueda*, pero no con *Búsqueda* ni con *Resultados* por separado. La regla coincidiría con *Search* y *Results* encontrados juntos. El campo de entrada para este operador está delimitado por espacios (100 palabras). |
-| **[!UICONTROL no contiene todos]** | Identifica elementos comparados con subcadenas, incluidos valores múltiples unidos, y luego solo elementos devueltos sin estos valores. Por ejemplo, si se escribe `Search Results` con este operador para la dimensión **[!UICONTROL Nombre de página]**, se identificarán *Resultados de búsqueda* y *Resultados de la búsqueda* (pero no *Búsqueda* o *Resultados* individualmente) y después se excluirán estos elementos. El campo de entrada para este operador está delimitado por espacios (100 palabras). |
-| **[!UICONTROL contiene alguno]** | Devuelve elementos comparados con las subcadenas, incluidos valores múltiples unidos o identificados por separado. Por ejemplo, si se escribe `Search Results` con este operador, coincidirá con *Resultados de búsqueda*, *Resultados de la búsqueda*, *Búsqueda* y *Resultados*. Coincidirá con *Search* O *Results* que se encuentren juntos o por separado. El campo de entrada para este operador está delimitado por espacios (100 palabras). |
-| **[!UICONTROL no contiene ninguno]** | Identifica elementos en función de subcadenas y devuelve valores que no contienen estas subcadenas. Puede tener varios valores unidos o valores identificados independientemente. Por ejemplo, si se escribe `Search Results` para la dimensión **[!UICONTROL Nombre de página]**, coincidirá con *Resultado de búsqueda* s, *Resultados de la búsqueda*, *Búsqueda* y *Resultados*, donde *Búsqueda* o *Resultado* se encuentran juntos o por separado. Luego excluiría los elementos que contengan estas subcadenas. El campo de entrada para este operador está delimitado por espacios (100 palabras). |
+| **[!UICONTROL contiene todo(a)]** | Devuelve elementos comparados con las subcadenas, incluidos valores múltiples unidos. Por ejemplo, si se escribe `Search Results` con este operador para la dimensión **[!UICONTROL Nombre de página]**, coincidirá con *Resultados de búsqueda* y *Resultados de la búsqueda*, pero no con *Búsqueda* ni con *Resultados* por separado. La regla coincidiría con *Search* y *Results* encontrados juntos. El campo de entrada para este operador está delimitado por espacios (100 palabras). |
+| **[!UICONTROL no contiene todos(as) los/las]** | Identifica elementos comparados con subcadenas, incluidos valores múltiples unidos, y luego solo elementos devueltos sin estos valores. Por ejemplo, si se escribe `Search Results` con este operador para la dimensión **[!UICONTROL Nombre de página]**, se identificarán *Resultados de búsqueda* y *Resultados de la búsqueda* (pero no *Búsqueda* o *Resultados* individualmente) y después se excluirán estos elementos. El campo de entrada para este operador está delimitado por espacios (100 palabras). |
+| **[!UICONTROL contiene cualquiera de]** | Devuelve elementos comparados con las subcadenas, incluidos valores múltiples unidos o identificados por separado. Por ejemplo, si se escribe `Search Results` con este operador, coincidirá con *Resultados de búsqueda*, *Resultados de la búsqueda*, *Búsqueda* y *Resultados*. Coincidirá con *Search* O *Results* que se encuentren juntos o por separado. El campo de entrada para este operador está delimitado por espacios (100 palabras). |
+| **[!UICONTROL no contiene ninguno de]** | Identifica elementos en función de subcadenas y devuelve valores que no contienen estas subcadenas. Puede tener varios valores unidos o valores identificados independientemente. Por ejemplo, si se escribe `Search Results` para la dimensión **[!UICONTROL Nombre de página]**, coincidirá con *Resultado de búsqueda* s, *Resultados de la búsqueda*, *Búsqueda* y *Resultados*, donde *Búsqueda* o *Resultado* se encuentran juntos o por separado. Luego excluiría los elementos que contengan estas subcadenas. El campo de entrada para este operador está delimitado por espacios (100 palabras). |
 | **[!UICONTROL comienza con]** | Devuelve elementos que comienzan con el valor de cadena introducido. |
 | **[!UICONTROL no comienza con]** | Devuelve todos los elementos que no comienzan con el valor de cadena introducido. Esto es lo contrario al operador **[!UICONTROL starts with]**. |
 | **[!UICONTROL termina con]** | Devuelve elementos que terminan con un valor de cadena ingresado. |
@@ -71,7 +71,7 @@ Puede segmentar un recuento distinto de elementos dentro de una dimensión. Ejem
 
 | Operador | La dimensión, segmento o evento de métrica seleccionado... |
 | --- | --- |
-| **[!UICONTROL es igual a]** | Devuelve elementos de dimensión cuya cantidad única es igual al valor introducido. |
+| **[!UICONTROL es igual que]** | Devuelve elementos de dimensión cuya cantidad única es igual al valor introducido. |
 | **[!UICONTROL no es igual a]** | Devuelve elementos de dimensión cuya cantidad única no es igual al valor introducido. |
 | **[!UICONTROL es mayor que]** | Devuelve elementos de dimensión cuya cantidad única sea mayor que el valor introducido. |
 | **[!UICONTROL es menor que]** | Devuelve elementos de dimensión cuya cantidad única sea menor que el valor introducido. |
@@ -81,6 +81,6 @@ Puede segmentar un recuento distinto de elementos dentro de una dimensión. Ejem
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Recuentos distintos de dimensiones](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Recuentos distintos de dimensiones](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segmentation-on-distinct-dimension-counts){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]

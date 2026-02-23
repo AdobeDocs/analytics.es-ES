@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: aad8c1ba3c76cd35aa37a155102b5fd6b4b7ca27
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 96%
+source-wordcount: '698'
+ht-degree: 62%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de mapas en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/map) para la_ versión de ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta la visualización de mapas en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Mapa](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map) para la_ versión de ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ La visualización ![Globo](/help/assets/icons/Globe.svg) **[!UICONTROL Mapa]** e
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de mapa en Analysis Workspace](https://video.tv.adobe.com/v/41506/?quality=12&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de mapa en Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +80,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización d
    | Fuente | Descripción |
    | --- | --- |
    | **[!UICONTROL Latitud/Longitud móvil]** | Esta opción representa los datos de las aplicaciones móviles. Solo verá esta opción si la ha habilitado para su conjunto de informes en [!UICONTROL Analytics] > [!UICONTROL Administración] > [!UICONTROL Grupos de informes] > (seleccione el grupo de informes)> [!UICONTROL Editar configuración] >  [!UICONTROL Administración móvil] > [!UICONTROL Activar el seguimiento de ubicación]. Esta configuración es la predeterminada (si el seguimiento de la ubicación está habilitado). |
-   | **[!UICONTROL Dimensión geográfica]** | Esta opción representa los datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. Estos datos se transforman en [!UICONTROL País], [!UICONTROL Región] y [!UICONTROL Ciudad]. Tenga en cuenta que no se desciende al nivel del código postal ni DMA. Casi todos los grupos de informes tienen habilitada esta dimensión. Si no es así en su caso, póngase en contacto con el Servicio de atención al cliente de Adobe para habilitar los informes geográficos. |
+   | **[!UICONTROL Dimensión geográfica]** | Esta opción representa los datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. Estos datos se transforman en [!UICONTROL País], [!UICONTROL Región] y [!UICONTROL Ciudad]. Tenga en cuenta que no se desciende al nivel del código postal ni DMA. Casi todos los grupos de informes tienen habilitada esta dimensión. Si no es así, póngase en contacto con el Servicio de atención al cliente de Adobe para activar los informes geográficos. |
 
 1. Seleccione **[!UICONTROL Generar]**.
 
@@ -90,19 +90,19 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización d
 
 1. Ahora puede hacer lo siguiente:
 
-   * **Hacer zoom** en este mapa para ampliar determinadas áreas haciendo doble clic en el mapa o utilizando la rueda de desplazamiento. El mapa se amplía o se reduce según dónde haya colocado el cursor. La dimensión requerida (país > estado > ciudad) se actualiza automáticamente según la interacción con el nivel de zoom.
-   * **Comparar** dos o más visualizaciones de mapas en el mismo proyecto colocándolas una al lado de la otra.
-   * **Mostrar comparaciones entre períodos (por ejemplo, año tras año)**:
+   * **Haz zoom** en este mapa para ampliar ciertas áreas al hacer doble clic en el mapa o al usar la rueda de desplazamiento. El mapa se amplía según la posición del cursor. Mediante la interacción de zoom, la dimensión requerida (país > estado > ciudad) se actualiza automáticamente en función del nivel de zoom.
+   * **Compare** dos o más visualizaciones de mapas en el mismo proyecto colocándolas una al lado de la otra.
+   * **Mostrar comparaciones período tras período (por ejemplo, año tras año)**:
 
       * Mostrar números negativos: por ejemplo, si planea crear una métrica año tras año, el mapa puede mostrar -33 % en Nueva York.
       * En cuanto a las métricas que son de tipo *por ciento*, el clústering calcula la media total de los porcentajes.
-      * Esquema de colores verde/rojo: positivo/negativo
+      * Un esquema de colores verde/rojo: positivo/negativo
 
-   * **Girar** el mapa en 2D o 3D manteniendo presionada la tecla [!UICONTROL Ctrl] y desplazando el mapa.
+   * **Gira** el mapa en 2D o 3D manteniendo presionada la tecla [!UICONTROL Ctrl] y moviendo el mapa.
 
-   * **Alternar** entre las distintas vistas, como el mapa de calor, empleando las [configuraciones](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) descritas más adelante. La visualización de burbujas es la configuración predeterminada.
+   * **Cambiar** a una vista diferente, como el mapa de calor, usando la [configuración](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) que se describe a continuación. Tenga en cuenta que la vista de burbujas es la configuración predeterminada.
 
-1. **Guardar** el proyecto para guardar la configuración completa del mapa (coordenadas, zoom, rotación).
+1. **Guarde** el proyecto para guardar toda la configuración del mapa (coordenadas, zoom, rotación).
 1. La tabla de forma libre, bajo la visualización, puede rellenarse arrastrando a ella dimensiones de localización y métricas desde el carril izquierdo:
 
 
@@ -119,10 +119,10 @@ Para definir la configuración de la visualización, seleccione ![Configuración
 | Configuración | Descripción |
 |--- |--- |
 | **[!UICONTROL Tipo de mapa]** | |
-| **[!UICONTROL Burbujas] | Representa los eventos mediante burbujas. Un gráfico de burbujas es un gráfico multivariable a medio camino entre un diagrama de dispersión y un gráfico de superficie proporcional. Esta es la vista predeterminada. |
-| [!UICONTROL Mapa de calor] | Representa los eventos mediante un mapa de calor. Se trata de una representación gráfica de datos que muestra como colores los valores individuales contenidos en una matriz. |
+| **[!UICONTROL Burbujas] | Traza eventos con burbujas. Un gráfico de burbujas es un gráfico de varias variables que es una cruz entre un diagrama de dispersión y un gráfico de área proporcional. Esta es la vista predeterminada. |
+| [!UICONTROL Mapa de calor] | Traza eventos mediante un mapa de calor. Un mapa de calor es una representación gráfica de datos en la que los valores individuales contenidos en una matriz se representan como colores. |
 | **[!UICONTROL Estilos]** | |
-| [!UICONTROL Tema de color] | Muestra el esquema de colores para el mapa de calor y las burbujas. Puede elegir entre Coral, Rojos, Verdes o Azules. El color predeterminado es Coral. |
+| [!UICONTROL Tema de color] | Muestra el esquema de colores para el mapa de calor y las burbujas. Puedes elegir entre Coral, Rojos, Verdes o Azules. El color predeterminado es Coral. |
 | [!UICONTROL Estilo de mapa] | Puede elegir entre Básico, Calles, Brillante, Claro, Oscuro y Satélite. |
 | **[!UICONTROL Radio de clúster]** | Agrupar los puntos de datos que se hallan dentro de un radio de píxeles definido. El valor predeterminado es 50. |
 | **[!UICONTROL Valor máx. personalizado]** | Le permite alterar el umbral para el valor máximo del mapa. Al ajustar este valor, se ajusta la escala de los valores (color y tamaño) de las burbujas/mapa de calor en relación con el valor máximo personalizado establecido. |
@@ -132,7 +132,7 @@ Para definir la configuración de la visualización, seleccione ![Configuración
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/35172/?quality=12&captions=spa)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
 
 -->
 

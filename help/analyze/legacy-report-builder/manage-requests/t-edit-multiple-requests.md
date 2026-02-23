@@ -5,10 +5,10 @@ uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 90%
+ht-degree: 52%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 Es posible modificar varias solicitudes al mismo tiempo en función del grupo de informes de la solicitud, la granularidad y el intervalo de fechas.
 
-Puede cambiar varias solicitudes al mismo tiempo, en función del grupo de informes de la solicitud, los segmentos, la granularidad y el rango de fechas. Por ejemplo, puede actualizar los parámetros de un informe de modo que todas las solicitudes se basen en el mismo grupo de informes o segmentos, o puede transformar un informe diario en un informe mensual o semanal, siempre que mantenga el mismo número de períodos. Es posible editar varias solicitudes para la hoja de cálculo actual o todas las hojas de una hoja de cálculo.
+Puede cambiar varias solicitudes al mismo tiempo en función del grupo de informes de la solicitud, los segmentos, la granularidad y el intervalo de fechas. Por ejemplo, puede actualizar los parámetros de un informe para que todas las solicitudes se basen en el mismo grupo o segmento de informes, o bien puede transformar un informe diario en un informe semanal o mensual, siempre que conserve el mismo número de períodos. Puede editar varias solicitudes para la hoja de cálculo actual o para todas las hojas de cálculo de una hoja de cálculo.
 
 **Para editar varias solicitudes**
 
@@ -34,9 +34,9 @@ Puede cambiar varias solicitudes al mismo tiempo, en función del grupo de infor
 1. Para agrupar la visualización de las solicitudes, haga clic en cualquiera de las siguientes opciones:
 
    * **Por grupo de informes:** agrupa la visualización de las solicitudes por grupo de informes.
-   * **Por segmento:** agrupa las solicitudes según el nombre del segmento.
+   * **Por segmento**: Agrupa las solicitudes en función del nombre del segmento.
 
-      * **Elegir segmento**: muestra si Para agregar segmentos, haga clic en **[!UICONTROL Editar grupo]** y seleccione un segmento del panel [!UICONTROL Editar grupo].
+      * **Elegir segmento**: Muestra si no existen segmentos para las solicitudes. Para agregar segmentos, haga clic en **[!UICONTROL Editar grupo]** y seleccione un segmento del panel [!UICONTROL Editar grupo].
 
    * **Por métrica:** Consulte [Editar métricas en varias solicitudes](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md).
 
@@ -49,4 +49,4 @@ Puede cambiar varias solicitudes al mismo tiempo, en función del grupo de infor
 
 Este es un vídeo que muestra el proceso:
 
-https://video.tv.adobe.com/v/40100/?quality=12&captions=spa
+https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder
