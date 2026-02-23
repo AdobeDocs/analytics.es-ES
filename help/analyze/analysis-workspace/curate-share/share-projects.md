@@ -212,7 +212,7 @@ Puede compartir los componentes incrustados que forman parte del proyecto.
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados](https://video.tv.adobe.com/v/327499?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

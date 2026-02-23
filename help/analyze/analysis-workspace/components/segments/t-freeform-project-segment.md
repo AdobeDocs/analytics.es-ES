@@ -27,7 +27,7 @@ Puede crear y utilizar segmentos en Analysis Workspace y Customer Journey Analyt
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de segmentos en Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Uso de segmentos en Analysis Workspace](https://video.tv.adobe.com/v/41394?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
