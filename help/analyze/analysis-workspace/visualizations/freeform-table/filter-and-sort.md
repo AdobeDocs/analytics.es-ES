@@ -4,10 +4,10 @@ title: Filtrar Y Ordenar
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e288365f2c984b64ae8c16ce023a7a0357a0e2b7
+source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
@@ -150,8 +150,6 @@ Para ordenar los datos de las tablas por una sola columna:
    El icono de ordenación permanece visible cuando se aplica la ordenación a la columna. Una flecha indica cómo se ordenan los datos (![Ordenar](/help/assets/icons/SortOrderUp.svg) en orden ascendente o ![Ordenar](/help/assets/icons/SortOrderDown.svg) en orden descendente).
 
 ## Ordenar tablas por varias columnas (ordenación avanzada)
-
-{{release-limited-testing-section}}
 
 ### Aplicar la ordenación a varias columnas
 
