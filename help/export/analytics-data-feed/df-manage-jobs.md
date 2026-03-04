@@ -3,18 +3,27 @@ title: Administrar trabajos de fuentes de datos
 description: Obtenga información sobre cómo administrar trabajos individuales en fuentes de datos. Navegue por la interfaz, utilice filtros y búsquedas, y busque definiciones de columnas.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: d042bdb680504fdbf0ba346e5829713e529bd543
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 11%
+source-wordcount: '541'
+ht-degree: 8%
 
 ---
 
-# Administración de trabajos de fuentes de datos
+# Administración de trabajos de fuentes de datos {#manage-data-feed-jobs}
 
 Los trabajos son tareas individuales que generan un archivo comprimido. Se crean y se rigen por fuentes.
 
 Puede ver el historial de trabajos de cada fuente de datos, reenviar trabajos o volver a procesar trabajos.
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_job_history"
+>title="Historial de trabajos de fuentes de datos"
+>abstract="Puede ver una lista de trabajos de fuentes de datos para una fuente de datos determinada desde esta página. Buscar trabajos por ID de solicitud o fecha de inicio del período de solicitud. La información sobre cada trabajo se muestra en las columnas disponibles. También puede reenviar un trabajo con los mismos datos o volver a procesar los datos de origen de un trabajo antes de reenviarlo."
+
+<!-- markdownlint-enable MD034 -->
 
 ## Ver el historial de trabajos de una fuente de datos
 
@@ -68,6 +77,8 @@ Para reenviar uno o varios trabajos de fuentes de datos:
 
 1. Seleccione la casilla que está junto a la fuente de datos que contiene los trabajos que desea reenviar y, a continuación, seleccione [!UICONTROL **Historial de trabajos**].
 
+1. (Opcional) En el campo de búsqueda, busque por ID de solicitud o fecha de inicio del período de solicitud para buscar en la lista de trabajos de fuentes de datos.
+
 1. Seleccione la casilla de verificación que está junto a uno o más trabajos de fuente de datos y, a continuación, seleccione **[!UICONTROL Reenviar]**. <!-- What does the status need to be? Error, ... -->
 
    ![Volver a procesar trabajo de fuente de datos](assets/data-feed-job-resend.png)
@@ -81,6 +92,8 @@ Para volver a procesar uno o varios trabajos de fuentes de datos:
 1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
 
 1. Seleccione la casilla que está junto a la fuente de datos que contiene los trabajos que desea volver a procesar y, a continuación, seleccione [!UICONTROL **Historial de trabajos**].
+
+1. (Opcional) En el campo de búsqueda, busque por ID de solicitud o fecha de inicio del período de solicitud para buscar en la lista de trabajos de fuentes de datos.
 
 1. Seleccione la casilla de verificación que está junto a uno o más trabajos de fuente de datos y, a continuación, seleccione **[!UICONTROL Volver a procesar]**. <!-- What does the status need to be? Error, ... -->
 

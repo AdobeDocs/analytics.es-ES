@@ -3,23 +3,32 @@ title: Administrar fuentes de datos
 description: Obtenga información sobre cómo navegar por la interfaz de fuentes de datos. Descubra cómo crear, editar y ver una fuente de datos.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1310'
 ht-degree: 15%
 
 ---
 
-# Administración de fuentes de datos
+# Administración de fuentes de datos {#manage-data-feeds}
 
 El administrador de fuentes de datos le permite crear, editar y eliminar fuentes de datos para su organización. Si tiene permisos para acceder al administrador de fuentes de datos, puede administrar las fuentes de datos de todos los grupos de informes visibles para usted.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administración de fuentes de datos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administración de fuentes de datos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_manager"
+>title="Administración de fuentes de datos"
+>abstract="Puede ver, crear y administrar fuentes de datos desde esta página. Busque fuentes por nombre o ID, o seleccione el icono de filtro para ver los filtros disponibles."
+
+<!-- markdownlint-enable MD034 -->
 
 
 ## Ver fuentes de datos
@@ -62,7 +71,7 @@ El botón **[!UICONTROL Crear fuente de datos]** le permite crear una nueva fuen
 
 1. Utilice la búsqueda o los filtros para localizar una fuente específica.
 
-   * En el campo de búsqueda, empiece a escribir el nombre de una fuente. En la lista de fuentes disponibles solo se muestran las fuentes que coinciden con.
+   * En el campo de búsqueda, empiece a escribir el nombre o el ID de una fuente. En la lista de fuentes disponibles solo se muestran las fuentes que coinciden con.
 
      ![Buscar](assets/search.png)
 
