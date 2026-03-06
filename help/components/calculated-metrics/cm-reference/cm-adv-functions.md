@@ -4,10 +4,10 @@ description: Obtenga información sobre las funciones avanzadas de métricas cal
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: b04625391d5d0d6a6a8c7780115bf5b3029af3bb
+source-git-commit: fd4d0a9f7c3083720f9d69a0299bb02426dbe451
 workflow-type: tm+mt
-source-wordcount: '4807'
-ht-degree: 98%
+source-wordcount: '4799'
+ht-degree: 97%
 
 ---
 
@@ -433,14 +433,14 @@ Igual. El resultado es 0 (falso) o 1 (verdadero).
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-exp"
 >title="Regresión exponencial: coeficiente de correlación"
->abstract="Regresión exponencial: Y = a X + b. Devuelve el coeficiente de correlación."
+>abstract="Regresión exponencial: Y = b * exp(aX). Devuelve el coeficiente de correlación."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros))]**
 
 
-[!BADGE Tabla]{type="Neutral"} Regresión exponencial: Y = a exp(X) + b. Devuelve el coeficiente de correlación.
+[!BADGE Tabla]{type="Neutral"} Regresión exponencial: Y = b * exp(aX). Devuelve el coeficiente de correlación.
 
 
 | Argumento | Descripción |
@@ -456,14 +456,14 @@ Igual. El resultado es 0 (falso) o 1 (verdadero).
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-exp"
 >title="Regresión exponencial: predicción Y"
->abstract="Regresión exponencial: Y = a exp(X) + b. Devuelve Y."
+>abstract="Regresión exponencial: Y = b * exp(aX). Devuelve Y."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros))]**
 
 
-[!BADGE Fila]{type="Neutral"} Regresión exponencial: Y = a exp(X) + b. Devuelve Y.
+[!BADGE Fila]{type="Neutral"} Regresión exponencial: Y = b * exp(aX). Devuelve Y.
 
 
 | Argumento | Descripción |
@@ -480,14 +480,14 @@ Igual. El resultado es 0 (falso) o 1 (verdadero).
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-exp"
 >title="Regresión exponencial: intersección"
->abstract="Regresión exponencial: Y = a exp(X) + b. Devuelve b."
+>abstract="Regresión exponencial: Y = b * exp(aX). Devuelve b."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg)  **[!UICONTROL EXPONENTIAL REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabla]{type="Neutral"} Regresión exponencial: Y = a exp(X) + b. Devuelve b.
+[!BADGE Tabla]{type="Neutral"} Regresión exponencial: Y = b * exp(aX). Devuelve b.
 
 | Argumento | Descripción |
 |---|---|
@@ -503,14 +503,14 @@ Igual. El resultado es 0 (falso) o 1 (verdadero).
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-exp"
 >title="Regresión exponencial: pendiente"
->abstract="Regresión exponencial: Y = a exp(X) + b. Devuelve a."
+>abstract="Regresión exponencial: Y = b * exp(aX). Devuelve a."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL EXPONENTIAL REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabla]{type="Neutral"} Regresión exponencial: Y = a exp(X) + b. Devuelve a.
+[!BADGE Tabla]{type="Neutral"} Regresión exponencial: Y = b * exp(aX). Devuelve a.
 
 
 | Argumento | Descripción |
