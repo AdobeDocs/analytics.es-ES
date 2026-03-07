@@ -6,13 +6,13 @@ feature: Data Feeds
 source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
 # Búsquedas dinámicas
 
-Las búsquedas dinámicas permiten recibir archivos de búsqueda adicionales en la fuente de datos; de lo contrario, no estarán disponibles. Esta configuración permite enviar las siguientes tablas de búsqueda con cada archivo de fuente de datos:
+Las búsquedas dinámicas permiten recibir archivos de búsqueda adicionales en la fuente de datos; de lo contrario, no estarán disponibles. Esta configuración permite enviar las siguientes tablas de búsqueda con cada archivo de feed de datos:
 
 * **Nombre de operador**: proporciona contexto adicional para la columna `carrier`. El nombre de archivo incluido es `carrier.tsv`.
 * **Atributos móviles**: proporciona contexto adicional para la columna `mobile_id`, incluidas todas las características rastreadas para cada dispositivo móvil. El nombre de archivo incluido es `mobile_attributes.tsv`.
@@ -25,7 +25,7 @@ Las búsquedas dinámicas permiten recibir archivos de búsqueda adicionales en 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="Habilitar búsquedas dinámicas"
->abstract="Seleccione esta opción para recibir archivos de búsqueda adicionales en la fuente de datos; de lo contrario, no estarán disponibles. Esta configuración permite enviar las siguientes tablas de búsqueda con cada archivo de fuente de datos:<ul><li>Nombre del operador</li><li>Atributos móviles</li><li>Tipo de sistema operativo</li></ul>"
+>abstract="Seleccione esta opción para recibir archivos de búsqueda adicionales en el feed de datos; de lo contrario, no estarán disponibles. Esta configuración permite enviar las siguientes tablas de búsqueda con cada archivo de feed de datos:<ul><li>Nombre de operador </li><li>Atributos móviles</li><li>Tipo de sistema operativo</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 

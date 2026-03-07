@@ -6,7 +6,7 @@ exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '1683'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -48,12 +48,12 @@ Para definir un conjunto de reglas para un conjunto de clasificaciones:
 
 
 
-## Interfaz del conjunto de reglas {#rule-set-interface}
+## Interfaz de conjunto de reglas {#rule-set-interface}
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_rules_samplekeys"
 >title="Claves de muestra"
->abstract="Escriba o pegue claves de prueba para probar el conjunto de reglas. Cada línea es un valor clave independiente. Seleccione **[!UICONTROL Conjunto de reglas de prueba]** para mostrar un diálogo con los resultados."
+>abstract="Escriba o pegue las claves de prueba para probar el conjunto de reglas. Cada línea se corresponde con un valor de clave distinta. Seleccione **[!UICONTROL Probar conjunto de reglas]** para mostrar un cuadro de diálogo con los resultados."
 
 
 Para crear o editar reglas, utilice la interfaz Conjunto de reglas.

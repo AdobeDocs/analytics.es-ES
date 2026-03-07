@@ -6,7 +6,7 @@ feature: Classifications
 source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '983'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -19,8 +19,8 @@ La consolidación de conjuntos de clasificaciones permite tomar clasificaciones 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
->title="Prioridad del conjunto de clasificaciones"
->abstract="La clave ![Key](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *conjunto de clasificación* es el conjunto de clasificación base y define el esquema general y tiene prioridad en cualquier conflicto de combinación. Los demás conjuntos de clasificaciones se aplican en orden de arriba a abajo."
+>title="Prioridad de conjunto de clasificación"
+>abstract="El *conjunto de clasificación* con la ![clave](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) es el conjunto de clasificación base que define el esquema general y tiene prioridad en cualquier conflicto de combinación. Los demás conjuntos de clasificación se aplican por orden de arriba a abajo."
 
 
 Para crear una consolidación de clasificación, en la interfaz principal de Adobe Analytics:
@@ -61,12 +61,12 @@ Después de crear una consolidación, los pasos siguientes son:
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_mismatch"
 >title="Desajuste"
->abstract="El porcentaje de clave no coincide cuando el valor del conjunto de clasificación consolidado no coincide con el conjunto de clasificación de origen."
+>abstract="El porcentaje de desajustes de clave cuando el valor en el conjunto de clasificación consolidado no coincide con el conjunto de clasificación de origen."
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_absent"
 >title="Ausente"
->abstract="Porcentaje de claves en el conjunto de clasificaciones consolidado, pero no en el conjunto de clasificaciones de origen."
+>abstract="El porcentaje de claves en el conjunto de clasificación consolidado, pero no en el conjunto de clasificación de origen."
 
 Para editar una consolidación de clasificación, en la interfaz principal de Adobe Analytics:
 

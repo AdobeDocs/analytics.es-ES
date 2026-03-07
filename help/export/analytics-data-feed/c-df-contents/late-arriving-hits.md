@@ -6,7 +6,7 @@ exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
 source-git-commit: 4d0007d1a23a81f0d5ba60541b4f7b9ac7b00ace
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 21%
+ht-degree: 41%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 21%
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_late_hits"
->title="Permitir visitas que llegan tarde"
->abstract="Seleccione esta opción para incluir los datos que llegaron después de que el trabajo de fuente de datos terminara de procesar los datos dentro de la frecuencia de sistema de informes establecida (normalmente a diario o por hora). Con esta opción habilitada, cada vez que una fuente de datos procesa la información, observa las visitas que llegan tarde y las procesa por lotes con el siguiente archivo de fuente de datos que se envía."
+>title="Permitir visitas que llegan tarde."
+>abstract="Seleccione esta opción para incluir datos que llegaron después de que el trabajo de feed de datos terminara de procesar los datos dentro de la frecuencia de creación de informes establecida (normal o diariamente o cada hora). Con esta opción habilitada, cada vez que un feed de datos procesa la información, examina las visitas que han llegado y las procesa por lotes con el siguiente archivo de feed de datos que se envía."
 
 <!-- markdownlint-enable MD034 -->
 

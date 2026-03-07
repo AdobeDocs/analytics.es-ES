@@ -18,7 +18,7 @@ Puede administrar la configuración de Analysis Workspace y sus componentes rela
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [Administrar preferencias](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Administrar preferencias](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Haga clic en los títulos de las preferencias vinculadas para obtener más infor
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/es/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -135,7 +135,7 @@ Haga clic en los títulos de las preferencias vinculadas para obtener más infor
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="Métrica predeterminada de la tabla"
->abstract="Seleccione la métrica predeterminada que se utilizará para las tablas de forma libre. Si el grupo de informes seleccionado no contiene la métrica predeterminada seleccionada, la tabla cambia automáticamente a otra métrica principal."
+>abstract="Seleccione la métrica predeterminada que se utilizará para las tablas de forma libre. Si el grupo de informes seleccionado no contiene la métrica predeterminada seleccionada, la tabla cambiará automáticamente a otra métrica principal."
 
 
 Puede personalizar las preferencias de tabla de forma libre para todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
