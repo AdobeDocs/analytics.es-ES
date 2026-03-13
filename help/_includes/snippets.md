@@ -14,7 +14,7 @@ ht-degree: 87%
 >Desde el 16 de octubre de 2024 está disponible un nuevo y optimizado [Report Builder](/help/analyze/report-builder/rb-overview.md). Este Generador de informes es compatible con los exploradores macOS, Windows y web y se puede utilizar con Adobe Analytics y Customer Journey Analytics.
 >Esta versión del complemento Generador de informes heredados todavía funciona. Puede [convertir los libros heredados](/help/analyze/report-builder/convert-workbooks.md) en el nuevo Generador de informes.
 
-## Anuncio del final de la vida útil de Reports &amp; Analytics {#ra-eol}
+## Anuncio del final de la vida útil de Reports & Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -157,7 +157,7 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 
 | conjunto de informes | Descripción |
 |---|---|
-| ![Repost suite](/help/assets/filter-reportsuite.png){width="300"} | La sección **[!UICONTROL Report suite]** le permite filtrar las unidades de informe. <ul><li>Puede ![Buscar en ](/help/assets/icons/Search.svg)suites de informes de búsqueda *para buscar conjuntos de informes que puede utilizar para filtrar.*</li><li>Puede seleccionar más de un conjunto de informes. Los conjuntos de informes disponibles dependen de las selecciones realizadas en otras secciones del panel de filtros.</li><li>Los números indican lo siguiente:<ul><li>**(2)**: El número de conjuntos de informes seleccionados (si está seleccionado uno o más conjuntos de informes).</li><li>**3︎⃣**: El número de conjuntos de informes disponibles para los elementos resultantes del filtro actual.</li><li>4︎⃣: El número de elementos asociados al conjunto de informes específico.</li></ul></li></ul> |
+| ![Repost suite](/help/assets/filter-reportsuite.png){width="300"} | La sección **[!UICONTROL Report suite]** le permite filtrar las unidades de informe. <ul><li>Puede ![Buscar en &#x200B;](/help/assets/icons/Search.svg)suites de informes de búsqueda *para buscar conjuntos de informes que puede utilizar para filtrar.*</li><li>Puede seleccionar más de un conjunto de informes. Los conjuntos de informes disponibles dependen de las selecciones realizadas en otras secciones del panel de filtros.</li><li>Los números indican lo siguiente:<ul><li>**(2)**: El número de conjuntos de informes seleccionados (si está seleccionado uno o más conjuntos de informes).</li><li>**3︎⃣**: El número de conjuntos de informes disponibles para los elementos resultantes del filtro actual.</li><li>4︎⃣: El número de elementos asociados al conjunto de informes específico.</li></ul></li></ul> |
 
 ## Sección de filtro Estado habilitado {#enabledstatusfiltersection}
 
