@@ -1,7 +1,7 @@
 ---
-source-git-commit: 611dedca3782ac0381a85230d72c2cfe0e4f67b8
+source-git-commit: e33dd7e8c67ebbc3976bddb0cdf6d0a6bae5a5ec
 workflow-type: tm+mt
-source-wordcount: '3005'
+source-wordcount: '3007'
 ht-degree: 87%
 
 ---
@@ -11,14 +11,14 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->[Report Builder](/help/analyze/report-builder/rb-overview.md) nuevo y optimizado está disponible desde el 16 de octubre de 2024. Este Report Builder es compatible con macOS, Windows y exploradores web y se puede utilizar con Adobe Analytics y Customer Journey Analytics.
->Esta versión de complemento heredado de Report Builder sigue funcionando. Puede [convertir sus libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
+>Desde el 16 de octubre de 2024 está disponible un nuevo y optimizado [Report Builder](/help/analyze/report-builder/rb-overview.md). Este Generador de informes es compatible con los exploradores macOS, Windows y web y se puede utilizar con Adobe Analytics y Customer Journey Analytics.
+>Esta versión del complemento Generador de informes heredados todavía funciona. Puede [convertir los libros heredados](/help/analyze/report-builder/convert-workbooks.md) en el nuevo Generador de informes.
 
-## Anuncio del final de la vida útil de Reports & Analytics {#ra-eol}
+## Anuncio del final de la vida útil de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
->A partir del **17 de enero de 2024**, Adobe dejará de usar Reports &amp; Analytics y los informes y funciones que los acompañan. En ese momento, Reports &amp; Analytics y todos sus informes y programaciones dejaron de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Para obtener más información, consulte [Usar plantillas](/help/analyze/analysis-workspace/templates/use-templates.md).
+>Con efecto a partir del **17 de enero de 2024**, Adobe suspendió Reports &amp; Analytics y sus informes y funciones adjuntos. En ese momento, Reports &amp; Analytics y todos sus informes y programas dejaron de funcionar. Los informes, las visualizaciones y la tecnología subyacente que alimentan Reports &amp; Analytics ya no cumplen los estándares tecnológicos de Adobe. La mayoría de las funciones de Reports &amp; Analytics están disponibles en Analysis Workspace. Para obtener información, vea [Utilizar plantillas](/help/analyze/analysis-workspace/templates/use-templates.md).
 > 
 >Desde el lanzamiento de Analysis Workspace en 2015, las funcionalidades y capacidades de Reports &amp; Analytics se han trasladado a Analysis Workspace y se ha alcanzado un umbral de paridad de flujo de trabajo. Este aviso explica el proceso de finalización de la vida útil.
 >
@@ -54,11 +54,11 @@ ht-degree: 87%
 >Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el equipo de cuentas de Adobe de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 
-## Solo disponible para clientes existentes {#available-existing-customers}
+## Sólo disponible para clientes existentes {#available-existing-customers}
 
 >[!AVAILABILITY]
 >
->La funcionalidad descrita en esta sección solo está disponible para los clientes existentes que ya tienen una licencia para la funcionalidad. La funcionalidad ya no se ofrece como complemento adicional a los clientes existentes o nuevos.
+>La funcionalidad descrita en esta sección sólo está disponible para los clientes existentes que ya tienen una licencia para la funcionalidad. La funcionalidad ya no se ofrece como un complemento adicional para los clientes existentes o nuevos.
 >
 
 
@@ -87,8 +87,8 @@ Un modelo de atribución determina qué elementos de dimensión obtienen crédit
 
 Un contenedor de atribución define el ámbito deseado para la atribución. Las opciones posibles son las siguientes:
 
-* **Visita**: busca conversiones desde el ámbito del contenedor de visita. Cuando se selecciona **[!UICONTROL Visita]**, la [ventana retrospectiva de atribución](#atribution-lookback-window) se establece automáticamente en **[!UICONTROL ventana de informes]** y no se puede cambiar.
-* **Visitante**: busca conversiones desde el ámbito del contenedor de visitante.
+* **Visita**: Mira las conversiones desde el ámbito del contenedor de visitas. Cuando se selecciona **[!UICONTROL Visita]**, la ventana de seguimiento [Attribution lookback](#atribution-lookback-window) se establece automáticamente en la **[!UICONTROL ventana Reporting]** y no se puede cambiar.
+* **Visitante**: Mira las conversiones desde el ámbito del contenedor de visitantes.
 
 ## Ventana de retrospección de atribución {#attribution-lookback-window}
 
@@ -130,17 +130,17 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 
 | Función | Lienzo de recorrido | Visita en orden previsto | Flujo |
 |---------|----------|---------|---------|
-| **Secuencia predefinida de páginas** | Sí</br>Combina análisis predefinidos y exploratorios. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando se desplacen finalmente de un nodo predefinido al otro). También se pueden mostrar los siguientes nodos inmediatos (no posibles). | Sí</br>La ruta puede ser una ruta final o puede restringirse al siguiente punto de contacto | No |
-| **Secuencia exploratoria de páginas (análisis ad hoc)** | Sí</br>Combina análisis predefinidos y exploratorios. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando se desplacen finalmente de un nodo predefinido al otro). También se pueden mostrar los siguientes nodos inmediatos (no posibles). | Limitado</br>Permite hacer clic con el botón derecho del ratón y ver las visitas en el orden previsto en una tabla de forma libre. | Sí</br>Solo análisis exploratorio. Siempre dentro de una instancia de dimensión entre nodos. Esto significa que cada nodo muestra el siguiente punto de contacto inmediato (no final) a lo largo de la ruta. |
-| **Muestra dónde se retiraron las personas (abandonaron) y continuaron (fracasaron)** | Sí</br>Muestra recorridos predefinidos y exploratorios | Sí</br>Muestra los recorridos predefinidos | Sí</br>Muestra los recorridos exploratorios |
+| **Secuencia predefinida de páginas** | Sí</br>Combina análisis predefinidos y exploratorios. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando se desplacen finalmente de un nodo predefinido al otro). También se pueden mostrar los siguientes nodos inmediatos (no eventuales). | Sí</br>La ruta puede ser una ruta final o puede restringirse al siguiente punto de contacto | No |
+| **Secuencia exploratoria de páginas (análisis ad hoc)** | Sí</br>Combina análisis predefinidos y exploratorios. La ruta final se utiliza cuando se utilizan nodos predefinidos en la ruta (los visitantes se cuentan siempre y cuando se desplacen finalmente de un nodo predefinido al otro). También se pueden mostrar los siguientes nodos inmediatos (no eventuales). | Limitado</br>Permite hacer clic con el botón derecho del ratón y ver las visitas en el orden previsto en una tabla de forma libre. | Sí</br>Solo análisis exploratorio. Siempre dentro de una instancia de dimensión entre nodos. Esto significa que cada nodo muestra el siguiente punto de contacto inmediato (no final) a lo largo de la ruta. |
+| **Muestra dónde se retiraron las personas (abandonaron) y continuaron (fracasaron)** | Sí</br>Muestra para viajes predefinidos y exploratorios | Sí</br>Muestra los recorridos predefinidos | Sí</br>Muestra los recorridos exploratorios |
 | **Recorridos lineales** | Sí | Sí | No |
 | **Recorridos no lineales con varios puntos de entrada y rutas** | Sí | No | Sí |
 | **Métrica principal** | Cualquier métrica, incluidas las métricas calculadas | Solo sesión o persona | Solo ocurrencias (vistas de ruta) |
 | **Métrica secundaria** | Sí<p>Cualquier métrica, incluidas las métricas calculadas</p> | No | No |
-| **Compatibilidad con los componentes en nodos o puntos de contacto** | Métricas, elementos de dimensión, filtros e intervalos de fechas. | Métricas, elementos de dimensión, filtros e intervalos de fechas. | Solo elementos de dimensión (excepto el punto de contacto inicial y final) |
+| **Compatibilidad con los componentes en nodos o puntos de contacto** | Métricas, elementos de dimensión, filtros y rangos de fechas. | Métricas, elementos de dimensión, filtros y rangos de fechas. | Solo elementos de dimensión (excepto el punto de contacto inicial y final) |
 | **Comparar filtros** | No | Sí<p>Realice comparaciones paralelas de dos filtros distintos en el mismo informe</p> | No |
 | **Interacción de los componentes mediante arrastrar y soltar** | Sí | Sí | No |
-| **Recorridos de Adobe Journey Optimizer** | Sí</br>Abrir recorridos de Journey Optimizer para un análisis y una personalización más profundos | No | No |
+| **Recorridos de Adobe Journey Optimizer** | Sí</br>Viajes abiertos desde Journey Optimizer para un análisis y personalización más profundos | No | No |
 
 {style="table-layout:auto"}
 
@@ -153,11 +153,11 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 | ![Etiquetas](/help/assets/filter-tag.png){width="300"} | La sección **[!UICONTROL Etiquetas]** le permite filtrar las etiquetas. <ul><li>Puede ![Búsqueda](/help/assets/icons/Search.svg) *Buscar etiquetas* para buscar las etiquetas que puede utilizar para filtrar.</li><li>Puede seleccionar más de una etiqueta. Las etiquetas disponibles dependen de las selecciones realizadas en otras secciones del panel de filtro.</li><li>Los números indican lo siguiente:<ul><li>**(1)**: el número de etiquetas seleccionadas (si se seleccionan una o más).</li><li>**2︎⃣**: el número de etiquetas disponibles para los elementos resultantes del filtro actual.</li><li>7︎⃣: el número de elementos asociados a la etiqueta específica.</li></ul></li></ul> |
 
 
-## Sección de filtro del grupo de informes {#reportsuitefiltersection}
+## Sección de filtro de conjunto de informes {#reportsuitefiltersection}
 
-| Grupo de informes | Descripción |
+| conjunto de informes | Descripción |
 |---|---|
-| ![Grupo de publicaciones](/help/assets/filter-reportsuite.png){width="300"} | La sección **[!UICONTROL Grupo de informes]** le permite filtrar los grupos de informes. <ul><li>Puede ![Buscar](/help/assets/icons/Search.svg) *Buscar grupos de informes* para buscar grupos de informes que pueda usar para filtrar.</li><li>Puede seleccionar más de un grupo de informes. Los grupos de informes disponibles dependen de las selecciones realizadas en otras secciones del panel de filtros.</li><li>Los números indican lo siguiente:<ul><li>**(2)**: El número de grupos de informes seleccionados (si se seleccionan uno o más grupos de informes).</li><li>**3︎⃣**: El número de grupos de informes disponibles para los elementos resultantes del filtro actual.</li><li>4︎⃣: número de elementos asociados con el grupo de informes específico.</li></ul></li></ul> |
+| ![Repost suite](/help/assets/filter-reportsuite.png){width="300"} | La sección **[!UICONTROL Report suite]** le permite filtrar las unidades de informe. <ul><li>Puede ![Buscar en ](/help/assets/icons/Search.svg)suites de informes de búsqueda *para buscar conjuntos de informes que puede utilizar para filtrar.*</li><li>Puede seleccionar más de un conjunto de informes. Los conjuntos de informes disponibles dependen de las selecciones realizadas en otras secciones del panel de filtros.</li><li>Los números indican lo siguiente:<ul><li>**(2)**: El número de conjuntos de informes seleccionados (si está seleccionado uno o más conjuntos de informes).</li><li>**3︎⃣**: El número de conjuntos de informes disponibles para los elementos resultantes del filtro actual.</li><li>4︎⃣: El número de elementos asociados al conjunto de informes específico.</li></ul></li></ul> |
 
 ## Sección de filtro Estado habilitado {#enabledstatusfiltersection}
 
@@ -190,11 +190,11 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 | ![Intervalo de fecha](/help/assets/filter-daterange.png){width="300"} | La sección Intervalo de fecha aplicado permite filtrar un intervalo de fecha aplicable a los elementos.<ol><li>Seleccione un intervalo de fecha.</li><li>En la ventana emergente del calendario, defina un intervalo de fecha o seleccione uno de los ajustes preestablecidos disponibles.<br>Como alternativa, también puede especificar un intervalo de fecha directamente en la sección Intervalo de fecha del panel Filtro.</li></ol><ul><li>Los números indican lo siguiente:<ul><li>**(1)**: el número de intervalos de fechas modificados a partir de los ajustes preestablecidos predeterminados.</li><li>**5︎⃣**: el número de intervalos de fechas disponibles para los elementos resultantes del filtro actual.</li></ul> |
 
 
-## Desaprobación del importador de clasificaciones {#classification-importer-deprecation}
+## Depreciación del importador de clasificación {#classification-importer-deprecation}
 
 >[!WARNING]
 >
->El importador de clasificaciones quedará obsoleto el **31 de agosto de 2026**. Cambie para usar la experiencia [Conjuntos de clasificaciones](/help/components/classifications/sets/overview.md) para garantizar la funcionalidad continua.
+>El importador de clasificación quedará obsoleto el **31 de agosto de 2026**. Cambie para utilizar la experiencia de los [conjuntos de clasificación](/help/components/classifications/sets/overview.md) para garantizar la funcionalidad continua.
 >
 
 
@@ -203,7 +203,7 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 
 >[!WARNING]
 >
->El generador de reglas de clasificación quedará obsoleto el **31 de agosto de 2026**. Cambie para usar la experiencia [Reglas de conjuntos de clasificaciones](/help/components/classifications/sets/manage/rules.md), una vez disponible, para garantizar la funcionalidad continua.
+>El generador de reglas de clasificación quedará obsoleto el **28 de febrero de 20276**. Cambie para utilizar la experiencia de [Clasificación establece reglas](/help/components/classifications/sets/manage/rules.md), una vez disponible, para garantizar la funcionalidad continua.
 >
 
 
