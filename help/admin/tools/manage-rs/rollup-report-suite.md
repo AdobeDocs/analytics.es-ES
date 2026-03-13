@@ -4,7 +4,7 @@ title: Grupos de informes globales
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 95%
@@ -31,9 +31,10 @@ Puede proporcionar subconjuntos de los datos del grupo de informes globales de s
 
   Para utilizar grupos de informes virtuales, implemente un grupo de informes globales y luego analice los datos para crear grupos de informes virtuales con segmentos específicos aplicados y con permisos de grupo específicos. Puede crear grupos de informes virtuales en el Administrador de grupos de informes virtuales ([!UICONTROL Componentes] > [!UICONTROL Grupos de informes virtuales]). Consulte [Flujo de trabajo de grupos de informes virtuales](/help/components/vrs/c-workflow-vrs/vrs-workflow.md) para obtener más información.
 
-El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltiples suele ser una práctica recomendada, pero los grupos de informes virtuales tienen algunas limitaciones. Consulte [Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples](/help/components/vrs/vrs-considerations.md) para determinar qué enfoque de grupo de informes es la mejor opción para sus necesidades comerciales. Para obtener una comparación detallada de los grupos de informes virtuales y la funcionalidad de etiquetado de grupos múltiples, consulte [Grupos de informes virtuales frente al etiquetado de grupos múltiples](/help/components/vrs/vrs-about.md).
+El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltiples suele ser una práctica recomendada, pero los grupos de informes virtuales tienen algunas limitaciones. Consulte [Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples](/help/components/vrs/vrs-considerations.md) para determinar qué enfoque de grupo de informes es la mejor opción para sus necesidades empresariales. Para obtener una comparación detallada de los grupos de informes virtuales y la funcionalidad de etiquetado de grupos múltiples, consulte [Grupos de informes virtuales frente al etiquetado de grupos múltiples](/help/components/vrs/vrs-about.md).
 
-<!---## Rollup reports
+<!--
+## Rollup reports
 
 >[!NOTE]
 >
@@ -73,4 +74,4 @@ Limitations of Rollup Reports {#limitations-rollups}
 
 **Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.-->

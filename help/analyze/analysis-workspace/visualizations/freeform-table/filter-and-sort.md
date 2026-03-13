@@ -4,7 +4,7 @@ title: Filtrar Y Ordenar
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 51%
@@ -27,7 +27,7 @@ Puede utilizar varios métodos para filtrar filas de una tabla de forma libre.
 
 * Excluir filas específicas de una tabla
 * Aplicar filtros a una tabla
-* Uso de filtros de segmento
+* Usar filtros de segmentos
 
 Asegúrese de leer cómo afecta cada método a los [Totales de tablas de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
@@ -45,14 +45,16 @@ Para excluir filas específicas de una tabla de forma libre:
 
    Mantenga presionado ***mayús*** para seleccionar un rango de filas, o bien mantenga presionada la tecla ***cmd*** (en Mac) o la tecla ***ctrl*** (en Windows) para seleccionar varias filas.
 
-<!--### Right-click > Delete selected rows
+<!--
+### Right-click > Delete selected rows
 
 Note: this option does not seem to work. AN-338422
 
 1. Select 1 or more rows. 
 1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
 
-   This action will remove the rows from the table and apply a table filter.-->
+   This action will remove the rows from the table and apply a table filter.
+-->
 
 
 ### Aplicar un filtro simple o avanzado a una tabla
@@ -100,15 +102,15 @@ Para obtener más información sobre minigráficos y visualizaciones de líneas,
 
 #### Configurar visualizaciones de líneas para incluir criterios de filtro
 
-1. Seleccione el minigráfico en el encabezado de la columna de métrica.
+1. Seleccione el minigráfico en la cabecera de columna de métrica.
 
-   Cuando se selecciona la celda del minigráfico, aparece en gris oscuro. Esto indica que los criterios de filtro se incluyen en la visualización de línea conectada. Los criterios de filtro se aplican como un segmento en la columna. <!--show how to see it? Show what the segment looks like when it's applied? -->
+   Cuando se selecciona la celda de la línea de chispa, se muestra como gris oscuro. Esto indica que los criterios de filtro se incluyen en la visualización de la línea conectada. Los criterios de filtro se aplican como un segmento en la columna. <!--show how to see it? Show what the segment looks like when it's applied? -->
 
-   ![minigráfico seleccionado](assets/table-sparkline-selected.png)
+   ![sparkline seleccionado](assets/table-sparkline-selected.png)
 
 #### Comprender cuándo los totales de columna pueden ser inexactos
 
-Es posible que los totales de columna no sean exactos en los siguientes casos:
+Es posible que los totales de columna no sean exactos en los siguientes escenarios:
 
 * Cuando se usan componentes estáticos en la columna izquierda y los totales de [columna se calculan como una suma de las filas](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
 
@@ -143,15 +145,15 @@ Para ordenar los datos de las tablas por una sola columna:
 
 1. Pase el cursor sobre el encabezado de la columna que quiera ordenar y, a continuación, seleccione el icono **Ordenar** ![Ordenar](/help/assets/icons/SortOrderDown.svg) cuando aparezca.
 
-   ![Menú desplegable Ordenar](assets/sort-dropdown-menu.png)
+   ![Menú desplegable de ordenación](assets/sort-dropdown-menu.png)
 
 1. Seleccione **[!UICONTROL Ascendente]** o **[!UICONTROL Descendente]**.
 
-   El icono de ordenación permanece visible cuando se aplica la ordenación a la columna. Una flecha indica cómo se ordenan los datos (![Ordenar](/help/assets/icons/SortOrderUp.svg) en orden ascendente o ![Ordenar](/help/assets/icons/SortOrderDown.svg) en orden descendente).
+   El icono de ordenación permanece visible cuando se aplica la ordenación a la columna. Una flecha indica cómo se ordenan los datos (![Ordenar](/help/assets/icons/SortOrderUp.svg) por ascendente o ![Ordenar](/help/assets/icons/SortOrderDown.svg) por descendente).
 
 ## Ordenar tablas por varias columnas (ordenación avanzada)
 
-### Aplicar la ordenación a varias columnas
+### Aplicar ordenación a varias columnas
 
 Para ordenar los datos de las tablas por varias columnas:
 
@@ -179,11 +181,11 @@ Para ordenar los datos de las tablas por varias columnas:
 
 1. Seleccione **[!UICONTROL Aplicar]**.
 
-El icono de ordenación permanece visible cuando se aplica la ordenación a una columna. Una flecha indica cómo se ordenan los datos (![Ordenar](/help/assets/icons/SortOrderUp.svg) en orden ascendente o ![Ordenar](/help/assets/icons/SortOrderDown.svg) en orden descendente).
+El icono de ordenación permanece visible cuando se aplica la ordenación a una columna. Una flecha indica cómo se ordenan los datos (![Ordenar](/help/assets/icons/SortOrderUp.svg) por ascendente o ![Ordenar](/help/assets/icons/SortOrderDown.svg) por descendente).
 
 ![ejemplo de ordenación múltiple](assets/dimensions-multiple-sort.png)
 
-### Prioridad de ordenación
+### Ordenar prioridad
 
 Al ordenar los datos de varias columnas, los datos se ordenan según la prioridad asignada a cada columna. La numeración de prioridades se muestra junto al icono de ordenación ![icono de prioridad de ordenación](assets/sort-priority-icon.png).
 

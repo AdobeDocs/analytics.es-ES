@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo solucionar y solucionar problemas 
 title: Resolución de problemas
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 42%
+ht-degree: 6%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 42%
 
 Este artículo enumera algunos problemas comunes con los segmentos y cómo solucionarlos.
 
-<!-- Looks like this is not part anymore of the current UI.
+<!--
+Looks like this is not part anymore of the current UI.
 
 ## Error: "Incompatible elements in this segment" {#incompatible}
 
@@ -22,12 +23,11 @@ This error occurs when you try to save a segment in the Data Warehouse folder wh
 
 * Save the segment in a different folder 
 * Remove or change the incompatible portions of the segment.
-
 -->
 
 ## ¿Por qué no devuelve ningún dato mi segmento? {#no-data}
 
-Motivos posibles:
+Posibles razones:
 
 * Anidado inverso: por ejemplo, anidar un contenedor de ![Usuario](/help/assets/icons/User.svg) **[!UICONTROL Visitante]** bajo un contenedor de ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Visita]**.
 * El informe no admite la segmentación.
@@ -35,19 +35,19 @@ Motivos posibles:
 
 ## ¿Por qué no puedo ver el segmento que he creado en el Administrador de segmentos? {#invisible}
 
-Motivos posibles:
+Posibles razones:
 
 * Algunas dimensiones solo están disponibles en Data Warehouse y no en el Administrador de segmentos.
-* El segmento únicamente se comprueba para un grupo de informes específico.
+* El segmento solo se comprueba para un grupo de informes específico.
 * Es posible que otro usuario haya eliminado un segmento compartido.
 * No se han podido cargar los segmentos debido a un problema con el centro de datos o la caché del explorador.
 * El segmento no se ha guardado.
-* La dirección IP puede haber sido bloqueada en el terminal del usuario.
+* La dirección IP puede bloquearse por parte del usuario.
 
 ## ¿Por qué los datos mostrados después de aplicar un segmento parecen incorrectos? {#page-data}
 
-Motivos posibles:
+Posibles razones:
 
 * Las reglas u operadores son incorrectos para el resultado requerido.
 * Uso incorrecto de contenedores en el segmento.
-* Las variables de tráfico utilizadas en el segmento no se han configurado correctamente o han caducado.
+* Las variables de tráfico utilizadas para segmentar no se han configurado correctamente o han caducado.

@@ -3,7 +3,7 @@ description: Descubra cómo puede utilizar funciones para filtrar y ordenar los 
 title: Uso de funciones
 feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 20%
@@ -20,6 +20,7 @@ Para obtener una lista de todas las funciones, consulte [Funciones básicas](/he
 >
 >Cuando se incluyen funciones en una fórmula de métricas calculadas, aplique siempre la función antes de arrastrar métricas o segmentos.
 
-<!-- OUTDATED VIDEO 
+<!--
+OUTDATED VIDEO 
 Watch this [video](https://youtu.be/SSyWvomnewI) to understand the use of functions.
 -->
