@@ -4,10 +4,10 @@ description: Obtenga información acerca de cómo las sugerencias del cliente re
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8861dc27f9353d00ef3cf62568822c74d6e70d25
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 83%
+source-wordcount: '1147'
+ht-degree: 77%
 
 ---
 
@@ -25,11 +25,7 @@ Google divide las sugerencias del cliente agente de usuario en dos categorías: 
 
 A partir de octubre de 2022, las nuevas versiones de los exploradores Chromium empezaron a “bloquear” la versión del sistema operativo representada en la cadena del agente de usuario. La versión del sistema operativo es una sugerencia de alta entropía, por lo que para mantener su precisión en la creación de informes es necesario configurar la biblioteca de colección para recopilar estas sugerencias de alta entropía. Con el tiempo, se bloqueará otra información del dispositivo del agente de usuario, lo que requiere sugerencias del cliente para mantener la precisión de la creación de informes de dispositivos.
 
-Las sugerencias del cliente se incorporarán al proceso de búsqueda de dispositivos de Analytics a partir del 27 de febrero de 2023 y hasta el 2 de marzo de 2023. AppMeasurement y el SDK web admiten actualmente la recopilación de datos de sugerencias, pero no se emplearán en la búsqueda de dispositivos hasta mediados de febrero. Como se indica a continuación, la versión del sistema operativo se bloqueó a partir de octubre, pero debido a un despliegue gradual y al hecho de que muchos agentes de usuario ya proporcionan una versión del sistema operativo bloqueada (ver más [aquí](/help/components/dimensions/operating-systems.md)), estimamos que esto afectará a menos del 3 % de los visitantes de Chrome.
-
->[!NOTE]
->
-> A partir de enero de 2023, algunas versiones de los sistemas operativos Mac y Windows se representan incorrectamente en el agente de usuario, pero correctamente en las sugerencias de cliente de alta entropía. Consulte [Sistema operativo](/help/components/dimensions/operating-systems.md) para obtener más información.
+Las sugerencias del cliente se incorporaron al proceso de búsqueda de dispositivos de Analytics el 2 de marzo de 2023. Este cambio se aplica tanto a las implementaciones de AppMeasurement como de Web SDK.
 
 Adobe Audience Manager requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está usando el reenvío del lado del servidor a Adobe Audience Manager[, es posible que desee habilitar la recopilación de sugerencias de alta entropía.](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)
 
@@ -162,3 +158,10 @@ Consulte la [documentación del esquema](https://github.com/adobe/xdm/blob/maste
 Sí. Las sugerencias del cliente se incluirán en los datos reenviados a Adobe Audience Manager. Tenga en cuenta que Adobe Audience Manager requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está usando el reenvío del lado del servidor a Adobe Audience Manager[, es posible que desee habilitar la recopilación de sugerencias de alta entropía.](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)
 
 +++
+
++++**¿Por qué veo el número de versión 999.99 del explorador?**
+
+A veces, los clientes realizan pruebas con números de versión del explorador o del sistema operativo del dispositivo no válidos, que pueden ser cualquier número superior a 100 000. Para evitar un gran número de números de versión del sistema operativo del dispositivo o del explorador no válidos en un día determinado, todos los números de versión superiores a 100 000 se agrupan y se anclan al número de versión 999.99.
+
++++
+
