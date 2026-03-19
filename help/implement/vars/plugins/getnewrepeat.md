@@ -4,10 +4,10 @@ description: Rastree la actividad de visitantes nuevos frente a los que repiten.
 feature: Appmeasurement Implementation
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 74%
+source-wordcount: '642'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 74%
 
 {{plug-in}}
 
-El complemento `getNewRepeat` le permite determinar si un visitante del sitio accede por primera vez o si repite dentro de un número determinado de días. Adobe recomienda utilizar este complemento si desea identificar a los visitantes como “nuevos” con un número personalizado de días. Este complemento no es necesario si las dimensiones de visitante Nuevo/Repetición de Analysis Workspace satisfacen las necesidades de su organización.
+El complemento `getNewRepeat` le permite determinar si un visitante del sitio accede por primera vez o si repite dentro de un número determinado de días. Adobe recomienda utilizar este complemento si desea identificar a los visitantes como “nuevos” con un número personalizado de días. Este complemento no es necesario si los segmentos &#39;[!UICONTROL Nuevos visitantes]&#39; y &#39;[!UICONTROL Visitantes repetidos]&#39; de Analysis Workspace satisfacen las necesidades de su organización.
 
 ## Instalación del complemento con la extensión Web SDK
 

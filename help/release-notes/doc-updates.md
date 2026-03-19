@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 761ee1993296cab3c29f706d6e1c79bb08b46303
+source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
 workflow-type: tm+mt
-source-wordcount: '6654'
-ht-degree: 98%
+source-wordcount: '6679'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | --- | --- |
 | **Marzo de 2026** | |
 | Se ha identificado la opción predeterminada para la confusión de IP en los nuevos grupos de informes | Se ha agregado información para indicar que **Quitar dirección IP** es la opción predeterminada de confusión de IP [para los nuevos grupos de informes](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). |
+| Revisión del orden de procesamiento | Mejoras significativas en [Orden de procesamiento en Adobe Analytics](/help/technotes/processing-order.md). |
+| Integración de Adobe Advertising | Adiciones de dimensiones y métricas de integración de Adobe Advertising, incluido [AMO ID](/help/components/dimensions/amo-id.md). |
 | **Febrero de 2026** |  |
 | Se ha añadido información acerca del uso de informes geográficos y tecnológicos | Se agregó información sobre las diferencias al usar los informes geográficos y de tecnología [en varios productos de Analytics](/help/analyze/get-started/analytics-product-comparison.md). |
 | **Enero de 2026** | |
@@ -98,7 +100,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Documentación sobre la adición de componentes a proyectos | Se ha añadido información general sobre cómo [añadir distintos tipos de componentes a los proyectos en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Documentación actualizada de Advertising Analytics | Documentación actualizada en línea con las actualizaciones realizadas en la interfaz de usuario de [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md). |
 | Asignación explícita de variables de objeto XDM a variables de datos de contexto | Se ha documentado la capacidad en [establecer explícitamente variables de datos de contexto mediante la asignación de variables de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
-| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Se ha actualizado la documentación sobre intervalos de fechas personalizados | Capturas de pantalla y procedimientos actualizados relacionados con la [creación de intervalos de fechas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) para que coincida con las características y el diseño actuales del producto. |
 | **Abril de 2024** | |
 | Se ha eliminado la documentación relacionada con “Propietario” en los conjuntos de clasificación | El filtro “Propietario” y la columna se han eliminado del [Administrador de conjuntos de clasificación](/help/components/classifications/sets/manage-sets.md) y el campo “Propietario” se ha eliminado de [Configuración del conjunto de clasificación](/help/components/classifications/sets/manage/settings.md). <p>La documentación se ha actualizado para quitar este filtro, columna y campo.</p> |
@@ -248,7 +250,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 18 de agosto de 2021 | Se ha revisado la estructura de nivel superior y se ha consolidado en una sola [página de destino](https://experienceleague.adobe.com/docs/analytics.html?lang=es) |
 | 18 de agosto de 2021 | Nuevo tema en [A4T y grupos de informes virtuales](/help/components/vrs/vrs-a4t.md) |
 | 18 de agosto de 2021 | Nuevo tema sobre [Prácticas recomendadas de atribución](/help/analyze/analysis-workspace/attribution/best-practices.md) |
-| 5 de agosto de 2021 | Nuevo tema sobre [Recuento de instancias repetidas](/help/components/metrics/count-repeat-instances.md) |
+| 5 de agosto de 2021 | Nuevo tema sobre Recuento de instancias repetidas. |
 | 5 de agosto de 2021 | Se ha actualizado la documentación de clasificaciones en [plantillas](/help/components/classifications/importer/c-download-saint-data.md), [importación del explorador](/help/components/classifications/importer/browser-import.md) y [exportación del explorador](/help/components/classifications/importer/browser-export.md) para indicar que las opciones que no están disponibles para los grupos de informes que están habilitados para la nueva arquitectura de clasificación. |
 | 2 de agosto de 2021 | Se han actualizado varias páginas para reflejar el cambio de marca de [Adobe Experience Platform Launch](/help/implement/launch/overview.md) |
 | **Julio de 2021** |  |

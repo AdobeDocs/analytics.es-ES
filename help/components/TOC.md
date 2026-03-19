@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
+source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 99%
+source-wordcount: '745'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 99%
    + [Región de Activity Map](dimensions/activity-map-region.md)
    + [Consentimiento de la plataforma de publicidad](dimensions/ad-consent.md)
    + [Clasificación de todas las páginas de búsqueda](dimensions/all-search-page-rank.md)
+   + [ID de AMO](dimensions/amo-id.md)
+   + [AMO EF ID](dimensions/amo-ef-id.md)
+   + [AMO Meta Ads Click ID](dimensions/amo-meta-id.md)
    + [AM/PM](dimensions/am-pm.md)
    + [Nombre de bot](dimensions/bot-name.md)
    + [Altura del explorador](dimensions/browser-height.md)
@@ -120,7 +123,7 @@ ht-degree: 99%
    + [Código postal](dimensions/zip-code.md)
 + Métricas {#metrics}
    + [Resumen de las métricas](metrics/overview.md)
-   + [Contar instancias repetidas](metrics/count-repeat-instances.md)
+   + [Métricas de Advertising](metrics/amo-metrics.md)
    + [Profundidad promedio de la página](metrics/average-page-depth.md)
    + [Promedio de vistas de página por visita](metrics/average-page-views-per-visit.md)
    + [Longitud promedio de la sesión](metrics/average-session-length.md)

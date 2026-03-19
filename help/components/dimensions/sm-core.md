@@ -3,10 +3,10 @@ title: Dimensiones principales de los servicios de medios de streaming
 description: Dimensiones disponibles al habilitar [!UICONTROL Media Core] para un grupo de informes.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+source-git-commit: fd82e93bd98021e124f2db6913b5e5c59797a26f
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 7%
+source-wordcount: '437'
+ht-degree: 6%
 
 ---
 
@@ -28,6 +28,7 @@ Cuando habilita **[!UICONTROL Componentes básicos de medios]** en [Informes de 
 | **[!UICONTROL Segmento de contenido]** | Intervalo que describe la parte del contenido que se ha visto, en minutos. El segmento se calcula como un mínimo y un máximo de los valores del cabezal de reproducción durante una sesión de reproducción. | Cierre de medios | `a.media.`<br>`segment` | `xdm.mediaReporting.`<br>`sessionDetails.segment` |
 | **[!UICONTROL Tipo de contenido]** | El tipo de contenido. Los valores válidos incluyen `song`, `podcast`, `audiobook`, `radio`, `VoD`, `Live`, `Linear`, `UGC`, `DVoD` o un valor personalizado. | Inicio de contenidos, Cierre de contenidos | `a.contentType` | `xdm.mediaCollection.`<br>`sessionDetails.contentType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.contentType` |
 | **[!UICONTROL Ruta de medios]** | La ruta que tomó el visitante para llegar al contenido. | Inicio de medios | `a.media.path` | |
+| **[!UICONTROL ID de sesión de medios]** | Identifica una instancia de un flujo de contenido único para una reproducción individual. | Inicio de contenidos, Cierre de contenidos | `a.media.vsid` | `xdm.mediaReporting`<br>`sessionDetails.ID` |
 | **[!UICONTROL Tipo de emisión]** | El tipo de flujo. Los valores válidos incluyen `audio` y `video`. | Inicio de contenidos, Cierre de contenidos | `a.media.`<br>`streamType` | `xdm.mediaCollection.`<br>`sessionDetails.streamType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.streamType` |
 
 Además de las dimensiones anteriores, Adobe crea automáticamente las siguientes dimensiones de clasificación. Debe cargar datos de clasificación para ver los informes que utilizan estas dimensiones.
