@@ -12,7 +12,7 @@ ht-degree: 15%
 
 # Acceso único
 
-La **[!UICONTROL métrica]** Acceso único[ muestra el número de visitas donde la dimensión de informe aplicable solo contenía un valor para una visita completa. ](overview.md) Es la versión más amplia y específica de la dimensión de [[!UICONTROL Visitas de página única]](single-page-visits.md). Esta métrica es útil en el contexto de cualquier dimensión en la que desee ver el valor de una dimensión cuando se estableció solo una vez durante una visita.
+La **[!UICONTROL métrica]** Acceso único[&#x200B; muestra el número de visitas donde la dimensión de informe aplicable solo contenía un valor para una visita completa. &#x200B;](overview.md) Es la versión más amplia y específica de la dimensión de [[!UICONTROL Visitas de página única]](single-page-visits.md). Esta métrica es útil en el contexto de cualquier dimensión en la que desee ver el valor de una dimensión cuando se estableció solo una vez durante una visita.
 
 ## Cálculo de esta métrica
 
