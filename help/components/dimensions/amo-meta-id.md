@@ -11,7 +11,7 @@ ht-degree: 10%
 
 # AMO Meta Ads Click ID
 
-**[!UICONTROL ID de clic en Meta Ads de AMO]** es un identificador de clic en anuncio que se usa en las integraciones de Adobe Advertising. La dimensión se crea automáticamente al habilitar la integración de [Analytics para Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview). Resulta principalmente útil como identificador de seguimiento sin procesar en lugar de como dimensión de sistema de informes legible en lenguaje natural.
+**[!UICONTROL ID de clic en Meta Ads de AMO]** es un identificador de clic en anuncio que se usa en las integraciones de Adobe Advertising. La dimensión se crea automáticamente al habilitar la integración de [Analytics para Advertising](https://experienceleague.adobe.com/es/docs/advertising/integrations/analytics/overview). Resulta principalmente útil como identificador de seguimiento sin procesar en lugar de como dimensión de sistema de informes legible en lenguaje natural.
 
 ## Rellene esta dimensión con datos
 
