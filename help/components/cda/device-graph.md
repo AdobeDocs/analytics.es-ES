@@ -16,5 +16,5 @@ ht-degree: 35%
 
 >[!WARNING]
 >
->El gráfico de dispositivos de Cross-Device Analytics está [descontinuado](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) y ya no estará disponible a partir del **31 de diciembre de 2025**. Cambie cualquier grupo de informes virtuales habilitado para gráficos de dispositivos actuales al [método basado en campos](/help/components/cda/field-based-stitching.md).
+>El gráfico de dispositivos de Cross-Device Analytics está [descontinuado](https://experienceleague.adobe.com/es/docs/discontinued/using/device-graph) y ya no estará disponible a partir del **31 de diciembre de 2025**. Cambie cualquier grupo de informes virtuales habilitado para gráficos de dispositivos actuales al [método basado en campos](/help/components/cda/field-based-stitching.md).
 >
