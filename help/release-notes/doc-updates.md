@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
+source-git-commit: c86e1ef4a93591e7623fe5a9f2f9d92529773516
 workflow-type: tm+mt
-source-wordcount: '6679'
+source-wordcount: '6700'
 ht-degree: 97%
 
 ---
@@ -26,6 +26,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Marzo de 2026** | |
+| Desglose de un panel | Se ha reestructurado la documentación en torno a la zona de colocación [para un panel](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) a fin de admitir la nueva funcionalidad [break down](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
 | Se ha identificado la opción predeterminada para la confusión de IP en los nuevos grupos de informes | Se ha agregado información para indicar que **Quitar dirección IP** es la opción predeterminada de confusión de IP [para los nuevos grupos de informes](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). |
 | Revisión del orden de procesamiento | Mejoras significativas en [Orden de procesamiento en Adobe Analytics](/help/technotes/processing-order.md). |
 | Integración de Adobe Advertising | Adiciones de dimensiones y métricas de integración de Adobe Advertising, incluido [AMO ID](/help/components/dimensions/amo-id.md). |
@@ -33,7 +34,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Se ha añadido información acerca del uso de informes geográficos y tecnológicos | Se agregó información sobre las diferencias al usar los informes geográficos y de tecnología [en varios productos de Analytics](/help/analyze/get-started/analytics-product-comparison.md). |
 | **Enero de 2026** | |
 | Generador de reglas de conjuntos de clasificación | Documentación para la nueva funcionalidad del generador de reglas [en conjuntos de clasificaciones](/help/components/classifications/sets/manage/rules.md). |
-| Gráfico del dispositivo | Se eliminaron las referencias a la [funcionalidad de gráficos de dispositivos interrumpida](https://experienceleague.adobe.com/es/docs/discontinued/using/device-graph). |
+| Gráfico del dispositivo | Se eliminaron las referencias a la [funcionalidad de gráficos de dispositivos interrumpida](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
 
 ### 2025 {#year2025}
 
@@ -100,7 +101,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Documentación sobre la adición de componentes a proyectos | Se ha añadido información general sobre cómo [añadir distintos tipos de componentes a los proyectos en Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Documentación actualizada de Advertising Analytics | Documentación actualizada en línea con las actualizaciones realizadas en la interfaz de usuario de [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md). |
 | Asignación explícita de variables de objeto XDM a variables de datos de contexto | Se ha documentado la capacidad en [establecer explícitamente variables de datos de contexto mediante la asignación de variables de objeto XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
-| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| Nueva documentación para actualizar de Adobe Analytics a Customer Journey Analytics | Para las organizaciones que actualizan de Adobe Analytics a Customer Journey Analytics, existen varias opciones de actualización y muchas consideraciones que se deben tener en cuenta según la implementación de Adobe Analytics actual y los objetivos a largo plazo de una organización.<p>Ya hay disponibles nuevos recursos de documentación para ayudarle a comprender mejor:</p><ul><li>Las distintas rutas de actualización existentes</li><li>Qué rutas de actualización están disponibles según la implementación de Adobe Analytics actual de una organización</li><li>Las ventajas y desventajas de cada ruta de actualización</li><li>Guía paso a paso para cada ruta de actualización</li><li>Consideraciones para administrar datos históricos</li><li>¡Y mucho más!</li></ul><p>[Introducción a la actualización a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Se ha actualizado la documentación sobre intervalos de fechas personalizados | Capturas de pantalla y procedimientos actualizados relacionados con la [creación de intervalos de fechas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) para que coincida con las características y el diseño actuales del producto. |
 | **Abril de 2024** | |
 | Se ha eliminado la documentación relacionada con “Propietario” en los conjuntos de clasificación | El filtro “Propietario” y la columna se han eliminado del [Administrador de conjuntos de clasificación](/help/components/classifications/sets/manage-sets.md) y el campo “Propietario” se ha eliminado de [Configuración del conjunto de clasificación](/help/components/classifications/sets/manage/settings.md). <p>La documentación se ha actualizado para quitar este filtro, columna y campo.</p> |

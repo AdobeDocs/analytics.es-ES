@@ -1,8 +1,8 @@
 ---
-source-git-commit: b1a774e6f6af0c27a5e60f8f7e4c8eaf96005928
+source-git-commit: 7f7f0db4790dc7c09361dd6410591eb2e611498a
 workflow-type: tm+mt
-source-wordcount: '3005'
-ht-degree: 87%
+source-wordcount: '3047'
+ht-degree: 86%
 
 ---
 # Fragmentos
@@ -14,7 +14,7 @@ ht-degree: 87%
 >[Report Builder](/help/analyze/report-builder/rb-overview.md) nuevo y optimizado está disponible desde el 16 de octubre de 2024. Este Report Builder es compatible con macOS, Windows y exploradores web y se puede utilizar con Adobe Analytics y Customer Journey Analytics.
 >Esta versión de complemento heredado de Report Builder sigue funcionando. Puede [convertir sus libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
 
-## Anuncio del final de la vida útil de Reports & Analytics {#ra-eol}
+## Anuncio del final de la vida útil de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -61,6 +61,9 @@ ht-degree: 87%
 >La funcionalidad descrita en esta sección solo está disponible para los clientes existentes que ya tienen una licencia para la funcionalidad. La funcionalidad ya no se ofrece como complemento adicional a los clientes existentes o nuevos.
 >
 
+## Vídeo de demostración de Customer Journey Analytics {#videocja}
+
+Este vídeo muestra la funcionalidad mediante Customer Journey Analytics. Sin embargo, la funcionalidad también está disponible en Adobe Analytics. Tenga en cuenta las diferencias de terminología entre Adobe Analytics y Customer Journey Analytics (por ejemplo, *visitas* frente a *sesiones*).
 
 
 ## Modelos de atribución {#attribution-models-details}
