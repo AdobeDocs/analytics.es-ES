@@ -3,7 +3,7 @@ title: Resumen general de las clasificaciones
 description: Personalice la agrupación de los elementos de dimensión.
 feature: Classifications
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-source-git-commit: e4cfebf6a6932f66ac78ea2f7cea747ce558cf96
+source-git-commit: 2e07f1b9495801383b030b2396e5468c39299f50
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 71%
