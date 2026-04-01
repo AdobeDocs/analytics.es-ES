@@ -4,10 +4,10 @@ title: Configuración De Una Visualización De Abandonos
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 89cc33528d3907d955a543f3e43774a1065e149a
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 65%
+source-wordcount: '916'
+ht-degree: 44%
 
 ---
 
@@ -24,34 +24,44 @@ Puede realizar rutas en dimensiones, métricas y segmentos. Por ejemplo, suponga
 ## Usar
 
 1. Añada una visualización de ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Abandonos]**. Consulte [Añadir una visualización a un panel](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
-1. Arrastre una página, por ejemplo inicio, desde la dimensión Página al menú desplegable *Agregar punto de contacto*.
+1. Arrastre un componente al menú desplegable **[!UICONTROL Agregar punto de contacto]**.
+
+   Por ejemplo, puede agregar una sola página al informe de visitas en el orden previsto, en lugar de toda la dimensión. Haga clic en la flecha derecha ![ChevronRight](/help/assets/icons/ChevronRight.svg) de la dimensión de página para seleccionar una página específica, como **[!UICONTROL inicio]**, y agregarla al informe de visitas en el orden previsto.
 
    ![La página de inicio de la dimensión Página de inicio se arrastró al campo Añadir punto de contacto.](assets/fallout-drag.png)
 
-   Pase el puntero por encima de un punto de contacto para ver el abandono y otra información sobre ese nivel, como el nombre del punto de contacto y el recuento de personas en ese punto. Y vea la tasa de éxito para ese punto de contacto (así como compare la tasa de éxito con otros puntos de contacto).
+1. Siga añadiendo puntos de contacto hasta que la secuencia se haya completado.
 
    Los números dentro de un círculo en la parte gris de la barra muestran la visita en el orden previsto entre puntos de contacto (no la visita en el orden previsto total hasta ese punto). El **[!UICONTROL % de puntos de contacto]** muestra la visita en orden imprevisto desde el paso anterior al actual en el informe de visita en el orden previsto.
 
-   También puede agregar una única página al informe de visitas en el orden previsto, en vez de toda la dimensión. Haga clic en la flecha derecha ![ChevronRight](/help/assets/icons/ChevronRight.svg) en la dimensión de página para elegir la página específica que desea añadir al informe de visitas en el orden previsto.
-
-1. Siga añadiendo puntos de contacto hasta que la secuencia se haya completado.
-
-   Puede **combinar varios puntos de contacto** arrastrando uno o varios componentes adicionales a un punto de contacto.
-
-   >[!NOTE]
-   >
-   >Varios segmentos se unen con AND, mientras que los elementos (como elementos de dimensión y métricas) se unen con OR.
-
    ![Página:CamerRoll o página: puntos de contacto de la cámara resaltados.](assets/fallout-or.png)
 
-1. También puede **limitar puntos de contacto individuales al siguiente evento** (en lugar de *eventualmente*) dentro de la ruta. Debajo de cada punto de contacto, hay un selector con las opciones **[!UICONTROL Ruta eventual]** y **[!UICONTROL Evento siguiente]**, como se muestra aquí:
+   Al agregar puntos de contacto, puede realizar cualquiera de las siguientes acciones:
 
-   ![La vista Todas las visitas que muestra resaltada la opción Ruta eventual. &#x200B;](assets/fallout-nexthit.png)
+   * Combine varios componentes arrastrando uno o más componentes adicionales a un único punto de contacto.
 
-   | Opción | Descripción |
-   |---|---|
-   | **[!UICONTROL Ruta eventual]** (predeterminada) | Se cuentan los visitantes que *eventualmente* llegarán a la siguiente página de la ruta, pero no necesariamente al siguiente evento. |
-   | **[!UICONTROL Evento siguiente]** | Se cuentan los visitantes que aterrizan en la siguiente página de la ruta en el siguiente evento. |
+     >[!NOTE]
+     >
+     >Varios segmentos se unen con AND, mientras que los elementos (como elementos de dimensión y métricas) se unen con OR.
+
+   * Reordene los puntos de contacto arrastrándolos a un nivel diferente dentro de la jerarquía de visitas en el orden previsto.
+
+   * Combine un punto de contacto con otro punto de contacto. Para combinar puntos de contacto, arrastre un punto de contacto a otro. Suéltelo cuando vea la palabra **[!UICONTROL Combinar]**.
+
+     ![Combinar puntos de contacto](assets/fallout-combine-touchpoints.png)
+
+   * Restrinja los puntos de contacto individuales al siguiente evento (a diferencia de *eventualmente*) dentro de la ruta. Debajo de cada punto de contacto hay un selector con las opciones **[!UICONTROL Ruta de acceso eventual]** y **[!UICONTROL Siguiente evento]**, como se muestra a continuación:
+
+     ![La vista Todas las visitas que muestra resaltada la opción Ruta eventual. ](assets/fallout-nexthit.png)
+
+     | Opción | Descripción |
+     |---|---|
+     | **[!UICONTROL Ruta eventual]** (predeterminada) | Se cuentan los visitantes que *eventualmente* llegarán a la siguiente página de la ruta, pero no necesariamente al siguiente evento. |
+     | **[!UICONTROL Evento siguiente]** | Se cuentan los visitantes que aterrizan en la siguiente página de la ruta en el siguiente evento. |
+
+   * Pase el ratón sobre un punto de contacto para ver las visitas en el orden previsto y otra información sobre ese nivel. La información incluye el nombre del punto de contacto, el recuento de personas y la tasa de éxito. También puede comparar la tasa de éxito con otros puntos de contacto.
+
+     ![Información sobre herramientas de Touchpoint](assets/fallout-tooltip.png)
 
 
 ## Configuración
@@ -67,15 +77,29 @@ Como parte de la visualización, hay disponibles ajustes específicos.
 
 Como parte de la visualización, hay opciones específicas de menú contextual disponibles.
 
-![Opciones de visitas en el orden previsto](assets/fallout-options.png)
+### Acceso al menú contextual
+
+Puede acceder al menú contextual de cualquiera de las siguientes maneras:
+
+* Pase el ratón sobre un punto de contacto de la visualización y seleccione **[!UICONTROL Haga clic para analizar]**.
+
+  ![Acceder al menú contextual desde el cursor](assets/fallout-tooltip-analyze.png)
+
+* Haga clic con el botón derecho en un punto de contacto de la visualización.
+
+  ![Opciones de visitas en el orden previsto](assets/fallout-options.png)
+
+### Opciones del menú contextual
+
+Las opciones de menú contextual disponibles son las siguientes:
 
 | Opción | Descripción |
 |--- |--- |
 | **[!UICONTROL Punto de contacto de la tendencia]** | Consulte los datos de tendencia para un punto de contacto en un gráfico de líneas en el cual se hayan incorporado previamente algunos datos de detección de anomalías. |
 | **[!UICONTROL Punto de contacto de tendencia (%)]** | Realiza la tendencia del porcentaje total de visitas en el orden previsto. |
 | **[!UICONTROL Tendencia de todos los puntos de contacto (%)]** | Realiza la tendencia de todos los porcentajes de puntos de contacto en las visitas en el orden previsto (excepto **[!UICONTROL Todas las personas]**, si se incluye) en el mismo gráfico. |
-| **[!UICONTROL Desglosar visitas en el orden previsto en este punto de contacto]** | Vea qué hicieron los visitantes entre dos puntos de contacto (este punto de contacto y el siguiente) si continuaron hasta el siguiente punto de contacto. Esto crea una tabla de forma libre que muestra las dimensiones. Se pueden reemplazar dimensiones y otros elementos de la tabla. Por ejemplo, una tabla con la etiqueta **[!UICONTROL Visitas en el orden previsto: Todos los visitantes > Página es igual a cualquiera de las páginas de inicio]** y contiene **[!UICONTROL Página]** como dimensión y **[!UICONTROL Visitantes únicos]** segmentados por el [segmento rápido de solo proyecto](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Visitantes en el orden previsto: Todos los visitantes > Página es igual a cualquiera de las páginas de inicio]** como métrica. Inspeccione el segmento para comprender cómo se determina el segmento de alternativa. |
-| **[!UICONTROL Desglosar visitas en orden previsto en este punto de contacto]** | Vea qué han hecho los visitantes que no han seguido la funnel inmediatamente después del paso seleccionado. Esto crea una tabla de forma libre que muestra las dimensiones. Se pueden reemplazar dimensiones y otros elementos de la tabla. Por ejemplo, una tabla con la etiqueta **[!UICONTROL Visitas en el orden previsto: Todos los visitantes > Página es igual a cualquiera de las páginas de inicio]** y contiene **[!UICONTROL Página]** como dimensión y **[!UICONTROL Visitantes únicos]** segmentados por el [segmento rápido de solo proyecto](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Visitantes en el orden previsto: Todos los visitantes > Página es igual a cualquiera de las páginas de inicio]** como métrica. Inspeccione el segmento para comprender cómo se determina el segmento de visitas en el orden previsto. |
+| **[!UICONTROL Abandono del desglose en este punto de contacto]** | Vea qué hicieron los visitantes entre dos puntos de contacto (este punto de contacto y el siguiente) si continuaron hasta el siguiente punto de contacto. Esta opción crea una tabla de forma libre que muestra las dimensiones. Se pueden reemplazar dimensiones y otros elementos de la tabla. Por ejemplo, una tabla con la etiqueta **[!UICONTROL Visitas en el orden previsto: Todos los visitantes > Página es igual a cualquiera de las páginas de inicio]** y contiene **[!UICONTROL Página]** como dimensión y **[!UICONTROL Visitantes únicos]** segmentados por el [segmento rápido de solo proyecto](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Visitantes en el orden previsto: Todos los visitantes > Página es igual a cualquiera de las páginas de inicio]** como métrica. Inspeccione el segmento para comprender cómo se determina el segmento de alternativa. |
+| **[!UICONTROL Abandonos del desglose en este punto de contacto]** | Vea qué han hecho los visitantes que no han seguido la funnel inmediatamente después del paso seleccionado. Esta opción crea una tabla de forma libre que muestra las dimensiones. Se pueden reemplazar dimensiones y otros elementos de la tabla. Por ejemplo, una tabla con la etiqueta **[!UICONTROL Visitas en el orden previsto: Todos los visitantes > Página es igual a cualquiera de las páginas de inicio]** y contiene **[!UICONTROL Página]** como dimensión y **[!UICONTROL Visitantes únicos]** segmentados por el [segmento rápido de solo proyecto](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Visitantes en el orden previsto: Todos los visitantes > Página es igual a cualquiera de las páginas de inicio]** como métrica. Inspeccione el segmento para comprender cómo se determina el segmento de visitas en el orden previsto. |
 | **[!UICONTROL Crear segmento a partir de touchpoint]** | Cree un nuevo segmento a partir de un punto de contacto seleccionado. |
 
 >[!MORELIKETHIS]
