@@ -52,7 +52,7 @@ Puede realizar rutas en dimensiones, métricas y segmentos. Por ejemplo, suponga
 
    * Restrinja los puntos de contacto individuales al siguiente evento (a diferencia de *eventualmente*) dentro de la ruta. Debajo de cada punto de contacto hay un selector con las opciones **[!UICONTROL Ruta de acceso eventual]** y **[!UICONTROL Siguiente evento]**, como se muestra a continuación:
 
-     ![La vista Todas las visitas que muestra resaltada la opción Ruta eventual. ](assets/fallout-nexthit.png)
+     ![La vista Todas las visitas que muestra resaltada la opción Ruta eventual. &#x200B;](assets/fallout-nexthit.png)
 
      | Opción | Descripción |
      |---|---|
