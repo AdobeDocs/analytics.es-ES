@@ -20,7 +20,7 @@ Adobe Analytics utiliza varios métodos de autenticación para iniciar sesión:
 
 **Si accede con regularidad a Analytics y comienza a encontrar problemas de inicio de sesión de forma aleatoria, la mayoría de los problemas se resuelven al borrar las cookies y la caché del explorador.**
 
-Ocasionalmente, los problemas de disponibilidad pueden afectar a la capacidad de iniciar sesión. Compruebe en [status.adobe.com](https://status.adobe.com) si hay algún incidente abierto. De lo contrario, utilice la sección adecuada según el método de autenticación de su organización.
+Ocasionalmente, los problemas de disponibilidad pueden afectar a la capacidad de iniciar sesión. Compruebe en [status.adobe.com](https://status.adobe.com/es-es) si hay algún incidente abierto. De lo contrario, utilice la sección adecuada según el método de autenticación de su organización.
 
 ## Adobe ID
 

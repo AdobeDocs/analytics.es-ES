@@ -25,7 +25,7 @@ Las caídas del tráfico se clasifican en dos secciones: datos parciales y datos
 * **Latencia del grupo de informes**: En ocasiones, un grupo de informes puede experimentar [latencia](../latency.md) debido a una serie de factores. Muchos de los problemas de latencia se resuelven en unas horas. Si le preocupa un grupo de informes específico, póngase en contacto con el servicio de atención al cliente de Adobe con la ID del grupo de informes correspondiente.
 * **Eliminación de la implementación**: A veces, cuando una organización realiza cambios de implementación o reestructura su sitio, se pasa por alto la reimplementación de Analytics. Trabaje con los desarrolladores de su organización para volver a implementar el código en su sitio.
 * **Problema de caché/interfaz de Analytics**: En raras ocasiones, la memoria caché de un explorador contiene datos no válidos que hacen que todos los informes devuelvan ceros. Borre las cookies y la memoria caché del explorador para resolver el problema. Si la eliminación de cookies o de la memoria caché no funciona, póngase en contacto con el servicio de atención al cliente con el informe y el intervalo de fechas que faltan; pueden duplicar el problema y proporcionar información adicional.
-* **Disponibilidad de Analytics**: Compruebe [status.adobe.com](https://status.adobe.com/products/1173/es) para ver si hay algún problema con la recopilación o el procesamiento de datos.
+* **Disponibilidad de Analytics**: Compruebe [status.adobe.com](https://status.adobe.com/es/products/1173/es) para ver si hay algún problema con la recopilación o el procesamiento de datos.
 
 ### Posibles causas de la pérdida parcial de datos o la disminución del tráfico
 
