@@ -53,6 +53,6 @@ Todos los artículos de este repositorio utilizan GitHub Flavored Markdown. Si n
 En el repositorio público, las etiquetas automatizadas se asignan a solicitudes de extracción para ayudarnos a administrar el flujo de trabajo de la solicitud de extracción y para saber qué sucede con su solicitud de extracción:
 
 * **Change sent to author**: se ha notificado al autor de la solicitud de extracción pendiente.
-* **ready-to-merge**: listo para su revisión por nuestro equipo de revisión de solicitud de extracción.
+* **Listo para combinar**: listo para que el equipo de revisión de solicitudes de extracción lo revise.
 
 
