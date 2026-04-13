@@ -1,5 +1,5 @@
 ---
-description: Aprenda a utilizar un histograma, que es similar a un gráfico de barras, pero agrupa números en rangos (contenedores).
+description: Learn how tuse a histogram, which is similar to a bar chart, but groups numbers into ranges (buckets).
 title: Histograma
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
@@ -34,7 +34,7 @@ La visualización ![Histograma](/help/assets/icons/Histogram.svg) **[!UICONTROL 
 Para crear un histograma:
 
 1. Añada una visualización ![Histograma](/help/assets/icons/Histogram.svg) **[!UICONTROL Histograma]**. Consulte [Añadir una visualización a un panel](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
-1. Arrastre una métrica de la lista de componentes **[!UICONTROL Métricas]** o seleccione una métrica del menú desplegable [!UICONTROL *Agregar una métrica*].
+1. Drag a metric from the **[!UICONTROL Metrics]** component list, or select a metric from the [!UICONTROL *Add a metric*] drop-down menu.
 1. (opcional) Seleccione **[!UICONTROL Mostrar configuración avanzada]** para: Consulte [Configuración avanzada](#advanced-settings).
 1. Seleccione **[!UICONTROL Generar]**.
 
@@ -69,7 +69,7 @@ Como parte de la visualización, hay una configuración específica del histogra
 >[!MORELIKETHIS]
 >
 >[Añadir una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menú contextual de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->&#x200B;>[Uso de histogramas para identificar valores de datos inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=es)
+>[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menú contextual de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Uso de histogramas para identificar valores de datos inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=es)
 

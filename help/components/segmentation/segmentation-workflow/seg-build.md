@@ -369,18 +369,18 @@ Un logotipo de Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) id
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Nombre de plantilla </th> 
+   <th colname="col1" class="entry"> Template Name </th> 
    <th colname="col2" class="entry"> Definición </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Abandonar carro </td> 
-   <td colname="col2">Ver datos de visitantes que agregaron artículos a sus carros de compras pero que no pidieron nada. En la definición de segmento, el contenedor es Visita. </td> 
+   <td colname="col1"> Abandon Cart </td> 
+   <td colname="col2">View data for visitors that added items to their carts but did not order anything. En la definición de segmento, el contenedor es Visita. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas por primera vez </td> 
-   <td colname="col2">Ver datos de visitantes que han visitado un máximo de una [1] veces. En la definición de segmento, el contenedor es Visita. </p> </td> 
+   <td colname="col2">View data for visitors that have visited a maximum of one [1] times. En la definición de segmento, el contenedor es Visita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> No compradores </td> 
@@ -404,7 +404,7 @@ Un logotipo de Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) id
   </tr> 
   <tr> 
    <td colname="col1"> Visitas de página única </td> 
-   <td colname="col2"> Vea datos de visitas en las que ve un solo valor de página, aunque pueda enviar varias vistas de página durante esa visita. En el segmento se incluyen las visitas a una sola página con eventos de vínculo de salida.  </td> 
+   <td colname="col2"> View data from visits in which you see a single page value, even though you may submit multiple page views during that visit. En el segmento se incluyen las visitas a una sola página con eventos de vínculo de salida.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Producto visto que no se agregó al carro de compras </td> 

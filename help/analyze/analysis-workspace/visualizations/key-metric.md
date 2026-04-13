@@ -34,7 +34,7 @@ La visualización ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTRO
 
 * Valor total actual ([!UICONTROL **número de resumen**]) para la métrica
 
-## Casos prácticos
+## Casos de uso
 
 Esta visualización aborda una variedad de casos de uso comunes, entre los que se incluyen:
 
