@@ -1,10 +1,10 @@
 ---
-description: Adobe necesita que se informe por adelantado en caso de nuevas configuraciones de cuentas, picos de tráfico e incrementos de tráfico. El hardware debe asignarse por adelantado para minimizar la latencia y las posibles consecuencias adversas en el sistema general.
+description: Adobe requiere un aviso previo para las nuevas configuraciones de cuenta, los picos de tráfico y los aumentos de tráfico. El hardware debe asignarse por adelantado para minimizar la latencia y los posibles impactos adversos en el sistema en general.
 title: Tiempo de espera necesario para aumentos de tráfico
 feature: Report Suite Settings
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
 ht-degree: 100%
 
@@ -12,15 +12,15 @@ ht-degree: 100%
 
 # Tiempo de espera necesario para aumentos de tráfico
 
-Adobe necesita que se informe por adelantado en caso de nuevas configuraciones de cuentas, picos de tráfico e incrementos de tráfico. El hardware debe asignarse por adelantado para minimizar la latencia y las posibles consecuencias adversas en el sistema general.
+Adobe requiere un aviso previo para las nuevas configuraciones de cuenta, los picos de tráfico y los aumentos de tráfico. El hardware debe asignarse por adelantado para minimizar la latencia y los posibles impactos adversos en el sistema en general.
 
 >[!IMPORTANT]
 >
 > Adobe no puede admitir solicitudes de cambio de tráfico de “marcador de posición”. A no ser que se especifique lo contrario, respete el tiempo de espera sugerido tanto como sea posible, incluido el hecho de no enviar una alerta demasiado pronto.
 
-Respete las siguientes normas para determinar la antelación del envío de alertas de tráfico:
+Siga estas directrices para determinar con qué anticipación debe enviar una alerta de tráfico:
 
-## Tiempos de espera de Asignación de hardware
+## Tiempos de espera de la asignación de hardware
 
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
@@ -52,14 +52,14 @@ Respete las siguientes normas para determinar la antelación del envío de alert
 
 Otras cuestiones para tener en cuenta:
 
-* Si tiene varios grupos de informes que empiezan o se incrementan y así suman a las cifras enumeradas anteriormente, el tiempo de espera se aplica a ellos como suma del tráfico esperado para cada uno de ellos.
-* Tenga la siguiente información disponible para enviar un cambio de tráfico:
+* Si hay varios grupos de informes que se están poniendo en marcha o ampliando y que suman las cifras indicadas más arriba, el tiempo de espera se aplica como una suma del tráfico previsto para cada uno de ellos.
+* Disponga de la siguiente información para enviar un cambio de tráfico:
 
    * ID del grupo de informes
    * Visitas estimadas por día
-   * Fecha go-live
+   * Fecha de entrada al modo de producción
 
-* Las Alertas de clientes también son necesarias cuando el tráfico se reduce o cuando un grupo de informes queda obsoleto.
+* También son necesarias Alertas de cliente cuando el tráfico disminuye o un grupo de informes está obsoleto.
 
 ## Anulación de asignaciones de hardware por tráfico inexistente
 
