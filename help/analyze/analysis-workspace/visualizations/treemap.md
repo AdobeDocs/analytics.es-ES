@@ -25,7 +25,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización del gráfico de rectángulos en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Gráfico de rectángulos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/treemap) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta la visualización del gráfico de rectángulos en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Gráfico de rectángulos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/treemap) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Con un gráfico de rectángulos, puede ver patrones que serían difíciles de id
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de gráfico de rectángulos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de gráfico de rectángulos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

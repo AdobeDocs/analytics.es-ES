@@ -16,13 +16,13 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta las visualizaciones Número de resumen y Cambio de resumen en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Ver [Número de resumen y cambio de resumen](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versión de Customer Journey Analytics** de este artículo._
+_Este artículo documenta las visualizaciones Número de resumen y Cambio de resumen en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Ver [Número de resumen y cambio de resumen](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versión de Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización Número de resumen y Cambio de resumen](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/visualizations/summary-number-and-summary-change-visualizations-2021){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización Número de resumen y Cambio de resumen](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/summary-number-and-summary-change-visualizations-2021){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

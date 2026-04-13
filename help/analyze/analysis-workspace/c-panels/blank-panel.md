@@ -26,7 +26,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel en blanco de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vea [Panel en blanco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) para la_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versión de Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel en blanco de_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Vea [Panel en blanco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) para la_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versión de Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +60,7 @@ Puede realizar lo siguiente:
   | Seleccionar… | Para crear un filtro: |
   |---|---|
   | ![Tabla](/help/assets/icons/Table.svg) | [Tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
-  | ![Líneas](/help/assets/icons/GraphTrend.svg) | [Línea](/help/analyze/analysis-workspace/visualizations/line.md) |
+  | ![Líneas](/help/assets/icons/GraphTrend.svg) | [Líneas](/help/analyze/analysis-workspace/visualizations/line.md) |
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barra](/help/analyze/analysis-workspace/visualizations/bar.md) |
   | ![123](/help/assets/icons/123.svg) | [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Texto](/help/assets/icons/Text.svg) | [Texto](/help/analyze/analysis-workspace/visualizations/text.md) |
