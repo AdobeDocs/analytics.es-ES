@@ -5,7 +5,7 @@ feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
+source-git-commit: 6b42f369c831daafa380b16b0dddb401567f41c0
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%
@@ -43,7 +43,7 @@ La página de exclusión de su organización depende del valor de la variable [`
    1. En el servidor web, abra el archivo AppMeasurement.js que se utiliza en el sitio en un editor de código o texto.
    1. Tenga en cuenta el valor de la variable `trackingServer`.
 
-* Use [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=es):
+* Use [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Vaya a su sitio mediante el explorador Chrome.
    1. Abra Experience Cloud Debugger y vaya a la pestaña [!UICONTROL Red].
    1. Tenga en cuenta el valor de [!UICONTROL Solicitar URL: Nombre de host].
