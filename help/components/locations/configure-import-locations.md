@@ -1,17 +1,17 @@
 ---
 description: Configure la cuenta de importación y la ubicación de la nube en la que se pueden cargar los datos de clasificación
 keywords: Analysis Workspace
-title: Configurar ubicaciones de importación y exportación de la nube
+title: Configuración de las ubicaciones de importación y exportación en la nube
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 235974d1c7cbf819f846d1af887e3157d462177d
+source-git-commit: a92fe17205823e51068a3220790e80fb6b99da2e
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 33%
 
 ---
 
-# Configurar ubicaciones de importación y exportación de la nube
+# Configuración de las ubicaciones de importación y exportación en la nube
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
@@ -241,7 +241,7 @@ Se admiten las 16 regiones de AWS estándar siguientes (utilizando el algoritmo 
 
 +++Azure Blob
 
-El almacén de datos admite destinos de Azure Blob. Se necesita un contenedor, una cuenta y una clave. Amazon cifra automáticamente los datos en reposo. Cuando se descarguen los datos, estos se descifrarán automáticamente. Consulte [Creación de una cuenta de almacenamiento](https://docs.microsoft.com/es-es/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) en los documentos de Microsoft Azure para obtener más información.
+El Data Warehouse admite destinos de Azure Blob. Se necesita un contenedor, una cuenta y una clave. Azure cifra automáticamente los datos en reposo. Cuando se descarguen los datos, estos se descifrarán automáticamente. Consulte [Creación de una cuenta de almacenamiento](https://docs.microsoft.com/es-es/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) en los documentos de Microsoft Azure para obtener más información.
 
 >[!NOTE]
 >
