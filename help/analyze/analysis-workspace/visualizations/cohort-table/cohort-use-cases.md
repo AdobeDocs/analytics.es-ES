@@ -1,67 +1,97 @@
 ---
-description: Obtenga información acerca de algunos ejemplos de casos de uso para análisis de cohorte.
+description: Conozca los casos de uso típicos de las tablas de cohorte en Analysis Workspace, incluida la participación de la aplicación, el análisis de suscripción, la permanencia de la campaña y los lanzamientos de productos.
 keywords: Analysis Workspace
 title: Casos de uso de análisis de cohorte
 feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 544502d98995134383291724b3c04d0b6acad728
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 99%
+source-wordcount: '1004'
+ht-degree: 8%
 
 ---
 
 # Casos de uso de análisis de cohorte
 
-Ejemplos de casos de uso para [!UICONTROL Análisis de cohortes].
+Este artículo analiza varios casos de uso típicos en los que las tablas de cohorte son útiles para proporcionar perspectivas útiles para realizar acciones siguientes.
 
-## Caso de uso de interacción con aplicaciones
+## Participación de aplicación
 
-Imagine que desea analizar de qué manera los usuarios que instalan su aplicación interactúan con ella con el transcurso del tiempo. ¿La instalan y nunca la usan? ¿La usan por un tiempo y luego dejan de hacerlo? ¿O siguen interactuando con la aplicación a lo largo del tiempo?
+Imagine que desea analizar de qué manera los usuarios que instalan su aplicación interactúan con ella a lo largo del tiempo. ¿Los usuarios instalan la aplicación y nunca la usan después? ¿O usan la aplicación durante un tiempo y luego dejan de usarla? ¿O los usuarios siguen interactuando con el paso del tiempo?
 
-Puede crear un análisis de cohorte de seis meses.
+Puede crear un análisis de cohorte de seis meses. Los visitantes no se cuentan como *`engaged`* en los meses siguientes, a menos que dichos usuarios tengan una sesión o que, al menos, inicien la aplicación. El [!UICONTROL análisis de cohorte] entonces le mostraría patrones de uso donde *`App Install`* siempre ocurre en el Mes 0. Podría observar que el uso cae en el mes 2, independientemente de cuándo instalaron la aplicación los usuarios. Este análisis le permite enviar un correo electrónico o un mensaje push a todos los usuarios durante el segundo mes después de que instalan la aplicación para recordarles que usen la aplicación.
 
-**Granularidad**: mensual, de enero de 2015 a junio de 2015
++++ Ejemplo de visualización de tabla de cohorte
 
-**Métrica de inclusión**: instalaciones de aplicación
+![Caso de uso de participación de aplicación](assets/app-engagement.png)
 
-**Métrica de regreso**: sesiones o ejecuciones
++++
 
-Los visitantes no cuentan como *`engaged`* en los meses siguientes a menos que estén en una sesión o al menos inicien la aplicación. El [!UICONTROL análisis de cohorte] entonces le mostraría patrones de uso donde *`App Install`* siempre ocurre en el Mes 0. Podría observar que el uso cae en el Mes 2, independientemente de cuándo instalaron la aplicación los usuarios (para quienes instalaron la aplicación en enero de 2015, el Mes 2 es marzo de 2015; Para quienes instalaron la aplicación en febrero de 2015, el mes 2 es abril de 2015, y así sucesivamente). Este análisis le permite enviar un correo electrónico o un mensaje push a todos los usuarios durante el segundo mes después de que instalan la aplicación para recordarles que usen la aplicación.
-
-## Caso de uso de suscripción
+## Suscripción
 
 Trabaja en Adobe.com y ofrece una suscripción gratuita a Creative Cloud. El objetivo es que los usuarios actualicen de la versión gratuita a la versión de prueba por 30 días o, en definitiva, la versión paga.
 
-**Granularidad**: mensual
+Use [!UICONTROL Análisis de cohorte] para comprender, por ejemplo, que cualquier lugar entre 8% y 10% de usuarios de Creative Cloud gratuito efectúan la actualización en el primer mes después de la instalación, independientemente del momento de la instalación. A continuación, actualice el 12 % al 15 % en el segundo mes de uso. Después, la actualización cae significativamente: del 4 % al 5 % en el mes tres, del 3 % al 4 % en el mes cuatro y del 1 % al 2 % en el mes cinco.
 
-**Métrica de inclusión**: vínculo de descarga
+Al reconocer que no desea perder clientes potenciales en el mes tres, configura una campaña de correo electrónico diseñada para que salga a mediados del mes tres para una muestra de usuarios. En esa campaña, ofrece un cupón por 50 dólares a los usuarios que aún no hayan realizado la actualización.
 
-**Métrica de regreso**: comprar Creative Cloud pago
+Vuelva a consultar el análisis de cohorte unos meses más tarde. Para las cohortes formadas después del lanzamiento de la campaña, la conversión a suscripciones a Creative Cloud de pago en el mes tres aumentó de un 4 % y 5 % a un 13 % y 14 %. La conversión resulta en cientos de miles de dólares por cohorte, por cada cohorte mensual que llega al mes tres a partir de ese momento.
 
-Con este [!UICONTROL análisis de cohorte] podría ver, por ejemplo, que cualquier lugar entre 8 % y 10 % de usuarios de Creative Cloud gratuito efectúan la actualización en el primer mes después de la instalación, independientemente del momento de la instalación. Del 12 % al 15 % actualizan en el segundo mes de uso. Después, la actualización cae significativamente: del 4 % al 5 % en el mes tres, del 3 % al 4 % en el mes cuatro y del 1 % al 2 % en el mes cinco.
++++ Ejemplo de visualización de tabla de cohorte
 
-Al reconocer que no necesita perder clientes potenciales en el mes tres, configura una campaña de correo electrónico diseñada para que salga a mediados del mes tres para una muestra de usuarios, ofreciendo un cupón por 50 dólares a los usuarios que aún no actualizaron.
+![Caso de uso de suscripción](assets/subscription-use-case.png)
 
-Vuelva a consultar el informe de análisis de cohorte unos meses más tarde. Para cohortes formadas después de la ejecución de la campaña, la conversión a suscripciones a Creative Cloud de pago en el mes tres aumentó de un 4 % y 5 % a un 13 % y 14 %, lo que dio como resultado miles de dólares por cohorte, para cada cohorte mensual que llega al mes tres desde ese punto en adelante.
++++
 
-## Caso de uso de segmentos en una cohorte compleja
+## Segmentos de cohorte complejos
 
-Una gran cadena hotelera dirige sus promociones a varios grupos de clientes y realiza un seguimiento del rendimiento. Para identificar los mejores grupos de cohortes de usuarios a los que dirigirse, quieren crear grupos de cohortes muy específicos. Gracias a los criterios aumentados de [!UICONTROL Inclusión] y [!UICONTROL Regreso] de las tablas de [!UICONTROL cohortes], son capaces de definir las agrupaciones de cohortes exactas, con múltiples métricas y segmentos para identificar los grupos de clientes con peor rendimiento, y de ese modo dirigirse a ellos con promociones y ofertas que aumenten las contrataciones.
+Realiza análisis para una gran cadena hotelera que se dirige a varios grupos de clientes para promociones y realiza un seguimiento de los grupos de clientes en relación con el rendimiento. Para identificar los mejores grupos de cohortes de usuarios a los que dirigirse, debe crear grupos de cohortes muy específicos. Use los criterios aumentados [!UICONTROL Inclusión] y [!UICONTROL Devolver] en las tablas de [!UICONTROL cohorte] para definir las agrupaciones de cohorte exactas con múltiples métricas y segmentos. Este análisis le ayuda a identificar los grupos de clientes con peor rendimiento, de modo que pueda ofrecerles promociones y ofertas para aumentar las reservas.
 
-## Caso de uso de adopción de versión de una aplicación
++++ Ejemplo de visualización de tabla de cohorte
 
-Una gran compañía de seguros obtiene una gran participación de los clientes gracias al uso de su aplicación móvil. Se han añadido nuevas funciones a dicha aplicación y resulta esencial que los clientes se actualicen a la versión más reciente. La empresa puede analizar y comparar todas las versiones de la aplicación mediante una cohorte de [!UICONTROL dimensión personalizada], y así determinar a qué clientes debe dirigirse, en función de la versión de la aplicación que tengan. Además, puede realizar un seguimiento de la retención y la pérdida para determinar si alguna versión específica de la aplicación aleja a los usuarios de la misma a lo largo del tiempo. Mediante esfuerzos de mensajería móvil pueden reactivar a estos usuarios y animarlos a que se actualicen a la versión más reciente para que aprovechen las nuevas funciones.
+![Caso de uso de segmentos de cohorte complejos](assets/complex-cohort-segments.png)
 
-## Caso de uso de permanencia en Campaign
++++
 
-Una empresa multimedia internacional utiliza campañas dirigidas para dirigir a los usuarios a sus distintas plataformas y así fomentar la participación. Los ingresos publicitarios por plataforma se basan en la participación de los clientes y la retención; por tanto, el éxito de las campañas es esencial para el éxito del negocio. La empresa utiliza la nueva función de cohortes de [!UICONTROL dimensión personalizada] en las tablas de [!UICONTROL cohortes] para comparar varias campañas e identificar cuáles son las más eficientes a la hora de obtener y retener usuarios, y así aumentar la participación. De ese modo puede identificar qué aspectos hacen que una campaña tenga éxito y aplicarlos a las demás, y así aumentar la participación en las distintas plataformas.
+## Adopción de versión de aplicación
 
-## Caso de uso de lanzamiento de productos
+Usted es el analista de una gran compañía de seguros que impulsa la participación del cliente mediante el uso de su aplicación móvil. A medida que se añadan nuevas funciones a la aplicación, los clientes deben actualizar a la última versión. Puede analizar y comparar las versiones de las aplicaciones mediante la cohorte [!UICONTROL Dimension personalizado] para ver a qué clientes debe dirigirse, en función de la versión de la aplicación que tengan. Además, puede realizar un seguimiento de la retención y la pérdida para ver si las versiones específicas de la aplicación están alejando a los clientes de su uso a lo largo del tiempo. Mediante esfuerzos de mensajería móvil puede reactivar a estos usuarios para que se actualicen a la versión más reciente y aprovechen las últimas funciones.
 
-Un gran minorista de accesorios cuenta con muchos segmentos específicos de clientes que generan gran parte de los ingresos. Se diseñan y crean productos específicos para cada uno de esos segmentos. Cuando se produce un lanzamiento, la empresa quiere saber en qué medida el nuevo producto potencia las ventas en varias cohortes a lo largo del tiempo. Mediante la nueva configuración de [!UICONTROL tablas de latencia] de los [!UICONTROL análisis de cohortes], se puede analizar el comportamiento y los ingresos de un segmento de clientes dados antes y después del lanzamiento. Esta información permite identificar qué productos producen nuevos ingresos y cuáles no llegan a calar en los clientes.
++++ Ejemplo de visualización de tabla de cohorte
 
-## Permanencia individual: caso de uso de los usuarios más fieles
+![Caso de uso de aplicación contra adopción](assets/app-versus-adoption.png)
 
-Una gran línea aérea deriva la mayor parte de su éxito e ingresos de los clientes fieles que repiten. En muchos casos, estos viajeros fieles representan la mayoría de los ingresos, por lo que conservarlos es esencial para el éxito a largo plazo. A menudo no es sencillo identificar a los clientes más fieles y consistentes. Sin embargo, gracias a la nueva configuración de [!UICONTROL cálculo móvil] de los [!UICONTROL análisis de cohortes], la empresa pudo analizar los segmentos de clientes fieles y averiguar cuáles repiten reservas un mes tras otro. Con estos datos pudo dirigirse a estos viajeros con recompensas y beneficios por su lealtad. Además, cambiando el tipo de cohorte de retención a pérdida, también pudo identificar qué clientes no repetían reservas un mes tras otro, y así dirigirse a estos segmentos con promociones para reactivarlos y asegurar que, en el futuro, se conviertan en clientes leales.
++++
+
+## Permanencia de campaña
+
+Usted es el analista de una empresa multimedia internacional que utiliza campañas dirigidas para dirigir a los usuarios a sus distintas plataformas y así fomentar la participación. El gasto en publicidad por plataforma se basa en la participación de los clientes y la retención. El éxito de las campañas es fundamental para el éxito del negocio. La nueva función de cohorte [!UICONTROL Dimension] personalizada se usa en las tablas [!UICONTROL Cohorte] para comparar varias campañas e identificar cuáles son las más eficientes a la hora de obtener y retener usuarios, y así aumentar la participación. A continuación, puede identificar qué aspectos hacen que una campaña tenga éxito y aplicar ese conocimiento a otras campañas para aumentar la participación en varias plataformas.
+
++++ Ejemplo de visualización de tabla de cohorte
+
+![Caso de uso de adherencia de campaña](assets/campaign-stickiness.png)
+
++++
+
+## Lanzamiento del producto
+
+Usted es el analista de una gran retailer de ropa que tiene muchos segmentos de clientes específicos que generan gran parte de los ingresos para su negocio. Se diseñan y crean productos específicos para cada uno de esos segmentos. Con cada lanzamiento de producto, desea saber cómo el nuevo producto ha impulsado las ventas a varias cohortes a lo largo del tiempo. Con la nueva configuración de [!UICONTROL Tabla de latencia] en [!UICONTROL Análisis de cohorte], puede analizar el comportamiento y los ingresos de un segmento de clientes dados antes y después del lanzamiento. Con esta información, puede identificar qué productos generan nuevos ingresos y cuáles no llegan a calar en los clientes.
+
++++ Ejemplo de visualización de tabla de cohorte
+
+![Caso de uso del lanzamiento del producto](assets/product-launch.png)
+
++++
+
+## Permanencia individual: usuarios más fieles
+
+Usted es el analista de una gran aerolínea que deriva la mayoría de su éxito e ingresos de clientes fieles y repetidos. En muchos casos, los viajeros fieles representan la mayoría de los ingresos y conservarlos es fundamental para el éxito a largo plazo. A menudo, es difícil identificar a los clientes más fieles y coherentes. Sin embargo, gracias a la nueva configuración de [!UICONTROL Cálculo móvil] en [!UICONTROL Análisis de cohorte], podrá analizar los segmentos de clientes fieles y averiguar cuáles repiten reservas un mes tras otro. A continuación, puede dirigirse a estos viajeros con recompensas y beneficios por su fidelidad. Además, cambiando el tipo de cohorte de retención a pérdida, también puede identificar qué clientes no repiten reservas un mes tras otro. A continuación, puede dirigirse a estos segmentos con promociones para volver a interactuar con estos clientes y que estos permanezcan fieles en el futuro.
+
++++ Ejemplo de visualizaciones de tabla de cohorte
+
+![Caso de uso de permanencia individual - retención](assets/individual-stickiness-1.png)
+
+![Caso de uso de permanencia individual - pérdida](assets/individual-stickiness-2.png)
+
++++
