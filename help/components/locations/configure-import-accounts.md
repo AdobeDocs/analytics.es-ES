@@ -1,17 +1,17 @@
 ---
 description: Configure la cuenta de importación y la ubicación de la nube en la que se pueden cargar los datos de clasificación
 keywords: Analysis Workspace
-title: Configuración de cuentas de importación y exportación de nube
+title: Configuración de las cuentas de importación y exportación en la nube
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
+source-git-commit: abdb37626f8f81a1a8a57bb818565856af3a3714
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 68%
+source-wordcount: '1597'
+ht-degree: 66%
 
 ---
 
-# Configuración de cuentas de importación y exportación de nube
+# Configuración de las cuentas de importación y exportación en la nube
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
@@ -145,14 +145,19 @@ Para configurar una cuenta de importación o exportación de la nube después de
 
    +++FTP
 
-   Los datos de la fuente de datos se pueden entregar a una ubicación de Adobe o de FTP alojada por el cliente. Se necesita un host FTP, un nombre de usuario y una contraseña. Utilice el campo de ruta para colocar los archivos de fuente en una carpeta. Las carpetas ya deben existir, las fuentes generan un error si la ruta de acceso especificada no existe.
+   >[!IMPORTANT]
+   >
+   >No se debe utilizar FTP, ya que los datos fluyen por Internet en texto sin formato.
+
+
+   Los datos de la fuente de datos se pueden entregar a una ubicación de Adobe o de FTP alojada por el cliente. Se necesita un host FTP, un nombre de usuario y una contraseña.
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Host**] | Introduzca la dirección URL de destino de FTP que desee. Por ejemplo, `ftp.adobe.com`. |
-   | [!UICONTROL **Ruta**] | Se puede dejar en blanco. |
+   | [!UICONTROL **Nombre de host**] | Introduzca la dirección URL de destino de FTP que desee. Por ejemplo, `ftp.adobe.com`. |
+   | [!UICONTROL **Puerto**] | Se puede dejar en blanco. Utilice este campo para colocar los archivos de fuente en una carpeta. Las carpetas ya deben existir, las fuentes generan un error si el puerto especificado no existe. |
    | [!UICONTROL **Nombre de usuario**] | Introduzca el nombre de usuario para iniciar sesión en el sitio FTP. |
-   | [!UICONTROL **Contraseña y confirmar contraseña**] | Introduzca la contraseña para iniciar sesión en el sitio FTP. |
+   | [!UICONTROL **Secreto de cuenta de ubicación**] | Introduzca la contraseña (secreta) para iniciar sesión en el sitio FTP. |
 
    {style="table-layout:auto"}
 
@@ -160,9 +165,9 @@ Para configurar una cuenta de importación o exportación de la nube después de
 
    +++SFTP
 
-   La compatibilidad con SFTP para fuentes de datos está disponible. Esto requiere un host SFTP, un nombre de usuario y el sitio de destino que contenga una clave pública RSA o DSA válida. Puede descargar la clave pública adecuada al crear la fuente.
+   La compatibilidad con SFTP para fuentes de datos está disponible. Esto requiere un host SFTP, un nombre de usuario y el sitio de destino que contenga una clave pública RSA o ed25519 válida. Puede descargar la clave pública adecuada al crear la fuente.
 
-   Al descargar la clave pública RSA o DSA para fuentes de datos, realice una de las acciones siguientes:
+   Al descargar la clave pública RSA o ed25519 para fuentes de datos, realice una de las acciones siguientes:
 
    * Cambie el nombre del archivo de clave pública descargado a `authorized_keys` y, a continuación, cargue el archivo en la carpeta `.ssh` de su servidor SFTP.
 
@@ -208,7 +213,7 @@ Para configurar una cuenta de importación o exportación de la nube después de
 
    +++Azure Blob
 
-   Data Warehouse admite destinos de Azure Blob. Se necesita un contenedor, una cuenta y una clave. Amazon cifra automáticamente los datos en reposo. Cuando se descarguen los datos, estos se descifrarán automáticamente. Consulte [Creación de una cuenta de almacenamiento](https://docs.microsoft.com/es-es/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) en los documentos de Microsoft Azure para obtener más información.
+   El Data Warehouse admite destinos de Azure Blob. Se necesita un contenedor, una cuenta y una clave. Amazon cifra automáticamente los datos en reposo. Cuando se descarguen los datos, estos se descifrarán automáticamente. Consulte [Creación de una cuenta de almacenamiento](https://docs.microsoft.com/es-es/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) en los documentos de Microsoft Azure para obtener más información.
 
    >[!NOTE]
    >

@@ -3,7 +3,7 @@ title: Crear un feed de datos
 description: Aprenda a crear una fuente de datos y conozca la información del archivo que debe proporcionar a Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: d2ceb1ae2cd6856a0c595a4c37e795b83dbaec68
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 32%
@@ -120,7 +120,7 @@ Antes de crear un feed de datos, es importante tener una comprensión básica de
    >
    >Al configurar el destino de un informe, tenga en cuenta lo siguiente:
    >
-   >* Adobe recomienda utilizar una cuenta de nube para el destino del informe. Las [cuentas heredadas de FTP y SFTP](#legacy-destinations) están disponibles, pero no se recomiendan.
+   >* Adobe recomienda utilizar una cuenta de nube para el destino del informe. Las [cuentas heredadas de FTP y SFTP](/help/components/locations/configure-import-accounts.md) están disponibles, pero no se recomiendan.
    >* Todas las cuentas de nube que haya configurado anteriormente están disponibles para su uso en fuentes de datos. Puede configurar cuentas en la nube de cualquiera de estas formas:
    >
    >   * Al configurar cuentas en la nube para [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
