@@ -4,16 +4,14 @@ title: Información general sobre el administrador de actividades de creación d
 feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
 
 # Información general sobre el administrador de actividades de creación de informes
-
-El [!UICONTROL Administrador de actividades de creación de informes] está disponible para los administradores.
 
 Si su organización experimenta una degradación en el rendimiento de creación de informes durante las horas de de mayor actividad de creación de informes, el Administrador de actividades de creación de informes le permite autodiagnosticar y corregir los problemas de capacidad sin la intervención del Servicio de atención al cliente de Adobe. Puede administrar fácilmente las colas de creación de informes dentro de una sola interfaz y actuar inmediatamente para mejorar la experiencia de los usuarios. 
 

@@ -4,10 +4,10 @@ description: Comprenda cada elemento de permiso en Herramientas de grupos de inf
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 78%
+source-wordcount: '622'
+ht-degree: 74%
 
 ---
 
@@ -37,7 +37,7 @@ Esta tabla enumera todos los elementos de permisos en Herramientas de grupos de 
 | [!UICONTROL Medidas predeterminadas] | Otorga acceso a Configuración de grupos de informes individuales > Métricas predeterminadas en el Administrador de grupos de informes. |
 | [!UICONTROL Excluir por dirección IP] | Otorga acceso a Administración > Excluir por dirección IP en la navegación superior de Analytics. |
 | [!UICONTROL Métodos de búsqueda] | Otorga acceso a Conversión > Métodos de búsqueda en el Administrador de grupos de informes. |
-| [!UICONTROL Variables de lista &#x200B;] | Otorga acceso a Conversión > Variables de lista en el Administrador de grupos de informes. |
+| [!UICONTROL Variables de lista ] | Otorga acceso a Conversión > Variables de lista en el Administrador de grupos de informes. |
 | [!UICONTROL Personalización de menús] | Otorga acceso a General > Personalizar menús en el Administrador de grupos de informes. |
 | [!UICONTROL Mis informes recomendados] | No se usa. |
 | [!UICONTROL Búsqueda de pago] | Otorga acceso a General > Detección de búsqueda de pago en el Administrador de grupos de informes. |
@@ -46,7 +46,7 @@ Esta tabla enumera todos los elementos de permisos en Herramientas de grupos de 
 | [!UICONTROL Informe en tiempo real] | Otorga acceso a Participación > Tiempo real en plantillas de Adobe. |
 | [!UICONTROL Administrador de actividades de creación de informes] | No se usa. |
 | [!UICONTROL Acceso al Administrador de actividades de informes] | No se usa. |
-| [!UICONTROL Administración de grupos de informes] | Otorga acceso al Administrador de grupos de informes, pero no permite ningún cambio. |
+| [!UICONTROL Administración de grupos de informes] | Otorga acceso al Administrador de grupos de informes. Permite la creación de grupos de informes, pero no concede acceso a ningún elemento de &#39;[!UICONTROL Editar configuración]&#39;. Consulte también [[!UICONTROL Acceso a la IU de administración de grupos de informes]](analytics-tools.md). |
 | [!UICONTROL Visitas de retorno] | No se usa. |
 | [!UICONTROL Informe breve de resumen de empresa del panel de R&amp;A] | No se usa. |
 | [!UICONTROL Informe Breve Externo Del Panel De R&amp;A] | No se usa. |
@@ -60,5 +60,3 @@ Esta tabla enumera todos los elementos de permisos en Herramientas de grupos de 
 | [!UICONTROL Variables de tráfico] | Otorga acceso a Tráfico > Variables de tráfico en el Administrador de grupos de informes. |
 | [!UICONTROL Visitante único] | Otorga acceso a Conversión > Variable de visitante único. No suele usarse en implementaciones modernas. |
 | [!UICONTROL Filtros de dirección URL] | Otorga acceso a General > Filtros URL internos en el Administrador de grupos de informes. |
-
-{style="table-layout:auto"}
