@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Notas técnicas de Analytics
 breadcrumb-title: Notas técnicas
 user-guide-description: Examine una base de conocimiento que contiene artículos útiles que no pertenecen a una herramienta o componente de Analytics específico.
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 100%
+source-wordcount: '210'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,7 @@ ht-degree: 100%
 + [Aplicaciones web progresivas](pwa.md)
 + [Redirecciones y alias](redirects.md)
 + [Recursos de seguridad](security.md)
++ [Seguridad para FTP y SFTP](sftp-password-rotation.md)
 + [Términos utilizados (glosario)](terms.md)
 + [Solución de problemas de inicio de sesión](troubleshoot-login.md)
 + [Solución de problemas de cierre de sesión](troubleshoot-sessions.md)
