@@ -43,7 +43,7 @@ Los grupos de informes virtuales con Procesamiento de intervalo de tiempo habili
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inicio de una nueva visita con evento](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inicio de una nueva visita con evento](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

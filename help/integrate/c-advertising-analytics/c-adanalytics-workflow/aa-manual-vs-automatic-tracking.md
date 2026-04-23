@@ -18,7 +18,7 @@ El tipo de seguimiento determina cómo la implementación de Adobe Analytics rea
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
+>[!VIDEO](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -37,7 +37,7 @@ Tenga en cuenta que para configurar una cuenta de motor de búsqueda con tipo **
 
 >[!IMPORTANT]
 >
->Obtenga más información sobre si debe agregar el parámetro `s_kwcid` a la [directiva de seguridad de contenido](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
+>Obtenga más información sobre si debe agregar el parámetro `s_kwcid` a la [directiva de seguridad de contenido](https://experienceleague.adobe.com/es/docs/id-service/using/reference/csp).
 
 ## Seguimiento manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
