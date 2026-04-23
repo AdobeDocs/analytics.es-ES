@@ -1,14 +1,15 @@
 ---
 title: Esquema del conjunto de clasificaciones
-description: Obtenga información sobre cómo ver y editar el esquema de un conjunto de clasificaciones individual.
+description: Obtenga información sobre cómo ver y editar el esquema de un conjunto de clasificaciones en Adobe Analytics. Añada, cargue, descargue o automatice datos de clasificación mediante ubicaciones de la nube.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
+source-git-commit: 643cd85862b09d59d46f259c5ad20a7ce67c5995
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1618'
 ht-degree: 7%
 
 ---
+
 
 # Esquema del conjunto de clasificación
 
@@ -36,7 +37,7 @@ La lista de clasificaciones contiene las siguientes columnas:
 | Columna | Descripción |
 |---|---|
 | **[!UICONTROL Nombre de clasificación]** | El nombre proporcionado para la clasificación. |
-| **[!UICONTROL Nombre de identidad]** | El nombre derivado por el sistema para la clasificación. Este nombre es un valor de solo lectura y puede utilizar el nombre de identidad |
+| **[!UICONTROL Nombre de identidad]** | Nombre generado por el sistema para la clasificación. Este nombre es un valor de solo lectura y puede usar el nombre de identidad. |
 | **[!UICONTROL Clasificado Por]** | Si se utiliza, un vínculo al conjunto de clasificaciones de búsqueda que se utiliza para clasificar esta clasificación. |
 
 
@@ -65,8 +66,6 @@ Para agregar una nueva clasificación, seleccione ![Agregar](/help/assets/icons/
 ![Conjuntos de clasificaciones: agregar clasificación al esquema](assets/classification-sets-schema-add-classification.png)
 
 En el cuadro de diálogo **[!UICONTROL Agregar una nueva clasificación para _nombre del conjunto de clasificaciones_]**, escriba el **[!UICONTROL Nombre de clasificación]**&#x200B;y seleccione **[!UICONTROL Agregar]**. La clasificación se añade a la lista.
-
-
 
 ### Cargar
 
@@ -119,7 +118,7 @@ En el cuadro de diálogo **[!UICONTROL Descargar datos para _nombre del conjunto
    * **[!UICONTROL Valores separados por comas]** (CSV).
    * **[!UICONTROL Valores separados por tabulaciones de Excel]** (TSV o TAB).
 
-1. Para seleccionar la [codificación de archivo](/help/components/classifications/sets/data-files.md#general-file-requirements) para cuando se descargue el archivo, 2. Para seleccionar la [codificación de archivo](/help/components/classifications/sets/data-files.md#general-file-requirements) cuando se descargue el archivo, seleccione una opción en el menú desplegable Codificación de archivo. Las opciones son:
+1. Para seleccionar la [codificación de archivos](/help/components/classifications/sets/data-files.md#general-file-requirements) cuando se descargue el archivo, seleccione una opción en el menú desplegable **[!UICONTROL Codificación de archivos]**. Las opciones son:
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
@@ -141,7 +140,7 @@ En el cuadro de diálogo **[!UICONTROL Descargar plantilla para _nombre del conj
    * **[!UICONTROL Valores separados por comas]**.
    * **[!UICONTROL Valores separados por tabulaciones de Excel]**.
 
-1. Para seleccionar la [codificación de archivo](/help/components/classifications/sets/data-files.md#general-file-requirements) para cuando se descargue el archivo, seleccione una opción en el menú desplegable Codificación de archivo. Las opciones son:
+1. Para seleccionar la [codificación de archivos](/help/components/classifications/sets/data-files.md#general-file-requirements) cuando se descargue el archivo, seleccione una opción en el menú desplegable **[!UICONTROL Codificación de archivos]**. Las opciones son:
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
@@ -198,13 +197,13 @@ En el cuadro de diálogo **[!UICONTROL Asociar/actualizar ubicación de ingesta 
    * **[!UICONTROL Barra vertical |]**
    * **[!UICONTROL Espacio]**
    * **[!UICONTROL Ficha]**
-1. Para seleccionar la [codificación de archivo](/help/components/classifications/sets/data-files.md#general-file-requirements) cuando se descargue el archivo, seleccione una opción en el menú desplegable **[!UICONTROL Codificación de archivo]**. Las opciones son:
+1. Para seleccionar la [codificación de archivos](/help/components/classifications/sets/data-files.md#general-file-requirements) cuando se descargue el archivo, seleccione una opción en el menú desplegable **[!UICONTROL Codificación de archivos]**. Las opciones son:
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
 1. Para notificar a los usuarios la finalización de los trabajos de ingesta, escriba las direcciones de correo electrónico, separadas por comas, de **[!UICONTROL Correo electrónico para notificar cuando se completen los trabajos de ingesta (separados por comas)]**.
-1. Seleccione **[!UICONTROL Validar]**. Se validó la conexión con la ubicación de nube. Si la validación se realiza correctamente, aparecerá un mensaje de mensaje que muestra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validación de ubicación correcta. Conexión al almacenamiento en la nube verificada.]**<br/>Seleccione&#x200B;**[!UICONTROL &#x200B; Guardar &#x200B;]**&#x200B;si ha creado la conexión con la conexión en la nube. De lo contrario, seleccione&#x200B;**[!UICONTROL &#x200B; Actualizar &#x200B;]**. O bien, seleccione&#x200B;**[!UICONTROL &#x200B; Cancelar &#x200B;]**&#x200B;para cancelar la configuración de la ubicación de la nube.
+1. Seleccione **[!UICONTROL Validar]**. Se valida la conexión con la ubicación de nube. Si la validación se realiza correctamente, aparece un mensaje de mensaje que muestra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validación de ubicación correcta. Conexión al almacenamiento en la nube verificada.]**<br/>Seleccione&#x200B;**[!UICONTROL &#x200B; Guardar &#x200B;]**&#x200B;si ha creado la conexión con la conexión en la nube. De lo contrario, seleccione&#x200B;**[!UICONTROL &#x200B; Actualizar &#x200B;]**. O bien, seleccione&#x200B;**[!UICONTROL &#x200B; Cancelar &#x200B;]**&#x200B;para cancelar la configuración de la ubicación de la nube.
 
 Cuando carga archivos en la ubicación de la nube, en un plazo de 15 minutos, el archivo se detecta y se envía como un trabajo de importación. El resultado de ese trabajo de importación se recoge en el [Administrador de trabajos de clasificaciones](/help/components/classifications/sets/job-manager.md). Si se le agrega a la lista de usuarios a los que notificar la finalización de los trabajos de ingesta, también recibirá mensajes de correo electrónico.
 
