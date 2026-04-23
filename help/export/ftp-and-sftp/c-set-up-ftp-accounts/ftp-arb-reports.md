@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: Informes entregados por el Report Builder
 feature: FTP Export
 exl-id: 0026b6dc-023f-4896-ba0d-0eec16a9d469
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 76%
+source-wordcount: '123'
+ht-degree: 48%
 
 ---
 
@@ -15,6 +15,6 @@ ht-degree: 76%
 
 Utilice el complemento Report Builder de Adobe para Microsoft Excel para crear solicitudes personalizadas a partir de datos de análisis web que se pueden insertar en las hojas de cálculo de Excel.
 
-Las solicitudes pueden hacer referencia, de forma dinámica, a las celdas que hay en la hoja de cálculo y la presentación de los datos se puede actualizar y personalizar. Para los datos de FTP, debe comprobar que el host se encuentra disponible de forma externa. Para obtener más información sobre los informes que entrega [!UICONTROL Report Builder], consulte la [Ayuda de Report Builder](/help/analyze/report-builder/rb-overview.md).
+Las solicitudes pueden hacer referencia de forma dinámica a las celdas de la hoja de cálculo y es posible actualizar y personalizar el modo en que se presentan los datos. Para FTP o SFTP, debe asegurarse de que el host esté disponible de forma externa. Para obtener más información sobre los informes que entrega [!UICONTROL Report Builder], consulte la [Ayuda de Report Builder](/help/analyze/report-builder/rb-overview.md).
 
-Para obtener información sobre los límites de FTP y la retención de datos, consulte [Límites de FTP y retención de datos](/help/export/ftp-and-sftp/ftp-limits.md).
+Para obtener información sobre los límites de FTP o SFTP y la retención de datos, consulte [Límites de FTP y SFTP y retención de datos](/help/export/ftp-and-sftp/ftp-limits.md).
