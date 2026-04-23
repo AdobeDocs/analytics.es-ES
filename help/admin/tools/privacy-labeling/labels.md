@@ -4,10 +4,10 @@ title: Etiquetas de privacidad de datos para variables de Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '3758'
-ht-degree: 100%
+source-wordcount: '3757'
+ht-degree: 99%
 
 ---
 
@@ -86,33 +86,33 @@ Se requiere una etiqueta de eliminación únicamente para los campos que contien
 
 {style="table-layout:auto"}
 
-## Proporcionar un área de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON {#provide-namespace}
+## Proporcionar un espacio de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON {#provide-namespace}
 
-Cuando etiquete una variable como ID-DEVICE o ID-PERSON, se le solicitará que proporcione un área de nombres. Puede utilizar un área de nombres definida anteriormente o definir una nueva.
+Cuando etiquete una variable como ID-DEVICE o ID-PERSON, se le solicitará que proporcione un espacio de nombres. Puede utilizar un espacio de nombres definido anteriormente o definir uno nuevo.
 
-### Utilizar un área de nombres definida anteriormente {#previously-defined}
+### Utilizar un espacio de nombres definido anteriormente {#previously-defined}
 
-Si ha asignado una etiqueta de ID anteriormente a otras variables de cualquier grupo de informes de su empresa de inicio de sesión, puede seleccionar una de estas áreas de nombres existentes. Debe volver a utilizar el área de nombres si esta variable contiene el mismo tipo de ID que otras variables que ya están etiquetadas con esta área de nombres y desea realizar búsquedas en todos ellos al enviar una solicitud.
+Si ha asignado una etiqueta de ID anteriormente a otras variables de cualquier grupo de informes de su empresa de inicio de sesión, puede seleccionar uno de estos espacios de nombres existentes. Debe volver a utilizar el espacio de nombres si esta variable contiene el mismo tipo de ID que otras variables que ya están etiquetadas con este espacio de nombres y desea realizar búsquedas en todos ellos al enviar una solicitud.
 
-1. Haga clic en **[!UICONTROL Seleccionar área de nombres]** y seleccione una de las áreas de nombres existentes.
+1. Haga clic en **[!UICONTROL Seleccionar espacio de nombres]** y seleccione uno de los espacios de nombres existentes.
    ![](assets/namespace.png)
 1. Haga clic en **[!UICONTROL Aplicar]**.
 
 
-### Definir una nueva área de nombres {#define}
+### Definir un nuevo espacio de nombres {#define}
 
-También puede definir una nueva área de nombres. Le recomendamos que las cadenas de área de nombres se limiten a caracteres alfanuméricos, además de los caracteres de guion bajo, guión y espacio. Se convertirán a todo en minúsculas.
+También puede definir un nuevo espacio de nombres. Le recomendamos que las cadenas de espacio de nombres se limiten a caracteres alfanuméricos, además de los caracteres de guion bajo, guión y espacio. Se convertirán a todo en minúsculas.
 
-1. Haga clic en **[!UICONTROL Seleccionar área de nombres]** y escriba el título del área de nombres.
+1. Haga clic en **[!UICONTROL Seleccionar espacio de nombres]** y escriba el título del espacio de nombres.
 
    ![](assets/namespace2.png)
 
-1. Pulse **[!UICONTROL Intro]** para añadir este área de nombres. El botón Aplicar únicamente se activará en este momento.
+1. Pulse **[!UICONTROL Intro]** para añadir este espacio de nombres. El botón Aplicar únicamente se activará en este momento.
 1. Haga clic en **[!UICONTROL Aplicar]**.
 
-La cadena que especifique como el área de nombres es la misma cadena que debería utilizar al enviar solicitudes mediante la API de privacidad de datos como el valor del parámetro “namespace”. La solicitud entonces hará que Adobe Analytics busque todas las variables en todos sus grupos de informes que compartan esta área de nombres en busca del ID que haya especificado en la solicitud.
+La cadena que especifique como el espacio de nombres es la misma cadena que debería utilizar al enviar solicitudes mediante la API de privacidad de datos como el valor del parámetro “namespace”. La solicitud entonces hará que Adobe Analytics busque todas las variables en todos sus grupos de informes que compartan este espacio de nombres en busca del ID que haya especificado en la solicitud.
 
-No necesita especificar las etiquetas de ID-DEVICE o ID-PERSON para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si enviará solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. A modo de ejemplo, si eVar1 puede contener una dirección de correo electrónico y eVar2 puede contener un nombre de usuario de inicio de sesión, pero solo va a enviar solicitudes utilizando el nombre de usuario, puede etiquetar eVar1 como I1, ACC-PERSON, DEL-PERSON, pero eVar2 como I2, ACC-PERSON, DEL-PERSON, ID-PERSON con el área de nombres “nombre de usuario”. Entonces puede enviar una solicitud con un bloque de sección de usuario JSON como:
+No necesita especificar las etiquetas de ID-DEVICE o ID-PERSON para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si enviará solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. A modo de ejemplo, si eVar1 puede contener una dirección de correo electrónico y eVar2 puede contener un nombre de usuario de inicio de sesión, pero solo va a enviar solicitudes utilizando el nombre de usuario, puede etiquetar eVar1 como I1, ACC-PERSON, DEL-PERSON, pero eVar2 como I2, ACC-PERSON, DEL-PERSON, ID-PERSON con el espacio de nombres “nombre de usuario”. Entonces puede enviar una solicitud con un bloque de sección de usuario JSON como:
 
 ```
 {
@@ -122,13 +122,13 @@ No necesita especificar las etiquetas de ID-DEVICE o ID-PERSON para todas las va
 }
 ```
 
-El uso de la misma área de nombres para distintas variables es aceptable dentro del mismo grupo de informes. Por ejemplo, algunas implementaciones personalizadas almacenan un CRM-ID tanto en un prop como en un eVar. Si el CRM-ID siempre se produce en uno de ellos (como el eVar) y solo se produce ocasionalmente en el otro (el prop), y nunca en el prop cuando tampoco en el eVar, entonces solo el eVar requiere una etiqueta ID y un área de nombres, ya que Adobe puede buscar el ID únicamente en ese eVar. Sin embargo, si el CRM-ID se produce a veces en una variable y a veces en otra, ambas deberían tener la misma área de nombres y Adobe buscará coincidencias con el ID especificado en ambas variables como parte de la solicitud de privacidad de datos con esta área de nombres. Aún debe tener las etiquetas DEL en todas estas variables, de modo que el valor se anonimice independientemente del lugar en el que se produzca.
+El uso del mismo espacio de nombres para distintas variables es aceptable dentro del mismo grupo de informes. Por ejemplo, algunas implementaciones personalizadas almacenan un CRM-ID tanto en un prop como en un eVar. Si el CRM-ID siempre se produce en uno de ellos (como el eVar) y solo se produce ocasionalmente en el otro (el prop), y nunca en el prop cuando tampoco en el eVar, entonces solo el eVar requiere una etiqueta ID y un espacio de nombres, ya que Adobe puede buscar el ID únicamente en ese eVar. Sin embargo, si el CRM-ID en ocasiones se produce en una variable y en ocasiones en otra, entonces ambas deberían tener el mismo espacio de nombres y Adobe buscará coincidencias con el ID especificado en ambas variables como parte de la solicitud de privacidad de datos con este espacio de nombres. Aún debe tener las etiquetas DEL en todas estas variables, de modo que el valor se anonimice independientemente del lugar en el que se produzca.
 
 Otro ejemplo: puede tener un CRM ID que en ocasiones se envía a través de eVar1 y en ocasiones se envía a través de prop7. También cuenta con una regla de procesamiento que copia el valor del eVar1, si existe, en el eVar3. De lo contrario, copia el valor de prop7 en el eVar3. En estos supuestos, eVar3 siempre contendrá el CRM ID si se conoce, de modo que solo eVar3 requiere una etiqueta ID-PERSON.
 
 >[!CAUTION]
 >
->Las áreas de nombres `visitorId` y `customVisitorId` están reservadas para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante del cliente de Analytics. No utilice estas áreas de nombres para variables de conversión o tráfico personalizado.
+>Los espacios de nombres `visitorId` y `customVisitorId` están reservados para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante del cliente de Analytics. No utilice estos espacios de nombres para variables de conversión o tráfico personalizado.
 
 ## Tipos de variables y las etiquetas de privacidad de datos que admiten {#variable-types}
 
@@ -244,7 +244,7 @@ Es importante comprender qué tipo de datos contiene cada variable antes de toma
 | [!UICONTROL ID de usuario] | Especifica el grupo de informes de Analytics (como un número) que contiene los datos. |
 | [!UICONTROL ID del grupo de informes ] | Especifica el nombre del grupo de informes de Analytics que contiene los datos. |
 | [!UICONTROL ID de visitante]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Estos ID tienen la etiqueta DEL-DEVICE, pero no se puede agregar la etiqueta DEL-PERSON. Si desea que estos ID de cookie se anonimicen en las visitas que contengan un ID coincidente en una prop o eVar, puede solucionar esta limitación de etiquetado mediante el etiquetado de la prop o eVar con una etiqueta ID-DEVICE, incluso si realmente identifica a una persona (todas las etiquetas DEL-PERSON también necesitarán cambiarse a etiquetas DEL-DEVICE). En este caso, dado que solo algunas instancias del ID del visitante o del ECID se están anonimizando, las cantidades de visitantes únicos cambiarán en los informes del historial. |
-| [!UICONTROL ID de AMO] | El ID de Adobe Advertising Cloud es una variable de solución que tiene una etiqueta no modificable [!UICONTROL DEL-DEVICE]. Se rellena a partir de una cookie, del mismo modo que el ID del visitante y el MCID. Debe eliminarse de las visitas siempre que se eliminen esos otros ID. Consulte la descripción de dichas variables para obtener más información. |
+| [!UICONTROL ID de AMO] | The Adobe Advertising ID is a solution variable that has an unmodifiable [!UICONTROL DEL-DEVICE] label. Se rellena a partir de una cookie, del mismo modo que el ID del visitante y el MCID. Debe eliminarse de las visitas siempre que se eliminen esos otros ID. Consulte la descripción de dichas variables para obtener más información. |
 
 {style="table-layout:auto"}
 

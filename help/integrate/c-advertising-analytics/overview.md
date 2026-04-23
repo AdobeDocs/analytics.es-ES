@@ -3,16 +3,16 @@ description: Descubra todo lo que puede hacer con Advertising Analytics, incluid
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 70%
+source-wordcount: '1110'
+ht-degree: 68%
 
 ---
 
 # Advertising Analytics
 
-Advertising Analytics le permite ver todos los datos de búsqueda de pago de Google Ads y Microsoft Advertising alineados en Adobe Analytics. Anteriormente, cualquier dato de Google Ads o Microsoft Advertising tenía que visualizarse en Adobe Advertising Cloud (AMO) o en cada interfaz de publicidad correspondiente. Ahora puede obtener datos de impresiones, clics y costes directamente de los motores de búsqueda, así como instancias de ID de AMO (instancias de clic).
+Advertising Analytics le permite ver todos los datos de búsqueda de pago de Google Ads y Microsoft Advertising alineados en Adobe Analytics. Anteriormente, cualquier dato de Google Ads o Microsoft Advertising tenía que visualizarse en Adobe Advertising o en cada interfaz de publicidad correspondiente. Ahora puede obtener datos de impresiones, clics y costes directamente de los motores de búsqueda, así como instancias de ID de AMO (instancias de clic).
 
 Al unir los datos de estos motores de búsqueda en Adobe Analytics, puede analizarlos mediante la potencia de Analysis Workspace. Una nueva plantilla [Rendimiento de búsqueda de pago](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) en Workspace facilita este análisis.
 
@@ -27,7 +27,7 @@ Esta integración va dirigida a los públicos siguientes:
 ## Requisitos previos {#prerequisites}
 
 * Advertising Analytics está disponible únicamente para los SKU [Select](https://www.adobe.com/es/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/es/data-analytics-cloud/analytics/prime.html) y [Ultimate](https://www.adobe.com/es/data-analytics-cloud/analytics/ultimate.html) de Adobe Analytics.
-* Esta funcionalidad está disponible para clientes que no sean de Advertising Cloud ni de AMO.
+* Esta funcionalidad está disponible para los clientes que no utilizan Adobe Advertising.
 * Debe ser administrador de Adobe Analytics para tener acceso a Advertising Analytics o pertenecer a un perfil de producto al que se le haya [concedido acceso](/help/integrate/c-advertising-analytics/overview.md#permissions) a Advertising Analytics.
 * Para los grupos de informes de los que desee consultar los datos de búsqueda de Google Ads o Microsoft Advertising, debe [habilitar dichos grupos de informes para Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Administrador]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Configuración de Advertising Analytics]**).
 * Necesita credenciales de inicio de sesión para un usuario con permisos de edición en las cuentas de búsqueda que desee integrar en Adobe Analytics, como un identificador de cuenta de Google y una contraseña.
@@ -72,7 +72,7 @@ Advertising Analytics agrega las siguientes dimensiones y métricas a Analysis W
 | **[!UICONTROL Red (ID de AMO)]** | La red en la que se publica su anuncio. Para Advertising Analytics, este valor es siempre “Búsqueda”. |
 | **[!UICONTROL Ubicación (ID de AMO)]** | El sitio web de colocación gestionada (para las redes de contenido). Solo las colocaciones gestionadas utilizan esta dimensión. |
 | **[!UICONTROL Segmentación de productos (ID de AMO)]** | El nombre del segmento de producto utilizado en los anuncios PLA (no el producto comprado en sí). |
-| **[!UICONTROL Optimización (ID de AMO)]** | No se utiliza en Advertising Analytics. Solo lo utilizan los clientes de Advertising Cloud. |
+| **[!UICONTROL Optimización (ID de AMO)]** | No se usa en Advertising Analytics. Solo lo utilizan los clientes de Adobe Advertising. |
 | **[!UICONTROL Dispositivo (ID de AMO)]** | No se utiliza hoy en día. Marcador de posición para posibles mejoras futuras en los tipos de dispositivo de destino indicados (p. ej., móvil, escritorio) del anuncio (no el dispositivo en sí del visitante). |
 
 ### Métricas
