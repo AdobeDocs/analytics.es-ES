@@ -3,16 +3,16 @@ title: Esquema del conjunto de clasificaciones
 description: Obtenga información sobre cómo ver y editar el esquema de un conjunto de clasificaciones individual.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1617'
 ht-degree: 7%
 
 ---
 
 # Esquema del conjunto de clasificación
 
-El esquema es la lista de clasificaciones que desea aplicar a las dimensiones clave definidas para el conjunto de clasificaciones. Por ejemplo, si ha definido el producto como la dimensión clave y este campo contiene un SKU de producto, utilice el esquema para agregar clasificaciones como el nombre del producto, el color del producto, el tamaño del producto, etc.
+El esquema es la lista de clasificaciones que desea aplicar a las dimensiones clave definidas para el conjunto de clasificaciones. Por ejemplo, si ha definido el producto como la dimensión clave y este campo contiene un SKU de producto, utilice el esquema para agregar clasificaciones como el nombre, el color y el tamaño del producto.
 
 Para editar el esquema de un conjunto de clasificaciones:
 
@@ -107,7 +107,7 @@ Para descargar los datos de clasificación, selecciona ![Descargar](/help/assets
 En el cuadro de diálogo **[!UICONTROL Descargar datos para _nombre del conjunto de clasificaciones_]**:
 
 1. Escriba el número de **[!UICONTROL filas]** que desea descargar. Por ejemplo: `10000`.
-1. Para seleccionar el período para el que desea descargar filas de datos de clasificación, escriba los datos de inicio y fin de **[!UICONTROL Descargar filas recibidas entre]**. O use ![Calendario](/help/assets/icons/Calendar.svg) para usar una ventana emergente de calendario y seleccionar el período.
+1. Para seleccionar el período durante el cual desea descargar filas de datos de clasificación, escriba una fecha de inicio y de finalización para **[!UICONTROL Descargar filas recibidas entre]**. O use ![Calendario](/help/assets/icons/Calendar.svg) para usar una ventana emergente de calendario y seleccionar el período.
 1. Para seleccionar los datos que se van a devolver, seleccione una opción de **[!UICONTROL Datos devueltos]**.
 
    * **[!UICONTROL Todos los valores]** devuelve todos los valores de los datos de clasificación actuales.
@@ -119,7 +119,7 @@ En el cuadro de diálogo **[!UICONTROL Descargar datos para _nombre del conjunto
    * **[!UICONTROL Valores separados por comas]** (CSV).
    * **[!UICONTROL Valores separados por tabulaciones de Excel]** (TSV o TAB).
 
-1. Para seleccionar la [codificación de archivo](/help/components/classifications/sets/data-files.md#general-file-requirements) para cuando se descargue el archivo, seleccione una opción en el menú desplegable Codificación de archivo. Las opciones son:
+1. Para seleccionar la [codificación de archivo](/help/components/classifications/sets/data-files.md#general-file-requirements) para cuando se descargue el archivo, 2. Para seleccionar la [codificación de archivo](/help/components/classifications/sets/data-files.md#general-file-requirements) cuando se descargue el archivo, seleccione una opción en el menú desplegable Codificación de archivo. Las opciones son:
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
@@ -146,7 +146,7 @@ En el cuadro de diálogo **[!UICONTROL Descargar plantilla para _nombre del conj
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
-1. Seleccione **[!UICONTROL Descargar]** para descargar la plantilla de datos de clasificación. Puede encontrar el archivo descargado en el directorio de descarga predeterminado del explorador y se titula <code><i>Conjunto de clasificaciones</i>.<i>csv</i>|<i>tsv</i></code>. Si el archivo ya existe, un número de secuencia <code>(<i>x</i>)</code> se agrega al nombre de archivo.
+1. Seleccione **[!UICONTROL Descargar]** para descargar la plantilla de datos de clasificación. Puede encontrar el archivo descargado en el directorio de descarga predeterminado de su explorador. El archivo se titula <code><i>Conjunto de clasificaciones</i>.<i>csv</i>|<i>tsv</i></code>. Si el archivo ya existe, un número de secuencia <code>(<i>x</i>)</code> se agrega al nombre de archivo.
 
 
 ### Automatizar {#automate}
@@ -166,8 +166,6 @@ En el cuadro de diálogo **[!UICONTROL Descargar plantilla para _nombre del conj
 >additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=es" text="Configuración de las ubicaciones de importación y exportación en la nube"
 
 Puede automatizar la ingesta de datos de clasificación mediante la configuración y el uso de cuentas y ubicaciones en la nube.
-
-
 
 >[!IMPORTANT]
 >La automatización de la ingesta de clasificaciones desde cuentas en la nube requiere que usted (o su administrador de red) especifique rangos de direcciones IP para permitir la ingesta de datos en la red. Configure uno o varios intervalos de direcciones IP en función de la ubicación de los centros de datos de Analytics que utilice.
@@ -206,14 +204,18 @@ En el cuadro de diálogo **[!UICONTROL Asociar/actualizar ubicación de ingesta 
    * **[!UICONTROL Latin-1]**.
 
 1. Para notificar a los usuarios la finalización de los trabajos de ingesta, escriba las direcciones de correo electrónico, separadas por comas, de **[!UICONTROL Correo electrónico para notificar cuando se completen los trabajos de ingesta (separados por comas)]**.
-1. Seleccione **[!UICONTROL Validar]**. Se valida la conexión con la ubicación de nube.
-1. Si la validación se realiza correctamente, verá un mensaje de mensaje que muestra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validación de ubicación correcta. Conexión al almacenamiento en la nube verificada.]**<br/>Seleccione&#x200B;**[!UICONTROL &#x200B; Guardar &#x200B;]**&#x200B;si ha creado la conexión con la conexión en la nube. De lo contrario, seleccione&#x200B;**[!UICONTROL &#x200B; Actualizar &#x200B;]**. O bien, seleccione&#x200B;**[!UICONTROL &#x200B; Cancelar &#x200B;]**&#x200B;para cancelar la configuración de la ubicación de la nube.
+1. Seleccione **[!UICONTROL Validar]**. Se validó la conexión con la ubicación de nube. Si la validación se realiza correctamente, aparecerá un mensaje de mensaje que muestra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validación de ubicación correcta. Conexión al almacenamiento en la nube verificada.]**<br/>Seleccione&#x200B;**[!UICONTROL &#x200B; Guardar &#x200B;]**&#x200B;si ha creado la conexión con la conexión en la nube. De lo contrario, seleccione&#x200B;**[!UICONTROL &#x200B; Actualizar &#x200B;]**. O bien, seleccione&#x200B;**[!UICONTROL &#x200B; Cancelar &#x200B;]**&#x200B;para cancelar la configuración de la ubicación de la nube.
 
 Cuando carga archivos en la ubicación de la nube, en un plazo de 15 minutos, el archivo se detecta y se envía como un trabajo de importación. El resultado de ese trabajo de importación se recoge en el [Administrador de trabajos de clasificaciones](/help/components/classifications/sets/job-manager.md). Si se le agrega a la lista de usuarios a los que notificar la finalización de los trabajos de ingesta, también recibirá mensajes de correo electrónico.
 
 Por ejemplo:
 
 ![Conjuntos de clasificaciones: correo electrónico de validación de trabajo](assets/job-failed-validation.png){width="400"}
+
+>[!IMPORTANT]
+>
+>Elimine los archivos de la ubicación de la nube manualmente o mediante una directiva de rotación de archivos una vez que los archivos se hayan importado y procesado correctamente. De lo contrario, los archivos se vuelven a importar y procesar en el siguiente trabajo de importación.
+
 
 
 ## Barra de acciones
