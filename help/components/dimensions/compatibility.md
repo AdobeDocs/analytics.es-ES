@@ -3,10 +3,10 @@ title: Compatibilidad de dimensiones de Analytics
 description: Referencia para dimensiones e informes de Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 60%
+source-wordcount: '894'
+ht-degree: 47%
 
 ---
 
@@ -20,7 +20,7 @@ Esta página lista [dimensiones](overview.md) compatibles con sus respectivas ca
 
 ## Dimensiones admitidas en Analysis Workspace
 
-| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de Dimension (utilizado en solicitudes de API) |
 |---|---|
 | Analytics for Target | `targetraw` |
 | ID de públicos | `mcaudiences` |
@@ -146,7 +146,7 @@ Esta página lista [dimensiones](overview.md) compatibles con sus respectivas ca
 
 ## Dimensiones de reconocimiento de contenido compatibles únicamente con Analysis Workspace
 
-| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de Dimension (utilizado en solicitudes de API) |
 |--- |--- |
 | Activity Map XY | `clickmapxy` |
 | ID de sesión de contenidos | `videosessionid` |
@@ -159,31 +159,31 @@ Esta página lista [dimensiones](overview.md) compatibles con sus respectivas ca
 
 ### Vídeo (servicios de medios de streaming)
 
-| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de Dimension (utilizado en solicitudes de API) |
 |--- |--- |
 | [Contenido](sm-core.md) | `video` |
 | [Segmento de contenido](sm-core.md) | `videosegment` |
 | [Tipo de contenido](sm-core.md) | `videocontenttype` |
 | [Nombre del reproductor del anuncio](sm-ads.md) | `videoadplayername` |
-| [Anuncio en posición de la secuencia](sm-ads.md) | `videoadinpod` |
+| [Posición del anuncio en la secuencia](sm-ads.md) | `videoadinpod` |
 | [Fotogramas perdidos](sm-quality.md) | `videoqoedroppedframecountevar` |
 | [Errores](sm-quality.md) | `videoqoeerrorcountevar` |
 | [Velocidad de bits media](sm-quality.md) | `videoqoebitrateaverageevar` |
-| [Cambios en la velocidad de bits](sm-quality.md) | `videoqoebitratechangecountevar` |
+| [Cambios de velocidad de bits](sm-quality.md) | `videoqoebitratechangecountevar` |
 | [Duración total del búfer](sm-quality.md) | `videoqoebuffertimeevar` |
 | [Eventos de búfer](sm-quality.md) | `videoqoebuffercountevar` |
 | [Tiempo para el inicio](sm-quality.md) | `videoqoetimetostartevar` |
 | [Pod de anuncios](sm-ads.md) | `videoadpod` |
 | [Ruta de medios](sm-core.md) | `videopath` |
-| [Publicidad](sm-ads.md) | `videoad` |
+| [Anuncio](sm-ads.md) | `videoad` |
 | [Nombre del reproductor de contenido](sm-core.md) | `videoplayername` |
 | [Canal de contenido](sm-core.md) | `videochannel` |
 | [Capítulo](sm-chapters.md) | `videochapter` |
-| [Nombre del contenido (variable)](sm-core.md) | `videoname` |
-| [Duración del contenido (variable)](sm-core.md) | `videolength` |
+| [Nombre de contenido (variable)](sm-core.md) | `videoname` |
+| [Longitud del contenido (variable)](sm-core.md) | `videolength` |
 | [Nombre del anuncio (variable)](sm-ads.md) | `videoadname` |
 | [Duración del anuncio (variable)](sm-ads.md) | `videoadlength` |
-| [Programa](sm-video-metadata.md) | `videoshow` |
+| [Mostrar](sm-video-metadata.md) | `videoshow` |
 | [Temporada](sm-video-metadata.md) | `videoseason` |
 | [Episodio](sm-video-metadata.md) | `videoepisode` |
 | [Red](sm-video-metadata.md) | `videonetwork` |
@@ -195,8 +195,8 @@ Esta página lista [dimensiones](overview.md) compatibles con sus respectivas ca
 | [ID de campaña](sm-ads.md) | `videoadcampaign` |
 | [Género](sm-video-metadata.md) | `videogenre` |
 | [Tipo de emisión](sm-core.md) | `videostreamtype` |
-| [ID de error de SDK de reproductor](sm-quality.md) | `videoqoeplayersdkerrors` |
-| [ID de error externo](sm-quality.md) | `videoqoeextneralerrors` |
+| [ID de error del reproductor SDK](sm-quality.md) | `videoqoeplayersdkerrors` |
+| [Id. de error externo](sm-quality.md) | `videoqoeextneralerrors` |
 | [Tipo de fuente de medios](sm-video-metadata.md) | `videofeedtype` |
 | [Ruta de medios de entrada](entry-dimensions.md) | `entryvideopath` |
 | [Ruta de medios de salida](exit-dimensions.md) | `exitvideopath` |
@@ -211,7 +211,7 @@ Esta página lista [dimensiones](overview.md) compatibles con sus respectivas ca
 
 Adobe Social está retirado.
 
-| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de Dimension (utilizado en solicitudes de API) |
 |--- |--- |
 | Términos | `socialterm` |
 | Plataformas sociales/Propiedades | `socialcontentprovider` |
@@ -233,7 +233,7 @@ Adobe Social está retirado.
 
 ### SDK móvil
 
-| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de Dimension (utilizado en solicitudes de API) |
 |--- |--- |
 | [Fecha de primer inicio](lifecycle-dimensions.md) | `mobileinstalldate` |
 | [Id. de aplicación](lifecycle-dimensions.md) | `mobileappid` |
@@ -268,18 +268,18 @@ Adobe Social está retirado.
 | [Proximidad del Beacon de entrada](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
 | [Proximidad del Beacon de salida](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
 
-### Adobe Advertising Cloud (AMO)
+### Adobe Advertising
 
-| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de Dimension (utilizado en solicitudes de API) |
 |--- |--- |
 | AMO EF ID | `amo_ef_id` |
 | ID de AMO | `amo_cid` |
 
 ### Activity Map
 
-| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de Dimension (utilizado en solicitudes de API) |
 |--- |--- |
-| [Vínculo De Activity Map Por Región](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
+| [Vínculo de Activity Map por región](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
 | [Región de Activity Map](activity-map-region.md) | `clickmapregion` |
 | [Vínculo de Activity Map](activity-map-link.md) | `clickmaplink` |
 | [Página de Activity Map](activity-map-page.md) | `clickmappage` |
@@ -288,7 +288,7 @@ Adobe Social está retirado.
 
 Para obtener más información sobre cómo implementar esta integración, consulte la [extensión de Nielsen](https://exchange.adobe.com/apps/ec/101361) en Adobe Exchange.
 
-| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de Dimension (utilizado en solicitudes de API) |
 |--- |--- |
 | Modelo de anuncio de Nielsen | `nielsenadmodel` |
 | Segmento C de Nielsen | `nielsensegmentc` |
@@ -309,7 +309,7 @@ Para obtener más información sobre cómo implementar esta integración, consul
 
 ### Adobe Experience Manager (AEM)
 
-| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de Dimension (utilizado en solicitudes de API) |
 |--- |--- |
 | ID del recurso | `aemassetid` |
 | Origen de recursos | `aemassetsource` |
@@ -319,6 +319,6 @@ Para obtener más información sobre cómo implementar esta integración, consul
 
 ### Adobe Campaign
 
-| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de Dimension (utilizado en solicitudes de API) |
 |--- |--- |
-| ID de entrega ejecutada de Adobe Campaign | `ac_delivery_internal_name` |
+| ID de envío ejecutado de Adobe Campaign | `ac_delivery_internal_name` |

@@ -3,9 +3,9 @@ description: Preguntas frecuentes sobre Advertising Analytics.
 title: Preguntas más frecuentes sobre análisis de publicidad
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1276'
 ht-degree: 10%
 
 ---
@@ -14,11 +14,9 @@ ht-degree: 10%
 
 ## Acceso y derechos {#access}
 
-+++ ¿Debo ser cliente de Adobe Advertising Cloud o Adobe Advertising Cloud (AMO) para acceder a esta funcionalidad?
++++ ¿Debo ser cliente de Adobe Advertising para acceder a esta funcionalidad?
 
-No, esta funcionalidad está disponible para clientes que no sean de Advertising Cloud ni de AMO.
-
-Los clientes de AMO pueden aprovechar la integración existente entre Analytics y AMO; no podrán utilizar Ad Analytics.
+No, esta funcionalidad está disponible para los clientes que no son de Advertising. Los clientes de Adobe Advertising pueden aprovechar la integración existente de Analytics + Advertising.
 
 +++
 
@@ -34,7 +32,7 @@ Advertising Analytics está disponible para Adobe Analytics
 
 +++
 
-+++ ¿Tengo que pagar un extra para usar Advertising Analytics? 
++++ Do I have to pay extra to use Advertising Analytics? 
 
 No, Advertising Analytics no incurre en ningún coste adicional si no está aprovisionado correctamente.
 
@@ -46,9 +44,9 @@ No, Advertising Analytics utiliza un tipo de fuente de datos especial que no inc
 
 +++
 
-+++ Si ya utilizo Advertising Cloud/AMO, ¿puedo seguir utilizando la funcionalidad de Advertising Analytics?
++++ Si ya utilizo Adobe Advertising, ¿puedo seguir utilizando la funcionalidad de Advertising Analytics?
 
-Cualquier cuenta de motor de búsqueda compatible pasará a Advertising Analytics y se mostrará como de solo lectura. Todas las ediciones o actualizaciones deben gestionarse en Advertising Cloud/AMO.
+Cualquier cuenta de motor de búsqueda compatible pasará a Advertising Analytics y se mostrará como de solo lectura. Todas las ediciones o actualizaciones deben gestionarse en Advertising.
 
 +++
 
@@ -74,20 +72,20 @@ Después de iniciar sesión en Adobe Analytics, vaya a [!UICONTROL Admin]. A con
 
 +++ ¿Cómo se recopilan y pasan los datos a Analytics? 
 
-Advertising Analytics utiliza una serie de API personalizadas para pasar datos de los motores de búsqueda a Analytics a través de Adobe Advertising Cloud.
+Advertising Analytics utiliza una serie de API personalizadas para pasar datos de motores de búsqueda a Adobe Analytics a través de Adobe Advertising.
 
 +++
 
 +++ ¿Qué datos de búsqueda obtengo con esta integración? 
 
-Obtendrá lo siguiente
+Se obtiene:
 
 * Impresiones
 * Clics
 * Costos
 * Puntuación de calidad
-* Posición promedio directamente de los motores de búsqueda, así como
-* Instancias de ID de AMO (instancias de clic).
+* Average Position directly from the search engines
+* Instancias de ID de AMO (instancias de clic)
 
 +++
 
@@ -118,9 +116,9 @@ Los grupos de informes virtuales no recopilan datos, por lo que no puede asignar
 
 +++
 
-+++ ¿Se pueden incluir las métricas de Advertising Analytics en el informe *Canales de mercadotecnia*? 
++++ Are Advertising Analytics metrics reportable in the *Marketing Channels* report? 
 
-No, no se incluyen en el informe Canales de marketing.
+No, they are not included in the Marketing Channels report.
 
 +++
 
@@ -158,14 +156,14 @@ La clasificación de la Plataforma de publicidad registra estos valores: &quot;G
 
 +++ ¿Hay planes para incluir otros canales publicitarios como *Pantalla* o *Social*? 
 
-No, actualmente no tenemos planes para estos otros canales en la hoja de ruta.
+No, currently we do not have plans for these other channels on the roadmap.
 
 +++
 
 
 ## Seguimiento automático frente al manual {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ Al configurar mi cuenta de Advertising, se indica que el *seguimiento automático* puede tener consecuencias no deseadas. ¿Qué tipo de consecuencias pueden ocurrir? 
++++ When setting up my Advertising account, it states that *Auto Tracking* can lead to unintended consequences. ¿Qué tipo de consecuencias pueden ocurrir? 
 
 El modo automático intenta anexar parámetros de URL al final de las plantillas de seguimiento/URL de destino en el formato correcto. Sin embargo, es su responsabilidad asegurarse de que los parámetros de URL añadidos se conserven correctamente en la página de aterrizaje final. El modo automático puede insertar palabras clave en la dirección URL de aterrizaje y es posible que el servidor web no admita palabras clave con caracteres especiales.
 

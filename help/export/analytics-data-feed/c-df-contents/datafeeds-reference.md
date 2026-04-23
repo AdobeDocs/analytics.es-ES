@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: fd5a38ca3c621e67f7a670f361e73b439ce9861a
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
 source-wordcount: '3652'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -28,15 +28,15 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 
 Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones en GitHub](https://github.com/AdobeDocs/analytics.es-ES/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 
-| Publicar | Nombre de la columna | Descripción de la columna | Tipo de datos |
+| Post | Nombre de la columna | Descripción de la columna | Tipo de datos |
 | ---: | :--- | --- | --- |
 | | **`accept_language`** | Enumera todos los idiomas aceptados, tal como se indica en el encabezado Accept-Language-HTTP de las solicitudes de imagen. | char(20) |
 | **`post_`** | **`adload`** | Cargas de anuncios de medios | varchar(255) |
 | **`post_`** | **`aemassetid`** | Variable de varios valores que corresponde a los ID de recurso (GUID) de un conjunto de recursos de Adobe Experience Manager. Aumenta los eventos de impresión. | texto |
 | **`post_`** | **`aemassetsource`** | Identifica el origen del evento del recurso. Se utiliza en Adobe Experience Manager. | varchar(255) |
 | **`post_`** | **`aemclickedassetid`** | ID de recurso de un recurso de Adobe Experience Manager. Incrementa los eventos de clic. | varchar(255) |
-| **`post_`** | **`amo_cid`** | La dimensión [AMO ID](/help/components/dimensions/amo-id.md), utilizada en las integraciones de Adobe Advertising. | varchar(255) |
-| **`post_`** | **`amo_ef_id`** | La dimensión [AMO EF ID](/help/components/dimensions/amo-ef-id.md), utilizada en las integraciones de Adobe Advertising. | varchar(255) |
+| **`post_`** | **`amo_cid`** | The [AMO ID](/help/components/dimensions/amo-id.md) dimension, used in Adobe Advertising integrations. | varchar(255) |
+| **`post_`** | **`amo_ef_id`** | The [AMO EF ID](/help/components/dimensions/amo-ef-id.md) dimension, used in Adobe Advertising integrations. | varchar(255) |
 | | **`browser`** | Un ID numérico que representa el explorador. Se remite a la tabla de búsqueda `browser.tsv`. | int sin firmar |
 | **`post_`** | **`browser_height`** | La dimensión [Altura del explorador](/help/components/dimensions/browser-height.md). | smallint sin firmar |
 | **`post_`** | **`browser_width`** | El [Ancho del explorador](/help/components/dimensions/browser-width.md) | smallint sin firmar |
@@ -45,13 +45,13 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`post_`** | **`channel`** | La dimensión [Secciones del sitio](/help/components/dimensions/site-section.md). | varchar(100) |
 | | **`ch_hdr`** | Sugerencias del cliente recopiladas mediante el encabezado de petición HTTP. | texto |
 | | **`ch_js`** | Sugerencias del cliente recopiladas mediante la API de JavaScript de sugerencias del cliente agente de usuario. | texto |
-| **`post_`** | **`clickmaplink`** | La dimensión [vínculo de Activity Map](/help/components/dimensions/activity-map-link.md). | varchar(255) |
-| **`post_`** | **`clickmaplinkbyregion`** | La dimensión [vínculo de Activity Map por región](/help/components/dimensions/activity-map-link-by-region.md). | varchar(255) |
-| **`post_`** | **`clickmappage`** | La dimensión [página de Activity Map](/help/components/dimensions/activity-map-page.md). | varchar(255) |
-| **`post_`** | **`clickmapregion`** | La dimensión [región de Activity Map](/help/components/dimensions/activity-map-region.md). | varchar(255) |
+| **`post_`** | **`clickmaplink`** | The [Activity Map link](/help/components/dimensions/activity-map-link.md) dimension. | varchar(255) |
+| **`post_`** | **`clickmaplinkbyregion`** | The [Activity Map link by region](/help/components/dimensions/activity-map-link-by-region.md) dimension. | varchar(255) |
+| **`post_`** | **`clickmappage`** | The [Activity Map page](/help/components/dimensions/activity-map-page.md) dimension. | varchar(255) |
+| **`post_`** | **`clickmapregion`** | The [Activity Map region](/help/components/dimensions/activity-map-region.md) dimension. | varchar(255) |
 | | **`code_ver`** | Versión de la API o del SDK cliente utilizado para compilar y enviar la solicitud de imagen. | char(16) |
 | | **`color`** | ID de profundidad de color basada en el valor de la columna `c_color`. Se remite a la tabla de búsqueda `color_depth.tsv`. | smallint sin firmar |
-| | **`connection_type`** | ID numérica que representa la dimensión [Tipo de conexión](/help/components/dimensions/connection-type.md). Se remite a la tabla de búsqueda `connection_type.tsv`. | tinyint sin firmar |
+| | **`connection_type`** | Numeric ID representing the [Connection type](/help/components/dimensions/connection-type.md) dimension. Se remite a la tabla de búsqueda `connection_type.tsv`. | tinyint sin firmar |
 | **`post_`** | **`cookies`** | La dimensión [Compatibilidad con cookies](/help/components/dimensions/cookie-support.md).<br>S: Habilitado<br>N: No habilitado<br>D: Desconocido | char(1) |
 | | **`country`** | Un ID numérico que representa el país del visitante. Se remite a la tabla de búsqueda `country.tsv`. | smallint sin firmar |
 | **`post_`** | **`currency`** | El código de moneda que se ha utilizado durante la transacción. Configurado mediante [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). | char(8) |
@@ -70,10 +70,10 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | | **`duplicated_from`** | Solo se utiliza en los grupos de informes que contienen las reglas de VISTA de copia de visita. Indica de qué grupo de informes se copió la visita. | varchar(40) |
 | | **`duplicate_events`** | Enumera cada evento que se contó como duplicado. | varchar(255) |
 | | **`duplicate_purchase`** | Un indicador que determina que el evento de compra de esta visita se ignora porque es un duplicado. | tinyint sin firmar |
-| **`post_`** | **`ef_id`** | El EF ID, utilizado en las integraciones de Adobe Advertising. | varchar(255) |
+| **`post_`** | **`ef_id`** | The EF ID, used in Adobe Advertising integrations. | varchar(255) |
 | **`post_`** | **`evar1 - evar250`** | Variables personalizadas 1-250. Se utiliza en dimensiones [eVar](/help/components/dimensions/evar.md). Cada organización utiliza las eVars de forma diferente. El mejor lugar para obtener más información sobre cómo su organización rellena las eVars respectivas sería un [documento de diseño de solución](/help/implement/prepare/solution-design.md) específico de su organización. | varchar(255) |
-| **`post_`** | **`event_list`** | Lista separada por comas de los ID numéricos que representan los eventos activados en la visita. Incluye eventos de comercio y [eventos personalizados 1-1000](/help/components/metrics/custom-events.md). Utiliza la búsqueda `event.tsv`. | texto |
-| | **`exclude_hit`** | Un indicador que determina si la visita se excluye de la creación de informes. La columna `visit_num` no aumenta con las visitas excluidas.<br>1: No se usa. Parte de una función limpiada.<br>2: No se usa. Parte de una función limpiada.<br>3: Ya no se utiliza. Exclusión de agente de usuario<br>4: Exclusión basada en la dirección IP<br>5: Falta información clave de visitas, como `page_url`, `pagename`, `page_event` o `event_list`<br>6: JavaScript no ha procesado la visita correctamente<br>7: Exclusión específica de la cuenta, como en reglas VISTA<br>8: Sin usar. Exclusión alternativa específica de la cuenta.<br>9: No se usa. Parte de una función limpiada.<br>10: Código de moneda no válido<br>11: La visita individual no incluye una marca de tiempo en un grupo de informes solo de marca de tiempo o una visita que contiene una marca de tiempo en un grupo de informes que no es de marca de hora<br>12: No se usa. Parte de una función limpiada.<br>13: No se usa. Parte de una función limpiada.<br>14: La visita de Target que no coincide con una visita de Analytics<br>15: No se utiliza actualmente.<br>16: Visita de Advertising Cloud que no coincide con una visita de Analytics | tinyint sin firmar |
+| **`post_`** | **`event_list`** | Lista separada por comas de los ID numéricos que representan los eventos activados en la visita. Includes both commerce events and [custom events 1-1000](/help/components/metrics/custom-events.md). Utiliza la búsqueda `event.tsv`. | texto |
+| | **`exclude_hit`** | Un indicador que determina si la visita se excluye de la creación de informes. La columna `visit_num` no aumenta con las visitas excluidas.<br>1: No se usa. Parte de una función limpiada.<br>2: No se usa. Parte de una función limpiada.<br>3: Ya no se utiliza. Exclusión de agente de usuario<br>4: Exclusión basada en la dirección IP<br>5: Falta información clave de visitas, como `page_url`, `pagename`, `page_event` o `event_list`<br>6: JavaScript no ha procesado la visita correctamente<br>7: Exclusión específica de la cuenta, como en reglas VISTA<br>8: Sin usar. Exclusión alternativa específica de la cuenta.<br>9: No se usa. Parte de una función limpiada.<br>10: Código de moneda no válido<br>11: La visita individual no incluye una marca de tiempo en un grupo de informes solo de marca de tiempo o una visita que contiene una marca de tiempo en un grupo de informes que no es de marca de hora<br>12: No se usa. Parte de una función limpiada.<br>13: No se usa. Parte de una función limpiada.<br>14: La visita de Target que no coincide con una visita de Analytics<br>15: No se utiliza actualmente.<br>16: Adobe Advertising hit that did not match up to an Analytics hit | tinyint sin firmar |
 | | **`first_hit_pagename`** | Dimensión [Página de entrada original](/help/components/dimensions/entry-dimensions.md). El nombre de la página de entrada original del visitante. | varchar(100) |
 | | **`first_hit_page_url`** | La primera URL del visitante. | varchar(255) |
 | | **`first_hit_referrer`** | La primera URL de referencia del visitante. | varchar(255) |
@@ -87,7 +87,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | | **`geo_zip`** | El código postal del que provino la visita basada en la dirección IP. Ayuda a rellenar la dimensión [Código postal](/help/components/dimensions/zip-code.md). Consulte también `zip`. | varchar(16) |
 | | **`hitid_high`** | Se utiliza en combinación con `hitid_low` para identificar una visita. | bigint sin firmar |
 | | **`hitid_low`** | Se utiliza con `hitid_high` para identificar una visita. | bigint sin firmar |
-| | **`hit_source`** | Indica la fuente de la que provino la visita. Se facturan las fuentes de visitas 1 y 2. <br>1: Solicitud de imagen estándar sin marca de tiempo <br>2: Solicitud de imagen estándar con marca de tiempo <br>3: Carga del origen de datos activo con marcas de tiempo <br>4: No utilizado <br>5: Carga genérica del origen de datos <br>6: Ya no se utiliza; carga completa del origen de datos de procesamiento <br>7: Carga del origen de datos TransactionID <br>8: Ya no se utiliza; Versiones anteriores de los orígenes de datos de Adobe Advertising <br>9: Ya no se utiliza; Métricas de resumen de Adobe Social <br>10: Reenvío del lado del servidor de Audience Manager utilizado | tinyint sin firmar |
+| | **`hit_source`** | Indica la fuente de la que provino la visita. Hit sources 1 and 2 are billed. <br>1: Standard image request without timestamp <br>2: Standard image request with timestamp <br>3: Live data source upload with timestamps <br>4: Not used <br>5: Generic data source upload <br>6: No longer used; full processing data source upload <br>7: TransactionID data source upload <br>8: No longer used; Previous versions of Adobe Advertising data sources <br>9: No longer used; Adobe Social summary metrics <br>10: Audience Manager server-side forwarding used | tinyint sin firmar |
 | | **`hit_time_gmt`** | La marca de tiempo de los servidores de recopilación de datos de visitas de Adobe que recibieron la visita, basada en el tiempo UNIX®. | int |
 | | **`hourly_visitor`** | Un indicador que determina si la visita es un visitante nuevo por hora. | tinyint sin firmar |
 | | **`ip`** | La dirección IPv4, basada en el encabezado HTTP de la solicitud de imagen. Exclusivo de forma mutua para `ipv6`; si esta columna contiene una dirección IP no oculta, `ipv6` está en blanco. | char(20) |
@@ -155,7 +155,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`post_`** | **`page_event_var1`** | Solo se utiliza en solicitudes de imagen de seguimiento de vínculos. URL del vínculo de descarga, de salida o personalizado en el que se hizo clic. | texto |
 | **`post_`** | **`page_event_var2`** | Solo se utiliza en solicitudes de imagen de seguimiento de vínculos. Nombre personalizado (si se especifica) del vínculo. Establece el [vínculo personalizado](/help/components/dimensions/custom-link.md), el [vínculo de descarga](/help/components/dimensions/download-link.md) o el [vínculo de salida](/help/components/dimensions/exit-link.md), según el valor de `page_event`. | varchar(100) |
 | **`post_`** | **`page_type`** | Dimensión [Páginas no encontradas](/help/components/dimensions/pages-not-found.md), que se usa generalmente para páginas 404. | char(20) |
-| **`post_`** | **`page_url`** | **`page_url`**: dirección URL de la visita. Utiliza un tipo de datos de texto.<br>**`post_page_url`**: se eliminó para las solicitudes de imagen de seguimiento de vínculos ([`tl()`](/help/implement/vars/functions/tl-method.md)). Utiliza un tipo de datos de varchar(255). | text<br>varchar(255) |
+| **`post_`** | **`page_url`** | **`page_url`**: The URL of the hit. Uses a data type of text.<br>**`post_page_url`**: Stripped for link tracking image requests ([`tl()`](/help/implement/vars/functions/tl-method.md)). Uses a data type of varchar(255). | text<br>varchar(255) |
 | | **`paid_search`** | Un indicador que se determina si la visita coincide con la detección de búsquedas de pago. | tinyint sin firmar |
 | **`post_`** | **`persistent_cookie`** | Se utiliza en la dimensión [Compatibilidad con cookies persistentes](/help/components/dimensions/persistent-cookie-support.md). Indica si el visitante admite cookies que no se descartan después de cada visita. | char(1) |
 | **`post_`** | **`pointofinterest`** | Nombre del punto de interés de Mobile Services | varchar(255) |
@@ -166,7 +166,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | | **`quarterly_visitor`** | Un indicador que determina si la visita es un visitante nuevo trimestral. | tinyint sin firmar |
 | **`post_`** | **`referrer`** | Dimensión [Referente](/help/components/dimensions/referrer.md). Tenga en cuenta que mientras `referrer` utiliza un tipo de datos de varchar(255), `post_referrer` emplea un tipo de datos de varchar(244). | varchar(255)<br>varchar(244) |
 | | **`ref_domain`** | Dimensión [Dominio de referencia](/help/components/dimensions/referring-domain.md). Se basa en la columna`referrer`. | varchar(100) |
-| | **`ref_type`** | ID numérico que representa el tipo de referente de la visita. Se utiliza en la dimensión [Tipo de referente](/help/components/dimensions/referrer-type.md).<br>1: Dentro del sitio<br>2: Otros sitios web<br>3: Motores de búsqueda<br>4: Disco duro<br>5: USENET<br>6: Escritos o marcadores (sin referente)<br>7: Correo electrónico<br>8: Sin JavaScript<br>9: Redes sociales<br>10: Herramientas de IA conversacional | tinyint sin firmar |
+| | **`ref_type`** | ID numérico que representa el tipo de referente de la visita. Se utiliza en la dimensión [Tipo de referente](/help/components/dimensions/referrer-type.md).<br>1: Inside your site<br>2: Other web sites<br>3: Search engines<br>4: Hard drive<br>5: USENET<br>6: Typed/Bookmarked (no referrer)<br>7: Email<br>8: No JavaScript<br>9: Social Networks<br>10: Conversational AI tools | tinyint sin firmar |
 | | **`resolution`** | ID numérico que representa la resolución del monitor. Se utiliza en la dimensión [Resolución del monitor](/help/components/dimensions/monitor-resolution.md). Utiliza la tabla de búsqueda `resolution.tsv`. | smallint sin firmar |
 | **`post_`** | **`search_engine`** | ID numérico que representa el motor de búsqueda que redirigió al visitante a su sitio. Se utiliza en dimensiones del [motor de búsqueda](/help/components/dimensions/search-engine.md). Se remite a la tabla de búsqueda `search_engines.tsv`. | smallint sin firmar |
 | | **`search_page_num`** | Lo utiliza la dimensión [Rango de todas las páginas de búsqueda](/help/components/dimensions/all-search-page-rank.md). Indica en qué página de resultados de búsqueda apareció su sitio antes de que se hiciera clic para acceder a él. | smallint sin firmar |
@@ -178,7 +178,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`post_`** | **`tnt`** | Se utiliza en las integraciones de Adobe Target. Representa todas las pruebas para las que está cualificado actualmente. El formato es: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | texto |
 | **`post_`** | **`tnt_action`** | Se utiliza en las integraciones de Adobe Target. Representa todas las pruebas para las que se calificó la visita. | texto |
 | | **`tnt_instances`** | Se utiliza en las integraciones de Adobe Target. Variable de instancias de Target. | texto |
-| **`post_`** | **`transactionid`** | Un identificador único donde, más tarde, se pueden cargar diversos puntos de datos a través de fuentes de datos. Recopilado mediante la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | texto |
+| **`post_`** | **`transactionid`** | A unique identifier where various data points can be uploaded later through data sources. Recopilado mediante la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | texto |
 | | **`truncated_hit`** | Un indicador que indica que se truncó la solicitud de imagen (se recibió una visita parcial). <br>S: Se truncó la visita; visita parcial recibida <br>N: La visita no se truncó; visita completa recibida | char(1) |
 | **`post_`** | **`t_time_info`** | Hora local del visitante. El formato es: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | | **`userid`** | Sin uso. ID numérico del ID del grupo de informes. Utilice `username` en su lugar. | int sin firmar |
@@ -231,7 +231,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`post_`** | **`videoqoetimetostartevar`** | Dimensión de servicios de medios de streaming [Tiempo para el inicio](/help/components/dimensions/sm-quality.md). | varchar(255) |
 | **`post_`** | **`videoseason`** | Dimensión de servicios de medios de streaming [Temporada](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
 | **`post_`** | **`videosegment`** | Dimensión de servicios de medios de streaming [Segmento de contenido](/help/components/dimensions/sm-core.md). | varchar(255) |
-| **`post_`** | **`videosessionid`** | La dimensión de servicios de medios de streaming [ID de sesión de medios](/help/components/dimensions/sm-core.md). | varchar(255) |
+| **`post_`** | **`videosessionid`** | The [Media session ID](/help/components/dimensions/sm-core.md) streaming media services dimension. | varchar(255) |
 | **`post_`** | **`videoshow`** | Dimensión de servicios de medios de streaming [Programa](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
 | **`post_`** | **`videoshowtype`** | Dimensión de servicios de medios de streaming [Tipo de programa](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
 | | **`videostreamtype`** | Dimensión de servicios de medios de streaming [Tipo de emisión](/help/components/dimensions/sm-core.md). | varchar(255) |
@@ -240,7 +240,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | | **`visid_new`** | Un indicador que determina si la visita contiene un ID de visitante recién generado. | char(1) |
 | | **`visid_timestamp`** | Si el ID de visitante se ha generado recientemente, proporciona la marca de tiempo en tiempo UNIX® del momento en que se generó el ID de visitante. | int |
 | **`post_`** | **`visid_type`** | No para uso externo; Adobe lo utiliza internamente para procesar optimizaciones. ID numérico que representa el método utilizado para identificar al visitante.<br>`0`: ID de visitante personalizado o desconocido/no aplicable<br>`1`: IP y reserva del agente de usuario <br>`2`: encabezado de suscriptor móvil HTTP <br>`3`: valor de la cookie heredada (`s_vi`) <br>`4`: valor de la cookie de reserva (`s_fid`) <br>`5`: servicio de identidad | tinyint sin firmar |
-| **`post_`** | **`visit_keywords`** | Dimensión [Palabra clave de búsqueda](/help/components/dimensions/search-keyword.md). Esta columna utiliza un límite de caracteres no estándar de varchar(244) para dar cabida a la lógica back-end que utiliza Adobe. La columna posprocesada es `**post_keywords**`, no `**post_visit_keywords**`. | varchar(244) |
+| **`post_`** | **`visit_keywords`** | Dimensión [Palabra clave de búsqueda](/help/components/dimensions/search-keyword.md). This column uses a non-standard character limit of varchar(244) to accommodate back-end logic used by Adobe. The post-processed column is `**post_keywords**`, not `**post_visit_keywords**`. | varchar(244) |
 | | **`visit_num`** | Dimensión [Número de visitas](/help/components/dimensions/visit-number.md). Empieza en 1 y aumenta cada vez que se inicia una nueva visita por visitante. | int sin firmar |
 | | **`visit_page_num`** | Dimensión [Profundidad de la visita](/help/components/dimensions/hit-depth.md). Aumenta en 1 por cada visita que genera el visitante. Restablece cada visita. | int sin firmar |
 | | **`visit_referrer`** | El primer referente de la visita. | varchar(255) |
@@ -258,7 +258,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 
 La siguiente lista de columnas no se utiliza, se ha retirado o no contiene valor en la creación de informes. Algunas de estas columnas están vinculadas a funciones que se han retirado, mientras que otras ya no son necesarias debido a funciones nuevas y más sólidas. La mayoría de estas columnas no contienen datos; las columnas que aún podrían contener datos no son compatibles con las bibliotecas de recopilación de datos actuales y no son dimensiones disponibles en Analysis Workspace.
 
-| Publicar | Nombre de la columna |
+| Post | Nombre de la columna |
 | ---: | :--- |
 | `post_` | `adclassificationcreative` |
 | | `click_action` |

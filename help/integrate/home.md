@@ -3,25 +3,25 @@ title: Integración de Analytics
 description: Descubra cómo puede integrar datos de otras ubicaciones en Adobe Analytics.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Activity Map
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 99%
+source-wordcount: '167'
+ht-degree: 72%
 
 ---
 
 # Integración de Analytics
 
-Esta guía se centra en la integración de varias soluciones de Adobe Experience Cloud, como Audience Manager, Advertising Cloud o Target. Incluye:
+Esta guía se centra en la integración de varias soluciones de Adobe Experience Cloud, como Audience Manager, Advertising o Target. Incluye:
 
 * **Audience Analytics:** Integre Adobe Audience Manager con Adobe Analytics.
 * **Advertising Analytics:** Consulte los datos de búsqueda de pago en paralelo con los datos de Adobe Analytics.
-* **Analytics para Advertising Cloud DSP:** integra Adobe Analytics y Adobe Advertising Cloud para ampliar y mejorar las funcionalidades de cada producto. 
+* **Analytics para Advertising DSP:** integra Adobe Analytics y Adobe Advertising para ampliar y mejorar las capacidades de cada producto.
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics para Advertising Cloud](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics para Advertising](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

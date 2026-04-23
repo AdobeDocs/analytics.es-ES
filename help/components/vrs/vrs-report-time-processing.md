@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 68%
+source-wordcount: '1317'
+ht-degree: 69%
 
 ---
 
@@ -58,12 +58,12 @@ Además, Procesamiento de intervalo de tiempo solo procesa los datos que se prod
 Las siguientes dimensiones y métricas no son compatibles con Procesamiento de intervalo de tiempo:
 
 * **Analytics for Target**
-* **Métricas/dimensiones de Analytics para Advertising Cloud**
+* [**Dimensiones/métricas de Advertising**](/help/components/dimensions/amo-id.md)
 * **eVars de contador**
 * [**Días antes de la primera compra**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Días desde la última compra**](/help/components/dimensions/days-since-last-purchase.md)
 * [**Días transcurridos desde la última visita**](/help/components/dimensions/days-since-last-visit.md)
-* **Página de entrada original**
+* [**Página de entrada original**](/help/components/dimensions/entry-dimensions.md)
 * **eVars de asignación lineal**
 * **Variables de lista**
 * [**Dimensiones de los canales de marketing**](/help/components/dimensions/marketing-channel.md)

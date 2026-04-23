@@ -3,10 +3,10 @@ title: Informes de comportamiento en Adobe Analytics
 description: Descubra cómo crear informes de comportamiento en Adobe Analytics
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 98%
+source-wordcount: '802'
+ht-degree: 95%
 
 ---
 
@@ -87,4 +87,4 @@ Ya que esta función requiere cambios en la implementación, Adobe recomienda tr
 
 ## Informes de editor
 
-De forma similar a como Google requiere una conexión con Google Ad Manager, Adobe tiene un producto diseñado para proporcionar información denominado Adobe Advertising Cloud. Si su organización está interesada en utilizar este producto, póngase en contacto con el equipo de cuenta de Adobe.
+Similar to how Google requires a connection with Google Ad Manager, Adobe offers a dedicated product to provide insight called Adobe Advertising. If your organization is interested in using this product, contact your Adobe Account Team.
