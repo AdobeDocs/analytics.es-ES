@@ -32,7 +32,7 @@ Esta página cubre los requisitos de seguridad para los servidores FTP y SFTP ex
 >FTP y SFTP son tipos de destino heredados. En lugar de actualizar las cuentas de FTP a SFTP y rotar las contraseñas SFTP como se describe en este artículo, Adobe recomienda pasar a un tipo de destino de nube moderno (como Amazon S3, Google Cloud Platform o Azure). Estos destinos en la nube proporcionan un nivel más alto de seguridad. Para obtener más información, consulte [Configurar cuentas de importación y exportación en la nube](https://experienceleague.adobe.com/es/docs/analytics/components/locations/configure-import-accounts).
 >
 >* **Si las cuentas FTP y SFTP se usan exclusivamente para clasificaciones, migre a los conjuntos de clasificaciones.**
->Si su cuenta FTP o SFTP se usa exclusivamente para clasificaciones, debería migrar del **importador de clasificaciones** a **conjuntos de clasificaciones**, en lugar de actualizar las cuentas FTP a SFTP y rotar las contraseñas SFTP como se describe en este artículo. El importador de clasificaciones quedará obsoleto y dejará de ser accesible después del **31 de agosto de 2026**. Para obtener más información, consulte [Descripción general de los conjuntos de clasificaciones](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview).
+>Si su cuenta FTP o SFTP se usa exclusivamente para clasificaciones, debería migrar del **importador de clasificaciones** a **conjuntos de clasificaciones**, en lugar de actualizar las cuentas FTP a SFTP y rotar las contraseñas SFTP como se describe en este artículo. El importador de clasificaciones quedará obsoleto y dejará de ser accesible después del **31 de agosto de 2026**. Para obtener más información, consulte [Descripción general de los conjuntos de clasificaciones](https://experienceleague.adobe.com/es/docs/analytics/components/classifications/sets/overview).
 
 ## Requisitos previos
 
@@ -177,7 +177,7 @@ Puede ser un servidor FTP alojado en Adobe o su propio servidor FTP.
 
 1. Repita este proceso para cada cuenta SFTP que haya creado.
 
-Para obtener instrucciones detalladas, consulte [Configurar ubicaciones de importación y exportación en la nube](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations).
+Para obtener instrucciones detalladas, consulte [Configurar ubicaciones de importación y exportación en la nube](https://experienceleague.adobe.com/es/docs/analytics/components/locations/configure-import-locations).
 
 ### Paso 3: Editar fuentes de datos y solicitudes de Data Warehouse para utilizar el nuevo destino SFTP
 
