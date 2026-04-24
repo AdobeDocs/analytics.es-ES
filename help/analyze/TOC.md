@@ -4,9 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Aprenda a utilizar las herramientas de Analytics, incluyendo Analysis Workspace, paneles de Analytics, Report Builder y su versión heredada, y Activity Map.
-source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
+index: true
+source-git-commit: b17c00ac631759e199b2c518883c143f1522881e
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 100%
 
 ---
@@ -174,7 +175,7 @@ ht-degree: 100%
    + [Trabajar con segmentos](report-builder/work-with-segments.md)
    + [Filtrar dimensiones](report-builder/filter-dimensions.md)
    + [Administrar bloques de datos](report-builder/manage-reportbuilder.md)
-   + [Programar libros de trabajo para el correo electrónico](report-builder/schedule-reportbuilder.md)
+   + [Programar libros para correo electrónico](report-builder/schedule-reportbuilder.md)
    + [Programar libros para exportaciones en la nube](/help/analyze/report-builder/report-builder-export.md)
    + [Administrar libros de trabajo programados](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Configuración de Report Builder](report-builder/report-builder-settings.md)
@@ -303,6 +304,6 @@ ht-degree: 100%
    + [Paneles de Adobe Analytics: Información general](mobile-app/home.md)
    + [Introducción para el gestor de datos](mobile-app/curator.md)
    + [Creación de un cuadro de resultados móvil](mobile-app/create-scorecard.md)
-   + [Configuración de ejecutivos para que utilicen paneles de control](mobile-app/set-up-execs.md)
+   + [Configuración de ejecutivos para que utilicen tableros](mobile-app/set-up-execs.md)
    + [Guía de inicio rápida para el usuario ejecutivo](mobile-app/executive.md)
 + [Labs](labs.md)
