@@ -5,8 +5,8 @@ feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 8%
+source-wordcount: '545'
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ Puede ver el historial de trabajos de cada fuente de datos, reenviar trabajos o 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_job_history"
 >title="Historial de trabajos de fuentes de datos"
->abstract="Puede ver una lista de trabajos de fuentes de datos para una fuente de datos determinada desde esta página. Buscar trabajos por ID de solicitud o fecha de inicio del período de solicitud. La información sobre cada trabajo se muestra en las columnas disponibles. También puede reenviar un trabajo con los mismos datos o volver a procesar los datos de origen de un trabajo antes de reenviarlo."
+>abstract="Puede ver una lista de trabajos de fuentes de datos para alguna determinada desde esta página. Busque trabajos por ID de solicitud o fecha de inicio del período de solicitud. La información sobre cada trabajo se muestra en las columnas disponibles. También puede reenviar un trabajo con los mismos datos o volver a procesar los datos de origen de un trabajo antes de reenviarlo."
 
 <!-- markdownlint-enable MD034 -->
 
