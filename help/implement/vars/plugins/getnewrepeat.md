@@ -4,9 +4,9 @@ description: Rastree la actividad de visitantes nuevos frente a los que repiten.
 feature: Appmeasurement Implementation
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 role: Admin, Developer
-source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
+source-git-commit: 53f44c09cd68fce618f08ea0042c411cfc6d1681
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '681'
 ht-degree: 71%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 71%
 
 {{plug-in}}
 
-El complemento `getNewRepeat` le permite determinar si un visitante del sitio accede por primera vez o si repite dentro de un número determinado de días. Adobe recomienda utilizar este complemento si desea identificar a los visitantes como “nuevos” con un número personalizado de días. Este complemento no es necesario si los segmentos &#39;[!UICONTROL Nuevos visitantes]&#39; y &#39;[!UICONTROL Visitantes repetidos]&#39; de Analysis Workspace satisfacen las necesidades de su organización.
+El complemento `getNewRepeat` le permite determinar si un visitante del sitio accede por primera vez o si repite dentro de un número determinado de días. Adobe recomienda utilizar este complemento si desea identificar a los visitantes como “nuevos” con un número personalizado de días. Este complemento no es necesario si los segmentos [!UICONTROL Visitas por primera vez] y [!UICONTROL Visitas de retorno] de Analysis Workspace satisfacen las necesidades de su organización.
 
 ## Instalación del complemento con la extensión Web SDK
 
@@ -52,7 +52,7 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
    * Tipo de acción: Inicializar getNewRepeat
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado de 
+## Instalación del complemento con el editor de código personalizado de
 
 Si no desea utilizar la extensión de complemento Common Analytics Plugins, puede utilizar el editor de código personalizado.
 
