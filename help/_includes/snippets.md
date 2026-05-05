@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7f7f0db4790dc7c09361dd6410591eb2e611498a
-workflow-type: ht
-source-wordcount: '3047'
-ht-degree: 100%
+source-git-commit: 851e0aaa0b19e95dca057dbc30d9466a897145a6
+workflow-type: tm+mt
+source-wordcount: '3044'
+ht-degree: 98%
 
 ---
 # Fragmentos
@@ -14,7 +14,7 @@ ht-degree: 100%
 >Desde el 16 de octubre de 2024 hay disponible un [Report Builder](/help/analyze/report-builder/rb-overview.md) nuevo y optimizado. Este Report Builder es compatible con macOS, Windows y exploradores web y se puede utilizar con Adobe Analytics y Customer Journey Analytics.
 >Esta versión de complemento heredado de Report Builder sigue funcionando. Puede [convertir sus libros heredados](/help/analyze/report-builder/convert-workbooks.md) al nuevo Report Builder.
 
-## Anuncio del final de la vida útil de Reports &amp; Analytics {#ra-eol}
+## Anuncio del final de la vida útil de Reports & Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -82,7 +82,7 @@ Un modelo de atribución determina qué elementos de dimensión obtienen crédit
 | ![J inversa](/help/assets/icons/AttributeInverseJ.svg) | J inversa | Otorga un 60% de crédito al primer contacto, un 20% al último contacto y divide el 20% restante en cualquier punto de contacto intermedio. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. Para las conversiones con dos puntos de contacto, se otorga un 75 % de crédito a la primera interacción y un 25 % de crédito a la última. Este modelo de atribución, que es similar a la Forma J, favorece la primera y la última interacción, pero favorece más intensamente la primera interacción. |
 | ![Deterioro de tiempo](/help/assets/icons/AttributeTimeDecay.svg) | Declive temporal | Sigue un declive exponencial con un parámetro de semivida personalizado, con un valor predeterminado de 7 días. El valor de cada canal depende de la cantidad de tiempo que transcurra entre el inicio del punto de contacto y la conversión final. La fórmula utilizada para determinar el crédito es `2^(-t/halflife)`, donde `t` es la cantidad de tiempo entre un punto de contacto y una conversión. A continuación, todos los puntos de contacto se normalizan al 100 %. Es ideal en las situaciones en las que desea medir la atribución con respecto a un evento específico e importante. Cuanto más tiempo tarde en suceder una conversión después de este evento, menos crédito se le atribuirá. |
 | ![Personalizado](/help/assets/icons/AttributeCustom.svg) | Personalizado | Le permite especificar los valores que desea asignar al primer punto de contacto, al último punto de contacto y a cualquier punto de contacto intermedio. Los valores especificados se normalizan al 100% incluso si los números introducidos no suman 100. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. En el caso de interacciones con dos puntos de contacto, se omite el parámetro central. A continuación, los primeros y últimos puntos de contacto se normalizan al 100 % y se asigna el crédito correspondiente. Este modelo es perfecto para los analistas que quieren tener un control total sobre su modelo de atribución y tienen necesidades específicas que otros modelos de atribución no satisfacen. |
-| ![Algorítmico](/help/assets/icons/AttributeAlgorithmic.svg) | Algorítmico | Utiliza técnicas estadísticas para determinar de manera dinámica la asignación óptima de crédito para la métrica seleccionada. El algoritmo utilizado para la atribución se basa en el dividendo de Harsanyi de la teoría de juegos cooperativa. El dividendo de Harsanyi es una generalización de la solución del valor de Shapley (llamada así por Lloyd Shapley, economista ganador del Premio Nobel) para distribuir crédito entre los jugadores en un juego con contribuciones desiguales al resultado.<br>En un nivel superior, la atribución se calcula como una coalición de actores a los que debe distribuirse equitativamente un excedente. La distribución del superávit de cada coalición se determina de acuerdo con el superávit creado previamente por cada subcoalición (o los elementos de dimensión que participaban antes) de manera recursiva. Para obtener más información, consulte los artículos originales de John Harsanyi y Lloyd Shapley: <br>Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.<br>Harsanyi, John C. (1963). Un modelo de negociación simplificado para un juego cooperativo de n personas. *International Economic Review 4(2)*, 194-220. |
+| ![Algorítmico](/help/assets/icons/AttributeAlgorithmic.svg) | Algorítmico | Utiliza técnicas estadísticas para determinar de manera dinámica la asignación óptima de crédito para la métrica seleccionada. El algoritmo utilizado para la atribución se basa en el dividendo de Harsanyi de la teoría de juegos cooperativa. El dividendo de Harsanyi es una generalización de la solución del valor de Shapley (llamada así por Lloyd Shapley, economista ganador del Premio Nobel) para distribuir crédito entre los jugadores en un juego con contribuciones desiguales al resultado.<br>En un nivel superior, la atribución se calcula como una coalición de actores a los que debe distribuirse equitativamente un excedente. La distribución del superávit de cada coalición se determina de acuerdo con el superávit creado previamente por cada subcoalición (o los elementos de dimensión que participaban antes) de manera recursiva. Para obtener más información, vea los artículos originales de John Harsanyi y Lloyd Shapley: <br>Shapley, Lloyd S. (1953). A value for n-person games. *Contribuciones a la Teoría de los Juegos, 2(28)*, 307-317.<br>Harsanyi, John C. (1963). Un modelo de negociación simplificado para un juego cooperativo de n personas. *International Economic Review 4(2)*, 194-220. |
 
 {style="table-layout:auto"}
 
@@ -143,7 +143,6 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 | **Compatibilidad con los componentes en nodos o puntos de contacto** | Métricas, elementos de dimensión, segmentos e intervalos de fechas. | Métricas, elementos de dimensión, segmentos e intervalos de fechas. | Solo elementos de dimensión (excepto el punto de contacto inicial y final) |
 | **Comparar filtros** | No | Sí<p>Realice comparaciones paralelas de dos filtros distintos en el mismo informe</p> | No |
 | **Interacción de los componentes mediante arrastrar y soltar** | Sí | Sí | No |
-| **Recorridos de Adobe Journey Optimizer** | Sí</br>Abrir recorridos de Journey Optimizer para un análisis y una personalización más profundos | No | No |
 
 {style="table-layout:auto"}
 
@@ -190,7 +189,7 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 
 | Intervalo de fecha aplicado | Descripción |
 |---|---|
-| ![Intervalo de fecha](/help/assets/filter-daterange.png){width="300"} | La sección Intervalo de fecha aplicado permite filtrar un intervalo de fecha aplicable a los elementos.<ol><li>Seleccione un intervalo de fecha.</li><li>En la ventana emergente del calendario, defina un intervalo de fecha o seleccione uno de los ajustes preestablecidos disponibles.<br>Como alternativa, también puede especificar un intervalo de fecha directamente en la sección Intervalo de fecha del panel Filtro.</li></ol><ul><li>Los números indican lo siguiente:<ul><li>**(1)**: el número de intervalos de fechas modificados a partir de los ajustes preestablecidos predeterminados.</li><li>**5︎⃣**: el número de intervalos de fechas disponibles para los elementos resultantes del filtro actual.</li></ul> |
+| ![Intervalo de fecha](/help/assets/filter-daterange.png){width="300"} | La sección Intervalo de fecha aplicado permite filtrar un intervalo de fecha aplicable a los elementos.<ol><li>Seleccione un intervalo de fecha.</li><li>En la ventana emergente del calendario, defina un intervalo de fechas o seleccione uno de los ajustes preestablecidos disponibles.<br>También puede especificar un intervalo de fechas directamente en la sección Intervalo de fechas del panel Filtro.</li></ol><ul><li>Los números indican lo siguiente:<ul><li>**(1)**: el número de intervalos de fechas modificados a partir de los ajustes preestablecidos predeterminados.</li><li>**5︎⃣**: el número de intervalos de fechas disponibles para los elementos resultantes del filtro actual.</li></ul> |
 
 
 ## Desuso del importador de clasificaciones {#classification-importer-deprecation}
