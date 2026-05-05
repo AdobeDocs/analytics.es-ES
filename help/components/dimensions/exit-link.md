@@ -16,7 +16,7 @@ El &quot;Vínculo de salida&quot; [dimension](overview.md) indica los nombres de
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión recopila datos de la cadena de consulta [`pev2` ](/help/implement/validate/query-parameters.md) en solicitudes de imagen, según el valor de la cadena de consulta `pe`. La cadena de consulta `pe` determina qué dimensión de vínculo recibe el valor `pev2`:
+Esta dimensión recopila datos de la cadena de consulta [`pev2` &#x200B;](/help/implement/validate/query-parameters.md) en solicitudes de imagen, según el valor de la cadena de consulta `pe`. La cadena de consulta `pe` determina qué dimensión de vínculo recibe el valor `pev2`:
 
 * **[Vínculo personalizado](custom-link.md)**: `lnk_o`
 * **[Vínculo de descarga](download-link.md)**: `lnk_d`
