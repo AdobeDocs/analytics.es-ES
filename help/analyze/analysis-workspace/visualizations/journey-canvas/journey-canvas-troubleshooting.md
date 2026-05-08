@@ -15,7 +15,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización del lienzo de Recorrido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Consulte [Información general del lienzo de Recorrido](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting) para la _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**versión de este artículo._
+_Este artículo documenta la visualización del lienzo de Recorrido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Consulte [Información general del lienzo de Recorrido](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting) para la _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;versión de este artículo._
 
 >[!ENDSHADEBOX]
 
