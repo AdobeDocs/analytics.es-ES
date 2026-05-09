@@ -4,10 +4,10 @@ title: Inventario de Analytics
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 22%
+source-wordcount: '1224'
+ht-degree: 24%
 
 ---
 

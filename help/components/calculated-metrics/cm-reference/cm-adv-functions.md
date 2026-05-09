@@ -4,10 +4,10 @@ description: Obtenga información sobre las funciones avanzadas de métricas cal
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '4799'
-ht-degree: 97%
+source-wordcount: '4863'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Indica si se incluyen ceros en el cálculo. En algunas ocasiones cero significa 
 
 Por ejemplo, si tiene una métrica Ingresos y, a continuación, agrega una métrica Vistas de página al informe, de repente hay más filas para sus ingresos, todas con valor de cero. Probablemente, no quiera que esa métrica adicional afecte a ninguna **[MEDIA](cm-functions.md#mean)**, **[MÍNIMO DE FILA](cm-functions.md#row-min)**, **[CUARTIL](cm-functions.md#quartile)** y más cálculos que tenga en la columna de ingresos. En este caso, comprobaría el parámetro `include-zeros`.
 
-Un escenario alternativo es que tiene dos métricas de interés y una tiene un promedio o un mínimo más alto porque algunas de las filas son ceros. En ese caso, puede optar por no marcar el parámetro para incluir ceros
+Un escenario alternativo es que tiene dos métricas de interés y una tiene un promedio o un mínimo más alto porque algunas de las filas son ceros.  En ese caso, puede optar por no marcar el parámetro para incluir ceros
 
 
 ## Y {#and}
@@ -362,7 +362,7 @@ Devuelve la suma de los últimos n elementos de la columna x. Si n > 0, sume los
 
 | Argumento | Descripción |
 | --- | --- |
-| número | El último número N de filas para las que se devuelve la suma. Si N &lt;= 0 utilice todas las filas anteriores.  |
+| número | El último número N de filas para las que se devuelve la suma. Si N &lt;= 0 utilice todas las filas anteriores. |
 | métrica | La métrica para la que desea obtener la suma acumulativa. |
 
 ### Ejemplos
@@ -391,7 +391,7 @@ Devuelve el promedio de los últimos n elementos de la columna x. Si n > 0, sume
 
 | Argumento | Descripción |
 | --- | --- |
-| número | El último número N de filas para las que se devuelve el promedio. Si N &lt;= 0 utilice todas las filas anteriores.  |
+| número | El último número N de filas para las que se devuelve el promedio. Si N &lt;= 0 utilice todas las filas anteriores. |
 | métrica | La métrica para la que desea el promedio acumulado. |
 
 >[!NOTE]
@@ -674,7 +674,7 @@ Mayor o igual que. El resultado es 0 (falso) o 1 (verdadero).
 |---|---|
 | logical_test | Obligatorio. Cualquier valor o expresión que pueda evaluarse como TRUE o FALSE |
 | value_if_true | El valor que desea que sea devuelto si el argumento logical_test se evalúa como TRUE. (Este argumento es 0 de forma predeterminada si no se incluye). |
-| value_if_false | El valor que desee que se devuelva si el argumento logical_test evalúa en FALSE. (El valor predeterminado de este argumento es 0 si no se incluye.) |
+| value_if_false | El valor que desea que sea devuelto si el argumento logical_test se evalúa como FALSE. (Este argumento es 0 de forma predeterminada si no se incluye). |
 
 
 ## Menor que {#less-than}
@@ -754,14 +754,14 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-linear"
 >title="Regresión lineal: coeficiente de correlación"
->abstract="Regresión lineal: Y = a X + b. Devuelve el coeficiente de correlación."
+>abstract="Regresión lineal: Y = a X + b.  Devuelve el coeficiente de correlación."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros))]**
 
 
-[!BADGE Tabla]{type="Neutral"} Regresión lineal: Y = a X + b. Devuelve el coeficiente de correlación.
+[!BADGE Tabla]{type="Neutral"} Regresión lineal: Y = a X + b.  Devuelve el coeficiente de correlación.
 
 
 | Argumento | Descripción |
@@ -804,7 +804,7 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-linear"
 >title="Regresión lineal: predicción Y"
->abstract="Y = a X + b. Devuelve Y."
+>abstract="Regresión lineal: Y = a X + b. Devuelve Y."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -829,7 +829,7 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-linear"
 >title="Regresión lineal: pendiente"
->abstract="Y = a X + b. Devuelve a."
+>abstract="Regresión lineal: Y = a X + b. Devuelve a."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -873,13 +873,13 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-log"
 >title="Regresión logística: coeficiente de correlación"
->abstract="Regresión logística: Y = a X + b. Devuelve el coeficiente de correlación."
+>abstract="Regresión logarítmica: Y = a ln(X) + b. Devuelve el coeficiente de correlación."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"} Regresión logarítmica: Y = a ln(X) + b. Devuelve el coeficiente de correlación.
+[!BADGE Tabla]{type="Neutral"} Regresión de registro: Y = a ln(X) + b. Devuelve el coeficiente de correlación.
 
 | Argumento | Descripción |
 |---|---|
@@ -895,13 +895,13 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-log"
 >title="Regresión logística: intersección"
->abstract="Regresión logística: Y = a ln(X) + b. Devuelve b."
+>abstract="Regresión logarítmica: Y = a ln(X) + b. Devuelve b."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"} Regresión logarítmica: Y = a ln(X) + b. Devuelve b.
+[!BADGE Tabla]{type="Neutral"} Regresión de registro: Y = a ln(X) + b. Devuelve b.
 
 | Argumento | Descripción |
 |---|---|
@@ -911,20 +911,20 @@ Only available in CJA
 
 
 
-## Regresión logística: predicción Y  {#log-regression-predicted-y}
+## Regresión logística: predicción Y {#log-regression-predicted-y}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-log"
->title="Regresión logística: predicción Y "
->abstract="Regresión logística: Y = a ln(X) + b. Devuelve Y."
+>title="Regresión logística: predicción Y"
+>abstract="Regresión logarítmica: Y = a ln(X) + b. Devuelve Y."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Fila]{type="Neutral"} Regresión logarítmica: Y = a ln(X) + b. Devuelve Y.
+[!BADGE Fila]{type="Neutral"} Regresión de registro: Y = a ln(X) + b. Devuelve Y.
 
 | Argumento | Descripción |
 |---|---|
@@ -934,20 +934,20 @@ Only available in CJA
 
 
 
-## Regresión logística: pendiente  {#log-regression-slope}
+## Regresión logística: pendiente {#log-regression-slope}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-log"
->title="Regresión logística: pendiente "
->abstract="Regresión logística: Y = a ln(X) + b. Devuelve a."
+>title="Regresión logística: pendiente"
+>abstract="Regresión logarítmica: Y = a ln(X) + b. Devuelve a."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabla]{type="Neutral"} Regresión logarítmica: Y = a ln(X) + b. Devuelve a.
+[!BADGE Tabla]{type="Neutral"} Regresión de registro: Y = a ln(X) + b. Devuelve a.
 
 | Argumento | Descripción |
 |---|---|
@@ -1162,13 +1162,13 @@ Devuelve Pi: 3,14159...
 
 
 
-## Regresión cuadrática: coeficiente de correlación  {#quadratic-regression-correlation-coefficient}
+## Regresión cuadrática: coeficiente de correlación {#quadratic-regression-correlation-coefficient}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-quadratic"
->title="Regresión cuadrática: coeficiente de correlación "
+>title="Regresión cuadrática: coeficiente de correlación"
 >abstract="Regresión cuadrática: Y = (a + bX) ^ 2, Devuelve el coeficiente de correlación."
 
 <!-- markdownlint-enable MD034 -->
@@ -1183,13 +1183,13 @@ Devuelve Pi: 3,14159...
 | metric_Y | Una métrica que le gustaría correlacionar con metric_X |
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos |
 
-## Regresión cuadrática: intersección  {#quadratic-regression-intercept}
+## Regresión cuadrática: intersección {#quadratic-regression-intercept}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-quadratic"
->title="Regresión cuadrática: intersección "
+>title="Regresión cuadrática: intersección"
 >abstract="Regresión cuadrática: Y = (a + bX) ^ 2, Devuelve a."
 
 <!-- markdownlint-enable MD034 -->
@@ -1294,13 +1294,13 @@ Devuelve Pi: 3,14159...
 | include_zeros | Indica si se deben incluir o no valores cero en los cálculos |
 
 
-## Regresión recíproca: predicción Y  {#reciprocal-regression-predicted-y}
+## Regresión recíproca: predicción Y {#reciprocal-regression-predicted-y}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-reciprocal"
->title="Regresión recíproca: predicción Y "
+>title="Regresión recíproca: predicción Y"
 >abstract="Regresión recíproca: Y = a + b X ^ -1. Devuelve Y."
 
 <!-- markdownlint-enable MD034 -->

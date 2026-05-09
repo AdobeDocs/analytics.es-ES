@@ -4,10 +4,10 @@ title: Panel de resumen de página
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 90%
+ht-degree: 87%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Panel Resumen de página"
->abstract="Revise rápidamente algunas de las métricas de alto nivel, así como el movimiento desde y hacia una página específica.<br/><br/>**Parámetros &#x200B;**<br/>**Añadir un elemento de dimensión de página**: abra el carril del componente, busque la dimensión Página y expándala haciendo clic en la zanahoria para ver los elementos de dimensión. A continuación, arrastre y suelte la página específica sobre la que desee obtener información en el generador. Una vez que haya arrastrado y soltado el elemento de dimensión, el informe se rellenará automáticamente con información clave sobre la página."
+>abstract="Revise rápidamente algunas de las métricas de alto nivel, así como el movimiento hacia una página específica y desde esta.<br/><br/>**Parámetros &#x200B;**<br/>**Añadir un elemento de dimensión de página**: abra el carril del componente, busque la dimensión Página y expándala haciendo clic en la zanahoria para ver los elementos de dimensión. A continuación, arrastre y suelte la página específica sobre la que desee obtener información en el generador. Una vez que haya arrastrado y soltado el elemento de dimensión, el informe se rellenará automáticamente con información clave sobre la página."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Resumen de página en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_No hay un panel equivalente en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Este artículo documenta el panel Resumen de página en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_No hay un panel equivalente en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ Un panel **[!UICONTROL Resumen de página]** le permite explorar estadísticas c
 
 Para usar un panel **[!UICONTROL Resumen de página]**:
 
-1. Crear un panel de **[!UICONTROL Resumen de página]**. Para obtener información sobre cómo crear un panel, consulte [Crear un panel](panels.md#create-a-panel).
+1. Crear un panel de **[!UICONTROL Resumen de página]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
 
 1. Especifica la [entrada](#panel-input) para el panel.
 
@@ -57,7 +57,7 @@ Puede acceder al panel desde [!UICONTROL Informes] o desde [!UICONTROL Workspace
 | Punto de acceso | Descripción |
 | --- | --- |
 | [!UICONTROL Informes] | <ul><li>El panel ya se ha colocado en un proyecto.</li><li>El carril izquierdo está contraído.</li><li>Solo se admite la dimensión Página.</li><li>Ya se ha aplicado una configuración predeterminada, en este caso, la página más visitada para la dimensión [!UICONTROL Página]. Puede modificar esta configuración.</li></ul> |
-| Workspace | Cree un nuevo proyecto y seleccione el icono Panel en el carril izquierdo. Arrastre el panel [!UICONTROL Resumen de página] sobre la tabla de forma libre. Observe que el [!UICONTROL Elemento de dimensión] de página se deja en blanco. Seleccione un elemento de dimensión en la lista desplegable.  |
+| Workspace | Cree un nuevo proyecto y seleccione el icono Panel en el carril izquierdo. Arrastre el panel [!UICONTROL Resumen de página] sobre la tabla de forma libre. Observe que el [!UICONTROL Elemento de dimensión] de página se deja en blanco. Seleccione un elemento de dimensión en la lista desplegable. |
 
 ### Entrada de panel {#panel-input}
 
@@ -74,7 +74,7 @@ Puede configurar el panel [!UICONTROL Resumen de página] utilizando estos ajust
 
 Seleccione **[!UICONTROL Generar]** para generar el panel.
 
-### Salida de panel {#panel-output}
+### Salida del panel {#panel-output}
 
 El panel [!UICONTROL Resumen de página] devuelve un completo conjunto de datos de métricas y visualizaciones para ayudarle a comprender mejor las estadísticas sobre páginas específicas.
 

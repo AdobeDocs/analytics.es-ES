@@ -4,10 +4,10 @@ description: Aprenda a profundizar en los datos de su audiencia y a dividir esos
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 89%
+source-wordcount: '738'
+ht-degree: 83%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"
 >title="Tabla de cohortes"
->abstract="Agrupe a los usuarios en función de la finalización de un evento y, a continuación, analice su participación actual y las cancelaciones a lo largo del tiempo.<br/><br/>**Parámetros &#x200B;**<br/>**Criterios de inclusión**: los componentes utilizados para definir las cohortes de visitantes iniciales.<br/>**Criterios de retorno**: los componentes utilizados para determinar si un visitante ha regresado."
+>abstract="Agrupe a los usuarios en función de la finalización de un evento y, a continuación, analice su participación continua y la pérdida a lo largo del tiempo.<br/><br/>**Parámetros &#x200B;**<br/>**Criterios de inclusión**: Los componentes utilizados para definir las cohortes de visitantes iniciales.<br/>**Criterios de retorno**: los componentes utilizados para determinar si un visitante ha regresado."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la tabla de cohorte en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Tabla de cohortes](https://experienceleague.adobe.com/e/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta la tabla de cohorte en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Tabla de cohorte](https://experienceleague.adobe.com/e/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versión de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -92,7 +92,7 @@ Puede calcular la retención o la cancelación basada en la columna anterior, no
 
 ![Informe de retención de cohorte que muestra los cálculos basados en una columna de datos anterior.](assets/retention-report-rolling.png)
 
-### Tabla de latencia
+### Tabla de latencias
 
 Una tabla de latencia mide el tiempo que transcurre antes y después de que se produzca el evento de inclusión. Medir la latencia es una excelente herramienta para el análisis previo/posterior. La columna **[!UICONTROL Incluido]** está en el centro de la tabla y a ambos lados se muestran los periodos de tiempo antes y después del evento de inclusión.
 

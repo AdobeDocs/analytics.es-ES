@@ -4,9 +4,9 @@ title: Guardar proyectos
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '860'
 ht-degree: 95%
 
 ---
@@ -32,7 +32,7 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
 
 * **[!UICONTROL Guardar]**
 
-  Guardar cambios en el proyecto. Si se comparte el proyecto, sus destinatarios también verán los cambios. 
+  Guardar cambios en el proyecto. Si se comparte el proyecto, sus destinatarios también verán los cambios.
 
   Cuando guarda el proyecto por primera vez, aparece el cuadro de diálogo **[!UICONTROL Guardar]**.
 
@@ -40,7 +40,7 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
 
    1. Especifique lo siguiente:
 
-      * **[!UICONTROL Nombre]** (obligatorio).  nombre del proyecto.
+      * **[!UICONTROL Nombre]** (obligatorio). nombre del proyecto.
       * **[!UICONTROL Descripción]** Descripción del proyecto.
       * **[!UICONTROL Etiquetas]** Busque etiquetas en el campo [!UICONTROL *Buscar etiquetas*] o añada nuevas etiquetas usando **[!UICONTROL ENTRAR]**.
       * **[!UICONTROL Carpeta]** Seleccione una carpeta en el menú desplegable [!UICONTROL *Seleccionar una carpeta*]. Si no especifica una carpeta, el proyecto se guardará en la carpeta actual desde la que creó un nuevo proyecto.
@@ -77,13 +77,13 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
 
    1. Especifique lo siguiente:
 
-      * **[!UICONTROL Nombre]** (obligatorio).  nombre del proyecto.
+      * **[!UICONTROL Nombre]** (obligatorio). nombre del proyecto.
       * **[!UICONTROL Descripción]** Descripción del proyecto.
       * **[!UICONTROL Etiquetas]** Busque etiquetas en el campo [!UICONTROL *Buscar etiquetas*] o añada nuevas etiquetas usando **[!UICONTROL ENTRAR]**.
       * **[!UICONTROL Carpeta]** Seleccione una carpeta en el menú desplegable [!UICONTROL *Seleccionar una carpeta*]. Si no especifica una carpeta, el proyecto se guardará en la carpeta actual desde la que creó un nuevo proyecto.
       * **[!UICONTROL Notas de la versión]**. Añada notas de la versión en el área de texto *Añadir notas*.
 
-   1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
+   1. Seleccione **[!UICONTROL Guardar]** para guardar el proyecto.
 
   Puede guardar el proyecto en una carpeta diferente. El proyecto original no se verá afectado.
 
@@ -98,7 +98,7 @@ Cannot find this option in CJA
 
 >[!IMPORTANT]
 >
->Aunque los nuevos proyectos se guardan automáticamente, debe guardar cada nuevo proyecto manualmente la **primera** vez. 
+>Aunque los nuevos proyectos se guardan automáticamente, debe guardar cada nuevo proyecto manualmente la **primera** vez.
 >
 
 Todos los proyectos de Analysis Workspace se guardan automáticamente cada 2 minutos en el equipo local. Esto incluye los proyectos recién creados que aún no se han guardado manualmente.
@@ -107,7 +107,7 @@ Todos los proyectos de Analysis Workspace se guardan automáticamente cada 2 min
 
 Analysis Workspace solicita guardar los nuevos proyectos manualmente al cambiar a otro proyecto, cerrar la pestaña del explorador, etc.
 
-Si, por cualquier motivo, pierde de forma inesperada el acceso a un proyecto recién creado antes de guardarlo manualmente, se guardará una versión de recuperación del proyecto en la página de destino de Analysis Workspace en una carpeta denominada **[!UICONTROL Proyectos recuperados (últimos 7 días)]**.  Debe restaurar el proyecto recuperado y guardarlo manualmente en una ubicación deseada.
+Si, por cualquier motivo, pierde de forma inesperada el acceso a un proyecto recién creado antes de guardarlo manualmente, se guardará una versión de recuperación del proyecto en la página de destino de Analysis Workspace en una carpeta denominada **[!UICONTROL Proyectos recuperados (últimos 7 días)]**. Debe restaurar el proyecto recuperado y guardarlo manualmente en una ubicación deseada.
 
 Para restaurar un proyecto recuperado:
 

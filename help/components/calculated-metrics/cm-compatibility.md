@@ -3,9 +3,9 @@ description: Explica las tres opciones de Compatibilidad del producto.
 title: Compatibilidad de métricas
 feature: Calculated Metrics
 exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 68%
 
 ---
@@ -24,6 +24,6 @@ Al crear métricas calculadas en el creador de métricas calculadas, la métrica
 
 | Compatible con | Descripción |
 | --- | --- |
-| **[!UICONTROL Datos actuales]** | La opción [!UICONTROL Incluir datos actuales] en Adobe Analytics le permite ver los datos de Analytics más recientes, con frecuencia antes incluso de que dichos datos se hayan completado y procesado totalmente. Los [!UICONTROL Datos actuales] muestran la mayoría de las métricas en cuestión de minutos y proporcionan datos procesables que facilitan una toma de decisiones rápida. [!UICONTROL Datos actuales] solo admite métricas calculadas (aquellas que incluyan multiplicaciones, divisiones, sumas y restas). [!UICONTROL Los datos actuales] no admiten métricas calculadas avanzadas (que contengan segmentos o funciones). |
+| **[!UICONTROL Datos actuales]** | La opción [!UICONTROL Incluir datos actuales] en Adobe Analytics le permite ver los datos de Analytics más recientes, con frecuencia antes incluso de que dichos datos se hayan completado y procesado totalmente. Los [!UICONTROL Datos actuales] muestran la mayoría de las métricas en cuestión de minutos y proporcionan datos procesables que facilitan una toma de decisiones rápida. [!UICONTROL Datos actuales] solo admite métricas calculadas (aquellas que incluyan multiplicaciones, divisiones, sumas y restas). [!UICONTROL Datos actuales] no admite métricas calculadas avanzadas (que contengan segmentos o funciones). |
 | **[!UICONTROL Datos completamente procesados]** | Los datos que han sido completamente procesados e incluyen segmentos y clasificaciones. Si prefiere ver todas las métricas después de que se hayan procesado todos los datos, puede quitar usuarios del grupo Usuarios de datos actuales para deshabilitar los [!UICONTROL Datos actuales]. |
 | **[!UICONTROL Informes de canal de mercadotecnia]** | Las métricas con asignación de primer toque son compatibles únicamente los informes de Canal de marketing. |

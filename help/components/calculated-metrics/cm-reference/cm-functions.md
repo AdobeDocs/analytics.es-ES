@@ -4,9 +4,9 @@ description: Obtenga información sobre las funciones básicas de las métricas 
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: b8fae74ade75473f3d3d8d43598dfb16170b209f
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3642'
 ht-degree: 49%
 
 ---
@@ -34,7 +34,7 @@ Indica si se incluyen ceros en el cálculo. En algunas ocasiones cero significa 
 
 Por ejemplo, si tiene una métrica Ingresos y, a continuación, agrega una métrica Vistas de página al informe, de repente hay más filas para sus ingresos, todas con valor de cero. Probablemente, no quiera que esa métrica adicional afecte a ninguna **[MEDIA](cm-functions.md#mean)**, **[MÍNIMO DE FILA](cm-functions.md#row-min)**, **[CUARTIL](cm-functions.md#quartile)** y más cálculos que tenga en la columna de ingresos. En este caso, comprobaría el parámetro `include-zeros`.
 
-Un escenario alternativo es que tiene dos métricas de interés y una tiene un promedio o un mínimo más alto porque algunas de las filas son ceros. En ese caso, puede optar por no marcar el parámetro para incluir ceros
+Un escenario alternativo es que tiene dos métricas de interés y una tiene un promedio o un mínimo más alto porque algunas de las filas son ceros.  En ese caso, puede optar por no marcar el parámetro para incluir ceros
 
 
 
@@ -389,7 +389,7 @@ Devuelve x elevado a la potencia y.
 >[!CONTEXTUALHELP]
 >id="functions-quartile"
 >title="Cuartil"
->abstract="Devuelve el cuartil de los valores de una métrica. Por ejemplo, los cuartiles se pueden utilizar para encontrar el 25 % de productos que genera la mayor cantidad de ingresos."
+>abstract="Devuelve el cuartil de los valores de una métrica. Por ejemplo, los cuartiles se pueden utilizar para encontrar el primer 25 % de los productos que generan los mayores ingresos."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -420,13 +420,13 @@ Devuelve x elevado a la potencia y.
 >[!CONTEXTUALHELP]
 >id="functions-round"
 >title="Redondeo"
->abstract="Redondear sin un parámetro de *número* es lo mismo que redondear con un parámetro de *número* de 0, es decir, redondear al número entero más próximo.  Con un parámetro de *número*, REDONDEAR devuelve los dígitos de *número* a la derecha del decimal. Si *número* es negativo, devuelve ceros a la izquierda del decimal."
+>abstract="Redondear sin un parámetro de *número* es lo mismo que redondear con un parámetro de *número* de 0, es decir, redondear al número entero más próximo.  Con un parámetro de *número*, REDONDEAR devuelve los dígitos de *número* a la derecha del decimal.  Si *número* es negativo, devuelve ceros a la izquierda del decimal."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Efecto](/help/assets/icons/Effect.svg) **[!UICONTROL REDONDEO(métrica, número)]**
 
-Redondear sin un parámetro de *número* es lo mismo que redondear con un parámetro de *número* de 0, es decir, redondear al número entero más próximo.  Con un parámetro de *número*, REDONDEAR devuelve los dígitos de *número* a la derecha del decimal. Si *número* es negativo, devuelve ceros a la izquierda del decimal.
+Redondear sin un parámetro de *número* es lo mismo que redondear con un parámetro de *número* de 0, es decir, redondear al número entero más próximo.  Con un parámetro de *número*, REDONDEAR devuelve los dígitos de *número* a la derecha del decimal.  Si *número* es negativo, devuelve ceros a la izquierda del decimal.
 
 | Argumento | Descripción |
 |---|---|

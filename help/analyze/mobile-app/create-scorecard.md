@@ -4,10 +4,10 @@ title: Crear y compartir cuadros de resultados móviles
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '2528'
-ht-degree: 99%
+source-wordcount: '2614'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Un cuadro de resultados de Adobe Analytics muestra visualizaciones de datos clav
 
 ![Ejemplo de informe de valoración](assets/intro_scorecard.png)
 
-Como gestor de datos del cuadro de resultados, puede utilizar el Creador de cuadros de resultados para configurar los mosaicos que aparecerán en el cuadro de resultados de su consumidor ejecutivo. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses cuando se pulsen los mosaicos. La interfaz del Creador de cuadros de resultados se muestra a continuación:
+Como revisor de este cuadro de resultados, puede utilizar el creador de cuadros de resultados para configurar los mosaicos que aparecerán en el cuadro de resultados de su consumidor ejecutivo. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses cuando se pulsen los mosaicos. La interfaz del creador de cuadros de resultados se muestra a continuación:
 
 ![Creador de cuadros de resultados](assets/scorecard_builder.png)
 
@@ -68,7 +68,7 @@ Para implementar la plantilla del cuadro de resultados:
 
    ![Selección del grupo de informes](assets/properties_save.png)
 
-1. Para añadir un nuevo mosaico al cuadro de resultados, arrastre una métrica desde el panel izquierdo y suéltela en la zona **[!UICONTROL Arrastrar y soltar métricas aquí]**. También puede insertar una métrica entre dos mosaicos del mismo modo.
+1. Para añadir un nuevo mosaico a su cuadro de resultados, arrastre una métrica desde el panel izquierdo y suéltela en la zona **[!UICONTROL Arrastrar y soltar métricas aquí]**. También puede insertar una métrica entre dos mosaicos del mismo modo.
 
    ![Agregar mosaicos](assets/build_list.png)
 
@@ -170,7 +170,7 @@ Esta visualización muestra las barras horizontales que representan los distinto
 
 ### Eliminación de elementos de dimensión [!UICONTROL No especificados]
 
-Si desea quitar los elementos de dimensión [!UICONTROL No especificados] de los datos, haga lo siguiente:
+Si desea quitar elementos de dimensión [!UICONTROL No especificados] de los datos, haga lo siguiente:
 
 1. Seleccione el mosaico correcto.
 1. En el carril derecho, debajo de **[!UICONTROL Profundizar en]**, seleccione la flecha derecha junto al elemento de dimensión cuyos elementos **[!UICONTROL No especificados]** desea eliminar.
@@ -381,5 +381,5 @@ Para compartir un cuadro de resultados mediante un vínculo que se puede compart
 
    Cuando un destinatario abre el vínculo en un dispositivo móvil, el cuadro de resultados se abre directamente en la aplicación de paneles de Analytics.
 
-   Si un destinatario no ha descargado la aplicación móvil, se le redirigirá a la lista de aplicaciones de la tienda de App Store o Google Play donde puede descargarla.
+   Si un destinatario no ha descargado la aplicación móvil, se le redirigirá a la lista de aplicaciones de la tienda App Store o Google Play donde pueda descargarla.
 

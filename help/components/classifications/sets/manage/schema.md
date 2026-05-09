@@ -3,10 +3,10 @@ title: Esquema del conjunto de clasificaciones
 description: Obtenga información sobre cómo ver y editar el esquema de un conjunto de clasificaciones en Adobe Analytics. Añada, cargue, descargue o automatice datos de clasificación mediante ubicaciones de la nube.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 643cd85862b09d59d46f259c5ad20a7ce67c5995
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1618'
-ht-degree: 7%
+source-wordcount: '1654'
+ht-degree: 9%
 
 ---
 
@@ -83,7 +83,7 @@ Para importar datos de clasificación en el esquema para una clasificación, sel
 
    Cuando no se define ninguna clasificación en el conjunto de clasificaciones de una columna, se muestra una alerta ![Alert](/help/assets/icons/Alert.svg). La alerta explica que una clasificación no está presente en el conjunto de esquemas de clasificación existente y que se crea al importar.
 
-1. ¿Desea seleccionar **[!UICONTROL Sobrescribir datos en caso de conflicto?]** si desea sobrescribir los datos de clasificación actuales con los nuevos datos importados. Por ejemplo:
+1. ¿Desea seleccionar **[!UICONTROL sobrescribir datos en caso de conflicto?]** si desea sobrescribir los datos de clasificación actuales con los nuevos datos importados. Por ejemplo:
 
    | | Clave | Color del producto actual | Importar archivo | Nuevo color de producto |
    |---|---|---|---|---|
@@ -223,7 +223,7 @@ La barra de acciones muestra las acciones disponibles para la clasificación sel
 
 | Icono | Acción | Descripción |
 |---|---|---|
-| ![Examinar](/help/assets/icons/Browse.svg) | **[!UICONTROL Agregar búsqueda]** | Agregue un conjunto de clasificaciones como búsqueda (subclasificación).<br/>En la tabla **[!UICONTROL Adjuntar búsqueda]**: <ol><li>Seleccione una clasificación de búsqueda en el menú desplegable **[!UICONTROL Nombre de clasificación]**.</li><li>Seleccione **[!UICONTROL Añadir]**.</li></ol>La clasificación de búsqueda se agrega a la clasificación y se enumera en la columna **[!UICONTROL Clasificado por]** mediante el identificador interno. |
+| ![Examinar](/help/assets/icons/Browse.svg) | **[!UICONTROL Agregar búsqueda]** | Agregue un conjunto de clasificaciones como una búsqueda (subclasificación).<br/>En la tabla **[!UICONTROL Adjuntar búsqueda]**: <ol><li>Seleccione una clasificación de búsqueda en el menú desplegable **[!UICONTROL Nombre de clasificación]**.</li><li>Seleccione **[!UICONTROL Añadir]**.</li></ol>La clasificación de búsqueda se agrega a la clasificación y se enumera en la columna **[!UICONTROL Clasificado por]** mediante el identificador interno. |
 | ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Quitar búsqueda]** | Elimine un conjunto de clasificaciones como una búsqueda. Para eliminar la búsqueda permanentemente de la clasificación, en el cuadro de diálogo de confirmación **[!UICONTROL Quitar _conjunto de clasificación_ de _clasificación_]**, seleccione **[!UICONTROL Eliminar]**. |
 | ![Cambiar el nombre](/help/assets/icons/Rename.svg) | **[!UICONTROL Cambiar el nombre]** | Cambie el nombre de **[!UICONTROL Nombre de clasificación]** de una clasificación. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: _nombre de clasificación_]**, escriba un nombre nuevo y seleccione **[!UICONTROL Cambiar nombre]**. |
 | ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar una clasificación. Aparecerá el cuadro de diálogo **[!UICONTROL Eliminar _nombre de clasificación_]**. Seleccione **[!UICONTROL Eliminar]**&#x200B;para eliminar la clasificación. |

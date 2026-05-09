@@ -4,9 +4,9 @@ title: Información general sobre los intervalos de fechas
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '530'
 ht-degree: 100%
 
 ---
@@ -27,8 +27,8 @@ O bien, puede utilizar un intervalo de fechas en una tabla de forma libre como u
 
 ![Uso del intervalo de fechas](assets/date-ranges-usage.png)
 
-- **Métrica**.  Por ejemplo, para comparar una dimensión durante dos meses diferentes para una métrica específica.
-- **Dimensión**.  Para comparar una métrica en diferentes elementos de dimensión para la dimensión de intervalo de fechas.
+- **Métrica**. Por ejemplo, para comparar una dimensión durante dos meses diferentes para una métrica específica.
+- **Dimensión**. Para comparar una métrica en diferentes elementos de dimensión para la dimensión de intervalo de fechas.
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Analysis Workspace proporciona una serie de intervalos de fechas predeterminados
 | Hoy | Esta semana | Este mes | Este trimestre | Este año |
 | Ayer | Esta semana (sin incluir hoy) | Este mes (sin incluir hoy) | Este trimestre (sin incluir hoy) | Este año (sin incluir hoy) |
 | Hace 2 días | Hace 2 semanas | Hace 2 meses |   |  |
-| Hace 3 días | Hace 3 semanas | Hace 3 meses  |  | |
+| Hace 3 días | Hace 3 semanas | Hace 3 meses |  | |
 | Últimos 7 días | Semana pasada | Mes pasado | Último trimestre | Año pasado |
 | Últimos 14 días | Últimas 2 semanas completas | 2 últimos meses completos | Últimos 4 trimestres completos | |
 | Últimos 30 días | Últimas 3 semanas completas | 3 últimos meses completos | | |

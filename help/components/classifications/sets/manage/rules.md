@@ -3,10 +3,10 @@ title: Reglas de conjuntos de clasificaciones
 description: Aprenda a utilizar las reglas de conjuntos de clasificaciones para definir reglas para los datos de clasificación.
 feature: Classifications
 exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 15%
+source-wordcount: '1692'
+ht-degree: 13%
 
 ---
 
@@ -34,14 +34,14 @@ Para definir un conjunto de reglas para un conjunto de clasificaciones:
             * Seleccione **[!UICONTROL Migrar reglas]** para confirmar la migración. Una vez completada la migración, use la [interfaz del conjunto de reglas](#rule-set-interface) para crear nuevas reglas y editar las reglas migradas existentes.
             * Seleccione **[!UICONTROL Cancelar]** para cancelar la migración
 
-      * **Empiece de nuevo**. Cree nuevas reglas de clasificación desde cero con nuestro nuevo generador de reglas. Seleccione esta opción si desea rediseñar su lógica de clasificación o empezar de cero con las nuevas reglas de clasificación.
+      * **Empiece de nuevo**. Cree nuevas reglas de clasificación desde cero con el nuevo generador de reglas. Seleccione esta opción si desea volver a diseñar la lógica de clasificación o empezar de nuevo con nuevas reglas de clasificación.
          * Seleccione **[!UICONTROL Crear nuevas reglas]** para continuar.
          * En el cuadro de diálogo **[!UICONTROL Confirmar inicio reciente]**, lea las implicaciones de un nuevo inicio.
             * Seleccione **[!UICONTROL Comenzar de nuevo]** para confirmar un nuevo inicio y descartar las reglas existentes. Use la [interfaz del conjunto de reglas](#rule-set-interface) para crear nuevas reglas.
             * Seleccione **[!UICONTROL Cancelar]** para cancelar.
 
 
-      * **Usar interfaz heredada**. Siga utilizando la interfaz anterior del generador de reglas. Puede migrar a la nueva experiencia en cualquier momento cuando tenga todo listo.
+      * **Usar interfaz heredada**. Continúe utilizando la interfaz anterior del generador de reglas. Puede migrar a la nueva experiencia en cualquier momento cuando esté listo.
          * Seleccione **[!UICONTROL Ir a la interfaz heredada]** para continuar. Se le dirigirá a la interfaz heredada de **[!UICONTROL Generador de reglas de clasificación]**.
 
    * Si ya ha migrado reglas o ha creado nuevas reglas para un conjunto de clasificaciones, acaba directamente en la interfaz del conjunto de reglas.
@@ -63,7 +63,7 @@ Para crear o editar reglas, utilice la interfaz Conjunto de reglas.
 | | Nombre | Descripción |
 |---|---|---|
 | 1 | **[!UICONTROL Funciones]** | Utiliza el área **[!UICONTROL Funciones]** para seleccionar y arrastrar y soltar las funciones en el generador de conjuntos de reglas. |
-| 2 | **Generador de conjuntos de reglas** | El conjunto de reglas se crea mediante una o varias reglas. Una regla es la implementación de una función y siempre está asociada a una sola función. Una función puede tener varios operadores. Para crear una regla, arrastre y suelte una función en el generador de conjuntos de reglas. El tipo de función define la interfaz de la regla. <br/>Consulte la [interfaz de reglas](#rule-interface) para obtener más información.<br/>Puede insertar funciones en cualquier lugar, y las funciones se ejecutan en secuencia para determinar los valores finales de las clasificaciones.<br/>Use **[!UICONTROL Contraer todo]** para contraer todas las reglas y use **[!UICONTROL Expandir todo]** para expandir todas las reglas. |
+| 2 | **Generador de conjuntos de reglas** | El conjunto de reglas se crea mediante una o varias reglas. Una regla es la implementación de una función y siempre está asociada a una sola función. Una función puede tener varios operadores. Para crear una regla, arrastre y suelte una función en el generador de conjuntos de reglas. El tipo de función define la interfaz de la regla. <br/>Consulte la [Interfaz de regla](#rule-interface) para obtener más información.<br/>Puede insertar funciones en cualquier lugar, y las funciones se ejecutan en secuencia para determinar los valores finales de las clasificaciones.<br/>Use **[!UICONTROL Contraer todo]** para contraer todas las reglas y use **[!UICONTROL Expandir todo]** para expandir todas las reglas. |
 | 3 | **[!UICONTROL Estado]** | Mostrar el estado y la última fecha de modificación del conjunto de reglas. <br/>Seleccione **[!UICONTROL Activar]** para activar el conjunto de reglas. <br/>Seleccione **[!UICONTROL Desactivar]** para desactivar el conjunto de reglas. |
 | 4 | **[!UICONTROL Retrospectiva]** | Especifique la ventana retrospectiva para el conjunto de reglas.<br/>Seleccione una opción (de 1 mes a 6 meses) en el menú desplegable.<br/>Seleccione **[!UICONTROL Realizar retrospectiva]** para realizar una retrospectiva utilizando el período retrospectivo seleccionado. |
 | 5 | **[!UICONTROL Opciones de prueba]** | Utilice valores de dimensión clave de muestra para probar las clasificaciones: <ul><li>Agregue o pegue valores en el área de texto **[!UICONTROL Claves de muestra]**.<br/>Compruebe **[!UICONTROL Recordar claves de ejemplo]** para asegurarse de que las claves de ejemplo persisten en un uso diferente de la interfaz del conjunto de reglas.</li><li>Seleccione **[!UICONTROL Probar conjunto de reglas]** para probar el conjunto de reglas.</li></ul> |
@@ -177,7 +177,7 @@ Desea definir una regla para asignar `Winter Sale` como un valor a la clasificac
 +++
 
 
-### Devuelve como resultado 
+### Devuelve como resultado
 
 Establece una clasificación basada en un valor específico que coincide con el valor de dimensión clave.
 

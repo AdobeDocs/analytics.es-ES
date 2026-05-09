@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo publicar segmentos para la activid
 title: Publicar segmentos
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 43%
+source-wordcount: '1408'
+ht-degree: 41%
 
 ---
 
@@ -78,7 +78,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 
 | Elemento | Descripción |
 |---|---|
-| **[!UICONTROL Publicar este segmento en Experience Cloud (para *grupo de informes*)]** | Cuando esta opción está habilitada, el título y la definición del segmento se comparten con Experience Cloud de forma instantánea, mientras que la pertenencia al segmento se evalúa y comparte cada 4 horas. <br> Cuando dicho público está asociado a una actividad en [!DNL Target], por ejemplo, [!DNL Analytics] comienza a enviar ID para los visitantes que son aptos para este público de Experience Cloud y [!DNL Target]. En este punto, el nombre de audiencia y los datos correspondientes empiezan a mostrarse en la página [!DNL Audience Library] de Experience Cloud. </br> |
+| **[!UICONTROL Publicar este segmento en Experience Cloud (para *grupo de informes*)]** | Cuando esta opción está habilitada, el título y la definición del segmento se comparten con Experience Cloud de forma instantánea, mientras que la pertenencia al segmento se evalúa y comparte cada 4 horas. <br> Cuando esa audiencia está asociada con una actividad en [!DNL Target], por ejemplo, [!DNL Analytics] comienza a enviar identificadores para visitantes que califican para esa audiencia de Experience Cloud y [!DNL Target]. En este punto, el nombre de audiencia y los datos correspondientes empiezan a mostrarse en la página [!DNL Audience Library] de Experience Cloud. </br> |
 | **[!UICONTROL Ventana de creación de público]** | El lapso de tiempo seleccionado se utiliza para crear la audiencia en un calendario móvil. Por ejemplo, **[!UICONTROL Últimos 30 días]** (predeterminado) incluye visitantes que han cumplido los requisitos para la audiencia durante los últimos 30 días respecto a la fecha actual (NO desde la fecha original en que se creó el segmento). |
 | **[!UICONTROL Crear en la biblioteca de públicos]** | Los segmentos que cree y publique pueden estar disponibles sin latencia en la página [!DNL Audience Library] de Experience Cloud. No dependen de las actualizaciones de Analytics. Estos segmentos no cuentan con el límite de 75 segmentos publicados. |
 | **[!UICONTROL x de 75 publicados]** | El número de segmentos que ha publicado en Experience Cloud. Haga clic en el vínculo para ver una lista de los segmentos publicados y su grupo de informes y propietario asociados. |

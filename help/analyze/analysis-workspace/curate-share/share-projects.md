@@ -5,10 +5,10 @@ title: Compartir proyectos
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1976'
-ht-degree: 96%
+source-wordcount: '2060'
+ht-degree: 94%
 
 ---
 
@@ -107,7 +107,7 @@ Si hay cambios no guardados, se le pedirá que guarde primero el proyecto.
 
    O bien
 
-   Seleccione **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. (Si el proyecto ya se ha compartido, seleccione **[!UICONTROL Depurar y actualizar]**). Obtenga más información sobre la [depuración del proyecto](/help/analyze/analysis-workspace/curate-share/curate.md).
+   Seleccione **[!UICONTROL Depurar y compartir]** para aplicar la depuración del proyecto automáticamente. (Si el proyecto ya se ha compartido, seleccione **[!UICONTROL Depurar y actualizar]**). Más información sobre la [depuración del proyecto](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 ## Compartir un vínculo a un proyecto
 

@@ -4,10 +4,10 @@ title: Panel De Analytics For Target
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 97%
+source-wordcount: '1287'
+ht-degree: 93%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Panel de Analytics for Target"
->abstract="Analizar actividades y experiencias de Target en Analysis Workspace.<br/><br>**Parámetros &#x200B;**<br/>**Actividad de Target**: la actividad de Target que se analiza.<br/>**Experiencia de control**: experiencia de control para la actividad de Target seleccionada.<br/>**Métrica de normalización**: visitantes, visitas o impresiones. Esta métrica (también denominada metodología de contabilización) se convierte en el denominador del cálculo del alza. También afecta a la manera en que se agregan los datos antes de que se calcule la confianza.<br/>**Métricas de éxito**: hasta 3 métricas de éxito estándar (no calculadas) con las que analizar la actividad de Target."
+>abstract="Analice las actividades y experiencias de Target en Analysis Workspace.<br/><br>**Parámetros &#x200B;**<br/>**Actividad de Target**: La actividad de Target que se analiza.<br/>**Experiencia de control**: experiencia de control para la actividad de Target seleccionada.<br/>**Métrica de normalización**: visitantes, visitas o impresiones. Esta métrica (también denominada metodología de contabilización) se convierte en el denominador del cálculo del alza. También afecta a la manera en que se agregan los datos antes de que se calcule la confianza.<br/>**Métricas de éxito**: hasta 3 métricas de éxito estándar (no calculadas) con las que analizar la actividad de Target."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel de Analytics for Target en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Panel de experimentación](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) para obtener información sobre cómo comparar diferentes variaciones de experiencias de usuario, marketing o mensajería en_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Este artículo documenta el panel de Analytics for Target en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Panel de experimentación](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) para obtener información sobre cómo comparar diferentes variaciones de experiencias de usuario, marketing o mensajería en_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -46,11 +46,11 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de Analyti
 
 >[!ENDSHADEBOX]
 
-## Usar
+## Utiliza
 
 Para usar un panel de **[!UICONTROL Analytics for Target]** haga lo siguiente:
 
-1. Cree un panel de **[!UICONTROL Analytics for Target]**. Para obtener información sobre cómo crear un panel, consulte [Crear un panel](panels.md#create-a-panel).
+1. Cree un panel de **[!UICONTROL Analytics for Target]**. Para obtener información sobre cómo crear un panel, consulta [Crear un panel](panels.md#create-a-panel).
 
 1. Especifica la [entrada](#panel-input) para el panel.
 
@@ -65,13 +65,13 @@ Puede configurar el panel de Analytics for Target utilizando esta configuración
 | Configuración | Descripción |
 |---|---|
 | **[!UICONTROL Actividad de Target]** | Seleccione de una lista de actividades de Target: La lista se rellena con los últimos 6 meses de actividades que han tenido al menos 1 visita. Si no ve una actividad en la lista, puede haberse producido hace más de 6 meses. Todavía se puede añadir desde el carril izquierdo, que tiene un periodo retrospectivo que incluye hasta 18 meses. |
-| **[!UICONTROL Experiencia de control]** | Seleccione la experiencia de control.  |
+| **[!UICONTROL Experiencia de control]** | Seleccione la experiencia de control. |
 | **[!UICONTROL Métrica de normalización]** | Seleccionar visitantes, visitas o impresiones. Se recomiendan [!UICONTROL Visitantes] para la mayoría de los casos de uso de análisis. Esta métrica (también denominada metodología de contabilización) se convierte en el denominador del cálculo del alza. También afecta a la manera en que se agregan los datos antes de que se calcule la confianza. |
 | **[!UICONTROL Métricas de éxito]** | Seleccione hasta 3 eventos de éxito estándar (no calculados) en el menú desplegable o arrastre y suelte las métricas desde el carril de Componentes. Cada métrica tiene una tabla y una visualización dedicadas en el panel procesado. |
 
 Seleccione **[!UICONTROL Generar]** para generar el panel.
 
-### Salida de panel {#panel-output}
+### Salida del panel {#panel-output}
 
 El panel de Analytics for Target devuelve un conjunto completo de datos y visualizaciones para ayudarle a comprender mejor el rendimiento de la actividad y las experiencias de Adobe Target. En la parte superior del panel, se proporciona una línea de resumen para recordarle la configuración del panel seleccionada. Para cada métrica de éxito seleccionada, se muestra una [tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) y una visualización de [Línea](/help/analyze/analysis-workspace/visualizations/line.md) que muestra la tendencia de la tasa de conversión:
 

@@ -5,10 +5,10 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 83%
+source-wordcount: '305'
+ht-degree: 76%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de texto en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Texto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/text)  para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta la visualización de texto en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vea [Texto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/text) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versión de este artículo._
 
 >[!ENDSHADEBOX]
 
 Puede
 Para añadir texto enriquecido definido por el usuario a su proyecto de Workspace, puede usar una visualización ![Texto](/help/assets/icons/Text.svg) **[!UICONTROL Texto]** o usar descripciones para una visualización y un panel.
 
-## Usar
+## Utiliza
 
 Puede utilizar la visualización Texto de las siguientes maneras:
 

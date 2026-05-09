@@ -4,10 +4,10 @@ title: Viñeta
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 90%
+source-wordcount: '295'
+ht-degree: 77%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de viñetas en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Viñeta](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta la visualización de viñetas en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Viñeta](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versión de este artículo._
 
 >[!ENDSHADEBOX]
 
-La visualización ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Viñeta]** muestra cómo se compara o mide una métrica con los rangos de rendimiento (objetivos).
+La visualización ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Viñeta]** muestra cómo se compara o se mide una métrica con los rangos de rendimiento (metas).
 
 ![Visualización de gráfico de viñetas](assets/bullet.png)
 
@@ -60,8 +60,8 @@ Puede definir una configuración específica para una visualización de [!UICONT
 
 >[!MORELIKETHIS]
 >
->[Añadir una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Agregar una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configuración de la visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menú contextual de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

@@ -4,10 +4,10 @@ description: Aprenda a utilizar las tablas improvisadas, que son la base del an�
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 97%
+source-wordcount: '878'
+ht-degree: 88%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de tabla de forma libre en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Tabla de forma libre](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) para la versión de_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta la visualización de tabla de forma libre en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vea [Tabla de forma libre](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versión de este artículo._
 
 >[!ENDSHADEBOX]
 
 
-En Analysis Workspace, la visualización de una ![Tabla](/help/assets/icons/Table.svg) **[!UICONTROL Tabla de forma libre]** es la base del análisis interactivo de datos. Puede arrastrar y soltar una combinación de [componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) en filas y columnas para crear una tabla personalizada para su análisis. A medida que se suelta cada componente, la tabla se actualiza inmediatamente para que pueda analizar rápidamente y explorar en mayor profundidad.
+En Analysis Workspace, una visualización ![Tabla](/help/assets/icons/Table.svg) **[!UICONTROL Tabla de forma libre]** es la base para el análisis interactivo de datos. Puede arrastrar y soltar una combinación de [componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) en filas y columnas para crear una tabla personalizada para su análisis. A medida que se suelta cada componente, la tabla se actualiza inmediatamente para que pueda analizar rápidamente y explorar en mayor profundidad.
 
 ![Tabla de forma libre que muestra los componentes en filas y columnas, incluidas las visitas y los pedidos en línea de varias páginas web.](assets/opening-section.png)
 
@@ -100,14 +100,14 @@ Las siguientes opciones de [menú contextual](../freeform-analysis-visualization
 | --- | --- |
 | **[!UICONTROL Insertar visualización copiada]**&#x200B;n | Pega (inserta) una visualización copiada en otro lugar dentro del proyecto o en un proyecto completamente diferente. |
 | **[!UICONTROL Copiar datos en el portapapeles]** | Copia los datos de la visualización en el portapapeles. |
-| **[!UICONTROL Copiar selección en el portapapeles]** | Copia la selección de la visualización en el portapapeles. |
+| **[!UICONTROL Copiar selección al portapapeles]** | Copia la selección de la visualización en el portapapeles. |
 | **[!UICONTROL Descargar elementos como CSV (*nombre de dimensión*)]** | Descarga inmediatamente los elementos de dimensión (hasta un máximo de 50 000) de la visualización en su dispositivo local. Un máximo de 50 000 elementos de dimensión para la dimensión seleccionada. |
 | **[!UICONTROL Copiar visualización]** | Copia la visualización para que la pueda insertar en otro lugar del proyecto o en un proyecto completamente diferente. |
-| **[!UICONTROL Descargar CSV de datos]** | Descargue inmediatamente los datos mostrados de la visualización en su dispositivo local. |
+| **[!UICONTROL Descargar los datos como CSV]** | Descarga inmediatamente los datos mostrados de la visualización en su dispositivo local. |
 | **[!UICONTROL Duplicar visualización]** | Crea un duplicado exacto de la visualización. |
 | **[!UICONTROL Editar descripción]** | Añade (o edita) una descripción de texto para la visualización. Véase [Texto](../text.md). |
 | **[!UICONTROL Obtener vínculo de visualización]** | Copia y comparte un vínculo directamente en la visualización. El cuadro de diálogo Compartir vínculo muestra el vínculo. Seleccione Copiar para copiar el vínculo en el portapapeles. |
-| **[!UICONTROL Volver a empezar]** | Elimina la configuración de la visualización actual para que pueda volver a configurarla desde cero. |
+| **[!UICONTROL Volver a empezar]** | Elimina la configuración de la visualización actual para que la pueda volver a configurar desde cero. |
 
 
 
@@ -134,8 +134,8 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Totales de 
 
 >[!MORELIKETHIS]
 >
->[Añadir una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Agregar una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configuración de la visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menú contextual de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

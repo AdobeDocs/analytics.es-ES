@@ -4,9 +4,9 @@ title: Totales
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '504'
 ht-degree: 78%
 
 ---
@@ -38,7 +38,7 @@ En una tabla de forma libre que contiene [filas estáticas](/help/analyze/analys
 | Opción | Descripción |
 |---|---|
 | **[!UICONTROL Mostrar la suma de las filas actuales como el total]** | Muestra una suma del lado del cliente de las filas de la tabla. Este total **no** anula la duplicación de métricas como sesiones o personas. |
-| **[!UICONTROL Mostrar el total general]** | Mostrar una suma del lado del servidor. Este total anula la duplicación de métricas como sesiones o personas. |
+| **[!UICONTROL Mostrar el total]** | Mostrar una suma del lado del servidor. Este total anula la duplicación de métricas como sesiones o personas. |
 
 Consulte [Elementos de dimensión dinámicos o estáticos en tablas de forma libre](column-row-settings/manual-vs-dynamic-rows.md).
 

@@ -3,9 +3,9 @@ description: Obtenga información sobre cómo generar segmentos arrastrando y so
 title: Generar segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1848'
+source-wordcount: '1870'
 ht-degree: 96%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Compatibilidad del producto"
->abstract="Un pequeño número de criterios de segmento disponibles no son compatibles con todas las herramientas de Adobe Analytics. Las herramientas que son compatibles con el segmento se indican en esta lista. Para que un segmento sea compatible con todas las herramientas de Adobe Analytics, edite los criterios."
+>abstract="Un pequeño número de criterios de segmento disponibles no son compatibles con todas las herramientas de Adobe Analytics. Las herramientas compatibles con el segmento se indican en esta lista. Para que un segmento sea compatible con todas las herramientas de Adobe Analytics, edite los criterios."
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -50,7 +50,7 @@ El cuadro de diálogo **[!UICONTROL Generador de segmentos]** se usa para crear 
    | **[!UICONTROL Segmento solo de proyecto]** | Un cuadro de información para explicar que el segmento solo es visible en el proyecto en el que se crea. Y que el segmento no se añada a la lista de componentes. Habilite **[!UICONTROL Poner este segmento a disposición de todos los proyectos y añadirlo a la lista de componentes]** para cambiar esa configuración. Este cuadro de información solo es visible cuando crea un [segmento rápido](seg-quick.md) y convierte su información en un segmento normal mediante la opción **[!UICONTROL Abrir generador]** de la interfaz de [!UICONTROL Segmento rápido]. |
    | **[!UICONTROL Título]** ![Requerido](/help/assets/icons/Required.svg) | Asigne un nombre al segmento como, por ejemplo, `Last month mobile visitors`. |
    | **[!UICONTROL Descripción]** | Proporcione una descripción para el segmento, por ejemplo, `Segment to define the mobile customers for the last month`. |
-   | **[!UICONTROL Etiquetas]** | Organice el segmento creando o aplicando una o varias etiquetas. Empiece a escribir para buscar las etiquetas existentes que puede seleccionar. O presione **[!UICONTROL Entrar]** para agregar una etiqueta nueva. Selecciona ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
+   | **[!UICONTROL Etiquetas]** | Organice el segmento creando o aplicando una o varias etiquetas. Empiece a escribir para buscar las etiquetas existentes que puede seleccionar. O pulse **[!UICONTROL Entrar]** para añadir una etiqueta nueva. Selecciona ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
    | **[!UICONTROL Definición]** ![requerida](/help/assets/icons/Required.svg) | Defina su segmento con el [Generador de definiciones](#definition-builder). |
 
    {style="table-layout:auto"}
@@ -369,18 +369,18 @@ Un logotipo de Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) id
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Template Name </th> 
+   <th colname="col1" class="entry"> Nombre de plantilla </th> 
    <th colname="col2" class="entry"> Definición </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Abandon Cart </td> 
-   <td colname="col2">View data for visitors that added items to their carts but did not order anything. En la definición de segmento, el contenedor es Visita. </td> 
+   <td colname="col1"> Abandonar carro </td> 
+   <td colname="col2">Ver datos de visitantes que agregaron artículos a sus carros de compras pero que no pidieron nada. En la definición de segmento, el contenedor es Visita. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visitas por primera vez </td> 
-   <td colname="col2">View data for visitors that have visited a maximum of one [1] times. En la definición de segmento, el contenedor es Visita. </p> </td> 
+   <td colname="col2">Ver datos de visitantes que han visitado un máximo de una [1] veces. En la definición de segmento, el contenedor es Visita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> No compradores </td> 
@@ -392,7 +392,7 @@ Un logotipo de Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) id
   </tr> 
   <tr> 
    <td colname="col1"> Búsqueda de pago </td> 
-   <td colname="col2">Ver datos de los visitantes procedentes de una búsqueda de pago.   </td> 
+   <td colname="col2">Ver datos de los visitantes procedentes de una búsqueda de pago.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Compradores </td> 
@@ -404,7 +404,7 @@ Un logotipo de Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) id
   </tr> 
   <tr> 
    <td colname="col1"> Visitas de página única </td> 
-   <td colname="col2"> View data from visits in which you see a single page value, even though you may submit multiple page views during that visit. En el segmento se incluyen las visitas a una sola página con eventos de vínculo de salida.  </td> 
+   <td colname="col2"> Vea datos de visitas en las que ve un solo valor de página, aunque pueda enviar varias vistas de página durante esa visita. En el segmento se incluyen las visitas a una sola página con eventos de vínculo de salida.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Producto visto que no se agregó al carro de compras </td> 

@@ -4,10 +4,10 @@ description: Aprenda a utilizar e interpretar el panel Tiempo invertido en la re
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 90%
+source-wordcount: '1192'
+ht-degree: 83%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Tiempo invertido en la reproducción de contenido en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Panel de tiempo invertido en la reproducción de contenido](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) para la versión de_ ![CustomerJourney Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel Tiempo invertido en la reproducción de contenido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Panel Tiempo invertido en la reproducción de contenido](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versión de Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ _Este artículo documenta el panel Tiempo invertido en la reproducción de conte
 >Póngase en contacto con su representante de ventas de Adobe o con el equipo de cuentas de Adobe para obtener más información.
 >
 
-El panel **[!UICONTROL Tiempo invertido en la reproducción de medios]** permite analizar la reproducción a lo largo del tiempo, con detalles sobre los picos de simultaneidad y la posibilidad de realizar desgloses y comparaciones. 
+El panel **[!UICONTROL Tiempo invertido en la reproducción de medios]** permite analizar la reproducción a lo largo del tiempo, con detalles sobre los picos de simultaneidad y la posibilidad de realizar desgloses y comparaciones.
 
 En Analysis Workspace, el tiempo invertido en la reproducción es la cantidad de tiempo empleado en visualizar las transmisiones de medios en un momento determinado. Incluye pausa, búfer y el tiempo para el inicio.
 
@@ -64,7 +64,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de ti
 
 >[!ENDSHADEBOX]
 
-## Usar
+## Utiliza
 
 Para usar un panel **[!UICONTROL Tiempo invertido en la reproducción de medios]**:
 

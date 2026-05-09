@@ -1,14 +1,14 @@
 ---
 description: Obtenga información sobre cómo mostrar datos jerárquicos (con estructura de árbol) como un conjunto de rectángulos anidados.
-title: Mapa de árbol
+title: Gráfico de rectángulos
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 91%
+source-wordcount: '193'
+ht-degree: 72%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización del gráfico de rectángulos en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Gráfico de rectángulos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/treemap) para la versión_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de este artículo._
+_Este artículo documenta la visualización del gráfico de rectángulos en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vea [Gráfico de rectángulos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/treemap) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versión de este artículo._
 
 >[!ENDSHADEBOX]
 
-Utilice una visualización de ![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL Gráfico de rectángulos]** para mostrar datos jerárquicos (con estructura de árbol) como un conjunto de rectángulos anidados.
+Utilice una visualización![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL Gráfico de rectángulos]** para mostrar datos jerárquicos (con estructura de árbol) como un conjunto de rectángulos anidados.
 
 Cada rama del árbol es un rectángulo determinado, el cual está en mosaico con rectángulos menores que representan ramas secundarias.
 
@@ -47,7 +47,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizac
 
 >[!MORELIKETHIS]
 >
->[Añadir una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Agregar una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Configuración de la visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menú contextual de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
