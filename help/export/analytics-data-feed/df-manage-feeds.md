@@ -3,10 +3,10 @@ title: Administrar fuentes de datos
 description: Obtenga información sobre cómo navegar por la interfaz de fuentes de datos. Descubra cómo crear, editar y ver una fuente de datos.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 15%
+source-wordcount: '1329'
+ht-degree: 18%
 
 ---
 
@@ -41,7 +41,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administrac
 
    ![Administrador de fuentes de datos](assets/data-feed-manager.png)
 
-## Creación de una fuente de datos
+## Creación de un feed de datos
 
 El botón **[!UICONTROL Crear fuente de datos]** le permite crear una nueva fuente. Consulte [Crear una fuente de datos](create-feed.md) para obtener más información.
 

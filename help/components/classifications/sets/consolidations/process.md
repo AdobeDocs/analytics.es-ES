@@ -3,10 +3,10 @@ title: Crear Y Editar Consolidaciones De Clasificación
 description: Explica cómo crear, validar, ejecutar, aprobar y cancelar consolidaciones de clasificación.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 9%
+source-wordcount: '998'
+ht-degree: 10%
 
 ---
 
@@ -127,7 +127,7 @@ Para aprobar una consolidación de juego de clasificaciones:
    * **[!UICONTROL Discordancia]**: Porcentaje de filas donde los valores clave no coinciden con el conjunto de clasificación de origen. Si el porcentaje de discrepancia es alto, la discrepancia puede ser una indicación de que los datos de clasificación son demasiado diferentes. Compruebe y asegúrese de que los conjuntos de clasificaciones seleccionados tienen datos de clasificación similares.
    * **[!UICONTROL Ausente]**: Porcentaje de filas donde los valores clave están en el conjunto de clasificación ![Clave](/help/assets/icons/Key.svg) pero no en el conjunto de clasificación de origen. Todas las filas ausentes se añaden al conjunto de clasificaciones consolidadas.
 
-1. Si la consolidación de clasificación está lista para su aprobación, seleccione ![Marca de verificación](/help/assets/icons/Checkmark.svg) **[!UICONTROL Aprobar]**. ¿Desea Aprobar La Consolidación De **[!UICONTROL ?El cuadro de diálogo]** solicita confirmación. Seleccione **[!UICONTROL Aprobar]** para aprobar la consolidación. Seleccione **[!UICONTROL Cancelar]** para cancelar.
+1. Si la consolidación de clasificación está lista para su aprobación, seleccione ![Marca de verificación](/help/assets/icons/Checkmark.svg) **[!UICONTROL Aprobar]**. ¿Desea **[!UICONTROL aprobar la consolidación?]** El cuadro de diálogo solicita confirmación. Seleccione **[!UICONTROL Aprobar]** para aprobar la consolidación. Seleccione **[!UICONTROL Cancelar]** para cancelar.
 
 Una vez aprobado, se crea el conjunto de clasificaciones consolidado. El estado se ha establecido en **[!UICONTROL Completo]**.
 

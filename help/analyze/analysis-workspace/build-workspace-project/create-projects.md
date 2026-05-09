@@ -4,10 +4,10 @@ title: Crear proyectos
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 93%
+source-wordcount: '408'
+ht-degree: 100%
 
 ---
 
@@ -50,12 +50,12 @@ Ahora que ha creado un proyecto de Workspace en blanco, asegúrese de estar fami
 >[!CONTEXTUALHELP]
 >id="workspace_project_countrepeatinstances"
 >title="Contar instancias repetidas"
->abstract="Especifica si las instancias repetidas se cuentan en los informes.<br/><br/>Nota: esta configuración no se aplica a las visualizaciones de flujo o visitas en el orden previsto."
+>abstract="Especifica si las instancias repetidas se cuentan en los informes.<br/><br/>Nota: Esta configuración no se aplica a las visualizaciones de flujo o visitas en el orden previsto."
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_repeatinstances"
 >title="Contar instancias repetidas"
->abstract="Especifica si las instancias repetidas se cuentan en los informes.<br/>Nota: esta configuración no se aplica a las visualizaciones de flujo o visitas en el orden previsto."
+>abstract="Especifica si las instancias repetidas se cuentan en los informes.<br/>Nota: Esta configuración no se aplica a las visualizaciones de flujo o visitas en el orden previsto."
 
 
 >[!CONTEXTUALHELP]

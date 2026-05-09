@@ -1,13 +1,13 @@
 ---
 title: Preferencias del usuario
-description: Aprenda a establecer preferencias generales y de proyecto para los usuarios.
+description: Aprenda cómo establecer preferencias generales y de proyecto para los usuarios.
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '3457'
-ht-degree: 99%
+source-wordcount: '3534'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Puede administrar la configuración de Analysis Workspace y sus componentes rela
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [Administrar preferencias](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Administrar preferencias](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ Puede actualizar las preferencias de la compañía que se aplican a todas las pe
 | **Pestaña de plantillas** | | |
 |  | Pestaña Ocultar plantillas | Oculta la pestaña Plantillas a todas las personas de su organización. |
 | **Uso compartido de proyectos** | | |
-| | Permitir compartir solo con usuarios de Workspace | Cuando esta opción está habilitada, las personas de su organización no pueden ver la opción **[!UICONTROL Compartir con cualquiera]** en el menú **[!UICONTROL Compartir]**. Los usuarios no pueden compartir proyectos con personas que no tengan una cuenta de Analysis Workspace en su organización tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).<br/>Esta opción está deshabilitada de manera predeterminada para todas las organizaciones, excepto para los clientes que tienen licencia de Healthcare Shield. <p>Tenga en cuenta lo siguiente al habilitar o deshabilitar esta opción:<ul><li>Cuando se habilita esta opción, las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido **[!UICONTROL Compartir con cualquiera]** ya no pueden acceder al proyecto.</li><li>Si esta opción está habilitada (para permitir el uso compartido solo con usuarios de Workspace) y luego deshabilitada (para permitir el uso compartido con cualquier persona), las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido **[!UICONTROL Compartir con cualquiera]** no recuperan automáticamente su acceso al proyecto. En este caso, el usuario que ha compartido el proyecto debe habilitar la opción [!UICONTROL **El vínculo está activo**] que está disponible cuando se comparte un proyecto con cualquier persona **([!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquiera]**), tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>**Para los clientes que tengan licencia de Healthcare Shield:** esta opción está habilitada de forma predeterminada y no se puede deshabilitar. Antes de deshabilitar esta opción para que los usuarios puedan usar la opción de uso compartido **[!UICONTROL Compartir con cualquiera]**, debe añadir primero el permiso [!UICONTROL Compartir vínculos de proyectos con cualquiera] (que se encuentra en [!UICONTROL Herramientas de creación de informes]) en Adobe Admin Console. Una vez añadido el permiso, puede deshabilitar esta opción y aceptar el aviso legal resultante. Para obtener información sobre cómo añadir un permiso en Admin Console, consulte [Administración de permisos de productos en Admin Console](https://helpx.adobe.com/es/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
+| | Permitir compartir solo con usuarios de Workspace | Cuando esta opción está habilitada, las personas de su organización no pueden ver la opción **[!UICONTROL Compartir con cualquiera]** en el menú **[!UICONTROL Compartir]**. Los usuarios no pueden compartir proyectos con personas que no tengan una cuenta de Analysis Workspace en su organización como se describe en [Comparta un proyecto con nadie (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).<br/>Esta opción está deshabilitada de forma predeterminada para todas las organizaciones, excepto para los clientes con licencia de Healthcare Shield. <p>Tenga en cuenta lo siguiente al habilitar o deshabilitar esta opción:<ul><li>Cuando se habilita esta opción, las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido **[!UICONTROL Compartir con cualquiera]** ya no pueden acceder al proyecto.</li><li>Si esta opción está habilitada (para permitir el uso compartido solo con usuarios de Workspace) y luego deshabilitada (para permitir el uso compartido con cualquier persona), las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido **[!UICONTROL Compartir con cualquiera]** no recuperan automáticamente su acceso al proyecto. En este caso, el usuario que ha compartido el proyecto debe habilitar la opción [!UICONTROL **El vínculo está activo**] que está disponible cuando se comparte un proyecto con cualquier persona **([!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquiera]**), tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>**Para los clientes que tengan licencia de Healthcare Shield:** esta opción está habilitada de forma predeterminada y no se puede deshabilitar. Antes de deshabilitar esta opción para que los usuarios puedan usar la opción de uso compartido **[!UICONTROL Compartir con cualquiera]**, debe añadir primero el permiso [!UICONTROL Compartir vínculos de proyectos con cualquiera] (que se encuentra en [!UICONTROL Herramientas de creación de informes]) en Adobe Admin Console. Una vez añadido el permiso, puede deshabilitar esta opción y aceptar el aviso legal resultante. Para obtener información sobre cómo añadir un permiso en Admin Console, consulte [Administración de permisos de productos en Admin Console](https://helpx.adobe.com/es/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
 | | Requiere autenticación de Experience Cloud | Cuando esta opción está habilitada, las personas que tienen acceso a un proyecto desde la opción **[!UICONTROL Compartir con cualquiera]** de Analysis Workspace deben autenticarse mediante sus credenciales de Experience Cloud.<p>Después de habilitar esta opción, cada vez que se comparta un proyecto con la opción de uso compartido **[!UICONTROL Compartir con alguien]**, se habilitará la opción **[!UICONTROL Requiere autenticación de Experience Cloud]** en el cuadro de diálogo de uso compartido y la persona que comparte el proyecto no podrá deshabilitarla. Para obtener información sobre cómo los usuarios pueden compartir proyectos con cualquier persona, consulte [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link). <p> <p>Ten en cuenta lo siguiente al habilitar esta opción: <ul><li>Al habilitar esta opción, se desactivan todos los proyectos que se compartieron anteriormente con la opción de uso compartido **[!UICONTROL Compartir con cualquiera]** y que no tienen activada la opción [!UICONTROL Se requiere autenticación de Experience Cloud].<p>Si esta opción está habilitada (se requiere autenticación de Experience Cloud) y luego se deshabilita (para permitir que cualquier persona con el vínculo acceda al proyecto), las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido **[!UICONTROL Compartir con alguien]** no recuperan automáticamente su acceso al proyecto. En este caso, el usuario que ha compartido el proyecto debe habilitar la opción [!UICONTROL El vínculo está activo] que está disponible al compartir un proyecto con cualquier persona **([!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquiera]** > **[!UICONTROL El vínculo está activo]**), tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>Esta opción solo está disponible si el SSO está implementado en su organización. Para obtener información sobre cómo los administradores del sistema pueden habilitar el SSO para su organización, consulta [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html).</p><p>Si SSO está configurado para su organización, compruebe si se ha implementado algún tipo de creación de cuenta automática en la consola. Normalmente, un administrador del sistema lo configuraría, tal como se describe en [Habilitar la creación automática de cuentas](https://helpx.adobe.com/es/enterprise/using/automatic-account-creation.html).</li><li>Si su organización dispone de licencias para Healthcare Shield, esta opción está habilitada de forma predeterminada y no se puede deshabilitar.</li></ul> |
 
 {style="table-layout:auto"}
@@ -80,17 +80,17 @@ Puede actualizar las preferencias de la compañía que se aplican a todas las pe
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_categoricalpalette"
 >title="Paleta categórica"
->abstract="Se aplica a numerosas visualizaciones de Analysis Workspace y análisis guiado. Cada color representa un valor categórico distinto."
+>abstract="Se aplica a muchas visualizaciones de Analysis Workspace y al análisis guiado. Cada color representa un valor categórico distinto."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_divergingpalette"
 >title="Paleta divergente"
->abstract="Se aplica a la tabla Cohorte de Analysis Workspace y análisis guiado por el crecimiento del usuario. Esta paleta tiene un significado numérico con dos extremos y una línea de base en el medio."
+>abstract="Se aplica a la tabla de cohortes en Analysis Workspace y al análisis guiado de crecimiento de usuarios. Esta paleta contiene un significado numérico con dos extremos y una línea de base en el medio."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_sequentialpalette"
 >title="Paleta secuencial"
->abstract="Se aplica al análisis guiado por Tendencias de frecuencia (barra apilada). Esta paleta tiene un significado numérico de claro a oscuro."
+>abstract="Se aplica al análisis guiado de tendencias de frecuencia (barra apilada). Esta paleta contiene un significado numérico, de claro a oscuro."
 
 Puede personalizar las preferencias de proyecto para todos los proyectos nuevos que cree en Analysis Workspace. Para obtener información sobre cómo acceder a estas preferencias, consulte [Actualizar preferencias](#update-preferences).
 
@@ -101,22 +101,22 @@ Haga clic en los títulos de las preferencias vinculadas para obtener más infor
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/es/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
 | Sección | Preferencia | Opciones |
 | --- | --- | --- |
 | **Mostrar** | | |
-|  | [Ver densidad](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Elija cuánto contenido se mostrará en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. <ul><li>Compacto</li><li>Cómodo</li><li>Expandido (predeterminado)</li></ul> |
+|  | [Ver densidad](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Elija cuánto contenido se mostrará en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. <ul><li>Compacta</li><li>Cómoda</li><li>Expandido (predeterminado)</li></ul> |
 | | [Paleta de color](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | Elija las paletas de colores de visualización que se utilizan en Analysis Workspace.<ul><li>**Paleta categórica**: se aplica a muchas visualizaciones de Analysis Workspace. Cada color representa un valor categórico distinto. Elija entre las opciones que proporciona Adobe o introduzca una paleta personalizada definida por valores hexadecimales delimitados por comas.</li><li>**Paleta divergente**: se aplica a la tabla de cohortes de Analysis Workspace. Esta paleta contiene un significado numérico con dos extremos y una línea de base en el medio.</li><li>**Paleta secuencial**: se aplica al análisis guiado de tendencias de frecuencia (barra apilada). Esta paleta contiene un significado numérico, de claro a oscuro.</li></ul> |
 | **Datos** | | |
 |  | [Grupo de informes](/help/analyze/analysis-workspace/c-panels/panels.md) | Elija desde dónde las tablas y las visualizaciones obtienen sus datos. <ul><li>Más reciente (predeterminado)</li><li>Grupo de informes específico seleccionado de una lista</li></ul> |
 |  | [Calendario](/help/analyze/analysis-workspace/c-panels/panels.md) | Seleccione de una lista de: <ul><li>Intervalos proporcionados por Adobe (el valor predeterminado es Este mes)</li><li>Intervalos definidos a medida</li></ul> |
 |  | [Tipo de panel](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>Improvisado (predeterminado)</li><li>En blanco</li><li>Acceso rápido a información</li></ul> |
-|  | Formato de número | <ul><li>1000,00 (predeterminado)</li><li>1.000,00</li><li>1 000,00</li></ul> |
+|  | Formato de número | <ul><li>1.000,00 (predeterminado)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Contar instancias repetidas | Especifica si las instancias repetidas se cuentan en los informes. Por ejemplo, esta configuración (cuando está activada) trata varias vistas de página consecutivas a la misma página como varias vistas de página. Si está desactivada, se cuentan como una sola vista de página. <p>**Nota:** esta configuración solo afecta a determinadas métricas (como las Visitas a una sola página) y no se aplica a las visualizaciones de Flujo o Visita en orden previsto.</p> |
-|  | Carácter separador de CSV | <ul><li>Coma (predeterminado)</li><li>Punto y coma</li><li>Dos puntos</li><li>Barra vertical</li><li>Periodo</li><li>Espacio</li><li>Tabulación</li></ul> |
+|  | Carácter separador de CSV | <ul><li>Coma (predeterminado)</li><li>Punto y coma</li><li>Dos puntos</li><li>Canalización</li><li>Período</li><li>Espacio</li><li>Tabulación</li></ul> |
 |  | Mostrar anotaciones | Elija si las anotaciones estarán visibles en los proyectos. Para obtener más información sobre las anotaciones, consulte la [Información general sobre anotaciones](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 
 ## Preferencias de tabla de forma libre {#freeform-table-preferences}
@@ -147,7 +147,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | Sección | Preferencia | Opciones |
 | --- | --- | --- |
 | **Tabla** | | |
-| | Tipo de tabla | <ul><li>De forma libre</li><li>Generador de tablas</li></ul> |
+| | Tipo de tabla | <ul><li>Forma libre</li><li>Generador de tablas</li></ul> |
 | | Métrica predeterminada de la tabla | <ul><li>Ocurrencias</li><li>Visitantes únicos</li><li>Visitas</li></ul> |
 | | Dimensión predeterminada de tabla | Elija entre Minuto, Hora, Día, Semana, Mes, Trimestre o Año. |
 | | Alinear fechas | Seleccione esta opción para alinear fechas de cada columna con todas a partir de la misma fila. |
@@ -157,7 +157,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Mostrar totales generales | Este total representa todas las visitas recopiladas, a veces denominadas *total del grupo de informes*. Cuando se aplica un segmento en el nivel de panel o en la tabla de forma libre, este total se ajusta para reflejar todas las visitas que coinciden con los criterios del segmento. El total general no es compatible con tablas o desgloses con [filas estáticas](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 | | Mostrar minigráfico | Muestre u oculte gráficos de líneas en la parte inferior del gráfico. Cuando esté oculta, la leyenda cambiará para no hacer referencia visual a las líneas. |
 | | Número | Determina si una celda muestra u oculta el valor numérico de la métrica. Por ejemplo, si la métrica son visualizaciones de la página, el valor numérico es el número de visualizaciones de la página para el elemento de fila. |
-| | Porcentaje | Determina si una celda muestra u oculta el valor porcentual de la métrica. Por ejemplo, si la métrica es visualizaciones de la página, el valor porcentual es el número de visualizaciones de la página para el elemento de fila, dividido por el total de visualizaciones de la página para la columna. Nota: Para ser más precisos, a veces se muestran porcentajes superiores al 100 %. El límite superior se ha establecido en 1000 % para garantizar que las columnas puedan aumentar su anchura hasta valores muy elevados. |
+| | Porcentaje | Determina si una celda muestra u oculta el valor porcentual de la métrica. Por ejemplo, si la métrica es visualizaciones de la página, el valor porcentual es el número de visualizaciones de la página para el elemento de fila, dividido por el total de visualizaciones de la página para la columna.  Nota: Para ser más precisos, a veces se muestran porcentajes superiores al 100 %. El límite superior se ha establecido en 1000 % para garantizar que las columnas puedan aumentar su anchura hasta valores muy elevados. |
 | | Mostrar anomalías | Determina si se ha ejecutado una detección de anomalías en los valores de esta columna. |
 | | La interpretación de cero no tiene valor | Para las celdas con un valor de 0, determina si se va a mostrar un 0 o una celda en blanco. Esto es útil si desea analizar los datos de todos los días de un mes y todavía faltan algunos días.  En vez de mostrar 0 para las fechas futuras, se pueden mostrar celdas en blanco. Los gráficos también respetan esta configuración (es decir, no muestran una línea o una barra con 0 valores cuando se marca esta opción). |
 | | Contexto | Determina si una celda muestra u oculta todo el formato de la celda, que incluye la gráfico de barras y el formato condicional <ul><li>Gráfico de barras</li> Muestra un gráfico de barras horizontal que representa el valor de la celda con relación al total de la columna. <li>Formato condicional</li>Para obtener más información sobre el formato condicional, consulte “Formato condicional” en [Configuración de columna](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)</ul> |
@@ -184,7 +184,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Mostrar doble eje (cuando corresponda) | Solo es aplicable si cuenta con dos métricas: puede tener un eje Y a la izquierda (para una métrica) y a la derecha (para otra métrica). Esta configuración resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 | | Normalización (cuando corresponda) | Fuerza métricas para igualar proporciones. Esta configuración resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 | | Anclar el eje Y en cero | Si todos los valores trazados en el gráfico están considerablemente por encima de cero, el valor del gráfico predeterminado hará que la parte inferior del eje X sea distinta de cero. Si marca esta casilla, el eje Y se fuerza a cero (y se redibuja el gráfico). |
-| | Permitir que las anomalías escalen el eje Y | Si tiene varias métricas en un gráfico, debe pasar el puntero por encima de cada anomalía para ver la banda de confianza de la métrica. Para que la visualización sea más legible, el intervalo de confianza de Detección de anomalías no escala automáticamente el eje Y. Esta opción permite que el intervalo de confianza escale la visualización. <p>Para obtener más información, consulte [Ver anomalías en Analysis Workspace](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md).</p> |
+| | Permitir que las anomalías escalen el eje Y | Si tiene varias métricas en un gráfico, debe pasar el puntero por encima de cada anomalía para ver la banda de confianza de la métrica. Para que la visualización sea más legible, el intervalo de confianza de Detección de anomalías no escala automáticamente el eje Y. Esta opción permite que el intervalo de confianza escale la visualización. <p>Para obtener más información, consulte [Visualización de anomalías en Analysis Workspace](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md).</p> |
 | **[Líneas](/help/analyze/analysis-workspace/visualizations/line.md)** | | |
 | | Porcentajes | Muestra valores en porcentajes para las visualizaciones de Línea. |
 | | Leyenda visible | Oculta el texto de leyenda detallado para la visualización de línea. |
@@ -213,13 +213,13 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Mostrar minigráficos | Se muestran u ocultan gráficos de líneas en la parte inferior del gráfico. Cuando esté oculta, la leyenda cambiará para no hacer referencia visual a las líneas. |
 | | Mostrar máx. y mín. en los reflectores | Se muestran valores mínimos y máximos en gráficos de líneas principales y de comparación. |
 | | Mostrar comparación | Se muestran datos de comparación. Cuando están ocultos, el gráfico de líneas de comparación y los objetos de cambio de resumen no se ven. |
-| | Opciones de valor numérico | En la sección [!UICONTROL **Resumen de métricas clave**] <ul><li>Mostrar cambio de porcentaje</li><li>Mostrar diferencia en bruto</li>Diferencia en bruto entre el valor total de la métrica en el intervalo de fechas principal y el secundario</ul> |
+| | Opciones de valor numérico | En la sección [!UICONTROL **Resumen de métricas clave**] <ul><li>Mostrar cambio en el porcentaje</li><li>Mostrar diferencia en bruto</li>Diferencia en bruto entre el valor total de la métrica en el intervalo de fechas principal y el secundario</ul> |
 | **[Visita en orden previsto](/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md)** | | |
 | | Contenedor | Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. La opción predeterminada es Visitante. Estos ajustes le permiten comprender el compromiso del visitante a nivel de visitante (a lo largo de visitas) o restringir el análisis a una única visita. <p>Las opciones disponibles son las siguientes:</p> <ul><li>Visita</li><li>Visitante</li></ul> |
 | **[Flujo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)** | | |
 | | Contenedor | En la sección [!UICONTROL **Flujo**] <ul><li>Visita</li><li>Visitante</li></ul> |
 | | Etiquetas de ajustes | Normalmente, las etiquetas de los elementos de flujo se truncan para ahorrar espacio en la pantalla, pero puede hacer la etiqueta entera visible al marcar esta casilla. Valor predeterminado = sin marcar. |
-| | Incluir instancias de repetición | Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo, recargas de página. Sin embargo, las repeticiones no se pueden eliminar de las visualizaciones de flujo que incluyen dimensiones multivalor, como listVars, listProps, s.product, eVars de comercialización, etc. Valor predeterminado = sin marcar. |
+| | Incluir instancias de repetición | Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo, recargas de página. Sin embargo, las repeticiones no se pueden eliminar de las visualizaciones de flujo que incluyen dimensiones multivalor, como listVars, listProps, s.product, eVars de comercialización, etc. Predeterminado = sin marcar. |
 | | Mostrar información sobre herramientas | Determina si se muestran las informaciones sobre herramientas que contienen datos de nodo al pasar el puntero por encima de nodos individuales dentro de una visualización de flujo. |
 | | Número de columnas | Determina cuántas columnas desea incluir en el diagrama de flujo. |
 | | Elementos expandidos por columna | Cuántos elementos desea incluir en cada columna. |
@@ -227,14 +227,14 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. <p>Para obtener más información, consulte [Barra y barra apilada](/help/analyze/analysis-workspace/visualizations/bar.md).</p> |
 | **[Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md)** | | |
 | | Número de contenedores | Elija el número de intervalos de datos (contenedores) en la visualización. El número máximo de contenedores es 50. <p>Para obtener más información, consulte [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md).</p> |
-| | Método de recuento | Elija entre las siguientes opciones: <ul><li>Visita individual</li><li>Visita</li><li>Visitante</li></ul> <p>Por ejemplo, cuando se usa junto con las vistas de página, podría elegir las vistas de página por visitante, por visita o por visita individual. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre.</p> |
+| | Método de recuento | Elija entre las siguientes opciones: <ul><li>Acción</li><li>Visita</li><li>Visitante</li></ul> <p>Por ejemplo, cuando se usa junto con las vistas de página, podría elegir las vistas de página por visitante, por visita o por visita individual. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre.</p> |
 | **[Mapa](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** | | |
 | | Dimensión de trazado | <ul><li>Latitud/longitud Mobile</li><li>Dimensión geográfica</li></ul> |
 | | Tipo de mapa | <ul><li>Burbujas</li><li>Mapa de calor</li></ul> |
 | | Tema de color | Elija entre Coral, Rojos, Verdes, Azules, Mapa de calor y Positivo/Negativo. |
 | | Estilo de mapa | Elija entre Básico, Calles, Brillante, Claro, Oscuro y Satélite. |
 | **[Cambio de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
-| | Valor | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Cambio porcentual</li><li>Diferencia en bruto</li></ul> |
+| | Valor | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Cambio en el porcentaje</li><li>Diferencia en bruto</li></ul> |
 | | Porcentajes | Muestra valores en porcentajes para las visualizaciones de Cambio de resumen. |
 | | Leyenda visible | Permite ocultar el texto de leyenda detallado para la visualización de Cambio de resumen. |
 | | Valor abreviado | Cuando se selecciona, especifique el número de decimales. |

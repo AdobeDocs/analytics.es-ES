@@ -4,10 +4,10 @@ title: Panel Elemento Siguiente O Anterior
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 88%
+source-wordcount: '471'
+ht-degree: 85%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="Elemento siguiente o anterior"
->abstract="Analice cuáles son los lugares más habituales de los que proceden o a los que se dirigen los visitantes.<br/><br/>**Dimensión**: seleccione una dimensión. Por ejemplo, **Página**.<br/>**Elemento de dimensión**: seleccione un elemento de dimensión específico. Por ejemplo, **Página principal**.<br/>**Dirección**: seleccione **Siguiente** para ver los elementos de dimensión que aparecen justo después del elemento de dimensión seleccionado. Seleccione **Anterior** para ver los elementos de dimensión que conducen al elemento de dimensión seleccionado.<br/>**Contenedor**: seleccione **Sesión** para ver los elementos de dimensión siguientes o anteriores de la misma sesión, o **Persona** para ver el elemento de dimensión siguiente o anterior de la misma persona."
+>abstract="Analice cuáles son los lugares más habituales de los que proceden o a los que se dirigen los visitantes. <br/><br/>**Dimensión**: seleccione una dimensión. Por ejemplo **Página**.<br/>**Elemento de dimensión**: seleccione un elemento de dimensión específico. Por ejemplo **Página principal**.<br/>**Dirección**: seleccione **Siguiente** para ver los elementos de dimensión justo después del elemento de dimensión seleccionado. Seleccione **Anterior** para ver los elementos de dimensión que llevan al elemento de dimensión seleccionado.<br/>**Contenedor**: seleccione **Sesión** para ver los elementos de dimensión siguientes o anteriores de la misma sesión, o **Persona** para ver el elemento de dimensión siguiente o anterior de la misma persona."
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta el panel Elemento siguiente o anterior en_ ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Ver [panel de elemento siguiente o anterior](/help/analyze/analysis-workspace/c-panels/next-previous.md) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versión de Customer Journey Analytics** de este artículo._
+_Este artículo documenta el panel Elemento siguiente o anterior en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Vea [el panel Elemento siguiente o anterior](/help/analyze/analysis-workspace/c-panels/next-previous.md) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versión de Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 

@@ -3,10 +3,10 @@ title: Visitas que llegan tarde
 description: Descubra cómo las fuentes de datos tratan las visitas que llegan tarde.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 4d0007d1a23a81f0d5ba60541b4f7b9ac7b00ace
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 41%
+source-wordcount: '317'
+ht-degree: 48%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 41%
 
 ## Comprender las visitas que llegan tarde
 
-Los datos históricos pueden llegar después de que un trabajo de fuente de datos termine de procesarse durante una hora o un día determinados, por ejemplo, mediante visitas con marca de tiempo o fuentes de datos.
+Los datos históricos pueden llegar después de que un trabajo de fuente de datos termine de procesarse durante una hora o un día determinados, por ejemplo, mediante visitas con marca de tiempo u origen de datos.
 
 Cuando una fuente de datos procesa la información con normalidad, solo utiliza los datos dentro de su intervalo de informes (generalmente la hora o el día más recientes). Si los datos llegan después de que una fuente procese ese intervalo de informes, nunca se incluirán en ninguna fuente de datos.
 

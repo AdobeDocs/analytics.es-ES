@@ -3,9 +3,9 @@ description: Obtenga información sobre el tipo de métrica y la atribución.
 title: Tipo de métrica y atribución
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '615'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Puede configurar el tipo de métrica y [modelo de atribución](#attribution-mode
 
      | Tipo de métrica | Definición |
      |---|---|
-     | **[!UICONTROL Estándar]** | Si una fórmula consiste en una única métrica estándar, muestra datos idénticos a su métrica no calculada homóloga. Las métricas estándar son útiles para crear métricas calculadas específicas de cada elemento de línea individual.  <p>Por ejemplo, ![Evento](/help/assets/icons/Event.svg), **[!UICONTROL Pedidos]**, ![Dividir](/help/assets/icons/Divide.svg), ![Evento](/help/assets/icons/Event.svg) y **[!UICONTROL Visitas]** toma los pedidos de ese elemento de línea específico y lo divide por el número de visitas de ese elemento de línea específico. |
+     | **[!UICONTROL Estándar]** | Si una fórmula consiste en una única métrica estándar, muestra datos idénticos a su métrica no calculada homóloga. Las métricas estándar son útiles para crear métricas calculadas específicas de cada elemento de línea individual. <p>Por ejemplo, ![Evento](/help/assets/icons/Event.svg), **[!UICONTROL Pedidos]**, ![Dividir](/help/assets/icons/Divide.svg), ![Evento](/help/assets/icons/Event.svg) y **[!UICONTROL Visitas]** toma los pedidos de ese elemento de línea específico y lo divide por el número de visitas de ese elemento de línea específico. |
      | **[!UICONTROL Total general]** | Utilice **[!UICONTROL Total general]** para obtener el período de creación de informes en cada elemento de línea. Si una fórmula consiste en una única métrica total, muestra el mismo número total en cada elemento de línea. Las métricas de total general son útiles cuando desea crear métricas calculadas que se comparen con los datos totales. <p>Por ejemplo, ![Evento](/help/assets/icons/Event.svg), **[!UICONTROL Pedidos]**, ![Dividir](/help/assets/icons/Divide.svg), ![Evento](/help/assets/icons/Event.svg) y **[!UICONTROL Visitas totales]** muestra la proporción de pedidos en todas las visitas, no solo las visitas en el elemento de línea específico. En este ejemplo, especifique el **[!UICONTROL Total general]** para la métrica ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Visitas]** en la métrica calculada, lo que la convierte automáticamente en ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Visitas totales]**. |
 
    * Especifique **[!UICONTROL Atribución]**.
