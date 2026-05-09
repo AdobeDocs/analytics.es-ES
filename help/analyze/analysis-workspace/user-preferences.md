@@ -18,7 +18,7 @@ Puede administrar la configuración de Analysis Workspace y sus componentes rela
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Administrar preferencias](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [Administrar preferencias](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

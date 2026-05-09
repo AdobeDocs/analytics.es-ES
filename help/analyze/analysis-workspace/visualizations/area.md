@@ -16,7 +16,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta las visualizaciones de áreas y áreas apiladas en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Vea [áreas y áreas apiladas](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/area) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versión de Customer Journey Analytics** de este artículo._
+_Este artículo documenta las visualizaciones de áreas y áreas apiladas en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vea [áreas y áreas apiladas](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/area) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versión de Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
