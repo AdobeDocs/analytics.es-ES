@@ -130,7 +130,7 @@ Para utilizar un modelo de atribución no predeterminado para una métrica en An
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Columnas dinámicas](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Columnas dinámicas](https://video.tv.adobe.com/v/39095?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
