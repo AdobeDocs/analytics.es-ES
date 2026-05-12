@@ -3,24 +3,38 @@ title: Dimensiones de metadatos de audio de los servicios de medios de streaming
 description: Dimensiones disponibles al habilitar [!UICONTROL Metadatos de audio] para un grupo de informes.
 feature: Dimensions
 exl-id: 2e4dc1e9-267b-47a2-b791-23d1e754a2c1
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/DcCpObIU6RCnFgbBKEp4CyrXmfW-hmdAeH6sO8cLZdg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 4%
+source-wordcount: 144
+ht-degree: 0%
 
 ---
 
 # Dimensiones de metadatos de audio de los servicios de medios de streaming
 
-Las dimensiones y los servicios de medios de streaming proporcionan una funcionalidad de creación de informes suplementaria para la recopilación de datos a través de las bibliotecas de los servicios de medios de streaming. El uso de estas dimensiones requiere el **[!UICONTROL complemento de Adobe Analytics para medios de streaming]**. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
+Las dimensiones de metadatos de audio de los servicios de medios de streaming proporcionan una funcionalidad de creación de informes suplementaria para los datos recopilados mediante bibliotecas de recopilación de medios de streaming. Estas dimensiones requieren el **[!UICONTROL complemento de Adobe Analytics para medios de streaming]**. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
 
-Cuando habilita **[!UICONTROL Metadatos de audio]** en [Informes de medios](/help/admin/tools/manage-rs/edit-settings/media-management.md), están disponibles las siguientes dimensiones:
+Para usar estas dimensiones, habilite **[!UICONTROL Metadatos de audio]** en [[!UICONTROL Informes de medios]](/help/admin/tools/manage-rs/edit-settings/media-management.md) para el grupo de informes.
 
-| Nombre de la dimensión | Descripción | Enviado con | Variable de datos de contexto | Campo XDM |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL Álbum]** | El nombre del álbum. | Inicio de contenidos, Cierre de contenidos | `a.media.album` | `xdm.mediaCollection.`<br>`sessionDetails.album`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.album` |
-| **[!UICONTROL Artista]** | El nombre del artista. | Inicio de contenidos, Cierre de contenidos | `a.media.artist` | `xdm.mediaCollection.`<br>`sessionDetails.artist`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.artist` |
-| **[!UICONTROL Autor]** | El nombre del autor del libro de audio. | Inicio de contenidos, Cierre de contenidos | `a.media.author` | `xdm.mediaCollection.`<br>`sessionDetails.author`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.author` |
-| **[!UICONTROL Etiqueta]** | El nombre de la discográfica. | Inicio de contenidos, Cierre de contenidos | `a.media.label` | `xdm.mediaCollection.`<br>`sessionDetails.label`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.label` |
-| **[!UICONTROL Editor]** | Nombre del editor del contenido de audio. | Inicio de contenidos, Cierre de contenidos | `a.media.publisher` | `xdm.mediaCollection.`<br>`sessionDetails.publisher`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.publisher` |
-| **[!UICONTROL Estación]** | El nombre o ID de la emisora de radio. | Inicio de contenidos, Cierre de contenidos | `a.media.station` | `xdm.mediaCollection.`<br>`sessionDetails.station`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.station` |
+Las dimensiones disponibles son las siguientes:
+
+* [[!UICONTROL Álbum]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album)
+* [[!UICONTROL Artista]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist)
+* [[!UICONTROL Autor]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author)
+* [[!UICONTROL Etiqueta]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label)
+* [[!UICONTROL Editor]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher)
+* [[!UICONTROL Estación]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station)
