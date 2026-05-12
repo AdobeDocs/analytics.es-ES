@@ -5,10 +5,16 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c069c44e-5426-4c1a-accc-8028662f2fdeid: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9id: e7d92df1-c5ba-4e93-85df-f83171b889beid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: fe0a7292-80bc-407a-b456-64170267d1cc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
 workflow-type: tm+mt
-source-wordcount: '3652'
-ht-degree: 91%
+source-wordcount: 4148
+ht-degree: 78%
 
 ---
 
@@ -26,17 +32,17 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 >
 >La mayoría de las columnas contienen una columna similar con el prefijo `post_`. Las columnas de publicación muestran valores después de la lógica del lado del servidor, las reglas de procesamiento y las reglas de VISTA. Adobe recomienda usar columnas de publicación en la mayoría de los casos. Consulte [Preguntas frecuentes sobre fuentes de datos](../df-faq.md) para obtener más información.
 
-Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones en GitHub](https://github.com/AdobeDocs/analytics.es-ES/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones en GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 
-| Post | Nombre de la columna | Descripción de la columna | Tipo de datos |
+| Publicar | Nombre de la columna | Descripción de la columna | Tipo de datos |
 | ---: | :--- | --- | --- |
 | | **`accept_language`** | Enumera todos los idiomas aceptados, tal como se indica en el encabezado Accept-Language-HTTP de las solicitudes de imagen. | char(20) |
 | **`post_`** | **`adload`** | Cargas de anuncios de medios | varchar(255) |
 | **`post_`** | **`aemassetid`** | Variable de varios valores que corresponde a los ID de recurso (GUID) de un conjunto de recursos de Adobe Experience Manager. Aumenta los eventos de impresión. | texto |
 | **`post_`** | **`aemassetsource`** | Identifica el origen del evento del recurso. Se utiliza en Adobe Experience Manager. | varchar(255) |
 | **`post_`** | **`aemclickedassetid`** | ID de recurso de un recurso de Adobe Experience Manager. Incrementa los eventos de clic. | varchar(255) |
-| **`post_`** | **`amo_cid`** | The [AMO ID](/help/components/dimensions/amo-id.md) dimension, used in Adobe Advertising integrations. | varchar(255) |
-| **`post_`** | **`amo_ef_id`** | The [AMO EF ID](/help/components/dimensions/amo-ef-id.md) dimension, used in Adobe Advertising integrations. | varchar(255) |
+| **`post_`** | **`amo_cid`** | La dimensión [AMO ID](/help/components/dimensions/amo-id.md), utilizada en las integraciones de Adobe Advertising. | varchar(255) |
+| **`post_`** | **`amo_ef_id`** | La dimensión [AMO EF ID](/help/components/dimensions/amo-ef-id.md), utilizada en las integraciones de Adobe Advertising. | varchar(255) |
 | | **`browser`** | Un ID numérico que representa el explorador. Se remite a la tabla de búsqueda `browser.tsv`. | int sin firmar |
 | **`post_`** | **`browser_height`** | La dimensión [Altura del explorador](/help/components/dimensions/browser-height.md). | smallint sin firmar |
 | **`post_`** | **`browser_width`** | El [Ancho del explorador](/help/components/dimensions/browser-width.md) | smallint sin firmar |
@@ -45,14 +51,14 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`post_`** | **`channel`** | La dimensión [Secciones del sitio](/help/components/dimensions/site-section.md). | varchar(100) |
 | | **`ch_hdr`** | Sugerencias del cliente recopiladas mediante el encabezado de petición HTTP. | texto |
 | | **`ch_js`** | Sugerencias del cliente recopiladas mediante la API de JavaScript de sugerencias del cliente agente de usuario. | texto |
-| **`post_`** | **`clickmaplink`** | The [Activity Map link](/help/components/dimensions/activity-map-link.md) dimension. | varchar(255) |
-| **`post_`** | **`clickmaplinkbyregion`** | The [Activity Map link by region](/help/components/dimensions/activity-map-link-by-region.md) dimension. | varchar(255) |
-| **`post_`** | **`clickmappage`** | The [Activity Map page](/help/components/dimensions/activity-map-page.md) dimension. | varchar(255) |
-| **`post_`** | **`clickmapregion`** | The [Activity Map region](/help/components/dimensions/activity-map-region.md) dimension. | varchar(255) |
+| **`post_`** | **`clickmaplink`** | La dimensión [vínculo de Activity Map](/help/components/dimensions/activity-map-link.md). | varchar(255) |
+| **`post_`** | **`clickmaplinkbyregion`** | La dimensión [vínculo de Activity Map por región](/help/components/dimensions/activity-map-link-by-region.md). | varchar(255) |
+| **`post_`** | **`clickmappage`** | La dimensión [página de Activity Map](/help/components/dimensions/activity-map-page.md). | varchar(255) |
+| **`post_`** | **`clickmapregion`** | La dimensión [región de Activity Map](/help/components/dimensions/activity-map-region.md). | varchar(255) |
 | | **`code_ver`** | Versión de la API o del SDK cliente utilizado para compilar y enviar la solicitud de imagen. | char(16) |
 | | **`color`** | ID de profundidad de color basada en el valor de la columna `c_color`. Se remite a la tabla de búsqueda `color_depth.tsv`. | smallint sin firmar |
-| | **`connection_type`** | Numeric ID representing the [Connection type](/help/components/dimensions/connection-type.md) dimension. Se remite a la tabla de búsqueda `connection_type.tsv`. | tinyint sin firmar |
-| **`post_`** | **`cookies`** | La dimensión [Compatibilidad con cookies](/help/components/dimensions/cookie-support.md).<br>S: Habilitado<br>N: No habilitado<br>D: Desconocido | char(1) |
+| | **`connection_type`** | ID numérica que representa la dimensión [Tipo de conexión](/help/components/dimensions/connection-type.md). Se remite a la tabla de búsqueda `connection_type.tsv`. | tinyint sin firmar |
+| **`post_`** | **`cookies`** | Dimensión [Compatibilidad con cookies](/help/components/dimensions/cookie-support.md).<br>Y: Habilitado<br>N: Deshabilitado<br>U: Desconocido | char(1) |
 | | **`country`** | Un ID numérico que representa el país del visitante. Se remite a la tabla de búsqueda `country.tsv`. | smallint sin firmar |
 | **`post_`** | **`currency`** | El código de moneda que se ha utilizado durante la transacción. Configurado mediante [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). | char(8) |
 | | **`ct_connect_type`** | En relación con la columna `connection_type`. Los valores más comunes son LAN/Wi-Fi, operador de telefonía móvil y módem. | char(20) |
@@ -70,10 +76,10 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | | **`duplicated_from`** | Solo se utiliza en los grupos de informes que contienen las reglas de VISTA de copia de visita. Indica de qué grupo de informes se copió la visita. | varchar(40) |
 | | **`duplicate_events`** | Enumera cada evento que se contó como duplicado. | varchar(255) |
 | | **`duplicate_purchase`** | Un indicador que determina que el evento de compra de esta visita se ignora porque es un duplicado. | tinyint sin firmar |
-| **`post_`** | **`ef_id`** | The EF ID, used in Adobe Advertising integrations. | varchar(255) |
+| **`post_`** | **`ef_id`** | El EF ID, utilizado en las integraciones de Adobe Advertising. | varchar(255) |
 | **`post_`** | **`evar1 - evar250`** | Variables personalizadas 1-250. Se utiliza en dimensiones [eVar](/help/components/dimensions/evar.md). Cada organización utiliza las eVars de forma diferente. El mejor lugar para obtener más información sobre cómo su organización rellena las eVars respectivas sería un [documento de diseño de solución](/help/implement/prepare/solution-design.md) específico de su organización. | varchar(255) |
-| **`post_`** | **`event_list`** | Lista separada por comas de los ID numéricos que representan los eventos activados en la visita. Includes both commerce events and [custom events 1-1000](/help/components/metrics/custom-events.md). Utiliza la búsqueda `event.tsv`. | texto |
-| | **`exclude_hit`** | Un indicador que determina si la visita se excluye de la creación de informes. La columna `visit_num` no aumenta con las visitas excluidas.<br>1: No se usa. Parte de una función limpiada.<br>2: No se usa. Parte de una función limpiada.<br>3: Ya no se utiliza. Exclusión de agente de usuario<br>4: Exclusión basada en la dirección IP<br>5: Falta información clave de visitas, como `page_url`, `pagename`, `page_event` o `event_list`<br>6: JavaScript no ha procesado la visita correctamente<br>7: Exclusión específica de la cuenta, como en reglas VISTA<br>8: Sin usar. Exclusión alternativa específica de la cuenta.<br>9: No se usa. Parte de una función limpiada.<br>10: Código de moneda no válido<br>11: La visita individual no incluye una marca de tiempo en un grupo de informes solo de marca de tiempo o una visita que contiene una marca de tiempo en un grupo de informes que no es de marca de hora<br>12: No se usa. Parte de una función limpiada.<br>13: No se usa. Parte de una función limpiada.<br>14: La visita de Target que no coincide con una visita de Analytics<br>15: No se utiliza actualmente.<br>16: Adobe Advertising hit that did not match up to an Analytics hit | tinyint sin firmar |
+| **`post_`** | **`event_list`** | Lista separada por comas de los ID numéricos que representan los eventos activados en la visita. Incluye eventos de comercio y [eventos personalizados 1-1000](/help/components/metrics/custom-events.md). Utiliza la búsqueda `event.tsv`. | texto |
+| | **`exclude_hit`** | Un indicador que determina si la visita se excluye de la creación de informes. La columna `visit_num` no se incrementa para las visitas excluidas.<br>1: No se usa. Parte de una característica desechada.<br>2: no se usa. Parte de una característica desechada.<br>3: ya no se usa. Exclusión de agente de usuario<br>4: Exclusión basada en la dirección IP<br>5: Falta información clave de visitas, como `page_url`, `pagename`, `page_event` o `event_list`<br>6: JavaScript no ha procesado la visita correctamente<br>7: Exclusión específica de la cuenta, como en reglas VISTA<br>8: Sin usar. Exclusión alternativa específica de la cuenta.<br>9: No se usa. Parte de una característica desechada.<br>10: Código de moneda no válido<br>11: La visita individual no contiene una marca de tiempo en un grupo de informes solo de marca de tiempo o una visita que contiene una marca de tiempo en un grupo de informes que no es de marca de hora<br>12: No se usa. Parte de una característica desechada.<br>13: No se usa. Parte de una característica desechada.<br>14: La visita de Target que no coincide con una visita de Analytics<br>15: No se usa actualmente.<br>16: La visita de Adobe Advertising que no coincide con una visita de Analytics | tinyint sin firmar |
 | | **`first_hit_pagename`** | Dimensión [Página de entrada original](/help/components/dimensions/entry-dimensions.md). El nombre de la página de entrada original del visitante. | varchar(100) |
 | | **`first_hit_page_url`** | La primera URL del visitante. | varchar(255) |
 | | **`first_hit_referrer`** | La primera URL de referencia del visitante. | varchar(255) |
@@ -86,8 +92,8 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | | **`geo_region`** | El nombre del estado o región del que provino la visita basada en la dirección IP. Se utiliza en la dimensión [Regiones](/help/components/dimensions/regions.md). | char(32) |
 | | **`geo_zip`** | El código postal del que provino la visita basada en la dirección IP. Ayuda a rellenar la dimensión [Código postal](/help/components/dimensions/zip-code.md). Consulte también `zip`. | varchar(16) |
 | | **`hitid_high`** | Se utiliza en combinación con `hitid_low` para identificar una visita. | bigint sin firmar |
-| | **`hitid_low`** | Se utiliza con `hitid_high` para identificar una visita. | bigint sin firmar |
-| | **`hit_source`** | Indica la fuente de la que provino la visita. Hit sources 1 and 2 are billed. <br>1: Standard image request without timestamp <br>2: Standard image request with timestamp <br>3: Live data source upload with timestamps <br>4: Not used <br>5: Generic data source upload <br>6: No longer used; full processing data source upload <br>7: TransactionID data source upload <br>8: No longer used; Previous versions of Adobe Advertising data sources <br>9: No longer used; Adobe Social summary metrics <br>10: Audience Manager server-side forwarding used | tinyint sin firmar |
+| | **`hitid_low`** | Se utiliza en combinación con `hitid_high` para identificar una visita. | bigint sin firmar |
+| | **`hit_source`** | Indica la fuente de la que provino la visita. Se facturan las fuentes de visitas 1 y 2. <br>1: Solicitud de imagen estándar sin marca de tiempo <br>2: Solicitud de imagen estándar con marca de tiempo <br>3: Carga del origen de datos activo con marcas de tiempo <br>4: No utilizado <br>5: Carga genérica del origen de datos <br>6: Ya no se utiliza; carga completa del origen de datos de procesamiento <br>7: Carga del origen de datos TransactionID <br>8: Ya no se utiliza; Versiones anteriores de los orígenes de datos de Adobe Advertising <br>9: Ya no se utiliza; Métricas de resumen de Adobe Social <br>10: Reenvío del lado del servidor de Audience Manager utilizado | tinyint sin firmar |
 | | **`hit_time_gmt`** | La marca de tiempo de los servidores de recopilación de datos de visitas de Adobe que recibieron la visita, basada en el tiempo UNIX®. | int |
 | | **`hourly_visitor`** | Un indicador que determina si la visita es un visitante nuevo por hora. | tinyint sin firmar |
 | | **`ip`** | La dirección IPv4, basada en el encabezado HTTP de la solicitud de imagen. Exclusivo de forma mutua para `ipv6`; si esta columna contiene una dirección IP no oculta, `ipv6` está en blanco. | char(20) |
@@ -105,7 +111,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | | **`mcvisid`** | ID de visitante de Experience Cloud. Número de 128 bits formado por dos números concatenados de 64 bits con relleno hasta 19 dígitos. | varchar(255) |
 | **`post_`** | **`mc_audiences`** | Lista de ID de segmento de Audience Manager a los que pertenece el visitante. La columna `post_mc_audiences` cambia el delimitador a `--**--`. | texto |
 | **`post_`** | **`mobileaction`** | Acción móvil. Se recopila automáticamente cuando se llama a `trackAction` en implementaciones móviles. Permite establecer automáticamente las rutas de acción en la aplicación. | varchar(100) |
-| **`post_`** | **`mobileappid`** | ID de la aplicación móvil. Almacena el nombre y la versión de la aplicación en el siguiente formato: `[AppName] [BundleVersion]`.  | varchar(255) |
+| **`post_`** | **`mobileappid`** | ID de la aplicación móvil. Almacena el nombre y la versión de la aplicación en el siguiente formato: `[AppName] [BundleVersion]`. | varchar(255) |
 | | **`mobileappperformanceappid`** | Se utiliza en el conector de datos Apteligent. El ID de la aplicación utilizado en Apteligent. | varchar(255) |
 | | **`mobileappperformancecrashid`** | Se utiliza en el conector de datos Apteligent. ID de bloqueo utilizado en Apteligent. | varchar(255) |
 | | **`mobileappstoreobjectid`** | Se utiliza en el conector de datos [!DNL Appfigures]. ID de objeto de App Store. | varchar(255) |
@@ -155,7 +161,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`post_`** | **`page_event_var1`** | Solo se utiliza en solicitudes de imagen de seguimiento de vínculos. URL del vínculo de descarga, de salida o personalizado en el que se hizo clic. | texto |
 | **`post_`** | **`page_event_var2`** | Solo se utiliza en solicitudes de imagen de seguimiento de vínculos. Nombre personalizado (si se especifica) del vínculo. Establece el [vínculo personalizado](/help/components/dimensions/custom-link.md), el [vínculo de descarga](/help/components/dimensions/download-link.md) o el [vínculo de salida](/help/components/dimensions/exit-link.md), según el valor de `page_event`. | varchar(100) |
 | **`post_`** | **`page_type`** | Dimensión [Páginas no encontradas](/help/components/dimensions/pages-not-found.md), que se usa generalmente para páginas 404. | char(20) |
-| **`post_`** | **`page_url`** | **`page_url`**: The URL of the hit. Uses a data type of text.<br>**`post_page_url`**: Stripped for link tracking image requests ([`tl()`](/help/implement/vars/functions/tl-method.md)). Uses a data type of varchar(255). | text<br>varchar(255) |
+| **`post_`** | **`page_url`** | **`page_url`**: dirección URL de la visita. Utiliza un tipo de datos de texto.<br>**`post_page_url`**: Eliminado para las solicitudes de imagen de seguimiento de vínculos ([`tl()`](/help/implement/vars/functions/tl-method.md)). Utiliza un tipo de datos de varchar(255). | text<br>varchar(255) |
 | | **`paid_search`** | Un indicador que se determina si la visita coincide con la detección de búsquedas de pago. | tinyint sin firmar |
 | **`post_`** | **`persistent_cookie`** | Se utiliza en la dimensión [Compatibilidad con cookies persistentes](/help/components/dimensions/persistent-cookie-support.md). Indica si el visitante admite cookies que no se descartan después de cada visita. | char(1) |
 | **`post_`** | **`pointofinterest`** | Nombre del punto de interés de Mobile Services | varchar(255) |
@@ -166,7 +172,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | | **`quarterly_visitor`** | Un indicador que determina si la visita es un visitante nuevo trimestral. | tinyint sin firmar |
 | **`post_`** | **`referrer`** | Dimensión [Referente](/help/components/dimensions/referrer.md). Tenga en cuenta que mientras `referrer` utiliza un tipo de datos de varchar(255), `post_referrer` emplea un tipo de datos de varchar(244). | varchar(255)<br>varchar(244) |
 | | **`ref_domain`** | Dimensión [Dominio de referencia](/help/components/dimensions/referring-domain.md). Se basa en la columna`referrer`. | varchar(100) |
-| | **`ref_type`** | ID numérico que representa el tipo de referente de la visita. Se utiliza en la dimensión [Tipo de referente](/help/components/dimensions/referrer-type.md).<br>1: Inside your site<br>2: Other web sites<br>3: Search engines<br>4: Hard drive<br>5: USENET<br>6: Typed/Bookmarked (no referrer)<br>7: Email<br>8: No JavaScript<br>9: Social Networks<br>10: Conversational AI tools | tinyint sin firmar |
+| | **`ref_type`** | ID numérico que representa el tipo de referente de la visita. Se usa en la dimensión [Tipo de referente](/help/components/dimensions/referrer-type.md).<br>1: Dentro del sitio<br>2: Otros sitios web<br>3: Motores de búsqueda<br>4: Disco duro<br>5: USENET<br>6: Escritos o marcadores (sin referente)<br>7: Correo electrónico<br>8: Sin JavaScript<br>9: Redes sociales<br>10: Herramientas de IA conversacional | tinyint sin firmar |
 | | **`resolution`** | ID numérico que representa la resolución del monitor. Se utiliza en la dimensión [Resolución del monitor](/help/components/dimensions/monitor-resolution.md). Utiliza la tabla de búsqueda `resolution.tsv`. | smallint sin firmar |
 | **`post_`** | **`search_engine`** | ID numérico que representa el motor de búsqueda que redirigió al visitante a su sitio. Se utiliza en dimensiones del [motor de búsqueda](/help/components/dimensions/search-engine.md). Se remite a la tabla de búsqueda `search_engines.tsv`. | smallint sin firmar |
 | | **`search_page_num`** | Lo utiliza la dimensión [Rango de todas las páginas de búsqueda](/help/components/dimensions/all-search-page-rank.md). Indica en qué página de resultados de búsqueda apareció su sitio antes de que se hiciera clic para acceder a él. | smallint sin firmar |
@@ -178,7 +184,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`post_`** | **`tnt`** | Se utiliza en las integraciones de Adobe Target. Representa todas las pruebas para las que está cualificado actualmente. El formato es: `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | texto |
 | **`post_`** | **`tnt_action`** | Se utiliza en las integraciones de Adobe Target. Representa todas las pruebas para las que se calificó la visita. | texto |
 | | **`tnt_instances`** | Se utiliza en las integraciones de Adobe Target. Variable de instancias de Target. | texto |
-| **`post_`** | **`transactionid`** | A unique identifier where various data points can be uploaded later through data sources. Recopilado mediante la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | texto |
+| **`post_`** | **`transactionid`** | Un identificador único donde, más tarde, se pueden cargar diversos puntos de datos a través de fuentes de datos. Recopilado mediante la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | texto |
 | | **`truncated_hit`** | Un indicador que indica que se truncó la solicitud de imagen (se recibió una visita parcial). <br>S: Se truncó la visita; visita parcial recibida <br>N: La visita no se truncó; visita completa recibida | char(1) |
 | **`post_`** | **`t_time_info`** | Hora local del visitante. El formato es: `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | | **`userid`** | Sin uso. ID numérico del ID del grupo de informes. Utilice `username` en su lugar. | int sin firmar |
@@ -192,55 +198,55 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | | **`va_finder_id`** | ID numérico que identifica la dimensión [Canal del primer contacto](/help/components/dimensions/first-touch-channel.md). La búsqueda de este ID se encuentra en el administrador de canales de marketing. | tinyint sin firmar |
 | | **`va_instance_event`** | Un indicador que identifica [Instancias](/help/components/metrics/instances.md) del canal de marketing. | tinyint sin firmar |
 | | **`va_new_engagement`** | Un indicador que identifica las [nuevas participaciones](/help/components/metrics/new-engagements.md) del canal de marketing. | tinyint sin firmar |
-| **`post_`** | **`video`** | Dimensión de servicios de medios de streaming [Contenido](/help/components/dimensions/sm-core.md). | varchar(255) |
-| **`post_`** | **`videoad`** | Dimensión de servicios de medios de streaming [Publicidad](/help/components/dimensions/sm-ads.md). | varchar(255) |
-| **`post_`** | **`videoadinpod`** | Dimensión de servicios de medios de streaming [Posición del anuncio en la secuencia](/help/components/dimensions/sm-ads.md). | varchar(255) |
-| **`post_`** | **`videoadlength`** | Dimensión de servicios de medios de transmisión [Longitud del anuncio (variable)](/help/components/dimensions/sm-ads.md). | entero |
-| **`post_`** | **`videoadname`** | Dimensión de servicios de medios de streaming [Nombre del anuncio (variable)](/help/components/dimensions/sm-ads.md). | varchar(255) |
-| **`post_`** | **`videoadplayername`** | Dimensión de servicios de medios de streaming [Nombre del reproductor del anuncio](/help/components/dimensions/sm-ads.md). | varchar(255) |
-| **`post_`** | **`videoadpod`** | Dimensión de servicios de medios de streaming [Pod del anuncio](/help/components/dimensions/sm-ads.md). | varchar(255) |
-| **`post_`** | **`videoadvertiser`** | Dimensión de servicios de medios de streaming [Anunciante](/help/components/dimensions/sm-ads.md). | varchar(255) |
-| | **`videoaudioalbum`** | Dimensión de servicios de medios de streaming [Álbum](/help/components/dimensions/sm-audio-metadata.md). | varchar(255) |
-| | **`videoaudioartist`** | Dimensión de servicios de medios de streaming [Artista](/help/components/dimensions/sm-audio-metadata.md). | varchar(255) |
-| | **`videoaudioauthor`** | Dimensión de servicios de medios de streaming [Autor](/help/components/dimensions/sm-audio-metadata.md). | varchar(255) |
-| | **`videoaudiolabel`** | Dimensión de servicios de medios de streaming [Etiqueta](/help/components/dimensions/sm-audio-metadata.md). | varchar(255) |
-| | **`videoaudiopublisher`** | Dimensión de servicios de medios de streaming [Editor](/help/components/dimensions/sm-audio-metadata.md). | varchar(255) |
-| | **`videoaudiostation`** | Dimensión de servicios de medios de streaming [Estación](/help/components/dimensions/sm-audio-metadata.md). | varchar(255) |
-| **`post_`** | **`videocampaign`** | Dimensión de servicios de medios de streaming [ID de campaña](/help/components/dimensions/sm-ads.md). | varchar(255) |
-| **`post_`** | **`videochannel`** | Dimensión de servicios de medios de streaming [Canal de contenido](/help/components/dimensions/sm-core.md). | varchar(255) |
-| **`post_`** | **`videochapter`** | Dimensión de servicios de medios de streaming [Capítulo](/help/components/dimensions/sm-chapters.md). | varchar(255) |
-| **`post_`** | **`videocontenttype`** | Dimensión de servicios de medios de streaming [Tipo de contenido](/help/components/dimensions/sm-core.md). | varchar(255) |
-| **`post_`** | **`videodaypart`** | Dimensión de servicios de medios de streaming [Momento del día](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
-| **`post_`** | **`videoepisode`** | Dimensión de servicios de medios de streaming [Capítulo](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
-| **`post_`** | **`videofeedtype`** | Dimensión de servicios de medios de streaming [Tipo de fuente de medios](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
-| **`post_`** | **`videogenre`** | Dimensión de servicios de medios de streaming [Género](/help/components/dimensions/sm-video-metadata.md). Esta dimensión permite varios valores en la misma visita, delimitados por una coma. | texto |
-| **`post_`** | **`videolength`** | Dimensión de servicios de medios de streaming [Longitud del contenido (variable)](/help/components/dimensions/sm-core.md). | entero |
-| **`post_`** | **`videomvpd`** | Dimensión de servicios de medios de streaming [MVPD](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
-| **`post_`** | **`videoname`** | Dimensión de servicios de medios de streaming [Nombre del contenido (variable)](/help/components/dimensions/sm-core.md). | varchar(255) |
-| **`post_`** | **`videonetwork`** | Dimensión de servicios de medios de streaming [Red](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
-| **`post_`** | **`videopath`** | Dimensión de servicios de medios de streaming [Ruta de medios](/help/components/dimensions/sm-core.md). | varchar(100) |
-| **`post_`** | **`videoplayername`** | Dimensión de servicios de medios de streaming [Nombre del reproductor de contenido](/help/components/dimensions/sm-core.md). | varchar(255) |
-| **`post_`** | **`videoqoebitrateaverageevar`** | Dimensión de servicios de medios de streaming [Bitrate promedio](/help/components/dimensions/sm-quality.md). | varchar(255) |
-| **`post_`** | **`videoqoebitratechangecountevar`** | Dimensión de servicios de medios de streaming [Cambios en bitrate](/help/components/dimensions/sm-quality.md). | varchar(255) |
-| **`post_`** | **`videoqoebuffercountevar`** | Dimensión de servicios de medios de streaming [Eventos de búfer](/help/components/dimensions/sm-quality.md). | varchar(255) |
-| **`post_`** | **`videoqoebuffertimeevar`** | Dimensión de servicios de medios de streaming [Duración total del búfer](/help/components/dimensions/sm-quality.md). | varchar(255) |
-| **`post_`** | **`videoqoedroppedframecountevar`** | Dimensión de servicios de medios de streaming [Fotogramas perdidos](/help/components/dimensions/sm-quality.md). | varchar(255) |
-| **`post_`** | **`videoqoeerrorcountevar`** | Dimensión de servicios de medios de streaming [Errores](/help/components/dimensions/sm-quality.md). | varchar(255) |
-| | **`videoqoeextneralerrors`** | Dimensión de servicios de medios de streaming [ID de error externo](/help/components/dimensions/sm-quality.md). Esta dimensión permite varios valores en la misma visita. | texto |
-| **`post_`** | **`videoqoeplayersdkerrors`** | Dimensión de servicios de medios de streaming [ID de error del reproductor SDK](/help/components/dimensions/sm-quality.md). Esta dimensión permite varios valores en la misma visita. | texto |
-| **`post_`** | **`videoqoetimetostartevar`** | Dimensión de servicios de medios de streaming [Tiempo para el inicio](/help/components/dimensions/sm-quality.md). | varchar(255) |
-| **`post_`** | **`videoseason`** | Dimensión de servicios de medios de streaming [Temporada](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
-| **`post_`** | **`videosegment`** | Dimensión de servicios de medios de streaming [Segmento de contenido](/help/components/dimensions/sm-core.md). | varchar(255) |
-| **`post_`** | **`videosessionid`** | The [Media session ID](/help/components/dimensions/sm-core.md) streaming media services dimension. | varchar(255) |
-| **`post_`** | **`videoshow`** | Dimensión de servicios de medios de streaming [Programa](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
-| **`post_`** | **`videoshowtype`** | Dimensión de servicios de medios de streaming [Tipo de programa](/help/components/dimensions/sm-video-metadata.md). | varchar(255) |
-| | **`videostreamtype`** | Dimensión de servicios de medios de streaming [Tipo de emisión](/help/components/dimensions/sm-core.md). | varchar(255) |
+| **`post_`** | **`video`** | Dimensión de servicios de medios de streaming [Contenido](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content). | varchar(255) |
+| **`post_`** | **`videoad`** | Dimensión de servicios de medios de streaming [Publicidad](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad). | varchar(255) |
+| **`post_`** | **`videoadinpod`** | Dimensión de servicios de medios de streaming [Posición del anuncio en la secuencia](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position). | varchar(255) |
+| **`post_`** | **`videoadlength`** | Dimensión de servicios de medios de transmisión [Longitud del anuncio (variable)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length). | entero |
+| **`post_`** | **`videoadname`** | Dimensión de servicios de medios de streaming [Nombre del anuncio (variable)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name). | varchar(255) |
+| **`post_`** | **`videoadplayername`** | Dimensión de servicios de medios de streaming [Nombre del reproductor del anuncio](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name). | varchar(255) |
+| **`post_`** | **`videoadpod`** | Dimensión de servicios de medios de streaming [Pod del anuncio](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod). | varchar(255) |
+| **`post_`** | **`videoadvertiser`** | Dimensión de servicios de medios de streaming [Anunciante](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser). | varchar(255) |
+| | **`videoaudioalbum`** | Dimensión de servicios de medios de streaming [Álbum](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album). | varchar(255) |
+| | **`videoaudioartist`** | Dimensión de servicios de medios de streaming [Artista](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist). | varchar(255) |
+| | **`videoaudioauthor`** | Dimensión de servicios de medios de streaming [Autor](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author). | varchar(255) |
+| | **`videoaudiolabel`** | Dimensión de servicios de medios de streaming [Etiqueta](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label). | varchar(255) |
+| | **`videoaudiopublisher`** | Dimensión de servicios de medios de streaming [Editor](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher). | varchar(255) |
+| | **`videoaudiostation`** | Dimensión de servicios de medios de streaming [Estación](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station). | varchar(255) |
+| **`post_`** | **`videocampaign`** | Dimensión de servicios de medios de streaming [ID de campaña](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id). | varchar(255) |
+| **`post_`** | **`videochannel`** | Dimensión de servicios de medios de streaming [Canal de contenido](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel). | varchar(255) |
+| **`post_`** | **`videochapter`** | Dimensión de servicios de medios de streaming [Capítulo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter). | varchar(255) |
+| **`post_`** | **`videocontenttype`** | Dimensión de servicios de medios de streaming [Tipo de contenido](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type). | varchar(255) |
+| **`post_`** | **`videodaypart`** | Dimensión de servicios de medios de streaming [Momento del día](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part). | varchar(255) |
+| **`post_`** | **`videoepisode`** | Dimensión de servicios de medios de streaming [Capítulo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode). | varchar(255) |
+| **`post_`** | **`videofeedtype`** | Dimensión de servicios de medios de streaming [Tipo de fuente de medios](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type). | varchar(255) |
+| **`post_`** | **`videogenre`** | Dimensión de servicios de medios de streaming [Género](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre). Esta dimensión permite varios valores en la misma visita, delimitados por una coma. | texto |
+| **`post_`** | **`videolength`** | Dimensión de servicios de medios de streaming [Longitud del contenido (variable)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length). | entero |
+| **`post_`** | **`videomvpd`** | Dimensión de servicios de medios de streaming [MVPD](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd). | varchar(255) |
+| **`post_`** | **`videoname`** | Dimensión de servicios de medios de streaming [Nombre del contenido (variable)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name). | varchar(255) |
+| **`post_`** | **`videonetwork`** | Dimensión de servicios de medios de streaming [Red](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network). | varchar(255) |
+| **`post_`** | **`videopath`** | Dimensión de servicios de medios de streaming [Ruta de medios](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path). | varchar(100) |
+| **`post_`** | **`videoplayername`** | Dimensión de servicios de medios de streaming [Nombre del reproductor de contenido](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name). | varchar(255) |
+| **`post_`** | **`videoqoebitrateaverageevar`** | Dimensión de servicios de medios de streaming [Bitrate promedio](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate). | varchar(255) |
+| **`post_`** | **`videoqoebitratechangecountevar`** | Dimensión de servicios de medios de streaming [Cambios en bitrate](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes). | varchar(255) |
+| **`post_`** | **`videoqoebuffercountevar`** | Dimensión de servicios de medios de streaming [Eventos de búfer](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events). | varchar(255) |
+| **`post_`** | **`videoqoebuffertimeevar`** | Dimensión de servicios de medios de streaming [Duración total del búfer](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration). | varchar(255) |
+| **`post_`** | **`videoqoedroppedframecountevar`** | Dimensión de servicios de medios de streaming [Fotogramas perdidos](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames). | varchar(255) |
+| **`post_`** | **`videoqoeerrorcountevar`** | Dimensión de servicios de medios de streaming [Errores](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors). | varchar(255) |
+| | **`videoqoeextneralerrors`** | Dimensión de servicios de medios de streaming [ID de error externo](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids). Esta dimensión permite varios valores en la misma visita. | texto |
+| **`post_`** | **`videoqoeplayersdkerrors`** | Dimensión de servicios de medios de streaming [ID de error del reproductor SDK](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids). Esta dimensión permite varios valores en la misma visita. | texto |
+| **`post_`** | **`videoqoetimetostartevar`** | Dimensión de servicios de medios de streaming [Tiempo para el inicio](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start). | varchar(255) |
+| **`post_`** | **`videoseason`** | Dimensión de servicios de medios de streaming [Temporada](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season). | varchar(255) |
+| **`post_`** | **`videosegment`** | Dimensión de servicios de medios de streaming [Segmento de contenido](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment). | varchar(255) |
+| **`post_`** | **`videosessionid`** | La dimensión de servicios de medios de streaming [ID de sesión de medios](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id). | varchar(255) |
+| **`post_`** | **`videoshow`** | Dimensión de servicios de medios de streaming [Programa](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show). | varchar(255) |
+| **`post_`** | **`videoshowtype`** | Dimensión de servicios de medios de streaming [Tipo de programa](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type). | varchar(255) |
+| | **`videostreamtype`** | Dimensión de servicios de medios de streaming [Tipo de emisión](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type). | varchar(255) |
 | **`post_`** | **`visid_high`** | Se utiliza con `visid_low` para identificar un visitante de forma exclusiva. | bigint sin firmar |
 | **`post_`** | **`visid_low`** | Se utiliza con `visid_high` para identificar un visitante de forma exclusiva. | bigint sin firmar |
 | | **`visid_new`** | Un indicador que determina si la visita contiene un ID de visitante recién generado. | char(1) |
 | | **`visid_timestamp`** | Si el ID de visitante se ha generado recientemente, proporciona la marca de tiempo en tiempo UNIX® del momento en que se generó el ID de visitante. | int |
-| **`post_`** | **`visid_type`** | No para uso externo; Adobe lo utiliza internamente para procesar optimizaciones. ID numérico que representa el método utilizado para identificar al visitante.<br>`0`: ID de visitante personalizado o desconocido/no aplicable<br>`1`: IP y reserva del agente de usuario <br>`2`: encabezado de suscriptor móvil HTTP <br>`3`: valor de la cookie heredada (`s_vi`) <br>`4`: valor de la cookie de reserva (`s_fid`) <br>`5`: servicio de identidad | tinyint sin firmar |
-| **`post_`** | **`visit_keywords`** | Dimensión [Palabra clave de búsqueda](/help/components/dimensions/search-keyword.md). This column uses a non-standard character limit of varchar(244) to accommodate back-end logic used by Adobe. The post-processed column is `**post_keywords**`, not `**post_visit_keywords**`. | varchar(244) |
+| **`post_`** | **`visid_type`** | No para uso externo; Adobe lo utiliza internamente para procesar optimizaciones. Identificador numérico que representa el método utilizado para identificar al visitante.<br>`0`: Id. de visitante personalizado o desconocido/no aplicable<br>`1`: IP y reserva del agente de usuario <br>`2`: Encabezado de suscriptor móvil HTTP <br>`3`: Valor de la cookie heredada (`s_vi`) <br>`4`: Valor de la cookie de reserva (`s_fid`) <br>`5`: Servicio de identidad | tinyint sin firmar |
+| **`post_`** | **`visit_keywords`** | Dimensión [Palabra clave de búsqueda](/help/components/dimensions/search-keyword.md). Esta columna utiliza un límite de caracteres no estándar de varchar(244) para dar cabida a la lógica back-end que utiliza Adobe. La columna posprocesada es `**post_keywords**`, no `**post_visit_keywords**`. | varchar(244) |
 | | **`visit_num`** | Dimensión [Número de visitas](/help/components/dimensions/visit-number.md). Empieza en 1 y aumenta cada vez que se inicia una nueva visita por visitante. | int sin firmar |
 | | **`visit_page_num`** | Dimensión [Profundidad de la visita](/help/components/dimensions/hit-depth.md). Aumenta en 1 por cada visita que genera el visitante. Restablece cada visita. | int sin firmar |
 | | **`visit_referrer`** | El primer referente de la visita. | varchar(255) |
@@ -258,7 +264,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 
 La siguiente lista de columnas no se utiliza, se ha retirado o no contiene valor en la creación de informes. Algunas de estas columnas están vinculadas a funciones que se han retirado, mientras que otras ya no son necesarias debido a funciones nuevas y más sólidas. La mayoría de estas columnas no contienen datos; las columnas que aún podrían contener datos no son compatibles con las bibliotecas de recopilación de datos actuales y no son dimensiones disponibles en Analysis Workspace.
 
-| Post | Nombre de la columna |
+| Publicar | Nombre de la columna |
 | ---: | :--- |
 | `post_` | `adclassificationcreative` |
 | | `click_action` |

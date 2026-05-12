@@ -3,32 +3,38 @@ title: Métricas de calidad de servicios de medios de streaming
 description: Métricas disponibles cuando se habilita [!UICONTROL Calidad de los medios] para un grupo de informes.
 feature: Metrics
 exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/TsYeXNoVMxw2S8DqHGxkPk-7MrxXhBSG-b7b4J0TOOQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 1%
+source-wordcount: 258
+ht-degree: 0%
 
 ---
 
 # Métricas de calidad de servicios de medios de streaming
 
-*Esta página describe las métricas disponibles cuando se habilita [!UICONTROL Calidad de los medios] para un grupo de informes. Consulte [Dimensiones de calidad de servicios de medios de streaming](../dimensions/sm-quality.md) para ver las dimensiones disponibles.*
+Las métricas de calidad de los servicios de medios de streaming proporcionan una funcionalidad de sistema de informes suplementaria para los datos recopilados a través de las bibliotecas de recopilación de medios de streaming. Estas métricas requieren el **[!UICONTROL complemento de Adobe Analytics para medios de streaming]**. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
 
-Las métricas de calidad de los servicios de medios de streaming proporcionan una funcionalidad de sistema de informes suplementaria a la recopilación de datos a través de las bibliotecas de los servicios de medios de streaming. El uso de estas métricas requiere el **[!UICONTROL complemento de Adobe Analytics para medios de streaming]**. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
+Para usar estas métricas, habilita **[!UICONTROL Calidad de los medios]** en [[!UICONTROL Informes de medios]](/help/admin/tools/manage-rs/edit-settings/media-management.md) para el grupo de informes.
 
-Cuando habilita **[!UICONTROL Calidad multimedia]** en [Informes multimedia](/help/admin/tools/manage-rs/edit-settings/media-management.md), están disponibles las siguientes métricas:
+Las métricas disponibles son las siguientes:
 
-| Nombre de la métrica | Descripción | Enviado con | Variable de datos de contexto | Campo XDM |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL Velocidad de bits media]** | Una media ponderada de todos los valores de velocidad de bits durante la duración de reproducción de una sesión de reproducción. | Cierre de medios | `a.media.qoe.`<br>`bitrateAverage` | `xdm.mediaReporting.`<br>`qoeDataDetails.bitrateAverage` |
-| **[!UICONTROL Flujos afectados por cambio de velocidad de bits]** | Un booleano que indica en déclencheur si la velocidad de bits cambia al menos una vez durante una sesión de reproducción. | Cierre de medios | `a.media.qoe.`<br>`bitrateChange` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`hasBitrateChangeImpactedStreams` |
-| **[!UICONTROL Cambios de velocidad de bits]** | El número de veces que cambió la velocidad de bits. | Cierre de medios | `a.media.qoe.`<br>`bitrateChangeCount` | `xdm.mediaCollection.`<br>`qoeDataDetails.`<br>`bitrateChangeCount`<br><br>`xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`bitrateChangeCount` |
-| **[!UICONTROL Flujos afectados por búfer]** | Un booleano que indica en déclencheur si el vídeo entra en estado de búfer al menos una vez. | Cierre de medios | `a.media.qoe.`<br>`buffer` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`hasBufferImpactedStreams` |
-| **[!UICONTROL Eventos de búfer]** | El número de veces que el vídeo se almacena en búfer durante una sesión de reproducción. | Cierre de medios | `a.media.qoe.`<br>`bufferCount` | `xdm.mediaReporting.`<br>`qoeDataDetails.bufferCount` |
-| **[!UICONTROL Duración total del búfer]** | La cantidad de tiempo que un vídeo ha invertido en almacenar en búfer todos los eventos de búfer, en segundos. | Cierre de medios | `a.media.qoe.`<br>`bufferTime` | `xdm.mediaReporting.`<br>`qoeDataDetails.bufferTime` |
-| **[!UICONTROL Pérdidas antes del inicio]** | Un booleano que establece un déclencheur si un usuario sale antes de que comience el contenido principal de un vídeo. | Cierre de medios | `a.media.qoe.`<br>`dropBeforeStart` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`isDroppedBeforeStart` |
-| **[!UICONTROL Fotogramas perdidos]** | Un entero que representa el número total de fotogramas perdidos durante una sesión de reproducción. | Cierre de medios | `a.media.qoe.`<br>`droppedFrameCount` | `xdm.mediaCollection.`<br>`qoeDataDetails.droppedFrames`<br><br>`xdm.mediaReporting.`<br>`qoeDataDetails.droppedFrames` |
-| **[!UICONTROL Flujos afectados por fotogramas rechazados]** | Un booleano que déclencheur cuando se pierden fotogramas durante una sesión de reproducción. | Cierre de medios | `a.media.qoe.`<br>`droppedFrames` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`hasDroppedFrameImpactedStreams` |
-| **[!UICONTROL Flujos afectados por error]** | Un booleano que déclencheur cuando un vídeo experimenta un error en cualquier momento durante una sesión de reproducción. | Cierre de medios | `a.media.qoe.`<br>`error` | `xdm.mediaReporting.`<br>`qoeDataDetails.`<br>`hasErrorImpactedStreams` |
-| **[!UICONTROL Eventos de error]** | Un entero que representa el número total de errores encontrados durante una sesión de reproducción. | Cierre de medios | `a.media.qoe.`<br>`errorCount` | `xdm.mediaReporting.`<br>`qoeDataDetails.errorCount` |
-| **[!UICONTROL Tiempo para el inicio]** | La cantidad de tiempo que se tarda en iniciar un vídeo, en milisegundos. Adobe convierte y almacena este valor en segundos. | Cierre de medios | `a.media.qoe.`<br>`timeToStart` | `xdm.mediaCollection.`<br>`qoeDataDetails.timeToStart`<br><br>`xdm.mediaReporting.`<br>`qoeDataDetails.timeToStart` |
+* [[!UICONTROL Velocidad de bits media]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/average-bitrate)
+* [[!UICONTROL Flujos afectados por cambio de velocidad de bits]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/bitrate-change-impacted-streams)
+* [[!UICONTROL Cambios de velocidad de bits]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/bitrate-changes)
+* [[!UICONTROL Flujos afectados por búfer]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/buffer-impacted-streams)
+* [[!UICONTROL Eventos de búfer]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/buffer-events)
+* [[!UICONTROL Duración total del búfer]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration)
+* [[!UICONTROL Pérdidas antes del inicio]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/drops-before-start)
+* [[!UICONTROL Fotogramas perdidos]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frames)
+* [[!UICONTROL Flujos afectados por fotogramas rechazados]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frame-impacted-streams)
+* [[!UICONTROL Flujos afectados por error]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-impacted-streams)
+* [[!UICONTROL Eventos de error]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-events)
+* [[!UICONTROL Tiempo para el inicio]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start)
+
+Consulte [Dimensiones de calidad de servicios de medios de streaming](../dimensions/sm-quality.md) para ver las dimensiones correspondientes.
