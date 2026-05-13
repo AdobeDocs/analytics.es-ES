@@ -47,7 +47,7 @@ Las siguientes variables se introdujeron para la inserción de datos en lote, qu
 * **`aamlh`**: sugerencia de ubicación de Adobe Audience Manager.
 * **`contextData.key`**: [Variables de datos de contexto](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: variables del servicio de Experience Cloud ID. Incluye `id`, `authState`y `isMCSeed`.
-* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variables. Incluye `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` y `wow64`.
+* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=es) variables. Incluye `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` y `wow64`.
 * **`ipaddress`**: la dirección IP del visitante.
 * **`language`**: La dimensión [Idioma](/help/components/dimensions/language.md).
 * **`list1`** - **`list3`**: [Variables de lista](/help/implement/vars/page-vars/list.md).

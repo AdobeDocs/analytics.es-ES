@@ -22,4 +22,4 @@ ht-degree: 90%
 
 El inicio de sesión único de Adobe Experience Cloud se implementa desde Admin Console.
 
-Si necesita ayuda, consulte la [Guía del usuario para la administración](https://www.adobe.com/go/analytics_sso_en).
+Si necesita ayuda, consulte la [Guía del usuario para la administración](https://www.adobe.com/go/analytics_sso_es).
